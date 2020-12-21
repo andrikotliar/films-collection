@@ -1,0 +1,99 @@
+.twitter .container {
+	align-items: flex-start;
+}
+
+.twitter__tags {
+	position: sticky;
+	top: 0;
+	width: 25%;
+	margin-right: 20px;
+	padding: 10px 20px;
+}
+
+@media (max-width: 850px) {
+	.twitter__tags {
+		width: 30%;
+	}
+}
+
+.twitter__tags-title {
+	font-size: 32px;
+	line-height: 38px;
+	padding-bottom: 10px;
+}
+
+@media (max-width: 650px) {
+	.twitter .container {
+		flex-direction: column;
+	}
+	.twitter__tags {
+		position: static;
+		width: 100%;
+		padding: 0;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.twitter__menu {
+		display: inline-flex;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+	.twitter__menu a {
+		border-bottom: 0;
+	}
+}
+
+.twitter__menu a {
+	display: block;
+	font-size: 18px;
+	padding: 20px;
+	border-bottom: 1px solid #ddd;
+	transition: .3s;
+	background-color: #f2f2f2;
+}
+
+.twitter__menu a:hover {
+	background-color: #ddd;
+}
+
+.twitter__menu a:last-child {
+	border-bottom: 0;
+}
+
+.twitter__feed {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: calc(75% - 20px);
+	min-height: 2500px;
+}
+
+@media (max-width: 850px) {
+	.twitter__feed {
+		width: calc(60% - 20px);
+	}
+}
+
+@media (max-width: 650px) {
+	.twitter__feed {
+		width: 100%;
+	}	
+}
+
+.all-tweets-btn {
+	display: block;
+	color: #fff;
+    width: 240px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #2b7bb9;
+    border-radius: 5px;
+    padding: 15px 0;
+    margin: 0 auto;
+    transition: .3s;
+}
+
+.all-tweets-btn:hover {
+	background-color: #47a3eb;
+}

@@ -1,0 +1,439 @@
+.section-title {
+	text-align: center;
+}
+.film-info {
+	--site-color: #034fd7;
+	--bg-color: #f2f2f2;
+	max-width: 960px;
+	margin: 0 auto; 
+}
+.film-info__title {
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 30px 0;
+}
+/*film header*/
+.film-info__header {
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	height: 410px;
+	overflow: hidden;
+}
+.film-info__poster {
+	width: 40%;
+}
+.film-info__poster img {
+	width: 100%;
+	height: 100%;
+}
+
+/*film categories*/
+.film-info__categories {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+.film-info__category {
+	display: block;
+	background-color: #ccc;
+	padding: 5px 15px;
+	margin-right: 10px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+/*film genres*/
+.film-info__genres {
+	display: flex;
+}
+.film-info__genre {
+	display: block;
+	margin-right: 10px;
+	padding: 10px 20px;
+	background-color: #ffe6b3;
+	transition: .3s;
+}
+.film-info__genre:hover {
+	background-color: #ffdd99;
+}
+/*film main info*/
+.film-info__main {
+	display: flex;
+	justify-content: space-between;
+}
+.film-info__data {
+	width: calc(100% / 2.05);
+	background-color: var(--bg-color);
+	line-height: 1.5;
+	padding: 30px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.film-info__data .margin {
+	margin-top: 15px;
+}
+.film-info__cast {
+	margin: 20px 0;
+	padding-top: 20px;
+	border-top: 1px solid #ddd;
+}
+.film-info__persons {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+	margin-top: 20px;
+}
+
+.film-info__persons .actor {
+	display: flex;
+	align-items: center;
+	background-color: #f7f7f7;
+}
+
+.film-info__persons .actor__image {
+	font-size: 0;
+	margin-right: 20px;
+	width: 60px;
+}
+
+.film-info__persons .actor__image img {
+	width: 100%;
+}
+
+@media (max-width: 750px) {
+	.film-info__persons {
+		grid-template-columns: repeat(2, 1fr);
+	}	
+}
+
+@media (max-width: 750px) {
+	.film-info__persons {
+		display: block;
+	}
+
+	.film-info__persons	.actor {
+		margin-bottom: 10px;
+	}
+}
+
+/*film synopsis*/
+.film-info__synopsis {
+	font-size: 20px;
+	margin: 20px 0;
+	line-height: 1.5;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+@media (max-width: 660px) {
+	.film-info__synopsis {
+		font-size: 14px;
+	}
+}
+@media (max-width: 430px) {
+	.film-info__synopsis {
+		padding: 15px;
+	}
+}
+/*film awards*/
+.film-info__awards {
+	padding-top: 20px;
+	border-top: 1px solid #ddd;
+}
+.film-info__awards-list {
+	margin-top: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.film-info__award {
+	padding: 15px 20px;
+	width: calc(100% / 3.1);
+	margin-bottom: 20px;
+	border: 2px solid #ffcb0f;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.film-info__award-title {
+	text-transform: uppercase;
+	margin-bottom: 5px;
+	color: #ffcb0f;
+}
+.film-info__nominations li:before {
+	content: '\27A4';
+	color: #ffcb0f;
+	margin-right: 10px;
+}
+@media (max-width: 750px) {
+	.film-info__award {
+		width: calc(100% / 2.1);
+	}
+}
+@media (max-width: 450px) {
+	.film-info__award {
+		width: 100%;
+	}
+}
+.series__episodes {
+	background-color: var(--bg-color);
+	margin: 15px 0;
+	padding: 15px 20px;
+	box-sizing: border-box;
+}
+.series__episodes-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.series__episodes-item {
+	position: relative;
+	background-color: #e4e3e3;
+	margin-right: 15px;
+	padding: 5px 15px;
+}
+.series__episodes-link {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+}
+.series__trailers-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 15px 0;
+}
+.series__trailers-item {
+	display: block;
+	position: relative;
+	width: calc((100% / 5) - 10px);
+	margin-bottom: 30px;
+}
+.series__trailers-poster {
+	width: 100%;
+	height: 250px;
+	margin-right: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+@media (max-width: 800px) {
+	.series__trailers-poster {
+		height: 190px;
+	}
+}
+
+.series__trailers img {
+	width: 100%;
+	height: 100%;
+}
+.series__trailers-cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px; 
+	box-sizing: border-box;
+	text-transform: uppercase;
+	background-color: rgba(0,0,0,.6);
+}
+.series__trailers .play-btn {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+
+.parts {
+	border-top: 1px solid #ddd;
+	padding-top: 20px;
+}
+.parts__list {
+	display: flex;
+	justify-content: center; 
+	flex-wrap: wrap;
+	gap: 15px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.parts__poster {
+	width: 120px;
+	height: 180px;
+}
+.parts .router-link-active {
+	opacity: .5;
+	cursor: default;
+}
+.film-info__category--c-fav {
+	background-color: #fdd835;
+}
+.film-info__category--c-dc {
+	background-color: #4a148c;
+	color: #fff;			
+}
+.film-info__category--c-marvel {
+	background-color: #d32f2f;
+	color: #fff;
+}
+.film-info__category--c-sw {
+	background-color: #ffee58;
+}
+.film-info__category--c-hp {
+	background-color: #ffb74d;
+}
+.film-info__category--c-cw {
+	background-color: #64b5f6;
+	color: #fff;
+}
+.film-info__category--c-mw {
+	background-color: #1de9b6;
+}
+.film-info__category--c-tv {
+	background-color: #90a4ae;
+	color: #fff;
+}
+@media (max-width: 960px) {
+	.film-info {
+		max-width: 90%;
+	}
+	.series__episodes {
+		padding: 10px 10px 0 10px;
+	}
+	.series__episodes-list {
+		justify-content: center;
+	}
+	.series__episodes-item {
+		margin-bottom: 15px;
+	}
+	.series__trailers-poster {
+		height: 220px;
+	}
+}
+
+@media (max-width: 930px) {
+	.film-info__header {
+		height: 340px;
+	}
+	.film-info__poster {
+		width: 230px;
+	}
+	.parts__link {
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 780px) {
+	.film-info__header {
+		height: 270px;
+	}
+	.film-info__poster {
+		width: 180px;
+	}
+	.film-info__title {
+		font-size: 35px;
+		text-align: left;
+	}
+	.series__trailers-list {
+		justify-content: center;
+	}
+	.series__trailers-item {
+		width: 200px;
+		margin: 0 8px 16px;
+	}
+	.series__trailers-poster {
+		height: 275px;
+	}
+}
+
+@media (max-width: 660px) {
+	.film-info__header {
+		height: 234px;
+	}
+	.film-info__poster {
+		width: 154px;
+	}
+	.film-info__main {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 550px) {
+	.film-info__header {
+		height: 210px;
+	}
+	.film-info__poster {
+		width: 135px;
+	}
+}
+
+@media (max-width: 485px) {
+	.film-info__header {
+		height: 180px;
+	}
+	.film-info__poster {
+		width: 115px;
+	}
+	.film-info__main {
+		flex-direction: column;
+	}
+	.film-info__data {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.series__trailers-item {
+		width: 150px;
+	}
+	.series__trailers-poster {
+		height: 21px;
+	}
+	.parts__poster {
+		width: 100px;
+		height: 145px;
+	}
+}
+
+@media (max-width: 430px) {
+	.film-info__title {
+		font-size: 25px;
+	}
+	.film-info__category {
+		font-size: 12px;
+	}
+	.film-info__header {
+		height: auto;
+		flex-direction: column;
+	}
+	.film-info__poster {
+		width: auto;
+		margin-bottom: 20px;
+	}
+	.film-info__poster img {
+		height: auto;
+		width: 100%;
+	}
+	.film-info__data {
+		padding: 15px;
+	}
+}
+
+@media (max-width: 310px) {
+	.film-info__categories {
+		margin-bottom: 15px;
+	}
+	.film-info__category {
+		width: 100%;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+} 

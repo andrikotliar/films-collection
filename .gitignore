@@ -1,0 +1,5 @@
+node_modules/
+update-db.sh
+update-list.sh
+src/components/Test.vue
+dist/

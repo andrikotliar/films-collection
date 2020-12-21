@@ -1,0 +1,2513 @@
+[
+    {
+        "title": "Avatar",
+        "type": "film",
+        "year": 2009,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Ready Player One",
+        "type": "film",
+        "year": 2018,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Mission: Impossible",
+        "type": "film",
+        "year": 1996,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Mission: Impossible 2",
+        "type": "film",
+        "year": 2000,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Mission: Impossible III",
+        "type": "film",
+        "year": 2006,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Mission: Impossible: Ghost Protocol",
+        "type": "film",
+        "year": 2011,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Mission: Impossible: Rogue Nation",
+        "type": "film",
+        "year": 2015,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Mission: Impossible: Fallout",
+        "type": "film",
+        "year": 2018,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "TENET",
+        "type": "film",
+        "year": 2020,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "The 100",
+        "type": "film",
+        "year": 2014,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Back to the Future",
+        "type": "film",
+        "year": 1985,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Back to the Future: Part II",
+        "type": "film",
+        "year": 1989,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Back to the Future: Part III",
+        "type": "film",
+        "year": 1990,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Terminator",
+        "type": "film",
+        "year": 1984,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Terminator 2: Judgment Day",
+        "type": "film",
+        "year": 1991,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 15,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Terminator: Salvation",
+        "type": "film",
+        "year": 2009,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Star Wars Episode I: The Phantom Menace",
+        "type": "film",
+        "year": 1999,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Star Wars Episode II: Attack of the Clones",
+        "type": "film",
+        "year": 2002,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Star Wars Episode III: Revenge of the Sith",
+        "type": "film",
+        "year": 2005,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Star Wars Stories: Rogue One",
+        "type": "film",
+        "year": 2016,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Star Wars Stories: Solo",
+        "type": "film",
+        "year": 2018,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Star Wars Episode IV: A New Hope",
+        "type": "film",
+        "year": 1977,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Star Wars Episode V: The Empire Strikes Back",
+        "type": "film",
+        "year": 1980,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Star Wars Episode VI: Return of the Jedi",
+        "type": "film",
+        "year": 1983,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Star Wars Episode VII: The Force Awakens",
+        "type": "film",
+        "year": 2015,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Star Wars Episode VIII: The Last Jedi",
+        "type": "film",
+        "year": 2017,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Star Wars Episode IX: Rise of Skywalker",
+        "type": "film",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "The Hobbit: An Unexpected Journey",
+        "type": "film",
+        "year": 2012,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "The Hobbit: Desolation of Smaug",
+        "type": "film",
+        "year": 2013,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "The Hobbit: The Battle ofFive Armies",
+        "type": "film",
+        "year": 2014,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "type": "film",
+        "year": 2001,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "The Lord of the Rings: The Two Towers",
+        "type": "film",
+        "year": 2002,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "The Lord of the Rings: Return of the King",
+        "type": "film",
+        "year": 2003,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "How to Train Your Dragon",
+        "type": "animation",
+        "year": 2010,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "How to Train Your Dragon 2",
+        "type": "animation",
+        "year": 2014,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "How to Train Your Dragon: The Hidden World",
+        "type": "animation",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "The Matrix",
+        "type": "film",
+        "year": 1999,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 10,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "The Matrix Reloaded",
+        "type": "film",
+        "year": 2003,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 10,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "The Matrix Revolutions",
+        "type": "film",
+        "year": 2003,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 10,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "type": "film",
+        "year": 2001,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Harry Potter and the Chamber of Secrets",
+        "type": "film",
+        "year": 2002,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Harry Potter and the Prizoner of Azkaban",
+        "type": "film",
+        "year": 2004,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Harry Potter and the Goblet of Fire",
+        "type": "film",
+        "year": 2005,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Harry Potter and the Order of the Phoenix",
+        "type": "film",
+        "year": 2007,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Harry Potter and the Half-Blood Prince",
+        "type": "film",
+        "year": 2009,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Harry Potter and the Deathly Hallows: Part I",
+        "type": "film",
+        "year": 2010,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Harry Potter and the Deathly Hallows: Part II",
+        "type": "film",
+        "year": 2011,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "The Fast of the Furious",
+        "type": "film",
+        "year": 2001,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "2Fast & 2Furious",
+        "type": "film",
+        "year": 2003,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Fast and Furious: Tokyo Drift",
+        "type": "film",
+        "year": 2006,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Fast & Furious",
+        "type": "film",
+        "year": 2009,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Fast Five",
+        "type": "film",
+        "year": 2011,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Furious Six",
+        "type": "film",
+        "year": 2013,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Furious Seven",
+        "type": "film",
+        "year": 2015,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Fate of the Furious",
+        "type": "film",
+        "year": 2017,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Hobbs & Show",
+        "type": "film",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Iron Man",
+        "type": "film",
+        "year": 2008,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 6,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "The Incredible Hulk",
+        "type": "film",
+        "year": 2008,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Iron Man 2",
+        "type": "film",
+        "year": 2010,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Thor",
+        "type": "film",
+        "year": 2011,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Captain America: The First Avenger",
+        "type": "film",
+        "year": 2011,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 4,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Avengers",
+        "type": "film",
+        "year": 2012,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 4,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Iron Man 3",
+        "type": "film",
+        "year": 2013,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Thor: The Dark World",
+        "type": "film",
+        "year": 2013,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Captain America: The Winter Soldier",
+        "type": "film",
+        "year": 2014,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Guardians of the Galaxy",
+        "type": "film",
+        "year": 2014,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Avengers: Age of Ultron",
+        "type": "film",
+        "year": 2015,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 4,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Ant-Man",
+        "type": "film",
+        "year": 2015,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Captain America: Civil War",
+        "type": "film",
+        "year": 2016,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 4,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Doctor Strange",
+        "type": "film",
+        "year": 2016,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Guardians of the Galaxy: Vol. II",
+        "type": "film",
+        "year": 2017,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Spider-Man: Homecoming",
+        "type": "film",
+        "year": 2017,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Thor: Ragnarok",
+        "type": "film",
+        "year": 2017,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Black Panther",
+        "type": "film",
+        "year": 2018,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Avengers: Infinity War",
+        "type": "film",
+        "year": 2018,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 4,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Ant-Man and the Wasp",
+        "type": "film",
+        "year": 2018,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Captain Marvel",
+        "type": "film",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Avengers: Endgame",
+        "type": "film",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Spider-Man: Far from Home",
+        "type": "film",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "War of the Worlds",
+        "type": "film",
+        "year": 2005,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 4,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Star Trek",
+        "type": "film",
+        "year": 2009,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Star Trek: Into Darkness",
+        "type": "film",
+        "year": 2013,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Star Trek: Beyond",
+        "type": "film",
+        "year": 2016,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "X-Men",
+        "type": "film",
+        "year": 2000,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "X2",
+        "type": "film",
+        "year": 2003,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "X-Men: The Last Stand",
+        "type": "film",
+        "year": 2006,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "X-Men: Origins - Wolverine",
+        "type": "film",
+        "year": 2009,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "X-Men: First Class",
+        "type": "film",
+        "year": 2011,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "X-Men: Days of Future Past",
+        "type": "film",
+        "year": 2014,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "X-Men: Apocalypse",
+        "type": "film",
+        "year": 2016,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Logan",
+        "type": "film",
+        "year": 2017,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "X-Men: Dark Phoenix",
+        "type": "film",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Sherlock Holmes",
+        "type": "film",
+        "year": 2009,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Sherlock Holmes: A Game of Shadows",
+        "type": "film",
+        "year": 2011,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "The Mummy",
+        "type": "film",
+        "year": 1999,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 11,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "The Mummy Returns",
+        "type": "film",
+        "year": 2001,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 10,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "The Mummy: Tomb of the Dragon Emperor",
+        "type": "film",
+        "year": 2008,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Pacific Rim",
+        "type": "film",
+        "year": 2013,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Pacific Rim: Uprising",
+        "type": "film",
+        "year": 2018,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Edge of Tomorrow",
+        "type": "film",
+        "year": 2014,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Interstellar",
+        "type": "film",
+        "year": 2014,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "The Librarian: Quest for the Spire",
+        "type": "film",
+        "year": 2004,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "The Librarian: Return to the King Solomon's Mines",
+        "type": "film",
+        "year": 2006,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "The Librarian: Curse of the Judas Chalice",
+        "type": "film",
+        "year": 2008,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "type": "film",
+        "year": 2003,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Pirates of the Caribbean: Dead Man's Chest",
+        "type": "film",
+        "year": 2006,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Pirates of the Caribbean: At World's End",
+        "type": "film",
+        "year": 2007,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Pirates of the Caribbean: On Stranger Tides",
+        "type": "film",
+        "year": 2011,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Jurassic Park",
+        "type": "film",
+        "year": 1993,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 3,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "The Lost World: Jurassic Park",
+        "type": "film",
+        "year": 1997,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Jurassic Park III",
+        "type": "film",
+        "year": 2001,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Jurassic World",
+        "type": "film",
+        "year": 2015,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Jurassic World: The Fallen Kingdom",
+        "type": "film",
+        "year": 2018,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Zootopia",
+        "type": "animation",
+        "year": 2016,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "I, Robot",
+        "type": "film",
+        "year": 2004,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 10,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Real Steel",
+        "type": "film",
+        "year": 2011,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 4,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "2012",
+        "type": "film",
+        "year": 2009,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Venom",
+        "type": "film",
+        "year": 2018,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Discrict 13",
+        "type": "film",
+        "year": 2004,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Discrict 13: Ultimatum",
+        "type": "film",
+        "year": 2009,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Passangers",
+        "type": "film",
+        "year": 2016,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "WALL-E",
+        "type": "animation",
+        "year": 2008,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 10,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "In Time",
+        "type": "film",
+        "year": 2011,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Tron: Legacy",
+        "type": "film",
+        "year": 2010,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Men in Black",
+        "type": "film",
+        "year": 1997,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Men in Black II",
+        "type": "film",
+        "year": 2002,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Men in Black: International",
+        "type": "film",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "The Transporeter",
+        "type": "film",
+        "year": 2002,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Transporeter 2",
+        "type": "film",
+        "year": 2005,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Transporeter 3",
+        "type": "film",
+        "year": 2008,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Bumblebee",
+        "type": "film",
+        "year": 2018,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Ice Age",
+        "type": "animation",
+        "year": 2002,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 10,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Ice Age 2: The Meltdown",
+        "type": "animation",
+        "year": 2006,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Ice Age 3: Dawn of the Dinosaurs",
+        "type": "animation",
+        "year": 2009,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "The Sorcerer's Apprentice",
+        "type": "film",
+        "year": 2010,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Need for Speed",
+        "type": "film",
+        "year": 2014,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Oblivion",
+        "type": "film",
+        "year": 2013,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Independence Day",
+        "type": "film",
+        "year": 1996,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 10,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Percy Jackson & Olympians: The Lightning Thief",
+        "type": "film",
+        "year": 2010,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Percy Jackson & Olympians: Sea of Monsters",
+        "type": "film",
+        "year": 2013,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "The Journey to the Center of the Earth",
+        "type": "film",
+        "year": 2008,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "The Journey The Mysterious Island",
+        "type": "film",
+        "year": 2012,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "The Martian",
+        "type": "film",
+        "year": 2015,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Transformers",
+        "type": "film",
+        "year": 2007,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 10,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Transformers: Revenge of the Fallen",
+        "type": "film",
+        "year": 2009,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 10,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Transformers: Dark of the Moon",
+        "type": "film",
+        "year": 2011,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Inception",
+        "type": "film",
+        "year": 2010,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "The Day After Tomorrow",
+        "type": "film",
+        "year": 2004,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "John Carter",
+        "type": "film",
+        "year": 2012,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Prince of Persia: The Sands of Time",
+        "type": "film",
+        "year": 2012,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 4,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "The Intouchables",
+        "type": "film",
+        "year": 2011,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Hancock",
+        "type": "film",
+        "year": 2008,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "The Batman Begins",
+        "type": "film",
+        "year": 2005,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "The Dark Knight",
+        "type": "film",
+        "year": 2008,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "The Dark Knight Rises",
+        "type": "film",
+        "year": 2012,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "San Andreas",
+        "type": "film",
+        "year": 2015,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Miss Peregrine's Home For Peculiar Children",
+        "type": "film",
+        "year": 2016,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "The Time Machine",
+        "type": "film",
+        "year": 2002,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Happy Feet",
+        "type": "film",
+        "year": 2006,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Tomb Rider",
+        "type": "film",
+        "year": 2018,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Murder on the Orient Express",
+        "type": "film",
+        "year": 2017,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "The Mummy",
+        "type": "film",
+        "year": 2017,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Warcraft",
+        "type": "film",
+        "year": 2016,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "The Chronicles of the Narnia: The Lion, the Witch and the Wardrobe",
+        "type": "film",
+        "year": 2005,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "The Chronicles of the Narnia: Prince Caspian",
+        "type": "film",
+        "year": 2008,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "The Chronicles of the Narnia: The Voyage of the Dawn Treader",
+        "type": "film",
+        "year": 2010,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Man of Steel",
+        "type": "film",
+        "year": 2013,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Batman v Superman: Dawn of Justice",
+        "type": "film",
+        "year": 2016,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Suicide Squad",
+        "type": "film",
+        "year": 2016,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Wonder Woman",
+        "type": "film",
+        "year": 2017,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Justice League",
+        "type": "film",
+        "year": 2017,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Aquaman",
+        "type": "film",
+        "year": 2018,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Shazam",
+        "type": "film",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Birds of Prey",
+        "type": "film",
+        "year": 2020,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Speed",
+        "type": "film",
+        "year": 1994,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 10,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Hugo",
+        "type": "film",
+        "year": 2011,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Sherlock",
+        "type": "series",
+        "year": 2010,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Godzilla",
+        "type": "film",
+        "year": 2014,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Kong: Scroll Island",
+        "type": "film",
+        "year": 2017,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Godzilla: King of the Monsters",
+        "type": "film",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Spider-Man: Into the Spider-Verse",
+        "type": "animation",
+        "year": 2018,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Hellboy",
+        "type": "film",
+        "year": 2004,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Hellboy II: The Golden Army",
+        "type": "film",
+        "year": 2008,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Now You See Me",
+        "type": "film",
+        "year": 2013,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Hitch",
+        "type": "film",
+        "year": 2005,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Source Code",
+        "type": "film",
+        "year": 2011,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "World War Z",
+        "type": "film",
+        "year": 2013,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Jumper",
+        "type": "film",
+        "year": 2008,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Finding Nemo",
+        "type": "animation",
+        "year": 2003,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 8,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Home Alone",
+        "type": "film",
+        "year": 1990,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 15,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Home Alone 2: Lost in New York",
+        "type": "film",
+        "year": 1992,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 15,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Teenage Mutnt Ninja Tourtles",
+        "type": "film",
+        "year": 2014,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 3,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "The Day Earth Stood Still",
+        "type": "film",
+        "year": 2008,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Equals",
+        "type": "film",
+        "year": 2016,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "The Ghost Rider",
+        "type": "film",
+        "year": 2007,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Taxi",
+        "type": "film",
+        "year": 1998,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 10,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Taxi 2",
+        "type": "film",
+        "year": 2000,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 10,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Taxi 3",
+        "type": "film",
+        "year": 2003,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 10,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Jumanji",
+        "type": "film",
+        "year": 1995,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Jumanji: Welcome to the Jungle",
+        "type": "film",
+        "year": 2005,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Jumanji: Next Level",
+        "type": "film",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Resident Evil",
+        "type": "film",
+        "year": 2002,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "The Fifth Element",
+        "type": "film",
+        "year": 1997,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "I am Legend",
+        "type": "film",
+        "year": 2007,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Alita: Battle Angel",
+        "type": "film",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "02:22:00 AM",
+        "type": "film",
+        "year": 2017,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Alladin",
+        "type": "film",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Mune: Le Gardian De La Lune",
+        "type": "animation",
+        "year": 2015,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Frozen",
+        "type": "animation",
+        "year": 2013,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 5,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Frozen II",
+        "type": "animation",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Your Name",
+        "type": "anime",
+        "year": 2016,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 4,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "The Adjustment Bureau",
+        "type": "film",
+        "year": 2011,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Rubinrot",
+        "type": "film",
+        "year": 2013,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Saphirblau",
+        "type": "film",
+        "year": 2014,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Smaragdgrun",
+        "type": "film",
+        "year": 2016,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Rise of the Planet of the Apes",
+        "type": "film",
+        "year": 2011,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Dawn of the Planet of the Apes",
+        "type": "film",
+        "year": 2014,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Gemini Man",
+        "type": "film",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 2,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Agent Carter",
+        "type": "series",
+        "year": 2015,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Agents of S.H.I.E.L.D.",
+        "type": "series",
+        "year": 2013,
+        "watched": 1,
+        "appstatus": 1,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Stranger Things",
+        "type": "series",
+        "year": 2016,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Academy Umbrella",
+        "type": "series",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "The Tuxedo",
+        "type": "film",
+        "year": 2002,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 5,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Spies in Disguise",
+        "type": "film",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Claus",
+        "type": "film",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Die Hard",
+        "type": "film",
+        "year": 1988,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 8,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Heroes",
+        "type": "series",
+        "year": 2006,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Heroes Reborn",
+        "type": "series",
+        "year": 2015,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Rush Hour",
+        "type": "film",
+        "year": 1998,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 5,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "The Call of the Wild",
+        "type": "film",
+        "year": 2020,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Contagion",
+        "type": "film",
+        "year": 2011,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "The Twilight",
+        "type": "film",
+        "year": 2008,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 5,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "The Twilight Saga: New Moon",
+        "type": "film",
+        "year": 2009,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 3,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "The Twilight Saga: Eclipse",
+        "type": "film",
+        "year": 2010,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 3,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "The Twilight Saga: Breaking Dawn - Part 1",
+        "type": "film",
+        "year": 2011,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "The Twilight Saga: Breaking Dawn - Part 2",
+        "type": "film",
+        "year": 2012,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 2,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "The Maze Runner",
+        "type": "film",
+        "year": 2014,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Maze Runner: The Scorch Trials",
+        "type": "film",
+        "year": 2015,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Maze Runner: The Death Cure",
+        "type": "film",
+        "year": 2018,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Onward",
+        "type": "film",
+        "year": 2020,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Eight Below",
+        "type": "film",
+        "year": 2006,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "The Hunger Games",
+        "type": "film",
+        "year": 2012,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 2,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "The Hunger Games: Catching Fire",
+        "type": "film",
+        "year": 2013,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "The Hunger Games: Mockingjay - Part 1",
+        "type": "film",
+        "year": 2014,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "The Hunger Games: Mockingjay - Part 2",
+        "type": "film",
+        "year": 2015,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Divergent",
+        "type": "film",
+        "year": 2014,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 2,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Insurgent",
+        "type": "film",
+        "year": 2015,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Allegiant",
+        "type": "film",
+        "year": 2016,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Titanic",
+        "type": "film",
+        "year": 1997,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 5,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Spider-Man (Sam Raimi)",
+        "type": "film",
+        "year": 2002,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 10,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Spider-Man 2 (Sam Raimi)",
+        "type": "film",
+        "year": 2004,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 10,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Spider-Man 3 (Sam Raimi)",
+        "type": "film",
+        "year": 2007,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 10,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "The Amazing Spider-Man",
+        "type": "film",
+        "year": 2012,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 3,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "The Amazing Spider-Man: Rise of Electro",
+        "type": "film",
+        "year": 2014,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 2,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Maleficent",
+        "type": "film",
+        "year": 2014,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Maleficent: Mistress of Evil",
+        "type": "film",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Alien",
+        "type": "film",
+        "year": 1979,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Aliens",
+        "type": "film",
+        "year": 1986,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Avatar: The Last Airbender",
+        "type": "animationSeries",
+        "year": 2005,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 5,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Teenage Mutant Ninja Tourtles",
+        "type": "animationSeries",
+        "year": 2003,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 8,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Sword Art Online",
+        "type": "anime",
+        "year": 2012,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 3,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Sword Art Online II",
+        "type": "anime",
+        "year": 2014,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Sword Art Online: Ordinal Scale",
+        "type": "anime",
+        "year": 2017,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Sword Art Online: Alicization",
+        "type": "anime",
+        "year": 2018,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Monsters, Inc.",
+        "type": "animation",
+        "year": 2001,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 5,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Shrek",
+        "type": "animation",
+        "year": 2001,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 10,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Shrek 2",
+        "type": "animation",
+        "year": 2004,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 10,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Sonic the Hedgehog",
+        "type": "film",
+        "year": 2020,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Extinction",
+        "type": "film",
+        "year": 2018,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Knives Out",
+        "type": "film",
+        "year": 2019,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "The Walk",
+        "type": "film",
+        "year": 2015,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Brave",
+        "type": "animation",
+        "year": 2012,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 3,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Stains;Gate",
+        "type": "anime",
+        "year": 2011,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 2,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Stains;Gate 0",
+        "type": "anime",
+        "year": 2018,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 0,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Mulan",
+        "type": "film",
+        "year": 2020,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Bolt",
+        "type": "animation",
+        "year": 2008,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 4,
+        "partstatus": "single_part"
+    },
+    {
+        "title": "Madagascar",
+        "type": "animation",
+        "year": 2005,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 8,
+        "partstatus": "first_part"
+    },
+    {
+        "title": "Madagascar Ecape 2 Africa",
+        "type": "animation",
+        "year": 2008,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 4,
+        "partstatus": "last_part"
+    },
+    {
+        "title": "Greenland",
+        "type": "film",
+        "year": 2008,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "single_part"
+    }
+]
