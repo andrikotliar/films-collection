@@ -2,7 +2,7 @@
   "name": "Films Collection",
   "short_name": "FC",
   "icons": [{
-        "src": "https://andrikotliar.github.io/films-short-data/src/images/icons/icon_512x512.png",
+        "src": "/images/icons/icon_512x512.png",
         "sizes": "512x512",
         "type": "image/png"
       }],
