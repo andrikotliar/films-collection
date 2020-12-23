@@ -1,11 +1,6 @@
-.section-title {
-	text-align: center;
-}
 .film-info {
 	--site-color: #034fd7;
 	--bg-color: #f2f2f2;
-	max-width: 960px;
-	margin: 0 auto; 
 }
 .film-info__title {
 	font-size: 50px;

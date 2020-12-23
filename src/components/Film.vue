@@ -1,5 +1,5 @@
 <template>
-	<main class="film-info page" v-if="films[filmID] != undefined">
+	<main class="film-info page container" v-if="films[filmID] != undefined">
 		<h1 class="film-info__title"> {{films[filmID].title}} </h1>
 		<section class="film-info__categories" v-if="films[filmID].categories != null">
 			<router-link 
@@ -12,7 +12,7 @@
 		</section>
 		<section class="film-info__header">
 			<div class="film-info__poster">
-				<img :src="`images/posters/${films[filmID].poster}.jpg`" :alt="films[filmID].title">
+				<img :src="`images/posters/${films[filmID].poster}.webp`" :alt="films[filmID].title">
 			</div>
 			<Trailer :youtube="films[filmID].trailer" />
 		</section>
@@ -83,12 +83,12 @@
 				<div class="series__trailers-list">
 					<a :href="'https://www.youtube.com/embed/' + trailer.youtube" class="series__trailers-item" v-for="trailer in films[filmID].type.data.trailers" target="_blank">
 						<div class="series__trailers-poster">
-							<img :src="'./src/images/posters/' + trailer.poster + '.jpg'">
+							<img :src="'images/posters/' + trailer.poster + '.webp'">
 						</div>
 						<div class="series__trailers-cover">
 							<h6 class="series__trailers-title">Season {{trailer.num}}</h6>
 							<div class="play-btn">
-								<img src="../images/icons/play.svg" alt="play">
+								<img src="images/icons/play.svg" alt="play">
 							</div>
 						</div>
 					</a>
@@ -100,7 +100,7 @@
 			<ul class="parts__list">
 				<li class="parts__item" v-for="parts in partsList">
 					<router-link :to="`/film/${parts.link}`">
-						<img :src="`./src/images/posters/${parts.poster}.jpg`" alt="" class="parts__poster">						
+						<img :src="`images/posters/${parts.poster}.webp`" alt="" class="parts__poster">						
 					</router-link>
 				</li>
 			</ul>
@@ -131,13 +131,7 @@
 				return partsListData;
 			}
 		},
-		methods: {
-			pageTop() {
-				document.documentElement.scrollTop = 0
-			}
-		},
 		created() {
-			document.documentElement.scrollTop = 0;
 			this.$store.dispatch('LOAD_FILMS');
 			this.$store.dispatch('LOAD_PARTS');
 		},

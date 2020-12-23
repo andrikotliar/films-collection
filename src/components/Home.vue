@@ -1,17 +1,13 @@
 <template>
-	<div id="FilmsList" class="page">
-		<div class="films-home">
-			<div class="container">
-				<Search />
-				<FilmsRow category="2019" title="The newest films" reverse="true"/>
-				<FilmsRow category="c-fav" title="The most favorite films" reverse="false"/>
-				<FilmsRow category="c-mw" title="The most watched films" reverse="true"/>
-				<FilmsRow category="c-cw" title="Cinema watched films" reverse="true"/>
-				<FilmsRow category="c-tv" title="TV Series" reverse="true" className="elems-3" />
-				<FilmsRow category="c-marvel" title="Marvel Cinematic Universe" reverse="true"/>
-				<FilmsRowYears />
-			</div>
-		</div>
+	<div class="page container">
+		<Search />
+		<FilmsRow category="2019" title="The newest films" reverse="true"/>
+		<FilmsRow category="c-fav" title="The most favorite films" reverse="false"/>
+		<FilmsRow category="c-mw" title="The most watched films" reverse="true"/>
+		<FilmsRow category="c-cw" title="Cinema watched films" reverse="true"/>
+		<FilmsRow category="c-tv" title="TV Series" reverse="true" className="elems-3" />
+		<FilmsRow category="c-marvel" title="Marvel Cinematic Universe" reverse="true"/>
+		<FilmsRowYears />
 	</div>
 </template>
 

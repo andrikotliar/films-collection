@@ -39,11 +39,20 @@
 	 color: #fff;
 	 font-size: 12px;
 }
- @media screen and (max-width: 550px) {
+ @media (max-width: 550px) {
 	 .footer__row {
 		 flex-wrap: wrap;
 	}
 	 .footer__col {
 		 margin-bottom: 15px;
+	}
+}
+
+@media (max-width: 500px) {
+	.footer {
+		margin-bottom: 50px;
+	}
+	.footer__col:first-child {
+		display: none;
 	}
 }

@@ -1,6 +1,5 @@
 .films-list {
 	max-width: 60%;
-	margin: 40px auto;
 }
 
 @media screen and (max-width: 960px) {

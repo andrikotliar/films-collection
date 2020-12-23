@@ -34,7 +34,7 @@
 		name: 'Footer',
 		data() {
 			return {
-				year: 0,
+				year: new Date().getFullYear(),
 				menu: [
 					{
 						id: 1,
@@ -97,10 +97,6 @@
 				],
 				genresList: ['Sci-Fi', 'Adventure', 'Fantasy', 'Action', 'Animation']
 			}
-		},
-		created() {
-			document.documentElement.scrollTop = 0
-			this.year = new Date().getFullYear()
 		}
 	}
 </script>

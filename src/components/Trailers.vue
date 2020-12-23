@@ -1,39 +1,37 @@
 <template>
-	<div id="Trailers" class="trailers-page page">
-		<div class="container container-start container-column">
-			<h2 class="page-title">New trailers</h2>
-			<div class="trailers">
-				<div class="trailers__main" v-if="data.items != undefined">
-					<iframe width="853" height="480" :src="`https://www.youtube.com/embed/${currentVideo}`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-				<div class="trailers__list">
-					<div class="trailer" v-for="video in data.items" :data-url="video.snippet.resourceId.videoId" @click="changeCurrentVideo">
-						<div class="trailer__image">
-							<img class="trailer__image" :src="`https://i.ytimg.com/vi/${video.snippet.resourceId.videoId}/hqdefault.jpg`" :alt="video.snippet.title">
-						</div>
-						<h3 class="trailer__title">{{video.snippet.title}}</h3>
-					</div>
-				</div>				
+	<div class="page container">
+		<h2 class="page-title">New trailers</h2>
+		<div class="trailers">
+			<div class="trailers__main" v-if="data.items != undefined">
+				<iframe width="853" height="480" :src="`https://www.youtube.com/embed/${currentVideo}`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
-			<h2 class="page-title">Releases calender</h2>
-			<table class="calender">
-				<thead class="calender__header">
-					<tr>
-						<th class="calender__cell">Film Title</th>
-						<th class="calender__cell">Release</th>
-					</tr>
-				</thead>
-				<tbody class="calender__body">
-					<tr v-for="film in calender">
-						<td class="calender__film-title calender__cell">
-							<span v-if="film.shortDate < currentDate" class="calender__film-released">Released</span>
-							{{film.title}}
-						</td>
-						<td class="calender__film-date calender__cell">{{film.date}}</td>
-					</tr>
-				</tbody>
-			</table>
+			<div class="trailers__list">
+				<div class="trailer" v-for="video in data.items" :data-url="video.snippet.resourceId.videoId" @click="changeCurrentVideo">
+					<div class="trailer__image">
+						<img class="trailer__image" :src="`https://i.ytimg.com/vi/${video.snippet.resourceId.videoId}/hqdefault.jpg`" :alt="video.snippet.title">
+					</div>
+					<h3 class="trailer__title">{{video.snippet.title}}</h3>
+				</div>
+			</div>				
 		</div>
+		<h2 class="page-title">Releases calender</h2>
+		<table class="calender">
+			<thead class="calender__header">
+				<tr>
+					<th class="calender__cell">Film Title</th>
+					<th class="calender__cell">Release</th>
+				</tr>
+			</thead>
+			<tbody class="calender__body">
+				<tr v-for="film in calender">
+					<td class="calender__film-title calender__cell">
+						<span v-if="film.shortDate < currentDate" class="calender__film-released">Released</span>
+						{{film.title}}
+					</td>
+					<td class="calender__film-date calender__cell">{{film.date}}</td>
+				</tr>
+			</tbody>
+		</table>
 	</div>
 </template>
 

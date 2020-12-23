@@ -21,43 +21,17 @@ body {
 }
 
 .container {
-  max-width: 1080px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  padding: 0 12%;
 }
 
-.container-start {
-  justify-content: flex-start;
-}
-
-.container-column {
-  flex-direction: column;
+@media (max-width: 925px) {
+  .container {
+    padding: 0 5%; 
+  }
 }
 
 .page {
+  position: relative;
   min-height: 600px;
-  margin: 40px 0;
-}
-
-.component {
-  width: 100%;
-}
-
-.page__title {
-  text-align: center;
-  width: 100%;
-}
-
-@media (max-width: 1200px) {
-  .container {
-    max-width: 960px;
-  }
-}
-
-@media (max-width: 1040px) {
-  .container {
-    max-width: 90%;
-  }
+  margin: 40px auto;
 }

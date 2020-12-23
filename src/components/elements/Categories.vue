@@ -1,20 +1,18 @@
 <template>
-	<div class="home-category component">
-		<div class="category">
-			<div class="category__header">
-				<h2 class="category__title"> {{title}} </h2>
+	<div class="category">
+		<div class="category__header">
+			<h2 class="category__title"> {{title}} </h2>
+		</div>
+		<div class="category__body">
+			<div v-for="film in setCategory.slice(0,5)" class="movie">
+				<router-link :to="'/film/' + film.id" class="movie__link">
+					<img :src="`images/posters/${film.poster}.webp`" :alt="film.title" class="movie__poster">
+				</router-link>
 			</div>
-			<div class="category__body">
-				<div v-for="film in setCategory.slice(0,5)" class="movie">
-					<router-link :to="'/film/' + film.id" class="movie__link">
-						<img :src="`images/posters/${film.poster}.jpg`" :alt="film.title" class="movie__poster">
-					</router-link>
-				</div>
-				<div class="movie movie--all">
-					<router-link :to="`/category/${category}/`">
-						View <br> {{allFilmsInCategory}}
-					</router-link>
-				</div>
+			<div class="movie movie--all">
+				<router-link :to="`/category/${category}/`">
+					View <br> {{allFilmsInCategory}}
+				</router-link>
 			</div>
 		</div>
 	</div>

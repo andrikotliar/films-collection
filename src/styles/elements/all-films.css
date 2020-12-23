@@ -1,25 +1,21 @@
 .all-films {
 	--main-color: #006db7;
 	min-height: 900px;
-	max-width: 1080px;
-    margin: 0 auto;
 }
 
-@media (max-width: 1200px) {
-	.all-films {
-		max-width: 90%;
-	}
-}
-
-.total {
-	margin-top: 30px;
-	width: 100%;
+.all-films__top {
+	display: flex;
+	justify-content: space-between;
 	font-size: 15px;
-	text-align: right;
+	margin-top: 30px;
 }
-.total__number {
+
+.all-films__top b {
 	font-weight: bold;
+	font-size: 18px;
+	padding-left: 10px;
 }
+
 .all-films__list {
 	display: flex;
 	flex-wrap: wrap;
@@ -99,6 +95,17 @@
 	visibility: visible;
 	opacity: 1;
 }
+
+.pages .router-link-active {
+	background-color: var(--main-color);
+	color: #fff;	
+}
+
+.pages .router-link-active:after {
+	visibility: visible;
+	opacity: 1;
+}
+
 .preloader {
 	position: absolute;
 	top: 0;

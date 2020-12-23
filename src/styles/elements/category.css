@@ -1,27 +1,19 @@
-.category-list .container {
-	justify-content: flex-start;
-}
-
-.category-section {
-	margin: 30px auto 0;
-	max-width: 1080px;
-	text-align: center;
-	background-color: #ddd;
-	padding: 15px 0;
+.category-title {
 	text-transform: uppercase;
+	margin-bottom: 20px;
 }
 
-.category-list {
-	margin: 30px 0;
+.category-films {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
 }
 
 .category-film {
 	transition: .3s;
 	position: relative;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-	margin-right: 15px;
-	margin-bottom: 15px;
 }
+
 .category-film:hover {
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
@@ -51,13 +43,4 @@
 }
 .load-more__btn:hover {
 	background: lighten(#006db7, 8);
-}
-
-@media (max-width: 400px) {
-	.movie-list .container {
-		justify-content: space-between;
-	}
-	.category-film {
-		margin-right: 0;
-	}
 }

@@ -1,6 +1,6 @@
 <template>
-	<div id="TwitterPage" class="twitter page">
-		<div class="container container-start">
+	<div class="page container">
+		<div class="twitter">
 			<aside class="twitter__tags">
 				<h2 class="twitter__tags-title">Tags</h2>
 				<nav class="twitter__menu">
@@ -10,7 +10,7 @@
 			<div class="twitter__feed">
 				<Timeline id="film_materials" sourceType="profile" :options="{ tweetLimit: '5' }"/>
 				<a href="https://twitter.com/film_materials" target="_blank" class="all-tweets-btn">All tweets</a>
-			</div>			
+			</div>				
 		</div>
 	</div>
 </template>

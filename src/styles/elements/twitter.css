@@ -1,13 +1,10 @@
-.twitter .container {
-	align-items: flex-start;
-}
-
 .twitter__tags {
 	position: sticky;
 	top: 0;
 	width: 25%;
 	margin-right: 20px;
 	padding: 10px 20px;
+	float: left;
 }
 
 @media (max-width: 850px) {
