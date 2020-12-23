@@ -8,7 +8,12 @@ Vue.config.productionTip = false;
 
 Vue.use(VueRouter);
 
-const router = new VueRouter({routes});
+const router = new VueRouter({
+	routes,
+	scrollBehavior() {
+		return { x: 0, y: 0 }
+	}
+});
 
 new Vue({
   render: h => h(App),
