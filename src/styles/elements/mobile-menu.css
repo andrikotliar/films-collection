@@ -1,0 +1,43 @@
+.mobile-menu {
+	display: none;
+}
+
+@media (max-width: 550px) {
+	.mobile-menu {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		height: 50px;
+		background-color: #fff;
+		box-shadow: 2px 0 5px rgba(0,0,0,.5);
+		padding: 0 40px;
+		z-index: 999;
+	}
+	.mobile-menu__item {
+		width: 30px;
+		height: 30px;
+	}
+	.mobile-menu__link {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.mobile-menu__link img {
+		width: 100%;
+		height: 100%;
+		opacity: .3;
+	}
+	.mobile-menu__item .router-link-exact-active img {
+		opacity: 1;
+	}
+}
+
+@media (max-width: 400px) {
+	.mobile-menu {
+		padding: 0 20px;
+	}
+}
