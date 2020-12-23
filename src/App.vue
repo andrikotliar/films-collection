@@ -2,13 +2,15 @@
 	<div id="app">
 		<Header />
 		<router-view />	
-		<Footer />	
+		<Footer />
+		<MobileMenu />
 	</div>
 </template>
 
 <script>
-	import Header from 'elements/Header.vue'
-	import Footer from 'elements/Footer.vue'
+	import Header from 'elements/Header.vue';
+	import Footer from 'elements/Footer.vue';
+	import MobileMenu from 'elements/MobileMenu.vue';
 	if('serviceWorker' in navigator) {
 	  navigator.serviceWorker.register('sw.js')
 	    .then(() => navigator.serviceWorker.ready.then((worker) => {
@@ -20,7 +22,8 @@
 		name: 'app',
 		components: {
 			Header,
-			Footer
+			Footer,
+			MobileMenu
 		}
 	}
 </script>
