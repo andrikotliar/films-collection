@@ -1,0 +1,40 @@
+.year-b-menu {
+	display: flex;
+	gap: 20px; 
+	margin-top: 20px;
+}
+
+.year-b-menu__link {
+	position: relative;
+	display: block;
+	background-color: #f2f2f2;
+	padding: 10px 60px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: .3s;
+}
+
+.year-b-menu__link:hover {
+	background-color: #ddd;
+}
+
+.year-b-menu__link--all {
+	flex-grow: 1;
+}
+
+.year-b-menu__link--prev:before,
+.year-b-menu__link--next:after {
+	position: absolute;
+	border: 10px solid transparent;
+	content: '';
+}
+
+.year-b-menu__link--prev:before {
+	left: 5px;
+	border-right-color: #171717;
+}
+
+.year-b-menu__link--next:after {
+	right: 5px;
+	border-left-color: #171717;
+}

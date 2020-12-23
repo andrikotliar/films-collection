@@ -1,0 +1,29 @@
+.years-list {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap: 20px;
+}
+
+.film-year {
+	height: 215px;
+	overflow: hidden;
+	background-color: #f2f2f2;
+	position: relative;
+}
+
+.film-year img {
+	width: 100%;
+}
+
+.film-year__title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	line-height: 215px;
+}
