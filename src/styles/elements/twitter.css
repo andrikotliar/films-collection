@@ -20,15 +20,13 @@
 }
 
 @media (max-width: 650px) {
-	.twitter .container {
-		flex-direction: column;
-	}
 	.twitter__tags {
 		position: static;
 		width: 100%;
 		padding: 0;
 		margin-right: 0;
 		margin-bottom: 20px;
+		float: none;
 	}
 	.twitter__menu {
 		display: inline-flex;
@@ -62,7 +60,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 	width: calc(75% - 20px);
-	min-height: 2500px;
+	min-height: 100vh;
 }
 
 @media (max-width: 850px) {

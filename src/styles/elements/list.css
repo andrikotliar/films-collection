@@ -80,13 +80,8 @@
 .films-list__row[data-watched="0"] {
 	background-color: #ff6666;
 }
-.films-list__row[data-add="0"]:after {
-	content: '\2718';
-	font-size: 30px;
-	color: #f10000;
-	position: absolute;
-	top: 15px;
-	right: -40px;	
+.films-list__row[data-add="0"] .films-list__title {
+	color: red;
 }
 
 .films-list__row--film {
@@ -109,12 +104,6 @@
 	border-color: #e65100;
 }
 
-@media (max-width: 400px) {
-	.films-list__row[data-add="0"]:after {
-		font-size: 20px;
-		right: -30px;
-	}
-}
 .films-list__title {
 	width: 70%;
 }

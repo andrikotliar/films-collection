@@ -38,7 +38,7 @@
 	background-color: #d0d0d0;		
 }
 
-.movie--all a {
+.movie a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -46,6 +46,27 @@
 	height: 100%;
 	font-size: 18px;
 	text-align: center;
+}
+
+.movie--double {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	background-color: transparent;
+}
+
+.movie--double:hover {
+	background-color: transparent;
+}
+
+.movie--double a {
+	height: 50%;
+	background-color: #f2f2f2;
+	transition: .3s;
+}
+
+.movie--double a:hover {
+	background-color: #d0d0d0;
 }
 
 @media (max-width: 1200px) {
