@@ -112,6 +112,7 @@
 
 .film__production {
 	display: flex;
+	flex-wrap: wrap;
 	margin-top: auto;
 	height: auto;
 }
