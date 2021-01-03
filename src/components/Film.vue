@@ -1,111 +1,128 @@
 <template>
-	<main class="film-info page container" v-if="films[filmID] != undefined">
-		<h1 class="film-info__title"> {{films[filmID].title}} </h1>
-		<section class="film-info__categories" v-if="films[filmID].categories != null">
-			<router-link 
-				v-for="(category, index) in films[filmID].categories"
-				:to="'/category/' + category.link"  
-				:key="index" 
-				:class="'film-info__category film-info__category--' + category.link">
-				{{category.title}}
-			</router-link>
-		</section>
-		<section class="film-info__header">
-			<div class="film-info__poster">
+	<article class="film page container" v-if="films[filmID] != undefined">
+		<div class="film__header">
+			<div class="film__poster">
 				<img :src="`images/posters/${films[filmID].poster}.webp`" :alt="films[filmID].title">
 			</div>
-			<Trailer :youtube="films[filmID].trailer" />
-		</section>
-		<section class="film-info__genres">
-			<router-link 
-				v-for="(genre, index) in films[filmID].genres"
-				:to="'/genre/' + genre"  
-				:key="index" 
-				class="film-info__genre">
-				{{genre}}
-			</router-link>
-		</section>
-		<p class="film-info__synopsis">{{films[filmID].synopsis}}</p>
-		<section class="film-info__main">
-			<ul class="film-info__data">
-				<li><b>Directed by </b>{{films[filmID].director}}</li>
-				<li><b>Produced by </b>{{films[filmID].producers}}</li>
-				<li><b>Writtens by </b>{{films[filmID].writtens}}</li>
-				<li><b>Music by </b>{{films[filmID].music}}</li>
-				<li id="cinema" v-if="films[filmID].cinema != null"><b>Cinematography by </b>{{films[filmID].cinema}}</li>
-			</ul>
-			<ul class="film-info__data">
-				<li><b>Production Co: </b>{{films[filmID].production}}</li> 
-				<li class="margin"><b>Year: </b>{{films[filmID].year}}</li>
-				<li><b>Runtime: </b>{{films[filmID].time}} min</li>
-				<li><b>Country: </b>{{films[filmID].country}}</li>
-				<li class="margin" v-if="films[filmID].budget != null"><b>Budget: </b>${{films[filmID].budget}}</li>
-				<li v-if="films[filmID].boxoffice != null"><b>Box Office: </b>${{films[filmID].boxoffice}}</li>
-			</ul>
-		</section>
-		<section class="film-info__cast">
-			<h2 class="section-title">Cast</h2>
-			<div class="film-info__persons">
-				<div class="actor" v-for="actor in films[filmID].actors">
+			<div class="film__info">
+				<h1 class="film__title"> {{films[filmID].title}} </h1>
+				<div class="film__basic">
+					<div class="film__year">
+						<router-link :to="`/years/${films[filmID].year}`">{{films[filmID].year}}</router-link>
+					</div>
+					<div class="film__genres">
+						<router-link v-for="(genre, index) in films[filmID].genres" :to="'/genres/' + genre" :key="index" class="film__genre">{{genre}}</router-link>
+					</div>
+					<div class="film__runtime">
+						{{films[filmID].time}} min
+					</div>
+					<div class="film__country">
+						<router-link :to="`/country/${films[filmID].country}`">
+							{{films[filmID].country}}
+						</router-link>
+					</div>
+				</div>
+				<div class="film__crew film__crew--director">
+					<div class="crew">
+						<div class="crew__position">Directed by</div>
+						<div class="crew__names">{{films[filmID].director}}</div>
+					</div>
+				</div>
+				<div class="film__crew">
+					<div class="crew">
+						<div class="crew__position">Produced by</div>
+						<div class="crew__names">{{films[filmID].producers}}</div>
+					</div>
+					<div class="crew">
+						<div class="crew__position">Writtens by</div>
+						<div class="crew__names">{{films[filmID].writtens}}</div>
+					</div>
+					<div class="crew">
+						<div class="crew__position">Music by</div>
+						<div class="crew__names">{{films[filmID].writtens}}</div>
+					</div>
+					<div class="crew" v-if="films[filmID].cinema != null">
+						<div class="crew__position">Cinematography by</div>
+						<div class="crew__names">{{films[filmID].cinema}}</div>
+					</div>
+				</div>
+				<div class="film__production">
+					<span class="film__production-title">Production Co.:</span>
+					<div class="film__studio" v-for="(studio, index) in films[filmID].production">
+						<router-link :to="`/production/${studio}`">{{studio.replace(/\-/g, ' ')}}</router-link><span v-if="films[filmID].production.length > 1 && index + 1 != films[filmID].production.length">,</span>
+					</div>
+				</div> 
+			</div>
+		</div>
+		<div class="film__subinfo">
+			<div class="film__categories">
+				<router-link v-for="(category, index) in films[filmID].categories" :to="'/categories/' + category":key="index":class="'film__category film__category--' + category"> {{category.replace(/[^a-zA-Z\d]/g, ' ')}} </router-link>
+			</div>
+			<div class="film__money">
+				<div class="film__money-item" v-if="films[filmID].budget != null">
+					<div class="film__money-type">Budget</div>
+					<div class="film__money-value">$ {{films[filmID].budget}}</div>
+				</div>
+				<div class="film__money-item" v-if="films[filmID].boxoffice != null">
+					<div class="film__money-type">Box Office</div>
+					<div class="film__money-value">$ {{films[filmID].boxoffice}}</div>
+				</div>
+			</div>
+		</div>
+		<p class="film__synopsis">{{films[filmID].synopsis}}</p>
+		<Trailer v-if="films[filmID].trailer != null" :youtube="films[filmID].trailer" />
+		<ul class="seasons" v-if="films[filmID].type.value != 'film' ">
+			<li class="season" v-for="(season, index) in films[filmID].type.data">
+				<a :href="`https://www.youtube.com/embed/${season.trailer}`" class="season__trailer" target="_blank">
+					<div class="season__poster">
+						<img :src="`images/posters/${films[filmID].poster}_s${index + 1}.webp`">
+						<div class="season__play-btn">
+							<img src="images/icons/play.svg" alt="play">
+						</div>
+					</div>
+					<div class="season__info">
+						<h6 class="season__number">Season {{index + 1}}</h6>
+						<p class="season__episodes">{{season.episodes}} episodes</p>
+					</div>
+				</a>					
+			</li>
+		</ul>
+		<div class="film__cast">
+			<h2 class="info-section-title">Cast</h2>
+			<div class="film__persons">
+				<router-link :to="`/actor/${actor.image}`" class="actor" v-for="actor in films[filmID].actors">
 					<div class="actor__image">
 						<img :src="`images/actors/${actor.image}.jpg`" alt="">
 					</div>
 					<div class="actor__info">
-						<h3 class="actor__name">{{actor.name}}</h3>
+						<h3 class="actor__names">{{actor.name}}</h3>
 						<p class="actor__role"> {{actor.role}} </p>
 					</div>
+				</router-link>
+			</div>
+		</div>
+		<div class="awards" v-if="films[filmID].awards != null">
+			<h2 class="info-section-title">Awards</h2>
+			<div class="awards__list">
+				<div class="award" v-for="award in films[filmID].awards">
+					<h3 class="award__title"> {{award.title}} </h3>
+					<ul class="award__nominations">
+						<li v-for="nomination in award.nominations"> {{nomination}} </li>
+					</ul>
 				</div>
 			</div>
-		</section>
-		<section class="film-info__awards" v-if="films[filmID].awards != null">
-			<h2 class="section-title">Awards</h2>
-			<div class="film-info__awards-list">
-				<div class="film-info__award" v-for="award in films[filmID].awards">
-					<h3 class="film-info__award-title"> {{award.title}} </h3>
-					<ul class="film-info__nominations">
-			          <li v-for="nomination in award.nominations"> {{nomination}} </li>
-			        </ul>
-				</div>
-			</div>
-		</section>
-		<section class="series" v-if="films[filmID].type.value != 'film' ">
-			<h2 class="section-title">Number of Episodes</h2>
-			<div class="series__episodes">
-				<div class="series__episodes-list">
-					<div class="series__episodes-item" v-for="season in films[filmID].type.data.seasons">
-						<div class="series__episodes-season">Season: {{season[0]}}</div>
-						<div class="series__episodes-count">Episodes: {{season[1]}}</div>
-					</div>
-				</div>
-			</div>
-			<div class="series__trailers">
-				<h2 class="section-title">Trailers Gallery</h2>
-				<div class="series__trailers-list">
-					<a :href="'https://www.youtube.com/embed/' + trailer.youtube" class="series__trailers-item" v-for="trailer in films[filmID].type.data.trailers" target="_blank">
-						<div class="series__trailers-poster">
-							<img :src="'images/posters/' + trailer.poster + '.webp'">
-						</div>
-						<div class="series__trailers-cover">
-							<h6 class="series__trailers-title">Season {{trailer.num}}</h6>
-							<div class="play-btn">
-								<img src="images/icons/play.svg" alt="play">
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-		</section>
-		<section class="parts" v-if="films[filmID].parts != null">	
-			<h2 class="section-title">Prequels / Sequels</h2>
+		</div>
+		<div class="parts" v-if="films[filmID].parts != null">	
+			<h2 class="info-section-title">Prequels / Sequels</h2>
 			<ul class="parts__list">
 				<li class="parts__item" v-for="parts in partsList">
 					<router-link :to="`/film/${parts.link}`">
-						<img :src="`images/posters/${parts.poster}.webp`" alt="" class="parts__poster">						
+						<img :src="`images/posters/${parts.poster}.webp`" alt="" class="parts__poster">			
 					</router-link>
 				</li>
 			</ul>
-		</section>
-	</main>
+		</div>
+	</article>
 </template>
 
 <script>
@@ -113,7 +130,7 @@
 	import Trailer from 'elements/Trailer'
 
 	export default {
-		name: 'Film',
+		names: 'Film',
 		props: ['id'],
 		computed: {
 			...mapState(['films', 'parts']),
