@@ -5,11 +5,22 @@
 				<img :src="`images/actors/${actor}.jpg`" alt="">
 			</div>
 			<h2 class="actor-info__name">
-				
+				{{actor.replace(/_/g, ' ')}}
 			</h2>
 		</aside>
-		<div class="actor-films-list">
-			<h2 v-for="film in filmsByActor">{{film.title}}</h2>
+		<div class="actor-films__list">
+			<router-link :to="`/film/${film.id}`" class="actor-film" v-for="(film, index) in filmsByActor" :key="index">
+				<div class="actor-film__poster">
+					<img :src="`images/posters/${film.poster}.webp`" :alt="film.title">
+				</div>
+				<div class="actor-film__info">
+					<h3 class="actor-film__title">{{film.title}}</h3>
+					<p class="actor-film__role" v-for="a in film.actors">
+						<span v-if="a.image == actor">Role: <b>{{a.role}}</b></span>
+					</p>
+					<p class="actor-film__year">{{film.year}}</p>							
+				</div>
+			</router-link>
 		</div>
 	</div>
 </template>
@@ -30,7 +41,7 @@
 						}
 					}
 				}
-				return actorFilms;
+				return actorFilms.sort((a, b) => a.year > b.year ? 1 : -1);
 			}
 		},
 		mounted() {
