@@ -4,11 +4,8 @@
         "title": "Avatar",
         "poster": "avatar",
         "trailer": "5PSNL1qE6VY",
-        "genres": [
-            "Sci-Fi",
-            "Action"
-        ],
-        "production": "20th Century FOX",
+        "genres": ["Sci-Fi", "Action"],
+        "production": ["20th-Century-FOX"],
         "director": "James Cameron",
         "producers": "James Cameron, Jon Landau",
         "writtens": "James Cameron",
@@ -67,16 +64,7 @@
             }
         ],
         "synopsis": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
-        "categories": [
-            {
-                "title": "Special Favorite",
-                "link": "c-fav"
-            },
-            {
-                "title": "Most Watched",
-                "link": "c-mw"
-            }
-        ],
+        "categories": ["special-favorite", "most-watched"],
         "awards": [
             {
                 "title": "Oscar",
@@ -115,7 +103,7 @@
             "Sci-Fi",
             "Adventure"
         ],
-        "production": "Warner Bros., Amblin Entertainment",
+        "production": ["Warner-Bros.-Pictures", "Amblin-Entertainment"],
         "director": "Steven Spielberg",
         "producers": "Donald De Line, Dan Farah",
         "writtens": "Zak Penn, Ernest Cline",
@@ -179,16 +167,7 @@
             }
         ],
         "synopsis": "When the creator of a virtual reality world called the OASIS dies, he releases a video in which he challenges all OASIS users to find his Easter Egg, which will give the finder his fortune",
-        "categories": [
-            {
-                "title": "Special Favorite",
-                "link": "c-fav"
-            },
-            {
-                "title": "Cinema Watched",
-                "link": "c-cw"
-            }
-        ],
+        "categories": ["special-favorite", "cinema-watched"],
         "awards": null,
         "parts": null,
         "type": {
@@ -205,7 +184,7 @@
             "Action",
             "Adventure"
         ],
-        "production": "Paramount Pictures",
+        "production": ["Paramount-Pictures"],
         "director": "Brian De Palma",
         "producers": "Tom Cruise, Paula Wagner",
         "writtens": "David Koepp, Robert Towne",
@@ -264,7 +243,7 @@
             }
         ],
         "synopsis": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -281,7 +260,7 @@
             "Action",
             "Adventure"
         ],
-        "production": "Paramount Pictures",
+        "production": ["Paramount-Pictures"],
         "director": "John Wo",
         "producers": "Tom Cruise, Paula Wagner",
         "writtens": "Robert Towne",
@@ -335,7 +314,7 @@
             }
         ],
         "synopsis": "IMF Agent Ethan Hunt is sent to Sydney, to find and destroy a genetically modified disease called \"Chimera\".",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -352,7 +331,7 @@
             "Action",
             "Adventure"
         ],
-        "production": "Paramount Pictures",
+        "production": ["Paramount-Pictures"],
         "director": "J.J. Abrams",
         "producers": "Tom Cruise, Paula Wagner",
         "writtens": "Alex Kurtzman, Roberto Orci, J.J. Abrams",
@@ -421,7 +400,7 @@
             }
         ],
         "synopsis": "IMF Agent Ethan Hunt comes into conflict with a dangerous and sadistic arms dealer who threatens his life and his fiancée in response.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -438,7 +417,7 @@
             "Action",
             "Adventure"
         ],
-        "production": "Paramount Pictures",
+        "production": ["Paramount-Pictures"],
         "director": "Brad Bird",
         "producers": "Tom Cruise, Bryan Burk, J.J. Abrams",
         "writtens": "Josh Appelbaum, Andre Nemec",
@@ -507,7 +486,7 @@
             }
         ],
         "synopsis": "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -524,7 +503,7 @@
             "Action",
             "Adventure"
         ],
-        "production": "Paramount Pictures",
+        "production": ["Paramount-Pictures"],
         "director": "Christopher McQuarrie",
         "producers": "Tom Cruise, Bryan Burk, J.J. Abrams, David Ellison, Dana Goldberg, Don Granger",
         "writtens": "Christopher McQuarrie",
@@ -593,7 +572,7 @@
             }
         ],
         "synopsis": "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -610,7 +589,7 @@
             "Action",
             "Adventure"
         ],
-        "production": "Paramount Pictures",
+        "production": ["Paramount-Pictures"],
         "director": "Christopher McQuarrie",
         "producers": "Tom Cruise, J.J. Abrams, Christopher McQuarrie, Jake Myers",
         "writtens": "Christopher McQuarrie",
@@ -669,7 +648,7 @@
             }
         ],
         "synopsis": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -686,7 +665,7 @@
             "Sci-Fi",
             "Adventure"
         ],
-        "production": "Universal Pictures",
+        "production": ["Universal-Pictures"],
         "director": "Robert Zemeckis",
         "producers": "Steven Spielberg, Bob Gale, Neil Canton",
         "writtens": "Robert Zemeckis, Bob Gale",
@@ -740,7 +719,7 @@
             }
         ],
         "synopsis": "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": "back-to-the-future",
         "type": {
@@ -757,7 +736,7 @@
             "Sci-Fi",
             "Adventure"
         ],
-        "production": "Universal Pictures",
+        "production": ["Universal-Pictures"],
         "director": "Robert Zemeckis",
         "producers": "Bob Gale, Neil Canton",
         "writtens": "Bob Gale",
@@ -796,9 +775,9 @@
             }
         ],
         "synopsis": "After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "back-to-the-future",
         "type": {
             "value": "film",
             "data": null
@@ -813,7 +792,7 @@
             "Sci-Fi",
             "Adventure"
         ],
-        "production": "Universal Pictures",
+        "production": ["Universal-Pictures"],
         "director": "Robert Zemeckis",
         "producers": "Bob Gale, Neil Canton",
         "writtens": "Bob Gale",
@@ -847,9 +826,9 @@
             }
         ],
         "synopsis": "Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about to be killed by Buford \"Mad Dog\"Tannen. Marty McFly travels back in time to save his friend.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "back-to-the-future",
         "type": {
             "value": "film",
             "data": null
@@ -864,7 +843,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Orion Pictures, Cinema ‘84",
+        "production": ["Orion-Pictures", "Cinema-84"],
         "director": "James Cameron",
         "producers": "Gale Ann Hurd",
         "writtens": "James Cameron, Gale Ann Hurd",
@@ -893,7 +872,7 @@
             }
         ],
         "synopsis": "A seemingly indestructible android is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -910,7 +889,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "TriStar, Carolco Pictures",
+        "production": ["TriStar", "Carolco-Pictures"],
         "director": "James Cameron",
         "producers": "James Cameron",
         "writtens": "James Cameron, William Wisher",
@@ -949,16 +928,7 @@
             }
         ],
         "synopsis": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her teenage son, John Connor, from a more advanced and powerful cyborg.",
-        "categories": [
-            {
-                "title": "Special Favorite",
-                "link": "c-fav"
-            },
-            {
-                "title": "Cinema Watched",
-                "link": "c-cw"
-            }
-        ],
+        "categories": ["special-favorite", "cinema-watched"],
         "awards": null,
         "parts": null,
         "type": {
@@ -975,7 +945,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Columbia Pictures, The Halcyon Company",
+        "production": ["Columbia-Pictures", "The Halcyon Company"],
         "director": "McG",
         "producers": "Derek Anderson, Moritz Borman",
         "writtens": "John Brancato, Michael Ferris",
@@ -1024,7 +994,7 @@
             }
         ],
         "synopsis": "In 2018, a mysterious new weapon in the war against the machines, half-human and half-machine, comes to John Connor on the eve of a resistance attack on Skynet. But whose side is he on, and can he be trusted?",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -1038,10 +1008,10 @@
         "poster": "star_wars_1",
         "trailer": "bD7bpG-zDJQ",
         "genres": [
-            "Space Opera",
+            "SpaceOpera",
             "Adventure"
         ],
-        "production": "20th Century FOX, Lucasfilm",
+        "production": ["20th-Century-FOX", "Lucasfilm"],
         "director": "George Lucas",
         "producers": "Rick McCallum",
         "writtens": "George Lucas",
@@ -1110,12 +1080,7 @@
             }
         ],
         "synopsis": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their old glory.",
-        "categories": [
-            {
-                "title": "Star Wars",
-                "link": "c-sw"
-            }
-        ],
+        "categories": ["star-wars"],
         "awards": null,
         "parts": null,
         "type": {
@@ -1129,10 +1094,10 @@
         "poster": "star_wars_2",
         "trailer": "gYbW1F_c9eM",
         "genres": [
-            "Space Opera",
+            "SpaceOpera",
             "Adventure"
         ],
-        "production": "20th Century FOX, Lucasfilm",
+        "production": ["20th-Century-FOX", "Lucasfilm"],
         "director": "George Lucas",
         "producers": "Rick McCallum",
         "writtens": "George Lucas, Jonathan Hales",
@@ -1191,12 +1156,7 @@
             }
         ],
         "synopsis": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi.",
-        "categories": [
-            {
-                "title": "Star Wars",
-                "link": "c-sw"
-            }
-        ],
+        "categories": ["star-wars"],
         "awards": null,
         "parts": null,
         "type": {
@@ -1210,10 +1170,10 @@
         "poster": "star_wars_3",
         "trailer": "5UnjrG_N8hU",
         "genres": [
-            "Space Opera",
+            "SpaceOpera",
             "Adventure"
         ],
-        "production": "20th Century FOX, Lucasfilm",
+        "production": ["20th-Century-FOX", "Lucasfilm"],
         "director": "George Lucas",
         "producers": "Rick McCallum",
         "writtens": "George Lucas",
@@ -1262,12 +1222,7 @@
             }
         ],
         "synopsis": "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy.",
-        "categories": [
-            {
-                "title": "Star Wars",
-                "link": "c-sw"
-            }
-        ],
+        "categories": ["star-wars"],
         "awards": null,
         "parts": null,
         "type": {
@@ -1281,10 +1236,10 @@
         "poster": "star_wars_4",
         "trailer": "frdj1zb9sMY",
         "genres": [
-            "Space Opera",
+            "SpaceOpera",
             "Adventure"
         ],
-        "production": "Lucasfilm, Walt Disney Pictures",
+        "production": ["Lucasfilm", "Walt-Disney-Pictures"],
         "director": "Gareth Edwards",
         "producers": "Simon Emanuel, Allison Shearmur",
         "writtens": "Chris Weitz, Tony Gilroy",
@@ -1338,12 +1293,7 @@
             }
         ],
         "synopsis": "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans.",
-        "categories": [
-            {
-                "title": "Star Wars",
-                "link": "c-sw"
-            }
-        ],
+        "categories": ["star-wars"],
         "awards": null,
         "parts": null,
         "type": {
@@ -1359,7 +1309,7 @@
         "genres": [
             "Space Western"
         ],
-        "production": "Lucasfilm, Walt Disney Pictures",
+        "production": ["Lucasfilm", "Walt-Disney-Pictures"],
         "director": "Ron Howard",
         "producers": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
         "writtens": "Jonathan Kasdan, Lawrence Kasdan",
@@ -1428,12 +1378,7 @@
             }
         ],
         "synopsis": "During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion.",
-        "categories": [
-            {
-                "title": "Star Wars",
-                "link": "c-sw"
-            }
-        ],
+        "categories": ["star-wars"],
         "awards": null,
         "parts": null,
         "type": {
@@ -1447,10 +1392,10 @@
         "poster": "star_wars_6",
         "trailer": "vZ734NWnAHA",
         "genres": [
-            "Space Opera",
+            "SpaceOpera",
             "Adventure"
         ],
-        "production": "20th Century FOX, Lucasfilm",
+        "production": ["20th-Century-FOX", "Lucasfilm"],
         "director": "George Lucas",
         "producers": "Gary Kurtz",
         "writtens": "George Lucas",
@@ -1509,12 +1454,7 @@
             }
         ],
         "synopsis": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the evil Darth Vader.",
-        "categories": [
-            {
-                "title": "Star Wars",
-                "link": "c-sw"
-            }
-        ],
+        "categories": ["star-wars"],
         "awards": null,
         "parts": null,
         "type": {
@@ -1528,10 +1468,10 @@
         "poster": "star_wars_7",
         "trailer": "JNwNXF9Y6kY",
         "genres": [
-            "Space Opera",
+            "SpaceOpera",
             "Adventure"
         ],
-        "production": "20th Century FOX, Lucasfilm",
+        "production": ["20th-Century-FOX", "Lucasfilm"],
         "director": "Irvin Kershner",
         "producers": "Gary Kurtz",
         "writtens": "Leight Brackett, Lawrence Kasdan",
@@ -1590,12 +1530,7 @@
             }
         ],
         "synopsis": "After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.",
-        "categories": [
-            {
-                "title": "Star Wars",
-                "link": "c-sw"
-            }
-        ],
+        "categories": ["star-wars"],
         "awards": null,
         "parts": null,
         "type": {
@@ -1609,10 +1544,10 @@
         "poster": "star_wars_8",
         "trailer": "5UfA_aKBGMc",
         "genres": [
-            "Space Opera",
+            "SpaceOpera",
             "Adventure"
         ],
-        "production": "20th Century FOX, Lucasfilm",
+        "production": ["20th-Century-FOX", "Lucasfilm"],
         "director": "Richard Marquand",
         "producers": "Howard Kazanjian",
         "writtens": "George Lucas, Lawrence Kasdan",
@@ -1671,12 +1606,7 @@
             }
         ],
         "synopsis": "After a daring mission to rescue Han Solo from Jabba the Hutt, the rebels dispatch to Endor to destroy a more powerful Death Star. Meanwhile, Luke struggles to help Vader back from the dark side without falling into the Emperor's trap.",
-        "categories": [
-            {
-                "title": "Star Wars",
-                "link": "c-sw"
-            }
-        ],
+        "categories": ["star-wars"],
         "awards": null,
         "parts": null,
         "type": {
@@ -1690,10 +1620,10 @@
         "poster": "star_wars_9",
         "trailer": "sGbxmsDFVnE",
         "genres": [
-            "Space Opera",
+            "SpaceOpera",
             "Adventure"
         ],
-        "production": "Walt Disney Pictures, Lucasfilm",
+        "production": ["Walt-Disney-Pictures", "Lucasfilm"],
         "director": "J.J. Abrams",
         "producers": "Kathleen Kennedy, J. J. Abrams, Bryan Burk",
         "writtens": "Lawrence Kasdan, J. J. Abrams, Michael Arndt",
@@ -1752,12 +1682,7 @@
             }
         ],
         "synopsis": "Three decades after the Empire's defeat, a new threat arises in the militant First Order. Stormtrooper defector Finn and the scavenger Rey are caught up in the Resistance's search for the missing Luke Skywalker.",
-        "categories": [
-            {
-                "title": "Star Wars",
-                "link": "c-sw"
-            }
-        ],
+        "categories": ["star-wars"],
         "awards": null,
         "parts": null,
         "type": {
@@ -1771,10 +1696,10 @@
         "poster": "star_wars_10",
         "trailer": "Q0CbN8sfihY",
         "genres": [
-            "Space Opera",
+            "SpaceOpera",
             "Adventure"
         ],
-        "production": "Walt Disney Pictures, Lucasfilm",
+        "production": ["Walt-Disney-Pictures", "Lucasfilm"],
         "director": "Rian Johnson",
         "producers": "Kathleen Kennedy, Ram Bergman",
         "writtens": "Rian Johnson",
@@ -1833,16 +1758,7 @@
             }
         ],
         "synopsis": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.",
-        "categories": [
-            {
-                "title": "Star Wars",
-                "link": "-sw"
-            },
-            {
-                "title": "Cinema Watched",
-                "link": "c-cw"
-            }
-        ],
+        "categories": ["star-wars", "cinema-watched"],
         "awards": null,
         "parts": null,
         "type": {
@@ -1859,7 +1775,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "New Line Cinema",
+        "production": ["New-Line-Cinema"],
         "director": "Peter Jackson",
         "producers": "Carolynne Cunningham, Zane Weiner, Fran Walsh, Peter Jackson",
         "writtens": "Fran Walsh, Philippa Boyens, Peter Jackson, Guillermo del Toro",
@@ -1968,7 +1884,7 @@
             }
         ],
         "synopsis": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -1985,7 +1901,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "New Line Cinema",
+        "production": ["New-Line-Cinema"],
         "director": "Peter Jackson",
         "producers": "Carolynne Cunningham, Zane Weiner, Fran Walsh, Peter Jackson",
         "writtens": "Fran Walsh, Philippa Boyens, Peter Jackson, Guillermo del Toro",
@@ -2089,7 +2005,7 @@
             }
         ],
         "synopsis": "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -2106,7 +2022,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "New Line Cinema",
+        "production": ["New-Line-Cinema"],
         "director": "Peter Jackson",
         "producers": "Carolynne Cunningham, Zane Weiner, Fran Walsh, Peter Jackson",
         "writtens": "Fran Walsh, Philippa Boyens, Peter Jackson, Guillermo del Toro",
@@ -2210,7 +2126,7 @@
             }
         ],
         "synopsis": "Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -2227,7 +2143,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "New Line Cinema",
+        "production": ["New-Line-Cinema"],
         "director": "Peter Jackson",
         "producers": "Peter Jackson, Tim Sanders, Fran Walsh, Barrie M. Osborne",
         "writtens": "Fran Walsh, Philippa Boyens, Peter Jackson",
@@ -2301,12 +2217,7 @@
             }
         ],
         "synopsis": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
-        "categories": [
-            {
-                "title": "Most Watched",
-                "link": "c-mw"
-            }
-        ],
+        "categories": ["most-watched"],
         "awards": null,
         "parts": null,
         "type": {
@@ -2323,7 +2234,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "New Line Cinema",
+        "production": ["New-Line-Cinema"],
         "director": "Peter Jackson",
         "producers": "Peter Jackson, Fran Walsh, Barrie M. Osborne",
         "writtens": "Fran Walsh, Philippa Boyens, Peter Jackson",
@@ -2392,12 +2303,7 @@
             }
         ],
         "synopsis": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
-        "categories": [
-            {
-                "title": "Most Watched",
-                "link": "c-mw"
-            }
-        ],
+        "categories": ["most-watched"],
         "awards": null,
         "parts": null,
         "type": {
@@ -2414,7 +2320,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "New Line Cinema",
+        "production": ["New-Line-Cinema"],
         "director": "Peter Jackson",
         "producers": "Peter Jackson, Fran Walsh, Barrie M. Osborne",
         "writtens": "Fran Walsh, Philippa Boyens, Peter Jackson, Stephen Sinclair",
@@ -2483,12 +2389,7 @@
             }
         ],
         "synopsis": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
-        "categories": [
-            {
-                "title": "Most Watched",
-                "link": "c-mw"
-            }
-        ],
+        "categories": ["most-watched"],
         "awards": null,
         "parts": null,
         "type": {
@@ -2503,9 +2404,10 @@
         "trailer": "oKiYuIsPxYk",
         "genres": [
             "Fantasy",
-            "Adventure"
+            "Adventure",
+            "Animation"
         ],
-        "production": "DreamWorks Animation",
+        "production": ["DreamWorks-Animation"],
         "director": "Chris Sanders, Dean DeBlois",
         "producers": "Bonnie Amold",
         "writtens": "Will Davies, Dean DeBlois, Chris Sanders",
@@ -2569,12 +2471,7 @@
             }
         ],
         "synopsis": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
-        "categories": [
-            {
-                "title": "Special Favorite",
-                "link": "c-fav"
-            }
-        ],
+        "categories": ["special-favorite"],
         "awards": null,
         "parts": null,
         "type": {
@@ -2589,9 +2486,10 @@
         "trailer": "2BP38770KNo",
         "genres": [
             "Fantasy",
-            "Adventure"
+            "Adventure",
+            "Animation"
         ],
-        "production": "DreamWorks Animation",
+        "production": ["DreamWorks-Animation"],
         "director": "Dean DeBlois",
         "producers": "Bonnie Amold",
         "writtens": "Dean DeBlois",
@@ -2640,12 +2538,7 @@
             }
         ],
         "synopsis": "When Hiccup and Toothless discover an ice cave that is home to hundreds of new wild dragons and the mysterious Dragon Rider, the two friends find themselves at the center of a battle to protect the peace.",
-        "categories": [
-            {
-                "title": "Special Favorite",
-                "link": "c-fav"
-            }
-        ],
+        "categories": ["special-favorite"],
         "awards": null,
         "parts": null,
         "type": {
@@ -2660,9 +2553,10 @@
         "trailer": "SkcucKDrbOI",
         "genres": [
             "Fantasy",
-            "Adventure"
+            "Adventure",
+            "Animation"
         ],
-        "production": "DreamWorks Animation, Universal Pictures",
+        "production": ["DreamWorks-Animation", "Universal-Pictures"],
         "director": "Dean DeBlois",
         "producers": "Bonnie Amold, Brad Lewis",
         "writtens": "Dean DeBlois",
@@ -2731,16 +2625,7 @@
             }
         ],
         "synopsis": "When Hiccup discovers Toothless isn't the only Night Fury, he must seek \"The Hidden World\", a secret Dragon Utopia before a hired tyrant named Grimmel finds it first.",
-        "categories": [
-            {
-                "title": "Special Favorite",
-                "link": "c-fav"
-            },
-            {
-                "title": "Cinema Watched",
-                "link": "c-cw"
-            }
-        ],
+        "categories": ["special-favorite", "cinema-watched"],
         "awards": null,
         "parts": null,
         "type": {
@@ -2757,7 +2642,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Warner Bros. Pictures",
+        "production": ["Warner-Bros.-Pictures"],
         "director": "The Wachowski Brothers",
         "producers": "Joel Silver",
         "writtens": "The Wachowski Brothers",
@@ -2801,12 +2686,7 @@
             }
         ],
         "synopsis": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
-        "categories": [
-            {
-                "title": "Most Watched",
-                "link": "c-mw"
-            }
-        ],
+        "categories": ["most-watched"],
         "awards": null,
         "parts": null,
         "type": {
@@ -2823,7 +2703,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Warner Bros. Pictures",
+        "production": ["Warner-Bros.-Pictures"],
         "director": "The Wachowski Brothers",
         "producers": "Joel Silver",
         "writtens": "The Wachowski Brothers",
@@ -2887,12 +2767,7 @@
             }
         ],
         "synopsis": "Neo and the rebel leaders estimate that they have 72 hours until 250,000 probes discover Zion and destroy it and its inhabitants. During this, Neo must decide how he can save Trinity from a dark fate in his dreams.",
-        "categories": [
-            {
-                "title": "Most Watched",
-                "link": "c-mw"
-            }
-        ],
+        "categories": ["most-watched"],
         "awards": null,
         "parts": null,
         "type": {
@@ -2909,7 +2784,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Warner Bros. Pictures",
+        "production": ["Warner-Bros.-Pictures"],
         "director": "The Wachowski Brothers",
         "producers": "Joel Silver",
         "writtens": "The Wachowski Brothers",
@@ -2963,12 +2838,7 @@
             }
         ],
         "synopsis": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith.",
-        "categories": [
-            {
-                "title": "Most Watched",
-                "link": "c-mw"
-            }
-        ],
+        "categories": ["most-watched"],
         "awards": null,
         "parts": null,
         "type": {
@@ -2985,7 +2855,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "Warner Bros. Pictures",
+        "production": ["Warner-Bros.-Pictures"],
         "director": "Chris Columbus",
         "producers": "David Heyman",
         "writtens": "Steve Kloves",
@@ -3039,12 +2909,7 @@
             }
         ],
         "synopsis": "An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
-        "categories": [
-            {
-                "title": "Harry Potter",
-                "link": "c-hp"
-            }
-        ],
+        "categories": ["harry-potter"],
         "awards": null,
         "parts": null,
         "type": {
@@ -3061,7 +2926,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "Warner Bros. Pictures",
+        "production": ["Warner-Bros.-Pictures"],
         "director": "Chris Columbus",
         "producers": "David Heyman",
         "writtens": "Steve Kloves",
@@ -3120,12 +2985,7 @@
             }
         ],
         "synopsis": "Harry ignores warnings not to return to Hogwarts, only to find the school plagued by a series of mysterious attacks and a strange voice haunting him",
-        "categories": [
-            {
-                "title": "Harry Potter",
-                "link": "c-hp"
-            }
-        ],
+        "categories": ["harry-potter"],
         "awards": null,
         "parts": null,
         "type": {
@@ -3142,7 +3002,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "Warner Bros. Pictures",
+        "production": ["Warner-Bros.-Pictures"],
         "director": "Alfonso Cuaron",
         "producers": "David Heyman, Chris Columbus, Mark Radcliffe",
         "writtens": "Steve Kloves",
@@ -3201,12 +3061,7 @@
             }
         ],
         "synopsis": "It's Harry's third year at Hogwarts; not only does he have a new \"Defense Against the Dark Arts\" teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry.",
-        "categories": [
-            {
-                "title": "Harry Potter",
-                "link": "c-hp"
-            }
-        ],
+        "categories": ["harry-potter"],
         "awards": null,
         "parts": null,
         "type": {
@@ -3223,7 +3078,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "Warner Bros. Pictures",
+        "production": ["Warner-Bros.-Pictures"],
         "director": "Mike Newell",
         "producers": "David Heyman",
         "writtens": "Steve Kloves",
@@ -3282,12 +3137,7 @@
             }
         ],
         "synopsis": "A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
-        "categories": [
-            {
-                "title": "Harry Potter",
-                "link": "c-hp"
-            }
-        ],
+        "categories": ["harry-potter"],
         "awards": null,
         "parts": null,
         "type": {
@@ -3304,7 +3154,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "Warner Bros. Pictures",
+        "production": ["Warner-Bros.-Pictures"],
         "director": "David Yates",
         "producers": "David Heyman, David Barron",
         "writtens": "Michael Goldenberg",
@@ -3368,12 +3218,7 @@
             }
         ],
         "synopsis": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.",
-        "categories": [
-            {
-                "title": "Harry Potter",
-                "link": "c-hp"
-            }
-        ],
+        "categories": ["harry-potter"],
         "awards": null,
         "parts": null,
         "type": {
@@ -3390,7 +3235,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "Warner Bros. Pictures",
+        "production": ["Warner-Bros.-Pictures"],
         "director": "David Yates",
         "producers": "David Heyman, David Barron",
         "writtens": "Steve Kloves",
@@ -3449,12 +3294,7 @@
             }
         ],
         "synopsis": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \"the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past.",
-        "categories": [
-            {
-                "title": "Harry Potter",
-                "link": "c-hp"
-            }
-        ],
+        "categories": ["harry-potter"],
         "awards": null,
         "parts": null,
         "type": {
@@ -3471,7 +3311,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "Warner Bros. Pictures",
+        "production": ["Warner-Bros.-Pictures"],
         "director": "David Yates",
         "producers": "David Heyman, David Barron, J.K.Rowling",
         "writtens": "Steve Kloves",
@@ -3525,12 +3365,7 @@
             }
         ],
         "synopsis": "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows.",
-        "categories": [
-            {
-                "title": "Harry Potter",
-                "link": "c-hp"
-            }
-        ],
+        "categories": ["harry-potter"],
         "awards": null,
         "parts": null,
         "type": {
@@ -3547,7 +3382,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "Warner Bros. Pictures",
+        "production": ["Warner-Bros.-Pictures"],
         "director": "David Yates",
         "producers": "David Heyman, David Barron, J.K.Rowling",
         "writtens": "Steve Kloves",
@@ -3601,12 +3436,7 @@
             }
         ],
         "synopsis": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
-        "categories": [
-            {
-                "title": "Harry Potter",
-                "link": "c-hp"
-            }
-        ],
+        "categories": ["harry-potter"],
         "awards": null,
         "parts": null,
         "type": {
@@ -3623,7 +3453,7 @@
             "Action",
             "Crime"
         ],
-        "production": "Universal Pictures",
+        "production": ["Universal-Pictures"],
         "director": "Rob Cohen",
         "producers": "Neal H. Moritz",
         "writtens": "Gary Scott Thompson, Erik Bergq",
@@ -3677,7 +3507,7 @@
             }
         ],
         "synopsis": "Los Angeles police officer Brian O'Connor must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -3694,7 +3524,7 @@
             "Action",
             "Crime"
         ],
-        "production": "Universal Pictures",
+        "production": ["Universal-Pictures"],
         "director": "John Singleton",
         "producers": "Neal H. Moritz",
         "writtens": "Michael Brandt, Derek Haas",
@@ -3748,7 +3578,7 @@
             }
         ],
         "synopsis": "Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -3765,7 +3595,7 @@
             "Action",
             "Crime"
         ],
-        "production": "Universal Pictures",
+        "production": ["Universal-Pictures"],
         "director": "Justin Lin",
         "producers": "Neal H. Moritz",
         "writtens": "Chris Morgan",
@@ -3809,7 +3639,7 @@
             }
         ],
         "synopsis": "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -3826,7 +3656,7 @@
             "Action",
             "Crime"
         ],
-        "production": "Universal Pictures",
+        "production": ["Universal-Pictures"],
         "director": "Justin Lin",
         "producers": "Neal H. Moritz, Vin Diesel",
         "writtens": "Chris Morgan",
@@ -3880,7 +3710,7 @@
             }
         ],
         "synopsis": "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -3897,7 +3727,7 @@
             "Action",
             "Crime"
         ],
-        "production": "Universal Pictures",
+        "production": ["Universal-Pictures"],
         "director": "Justin Lin",
         "producers": "Neal H. Moritz, Vin Diesel",
         "writtens": "Chris Morgan",
@@ -3966,7 +3796,7 @@
             }
         ],
         "synopsis": "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -3983,7 +3813,7 @@
             "Action",
             "Crime"
         ],
-        "production": "Universal Pictures",
+        "production": ["Universal-Pictures"],
         "director": "Justin Lin",
         "producers": "Neal H. Moritz, Vin Diesel",
         "writtens": "Chris Morgan",
@@ -4052,7 +3882,7 @@
             }
         ],
         "synopsis": "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -4069,7 +3899,7 @@
             "Action",
             "Crime"
         ],
-        "production": "Universal Pictures",
+        "production": ["Universal-Pictures"],
         "director": "James Wan",
         "producers": "Neal H. Moritz, Vin Diesel",
         "writtens": "Chris Morgan",
@@ -4143,7 +3973,7 @@
             }
         ],
         "synopsis": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -4160,7 +3990,7 @@
             "Action",
             "Crime"
         ],
-        "production": "Universal Pictures",
+        "production": ["Universal-Pictures"],
         "director": "F. Gary Gray",
         "producers": "Neal H. Moritz, Vin Diesel",
         "writtens": "Chris Morgan",
@@ -4229,7 +4059,7 @@
             }
         ],
         "synopsis": "When a mysterious woman seduces Dom into the world of terrorism and a betrayal of those closest to him, the crew face trials that will test them as never before.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -4246,7 +4076,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Marvel Studios, Paramount Pictures",
+        "production": ["Marvel-Studios", "Paramount-Pictures"],
         "director": "Jon Favreau",
         "producers": "Avi Arad, Kevin Feige",
         "writtens": "Mark Fergus, Hawk Ostby, Art Marcum, Matt Holloway",
@@ -4300,16 +4130,7 @@
             }
         ],
         "synopsis": "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
-        "categories": [
-            {
-                "title": "Special Favorite",
-                "link": "c-fav"
-            },
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["special-favorite", "marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -4326,7 +4147,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Marvel Studios, Universal Pictures",
+        "production": ["Marvel-Studios", "Universal-Pictures"],
         "director": "Louis Leterrier",
         "producers": "Avi Arad, Gale Anne Hurd, Kevin Feige",
         "writtens": "Zak Penn",
@@ -4365,12 +4186,7 @@
             }
         ],
         "synopsis": "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into, whenever he loses his temper.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -4387,7 +4203,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Marvel Studios, Paramount Pictures",
+        "production": ["Marvel-Studios", "Paramount-Pictures"],
         "director": "Jon Favreau",
         "producers": "Kevin Feige",
         "writtens": "Justin Theroux",
@@ -4451,12 +4267,7 @@
             }
         ],
         "synopsis": "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -4473,7 +4284,7 @@
             "Fantasy",
             "Action"
         ],
-        "production": "Marvel Studios, Paramount Pictures",
+        "production": ["Marvel-Studios", "Paramount-Pictures"],
         "director": "Kenneth Branagh",
         "producers": "Kevin Feige",
         "writtens": "Ashley Edward Miller, Zack Stentz, Don Payne",
@@ -4532,12 +4343,7 @@
             }
         ],
         "synopsis": "The powerful, but arrogant god Thor, is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -4554,7 +4360,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Marvel Studios, Paramount Pictures",
+        "production": ["Marvel-Studios", "Paramount-Pictures"],
         "director": "Joe Johnston",
         "producers": "Kevin Feige",
         "writtens": "Christopher Markus, Stephen McFeely",
@@ -4618,12 +4424,7 @@
             }
         ],
         "synopsis": "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -4640,7 +4441,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Walt Disney Pictures, Marvel Studios",
+        "production": ["Walt-Disney-Pictures", "Marvel-Studios"],
         "director": "Joss Whedon",
         "producers": "Kevin Feige",
         "writtens": "Joss Whedon",
@@ -4719,12 +4520,7 @@
             }
         ],
         "synopsis": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -4741,7 +4537,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Walt Disney Pictures, Marvel Studios",
+        "production": ["Walt-Disney-Pictures", "Marvel-Studios"],
         "director": "Shane Black",
         "producers": "Kevin Feige",
         "writtens": "Shane Black, Drew Pearce",
@@ -4790,12 +4586,7 @@
             }
         ],
         "synopsis": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -4812,7 +4603,7 @@
             "Fantasy",
             "Action"
         ],
-        "production": "Walt Disney Pictures, Marvel Studios",
+        "production": ["Walt-Disney-Pictures", "Marvel-Studios"],
         "director": "Alan Taylor",
         "producers": "Kevin Feige",
         "writtens": "Christopher Yost, Stephen McFeely, Christopher Markus",
@@ -4881,12 +4672,7 @@
             }
         ],
         "synopsis": "When Dr. Jane Foster gets cursed with a powerful entity known as the Aether, Thor is heralded of the cosmic event known as the Convergence and the genocidal Dark Elves.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -4903,7 +4689,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Walt Disney Pictures, Marvel Studios",
+        "production": ["Walt-Disney-Pictures", "Marvel-Studios"],
         "director": "Anthony Russo, Joe Russo",
         "producers": "Kevin Feige",
         "writtens": "Christopher Markus, Stephen McFeely",
@@ -4952,12 +4738,7 @@
             }
         ],
         "synopsis": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -4974,7 +4755,7 @@
             "Sci-Fi",
             "Comedy"
         ],
-        "production": "Walt Disney Pictures, Marvel Studios",
+        "production": ["Walt-Disney-Pictures", "Marvel-Studios"],
         "director": "James Gunn",
         "producers": "Kevin Feige",
         "writtens": "James Gunn, Nicole Perlman",
@@ -5048,16 +4829,7 @@
             }
         ],
         "synopsis": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.",
-        "categories": [
-            {
-                "title": "Special Favorite",
-                "link": "c-fav"
-            },
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["special-favorite", "marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -5074,7 +4846,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Walt Disney Pictures, Marvel Studios",
+        "production": ["Walt-Disney-Pictures", "Marvel-Studios"],
         "director": "Joss Whedon",
         "producers": "Kevin Feige",
         "writtens": "Joss Whedon",
@@ -5168,12 +4940,7 @@
             }
         ],
         "synopsis": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -5190,7 +4957,7 @@
             "Sci-Fi",
             "Comedy"
         ],
-        "production": "Walt Disney Pictures, Marvel Studios",
+        "production": ["Walt-Disney-Pictures", "Marvel-Studios"],
         "director": "Peyton Reed",
         "producers": "Kevin Feige",
         "writtens": "Edgar Wright, Joe Cornish, Adam McKay, Paul Rudd",
@@ -5254,12 +5021,7 @@
             }
         ],
         "synopsis": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -5276,7 +5038,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Walt Disney Pictures, Marvel Studios",
+        "production": ["Walt-Disney-Pictures", "Marvel-Studios"],
         "director": "Anthony Russo, Joe Russo",
         "producers": "Kevin Feige",
         "writtens": "Christopher Markus, Stephen McFeely",
@@ -5365,12 +5127,7 @@
             }
         ],
         "synopsis": "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -5387,7 +5144,7 @@
             "Fantasy",
             "Action"
         ],
-        "production": "Walt Disney Pictures, Marvel Studios",
+        "production": ["Walt-Disney-Pictures", "Marvel-Studios"],
         "director": "Scott Derrickson",
         "producers": "Kevin Feige",
         "writtens": "Jon Spaihts, Scott Derrickson, C. Robert Cargill",
@@ -5431,12 +5188,7 @@
             }
         ],
         "synopsis": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -5453,7 +5205,7 @@
             "Sci-Fi",
             "Comedy"
         ],
-        "production": "Walt Disney Pictures, Marvel Studios",
+        "production": ["Walt-Disney-Pictures", "Marvel-Studios"],
         "director": "James Gunn",
         "producers": "Kevin Feige",
         "writtens": "James Gunn",
@@ -5527,12 +5279,7 @@
             }
         ],
         "synopsis": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -5549,7 +5296,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Walt Disney Pictures, Marvel Studios",
+        "production": ["Walt-Disney-Pictures", "Marvel-Studios"],
         "director": "Jon Watts",
         "producers": "Kevin Feige, Amy Pascal",
         "writtens": "Jonathan Goldstein, John Francis Daley, Jon Watts, Christopher Ford",
@@ -5608,12 +5355,7 @@
             }
         ],
         "synopsis": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -5630,7 +5372,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Walt Disney Pictures, Marvel Studios",
+        "production": ["Walt-Disney-Pictures", "Marvel-Studios"],
         "director": "Taika Waititi",
         "producers": "Kevin Feige",
         "writtens": "Eric Pearson, Craig Kyle, Christopher L. Yost",
@@ -5709,12 +5451,7 @@
             }
         ],
         "synopsis": "Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarцk, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -5731,7 +5468,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Walt Disney Pictures, Marvel Studios",
+        "production": ["Walt-Disney-Pictures", "Marvel-Studios"],
         "director": "Ryan Coogler",
         "producers": "Kevin Feige",
         "writtens": "Ryan Coogler, Joe Robert Cole",
@@ -5805,12 +5542,7 @@
             }
         ],
         "synopsis": "After the death of his father, Prince T'Challa ascends to the throne of the small African country of Wakanda. T'Challa is also Black Panther, superhero. Now not only must he govern his country but defeat a dangerous adversary.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -5827,7 +5559,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Walt Disney Pictures, Marvel Studios",
+        "production": ["Walt-Disney-Pictures", "Marvel-Studios"],
         "director": "Anthony Russo, Joe Russo",
         "producers": "Kevin Feige",
         "writtens": "Christopher Markus, Stephen McFeely",
@@ -5951,20 +5683,7 @@
             }
         ],
         "synopsis": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
-        "categories": [
-            {
-                "title": "Special Favorite",
-                "link": "c-fav"
-            },
-            {
-                "title": "Marvel",
-                "link": "c-mavel"
-            },
-            {
-                "title": "Cinema Watched",
-                "link": "c-cw"
-            }
-        ],
+        "categories": ["special-favorite", "marvel", "cinema-watched"],
         "awards": null,
         "parts": null,
         "type": {
@@ -5981,7 +5700,7 @@
             "Sci-Fi",
             "Comedy"
         ],
-        "production": "Walt Disney Pictures, Marvel Studios",
+        "production": ["Walt-Disney-Pictures", "Marvel-Studios"],
         "director": "Peyton Reed",
         "producers": "Kevin Feige, Stephen Broussard",
         "writtens": "Chris McKenna, Erik Sommers, Paul Rudd",
@@ -6030,12 +5749,7 @@
             }
         ],
         "synopsis": "As Scott Lang balances being both a Super Hero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -6052,7 +5766,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Walt Disney Pictures, Marvel Studios",
+        "production": ["Walt-Disney-Pictures", "Marvel-Studios"],
         "director": "Anna Boden, Ryan Fleck",
         "producers": "Kevin Feige",
         "writtens": "Anna Boden, Ryan Fleck, Geneva Robertson-Dworet",
@@ -6126,12 +5840,7 @@
             }
         ],
         "synopsis": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -6148,7 +5857,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Walt Disney Pictures, Marvel Studios",
+        "production": ["Walt-Disney-Pictures", "Marvel-Studios"],
         "director": "Anthony Russo, Joe Russo",
         "producers": "Kevin Feige",
         "writtens": "Christopher Markus, Stephen McFeely",
@@ -6252,12 +5961,7 @@
             }
         ],
         "synopsis": "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to undo Thanos' actions and restore order to the universe.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -6274,7 +5978,7 @@
             "Sci-Fi",
             "Comedy"
         ],
-        "production": "Sony Pictures, Marvel Studios",
+        "production": ["Sony-Pictures", "Marvel-Studios"],
         "director": "Jon Watts",
         "producers": "Kevin Feige, Amy Pascal",
         "writtens": "Chris McKenna, Erik Sommers",
@@ -6348,12 +6052,7 @@
             }
         ],
         "synopsis": "Following the events of Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
-        "categories": [
-            {
-                "title": "Marvel",
-                "link": "c-marvel"
-            }
-        ],
+        "categories": ["marvel"],
         "awards": null,
         "parts": null,
         "type": {
@@ -6370,7 +6069,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Paramount Pictures, DreamWorks Pictures",
+        "production": ["Paramount-Pictures", "DreamWorks-Pictures"],
         "director": "Steven Spielberg",
         "producers": "Kathleen Kennedy, Colin Wilson",
         "writtens": "Josh Friedman, David Koepp",
@@ -6414,12 +6113,7 @@
             }
         ],
         "synopsis": "As Earth is invaded by alien tripod fighting machines, one family fights for survival.",
-        "categories": [
-            {
-                "title": "Special Favorite",
-                "link": "c-fav"
-            }
-        ],
+        "categories": ["special-favorite"],
         "awards": null,
         "parts": null,
         "type": {
@@ -6434,9 +6128,9 @@
         "trailer": "pKFUZ10Wmbw",
         "genres": [
             "Sci-Fi",
-            "Space Opera"
+            "SpaceOpera"
         ],
-        "production": "Paramount Pictures, Bad Robot Productions",
+        "production": ["Paramount-Pictures", "Bad-Robot-Productions"],
         "director": "J.J. Abrams",
         "producers": "J.J. Abrams, Deamon Lindelof",
         "writtens": "Roberto Orci, Alex Kurtzman",
@@ -6515,7 +6209,7 @@
             }
         ],
         "synopsis": "The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -6530,9 +6224,9 @@
         "trailer": "jJMYAJ3_0uw",
         "genres": [
             "Sci-Fi",
-            "Space Opera"
+            "SpaceOpera"
         ],
-        "production": "Paramount Pictures, Bad Robot Productions",
+        "production": ["Paramount-Pictures", "Bad-Robot-Productions"],
         "director": "J.J. Abrams",
         "producers": "J.J. Abrams, Deamon Lindelof",
         "writtens": "Roberto Orci, Alex Kurtzman",
@@ -6606,7 +6300,7 @@
             }
         ],
         "synopsis": "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -6621,9 +6315,9 @@
         "trailer": "XRVD32rnzOw",
         "genres": [
             "Sci-Fi",
-            "Space Opera"
+            "SpaceOpera"
         ],
-        "production": "Paramount Pictures, Bad Robot Productions",
+        "production": ["Paramount-Pictures", "Bad-Robot-Productions"],
         "director": "Justin Lin",
         "producers": "J.J. Abrams, Roberto Orci, Lindsey Weber, Justin Lin",
         "writtens": "Simon Pegg, Doug Jung",
@@ -6702,7 +6396,7 @@
             }
         ],
         "synopsis": "The crew of the USS Enterprise explores the furthest reaches of uncharted space, where they encounter a new ruthless enemy, who puts them, and everything the Federation stands for, to the test.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -6719,7 +6413,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "20th Century FOX, Marvel Entertainment",
+        "production": ["20th-Century-FOX", "Marvel-Entertainment"],
         "director": "Bryan Singer",
         "producers": "Lauren Shuler Donner, Ralph Winter",
         "writtens": "David Hayter",
@@ -6788,7 +6482,7 @@
             }
         ],
         "synopsis": "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -6805,7 +6499,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "20th Century FOX, Marvel Entertainment",
+        "production": ["20th-Century-FOX", "Marvel-Entertainment"],
         "director": "Bryan Singer",
         "producers": "Lauren Shuler Donner, Ralph Winter",
         "writtens": "David Hayter, Michael Dougherty, Dan Harris",
@@ -6879,7 +6573,7 @@
             }
         ],
         "synopsis": "When anti-mutant colonel William Stryker kidnaps Professor X and attacks his school, the X-Men must ally with their archenemy Magneto to stop him.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -6896,7 +6590,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "20th Century FOX, Marvel Entertainment",
+        "production": ["20th-Century-FOX", "Marvel-Entertainment"],
         "director": "Brett Ratner",
         "producers": "Lauren Shuler Donner, Ralph Winter",
         "writtens": "Simon Kinberg, Zak Penn",
@@ -6970,7 +6664,7 @@
             }
         ],
         "synopsis": "The human government develops a cure for mutations, and Jean Gray becomes a darker uncontrollable persona called the Phoenix who allies with Magneto, causing escalation into an all-out battle for the X-Men.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -6987,7 +6681,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "20th Century FOX, Marvel Entertainment",
+        "production": ["20th-Century-FOX", "Marvel-Entertainment"],
         "director": "Gavin Hood",
         "producers": "Lauren Shuler Donner, Ralph Winter, Hugh Jackman",
         "writtens": "David Benioff, Skip Woods",
@@ -7051,7 +6745,7 @@
             }
         ],
         "synopsis": "The early years of James Logan, featuring his rivalry with his brother Victor Creed, his service in the special forces team Weapon X, and his experimentation into the metal-lined mutant Wolverine.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -7068,7 +6762,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "20th Century FOX, Marvel Entertainment",
+        "production": ["20th-Century-FOX", "Marvel-Entertainment"],
         "director": "Matthew Vaughn",
         "producers": "Lauren Shuler Donner, Bryan Singer",
         "writtens": "Ashley Edward Miller, Zack Stentz, Jane Goldman, Matthew Vaughn",
@@ -7137,7 +6831,7 @@
             }
         ],
         "synopsis": "In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -7154,7 +6848,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "20th Century FOX, Marvel Entertainment",
+        "production": ["20th-Century-FOX", "Marvel-Entertainment"],
         "director": "Bryan Singer",
         "producers": "Lauren Shuler Donner, Bryan Singer",
         "writtens": "Simon Kinberg",
@@ -7233,7 +6927,7 @@
             }
         ],
         "synopsis": "The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -7250,7 +6944,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "20th Century FOX, Marvel Entertainment",
+        "production": ["20th-Century-FOX", "Marvel-Entertainment"],
         "director": "Bryan Singer",
         "producers": "Lauren Shuler Donner, Bryan Singer",
         "writtens": "Simon Kinberg",
@@ -7324,7 +7018,7 @@
             }
         ],
         "synopsis": "In the 1980s the X-Men must defeat an ancient all-powerful mutant, En Sabah Nur, who intends to thrive through bringing destruction to the world.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -7341,7 +7035,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "20th Century FOX, Marvel Entertainment",
+        "production": ["20th-Century-FOX", "Marvel-Entertainment"],
         "director": "James Mangold",
         "producers": "Lauren Shuler Donner, Simon Kinberg",
         "writtens": "Scott Frank, James Mangold, Michael Green",
@@ -7400,7 +7094,7 @@
             }
         ],
         "synopsis": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -7417,7 +7111,7 @@
             "Adventure",
             "Detective"
         ],
-        "production": "Warner Bros. Pictures",
+        "production": ["Warner-Bros.-Pictures"],
         "director": "Guy Ritchie",
         "producers": "Joel Silver, Lionel Wigram",
         "writtens": "Michael Robert Johnson, Anthony Peckham",
@@ -7466,7 +7160,7 @@
             }
         ],
         "synopsis": "Detective Sherlock Holmes and his stalwart partner Watson engage in a battle of wits and brawn with a nemesis whose SYNOPSIS is a threat to all of England.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -7483,7 +7177,7 @@
             "Adventure",
             "Detective"
         ],
-        "production": "Warner Bros. Pictures",
+        "production": ["Warner-Bros.-Pictures"],
         "director": "Guy Ritchie",
         "producers": "Joel Silver, Lionel Wigram",
         "writtens": "Michele Mulroney, Kieran Mulroney",
@@ -7547,7 +7241,7 @@
             }
         ],
         "synopsis": "Detective Sherlock Holmes is on the trail of criminal mastermind Professor Moriarty, who is carrying out a string of random crimes across Europe.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -7564,7 +7258,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "Universal Pictures",
+        "production": ["Universal-Pictures"],
         "director": "Stephen Sommers",
         "producers": "James Jacks, Sean Daniel",
         "writtens": "Stephen Sommers",
@@ -7618,12 +7312,7 @@
             }
         ],
         "synopsis": "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreck havoc as he searches for the reincarnation of his long-lost love.",
-        "categories": [
-            {
-                "title": "Most Watched",
-                "link": "c-mw"
-            }
-        ],
+        "categories": ["most-watched"],
         "awards": null,
         "parts": null,
         "type": {
@@ -7640,7 +7329,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "Universal Pictures",
+        "production": ["Universal-Pictures"],
         "director": "Stephen Sommers",
         "producers": "James Jacks, Sean Daniel",
         "writtens": "Stephen Sommers",
@@ -7709,12 +7398,7 @@
             }
         ],
         "synopsis": "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror.",
-        "categories": [
-            {
-                "title": "Most Watched",
-                "link": "c-mw"
-            }
-        ],
+        "categories": ["most-watched"],
         "awards": null,
         "parts": null,
         "type": {
@@ -7731,7 +7415,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "Universal Pictures",
+        "production": ["Universal-Pictures"],
         "director": "Rob Cohen",
         "producers": "Stephen Sommers, Sean Daniel",
         "writtens": "Alfred Gough, Miles Millar",
@@ -7795,7 +7479,7 @@
             }
         ],
         "synopsis": "In the Far East, Alex O'Connell, the son of famed mummy fighters Rick and Evy O'Connell, unearths the mummy of the first Emperor of Qin -- a shape-shifting entity cursed by a witch centuries ago.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -7812,7 +7496,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Warner Bros. Pictures, Legendary Pictures",
+        "production": ["Warner-Bros.-Pictures", "Legendary-Pictures"],
         "director": "Guillermo del Toro",
         "producers": "Guillermo del Toro, Thomas Tull, Jon Jashni, Mary Parent",
         "writtens": "Travis Beacham, Guillermo del Toro",
@@ -7876,7 +7560,7 @@
             }
         ],
         "synopsis": "As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -7893,7 +7577,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Universal Pictures, Legendary Pictures",
+        "production": ["Universal-Pictures", "Legendary-Pictures"],
         "director": "Steven S. DeKnight",
         "producers": "Mary Parent, Cale Boyter, Guillermo del Toro",
         "writtens": "Steven S. DeKnight, Emily Carmichael, Kira Snyder, T.S. Nowlin",
@@ -7937,7 +7621,7 @@
             }
         ],
         "synopsis": "Jake Pentecost, son of Stacker Pentecost, reunites with Mako Mori to lead a new generation of Jaeger pilots, including rival Lambert and 15-year-old hacker Amara, against a new Kaiju threat.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -7954,7 +7638,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Warner Bros. Pictures",
+        "production": ["Warner-Bros.-Pictures"],
         "director": "Doug Liman",
         "producers": "Erwin Stoff, Tom Lassally, Jeffrey Silver",
         "writtens": "Christopher McQuarrie, Jez Butterworth, John-Henry Butterworth",
@@ -8023,7 +7707,7 @@
             }
         ],
         "synopsis": "A soldier fighting aliens gets to relive the same day over and over again, the day restarting every time he dies.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -8040,7 +7724,7 @@
             "Sci-Fi",
             "Drama"
         ],
-        "production": "Paramount Pictures, Warner Bros.",
+        "production": ["Paramount-Pictures", "Warner-Bros.-Pictures"],
         "director": "Cristopher Nolan",
         "producers": "Cristopher Nolan, Lynda Obst, Emma Thomas",
         "writtens": "Jonathan Nolan, Cristopher Nolan",
@@ -8084,7 +7768,7 @@
             }
         ],
         "synopsis": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -8101,7 +7785,7 @@
             "Adventure",
             "Fantasy"
         ],
-        "production": "TNT",
+        "production": ["TNT"],
         "director": "Peter Winther",
         "producers": "Phillip M. Goldfarb, Gary Hamilton",
         "writtens": "David Titcher",
@@ -8160,12 +7844,7 @@
             }
         ],
         "synopsis": "A bookworm becomes the librarian. Same night a magical spear gets stolen and he's off to get some real life experience around the globe on his quest for the spear - starting with being thrown off a plane over Amazonas by his cute helper.",
-        "categories": [
-            {
-                "title": "Most Watched",
-                "link": "c-mw"
-            }
-        ],
+        "categories": ["most-watched"],
         "awards": null,
         "parts": null,
         "type": {
@@ -8182,7 +7861,7 @@
             "Adventure",
             "Fantasy"
         ],
-        "production": "TNT",
+        "production": ["TNT"],
         "director": "Jonathan Frakes",
         "producers": "Michael S. Murphey, Noah Wyle",
         "writtens": "Marco Schnabel",
@@ -8241,12 +7920,7 @@
             }
         ],
         "synopsis": "Librarian-turned-adventurer Flynn Carsen endeavors to find King Solomon's mines.",
-        "categories": [
-            {
-                "title": "Most Watched",
-                "link": "c-mw"
-            }
-        ],
+        "categories": ["most-watched"],
         "awards": null,
         "parts": null,
         "type": {
@@ -8263,7 +7937,7 @@
             "Adventure",
             "Fantasy"
         ],
-        "production": "TNT",
+        "production": ["TNT"],
         "director": "Jonathan Frakes",
         "producers": "Phillip M. Goldfarb, Noah Wyle",
         "writtens": "Marco Schnabel",
@@ -8322,12 +7996,7 @@
             }
         ],
         "synopsis": "Losing his girlfriend because he was at an auction dramatically getting the magical philosopher's stone instead of a date, he needs a vacation - New Orleans but finds himself busy saving Earth from the curse of the Judas chalice/vampires.",
-        "categories": [
-            {
-                "title": "Most Watched",
-                "link": "c-mw"
-            }
-        ],
+        "categories": ["most-watched"],
         "awards": null,
         "parts": null,
         "type": {
@@ -8344,7 +8013,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "Walt Disney Pictures, Jerry Bruckheimer Films",
+        "production": ["Walt-Disney-Pictures", "Jerry-Bruckheimer-Films"],
         "director": "Gore Verbinski",
         "producers": "Jerry Bruckheimer",
         "writtens": "Ted Elliott, Terry Rossio",
@@ -8388,7 +8057,7 @@
             }
         ],
         "synopsis": "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -8405,7 +8074,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "Walt Disney Pictures, Jerry Bruckheimer Films",
+        "production": ["Walt-Disney-Pictures", "Jerry-Bruckheimer-Films"],
         "director": "Gore Verbinski",
         "producers": "Jerry Bruckheimer",
         "writtens": "Ted Elliott, Terry Rossio",
@@ -8449,7 +8118,7 @@
             }
         ],
         "synopsis": "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -8466,7 +8135,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "Walt Disney Pictures, Jerry Bruckheimer Films",
+        "production": ["Walt-Disney-Pictures", "Jerry-Bruckheimer-Films"],
         "director": "Gore Verbinski",
         "producers": "Jerry Bruckheimer",
         "writtens": "Ted Elliott, Terry Rossio",
@@ -8515,7 +8184,7 @@
             }
         ],
         "synopsis": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -8532,7 +8201,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "Walt Disney Pictures, Jerry Bruckheimer Films",
+        "production": ["Walt-Disney-Pictures", "Jerry-Bruckheimer-Films"],
         "director": "Rob Marshall",
         "producers": "Jerry Bruckheimer",
         "writtens": "Ted Elliott, Terry Rossio",
@@ -8581,7 +8250,7 @@
             }
         ],
         "synopsis": "Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -8598,7 +8267,7 @@
             "Sci-Fi",
             "Adventure"
         ],
-        "production": "Universal Pictures",
+        "production": ["Universal-Pictures"],
         "director": "Colin Trevorrow",
         "producers": "Frank Marshall, Patrick Crowley",
         "writtens": "Rick Jaffa, Amanda Silver, Derek Connolly, Colin Trevorrow",
@@ -8672,7 +8341,7 @@
             }
         ],
         "synopsis": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -8690,7 +8359,7 @@
             "Comedy",
             "Animation"
         ],
-        "production": "Walt Disney Pictures",
+        "production": ["Walt-Disney-Pictures"],
         "director": "Byron Howard, Rich Moore",
         "producers": "Clark Spencer",
         "writtens": "Jared Bush, Phil Johnston",
@@ -8749,7 +8418,7 @@
             }
         ],
         "synopsis": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -8766,7 +8435,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "20th Century FOX",
+        "production": ["20th-Century-FOX"],
         "director": "Alex Proyas",
         "producers": "Laurence Mark, John Davis, Topher Dow, Wyck Godfrey",
         "writtens": "Jeff Vintar, Akiva Goldsman",
@@ -8810,7 +8479,7 @@
             }
         ],
         "synopsis": "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -8827,7 +8496,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "DreamWorks Pictures",
+        "production": ["DreamWorks-Pictures"],
         "director": "Shawn Levy",
         "producers": "Shawn Levy, Susan Montford, Don Murphy",
         "writtens": "John Gatins",
@@ -8876,7 +8545,7 @@
             }
         ],
         "synopsis": "In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -8893,7 +8562,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Columbia Pictures",
+        "production": ["Columbia-Pictures"],
         "director": "Roland Emmerich",
         "producers": "Harald Kloser, Mark Gordon, Larry J. Franco",
         "writtens": "Harald Kloser, Roland Emmerich",
@@ -8967,7 +8636,7 @@
             }
         ],
         "synopsis": "A frustrated writer struggles to keep his family alive when a series of global catastrophes threatens to annihilate mankind.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -8984,7 +8653,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Columbia Pictures",
+        "production": ["Columbia-Pictures"],
         "director": "Ruben Fleischer",
         "producers": "Avi Arad, Matt Tolmach, Amy Pascal",
         "writtens": "Jeff Pinkner, Scott Rosenberg, Kelly Marcel",
@@ -9028,7 +8697,7 @@
             }
         ],
         "synopsis": "A failed reporter is bonded to an alien entity, one of many symbiotes who have invaded Earth. But the being takes a liking to Earth and decides to protect it.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -9044,7 +8713,7 @@
         "genres": [
             "Action"
         ],
-        "production": "EuropaCorp",
+        "production": ["EuropaCorp"],
         "director": "Pierre Morel",
         "producers": "Luc Besson",
         "writtens": "Luc Besson, Bibi Nacen",
@@ -9083,7 +8752,7 @@
             }
         ],
         "synopsis": "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -9099,7 +8768,7 @@
         "genres": [
             "Action"
         ],
-        "production": "EuropaCorp",
+        "production": ["EuropaCorp"],
         "director": "Patrick Alessandrin",
         "producers": "Luc Besson",
         "writtens": "Luc Besson",
@@ -9153,7 +8822,7 @@
             }
         ],
         "synopsis": "Damien and Leito return to District 13 on a mission to bring peace to the troubled sector that is controlled by five different gang bosses, before the city's secret services take drastic measures to solve the problem.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -9170,7 +8839,7 @@
             "Sci-Fi",
             "Romance"
         ],
-        "production": "Columbia Pictures",
+        "production": ["Columbia-Pictures"],
         "director": "Morten Tyldum",
         "producers": "Stephen Hamel, Michael Maher, Neal H. Moritz, Ori Marmur",
         "writtens": "Jon Spaihts",
@@ -9209,7 +8878,7 @@
             }
         ],
         "synopsis": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -9227,7 +8896,7 @@
             "Romance",
             "Animation"
         ],
-        "production": "Walt Disney Pictures, Pixar Animation Studios",
+        "production": ["Walt-Disney-Pictures", "Pixar-Animation"],
         "director": "Andrew Stanton",
         "producers": "Jim Morris",
         "writtens": "Andrew Stanton, Jim Reardon",
@@ -9276,7 +8945,7 @@
             }
         ],
         "synopsis": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -9293,7 +8962,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "20th Century FOX",
+        "production": ["20th-Century-FOX"],
         "director": "Andrew Niccol",
         "producers": "Andrew Niccol, Marc Abraham, Eric Newman",
         "writtens": "Andrew Niccol",
@@ -9342,12 +9011,7 @@
             }
         ],
         "synopsis": "In a future where people stop aging at 25, but are engineered to live only one more year, having the means to buy your way out of the situation is a shot at immortal youth. Here, Will Salas finds himself accused of murder and on the run with a hostage - a connection that becomes an important part of the way against the system.",
-        "categories": [
-            {
-                "title": "Special Favorite",
-                "link": "c-fav"
-            }
-        ],
+        "categories": ["special-favorite"],
         "awards": null,
         "parts": null,
         "type": {
@@ -9364,7 +9028,7 @@
             "Sci-Fi",
             "Adventures"
         ],
-        "production": "Walt Disney Pictures",
+        "production": ["Walt-Disney-Pictures"],
         "director": "Joseph Kosinski",
         "producers": "Sean Bailey, Steven Lisberger, Jeffrey Silver",
         "writtens": "Edward Kitsis, Adam Horowitz",
@@ -9413,7 +9077,7 @@
             }
         ],
         "synopsis": "The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world.",
-        "categories": null,
+        "categories": ["special-favorite"],
         "awards": null,
         "parts": null,
         "type": {
@@ -9431,7 +9095,7 @@
             "Action",
             "Comedy"
         ],
-        "production": "Columbia Pictures",
+        "production": ["Columbia-Pictures"],
         "director": "Barry Sonnenfeld",
         "producers": "Walter F. Parkes, Laurie MacDonald",
         "writtens": "Ed Solomon",
@@ -9470,7 +9134,7 @@
             }
         ],
         "synopsis": "A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -9488,7 +9152,7 @@
             "Action",
             "Comedy"
         ],
-        "production": "Columbia Pictures",
+        "production": ["Columbia-Pictures"],
         "director": "Barry Sonnenfeld",
         "producers": "Walter F. Parkes, Laurie MacDonald",
         "writtens": "Robert Gordon, Barry Fanaro",
@@ -9532,7 +9196,7 @@
             }
         ],
         "synopsis": "Agent J needs help so he is sent to find Agent K and restore his memory.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -9550,7 +9214,7 @@
             "Action",
             "Comedy"
         ],
-        "production": "Sony Pictures, Amblin Intertainment",
+        "production": ["Sony-Pictures", "Amblin-Intertainment"],
         "director": "BV-WEb2oxLk",
         "producers": "BV-WEb2oxLk, Laurie MacDonald",
         "writtens": "Art Marcum and Matt Holloway",
@@ -9599,7 +9263,7 @@
             }
         ],
         "synopsis": "The Men in Black have always protected the Earth from the scum of the universe. In this new adventure, they tackle their biggest threat to date: a mole in the Men in Black organization.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -9616,7 +9280,7 @@
             "Action",
             "Crime"
         ],
-        "production": "EuropaCorp",
+        "production": ["EuropaCorp"],
         "director": "Louis Leterrier, Corey Yuen",
         "producers": "Luc Besson, Stephen Chasman",
         "writtens": "Luc Besson, Robert Mark Kamen",
@@ -9655,7 +9319,7 @@
             }
         ],
         "synopsis": "Frank is hired to \"transport\" packages for unknown clients and has made a very good living doing so. But when asked to move a package that begins moving, complications arise.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -9672,7 +9336,7 @@
             "Action",
             "Crime"
         ],
-        "production": "EuropaCorp",
+        "production": ["EuropaCorp"],
         "director": "Louis Leterrier",
         "producers": "Luc Besson, Stephen Chasman",
         "writtens": "Luc Besson, Robert Mark Kamen",
@@ -9736,7 +9400,7 @@
             }
         ],
         "synopsis": "Mercenary Frank Martin, who specializes moving goods of all kinds, surfaces again this time in Miami, Florida when he's implicated in the kidnapping of the young son of a powerful USA official.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -9753,7 +9417,7 @@
             "Action",
             "Crime"
         ],
-        "production": "EuropaCorp",
+        "production": ["EuropaCorp"],
         "director": "Oliver Megaton",
         "producers": "Luc Besson, Stephen Chasman",
         "writtens": "Luc Besson, Robert Mark Kamen",
@@ -9787,7 +9451,7 @@
             }
         ],
         "synopsis": "Frank Martin puts the driving gloves on to deliver Valentina, the kidnapped daughter of a Ukrainian government official, from Marseilles to Odessa on the Black Sea. En route, he has to contend with thugs who want to intercept Valentina's safe delivery and not let his personal feelings get in the way of his dangerous objective.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -9804,7 +9468,7 @@
             "Sci-Fi",
             "Adventure"
         ],
-        "production": "Paramount Pictures",
+        "production": ["Paramount-Pictures"],
         "director": "Travis Knight",
         "producers": "Lorenzo di Bonaventure, Tom DeSanto, Don Murphy, Mark Vahradian",
         "writtens": "Christina Hodson",
@@ -9868,7 +9532,7 @@
             }
         ],
         "synopsis": "On the run in the year of 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -9880,13 +9544,13 @@
         "id": 123,
         "title": "Ice Age",
         "poster": "ice_age_1",
-        "trailer": "cMfeWyVBidk",
+        "trailer": "i4noiCRJRoE",
         "genres": [
             "Adventure",
             "Comedy",
             "Animation"
         ],
-        "production": "20th Century FOX, Blue Sky Studios",
+        "production": ["20th-Century-FOX", "Blue-Sky-Studios"],
         "director": "Chris Wedge",
         "producers": "Lori Forte",
         "writtens": "Michael Berg, Michael J. Wilson, Peter Ackerman",
@@ -9920,7 +9584,7 @@
             }
         ],
         "synopsis": "Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -9938,7 +9602,7 @@
             "Comedy",
             "Animation"
         ],
-        "production": "20th Century FOX, Blue Sky Studios",
+        "production": ["20th-Century-FOX", "Blue-Sky-Studios"],
         "director": "Carlos Saldanha",
         "producers": "Lori Forte",
         "writtens": "Peter Gaulke, Gerry Swallow, Jim Hecht",
@@ -9982,7 +9646,7 @@
             }
         ],
         "synopsis": "Manny, Sid, and Diego discover that the ice age is coming to an end, and join everybody for a journey to higher ground. On the trip, they discover that Manny, in fact, is not the last of the woolly mammoths.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -10000,7 +9664,7 @@
             "Comedy",
             "Animation"
         ],
-        "production": "20th Century FOX, Blue Sky Studios",
+        "production": ["20th-Century-FOX", "Blue-Sky-Studios"],
         "director": "Carlos Saldanha",
         "producers": "Lori Forte, John C. Donkin",
         "writtens": "Michael Berg, Peter Ackerman, Mike Reiss, Yoni Brenner",
@@ -10059,7 +9723,7 @@
             }
         ],
         "synopsis": "When Sid's attempt to adopt three dinosaur eggs gets him abducted by their real mother to an underground lost world, his friends attempt to rescue him.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -10076,7 +9740,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "Walt Disney Pictures, Jerry Bruckheimer Films",
+        "production": ["Walt-Disney-Pictures", "Jerry-Bruckheimer-Films"],
         "director": "Jon Torteltaub",
         "producers": "Jerry Bruckheimer",
         "writtens": "Doug Miro, Carlo Bernard, Matt Lopez",
@@ -10135,7 +9799,7 @@
             }
         ],
         "synopsis": "Master sorcerer Balthazar Blake must find and train Merlin's descendant to defeat dark sorceress Morgana la Fée.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -10152,7 +9816,7 @@
             "Action",
             "Crime"
         ],
-        "production": "DreamWorks Pictures, Reliance Entertainment",
+        "production": ["DreamWorks-Pictures", "Reliance-Entertainment"],
         "director": "Scott Waugh",
         "producers": "John Gatins, Patrick O’Brien, Mark Sourian",
         "writtens": "George Gatins",
@@ -10206,7 +9870,7 @@
             }
         ],
         "synopsis": "Fresh from prison, a street racer who was framed by a wealthy business associate joins a cross country race with revenge in mind. His ex-partner, learning of the plan, places a massive bounty on his head as the race begins.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -10223,7 +9887,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Universal Pictures",
+        "production": ["Universal-Pictures"],
         "director": "Joseph Kosinski",
         "producers": "Peter Chernin, Dylan Clark, Duncan Henderson",
         "writtens": "Karl Gajdusek, Michael deBruyn",
@@ -10272,7 +9936,7 @@
             }
         ],
         "synopsis": "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -10289,7 +9953,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "20th Century FOX",
+        "production": ["20th-Century-FOX"],
         "director": "Roland Emmerich",
         "producers": "Dean Devlin",
         "writtens": "Dean Devlin, Roland Emmerich",
@@ -10338,7 +10002,7 @@
             }
         ],
         "synopsis": "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -10355,7 +10019,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "20th Century FOX",
+        "production": ["20th-Century-FOX"],
         "director": "Chris Columbus",
         "producers": "Karen Rosenfelt, Chris Columbus, Michael Barnathan, Mark Redcliff",
         "writtens": "Craig Titley",
@@ -10424,12 +10088,7 @@
             }
         ],
         "synopsis": "A teenager discovers he's the descendant of a Greek god and sets out on an adventure to settle an on-going battle between the gods.",
-        "categories": [
-            {
-                "title": "Special Favorite",
-                "link": "c-fav"
-            }
-        ],
+        "categories": ["special-favorite"],
         "awards": null,
         "parts": null,
         "type": {
@@ -10446,7 +10105,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "20th Century FOX",
+        "production": ["20th-Century-FOX"],
         "director": "Thor Freudenthal",
         "producers": "Karen Rosenfelt, Michael Barnathan",
         "writtens": "Marc Guggenheim",
@@ -10515,7 +10174,7 @@
             }
         ],
         "synopsis": "In order to restore their dying safe haven, the son of Poseidon and his friends embark on a quest to the Sea of Monsters, to find the mythical Golden Fleece, all the while trying to stop an ancient evil from rising.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -10531,7 +10190,7 @@
         "genres": [
             "Adventure"
         ],
-        "production": "New Line Cinema",
+        "production": ["New-Line-Cinema"],
         "director": "Eric Brevig",
         "producers": "Beau Flynn, Charlotte Huggins",
         "writtens": "Michael D. Weiss, Mark Levin, Jennifer Flackett",
@@ -10560,7 +10219,7 @@
             }
         ],
         "synopsis": "On a quest to find out what happened to his missing brother, a scientist, his nephew and their mountain guide discover a fantastic and dangerous lost world in the center of the earth.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -10576,7 +10235,7 @@
         "genres": [
             "Adventure"
         ],
-        "production": "New Line Cinema",
+        "production": ["New-Line-Cinema"],
         "director": "Brad Peyton",
         "producers": "Beau Flynn, Tripp Vinson, Charlotte Huggins",
         "writtens": "Brian Gunn, Mark Gunn",
@@ -10620,7 +10279,7 @@
             }
         ],
         "synopsis": "Sean Anderson partners with his mom's husband on a mission to find his grandfather, who is thought to be missing on a mythical island.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -10637,7 +10296,7 @@
             "Sci-Fi",
             "Adventure"
         ],
-        "production": "20th Century FOX",
+        "production": ["20th-Century-FOX"],
         "director": "Ridley Scott",
         "producers": "Simon Kinberg, Ridley Scott, Michael Schaefer, Aditya Sood, Mark Huffam",
         "writtens": "Drew Goddard",
@@ -10716,7 +10375,7 @@
             }
         ],
         "synopsis": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -10733,7 +10392,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "DreamWorks Pictures, Paramount Pictures",
+        "production": ["DreamWorks-Pictures", "Paramount-Pictures"],
         "director": "Michael Bay",
         "producers": "Lorenzo di Bonaventura, Tom DeSanto, Don Murphy, Ian Bryce",
         "writtens": "Roberto Orci, Alex Kurtzman",
@@ -10812,12 +10471,7 @@
             }
         ],
         "synopsis": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
-        "categories": [
-            {
-                "title": "Special Favorite",
-                "link": "c-fav"
-            }
-        ],
+        "categories": ["special-favorite"],
         "awards": null,
         "parts": null,
         "type": {
@@ -10834,7 +10488,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "DreamWorks Pictures, Paramount Pictures",
+        "production": ["DreamWorks-Pictures", "Paramount-Pictures"],
         "director": "Michael Bay",
         "producers": "Lorenzo di Bonaventura, Tom DeSanto, Don Murphy, Ian Bryce",
         "writtens": "Roberto Orci, Alex Kurtzman, Ehren Kruger",
@@ -10903,7 +10557,7 @@
             }
         ],
         "synopsis": "Sam Witwicky leaves the Autobots behind for a normal life. But when his mind is filled with cryptic symbols, the Decepticons target him and he is dragged back into the Transformers' war.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -10920,7 +10574,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "DreamWorks Pictures, Paramount Pictures",
+        "production": ["DreamWorks-Pictures", "Paramount-Pictures"],
         "director": "Michael Bay",
         "producers": "Lorenzo di Bonaventura, Tom DeSanto, Don Murphy, Ian Bryce",
         "writtens": "Ehren Kruger",
@@ -10994,7 +10648,7 @@
             }
         ],
         "synopsis": "The Autobots learn of a Cybertronian spacecraft hidden on the moon, and race against the Decepticons to reach it and to learn its secrets.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -11011,7 +10665,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Warner Bros. Pictures, Legendary Pictures",
+        "production": ["Warner-Bros.-Pictures", "Legendary-Pictures"],
         "director": "Christopher Nolan",
         "producers": "Emma Thomas, Christopher Nolan",
         "writtens": "Christopher Nolan",
@@ -11085,7 +10739,7 @@
             }
         ],
         "synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -11102,7 +10756,7 @@
             "Sci-Fi",
             "Disaster"
         ],
-        "production": "20th Century FOX",
+        "production": ["20th-Century-FOX"],
         "director": "Roland Emmerich",
         "producers": "Roland Emmerich, Mark Gordon",
         "writtens": "Roland Emmerich, Jeffrey Nachmanoff",
@@ -11171,7 +10825,7 @@
             }
         ],
         "synopsis": "Jack Hall, paleoclimatologist, must make a daring trek from Washington, D.C. to New York City to reach his son, trapped in the cross-hairs of a sudden international storm which plunges the planet into a new Ice Age.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -11188,7 +10842,7 @@
             "Sci-Fi",
             "Adventure"
         ],
-        "production": "Walt Disney PIctures",
+        "production": ["Walt-Disney-Pictures"],
         "director": "Andrew Stanton",
         "producers": "Jim Morris, Colin Wilson, Lindsey Collins",
         "writtens": "Andrew Stanton, Mark Andrews",
@@ -11252,7 +10906,7 @@
             }
         ],
         "synopsis": "Transported to Barsoom, a Civil War vet discovers a barren planet seemingly inhabited by 12-foot tall barbarians. Finding himself prisoner of these creatures, he escapes, only to encounter Woola and a princess in desperate need of a savior.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -11269,7 +10923,7 @@
             "Fantasy",
             "Action"
         ],
-        "production": "Walt Disney PIctures",
+        "production": ["Walt-Disney-Pictures"],
         "director": "Mike Newell",
         "producers": "Jerry Bruckheimer",
         "writtens": "Boaz Yakin, Doug Miro, Carlo Bernard",
@@ -11328,7 +10982,7 @@
             }
         ],
         "synopsis": "A young fugitive Prince and Princess must stop a villain who unknowingly threatens to destroy the world with a special dagger that enables the magic sand inside to reverse time.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -11346,7 +11000,7 @@
             "Comedy",
             "Drama"
         ],
-        "production": "Gaumont, TF1 Films Production",
+        "production": ["Gaumont", "TF1-Films-Production"],
         "director": "Oliver Nakache, Eric Toledano",
         "producers": "Nicolas Duval Adassovsky, Yann Zenou, Laurent Zeitoun",
         "writtens": "Olivier Nakache, Eric Toledano",
@@ -11380,7 +11034,7 @@
             }
         ],
         "synopsis": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -11397,7 +11051,7 @@
             "Action",
             "Comedy"
         ],
-        "production": "Columbia Pictures",
+        "production": ["Columbia-Pictures"],
         "director": "Peter Berg",
         "producers": "Akiva Goldsman, James Lassiter, Michael Mann, Will Smith",
         "writtens": "Vince Gilligan, Vincent Ngo",
@@ -11461,7 +11115,7 @@
             }
         ],
         "synopsis": "Hancock is a superhero whose ill considered behavior regularly causes damage in the millions. He changes when the person he saves helps him improve his public image.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -11478,7 +11132,7 @@
             "Action",
             "Thriller"
         ],
-        "production": "Warner Bros. Pictures, Legendary Pictures",
+        "production": ["Warner-Bros.-Pictures", "Legendary-Pictures"],
         "director": "Christopher Nolan",
         "producers": "Charles Roven, Emma Thomas, Larry Franco",
         "writtens": "Christopher Nolan, David S. Goyer",
@@ -11557,7 +11211,7 @@
             }
         ],
         "synopsis": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -11574,7 +11228,7 @@
             "Action",
             "Thriller"
         ],
-        "production": "Warner Bros. Pictures, Legendary Pictures",
+        "production": ["Warner-Bros.-Pictures", "Legendary-Pictures"],
         "director": "Christopher Nolan",
         "producers": "Charles Roven, Emma Thomas, Christopher Nolan",
         "writtens": "Christopher Nolan, Jonathan Nolan",
@@ -11638,7 +11292,7 @@
             }
         ],
         "synopsis": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -11655,7 +11309,7 @@
             "Action",
             "Thriller"
         ],
-        "production": "Warner Bros. Pictures, Legendary Pictures",
+        "production": ["Warner-Bros.-Pictures", "Legendary-Pictures"],
         "director": "Christopher Nolan",
         "producers": "Charles Roven, Emma Thomas, Christopher Nolan",
         "writtens": "Christopher Nolan, Jonathan Nolan",
@@ -11734,7 +11388,7 @@
             }
         ],
         "synopsis": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City, now on the edge of total annihilation, from the brutal guerrilla terrorist Bane.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -11751,7 +11405,7 @@
             "Action",
             "Disaster"
         ],
-        "production": "Warner Bros. Pictures",
+        "production": ["Warner-Bros.-Pictures"],
         "director": "Brad Peyton",
         "producers": "Beau Flynn",
         "writtens": "Carlton Cuse",
@@ -11805,7 +11459,7 @@
             }
         ],
         "synopsis": "In the aftermath of a massive earthquake in California, a rescue-chopper pilot makes a dangerous journey with his ex-wife across the state in order to rescue his daughter.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -11823,7 +11477,7 @@
             "Adventure",
             "Drama"
         ],
-        "production": "20th Century FOX",
+        "production": ["20th-Century-FOX"],
         "director": "Tim Burton",
         "producers": "Peter Chernin, Jenno Topping",
         "writtens": "Jane Goldman",
@@ -11887,7 +11541,7 @@
             }
         ],
         "synopsis": "When Jacob discovers clues to a mystery that stretches across time, he finds Miss Peregrine's Home for Peculiar Children. But the danger deepens after he gets to know the residents and learns about their special powers.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -11904,7 +11558,7 @@
             "Sci-Fi",
             "Adventure"
         ],
-        "production": "Warner Bros. Pictures",
+        "production": ["Warner-Bros.-Pictures"],
         "director": "Simon Wells",
         "producers": "Walter F. Parkes, David Valdes",
         "writtens": "John Logan",
@@ -11968,7 +11622,7 @@
             }
         ],
         "synopsis": "Hoping to alter the events of the past, a 19th century inventor instead travels 800,000 years into the future, where he finds humankind divided into two warring races.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -11986,7 +11640,7 @@
             "Romance",
             "Animation"
         ],
-        "production": "Warner Bros. Pictures, Village Roadshow Pictures",
+        "production": ["Warner-Bros.-Pictures", "Village-Roadshow-Pictures"],
         "director": "George Miller",
         "producers": "Bill Miller, George Miller, Doug Mitchell",
         "writtens": "Warren Coleman, John Collee, George Miller, Judy Morris",
@@ -12050,7 +11704,7 @@
             }
         ],
         "synopsis": "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -12067,7 +11721,7 @@
             "Adventure",
             "Action"
         ],
-        "production": "Warner Bros. Pictures, Metro-Goldwyn-Mayer",
+        "production": ["Warner-Bros.-Pictures", "Metro-Goldwyn-Mayer"],
         "director": "Roar Uthaug",
         "producers": "Graham King",
         "writtens": "Geneva Robertson-Dworet, Alastair Siddons",
@@ -12111,7 +11765,7 @@
             }
         ],
         "synopsis": "Lara Croft, the fiercely independent daughter of a missing adventurer, must push herself beyond her limits when she discovers the island where her father disappeared.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -12128,7 +11782,7 @@
             "Crime",
             "Drama"
         ],
-        "production": "20th Century FOX",
+        "production": ["20th-Century-FOX"],
         "director": "Kenneth Branagh",
         "producers": "Ridley Scott, Mark Gordon, Simon Kinberg, Kenneth Branagh",
         "writtens": "Michael Green",
@@ -12172,7 +11826,7 @@
             }
         ],
         "synopsis": "When a murder occurs on the train on which he's travelling, celebrated detective Hercule Poirot is recruited to solve the case.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -12190,7 +11844,7 @@
             "Action",
             "Adventure"
         ],
-        "production": "Universal Pictures",
+        "production": ["Universal-Pictures"],
         "director": "Alex Kurtzman",
         "producers": "Alex Kurtzman, Chris Morgan",
         "writtens": "David Koepp, Christopher McQuarrie, Dylan Kussman",
@@ -12237,7 +11891,7 @@
             }
         ],
         "synopsis": "An ancient Egyptian princess is awakened from her crypt beneath the desert, bringing with her malevolence grown over millennia, and terrors that defy human comprehension.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -12254,7 +11908,7 @@
             "Fantasy",
             "Action"
         ],
-        "production": "Universal Pictures, Legendary Pictures",
+        "production": ["Universal-Pictures", "Legendary-Pictures"],
         "director": "Duncan Jones",
         "producers": "Charles Roven, Alex Gartner, Thomas Tull, Jon Jashni, Stuart Fenegan",
         "writtens": "Charles Leavitt, Duncan Jones",
@@ -12333,7 +11987,7 @@
             }
         ],
         "synopsis": "As an Orc horde invades the planet Azeroth using a magic portal, a few human heroes and dissenting Orcs must attempt to stop the true evil behind this war.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -12350,7 +12004,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "Walt Disney Pictures",
+        "production": ["Walt-Disney-Pictures"],
         "director": "Andrew Adamson",
         "producers": "Mark Johnson, Phillip Steuer",
         "writtens": "Ann Peacock, Andrew Adamson, Christopher Markus, Stephen McFeely",
@@ -12404,7 +12058,7 @@
             }
         ],
         "synopsis": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -12421,7 +12075,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "Walt Disney Pictures",
+        "production": ["Walt-Disney-Pictures"],
         "director": "Andrew Adamson",
         "producers": "Mark Johnson, Phillip Steuer",
         "writtens": "Andrew Adamson, Christopher Markus, Stephen McFeely",
@@ -12485,7 +12139,7 @@
             }
         ],
         "synopsis": "The Pevensie siblings return to Narnia, where they are enlisted to once again help ward off an evil king and restore the rightful heir to the land's throne, Prince Caspian.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -12502,7 +12156,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "20th Century FOX",
+        "production": ["20th-Century-FOX"],
         "director": "Michael Apted",
         "producers": "Mark Johnson, Phillip Steuer, Andrew Adamson",
         "writtens": "Christopher Markus, Stephen McFeely, Michael Petroni",
@@ -12576,7 +12230,7 @@
             }
         ],
         "synopsis": "Lucy and Edmund Pevensie return to Narnia with their cousin Eustace where they meet up with Prince Caspian for a trip across the sea aboard the royal ship The Dawn Treader. Along the way they encounter dragons, dwarves, merfolk, and a band of lost warriors before reaching the edge of the world.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -12593,7 +12247,7 @@
             "Action",
             "Adventure"
         ],
-        "production": "DC Entertainment, Warner Bros. Pictures",
+        "production": ["Warner-Bros.-Pictures", "DC-Films"],
         "director": "Zack Snyder",
         "producers": "Christopher Nolan, Charles Roven, Emma Thomas, Deborah Snyder",
         "writtens": "David S. Goyer",
@@ -12657,12 +12311,7 @@
             }
         ],
         "synopsis": "Clark Kent is an alien who as a child was evacuated from his dying world and came to Earth, living as a normal human. But when survivors of his alien home invade Earth, he must reveal himself to the world.",
-        "categories": [
-            {
-                "title": "DCEU",
-                "link": "c-dc"
-            }
-        ],
+        "categories": ["dceu"],
         "awards": null,
         "parts": null,
         "type": {
@@ -12679,7 +12328,7 @@
             "Action",
             "Adventure"
         ],
-        "production": "DC Entertainment, Warner Bros. Pictures",
+        "production": ["DC-Films", "Warner-Bros.-Pictures"],
         "director": "Zack Snyder",
         "producers": "Charles Roven, Deborah Snyder",
         "writtens": "Chris Terrio, David S. Goyer",
@@ -12738,12 +12387,7 @@
             }
         ],
         "synopsis": "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs.",
-        "categories": [
-            {
-                "title": "DCEU",
-                "link": "c-dc"
-            }
-        ],
+        "categories": ["dceu"],
         "awards": null,
         "parts": null,
         "type": {
@@ -12760,7 +12404,7 @@
             "Action",
             "Adventure"
         ],
-        "production": "DC Entertainment, Warner Bros. Pictures",
+        "production": ["DC-Films", "Warner-Bros.-Pictures"],
         "director": "David Ayer",
         "producers": "Charles Roven, Richard Suckle",
         "writtens": "David Ayer",
@@ -12819,16 +12463,7 @@
             }
         ],
         "synopsis": "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse.",
-        "categories": [
-            {
-                "title": "DCEU",
-                "link": "-dc"
-            },
-            {
-                "title": "Cinema Watched",
-                "link": "c-cw"
-            }
-        ],
+        "categories": ["dceu"],
         "awards": null,
         "parts": null,
         "type": {
@@ -12846,7 +12481,7 @@
             "Adventure",
             "Drama"
         ],
-        "production": "DC Entertainment, Warner Bros. Pictures",
+        "production": ["DC-Films", "Warner-Bros.-Pictures"],
         "director": "Patty Jenkins",
         "producers": "Charles Roven, Deborah Snyder, Zack Snyder, Richard Suckle",
         "writtens": "Allan Heinberg",
@@ -12900,16 +12535,7 @@
             }
         ],
         "synopsis": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
-        "categories": [
-            {
-                "title": "DCEU",
-                "link": "-dc"
-            },
-            {
-                "title": "Cinema Watched",
-                "link": "c-cw"
-            }
-        ],
+        "categories": ["dceu"],
         "awards": null,
         "parts": null,
         "type": {
@@ -12926,7 +12552,7 @@
             "Action",
             "Adventure"
         ],
-        "production": "DC Films, Warner Bros. Pictures",
+        "production": ["DC-Films", "Warner-Bros.-Pictures"],
         "director": "Zack Snyder",
         "producers": "Charles Roven, Deborah Snyder, Jon Berg, Geoff Johns",
         "writtens": "Chris Terrio, Joss Whedon",
@@ -13000,12 +12626,7 @@
             }
         ],
         "synopsis": "Fueled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne enlists the help of his new-found ally, Diana Prince, to face an even greater enemy.",
-        "categories": [
-            {
-                "title": "DCEU",
-                "link": "c-dc"
-            }
-        ],
+        "categories": ["dceu", "cinema-watched"],
         "awards": null,
         "parts": null,
         "type": {
@@ -13022,7 +12643,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "DC Films, Warner Bros. Pictures",
+        "production": ["DC-Films", "Warner-Bros.-Pictures"],
         "director": "James Wan",
         "producers": "Peter Safran, Rob Cowan",
         "writtens": "David Leslie Johnson-McGoldrick, Will Beall",
@@ -13081,12 +12702,7 @@
             }
         ],
         "synopsis": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
-        "categories": [
-            {
-                "title": "DCEU",
-                "link": "c-dc"
-            }
-        ],
+        "categories": ["dceu"],
         "awards": null,
         "parts": null,
         "type": {
@@ -13103,7 +12719,7 @@
             "Adventure",
             "Comedy"
         ],
-        "production": "DC Films, Warner Bros. Pictures",
+        "production": ["DC-Films", "Warner-Bros.-Pictures"],
         "director": "David F. Sandberg",
         "producers": "Peter Safran",
         "writtens": "Henry Gayden",
@@ -13147,12 +12763,7 @@
             }
         ],
         "synopsis": "We all have a superhero inside us, it just takes a bit of magic to bring it out. In Billy Batson's case, by shouting out one word - SHAZAM! - this streetwise fourteen-year-old foster kid can turn into the adult superhero Shazam.",
-        "categories": [
-            {
-                "title": "DCEU",
-                "link": "c-dc"
-            }
-        ],
+        "categories": ["dceu"],
         "awards": null,
         "parts": null,
         "type": {
@@ -13169,7 +12780,7 @@
             "Action",
             "Thriller"
         ],
-        "production": "20th Century FOX",
+        "production": ["20th-Century-FOX"],
         "director": "Jan de Bont",
         "producers": "Mark Gordon",
         "writtens": "Graham Yost",
@@ -13218,7 +12829,7 @@
             }
         ],
         "synopsis": "A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -13235,7 +12846,7 @@
             "Drama",
             "Adventure"
         ],
-        "production": "Metropolitan Filmexport, Paramount Pictures",
+        "production": ["Metropolitan-Filmexport", "Paramount-Pictures"],
         "director": "Martin Scorsese",
         "producers": "Graham King, Timothy Headington",
         "writtens": "John Logan",
@@ -13269,7 +12880,7 @@
             }
         ],
         "synopsis": "In Paris in 1931, an orphan named Hugo Cabret, who lives in the walls of a train station, is wrapped up in a mystery involving his late father and an automaton",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -13281,13 +12892,13 @@
         "id": 168,
         "title": "Sherlock",
         "poster": "tv_sherlock",
-        "trailer": "xK7S9mrFWL4",
+        "trailer": null,
         "genres": [
             "Crime",
             "Drama",
             "Thriller"
         ],
-        "production": "BBC One",
+        "production": ["BBC-One"],
         "director": "Mark Gatiss, Steven Moffat",
         "producers": "Sue Vertue, Elaine Cameron",
         "writtens": "Mark Gatiss, Steven Moffat, Stephen Thompson",
@@ -13341,53 +12952,17 @@
             }
         ],
         "synopsis": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
-        "categories": [
-            {
-                "title": "Series",
-                "link": "c-tv"
-            }
-        ],
+        "categories": ["series"],
         "awards": null,
         "parts": null,
         "type": {
             "value": "series",
-            "data": {
-                "seasons": [
-                    [
-                        1,
-                        3
-                    ],
-                    [
-                        2,
-                        3
-                    ],
-                    [
-                        3,
-                        3
-                    ],
-                    [
-                        4,
-                        3
-                    ]
-                ],
-                "trailers": [
-                    {
-                        "num": 2,
-                        "poster": "tv_sherlock_s2",
-                        "youtube": "bF71IxmOdeE"
-                    },
-                    {
-                        "num": 3,
-                        "poster": "tv_sherlock_s3",
-                        "youtube": "9UcR9iKArd0"
-                    },
-                    {
-                        "num": 4,
-                        "poster": "tv_sherlock_s4",
-                        "youtube": "qlcWFoNqZHc"
-                    }
-                ]
-            }
+            "data": [
+                {"episodes": 3, "trailer": "xK7S9mrFWL4"},
+                {"episodes": 3, "trailer": "bF71IxmOdeE"},
+                {"episodes": 3, "trailer": "9UcR9iKArd0"},
+                {"episodes": 3, "trailer": "qlcWFoNqZHc"}
+            ]
         }
     },
     {
@@ -13399,7 +12974,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Warner Bros. Pictures, Legendary Pictures",
+        "production": ["Warner-Bros.-Pictures", "Legendary-Pictures"],
         "director": "Gareth Edwards",
         "producers": "Thomas Tull, Jon Jashni, Mary Parent, Brian Rogers",
         "writtens": "Max Borenstein",
@@ -13456,7 +13031,7 @@
             }
         ],
         "synopsis": "The world is beset by the appearance of monstrous creatures, but one of them may be the only one who can save humanity.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -13474,7 +13049,7 @@
             "Adventure",
             "Fantasy"
         ],
-        "production": "Warner Bros. Pictures",
+        "production": ["Warner-Bros.-Pictures"],
         "director": "Jordan Vogt-Roberts",
         "producers": "Thomas Tull, Mary Parent, Jon Jashni",
         "writtens": "Dan Gilroy, Max Borenstein, Derek Connolly",
@@ -13523,7 +13098,7 @@
             }
         ],
         "synopsis": "After the Vietnam war, a team of scientists explores an uncharted island in the Pacific, venturing into the domain of the mighty Kong, and must fight to escape a primal Eden.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -13540,7 +13115,7 @@
             "Action",
             "Fantasy"
         ],
-        "production": "Warner Bros. Pictures, Legendary Pictures",
+        "production": ["Warner-Bros.-Pictures", "Legendary-Pictures"],
         "director": "Michael Dougherty",
         "producers": "Mary Parent, Alex Garcia, Thomas Tull",
         "writtens": "Michael Dougherty, Zach Shields",
@@ -13604,7 +13179,7 @@
             }
         ],
         "synopsis": "The crypto-zoological agency Monarch faces off against a battery of god-sized monsters, including the mighty Godzilla, who collides with Mothra, Rodan, and his ultimate nemesis, the three-headed King Ghidorah.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -13619,9 +13194,10 @@
         "trailer": "g4Hbz2jLxvQ",
         "genres": [
             "Action",
-            "Adventure"
+            "Adventure",
+            "Animation"
         ],
-        "production": "Sony Pictures Animation, Columbia Pictures, Marvel Entertainment",
+        "production": ["Sony-Pictures-Animation", "Columbia-Pictures", "Marvel-Entertainment"],
         "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
         "producers": "Avi Arad, Amy Pascal, Phil Lord , Christopher Miller, Christina Steinberg",
         "writtens": "Phil Lord, Rodney Rothman",
@@ -13695,7 +13271,7 @@
             }
         ],
         "synopsis": "Teen Miles Morales becomes Spider-Man of his reality, crossing his path with five counterparts from other dimensions to stop a threat for all realities.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -13712,7 +13288,7 @@
             "Fantasy",
             "Action"
         ],
-        "production": "Columbia Pictures",
+        "production": ["Columbia-Pictures"],
         "director": "Guillermo del Toro",
         "producers": "Lawrence Gordon, Mike Richardson, Lloyd Levin",
         "writtens": "Guillermo del Toro",
@@ -13776,7 +13352,7 @@
             }
         ],
         "synopsis": "A demon, raised from infancy after being conjured by and rescued from the Nazis, grows up to become a defender against the forces of darkness.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -13793,7 +13369,7 @@
             "Fantasy",
             "Action"
         ],
-        "production": "Universal Pictures",
+        "production": ["Universal-Pictures"],
         "director": "Guillermo del Toro",
         "producers": "Lawrence Gordon, Mike Richardson, Lloyd Levin",
         "writtens": "Guillermo del Toro",
@@ -13857,7 +13433,7 @@
             }
         ],
         "synopsis": "The mythical world starts a rebellion against humanity in order to rule the Earth, so Hellboy and his team must save the world from the rebellious creatures.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -13874,7 +13450,7 @@
             "Crime",
             "Thriller"
         ],
-        "production": "Summit Entertainment",
+        "production": ["Summit-Entertainment"],
         "director": "Louis Leterrier",
         "producers": "Bobby Cohen, Alex Kurtzman, Roberto Orci",
         "writtens": "Ed Solomon, Boaz Yakin, Edward Ricourt",
@@ -13933,7 +13509,7 @@
             }
         ],
         "synopsis": "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -13949,7 +13525,7 @@
         "genres": [
             "Romantic comedy"
         ],
-        "production": "Columbia Pictures",
+        "production": ["Columbia-Pictures"],
         "director": "Andy Tennant",
         "producers": "Will Smith, James Lassiter, Teddy Zee",
         "writtens": "Kevin Bisch",
@@ -13988,7 +13564,7 @@
             }
         ],
         "synopsis": "While helping his latest client woo the fine lady of his dreams, a professional \"date doctor\" finds that his game doesn't quite work on the gossip columnist with whom he's smitten.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -14006,7 +13582,7 @@
             "Action",
             "Thriller"
         ],
-        "production": "Summit Entertainment",
+        "production": ["Summit-Entertainment"],
         "director": "Duncan Jones",
         "producers": "Mark Gordon, Jordan Wynn, Philippe Roussellet",
         "writtens": "Ben Ripley",
@@ -14055,7 +13631,7 @@
             }
         ],
         "synopsis": "A soldier wakes up in someone else's body and discovers he's part of an experimental government program to find the bomber of a commuter train. A mission he has only 8 minutes to complete.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -14073,7 +13649,7 @@
             "Adventure",
             "Horror"
         ],
-        "production": "Paramount Pictures, Skydance Productions",
+        "production": ["Paramount-Pictures", "Skydance-Productions"],
         "director": "Marc Forster",
         "producers": "Brad Pitt, Dede Gardner, Jeremy Kleiner",
         "writtens": "Matthew Michael Carnahan, Drew Goddard",
@@ -14112,7 +13688,7 @@
             }
         ],
         "synopsis": "Former United Nations employee Gerry Lane traverses the world in a race against time to stop the Zombie pandemic that is toppling armies and governments, and threatening to destroy humanity itself.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -14129,7 +13705,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "20th Century FOX",
+        "production": ["20th-Century-FOX"],
         "director": "Doug Liman",
         "producers": "Simon Kinberg, Lucas Foster, Jay Sanders, Arnon Milchan, Stacy Maes",
         "writtens": "David S. Goyer, Jim Uhls, Simon Kinberg",
@@ -14173,7 +13749,7 @@
             }
         ],
         "synopsis": "A teenager with teleportation abilities suddenly finds himself in the middle of an ancient war between those like him and their sworn annihilators.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -14190,7 +13766,7 @@
             "Adventure",
             "Animation"
         ],
-        "production": "Walt Disney Pictures, Pixar Animation Pictures",
+        "production": ["Walt-Disney-Pictures", "Pixar-Animation"],
         "director": "Andrew Stanton",
         "producers": "Graham Walters",
         "writtens": "Andrew Stanton, Bob Peterson, David Reynolds",
@@ -14244,7 +13820,7 @@
             }
         ],
         "synopsis": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -14260,7 +13836,7 @@
         "genres": [
             "Comedy"
         ],
-        "production": "20th Century FOX",
+        "production": ["20th-Century-FOX"],
         "director": "Chris Columbus",
         "producers": "John Hughes",
         "writtens": "John Hughes",
@@ -14324,7 +13900,7 @@
             }
         ],
         "synopsis": "An eight-year-old troublemaker must protect his house from a pair of burglars when he is accidentally left home alone by his family during Christmas vacation.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -14340,7 +13916,7 @@
         "genres": [
             "Comedy"
         ],
-        "production": "20th Century FOX, Hughes Entertainment",
+        "production": ["20th-Century-FOX", "Hughes-Entertainment"],
         "director": "Chris Columbus",
         "producers": "John Hughes",
         "writtens": "John Hughes",
@@ -14409,7 +13985,7 @@
             }
         ],
         "synopsis": "One year after Kevin McCallister was left home alone and had to defeat a pair of bumbling burglars, he accidentally finds himself stranded in New York City - and the same criminals are not far behind.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -14426,7 +14002,7 @@
             "Action",
             "Comedy"
         ],
-        "production": "Paramount Pictures",
+        "production": ["Paramount-Pictures"],
         "director": "Jonathan Liebesman",
         "producers": "Michael Bay, Andrew Form, Brad Fuller, Galen Walker, Scott Mednick, Ian Bryce",
         "writtens": "Josh Appelbaum, André Nemec, Evan Daugherty",
@@ -14495,7 +14071,7 @@
             }
         ],
         "synopsis": "When a kingpin threatens New York City, a group of mutated turtle warriors must emerge from the shadows to protect their home.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -14512,7 +14088,7 @@
             "Sci-Fi",
             "Thriller"
         ],
-        "production": "20th Century FOX",
+        "production": ["20th-Century-FOX"],
         "director": "Scott Derrickson",
         "producers": "Paul Harris Boardman, Gregory Goodman, Erwin Stoff",
         "writtens": "David Scarpa",
@@ -14571,7 +14147,7 @@
             }
         ],
         "synopsis": "A remake of the 1951 classic science fiction film about an alien visitor and his giant robot counterpart who visit Earth.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -14589,7 +14165,7 @@
             "Romance",
             "Drama"
         ],
-        "production": "A24, Route One Films",
+        "production": ["A24", "Route-One-Films"],
         "director": "Drake Doremus",
         "producers": "Michael Pruss, Chip Diggins, Ann Ruark, Michael Schaefer, Ridley Scott, Jay Stern",
         "writtens": "Nathan Parker",
@@ -14653,7 +14229,7 @@
             }
         ],
         "synopsis": "In an emotionless utopia, two people fall in love when they regain their feelings from a mysterious disease, causing tensions between them and their society.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -14670,7 +14246,7 @@
             "Supernatural",
             "Action"
         ],
-        "production": "Sony Pictures, Columbia Pictures",
+        "production": ["Sony-Pictures", "Columbia-Pictures"],
         "director": "Mark Steven Johnson",
         "producers": "Avi Arad, Steven Paul, Michael De Luca",
         "writtens": "Mark Steven Johnson",
@@ -14729,7 +14305,7 @@
             }
         ],
         "synopsis": "When motorcycle rider Johnny Blaze sells his soul to the Devil to save his father's life, he is transformed into the Ghost Rider, the Devil's own bounty hunter, and is sent to hunt down sinners.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -14745,7 +14321,7 @@
         "genres": [
             "Comedy"
         ],
-        "production": "TF1 Films Productions, ARP S'lectio",
+        "production": ["TF1-Films-Productions", "ARP-S'lectio"],
         "director": "G'rard Pir's",
         "producers": "Luc Besson, Michele Petin, Laurent Petin",
         "writtens": "Luc Besson",
@@ -14789,7 +14365,7 @@
             }
         ],
         "synopsis": "To work off his tarnished driving record, a hip taxi driver must chauffeur a loser police inspector on the trail of German bank robbers.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -14805,7 +14381,7 @@
         "genres": [
             "Comedy"
         ],
-        "production": "Lions Gate Entertainment",
+        "production": ["Lions-Gate-Entertainment"],
         "director": "G'rard Krawczyk",
         "producers": "Luc Besson, Michele Petin, Laurent Petin",
         "writtens": "Luc Besson",
@@ -14844,7 +14420,7 @@
             }
         ],
         "synopsis": "Police inspector Emilien and his taxi-driver pal Daniel are back, this time on the tail of a group of Japanese yakuza.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -14860,7 +14436,7 @@
         "genres": [
             "Comedy"
         ],
-        "production": "Lions Gate Entertainment",
+        "production": ["Lions-Gate-Entertainment"],
         "director": "G'rard Krawczyk",
         "producers": "Luc Besson",
         "writtens": "Luc Besson",
@@ -14914,7 +14490,7 @@
             }
         ],
         "synopsis": "Out to stop a new gang disguised as Santa Claus, Emilien and Daniel must also handle major changes in their personal relationships.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -14931,7 +14507,7 @@
             "Fantasy",
             "Adventure"
         ],
-        "production": "TriStar Pictures",
+        "production": ["TriStar"],
         "director": "Joe Johnston",
         "producers": "Scott Kroopf, William Teitler",
         "writtens": "Greg Taylor, Jonathan Hensleigh, Jim Strain",
@@ -14985,7 +14561,7 @@
             }
         ],
         "synopsis": "When two kids find and play a magical board game, they release a man trapped for decades in it and a host of dangers that can only be stopped by finishing the game.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -15003,7 +14579,7 @@
             "Adventure",
             "Comedy"
         ],
-        "production": "Columbia Pictures",
+        "production": ["Columbia-Pictures"],
         "director": "Jake Kasdan",
         "producers": "Matt Tolmach, William Teitler",
         "writtens": "Chris McKenna, Erik Sommers, Scott Rosenberg, Jeff Pinkner",
@@ -15052,7 +14628,7 @@
             }
         ],
         "synopsis": "Four teenagers are sucked into a magical video game, and the only way they can escape is to work together to finish the game.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -15069,7 +14645,7 @@
             "Adventure",
             "Comedy"
         ],
-        "production": "Columbia Pictures, Seven Bucks Productions",
+        "production": ["Columbia-Pictures", "Seven-Bucks-Productions"],
         "director": "Jake Kasdan",
         "producers": "Dwayne Johnson, Dany Garcia, Hiram Garcia, Matt Tolmach, William Teitler, Jake Kasdan",
         "writtens": "Jake Kasdan, Jeff Pinkner, Scott Rosenberg",
@@ -15143,12 +14719,7 @@
             }
         ],
         "synopsis": "In Jumanji: The Next Level, the gang is back but the game has changed. As they return to rescue one of their own, the players will have to brave parts unknown from arid deserts to snowy mountains, to escape the world's most dangerous game.",
-        "categories": [
-            {
-                "title": "Cinema Watched",
-                "link": "c-cw"
-            }
-        ],
+        "categories": ["cinema-watched"],
         "awards": null,
         "parts": null,
         "type": {
@@ -15165,7 +14736,7 @@
             "Action",
             "Horror"
         ],
-        "production": "Pathe Distribution, Constantin Film",
+        "production": ["Pathe-Distribution", "Constantin-Film"],
         "director": "Paul W. S. Anderson",
         "producers": "Bernd Eichinger, Samuel Hadida, Jeremy Boltm Paul W. S. Anderson",
         "writtens": "Paul W. S. Anderson",
@@ -15209,7 +14780,7 @@
             }
         ],
         "synopsis": "A special military unit fights a powerful, out-of-control supercomputer and hundreds of scientists who have mutated into flesh-eating creatures after a laboratory accident.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -15226,7 +14797,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "Columbia Pictures",
+        "production": ["Columbia-Pictures"],
         "director": "Luc Besson",
         "producers": "Patrice Ledoux",
         "writtens": "Luc Besson, Robert Mark Kamen",
@@ -15275,7 +14846,7 @@
             }
         ],
         "synopsis": "In the colorful future, a cab driver unwittingly becomes the central figure in the search for a legendary cosmic weapon to keep Evil and Mr. Zorg at bay.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -15291,7 +14862,7 @@
         "genres": [
             "Sci-Fi"
         ],
-        "production": "Warner Bros. Pictures, Village Roadshow Pictures",
+        "production": ["Warner-Bros.-Pictures", "Village-Roadshow-Pictures"],
         "director": "Francis Lawrence",
         "producers": "Akiva Goldsman, James Lassiter,David Heyman, Neal H. Moritz",
         "writtens": "Mark Protosevich, Akiva Goldsman",
@@ -15330,7 +14901,7 @@
             }
         ],
         "synopsis": "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -15347,7 +14918,7 @@
             "Cyberpunk",
             "Action"
         ],
-        "production": "20th Century FOX",
+        "production": ["20th-Century-FOX"],
         "director": "Robert Rodriguez",
         "producers": "James Cameron, Jon Landau",
         "writtens": "James Cameron, Laeta Kalogridis",
@@ -15396,7 +14967,7 @@
             }
         ],
         "synopsis": "A deactivated female cyborg is revived, but cannot remember anything of her past life and goes on a quest to find out who she is.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -15413,7 +14984,7 @@
             "Sci-Fi",
             "Thriller"
         ],
-        "production": "Magnet Releasing",
+        "production": ["Magnet-Releasing"],
         "director": "Paul Currie",
         "producers": "Bill Mechanic, Steve Hutensky, Paul Currie, Jackie O’Sullivan, Garrett Kelleher",
         "writtens": "Nathan Parker, Todd Stein",
@@ -15462,7 +15033,7 @@
             }
         ],
         "synopsis": "A man's life is derailed when an ominous pattern of events repeats itself in exactly the same manner every day, ending at precisely 2:22 p.m.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -15479,7 +15050,7 @@
             "Action",
             "Sci-Fi"
         ],
-        "production": "Paramount Pictures, Skydance Media",
+        "production": ["Paramount-Pictures", "Skydance-Media"],
         "director": "Ang Lee",
         "producers": "Jerry Bruckheimer, David Ellison",
         "writtens": "David Benioff, Billy Ray, Darren Lemke",
@@ -15489,7 +15060,7 @@
         "time": 117,
         "country": "USA",
         "budget": "138 million",
-        "boxoffice": "??? million",
+        "boxoffice": "173 million",
         "actors": [
             {
                 "image": "noimage",
@@ -15538,12 +15109,7 @@
             }
         ],
         "synopsis": "An over-the-hill hitman faces off against a younger clone of himself",
-        "categories": [
-            {
-                "title": "Cinema Watched",
-                "link": "c-cw"
-            }
-        ],
+        "categories": ["cinema-watched"],
         "awards": null,
         "parts": null,
         "type": {
@@ -15561,7 +15127,7 @@
             "Adventure",
             "Comedy"
         ],
-        "production": "Walt Disney Animation Studios",
+        "production": ["Walt-Disney-Animation-Studios"],
         "director": "Chris Buck, Jennifer Lee",
         "producers": "Peter Del Vecho",
         "writtens": "Jennifer Lee",
@@ -15605,7 +15171,7 @@
             }
         ],
         "synopsis": "When the newly-crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -15624,7 +15190,7 @@
             "Fantasy",
             "Animation"
         ],
-        "production": "Toho, CoMix Wave Films",
+        "production": ["Toho, CoMix-Wave-Films"],
         "director": "Makoto Shinkai",
         "producers": "Noritaka Kawaguchi, Genki Kawamura",
         "writtens": "Makoto Shinkai",
@@ -15673,7 +15239,7 @@
             }
         ],
         "synopsis": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -15691,7 +15257,7 @@
             "Sci-Fi",
             "Thriller"
         ],
-        "production": "Universal Pictures",
+        "production": ["Universal-Pictures"],
         "director": "George Nolfi",
         "producers": "Bill Carraro, Michael Hackett, Chris Moore, George Nolfi",
         "writtens": "George Nolfi",
@@ -15745,7 +15311,7 @@
             }
         ],
         "synopsis": "The affair between a politician and a contemporary dancer is affected by mysterious forces keeping the lovers apart.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -15763,7 +15329,7 @@
             "Fantasy",
             "Mystery"
         ],
-        "production": "Lieblingsfilm",
+        "production": ["Lieblingsfilm"],
         "director": "Felix Fuchssteiner",
         "producers": "Philipp Budweg, Tom Blieninger, Hans W. Gei'end'rfer,  Markus Zimmer",
         "writtens": "Katharina Sch'de",
@@ -15812,7 +15378,7 @@
             }
         ],
         "synopsis": "On her 16th birthday, Gwendolyn Shepherd finds out that instead of her cousin, she has inherited a rare gene that allows her to travel through time.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -15830,7 +15396,7 @@
             "Fantasy",
             "Mystery"
         ],
-        "production": "TMG",
+        "production": ["TMG"],
         "director": "Felix Fuchssteiner, Katharina Sch'de",
         "producers": "Philipp Budweg, Tom Blieninger, Hans W. Gei'end'rfer,  Markus Zimmer",
         "writtens": "Katharina Sch'de",
@@ -15874,7 +15440,7 @@
             }
         ],
         "synopsis": "Gwen has just discovered, that she's the final member of the secret time-traveling Circle of Twelve. Now she has to juggle with constant trips to the past, her relationships with Gideon and figuring out dark secrets surrounding the Circle.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -15892,7 +15458,7 @@
             "Fantasy",
             "Mystery"
         ],
-        "production": "Lieblingsfilm",
+        "production": ["Lieblingsfilm"],
         "director": "Felix Fuchssteiner, Katharina Sch'de",
         "producers": "Philipp Budweg, Tom Blieninger, Hans W. Gei'end'rfer,  Markus Zimmer",
         "writtens": "Katharina Sch'de",
@@ -15931,7 +15497,7 @@
             }
         ],
         "synopsis": "Adaptation of the final part of famous time-travel trilogy. Gwendolyn's heart is broken, will she trust Gideon again? There's no time to wallow in tears. Something unbelievable happens, and Gwendolyn finds herself in the race against time.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -15948,7 +15514,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "production": "20th Century FOX, Dune Entertainment",
+        "production": ["20th-Century-FOX", "Dune-Entertainment"],
         "director": "Rupert Wyatt",
         "producers": "Peter Chernin, Dylan Clark, Rick Jaffa, Amanda Silver",
         "writtens": "Rick Jaffa, Amanda Silver",
@@ -16002,7 +15568,7 @@
             }
         ],
         "synopsis": "A substance designed to help the brain repair itself gives advanced intelligence to a chimpanzee who leads an ape uprising",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -16014,13 +15580,13 @@
         "id": 218,
         "title": "Agent Carter",
         "poster": "tv_agent_carter",
-        "trailer": "qPiMNPlbijw",
+        "trailer": null,
         "genres": [
             "Action",
             "Adventure",
             "Sci-Fi"
         ],
-        "production": "ABC Studios, Marvel TV",
+        "production": ["ABC-Studios", "Marvel-Television"],
         "director": "Christopher Markus, Stephen McFeely",
         "producers": "Sara E. White",
         "writtens": "Jack Kirby, Stan Lee, Christopher Markus, Stephen McFeely, Sue Chung, Lindsey Allen, Eric Pearson, Tara Butters, Chris Dingess, Brant Englestein, Michele Fazekas, Jose Molina, Andi Bushell, Brandon Easton",
@@ -16104,48 +15670,28 @@
             }
         ],
         "synopsis": "In 1946, Peggy Carter is relegated to secretarial duties in the Strategic Scientific Reserve (SSR). When Howard Stark is accused of treason, he secretly recruits Peggy to clear his name with the help of his butler, Edwin Jarvis.",
-        "categories": [
-            {
-                "title": "Series",
-                "link": "c-tv"
-            }
-        ],
+        "categories": ["series"],
         "awards": null,
         "parts": null,
         "type": {
             "value": "series",
-            "data": {
-                "seasons": [
-                    [
-                        1,
-                        8
-                    ],
-                    [
-                        2,
-                        10
-                    ]
-                ],
-                "trailers": [
-                    {
-                        "num": 2,
-                        "poster": "tv_ac_s2",
-                        "youtube": "Qeea6Xr6W2g"
-                    }
-                ]
-            }
+            "data": [
+                {"episodes": 8, "trailer": "qPiMNPlbijw"},
+                {"episodes": 10, "trailer": "Qeea6Xr6W2g"}
+            ]
         }
     },
     {
         "id": 219,
         "title": "Agents of S.H.I.E.L.D.",
         "poster": "tv_agents_of_shield",
-        "trailer": "T3T-evQZiQo",
+        "trailer": null,
         "genres": [
             "Action",
             "Adventure",
             "Sci-Fi"
         ],
-        "production": "ABC Studios, Marvel TV",
+        "production": ["ABC-Studios", "Marvel-Television"],
         "director": "Maurissa Tancharoen, Jed Whedon, Joss Whedon",
         "producers": "Garry A. Brown, Chris Cheramie",
         "writtens": "Maurissa Tancharoen, Jed Whedon, Joss Whedon, Jack Kirby, Stan Lee, Daniel J. Doyle, Sharla Oliver, Matt Owens, James C. Oliver, George Kitson, Brent Fletcher, Drew Z. Greenberg, Craig Titley, Jeffrey Bell, Paul Zbyszewski, Monica Owusu-Breen, Lauren LeFranc, Lilla Zuckerman, Nora Zuckerman, Rafe Judkins, Shalisha Francis, Iden Baghdadchi, Mark Leitner, Chris Dingess",
@@ -16254,71 +15800,19 @@
             }
         ],
         "synopsis": "The missions of the Strategic Homeland Intervention, Enforcement and Logistics Division.",
-        "categories": [
-            {
-                "title": "Series",
-                "link": "c-tv"
-            }
-        ],
+        "categories": ["series"],
         "awards": null,
         "parts": null,
         "type": {
             "value": "series",
-            "data": {
-                "seasons": [
-                    [
-                        1,
-                        22
-                    ],
-                    [
-                        2,
-                        22
-                    ],
-                    [
-                        3,
-                        22
-                    ],
-                    [
-                        4,
-                        22
-                    ],
-                    [
-                        5,
-                        22
-                    ],
-                    [
-                        6,
-                        13
-                    ]
-                ],
-                "trailers": [
-                    {
-                        "num": 2,
-                        "poster": "tv_shield_s2",
-                        "youtube": "PahISq6DKws"
-                    },
-                    {
-                        "num": 3,
-                        "poster": "tv_shield_s3",
-                        "youtube": "tx6ws9MAOU8"
-                    },
-                    {
-                        "num": 4,
-                        "poster": "tv_shield_s4",
-                        "youtube": "HM-6Zmc7LYg"
-                    },
-                    {
-                        "num": 5,
-                        "poster": "tv_shield_s5",
-                        "youtube": "YQJKgtAktLQ"
-                    },
-                    {
-                        "num": 6,
-                        "poster": "tv_shield_s6",
-                        "youtube": "wrKssByuVt0"
-                    }
-                ]
-            }
+            "data": [
+                {"episodes": 22, "trailer": "T3T-evQZiQo"},
+                {"episodes": 22, "trailer": "PahISq6DKws"},
+                {"episodes": 22, "trailer": "tx6ws9MAOU8"},
+                {"episodes": 22, "trailer": "HM-6Zmc7LYg"},
+                {"episodes": 22, "trailer": "YQJKgtAktLQ"},
+                {"episodes": 13, "trailer": "wrKssByuVt0"}
+            ]
         }
     },
     {
@@ -16331,7 +15825,7 @@
             "Comedy",
             "Family"
         ],
-        "production": "Walt Disney Pictures",
+        "production": ["Walt-Disney-Pictures"],
         "director": "Guy Ritchie",
         "producers": "Dan Lin, Jonathan Eirich",
         "writtens": "John August, Guy Ritchie",
@@ -16380,7 +15874,7 @@
             }
         ],
         "synopsis": "A kind-hearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their deepest wishes come true.",
-        "categories": null,
+        "categories": ["uncategorized"],
         "awards": null,
         "parts": null,
         "type": {
@@ -16398,14 +15892,14 @@
             "Adventure",
             "Comedy"
         ],
-        "production": "Onyx Films, Kinology, ON Animation Studios",
+        "production": ["Onyx-Films", "Kinology", "ON-Animation-Studios"],
         "director": "Alexandre Heboyan, Beno't Philippon",
         "producers": "Dimitri Rassam, Aton Soumache, Alexis Vonarb",
         "writtens": "Beno't Philippon, J'r'me Fansten",
         "music": "Bruno Coulais",
         "year": 2015,
         "time": 86,
-        "country": "USA",
+        "country": "France, USA",
         "budget": "17 million",
         "boxoffice": "9,1 million",
         "actors": [
@@ -16426,7 +15920,79 @@
             }
         ],
         "synopsis": "When an evil magma demon and his minions steals the sun of a magical world, the new guardians of both the sun and the moon must embark on a quest to retrieve it and save their world from disaster as the moon faces destruction as well.",
-        "categories": null,
+        "categories": ["uncategorized"],
+        "awards": null,
+        "parts": null,
+        "type": {
+            "value": "film",
+            "data": null
+        }
+    },
+    {
+        "id": 223,
+        "title": "TENET",
+        "poster": "tenet",
+        "trailer": "AZGcmvrTX9M",
+        "genres": [
+            "Sci-Fi",
+            "Action"
+        ],
+        "production": [
+            "Warner-Bros.-Pictures",
+            "Syncopy"
+        ],
+        "director": "Christopher Nolan",
+        "producers": "Christopher Nolan, Emma Thomas, Andy Thompson",
+        "writtens": "Christopher Nolan",
+        "music": "Ludwig Göransson",
+        "cinema": "Hoyte Van Hoytema",
+        "year": 2020,
+        "time": 150,
+        "country": "USA, UK",
+        "budget": "205 million",
+        "boxoffice": "362 million",
+        "actors": [
+            {
+              "image": "noimage",
+              "name": "John David Washington",
+              "role": "Protagonist"
+            },
+            {
+              "image": "noimage",
+              "name": "Robert Pattinson",
+              "role": "Neil"
+            },
+            {
+              "image": "noimage",
+              "name": "Elizabeth Debicki",
+              "role": "Katherine Barton"
+            },
+            {
+              "image": "noimage",
+              "name": "Dimple Kapadia",
+              "role": "Priya"
+            },
+            {
+              "image": "noimage",
+              "name": "Martin Donovan",
+              "role": "Fay"
+            },
+            {
+              "image": "noimage",
+              "name": "Fiona Dourif",
+              "role": "Wheeler"
+            },
+            {
+              "image": "noimage",
+              "name": "Kenneth Branagh",
+              "role": "Andrei Sator"
+            }
+        ],
+        "synopsis": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+        "categories": [
+            "special-favorite",
+            "cinema-watched"
+        ],
         "awards": null,
         "parts": null,
         "type": {
