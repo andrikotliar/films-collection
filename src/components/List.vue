@@ -10,7 +10,7 @@
 				</div>
 			</div>
 		</div>
-		<div v-for="film in filteredList" :class="'films-list__row ' +  film.partstatus + ' films-list__row--' + film.type"  :data-watched="film.watched" :data-add="film.appstatus">
+		<div v-for="film in filteredList" :class="'films-list__row ' +  film.partstatus + ' films-list__row--' + film.type" :data-watched="film.watched" :data-add="film.appstatus">
 			<div class="films-list__title">
 				{{film.title}}
 			</div>
