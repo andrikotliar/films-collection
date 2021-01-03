@@ -4,7 +4,7 @@
 		<div class="category-films">
 			<div class="category-film" v-for="film in filmsByYear">
 				<router-link :to="`/film/${film.id}`" class="category-film__link" :title="film.title">
-					<img :src="`images/posters/${film.poster}`" :alt="film.title" class="category-film__poster">
+					<img :src="`images/posters/${film.poster}.webp`" :alt="film.title" class="category-film__poster">
 				</router-link>
 			</div>
 		</div>
