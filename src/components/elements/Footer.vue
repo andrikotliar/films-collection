@@ -17,7 +17,7 @@
 					<h4 class="footer__col-title"> Favorite Genres </h4>
 					<ul class="footer__col-menu">
 						<li v-for="genre in genresList">
-							<router-link :to="`/genre/${genre}`"> {{genre}} </router-link>
+							<router-link :to="`/genres/${genre}`"> {{genre}} </router-link>
 						</li>
 					</ul>
 				</div>
@@ -43,17 +43,17 @@
 						links: [
 							{
 								id: 1,
+								linkTitle: 'All films',
+								linkAdress: '/films/1' 
+							},
+							{
+								id: 2,
 								linkTitle: 'List',
 								linkAdress: '/list' 
 							},
 							{
-								id: 2,
-								linkTitle: 'All films',
-								linkAdress: '/all_films/1' 
-							},
-							{
 								id: 3,
-								linkTitle: 'New trailers',
+								linkTitle: 'Trailers',
 								linkAdress: '/new_trailers' 
 							},
 							{
@@ -70,27 +70,27 @@
 							{
 								id: 1,
 								linkTitle: 'Most Favorite',
-								linkAdress: '/category/c-fav' 
+								linkAdress: '/categories/special-favorite' 
 							},
 							{
 								id: 2,
 								linkTitle: 'Most Watched',
-								linkAdress: '/category/c-mw' 
+								linkAdress: '/categories/most-watched' 
 							},
 							{
 								id: 3,
 								linkTitle: 'Cinema Watched',
-								linkAdress: '/category/c-cw' 
+								linkAdress: '/categories/cinema-watched' 
 							},
 							{
 								id: 4,
 								linkTitle: 'TV Series',
-								linkAdress: '/category/c-tv' 
+								linkAdress: '/categories/series' 
 							},
 							{
 								id: 5,
 								linkTitle: 'Newest',
-								linkAdress: '/category/2019' 
+								linkAdress: '/years/2019' 
 							}
 						]
 					}
