@@ -1,12 +1,13 @@
 import Home from './components/Home.vue';
 import Film from './components/Film.vue';
 import List from './components/List.vue';
-import Category from './components/Category.vue';
-import AllFilms from './components/AllFilms.vue';
+import FilmsByCategory from './components/FilmsByCategory.vue';
+import Films from './components/Films.vue';
 import Trailers from './components/Trailers.vue';
 import Twitter from './components/Twitter.vue';
 import YearsList from './components/YearsList.vue';
 import Year from './components/Year.vue';
+import Actor from './components/Actor.vue';
 
 const routes = [
 	{path: '/', component: Home},
@@ -17,18 +18,18 @@ const routes = [
 	},
 	{path: '/list', component: List},
 	{
-		path: '/category/:category', 
+		path: '/categories/:category', 
 		props: true,
-		component: Category
+		component: FilmsByCategory
 	},
 	{
 		path: '/search/', 
-		component: Category
+		component: FilmsByCategory
 	},
 	{
-		path: '/genre/:category', 
+		path: '/genres/:category', 
 		props: true,
-		component: Category
+		component: FilmsByCategory
 	},
 	{
 		path: '/years/:year', 
@@ -38,12 +39,27 @@ const routes = [
 	{
 		path: '/search/:category', 
 		props: true,
-		component: Category
+		component: FilmsByCategory
 	},
 	{
-		path: '/all_films/:page',
+		path: '/production/:category', 
 		props: true,
-		component: AllFilms
+		component: FilmsByCategory
+	},
+	{
+		path: '/country/:category', 
+		props: true,
+		component: FilmsByCategory
+	},
+	{
+		path: '/actor/:actor',
+		props: true,
+		component: Actor
+	},
+	{
+		path: '/films/:page',
+		props: true,
+		component: Films
 	},
 	{path: '/trailers', component: Trailers},
 	{path: '/twitter', component: Twitter},
