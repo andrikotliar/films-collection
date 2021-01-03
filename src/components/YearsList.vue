@@ -1,12 +1,10 @@
 <template>
 	<div class="container page">
 		<div class="years-list">
-			<div class="film-year" v-for="year in yearsList">
-				<router-link :to="`/years/${year}`">
-					<img :src="`images/years/${year}.webp`" :alt="year">
-					<h3 class="film-year__title">{{year}}</h3>					
-				</router-link>
-			</div>				
+			<router-link :to="`/years/${year}`" class="film-year" v-for="(year, index) in yearsList" :key="index">
+				<img :src="`images/years/${year}.webp`" :alt="year">
+				<h3 class="film-year__title">{{year}}</h3>					
+			</router-link>			
 		</div>
 	</div>
 </template>
@@ -29,7 +27,7 @@
 					years.push(i);
 				}
 				filteredYears = years.filter((year) => !emptyYears.includes(year))
-				return filteredYears;	
+				return filteredYears.reverse();	
 			}
 		}
 	}
