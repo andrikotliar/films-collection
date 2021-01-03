@@ -76,7 +76,7 @@
         "type": "film",
         "year": 2020,
         "watched": 1,
-        "appstatus": 0,
+        "appstatus": 1,
         "watchcount": 1,
         "partstatus": "single_part"
     },
@@ -1527,6 +1527,15 @@
         "watched": 1,
         "appstatus": 1,
         "watchcount": 2,
+        "partstatus": "middle_part"
+    },
+    {
+        "title": "Wonder Woman 1984",
+        "type": "film",
+        "year": 2020,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
         "partstatus": "middle_part"
     },
     {
