@@ -31,21 +31,15 @@
 					}, 
 					{
 						id: 2,
-						title: 'All films', 
-						link: '/all_films/1' 
-					}, 
-					{
-						id: 3,
-						title: 'New trailers', 
+						title: 'Trailers', 
 						link: '/trailers' 
 					}, 
 					{
-						id: 4,
+						id: 3,
 						title: 'Twitter', 
 						link: '/twitter' 
 					}
-				],
-				twitter: ['Posters', 'Promo', 'Filming', 'Moments']
+				]
 			}
 		}
 	}
