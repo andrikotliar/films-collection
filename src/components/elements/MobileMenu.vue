@@ -1,16 +1,21 @@
 <template>
-	<ul class="mobile-menu">
-		<li class="mobile-menu__item" v-for="item in menu">
-			<router-link :to="item.link" class="mobile-menu__link">
-				<img :src="`images/icons/mobile/${item.icon}.svg`" alt="">
-			</router-link>
-		</li>
-		<li class="mobile-menu__item">
-			<a href="https://cinemarticles.netlify.app" class="mobile-menu__link">
-				<img src="images/icons/mobile/bookmark.svg" alt="">
-			</a>
-		</li>
-	</ul>
+	<div class="mobile-menu">
+		<div class="mobile-menu__icon" @click="showMobileMenu">
+			<span></span>
+		</div>
+		<ul class="mobile-menu__list">
+			<li class="mobile-menu__item" v-for="item in menu" @click="closeMobileMenu">
+				<router-link :to="item.link" class="mobile-menu__link">
+					{{item.title}}
+				</router-link>
+			</li>
+			<li class="mobile-menu__item">
+				<a href="https://cinemarticles.netlify.app" class="mobile-menu__link">
+					Articles
+				</a>
+			</li>
+		</ul>		
+	</div>
 </template>
 
 <script>
@@ -21,30 +26,44 @@
 				menu: [
 					{
 						id: 1,
-						icon: 'home', 
+						title: 'Home', 
 						link: '/' 
 					},
 					{
 						id: 2,
-						icon: 'list', 
+						title: 'List', 
 						link: '/list' 
 					}, 
 					{
 						id: 3,
-						icon: 'films', 
-						link: '/all_films/1' 
+						title: 'Films', 
+						link: '/films/1' 
 					}, 
 					{
 						id: 4,
-						icon: 'trailers', 
+						title: 'Trailers', 
 						link: '/trailers' 
 					}, 
 					{
 						id: 5,
-						icon: 'twitter', 
+						title: 'Twitter', 
 						link: '/twitter' 
 					}
 				]
+			}
+		},
+		methods: {
+			showMobileMenu() {
+				const mobileMenuList = document.querySelector('.mobile-menu__list');
+				const mobileMenuIcon = document.querySelector('.mobile-menu__icon');
+				mobileMenuIcon.classList.toggle('mobile-menu__icon--close');
+				mobileMenuList.classList.toggle('mobile-menu__list--show');
+			},
+			closeMobileMenu() {
+				const mobileMenuList = document.querySelector('.mobile-menu__list');
+				const mobileMenuIcon = document.querySelector('.mobile-menu__icon');
+				mobileMenuIcon.classList.remove('mobile-menu__icon--close');
+				mobileMenuList.classList.remove('mobile-menu__list--show');
 			}
 		}
 	}
