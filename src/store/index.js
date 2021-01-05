@@ -6,8 +6,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
     state: {
         films: [],
-        list: [],
-        parts: []
+        list: []
     },
     actions: {
         LOAD_FILMS ({ commit }) {
@@ -23,13 +22,6 @@ export default new Vuex.Store({
             .then(list => {
             commit('SET_LIST', list)
             })          
-        },
-        LOAD_PARTS ({ commit }) {
-          fetch('database/parts.json')
-            .then(response => response.json())
-            .then(parts => {
-            commit('SET_PARTS', parts)
-            })          
         }
     },
     mutations: {
@@ -38,9 +30,6 @@ export default new Vuex.Store({
         },
         SET_LIST(state, list) {
             state.list = list
-        },
-        SET_PARTS(state, parts) {
-            state.parts = parts
         }
     }
 })
