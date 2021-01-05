@@ -115,9 +115,9 @@
 		<div class="parts" v-if="films[filmID].parts != null">	
 			<h2 class="info-section-title">Prequels / Sequels</h2>
 			<ul class="parts__list">
-				<li class="parts__item" v-for="parts in partsList">
-					<router-link :to="`/film/${parts.link}`">
-						<img :src="`images/posters/${parts.poster}.webp`" alt="" class="parts__poster">			
+				<li class="parts__item" v-for="part in partsList">
+					<router-link :to="`/film/${part.id}`">
+						<img :src="`images/posters/${part.poster}.webp`" alt="" class="parts__poster">			
 					</router-link>
 				</li>
 			</ul>
@@ -133,24 +133,25 @@
 		names: 'Film',
 		props: ['id'],
 		computed: {
-			...mapState(['films', 'parts']),
+			...mapState(['films']),
 			filmID() {
-				let id = this.films.findIndex(f => parseInt(f.id) === parseInt(this.id))
+				let id = this.films.findIndex(f => parseInt(f.id) === parseInt(this.id));
     			return id
 			},
 			partsList() {
 				let partsListData = [];
-				for(let i = 0; i < this.parts.length; i++) {
-					if(this.parts[i].trigger == this.films[this.filmID].parts) {
-						partsListData = this.parts[i].collection;
-					}
-				} 
+				let id = this.films.findIndex(f => parseInt(f.id) === parseInt(this.id));
+				let regex = new RegExp(this.films[id].parts);
+				for(let i = 0; i < this.films.length; i++) {
+					if(regex.test(this.films[i].parts)) {
+						partsListData.push(this.films[i])
+					}				
+				}
 				return partsListData;
 			}
 		},
 		created() {
 			this.$store.dispatch('LOAD_FILMS');
-			this.$store.dispatch('LOAD_PARTS');
 		},
 		components: {
 			Trailer
