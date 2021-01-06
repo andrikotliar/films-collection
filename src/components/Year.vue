@@ -1,6 +1,7 @@
 <template>
 	<div class="page container">
 		<h2 class="category-title"> Films from {{year}} year </h2>
+		<Preloader />
 		<div class="category-films">
 			<div class="category-film" v-for="film in filmsByYear">
 				<router-link :to="`/film/${film.id}`" class="category-film__link" :title="film.title">
@@ -18,6 +19,7 @@
 
 <script>
 	import {mapState} from 'vuex';
+	import Preloader from 'elements/Preloader.vue';
 	export default {
 		name: 'Year',
 		props: ['year'],
@@ -41,6 +43,9 @@
 		},
 		mounted() {
 			this.$store.dispatch('LOAD_FILMS');
+		},
+		components: {
+			Preloader
 		}
 	}
 </script>

@@ -8,6 +8,7 @@
 				Number of films: <b>{{films.length}}</b>
 			</div>			
 		</div>
+		<Preloader />
 		<div class="category-films">
 			<router-link :to="'/film/' + film.id" v-for="(film, index) in displayedFilms" class="category-film" :key="index">
 				<img :src="`images/posters/${film.poster}.webp`" :alt="film.title" class="category-film__poster" :title="film.title">
@@ -23,6 +24,7 @@
 
 <script>
 	import {mapState} from 'vuex';
+	import Preloader from 'elements/Preloader.vue'
 	export default {
 		name: 'Home',
 		props: ['page'],
@@ -52,6 +54,9 @@
 		},
 		mounted() {
 			this.$store.dispatch('LOAD_FILMS');
+		},
+		components: {
+			Preloader
 		}
 	}
 </script>
