@@ -1,5 +1,5 @@
 <template>
-	<div class="actor-films page container">
+	<div class="actor-films container">
 		<aside class="actor-info">
 			<div class="actor-info__image">
 				<img :src="`images/actors/${actor}.jpg`" alt="">
@@ -14,9 +14,8 @@
 					<img :src="`images/posters/${film.poster}.webp`" :alt="film.title">
 				</div>
 				<div class="actor-film__info">
-					<h3 class="actor-film__title">{{film.title}}</h3>
-					<p class="actor-film__role" v-for="a in film.actors">
-						<span v-if="a.image == actor">Role: <b>{{a.role}}</b></span>
+					<p class="actor-film__role" v-for="a in film.actors" v-if="a.image == actor">
+						{{a.role}}
 					</p>
 					<p class="actor-film__year">{{film.year}}</p>							
 				</div>
@@ -41,7 +40,7 @@
 						}
 					}
 				}
-				return actorFilms.sort((a, b) => a.year > b.year ? 1 : -1);
+				return actorFilms.sort((a, b) => a.year > b.year ? 1 : -1).reverse();
 			}
 		},
 		mounted() {
