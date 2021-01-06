@@ -245,7 +245,7 @@
         "synopsis": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Mission: Impossible",
         "type": {
             "value": "film",
             "data": null
@@ -316,7 +316,7 @@
         "synopsis": "IMF Agent Ethan Hunt is sent to Sydney, to find and destroy a genetically modified disease called \"Chimera\".",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Mission: Impossible",
         "type": {
             "value": "film",
             "data": null
@@ -402,7 +402,7 @@
         "synopsis": "IMF Agent Ethan Hunt comes into conflict with a dangerous and sadistic arms dealer who threatens his life and his fiancée in response.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Mission: Impossible",
         "type": {
             "value": "film",
             "data": null
@@ -488,7 +488,7 @@
         "synopsis": "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Mission: Impossible",
         "type": {
             "value": "film",
             "data": null
@@ -574,7 +574,7 @@
         "synopsis": "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Mission: Impossible",
         "type": {
             "value": "film",
             "data": null
@@ -650,7 +650,7 @@
         "synopsis": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Mission: Impossible",
         "type": {
             "value": "film",
             "data": null
@@ -721,7 +721,7 @@
         "synopsis": "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": "back-to-the-future",
+        "parts": "Back to the Future",
         "type": {
             "value": "film",
             "data": null
@@ -777,7 +777,7 @@
         "synopsis": "After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": "back-to-the-future",
+        "parts": "Back to the Future",
         "type": {
             "value": "film",
             "data": null
@@ -828,7 +828,7 @@
         "synopsis": "Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about to be killed by Buford \"Mad Dog\"Tannen. Marty McFly travels back in time to save his friend.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": "back-to-the-future",
+        "parts": "Back to the Future",
         "type": {
             "value": "film",
             "data": null
@@ -874,7 +874,7 @@
         "synopsis": "A seemingly indestructible android is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "The Terminator",
         "type": {
             "value": "film",
             "data": null
@@ -930,7 +930,7 @@
         "synopsis": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her teenage son, John Connor, from a more advanced and powerful cyborg.",
         "categories": ["special-favorite", "cinema-watched"],
         "awards": null,
-        "parts": null,
+        "parts": "The Terminator",
         "type": {
             "value": "film",
             "data": null
@@ -996,7 +996,7 @@
         "synopsis": "In 2018, a mysterious new weapon in the war against the machines, half-human and half-machine, comes to John Connor on the eve of a resistance attack on Skynet. But whose side is he on, and can he be trusted?",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "The Terminator",
         "type": {
             "value": "film",
             "data": null
@@ -1082,7 +1082,7 @@
         "synopsis": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their old glory.",
         "categories": ["star-wars"],
         "awards": null,
-        "parts": null,
+        "parts": "Star Wars",
         "type": {
             "value": "film",
             "data": null
@@ -1158,7 +1158,7 @@
         "synopsis": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi.",
         "categories": ["star-wars"],
         "awards": null,
-        "parts": null,
+        "parts": "Star Wars",
         "type": {
             "value": "film",
             "data": null
@@ -1224,7 +1224,7 @@
         "synopsis": "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy.",
         "categories": ["star-wars"],
         "awards": null,
-        "parts": null,
+        "parts": "Star Wars",
         "type": {
             "value": "film",
             "data": null
@@ -1295,7 +1295,7 @@
         "synopsis": "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans.",
         "categories": ["star-wars"],
         "awards": null,
-        "parts": null,
+        "parts": "Star Wars",
         "type": {
             "value": "film",
             "data": null
@@ -1380,7 +1380,7 @@
         "synopsis": "During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion.",
         "categories": ["star-wars"],
         "awards": null,
-        "parts": null,
+        "parts": "Star Wars",
         "type": {
             "value": "film",
             "data": null
@@ -1456,7 +1456,7 @@
         "synopsis": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the evil Darth Vader.",
         "categories": ["star-wars"],
         "awards": null,
-        "parts": null,
+        "parts": "Star Wars",
         "type": {
             "value": "film",
             "data": null
@@ -1532,7 +1532,7 @@
         "synopsis": "After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.",
         "categories": ["star-wars"],
         "awards": null,
-        "parts": null,
+        "parts": "Star Wars",
         "type": {
             "value": "film",
             "data": null
@@ -1608,7 +1608,7 @@
         "synopsis": "After a daring mission to rescue Han Solo from Jabba the Hutt, the rebels dispatch to Endor to destroy a more powerful Death Star. Meanwhile, Luke struggles to help Vader back from the dark side without falling into the Emperor's trap.",
         "categories": ["star-wars"],
         "awards": null,
-        "parts": null,
+        "parts": "Star Wars",
         "type": {
             "value": "film",
             "data": null
@@ -1684,7 +1684,7 @@
         "synopsis": "Three decades after the Empire's defeat, a new threat arises in the militant First Order. Stormtrooper defector Finn and the scavenger Rey are caught up in the Resistance's search for the missing Luke Skywalker.",
         "categories": ["star-wars"],
         "awards": null,
-        "parts": null,
+        "parts": "Star Wars",
         "type": {
             "value": "film",
             "data": null
@@ -1760,7 +1760,7 @@
         "synopsis": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.",
         "categories": ["star-wars", "cinema-watched"],
         "awards": null,
-        "parts": null,
+        "parts": "Star Wars",
         "type": {
             "value": "film",
             "data": null
@@ -1886,7 +1886,7 @@
         "synopsis": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Middle-earth",
         "type": {
             "value": "film",
             "data": null
@@ -2007,7 +2007,7 @@
         "synopsis": "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Middle-earth",
         "type": {
             "value": "film",
             "data": null
@@ -2128,7 +2128,7 @@
         "synopsis": "Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Middle-earth",
         "type": {
             "value": "film",
             "data": null
@@ -2219,7 +2219,7 @@
         "synopsis": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
         "categories": ["most-watched"],
         "awards": null,
-        "parts": null,
+        "parts": "Middle-earth",
         "type": {
             "value": "film",
             "data": null
@@ -2305,7 +2305,7 @@
         "synopsis": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
         "categories": ["most-watched"],
         "awards": null,
-        "parts": null,
+        "parts": "Middle-earth",
         "type": {
             "value": "film",
             "data": null
@@ -2391,7 +2391,7 @@
         "synopsis": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
         "categories": ["most-watched"],
         "awards": null,
-        "parts": null,
+        "parts": "Middle-earth",
         "type": {
             "value": "film",
             "data": null
@@ -2473,7 +2473,7 @@
         "synopsis": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
         "categories": ["special-favorite"],
         "awards": null,
-        "parts": null,
+        "parts": "How to Train Your Dragon",
         "type": {
             "value": "film",
             "data": null
@@ -2540,7 +2540,7 @@
         "synopsis": "When Hiccup and Toothless discover an ice cave that is home to hundreds of new wild dragons and the mysterious Dragon Rider, the two friends find themselves at the center of a battle to protect the peace.",
         "categories": ["special-favorite"],
         "awards": null,
-        "parts": null,
+        "parts": "How to Train Your Dragon",
         "type": {
             "value": "film",
             "data": null
@@ -2627,7 +2627,7 @@
         "synopsis": "When Hiccup discovers Toothless isn't the only Night Fury, he must seek \"The Hidden World\", a secret Dragon Utopia before a hired tyrant named Grimmel finds it first.",
         "categories": ["special-favorite", "cinema-watched"],
         "awards": null,
-        "parts": null,
+        "parts": "How to Train Your Dragon",
         "type": {
             "value": "film",
             "data": null
@@ -2688,7 +2688,7 @@
         "synopsis": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
         "categories": ["most-watched"],
         "awards": null,
-        "parts": null,
+        "parts": "The Matrix",
         "type": {
             "value": "film",
             "data": null
@@ -2769,7 +2769,7 @@
         "synopsis": "Neo and the rebel leaders estimate that they have 72 hours until 250,000 probes discover Zion and destroy it and its inhabitants. During this, Neo must decide how he can save Trinity from a dark fate in his dreams.",
         "categories": ["most-watched"],
         "awards": null,
-        "parts": null,
+        "parts": "The Matrix",
         "type": {
             "value": "film",
             "data": null
@@ -2840,7 +2840,7 @@
         "synopsis": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith.",
         "categories": ["most-watched"],
         "awards": null,
-        "parts": null,
+        "parts": "The Matrix",
         "type": {
             "value": "film",
             "data": null
@@ -2911,7 +2911,7 @@
         "synopsis": "An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
         "categories": ["harry-potter"],
         "awards": null,
-        "parts": null,
+        "parts": "Harry Potter",
         "type": {
             "value": "film",
             "data": null
@@ -2987,7 +2987,7 @@
         "synopsis": "Harry ignores warnings not to return to Hogwarts, only to find the school plagued by a series of mysterious attacks and a strange voice haunting him",
         "categories": ["harry-potter"],
         "awards": null,
-        "parts": null,
+        "parts": "Harry Potter",
         "type": {
             "value": "film",
             "data": null
@@ -3063,7 +3063,7 @@
         "synopsis": "It's Harry's third year at Hogwarts; not only does he have a new \"Defense Against the Dark Arts\" teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry.",
         "categories": ["harry-potter"],
         "awards": null,
-        "parts": null,
+        "parts": "Harry Potter",
         "type": {
             "value": "film",
             "data": null
@@ -3139,7 +3139,7 @@
         "synopsis": "A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
         "categories": ["harry-potter"],
         "awards": null,
-        "parts": null,
+        "parts": "Harry Potter",
         "type": {
             "value": "film",
             "data": null
@@ -3220,7 +3220,7 @@
         "synopsis": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.",
         "categories": ["harry-potter"],
         "awards": null,
-        "parts": null,
+        "parts": "Harry Potter",
         "type": {
             "value": "film",
             "data": null
@@ -3296,7 +3296,7 @@
         "synopsis": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \"the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past.",
         "categories": ["harry-potter"],
         "awards": null,
-        "parts": null,
+        "parts": "Harry Potter",
         "type": {
             "value": "film",
             "data": null
@@ -3367,7 +3367,7 @@
         "synopsis": "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows.",
         "categories": ["harry-potter"],
         "awards": null,
-        "parts": null,
+        "parts": "Harry Potter",
         "type": {
             "value": "film",
             "data": null
@@ -3438,7 +3438,7 @@
         "synopsis": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
         "categories": ["harry-potter"],
         "awards": null,
-        "parts": null,
+        "parts": "Harry Potter",
         "type": {
             "value": "film",
             "data": null
@@ -3509,7 +3509,7 @@
         "synopsis": "Los Angeles police officer Brian O'Connor must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Fast and Furious",
         "type": {
             "value": "film",
             "data": null
@@ -3580,7 +3580,7 @@
         "synopsis": "Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Fast and Furious",
         "type": {
             "value": "film",
             "data": null
@@ -3641,7 +3641,7 @@
         "synopsis": "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Fast and Furious",
         "type": {
             "value": "film",
             "data": null
@@ -3712,7 +3712,7 @@
         "synopsis": "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Fast and Furious",
         "type": {
             "value": "film",
             "data": null
@@ -3798,7 +3798,7 @@
         "synopsis": "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Fast and Furious",
         "type": {
             "value": "film",
             "data": null
@@ -3884,7 +3884,7 @@
         "synopsis": "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Fast and Furious",
         "type": {
             "value": "film",
             "data": null
@@ -3975,7 +3975,7 @@
         "synopsis": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Fast and Furious",
         "type": {
             "value": "film",
             "data": null
@@ -4061,7 +4061,7 @@
         "synopsis": "When a mysterious woman seduces Dom into the world of terrorism and a betrayal of those closest to him, the crew face trials that will test them as never before.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Fast and Furious",
         "type": {
             "value": "film",
             "data": null
@@ -4132,7 +4132,7 @@
         "synopsis": "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
         "categories": ["special-favorite", "marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -4188,7 +4188,7 @@
         "synopsis": "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into, whenever he loses his temper.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -4269,7 +4269,7 @@
         "synopsis": "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -4345,7 +4345,7 @@
         "synopsis": "The powerful, but arrogant god Thor, is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -4426,7 +4426,7 @@
         "synopsis": "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -4522,7 +4522,7 @@
         "synopsis": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -4588,7 +4588,7 @@
         "synopsis": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -4674,7 +4674,7 @@
         "synopsis": "When Dr. Jane Foster gets cursed with a powerful entity known as the Aether, Thor is heralded of the cosmic event known as the Convergence and the genocidal Dark Elves.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -4740,7 +4740,7 @@
         "synopsis": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -4831,7 +4831,7 @@
         "synopsis": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.",
         "categories": ["special-favorite", "marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -4942,7 +4942,7 @@
         "synopsis": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -5023,7 +5023,7 @@
         "synopsis": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -5129,7 +5129,7 @@
         "synopsis": "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -5190,7 +5190,7 @@
         "synopsis": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -5281,7 +5281,7 @@
         "synopsis": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -5357,7 +5357,7 @@
         "synopsis": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -5453,7 +5453,7 @@
         "synopsis": "Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarцk, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -5544,7 +5544,7 @@
         "synopsis": "After the death of his father, Prince T'Challa ascends to the throne of the small African country of Wakanda. T'Challa is also Black Panther, superhero. Now not only must he govern his country but defeat a dangerous adversary.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -5685,7 +5685,7 @@
         "synopsis": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
         "categories": ["special-favorite", "marvel", "cinema-watched"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -5751,7 +5751,7 @@
         "synopsis": "As Scott Lang balances being both a Super Hero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -5842,7 +5842,7 @@
         "synopsis": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -5963,7 +5963,7 @@
         "synopsis": "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to undo Thanos' actions and restore order to the universe.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -6054,7 +6054,7 @@
         "synopsis": "Following the events of Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
         "categories": ["marvel"],
         "awards": null,
-        "parts": null,
+        "parts": "Marvel Cinematic Universe",
         "type": {
             "value": "film",
             "data": null
@@ -6211,7 +6211,7 @@
         "synopsis": "The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Star Trek",
         "type": {
             "value": "film",
             "data": null
@@ -6302,7 +6302,7 @@
         "synopsis": "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Star Trek",
         "type": {
             "value": "film",
             "data": null
@@ -6347,7 +6347,7 @@
             {
                 "image": "zoe_saldana",
                 "name": "Zoe Saldana",
-                "role": "Lieutenant Uhura"
+                "role": "Uhura"
             },
             {
                 "image": "noimage",
@@ -6398,7 +6398,7 @@
         "synopsis": "The crew of the USS Enterprise explores the furthest reaches of uncharted space, where they encounter a new ruthless enemy, who puts them, and everything the Federation stands for, to the test.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Star Trek",
         "type": {
             "value": "film",
             "data": null
@@ -6484,7 +6484,7 @@
         "synopsis": "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "X-Men",
         "type": {
             "value": "film",
             "data": null
@@ -6575,7 +6575,7 @@
         "synopsis": "When anti-mutant colonel William Stryker kidnaps Professor X and attacks his school, the X-Men must ally with their archenemy Magneto to stop him.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "X-Men",
         "type": {
             "value": "film",
             "data": null
@@ -6666,7 +6666,7 @@
         "synopsis": "The human government develops a cure for mutations, and Jean Gray becomes a darker uncontrollable persona called the Phoenix who allies with Magneto, causing escalation into an all-out battle for the X-Men.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "X-Men",
         "type": {
             "value": "film",
             "data": null
@@ -6747,7 +6747,7 @@
         "synopsis": "The early years of James Logan, featuring his rivalry with his brother Victor Creed, his service in the special forces team Weapon X, and his experimentation into the metal-lined mutant Wolverine.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "X-Men",
         "type": {
             "value": "film",
             "data": null
@@ -6833,7 +6833,7 @@
         "synopsis": "In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "X-Men",
         "type": {
             "value": "film",
             "data": null
@@ -6929,7 +6929,7 @@
         "synopsis": "The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "X-Men",
         "type": {
             "value": "film",
             "data": null
@@ -7020,7 +7020,7 @@
         "synopsis": "In the 1980s the X-Men must defeat an ancient all-powerful mutant, En Sabah Nur, who intends to thrive through bringing destruction to the world.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "X-Men",
         "type": {
             "value": "film",
             "data": null
@@ -7096,7 +7096,7 @@
         "synopsis": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "X-Men",
         "type": {
             "value": "film",
             "data": null
@@ -7162,7 +7162,7 @@
         "synopsis": "Detective Sherlock Holmes and his stalwart partner Watson engage in a battle of wits and brawn with a nemesis whose SYNOPSIS is a threat to all of England.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Ritchie's Sherlock Holmes",
         "type": {
             "value": "film",
             "data": null
@@ -7243,7 +7243,7 @@
         "synopsis": "Detective Sherlock Holmes is on the trail of criminal mastermind Professor Moriarty, who is carrying out a string of random crimes across Europe.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Ritchie's Sherlock Holmes",
         "type": {
             "value": "film",
             "data": null
@@ -7314,7 +7314,7 @@
         "synopsis": "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreck havoc as he searches for the reincarnation of his long-lost love.",
         "categories": ["most-watched"],
         "awards": null,
-        "parts": null,
+        "parts": "The Mummy",
         "type": {
             "value": "film",
             "data": null
@@ -7400,7 +7400,7 @@
         "synopsis": "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror.",
         "categories": ["most-watched"],
         "awards": null,
-        "parts": null,
+        "parts": "The Mummy",
         "type": {
             "value": "film",
             "data": null
@@ -7481,7 +7481,7 @@
         "synopsis": "In the Far East, Alex O'Connell, the son of famed mummy fighters Rick and Evy O'Connell, unearths the mummy of the first Emperor of Qin -- a shape-shifting entity cursed by a witch centuries ago.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "The Mummy",
         "type": {
             "value": "film",
             "data": null
@@ -7562,7 +7562,7 @@
         "synopsis": "As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Pacific Rim",
         "type": {
             "value": "film",
             "data": null
@@ -7623,7 +7623,7 @@
         "synopsis": "Jake Pentecost, son of Stacker Pentecost, reunites with Mako Mori to lead a new generation of Jaeger pilots, including rival Lambert and 15-year-old hacker Amara, against a new Kaiju threat.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Pacific Rim",
         "type": {
             "value": "film",
             "data": null
@@ -7846,7 +7846,7 @@
         "synopsis": "A bookworm becomes the librarian. Same night a magical spear gets stolen and he's off to get some real life experience around the globe on his quest for the spear - starting with being thrown off a plane over Amazonas by his cute helper.",
         "categories": ["most-watched"],
         "awards": null,
-        "parts": null,
+        "parts": "The Librarian",
         "type": {
             "value": "film",
             "data": null
@@ -7922,7 +7922,7 @@
         "synopsis": "Librarian-turned-adventurer Flynn Carsen endeavors to find King Solomon's mines.",
         "categories": ["most-watched"],
         "awards": null,
-        "parts": null,
+        "parts": "The Librarian",
         "type": {
             "value": "film",
             "data": null
@@ -7998,7 +7998,7 @@
         "synopsis": "Losing his girlfriend because he was at an auction dramatically getting the magical philosopher's stone instead of a date, he needs a vacation - New Orleans but finds himself busy saving Earth from the curse of the Judas chalice/vampires.",
         "categories": ["most-watched"],
         "awards": null,
-        "parts": null,
+        "parts": "The Librarian",
         "type": {
             "value": "film",
             "data": null
@@ -8059,7 +8059,7 @@
         "synopsis": "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Pirates of the Caribbean",
         "type": {
             "value": "film",
             "data": null
@@ -8120,7 +8120,7 @@
         "synopsis": "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Pirates of the Caribbean",
         "type": {
             "value": "film",
             "data": null
@@ -8186,7 +8186,7 @@
         "synopsis": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Pirates of the Caribbean",
         "type": {
             "value": "film",
             "data": null
@@ -8252,7 +8252,7 @@
         "synopsis": "Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Pirates of the Caribbean",
         "type": {
             "value": "film",
             "data": null
@@ -8343,7 +8343,7 @@
         "synopsis": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Jurassic Park",
         "type": {
             "value": "film",
             "data": null
@@ -8754,7 +8754,7 @@
         "synopsis": "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "District 13",
         "type": {
             "value": "film",
             "data": null
@@ -8824,7 +8824,7 @@
         "synopsis": "Damien and Leito return to District 13 on a mission to bring peace to the troubled sector that is controlled by five different gang bosses, before the city's secret services take drastic measures to solve the problem.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "District 13",
         "type": {
             "value": "film",
             "data": null
@@ -9136,7 +9136,7 @@
         "synopsis": "A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Men in Black",
         "type": {
             "value": "film",
             "data": null
@@ -9198,7 +9198,7 @@
         "synopsis": "Agent J needs help so he is sent to find Agent K and restore his memory.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Men in Black",
         "type": {
             "value": "film",
             "data": null
@@ -9265,7 +9265,7 @@
         "synopsis": "The Men in Black have always protected the Earth from the scum of the universe. In this new adventure, they tackle their biggest threat to date: a mole in the Men in Black organization.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Men in Black",
         "type": {
             "value": "film",
             "data": null
@@ -9321,7 +9321,7 @@
         "synopsis": "Frank is hired to \"transport\" packages for unknown clients and has made a very good living doing so. But when asked to move a package that begins moving, complications arise.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "The Transporter",
         "type": {
             "value": "film",
             "data": null
@@ -9402,7 +9402,7 @@
         "synopsis": "Mercenary Frank Martin, who specializes moving goods of all kinds, surfaces again this time in Miami, Florida when he's implicated in the kidnapping of the young son of a powerful USA official.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "The Transporter",
         "type": {
             "value": "film",
             "data": null
@@ -9453,7 +9453,7 @@
         "synopsis": "Frank Martin puts the driving gloves on to deliver Valentina, the kidnapped daughter of a Ukrainian government official, from Marseilles to Odessa on the Black Sea. En route, he has to contend with thugs who want to intercept Valentina's safe delivery and not let his personal feelings get in the way of his dangerous objective.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "The Transporter",
         "type": {
             "value": "film",
             "data": null
@@ -9586,7 +9586,7 @@
         "synopsis": "Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Ice Age",
         "type": {
             "value": "film",
             "data": null
@@ -9648,7 +9648,7 @@
         "synopsis": "Manny, Sid, and Diego discover that the ice age is coming to an end, and join everybody for a journey to higher ground. On the trip, they discover that Manny, in fact, is not the last of the woolly mammoths.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Ice Age",
         "type": {
             "value": "film",
             "data": null
@@ -9725,7 +9725,7 @@
         "synopsis": "When Sid's attempt to adopt three dinosaur eggs gets him abducted by their real mother to an underground lost world, his friends attempt to rescue him.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Ice Age",
         "type": {
             "value": "film",
             "data": null
@@ -10090,7 +10090,7 @@
         "synopsis": "A teenager discovers he's the descendant of a Greek god and sets out on an adventure to settle an on-going battle between the gods.",
         "categories": ["special-favorite"],
         "awards": null,
-        "parts": null,
+        "parts": "Percy Jackson",
         "type": {
             "value": "film",
             "data": null
@@ -10176,7 +10176,7 @@
         "synopsis": "In order to restore their dying safe haven, the son of Poseidon and his friends embark on a quest to the Sea of Monsters, to find the mythical Golden Fleece, all the while trying to stop an ancient evil from rising.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Percy Jackson",
         "type": {
             "value": "film",
             "data": null
@@ -10221,7 +10221,7 @@
         "synopsis": "On a quest to find out what happened to his missing brother, a scientist, his nephew and their mountain guide discover a fantastic and dangerous lost world in the center of the earth.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "The Journey",
         "type": {
             "value": "film",
             "data": null
@@ -10281,7 +10281,7 @@
         "synopsis": "Sean Anderson partners with his mom's husband on a mission to find his grandfather, who is thought to be missing on a mythical island.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "The Journey",
         "type": {
             "value": "film",
             "data": null
@@ -10473,7 +10473,7 @@
         "synopsis": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
         "categories": ["special-favorite"],
         "awards": null,
-        "parts": null,
+        "parts": "Bay's Transformers",
         "type": {
             "value": "film",
             "data": null
@@ -10559,7 +10559,7 @@
         "synopsis": "Sam Witwicky leaves the Autobots behind for a normal life. But when his mind is filled with cryptic symbols, the Decepticons target him and he is dragged back into the Transformers' war.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Bay's Transformers",
         "type": {
             "value": "film",
             "data": null
@@ -10650,7 +10650,7 @@
         "synopsis": "The Autobots learn of a Cybertronian spacecraft hidden on the moon, and race against the Decepticons to reach it and to learn its secrets.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Bay's Transformers",
         "type": {
             "value": "film",
             "data": null
@@ -11213,7 +11213,7 @@
         "synopsis": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "The Dark Knight",
         "type": {
             "value": "film",
             "data": null
@@ -11294,7 +11294,7 @@
         "synopsis": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "The Dark Knight",
         "type": {
             "value": "film",
             "data": null
@@ -11390,7 +11390,7 @@
         "synopsis": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City, now on the edge of total annihilation, from the brutal guerrilla terrorist Bane.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "The Dark Knight",
         "type": {
             "value": "film",
             "data": null
@@ -12060,7 +12060,7 @@
         "synopsis": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "The Chronicles of Narnia",
         "type": {
             "value": "film",
             "data": null
@@ -12141,7 +12141,7 @@
         "synopsis": "The Pevensie siblings return to Narnia, where they are enlisted to once again help ward off an evil king and restore the rightful heir to the land's throne, Prince Caspian.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "The Chronicles of Narnia",
         "type": {
             "value": "film",
             "data": null
@@ -12232,7 +12232,7 @@
         "synopsis": "Lucy and Edmund Pevensie return to Narnia with their cousin Eustace where they meet up with Prince Caspian for a trip across the sea aboard the royal ship The Dawn Treader. Along the way they encounter dragons, dwarves, merfolk, and a band of lost warriors before reaching the edge of the world.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "The Chronicles of Narnia",
         "type": {
             "value": "film",
             "data": null
@@ -12313,7 +12313,7 @@
         "synopsis": "Clark Kent is an alien who as a child was evacuated from his dying world and came to Earth, living as a normal human. But when survivors of his alien home invade Earth, he must reveal himself to the world.",
         "categories": ["dceu"],
         "awards": null,
-        "parts": null,
+        "parts": "DC Extended Universe",
         "type": {
             "value": "film",
             "data": null
@@ -12389,7 +12389,7 @@
         "synopsis": "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs.",
         "categories": ["dceu"],
         "awards": null,
-        "parts": null,
+        "parts": "DC Extended Universe",
         "type": {
             "value": "film",
             "data": null
@@ -12465,7 +12465,7 @@
         "synopsis": "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse.",
         "categories": ["dceu"],
         "awards": null,
-        "parts": null,
+        "parts": "DC Extended Universe",
         "type": {
             "value": "film",
             "data": null
@@ -12537,7 +12537,7 @@
         "synopsis": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
         "categories": ["dceu"],
         "awards": null,
-        "parts": null,
+        "parts": "DC Extended Universe",
         "type": {
             "value": "film",
             "data": null
@@ -12628,7 +12628,7 @@
         "synopsis": "Fueled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne enlists the help of his new-found ally, Diana Prince, to face an even greater enemy.",
         "categories": ["dceu", "cinema-watched"],
         "awards": null,
-        "parts": null,
+        "parts": "DC Extended Universe",
         "type": {
             "value": "film",
             "data": null
@@ -12704,7 +12704,7 @@
         "synopsis": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
         "categories": ["dceu"],
         "awards": null,
-        "parts": null,
+        "parts": "DC Extended Universe",
         "type": {
             "value": "film",
             "data": null
@@ -12765,7 +12765,7 @@
         "synopsis": "We all have a superhero inside us, it just takes a bit of magic to bring it out. In Billy Batson's case, by shouting out one word - SHAZAM! - this streetwise fourteen-year-old foster kid can turn into the adult superhero Shazam.",
         "categories": ["dceu"],
         "awards": null,
-        "parts": null,
+        "parts": "DC Extended Universe",
         "type": {
             "value": "film",
             "data": null
@@ -13033,7 +13033,7 @@
         "synopsis": "The world is beset by the appearance of monstrous creatures, but one of them may be the only one who can save humanity.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Monsterverse",
         "type": {
             "value": "film",
             "data": null
@@ -13100,7 +13100,7 @@
         "synopsis": "After the Vietnam war, a team of scientists explores an uncharted island in the Pacific, venturing into the domain of the mighty Kong, and must fight to escape a primal Eden.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Monsterverse",
         "type": {
             "value": "film",
             "data": null
@@ -13181,7 +13181,7 @@
         "synopsis": "The crypto-zoological agency Monarch faces off against a battery of god-sized monsters, including the mighty Godzilla, who collides with Mothra, Rodan, and his ultimate nemesis, the three-headed King Ghidorah.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Monsterverse",
         "type": {
             "value": "film",
             "data": null
@@ -13354,7 +13354,7 @@
         "synopsis": "A demon, raised from infancy after being conjured by and rescued from the Nazis, grows up to become a defender against the forces of darkness.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "del Toro's Hellboy",
         "type": {
             "value": "film",
             "data": null
@@ -13435,7 +13435,7 @@
         "synopsis": "The mythical world starts a rebellion against humanity in order to rule the Earth, so Hellboy and his team must save the world from the rebellious creatures.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "del Toro's Hellboy",
         "type": {
             "value": "film",
             "data": null
@@ -13902,7 +13902,7 @@
         "synopsis": "An eight-year-old troublemaker must protect his house from a pair of burglars when he is accidentally left home alone by his family during Christmas vacation.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Home Alone",
         "type": {
             "value": "film",
             "data": null
@@ -13987,7 +13987,7 @@
         "synopsis": "One year after Kevin McCallister was left home alone and had to defeat a pair of bumbling burglars, he accidentally finds himself stranded in New York City - and the same criminals are not far behind.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Home Alone",
         "type": {
             "value": "film",
             "data": null
@@ -14367,7 +14367,7 @@
         "synopsis": "To work off his tarnished driving record, a hip taxi driver must chauffeur a loser police inspector on the trail of German bank robbers.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Besson's Taxi",
         "type": {
             "value": "film",
             "data": null
@@ -14422,7 +14422,7 @@
         "synopsis": "Police inspector Emilien and his taxi-driver pal Daniel are back, this time on the tail of a group of Japanese yakuza.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Besson's Taxi",
         "type": {
             "value": "film",
             "data": null
@@ -14492,7 +14492,7 @@
         "synopsis": "Out to stop a new gang disguised as Santa Claus, Emilien and Daniel must also handle major changes in their personal relationships.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Besson's Taxi",
         "type": {
             "value": "film",
             "data": null
@@ -14563,7 +14563,7 @@
         "synopsis": "When two kids find and play a magical board game, they release a man trapped for decades in it and a host of dangers that can only be stopped by finishing the game.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Jumanji",
         "type": {
             "value": "film",
             "data": null
@@ -14630,7 +14630,7 @@
         "synopsis": "Four teenagers are sucked into a magical video game, and the only way they can escape is to work together to finish the game.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Jumanji",
         "type": {
             "value": "film",
             "data": null
@@ -14721,7 +14721,7 @@
         "synopsis": "In Jumanji: The Next Level, the gang is back but the game has changed. As they return to rescue one of their own, the players will have to brave parts unknown from arid deserts to snowy mountains, to escape the world's most dangerous game.",
         "categories": ["cinema-watched"],
         "awards": null,
-        "parts": null,
+        "parts": "Jumanji",
         "type": {
             "value": "film",
             "data": null
@@ -15380,7 +15380,7 @@
         "synopsis": "On her 16th birthday, Gwendolyn Shepherd finds out that instead of her cousin, she has inherited a rare gene that allows her to travel through time.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Edelstein Trilogie",
         "type": {
             "value": "film",
             "data": null
@@ -15442,7 +15442,7 @@
         "synopsis": "Gwen has just discovered, that she's the final member of the secret time-traveling Circle of Twelve. Now she has to juggle with constant trips to the past, her relationships with Gideon and figuring out dark secrets surrounding the Circle.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Edelstein Trilogie",
         "type": {
             "value": "film",
             "data": null
@@ -15499,7 +15499,7 @@
         "synopsis": "Adaptation of the final part of famous time-travel trilogy. Gwendolyn's heart is broken, will she trust Gideon again? There's no time to wallow in tears. Something unbelievable happens, and Gwendolyn finds herself in the race against time.",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Edelstein Trilogie",
         "type": {
             "value": "film",
             "data": null
@@ -15570,7 +15570,7 @@
         "synopsis": "A substance designed to help the brain repair itself gives advanced intelligence to a chimpanzee who leads an ape uprising",
         "categories": ["uncategorized"],
         "awards": null,
-        "parts": null,
+        "parts": "Planet of the Apes Reboot",
         "type": {
             "value": "film",
             "data": null
