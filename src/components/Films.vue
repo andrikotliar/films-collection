@@ -28,7 +28,7 @@
 		props: ['page'],
 		data() {
 			return {
-				perPage: 28
+				perPage: 24
 			}
 		},
 		methods: {
