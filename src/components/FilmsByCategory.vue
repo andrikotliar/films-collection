@@ -38,9 +38,6 @@
 			...mapState(['films']),
 			setCategory() {
 				let filmProperty = this.$route.path.split('/')[1];
-				if(this.$route.path.split('/')[1] == 'search') {
-					filmProperty = 'title';
-				}
 				let filmCategory = this.category;
 				let filteredFilms;
 				if(/^[0-9]+$/.test(this.category)) {
