@@ -9,6 +9,7 @@
 			</div>			
 		</div>
 		<Preloader />
+		<Search />
 		<div class="category-films">
 			<router-link :to="'/film/' + film.id" v-for="(film, index) in displayedFilms" class="category-film" :key="index">
 				<img :src="`images/posters/${film.poster}.webp`" :alt="film.title" class="category-film__poster" :title="film.title">
@@ -24,7 +25,8 @@
 
 <script>
 	import {mapState} from 'vuex';
-	import Preloader from 'elements/Preloader.vue'
+	import Preloader from 'elements/Preloader.vue';
+	import Search from 'elements/Search.vue';
 	export default {
 		name: 'Home',
 		props: ['page'],
@@ -56,7 +58,8 @@
 			this.$store.dispatch('LOAD_FILMS');
 		},
 		components: {
-			Preloader
+			Preloader,
+			Search
 		}
 	}
 </script>
