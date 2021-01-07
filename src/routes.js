@@ -8,6 +8,7 @@ import Twitter from './components/Twitter.vue';
 import YearsList from './components/YearsList.vue';
 import Year from './components/Year.vue';
 import Actor from './components/Actor.vue';
+import SearchResults from './components/SearchResults.vue';
 
 const routes = [
 	{path: '/', component: Home},
@@ -37,9 +38,9 @@ const routes = [
 		component: Year
 	},
 	{
-		path: '/search/:category', 
+		path: '/search/:result', 
 		props: true,
-		component: FilmsByCategory
+		component: SearchResults
 	},
 	{
 		path: '/production/:category', 
