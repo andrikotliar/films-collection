@@ -3,6 +3,10 @@
 	margin-bottom: 20px;
 }
 
+.category-title--lower {
+	text-transform: initial;
+}
+
 .category-films {
 	display: flex;
 	flex-wrap: wrap;
