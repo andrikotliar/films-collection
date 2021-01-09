@@ -1767,6 +1767,72 @@
         }
     },
     {
+        "id": 224,
+        "title": "Star Wars Episode IX: Rise of Skywalker",
+        "poster": "star_wars_11",
+        "trailer": "8Qn_spdM5Zg",
+        "genres": [
+            "Sci-Fi",
+            "Action"
+        ],
+        "production": [
+            "Walt-Disney-Pictures",
+            "Lucasfilm"
+        ],
+        "director": "J.J. Abrams",
+        "producers": "J.J. Abrams, Michelle Rejwan, Kathleen Kennedy",
+        "writtens": "Chris Terrio, J.J. Abrams",
+        "music": "John Williams",
+        "cinema": "Dan Mindel",
+        "year": 2019,
+        "time": 141,
+        "country": "USA",
+        "budget": "515 million",
+        "boxoffice": "1,074 billion",
+        "actors": [
+            {
+                "image": "noimage",
+                "name": "Adam Driver",
+                "role": "Kylo Ren"
+            },
+            {
+                "image": "noimage",
+                "name": "Daisy Ridley",
+                "role": "Rey"
+            },
+            {
+                "image": "noimage",
+                "name": "John Boyega",
+                "role": "Finn"
+            },
+            {
+                "image": "noimage",
+                "name": "Oscar Isaac",
+                "role": "Poe Dameron"
+            },
+            {
+                "image": "noimage",
+                "name": "Ian McDiarmid",
+                "role": "Emperor Palpatine"
+            },
+            {
+                "image": "noimage",
+                "name": "Billy Dee Williams",
+                "role": "Lando Calrissian"
+            }
+        ],
+        "synopsis": "The surviving members of the resistance face the First Order once again, and the legendary conflict between the Jedi and the Sith reaches its peak bringing the Skywalker saga to its end.",
+        "categories": [
+            "star-wars"
+        ],
+        "awards": null,
+        "parts": "Star Wars",
+        "type": {
+            "value": "film",
+            "data": null
+        }
+    },
+    {
         "id": 25,
         "title": "The Hobbit: An Unexpected Journey",
         "poster": "middle_earth_1",
@@ -4060,6 +4126,71 @@
         ],
         "synopsis": "When a mysterious woman seduces Dom into the world of terrorism and a betrayal of those closest to him, the crew face trials that will test them as never before.",
         "categories": ["uncategorized"],
+        "awards": null,
+        "parts": "Fast and Furious",
+        "type": {
+            "value": "film",
+            "data": null
+        }
+    },
+    {
+        "id": 225,
+        "title": "Fast & Furious Presents: Hobbs & Shaw",
+        "poster": "fast_and_furious_9",
+        "trailer": "HZ7PAyCDwEg",
+        "genres": [
+            "Action",
+            "Thriller"
+        ],
+        "production": [
+            "Universal-Pictures"
+        ],
+        "director": "David Leitch",
+        "producers": "Hiram Garcia, Dwayne Johnson, Chris Morgan, Jason Statham",
+        "writtens": "Chris Morgan, Drew Pearce",
+        "music": "Tyler Bates",
+        "cinema": "Jonathan Sela",
+        "year": 2019,
+        "time": 137,
+        "country": "USA, Japan",
+        "budget": "200 million",
+        "boxoffice": "1,1 billion",
+        "actors": [
+            {
+                "image": "noimage",
+                "name": "Dwayne Johnson",
+                "role": "Hobbs"
+            },
+            {
+                "image": "noimage",
+                "name": "Jason Statham",
+                "role": "Shaw"
+            },
+            {
+                "image": "noimage",
+                "name": "Idris Elba",
+                "role": "Brixton"
+            },
+            {
+                "image": "noimage",
+                "name": "Vanessa Kirby",
+                "role": "Hattie"
+            },
+            {
+                "image": "noimage",
+                "name": "Helen Mirren",
+                "role": "Queenie"
+            },
+            {
+                "image": "npimage",
+                "name": "Eliana Sua",
+                "role": "Sam"
+            }
+        ],
+        "synopsis": "Lawman Luke Hobbs and outcast Deckard Shaw form an unlikely alliance when a cyber-genetically enhanced villain threatens the future of humanity.",
+        "categories": [
+            "uncategorised"
+        ],
         "awards": null,
         "parts": "Fast and Furious",
         "type": {
@@ -7027,6 +7158,86 @@
         }
     },
     {
+        "id": 226,
+        "title": "Dark Phoenix",
+        "poster": "x_men_9",
+        "trailer": "1-q8C_c-nlM",
+        "genres": [
+            "Sci-Fi",
+            "Action"
+        ],
+        "production": [
+            "20th-Century-FOX"
+        ],
+        "director": "Simon Kinberg",
+        "producers": "Todd Hallowell, Simon Kinberg, Hutch Parker, Lauren Shuler Donner",
+        "writtens": "Simon Kinberg",
+        "music": "Hans Zimmer",
+        "cinema": "Mauro Fiore",
+        "year": 2019,
+        "time": 113,
+        "country": "USA, Canada",
+        "budget": "200 million",
+        "boxoffice": "252 million",
+        "actors": [
+            {
+                "image": "noimage",
+                "name": "James McAvoy",
+                "role": "Charles Xavier"
+            },
+            {
+                "image": "noimage",
+                "name": "Michael Fassbender",
+                "role": "Erik Lehnsherr / Magneto"
+            },
+            {
+                "image": "noimage",
+                "name": "Jennifer Lawrence",
+                "role": "Raven / Mystique"
+            },
+            {
+                "image": "noimage",
+                "name": "Nicholas Hoult",
+                "role": "Hank McCoy / Beast"
+            },
+            {
+                "image": "noimage",
+                "name": "Sophie Turner",
+                "role": "Jean Grey / Phoenix"
+            },
+            {
+                "image": "noimage",
+                "name": "Tye Sheridan",
+                "role": "Scott Summers / Cyclops"
+            },
+            {
+                "image": "noimage",
+                "name": "Alexandra Shipp",
+                "role": "Ororo Munroe / Storm"
+            },
+            {
+                "image": "noimage",
+                "name": "Evan Peters",
+                "role": "Peter Maximoff / Quicksilver"
+            },
+            {
+                "image": "noimage",
+                "name": "Kodi Smit-McPhee",
+                "role": "Kurt Wagner / Nightcrawler"
+            }
+        ],
+        "synopsis": "Jean Grey begins to develop incredible powers that corrupt and turn her into a Dark Phoenix, causing the X-Men to decide if her life is worth more than all of humanity.",
+        "categories": [
+            "uncategorised"
+        ],
+        "awards": null,
+        "parts": "X-Men",
+        "type": {
+            "value": "film",
+            "data": null
+        }
+    },
+    {
         "id": 87,
         "title": "Logan",
         "poster": "x_men_8",
@@ -8253,6 +8464,194 @@
         "categories": ["uncategorized"],
         "awards": null,
         "parts": "Pirates of the Caribbean",
+        "type": {
+            "value": "film",
+            "data": null
+        }
+    },
+    {
+        "id": 227,
+        "title": "Jurassic Park",
+        "poster": "jurassic_park_1",
+        "trailer": "QWBKEmWWL38",
+        "genres": [
+            "Sci-Fi",
+            "Adventure"
+        ],
+        "production": [
+            "Universal-Pictures",
+            "Amblin-Entertainment"
+        ],
+        "director": "Steven Spielberg",
+        "producers": "Kathleen Kennedy, Gerald R. Molen",
+        "writtens": "Michael Crichton, David Koepp",
+        "music": "John Williams",
+        "cinema": "Dean Cundey",
+        "year": 1993,
+        "time": 127,
+        "country": "USA",
+        "budget": "63 million",
+        "boxoffice": "1,03 billion",
+        "actors": [
+            {
+                "image": "noimage",
+                "name": "Sam Neill",
+                "role": "Grant"
+            },
+            {
+                "image": "noimage",
+                "name": "Laura Dern",
+                "role": "Ellie"
+            },
+            {
+                "image": "noimage",
+                "name": "Jeff Goldblum",
+                "role": "Malcolm"
+            },
+            {
+                "image": "noimage",
+                "name": "Richard Attenborough",
+                "role": "Hammond"
+            },
+            {
+                "image": "noimage",
+                "name": "Joseph Mazzello",
+                "role": "Tim"
+            },
+            {
+                "image": "noimage",
+                "name": "Ariana Richards",
+                "role": "Lex"
+            }
+        ],
+        "synopsis": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
+        "categories": [
+            "uncategorised"
+        ],
+        "awards": null,
+        "parts": "Jurassic Park",
+        "type": {
+            "value": "film",
+            "data": null
+        }
+    },
+    {
+        "id": 228,
+        "title": "The Lost World: Jurassic Park",
+        "poster": "jurassic_park_2",
+        "trailer": "RxrvaneULkE",
+        "genres": [
+            "Sci-Fi",
+            "Adventure"
+        ],
+        "production": [
+            "Universal-Pictures",
+            "Amblin-Entertainment"
+        ],
+        "director": "Steven Spielberg",
+        "producers": "Gerald R. Molen, Colin Wilson",
+        "writtens": "David Koepp",
+        "music": "John Williams",
+        "cinema": "Janusz Kaminski",
+        "year": 1997,
+        "time": 129,
+        "country": "USA",
+        "budget": "73 million",
+        "boxoffice": "619 million",
+        "actors": [
+            {
+                "image": "noimage",
+                "name": "Jeff Goldblum",
+                "role": "Malcolm"
+            },
+            {
+                "image": "noimage",
+                "name": "Richard Attenborough",
+                "role": "Hammond"
+            },
+            {
+                "image": "noimage",
+                "name": "Julianne Moore",
+                "role": "Sarah Harding"
+            },
+            {
+                "image": "noimage",
+                "name": "Pete Postlethwaite",
+                "role": "Roland Tembo"
+            },
+            {
+                "image": "noimage",
+                "name": "Arliss Howard",
+                "role": "Peter Ludlow"
+            }
+        ],
+        "synopsis": "A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda.",
+        "categories": [
+            "uncategorised"
+        ],
+        "awards": null,
+        "parts": "Jurassic Park",
+        "type": {
+            "value": "film",
+            "data": null
+        }
+    },
+    {
+        "id": 229,
+        "title": "Jurassic Park III",
+        "poster": "jurassic_park",
+        "trailer": "gjIaV6CU0wA",
+        "genres": [
+            "Sci-Fi",
+            "Adventure"
+        ],
+        "production": [
+            "Universal-Pictures",
+            "Amblin-Entertainment"
+        ],
+        "director": "Joe Johnston",
+        "producers": "Larry Franco, Kathleen Kennedy",
+        "writtens": "Peter Buchman, Alexander Payne, Jim Taylor",
+        "music": "Don Davis",
+        "cinema": "Shelly Johnson",
+        "year": 2001,
+        "time": 92,
+        "country": "USA",
+        "budget": "93 million",
+        "boxoffice": "368 million",
+        "actors": [
+            {
+                "image": "noimage",
+                "name": "Sam Neill",
+                "role": "Dr. Alan Grant"
+            },
+            {
+                "image": "noimage",
+                "name": "William H. Macy",
+                "role": "Paul Kirby"
+            },
+            {
+                "image": "noimage",
+                "name": "Téa Leoni",
+                "role": "Amanda Kirby"
+            },
+            {
+                "image": "noimage",
+                "name": "Alessandro Nivola",
+                "role": "Billy Brennan"
+            },
+            {
+                "image": "noimage",
+                "name": "Trevor Morgan",
+                "role": "Eric Kirby"
+            }
+        ],
+        "synopsis": "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants.",
+        "categories": [
+            "uncategorised"
+        ],
+        "awards": null,
+        "parts": "Jurassic Park",
         "type": {
             "value": "film",
             "data": null

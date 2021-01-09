@@ -238,7 +238,7 @@
         "type": "film",
         "year": 2019,
         "watched": 1,
-        "appstatus": 0,
+        "appstatus": 1,
         "watchcount": 1,
         "partstatus": "last_part"
     },
@@ -495,11 +495,11 @@
         "partstatus": "middle_part"
     },
     {
-        "title": "Hobbs & Show",
+        "title": "Fast & Furious Presents: Hobbs & Shaw",
         "type": "film",
         "year": 2019,
         "watched": 1,
-        "appstatus": 0,
+        "appstatus": 1,
         "watchcount": 1,
         "partstatus": "last_part"
     },
@@ -819,11 +819,11 @@
         "partstatus": "middle_part"
     },
     {
-        "title": "X-Men: Dark Phoenix",
+        "title": "Dark Phoenix",
         "type": "film",
         "year": 2019,
         "watched": 1,
-        "appstatus": 0,
+        "appstatus": 1,
         "watchcount": 1,
         "partstatus": "last_part"
     },
@@ -976,7 +976,7 @@
         "type": "film",
         "year": 1993,
         "watched": 1,
-        "appstatus": 0,
+        "appstatus": 1,
         "watchcount": 3,
         "partstatus": "first_part"
     },
@@ -985,7 +985,7 @@
         "type": "film",
         "year": 1997,
         "watched": 1,
-        "appstatus": 0,
+        "appstatus": 1,
         "watchcount": 2,
         "partstatus": "middle_part"
     },
@@ -994,7 +994,7 @@
         "type": "film",
         "year": 2001,
         "watched": 1,
-        "appstatus": 0,
+        "appstatus": 1,
         "watchcount": 2,
         "partstatus": "middle_part"
     },
@@ -1530,15 +1530,6 @@
         "partstatus": "middle_part"
     },
     {
-        "title": "Wonder Woman 1984",
-        "type": "film",
-        "year": 2020,
-        "watched": 1,
-        "appstatus": 0,
-        "watchcount": 1,
-        "partstatus": "middle_part"
-    },
-    {
         "title": "Justice League",
         "type": "film",
         "year": 2017,
@@ -1573,6 +1564,15 @@
         "appstatus": 0,
         "watchcount": 1,
         "partstatus": "last_part"
+    },
+    {
+        "title": "Wonder Woman 1984",
+        "type": "film",
+        "year": 2020,
+        "watched": 1,
+        "appstatus": 0,
+        "watchcount": 1,
+        "partstatus": "middle_part"
     },
     {
         "title": "Speed",
@@ -2007,7 +2007,7 @@
         "partstatus": "single_part"
     },
     {
-        "title": "Academy Umbrella",
+        "title": "The Umbrella Academy",
         "type": "series",
         "year": 2019,
         "watched": 1,
@@ -2025,7 +2025,7 @@
         "partstatus": "single_part"
     },
     {
-        "title": "Claus",
+        "title": "Klaus",
         "type": "film",
         "year": 2019,
         "watched": 1,
