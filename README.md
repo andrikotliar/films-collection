@@ -1,3 +1,14 @@
-# Films Short Data
+# FILMS COLLECTION
 
-GitHub Page: <a href="https://andrikotliar.github.io/films-short-data/#/">https://andrikotliar.github.io/films-short-data/</a>
+[OPEN](https://films-collection.netlify.app/)
+
+My personal collection of favorite FILMS. 
+
+Made with [VUE.JS](https://vuejs.org/) framework.
+
+Full list of films: [https://films-collection.netlify.app/#/list](https://films-collection.netlify.app/#/list)
+"Databse" of films made with JSON: [database.json](https://github.com/andrikotliar/films-collection/blob/master/database/database.json)
+
+It's possible to view a single film file: [/json/ folder](https://github.com/andrikotliar/films-collection/tree/master/json)
+
+[Webpack](https://webpack.js.org/) is used to bundle the project. [GULP](https://gulpjs.com/) is used for merge single json files.
