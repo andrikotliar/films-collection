@@ -1,6 +1,8 @@
 node_modules/
+src/modules/
 update-db.sh
 update-list.sh
+update-db-and-list.sh
 update-calender.sh
 src/components/Test.vue
 dist/
