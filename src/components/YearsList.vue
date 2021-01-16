@@ -22,7 +22,7 @@
 			yearsList() {
 				let years = [];
 				let filteredYears;
-				let emptyYears = [1978, 1979, 1981, 1982, 1986, 1987, 1988, 1993];
+				let emptyYears = [1978, 1979, 1981, 1982, 1986, 1987, 1988];
 				for(let i = this.startYear; i < this.currentYear; i++) {
 					years.push(i);
 				}
