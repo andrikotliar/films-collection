@@ -1,0 +1,70 @@
+{
+    "id": 88,
+    "title": "Sherlock Holmes",
+    "poster": "sherlock_holmes_1",
+    "trailer": "J7nJksXDBWc",
+    "genres": [
+        "Adventure",
+        "Detective"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "Guy Ritchie",
+    "producers": "Joel Silver, Lionel Wigram",
+    "writtens": "Michael Robert Johnson, Anthony Peckham",
+    "music": "Hans Zimmer",
+    "cinema": "Philippe Rousselot",
+    "year": 2009,
+    "time": 129,
+    "country": "USA",
+    "budget": "90 million",
+    "boxoffice": "524 million",
+    "actors": [
+        {
+            "image": "robert-downey-jr.",
+            "name": "Robert Downey Jr.",
+            "role": "Sherlock Holmes"
+        },
+        {
+            "image": "jude-law",
+            "name": "Jude Law",
+            "role": "Dr. John Watson"
+        },
+        {
+            "image": "rachel-mcadams",
+            "name": "Rachel McAdams",
+            "role": "Irene Adler"
+        },
+        {
+            "image": "mark-strong",
+            "name": "Mark Strong",
+            "role": "Lord Henry Blackwood"
+        },
+        {
+            "image": "eddie-marsan",
+            "name": "Eddie Marsan",
+            "role": "Inspector Lestrade"
+        },
+        {
+            "image": "robert-maillet",
+            "name": "Robert Maillet",
+            "role": "Dredger"
+        },
+        {
+            "image": "geraldine-james",
+            "name": "Geraldine James",
+            "role": "Mrs. Hudson"
+        }
+    ],
+    "synopsis": "Detective Sherlock Holmes and his stalwart partner Watson engage in a battle of wits and brawn with a nemesis whose SYNOPSIS is a threat to all of England.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Ritchie's Sherlock Holmes",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

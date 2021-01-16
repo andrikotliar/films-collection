@@ -1,0 +1,72 @@
+{
+    "id": 118,
+    "title": "Men in Black: International",
+    "poster": "mib_3",
+    "trailer": "BV-WEb2oxLk",
+    "genres": [
+        "Sci-Fi",
+        "Action",
+        "Comedy"
+    ],
+    "production": [
+        "Sony-Pictures",
+        "Amblin-Intertainment"
+    ],
+    "director": "BV-WEb2oxLk",
+    "producers": "BV-WEb2oxLk, Laurie MacDonald",
+    "writtens": "Art Marcum and Matt Holloway",
+    "music": "Danny Elfman, Chris Bacon",
+    "cinema": "Stuart Dryburgh",
+    "year": 2019,
+    "time": 115,
+    "country": "USA",
+    "budget": "110 million",
+    "boxoffice": "254 million",
+    "actors": [
+        {
+            "image": "chris-hemsworth",
+            "name": "Chris Hemsworth",
+            "role": "Agent H"
+        },
+        {
+            "image": "tessa-thompson",
+            "name": "Tessa Thompson",
+            "role": "Agent M"
+        },
+        {
+            "image": "kumail-nanjiani",
+            "name": "Kumail Nanjiani",
+            "role": "Pawny (voice)"
+        },
+        {
+            "image": "rebecca-ferguson",
+            "name": "Rebecca Ferguson",
+            "role": "Riza"
+        },
+        {
+            "image": "rafe-spall",
+            "name": "Rafe Spall",
+            "role": "Agent C"
+        },
+        {
+            "image": "emma-thompson",
+            "name": "Emma Thompson",
+            "role": "Agent O"
+        },
+        {
+            "image": "liam-neeson",
+            "name": "Liam Neeson",
+            "role": "Agent High T"
+        }
+    ],
+    "synopsis": "The Men in Black have always protected the Earth from the scum of the universe. In this new adventure, they tackle their biggest threat to date: a mole in the Men in Black organization.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Men in Black",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

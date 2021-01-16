@@ -1,0 +1,59 @@
+{
+    "id": 195,
+    "title": "Taxi 2",
+    "poster": "taxi_2",
+    "trailer": "XkMZ75BwhCg",
+    "genres": [
+        "Comedy"
+    ],
+    "production": [
+        "Lions-Gate-Entertainment"
+    ],
+    "director": "G'rard Krawczyk",
+    "producers": "Luc Besson, Michele Petin, Laurent Petin",
+    "writtens": "Luc Besson",
+    "music": "Olivier \"Akos\" Castelli, Al Khemya, One Shot",
+    "cinema": "Thierry Guilmaro",
+    "year": 2000,
+    "time": 88,
+    "country": "USA",
+    "budget": "10 million",
+    "boxoffice": "64 million",
+    "actors": [
+        {
+            "image": "samy-naceri",
+            "name": "Samy Naceri",
+            "role": "Daniel Morales"
+        },
+        {
+            "image": "fr'd'ric-diefenthal",
+            "name": "Fr'd'ric Diefenthal",
+            "role": "'milien Coutant-Kerbalec"
+        },
+        {
+            "image": "marion-cotillard",
+            "name": "Marion Cotillard",
+            "role": "Lilly Bertineau"
+        },
+        {
+            "image": "emma-wiklund",
+            "name": "Emma Wiklund",
+            "role": "Petra"
+        },
+        {
+            "image": "bernard-farcy",
+            "name": "Bernard Farcy",
+            "role": "Commissaire Gibert"
+        }
+    ],
+    "synopsis": "Police inspector Emilien and his taxi-driver pal Daniel are back, this time on the tail of a group of Japanese yakuza.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Besson's Taxi",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "id": 138,
+    "title": "Inception",
+    "poster": "inception",
+    "trailer": "YoHD9XEInc0",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures",
+        "Legendary-Pictures"
+    ],
+    "director": "Christopher Nolan",
+    "producers": "Emma Thomas, Christopher Nolan",
+    "writtens": "Christopher Nolan",
+    "music": "Hans Zimmer",
+    "cinema": "Wally Pfister",
+    "year": 2010,
+    "time": 148,
+    "country": "USA",
+    "budget": "160 million",
+    "boxoffice": "828 million",
+    "actors": [
+        {
+            "image": "leonardo-dicaprio",
+            "name": "Leonardo DiCaprio",
+            "role": "Cobb"
+        },
+        {
+            "image": "joseph-gordon-levitt",
+            "name": "Joseph Gordon-Levitt",
+            "role": "Arthur"
+        },
+        {
+            "image": "ellen-page",
+            "name": "Ellen Page",
+            "role": "Ariadne"
+        },
+        {
+            "image": "tom-hardy",
+            "name": "Tom Hardy",
+            "role": "Eames"
+        },
+        {
+            "image": "ken-watanabe",
+            "name": "Ken Watanabe",
+            "role": "Saito"
+        },
+        {
+            "image": "dileep-rao",
+            "name": "Dileep Rao",
+            "role": "Yusuf"
+        },
+        {
+            "image": "cillian-murphy",
+            "name": "Cillian Murphy",
+            "role": "Robert Fischer"
+        },
+        {
+            "image": "tom-berenger",
+            "name": "Tom Berenger",
+            "role": "Browning"
+        },
+        {
+            "image": "marion-cotillard",
+            "name": "Marion Cotillard",
+            "role": "Mal"
+        },
+        {
+            "image": "michael-caine",
+            "name": "Michael Caine",
+            "role": "Miles"
+        }
+    ],
+    "synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

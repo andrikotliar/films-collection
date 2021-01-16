@@ -1,0 +1,91 @@
+{
+    "id": 84,
+    "title": "X-Men: First Class",
+    "poster": "x_men_5",
+    "trailer": "kyQKi5-k0UU",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Marvel-Entertainment"
+    ],
+    "director": "Matthew Vaughn",
+    "producers": "Lauren Shuler Donner, Bryan Singer",
+    "writtens": "Ashley Edward Miller, Zack Stentz, Jane Goldman, Matthew Vaughn",
+    "music": "Henry Jackman",
+    "cinema": "John Mathieson",
+    "year": 2011,
+    "time": 132,
+    "country": "USA",
+    "budget": "140 million",
+    "boxoffice": "354 million",
+    "actors": [
+        {
+            "image": "james-mcavoy",
+            "name": "James McAvoy",
+            "role": "Charles Xavier"
+        },
+        {
+            "image": "michael-fassbender",
+            "name": "Michael Fassbender",
+            "role": "Erik Lensherr"
+        },
+        {
+            "image": "bill-milner",
+            "name": "Bill Milner",
+            "role": "Young Erik"
+        },
+        {
+            "image": "kevin-bacon",
+            "name": "Kevin Bacon",
+            "role": "Sebastian Shaw"
+        },
+        {
+            "image": "rose-byrne",
+            "name": "Rose Byrne",
+            "role": "Moira MacTaggert"
+        },
+        {
+            "image": "jennifer-lawrence",
+            "name": "Jennifer Lawrence",
+            "role": "Raven / Mystique"
+        },
+        {
+            "image": "january-jones",
+            "name": "January Jones",
+            "role": "Emma Frost"
+        },
+        {
+            "image": "nicholas-hoult",
+            "name": "Nicholas Hoult",
+            "role": "Hank / Beast"
+        },
+        {
+            "image": "caleb-landry-jones",
+            "name": "Caleb Landry Jones",
+            "role": "Cassidy / Banshee"
+        },
+        {
+            "image": "lucas-till",
+            "name": "Lucas Till",
+            "role": "Alex Summers / Havok"
+        },
+        {
+            "image": "don-creech",
+            "name": "Don Creech",
+            "role": "William Stryker"
+        }
+    ],
+    "synopsis": "In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "X-Men",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

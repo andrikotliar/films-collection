@@ -1,0 +1,81 @@
+{
+    "id": 56,
+    "title": "Thor",
+    "poster": "mcu_4",
+    "trailer": "JOddp-nlNvQ",
+    "genres": [
+        "Fantasy",
+        "Action"
+    ],
+    "production": [
+        "Marvel-Studios",
+        "Paramount-Pictures"
+    ],
+    "director": "Kenneth Branagh",
+    "producers": "Kevin Feige",
+    "writtens": "Ashley Edward Miller, Zack Stentz, Don Payne",
+    "music": "Patrick Doyle",
+    "cinema": "Haris Zambarloukos",
+    "year": 2011,
+    "time": 114,
+    "country": "USA",
+    "budget": "150 million",
+    "boxoffice": "449 million",
+    "actors": [
+        {
+            "image": "chris-hemsworth",
+            "name": "Chris Hemsworth",
+            "role": "Thor"
+        },
+        {
+            "image": "natalie-portman",
+            "name": "Natalie Portman",
+            "role": "Jane Foster"
+        },
+        {
+            "image": "tom-hiddleston",
+            "name": "Tom Hiddleston",
+            "role": "Loki"
+        },
+        {
+            "image": "anthony-hopkins",
+            "name": "Anthony Hopkins",
+            "role": "Odin"
+        },
+        {
+            "image": "stellan-skarsgard",
+            "name": "Stellan Skarsgard",
+            "role": "Erik Selvig"
+        },
+        {
+            "image": "kat-dennings",
+            "name": "Kat Dennings",
+            "role": "Darcy Lewis"
+        },
+        {
+            "image": "clark-gregg",
+            "name": "Clark Gregg",
+            "role": "Agent Coulson"
+        },
+        {
+            "image": "colm-feore",
+            "name": "Colm Feore",
+            "role": "King Laufey"
+        },
+        {
+            "image": "idris-elba",
+            "name": "Idris Elba",
+            "role": "Heimdall"
+        }
+    ],
+    "synopsis": "The powerful, but arrogant god Thor, is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
+    "categories": [
+        "marvel"
+    ],
+    "awards": null,
+    "parts": "Marvel Cinematic Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

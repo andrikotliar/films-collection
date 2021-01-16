@@ -1,0 +1,71 @@
+{
+    "id": 177,
+    "title": "Source Code",
+    "poster": "source_code",
+    "trailer": "mnJegNyAb1w",
+    "genres": [
+        "Sci-Fi",
+        "Action",
+        "Thriller"
+    ],
+    "production": [
+        "Summit-Entertainment"
+    ],
+    "director": "Duncan Jones",
+    "producers": "Mark Gordon, Jordan Wynn, Philippe Roussellet",
+    "writtens": "Ben Ripley",
+    "music": "Chris Bacon",
+    "cinema": "Don Burgess",
+    "year": 2011,
+    "time": 93,
+    "country": "USA",
+    "budget": "32 million",
+    "boxoffice": "147 million",
+    "actors": [
+        {
+            "image": "jake-gyllenhaal",
+            "name": "Jake Gyllenhaal",
+            "role": "Colter Stevens"
+        },
+        {
+            "image": "michelle-monaghan",
+            "name": "Michelle Monaghan",
+            "role": "Christina Warren"
+        },
+        {
+            "image": "vera-farmiga",
+            "name": "Vera Farmiga",
+            "role": "Colleen Goodwin"
+        },
+        {
+            "image": "jeffrey-wright",
+            "name": "Jeffrey Wright",
+            "role": "Dr. Rutledge"
+        },
+        {
+            "image": "michael-arden",
+            "name": "Michael Arden",
+            "role": "Derek Frost"
+        },
+        {
+            "image": "cas-anvar",
+            "name": "Cas Anvar",
+            "role": "Hazmi"
+        },
+        {
+            "image": "russell-peters",
+            "name": "Russell Peters",
+            "role": "Max Denoff"
+        }
+    ],
+    "synopsis": "A soldier wakes up in someone else's body and discovers he's part of an experimental government program to find the bomber of a commuter train. A mission he has only 8 minutes to complete.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

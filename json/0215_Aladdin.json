@@ -1,0 +1,71 @@
+{
+    "id": 220,
+    "title": "Aladdin",
+    "poster": "aladdin",
+    "trailer": "foyufD52aog",
+    "genres": [
+        "Adventure",
+        "Comedy",
+        "Family"
+    ],
+    "production": [
+        "Walt-Disney-Pictures"
+    ],
+    "director": "Guy Ritchie",
+    "producers": "Dan Lin, Jonathan Eirich",
+    "writtens": "John August, Guy Ritchie",
+    "music": "Alan Menken",
+    "cinema": "Alan Stewart",
+    "year": 2019,
+    "time": 128,
+    "country": "USA",
+    "budget": "183 million",
+    "boxoffice": "1,03 billion",
+    "actors": [
+        {
+            "image": "will-smith",
+            "name": "Will Smith",
+            "role": "Genie / Mariner"
+        },
+        {
+            "image": "mena-massoud",
+            "name": "Mena Massoud",
+            "role": "Aladdin"
+        },
+        {
+            "image": "naomi-scott",
+            "name": "Naomi Scott",
+            "role": "Jasmine"
+        },
+        {
+            "image": "marwan-kenzari",
+            "name": "Marwan Kenzari",
+            "role": "Jafar"
+        },
+        {
+            "image": "navid-negahban",
+            "name": "Navid Negahban",
+            "role": "Sultan"
+        },
+        {
+            "image": "nasim-pedrad",
+            "name": "Nasim Pedrad",
+            "role": "Dalia"
+        },
+        {
+            "image": "billy-magnussen",
+            "name": "Billy Magnussen",
+            "role": "Prince Anders"
+        }
+    ],
+    "synopsis": "A kind-hearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their deepest wishes come true.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

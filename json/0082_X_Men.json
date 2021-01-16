@@ -1,0 +1,91 @@
+{
+    "id": 80,
+    "title": "X-Men",
+    "poster": "x_men_1",
+    "trailer": "VNxwlx6etXI",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Marvel-Entertainment"
+    ],
+    "director": "Bryan Singer",
+    "producers": "Lauren Shuler Donner, Ralph Winter",
+    "writtens": "David Hayter",
+    "music": "Michael Kamen",
+    "cinema": "Newton Thomas Sigel",
+    "year": 2000,
+    "time": 104,
+    "country": "USA",
+    "budget": "75 million",
+    "boxoffice": "296 million",
+    "actors": [
+        {
+            "image": "hugh-jackman",
+            "name": "Hugh Jackman",
+            "role": "Logan / Wolverine"
+        },
+        {
+            "image": "patrick-stewart",
+            "name": "Patrick Stewart",
+            "role": "Professor Charles Xavier"
+        },
+        {
+            "image": "ian-mckellen",
+            "name": "Ian McKellen",
+            "role": "Eric Lensherr / Magneto"
+        },
+        {
+            "image": "famke-janssen",
+            "name": "Famke Janssen",
+            "role": "Jean Grey"
+        },
+        {
+            "image": "james-marsden",
+            "name": "James Marsden",
+            "role": "Scott Summers / Cyclops"
+        },
+        {
+            "image": "halle-berry",
+            "name": "Halle Berry",
+            "role": "Ororo Munroe / Storm"
+        },
+        {
+            "image": "anna-paquin",
+            "name": "Anna Paquin",
+            "role": "Rogue"
+        },
+        {
+            "image": "tyler-mane",
+            "name": "Tyler Mane",
+            "role": "Sabretooth"
+        },
+        {
+            "image": "ray-park",
+            "name": "Ray Park",
+            "role": "Toad"
+        },
+        {
+            "image": "rebecca-romijn",
+            "name": "Rebecca Romijn",
+            "role": "Mystique Senator Kelly"
+        },
+        {
+            "image": "bruce-davison",
+            "name": "Bruce Davison",
+            "role": "Senator Kelly"
+        }
+    ],
+    "synopsis": "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "X-Men",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

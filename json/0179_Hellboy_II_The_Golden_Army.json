@@ -1,0 +1,85 @@
+{
+    "id": 174,
+    "title": "Hellboy II: The Golden Army",
+    "poster": "hellboy_2",
+    "trailer": "HMWQEi8vvto",
+    "genres": [
+        "Fantasy",
+        "Action"
+    ],
+    "production": [
+        "Universal-Pictures"
+    ],
+    "director": "Guillermo del Toro",
+    "producers": "Lawrence Gordon, Mike Richardson, Lloyd Levin",
+    "writtens": "Guillermo del Toro",
+    "music": "Danny Elfman",
+    "cinema": "Guillermo Navarro",
+    "year": 2008,
+    "time": 120,
+    "country": "USA",
+    "budget": "85 million",
+    "boxoffice": "160 million",
+    "actors": [
+        {
+            "image": "ron-perlman",
+            "name": "Ron Perlman",
+            "role": "Hellboy"
+        },
+        {
+            "image": "selma-blair",
+            "name": "Selma Blair",
+            "role": "Liz Sherman"
+        },
+        {
+            "image": "doug-jones",
+            "name": "Doug Jones",
+            "role": "Abe Sapien / Chamberlain / Angel of Death"
+        },
+        {
+            "image": "john-alexander",
+            "name": "John Alexander",
+            "role": "Johann Krauss / Bethmoora Goblin"
+        },
+        {
+            "image": "james-dodd",
+            "name": "James Dodd",
+            "role": "Johann Krauss"
+        },
+        {
+            "image": "seth-macfarlane",
+            "name": "Seth MacFarlane",
+            "role": "Johann (voice)"
+        },
+        {
+            "image": "luke-goss",
+            "name": "Luke Goss",
+            "role": "Prince Nuada"
+        },
+        {
+            "image": "anna-walton",
+            "name": "Anna Walton",
+            "role": "Princess Nuala"
+        },
+        {
+            "image": "jeffrey-tambor",
+            "name": "Jeffrey Tambor",
+            "role": "Tom Manning"
+        },
+        {
+            "image": "john-hurt",
+            "name": "John Hurt",
+            "role": "Professor Broom"
+        }
+    ],
+    "synopsis": "The mythical world starts a rebellion against humanity in order to rule the Earth, so Hellboy and his team must save the world from the rebellious creatures.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "del Toro's Hellboy",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

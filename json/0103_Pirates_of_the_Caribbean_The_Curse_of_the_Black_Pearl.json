@@ -1,0 +1,66 @@
+{
+    "id": 100,
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "poster": "pirates_1",
+    "trailer": "naQr0uTrH_s",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "Walt-Disney-Pictures",
+        "Jerry-Bruckheimer-Films"
+    ],
+    "director": "Gore Verbinski",
+    "producers": "Jerry Bruckheimer",
+    "writtens": "Ted Elliott, Terry Rossio",
+    "music": "Klaus Badelt",
+    "cinema": "Dariusz Wolski",
+    "year": 2003,
+    "time": 143,
+    "country": "USA",
+    "budget": "140 million",
+    "boxoffice": "654 million",
+    "actors": [
+        {
+            "image": "johnny-depp",
+            "name": "Johnny Depp",
+            "role": "Captain Jack Sparrow"
+        },
+        {
+            "image": "geoffrey-rush",
+            "name": "Geoffrey Rush",
+            "role": "Barbossa"
+        },
+        {
+            "image": "orlando-bloom",
+            "name": "Orlando Bloom",
+            "role": "Will Turner"
+        },
+        {
+            "image": "keira-knightley",
+            "name": "Keira Knightley",
+            "role": "Elizabeth Swann"
+        },
+        {
+            "image": "jack-davenport",
+            "name": "Jack Davenport",
+            "role": "Norrington"
+        },
+        {
+            "image": "jonathan-pryce",
+            "name": "Jonathan Pryce",
+            "role": "Governor Weatherby Swann"
+        }
+    ],
+    "synopsis": "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Pirates of the Caribbean",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

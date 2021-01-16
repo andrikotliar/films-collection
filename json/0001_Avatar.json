@@ -1,0 +1,103 @@
+{
+    "id": 1,
+    "title": "Avatar",
+    "poster": "avatar",
+    "trailer": "5PSNL1qE6VY",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "20th-Century-FOX"
+    ],
+    "director": "James Cameron",
+    "producers": "James Cameron, Jon Landau",
+    "writtens": "James Cameron",
+    "music": "James Horner",
+    "cinema": "Mauro Fiore",
+    "year": 2009,
+    "time": 162,
+    "country": "USA, UK",
+    "budget": "237 million",
+    "boxoffice": "2,8 billion",
+    "actors": [
+        {
+            "image": "sam-worthington",
+            "name": "Sam Worthington",
+            "role": "Jake Sully"
+        },
+        {
+            "image": "zoe-saldana",
+            "name": "Zoe Saldana",
+            "role": "Neytiri"
+        },
+        {
+            "image": "sigourney-weaver",
+            "name": "Sigourney Weaver",
+            "role": "Grace Augustine"
+        },
+        {
+            "image": "stephen-lang",
+            "name": "Stephen Lang",
+            "role": "Miles Quaritch"
+        },
+        {
+            "image": "michelle-rodriguez",
+            "name": "Michelle Rodriguez",
+            "role": "Trudy Chacon"
+        },
+        {
+            "image": "giovanni-ribisi",
+            "name": "Giovanni Ribisi",
+            "role": "Parker Selfridge"
+        },
+        {
+            "image": "joel-david-moore",
+            "name": "Joel David Moore",
+            "role": "Norm Spellman"
+        },
+        {
+            "image": "wes-studi",
+            "name": "Wes Studi",
+            "role": "Eytukan"
+        },
+        {
+            "image": "laz-alonso",
+            "name": "Laz Alonso",
+            "role": "Tsu'tey"
+        }
+    ],
+    "synopsis": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+    "categories": [
+        "special-favorite",
+        "most-watched"
+    ],
+    "awards": [
+        {
+            "title": "Oscar",
+            "nominations": [
+                "The Best Cinematography",
+                "The Best Decorations",
+                "The Best Visual Effects"
+            ]
+        },
+        {
+            "title": "The Gold Globe",
+            "nominations": [
+                "The Best Picture (Drama)",
+                "The Best Diretor"
+            ]
+        },
+        {
+            "title": "The British",
+            "nominations": [
+                "The Best Visual Effects"
+            ]
+        }
+    ],
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

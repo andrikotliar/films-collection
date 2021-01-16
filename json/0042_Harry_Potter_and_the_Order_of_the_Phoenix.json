@@ -1,0 +1,85 @@
+{
+    "id": 41,
+    "title": "Harry Potter and the Order of the Phoenix",
+    "poster": "harry_potter_5",
+    "trailer": "y6ZW7KXaXYk",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "David Yates",
+    "producers": "David Heyman, David Barron",
+    "writtens": "Michael Goldenberg",
+    "music": "Nicholas Hooper",
+    "cinema": "Slawomir Idziak",
+    "year": 2007,
+    "time": 138,
+    "country": "USA, UK",
+    "budget": "150 million",
+    "boxoffice": "940 million",
+    "actors": [
+        {
+            "image": "daniel-radcliffe",
+            "name": "Daniel Radcliffe",
+            "role": "Harry Potter"
+        },
+        {
+            "image": "rupert-grint",
+            "name": "Rupert Grint",
+            "role": "Ron Weasley"
+        },
+        {
+            "image": "emma-watson",
+            "name": "Emma Watson",
+            "role": "Hermione Granger"
+        },
+        {
+            "image": "gary-oldman",
+            "name": "Gary Oldman",
+            "role": "Sirius Black"
+        },
+        {
+            "image": "ralph-fiennes",
+            "name": "Ralph Fiennes",
+            "role": "Lord Voldemort"
+        },
+        {
+            "image": "imelda-staunton",
+            "name": "Imelda Staunton",
+            "role": "Dolores Umbridge"
+        },
+        {
+            "image": "richard-harris",
+            "name": "Richard Harris",
+            "role": "Albus Dumbledore"
+        },
+        {
+            "image": "robbie-coltrane",
+            "name": "Robbie Coltrane",
+            "role": "Rubeus Hagrid"
+        },
+        {
+            "image": "tom-felton",
+            "name": "Tom Felton",
+            "role": "Draco Malfoy"
+        },
+        {
+            "image": "alan-rickman",
+            "name": "Alan Rickman",
+            "role": "Severus Snape"
+        }
+    ],
+    "synopsis": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.",
+    "categories": [
+        "harry-potter"
+    ],
+    "awards": null,
+    "parts": "Harry Potter",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

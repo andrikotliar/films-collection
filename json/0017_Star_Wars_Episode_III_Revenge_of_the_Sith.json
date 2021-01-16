@@ -1,0 +1,71 @@
+{
+    "id": 17,
+    "title": "Star Wars Episode III: Revenge of the Sith",
+    "poster": "star_wars_3",
+    "trailer": "5UnjrG_N8hU",
+    "genres": [
+        "SpaceOpera",
+        "Adventure"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Lucasfilm"
+    ],
+    "director": "George Lucas",
+    "producers": "Rick McCallum",
+    "writtens": "George Lucas",
+    "music": "John Williams",
+    "cinema": "David Tattersall",
+    "year": 2005,
+    "time": 140,
+    "country": "USA",
+    "budget": "113 million",
+    "boxoffice": "849 million",
+    "actors": [
+        {
+            "image": "ewan-mcgregor",
+            "name": "Ewan McGregor",
+            "role": "Obi-Wan Kenobi"
+        },
+        {
+            "image": "natalie-portman",
+            "name": "Natalie Portman",
+            "role": "Padme"
+        },
+        {
+            "image": "hayden-christensen",
+            "name": "Hayden Christensen",
+            "role": "Anakin Skywalker"
+        },
+        {
+            "image": "samuel-l.-jackson",
+            "name": "Samuel L. Jackson",
+            "role": "Mace Windu"
+        },
+        {
+            "image": "frank-oz",
+            "name": "Frank Oz",
+            "role": "Yoda"
+        },
+        {
+            "image": "ian-mcdiarmid",
+            "name": "Ian McDiarmid",
+            "role": "Palpatine"
+        },
+        {
+            "image": "jimmy-smits",
+            "name": "Jimmy Smits",
+            "role": "Bail Organa"
+        }
+    ],
+    "synopsis": "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy.",
+    "categories": [
+        "star-wars"
+    ],
+    "awards": null,
+    "parts": "Star Wars",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

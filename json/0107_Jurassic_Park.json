@@ -1,0 +1,66 @@
+{
+    "id": 227,
+    "title": "Jurassic Park",
+    "poster": "jurassic_park_1",
+    "trailer": "QWBKEmWWL38",
+    "genres": [
+        "Sci-Fi",
+        "Adventure"
+    ],
+    "production": [
+        "Universal-Pictures",
+        "Amblin-Entertainment"
+    ],
+    "director": "Steven Spielberg",
+    "producers": "Kathleen Kennedy, Gerald R. Molen",
+    "writtens": "Michael Crichton, David Koepp",
+    "music": "John Williams",
+    "cinema": "Dean Cundey",
+    "year": 1993,
+    "time": 127,
+    "country": "USA",
+    "budget": "63 million",
+    "boxoffice": "1,03 billion",
+    "actors": [
+        {
+            "image": "sam-neill",
+            "name": "Sam Neill",
+            "role": "Grant"
+        },
+        {
+            "image": "laura-dern",
+            "name": "Laura Dern",
+            "role": "Ellie"
+        },
+        {
+            "image": "jeff-goldblum",
+            "name": "Jeff Goldblum",
+            "role": "Malcolm"
+        },
+        {
+            "image": "richard-attenborough",
+            "name": "Richard Attenborough",
+            "role": "Hammond"
+        },
+        {
+            "image": "joseph-mazzello",
+            "name": "Joseph Mazzello",
+            "role": "Tim"
+        },
+        {
+            "image": "ariana-richards",
+            "name": "Ariana Richards",
+            "role": "Lex"
+        }
+    ],
+    "synopsis": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": "Jurassic Park",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

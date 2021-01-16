@@ -1,0 +1,49 @@
+{
+    "id": 132,
+    "title": "The Journey to the Center of the Earth",
+    "poster": "journey_1",
+    "trailer": "iJkspWwwZLM",
+    "genres": [
+        "Adventure"
+    ],
+    "production": [
+        "New-Line-Cinema"
+    ],
+    "director": "Eric Brevig",
+    "producers": "Beau Flynn, Charlotte Huggins",
+    "writtens": "Michael D. Weiss, Mark Levin, Jennifer Flackett",
+    "music": "Andrew Lockington",
+    "cinema": "Chuck Shuman",
+    "year": 2008,
+    "time": 93,
+    "country": "USA",
+    "budget": "60 million",
+    "boxoffice": "242 million",
+    "actors": [
+        {
+            "image": "brendan-fraser",
+            "name": "Brendan Fraser",
+            "role": "Trevor Anderson"
+        },
+        {
+            "image": "josh-hutcherson",
+            "name": "Josh Hutcherson",
+            "role": "Sean Anderson"
+        },
+        {
+            "image": "anita-briem",
+            "name": "Anita Briem",
+            "role": "Hannah 'sgeirsson"
+        }
+    ],
+    "synopsis": "On a quest to find out what happened to his missing brother, a scientist, his nephew and their mountain guide discover a fantastic and dangerous lost world in the center of the earth.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "The Journey",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

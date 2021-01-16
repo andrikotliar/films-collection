@@ -1,0 +1,56 @@
+{
+    "id": 167,
+    "title": "Hugo",
+    "poster": "hugo",
+    "trailer": "Hv3obL9HqyY",
+    "genres": [
+        "Drama",
+        "Adventure"
+    ],
+    "production": [
+        "Metropolitan-Filmexport",
+        "Paramount-Pictures"
+    ],
+    "director": "Martin Scorsese",
+    "producers": "Graham King, Timothy Headington",
+    "writtens": "John Logan",
+    "music": "Howard Shore",
+    "cinema": "Robert Richardson",
+    "year": 2011,
+    "time": 126,
+    "country": "France, UK, USA",
+    "budget": "150 million",
+    "boxoffice": "186 million",
+    "actors": [
+        {
+            "image": "ben-kingsley",
+            "name": "Ben Kingsley",
+            "role": "Georges M'li's"
+        },
+        {
+            "image": "sacha-baron-cohen",
+            "name": "Sacha Baron Cohen",
+            "role": "Station Inspector"
+        },
+        {
+            "image": "asa-butterfield",
+            "name": "Asa Butterfield",
+            "role": "Hugo Cabret"
+        },
+        {
+            "image": "chlo'-grace-moretz",
+            "name": "Chlo' Grace Moretz",
+            "role": "Isabelle"
+        }
+    ],
+    "synopsis": "In Paris in 1931, an orphan named Hugo Cabret, who lives in the walls of a train station, is wrapped up in a mystery involving his late father and an automaton",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "id": 26,
+    "title": "The Hobbit: The Desolation of Smaug",
+    "poster": "middle_earth_2",
+    "trailer": "fnaojlfdUbs",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "New-Line-Cinema"
+    ],
+    "director": "Peter Jackson",
+    "producers": "Carolynne Cunningham, Zane Weiner, Fran Walsh, Peter Jackson",
+    "writtens": "Fran Walsh, Philippa Boyens, Peter Jackson, Guillermo del Toro",
+    "music": "Howard Shore",
+    "cinema": "Andrew Lesnie",
+    "year": 2013,
+    "time": 161,
+    "country": "USA, New Zealand",
+    "budget": "225 million",
+    "boxoffice": "960 million",
+    "actors": [
+        {
+            "image": "ian-mckellen",
+            "name": "Ian McKellen",
+            "role": "Gendalf"
+        },
+        {
+            "image": "martin-freeman",
+            "name": "Martin Freeman",
+            "role": "Bilbo"
+        },
+        {
+            "image": "richard-armitage",
+            "name": "Richard Armitage",
+            "role": "Thorin"
+        },
+        {
+            "image": "ken-stott",
+            "name": "Ken Stott",
+            "role": "Balin"
+        },
+        {
+            "image": "graham-mctavish",
+            "name": "Graham McTavish",
+            "role": "Dwalin"
+        },
+        {
+            "image": "william-kircher",
+            "name": "William Kircher",
+            "role": "Bifur"
+        },
+        {
+            "image": "james-nesbitt",
+            "name": "James Nesbitt",
+            "role": "Bofur"
+        },
+        {
+            "image": "stephen-gunter",
+            "name": "Stephen Gunter",
+            "role": "Bombur"
+        },
+        {
+            "image": "dean-o'gorman",
+            "name": "Dean O'Gorman",
+            "role": "Fili"
+        },
+        {
+            "image": "aidan-turner",
+            "name": "Aidan Turner",
+            "role": "Kili"
+        },
+        {
+            "image": "john-callen",
+            "name": "John Callen",
+            "role": "Oin"
+        },
+        {
+            "image": "peter-hambleton",
+            "name": "Peter Hambleton",
+            "role": "Gloin"
+        },
+        {
+            "image": "jed-brophy",
+            "name": "Jed Brophy",
+            "role": "Nori"
+        },
+        {
+            "image": "mark-hadlow",
+            "name": "Mark Hadlow",
+            "role": "Dori"
+        },
+        {
+            "image": "adam-brown",
+            "name": "Adam Brown",
+            "role": "Ori"
+        },
+        {
+            "image": "ian-holm",
+            "name": "Ian Holm",
+            "role": "Old Bilbo"
+        },
+        {
+            "image": "hugo-weaving",
+            "name": "Hugo Weaving",
+            "role": "Elrond"
+        },
+        {
+            "image": "cate-blanchett",
+            "name": "Cate Blanchett",
+            "role": "Galadriel"
+        }
+    ],
+    "synopsis": "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Middle-earth",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "id": 35,
+    "title": "The Matrix Reloaded",
+    "poster": "matrix_2",
+    "trailer": "kYzz0FSgpSU",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "The Wachowski Brothers",
+    "producers": "Joel Silver",
+    "writtens": "The Wachowski Brothers",
+    "music": "Don Davis",
+    "cinema": "Bill Pope",
+    "year": 2003,
+    "time": 138,
+    "country": "USA, Australia",
+    "budget": "127 million",
+    "boxoffice": "742 million",
+    "actors": [
+        {
+            "image": "keanu-reeves",
+            "name": "Keanu Reeves",
+            "role": "Neo"
+        },
+        {
+            "image": "laurance-fishburne",
+            "name": "Laurance Fishburne",
+            "role": "Morpheus"
+        },
+        {
+            "image": "carrie-anne-moss",
+            "name": "Carrie-Anne Moss",
+            "role": "Trinity"
+        },
+        {
+            "image": "hugo-weaving",
+            "name": "Hugo Weaving",
+            "role": "Agent Smith"
+        },
+        {
+            "image": "gloria-foster",
+            "name": "Gloria Foster",
+            "role": "Oracle"
+        },
+        {
+            "image": "jada-pinkett-smith",
+            "name": "Jada Pinkett Smith",
+            "role": "Niobe"
+        },
+        {
+            "image": "monica-bellucci",
+            "name": "Monica Bellucci",
+            "role": "Persephone"
+        },
+        {
+            "image": "lambert-willson",
+            "name": "Lambert Willson",
+            "role": "The Merovaiingian"
+        },
+        {
+            "image": "randall-duk-kim",
+            "name": "Randall Duk Kim",
+            "role": "The Keymaker"
+        },
+        {
+            "image": "helmut-bakaitis",
+            "name": "Helmut Bakaitis",
+            "role": "The Architect"
+        }
+    ],
+    "synopsis": "Neo and the rebel leaders estimate that they have 72 hours until 250,000 probes discover Zion and destroy it and its inhabitants. During this, Neo must decide how he can save Trinity from a dark fate in his dreams.",
+    "categories": [
+        "most-watched"
+    ],
+    "awards": null,
+    "parts": "The Matrix",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

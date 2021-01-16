@@ -1,0 +1,96 @@
+{
+    "id": 81,
+    "title": "X2",
+    "poster": "x_men_2",
+    "trailer": "xF9FW5_yDxs",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Marvel-Entertainment"
+    ],
+    "director": "Bryan Singer",
+    "producers": "Lauren Shuler Donner, Ralph Winter",
+    "writtens": "David Hayter, Michael Dougherty, Dan Harris",
+    "music": "John Ottman",
+    "cinema": "Newton Thomas Sigel",
+    "year": 2003,
+    "time": 133,
+    "country": "USA",
+    "budget": "110 million",
+    "boxoffice": "408 million",
+    "actors": [
+        {
+            "image": "patrick-stewart",
+            "name": "Patrick Stewart",
+            "role": "Professor Charles Xavier"
+        },
+        {
+            "image": "hugh-jackman",
+            "name": "Hugh Jackman",
+            "role": "Logan / Wolverine"
+        },
+        {
+            "image": "ian-mckellen",
+            "name": "Ian McKellen",
+            "role": "Eric Lehnsherr / Magneto"
+        },
+        {
+            "image": "halle-berry",
+            "name": "Halle Berry",
+            "role": "Ororo Munroe / Storm"
+        },
+        {
+            "image": "famke-janssen",
+            "name": "Famke Janssen",
+            "role": "Jean Grey"
+        },
+        {
+            "image": "james-marsden",
+            "name": "James Marsden",
+            "role": "Scott Summers / Cyclops"
+        },
+        {
+            "image": "anna-paquin",
+            "name": "Anna Paquin",
+            "role": "Rogue"
+        },
+        {
+            "image": "rebecca-romijn",
+            "name": "Rebecca Romijn",
+            "role": "Raven Darkholme / Mystique"
+        },
+        {
+            "image": "brian-cox",
+            "name": "Brian Cox",
+            "role": "William Stryker"
+        },
+        {
+            "image": "alan-cumming",
+            "name": "Alan Cumming",
+            "role": "Kurt Wagner / Nightcrawler"
+        },
+        {
+            "image": "aaron-stanford",
+            "name": "Aaron Stanford",
+            "role": "John Allerdyce / Pyro"
+        },
+        {
+            "image": "shawn-ashmore",
+            "name": "Shawn Ashmore",
+            "role": "Bobby Drake / Ice Man"
+        }
+    ],
+    "synopsis": "When anti-mutant colonel William Stryker kidnaps Professor X and attacks his school, the X-Men must ally with their archenemy Magneto to stop him.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "X-Men",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

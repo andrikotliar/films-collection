@@ -1,0 +1,75 @@
+{
+    "id": 198,
+    "title": "Jumanji",
+    "poster": "jumanji_1",
+    "trailer": "5p18zqZmeiI",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "TriStar"
+    ],
+    "director": "Joe Johnston",
+    "producers": "Scott Kroopf, William Teitler",
+    "writtens": "Greg Taylor, Jonathan Hensleigh, Jim Strain",
+    "music": "James Horner",
+    "cinema": "Thomas E. Ackerman",
+    "year": 1995,
+    "time": 104,
+    "country": "USA",
+    "budget": "65 million",
+    "boxoffice": "263 million",
+    "actors": [
+        {
+            "image": "robin-williams",
+            "name": "Robin Williams",
+            "role": "Alan Parrish"
+        },
+        {
+            "image": "jonathan-hyde",
+            "name": "Jonathan Hyde",
+            "role": "Van Pelt / Sam Parrish"
+        },
+        {
+            "image": "kirsten-dunst",
+            "name": "Kirsten Dunst",
+            "role": "Judy Shepherd"
+        },
+        {
+            "image": "bradley-pierce",
+            "name": "Bradley Pierce",
+            "role": "Peter Shepherd"
+        },
+        {
+            "image": "bonnie-hunt",
+            "name": "Bonnie Hunt",
+            "role": "Sarah Whittle"
+        },
+        {
+            "image": "bebe-neuwirth",
+            "name": "Bebe Neuwirth",
+            "role": "Nora Shepherd"
+        },
+        {
+            "image": "david-alan-grier",
+            "name": "David Alan Grier",
+            "role": "Bentley"
+        },
+        {
+            "image": "patricia-clarkson",
+            "name": "Patricia Clarkson",
+            "role": "Carol Parrish"
+        }
+    ],
+    "synopsis": "When two kids find and play a magical board game, they release a man trapped for decades in it and a host of dangers that can only be stopped by finishing the game.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Jumanji",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

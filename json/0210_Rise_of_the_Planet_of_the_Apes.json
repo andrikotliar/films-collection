@@ -1,0 +1,76 @@
+{
+    "id": 217,
+    "title": "Rise of the Planet of the Apes",
+    "poster": "planet_of_the_apes",
+    "trailer": "T3tidwW1gGM",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Dune-Entertainment"
+    ],
+    "director": "Rupert Wyatt",
+    "producers": "Peter Chernin, Dylan Clark, Rick Jaffa, Amanda Silver",
+    "writtens": "Rick Jaffa, Amanda Silver",
+    "music": "Patrick Doyle",
+    "cinema": "Andrew Lesnie",
+    "year": 2011,
+    "time": 105,
+    "country": "USA",
+    "budget": "93 million",
+    "boxoffice": "482 million",
+    "actors": [
+        {
+            "image": "james-franco",
+            "name": "James Franco",
+            "role": "Will Rodman"
+        },
+        {
+            "image": "andy-serkis",
+            "name": "Andy Serkis",
+            "role": "Caesar"
+        },
+        {
+            "image": "karin-konoval",
+            "name": "Karin Konoval",
+            "role": "Maurice / Court Clerk"
+        },
+        {
+            "image": "terry-notary",
+            "name": "Terry Notary",
+            "role": "Rocket / Bright Eyes"
+        },
+        {
+            "image": "richard-ridings",
+            "name": "Richard Ridings",
+            "role": "Buck - Ape"
+        },
+        {
+            "image": "christopher-gordon",
+            "name": "Christopher Gordon",
+            "role": "Koba - Ape (as Chris Gordon)"
+        },
+        {
+            "image": "devyn-dalton",
+            "name": "Devyn Dalton",
+            "role": "Cornelia - Ape"
+        },
+        {
+            "image": "jay-caputo",
+            "name": "Jay Caputo",
+            "role": "Alpha"
+        }
+    ],
+    "synopsis": "A substance designed to help the brain repair itself gives advanced intelligence to a chimpanzee who leads an ape uprising",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Planet of the Apes Reboot",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

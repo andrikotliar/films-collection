@@ -1,0 +1,76 @@
+{
+    "id": 127,
+    "title": "Need for Speed",
+    "poster": "need_for_speed",
+    "trailer": "u3wtVI-aJuw",
+    "genres": [
+        "Action",
+        "Crime"
+    ],
+    "production": [
+        "DreamWorks-Pictures",
+        "Reliance-Entertainment"
+    ],
+    "director": "Scott Waugh",
+    "producers": "John Gatins, Patrick O’Brien, Mark Sourian",
+    "writtens": "George Gatins",
+    "music": "Nathan Furst",
+    "cinema": "Shane Hurbut",
+    "year": 2014,
+    "time": 130,
+    "country": "USA",
+    "budget": "66 million",
+    "boxoffice": "203 million",
+    "actors": [
+        {
+            "image": "aaron-paul",
+            "name": "Aaron Paul",
+            "role": "Tobey Marshall"
+        },
+        {
+            "image": "dominic-cooper",
+            "name": "Dominic Cooper",
+            "role": "Dino Brewster"
+        },
+        {
+            "image": "imogen-poots",
+            "name": "Imogen Poots",
+            "role": "Julia Maddon"
+        },
+        {
+            "image": "kid-cudi",
+            "name": "Kid Cudi",
+            "role": "Benny"
+        },
+        {
+            "image": "rami-malek",
+            "name": "Rami Malek",
+            "role": "Finn"
+        },
+        {
+            "image": "ramon-rodriguez",
+            "name": "Ramon Rodriguez",
+            "role": "Joe Peck"
+        },
+        {
+            "image": "harrison-gilbertson",
+            "name": "Harrison Gilbertson",
+            "role": "Little Pete"
+        },
+        {
+            "image": "dakota-johnson",
+            "name": "Dakota Johnson",
+            "role": "Anita"
+        }
+    ],
+    "synopsis": "Fresh from prison, a street racer who was framed by a wealthy business associate joins a cross country race with revenge in mind. His ex-partner, learning of the plan, places a massive bounty on his head as the race begins.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

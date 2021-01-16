@@ -1,0 +1,66 @@
+{
+    "id": 215,
+    "title": "Sapphire Blue",
+    "poster": "taimless_2",
+    "trailer": "nUFNJnNIIjs",
+    "genres": [
+        "Drama",
+        "Fantasy",
+        "Mystery"
+    ],
+    "production": [
+        "TMG"
+    ],
+    "director": "Felix Fuchssteiner, Katharina Sch'de",
+    "producers": "Philipp Budweg, Tom Blieninger, Hans W. Gei'end'rfer,  Markus Zimmer",
+    "writtens": "Katharina Sch'de",
+    "music": "Philipp Fabian K'lmel",
+    "cinema": "Sonja Rom",
+    "year": 2014,
+    "time": 116,
+    "country": "Germany",
+    "budget": null,
+    "boxoffice": null,
+    "actors": [
+        {
+            "image": "josefine-preu'",
+            "name": "Josefine Preu'",
+            "role": "Lucy Montrose"
+        },
+        {
+            "image": "florian-bartholom'i",
+            "name": "Florian Bartholom'i",
+            "role": "Paul de Villiers"
+        },
+        {
+            "image": "karl-walter-sprungala",
+            "name": "Karl Walter Sprungala",
+            "role": "Shakespeare"
+        },
+        {
+            "image": "peter-simonischek",
+            "name": "Peter Simonischek",
+            "role": "Graf von St. Germain"
+        },
+        {
+            "image": "pierre-kiwitt",
+            "name": "Pierre Kiwitt",
+            "role": "Lancelot de Villiers"
+        },
+        {
+            "image": "maria-ehrich",
+            "name": "Maria Ehrich",
+            "role": "Gwendolyn Shepherd"
+        }
+    ],
+    "synopsis": "Gwen has just discovered, that she's the final member of the secret time-traveling Circle of Twelve. Now she has to juggle with constant trips to the past, her relationships with Gideon and figuring out dark secrets surrounding the Circle.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Edelstein Trilogie",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

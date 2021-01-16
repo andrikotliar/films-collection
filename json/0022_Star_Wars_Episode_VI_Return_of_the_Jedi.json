@@ -1,0 +1,81 @@
+{
+    "id": 22,
+    "title": "Star Wars Episode VI: Return of the Jedi",
+    "poster": "star_wars_8",
+    "trailer": "5UfA_aKBGMc",
+    "genres": [
+        "SpaceOpera",
+        "Adventure"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Lucasfilm"
+    ],
+    "director": "Richard Marquand",
+    "producers": "Howard Kazanjian",
+    "writtens": "George Lucas, Lawrence Kasdan",
+    "music": "John Williams",
+    "cinema": "Alan Hume",
+    "year": 1983,
+    "time": 131,
+    "country": "USA",
+    "budget": "32 million",
+    "boxoffice": "573 million",
+    "actors": [
+        {
+            "image": "mark-hamill",
+            "name": "Mark Hamill",
+            "role": "Luke Skywalker"
+        },
+        {
+            "image": "harrison-ford",
+            "name": "Harrison Ford",
+            "role": "Han Solo"
+        },
+        {
+            "image": "carrie-fisher",
+            "name": "Carrie Fisher",
+            "role": "Leia"
+        },
+        {
+            "image": "billy-dee-williams",
+            "name": "Billy Dee Williams",
+            "role": "Lando Calrissian"
+        },
+        {
+            "image": "anthony-daniels",
+            "name": "Anthony Daniels",
+            "role": "C-3PO"
+        },
+        {
+            "image": "david-prowse",
+            "name": "David Prowse",
+            "role": "Darth Vader"
+        },
+        {
+            "image": "peter-mayhew",
+            "name": "Peter Mayhew",
+            "role": "Chewbacca"
+        },
+        {
+            "image": "kenny-baker",
+            "name": "Kenny Baker",
+            "role": "R2-D2"
+        },
+        {
+            "image": "frank-oz",
+            "name": "Frank Oz",
+            "role": "Yoda"
+        }
+    ],
+    "synopsis": "After a daring mission to rescue Han Solo from Jabba the Hutt, the rebels dispatch to Endor to destroy a more powerful Death Star. Meanwhile, Luke struggles to help Vader back from the dark side without falling into the Emperor's trap.",
+    "categories": [
+        "star-wars"
+    ],
+    "awards": null,
+    "parts": "Star Wars",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

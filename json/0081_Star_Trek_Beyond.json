@@ -1,0 +1,101 @@
+{
+    "id": 79,
+    "title": "Star Trek: Beyond",
+    "poster": "star_trek_3",
+    "trailer": "XRVD32rnzOw",
+    "genres": [
+        "Sci-Fi",
+        "SpaceOpera"
+    ],
+    "production": [
+        "Paramount-Pictures",
+        "Bad-Robot-Productions"
+    ],
+    "director": "Justin Lin",
+    "producers": "J.J. Abrams, Roberto Orci, Lindsey Weber, Justin Lin",
+    "writtens": "Simon Pegg, Doug Jung",
+    "music": "Michael Giacchino",
+    "cinema": "Stephen F. Windon",
+    "year": 2016,
+    "time": 122,
+    "country": "USA",
+    "budget": "185 million",
+    "boxoffice": "343 million",
+    "actors": [
+        {
+            "image": "chris-pine",
+            "name": "Chris Pine",
+            "role": "Captain James T. Kirk"
+        },
+        {
+            "image": "zachary-quinto",
+            "name": "Zachary Quinto",
+            "role": "Commander Spock"
+        },
+        {
+            "image": "karl-urban",
+            "name": "Karl Urban",
+            "role": "Doctor 'Bones' McCoy"
+        },
+        {
+            "image": "zoe-saldana",
+            "name": "Zoe Saldana",
+            "role": "Uhura"
+        },
+        {
+            "image": "simon-pegg",
+            "name": "Simon Pegg",
+            "role": "Montgomery 'Scotty' Scott"
+        },
+        {
+            "image": "john-cho",
+            "name": "John Cho",
+            "role": "Sulu"
+        },
+        {
+            "image": "anton-yelchin",
+            "name": "Anton Yelchin",
+            "role": "Chekov"
+        },
+        {
+            "image": "idris-elba",
+            "name": "Idris Elba",
+            "role": "Krall"
+        },
+        {
+            "image": "sofia-boutella",
+            "name": "Sofia Boutella",
+            "role": "Jaylah"
+        },
+        {
+            "image": "joe-taslim",
+            "name": "Joe Taslim",
+            "role": "Manas"
+        },
+        {
+            "image": "lydia-wilson",
+            "name": "Lydia Wilson",
+            "role": "Kalara"
+        },
+        {
+            "image": "deep-roy",
+            "name": "Deep Roy",
+            "role": "Keenser"
+        },
+        {
+            "image": "melissa-roxburgh",
+            "name": "Melissa Roxburgh",
+            "role": "Ensign Syl"
+        }
+    ],
+    "synopsis": "The crew of the USS Enterprise explores the furthest reaches of uncharted space, where they encounter a new ruthless enemy, who puts them, and everything the Federation stands for, to the test.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Star Trek",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

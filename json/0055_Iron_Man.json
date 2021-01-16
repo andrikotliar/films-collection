@@ -1,0 +1,77 @@
+{
+    "id": 53,
+    "title": "Iron Man",
+    "poster": "mcu_1",
+    "trailer": "8hYlB38asDY",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Marvel-Studios",
+        "Paramount-Pictures"
+    ],
+    "director": "Jon Favreau",
+    "producers": "Avi Arad, Kevin Feige",
+    "writtens": "Mark Fergus, Hawk Ostby, Art Marcum, Matt Holloway",
+    "music": "Ramin Djawadi",
+    "cinema": "Matthew Libatique",
+    "year": 2008,
+    "time": 126,
+    "country": "USA",
+    "budget": "140 million",
+    "boxoffice": "585 million",
+    "actors": [
+        {
+            "image": "robert-downey-jr.",
+            "name": "Robert Downey Jr.",
+            "role": "Tony Stark / Iron Man"
+        },
+        {
+            "image": "terrence-howard",
+            "name": "Terrence Howard",
+            "role": "Rhodey"
+        },
+        {
+            "image": "jeff-bridges",
+            "name": "Jeff Bridges",
+            "role": "Obadiah Stane"
+        },
+        {
+            "image": "gwyneth-paltrow",
+            "name": "Gwyneth Paltrow",
+            "role": "Pepper Potts"
+        },
+        {
+            "image": "leslie-bibb",
+            "name": "Leslie Bibb",
+            "role": "Christine Everhart"
+        },
+        {
+            "image": "shaun-toub",
+            "name": "Shaun Toub",
+            "role": "Yinsen"
+        },
+        {
+            "image": "faran-tahir",
+            "name": "Faran Tahir",
+            "role": "Raza"
+        },
+        {
+            "image": "clark-gregg",
+            "name": "Clark Gregg",
+            "role": "Agent Coulson"
+        }
+    ],
+    "synopsis": "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+    "categories": [
+        "special-favorite",
+        "marvel"
+    ],
+    "awards": null,
+    "parts": "Marvel Cinematic Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "id": 52,
+    "title": "The Fate of the Furious",
+    "poster": "fast_and_furious_8",
+    "trailer": "9GvX2uexGkA",
+    "genres": [
+        "Action",
+        "Crime"
+    ],
+    "production": [
+        "Universal-Pictures"
+    ],
+    "director": "F. Gary Gray",
+    "producers": "Neal H. Moritz, Vin Diesel",
+    "writtens": "Chris Morgan",
+    "music": "Brian Tyler",
+    "cinema": "Stephen F. Windon",
+    "year": 2017,
+    "time": 136,
+    "country": "USA",
+    "budget": "250 million",
+    "boxoffice": "1,24 billion",
+    "actors": [
+        {
+            "image": "vin-diesel",
+            "name": "Vin Diesel",
+            "role": "Dom"
+        },
+        {
+            "image": "jason-statham",
+            "name": "Jason Statham",
+            "role": "Deckard"
+        },
+        {
+            "image": "dwayne-johnson",
+            "name": "Dwayne Johnson",
+            "role": "Hobbs"
+        },
+        {
+            "image": "michelle-rodriguez",
+            "name": "Michelle Rodriguez",
+            "role": "Letty"
+        },
+        {
+            "image": "tyrese-gibson",
+            "name": "Tyrese Gibson",
+            "role": "Roman"
+        },
+        {
+            "image": "ludacris",
+            "name": "Ludacris",
+            "role": "Tej Parker"
+        },
+        {
+            "image": "charlize-theron",
+            "name": "Charlize Theron",
+            "role": "Cipher"
+        },
+        {
+            "image": "kurt-russell",
+            "name": "Kurt Russell",
+            "role": "Mr. Nobody"
+        },
+        {
+            "image": "nathalie-emmanuel",
+            "name": "Nathalie Emmanuel",
+            "role": "Ramsey"
+        },
+        {
+            "image": "luke-evans",
+            "name": "Luke Evans",
+            "role": "Owen"
+        },
+        {
+            "image": "elsa-pataky",
+            "name": "Elsa Pataky",
+            "role": "Elena"
+        }
+    ],
+    "synopsis": "When a mysterious woman seduces Dom into the world of terrorism and a betrayal of those closest to him, the crew face trials that will test them as never before.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Fast and Furious",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "id": 86,
+    "title": "X-Men: Apocalypse",
+    "poster": "x_men_7",
+    "trailer": "Jer8XjMrUB4",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Marvel-Entertainment"
+    ],
+    "director": "Bryan Singer",
+    "producers": "Lauren Shuler Donner, Bryan Singer",
+    "writtens": "Simon Kinberg",
+    "music": "John Ottman",
+    "cinema": "Newton Thomas Sigel",
+    "year": 2016,
+    "time": 144,
+    "country": "USA",
+    "budget": "178 million",
+    "boxoffice": "544 million",
+    "actors": [
+        {
+            "image": "james-mcavoy",
+            "name": "James McAvoy",
+            "role": "Professor Charles Xavier"
+        },
+        {
+            "image": "michael-fassbender",
+            "name": "Michael Fassbender",
+            "role": "Erik Lehnsherr / Magneto"
+        },
+        {
+            "image": "jennifer-lawrence",
+            "name": "Jennifer Lawrence",
+            "role": "Raven / Mystique"
+        },
+        {
+            "image": "nicholas-hoult",
+            "name": "Nicholas Hoult",
+            "role": "Hank McCoy / Beast"
+        },
+        {
+            "image": "oscar-isaac",
+            "name": "Oscar Isaac",
+            "role": "En Sabah Nur / Apocalypse"
+        },
+        {
+            "image": "rose-byrne",
+            "name": "Rose Byrne",
+            "role": "Moira Mactaggert"
+        },
+        {
+            "image": "evan-peters",
+            "name": "Evan Peters",
+            "role": "Peter Maximoff / Quicksilver"
+        },
+        {
+            "image": "josh-helman",
+            "name": "Josh Helman",
+            "role": "Col. William Stryker"
+        },
+        {
+            "image": "sophie-turner",
+            "name": "Sophie Turner",
+            "role": "Jean Grey"
+        },
+        {
+            "image": "tye-sheridan",
+            "name": "Tye Sheridan",
+            "role": "Scott Summers / Cyclops"
+        },
+        {
+            "image": "lucas-till",
+            "name": "Lucas Till",
+            "role": "Alex Summers / Havok"
+        },
+        {
+            "image": "kodi-smit-mcphee",
+            "name": "Kodi Smit-McPhee",
+            "role": "Kurt Wagner / Nightcrawler"
+        }
+    ],
+    "synopsis": "In the 1980s the X-Men must defeat an ancient all-powerful mutant, En Sabah Nur, who intends to thrive through bringing destruction to the world.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "X-Men",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

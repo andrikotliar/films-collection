@@ -1,0 +1,81 @@
+{
+    "id": 192,
+    "title": "Ghost Rider",
+    "poster": "ghost_rider",
+    "trailer": "8M0lLJfNPds",
+    "genres": [
+        "Supernatural",
+        "Action"
+    ],
+    "production": [
+        "Sony-Pictures",
+        "Columbia-Pictures"
+    ],
+    "director": "Mark Steven Johnson",
+    "producers": "Avi Arad, Steven Paul, Michael De Luca",
+    "writtens": "Mark Steven Johnson",
+    "music": "Christopher Young",
+    "cinema": "Russell Boyd",
+    "year": 2007,
+    "time": 110,
+    "country": "USA",
+    "budget": "110 million",
+    "boxoffice": "228 million",
+    "actors": [
+        {
+            "image": "nicolas-cage",
+            "name": "Nicolas Cage",
+            "role": "Johnny Blaze / Ghost Rider"
+        },
+        {
+            "image": "eva-mendes",
+            "name": "Eva Mendes",
+            "role": "Roxanne Simpson"
+        },
+        {
+            "image": "peter-fonda",
+            "name": "Peter Fonda",
+            "role": "Mephistopheles"
+        },
+        {
+            "image": "wes-bentley",
+            "name": "Wes Bentley",
+            "role": "Blackheart"
+        },
+        {
+            "image": "laurence-breuls",
+            "name": "Laurence Breuls",
+            "role": "Gressil"
+        },
+        {
+            "image": "daniel-frederiksen",
+            "name": "Daniel Frederiksen",
+            "role": "Wallow"
+        },
+        {
+            "image": "mathew-wilkinson",
+            "name": "Mathew Wilkinson",
+            "role": "Abigor"
+        },
+        {
+            "image": "donal-logue",
+            "name": "Donal Logue",
+            "role": "Mack"
+        },
+        {
+            "image": "brett-cullen",
+            "name": "Brett Cullen",
+            "role": "Barton Blaze"
+        }
+    ],
+    "synopsis": "When motorcycle rider Johnny Blaze sells his soul to the Devil to save his father's life, he is transformed into the Ghost Rider, the Devil's own bounty hunter, and is sent to hunt down sinners.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

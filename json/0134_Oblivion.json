@@ -1,0 +1,70 @@
+{
+    "id": 128,
+    "title": "Oblivion",
+    "poster": "oblivion",
+    "trailer": "XmIIgE7eSak",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Universal-Pictures"
+    ],
+    "director": "Joseph Kosinski",
+    "producers": "Peter Chernin, Dylan Clark, Duncan Henderson",
+    "writtens": "Karl Gajdusek, Michael deBruyn",
+    "music": "M83, Joseph Trapanese",
+    "cinema": "Claudio Miranda",
+    "year": 2013,
+    "time": 124,
+    "country": "USA",
+    "budget": "160 million",
+    "boxoffice": "286 million",
+    "actors": [
+        {
+            "image": "tom-cruise",
+            "name": "Tom Cruise",
+            "role": "Jack"
+        },
+        {
+            "image": "morgan-freeman",
+            "name": "Morgan Freeman",
+            "role": "Beech"
+        },
+        {
+            "image": "olga-kurylenko",
+            "name": "Olga Kurylenko",
+            "role": "Julia"
+        },
+        {
+            "image": "andrea-riseborough",
+            "name": "Andrea Riseborough",
+            "role": "Victoria"
+        },
+        {
+            "image": "nikolaj-coster-waldau",
+            "name": "Nikolaj Coster-Waldau",
+            "role": "Sykes"
+        },
+        {
+            "image": "melissa-leo",
+            "name": "Melissa Leo",
+            "role": "Sally"
+        },
+        {
+            "image": "zoe-bell",
+            "name": "Zoe Bell",
+            "role": "Kara"
+        }
+    ],
+    "synopsis": "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

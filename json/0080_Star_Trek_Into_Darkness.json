@@ -1,0 +1,96 @@
+{
+    "id": 78,
+    "title": "Star Trek: Into Darkness",
+    "poster": "star_trek_2",
+    "trailer": "jJMYAJ3_0uw",
+    "genres": [
+        "Sci-Fi",
+        "SpaceOpera"
+    ],
+    "production": [
+        "Paramount-Pictures",
+        "Bad-Robot-Productions"
+    ],
+    "director": "J.J. Abrams",
+    "producers": "J.J. Abrams, Deamon Lindelof",
+    "writtens": "Roberto Orci, Alex Kurtzman",
+    "music": "Michael Giacchino",
+    "cinema": "Dan Mindel",
+    "year": 2013,
+    "time": 133,
+    "country": "USA",
+    "budget": "185 million",
+    "boxoffice": "467 million",
+    "actors": [
+        {
+            "image": "chris-pine",
+            "name": "Chris Pine",
+            "role": "Kirk"
+        },
+        {
+            "image": "zachary-quinto",
+            "name": "Zachary Quinto",
+            "role": "Spock"
+        },
+        {
+            "image": "zoe-saldana",
+            "name": "Zoe Saldana",
+            "role": "Uhura"
+        },
+        {
+            "image": "karl-urban",
+            "name": "Karl Urban",
+            "role": "Bones"
+        },
+        {
+            "image": "simon-pegg",
+            "name": "Simon Pegg",
+            "role": "Scotty"
+        },
+        {
+            "image": "john-cho",
+            "name": "John Cho",
+            "role": "Sulu"
+        },
+        {
+            "image": "benedict-cumberbatch",
+            "name": "Benedict Cumberbatch",
+            "role": "Khan"
+        },
+        {
+            "image": "anton-yelchin",
+            "name": "Anton Yelchin",
+            "role": "Chekov"
+        },
+        {
+            "image": "bruce-greenwood",
+            "name": "Bruce Greenwood",
+            "role": "Pike"
+        },
+        {
+            "image": "peter-weller",
+            "name": "Peter Weller",
+            "role": "Marcus"
+        },
+        {
+            "image": "alice-eve",
+            "name": "Alice Eve",
+            "role": "Carol Marcus"
+        },
+        {
+            "image": "noel-clarke",
+            "name": "Noel Clarke",
+            "role": "Thomas Harewood"
+        }
+    ],
+    "synopsis": "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Star Trek",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

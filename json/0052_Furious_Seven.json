@@ -1,0 +1,95 @@
+{
+    "id": 51,
+    "title": "Furious Seven",
+    "poster": "fast_and_furious_7",
+    "trailer": "Skpu5HaVkOc",
+    "genres": [
+        "Action",
+        "Crime"
+    ],
+    "production": [
+        "Universal-Pictures"
+    ],
+    "director": "James Wan",
+    "producers": "Neal H. Moritz, Vin Diesel",
+    "writtens": "Chris Morgan",
+    "music": "Brian Tyler",
+    "cinema": "Stephen F. Windon, Marc Spicer",
+    "year": 2015,
+    "time": 137,
+    "country": "USA",
+    "budget": "190 million",
+    "boxoffice": "1,52 billion",
+    "actors": [
+        {
+            "image": "vin-diesel",
+            "name": "Vin Diesel",
+            "role": "Dominic Toretto"
+        },
+        {
+            "image": "paul-walker",
+            "name": "Paul Walker",
+            "role": "Brian O'Conner"
+        },
+        {
+            "image": "jason-statham",
+            "name": "Jason Statham",
+            "role": "Deckard Shaw"
+        },
+        {
+            "image": "michelle-rodriguez",
+            "name": "Michelle Rodriguez",
+            "role": "Letty"
+        },
+        {
+            "image": "jordana-brewster",
+            "name": "Jordana Brewster",
+            "role": "Mia"
+        },
+        {
+            "image": "tyrese-gibson",
+            "name": "Tyrese Gibson",
+            "role": "Roman"
+        },
+        {
+            "image": "ludacris",
+            "name": "Ludacris",
+            "role": "Tej "
+        },
+        {
+            "image": "dwayne-johnson",
+            "name": "Dwayne Johnson",
+            "role": "Hobbs"
+        },
+        {
+            "image": "lucas-black",
+            "name": "Lucas Black",
+            "role": "Sean Boswell"
+        },
+        {
+            "image": "kurt-russell",
+            "name": "Kurt Russell",
+            "role": "Mr. Nobody"
+        },
+        {
+            "image": "nathalie-emmanuel",
+            "name": "Nathalie Emmanuel",
+            "role": "Ramsey"
+        },
+        {
+            "image": "elsa-pataky",
+            "name": "Elsa Pataky",
+            "role": "Elena"
+        }
+    ],
+    "synopsis": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Fast and Furious",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

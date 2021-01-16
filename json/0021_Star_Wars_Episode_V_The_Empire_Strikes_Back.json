@@ -1,0 +1,81 @@
+{
+    "id": 21,
+    "title": "Star Wars Episode V: The Empire Strikes Back",
+    "poster": "star_wars_7",
+    "trailer": "JNwNXF9Y6kY",
+    "genres": [
+        "SpaceOpera",
+        "Adventure"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Lucasfilm"
+    ],
+    "director": "Irvin Kershner",
+    "producers": "Gary Kurtz",
+    "writtens": "Leight Brackett, Lawrence Kasdan",
+    "music": "John Williams",
+    "cinema": "Peter Suschitzky",
+    "year": 1980,
+    "time": 124,
+    "country": "USA",
+    "budget": "18 million",
+    "boxoffice": "248 million",
+    "actors": [
+        {
+            "image": "mark-hamill",
+            "name": "Mark Hamill",
+            "role": "Luke Skywalker"
+        },
+        {
+            "image": "harrison-ford",
+            "name": "Harrison Ford",
+            "role": "Han Solo"
+        },
+        {
+            "image": "carrie-fisher",
+            "name": "Carrie Fisher",
+            "role": "Leia"
+        },
+        {
+            "image": "billy-dee-williams",
+            "name": "Billy Dee Williams",
+            "role": "Lando Calrissian"
+        },
+        {
+            "image": "anthony-daniels",
+            "name": "Anthony Daniels",
+            "role": "C-3PO"
+        },
+        {
+            "image": "david-prowse",
+            "name": "David Prowse",
+            "role": "Darth Vader"
+        },
+        {
+            "image": "peter-mayhew",
+            "name": "Peter Mayhew",
+            "role": "Chewbacca"
+        },
+        {
+            "image": "kenny-baker",
+            "name": "Kenny Baker",
+            "role": "R2-D2"
+        },
+        {
+            "image": "frank-oz",
+            "name": "Frank Oz",
+            "role": "Yoda"
+        }
+    ],
+    "synopsis": "After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.",
+    "categories": [
+        "star-wars"
+    ],
+    "awards": null,
+    "parts": "Star Wars",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "id": 183,
+    "title": "Finding Nemo",
+    "poster": "finding_nemo",
+    "trailer": "wZdpNglLbt8",
+    "genres": [
+        "Adventure",
+        "Animation"
+    ],
+    "production": [
+        "Walt-Disney-Pictures",
+        "Pixar-Animation"
+    ],
+    "director": "Andrew Stanton",
+    "producers": "Graham Walters",
+    "writtens": "Andrew Stanton, Bob Peterson, David Reynolds",
+    "music": "Thomas Newman",
+    "cinema": "Sharon Calahan, Jeremy Lasky",
+    "year": 2003,
+    "time": 100,
+    "country": "USA",
+    "budget": "94 million",
+    "boxoffice": "940 million",
+    "actors": [
+        {
+            "image": "alexander-gould",
+            "name": "Alexander Gould",
+            "role": "Nemo"
+        },
+        {
+            "image": "albert-brooks",
+            "name": "Albert Brooks",
+            "role": "Marlin"
+        },
+        {
+            "image": "ellen-degeneres",
+            "name": "Ellen DeGeneres",
+            "role": "Dory"
+        },
+        {
+            "image": "willem-dafoe",
+            "name": "Willem Dafoe",
+            "role": "Gill"
+        },
+        {
+            "image": "brad-garrett",
+            "name": "Brad Garrett",
+            "role": "Bloat"
+        },
+        {
+            "image": "allison-janney",
+            "name": "Allison Janney",
+            "role": "Peach"
+        },
+        {
+            "image": "austin-pendleton",
+            "name": "Austin Pendleton",
+            "role": "Gurgle"
+        },
+        {
+            "image": "stephen-root",
+            "name": "Stephen Root",
+            "role": "Bubbles"
+        }
+    ],
+    "synopsis": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "id": 200,
+    "title": "Jumanji: The Next Level",
+    "poster": "jumanji_3",
+    "trailer": "rBxcF-r9Ibs",
+    "genres": [
+        "Adventure",
+        "Comedy"
+    ],
+    "production": [
+        "Columbia-Pictures",
+        "Seven-Bucks-Productions"
+    ],
+    "director": "Jake Kasdan",
+    "producers": "Dwayne Johnson, Dany Garcia, Hiram Garcia, Matt Tolmach, William Teitler, Jake Kasdan",
+    "writtens": "Jake Kasdan, Jeff Pinkner, Scott Rosenberg",
+    "music": "Henry Jackman",
+    "cinema": "Gyula Pados",
+    "year": 2019,
+    "time": 123,
+    "country": "USA",
+    "budget": "125 million",
+    "boxoffice": "326 million",
+    "actors": [
+        {
+            "image": "dwayne-johnson",
+            "name": "Dwayne Johnson",
+            "role": "Dr. Smolder Bravestone"
+        },
+        {
+            "image": "jack-black",
+            "name": "Jack Black",
+            "role": "Professor Sheldon 'Shelly' Oberon"
+        },
+        {
+            "image": "kevin-hart",
+            "name": "Kevin Hart",
+            "role": "Franklin 'Mouse' Finbar"
+        },
+        {
+            "image": "karen-gillan",
+            "name": "Karen Gillan",
+            "role": "Ruby Roundhouse"
+        },
+        {
+            "image": "awkwafina",
+            "name": "Awkwafina",
+            "role": "Ming"
+        },
+        {
+            "image": "nick-jonas",
+            "name": "Nick Jonas",
+            "role": "Seaplane"
+        },
+        {
+            "image": "alex-wolff",
+            "name": "Alex Wolff",
+            "role": "Spencer"
+        },
+        {
+            "image": "morgan-turner",
+            "name": "Morgan Turner",
+            "role": "Martha"
+        },
+        {
+            "image": "madison-iseman",
+            "name": "Madison Iseman",
+            "role": "Bethany"
+        },
+        {
+            "image": "ser'darius-blain",
+            "name": "Ser'Darius Blain",
+            "role": "Fridge"
+        },
+        {
+            "image": "danny-devito",
+            "name": "Danny DeVito",
+            "role": "Eddie"
+        },
+        {
+            "image": "danny-glover",
+            "name": "Danny Glover",
+            "role": "Milo"
+        }
+    ],
+    "synopsis": "In Jumanji: The Next Level, the gang is back but the game has changed. As they return to rescue one of their own, the players will have to brave parts unknown from arid deserts to snowy mountains, to escape the world's most dangerous game.",
+    "categories": [
+        "cinema-watched"
+    ],
+    "awards": null,
+    "parts": "Jumanji",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

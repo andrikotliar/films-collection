@@ -1,0 +1,75 @@
+{
+    "id": 44,
+    "title": "Harry Potter and the Deathly Hallows: Part II",
+    "poster": "harry_potter_8",
+    "trailer": "5NYt1qirBWg",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "David Yates",
+    "producers": "David Heyman, David Barron, J.K.Rowling",
+    "writtens": "Steve Kloves",
+    "music": "Alexandre Desplat",
+    "cinema": "Eduardo Serra",
+    "year": 2011,
+    "time": 130,
+    "country": "USA, UK",
+    "budget": "250 million",
+    "boxoffice": "1,34 billion",
+    "actors": [
+        {
+            "image": "daniel-radcliffe",
+            "name": "Daniel Radcliffe",
+            "role": "Harry Potter"
+        },
+        {
+            "image": "rupert-grint",
+            "name": "Rupert Grint",
+            "role": "Ron Weasley"
+        },
+        {
+            "image": "emma-watson",
+            "name": "Emma Watson",
+            "role": "Hermione Granger"
+        },
+        {
+            "image": "ralph-fiennes",
+            "name": "Ralph Fiennes",
+            "role": "Lord Voldemort"
+        },
+        {
+            "image": "robbie-coltrane",
+            "name": "Robbie Coltrane",
+            "role": "Rubeus Hagrid"
+        },
+        {
+            "image": "tom-felton",
+            "name": "Tom Felton",
+            "role": "Draco Malfoy"
+        },
+        {
+            "image": "alan-rickman",
+            "name": "Alan Rickman",
+            "role": "Severus Snape"
+        },
+        {
+            "image": "helena-bonham-carter",
+            "name": "Helena Bonham Carter",
+            "role": "Bellatrix Lestrage"
+        }
+    ],
+    "synopsis": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
+    "categories": [
+        "harry-potter"
+    ],
+    "awards": null,
+    "parts": "Harry Potter",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

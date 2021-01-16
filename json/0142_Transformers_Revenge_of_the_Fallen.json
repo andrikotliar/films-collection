@@ -1,0 +1,91 @@
+{
+    "id": 136,
+    "title": "Transformers: Revenge of the Fallen",
+    "poster": "transformers_2",
+    "trailer": "fnXzKwUgDhg",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "DreamWorks-Pictures",
+        "Paramount-Pictures"
+    ],
+    "director": "Michael Bay",
+    "producers": "Lorenzo di Bonaventura, Tom DeSanto, Don Murphy, Ian Bryce",
+    "writtens": "Roberto Orci, Alex Kurtzman, Ehren Kruger",
+    "music": "Steve Jablonsky",
+    "cinema": "Ben Seresin",
+    "year": 2009,
+    "time": 150,
+    "country": "USA",
+    "budget": "200 million",
+    "boxoffice": "836 million",
+    "actors": [
+        {
+            "image": "shia-labeouf",
+            "name": "Shia LaBeouf",
+            "role": "Sam Witwicky"
+        },
+        {
+            "image": "megan-fox",
+            "name": "Megan Fox",
+            "role": "Mikaela Banes"
+        },
+        {
+            "image": "josh-duhamel",
+            "name": "Josh Duhamel",
+            "role": "Major Lennox"
+        },
+        {
+            "image": "john-turturro",
+            "name": "John Turturro",
+            "role": "Simmons"
+        },
+        {
+            "image": "ramon-rodriguez",
+            "name": "Ramon Rodriguez",
+            "role": "Leo Spitz"
+        },
+        {
+            "image": "peter-cullen",
+            "name": "Peter Cullen",
+            "role": "Optimus Prime (voice)"
+        },
+        {
+            "image": "mark-ryan",
+            "name": "Mark Ryan",
+            "role": "Jetfire (voice)"
+        },
+        {
+            "image": "hugo-weaving",
+            "name": "Hugo Weaving",
+            "role": "Megatron (voice)"
+        },
+        {
+            "image": "tony-todd",
+            "name": "Tony Todd",
+            "role": "Fallen (voice)"
+        },
+        {
+            "image": "charlie-adler",
+            "name": "Charlie Adler",
+            "role": "Starscream (voice)"
+        },
+        {
+            "image": "frank-welker",
+            "name": "Frank Welker",
+            "role": "Soundwave / Devastator (voice)"
+        }
+    ],
+    "synopsis": "Sam Witwicky leaves the Autobots behind for a normal life. But when his mind is filled with cryptic symbols, the Decepticons target him and he is dragged back into the Transformers' war.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Bay's Transformers",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

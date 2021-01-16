@@ -1,0 +1,75 @@
+{
+    "id": 4,
+    "title": "Mission: Impossible 2",
+    "poster": "mi_2",
+    "trailer": "Aqk78Z57LGg",
+    "genres": [
+        "Action",
+        "Adventure"
+    ],
+    "production": [
+        "Paramount-Pictures"
+    ],
+    "director": "John Wo",
+    "producers": "Tom Cruise, Paula Wagner",
+    "writtens": "Robert Towne",
+    "music": "Hans Zimmer",
+    "cinema": "Jeffrey L. Kimball",
+    "year": 2000,
+    "time": 123,
+    "country": "USA",
+    "budget": "125 million",
+    "boxoffice": "546 million",
+    "actors": [
+        {
+            "image": "tom-cruise",
+            "name": "Tom Cruise",
+            "role": "Ethan Hunt"
+        },
+        {
+            "image": "dougray-scott",
+            "name": "Dougray Scott",
+            "role": "Sean Ambrose"
+        },
+        {
+            "image": "thandie-newton",
+            "name": "Thandie Newton",
+            "role": "Nyah Hall"
+        },
+        {
+            "image": "ving-rhames",
+            "name": "Ving Rhames",
+            "role": "Luther Strickell"
+        },
+        {
+            "image": "richard-roxburgh",
+            "name": "Richard Roxburgh",
+            "role": "Hugh Stamp"
+        },
+        {
+            "image": "john-polson",
+            "name": "John Polson",
+            "role": "Billy Baird"
+        },
+        {
+            "image": "brendan-gleeson",
+            "name": "Brendan Gleeson",
+            "role": "McCloy"
+        },
+        {
+            "image": "rade-serbedzija",
+            "name": "Rade Serbedzija",
+            "role": "Dr. Nekhorvich"
+        }
+    ],
+    "synopsis": "IMF Agent Ethan Hunt is sent to Sydney, to find and destroy a genetically modified disease called \"Chimera\".",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Mission: Impossible",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

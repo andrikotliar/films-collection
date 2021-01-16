@@ -1,0 +1,90 @@
+{
+    "id": 7,
+    "title": "Mission: Impossible - Rogue Nation",
+    "poster": "mi_5",
+    "trailer": "gOW_azQbOjw",
+    "genres": [
+        "Action",
+        "Adventure"
+    ],
+    "production": [
+        "Paramount-Pictures"
+    ],
+    "director": "Christopher McQuarrie",
+    "producers": "Tom Cruise, Bryan Burk, J.J. Abrams, David Ellison, Dana Goldberg, Don Granger",
+    "writtens": "Christopher McQuarrie",
+    "music": "Joe Kraemer",
+    "cinema": "Robert Elswit",
+    "year": 2015,
+    "time": 131,
+    "country": "USA",
+    "budget": "150 million",
+    "boxoffice": "683 million",
+    "actors": [
+        {
+            "image": "tom-cruise",
+            "name": "Tom Cruise",
+            "role": "Ethan Hunt"
+        },
+        {
+            "image": "jeremy-renner",
+            "name": "Jeremy Renner",
+            "role": "William Brandt"
+        },
+        {
+            "image": "simon-pegg",
+            "name": "Simon Pegg",
+            "role": "Benji Dunn"
+        },
+        {
+            "image": "rebecca-ferguson",
+            "name": "Rebecca Ferguson",
+            "role": "Ilsa Faust"
+        },
+        {
+            "image": "ving-rhames",
+            "name": "Ving Rhames",
+            "role": "Luther Stickell"
+        },
+        {
+            "image": "sean-harris",
+            "name": "Sean Harris",
+            "role": "Lane"
+        },
+        {
+            "image": "simon-mcburney",
+            "name": "Simon McBurney",
+            "role": "Atlee"
+        },
+        {
+            "image": "jingchu-zhang",
+            "name": "Jingchu Zhang",
+            "role": "Lauren"
+        },
+        {
+            "image": "tom-hollander",
+            "name": "Tom Hollander",
+            "role": "Prime Minister"
+        },
+        {
+            "image": "jens-hulten",
+            "name": "Jens Hulten",
+            "role": "Janik Vinter"
+        },
+        {
+            "image": "alec-baldwin",
+            "name": "Alec Baldwin",
+            "role": "Alan Hunley"
+        }
+    ],
+    "synopsis": "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Mission: Impossible",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

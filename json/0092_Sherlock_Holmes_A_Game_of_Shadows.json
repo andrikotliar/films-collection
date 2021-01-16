@@ -1,0 +1,85 @@
+{
+    "id": 89,
+    "title": "Sherlock Holmes: A Game of Shadows",
+    "poster": "sherlock_holmes_2",
+    "trailer": "V1OYiPa-eLg",
+    "genres": [
+        "Adventure",
+        "Detective"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "Guy Ritchie",
+    "producers": "Joel Silver, Lionel Wigram",
+    "writtens": "Michele Mulroney, Kieran Mulroney",
+    "music": "Hans Zimmer",
+    "cinema": "Philippe Rousselot",
+    "year": 2011,
+    "time": 129,
+    "country": "USA",
+    "budget": "125 million",
+    "boxoffice": "545 million",
+    "actors": [
+        {
+            "image": "robert-downey-jr.",
+            "name": "Robert Downey Jr.",
+            "role": "Sherlock Holmes"
+        },
+        {
+            "image": "jude-law",
+            "name": "Jude Law",
+            "role": "Dr. John Watson"
+        },
+        {
+            "image": "noomi-rapace",
+            "name": "Noomi Rapace",
+            "role": "Madam Simza Heron"
+        },
+        {
+            "image": "rachel-mcadams",
+            "name": "Rachel McAdams",
+            "role": "Irene Adler"
+        },
+        {
+            "image": "jared-harris",
+            "name": "Jared Harris",
+            "role": "Professor James Moriarty"
+        },
+        {
+            "image": "stephen-fry",
+            "name": "Stephen Fry",
+            "role": "Mycroft Holmes"
+        },
+        {
+            "image": "paul-anderson",
+            "name": "Paul Anderson",
+            "role": "Colonel Sebastian Moran"
+        },
+        {
+            "image": "kelly-reilly",
+            "name": "Kelly Reilly",
+            "role": "Mary Watson"
+        },
+        {
+            "image": "geraldine-james",
+            "name": "Geraldine James",
+            "role": "Mrs. Hudson"
+        },
+        {
+            "image": "eddie-marsan",
+            "name": "Eddie Marsan",
+            "role": "Inspector Lestrade"
+        }
+    ],
+    "synopsis": "Detective Sherlock Holmes is on the trail of criminal mastermind Professor Moriarty, who is carrying out a string of random crimes across Europe.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Ritchie's Sherlock Holmes",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

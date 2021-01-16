@@ -1,0 +1,101 @@
+{
+    "id": 69,
+    "title": "Thor: Ragnarok",
+    "poster": "mcu_17",
+    "trailer": "ue80QwXMRHg",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Walt-Disney-Pictures",
+        "Marvel-Studios"
+    ],
+    "director": "Taika Waititi",
+    "producers": "Kevin Feige",
+    "writtens": "Eric Pearson, Craig Kyle, Christopher L. Yost",
+    "music": "Mark Mothersbaugh",
+    "cinema": "Javier Aguirresarobe",
+    "year": 2017,
+    "time": 130,
+    "country": "USA",
+    "budget": "180million",
+    "boxoffice": "854 million",
+    "actors": [
+        {
+            "image": "chris-hemsworth",
+            "name": "Chris Hemsworth",
+            "role": "Thor"
+        },
+        {
+            "image": "tom-hiddleston",
+            "name": "Tom Hiddleston",
+            "role": "Loki"
+        },
+        {
+            "image": "cate-blanchett",
+            "name": "Cate Blanchett",
+            "role": "Hela"
+        },
+        {
+            "image": "idris-elba",
+            "name": "Idris Elba",
+            "role": "Heimdall"
+        },
+        {
+            "image": "jeff-goldblum",
+            "name": "Jeff Goldblum",
+            "role": "Grandmaster"
+        },
+        {
+            "image": "tessa-thompson",
+            "name": "Tessa Thompson",
+            "role": "Valkyrie"
+        },
+        {
+            "image": "karl-urban",
+            "name": "Karl Urban",
+            "role": "Skurge"
+        },
+        {
+            "image": "mark-ruffalo",
+            "name": "Mark Ruffalo",
+            "role": "Bruce Banner / Hulk"
+        },
+        {
+            "image": "anthony-hopkins",
+            "name": "Anthony Hopkins",
+            "role": "Odin"
+        },
+        {
+            "image": "benedict-cumberbatch",
+            "name": "Benedict Cumberbatch",
+            "role": "Doctor Strange"
+        },
+        {
+            "image": "taika-waititi",
+            "name": "Taika Waititi",
+            "role": "Korg (voice)"
+        },
+        {
+            "image": "rachel-house",
+            "name": "Rachel House",
+            "role": "Topaz"
+        },
+        {
+            "image": "clancy-brown",
+            "name": "Clancy Brown",
+            "role": "Surtur (voice)"
+        }
+    ],
+    "synopsis": "Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarцk, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
+    "categories": [
+        "marvel"
+    ],
+    "awards": null,
+    "parts": "Marvel Cinematic Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "id": 59,
+    "title": "Iron Man 3",
+    "poster": "mcu_7",
+    "trailer": "Ke1Y3P9D0Bc",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Walt-Disney-Pictures",
+        "Marvel-Studios"
+    ],
+    "director": "Shane Black",
+    "producers": "Kevin Feige",
+    "writtens": "Shane Black, Drew Pearce",
+    "music": "Brian Tyler",
+    "cinema": "John Toll",
+    "year": 2013,
+    "time": 131,
+    "country": "USA",
+    "budget": "200 million",
+    "boxoffice": "1,2 billion",
+    "actors": [
+        {
+            "image": "robert-downey-jr.",
+            "name": "Robert Downey Jr.",
+            "role": "Tony Stark"
+        },
+        {
+            "image": "gwyneth-paltrow",
+            "name": "Gwyneth Paltrow",
+            "role": "Pepper Potts"
+        },
+        {
+            "image": "don-cheadle",
+            "name": "Don Cheadle",
+            "role": "Colonel James Rhodes"
+        },
+        {
+            "image": "guy-pearce",
+            "name": "Guy Pearce",
+            "role": "Aldrich Killian"
+        },
+        {
+            "image": "rebecca-hall",
+            "name": "Rebecca Hall",
+            "role": "Maya Hansen"
+        },
+        {
+            "image": "jon-favreau",
+            "name": "Jon Favreau",
+            "role": "Happy Hogan"
+        },
+        {
+            "image": "ben-kingsley",
+            "name": "Ben Kingsley",
+            "role": "Trevor Slattery"
+        }
+    ],
+    "synopsis": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
+    "categories": [
+        "marvel"
+    ],
+    "awards": null,
+    "parts": "Marvel Cinematic Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

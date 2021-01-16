@@ -1,0 +1,96 @@
+{
+    "id": 67,
+    "title": "Guardians of the Galaxy: Vol. II",
+    "poster": "mcu_15",
+    "trailer": "wUn05hdkhjM",
+    "genres": [
+        "Sci-Fi",
+        "Comedy"
+    ],
+    "production": [
+        "Walt-Disney-Pictures",
+        "Marvel-Studios"
+    ],
+    "director": "James Gunn",
+    "producers": "Kevin Feige",
+    "writtens": "James Gunn",
+    "music": "Tyler Bates",
+    "cinema": "Henry Braham",
+    "year": 2017,
+    "time": 137,
+    "country": "USA",
+    "budget": "200 million",
+    "boxoffice": "864 million",
+    "actors": [
+        {
+            "image": "chris-pratt",
+            "name": "Chris Pratt",
+            "role": "Peter Quill / Star-Lord"
+        },
+        {
+            "image": "zoe-saldana",
+            "name": "Zoe Saldana",
+            "role": "Gamora"
+        },
+        {
+            "image": "dave-bautista",
+            "name": "Dave Bautista",
+            "role": "Drax"
+        },
+        {
+            "image": "vin-diesel",
+            "name": "Vin Diesel",
+            "role": "Baby Groot (voice)"
+        },
+        {
+            "image": "bradley-cooper",
+            "name": "Bradley Cooper",
+            "role": "Rocket (voice)"
+        },
+        {
+            "image": "michael-rooker",
+            "name": "Michael Rooker",
+            "role": "Yondu"
+        },
+        {
+            "image": "karen-gillan",
+            "name": "Karen Gillan",
+            "role": "Nebula"
+        },
+        {
+            "image": "pom-klementieff",
+            "name": "Pom Klementieff",
+            "role": "Mantis"
+        },
+        {
+            "image": "sylvester-stallone",
+            "name": "Sylvester Stallone",
+            "role": "Stakar Ogord"
+        },
+        {
+            "image": "kurt-russell",
+            "name": "Kurt Russell",
+            "role": "Ego"
+        },
+        {
+            "image": "elizabeth-debicki",
+            "name": "Elizabeth Debicki",
+            "role": "Ayesha"
+        },
+        {
+            "image": "chris-sullivan",
+            "name": "Chris Sullivan",
+            "role": "Taserface"
+        }
+    ],
+    "synopsis": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
+    "categories": [
+        "marvel"
+    ],
+    "awards": null,
+    "parts": "Marvel Cinematic Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

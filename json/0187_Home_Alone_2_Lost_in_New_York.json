@@ -1,0 +1,90 @@
+{
+    "id": 185,
+    "title": "Home Alone 2: Lost in New York",
+    "poster": "home_alone_2",
+    "trailer": "k0kJieJ1k6k",
+    "genres": [
+        "Comedy"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Hughes-Entertainment"
+    ],
+    "director": "Chris Columbus",
+    "producers": "John Hughes",
+    "writtens": "John Hughes",
+    "music": "John Williams",
+    "cinema": "Julio Macat",
+    "year": 1992,
+    "time": 120,
+    "country": "USA",
+    "budget": "20 million",
+    "boxoffice": "359 million",
+    "actors": [
+        {
+            "image": "macaulay-culkin",
+            "name": "Macaulay Culkin",
+            "role": "Kevin"
+        },
+        {
+            "image": "joe-pesci",
+            "name": "Joe Pesci",
+            "role": "Harry"
+        },
+        {
+            "image": "daniel-stern",
+            "name": "Daniel Stern",
+            "role": "Marv"
+        },
+        {
+            "image": "catherine-o'hara",
+            "name": "Catherine O'Hara",
+            "role": "Kate"
+        },
+        {
+            "image": "john-heard",
+            "name": "John Heard",
+            "role": "Peter"
+        },
+        {
+            "image": "devin-ratray",
+            "name": "Devin Ratray",
+            "role": "Buzz"
+        },
+        {
+            "image": "hillary-wolf",
+            "name": "Hillary Wolf",
+            "role": "Megan"
+        },
+        {
+            "image": "maureen-elisabeth-shay",
+            "name": "Maureen Elisabeth Shay",
+            "role": "Linnie"
+        },
+        {
+            "image": "michael-c.-maronna",
+            "name": "Michael C. Maronna",
+            "role": "Jeff"
+        },
+        {
+            "image": "gerry-bamman",
+            "name": "Gerry Bamman",
+            "role": "Uncle Frank"
+        },
+        {
+            "image": "terrie-snell",
+            "name": "Terrie Snell",
+            "role": "Aunt Leslie"
+        }
+    ],
+    "synopsis": "One year after Kevin McCallister was left home alone and had to defeat a pair of bumbling burglars, he accidentally finds himself stranded in New York City - and the same criminals are not far behind.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Home Alone",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

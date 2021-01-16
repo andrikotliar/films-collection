@@ -1,0 +1,66 @@
+{
+    "id": 203,
+    "title": "Resident Evil",
+    "poster": "resident_evil",
+    "trailer": "kEutwdia8n0",
+    "genres": [
+        "Action",
+        "Horror"
+    ],
+    "production": [
+        "Pathe-Distribution",
+        "Constantin-Film"
+    ],
+    "director": "Paul W. S. Anderson",
+    "producers": "Bernd Eichinger, Samuel Hadida, Jeremy Boltm Paul W. S. Anderson",
+    "writtens": "Paul W. S. Anderson",
+    "music": "Marco Beltrami, Marilyn Manson",
+    "cinema": "David Johnson",
+    "year": 2002,
+    "time": 100,
+    "country": "UK, Germany",
+    "budget": "33 million",
+    "boxoffice": "103 million",
+    "actors": [
+        {
+            "image": "milla-jovovich",
+            "name": "Milla Jovovich",
+            "role": "Alice"
+        },
+        {
+            "image": "eric-mabius",
+            "name": "Eric Mabius",
+            "role": "Matt"
+        },
+        {
+            "image": "colin-salmon",
+            "name": "Colin Salmon",
+            "role": "One"
+        },
+        {
+            "image": "martin-crewes",
+            "name": "Martin Crewes",
+            "role": "Kaplan"
+        },
+        {
+            "image": "pasquale-aleardi",
+            "name": "Pasquale Aleardi",
+            "role": "J.D."
+        },
+        {
+            "image": "michelle-rodriguez",
+            "name": "Michelle Rodriguez",
+            "role": "Rain"
+        }
+    ],
+    "synopsis": "A special military unit fights a powerful, out-of-control supercomputer and hundreds of scientists who have mutated into flesh-eating creatures after a laboratory accident.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

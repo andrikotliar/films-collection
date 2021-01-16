@@ -1,0 +1,81 @@
+{
+    "id": 87,
+    "title": "Logan",
+    "poster": "x_men_8",
+    "trailer": "Div0iP65aZo",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Marvel-Entertainment"
+    ],
+    "director": "James Mangold",
+    "producers": "Lauren Shuler Donner, Simon Kinberg",
+    "writtens": "Scott Frank, James Mangold, Michael Green",
+    "music": "Marco Beltrami",
+    "cinema": "John Mathieson",
+    "year": 2017,
+    "time": 137,
+    "country": "USA",
+    "budget": "97 million",
+    "boxoffice": "619 million",
+    "actors": [
+        {
+            "image": "hugh-jackman",
+            "name": "Hugh Jackman",
+            "role": "Logan / X-24"
+        },
+        {
+            "image": "patrick-stewart",
+            "name": "Patrick Stewart",
+            "role": "Charles"
+        },
+        {
+            "image": "dafne-keen",
+            "name": "Dafne Keen",
+            "role": "Laura"
+        },
+        {
+            "image": "boyd-holbrook",
+            "name": "Boyd Holbrook",
+            "role": "Pierce"
+        },
+        {
+            "image": "stephen-merchant",
+            "name": "Stephen Merchant",
+            "role": "Caliban"
+        },
+        {
+            "image": "elizabeth-rodriguez",
+            "name": "Elizabeth Rodriguez",
+            "role": "Gabriela"
+        },
+        {
+            "image": "richard-e.-grant",
+            "name": "Richard E. Grant",
+            "role": "Dr. Rice"
+        },
+        {
+            "image": "eriq-la-salle",
+            "name": "Eriq La Salle",
+            "role": "Will Munson"
+        },
+        {
+            "image": "elise-neal",
+            "name": "Elise Neal",
+            "role": "Kathryn Munson"
+        }
+    ],
+    "synopsis": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "X-Men",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

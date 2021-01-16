@@ -1,0 +1,65 @@
+{
+    "id": 109,
+    "title": "Venom",
+    "poster": "venom",
+    "trailer": "xLCn88bfW1o",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Columbia-Pictures"
+    ],
+    "director": "Ruben Fleischer",
+    "producers": "Avi Arad, Matt Tolmach, Amy Pascal",
+    "writtens": "Jeff Pinkner, Scott Rosenberg, Kelly Marcel",
+    "music": "Ludwig Göransson",
+    "cinema": "Matthew Libatique",
+    "year": 2018,
+    "time": 112,
+    "country": "USA",
+    "budget": "100 million",
+    "boxoffice": "855 million",
+    "actors": [
+        {
+            "image": "tom-hardy",
+            "name": "Tom Hardy",
+            "role": "Eddie Brock / Venom"
+        },
+        {
+            "image": "michelle-williams",
+            "name": "Michelle Williams",
+            "role": "Anne Weying"
+        },
+        {
+            "image": "riz-ahmed",
+            "name": "Riz Ahmed",
+            "role": "Carlton Drake / Riot"
+        },
+        {
+            "image": "scott-haze",
+            "name": "Scott Haze",
+            "role": "Security Chief Roland Treece"
+        },
+        {
+            "image": "reid-scott",
+            "name": "Reid Scott",
+            "role": "Dr. Dan Lewis"
+        },
+        {
+            "image": "jenny-slate",
+            "name": "Jenny Slate",
+            "role": "Dr. Dora Skirth"
+        }
+    ],
+    "synopsis": "A failed reporter is bonded to an alien entity, one of many symbiotes who have invaded Earth. But the being takes a liking to Earth and decides to protect it.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

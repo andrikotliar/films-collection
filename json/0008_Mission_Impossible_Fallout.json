@@ -1,0 +1,80 @@
+{
+    "id": 8,
+    "title": "Mission: Impossible - Fallout",
+    "poster": "mi_6",
+    "trailer": "wb49-oV0F78",
+    "genres": [
+        "Action",
+        "Adventure"
+    ],
+    "production": [
+        "Paramount-Pictures"
+    ],
+    "director": "Christopher McQuarrie",
+    "producers": "Tom Cruise, J.J. Abrams, Christopher McQuarrie, Jake Myers",
+    "writtens": "Christopher McQuarrie",
+    "music": "Lorne Balfe",
+    "cinema": "Rob Hardy",
+    "year": 2018,
+    "time": 147,
+    "country": "USA",
+    "budget": "178 million",
+    "boxoffice": "791 million",
+    "actors": [
+        {
+            "image": "tom-cruise",
+            "name": "Tom Cruise",
+            "role": "Ethan Hunt"
+        },
+        {
+            "image": "henry-cavill",
+            "name": "Henry Cavill",
+            "role": "August Walker"
+        },
+        {
+            "image": "ving-rhames",
+            "name": "Ving Rhames",
+            "role": "Luther Stickell"
+        },
+        {
+            "image": "simon-pegg",
+            "name": "Simon Pegg",
+            "role": "Benji Dunn"
+        },
+        {
+            "image": "rebecca-ferguson",
+            "name": "Rebecca Ferguson",
+            "role": "Ilsa Faust"
+        },
+        {
+            "image": "sean-harris",
+            "name": "Sean Harris",
+            "role": "Solomon Lane"
+        },
+        {
+            "image": "angela-bassett",
+            "name": "Angela Bassett",
+            "role": "Erika Sloane"
+        },
+        {
+            "image": "vanessa-kirby",
+            "name": "Vanessa Kirby",
+            "role": "The White Widow"
+        },
+        {
+            "image": "michelle-monaghan",
+            "name": "Michelle Monaghan",
+            "role": "Julia"
+        }
+    ],
+    "synopsis": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Mission: Impossible",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "id": 146,
+    "title": "The Dark Knight Rises",
+    "poster": "batman_3",
+    "trailer": "GokKUqLcvD8",
+    "genres": [
+        "Action",
+        "Thriller"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures",
+        "Legendary-Pictures"
+    ],
+    "director": "Christopher Nolan",
+    "producers": "Charles Roven, Emma Thomas, Christopher Nolan",
+    "writtens": "Christopher Nolan, Jonathan Nolan",
+    "music": "Hans Zimmer",
+    "cinema": "Wally Pfister",
+    "year": 2012,
+    "time": 165,
+    "country": "USA",
+    "budget": "250 million",
+    "boxoffice": "1,08 billion",
+    "actors": [
+        {
+            "image": "christian-bale",
+            "name": "Christian Bale",
+            "role": "Bruce Wayne"
+        },
+        {
+            "image": "gary-oldman",
+            "name": "Gary Oldman",
+            "role": "Commissioner Gordon"
+        },
+        {
+            "image": "tom-hardy",
+            "name": "Tom Hardy",
+            "role": "Bane"
+        },
+        {
+            "image": "joseph-gordon-levitt",
+            "name": "Joseph Gordon-Levitt",
+            "role": "Blake"
+        },
+        {
+            "image": "anne-hathaway",
+            "name": "Anne Hathaway",
+            "role": "Selina"
+        },
+        {
+            "image": "marion-cotillard",
+            "name": "Marion Cotillard",
+            "role": "Miranda"
+        },
+        {
+            "image": "morgan-freeman",
+            "name": "Morgan Freeman",
+            "role": "Fox"
+        },
+        {
+            "image": "michael-caine",
+            "name": "Michael Caine",
+            "role": "Alfred"
+        },
+        {
+            "image": "matthew-modine",
+            "name": "Matthew Modine",
+            "role": "Foley"
+        },
+        {
+            "image": "alon-aboutboul",
+            "name": "Alon Aboutboul",
+            "role": "Dr. Pavel"
+        },
+        {
+            "image": "ben-mendelsohn",
+            "name": "Ben Mendelsohn",
+            "role": "Daggett"
+        },
+        {
+            "image": "burn-gorman",
+            "name": "Burn Gorman",
+            "role": "Stryver"
+        },
+        {
+            "image": "daniel-sunjata",
+            "name": "Daniel Sunjata",
+            "role": "Captain Jones"
+        }
+    ],
+    "synopsis": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City, now on the edge of total annihilation, from the brutal guerrilla terrorist Bane.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "The Dark Knight",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

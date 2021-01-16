@@ -1,0 +1,87 @@
+{
+    "id": 2,
+    "title": "Ready Player One",
+    "poster": "ready_player_one",
+    "trailer": "cSp1dM2Vj48",
+    "genres": [
+        "Sci-Fi",
+        "Adventure"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures",
+        "Amblin-Entertainment"
+    ],
+    "director": "Steven Spielberg",
+    "producers": "Donald De Line, Dan Farah",
+    "writtens": "Zak Penn, Ernest Cline",
+    "music": "Alan Silvestri",
+    "cinema": "Janusz Kaminski",
+    "year": 2018,
+    "time": 140,
+    "country": "USA",
+    "budget": "175 million",
+    "boxoffice": "582 million",
+    "actors": [
+        {
+            "image": "tye-sheridan",
+            "name": "Tye Sheridan",
+            "role": "Parzival / Wade"
+        },
+        {
+            "image": "olivia-cooke",
+            "name": "Olivia Cooke",
+            "role": "Art3mis / Samantha"
+        },
+        {
+            "image": "ben-medelson",
+            "name": "Ben Medelson",
+            "role": "Sorrento"
+        },
+        {
+            "image": "lena-waithe",
+            "name": "Lena Waithe",
+            "role": "Aech / Helen"
+        },
+        {
+            "image": "t.j.-miller",
+            "name": "T.J. Miller",
+            "role": "I-R0k"
+        },
+        {
+            "image": "simon-pegg",
+            "name": "Simon Pegg",
+            "role": "Curator / Ogden Morrow"
+        },
+        {
+            "image": "mark-rylance",
+            "name": "Mark Rylance",
+            "role": "Anorak / Halliday"
+        },
+        {
+            "image": "philip-zhao",
+            "name": "Philip Zhao",
+            "role": "Sho"
+        },
+        {
+            "image": "win-morisaki",
+            "name": "Win Morisaki",
+            "role": "Daito"
+        },
+        {
+            "image": "hannah-john-kamen",
+            "name": "Hannah John-Kamen",
+            "role": "F'Nale Zandor"
+        }
+    ],
+    "synopsis": "When the creator of a virtual reality world called the OASIS dies, he releases a video in which he challenges all OASIS users to find his Easter Egg, which will give the finder his fortune",
+    "categories": [
+        "special-favorite",
+        "cinema-watched"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

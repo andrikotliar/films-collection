@@ -1,0 +1,90 @@
+{
+    "id": 29,
+    "title": "The Lord of the Rings: The Two Towers",
+    "poster": "middle_earth_5",
+    "trailer": "LbfMDwc4azU",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "New-Line-Cinema"
+    ],
+    "director": "Peter Jackson",
+    "producers": "Peter Jackson, Fran Walsh, Barrie M. Osborne",
+    "writtens": "Fran Walsh, Philippa Boyens, Peter Jackson",
+    "music": "Howard Shore",
+    "cinema": "Andrew Lesnie",
+    "year": 2002,
+    "time": 179,
+    "country": "USA, New Zealand",
+    "budget": "94 million",
+    "boxoffice": "926 million",
+    "actors": [
+        {
+            "image": "elijah-wood",
+            "name": "Elijah Wood",
+            "role": "Frodo Baggins"
+        },
+        {
+            "image": "ian-mckellen",
+            "name": "Ian McKellen",
+            "role": "Gandalf"
+        },
+        {
+            "image": "sean-astin",
+            "name": "Sean Astin",
+            "role": "Samwise Gamgee"
+        },
+        {
+            "image": "viggo-mortensen",
+            "name": "Viggo Mortensen",
+            "role": "Aragorn"
+        },
+        {
+            "image": "john-rhys-davies",
+            "name": "John Rhys-Davies",
+            "role": "Pereggrin"
+        },
+        {
+            "image": "orlando-bloom",
+            "name": "Orlando Bloom",
+            "role": "Meriadoc"
+        },
+        {
+            "image": "sean-bean",
+            "name": "Sean Bean",
+            "role": "Gimli"
+        },
+        {
+            "image": "cate-blanchett",
+            "name": "Cate Blanchett",
+            "role": "Legolas"
+        },
+        {
+            "image": "christopher-lee",
+            "name": "Christopher Lee",
+            "role": "Boromir"
+        },
+        {
+            "image": "hugo-weaving",
+            "name": "Hugo Weaving",
+            "role": "Bilbo Baggins"
+        },
+        {
+            "image": "andry-serkis",
+            "name": "Andry Serkis",
+            "role": "Saruman"
+        }
+    ],
+    "synopsis": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+    "categories": [
+        "most-watched"
+    ],
+    "awards": null,
+    "parts": "Middle-earth",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

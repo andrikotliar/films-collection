@@ -1,0 +1,60 @@
+{
+    "id": 205,
+    "title": "I am Legend",
+    "poster": "i_am_legend",
+    "trailer": "dtKMEAXyPkg",
+    "genres": [
+        "Sci-Fi"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures",
+        "Village-Roadshow-Pictures"
+    ],
+    "director": "Francis Lawrence",
+    "producers": "Akiva Goldsman, James Lassiter,David Heyman, Neal H. Moritz",
+    "writtens": "Mark Protosevich, Akiva Goldsman",
+    "music": "James Newton Howard",
+    "cinema": "Andrew Lesnie",
+    "year": 2007,
+    "time": 101,
+    "country": "USA",
+    "budget": "150 million",
+    "boxoffice": "585 million",
+    "actors": [
+        {
+            "image": "will-smith",
+            "name": "Will Smith",
+            "role": "Robert Neville"
+        },
+        {
+            "image": "alice-braga",
+            "name": "Alice Braga",
+            "role": "Anna"
+        },
+        {
+            "image": "charlie-tahan",
+            "name": "Charlie Tahan",
+            "role": "Ethan"
+        },
+        {
+            "image": "salli-richardson-whitfield",
+            "name": "Salli Richardson-Whitfield",
+            "role": "Zoe Neville"
+        },
+        {
+            "image": "willow-smith",
+            "name": "Willow Smith",
+            "role": "Marley Neville"
+        }
+    ],
+    "synopsis": "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

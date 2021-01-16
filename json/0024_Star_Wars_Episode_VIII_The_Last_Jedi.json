@@ -1,0 +1,82 @@
+{
+    "id": 24,
+    "title": "Star Wars Episode VIII: The Last Jedi",
+    "poster": "star_wars_10",
+    "trailer": "Q0CbN8sfihY",
+    "genres": [
+        "SpaceOpera",
+        "Adventure"
+    ],
+    "production": [
+        "Walt-Disney-Pictures",
+        "Lucasfilm"
+    ],
+    "director": "Rian Johnson",
+    "producers": "Kathleen Kennedy, Ram Bergman",
+    "writtens": "Rian Johnson",
+    "music": "John Williams",
+    "cinema": "Steve Yedlin",
+    "year": 2017,
+    "time": 152,
+    "country": "USA",
+    "budget": "317 million",
+    "boxoffice": "1,33 billion",
+    "actors": [
+        {
+            "image": "daisy-ridley",
+            "name": "Daisy Ridley",
+            "role": "Rey"
+        },
+        {
+            "image": "adam-driver",
+            "name": "Adam Driver",
+            "role": "Kylo Ren"
+        },
+        {
+            "image": "john-boyega",
+            "name": "John Boyega",
+            "role": "Finn"
+        },
+        {
+            "image": "mark-hamill",
+            "name": "Mark Hamill",
+            "role": "Luke Skywalker"
+        },
+        {
+            "image": "carrie-fisher",
+            "name": "Carrie Fisher",
+            "role": "Leia"
+        },
+        {
+            "image": "oscar-isaac",
+            "name": "Oscar Isaac",
+            "role": "Poe Dameron"
+        },
+        {
+            "image": "andy-serkis",
+            "name": "Andy Serkis",
+            "role": "Snoke"
+        },
+        {
+            "image": "lupita-nyung'o",
+            "name": "Lupita Nyung'o",
+            "role": "Maz Kanata"
+        },
+        {
+            "image": "gwendoline-christie",
+            "name": "Gwendoline Christie",
+            "role": "Phasma"
+        }
+    ],
+    "synopsis": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.",
+    "categories": [
+        "star-wars",
+        "cinema-watched"
+    ],
+    "awards": null,
+    "parts": "Star Wars",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

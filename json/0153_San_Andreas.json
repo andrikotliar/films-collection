@@ -1,0 +1,60 @@
+{
+    "id": 147,
+    "title": "San Andreas",
+    "poster": "san_andreas",
+    "trailer": "yftHosO0eUo",
+    "genres": [
+        "Action",
+        "Disaster"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "Brad Peyton",
+    "producers": "Beau Flynn",
+    "writtens": "Carlton Cuse",
+    "music": "Andrew Lockington",
+    "cinema": "Steve Yedlin",
+    "year": 2015,
+    "time": 114,
+    "country": "USA",
+    "budget": "110 million",
+    "boxoffice": "474 million",
+    "actors": [
+        {
+            "image": "dwayne-johnson",
+            "name": "Dwayne Johnson",
+            "role": "Raymond Gaines"
+        },
+        {
+            "image": "carla-gugino",
+            "name": "Carla Gugino",
+            "role": "Emma Gaines"
+        },
+        {
+            "image": "alexandra-daddario",
+            "name": "Alexandra Daddario",
+            "role": "Blake Gaines"
+        },
+        {
+            "image": "ioan-gruffudd",
+            "name": "Ioan Gruffudd",
+            "role": "Daniel Riddick"
+        },
+        {
+            "image": "archie-panjabi",
+            "name": "Archie Panjabi",
+            "role": "Serena Johnson"
+        }
+    ],
+    "synopsis": "In the aftermath of a massive earthquake in California, a rescue-chopper pilot makes a dangerous journey with his ex-wife across the state in order to rescue his daughter.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

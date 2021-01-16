@@ -1,0 +1,81 @@
+{
+    "id": 105,
+    "title": "Zootopia",
+    "poster": "zootopia",
+    "trailer": "jWM0ct-OLsM",
+    "genres": [
+        "Adventure",
+        "Comedy",
+        "Animation"
+    ],
+    "production": [
+        "Walt-Disney-Pictures"
+    ],
+    "director": "Byron Howard, Rich Moore",
+    "producers": "Clark Spencer",
+    "writtens": "Jared Bush, Phil Johnston",
+    "music": "Michael Giacchino",
+    "cinema": "Nathan Warner, Brian Leach",
+    "year": 2016,
+    "time": 108,
+    "country": "USA",
+    "budget": "150 million",
+    "boxoffice": "1,02 billion",
+    "actors": [
+        {
+            "image": "ginnifer-goodwin",
+            "name": "Ginnifer Goodwin",
+            "role": "Octavia Spencer"
+        },
+        {
+            "image": "jason-bateman",
+            "name": "Jason Bateman",
+            "role": "Judy Hopps"
+        },
+        {
+            "image": "idris-elba",
+            "name": "Idris Elba",
+            "role": "Nick Wilde"
+        },
+        {
+            "image": "jenny-slate",
+            "name": "Jenny Slate",
+            "role": "Chief Bogo"
+        },
+        {
+            "image": "nate-torrence",
+            "name": "Nate Torrence",
+            "role": "Bellwether"
+        },
+        {
+            "image": "bonnie-hunt",
+            "name": "Bonnie Hunt",
+            "role": "Clawhauser"
+        },
+        {
+            "image": "don-lake",
+            "name": "Don Lake",
+            "role": "Bonnie Hopps"
+        },
+        {
+            "image": "tommy-chong",
+            "name": "Tommy Chong",
+            "role": "Stu Hopps"
+        },
+        {
+            "image": "j.k.-simmons",
+            "name": "J.K. Simmons",
+            "role": "Yax"
+        }
+    ],
+    "synopsis": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

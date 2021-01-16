@@ -1,0 +1,81 @@
+{
+    "id": 16,
+    "title": "Star Wars Episode II: Attack of the Clones",
+    "poster": "star_wars_2",
+    "trailer": "gYbW1F_c9eM",
+    "genres": [
+        "SpaceOpera",
+        "Adventure"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Lucasfilm"
+    ],
+    "director": "George Lucas",
+    "producers": "Rick McCallum",
+    "writtens": "George Lucas, Jonathan Hales",
+    "music": "John Williams",
+    "cinema": "David Tattersall",
+    "year": 2002,
+    "time": 142,
+    "country": "USA",
+    "budget": "115 million",
+    "boxoffice": "649 million",
+    "actors": [
+        {
+            "image": "ewan-mcgregor",
+            "name": "Ewan McGregor",
+            "role": "Obi-Wan Kenobi"
+        },
+        {
+            "image": "natalie-portman",
+            "name": "Natalie Portman",
+            "role": "Padme"
+        },
+        {
+            "image": "hayden-christensen",
+            "name": "Hayden Christensen",
+            "role": "Anakin Skywalker"
+        },
+        {
+            "image": "christopher-lee",
+            "name": "Christopher Lee",
+            "role": "Count Dooku"
+        },
+        {
+            "image": "samuel-l.-jackson",
+            "name": "Samuel L. Jackson",
+            "role": "Mace Windu"
+        },
+        {
+            "image": "frank-oz",
+            "name": "Frank Oz",
+            "role": "Yoda"
+        },
+        {
+            "image": "ian-mcdiarmid",
+            "name": "Ian McDiarmid",
+            "role": "Palpatine"
+        },
+        {
+            "image": "tamuera-morrison",
+            "name": "Tamuera Morrison",
+            "role": "Jango Fett"
+        },
+        {
+            "image": "jimmy-smits",
+            "name": "Jimmy Smits",
+            "role": "Bail Organa"
+        }
+    ],
+    "synopsis": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi.",
+    "categories": [
+        "star-wars"
+    ],
+    "awards": null,
+    "parts": "Star Wars",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

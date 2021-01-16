@@ -1,0 +1,70 @@
+{
+    "id": 115,
+    "title": "Tron: Legacy",
+    "poster": "tron",
+    "trailer": "L9szn1QQfas",
+    "genres": [
+        "Sci-Fi",
+        "Adventures"
+    ],
+    "production": [
+        "Walt-Disney-Pictures"
+    ],
+    "director": "Joseph Kosinski",
+    "producers": "Sean Bailey, Steven Lisberger, Jeffrey Silver",
+    "writtens": "Edward Kitsis, Adam Horowitz",
+    "music": "Daft Punk",
+    "cinema": "Claudio Miranda",
+    "year": 2010,
+    "time": 125,
+    "country": "USA",
+    "budget": "170 million",
+    "boxoffice": "400 million",
+    "actors": [
+        {
+            "image": "jeff-bridges",
+            "name": "Jeff Bridges",
+            "role": "Kevin Flynn / Clu"
+        },
+        {
+            "image": "garrett-hedlund",
+            "name": "Garrett Hedlund",
+            "role": "Sam Flynn"
+        },
+        {
+            "image": "olivia-wilde",
+            "name": "Olivia Wilde",
+            "role": "Quorra"
+        },
+        {
+            "image": "bruce-boxleitner",
+            "name": "Bruce Boxleitner",
+            "role": "Alan Bradley / Tron"
+        },
+        {
+            "image": "james-frain",
+            "name": "James Frain",
+            "role": "Jarvis"
+        },
+        {
+            "image": "beau-garett",
+            "name": "Beau Garett",
+            "role": "Gem"
+        },
+        {
+            "image": "michael-sheen",
+            "name": "Michael Sheen",
+            "role": "Castor / Zuse"
+        }
+    ],
+    "synopsis": "The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world.",
+    "categories": [
+        "special-favorite"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

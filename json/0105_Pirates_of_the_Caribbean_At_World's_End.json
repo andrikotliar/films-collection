@@ -1,0 +1,71 @@
+{
+    "id": 102,
+    "title": "Pirates of the Caribbean: At World's End",
+    "poster": "pirates_3",
+    "trailer": "HKSZtp_OGHY",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "Walt-Disney-Pictures",
+        "Jerry-Bruckheimer-Films"
+    ],
+    "director": "Gore Verbinski",
+    "producers": "Jerry Bruckheimer",
+    "writtens": "Ted Elliott, Terry Rossio",
+    "music": "Hans Zimmer",
+    "cinema": "Dariusz Wolski",
+    "year": 2007,
+    "time": 168,
+    "country": "USA",
+    "budget": "300 million",
+    "boxoffice": "963 million",
+    "actors": [
+        {
+            "image": "johnny-depp",
+            "name": "Johnny Depp",
+            "role": "Captain Jack Sparrow"
+        },
+        {
+            "image": "geoffrey-rush",
+            "name": "Geoffrey Rush",
+            "role": "Captain Hector Barbossa"
+        },
+        {
+            "image": "orlando-bloom",
+            "name": "Orlando Bloom",
+            "role": "Will Turner"
+        },
+        {
+            "image": "keira-knightley",
+            "name": "Keira Knightley",
+            "role": "Elizabeth Swann"
+        },
+        {
+            "image": "jack-davenport",
+            "name": "Jack Davenport",
+            "role": "Norrington"
+        },
+        {
+            "image": "bill-nighy",
+            "name": "Bill Nighy",
+            "role": "Davy Jones"
+        },
+        {
+            "image": "jonathan-pryce",
+            "name": "Jonathan Pryce",
+            "role": "Governor Weatherby Swann"
+        }
+    ],
+    "synopsis": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Pirates of the Caribbean",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

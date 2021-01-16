@@ -1,0 +1,70 @@
+{
+    "id": 107,
+    "title": "Real Steel",
+    "poster": "real_steel",
+    "trailer": "T75j9CoBVzEs",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "DreamWorks-Pictures"
+    ],
+    "director": "Shawn Levy",
+    "producers": "Shawn Levy, Susan Montford, Don Murphy",
+    "writtens": "John Gatins",
+    "music": "Danny Elfman",
+    "cinema": "Mauro Fiore",
+    "year": 2011,
+    "time": 127,
+    "country": "USA",
+    "budget": "110 million",
+    "boxoffice": "300 million",
+    "actors": [
+        {
+            "image": "hugh-jackman",
+            "name": "Hugh Jackman",
+            "role": "Charlie Kenton"
+        },
+        {
+            "image": "dakota-goyo",
+            "name": "Dakota Goyo",
+            "role": "Max Kenton"
+        },
+        {
+            "image": "evangeline-lilly",
+            "name": "Evangeline Lilly",
+            "role": "Bailey Tallet"
+        },
+        {
+            "image": "anthony-mackie",
+            "name": "Anthony Mackie",
+            "role": "Finn"
+        },
+        {
+            "image": "kevin-durand",
+            "name": "Kevin Durand",
+            "role": "Ricky"
+        },
+        {
+            "image": "hope-davis",
+            "name": "Hope Davis",
+            "role": "Aunt Debra"
+        },
+        {
+            "image": "james-rebhorn",
+            "name": "James Rebhorn",
+            "role": "Marvin"
+        }
+    ],
+    "synopsis": "In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

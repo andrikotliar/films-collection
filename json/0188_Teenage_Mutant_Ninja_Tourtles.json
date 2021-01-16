@@ -1,0 +1,90 @@
+{
+    "id": 186,
+    "title": "Teenage Mutant Ninja Tourtles",
+    "poster": "tmnt",
+    "trailer": "VZZ0PnDZdZk",
+    "genres": [
+        "Action",
+        "Comedy"
+    ],
+    "production": [
+        "Paramount-Pictures"
+    ],
+    "director": "Jonathan Liebesman",
+    "producers": "Michael Bay, Andrew Form, Brad Fuller, Galen Walker, Scott Mednick, Ian Bryce",
+    "writtens": "Josh Appelbaum, André Nemec, Evan Daugherty",
+    "music": "Brian Tyler",
+    "cinema": "Lula Carvalho",
+    "year": 2014,
+    "time": 101,
+    "country": "USA",
+    "budget": "125 million",
+    "boxoffice": "493 million",
+    "actors": [
+        {
+            "image": "pete-ploszek",
+            "name": "Pete Ploszek",
+            "role": "Leonardo"
+        },
+        {
+            "image": "johnny-knoxville",
+            "name": "Johnny Knoxville",
+            "role": "Leonardo (voice)"
+        },
+        {
+            "image": "alan-ritchson",
+            "name": "Alan Ritchson",
+            "role": "Raphael"
+        },
+        {
+            "image": "jeremy-howard",
+            "name": "Jeremy Howard",
+            "role": "Donatello"
+        },
+        {
+            "image": "noel-fisher",
+            "name": "Noel Fisher",
+            "role": "Michelangelo"
+        },
+        {
+            "image": "tony-shalhoub",
+            "name": "Tony Shalhoub",
+            "role": "Splinter (voice)"
+        },
+        {
+            "image": "tohoru-masamune",
+            "name": "Tohoru Masamune",
+            "role": "Shredder"
+        },
+        {
+            "image": "megan-fox",
+            "name": "Megan Fox",
+            "role": "April O'Neil"
+        },
+        {
+            "image": "will-arnett",
+            "name": "Will Arnett",
+            "role": "Vern Fenwick"
+        },
+        {
+            "image": "william-fichtner",
+            "name": "William Fichtner",
+            "role": "Eric Sacks"
+        },
+        {
+            "image": "danny-woodburn",
+            "name": "Danny Woodburn",
+            "role": "Splinter"
+        }
+    ],
+    "synopsis": "When a kingpin threatens New York City, a group of mutated turtle warriors must emerge from the shadows to protect their home.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

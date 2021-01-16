@@ -1,0 +1,67 @@
+{
+    "id": 124,
+    "title": "Ice Age: The Meltdown",
+    "poster": "ice_age_2",
+    "trailer": "s4PWGVtIZWA",
+    "genres": [
+        "Adventure",
+        "Comedy",
+        "Animation"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Blue-Sky-Studios"
+    ],
+    "director": "Carlos Saldanha",
+    "producers": "Lori Forte",
+    "writtens": "Peter Gaulke, Gerry Swallow, Jim Hecht",
+    "music": "John Powell",
+    "cinema": null,
+    "year": 2006,
+    "time": "91",
+    "country": "USA",
+    "budget": "80 million",
+    "boxoffice": "661 million",
+    "actors": [
+        {
+            "image": "ray-romano",
+            "name": "Ray Romano",
+            "role": "Manny"
+        },
+        {
+            "image": "john-leguizamo",
+            "name": "John Leguizamo",
+            "role": "Sid"
+        },
+        {
+            "image": "denis-leary",
+            "name": "Denis Leary",
+            "role": "Diego"
+        },
+        {
+            "image": "seann-william-scott",
+            "name": "Seann William Scott",
+            "role": "Crash"
+        },
+        {
+            "image": "josh-peck",
+            "name": "Josh Peck",
+            "role": "Eddie"
+        },
+        {
+            "image": "queen-latifah",
+            "name": "Queen Latifah",
+            "role": "Ellie"
+        }
+    ],
+    "synopsis": "Manny, Sid, and Diego discover that the ice age is coming to an end, and join everybody for a journey to higher ground. On the trip, they discover that Manny, in fact, is not the last of the woolly mammoths.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Ice Age",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

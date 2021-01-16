@@ -1,0 +1,71 @@
+{
+    "id": 32,
+    "title": "How to Train Your Dragon 2",
+    "poster": "how_to_train_your_dragon_2",
+    "trailer": "2BP38770KNo",
+    "genres": [
+        "Fantasy",
+        "Adventure",
+        "Animation"
+    ],
+    "production": [
+        "DreamWorks-Animation"
+    ],
+    "director": "Dean DeBlois",
+    "producers": "Bonnie Amold",
+    "writtens": "Dean DeBlois",
+    "music": "John Powell",
+    "cinema": "None",
+    "year": 2014,
+    "time": 102,
+    "country": "USA",
+    "budget": "145 million",
+    "boxoffice": "621 million",
+    "actors": [
+        {
+            "image": "jay-baruchel",
+            "name": "Jay Baruchel",
+            "role": "Hiccup"
+        },
+        {
+            "image": "cate-blanchett",
+            "name": "Cate Blanchett",
+            "role": "Valka"
+        },
+        {
+            "image": "gerard-butler",
+            "name": "Gerard Butler",
+            "role": "Stoick"
+        },
+        {
+            "image": "craig-ferguson",
+            "name": "Craig Ferguson",
+            "role": "Gobber"
+        },
+        {
+            "image": "america-ferrera",
+            "name": "America Ferrera",
+            "role": "Astrid"
+        },
+        {
+            "image": "djimon-hounsou",
+            "name": "Djimon Hounsou",
+            "role": "Drago Bludvist"
+        },
+        {
+            "image": "kit-harington",
+            "name": "Kit Harington",
+            "role": "Eret"
+        }
+    ],
+    "synopsis": "When Hiccup and Toothless discover an ice cave that is home to hundreds of new wild dragons and the mysterious Dragon Rider, the two friends find themselves at the center of a battle to protect the peace.",
+    "categories": [
+        "special-favorite"
+    ],
+    "awards": null,
+    "parts": "How to Train Your Dragon",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "id": 206,
+    "title": "Alita: Battle Angel",
+    "poster": "alita",
+    "trailer": "w7pYhpJaJW8",
+    "genres": [
+        "Cyberpunk",
+        "Action"
+    ],
+    "production": [
+        "20th-Century-FOX"
+    ],
+    "director": "Robert Rodriguez",
+    "producers": "James Cameron, Jon Landau",
+    "writtens": "James Cameron, Laeta Kalogridis",
+    "music": "Tom Holkenborg",
+    "cinema": "Bill Pope",
+    "year": 2019,
+    "time": 122,
+    "country": "USA",
+    "budget": "170 million",
+    "boxoffice": "400 million",
+    "actors": [
+        {
+            "image": "rosa-salazar",
+            "name": "Rosa Salazar",
+            "role": "Alita"
+        },
+        {
+            "image": "christoph-waltz",
+            "name": "Christoph Waltz",
+            "role": "Dr. Dyson Ido"
+        },
+        {
+            "image": "jennifer-connelly",
+            "name": "Jennifer Connelly",
+            "role": "Chiren"
+        },
+        {
+            "image": "mahershala-ali",
+            "name": "Mahershala Ali",
+            "role": "Vector"
+        },
+        {
+            "image": "ed-skrein",
+            "name": "Ed Skrein",
+            "role": "Zapan"
+        },
+        {
+            "image": "jackie-earle-haley",
+            "name": "Jackie Earle Haley",
+            "role": "Grewishka"
+        },
+        {
+            "image": "keean-johnson",
+            "name": "Keean Johnson",
+            "role": "Hugo"
+        }
+    ],
+    "synopsis": "A deactivated female cyborg is revived, but cannot remember anything of her past life and goes on a quest to find out who she is.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

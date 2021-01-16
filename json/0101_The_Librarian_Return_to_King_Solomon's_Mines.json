@@ -1,0 +1,80 @@
+{
+    "id": 98,
+    "title": "The Librarian: Return to King Solomon's Mines",
+    "poster": "librarian_2",
+    "trailer": "ansvc2Muxr0",
+    "genres": [
+        "Adventure",
+        "Fantasy"
+    ],
+    "production": [
+        "TNT"
+    ],
+    "director": "Jonathan Frakes",
+    "producers": "Michael S. Murphey, Noah Wyle",
+    "writtens": "Marco Schnabel",
+    "music": "Joseph LoDuca",
+    "cinema": "Walt Lloyd",
+    "year": 2006,
+    "time": 95,
+    "country": "USA",
+    "budget": null,
+    "boxoffice": null,
+    "actors": [
+        {
+            "image": "noah-wyle",
+            "name": "Noah Wyle",
+            "role": "Flynn Carsen"
+        },
+        {
+            "image": "gabrielle-anwar",
+            "name": "Gabrielle Anwar",
+            "role": "Emily Davenport"
+        },
+        {
+            "image": "bob-newhart",
+            "name": "Bob Newhart",
+            "role": "Judson"
+        },
+        {
+            "image": "jane-curtin",
+            "name": "Jane Curtin",
+            "role": "Charlene"
+        },
+        {
+            "image": "olympia-dukakis",
+            "name": "Olympia Dukakis",
+            "role": "Margie Carsen"
+        },
+        {
+            "image": "erick-avari",
+            "name": "Erick Avari",
+            "role": "General Samir"
+        },
+        {
+            "image": "hakeem-kae-kazim",
+            "name": "Hakeem Kae-Kazim",
+            "role": "Jomo"
+        },
+        {
+            "image": "robert-foxworth",
+            "name": "Robert Foxworth",
+            "role": "Uncle Jerry"
+        },
+        {
+            "image": "zahn-mcclarnon",
+            "name": "Zahn McClarnon",
+            "role": "Tommy Yellow Hawk"
+        }
+    ],
+    "synopsis": "Librarian-turned-adventurer Flynn Carsen endeavors to find King Solomon's mines.",
+    "categories": [
+        "most-watched"
+    ],
+    "awards": null,
+    "parts": "The Librarian",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

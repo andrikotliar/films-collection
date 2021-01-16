@@ -1,0 +1,66 @@
+{
+    "id": 231,
+    "title": "Birds of Prey",
+    "poster": "dceu_8",
+    "trailer": "kGM4uYZzfu0",
+    "genres": [
+        "Action",
+        "Comedy"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures",
+        "DC-Entertainment"
+    ],
+    "director": "Cathy Yan",
+    "producers": "Sue Kroll, Margot Robbie, Bryan Unkeless",
+    "writtens": "Christina Hodson",
+    "music": "Daniel Pemberton",
+    "cinema": "Matthew Libatique",
+    "year": 2020,
+    "time": 109,
+    "country": "USA",
+    "budget": "84 million",
+    "boxoffice": "202 million",
+    "actors": [
+        {
+            "image": "margot-robbie",
+            "name": "Margot Robbie",
+            "role": "Harley Quinn"
+        },
+        {
+            "image": "rosie-perez",
+            "name": "Rosie Perez",
+            "role": "Renee Montoya"
+        },
+        {
+            "image": "mary-elizabeth-winstead",
+            "name": "Mary Elizabeth Winstead",
+            "role": "Helena Bertinelli / The Huntress"
+        },
+        {
+            "image": "jurnee-smollett",
+            "name": "Jurnee Smollett",
+            "role": "Dinah Lance / Black Canary"
+        },
+        {
+            "image": "ewan-mcgregor",
+            "name": "Ewan McGregor",
+            "role": "Roman Sionis"
+        },
+        {
+            "image": "ella-jay-basco",
+            "name": "Ella Jay Basco",
+            "role": "Cassandra Cain"
+        }
+    ],
+    "synopsis": "After splitting with the Joker, Harley Quinn joins superheroes Black Canary, Huntress and Renee Montoya to save a young girl from an evil crime lord.",
+    "categories": [
+        "dceu", "cinema-watched"
+    ],
+    "awards": null,
+    "parts": "DC Extended Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

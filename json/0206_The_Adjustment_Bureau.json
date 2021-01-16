@@ -1,0 +1,76 @@
+{
+    "id": 213,
+    "title": "The Adjustment Bureau",
+    "poster": "adjustment_bureau",
+    "trailer": "wZJ0TP4nTaE",
+    "genres": [
+        "Romance",
+        "Sci-Fi",
+        "Thriller"
+    ],
+    "production": [
+        "Universal-Pictures"
+    ],
+    "director": "George Nolfi",
+    "producers": "Bill Carraro, Michael Hackett, Chris Moore, George Nolfi",
+    "writtens": "George Nolfi",
+    "music": "Thomas Newman",
+    "cinema": "John Toll",
+    "year": 2011,
+    "time": 106,
+    "country": "USA",
+    "budget": "50 million",
+    "boxoffice": "128 million",
+    "actors": [
+        {
+            "image": "matt-damon",
+            "name": "Matt Damon",
+            "role": "David Norris"
+        },
+        {
+            "image": "emily-blunt",
+            "name": "Emily Blunt",
+            "role": "Elise Sellas"
+        },
+        {
+            "image": "anthony-mackie-",
+            "name": "Anthony Mackie ",
+            "role": "Harry Mitchell"
+        },
+        {
+            "image": "john-slattery",
+            "name": "John Slattery",
+            "role": "Richardson"
+        },
+        {
+            "image": "michael-kelly-",
+            "name": "Michael Kelly ",
+            "role": "Charlie Traynor"
+        },
+        {
+            "image": "terence-stamp",
+            "name": "Terence Stamp",
+            "role": "Thompson"
+        },
+        {
+            "image": "donnie-keshawarz",
+            "name": "Donnie Keshawarz",
+            "role": "Donaldson"
+        },
+        {
+            "image": "anthony-ruivivar",
+            "name": "Anthony Ruivivar",
+            "role": "McCrady"
+        }
+    ],
+    "synopsis": "The affair between a politician and a contemporary dancer is affected by mysterious forces keeping the lovers apart.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

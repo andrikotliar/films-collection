@@ -1,0 +1,101 @@
+{
+    "id": 85,
+    "title": "X-Men: Days of Future Past",
+    "poster": "x_men_6",
+    "trailer": "pK2zYHWDZKo",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Marvel-Entertainment"
+    ],
+    "director": "Bryan Singer",
+    "producers": "Lauren Shuler Donner, Bryan Singer",
+    "writtens": "Simon Kinberg",
+    "music": "John Ottman",
+    "cinema": "Newton Thomas Sigel",
+    "year": 2014,
+    "time": 131,
+    "country": "USA",
+    "budget": "200 million",
+    "boxoffice": "748 million",
+    "actors": [
+        {
+            "image": "hugh-jackman",
+            "name": "Hugh Jackman",
+            "role": "Logan / Wolverine"
+        },
+        {
+            "image": "james-mcavoy",
+            "name": "James McAvoy",
+            "role": "Charles Xavier"
+        },
+        {
+            "image": "michael-fassbender",
+            "name": "Michael Fassbender",
+            "role": "Erik Lehnsherr"
+        },
+        {
+            "image": "jennifer-lawrence",
+            "name": "Jennifer Lawrence",
+            "role": "Raven / Mystique"
+        },
+        {
+            "image": "halle-berry",
+            "name": "Halle Berry",
+            "role": "Storm"
+        },
+        {
+            "image": "nicholas-hoult",
+            "name": "Nicholas Hoult",
+            "role": "Hank / Beast"
+        },
+        {
+            "image": "anna-paquin",
+            "name": "Anna Paquin",
+            "role": "Rogue"
+        },
+        {
+            "image": "ellen-page",
+            "name": "Ellen Page",
+            "role": "Kitty Pryde"
+        },
+        {
+            "image": "peter-dinklage",
+            "name": "Peter Dinklage",
+            "role": "Dr. Bolivar Trask"
+        },
+        {
+            "image": "shawn-ashmore",
+            "name": "Shawn Ashmore",
+            "role": "Bobby / Iceman"
+        },
+        {
+            "image": "evan-peters",
+            "name": "Evan Peters",
+            "role": "Peter / Quicksilver"
+        },
+        {
+            "image": "ian-mckellen",
+            "name": "Ian McKellen",
+            "role": "Magneto"
+        },
+        {
+            "image": "patrick-stewart",
+            "name": "Patrick Stewart",
+            "role": "Professor X"
+        }
+    ],
+    "synopsis": "The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "X-Men",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

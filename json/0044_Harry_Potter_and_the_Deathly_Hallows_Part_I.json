@@ -1,0 +1,75 @@
+{
+    "id": 43,
+    "title": "Harry Potter and the Deathly Hallows: Part I",
+    "poster": "harry_potter_7",
+    "trailer": "MxqsmsA8y5k",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "David Yates",
+    "producers": "David Heyman, David Barron, J.K.Rowling",
+    "writtens": "Steve Kloves",
+    "music": "Alexandre Desplat",
+    "cinema": "Eduardo Serra",
+    "year": 2010,
+    "time": 146,
+    "country": "USA, UK",
+    "budget": "250 million",
+    "boxoffice": "960 million",
+    "actors": [
+        {
+            "image": "daniel-radcliffe",
+            "name": "Daniel Radcliffe",
+            "role": "Harry Potter"
+        },
+        {
+            "image": "rupert-grint",
+            "name": "Rupert Grint",
+            "role": "Ron Weasley"
+        },
+        {
+            "image": "emma-watson",
+            "name": "Emma Watson",
+            "role": "Hermione Granger"
+        },
+        {
+            "image": "ralph-fiennes",
+            "name": "Ralph Fiennes",
+            "role": "Lord Voldemort"
+        },
+        {
+            "image": "robbie-coltrane",
+            "name": "Robbie Coltrane",
+            "role": "Rubeus Hagrid"
+        },
+        {
+            "image": "tom-felton",
+            "name": "Tom Felton",
+            "role": "Draco Malfoy"
+        },
+        {
+            "image": "alan-rickman",
+            "name": "Alan Rickman",
+            "role": "Severus Snape"
+        },
+        {
+            "image": "helena-bonham-carter",
+            "name": "Helena Bonham Carter",
+            "role": "Bellatrix Lestrage"
+        }
+    ],
+    "synopsis": "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows.",
+    "categories": [
+        "harry-potter"
+    ],
+    "awards": null,
+    "parts": "Harry Potter",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

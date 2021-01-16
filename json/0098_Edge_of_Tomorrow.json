@@ -1,0 +1,90 @@
+{
+    "id": 95,
+    "title": "Edge of Tomorrow",
+    "poster": "edge_of_tomorow",
+    "trailer": "vw61gCe2oqI",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "Doug Liman",
+    "producers": "Erwin Stoff, Tom Lassally, Jeffrey Silver",
+    "writtens": "Christopher McQuarrie, Jez Butterworth, John-Henry Butterworth",
+    "music": "Christophe Beck",
+    "cinema": "Dion Beebe",
+    "year": 2014,
+    "time": 113,
+    "country": "USA",
+    "budget": "178 million",
+    "boxoffice": "370 million",
+    "actors": [
+        {
+            "image": "tom-cruise",
+            "name": "Tom Cruise",
+            "role": "Cage"
+        },
+        {
+            "image": "emily-blunt",
+            "name": "Emily Blunt",
+            "role": "Rita"
+        },
+        {
+            "image": "brendan-gleeson",
+            "name": "Brendan Gleeson",
+            "role": "General Brigham"
+        },
+        {
+            "image": "bill-paxton",
+            "name": "Bill Paxton",
+            "role": "Master Sergeant Farell"
+        },
+        {
+            "image": "jonas-armstrong",
+            "name": "Jonas Armstrong",
+            "role": "Skinner"
+        },
+        {
+            "image": "tony-way",
+            "name": "Tony Way",
+            "role": "Kimmel"
+        },
+        {
+            "image": "kick-gurry",
+            "name": "Kick Gurry",
+            "role": "Griff"
+        },
+        {
+            "image": "franz-drameh",
+            "name": "Franz Drameh",
+            "role": "Ford"
+        },
+        {
+            "image": "dragomir-mrsic",
+            "name": "Dragomir Mrsic",
+            "role": "Kuntz"
+        },
+        {
+            "image": "charlotte-riley",
+            "name": "Charlotte Riley",
+            "role": "Nance"
+        },
+        {
+            "image": "masayoshi-haneda",
+            "name": "Masayoshi Haneda",
+            "role": "Takeda"
+        }
+    ],
+    "synopsis": "A soldier fighting aliens gets to relive the same day over and over again, the day restarting every time he dies.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

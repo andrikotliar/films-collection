@@ -1,0 +1,77 @@
+{
+    "id": 162,
+    "title": "Wonder Woman",
+    "poster": "dceu_4",
+    "trailer": "1Q8fG0TtVAY",
+    "genres": [
+        "Fantasy",
+        "Adventure",
+        "Drama"
+    ],
+    "production": [
+        "DC-Entertainment",
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "Patty Jenkins",
+    "producers": "Charles Roven, Deborah Snyder, Zack Snyder, Richard Suckle",
+    "writtens": "Allan Heinberg",
+    "music": "Rupert Gregson-Williams",
+    "cinema": "Matthew Jensen",
+    "year": 2017,
+    "time": 141,
+    "country": "USA",
+    "budget": "120 million",
+    "boxoffice": "822 million",
+    "actors": [
+        {
+            "image": "gal-gadot",
+            "name": "Gal Gadot",
+            "role": "Diana"
+        },
+        {
+            "image": "chris-pine",
+            "name": "Chris Pine",
+            "role": "Steve Trevor"
+        },
+        {
+            "image": "connie-nielsen",
+            "name": "Connie Nielsen",
+            "role": "Hippolyta"
+        },
+        {
+            "image": "robin-wright",
+            "name": "Robin Wright",
+            "role": "Antiope"
+        },
+        {
+            "image": "danny-huston",
+            "name": "Danny Huston",
+            "role": "Ludendorff"
+        },
+        {
+            "image": "david-thewlis",
+            "name": "David Thewlis",
+            "role": "Sir Patrick"
+        },
+        {
+            "image": "sa'd-taghmaoui",
+            "name": "Sa'd Taghmaoui",
+            "role": "Sameer"
+        },
+        {
+            "image": "ewen-bremner",
+            "name": "Ewen Bremner",
+            "role": "Charlie"
+        }
+    ],
+    "synopsis": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
+    "categories": [
+        "dceu"
+    ],
+    "awards": null,
+    "parts": "DC Extended Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

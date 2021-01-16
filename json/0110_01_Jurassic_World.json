@@ -1,0 +1,95 @@
+{
+    "id": 104,
+    "title": "Jurassic World",
+    "poster": "jurassic_world",
+    "trailer": "RFinNxS5KN4",
+    "genres": [
+        "Sci-Fi",
+        "Adventure"
+    ],
+    "production": [
+        "Universal-Pictures"
+    ],
+    "director": "Colin Trevorrow",
+    "producers": "Frank Marshall, Patrick Crowley",
+    "writtens": "Rick Jaffa, Amanda Silver, Derek Connolly, Colin Trevorrow",
+    "music": "Michael Giacchino",
+    "cinema": "John Schwartzman",
+    "year": 2015,
+    "time": 124,
+    "country": "USA",
+    "budget": "150 million",
+    "boxoffice": "1,67 billion",
+    "actors": [
+        {
+            "image": "chris-pratt",
+            "name": "Chris Pratt",
+            "role": "Owen"
+        },
+        {
+            "image": "bryce-dallas-howard",
+            "name": "Bryce Dallas Howard",
+            "role": "Claire"
+        },
+        {
+            "image": "irrfan-khan",
+            "name": "Irrfan Khan",
+            "role": "Masrani"
+        },
+        {
+            "image": "vincent-d'onofrio",
+            "name": "Vincent D'Onofrio",
+            "role": "Hoskins"
+        },
+        {
+            "image": "ty-simpkins",
+            "name": "Ty Simpkins",
+            "role": "Gray"
+        },
+        {
+            "image": "nick-robinson",
+            "name": "Nick Robinson",
+            "role": "Zach"
+        },
+        {
+            "image": "jake-johnson",
+            "name": "Jake Johnson",
+            "role": "Lowery"
+        },
+        {
+            "image": "omar-sy",
+            "name": "Omar Sy",
+            "role": "Barry"
+        },
+        {
+            "image": "bd-wong",
+            "name": "BD Wong",
+            "role": "Dr. Henry Wu"
+        },
+        {
+            "image": "judy-greer",
+            "name": "Judy Greer",
+            "role": "Karen"
+        },
+        {
+            "image": "lauren-lapkus",
+            "name": "Lauren Lapkus",
+            "role": "Vivian"
+        },
+        {
+            "image": "brian-tee",
+            "name": "Brian Tee",
+            "role": "Hamada"
+        }
+    ],
+    "synopsis": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Jurassic Park",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

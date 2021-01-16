@@ -1,0 +1,72 @@
+{
+    "id": 212,
+    "title": "Your Name",
+    "poster": "your_name",
+    "trailer": "VgixlvX28-g",
+    "genres": [
+        "Anime",
+        "Drama",
+        "Fantasy",
+        "Animation"
+    ],
+    "production": [
+        "Toho, CoMix-Wave-Films"
+    ],
+    "director": "Makoto Shinkai",
+    "producers": "Noritaka Kawaguchi, Genki Kawamura",
+    "writtens": "Makoto Shinkai",
+    "music": "Radwimps",
+    "cinema": "Makoto Shinkai",
+    "year": 2016,
+    "time": 107,
+    "country": "Japan",
+    "budget": "3,48 million",
+    "boxoffice": "358 million",
+    "actors": [
+        {
+            "image": "ry'nosuke-kamiki",
+            "name": "Ry'nosuke Kamiki",
+            "role": "Taki Tachibana (voice)"
+        },
+        {
+            "image": "mone-kamishiraishi",
+            "name": "Mone Kamishiraishi",
+            "role": "Mitsuha Miyamizu (voice)"
+        },
+        {
+            "image": "ry'-narita",
+            "name": "Ry' Narita",
+            "role": "Katsuhiko Teshigawara (voice)"
+        },
+        {
+            "image": "aoi-y'ki",
+            "name": "Aoi Y'ki",
+            "role": "Sayaka Natori (voice)"
+        },
+        {
+            "image": "nobunaga-shimazaki",
+            "name": "Nobunaga Shimazaki",
+            "role": "Tsukasa Fujii (voice)"
+        },
+        {
+            "image": "kaito-ishikawa",
+            "name": "Kaito Ishikawa",
+            "role": "Shinta Takagi (voice)"
+        },
+        {
+            "image": "kanon-tani",
+            "name": "Kanon Tani",
+            "role": "Yotsuha Miyamizu (voice)"
+        }
+    ],
+    "synopsis": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

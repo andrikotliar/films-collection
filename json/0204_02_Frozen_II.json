@@ -1,0 +1,55 @@
+{
+    "id": 233,
+    "title": "Frozen II",
+    "poster": "frozen_2",
+    "trailer": "Zi4LMpSDccc",
+    "genres": [
+        "Fantasy",
+        "Animation"
+    ],
+    "production": [
+        "Walt-Disney-Pictures"
+    ],
+    "director": "Chris Buck, Jennifer Lee",
+    "producers": "Peter Del Vecho",
+    "writtens": "Jennifer Lee",
+    "music": "Christophe Beck",
+    "cinema": null,
+    "year": 2019,
+    "time": 103,
+    "country": "USA",
+    "budget": "150 million",
+    "boxoffice": "1,4 billion",
+    "actors": [
+        {
+            "image": "kristen-bell",
+            "name": "Kristen Bell",
+            "role": "Anna (voice)"
+        },
+        {
+            "image": "idina-menzel",
+            "name": "Idina Menzel",
+            "role": "Elsa (voice)"
+        },
+        {
+            "image": "josh-gad",
+            "name": "Josh Gad",
+            "role": "Olaf (voice)"
+        },
+        {
+            "image": "jonathan-groff",
+            "name": "Jonathan Groff",
+            "role": "Kristoff (voice)"
+        }
+    ],
+    "synopsis": "Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's powers in order to save their kingdom.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": "Frozen",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

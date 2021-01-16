@@ -1,0 +1,75 @@
+{
+    "id": 9,
+    "title": "Back to the Future",
+    "poster": "back_to_the_future_1",
+    "trailer": "qvsgGtivCgs",
+    "genres": [
+        "Sci-Fi",
+        "Adventure"
+    ],
+    "production": [
+        "Universal-Pictures"
+    ],
+    "director": "Robert Zemeckis",
+    "producers": "Steven Spielberg, Bob Gale, Neil Canton",
+    "writtens": "Robert Zemeckis, Bob Gale",
+    "music": "Alan Silvestri",
+    "cinema": "Dean Cundey",
+    "year": 1985,
+    "time": 116,
+    "country": "USA",
+    "budget": "19 million",
+    "boxoffice": "381 million",
+    "actors": [
+        {
+            "image": "michael-j.-fox",
+            "name": "Michael J. Fox",
+            "role": "Marty McFly"
+        },
+        {
+            "image": "christopher-lloyd",
+            "name": "Christopher Lloyd",
+            "role": "Dr. Emmett Brown"
+        },
+        {
+            "image": "lea-thompson",
+            "name": "Lea Thompson",
+            "role": "Lorraine Baines"
+        },
+        {
+            "image": "crispin-glover",
+            "name": "Crispin Glover",
+            "role": "George McFly"
+        },
+        {
+            "image": "thomas-f.-wilson",
+            "name": "Thomas F. Wilson",
+            "role": "Biff Tannen"
+        },
+        {
+            "image": "claudia-wells",
+            "name": "Claudia Wells",
+            "role": "Jennifer Parker"
+        },
+        {
+            "image": "marc-mcclure",
+            "name": "Marc McClure",
+            "role": "Dave McFly"
+        },
+        {
+            "image": "wendie-jo-sperber",
+            "name": "Wendie Jo Sperber",
+            "role": "Linda McFly"
+        }
+    ],
+    "synopsis": "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Back to the Future",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

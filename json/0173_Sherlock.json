@@ -1,0 +1,93 @@
+{
+    "id": 168,
+    "title": "Sherlock",
+    "poster": "tv_sherlock",
+    "trailer": null,
+    "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+    ],
+    "production": [
+        "BBC-One"
+    ],
+    "director": "Mark Gatiss, Steven Moffat",
+    "producers": "Sue Vertue, Elaine Cameron",
+    "writtens": "Mark Gatiss, Steven Moffat, Stephen Thompson",
+    "music": "David Arnold, Michael Price",
+    "cinema": "Fabian Wagner, Steve Lawes",
+    "year": 2010,
+    "time": 85,
+    "country": "UK",
+    "budget": null,
+    "boxoffice": null,
+    "actors": [
+        {
+            "image": "benedict-cumberbatch",
+            "name": "Benedict Cumberbatch",
+            "role": "Sherlock Holmes"
+        },
+        {
+            "image": "martin-freeman",
+            "name": "Martin Freeman",
+            "role": "Dr. John Watson"
+        },
+        {
+            "image": "una-stubbs",
+            "name": "Una Stubbs",
+            "role": "Mrs. Hudson"
+        },
+        {
+            "image": "rupert-graves",
+            "name": "Rupert Graves",
+            "role": "DI Lestrade"
+        },
+        {
+            "image": "louise-brealey",
+            "name": "Louise Brealey",
+            "role": "Molly Hooper"
+        },
+        {
+            "image": "mark-gatiss",
+            "name": "Mark Gatiss",
+            "role": "Mycroft Holmes"
+        },
+        {
+            "image": "andrew-scott",
+            "name": "Andrew Scott",
+            "role": "Jim Moriarty"
+        },
+        {
+            "image": "amanda-abbington",
+            "name": "Amanda Abbington",
+            "role": "Mary Watson"
+        }
+    ],
+    "synopsis": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
+    "categories": [
+        "series"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "series",
+        "data": [
+            {
+                "episodes": 3,
+                "trailer": "xK7S9mrFWL4"
+            },
+            {
+                "episodes": 3,
+                "trailer": "bF71IxmOdeE"
+            },
+            {
+                "episodes": 3,
+                "trailer": "9UcR9iKArd0"
+            },
+            {
+                "episodes": 3,
+                "trailer": "qlcWFoNqZHc"
+            }
+        ]
+    }
+}

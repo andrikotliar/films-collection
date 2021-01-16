@@ -1,0 +1,86 @@
+{
+    "id": 171,
+    "title": "Godzilla: King of Monsters",
+    "poster": "monsterverse_3",
+    "trailer": "QFxN2oDKk0E",
+    "genres": [
+        "Action",
+        "Fantasy"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures",
+        "Legendary-Pictures"
+    ],
+    "director": "Michael Dougherty",
+    "producers": "Mary Parent, Alex Garcia, Thomas Tull",
+    "writtens": "Michael Dougherty, Zach Shields",
+    "music": "Bear McCreary",
+    "cinema": "Lawrence Sher",
+    "year": 2019,
+    "time": 132,
+    "country": "USA",
+    "budget": "170 million",
+    "boxoffice": "386 million",
+    "actors": [
+        {
+            "image": "kyle-chandler",
+            "name": "Kyle Chandler",
+            "role": "Dr. Mark Russell"
+        },
+        {
+            "image": "vera-farmiga",
+            "name": "Vera Farmiga",
+            "role": "Dr. Emma Russell"
+        },
+        {
+            "image": "millie-bobby-brown",
+            "name": "Millie Bobby Brown",
+            "role": "Madison Russell"
+        },
+        {
+            "image": "ken-watanabe",
+            "name": "Ken Watanabe",
+            "role": "Dr. Ishiro Serizawa"
+        },
+        {
+            "image": "ziyi-zhang",
+            "name": "Ziyi Zhang",
+            "role": "Dr. Ilene Chen / Dr. Ling"
+        },
+        {
+            "image": "bradley-whitford",
+            "name": "Bradley Whitford",
+            "role": "Dr. Rick Stanton"
+        },
+        {
+            "image": "sally-hawkins",
+            "name": "Sally Hawkins",
+            "role": "Dr. Vivienne Graham"
+        },
+        {
+            "image": "charles-dance",
+            "name": "Charles Dance",
+            "role": "Alan Jonah"
+        },
+        {
+            "image": "thomas-middleditch",
+            "name": "Thomas Middleditch",
+            "role": "Sam Coleman"
+        },
+        {
+            "image": "aisha-hinds",
+            "name": "Aisha Hinds",
+            "role": "Colonel Diane Foster"
+        }
+    ],
+    "synopsis": "The crypto-zoological agency Monarch faces off against a battery of god-sized monsters, including the mighty Godzilla, who collides with Mothra, Rodan, and his ultimate nemesis, the three-headed King Ghidorah.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Monsterverse",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

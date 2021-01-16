@@ -1,0 +1,101 @@
+{
+    "id": 58,
+    "title": "The Avengers",
+    "poster": "mcu_6",
+    "trailer": "hIR8Ar-Z4hw",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Walt-Disney-Pictures",
+        "Marvel-Studios"
+    ],
+    "director": "Joss Whedon",
+    "producers": "Kevin Feige",
+    "writtens": "Joss Whedon",
+    "music": "Alan Silvestri",
+    "cinema": "Seamus McGarvey",
+    "year": 2012,
+    "time": 143,
+    "country": "USA",
+    "budget": "220 million",
+    "boxoffice": "1,52 billion",
+    "actors": [
+        {
+            "image": "robert-downey-jr.",
+            "name": "Robert Downey Jr.",
+            "role": "Tony Stark / Iron Man"
+        },
+        {
+            "image": "chris-evans",
+            "name": "Chris Evans",
+            "role": "Steve Rogers / Captain America"
+        },
+        {
+            "image": "mark-ruffalo",
+            "name": "Mark Ruffalo",
+            "role": "Bruce Banner / The Hulk"
+        },
+        {
+            "image": "chris-hemsworth",
+            "name": "Chris Hemsworth",
+            "role": "Thor"
+        },
+        {
+            "image": "scarlett-johansson",
+            "name": "Scarlett Johansson",
+            "role": "Natasha Romanoff / Black Widow"
+        },
+        {
+            "image": "jeremy-renner",
+            "name": "Jeremy Renner",
+            "role": "Clint Barton / Hawkeye"
+        },
+        {
+            "image": "tom-hiddleston",
+            "name": "Tom Hiddleston",
+            "role": "Loki"
+        },
+        {
+            "image": "clark-gregg",
+            "name": "Clark Gregg",
+            "role": "Agent Phil Coulson"
+        },
+        {
+            "image": "cobie-smulders",
+            "name": "Cobie Smulders",
+            "role": "Agent Maria Hill"
+        },
+        {
+            "image": "stellan-skarsgard",
+            "name": "Stellan Skarsgard",
+            "role": "Selvig"
+        },
+        {
+            "image": "samuel-l.-jackson",
+            "name": "Samuel L. Jackson",
+            "role": "Nick Fury"
+        },
+        {
+            "image": "gwyneth-paltrow",
+            "name": "Gwyneth Paltrow",
+            "role": "Pepper Potts"
+        },
+        {
+            "image": "paul-bettany",
+            "name": "Paul Bettany",
+            "role": "Jarvis (voice)"
+        }
+    ],
+    "synopsis": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+    "categories": [
+        "marvel"
+    ],
+    "awards": null,
+    "parts": "Marvel Cinematic Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

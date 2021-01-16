@@ -1,0 +1,61 @@
+{
+    "id": 116,
+    "title": "Men in Black",
+    "poster": "mib_1",
+    "trailer": "1Q4mhYF9aQQ",
+    "genres": [
+        "Sci-Fi",
+        "Action",
+        "Comedy"
+    ],
+    "production": [
+        "Columbia-Pictures"
+    ],
+    "director": "Barry Sonnenfeld",
+    "producers": "Walter F. Parkes, Laurie MacDonald",
+    "writtens": "Ed Solomon",
+    "music": "Danny Elfman",
+    "cinema": "Don Peterman",
+    "year": 1997,
+    "time": 98,
+    "country": "USA",
+    "budget": "90 million",
+    "boxoffice": "589 million",
+    "actors": [
+        {
+            "image": "tommy-lee-jones",
+            "name": "Tommy Lee Jones",
+            "role": "K"
+        },
+        {
+            "image": "will-smith",
+            "name": "Will Smith",
+            "role": "J"
+        },
+        {
+            "image": "linda-fiorentino",
+            "name": "Linda Fiorentino",
+            "role": "Laurel"
+        },
+        {
+            "image": "vincent-d'onofrio",
+            "name": "Vincent D'Onofrio",
+            "role": "Edgar"
+        },
+        {
+            "image": "rip-torn",
+            "name": "Rip Torn",
+            "role": "Z"
+        }
+    ],
+    "synopsis": "A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Men in Black",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

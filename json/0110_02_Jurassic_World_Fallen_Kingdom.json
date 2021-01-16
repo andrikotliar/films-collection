@@ -1,0 +1,67 @@
+{
+    "id": 230,
+    "title": "Jurassic World: Fallen Kingdom",
+    "poster": "jurassic_world_2",
+    "trailer": "vn9mMeWcgoM",
+    "genres": [
+        "Sci-Fi",
+        "Adventure"
+    ],
+    "production": [
+        "Universal-Pictures",
+        "Amblin-Entertainment",
+        "Legendary-Entertainment"
+    ],
+    "director": "J.A. Bayona",
+    "producers": "Frank Marshall, Belén Atien, Patrick Crowleyza,",
+    "writtens": "Derek Connolly, Colin Trevorrow",
+    "music": "Michael Giacchino",
+    "cinema": "Oscar Faura",
+    "year": 2018,
+    "time": 128,
+    "country": "USA",
+    "budget": "170 million",
+    "boxoffice": "1,3 billion",
+    "actors": [
+        {
+            "image": "chris-pratt",
+            "name": "Chris Pratt",
+            "role": "Owen Grady"
+        },
+        {
+            "image": "bryce-dallas-howard",
+            "name": "Bryce Dallas Howard",
+            "role": "Claire Dearing"
+        },
+        {
+            "image": "rafe-spall",
+            "name": "Rafe Spall",
+            "role": "Eli Mills"
+        },
+        {
+            "image": "justice-smith",
+            "name": "Justice Smith",
+            "role": "Franklin Webb"
+        },
+        {
+            "image": "daniella-pineda",
+            "name": "Daniella Pineda",
+            "role": "Zia Rodriguez"
+        },
+        {
+            "image": "james-cromwell",
+            "name": "James Cromwell",
+            "role": "Benjamin Lockwood"
+        }
+    ],
+    "synopsis": "When the island's dormant volcano begins roaring to life, Owen and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level event.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": "Jurassic Park",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

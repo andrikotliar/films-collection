@@ -1,0 +1,81 @@
+{
+    "id": 160,
+    "title": "Batman v Superman: Dawn of Justice",
+    "poster": "dceu_2",
+    "trailer": "bha24P9uw-E",
+    "genres": [
+        "Action",
+        "Adventure"
+    ],
+    "production": [
+        "DC-Entertainment",
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "Zack Snyder",
+    "producers": "Charles Roven, Deborah Snyder",
+    "writtens": "Chris Terrio, David S. Goyer",
+    "music": "Hans Zimmer, Junkie XL",
+    "cinema": "Larry Fong",
+    "year": 2016,
+    "time": 151,
+    "country": "USA",
+    "budget": "250 million",
+    "boxoffice": "874 million",
+    "actors": [
+        {
+            "image": "ben-affleck",
+            "name": "Ben Affleck",
+            "role": "Bruce Wayne / Batman"
+        },
+        {
+            "image": "henry-cavill",
+            "name": "Henry Cavill",
+            "role": "Clark Kent / Superman"
+        },
+        {
+            "image": "amy-adams",
+            "name": "Amy Adams",
+            "role": "Lois"
+        },
+        {
+            "image": "jesse-eisenberg",
+            "name": "Jesse Eisenberg",
+            "role": "Lex Luthor"
+        },
+        {
+            "image": "diane-lane",
+            "name": "Diane Lane",
+            "role": "Martha Kent"
+        },
+        {
+            "image": "laurence-fishburne",
+            "name": "Laurence Fishburne",
+            "role": "Perry White"
+        },
+        {
+            "image": "jeremy-irons",
+            "name": "Jeremy Irons",
+            "role": "Alfred"
+        },
+        {
+            "image": "holly-hunter",
+            "name": "Holly Hunter",
+            "role": "Senator Finch"
+        },
+        {
+            "image": "gal-gadot",
+            "name": "Gal Gadot",
+            "role": "Diana Prince / Wonder Woman"
+        }
+    ],
+    "synopsis": "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs.",
+    "categories": [
+        "dceu"
+    ],
+    "awards": null,
+    "parts": "DC Extended Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

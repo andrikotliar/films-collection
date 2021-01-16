@@ -1,0 +1,90 @@
+{
+    "id": 50,
+    "title": "Furious Six",
+    "poster": "fast_and_furious_6",
+    "trailer": "dKi5XoeTN0k",
+    "genres": [
+        "Action",
+        "Crime"
+    ],
+    "production": [
+        "Universal-Pictures"
+    ],
+    "director": "Justin Lin",
+    "producers": "Neal H. Moritz, Vin Diesel",
+    "writtens": "Chris Morgan",
+    "music": "Lucas Vidal",
+    "cinema": "Stephen F. Windon",
+    "year": 2013,
+    "time": 131,
+    "country": "USA",
+    "budget": "160 million",
+    "boxoffice": "789 million",
+    "actors": [
+        {
+            "image": "vin-diesel",
+            "name": "Vin Diesel",
+            "role": "Dominic Toretto"
+        },
+        {
+            "image": "paul-walker",
+            "name": "Paul Walker",
+            "role": "Brian O'Conner"
+        },
+        {
+            "image": "dwayne-johnson",
+            "name": "Dwayne Johnson",
+            "role": "Hobbs"
+        },
+        {
+            "image": "jordana-brewster",
+            "name": "Jordana Brewster",
+            "role": "Mia"
+        },
+        {
+            "image": "michelle-rodriguez",
+            "name": "Michelle Rodriguez",
+            "role": "Letty"
+        },
+        {
+            "image": "tyrese-gibson",
+            "name": "Tyrese Gibson",
+            "role": "Roman"
+        },
+        {
+            "image": "sung-kang",
+            "name": "Sung Kang",
+            "role": "Han"
+        },
+        {
+            "image": "gal-gadot",
+            "name": "Gal Gadot",
+            "role": "Gisele"
+        },
+        {
+            "image": "ludacris",
+            "name": "Ludacris",
+            "role": "Tej"
+        },
+        {
+            "image": "luke-evans",
+            "name": "Luke Evans",
+            "role": "Shaw"
+        },
+        {
+            "image": "elsa-pataky",
+            "name": "Elsa Pataky",
+            "role": "Elena"
+        }
+    ],
+    "synopsis": "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Fast and Furious",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

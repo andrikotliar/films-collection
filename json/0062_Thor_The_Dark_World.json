@@ -1,0 +1,91 @@
+{
+    "id": 60,
+    "title": "Thor: The Dark World",
+    "poster": "mcu_8",
+    "trailer": "npvJ9FTgZbM",
+    "genres": [
+        "Fantasy",
+        "Action"
+    ],
+    "production": [
+        "Walt-Disney-Pictures",
+        "Marvel-Studios"
+    ],
+    "director": "Alan Taylor",
+    "producers": "Kevin Feige",
+    "writtens": "Christopher Yost, Stephen McFeely, Christopher Markus",
+    "music": "Brian Tyler",
+    "cinema": "Kramer Morgenthau",
+    "year": 2013,
+    "time": 112,
+    "country": "USA",
+    "budget": "153 million",
+    "boxoffice": "645 million",
+    "actors": [
+        {
+            "image": "chris-hemsworth",
+            "name": "Chris Hemsworth",
+            "role": "Thor"
+        },
+        {
+            "image": "natalie-portman",
+            "name": "Natalie Portman",
+            "role": "Jane Foster"
+        },
+        {
+            "image": "tom-hiddleston",
+            "name": "Tom Hiddleston",
+            "role": "Loki"
+        },
+        {
+            "image": "anthony-hopkins",
+            "name": "Anthony Hopkins",
+            "role": "Odin"
+        },
+        {
+            "image": "christopher-eccleston",
+            "name": "Christopher Eccleston",
+            "role": "Malekith"
+        },
+        {
+            "image": "jaimie-alexander",
+            "name": "Jaimie Alexander",
+            "role": "Sif"
+        },
+        {
+            "image": "zachary-levi",
+            "name": "Zachary Levi",
+            "role": "Fandral"
+        },
+        {
+            "image": "ray-stevenson",
+            "name": "Ray Stevenson",
+            "role": "Volstagg"
+        },
+        {
+            "image": "tadanobu-asano",
+            "name": "Tadanobu Asano",
+            "role": "Hogun"
+        },
+        {
+            "image": "idris-elba",
+            "name": "Idris Elba",
+            "role": "Heimdall"
+        },
+        {
+            "image": "rene-russo",
+            "name": "Rene Russo",
+            "role": "Frigga"
+        }
+    ],
+    "synopsis": "When Dr. Jane Foster gets cursed with a powerful entity known as the Aether, Thor is heralded of the cosmic event known as the Convergence and the genocidal Dark Elves.",
+    "categories": [
+        "marvel"
+    ],
+    "awards": null,
+    "parts": "Marvel Cinematic Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

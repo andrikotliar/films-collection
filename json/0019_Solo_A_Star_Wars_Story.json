@@ -1,0 +1,90 @@
+{
+    "id": 19,
+    "title": "Solo: A Star Wars Story",
+    "poster": "star_wars_5",
+    "trailer": "jPEYpryMp2s",
+    "genres": [
+        "Space Western"
+    ],
+    "production": [
+        "Lucasfilm",
+        "Walt-Disney-Pictures"
+    ],
+    "director": "Ron Howard",
+    "producers": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+    "writtens": "Jonathan Kasdan, Lawrence Kasdan",
+    "music": "John Powell, John Williams",
+    "cinema": "Bradford Young",
+    "year": 2018,
+    "time": 135,
+    "country": "USA",
+    "budget": "375 million",
+    "boxoffice": "393 million",
+    "actors": [
+        {
+            "image": "alden-ehrenreich",
+            "name": "Alden Ehrenreich",
+            "role": "Han Solo"
+        },
+        {
+            "image": "joonas-suotamo",
+            "name": "Joonas Suotamo",
+            "role": "Chewbacca"
+        },
+        {
+            "image": "woody-harrelson",
+            "name": "Woody Harrelson",
+            "role": "Beckett"
+        },
+        {
+            "image": "emilia-clarke",
+            "name": "Emilia Clarke",
+            "role": "Qi'ra"
+        },
+        {
+            "image": "donald-glover",
+            "name": "Donald Glover",
+            "role": "Lando Calrissian"
+        },
+        {
+            "image": "thandie-newton",
+            "name": "Thandie Newton",
+            "role": "Val"
+        },
+        {
+            "image": "phoebe-waller-bridge",
+            "name": "Phoebe Waller-Bridge",
+            "role": "L3-37 (voice)"
+        },
+        {
+            "image": "paul-bettany",
+            "name": "Paul Bettany",
+            "role": "Dryden Vos"
+        },
+        {
+            "image": "jon-favreau",
+            "name": "Jon Favreau",
+            "role": "Rio Durant (voice)"
+        },
+        {
+            "image": "erin-kellyman",
+            "name": "Erin Kellyman",
+            "role": "Enfys Nest"
+        },
+        {
+            "image": "linda-hunt",
+            "name": "Linda Hunt",
+            "role": "Lady Proxima (voice)"
+        }
+    ],
+    "synopsis": "During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion.",
+    "categories": [
+        "star-wars"
+    ],
+    "awards": null,
+    "parts": "Star Wars",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

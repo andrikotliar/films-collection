@@ -1,0 +1,81 @@
+{
+    "id": 164,
+    "title": "Aquaman",
+    "poster": "dceu_6",
+    "trailer": "WDkg3h8PCVU",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "DC-Entertainment",
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "James Wan",
+    "producers": "Peter Safran, Rob Cowan",
+    "writtens": "David Leslie Johnson-McGoldrick, Will Beall",
+    "music": "Rupert Gregson-Williams",
+    "cinema": "Don Burgess",
+    "year": 2018,
+    "time": 143,
+    "country": "USA",
+    "budget": "160 million",
+    "boxoffice": "1,15 billion",
+    "actors": [
+        {
+            "image": "jason-momoa",
+            "name": "Jason Momoa",
+            "role": "Arthur"
+        },
+        {
+            "image": "amber-heard",
+            "name": "Amber Heard",
+            "role": "Mera"
+        },
+        {
+            "image": "willem-dafoe",
+            "name": "Willem Dafoe",
+            "role": "Vulko"
+        },
+        {
+            "image": "patrick-wilson",
+            "name": "Patrick Wilson",
+            "role": "King Orm"
+        },
+        {
+            "image": "nicole-kidman",
+            "name": "Nicole Kidman",
+            "role": "Atlanna"
+        },
+        {
+            "image": "dolph-lundgren",
+            "name": "Dolph Lundgren",
+            "role": "King Nereus"
+        },
+        {
+            "image": "yahya-abdul-mateen-ii",
+            "name": "Yahya Abdul-Mateen II",
+            "role": "Manta"
+        },
+        {
+            "image": "temuera-morrison",
+            "name": "Temuera Morrison",
+            "role": "Tom Curry"
+        },
+        {
+            "image": "ludi-lin",
+            "name": "Ludi Lin",
+            "role": "Captain Murk"
+        }
+    ],
+    "synopsis": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
+    "categories": [
+        "dceu"
+    ],
+    "awards": null,
+    "parts": "DC Extended Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

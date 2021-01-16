@@ -1,0 +1,65 @@
+{
+    "id": 234,
+    "title": "The 100",
+    "poster": "hundred",
+    "trailer": null,
+    "genres": [
+        "Sci-Fi",
+        "Drama"
+    ],
+    "production": [
+        "The-CW",
+        "Warner-Bros.-Television",
+        "CBS-Television-Studios"
+    ],
+    "director": "Jason Rothenberg",
+    "producers": "Jae Marchant, Tim Scanlan, Aaron Ginsburg, Wade McIntyre, T.J. Brady, Rasheed Newson, Kira Snyder, Kim Shumway, Heidi Cole McAdams, Miranda Kwok, Alyssa Clark, Georgia Lee, Charles Lyle",
+    "writtens": "Kass Morgan, Charmaine De Grate, Heidi Cole McAdams, Kim Shumway, Julie Benson, Shawna Benson, Justine Juel Gillmer",
+    "music": "Tree Adams, Marc Dauer, Evan Frankfort, Liz Phair",
+    "cinema": "Michael C. Blundell, Gerald Packer, Philip Linzey, Jim Stacey, Nathaniel Goodman",
+    "year": 2014,
+    "time": 43,
+    "country": "USA, Canada",
+    "budget": "100 million",
+    "boxoffice": "100 million",
+    "actors": [{"image": "eliza-taylor", "name": "Eliza Taylor", "role": "Clarke Griffin"}, {"image": "marie-avgeropoulos", "name": "Marie Avgeropoulos", "role": "Octavia Blake"}, {"image": "bob-morley", "name": "Bob Morley", "role": "Bellamy Blake"}, {"image": "lindsey-morgan", "name": "Lindsey Morgan", "role": "Raven Reyes"}, {"image": "richard-harmon", "name": "Richard Harmon", "role": "John Murphy"}, {"image": "paige-turco", "name": "Paige Turco", "role": "Dr. Abigail Griffin"}, {"image": "henry-ian-cusick", "name": "Henry Ian Cusick", "role": "Marcus Kane"}, {"image": "christopher-larkin", "name": "Christopher Larkin", "role": "Monty Green"}, {"image": "jarod-joseph", "name": "Jarod Joseph", "role": "Nathan Miller"}, {"image": "isaiah-washington", "name": "Isaiah Washington", "role": "Thelonious Jaha"}, {"image": "sachin-sahel", "name": "Sachin Sahel", "role": "Dr. Eric Jackson"}, {"image": "tasya-teles", "name": "Tasya Teles", "role": "Echo"}, {"image": "adina-porter", "name": "Adina Porter", "role": "Indra"}, {"image": "luisa-d'oliveira", "name": "Luisa d'Oliveira", "role": "Emori"}, {"image": "chelsey-reist", "name": "Chelsey Reist", "role": "Harper McIntyre"}, {"image": "ricky-whittle", "name": "Ricky Whittle", "role": "Lincoln"}, {"image": "lola-flanery", "name": "Lola Flanery", "role": "Madi Griffin"}, {"image": "shannon-kook", "name": "Shannon Kook", "role": "Jordan Green"}, {"image": "tati-gabrielle", "name": "Tati Gabrielle", "role": "Gaia"}, {"image": "jr-bourne", "name": "JR Bourne", "role": "Sheidheda"}, {"image": "ivana-milicevic", "name": "Ivana Milicevic", "role": "Charmaine Diyoza"}, {"image": "thomas-mcdonell", "name": "Thomas McDonell", "role": "Finn Collins"}, {"image": "erica-cerra", "name": "Erica Cerra", "role": "A.L.I.E. / Dr. Becca Franco"}, {"image": "alessandro-juliani", "name": "Alessandro Juliani", "role": "Jacapo Sinclair"}, {"image": "shelby-flannery", "name": "Shelby Flannery", "role": "Hope Diyoza"}, {"image": "zach-mcgowan", "name": "Zach McGowan", "role": "King Roan"}, {"image": "alycia-debnam-carey", "name": "Alycia Debnam-Carey", "role": "Lexa"}, {"image": "michael-beach", "name": "Michael Beach", "role": "Charles Pike"}, {"image": "eve-harlow", "name": "Eve Harlow", "role": "Maya Vie"}, {"image": "sean-maguire", "name": "Sean Maguire", "role": "Russell Lightbourne"}, {"image": "john-pyper-ferguson", "name": "John Pyper-Ferguson", "role": "Bill Cadogan"}, {"image": "sara-thompson", "name": "Sara Thompson", "role": "Josephine Lightbourne"}, {"image": "ian-pala", "name": "Ian Pala", "role": "Dr. Gabriel Santiago"}, {"image": "neal-mcdonough", "name": "Neal McDonough", "role": "Anders"}, {"image": "jason-diaz", "name": "Jason Diaz", "role": "Levitt"}],
+    "synopsis": "Set ninety-seven years after a nuclear war has destroyed civilization, when a spaceship housing humanity's lone survivors sends one hundred juvenile delinquents back to Earth, in hopes of possibly re-populating the planet.",
+    "categories": [
+        "series", "special-favorite"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "series",
+        "data": [
+            {
+                "episodes": "13",
+                "trailer": "ia1Fbg96vL0"
+            },
+            {
+                "episodes": "16",
+                "trailer": "IW7_ZzFZF-o"
+            },
+            {
+                "episodes": "16",
+                "trailer": "uwxwHTu802M"
+            },
+            {
+                "episodes": "13",
+                "trailer": "JQi2MAfpACI"
+            },
+            {
+                "episodes": "13",
+                "trailer": "76vBRrYyNNc"
+            },
+            {
+                "episodes": "13",
+                "trailer": "AVDyeT-GsX4"
+            },
+            {
+                "episodes": "16",
+                "trailer": "VQaFKClCUpo"
+            }
+        ]
+    }
+}

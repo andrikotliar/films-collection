@@ -1,0 +1,70 @@
+{
+    "id": 166,
+    "title": "Speed",
+    "poster": "speed",
+    "trailer": "8piqd2BWeGI",
+    "genres": [
+        "Action",
+        "Thriller"
+    ],
+    "production": [
+        "20th-Century-FOX"
+    ],
+    "director": "Jan de Bont",
+    "producers": "Mark Gordon",
+    "writtens": "Graham Yost",
+    "music": "Mark Mancina",
+    "cinema": "Andrzej Bartkowiak",
+    "year": 1994,
+    "time": 116,
+    "country": "USA",
+    "budget": "30 million",
+    "boxoffice": "350 million",
+    "actors": [
+        {
+            "image": "keanu-reeves",
+            "name": "Keanu Reeves",
+            "role": "Jack Traven"
+        },
+        {
+            "image": "dennis-hopper",
+            "name": "Dennis Hopper",
+            "role": "Howard Payne"
+        },
+        {
+            "image": "sandra-bullock",
+            "name": "Sandra Bullock",
+            "role": "Annie"
+        },
+        {
+            "image": "joe-morton",
+            "name": "Joe Morton",
+            "role": "Capt. McMahon"
+        },
+        {
+            "image": "jeff-daniels",
+            "name": "Jeff Daniels",
+            "role": "Harry"
+        },
+        {
+            "image": "alan-ruck",
+            "name": "Alan Ruck",
+            "role": "Stephens"
+        },
+        {
+            "image": "glenn-plummer",
+            "name": "Glenn Plummer",
+            "role": "Jaguar Owner"
+        }
+    ],
+    "synopsis": "A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "id": 6,
+    "title": "Mission: Impossible - Ghost Protocol",
+    "poster": "mi_4",
+    "trailer": "EDGYVFZxsXQ",
+    "genres": [
+        "Action",
+        "Adventure"
+    ],
+    "production": [
+        "Paramount-Pictures"
+    ],
+    "director": "Brad Bird",
+    "producers": "Tom Cruise, Bryan Burk, J.J. Abrams",
+    "writtens": "Josh Appelbaum, Andre Nemec",
+    "music": "Michael Giacchino",
+    "cinema": "Robert Elswit",
+    "year": 2011,
+    "time": 133,
+    "country": "USA",
+    "budget": "145 million",
+    "boxoffice": "695 million",
+    "actors": [
+        {
+            "image": "tom-cruise",
+            "name": "Tom Cruise",
+            "role": "Ethan Hunt"
+        },
+        {
+            "image": "paula-patton",
+            "name": "Paula Patton",
+            "role": "Jane"
+        },
+        {
+            "image": "simon-pegg",
+            "name": "Simon Pegg",
+            "role": "Benji"
+        },
+        {
+            "image": "jeremy-renner",
+            "name": "Jeremy Renner",
+            "role": "Brandt"
+        },
+        {
+            "image": "michael-nyqvist",
+            "name": "Michael Nyqvist",
+            "role": "Hendricks"
+        },
+        {
+            "image": "vladimir-mashkov",
+            "name": "Vladimir Mashkov",
+            "role": "Sidorov"
+        },
+        {
+            "image": "samuli-edelmann",
+            "name": "Samuli Edelmann",
+            "role": "Wistrom"
+        },
+        {
+            "image": "ivan-shvedoff",
+            "name": "Ivan Shvedoff",
+            "role": "Leonid Lisenker"
+        },
+        {
+            "image": "anil-kapoor",
+            "name": "Anil Kapoor",
+            "role": "Brij Nath"
+        },
+        {
+            "image": "l'a-seydoux",
+            "name": "L'a Seydoux",
+            "role": "Sabine Moreau"
+        },
+        {
+            "image": "josh-holloway",
+            "name": "Josh Holloway",
+            "role": "Hanaway"
+        }
+    ],
+    "synopsis": "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Mission: Impossible",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "id": 83,
+    "title": "X-Men Origins: Wolverine",
+    "poster": "x_men_4",
+    "trailer": "QojV7s3UTu0",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Marvel-Entertainment"
+    ],
+    "director": "Gavin Hood",
+    "producers": "Lauren Shuler Donner, Ralph Winter, Hugh Jackman",
+    "writtens": "David Benioff, Skip Woods",
+    "music": "Harry Gregson-Williams",
+    "cinema": "Donald McAlpine",
+    "year": 2009,
+    "time": 107,
+    "country": "USA",
+    "budget": "150 million",
+    "boxoffice": "373 million",
+    "actors": [
+        {
+            "image": "hugh-jackman",
+            "name": "Hugh Jackman",
+            "role": "Logan / Wolverine"
+        },
+        {
+            "image": "liev-schreiber",
+            "name": "Liev Schreiber",
+            "role": "Victor Creed"
+        },
+        {
+            "image": "danny-huston",
+            "name": "Danny Huston",
+            "role": "Stryker"
+        },
+        {
+            "image": "will.i.am",
+            "name": "Will.i.am",
+            "role": "John Wraith"
+        },
+        {
+            "image": "lynn-collins",
+            "name": "Lynn Collins",
+            "role": "Kayla Silverfox"
+        },
+        {
+            "image": "kevin-durand",
+            "name": "Kevin Durand",
+            "role": "Fred Dukes"
+        },
+        {
+            "image": "dominic-monaghan",
+            "name": "Dominic Monaghan",
+            "role": "Chris Bradley / Bolt"
+        },
+        {
+            "image": "taylor-kitsch",
+            "name": "Taylor Kitsch",
+            "role": "Remy LeBeau"
+        },
+        {
+            "image": "daniel-henney",
+            "name": "Daniel Henney",
+            "role": "Agent Zero"
+        },
+        {
+            "image": "ryan-reynolds",
+            "name": "Ryan Reynolds",
+            "role": "Wade Wilson"
+        }
+    ],
+    "synopsis": "The early years of James Logan, featuring his rivalry with his brother Victor Creed, his service in the special forces team Weapon X, and his experimentation into the metal-lined mutant Wolverine.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "X-Men",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

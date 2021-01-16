@@ -1,0 +1,82 @@
+{
+    "id": 125,
+    "title": "Ice Age: Dawn of the Dinosaurs",
+    "poster": "ice_age_3",
+    "trailer": "Y_nSwh2WjAM",
+    "genres": [
+        "Adventure",
+        "Comedy",
+        "Animation"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Blue-Sky-Studios"
+    ],
+    "director": "Carlos Saldanha",
+    "producers": "Lori Forte, John C. Donkin",
+    "writtens": "Michael Berg, Peter Ackerman, Mike Reiss, Yoni Brenner",
+    "music": "John Powell",
+    "cinema": null,
+    "year": 2009,
+    "time": 94,
+    "country": "USA",
+    "budget": "90 million",
+    "boxoffice": "886 million",
+    "actors": [
+        {
+            "image": "ray-romano",
+            "name": "Ray Romano",
+            "role": "Manny"
+        },
+        {
+            "image": "queen-latifah",
+            "name": "Queen Latifah",
+            "role": "Ellie"
+        },
+        {
+            "image": "denis-leary",
+            "name": "Denis Leary",
+            "role": "Diego"
+        },
+        {
+            "image": "john-leguizamo",
+            "name": "John Leguizamo",
+            "role": "Sid"
+        },
+        {
+            "image": "josh-peck",
+            "name": "Josh Peck",
+            "role": "Eddie"
+        },
+        {
+            "image": "simon-pegg",
+            "name": "Simon Pegg",
+            "role": "Buck"
+        },
+        {
+            "image": "seann-william-scott",
+            "name": "Seann William Scott",
+            "role": "Crash"
+        },
+        {
+            "image": "chris-wedge",
+            "name": "Chris Wedge",
+            "role": "Scrat"
+        },
+        {
+            "image": "karen-disher",
+            "name": "Karen Disher",
+            "role": "Scratte"
+        }
+    ],
+    "synopsis": "When Sid's attempt to adopt three dinosaur eggs gets him abducted by their real mother to an underground lost world, his friends attempt to rescue him.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Ice Age",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

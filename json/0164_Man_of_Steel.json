@@ -1,0 +1,86 @@
+{
+    "id": 159,
+    "title": "Man of Steel",
+    "poster": "dceu_1",
+    "trailer": "T6DJcgm3wNY",
+    "genres": [
+        "Action",
+        "Adventure"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures",
+        "DC-Entertainment"
+    ],
+    "director": "Zack Snyder",
+    "producers": "Christopher Nolan, Charles Roven, Emma Thomas, Deborah Snyder",
+    "writtens": "David S. Goyer",
+    "music": "Hans Zimmer",
+    "cinema": "Amir Mokri",
+    "year": 2013,
+    "time": 143,
+    "country": "USA",
+    "budget": "225 million",
+    "boxoffice": "668 million",
+    "actors": [
+        {
+            "image": "henry-cavill",
+            "name": "Henry Cavill",
+            "role": "Clark Kent / Kal-El"
+        },
+        {
+            "image": "amy-adams",
+            "name": "Amy Adams",
+            "role": "Lois Lane"
+        },
+        {
+            "image": "michael-shannon",
+            "name": "Michael Shannon",
+            "role": "General Zod"
+        },
+        {
+            "image": "diane-lane",
+            "name": "Diane Lane",
+            "role": "Martha Kent"
+        },
+        {
+            "image": "russell-crowe",
+            "name": "Russell Crowe",
+            "role": "Jor-El"
+        },
+        {
+            "image": "antje-traue",
+            "name": "Antje Traue",
+            "role": "Faora-Ul"
+        },
+        {
+            "image": "harry-lennix",
+            "name": "Harry Lennix",
+            "role": "General Swanwick"
+        },
+        {
+            "image": "richard-schiff",
+            "name": "Richard Schiff",
+            "role": "Dr. Emil Hamilton"
+        },
+        {
+            "image": "christopher-meloni",
+            "name": "Christopher Meloni",
+            "role": "Colonel Nathan Hardy"
+        },
+        {
+            "image": "kevin-costner",
+            "name": "Kevin Costner",
+            "role": "Jonathan Kent"
+        }
+    ],
+    "synopsis": "Clark Kent is an alien who as a child was evacuated from his dying world and came to Earth, living as a normal human. But when survivors of his alien home invade Earth, he must reveal himself to the world.",
+    "categories": [
+        "dceu"
+    ],
+    "awards": null,
+    "parts": "DC Extended Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

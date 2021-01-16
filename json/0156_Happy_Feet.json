@@ -1,0 +1,87 @@
+{
+    "id": 150,
+    "title": "Happy Feet",
+    "poster": "happy_feet",
+    "trailer": "hFUC5adf8FE",
+    "genres": [
+        "Musical",
+        "Romance",
+        "Animation"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures",
+        "Village-Roadshow-Pictures"
+    ],
+    "director": "George Miller",
+    "producers": "Bill Miller, George Miller, Doug Mitchell",
+    "writtens": "Warren Coleman, John Collee, George Miller, Judy Morris",
+    "music": "John Powell",
+    "cinema": "David Peers",
+    "year": 2006,
+    "time": 108,
+    "country": "USA, Australia",
+    "budget": "100 million",
+    "boxoffice": "384 million",
+    "actors": [
+        {
+            "image": "elijah-wood",
+            "name": "Elijah Wood",
+            "role": "Mumble"
+        },
+        {
+            "image": "brittany-murphy",
+            "name": "Brittany Murphy",
+            "role": "Gloria"
+        },
+        {
+            "image": "hugh-jackman",
+            "name": "Hugh Jackman",
+            "role": "Memphis"
+        },
+        {
+            "image": "nicole-kidman",
+            "name": "Nicole Kidman",
+            "role": "Norma Jean"
+        },
+        {
+            "image": "hugo-weaving",
+            "name": "Hugo Weaving",
+            "role": "Noah the Elder"
+        },
+        {
+            "image": "carlos-alazraqui",
+            "name": "Carlos Alazraqui",
+            "role": "Nestor"
+        },
+        {
+            "image": "lombardo-boyar",
+            "name": "Lombardo Boyar",
+            "role": "Raul"
+        },
+        {
+            "image": "jeffrey-garcia",
+            "name": "Jeffrey Garcia",
+            "role": "Rinaldo"
+        },
+        {
+            "image": "johnny-a.-sanchez",
+            "name": "Johnny A. Sanchez",
+            "role": "Lombardo"
+        },
+        {
+            "image": "robin-williams",
+            "name": "Robin Williams",
+            "role": "Ramon / Lovelace"
+        }
+    ],
+    "synopsis": "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

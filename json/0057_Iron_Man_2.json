@@ -1,0 +1,86 @@
+{
+    "id": 55,
+    "title": "Iron Man 2",
+    "poster": "mcu_3",
+    "trailer": "BoohRoVA9WQ",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Marvel-Studios",
+        "Paramount-Pictures"
+    ],
+    "director": "Jon Favreau",
+    "producers": "Kevin Feige",
+    "writtens": "Justin Theroux",
+    "music": "John Debney",
+    "cinema": "Matthew Libatique",
+    "year": 2010,
+    "time": 125,
+    "country": "USA",
+    "budget": "200 million",
+    "boxoffice": "624 million",
+    "actors": [
+        {
+            "image": "robert-downey-jr.",
+            "name": "Robert Downey Jr.",
+            "role": "Tony Stark / Iron Man"
+        },
+        {
+            "image": "gwyneth-paltrow",
+            "name": "Gwyneth Paltrow",
+            "role": "Pepper Potts"
+        },
+        {
+            "image": "don-cheadle",
+            "name": "Don Cheadle",
+            "role": "James 'Rhodey' Rhodes / War Machine"
+        },
+        {
+            "image": "scarlett-johansson",
+            "name": "Scarlett Johansson",
+            "role": "Natasha Romanoff / Black Whidow"
+        },
+        {
+            "image": "sam-rockwell",
+            "name": "Sam Rockwell",
+            "role": "Justin Hammer"
+        },
+        {
+            "image": "mickey-rourke",
+            "name": "Mickey Rourke",
+            "role": "Ivan Vanko / Whiplash"
+        },
+        {
+            "image": "samuel-l.-jackson",
+            "name": "Samuel L. Jackson",
+            "role": "Nick Fury"
+        },
+        {
+            "image": "clark-gregg",
+            "name": "Clark Gregg",
+            "role": "Agent Coulson"
+        },
+        {
+            "image": "john-slattery",
+            "name": "John Slattery",
+            "role": "Howard Stark"
+        },
+        {
+            "image": "garry-shandling",
+            "name": "Garry Shandling",
+            "role": "Senator Stern"
+        }
+    ],
+    "synopsis": "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.",
+    "categories": [
+        "marvel"
+    ],
+    "awards": null,
+    "parts": "Marvel Cinematic Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

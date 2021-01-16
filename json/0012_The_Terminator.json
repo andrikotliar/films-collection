@@ -1,0 +1,51 @@
+{
+    "id": 12,
+    "title": "The Terminator",
+    "poster": "terminator_1",
+    "trailer": "k64P4l2Wmeg",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Orion-Pictures",
+        "Cinema-84"
+    ],
+    "director": "James Cameron",
+    "producers": "Gale Ann Hurd",
+    "writtens": "James Cameron, Gale Ann Hurd",
+    "music": "Brad Fiedel",
+    "cinema": "Adam Greenberg",
+    "year": 1984,
+    "time": 107,
+    "country": "USA",
+    "budget": "6,4 million",
+    "boxoffice": "40 million",
+    "actors": [
+        {
+            "image": "arnold-schwarzenegger",
+            "name": "Arnold Schwarzenegger",
+            "role": "T-800"
+        },
+        {
+            "image": "michael-biehn",
+            "name": "Michael Biehn",
+            "role": "Kyle Reese"
+        },
+        {
+            "image": "linda-hamilton",
+            "name": "Linda Hamilton",
+            "role": "Sarah Connor"
+        }
+    ],
+    "synopsis": "A seemingly indestructible android is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "The Terminator",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "id": 207,
+    "title": "2:22",
+    "poster": "two_twenty_two",
+    "trailer": "Af2N3N5rURI",
+    "genres": [
+        "Sci-Fi",
+        "Thriller"
+    ],
+    "production": [
+        "Magnet-Releasing"
+    ],
+    "director": "Paul Currie",
+    "producers": "Bill Mechanic, Steve Hutensky, Paul Currie, Jackie O’Sullivan, Garrett Kelleher",
+    "writtens": "Nathan Parker, Todd Stein",
+    "music": "Lisa Gerrard, James Orr",
+    "cinema": "David Eggby",
+    "year": 2017,
+    "time": 98,
+    "country": "Australlia, USA",
+    "budget": null,
+    "boxoffice": "4 million",
+    "actors": [
+        {
+            "image": "michiel-huisman",
+            "name": "Michiel Huisman",
+            "role": "Dylan Branson"
+        },
+        {
+            "image": "teresa-palmer",
+            "name": "Teresa Palmer",
+            "role": "Sarah Barton"
+        },
+        {
+            "image": "sam-reid",
+            "name": "Sam Reid",
+            "role": "Jonas Edman"
+        },
+        {
+            "image": "john-waters",
+            "name": "John Waters",
+            "role": "Bill"
+        },
+        {
+            "image": "kerry-armstrong",
+            "name": "Kerry Armstrong",
+            "role": "Catherine Mills"
+        },
+        {
+            "image": "richard-davies",
+            "name": "Richard Davies",
+            "role": "Inky"
+        },
+        {
+            "image": "maeve-dermody",
+            "name": "Maeve Dermody",
+            "role": "Sandy"
+        }
+    ],
+    "synopsis": "A man's life is derailed when an ominous pattern of events repeats itself in exactly the same manner every day, ending at precisely 2:22 p.m.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

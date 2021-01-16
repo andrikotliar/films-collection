@@ -1,0 +1,60 @@
+{
+    "id": 10,
+    "title": "Back to the Future: Part II",
+    "poster": "back_to_the_future_2",
+    "trailer": "MdENmefJRpw",
+    "genres": [
+        "Sci-Fi",
+        "Adventure"
+    ],
+    "production": [
+        "Universal-Pictures"
+    ],
+    "director": "Robert Zemeckis",
+    "producers": "Bob Gale, Neil Canton",
+    "writtens": "Bob Gale",
+    "music": "Alan Silvestri",
+    "cinema": "Dean Cundey",
+    "year": 1989,
+    "time": 108,
+    "country": "USA",
+    "budget": "40 million",
+    "boxoffice": "332 million",
+    "actors": [
+        {
+            "image": "michael-j.-fox",
+            "name": "Michael J. Fox",
+            "role": "Marty McFly"
+        },
+        {
+            "image": "christopher-lloyd",
+            "name": "Christopher Lloyd",
+            "role": "Dr. Emmett Brown"
+        },
+        {
+            "image": "lea-thompson",
+            "name": "Lea Thompson",
+            "role": "Lorraine Baines"
+        },
+        {
+            "image": "jeffrey-weisman",
+            "name": "Jeffrey Weisman",
+            "role": "George McFly"
+        },
+        {
+            "image": "thomas-f.-wilson",
+            "name": "Thomas F. Wilson",
+            "role": "Biff Tannen / Griff Tannen"
+        }
+    ],
+    "synopsis": "After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Back to the Future",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

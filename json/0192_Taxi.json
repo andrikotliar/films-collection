@@ -1,0 +1,65 @@
+{
+    "id": 194,
+    "title": "Taxi",
+    "poster": "taxi_1",
+    "trailer": "buQxF0eIeXI",
+    "genres": [
+        "Comedy"
+    ],
+    "production": [
+        "TF1-Films-Productions",
+        "ARP-S'lectio"
+    ],
+    "director": "G'rard Pir's",
+    "producers": "Luc Besson, Michele Petin, Laurent Petin",
+    "writtens": "Luc Besson",
+    "music": "Akhenaton",
+    "cinema": "Jean-Pierre Sauvaire",
+    "year": 1998,
+    "time": 86,
+    "country": "USA",
+    "budget": "9 million",
+    "boxoffice": "44 million",
+    "actors": [
+        {
+            "image": "samy-naceri",
+            "name": "Samy Naceri",
+            "role": "Daniel Morales"
+        },
+        {
+            "image": "fr'd'ric-diefenthal",
+            "name": "Fr'd'ric Diefenthal",
+            "role": "'milien Coutant-Kerbalec"
+        },
+        {
+            "image": "marion-cotillard",
+            "name": "Marion Cotillard",
+            "role": "Lilly Bertineau"
+        },
+        {
+            "image": "manuela-gourary",
+            "name": "Manuela Gourary",
+            "role": "Camille Coutant-Kerbalec"
+        },
+        {
+            "image": "emma-wiklund",
+            "name": "Emma Wiklund",
+            "role": "Petra"
+        },
+        {
+            "image": "bernard-farcy",
+            "name": "Bernard Farcy",
+            "role": "Commissaire Gibert"
+        }
+    ],
+    "synopsis": "To work off his tarnished driving record, a hip taxi driver must chauffeur a loser police inspector on the trail of German bank robbers.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Besson's Taxi",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "id": 216,
+    "title": "Emerald Green",
+    "poster": "taimless_3",
+    "trailer": "O9VyaI0i-v8",
+    "genres": [
+        "Drama",
+        "Fantasy",
+        "Mystery"
+    ],
+    "production": [
+        "Lieblingsfilm"
+    ],
+    "director": "Felix Fuchssteiner, Katharina Sch'de",
+    "producers": "Philipp Budweg, Tom Blieninger, Hans W. Gei'end'rfer,  Markus Zimmer",
+    "writtens": "Katharina Sch'de",
+    "music": "Philipp Fabian K'lmel",
+    "cinema": "Florian Emmerich",
+    "year": 2016,
+    "time": 113,
+    "country": "Germany",
+    "budget": null,
+    "boxoffice": null,
+    "actors": [
+        {
+            "image": "kostja-ullmann",
+            "name": "Kostja Ullmann",
+            "role": "James A.P. Pimplebottom"
+        },
+        {
+            "image": "josefine-preu'",
+            "name": "Josefine Preu'",
+            "role": "Lucy Montrose"
+        },
+        {
+            "image": "maria-ehrich",
+            "name": "Maria Ehrich",
+            "role": "Gwendolyn Shepherd"
+        },
+        {
+            "image": "jannis-niew'hner",
+            "name": "Jannis Niew'hner",
+            "role": "Gideon de Villiers"
+        },
+        {
+            "image": "lion-wasczyk",
+            "name": "Lion Wasczyk",
+            "role": "Raphael de Villiers"
+        }
+    ],
+    "synopsis": "Adaptation of the final part of famous time-travel trilogy. Gwendolyn's heart is broken, will she trust Gideon again? There's no time to wallow in tears. Something unbelievable happens, and Gwendolyn finds herself in the race against time.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Edelstein Trilogie",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

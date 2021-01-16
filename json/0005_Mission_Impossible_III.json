@@ -1,0 +1,90 @@
+{
+    "id": 5,
+    "title": "Mission: Impossible III",
+    "poster": "mi_3",
+    "trailer": "rl2bysiyltg",
+    "genres": [
+        "Action",
+        "Adventure"
+    ],
+    "production": [
+        "Paramount-Pictures"
+    ],
+    "director": "J.J. Abrams",
+    "producers": "Tom Cruise, Paula Wagner",
+    "writtens": "Alex Kurtzman, Roberto Orci, J.J. Abrams",
+    "music": "Michael Giacchino",
+    "cinema": "Dan Mindel",
+    "year": 2006,
+    "time": 125,
+    "country": "USA",
+    "budget": "150 million",
+    "boxoffice": "398 million",
+    "actors": [
+        {
+            "image": "tom-cruise",
+            "name": "Tom Cruise",
+            "role": "Ethan Hunt"
+        },
+        {
+            "image": "philip-seymour-hoffman",
+            "name": "Philip Seymour Hoffman",
+            "role": "Owen Davian"
+        },
+        {
+            "image": "ving-rhames",
+            "name": "Ving Rhames",
+            "role": "Luther"
+        },
+        {
+            "image": "billy-crudup",
+            "name": "Billy Crudup",
+            "role": "Musgrave"
+        },
+        {
+            "image": "michelle-monaghan",
+            "name": "Michelle Monaghan",
+            "role": "Julia"
+        },
+        {
+            "image": "jonathan-rhys-meyers",
+            "name": "Jonathan Rhys Meyers",
+            "role": "Declan"
+        },
+        {
+            "image": "keri-russell",
+            "name": "Keri Russell",
+            "role": "Lindsey Farris"
+        },
+        {
+            "image": "maggie-q",
+            "name": "Maggie Q",
+            "role": "Zhen"
+        },
+        {
+            "image": "simon-pegg",
+            "name": "Simon Pegg",
+            "role": "Benji"
+        },
+        {
+            "image": "eddie-marsan",
+            "name": "Eddie Marsan",
+            "role": "Brownway"
+        },
+        {
+            "image": "laurence-fishburne",
+            "name": "Laurence Fishburne",
+            "role": "Theodore Brassel"
+        }
+    ],
+    "synopsis": "IMF Agent Ethan Hunt comes into conflict with a dangerous and sadistic arms dealer who threatens his life and his fiancée in response.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Mission: Impossible",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

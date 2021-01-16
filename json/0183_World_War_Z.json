@@ -1,0 +1,62 @@
+{
+    "id": 178,
+    "title": "World War Z",
+    "poster": "world_war_z",
+    "trailer": "Md6Dvxdr0AQ",
+    "genres": [
+        "Action",
+        "Adventure",
+        "Horror"
+    ],
+    "production": [
+        "Paramount-Pictures",
+        "Skydance-Productions"
+    ],
+    "director": "Marc Forster",
+    "producers": "Brad Pitt, Dede Gardner, Jeremy Kleiner",
+    "writtens": "Matthew Michael Carnahan, Drew Goddard",
+    "music": "Marco Beltrami",
+    "cinema": "Ben Seresin",
+    "year": 2013,
+    "time": 116,
+    "country": "USA",
+    "budget": "190 million",
+    "boxoffice": "540 million",
+    "actors": [
+        {
+            "image": "brad-pitt",
+            "name": "Brad Pitt",
+            "role": "Gerry Lane"
+        },
+        {
+            "image": "mireille-enos",
+            "name": "Mireille Enos",
+            "role": "Karin Lane"
+        },
+        {
+            "image": "daniella-kertesz",
+            "name": "Daniella Kertesz",
+            "role": "Segen"
+        },
+        {
+            "image": "james-badge-dale",
+            "name": "James Badge Dale",
+            "role": "Captain Speke"
+        },
+        {
+            "image": "ludi-boeken",
+            "name": "Ludi Boeken",
+            "role": "Jurgen Warmbrunn"
+        }
+    ],
+    "synopsis": "Former United Nations employee Gerry Lane traverses the world in a race against time to stop the Zombie pandemic that is toppling armies and governments, and threatening to destroy humanity itself.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

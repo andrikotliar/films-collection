@@ -1,0 +1,85 @@
+{
+    "id": 92,
+    "title": "The Mummy: Tomb of Dragon Emperor",
+    "poster": "mummy_3",
+    "trailer": "5-4qSE2Ch0Y",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "Universal-Pictures"
+    ],
+    "director": "Rob Cohen",
+    "producers": "Stephen Sommers, Sean Daniel",
+    "writtens": "Alfred Gough, Miles Millar",
+    "music": "Randy Edelman",
+    "cinema": "Simon Duggan",
+    "year": 2008,
+    "time": 112,
+    "country": "USA",
+    "budget": "145 million",
+    "boxoffice": "401 million",
+    "actors": [
+        {
+            "image": "brendan-fraser",
+            "name": "Brendan Fraser",
+            "role": "Rick O'Connell"
+        },
+        {
+            "image": "jet-li",
+            "name": "Jet Li",
+            "role": "Emperor"
+        },
+        {
+            "image": "maria-bello",
+            "name": "Maria Bello",
+            "role": "Evelyn O'Connell"
+        },
+        {
+            "image": "john-hannah",
+            "name": "John Hannah",
+            "role": "Jonathan Carnahan"
+        },
+        {
+            "image": "michelle-yeoh",
+            "name": "Michelle Yeoh",
+            "role": "Zi Yuan"
+        },
+        {
+            "image": "luke-ford",
+            "name": "Luke Ford",
+            "role": "Alex O'Connell"
+        },
+        {
+            "image": "isabella-leong",
+            "name": "Isabella Leong",
+            "role": "Lin"
+        },
+        {
+            "image": "anthony-chau-sang-wong",
+            "name": "Anthony Chau-Sang Wong",
+            "role": "General Yang"
+        },
+        {
+            "image": "russell-wong",
+            "name": "Russell Wong",
+            "role": "Ming Guo"
+        },
+        {
+            "image": "liam-cunningham",
+            "name": "Liam Cunningham",
+            "role": "Maguire"
+        }
+    ],
+    "synopsis": "In the Far East, Alex O'Connell, the son of famed mummy fighters Rick and Evy O'Connell, unearths the mummy of the first Emperor of Qin -- a shape-shifting entity cursed by a witch centuries ago.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "The Mummy",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

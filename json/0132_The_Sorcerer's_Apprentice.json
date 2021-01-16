@@ -1,0 +1,81 @@
+{
+    "id": 126,
+    "title": "The Sorcerer's Apprentice",
+    "poster": "sorcerers_apprentice",
+    "trailer": "v2uV0_1C4UM",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "Walt-Disney-Pictures",
+        "Jerry-Bruckheimer-Films"
+    ],
+    "director": "Jon Torteltaub",
+    "producers": "Jerry Bruckheimer",
+    "writtens": "Doug Miro, Carlo Bernard, Matt Lopez",
+    "music": "Trevor Rabin",
+    "cinema": "Bojan Bazelli",
+    "year": 2010,
+    "time": 109,
+    "country": "USA",
+    "budget": "150 million",
+    "boxoffice": "215 million",
+    "actors": [
+        {
+            "image": "nicolas-cage",
+            "name": "Nicolas Cage",
+            "role": "Balthazar"
+        },
+        {
+            "image": "jay-baruchel",
+            "name": "Jay Baruchel",
+            "role": "Dave"
+        },
+        {
+            "image": "alfred-molina",
+            "name": "Alfred Molina",
+            "role": "Horvath"
+        },
+        {
+            "image": "teresa-palmer",
+            "name": "Teresa Palmer",
+            "role": "Becky"
+        },
+        {
+            "image": "toby-kebbell",
+            "name": "Toby Kebbell",
+            "role": "Drake Stone"
+        },
+        {
+            "image": "omar-benson-miller",
+            "name": "Omar Benson Miller",
+            "role": "Bennet"
+        },
+        {
+            "image": "monica-bellucci",
+            "name": "Monica Bellucci",
+            "role": "Veronica"
+        },
+        {
+            "image": "alice-krige",
+            "name": "Alice Krige",
+            "role": "Morgana"
+        },
+        {
+            "image": "jake-cherry",
+            "name": "Jake Cherry",
+            "role": "Young Dave"
+        }
+    ],
+    "synopsis": "Master sorcerer Balthazar Blake must find and train Merlin's descendant to defeat dark sorceress Morgana la Fée.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

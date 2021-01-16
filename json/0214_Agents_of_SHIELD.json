@@ -1,0 +1,157 @@
+{
+    "id": 219,
+    "title": "Agents of S.H.I.E.L.D.",
+    "poster": "tv_agents_of_shield",
+    "trailer": null,
+    "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+    ],
+    "production": [
+        "ABC-Studios",
+        "Marvel-Television"
+    ],
+    "director": "Maurissa Tancharoen, Jed Whedon, Joss Whedon",
+    "producers": "Garry A. Brown, Chris Cheramie",
+    "writtens": "Maurissa Tancharoen, Jed Whedon, Joss Whedon, Jack Kirby, Stan Lee, Daniel J. Doyle, Sharla Oliver, Matt Owens, James C. Oliver, George Kitson, Brent Fletcher, Drew Z. Greenberg, Craig Titley, Jeffrey Bell, Paul Zbyszewski, Monica Owusu-Breen, Lauren LeFranc, Lilla Zuckerman, Nora Zuckerman, Rafe Judkins, Shalisha Francis, Iden Baghdadchi, Mark Leitner, Chris Dingess",
+    "music": "Bear McCreary",
+    "cinema": "Feliks Parnell, Allan Westbrook, Jeffrey C. Mygatt, David Boyd, Kyle Jewell",
+    "year": 2013,
+    "time": 43,
+    "country": "USA",
+    "budget": null,
+    "boxoffice": null,
+    "actors": [
+        {
+            "image": "clark-gregg",
+            "name": "Clark Gregg",
+            "role": "Phil Coulson"
+        },
+        {
+            "image": "ming-na-wen",
+            "name": "Ming-Na Wen",
+            "role": "Melinda May"
+        },
+        {
+            "image": "chloe-bennet",
+            "name": "Chloe Bennet",
+            "role": "Daisy 'Skye' Johnson "
+        },
+        {
+            "image": "iain-de-caestecker",
+            "name": "Iain De Caestecker",
+            "role": "Leo Fitz"
+        },
+        {
+            "image": "elizabeth-henstridge",
+            "name": "Elizabeth Henstridge",
+            "role": "Jemma Simmons"
+        },
+        {
+            "image": "henry-simmons",
+            "name": "Henry Simmons",
+            "role": "Alphonso 'Mack' Mackenzie "
+        },
+        {
+            "image": "brett-dalton",
+            "name": "Brett Dalton",
+            "role": "Grant Ward "
+        },
+        {
+            "image": "natalia-cordova-buckley",
+            "name": "Natalia Cordova-Buckley",
+            "role": "Elena 'Yo-Yo' Rodriguez"
+        },
+        {
+            "image": "jeff-ward",
+            "name": "Jeff Ward",
+            "role": "Deke Shaw"
+        },
+        {
+            "image": "nick-blood",
+            "name": "Nick Blood",
+            "role": "Lance Hunter"
+        },
+        {
+            "image": "adrianne-palicki",
+            "name": "Adrianne Palicki",
+            "role": "Bobbi Morse"
+        },
+        {
+            "image": "luke-mitchell",
+            "name": "Luke Mitchell",
+            "role": "Lincoln Campbell "
+        },
+        {
+            "image": "john-hannah",
+            "name": "John Hannah",
+            "role": "Holden Radcliffe"
+        },
+        {
+            "image": "maximilian-osinski",
+            "name": "Maximilian Osinski",
+            "role": "Agent Davis"
+        },
+        {
+            "image": "adrian-pasdar",
+            "name": "Adrian Pasdar",
+            "role": "Glenn Talbot"
+        },
+        {
+            "image": "b.j.-britt",
+            "name": "B.J. Britt",
+            "role": "Antoine Triplett"
+        },
+        {
+            "image": "mallory-jansen",
+            "name": "Mallory Jansen",
+            "role": "Aida "
+        },
+        {
+            "image": "briana-venskus",
+            "name": "Briana Venskus",
+            "role": "Agent Piper"
+        },
+        {
+            "image": "ruth-negga",
+            "name": "Ruth Negga",
+            "role": "Raina"
+        }
+    ],
+    "synopsis": "The missions of the Strategic Homeland Intervention, Enforcement and Logistics Division.",
+    "categories": [
+        "series"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "series",
+        "data": [
+            {
+                "episodes": 22,
+                "trailer": "T3T-evQZiQo"
+            },
+            {
+                "episodes": 22,
+                "trailer": "PahISq6DKws"
+            },
+            {
+                "episodes": 22,
+                "trailer": "tx6ws9MAOU8"
+            },
+            {
+                "episodes": 22,
+                "trailer": "HM-6Zmc7LYg"
+            },
+            {
+                "episodes": 22,
+                "trailer": "YQJKgtAktLQ"
+            },
+            {
+                "episodes": 13,
+                "trailer": "wrKssByuVt0"
+            }
+        ]
+    }
+}

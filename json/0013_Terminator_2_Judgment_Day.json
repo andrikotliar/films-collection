@@ -1,0 +1,62 @@
+{
+    "id": 13,
+    "title": "Terminator 2: Judgment Day",
+    "poster": "terminator_2",
+    "trailer": "-W8CegO_Ixw",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "TriStar",
+        "Carolco-Pictures"
+    ],
+    "director": "James Cameron",
+    "producers": "James Cameron",
+    "writtens": "James Cameron, William Wisher",
+    "music": "Brad Fiedel",
+    "cinema": "Adam Greenberg",
+    "year": 1991,
+    "time": 137,
+    "country": "USA",
+    "budget": "94 million",
+    "boxoffice": "521 million",
+    "actors": [
+        {
+            "image": "arnold-schwarzenegger",
+            "name": "Arnold Schwarzenegger",
+            "role": "T-800"
+        },
+        {
+            "image": "edward-furlong",
+            "name": "Edward Furlong",
+            "role": "John Connor"
+        },
+        {
+            "image": "linda-hamilton",
+            "name": "Linda Hamilton",
+            "role": "Sarah Connor"
+        },
+        {
+            "image": "robert-patrick",
+            "name": "Robert Patrick",
+            "role": "T-1000"
+        },
+        {
+            "image": "joe-morton",
+            "name": "Joe Morton",
+            "role": "Miles Bennett Dyson"
+        }
+    ],
+    "synopsis": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her teenage son, John Connor, from a more advanced and powerful cyborg.",
+    "categories": [
+        "special-favorite",
+        "cinema-watched"
+    ],
+    "awards": null,
+    "parts": "The Terminator",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

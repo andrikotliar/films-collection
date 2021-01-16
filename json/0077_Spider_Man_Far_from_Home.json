@@ -1,0 +1,96 @@
+{
+    "id": 75,
+    "title": "Spider-Man: Far from Home",
+    "poster": "mcu_23",
+    "trailer": "Nt9L1jCKGnE",
+    "genres": [
+        "Sci-Fi",
+        "Comedy"
+    ],
+    "production": [
+        "Sony-Pictures",
+        "Marvel-Studios"
+    ],
+    "director": "Jon Watts",
+    "producers": "Kevin Feige, Amy Pascal",
+    "writtens": "Chris McKenna, Erik Sommers",
+    "music": "Michael Giacchino",
+    "cinema": "Matthew J. Lloyd",
+    "year": 2019,
+    "time": 129,
+    "country": "USA",
+    "budget": "160 million",
+    "boxoffice": "1,13 billion",
+    "actors": [
+        {
+            "image": "tom-holland",
+            "name": "Tom Holland",
+            "role": "Peter Parker / Spider-Man"
+        },
+        {
+            "image": "samuel-l.-jackson",
+            "name": "Samuel L. Jackson",
+            "role": "Nick Fury"
+        },
+        {
+            "image": "jake-gyllenhaal",
+            "name": "Jake Gyllenhaal",
+            "role": "Quentin Beck / Mysterio"
+        },
+        {
+            "image": "marisa-tomei",
+            "name": "Marisa Tomei",
+            "role": "May Parker"
+        },
+        {
+            "image": "jon-favreau",
+            "name": "Jon Favreau",
+            "role": "Happy Hogan"
+        },
+        {
+            "image": "zendaya",
+            "name": "Zendaya",
+            "role": "MJ"
+        },
+        {
+            "image": "jacob-batalon",
+            "name": "Jacob Batalon",
+            "role": "Ned Leeds"
+        },
+        {
+            "image": "tony-revolori",
+            "name": "Tony Revolori",
+            "role": "Flash Thompson"
+        },
+        {
+            "image": "angourie-rice",
+            "name": "Angourie Rice",
+            "role": "Betty Brant"
+        },
+        {
+            "image": "remy-hii",
+            "name": "Remy Hii",
+            "role": "Brad Davis"
+        },
+        {
+            "image": "martin-starr",
+            "name": "Martin Starr",
+            "role": "Mr. Harrington"
+        },
+        {
+            "image": "j.b.-smoove",
+            "name": "J.B. Smoove",
+            "role": "Mr. Dell"
+        }
+    ],
+    "synopsis": "Following the events of Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
+    "categories": [
+        "marvel"
+    ],
+    "awards": null,
+    "parts": "Marvel Cinematic Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

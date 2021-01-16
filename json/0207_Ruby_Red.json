@@ -1,0 +1,71 @@
+{
+    "id": 214,
+    "title": "Ruby Red",
+    "poster": "taimless_1",
+    "trailer": "Q5YKSsl2hb0",
+    "genres": [
+        "Drama",
+        "Fantasy",
+        "Mystery"
+    ],
+    "production": [
+        "Lieblingsfilm"
+    ],
+    "director": "Felix Fuchssteiner",
+    "producers": "Philipp Budweg, Tom Blieninger, Hans W. Gei'end'rfer,  Markus Zimmer",
+    "writtens": "Katharina Sch'de",
+    "music": "Philipp Fabian K'lmel",
+    "cinema": "Sonja Rom",
+    "year": 2013,
+    "time": 122,
+    "country": "Germany",
+    "budget": null,
+    "boxoffice": null,
+    "actors": [
+        {
+            "image": "josefine-preu'",
+            "name": "Josefine Preu'",
+            "role": "Lucy Montrose"
+        },
+        {
+            "image": "florian-bartholom'i",
+            "name": "Florian Bartholom'i",
+            "role": "Paul de Villiers"
+        },
+        {
+            "image": "uwe-kockisch",
+            "name": "Uwe Kockisch",
+            "role": "Falk de Villiers"
+        },
+        {
+            "image": "johannes-silberschneider",
+            "name": "Johannes Silberschneider",
+            "role": "Mr. Bernhard"
+        },
+        {
+            "image": "gerlinde-locker",
+            "name": "Gerlinde Locker",
+            "role": "Lady Arista"
+        },
+        {
+            "image": "laura-berlin",
+            "name": "Laura Berlin",
+            "role": "Charlotte Montrose"
+        },
+        {
+            "image": "sibylle-canonica",
+            "name": "Sibylle Canonica",
+            "role": "Glenda Montrose"
+        }
+    ],
+    "synopsis": "On her 16th birthday, Gwendolyn Shepherd finds out that instead of her cousin, she has inherited a rare gene that allows her to travel through time.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Edelstein Trilogie",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

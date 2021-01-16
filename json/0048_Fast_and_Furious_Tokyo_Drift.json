@@ -1,0 +1,65 @@
+{
+    "id": 47,
+    "title": "Fast and Furious: Tokyo Drift",
+    "poster": "fast_and_furious_3",
+    "trailer": "p8HQ2JLlc4E",
+    "genres": [
+        "Action",
+        "Crime"
+    ],
+    "production": [
+        "Universal-Pictures"
+    ],
+    "director": "Justin Lin",
+    "producers": "Neal H. Moritz",
+    "writtens": "Chris Morgan",
+    "music": "Brian Tyler",
+    "cinema": "Stephen F. Windon",
+    "year": 2006,
+    "time": 104,
+    "country": "USA",
+    "budget": "85 million",
+    "boxoffice": "158 million",
+    "actors": [
+        {
+            "image": "lucas-black",
+            "name": "Lucas Black",
+            "role": "Sean Boswell"
+        },
+        {
+            "image": "nathalie-kelley",
+            "name": "Nathalie Kelley",
+            "role": "Neela"
+        },
+        {
+            "image": "sung-kang",
+            "name": "Sung Kang",
+            "role": "Han"
+        },
+        {
+            "image": "brian-tee",
+            "name": "Brian Tee",
+            "role": "Twinkie"
+        },
+        {
+            "image": "bow-wow",
+            "name": "Bow Wow",
+            "role": "Takashi"
+        },
+        {
+            "image": "vin-diesel",
+            "name": "Vin Diesel",
+            "role": "Dominic Torreto"
+        }
+    ],
+    "synopsis": "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Fast and Furious",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

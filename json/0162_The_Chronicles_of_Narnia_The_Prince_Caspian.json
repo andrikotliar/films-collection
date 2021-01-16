@@ -1,0 +1,85 @@
+{
+    "id": 157,
+    "title": "The Chronicles of Narnia: The Prince Caspian",
+    "poster": "narnia_2",
+    "trailer": "9Q0Da4jlxBk",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "Walt-Disney-Pictures"
+    ],
+    "director": "Andrew Adamson",
+    "producers": "Mark Johnson, Phillip Steuer",
+    "writtens": "Andrew Adamson, Christopher Markus, Stephen McFeely",
+    "music": "Harry Gregson-Williams",
+    "cinema": "Karl Walter Lindenlaub",
+    "year": 2008,
+    "time": 150,
+    "country": "UK, USA",
+    "budget": "225 million",
+    "boxoffice": "420 million",
+    "actors": [
+        {
+            "image": "ben-barnes",
+            "name": "Ben Barnes",
+            "role": "Prince Caspian"
+        },
+        {
+            "image": "georgie-henley",
+            "name": "Georgie Henley",
+            "role": "Lucy Pevensie"
+        },
+        {
+            "image": "skandar-keynes",
+            "name": "Skandar Keynes",
+            "role": "Edmund Pevensie"
+        },
+        {
+            "image": "william-moseley",
+            "name": "William Moseley",
+            "role": "Peter Pevensie"
+        },
+        {
+            "image": "anna-popplewell",
+            "name": "Anna Popplewell",
+            "role": "Susan Pevensie"
+        },
+        {
+            "image": "sergio-castellitto",
+            "name": "Sergio Castellitto",
+            "role": "Miraz"
+        },
+        {
+            "image": "peter-dinklage",
+            "name": "Peter Dinklage",
+            "role": "Trumpkin"
+        },
+        {
+            "image": "warwick-davis",
+            "name": "Warwick Davis",
+            "role": "Nikabrik"
+        },
+        {
+            "image": "vincent-grass",
+            "name": "Vincent Grass",
+            "role": "Doctor Cornelius"
+        },
+        {
+            "image": "pierfrancesco-favino",
+            "name": "Pierfrancesco Favino",
+            "role": "General Glozelle"
+        }
+    ],
+    "synopsis": "The Pevensie siblings return to Narnia, where they are enlisted to once again help ward off an evil king and restore the rightful heir to the land's throne, Prince Caspian.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "The Chronicles of Narnia",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

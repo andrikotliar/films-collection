@@ -1,0 +1,97 @@
+{
+    "id": 62,
+    "title": "Guardians of the Galaxy",
+    "poster": "mcu_10",
+    "trailer": "d96cjJhvlMA",
+    "genres": [
+        "Sci-Fi",
+        "Comedy"
+    ],
+    "production": [
+        "Walt-Disney-Pictures",
+        "Marvel-Studios"
+    ],
+    "director": "James Gunn",
+    "producers": "Kevin Feige",
+    "writtens": "James Gunn, Nicole Perlman",
+    "music": "Tyler Bates",
+    "cinema": "Ben Davis",
+    "year": 2014,
+    "time": 122,
+    "country": "USA",
+    "budget": "196 million",
+    "boxoffice": "773 million",
+    "actors": [
+        {
+            "image": "chris-pratt",
+            "name": "Chris Pratt",
+            "role": "Peter Quill"
+        },
+        {
+            "image": "zoe-saldana",
+            "name": "Zoe Saldana",
+            "role": "Gamora"
+        },
+        {
+            "image": "dave-bautista",
+            "name": "Dave Bautista",
+            "role": "Drax"
+        },
+        {
+            "image": "vin-diesel",
+            "name": "Vin Diesel",
+            "role": "Groot (voice)"
+        },
+        {
+            "image": "bradley-cooper",
+            "name": "Bradley Cooper",
+            "role": "Rocket (voice)"
+        },
+        {
+            "image": "lee-pace",
+            "name": "Lee Pace",
+            "role": "Ronan"
+        },
+        {
+            "image": "michael-rooker",
+            "name": "Michael Rooker",
+            "role": "Yondu Udonta"
+        },
+        {
+            "image": "karen-gillan",
+            "name": "Karen Gillan",
+            "role": "Nebula"
+        },
+        {
+            "image": "djimon-hounsou",
+            "name": "Djimon Hounsou",
+            "role": "Korath"
+        },
+        {
+            "image": "john-c.-reilly",
+            "name": "John C. Reilly",
+            "role": "Corpsman Dey"
+        },
+        {
+            "image": "glenn-close",
+            "name": "Glenn Close",
+            "role": "Nova Prime"
+        },
+        {
+            "image": "benicio-del-toro",
+            "name": "Benicio Del Toro",
+            "role": "The Collector"
+        }
+    ],
+    "synopsis": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.",
+    "categories": [
+        "special-favorite",
+        "marvel"
+    ],
+    "awards": null,
+    "parts": "Marvel Cinematic Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "id": 66,
+    "title": "Doctor Strange",
+    "poster": "mcu_14",
+    "trailer": "HSzx-zryEgM",
+    "genres": [
+        "Fantasy",
+        "Action"
+    ],
+    "production": [
+        "Walt-Disney-Pictures",
+        "Marvel-Studios"
+    ],
+    "director": "Scott Derrickson",
+    "producers": "Kevin Feige",
+    "writtens": "Jon Spaihts, Scott Derrickson, C. Robert Cargill",
+    "music": "Michael Giacchino",
+    "cinema": "Ben Davis",
+    "year": 2016,
+    "time": 115,
+    "country": "USA",
+    "budget": "165 million",
+    "boxoffice": "678 million",
+    "actors": [
+        {
+            "image": "benedict-cumberbatch",
+            "name": "Benedict Cumberbatch",
+            "role": "Dr. Stephen Strange"
+        },
+        {
+            "image": "chiwetel-ejiofor",
+            "name": "Chiwetel Ejiofor",
+            "role": "Mordo"
+        },
+        {
+            "image": "rachel-mcadams",
+            "name": "Rachel McAdams",
+            "role": "Dr. Christine Palmer"
+        },
+        {
+            "image": "benedict-wong",
+            "name": "Benedict Wong",
+            "role": "Wong"
+        },
+        {
+            "image": "mads-mikkelsen",
+            "name": "Mads Mikkelsen",
+            "role": "Kaecilius"
+        },
+        {
+            "image": "tilda-swinton",
+            "name": "Tilda Swinton",
+            "role": "The Ancient One"
+        }
+    ],
+    "synopsis": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
+    "categories": [
+        "marvel"
+    ],
+    "awards": null,
+    "parts": "Marvel Cinematic Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "id": 175,
+    "title": "Now You See Me",
+    "poster": "now_you_see_me",
+    "trailer": "4OtM9j2lcUA",
+    "genres": [
+        "Crime",
+        "Thriller"
+    ],
+    "production": [
+        "Summit-Entertainment"
+    ],
+    "director": "Louis Leterrier",
+    "producers": "Bobby Cohen, Alex Kurtzman, Roberto Orci",
+    "writtens": "Ed Solomon, Boaz Yakin, Edward Ricourt",
+    "music": "Brian Tyler",
+    "cinema": "Mitchell Amundsen, Larry Fong",
+    "year": 2013,
+    "time": 115,
+    "country": "USA",
+    "budget": "75 million",
+    "boxoffice": "352 million",
+    "actors": [
+        {
+            "image": "jesse-eisenberg",
+            "name": "Jesse Eisenberg",
+            "role": "J. Daniel Atlas"
+        },
+        {
+            "image": "mark-ruffalo",
+            "name": "Mark Ruffalo",
+            "role": "Dylan Rhodes"
+        },
+        {
+            "image": "woody-harrelson",
+            "name": "Woody Harrelson",
+            "role": "Merritt McKinney"
+        },
+        {
+            "image": "isla-fisher",
+            "name": "Isla Fisher",
+            "role": "Henley Reeves"
+        },
+        {
+            "image": "dave-franco",
+            "name": "Dave Franco",
+            "role": "Jack Wilder"
+        },
+        {
+            "image": "m'lanie-laurent",
+            "name": "M'lanie Laurent",
+            "role": "Alma Dray"
+        },
+        {
+            "image": "morgan-freeman",
+            "name": "Morgan Freeman",
+            "role": "Thaddeus Bradley"
+        },
+        {
+            "image": "michael-caine",
+            "name": "Michael Caine",
+            "role": "Arthur Tressler"
+        },
+        {
+            "image": "michael-kelly",
+            "name": "Michael Kelly",
+            "role": "Agent Fuller"
+        }
+    ],
+    "synopsis": "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

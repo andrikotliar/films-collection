@@ -1,0 +1,86 @@
+{
+    "id": 57,
+    "title": "Captain America: The First Avenger",
+    "poster": "mcu_5",
+    "trailer": "JOddp-nlNvQ",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Marvel-Studios",
+        "Paramount-Pictures"
+    ],
+    "director": "Joe Johnston",
+    "producers": "Kevin Feige",
+    "writtens": "Christopher Markus, Stephen McFeely",
+    "music": "Alan Silvestri",
+    "cinema": "Shelly Johnson",
+    "year": 2011,
+    "time": 124,
+    "country": "USA",
+    "budget": "140 million",
+    "boxoffice": "371 million",
+    "actors": [
+        {
+            "image": "chris-evans",
+            "name": "Chris Evans",
+            "role": "Captain America / Steve Rogers"
+        },
+        {
+            "image": "hayley-atwell",
+            "name": "Hayley Atwell",
+            "role": "Peggy Carter"
+        },
+        {
+            "image": "sebastian-stan",
+            "name": "Sebastian Stan",
+            "role": "James Buchanan 'Bucky' Barnes"
+        },
+        {
+            "image": "tommy-lee-jones",
+            "name": "Tommy Lee Jones",
+            "role": "Colonel Chester Phillips"
+        },
+        {
+            "image": "hugo-weaving",
+            "name": "Hugo Weaving",
+            "role": "Johann Schmidt / Red Skull"
+        },
+        {
+            "image": "dominic-cooper",
+            "name": "Dominic Cooper",
+            "role": "Howard Stark"
+        },
+        {
+            "image": "richard-armitage",
+            "name": "Richard Armitage",
+            "role": "Heinz Kruger"
+        },
+        {
+            "image": "stanley-tucci",
+            "name": "Stanley Tucci",
+            "role": "Dr. Abraham Erskine"
+        },
+        {
+            "image": "samuel-l.-jackson",
+            "name": "Samuel L. Jackson",
+            "role": "Nick Fury"
+        },
+        {
+            "image": "toby-jones",
+            "name": "Toby Jones",
+            "role": "Dr. Arnim Zola"
+        }
+    ],
+    "synopsis": "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
+    "categories": [
+        "marvel"
+    ],
+    "awards": null,
+    "parts": "Marvel Cinematic Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

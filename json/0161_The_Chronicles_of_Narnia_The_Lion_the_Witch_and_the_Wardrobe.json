@@ -1,0 +1,75 @@
+{
+    "id": 156,
+    "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "poster": "narnia_1",
+    "trailer": "lWKj41HZBzM",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "Walt-Disney-Pictures"
+    ],
+    "director": "Andrew Adamson",
+    "producers": "Mark Johnson, Phillip Steuer",
+    "writtens": "Ann Peacock, Andrew Adamson, Christopher Markus, Stephen McFeely",
+    "music": "Harry Gregson-Williams",
+    "cinema": "Donald McAlpine",
+    "year": 2005,
+    "time": 145,
+    "country": "UK, USA",
+    "budget": "180 million",
+    "boxoffice": "745 million",
+    "actors": [
+        {
+            "image": "georgie-henley",
+            "name": "Georgie Henley",
+            "role": "Lucy Pevensie"
+        },
+        {
+            "image": "skandar-keynes",
+            "name": "Skandar Keynes",
+            "role": "Edmund Pevensie"
+        },
+        {
+            "image": "william-moseley",
+            "name": "William Moseley",
+            "role": "Peter Pevensie"
+        },
+        {
+            "image": "anna-popplewell",
+            "name": "Anna Popplewell",
+            "role": "Susan Pevensie"
+        },
+        {
+            "image": "tilda-swinton",
+            "name": "Tilda Swinton",
+            "role": "White Witch"
+        },
+        {
+            "image": "james-mcavoy",
+            "name": "James McAvoy",
+            "role": "Mr. Tumnus"
+        },
+        {
+            "image": "jim-broadbent",
+            "name": "Jim Broadbent",
+            "role": "Professor Kirke"
+        },
+        {
+            "image": "liam-neeson",
+            "name": "Liam Neeson",
+            "role": "Aslan (voice)"
+        }
+    ],
+    "synopsis": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "The Chronicles of Narnia",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

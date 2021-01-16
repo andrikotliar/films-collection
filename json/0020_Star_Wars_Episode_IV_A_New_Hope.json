@@ -1,0 +1,81 @@
+{
+    "id": 20,
+    "title": "Star Wars Episode IV: A New Hope",
+    "poster": "star_wars_6",
+    "trailer": "vZ734NWnAHA",
+    "genres": [
+        "SpaceOpera",
+        "Adventure"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Lucasfilm"
+    ],
+    "director": "George Lucas",
+    "producers": "Gary Kurtz",
+    "writtens": "George Lucas",
+    "music": "John Williams",
+    "cinema": "Gilbert Taylor",
+    "year": 1977,
+    "time": 121,
+    "country": "USA",
+    "budget": "11 million",
+    "boxoffice": "775 million",
+    "actors": [
+        {
+            "image": "mark-hamill",
+            "name": "Mark Hamill",
+            "role": "Luke Skywalker"
+        },
+        {
+            "image": "harrison-ford",
+            "name": "Harrison Ford",
+            "role": "Han Solo"
+        },
+        {
+            "image": "carrie-fisher",
+            "name": "Carrie Fisher",
+            "role": "Leia Organa"
+        },
+        {
+            "image": "peter-cushing",
+            "name": "Peter Cushing",
+            "role": "Moff Tarkin"
+        },
+        {
+            "image": "alec-guinness",
+            "name": "Alec Guinness",
+            "role": "Ben Obi-Wan Kenobi"
+        },
+        {
+            "image": "anthony-daniels",
+            "name": "Anthony Daniels",
+            "role": "C-3PO"
+        },
+        {
+            "image": "kenny-baker",
+            "name": "Kenny Baker",
+            "role": "R2-D2"
+        },
+        {
+            "image": "peter-mayhew",
+            "name": "Peter Mayhew",
+            "role": "Chewbacca"
+        },
+        {
+            "image": "david-prowse",
+            "name": "David Prowse",
+            "role": "Darth Vader"
+        }
+    ],
+    "synopsis": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the evil Darth Vader.",
+    "categories": [
+        "star-wars"
+    ],
+    "awards": null,
+    "parts": "Star Wars",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

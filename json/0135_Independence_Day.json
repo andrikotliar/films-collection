@@ -1,0 +1,70 @@
+{
+    "id": 129,
+    "title": "Independence Day",
+    "poster": "independence_day",
+    "trailer": "kA2WzBi2grE",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "20th-Century-FOX"
+    ],
+    "director": "Roland Emmerich",
+    "producers": "Dean Devlin",
+    "writtens": "Dean Devlin, Roland Emmerich",
+    "music": "David Arnold",
+    "cinema": "Karl Walter Lindenlaub",
+    "year": 1996,
+    "time": 145,
+    "country": "USA",
+    "budget": "75 million",
+    "boxoffice": "817 million",
+    "actors": [
+        {
+            "image": "will-smith",
+            "name": "Will Smith",
+            "role": "Capt. Steven Hiller"
+        },
+        {
+            "image": "bill-pullman",
+            "name": "Bill Pullman",
+            "role": "President Thomas J. Whitmore"
+        },
+        {
+            "image": "jeff-goldblum",
+            "name": "Jeff Goldblum",
+            "role": "David Levinson"
+        },
+        {
+            "image": "mary-mcdonnell",
+            "name": "Mary McDonnell",
+            "role": "Marilyn Whitmore"
+        },
+        {
+            "image": "judd-hirsch",
+            "name": "Judd Hirsch",
+            "role": "Julius Levinson"
+        },
+        {
+            "image": "robert-loggia",
+            "name": "Robert Loggia",
+            "role": "General William Grey"
+        },
+        {
+            "image": "randy-quaid",
+            "name": "Randy Quaid",
+            "role": "Russell Casse"
+        }
+    ],
+    "synopsis": "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

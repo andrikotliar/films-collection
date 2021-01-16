@@ -1,0 +1,76 @@
+{
+    "id": 18,
+    "title": "Rogue One",
+    "poster": "star_wars_4",
+    "trailer": "frdj1zb9sMY",
+    "genres": [
+        "SpaceOpera",
+        "Adventure"
+    ],
+    "production": [
+        "Lucasfilm",
+        "Walt-Disney-Pictures"
+    ],
+    "director": "Gareth Edwards",
+    "producers": "Simon Emanuel, Allison Shearmur",
+    "writtens": "Chris Weitz, Tony Gilroy",
+    "music": "Michael Giacchino",
+    "cinema": "Greig Fraser",
+    "year": 2016,
+    "time": 133,
+    "country": "USA",
+    "budget": "200 million",
+    "boxoffice": "1,06 billion",
+    "actors": [
+        {
+            "image": "felicity-jones",
+            "name": "Felicity Jones",
+            "role": "Jyn Erso"
+        },
+        {
+            "image": "diego-luna",
+            "name": "Diego Luna",
+            "role": "Cassian Andor"
+        },
+        {
+            "image": "alan-tudyk",
+            "name": "Alan Tudyk",
+            "role": "K-2SO"
+        },
+        {
+            "image": "donnie-yen",
+            "name": "Donnie Yen",
+            "role": "Chirrut Imwe"
+        },
+        {
+            "image": "wen-jiang",
+            "name": "Wen Jiang",
+            "role": "Baze Malbus"
+        },
+        {
+            "image": "ben-mendelson",
+            "name": "Ben Mendelson",
+            "role": "Orson Krennic"
+        },
+        {
+            "image": "guy-henry",
+            "name": "Guy Henry",
+            "role": "Governor Tarkin"
+        },
+        {
+            "image": "forest-whitaker",
+            "name": "Forest Whitaker",
+            "role": "Saw Gerrera"
+        }
+    ],
+    "synopsis": "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans.",
+    "categories": [
+        "star-wars"
+    ],
+    "awards": null,
+    "parts": "Star Wars",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

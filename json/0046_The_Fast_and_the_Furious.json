@@ -1,0 +1,75 @@
+{
+    "id": 45,
+    "title": "The Fast and the Furious",
+    "poster": "fast_and_furious_1",
+    "trailer": "5NYt1qirBWg",
+    "genres": [
+        "Action",
+        "Crime"
+    ],
+    "production": [
+        "Universal-Pictures"
+    ],
+    "director": "Rob Cohen",
+    "producers": "Neal H. Moritz",
+    "writtens": "Gary Scott Thompson, Erik Bergq",
+    "music": "BT",
+    "cinema": "Ericson Core",
+    "year": 2001,
+    "time": 106,
+    "country": "USA, Germany",
+    "budget": "38 million",
+    "boxoffice": "207 million",
+    "actors": [
+        {
+            "image": "paul-walker",
+            "name": "Paul Walker",
+            "role": "Brian O'Conner"
+        },
+        {
+            "image": "vin-diesel",
+            "name": "Vin Diesel",
+            "role": "Dominic Toretto"
+        },
+        {
+            "image": "michelle-rodriguez",
+            "name": "Michelle Rodriguez",
+            "role": "Letty"
+        },
+        {
+            "image": "jordana-brewster",
+            "name": "Jordana Brewster",
+            "role": "Mia Toretto"
+        },
+        {
+            "image": "rick-yune",
+            "name": "Rick Yune",
+            "role": "Johnny Tran"
+        },
+        {
+            "image": "chad-lindberg",
+            "name": "Chad Lindberg",
+            "role": "Jesse"
+        },
+        {
+            "image": "johnny-strong",
+            "name": "Johnny Strong",
+            "role": "Leon"
+        },
+        {
+            "image": "matt-schulze",
+            "name": "Matt Schulze",
+            "role": "Vince"
+        }
+    ],
+    "synopsis": "Los Angeles police officer Brian O'Connor must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Fast and Furious",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

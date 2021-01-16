@@ -1,0 +1,70 @@
+{
+    "id": 204,
+    "title": "The Fifth Element",
+    "poster": "fifth_element",
+    "trailer": "fQ9RqgcR24g",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Columbia-Pictures"
+    ],
+    "director": "Luc Besson",
+    "producers": "Patrice Ledoux",
+    "writtens": "Luc Besson, Robert Mark Kamen",
+    "music": "Éric Serra",
+    "cinema": "Thierry Arbogast",
+    "year": 1997,
+    "time": 126,
+    "country": "France",
+    "budget": "90 million",
+    "boxoffice": "264 million",
+    "actors": [
+        {
+            "image": "bruce-willis",
+            "name": "Bruce Willis",
+            "role": "Korben Dallas"
+        },
+        {
+            "image": "gary-oldman",
+            "name": "Gary Oldman",
+            "role": "Zorg"
+        },
+        {
+            "image": "ian-holm",
+            "name": "Ian Holm",
+            "role": "Cornelius"
+        },
+        {
+            "image": "milla-jovovich",
+            "name": "Milla Jovovich",
+            "role": "Leeloo"
+        },
+        {
+            "image": "chris-tucker",
+            "name": "Chris Tucker",
+            "role": "Ruby Rhod"
+        },
+        {
+            "image": "luke-perry",
+            "name": "Luke Perry",
+            "role": "Billy"
+        },
+        {
+            "image": "brion-james",
+            "name": "Brion James",
+            "role": "General Munro"
+        }
+    ],
+    "synopsis": "In the colorful future, a cab driver unwittingly becomes the central figure in the search for a legendary cosmic weapon to keep Evil and Mr. Zorg at bay.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

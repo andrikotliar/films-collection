@@ -1,0 +1,93 @@
+{
+    "id": 33,
+    "title": "How to Train Your Dragon: The Hidden World",
+    "poster": "how_to_train_your_dragon_3",
+    "trailer": "SkcucKDrbOI",
+    "genres": [
+        "Fantasy",
+        "Adventure",
+        "Animation"
+    ],
+    "production": [
+        "DreamWorks-Animation",
+        "Universal-Pictures"
+    ],
+    "director": "Dean DeBlois",
+    "producers": "Bonnie Amold, Brad Lewis",
+    "writtens": "Dean DeBlois",
+    "music": "John Powell",
+    "cinema": "None",
+    "year": 2019,
+    "time": 104,
+    "country": "USA",
+    "budget": "129 million",
+    "boxoffice": "443 million",
+    "actors": [
+        {
+            "image": "jay-baruchel",
+            "name": "Jay Baruchel",
+            "role": "Hiccup"
+        },
+        {
+            "image": "america-ferrera",
+            "name": "America Ferrera",
+            "role": "Astrid "
+        },
+        {
+            "image": "f.-murray-abraham",
+            "name": "F. Murray Abraham",
+            "role": "Grimmel "
+        },
+        {
+            "image": "cate-blanchett",
+            "name": "Cate Blanchett",
+            "role": "Valka "
+        },
+        {
+            "image": "gerard-butler",
+            "name": "Gerard Butler",
+            "role": "Stoick "
+        },
+        {
+            "image": "craig-ferguson",
+            "name": "Craig Ferguson",
+            "role": "Gobber "
+        },
+        {
+            "image": "jonah-hill",
+            "name": "Jonah Hill",
+            "role": "Snotlout "
+        },
+        {
+            "image": "christopher-mintz-plasse",
+            "name": "Christopher Mintz-Plasse",
+            "role": "Fishlegs "
+        },
+        {
+            "image": "kristen-wiig",
+            "name": "Kristen Wiig",
+            "role": "Ruffnut "
+        },
+        {
+            "image": "kit-harington",
+            "name": "Kit Harington",
+            "role": "Eret "
+        },
+        {
+            "image": "justin-rupple",
+            "name": "Justin Rupple",
+            "role": "Tuffnut"
+        }
+    ],
+    "synopsis": "When Hiccup discovers Toothless isn't the only Night Fury, he must seek \"The Hidden World\", a secret Dragon Utopia before a hired tyrant named Grimmel finds it first.",
+    "categories": [
+        "special-favorite",
+        "cinema-watched"
+    ],
+    "awards": null,
+    "parts": "How to Train Your Dragon",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

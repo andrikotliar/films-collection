@@ -1,0 +1,67 @@
+{
+    "id": 113,
+    "title": "WALL-E",
+    "poster": "wall_e",
+    "trailer": "alIq_wG9FNk",
+    "genres": [
+        "Sci-Fi",
+        "Romance",
+        "Animation"
+    ],
+    "production": [
+        "Walt-Disney-Pictures",
+        "Pixar-Animation"
+    ],
+    "director": "Andrew Stanton",
+    "producers": "Jim Morris",
+    "writtens": "Andrew Stanton, Jim Reardon",
+    "music": "Thomas Newman",
+    "cinema": "Jeremy Lasky, Danielle Feinberg",
+    "year": 2008,
+    "time": 97,
+    "country": "USA",
+    "budget": "180 million",
+    "boxoffice": "533 million",
+    "actors": [
+        {
+            "image": "ben-burtt",
+            "name": "Ben Burtt",
+            "role": "WALL-E / M-O / AUTO"
+        },
+        {
+            "image": "elissa-knight",
+            "name": "Elissa Knight",
+            "role": "EVE"
+        },
+        {
+            "image": "jeff-garlin",
+            "name": "Jeff Garlin",
+            "role": "Captain"
+        },
+        {
+            "image": "fred-willard",
+            "name": "Fred Willard",
+            "role": "Shelby Forthright"
+        },
+        {
+            "image": "john-ratzenberger",
+            "name": "John Ratzenberger",
+            "role": "John"
+        },
+        {
+            "image": "kathy-najimy",
+            "name": "Kathy Najimy",
+            "role": "Mary"
+        }
+    ],
+    "synopsis": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

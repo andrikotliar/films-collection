@@ -1,0 +1,75 @@
+{
+    "id": 149,
+    "title": "The Time Machine",
+    "poster": "time_machine",
+    "trailer": "90T7iLuzFgg",
+    "genres": [
+        "Sci-Fi",
+        "Adventure"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "Simon Wells",
+    "producers": "Walter F. Parkes, David Valdes",
+    "writtens": "John Logan",
+    "music": "Klaus Badelt",
+    "cinema": "Donald McAlpine",
+    "year": 2002,
+    "time": 96,
+    "country": "USA",
+    "budget": "80 million",
+    "boxoffice": "124 million",
+    "actors": [
+        {
+            "image": "guy-pearce",
+            "name": "Guy Pearce",
+            "role": "Alexander Hartdegen"
+        },
+        {
+            "image": "mark-addy",
+            "name": "Mark Addy",
+            "role": "David Philby"
+        },
+        {
+            "image": "phyllida-law",
+            "name": "Phyllida Law",
+            "role": "Mrs. Watchit"
+        },
+        {
+            "image": "sienna-guillory",
+            "name": "Sienna Guillory",
+            "role": "Emma"
+        },
+        {
+            "image": "jeremy-irons",
+            "name": "Jeremy Irons",
+            "role": "'ber-Morlock"
+        },
+        {
+            "image": "myndy-crist",
+            "name": "Myndy Crist",
+            "role": "Jogger"
+        },
+        {
+            "image": "connie-ray",
+            "name": "Connie Ray",
+            "role": "Teacher"
+        },
+        {
+            "image": "orlando-jones",
+            "name": "Orlando Jones",
+            "role": "Vox"
+        }
+    ],
+    "synopsis": "Hoping to alter the events of the past, a 19th century inventor instead travels 800,000 years into the future, where he finds humankind divided into two warring races.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

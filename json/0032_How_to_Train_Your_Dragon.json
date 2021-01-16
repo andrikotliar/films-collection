@@ -1,0 +1,86 @@
+{
+    "id": 31,
+    "title": "How to Train Your Dragon",
+    "poster": "how_to_train_your_dragon_1",
+    "trailer": "oKiYuIsPxYk",
+    "genres": [
+        "Fantasy",
+        "Adventure",
+        "Animation"
+    ],
+    "production": [
+        "DreamWorks-Animation"
+    ],
+    "director": "Chris Sanders, Dean DeBlois",
+    "producers": "Bonnie Amold",
+    "writtens": "Will Davies, Dean DeBlois, Chris Sanders",
+    "music": "John Powell",
+    "cinema": "None",
+    "year": 2010,
+    "time": 98,
+    "country": "USA",
+    "budget": "165 million",
+    "boxoffice": "496 million",
+    "actors": [
+        {
+            "image": "jay-baruchel",
+            "name": "Jay Baruchel",
+            "role": "Hiccup"
+        },
+        {
+            "image": "gerard-butler",
+            "name": "Gerard Butler",
+            "role": "Stoick "
+        },
+        {
+            "image": "craig-ferguson",
+            "name": "Craig Ferguson",
+            "role": "Gobber "
+        },
+        {
+            "image": "america-ferrera",
+            "name": "America Ferrera",
+            "role": "Astrid "
+        },
+        {
+            "image": "jonah-hill",
+            "name": "Jonah Hill",
+            "role": "Snotlout "
+        },
+        {
+            "image": "christopher-mintz-plasse",
+            "name": "Christopher Mintz-Plasse",
+            "role": "Fishlegs "
+        },
+        {
+            "image": "t.j.-miller",
+            "name": "T.J. Miller",
+            "role": "Tuffnut "
+        },
+        {
+            "image": "kristen-wiig",
+            "name": "Kristen Wiig",
+            "role": "Ruffnut "
+        },
+        {
+            "image": "robin-atkin-downes",
+            "name": "Robin Atkin Downes",
+            "role": "Ack "
+        },
+        {
+            "image": "philip-mcgrade",
+            "name": "Philip McGrade",
+            "role": "Starkard"
+        }
+    ],
+    "synopsis": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
+    "categories": [
+        "special-favorite"
+    ],
+    "awards": null,
+    "parts": "How to Train Your Dragon",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

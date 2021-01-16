@@ -1,0 +1,65 @@
+{
+    "id": 225,
+    "title": "Fast & Furious Presents: Hobbs & Shaw",
+    "poster": "fast_and_furious_9",
+    "trailer": "HZ7PAyCDwEg",
+    "genres": [
+        "Action",
+        "Thriller"
+    ],
+    "production": [
+        "Universal-Pictures"
+    ],
+    "director": "David Leitch",
+    "producers": "Hiram Garcia, Dwayne Johnson, Chris Morgan, Jason Statham",
+    "writtens": "Chris Morgan, Drew Pearce",
+    "music": "Tyler Bates",
+    "cinema": "Jonathan Sela",
+    "year": 2019,
+    "time": 137,
+    "country": "USA, Japan",
+    "budget": "200 million",
+    "boxoffice": "1,1 billion",
+    "actors": [
+        {
+            "image": "dwayne-johnson",
+            "name": "Dwayne Johnson",
+            "role": "Hobbs"
+        },
+        {
+            "image": "jason-statham",
+            "name": "Jason Statham",
+            "role": "Shaw"
+        },
+        {
+            "image": "idris-elba",
+            "name": "Idris Elba",
+            "role": "Brixton"
+        },
+        {
+            "image": "vanessa-kirby",
+            "name": "Vanessa Kirby",
+            "role": "Hattie"
+        },
+        {
+            "image": "helen-mirren",
+            "name": "Helen Mirren",
+            "role": "Queenie"
+        },
+        {
+            "image": "eliana-sua",
+            "name": "Eliana Sua",
+            "role": "Sam"
+        }
+    ],
+    "synopsis": "Lawman Luke Hobbs and outcast Deckard Shaw form an unlikely alliance when a cyber-genetically enhanced villain threatens the future of humanity.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": "Fast and Furious",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

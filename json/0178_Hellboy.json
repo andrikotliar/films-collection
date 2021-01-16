@@ -1,0 +1,85 @@
+{
+    "id": 173,
+    "title": "Hellboy",
+    "poster": "hellboy_1",
+    "trailer": "kA9vtXbbhVs",
+    "genres": [
+        "Fantasy",
+        "Action"
+    ],
+    "production": [
+        "Columbia-Pictures"
+    ],
+    "director": "Guillermo del Toro",
+    "producers": "Lawrence Gordon, Mike Richardson, Lloyd Levin",
+    "writtens": "Guillermo del Toro",
+    "music": "Marco Beltrami",
+    "cinema": "Guillermo Navarro",
+    "year": 2004,
+    "time": 122,
+    "country": "USA",
+    "budget": "66 million",
+    "boxoffice": "99 million",
+    "actors": [
+        {
+            "image": "ron-perlman",
+            "name": "Ron Perlman",
+            "role": "Hellboy"
+        },
+        {
+            "image": "john-hurt",
+            "name": "John Hurt",
+            "role": "Trevor Bruttenholm"
+        },
+        {
+            "image": "selma-blair",
+            "name": "Selma Blair",
+            "role": "Liz Sherman"
+        },
+        {
+            "image": "rupert-evans",
+            "name": "Rupert Evans",
+            "role": "John Myers"
+        },
+        {
+            "image": "karel-roden",
+            "name": "Karel Roden",
+            "role": "Grigori Rasputin"
+        },
+        {
+            "image": "jeffrey-tambor",
+            "name": "Jeffrey Tambor",
+            "role": "Tom Manning"
+        },
+        {
+            "image": "doug-jones",
+            "name": "Doug Jones",
+            "role": "Abe Sapien"
+        },
+        {
+            "image": "brian-steele",
+            "name": "Brian Steele",
+            "role": "Sammael"
+        },
+        {
+            "image": "ladislav-beran",
+            "name": "Ladislav Beran",
+            "role": "Karl Ruprecht Kroenen"
+        },
+        {
+            "image": "biddy-hodson",
+            "name": "Biddy Hodson",
+            "role": "Ilsa Haupstein"
+        }
+    ],
+    "synopsis": "A demon, raised from infancy after being conjured by and rescued from the Nazis, grows up to become a defender against the forces of darkness.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "del Toro's Hellboy",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

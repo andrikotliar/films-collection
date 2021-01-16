@@ -1,0 +1,86 @@
+{
+    "id": 93,
+    "title": "Pacific Rim",
+    "poster": "pacific_rim_1",
+    "trailer": "5guMumPFBag",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures",
+        "Legendary-Pictures"
+    ],
+    "director": "Guillermo del Toro",
+    "producers": "Guillermo del Toro, Thomas Tull, Jon Jashni, Mary Parent",
+    "writtens": "Travis Beacham, Guillermo del Toro",
+    "music": "Ramin Djawadi",
+    "cinema": "Guillermo Navarro",
+    "year": 2013,
+    "time": 132,
+    "country": "USA",
+    "budget": "180 million",
+    "boxoffice": "411 million",
+    "actors": [
+        {
+            "image": "charlie-hunnam",
+            "name": "Charlie Hunnam",
+            "role": "Raleigh Becket"
+        },
+        {
+            "image": "diego-klattenhoff",
+            "name": "Diego Klattenhoff",
+            "role": "Yancy Becket"
+        },
+        {
+            "image": "idris-elba",
+            "name": "Idris Elba",
+            "role": "Stacker Pentecost"
+        },
+        {
+            "image": "rinko-kikuchi",
+            "name": "Rinko Kikuchi",
+            "role": "Mako Mori"
+        },
+        {
+            "image": "charlie-day",
+            "name": "Charlie Day",
+            "role": "Dr. Newton Geiszler"
+        },
+        {
+            "image": "burn-gorman",
+            "name": "Burn Gorman",
+            "role": "Herman Gottlieb"
+        },
+        {
+            "image": "max-martini",
+            "name": "Max Martini",
+            "role": "Herc Hansen"
+        },
+        {
+            "image": "robert-kazinsky",
+            "name": "Robert Kazinsky",
+            "role": "Chuck Hansen"
+        },
+        {
+            "image": "clifton-collins-jr.",
+            "name": "Clifton Collins Jr.",
+            "role": "Ops Tendo Choi"
+        },
+        {
+            "image": "ron-perlman",
+            "name": "Ron Perlman",
+            "role": "Hannibal Chau"
+        }
+    ],
+    "synopsis": "As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Pacific Rim",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

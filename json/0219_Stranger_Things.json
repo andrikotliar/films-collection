@@ -1,0 +1,100 @@
+{
+    "id": 237,
+    "title": "Stranger Things",
+    "poster": "stranger_things",
+    "trailer": null,
+    "genres": [
+        "Fantasy",
+        "Drama",
+        "Horror"
+    ],
+    "production": [
+        "Netflix"
+    ],
+    "director": "The Duffer Brothers",
+    "producers": "Rand Geiger, Justin Doble, The Duffer Brothers",
+    "writtens": "The Duffer Brothers",
+    "music": "Kyle Dixon, Michael Stein",
+    "cinema": "Tim Ives, Tod Campbell, Lachlan Milne, David Franco",
+    "year": 2016,
+    "time": 51,
+    "country": "USA",
+    "budget": "100 million",
+    "boxoffice": "100 million",
+    "actors": [
+        {
+            "image": "winona-ryder",
+            "name": "Winona Ryder",
+            "role": "Joyce Byers"
+        },
+        {
+            "image": "david-harbour",
+            "name": "David Harbour",
+            "role": "Jim Hopper"
+        },
+        {
+            "image": "finn-wolfhard",
+            "name": "Finn Wolfhard",
+            "role": "Mike Wheeler"
+        },
+        {
+            "image": "millie-bobby-brown",
+            "name": "Millie Bobby Brown",
+            "role": "Eleven"
+        },
+        {
+            "image": "gaten-matarazzo",
+            "name": "Gaten Matarazzo",
+            "role": "Dustin Henderson"
+        },
+        {
+            "image": "caleb-mclaughlin",
+            "name": "Caleb McLaughlin",
+            "role": "Lucas Sinclair"
+        },
+        {
+            "image": "natalia-dyer",
+            "name": "Natalia Dyer",
+            "role": "Nancy Wheeler"
+        },
+        {
+            "image": "charlie-heaton",
+            "name": "Charlie Heaton",
+            "role": "Jonathan Byers"
+        },
+        {
+            "image": "joe-keery",
+            "name": "Joe Keery",
+            "role": "Steve Harrington"
+        },
+        {
+            "image": "noah-schnapp",
+            "name": "Noah Schnapp",
+            "role": "Will Byers"
+        }
+    ],
+    "synopsis": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
+    "categories": [
+        "special-favorite",
+        "series"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "series",
+        "data": [
+            {
+                "episodes": "8",
+                "trailer": "b9EkMc79ZSU"
+            },
+            {
+                "episodes": "9",
+                "trailer": "R1ZXOOLMJ8s"
+            },
+            {
+                "episodes": "8",
+                "trailer": "e4XvO7DItmc"
+            }
+        ]
+    }
+}

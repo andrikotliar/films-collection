@@ -1,0 +1,57 @@
+{
+    "id": 142,
+    "title": "The Intouchables",
+    "poster": "intouchables",
+    "trailer": "34WIbmXkewU",
+    "genres": [
+        "Biography",
+        "Comedy",
+        "Drama"
+    ],
+    "production": [
+        "Gaumont",
+        "TF1-Films-Production"
+    ],
+    "director": "Oliver Nakache, Eric Toledano",
+    "producers": "Nicolas Duval Adassovsky, Yann Zenou, Laurent Zeitoun",
+    "writtens": "Olivier Nakache, Eric Toledano",
+    "music": "Ludovico Einaudi",
+    "cinema": "Mathieu Vadepied",
+    "year": 2011,
+    "time": 112,
+    "country": "France",
+    "budget": "11 million",
+    "boxoffice": "427 million",
+    "actors": [
+        {
+            "image": "francois-cluzet",
+            "name": "Francois Cluzet",
+            "role": "Philippe"
+        },
+        {
+            "image": "omar-sy",
+            "name": "Omar Sy",
+            "role": "Driss"
+        },
+        {
+            "image": "anne-le-ny",
+            "name": "Anne Le Ny",
+            "role": "Yvonne"
+        },
+        {
+            "image": "audrey-fleurot",
+            "name": "Audrey Fleurot",
+            "role": "Magalie"
+        }
+    ],
+    "synopsis": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

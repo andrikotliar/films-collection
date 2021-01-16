@@ -1,0 +1,81 @@
+{
+    "id": 68,
+    "title": "Spider-Man: Homecoming",
+    "poster": "mcu_16",
+    "trailer": "n9DwoQ7HWvI",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Walt-Disney-Pictures",
+        "Marvel-Studios"
+    ],
+    "director": "Jon Watts",
+    "producers": "Kevin Feige, Amy Pascal",
+    "writtens": "Jonathan Goldstein, John Francis Daley, Jon Watts, Christopher Ford",
+    "music": "Michael Giacchino",
+    "cinema": "Salvatore Totino",
+    "year": 2017,
+    "time": 133,
+    "country": "USA",
+    "budget": "175 million",
+    "boxoffice": "880 million",
+    "actors": [
+        {
+            "image": "tom-holland",
+            "name": "Tom Holland",
+            "role": "Peter Parker / Spider-Man"
+        },
+        {
+            "image": "michael-keaton",
+            "name": "Michael Keaton",
+            "role": "Adrian Toomes / Vulture"
+        },
+        {
+            "image": "robert-downey-jr.",
+            "name": "Robert Downey Jr.",
+            "role": "Tony Stark / Iron Man"
+        },
+        {
+            "image": "marisa-tomei",
+            "name": "Marisa Tomei",
+            "role": "May Parker"
+        },
+        {
+            "image": "jon-favreau",
+            "name": "Jon Favreau",
+            "role": "Happy Hogan"
+        },
+        {
+            "image": "gwyneth-paltrow",
+            "name": "Gwyneth Paltrow",
+            "role": "Pepper Potts"
+        },
+        {
+            "image": "zendaya",
+            "name": "Zendaya",
+            "role": "Michelle"
+        },
+        {
+            "image": "donald-glover",
+            "name": "Donald Glover",
+            "role": "Aaron Davis"
+        },
+        {
+            "image": "jacob-batalon",
+            "name": "Jacob Batalon",
+            "role": "Ned"
+        }
+    ],
+    "synopsis": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
+    "categories": [
+        "marvel"
+    ],
+    "awards": null,
+    "parts": "Marvel Cinematic Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

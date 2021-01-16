@@ -1,0 +1,80 @@
+{
+    "id": 3,
+    "title": "Mission: Impossible",
+    "poster": "mi_1",
+    "trailer": "Ohws8y572KE",
+    "genres": [
+        "Action",
+        "Adventure"
+    ],
+    "production": [
+        "Paramount-Pictures"
+    ],
+    "director": "Brian De Palma",
+    "producers": "Tom Cruise, Paula Wagner",
+    "writtens": "David Koepp, Robert Towne",
+    "music": "Danny Elfman",
+    "cinema": "Stephen H. Burum",
+    "year": 1996,
+    "time": 110,
+    "country": "USA",
+    "budget": "80 million",
+    "boxoffice": "458 million",
+    "actors": [
+        {
+            "image": "tom-cruise",
+            "name": "Tom Cruise",
+            "role": "Ethan Hunt"
+        },
+        {
+            "image": "jon-voight",
+            "name": "Jon Voight",
+            "role": "Jim Phelps"
+        },
+        {
+            "image": "emmanuelle-beart",
+            "name": "Emmanuelle Beart",
+            "role": "Claire"
+        },
+        {
+            "image": "henry-czerny",
+            "name": "Henry Czerny",
+            "role": "Kittridge"
+        },
+        {
+            "image": "jean-reno",
+            "name": "Jean Reno",
+            "role": "Krieger"
+        },
+        {
+            "image": "ving-rhames",
+            "name": "Ving Rhames",
+            "role": "Luther"
+        },
+        {
+            "image": "kristin-scott-thomas",
+            "name": "Kristin Scott Thomas",
+            "role": "Sarah Davies"
+        },
+        {
+            "image": "vanessa-redgrave",
+            "name": "Vanessa Redgrave",
+            "role": "Max"
+        },
+        {
+            "image": "ingeborga-dapkunaite",
+            "name": "Ingeborga Dapkunaite",
+            "role": "Hannah"
+        }
+    ],
+    "synopsis": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Mission: Impossible",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

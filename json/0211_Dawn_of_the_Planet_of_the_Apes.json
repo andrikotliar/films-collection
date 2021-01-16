@@ -1,0 +1,76 @@
+{
+    "id": 235,
+    "title": "Dawn of the Planet of the Apes",
+    "poster": "planet_of_the_apes_2",
+    "trailer": "DpSaTrW4leg",
+    "genres": [
+        "Action",
+        "Drama"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Chernin-Entertainment"
+    ],
+    "director": "Matt Reeves",
+    "producers": "Peter Chernin, Dylan Clark, Amanda Silver",
+    "writtens": "Mark Bomback, Rick Jaffa, Amanda Silver",
+    "music": "Michael Giacchino",
+    "cinema": "Michael Seresin",
+    "year": 2014,
+    "time": 130,
+    "country": "USA, UK, Canada",
+    "budget": "170 million",
+    "boxoffice": "711 million",
+    "actors": [
+        {
+            "image": "andy-serkis",
+            "name": "Andy Serkis",
+            "role": "Caesar"
+        },
+        {
+            "image": "jason-clarke",
+            "name": "Jason Clarke",
+            "role": "Malcolm"
+        },
+        {
+            "image": "gary-oldman",
+            "name": "Gary Oldman",
+            "role": "Dreyfus"
+        },
+        {
+            "image": "keri-russell",
+            "name": "Keri Russell",
+            "role": "Ellie"
+        },
+        {
+            "image": "toby-kebbell",
+            "name": "Toby Kebbell",
+            "role": "Koba"
+        },
+        {
+            "image": "kodi-smit-mcphee",
+            "name": "Kodi Smit-McPhee",
+            "role": "Alexander"
+        },
+        {
+            "image": "kirk-acevedo",
+            "name": "Kirk Acevedo",
+            "role": "Carver"
+        },
+        {
+            "image": "nick-thurston",
+            "name": "Nick Thurston",
+            "role": "Blue Eyes"
+        }
+    ],
+    "synopsis": "A growing nation of genetically evolved apes led by Caesar is threatened by a band of human survivors of the devastating virus unleashed a decade earlier.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": "Planet of the Apes Reboot",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

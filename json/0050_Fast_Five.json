@@ -1,0 +1,90 @@
+{
+    "id": 49,
+    "title": "Fast Five",
+    "poster": "fast_and_furious_5",
+    "trailer": "mw2AqdB5EVA",
+    "genres": [
+        "Action",
+        "Crime"
+    ],
+    "production": [
+        "Universal-Pictures"
+    ],
+    "director": "Justin Lin",
+    "producers": "Neal H. Moritz, Vin Diesel",
+    "writtens": "Chris Morgan",
+    "music": "Brian Tyler",
+    "cinema": "Stephen F. Windon",
+    "year": 2011,
+    "time": 130,
+    "country": "USA",
+    "budget": "125 million",
+    "boxoffice": "626 million",
+    "actors": [
+        {
+            "image": "vin-diesel",
+            "name": "Vin Diesel",
+            "role": "Dominic Toretto"
+        },
+        {
+            "image": "paul-walker",
+            "name": "Paul Walker",
+            "role": "Brian O'Conner"
+        },
+        {
+            "image": "jordana-brewster",
+            "name": "Jordana Brewster",
+            "role": "Mia"
+        },
+        {
+            "image": "tyrese-gibson",
+            "name": "Tyrese Gibson",
+            "role": "Roman"
+        },
+        {
+            "image": "ludacris",
+            "name": "Ludacris",
+            "role": "Tej"
+        },
+        {
+            "image": "matt-schulze",
+            "name": "Matt Schulze",
+            "role": "Vince"
+        },
+        {
+            "image": "sung-kang",
+            "name": "Sung Kang",
+            "role": "Han"
+        },
+        {
+            "image": "gal-gadot",
+            "name": "Gal Gadot",
+            "role": "Gisele"
+        },
+        {
+            "image": "joaquim-de-almeida",
+            "name": "Joaquim de Almeida",
+            "role": "Reyes"
+        },
+        {
+            "image": "dwayne-johnson",
+            "name": "Dwayne Johnson",
+            "role": "Hobbs"
+        },
+        {
+            "image": "elsa-pataky",
+            "name": "Elsa Pataky",
+            "role": "Elena"
+        }
+    ],
+    "synopsis": "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Fast and Furious",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

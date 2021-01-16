@@ -1,0 +1,85 @@
+{
+    "id": 143,
+    "title": "Hancock",
+    "poster": "hancock",
+    "trailer": "SkX1VuXLRSc",
+    "genres": [
+        "Action",
+        "Comedy"
+    ],
+    "production": [
+        "Columbia-Pictures"
+    ],
+    "director": "Peter Berg",
+    "producers": "Akiva Goldsman, James Lassiter, Michael Mann, Will Smith",
+    "writtens": "Vince Gilligan, Vincent Ngo",
+    "music": "John Powell",
+    "cinema": "Tobias A. Schliessler",
+    "year": 2008,
+    "time": 92,
+    "country": "USA",
+    "budget": "150 million",
+    "boxoffice": "624 million",
+    "actors": [
+        {
+            "image": "will-smith",
+            "name": "Will Smith",
+            "role": "John Hancock"
+        },
+        {
+            "image": "charlize-theron",
+            "name": "Charlize Theron",
+            "role": "Mary"
+        },
+        {
+            "image": "jason-bateman",
+            "name": "Jason Bateman",
+            "role": "Ray"
+        },
+        {
+            "image": "jae-head",
+            "name": "Jae Head",
+            "role": "Aaron"
+        },
+        {
+            "image": "eddie-marsan",
+            "name": "Eddie Marsan",
+            "role": "Red"
+        },
+        {
+            "image": "david-mattey",
+            "name": "David Mattey",
+            "role": "Man Mountain"
+        },
+        {
+            "image": "maetrix-fitten",
+            "name": "Maetrix Fitten",
+            "role": "Matrix"
+        },
+        {
+            "image": "thomas-lennon",
+            "name": "Thomas Lennon",
+            "role": "Mike"
+        },
+        {
+            "image": "johnny-galecki",
+            "name": "Johnny Galecki",
+            "role": "Jeremy"
+        },
+        {
+            "image": "hayley-marie-norman",
+            "name": "Hayley Marie Norman",
+            "role": "Hottie"
+        }
+    ],
+    "synopsis": "Hancock is a superhero whose ill considered behavior regularly causes damage in the millions. He changes when the person he saves helps him improve his public image.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

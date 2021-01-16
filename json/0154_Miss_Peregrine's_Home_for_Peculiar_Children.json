@@ -1,0 +1,86 @@
+{
+    "id": 148,
+    "title": "Miss Peregrine's Home for Peculiar Children",
+    "poster": "miss_peregrin",
+    "trailer": "GokKUqLcvD8",
+    "genres": [
+        "Fantasy",
+        "Adventure",
+        "Drama"
+    ],
+    "production": [
+        "20th-Century-FOX"
+    ],
+    "director": "Tim Burton",
+    "producers": "Peter Chernin, Jenno Topping",
+    "writtens": "Jane Goldman",
+    "music": "Mike Higham, Matthew Margeson",
+    "cinema": "Bruno Delbonnel",
+    "year": 2016,
+    "time": 127,
+    "country": "USA",
+    "budget": "110 million",
+    "boxoffice": "296 million",
+    "actors": [
+        {
+            "image": "eva-green",
+            "name": "Eva Green",
+            "role": "Miss Peregrine"
+        },
+        {
+            "image": "asa-butterfield",
+            "name": "Asa Butterfield",
+            "role": "Jake"
+        },
+        {
+            "image": "samuel-l.-jackson",
+            "name": "Samuel L. Jackson",
+            "role": "Barron"
+        },
+        {
+            "image": "judi-dench",
+            "name": "Judi Dench",
+            "role": "Miss Avocet"
+        },
+        {
+            "image": "allison-janney",
+            "name": "Allison Janney",
+            "role": "Dr. Golan"
+        },
+        {
+            "image": "chris-o'dowd",
+            "name": "Chris O'Dowd",
+            "role": "Frank"
+        },
+        {
+            "image": "terence-stamp",
+            "name": "Terence Stamp",
+            "role": "Abe"
+        },
+        {
+            "image": "ella-purnell",
+            "name": "Ella Purnell",
+            "role": "Emma"
+        },
+        {
+            "image": "finlay-macmillan",
+            "name": "Finlay MacMillan",
+            "role": "Enoch"
+        },
+        {
+            "image": "lauren-mccrostie",
+            "name": "Lauren McCrostie",
+            "role": "Olive"
+        }
+    ],
+    "synopsis": "When Jacob discovers clues to a mystery that stretches across time, he finds Miss Peregrine's Home for Peculiar Children. But the danger deepens after he gets to know the residents and learns about their special powers.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "id": 121,
+    "title": "Transporter 3",
+    "poster": "transporter_3",
+    "trailer": "Pbh3CDBNIQA",
+    "genres": [
+        "Action",
+        "Crime"
+    ],
+    "production": [
+        "EuropaCorp"
+    ],
+    "director": "Oliver Megaton",
+    "producers": "Luc Besson, Stephen Chasman",
+    "writtens": "Luc Besson, Robert Mark Kamen",
+    "music": "Alexandre Azaria",
+    "cinema": "Giovanni Fiore Coltellacci",
+    "year": 2008,
+    "time": 104,
+    "country": "USA",
+    "budget": "40 million",
+    "boxoffice": "109 million",
+    "actors": [
+        {
+            "image": "jason-statham",
+            "name": "Jason Statham",
+            "role": "Frank Martin"
+        },
+        {
+            "image": "natalya-rudakova",
+            "name": "Natalya Rudakova",
+            "role": "Valentina"
+        },
+        {
+            "image": "francois-berleand",
+            "name": "François Berléand",
+            "role": "Tarconi"
+        },
+        {
+            "image": "robert-knepper",
+            "name": "Robert Knepper",
+            "role": "Johnson"
+        }
+    ],
+    "synopsis": "Frank Martin puts the driving gloves on to deliver Valentina, the kidnapped daughter of a Ukrainian government official, from Marseilles to Odessa on the Black Sea. En route, he has to contend with thugs who want to intercept Valentina's safe delivery and not let his personal feelings get in the way of his dangerous objective.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "The Transporter",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

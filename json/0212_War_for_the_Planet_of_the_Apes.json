@@ -1,0 +1,76 @@
+{
+    "id": 236,
+    "title": "War for the Planet of the Apes",
+    "poster": "planet_of_the_apes_3",
+    "trailer": "JDcAlo8i2y8",
+    "genres": [
+        "Action",
+        "Drama"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Chernin-Entertainment"
+    ],
+    "director": "Matt Reeves",
+    "producers": "Peter Chernin, Dylan Clark, Amanda Silver",
+    "writtens": "Mark Bomback, Matt Reeves",
+    "music": "Michael Giacchino",
+    "cinema": "Michael Seresin",
+    "year": 2017,
+    "time": 140,
+    "country": "USA, Canada, New Zealand",
+    "budget": "150 million",
+    "boxoffice": "491 million",
+    "actors": [
+        {
+            "image": "andy-serkis",
+            "name": "Andy Serkis",
+            "role": "Caesar"
+        },
+        {
+            "image": "woody-harrelson",
+            "name": "Woody Harrelson",
+            "role": "The Colonel"
+        },
+        {
+            "image": "steve-zahn",
+            "name": "Steve Zahn",
+            "role": "Bad Ape"
+        },
+        {
+            "image": "karin-konoval",
+            "name": "Karin Konoval",
+            "role": "Maurice"
+        },
+        {
+            "image": "amiah-miller",
+            "name": "Amiah Miller",
+            "role": "Nova"
+        },
+        {
+            "image": "terry-notary",
+            "name": "Terry Notary",
+            "role": "Rocket"
+        },
+        {
+            "image": "ty-olsson",
+            "name": "Ty Olsson",
+            "role": "Red Donkey"
+        },
+        {
+            "image": "michael-adamthwaite",
+            "name": "Michael Adamthwaite",
+            "role": "Luca"
+        }
+    ],
+    "synopsis": "After the apes suffer unimaginable losses, Caesar wrestles with his darker instincts and begins his own mythic quest to avenge his kind.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": "Planet of the Apes Reboot",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

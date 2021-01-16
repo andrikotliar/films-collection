@@ -1,0 +1,75 @@
+{
+    "id": 90,
+    "title": "The Mummy",
+    "poster": "mummy_1",
+    "trailer": "h3ptPtxWJRs",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "Universal-Pictures"
+    ],
+    "director": "Stephen Sommers",
+    "producers": "James Jacks, Sean Daniel",
+    "writtens": "Stephen Sommers",
+    "music": "Jerry Goldsmith",
+    "cinema": "Adrian Biddle",
+    "year": 1999,
+    "time": 125,
+    "country": "USA",
+    "budget": "80 million",
+    "boxoffice": "416 million",
+    "actors": [
+        {
+            "image": "brendan-fraser",
+            "name": "Brendan Fraser",
+            "role": "Rick O'Connell"
+        },
+        {
+            "image": "rachel-weisz",
+            "name": "Rachel Weisz",
+            "role": "Evelyn Carnahan"
+        },
+        {
+            "image": "john-hannah",
+            "name": "John Hannah",
+            "role": "Jonathan Carnahan"
+        },
+        {
+            "image": "arnold-vosloo",
+            "name": "Arnold Vosloo",
+            "role": "Imhotep"
+        },
+        {
+            "image": "kevin-j.-o'connor",
+            "name": "Kevin J. O'Connor",
+            "role": "Beni Gabor"
+        },
+        {
+            "image": "jonathan-hyde",
+            "name": "Jonathan Hyde",
+            "role": "Dr. Allen Chamberlain"
+        },
+        {
+            "image": "oded-fehr",
+            "name": "Oded Fehr",
+            "role": "Ardeth Bay"
+        },
+        {
+            "image": "erick-avari",
+            "name": "Erick Avari",
+            "role": "Dr. Terrence Bey"
+        }
+    ],
+    "synopsis": "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreck havoc as he searches for the reincarnation of his long-lost love.",
+    "categories": [
+        "most-watched"
+    ],
+    "awards": null,
+    "parts": "The Mummy",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

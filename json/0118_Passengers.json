@@ -1,0 +1,60 @@
+{
+    "id": 112,
+    "title": "Passengers",
+    "poster": "passengers",
+    "trailer": "7BWWWQzTpNU",
+    "genres": [
+        "Sci-Fi",
+        "Romance"
+    ],
+    "production": [
+        "Columbia-Pictures"
+    ],
+    "director": "Morten Tyldum",
+    "producers": "Stephen Hamel, Michael Maher, Neal H. Moritz, Ori Marmur",
+    "writtens": "Jon Spaihts",
+    "music": "Thomas Newman",
+    "cinema": "Rodrigo Prieto",
+    "year": 2016,
+    "time": 116,
+    "country": "USA",
+    "budget": "110 million",
+    "boxoffice": "303 million",
+    "actors": [
+        {
+            "image": "jennifer-lawrence",
+            "name": "Jennifer Lawrence",
+            "role": "Aurora Lane"
+        },
+        {
+            "image": "chris-pratt",
+            "name": "Chris Pratt",
+            "role": "Jim Preston"
+        },
+        {
+            "image": "michael-sheen",
+            "name": "Michael Sheen",
+            "role": "Arthur"
+        },
+        {
+            "image": "laurence-fishburne",
+            "name": "Laurence Fishburne",
+            "role": "Gus Mancuso"
+        },
+        {
+            "image": "andy-garcia",
+            "name": "Andy Garcia",
+            "role": "Captain Norris"
+        }
+    ],
+    "synopsis": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

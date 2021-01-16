@@ -1,0 +1,59 @@
+{
+    "id": 110,
+    "title": "District 13",
+    "poster": "d13_1",
+    "trailer": "Mcmkx1klOpE",
+    "genres": [
+        "Action"
+    ],
+    "production": [
+        "EuropaCorp"
+    ],
+    "director": "Pierre Morel",
+    "producers": "Luc Besson",
+    "writtens": "Luc Besson, Bibi Nacen",
+    "music": "Bastide Donny, Damien Roques",
+    "cinema": "Manuel Teran",
+    "year": 2004,
+    "time": 86,
+    "country": "France",
+    "budget": "14 million",
+    "boxoffice": "12 million",
+    "actors": [
+        {
+            "image": "cyril-raffaelli",
+            "name": "Cyril Raffaelli",
+            "role": "Damien Tomaso"
+        },
+        {
+            "image": "david-belle",
+            "name": "David Belle",
+            "role": "Le'to"
+        },
+        {
+            "image": "tony-d'amario",
+            "name": "Tony D'Amario",
+            "role": "K2"
+        },
+        {
+            "image": "bibi-naceri",
+            "name": "Bibi Naceri",
+            "role": "Taha Bemamud"
+        },
+        {
+            "image": "dany-verissimo-petit",
+            "name": "Dany Verissimo-Petit",
+            "role": "Lola"
+        }
+    ],
+    "synopsis": "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "District 13",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

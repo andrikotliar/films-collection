@@ -1,0 +1,75 @@
+{
+    "id": 37,
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "poster": "harry_potter_1",
+    "trailer": "VyHV0BRtdxo",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "Chris Columbus",
+    "producers": "David Heyman",
+    "writtens": "Steve Kloves",
+    "music": "John Williams",
+    "cinema": "John Seale",
+    "year": 2001,
+    "time": 152,
+    "country": "USA, UK",
+    "budget": "125 million",
+    "boxoffice": "975 illionm",
+    "actors": [
+        {
+            "image": "daniel-radcliffe",
+            "name": "Daniel Radcliffe",
+            "role": "Harry Potter"
+        },
+        {
+            "image": "rupert-grint",
+            "name": "Rupert Grint",
+            "role": "Ron Weasley"
+        },
+        {
+            "image": "emma-watson",
+            "name": "Emma Watson",
+            "role": "Hermione Granger"
+        },
+        {
+            "image": "richard-harris",
+            "name": "Richard Harris",
+            "role": "Albus Dumbledore"
+        },
+        {
+            "image": "robbie-coltrane",
+            "name": "Robbie Coltrane",
+            "role": "Rubeus Hagrid"
+        },
+        {
+            "image": "ian-hart",
+            "name": "Ian Hart",
+            "role": "Quirinus Quirrell"
+        },
+        {
+            "image": "tom-felton",
+            "name": "Tom Felton",
+            "role": "Draco Malfoy"
+        },
+        {
+            "image": "alan-rickman",
+            "name": "Alan Rickman",
+            "role": "Severus Snape"
+        }
+    ],
+    "synopsis": "An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
+    "categories": [
+        "harry-potter"
+    ],
+    "awards": null,
+    "parts": "Harry Potter",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

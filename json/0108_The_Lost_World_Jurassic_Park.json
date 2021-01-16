@@ -1,0 +1,56 @@
+{
+    "id": 228,
+    "title": "The Lost World: Jurassic Park",
+    "poster": "jurassic_park_2",
+    "trailer": "RxrvaneULkE",
+    "genres": [
+        "Sci-Fi",
+        "Adventure"
+    ],
+    "production": [
+        "Universal-Pictures",
+        "Amblin-Entertainment"
+    ],
+    "director": "Steven Spielberg",
+    "producers": "Gerald R. Molen, Colin Wilson",
+    "writtens": "David Koepp",
+    "music": "John Williams",
+    "cinema": "Janusz Kaminski",
+    "year": 1997,
+    "time": 129,
+    "country": "USA",
+    "budget": "73 million",
+    "boxoffice": "619 million",
+    "actors": [
+        {
+            "image": "jeff-goldblum",
+            "name": "Jeff Goldblum",
+            "role": "Malcolm"
+        },
+        {
+            "image": "richard-attenborough",
+            "name": "Richard Attenborough",
+            "role": "Hammond"
+        },
+        {
+            "image": "julianne-moore",
+            "name": "Julianne Moore",
+            "role": "Sarah Harding"
+        },
+        {
+            "image": "arliss-howard",
+            "name": "Arliss Howard",
+            "role": "Peter Ludlow"
+        }
+    ],
+    "synopsis": "A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": "Jurassic Park",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "id": 137,
+    "title": "Transformers: Dark of the Moon",
+    "poster": "transformers_3",
+    "trailer": "kHRf01Gjosk",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "DreamWorks-Pictures",
+        "Paramount-Pictures"
+    ],
+    "director": "Michael Bay",
+    "producers": "Lorenzo di Bonaventura, Tom DeSanto, Don Murphy, Ian Bryce",
+    "writtens": "Ehren Kruger",
+    "music": "Steve Jablonsky",
+    "cinema": "Amir Mokri",
+    "year": 2011,
+    "time": 154,
+    "country": "USA",
+    "budget": "195 million",
+    "boxoffice": "1,12 billion",
+    "actors": [
+        {
+            "image": "shia-labeouf",
+            "name": "Shia LaBeouf",
+            "role": "Sam Witwicky"
+        },
+        {
+            "image": "rosie-huntington-whiteley",
+            "name": "Rosie Huntington-Whiteley",
+            "role": "Carly"
+        },
+        {
+            "image": "josh-duhamel",
+            "name": "Josh Duhamel",
+            "role": "Lennox"
+        },
+        {
+            "image": "john-turturro",
+            "name": "John Turturro",
+            "role": "Simmons"
+        },
+        {
+            "image": "tyrese-gibson",
+            "name": "Tyrese Gibson",
+            "role": "Epps"
+        },
+        {
+            "image": "patrick-dempsey",
+            "name": "Patrick Dempsey",
+            "role": "Dylan"
+        },
+        {
+            "image": "frances-mcdormand",
+            "name": "Frances McDormand",
+            "role": "Mearing"
+        },
+        {
+            "image": "john-malkovich",
+            "name": "John Malkovich",
+            "role": "Bruce Brazos"
+        },
+        {
+            "image": "peter-cullen",
+            "name": "Peter Cullen",
+            "role": "Optimus Prime (voice)"
+        },
+        {
+            "image": "hugo-weaving",
+            "name": "Hugo Weaving",
+            "role": "Megatron (voice)"
+        },
+        {
+            "image": "leonard-nimoy",
+            "name": "Leonard Nimoy",
+            "role": "Sentinel Prime (voice)"
+        },
+        {
+            "image": "frank-welker",
+            "name": "Frank Welker",
+            "role": "Shockwave / Soundwave (voice)"
+        }
+    ],
+    "synopsis": "The Autobots learn of a Cybertronian spacecraft hidden on the moon, and race against the Decepticons to reach it and to learn its secrets.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Bay's Transformers",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

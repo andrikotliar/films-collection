@@ -1,0 +1,87 @@
+{
+    "id": 191,
+    "title": "Equals",
+    "poster": "equals",
+    "trailer": "6GiU2SSG624",
+    "genres": [
+        "Sci-Fi",
+        "Romance",
+        "Drama"
+    ],
+    "production": [
+        "A24",
+        "Route-One-Films"
+    ],
+    "director": "Drake Doremus",
+    "producers": "Michael Pruss, Chip Diggins, Ann Ruark, Michael Schaefer, Ridley Scott, Jay Stern",
+    "writtens": "Nathan Parker",
+    "music": "Sascha Ring, Dustin O'Halloran",
+    "cinema": "John Guleserian",
+    "year": 2016,
+    "time": 101,
+    "country": "USA",
+    "budget": "16 million",
+    "boxoffice": "2 million",
+    "actors": [
+        {
+            "image": "nicholas-hoult",
+            "name": "Nicholas Hoult",
+            "role": "Silas"
+        },
+        {
+            "image": "kristen-stewart",
+            "name": "Kristen Stewart",
+            "role": "Nia"
+        },
+        {
+            "image": "scott-lawrence",
+            "name": "Scott Lawrence",
+            "role": "Mark"
+        },
+        {
+            "image": "kate-lyn-sheil",
+            "name": "Kate Lyn Sheil",
+            "role": "Kate"
+        },
+        {
+            "image": "rebecca-hazlewood",
+            "name": "Rebecca Hazlewood",
+            "role": "Zoe"
+        },
+        {
+            "image": "yu-hwan-park",
+            "name": "Yu Hwan Park",
+            "role": "Seth"
+        },
+        {
+            "image": "bel-powley",
+            "name": "Bel Powley",
+            "role": "Rachel"
+        },
+        {
+            "image": "david-selby",
+            "name": "David Selby",
+            "role": "Leonard"
+        },
+        {
+            "image": "aurora-perrineau",
+            "name": "Aurora Perrineau",
+            "role": "Iris"
+        },
+        {
+            "image": "nathan-parker",
+            "name": "Nathan Parker",
+            "role": "David"
+        }
+    ],
+    "synopsis": "In an emotionless utopia, two people fall in love when they regain their feelings from a mysterious disease, causing tensions between them and their society.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

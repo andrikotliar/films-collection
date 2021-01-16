@@ -1,0 +1,75 @@
+{
+    "id": 46,
+    "title": "2Fast 2Furious",
+    "poster": "fast_and_furious_2",
+    "trailer": "F_VIM03DXWI",
+    "genres": [
+        "Action",
+        "Crime"
+    ],
+    "production": [
+        "Universal-Pictures"
+    ],
+    "director": "John Singleton",
+    "producers": "Neal H. Moritz",
+    "writtens": "Michael Brandt, Derek Haas",
+    "music": "David Arnold",
+    "cinema": "Matthew F. Leonetti",
+    "year": 2003,
+    "time": 108,
+    "country": "USA",
+    "budget": "76 million",
+    "boxoffice": "236 million",
+    "actors": [
+        {
+            "image": "paul-walker",
+            "name": "Paul Walker",
+            "role": "Brian O'Conner"
+        },
+        {
+            "image": "tyrese-gibson",
+            "name": "Tyrese Gibson",
+            "role": "Roman Pearce"
+        },
+        {
+            "image": "eva-mendes",
+            "name": "Eva Mendes",
+            "role": "Monica Fuentes"
+        },
+        {
+            "image": "cole-hauser",
+            "name": "Cole Hauser",
+            "role": "Carter Verone"
+        },
+        {
+            "image": "ludacris",
+            "name": "Ludacris",
+            "role": "Tej"
+        },
+        {
+            "image": "thom-barry",
+            "name": "Thom Barry",
+            "role": "Agent Bilkins"
+        },
+        {
+            "image": "james-remar",
+            "name": "James Remar",
+            "role": "Agent Markham"
+        },
+        {
+            "image": "devon-aoki",
+            "name": "Devon Aoki",
+            "role": "Suki"
+        }
+    ],
+    "synopsis": "Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Fast and Furious",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

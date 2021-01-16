@@ -1,0 +1,85 @@
+{
+    "id": 140,
+    "title": "John Carter",
+    "poster": "john_carter",
+    "trailer": "nlvYKl1fjBI",
+    "genres": [
+        "Sci-Fi",
+        "Adventure"
+    ],
+    "production": [
+        "Walt-Disney-Pictures"
+    ],
+    "director": "Andrew Stanton",
+    "producers": "Jim Morris, Colin Wilson, Lindsey Collins",
+    "writtens": "Andrew Stanton, Mark Andrews",
+    "music": "Michael Giacchino",
+    "cinema": "Dan Mindel",
+    "year": 2012,
+    "time": 132,
+    "country": "USA",
+    "budget": "306 million",
+    "boxoffice": "284 million",
+    "actors": [
+        {
+            "image": "taylor-kitsch",
+            "name": "Taylor Kitsch",
+            "role": "John Carter"
+        },
+        {
+            "image": "lynn-collins",
+            "name": "Lynn Collins",
+            "role": "Dejah Thoris"
+        },
+        {
+            "image": "samantha-morton",
+            "name": "Samantha Morton",
+            "role": "Sola"
+        },
+        {
+            "image": "willem-dafoe",
+            "name": "Willem Dafoe",
+            "role": "Tars Tarkas"
+        },
+        {
+            "image": "thomas-haden-church",
+            "name": "Thomas Haden Church",
+            "role": "Tal Hajus"
+        },
+        {
+            "image": "mark-strong",
+            "name": "Mark Strong",
+            "role": "Matai Shang"
+        },
+        {
+            "image": "ciaran-hinds",
+            "name": "Ciaran Hinds",
+            "role": "Tardos Mors"
+        },
+        {
+            "image": "dominic-west",
+            "name": "Dominic West",
+            "role": "Sab Than"
+        },
+        {
+            "image": "james-purefoy",
+            "name": "James Purefoy",
+            "role": "Kantos Kan"
+        },
+        {
+            "image": "bryan-cranston",
+            "name": "Bryan Cranston",
+            "role": "Powell"
+        }
+    ],
+    "synopsis": "Transported to Barsoom, a Civil War vet discovers a barren planet seemingly inhabited by 12-foot tall barbarians. Finding himself prisoner of these creatures, he escapes, only to encounter Woola and a princess in desperate need of a savior.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

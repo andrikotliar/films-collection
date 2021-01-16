@@ -1,0 +1,80 @@
+{
+    "id": 39,
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "poster": "harry_potter_3",
+    "trailer": "lAxgztbYDbs",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "Alfonso Cuaron",
+    "producers": "David Heyman, Chris Columbus, Mark Radcliffe",
+    "writtens": "Steve Kloves",
+    "music": "John Williams",
+    "cinema": "Michael Seresin",
+    "year": 2004,
+    "time": 142,
+    "country": "USA, UK",
+    "budget": "130 million",
+    "boxoffice": "797 million",
+    "actors": [
+        {
+            "image": "daniel-radcliffe",
+            "name": "Daniel Radcliffe",
+            "role": "Harry Potter"
+        },
+        {
+            "image": "rupert-grint",
+            "name": "Rupert Grint",
+            "role": "Ron Weasley"
+        },
+        {
+            "image": "emma-watson",
+            "name": "Emma Watson",
+            "role": "Hermione Granger"
+        },
+        {
+            "image": "gary-oldman",
+            "name": "Gary Oldman",
+            "role": "Sirius Black"
+        },
+        {
+            "image": "richard-harris",
+            "name": "Richard Harris",
+            "role": "Albus Dumbledore"
+        },
+        {
+            "image": "robbie-coltrane",
+            "name": "Robbie Coltrane",
+            "role": "Rubeus Hagrid"
+        },
+        {
+            "image": "tom-felton",
+            "name": "Tom Felton",
+            "role": "Draco Malfoy"
+        },
+        {
+            "image": "alan-rickman",
+            "name": "Alan Rickman",
+            "role": "Severus Snape"
+        },
+        {
+            "image": "david-thewlis",
+            "name": "David Thewlis",
+            "role": "Professor Lupin"
+        }
+    ],
+    "synopsis": "It's Harry's third year at Hogwarts; not only does he have a new \"Defense Against the Dark Arts\" teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry.",
+    "categories": [
+        "harry-potter"
+    ],
+    "awards": null,
+    "parts": "Harry Potter",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

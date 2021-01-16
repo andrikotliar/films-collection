@@ -1,0 +1,114 @@
+{
+    "id": 238,
+    "title": "The Umbrella Academy",
+    "poster": "umbrella_academy",
+    "trailer": null,
+    "genres": [
+        "Fantasy",
+        "Comedy"
+    ],
+    "production": [
+        "Netflix"
+    ],
+    "director": "Steve Blackman, Jeremy Slater",
+    "producers": "Kevin Lafferty, Sneha Koorse, Jamie Neese, Jason Neese, Ted Miller",
+    "writtens": "Steve Blackman, Jeremy Slater",
+    "music": "Jeff Russo, Perrine Virgile",
+    "cinema": "Neville Kidd, Craig Wrobleski",
+    "year": 2019,
+    "time": 60,
+    "country": "USA",
+    "budget": "100 million",
+    "boxoffice": "100 million",
+    "actors": [
+        {
+            "image": "elliot-page",
+            "name": "Elliot Page",
+            "role": "Vanya Hargreeves"
+        },
+        {
+            "image": "tom-hopper",
+            "name": "Tom Hopper",
+            "role": "Luther Hargreeves"
+        },
+        {
+            "image": "david-castañeda",
+            "name": "David Castañeda",
+            "role": "Diego Hargreeves"
+        },
+        {
+            "image": "emmy-raver-lampman",
+            "name": "Emmy Raver-Lampman",
+            "role": "Allison Hargreeves"
+        },
+        {
+            "image": "robert-sheehan",
+            "name": "Robert Sheehan",
+            "role": "Klaus Hargreeves"
+        },
+        {
+            "image": "aidan-gallagher",
+            "name": "Aidan Gallagher",
+            "role": "Number Five"
+        },
+        {
+            "image": "justin-h.-min",
+            "name": "Justin H. Min",
+            "role": "Ben Hargreeves"
+        },
+        {
+            "image": "colm-feore",
+            "name": "Colm Feore",
+            "role": "Reginald Hargreeves"
+        },
+        {
+            "image": "ritu-arya",
+            "name": "Ritu Arya",
+            "role": "Lila Pitts"
+        },
+        {
+            "image": "jordan-claire-robbins",
+            "name": "Jordan Claire Robbins",
+            "role": "Grace"
+        },
+        {
+            "image": "kate-walsh",
+            "name": "Kate Walsh",
+            "role": "The Handler"
+        },
+        {
+            "image": "cameron-britton",
+            "name": "Cameron Britton",
+            "role": "Hazel"
+        },
+        {
+            "image": "mary-j.-blige",
+            "name": "Mary J. Blige",
+            "role": "Cha-Cha"
+        },
+        {
+            "image": "yusuf-gatewood",
+            "name": "Yusuf Gatewood",
+            "role": "Raymond Chestnut"
+        }
+    ],
+    "synopsis": "A family of former child heroes, now grown apart, must reunite to continue to protect the world.",
+    "categories": [
+        "series"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "series",
+        "data": [
+            {
+                "episodes": "10",
+                "trailer": "0DAmWHxeoKw"
+            },
+            {
+                "episodes": "10",
+                "trailer": "Me0eoCwLj-A"
+            }
+        ]
+    }
+}

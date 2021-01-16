@@ -1,0 +1,97 @@
+{
+    "id": 163,
+    "title": "Justice League",
+    "poster": "dceu_5",
+    "trailer": "3cxixDgHUYw",
+    "genres": [
+        "Action",
+        "Adventure"
+    ],
+    "production": [
+        "DC-Entertainment",
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "Zack Snyder",
+    "producers": "Charles Roven, Deborah Snyder, Jon Berg, Geoff Johns",
+    "writtens": "Chris Terrio, Joss Whedon",
+    "music": "Danny Elfman",
+    "cinema": "Fabian Wagner",
+    "year": 2017,
+    "time": 120,
+    "country": "USA",
+    "budget": "300 million",
+    "boxoffice": "658 million",
+    "actors": [
+        {
+            "image": "ben-affleck",
+            "name": "Ben Affleck",
+            "role": "Batman / Bruce Wayne"
+        },
+        {
+            "image": "henry-cavill",
+            "name": "Henry Cavill",
+            "role": "Superman / Clark Kent"
+        },
+        {
+            "image": "amy-adams",
+            "name": "Amy Adams",
+            "role": "Lois Lane"
+        },
+        {
+            "image": "gal-gadot",
+            "name": "Gal Gadot",
+            "role": "Wonder Woman / Diana Prince"
+        },
+        {
+            "image": "ezra-miller",
+            "name": "Ezra Miller",
+            "role": "The Flash / Barry Allen"
+        },
+        {
+            "image": "jason-momoa",
+            "name": "Jason Momoa",
+            "role": "Aquaman / Arthur Curry"
+        },
+        {
+            "image": "ray-fisher",
+            "name": "Ray Fisher",
+            "role": "Cyborg / Victor Stone"
+        },
+        {
+            "image": "jeremy-irons",
+            "name": "Jeremy Irons",
+            "role": "Alfred"
+        },
+        {
+            "image": "diane-lane",
+            "name": "Diane Lane",
+            "role": "Martha Kent"
+        },
+        {
+            "image": "connie-nielsen",
+            "name": "Connie Nielsen",
+            "role": "Queen Hippolyta"
+        },
+        {
+            "image": "j.k.-simmons",
+            "name": "J.K. Simmons",
+            "role": "Commissioner Gordon"
+        },
+        {
+            "image": "ciaran-hinds",
+            "name": "Ciaran Hinds",
+            "role": "Steppenwolf (voice)"
+        }
+    ],
+    "synopsis": "Fueled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne enlists the help of his new-found ally, Diana Prince, to face an even greater enemy.",
+    "categories": [
+        "dceu",
+        "cinema-watched"
+    ],
+    "awards": null,
+    "parts": "DC Extended Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

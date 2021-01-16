@@ -1,0 +1,71 @@
+{
+    "id": 72,
+    "title": "Ant-Man and the Wasp",
+    "poster": "mcu_20",
+    "trailer": "UUkn-enk2RU",
+    "genres": [
+        "Sci-Fi",
+        "Comedy"
+    ],
+    "production": [
+        "Walt-Disney-Pictures",
+        "Marvel-Studios"
+    ],
+    "director": "Peyton Reed",
+    "producers": "Kevin Feige, Stephen Broussard",
+    "writtens": "Chris McKenna, Erik Sommers, Paul Rudd",
+    "music": "Christophe Beck",
+    "cinema": "Dante Spinotti",
+    "year": 2018,
+    "time": 118,
+    "country": "USA",
+    "budget": "162million",
+    "boxoffice": "595 million",
+    "actors": [
+        {
+            "image": "paul-rudd",
+            "name": "Paul Rudd",
+            "role": "Scott Lang / Ant-Man"
+        },
+        {
+            "image": "evangeline-lilly",
+            "name": "Evangeline Lilly",
+            "role": "Hope Van Dyne / Wasp"
+        },
+        {
+            "image": "michael-pena",
+            "name": "Michael Pena",
+            "role": "Luis"
+        },
+        {
+            "image": "hannah-john-kamen",
+            "name": "Hannah John-Kamen",
+            "role": "Ava / Ghost"
+        },
+        {
+            "image": "michelle-pfeiffer",
+            "name": "Michelle Pfeiffer",
+            "role": "Janet Van Dyne / Wasp"
+        },
+        {
+            "image": "laurence-fishburne",
+            "name": "Laurence Fishburne",
+            "role": "Dr. Bill Foster"
+        },
+        {
+            "image": "michael-douglas",
+            "name": "Michael Douglas",
+            "role": "Dr. Hank Pym"
+        }
+    ],
+    "synopsis": "As Scott Lang balances being both a Super Hero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
+    "categories": [
+        "marvel"
+    ],
+    "awards": null,
+    "parts": "Marvel Cinematic Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

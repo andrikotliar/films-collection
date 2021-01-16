@@ -1,0 +1,95 @@
+{
+    "id": 158,
+    "title": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
+    "poster": "narnia_3",
+    "trailer": "hrJQDPpIK6I",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "20th-Century-FOX"
+    ],
+    "director": "Michael Apted",
+    "producers": "Mark Johnson, Phillip Steuer, Andrew Adamson",
+    "writtens": "Christopher Markus, Stephen McFeely, Michael Petroni",
+    "music": "David Arnold",
+    "cinema": "Dante Spinotti",
+    "year": 2010,
+    "time": 115,
+    "country": "UK, USA",
+    "budget": "155 million",
+    "boxoffice": "416 million",
+    "actors": [
+        {
+            "image": "georgie-henley",
+            "name": "Georgie Henley",
+            "role": "Lucy Pevensie"
+        },
+        {
+            "image": "skandar-keynes",
+            "name": "Skandar Keynes",
+            "role": "Edmund Pevensie"
+        },
+        {
+            "image": "ben-barnes",
+            "name": "Ben Barnes",
+            "role": "Caspian"
+        },
+        {
+            "image": "will-poulter",
+            "name": "Will Poulter",
+            "role": "Eustace Scrubb"
+        },
+        {
+            "image": "gary-sweet",
+            "name": "Gary Sweet",
+            "role": "Drinian"
+        },
+        {
+            "image": "terry-norris",
+            "name": "Terry Norris",
+            "role": "Lord Bern"
+        },
+        {
+            "image": "bruce-spence",
+            "name": "Bruce Spence",
+            "role": "Lord Rhoop"
+        },
+        {
+            "image": "bille-brown",
+            "name": "Bille Brown",
+            "role": "Coriakin"
+        },
+        {
+            "image": "laura-brent",
+            "name": "Laura Brent",
+            "role": "Liliandil"
+        },
+        {
+            "image": "colin-moody",
+            "name": "Colin Moody",
+            "role": "Auctioneer"
+        },
+        {
+            "image": "anna-popplewell",
+            "name": "Anna Popplewell",
+            "role": "Susan Pevensie"
+        },
+        {
+            "image": "william-moseley",
+            "name": "William Moseley",
+            "role": "Peter Pevensie"
+        }
+    ],
+    "synopsis": "Lucy and Edmund Pevensie return to Narnia with their cousin Eustace where they meet up with Prince Caspian for a trip across the sea aboard the royal ship The Dawn Treader. Along the way they encounter dragons, dwarves, merfolk, and a band of lost warriors before reaching the edge of the world.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "The Chronicles of Narnia",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

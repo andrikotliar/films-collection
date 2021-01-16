@@ -1,0 +1,95 @@
+{
+    "id": 108,
+    "title": "2012",
+    "poster": "twenty_twelve",
+    "trailer": "rvI66Xaj9-os",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Columbia-Pictures"
+    ],
+    "director": "Roland Emmerich",
+    "producers": "Harald Kloser, Mark Gordon, Larry J. Franco",
+    "writtens": "Harald Kloser, Roland Emmerich",
+    "music": "Harald Kloser, Thomas Wander",
+    "cinema": "Dean Semler",
+    "year": 2009,
+    "time": 158,
+    "country": "USA",
+    "budget": "200 million",
+    "boxoffice": "770 million",
+    "actors": [
+        {
+            "image": "john-cusack",
+            "name": "John Cusack",
+            "role": "Jackson Curtis"
+        },
+        {
+            "image": "amanda-peet",
+            "name": "Amanda Peet",
+            "role": "Kate Curtis"
+        },
+        {
+            "image": "chiwetel-ejiofor",
+            "name": "Chiwetel Ejiofor",
+            "role": "Adrian Helmsley"
+        },
+        {
+            "image": "thandie-newton",
+            "name": "Thandie Newton",
+            "role": "Laura Wilson"
+        },
+        {
+            "image": "oliver-platt",
+            "name": "Oliver Platt",
+            "role": "Carl Anheuser"
+        },
+        {
+            "image": "tom-mccarthy",
+            "name": "Tom McCarthy",
+            "role": "Gordon Silberman"
+        },
+        {
+            "image": "woody-harrelson",
+            "name": "Woody Harrelson",
+            "role": "Charlie Frost"
+        },
+        {
+            "image": "danny-glover",
+            "name": "Danny Glover",
+            "role": "President Thomas Wilson"
+        },
+        {
+            "image": "liam-james",
+            "name": "Liam James",
+            "role": "Noah Curtis"
+        },
+        {
+            "image": "morgan-lily",
+            "name": "Morgan Lily",
+            "role": "Lilly Curtis"
+        },
+        {
+            "image": "zlatko-buric",
+            "name": "Zlatko Buric",
+            "role": "Yuri Karpov"
+        },
+        {
+            "image": "beatrice-rosen",
+            "name": "Beatrice Rosen",
+            "role": "Tamara"
+        }
+    ],
+    "synopsis": "A frustrated writer struggles to keep his family alive when a series of global catastrophes threatens to annihilate mankind.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

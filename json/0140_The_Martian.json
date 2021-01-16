@@ -1,0 +1,100 @@
+{
+    "id": 134,
+    "title": "The Martian",
+    "poster": "martian",
+    "trailer": "ej3ioOneTy8",
+    "genres": [
+        "Sci-Fi",
+        "Adventure"
+    ],
+    "production": [
+        "20th-Century-FOX"
+    ],
+    "director": "Ridley Scott",
+    "producers": "Simon Kinberg, Ridley Scott, Michael Schaefer, Aditya Sood, Mark Huffam",
+    "writtens": "Drew Goddard",
+    "music": "Harry Gregson-Williams",
+    "cinema": "Danusz Wolski",
+    "year": 2015,
+    "time": 142,
+    "country": "USA, UK",
+    "budget": "108 million",
+    "boxoffice": "630 million",
+    "actors": [
+        {
+            "image": "matt-damon",
+            "name": "Matt Damon",
+            "role": "Mark Watney"
+        },
+        {
+            "image": "jessica-chastain",
+            "name": "Jessica Chastain",
+            "role": "Melissa Lewis"
+        },
+        {
+            "image": "kristen-wiig",
+            "name": "Kristen Wiig",
+            "role": "Annie Montrose"
+        },
+        {
+            "image": "jeff-daniels",
+            "name": "Jeff Daniels",
+            "role": "Teddy Sanders"
+        },
+        {
+            "image": "michael-pena",
+            "name": "Michael Pena",
+            "role": "Rick Martinez"
+        },
+        {
+            "image": "sean-bean",
+            "name": "Sean Bean",
+            "role": "Mitch Henderson"
+        },
+        {
+            "image": "kate-mara",
+            "name": "Kate Mara",
+            "role": "Beth Johanssen"
+        },
+        {
+            "image": "sebastian-stan",
+            "name": "Sebastian Stan",
+            "role": "Chris Beck"
+        },
+        {
+            "image": "aksel-hennie",
+            "name": "Aksel Hennie",
+            "role": "Alex Vogel"
+        },
+        {
+            "image": "chiwetel-ejiofor",
+            "name": "Chiwetel Ejiofor",
+            "role": "Vincent Kapoor"
+        },
+        {
+            "image": "benedict-wong",
+            "name": "Benedict Wong",
+            "role": "Bruce Ng"
+        },
+        {
+            "image": "mackenzie-davis",
+            "name": "Mackenzie Davis",
+            "role": "Mindy Park"
+        },
+        {
+            "image": "donald-glover",
+            "name": "Donald Glover",
+            "role": "Rich Purnell"
+        }
+    ],
+    "synopsis": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

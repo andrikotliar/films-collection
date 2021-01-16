@@ -1,0 +1,72 @@
+{
+    "id": 223,
+    "title": "TENET",
+    "poster": "tenet",
+    "trailer": "AZGcmvrTX9M",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures",
+        "Syncopy"
+    ],
+    "director": "Christopher Nolan",
+    "producers": "Christopher Nolan, Emma Thomas, Andy Thompson",
+    "writtens": "Christopher Nolan",
+    "music": "Ludwig Göransson",
+    "cinema": "Hoyte Van Hoytema",
+    "year": 2020,
+    "time": 150,
+    "country": "USA, UK",
+    "budget": "205 million",
+    "boxoffice": "362 million",
+    "actors": [
+        {
+            "image": "john-david-washington",
+            "name": "John David Washington",
+            "role": "Protagonist"
+        },
+        {
+            "image": "robert-pattinson",
+            "name": "Robert Pattinson",
+            "role": "Neil"
+        },
+        {
+            "image": "elizabeth-debicki",
+            "name": "Elizabeth Debicki",
+            "role": "Katherine Barton"
+        },
+        {
+            "image": "dimple-kapadia",
+            "name": "Dimple Kapadia",
+            "role": "Priya"
+        },
+        {
+            "image": "martin-donovan",
+            "name": "Martin Donovan",
+            "role": "Fay"
+        },
+        {
+            "image": "fiona-dourif",
+            "name": "Fiona Dourif",
+            "role": "Wheeler"
+        },
+        {
+            "image": "kenneth-branagh",
+            "name": "Kenneth Branagh",
+            "role": "Andrei Sator"
+        }
+    ],
+    "synopsis": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+    "categories": [
+        "special-favorite",
+        "cinema-watched"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

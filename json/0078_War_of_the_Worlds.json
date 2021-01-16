@@ -1,0 +1,66 @@
+{
+    "id": 76,
+    "title": "War of the Worlds",
+    "poster": "war_of_the_worlds",
+    "trailer": "jaasIlkad1Q",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Paramount-Pictures",
+        "DreamWorks-Pictures"
+    ],
+    "director": "Steven Spielberg",
+    "producers": "Kathleen Kennedy, Colin Wilson",
+    "writtens": "Josh Friedman, David Koepp",
+    "music": "John Williams",
+    "cinema": "Janusz Kaminski",
+    "year": 2005,
+    "time": 116,
+    "country": "USA",
+    "budget": "132 million",
+    "boxoffice": "592 million",
+    "actors": [
+        {
+            "image": "tom-cruise",
+            "name": "Tom Cruise",
+            "role": "Ray Ferrier"
+        },
+        {
+            "image": "dakota-fanning",
+            "name": "Dakota Fanning",
+            "role": "Rachel Ferrier"
+        },
+        {
+            "image": "miranda-otto",
+            "name": "Miranda Otto",
+            "role": "Mary Ann"
+        },
+        {
+            "image": "justin-chatwin",
+            "name": "Justin Chatwin",
+            "role": "Robbie"
+        },
+        {
+            "image": "tim-robbins",
+            "name": "Tim Robbins",
+            "role": "Harlan Ogilvy"
+        },
+        {
+            "image": "rick-gonzalez",
+            "name": "Rick Gonzalez",
+            "role": "Vincent"
+        }
+    ],
+    "synopsis": "As Earth is invaded by alien tripod fighting machines, one family fights for survival.",
+    "categories": [
+        "special-favorite"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

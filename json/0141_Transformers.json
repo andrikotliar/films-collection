@@ -1,0 +1,101 @@
+{
+    "id": 135,
+    "title": "Transformers",
+    "poster": "transformers_1",
+    "trailer": "dxQxgAfNzyE",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "DreamWorks-Pictures",
+        "Paramount-Pictures"
+    ],
+    "director": "Michael Bay",
+    "producers": "Lorenzo di Bonaventura, Tom DeSanto, Don Murphy, Ian Bryce",
+    "writtens": "Roberto Orci, Alex Kurtzman",
+    "music": "Steve Jablonsky",
+    "cinema": "Mitchell Amundsen",
+    "year": 2007,
+    "time": 143,
+    "country": "USA",
+    "budget": "150 million",
+    "boxoffice": "710 million",
+    "actors": [
+        {
+            "image": "shia-labeouf",
+            "name": "Shia LaBeouf",
+            "role": "Sam Witwicky"
+        },
+        {
+            "image": "megan-fox",
+            "name": "Megan Fox",
+            "role": "Mikaela Banes"
+        },
+        {
+            "image": "josh-duhamel",
+            "name": "Josh Duhamel",
+            "role": "Captain Lennox"
+        },
+        {
+            "image": "tyrese-gibson",
+            "name": "Tyrese Gibson",
+            "role": "Epps"
+        },
+        {
+            "image": "rachael-taylor",
+            "name": "Rachael Taylor",
+            "role": "Maggie Madsen"
+        },
+        {
+            "image": "anthony-anderson",
+            "name": "Anthony Anderson",
+            "role": "Glen Whitmann"
+        },
+        {
+            "image": "jon-voight",
+            "name": "Jon Voight",
+            "role": "John Keller"
+        },
+        {
+            "image": "john-turturro",
+            "name": "John Turturro",
+            "role": "Agent Simmons"
+        },
+        {
+            "image": "peter-cullen",
+            "name": "Peter Cullen",
+            "role": "Optimus Prime (voice)"
+        },
+        {
+            "image": "mark-ryan",
+            "name": "Mark Ryan",
+            "role": "Bumblebee (voice)"
+        },
+        {
+            "image": "hugo-weaving",
+            "name": "Hugo Weaving",
+            "role": "Megatron (voice)"
+        },
+        {
+            "image": "reno-wilson",
+            "name": "Reno Wilson",
+            "role": "Frenzy (voice)"
+        },
+        {
+            "image": "charlie-adler",
+            "name": "Charlie Adler",
+            "role": "Starscream (voice)"
+        }
+    ],
+    "synopsis": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
+    "categories": [
+        "special-favorite"
+    ],
+    "awards": null,
+    "parts": "Bay's Transformers",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

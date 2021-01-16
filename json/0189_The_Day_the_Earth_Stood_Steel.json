@@ -1,0 +1,80 @@
+{
+    "id": 190,
+    "title": "The Day the Earth Stood Steel",
+    "poster": "day_the_earth_stood_still",
+    "trailer": "6QFcZohER3s",
+    "genres": [
+        "Sci-Fi",
+        "Thriller"
+    ],
+    "production": [
+        "20th-Century-FOX"
+    ],
+    "director": "Scott Derrickson",
+    "producers": "Paul Harris Boardman, Gregory Goodman, Erwin Stoff",
+    "writtens": "David Scarpa",
+    "music": "Tyler Bates",
+    "cinema": "David Tattersall",
+    "year": 2008,
+    "time": 103,
+    "country": "USA",
+    "budget": "80 million",
+    "boxoffice": "233 million",
+    "actors": [
+        {
+            "image": "keanu-reeves",
+            "name": "Keanu Reeves",
+            "role": "Klaatu"
+        },
+        {
+            "image": "jennifer-connelly",
+            "name": "Jennifer Connelly",
+            "role": "Helen Benson"
+        },
+        {
+            "image": "kathy-bates",
+            "name": "Kathy Bates",
+            "role": "Regina Jackson"
+        },
+        {
+            "image": "jaden-smith",
+            "name": "Jaden Smith",
+            "role": "Jacob Benson"
+        },
+        {
+            "image": "john-cleese",
+            "name": "John Cleese",
+            "role": "Professor Barnhardt"
+        },
+        {
+            "image": "jon-hamm",
+            "name": "Jon Hamm",
+            "role": "Michael Granier"
+        },
+        {
+            "image": "kyle-chandler",
+            "name": "Kyle Chandler",
+            "role": "John Driscoll"
+        },
+        {
+            "image": "robert-knepper",
+            "name": "Robert Knepper",
+            "role": "Colonel"
+        },
+        {
+            "image": "james-hong",
+            "name": "James Hong",
+            "role": "Mr. Wu"
+        }
+    ],
+    "synopsis": "A remake of the 1951 classic science fiction film about an alien visitor and his giant robot counterpart who visit Earth.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

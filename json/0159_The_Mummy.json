@@ -1,0 +1,69 @@
+{
+    "id": 154,
+    "title": "The Mummy",
+    "poster": "mummy_remake",
+    "trailer": "vJxgxVH0Fsk",
+    "genres": [
+        "Fantasy",
+        "Action",
+        "Adventure"
+    ],
+    "production": [
+        "Universal-Pictures"
+    ],
+    "director": "Alex Kurtzman",
+    "producers": "Alex Kurtzman, Chris Morgan",
+    "writtens": "David Koepp, Christopher McQuarrie, Dylan Kussman",
+    "music": "Brian Tyler",
+    "cinema": "Ben Seresin",
+    "year": 2017,
+    "time": 110,
+    "country": "USA",
+    "budget": "125 million",
+    "boxoffice": "410 million",
+    "actors": [
+        {
+            "image": "tom-cruise",
+            "name": "Tom Cruise",
+            "role": "Henry Jekyll"
+        },
+        {
+            "image": "russell-crowe",
+            "name": "Russell Crowe",
+            "role": "Jenny Halsey"
+        },
+        {
+            "image": "annabelle-wallis",
+            "name": "Annabelle Wallis",
+            "role": "Ahmanet"
+        },
+        {
+            "image": "sofia-boutella",
+            "name": "Sofia Boutella",
+            "role": "Sgt. Vail"
+        },
+        {
+            "image": "jake-johnson",
+            "name": "Jake Johnson",
+            "role": "Colonel Greenway"
+        },
+        {
+            "image": "courtney-b.-vance",
+            "name": "Courtney B. Vance"
+        },
+        {
+            "image": "nick-morton",
+            "name": "Nick Morton"
+        }
+    ],
+    "synopsis": "An ancient Egyptian princess is awakened from her crypt beneath the desert, bringing with her malevolence grown over millennia, and terrors that defy human comprehension.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

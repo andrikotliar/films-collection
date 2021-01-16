@@ -1,0 +1,65 @@
+{
+    "id": 34,
+    "title": "The Matrix",
+    "poster": "matrix_1",
+    "trailer": "m8e-FF8MsqU",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "The Wachowski Brothers",
+    "producers": "Joel Silver",
+    "writtens": "The Wachowski Brothers",
+    "music": "Don Davis",
+    "cinema": "Bill Pope",
+    "year": 1999,
+    "time": 136,
+    "country": "USA, Australia",
+    "budget": "63 million",
+    "boxoffice": "463 million",
+    "actors": [
+        {
+            "image": "keanu-reeves",
+            "name": "Keanu Reeves",
+            "role": "Neo"
+        },
+        {
+            "image": "laurance-fishburne",
+            "name": "Laurance Fishburne",
+            "role": "Morpheus"
+        },
+        {
+            "image": "carrie-anne-moss",
+            "name": "Carrie-Anne Moss",
+            "role": "Trinity"
+        },
+        {
+            "image": "hugo-weaving",
+            "name": "Hugo Weaving",
+            "role": "Agent Smith"
+        },
+        {
+            "image": "gloria-foster",
+            "name": "Gloria Foster",
+            "role": "Oracle"
+        },
+        {
+            "image": "joe-pantoliano",
+            "name": "Joe Pantoliano",
+            "role": "Cypher"
+        }
+    ],
+    "synopsis": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+    "categories": [
+        "most-watched"
+    ],
+    "awards": null,
+    "parts": "The Matrix",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

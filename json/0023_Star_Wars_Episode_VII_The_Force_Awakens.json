@@ -1,0 +1,81 @@
+{
+    "id": 23,
+    "title": "Star Wars Episode VII: The Force Awakens",
+    "poster": "star_wars_9",
+    "trailer": "sGbxmsDFVnE",
+    "genres": [
+        "SpaceOpera",
+        "Adventure"
+    ],
+    "production": [
+        "Walt-Disney-Pictures",
+        "Lucasfilm"
+    ],
+    "director": "J.J. Abrams",
+    "producers": "Kathleen Kennedy, J. J. Abrams, Bryan Burk",
+    "writtens": "Lawrence Kasdan, J. J. Abrams, Michael Arndt",
+    "music": "John Williams",
+    "cinema": "Dan Mindel",
+    "year": 2015,
+    "time": 135,
+    "country": "USA",
+    "budget": "306 million",
+    "boxoffice": "2,07 billion",
+    "actors": [
+        {
+            "image": "daisy-ridley",
+            "name": "Daisy Ridley",
+            "role": "Rey"
+        },
+        {
+            "image": "adam-driver",
+            "name": "Adam Driver",
+            "role": "Kylo Ren"
+        },
+        {
+            "image": "john-boyega",
+            "name": "John Boyega",
+            "role": "Finn"
+        },
+        {
+            "image": "harrison-ford",
+            "name": "Harrison Ford",
+            "role": "Han Solo"
+        },
+        {
+            "image": "mark-hamill",
+            "name": "Mark Hamill",
+            "role": "Luke Skywalker"
+        },
+        {
+            "image": "carrie-fisher",
+            "name": "Carrie Fisher",
+            "role": "Leia"
+        },
+        {
+            "image": "oscar-isaac",
+            "name": "Oscar Isaac",
+            "role": "Poe Dameron"
+        },
+        {
+            "image": "andy-serkis",
+            "name": "Andy Serkis",
+            "role": "Snoke"
+        },
+        {
+            "image": "peter-mayhew",
+            "name": "Peter Mayhew",
+            "role": "Chewbacca"
+        }
+    ],
+    "synopsis": "Three decades after the Empire's defeat, a new threat arises in the militant First Order. Stormtrooper defector Finn and the scavenger Rey are caught up in the Resistance's search for the missing Luke Skywalker.",
+    "categories": [
+        "star-wars"
+    ],
+    "awards": null,
+    "parts": "Star Wars",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "id": 77,
+    "title": "Star Trek",
+    "poster": "star_trek_1",
+    "trailer": "pKFUZ10Wmbw",
+    "genres": [
+        "Sci-Fi",
+        "SpaceOpera"
+    ],
+    "production": [
+        "Paramount-Pictures",
+        "Bad-Robot-Productions"
+    ],
+    "director": "J.J. Abrams",
+    "producers": "J.J. Abrams, Deamon Lindelof",
+    "writtens": "Roberto Orci, Alex Kurtzman",
+    "music": "Michael Giacchino",
+    "cinema": "Dan Mindel",
+    "year": 2009,
+    "time": 127,
+    "country": "USA",
+    "budget": "150 million",
+    "boxoffice": "386 million",
+    "actors": [
+        {
+            "image": "chris-pine",
+            "name": "Chris Pine",
+            "role": "Kirk"
+        },
+        {
+            "image": "zachary-quinto",
+            "name": "Zachary Quinto",
+            "role": "Spock"
+        },
+        {
+            "image": "leonard-nimoy",
+            "name": "Leonard Nimoy",
+            "role": "Spock Prime"
+        },
+        {
+            "image": "eric-bana",
+            "name": "Eric Bana",
+            "role": "Nero"
+        },
+        {
+            "image": "bruce-greenwood",
+            "name": "Bruce Greenwood",
+            "role": "Pike"
+        },
+        {
+            "image": "karl-urban",
+            "name": "Karl Urban",
+            "role": "Bones"
+        },
+        {
+            "image": "zoe-saldana",
+            "name": "Zoe Saldana",
+            "role": "Uhura"
+        },
+        {
+            "image": "simon-pegg",
+            "name": "Simon Pegg",
+            "role": "Scotty"
+        },
+        {
+            "image": "john-cho",
+            "name": "John Cho",
+            "role": "Sulu"
+        },
+        {
+            "image": "anton-yelchin",
+            "name": "Anton Yelchin",
+            "role": "Chekov"
+        },
+        {
+            "image": "ben-cross",
+            "name": "Ben Cross",
+            "role": "Sarek"
+        },
+        {
+            "image": "winona-ryder",
+            "name": "Winona Ryder",
+            "role": "Amanda Grayson"
+        },
+        {
+            "image": "chris-hemsworth",
+            "name": "Chris Hemsworth",
+            "role": "George Kirk"
+        }
+    ],
+    "synopsis": "The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Star Trek",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "id": 210,
+    "title": "Frozen",
+    "poster": "frozen",
+    "trailer": "TbQm5doF_Uc",
+    "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+    ],
+    "production": [
+        "Walt-Disney-Animation-Studios"
+    ],
+    "director": "Chris Buck, Jennifer Lee",
+    "producers": "Peter Del Vecho",
+    "writtens": "Jennifer Lee",
+    "music": "Robert Lopez, Kristen Anderson-Lopez",
+    "cinema": "Scott Beattie (layout), Mohit Kallianpur (lighting)",
+    "year": 2013,
+    "time": 102,
+    "country": "USA",
+    "budget": "150 million",
+    "boxoffice": "1,28 billion",
+    "actors": [
+        {
+            "image": "kristen-bell",
+            "name": "Kristen Bell",
+            "role": "Anna (voice)"
+        },
+        {
+            "image": "idina-menzel",
+            "name": "Idina Menzel",
+            "role": "Elsa (voice)"
+        },
+        {
+            "image": "jonathan-groff",
+            "name": "Jonathan Groff",
+            "role": "Kristoff (voice)"
+        },
+        {
+            "image": "josh-gad",
+            "name": "Josh Gad",
+            "role": "Olaf (voice)"
+        },
+        {
+            "image": "santino-fontana",
+            "name": "Santino Fontana",
+            "role": "Hans (voice)"
+        },
+        {
+            "image": "alan-tudyk",
+            "name": "Alan Tudyk",
+            "role": "Duke (voice)"
+        }
+    ],
+    "synopsis": "When the newly-crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Frozen",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

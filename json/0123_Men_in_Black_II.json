@@ -1,0 +1,66 @@
+{
+    "id": 117,
+    "title": "Men in Black II",
+    "poster": "mib_2",
+    "trailer": "p4NJHqoojOU",
+    "genres": [
+        "Sci-Fi",
+        "Action",
+        "Comedy"
+    ],
+    "production": [
+        "Columbia-Pictures"
+    ],
+    "director": "Barry Sonnenfeld",
+    "producers": "Walter F. Parkes, Laurie MacDonald",
+    "writtens": "Robert Gordon, Barry Fanaro",
+    "music": "Danny Elfman",
+    "cinema": "Greg Gardiner",
+    "year": 2002,
+    "time": 88,
+    "country": "USA",
+    "budget": "140 million",
+    "boxoffice": "442 million",
+    "actors": [
+        {
+            "image": "tommy-lee-jones",
+            "name": "Tommy Lee Jones",
+            "role": "K"
+        },
+        {
+            "image": "will-smith",
+            "name": "Will Smith",
+            "role": "J"
+        },
+        {
+            "image": "rip-torn",
+            "name": "Rip Torn",
+            "role": "Z"
+        },
+        {
+            "image": "lara-flynn-boyle",
+            "name": "Lara Flynn Boyle",
+            "role": "Serleena"
+        },
+        {
+            "image": "johnny-knoxville",
+            "name": "Johnny Knoxville",
+            "role": "Scrad / Charlie"
+        },
+        {
+            "image": "rosario-dawson",
+            "name": "Rosario Dawson",
+            "role": "Laura Vasquez"
+        }
+    ],
+    "synopsis": "Agent J needs help so he is sent to find Agent K and restore his memory.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Men in Black",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

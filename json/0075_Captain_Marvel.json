@@ -1,0 +1,96 @@
+{
+    "id": 73,
+    "title": "Captain Marvel",
+    "poster": "mcu_21",
+    "trailer": "TcMBFSGVi1c",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Walt-Disney-Pictures",
+        "Marvel-Studios"
+    ],
+    "director": "Anna Boden, Ryan Fleck",
+    "producers": "Kevin Feige",
+    "writtens": "Anna Boden, Ryan Fleck, Geneva Robertson-Dworet",
+    "music": "Pinar Toprak",
+    "cinema": "Ben Davis",
+    "year": 2019,
+    "time": 124,
+    "country": "USA",
+    "budget": "152 million",
+    "boxoffice": "1,13 billion",
+    "actors": [
+        {
+            "image": "brie-larson",
+            "name": "Brie Larson",
+            "role": "Carol Danvers / Captain Marvel"
+        },
+        {
+            "image": "samuel-l.-jackson",
+            "name": "Samuel L. Jackson",
+            "role": "Nick Fury"
+        },
+        {
+            "image": "ben-mendelsohn",
+            "name": "Ben Mendelsohn",
+            "role": "Talos / Keller"
+        },
+        {
+            "image": "jude-law",
+            "name": "Jude Law",
+            "role": "Yon-Rogg"
+        },
+        {
+            "image": "annette-bening",
+            "name": "Annette Bening",
+            "role": "Supreme Intelligence / Dr. Wendy Lawson"
+        },
+        {
+            "image": "lashana-lynch",
+            "name": "Lashana Lynch",
+            "role": "Maria Rambeau"
+        },
+        {
+            "image": "clark-gregg",
+            "name": "Clark Gregg",
+            "role": "Agent Coulson"
+        },
+        {
+            "image": "rune-temte",
+            "name": "Rune Temte",
+            "role": "Bron-Char"
+        },
+        {
+            "image": "gemma-chan",
+            "name": "Gemma Chan",
+            "role": "Minn-Erva"
+        },
+        {
+            "image": "algenis-perez-soto",
+            "name": "Algenis Perez Soto",
+            "role": "Att-Lass"
+        },
+        {
+            "image": "djimon-hounsou",
+            "name": "Djimon Hounsou",
+            "role": "Korath"
+        },
+        {
+            "image": "lee-pace",
+            "name": "Lee Pace",
+            "role": "Ronan"
+        }
+    ],
+    "synopsis": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
+    "categories": [
+        "marvel"
+    ],
+    "awards": null,
+    "parts": "Marvel Cinematic Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

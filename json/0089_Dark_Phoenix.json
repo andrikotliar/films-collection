@@ -1,0 +1,80 @@
+{
+    "id": 226,
+    "title": "Dark Phoenix",
+    "poster": "x_men_9",
+    "trailer": "1-q8C_c-nlM",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "20th-Century-FOX"
+    ],
+    "director": "Simon Kinberg",
+    "producers": "Todd Hallowell, Simon Kinberg, Hutch Parker, Lauren Shuler Donner",
+    "writtens": "Simon Kinberg",
+    "music": "Hans Zimmer",
+    "cinema": "Mauro Fiore",
+    "year": 2019,
+    "time": 113,
+    "country": "USA, Canada",
+    "budget": "200 million",
+    "boxoffice": "252 million",
+    "actors": [
+        {
+            "image": "james-mcavoy",
+            "name": "James McAvoy",
+            "role": "Charles Xavier"
+        },
+        {
+            "image": "michael-fassbender",
+            "name": "Michael Fassbender",
+            "role": "Erik Lehnsherr / Magneto"
+        },
+        {
+            "image": "jennifer-lawrence",
+            "name": "Jennifer Lawrence",
+            "role": "Raven / Mystique"
+        },
+        {
+            "image": "nicholas-hoult",
+            "name": "Nicholas Hoult",
+            "role": "Hank McCoy / Beast"
+        },
+        {
+            "image": "sophie-turner",
+            "name": "Sophie Turner",
+            "role": "Jean Grey / Phoenix"
+        },
+        {
+            "image": "tye-sheridan",
+            "name": "Tye Sheridan",
+            "role": "Scott Summers / Cyclops"
+        },
+        {
+            "image": "alexandra-shipp",
+            "name": "Alexandra Shipp",
+            "role": "Ororo Munroe / Storm"
+        },
+        {
+            "image": "evan-peters",
+            "name": "Evan Peters",
+            "role": "Peter Maximoff / Quicksilver"
+        },
+        {
+            "image": "kodi-smit-mcphee",
+            "name": "Kodi Smit-McPhee",
+            "role": "Kurt Wagner / Nightcrawler"
+        }
+    ],
+    "synopsis": "Jean Grey begins to develop incredible powers that corrupt and turn her into a Dark Phoenix, causing the X-Men to decide if her life is worth more than all of humanity.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": "X-Men",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

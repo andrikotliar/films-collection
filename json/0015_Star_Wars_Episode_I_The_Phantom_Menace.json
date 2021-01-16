@@ -1,0 +1,91 @@
+{
+    "id": 15,
+    "title": "Star Wars Episode I: The Phantom Menace",
+    "poster": "star_wars_1",
+    "trailer": "bD7bpG-zDJQ",
+    "genres": [
+        "SpaceOpera",
+        "Adventure"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Lucasfilm"
+    ],
+    "director": "George Lucas",
+    "producers": "Rick McCallum",
+    "writtens": "George Lucas",
+    "music": "John Williams",
+    "cinema": "David Tattersall",
+    "year": 1999,
+    "time": 136,
+    "country": "USA",
+    "budget": "115 million",
+    "boxoffice": "1,02 billion",
+    "actors": [
+        {
+            "image": "liam-neeson",
+            "name": "Liam Neeson",
+            "role": "Qui-Gon Jinn"
+        },
+        {
+            "image": "ewan-mcgregor",
+            "name": "Ewan McGregor",
+            "role": "Obi-Wan Kenobi"
+        },
+        {
+            "image": "natalie-portman",
+            "name": "Natalie Portman",
+            "role": "Padme"
+        },
+        {
+            "image": "jake-lloyd",
+            "name": "Jake Lloyd",
+            "role": "Anakin Skywalker"
+        },
+        {
+            "image": "ian-mcdiarmid",
+            "name": "Ian McDiarmid",
+            "role": "Senator Palpatine"
+        },
+        {
+            "image": "pernilla-august",
+            "name": "Pernilla August",
+            "role": "Shmi Skywalker"
+        },
+        {
+            "image": "ahmed-best",
+            "name": "Ahmed Best",
+            "role": "Jar Jar Binks"
+        },
+        {
+            "image": "anthony-daniels",
+            "name": "Anthony Daniels",
+            "role": "C-3PO"
+        },
+        {
+            "image": "kenny-baker",
+            "name": "Kenny Baker",
+            "role": "R2-D2"
+        },
+        {
+            "image": "frank-oz",
+            "name": "Frank Oz",
+            "role": "Yoda"
+        },
+        {
+            "image": "ray-park",
+            "name": "Ray Park",
+            "role": "Darth Maul"
+        }
+    ],
+    "synopsis": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their old glory.",
+    "categories": [
+        "star-wars"
+    ],
+    "awards": null,
+    "parts": "Star Wars",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

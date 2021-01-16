@@ -1,0 +1,66 @@
+{
+    "id": 165,
+    "title": "Shazam!",
+    "poster": "dceu_7",
+    "trailer": "go6GEIrcvFY",
+    "genres": [
+        "Adventure",
+        "Comedy"
+    ],
+    "production": [
+        "DC-Entertainment",
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "David F. Sandberg",
+    "producers": "Peter Safran",
+    "writtens": "Henry Gayden",
+    "music": "Benjamin Wallfisch",
+    "cinema": "Maxime Alexandre",
+    "year": 2019,
+    "time": 132,
+    "country": "USA",
+    "budget": "80 million",
+    "boxoffice": "356 million",
+    "actors": [
+        {
+            "image": "zachary-levi",
+            "name": "Zachary Levi",
+            "role": "Shazam"
+        },
+        {
+            "image": "djimon-hounsou",
+            "name": "Djimon Hounsou",
+            "role": "The Wizard"
+        },
+        {
+            "image": "mark-strong",
+            "name": "Mark Strong",
+            "role": "Dr. Thaddeus Sivana"
+        },
+        {
+            "image": "jack-dylan-grazer",
+            "name": "Jack Dylan Grazer",
+            "role": "Freddy Freeman"
+        },
+        {
+            "image": "meagan-good",
+            "name": "Meagan Good",
+            "role": "Darla Dudley"
+        },
+        {
+            "image": "asher-angel",
+            "name": "Asher Angel",
+            "role": "Billy Batson"
+        }
+    ],
+    "synopsis": "We all have a superhero inside us, it just takes a bit of magic to bring it out. In Billy Batson's case, by shouting out one word - SHAZAM! - this streetwise fourteen-year-old foster kid can turn into the adult superhero Shazam.",
+    "categories": [
+        "dceu"
+    ],
+    "awards": null,
+    "parts": "DC Extended Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

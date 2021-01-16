@@ -1,0 +1,74 @@
+{
+    "id": 111,
+    "title": "District 13: Ultimatum",
+    "poster": "d13_2",
+    "trailer": "jDDFNpj9xBQ",
+    "genres": [
+        "Action"
+    ],
+    "production": [
+        "EuropaCorp"
+    ],
+    "director": "Patrick Alessandrin",
+    "producers": "Luc Besson",
+    "writtens": "Luc Besson",
+    "music": "Damien Roques, Trak Invaders",
+    "cinema": "Jean-François Hensgens",
+    "year": 2009,
+    "time": 106,
+    "country": "USA",
+    "budget": "14 million",
+    "boxoffice": "14 million",
+    "actors": [
+        {
+            "image": "cyril-raffaelli",
+            "name": "Cyril Raffaelli",
+            "role": "Damien Tomaso"
+        },
+        {
+            "image": "david-belle",
+            "name": "David Belle",
+            "role": "Le'to"
+        },
+        {
+            "image": "philippe-torreton",
+            "name": "Philippe Torreton",
+            "role": "Le pr'sident de la R'publique"
+        },
+        {
+            "image": "daniel-duval",
+            "name": "Daniel Duval",
+            "role": "Walter Gassman"
+        },
+        {
+            "image": "elodie-yung",
+            "name": "Elodie Yung",
+            "role": "Tao"
+        },
+        {
+            "image": "mc-jean-gab'1",
+            "name": "MC Jean Gab'1",
+            "role": "Molko"
+        },
+        {
+            "image": "james-deano",
+            "name": "James Deano",
+            "role": "Karl le skin"
+        },
+        {
+            "image": "laouni-mouhid",
+            "name": "Laouni Mouhid",
+            "role": "Ali-K"
+        }
+    ],
+    "synopsis": "Damien and Leito return to District 13 on a mission to bring peace to the troubled sector that is controlled by five different gang bosses, before the city's secret services take drastic measures to solve the problem.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "District 13",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

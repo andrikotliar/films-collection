@@ -1,0 +1,85 @@
+{
+    "id": 122,
+    "title": "Bumblebee",
+    "poster": "bumblebee",
+    "trailer": "lcwmDAYt22k",
+    "genres": [
+        "Sci-Fi",
+        "Adventure"
+    ],
+    "production": [
+        "Paramount-Pictures"
+    ],
+    "director": "Travis Knight",
+    "producers": "Lorenzo di Bonaventure, Tom DeSanto, Don Murphy, Mark Vahradian",
+    "writtens": "Christina Hodson",
+    "music": "Dario Marianelli",
+    "cinema": "Enrique Chediak",
+    "year": 2018,
+    "time": 114,
+    "country": "USA",
+    "budget": "102 million",
+    "boxoffice": "460 million",
+    "actors": [
+        {
+            "image": "hailee-steinfeld",
+            "name": "Hailee Steinfeld",
+            "role": "Charlie"
+        },
+        {
+            "image": "jorge-lendeborg-jr.",
+            "name": "Jorge Lendeborg Jr.",
+            "role": "Memo"
+        },
+        {
+            "image": "john-cena",
+            "name": "John Cena",
+            "role": "Agent Burns"
+        },
+        {
+            "image": "jason-drucker",
+            "name": "Jason Drucker",
+            "role": "Otis"
+        },
+        {
+            "image": "pamela-adlon",
+            "name": "Pamela Adlon",
+            "role": "Sally"
+        },
+        {
+            "image": "stephen-schneider",
+            "name": "Stephen Schneider",
+            "role": "Ron"
+        },
+        {
+            "image": "dylan-o'brien",
+            "name": "Dylan O'Brien",
+            "role": "Bumblebee (voice)"
+        },
+        {
+            "image": "peter-cullen",
+            "name": "Peter Cullen",
+            "role": "Optimus Prime (voice)"
+        },
+        {
+            "image": "angela-bassett",
+            "name": "Angela Bassett",
+            "role": "Shatter (voice)"
+        },
+        {
+            "image": "justin-theroux",
+            "name": "Justin Theroux",
+            "role": "Dropkick (voice)"
+        }
+    ],
+    "synopsis": "On the run in the year of 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

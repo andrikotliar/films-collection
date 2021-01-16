@@ -1,0 +1,90 @@
+{
+    "id": 130,
+    "title": "Percy Jackson & the Olympians: The Lightning Thief",
+    "poster": "percy_jackson_1",
+    "trailer": "xko1Mx5w4tg",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "20th-Century-FOX"
+    ],
+    "director": "Chris Columbus",
+    "producers": "Karen Rosenfelt, Chris Columbus, Michael Barnathan, Mark Redcliff",
+    "writtens": "Craig Titley",
+    "music": "Christophe Beck",
+    "cinema": "Stephen Goldblatt",
+    "year": 2010,
+    "time": 95,
+    "country": "USA, UK, Canada, Australia",
+    "budget": "95 million",
+    "boxoffice": "226 million",
+    "actors": [
+        {
+            "image": "logan-lerman",
+            "name": "Logan Lerman",
+            "role": "Percy Jackson"
+        },
+        {
+            "image": "brandon-t.-jackson",
+            "name": "Brandon T. Jackson",
+            "role": "Grover"
+        },
+        {
+            "image": "alexandra-daddario",
+            "name": "Alexandra Daddario",
+            "role": "Annabeth"
+        },
+        {
+            "image": "jake-abel",
+            "name": "Jake Abel",
+            "role": "Luke"
+        },
+        {
+            "image": "sean-bean",
+            "name": "Sean Bean",
+            "role": "Zeus"
+        },
+        {
+            "image": "pierce-brosnan",
+            "name": "Pierce Brosnan",
+            "role": "Mr. Brunner / Chiron"
+        },
+        {
+            "image": "steve-coogan",
+            "name": "Steve Coogan",
+            "role": "Hades"
+        },
+        {
+            "image": "rosario-dawson",
+            "name": "Rosario Dawson",
+            "role": "Persephone"
+        },
+        {
+            "image": "melina-kanakaredes",
+            "name": "Melina Kanakaredes",
+            "role": "Athena"
+        },
+        {
+            "image": "catherine-keener",
+            "name": "Catherine Keener",
+            "role": "Sally Jackson"
+        },
+        {
+            "image": "kevin-mckidd",
+            "name": "Kevin McKidd",
+            "role": "Poseidon"
+        }
+    ],
+    "synopsis": "A teenager discovers he's the descendant of a Greek god and sets out on an adventure to settle an on-going battle between the gods.",
+    "categories": [
+        "special-favorite"
+    ],
+    "awards": null,
+    "parts": "Percy Jackson",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

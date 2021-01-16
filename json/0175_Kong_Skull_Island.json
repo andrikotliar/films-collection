@@ -1,0 +1,71 @@
+{
+    "id": 170,
+    "title": "Kong: Skull Island",
+    "poster": "monsterverse_2",
+    "trailer": "44LdLqgOpjo",
+    "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "Jordan Vogt-Roberts",
+    "producers": "Thomas Tull, Mary Parent, Jon Jashni",
+    "writtens": "Dan Gilroy, Max Borenstein, Derek Connolly",
+    "music": "Henry Jackman",
+    "cinema": "Larry Fong",
+    "year": 2017,
+    "time": 118,
+    "country": "USA, China",
+    "budget": "185 million",
+    "boxoffice": "567 million",
+    "actors": [
+        {
+            "image": "tom-hiddleston",
+            "name": "Tom Hiddleston",
+            "role": "James Conrad"
+        },
+        {
+            "image": "samuel-l.-jackson",
+            "name": "Samuel L. Jackson",
+            "role": "Preston Packard"
+        },
+        {
+            "image": "brie-larson",
+            "name": "Brie Larson",
+            "role": "Mason Weaver"
+        },
+        {
+            "image": "john-c.-reilly",
+            "name": "John C. Reilly",
+            "role": "Hank Marlow"
+        },
+        {
+            "image": "john-goodman",
+            "name": "John Goodman",
+            "role": "Bill Randa"
+        },
+        {
+            "image": "corey-hawkins",
+            "name": "Corey Hawkins",
+            "role": "Houston Brooks"
+        },
+        {
+            "image": "john-ortiz",
+            "name": "John Ortiz",
+            "role": "Victor Nieves"
+        }
+    ],
+    "synopsis": "After the Vietnam war, a team of scientists explores an uncharted island in the Pacific, venturing into the domain of the mighty Kong, and must fight to escape a primal Eden.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Monsterverse",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

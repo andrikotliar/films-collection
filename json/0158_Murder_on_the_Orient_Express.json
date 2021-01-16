@@ -1,0 +1,65 @@
+{
+    "id": 153,
+    "title": "Murder on the Orient Express",
+    "poster": "murder_on_the_orient_express",
+    "trailer": "Mq4m3yAoW8E",
+    "genres": [
+        "Crime",
+        "Drama"
+    ],
+    "production": [
+        "20th-Century-FOX"
+    ],
+    "director": "Kenneth Branagh",
+    "producers": "Ridley Scott, Mark Gordon, Simon Kinberg, Kenneth Branagh",
+    "writtens": "Michael Green",
+    "music": "Patrick Doyle",
+    "cinema": "Haris Zambarloukos",
+    "year": 2017,
+    "time": 114,
+    "country": "USA",
+    "budget": "55 million",
+    "boxoffice": "353 million",
+    "actors": [
+        {
+            "image": "kenneth-branagh",
+            "name": "Kenneth Branagh",
+            "role": "Hercule Poirot"
+        },
+        {
+            "image": "elliot-levey",
+            "name": "Elliot Levey",
+            "role": "Rabbi"
+        },
+        {
+            "image": "david-annen",
+            "name": "David Annen",
+            "role": "Priest"
+        },
+        {
+            "image": "joseph-long",
+            "name": "Joseph Long",
+            "role": "Imam"
+        },
+        {
+            "image": "daisy-ridley",
+            "name": "Daisy Ridley",
+            "role": "Miss Mary Debenham"
+        },
+        {
+            "image": "leslie-odom-jr.",
+            "name": "Leslie Odom Jr.",
+            "role": "Dr. Arbuthnot"
+        }
+    ],
+    "synopsis": "When a murder occurs on the train on which he's travelling, celebrated detective Hercule Poirot is recruited to solve the case.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

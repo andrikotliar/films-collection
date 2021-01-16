@@ -1,0 +1,90 @@
+{
+    "id": 91,
+    "title": "The Mummy Returns",
+    "poster": "mummy_2",
+    "trailer": "3yXjs7BUKYc",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "Universal-Pictures"
+    ],
+    "director": "Stephen Sommers",
+    "producers": "James Jacks, Sean Daniel",
+    "writtens": "Stephen Sommers",
+    "music": "Alan Silvestri",
+    "cinema": "Adrian Biddle",
+    "year": 2001,
+    "time": 130,
+    "country": "USA",
+    "budget": "98 million",
+    "boxoffice": "433 million",
+    "actors": [
+        {
+            "image": "brendan-fraser",
+            "name": "Brendan Fraser",
+            "role": "Rick O'Connell"
+        },
+        {
+            "image": "rachel-weisz",
+            "name": "Rachel Weisz",
+            "role": "Evelyn Carnahan / Nefertiri"
+        },
+        {
+            "image": "john-hannah",
+            "name": "John Hannah",
+            "role": "Jonathan"
+        },
+        {
+            "image": "arnold-vosloo",
+            "name": "Arnold Vosloo",
+            "role": "Imhotep"
+        },
+        {
+            "image": "oded-fehr",
+            "name": "Oded Fehr",
+            "role": "Ardeth Bay"
+        },
+        {
+            "image": "patricia-velasquez",
+            "name": "Patricia Velasquez",
+            "role": "Meela / Anck-Su-Namun"
+        },
+        {
+            "image": "freddie-boath",
+            "name": "Freddie Boath",
+            "role": "Alex"
+        },
+        {
+            "image": "alun-armstrong",
+            "name": "Alun Armstrong",
+            "role": "Mr. Hafez"
+        },
+        {
+            "image": "dwayne-johnson",
+            "name": "Dwayne Johnson",
+            "role": "The Scorpion King"
+        },
+        {
+            "image": "adewale-akinnuoye-agbaje",
+            "name": "Adewale Akinnuoye-Agbaje",
+            "role": "Lock-Nah"
+        },
+        {
+            "image": "shaun-parkes",
+            "name": "Shaun Parkes",
+            "role": "Izzy"
+        }
+    ],
+    "synopsis": "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror.",
+    "categories": [
+        "most-watched"
+    ],
+    "awards": null,
+    "parts": "The Mummy",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

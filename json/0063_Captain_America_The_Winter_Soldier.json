@@ -1,0 +1,71 @@
+{
+    "id": 61,
+    "title": "Captain America: The Winter Soldier",
+    "poster": "mcu_9",
+    "trailer": "7SlILk2WMTI",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Walt-Disney-Pictures",
+        "Marvel-Studios"
+    ],
+    "director": "Anthony Russo, Joe Russo",
+    "producers": "Kevin Feige",
+    "writtens": "Christopher Markus, Stephen McFeely",
+    "music": "Henry Jackman",
+    "cinema": "Trent Opaloch",
+    "year": 2014,
+    "time": 136,
+    "country": "USA",
+    "budget": "177 million",
+    "boxoffice": "714 million",
+    "actors": [
+        {
+            "image": "chris-evans",
+            "name": "Chris Evans",
+            "role": "Steve Rogers / Captain America"
+        },
+        {
+            "image": "samuel-l.-jackson",
+            "name": "Samuel L. Jackson",
+            "role": "Nick Fury"
+        },
+        {
+            "image": "scarlett-johansson",
+            "name": "Scarlett Johansson",
+            "role": "Natasha Romanoff / Black Widow"
+        },
+        {
+            "image": "robert-redford",
+            "name": "Robert Redford",
+            "role": "Alexander Pierce"
+        },
+        {
+            "image": "sebastian-stan",
+            "name": "Sebastian Stan",
+            "role": "Bucky Barnes / Winter Soldier"
+        },
+        {
+            "image": "anthony-mackie",
+            "name": "Anthony Mackie",
+            "role": "Sam Wilson / Falcon"
+        },
+        {
+            "image": "cobie-smulders",
+            "name": "Cobie Smulders",
+            "role": "Maria Hill"
+        }
+    ],
+    "synopsis": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
+    "categories": [
+        "marvel"
+    ],
+    "awards": null,
+    "parts": "Marvel Cinematic Universe",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "id": 131,
+    "title": "Percy Jackson & the Olympians: Sea of Monsters",
+    "poster": "percy_jackson_2",
+    "trailer": "w6aYjbpBm-E",
+    "genres": [
+        "Fantasy",
+        "Adventure"
+    ],
+    "production": [
+        "20th-Century-FOX"
+    ],
+    "director": "Thor Freudenthal",
+    "producers": "Karen Rosenfelt, Michael Barnathan",
+    "writtens": "Marc Guggenheim",
+    "music": "Andrew Lockington",
+    "cinema": "Shelly Johnson",
+    "year": 2013,
+    "time": 106,
+    "country": "USA",
+    "budget": "90 million",
+    "boxoffice": "200 million",
+    "actors": [
+        {
+            "image": "logan-lerman",
+            "name": "Logan Lerman",
+            "role": "Percy Jackson"
+        },
+        {
+            "image": "alexandra-daddario",
+            "name": "Alexandra Daddario",
+            "role": "Annabeth"
+        },
+        {
+            "image": "douglas-smith",
+            "name": "Douglas Smith",
+            "role": "Tyson"
+        },
+        {
+            "image": "leven-rambin",
+            "name": "Leven Rambin",
+            "role": "Clarisse"
+        },
+        {
+            "image": "brandon-t.-jackson",
+            "name": "Brandon T. Jackson",
+            "role": "Grover"
+        },
+        {
+            "image": "jake-abel",
+            "name": "Jake Abel",
+            "role": "Luke"
+        },
+        {
+            "image": "anthony-head",
+            "name": "Anthony Head",
+            "role": "Chiron"
+        },
+        {
+            "image": "stanley-tucci",
+            "name": "Stanley Tucci",
+            "role": "Mr. D"
+        }
+    ],
+    "synopsis": "In order to restore their dying safe haven, the son of Poseidon and his friends embark on a quest to the Sea of Monsters, to find the mythical Golden Fleece, all the while trying to stop an ancient evil from rising.",
+    "categories": [
+        "uncategorized"
+    ],
+    "awards": null,
+    "parts": "Percy Jackson",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}
