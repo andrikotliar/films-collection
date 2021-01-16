@@ -1,8 +1,11 @@
 node_modules/
 src/modules/
+src/components/Test.vue
+dist/
+
+# local bash scripts
 update-db.sh
 update-list.sh
 update-db-and-list.sh
 update-calender.sh
-src/components/Test.vue
-dist/
+generate-and-update.sh
