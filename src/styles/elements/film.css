@@ -248,6 +248,7 @@
 	align-items: center;
 	background-color: #f7f7f7;
 	padding-right: 10px;
+	min-height: 90px;
 }
 
 .film__persons .actor__image {
