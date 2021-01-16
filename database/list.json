@@ -85,7 +85,7 @@
         "type": "film",
         "year": 2014,
         "watched": 1,
-        "appstatus": 0,
+        "appstatus": 1,
         "watchcount": 1,
         "partstatus": "single_part"
     },
@@ -1008,11 +1008,11 @@
         "partstatus": "middle_part"
     },
     {
-        "title": "Jurassic World: The Fallen Kingdom",
+        "title": "Jurassic World: Fallen Kingdom",
         "type": "film",
         "year": 2018,
         "watched": 1,
-        "appstatus": 0,
+        "appstatus": 1,
         "watchcount": 1,
         "partstatus": "last_part"
     },
@@ -1563,7 +1563,7 @@
         "watched": 1,
         "appstatus": 0,
         "watchcount": 1,
-        "partstatus": "last_part"
+        "partstatus": "middle_part"
     },
     {
         "title": "Wonder Woman 1984",
@@ -1572,7 +1572,7 @@
         "watched": 1,
         "appstatus": 0,
         "watchcount": 1,
-        "partstatus": "middle_part"
+        "partstatus": "last_part"
     },
     {
         "title": "Speed",
@@ -1894,7 +1894,7 @@
         "type": "animation",
         "year": 2019,
         "watched": 1,
-        "appstatus": 0,
+        "appstatus": 1,
         "watchcount": 1,
         "partstatus": "last_part"
     },
@@ -1957,7 +1957,7 @@
         "type": "film",
         "year": 2014,
         "watched": 1,
-        "appstatus": 0,
+        "appstatus": 1,
         "watchcount": 1,
         "partstatus": "middle_part"
     },
@@ -1966,7 +1966,7 @@
         "type": "film",
         "year": 2017,
         "watched": 1,
-        "appstatus": 0,
+        "appstatus": 1,
         "watchcount": 1,
         "partstatus": "last_part"
     },
@@ -2002,7 +2002,7 @@
         "type": "series",
         "year": 2016,
         "watched": 1,
-        "appstatus": 0,
+        "appstatus": 1,
         "watchcount": 1,
         "partstatus": "single_part"
     },
@@ -2011,7 +2011,7 @@
         "type": "series",
         "year": 2019,
         "watched": 1,
-        "appstatus": 0,
+        "appstatus": 1,
         "watchcount": 1,
         "partstatus": "single_part"
     },
@@ -2020,7 +2020,7 @@
         "type": "film",
         "year": 2002,
         "watched": 1,
-        "appstatus": 0,
+        "appstatus": 1,
         "watchcount": 5,
         "partstatus": "single_part"
     },
@@ -2349,15 +2349,6 @@
         "partstatus": "first_part"
     },
     {
-        "title": "Sword Art Online II",
-        "type": "anime",
-        "year": 2014,
-        "watched": 1,
-        "appstatus": 0,
-        "watchcount": 2,
-        "partstatus": "middle_part"
-    },
-    {
         "title": "Sword Art Online: Ordinal Scale",
         "type": "anime",
         "year": 2017,
@@ -2365,15 +2356,6 @@
         "appstatus": 0,
         "watchcount": 2,
         "partstatus": "middle_part"
-    },
-    {
-        "title": "Sword Art Online: Alicization",
-        "type": "anime",
-        "year": 2018,
-        "watched": 1,
-        "appstatus": 0,
-        "watchcount": 1,
-        "partstatus": "last_part"
     },
     {
         "title": "Monsters, Inc.",
