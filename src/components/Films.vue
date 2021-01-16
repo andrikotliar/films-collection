@@ -47,8 +47,11 @@
 		},
 		computed: {
 			...mapState(['films']),
+			reversedFilms() {
+				return this.films.reverse();
+			},
 			displayedFilms() {
-		       return this.paginate(this.films);
+		       return this.paginate(this.reversedFilms);
 		    },
 		    pageCount() {
 		    	return Math.ceil(this.films.length / this.perPage)
