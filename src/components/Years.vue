@@ -11,7 +11,7 @@
 
 <script>
 	export default {
-		name: 'YearsList',
+		name: 'Years',
 		data() {
 			return {
 				startYear: 1977,
@@ -33,4 +33,37 @@
 	}
 </script>
 
-<style src="stylesElems/years-list.css"></style>
+<style>
+	.years-list {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+		gap: 15px;
+	}
+
+	.film-year {
+		display: block;
+		height: 215px;
+		overflow: hidden;
+		background-color: #f2f2f2;
+		position: relative;
+	}
+
+	.film-year img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.film-year__title {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,.5);
+		color: #fff;
+		font-size: 30px;
+		text-align: center;
+		line-height: 215px;
+	}
+</style>

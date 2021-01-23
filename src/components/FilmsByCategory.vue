@@ -97,4 +97,78 @@
 	}
 </script>
 
-<style src="stylesElems/category.css"></style>
+<style>
+	.category-title {
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+
+	.category-title--lower {
+		text-transform: initial;
+	}
+
+	.category-films {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+
+	@media (max-width: 380px) {
+		.category-films {
+			justify-content: center;
+		}
+	}
+
+	.category-film {
+		display: block;
+		width: 150px;
+		height: 220px;
+		transition: .3s;
+		background-color: #eee;
+	}
+
+	@media (max-width: 550px) {
+		.category-film {
+			width: 100px;
+			height: 150px;
+		}
+	}
+
+	@media (max-width: 380px) {
+		.category-film {
+			width: 90px;
+			height: 140px;
+		}
+	} 
+
+	.category-film:hover {
+		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	}
+
+	.category-film img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: bottom;
+	}
+	.load-more {
+		width: 100%;
+		margin: 15px 0;
+		text-align: center;
+	}
+	.load-more__btn {
+		color: #fff;
+		font-size: 18px;
+		font-family: Arial, sans-serif;
+		padding: 10px 30px;
+		border: none;
+		outline: none;
+		text-transform: uppercase;
+		background: #006db7;
+		cursor: pointer;
+		transition: .3s;
+	}
+	.load-more__btn:hover {
+		background: lighten(#006db7, 8);
+	}
+</style>

@@ -49,4 +49,100 @@
 	}
 </script>
 
-<style src="stylesElems/actor.css"></style>
+<style>
+	.actor-films {
+		display: flex;
+		align-items: flex-start;
+		gap: 40px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.actor-info {
+		width: 200px;
+	}
+	.actor-info__image {
+		font-size: 0;
+	}
+	.actor-info__name {
+		color: #fff;
+		text-transform: capitalize;
+		text-align: center;
+		background-color: var(--base-color);
+		padding: 10px;
+	}
+	.actor-films__list {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+	.actor-film {
+		width: 150px;
+		text-align: center;
+	}
+	.actor-film__poster {
+		width: 100%;
+		height: 210px;
+		background-color: #000;
+	}
+	@media (max-width: 680px) {
+		.actor-films__list {
+			flex-wrap: nowrap;
+			overflow-x: auto;
+		}
+		.actor-film {
+			width: 190px;
+			flex-shrink: 0;
+		}
+		.actor-film__poster {
+			height: 280px;
+		}
+	}
+	@media (max-width: 520px) {
+		.actor-films {
+			overflow: auto;
+			margin-right: 5%;
+		}
+		.actor-films__list {
+			overflow-x: initial;
+		}
+	}
+	.actor-film__poster img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		transition: .3s;
+	}
+	.actor-film__info {
+		background-color: #f2f2f2;
+		padding: 10px;
+		position: relative;
+		transition: .3s;
+	}
+	.actor-film__info:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 4px;
+		background-color: var(--base-color);
+		z-index: -1;
+		transition: .4s;
+	}
+	.actor-film__role {
+		font-size: 18px;
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+	.actor-film:hover .actor-film__poster img {
+		opacity: .6;
+	}
+	.actor-film:hover .actor-film__info {
+		color: #fff;
+		background: transparent;
+	}
+	.actor-film:hover .actor-film__info:after {
+		height: 100%;
+	}	
+</style>

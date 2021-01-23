@@ -19,7 +19,7 @@
 
 <script>
 	export default {
-		name: 'Years',
+		name: 'YearsCategory',
 		computed: {
 			years() {
 				let currentYear = new Date().getFullYear();
@@ -34,4 +34,23 @@
 	}
 </script>
 
-<style src="stylesElems/category-by-years.css"></style>
+<style>
+	.category__body--byYear .movie {
+		position: relative;
+	}
+
+	.category__body--byYear .movie__year {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		color: #fff;
+		font-size: 2rem;
+		font-weight: bold;
+		background-color: rgba(0,0,0,.6);
+	}
+</style>

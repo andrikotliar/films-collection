@@ -17,12 +17,11 @@
 		</div>
 	</div>
 </template>
-
 <script>
 	import {mapState} from 'vuex';
 
 	export default {
-		name: 'HomeCategories',
+		name: 'Category',
 		props: ['property', 'category', 'title', 'reverse', 'link'],
 		computed: {
 			...mapState(['films']),
@@ -68,3 +67,29 @@
 		}
 	}
 </script>
+<style>
+	.category {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.category__title {
+		font-size: 18px;
+		font-weight: 100;
+	}
+	.category__header {
+		color: #fff;
+		padding: 8px 20px;
+		background-color: #008bea;
+		margin-bottom: 15px;
+		border-left: 10px solid #006db7;
+	}
+	.category__body {
+		display: flex;
+		justify-content: space-between;
+	}
+	@media (max-width: 1200px) {
+		.category__body {
+			overflow: auto;
+		}
+	}
+</style>

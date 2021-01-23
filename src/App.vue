@@ -8,9 +8,9 @@
 </template>
 
 <script>
-	import Header from 'elements/Header.vue';
-	import Footer from 'elements/Footer.vue';
-	import MobileMenu from 'elements/MobileMenu.vue';
+	import Header from 'components/interface/Header.vue';
+	import Footer from 'components/interface/Footer.vue';
+	import MobileMenu from 'components/interface/MobileMenu.vue';
 	if('serviceWorker' in navigator) {
 	  navigator.serviceWorker.register('sw.js')
 	    .then(() => navigator.serviceWorker.ready.then((worker) => {
@@ -27,4 +27,46 @@
 		}
 	}
 </script>
-<style src="styles/global.css"></style>
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	*, :before, :after {
+		box-sizing: border-box;
+	}
+
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	li {
+		list-style: none;
+	}
+
+	body {
+		--base-color: #006db7;
+		--base-color-light: #9ed8ff;
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+	}
+
+	.container {
+		padding: 0 12%;
+		position: relative;
+	}
+
+	@media (max-width: 925px) {
+		.container {
+			padding: 0 5%; 
+		}
+	}
+
+	.page {
+		position: relative;
+		min-height: 600px;
+		margin: 40px auto;
+	}
+</style>

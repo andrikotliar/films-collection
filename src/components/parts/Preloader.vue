@@ -32,4 +32,18 @@
 	}
 </script>
 
-<style src="stylesElems/preloader.css"></style>
+<style>
+	.preloader {
+		position: absolute;
+		left: 0;
+		background-color: #fff;
+		z-index: 99999;
+		width: 100%;
+		height: 100%;
+	}
+
+	.preloader--hidden {
+		opacity: 0;
+		visibility: hidden;
+	}
+</style>

@@ -1,5 +1,5 @@
 const gulp = require('gulp');
-const merge = require('./src/modules/merge.js');
+const merge = require('./modules/merge.js');
 
 const mergeJSON = () => {
 	return gulp.src('json/*.json')

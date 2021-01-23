@@ -1,13 +1,14 @@
 import Home from './components/Home.vue';
 import Film from './components/Film.vue';
 import List from './components/List.vue';
-import FilmsByCategory from './components/FilmsByCategory.vue';
-import Films from './components/Films.vue';
 import Trailers from './components/Trailers.vue';
 import Twitter from './components/Twitter.vue';
-import YearsList from './components/YearsList.vue';
-import Year from './components/Year.vue';
+import Years from './components/Years.vue';
 import Actor from './components/Actor.vue';
+import Films from './components/Films.vue';
+import FilmsByCategory from './components/FilmsByCategory.vue';
+import FilmsByYear from './components/FilmsByYear.vue';
+
 import SearchResults from './components/SearchResults.vue';
 
 const routes = [
@@ -35,7 +36,7 @@ const routes = [
 	{
 		path: '/years/:year', 
 		props: true,
-		component: Year
+		component: FilmsByYear
 	},
 	{
 		path: '/search/:result', 
@@ -64,7 +65,7 @@ const routes = [
 	},
 	{path: '/trailers', component: Trailers},
 	{path: '/twitter', component: Twitter},
-	{path: '/years', component: YearsList}
+	{path: '/years', component: Years}
 ]
 
 export default routes

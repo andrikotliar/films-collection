@@ -50,11 +50,6 @@
 		"shortDate": 220303
 	},
 	{
-		"title": "WandaVision",
-		"date": "January 15, 2021",
-		"shortDate": 210215	
-	},
-	{
 		"title": "Dune",
 		"date": "October 1, 2020",
 		"shortDate": 211001
@@ -78,10 +73,5 @@
 		"title": "Raya and the Last Dragon",
 		"date": "March 12, 2021",
 		"shortDate": 210312
-	},
-	{
-		"title": "Raya and the Last Dragon",
-		"date": "March 12, 2021",
-		"shortDate": 211212
 	}
 ]

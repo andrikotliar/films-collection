@@ -19,8 +19,8 @@
     "year": 2016,
     "time": 51,
     "country": "USA",
-    "budget": "100 million",
-    "boxoffice": "100 million",
+    "budget": null,
+    "boxoffice": null,
     "actors": [
         {
             "image": "winona-ryder",

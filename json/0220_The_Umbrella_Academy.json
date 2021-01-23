@@ -18,8 +18,8 @@
     "year": 2019,
     "time": 60,
     "country": "USA",
-    "budget": "100 million",
-    "boxoffice": "100 million",
+    "budget": null,
+    "boxoffice": null,
     "actors": [
         {
             "image": "elliot-page",
