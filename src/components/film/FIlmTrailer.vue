@@ -40,7 +40,6 @@
 	    padding-bottom: 56.25%;
 	    cursor: pointer;
 	}
-
 	.film__trailer-cover {
 	    position: absolute;
 	    top: 0;
@@ -50,7 +49,6 @@
 	    border: none;
 	    object-fit: cover;
 	}
-
 	.film__trailer-btn {
 		position: absolute;
 		top: 50%;
@@ -68,7 +66,6 @@
 		padding: 0;
 		cursor: pointer;
 	}
-
 	.film__trailer-btn img {
 		width: 100%;
 		height: 100%;
