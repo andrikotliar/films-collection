@@ -5,8 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
     state: {
-        films: [],
-        list: []
+        films: []
     },
     actions: {
         LOAD_FILMS ({ commit }) {
@@ -15,21 +14,11 @@ export default new Vuex.Store({
             .then(films => {
             commit('SET_FILMS', films)
             })          
-        },
-        LOAD_LIST ({ commit }) {
-          fetch('database/list.json')
-            .then(response => response.json())
-            .then(list => {
-            commit('SET_LIST', list)
-            })          
         }
     },
     mutations: {
         SET_FILMS(state, films) {
             state.films = films
-        },
-        SET_LIST(state, list) {
-            state.list = list
         }
     }
 })

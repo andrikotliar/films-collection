@@ -2,25 +2,25 @@
 	<footer class="footer">
 		<div class="container footer__container">
 			<div class="footer__row">
-				<div class="footer__col" v-for="item in menu" :key="item.id">
-					<h4 class="footer__col-title"> {{item.title}} </h4>
+				<div class="footer__col">
+					<h4 class="footer__col-title"> Categories </h4>
 					<ul class="footer__col-menu">
-						<li v-for="link in item.links" :key="link.id">
-							<router-link :to="link.linkAdress"> {{link.linkTitle}} </router-link>
+						<li v-for="category in categoriesList" :key="category.id">
+							<router-link :to="category.link"> {{category.title}} </router-link>
 						</li>
 					</ul>
 				</div>
 				<div class="footer__col">
-					<h4 class="footer__col-title"> Favorite Genres </h4>
+					<h4 class="footer__col-title"> Genres </h4>
 					<ul class="footer__col-menu">
-						<li v-for="genre in genresList">
+						<li v-for="(genre, index) in genresList" :key="index">
 							<router-link :to="`/genres/${genre}`"> {{genre}} </router-link>
 						</li>
 					</ul>
 				</div>
 			</div>
 			<div class="footer__date">
-				2019 - {{year}} / Film Collection
+				2019 - {{year}} / Films Collection
 			</div>
 		</div>
 	</footer>
@@ -32,66 +32,47 @@
 		data() {
 			return {
 				year: new Date().getFullYear(),
-				menu: [
+				categories: [
 					{
 						id: 1,
-						title: 'Main links',
-						links: [
-							{
-								id: 1,
-								linkTitle: 'All films',
-								linkAdress: '/films/1' 
-							},
-							{
-								id: 2,
-								linkTitle: 'List',
-								linkAdress: '/list' 
-							},
-							{
-								id: 3,
-								linkTitle: 'Trailers',
-								linkAdress: '/new_trailers' 
-							},
-							{
-								id: 4,
-								linkTitle: 'Twitter',
-								linkAdress: '/twitter' 
-							}
-						]
+						title: 'Films',
+						link: '/films/1'
 					},
 					{
 						id: 2,
-						title: 'Categories',
-						links: [
-							{
-								id: 1,
-								linkTitle: 'Most Favorite',
-								linkAdress: '/categories/special-favorite' 
-							},
-							{
-								id: 2,
-								linkTitle: 'Most Watched',
-								linkAdress: '/categories/most-watched' 
-							},
-							{
-								id: 3,
-								linkTitle: 'Cinema Watched',
-								linkAdress: '/categories/cinema-watched' 
-							},
-							{
-								id: 4,
-								linkTitle: 'TV Series',
-								linkAdress: '/categories/series' 
-							},
-							{
-								id: 5,
-								linkTitle: 'Newest',
-								linkAdress: '/years/2019' 
-							}
-						]
+						title: 'Most Favorite',
+						link: '/categories/special-favorite' 
+					},
+					{
+						id: 3,
+						title: 'Most Watched',
+						link: '/categories/most-watched' 
+					},
+					{
+						id: 4,
+						title: 'Cinema Watched',
+						link: '/categories/cinema-watched' 
+					},
+					{
+						id: 5,
+						title: 'Series',
+						link: '/categories/series' 
 					}
 				],
 				genresList: ['Sci-Fi', 'Adventure', 'Fantasy', 'Action', 'Animation']
+			}
+		},
+		computed: {
+			categoriesList() {
+				let categories = this.categories;
+				let currentYearLink = `/years/${this.year}`
+				let newest = {
+					id: 6,
+					title: 'Newest',
+					link: currentYearLink
+				}
+				categories.push(newest);
+				return categories;
 			}
 		}
 	}

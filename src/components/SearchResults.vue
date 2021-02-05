@@ -1,27 +1,24 @@
 <template>
 	<div class="page container">
 		<h2 class="category-title category-title--lower">Results for "{{result}}"</h2>
-		<div class="category-films">
-			<router-link :to="'/film/' + film.id" v-for="(film, index) in showResults" class="category-film" :key="index">
-				<img :src="`images/posters/${film.poster}.webp`" :alt="film.title" class="category-film__poster">
-			</router-link>
-			<div class="not-found" v-if="error">
-				Films not found
-			</div>
+		<CategoryFilms :films="showResults" />
+		<div class="not-found" v-if="error">
+			Films not found
 		</div>
 	</div>
 </template>
 
 <script>
 	import {mapState} from 'vuex';
+
+	import CategoryFilms from './parts/CategoryFilms';
+
 	export default {
 		name: 'SearchResults',
 		props: ['result'],
 		data() {
 			return {
-				error: false,
-				loadMore: false,
-				slice: 18
+				error: false
 			}
 		},
 		computed: {
@@ -43,6 +40,9 @@
 		mounted() {
 			sessionStorage.setItem('filmsNotFound', false);
 			this.error = JSON.parse(sessionStorage.getItem('filmsNotFound'));
+		},
+		components: {
+			CategoryFilms
 		}
 	}
 </script>

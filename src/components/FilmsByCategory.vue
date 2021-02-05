@@ -1,22 +1,20 @@
 <template>
 	<div class="page container">
-		<h2 class="category-title">{{pageTitle.replace(/\-/g, ' ')}}</h2>
-		<div class="category-films">
-			<router-link :to="'/film/' + film.id" v-for="(film, index) in shortedFilmsList" class="category-film" :key="index">
-				<img :src="`images/posters/${film.poster}.webp`" :alt="film.title" class="category-film__poster">
-			</router-link>
-			<div class="not-found" v-if="error">
-				Films not found
-			</div>
-			<div class="load-more" v-if="loadMore">
-				<button @click="loadMoreBtn" class="load-more__btn">Load more</button>
-			</div>
+		<h2 class="category-title f-test">{{pageTitle.replace(/\-/g, ' ')}}</h2>
+		<CategoryFilms :films="shortedFilmsList" />
+		<div class="not-found" v-if="error">
+			Films not found
+		</div>
+		<div class="load-more" v-if="loadMore">
+			<button @click="loadMoreBtn" class="load-more__btn">Load more</button>
 		</div>
 	</div>
 </template>
 
 <script>
-	import {mapState} from 'vuex'
+	import {mapState} from 'vuex';
+
+	import CategoryFilms from './parts/CategoryFilms';
 
 	export default {
 		name: 'Category',
@@ -93,6 +91,9 @@
 		mounted() {
 			sessionStorage.setItem('filmsNotFound', false);
 			this.error = JSON.parse(sessionStorage.getItem('filmsNotFound'));
+		},
+		components: {
+			CategoryFilms
 		}
 	}
 </script>
@@ -102,54 +103,8 @@
 		text-transform: uppercase;
 		margin-bottom: 20px;
 	}
-
 	.category-title--lower {
 		text-transform: initial;
-	}
-
-	.category-films {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 15px;
-	}
-
-	@media (max-width: 380px) {
-		.category-films {
-			justify-content: center;
-		}
-	}
-
-	.category-film {
-		display: block;
-		width: 150px;
-		height: 220px;
-		transition: .3s;
-		background-color: #eee;
-	}
-
-	@media (max-width: 550px) {
-		.category-film {
-			width: 100px;
-			height: 150px;
-		}
-	}
-
-	@media (max-width: 380px) {
-		.category-film {
-			width: 90px;
-			height: 140px;
-		}
-	} 
-
-	.category-film:hover {
-		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-	}
-
-	.category-film img {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		object-position: bottom;
 	}
 	.load-more {
 		width: 100%;

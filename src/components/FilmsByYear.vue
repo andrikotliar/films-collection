@@ -3,7 +3,7 @@
 		<h2 class="category-title"> Films from {{year}} year </h2>
 		<Preloader />
 		<div class="category-films">
-			<div class="category-film" v-for="film in filmsByYear">
+			<div class="category-film" v-for="(film, index) in filmsByYear" :key="index">
 				<router-link :to="`/film/${film.id}`" class="category-film__link" :title="film.title">
 					<img :src="`images/posters/${film.poster}.webp`" :alt="film.title" class="category-film__poster">
 				</router-link>

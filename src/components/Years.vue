@@ -1,9 +1,9 @@
 <template>
 	<div class="container page">
+		<h2 class="page-title">Films by years</h2>
 		<div class="years-list">
 			<router-link :to="`/years/${year}`" class="film-year" v-for="(year, index) in yearsList" :key="index">
-				<img :src="`images/years/${year}.webp`" :alt="year">
-				<h3 class="film-year__title">{{year}}</h3>					
+				{{year}}				
 			</router-link>			
 		</div>
 	</div>
@@ -38,32 +38,22 @@
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 		gap: 15px;
+		margin-top: 20px;
 	}
 
 	.film-year {
 		display: block;
-		height: 215px;
-		overflow: hidden;
-		background-color: #f2f2f2;
-		position: relative;
-	}
-
-	.film-year img {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-	}
-
-	.film-year__title {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-color: rgba(0,0,0,.5);
-		color: #fff;
-		font-size: 30px;
+		padding: 10px;
 		text-align: center;
-		line-height: 215px;
+		position: relative;
+		color: var(--base-color);
+		font-weight: bold;
+		border: 4px solid var(--base-color);
+		transition: .3s;
+	}
+
+	.film-year:hover {
+		background: var(--base-color);
+		color: #fff;
 	}
 </style>

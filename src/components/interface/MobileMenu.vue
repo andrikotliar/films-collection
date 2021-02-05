@@ -4,15 +4,10 @@
 			<span></span>
 		</div>
 		<ul class="mobile-menu__list">
-			<li class="mobile-menu__item" v-for="item in menu" @click="closeMobileMenu">
+			<li class="mobile-menu__item" v-for="(item, index) in menu" @click="closeMobileMenu" :key="index">
 				<router-link :to="item.link" class="mobile-menu__link">
 					{{item.title}}
 				</router-link>
-			</li>
-			<li class="mobile-menu__item">
-				<a href="https://cinemarticles.netlify.app" class="mobile-menu__link">
-					Articles
-				</a>
 			</li>
 		</ul>		
 	</div>
@@ -31,23 +26,18 @@
 					},
 					{
 						id: 2,
-						title: 'List', 
-						link: '/list' 
-					}, 
-					{
-						id: 3,
 						title: 'Films', 
 						link: '/films/1' 
 					}, 
 					{
-						id: 4,
+						id: 3,
 						title: 'Trailers', 
 						link: '/trailers' 
-					}, 
+					},
 					{
-						id: 5,
-						title: 'Twitter', 
-						link: '/twitter' 
+						id: 4,
+						title: 'Calender', 
+						link: '/calender' 
 					}
 				]
 			}

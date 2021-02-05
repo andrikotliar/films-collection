@@ -4,15 +4,12 @@
 			<h2 class="category__title"> Films by years </h2>
 		</div>
 		<div class="category__body category__body--byYear">
-			<div v-for="year in years" class="movie">
-				<router-link :to="`/years/${year}`" class="movie__link">
-					<img :src="`images/years/${year}.webp`" alt="" class="movie__poster">
-					<span class="movie__year">{{year}}</span>
-				</router-link>
-			</div>
-			<div class="movie movie--all">
-				<router-link to="/years/">More years</router-link>
-			</div>
+			<router-link :to="`/years/${year}`" class="category__year" v-for="(year, index) in years" :key="index">
+				{{year}}
+			</router-link>
+			<router-link to="/years/" class="category__year category__year--more">
+				More
+			</router-link>
 		</div>
 	</div>
 </template>
@@ -24,7 +21,7 @@
 			years() {
 				let currentYear = new Date().getFullYear();
 				let yearsList = []
-				for(let i = 0; i < 5; i++) {
+				for(let i = 0; i < 11; i++) {
 					currentYear--;
 					yearsList.push(currentYear);
 				}
@@ -35,22 +32,50 @@
 </script>
 
 <style>
-	.category__body--byYear .movie {
-		position: relative;
+	.category__body--byYear {
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+	.category__year {
+		color: var(--base-color);
+		font-weight: bold;
+		padding: 10px;
+		width: 160px;
+		text-align: center;
+		border: 4px solid var(--base-color);
+		transition: .3s;
+	}
+	@media (max-width: 750px) {
+		.category__year {
+			width: 200px;
+		}
+	}
+	@media (max-width: 700px) {
+		.category__year {
+			width: calc(50% - 10px);
+		}
+	}
+	@media (max-width: 420px) {
+		.category__year {
+			width: 100%;
+		}
+		.category__year:nth-child(n+6):not(.category__year--more) {
+			display: none;
+		}
+	}
+	.category__year:hover {
+		color: #fff;
+		background-color: var(--base-color);
 	}
 
-	.category__body--byYear .movie__year {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		color: #fff;
-		font-size: 2rem;
-		font-weight: bold;
-		background-color: rgba(0,0,0,.6);
+	.category__year--more {
+		color: #000;
+		background-color: #eee;
+		border-color: #eee;
+	}
+	.category__year--more:hover {
+		color: #000;
+		background-color: #ddd;
+		border-color: #ddd;
 	}
 </style>

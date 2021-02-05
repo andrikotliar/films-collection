@@ -4,17 +4,14 @@
 			<h2 class="category__title"> All films </h2>
 		</div>
 		<div class="category__body">
-			<div v-for="(film, index) in films.slice(111, 116)" class="movie">
+			<div v-for="(film, index) in films.slice(111, 116)" class="movie" :key="index">
 				<router-link :to="'/film/' + film.id" class="movie__link" :key="index">
 					<img :src="`images/posters/${film.poster}.webp`" :alt="film.title" class="movie__poster">
 				</router-link>
 			</div>
-			<div class="movie movie--all movie--double">
+			<div class="movie movie--all">
 				<router-link to="/films/1">
 					View <br> {{films.length}} films
-				</router-link>
-				<router-link to="/list">
-					List of films
 				</router-link>
 			</div>
 		</div>

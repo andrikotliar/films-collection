@@ -6,7 +6,8 @@ dist/
 # local bash scripts
 
 update-db.sh
-update-list.sh
-update-db-and-list.sh
-update-calender.sh
 generate-and-update.sh
+
+# configs
+
+jsconfig.json

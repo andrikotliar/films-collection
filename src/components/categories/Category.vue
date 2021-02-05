@@ -4,7 +4,7 @@
 			<h2 class="category__title"> {{title}} </h2>
 		</div>
 		<div class="category__body">
-			<div v-for="film in reverseFilms.slice(0,5)" class="movie">
+			<div v-for="(film, index) in reverseFilms.slice(0,5)" class="movie" :key="index">
 				<router-link :to="'/film/' + film.id" class="movie__link">
 					<img :src="`images/posters/${film.poster}.webp`" :alt="film.title" class="movie__poster">
 				</router-link>
@@ -72,10 +72,6 @@
 		width: 100%;
 		margin-bottom: 40px;
 	}
-	.category__title {
-		font-size: 18px;
-		font-weight: 100;
-	}
 	.category__header {
 		color: #fff;
 		padding: 8px 20px;
@@ -83,13 +79,77 @@
 		margin-bottom: 15px;
 		border-left: 10px solid #006db7;
 	}
+	.category__title {
+		font-size: 18px;
+		font-weight: 100;
+	}
 	.category__body {
 		display: flex;
 		justify-content: space-between;
 	}
-	@media (max-width: 1200px) {
+	.category__body--withCaption .movie {
+		position: relative;
+	}
+	.category__body--withCaption .movie__year {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		color: #fff;
+		font-size: 2rem;
+		font-weight: bold;
+		background-color: rgba(0,0,0,.6);
+	}
+	@media (max-width: 1300px) {
 		.category__body {
 			overflow: auto;
 		}
+	}
+	.movie {
+		transition: .3s;
+		position: relative;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+		width: 160px;
+		height: 230px;
+		background-color: #eee;
+	}
+	.movie:hover {
+		box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+	}
+	@media (max-width: 1300px) {
+		.movie {
+			margin-right: 20px;
+			flex-shrink: 0;
+		}
+	}
+
+	@media (max-width: 1040px) {
+		.movie {
+			width: 140px;
+			height: 210px;
+		}
+	}
+	.movie__link img {
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+	.movie--all:hover {
+		box-shadow: none;
+		background-color: #d0d0d0;		
+	}
+
+	.movie a {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		font-size: 18px;
+		text-align: center;
 	}
 </style>

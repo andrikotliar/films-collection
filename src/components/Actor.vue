@@ -5,17 +5,17 @@
 				<img :src="`images/actors/${actor}.jpg`" alt="">
 			</div>
 			<h2 class="actor-info__name">
-				{{actor.replace(/_/g, ' ')}}
+				{{actor.replace(/-/g, ' ')}}
 			</h2>
 		</aside>
 		<div class="actor-films__list">
-			<router-link :to="`/film/${film.id}`" class="actor-film" v-for="(film, index) in filmsByActor" :key="index">
+			<router-link :to="`/film/${film.id}`" class="actor-film" v-for="(film, index) in actorFilter" :key="index">
 				<div class="actor-film__poster">
 					<img :src="`images/posters/${film.poster}.webp`" :alt="film.title">
 				</div>
 				<div class="actor-film__info">
-					<p class="actor-film__role" v-for="a in film.actors" v-if="a.image == actor">
-						{{a.role}}
+					<p class="actor-film__role">
+						{{film.actors[0].role}}
 					</p>
 					<p class="actor-film__year">{{film.year}}</p>							
 				</div>
@@ -33,14 +33,24 @@
 			...mapState(['films']),
 			filmsByActor() {
 				let actorFilms = [];
+				let actor = this.actor.replace(/-/g, ' ')
 				for(let i = 0; i < this.films.length; i++) {
 					for(let j in this.films[i].actors) {
-						if(this.films[i].actors[j].image == this.actor) {
+						if(this.films[i].actors[j].name.toLowerCase() === actor) {
 							actorFilms.push(this.films[i]);
 						}
 					}
 				}
 				return actorFilms.sort((a, b) => a.year > b.year ? 1 : -1).reverse();
+			},
+			actorFilter() {
+				let filteredFilms = [];
+				let actor = this.actor.replace(/-/g, ' ');
+				for(let i = 0; i < this.filmsByActor.length; i++) {
+					this.filmsByActor[i].actors = this.filmsByActor[i].actors.filter(item => item.name.toLowerCase() === actor);
+					filteredFilms.push(this.filmsByActor[i])
+				}
+				return filteredFilms;
 			}
 		},
 		mounted() {

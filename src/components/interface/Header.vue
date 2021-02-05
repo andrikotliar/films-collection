@@ -23,18 +23,18 @@
 				menu: [
 					{
 						id: 1,
-						title: 'List', 
-						link: '/list' 
-					}, 
+						title: 'Films', 
+						link: '/films/1' 
+					},
 					{
 						id: 2,
-						title: 'Trailers', 
-						link: '/trailers' 
+						title: 'Calender', 
+						link: '/calender' 
 					}, 
 					{
 						id: 3,
-						title: 'Twitter', 
-						link: '/twitter' 
+						title: 'Trailers', 
+						link: '/trailers' 
 					}
 				]
 			}
