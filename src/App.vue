@@ -3,14 +3,12 @@
 		<Header />
 		<router-view />	
 		<Footer />
-		<MobileMenu />
 	</div>
 </template>
 
 <script>
 	import Header from 'components/interface/Header.vue';
 	import Footer from 'components/interface/Footer.vue';
-	import MobileMenu from 'components/interface/MobileMenu.vue';
 	if('serviceWorker' in navigator) {
 	  navigator.serviceWorker.register('sw.js')
 	    .then(() => navigator.serviceWorker.ready.then((worker) => {
@@ -22,8 +20,7 @@
 		name: 'app',
 		components: {
 			Header,
-			Footer,
-			MobileMenu
+			Footer
 		}
 	}
 </script>
