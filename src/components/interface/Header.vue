@@ -55,22 +55,19 @@
 		align-items: center;
 	}
 
-
-	@media (max-width: 760px) {
-		.header__container {
-			flex-direction: column;
-		}
-	}
-
 	.header__menu {
 		display: flex;
 		color: #fff;
 		font-size: 18px;
 	}
 
-	@media (max-width: 550px) {
+	@media (max-width: 760px) {
+		.header__container {
+			flex-direction: column;
+		}
+
 		.header__menu {
-			display: none;
+			margin-top: 10px;
 		}
 	}
 
