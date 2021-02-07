@@ -1,0 +1,116 @@
+{
+    "id": 248,
+    "title": "The Twilight Saga: Eclipse",
+    "poster": "twilight_3",
+    "trailer": "S2HIda5wSVU",
+    "genres": [
+        "Fantasy",
+        "Romance"
+    ],
+    "production": [
+        "Summit-Entertainment"
+    ],
+    "director": "David Slade",
+    "producers": "Wyck Godfrey, Karen Rosenfelt",
+    "writtens": "Melissa Rosenberg",
+    "music": "Howard Shore",
+    "cinema": "Javier Aguirresarobe",
+    "year": 2010,
+    "time": 124,
+    "country": "USA",
+    "budget": "68 million",
+    "boxoffice": "698 million",
+    "actors": [
+        {
+            "image": "/600/621538.jpg?1604638507",
+            "name": "Kristen Stewart",
+            "role": "Bella Swan"
+        },
+        {
+            "image": "/600/1030531.jpg?1601646784",
+            "name": "Robert Pattinson",
+            "role": "Edward Cullen"
+        },
+        {
+            "image": "/300/859644.jpg?1604642175",
+            "name": "Taylor Lautner",
+            "role": "Jacob Black"
+        },
+        {
+            "image": "/300/536178.jpg?1604643841",
+            "name": "Elizabeth Reaser",
+            "role": "Esme Cullen"
+        },
+        {
+            "image": "/300/1430803.jpg?1604647547",
+            "name": "Ashley Greene",
+            "role": "Alice Cullen"
+        },
+        {
+            "image": "/300/1060815.jpg?1604644105",
+            "name": "Kellan Lutz",
+            "role": "Emmett Cullen"
+        },
+        {
+            "image": "/300/867583.jpg?1604642263",
+            "name": "Nikki Reed",
+            "role": "Rosalie Hale"
+        },
+        {
+            "image": "/300/1149421.jpg?1604645101",
+            "name": "Jackson Rathbone",
+            "role": "Jasper Hale"
+        },
+        {
+            "image": "/300/93341.jpg?1604643168",
+            "name": "Billy Burke",
+            "role": "Charlie Swan"
+        },
+        {
+            "image": "/300/1245299.jpg?1604646044",
+            "name": "Xavier Samuel",
+            "role": "Riley"
+        },
+        {
+            "image": "/300/298945.jpg?1604646539",
+            "name": "Bryce Dallas Howard",
+            "role": "Victoria Sutherland"
+        },
+        {
+            "image": "/300/4562.jpg?1604648679",
+            "name": "Peter Facinelli",
+            "role": "Carlisle Cullen"
+        },
+        {
+            "image": "/300/202473.jpg?1604645664",
+            "name": "Dakota Fanning",
+            "role": "Jane"
+        }
+    ],
+    "synopsis": "As a string of mysterious killings grips Seattle, Bella, whose high school graduation is fast approaching, is forced to choose between her love for vampire Edward and her friendship with werewolf Jacob.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": [
+        {
+            "title": "MTV Movie + TV Awards (2010)",
+            "nominations": [
+                "Best Movie",
+                "Best Male Performance",
+                "Best Female Performance",
+                "Best Kiss"
+            ]
+        },
+        {
+            "title": "People's Choice Awards (2013)",
+            "nominations": [
+                "Favorite Move Fan Following"
+            ]
+        }
+    ],
+    "parts": "Twilight",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "id": 243,
+    "title": "Rush Hour",
+    "poster": "rush_hour",
+    "trailer": "JMiFsFQcFLE",
+    "genres": [
+        "Action",
+        "Comedy"
+    ],
+    "production": [
+        "New-Line-Cinema",
+        "Roger-Birnbaum-Productions"
+    ],
+    "director": "Brett Ratner",
+    "producers": "Roger Birnbaum, Jonathan Glickman",
+    "writtens": "Jim Kouf, Ross LaManna",
+    "music": "Lalo Schifrin",
+    "cinema": "Adam Greenberg",
+    "year": 1998,
+    "time": 98,
+    "country": "USA",
+    "budget": "33 million",
+    "boxoffice": "245 million",
+    "actors": [
+        {
+            "photo": "/300/329.jpg?1604648198",
+            "name": "Jackie Chan",
+            "role": "Lee"
+        },
+        {
+            "photo": "/300/676.jpg?1518312265",
+            "name": "Chris Tucker",
+            "role": "James Carter"
+        },
+        {
+            "photo": "/300/695829.jpg?1604645140",
+            "name": "Tom Wilkinson",
+            "role": "Thomas 'Juntao' Griffin"
+        },
+        {
+            "photo": "/300/2236.jpg?1604648554",
+            "name": "Tzi Ma",
+            "role": "Solon Han"
+        },
+        {
+            "photo": "/300/379865.jpg?1604644194",
+            "name": "Ken Leung",
+            "role": "Sang"
+        },
+        {
+            "photo": "/300/1614.jpg?1604648449",
+            "name": "Elizabeth Peña",
+            "role": "Tania Johnson"
+        }
+    ],
+    "synopsis": "A loyal and dedicated Hong Kong Inspector teams up with a reckless and loudmouthed L.A.P.D. detective to rescue the Chinese Consul's kidnapped daughter, while trying to arrest a dangerous crime lord along the way.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

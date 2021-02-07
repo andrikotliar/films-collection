@@ -1,0 +1,80 @@
+{
+    "id": 252,
+    "title": "The Maze Runner: The Scorch Trials",
+    "poster": "maze_runner_2",
+    "trailer": "SDofO3P2HpE",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "20th-Century-Fox"
+    ],
+    "director": "Wes Ball",
+    "producers": "Marty Bowen, Wyck Godfrey, Ellen Goldsmith-Vein, Lee Stollman",
+    "writtens": "T.S. Nowlin",
+    "music": "John Paesano",
+    "cinema": "Gyula Pados",
+    "year": 2015,
+    "time": 131,
+    "country": "USA",
+    "budget": "61 million",
+    "boxoffice": "312 million",
+    "actors": [
+        {
+            "image": "/300/2159611.jpg?1604640911",
+            "name": "Dylan O'Brien",
+            "role": "Thomas"
+        },
+        {
+            "image": "/300/1588116.jpg?1604648878",
+            "name": "Kaya Scodelario",
+            "role": "Teresa"
+        },
+        {
+            "image": "/300/1712065.jpg?1604643062",
+            "name": "Nathalie Emmanuel",
+            "role": "Harriet"
+        },
+        {
+            "image": "/600/751087.jpg?1605255730",
+            "name": "Thomas Brodie-Sangster",
+            "role": "Newt"
+        },
+        {
+            "image": "/600/3171500.jpg?1604644699",
+            "name": "Ki Hong Lee",
+            "role": "Minho"
+        },
+        {
+            "image": "/300/241211.jpg?1604646011",
+            "name": "Aidan Gillen",
+            "role": "Janson"
+        },
+        {
+            "image": "/300/2062.jpg?1604645084",
+            "name": "Giancarlo Esposito",
+            "role": "Jorge"
+        },
+        {
+            "image": "/600/1812461.jpg?1604643207",
+            "name": "Katherine McNamara",
+            "role": "Sonya"
+        },
+        {
+            "image": "/600/2304514.jpg?1604651082",
+            "name": "Rosa Salazar",
+            "role": "Brenda"
+        }
+    ],
+    "synopsis": "After having escaped the Maze, the Gladers now face a new set of challenges on the open roads of a desolate landscape filled with unimaginable obstacles.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": "The Maze Runner",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

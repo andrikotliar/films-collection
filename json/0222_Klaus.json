@@ -1,0 +1,57 @@
+{
+    "id": 240,
+    "title": "Klaus",
+    "poster": "klaus",
+    "trailer": "taE3PwurhYM",
+    "genres": [
+        "Adventure",
+        "Animation",
+        "Comedy"
+    ],
+    "production": [
+        "The-SPA-Studios",
+        "Atresmedia-Cine"
+    ],
+    "director": "Sergio Pablos, Carlos Martínez López",
+    "producers": "Sara Coca, Gustavo Ferra, Mikel Lejarzad, Mercedes Gamero, Matthew Teevan",
+    "writtens": "Sergio Pablos, Jim Mahone, Zach Lewisy,",
+    "music": "Alfonso G. Aguilar",
+    "cinema": null,
+    "year": 2019,
+    "time": 96,
+    "country": "Spain, UK",
+    "budget": "40 million (estimated)",
+    "boxoffice": null,
+    "actors": [
+        {
+            "image": "/300/5058.jpg?1604645036",
+            "name": "Jason Schwartzman",
+            "role": "Jesper (voice)"
+        },
+        {
+            "image": "/300/599873.jpg?1604638287",
+            "name": "J.K. Simmons",
+            "role": "Klaus (voice)"
+        },
+        {
+            "image": "/300/322517.jpg?1604644345",
+            "name": "Rashida Jones",
+            "role": "Alva (voice)"
+        },
+        {
+            "image": "/300/574817.jpg?1604640105",
+            "name": "Will Sasso",
+            "role": "Mr. Ellingboe (voice)"
+        }
+    ],
+    "synopsis": "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions.",
+    "categories": [
+        "special-favorite"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

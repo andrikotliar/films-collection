@@ -1,0 +1,79 @@
+{
+    "id": 251,
+    "title": "The Maze Runner",
+    "poster": "maze_runner_1",
+    "trailer": "AwwbhhjQ9Xk",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "20th-Century-Fox"
+    ],
+    "director": "Wes Ball",
+    "producers": "Marty Bowen, Wyck Godfrey, Ellen Goldsmith-Vein, Lee Stollman",
+    "writtens": "Noah Oppenheim, Grant Pierce Myers, T.S. Nowlin",
+    "music": "John Paesano",
+    "cinema": "Enrique Chediak",
+    "year": 2014,
+    "time": 113,
+    "country": "USA",
+    "budget": "34 million",
+    "boxoffice": "348 million",
+    "actors": [
+        {
+            "image": "/300/2159611.jpg?1604640911",
+            "name": "Dylan O'Brien",
+            "role": "Thomas"
+        },
+        {
+            "image": "/300/1588116.jpg?1604648878",
+            "name": "Kaya Scodelario",
+            "role": "Teresa"
+        },
+        {
+            "image": "/300/1055422.jpg?1520065689",
+            "name": "Aml Ameen",
+            "role": "Alby"
+        },
+        {
+            "image": "/600/751087.jpg?1605255730",
+            "name": "Thomas Brodie-Sangster",
+            "role": "Newt"
+        },
+        {
+            "image": "/600/3171500.jpg?1604644699",
+            "name": "Ki Hong Lee",
+            "role": "Minho"
+        },
+        {
+            "image": "/300/1517721.jpg?1518271918",
+            "name": "Will Poulter",
+            "role": "Gally"
+        },
+        {
+            "image": "/300/126170.jpg?1604644792",
+            "name": "Patricia Clarkson",
+            "role": "Ava Paige"
+        }
+    ],
+    "synopsis": "Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow \"runners\" for a shot at escape.",
+    "categories": [
+        "special-favorite"
+    ],
+    "awards": [
+        {
+            "title": "MTV Movie + TV Awards (2015)",
+            "nominations": [
+                "Breakthrough Performance",
+                "Best Fight",
+                "Best Hero"
+            ]
+        }
+    ],
+    "parts": "The Maze Runner",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

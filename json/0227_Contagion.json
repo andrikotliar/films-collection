@@ -1,0 +1,65 @@
+{
+    "id": 245,
+    "title": "Contagion",
+    "poster": "contagion",
+    "trailer": "C-ADAwfrwGs",
+    "genres": [
+        "Drama",
+        "Thriller"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "Steven Soderbergh",
+    "producers": "Gregory Jacobs, Michael Shamberg, Stacey Sher",
+    "writtens": "Scott Z. Burns",
+    "music": "Cliff Martinez",
+    "cinema": "Steven Soderbergh",
+    "year": 2011,
+    "time": 106,
+    "country": "UAE, USA, Hong-Kong",
+    "budget": "60 million",
+    "boxoffice": "136 million",
+    "actors": [
+        {
+            "image": "/600/139347.jpg?1538332204",
+            "name": "Marion Cotillard",
+            "role": "Dr. Leonora Orantes"
+        },
+        {
+            "image": "/600/354.jpg?1604648204",
+            "name": "Matt Damon",
+            "role": "Mitch Emhoff"
+        },
+        {
+            "image": "/300/401.jpg?1518312341",
+            "name": "Laurence Fishburne",
+            "role": "Dr. Ellis Cheever"
+        },
+        {
+            "image": "/600/179.jpg?1606240989",
+            "name": "Jude Law",
+            "role": "Alan Krumwiede"
+        },
+        {
+            "image": "/300/569.jpg?1604648244",
+            "name": "Gwyneth Paltrow",
+            "role": "Beth Emhoff"
+        },
+        {
+            "image": "/300/701.jpg?1518312257",
+            "name": "Kate Winslet",
+            "role": "Dr. Erin Mears"
+        }
+    ],
+    "synopsis": "Healthcare professionals, government officials and everyday people find themselves in the midst of a pandemic as the CDC works to find a cure.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

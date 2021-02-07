@@ -1,0 +1,55 @@
+{
+    "id": 241,
+    "title": "Die Hard",
+    "poster": "die_hard",
+    "trailer": "jaJuwKCmJbY",
+    "genres": [
+        "Action",
+        "Thriller"
+    ],
+    "production": [
+        "20th-Century-Fox"
+    ],
+    "director": "John McTiernan",
+    "producers": "Lawrence Gordon, Joel Silver",
+    "writtens": "Jeb Stuart, Steven E. de Souza",
+    "music": "Michael Kamen",
+    "cinema": "Jan de Bont",
+    "year": 1988,
+    "time": 132,
+    "country": "USA",
+    "budget": "28 million",
+    "boxoffice": "142 million",
+    "actors": [
+        {
+            "image": "/300/246.jpg?1604648184",
+            "name": "Bruce Willis",
+            "role": "John McClane"
+        },
+        {
+            "image": "/300/888.jpg?1604645175",
+            "name": "Bonnie Bedelia",
+            "role": "Holly Gennaro McClane"
+        },
+        {
+            "image": "/300/1816.jpg?1532006403",
+            "name": "Reginald VelJohnson",
+            "role": "Sgt. Al Powell"
+        },
+        {
+            "image": "/300/243809.jpg?1532006405",
+            "name": "Paul Gleason",
+            "role": "Dwayne T. Robinson"
+        }
+    ],
+    "synopsis": "An NYPD officer tries to save his wife and several others taken hostage by German terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles.",
+    "categories": [
+        "most-watched"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

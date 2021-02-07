@@ -1,0 +1,50 @@
+{
+    "id": 244,
+    "title": "The Call of the Wild",
+    "poster": "the_call_of_the_wild",
+    "trailer": "h1LG9So2ZBk",
+    "genres": [
+        "Adventure",
+        "Drama"
+    ],
+    "production": [
+        "20th-Century-Studios"
+    ],
+    "director": "Chris Sanders",
+    "producers": "James Mangold, Erwin Stoff",
+    "writtens": "Michael Green",
+    "music": "John Powell",
+    "cinema": "Janusz Kaminski",
+    "year": 2020,
+    "time": 100,
+    "country": "Canada, USA",
+    "budget": "135 million",
+    "boxoffice": "110 million",
+    "actors": [
+        {
+            "image": "/300/148.jpg?1604648158",
+            "name": "Harrison Ford",
+            "role": "John Thornton"
+        },
+        {
+            "image": "/300/781541.jpg?1604642811",
+            "name": "Omar Sy",
+            "role": "Perrault"
+        },
+        {
+            "image": "/300/976208.jpg?1604643156",
+            "name": "Dan Stevens",
+            "role": "Hal"
+        }
+    ],
+    "synopsis": "A sled dog struggles for survival in the wilds of the Yukon.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}
