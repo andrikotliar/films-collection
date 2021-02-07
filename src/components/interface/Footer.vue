@@ -2,25 +2,23 @@
 	<footer class="footer">
 		<div class="container footer__container">
 			<div class="footer__row">
-				<div class="footer__col">
-					<h4 class="footer__col-title"> Categories </h4>
-					<ul class="footer__col-menu">
-						<li v-for="category in categoriesList" :key="category.id">
-							<router-link :to="category.link"> {{category.title}} </router-link>
-						</li>
-					</ul>
-				</div>
-				<div class="footer__col">
-					<h4 class="footer__col-title"> Genres </h4>
-					<ul class="footer__col-menu">
-						<li v-for="(genre, index) in genresList" :key="index">
-							<router-link :to="`/genres/${genre}`"> {{genre}} </router-link>
-						</li>
-					</ul>
-				</div>
+				<h4 class="footer__row-title"> Categories </h4>
+				<ul class="footer__row-menu">
+					<li v-for="category in categoriesList" :key="category.id">
+						<router-link class="footer__row-menu-link" :to="category.link"> {{category.title}} </router-link>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__row">
+				<h4 class="footer__row-title"> Genres </h4>
+				<ul class="footer__row-menu">
+					<li v-for="(genre, index) in genresList" :key="index">
+						<router-link class="footer__row-menu-link" :to="`/genres/${genre}`"> {{genre}} </router-link>
+					</li>
+				</ul>
 			</div>
 			<div class="footer__date">
-				2019 - {{year}} / Films Collection
+				2019 - {{year}} <span class="footer__date-separator">/</span> Films Collection
 			</div>
 		</div>
 	</footer>
@@ -35,7 +33,7 @@
 				categories: [
 					{
 						id: 1,
-						title: 'Films',
+						title: 'All films',
 						link: '/films/1'
 					},
 					{
@@ -85,47 +83,50 @@
 		 color: #fff;
 	}
 	.footer__container {
-		 flex-direction: column;
+		width: 100%;
+		display: inline-flex;
+		flex-direction: column;
+		align-items: center;
 	}
 	 .footer__row {
-		 display: flex;
-		 margin-bottom: 40px;
-	}
-	 .footer__col-title {
-		 text-transform: uppercase;
-		 margin-bottom: 15px;
-	}
-	 .footer__col-menu {
-		 display: flex;
-		 flex-wrap: wrap;
-	}
-	 .footer__col-menu li {
-		 margin-right: 10px;
-		 margin-bottom: 10px;
-	}
-	 .footer__col-menu li a {
-		 display: block;
-		 padding: 10px 15px;
-		 border: 2px solid #fff;
-		 border-radius: 5px;
-		 transition: 0.3s;
-	}
-	 .footer__col-menu li a:hover {
-		 color: #000;
-		 background-color: #fff;
-	}
-	 .footer__date {
-		 text-transform: uppercase;
 		 text-align: center;
-		 color: #fff;
-		 font-size: 12px;
+		 margin-bottom: 20px;
 	}
-	 @media (max-width: 550px) {
-		 .footer__row {
-			 flex-wrap: wrap;
-		}
-		 .footer__col {
-			 margin-bottom: 15px;
-		}
+	.footer__row-title {
+		color: #fff;
+		text-transform: uppercase;
+		padding: 10px;
+	}
+	.footer__row-menu {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 10px;
+		margin-top: 5px;
+	}
+	.footer__row-menu-link {
+		display: block;
+		color: #000;
+		font-weight: bold;
+		background-color: #fff;
+		padding: 6px 10px;
+		transition: .3s;
+		border-top: 4px solid #fff;
+		border-bottom: 4px solid #fff;
+	}
+
+	.footer__row-menu-link:hover {
+		margin-top: -5px;
+		border-top: 4px solid var(--base-color);
+	}
+
+	.footer__date {
+		font-size: 12px;
+		text-align: center;
+		text-transform: uppercase;
+		margin-top: 20px;
+	}
+	.footer__date-separator {
+		padding: 0 10px;
 	}
 </style>
