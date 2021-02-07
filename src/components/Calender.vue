@@ -2,7 +2,7 @@
     <div class="page container">
         <h2 class="category-title">Releases Calender</h2>
         <div class="calender">
-            <div v-for="item in seasonCalender" :class="`calender__item calender__item--${item.className}`" :key="item.gsx$id.$t">
+            <div v-for="item in filteredCalender" :class="`calender__item calender__item--${item.className}`" :key="item.gsx$id.$t">
                 <div class="calender__date">{{item.gsx$date.$t}}</div>
                 <h3 class="calender__film">{{item.gsx$film.$t}}</h3>
             </div>
@@ -10,43 +10,33 @@
     </div>
 </template>
 <script>
+    import {mapState} from 'vuex';
+
     export default {
         name: 'Calender',
-        data() {
-            return {
-                calender: []
-            }
-        },
-        methods: {
-            fetchCalender() {
-                fetch('https://spreadsheets.google.com/feeds/list/1ByXhpC1xM8lOQNEB3xc3sb3uwlJrLgy7zA4PUOx52cg/od6/public/values?alt=json')
-                .then(response => response.json())
-                .then(data => this.calender = data.feed.entry);
-            }
-        },
         computed: {
-            seasonCalender() {
-                let newArr = [];
-                this.calender.forEach(item => {
-                    let date = item.gsx$date.$t;
-                    let subDate = date.substr(3);
-                    let month = subDate.substr(-20, 2); 
-                    if(month < 3 || month > 11) {
+            ...mapState(['calender']),
+            filteredCalender() {
+                let setCalender = [];
+                let actualCalender = this.calender.filter(item => item.gsx$status.$t != 1);
+
+                actualCalender.forEach(item => {
+                    if(item.gsx$month.$t < 3 || item.gsx$month.$t > 11) {
                         item.className = 'winter';
-                    } else if(month > 2 && month < 6) {
+                    } else if(item.gsx$month.$t > 2 && item.gsx$month.$t < 6) {
                         item.className = 'spring';
-                    } else if(month > 6 && month < 9) {
+                    } else if(item.gsx$month.$t > 6 && item.gsx$month.$t < 9) {
                         item.className = 'summer';
                     } else {
                         item.className = 'autumn';
                     }
                 });
-                newArr = this.calender;
-                return newArr;
+                setCalender = actualCalender;
+                return setCalender;
             }
         },
         mounted() {
-            this.fetchCalender();  
+            this.$store.dispatch('LOAD_CALENDER');
         }
     }
 </script>
