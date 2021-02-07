@@ -4,7 +4,7 @@
         <div class="film__persons">
             <router-link :to="`/actor/${actor.name.toLowerCase().replace(/\s/g, '-')}`" class="actor" v-for="(actor, index) in actors" :key="index">
                 <div class="actor__image">
-                    <img v-if="actor.image != ''" :src="`https://d2t8nixuow17vt.cloudfront.net/persona/300/${actor.image}`" alt="">
+                    <img v-if="actor.image != ''" :src="`https://d2t8nixuow17vt.cloudfront.net/persona${actor.image}`" alt="">
 					<img v-else src="images/support/noimage.jpg" alt="Image not found">
                 </div>
                 <div class="actor__info">
