@@ -55,14 +55,6 @@
 			width: calc(50% - 10px);
 		}
 	}
-	@media (max-width: 420px) {
-		.category__year {
-			width: 100%;
-		}
-		.category__year:nth-child(n+6):not(.category__year--more) {
-			display: none;
-		}
-	}
 	.category__year:hover {
 		color: #fff;
 		background-color: var(--base-color);
