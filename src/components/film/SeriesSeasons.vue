@@ -1,8 +1,8 @@
 <template>
     <ul class="seasons">
         <li class="season" v-for="(season, index) in type" :key="index">
-            <a :href="`https://www.youtube.com/embed/${season.trailer}`" class="season__trailer" target="_blank">
-                <div class="season__poster">
+            <div :data-url="season.trailer" class="season__trailer" target="_blank">
+                <div class="season__poster" @click="openModal">
                     <img v-if="index !=0" :src="`images/posters/${poster}_s${index + 1}.webp`">
                     <img v-else :src="`images/posters/${poster}.webp`">
                     <div class="season__play-btn">
@@ -13,7 +13,7 @@
                     <h6 class="season__number">Season {{index + 1}}</h6>
                     <p class="season__episodes">{{season.episodes}} episodes</p>
                 </div>
-            </a>					
+            </div>					
         </li>
     </ul>
 </template>
@@ -21,7 +21,18 @@
 <script>
     export default {
         name: 'SeriesSeasons',
-        props: ['type', 'poster']
+        props: ['type', 'poster'],
+		methods: {
+			openModal(e) {
+            	let trailerModal = document.querySelector('.trailers-modal');
+				trailerModal.classList.add('trailers-modal--visible');
+				document.body.style.overflow = 'hidden';
+
+				let trailersVideo = document.querySelector('.trailers-modal__video');
+				let url = e.target.closest('.season__trailer').dataset.url;
+				trailersVideo.setAttribute('src', `https://www.youtube.com/embed/${url}`);
+			}
+		},
     }
 </script>
 
