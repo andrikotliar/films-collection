@@ -10,6 +10,7 @@
 			<FilmAwards :awards="film.awards"  v-if="film.awards != null" />
 			<FilmCharacters :poster="film.poster" :characters="film.characters" v-if="film.characters != undefined" />
 			<FilmParts :data="films" :filmID="id" v-if="film.parts != null" />
+			<TrailersModal v-if="film.type.value != 'film'" />
 		</article>		
 	</div>
 </template>
@@ -26,6 +27,7 @@
 	import FilmAwards from './film/FilmAwards';
 	import FilmCharacters from './film/FilmCharacters';
 	import FilmParts from './film/FilmParts';
+	import TrailersModal from './parts/TrailersModal';
 
 	export default {
 		names: 'Film',
@@ -49,7 +51,8 @@
 			FilmCast,
 			FilmAwards,
 			FilmCharacters,
-			FilmParts
+			FilmParts,
+			TrailersModal
 		}
 	}
 </script>
