@@ -1,22 +1,22 @@
 <template>
 	<div class="actor-films container">
-		<aside class="actor-info">
-			<div class="actor-info__image">
-				<img :src="`images/actors/${actor}.jpg`" alt="">
-			</div>
-			<h2 class="actor-info__name">
-				{{actor.replace(/-/g, ' ')}}
-			</h2>
-		</aside>
-		<div class="actor-films__list">
+		<div class="actor-image">
+			<img :src="`https://d2t8nixuow17vt.cloudfront.net/persona${photo}.jpg`" alt="" v-if="photo != ''">
+			<img src="images/support/noimage.jpg" alt="" v-else>
+		</div>
+		<div class="actor-films__wrapper">
+			<h2 class="actor-name">{{actor.replace(/-/g, ' ')}}</h2>
 			<router-link :to="`/film/${film.id}`" class="actor-film" v-for="(film, index) in actorFilter" :key="index">
 				<div class="actor-film__poster">
 					<img :src="`images/posters/${film.poster}.webp`" :alt="film.title">
 				</div>
 				<div class="actor-film__info">
-					<p class="actor-film__role">
-						{{film.actors[0].role}}
-					</p>
+					<h3 class="actor-film__title">
+						{{film.title}} – 
+						<span class="actor-film__role">{{film.actors[0].role}}</span>
+					</h3>
+					<p class="actor-film__synopsis">{{film.synopsis}}</p>
+					<p class="actor-film__genres">{{film.genres.join(', ')}}</p>
 					<p class="actor-film__year">{{film.year}}</p>							
 				</div>
 			</router-link>
@@ -29,6 +29,11 @@
 	export default {
 		name: 'Actor',
 		props: ['actor'],
+		data() {
+			return {
+				photo: ''
+			}
+		},
 		computed: {
 			...mapState(['films']),
 			filmsByActor() {
@@ -48,7 +53,8 @@
 				let actor = this.actor.replace(/-/g, ' ');
 				for(let i = 0; i < this.filmsByActor.length; i++) {
 					this.filmsByActor[i].actors = this.filmsByActor[i].actors.filter(item => item.name.toLowerCase() === actor);
-					filteredFilms.push(this.filmsByActor[i])
+					filteredFilms.push(this.filmsByActor[i]);
+					this.photo = filteredFilms[0].actors[0].image;
 				}
 				return filteredFilms;
 			}
@@ -62,60 +68,38 @@
 <style>
 	.actor-films {
 		display: flex;
-		align-items: flex-start;
-		gap: 40px;
-		padding-top: 40px;
-		padding-bottom: 40px;
+		margin: 20px 0;
 	}
-	.actor-info {
-		width: 200px;
+	.actor-image {
+		width: 250px;
+		margin-right: 20px;
+		flex-shrink: 0;
 	}
-	.actor-info__image {
-		font-size: 0;
-	}
-	.actor-info__name {
-		color: #fff;
-		text-transform: capitalize;
-		text-align: center;
-		background-color: var(--base-color);
-		padding: 10px;
-	}
-	.actor-films__list {
+	.actor-image img {
 		width: 100%;
-		display: flex;
-		flex-wrap: wrap;
-		gap: 20px;
+	}
+	.actor-name {
+		color: var(--base-color);
+		font-size: 30px;
+		text-transform: capitalize;
+		line-height: 1;
+		padding-bottom: 10px;
+		border-bottom: 4px solid var(--base-color);
+		margin-bottom: 20px;
 	}
 	.actor-film {
-		width: 150px;
-		text-align: center;
+		display: flex;
+		margin-bottom: 20px;
+		background-color: #f2f2f2;
+		transition: .3s;
+	}
+	.actor-film:hover {
+		background-color: #ddd;
 	}
 	.actor-film__poster {
-		width: 100%;
-		height: 210px;
+		width: 100px;
+		flex-shrink: 0;
 		background-color: #000;
-	}
-	@media (max-width: 680px) {
-		.actor-films__list {
-			flex-wrap: nowrap;
-			overflow-x: auto;
-		}
-		.actor-film {
-			width: 190px;
-			flex-shrink: 0;
-		}
-		.actor-film__poster {
-			height: 280px;
-		}
-	}
-	@media (max-width: 520px) {
-		.actor-films {
-			overflow: auto;
-			margin-right: 5%;
-		}
-		.actor-films__list {
-			overflow-x: initial;
-		}
 	}
 	.actor-film__poster img {
 		width: 100%;
@@ -123,36 +107,79 @@
 		object-fit: cover;
 		transition: .3s;
 	}
-	.actor-film__info {
-		background-color: #f2f2f2;
-		padding: 10px;
-		position: relative;
-		transition: .3s;
+	.actor-film:hover .actor-film__poster img {
+		opacity: .5;
 	}
-	.actor-film__info:after {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 0;
+	.actor-film__info {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		position: relative;
+		padding: 10px 20px;
 		width: 100%;
-		height: 4px;
-		background-color: var(--base-color);
-		z-index: -1;
-		transition: .4s;
+	}
+	.actor-film__title {
+		font-size: 20px;
 	}
 	.actor-film__role {
-		font-size: 18px;
+		color: var(--base-color);
+	}
+	.actor-film__year {
+		position: absolute;
 		font-weight: bold;
-		margin-bottom: 5px;
+		top: 10px;
+		right: 20px;
 	}
-	.actor-film:hover .actor-film__poster img {
-		opacity: .6;
+	.actor-film__genres {
+		color: #777;
 	}
-	.actor-film:hover .actor-film__info {
-		color: #fff;
-		background: transparent;
+	@media (max-width: 1200px) {
+		.actor-film__year {
+			top: inherit;
+			bottom: 10px;
+		}
 	}
-	.actor-film:hover .actor-film__info:after {
-		height: 100%;
-	}	
+	@media (max-width: 780px) {
+		.actor-films {
+			flex-direction: column;
+			justify-content: center;
+		}
+		.actor-image {
+			margin-bottom: 20px;
+		}
+		.actor-film__poster {
+			width: 130px;
+		}
+		.actor-film__synopsis {
+			margin: 10px 0;
+		}
+	}
+	@media (max-width: 500px) {
+		.actor-image {
+			width: 100%;
+		}
+		.actor-film {
+			position: relative;
+			flex-direction: column;
+		}
+		.actor-film__poster {
+			width: 100%;
+		}
+		.actor-film__info {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			color: #fff;
+			background-color: rgba(0,0,0,.8);
+		}
+		.actor-film__title {
+			font-size: 25px;
+		}
+		.actor-film__role {
+			color: #66b9f1;
+		}
+		.actor-film__genres {
+			color: #f2f2f2;
+		}
+	} 
 </style>
