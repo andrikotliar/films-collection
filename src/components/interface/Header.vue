@@ -61,7 +61,7 @@
 		font-size: 18px;
 	}
 
-	@media (max-width: 760px) {
+	@media (max-width: 550px) {
 		.header__container {
 			flex-direction: column;
 		}
