@@ -11,9 +11,6 @@
 <script>
     export default {
         name: 'TailersModal',
-        props: {
-            currentVideo: String
-        },
         methods: {
             closeModal() {
                 let trailersModal = document.querySelector('.trailers-modal');
@@ -67,6 +64,8 @@
     .trailers-modal--visible {
         visibility: visible;
         opacity: 1;
+        overflow: auto;
+        overflow-y: scroll;
     }
     .trailers-modal__video {
 	    width: 100%;
