@@ -9,7 +9,7 @@
 				</div>
 			</div>
 		</div>
-		<TrailersModal :currentVideo="currentVideo" />
+		<TrailersModal />
 	</div>
 </template>
 
@@ -25,7 +25,6 @@
 			    key: 'AIzaSyAHDRCDIiKoi1wm_01FEAsGaCFHrM2Gh8k',
 			    maxResults: 20,
 			    playlistId: 'PL0mF6qhBv3rI3Gkd_MN1tEgdvshAD6QXA',
-			    currentVideo: null,
 			    data: {}
 			}
 		},
