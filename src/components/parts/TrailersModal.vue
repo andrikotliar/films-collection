@@ -23,7 +23,17 @@
 				if(e.target.classList.contains('trailers-modal')) {
                     this.closeModal();
                 }
-			}
+			},
+            closeModalWithKeys(e) {
+                if(e.key == 'Escape') {
+                    this.closeModal();
+                }
+            }
+        },
+        mounted() {
+            document.addEventListener('keydown', (e) => {
+                this.closeModalWithKeys(e);
+            });
         }
     }
 </script>
