@@ -9,7 +9,7 @@
 					<img :src="`images/posters/${film.poster}.webp`" :alt="film.title" class="movie__poster">
 				</router-link>
 			</div>
-			<div class="movie movie--all">
+			<div class="movie movie--all movie--list">
 				<router-link to="/films/1">
 					View <br> {{films.length}} films
 				</router-link>
