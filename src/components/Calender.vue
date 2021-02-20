@@ -25,7 +25,7 @@
                         item.className = 'winter';
                     } else if(item.gsx$month.$t > 2 && item.gsx$month.$t < 6) {
                         item.className = 'spring';
-                    } else if(item.gsx$month.$t > 6 && item.gsx$month.$t < 9) {
+                    } else if(item.gsx$month.$t > 5 && item.gsx$month.$t < 9) {
                         item.className = 'summer';
                     } else {
                         item.className = 'autumn';
