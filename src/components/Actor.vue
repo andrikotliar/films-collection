@@ -97,6 +97,7 @@
 		background-color: #ddd;
 	}
 	.actor-film__poster {
+		font-size: 0;
 		width: 100px;
 		flex-shrink: 0;
 		background-color: #000;
@@ -145,7 +146,12 @@
 			justify-content: center;
 		}
 		.actor-image {
+			margin-right: auto;
+			margin-left: auto;
 			margin-bottom: 20px;
+		}
+		.actor-name {
+			text-align: center;
 		}
 		.actor-film__poster {
 			width: 130px;
@@ -156,30 +162,26 @@
 	}
 	@media (max-width: 500px) {
 		.actor-image {
-			width: 100%;
+			width: auto;
+			height: 250px;
+		}
+		.actor-image img {
+			height: 100%;
+			width: auto;
 		}
 		.actor-film {
-			position: relative;
 			flex-direction: column;
 		}
 		.actor-film__poster {
 			width: 100%;
+			height: 200px;
+			background-color: #f2f2f2;
+			padding-top: 10px;
+			padding-left: 20px;
 		}
-		.actor-film__info {
-			position: absolute;
-			left: 0;
-			bottom: 0;
-			color: #fff;
-			background-color: rgba(0,0,0,.8);
-		}
-		.actor-film__title {
-			font-size: 25px;
-		}
-		.actor-film__role {
-			color: #66b9f1;
-		}
-		.actor-film__genres {
-			color: #f2f2f2;
+		.actor-film__poster img {
+			object-fit: inherit;
+			width: auto;
 		}
 	} 
 </style>
