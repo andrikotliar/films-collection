@@ -54,6 +54,7 @@
 		width: 100%;
 		height: 200px;
 		position: relative;
+		cursor: pointer;
 	}
 
 	.season__poster img {
