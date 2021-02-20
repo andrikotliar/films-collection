@@ -142,7 +142,13 @@
 		box-shadow: none;
 		background-color: #d0d0d0;		
 	}
-
+	.movie--list {
+		color: #fff;
+		background-color: var(--base-color);
+	}
+	.movie--list:hover {
+		background-color: #008bea;
+	}
 	.movie a {
 		display: flex;
 		justify-content: center;
