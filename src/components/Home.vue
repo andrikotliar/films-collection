@@ -1,8 +1,8 @@
 <template>
 	<div class="page container">
 		<Search />
-		<Category property="year" :category="previousYear" title="The newest films" link="years" reverse />
 		<FilmsCategory />
+		<Category property="year" :category="previousYear" title="The newest films" link="years" reverse />
 		<Category property="categories" category="special-favorite" title="The most favorite films" />
 		<Category property="categories" category="most-watched" title="The most watched films" reverse />
 		<Category property="categories" category="cinema-watched" title="Cinema watched films" reverse />
