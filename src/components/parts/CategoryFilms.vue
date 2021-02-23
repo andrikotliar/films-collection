@@ -13,22 +13,29 @@
 </script>
 <style>
 	.category-films {
+		--columns: 6;
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		grid-template-columns: repeat(var(--columns), 1fr);
 		gap: 15px;
 	}
 
-	@media (max-width: 550px) {
+	@media (max-width: 1200px) {
 		.category-films {
-			grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+			--columns: 4;
+		}
+	}
+
+	@media (max-width: 500px) {
+		.category-films {
+			--columns: 2;
 		}
 	}
 
 	.category-film {
+		font-size: 0;
 		display: block;
 		width: 100%;
-		min-height: 200px;
-		height: 100%;
+		height: auto;
 		transition: .3s;
 		background-color: #eee;
 	}
