@@ -6,7 +6,8 @@ Vue.use(Vuex)
 export default new Vuex.Store({
     state: {
         films: [],
-        calender: []
+        calender: [],
+        actors: []
     },
     actions: {
         LOAD_FILMS ({ commit }) {
@@ -22,6 +23,13 @@ export default new Vuex.Store({
                 .then(calender => {
                     commit('SET_CALENDER', calender.feed.entry)
                 });
+        },
+        LOAD_ACTORS ({ commit }) {
+            fetch('https://spreadsheets.google.com/feeds/list/1F4GZLYQVKjv5W_cNqavFBueuL2c6XjeIo3ksDIAAQlY/od6/public/values?alt=json')
+                .then(response => response.json())
+                .then(actors => {
+                    commit('SET_ACTORS', actors.feed.entry)
+                });
         }
     },
     mutations: {
@@ -30,6 +38,9 @@ export default new Vuex.Store({
         },
         SET_CALENDER(state, calender) {
             state.calender = calender;
+        },
+        SET_ACTORS(state, actors) {
+            state.actors = actors;
         }
     }
 })
