@@ -23,62 +23,50 @@
     "boxoffice": "773 million",
     "actors": [
         {
-            "image": "chris-pratt",
             "name": "Chris Pratt",
             "role": "Peter Quill"
         },
         {
-            "image": "zoe-saldana",
             "name": "Zoe Saldana",
             "role": "Gamora"
         },
         {
-            "image": "dave-bautista",
             "name": "Dave Bautista",
             "role": "Drax"
         },
         {
-            "image": "vin-diesel",
             "name": "Vin Diesel",
             "role": "Groot (voice)"
         },
         {
-            "image": "bradley-cooper",
             "name": "Bradley Cooper",
             "role": "Rocket (voice)"
         },
         {
-            "image": "lee-pace",
             "name": "Lee Pace",
             "role": "Ronan"
         },
         {
-            "image": "michael-rooker",
             "name": "Michael Rooker",
             "role": "Yondu Udonta"
         },
         {
-            "image": "karen-gillan",
             "name": "Karen Gillan",
             "role": "Nebula"
         },
         {
-            "image": "djimon-hounsou",
             "name": "Djimon Hounsou",
             "role": "Korath"
         },
         {
-            "image": "john-c.-reilly",
             "name": "John C. Reilly",
             "role": "Corpsman Dey"
         },
         {
-            "image": "glenn-close",
             "name": "Glenn Close",
             "role": "Nova Prime"
         },
         {
-            "image": "benicio-del-toro",
             "name": "Benicio Del Toro",
             "role": "The Collector"
         }

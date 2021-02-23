@@ -22,47 +22,38 @@
     "boxoffice": "797 million",
     "actors": [
         {
-            "image": "daniel-radcliffe",
             "name": "Daniel Radcliffe",
             "role": "Harry Potter"
         },
         {
-            "image": "rupert-grint",
             "name": "Rupert Grint",
             "role": "Ron Weasley"
         },
         {
-            "image": "emma-watson",
             "name": "Emma Watson",
             "role": "Hermione Granger"
         },
         {
-            "image": "gary-oldman",
             "name": "Gary Oldman",
             "role": "Sirius Black"
         },
         {
-            "image": "richard-harris",
             "name": "Richard Harris",
             "role": "Albus Dumbledore"
         },
         {
-            "image": "robbie-coltrane",
             "name": "Robbie Coltrane",
             "role": "Rubeus Hagrid"
         },
         {
-            "image": "tom-felton",
             "name": "Tom Felton",
             "role": "Draco Malfoy"
         },
         {
-            "image": "alan-rickman",
             "name": "Alan Rickman",
             "role": "Severus Snape"
         },
         {
-            "image": "david-thewlis",
             "name": "David Thewlis",
             "role": "Professor Lupin"
         }

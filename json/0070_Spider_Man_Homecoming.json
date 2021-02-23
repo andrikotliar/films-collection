@@ -23,47 +23,38 @@
     "boxoffice": "880 million",
     "actors": [
         {
-            "image": "tom-holland",
             "name": "Tom Holland",
             "role": "Peter Parker / Spider-Man"
         },
         {
-            "image": "michael-keaton",
             "name": "Michael Keaton",
             "role": "Adrian Toomes / Vulture"
         },
         {
-            "image": "robert-downey-jr.",
             "name": "Robert Downey Jr.",
             "role": "Tony Stark / Iron Man"
         },
         {
-            "image": "marisa-tomei",
             "name": "Marisa Tomei",
             "role": "May Parker"
         },
         {
-            "image": "jon-favreau",
             "name": "Jon Favreau",
             "role": "Happy Hogan"
         },
         {
-            "image": "gwyneth-paltrow",
             "name": "Gwyneth Paltrow",
             "role": "Pepper Potts"
         },
         {
-            "image": "zendaya",
             "name": "Zendaya",
             "role": "Michelle"
         },
         {
-            "image": "donald-glover",
             "name": "Donald Glover",
             "role": "Aaron Davis"
         },
         {
-            "image": "jacob-batalon",
             "name": "Jacob Batalon",
             "role": "Ned"
         }

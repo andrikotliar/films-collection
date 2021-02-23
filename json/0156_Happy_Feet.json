@@ -24,52 +24,34 @@
     "boxoffice": "384 million",
     "actors": [
         {
-            "image": "elijah-wood",
             "name": "Elijah Wood",
             "role": "Mumble"
         },
         {
-            "image": "brittany-murphy",
             "name": "Brittany Murphy",
             "role": "Gloria"
         },
         {
-            "image": "hugh-jackman",
             "name": "Hugh Jackman",
             "role": "Memphis"
         },
         {
-            "image": "nicole-kidman",
             "name": "Nicole Kidman",
             "role": "Norma Jean"
         },
         {
-            "image": "hugo-weaving",
             "name": "Hugo Weaving",
             "role": "Noah the Elder"
         },
         {
-            "image": "carlos-alazraqui",
             "name": "Carlos Alazraqui",
             "role": "Nestor"
         },
         {
-            "image": "lombardo-boyar",
             "name": "Lombardo Boyar",
             "role": "Raul"
         },
         {
-            "image": "jeffrey-garcia",
-            "name": "Jeffrey Garcia",
-            "role": "Rinaldo"
-        },
-        {
-            "image": "johnny-a.-sanchez",
-            "name": "Johnny A. Sanchez",
-            "role": "Lombardo"
-        },
-        {
-            "image": "robin-williams",
             "name": "Robin Williams",
             "role": "Ramon / Lovelace"
         }

@@ -23,32 +23,26 @@
     "boxoffice": "1,28 billion",
     "actors": [
         {
-            "image": "kristen-bell",
             "name": "Kristen Bell",
             "role": "Anna (voice)"
         },
         {
-            "image": "idina-menzel",
             "name": "Idina Menzel",
             "role": "Elsa (voice)"
         },
         {
-            "image": "jonathan-groff",
             "name": "Jonathan Groff",
             "role": "Kristoff (voice)"
         },
         {
-            "image": "josh-gad",
             "name": "Josh Gad",
             "role": "Olaf (voice)"
         },
         {
-            "image": "santino-fontana",
             "name": "Santino Fontana",
             "role": "Hans (voice)"
         },
         {
-            "image": "alan-tudyk",
             "name": "Alan Tudyk",
             "role": "Duke (voice)"
         }

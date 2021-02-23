@@ -23,62 +23,50 @@
     "boxoffice": "1,12 billion",
     "actors": [
         {
-            "image": "shia-labeouf",
             "name": "Shia LaBeouf",
             "role": "Sam Witwicky"
         },
         {
-            "image": "rosie-huntington-whiteley",
             "name": "Rosie Huntington-Whiteley",
             "role": "Carly"
         },
         {
-            "image": "josh-duhamel",
             "name": "Josh Duhamel",
             "role": "Lennox"
         },
         {
-            "image": "john-turturro",
             "name": "John Turturro",
             "role": "Simmons"
         },
         {
-            "image": "tyrese-gibson",
             "name": "Tyrese Gibson",
             "role": "Epps"
         },
         {
-            "image": "patrick-dempsey",
             "name": "Patrick Dempsey",
             "role": "Dylan"
         },
         {
-            "image": "frances-mcdormand",
             "name": "Frances McDormand",
             "role": "Mearing"
         },
         {
-            "image": "john-malkovich",
             "name": "John Malkovich",
             "role": "Bruce Brazos"
         },
         {
-            "image": "peter-cullen",
             "name": "Peter Cullen",
             "role": "Optimus Prime (voice)"
         },
         {
-            "image": "hugo-weaving",
             "name": "Hugo Weaving",
             "role": "Megatron (voice)"
         },
         {
-            "image": "leonard-nimoy",
             "name": "Leonard Nimoy",
             "role": "Sentinel Prime (voice)"
         },
         {
-            "image": "frank-welker",
             "name": "Frank Welker",
             "role": "Shockwave / Soundwave (voice)"
         }

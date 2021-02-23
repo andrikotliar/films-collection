@@ -23,32 +23,26 @@
     "boxoffice": "277 million",
     "actors": [
         {
-            "image": "alicia-vikander",
             "name": "Alicia Vikander",
             "role": "Lara Croft"
         },
         {
-            "image": "dominic-west",
             "name": "Dominic West",
             "role": "Richard Croft"
         },
         {
-            "image": "walton-goggins",
             "name": "Walton Goggins",
             "role": "Mathias Vogel"
         },
         {
-            "image": "daniel-wu",
             "name": "Daniel Wu",
             "role": "Lu Ren"
         },
         {
-            "image": "kristin-scott-thomas",
             "name": "Kristin Scott Thomas",
             "role": "Ana Miller"
         },
         {
-            "image": "derek-jacobi",
             "name": "Derek Jacobi",
             "role": "Mr. Yaffe"
         }

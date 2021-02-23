@@ -22,47 +22,38 @@
     "boxoffice": null,
     "actors": [
         {
-            "image": "noah-wyle",
             "name": "Noah Wyle",
             "role": "Flynn Carsen"
         },
         {
-            "image": "gabrielle-anwar",
             "name": "Gabrielle Anwar",
             "role": "Emily Davenport"
         },
         {
-            "image": "bob-newhart",
             "name": "Bob Newhart",
             "role": "Judson"
         },
         {
-            "image": "jane-curtin",
             "name": "Jane Curtin",
             "role": "Charlene"
         },
         {
-            "image": "olympia-dukakis",
             "name": "Olympia Dukakis",
             "role": "Margie Carsen"
         },
         {
-            "image": "erick-avari",
             "name": "Erick Avari",
             "role": "General Samir"
         },
         {
-            "image": "hakeem-kae-kazim",
             "name": "Hakeem Kae-Kazim",
             "role": "Jomo"
         },
         {
-            "image": "robert-foxworth",
             "name": "Robert Foxworth",
             "role": "Uncle Jerry"
         },
         {
-            "image": "zahn-mcclarnon",
             "name": "Zahn McClarnon",
             "role": "Tommy Yellow Hawk"
         }

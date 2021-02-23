@@ -22,57 +22,46 @@
     "boxoffice": "544 million",
     "actors": [
         {
-            "image": "dennis-quaid",
             "name": "Dennis Quaid",
             "role": "Jack Hall"
         },
         {
-            "image": "jake-gyllenhaal",
             "name": "Jake Gyllenhaal",
             "role": "Sam Hall"
         },
         {
-            "image": "emmy-rossum",
             "name": "Emmy Rossum",
             "role": "Laura Chapman"
         },
         {
-            "image": "dash-mihok",
             "name": "Dash Mihok",
             "role": "Jason Evans"
         },
         {
-            "image": "jay-o.-sanders",
             "name": "Jay O. Sanders",
             "role": "Frank Harris"
         },
         {
-            "image": "sela-ward",
             "name": "Sela Ward",
             "role": "Dr. Lucy Hall"
         },
         {
-            "image": "austin-nichols",
             "name": "Austin Nichols",
             "role": "J.D."
         },
         {
-            "image": "arjay-smith",
             "name": "Arjay Smith",
             "role": "Brian Parks"
         },
         {
-            "image": "tamlyn-tomita",
             "name": "Tamlyn Tomita",
             "role": "Janet Tokada"
         },
         {
-            "image": "sasha-roiz",
             "name": "Sasha Roiz",
             "role": "Parker"
         },
         {
-            "image": "ian-holm",
             "name": "Ian Holm",
             "role": "Terry Rapson"
         }

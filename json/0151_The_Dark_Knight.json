@@ -23,47 +23,38 @@
     "boxoffice": "1,005illion b",
     "actors": [
         {
-            "image": "christian-bale",
             "name": "Christian Bale",
             "role": "Bruce Wayne"
         },
         {
-            "image": "heath-ledger",
             "name": "Heath Ledger",
             "role": "Joker"
         },
         {
-            "image": "aaron-eckhart",
             "name": "Aaron Eckhart",
             "role": "Harvey Dent"
         },
         {
-            "image": "michael-caine",
             "name": "Michael Caine",
             "role": "Alfred"
         },
         {
-            "image": "maggie-gyllenhaal",
             "name": "Maggie Gyllenhaal",
             "role": "Rachel"
         },
         {
-            "image": "gary-oldman",
             "name": "Gary Oldman",
             "role": "Gordon"
         },
         {
-            "image": "morgan-freeman",
             "name": "Morgan Freeman",
             "role": "Lucius Fox"
         },
         {
-            "image": "monique-gabriela-curnen",
             "name": "Monique Gabriela Curnen",
             "role": "Ramirez"
         },
         {
-            "image": "cillian-murphy",
             "name": "Cillian Murphy",
             "role": "Scarecrow"
         }

@@ -23,47 +23,38 @@
     "boxoffice": "449 million",
     "actors": [
         {
-            "image": "chris-hemsworth",
             "name": "Chris Hemsworth",
             "role": "Thor"
         },
         {
-            "image": "natalie-portman",
             "name": "Natalie Portman",
             "role": "Jane Foster"
         },
         {
-            "image": "tom-hiddleston",
             "name": "Tom Hiddleston",
             "role": "Loki"
         },
         {
-            "image": "anthony-hopkins",
             "name": "Anthony Hopkins",
             "role": "Odin"
         },
         {
-            "image": "stellan-skarsgard",
             "name": "Stellan Skarsgard",
             "role": "Erik Selvig"
         },
         {
-            "image": "kat-dennings",
             "name": "Kat Dennings",
             "role": "Darcy Lewis"
         },
         {
-            "image": "clark-gregg",
             "name": "Clark Gregg",
             "role": "Agent Coulson"
         },
         {
-            "image": "colm-feore",
             "name": "Colm Feore",
             "role": "King Laufey"
         },
         {
-            "image": "idris-elba",
             "name": "Idris Elba",
             "role": "Heimdall"
         }

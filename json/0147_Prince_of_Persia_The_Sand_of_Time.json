@@ -22,47 +22,38 @@
     "boxoffice": "336 million",
     "actors": [
         {
-            "image": "jake-gyllenhaal",
             "name": "Jake Gyllenhaal",
             "role": "Dastan"
         },
         {
-            "image": "gemma-arterton",
             "name": "Gemma Arterton",
             "role": "Tamina"
         },
         {
-            "image": "ben-kingsley",
             "name": "Ben Kingsley",
             "role": "Nizam"
         },
         {
-            "image": "alfred-molina",
             "name": "Alfred Molina",
             "role": "Sheik Amar"
         },
         {
-            "image": "steve-toussaint",
             "name": "Steve Toussaint",
             "role": "Seso"
         },
         {
-            "image": "toby-kebbell",
             "name": "Toby Kebbell",
             "role": "Garsiv"
         },
         {
-            "image": "richard-coyle",
             "name": "Richard Coyle",
             "role": "Tus"
         },
         {
-            "image": "ronald-pickup",
             "name": "Ronald Pickup",
             "role": "King Sharaman"
         },
         {
-            "image": "reece-ritchie",
             "name": "Reece Ritchie",
             "role": "Bis"
         }

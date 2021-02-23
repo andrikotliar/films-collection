@@ -24,97 +24,78 @@
     "boxoffice": null,
     "actors": [
         {
-            "image": "clark-gregg",
             "name": "Clark Gregg",
             "role": "Phil Coulson"
         },
         {
-            "image": "ming-na-wen",
             "name": "Ming-Na Wen",
             "role": "Melinda May"
         },
         {
-            "image": "chloe-bennet",
             "name": "Chloe Bennet",
             "role": "Daisy 'Skye' Johnson "
         },
         {
-            "image": "iain-de-caestecker",
             "name": "Iain De Caestecker",
             "role": "Leo Fitz"
         },
         {
-            "image": "elizabeth-henstridge",
             "name": "Elizabeth Henstridge",
             "role": "Jemma Simmons"
         },
         {
-            "image": "henry-simmons",
             "name": "Henry Simmons",
             "role": "Alphonso 'Mack' Mackenzie "
         },
         {
-            "image": "brett-dalton",
             "name": "Brett Dalton",
             "role": "Grant Ward "
         },
         {
-            "image": "natalia-cordova-buckley",
             "name": "Natalia Cordova-Buckley",
             "role": "Elena 'Yo-Yo' Rodriguez"
         },
         {
-            "image": "jeff-ward",
             "name": "Jeff Ward",
             "role": "Deke Shaw"
         },
         {
-            "image": "nick-blood",
             "name": "Nick Blood",
             "role": "Lance Hunter"
         },
         {
-            "image": "adrianne-palicki",
             "name": "Adrianne Palicki",
             "role": "Bobbi Morse"
         },
         {
-            "image": "luke-mitchell",
             "name": "Luke Mitchell",
             "role": "Lincoln Campbell "
         },
         {
-            "image": "john-hannah",
             "name": "John Hannah",
             "role": "Holden Radcliffe"
         },
         {
-            "image": "maximilian-osinski",
             "name": "Maximilian Osinski",
             "role": "Agent Davis"
         },
         {
-            "image": "adrian-pasdar",
             "name": "Adrian Pasdar",
             "role": "Glenn Talbot"
         },
         {
-            "image": "b.j.-britt",
             "name": "B.J. Britt",
             "role": "Antoine Triplett"
         },
         {
-            "image": "mallory-jansen",
             "name": "Mallory Jansen",
             "role": "Aida "
         },
         {
-            "image": "briana-venskus",
             "name": "Briana Venskus",
             "role": "Agent Piper"
         },
         {
-            "image": "ruth-negga",
             "name": "Ruth Negga",
             "role": "Raina"
         }

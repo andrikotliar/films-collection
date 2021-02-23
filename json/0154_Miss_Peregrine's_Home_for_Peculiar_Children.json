@@ -2,7 +2,7 @@
     "id": 148,
     "title": "Miss Peregrine's Home for Peculiar Children",
     "poster": "miss_peregrin",
-    "trailer": "GokKUqLcvD8",
+    "trailer": "tV_IhWE4LP0",
     "genres": [
         "Fantasy",
         "Adventure",
@@ -23,52 +23,42 @@
     "boxoffice": "296 million",
     "actors": [
         {
-            "image": "eva-green",
             "name": "Eva Green",
             "role": "Miss Peregrine"
         },
         {
-            "image": "asa-butterfield",
             "name": "Asa Butterfield",
             "role": "Jake"
         },
         {
-            "image": "samuel-l.-jackson",
             "name": "Samuel L. Jackson",
             "role": "Barron"
         },
         {
-            "image": "judi-dench",
             "name": "Judi Dench",
             "role": "Miss Avocet"
         },
         {
-            "image": "allison-janney",
             "name": "Allison Janney",
             "role": "Dr. Golan"
         },
         {
-            "image": "chris-o'dowd",
             "name": "Chris O'Dowd",
             "role": "Frank"
         },
         {
-            "image": "terence-stamp",
             "name": "Terence Stamp",
             "role": "Abe"
         },
         {
-            "image": "ella-purnell",
             "name": "Ella Purnell",
             "role": "Emma"
         },
         {
-            "image": "finlay-macmillan",
             "name": "Finlay MacMillan",
             "role": "Enoch"
         },
         {
-            "image": "lauren-mccrostie",
             "name": "Lauren McCrostie",
             "role": "Olive"
         }

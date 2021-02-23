@@ -23,47 +23,38 @@
     "boxoffice": "215 million",
     "actors": [
         {
-            "image": "nicolas-cage",
             "name": "Nicolas Cage",
             "role": "Balthazar"
         },
         {
-            "image": "jay-baruchel",
             "name": "Jay Baruchel",
             "role": "Dave"
         },
         {
-            "image": "alfred-molina",
             "name": "Alfred Molina",
             "role": "Horvath"
         },
         {
-            "image": "teresa-palmer",
             "name": "Teresa Palmer",
             "role": "Becky"
         },
         {
-            "image": "toby-kebbell",
             "name": "Toby Kebbell",
             "role": "Drake Stone"
         },
         {
-            "image": "omar-benson-miller",
             "name": "Omar Benson Miller",
             "role": "Bennet"
         },
         {
-            "image": "monica-bellucci",
             "name": "Monica Bellucci",
             "role": "Veronica"
         },
         {
-            "image": "alice-krige",
             "name": "Alice Krige",
             "role": "Morgana"
         },
         {
-            "image": "jake-cherry",
             "name": "Jake Cherry",
             "role": "Young Dave"
         }

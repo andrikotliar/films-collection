@@ -23,32 +23,26 @@
     "boxoffice": "1,13 billion",
     "actors": [
         {
-            "image": "tom-holland",
             "name": "Tom Holland",
             "role": "Peter Parker / Spider-Man"
         },
         {
-            "image": "samuel-l.-jackson",
             "name": "Samuel L. Jackson",
             "role": "Nick Fury"
         },
         {
-            "image": "jake-gyllenhaal",
             "name": "Jake Gyllenhaal",
             "role": "Quentin Beck / Mysterio"
         },
         {
-            "image": "marisa-tomei",
             "name": "Marisa Tomei",
             "role": "May Parker"
         },
         {
-            "image": "jon-favreau",
             "name": "Jon Favreau",
             "role": "Happy Hogan"
         },
         {
-            "image": "zendaya",
             "name": "Zendaya",
             "role": "MJ"
         }

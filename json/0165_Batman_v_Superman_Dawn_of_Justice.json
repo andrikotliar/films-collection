@@ -23,47 +23,38 @@
     "boxoffice": "874 million",
     "actors": [
         {
-            "image": "ben-affleck",
             "name": "Ben Affleck",
             "role": "Bruce Wayne / Batman"
         },
         {
-            "image": "henry-cavill",
             "name": "Henry Cavill",
             "role": "Clark Kent / Superman"
         },
         {
-            "image": "amy-adams",
             "name": "Amy Adams",
             "role": "Lois"
         },
         {
-            "image": "jesse-eisenberg",
             "name": "Jesse Eisenberg",
             "role": "Lex Luthor"
         },
         {
-            "image": "diane-lane",
             "name": "Diane Lane",
             "role": "Martha Kent"
         },
         {
-            "image": "laurence-fishburne",
             "name": "Laurence Fishburne",
             "role": "Perry White"
         },
         {
-            "image": "jeremy-irons",
             "name": "Jeremy Irons",
             "role": "Alfred"
         },
         {
-            "image": "holly-hunter",
             "name": "Holly Hunter",
             "role": "Senator Finch"
         },
         {
-            "image": "gal-gadot",
             "name": "Gal Gadot",
             "role": "Diana Prince / Wonder Woman"
         }

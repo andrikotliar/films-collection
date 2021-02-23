@@ -23,37 +23,27 @@
     "boxoffice": "410 million",
     "actors": [
         {
-            "image": "tom-cruise",
             "name": "Tom Cruise",
             "role": "Henry Jekyll"
         },
         {
-            "image": "russell-crowe",
             "name": "Russell Crowe",
             "role": "Jenny Halsey"
         },
         {
-            "image": "annabelle-wallis",
             "name": "Annabelle Wallis",
             "role": "Ahmanet"
         },
         {
-            "image": "sofia-boutella",
             "name": "Sofia Boutella",
             "role": "Sgt. Vail"
         },
         {
-            "image": "jake-johnson",
             "name": "Jake Johnson",
             "role": "Colonel Greenway"
         },
         {
-            "image": "courtney-b.-vance",
             "name": "Courtney B. Vance"
-        },
-        {
-            "image": "nick-morton",
-            "name": "Nick Morton"
         }
     ],
     "synopsis": "An ancient Egyptian princess is awakened from her crypt beneath the desert, bringing with her malevolence grown over millennia, and terrors that defy human comprehension.",

@@ -22,37 +22,30 @@
     "boxoffice": "264 million",
     "actors": [
         {
-            "image": "bruce-willis",
             "name": "Bruce Willis",
             "role": "Korben Dallas"
         },
         {
-            "image": "gary-oldman",
             "name": "Gary Oldman",
             "role": "Zorg"
         },
         {
-            "image": "ian-holm",
             "name": "Ian Holm",
             "role": "Cornelius"
         },
         {
-            "image": "milla-jovovich",
             "name": "Milla Jovovich",
             "role": "Leeloo"
         },
         {
-            "image": "chris-tucker",
             "name": "Chris Tucker",
             "role": "Ruby Rhod"
         },
         {
-            "image": "luke-perry",
             "name": "Luke Perry",
             "role": "Billy"
         },
         {
-            "image": "brion-james",
             "name": "Brion James",
             "role": "General Munro"
         }

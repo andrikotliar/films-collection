@@ -22,37 +22,30 @@
     "boxoffice": "236 million",
     "actors": [
         {
-            "image": "paul-walker",
             "name": "Paul Walker",
             "role": "Brian O'Conner"
         },
         {
-            "image": "tyrese-gibson",
             "name": "Tyrese Gibson",
             "role": "Roman Pearce"
         },
         {
-            "image": "eva-mendes",
             "name": "Eva Mendes",
             "role": "Monica Fuentes"
         },
         {
-            "image": "cole-hauser",
             "name": "Cole Hauser",
             "role": "Carter Verone"
         },
         {
-            "image": "ludacris",
             "name": "Ludacris",
             "role": "Tej"
         },
         {
-            "image": "james-remar",
             "name": "James Remar",
             "role": "Agent Markham"
         },
         {
-            "image": "devon-aoki",
             "name": "Devon Aoki",
             "role": "Suki"
         }

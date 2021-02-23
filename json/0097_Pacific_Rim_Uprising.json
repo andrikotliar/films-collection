@@ -23,32 +23,26 @@
     "boxoffice": "290 million",
     "actors": [
         {
-            "image": "john-boyega",
             "name": "John Boyega",
             "role": "Jake Pentecost"
         },
         {
-            "image": "scott-eastwood",
             "name": "Scott Eastwood",
             "role": "Nate Lambert"
         },
         {
-            "image": "cailee-spaeny",
             "name": "Cailee Spaeny",
             "role": "Amara Namani"
         },
         {
-            "image": "burn-gorman",
             "name": "Burn Gorman",
             "role": "Hermann Gottlieb"
         },
         {
-            "image": "charlie-day",
             "name": "Charlie Day",
             "role": "Dr. Newton Geiszler"
         },
         {
-            "image": "tian-jing",
             "name": "Tian Jing",
             "role": "Liwen Shao"
         }

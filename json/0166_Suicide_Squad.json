@@ -23,47 +23,38 @@
     "boxoffice": "747 million",
     "actors": [
         {
-            "image": "will-smith",
             "name": "Will Smith",
             "role": "Deadshot"
         },
         {
-            "image": "margot-robbie",
             "name": "Margot Robbie",
             "role": "Harley Quinn"
         },
         {
-            "image": "viola-davis",
             "name": "Viola Davis",
             "role": "Amanda Waller"
         },
         {
-            "image": "jared-leto",
             "name": "Jared Leto",
             "role": "The Joker"
         },
         {
-            "image": "jai-courtney",
             "name": "Jai Courtney",
             "role": "George Harkness / Captain Boomerang"
         },
         {
-            "image": "jay-hernandez",
             "name": "Jay Hernandez",
             "role": "Diablo"
         },
         {
-            "image": "adewale-akinnuoye-agbaje",
             "name": "Adewale Akinnuoye-Agbaje",
             "role": "Killer Croc"
         },
         {
-            "image": "cara-delevingne",
             "name": "Cara Delevingne",
             "role": "June Moone / Enchantress"
         },
         {
-            "image": "joel-kinnaman",
             "name": "Joel Kinnaman",
             "role": "Rick Flag"
         }

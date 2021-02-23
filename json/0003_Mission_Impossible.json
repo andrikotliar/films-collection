@@ -22,47 +22,38 @@
     "boxoffice": "458 million",
     "actors": [
         {
-            "image": "tom-cruise",
             "name": "Tom Cruise",
             "role": "Ethan Hunt"
         },
         {
-            "image": "jon-voight",
             "name": "Jon Voight",
             "role": "Jim Phelps"
         },
         {
-            "image": "emmanuelle-beart",
             "name": "Emmanuelle Beart",
             "role": "Claire"
         },
         {
-            "image": "henry-czerny",
             "name": "Henry Czerny",
             "role": "Kittridge"
         },
         {
-            "image": "jean-reno",
             "name": "Jean Reno",
             "role": "Krieger"
         },
         {
-            "image": "ving-rhames",
             "name": "Ving Rhames",
             "role": "Luther"
         },
         {
-            "image": "kristin-scott-thomas",
             "name": "Kristin Scott Thomas",
             "role": "Sarah Davies"
         },
         {
-            "image": "vanessa-redgrave",
             "name": "Vanessa Redgrave",
             "role": "Max"
         },
         {
-            "image": "ingeborga-dapkunaite",
             "name": "Ingeborga Dapkunaite",
             "role": "Hannah"
         }

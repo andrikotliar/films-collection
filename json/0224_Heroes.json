@@ -24,92 +24,74 @@
     "boxoffice": null,
     "actors": [
         {
-            "image": "/300/130576.jpg?1518308866",
             "name": "Jack Coleman",
             "role": "Noah Bennet"
         },
         {
-            "image": "/300/495183.jpg?1604648947",
             "name": "Hayden Panettiere",
             "role": "Claire Bennet"
         },
         {
-            "image": "/300/669065.jpg?1598275864",
             "name": "Milo Ventimiglia",
             "role": "Peter Petrelli"
         },
         {
-            "image": "/300/853527.jpg?1604643364",
             "name": "Masi Oka",
             "role": "Hiro Nakamura"
         },
         {
-            "image": "/180/531530.jpg?1604649466",
             "name": "Sendhil Ramamurthy",
             "role": "Mohinder Suresh"
         },
         {
-            "image": "/300/258484.jpg?1604644474",
             "name": "Greg Grunberg",
             "role": "Matt Parkman"
         },
         {
-            "image": "/300/1107326.jpg?1604644658",
             "name": "James Kyson Lee",
             "role": "Ando Masahashi"
         },
         {
-            "image": "/300/498998.jpg?1604643929",
             "name": "Adrian Pasdar",
             "role": "Nathan Petrelli"
         },
         {
-            "image": "/300/528694.jpg?1604649424",
             "name": "Zachary Quinto",
             "role": "Sylar"
         },
         {
-            "image": "/300/4779.jpg?1604648718",
             "name": "Ali Larter",
             "role": "Niki Sanders"
         },
         {
-            "image": "/180/4004.jpg?1604648630",
             "name": "Cristine Rose",
             "role": "Angela Petrelli"
         },
         {
-            "image": "/180/144238.jpg?1604650089",
             "name": "Ashley Crow",
             "role": "Sandra Bennet"
         },
         {
-            "image": "/180/956372.jpg?1518281358",
             "name": "Noah Gray-Cabey",
             "role": "Micah Sanders"
         },
         {
-            "image": "/300/346367.jpg?1604644284",
             "name": "Robert Knepper",
             "role": "Isaac Mendez"
         },
         {
-            "image": "/300/997419.jpg?1604643417",
             "name": "Adair Tishler",
             "role": "Molly Walker"
         },
         {
-            "image": "/300/758482.jpg?1525436317",
             "name": "David Anders",
             "role": "Adam Monroe"
         },
         {
-            "image": "/300/1232.jpg?1604648379",
             "name": "Robert Forster",
             "role": "Arthur Petrelli"
         },
         {
-            "image": "/300/532.jpg?1604648240",
             "name": "Malcolm McDowell",
             "role": "Daniel Linderman"
         }

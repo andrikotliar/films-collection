@@ -23,62 +23,50 @@
     "boxoffice": "658 million",
     "actors": [
         {
-            "image": "ben-affleck",
             "name": "Ben Affleck",
             "role": "Batman / Bruce Wayne"
         },
         {
-            "image": "henry-cavill",
             "name": "Henry Cavill",
             "role": "Superman / Clark Kent"
         },
         {
-            "image": "amy-adams",
             "name": "Amy Adams",
             "role": "Lois Lane"
         },
         {
-            "image": "gal-gadot",
             "name": "Gal Gadot",
             "role": "Wonder Woman / Diana Prince"
         },
         {
-            "image": "ezra-miller",
             "name": "Ezra Miller",
             "role": "The Flash / Barry Allen"
         },
         {
-            "image": "jason-momoa",
             "name": "Jason Momoa",
             "role": "Aquaman / Arthur Curry"
         },
         {
-            "image": "ray-fisher",
             "name": "Ray Fisher",
             "role": "Cyborg / Victor Stone"
         },
         {
-            "image": "jeremy-irons",
             "name": "Jeremy Irons",
             "role": "Alfred"
         },
         {
-            "image": "diane-lane",
             "name": "Diane Lane",
             "role": "Martha Kent"
         },
         {
-            "image": "connie-nielsen",
             "name": "Connie Nielsen",
             "role": "Queen Hippolyta"
         },
         {
-            "image": "j.k.-simmons",
             "name": "J.K. Simmons",
             "role": "Commissioner Gordon"
         },
         {
-            "image": "ciaran-hinds",
             "name": "Ciaran Hinds",
             "role": "Steppenwolf (voice)"
         }

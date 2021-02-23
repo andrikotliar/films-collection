@@ -22,42 +22,34 @@
     "boxoffice": "546 million",
     "actors": [
         {
-            "image": "tom-cruise",
             "name": "Tom Cruise",
             "role": "Ethan Hunt"
         },
         {
-            "image": "dougray-scott",
             "name": "Dougray Scott",
             "role": "Sean Ambrose"
         },
         {
-            "image": "thandie-newton",
             "name": "Thandie Newton",
             "role": "Nyah Hall"
         },
         {
-            "image": "ving-rhames",
             "name": "Ving Rhames",
             "role": "Luther Strickell"
         },
         {
-            "image": "richard-roxburgh",
             "name": "Richard Roxburgh",
             "role": "Hugh Stamp"
         },
         {
-            "image": "john-polson",
             "name": "John Polson",
             "role": "Billy Baird"
         },
         {
-            "image": "brendan-gleeson",
             "name": "Brendan Gleeson",
             "role": "McCloy"
         },
         {
-            "image": "rade-serbedzija",
             "name": "Rade Serbedzija",
             "role": "Dr. Nekhorvich"
         }

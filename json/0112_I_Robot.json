@@ -22,32 +22,26 @@
     "boxoffice": "347 million",
     "actors": [
         {
-            "image": "will-smith",
             "name": "Will Smith",
             "role": "Del Spooner"
         },
         {
-            "image": "bridget-moynahan",
             "name": "Bridget Moynahan",
             "role": "Susan Calvin"
         },
         {
-            "image": "alan-tudyk",
             "name": "Alan Tudyk",
             "role": "Sonny"
         },
         {
-            "image": "james-cromwell",
             "name": "James Cromwell",
             "role": "Dr. Alfred Lanning"
         },
         {
-            "image": "bruce-greenwood",
             "name": "Bruce Greenwood",
             "role": "Lawrence Robertson"
         },
         {
-            "image": "fiona-hogan",
             "name": "Fiona Hogan",
             "role": "V.I.K.I."
         }

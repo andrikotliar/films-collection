@@ -23,47 +23,38 @@
     "boxoffice": "173 million",
     "actors": [
         {
-            "image": "/300/226.jpg?1604648177",
             "name": "Will Smith",
             "role": "Henry Brogan / Junior"
         },
         {
-            "image": "mary-elizabeth-winstead",
             "name": "Mary Elizabeth Winstead",
             "role": "Danny Zakarweski"
         },
         {
-            "image": "clive-owen",
             "name": "Clive Owen",
             "role": "Clay Verris"
         },
         {
-            "image": "benedict-wong",
             "name": "Benedict Wong",
             "role": "Baron"
         },
         {
-            "image": "douglas-hodge",
             "name": "Douglas Hodge",
             "role": "Jack Willis"
         },
         {
-            "image": "ralph-brown",
             "name": "Ralph Brown",
             "role": "Del Patterson"
         },
         {
-            "image": "linda-emond",
             "name": "Linda Emond",
             "role": "Janet Lassiter"
         },
         {
-            "image": "ilia-volok",
             "name": "Ilia Volok",
             "role": "Yuri Kovacs"
         },
         {
-            "image": "e.j.-bonilla",
             "name": "E.J. Bonilla",
             "role": "Marino"
         }

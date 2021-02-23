@@ -24,22 +24,18 @@
     "boxoffice": null,
     "actors": [
         {
-            "image": "/300/5058.jpg?1604645036",
             "name": "Jason Schwartzman",
             "role": "Jesper (voice)"
         },
         {
-            "image": "/300/599873.jpg?1604638287",
             "name": "J.K. Simmons",
             "role": "Klaus (voice)"
         },
         {
-            "image": "/300/322517.jpg?1604644345",
             "name": "Rashida Jones",
             "role": "Alva (voice)"
         },
         {
-            "image": "/300/574817.jpg?1604640105",
             "name": "Will Sasso",
             "role": "Mr. Ellingboe (voice)"
         }

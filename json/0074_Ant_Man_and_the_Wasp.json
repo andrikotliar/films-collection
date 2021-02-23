@@ -23,37 +23,30 @@
     "boxoffice": "595 million",
     "actors": [
         {
-            "image": "paul-rudd",
             "name": "Paul Rudd",
             "role": "Scott Lang / Ant-Man"
         },
         {
-            "image": "evangeline-lilly",
             "name": "Evangeline Lilly",
             "role": "Hope Van Dyne / Wasp"
         },
         {
-            "image": "michael-pena",
             "name": "Michael Pena",
             "role": "Luis"
         },
         {
-            "image": "hannah-john-kamen",
             "name": "Hannah John-Kamen",
             "role": "Ava / Ghost"
         },
         {
-            "image": "michelle-pfeiffer",
             "name": "Michelle Pfeiffer",
             "role": "Janet Van Dyne / Wasp"
         },
         {
-            "image": "laurence-fishburne",
             "name": "Laurence Fishburne",
             "role": "Dr. Bill Foster"
         },
         {
-            "image": "michael-douglas",
             "name": "Michael Douglas",
             "role": "Dr. Hank Pym"
         }

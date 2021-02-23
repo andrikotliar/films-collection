@@ -22,47 +22,38 @@
     "boxoffice": "393 million",
     "actors": [
         {
-            "image": "alden-ehrenreich",
             "name": "Alden Ehrenreich",
             "role": "Han Solo"
         },
         {
-            "image": "joonas-suotamo",
             "name": "Joonas Suotamo",
             "role": "Chewbacca"
         },
         {
-            "image": "woody-harrelson",
             "name": "Woody Harrelson",
             "role": "Beckett"
         },
         {
-            "image": "emilia-clarke",
             "name": "Emilia Clarke",
             "role": "Qi'ra"
         },
         {
-            "image": "donald-glover",
             "name": "Donald Glover",
             "role": "Lando Calrissian"
         },
         {
-            "image": "thandie-newton",
             "name": "Thandie Newton",
             "role": "Val"
         },
         {
-            "image": "phoebe-waller-bridge",
             "name": "Phoebe Waller-Bridge",
             "role": "L3-37 (voice)"
         },
         {
-            "image": "paul-bettany",
             "name": "Paul Bettany",
             "role": "Dryden Vos"
         },
         {
-            "image": "jon-favreau",
             "name": "Jon Favreau",
             "role": "Rio Durant (voice)"
         }

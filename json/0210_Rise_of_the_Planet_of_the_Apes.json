@@ -23,42 +23,34 @@
     "boxoffice": "482 million",
     "actors": [
         {
-            "image": "james-franco",
             "name": "James Franco",
             "role": "Will Rodman"
         },
         {
-            "image": "andy-serkis",
             "name": "Andy Serkis",
             "role": "Caesar"
         },
         {
-            "image": "karin-konoval",
             "name": "Karin Konoval",
             "role": "Maurice / Court Clerk"
         },
         {
-            "image": "terry-notary",
             "name": "Terry Notary",
             "role": "Rocket / Bright Eyes"
         },
         {
-            "image": "richard-ridings",
             "name": "Richard Ridings",
             "role": "Buck - Ape"
         },
         {
-            "image": "christopher-gordon",
             "name": "Christopher Gordon",
             "role": "Koba - Ape (as Chris Gordon)"
         },
         {
-            "image": "devyn-dalton",
             "name": "Devyn Dalton",
             "role": "Cornelia - Ape"
         },
         {
-            "image": "jay-caputo",
             "name": "Jay Caputo",
             "role": "Alpha"
         }

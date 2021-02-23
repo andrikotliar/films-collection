@@ -22,57 +22,46 @@
     "boxoffice": "1,12 billion",
     "actors": [
         {
-            "image": "elijah-wood",
             "name": "Elijah Wood",
             "role": "Frodo Baggins"
         },
         {
-            "image": "ian-mckellen",
             "name": "Ian McKellen",
             "role": "Gandalf"
         },
         {
-            "image": "sean-astin",
             "name": "Sean Astin",
             "role": "Samwise Gamgee"
         },
         {
-            "image": "viggo-mortensen",
             "name": "Viggo Mortensen",
             "role": "Aragorn"
         },
         {
-            "image": "john-rhys-davies",
             "name": "John Rhys-Davies",
             "role": "Pereggrin"
         },
         {
-            "image": "orlando-bloom",
             "name": "Orlando Bloom",
             "role": "Meriadoc"
         },
         {
-            "image": "sean-bean",
             "name": "Sean Bean",
             "role": "Gimli"
         },
         {
-            "image": "cate-blanchett",
             "name": "Cate Blanchett",
             "role": "Legolas"
         },
         {
-            "image": "christopher-lee",
             "name": "Christopher Lee",
             "role": "Boromir"
         },
         {
-            "image": "hugo-weaving",
             "name": "Hugo Weaving",
             "role": "Bilbo Baggins"
         },
         {
-            "image": "andry-serkis",
             "name": "Andy Serkis",
             "role": "Gollum"
         }

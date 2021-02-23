@@ -23,52 +23,42 @@
     "boxoffice": "386 million",
     "actors": [
         {
-            "image": "kyle-chandler",
             "name": "Kyle Chandler",
             "role": "Dr. Mark Russell"
         },
         {
-            "image": "vera-farmiga",
             "name": "Vera Farmiga",
             "role": "Dr. Emma Russell"
         },
         {
-            "image": "millie-bobby-brown",
             "name": "Millie Bobby Brown",
             "role": "Madison Russell"
         },
         {
-            "image": "ken-watanabe",
             "name": "Ken Watanabe",
             "role": "Dr. Ishiro Serizawa"
         },
         {
-            "image": "ziyi-zhang",
             "name": "Ziyi Zhang",
             "role": "Dr. Ilene Chen / Dr. Ling"
         },
         {
-            "image": "bradley-whitford",
             "name": "Bradley Whitford",
             "role": "Dr. Rick Stanton"
         },
         {
-            "image": "sally-hawkins",
             "name": "Sally Hawkins",
             "role": "Dr. Vivienne Graham"
         },
         {
-            "image": "charles-dance",
             "name": "Charles Dance",
             "role": "Alan Jonah"
         },
         {
-            "image": "thomas-middleditch",
             "name": "Thomas Middleditch",
             "role": "Sam Coleman"
         },
         {
-            "image": "aisha-hinds",
             "name": "Aisha Hinds",
             "role": "Colonel Diane Foster"
         }

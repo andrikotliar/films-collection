@@ -23,27 +23,22 @@
     "boxoffice": "521 million",
     "actors": [
         {
-            "image": "arnold-schwarzenegger",
             "name": "Arnold Schwarzenegger",
             "role": "T-800"
         },
         {
-            "image": "edward-furlong",
             "name": "Edward Furlong",
             "role": "John Connor"
         },
         {
-            "image": "linda-hamilton",
             "name": "Linda Hamilton",
             "role": "Sarah Connor"
         },
         {
-            "image": "robert-patrick",
             "name": "Robert Patrick",
             "role": "T-1000"
         },
         {
-            "image": "joe-morton",
             "name": "Joe Morton",
             "role": "Miles Bennett Dyson"
         }

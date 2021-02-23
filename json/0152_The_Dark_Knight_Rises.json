@@ -23,67 +23,54 @@
     "boxoffice": "1,08 billion",
     "actors": [
         {
-            "image": "christian-bale",
             "name": "Christian Bale",
             "role": "Bruce Wayne"
         },
         {
-            "image": "gary-oldman",
             "name": "Gary Oldman",
             "role": "Commissioner Gordon"
         },
         {
-            "image": "tom-hardy",
             "name": "Tom Hardy",
             "role": "Bane"
         },
         {
-            "image": "joseph-gordon-levitt",
             "name": "Joseph Gordon-Levitt",
             "role": "Blake"
         },
         {
-            "image": "anne-hathaway",
             "name": "Anne Hathaway",
             "role": "Selina"
         },
         {
-            "image": "marion-cotillard",
             "name": "Marion Cotillard",
             "role": "Miranda"
         },
         {
-            "image": "morgan-freeman",
             "name": "Morgan Freeman",
             "role": "Fox"
         },
         {
-            "image": "michael-caine",
             "name": "Michael Caine",
             "role": "Alfred"
         },
         {
-            "image": "matthew-modine",
             "name": "Matthew Modine",
             "role": "Foley"
         },
         {
-            "image": "alon-aboutboul",
             "name": "Alon Aboutboul",
             "role": "Dr. Pavel"
         },
         {
-            "image": "ben-mendelsohn",
             "name": "Ben Mendelsohn",
             "role": "Daggett"
         },
         {
-            "image": "burn-gorman",
             "name": "Burn Gorman",
             "role": "Stryver"
         },
         {
-            "image": "daniel-sunjata",
             "name": "Daniel Sunjata",
             "role": "Captain Jones"
         }

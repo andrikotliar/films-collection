@@ -23,37 +23,30 @@
     "boxoffice": "714 million",
     "actors": [
         {
-            "image": "chris-evans",
             "name": "Chris Evans",
             "role": "Steve Rogers / Captain America"
         },
         {
-            "image": "samuel-l.-jackson",
             "name": "Samuel L. Jackson",
             "role": "Nick Fury"
         },
         {
-            "image": "scarlett-johansson",
             "name": "Scarlett Johansson",
             "role": "Natasha Romanoff / Black Widow"
         },
         {
-            "image": "robert-redford",
             "name": "Robert Redford",
             "role": "Alexander Pierce"
         },
         {
-            "image": "sebastian-stan",
             "name": "Sebastian Stan",
             "role": "Bucky Barnes / Winter Soldier"
         },
         {
-            "image": "anthony-mackie",
             "name": "Anthony Mackie",
             "role": "Sam Wilson / Falcon"
         },
         {
-            "image": "cobie-smulders",
             "name": "Cobie Smulders",
             "role": "Maria Hill"
         }

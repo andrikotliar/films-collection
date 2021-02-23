@@ -23,52 +23,42 @@
     "boxoffice": "828 million",
     "actors": [
         {
-            "image": "leonardo-dicaprio",
             "name": "Leonardo DiCaprio",
             "role": "Cobb"
         },
         {
-            "image": "joseph-gordon-levitt",
             "name": "Joseph Gordon-Levitt",
             "role": "Arthur"
         },
         {
-            "image": "ellen-page",
             "name": "Ellen Page",
             "role": "Ariadne"
         },
         {
-            "image": "tom-hardy",
             "name": "Tom Hardy",
             "role": "Eames"
         },
         {
-            "image": "ken-watanabe",
             "name": "Ken Watanabe",
             "role": "Saito"
         },
         {
-            "image": "dileep-rao",
             "name": "Dileep Rao",
             "role": "Yusuf"
         },
         {
-            "image": "cillian-murphy",
             "name": "Cillian Murphy",
             "role": "Robert Fischer"
         },
         {
-            "image": "tom-berenger",
             "name": "Tom Berenger",
             "role": "Browning"
         },
         {
-            "image": "marion-cotillard",
             "name": "Marion Cotillard",
             "role": "Mal"
         },
         {
-            "image": "michael-caine",
             "name": "Michael Caine",
             "role": "Miles"
         }

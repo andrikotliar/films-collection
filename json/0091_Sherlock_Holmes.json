@@ -22,37 +22,30 @@
     "boxoffice": "524 million",
     "actors": [
         {
-            "image": "robert-downey-jr.",
             "name": "Robert Downey Jr.",
             "role": "Sherlock Holmes"
         },
         {
-            "image": "jude-law",
             "name": "Jude Law",
             "role": "Dr. John Watson"
         },
         {
-            "image": "rachel-mcadams",
             "name": "Rachel McAdams",
             "role": "Irene Adler"
         },
         {
-            "image": "mark-strong",
             "name": "Mark Strong",
             "role": "Lord Henry Blackwood"
         },
         {
-            "image": "eddie-marsan",
             "name": "Eddie Marsan",
             "role": "Inspector Lestrade"
         },
         {
-            "image": "robert-maillet",
             "name": "Robert Maillet",
             "role": "Dredger"
         },
         {
-            "image": "geraldine-james",
             "name": "Geraldine James",
             "role": "Mrs. Hudson"
         }

@@ -22,42 +22,34 @@
     "boxoffice": "960 million",
     "actors": [
         {
-            "image": "daniel-radcliffe",
             "name": "Daniel Radcliffe",
             "role": "Harry Potter"
         },
         {
-            "image": "rupert-grint",
             "name": "Rupert Grint",
             "role": "Ron Weasley"
         },
         {
-            "image": "emma-watson",
             "name": "Emma Watson",
             "role": "Hermione Granger"
         },
         {
-            "image": "ralph-fiennes",
             "name": "Ralph Fiennes",
             "role": "Lord Voldemort"
         },
         {
-            "image": "robbie-coltrane",
             "name": "Robbie Coltrane",
             "role": "Rubeus Hagrid"
         },
         {
-            "image": "tom-felton",
             "name": "Tom Felton",
             "role": "Draco Malfoy"
         },
         {
-            "image": "alan-rickman",
             "name": "Alan Rickman",
             "role": "Severus Snape"
         },
         {
-            "image": "helena-bonham-carter",
             "name": "Helena Bonham Carter",
             "role": "Bellatrix Lestrage"
         }

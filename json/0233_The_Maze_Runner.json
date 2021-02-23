@@ -22,37 +22,30 @@
     "boxoffice": "348 million",
     "actors": [
         {
-            "image": "/300/2159611.jpg?1604640911",
             "name": "Dylan O'Brien",
             "role": "Thomas"
         },
         {
-            "image": "/300/1588116.jpg?1604648878",
             "name": "Kaya Scodelario",
             "role": "Teresa"
         },
         {
-            "image": "/300/1055422.jpg?1520065689",
             "name": "Aml Ameen",
             "role": "Alby"
         },
         {
-            "image": "/600/751087.jpg?1605255730",
             "name": "Thomas Brodie-Sangster",
             "role": "Newt"
         },
         {
-            "image": "/600/3171500.jpg?1604644699",
             "name": "Ki Hong Lee",
             "role": "Minho"
         },
         {
-            "image": "/300/1517721.jpg?1518271918",
             "name": "Will Poulter",
             "role": "Gally"
         },
         {
-            "image": "/300/126170.jpg?1604644792",
             "name": "Patricia Clarkson",
             "role": "Ava Paige"
         }

@@ -23,32 +23,26 @@
     "boxoffice": "592 million",
     "actors": [
         {
-            "image": "tom-cruise",
             "name": "Tom Cruise",
             "role": "Ray Ferrier"
         },
         {
-            "image": "dakota-fanning",
             "name": "Dakota Fanning",
             "role": "Rachel Ferrier"
         },
         {
-            "image": "miranda-otto",
             "name": "Miranda Otto",
             "role": "Mary Ann"
         },
         {
-            "image": "justin-chatwin",
             "name": "Justin Chatwin",
             "role": "Robbie"
         },
         {
-            "image": "tim-robbins",
             "name": "Tim Robbins",
             "role": "Harlan Ogilvy"
         },
         {
-            "image": "rick-gonzalez",
             "name": "Rick Gonzalez",
             "role": "Vincent"
         }

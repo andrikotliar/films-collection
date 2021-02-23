@@ -23,22 +23,18 @@
     "boxoffice": "619 million",
     "actors": [
         {
-            "image": "jeff-goldblum",
             "name": "Jeff Goldblum",
             "role": "Malcolm"
         },
         {
-            "image": "richard-attenborough",
             "name": "Richard Attenborough",
             "role": "Hammond"
         },
         {
-            "image": "julianne-moore",
             "name": "Julianne Moore",
             "role": "Sarah Harding"
         },
         {
-            "image": "arliss-howard",
             "name": "Arliss Howard",
             "role": "Peter Ludlow"
         }

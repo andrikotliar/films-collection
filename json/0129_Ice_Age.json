@@ -24,22 +24,18 @@
     "boxoffice": "383 million",
     "actors": [
         {
-            "image": "ray-romano",
             "name": "Ray Romano",
             "role": "Manfred"
         },
         {
-            "image": "john-leguizamo",
             "name": "John Leguizamo",
             "role": "Sid"
         },
         {
-            "image": "denis-leary",
             "name": "Denis Leary",
             "role": "Diego"
         },
         {
-            "image": "goran-visnjic",
             "name": "Goran Visnjic",
             "role": "Soto"
         }

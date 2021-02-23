@@ -23,47 +23,38 @@
     "boxoffice": "775 million",
     "actors": [
         {
-            "image": "mark-hamill",
             "name": "Mark Hamill",
             "role": "Luke Skywalker"
         },
         {
-            "image": "harrison-ford",
             "name": "Harrison Ford",
             "role": "Han Solo"
         },
         {
-            "image": "carrie-fisher",
             "name": "Carrie Fisher",
             "role": "Leia Organa"
         },
         {
-            "image": "peter-cushing",
             "name": "Peter Cushing",
             "role": "Moff Tarkin"
         },
         {
-            "image": "alec-guinness",
             "name": "Alec Guinness",
             "role": "Ben Obi-Wan Kenobi"
         },
         {
-            "image": "anthony-daniels",
             "name": "Anthony Daniels",
             "role": "C-3PO"
         },
         {
-            "image": "kenny-baker",
             "name": "Kenny Baker",
             "role": "R2-D2"
         },
         {
-            "image": "peter-mayhew",
             "name": "Peter Mayhew",
             "role": "Chewbacca"
         },
         {
-            "image": "david-prowse",
             "name": "David Prowse",
             "role": "Darth Vader"
         }

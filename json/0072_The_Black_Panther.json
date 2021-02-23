@@ -23,62 +23,50 @@
     "boxoffice": "1,35 billion",
     "actors": [
         {
-            "image": "chadwick-boseman",
             "name": "Chadwick Boseman",
             "role": "T'Challa / Black Panther"
         },
         {
-            "image": "michael-b.-jordan",
             "name": "Michael B. Jordan",
             "role": "Erik Killmonger"
         },
         {
-            "image": "lupita-nyong'o",
             "name": "Lupita Nyong'o",
             "role": "Nakia"
         },
         {
-            "image": "danai-gurira",
             "name": "Danai Gurira",
             "role": "Okoye"
         },
         {
-            "image": "martin-freeman",
             "name": "Martin Freeman",
             "role": "Everett K. Ross"
         },
         {
-            "image": "daniel-kaluuya",
             "name": "Daniel Kaluuya",
             "role": "W'Kabi"
         },
         {
-            "image": "letitia-wright",
             "name": "Letitia Wright",
             "role": "Shuri"
         },
         {
-            "image": "winston-duke",
             "name": "Winston Duke",
             "role": "M'Baku"
         },
         {
-            "image": "sterling-k.-brown",
             "name": "Sterling K. Brown",
             "role": "N'Jobu"
         },
         {
-            "image": "angela-bassett",
             "name": "Angela Bassett",
             "role": "Ramonda"
         },
         {
-            "image": "forest-whitaker",
             "name": "Forest Whitaker",
             "role": "Zuri"
         },
         {
-            "image": "andy-serkis",
             "name": "Andy Serkis",
             "role": "Ulysses Klaue"
         }

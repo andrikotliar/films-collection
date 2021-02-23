@@ -23,47 +23,38 @@
     "boxoffice": "496 million",
     "actors": [
         {
-            "image": "jay-baruchel",
             "name": "Jay Baruchel",
             "role": "Hiccup"
         },
         {
-            "image": "gerard-butler",
             "name": "Gerard Butler",
             "role": "Stoick "
         },
         {
-            "image": "craig-ferguson",
             "name": "Craig Ferguson",
             "role": "Gobber "
         },
         {
-            "image": "america-ferrera",
             "name": "America Ferrera",
             "role": "Astrid "
         },
         {
-            "image": "jonah-hill",
             "name": "Jonah Hill",
             "role": "Snotlout "
         },
         {
-            "image": "christopher-mintz-plasse",
             "name": "Christopher Mintz-Plasse",
             "role": "Fishlegs "
         },
         {
-            "image": "t.j.-miller",
             "name": "T.J. Miller",
             "role": "Tuffnut "
         },
         {
-            "image": "kristen-wiig",
             "name": "Kristen Wiig",
             "role": "Ruffnut "
         },
         {
-            "image": "robin-atkin-downes",
             "name": "Robin Atkin Downes",
             "role": "Ack "
         }

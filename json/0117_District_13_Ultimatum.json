@@ -21,42 +21,34 @@
     "boxoffice": "14 million",
     "actors": [
         {
-            "image": "cyril-raffaelli",
             "name": "Cyril Raffaelli",
             "role": "Damien Tomaso"
         },
         {
-            "image": "david-belle",
             "name": "David Belle",
             "role": "Le'to"
         },
         {
-            "image": "philippe-torreton",
             "name": "Philippe Torreton",
             "role": "Le pr'sident de la R'publique"
         },
         {
-            "image": "daniel-duval",
             "name": "Daniel Duval",
             "role": "Walter Gassman"
         },
         {
-            "image": "elodie-yung",
             "name": "Elodie Yung",
             "role": "Tao"
         },
         {
-            "image": "mc-jean-gab'1",
             "name": "MC Jean Gab'1",
             "role": "Molko"
         },
         {
-            "image": "james-deano",
             "name": "James Deano",
             "role": "Karl le skin"
         },
         {
-            "image": "laouni-mouhid",
             "name": "Laouni Mouhid",
             "role": "Ali-K"
         }

@@ -22,27 +22,22 @@
     "boxoffice": "585 million",
     "actors": [
         {
-            "image": "will-smith",
             "name": "Will Smith",
             "role": "Robert Neville"
         },
         {
-            "image": "alice-braga",
             "name": "Alice Braga",
             "role": "Anna"
         },
         {
-            "image": "charlie-tahan",
             "name": "Charlie Tahan",
             "role": "Ethan"
         },
         {
-            "image": "salli-richardson-whitfield",
             "name": "Salli Richardson-Whitfield",
             "role": "Zoe Neville"
         },
         {
-            "image": "willow-smith",
             "name": "Willow Smith",
             "role": "Marley Neville"
         }

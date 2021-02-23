@@ -23,27 +23,22 @@
     "boxoffice": "132 million",
     "actors": [
         {
-            "image": "gal-gadot",
             "name": "Gal Gadot",
             "role": "Diana Prince"
         },
         {
-            "image": "chris-pine",
             "name": "Chris Pine",
             "role": "Steve Trevor"
         },
         {
-            "image": "kristen-wiig",
             "name": "Kristen Wiig",
             "role": "Barbara Minerva"
         },
         {
-            "image": "pedro-pascal",
             "name": "Pedro Pascal",
             "role": "Maxwell Lord"
         },
         {
-            "image": "lucian-perez",
             "name": "Lucian Perez",
             "role": "Alistair"
         }

@@ -22,52 +22,42 @@
     "boxoffice": "401 million",
     "actors": [
         {
-            "image": "brendan-fraser",
             "name": "Brendan Fraser",
             "role": "Rick O'Connell"
         },
         {
-            "image": "jet-li",
             "name": "Jet Li",
             "role": "Emperor"
         },
         {
-            "image": "maria-bello",
             "name": "Maria Bello",
             "role": "Evelyn O'Connell"
         },
         {
-            "image": "john-hannah",
             "name": "John Hannah",
             "role": "Jonathan Carnahan"
         },
         {
-            "image": "michelle-yeoh",
             "name": "Michelle Yeoh",
             "role": "Zi Yuan"
         },
         {
-            "image": "luke-ford",
             "name": "Luke Ford",
             "role": "Alex O'Connell"
         },
         {
-            "image": "isabella-leong",
             "name": "Isabella Leong",
             "role": "Lin"
         },
         {
-            "image": "anthony-chau-sang-wong",
             "name": "Anthony Chau-Sang Wong",
             "role": "General Yang"
         },
         {
-            "image": "russell-wong",
             "name": "Russell Wong",
             "role": "Ming Guo"
         },
         {
-            "image": "liam-cunningham",
             "name": "Liam Cunningham",
             "role": "Maguire"
         }

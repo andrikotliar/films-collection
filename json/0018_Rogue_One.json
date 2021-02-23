@@ -23,42 +23,34 @@
     "boxoffice": "1,06 billion",
     "actors": [
         {
-            "image": "felicity-jones",
             "name": "Felicity Jones",
             "role": "Jyn Erso"
         },
         {
-            "image": "diego-luna",
             "name": "Diego Luna",
             "role": "Cassian Andor"
         },
         {
-            "image": "alan-tudyk",
             "name": "Alan Tudyk",
             "role": "K-2SO"
         },
         {
-            "image": "donnie-yen",
             "name": "Donnie Yen",
             "role": "Chirrut Imwe"
         },
         {
-            "image": "wen-jiang",
             "name": "Wen Jiang",
             "role": "Baze Malbus"
         },
         {
-            "image": "ben-mendelson",
             "name": "Ben Mendelson",
             "role": "Orson Krennic"
         },
         {
-            "image": "guy-henry",
             "name": "Guy Henry",
             "role": "Governor Tarkin"
         },
         {
-            "image": "forest-whitaker",
             "name": "Forest Whitaker",
             "role": "Saw Gerrera"
         }

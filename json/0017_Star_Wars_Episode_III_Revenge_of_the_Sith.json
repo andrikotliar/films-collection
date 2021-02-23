@@ -23,37 +23,30 @@
     "boxoffice": "849 million",
     "actors": [
         {
-            "image": "ewan-mcgregor",
             "name": "Ewan McGregor",
             "role": "Obi-Wan Kenobi"
         },
         {
-            "image": "natalie-portman",
             "name": "Natalie Portman",
             "role": "Padme"
         },
         {
-            "image": "hayden-christensen",
             "name": "Hayden Christensen",
             "role": "Anakin Skywalker"
         },
         {
-            "image": "samuel-l.-jackson",
             "name": "Samuel L. Jackson",
             "role": "Mace Windu"
         },
         {
-            "image": "frank-oz",
             "name": "Frank Oz",
             "role": "Yoda"
         },
         {
-            "image": "ian-mcdiarmid",
             "name": "Ian McDiarmid",
             "role": "Palpatine"
         },
         {
-            "image": "jimmy-smits",
             "name": "Jimmy Smits",
             "role": "Bail Organa"
         }

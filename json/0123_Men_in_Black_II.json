@@ -23,32 +23,26 @@
     "boxoffice": "442 million",
     "actors": [
         {
-            "image": "tommy-lee-jones",
             "name": "Tommy Lee Jones",
             "role": "K"
         },
         {
-            "image": "will-smith",
             "name": "Will Smith",
             "role": "J"
         },
         {
-            "image": "rip-torn",
             "name": "Rip Torn",
             "role": "Z"
         },
         {
-            "image": "lara-flynn-boyle",
             "name": "Lara Flynn Boyle",
             "role": "Serleena"
         },
         {
-            "image": "johnny-knoxville",
             "name": "Johnny Knoxville",
             "role": "Scrad / Charlie"
         },
         {
-            "image": "rosario-dawson",
             "name": "Rosario Dawson",
             "role": "Laura Vasquez"
         }

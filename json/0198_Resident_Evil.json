@@ -23,32 +23,26 @@
     "boxoffice": "103 million",
     "actors": [
         {
-            "image": "milla-jovovich",
             "name": "Milla Jovovich",
             "role": "Alice"
         },
         {
-            "image": "eric-mabius",
             "name": "Eric Mabius",
             "role": "Matt"
         },
         {
-            "image": "colin-salmon",
             "name": "Colin Salmon",
             "role": "One"
         },
         {
-            "image": "martin-crewes",
             "name": "Martin Crewes",
             "role": "Kaplan"
         },
         {
-            "image": "pasquale-aleardi",
             "name": "Pasquale Aleardi",
             "role": "J.D."
         },
         {
-            "image": "michelle-rodriguez",
             "name": "Michelle Rodriguez",
             "role": "Rain"
         }

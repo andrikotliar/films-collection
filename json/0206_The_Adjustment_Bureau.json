@@ -23,42 +23,34 @@
     "boxoffice": "128 million",
     "actors": [
         {
-            "image": "matt-damon",
             "name": "Matt Damon",
             "role": "David Norris"
         },
         {
-            "image": "emily-blunt",
             "name": "Emily Blunt",
             "role": "Elise Sellas"
         },
         {
-            "image": "anthony-mackie-",
             "name": "Anthony Mackie ",
             "role": "Harry Mitchell"
         },
         {
-            "image": "john-slattery",
             "name": "John Slattery",
             "role": "Richardson"
         },
         {
-            "image": "michael-kelly-",
             "name": "Michael Kelly ",
             "role": "Charlie Traynor"
         },
         {
-            "image": "terence-stamp",
             "name": "Terence Stamp",
             "role": "Thompson"
         },
         {
-            "image": "donnie-keshawarz",
             "name": "Donnie Keshawarz",
             "role": "Donaldson"
         },
         {
-            "image": "anthony-ruivivar",
             "name": "Anthony Ruivivar",
             "role": "McCrady"
         }

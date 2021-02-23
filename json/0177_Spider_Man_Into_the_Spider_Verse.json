@@ -25,62 +25,50 @@
     "boxoffice": "371 million",
     "actors": [
         {
-            "image": "shameik-moore",
             "name": "Shameik Moore",
             "role": "Miles Morales"
         },
         {
-            "image": "jake-johnson",
             "name": "Jake Johnson",
             "role": "Peter B. Parker"
         },
         {
-            "image": "hailee-steinfeld",
             "name": "Hailee Steinfeld",
             "role": "Gwen Stacy"
         },
         {
-            "image": "mahershala-ali",
             "name": "Mahershala Ali",
             "role": "Uncle Aaron"
         },
         {
-            "image": "brian-tyree-henry",
             "name": "Brian Tyree Henry",
             "role": "Jefferson Davis"
         },
         {
-            "image": "lily-tomlin",
             "name": "Lily Tomlin",
             "role": "Aunt May"
         },
         {
-            "image": "luna-lauren-velez",
             "name": "Luna Lauren Velez",
             "role": "Rio Morales"
         },
         {
-            "image": "zo'-kravitz",
-            "name": "Zo' Kravitz",
+            "name": "Zoe Kravitz",
             "role": "Mary Jane"
         },
         {
-            "image": "john-mulaney",
             "name": "John Mulaney",
             "role": "Spider-Ham"
         },
         {
-            "image": "kimiko-glenn",
             "name": "Kimiko Glenn",
             "role": "Peni Parker"
         },
         {
-            "image": "nicolas-cage",
             "name": "Nicolas Cage",
             "role": "Spider-Man Noir"
         },
         {
-            "image": "liev-schreiber",
             "name": "Liev Schreiber",
             "role": "Wilson Fisk"
         }

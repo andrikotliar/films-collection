@@ -22,97 +22,78 @@
     "boxoffice": "1,02 billion",
     "actors": [
         {
-            "image": "ian-mckellen",
             "name": "Ian McKellen",
             "role": "Gendalf"
         },
         {
-            "image": "martin-freeman",
             "name": "Martin Freeman",
             "role": "Bilbo"
         },
         {
-            "image": "richard-armitage",
             "name": "Richard Armitage",
             "role": "Thorin"
         },
         {
-            "image": "ken-stott",
             "name": "Ken Stott",
             "role": "Balin"
         },
         {
-            "image": "graham-mctavish",
             "name": "Graham McTavish",
             "role": "Dwalin"
         },
         {
-            "image": "william-kircher",
             "name": "William Kircher",
             "role": "Bifur"
         },
         {
-            "image": "james-nesbitt",
             "name": "James Nesbitt",
             "role": "Bofur"
         },
         {
-            "image": "stephen-gunter",
             "name": "Stephen Hunter",
             "role": "Bombur"
         },
         {
-            "image": "dean-o'gorman",
             "name": "Dean O'Gorman",
             "role": "Fili"
         },
         {
-            "image": "aidan-turner",
             "name": "Aidan Turner",
             "role": "Kili"
         },
         {
-            "image": "john-callen",
             "name": "John Callen",
             "role": "Oin"
         },
         {
-            "image": "peter-hambleton",
             "name": "Peter Hambleton",
             "role": "Gloin"
         },
         {
-            "image": "jed-brophy",
             "name": "Jed Brophy",
             "role": "Nori"
         },
         {
-            "image": "mark-hadlow",
             "name": "Mark Hadlow",
             "role": "Dori"
         },
         {
-            "image": "adam-brown",
             "name": "Adam Brown",
             "role": "Ori"
         },
         {
-            "image": "ian-holm",
             "name": "Ian Holm",
             "role": "Old Bilbo"
         },
         {
-            "image": "hugo-weaving",
             "name": "Hugo Weaving",
             "role": "Elrond"
         },
         {
-            "image": "cate-blanchett",
             "name": "Cate Blanchett",
             "role": "Galadriel"
         },
         {
-            "image": "andy-serkis",
             "name": "Andy Serkis",
             "role": "Gollum"
         }

@@ -22,57 +22,42 @@
     "boxoffice": "359 million",
     "actors": [
         {
-            "image": "macaulay-culkin",
             "name": "Macaulay Culkin",
             "role": "Kevin"
         },
         {
-            "image": "joe-pesci",
             "name": "Joe Pesci",
             "role": "Harry"
         },
         {
-            "image": "daniel-stern",
             "name": "Daniel Stern",
             "role": "Marv"
         },
         {
-            "image": "catherine-o'hara",
             "name": "Catherine O'Hara",
             "role": "Kate"
         },
         {
-            "image": "john-heard",
             "name": "John Heard",
             "role": "Peter"
         },
         {
-            "image": "devin-ratray",
             "name": "Devin Ratray",
             "role": "Buzz"
         },
         {
-            "image": "hillary-wolf",
             "name": "Hillary Wolf",
             "role": "Megan"
         },
         {
-            "image": "maureen-elisabeth-shay",
-            "name": "Maureen Elisabeth Shay",
-            "role": "Linnie"
-        },
-        {
-            "image": "michael-c.-maronna",
             "name": "Michael C. Maronna",
             "role": "Jeff"
         },
         {
-            "image": "gerry-bamman",
             "name": "Gerry Bamman",
             "role": "Uncle Frank"
         },
         {
-            "image": "terrie-snell",
             "name": "Terrie Snell",
             "role": "Aunt Leslie"
         }

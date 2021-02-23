@@ -23,92 +23,74 @@
     "boxoffice": "2,73 billion",
     "actors": [
         {
-            "image": "robert-downey-jr.",
             "name": "Robert Downey Jr.",
             "role": "Tony Stark"
         },
         {
-            "image": "chris-evans",
             "name": "Chris Evans",
             "role": "Steve Rogers"
         },
         {
-            "image": "brie-larson",
             "name": "Brie Larson",
             "role": "Carol Danvers"
         },
         {
-            "image": "bradley-cooper",
             "name": "Bradley Cooper",
             "role": "Rocket (voice)"
         },
         {
-            "image": "scarlett-johansson",
             "name": "Scarlett Johansson",
             "role": "Natasha Romanoff"
         },
         {
-            "image": "chris-hemsworth",
             "name": "Chris Hemsworth",
             "role": "Thor"
         },
         {
-            "image": "karen-gillan",
             "name": "Karen Gillan",
             "role": "Nebula"
         },
         {
-            "image": "evangeline-lilly",
             "name": "Evangeline Lilly",
             "role": "Hope van Dyne"
         },
         {
-            "image": "josh-brolin",
             "name": "Josh Brolin",
             "role": "Thanos"
         },
         {
-            "image": "elizabeth-olsen",
             "name": "Elizabeth Olsen",
             "role": "Wanda Maximoff"
         },
         {
-            "image": "tom-holland",
             "name": "Tom Holland",
             "role": "Peter Parker"
         },
         {
-            "image": "paul-rudd",
             "name": "Paul Rudd",
             "role": "Scott Lang"
         },
         {
-            "image": "michelle-pfeiffer",
             "name": "Michelle Pfeiffer",
             "role": "Janet Van Dyne"
         },
         {
-            "image": "sebastian-stan",
             "name": "Sebastian Stan",
             "role": "Bucky Barnes"
         },
         {
-            "image": "jeremy-renner",
             "name": "Jeremy Renner",
             "role": "Clint Barton"
         },
         {
-            "image": "chadwick-boseman",
             "name": "Chadwick Boseman",
             "role": "T'Challa"
         },
         {
-            "image": "mark-ruffalo",
             "name": "Mark Ruffalo",
             "role": "Bruce Banner"
         },
         {
-            "image": "don-cheadle",
             "name": "Don Cheadle",
             "role": "James Rhodes"
         }

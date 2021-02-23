@@ -22,22 +22,18 @@
     "boxoffice": "109 million",
     "actors": [
         {
-            "image": "jason-statham",
             "name": "Jason Statham",
             "role": "Frank Martin"
         },
         {
-            "image": "natalya-rudakova",
             "name": "Natalya Rudakova",
             "role": "Valentina"
         },
         {
-            "image": "francois-berleand",
             "name": "François Berléand",
             "role": "Tarconi"
         },
         {
-            "image": "robert-knepper",
             "name": "Robert Knepper",
             "role": "Johnson"
         }

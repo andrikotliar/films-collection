@@ -24,32 +24,26 @@
     "boxoffice": "533 million",
     "actors": [
         {
-            "image": "ben-burtt",
             "name": "Ben Burtt",
             "role": "WALL-E / M-O / AUTO"
         },
         {
-            "image": "elissa-knight",
             "name": "Elissa Knight",
             "role": "EVE"
         },
         {
-            "image": "jeff-garlin",
             "name": "Jeff Garlin",
             "role": "Captain"
         },
         {
-            "image": "fred-willard",
             "name": "Fred Willard",
             "role": "Shelby Forthright"
         },
         {
-            "image": "john-ratzenberger",
             "name": "John Ratzenberger",
             "role": "John"
         },
         {
-            "image": "kathy-najimy",
             "name": "Kathy Najimy",
             "role": "Mary"
         }

@@ -23,57 +23,46 @@
     "boxoffice": "1,13 billion",
     "actors": [
         {
-            "image": "brie-larson",
             "name": "Brie Larson",
             "role": "Carol Danvers / Captain Marvel"
         },
         {
-            "image": "samuel-l.-jackson",
             "name": "Samuel L. Jackson",
             "role": "Nick Fury"
         },
         {
-            "image": "ben-mendelsohn",
             "name": "Ben Mendelsohn",
             "role": "Talos / Keller"
         },
         {
-            "image": "jude-law",
             "name": "Jude Law",
             "role": "Yon-Rogg"
         },
         {
-            "image": "annette-bening",
             "name": "Annette Bening",
             "role": "Supreme Intelligence / Dr. Wendy Lawson"
         },
         {
-            "image": "lashana-lynch",
             "name": "Lashana Lynch",
             "role": "Maria Rambeau"
         },
         {
-            "image": "clark-gregg",
             "name": "Clark Gregg",
             "role": "Agent Coulson"
         },
         {
-            "image": "rune-temte",
             "name": "Rune Temte",
             "role": "Bron-Char"
         },
         {
-            "image": "gemma-chan",
             "name": "Gemma Chan",
             "role": "Minn-Erva"
         },
         {
-            "image": "djimon-hounsou",
             "name": "Djimon Hounsou",
             "role": "Korath"
         },
         {
-            "image": "lee-pace",
             "name": "Lee Pace",
             "role": "Ronan"
         }

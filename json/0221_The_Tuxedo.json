@@ -22,22 +22,18 @@
     "boxoffice": "104 million",
     "actors": [
         {
-            "image": "jackie-chan",
             "name": "Jackie Chan",
             "role": "James \"Jimmy\" Tong"
         },
         {
-            "image": "jennifer-love-hewitt",
             "name": "Jennifer Love Hewitt",
             "role": "Delilah \"Del\" Blaine"
         },
         {
-            "image": "jason-isaacs",
             "name": "Jason Isaacs",
             "role": "Clark Devlin"
         },
         {
-            "image": "peter-stormare",
             "name": "Peter Stormare",
             "role": "Dr. Simms"
         }

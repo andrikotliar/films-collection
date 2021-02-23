@@ -23,47 +23,38 @@
     "boxoffice": "373 million",
     "actors": [
         {
-            "image": "hugh-jackman",
             "name": "Hugh Jackman",
             "role": "Logan / Wolverine"
         },
         {
-            "image": "liev-schreiber",
             "name": "Liev Schreiber",
             "role": "Victor Creed"
         },
         {
-            "image": "danny-huston",
             "name": "Danny Huston",
             "role": "Stryker"
         },
         {
-            "image": "will.i.am",
             "name": "Will.i.am",
             "role": "John Wraith"
         },
         {
-            "image": "lynn-collins",
             "name": "Lynn Collins",
             "role": "Kayla Silverfox"
         },
         {
-            "image": "kevin-durand",
             "name": "Kevin Durand",
             "role": "Fred Dukes"
         },
         {
-            "image": "dominic-monaghan",
             "name": "Dominic Monaghan",
             "role": "Chris Bradley / Bolt"
         },
         {
-            "image": "taylor-kitsch",
             "name": "Taylor Kitsch",
             "role": "Remy LeBeau"
         },
         {
-            "image": "ryan-reynolds",
             "name": "Ryan Reynolds",
             "role": "Wade Wilson"
         }

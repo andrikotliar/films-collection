@@ -22,32 +22,26 @@
     "boxoffice": "353 million",
     "actors": [
         {
-            "image": "kenneth-branagh",
             "name": "Kenneth Branagh",
             "role": "Hercule Poirot"
         },
         {
-            "image": "elliot-levey",
             "name": "Elliot Levey",
             "role": "Rabbi"
         },
         {
-            "image": "david-annen",
             "name": "David Annen",
             "role": "Priest"
         },
         {
-            "image": "joseph-long",
             "name": "Joseph Long",
             "role": "Imam"
         },
         {
-            "image": "daisy-ridley",
             "name": "Daisy Ridley",
             "role": "Miss Mary Debenham"
         },
         {
-            "image": "leslie-odom-jr.",
             "name": "Leslie Odom Jr.",
             "role": "Dr. Arbuthnot"
         }

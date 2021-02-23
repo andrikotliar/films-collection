@@ -23,32 +23,26 @@
     "boxoffice": "1,03 billion",
     "actors": [
         {
-            "image": "sam-neill",
             "name": "Sam Neill",
             "role": "Grant"
         },
         {
-            "image": "laura-dern",
             "name": "Laura Dern",
             "role": "Ellie"
         },
         {
-            "image": "jeff-goldblum",
             "name": "Jeff Goldblum",
             "role": "Malcolm"
         },
         {
-            "image": "richard-attenborough",
             "name": "Richard Attenborough",
             "role": "Hammond"
         },
         {
-            "image": "joseph-mazzello",
             "name": "Joseph Mazzello",
             "role": "Tim"
         },
         {
-            "image": "ariana-richards",
             "name": "Ariana Richards",
             "role": "Lex"
         }

@@ -9,7 +9,7 @@
     "production": [
         "Lions-Gate-Entertainment"
     ],
-    "director": "G'rard Krawczyk",
+    "director": "Gérard Krawczyk",
     "producers": "Luc Besson",
     "writtens": "Luc Besson",
     "music": "DJ Kore, DJ Skalp",
@@ -21,42 +21,34 @@
     "boxoffice": "64 million",
     "actors": [
         {
-            "image": "samy-naceri",
             "name": "Samy Naceri",
             "role": "Daniel Morales"
         },
         {
-            "image": "fr'd'ric-diefenthal",
-            "name": "Fr'd'ric Diefenthal",
+            "name": "Frédéric Diefenthal",
             "role": "'milien Coutant-Kerbalec"
         },
         {
-            "image": "bernard-farcy",
             "name": "Bernard Farcy",
             "role": "Commissaire Gibert"
         },
         {
-            "image": "bai-ling",
             "name": "Bai Ling",
             "role": "Qiu"
         },
         {
-            "image": "emma-wiklund",
             "name": "Emma Wiklund",
             "role": "Petra"
         },
         {
-            "image": "marion-cotillard",
             "name": "Marion Cotillard",
             "role": "Lilly Bertineau"
         },
         {
-            "image": "edouard-montoute",
             "name": "Edouard Montoute",
             "role": "Alain"
         },
         {
-            "image": "jean-christophe-bouvet",
             "name": "Jean-Christophe Bouvet",
             "role": "G'n'ral Edmond Bertineau"
         }

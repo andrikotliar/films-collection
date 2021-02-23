@@ -23,67 +23,54 @@
     "boxoffice": "710 million",
     "actors": [
         {
-            "image": "shia-labeouf",
             "name": "Shia LaBeouf",
             "role": "Sam Witwicky"
         },
         {
-            "image": "megan-fox",
             "name": "Megan Fox",
             "role": "Mikaela Banes"
         },
         {
-            "image": "josh-duhamel",
             "name": "Josh Duhamel",
             "role": "Captain Lennox"
         },
         {
-            "image": "tyrese-gibson",
             "name": "Tyrese Gibson",
             "role": "Epps"
         },
         {
-            "image": "rachael-taylor",
             "name": "Rachael Taylor",
             "role": "Maggie Madsen"
         },
         {
-            "image": "anthony-anderson",
             "name": "Anthony Anderson",
             "role": "Glen Whitmann"
         },
         {
-            "image": "jon-voight",
             "name": "Jon Voight",
             "role": "John Keller"
         },
         {
-            "image": "john-turturro",
             "name": "John Turturro",
             "role": "Agent Simmons"
         },
         {
-            "image": "peter-cullen",
             "name": "Peter Cullen",
             "role": "Optimus Prime (voice)"
         },
         {
-            "image": "mark-ryan",
             "name": "Mark Ryan",
             "role": "Bumblebee (voice)"
         },
         {
-            "image": "hugo-weaving",
             "name": "Hugo Weaving",
             "role": "Megatron (voice)"
         },
         {
-            "image": "reno-wilson",
             "name": "Reno Wilson",
             "role": "Frenzy (voice)"
         },
         {
-            "image": "charlie-adler",
             "name": "Charlie Adler",
             "role": "Starscream (voice)"
         }

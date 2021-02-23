@@ -23,67 +23,54 @@
     "boxoffice": "386 million",
     "actors": [
         {
-            "image": "chris-pine",
             "name": "Chris Pine",
             "role": "Kirk"
         },
         {
-            "image": "zachary-quinto",
             "name": "Zachary Quinto",
             "role": "Spock"
         },
         {
-            "image": "leonard-nimoy",
             "name": "Leonard Nimoy",
             "role": "Spock Prime"
         },
         {
-            "image": "eric-bana",
             "name": "Eric Bana",
             "role": "Nero"
         },
         {
-            "image": "bruce-greenwood",
             "name": "Bruce Greenwood",
             "role": "Pike"
         },
         {
-            "image": "karl-urban",
             "name": "Karl Urban",
             "role": "Bones"
         },
         {
-            "image": "zoe-saldana",
             "name": "Zoe Saldana",
             "role": "Uhura"
         },
         {
-            "image": "simon-pegg",
             "name": "Simon Pegg",
             "role": "Scotty"
         },
         {
-            "image": "john-cho",
             "name": "John Cho",
             "role": "Sulu"
         },
         {
-            "image": "anton-yelchin",
             "name": "Anton Yelchin",
             "role": "Chekov"
         },
         {
-            "image": "ben-cross",
             "name": "Ben Cross",
             "role": "Sarek"
         },
         {
-            "image": "winona-ryder",
             "name": "Winona Ryder",
             "role": "Amanda Grayson"
         },
         {
-            "image": "chris-hemsworth",
             "name": "Chris Hemsworth",
             "role": "George Kirk"
         }

@@ -21,32 +21,26 @@
     "boxoffice": "335 million",
     "actors": [
         {
-            "image": "dwayne-johnson",
             "name": "Dwayne Johnson",
             "role": "Hank"
         },
         {
-            "image": "michael-caine",
             "name": "Michael Caine",
             "role": "Alexander"
         },
         {
-            "image": "josh-hutcherson",
             "name": "Josh Hutcherson",
             "role": "Sean"
         },
         {
-            "image": "luis-guzman",
             "name": "Luis Guzman",
             "role": "Gabato"
         },
         {
-            "image": "vanessa-hudgens",
             "name": "Vanessa Hudgens",
             "role": "Kailani"
         },
         {
-            "image": "kristin-davis",
             "name": "Kristin Davis",
             "role": "Liz"
         }

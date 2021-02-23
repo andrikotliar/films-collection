@@ -24,27 +24,22 @@
     "boxoffice": "540 million",
     "actors": [
         {
-            "image": "brad-pitt",
             "name": "Brad Pitt",
             "role": "Gerry Lane"
         },
         {
-            "image": "mireille-enos",
             "name": "Mireille Enos",
             "role": "Karin Lane"
         },
         {
-            "image": "daniella-kertesz",
             "name": "Daniella Kertesz",
             "role": "Segen"
         },
         {
-            "image": "james-badge-dale",
             "name": "James Badge Dale",
             "role": "Captain Speke"
         },
         {
-            "image": "ludi-boeken",
             "name": "Ludi Boeken",
             "role": "Jurgen Warmbrunn"
         }

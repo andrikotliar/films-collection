@@ -23,37 +23,30 @@
     "boxoffice": "1,03 billion",
     "actors": [
         {
-            "image": "will-smith",
             "name": "Will Smith",
             "role": "Genie / Mariner"
         },
         {
-            "image": "mena-massoud",
             "name": "Mena Massoud",
             "role": "Aladdin"
         },
         {
-            "image": "naomi-scott",
             "name": "Naomi Scott",
             "role": "Jasmine"
         },
         {
-            "image": "marwan-kenzari",
             "name": "Marwan Kenzari",
             "role": "Jafar"
         },
         {
-            "image": "navid-negahban",
             "name": "Navid Negahban",
             "role": "Sultan"
         },
         {
-            "image": "nasim-pedrad",
             "name": "Nasim Pedrad",
             "role": "Dalia"
         },
         {
-            "image": "billy-magnussen",
             "name": "Billy Magnussen",
             "role": "Prince Anders"
         }

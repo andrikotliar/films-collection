@@ -22,67 +22,54 @@
     "boxoffice": "630 million",
     "actors": [
         {
-            "image": "matt-damon",
             "name": "Matt Damon",
             "role": "Mark Watney"
         },
         {
-            "image": "jessica-chastain",
             "name": "Jessica Chastain",
             "role": "Melissa Lewis"
         },
         {
-            "image": "kristen-wiig",
             "name": "Kristen Wiig",
             "role": "Annie Montrose"
         },
         {
-            "image": "jeff-daniels",
             "name": "Jeff Daniels",
             "role": "Teddy Sanders"
         },
         {
-            "image": "michael-pena",
             "name": "Michael Pena",
             "role": "Rick Martinez"
         },
         {
-            "image": "sean-bean",
             "name": "Sean Bean",
             "role": "Mitch Henderson"
         },
         {
-            "image": "kate-mara",
             "name": "Kate Mara",
             "role": "Beth Johanssen"
         },
         {
-            "image": "sebastian-stan",
             "name": "Sebastian Stan",
             "role": "Chris Beck"
         },
         {
-            "image": "aksel-hennie",
             "name": "Aksel Hennie",
             "role": "Alex Vogel"
         },
         {
-            "image": "chiwetel-ejiofor",
             "name": "Chiwetel Ejiofor",
             "role": "Vincent Kapoor"
         },
         {
-            "image": "benedict-wong",
             "name": "Benedict Wong",
             "role": "Bruce Ng"
         },
         {
-            "image": "mackenzie-davis",
             "name": "Mackenzie Davis",
             "role": "Mindy Park"
         },
         {
-            "image": "donald-glover",
             "name": "Donald Glover",
             "role": "Rich Purnell"
         }

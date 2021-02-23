@@ -23,52 +23,42 @@
     "boxoffice": "668 million",
     "actors": [
         {
-            "image": "henry-cavill",
             "name": "Henry Cavill",
             "role": "Clark Kent / Kal-El"
         },
         {
-            "image": "amy-adams",
             "name": "Amy Adams",
             "role": "Lois Lane"
         },
         {
-            "image": "michael-shannon",
             "name": "Michael Shannon",
             "role": "General Zod"
         },
         {
-            "image": "diane-lane",
             "name": "Diane Lane",
             "role": "Martha Kent"
         },
         {
-            "image": "russell-crowe",
             "name": "Russell Crowe",
             "role": "Jor-El"
         },
         {
-            "image": "antje-traue",
             "name": "Antje Traue",
             "role": "Faora-Ul"
         },
         {
-            "image": "harry-lennix",
             "name": "Harry Lennix",
             "role": "General Swanwick"
         },
         {
-            "image": "richard-schiff",
             "name": "Richard Schiff",
             "role": "Dr. Emil Hamilton"
         },
         {
-            "image": "christopher-meloni",
             "name": "Christopher Meloni",
             "role": "Colonel Nathan Hardy"
         },
         {
-            "image": "kevin-costner",
             "name": "Kevin Costner",
             "role": "Jonathan Kent"
         }

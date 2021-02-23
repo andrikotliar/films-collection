@@ -22,47 +22,38 @@
     "boxoffice": "2,8 billion",
     "actors": [
         {
-            "image": "/300/704651.jpg?1604640063",
             "name": "Sam Worthington",
             "role": "Jake Sully"
         },
         {
-            "image": "/300/568690.jpg?1604643658",
             "name": "Zoe Saldana",
             "role": "Neytiri"
         },
         {
-            "image": "/300/244.jpg?1518312375",
             "name": "Sigourney Weaver",
             "role": "Grace Augustine"
         },
         {
-            "image": "/300/2309.jpg?1604645081",
             "name": "Stephen Lang",
             "role": "Miles Quaritch"
         },
         {
-            "image": "/300/551835.jpg?1518293417",
             "name": "Michelle Rodriguez",
             "role": "Trudy Chacon"
         },
         {
-            "image": "/300/610.jpg?1604648254",
             "name": "Giovanni Ribisi",
             "role": "Parker Selfridge"
         },
         {
-            "image": "/300/451810.jpg?1518297606",
             "name": "Joel David Moore",
             "role": "Norm Spellman"
         },
         {
-            "image": "/300/626319.jpg?1604643692",
             "name": "Wes Studi",
             "role": "Eytukan"
         },
         {
-            "image": "/300/18331.jpg?1518311377",
             "name": "Laz Alonso",
             "role": "Tsu'tey"
         }

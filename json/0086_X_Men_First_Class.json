@@ -23,57 +23,46 @@
     "boxoffice": "354 million",
     "actors": [
         {
-            "image": "james-mcavoy",
             "name": "James McAvoy",
             "role": "Charles Xavier"
         },
         {
-            "image": "michael-fassbender",
             "name": "Michael Fassbender",
             "role": "Erik Lensherr"
         },
         {
-            "image": "bill-milner",
             "name": "Bill Milner",
             "role": "Young Erik"
         },
         {
-            "image": "kevin-bacon",
             "name": "Kevin Bacon",
             "role": "Sebastian Shaw"
         },
         {
-            "image": "rose-byrne",
             "name": "Rose Byrne",
             "role": "Moira MacTaggert"
         },
         {
-            "image": "jennifer-lawrence",
             "name": "Jennifer Lawrence",
             "role": "Raven / Mystique"
         },
         {
-            "image": "january-jones",
             "name": "January Jones",
             "role": "Emma Frost"
         },
         {
-            "image": "nicholas-hoult",
             "name": "Nicholas Hoult",
             "role": "Hank / Beast"
         },
         {
-            "image": "caleb-landry-jones",
             "name": "Caleb Landry Jones",
             "role": "Cassidy / Banshee"
         },
         {
-            "image": "lucas-till",
             "name": "Lucas Till",
             "role": "Alex Summers / Havok"
         },
         {
-            "image": "don-creech",
             "name": "Don Creech",
             "role": "William Stryker"
         }

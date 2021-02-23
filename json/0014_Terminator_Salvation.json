@@ -23,37 +23,30 @@
     "boxoffice": "371 million",
     "actors": [
         {
-            "image": "christian-bale",
             "name": "Christian Bale",
             "role": "John Connor"
         },
         {
-            "image": "sam-worthington",
             "name": "Sam Worthington",
             "role": "Marcus Wright"
         },
         {
-            "image": "moon-bloodgood",
             "name": "Moon Bloodgood",
             "role": "Blair Williams"
         },
         {
-            "image": "helena-bonham-carter",
             "name": "Helena Bonham Carter",
             "role": "Dr. Serena Kogan"
         },
         {
-            "image": "anton-yelchin",
             "name": "Anton Yelchin",
             "role": "Kyle Reese"
         },
         {
-            "image": "jadagrace",
             "name": "Jadagrace",
             "role": "Star (as Jadagrace Berry)"
         },
         {
-            "image": "bryce-dallas-howard",
             "name": "Bryce Dallas Howard",
             "role": "Kate Connor"
         }

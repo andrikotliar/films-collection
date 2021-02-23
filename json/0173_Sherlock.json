@@ -23,42 +23,34 @@
     "boxoffice": null,
     "actors": [
         {
-            "image": "benedict-cumberbatch",
             "name": "Benedict Cumberbatch",
             "role": "Sherlock Holmes"
         },
         {
-            "image": "martin-freeman",
             "name": "Martin Freeman",
             "role": "Dr. John Watson"
         },
         {
-            "image": "una-stubbs",
             "name": "Una Stubbs",
             "role": "Mrs. Hudson"
         },
         {
-            "image": "rupert-graves",
             "name": "Rupert Graves",
             "role": "DI Lestrade"
         },
         {
-            "image": "louise-brealey",
             "name": "Louise Brealey",
             "role": "Molly Hooper"
         },
         {
-            "image": "mark-gatiss",
             "name": "Mark Gatiss",
             "role": "Mycroft Holmes"
         },
         {
-            "image": "andrew-scott",
             "name": "Andrew Scott",
             "role": "Jim Moriarty"
         },
         {
-            "image": "amanda-abbington",
             "name": "Amanda Abbington",
             "role": "Mary Watson"
         }

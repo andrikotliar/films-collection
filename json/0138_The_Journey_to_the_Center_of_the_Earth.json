@@ -21,17 +21,14 @@
     "boxoffice": "242 million",
     "actors": [
         {
-            "image": "brendan-fraser",
             "name": "Brendan Fraser",
             "role": "Trevor Anderson"
         },
         {
-            "image": "josh-hutcherson",
             "name": "Josh Hutcherson",
             "role": "Sean Anderson"
         },
         {
-            "image": "anita-briem",
             "name": "Anita Briem",
             "role": "Hannah 'sgeirsson"
         }

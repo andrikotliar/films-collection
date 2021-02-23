@@ -23,47 +23,38 @@
     "boxoffice": "1,02 billion",
     "actors": [
         {
-            "image": "ginnifer-goodwin",
             "name": "Ginnifer Goodwin",
             "role": "Octavia Spencer"
         },
         {
-            "image": "jason-bateman",
             "name": "Jason Bateman",
             "role": "Judy Hopps"
         },
         {
-            "image": "idris-elba",
             "name": "Idris Elba",
             "role": "Nick Wilde"
         },
         {
-            "image": "jenny-slate",
             "name": "Jenny Slate",
             "role": "Chief Bogo"
         },
         {
-            "image": "nate-torrence",
             "name": "Nate Torrence",
             "role": "Bellwether"
         },
         {
-            "image": "bonnie-hunt",
             "name": "Bonnie Hunt",
             "role": "Clawhauser"
         },
         {
-            "image": "don-lake",
             "name": "Don Lake",
             "role": "Bonnie Hopps"
         },
         {
-            "image": "tommy-chong",
             "name": "Tommy Chong",
             "role": "Stu Hopps"
         },
         {
-            "image": "j.k.-simmons",
             "name": "J.K. Simmons",
             "role": "Yax"
         }

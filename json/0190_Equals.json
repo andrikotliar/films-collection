@@ -24,52 +24,42 @@
     "boxoffice": "2 million",
     "actors": [
         {
-            "image": "nicholas-hoult",
             "name": "Nicholas Hoult",
             "role": "Silas"
         },
         {
-            "image": "kristen-stewart",
             "name": "Kristen Stewart",
             "role": "Nia"
         },
         {
-            "image": "scott-lawrence",
             "name": "Scott Lawrence",
             "role": "Mark"
         },
         {
-            "image": "kate-lyn-sheil",
             "name": "Kate Lyn Sheil",
             "role": "Kate"
         },
         {
-            "image": "rebecca-hazlewood",
             "name": "Rebecca Hazlewood",
             "role": "Zoe"
         },
         {
-            "image": "yu-hwan-park",
             "name": "Yu Hwan Park",
             "role": "Seth"
         },
         {
-            "image": "bel-powley",
             "name": "Bel Powley",
             "role": "Rachel"
         },
         {
-            "image": "david-selby",
             "name": "David Selby",
             "role": "Leonard"
         },
         {
-            "image": "aurora-perrineau",
             "name": "Aurora Perrineau",
             "role": "Iris"
         },
         {
-            "image": "nathan-parker",
             "name": "Nathan Parker",
             "role": "David"
         }

@@ -22,39 +22,20 @@
     "boxoffice": "174 million",
     "actors": [
         {
-            "image": "justin-timberlake",
             "name": "Justin Timberlake",
             "role": "Will Salas"
         },
         {
-            "image": "olivia-wilde",
             "name": "Olivia Wilde",
             "role": "Rachel Salas"
         },
         {
-            "image": "shyloh-oostwald",
             "name": "Shyloh Oostwald",
             "role": "Maya"
         },
         {
-            "image": "johnny-galecki",
             "name": "Johnny Galecki",
             "role": "Borel"
-        },
-        {
-            "image": "colin-mcgurk",
-            "name": "Colin McGurk",
-            "role": "Citizen"
-        },
-        {
-            "image": "will-harris",
-            "name": "Will Harris",
-            "role": "Ulysse"
-        },
-        {
-            "image": "michael-william-freeman",
-            "name": "Michael William Freeman",
-            "role": "Nardin"
         }
     ],
     "synopsis": "In a future where people stop aging at 25, but are engineered to live only one more year, having the means to buy your way out of the situation is a shot at immortal youth. Here, Will Salas finds himself accused of murder and on the run with a hostage - a connection that becomes an important part of the way against the system.",

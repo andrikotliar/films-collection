@@ -23,57 +23,46 @@
     "boxoffice": "645 million",
     "actors": [
         {
-            "image": "chris-hemsworth",
             "name": "Chris Hemsworth",
             "role": "Thor"
         },
         {
-            "image": "natalie-portman",
             "name": "Natalie Portman",
             "role": "Jane Foster"
         },
         {
-            "image": "tom-hiddleston",
             "name": "Tom Hiddleston",
             "role": "Loki"
         },
         {
-            "image": "anthony-hopkins",
             "name": "Anthony Hopkins",
             "role": "Odin"
         },
         {
-            "image": "christopher-eccleston",
             "name": "Christopher Eccleston",
             "role": "Malekith"
         },
         {
-            "image": "jaimie-alexander",
             "name": "Jaimie Alexander",
             "role": "Sif"
         },
         {
-            "image": "zachary-levi",
             "name": "Zachary Levi",
             "role": "Fandral"
         },
         {
-            "image": "ray-stevenson",
             "name": "Ray Stevenson",
             "role": "Volstagg"
         },
         {
-            "image": "tadanobu-asano",
             "name": "Tadanobu Asano",
             "role": "Hogun"
         },
         {
-            "image": "idris-elba",
             "name": "Idris Elba",
             "role": "Heimdall"
         },
         {
-            "image": "rene-russo",
             "name": "Rene Russo",
             "role": "Frigga"
         }

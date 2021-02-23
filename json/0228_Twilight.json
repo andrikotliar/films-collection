@@ -22,67 +22,54 @@
     "boxoffice": "408 million",
     "actors": [
         {
-            "image": "/600/621538.jpg?1604638507",
             "name": "Kristen Stewart",
             "role": "Bella Swan"
         },
         {
-            "image": "/600/1030531.jpg?1601646784",
             "name": "Robert Pattinson",
             "role": "Edward Cullen"
         },
         {
-            "image": "/300/4562.jpg?1604648679",
             "name": "Peter Facinelli",
             "role": "Carlisle Cullen"
         },
         {
-            "image": "/300/536178.jpg?1604643841",
             "name": "Elizabeth Reaser",
             "role": "Esme Cullen"
         },
         {
-            "image": "/300/1430803.jpg?1604647547",
             "name": "Ashley Greene",
             "role": "Alice Cullen"
         },
         {
-            "image": "/300/1060815.jpg?1604644105",
             "name": "Kellan Lutz",
             "role": "Emmett Cullen"
         },
         {
-            "image": "/300/867583.jpg?1604642263",
             "name": "Nikki Reed",
             "role": "Rosalie Hale"
         },
         {
-            "image": "/300/1149421.jpg?1604645101",
             "name": "Jackson Rathbone",
             "role": "Jasper Hale"
         },
         {
-            "image": "/300/93341.jpg?1604643168",
             "name": "Billy Burke",
             "role": "Charlie Swan"
         },
         {
-            "image": "/600/1055598.jpg?1604644051",
             "name": "Cam Gigandet",
             "role": "James Witherdale"
         },
         {
-            "image": "/300/375273.jpg?1604647283",
             "name": "Rachelle Lefevre",
             "role": "Victoria Sutherland"
         },
         {
-            "image": "/300/942187.jpg?1518281844",
             "name": "Edi Gathegi",
             "role": "Laurent Da Revin"
         },
         {
-            "image": "/300/859644.jpg?1604642175",
             "name": "Taylor Lautner",
             "role": "Jacob Black"
         }

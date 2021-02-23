@@ -23,52 +23,42 @@
     "boxoffice": "519 million",
     "actors": [
         {
-            "image": "paul-rudd",
             "name": "Paul Rudd",
             "role": "Scott Lang / Ant-Man"
         },
         {
-            "image": "michael-douglas",
             "name": "Michael Douglas",
             "role": "Dr. Hank Pym"
         },
         {
-            "image": "evangeline-lilly",
             "name": "Evangeline Lilly",
             "role": "Hope van Dyne"
         },
         {
-            "image": "corey-stoll",
             "name": "Corey Stoll",
             "role": "Darren Cross / Yellowjacket"
         },
         {
-            "image": "bobby-cannavale",
             "name": "Bobby Cannavale",
             "role": "Paxton"
         },
         {
-            "image": "anthony-mackie",
             "name": "Anthony Mackie",
             "role": "Sam Wilson / Falcon"
         },
         {
-            "image": "judy-greer",
             "name": "Judy Greer",
             "role": "Maggie Lang"
         },
         {
-            "image": "abby-ryder-fortson",
             "name": "Abby Ryder Fortson",
             "role": "Cassie Lang"
         },
         {
-            "image": "michael-pena",
             "name": "Michael Pena",
             "role": "Luis"
         },
         {
-            "image": "david-dastmalchian",
             "name": "David Dastmalchian",
             "role": "Kurt"
         }

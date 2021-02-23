@@ -23,67 +23,54 @@
     "boxoffice": "343 million",
     "actors": [
         {
-            "image": "chris-pine",
             "name": "Chris Pine",
             "role": "Captain James T. Kirk"
         },
         {
-            "image": "zachary-quinto",
             "name": "Zachary Quinto",
             "role": "Commander Spock"
         },
         {
-            "image": "karl-urban",
             "name": "Karl Urban",
             "role": "Doctor 'Bones' McCoy"
         },
         {
-            "image": "zoe-saldana",
             "name": "Zoe Saldana",
             "role": "Uhura"
         },
         {
-            "image": "simon-pegg",
             "name": "Simon Pegg",
             "role": "Montgomery 'Scotty' Scott"
         },
         {
-            "image": "john-cho",
             "name": "John Cho",
             "role": "Sulu"
         },
         {
-            "image": "anton-yelchin",
             "name": "Anton Yelchin",
             "role": "Chekov"
         },
         {
-            "image": "idris-elba",
             "name": "Idris Elba",
             "role": "Krall"
         },
         {
-            "image": "sofia-boutella",
             "name": "Sofia Boutella",
             "role": "Jaylah"
         },
         {
-            "image": "joe-taslim",
             "name": "Joe Taslim",
             "role": "Manas"
         },
         {
-            "image": "lydia-wilson",
             "name": "Lydia Wilson",
             "role": "Kalara"
         },
         {
-            "image": "deep-roy",
             "name": "Deep Roy",
             "role": "Keenser"
         },
         {
-            "image": "melissa-roxburgh",
             "name": "Melissa Roxburgh",
             "role": "Ensign Syl"
         }

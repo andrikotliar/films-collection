@@ -22,52 +22,42 @@
     "boxoffice": "99 million",
     "actors": [
         {
-            "image": "ron-perlman",
             "name": "Ron Perlman",
             "role": "Hellboy"
         },
         {
-            "image": "john-hurt",
             "name": "John Hurt",
             "role": "Trevor Bruttenholm"
         },
         {
-            "image": "selma-blair",
             "name": "Selma Blair",
             "role": "Liz Sherman"
         },
         {
-            "image": "rupert-evans",
             "name": "Rupert Evans",
             "role": "John Myers"
         },
         {
-            "image": "karel-roden",
             "name": "Karel Roden",
             "role": "Grigori Rasputin"
         },
         {
-            "image": "jeffrey-tambor",
             "name": "Jeffrey Tambor",
             "role": "Tom Manning"
         },
         {
-            "image": "doug-jones",
             "name": "Doug Jones",
             "role": "Abe Sapien"
         },
         {
-            "image": "brian-steele",
             "name": "Brian Steele",
             "role": "Sammael"
         },
         {
-            "image": "ladislav-beran",
             "name": "Ladislav Beran",
             "role": "Karl Ruprecht Kroenen"
         },
         {
-            "image": "biddy-hodson",
             "name": "Biddy Hodson",
             "role": "Ilsa Haupstein"
         }

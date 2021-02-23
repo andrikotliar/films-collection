@@ -24,37 +24,30 @@
     "boxoffice": "358 million",
     "actors": [
         {
-            "image": "ry'nosuke-kamiki",
-            "name": "Ry'nosuke Kamiki",
+            "name": "Ryunosuke Kamiki",
             "role": "Taki Tachibana (voice)"
         },
         {
-            "image": "mone-kamishiraishi",
             "name": "Mone Kamishiraishi",
             "role": "Mitsuha Miyamizu (voice)"
         },
         {
-            "image": "ry'-narita",
-            "name": "Ry' Narita",
+            "name": "Ryo Narita",
             "role": "Katsuhiko Teshigawara (voice)"
         },
         {
-            "image": "aoi-y'ki",
-            "name": "Aoi Y'ki",
+            "name": "Aoi Yuki",
             "role": "Sayaka Natori (voice)"
         },
         {
-            "image": "nobunaga-shimazaki",
             "name": "Nobunaga Shimazaki",
             "role": "Tsukasa Fujii (voice)"
         },
         {
-            "image": "kaito-ishikawa",
             "name": "Kaito Ishikawa",
             "role": "Shinta Takagi (voice)"
         },
         {
-            "image": "kanon-tani",
             "name": "Kanon Tani",
             "role": "Yotsuha Miyamizu (voice)"
         }

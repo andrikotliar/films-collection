@@ -23,67 +23,54 @@
     "boxoffice": "748 million",
     "actors": [
         {
-            "image": "hugh-jackman",
             "name": "Hugh Jackman",
             "role": "Logan / Wolverine"
         },
         {
-            "image": "james-mcavoy",
             "name": "James McAvoy",
             "role": "Charles Xavier"
         },
         {
-            "image": "michael-fassbender",
             "name": "Michael Fassbender",
             "role": "Erik Lehnsherr"
         },
         {
-            "image": "jennifer-lawrence",
             "name": "Jennifer Lawrence",
             "role": "Raven / Mystique"
         },
         {
-            "image": "halle-berry",
             "name": "Halle Berry",
             "role": "Storm"
         },
         {
-            "image": "nicholas-hoult",
             "name": "Nicholas Hoult",
             "role": "Hank / Beast"
         },
         {
-            "image": "anna-paquin",
             "name": "Anna Paquin",
             "role": "Rogue"
         },
         {
-            "image": "ellen-page",
             "name": "Ellen Page",
             "role": "Kitty Pryde"
         },
         {
-            "image": "peter-dinklage",
             "name": "Peter Dinklage",
             "role": "Dr. Bolivar Trask"
         },
         {
-            "image": "shawn-ashmore",
             "name": "Shawn Ashmore",
             "role": "Bobby / Iceman"
         },
         {
-            "image": "evan-peters",
             "name": "Evan Peters",
             "role": "Peter / Quicksilver"
         },
         {
-            "image": "ian-mckellen",
             "name": "Ian McKellen",
             "role": "Magneto"
         },
         {
-            "image": "patrick-stewart",
             "name": "Patrick Stewart",
             "role": "Professor X"
         }

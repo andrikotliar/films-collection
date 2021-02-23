@@ -23,82 +23,66 @@
     "boxoffice": "1,4 billion",
     "actors": [
         {
-            "image": "robert-downey-jr.",
             "name": "Robert Downey Jr.",
             "role": "Tony Stark"
         },
         {
-            "image": "chris-hemsworth",
             "name": "Chris Hemsworth",
             "role": "Thor"
         },
         {
-            "image": "mark-ruffalo",
             "name": "Mark Ruffalo",
             "role": "Bruce Banner"
         },
         {
-            "image": "chris-evans",
             "name": "Chris Evans",
             "role": "Steve Rogers"
         },
         {
-            "image": "scarlett-johansson",
             "name": "Scarlett Johansson",
             "role": "Natasha Romanoff"
         },
         {
-            "image": "jeremy-renner",
             "name": "Jeremy Renner",
             "role": "Clint Barton"
         },
         {
-            "image": "james-spader",
             "name": "James Spader",
             "role": "Ultron"
         },
         {
-            "image": "samuel-l.-jackson",
             "name": "Samuel L. Jackson",
             "role": "Nick Fury"
         },
         {
-            "image": "don-cheadle",
             "name": "Don Cheadle",
             "role": "James Rhodes"
         },
         {
-            "image": "aaron-taylor-johnson",
             "name": "Aaron Taylor-Johnson",
             "role": "Pietro Maximoff"
         },
         {
-            "image": "elizabeth-olsen",
             "name": "Elizabeth Olsen",
             "role": "Wanda Maximoff"
         },
         {
-            "image": "paul-bettany",
             "name": "Paul Bettany",
             "role": "Jarvis / Vision"
         },
         {
-            "image": "cobie-smulders",
             "name": "Cobie Smulders",
             "role": "Maria Hill"
         },
         {
-            "image": "anthony-mackie",
             "name": "Anthony Mackie",
             "role": "Sam Wilson"
         },
         {
-            "image": "hayley-atwell",
             "name": "Hayley Atwell",
             "role": "Peggy Carter"
         },
         {
-            "image": "idris-elba",
             "name": "Idris Elba",
             "role": "Heimdall"
         }

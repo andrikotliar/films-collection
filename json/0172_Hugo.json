@@ -23,23 +23,19 @@
     "boxoffice": "186 million",
     "actors": [
         {
-            "image": "ben-kingsley",
             "name": "Ben Kingsley",
             "role": "Georges M'li's"
         },
         {
-            "image": "sacha-baron-cohen",
             "name": "Sacha Baron Cohen",
             "role": "Station Inspector"
         },
         {
-            "image": "asa-butterfield",
             "name": "Asa Butterfield",
             "role": "Hugo Cabret"
         },
         {
-            "image": "chlo'-grace-moretz",
-            "name": "Chlo' Grace Moretz",
+            "name": "Chloë Grace Moretz",
             "role": "Isabelle"
         }
     ],

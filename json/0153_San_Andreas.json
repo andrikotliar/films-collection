@@ -22,27 +22,22 @@
     "boxoffice": "474 million",
     "actors": [
         {
-            "image": "dwayne-johnson",
             "name": "Dwayne Johnson",
             "role": "Raymond Gaines"
         },
         {
-            "image": "carla-gugino",
             "name": "Carla Gugino",
             "role": "Emma Gaines"
         },
         {
-            "image": "alexandra-daddario",
             "name": "Alexandra Daddario",
             "role": "Blake Gaines"
         },
         {
-            "image": "ioan-gruffudd",
             "name": "Ioan Gruffudd",
             "role": "Daniel Riddick"
         },
         {
-            "image": "archie-panjabi",
             "name": "Archie Panjabi",
             "role": "Serena Johnson"
         }

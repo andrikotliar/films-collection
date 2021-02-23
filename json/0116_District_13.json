@@ -21,27 +21,22 @@
     "boxoffice": "12 million",
     "actors": [
         {
-            "image": "cyril-raffaelli",
             "name": "Cyril Raffaelli",
             "role": "Damien Tomaso"
         },
         {
-            "image": "david-belle",
             "name": "David Belle",
             "role": "Le'to"
         },
         {
-            "image": "tony-d'amario",
             "name": "Tony D'Amario",
             "role": "K2"
         },
         {
-            "image": "bibi-naceri",
             "name": "Bibi Naceri",
             "role": "Taha Bemamud"
         },
         {
-            "image": "dany-verissimo-petit",
             "name": "Dany Verissimo-Petit",
             "role": "Lola"
         }

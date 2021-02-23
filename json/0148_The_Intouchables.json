@@ -24,22 +24,18 @@
     "boxoffice": "427 million",
     "actors": [
         {
-            "image": "francois-cluzet",
             "name": "Francois Cluzet",
             "role": "Philippe"
         },
         {
-            "image": "omar-sy",
             "name": "Omar Sy",
             "role": "Driss"
         },
         {
-            "image": "anne-le-ny",
             "name": "Anne Le Ny",
             "role": "Yvonne"
         },
         {
-            "image": "audrey-fleurot",
             "name": "Audrey Fleurot",
             "role": "Magalie"
         }

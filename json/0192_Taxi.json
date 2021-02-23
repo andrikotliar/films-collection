@@ -10,7 +10,7 @@
         "TF1-Films-Productions",
         "ARP-S'lectio"
     ],
-    "director": "G'rard Pir's",
+    "director": "Gérard Pirès",
     "producers": "Luc Besson, Michele Petin, Laurent Petin",
     "writtens": "Luc Besson",
     "music": "Akhenaton",
@@ -22,32 +22,22 @@
     "boxoffice": "44 million",
     "actors": [
         {
-            "image": "samy-naceri",
             "name": "Samy Naceri",
             "role": "Daniel Morales"
         },
         {
-            "image": "fr'd'ric-diefenthal",
-            "name": "Fr'd'ric Diefenthal",
+            "name": "Frédéric Diefenthal",
             "role": "'milien Coutant-Kerbalec"
         },
         {
-            "image": "marion-cotillard",
             "name": "Marion Cotillard",
             "role": "Lilly Bertineau"
         },
         {
-            "image": "manuela-gourary",
-            "name": "Manuela Gourary",
-            "role": "Camille Coutant-Kerbalec"
-        },
-        {
-            "image": "emma-wiklund",
             "name": "Emma Wiklund",
             "role": "Petra"
         },
         {
-            "image": "bernard-farcy",
             "name": "Bernard Farcy",
             "role": "Commissaire Gibert"
         }

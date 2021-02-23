@@ -22,54 +22,36 @@
     "boxoffice": "420 million",
     "actors": [
         {
-            "image": "ben-barnes",
             "name": "Ben Barnes",
             "role": "Prince Caspian"
         },
         {
-            "image": "georgie-henley",
             "name": "Georgie Henley",
             "role": "Lucy Pevensie"
         },
         {
-            "image": "skandar-keynes",
             "name": "Skandar Keynes",
             "role": "Edmund Pevensie"
         },
         {
-            "image": "william-moseley",
             "name": "William Moseley",
             "role": "Peter Pevensie"
         },
         {
-            "image": "anna-popplewell",
             "name": "Anna Popplewell",
             "role": "Susan Pevensie"
         },
         {
-            "image": "sergio-castellitto",
             "name": "Sergio Castellitto",
             "role": "Miraz"
         },
         {
-            "image": "peter-dinklage",
             "name": "Peter Dinklage",
             "role": "Trumpkin"
         },
         {
-            "image": "warwick-davis",
             "name": "Warwick Davis",
             "role": "Nikabrik"
-        },
-        {
-            "image": "vincent-grass",
-            "name": "Vincent Grass",
-            "role": "Doctor Cornelius"
-        },
-        {
-            "image": "pierfrancesco-favino",
-            "name": "Pierfrancesco Favino",
-            "role": "General Glozelle"
         }
     ],
     "synopsis": "The Pevensie siblings return to Narnia, where they are enlisted to once again help ward off an evil king and restore the rightful heir to the land's throne, Prince Caspian.",

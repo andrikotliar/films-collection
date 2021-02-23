@@ -23,52 +23,42 @@
     "boxoffice": "411 million",
     "actors": [
         {
-            "image": "charlie-hunnam",
             "name": "Charlie Hunnam",
             "role": "Raleigh Becket"
         },
         {
-            "image": "diego-klattenhoff",
             "name": "Diego Klattenhoff",
             "role": "Yancy Becket"
         },
         {
-            "image": "idris-elba",
             "name": "Idris Elba",
             "role": "Stacker Pentecost"
         },
         {
-            "image": "rinko-kikuchi",
             "name": "Rinko Kikuchi",
             "role": "Mako Mori"
         },
         {
-            "image": "charlie-day",
             "name": "Charlie Day",
             "role": "Dr. Newton Geiszler"
         },
         {
-            "image": "burn-gorman",
             "name": "Burn Gorman",
             "role": "Herman Gottlieb"
         },
         {
-            "image": "max-martini",
             "name": "Max Martini",
             "role": "Herc Hansen"
         },
         {
-            "image": "robert-kazinsky",
             "name": "Robert Kazinsky",
             "role": "Chuck Hansen"
         },
         {
-            "image": "clifton-collins-jr.",
             "name": "Clifton Collins Jr.",
             "role": "Ops Tendo Choi"
         },
         {
-            "image": "ron-perlman",
             "name": "Ron Perlman",
             "role": "Hannibal Chau"
         }

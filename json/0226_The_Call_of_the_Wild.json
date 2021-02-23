@@ -22,17 +22,14 @@
     "boxoffice": "110 million",
     "actors": [
         {
-            "image": "/300/148.jpg?1604648158",
             "name": "Harrison Ford",
             "role": "John Thornton"
         },
         {
-            "image": "/300/781541.jpg?1604642811",
             "name": "Omar Sy",
             "role": "Perrault"
         },
         {
-            "image": "/300/976208.jpg?1604643156",
             "name": "Dan Stevens",
             "role": "Hal"
         }

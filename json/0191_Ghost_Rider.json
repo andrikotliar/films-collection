@@ -23,47 +23,38 @@
     "boxoffice": "228 million",
     "actors": [
         {
-            "image": "nicolas-cage",
             "name": "Nicolas Cage",
             "role": "Johnny Blaze / Ghost Rider"
         },
         {
-            "image": "eva-mendes",
             "name": "Eva Mendes",
             "role": "Roxanne Simpson"
         },
         {
-            "image": "peter-fonda",
             "name": "Peter Fonda",
             "role": "Mephistopheles"
         },
         {
-            "image": "wes-bentley",
             "name": "Wes Bentley",
             "role": "Blackheart"
         },
         {
-            "image": "laurence-breuls",
             "name": "Laurence Breuls",
             "role": "Gressil"
         },
         {
-            "image": "daniel-frederiksen",
             "name": "Daniel Frederiksen",
             "role": "Wallow"
         },
         {
-            "image": "mathew-wilkinson",
             "name": "Mathew Wilkinson",
             "role": "Abigor"
         },
         {
-            "image": "donal-logue",
             "name": "Donal Logue",
             "role": "Mack"
         },
         {
-            "image": "brett-cullen",
             "name": "Brett Cullen",
             "role": "Barton Blaze"
         }

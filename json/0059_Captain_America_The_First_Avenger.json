@@ -23,52 +23,42 @@
     "boxoffice": "371 million",
     "actors": [
         {
-            "image": "chris-evans",
             "name": "Chris Evans",
             "role": "Captain America / Steve Rogers"
         },
         {
-            "image": "hayley-atwell",
             "name": "Hayley Atwell",
             "role": "Peggy Carter"
         },
         {
-            "image": "sebastian-stan",
             "name": "Sebastian Stan",
             "role": "James Buchanan 'Bucky' Barnes"
         },
         {
-            "image": "tommy-lee-jones",
             "name": "Tommy Lee Jones",
             "role": "Colonel Chester Phillips"
         },
         {
-            "image": "hugo-weaving",
             "name": "Hugo Weaving",
             "role": "Johann Schmidt / Red Skull"
         },
         {
-            "image": "dominic-cooper",
             "name": "Dominic Cooper",
             "role": "Howard Stark"
         },
         {
-            "image": "richard-armitage",
             "name": "Richard Armitage",
             "role": "Heinz Kruger"
         },
         {
-            "image": "stanley-tucci",
             "name": "Stanley Tucci",
             "role": "Dr. Abraham Erskine"
         },
         {
-            "image": "samuel-l.-jackson",
             "name": "Samuel L. Jackson",
             "role": "Nick Fury"
         },
         {
-            "image": "toby-jones",
             "name": "Toby Jones",
             "role": "Dr. Arnim Zola"
         }

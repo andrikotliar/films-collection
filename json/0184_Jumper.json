@@ -22,32 +22,26 @@
     "boxoffice": "222 million",
     "actors": [
         {
-            "image": "hayden-christensen",
             "name": "Hayden Christensen",
             "role": "David Rice"
         },
         {
-            "image": "jamie-bell",
             "name": "Jamie Bell",
             "role": "Griffin"
         },
         {
-            "image": "rachel-bilson",
             "name": "Rachel Bilson",
             "role": "Millie"
         },
         {
-            "image": "diane-lane",
             "name": "Diane Lane",
             "role": "Mary Rice"
         },
         {
-            "image": "samuel-l.-jackson",
             "name": "Samuel L. Jackson",
             "role": "Roland"
         },
         {
-            "image": "michael-rooker",
             "name": "Michael Rooker",
             "role": "William Rice"
         }

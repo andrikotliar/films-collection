@@ -22,37 +22,30 @@
     "boxoffice": "381 million",
     "actors": [
         {
-            "image": "michael-j.-fox",
             "name": "Michael J. Fox",
             "role": "Marty McFly"
         },
         {
-            "image": "christopher-lloyd",
             "name": "Christopher Lloyd",
             "role": "Dr. Emmett Brown"
         },
         {
-            "image": "lea-thompson",
             "name": "Lea Thompson",
             "role": "Lorraine Baines"
         },
         {
-            "image": "crispin-glover",
             "name": "Crispin Glover",
             "role": "George McFly"
         },
         {
-            "image": "thomas-f.-wilson",
             "name": "Thomas F. Wilson",
             "role": "Biff Tannen"
         },
         {
-            "image": "claudia-wells",
             "name": "Claudia Wells",
             "role": "Jennifer Parker"
         },
         {
-            "image": "marc-mcclure",
             "name": "Marc McClure",
             "role": "Dave McFly"
         }

@@ -24,32 +24,26 @@
     "boxoffice": "661 million",
     "actors": [
         {
-            "image": "ray-romano",
             "name": "Ray Romano",
             "role": "Manny"
         },
         {
-            "image": "john-leguizamo",
             "name": "John Leguizamo",
             "role": "Sid"
         },
         {
-            "image": "denis-leary",
             "name": "Denis Leary",
             "role": "Diego"
         },
         {
-            "image": "seann-william-scott",
             "name": "Seann William Scott",
             "role": "Crash"
         },
         {
-            "image": "josh-peck",
             "name": "Josh Peck",
             "role": "Eddie"
         },
         {
-            "image": "queen-latifah",
             "name": "Queen Latifah",
             "role": "Ellie"
         }

@@ -23,62 +23,50 @@
     "boxoffice": "467 million",
     "actors": [
         {
-            "image": "chris-pine",
             "name": "Chris Pine",
             "role": "Kirk"
         },
         {
-            "image": "zachary-quinto",
             "name": "Zachary Quinto",
             "role": "Spock"
         },
         {
-            "image": "zoe-saldana",
             "name": "Zoe Saldana",
             "role": "Uhura"
         },
         {
-            "image": "karl-urban",
             "name": "Karl Urban",
             "role": "Bones"
         },
         {
-            "image": "simon-pegg",
             "name": "Simon Pegg",
             "role": "Scotty"
         },
         {
-            "image": "john-cho",
             "name": "John Cho",
             "role": "Sulu"
         },
         {
-            "image": "benedict-cumberbatch",
             "name": "Benedict Cumberbatch",
             "role": "Khan"
         },
         {
-            "image": "anton-yelchin",
             "name": "Anton Yelchin",
             "role": "Chekov"
         },
         {
-            "image": "bruce-greenwood",
             "name": "Bruce Greenwood",
             "role": "Pike"
         },
         {
-            "image": "peter-weller",
             "name": "Peter Weller",
             "role": "Marcus"
         },
         {
-            "image": "alice-eve",
             "name": "Alice Eve",
             "role": "Carol Marcus"
         },
         {
-            "image": "noel-clarke",
             "name": "Noel Clarke",
             "role": "Thomas Harewood"
         }

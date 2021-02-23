@@ -23,37 +23,30 @@
     "boxoffice": "962 million",
     "actors": [
         {
-            "image": "dwayne-johnson",
             "name": "Dwayne Johnson",
             "role": "Spencer"
         },
         {
-            "image": "kevin-hart",
             "name": "Kevin Hart",
             "role": "Fridge"
         },
         {
-            "image": "jack-black",
             "name": "Jack Black",
             "role": "Bethany"
         },
         {
-            "image": "karen-gillan",
             "name": "Karen Gillan",
             "role": "Martha"
         },
         {
-            "image": "rhys-darby",
             "name": "Rhys Darby",
             "role": "Nigel"
         },
         {
-            "image": "bobby-cannavale",
             "name": "Bobby Cannavale",
             "role": "Van Pelt"
         },
         {
-            "image": "nick-jonas",
             "name": "Nick Jonas",
             "role": "Alex"
         }

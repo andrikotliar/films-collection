@@ -22,42 +22,34 @@
     "boxoffice": "683 million",
     "actors": [
         {
-            "image": "tom-cruise",
             "name": "Tom Cruise",
             "role": "Ethan Hunt"
         },
         {
-            "image": "jeremy-renner",
             "name": "Jeremy Renner",
             "role": "William Brandt"
         },
         {
-            "image": "simon-pegg",
             "name": "Simon Pegg",
             "role": "Benji Dunn"
         },
         {
-            "image": "rebecca-ferguson",
             "name": "Rebecca Ferguson",
             "role": "Ilsa Faust"
         },
         {
-            "image": "ving-rhames",
             "name": "Ving Rhames",
             "role": "Luther Stickell"
         },
         {
-            "image": "sean-harris",
             "name": "Sean Harris",
             "role": "Lane"
         },
         {
-            "image": "simon-mcburney",
             "name": "Simon McBurney",
             "role": "Atlee"
         },
         {
-            "image": "tom-hollander",
             "name": "Tom Hollander",
             "role": "Prime Minister"
         }

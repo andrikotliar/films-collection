@@ -11,9 +11,9 @@
     "production": [
         "Lieblingsfilm"
     ],
-    "director": "Felix Fuchssteiner, Katharina Sch'de",
-    "producers": "Philipp Budweg, Tom Blieninger, Hans W. Gei'end'rfer,  Markus Zimmer",
-    "writtens": "Katharina Sch'de",
+    "director": "Felix Fuchssteiner, Katharina Schöde",
+    "producers": "Philipp Budweg, Tom Blieninger, Hans W. Geißendörfer,  Markus Zimmer",
+    "writtens": "Katharina Schöde",
     "music": "Philipp Fabian K'lmel",
     "cinema": "Florian Emmerich",
     "year": 2016,
@@ -23,27 +23,22 @@
     "boxoffice": null,
     "actors": [
         {
-            "image": "kostja-ullmann",
             "name": "Kostja Ullmann",
             "role": "James A.P. Pimplebottom"
         },
         {
-            "image": "josefine-preu'",
-            "name": "Josefine Preu'",
+            "name": "Josefine Preuß",
             "role": "Lucy Montrose"
         },
         {
-            "image": "maria-ehrich",
             "name": "Maria Ehrich",
             "role": "Gwendolyn Shepherd"
         },
         {
-            "image": "jannis-niew'hner",
-            "name": "Jannis Niew'hner",
+            "name": "Jannis Niewöhner",
             "role": "Gideon de Villiers"
         },
         {
-            "image": "lion-wasczyk",
             "name": "Lion Wasczyk",
             "role": "Raphael de Villiers"
         }

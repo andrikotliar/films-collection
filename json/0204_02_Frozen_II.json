@@ -22,22 +22,18 @@
     "boxoffice": "1,4 billion",
     "actors": [
         {
-            "image": "kristen-bell",
             "name": "Kristen Bell",
             "role": "Anna (voice)"
         },
         {
-            "image": "idina-menzel",
             "name": "Idina Menzel",
             "role": "Elsa (voice)"
         },
         {
-            "image": "josh-gad",
             "name": "Josh Gad",
             "role": "Olaf (voice)"
         },
         {
-            "image": "jonathan-groff",
             "name": "Jonathan Groff",
             "role": "Kristoff (voice)"
         }

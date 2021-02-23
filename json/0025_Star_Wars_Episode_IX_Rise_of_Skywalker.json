@@ -23,32 +23,26 @@
     "boxoffice": "1,074 billion",
     "actors": [
         {
-            "image": "adam-driver",
             "name": "Adam Driver",
             "role": "Kylo Ren"
         },
         {
-            "image": "daisy-ridley",
             "name": "Daisy Ridley",
             "role": "Rey"
         },
         {
-            "image": "john-boyega",
             "name": "John Boyega",
             "role": "Finn"
         },
         {
-            "image": "oscar-isaac",
             "name": "Oscar Isaac",
             "role": "Poe Dameron"
         },
         {
-            "image": "ian-mcdiarmid",
             "name": "Ian McDiarmid",
             "role": "Emperor Palpatine"
         },
         {
-            "image": "billy-dee-williams",
             "name": "Billy Dee Williams",
             "role": "Lando Calrissian"
         }

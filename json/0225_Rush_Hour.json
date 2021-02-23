@@ -23,32 +23,26 @@
     "boxoffice": "245 million",
     "actors": [
         {
-            "photo": "/300/329.jpg?1604648198",
             "name": "Jackie Chan",
             "role": "Lee"
         },
         {
-            "photo": "/300/676.jpg?1518312265",
             "name": "Chris Tucker",
             "role": "James Carter"
         },
         {
-            "photo": "/300/695829.jpg?1604645140",
             "name": "Tom Wilkinson",
             "role": "Thomas 'Juntao' Griffin"
         },
         {
-            "photo": "/300/2236.jpg?1604648554",
             "name": "Tzi Ma",
             "role": "Solon Han"
         },
         {
-            "photo": "/300/379865.jpg?1604644194",
             "name": "Ken Leung",
             "role": "Sang"
         },
         {
-            "photo": "/300/1614.jpg?1604648449",
             "name": "Elizabeth Peña",
             "role": "Tania Johnson"
         }

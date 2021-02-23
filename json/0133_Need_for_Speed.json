@@ -23,42 +23,34 @@
     "boxoffice": "203 million",
     "actors": [
         {
-            "image": "aaron-paul",
             "name": "Aaron Paul",
             "role": "Tobey Marshall"
         },
         {
-            "image": "dominic-cooper",
             "name": "Dominic Cooper",
             "role": "Dino Brewster"
         },
         {
-            "image": "imogen-poots",
             "name": "Imogen Poots",
             "role": "Julia Maddon"
         },
         {
-            "image": "kid-cudi",
             "name": "Kid Cudi",
             "role": "Benny"
         },
         {
-            "image": "rami-malek",
             "name": "Rami Malek",
             "role": "Finn"
         },
         {
-            "image": "ramon-rodriguez",
             "name": "Ramon Rodriguez",
             "role": "Joe Peck"
         },
         {
-            "image": "harrison-gilbertson",
             "name": "Harrison Gilbertson",
             "role": "Little Pete"
         },
         {
-            "image": "dakota-johnson",
             "name": "Dakota Johnson",
             "role": "Anita"
         }

@@ -9,7 +9,7 @@
     "production": [
         "Lions-Gate-Entertainment"
     ],
-    "director": "G'rard Krawczyk",
+    "director": "Gérard Pirès",
     "producers": "Luc Besson, Michele Petin, Laurent Petin",
     "writtens": "Luc Besson",
     "music": "Olivier \"Akos\" Castelli, Al Khemya, One Shot",
@@ -21,27 +21,22 @@
     "boxoffice": "64 million",
     "actors": [
         {
-            "image": "samy-naceri",
             "name": "Samy Naceri",
             "role": "Daniel Morales"
         },
         {
-            "image": "fr'd'ric-diefenthal",
-            "name": "Fr'd'ric Diefenthal",
+            "name": "Frédéric Diefenthal",
             "role": "'milien Coutant-Kerbalec"
         },
         {
-            "image": "marion-cotillard",
             "name": "Marion Cotillard",
             "role": "Lilly Bertineau"
         },
         {
-            "image": "emma-wiklund",
             "name": "Emma Wiklund",
             "role": "Petra"
         },
         {
-            "image": "bernard-farcy",
             "name": "Bernard Farcy",
             "role": "Commissaire Gibert"
         }

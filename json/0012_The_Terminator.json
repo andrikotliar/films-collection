@@ -23,17 +23,14 @@
     "boxoffice": "40 million",
     "actors": [
         {
-            "image": "arnold-schwarzenegger",
             "name": "Arnold Schwarzenegger",
             "role": "T-800"
         },
         {
-            "image": "michael-biehn",
             "name": "Michael Biehn",
             "role": "Kyle Reese"
         },
         {
-            "image": "linda-hamilton",
             "name": "Linda Hamilton",
             "role": "Sarah Connor"
         }

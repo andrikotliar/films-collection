@@ -22,37 +22,30 @@
     "boxoffice": "207 million",
     "actors": [
         {
-            "image": "paul-walker",
             "name": "Paul Walker",
             "role": "Brian O'Conner"
         },
         {
-            "image": "vin-diesel",
             "name": "Vin Diesel",
             "role": "Dominic Toretto"
         },
         {
-            "image": "michelle-rodriguez",
             "name": "Michelle Rodriguez",
             "role": "Letty"
         },
         {
-            "image": "jordana-brewster",
             "name": "Jordana Brewster",
             "role": "Mia Toretto"
         },
         {
-            "image": "rick-yune",
             "name": "Rick Yune",
             "role": "Johnny Tran"
         },
         {
-            "image": "chad-lindberg",
             "name": "Chad Lindberg",
             "role": "Jesse"
         },
         {
-            "image": "matt-schulze",
             "name": "Matt Schulze",
             "role": "Vince"
         }

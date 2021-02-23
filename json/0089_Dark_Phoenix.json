@@ -22,47 +22,38 @@
     "boxoffice": "252 million",
     "actors": [
         {
-            "image": "james-mcavoy",
             "name": "James McAvoy",
             "role": "Charles Xavier"
         },
         {
-            "image": "michael-fassbender",
             "name": "Michael Fassbender",
             "role": "Erik Lehnsherr / Magneto"
         },
         {
-            "image": "jennifer-lawrence",
             "name": "Jennifer Lawrence",
             "role": "Raven / Mystique"
         },
         {
-            "image": "nicholas-hoult",
             "name": "Nicholas Hoult",
             "role": "Hank McCoy / Beast"
         },
         {
-            "image": "sophie-turner",
             "name": "Sophie Turner",
             "role": "Jean Grey / Phoenix"
         },
         {
-            "image": "tye-sheridan",
             "name": "Tye Sheridan",
             "role": "Scott Summers / Cyclops"
         },
         {
-            "image": "alexandra-shipp",
             "name": "Alexandra Shipp",
             "role": "Ororo Munroe / Storm"
         },
         {
-            "image": "evan-peters",
             "name": "Evan Peters",
             "role": "Peter Maximoff / Quicksilver"
         },
         {
-            "image": "kodi-smit-mcphee",
             "name": "Kodi Smit-McPhee",
             "role": "Kurt Wagner / Nightcrawler"
         }

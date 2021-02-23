@@ -23,27 +23,22 @@
     "boxoffice": "589 million",
     "actors": [
         {
-            "image": "tommy-lee-jones",
             "name": "Tommy Lee Jones",
             "role": "Agent Kay"
         },
         {
-            "image": "will-smith",
             "name": "Will Smith",
             "role": "Agent Jay"
         },
         {
-            "image": "linda-fiorentino",
             "name": "Linda Fiorentino",
             "role": "Laurel"
         },
         {
-            "image": "vincent-d'onofrio",
             "name": "Vincent D'Onofrio",
             "role": "Edgar"
         },
         {
-            "image": "rip-torn",
             "name": "Rip Torn",
             "role": "Z"
         }

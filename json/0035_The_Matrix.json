@@ -22,32 +22,26 @@
     "boxoffice": "463 million",
     "actors": [
         {
-            "image": "keanu-reeves",
             "name": "Keanu Reeves",
             "role": "Neo"
         },
         {
-            "image": "laurance-fishburne",
             "name": "Laurence Fishburne",
             "role": "Morpheus"
         },
         {
-            "image": "carrie-anne-moss",
             "name": "Carrie-Anne Moss",
             "role": "Trinity"
         },
         {
-            "image": "hugo-weaving",
             "name": "Hugo Weaving",
             "role": "Agent Smith"
         },
         {
-            "image": "gloria-foster",
             "name": "Gloria Foster",
             "role": "Oracle"
         },
         {
-            "image": "joe-pantoliano",
             "name": "Joe Pantoliano",
             "role": "Cypher"
         }

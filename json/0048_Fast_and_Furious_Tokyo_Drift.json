@@ -22,32 +22,26 @@
     "boxoffice": "158 million",
     "actors": [
         {
-            "image": "lucas-black",
             "name": "Lucas Black",
             "role": "Sean Boswell"
         },
         {
-            "image": "nathalie-kelley",
             "name": "Nathalie Kelley",
             "role": "Neela"
         },
         {
-            "image": "sung-kang",
             "name": "Sung Kang",
             "role": "Han"
         },
         {
-            "image": "brian-tee",
             "name": "Brian Tee",
             "role": "Twinkie"
         },
         {
-            "image": "bow-wow",
             "name": "Bow Wow",
             "role": "Takashi"
         },
         {
-            "image": "vin-diesel",
             "name": "Vin Diesel",
             "role": "Dominic Torreto"
         }

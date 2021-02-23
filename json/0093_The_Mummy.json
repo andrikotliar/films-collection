@@ -22,42 +22,34 @@
     "boxoffice": "416 million",
     "actors": [
         {
-            "image": "brendan-fraser",
             "name": "Brendan Fraser",
             "role": "Rick O'Connell"
         },
         {
-            "image": "rachel-weisz",
             "name": "Rachel Weisz",
             "role": "Evelyn Carnahan"
         },
         {
-            "image": "john-hannah",
             "name": "John Hannah",
             "role": "Jonathan Carnahan"
         },
         {
-            "image": "arnold-vosloo",
             "name": "Arnold Vosloo",
             "role": "Imhotep"
         },
         {
-            "image": "kevin-j.-o'connor",
             "name": "Kevin J. O'Connor",
             "role": "Beni Gabor"
         },
         {
-            "image": "jonathan-hyde",
             "name": "Jonathan Hyde",
             "role": "Dr. Allen Chamberlain"
         },
         {
-            "image": "oded-fehr",
             "name": "Oded Fehr",
             "role": "Ardeth Bay"
         },
         {
-            "image": "erick-avari",
             "name": "Erick Avari",
             "role": "Dr. Terrence Bey"
         }

@@ -22,52 +22,42 @@
     "boxoffice": "460 million",
     "actors": [
         {
-            "image": "hailee-steinfeld",
             "name": "Hailee Steinfeld",
             "role": "Charlie"
         },
         {
-            "image": "jorge-lendeborg-jr.",
             "name": "Jorge Lendeborg Jr.",
             "role": "Memo"
         },
         {
-            "image": "john-cena",
             "name": "John Cena",
             "role": "Agent Burns"
         },
         {
-            "image": "jason-drucker",
             "name": "Jason Drucker",
             "role": "Otis"
         },
         {
-            "image": "pamela-adlon",
             "name": "Pamela Adlon",
             "role": "Sally"
         },
         {
-            "image": "stephen-schneider",
             "name": "Stephen Schneider",
             "role": "Ron"
         },
         {
-            "image": "dylan-o'brien",
             "name": "Dylan O'Brien",
             "role": "Bumblebee (voice)"
         },
         {
-            "image": "peter-cullen",
             "name": "Peter Cullen",
             "role": "Optimus Prime (voice)"
         },
         {
-            "image": "angela-bassett",
             "name": "Angela Bassett",
             "role": "Shatter (voice)"
         },
         {
-            "image": "justin-theroux",
             "name": "Justin Theroux",
             "role": "Dropkick (voice)"
         }

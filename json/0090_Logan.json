@@ -23,47 +23,38 @@
     "boxoffice": "619 million",
     "actors": [
         {
-            "image": "hugh-jackman",
             "name": "Hugh Jackman",
             "role": "Logan / X-24"
         },
         {
-            "image": "patrick-stewart",
             "name": "Patrick Stewart",
             "role": "Charles"
         },
         {
-            "image": "dafne-keen",
             "name": "Dafne Keen",
             "role": "Laura"
         },
         {
-            "image": "boyd-holbrook",
             "name": "Boyd Holbrook",
             "role": "Pierce"
         },
         {
-            "image": "stephen-merchant",
             "name": "Stephen Merchant",
             "role": "Caliban"
         },
         {
-            "image": "elizabeth-rodriguez",
             "name": "Elizabeth Rodriguez",
             "role": "Gabriela"
         },
         {
-            "image": "richard-e.-grant",
             "name": "Richard E. Grant",
             "role": "Dr. Rice"
         },
         {
-            "image": "eriq-la-salle",
             "name": "Eriq La Salle",
             "role": "Will Munson"
         },
         {
-            "image": "elise-neal",
             "name": "Elise Neal",
             "role": "Kathryn Munson"
         }

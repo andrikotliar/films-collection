@@ -22,37 +22,30 @@
     "boxoffice": "4 million",
     "actors": [
         {
-            "image": "michiel-huisman",
             "name": "Michiel Huisman",
             "role": "Dylan Branson"
         },
         {
-            "image": "teresa-palmer",
             "name": "Teresa Palmer",
             "role": "Sarah Barton"
         },
         {
-            "image": "sam-reid",
             "name": "Sam Reid",
             "role": "Jonas Edman"
         },
         {
-            "image": "john-waters",
             "name": "John Waters",
             "role": "Bill"
         },
         {
-            "image": "kerry-armstrong",
             "name": "Kerry Armstrong",
             "role": "Catherine Mills"
         },
         {
-            "image": "richard-davies",
             "name": "Richard Davies",
             "role": "Inky"
         },
         {
-            "image": "maeve-dermody",
             "name": "Maeve Dermody",
             "role": "Sandy"
         }

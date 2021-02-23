@@ -23,37 +23,30 @@
     "boxoffice": "362 million",
     "actors": [
         {
-            "image": "john-david-washington",
             "name": "John David Washington",
             "role": "Protagonist"
         },
         {
-            "image": "robert-pattinson",
             "name": "Robert Pattinson",
             "role": "Neil"
         },
         {
-            "image": "elizabeth-debicki",
             "name": "Elizabeth Debicki",
             "role": "Katherine Barton"
         },
         {
-            "image": "dimple-kapadia",
             "name": "Dimple Kapadia",
             "role": "Priya"
         },
         {
-            "image": "martin-donovan",
             "name": "Martin Donovan",
             "role": "Fay"
         },
         {
-            "image": "fiona-dourif",
             "name": "Fiona Dourif",
             "role": "Wheeler"
         },
         {
-            "image": "kenneth-branagh",
             "name": "Kenneth Branagh",
             "role": "Andrei Sator"
         }

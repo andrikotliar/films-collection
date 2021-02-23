@@ -23,62 +23,50 @@
     "boxoffice": "459 million",
     "actors": [
         {
-            "image": "hugh-jackman",
             "name": "Hugh Jackman",
             "role": "Logan / Wolverine"
         },
         {
-            "image": "halle-berry",
             "name": "Halle Berry",
             "role": "Ororo Munroe / Storm"
         },
         {
-            "image": "ian-mckellen",
             "name": "Ian McKellen",
             "role": "Erik Lehnsherr / Magneto"
         },
         {
-            "image": "patrick-stewart",
             "name": "Patrick Stewart",
             "role": "Charles Xavier / Professor X"
         },
         {
-            "image": "famke-janssen",
             "name": "Famke Janssen",
             "role": "Jean Grey / Phoenix"
         },
         {
-            "image": "anna-paquin",
             "name": "Anna Paquin",
             "role": "Marie / Rogue"
         },
         {
-            "image": "kelsey-grammer",
             "name": "Kelsey Grammer",
             "role": "Dr. Henry 'Hank' McCoy / Beast"
         },
         {
-            "image": "james-marsden",
             "name": "James Marsden",
             "role": "Scott Summers / Cyclops"
         },
         {
-            "image": "shawn-ashmore",
             "name": "Shawn Ashmore",
             "role": "Bobby Drake / Iceman"
         },
         {
-            "image": "aaron-stanford",
             "name": "Aaron Stanford",
             "role": "John Allerdyce / Pyro"
         },
         {
-            "image": "vinnie-jones",
             "name": "Vinnie Jones",
             "role": "Cain Marko / Juggernaut"
         },
         {
-            "image": "ellen-page",
             "name": "Ellen Page",
             "role": "Kitty Pryde / Shadowcat"
         }

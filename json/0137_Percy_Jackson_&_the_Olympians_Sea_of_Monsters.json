@@ -22,42 +22,34 @@
     "boxoffice": "200 million",
     "actors": [
         {
-            "image": "logan-lerman",
             "name": "Logan Lerman",
             "role": "Percy Jackson"
         },
         {
-            "image": "alexandra-daddario",
             "name": "Alexandra Daddario",
             "role": "Annabeth"
         },
         {
-            "image": "douglas-smith",
             "name": "Douglas Smith",
             "role": "Tyson"
         },
         {
-            "image": "leven-rambin",
             "name": "Leven Rambin",
             "role": "Clarisse"
         },
         {
-            "image": "brandon-t.-jackson",
             "name": "Brandon T. Jackson",
             "role": "Grover"
         },
         {
-            "image": "jake-abel",
             "name": "Jake Abel",
             "role": "Luke"
         },
         {
-            "image": "anthony-head",
             "name": "Anthony Head",
             "role": "Chiron"
         },
         {
-            "image": "stanley-tucci",
             "name": "Stanley Tucci",
             "role": "Mr. D"
         }

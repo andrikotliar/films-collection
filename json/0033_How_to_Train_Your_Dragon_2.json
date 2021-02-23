@@ -23,37 +23,30 @@
     "boxoffice": "621 million",
     "actors": [
         {
-            "image": "jay-baruchel",
             "name": "Jay Baruchel",
             "role": "Hiccup"
         },
         {
-            "image": "cate-blanchett",
             "name": "Cate Blanchett",
             "role": "Valka"
         },
         {
-            "image": "gerard-butler",
             "name": "Gerard Butler",
             "role": "Stoick"
         },
         {
-            "image": "craig-ferguson",
             "name": "Craig Ferguson",
             "role": "Gobber"
         },
         {
-            "image": "america-ferrera",
             "name": "America Ferrera",
             "role": "Astrid"
         },
         {
-            "image": "djimon-hounsou",
             "name": "Djimon Hounsou",
             "role": "Drago Bludvist"
         },
         {
-            "image": "kit-harington",
             "name": "Kit Harington",
             "role": "Eret"
         }

@@ -22,42 +22,34 @@
     "boxoffice": "363 million",
     "actors": [
         {
-            "image": "vin-diesel",
             "name": "Vin Diesel",
             "role": "Dominic Toretto"
         },
         {
-            "image": "paul-walker",
             "name": "Paul Walker",
             "role": "Brian O'Conner"
         },
         {
-            "image": "jordana-brewster",
             "name": "Jordana Brewster",
             "role": "Mia"
         },
         {
-            "image": "michelle-rodriguez",
             "name": "Michelle Rodriguez",
             "role": "Letty"
         },
         {
-            "image": "john-ortiz",
             "name": "John Ortiz",
             "role": "Campos"
         },
         {
-            "image": "laz-alonso",
             "name": "Laz Alonso",
             "role": "Fenix"
         },
         {
-            "image": "gal-gadot",
             "name": "Gal Gadot",
             "role": "Gisele"
         },
         {
-            "image": "sung-kang",
             "name": "Sung Kang",
             "role": "Han"
         }

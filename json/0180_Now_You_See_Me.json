@@ -22,47 +22,38 @@
     "boxoffice": "352 million",
     "actors": [
         {
-            "image": "jesse-eisenberg",
             "name": "Jesse Eisenberg",
             "role": "J. Daniel Atlas"
         },
         {
-            "image": "mark-ruffalo",
             "name": "Mark Ruffalo",
             "role": "Dylan Rhodes"
         },
         {
-            "image": "woody-harrelson",
             "name": "Woody Harrelson",
             "role": "Merritt McKinney"
         },
         {
-            "image": "isla-fisher",
             "name": "Isla Fisher",
             "role": "Henley Reeves"
         },
         {
-            "image": "dave-franco",
             "name": "Dave Franco",
             "role": "Jack Wilder"
         },
         {
-            "image": "m'lanie-laurent",
-            "name": "M'lanie Laurent",
+            "name": "Mélanie Laurent",
             "role": "Alma Dray"
         },
         {
-            "image": "morgan-freeman",
             "name": "Morgan Freeman",
             "role": "Thaddeus Bradley"
         },
         {
-            "image": "michael-caine",
             "name": "Michael Caine",
             "role": "Arthur Tressler"
         },
         {
-            "image": "michael-kelly",
             "name": "Michael Kelly",
             "role": "Agent Fuller"
         }

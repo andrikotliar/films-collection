@@ -23,42 +23,34 @@
     "boxoffice": "491 million",
     "actors": [
         {
-            "image": "andy-serkis",
             "name": "Andy Serkis",
             "role": "Caesar"
         },
         {
-            "image": "woody-harrelson",
             "name": "Woody Harrelson",
             "role": "The Colonel"
         },
         {
-            "image": "steve-zahn",
             "name": "Steve Zahn",
             "role": "Bad Ape"
         },
         {
-            "image": "karin-konoval",
             "name": "Karin Konoval",
             "role": "Maurice"
         },
         {
-            "image": "amiah-miller",
             "name": "Amiah Miller",
             "role": "Nova"
         },
         {
-            "image": "terry-notary",
             "name": "Terry Notary",
             "role": "Rocket"
         },
         {
-            "image": "ty-olsson",
             "name": "Ty Olsson",
             "role": "Red Donkey"
         },
         {
-            "image": "michael-adamthwaite",
             "name": "Michael Adamthwaite",
             "role": "Luca"
         }

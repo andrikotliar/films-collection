@@ -22,42 +22,34 @@
     "boxoffice": "263 million",
     "actors": [
         {
-            "image": "robin-williams",
             "name": "Robin Williams",
             "role": "Alan Parrish"
         },
         {
-            "image": "jonathan-hyde",
             "name": "Jonathan Hyde",
             "role": "Van Pelt / Sam Parrish"
         },
         {
-            "image": "kirsten-dunst",
             "name": "Kirsten Dunst",
             "role": "Judy Shepherd"
         },
         {
-            "image": "bradley-pierce",
             "name": "Bradley Pierce",
             "role": "Peter Shepherd"
         },
         {
-            "image": "bonnie-hunt",
             "name": "Bonnie Hunt",
             "role": "Sarah Whittle"
         },
         {
-            "image": "bebe-neuwirth",
             "name": "Bebe Neuwirth",
             "role": "Nora Shepherd"
         },
         {
-            "image": "david-alan-grier",
             "name": "David Alan Grier",
             "role": "Bentley"
         },
         {
-            "image": "patricia-clarkson",
             "name": "Patricia Clarkson",
             "role": "Carol Parrish"
         }

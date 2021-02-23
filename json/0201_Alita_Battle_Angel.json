@@ -22,37 +22,30 @@
     "boxoffice": "400 million",
     "actors": [
         {
-            "image": "rosa-salazar",
             "name": "Rosa Salazar",
             "role": "Alita"
         },
         {
-            "image": "christoph-waltz",
             "name": "Christoph Waltz",
             "role": "Dr. Dyson Ido"
         },
         {
-            "image": "jennifer-connelly",
             "name": "Jennifer Connelly",
             "role": "Chiren"
         },
         {
-            "image": "mahershala-ali",
             "name": "Mahershala Ali",
             "role": "Vector"
         },
         {
-            "image": "ed-skrein",
             "name": "Ed Skrein",
             "role": "Zapan"
         },
         {
-            "image": "jackie-earle-haley",
             "name": "Jackie Earle Haley",
             "role": "Grewishka"
         },
         {
-            "image": "keean-johnson",
             "name": "Keean Johnson",
             "role": "Hugo"
         }

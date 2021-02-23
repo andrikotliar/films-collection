@@ -23,32 +23,26 @@
     "boxoffice": "202 million",
     "actors": [
         {
-            "image": "margot-robbie",
             "name": "Margot Robbie",
             "role": "Harley Quinn"
         },
         {
-            "image": "rosie-perez",
             "name": "Rosie Perez",
             "role": "Renee Montoya"
         },
         {
-            "image": "mary-elizabeth-winstead",
             "name": "Mary Elizabeth Winstead",
             "role": "Helena Bertinelli / The Huntress"
         },
         {
-            "image": "jurnee-smollett",
             "name": "Jurnee Smollett",
             "role": "Dinah Lance / Black Canary"
         },
         {
-            "image": "ewan-mcgregor",
             "name": "Ewan McGregor",
             "role": "Roman Sionis"
         },
         {
-            "image": "ella-jay-basco",
             "name": "Ella Jay Basco",
             "role": "Cassandra Cain"
         }

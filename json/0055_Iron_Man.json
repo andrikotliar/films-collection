@@ -23,42 +23,34 @@
     "boxoffice": "585 million",
     "actors": [
         {
-            "image": "robert-downey-jr.",
             "name": "Robert Downey Jr.",
             "role": "Tony Stark / Iron Man"
         },
         {
-            "image": "terrence-howard",
             "name": "Terrence Howard",
             "role": "Rhodey"
         },
         {
-            "image": "jeff-bridges",
             "name": "Jeff Bridges",
             "role": "Obadiah Stane"
         },
         {
-            "image": "gwyneth-paltrow",
             "name": "Gwyneth Paltrow",
             "role": "Pepper Potts"
         },
         {
-            "image": "leslie-bibb",
             "name": "Leslie Bibb",
             "role": "Christine Everhart"
         },
         {
-            "image": "shaun-toub",
             "name": "Shaun Toub",
             "role": "Yinsen"
         },
         {
-            "image": "faran-tahir",
             "name": "Faran Tahir",
             "role": "Raza"
         },
         {
-            "image": "clark-gregg",
             "name": "Clark Gregg",
             "role": "Agent Coulson"
         }

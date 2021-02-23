@@ -23,32 +23,26 @@
     "boxoffice": "356 million",
     "actors": [
         {
-            "image": "zachary-levi",
             "name": "Zachary Levi",
             "role": "Shazam"
         },
         {
-            "image": "djimon-hounsou",
             "name": "Djimon Hounsou",
             "role": "The Wizard"
         },
         {
-            "image": "mark-strong",
             "name": "Mark Strong",
             "role": "Dr. Thaddeus Sivana"
         },
         {
-            "image": "jack-dylan-grazer",
             "name": "Jack Dylan Grazer",
             "role": "Freddy Freeman"
         },
         {
-            "image": "meagan-good",
             "name": "Meagan Good",
             "role": "Darla Dudley"
         },
         {
-            "image": "asher-angel",
             "name": "Asher Angel",
             "role": "Billy Batson"
         }

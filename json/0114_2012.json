@@ -22,62 +22,50 @@
     "boxoffice": "770 million",
     "actors": [
         {
-            "image": "john-cusack",
             "name": "John Cusack",
             "role": "Jackson Curtis"
         },
         {
-            "image": "amanda-peet",
             "name": "Amanda Peet",
             "role": "Kate Curtis"
         },
         {
-            "image": "chiwetel-ejiofor",
             "name": "Chiwetel Ejiofor",
             "role": "Adrian Helmsley"
         },
         {
-            "image": "thandie-newton",
             "name": "Thandie Newton",
             "role": "Laura Wilson"
         },
         {
-            "image": "oliver-platt",
             "name": "Oliver Platt",
             "role": "Carl Anheuser"
         },
         {
-            "image": "tom-mccarthy",
             "name": "Tom McCarthy",
             "role": "Gordon Silberman"
         },
         {
-            "image": "woody-harrelson",
             "name": "Woody Harrelson",
             "role": "Charlie Frost"
         },
         {
-            "image": "danny-glover",
             "name": "Danny Glover",
             "role": "President Thomas Wilson"
         },
         {
-            "image": "liam-james",
             "name": "Liam James",
             "role": "Noah Curtis"
         },
         {
-            "image": "morgan-lily",
             "name": "Morgan Lily",
             "role": "Lilly Curtis"
         },
         {
-            "image": "zlatko-buric",
             "name": "Zlatko Buric",
             "role": "Yuri Karpov"
         },
         {
-            "image": "beatrice-rosen",
             "name": "Beatrice Rosen",
             "role": "Tamara"
         }

@@ -23,52 +23,42 @@
     "boxoffice": "582 million",
     "actors": [
         {
-            "image": "tye-sheridan",
             "name": "Tye Sheridan",
             "role": "Parzival / Wade"
         },
         {
-            "image": "olivia-cooke",
             "name": "Olivia Cooke",
             "role": "Art3mis / Samantha"
         },
         {
-            "image": "ben-medelson",
             "name": "Ben Medelson",
             "role": "Sorrento"
         },
         {
-            "image": "lena-waithe",
             "name": "Lena Waithe",
             "role": "Aech / Helen"
         },
         {
-            "image": "t.j.-miller",
             "name": "T.J. Miller",
             "role": "I-R0k"
         },
         {
-            "image": "simon-pegg",
             "name": "Simon Pegg",
             "role": "Curator / Ogden Morrow"
         },
         {
-            "image": "mark-rylance",
             "name": "Mark Rylance",
             "role": "Anorak / Halliday"
         },
         {
-            "image": "philip-zhao",
             "name": "Philip Zhao",
             "role": "Sho"
         },
         {
-            "image": "win-morisaki",
             "name": "Win Morisaki",
             "role": "Daito"
         },
         {
-            "image": "hannah-john-kamen",
             "name": "Hannah John-Kamen",
             "role": "F'Nale Zandor"
         }

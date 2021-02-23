@@ -22,52 +22,42 @@
     "boxoffice": "545 million",
     "actors": [
         {
-            "image": "robert-downey-jr.",
             "name": "Robert Downey Jr.",
             "role": "Sherlock Holmes"
         },
         {
-            "image": "jude-law",
             "name": "Jude Law",
             "role": "Dr. John Watson"
         },
         {
-            "image": "noomi-rapace",
             "name": "Noomi Rapace",
             "role": "Madam Simza Heron"
         },
         {
-            "image": "rachel-mcadams",
             "name": "Rachel McAdams",
             "role": "Irene Adler"
         },
         {
-            "image": "jared-harris",
             "name": "Jared Harris",
             "role": "Professor James Moriarty"
         },
         {
-            "image": "stephen-fry",
             "name": "Stephen Fry",
             "role": "Mycroft Holmes"
         },
         {
-            "image": "paul-anderson",
             "name": "Paul Anderson",
             "role": "Colonel Sebastian Moran"
         },
         {
-            "image": "kelly-reilly",
             "name": "Kelly Reilly",
             "role": "Mary Watson"
         },
         {
-            "image": "geraldine-james",
             "name": "Geraldine James",
             "role": "Mrs. Hudson"
         },
         {
-            "image": "eddie-marsan",
             "name": "Eddie Marsan",
             "role": "Inspector Lestrade"
         }

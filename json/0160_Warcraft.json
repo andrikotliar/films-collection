@@ -23,67 +23,54 @@
     "boxoffice": "434 million",
     "actors": [
         {
-            "image": "travis-fimmel",
             "name": "Travis Fimmel",
             "role": "Anduin Lothar"
         },
         {
-            "image": "paula-patton",
             "name": "Paula Patton",
             "role": "Garona"
         },
         {
-            "image": "ben-foster",
             "name": "Ben Foster",
             "role": "Medivh"
         },
         {
-            "image": "dominic-cooper",
             "name": "Dominic Cooper",
             "role": "Llane Wrynn"
         },
         {
-            "image": "toby-kebbell",
             "name": "Toby Kebbell",
             "role": "Durotan / Antonidas"
         },
         {
-            "image": "ben-schnetzer",
             "name": "Ben Schnetzer",
             "role": "Khadgar"
         },
         {
-            "image": "robert-kazinsky",
             "name": "Robert Kazinsky",
             "role": "Orgrim"
         },
         {
-            "image": "clancy-brown",
             "name": "Clancy Brown",
             "role": "Blackhand"
         },
         {
-            "image": "daniel-wu",
             "name": "Daniel Wu",
             "role": "Gul'dan"
         },
         {
-            "image": "ruth-negga",
             "name": "Ruth Negga",
             "role": "Lady Taria"
         },
         {
-            "image": "anna-galvin",
             "name": "Anna Galvin",
             "role": "Draka"
         },
         {
-            "image": "callum-keith-rennie",
             "name": "Callum Keith Rennie",
             "role": "Moroes"
         },
         {
-            "image": "burkely-duffield",
             "name": "Burkely Duffield",
             "role": "Callan"
         }

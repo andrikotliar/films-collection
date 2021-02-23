@@ -22,27 +22,22 @@
     "boxoffice": "303 million",
     "actors": [
         {
-            "image": "jennifer-lawrence",
             "name": "Jennifer Lawrence",
             "role": "Aurora Lane"
         },
         {
-            "image": "chris-pratt",
             "name": "Chris Pratt",
             "role": "Jim Preston"
         },
         {
-            "image": "michael-sheen",
             "name": "Michael Sheen",
             "role": "Arthur"
         },
         {
-            "image": "laurence-fishburne",
             "name": "Laurence Fishburne",
             "role": "Gus Mancuso"
         },
         {
-            "image": "andy-garcia",
             "name": "Andy Garcia",
             "role": "Captain Norris"
         }

@@ -22,52 +22,42 @@
     "boxoffice": "160 million",
     "actors": [
         {
-            "image": "ron-perlman",
             "name": "Ron Perlman",
             "role": "Hellboy"
         },
         {
-            "image": "selma-blair",
             "name": "Selma Blair",
             "role": "Liz Sherman"
         },
         {
-            "image": "doug-jones",
             "name": "Doug Jones",
             "role": "Abe Sapien / Chamberlain / Angel of Death"
         },
         {
-            "image": "john-alexander",
             "name": "John Alexander",
             "role": "Johann Krauss / Bethmoora Goblin"
         },
         {
-            "image": "james-dodd",
             "name": "James Dodd",
             "role": "Johann Krauss"
         },
         {
-            "image": "seth-macfarlane",
             "name": "Seth MacFarlane",
             "role": "Johann (voice)"
         },
         {
-            "image": "luke-goss",
             "name": "Luke Goss",
             "role": "Prince Nuada"
         },
         {
-            "image": "anna-walton",
             "name": "Anna Walton",
             "role": "Princess Nuala"
         },
         {
-            "image": "jeffrey-tambor",
             "name": "Jeffrey Tambor",
             "role": "Tom Manning"
         },
         {
-            "image": "john-hurt",
             "name": "John Hurt",
             "role": "Professor Broom"
         }

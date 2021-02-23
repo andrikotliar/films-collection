@@ -1,5 +1,5 @@
-{
-    "id": 69,
+
+{    "id": 69,
     "title": "Thor: Ragnarok",
     "poster": "mcu_17",
     "trailer": "ue80QwXMRHg",
@@ -23,67 +23,54 @@
     "boxoffice": "854 million",
     "actors": [
         {
-            "image": "chris-hemsworth",
             "name": "Chris Hemsworth",
             "role": "Thor"
         },
         {
-            "image": "tom-hiddleston",
             "name": "Tom Hiddleston",
             "role": "Loki"
         },
         {
-            "image": "cate-blanchett",
             "name": "Cate Blanchett",
             "role": "Hela"
         },
         {
-            "image": "idris-elba",
             "name": "Idris Elba",
             "role": "Heimdall"
         },
         {
-            "image": "jeff-goldblum",
             "name": "Jeff Goldblum",
             "role": "Grandmaster"
         },
         {
-            "image": "tessa-thompson",
             "name": "Tessa Thompson",
             "role": "Valkyrie"
         },
         {
-            "image": "karl-urban",
             "name": "Karl Urban",
             "role": "Skurge"
         },
         {
-            "image": "mark-ruffalo",
             "name": "Mark Ruffalo",
             "role": "Bruce Banner / Hulk"
         },
         {
-            "image": "anthony-hopkins",
             "name": "Anthony Hopkins",
             "role": "Odin"
         },
         {
-            "image": "benedict-cumberbatch",
             "name": "Benedict Cumberbatch",
             "role": "Doctor Strange"
         },
         {
-            "image": "taika-waititi",
             "name": "Taika Waititi",
             "role": "Korg (voice)"
         },
         {
-            "image": "rachel-house",
             "name": "Rachel House",
             "role": "Topaz"
         },
         {
-            "image": "clancy-brown",
             "name": "Clancy Brown",
             "role": "Surtur (voice)"
         }

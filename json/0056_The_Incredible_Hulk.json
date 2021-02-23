@@ -23,27 +23,22 @@
     "boxoffice": "263 million",
     "actors": [
         {
-            "image": "edward-norton",
             "name": "Edward Norton",
             "role": "Bruce Banner / Hulk"
         },
         {
-            "image": "liv-tyler",
             "name": "Liv Tyler",
             "role": "Betty Ross"
         },
         {
-            "image": "tim-roth",
             "name": "Tim Roth",
             "role": "Emil Blonsky / Abomination"
         },
         {
-            "image": "william-hurt",
             "name": "William Hurt",
             "role": "Thaddeus Ross"
         },
         {
-            "image": "tim-blake-nelson",
             "name": "Tim Blake Nelson",
             "role": "Samuel Sterns"
         }

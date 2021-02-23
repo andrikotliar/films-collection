@@ -11,10 +11,10 @@
     "production": [
         "TMG"
     ],
-    "director": "Felix Fuchssteiner, Katharina Sch'de",
-    "producers": "Philipp Budweg, Tom Blieninger, Hans W. Gei'end'rfer,  Markus Zimmer",
-    "writtens": "Katharina Sch'de",
-    "music": "Philipp Fabian K'lmel",
+    "director": "Felix Fuchssteiner, Katharina Schöde",
+    "producers": "Philipp Budweg, Tom Blieninger, Hans W. Geißendörfer,  Markus Zimmer",
+    "writtens": "Katharina Schöde",
+    "music": "Philipp Fabian Kölmel",
     "cinema": "Sonja Rom",
     "year": 2014,
     "time": 116,
@@ -23,32 +23,22 @@
     "boxoffice": null,
     "actors": [
         {
-            "image": "josefine-preu'",
-            "name": "Josefine Preu'",
+            "name": "Josefine Preuß",
             "role": "Lucy Montrose"
         },
         {
-            "image": "florian-bartholom'i",
-            "name": "Florian Bartholom'i",
+            "name": "Florian Bartholomäi",
             "role": "Paul de Villiers"
         },
         {
-            "image": "karl-walter-sprungala",
-            "name": "Karl Walter Sprungala",
-            "role": "Shakespeare"
-        },
-        {
-            "image": "peter-simonischek",
             "name": "Peter Simonischek",
             "role": "Graf von St. Germain"
         },
         {
-            "image": "pierre-kiwitt",
             "name": "Pierre Kiwitt",
             "role": "Lancelot de Villiers"
         },
         {
-            "image": "maria-ehrich",
             "name": "Maria Ehrich",
             "role": "Gwendolyn Shepherd"
         }

@@ -23,32 +23,26 @@
     "boxoffice": "677 million",
     "actors": [
         {
-            "image": "matthew-mcconaughey",
             "name": "Matthew McConaughey",
             "role": "Cooper"
         },
         {
-            "image": "jessica-chastain",
             "name": "Jessica Chastain",
             "role": "Murph"
         },
         {
-            "image": "mackenzie-foy",
             "name": "Mackenzie Foy",
             "role": "Murph (10 yrs.)"
         },
         {
-            "image": "ann-hathaway",
             "name": "Ann Hathaway",
             "role": "Brand"
         },
         {
-            "image": "michael-caine",
             "name": "Michael Caine",
             "role": "Professor Brand"
         },
         {
-            "image": "matt-damon",
             "name": "Matt Damon",
             "role": "Mann"
         }

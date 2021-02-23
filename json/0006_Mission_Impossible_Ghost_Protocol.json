@@ -22,27 +22,22 @@
     "boxoffice": "695 million",
     "actors": [
         {
-            "image": "tom-cruise",
             "name": "Tom Cruise",
             "role": "Ethan Hunt"
         },
         {
-            "image": "paula-patton",
             "name": "Paula Patton",
             "role": "Jane"
         },
         {
-            "image": "simon-pegg",
             "name": "Simon Pegg",
             "role": "Benji"
         },
         {
-            "image": "jeremy-renner",
             "name": "Jeremy Renner",
             "role": "Brandt"
         },
         {
-            "image": "michael-nyqvist",
             "name": "Michael Nyqvist",
             "role": "Hendricks"
         }

@@ -24,42 +24,34 @@
     "boxoffice": "822 million",
     "actors": [
         {
-            "image": "gal-gadot",
             "name": "Gal Gadot",
             "role": "Diana"
         },
         {
-            "image": "chris-pine",
             "name": "Chris Pine",
             "role": "Steve Trevor"
         },
         {
-            "image": "connie-nielsen",
             "name": "Connie Nielsen",
             "role": "Hippolyta"
         },
         {
-            "image": "robin-wright",
             "name": "Robin Wright",
             "role": "Antiope"
         },
         {
-            "image": "danny-huston",
             "name": "Danny Huston",
             "role": "Ludendorff"
         },
         {
-            "image": "david-thewlis",
             "name": "David Thewlis",
             "role": "Sir Patrick"
         },
         {
-            "image": "sa'd-taghmaoui",
             "name": "Sa'd Taghmaoui",
             "role": "Sameer"
         },
         {
-            "image": "ewen-bremner",
             "name": "Ewen Bremner",
             "role": "Charlie"
         }

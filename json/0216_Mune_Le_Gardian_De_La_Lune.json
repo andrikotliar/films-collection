@@ -15,7 +15,7 @@
     ],
     "director": "Alexandre Heboyan, Beno't Philippon",
     "producers": "Dimitri Rassam, Aton Soumache, Alexis Vonarb",
-    "writtens": "Beno't Philippon, J'r'me Fansten",
+    "writtens": "Benoît Philippon, Jérôme Fansten",
     "music": "Bruno Coulais",
     "year": 2015,
     "time": 86,
@@ -24,18 +24,15 @@
     "boxoffice": "9,1 million",
     "actors": [
         {
-            "image": "omar-sy",
             "name": "Omar Sy",
             "role": "Sohone (voice)"
         },
         {
-            "image": "iz'a-higelin",
-            "name": "Iz'a Higelin",
+            "name": "Izïa Higelin",
             "role": "Glim (voice)"
         },
         {
-            "image": "micha'l-gr'gorio",
-            "name": "Micha'l Gr'gorio",
+            "name": "Michaël Grégorio",
             "role": "Mune (voice)"
         }
     ],

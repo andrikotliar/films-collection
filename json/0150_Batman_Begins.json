@@ -23,62 +23,50 @@
     "boxoffice": "375 million",
     "actors": [
         {
-            "image": "christian-bale",
             "name": "Christian Bale",
             "role": "Bruce Wayne / Batman"
         },
         {
-            "image": "michael-caine",
             "name": "Michael Caine",
             "role": "Alfred"
         },
         {
-            "image": "liam-neeson",
             "name": "Liam Neeson",
             "role": "Ducard"
         },
         {
-            "image": "katie-holmes",
             "name": "Katie Holmes",
             "role": "Rachel Dawes"
         },
         {
-            "image": "gary-oldman",
             "name": "Gary Oldman",
             "role": "Jim Gordon"
         },
         {
-            "image": "cillian-murphy",
             "name": "Cillian Murphy",
             "role": "Dr. Jonathan Crane / The Scarecrow"
         },
         {
-            "image": "tom-wilkinson",
             "name": "Tom Wilkinson",
             "role": "Carmine Falcone"
         },
         {
-            "image": "rutger-hauer",
             "name": "Rutger Hauer",
             "role": "Earle"
         },
         {
-            "image": "ken-watanabe",
             "name": "Ken Watanabe",
             "role": "Ra's Al Ghul"
         },
         {
-            "image": "mark-boone-junior",
             "name": "Mark Boone Junior",
             "role": "Flass"
         },
         {
-            "image": "linus-roache",
             "name": "Linus Roache",
             "role": "Thomas Wayne"
         },
         {
-            "image": "morgan-freeman",
             "name": "Morgan Freeman",
             "role": "Lucius Fox"
         }

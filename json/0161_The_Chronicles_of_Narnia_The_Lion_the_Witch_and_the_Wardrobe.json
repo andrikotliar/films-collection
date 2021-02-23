@@ -22,42 +22,34 @@
     "boxoffice": "745 million",
     "actors": [
         {
-            "image": "georgie-henley",
             "name": "Georgie Henley",
             "role": "Lucy Pevensie"
         },
         {
-            "image": "skandar-keynes",
             "name": "Skandar Keynes",
             "role": "Edmund Pevensie"
         },
         {
-            "image": "william-moseley",
             "name": "William Moseley",
             "role": "Peter Pevensie"
         },
         {
-            "image": "anna-popplewell",
             "name": "Anna Popplewell",
             "role": "Susan Pevensie"
         },
         {
-            "image": "tilda-swinton",
             "name": "Tilda Swinton",
             "role": "White Witch"
         },
         {
-            "image": "james-mcavoy",
             "name": "James McAvoy",
             "role": "Mr. Tumnus"
         },
         {
-            "image": "jim-broadbent",
             "name": "Jim Broadbent",
             "role": "Professor Kirke"
         },
         {
-            "image": "liam-neeson",
             "name": "Liam Neeson",
             "role": "Aslan (voice)"
         }

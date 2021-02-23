@@ -23,52 +23,42 @@
     "boxoffice": null,
     "actors": [
         {
-            "image": "winona-ryder",
             "name": "Winona Ryder",
             "role": "Joyce Byers"
         },
         {
-            "image": "david-harbour",
             "name": "David Harbour",
             "role": "Jim Hopper"
         },
         {
-            "image": "finn-wolfhard",
             "name": "Finn Wolfhard",
             "role": "Mike Wheeler"
         },
         {
-            "image": "millie-bobby-brown",
             "name": "Millie Bobby Brown",
             "role": "Eleven"
         },
         {
-            "image": "gaten-matarazzo",
             "name": "Gaten Matarazzo",
             "role": "Dustin Henderson"
         },
         {
-            "image": "caleb-mclaughlin",
             "name": "Caleb McLaughlin",
             "role": "Lucas Sinclair"
         },
         {
-            "image": "natalia-dyer",
             "name": "Natalia Dyer",
             "role": "Nancy Wheeler"
         },
         {
-            "image": "charlie-heaton",
             "name": "Charlie Heaton",
             "role": "Jonathan Byers"
         },
         {
-            "image": "joe-keery",
             "name": "Joe Keery",
             "role": "Steve Harrington"
         },
         {
-            "image": "noah-schnapp",
             "name": "Noah Schnapp",
             "role": "Will Byers"
         }

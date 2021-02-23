@@ -23,32 +23,26 @@
     "boxoffice": "654 million",
     "actors": [
         {
-            "image": "johnny-depp",
             "name": "Johnny Depp",
             "role": "Captain Jack Sparrow"
         },
         {
-            "image": "geoffrey-rush",
             "name": "Geoffrey Rush",
             "role": "Barbossa"
         },
         {
-            "image": "orlando-bloom",
             "name": "Orlando Bloom",
             "role": "Will Turner"
         },
         {
-            "image": "keira-knightley",
             "name": "Keira Knightley",
             "role": "Elizabeth Swann"
         },
         {
-            "image": "jack-davenport",
             "name": "Jack Davenport",
             "role": "Norrington"
         },
         {
-            "image": "jonathan-pryce",
             "name": "Jonathan Pryce",
             "role": "Governor Weatherby Swann"
         }

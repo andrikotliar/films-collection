@@ -22,22 +22,18 @@
     "boxoffice": "142 million",
     "actors": [
         {
-            "image": "/300/246.jpg?1604648184",
             "name": "Bruce Willis",
             "role": "John McClane"
         },
         {
-            "image": "/300/888.jpg?1604645175",
             "name": "Bonnie Bedelia",
             "role": "Holly Gennaro McClane"
         },
         {
-            "image": "/300/1816.jpg?1532006403",
             "name": "Reginald VelJohnson",
             "role": "Sgt. Al Powell"
         },
         {
-            "image": "/300/243809.jpg?1532006405",
             "name": "Paul Gleason",
             "role": "Dwayne T. Robinson"
         }

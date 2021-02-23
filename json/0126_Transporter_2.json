@@ -22,52 +22,38 @@
     "boxoffice": "85 million",
     "actors": [
         {
-            "image": "jason-statham",
             "name": "Jason Statham",
             "role": "Frank Martin"
         },
         {
-            "image": "alessandro-gassman",
             "name": "Alessandro Gassman",
             "role": "Gianni Chellini"
         },
         {
-            "image": "amber-valletta",
             "name": "Amber Valletta",
             "role": "Audrey Billings"
         },
         {
-            "image": "kate-nauta",
             "name": "Kate Nauta",
             "role": "Lola"
         },
         {
-            "image": "matthew-modine",
             "name": "Matthew Modine",
             "role": "Jefferson Billings"
         },
         {
-            "image": "jason-flemyng",
             "name": "Jason Flemyng",
             "role": "Dimitri"
         },
         {
-            "image": "keith-david",
             "name": "Keith David",
             "role": "Stappleton"
         },
         {
-            "image": "hunter-clary",
             "name": "Hunter Clary",
             "role": "Jack Billings"
         },
         {
-            "image": "shannon-briggs",
-            "name": "Shannon Briggs",
-            "role": "Max"
-        },
-        {
-            "image": "francois-berleand",
             "name": "François Berléand",
             "role": "Inspector Tarconi"
         }

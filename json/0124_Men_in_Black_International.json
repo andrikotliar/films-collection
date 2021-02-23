@@ -24,37 +24,30 @@
     "boxoffice": "254 million",
     "actors": [
         {
-            "image": "chris-hemsworth",
             "name": "Chris Hemsworth",
             "role": "Agent H"
         },
         {
-            "image": "tessa-thompson",
             "name": "Tessa Thompson",
             "role": "Agent M"
         },
         {
-            "image": "kumail-nanjiani",
             "name": "Kumail Nanjiani",
             "role": "Pawny (voice)"
         },
         {
-            "image": "rebecca-ferguson",
             "name": "Rebecca Ferguson",
             "role": "Riza"
         },
         {
-            "image": "rafe-spall",
             "name": "Rafe Spall",
             "role": "Agent C"
         },
         {
-            "image": "emma-thompson",
             "name": "Emma Thompson",
             "role": "Agent O"
         },
         {
-            "image": "liam-neeson",
             "name": "Liam Neeson",
             "role": "Agent High T"
         }

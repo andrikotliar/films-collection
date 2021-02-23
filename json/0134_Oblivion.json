@@ -22,37 +22,30 @@
     "boxoffice": "286 million",
     "actors": [
         {
-            "image": "tom-cruise",
             "name": "Tom Cruise",
             "role": "Jack"
         },
         {
-            "image": "morgan-freeman",
             "name": "Morgan Freeman",
             "role": "Beech"
         },
         {
-            "image": "olga-kurylenko",
             "name": "Olga Kurylenko",
             "role": "Julia"
         },
         {
-            "image": "andrea-riseborough",
             "name": "Andrea Riseborough",
             "role": "Victoria"
         },
         {
-            "image": "nikolaj-coster-waldau",
             "name": "Nikolaj Coster-Waldau",
             "role": "Sykes"
         },
         {
-            "image": "melissa-leo",
             "name": "Melissa Leo",
             "role": "Sally"
         },
         {
-            "image": "zoe-bell",
             "name": "Zoe Bell",
             "role": "Kara"
         }

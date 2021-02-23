@@ -22,37 +22,30 @@
     "boxoffice": "817 million",
     "actors": [
         {
-            "image": "will-smith",
             "name": "Will Smith",
             "role": "Capt. Steven Hiller"
         },
         {
-            "image": "bill-pullman",
             "name": "Bill Pullman",
             "role": "President Thomas J. Whitmore"
         },
         {
-            "image": "jeff-goldblum",
             "name": "Jeff Goldblum",
             "role": "David Levinson"
         },
         {
-            "image": "mary-mcdonnell",
             "name": "Mary McDonnell",
             "role": "Marilyn Whitmore"
         },
         {
-            "image": "judd-hirsch",
             "name": "Judd Hirsch",
             "role": "Julius Levinson"
         },
         {
-            "image": "robert-loggia",
             "name": "Robert Loggia",
             "role": "General William Grey"
         },
         {
-            "image": "randy-quaid",
             "name": "Randy Quaid",
             "role": "Russell Casse"
         }

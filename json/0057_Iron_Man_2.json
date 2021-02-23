@@ -23,52 +23,42 @@
     "boxoffice": "624 million",
     "actors": [
         {
-            "image": "robert-downey-jr.",
             "name": "Robert Downey Jr.",
             "role": "Tony Stark / Iron Man"
         },
         {
-            "image": "gwyneth-paltrow",
             "name": "Gwyneth Paltrow",
             "role": "Pepper Potts"
         },
         {
-            "image": "don-cheadle",
             "name": "Don Cheadle",
             "role": "James 'Rhodey' Rhodes / War Machine"
         },
         {
-            "image": "scarlett-johansson",
             "name": "Scarlett Johansson",
             "role": "Natasha Romanoff / Black Whidow"
         },
         {
-            "image": "sam-rockwell",
             "name": "Sam Rockwell",
             "role": "Justin Hammer"
         },
         {
-            "image": "mickey-rourke",
             "name": "Mickey Rourke",
             "role": "Ivan Vanko / Whiplash"
         },
         {
-            "image": "samuel-l.-jackson",
             "name": "Samuel L. Jackson",
             "role": "Nick Fury"
         },
         {
-            "image": "clark-gregg",
             "name": "Clark Gregg",
             "role": "Agent Coulson"
         },
         {
-            "image": "john-slattery",
             "name": "John Slattery",
             "role": "Howard Stark"
         },
         {
-            "image": "garry-shandling",
             "name": "Garry Shandling",
             "role": "Senator Stern"
         }

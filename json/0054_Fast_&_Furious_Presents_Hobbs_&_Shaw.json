@@ -22,32 +22,26 @@
     "boxoffice": "1,1 billion",
     "actors": [
         {
-            "image": "dwayne-johnson",
             "name": "Dwayne Johnson",
             "role": "Hobbs"
         },
         {
-            "image": "jason-statham",
             "name": "Jason Statham",
             "role": "Shaw"
         },
         {
-            "image": "idris-elba",
             "name": "Idris Elba",
             "role": "Brixton"
         },
         {
-            "image": "vanessa-kirby",
             "name": "Vanessa Kirby",
             "role": "Hattie"
         },
         {
-            "image": "helen-mirren",
             "name": "Helen Mirren",
             "role": "Queenie"
         },
         {
-            "image": "eliana-sua",
             "name": "Eliana Sua",
             "role": "Sam"
         }

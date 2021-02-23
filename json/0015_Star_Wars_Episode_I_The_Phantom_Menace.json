@@ -23,57 +23,46 @@
     "boxoffice": "1,02 billion",
     "actors": [
         {
-            "image": "liam-neeson",
             "name": "Liam Neeson",
             "role": "Qui-Gon Jinn"
         },
         {
-            "image": "ewan-mcgregor",
             "name": "Ewan McGregor",
             "role": "Obi-Wan Kenobi"
         },
         {
-            "image": "natalie-portman",
             "name": "Natalie Portman",
             "role": "Padme"
         },
         {
-            "image": "jake-lloyd",
             "name": "Jake Lloyd",
             "role": "Anakin Skywalker"
         },
         {
-            "image": "ian-mcdiarmid",
             "name": "Ian McDiarmid",
             "role": "Senator Palpatine"
         },
         {
-            "image": "pernilla-august",
             "name": "Pernilla August",
             "role": "Shmi Skywalker"
         },
         {
-            "image": "ahmed-best",
             "name": "Ahmed Best",
             "role": "Jar Jar Binks"
         },
         {
-            "image": "anthony-daniels",
             "name": "Anthony Daniels",
             "role": "C-3PO"
         },
         {
-            "image": "kenny-baker",
             "name": "Kenny Baker",
             "role": "R2-D2"
         },
         {
-            "image": "frank-oz",
             "name": "Frank Oz",
             "role": "Yoda"
         },
         {
-            "image": "ray-park",
             "name": "Ray Park",
             "role": "Darth Maul"
         }

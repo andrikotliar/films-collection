@@ -23,62 +23,50 @@
     "boxoffice": "326 million",
     "actors": [
         {
-            "image": "dwayne-johnson",
             "name": "Dwayne Johnson",
             "role": "Dr. Smolder Bravestone"
         },
         {
-            "image": "jack-black",
             "name": "Jack Black",
             "role": "Professor Sheldon 'Shelly' Oberon"
         },
         {
-            "image": "kevin-hart",
             "name": "Kevin Hart",
             "role": "Franklin 'Mouse' Finbar"
         },
         {
-            "image": "karen-gillan",
             "name": "Karen Gillan",
             "role": "Ruby Roundhouse"
         },
         {
-            "image": "awkwafina",
             "name": "Awkwafina",
             "role": "Ming"
         },
         {
-            "image": "nick-jonas",
             "name": "Nick Jonas",
             "role": "Seaplane"
         },
         {
-            "image": "alex-wolff",
             "name": "Alex Wolff",
             "role": "Spencer"
         },
         {
-            "image": "morgan-turner",
             "name": "Morgan Turner",
             "role": "Martha"
         },
         {
-            "image": "madison-iseman",
             "name": "Madison Iseman",
             "role": "Bethany"
         },
         {
-            "image": "ser'darius-blain",
             "name": "Ser'Darius Blain",
             "role": "Fridge"
         },
         {
-            "image": "danny-devito",
             "name": "Danny DeVito",
             "role": "Eddie"
         },
         {
-            "image": "danny-glover",
             "name": "Danny Glover",
             "role": "Milo"
         }

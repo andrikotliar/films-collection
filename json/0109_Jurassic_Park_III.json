@@ -23,27 +23,22 @@
     "boxoffice": "368 million",
     "actors": [
         {
-            "image": "sam-neill",
             "name": "Sam Neill",
             "role": "Dr. Alan Grant"
         },
         {
-            "image": "william-h.-macy",
             "name": "William H. Macy",
             "role": "Paul Kirby"
         },
         {
-            "image": "téa-leoni",
             "name": "Téa Leoni",
             "role": "Amanda Kirby"
         },
         {
-            "image": "alessandro-nivola",
             "name": "Alessandro Nivola",
             "role": "Billy Brennan"
         },
         {
-            "image": "trevor-morgan",
             "name": "Trevor Morgan",
             "role": "Eric Kirby"
         }

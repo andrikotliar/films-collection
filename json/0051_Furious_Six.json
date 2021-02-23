@@ -22,57 +22,46 @@
     "boxoffice": "789 million",
     "actors": [
         {
-            "image": "vin-diesel",
             "name": "Vin Diesel",
             "role": "Dominic Toretto"
         },
         {
-            "image": "paul-walker",
             "name": "Paul Walker",
             "role": "Brian O'Conner"
         },
         {
-            "image": "dwayne-johnson",
             "name": "Dwayne Johnson",
             "role": "Hobbs"
         },
         {
-            "image": "jordana-brewster",
             "name": "Jordana Brewster",
             "role": "Mia"
         },
         {
-            "image": "michelle-rodriguez",
             "name": "Michelle Rodriguez",
             "role": "Letty"
         },
         {
-            "image": "tyrese-gibson",
             "name": "Tyrese Gibson",
             "role": "Roman"
         },
         {
-            "image": "sung-kang",
             "name": "Sung Kang",
             "role": "Han"
         },
         {
-            "image": "gal-gadot",
             "name": "Gal Gadot",
             "role": "Gisele"
         },
         {
-            "image": "ludacris",
             "name": "Ludacris",
             "role": "Tej"
         },
         {
-            "image": "luke-evans",
             "name": "Luke Evans",
             "role": "Shaw"
         },
         {
-            "image": "elsa-pataky",
             "name": "Elsa Pataky",
             "role": "Elena"
         }

@@ -23,57 +23,46 @@
     "boxoffice": "836 million",
     "actors": [
         {
-            "image": "shia-labeouf",
             "name": "Shia LaBeouf",
             "role": "Sam Witwicky"
         },
         {
-            "image": "megan-fox",
             "name": "Megan Fox",
             "role": "Mikaela Banes"
         },
         {
-            "image": "josh-duhamel",
             "name": "Josh Duhamel",
             "role": "Major Lennox"
         },
         {
-            "image": "john-turturro",
             "name": "John Turturro",
             "role": "Simmons"
         },
         {
-            "image": "ramon-rodriguez",
             "name": "Ramon Rodriguez",
             "role": "Leo Spitz"
         },
         {
-            "image": "peter-cullen",
             "name": "Peter Cullen",
             "role": "Optimus Prime (voice)"
         },
         {
-            "image": "mark-ryan",
             "name": "Mark Ryan",
             "role": "Jetfire (voice)"
         },
         {
-            "image": "hugo-weaving",
             "name": "Hugo Weaving",
             "role": "Megatron (voice)"
         },
         {
-            "image": "tony-todd",
             "name": "Tony Todd",
             "role": "Fallen (voice)"
         },
         {
-            "image": "charlie-adler",
             "name": "Charlie Adler",
             "role": "Starscream (voice)"
         },
         {
-            "image": "frank-welker",
             "name": "Frank Welker",
             "role": "Soundwave / Devastator (voice)"
         }

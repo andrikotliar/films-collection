@@ -22,37 +22,30 @@
     "boxoffice": "400 million",
     "actors": [
         {
-            "image": "jeff-bridges",
             "name": "Jeff Bridges",
             "role": "Kevin Flynn / Clu"
         },
         {
-            "image": "garrett-hedlund",
             "name": "Garrett Hedlund",
             "role": "Sam Flynn"
         },
         {
-            "image": "olivia-wilde",
             "name": "Olivia Wilde",
             "role": "Quorra"
         },
         {
-            "image": "bruce-boxleitner",
             "name": "Bruce Boxleitner",
             "role": "Alan Bradley / Tron"
         },
         {
-            "image": "james-frain",
             "name": "James Frain",
             "role": "Jarvis"
         },
         {
-            "image": "beau-garett",
-            "name": "Beau Garett",
+            "name": "Beau Garrett",
             "role": "Gem"
         },
         {
-            "image": "michael-sheen",
             "name": "Michael Sheen",
             "role": "Castor / Zuse"
         }

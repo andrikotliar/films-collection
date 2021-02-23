@@ -23,37 +23,30 @@
     "boxoffice": "567 million",
     "actors": [
         {
-            "image": "tom-hiddleston",
             "name": "Tom Hiddleston",
             "role": "James Conrad"
         },
         {
-            "image": "samuel-l.-jackson",
             "name": "Samuel L. Jackson",
             "role": "Preston Packard"
         },
         {
-            "image": "brie-larson",
             "name": "Brie Larson",
             "role": "Mason Weaver"
         },
         {
-            "image": "john-c.-reilly",
             "name": "John C. Reilly",
             "role": "Hank Marlow"
         },
         {
-            "image": "john-goodman",
             "name": "John Goodman",
             "role": "Bill Randa"
         },
         {
-            "image": "corey-hawkins",
             "name": "Corey Hawkins",
             "role": "Houston Brooks"
         },
         {
-            "image": "john-ortiz",
             "name": "John Ortiz",
             "role": "Victor Nieves"
         }

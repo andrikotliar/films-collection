@@ -24,72 +24,58 @@
     "boxoffice": null,
     "actors": [
         {
-            "image": "hayley-atwell",
             "name": "Hayley Atwell",
             "role": "Peggy Carter"
         },
         {
-            "image": "james-d'arcy",
             "name": "James D'Arcy",
             "role": "Edwin Jarvis"
         },
         {
-            "image": "enver-gjokaj",
             "name": "Enver Gjokaj",
             "role": "Daniel Sousa"
         },
         {
-            "image": "chad-michael-murray",
             "name": "Chad Michael Murray",
             "role": "Jack Thompson "
         },
         {
-            "image": "wynn-everett",
             "name": "Wynn Everett",
             "role": "Whitney Frost"
         },
         {
-            "image": "reggie-austin",
             "name": "Reggie Austin",
             "role": "Jason Wilkes"
         },
         {
-            "image": "bridget-regan",
             "name": "Bridget Regan",
             "role": "Dottie Underwood"
         },
         {
-            "image": "lesley-boone",
             "name": "Lesley Boone",
             "role": "Rose "
         },
         {
-            "image": "shea-whigham",
             "name": "Shea Whigham",
             "role": "Roger Dooley"
         },
         {
-            "image": "lyndsy-fonseca",
             "name": "Lyndsy Fonseca",
             "role": "Angie Martinelli"
         },
         {
-            "image": "currie-graham",
             "name": "Currie Graham",
             "role": "Calvin Chadwick"
         },
         {
-            "image": "lotte-verbeek",
             "name": "Lotte Verbeek",
             "role": "Ana Jarvis"
         },
         {
-            "image": "kurtwood-smith",
             "name": "Kurtwood Smith",
             "role": "Vernon Masters"
         },
         {
-            "image": "dominic-cooper",
             "name": "Dominic Cooper",
             "role": "Howard Stark"
         }

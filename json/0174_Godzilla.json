@@ -23,47 +23,32 @@
     "boxoffice": "529 million",
     "actors": [
         {
-            "image": "cj-adams",
             "name": "CJ Adams",
             "role": "Dr. Ishiro Serizawa"
         },
         {
-            "image": "ken-watanabe",
             "name": "Ken Watanabe",
             "role": "Joe Brody"
         },
         {
-            "image": "bryan-cranston",
             "name": "Bryan Cranston",
             "role": "Elle Brody"
         },
         {
-            "image": "elizabeth-olsen",
             "name": "Elizabeth Olsen",
             "role": "Sam Brody"
         },
         {
-            "image": "carson-bolde",
             "name": "Carson Bolde",
             "role": "Vivienne Graham"
         },
         {
-            "image": "sally-hawkins",
             "name": "Sally Hawkins",
             "role": "Sandra Brody"
         },
         {
-            "image": "juliette-binoche",
             "name": "Juliette Binoche",
             "role": "Admiral William Stenz"
-        },
-        {
-            "image": "david-strathairn",
-            "name": "David Strathairn"
-        },
-        {
-            "image": "young-ford",
-            "name": "Young Ford"
         }
     ],
     "synopsis": "The world is beset by the appearance of monstrous creatures, but one of them may be the only one who can save humanity.",

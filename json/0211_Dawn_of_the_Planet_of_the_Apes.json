@@ -23,42 +23,34 @@
     "boxoffice": "711 million",
     "actors": [
         {
-            "image": "andy-serkis",
             "name": "Andy Serkis",
             "role": "Caesar"
         },
         {
-            "image": "jason-clarke",
             "name": "Jason Clarke",
             "role": "Malcolm"
         },
         {
-            "image": "gary-oldman",
             "name": "Gary Oldman",
             "role": "Dreyfus"
         },
         {
-            "image": "keri-russell",
             "name": "Keri Russell",
             "role": "Ellie"
         },
         {
-            "image": "toby-kebbell",
             "name": "Toby Kebbell",
             "role": "Koba"
         },
         {
-            "image": "kodi-smit-mcphee",
             "name": "Kodi Smit-McPhee",
             "role": "Alexander"
         },
         {
-            "image": "kirk-acevedo",
             "name": "Kirk Acevedo",
             "role": "Carver"
         },
         {
-            "image": "nick-thurston",
             "name": "Nick Thurston",
             "role": "Blue Eyes"
         }

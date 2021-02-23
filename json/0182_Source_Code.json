@@ -23,37 +23,30 @@
     "boxoffice": "147 million",
     "actors": [
         {
-            "image": "jake-gyllenhaal",
             "name": "Jake Gyllenhaal",
             "role": "Colter Stevens"
         },
         {
-            "image": "michelle-monaghan",
             "name": "Michelle Monaghan",
             "role": "Christina Warren"
         },
         {
-            "image": "vera-farmiga",
             "name": "Vera Farmiga",
             "role": "Colleen Goodwin"
         },
         {
-            "image": "jeffrey-wright",
             "name": "Jeffrey Wright",
             "role": "Dr. Rutledge"
         },
         {
-            "image": "michael-arden",
             "name": "Michael Arden",
             "role": "Derek Frost"
         },
         {
-            "image": "cas-anvar",
             "name": "Cas Anvar",
             "role": "Hazmi"
         },
         {
-            "image": "russell-peters",
             "name": "Russell Peters",
             "role": "Max Denoff"
         }

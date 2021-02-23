@@ -23,32 +23,26 @@
     "boxoffice": "678 million",
     "actors": [
         {
-            "image": "benedict-cumberbatch",
             "name": "Benedict Cumberbatch",
             "role": "Dr. Stephen Strange"
         },
         {
-            "image": "chiwetel-ejiofor",
             "name": "Chiwetel Ejiofor",
             "role": "Mordo"
         },
         {
-            "image": "rachel-mcadams",
             "name": "Rachel McAdams",
             "role": "Dr. Christine Palmer"
         },
         {
-            "image": "benedict-wong",
             "name": "Benedict Wong",
             "role": "Wong"
         },
         {
-            "image": "mads-mikkelsen",
             "name": "Mads Mikkelsen",
             "role": "Kaecilius"
         },
         {
-            "image": "tilda-swinton",
             "name": "Tilda Swinton",
             "role": "The Ancient One"
         }

@@ -22,32 +22,26 @@
     "boxoffice": "855 million",
     "actors": [
         {
-            "image": "tom-hardy",
             "name": "Tom Hardy",
             "role": "Eddie Brock / Venom"
         },
         {
-            "image": "michelle-williams",
             "name": "Michelle Williams",
             "role": "Anne Weying"
         },
         {
-            "image": "riz-ahmed",
             "name": "Riz Ahmed",
             "role": "Carlton Drake / Riot"
         },
         {
-            "image": "scott-haze",
             "name": "Scott Haze",
             "role": "Security Chief Roland Treece"
         },
         {
-            "image": "reid-scott",
             "name": "Reid Scott",
             "role": "Dr. Dan Lewis"
         },
         {
-            "image": "jenny-slate",
             "name": "Jenny Slate",
             "role": "Dr. Dora Skirth"
         }

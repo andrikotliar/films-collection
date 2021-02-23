@@ -24,32 +24,26 @@
     "boxoffice": "1,3 billion",
     "actors": [
         {
-            "image": "chris-pratt",
             "name": "Chris Pratt",
             "role": "Owen Grady"
         },
         {
-            "image": "bryce-dallas-howard",
             "name": "Bryce Dallas Howard",
             "role": "Claire Dearing"
         },
         {
-            "image": "rafe-spall",
             "name": "Rafe Spall",
             "role": "Eli Mills"
         },
         {
-            "image": "justice-smith",
             "name": "Justice Smith",
             "role": "Franklin Webb"
         },
         {
-            "image": "daniella-pineda",
             "name": "Daniella Pineda",
             "role": "Zia Rodriguez"
         },
         {
-            "image": "james-cromwell",
             "name": "James Cromwell",
             "role": "Benjamin Lockwood"
         }

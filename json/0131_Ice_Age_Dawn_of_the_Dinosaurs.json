@@ -24,47 +24,38 @@
     "boxoffice": "886 million",
     "actors": [
         {
-            "image": "ray-romano",
             "name": "Ray Romano",
             "role": "Manny"
         },
         {
-            "image": "queen-latifah",
             "name": "Queen Latifah",
             "role": "Ellie"
         },
         {
-            "image": "denis-leary",
             "name": "Denis Leary",
             "role": "Diego"
         },
         {
-            "image": "john-leguizamo",
             "name": "John Leguizamo",
             "role": "Sid"
         },
         {
-            "image": "josh-peck",
             "name": "Josh Peck",
             "role": "Eddie"
         },
         {
-            "image": "simon-pegg",
             "name": "Simon Pegg",
             "role": "Buck"
         },
         {
-            "image": "seann-william-scott",
             "name": "Seann William Scott",
             "role": "Crash"
         },
         {
-            "image": "chris-wedge",
             "name": "Chris Wedge",
             "role": "Scrat"
         },
         {
-            "image": "karen-disher",
             "name": "Karen Disher",
             "role": "Scratte"
         }

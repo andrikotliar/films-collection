@@ -22,52 +22,42 @@
     "boxoffice": "624 million",
     "actors": [
         {
-            "image": "will-smith",
             "name": "Will Smith",
             "role": "John Hancock"
         },
         {
-            "image": "charlize-theron",
             "name": "Charlize Theron",
             "role": "Mary"
         },
         {
-            "image": "jason-bateman",
             "name": "Jason Bateman",
             "role": "Ray"
         },
         {
-            "image": "jae-head",
             "name": "Jae Head",
             "role": "Aaron"
         },
         {
-            "image": "eddie-marsan",
             "name": "Eddie Marsan",
             "role": "Red"
         },
         {
-            "image": "david-mattey",
             "name": "David Mattey",
             "role": "Man Mountain"
         },
         {
-            "image": "maetrix-fitten",
             "name": "Maetrix Fitten",
             "role": "Matrix"
         },
         {
-            "image": "thomas-lennon",
             "name": "Thomas Lennon",
             "role": "Mike"
         },
         {
-            "image": "johnny-galecki",
             "name": "Johnny Galecki",
             "role": "Jeremy"
         },
         {
-            "image": "hayley-marie-norman",
             "name": "Hayley Marie Norman",
             "role": "Hottie"
         }

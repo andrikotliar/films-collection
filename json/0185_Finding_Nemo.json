@@ -23,42 +23,34 @@
     "boxoffice": "940 million",
     "actors": [
         {
-            "image": "alexander-gould",
             "name": "Alexander Gould",
             "role": "Nemo"
         },
         {
-            "image": "albert-brooks",
             "name": "Albert Brooks",
             "role": "Marlin"
         },
         {
-            "image": "ellen-degeneres",
             "name": "Ellen DeGeneres",
             "role": "Dory"
         },
         {
-            "image": "willem-dafoe",
             "name": "Willem Dafoe",
             "role": "Gill"
         },
         {
-            "image": "brad-garrett",
             "name": "Brad Garrett",
             "role": "Bloat"
         },
         {
-            "image": "allison-janney",
             "name": "Allison Janney",
             "role": "Peach"
         },
         {
-            "image": "austin-pendleton",
             "name": "Austin Pendleton",
             "role": "Gurgle"
         },
         {
-            "image": "stephen-root",
             "name": "Stephen Root",
             "role": "Bubbles"
         }

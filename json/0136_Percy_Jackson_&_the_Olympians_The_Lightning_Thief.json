@@ -22,57 +22,46 @@
     "boxoffice": "226 million",
     "actors": [
         {
-            "image": "logan-lerman",
             "name": "Logan Lerman",
             "role": "Percy Jackson"
         },
         {
-            "image": "brandon-t.-jackson",
             "name": "Brandon T. Jackson",
             "role": "Grover"
         },
         {
-            "image": "alexandra-daddario",
             "name": "Alexandra Daddario",
             "role": "Annabeth"
         },
         {
-            "image": "jake-abel",
             "name": "Jake Abel",
             "role": "Luke"
         },
         {
-            "image": "sean-bean",
             "name": "Sean Bean",
             "role": "Zeus"
         },
         {
-            "image": "pierce-brosnan",
             "name": "Pierce Brosnan",
             "role": "Mr. Brunner / Chiron"
         },
         {
-            "image": "steve-coogan",
             "name": "Steve Coogan",
             "role": "Hades"
         },
         {
-            "image": "rosario-dawson",
             "name": "Rosario Dawson",
             "role": "Persephone"
         },
         {
-            "image": "melina-kanakaredes",
             "name": "Melina Kanakaredes",
             "role": "Athena"
         },
         {
-            "image": "catherine-keener",
             "name": "Catherine Keener",
             "role": "Sally Jackson"
         },
         {
-            "image": "kevin-mckidd",
             "name": "Kevin McKidd",
             "role": "Poseidon"
         }

@@ -23,37 +23,30 @@
     "boxoffice": "1,2 billion",
     "actors": [
         {
-            "image": "robert-downey-jr.",
             "name": "Robert Downey Jr.",
             "role": "Tony Stark"
         },
         {
-            "image": "gwyneth-paltrow",
             "name": "Gwyneth Paltrow",
             "role": "Pepper Potts"
         },
         {
-            "image": "don-cheadle",
             "name": "Don Cheadle",
             "role": "Colonel James Rhodes"
         },
         {
-            "image": "guy-pearce",
             "name": "Guy Pearce",
             "role": "Aldrich Killian"
         },
         {
-            "image": "rebecca-hall",
             "name": "Rebecca Hall",
             "role": "Maya Hansen"
         },
         {
-            "image": "jon-favreau",
             "name": "Jon Favreau",
             "role": "Happy Hogan"
         },
         {
-            "image": "ben-kingsley",
             "name": "Ben Kingsley",
             "role": "Trevor Slattery"
         }

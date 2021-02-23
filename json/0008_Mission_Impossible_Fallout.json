@@ -22,47 +22,38 @@
     "boxoffice": "791 million",
     "actors": [
         {
-            "image": "tom-cruise",
             "name": "Tom Cruise",
             "role": "Ethan Hunt"
         },
         {
-            "image": "henry-cavill",
             "name": "Henry Cavill",
             "role": "August Walker"
         },
         {
-            "image": "ving-rhames",
             "name": "Ving Rhames",
             "role": "Luther Stickell"
         },
         {
-            "image": "simon-pegg",
             "name": "Simon Pegg",
             "role": "Benji Dunn"
         },
         {
-            "image": "rebecca-ferguson",
             "name": "Rebecca Ferguson",
             "role": "Ilsa Faust"
         },
         {
-            "image": "sean-harris",
             "name": "Sean Harris",
             "role": "Solomon Lane"
         },
         {
-            "image": "angela-bassett",
             "name": "Angela Bassett",
             "role": "Erika Sloane"
         },
         {
-            "image": "vanessa-kirby",
             "name": "Vanessa Kirby",
             "role": "The White Widow"
         },
         {
-            "image": "michelle-monaghan",
             "name": "Michelle Monaghan",
             "role": "Julia"
         }
