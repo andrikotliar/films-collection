@@ -1,12 +1,11 @@
 <template>
 	<div class="actor-films container">
 		<div class="actor-image">
-			<img :src="`https://d2t8nixuow17vt.cloudfront.net/persona${photo}.jpg`" alt="" v-if="photo != ''">
-			<img src="images/support/noimage.jpg" alt="" v-else>
+			<img :src="actorPhoto" alt="">
 		</div>
 		<div class="actor-films__wrapper">
 			<h2 class="actor-name">{{actor.replace(/-/g, ' ')}}</h2>
-			<router-link :to="`/film/${film.id}`" class="actor-film" v-for="(film, index) in actorFilter" :key="index">
+			<router-link :to="`/film/${film.id}`" class="actor-film" v-for="(film, index) in filmsByActor" :key="index">
 				<div class="actor-film__poster">
 					<img :src="`images/posters/${film.poster}.webp`" :alt="film.title">
 				</div>
@@ -35,7 +34,7 @@
 			}
 		},
 		computed: {
-			...mapState(['films']),
+			...mapState(['films', 'actors']),
 			filmsByActor() {
 				let actorFilms = [];
 				let actor = this.actor.replace(/-/g, ' ')
@@ -48,18 +47,16 @@
 				}
 				return actorFilms.sort((a, b) => a.year > b.year ? 1 : -1).reverse();
 			},
-			actorFilter() {
-				let filteredFilms = [];
-				let actor = this.actor.replace(/-/g, ' ');
-				for(let i = 0; i < this.filmsByActor.length; i++) {
-					this.filmsByActor[i].actors = this.filmsByActor[i].actors.filter(item => item.name.toLowerCase() === actor);
-					filteredFilms.push(this.filmsByActor[i]);
-					this.photo = filteredFilms[0].actors[0].image;
+			actorPhoto() {
+				let actorName = this.actor.replace(/-/g, ' ');
+				let actorData = this.actors.find(actor => actor['gsx$name']['$t'].toLowerCase() === actorName);
+				if(actorData != undefined) {
+					return actorData.gsx$url.$t;
 				}
-				return filteredFilms;
 			}
 		},
 		mounted() {
+			this.$store.dispatch('LOAD_ACTORS');
 			this.$store.dispatch('LOAD_FILMS');
 		}
 	}
