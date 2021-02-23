@@ -2,10 +2,9 @@
     <div class="film__cast">
         <h2 class="info-section-title">Cast</h2>
         <div class="film__persons">
-            <router-link :to="`/actor/${actor.name.toLowerCase().replace(/\s/g, '-')}`" class="actor" v-for="(actor, index) in actors" :key="index">
+            <router-link :to="`/actor/${actor.name.toLowerCase().replace(/\s/g, '-')}`" class="actor" v-for="(actor, index) in updatedActorsList" :key="index">
                 <div class="actor__image">
-                    <img v-if="actor.image != ''" :src="`https://d2t8nixuow17vt.cloudfront.net/persona${actor.image}`" alt="">
-					<img v-else src="images/support/noimage.jpg" alt="Image not found">
+                    <img :src="actor.image" alt="">
                 </div>
                 <div class="actor__info">
                     <h3 class="actor__names">{{actor.name}}</h3>
@@ -17,9 +16,27 @@
 </template>
 
 <script>
+	import {mapState} from 'vuex';
     export default {
         name: 'FilmCast',
-        props: ['actors']
+        props: ['actorsList'],
+		computed: {
+			...mapState(['actors']),
+			updatedActorsList() {
+				let newArr = []
+				for(let i = 0; i < this.actorsList.length; i++) {
+					let currentActor = this.actors.find(actor => actor['gsx$name']['$t'] === this.actorsList[i].name);
+					if(currentActor != undefined) {
+						this.actorsList[i].image = currentActor.gsx$url.$t;
+						newArr.push(this.actorsList[i]);
+					}
+				}
+				return newArr;
+			}
+		},
+		created() {
+			this.$store.dispatch('LOAD_ACTORS');
+		}
     }
 </script>
 
