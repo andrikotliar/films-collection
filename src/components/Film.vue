@@ -6,7 +6,7 @@
 			<FilmSynopsis :synopsis="film.synopsis" />
 			<FilmTrailer :trailer="film.trailer" v-if="film.trailer != null" />
 			<SeriesSeasons :type="film.type.data" :poster="film.poster"  v-if="film.type.value != 'film'" />
-			<FilmCast :actors="film.actors" />
+			<FilmCast :actorsList="film.actors" />
 			<FilmAwards :awards="film.awards"  v-if="film.awards != null" />
 			<FilmCharacters :poster="film.poster" :characters="film.characters" v-if="film.characters != undefined" />
 			<FilmParts :data="films" :filmID="id" v-if="film.parts != null" />
