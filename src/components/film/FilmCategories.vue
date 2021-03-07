@@ -20,6 +20,7 @@
 	.film__categories {
 		display: flex;
 		flex-wrap: wrap;
+		align-items: flex-start;
 		gap: 15px;
 	}
 	@media (max-width: 500px) {
@@ -29,6 +30,7 @@
 	}
 
 	.film__category {
+		flex-shrink: 0;
 		display: block;
 		background-color: #ccc;
 		padding: 5px 15px;

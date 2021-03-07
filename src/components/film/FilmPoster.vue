@@ -24,12 +24,18 @@
 
 <style>
 	.film__poster {
-		width: auto;
-		height: 100%;
+		width: 500px;
+		height: auto;
+        font-size: 0;
 	}
 
 	.film__poster img {
-		width: auto;
-		height: 100%;
+		width: 100%;
+        height: auto;
 	}    
+    @media (max-width: 850px) {
+        .film__poster {
+            width: 400px; 
+        }
+    }
 </style>

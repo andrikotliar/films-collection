@@ -47,28 +47,19 @@
 		display: flex;
 		gap: 20px;
 		margin-bottom: 20px;
-		height: 500px;
-	}
-
-	@media (max-width: 680px) {
-		.film__header {
-			height: 350px;
-		}
+		border-bottom: 4px solid #f2f2f2;
 	}
 	
 	.film__info {
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-		overflow: auto;
-		border-bottom: 4px solid #f2f2f2;
 		padding-right: 20px;
 		padding-bottom: 20px;
 	}
 
-	@media(max-width: 500px) {
+	@media(max-width: 650px) {
 		.film__header {
-			height: auto;
 			flex-direction: column;
 		}
 		.film__poster {

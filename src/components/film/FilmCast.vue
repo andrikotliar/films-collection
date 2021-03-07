@@ -29,6 +29,9 @@
 					if(currentActor != undefined) {
 						this.actorsList[i].image = currentActor.gsx$url.$t;
 						newArr.push(this.actorsList[i]);
+					} else {
+						this.actorsList[i].image = 'images/support/noimage.jpg';
+						newArr.push(this.actorsList[i]);
 					}
 				}
 				return newArr;
