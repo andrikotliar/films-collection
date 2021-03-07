@@ -5,7 +5,7 @@
 		</div>
 		<div class="actor-films__wrapper">
 			<h2 class="actor-name">{{actor.replace(/-/g, ' ')}}</h2>
-			<router-link :to="`/film/${film.id}`" class="actor-film" v-for="(film, index) in filmsByActor" :key="index">
+			<router-link :to="`/film/${film.id}`" class="actor-film" v-for="(film, index) in actorFilter" :key="index">
 				<div class="actor-film__poster">
 					<img :src="`images/posters/${film.poster}.webp`" :alt="film.title">
 				</div>
@@ -45,7 +45,17 @@
 						}
 					}
 				}
+				
 				return actorFilms.sort((a, b) => a.year > b.year ? 1 : -1).reverse();
+			},
+			actorFilter() {
+				let filteredFilms = [];
+				let actor = this.actor.replace(/-/g, ' ');
+				for(let i = 0; i < this.filmsByActor.length; i++) {
+					this.filmsByActor[i].actors = this.filmsByActor[i].actors.filter(item => item.name.toLowerCase() === actor);
+					filteredFilms.push(this.filmsByActor[i]);
+				}
+				return filteredFilms;
 			},
 			actorPhoto() {
 				let actorName = this.actor.replace(/-/g, ' ');
@@ -65,12 +75,33 @@
 <style>
 	.actor-films {
 		display: flex;
+		align-items: flex-start;
 		margin: 20px 0;
 	}
 	.actor-image {
+		position: relative;
+		font-size: 0;
 		width: 250px;
+		min-height: 250px;
 		margin-right: 20px;
 		flex-shrink: 0;
+	}
+	.actor-image:after {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		content: "no image";
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		color: #d2d2d2;
+		font-size: 20px;
+		font-weight: bold;
+		text-transform: uppercase;
+		z-index: -1;
+		background-color: #f2f2f2;
 	}
 	.actor-image img {
 		width: 100%;
@@ -118,6 +149,7 @@
 	}
 	.actor-film__title {
 		font-size: 20px;
+		padding-right: 40px;
 	}
 	.actor-film__role {
 		color: var(--base-color);
