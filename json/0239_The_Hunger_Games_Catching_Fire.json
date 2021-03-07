@@ -1,0 +1,74 @@
+{
+    "id": 257,
+    "title": "The Hunger Games: Catching Fire",
+    "poster": "hunger_games_2",
+    "trailer": "EAzGXqJSDJ8",
+    "genres": [
+        "Sci-Fi",
+        "Adventure"
+    ],
+    "production": [
+        "Lionsgate"
+    ],
+    "director": "Francis Lawrence",
+    "producers": "Nina Jacobson, Jon Kilik",
+    "writtens": "Simon Beaufoy, Michael Arndt",
+    "music": "James Newton Howard",
+    "cinema": "Jo Willems",
+    "year": 2013,
+    "time": 146,
+    "country": "USA",
+    "budget": "130 million",
+    "boxoffice": "865 million",
+    "actors": [
+        {
+            "name": "Jennifer Lawrence",
+            "role": "Katniss Everdeen"
+        },
+        {
+            "name": "Josh Hutcherson",
+            "role": "Peeta Mellark"
+        },
+        {
+            "name": "Liam Hemsworth",
+            "role": "Gale Hawthorne"
+        },
+        {
+            "name": "Woody Harrelson",
+            "role": "Haymitch Abernathy"
+        },
+        {
+            "name": "Elizabeth Banks",
+            "role": "Effie Trinket"
+        },
+        {
+            "name": "Donald Sutherland",
+            "role": "President Coriolanus Snow"
+        }
+    ],
+    "synopsis": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": [
+        {
+            "title": "Empire Awards",
+            "nominations": [
+                "Best Thriller"
+            ]
+        },
+        {
+            "title": "MTV Movie + TV Awards",
+            "nominations": [
+                "Movie of the Year (2014)",
+                "Best Male Performance (Josh Hutcherson)",
+                "Best Female Performance (Jennifer Lawrence)"
+            ]
+        }
+    ],
+    "parts": "The Hunger Games",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

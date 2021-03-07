@@ -1,0 +1,74 @@
+{
+    "id": 259,
+    "title": "The Hunger Games: Mockingjay - Part 2",
+    "poster": "hunger_games_4",
+    "trailer": "n-7K_OjsDCQ",
+    "genres": [
+        "Sci-Fi",
+        "Adventure"
+    ],
+    "production": [
+        "Lionsgate"
+    ],
+    "director": "Francis Lawrence",
+    "producers": "Nina Jacobson, Jon Kilik",
+    "writtens": "Peter Craig, Danny Strong",
+    "music": "James Newton Howard",
+    "cinema": "Jo Willems",
+    "year": 2015,
+    "time": 137,
+    "country": "USA, Germany, Canada, France",
+    "budget": "160 million",
+    "boxoffice": "658 million",
+    "actors": [
+        {
+            "name": "Jennifer Lawrence",
+            "role": "Katniss Everdeen"
+        },
+        {
+            "name": "Josh Hutcherson",
+            "role": "Peeta Mellark"
+        },
+        {
+            "name": "Liam Hemsworth",
+            "role": "Gale Hawthorne"
+        },
+        {
+            "name": "Woody Harrelson",
+            "role": "Haymitch Abernathy"
+        },
+        {
+            "name": "Elizabeth Banks",
+            "role": "Effie Trinket"
+        },
+        {
+            "name": "Donald Sutherland",
+            "role": "President Coriolanus Snow"
+        },
+        {
+            "name": "Philip Seymour Hoffman",
+            "role": "Plutarch Heavensbee"
+        },
+        {
+            "name": "Julianne Moore",
+            "role": "President Alma Coin"
+        }
+    ],
+    "synopsis": "Katniss and a team of rebels from District 13 prepare for the final battle that will decide the fate of Panem.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": [
+        {
+            "title": "MTV Movie + TV Awards",
+            "nominations": [
+                "Best Hero (2015)"
+            ]
+        }
+    ],
+    "parts": "The Hunger Games",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

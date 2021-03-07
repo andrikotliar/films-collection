@@ -1,0 +1,74 @@
+{
+    "id": 260,
+    "title": "Divergent",
+    "poster": "divergent_1",
+    "trailer": "Aw7Eln_xuWc",
+    "genres": [
+        "Adventure",
+        "Action"
+    ],
+    "production": [
+        "Summit-Entertainment"
+    ],
+    "director": "Neil Burger",
+    "producers": "Lucy Fisher, Pouya Shahbazian, Douglas Wick",
+    "writtens": "Evan Daugherty, Vanessa Taylor",
+    "music": "Junkie XL",
+    "cinema": "Alwin H. Küchler",
+    "year": 2014,
+    "time": 139,
+    "country": "USA",
+    "budget": "85 million",
+    "boxoffice": "289 million",
+    "actors": [
+        {
+            "name": "Shailene Woodley",
+            "role": "Tris"
+        },
+        {
+            "name": "Theo James",
+            "role": "Four"
+        },
+        {
+            "name": "Ashley Judd",
+            "role": "Natalie Prior"
+        },
+        {
+            "name": "Jai Courtney",
+            "role": "Eric Coulter"
+        },
+        {
+            "name": "Ray Stevenson",
+            "role": "Marcus Eaton"
+        },
+        {
+            "name": "Zoë Kravitz",
+            "role": "Christina"
+        },
+        {
+            "name": "Miles Teller",
+            "role": "Peter Hayes"
+        },
+        {
+            "name": "Ansel Elgort",
+            "role": "Caleb Prior"
+        }
+    ],
+    "synopsis": "In a world divided by factions based on virtues, Tris learns she's Divergent and won't fit in. When she discovers a plot to destroy Divergents, Tris and the mysterious Four must find out what makes Divergents dangerous before it's too late.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": [
+        {
+            "title": "MTV Movie + TV Awards",
+            "nominations": [
+                "Favorite Character (Tris)"
+            ]
+        }
+    ],
+    "parts": "Divergent",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

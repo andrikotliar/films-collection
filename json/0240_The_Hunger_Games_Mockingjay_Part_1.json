@@ -1,0 +1,75 @@
+{
+    "id": 258,
+    "title": "The Hunger Games: Mockingjay - Part 1",
+    "poster": "hunger_games_3",
+    "trailer": "3PkkHsuMrho",
+    "genres": [
+        "Sci-Fi",
+        "Adventure"
+    ],
+    "production": [
+        "Lionsgate"
+    ],
+    "director": "Francis Lawrence",
+    "producers": "Nina Jacobson, Jon Kilik",
+    "writtens": "Peter Craig, Danny Strong",
+    "music": "James Newton Howard",
+    "cinema": "Jo Willems",
+    "year": 2014,
+    "time": 123,
+    "country": "USA, Canada, France",
+    "budget": "125 million",
+    "boxoffice": "755 million",
+    "actors": [
+        {
+            "name": "Jennifer Lawrence",
+            "role": "Katniss Everdeen"
+        },
+        {
+            "name": "Josh Hutcherson",
+            "role": "Peeta Mellark"
+        },
+        {
+            "name": "Liam Hemsworth",
+            "role": "Gale Hawthorne"
+        },
+        {
+            "name": "Woody Harrelson",
+            "role": "Haymitch Abernathy"
+        },
+        {
+            "name": "Elizabeth Banks",
+            "role": "Effie Trinket"
+        },
+        {
+            "name": "Donald Sutherland",
+            "role": "President Coriolanus Snow"
+        },
+        {
+            "name": "Philip Seymour Hoffman",
+            "role": "Plutarch Heavensbee"
+        },
+        {
+            "name": "Julianne Moore",
+            "role": "President Alma Coin"
+        }
+    ],
+    "synopsis": "Katniss Everdeen is in District 13 after she shatters the games forever. Under the leadership of President Coin and the advice of her trusted friends, Katniss spreads her wings as she fights to save Peeta and a nation moved by her courage.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": [
+        {
+            "title": "MTV Movie + TV Awards",
+            "nominations": [
+                "Best Musical Moment",
+                "Best On-Screen Transformation"
+            ]
+        }
+    ],
+    "parts": "The Hunger Games",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

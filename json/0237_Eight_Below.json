@@ -1,0 +1,64 @@
+{
+    "id": 255,
+    "title": "Eight Below",
+    "poster": "eight_below",
+    "trailer": "zz7TGf1awDo",
+    "genres": [
+        "Adventure",
+        "Drama"
+    ],
+    "production": [
+        "Walt-Disney-Pictures",
+        "Spyglass-Entertainment"
+    ],
+    "director": "Frank Marshall",
+    "producers": "Patrick Crowley, David Hoberman",
+    "writtens": "David DiGilio",
+    "music": "Mark Isham",
+    "cinema": "Don Burgess",
+    "year": 2006,
+    "time": 120,
+    "country": "USA, Canada, Antarctica",
+    "budget": "40 million",
+    "boxoffice": "120 million",
+    "actors": [
+        {
+            "name": "Paul Walker",
+            "role": "Jerry Shepard"
+        },
+        {
+            "name": "Bruce Greenwood",
+            "role": "Davis McClaren"
+        },
+        {
+            "name": "Moon Bloodgood",
+            "role": "Katie"
+        },
+        {
+            "name": "Wendy Crewson",
+            "role": "Eve McClaren"
+        },
+        {
+            "name": "Gerard Plunkett",
+            "role": "Dr. Andy Harrison"
+        },
+        {
+            "name": "August Schellenberg",
+            "role": "Mindo"
+        },
+        {
+            "name": "Jason Biggs",
+            "role": "Charlie Cooper"
+        }
+    ],
+    "synopsis": "Brutal cold forces two Antarctic explorers to leave their team of sled dogs behind as they fend for their survival.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

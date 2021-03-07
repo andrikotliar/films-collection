@@ -1,0 +1,63 @@
+{
+    "id": 261,
+    "title": "Insurgent",
+    "poster": "divergent_2",
+    "trailer": "IR-l_TSjlEo",
+    "genres": [
+        "Adventure",
+        "Action"
+    ],
+    "production": [
+        "Summit-Entertainment"
+    ],
+    "director": "Robert Schwentke",
+    "producers": "Lucy Fisher, Pouya Shahbazian, Douglas Wick",
+    "writtens": "Brian Duffield, Akiva Goldsman, Mark Bomback",
+    "music": "Joseph Trapanese",
+    "cinema": "Florian Ballhaus",
+    "year": 2015,
+    "time": 119,
+    "country": "USA, Canada",
+    "budget": "110 million",
+    "boxoffice": "297 million",
+    "actors": [
+        {
+            "name": "Shailene Woodley",
+            "role": "Tris"
+        },
+        {
+            "name": "Theo James",
+            "role": "Four"
+        },
+        {
+            "name": "Kate Winslet",
+            "role": "Jeanine Matthews"
+        },
+        {
+            "name": "Miles Teller",
+            "role": "Peter Hayes"
+        },
+        {
+            "name": "Ansel Elgort",
+            "role": "Caleb Prior"
+        },
+        {
+            "name": "Jai Courtney",
+            "role": "Eric Coulter"
+        },
+        {
+            "name": "Octavia Spencer",
+            "role": "Johanna Reyes"
+        }
+    ],
+    "synopsis": "Beatrice Prior must confront her inner demons and continue her fight against a powerful alliance which threatens to tear her society apart with the help from others on her side.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": "Divergent",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

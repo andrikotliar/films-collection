@@ -1,0 +1,101 @@
+{
+    "id": 256,
+    "title": "The Hunger Games",
+    "poster": "hunger_games_1",
+    "trailer": "mfmrPu43DF8",
+    "genres": [
+        "Sci-Fi",
+        "Adventure"
+    ],
+    "production": [
+        "Lionsgate"
+    ],
+    "director": "Gary Ross",
+    "producers": "Nina Jacobson, Jon Kilik",
+    "writtens": "Gary Ross, Suzanne Collins, Billy Ray",
+    "music": "James Newton Howard",
+    "cinema": "Tom Stern",
+    "year": 2012,
+    "time": 142,
+    "country": "USA",
+    "budget": "78 million",
+    "boxoffice": "694 million",
+    "actors": [
+        {
+            "name": "Jennifer Lawrence",
+            "role": "Katniss Everdeen"
+        },
+        {
+            "name": "Josh Hutcherson",
+            "role": "Peeta Mellark"
+        },
+        {
+            "name": "Liam Hemsworth",
+            "role": "Gale Hawthorne"
+        },
+        {
+            "name": "Woody Harrelson",
+            "role": "Haymitch Abernathy"
+        },
+        {
+            "name": "Elizabeth Banks",
+            "role": "Effie Trinket"
+        },
+        {
+            "name": "Lenny Kravitz",
+            "role": "Cinna"
+        },
+        {
+            "name": "Stanley Tucci",
+            "role": "Caesar Flickerman"
+        },
+        {
+            "name": "Donald Sutherland",
+            "role": "President Coriolanus Snow"
+        }
+    ],
+    "synopsis": "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death.",
+    "categories": [
+        "special-favorite"
+    ],
+    "awards": [
+        {
+            "title": "BAFTA",
+            "nominations": [
+                "Best Feature Film"
+            ]
+        },
+        {
+            "title": "Academy of Science Fiction, Fantasy & Horror Films",
+            "nominations": [
+                "Best Actress (Jennifer Lawrence)"
+            ]
+        },
+        {
+            "title": "Empire Awards",
+            "nominations": [
+                "Best Actress (Jennifer Lawrence)"
+            ]
+        },
+        {
+            "title": "Grammy",
+            "nominations": [
+                "Best Song Written for Visual Media"
+            ]
+        },
+        {
+            "title": "MTV Movie + TV",
+            "nominations": [
+                "Best Male Performance",
+                "Best Female Performance",
+                "Best On-Screen Transformation",
+                "Best Fight"
+            ]
+        }
+    ],
+    "parts": "The Hunger Games",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

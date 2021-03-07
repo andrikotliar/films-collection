@@ -1,0 +1,59 @@
+{
+    "id": 262,
+    "title": "Allegiant",
+    "poster": "divergent_3",
+    "trailer": "0G0C-vMHcQY",
+    "genres": [
+        "Adventure",
+        "Action"
+    ],
+    "production": [
+        "Summit-Entertainment"
+    ],
+    "director": "Robert Schwentke",
+    "producers": "Lucy Fisher, Pouya Shahbazian, Douglas Wick",
+    "writtens": "Noah Oppenheim, Adam Cooper, Bill Collage",
+    "music": "Joseph Trapanese",
+    "cinema": "Florian Ballhaus",
+    "year": 2015,
+    "time": 119,
+    "country": "USA, Canada",
+    "budget": "110 million",
+    "boxoffice": "297 million",
+    "actors": [
+        {
+            "name": "Shailene Woodley",
+            "role": "Tris"
+        },
+        {
+            "name": "Theo James",
+            "role": "Four"
+        },
+        {
+            "name": "Jeff Daniels",
+            "role": "David"
+        },
+        {
+            "name": "Miles Teller",
+            "role": "Peter"
+        },
+        {
+            "name": "Ansel Elgort",
+            "role": "Caleb"
+        },
+        {
+            "name": "Zoë Kravitz",
+            "role": "Christina"
+        }
+    ],
+    "synopsis": "After the earth-shattering revelations of Insurgent, Tris must escape with Four beyond the wall that encircles Chicago, to finally discover the shocking truth of the world around them.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": "Divergent",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

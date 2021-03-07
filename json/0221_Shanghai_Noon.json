@@ -1,0 +1,67 @@
+{
+    "id": 239,
+    "title": "Shanghai Noon",
+    "poster": "shanghai_noon",
+    "trailer": "C6tduzl-EY8",
+    "genres": [
+        "Adventure",
+        "Comedy"
+    ],
+    "production": [
+        "Touchstone-Pictures",
+        "Spyglass-Entertainment"
+    ],
+    "director": "Tom Dey",
+    "producers": "Gary Barber, Roger Birnbau, Jonathan Glickmanm",
+    "writtens": "Miles Millar, Alfred Gough",
+    "music": "Randy Edelman",
+    "cinema": "Dan Mindel",
+    "year": 2000,
+    "time": 110,
+    "country": "USA, Hong Kong",
+    "budget": "55 million",
+    "boxoffice": "99 million",
+    "actors": [
+        {
+            "name": "Jackie Chan",
+            "role": "Chon Wang"
+        },
+        {
+            "name": "Owen Wilson",
+            "role": "Roy O'Bannon"
+        },
+        {
+            "name": "Lucy Liu",
+            "role": "Princess Pei Pei"
+        },
+        {
+            "name": "Brandon Merrill",
+            "role": "Indian Wife"
+        },
+        {
+            "name": "Roger Yuan",
+            "role": "Lo Fong"
+        },
+        {
+            "name": "Xander Berkeley",
+            "role": "Van Cleef"
+        }
+    ],
+    "synopsis": "A Chinese man travels to the Wild West to rescue a kidnapped Princess. After teaming up with a train robber, the unlikely duo takes on a Chinese traitor and his corrupt boss.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": [
+        {
+            "title": "Blockbuster Entertainment Awards",
+            "nominations": [
+                "Favorite Supporting Actress - Action"
+            ]
+        }
+    ],
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}
