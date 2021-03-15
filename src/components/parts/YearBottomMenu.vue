@@ -70,5 +70,8 @@
 		.year-b-menu {
 			flex-direction: column;
 		}
+		.year-b-menu__link {
+			width: 100%;
+		}
 	}
 </style>
