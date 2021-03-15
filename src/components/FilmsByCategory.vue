@@ -100,6 +100,8 @@
 
 <style>
 	.category-title {
+		color: var(--base-color);
+		font-size: 30px;
 		text-transform: uppercase;
 		margin-bottom: 20px;
 	}
@@ -107,9 +109,10 @@
 		text-transform: initial;
 	}
 	.load-more {
+		display: flex;
+		justify-content: center;
 		width: 100%;
 		margin: 15px 0;
-		text-align: center;
 	}
 	.load-more__btn {
 		color: #fff;
