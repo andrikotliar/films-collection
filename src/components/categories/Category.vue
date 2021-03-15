@@ -1,20 +1,19 @@
 <template>
 	<div class="category">
 		<div class="category__header">
-			<h2 class="category__title"> {{title}} </h2>
+			<h2 class="category__title"> 
+				<router-link :to="`/${setLink}/${category}/`">{{title}}</router-link>
+			</h2>
+			<div class="category__count">{{setCategory.length}} films</div>
 		</div>
 		<div class="category__body">
-			<div v-for="(film, index) in reverseFilms.slice(0,5)" class="movie" :key="index">
+			<div v-for="(film, index) in reverseFilms.slice(0,6)" class="movie" :key="index">
 				<router-link :to="'/film/' + film.id" class="movie__link">
 					<img :src="`images/posters/${film.poster}.webp`" :alt="film.title" class="movie__poster">
 				</router-link>
 			</div>
-			<div class="movie movie--all">
-				<router-link :to="`/${setLink}/${category}/`">
-					View <br> {{allFilmsInCategory}}
-				</router-link>
-			</div>
 		</div>
+		<router-link :to="`/${setLink}/${category}`" class="category__btn">View category</router-link>
 	</div>
 </template>
 <script>
@@ -53,13 +52,6 @@
 				else {
 					return 'categories';
 				}
-			},
-			allFilmsInCategory() {
-				if(this.setCategory.length > 6) {
-					return `${this.setCategory.length - 5} more`
-				} else {
-					return 'category'
-				}
 			}
 		},
 		mounted() {
@@ -70,18 +62,39 @@
 <style>
 	.category {
 		width: 100%;
-		margin-bottom: 40px;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		border-bottom: 2px solid #d2d2d2;
+	}
+	.category:last-child {
+		border-bottom: 0;
 	}
 	.category__header {
-		color: #fff;
-		padding: 8px 20px;
-		background-color: #008bea;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		color: var(--base-color);
 		margin-bottom: 15px;
-		border-left: 10px solid #006db7;
 	}
 	.category__title {
+		font-size: 30px;
+		font-weight: bold;
+		line-height: 1;
+	}
+	.category__count {
 		font-size: 18px;
-		font-weight: 100;
+	}
+	@media (max-width: 450px) {
+		.category__header {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+		.category__title {
+			font-size: 20px;
+		}
+		.category__count {
+			font-size: 14px;
+		}
 	}
 	.category__body {
 		display: flex;
@@ -103,6 +116,22 @@
 		font-size: 2rem;
 		font-weight: bold;
 		background-color: rgba(0,0,0,.6);
+	}
+	.category__btn {
+		display: block;
+		width: 200px; 
+		color: var(--base-color);
+		font-weight: bold;
+		text-align: center;
+		margin: 20px auto 0;
+		padding: 10px 20px;
+		border: 3px solid var(--base-color);
+		margin-top: 20px;
+		transition: .3s;
+	}
+	.category__btn:hover {
+		color: #fff;
+		background-color: var(--base-color);
 	}
 	@media (max-width: 1300px) {
 		.category__body {
@@ -137,10 +166,6 @@
 		width: 100%;
 		height: 100%;
 		display: block;
-	}
-	.movie--all:hover {
-		box-shadow: none;
-		background-color: #d0d0d0;		
 	}
 	.movie--list {
 		color: #fff;
