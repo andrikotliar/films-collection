@@ -1,0 +1,65 @@
+{
+    "id": 296,
+    "title": "Shrek",
+    "poster": "shrek_1",
+    "trailer": "CwXOrWvPBPk",
+    "genres": [
+        "Adventure",
+        "Animation",
+        "Comedy"
+    ],
+    "production": [
+        "DreamWorks-Animation"
+    ],
+    "director": "Andrew Adamson, Vicky Jenson",
+    "producers": "Aron Warner, John H. Williams, Jeffrey Katzenberg",
+    "writtens": "Ted Elliott, Terry Rossio, Joe Stillman, Roger S. H. Schulman",
+    "music": "Harry Gregson-Williams, John Powell",
+    "cinema": null,
+    "year": 2001,
+    "time": 90,
+    "country": "USA, Japan",
+    "budget": "60 million",
+    "boxoffice": "488 million",
+    "actors": [
+        {
+            "name": "Mike Myers",
+            "role": "Shrek"
+        },
+        {
+            "name": "Eddie Murphy",
+            "role": "Donkey"
+        },
+        {
+            "name": "Cameron Diaz",
+            "role": "Fiona"
+        },
+        {
+            "name": "John Lithgow",
+            "role": "Lord Farquaad"
+        }
+    ],
+    "synopsis": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.",
+    "categories": [
+        "most-watched"
+    ],
+    "awards": [
+        {
+            "title": "Oscar",
+            "nominations": [
+                "Best Animated Feature"
+            ]
+        },
+        {
+            "title": "BAFTA",
+            "nominations": [
+                "Best Screenplay (Adapted)"
+            ]
+        }
+    ],
+    "parts": "Shrek",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

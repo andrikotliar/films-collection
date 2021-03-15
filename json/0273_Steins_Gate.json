@@ -1,0 +1,97 @@
+{
+    "id": 282,
+    "title": "Steins;Gate",
+    "poster": "steins_gate",
+    "trailer": null,
+    "genres": [
+        "Sci-Fi",
+        "Drama",
+        "Anime"
+    ],
+    "production": [
+        "White-Fox"
+    ],
+    "director": "Hiroshi Hamasaki, Takuya Satō, Kenichi Kawamura",
+    "producers": "Kenjirō Gomi, Takayuki Matsunaga, Yoshito Danno, Shinsaku Tanaka, Kozue Kananiwa, Yoshinao Doi",
+    "writtens": "Jukki Hanada",
+    "music": "Jun Murakami, Takeshi Abo, Nobuaki Nobusawa, Moe Hyūga",
+    "cinema": null,
+    "year": 2011,
+    "time": 24,
+    "country": "Japan",
+    "budget": null,
+    "boxoffice": null,
+    "actors": [
+        {
+            "name": "Mamoru Miyano",
+            "role": "Rintaro Okabe"
+        },
+        {
+            "name": "Asami Imai",
+            "role": "Kurisu Makise"
+        },
+        {
+            "name": "Kana Hanazawa",
+            "role": "Mayuri Shiina"
+        },
+        {
+            "name": "Tomokazu Seki",
+            "role": "Itaru \"Daru\" Hashida"
+        },
+        {
+            "name": "Yukari Tamura",
+            "role": "Suzuha Amane"
+        },
+        {
+            "name": "Yū Kobayashi",
+            "role": "Ruka Urushibara"
+        },
+        {
+            "name": "Haruko Momoi",
+            "role": "Faris NyanNyan"
+        },
+        {
+            "name": "Saori Gotō",
+            "role": "Moeka Kiryu"
+        },
+        {
+            "name": "Masaki Terasoma",
+            "role": "Yugo \"Mr. Braun\" Tennouji"
+        },
+        {
+            "name": "Sayuri Yahagi",
+            "role": "Maho Hiyajo"
+        },
+        {
+            "name": "Megumi Han",
+            "role": "Kagari Shiina"
+        },
+        {
+            "name": "Yukari Tamura",
+            "role": "Yuki Amane"
+        },
+        {
+            "name": "Yōji Ueda",
+            "role": "Alexis Leskinen"
+        }
+    ],
+    "synopsis": "After discovering time travel, a university student and his colleagues must use their knowledge of it to stop an evil organization and their diabolical plans.",
+    "categories": [
+        "series"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "series",
+        "data": [
+            {
+                "episodes": "24",
+                "trailer": "dd7BILZcYAY"
+            },
+            {
+                "episodes": "23",
+                "trailer": "1xJbdY9B3A8"
+            }
+        ]
+    }
+}

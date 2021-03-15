@@ -1,0 +1,83 @@
+{
+    "id": 265,
+    "title": "Spider-Man 2",
+    "poster": "raimi_spider_man_2",
+    "trailer": "1s9Yln0YwCw",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Columbia-Pictures",
+        "Marvel-Enterprises"
+    ],
+    "director": "Sam Raimi",
+    "producers": "Avi Arad, Laura Ziskin",
+    "writtens": "Alvin Sargent",
+    "music": "Danny Elfman",
+    "cinema": "Bill Pope",
+    "year": 2004,
+    "time": 127,
+    "country": "USA",
+    "budget": "200 million",
+    "boxoffice": "789 million",
+    "actors": [
+        {
+            "name": "Tobey Maguire",
+            "role": "Spider-Man / Peter Parker"
+        },
+        {
+            "name": "Alfred Molina",
+            "role": "Doc Ock / Dr. Otto Octavius"
+        },
+        {
+            "name": "Kirsten Dunst",
+            "role": "Mary Jane Watson"
+        },
+        {
+            "name": "James Franco",
+            "role": "Harry Osborn"
+        },
+        {
+            "name": "Rosemary Harris",
+            "role": "May Parker"
+        },
+        {
+            "name": "J.K. Simmons",
+            "role": "J. Jonah Jameson"
+        }
+    ],
+    "synopsis": "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": [
+        {
+            "title": "Oscar",
+            "nominations": [
+                "Best Achievement in Visual Effects"
+            ]
+        },
+        {
+            "title": "Saturn Award",
+            "nominations": [
+                "Best Fantasy Film",
+                "Best Actor",
+                "Best Director",
+                "Best Writer",
+                "Best Special Effects"
+            ]
+        },
+        {
+            "title": "Empire Award",
+            "nominations": [
+                "Best Director"
+            ]
+        }
+    ],
+    "parts": "Raimi's Spider-Man",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

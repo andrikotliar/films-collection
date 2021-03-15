@@ -1,0 +1,119 @@
+{
+    "id": 276,
+    "title": "Sword Art Online",
+    "poster": "sao",
+    "trailer": null,
+    "genres": [
+        "Adventure",
+        "Anime"
+    ],
+    "production": [
+        "A-1-Pictures"
+    ],
+    "director": "Tomohiko Itô, Morio Asaka",
+    "producers": "Kazuma Miki",
+    "writtens": "Yukito Kizawa, Muneo Nakamoto, Yukie Sugawara",
+    "music": "Yuki Kajiura",
+    "cinema": null,
+    "year": 2012,
+    "time": 23,
+    "country": "Japan",
+    "budget": null,
+    "boxoffice": null,
+    "actors": [
+        {
+            "name": "Yoshitsugu Matsuoka",
+            "role": "Kirito"
+        },
+        {
+            "name": "Haruka Tomatsu",
+            "role": "Asuna"
+        },
+        {
+            "name": "Ayana Taketatsu",
+            "role": "Leafa"
+        },
+        {
+            "name": "Miyuki Sawashiro",
+            "role": "Sinon"
+        },
+        {
+            "name": "Ai Kayano",
+            "role": "Alice"
+        },
+        {
+            "name": "Kanae Itô",
+            "role": "Yui"
+        },
+        {
+            "name": "Ayahi Takagaki",
+            "role": "Lisbeth"
+        },
+        {
+            "name": "Nobunaga Shimazaki",
+            "role": "Eugeo"
+        },
+        {
+            "name": "Hiroaki Hirata",
+            "role": "Klein"
+        },
+        {
+            "name": "Rina Hidaka",
+            "role": "Silica"
+        },
+        {
+            "name": "Toshiyuki Morikawa",
+            "role": "Kikuoka"
+        },
+        {
+            "name": "Hiroki Yasumoto",
+            "role": "Agil"
+        },
+        {
+            "name": "Ben Diskin",
+            "role": "Death Gun"
+        },
+        {
+            "name": "Maaya Sakamoto",
+            "role": "Administrator"
+        },
+        {
+            "name": "Sakura Tange",
+            "role": "Cardinal"
+        },
+        {
+            "name": "Kôichi Yamadera",
+            "role": "Akihiko Kayaba"
+        }
+    ],
+    "synopsis": "In the year 2022, thousands of people get trapped in a new virtual MMORPG and the lone wolf player, Kirito, works to escape.",
+    "categories": [
+        "series"
+    ],
+    "awards": [
+        {
+            "title": "Tokyo Anime Award",
+            "nominations": [
+                "Best Original Story"
+            ]
+        }
+    ],
+    "parts": "Sword Art Online",
+    "type": {
+        "value": "series",
+        "data": [
+            {
+                "episodes": "25",
+                "trailer": "OsLY7DXWsF4"
+            },
+            {
+                "episodes": "24",
+                "trailer": "qCLC5Iva7mA"
+            },
+            {
+                "episodes": "47",
+                "trailer": "8JPUA2U-rSY"
+            }
+        ]
+    }
+}

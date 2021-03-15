@@ -1,0 +1,68 @@
+{
+    "id": 295,
+    "title": "The League of Extraordinary Gentlemen",
+    "poster": "league_of_extraordinary_gentlemen",
+    "trailer": "_WWIiTlGyYQ",
+    "genres": [
+        "Adventure",
+        "Fantasy",
+        "Action"
+    ],
+    "production": [
+        "20th-Century-FOX"
+    ],
+    "director": "Stephen Norrington",
+    "producers": "Don Murphy",
+    "writtens": "James Robinson",
+    "music": "Trevor Jones",
+    "cinema": "Dan Laustsen",
+    "year": 2003,
+    "time": 110,
+    "country": "USA, Germany, Czech Republic, UK",
+    "budget": "78 million",
+    "boxoffice": "179 million",
+    "actors": [
+        {
+            "name": "Sean Connery",
+            "role": "Allan Quatermain"
+        },
+        {
+            "name": "Naseeruddin Shah",
+            "role": "Captain Nemo"
+        },
+        {
+            "name": "Peta Wilson",
+            "role": "Mina Harker"
+        },
+        {
+            "name": "Tony Curran",
+            "role": "Rodney Skinner"
+        },
+        {
+            "name": "Stuart Townsend",
+            "role": "Dorian Gray"
+        },
+        {
+            "name": "Shane West",
+            "role": "Tom Sawyer"
+        },
+        {
+            "name": "Jason Flemyng",
+            "role": "Dr. Henry Jekyll / Edward Hyde"
+        },
+        {
+            "name": "Richard Roxburgh",
+            "role": "M"
+        }
+    ],
+    "synopsis": "In an alternate Victorian Age world, a group of famous contemporary fantasy, science fiction, and adventure characters team up on a secret mission.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

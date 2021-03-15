@@ -1,0 +1,78 @@
+{
+    "id": 289,
+    "title": "Big Hero 6",
+    "poster": "big_hero_six",
+    "trailer": "z3biFxZIJOQ",
+    "genres": [
+        "Adventure",
+        "Animation"
+    ],
+    "production": [
+        "Walt-Disney-Animation-Studios"
+    ],
+    "director": "Don Hall, Chris Williams",
+    "producers": "Roy Conli",
+    "writtens": "Jordan Roberts, Robert L. Baird, Daniel Gerson",
+    "music": "Henry Jackman",
+    "cinema": "Rob Dressel",
+    "year": 2014,
+    "time": 102,
+    "country": "USA, Japan",
+    "budget": "165 million",
+    "boxoffice": "658 million",
+    "actors": [
+        {
+            "name": "Scott Adsit",
+            "role": "Baymax"
+        },
+        {
+            "name": "Ryan Potter",
+            "role": "Hiro"
+        },
+        {
+            "name": "Daniel Henney",
+            "role": "Tadashi"
+        },
+        {
+            "name": "T.J. Miller",
+            "role": "Fred"
+        },
+        {
+            "name": "Jamie Chung",
+            "role": "Go Go"
+        },
+        {
+            "name": "Damon Wayans Jr.",
+            "role": "Wasabi"
+        },
+        {
+            "name": "Genesis Rodriguez",
+            "role": "Honey Lemon"
+        },
+        {
+            "name": "James Cromwell",
+            "role": "Robert Callaghan"
+        },
+        {
+            "name": "Alan Tudyk",
+            "role": "Alistair Krei"
+        }
+    ],
+    "synopsis": "A special bond develops between plus-sized inflatable robot Baymax and prodigy Hiro Hamada, who together team up with a group of friends to form a band of high-tech heroes.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": [
+        {
+            "title": "Oscar",
+            "nominations": [
+                "Best Animated Feature Film of the Year"
+            ]
+        }
+    ],
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

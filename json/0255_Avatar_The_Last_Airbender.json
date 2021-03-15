@@ -1,0 +1,129 @@
+{
+    "id": 273,
+    "title": "Avatar: The Last Airbender",
+    "poster": "last_airbender",
+    "trailer": null,
+    "genres": [
+        "Adventure",
+        "Fantasy",
+        "Animation"
+    ],
+    "production": [
+        "Nickelodeon-Animation-Studios"
+    ],
+    "director": "Michael Dante DiMartino, Bryan Konietzko",
+    "producers": "Michael Dante DiMartino, Bryan Konietzko",
+    "writtens": "Aaron Ehasz (head writer), John O'Bryan, Elizabeth Welch Ehasz, Tim Hedrick, Joshua Hamilton, Michael Dante DiMartino, Bryan Konietzko",
+    "music": "Benjamin Wynn, Jeremy Zuckerman",
+    "cinema": null,
+    "year": 2005,
+    "time": 23,
+    "country": "USA",
+    "budget": null,
+    "boxoffice": null,
+    "actors": [
+        {
+            "name": "Zach Tyler",
+            "role": "Aang"
+        },
+        {
+            "name": "Mae Whitman",
+            "role": "Katara"
+        },
+        {
+            "name": "Jack De Sena",
+            "role": "Sokka"
+        },
+        {
+            "name": "Dante Basco",
+            "role": "Zuko"
+        },
+        {
+            "name": "Michaela Jill Murphy",
+            "role": "Toph"
+        },
+        {
+            "name": "Mako",
+            "role": "Airo"
+        },
+        {
+            "name": "Grey Griffin",
+            "role": "Azula"
+        },
+        {
+            "name": "André Sogliuzzo",
+            "role": "Hakoda"
+        },
+        {
+            "name": "Cricket Leigh",
+            "role": "Mai"
+        },
+        {
+            "name": "Olivia Hack",
+            "role": "Ty Lee"
+        },
+        {
+            "name": "James Garrett",
+            "role": "Roku"
+        },
+        {
+            "name": "Jason Isaacs",
+            "role": "Zhao"
+        },
+        {
+            "name": "Clancy Brown",
+            "role": "Long Feng"
+        },
+        {
+            "name": "Johanna Braddy",
+            "role": "Princess Yue"
+        },
+        {
+            "name": "Jennie Kwan",
+            "role": "Suki"
+        }
+    ],
+    "synopsis": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
+    "categories": [
+        "special-favorite",
+        "most-watched",
+        "series"
+    ],
+    "awards": [
+        {
+            "title": "Emmy",
+            "nominations": [
+                "Outstanding Individual Achievement in Animation"
+            ]
+        },
+        {
+            "title": "Annie",
+            "nominations": [
+                "Best Animated Television Production Produced for Children",
+                "Best Directing in an Animated Television Production or Short Form",
+                "Best Character Animation in a Television Production",
+                "Best Directing in an Animated Television Production",
+                "Best Storyboarding in an Animated Television Production",
+                "Best Animated Television Production"
+            ]
+        }
+    ],
+    "parts": "The Last Airbender",
+    "type": {
+        "value": "series",
+        "data": [
+            {
+                "episodes": "20",
+                "trailer": "d1EnW4kn1kg"
+            },
+            {
+                "episodes": "20",
+                "trailer": "d1EnW4kn1kg"
+            },
+            {
+                "episodes": "21",
+                "trailer": "d1EnW4kn1kg"
+            }
+        ]
+    }
+}

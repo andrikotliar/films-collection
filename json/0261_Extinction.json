@@ -1,0 +1,59 @@
+{
+    "id": 279,
+    "title": "Extinction",
+    "poster": "extinction",
+    "trailer": "-ePDPGXkvlw",
+    "genres": [
+        "Sci-Fi",
+        "Drama"
+    ],
+    "production": [
+        "Netflix"
+    ],
+    "director": "Ben Young",
+    "producers": "David Hoberman, Todd Lieberman",
+    "writtens": "Spenser Cohen, Brad Kane",
+    "music": "The Newton Brothers",
+    "cinema": "Pedro Luque",
+    "year": 2018,
+    "time": 95,
+    "country": "USA",
+    "budget": null,
+    "boxoffice": "1 million",
+    "actors": [
+        {
+            "name": "Michael Pena",
+            "role": "Peter"
+        },
+        {
+            "name": "Lizzy Caplan",
+            "role": "Alice"
+        },
+        {
+            "name": "Mike Colter",
+            "role": "David"
+        },
+        {
+            "name": "Amelia Crouch",
+            "role": "Hanna"
+        },
+        {
+            "name": "Erica Tremblay",
+            "role": "Lucy"
+        },
+        {
+            "name": "Israel Broussard",
+            "role": "Miles"
+        }
+    ],
+    "synopsis": "A father has a recurring dream of losing his family. His nightmare turns into reality when the planet is invaded by a force bent on destruction. Fighting for their lives, he comes to realize an unknown strength to keep them safe from harm.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

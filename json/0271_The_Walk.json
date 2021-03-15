@@ -1,0 +1,70 @@
+{
+    "id": 280,
+    "title": "The Walk",
+    "poster": "walk",
+    "trailer": "4W6byFcD5uE",
+    "genres": [
+        "Adventure"
+    ],
+    "production": [
+        "Sony-Pictures-Entertainment"
+    ],
+    "director": "Robert Zemeckis",
+    "producers": "Jack Rapke, Steve Starkey, Robert Zemeckis",
+    "writtens": "Robert Zemeckis, Christopher Browne",
+    "music": "Alan Silvestri",
+    "cinema": "Dariusz Wolski",
+    "year": 2015,
+    "time": 123,
+    "country": "USA",
+    "budget": "35 million",
+    "boxoffice": "61 million",
+    "actors": [
+        {
+            "name": "Joseph Gordon-Levitt",
+            "role": "Philippe Petit"
+        },
+        {
+            "name": "Charlotte Le Bon",
+            "role": "Annie Allix"
+        },
+        {
+            "name": "Ben Kingsley",
+            "role": "Papa Rudy"
+        },
+        {
+            "name": "Clément Sibony",
+            "role": "Jean-Louis"
+        },
+        {
+            "name": "James Badge Dale",
+            "role": "Jean-Pierre"
+        },
+        {
+            "name": "César Domboy",
+            "role": "Jeff"
+        },
+        {
+            "name": "Ben Schwartz",
+            "role": "Albert"
+        },
+        {
+            "name": "Benedict Samuel",
+            "role": "David"
+        },
+        {
+            "name": "Steve Valentine",
+            "role": "Barry Greenhouse"
+        }
+    ],
+    "synopsis": "In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream: to walk the immense void between the World Trade Center towers.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

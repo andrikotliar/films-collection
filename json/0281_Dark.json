@@ -1,0 +1,155 @@
+{
+    "id": 291,
+    "title": "Dark",
+    "poster": "dark",
+    "trailer": null,
+    "genres": [
+        "Fantasy",
+        "Drama"
+    ],
+    "production": [
+        "Netflix"
+    ],
+    "director": "Baran bo Odar, Jantje Friese",
+    "producers": "Justyna Müsch, Jantje Friese, Quirin Berg, Max Wiedemann, Baran bo Odar",
+    "writtens": "Jantje Friese, Ronny Schalk, Marc O. Seng, Martin Behnke, Daphne Ferraro",
+    "music": "Ben Frost",
+    "cinema": "Nikolaus Summerer",
+    "year": 2017,
+    "time": 60,
+    "country": "Germany, USA",
+    "budget": null,
+    "boxoffice": null,
+    "actors": [
+        {
+            "name": "Louis Hofmann",
+            "role": "Jonas Kahnwald"
+        },
+        {
+            "name": "Karoline Eichhorn",
+            "role": "Charlotte Doppler"
+        },
+        {
+            "name": "Lisa Vicari",
+            "role": "Martha Nielsen"
+        },
+        {
+            "name": "Maja Schöne",
+            "role": "Hannah Kahnwald"
+        },
+        {
+            "name": "Stephan Kampwirth",
+            "role": "Peter Doppler"
+        },
+        {
+            "name": "Jördis Triebel",
+            "role": "Katharina Nielsen"
+        },
+        {
+            "name": "Andreas Pietschmann",
+            "role": "The Stranger"
+        },
+        {
+            "name": "Paul Lux",
+            "role": "Bartosz Tiedemann"
+        },
+        {
+            "name": "Moritz Jahn",
+            "role": "Magnus Nielsen"
+        },
+        {
+            "name": "Christian Hutcherson",
+            "role": "Magnus Nielsen"
+        },
+        {
+            "name": "Oliver Masucci",
+            "role": "Ulrich Nielsen"
+        },
+        {
+            "name": "Peter Benedict",
+            "role": "Aleksander Tiedemann"
+        },
+        {
+            "name": "Gina Stiebitz",
+            "role": "Franziska Doppler"
+        },
+        {
+            "name": "Deborah Kaufmann",
+            "role": "Regina Tiedemann"
+        },
+        {
+            "name": "Julika Jenkins",
+            "role": "Claudia Tiedemann (1987)"
+        },
+        {
+            "name": "Carlotta von Falkenhayn",
+            "role": "Elisabeth Doppler"
+        },
+        {
+            "name": "Dietrich Hollinderbäumer",
+            "role": "Adam"
+        },
+        {
+            "name": "Mark Waschke",
+            "role": "Noah"
+        },
+        {
+            "name": "Hermann Beyer",
+            "role": "Helge Doppler"
+        },
+        {
+            "name": "Lisa Kreuzer",
+            "role": "Claudia Tiedemann"
+        },
+        {
+            "name": "Anne Ratte-Polle",
+            "role": "Ines Kahnwald (1986)"
+        },
+        {
+            "name": "Walter Kreye",
+            "role": "Tronte Nielsen"
+        },
+        {
+            "name": "Lydia Maria Makrides",
+            "role": "Regina Tiedemann (1986)"
+        },
+        {
+            "name": "Tom Philipp",
+            "role": "Helge Doppler (1953)"
+        },
+        {
+            "name": "Max Schimmelpfennig",
+            "role": "Young Noah"
+        }
+    ],
+    "synopsis": "A family saga with a supernatural twist, set in a German town, where the disappearance of two young children exposes the relationships among four families.",
+    "categories": [
+        "series"
+    ],
+    "awards": [
+        {
+            "title": "Jupyter",
+            "nominations": [
+                "Best German TV Actor"
+            ]
+        }
+    ],
+    "parts": null,
+    "type": {
+        "value": "series",
+        "data": [
+            {
+                "episodes": "10",
+                "trailer": "https://www.youtube.com/watch?v=rrwycJ08PSA"
+            },
+            {
+                "episodes": "8",
+                "trailer": "https://www.youtube.com/watch?v=810CHvSdXOo"
+            },
+            {
+                "episodes": "8",
+                "trailer": "https://www.youtube.com/watch?v=cq2iTHoLrt0"
+            }
+        ]
+    }
+}

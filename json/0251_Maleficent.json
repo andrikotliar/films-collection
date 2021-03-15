@@ -1,0 +1,73 @@
+{
+    "id": 269,
+    "title": "Maleficent",
+    "poster": "maleficent_1",
+    "trailer": "w-XO4XiRop0",
+    "genres": [
+        "Fantasy"
+    ],
+    "production": [
+        "Walt-Disney-Pictures"
+    ],
+    "director": "Robert Stromberg",
+    "producers": "Joe Roth",
+    "writtens": "Linda Woolverton",
+    "music": "James Newton Howard",
+    "cinema": "Dean Semler",
+    "year": 2014,
+    "time": 97,
+    "country": "USA, UK",
+    "budget": "180 million",
+    "boxoffice": "758 million",
+    "actors": [
+        {
+            "name": "Angelina Jolie",
+            "role": "Maleficent"
+        },
+        {
+            "name": "Elle Fanning",
+            "role": "Aurora"
+        },
+        {
+            "name": "Sharlto Copley",
+            "role": "Stefan"
+        },
+        {
+            "name": "Sam Riley",
+            "role": "Diaval"
+        },
+        {
+            "name": "Imelda Staunton",
+            "role": "Knotgrass"
+        },
+        {
+            "name": "Lesley Manville",
+            "role": "Flittle"
+        },
+        {
+            "name": "Juno Temple",
+            "role": "Thistletwit"
+        },
+        {
+            "name": "Brenton Thwaites",
+            "role": "Prince Phillip"
+        }
+    ],
+    "synopsis": "A vengeful fairy is driven to curse an infant princess, only to discover that the child may be the one person who can restore peace to their troubled land.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": [
+        {
+            "title": "Hollywood Film Award",
+            "nominations": [
+                "Production Designer of the Year"
+            ]
+        }
+    ],
+    "parts": "Maleficent",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

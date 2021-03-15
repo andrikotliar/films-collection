@@ -1,0 +1,68 @@
+{
+    "id": 292,
+    "title": "Focus",
+    "poster": "focus",
+    "trailer": "MxCRgtdAuBo",
+    "genres": [
+        "Drama",
+        "Comedy",
+        "Crime"
+    ],
+    "production": [
+        "Warner-Bros.-Pictures"
+    ],
+    "director": "Glenn Ficarra, John Requa",
+    "producers": "Denise Di Novi",
+    "writtens": "Glenn Ficarra, John Requa",
+    "music": "Nick Urata",
+    "cinema": "Xavier Grobet",
+    "year": 2015,
+    "time": 105,
+    "country": "USA, Argentina",
+    "budget": "50 million",
+    "boxoffice": "159 million",
+    "actors": [
+        {
+            "name": "Will Smith",
+            "role": "Nicky"
+        },
+        {
+            "name": "Margot Robbie",
+            "role": "Jess"
+        },
+        {
+            "name": "Adrian Martinez",
+            "role": "Farhad"
+        },
+        {
+            "name": "Gerald McRaney",
+            "role": "Owens"
+        },
+        {
+            "name": "Rodrigo Santoro",
+            "role": "Rafael Garriga"
+        },
+        {
+            "name": "B. D. Wong",
+            "role": "Liyuan Tse"
+        },
+        {
+            "name": "Robert Taylor",
+            "role": "McEwen"
+        },
+        {
+            "name": "Dominic Fumusa",
+            "role": "Jared Mukulski"
+        }
+    ],
+    "synopsis": "In the midst of veteran con man Nicky's latest scheme, a woman from his past - now an accomplished femme fatale - shows up and throws his plans for a loop.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

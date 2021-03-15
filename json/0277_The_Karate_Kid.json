@@ -1,0 +1,62 @@
+{
+    "id": 286,
+    "title": "The Karate Kid",
+    "poster": "karate_kid",
+    "trailer": "XY8amUImEu0",
+    "genres": [
+        "Action",
+        "Drama"
+    ],
+    "production": [
+        "Columbia-Pictures"
+    ],
+    "director": "Harald Zwart",
+    "producers": "James Lassiter, Jada Pinkett Smith, Will Smith, Ken Stovitz, Jerry Weintraub",
+    "writtens": "Christopher Murphey",
+    "music": "James Horner",
+    "cinema": "Roger Pratt",
+    "year": 2010,
+    "time": 140,
+    "country": "USA, China",
+    "budget": "40 million",
+    "boxoffice": "359 million",
+    "actors": [
+        {
+            "name": "Jaden Smith",
+            "role": "Dre Parker"
+        },
+        {
+            "name": "Jackie Chan",
+            "role": "Mr. Han"
+        },
+        {
+            "name": "Taraji P. Henson",
+            "role": "Sherry Parker"
+        },
+        {
+            "name": "Wenwen Han",
+            "role": "Meiying"
+        },
+        {
+            "name": "Rongguang Yu",
+            "role": "Master Li"
+        }
+    ],
+    "synopsis": "Work causes a single mother to move to China with her young son; in his new home, the boy embraces kung fu, taught to him by a master.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": [
+        {
+            "title": "Empire Award",
+            "nominations": [
+                "Best Newcomer"
+            ]
+        }
+    ],
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

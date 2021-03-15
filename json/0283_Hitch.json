@@ -1,0 +1,51 @@
+{
+    "id": 293,
+    "title": "Hitch",
+    "poster": "hitch",
+    "trailer": "dMaq_pfxs-0",
+    "genres": [
+        "Comedy",
+        "Romance"
+    ],
+    "production": [
+        "Columbia-Pictures"
+    ],
+    "director": "Andy Tennant",
+    "producers": "James Lassiter, Will Smith, Teddy Zee",
+    "writtens": "Kevin Bisch",
+    "music": "George Fenton",
+    "cinema": "Andrew Dunn",
+    "year": 2005,
+    "time": 118,
+    "country": "USA",
+    "budget": "70 million",
+    "boxoffice": "371 million",
+    "actors": [
+        {
+            "name": "Will Smith",
+            "role": "Hitch"
+        },
+        {
+            "name": "Eva Mendes",
+            "role": "Sara"
+        },
+        {
+            "name": "Kevin James",
+            "role": "Albert"
+        },
+        {
+            "name": "Amber Valletta",
+            "role": "Allegra"
+        }
+    ],
+    "synopsis": "A smooth-talking man falls for a hardened columnist while helping a shy accountant woo a beautiful heiress.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

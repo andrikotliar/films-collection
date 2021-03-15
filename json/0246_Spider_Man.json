@@ -1,0 +1,75 @@
+{
+    "id": 264,
+    "title": "Spider-Man",
+    "poster": "raimi_spider_man_1",
+    "trailer": "_yhFofFZGcc",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Columbia-Pictures",
+        "Marvel-Enterprises"
+    ],
+    "director": "Sam Raimi",
+    "producers": "Ian Bryce, Laura Ziskin",
+    "writtens": "David Koepp",
+    "music": "Danny Elfman",
+    "cinema": "Don Burgess",
+    "year": 2002,
+    "time": 121,
+    "country": "USA",
+    "budget": "139 million",
+    "boxoffice": "825 million",
+    "actors": [
+        {
+            "name": "Tobey Maguire",
+            "role": "Spider-Man / Peter Parker"
+        },
+        {
+            "name": "Willem Dafoe",
+            "role": "Green Goblin / Norman Osborn"
+        },
+        {
+            "name": "Kirsten Dunst",
+            "role": "Mary Jane Watson"
+        },
+        {
+            "name": "James Franco",
+            "role": "Harry Osborn"
+        },
+        {
+            "name": "Cliff Robertson",
+            "role": "Ben Parker"
+        },
+        {
+            "name": "Rosemary Harris",
+            "role": "May Parker"
+        },
+        {
+            "name": "J.K. Simmons",
+            "role": "J. Jonah Jameson"
+        },
+        {
+            "name": "Joe Manganiello",
+            "role": "Flash Thompson"
+        }
+    ],
+    "synopsis": "When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family.",
+    "categories": [
+        "most-watched"
+    ],
+    "awards": [
+        {
+            "title": "Empire Award",
+            "nominations": [
+                "Best Actress"
+            ]
+        }
+    ],
+    "parts": "Raimi's Spider-Man",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

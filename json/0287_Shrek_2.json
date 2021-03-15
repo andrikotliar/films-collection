@@ -1,0 +1,68 @@
+{
+    "id": 297,
+    "title": "Shrek 2",
+    "poster": "shrek_2",
+    "trailer": "xBgSfhp5Fxo",
+    "genres": [
+        "Adventure",
+        "Animation",
+        "Comedy"
+    ],
+    "production": [
+        "DreamWorks-Animation"
+    ],
+    "director": "Andrew Adamson, Kelly Asbury, Conrad Vernon",
+    "producers": "David Lipman, Aron Warner, John H. Williams",
+    "writtens": "Ted Elliott, Terry Rossio, Joe Stillman, Roger S. H. Schulman",
+    "music": "Harry Gregson-Williams",
+    "cinema": null,
+    "year": 2004,
+    "time": 93,
+    "country": "USA, Japan",
+    "budget": "150 million",
+    "boxoffice": "920 million",
+    "actors": [
+        {
+            "name": "Mike Myers",
+            "role": "Shrek"
+        },
+        {
+            "name": "Eddie Murphy",
+            "role": "Donkey"
+        },
+        {
+            "name": "Cameron Diaz",
+            "role": "Fiona"
+        },
+        {
+            "name": "Antonio Banderas",
+            "role": "Puss In Boots"
+        },
+        {
+            "name": "Julie Andrews",
+            "role": "Queen"
+        },
+        {
+            "name": "John Cleese",
+            "role": "King"
+        },
+        {
+            "name": "Rupert Everett",
+            "role": "Prince Charming"
+        },
+        {
+            "name": "Jennifer Saunders",
+            "role": "Fairy Godmother"
+        }
+    ],
+    "synopsis": "Shrek and Fiona travel to the Kingdom of Far Far Away, where Fiona's parents are King and Queen, to celebrate their marriage. When they arrive, they find they are not as welcome as they thought they would be.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": "Shrek",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

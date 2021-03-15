@@ -1,0 +1,76 @@
+{
+    "id": 266,
+    "title": "Spider-Man 3",
+    "poster": "raimi_spider_man_3",
+    "trailer": "wPosLpgMtTY",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "Columbia-Pictures",
+        "Marvel-Enterprises"
+    ],
+    "director": "Sam Raimi",
+    "producers": "Avi Arad, Laura Ziskin, Grant Curtis",
+    "writtens": "Sam Raimi, Ivan Raimi, Alvin Sargent",
+    "music": "Christopher Young",
+    "cinema": "Bill Pope",
+    "year": 2007,
+    "time": 139,
+    "country": "USA",
+    "budget": "258 million",
+    "boxoffice": "895 million",
+    "actors": [
+        {
+            "name": "Tobey Maguire",
+            "role": "Spider-Man / Peter Parker"
+        },
+        {
+            "name": "Kirsten Dunst",
+            "role": "Mary Jane Watson"
+        },
+        {
+            "name": "James Franco",
+            "role": "New Goblin / Harry Osborn"
+        },
+        {
+            "name": "Thomas Haden Church",
+            "role": "Sandman / Flint Marko"
+        },
+        {
+            "name": "Topher Grace",
+            "role": "Venom / Eddie Brock"
+        },
+        {
+            "name": "Bryce Dallas Howard",
+            "role": "Gwen Stacy"
+        },
+        {
+            "name": "Rosemary Harris",
+            "role": "May Parker"
+        },
+        {
+            "name": "J.K. Simmons",
+            "role": "J. Jonah Jameson"
+        },
+        {
+            "name": "James Cromwell",
+            "role": "Captain Stacy"
+        },
+        {
+            "name": "Dylan Baker",
+            "role": "Dr. Curt Connors"
+        }
+    ],
+    "synopsis": "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": "Raimi's Spider-Man",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

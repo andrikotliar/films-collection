@@ -1,0 +1,106 @@
+{
+    "id": 275,
+    "title": "Teenage Mutant Ninja Turtles",
+    "poster": "tmnt_2003",
+    "trailer": null,
+    "genres": [
+        "Action",
+        "Animation"
+    ],
+    "production": [
+        "Mirage-Studios",
+        "4Kids-Entertainment"
+    ],
+    "director": "Kevin Eastman, Peter Laird, Lloyd Goldfine",
+    "producers": "JoEllyn Marlow",
+    "writtens": "Kevin Eastman, Peter Laird",
+    "music": "Elik Alvarez, Rusty Andrews, Freddy Sheinfeld, Peter Scaturro, John R. Angier, Joel Douek, John Siegler",
+    "cinema": null,
+    "year": 2003,
+    "time": 30,
+    "country": "USA",
+    "budget": null,
+    "boxoffice": null,
+    "actors": [
+        {
+            "name": "Michael Sinterniklaas",
+            "role": "Leonardo"
+        },
+        {
+            "name": "Wayne Grayson",
+            "role": "Michelangelo"
+        },
+        {
+            "name": "Gregory Abbey",
+            "role": "Raphael"
+        },
+        {
+            "name": "Sam Riegel",
+            "role": "Donatello"
+        },
+        {
+            "name": "Darren Dunstan",
+            "role": "Splinter"
+        },
+        {
+            "name": "Marc Thompson",
+            "role": "Casey Jones"
+        },
+        {
+            "name": "Veronica Taylor",
+            "role": "April O'Neil"
+        },
+        {
+            "name": "Scott Rayow",
+            "role": "The Shredder"
+        },
+        {
+            "name": "David Zen Mansley",
+            "role": "Agent Bishop"
+        },
+        {
+            "name": "Greg Carey",
+            "role": "Hun"
+        },
+        {
+            "name": "Scott Williams",
+            "role": "Baxter Stockman"
+        },
+        {
+            "name": "Karen Neil",
+            "role": "Karai"
+        }
+    ],
+    "synopsis": "Teenage Mutant Ninja Turtles interfere with the plans of a mysterious clan, the head of which is their nemesis Shredder.",
+    "categories": [
+        "most-watched",
+        "series"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "series",
+        "data": [
+            {
+                "episodes": "26",
+                "trailer": "dRnRUtMHGow"
+            },
+            {
+                "episodes": "26",
+                "trailer": "dRnRUtMHGow"
+            },
+            {
+                "episodes": "26",
+                "trailer": "wtAdD8GWgOw"
+            },
+            {
+                "episodes": "26",
+                "trailer": "EhYF3AeAU7U"
+            },
+            {
+                "episodes": "12",
+                "trailer": "EhYF3AeAU7U"
+            }
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "id": 288,
+    "title": "The Wolverine",
+    "poster": "x_men_6",
+    "trailer": "toLpchTUYk8",
+    "genres": [
+        "Sci-Fi",
+        "Action"
+    ],
+    "production": [
+        "20th-Century-Fox",
+        "Marvel-Entertainment"
+    ],
+    "director": "James Mangold",
+    "producers": "Hutch Parker, Lauren Shuler Donner",
+    "writtens": "Mark Bomback, Scott Frank",
+    "music": "Marco Beltrami",
+    "cinema": "Ross Emery",
+    "year": 2013,
+    "time": 126,
+    "country": "USA, UK",
+    "budget": "132 million",
+    "boxoffice": "415 million",
+    "actors": [
+        {
+            "name": "Hugh Jackman",
+            "role": "Logan"
+        },
+        {
+            "name": "Tao Okamoto",
+            "role": "Mariko Yashida"
+        },
+        {
+            "name": "Hiroyuki Sanada",
+            "role": "Shingen Yashida"
+        },
+        {
+            "name": "Rila Fukushima",
+            "role": "Yukio"
+        },
+        {
+            "name": "Famke Janssen",
+            "role": "Jean Grey"
+        },
+        {
+            "name": "Svetlana Khodchenkova",
+            "role": "Dr. Green / Viper"
+        }
+    ],
+    "synopsis": "Wolverine comes to Japan to meet an old friend whose life he saved years ago, and gets embroiled in a conspiracy involving yakuza and mutants.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": "X-Men",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

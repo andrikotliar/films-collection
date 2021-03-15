@@ -1,0 +1,56 @@
+{
+    "id": 284,
+    "title": "King Arthur: Legend of the Sword",
+    "poster": "king_arthur",
+    "trailer": "jIM4-HLtUM0",
+    "genres": [
+        "Fantasy",
+        "Drama"
+    ],
+    "production": [
+        "Warner-Bros.",
+        "Village-Roadshow-Pictures"
+    ],
+    "director": "Guy Ritchie",
+    "producers": "Steve Clark-Hall, Akiva Goldsman, Joby Harold, Guy Ritchie, Tory Tunnell, Lionel Wigram",
+    "writtens": "Joby Harold, Guy Ritchie, Lionel Wigram",
+    "music": "Daniel Pemberton",
+    "cinema": "John Mathieson",
+    "year": 2017,
+    "time": 126,
+    "country": "USA, UK, Australia",
+    "budget": "175 million",
+    "boxoffice": "149 million",
+    "actors": [
+        {
+            "name": "Charlie Hunnam",
+            "role": "Arthur"
+        },
+        {
+            "name": "Astrid Bergès-Frisbey",
+            "role": "The Mage"
+        },
+        {
+            "name": "Jude Law",
+            "role": "Vortigern"
+        },
+        {
+            "name": "Djimon Hounsou",
+            "role": "Bedivere"
+        },
+        {
+            "name": "Eric Bana",
+            "role": "Uther"
+        }
+    ],
+    "synopsis": "Robbed of his birthright, Arthur comes up the hard way in the back alleys of the city. But once he pulls the sword from the stone, he is forced to acknowledge his true legacy - whether he likes it or not.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

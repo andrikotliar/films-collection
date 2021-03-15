@@ -1,0 +1,55 @@
+{
+    "id": 294,
+    "title": "xXx",
+    "poster": "xxx",
+    "trailer": "5yiLLn24pEg",
+    "genres": [
+        "Action",
+        "Thriller"
+    ],
+    "production": [
+        "Revolution-Studios"
+    ],
+    "director": "Rob Cohen",
+    "producers": "Neal H. Moritz",
+    "writtens": "Rich Wilkes",
+    "music": "Randy Edelman",
+    "cinema": "Dean Semler",
+    "year": 2002,
+    "time": 124,
+    "country": "USA",
+    "budget": "70 million",
+    "boxoffice": "277 million",
+    "actors": [
+        {
+            "name": "Vin Diesel",
+            "role": "Xander Cage"
+        },
+        {
+            "name": "Asia Argento",
+            "role": "Yelena"
+        },
+        {
+            "name": "Marton Csokas",
+            "role": "Yorgi"
+        },
+        {
+            "name": "Samuel L. Jackson",
+            "role": "Agent Augustus Gibbons"
+        },
+        {
+            "name": "Michael Roof",
+            "role": "Toby Lee Shavers"
+        }
+    ],
+    "synopsis": "An extreme sports athlete, Xander Cage, is recruited by the government on a special mission.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

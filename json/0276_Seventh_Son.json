@@ -1,0 +1,55 @@
+{
+    "id": 285,
+    "title": "Seventh Son",
+    "poster": "seventh_son",
+    "trailer": "TXiNkOjM7oM",
+    "genres": [
+        "Adventure",
+        "Fantasy"
+    ],
+    "production": [
+        "Legendary"
+    ],
+    "director": "Sergei Bodrov",
+    "producers": "Thomas Tull, Lionel Wigram",
+    "writtens": "Charles Leavitt, Steven Knight",
+    "music": "Marco Beltrami",
+    "cinema": "Newton Thomas Sigel",
+    "year": 2015,
+    "time": 102,
+    "country": "USA, UK, Canada, Chine",
+    "budget": "95 million",
+    "boxoffice": "114 million",
+    "actors": [
+        {
+            "name": "Jeff Bridges",
+            "role": "Master Gregory"
+        },
+        {
+            "name": "Ben Barnes",
+            "role": "Tom Ward"
+        },
+        {
+            "name": "Julianne Moore",
+            "role": "Malkin"
+        },
+        {
+            "name": "Alicia Vikander",
+            "role": "Alice"
+        },
+        {
+            "name": "Antje Traue",
+            "role": "Bony Lizzie"
+        }
+    ],
+    "synopsis": "When Mother Malkin, the queen of evil witches, escapes the pit she was imprisoned in by professional monster hunter Spook decades ago and kills his apprentice, he recruits young Tom, the seventh son of the seventh son, to help him.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

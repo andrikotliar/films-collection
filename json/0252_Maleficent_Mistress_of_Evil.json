@@ -1,0 +1,58 @@
+{
+    "id": 270,
+    "title": "Maleficent: Mistress of Evil",
+    "poster": "maleficent_2",
+    "trailer": "n0OFH4xpPr4",
+    "genres": [
+        "Fantasy"
+    ],
+    "production": [
+        "Walt-Disney-Pictures"
+    ],
+    "director": "Joachim Rønning",
+    "producers": "Duncan Henderson, Angelina Jolie, Joe Roth",
+    "writtens": "Linda Woolverton, Noah Harpster, Micah Fitzerman-Blue",
+    "music": "Geoff Zanelli",
+    "cinema": "Henry Braham",
+    "year": 2019,
+    "time": 119,
+    "country": "USA, UK",
+    "budget": "185 million",
+    "boxoffice": "492 million",
+    "actors": [
+        {
+            "name": "Angelina Jolie",
+            "role": "Maleficent"
+        },
+        {
+            "name": "Elle Fanning",
+            "role": "Aurora"
+        },
+        {
+            "name": "Harris Dickinson",
+            "role": "Prince Philip"
+        },
+        {
+            "name": "Michelle Pfeiffer",
+            "role": "Queen Ingrith"
+        },
+        {
+            "name": "Sam Riley",
+            "role": "Diaval"
+        },
+        {
+            "name": "Chiwetel Ejiofor",
+            "role": "Conall"
+        }
+    ],
+    "synopsis": "Maleficent and her goddaughter Aurora begin to question the complex family ties that bind them as they are pulled in different directions by impending nuptials, unexpected allies and dark new forces at play.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": "Maleficent",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

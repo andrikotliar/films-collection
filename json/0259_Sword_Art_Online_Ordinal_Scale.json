@@ -1,0 +1,55 @@
+{
+    "id": 277,
+    "title": "Sword Art Online: Ordinal Scale",
+    "poster": "sao_m1",
+    "trailer": "0d3i1DrhVaA",
+    "genres": [
+        "Adventure",
+        "Anime"
+    ],
+    "production": [
+        "A-1-Pictures"
+    ],
+    "director": "Tomohiko Itô",
+    "producers": "Yousuke Futami, Muneyuki Kanbe, Shin'ichirô Kashiwada, Kazuma Miki",
+    "writtens": "Tomohiko Itô, Reki Kawahara",
+    "music": "Yuki Kajiura",
+    "cinema": "Kentaro Waki",
+    "year": 2017,
+    "time": 119,
+    "country": "USA",
+    "budget": null,
+    "boxoffice": "29 million",
+    "actors": [
+        {
+            "name": "Yoshitsugu Matsuoka",
+            "role": "Kirito"
+        },
+        {
+            "name": "Haruka Tomatsu",
+            "role": "Asuna"
+        },
+        {
+            "name": "Sayaka Kanda",
+            "role": "Yuna"
+        },
+        {
+            "name": "Yoshio Inoue",
+            "role": "Eiji"
+        },
+        {
+            "name": "Takeshi Kaga",
+            "role": "Dr. Tetsuhiro Shigemura"
+        }
+    ],
+    "synopsis": "Kirito uncovers a conspiracy within Ordinal Scale, a popular AR game developed for a new system called The Augma.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": null,
+    "parts": "Sword Art Online",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

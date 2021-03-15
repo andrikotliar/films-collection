@@ -1,0 +1,85 @@
+{
+    "id": 263,
+    "title": "Titanic",
+    "poster": "titanic",
+    "trailer": "kVrqfYjkTdQ",
+    "genres": [
+        "Drama",
+        "Romance"
+    ],
+    "production": [
+        "20th-Century-FOX",
+        "Paramount-Pictures"
+    ],
+    "director": "James Cameron",
+    "producers": "James Cameron, Jon Landau",
+    "writtens": "James Cameron",
+    "music": "James Horner",
+    "cinema": "Russell Carpenter",
+    "year": 1997,
+    "time": 194,
+    "country": "USA",
+    "budget": "200 million",
+    "boxoffice": "2,4 billion",
+    "actors": [
+        {
+            "name": "Leonardo DiCaprio",
+            "role": "Jack Dawson"
+        },
+        {
+            "name": "Kate Winslet",
+            "role": "Rose Dewitt Bukater"
+        },
+        {
+            "name": "Billy Zane",
+            "role": "Cal Hockley"
+        },
+        {
+            "name": "Kathy Bates",
+            "role": "Molly Brown"
+        },
+        {
+            "name": "Frances Fisher",
+            "role": "Ruth Dewitt Bukater"
+        },
+        {
+            "name": "Gloria Stuart",
+            "role": "Old Rose"
+        }
+    ],
+    "synopsis": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+    "categories": [
+        "most-watched"
+    ],
+    "awards": [
+        {
+            "title": "Oscar",
+            "nominations": [
+                "Best Picture",
+                "Best Director",
+                "Best Cinematography",
+                "Best Art Direction-Set Decoration",
+                "Best Costume Design",
+                "Best Sound",
+                "Best Film Editing",
+                "Best Sound Effects Editing",
+                "Best Visual Effects",
+                "Best Music (Original Song)",
+                "Best Music (Original Dramatic Score)"
+            ]
+        },
+        {
+            "title": "Golden Globe",
+            "nominations": [
+                "Best Director - Motion Picture",
+                "Best Original Score - Motion Picture",
+                "Best Original Song - Motion Picture"
+            ]
+        }
+    ],
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

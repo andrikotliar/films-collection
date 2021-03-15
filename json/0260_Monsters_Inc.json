@@ -1,0 +1,85 @@
+{
+    "id": 278,
+    "title": "Monsters, Inc.",
+    "poster": "monsters_inc",
+    "trailer": "6tCxnHCqqxg",
+    "genres": [
+        "Adventure",
+        "Animation",
+        "Comedy"
+    ],
+    "production": [
+        "Pixar-Animation"
+    ],
+    "director": "Pete Docter",
+    "producers": "Darla K. Anderson",
+    "writtens": "Andrew Stanton, Daniel Gerson",
+    "music": "Randy Newman",
+    "cinema": null,
+    "year": 2001,
+    "time": 92,
+    "country": "USA",
+    "budget": "115 million",
+    "boxoffice": "580 million",
+    "actors": [
+        {
+            "name": "John Goodman",
+            "role": "Sullivan"
+        },
+        {
+            "name": "Billy Crystal",
+            "role": "Mike"
+        },
+        {
+            "name": "Mary Gibbs",
+            "role": "Boo"
+        },
+        {
+            "name": "Steve Buscemi",
+            "role": "Randall"
+        },
+        {
+            "name": "James Coburn",
+            "role": "Waternoose"
+        },
+        {
+            "name": "Jennifer Tilly",
+            "role": "Celia"
+        }
+    ],
+    "synopsis": "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, 2 monsters realize things may not be what they think.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": [
+        {
+            "title": "Oscar",
+            "nominations": [
+                "Best Music (Original Song)"
+            ]
+        },
+        {
+            "title": "BAFTA",
+            "nominations": [
+                "Best Feature Film"
+            ]
+        },
+        {
+            "title": "Annie",
+            "nominations": [
+                "Outstanding Character Animation"
+            ]
+        },
+        {
+            "title": "Grammy",
+            "nominations": [
+                "Best Song Written for Visual Media"
+            ]
+        }
+    ],
+    "parts": null,
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}

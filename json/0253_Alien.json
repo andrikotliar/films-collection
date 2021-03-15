@@ -1,0 +1,95 @@
+{
+    "id": 271,
+    "title": "Alien",
+    "poster": "alien_1",
+    "trailer": "jQ5lPt9edzQ",
+    "genres": [
+        "Sci-Fi",
+        "Horror"
+    ],
+    "production": [
+        "20th-Century-FOX"
+    ],
+    "director": "Ridley Scott",
+    "producers": "Gordon Carroll, David Giler, Walter Hill",
+    "writtens": "Dan O'Bannon",
+    "music": "Jerry Goldsmith",
+    "cinema": "Derek Vanlint",
+    "year": 1979,
+    "time": 117,
+    "country": "USA, UK",
+    "budget": "11 million",
+    "boxoffice": "106 million",
+    "actors": [
+        {
+            "name": "Sigourney Weaver",
+            "role": "Ripley"
+        },
+        {
+            "name": "Tom Skerritt",
+            "role": "Dallas"
+        },
+        {
+            "name": "Veronica Cartwright",
+            "role": "Lambert"
+        },
+        {
+            "name": "Harry Dean Stanton",
+            "role": "Brett"
+        },
+        {
+            "name": "John Hurt",
+            "role": "Kane"
+        },
+        {
+            "name": "Ian Holm",
+            "role": "Ash"
+        },
+        {
+            "name": "Yaphet Kotto",
+            "role": "Parker"
+        },
+        {
+            "name": "Bolaji Badejo",
+            "role": "Alien"
+        }
+    ],
+    "synopsis": "After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun.",
+    "categories": [
+        "uncategorised"
+    ],
+    "awards": [
+        {
+            "title": "Oscar",
+            "nominations": [
+                "Best Visual Effects"
+            ]
+        },
+        {
+            "title": "BAFTA",
+            "nominations": [
+                "Best Production Design",
+                "Best Sound Track"
+            ]
+        },
+        {
+            "title": "Saturn",
+            "nominations": [
+                "Best Science Fiction Film",
+                "Best Supporting Actress",
+                "Best Director"
+            ]
+        },
+        {
+            "title": "Hugo",
+            "nominations": [
+                "Best Dramatic Presentation"
+            ]
+        }
+    ],
+    "parts": "Aliens",
+    "type": {
+        "value": "film",
+        "data": null
+    }
+}
