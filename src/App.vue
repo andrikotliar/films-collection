@@ -42,6 +42,16 @@
 	li {
 		list-style: none;
 	}
+	button {
+		display: block;
+		font-family: inherit;
+		font-size: inherit;
+		color: inherit;
+		border: none;
+		background: none;
+		cursor: pointer;
+		outline: none;
+	}
 
 	body {
 		--base-color: #006db7;
