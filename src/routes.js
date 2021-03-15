@@ -1,7 +1,6 @@
 import Home from './components/Home.vue';
 import Film from './components/Film.vue';
 import Trailers from './components/Trailers.vue';
-import Years from './components/Years.vue';
 import Actor from './components/Actor.vue';
 import Films from './components/Films.vue';
 import FilmsByCategory from './components/FilmsByCategory.vue';
@@ -31,7 +30,7 @@ const routes = [
 		component: FilmsByCategory
 	},
 	{
-		path: '/years/:year', 
+		path: '/year/:year', 
 		props: true,
 		component: FilmsByYear
 	},
@@ -61,7 +60,6 @@ const routes = [
 		component: Films
 	},
 	{path: '/trailers', component: Trailers},
-	{path: '/years', component: Years},
 	{path: '/calender', component: Calender}
 ]
 
