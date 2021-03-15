@@ -3,7 +3,10 @@
         <h2 class="info-section-title">Awards</h2>
         <div class="awards__list">
             <div class="award" v-for="(award, index) in awards" :key="index">
-                <h3 class="award__title"> {{award.title}} </h3>
+            	<div class="award__header">
+	                <h3 class="award__title">{{award.title}}</h3>
+	                <div class="award__count">{{award.nominations.length}}</div>            		
+            	</div>
                 <ul class="award__nominations">
                     <li v-for="(nomination, index) in award.nominations" :key="index"> {{nomination}} </li>
                 </ul>
@@ -32,12 +35,19 @@
 		background-color: #f2f2f2; 
 	}
 
-	.award__title, .award__nominations li {
+	.award__header, .award__nominations li {
 		padding: 5px 20px;
 	}
 
-	.award__title {
+	.award__header {
 		color: #fff;
 		background-color: var(--base-color);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.award__count {
+		padding-left: 20px;
 	}
 </style>
