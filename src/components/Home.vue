@@ -1,12 +1,12 @@
 <template>
 	<div class="page container">
 		<Search />
-		<FilmsCategory />
-		<Category property="year" :category="previousYear" title="The newest films" link="years" reverse />
+		<MainBanner />
+		<Category property="year" :category="previousYear" title="The newest films" link="year" reverse />
 		<Category property="categories" category="special-favorite" title="The most favorite films" />
 		<Category property="categories" category="most-watched" title="The most watched films" reverse />
 		<Category property="categories" category="cinema-watched" title="Cinema watched films" reverse />
-		<Category property="categories" category="series" title="TV Series" reverse />
+		<Category property="categories" category="series" title="TV Series" />
 		<Category property="categories" category="marvel" title="Marvel Cinematic Universe" reverse />
 		<YearsCategory />
 	</div>
@@ -15,7 +15,7 @@
 <script>
 	import Search from './parts/Search.vue';
 	import Category from './categories/Category.vue';
-	import FilmsCategory from './categories/AllFilmsCategory.vue';
+	import MainBanner from './parts/MainBanner.vue';
 	import YearsCategory from './categories/YearsCategory.vue';
 	export default {
 		name: 'Home',
@@ -32,7 +32,7 @@
 		components: {
 			Search,
 			Category,
-			FilmsCategory,
+			MainBanner,
 			YearsCategory
 		}
 	}
