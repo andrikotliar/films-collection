@@ -5,7 +5,7 @@
 			<option v-for="(year, index) in years.slice(yearsToShow)" :key="index" v-if="year != +exeption">
 				{{year}}
 			</option>
-		</select>			
+		</select>
 	</div>
 </template>
 
@@ -17,6 +17,16 @@
 			return {
 				selectedYear: ''
 			}
+		},
+		methods: {
+			chooseYear() {
+				if(!location.href.includes('year')) {
+					this.$router.push({path: '/year/' + this.selectedYear })
+				}
+				else {
+					this.$router.push({path: this.selectedYear }).catch(err => {})
+				}
+			},
 		},
 		computed: {
 			years() {
@@ -31,11 +41,6 @@
 				filteredYears = years.filter((year) => !emptyYears.includes(year))
 				return filteredYears.reverse();	
 			}
-		},
-		methods: {
-			chooseYear() {
-				this.$router.push({path:'/year/' + this.selectedYear })
-			},
 		}
 	}
 </script>

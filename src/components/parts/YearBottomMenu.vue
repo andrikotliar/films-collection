@@ -10,11 +10,6 @@
     export default {
         name: 'YearBottomMenu',
         props: ['year', 'currentYear'],
-        data() {
-        	return {
-        		selectedYear: ''
-        	}
-        },
         computed: {
             prevYear() {
 				return +this.year - 1
