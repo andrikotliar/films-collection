@@ -53,11 +53,6 @@
 		margin: auto;
 		transition: .3s;
 	}
-	.select-wrapper:hover,
-	.select-wrapper:focus {
-		color: #fff;
-		background-color: var(--base-color);
-	}
 	.select-wrapper:after {
 		position: absolute;
 		right: 10px;
@@ -66,10 +61,6 @@
 		border-top: 10px solid var(--base-color);
 		content: '';
 		transition: .3s;
-	}
-	.select-wrapper:hover:after,
-	.select-wrapper:focus:after {
-		border-top-color: #fff;
 	}
 	.select {
 		display: block;
