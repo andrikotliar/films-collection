@@ -1,7 +1,7 @@
 <template>
     <div class="film__basic">
         <div class="film__year">
-            <router-link :to="`/years/${year}`">{{year}}</router-link>
+            <router-link :to="`/year/${year}`">{{year}}</router-link>
         </div>
         <div class="film__genres">
             <router-link v-for="(genre, index) in genres" :to="'/genres/' + genre" :key="index" class="film__genre">{{genre}}</router-link>
