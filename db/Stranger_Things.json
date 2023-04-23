@@ -23,6 +23,10 @@
   "collections": [
     {
       "name": "Fantasy"
+    },
+    {
+      "name": "Top 10",
+      "order": 10
     }
   ],
   "awards": [
