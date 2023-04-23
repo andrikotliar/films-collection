@@ -30,7 +30,6 @@ const FilmsProvider = ({ children }) => {
 
   useEffect(() => {
     if(initialFilmsList.length) {
-      window.scrollTo(0, 0);
       const filteredFilms = filterFilms(initialFilmsList, filterParams);
       setFilmsCount(filteredFilms.length);
       const pageData = pager(filteredFilms, filterParams.page || 1);

@@ -8,6 +8,7 @@ import ExpandIcon from './ExpandIcon';
 import CalendarIcon from './CalendarIcon';
 import MovieIcon from './MovieIcon';
 import SandClockIcon from './SandClockIcon';
+import MenuIcon from './MenuIcon';
 
 export {
   CloseIcon,
@@ -20,4 +21,5 @@ export {
   CalendarIcon,
   MovieIcon,
   SandClockIcon,
+  MenuIcon
 };

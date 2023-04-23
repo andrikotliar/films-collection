@@ -1,37 +1,48 @@
-import { useState } from 'react';
-import { CloseIcon, SearchIcon } from '@/assets/icons';
-import { Link } from 'react-router-dom';
-import { Logo } from '@/assets/logos';
-import Search from '@/components/Search';
+import { useEffect, useState } from 'react';
+import { MenuIcon, SearchIcon } from '@/assets/icons';
+import { Link, useLocation } from 'react-router-dom';
+import Menu from '../Menu';
 import './styles.css';
+import classNames from 'classnames';
 
 const Header = () => {
+  const location = useLocation();
   const [ isSearchShow, setIsSearchShow ] = useState(false);
+  const [ isDropdownOpen, setIsDropdownOpen ] = useState(false);
 
-  const showSearch = () => {
-    setIsSearchShow((prevState) => !prevState);
-  };
+  useEffect(() => {
+    if(isDropdownOpen) {
+      setIsDropdownOpen(false);
+    }
+  }, [location]);
 
   return (
     <header className="header">
+      <button
+        className="header__button"
+        onClick={() => setIsSearchShow(true)}
+        aria-label="Show search field"
+        title="Search"
+      >
+        <SearchIcon />
+      </button>
       <Link to="/" className="header__logo">
-        <Logo fill="#006db7" />
+        <picture>
+          <source srcSet="/images/logos/desktop-logo.svg" media="(min-width: 785px)" />
+          <img src="/images/logos/mobile-logo.svg" alt="Films Collection" />
+        </picture>
       </Link>
-      <Search
-        className="header__search"
-        showSearch={isSearchShow}
-        changeVisibility={setIsSearchShow}
-      />
-      <nav className="header__navigation">
-        <button
-          className="header__button header__search-button"
-          onClick={showSearch}
-          aria-label="Show search field"
-          title="Search"
-        >
-          {isSearchShow ? <CloseIcon fill="#006db7" /> : <SearchIcon />}
-        </button>
-      </nav>
+      <button
+        className={classNames('header__button', {
+          'header__button--active': isDropdownOpen
+        })}
+        onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+        aria-label="Show menu dropdown"
+        title="Menu"
+      >
+        <MenuIcon />
+      </button>
+      <Menu isOpen={isDropdownOpen} />
     </header>
   );
 };

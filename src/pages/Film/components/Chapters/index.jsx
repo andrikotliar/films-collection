@@ -1,11 +1,9 @@
 import classNames from 'classnames';
-import { useEffect, useRef } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import './styles.css';
 
 const Chapters = ({ data, parts }) => {
   const { id: filmId } = useParams();
-  const listRef = useRef();
 
   const partsList = () => {
     return data.filter((film) => {
@@ -14,10 +12,6 @@ const Chapters = ({ data, parts }) => {
       }
     }).sort((a, b) => a.parts.part > b.parts.part ? 1 : -1);
   }
-
-  useEffect(() => {
-    listRef.current.scrollIntoView();
-  }, []);
 
   return (
     <div className="chapters custom-scroll">
@@ -32,7 +26,6 @@ const Chapters = ({ data, parts }) => {
           )}
           key={film.id}
           id={film.id}
-          ref={filmId === film.id ? listRef : null}
         >
           <img src={`/posters/${film.poster}.webp`} alt="" />
         </Link>

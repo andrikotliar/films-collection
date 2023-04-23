@@ -73,7 +73,6 @@ body {
 }
 @media (hover: hover) {
   .custom-scroll {
-    scrollbar-width: thin;
     scrollbar-color: var(--base-color) #dbdbdb;
   }
   .custom-scroll::-webkit-scrollbar {

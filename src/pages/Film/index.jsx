@@ -37,15 +37,7 @@ const Film = () => {
     setFilm(foundFilm);
   };
 
-  const scrollContentBlock = () => {
-    const filmContent = document.querySelector('.film-content');
-    if(filmContent) {
-      filmContent.scrollTo(0, 0);
-    }
-  };
-
   useEffect(() => {
-    scrollContentBlock();
     if(initialFilmsList && initialFilmsList.length) {
       findCurrentFilm(initialFilmsList);
     }

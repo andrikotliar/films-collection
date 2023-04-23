@@ -1,0 +1,30 @@
+.menu {
+  position: absolute;
+  top: calc(100% + 20px);
+  right: 20px;
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 1px 10px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  padding: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: transform 0.3s, opacity 0.1s;
+  overflow-y: auto;
+  border: var(--app-border);
+}
+
+.menu--active {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.menu__link {
+  background-color: #f2f2f2;
+}
