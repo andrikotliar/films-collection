@@ -1,0 +1,129 @@
+{
+  "id": "e55016b6-5f4b-4528-b828-dac2d8e722b7",
+  "title": "Terminator 2: Judgment Day",
+  "poster": "terminator_2",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "TriStar",
+    "Carolco Pictures"
+  ],
+  "directedBy": [
+    "James Cameron"
+  ],
+  "producedBy": "James Cameron",
+  "writtenBy": "James Cameron, William Wisher",
+  "musicBy": "Brad Fiedel",
+  "cinematographyBy": "Adam Greenberg",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 94,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 521,
+    "suffix": "million"
+  },
+  "synopsis": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her teenage son, John Connor, from a more advanced and powerful cyborg.",
+  "collections": [
+    {
+      "name": "Legends"
+    },
+    {
+      "name": "Robots"
+    },
+    {
+      "name": "Top 10",
+      "order": "4"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Sound",
+        "Best Sound Effects Editing",
+        "Best Visual Effects",
+        "Best Makeup"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Sound",
+        "Best Special Visual Effects",
+        "Best Production Design"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Movie",
+        "Best Female Performance",
+        "Best Male Performance",
+        "Best Breakthrough Performance",
+        "Most Desirable Female",
+        "Best Action Sequence"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Terminator",
+    "part": 2
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "T-800",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "dfb2cc61-095f-4a4c-8c60-64b1de7458a4"
+    },
+    {
+      "character": {
+        "name": "John Connor",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "87d544e4-9c3a-4357-bced-3d5a55fff331"
+    },
+    {
+      "character": {
+        "name": "Sarah Connor",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5567133f-edab-4200-bb7e-cd30a409abb2"
+    },
+    {
+      "character": {
+        "name": "T-1000",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "88e2c496-53e0-4ac6-98df-7851f4b76e65"
+    },
+    {
+      "character": {
+        "name": "Miles Bennett Dyson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3bba759a-ae0f-46e9-92e7-0e11c3c1bacd"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "17"
+  },
+  "releaseDate": "1991-07-01",
+  "trailer": "-W8CegO_Ixw"
+}

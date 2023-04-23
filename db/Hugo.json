@@ -1,0 +1,113 @@
+{
+  "id": "7dc788ef-1738-4d1a-a220-37784370ba88",
+  "title": "Hugo",
+  "poster": "hugo",
+  "genres": [
+    "Drama",
+    "Adventures"
+  ],
+  "production": [
+    "Metropolitan Filmexport",
+    "Paramount Pictures"
+  ],
+  "directedBy": [
+    "Martin Scorsese"
+  ],
+  "producedBy": "Graham King, Timothy Headington",
+  "writtenBy": "John Logan",
+  "musicBy": "Howard Shore",
+  "cinematographyBy": "Robert Richardson",
+  "countries": [
+    "France",
+    "UK",
+    "USA"
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 186,
+    "suffix": "million"
+  },
+  "synopsis": "In Paris in 1931, an orphan named Hugo Cabret, who lives in the walls of a train station, is wrapped up in a mystery involving his late father and an automaton",
+  "collections": [
+    {
+      "name": "Life Story"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Achievement in Cinematography",
+        "Best Achievement in Sound Mixing",
+        "Best Achievement in Sound Editing",
+        "Best Achievement in Visual Effects",
+        "Best Achievement in Art Direction"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Production Design",
+        "Best Sound"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Production Design"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Art Direction"
+      ]
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Georges M'li's",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1e35187e-647f-4233-9215-41762259fff0"
+    },
+    {
+      "character": {
+        "name": "Station Inspector",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "dda11932-ed49-4f73-8b6f-c6949a5079b5"
+    },
+    {
+      "character": {
+        "name": "Hugo Cabret",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8e4d10d3-d24f-4004-a3c9-094884463799"
+    },
+    {
+      "character": {
+        "name": "Isabelle",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b3e5cf35-efcd-4a7d-98cd-ed082eadf40e"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "06"
+  },
+  "releaseDate": "2011-11-01",
+  "trailer": "Hv3obL9HqyY"
+}

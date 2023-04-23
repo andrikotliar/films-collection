@@ -1,0 +1,402 @@
+{
+  "id": "93a7bb21-3d2f-4ba3-8b1f-827cc3dffc89",
+  "title": "The Umbrella Academy",
+  "poster": "umbrella_academy",
+  "genres": [
+    "Fantasy",
+    "Comedy"
+  ],
+  "production": [
+    "Netflix"
+  ],
+  "createdBy": [
+    "Steve Blackman",
+    "Jeremy Slater"
+  ],
+  "producedBy": "Kevin Lafferty, Sneha Koorse, Jamie Neese, Jason Neese, Ted Miller",
+  "musicBy": "Jeff Russo, Perrine Virgile",
+  "cinematographyBy": "Neville Kidd, Craig Wrobleski",
+  "countries": [
+    "USA"
+  ],
+  "synopsis": "A family of former child heroes, now grown apart, must reunite to continue to protect the world.",
+  "collections": [
+    {
+      "name": "Superheroes"
+    }
+  ],
+  "type": [
+    "Series"
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "We Only See Each Other at Weddings, Funerals",
+          "directedBy": "Peter Hoar",
+          "writtenBy": "Jeremy Slater",
+          "releaseDate": "2019-02-15"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Run Boy Run",
+          "directedBy": "Andrew Bernstein",
+          "writtenBy": "Steve Blackman",
+          "releaseDate": "2019-02-15"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Extra Ordinary",
+          "directedBy": "Andrew Bernstein",
+          "writtenBy": "Ben Nedivi, Matt Wolpert",
+          "releaseDate": "2019-02-15"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "Man on the Moon",
+          "directedBy": "Ellen Kuras",
+          "writtenBy": "Lauren Schmidt Hissrich",
+          "releaseDate": "2019-02-15"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Number Five",
+          "directedBy": "Ellen Kuras",
+          "writtenBy": "Bob DeLaurentis",
+          "releaseDate": "2019-02-15"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "The Day That Wasn't",
+          "directedBy": "Stephen Surjik",
+          "writtenBy": "Sneha Koorse",
+          "releaseDate": "2019-02-15"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "The Day That Was",
+          "directedBy": "Stephen Surjik",
+          "writtenBy": "Ben Nedivi, Matt Wolpert",
+          "releaseDate": "2019-02-15"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "I Heard a Rumor",
+          "directedBy": "Jeremy Webb",
+          "writtenBy": "Lauren Schmidt Hissrich, Sneha Koorse",
+          "releaseDate": "2019-02-15"
+        },
+        {
+          "episodeOverall": 9,
+          "episode": 9,
+          "title": "Changes",
+          "directedBy": "Jeremy Webb",
+          "writtenBy": "Bob DeLaurentis, Eric W. Phillips",
+          "releaseDate": "2019-02-15"
+        },
+        {
+          "episodeOverall": 10,
+          "episode": 10,
+          "title": "The White Violin",
+          "directedBy": "Peter Hoar",
+          "writtenBy": "Steve Blackman",
+          "releaseDate": "2019-02-15"
+        }
+      ],
+      "trailer": "0DAmWHxeoKw"
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "episodeOverall": 11,
+          "episode": 1,
+          "title": "Right Back Where We Started",
+          "directedBy": "Sylvain White",
+          "writtenBy": "Steve Blackman",
+          "releaseDate": "2020-07-31"
+        },
+        {
+          "episodeOverall": 12,
+          "episode": 2,
+          "title": "The Frankel Footage",
+          "directedBy": "Stephen Surjik",
+          "writtenBy": "Mark Goffman",
+          "releaseDate": "2020-07-31"
+        },
+        {
+          "episodeOverall": 13,
+          "episode": 3,
+          "title": "The Swedish Job",
+          "directedBy": "Stephen Surjik",
+          "writtenBy": "Jesse McKeown",
+          "releaseDate": "2020-07-31"
+        },
+        {
+          "episodeOverall": 14,
+          "episode": 4,
+          "title": "The Majestic 12",
+          "directedBy": "Tom Verica",
+          "writtenBy": "Bronwyn Garrity",
+          "releaseDate": "2020-07-31"
+        },
+        {
+          "episodeOverall": 15,
+          "episode": 5,
+          "title": "Valhalla",
+          "directedBy": "Tom Verica",
+          "writtenBy": "Robert Askins",
+          "releaseDate": "2020-07-31"
+        },
+        {
+          "episodeOverall": 16,
+          "episode": 6,
+          "title": "A Light Supper",
+          "directedBy": "Ellen Kuras",
+          "writtenBy": "Aeryn Michelle Williams",
+          "releaseDate": "2020-07-31"
+        },
+        {
+          "episodeOverall": 17,
+          "episode": 7,
+          "title": "Öga for Öga",
+          "directedBy": "Ellen Kuras",
+          "writtenBy": "Nikki Schiefelbein",
+          "releaseDate": "2020-07-31"
+        },
+        {
+          "episodeOverall": 18,
+          "episode": 8,
+          "title": "The Seven Stages",
+          "directedBy": "Amanda Marsalis",
+          "writtenBy": "Mark Goffman, Jesse McKeown",
+          "releaseDate": "2020-07-31"
+        },
+        {
+          "episodeOverall": 19,
+          "episode": 9,
+          "title": "743",
+          "directedBy": "Amanda Marsalis",
+          "writtenBy": "Bronwyn Garrity, Robert Askins",
+          "releaseDate": "2020-07-31"
+        },
+        {
+          "episodeOverall": 20,
+          "episode": 10,
+          "title": "The End of Something",
+          "directedBy": "Jeremy Webb",
+          "writtenBy": "Steve Blackman",
+          "releaseDate": "2020-07-31"
+        }
+      ],
+      "trailer": "SGgXLbZnr1Y"
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "episodeOverall": 21,
+          "episode": 1,
+          "title": "Meet the Family",
+          "directedBy": "Jeremy Webb",
+          "writtenBy": "Steve Blackman, Michelle Lovretta",
+          "releaseDate": "2022-06-22"
+        },
+        {
+          "episodeOverall": 22,
+          "episode": 2,
+          "title": "World's Biggest Ball of Twine",
+          "directedBy": "Cheryl Dunye",
+          "writtenBy": "Jesse McKeown",
+          "releaseDate": "2022-06-22"
+        },
+        {
+          "episodeOverall": 23,
+          "episode": 3,
+          "title": "Pocket Full of Lightning",
+          "directedBy": "Cheryl Dunye",
+          "writtenBy": "Robert Askins",
+          "releaseDate": "2022-06-22"
+        },
+        {
+          "episodeOverall": 24,
+          "episode": 4,
+          "title": "Kugelblitz",
+          "directedBy": "Sylvain White",
+          "writtenBy": "Aeryn Michelle Williams",
+          "releaseDate": "2022-06-22"
+        },
+        {
+          "episodeOverall": 25,
+          "episode": 5,
+          "title": "Kindest Cut",
+          "directedBy": "Sylvain White",
+          "writtenBy": "Elizabeth Padden",
+          "releaseDate": "2022-06-22"
+        },
+        {
+          "episodeOverall": 26,
+          "episode": 6,
+          "title": "Marigold",
+          "directedBy": "Jeff F. King",
+          "writtenBy": "Lauren Otero",
+          "releaseDate": "2022-06-22"
+        },
+        {
+          "episodeOverall": 27,
+          "episode": 7,
+          "title": "Auf Wiedersehen",
+          "directedBy": "Kate Woods",
+          "writtenBy": "Michelle Lovretta",
+          "releaseDate": "2022-06-22"
+        },
+        {
+          "episodeOverall": 28,
+          "episode": 8,
+          "title": "Wedding at the End of the World",
+          "directedBy": "Paco Cabezas",
+          "writtenBy": "Jesse McKeown, Aeryn Michelle Williams",
+          "releaseDate": "2022-06-22"
+        },
+        {
+          "episodeOverall": 29,
+          "episode": 9,
+          "title": "Seven Bells",
+          "directedBy": "Paco Cabezas",
+          "writtenBy": "Robert Askins",
+          "releaseDate": "2022-06-22"
+        },
+        {
+          "episodeOverall": 30,
+          "episode": 10,
+          "title": "Oblivion",
+          "directedBy": "Jeff F. King",
+          "writtenBy": "Steve Blackman, Robert Askins",
+          "releaseDate": "2022-06-22"
+        }
+      ],
+      "trailer": "hs6alRuY1UU"
+    }
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Luther Hargreeves",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "35c2c4ea-41c4-4434-9ee6-a3693afdb48f"
+    },
+    {
+      "character": {
+        "name": "Diego Hargreeves",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cef86410-c685-4347-98bf-bd7844d463a4"
+    },
+    {
+      "character": {
+        "name": "Allison Hargreeves",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "08fc18b1-a4b9-4bcd-a9b9-b0ced787f47f"
+    },
+    {
+      "character": {
+        "name": "Klaus Hargreeves",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ec5bfd1d-2159-4572-9f5f-63b4c7c8dee3"
+    },
+    {
+      "character": {
+        "name": "Number Five",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1bdb0c7b-f7d9-46e5-aec0-8e2ecf9a1ee6"
+    },
+    {
+      "character": {
+        "name": "Ben Hargreeves",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d6e2899d-445a-4232-9e79-5b5491b67d31"
+    },
+    {
+      "character": {
+        "name": "Vanya Hargreeves",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e329dda6-a5c4-4427-bf93-16bb46e8e96f"
+    },
+    {
+      "character": {
+        "name": "Reginald Hargreeves",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "86b4d3f8-c9d2-46df-9d95-b6cb77b055d7"
+    },
+    {
+      "character": {
+        "name": "Lila Pitts",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4d7ffd93-be14-4738-b950-bb19a9c87552"
+    },
+    {
+      "character": {
+        "name": "Grace",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2ba39e2d-1a51-44ae-b195-40e7415fb192"
+    },
+    {
+      "character": {
+        "name": "The Handler",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3cf34202-ab8c-41e6-af91-aa25c6ca038a"
+    },
+    {
+      "character": {
+        "name": "Hazel",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2acb89dc-aa4f-4200-8244-adb05747d2b6"
+    },
+    {
+      "character": {
+        "name": "Cha-Cha",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "27bc76eb-df87-40e4-96f4-b1489f82d833"
+    }
+  ],
+  "duration": {
+    "hours": "20",
+    "minutes": "00"
+  },
+  "releaseDate": "2019-02-01"
+}

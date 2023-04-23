@@ -1,0 +1,120 @@
+{
+  "id": "3063fffe-98ca-46a6-8db7-18bae7f98c38",
+  "title": "The Adjustment Bureau",
+  "poster": "adjustment_bureau",
+  "genres": [
+    "Romance",
+    "Sci-Fi",
+    "Thriller"
+  ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "directedBy": [
+    "George Nolfi"
+  ],
+  "producedBy": "Bill Carraro, Michael Hackett, Chris Moore, George Nolfi",
+  "writtenBy": "George Nolfi",
+  "musicBy": "Thomas Newman",
+  "cinematographyBy": "John Toll",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 50,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 128,
+    "suffix": "million"
+  },
+  "synopsis": "The affair between a politician and a contemporary dancer is affected by mysterious forces keeping the lovers apart.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Supporting Actress"
+      ]
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "David Norris",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "95da34ce-8572-4b69-a7e5-c10d81af5504"
+    },
+    {
+      "character": {
+        "name": "Elise Sellas",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c892df31-7868-42cc-b245-ded4556da768"
+    },
+    {
+      "character": {
+        "name": "Harry Mitchell",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0"
+    },
+    {
+      "character": {
+        "name": "Richardson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8e34ff83-ec16-4201-849b-bfc482c8911b"
+    },
+    {
+      "character": {
+        "name": "Charlie Traynor",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d41237ae-bebd-45ab-9e93-f0b6678d13be"
+    },
+    {
+      "character": {
+        "name": "Thompson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "05c62b8b-6403-4b87-8f3c-fb4569b87404"
+    },
+    {
+      "character": {
+        "name": "Donaldson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "13428a6c-f09e-455b-a2f0-f571c374cf18"
+    },
+    {
+      "character": {
+        "name": "McCrady",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a02b884d-dd8a-439b-b7b2-6748125485d8"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "46"
+  },
+  "releaseDate": "2011-03-01",
+  "trailer": "wZJ0TP4nTaE"
+}

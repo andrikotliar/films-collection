@@ -1,0 +1,139 @@
+{
+  "id": "2c61f9e3-0660-4318-a9a2-3f7516dfad3b",
+  "title": "How to Train Your Dragon: The Hidden World",
+  "poster": "how_to_train_your_dragon_3",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "production": [
+    "DreamWorks Animation",
+    "Universal Pictures"
+  ],
+  "directedBy": [
+    "Dean DeBlois"
+  ],
+  "producedBy": "Bonnie Amold, Brad Lewis",
+  "writtenBy": "Dean DeBlois",
+  "musicBy": "John Powell",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 129,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 443,
+    "suffix": "million"
+  },
+  "synopsis": "When Hiccup discovers Toothless isn't the only Night Fury, he must seek \"The Hidden World\", a secret Dragon Utopia before a hired tyrant named Grimmel finds it first.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "parts": {
+    "title": "How to Train Your Dragon",
+    "part": 3
+  },
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Hiccup",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bd9320ce-d946-4c06-98f6-39871d61e972"
+    },
+    {
+      "character": {
+        "name": "Astrid ",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9bed7813-db69-4322-bba9-bdc4763a1567"
+    },
+    {
+      "character": {
+        "name": "Grimmel ",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3bef5135-5acd-460a-9a95-c29f45e4f31d"
+    },
+    {
+      "character": {
+        "name": "Valka ",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d7f81c80-afaa-4b4e-a3fa-49b85238c529"
+    },
+    {
+      "character": {
+        "name": "Stoick ",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c781f4d1-0f36-4078-aece-b893a0405504"
+    },
+    {
+      "character": {
+        "name": "Gobber ",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5201384e-56db-455a-89f3-2c7ff61d9515"
+    },
+    {
+      "character": {
+        "name": "Snotlout ",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5abf531b-6efc-468e-8acf-70b8b49cf7dc"
+    },
+    {
+      "character": {
+        "name": "Fishlegs ",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e4ab1fb8-f28b-4e4a-869f-07f4dbf1dff1"
+    },
+    {
+      "character": {
+        "name": "Ruffnut ",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e3e5068a-c5ad-484a-93e6-ded28d61e48f"
+    },
+    {
+      "character": {
+        "name": "Eret ",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "82f820ef-07a2-47e1-82bd-b53f68e7b6ab"
+    },
+    {
+      "character": {
+        "name": "Tuffnut",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2bc56fbd-6836-42c7-8486-d738d375ae49"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "44"
+  },
+  "releaseDate": "2019-02-01",
+  "trailer": "SkcucKDrbOI"
+}

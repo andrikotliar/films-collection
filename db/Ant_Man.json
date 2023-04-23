@@ -1,0 +1,140 @@
+{
+  "id": "2a3d097e-a777-4158-9187-539b7fcf2a63",
+  "title": "Ant-Man",
+  "poster": "ant_man_1",
+  "genres": [
+    "Sci-Fi",
+    "Comedy"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Marvel Studios"
+  ],
+  "directedBy": [
+    "Peyton Reed"
+  ],
+  "producedBy": "Kevin Feige",
+  "writtenBy": "Edgar Wright, Joe Cornish, Adam McKay, Paul Rudd",
+  "musicBy": "Christophe Beck",
+  "cinematographyBy": "Russell Carpenter",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 130,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 519,
+    "suffix": "million"
+  },
+  "synopsis": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world.",
+  "collections": [
+    {
+      "name": "Marvel Cinematic Universe"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Comic-to-Film Motion Picture"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 12
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Scott Lang / Ant-Man",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cd9b8e2c-3973-46fb-a71a-7df6ca9c5b2e"
+    },
+    {
+      "character": {
+        "name": "Dr. Hank Pym",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "485694d1-0656-4c1e-ae30-2e46af4b7df1"
+    },
+    {
+      "character": {
+        "name": "Hope van Dyne",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "99d66277-33ee-47bc-874a-9390edbd1ead"
+    },
+    {
+      "character": {
+        "name": "Darren Cross / Yellowjacket",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c5a329bd-eefd-46be-bbfe-1bdfe4b9aa57"
+    },
+    {
+      "character": {
+        "name": "Paxton",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "929b7475-8e3f-4326-b8f5-f45c441c3bbf"
+    },
+    {
+      "character": {
+        "name": "Sam Wilson / Falcon",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0"
+    },
+    {
+      "character": {
+        "name": "Maggie Lang",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b999e11f-6bb6-4cfc-b668-ca5ee377a087"
+    },
+    {
+      "character": {
+        "name": "Cassie Lang",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b34fadf6-773e-44dc-9f06-e3919da95db9"
+    },
+    {
+      "character": {
+        "name": "Luis",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1bffcd51-f602-47df-b924-f575be9234f1"
+    },
+    {
+      "character": {
+        "name": "Kurt",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "80863320-fecd-40ed-843c-d83ea21fb63b"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "57"
+  },
+  "releaseDate": "2015-07-01",
+  "trailer": "pWdKf3MneyI"
+}

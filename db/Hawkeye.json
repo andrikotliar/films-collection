@@ -1,0 +1,113 @@
+{
+  "id": "cc0a9500-a718-4cd0-b3dc-05247ce1ed71",
+  "title": "Hawkeye",
+  "poster": "hawkeye",
+  "genres": [
+    "Action",
+    "Crime"
+  ],
+  "production": [
+    "Marvel Studios"
+  ],
+  "createdBy": [
+    "Jonathan Igla"
+  ],
+  "producedBy": "Kevin Feige, Trinh Tran, Rhys Thomas, Jonathan Igla",
+  "musicBy": "Christophe Beck",
+  "cinematographyBy": "Eric Steelberg, James Whitaker",
+  "countries": [
+    "USA"
+  ],
+  "synopsis": "Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate M. Bishop, who took on the role after the original Avenger, Clint Barton.",
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 29
+  },
+  "collections": [
+    {
+      "name": "Marvel Cinematic Universe"
+    }
+  ],
+  "type": [
+    "Series"
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "Never Meet Your Heroes",
+          "directedBy": "Rhys Thomas",
+          "writtenBy": "Jonathan Igla",
+          "releaseDate": "2021-11-24"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Hide, Seek",
+          "directedBy": "Rhys Thomas",
+          "writtenBy": "Elisa Climent",
+          "releaseDate": "2021-11-24"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Echoes",
+          "directedBy": "Bert, Bertie",
+          "writtenBy": "Katie Mathewson, Tanner Bean",
+          "releaseDate": "2021-12-01"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "Partners, Am I Right?",
+          "directedBy": "Bert, Bertie",
+          "writtenBy": "Erin Cancino, Heather Quinn",
+          "releaseDate": "2021-12-08"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Ronin",
+          "directedBy": "Bert, Bertie",
+          "writtenBy": "Jenna Noel Frazier",
+          "releaseDate": "2021-12-15"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "So This Is Christmas?",
+          "directedBy": "Rhys Thomas",
+          "writtenBy": "Jonathan Igla, Elisa Climent",
+          "releaseDate": "2021-12-22"
+        }
+      ],
+      "trailer": "5VYb3B1ETlk"
+    }
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Clint Barton / Hawkeye",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b3e7f578-6981-4121-91d3-d768d95751ca"
+    },
+    {
+      "character": {
+        "name": "Kate Bishop",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1a9d8258-5634-4990-bb53-f0262f587084"
+    }
+  ],
+  "duration": {
+    "hours": "06",
+    "minutes": "00"
+  },
+  "releaseDate": "2021-11-01"
+}

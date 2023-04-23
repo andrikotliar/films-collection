@@ -1,0 +1,117 @@
+{
+  "id": "d36dcea6-478a-43d9-9a2f-49e022aa9e81",
+  "title": "The Maze Runner",
+  "poster": "maze_runner_1",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "directedBy": [
+    "Wes Ball"
+  ],
+  "producedBy": "Marty Bowen, Wyck Godfrey, Ellen Goldsmith-Vein, Lee Stollman",
+  "writtenBy": "Noah Oppenheim, Grant Pierce Myers, T.S. Nowlin",
+  "musicBy": "John Paesano",
+  "cinematographyBy": "Enrique Chediak",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 34,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 348,
+    "suffix": "million"
+  },
+  "synopsis": "Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow \"runners\" for a shot at escape.",
+  "collections": [
+    {
+      "name": "Dystopia"
+    }
+  ],
+  "awards": [
+    {
+      "title": "MTV Movie Awards (2015)",
+      "nominations": [
+        "Breakthrough Performance",
+        "Best Fight",
+        "Best Hero"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Maze Runner",
+    "part": 1
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Thomas",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c2e23382-b2ab-4810-b9c1-c08fe4dc2d9d"
+    },
+    {
+      "character": {
+        "name": "Teresa",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "62bc0f11-59e0-47ed-8551-452e0aaf1940"
+    },
+    {
+      "character": {
+        "name": "Alby",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0b08692c-2d9e-4f77-a9cf-96112227a79e"
+    },
+    {
+      "character": {
+        "name": "Newt",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "601f50c2-ddda-4c74-bf4e-a8950ba7cd75"
+    },
+    {
+      "character": {
+        "name": "Minho",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "eda948ee-e71d-4809-8dfe-6f756bbe80ed"
+    },
+    {
+      "character": {
+        "name": "Gally",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a43f0d99-df17-4c1b-aee6-2fb6a0fa88b6"
+    },
+    {
+      "character": {
+        "name": "Ava Paige",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c6e174c6-5cb9-422a-950e-8452d99b4d2c"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "53"
+  },
+  "releaseDate": "2014-09-01",
+  "trailer": "AwwbhhjQ9Xk"
+}

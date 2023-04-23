@@ -1,0 +1,124 @@
+{
+  "id": "2d243721-b212-4886-866d-2ac1990c71b0",
+  "title": "Shang-Chi and the Legend of the Ten Rings",
+  "poster": "shang_chi",
+  "genres": [
+    "Fantasy",
+    "Action"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Marvel Studios"
+  ],
+  "directedBy": [
+    "Destin Daniel Cretton"
+  ],
+  "producedBy": "Kevin Feige, Jonathan Schwartz",
+  "writtenBy": "Dave Callaham,  Destin Daniel Cretton, Andrew Lanham",
+  "musicBy": "Joel P. West",
+  "cinematographyBy": "Bill Pope",
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 430,
+    "suffix": "million"
+  },
+  "countries": [
+    "USA"
+  ],
+  "synopsis": "Shang-Chi, the master of unarmed weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization.",
+  "collections": [
+    {
+      "name": "Marvel Cinematic Universe"
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 27
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Shang-Chi",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "53ea0011-4880-46ca-a48e-990006c37f3d"
+    },
+    {
+      "character": {
+        "name": "Wenwu / Mandarin",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4157193e-2c31-477a-a730-45e27ca0bbfc"
+    },
+    {
+      "character": {
+        "name": "Katy",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c9311c58-0d9e-4555-ab09-a2cb174e51a9"
+    },
+    {
+      "character": {
+        "name": "Xialing",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "36667e45-89c1-4b39-a2ab-369aef162a75"
+    },
+    {
+      "character": {
+        "name": "Ying Nan",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "25602f53-feec-43e3-8824-4273faf17a49"
+    },
+    {
+      "character": {
+        "name": "Wong",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0138c730-8111-4494-bf7a-b96635ff65d2"
+    },
+    {
+      "character": {
+        "name": "Abomination / Emile Blonsky",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "247f6f1b-3b21-4856-8896-c9ff4856d80a"
+    },
+    {
+      "character": {
+        "name": "Trevor Slattery",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1e35187e-647f-4233-9215-41762259fff0"
+    },
+    {
+      "character": {
+        "name": "Razor Fist",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f5bf20de-40fb-498f-a1c0-8c86823769be"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "12"
+  },
+  "releaseDate": "2021-09-01",
+  "trailer": "COGg-Vjauwo"
+}

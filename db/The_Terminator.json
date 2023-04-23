@@ -1,0 +1,86 @@
+{
+  "id": "ce7a3dc8-bdf1-43ea-96bd-c2e49eb4c9ba",
+  "title": "The Terminator",
+  "poster": "terminator_1",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Orion Pictures",
+    "Cinema 84"
+  ],
+  "directedBy": [
+    "James Cameron"
+  ],
+  "producedBy": "Gale Ann Hurd",
+  "writtenBy": "James Cameron, Gale Ann Hurd",
+  "musicBy": "Brad Fiedel",
+  "cinematographyBy": "Adam Greenberg",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 6.4,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 40,
+    "suffix": "million"
+  },
+  "synopsis": "A seemingly indestructible android is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs.",
+  "collections": [
+    {
+      "name": "Robots"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Writing",
+        "Best Make-Up"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Terminator",
+    "part": 1
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "T-800",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "dfb2cc61-095f-4a4c-8c60-64b1de7458a4"
+    },
+    {
+      "character": {
+        "name": "Kyle Reese",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "fedfd9ed-a1f3-4dfb-95aa-67dda121d4f9"
+    },
+    {
+      "character": {
+        "name": "Sarah Connor",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5567133f-edab-4200-bb7e-cd30a409abb2"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "47"
+  },
+  "releaseDate": "1984-10-01",
+  "trailer": "k64P4l2Wmeg"
+}

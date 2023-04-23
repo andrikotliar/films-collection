@@ -1,0 +1,120 @@
+{
+  "id": "86f50c8c-b386-4f61-b69a-1f51f4a83295",
+  "title": "Monsters, Inc.",
+  "poster": "monsters_inc",
+  "genres": [
+    "Adventures",
+    "Comedy"
+  ],
+  "production": [
+    "Pixar Animation"
+  ],
+  "directedBy": [
+    "Pete Docter"
+  ],
+  "producedBy": "Darla K. Anderson",
+  "writtenBy": "Andrew Stanton, Daniel Gerson",
+  "musicBy": "Randy Newman",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 115,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 580,
+    "suffix": "million"
+  },
+  "synopsis": "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, 2 monsters realize things may not be what they think.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Music (Original Song)"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Feature Film"
+      ]
+    },
+    {
+      "title": "Annie",
+      "nominations": [
+        "Outstanding Character Animation"
+      ]
+    },
+    {
+      "title": "Grammy",
+      "nominations": [
+        "Best Song Written for Visual Media"
+      ]
+    }
+  ],
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Sullivan",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "65a31ca4-0ada-434c-8129-81d10204f816"
+    },
+    {
+      "character": {
+        "name": "Mike",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "40dcacbe-93b3-456b-94ba-000ae86e0da5"
+    },
+    {
+      "character": {
+        "name": "Boo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "604590b1-86a9-4af9-ba4a-d19f5214bd7c"
+    },
+    {
+      "character": {
+        "name": "Randall",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d6cf516b-3467-43a0-bfd6-b8d93a7993c1"
+    },
+    {
+      "character": {
+        "name": "Waternoose",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e5e37fb5-4e38-4ef3-94bf-099a020c47ad"
+    },
+    {
+      "character": {
+        "name": "Celia",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4d761d67-8eb1-4c7d-a43d-aa2189a20d62"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "32"
+  },
+  "releaseDate": "2001-11-01",
+  "trailer": "6tCxnHCqqxg"
+}

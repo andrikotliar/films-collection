@@ -1,0 +1,162 @@
+{
+  "id": "caee011c-a5f5-4c33-a502-bd8b5efbc7c4",
+  "title": "The Dark Knight",
+  "poster": "batman_2",
+  "genres": [
+    "Action",
+    "Thriller"
+  ],
+  "production": [
+    "Warner Bros. Pictures",
+    "Legendary"
+  ],
+  "directedBy": [
+    "Christopher Nolan"
+  ],
+  "producedBy": "Charles Roven, Emma Thomas, Christopher Nolan",
+  "writtenBy": "Christopher Nolan, Jonathan Nolan",
+  "musicBy": "Hans Zimmer, James Newton Howard",
+  "cinematographyBy": "Wally Pfister",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 185,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.005,
+    "suffix": "illion b"
+  },
+  "synopsis": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+  "collections": [
+    {
+      "name": "Superheroes"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Performance by an Actor in a Supporting Role",
+        "Best Achievement in Sound Editing"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Supporting Actor"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Action/Adventure/Thriller Film",
+        "Best Supporting Actor",
+        "Best Writing",
+        "Best Music",
+        "Best Special Effects"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Villain"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Supporting Actor",
+        "Best Action Movie"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Dark Knight",
+    "part": 2
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Bruce Wayne",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6900c450-d6ad-4f62-8af7-d8398a1b6f77"
+    },
+    {
+      "character": {
+        "name": "Joker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "97047f5c-fea2-4606-86a2-2477e3725f98"
+    },
+    {
+      "character": {
+        "name": "Harvey Dent",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f1cab56d-690e-43e8-9ee5-a7c0ee60e46d"
+    },
+    {
+      "character": {
+        "name": "Alfred",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "87d38720-3045-4fad-9302-75ddc6e847d1"
+    },
+    {
+      "character": {
+        "name": "Rachel",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f6169400-bdd6-4396-b6bc-9555464bf260"
+    },
+    {
+      "character": {
+        "name": "Gordon",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0b0a40d3-1976-4f41-b8b1-1a86e37042ea"
+    },
+    {
+      "character": {
+        "name": "Lucius Fox",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "768ac83c-1206-4dd2-87f4-fd0550f8492b"
+    },
+    {
+      "character": {
+        "name": "Ramirez",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b0b0dad6-af33-45e2-b212-b497d9917311"
+    },
+    {
+      "character": {
+        "name": "Scarecrow",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9a91c941-d1d1-4514-9eb1-c4a27bbe9cce"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "32"
+  },
+  "releaseDate": "2008-08-01",
+  "trailer": "EXeTwQWrcwY"
+}

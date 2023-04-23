@@ -1,0 +1,134 @@
+{
+  "id": "4b3cb1b3-ddf5-4eff-bd11-65e574d6ed59",
+  "title": "Solo: A Star Wars Story",
+  "poster": "solo",
+  "genres": [
+    "Space Western"
+  ],
+  "production": [
+    "Lucasfilm",
+    "Walt Disney Pictures"
+  ],
+  "directedBy": [
+    "Ron Howard"
+  ],
+  "producedBy": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+  "writtenBy": "Jonathan Kasdan, Lawrence Kasdan",
+  "musicBy": "John Powell, John Williams",
+  "cinematographyBy": "Bradford Young",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 375,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 393,
+    "suffix": "million"
+  },
+  "synopsis": "During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion.",
+  "collections": [
+    {
+      "name": "Star Wars Universe"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Film",
+        "Best Actress",
+        "Best Director"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Star Wars Universe",
+    "part": 5
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Han Solo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ee5a6e7c-3dce-4bec-a9d4-1c907368fe8b"
+    },
+    {
+      "character": {
+        "name": "Chewbacca",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "10bc1c98-84fe-4446-8f80-5791682e3a10"
+    },
+    {
+      "character": {
+        "name": "Beckett",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "29fcbe6e-884b-4b15-894b-1bb691c26c36"
+    },
+    {
+      "character": {
+        "name": "Qi'ra",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "57c4bd91-9284-4980-b9bc-8db63710ab06"
+    },
+    {
+      "character": {
+        "name": "Lando Calrissian",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "92196f4f-16de-4bed-a866-1c871f78fafa"
+    },
+    {
+      "name": "Thandie Newton",
+      "character": {
+        "name": "Val",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "64cdb5d2-f4c8-4d5c-ab13-cdf68cac4485"
+    },
+    {
+      "character": {
+        "name": "L3-37",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7e8032c3-6a4c-4e6d-b14e-1cdd78ab1f55"
+    },
+    {
+      "character": {
+        "name": "Dryden Vos",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7a77d424-0788-4e65-9596-e60d483cf264"
+    },
+    {
+      "character": {
+        "name": "Rio Durant",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d8678c6b-5c51-4775-99ea-aebeb97a28e8"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "15"
+  },
+  "releaseDate": "2018-05-01",
+  "trailer": "jPEYpryMp2s"
+}

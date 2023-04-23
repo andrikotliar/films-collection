@@ -1,0 +1,191 @@
+{
+  "id": "32bc7b61-058e-45fa-835a-eb74504a15a2",
+  "title": "Black Panther",
+  "poster": "black_panther",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Marvel Studios"
+  ],
+  "directedBy": [
+    "Ryan Coogler"
+  ],
+  "producedBy": "Kevin Feige",
+  "writtenBy": "Ryan Coogler, Joe Robert Cole",
+  "musicBy": "Ludwig Gцransson",
+  "cinematographyBy": "Rachel Morrison",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.35,
+    "suffix": "billion"
+  },
+  "synopsis": "After the death of his father, Prince T'Challa ascends to the throne of the small African country of Wakanda. T'Challa is also Black Panther, superhero. Now not only must he govern his country but defeat a dangerous adversary.",
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Achievement in Music Written for Motion Pictures (Original Score)",
+        "Best Achievement in Costume Design",
+        "Best Achievement in Production Design"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Achievement in Special Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Comic-to-Film Motion Picture",
+        "Best Director",
+        "Best Supporting Actress",
+        "Best Production Design",
+        "Best Make-Up"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Movie of the Year",
+        "Best Performance in a Movie",
+        "Best Hero",
+        "Best Villain"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Visual Effects",
+        "Best Production Design",
+        "Best Costume Design"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "name": "Marvel Cinematic Universe"
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 18
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "T'Challa / Black Panther",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6bb68e05-b7bc-4a8b-929f-3ba185a3e5f9"
+    },
+    {
+      "character": {
+        "name": "Erik Killmonger",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f99f23e3-5ef3-437a-bf04-a67aa38f8697"
+    },
+    {
+      "character": {
+        "name": "Nakia",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1c546317-ff4b-42d3-893b-7d59de3a35fc"
+    },
+    {
+      "character": {
+        "name": "Okoye",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6b7859db-227e-42c0-9fe5-09647e33ebc7"
+    },
+    {
+      "character": {
+        "name": "Everett K. Ross",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3ac110d8-83ac-40a6-b22f-7537190f750b"
+    },
+    {
+      "character": {
+        "name": "W'Kabi",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6f384706-a2fe-4cfb-8578-8d2634cd0de9"
+    },
+    {
+      "character": {
+        "name": "Shuri",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "87cf439e-596e-4420-a7a4-85f07c35d15b"
+    },
+    {
+      "character": {
+        "name": "M'Baku",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1d3478f1-b89c-4441-b0d9-b8d196eeae09"
+    },
+    {
+      "character": {
+        "name": "N'Jobu",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "241c9b66-9a52-454b-887c-f81b070e85c4"
+    },
+    {
+      "character": {
+        "name": "Ramonda",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ab92f0ba-6256-45fa-ad66-f501d7700c67"
+    },
+    {
+      "character": {
+        "name": "Zuri",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d6966d68-0949-41c0-9414-00b9cecf1f5b"
+    },
+    {
+      "character": {
+        "name": "Ulysses Klaue",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "14"
+  },
+  "releaseDate": "2018-02-01",
+  "trailer": "xjDjIWPwcPU"
+}

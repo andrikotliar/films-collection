@@ -1,0 +1,135 @@
+{
+  "id": "e2a1054a-e0b5-4b8f-83b0-90384a05f40f",
+  "title": "Jurassic Park",
+  "poster": "jurassic_park_1",
+  "genres": [
+    "Sci-Fi",
+    "Adventures"
+  ],
+  "production": [
+    "Universal Pictures",
+    "Amblin Entertainment"
+  ],
+  "directedBy": [
+    "Steven Spielberg"
+  ],
+  "producedBy": "Kathleen Kennedy, Gerald R. Molen",
+  "writtenBy": "Michael Crichton, David Koepp",
+  "musicBy": "John Williams",
+  "cinematographyBy": "Dean Cundey",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 63,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.03,
+    "suffix": "billion"
+  },
+  "synopsis": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
+  "collections": [
+    {
+      "name": "Legends"
+    },
+    {
+      "name": "Monsters"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Sound",
+        "Best Sound Effects Editing",
+        "Best Visual Effects"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Special Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Director",
+        "Best Writing",
+        "Best Special Effects"
+      ]
+    },
+    {
+      "title": "Jupiter",
+      "nominations": [
+        "Best International Film",
+        "Best International Director"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Jurassic Park",
+    "part": 1
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Grant",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1970e5a6-cd2f-4982-af96-a9b0b1155051"
+    },
+    {
+      "character": {
+        "name": "Ellie",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "865a5ee4-fdb6-443e-b333-ff23c20029a5"
+    },
+    {
+      "character": {
+        "name": "Malcolm",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6b539e14-5cb0-4aa4-b194-4f1f240d0f64"
+    },
+    {
+      "character": {
+        "name": "Hammond",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9ef202b2-9850-4f52-9428-060c709f2cb6"
+    },
+    {
+      "character": {
+        "name": "Tim",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e16e2868-3796-4210-bf27-678271a2d204"
+    },
+    {
+      "character": {
+        "name": "Lex",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9f8a99db-df53-4050-8ca9-3c5264b4e07f"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "07"
+  },
+  "releaseDate": "1993-06-01",
+  "trailer": "QWBKEmWWL38"
+}

@@ -1,0 +1,10 @@
+.filters-group__header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.filters-group__title {
+  font-weight: bold;
+  text-transform: uppercase;
+}

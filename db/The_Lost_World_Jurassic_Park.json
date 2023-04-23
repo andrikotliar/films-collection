@@ -1,0 +1,84 @@
+{
+  "id": "cfcd9484-4b9b-40fd-a2f2-0ac1888430ea",
+  "title": "The Lost World: Jurassic Park",
+  "poster": "jurassic_park_2",
+  "genres": [
+    "Sci-Fi",
+    "Adventures"
+  ],
+  "production": [
+    "Universal Pictures",
+    "Amblin Entertainment"
+  ],
+  "directedBy": [
+    "Steven Spielberg"
+  ],
+  "producedBy": "Gerald R. Molen, Colin Wilson",
+  "writtenBy": "David Koepp",
+  "musicBy": "John Williams",
+  "cinematographyBy": "Janusz Kaminski",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 73,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 619,
+    "suffix": "million"
+  },
+  "synopsis": "A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda.",
+  "collections": [
+    {
+      "name": "Monsters"
+    }
+  ],
+  "parts": {
+    "title": "Jurassic Park",
+    "part": 2
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Malcolm",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6b539e14-5cb0-4aa4-b194-4f1f240d0f64"
+    },
+    {
+      "character": {
+        "name": "Hammond",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9ef202b2-9850-4f52-9428-060c709f2cb6"
+    },
+    {
+      "character": {
+        "name": "Sarah Harding",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7f0b81c7-b4b8-45fc-8945-2f3a6fbdf7f8"
+    },
+    {
+      "character": {
+        "name": "Peter Ludlow",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0b7d6ece-cd3d-45c2-ae05-267b3445eabf"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "09"
+  },
+  "releaseDate": "1997-05-01",
+  "trailer": "RxrvaneULkE"
+}

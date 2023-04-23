@@ -1,0 +1,104 @@
+{
+  "id": "c6d7c99a-098c-494c-80fc-faaf3133bdab",
+  "title": "Your Name",
+  "poster": "your_name",
+  "genres": [
+    "Anime",
+    "Drama",
+    "Fantasy"
+  ],
+  "production": [
+    "Toho, CoMix Wave Films"
+  ],
+  "directedBy": [
+    "Makoto Shinkai"
+  ],
+  "producedBy": "Noritaka Kawaguchi, Genki Kawamura",
+  "writtenBy": "Makoto Shinkai",
+  "musicBy": "Radwimps",
+  "cinematographyBy": "Makoto Shinkai",
+  "countries": [
+    "Japan"
+  ],
+  "budget": {
+    "value": 3.48,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 358,
+    "suffix": "million"
+  },
+  "synopsis": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?",
+  "collections": [
+    {
+      "name": "Anime"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Taki Tachibana",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0c676dd8-e5a2-4194-bb8e-462c47423c30"
+    },
+    {
+      "character": {
+        "name": "Mitsuha Miyamizu",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0fd0e111-3784-45ce-a337-8ba54009819a"
+    },
+    {
+      "character": {
+        "name": "Katsuhiko Teshigawara",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "aabd4648-9d3a-4291-8ab7-5841aec19918"
+    },
+    {
+      "character": {
+        "name": "Sayaka Natori",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6f9d445f-f103-4d62-83d3-580f1f8cef13"
+    },
+    {
+      "character": {
+        "name": "Tsukasa Fujii",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4a7c5bfb-a0f0-4337-876c-0a33c9f0c028"
+    },
+    {
+      "character": {
+        "name": "Shinta Takagi",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "37352151-9bbf-4467-96ad-adcf99cc22e0"
+    },
+    {
+      "character": {
+        "name": "Yotsuha Miyamizu",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "99fabf8e-6648-4688-815c-4356348a4851"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "47"
+  },
+  "releaseDate": "2016-08-01",
+  "trailer": "xU47nhruN-Q"
+}

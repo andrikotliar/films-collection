@@ -1,0 +1,83 @@
+{
+  "id": "f7f8d801-8f03-404c-994b-131480d0db5f",
+  "title": "Transporter 3",
+  "poster": "transporter_3",
+  "genres": [
+    "Action",
+    "Crime"
+  ],
+  "production": [
+    "EuropaCorp"
+  ],
+  "directedBy": [
+    "Oliver Megaton"
+  ],
+  "producedBy": "Luc Besson, Stephen Chasman",
+  "writtenBy": "Luc Besson, Robert Mark Kamen",
+  "musicBy": "Alexandre Azaria",
+  "cinematographyBy": "Giovanni Fiore Coltellacci",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 40,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 109,
+    "suffix": "million"
+  },
+  "synopsis": "Frank Martin puts the driving gloves on to deliver Valentina, the kidnapped daughter of a Ukrainian government official, from Marseilles to Odessa on the Black Sea. En route, he has to contend with thugs who want to intercept Valentina's safe delivery and not let his personal feelings get in the way of his dangerous objective.",
+  "collections": [
+    {
+      "name": "Cars"
+    }
+  ],
+  "parts": {
+    "title": "The Transporter",
+    "part": 3
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Frank Martin",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4a36ad60-4af7-44a4-85e7-879a11ec7b2e"
+    },
+    {
+      "character": {
+        "name": "Valentina",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "82093bc7-91fd-4ac1-8460-d496c240972f"
+    },
+    {
+      "character": {
+        "name": "Tarconi",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "18075778-b409-47e7-8d3a-2b296d3908e3"
+    },
+    {
+      "character": {
+        "name": "Johnson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "252db9fc-059d-4632-baaf-0868115f013a"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "44"
+  },
+  "releaseDate": "2008-11-01",
+  "trailer": "Pbh3CDBNIQA"
+}

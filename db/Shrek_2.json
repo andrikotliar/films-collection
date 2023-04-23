@@ -1,0 +1,117 @@
+{
+  "id": "e18627c0-7d09-45bb-894e-308e2ccef78e",
+  "title": "Shrek 2",
+  "poster": "shrek_2",
+  "genres": [
+    "Adventures",
+    "Comedy"
+  ],
+  "production": [
+    "DreamWorks Animation"
+  ],
+  "directedBy": [
+    "Andrew Adamson",
+    "Kelly Asbury",
+    "Conrad Vernon"
+  ],
+  "producedBy": "David Lipman, Aron Warner, John H. Williams",
+  "writtenBy": "Ted Elliott, Terry Rossio, Joe Stillman, Roger S. H. Schulman",
+  "musicBy": "Harry Gregson-Williams",
+  "countries": [
+    "USA",
+    "Japan"
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 920,
+    "suffix": "million"
+  },
+  "synopsis": "Shrek and Fiona travel to the Kingdom of Far Far Away, where Fiona's parents are King and Queen, to celebrate their marriage. When they arrive, they find they are not as welcome as they thought they would be.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "parts": {
+    "title": "Shrek",
+    "part": 2
+  },
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Shrek",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "fd488142-fcd7-4e8d-890a-148da9d26761"
+    },
+    {
+      "character": {
+        "name": "Donkey",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "99e5b905-3388-4ec8-a9c6-34f0f5229e05"
+    },
+    {
+      "character": {
+        "name": "Fiona",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "75e4a5c6-64e1-4493-90a6-bd31734ce3ed"
+    },
+    {
+      "character": {
+        "name": "Puss In Boots",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e1e6186f-8bc4-401f-b818-8fbb22d44691"
+    },
+    {
+      "character": {
+        "name": "Queen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9649d428-2027-439d-ac69-b04dcef79f77"
+    },
+    {
+      "character": {
+        "name": "King",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e23d9e20-90d0-462e-a693-507a089ced1b"
+    },
+    {
+      "character": {
+        "name": "Prince Charming",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "66a6fc87-58dd-417b-bb0a-b7da79794db2"
+    },
+    {
+      "character": {
+        "name": "Fairy Godmother",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5de8777a-57aa-4b6f-95f8-56a58243aa10"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "33"
+  },
+  "releaseDate": "2004-08-01",
+  "trailer": "xBgSfhp5Fxo"
+}

@@ -1,0 +1,135 @@
+{
+  "id": "73b015d2-9f1e-4e6b-b3ef-1da57a7b5975",
+  "title": "Teenage Mutant Ninja Tourtles",
+  "poster": "tmnt",
+  "genres": [
+    "Action",
+    "Comedy"
+  ],
+  "production": [
+    "Paramount Pictures"
+  ],
+  "directedBy": [
+    "Jonathan Liebesman"
+  ],
+  "producedBy": "Michael Bay, Andrew Form, Brad Fuller, Galen Walker, Scott Mednick, Ian Bryce",
+  "writtenBy": "Josh Appelbaum, André Nemec, Evan Daugherty",
+  "musicBy": "Brian Tyler",
+  "cinematographyBy": "Lula Carvalho",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 125,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 493,
+    "suffix": "million"
+  },
+  "synopsis": "When a kingpin threatens New York City, a group of mutated turtle warriors must emerge from the shadows to protect their home.",
+  "collections": [
+    {
+      "name": "Superheroes"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Leonardo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "75873cf0-cc8b-4ccd-bdd7-1a127e6e673f"
+    },
+    {
+      "character": {
+        "name": "Leonardo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6598d0f8-6bee-4efd-b1b4-0a7e2be7da94"
+    },
+    {
+      "character": {
+        "name": "Raphael",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5345725f-fbec-4423-b655-e837bbb971f2"
+    },
+    {
+      "character": {
+        "name": "Donatello",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "545e4096-9038-40c6-8bad-ddda9e4c9091"
+    },
+    {
+      "character": {
+        "name": "Michelangelo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d2757a45-f1da-4486-abff-ba883ffe6219"
+    },
+    {
+      "character": {
+        "name": "Splinter",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "33cb406a-bdda-41ac-9717-2e2f9d7a174e"
+    },
+    {
+      "character": {
+        "name": "Shredder",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "096db6e6-b918-497f-b393-9e108e3773e8"
+    },
+    {
+      "character": {
+        "name": "April O'Neil",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9e62046b-4fe8-4f6d-914e-3d617619aa2d"
+    },
+    {
+      "character": {
+        "name": "Vern Fenwick",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5c60b5e5-cef5-468b-aad5-a280fffc166c"
+    },
+    {
+      "character": {
+        "name": "Eric Sacks",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d776e727-0be5-493e-8961-3d21767f57cb"
+    },
+    {
+      "character": {
+        "name": "Splinter",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0bf747ee-2575-4df2-8dff-f10cd8a6ddf3"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "41"
+  },
+  "releaseDate": "2014-08-01",
+  "trailer": "VZZ0PnDZdZk"
+}

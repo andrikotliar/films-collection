@@ -1,0 +1,119 @@
+{
+  "id": "1d8b2008-7cab-4a25-9513-040bbd7fc326",
+  "title": "Ratatouille",
+  "poster": "ratatouille",
+  "genres": [
+    "Adventures",
+    "Comedy"
+  ],
+  "production": [
+    "Pixar Animation"
+  ],
+  "directedBy": [
+    "Brad Bird",
+    "Jan Pinkava"
+  ],
+  "producedBy": "Bradford Lewis",
+  "writtenBy": "Brad Bird",
+  "musicBy": "Michael Giacchino",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 624,
+    "suffix": "million"
+  },
+  "synopsis": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous Paris restaurant.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Remy",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6401d762-67f8-4212-8c4e-bd90404b3951"
+    },
+    {
+      "character": {
+        "name": "Skinner",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e9964030-afa3-42d4-ab91-9c1fd7c0f177"
+    },
+    {
+      "character": {
+        "name": "Linguini",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "151983fb-3fbd-4869-b6db-2f121bf3258b"
+    },
+    {
+      "character": {
+        "name": "Django",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "47f32539-7b7c-4ce6-a72b-176ad101192a"
+    },
+    {
+      "character": {
+        "name": "Emile",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8e813f59-cd68-4256-8212-82eb65713e62"
+    },
+    {
+      "character": {
+        "name": "Anton Ego",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3e65dad8-77f3-4912-b006-e6077a3d9863"
+    },
+    {
+      "character": {
+        "name": "Gusteau",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "32d0b8bf-3fcc-4ebe-b8b9-b7d60402ff70"
+    },
+    {
+      "character": {
+        "name": "Colette",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "77f7dc40-3812-4109-b592-f9ae3a6ec41c"
+    },
+    {
+      "character": {
+        "name": "Horst",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5c60b5e5-cef5-468b-aad5-a280fffc166c"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "51"
+  },
+  "releaseDate": "2007-06-01",
+  "trailer": "NgsQ8mVkN8w"
+}

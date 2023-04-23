@@ -1,0 +1,153 @@
+{
+  "id": "be7740c1-74b4-405a-9f59-3b611751bec5",
+  "title": "X-Men",
+  "poster": "x_men_1",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "20th Century FOX",
+    "Marvel Entertainment"
+  ],
+  "directedBy": [
+    "Bryan Singer"
+  ],
+  "producedBy": "Lauren Shuler Donner, Ralph Winter",
+  "writtenBy": "David Hayter",
+  "musicBy": "Michael Kamen",
+  "cinematographyBy": "Newton Thomas Sigel",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 75,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 296,
+    "suffix": "million"
+  },
+  "synopsis": "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men.",
+  "collections": [
+    {
+      "name": "Superheroes"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Actor",
+        "Best Supporting Actress",
+        "Best Director",
+        "Best Writing",
+        "Best Costumes"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "X-Men",
+    "part": 1
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Logan / Wolverine",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3e2db4d6-df90-4736-9425-c1fd062d8868"
+    },
+    {
+      "character": {
+        "name": "Professor Charles Xavier",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "76c48e8a-834b-4683-a406-f2b72f99a39b"
+    },
+    {
+      "character": {
+        "name": "Eric Lensherr / Magneto",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "18b67364-14a8-461a-bf48-a12c4741d52f"
+    },
+    {
+      "character": {
+        "name": "Jean Grey",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8c9ab14e-14f3-45bc-ac3f-6305a8d7aa11"
+    },
+    {
+      "character": {
+        "name": "Scott Summers / Cyclops",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "33667252-70d3-4c36-a89d-a0fd68e7b131"
+    },
+    {
+      "character": {
+        "name": "Ororo Munroe / Storm",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4551e8d8-1551-4a8e-926a-6b767938bdda"
+    },
+    {
+      "character": {
+        "name": "Rogue",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0acad1f8-e388-42ee-a0bc-c8e1a5b335a0"
+    },
+    {
+      "character": {
+        "name": "Sabretooth",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d1db93ce-f0a9-4825-bc23-b714b41c2159"
+    },
+    {
+      "character": {
+        "name": "Toad",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "fad61f43-784f-43bc-a5df-193d70fdee1a"
+    },
+    {
+      "character": {
+        "name": "Mystique Senator Kelly",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4533b45c-3d80-475c-8254-b13660e2aa3e"
+    },
+    {
+      "character": {
+        "name": "Senator Kelly",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "228b656c-0882-4251-8e2c-80c2c48e2098"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "44"
+  },
+  "releaseDate": "2000-07-01",
+  "trailer": "VNxwlx6etXI"
+}

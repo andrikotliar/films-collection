@@ -1,0 +1,118 @@
+{
+  "id": "7aea7e24-97ce-4af6-9759-04cf2c3cc4cb",
+  "title": "Iron Man 3",
+  "poster": "iron_man_3",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Marvel Studios"
+  ],
+  "directedBy": [
+    "Shane Black"
+  ],
+  "producedBy": "Kevin Feige",
+  "writtenBy": "Shane Black, Drew Pearce",
+  "musicBy": "Brian Tyler",
+  "cinematographyBy": "John Toll",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.2,
+    "suffix": "billion"
+  },
+  "synopsis": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Comic-to-Film Motion Picture",
+        "Best Actor",
+        "Best Supporting Actor"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "name": "Marvel Cinematic Universe"
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 7
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Tony Stark / Iron Man",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e"
+    },
+    {
+      "character": {
+        "name": "Pepper Potts",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "21b0cc1a-55c6-40a0-88c4-aafcf510b3e4"
+    },
+    {
+      "character": {
+        "name": "Colonel James Rhodes",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "64bde65d-0d41-434b-ab94-01aa4422b632"
+    },
+    {
+      "character": {
+        "name": "Aldrich Killian",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9d24f107-5e8f-497f-bc8a-bba10c71662a"
+    },
+    {
+      "character": {
+        "name": "Maya Hansen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4c508853-393f-407d-a881-db96a4b4825f"
+    },
+    {
+      "character": {
+        "name": "Happy Hogan",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d8678c6b-5c51-4775-99ea-aebeb97a28e8"
+    },
+    {
+      "character": {
+        "name": "Trevor Slattery",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1e35187e-647f-4233-9215-41762259fff0"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "11"
+  },
+  "releaseDate": "2013-05-01",
+  "trailer": "Ke1Y3P9D0Bc"
+}

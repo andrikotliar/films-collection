@@ -1,0 +1,123 @@
+{
+  "id": "b031a7af-87a2-425e-bc04-c4a384048e6b",
+  "title": "The Mummy",
+  "poster": "mummy_1",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "directedBy": [
+    "Stephen Sommers"
+  ],
+  "producedBy": "James Jacks, Sean Daniel",
+  "writtenBy": "Stephen Sommers",
+  "musicBy": "Jerry Goldsmith",
+  "cinematographyBy": "Adrian Biddle",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 80,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 416,
+    "suffix": "million"
+  },
+  "synopsis": "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreck havoc as he searches for the reincarnation of his long-lost love.",
+  "collections": [
+    {
+      "name": "Mysteries of the Past"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Make-Up"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Mummy",
+    "part": 1
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Rick O'Connell",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3de23e91-0482-4ab0-9c13-fb63ce05d2b1"
+    },
+    {
+      "character": {
+        "name": "Evelyn Carnahan",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "819d09b5-4e1e-4038-a658-1c71736eed87"
+    },
+    {
+      "character": {
+        "name": "Jonathan Carnahan",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "920b8742-53bc-4c27-ba6a-65288909607c"
+    },
+    {
+      "character": {
+        "name": "Imhotep",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "93771b70-5481-47eb-a88b-b412ba0cb46a"
+    },
+    {
+      "character": {
+        "name": "Beni Gabor",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2c19e0da-5834-49c2-8014-1a88976241d8"
+    },
+    {
+      "character": {
+        "name": "Dr. Allen Chamberlain",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "81d9cfc0-ff46-4769-bf31-4867f4a04980"
+    },
+    {
+      "character": {
+        "name": "Ardeth Bay",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8e904b1b-c093-443d-9641-4ee7b7d6b811"
+    },
+    {
+      "character": {
+        "name": "Dr. Terrence Bey",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "29e24d4c-1c00-4a98-a9df-4328ff3b948f"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "05"
+  },
+  "releaseDate": "1999-04-01",
+  "trailer": "h3ptPtxWJRs"
+}

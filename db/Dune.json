@@ -1,0 +1,154 @@
+{
+  "id": "eb3b2c18-deda-4bed-a706-73a37add71ce",
+  "title": "Dune",
+  "poster": "dune",
+  "genres": [
+    "Sci-Fi",
+    "Adventures",
+    "Drama"
+  ],
+  "production": [
+    "Warner Bros. Pictures",
+    "Legendary"
+  ],
+  "directedBy": [
+    "Denis Villeneuve"
+  ],
+  "producedBy": "Cale Boyter, Joseph M. Caracciolo Jr., Mary Parent, Denis Villeneuve",
+  "writtenBy": "Jon Spaihts, Denis Villeneuve, Eric Roth",
+  "musicBy": "Hans Zimmer",
+  "cinematographyBy": "Greig Fraser",
+  "countries": [
+    "USA",
+    "Canada"
+  ],
+  "budget": {
+    "value": 165,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 398,
+    "suffix": "million"
+  },
+  "synopsis": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
+  "collections": [
+    {
+      "name": "Space"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Paul Atreides",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "74937c62-fb43-4cfb-9285-e21ac4b8de98"
+    },
+    {
+      "character": {
+        "name": "Lady Jessica",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5de23f5e-b272-4fa6-9128-6dc70bc9784a"
+    },
+    {
+      "character": {
+        "name": "Duke Leto Atreides",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6322247a-311c-414e-a2ce-e5f658811569"
+    },
+    {
+      "character": {
+        "name": "Duncan Idaho",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bc4e2b06-01a0-4bcd-886a-bf360f90c181"
+    },
+    {
+      "character": {
+        "name": "Baron Vladimir Harkonnen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1b41f903-5993-4f31-8306-afb18e261e96"
+    },
+    {
+      "character": {
+        "name": "Piter De Vries",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "80863320-fecd-40ed-843c-d83ea21fb63b"
+    },
+    {
+      "character": {
+        "name": "Chani",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c8eeb8d9-51c3-4833-a31d-ec18431eaf71"
+    },
+    {
+      "character": {
+        "name": "Gurney Halleck",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "02b35a55-aa39-45bf-b0df-6f82c5aa8f07"
+    },
+    {
+      "character": {
+        "name": "Glossu 'Beast' Rabban",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "991ea0a4-315d-42f4-8960-4b0c64be1ebd"
+    },
+    {
+      "character": {
+        "name": "Thufir Hawat",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5d6c501a-1855-484d-b02a-154a15cec39a"
+    },
+    {
+      "character": {
+        "name": "Dr. Liet Kynes",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9af014d3-4587-46d4-bb6a-dd8e6fe04304"
+    },
+    {
+      "character": {
+        "name": "Stilgar",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a5282c0d-4767-4aa0-b3ea-e31f210b7829"
+    },
+    {
+      "character": {
+        "name": "Dr. Wellington Yueh",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4fd4987f-71d2-49a2-8e60-cc1c93280aef"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "35"
+  },
+  "releaseDate": "2021-10-01",
+  "trailer": "w0HgHet0sxg"
+}

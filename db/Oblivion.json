@@ -1,0 +1,103 @@
+{
+  "id": "b4e19508-22f6-4e37-93eb-1ee7ad2b99db",
+  "title": "Oblivion",
+  "poster": "oblivion",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "directedBy": [
+    "Joseph Kosinski"
+  ],
+  "producedBy": "Peter Chernin, Dylan Clark, Duncan Henderson",
+  "writtenBy": "Karl Gajdusek, Michael deBruyn",
+  "musicBy": "M83, Joseph Trapanese",
+  "cinematographyBy": "Claudio Miranda",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 160,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 286,
+    "suffix": "million"
+  },
+  "synopsis": "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.",
+  "collections": [
+    {
+      "name": "Invaders"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Jack",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81"
+    },
+    {
+      "character": {
+        "name": "Beech",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "768ac83c-1206-4dd2-87f4-fd0550f8492b"
+    },
+    {
+      "character": {
+        "name": "Julia",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "15e23497-1682-48a3-ab05-bebac8767fdb"
+    },
+    {
+      "character": {
+        "name": "Victoria",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4e690781-edf2-49f2-b74e-6cb1fa0144c5"
+    },
+    {
+      "character": {
+        "name": "Sykes",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ff564a65-9ad2-4f88-85cd-69302b3975b3"
+    },
+    {
+      "character": {
+        "name": "Sally",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "352ed082-840b-4afe-bbd1-db3ecafe15bf"
+    },
+    {
+      "character": {
+        "name": "Kara",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "691bac35-07f3-4e53-a923-d852ba53b75a"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "04"
+  },
+  "releaseDate": "2013-04-01",
+  "trailer": "XmIIgE7eSak"
+}

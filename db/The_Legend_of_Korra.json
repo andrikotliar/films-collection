@@ -1,0 +1,652 @@
+{
+  "id": "43ef8781-0997-4df3-964b-f364a3e50d12",
+  "title": "The Legend of Korra",
+  "poster": "legend_of_korra",
+  "genres": [
+    "Adventures",
+    "Fantasy"
+  ],
+  "production": [
+    "Nickelodeon Animation Studios"
+  ],
+  "createdBy": [
+    "Michael Dante DiMartino",
+    "Bryan Konietzko"
+  ],
+  "producedBy": "Tim Yoon, Karen Malach",
+  "musicBy": "Jeremy Zuckerman",
+  "countries": [
+    "USA"
+  ],
+  "synopsis": "Avatar Korra fights to keep Republic City safe from the evil forces of both the physical and spiritual worlds.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Annie",
+      "nominations": [
+        "Outstanding Achievement in Storyboarding in an Animated TV/Broadcast Production",
+        "Outstanding Achievement in Production Design in an Animated TV/Broadcast Production"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Last Airbender",
+    "part": 2
+  },
+  "type": [
+    "Series"
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "trailer": "NBNpGCIavwA",
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "Welcome to Republic City",
+          "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
+          "releaseDate": "2012-04-14"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "A Leaf in the Wind",
+          "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
+          "releaseDate": "2012-04-14"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "The Revelation",
+          "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
+          "releaseDate": "2012-04-21"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "The Voice in the Night",
+          "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
+          "releaseDate": "2012-04-28"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "The Spirit of Competition",
+          "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
+          "releaseDate": "2012-05-05"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "And the Winner Is...",
+          "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
+          "releaseDate": "2012-05-12"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "The Aftermath",
+          "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
+          "releaseDate": "2012-05-19"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "When Extremes Meet",
+          "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
+          "releaseDate": "2012-06-02"
+        },
+        {
+          "episodeOverall": 9,
+          "episode": 9,
+          "title": "Out of the Past",
+          "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
+          "releaseDate": "2012-06-09"
+        },
+        {
+          "episodeOverall": 10,
+          "episode": 10,
+          "title": "Turning the Tides",
+          "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
+          "releaseDate": "2012-06-16"
+        },
+        {
+          "episodeOverall": 11,
+          "episode": 11,
+          "title": "Skeletons in the Closet",
+          "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
+          "releaseDate": "2012-06-23"
+        },
+        {
+          "episodeOverall": 12,
+          "episode": 12,
+          "title": "Endgame",
+          "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
+          "releaseDate": "2012-06-23"
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "trailer": "NBNpGCIavwA",
+      "episodes": [
+        {
+          "episodeOverall": 13,
+          "episode": 1,
+          "title": "Rebel Spirit",
+          "directedBy": "Colin Heck",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2013-09-13"
+        },
+        {
+          "episodeOverall": 14,
+          "episode": 2,
+          "title": "The Southern Lights",
+          "directedBy": "Ian Graham",
+          "writtenBy": "Joshua Hamilton",
+          "releaseDate": "2013-09-13"
+        },
+        {
+          "episodeOverall": 15,
+          "episode": 3,
+          "title": "Civil Wars, Part 1",
+          "directedBy": "Colin Heck",
+          "writtenBy": "Michael Dante DiMartino",
+          "releaseDate": "2013-09-20"
+        },
+        {
+          "episodeOverall": 16,
+          "episode": 4,
+          "title": "Civil Wars, Part 2",
+          "directedBy": "Ian Graham",
+          "writtenBy": "Michael Dante DiMartino",
+          "releaseDate": "2013-09-27"
+        },
+        {
+          "episodeOverall": 17,
+          "episode": 5,
+          "title": "Peacekeepers",
+          "directedBy": "Colin Heck",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2013-10-04"
+        },
+        {
+          "episodeOverall": 18,
+          "episode": 6,
+          "title": "The Sting",
+          "directedBy": "Ian Graham",
+          "writtenBy": "Joshua Hamilton",
+          "releaseDate": "2013-10-11"
+        },
+        {
+          "episodeOverall": 19,
+          "episode": 7,
+          "title": "Beginnings, Part 1",
+          "directedBy": "Colin Heck",
+          "writtenBy": "Michael Dante DiMartino",
+          "releaseDate": "2013-10-18"
+        },
+        {
+          "episodeOverall": 20,
+          "episode": 8,
+          "title": "Beginnings, Part 2",
+          "directedBy": "Ian Graham",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2013-10-18"
+        },
+        {
+          "episodeOverall": 21,
+          "episode": 9,
+          "title": "The Guide",
+          "directedBy": "Colin Heck",
+          "writtenBy": "Joshua Hamilton",
+          "releaseDate": "2013-11-01"
+        },
+        {
+          "episodeOverall": 22,
+          "episode": 10,
+          "title": "A New Spiritual Age",
+          "directedBy": "Ian Graham",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2013-11-08"
+        },
+        {
+          "episodeOverall": 23,
+          "episode": 11,
+          "title": "Night of a Thousand Stars",
+          "directedBy": "Colin Heck",
+          "writtenBy": "Joshua Hamilton",
+          "releaseDate": "2013-11-15"
+        },
+        {
+          "episodeOverall": 24,
+          "episode": 12,
+          "title": "Harmonic Convergence",
+          "directedBy": "Ian Graham",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2013-11-15"
+        },
+        {
+          "episodeOverall": 25,
+          "episode": 13,
+          "title": "Darkness Falls",
+          "directedBy": "Colin Heck",
+          "writtenBy": "Joshua Hamilton",
+          "releaseDate": "2013-11-22"
+        },
+        {
+          "episodeOverall": 26,
+          "episode": 14,
+          "title": "Light in the Dark",
+          "directedBy": "Ian Graham",
+          "writtenBy": "Michael Dante DiMartino",
+          "releaseDate": "2013-11-22"
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "trailer": "NBNpGCIavwA",
+      "episodes": [
+        {
+          "episodeOverall": 27,
+          "episode": 1,
+          "title": "A Breath of Fresh Air",
+          "directedBy": "Melchior Zwyer",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2014-06-27"
+        },
+        {
+          "episodeOverall": 28,
+          "episode": 2,
+          "title": "Rebirth",
+          "directedBy": "Colin Heck",
+          "writtenBy": "Joshua Hamilton",
+          "releaseDate": "2014-06-27"
+        },
+        {
+          "episodeOverall": 29,
+          "episode": 3,
+          "title": "The Earth Queen",
+          "directedBy": "Ian Graham",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2014-06-27"
+        },
+        {
+          "episodeOverall": 30,
+          "episode": 4,
+          "title": "In Harm's Way",
+          "directedBy": "Melchior Zwyer",
+          "writtenBy": "Joshua Hamilton",
+          "releaseDate": "2014-07-11"
+        },
+        {
+          "episodeOverall": 31,
+          "episode": 5,
+          "title": "The Metal Clan",
+          "directedBy": "Colin Heck",
+          "writtenBy": "Michael Dante DiMartino",
+          "releaseDate": "2014-07-11"
+        },
+        {
+          "episodeOverall": 32,
+          "episode": 6,
+          "title": "Old Wounds",
+          "directedBy": "Ian Graham",
+          "writtenBy": "Katie Mattila",
+          "releaseDate": "2014-07-18"
+        },
+        {
+          "episodeOverall": 33,
+          "episode": 7,
+          "title": "Original Airbenders",
+          "directedBy": "Melchior Zwyer",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2014-07-18"
+        },
+        {
+          "episodeOverall": 34,
+          "episode": 8,
+          "title": "The Terror Within",
+          "directedBy": "Colin Heck",
+          "writtenBy": "Joshua Hamilton",
+          "releaseDate": "2014-07-25"
+        },
+        {
+          "episodeOverall": 35,
+          "episode": 9,
+          "title": "The Stakeout",
+          "directedBy": "Ian Graham",
+          "writtenBy": "Michael Dante DiMartino",
+          "releaseDate": "2014-08-01"
+        },
+        {
+          "episodeOverall": 36,
+          "episode": 10,
+          "title": "Long Live the Queen",
+          "directedBy": "Melchior Zwyer",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2014-08-08"
+        },
+        {
+          "episodeOverall": 37,
+          "episode": 11,
+          "title": "The Ultimatum",
+          "directedBy": "Colin Heck",
+          "writtenBy": "Joshua Hamilton",
+          "releaseDate": "2014-08-15"
+        },
+        {
+          "episodeOverall": 38,
+          "episode": 12,
+          "title": "Enter the Void",
+          "directedBy": "Ian Graham",
+          "writtenBy": "Michael Dante DiMartino",
+          "releaseDate": "2014-08-22"
+        },
+        {
+          "episodeOverall": 39,
+          "episode": 13,
+          "title": "Venom of the Red Lotus",
+          "directedBy": "Melchior Zwyer",
+          "writtenBy": "Tim Hedrick, Joshua Hamilton",
+          "releaseDate": "2014-08-22"
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "trailer": "NBNpGCIavwA",
+      "episodes": [
+        {
+          "episodeOverall": 40,
+          "episode": 1,
+          "title": "After All These Years",
+          "directedBy": "Colin Heck",
+          "writtenBy": "Joshua Hamilton",
+          "releaseDate": "2014-10-03"
+        },
+        {
+          "episodeOverall": 41,
+          "episode": 2,
+          "title": "Korra Alone",
+          "directedBy": "Ian Graham",
+          "writtenBy": "Michael Dante DiMartino",
+          "releaseDate": "2014-10-10"
+        },
+        {
+          "episodeOverall": 42,
+          "episode": 3,
+          "title": "The Coronation",
+          "directedBy": "Melchior Zwyer",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2014-10-17"
+        },
+        {
+          "episodeOverall": 43,
+          "episode": 4,
+          "title": "The Calling",
+          "directedBy": "Colin Heck",
+          "writtenBy": "Katie Mattila",
+          "releaseDate": "2014-10-24"
+        },
+        {
+          "episodeOverall": 44,
+          "episode": 5,
+          "title": "Enemy at the Gates",
+          "directedBy": "Ian Graham",
+          "writtenBy": "Joshua Hamilton",
+          "releaseDate": "2014-10-31"
+        },
+        {
+          "episodeOverall": 45,
+          "episode": 6,
+          "title": "The Battle of Zaofu",
+          "directedBy": "Melchior Zwyer",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2014-11-07"
+        },
+        {
+          "episodeOverall": 46,
+          "episode": 7,
+          "title": "Reunion",
+          "directedBy": "Colin Heck",
+          "writtenBy": "Michael Dante DiMartino",
+          "releaseDate": "2014-11-14"
+        },
+        {
+          "episodeOverall": 47,
+          "episode": 8,
+          "title": "Remembrances",
+          "directedBy": "Michael Dante DiMartino",
+          "writtenBy": "Joshua Hamilton, Katie Mattila, Tim Hedrick",
+          "releaseDate": "2014-11-21"
+        },
+        {
+          "episodeOverall": 48,
+          "episode": 9,
+          "title": "Beyond the Wilds",
+          "directedBy": "Ian Graham",
+          "writtenBy": "Joshua Hamilton",
+          "releaseDate": "2014-11-28"
+        },
+        {
+          "episodeOverall": 49,
+          "episode": 10,
+          "title": "Operation Beifong",
+          "directedBy": "Melchior Zwyer",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2014-12-05"
+        },
+        {
+          "episodeOverall": 50,
+          "episode": 11,
+          "title": "Kuvira's Gambit",
+          "directedBy": "Colin Heck",
+          "writtenBy": "Joshua Hamilton",
+          "releaseDate": "2014-12-12"
+        },
+        {
+          "episodeOverall": 51,
+          "episode": 12,
+          "title": "Day of the Colossus",
+          "directedBy": "Ian Graham",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2014-12-19"
+        },
+        {
+          "episodeOverall": 52,
+          "episode": 13,
+          "title": "The Last Stand",
+          "directedBy": "Melchior Zwyer",
+          "writtenBy": "Michael Dante Dimartino",
+          "releaseDate": "2014-12-19"
+        }
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Korra",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6b6a96e6-0958-4094-b23e-316b452b0ead"
+    },
+    {
+      "character": {
+        "name": "Bolin",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ffd0bd90-4c34-4a4f-ad92-ff08536b5d39"
+    },
+    {
+      "character": {
+        "name": "Mako",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "41d05549-f991-4ddb-9c96-618ff4d887d2"
+    },
+    {
+      "character": {
+        "name": "Tenzin",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3034deb0-7b15-4310-b3c8-14a06daee243"
+    },
+    {
+      "character": {
+        "name": "Asami Sato",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0866e946-75f5-4e33-a6a2-4f964d784df1"
+    },
+    {
+      "character": {
+        "name": "Lin Beifong",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ab89a473-af48-4e68-aa1c-1364a422d8c1"
+    },
+    {
+      "character": {
+        "name": "Meelo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f48ee956-9c7a-4612-b702-d5d2fd13a31c"
+    },
+    {
+      "character": {
+        "name": "Jinora",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f0c6ea30-0b29-43af-b740-4b063a7bd3e6"
+    },
+    {
+      "character": {
+        "name": "Varrick",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e5965c2e-a998-48de-9e88-e6f494d790b1"
+    },
+    {
+      "character": {
+        "name": "Ikki",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d65b0bc3-31e8-481e-a2ff-78c7f11d04ba"
+    },
+    {
+      "character": {
+        "name": "Bumi",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d194ad44-5dad-4e8f-830c-c0499d9f6150"
+    },
+    {
+      "character": {
+        "name": "Tonraq",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7c9d793a-2f26-4517-9d68-37f21dc42731"
+    },
+    {
+      "character": {
+        "name": "Unalaq",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e2176fdd-d47a-49f9-bf20-3385453fec5f"
+    },
+    {
+      "character": {
+        "name": "Zaheer",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cddd134c-f5b2-4bae-8f68-086e0201470e"
+    },
+    {
+      "character": {
+        "name": "Amon",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c79f62dc-d424-4040-adc0-4bec2f1b4b7f"
+    },
+    {
+      "character": {
+        "name": "Kuvira",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "64633ad8-3b72-47ab-a77f-425be6c9573a"
+    },
+    {
+      "character": {
+        "name": "Vaatu",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "40669806-c748-4c5d-9e14-18873c768e41"
+    },
+    {
+      "character": {
+        "name": "Raava",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b4fcc3fc-9565-4350-b62b-599c5be0ebfa"
+    },
+    {
+      "character": {
+        "name": "Aang",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ac6f5602-67ef-4b23-b320-6008ecab65e0"
+    },
+    {
+      "character": {
+        "name": "Katara",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "50dedb92-bf9a-4a5d-9f07-6b81e08d18e9"
+    }
+  ],
+  "duration": {
+    "hours": "19",
+    "minutes": "56"
+  },
+  "releaseDate": "2012-04-01"
+}

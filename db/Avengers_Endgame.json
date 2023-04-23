@@ -1,0 +1,217 @@
+{
+  "id": "b0f08ee2-258f-43be-8775-8baff6d01e1f",
+  "title": "Avengers: Endgame",
+  "poster": "avengers_4",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Marvel Studios"
+  ],
+  "directedBy": [
+    "Anthony Russo",
+    "Joe Russo"
+  ],
+  "producedBy": "Kevin Feige",
+  "writtenBy": "Christopher Markus, Stephen McFeely",
+  "musicBy": "Alan Silvestri",
+  "cinematographyBy": "Trent Opaloch",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 356,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 2.73,
+    "suffix": "billion"
+  },
+  "synopsis": "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to undo Thanos' actions and restore order to the universe.",
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Comic-to-Film Motion Picture",
+        "Best Actor (Robert Downey Jr.)",
+        "Best Production Design",
+        "Best Make-Up",
+        "Best Editing",
+        "Best Special Effects"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Movie",
+        "Best Hero (Robert Downey Jr. as Tony Stark)",
+        "Best Villain (Josh Brolin as Thanos)"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Visual Effects",
+        "Best Action Movie"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "name": "Marvel Cinematic Universe"
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 22
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Tony Stark / Iron Man",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e"
+    },
+    {
+      "character": {
+        "name": "Steve Rogers / Captain America",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "38541020-9829-440f-a21b-caf46d2d9428"
+    },
+    {
+      "character": {
+        "name": "Carol Danvers / Captain Marvel",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4386f45e-86dd-4155-b767-426709fb26a1"
+    },
+    {
+      "character": {
+        "name": "Rocket",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "41614959-9380-45b5-98b7-bad8ea79da1d"
+    },
+    {
+      "character": {
+        "name": "Natasha Romanoff / Black Widow",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "56501e25-8153-4a05-9aaa-43e683f72492"
+    },
+    {
+      "character": {
+        "name": "Thor",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5a7b31cb-f62d-44ae-85b6-21ed4c144a2d"
+    },
+    {
+      "character": {
+        "name": "Nebula",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0e1ceaa6-d248-427b-b2bf-89480f17a7c3"
+    },
+    {
+      "character": {
+        "name": "Hope van Dyne / The Wasp",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "99d66277-33ee-47bc-874a-9390edbd1ead"
+    },
+    {
+      "character": {
+        "name": "Thanos",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "02b35a55-aa39-45bf-b0df-6f82c5aa8f07"
+    },
+    {
+      "character": {
+        "name": "Wanda Maximoff",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f08bca90-8dc3-440a-a32a-4647bdf4d828"
+    },
+    {
+      "character": {
+        "name": "Peter Parker / Spider-Man",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f70d14d5-2f1a-46a1-8462-bdf6fc18141a"
+    },
+    {
+      "character": {
+        "name": "Scott Lang / Ant-Man",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cd9b8e2c-3973-46fb-a71a-7df6ca9c5b2e"
+    },
+    {
+      "character": {
+        "name": "Bucky Barnes",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6efe0990-f8c2-479e-970a-f990a42f774a"
+    },
+    {
+      "character": {
+        "name": "Clint Barton / Hawkeye",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b3e7f578-6981-4121-91d3-d768d95751ca"
+    },
+    {
+      "character": {
+        "name": "T'Challa / Black Panther",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6bb68e05-b7bc-4a8b-929f-3ba185a3e5f9"
+    },
+    {
+      "character": {
+        "name": "Bruce Banner / The Professor Hulk",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "66103de9-bd6b-4732-8a3b-b59d9c88035a"
+    },
+    {
+      "character": {
+        "name": "James Rhodes / The War Machine",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "64bde65d-0d41-434b-ab94-01aa4422b632"
+    }
+  ],
+  "duration": {
+    "hours": "3",
+    "minutes": "01"
+  },
+  "releaseDate": "2019-04-01",
+  "trailer": "TcMBFSGVi1c"
+}

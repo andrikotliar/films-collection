@@ -1,0 +1,140 @@
+{
+  "id": "809c0d6d-77c0-41bf-b81e-37d0e75b4f0f",
+  "title": "Zootopia",
+  "poster": "zootopia",
+  "genres": [
+    "Adventures",
+    "Comedy"
+  ],
+  "production": [
+    "Walt Disney Pictures"
+  ],
+  "directedBy": [
+    "Byron Howard",
+    "Rich Moore"
+  ],
+  "producedBy": "Clark Spencer",
+  "writtenBy": "Jared Bush, Phil Johnston",
+  "musicBy": "Michael Giacchino",
+  "cinematographyBy": "Nathan Warner, Brian Leach",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.02,
+    "suffix": "billion"
+  },
+  "synopsis": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Animated Feature Film of the Year"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Feature Film"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Animated Feature"
+      ]
+    }
+  ],
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Octavia Spencer",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bc9c90b9-3e12-4c64-bb54-ffd3efb98081"
+    },
+    {
+      "character": {
+        "name": "Judy Hopps",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "51bb7b46-0647-4620-8875-5168ef74947a"
+    },
+    {
+      "character": {
+        "name": "Nick Wilde",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ed322351-e250-4592-a42d-18dc1e238066"
+    },
+    {
+      "character": {
+        "name": "Chief Bogo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ad95cae6-b4b3-4efd-b00c-6e3ba878567a"
+    },
+    {
+      "character": {
+        "name": "Bellwether",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "094f64ca-4e6b-457a-90b2-8bb30f72e244"
+    },
+    {
+      "character": {
+        "name": "Clawhauser",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9479f4b0-ea14-4538-a020-ce3c28467a95"
+    },
+    {
+      "character": {
+        "name": "Bonnie Hopps",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d7170081-59b4-452b-8529-4962354e088b"
+    },
+    {
+      "character": {
+        "name": "Stu Hopps",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b06046f4-4394-456d-b3bd-3408cccd942a"
+    },
+    {
+      "character": {
+        "name": "Yax",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3034deb0-7b15-4310-b3c8-14a06daee243"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "48"
+  },
+  "releaseDate": "2016-03-01",
+  "trailer": "jWM0ct-OLsM"
+}

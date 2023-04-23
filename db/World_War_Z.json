@@ -1,0 +1,103 @@
+{
+  "id": "2d6009ca-845e-42d9-9259-c1bc7c839568",
+  "title": "World War Z",
+  "poster": "world_war_z",
+  "genres": [
+    "Action",
+    "Adventures",
+    "Horror"
+  ],
+  "production": [
+    "Paramount Pictures",
+    "Skydance Productions"
+  ],
+  "directedBy": [
+    "Marc Forster"
+  ],
+  "producedBy": "Brad Pitt, Dede Gardner, Jeremy Kleiner",
+  "writtenBy": "Matthew Michael Carnahan, Drew Goddard",
+  "musicBy": "Marco Beltrami",
+  "cinematographyBy": "Ben Seresin",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 190,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 540,
+    "suffix": "million"
+  },
+  "synopsis": "Former United Nations employee Gerry Lane traverses the world in a race against time to stop the Zombie pandemic that is toppling armies and governments, and threatening to destroy humanity itself.",
+  "collections": [
+    {
+      "name": "Future"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Thriller Film"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Scared-As-S**t Performance"
+      ]
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Gerry Lane",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4d283681-5033-4240-a844-289f0fc4ab52"
+    },
+    {
+      "character": {
+        "name": "Karin Lane",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8f5a8c1a-d79b-48bf-852c-0fbe9f83b72a"
+    },
+    {
+      "character": {
+        "name": "Segen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d29a0b08-7442-4a32-a7ba-bb3c9ed0ba0b"
+    },
+    {
+      "character": {
+        "name": "Captain Speke",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f2da2980-78fb-46b3-a149-13dadb4637b9"
+    },
+    {
+      "character": {
+        "name": "Jurgen Warmbrunn",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a080b48b-1838-45bd-be09-e597b55dd762"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "56"
+  },
+  "releaseDate": "2013-06-01",
+  "trailer": "Md6Dvxdr0AQ"
+}

@@ -1,0 +1,42 @@
+.expand-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.expand-filter__header {
+  width: 100%;
+}
+
+.expand-filter__button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.expand-filter__button [class^="is-expanded-"] {
+  width: 20px;
+  transition: transform 0.3s ease;
+}
+
+.expand-filter__button .is-expanded-true {
+  transform: rotate(-180deg);
+}
+
+.expand-filter__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  height: 250px;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+.expand-filter__option {
+  background-color: #f2f2f2;
+  padding: 5px;
+  border-radius: 10px;
+}

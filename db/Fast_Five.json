@@ -1,0 +1,139 @@
+{
+  "id": "d3894262-bebb-4257-a8c9-19da7f7f50fa",
+  "title": "Fast Five",
+  "poster": "fast_and_furious_5",
+  "genres": [
+    "Action",
+    "Crime"
+  ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "directedBy": [
+    "Justin Lin"
+  ],
+  "producedBy": "Neal H. Moritz, Vin Diesel",
+  "writtenBy": "Chris Morgan",
+  "musicBy": "Brian Tyler",
+  "cinematographyBy": "Stephen F. Windon",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 125,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 626,
+    "suffix": "million"
+  },
+  "synopsis": "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent.",
+  "collections": [
+    {
+      "name": "Cars"
+    }
+  ],
+  "parts": {
+    "title": "Fast and Furious",
+    "part": 5
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Dominic Toretto",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "81bac581-4158-4bcb-9920-60fd3a93bd6b"
+    },
+    {
+      "character": {
+        "name": "Brian O'Conner",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2c49887f-4365-4050-9ad8-0dfebb5556e6"
+    },
+    {
+      "character": {
+        "name": "Mia",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "49c64688-2490-427d-9650-4d5e8e2d53ac"
+    },
+    {
+      "character": {
+        "name": "Roman",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d590cae8-3171-41ca-968c-1bbb1b425aa8"
+    },
+    {
+      "character": {
+        "name": "Tej",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a07a4f82-9579-40d3-97d8-9dd2d0904023"
+    },
+    {
+      "character": {
+        "name": "Vince",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0fd1fa5e-8a53-4439-a14d-6617087c7830"
+    },
+    {
+      "character": {
+        "name": "Han",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d44f46b1-9cd7-432e-b62d-97de2a3ae027"
+    },
+    {
+      "character": {
+        "name": "Gisele",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cac99b67-2448-4b4f-ab99-e88b4e516940"
+    },
+    {
+      "character": {
+        "name": "Reyes",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3eab5239-749f-4e4e-a039-d00060118b16"
+    },
+    {
+      "character": {
+        "name": "Hobbs",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d10e4d00-cb12-4d0f-a8f7-949530f17b88"
+    },
+    {
+      "character": {
+        "name": "Elena",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a601625c-13b8-403a-b7eb-79165f3abd28"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "10"
+  },
+  "releaseDate": "2011-04-01",
+  "trailer": "mw2AqdB5EVA"
+}

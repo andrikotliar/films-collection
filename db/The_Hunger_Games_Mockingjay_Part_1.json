@@ -1,0 +1,126 @@
+{
+  "id": "c35c93b0-7835-4456-9ba3-8ba8d0f4c5e7",
+  "title": "The Hunger Games: Mockingjay - Part 1",
+  "poster": "hunger_games_3",
+  "genres": [
+    "Sci-Fi",
+    "Adventures"
+  ],
+  "production": [
+    "Lionsgate"
+  ],
+  "directedBy": [
+    "Francis Lawrence"
+  ],
+  "producedBy": "Nina Jacobson, Jon Kilik",
+  "writtenBy": "Peter Craig, Danny Strong",
+  "musicBy": "James Newton Howard",
+  "cinematographyBy": "Jo Willems",
+  "countries": [
+    "USA",
+    "Canada",
+    "France"
+  ],
+  "budget": {
+    "value": 125,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 755,
+    "suffix": "million"
+  },
+  "synopsis": "Katniss Everdeen is in District 13 after she shatters the games forever. Under the leadership of President Coin and the advice of her trusted friends, Katniss spreads her wings as she fights to save Peeta and a nation moved by her courage.",
+  "collections": [
+    {
+      "name": "Dystopia"
+    }
+  ],
+  "awards": [
+    {
+      "title": "MTV Movie Awards",
+      "nominations": [
+        "Best Musical Moment",
+        "Best On-Screen Transformation"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Hunger Games",
+    "part": 3
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Katniss Everdeen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "29b99567-4a10-4246-9bb2-26b55a9c1e63"
+    },
+    {
+      "character": {
+        "name": "Peeta Mellark",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1d56e82b-951f-4350-acb3-dca0d17311b1"
+    },
+    {
+      "character": {
+        "name": "Gale Hawthorne",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "81b174dd-c5ab-426e-83b8-d5ba3b75881e"
+    },
+    {
+      "character": {
+        "name": "Haymitch Abernathy",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "29fcbe6e-884b-4b15-894b-1bb691c26c36"
+    },
+    {
+      "character": {
+        "name": "Effie Trinket",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0731af77-ccc4-4542-b7b8-063a23dfc03e"
+    },
+    {
+      "character": {
+        "name": "President Coriolanus Snow",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "415a20c6-1d1f-4ede-b4d9-5b52bb3d6156"
+    },
+    {
+      "character": {
+        "name": "Plutarch Heavensbee",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a0be77f1-ba7a-47b5-9522-852a56e3fdc8"
+    },
+    {
+      "character": {
+        "name": "President Alma Coin",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7f0b81c7-b4b8-45fc-8945-2f3a6fbdf7f8"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "03"
+  },
+  "releaseDate": "2014-11-01",
+  "trailer": "3PkkHsuMrho"
+}

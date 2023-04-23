@@ -1,0 +1,132 @@
+{
+  "id": "01409f2e-109c-49d8-812e-e41925eb2235",
+  "title": "WALL-E",
+  "poster": "wall_e",
+  "genres": [
+    "Sci-Fi",
+    "Romance"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Pixar Animation"
+  ],
+  "directedBy": [
+    "Andrew Stanton"
+  ],
+  "producedBy": "Jim Morris",
+  "writtenBy": "Andrew Stanton, Jim Reardon",
+  "musicBy": "Thomas Newman",
+  "cinematographyBy": "Jeremy Lasky, Danielle Feinberg",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 180,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 533,
+    "suffix": "million"
+  },
+  "synopsis": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+  "collections": [
+    {
+      "name": "Space"
+    },
+    {
+      "name": "Top 10",
+      "order": 10
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Animated Feature Film of the Year"
+      ]
+    },
+    {
+      "title": "Golden Globes",
+      "nominations": [
+        "Best Animated Film"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Animated Film"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Animated Film"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Animated Feature"
+      ]
+    }
+  ],
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "WALL-E / M-O / AUTO",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4c21acf8-b585-48de-a699-3b458df11d1b"
+    },
+    {
+      "character": {
+        "name": "EVE",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "476edf13-1951-4c3a-956f-f9d7d89b33eb"
+    },
+    {
+      "character": {
+        "name": "Captain",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f7b1dbbe-d957-4d02-8387-4adb4c346261"
+    },
+    {
+      "character": {
+        "name": "Shelby Forthright",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9f7ec0ea-72c8-4a8f-a7c5-cf3db48da510"
+    },
+    {
+      "character": {
+        "name": "John",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "498e8f94-37ad-42dc-ba32-2e08fa135887"
+    },
+    {
+      "character": {
+        "name": "Mary",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2cf393e7-0dd3-49c5-abb2-c9fd2a0f8c23"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "37"
+  },
+  "releaseDate": "2008-07-01",
+  "trailer": "alIq_wG9FNk"
+}

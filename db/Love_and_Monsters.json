@@ -1,0 +1,106 @@
+{
+  "id": "6d4bcd9b-1cf6-4983-8777-f4736a780636",
+  "title": "Love and Monsters",
+  "poster": "love_and_monsters",
+  "genres": [
+    "Adventures",
+    "Action",
+    "Comedy"
+  ],
+  "production": [
+    "Paramount Pictures"
+  ],
+  "directedBy": [
+    "Michael Matthews"
+  ],
+  "producedBy": "Dan Cohen, Shawn Levy",
+  "writtenBy": "Brian Duffield, Matthew Robinson",
+  "musicBy": "Marco Beltrami, Marcus Trumpp",
+  "cinematographyBy": "Lachlan Milne",
+  "countries": [
+    "Canada",
+    "USA",
+    "Australia"
+  ],
+  "budget": {
+    "value": 30,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1,
+    "suffix": "million"
+  },
+  "synopsis": "Seven years after he survived the monster apocalypse, lovably hapless Joel leaves his cozy underground bunker behind on a quest to reunite with his ex.",
+  "collections": [
+    {
+      "name": "Monsters"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Joel",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c2e23382-b2ab-4810-b9c1-c08fe4dc2d9d"
+    },
+    {
+      "character": {
+        "name": "Aimee",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a4d57163-8dee-4572-acf9-7900c4f7d398"
+    },
+    {
+      "character": {
+        "name": "Clyde",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "49943e49-03fd-41fd-99ae-7b37bb231079"
+    },
+    {
+      "character": {
+        "name": "Cap",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3cd76e8a-1c58-46fb-bcad-5448c495fad4"
+    },
+    {
+      "character": {
+        "name": "Minnow",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ddab9735-0351-48cf-ba85-c0b7b85def5e"
+    },
+    {
+      "character": {
+        "name": "Dana",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "64d5dc84-3765-43f7-b3ce-7f567bcd06d4"
+    },
+    {
+      "character": {
+        "name": "Rocko",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "edc4956a-f546-4e9e-a2dd-2e5785d0e4fa"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "49"
+  },
+  "releaseDate": "2020-10-01",
+  "trailer": "1dzGhJ5QGsQ"
+}

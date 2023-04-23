@@ -1,0 +1,184 @@
+{
+  "id": "ca42c671-ea29-49de-8292-6166619f7c27",
+  "title": "Chernobyl",
+  "poster": "chernobyl",
+  "genres": [
+    "Drama",
+    "History"
+  ],
+  "production": [
+    "HBO"
+  ],
+  "createdBy": [
+    "Craig Mazin"
+  ],
+  "producedBy": "Sanne Wohlenberg",
+  "musicBy": "Hildur Guðnadóttir",
+  "cinematographyBy": "Jakob Ihre",
+  "countries": [
+    "USA",
+    "UK"
+  ],
+  "synopsis": "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes.",
+  "collections": [
+    {
+      "name": "Real Events"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Emmy",
+      "nominations": [
+        "Outstanding Limited Series",
+        "Outstanding Directing for a Limited Series",
+        "Outstanding Writing for a Limited Series",
+        "Outstanding Cinematography for a Limited Series or Movie",
+        "Outstanding Production Design for a Narrative Period or Fantasy Program (One Hour or More)",
+        "Outstanding Music Composition for a Limited Series",
+        "Movie",
+        "or Special (Original Dramatic Score)",
+        "Outstanding Single-Camera Picture Editing for a Limited Series or Movie",
+        "Outstanding Sound Mixing for a Limited Series or Movie",
+        "Outstanding Sound Editing for a Limited Series",
+        "Movie or Special",
+        "Outstanding Special Visual Effects in a Supporting Role,"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Leading Actor (Jared Harris)",
+        "Mini-Series",
+        "Supporting Actor (Stellan Skarsgård)"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Supporting Actor in a Limited Series or Movie Made for Television (Stellan Skarsgård)"
+      ]
+    }
+  ],
+  "type": [
+    "Series"
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "1:23:45",
+          "directedBy": "Johan Renck",
+          "writtenBy": "Craig Mazin",
+          "releaseDate": "2019-05-06"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Please Remain Calm",
+          "directedBy": "Johan Renck",
+          "writtenBy": "Craig Mazin",
+          "releaseDate": "2019-05-13"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Open Wide, O Earth",
+          "directedBy": "Johan Renck",
+          "writtenBy": "Craig Mazin",
+          "releaseDate": "2019-05-20"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "The Happiness of All Mankind",
+          "directedBy": "Johan Renck",
+          "writtenBy": "Craig Mazin",
+          "releaseDate": "2019-05-27"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Vichnaya Pamyat",
+          "directedBy": "Johan Renck",
+          "writtenBy": "Craig Mazin",
+          "releaseDate": "2019-06-03"
+        }
+      ],
+      "trailer": "s9APLXM9Ei8"
+    }
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Lyudmilla Ignatenko",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "53b02037-fbf7-4030-a970-ea06170d49a8"
+    },
+    {
+      "character": {
+        "name": "Valery Legasov",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8c06c7a0-6407-41d4-82b9-8101e961ad03"
+    },
+    {
+      "character": {
+        "name": "Boris Shcherbina",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1b41f903-5993-4f31-8306-afb18e261e96"
+    },
+    {
+      "character": {
+        "name": "Vasily Ignatenko",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3b3db445-0873-4ca4-9f1c-6f0a23124470"
+    },
+    {
+      "character": {
+        "name": "Ulana Khomyuk",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a904e030-7822-4b39-80fa-f7313175f6d4"
+    },
+    {
+      "character": {
+        "name": "Anatoly Dyatlov",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c6f1c961-a97f-44c4-bedc-a5945de51b1b"
+    },
+    {
+      "character": {
+        "name": "Leonid Toptunov",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "802551d5-d6c0-4260-a8e3-5d6fd24e3325"
+    },
+    {
+      "character": {
+        "name": "Alexandr Akimov",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "63694732-cf05-4c92-b227-afd66265ba96"
+    }
+  ],
+  "duration": {
+    "hours": "05",
+    "minutes": "30"
+  },
+  "releaseDate": "2019-05-01"
+}

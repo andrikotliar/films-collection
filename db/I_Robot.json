@@ -1,0 +1,99 @@
+{
+  "id": "412ef321-fbf6-43a7-bb26-7c6ce75fb430",
+  "title": "I, Robot",
+  "poster": "i_robot",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "directedBy": [
+    "Alex Proyas"
+  ],
+  "producedBy": "Laurence Mark, John Davis, Topher Dow, Wyck Godfrey",
+  "writtenBy": "Jeff Vintar, Akiva Goldsman",
+  "musicBy": "Marco Beltrami",
+  "cinematographyBy": "Simon Duggan",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 120,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 347,
+    "suffix": "million"
+  },
+  "synopsis": "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity.",
+  "collections": [
+    {
+      "name": "Robots"
+    },
+    {
+      "name": "Top 10",
+      "order": 6
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Del Spooner",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0e631141-1b4a-4ed9-8325-5a1947f08404"
+    },
+    {
+      "character": {
+        "name": "Susan Calvin",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "268ab293-1a19-4f15-bd48-64ac4ea9f686"
+    },
+    {
+      "character": {
+        "name": "Sonny",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cb96dbad-b822-406b-88fb-6ad38ec6a68b"
+    },
+    {
+      "character": {
+        "name": "Dr. Alfred Lanning",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e615eab2-b335-456c-9431-51a7fec8f45d"
+    },
+    {
+      "character": {
+        "name": "Lawrence Robertson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a02f67c9-9995-4e55-a3af-114a69960a3e"
+    },
+    {
+      "character": {
+        "name": "V.I.K.I.",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "295c3036-2af6-4a5d-b721-ad61de5616f1"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "55"
+  },
+  "releaseDate": "2004-07-01",
+  "trailer": "rL6RRIOZyCM"
+}

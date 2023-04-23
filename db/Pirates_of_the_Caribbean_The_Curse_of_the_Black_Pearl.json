@@ -1,0 +1,126 @@
+{
+  "id": "02401a06-283e-49d9-bb0f-73f266064053",
+  "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+  "poster": "pirates_1",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Jerry Bruckheimer Films"
+  ],
+  "directedBy": [
+    "Gore Verbinski"
+  ],
+  "producedBy": "Jerry Bruckheimer",
+  "writtenBy": "Ted Elliott, Terry Rossio",
+  "musicBy": "Klaus Badelt",
+  "cinematographyBy": "Dariusz Wolski",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 140,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 654,
+    "suffix": "million"
+  },
+  "synopsis": "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "awards": [
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Make Up/Hair"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Costumes"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Male Performance"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Family Film - Live Action"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Pirates of the Caribbean",
+    "part": 1
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Captain Jack Sparrow",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e2d2c602-347d-41a4-8f35-a3d379043577"
+    },
+    {
+      "character": {
+        "name": "Barbossa",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ed136d46-6d12-4343-ba41-0014e7f0e171"
+    },
+    {
+      "character": {
+        "name": "Will Turner",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9477d178-9893-44f0-9553-10119753c95f"
+    },
+    {
+      "character": {
+        "name": "Elizabeth Swann",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "09852405-f549-42e3-b781-8797340be64c"
+    },
+    {
+      "character": {
+        "name": "Norrington",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "35ca00e5-be27-4b73-a176-a4a09ea0c6a8"
+    },
+    {
+      "character": {
+        "name": "Governor Weatherby Swann",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e33e9ef2-ee2e-497c-bfab-ff1f26118425"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "23"
+  },
+  "releaseDate": "2003-06-01",
+  "trailer": "naQr0uTrH_s"
+}

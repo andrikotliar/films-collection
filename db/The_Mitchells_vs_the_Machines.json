@@ -1,0 +1,96 @@
+{
+  "id": "c78ff49a-664c-408b-9e1b-c112849973f7",
+  "title": "The Mitchells vs the Machines",
+  "poster": "mitchells",
+  "genres": [
+    "Adventures",
+    "Comedy"
+  ],
+  "production": [
+    "Netflix"
+  ],
+  "directedBy": [
+    "Michael Rianda"
+  ],
+  "producedBy": "Phil Lord, Christopher Miller,  Kurt Albrecht",
+  "writtenBy": "Michael Rianda, Jeff Rowe",
+  "musicBy": "Mark Mothersbaugh",
+  "countries": [
+    "USA",
+    "Canada",
+    "Hong Kong"
+  ],
+  "synopsis": "A quirky, dysfunctional family's road trip is upended when they find themselves in the middle of the robot apocalypse and suddenly become humanity's unlikeliest last hope.",
+  "collections": [
+    {
+      "name": "Robots"
+    }
+  ],
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Katie Mitchell",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b4437575-5d0a-4fa3-8031-a19d4c9cd1db"
+    },
+    {
+      "character": {
+        "name": "Rick Mitchell",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4461ae44-fbab-4289-ade5-6a6d487e6b3f"
+    },
+    {
+      "character": {
+        "name": "Linda Mitchell",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3126e3f5-670b-491d-b8b3-611cfc57fd8a"
+    },
+    {
+      "character": {
+        "name": "Aaron Mitchell",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1a5c7572-69b2-4143-a735-12bf8477405b"
+    },
+    {
+      "character": {
+        "name": "PAL",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "82a9bf3a-ee75-4374-9d9c-662726da7f1c"
+    },
+    {
+      "character": {
+        "name": "Dr. Mark Bowman",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6ecaba72-de1a-427d-a46b-00db33d74de6"
+    },
+    {
+      "character": {
+        "name": "Deborahbot 5000",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "611eee62-61b7-4f5b-9a06-e287a955231a"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "53"
+  },
+  "releaseDate": "2021-04-01",
+  "trailer": "_ak5dFt8Ar0"
+}

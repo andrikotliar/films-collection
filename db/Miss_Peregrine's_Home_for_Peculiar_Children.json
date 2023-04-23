@@ -1,0 +1,128 @@
+{
+  "id": "e5e2f8bc-623f-4f84-9474-cbbfd13ce938",
+  "title": "Miss Peregrine's Home for Peculiar Children",
+  "poster": "miss_peregrin",
+  "genres": [
+    "Fantasy",
+    "Adventures",
+    "Drama"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "directedBy": [
+    "Tim Burton"
+  ],
+  "producedBy": "Peter Chernin, Jenno Topping",
+  "writtenBy": "Jane Goldman",
+  "musicBy": "Mike Higham, Matthew Margeson",
+  "cinematographyBy": "Bruno Delbonnel",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 110,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 296,
+    "suffix": "million"
+  },
+  "synopsis": "When Jacob discovers clues to a mystery that stretches across time, he finds Miss Peregrine's Home for Peculiar Children. But the danger deepens after he gets to know the residents and learns about their special powers.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Miss Peregrine",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9910e839-03f9-4d6a-ab57-17b0f6c24aa2"
+    },
+    {
+      "character": {
+        "name": "Jake",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8e4d10d3-d24f-4004-a3c9-094884463799"
+    },
+    {
+      "character": {
+        "name": "Barron",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "65e7e9e0-8e37-4237-9b23-a1f8a2d09147"
+    },
+    {
+      "character": {
+        "name": "Emma",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "517d6a59-581f-4f95-9fa7-998d7e25dcbe"
+    },
+    {
+      "character": {
+        "name": "Miss Avocet",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "566219b1-2494-4616-aae5-34677667ea38"
+    },
+    {
+      "character": {
+        "name": "Dr. Golan",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a5092499-6832-459b-b919-c9ab391a9c99"
+    },
+    {
+      "character": {
+        "name": "Frank",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "547d34cc-9d13-4f40-9845-fd7422472e81"
+    },
+    {
+      "character": {
+        "name": "Abe",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "05c62b8b-6403-4b87-8f3c-fb4569b87404"
+    },
+    {
+      "character": {
+        "name": "Enoch",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "010ba960-3bf2-4dd9-a4ce-a950d9e30bfb"
+    },
+    {
+      "character": {
+        "name": "Olive",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "69bab80f-be19-4905-8197-7f99adfe8cff"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "07"
+  },
+  "releaseDate": "2016-09-01",
+  "trailer": "tV_IhWE4LP0"
+}

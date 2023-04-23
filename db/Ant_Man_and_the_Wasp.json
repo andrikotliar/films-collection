@@ -1,0 +1,108 @@
+{
+  "id": "ff90364b-fd44-4187-919f-9596191666f6",
+  "title": "Ant-Man and the Wasp",
+  "poster": "ant_man_2",
+  "genres": [
+    "Sci-Fi",
+    "Comedy"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Marvel Studios"
+  ],
+  "directedBy": [
+    "Peyton Reed"
+  ],
+  "producedBy": "Kevin Feige, Stephen Broussard",
+  "writtenBy": "Chris McKenna, Erik Sommers, Paul Rudd",
+  "musicBy": "Christophe Beck",
+  "cinematographyBy": "Dante Spinotti",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 162,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 595,
+    "suffix": "million"
+  },
+  "synopsis": "As Scott Lang balances being both a Super Hero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
+  "collections": [
+    {
+      "name": "Marvel Cinematic Universe"
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 20
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Scott Lang / Ant-Man",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cd9b8e2c-3973-46fb-a71a-7df6ca9c5b2e"
+    },
+    {
+      "character": {
+        "name": "Hope Van Dyne / New Wasp",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "99d66277-33ee-47bc-874a-9390edbd1ead"
+    },
+    {
+      "character": {
+        "name": "Luis",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1bffcd51-f602-47df-b924-f575be9234f1"
+    },
+    {
+      "character": {
+        "name": "Ava / Ghost",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "23ed1b6c-63ab-4111-a1cc-f8923fc3153c"
+    },
+    {
+      "character": {
+        "name": "Janet Van Dyne / First Wasp",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "af254fca-aecf-49f2-92bb-fe2241405e1c"
+    },
+    {
+      "character": {
+        "name": "Dr. Bill Foster",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d5cfb42e-818e-43cf-9840-f842bc4579e6"
+    },
+    {
+      "character": {
+        "name": "Dr. Hank Pym",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "485694d1-0656-4c1e-ae30-2e46af4b7df1"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "58"
+  },
+  "releaseDate": "2018-06-01",
+  "trailer": "UUkn-enk2RU"
+}

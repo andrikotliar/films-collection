@@ -1,0 +1,442 @@
+{
+  "id": "c0711246-0900-44d2-bff9-957fa4ba5392",
+  "title": "Stranger Things",
+  "poster": "stranger_things",
+  "genres": [
+    "Fantasy",
+    "Drama",
+    "Horror"
+  ],
+  "production": [
+    "Netflix"
+  ],
+  "createdBy": [
+    "The Duffer Brothers"
+  ],
+  "producedBy": "Rand Geiger, Justin Doble, The Duffer Brothers",
+  "musicBy": "Kyle Dixon, Michael Stein",
+  "cinematographyBy": "Tim Ives, Tod Campbell, Lachlan Milne, David Franco",
+  "countries": [
+    "USA"
+  ],
+  "synopsis": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Supporting Actress in Streaming Presentation",
+        "Best Streaming Horror & Thriller Series"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Supporting Actor in a Drama Series"
+      ]
+    },
+    {
+      "title": "Emmy",
+      "nominations": [
+        "Outstanding Sound Editing for a Comedy or Drama Series (One Hour)",
+        "Outstanding Main Title Design",
+        "Outstanding Original Main Title Theme Music",
+        "Outstanding Casting for a Drama Series",
+        "Outstanding Single-Camera Picture Editing for a Drama Series",
+        "Outstanding Sound Editing for a Series"
+      ]
+    }
+  ],
+  "type": [
+    "Series"
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "Chapter One: The Vanishing of Will Byers",
+          "directedBy": "The Duffer Brothers",
+          "writtenBy": "The Duffer Brothers",
+          "releaseDate": "2016-07-15"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Chapter Two: The Weirdo on Maple Street",
+          "directedBy": "The Duffer Brothers",
+          "writtenBy": "The Duffer Brothers",
+          "releaseDate": "2016-07-15"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Chapter Three: Holly, Jolly",
+          "directedBy": "Shawn Levy",
+          "writtenBy": "Jessica Mecklenburg",
+          "releaseDate": "2016-07-15"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "Chapter Four: The Body",
+          "directedBy": "Shawn Levy",
+          "writtenBy": "Justin Doble",
+          "releaseDate": "2016-07-15"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Chapter Five: The Flea, the Acrobat",
+          "directedBy": "The Duffer Brothers",
+          "writtenBy": "Alison Tatlock",
+          "releaseDate": "2016-07-15"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "Chapter Six: The Monster",
+          "directedBy": "The Duffer Brothers",
+          "writtenBy": "Jessie Nickson-Lopez",
+          "releaseDate": "2016-07-15"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "Chapter Seven: The Bathtub",
+          "directedBy": "The Duffer Brothers",
+          "writtenBy": "Justin Doble",
+          "releaseDate": "2016-07-15"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "Chapter Eight: The Upside Down",
+          "directedBy": "The Duffer Brothers",
+          "writtenBy": "The Duffer Brothers",
+          "releaseDate": "2016-07-15"
+        }
+      ],
+      "trailer": "b9EkMc79ZSU"
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "episodeOverall": 9,
+          "episode": 1,
+          "title": "Chapter One: MADMAX",
+          "directedBy": "The Duffer Brothers",
+          "writtenBy": "The Duffer Brothers",
+          "releaseDate": "2017-10-27"
+        },
+        {
+          "episodeOverall": 10,
+          "episode": 2,
+          "title": "Chapter Two: Trick or Treat, Freak",
+          "directedBy": "The Duffer Brothers",
+          "writtenBy": "The Duffer Brothers",
+          "releaseDate": "2017-10-27"
+        },
+        {
+          "episodeOverall": 11,
+          "episode": 3,
+          "title": "Chapter Three: The Pollywog",
+          "directedBy": "Shawn Levy",
+          "writtenBy": "Justin Doble",
+          "releaseDate": "2017-10-27"
+        },
+        {
+          "episodeOverall": 12,
+          "episode": 4,
+          "title": "Chapter Four: Will the Wise",
+          "directedBy": "Shawn Levy",
+          "writtenBy": "Paul Dichter",
+          "releaseDate": "2017-10-27"
+        },
+        {
+          "episodeOverall": 13,
+          "episode": 5,
+          "title": "Chapter Five: Dig Dug",
+          "directedBy": "Andrew Stanton",
+          "writtenBy": "Jessie Nickson-Lopez",
+          "releaseDate": "2017-10-27"
+        },
+        {
+          "episodeOverall": 14,
+          "episode": 6,
+          "title": "Chapter Six: The Spy",
+          "directedBy": "Andrew Stanton",
+          "writtenBy": "Kate Trefry",
+          "releaseDate": "2017-10-27"
+        },
+        {
+          "episodeOverall": 15,
+          "episode": 7,
+          "title": "Chapter Seven: The Lost Sister",
+          "directedBy": "Rebecca Thomas",
+          "writtenBy": "Justin Doble",
+          "releaseDate": "2017-10-27"
+        },
+        {
+          "episodeOverall": 16,
+          "episode": 8,
+          "title": "Chapter Eight: The Mind Flayer",
+          "directedBy": "The Duffer Brothers",
+          "writtenBy": "The Duffer Brothers",
+          "releaseDate": "2017-10-27"
+        },
+        {
+          "episodeOverall": 17,
+          "episode": 9,
+          "title": "Chapter Nine: The Gate",
+          "directedBy": "The Duffer Brothers",
+          "writtenBy": "The Duffer Brothers",
+          "releaseDate": "2017-10-27"
+        }
+      ],
+      "trailer": "R1ZXOOLMJ8s"
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "episodeOverall": 18,
+          "episode": 1,
+          "title": "Chapter One: Suzie, Do You Copy?",
+          "directedBy": "The Duffer Brothers",
+          "writtenBy": "The Duffer Brothers",
+          "releaseDate": "2019-07-04"
+        },
+        {
+          "episodeOverall": 19,
+          "episode": 2,
+          "title": "Chapter Two: The Mall Rats",
+          "directedBy": "The Duffer Brothers",
+          "writtenBy": "The Duffer Brothers",
+          "releaseDate": "2019-07-04"
+        },
+        {
+          "episodeOverall": 20,
+          "episode": 3,
+          "title": "Chapter Three: The Case of the Missing Lifeguard",
+          "directedBy": "Shawn Levy",
+          "writtenBy": "William Bridges",
+          "releaseDate": "2019-07-04"
+        },
+        {
+          "episodeOverall": 21,
+          "episode": 4,
+          "title": "Chapter Four: The Sauna Test",
+          "directedBy": "Shawn Levy",
+          "writtenBy": "Kate Trefry",
+          "releaseDate": "2019-07-04"
+        },
+        {
+          "episodeOverall": 22,
+          "episode": 5,
+          "title": "Chapter Five: The Flayed",
+          "directedBy": "Uta Briesewitz",
+          "writtenBy": "Paul Dichter",
+          "releaseDate": "2019-07-04"
+        },
+        {
+          "episodeOverall": 23,
+          "episode": 6,
+          "title": "Chapter Six: E Pluribus Unum",
+          "directedBy": "Uta Briesewitz",
+          "writtenBy": "Curtis Gwinn",
+          "releaseDate": "2019-07-04"
+        },
+        {
+          "episodeOverall": 24,
+          "episode": 7,
+          "title": "Chapter Seven: The Bite",
+          "directedBy": "The Duffer Brothers",
+          "writtenBy": "The Duffer Brothers",
+          "releaseDate": "2019-07-04"
+        },
+        {
+          "episodeOverall": 25,
+          "episode": 8,
+          "title": "Chapter Eight: The Battle of Starcourt",
+          "directedBy": "The Duffer Brothers",
+          "writtenBy": "The Duffer Brothers",
+          "releaseDate": "2019-07-04"
+        }
+      ],
+      "trailer": "6Am4v0C_z8c"
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "episodeOverall": 26,
+          "episode": 1,
+          "title": "Chapter One: The Hellfire Club",
+          "directedBy": "The Duffer Brothers",
+          "writtenBy": "The Duffer Brothers",
+          "releaseDate": "2022-05-27"
+        },
+        {
+          "episodeOverall": 27,
+          "episode": 2,
+          "title": "Chapter Two: Vecna's Curse",
+          "directedBy": "The Duffer Brothers",
+          "writtenBy": "The Duffer Brothers",
+          "releaseDate": "2022-05-27"
+        },
+        {
+          "episodeOverall": 28,
+          "episode": 3,
+          "title": "Chapter Three: The Monster and the Superhero",
+          "directedBy": "Shawn Levy",
+          "writtenBy": "Caitlin Schneiderhan",
+          "releaseDate": "2022-05-27"
+        },
+        {
+          "episodeOverall": 29,
+          "episode": 4,
+          "title": "Chapter Four: Dear Billy",
+          "directedBy": "Shawn Levy",
+          "writtenBy": "Paul Dichter",
+          "releaseDate": "2022-05-27"
+        },
+        {
+          "episodeOverall": 30,
+          "episode": 5,
+          "title": "Chapter Five: The Nina Project",
+          "directedBy": "Nimród Antal",
+          "writtenBy": "Kate Trefry",
+          "releaseDate": "2022-05-27"
+        },
+        {
+          "episodeOverall": 31,
+          "episode": 6,
+          "title": "Chapter Six: The Dive",
+          "directedBy": "Nimród Antal",
+          "writtenBy": "Curtis Gwinn",
+          "releaseDate": "2022-05-27"
+        },
+        {
+          "episodeOverall": 32,
+          "episode": 7,
+          "title": "Chapter Seven: The Massacre at Hawkins Lab",
+          "directedBy": "The Duffer Brothers",
+          "writtenBy": "The Duffer Brothers",
+          "releaseDate": "2022-05-27"
+        },
+        {
+          "episodeOverall": 33,
+          "episode": 8,
+          "title": "Chapter Eight: Papa",
+          "directedBy": "The Duffer Brothers",
+          "writtenBy": "The Duffer Brothers",
+          "releaseDate": "2022-07-01"
+        },
+        {
+          "episodeOverall": 34,
+          "episode": 9,
+          "title": "Chapter Nine: The Piggyback",
+          "directedBy": "The Duffer Brothers",
+          "writtenBy": "The Duffer Brothers",
+          "releaseDate": "2022-07-01"
+        }
+      ],
+      "trailer": "yQEondeGvKo"
+    }
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Joyce Byers",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ba6890ec-19e2-4473-a215-7254995d5542"
+    },
+    {
+      "character": {
+        "name": "Jim Hopper",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1137f062-f67c-4686-9857-0ffc1bf53aa5"
+    },
+    {
+      "character": {
+        "name": "Mike Wheeler",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "31db8789-fe19-43ac-a9df-c0e85bdc26ea"
+    },
+    {
+      "character": {
+        "name": "Eleven",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3b25b0fc-954b-4863-a6d9-5ba457d5fa41"
+    },
+    {
+      "character": {
+        "name": "Dustin Henderson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "076af8b3-d637-4908-8245-dc918dd0f99c"
+    },
+    {
+      "character": {
+        "name": "Lucas Sinclair",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f7385ba2-414c-49c1-9d43-6331e77d8809"
+    },
+    {
+      "character": {
+        "name": "Nancy Wheeler",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a0a05f34-e8f5-41a9-9ac7-8bac54b29b24"
+    },
+    {
+      "character": {
+        "name": "Jonathan Byers",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bcce4bd7-ce48-4387-9768-4c15404da04f"
+    },
+    {
+      "character": {
+        "name": "Steve Harrington",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "475573a9-4086-4522-bcc4-14c9877b6703"
+    },
+    {
+      "character": {
+        "name": "Will Byers",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a1c7cd58-4c7f-4a68-924f-809a5b0793d2"
+    }
+  ],
+  "duration": {
+    "hours": "21",
+    "minutes": "15"
+  },
+  "releaseDate": "2016-07-01"
+}

@@ -1,0 +1,124 @@
+{
+  "id": "9e7b69b2-96c8-4e5b-98d3-1175de8b8ba7",
+  "title": "Harry Potter and the Prisoner of Azkaban",
+  "poster": "harry_potter_3",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "production": [
+    "Warner Bros. Pictures"
+  ],
+  "directedBy": [
+    "Alfonso Cuaron"
+  ],
+  "producedBy": "David Heyman, Chris Columbus, Mark Radcliffe",
+  "writtenBy": "Steve Kloves",
+  "musicBy": "John Williams",
+  "cinematographyBy": "Michael Seresin",
+  "countries": [
+    "USA",
+    "UK"
+  ],
+  "budget": {
+    "value": 130,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 797,
+    "suffix": "million"
+  },
+  "synopsis": "It's Harry's third year at Hogwarts; not only does he have a new \"Defense Against the Dark Arts\" teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry.",
+  "collections": [
+    {
+      "name": "Harry Potter Universe"
+    }
+  ],
+  "parts": {
+    "title": "Harry Potter Universe",
+    "part": 5
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Harry Potter",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5751927d-1246-41af-a9f4-8c311e285cc7"
+    },
+    {
+      "character": {
+        "name": "Ron Weasley",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2ff23ded-97b8-4419-8b72-ca8197566240"
+    },
+    {
+      "character": {
+        "name": "Hermione Granger",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ee7c306c-c255-4f94-bf24-8d843c2b352b"
+    },
+    {
+      "character": {
+        "name": "Sirius Black",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0b0a40d3-1976-4f41-b8b1-1a86e37042ea"
+    },
+    {
+      "character": {
+        "name": "Albus Dumbledore",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "05229f7a-0e7e-4352-9219-ff4e2113c2f0"
+    },
+    {
+      "character": {
+        "name": "Rubeus Hagrid",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4f8d4c6c-7c1e-467c-931e-3d44fd153542"
+    },
+    {
+      "character": {
+        "name": "Draco Malfoy",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "58889d31-faba-4da2-858d-b28261a42cea"
+    },
+    {
+      "character": {
+        "name": "Severus Snape",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6e8cb43d-6dc8-45fd-a9de-a20ba4ab4858"
+    },
+    {
+      "character": {
+        "name": "Professor Lupin",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "663d908e-aa52-49f8-9578-075d8fa84478"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "22"
+  },
+  "releaseDate": "2004-06-01",
+  "trailer": "lAxgztbYDbs"
+}

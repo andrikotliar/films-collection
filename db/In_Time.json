@@ -1,0 +1,83 @@
+{
+  "id": "98a94b0e-422d-4a06-95f1-f094d24f507b",
+  "title": "In Time",
+  "poster": "time",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "directedBy": [
+    "Andrew Niccol"
+  ],
+  "producedBy": "Andrew Niccol, Marc Abraham, Eric Newman",
+  "writtenBy": "Andrew Niccol",
+  "musicBy": "Craig Armstrong",
+  "cinematographyBy": "Roger Deakins",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 40,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 174,
+    "suffix": "million"
+  },
+  "synopsis": "In a future where people stop aging at 25, but are engineered to live only one more year, having the means to buy your way out of the situation is a shot at immortal youth. Here, Will Salas finds himself accused of murder and on the run with a hostage - a connection that becomes an important part of the way against the system.",
+  "collections": [
+    {
+      "name": "Future"
+    },
+    {
+      "name": "Top 10",
+      "order": 7
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Will Salas",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c216a8dd-1041-4499-9a31-4f3c6109819a"
+    },
+    {
+      "character": {
+        "name": "Rachel Salas",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a57d2ead-173f-47a2-86b3-6a1ce8ab7c9c"
+    },
+    {
+      "character": {
+        "name": "Maya",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "144f3f7a-8759-421f-aad0-c6b6b0341f52"
+    },
+    {
+      "character": {
+        "name": "Borel",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "69841fe0-8f2e-474d-80c2-21a13f49e365"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "49"
+  },
+  "releaseDate": "2011-10-01",
+  "trailer": "fdadZ_KrZVw"
+}

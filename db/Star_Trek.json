@@ -1,0 +1,170 @@
+{
+  "id": "990f2cbb-0ad9-4d98-bfee-d63c1cb26f0e",
+  "title": "Star Trek",
+  "poster": "star_trek_1",
+  "genres": [
+    "Sci-Fi",
+    "SpaceOpera"
+  ],
+  "production": [
+    "Paramount Pictures",
+    "Bad Robot Productions"
+  ],
+  "directedBy": [
+    "J.J. Abrams"
+  ],
+  "producedBy": "J.J. Abrams, Deamon Lindelof",
+  "writtenBy": "Roberto Orci, Alex Kurtzman",
+  "musicBy": "Michael Giacchino",
+  "cinematographyBy": "Dan Mindel",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 386,
+    "suffix": "million"
+  },
+  "synopsis": "The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time.",
+  "collections": [
+    {
+      "name": "Space"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Achievement in Makeup"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Make-Up"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Star Trek",
+    "part": 1
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Kirk",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "586e7657-8411-4540-a748-26e815d3fb92"
+    },
+    {
+      "character": {
+        "name": "Spock",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8ee9d755-abc4-4dc4-8255-7b46fdf7d84e"
+    },
+    {
+      "character": {
+        "name": "Spock Prime",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f5f144c1-2549-4e2d-8cf7-50ed282c6318"
+    },
+    {
+      "character": {
+        "name": "Nero",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "77de86d2-e46e-4099-9f16-e07566eacfb4"
+    },
+    {
+      "character": {
+        "name": "Pike",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a02f67c9-9995-4e55-a3af-114a69960a3e"
+    },
+    {
+      "character": {
+        "name": "Bones",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3b561873-fcce-4fc8-80f8-bae7ba163e26"
+    },
+    {
+      "character": {
+        "name": "Uhura",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "23e53bab-62a5-43a6-99a4-f61d68612d7d"
+    },
+    {
+      "character": {
+        "name": "Scotty",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "265bd112-e4bd-4d75-878c-cd5c60d2d034"
+    },
+    {
+      "character": {
+        "name": "Sulu",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "da06d7ba-e039-4ca4-86b7-b4299cad0635"
+    },
+    {
+      "character": {
+        "name": "Chekov",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0aa77f73-ad44-4ddb-a9fb-5206ef077eab"
+    },
+    {
+      "character": {
+        "name": "Sarek",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9054e73a-6943-43c9-834b-92724f3efe15"
+    },
+    {
+      "character": {
+        "name": "Amanda Grayson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ba6890ec-19e2-4473-a215-7254995d5542"
+    },
+    {
+      "character": {
+        "name": "George Kirk",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5a7b31cb-f62d-44ae-85b6-21ed4c144a2d"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "07"
+  },
+  "releaseDate": "2009-05-01",
+  "trailer": "pKFUZ10Wmbw"
+}

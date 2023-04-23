@@ -1,0 +1,10 @@
+.synopsis {
+  line-height: 1.5;
+  width: 50%;
+}
+
+@media (max-width: 1240px) {
+  .synopsis {
+    width: 100%;
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "ac2030c3-6c53-4d18-8c60-1b166c466ab2",
+  "title": "Harry Potter and the Sorcerer's Stone",
+  "poster": "harry_potter_1",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "production": [
+    "Warner Bros. Pictures"
+  ],
+  "directedBy": [
+    "Chris Columbus"
+  ],
+  "producedBy": "David Heyman",
+  "writtenBy": "Steve Kloves",
+  "musicBy": "John Williams",
+  "cinematographyBy": "John Seale",
+  "countries": [
+    "USA",
+    "UK"
+  ],
+  "budget": {
+    "value": 125,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 975,
+    "suffix": "illionm"
+  },
+  "synopsis": "An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
+  "collections": [
+    {
+      "name": "Harry Potter Universe"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Costumes"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Harry Potter Universe",
+    "part": 3
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Harry Potter",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5751927d-1246-41af-a9f4-8c311e285cc7"
+    },
+    {
+      "character": {
+        "name": "Ron Weasley",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2ff23ded-97b8-4419-8b72-ca8197566240"
+    },
+    {
+      "character": {
+        "name": "Hermione Granger",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ee7c306c-c255-4f94-bf24-8d843c2b352b"
+    },
+    {
+      "character": {
+        "name": "Albus Dumbledore",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "05229f7a-0e7e-4352-9219-ff4e2113c2f0"
+    },
+    {
+      "character": {
+        "name": "Rubeus Hagrid",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4f8d4c6c-7c1e-467c-931e-3d44fd153542"
+    },
+    {
+      "character": {
+        "name": "Quirinus Quirrell",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3ecd9464-a51b-4057-9c1d-adb5f4d1c1a3"
+    },
+    {
+      "character": {
+        "name": "Draco Malfoy",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "58889d31-faba-4da2-858d-b28261a42cea"
+    },
+    {
+      "character": {
+        "name": "Severus Snape",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6e8cb43d-6dc8-45fd-a9de-a20ba4ab4858"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "32"
+  },
+  "releaseDate": "2001-11-01",
+  "trailer": "VyHV0BRtdxo"
+}

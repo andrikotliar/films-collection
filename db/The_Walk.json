@@ -1,0 +1,118 @@
+{
+  "id": "15f6b446-2cd0-42c3-bba1-c69936c25944",
+  "title": "The Walk",
+  "poster": "walk",
+  "genres": [
+    "Adventures"
+  ],
+  "production": [
+    "Sony Pictures Entertainment"
+  ],
+  "directedBy": [
+    "Robert Zemeckis"
+  ],
+  "producedBy": "Jack Rapke, Steve Starkey, Robert Zemeckis",
+  "writtenBy": "Robert Zemeckis, Christopher Browne",
+  "musicBy": "Alan Silvestri",
+  "cinematographyBy": "Dariusz Wolski",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 35,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 61,
+    "suffix": "million"
+  },
+  "synopsis": "In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream: to walk the immense void between the World Trade Center towers.",
+  "collections": [
+    {
+      "name": "Life Story"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Philippe Petit",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4e666ef9-06a3-4372-8684-71aca1713d6b"
+    },
+    {
+      "character": {
+        "name": "Annie Allix",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "128b2895-90cd-42ae-a2fe-36a42fbd8ada"
+    },
+    {
+      "character": {
+        "name": "Papa Rudy",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1e35187e-647f-4233-9215-41762259fff0"
+    },
+    {
+      "character": {
+        "name": "Jean-Louis",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c3bde0b3-2a59-4670-aab6-3e14992add9c"
+    },
+    {
+      "character": {
+        "name": "Jean-Pierre",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f2da2980-78fb-46b3-a149-13dadb4637b9"
+    },
+    {
+      "character": {
+        "name": "Jeff",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8c386039-fe64-46a4-afcf-c943c7341edd"
+    },
+    {
+      "character": {
+        "name": "Albert",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3aed5724-e1e2-42f2-a560-114cbae3e0ad"
+    },
+    {
+      "character": {
+        "name": "David",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "22af0786-f98e-4f26-9509-1eb07e3f20cc"
+    },
+    {
+      "character": {
+        "name": "Barry Greenhouse",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a77201be-537a-4b2c-a15e-c9cc2716da41"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "03"
+  },
+  "releaseDate": "2015-09-01",
+  "trailer": "4W6byFcD5uE"
+}

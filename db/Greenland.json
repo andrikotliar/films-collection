@@ -1,0 +1,97 @@
+{
+  "id": "54f5746d-8ebf-4f1d-b1ba-408ba8f920cf",
+  "title": "Greenland",
+  "poster": "greenland",
+  "genres": [
+    "Drama"
+  ],
+  "production": [
+    "Thunder Road",
+    "Anton",
+    "G Base"
+  ],
+  "directedBy": [
+    "Ric Roman Waugh"
+  ],
+  "producedBy": "Gerard Butler, Sébastien Raybaud, Alan Siegel",
+  "writtenBy": "Chris Sparling",
+  "musicBy": "David Buckley",
+  "cinematographyBy": "Dana Gonzales",
+  "countries": [
+    "USA",
+    "UK"
+  ],
+  "budget": {
+    "value": 35,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 52,
+    "suffix": "million"
+  },
+  "synopsis": "A family struggles for survival in the face of a cataclysmic natural disaster.",
+  "collections": [
+    {
+      "name": "Disaster"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "John Garrity",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c781f4d1-0f36-4078-aece-b893a0405504"
+    },
+    {
+      "character": {
+        "name": "Allison Garrity",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a35237bf-7688-4cda-95c1-c1257946609a"
+    },
+    {
+      "character": {
+        "name": "Nathan Garrity",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "061d59ba-c541-4d5f-8107-6d60acf564fa"
+    },
+    {
+      "character": {
+        "name": "Dale",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "70d82b88-8cc0-4f96-b30a-70f9429c1d8d"
+    },
+    {
+      "character": {
+        "name": "Ralph Vento",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "17de5867-bbeb-48c6-b9f2-b9b64f05e18d"
+    },
+    {
+      "character": {
+        "name": "Judy Vento",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "50af80e3-1919-4abe-8464-0051e239cc4e"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "59"
+  },
+  "releaseDate": "2020-07-01",
+  "trailer": "RTODtIQQRpA"
+}

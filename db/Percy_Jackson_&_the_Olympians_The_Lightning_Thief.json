@@ -1,0 +1,138 @@
+{
+  "id": "57f08f4f-6aad-40e4-91f8-9c28f9668ac7",
+  "title": "Percy Jackson & the Olympians: The Lightning Thief",
+  "poster": "percy_jackson",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "directedBy": [
+    "Chris Columbus"
+  ],
+  "producedBy": "Karen Rosenfelt, Chris Columbus, Michael Barnathan, Mark Redcliff",
+  "writtenBy": "Craig Titley",
+  "musicBy": "Christophe Beck",
+  "cinematographyBy": "Stephen Goldblatt",
+  "countries": [
+    "USA",
+    "UK",
+    "Canada",
+    "Australia"
+  ],
+  "budget": {
+    "value": 95,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 226,
+    "suffix": "million"
+  },
+  "synopsis": "A teenager discovers he's the descendant of a Greek god and sets out on an adventure to settle an on-going battle between the gods.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Percy Jackson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a215121b-6247-4480-9ee9-e0521b370028"
+    },
+    {
+      "character": {
+        "name": "Grover",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c2fb77dd-6950-42f6-89a9-57a7e24c132d"
+    },
+    {
+      "character": {
+        "name": "Annabeth",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cedf2fbd-5afe-44bb-b0fe-56804247e21e"
+    },
+    {
+      "character": {
+        "name": "Luke",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "51c8c087-d2ad-4a8b-aa6f-13c43051ce50"
+    },
+    {
+      "character": {
+        "name": "Zeus",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f1d021e9-26d9-440c-9e19-398afd30f0e4"
+    },
+    {
+      "character": {
+        "name": "Mr. Brunner / Chiron",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "eb9b1b8e-2e56-435f-904c-c7f7dd216bfd"
+    },
+    {
+      "character": {
+        "name": "Hades",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "55284d01-0d85-40c0-bbb3-c76c988b7e9c"
+    },
+    {
+      "character": {
+        "name": "Persephone",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "532dfdc9-0006-4d29-9068-485005d3dc4f"
+    },
+    {
+      "character": {
+        "name": "Athena",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "eb9850f1-cf6b-49e5-b957-87b7430bea4b"
+    },
+    {
+      "character": {
+        "name": "Sally Jackson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1f800c8d-e7f0-42ee-892e-a798ca0a2a9a"
+    },
+    {
+      "character": {
+        "name": "Poseidon",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "929a29e3-9844-4404-a5a0-50b76e1c903d"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "35"
+  },
+  "releaseDate": "2010-02-01",
+  "trailer": "xko1Mx5w4tg"
+}

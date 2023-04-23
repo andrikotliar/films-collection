@@ -1,0 +1,107 @@
+{
+  "id": "383380f9-6359-453f-8d69-4ed5aedf6d6c",
+  "title": "The Tomorrow War",
+  "poster": "tomorrow_war",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Paramount Pictures",
+    "Amazon Prime"
+  ],
+  "directedBy": [
+    "Chris McKay"
+  ],
+  "producedBy": "Jules Daly, David Ellison, Dana Goldberg, David S. Goyer, Don Granger, Adam Kolbrenner",
+  "writtenBy": "Zach Dean",
+  "musicBy": "Lorne Balfe",
+  "cinematographyBy": "Larry Fong",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 14,
+    "suffix": "million"
+  },
+  "synopsis": "A family man is drafted to fight in a future war where the fate of humanity relies on his ability to confront the past.",
+  "collections": [
+    {
+      "name": "Invaders"
+    },
+    {
+      "name": "Future"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Dan Forester",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d37a1702-6d76-425e-a1ac-940961feb029"
+    },
+    {
+      "character": {
+        "name": "Colonel Muri Forester",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "de68a19e-8d57-4c6f-beea-766caf8ef1c8"
+    },
+    {
+      "character": {
+        "name": "James Forester",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3034deb0-7b15-4310-b3c8-14a06daee243"
+    },
+    {
+      "character": {
+        "name": "Emmy Forester",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "abdfd180-359d-4e13-822e-90fb8e76707e"
+    },
+    {
+      "character": {
+        "name": "Charlie",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ae3c845f-9895-433b-9b40-9136b9412912"
+    },
+    {
+      "character": {
+        "name": "Lt. Hart",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2645a771-bf74-43ad-af8c-a433f65a84ea"
+    },
+    {
+      "character": {
+        "name": "Dorian",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b3679bc1-4677-47a4-8654-f3febe103eb1"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "18"
+  },
+  "releaseDate": "2021-07-01",
+  "trailer": "QPistcpGB8o"
+}

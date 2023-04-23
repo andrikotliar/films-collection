@@ -1,0 +1,90 @@
+{
+  "id": "4e4d9852-a771-40e9-806c-e71ef8bac30a",
+  "title": "District 13",
+  "poster": "d13_1",
+  "genres": [
+    "Action"
+  ],
+  "production": [
+    "EuropaCorp"
+  ],
+  "directedBy": [
+    "Pierre Morel"
+  ],
+  "producedBy": "Luc Besson",
+  "writtenBy": "Luc Besson, Bibi Nacen",
+  "musicBy": "Bastide Donny, Damien Roques",
+  "cinematographyBy": "Manuel Teran",
+  "countries": [
+    "France"
+  ],
+  "budget": {
+    "value": 14,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 12,
+    "suffix": "million"
+  },
+  "synopsis": "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb.",
+  "collections": [
+    {
+      "name": "Dystopia"
+    }
+  ],
+  "parts": {
+    "title": "District 13",
+    "part": 1
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Damien Tomaso",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1b34d9ae-bb3e-4712-b2d6-a6e8039844d5"
+    },
+    {
+      "character": {
+        "name": "Le'to",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ce6d262a-eaa0-46f8-863a-923a46992247"
+    },
+    {
+      "character": {
+        "name": "K2",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c89a9444-cadd-49fb-a387-25d27c54f9a9"
+    },
+    {
+      "character": {
+        "name": "Taha Bemamud",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5a4b950b-aa92-4018-8502-d50d6caf6703"
+    },
+    {
+      "character": {
+        "name": "Lola",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ce6c74f7-77e5-41a7-9c09-5691e2e625e9"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "26"
+  },
+  "releaseDate": "2004-11-01",
+  "trailer": "Mcmkx1klOpE"
+}

@@ -1,0 +1,127 @@
+{
+  "id": "0f754f4f-156d-47bd-8bf8-9ff3e67dc8ee",
+  "title": "The Day the Earth Stood Steel",
+  "poster": "day_the_earth_stood_still",
+  "genres": [
+    "Sci-Fi",
+    "Thriller"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "directedBy": [
+    "Scott Derrickson"
+  ],
+  "producedBy": "Paul Harris Boardman, Gregory Goodman, Erwin Stoff",
+  "writtenBy": "David Scarpa",
+  "musicBy": "Tyler Bates",
+  "cinematographyBy": "David Tattersall",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 80,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 233,
+    "suffix": "million"
+  },
+  "synopsis": "A remake of the 1951 classic science fiction film about an alien visitor and his giant robot counterpart who visit Earth.",
+  "collections": [
+    {
+      "name": "Invaders"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Performance by a Younger Actor"
+      ]
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Klaatu",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7543d97c-88d9-4319-8f10-1bc00f84b0e9"
+    },
+    {
+      "character": {
+        "name": "Helen Benson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6976c976-f48d-404b-b408-712ed62cd091"
+    },
+    {
+      "character": {
+        "name": "Regina Jackson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9c3bdc25-55b0-47db-b247-1cdb4648bd41"
+    },
+    {
+      "character": {
+        "name": "Jacob Benson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "09816309-1e66-41ba-ad2e-a4a480b3e99f"
+    },
+    {
+      "character": {
+        "name": "Professor Barnhardt",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e23d9e20-90d0-462e-a693-507a089ced1b"
+    },
+    {
+      "character": {
+        "name": "Michael Granier",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "098587ab-66d3-472c-8af4-82215f6b058c"
+    },
+    {
+      "character": {
+        "name": "John Driscoll",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5d1b5eb2-f611-4b98-88bb-95c69f21a7c4"
+    },
+    {
+      "character": {
+        "name": "Colonel",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "252db9fc-059d-4632-baaf-0868115f013a"
+    },
+    {
+      "character": {
+        "name": "Mr. Wu",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b29082e1-f1a4-4668-a0e3-9b7a536f30e0"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "43"
+  },
+  "releaseDate": "2008-12-01",
+  "trailer": "6QFcZohER3s"
+}

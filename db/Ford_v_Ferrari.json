@@ -1,0 +1,88 @@
+{
+  "id": "fb818771-4ac6-4001-8852-64653b134ffd",
+  "title": "Ford v Ferrari",
+  "poster": "fordvsferrari",
+  "genres": [
+    "Action",
+    "Drama",
+    "Biography"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "directedBy": [
+    "James Mangold"
+  ],
+  "producedBy": "Peter Chernin, James Mangold, Jenno Topping",
+  "writtenBy": "Jez Butterworth, John-Henry Butterworth, Jason Keller",
+  "musicBy": "Marco Beltrami, Buck Sanders",
+  "cinematographyBy": "Phedon Papamichael",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 98,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 226,
+    "suffix": "million"
+  },
+  "synopsis": "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.",
+  "collections": [
+    {
+      "name": "Cars"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Carroll Shelby",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "95da34ce-8572-4b69-a7e5-c10d81af5504"
+    },
+    {
+      "character": {
+        "name": "Ken Miles",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6900c450-d6ad-4f62-8af7-d8398a1b6f77"
+    },
+    {
+      "character": {
+        "name": "Mollie Miles",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "20324bcd-d418-4bdb-9950-eec126318d8d"
+    },
+    {
+      "character": {
+        "name": "Peter Miles",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7a2f8831-01e7-4594-a33a-2a7db3b0dd06"
+    },
+    {
+      "character": {
+        "name": "Henry Ford II",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ab1c98a5-a4be-4f64-86e7-5fe5a966aa81"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "32"
+  },
+  "releaseDate": "2019-11-01",
+  "trailer": "zyYgDtY2AMY"
+}

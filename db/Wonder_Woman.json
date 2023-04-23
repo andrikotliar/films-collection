@@ -1,0 +1,131 @@
+{
+  "id": "b5a03489-de70-47c8-b619-ce3a3f59249d",
+  "title": "Wonder Woman",
+  "poster": "wonder_woman",
+  "genres": [
+    "Fantasy",
+    "Adventures",
+    "Drama"
+  ],
+  "production": [
+    "DC Entertainment",
+    "Warner Bros. Pictures"
+  ],
+  "directedBy": [
+    "Patty Jenkins"
+  ],
+  "producedBy": "Charles Roven, Deborah Snyder, Zack Snyder, Richard Suckle",
+  "writtenBy": "Allan Heinberg",
+  "musicBy": "Rupert Gregson-Williams",
+  "cinematographyBy": "Matthew Jensen",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 120,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 822,
+    "suffix": "million"
+  },
+  "synopsis": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Actress"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Action Movie"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "name": "DC Extended Universe"
+    }
+  ],
+  "parts": {
+    "title": "DC Extended Universe",
+    "part": 4
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Diana",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cac99b67-2448-4b4f-ab99-e88b4e516940"
+    },
+    {
+      "character": {
+        "name": "Steve Trevor",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "586e7657-8411-4540-a748-26e815d3fb92"
+    },
+    {
+      "character": {
+        "name": "Hippolyta",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "71f09ce7-e350-4148-a945-fbb6b96c786f"
+    },
+    {
+      "character": {
+        "name": "Antiope",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "976753fb-6458-4f7a-9b23-ae4559873b72"
+    },
+    {
+      "character": {
+        "name": "Ludendorff",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "23d4382f-11e9-4c09-8d87-ea2599774bde"
+    },
+    {
+      "character": {
+        "name": "Sir Patrick",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "663d908e-aa52-49f8-9578-075d8fa84478"
+    },
+    {
+      "character": {
+        "name": "Sameer",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4ccc3ca5-8e4c-482c-9317-64d5cd1bed60"
+    },
+    {
+      "character": {
+        "name": "Charlie",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6598f633-3ed7-4e51-abb8-66d698a65869"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "21"
+  },
+  "releaseDate": "2017-05-01",
+  "trailer": "1Q8fG0TtVAY"
+}

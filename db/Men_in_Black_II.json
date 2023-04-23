@@ -1,0 +1,100 @@
+{
+  "id": "ac00df05-9142-4930-9377-537b6889ac01",
+  "title": "Men in Black II",
+  "poster": "mib_2",
+  "genres": [
+    "Sci-Fi",
+    "Action",
+    "Comedy"
+  ],
+  "production": [
+    "Columbia Pictures"
+  ],
+  "directedBy": [
+    "Barry Sonnenfeld"
+  ],
+  "producedBy": "Walter F. Parkes, Laurie MacDonald",
+  "writtenBy": "Robert Gordon, Barry Fanaro",
+  "musicBy": "Danny Elfman",
+  "cinematographyBy": "Greg Gardiner",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 140,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 442,
+    "suffix": "million"
+  },
+  "synopsis": "Agent J needs help so he is sent to find Agent K and restore his memory.",
+  "collections": [
+    {
+      "name": "Invaders"
+    }
+  ],
+  "parts": {
+    "title": "Men in Black",
+    "part": 2
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "K",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "331a7b7e-753a-4546-aa4e-0ef3da3e5d8e"
+    },
+    {
+      "character": {
+        "name": "J",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0e631141-1b4a-4ed9-8325-5a1947f08404"
+    },
+    {
+      "character": {
+        "name": "Z",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a4db5eb9-cbf6-468e-b63a-b3900d4371d3"
+    },
+    {
+      "character": {
+        "name": "Serleena",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "862b7a71-a6fc-4060-9920-5c7affb24034"
+    },
+    {
+      "character": {
+        "name": "Scrad / Charlie",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6598d0f8-6bee-4efd-b1b4-0a7e2be7da94"
+    },
+    {
+      "character": {
+        "name": "Laura Vasquez",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "532dfdc9-0006-4d29-9068-485005d3dc4f"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "28"
+  },
+  "releaseDate": "2002-07-01",
+  "trailer": "p4NJHqoojOU"
+}

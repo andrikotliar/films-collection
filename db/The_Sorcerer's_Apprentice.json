@@ -1,0 +1,120 @@
+{
+  "id": "4f15fe5f-3e8b-41a6-9b97-3261a6a4a5dd",
+  "title": "The Sorcerer's Apprentice",
+  "poster": "sorcerers_apprentice",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Jerry Bruckheimer Films"
+  ],
+  "directedBy": [
+    "Jon Torteltaub"
+  ],
+  "producedBy": "Jerry Bruckheimer",
+  "writtenBy": "Doug Miro, Carlo Bernard, Matt Lopez",
+  "musicBy": "Trevor Rabin",
+  "cinematographyBy": "Bojan Bazelli",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 215,
+    "suffix": "million"
+  },
+  "synopsis": "Master sorcerer Balthazar Blake must find and train Merlin's descendant to defeat dark sorceress Morgana la Fée.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Balthazar",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "155db7cd-d010-42ad-9041-58afc680fb53"
+    },
+    {
+      "character": {
+        "name": "Dave",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bd9320ce-d946-4c06-98f6-39871d61e972"
+    },
+    {
+      "character": {
+        "name": "Horvath",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ee751154-7fa2-45b0-a86b-ca4ce229bb40"
+    },
+    {
+      "character": {
+        "name": "Becky",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1211be55-1efb-4c79-a75d-1d18d11360cd"
+    },
+    {
+      "character": {
+        "name": "Drake Stone",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bec1cd7d-5c0e-4da9-952a-178bd6300466"
+    },
+    {
+      "character": {
+        "name": "Bennet",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "86a67f8b-f719-4839-ae18-1b02415d3895"
+    },
+    {
+      "character": {
+        "name": "Veronica",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8aea760a-2908-4b92-bccd-bf3298cf7883"
+    },
+    {
+      "character": {
+        "name": "Morgana",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "44830702-1239-4c97-9185-b81759620725"
+    },
+    {
+      "character": {
+        "name": "Young Dave",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "40c7fc2e-8efe-4e28-a03c-23933e20bb99"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "49"
+  },
+  "releaseDate": "2010-07-01",
+  "trailer": "v2uV0_1C4UM"
+}

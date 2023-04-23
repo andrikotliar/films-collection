@@ -1,0 +1,144 @@
+{
+  "id": "d941b679-1cf0-4569-8cb8-ad5e8b0cf060",
+  "title": "2012",
+  "poster": "twenty_twelve",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Columbia Pictures"
+  ],
+  "directedBy": [
+    "Roland Emmerich"
+  ],
+  "producedBy": "Harald Kloser, Mark Gordon, Larry J. Franco",
+  "writtenBy": "Harald Kloser, Roland Emmerich",
+  "musicBy": "Harald Kloser, Thomas Wander",
+  "cinematographyBy": "Dean Semler",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 770,
+    "suffix": "million"
+  },
+  "synopsis": "A frustrated writer struggles to keep his family alive when a series of global catastrophes threatens to annihilate mankind.",
+  "collections": [
+    {
+      "name": "Disaster"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Jackson Curtis",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "357b07bf-2460-42ed-bccb-ed974803031b"
+    },
+    {
+      "character": {
+        "name": "Kate Curtis",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bc3fbfa9-6bab-4a3c-8164-73d87900233d"
+    },
+    {
+      "character": {
+        "name": "Adrian Helmsley",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f9adc0cc-6999-424d-a750-d5cd22ec97ae"
+    },
+    {
+      "name": "Thandie Newton",
+      "character": {
+        "name": "Laura Wilson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "64cdb5d2-f4c8-4d5c-ab13-cdf68cac4485"
+    },
+    {
+      "character": {
+        "name": "Carl Anheuser",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "57cac893-29c2-4085-bd03-1a0e132c35c9"
+    },
+    {
+      "character": {
+        "name": "Gordon Silberman",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1086a86b-8f0a-4550-b893-0eb0844ed3f8"
+    },
+    {
+      "character": {
+        "name": "Charlie Frost",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "29fcbe6e-884b-4b15-894b-1bb691c26c36"
+    },
+    {
+      "character": {
+        "name": "President Thomas Wilson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "dd57384f-7eb4-427a-bfd7-7dcd2562a227"
+    },
+    {
+      "character": {
+        "name": "Noah Curtis",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e479a1c0-abf4-4a9b-8700-0aff7f322dfa"
+    },
+    {
+      "character": {
+        "name": "Lilly Curtis",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b15ee5e1-537a-4335-a0ea-b62a22b7bb4e"
+    },
+    {
+      "character": {
+        "name": "Yuri Karpov",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b05c6c06-e343-4110-b50e-41866b3ee059"
+    },
+    {
+      "character": {
+        "name": "Tamara",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "75cb4982-ddc4-40b1-88c2-d7d8d952d99d"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "38"
+  },
+  "releaseDate": "2009-11-01",
+  "trailer": "ce0N3TEcFw0"
+}

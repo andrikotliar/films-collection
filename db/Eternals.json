@@ -1,0 +1,150 @@
+{
+  "id": "3efe3f9d-9fbd-40f9-a99b-e17a261b9c23",
+  "title": "Eternals",
+  "poster": "eternals",
+  "genres": [
+    "Adventures",
+    "Action",
+    "Drama"
+  ],
+  "production": [
+    "Marvel Studios",
+    "Walt Disney Pictures"
+  ],
+  "directedBy": [
+    "Chloe Zhao"
+  ],
+  "producedBy": "Kevin Feige, Nate Moore",
+  "writtenBy": "Chloe Zhao, Patrick Burleigh, Ryan Firpo, Kaz Firpo",
+  "musicBy": "Ramin Djawadi",
+  "cinematographyBy": "Ben Davis",
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 281,
+    "suffix": "million"
+  },
+  "countries": [
+    "USA",
+    "UK"
+  ],
+  "synopsis": "The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations.",
+  "collections": [
+    {
+      "name": "Marvel Cinematic Universe"
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 28
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Ikaris",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "484bd452-6acf-4a06-945d-769685cc7c00"
+    },
+    {
+      "character": {
+        "name": "Ajak",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2cf61341-e6db-40bb-893f-bb8778cacbbd"
+    },
+    {
+      "character": {
+        "name": "Thena",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c8b9b1e2-6f03-412f-81b5-38e7a7e7ac8f"
+    },
+    {
+      "character": {
+        "name": "Dane Whitman / Black Knight",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "82f820ef-07a2-47e1-82bd-b53f68e7b6ab"
+    },
+    {
+      "character": {
+        "name": "Sersi",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d676bec9-4a25-4066-bbab-22757401e8f8"
+    },
+    {
+      "character": {
+        "name": "Druig",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d6a16aae-dbc4-4118-b32f-9133717bb1eb"
+    },
+    {
+      "character": {
+        "name": "Sprite",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8da78feb-eee6-49f6-841b-59322f7c853a"
+    },
+    {
+      "character": {
+        "name": "Phastos",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "353aff48-04c0-427e-a670-6fbc3a861d16"
+    },
+    {
+      "character": {
+        "name": "Kingo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "46ff9500-b048-44e7-9d4f-09d07b0e8b14"
+    },
+    {
+      "character": {
+        "name": "Makkari",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "288da129-fbf2-4eee-828e-bb6a2fe055bf"
+    },
+    {
+      "character": {
+        "name": "Gilgamesh",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f9517e7b-98d6-4353-ad6d-f13c1bf4e621"
+    },
+    {
+      "character": {
+        "name": "Karun",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "00713f94-ee15-43d6-9565-81d63a7fa0f1"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "40"
+  },
+  "releaseDate": "2021-11-01",
+  "trailer": "x_me3xsvDgk"
+}

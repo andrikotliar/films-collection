@@ -1,0 +1,127 @@
+{
+  "id": "11753839-2a11-4782-aaf4-d3613f951509",
+  "title": "How to Train Your Dragon",
+  "poster": "how_to_train_your_dragon_1",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "production": [
+    "DreamWorks Animation"
+  ],
+  "directedBy": [
+    "Chris Sanders",
+    "Dean DeBlois"
+  ],
+  "producedBy": "Bonnie Amold",
+  "writtenBy": "Will Davies, Dean DeBlois, Chris Sanders",
+  "musicBy": "John Powell",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 165,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 496,
+    "suffix": "million"
+  },
+  "synopsis": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    },
+    {
+      "name": "Top 10",
+      "order": "5"
+    }
+  ],
+  "parts": {
+    "title": "How to Train Your Dragon",
+    "part": 1
+  },
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Hiccup",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bd9320ce-d946-4c06-98f6-39871d61e972"
+    },
+    {
+      "character": {
+        "name": "Stoick ",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c781f4d1-0f36-4078-aece-b893a0405504"
+    },
+    {
+      "character": {
+        "name": "Gobber ",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5201384e-56db-455a-89f3-2c7ff61d9515"
+    },
+    {
+      "character": {
+        "name": "Astrid ",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9bed7813-db69-4322-bba9-bdc4763a1567"
+    },
+    {
+      "character": {
+        "name": "Snotlout ",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5abf531b-6efc-468e-8acf-70b8b49cf7dc"
+    },
+    {
+      "character": {
+        "name": "Fishlegs ",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e4ab1fb8-f28b-4e4a-869f-07f4dbf1dff1"
+    },
+    {
+      "character": {
+        "name": "Tuffnut ",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "aeea5387-89bf-4fd7-a9b9-85f6b4537a57"
+    },
+    {
+      "character": {
+        "name": "Ruffnut ",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e3e5068a-c5ad-484a-93e6-ded28d61e48f"
+    },
+    {
+      "character": {
+        "name": "Ack ",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7d8eb5c9-9bac-400d-9952-3fbd5e154f14"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "38"
+  },
+  "releaseDate": "2010-03-01",
+  "trailer": "oKiYuIsPxYk"
+}

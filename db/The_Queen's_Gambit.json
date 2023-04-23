@@ -1,0 +1,190 @@
+{
+  "id": "dffd0182-3615-40bf-9cb0-f88482f83158",
+  "title": "The Queen's Gambit",
+  "poster": "queens_gambit",
+  "genres": [
+    "Drama",
+    "Sport"
+  ],
+  "production": [
+    "Netflix"
+  ],
+  "createdBy": [
+    "Scott Frank",
+    "Allan Scott"
+  ],
+  "producedBy": "Marcus Loges, Mick Aniceto",
+  "musicBy": "Carlos Rafael Rivera",
+  "cinematographyBy": "Steven Meizler",
+  "countries": [
+    "USA"
+  ],
+  "synopsis": "Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s USA. But child stardom comes at a price.",
+  "collections": [
+    {
+      "name": "Life Story"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Golden Globe",
+      "nominations": [
+        "Best Motion Picture Made for Television",
+        "Best Performance by an Actress in a Motion Picture Made for Television"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Limited Series",
+        "Best Actress in a Limited Series or a Movie Made for Television"
+      ]
+    }
+  ],
+  "type": [
+    "Series"
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "Openings",
+          "directedBy": "Scott Frank",
+          "writtenBy": "Scott Frank",
+          "releaseDate": "2020-10-23"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Exchanges",
+          "directedBy": "Scott Frank",
+          "writtenBy": "Scott Frank",
+          "releaseDate": "2020-10-23"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Doubled Pawns",
+          "directedBy": "Scott Frank",
+          "writtenBy": "Scott Frank",
+          "releaseDate": "2020-10-23"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "Middle Game",
+          "directedBy": "Scott Frank",
+          "writtenBy": "Scott Frank",
+          "releaseDate": "2020-10-23"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Fork",
+          "directedBy": "Scott Frank",
+          "writtenBy": "Scott Frank",
+          "releaseDate": "2020-10-23"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "Adjournment",
+          "directedBy": "Scott Frank",
+          "writtenBy": "Scott Frank",
+          "releaseDate": "2020-10-23"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "End Game",
+          "directedBy": "Scott Frank",
+          "writtenBy": "Scott Frank",
+          "releaseDate": "2020-10-23"
+        }
+      ],
+      "trailer": "oZn3qSgmLqI"
+    }
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Beth Harmon",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0d18823d-a78f-46ea-b364-4b8450ef33bf"
+    },
+    {
+      "character": {
+        "name": "Alice Harmon",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3f2daa8a-6c9e-4a9c-a491-abad8356adeb"
+    },
+    {
+      "character": {
+        "name": "Mr. Shaibel",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "53210443-6b2e-436d-8bb3-6524dc5db0fb"
+    },
+    {
+      "character": {
+        "name": "Vasily Borgov",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d00a6edb-a6b9-4d81-99e9-09dc8fa16b7d"
+    },
+    {
+      "character": {
+        "name": "Alma Wheatley",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a715a7f8-6fef-4523-8b85-70d9b8b01632"
+    },
+    {
+      "character": {
+        "name": "Benny Watts",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "601f50c2-ddda-4c74-bf4e-a8950ba7cd75"
+    },
+    {
+      "character": {
+        "name": "Jolene",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9cfe14d1-abee-4898-ab58-4a46b9d5349c"
+    },
+    {
+      "character": {
+        "name": "Harry Beltik",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4884ad71-87ce-473e-be4c-32e5bc2fb671"
+    },
+    {
+      "character": {
+        "name": "Young Beth Harmon",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4adea2ce-6b1e-40ce-83f7-1d02b376c6f3"
+    }
+  ],
+  "duration": {
+    "hours": "06",
+    "minutes": "35"
+  },
+  "releaseDate": "2020-10-01"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "2121c1b5-9c9a-4037-bb1c-12be27f764ef",
+  "title": "American Made",
+  "poster": "american_made",
+  "genres": [
+    "Comedy",
+    "Crime"
+  ],
+  "production": [
+    "Cross Creek Pictures",
+    "Imagine Entertainment"
+  ],
+  "directedBy": [
+    "Doug Liman"
+  ],
+  "producedBy": "Ray Angelic, Doug Davison, Brian Oliver, Kim Roth",
+  "writtenBy": "Gary Spinelli",
+  "musicBy": "Christophe Beck",
+  "cinematographyBy": "César Charlone",
+  "countries": [
+    "USA",
+    "Japan",
+    "Colombia"
+  ],
+  "budget": {
+    "value": 50,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 135,
+    "suffix": "million"
+  },
+  "synopsis": "The story of Barry Seal, an American pilot who became a drug-runner for the CIA in the 1980s in a clandestine operation that would be exposed as the Iran-Contra Affair.",
+  "collections": [
+    {
+      "name": "Life Story"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Barry Seal",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81"
+    },
+    {
+      "character": {
+        "name": "Monty 'Schafer'",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0e501cfc-d0cb-463c-83b4-da4113e4afbc"
+    },
+    {
+      "character": {
+        "name": "Lucy Seal",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8c61e23b-4b8c-4a6c-b531-bab8ae8bc9e8"
+    },
+    {
+      "character": {
+        "name": "Sheriff Downing",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f0c350c9-f469-4faf-af3e-5313732e11ef"
+    },
+    {
+      "character": {
+        "name": "JB",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "28066701-2a1a-4ad5-b59b-6032dc599b46"
+    },
+    {
+      "character": {
+        "name": "George W. Bush",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "684a1dcc-8840-4e5e-9eac-cba3af3e8946"
+    },
+    {
+      "character": {
+        "name": "Pablo Escobar",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "fd966b66-a804-448e-80eb-abf32ef322d8"
+    },
+    {
+      "character": {
+        "name": "Jorge Ochoa",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "db5e19f2-30fc-477c-8ca6-dd724fb0628a"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "55"
+  },
+  "releaseDate": "2017-09-01",
+  "trailer": "AEBIJRAkujM"
+}

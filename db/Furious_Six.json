@@ -1,0 +1,147 @@
+{
+  "id": "9a8a014d-00fa-42b2-a3bb-d8da07700cf8",
+  "title": "Furious Six",
+  "poster": "fast_and_furious_6",
+  "genres": [
+    "Action",
+    "Crime"
+  ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "directedBy": [
+    "Justin Lin"
+  ],
+  "producedBy": "Neal H. Moritz, Vin Diesel",
+  "writtenBy": "Chris Morgan",
+  "musicBy": "Lucas Vidal",
+  "cinematographyBy": "Stephen F. Windon",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 160,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 789,
+    "suffix": "million"
+  },
+  "synopsis": "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty.",
+  "collections": [
+    {
+      "name": "Cars"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Action/Adventure Film"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Fast and Furious",
+    "part": 6
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Dominic Toretto",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "81bac581-4158-4bcb-9920-60fd3a93bd6b"
+    },
+    {
+      "character": {
+        "name": "Brian O'Conner",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2c49887f-4365-4050-9ad8-0dfebb5556e6"
+    },
+    {
+      "character": {
+        "name": "Hobbs",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d10e4d00-cb12-4d0f-a8f7-949530f17b88"
+    },
+    {
+      "character": {
+        "name": "Mia",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "49c64688-2490-427d-9650-4d5e8e2d53ac"
+    },
+    {
+      "character": {
+        "name": "Letty",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "973356cd-2905-4327-aac6-e95b4a336869"
+    },
+    {
+      "character": {
+        "name": "Roman",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d590cae8-3171-41ca-968c-1bbb1b425aa8"
+    },
+    {
+      "character": {
+        "name": "Han",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d44f46b1-9cd7-432e-b62d-97de2a3ae027"
+    },
+    {
+      "character": {
+        "name": "Gisele",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cac99b67-2448-4b4f-ab99-e88b4e516940"
+    },
+    {
+      "character": {
+        "name": "Tej",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a07a4f82-9579-40d3-97d8-9dd2d0904023"
+    },
+    {
+      "character": {
+        "name": "Shaw",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6ab65894-ba82-4d35-9adf-dbdc3ae3fa63"
+    },
+    {
+      "character": {
+        "name": "Elena",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a601625c-13b8-403a-b7eb-79165f3abd28"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "11"
+  },
+  "releaseDate": "2013-05-01",
+  "trailer": "dKi5XoeTN0k"
+}

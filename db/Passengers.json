@@ -1,0 +1,87 @@
+{
+  "id": "24de11f5-5644-4e29-a734-838663847150",
+  "title": "Passengers",
+  "poster": "passengers",
+  "genres": [
+    "Sci-Fi",
+    "Romance"
+  ],
+  "production": [
+    "Columbia Pictures"
+  ],
+  "directedBy": [
+    "Morten Tyldum"
+  ],
+  "producedBy": "Stephen Hamel, Michael Maher, Neal H. Moritz, Ori Marmur",
+  "writtenBy": "Jon Spaihts",
+  "musicBy": "Thomas Newman",
+  "cinematographyBy": "Rodrigo Prieto",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 110,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 303,
+    "suffix": "million"
+  },
+  "synopsis": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early.",
+  "collections": [
+    {
+      "name": "Space"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Aurora Lane",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "29b99567-4a10-4246-9bb2-26b55a9c1e63"
+    },
+    {
+      "character": {
+        "name": "Jim Preston",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d37a1702-6d76-425e-a1ac-940961feb029"
+    },
+    {
+      "character": {
+        "name": "Arthur",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cd31d4b4-862c-42da-9e5c-c6fa8a0132f7"
+    },
+    {
+      "character": {
+        "name": "Gus Mancuso",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d5cfb42e-818e-43cf-9840-f842bc4579e6"
+    },
+    {
+      "character": {
+        "name": "Captain Norris",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e238613f-3004-4897-84e3-fdbcab37d857"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "56"
+  },
+  "releaseDate": "2016-12-01",
+  "trailer": "7BWWWQzTpNU"
+}

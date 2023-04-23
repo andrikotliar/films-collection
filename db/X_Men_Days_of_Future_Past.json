@@ -1,0 +1,164 @@
+{
+  "id": "2d7a4b15-2e3f-478b-afc4-b38e26fd7b98",
+  "title": "X-Men: Days of Future Past",
+  "poster": "x_men_6",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "20th Century FOX",
+    "Marvel Entertainment"
+  ],
+  "directedBy": [
+    "Bryan Singer"
+  ],
+  "producedBy": "Lauren Shuler Donner, Bryan Singer",
+  "writtenBy": "Simon Kinberg",
+  "musicBy": "John Ottman",
+  "cinematographyBy": "Newton Thomas Sigel",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 748,
+    "suffix": "million"
+  },
+  "synopsis": "The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.",
+  "collections": [
+    {
+      "name": "Superheroes"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best DVD/Blu-Ray Special Edition Release"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "X-Men",
+    "part": 7
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Logan / Wolverine",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3e2db4d6-df90-4736-9425-c1fd062d8868"
+    },
+    {
+      "character": {
+        "name": "Charles Xavier",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8f4897bf-8957-47f7-9b1c-fe4616205de6"
+    },
+    {
+      "character": {
+        "name": "Erik Lehnsherr",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5e9cb45b-f3f1-435b-9a3d-d0b2b3963899"
+    },
+    {
+      "character": {
+        "name": "Raven / Mystique",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "29b99567-4a10-4246-9bb2-26b55a9c1e63"
+    },
+    {
+      "character": {
+        "name": "Storm",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4551e8d8-1551-4a8e-926a-6b767938bdda"
+    },
+    {
+      "character": {
+        "name": "Hank / Beast",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e71b81b3-8c4f-447d-97a8-56d5a976750d"
+    },
+    {
+      "character": {
+        "name": "Rogue",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0acad1f8-e388-42ee-a0bc-c8e1a5b335a0"
+    },
+    {
+      "character": {
+        "name": "Kitty Pryde",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e329dda6-a5c4-4427-bf93-16bb46e8e96f"
+    },
+    {
+      "character": {
+        "name": "Dr. Bolivar Trask",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6cc034f0-dc5c-41cc-967a-87f9d4d70c9a"
+    },
+    {
+      "character": {
+        "name": "Bobby / Iceman",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "65899214-7886-452c-b7c9-721e5ba24e8f"
+    },
+    {
+      "character": {
+        "name": "Peter / Quicksilver",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f6b8c58c-dcea-4558-bf16-7eebf6146faf"
+    },
+    {
+      "character": {
+        "name": "Magneto",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "18b67364-14a8-461a-bf48-a12c4741d52f"
+    },
+    {
+      "character": {
+        "name": "Professor X",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "76c48e8a-834b-4683-a406-f2b72f99a39b"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "11"
+  },
+  "releaseDate": "2014-05-01",
+  "trailer": "pK2zYHWDZKo"
+}

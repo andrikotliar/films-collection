@@ -1,0 +1,74 @@
+{
+  "id": "2bdff333-f23a-46ce-b360-bfc350ddf0cc",
+  "title": "Mune, Le Gardian De La Lune",
+  "poster": "mune",
+  "genres": [
+    "Adventures",
+    "Comedy"
+  ],
+  "production": [
+    "Onyx Films",
+    "Kinology",
+    "ON Animation Studios"
+  ],
+  "directedBy": [
+    "Alexandre Heboyan",
+    "Beno't Philippon"
+  ],
+  "producedBy": "Dimitri Rassam, Aton Soumache, Alexis Vonarb",
+  "writtenBy": "Benoît Philippon, Jérôme Fansten",
+  "musicBy": "Bruno Coulais",
+  "countries": [
+    "France",
+    "USA"
+  ],
+  "budget": {
+    "value": 17,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 9.1,
+    "suffix": "million"
+  },
+  "synopsis": "When an evil magma demon and his minions steals the sun of a magical world, the new guardians of both the sun and the moon must embark on a quest to retrieve it and save their world from disaster as the moon faces destruction as well.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Sohone",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8dc10d24-b013-432f-b828-c9282444b342"
+    },
+    {
+      "character": {
+        "name": "Glim",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6db9931e-0947-4e42-8596-4ce9583b6eb7"
+    },
+    {
+      "character": {
+        "name": "Mune",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5f500be6-3476-4a43-baa1-850337c163e9"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "26"
+  },
+  "releaseDate": "2015-10-01",
+  "trailer": "AbHXQRiY3H8"
+}

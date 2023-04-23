@@ -1,0 +1,132 @@
+{
+  "id": "b27542bf-b891-46b4-b273-33d21c23871a",
+  "title": "Finding Nemo",
+  "poster": "finding_nemo",
+  "genres": [
+    "Adventures"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Pixar Animation"
+  ],
+  "directedBy": [
+    "Andrew Stanton"
+  ],
+  "producedBy": "Graham Walters",
+  "writtenBy": "Andrew Stanton, Bob Peterson, David Reynolds",
+  "musicBy": "Thomas Newman",
+  "cinematographyBy": "Sharon Calahan, Jeremy Lasky",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 94,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 940,
+    "suffix": "million"
+  },
+  "synopsis": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Animated Feature"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Animated Film",
+        "Best Supporting Actress"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Animated Feature"
+      ]
+    }
+  ],
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Nemo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9db9715d-f634-41ed-8e5e-386d03e17d60"
+    },
+    {
+      "character": {
+        "name": "Marlin",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "04c9cfd7-657e-4df2-8cf8-36bb38c51165"
+    },
+    {
+      "character": {
+        "name": "Dory",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "581dbf40-0f38-46d7-b24f-55f5ccfa7b13"
+    },
+    {
+      "character": {
+        "name": "Gill",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4bbc8ea8-2f28-43b8-8a68-24598fd32c85"
+    },
+    {
+      "character": {
+        "name": "Bloat",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "32d0b8bf-3fcc-4ebe-b8b9-b7d60402ff70"
+    },
+    {
+      "character": {
+        "name": "Peach",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a5092499-6832-459b-b919-c9ab391a9c99"
+    },
+    {
+      "character": {
+        "name": "Gurgle",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2ec19b05-ae42-4dca-b217-eb67aa165874"
+    },
+    {
+      "character": {
+        "name": "Bubbles",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "77591066-37d5-4536-8802-62abee9bb555"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "40"
+  },
+  "releaseDate": "2003-05-01",
+  "trailer": "wZdpNglLbt8"
+}

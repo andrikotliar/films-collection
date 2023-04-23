@@ -1,0 +1,350 @@
+{
+  "id": "68641108-6dbf-4b94-a26b-4f1b53960327",
+  "title": "Locke & Key",
+  "poster": "locke_key",
+  "genres": [
+    "Fantasy",
+    "Drama"
+  ],
+  "production": [
+    "Netflix"
+  ],
+  "createdBy": [
+    "Michael Morris",
+    "Vincenzo Natali",
+    "Tim Southam",
+    "Mark Tonderai",
+    "Dawn Wilkinson"
+  ],
+  "producedBy": "Ra'uf Glasgow, Kevin Lafferty, Nishpeksh Mehra",
+  "musicBy": "Torin Borrowdale",
+  "cinematographyBy": "Tico Poulakakis, Dylan Macleod, Colin Hoult",
+  "countries": [
+    "USA",
+    "Canada"
+  ],
+  "synopsis": "After their father is murdered under mysterious circumstances, the three Locke siblings and their mother move into their ancestral home, Keyhouse, which they discover is full of magical keys that may be connected to their father's death.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "type": [
+    "Series"
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "Welcome to Matheson",
+          "directedBy": "Michael Morris",
+          "writtenBy": "Joe Hill, Aron Eli Coleite",
+          "releaseDate": "2020-02-07"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Trapper / Keeper",
+          "directedBy": "Michael Morris",
+          "writtenBy": "Liz Phang",
+          "releaseDate": "2020-02-07"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Head Games",
+          "directedBy": "Tim Southam",
+          "writtenBy": "Meredith Averill",
+          "releaseDate": "2020-02-07"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "The Keepers of the Keys",
+          "directedBy": "Tim Southam",
+          "writtenBy": "Mackenzie Dohr",
+          "releaseDate": "2020-02-07"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Family Tree",
+          "directedBy": "Mark Tonderai-Hodges",
+          "writtenBy": "Andres Fischer-Centeno",
+          "releaseDate": "2020-02-07"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "The Black Door",
+          "directedBy": "Mark Tonderai-Hodges",
+          "writtenBy": "Brett Treacy, Dan Woodward",
+          "releaseDate": "2020-02-07"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "Dissection",
+          "directedBy": "Dawn Wilkinson",
+          "writtenBy": "Michael D. Fuller",
+          "releaseDate": "2020-02-07"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "Ray of F**king Sunshine",
+          "directedBy": "Dawn Wilkinson",
+          "writtenBy": "Vanessa Rojas",
+          "releaseDate": "2020-02-07"
+        },
+        {
+          "episodeOverall": 9,
+          "episode": 9,
+          "title": "Echoes",
+          "directedBy": "Vincenzo Natali",
+          "writtenBy": "Meredith Averill, Liz Phang",
+          "releaseDate": "2020-02-07"
+        },
+        {
+          "episodeOverall": 10,
+          "episode": 10,
+          "title": "Crown of Shadows",
+          "directedBy": "Vincenzo Natali",
+          "writtenBy": "Carlton Cuse, Meredith Averill",
+          "releaseDate": "2020-02-07"
+        }
+      ],
+      "trailer": "_EonRi0yQOE"
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "episodeOverall": 11,
+          "episode": 1,
+          "title": "The Premiere",
+          "directedBy": "Mark Tonderai",
+          "writtenBy": "Meredith Averill, Carlton Cuse",
+          "releaseDate": "2021-10-22"
+        },
+        {
+          "episodeOverall": 12,
+          "episode": 2,
+          "title": "The Head and the Heart",
+          "directedBy": "Mark Tonderai",
+          "writtenBy": "Liz Phang",
+          "releaseDate": "2021-10-22"
+        },
+        {
+          "episodeOverall": 13,
+          "episode": 3,
+          "title": "Small World",
+          "directedBy": "Mairzee Almas",
+          "writtenBy": "Mackenzie Dohr",
+          "releaseDate": "2021-10-22"
+        },
+        {
+          "episodeOverall": 14,
+          "episode": 4,
+          "title": "Forget Me Not",
+          "directedBy": "Mairzee Almas",
+          "writtenBy": "Vanessa Rojas",
+          "releaseDate": "2021-10-22"
+        },
+        {
+          "episodeOverall": 15,
+          "episode": 5,
+          "title": "Past is Prologue",
+          "directedBy": "Carlton Cuse",
+          "writtenBy": "Meredith Averill",
+          "releaseDate": "2021-10-22"
+        },
+        {
+          "episodeOverall": 16,
+          "episode": 6,
+          "title": "The Maze",
+          "directedBy": "Mairzee Almas",
+          "writtenBy": "Kimi Howl Lee",
+          "releaseDate": "2021-10-22"
+        },
+        {
+          "episodeOverall": 17,
+          "episode": 7,
+          "title": "Best Laid Plans",
+          "directedBy": "Millicent Shelton",
+          "writtenBy": "Michael D. Fuller",
+          "releaseDate": "2021-10-22"
+        },
+        {
+          "episodeOverall": 18,
+          "episode": 8,
+          "title": "Irons in the Fire",
+          "directedBy": "Millicent Shelton",
+          "writtenBy": "Jordan Riggs",
+          "releaseDate": "2021-10-22"
+        },
+        {
+          "episodeOverall": 19,
+          "episode": 9,
+          "title": "Alpha and Omega",
+          "directedBy": "Mark Tonderai",
+          "writtenBy": "Meredith Averill, Liz Phang",
+          "releaseDate": "2021-10-22"
+        },
+        {
+          "episodeOverall": 20,
+          "episode": 10,
+          "title": "Cliffhanger",
+          "directedBy": "Mark Tonderai",
+          "writtenBy": "Carlton Cuse, Meredith Averill",
+          "releaseDate": "2021-10-22"
+        }
+      ],
+      "trailer": "lxJdvbG2fPw"
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "episodeOverall": 21,
+          "episode": 1,
+          "title": "The Snow Globe",
+          "directedBy": "Guy Ferland",
+          "writtenBy": "Liz Phang",
+          "releaseDate": "2022-08-10"
+        },
+        {
+          "episodeOverall": 22,
+          "episode": 2,
+          "title": "Wedding Crashers",
+          "directedBy": "Guy Ferland",
+          "writtenBy": "Michael D. Fuller",
+          "releaseDate": "2022-08-10"
+        },
+        {
+          "episodeOverall": 23,
+          "episode": 3,
+          "title": "Five Minutes Past",
+          "directedBy": "Ed Ornelas",
+          "writtenBy": "Vanessa Rojas",
+          "releaseDate": "2022-08-10"
+        },
+        {
+          "episodeOverall": 24,
+          "episode": 4,
+          "title": "Deep Cover",
+          "directedBy": "Ed Ornelas",
+          "writtenBy": "Mackenzie Dohr",
+          "releaseDate": "2022-08-10"
+        },
+        {
+          "episodeOverall": 25,
+          "episode": 5,
+          "title": "Siege",
+          "directedBy": "Marisol Adler",
+          "writtenBy": "Meredith Averill",
+          "releaseDate": "2022-08-10"
+        },
+        {
+          "episodeOverall": 26,
+          "episode": 6,
+          "title": "Free Bird",
+          "directedBy": "Marisol Adler",
+          "writtenBy": "Jordan Riggs",
+          "releaseDate": "2022-08-10"
+        },
+        {
+          "episodeOverall": 27,
+          "episode": 7,
+          "title": "Curtain",
+          "directedBy": "Jeremy Webb",
+          "writtenBy": "Carlton Cuse, Joe Hill",
+          "releaseDate": "2022-08-10"
+        },
+        {
+          "episodeOverall": 28,
+          "episode": 8,
+          "title": "Farewell",
+          "directedBy": "Jeremy Webb",
+          "writtenBy": "Meredith Averill, Carlton Cuse",
+          "releaseDate": "2022-08-10"
+        }
+      ],
+      "trailer": "PX-t1wYNtBs"
+    }
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Nina Locke",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e97672f4-5cd3-41e5-baab-a88207208afe"
+    },
+    {
+      "character": {
+        "name": "Tyler Locke",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8cd8bcec-bfee-48f7-ac30-d2eba6cd66ba"
+    },
+    {
+      "character": {
+        "name": "Kinsey Locke",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e14cc94f-2c09-41c7-a49c-b3baa18d3316"
+    },
+    {
+      "character": {
+        "name": "Bode Locke",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8cf8c0ad-c123-4047-aa3f-f5f7f012e49b"
+    },
+    {
+      "character": {
+        "name": "Scot Cavendish",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d2a9743b-50be-4274-89f5-c8837bfc02b8"
+    },
+    {
+      "character": {
+        "name": "Ellie Whedon",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ecf0416f-8ac1-43a0-a4ee-13b0e6fd34c2"
+    },
+    {
+      "character": {
+        "name": "Jackie Veda",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a7e55011-6193-4bb8-a0bb-944e8923d069"
+    },
+    {
+      "character": {
+        "name": "Dodge",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "645d4323-e065-4e22-8bc3-ef48f64e612b"
+    }
+  ],
+  "duration": {
+    "hours": "17",
+    "minutes": "36"
+  },
+  "releaseDate": "2020-02-01"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "ae904217-fd37-4e3b-8710-52faf22052ac",
+  "title": "How to Train Your Dragon 2",
+  "poster": "how_to_train_your_dragon_2",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "production": [
+    "DreamWorks Animation"
+  ],
+  "directedBy": [
+    "Dean DeBlois"
+  ],
+  "producedBy": "Bonnie Amold",
+  "writtenBy": "Dean DeBlois",
+  "musicBy": "John Powell",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 145,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 621,
+    "suffix": "million"
+  },
+  "synopsis": "When Hiccup and Toothless discover an ice cave that is home to hundreds of new wild dragons and the mysterious Dragon Rider, the two friends find themselves at the center of a battle to protect the peace.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "parts": {
+    "title": "How to Train Your Dragon",
+    "part": 2
+  },
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Hiccup",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bd9320ce-d946-4c06-98f6-39871d61e972"
+    },
+    {
+      "character": {
+        "name": "Valka",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d7f81c80-afaa-4b4e-a3fa-49b85238c529"
+    },
+    {
+      "character": {
+        "name": "Stoick",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c781f4d1-0f36-4078-aece-b893a0405504"
+    },
+    {
+      "character": {
+        "name": "Gobber",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5201384e-56db-455a-89f3-2c7ff61d9515"
+    },
+    {
+      "character": {
+        "name": "Astrid",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9bed7813-db69-4322-bba9-bdc4763a1567"
+    },
+    {
+      "character": {
+        "name": "Drago Bludvist",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "44677a98-c6e2-43c4-b7e2-3fe0a7f05703"
+    },
+    {
+      "character": {
+        "name": "Eret",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "82f820ef-07a2-47e1-82bd-b53f68e7b6ab"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "42"
+  },
+  "releaseDate": "2014-06-01",
+  "trailer": "2BP38770KNo"
+}

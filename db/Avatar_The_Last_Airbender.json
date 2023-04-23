@@ -1,0 +1,689 @@
+{
+  "id": "76c25fd8-35ef-4685-a41b-5a5d40e2380d",
+  "title": "Avatar: The Last Airbender",
+  "poster": "last_airbender",
+  "genres": [
+    "Adventures",
+    "Fantasy"
+  ],
+  "production": [
+    "Nickelodeon Animation Studios"
+  ],
+  "createdBy": [
+    "Michael Dante DiMartino",
+    "Bryan Konietzko"
+  ],
+  "producedBy": "Michael Dante DiMartino, Bryan Konietzko",
+  "musicBy": "Benjamin Wynn, Jeremy Zuckerman",
+  "countries": [
+    "USA"
+  ],
+  "synopsis": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Emmy",
+      "nominations": [
+        "Outstanding Individual Achievement in Animation"
+      ]
+    },
+    {
+      "title": "Annie",
+      "nominations": [
+        "Best Animated Television Production Produced for Children",
+        "Best Directing in an Animated Television Production or Short Form",
+        "Best Character Animation in a Television Production",
+        "Best Directing in an Animated Television Production",
+        "Best Storyboarding in an Animated Television Production",
+        "Best Animated Television Production"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Last Airbender",
+    "part": 1
+  },
+  "type": [
+    "Series",
+    "Animation"
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "trailer": "ahPeclU9VW0",
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "The Boy in the Iceberg",
+          "directedBy": "Dave Filoni",
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
+          "releaseDate": "2005-02-21"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "The Avatar Returns",
+          "directedBy": "Dave Filoni",
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
+          "releaseDate": "2005-02-21"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "The Southern Air Temple",
+          "directedBy": "Lauren MacMullan",
+          "writtenBy": "Michael Dante DiMartino",
+          "releaseDate": "2005-02-25"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "The Warriors of Kyoshi",
+          "directedBy": "Giancarlo Volpe",
+          "writtenBy": "Nick Malis",
+          "releaseDate": "2005-03-04"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "The King of Omashu",
+          "directedBy": "Anthony Lioi",
+          "writtenBy": "John O'Bryan",
+          "releaseDate": "2005-03-18"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "Imprisoned",
+          "directedBy": "Dave Filoni",
+          "writtenBy": "Matthew Hubbard",
+          "releaseDate": "2005-03-25"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "Winter Solstice, Part 1: The Spirit World",
+          "directedBy": "Lauren MacMullan",
+          "writtenBy": "Aaron Ehasz",
+          "releaseDate": "2005-04-08"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "Winter Solstice, Part 2: Avatar Roku",
+          "directedBy": "Giancarlo Volpe",
+          "writtenBy": "Michael Dante DiMartino",
+          "releaseDate": "2005-04-15"
+        },
+        {
+          "episodeOverall": 9,
+          "episode": 9,
+          "title": "The Waterbending Scroll",
+          "directedBy": "Anthony Lioi",
+          "writtenBy": "John O'Bryan",
+          "releaseDate": "2005-04-29"
+        },
+        {
+          "episodeOverall": 10,
+          "episode": 10,
+          "title": "Jet",
+          "directedBy": "Dave Filoni",
+          "writtenBy": "James Eagan",
+          "releaseDate": "2005-05-06"
+        },
+        {
+          "episodeOverall": 11,
+          "episode": 11,
+          "title": "The Great Divide",
+          "directedBy": "Giancarlo Volpe",
+          "writtenBy": "John O'Bryan",
+          "releaseDate": "2005-05-20"
+        },
+        {
+          "episodeOverall": 12,
+          "episode": 12,
+          "title": "The Storm",
+          "directedBy": "Lauren MacMullan",
+          "writtenBy": "Aaron Ehasz",
+          "releaseDate": "2005-06-03"
+        },
+        {
+          "episodeOverall": 13,
+          "episode": 13,
+          "title": "The Blue Spirit",
+          "directedBy": "Dave Filoni",
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
+          "releaseDate": "2005-06-17"
+        },
+        {
+          "episodeOverall": 14,
+          "episode": 14,
+          "title": "The Fortuneteller",
+          "directedBy": "Dave Filoni",
+          "writtenBy": "Aaron Ehasz, John O'Bryan",
+          "releaseDate": "2005-09-23"
+        },
+        {
+          "episodeOverall": 15,
+          "episode": 15,
+          "title": "Bato of the Water Tribe",
+          "directedBy": "Giancarlo Volpe",
+          "writtenBy": "Ian Wilcox",
+          "releaseDate": "2005-10-07"
+        },
+        {
+          "episodeOverall": 16,
+          "episode": 16,
+          "title": "The Deserter",
+          "directedBy": "Lauren MacMullan",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2005-10-21"
+        },
+        {
+          "episodeOverall": 17,
+          "episode": 17,
+          "title": "The Northern Air Temple",
+          "directedBy": "Dave Filoni",
+          "writtenBy": "Elizabeth Welch",
+          "releaseDate": "2005-11-04"
+        },
+        {
+          "episodeOverall": 18,
+          "episode": 18,
+          "title": "The Waterbending Master",
+          "directedBy": "Giancarlo Volpe",
+          "writtenBy": "Michael Dante DiMartino",
+          "releaseDate": "2005-11-18"
+        },
+        {
+          "episodeOverall": 19,
+          "episode": 19,
+          "title": "The Siege of the North, Part 1",
+          "directedBy": "Lauren MacMullan",
+          "writtenBy": "John O'Bryan",
+          "releaseDate": "2005-12-02"
+        },
+        {
+          "episodeOverall": 20,
+          "episode": 20,
+          "title": "The Siege of the North, Part 2",
+          "directedBy": "Dave Filoni",
+          "writtenBy": "Aaron Ehasz",
+          "releaseDate": "2005-12-02"
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "trailer": "ahPeclU9VW0",
+      "episodes": [
+        {
+          "episodeOverall": 21,
+          "episode": 1,
+          "title": "The Avatar State",
+          "directedBy": "Giancarlo Volpe",
+          "writtenBy": "Aaron Ehasz, Elizabeth Welch, Tim Hedrick, John O'Bryan",
+          "releaseDate": "2006-03-17"
+        },
+        {
+          "episodeOverall": 22,
+          "episode": 2,
+          "title": "The Cave of Two Lovers",
+          "directedBy": "Lauren MacMullan",
+          "writtenBy": "Joshua Hamilton",
+          "releaseDate": "2006-03-24"
+        },
+        {
+          "episodeOverall": 23,
+          "episode": 3,
+          "title": "Return to Omashu",
+          "directedBy": "Ethan Spaulding",
+          "writtenBy": "Elizabeth Welch",
+          "releaseDate": "2006-04-07"
+        },
+        {
+          "episodeOverall": 24,
+          "episode": 4,
+          "title": "The Swamp",
+          "directedBy": "Giancarlo Volpe",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2006-04-14"
+        },
+        {
+          "episodeOverall": 25,
+          "episode": 5,
+          "title": "Avatar Day",
+          "directedBy": "Lauren MacMullan",
+          "writtenBy": "John O'Bryan",
+          "releaseDate": "2006-04-28"
+        },
+        {
+          "episodeOverall": 26,
+          "episode": 6,
+          "title": "The Blind Bandit",
+          "directedBy": "Ethan Spaulding",
+          "writtenBy": "Michael Dante DiMartino",
+          "releaseDate": "2006-05-05"
+        },
+        {
+          "episodeOverall": 27,
+          "episode": 7,
+          "title": "Zuko Alone",
+          "directedBy": "Lauren MacMullan",
+          "writtenBy": "Elizabeth Welch",
+          "releaseDate": "2006-05-12"
+        },
+        {
+          "episodeOverall": 28,
+          "episode": 8,
+          "title": "The Chase",
+          "directedBy": "Giancarlo Volpe",
+          "writtenBy": "Joshua Hamilton",
+          "releaseDate": "2006-05-26"
+        },
+        {
+          "episodeOverall": 29,
+          "episode": 9,
+          "title": "Bitter Work",
+          "directedBy": "Ethan Spaulding",
+          "writtenBy": "Aaron Ehasz",
+          "releaseDate": "2006-06-02"
+        },
+        {
+          "episodeOverall": 30,
+          "episode": 10,
+          "title": "The Library",
+          "directedBy": "Giancarlo Volpe",
+          "writtenBy": "John O'Bryan",
+          "releaseDate": "2006-07-14"
+        },
+        {
+          "episodeOverall": 31,
+          "episode": 11,
+          "title": "The Desert",
+          "directedBy": "Lauren MacMullan",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2006-07-14"
+        },
+        {
+          "episodeOverall": 32,
+          "episode": 12,
+          "title": "The Serpent's Pass",
+          "directedBy": "Ethan Spaulding",
+          "writtenBy": "Michael Dante DiMartino, Joshua Hamilton",
+          "releaseDate": "2006-09-15"
+        },
+        {
+          "episodeOverall": 33,
+          "episode": 13,
+          "title": "The Drill",
+          "directedBy": "Giancarlo Volpe",
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
+          "releaseDate": "2006-09-15"
+        },
+        {
+          "episodeOverall": 34,
+          "episode": 14,
+          "title": "City of Walls, Secrets",
+          "directedBy": "Lauren MacMullan",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2006-09-22"
+        },
+        {
+          "episodeOverall": 35,
+          "episode": 15,
+          "title": "The Tales of Ba Sing Se",
+          "directedBy": "Ethan Spaulding",
+          "writtenBy": "The Tale of Toph and Katara: Joann Estoesta, Lisa Wahlander; The Tale of Iroh: Andrew Huebner; The Tale of Aang: Gary Scheppke; The Tale of Sokka: Lauren MacMullan; The Tale of Zuko: Katie Mattila; The Tale of Momo: Justin Ridge, Giancarlo Volpe",
+          "releaseDate": "2006-09-29"
+        },
+        {
+          "episodeOverall": 36,
+          "episode": 16,
+          "title": "Appa's Lost Days",
+          "directedBy": "Giancarlo Volpe",
+          "writtenBy": "Elizabeth Welch",
+          "releaseDate": "2006-10-13"
+        },
+        {
+          "episodeOverall": 37,
+          "episode": 17,
+          "title": "Lake Laogai",
+          "directedBy": "Lauren MacMullan",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2006-11-03"
+        },
+        {
+          "episodeOverall": 38,
+          "episode": 18,
+          "title": "The Earth King",
+          "directedBy": "Ethan Spaulding",
+          "writtenBy": "John O'Bryan",
+          "releaseDate": "2006-11-17"
+        },
+        {
+          "episodeOverall": 39,
+          "episode": 19,
+          "title": "The Guru",
+          "directedBy": "Giancarlo Volpe",
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
+          "releaseDate": "2006-12-01"
+        },
+        {
+          "episodeOverall": 40,
+          "episode": 20,
+          "title": "The Crossroads of Destiny",
+          "directedBy": "Michael Dante DiMartino",
+          "writtenBy": "Aaron Ehasz",
+          "releaseDate": "2006-12-01"
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "trailer": "ahPeclU9VW0",
+      "episodes": [
+        {
+          "episodeOverall": 41,
+          "episode": 1,
+          "title": "The Awakening",
+          "directedBy": "Giancarlo Volpe",
+          "writtenBy": "Aaron Ehasz",
+          "releaseDate": "2007-09-21"
+        },
+        {
+          "episodeOverall": 42,
+          "episode": 2,
+          "title": "The Headband",
+          "directedBy": "Joaquim Dos Santos",
+          "writtenBy": "John O'Bryan",
+          "releaseDate": "2007-09-28"
+        },
+        {
+          "episodeOverall": 43,
+          "episode": 3,
+          "title": "The Painted Lady",
+          "directedBy": "Ethan Spaulding",
+          "writtenBy": "Joshua Hamilton",
+          "releaseDate": "2007-10-05"
+        },
+        {
+          "episodeOverall": 44,
+          "episode": 4,
+          "title": "Sokka's Master",
+          "directedBy": "Giancarlo Volpe",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2007-10-12"
+        },
+        {
+          "episodeOverall": 45,
+          "episode": 5,
+          "title": "The Beach",
+          "directedBy": "Joaquim Dos Santos",
+          "writtenBy": "Katie Mattila",
+          "releaseDate": "2007-10-19"
+        },
+        {
+          "episodeOverall": 46,
+          "episode": 6,
+          "title": "The Avatar and the Fire Lord",
+          "directedBy": "Ethan Spaulding",
+          "writtenBy": "Elizabeth Welch",
+          "releaseDate": "2007-10-26"
+        },
+        {
+          "episodeOverall": 47,
+          "episode": 7,
+          "title": "The Runaway",
+          "directedBy": "Giancarlo Volpe",
+          "writtenBy": "Joshua Hamilton",
+          "releaseDate": "2007-11-02"
+        },
+        {
+          "episodeOverall": 48,
+          "episode": 8,
+          "title": "The Puppetmaster",
+          "directedBy": "Joaquim Dos Santos",
+          "writtenBy": "Tim Hedrick",
+          "releaseDate": "2007-11-09"
+        },
+        {
+          "episodeOverall": 49,
+          "episode": 9,
+          "title": "Nightmares and Daydreams",
+          "directedBy": "Ethan Spaulding",
+          "writtenBy": "John O'Bryan",
+          "releaseDate": "2007-11-16"
+        },
+        {
+          "episodeOverall": 50,
+          "episode": 10,
+          "title": "The Day of Black Sun, Part 1: The Invasion",
+          "directedBy": "Giancarlo Volpe",
+          "writtenBy": "Michael Dante DiMartino",
+          "releaseDate": "2007-11-30"
+        },
+        {
+          "episodeOverall": 51,
+          "episode": 11,
+          "title": "The Day of Black Sun, Part 2: The Eclipse",
+          "directedBy": "Joaquim Dos Santos",
+          "writtenBy": "Aaron Ehasz",
+          "releaseDate": "2007-11-30"
+        },
+        {
+          "episodeOverall": 52,
+          "episode": 12,
+          "title": "The Western Air Temple",
+          "directedBy": "Ethan Spaulding",
+          "writtenBy": "Elizabeth Welch, Tim Hedrick",
+          "releaseDate": "2008-07-14"
+        },
+        {
+          "episodeOverall": 53,
+          "episode": 13,
+          "title": "The Firebending Masters",
+          "directedBy": "Giancarlo Volpe",
+          "writtenBy": "John O'Bryan",
+          "releaseDate": "2008-07-15"
+        },
+        {
+          "episodeOverall": 54,
+          "episode": 14,
+          "title": "The Boiling Rock, Part 1",
+          "directedBy": "Joaquim Dos Santos",
+          "writtenBy": "May Chan",
+          "releaseDate": "2008-07-16"
+        },
+        {
+          "episodeOverall": 55,
+          "episode": 15,
+          "title": "The Boiling Rock, Part 2",
+          "directedBy": "Ethan Spaulding",
+          "writtenBy": "Joshua Hamilton",
+          "releaseDate": "2008-07-16"
+        },
+        {
+          "episodeOverall": 56,
+          "episode": 16,
+          "title": "The Southern Raiders",
+          "directedBy": "Joaquim Dos Santos",
+          "writtenBy": "Elizabeth Welch",
+          "releaseDate": "2008-07-17"
+        },
+        {
+          "episodeOverall": 57,
+          "episode": 17,
+          "title": "The Ember Island Players",
+          "directedBy": "Giancarlo Volpe",
+          "writtenBy": "Tim Hedrick, Joshua Hamilton, John O'Bryan",
+          "releaseDate": "2008-07-18"
+        },
+        {
+          "episodeOverall": 58,
+          "episode": 18,
+          "title": "Sozin's Comet, Part 1: The Phoenix King",
+          "directedBy": "Ethan Spaulding",
+          "writtenBy": "Michael Dante DiMartino",
+          "releaseDate": "2008-07-19"
+        },
+        {
+          "episodeOverall": 59,
+          "episode": 19,
+          "title": "Sozin's Comet, Part 2: The Old Masters",
+          "directedBy": "Giancarlo Volpe",
+          "writtenBy": "Aaron Ehasz",
+          "releaseDate": "2008-07-19"
+        },
+        {
+          "episodeOverall": 60,
+          "episode": 20,
+          "title": "Sozin's Comet, Part 3: Into the Inferno",
+          "directedBy": "Joaquim Dos Santos",
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
+          "releaseDate": "2008-07-19"
+        },
+        {
+          "episodeOverall": 61,
+          "episode": 21,
+          "title": "Sozin's Comet, Part 4: Avatar Aang",
+          "directedBy": "Joaquim Dos Santos",
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
+          "releaseDate": "2008-07-19"
+        }
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Aang",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "66bb5722-cb07-455b-9599-1edb21457016"
+    },
+    {
+      "character": {
+        "name": "Katara",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ed78b3ed-9822-4b09-99a3-4f064968c943"
+    },
+    {
+      "character": {
+        "name": "Sokka",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3d1c24f3-e57e-4bba-ad48-eb1d9b629951"
+    },
+    {
+      "character": {
+        "name": "Zuko",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "fe9deb01-53d0-46e2-a020-00b89dc64d91"
+    },
+    {
+      "character": {
+        "name": "Toph",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c6ad31b8-d76b-49a8-bfdf-ef5def41fe37"
+    },
+    {
+      "character": {
+        "name": "Airo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "743aa000-2770-4069-accb-d76b9969fdd9"
+    },
+    {
+      "character": {
+        "name": "Azula",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f929cee3-33a5-4b6c-b396-3cd1753a7ca5"
+    },
+    {
+      "character": {
+        "name": "Hakoda",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4dbd652a-acde-4959-87ed-16f0b0a17e87"
+    },
+    {
+      "character": {
+        "name": "Mai",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a43e286d-c292-42ef-be63-0f6646229a47"
+    },
+    {
+      "character": {
+        "name": "Ty Lee",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d80c910c-ac68-4657-b8b1-63e3fd6dc17d"
+    },
+    {
+      "character": {
+        "name": "Roku",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "607fb408-26e8-4276-bfe1-f4f7066e0ca3"
+    },
+    {
+      "character": {
+        "name": "Zhao",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "24f7fda0-f9e4-4b4f-8f21-5258aa22abf4"
+    },
+    {
+      "character": {
+        "name": "Long Feng",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7ba0570a-68be-41d9-b548-66375734f7ac"
+    },
+    {
+      "character": {
+        "name": "Princess Yue",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6bc3e0d4-6215-41fa-9f2b-11dd8334e432"
+    },
+    {
+      "character": {
+        "name": "Suki",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4a373c3e-5e8c-4f7e-a70b-2d7a12b1843b"
+    }
+  ],
+  "duration": {
+    "hours": "20",
+    "minutes": "20"
+  },
+  "releaseDate": "2005-02-01"
+}

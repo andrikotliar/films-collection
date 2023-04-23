@@ -1,0 +1,134 @@
+{
+  "id": "c3dc1e20-9e80-436a-8c91-748313278f2d",
+  "title": "Rogue One",
+  "poster": "rogue_one",
+  "genres": [
+    "SpaceOpera",
+    "Adventures"
+  ],
+  "production": [
+    "Lucasfilm",
+    "Walt Disney Pictures"
+  ],
+  "directedBy": [
+    "Gareth Edwards"
+  ],
+  "producedBy": "Simon Emanuel, Allison Shearmur",
+  "writtenBy": "Chris Weitz, Tony Gilroy",
+  "musicBy": "Michael Giacchino",
+  "cinematographyBy": "Greig Fraser",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.06,
+    "suffix": "billion"
+  },
+  "synopsis": "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans.",
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Director",
+        "Best Special Effects"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "name": "Star Wars Universe"
+    }
+  ],
+  "parts": {
+    "title": "Star Wars Universe",
+    "part": 4
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Jyn Erso",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "96a06c3a-ad8d-4038-b1e5-16d5e62358ba"
+    },
+    {
+      "character": {
+        "name": "Cassian Andor",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "80db9932-125d-4d9e-b05a-4a54c0b61ec8"
+    },
+    {
+      "character": {
+        "name": "K-2SO",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cb96dbad-b822-406b-88fb-6ad38ec6a68b"
+    },
+    {
+      "character": {
+        "name": "Chirrut Imwe",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6f52dafb-bb42-4067-a6ad-03fbc11a20b7"
+    },
+    {
+      "character": {
+        "name": "Baze Malbus",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "dcaa3435-8481-49a6-946e-3953d9582637"
+    },
+    {
+      "character": {
+        "name": "Orson Krennic",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c001e778-8f5f-4626-983c-e492f2a1bb3e"
+    },
+    {
+      "character": {
+        "name": "Governor Tarkin",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "50ad30e3-c95e-4a8c-8d44-3e8a11bd7d45"
+    },
+    {
+      "character": {
+        "name": "Saw Gerrera",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d6966d68-0949-41c0-9414-00b9cecf1f5b"
+    },
+    {
+      "character": {
+        "name": "Galen Erso",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2ff1ac8e-3c81-431d-8718-d44041993b87"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "13"
+  },
+  "releaseDate": "2016-12-01",
+  "trailer": "frdj1zb9sMY"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "5e433756-fcee-4db2-919b-15979e06a1dc",
+  "title": "The Gentlemen",
+  "poster": "gentlemen",
+  "genres": [
+    "Action",
+    "Comedy",
+    "Crime"
+  ],
+  "production": [
+    "STX Films",
+    "Miramax"
+  ],
+  "directedBy": [
+    "Guy Ritchie"
+  ],
+  "producedBy": "Ivan Atkinson, Bill Block, Guy Ritchie",
+  "writtenBy": "Guy Ritchie",
+  "musicBy": "Christopher Benstead",
+  "cinematographyBy": "Alan Stewart",
+  "countries": [
+    "UK",
+    "USA"
+  ],
+  "budget": {
+    "value": 22,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 115,
+    "suffix": "million"
+  },
+  "synopsis": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
+  "collections": [
+    {
+      "name": "Life Story"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Michael Pearson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ec4fdff0-0b03-45c8-bae9-fbb995da70d7"
+    },
+    {
+      "character": {
+        "name": "Ray",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "603ed1ff-a7ff-4794-b304-618562321eef"
+    },
+    {
+      "character": {
+        "name": "Rosalind Pearson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "97fe304d-552d-4739-8331-717017865312"
+    },
+    {
+      "character": {
+        "name": "Matthew",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cf2c42de-d724-4429-ba7a-400828080b47"
+    },
+    {
+      "character": {
+        "name": "Jackie",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "25019183-e7fd-47f8-b063-a7850d1a0352"
+    },
+    {
+      "character": {
+        "name": "Coach",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "764f61a9-ad44-438f-991b-4d769c1b74ef"
+    },
+    {
+      "character": {
+        "name": "Dry Eye",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7d6e9b1f-1201-4937-b87c-43dd1df39b2e"
+    },
+    {
+      "character": {
+        "name": "Lord George",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "605dca42-2934-44c5-9edc-3d6a9addd0b7"
+    },
+    {
+      "character": {
+        "name": "Fletcher",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8bd6fd5a-fca2-4544-8309-7755b2b48424"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "53"
+  },
+  "releaseDate": "2019-12-01",
+  "trailer": "vaN8BtA8OJk"
+}

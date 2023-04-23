@@ -1,0 +1,123 @@
+{
+  "id": "eac23066-3be8-4fde-81f8-7ad97272d1ec",
+  "title": "Ice Age: Dawn of the Dinosaurs",
+  "poster": "ice_age_3",
+  "genres": [
+    "Adventures",
+    "Comedy"
+  ],
+  "production": [
+    "20th Century FOX",
+    "Blue Sky Studios"
+  ],
+  "directedBy": [
+    "Carlos Saldanha"
+  ],
+  "producedBy": "Lori Forte, John C. Donkin",
+  "writtenBy": "Michael Berg, Peter Ackerman, Mike Reiss, Yoni Brenner",
+  "musicBy": "John Powell",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 90,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 886,
+    "suffix": "million"
+  },
+  "synopsis": "When Sid's attempt to adopt three dinosaur eggs gets him abducted by their real mother to an underground lost world, his friends attempt to rescue him.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "parts": {
+    "title": "Ice Age",
+    "part": 3
+  },
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Manny",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0cedcb92-8ff0-48bf-b5c0-ec52c697bf22"
+    },
+    {
+      "character": {
+        "name": "Ellie",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7df3a3a8-41bc-48c4-b88e-35583fe0e3d6"
+    },
+    {
+      "character": {
+        "name": "Diego",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "79d6d23f-2026-4b49-953a-7109e1281bdd"
+    },
+    {
+      "character": {
+        "name": "Sid",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ba1ea1c7-ab0d-4cc7-9574-25c858edd5a3"
+    },
+    {
+      "character": {
+        "name": "Eddie",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "17c1ac34-36e2-4eb9-8c1c-610dd2df1d10"
+    },
+    {
+      "character": {
+        "name": "Buck",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "265bd112-e4bd-4d75-878c-cd5c60d2d034"
+    },
+    {
+      "character": {
+        "name": "Crash",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5e675149-f0be-4160-acbb-8bbcd1227dcc"
+    },
+    {
+      "character": {
+        "name": "Scrat",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ff6cca61-c707-4ae9-98d9-87531ab166ae"
+    },
+    {
+      "character": {
+        "name": "Scratte",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "220494d5-3135-45c8-93e5-5cc6f98ad6de"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "34"
+  },
+  "releaseDate": "2009-07-01",
+  "trailer": "Y_nSwh2WjAM"
+}

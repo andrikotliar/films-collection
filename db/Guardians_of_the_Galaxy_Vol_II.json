@@ -1,0 +1,156 @@
+{
+  "id": "f84b356b-b77f-46cd-83cc-41a6cdc55af9",
+  "title": "Guardians of the Galaxy: Vol. II",
+  "poster": "guardians_of_the_galaxy_2",
+  "genres": [
+    "Sci-Fi",
+    "Comedy"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Marvel Studios"
+  ],
+  "directedBy": [
+    "James Gunn"
+  ],
+  "producedBy": "Kevin Feige",
+  "writtenBy": "James Gunn",
+  "musicBy": "Tyler Bates",
+  "cinematographyBy": "Henry Braham",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 864,
+    "suffix": "million"
+  },
+  "synopsis": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Special Effects"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "name": "Marvel Cinematic Universe"
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 15
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Peter Quill / Star-Lord",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d37a1702-6d76-425e-a1ac-940961feb029"
+    },
+    {
+      "character": {
+        "name": "Gamora",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "23e53bab-62a5-43a6-99a4-f61d68612d7d"
+    },
+    {
+      "character": {
+        "name": "Drax",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "991ea0a4-315d-42f4-8960-4b0c64be1ebd"
+    },
+    {
+      "character": {
+        "name": "Baby Groot",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "81bac581-4158-4bcb-9920-60fd3a93bd6b"
+    },
+    {
+      "character": {
+        "name": "Rocket",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "41614959-9380-45b5-98b7-bad8ea79da1d"
+    },
+    {
+      "character": {
+        "name": "Yondu",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "49943e49-03fd-41fd-99ae-7b37bb231079"
+    },
+    {
+      "character": {
+        "name": "Nebula",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0e1ceaa6-d248-427b-b2bf-89480f17a7c3"
+    },
+    {
+      "character": {
+        "name": "Mantis",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8d6da9e7-1e45-46a6-ad6b-515674377935"
+    },
+    {
+      "character": {
+        "name": "Stakar Ogord",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f1d22857-607e-424d-a340-aa576ca72da7"
+    },
+    {
+      "character": {
+        "name": "Ego",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0b277102-e940-47e1-9be6-f9e118dd94ba"
+    },
+    {
+      "character": {
+        "name": "Ayesha",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "607fd22b-9746-4ab2-8a30-57ec3f84bf2c"
+    },
+    {
+      "character": {
+        "name": "Taserface",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "01bf1d06-deb1-422c-9967-9e3e9bac6c23"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "17"
+  },
+  "releaseDate": "2017-04-01",
+  "trailer": "wUn05hdkhjM"
+}

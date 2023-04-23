@@ -1,0 +1,125 @@
+{
+  "id": "46d3ea23-1105-417e-abe7-60185be8b9d1",
+  "title": "TENET",
+  "poster": "tenet",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Warner Bros. Pictures",
+    "Syncopy"
+  ],
+  "directedBy": [
+    "Christopher Nolan"
+  ],
+  "producedBy": "Christopher Nolan, Emma Thomas, Andy Thompson",
+  "writtenBy": "Christopher Nolan",
+  "musicBy": "Ludwig Göransson",
+  "cinematographyBy": "Hoyte Van Hoytema",
+  "countries": [
+    "USA",
+    "UK"
+  ],
+  "budget": {
+    "value": 205,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 364,
+    "suffix": "million"
+  },
+  "synopsis": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+  "collections": [
+    {
+      "name": "Future"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Achievement in Visual Effects"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Achievement in Special Visual Effects"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Visual Effects"
+      ]
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Protagonist",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "fa9a3c62-e627-4e1d-846f-0728ae4113db"
+    },
+    {
+      "character": {
+        "name": "Neil",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "547ee4a9-1f12-4d6a-98c2-34cf5c5a3774"
+    },
+    {
+      "character": {
+        "name": "Katherine Barton",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "607fd22b-9746-4ab2-8a30-57ec3f84bf2c"
+    },
+    {
+      "character": {
+        "name": "Priya",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "74b3f292-ab32-4bdf-9d45-cc00e684ff86"
+    },
+    {
+      "character": {
+        "name": "Fay",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4c505178-8b21-44d7-8c0b-0dbc9c6ec0e8"
+    },
+    {
+      "character": {
+        "name": "Wheeler",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "29127659-382b-4890-bdc7-2f184b66b868"
+    },
+    {
+      "character": {
+        "name": "Andrei Sator",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f1350936-4678-4bfa-9cc6-334a4fcaf567"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "30"
+  },
+  "releaseDate": "2020-08-01",
+  "trailer": "AZGcmvrTX9M"
+}

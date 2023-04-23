@@ -1,0 +1,175 @@
+{
+  "id": "dfbec318-f2d0-45ce-93a8-417a2c05bb42",
+  "title": "Inception",
+  "poster": "inception",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Warner Bros. Pictures",
+    "Legendary"
+  ],
+  "directedBy": [
+    "Christopher Nolan"
+  ],
+  "producedBy": "Emma Thomas, Christopher Nolan",
+  "writtenBy": "Christopher Nolan",
+  "musicBy": "Hans Zimmer",
+  "cinematographyBy": "Wally Pfister",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 160,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 828,
+    "suffix": "million"
+  },
+  "synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+  "collections": [
+    {
+      "name": "Future"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Achievement in Cinematography",
+        "Best Achievement in Sound Mixing",
+        "Best Achievement in Sound Editing",
+        "Best Achievement in Visual Effects"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Production Design",
+        "Best Sound",
+        "Best Special Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Director",
+        "Best Writing",
+        "Best Music",
+        "Best Special Effects"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Scared-As-Shit Performance",
+        "Breakthrough Male Performance"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Cinematography",
+        " Best Art Direction",
+        "Best Editing",
+        "Best Visual Effects",
+        "Best Sound",
+        "Best Action Movie"
+      ]
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Cobb",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "56319b1e-c751-4b08-a79d-508cf7460c03"
+    },
+    {
+      "character": {
+        "name": "Arthur",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4e666ef9-06a3-4372-8684-71aca1713d6b"
+    },
+    {
+      "character": {
+        "name": "Ariadne",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e329dda6-a5c4-4427-bf93-16bb46e8e96f"
+    },
+    {
+      "character": {
+        "name": "Eames",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ae102061-d333-4298-b22b-bde9e0bf110f"
+    },
+    {
+      "character": {
+        "name": "Saito",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6f94fc62-df6a-4f98-82ac-763cf52690df"
+    },
+    {
+      "character": {
+        "name": "Yusuf",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a100d861-9f61-4e77-b399-e256bef3f502"
+    },
+    {
+      "character": {
+        "name": "Robert Fischer",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9a91c941-d1d1-4514-9eb1-c4a27bbe9cce"
+    },
+    {
+      "character": {
+        "name": "Browning",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3529a97e-e07f-44a0-9770-39eed6df4a93"
+    },
+    {
+      "character": {
+        "name": "Mal",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "48f24be3-c558-4de3-b745-1b21538e4437"
+    },
+    {
+      "character": {
+        "name": "Miles",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "87d38720-3045-4fad-9302-75ddc6e847d1"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "28"
+  },
+  "releaseDate": "2010-07-01",
+  "trailer": "YoHD9XEInc0"
+}

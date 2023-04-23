@@ -1,0 +1,166 @@
+{
+  "id": "e054965b-cb78-4c6c-8bb0-afe7b8516f75",
+  "title": "Spider-Man: Into the Spider-Verse",
+  "poster": "spiderman_intospiderverse",
+  "genres": [
+    "Action",
+    "Adventures"
+  ],
+  "production": [
+    "Sony Pictures Animation",
+    "Columbia Pictures",
+    "Marvel Entertainment"
+  ],
+  "directedBy": [
+    "Bob Persichetti",
+    "Peter Ramsey",
+    "Rodney Rothman"
+  ],
+  "producedBy": "Avi Arad, Amy Pascal, Phil Lord , Christopher Miller, Christina Steinberg",
+  "writtenBy": "Phil Lord, Rodney Rothman",
+  "musicBy": "Daniel Pemberton",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 90,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 371,
+    "suffix": "million"
+  },
+  "synopsis": "Teen Miles Morales becomes Spider-Man of his reality, crossing his path with five counterparts from other dimensions to stop a threat for all realities.",
+  "collections": [
+    {
+      "name": "Superheroes"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Animated Feature Film"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Animated Film"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Animated Feature"
+      ]
+    }
+  ],
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Miles Morales",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f77b054a-0abb-449e-bf33-4f77b5f71375"
+    },
+    {
+      "character": {
+        "name": "Peter B. Parker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ba27009e-efb1-4811-9ac7-4bf64152918a"
+    },
+    {
+      "character": {
+        "name": "Gwen Stacy",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1a9d8258-5634-4990-bb53-f0262f587084"
+    },
+    {
+      "character": {
+        "name": "Uncle Aaron",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ee6f8993-13d0-4a0b-ba97-1cd08b0428d8"
+    },
+    {
+      "character": {
+        "name": "Jefferson Davis",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "353aff48-04c0-427e-a670-6fbc3a861d16"
+    },
+    {
+      "character": {
+        "name": "Aunt May",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "854e27fb-78d8-4190-8e7e-a608bf44451c"
+    },
+    {
+      "character": {
+        "name": "Rio Morales",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "dd599f28-e6b0-4016-a815-7b1eb388043b"
+    },
+    {
+      "character": {
+        "name": "Mary Jane",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d0581330-d8c7-4ae3-b638-7aabb28cdfa4"
+    },
+    {
+      "character": {
+        "name": "Spider-Ham",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "24a25753-bf24-4b01-a46b-ed1bc975355b"
+    },
+    {
+      "character": {
+        "name": "Peni Parker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9fe90b2d-6633-43b2-9cbb-5dd8ed7eb2a3"
+    },
+    {
+      "character": {
+        "name": "Spider-Man Noir",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "155db7cd-d010-42ad-9041-58afc680fb53"
+    },
+    {
+      "character": {
+        "name": "Wilson Fisk",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7259af6b-8864-4412-b9dd-41cfa1643304"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "57"
+  },
+  "releaseDate": "2018-12-01",
+  "trailer": "g4Hbz2jLxvQ"
+}

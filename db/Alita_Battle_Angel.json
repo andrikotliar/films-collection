@@ -1,0 +1,103 @@
+{
+  "id": "e73f1133-843f-41ea-b02c-396bbedf0287",
+  "title": "Alita: Battle Angel",
+  "poster": "alita",
+  "genres": [
+    "Cyberpunk",
+    "Action"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "directedBy": [
+    "Robert Rodriguez"
+  ],
+  "producedBy": "James Cameron, Jon Landau",
+  "writtenBy": "James Cameron, Laeta Kalogridis",
+  "musicBy": "Tom Holkenborg",
+  "cinematographyBy": "Bill Pope",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 170,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 400,
+    "suffix": "million"
+  },
+  "synopsis": "A deactivated female cyborg is revived, but cannot remember anything of her past life and goes on a quest to find out who she is.",
+  "collections": [
+    {
+      "name": "Robots"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Alita",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5b44c88a-eaff-4f50-b93c-77a8b827c304"
+    },
+    {
+      "character": {
+        "name": "Dr. Dyson Ido",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "17e03e5c-eb3d-4ae2-a610-18376982a16f"
+    },
+    {
+      "character": {
+        "name": "Chiren",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6976c976-f48d-404b-b408-712ed62cd091"
+    },
+    {
+      "character": {
+        "name": "Vector",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ee6f8993-13d0-4a0b-ba97-1cd08b0428d8"
+    },
+    {
+      "character": {
+        "name": "Zapan",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9aff6ed4-7d6d-4fdb-bed3-91fde0c016fc"
+    },
+    {
+      "character": {
+        "name": "Grewishka",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4f6f6835-3d39-472b-a0db-985afffb3e9a"
+    },
+    {
+      "character": {
+        "name": "Hugo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "463da174-5a39-4d4d-bfb4-2562faf587a6"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "02"
+  },
+  "releaseDate": "2019-02-01",
+  "trailer": "w7pYhpJaJW8"
+}

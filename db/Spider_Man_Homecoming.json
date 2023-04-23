@@ -1,0 +1,132 @@
+{
+  "id": "98851616-954d-4785-a9c8-8bc40b739837",
+  "title": "Spider-Man: Homecoming",
+  "poster": "mcu_spider_man_1",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Marvel Studios"
+  ],
+  "directedBy": [
+    "Jon Watts"
+  ],
+  "producedBy": "Kevin Feige, Amy Pascal",
+  "writtenBy": "Jonathan Goldstein, John Francis Daley, Jon Watts, Christopher Ford",
+  "musicBy": "Michael Giacchino",
+  "cinematographyBy": "Salvatore Totino",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 175,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 880,
+    "suffix": "million"
+  },
+  "synopsis": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Performance by a Younger Actor"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "name": "Marvel Cinematic Universe"
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 16
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Adrian Toomes / Vulture",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bc56268b-56b9-482c-8883-55fc4825a213"
+    },
+    {
+      "character": {
+        "name": "Peter Parker / Spider-Man",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f70d14d5-2f1a-46a1-8462-bdf6fc18141a"
+    },
+    {
+      "character": {
+        "name": "Tony Stark / Iron Man",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e"
+    },
+    {
+      "character": {
+        "name": "May Parker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1044cb86-56b7-4895-bef0-c7fe6683dcd9"
+    },
+    {
+      "character": {
+        "name": "Happy Hogan",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d8678c6b-5c51-4775-99ea-aebeb97a28e8"
+    },
+    {
+      "character": {
+        "name": "Pepper Potts",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "21b0cc1a-55c6-40a0-88c4-aafcf510b3e4"
+    },
+    {
+      "character": {
+        "name": "Michelle",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c8eeb8d9-51c3-4833-a31d-ec18431eaf71"
+    },
+    {
+      "character": {
+        "name": "Aaron Davis",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "92196f4f-16de-4bed-a866-1c871f78fafa"
+    },
+    {
+      "character": {
+        "name": "Ned",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "986607c1-944b-4d3e-a059-9530f848549b"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "13"
+  },
+  "releaseDate": "2017-06-01",
+  "trailer": "n9DwoQ7HWvI"
+}

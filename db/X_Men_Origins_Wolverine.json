@@ -1,0 +1,124 @@
+{
+  "id": "fc2c9d32-e68d-4317-9cd9-0c68eb2c6361",
+  "title": "X-Men Origins: Wolverine",
+  "poster": "x_men_4",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "20th Century FOX",
+    "Marvel Entertainment"
+  ],
+  "directedBy": [
+    "Gavin Hood"
+  ],
+  "producedBy": "Lauren Shuler Donner, Ralph Winter, Hugh Jackman",
+  "writtenBy": "David Benioff, Skip Woods",
+  "musicBy": "Harry Gregson-Williams",
+  "cinematographyBy": "Donald McAlpine",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 373,
+    "suffix": "million"
+  },
+  "synopsis": "The early years of James Logan, featuring his rivalry with his brother Victor Creed, his service in the special forces team Weapon X, and his experimentation into the metal-lined mutant Wolverine.",
+  "collections": [
+    {
+      "name": "Superheroes"
+    }
+  ],
+  "parts": {
+    "title": "X-Men",
+    "part": 4
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Logan / Wolverine",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3e2db4d6-df90-4736-9425-c1fd062d8868"
+    },
+    {
+      "character": {
+        "name": "Victor Creed",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7259af6b-8864-4412-b9dd-41cfa1643304"
+    },
+    {
+      "character": {
+        "name": "Stryker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "23d4382f-11e9-4c09-8d87-ea2599774bde"
+    },
+    {
+      "character": {
+        "name": "John Wraith",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0e1744cf-7faa-4b79-bfc2-35c86bb31399"
+    },
+    {
+      "character": {
+        "name": "Kayla Silverfox",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "316a6839-9613-499d-8a13-b736d251a08a"
+    },
+    {
+      "character": {
+        "name": "Fred Dukes",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a19ebdf4-6120-4ec4-9227-97bb86e782ad"
+    },
+    {
+      "character": {
+        "name": "Chris Bradley / Bolt",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "45bb2b5f-7072-45c8-9600-1ddb618c7979"
+    },
+    {
+      "character": {
+        "name": "Remy LeBeau",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "dabd6cd8-7f8f-4c22-912e-8437f68ba7a6"
+    },
+    {
+      "character": {
+        "name": "Wade Wilson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7852b668-f0a2-4286-bb6e-799072cea4b8"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "47"
+  },
+  "releaseDate": "2009-04-01",
+  "trailer": "QojV7s3UTu0"
+}

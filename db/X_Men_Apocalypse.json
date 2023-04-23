@@ -1,0 +1,148 @@
+{
+  "id": "cc9b2203-2dc1-488b-81cf-d9ac0e1f77c1",
+  "title": "X-Men: Apocalypse",
+  "poster": "x_men_7",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "20th Century FOX",
+    "Marvel Entertainment"
+  ],
+  "directedBy": [
+    "Bryan Singer"
+  ],
+  "producedBy": "Lauren Shuler Donner, Bryan Singer",
+  "writtenBy": "Simon Kinberg",
+  "musicBy": "John Ottman",
+  "cinematographyBy": "Newton Thomas Sigel",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 178,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 544,
+    "suffix": "million"
+  },
+  "synopsis": "In the 1980s the X-Men must defeat an ancient all-powerful mutant, En Sabah Nur, who intends to thrive through bringing destruction to the world.",
+  "collections": [
+    {
+      "name": "Superheroes"
+    }
+  ],
+  "parts": {
+    "title": "X-Men",
+    "part": 8
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Professor Charles Xavier",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8f4897bf-8957-47f7-9b1c-fe4616205de6"
+    },
+    {
+      "character": {
+        "name": "Erik Lehnsherr / Magneto",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5e9cb45b-f3f1-435b-9a3d-d0b2b3963899"
+    },
+    {
+      "character": {
+        "name": "Raven / Mystique",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "29b99567-4a10-4246-9bb2-26b55a9c1e63"
+    },
+    {
+      "character": {
+        "name": "Hank McCoy / Beast",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e71b81b3-8c4f-447d-97a8-56d5a976750d"
+    },
+    {
+      "character": {
+        "name": "En Sabah Nur / Apocalypse",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6322247a-311c-414e-a2ce-e5f658811569"
+    },
+    {
+      "character": {
+        "name": "Moira Mactaggert",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d13324bf-abf5-4e5c-85f0-b9f99e6127d5"
+    },
+    {
+      "character": {
+        "name": "Peter Maximoff / Quicksilver",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f6b8c58c-dcea-4558-bf16-7eebf6146faf"
+    },
+    {
+      "character": {
+        "name": "Col. William Stryker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "75efe03b-52d1-4a7d-ab0d-56c71daa7c02"
+    },
+    {
+      "character": {
+        "name": "Jean Grey",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "612f44c9-8b67-47b0-9faf-e2df202c7842"
+    },
+    {
+      "character": {
+        "name": "Scott Summers / Cyclops",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8ed4060f-04cd-4a2f-8006-6198159b22d0"
+    },
+    {
+      "character": {
+        "name": "Alex Summers / Havok",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "273890bf-eac3-4493-a7e6-4db9ebab017f"
+    },
+    {
+      "character": {
+        "name": "Kurt Wagner / Nightcrawler",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "852a50e9-5001-4823-a658-384d34594f37"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "24"
+  },
+  "releaseDate": "2016-05-01",
+  "trailer": "Jer8XjMrUB4"
+}

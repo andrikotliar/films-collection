@@ -1,0 +1,115 @@
+{
+  "id": "648dab46-2bd5-4daa-820b-7d8f05237f63",
+  "title": "The Librarian: Quest for the Spear",
+  "poster": "librarian_1",
+  "genres": [
+    "Adventures",
+    "Fantasy"
+  ],
+  "production": [
+    "TNT"
+  ],
+  "directedBy": [
+    "Peter Winther"
+  ],
+  "producedBy": "Phillip M. Goldfarb, Gary Hamilton",
+  "writtenBy": "David Titcher",
+  "musicBy": "Joseph LoDuca",
+  "cinematographyBy": "Alan Caso",
+  "countries": [
+    "USA"
+  ],
+  "synopsis": "A bookworm becomes the librarian. Same night a magical spear gets stolen and he's off to get some real life experience around the globe on his quest for the spear - starting with being thrown off a plane over Amazonas by his cute helper.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "parts": {
+    "title": "The Librarian",
+    "part": 1
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Flynn Carsen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "521e92a5-04cd-432b-80b8-fe1331ee58a6"
+    },
+    {
+      "character": {
+        "name": "Nicole Noone",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "39a3e51c-6bba-4b8e-aee4-ee6ed9a9f5f6"
+    },
+    {
+      "character": {
+        "name": "Judson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2d3f746c-e37d-4f12-a139-d8463dc71b66"
+    },
+    {
+      "character": {
+        "name": "Edward Wilde",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5c3e83db-6012-4ef0-9710-a99a5e19baca"
+    },
+    {
+      "character": {
+        "name": "Lana",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c43955ec-2f50-493a-8a07-2b0be231c142"
+    },
+    {
+      "character": {
+        "name": "Rhodes",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "979c25b0-31bd-44fb-88e4-e31bf1cf100d"
+    },
+    {
+      "character": {
+        "name": "Charlene",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b50126e9-325b-4406-9164-dfe7ef882acc"
+    },
+    {
+      "character": {
+        "name": "Margie Carsen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3edb4170-5178-4fb8-aa43-27b2cafbe82a"
+    },
+    {
+      "character": {
+        "name": "Debra",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0aeb0252-6ba9-4897-a50d-589d6a3f50ad"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "30"
+  },
+  "releaseDate": "2004-12-01",
+  "trailer": "_LsPz8vCULE"
+}

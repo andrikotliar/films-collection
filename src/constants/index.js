@@ -1,0 +1,1 @@
+export { imageFallbacks } from './imageFallbacks';

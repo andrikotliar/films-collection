@@ -1,0 +1,111 @@
+{
+  "id": "2315a1c7-9826-4874-8bba-1f876a92fd79",
+  "title": "The Fifth Element",
+  "poster": "fifth_element",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Columbia Pictures"
+  ],
+  "directedBy": [
+    "Luc Besson"
+  ],
+  "producedBy": "Patrice Ledoux",
+  "writtenBy": "Luc Besson, Robert Mark Kamen",
+  "musicBy": "Éric Serra",
+  "cinematographyBy": "Thierry Arbogast",
+  "countries": [
+    "France"
+  ],
+  "budget": {
+    "value": 90,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 264,
+    "suffix": "million"
+  },
+  "synopsis": "In the colorful future, a cab driver unwittingly becomes the central figure in the search for a legendary cosmic weapon to keep Evil and Mr. Zorg at bay.",
+  "collections": [
+    {
+      "name": "Disaster"
+    }
+  ],
+  "awards": [
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Special Effects"
+      ]
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Korben Dallas",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b03d89c8-9a50-4242-bf37-a2f0bd583ab7"
+    },
+    {
+      "character": {
+        "name": "Zorg",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0b0a40d3-1976-4f41-b8b1-1a86e37042ea"
+    },
+    {
+      "character": {
+        "name": "Cornelius",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e9964030-afa3-42d4-ab91-9c1fd7c0f177"
+    },
+    {
+      "character": {
+        "name": "Leeloo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "94640caf-d5dd-45d4-909d-5d68b4021e89"
+    },
+    {
+      "character": {
+        "name": "Ruby Rhod",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9b78bf8e-3237-4a4f-8e0f-7ba1aa9a849d"
+    },
+    {
+      "character": {
+        "name": "Billy",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ee818353-0555-44e4-bc83-842e5b23543c"
+    },
+    {
+      "character": {
+        "name": "General Munro",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4cda1852-cf79-4fbe-93e8-712fe56ba2e4"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "06"
+  },
+  "releaseDate": "1997-05-01",
+  "trailer": "fQ9RqgcR24g"
+}

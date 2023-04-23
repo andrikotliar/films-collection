@@ -1,0 +1,143 @@
+{
+  "id": "cf9b51db-05e2-4477-809c-fb9f644553f9",
+  "title": "Star Wars Episode VI: Return of the Jedi",
+  "poster": "star_wars_episode_VI",
+  "genres": [
+    "SpaceOpera",
+    "Adventures"
+  ],
+  "production": [
+    "20th Century FOX",
+    "Lucasfilm"
+  ],
+  "directedBy": [
+    "Richard Marquand"
+  ],
+  "producedBy": "Howard Kazanjian",
+  "writtenBy": "George Lucas, Lawrence Kasdan",
+  "musicBy": "John Williams",
+  "cinematographyBy": "Alan Hume",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 32,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 573,
+    "suffix": "million"
+  },
+  "synopsis": "After a daring mission to rescue Han Solo from Jabba the Hutt, the rebels dispatch to Endor to destroy a more powerful Death Star. Meanwhile, Luke struggles to help Vader back from the dark side without falling into the Emperor's trap.",
+  "awards": [
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Special Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best DVD Collection",
+        "Best Science Fiction Film",
+        "Best Actor",
+        "Best Costumes",
+        "Best Make-Up",
+        "Best Special Effects"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "name": "Star Wars Universe"
+    }
+  ],
+  "parts": {
+    "title": "Star Wars Universe",
+    "part": 8
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Luke Skywalker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4ff433ee-f363-4b38-8332-62b5ffece7dd"
+    },
+    {
+      "character": {
+        "name": "Han Solo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80"
+    },
+    {
+      "character": {
+        "name": "Leia",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3b974652-594d-4835-b73b-a497a2c849f9"
+    },
+    {
+      "character": {
+        "name": "Lando Calrissian",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "986b8275-a080-40bd-9ba8-afebee2973c8"
+    },
+    {
+      "character": {
+        "name": "C-3PO",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ee52d40c-12c0-417d-a413-491b049e76c3"
+    },
+    {
+      "character": {
+        "name": "Darth Vader",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4e9f83a6-617f-441f-b2a8-d030470d53a1"
+    },
+    {
+      "character": {
+        "name": "Chewbacca",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b8f8ccea-b603-4414-8cf3-0d64cea77c19"
+    },
+    {
+      "character": {
+        "name": "R2-D2",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "373e6326-e3e5-4084-86cf-b2eb743441e0"
+    },
+    {
+      "character": {
+        "name": "Yoda",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "11e3cf6a-7cbb-46ab-a58b-681d70c0d69c"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "11"
+  },
+  "releaseDate": "1983-05-01",
+  "trailer": "5UfA_aKBGMc"
+}

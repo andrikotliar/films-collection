@@ -1,0 +1,170 @@
+{
+  "id": "a37be58d-7f0d-4ca6-9d8d-27fcdf3756a2",
+  "title": "Transformers",
+  "poster": "transformers_1",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "DreamWorks Pictures",
+    "Paramount Pictures"
+  ],
+  "directedBy": [
+    "Michael Bay"
+  ],
+  "producedBy": "Lorenzo di Bonaventura, Tom DeSanto, Don Murphy, Ian Bryce",
+  "writtenBy": "Roberto Orci, Alex Kurtzman",
+  "musicBy": "Steve Jablonsky",
+  "cinematographyBy": "Mitchell Amundsen",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 710,
+    "suffix": "million"
+  },
+  "synopsis": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
+  "collections": [
+    {
+      "name": "Robots"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Special Effects"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Movie"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Transformers",
+    "part": 2
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Sam Witwicky",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0eac0045-e7d9-4f55-9bf5-4347b6447417"
+    },
+    {
+      "character": {
+        "name": "Mikaela Banes",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9e62046b-4fe8-4f6d-914e-3d617619aa2d"
+    },
+    {
+      "character": {
+        "name": "Captain Lennox",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "669ffd1c-6e00-4943-9ce9-80e98fba3b3f"
+    },
+    {
+      "character": {
+        "name": "Epps",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d590cae8-3171-41ca-968c-1bbb1b425aa8"
+    },
+    {
+      "character": {
+        "name": "Maggie Madsen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5f63721f-5453-4eaa-90e8-1126abe4fc56"
+    },
+    {
+      "character": {
+        "name": "Glen Whitmann",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "257c70ba-4a56-4995-850e-c1ac6acc0be9"
+    },
+    {
+      "character": {
+        "name": "John Keller",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c9993d00-ed24-41d2-9bb7-d6eb83a33525"
+    },
+    {
+      "character": {
+        "name": "Agent Simmons",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3bd0ee3c-2afa-40de-8aac-ed75222a14dd"
+    },
+    {
+      "character": {
+        "name": "Optimus Prime",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9174c001-6bed-4c51-910d-5caa6063f8a0"
+    },
+    {
+      "character": {
+        "name": "Bumblebee",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0bce2c34-01fe-4dd9-8c5d-aa437e3a500b"
+    },
+    {
+      "character": {
+        "name": "Megatron",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
+    },
+    {
+      "character": {
+        "name": "Frenzy",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "457b4ec9-55fc-4adb-8e0b-0b5325aa62cb"
+    },
+    {
+      "character": {
+        "name": "Starscream",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "fa53192b-857e-4a61-8a2e-bce0427f750c"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "23"
+  },
+  "releaseDate": "2007-07-01",
+  "trailer": "dxQxgAfNzyE"
+}

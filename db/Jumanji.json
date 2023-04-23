@@ -1,0 +1,123 @@
+{
+  "id": "3f08bb54-2e49-4404-9642-ad019b2f16e4",
+  "title": "Jumanji",
+  "poster": "jumanji_1",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "production": [
+    "TriStar"
+  ],
+  "directedBy": [
+    "Joe Johnston"
+  ],
+  "producedBy": "Scott Kroopf, William Teitler",
+  "writtenBy": "Greg Taylor, Jonathan Hensleigh, Jim Strain",
+  "musicBy": "James Horner",
+  "cinematographyBy": "Thomas E. Ackerman",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 65,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 263,
+    "suffix": "million"
+  },
+  "synopsis": "When two kids find and play a magical board game, they release a man trapped for decades in it and a host of dangers that can only be stopped by finishing the game.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Supporting Actress"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Jumanji",
+    "part": 1
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Alan Parrish",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9b0a7320-fca2-4be3-80a2-5d8e534860ae"
+    },
+    {
+      "character": {
+        "name": "Van Pelt / Sam Parrish",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "81d9cfc0-ff46-4769-bf31-4867f4a04980"
+    },
+    {
+      "character": {
+        "name": "Judy Shepherd",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "35104a4f-627b-4c95-a2b5-09ab0b0a617b"
+    },
+    {
+      "character": {
+        "name": "Peter Shepherd",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "fc131120-673f-4600-9bf6-c3e4adf99feb"
+    },
+    {
+      "character": {
+        "name": "Sarah Whittle",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9479f4b0-ea14-4538-a020-ce3c28467a95"
+    },
+    {
+      "character": {
+        "name": "Nora Shepherd",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "89bdd244-c260-4c15-90c2-851ea009709f"
+    },
+    {
+      "character": {
+        "name": "Bentley",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d20fb7d9-6d7d-4a58-b41d-e553c84c145b"
+    },
+    {
+      "character": {
+        "name": "Carol Parrish",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c6e174c6-5cb9-422a-950e-8452d99b4d2c"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "44"
+  },
+  "releaseDate": "1995-12-01",
+  "trailer": "5p18zqZmeiI"
+}

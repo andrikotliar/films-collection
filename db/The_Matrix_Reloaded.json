@@ -1,0 +1,132 @@
+{
+  "id": "5e48d2a2-2aa4-411d-aa03-a90a88465ffb",
+  "title": "The Matrix Reloaded",
+  "poster": "matrix_2",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Warner Bros. Pictures"
+  ],
+  "directedBy": [
+    "The Wachowski Brothers"
+  ],
+  "producedBy": "Joel Silver",
+  "writtenBy": "The Wachowski Brothers",
+  "musicBy": "Don Davis",
+  "cinematographyBy": "Bill Pope",
+  "countries": [
+    "USA",
+    "Australia"
+  ],
+  "budget": {
+    "value": 127,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 742,
+    "suffix": "million"
+  },
+  "synopsis": "Neo and the rebel leaders estimate that they have 72 hours until 250,000 probes discover Zion and destroy it and its inhabitants. During this, Neo must decide how he can save Trinity from a dark fate in his dreams.",
+  "collections": [
+    {
+      "name": "Future"
+    }
+  ],
+  "parts": {
+    "title": "The Matrix",
+    "part": 2
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Neo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7543d97c-88d9-4319-8f10-1bc00f84b0e9"
+    },
+    {
+      "character": {
+        "name": "Morpheus",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d5cfb42e-818e-43cf-9840-f842bc4579e6"
+    },
+    {
+      "character": {
+        "name": "Trinity",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ce8cfc76-f7db-469e-bf79-0800723c1fc5"
+    },
+    {
+      "character": {
+        "name": "Agent Smith",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
+    },
+    {
+      "character": {
+        "name": "Oracle",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "86ce9437-91e5-459f-a4b5-a6480fafd5fe"
+    },
+    {
+      "character": {
+        "name": "Niobe",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9e504ddc-91b4-45c1-a321-c5e7f40999d9"
+    },
+    {
+      "character": {
+        "name": "Persephone",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8aea760a-2908-4b92-bccd-bf3298cf7883"
+    },
+    {
+      "character": {
+        "name": "The Merovaiingian",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "aa46add4-3960-45c1-a095-07dceb470026"
+    },
+    {
+      "character": {
+        "name": "The Keymaker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "39a6e64f-3733-4983-8bce-067363fb8fc0"
+    },
+    {
+      "character": {
+        "name": "The Architect",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "abf2d958-a84e-4617-8ea2-9068868b3e81"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "18"
+  },
+  "releaseDate": "2003-05-01",
+  "trailer": "kYzz0FSgpSU"
+}

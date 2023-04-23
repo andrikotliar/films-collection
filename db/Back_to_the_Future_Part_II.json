@@ -1,0 +1,99 @@
+{
+  "id": "d7d4d358-01c5-400f-98bf-d94bc4808ee9",
+  "title": "Back to the Future: Part II",
+  "poster": "back_to_the_future_2",
+  "genres": [
+    "Sci-Fi",
+    "Adventures"
+  ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "directedBy": [
+    "Robert Zemeckis"
+  ],
+  "producedBy": "Bob Gale, Neil Canton",
+  "writtenBy": "Bob Gale",
+  "musicBy": "Alan Silvestri",
+  "cinematographyBy": "Dean Cundey",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 40,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 332,
+    "suffix": "million"
+  },
+  "synopsis": "After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip.",
+  "collections": [
+    {
+      "name": "Legends"
+    }
+  ],
+  "awards": [
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Special Effects"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Back to the Future",
+    "part": 2
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Marty McFly",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1864f0e9-50d2-42b5-ac38-5086f6cae1da"
+    },
+    {
+      "character": {
+        "name": "Dr. Emmett Brown",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e77d7157-1cfb-4afd-8aaa-dacbe0e31488"
+    },
+    {
+      "character": {
+        "name": "Lorraine Baines",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "506a9a1b-e7b1-4bd5-93f3-8bf93eb9adee"
+    },
+    {
+      "character": {
+        "name": "George McFly",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "88a304c8-0c7f-4308-9e3f-9c06ba5fcaf0"
+    },
+    {
+      "character": {
+        "name": "Biff Tannen / Griff Tannen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a85784f1-b798-4b6f-879e-8d89c5d6b369"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "48"
+  },
+  "releaseDate": "1989-03-01",
+  "trailer": "MdENmefJRpw"
+}

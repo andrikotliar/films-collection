@@ -1,0 +1,164 @@
+{
+  "id": "8a9fc3da-8308-46b3-a0b5-e407939715da",
+  "title": "The Dark Knight Rises",
+  "poster": "batman_3",
+  "genres": [
+    "Action",
+    "Thriller"
+  ],
+  "production": [
+    "Warner Bros. Pictures",
+    "Legendary"
+  ],
+  "directedBy": [
+    "Christopher Nolan"
+  ],
+  "producedBy": "Charles Roven, Emma Thomas, Christopher Nolan",
+  "writtenBy": "Christopher Nolan, Jonathan Nolan",
+  "musicBy": "Hans Zimmer",
+  "cinematographyBy": "Wally Pfister",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 250,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.08,
+    "suffix": "billion"
+  },
+  "synopsis": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City, now on the edge of total annihilation, from the brutal guerrilla terrorist Bane.",
+  "collections": [
+    {
+      "name": "Superheroes"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Supporting Actress"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Dark Knight",
+    "part": 3
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Bruce Wayne",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6900c450-d6ad-4f62-8af7-d8398a1b6f77"
+    },
+    {
+      "character": {
+        "name": "Commissioner Gordon",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0b0a40d3-1976-4f41-b8b1-1a86e37042ea"
+    },
+    {
+      "character": {
+        "name": "Bane",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ae102061-d333-4298-b22b-bde9e0bf110f"
+    },
+    {
+      "character": {
+        "name": "Blake",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4e666ef9-06a3-4372-8684-71aca1713d6b"
+    },
+    {
+      "character": {
+        "name": "Selina",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2f4125f0-fe12-41dd-88d7-0cb4582d5f1f"
+    },
+    {
+      "character": {
+        "name": "Miranda",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "48f24be3-c558-4de3-b745-1b21538e4437"
+    },
+    {
+      "character": {
+        "name": "Fox",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "768ac83c-1206-4dd2-87f4-fd0550f8492b"
+    },
+    {
+      "character": {
+        "name": "Alfred",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "87d38720-3045-4fad-9302-75ddc6e847d1"
+    },
+    {
+      "character": {
+        "name": "Foley",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "104dc564-1273-4cee-8228-6ebddfad5506"
+    },
+    {
+      "character": {
+        "name": "Dr. Pavel",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a19386c5-f8cd-45fb-a26a-bdfab67da198"
+    },
+    {
+      "character": {
+        "name": "Daggett",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c001e778-8f5f-4626-983c-e492f2a1bb3e"
+    },
+    {
+      "character": {
+        "name": "Stryver",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c43b96b4-bcc3-4de4-828c-2fc051732d87"
+    },
+    {
+      "character": {
+        "name": "Captain Jones",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "938fae8e-6b9d-4be6-8c10-2123031c43e1"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "45"
+  },
+  "releaseDate": "2012-07-01",
+  "trailer": "GokKUqLcvD8"
+}

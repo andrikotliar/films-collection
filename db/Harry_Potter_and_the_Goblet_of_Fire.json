@@ -1,0 +1,132 @@
+{
+  "id": "18ed6ab9-3df2-4709-8ef9-4e6ab6de9761",
+  "title": "Harry Potter and the Goblet of Fire",
+  "poster": "harry_potter_4",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "production": [
+    "Warner Bros. Pictures"
+  ],
+  "directedBy": [
+    "Mike Newell"
+  ],
+  "producedBy": "David Heyman",
+  "writtenBy": "Steve Kloves",
+  "musicBy": "Patrick Doyle",
+  "cinematographyBy": "Roger Pratt",
+  "countries": [
+    "USA",
+    "UK"
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 897,
+    "suffix": "illionm"
+  },
+  "synopsis": "A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
+  "awards": [
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Production Design"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "name": "Harry Potter Universe"
+    }
+  ],
+  "parts": {
+    "title": "Harry Potter Universe",
+    "part": 6
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Harry Potter",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5751927d-1246-41af-a9f4-8c311e285cc7"
+    },
+    {
+      "character": {
+        "name": "Ron Weasley",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2ff23ded-97b8-4419-8b72-ca8197566240"
+    },
+    {
+      "character": {
+        "name": "Hermione Granger",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ee7c306c-c255-4f94-bf24-8d843c2b352b"
+    },
+    {
+      "character": {
+        "name": "Cedric Diggory",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "547ee4a9-1f12-4d6a-98c2-34cf5c5a3774"
+    },
+    {
+      "character": {
+        "name": "Lord Voldemort",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bd4044c0-dc05-49d1-ab39-7109b5645770"
+    },
+    {
+      "character": {
+        "name": "Albus Dumbledore",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "05229f7a-0e7e-4352-9219-ff4e2113c2f0"
+    },
+    {
+      "character": {
+        "name": "Rubeus Hagrid",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4f8d4c6c-7c1e-467c-931e-3d44fd153542"
+    },
+    {
+      "character": {
+        "name": "Draco Malfoy",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "58889d31-faba-4da2-858d-b28261a42cea"
+    },
+    {
+      "character": {
+        "name": "Severus Snape",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6e8cb43d-6dc8-45fd-a9de-a20ba4ab4858"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "37"
+  },
+  "releaseDate": "2005-11-01",
+  "trailer": "3EGojp4Hh6I"
+}

@@ -1,0 +1,147 @@
+{
+  "id": "20fae14e-5e1d-4648-9482-7585c96d94aa",
+  "title": "The Fate of the Furious",
+  "poster": "fast_and_furious_8",
+  "genres": [
+    "Action",
+    "Crime"
+  ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "directedBy": [
+    "F. Gary Gray"
+  ],
+  "producedBy": "Neal H. Moritz, Vin Diesel",
+  "writtenBy": "Chris Morgan",
+  "musicBy": "Brian Tyler",
+  "cinematographyBy": "Stephen F. Windon",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 250,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.24,
+    "suffix": "billion"
+  },
+  "synopsis": "When a mysterious woman seduces Dom into the world of terrorism and a betrayal of those closest to him, the crew face trials that will test them as never before.",
+  "collections": [
+    {
+      "name": "Cars"
+    }
+  ],
+  "awards": [
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Action Sequence"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Fast and Furious",
+    "part": 8
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Dom",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "81bac581-4158-4bcb-9920-60fd3a93bd6b"
+    },
+    {
+      "character": {
+        "name": "Deckard",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4a36ad60-4af7-44a4-85e7-879a11ec7b2e"
+    },
+    {
+      "character": {
+        "name": "Hobbs",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d10e4d00-cb12-4d0f-a8f7-949530f17b88"
+    },
+    {
+      "character": {
+        "name": "Letty",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "973356cd-2905-4327-aac6-e95b4a336869"
+    },
+    {
+      "character": {
+        "name": "Roman",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d590cae8-3171-41ca-968c-1bbb1b425aa8"
+    },
+    {
+      "character": {
+        "name": "Tej Parker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a07a4f82-9579-40d3-97d8-9dd2d0904023"
+    },
+    {
+      "character": {
+        "name": "Cipher",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "88f04db4-a4c6-4449-adb9-ebbcdc57f582"
+    },
+    {
+      "character": {
+        "name": "Mr. Nobody",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0b277102-e940-47e1-9be6-f9e118dd94ba"
+    },
+    {
+      "character": {
+        "name": "Ramsey",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f8b33060-bc5b-41ae-be6c-f2bcde373e6d"
+    },
+    {
+      "character": {
+        "name": "Owen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6ab65894-ba82-4d35-9adf-dbdc3ae3fa63"
+    },
+    {
+      "character": {
+        "name": "Elena",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a601625c-13b8-403a-b7eb-79165f3abd28"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "16"
+  },
+  "releaseDate": "2017-04-01",
+  "trailer": "9GvX2uexGkA"
+}

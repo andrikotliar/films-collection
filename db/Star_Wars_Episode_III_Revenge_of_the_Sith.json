@@ -1,0 +1,117 @@
+{
+  "id": "7129ca00-b9c7-4a8d-b052-ab5ce44fc167",
+  "title": "Star Wars Episode III: Revenge of the Sith",
+  "poster": "star_wars_episode_III",
+  "genres": [
+    "SpaceOpera",
+    "Adventures"
+  ],
+  "production": [
+    "20th Century FOX",
+    "Lucasfilm"
+  ],
+  "directedBy": [
+    "George Lucas"
+  ],
+  "producedBy": "Rick McCallum",
+  "writtenBy": "George Lucas",
+  "musicBy": "John Williams",
+  "cinematographyBy": "David Tattersall",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 113,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 849,
+    "suffix": "million"
+  },
+  "synopsis": "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy.",
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Music"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "name": "Star Wars Universe"
+    }
+  ],
+  "parts": {
+    "title": "Star Wars Universe",
+    "part": 3
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Obi-Wan Kenobi",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "00ab0b8e-4e0a-4de4-ac2f-70bb49947372"
+    },
+    {
+      "character": {
+        "name": "Padme",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0f310c3e-4e4f-41b7-9c51-61b4b5935607"
+    },
+    {
+      "character": {
+        "name": "Anakin Skywalker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "fd4015ca-89a9-477d-a8b0-63d397f46fb6"
+    },
+    {
+      "character": {
+        "name": "Mace Windu",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "65e7e9e0-8e37-4237-9b23-a1f8a2d09147"
+    },
+    {
+      "character": {
+        "name": "Yoda",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "11e3cf6a-7cbb-46ab-a58b-681d70c0d69c"
+    },
+    {
+      "character": {
+        "name": "Palpatine",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4280bdd8-33a0-4f2c-8024-7de0ead1924e"
+    },
+    {
+      "character": {
+        "name": "Bail Organa",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "258788d4-04ea-41c0-b8f9-5e653892f72c"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "20"
+  },
+  "releaseDate": "2005-05-01",
+  "trailer": "5UnjrG_N8hU"
+}

@@ -1,0 +1,109 @@
+{
+  "id": "980e1d04-6cb8-48f7-88aa-cd18f8ec21ac",
+  "title": "Indiana Jones and the Kingdom of the Crystal Skull",
+  "poster": "indiana_jones_4",
+  "genres": [
+    "Adventures",
+    "Fantasy",
+    "Action"
+  ],
+  "production": [
+    "Paramount Pictures",
+    "Lucasfilm"
+  ],
+  "directedBy": [
+    "Steven Spielberg"
+  ],
+  "producedBy": "Frank Marshall",
+  "writtenBy": "David Koepp, George Lucas (story)",
+  "musicBy": "John Williams",
+  "cinematographyBy": "Janusz Kaminski",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 185,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 790,
+    "suffix": "million"
+  },
+  "synopsis": "In 1957, archaeologist and adventurer Dr. Henry \"Indiana\" Jones, Jr. is called back into action and becomes entangled in a Soviet plot to uncover the secret behind mysterious artifacts known as the Crystal Skulls.",
+  "collections": [
+    {
+      "name": "Mysteries of the Past"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Costume"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Indiana Jones",
+    "part": 4
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Dr. Henry «Indiana» Jones, Jr.",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80"
+    },
+    {
+      "character": {
+        "name": "Irina Spalko",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d7f81c80-afaa-4b4e-a3fa-49b85238c529"
+    },
+    {
+      "character": {
+        "name": "Marion Ravenwood",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d9149d9e-56e7-45ce-8c03-5cb1adcdf699"
+    },
+    {
+      "character": {
+        "name": "Mutt Williams",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0eac0045-e7d9-4f55-9bf5-4347b6447417"
+    },
+    {
+      "character": {
+        "name": "'Mac' George Michale",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "71efd2a5-8858-43a4-9bd7-6e52a8eaee6d"
+    },
+    {
+      "character": {
+        "name": "Professor Oxley",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4da33978-90aa-4ef5-bcc8-246e1f6b2988"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "07"
+  },
+  "releaseDate": "2008-05-01",
+  "trailer": "WAdJf4wTC5Y"
+}

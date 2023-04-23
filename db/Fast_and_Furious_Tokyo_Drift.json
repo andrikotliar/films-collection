@@ -1,0 +1,99 @@
+{
+  "id": "f64ead73-d0d0-4aac-9a70-fee4204d3e4a",
+  "title": "Fast and Furious: Tokyo Drift",
+  "poster": "fast_and_furious_3",
+  "genres": [
+    "Action",
+    "Crime"
+  ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "directedBy": [
+    "Justin Lin"
+  ],
+  "producedBy": "Neal H. Moritz",
+  "writtenBy": "Chris Morgan",
+  "musicBy": "Brian Tyler",
+  "cinematographyBy": "Stephen F. Windon",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 85,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 158,
+    "suffix": "million"
+  },
+  "synopsis": "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America.",
+  "collections": [
+    {
+      "name": "Cars"
+    }
+  ],
+  "parts": {
+    "title": "Fast and Furious",
+    "part": 3
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Sean Boswell",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3d5c68b1-c351-4086-8c21-b217096101ff"
+    },
+    {
+      "character": {
+        "name": "Neela",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4a8a6bc8-b702-47d6-a8ba-0a9e969dcdff"
+    },
+    {
+      "character": {
+        "name": "Han",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d44f46b1-9cd7-432e-b62d-97de2a3ae027"
+    },
+    {
+      "character": {
+        "name": "Twinkie",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c987561c-e7e1-4e87-a98c-b6d29af05ab6"
+    },
+    {
+      "character": {
+        "name": "Takashi",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "fb22bd10-8061-467b-a27f-51059afb5e22"
+    },
+    {
+      "character": {
+        "name": "Dominic Torreto",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "81bac581-4158-4bcb-9920-60fd3a93bd6b"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "44"
+  },
+  "releaseDate": "2006-06-01",
+  "trailer": "p8HQ2JLlc4E"
+}

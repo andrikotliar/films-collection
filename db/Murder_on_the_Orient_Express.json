@@ -1,0 +1,175 @@
+{
+  "id": "aa81f038-7f7e-4bd7-b3d0-2040d6a39eff",
+  "title": "Murder on the Orient Express",
+  "poster": "murder_on_the_orient_express",
+  "genres": [
+    "Crime",
+    "Drama"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "directedBy": [
+    "Kenneth Branagh"
+  ],
+  "producedBy": "Ridley Scott, Mark Gordon, Simon Kinberg, Kenneth Branagh",
+  "writtenBy": "Michael Green",
+  "musicBy": "Patrick Doyle",
+  "cinematographyBy": "Haris Zambarloukos",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 55,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 353,
+    "suffix": "million"
+  },
+  "synopsis": "When a murder occurs on the train on which he's travelling, celebrated detective Hercule Poirot is recruited to solve the case.",
+  "collections": [
+    {
+      "name": "Agents and Detectives"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Hercule Poirot",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f1350936-4678-4bfa-9cc6-334a4fcaf567"
+    },
+    {
+      "character": {
+        "name": "Pilar Estravados",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5903d731-5875-474e-a84f-1c93c0d9963c"
+    },
+    {
+      "character": {
+        "name": "Gerhard Hardman",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4bbc8ea8-2f28-43b8-8a68-24598fd32c85"
+    },
+    {
+      "character": {
+        "name": "Princess Dragomiroff",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "566219b1-2494-4616-aae5-34677667ea38"
+    },
+    {
+      "character": {
+        "name": "Edward Ratchett",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e2d2c602-347d-41a4-8f35-a3d379043577"
+    },
+    {
+      "character": {
+        "name": "Hector MacQueen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b5ae56c7-f48b-4ce9-84a6-545df4eeaa84"
+    },
+    {
+      "character": {
+        "name": "Edward Henry Masterman",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6f28d61f-40ca-4545-921a-6c7e76a2c594"
+    },
+    {
+      "character": {
+        "name": "Dr. Arbuthnot",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "53e3de1d-b901-45ff-9e3e-050c3daf8d63"
+    },
+    {
+      "character": {
+        "name": "Caroline Hubbard",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "af254fca-aecf-49f2-92bb-fe2241405e1c"
+    },
+    {
+      "character": {
+        "name": "Miss Mary Debenham",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d38d79f6-63ce-4543-a2b4-b820fc7fbb60"
+    },
+    {
+      "character": {
+        "name": "Bouc",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "fa4fa6aa-4c71-468a-8316-98464a7da6fd"
+    },
+    {
+      "character": {
+        "name": "Pierre Michel",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7d209c85-d7b5-4a47-ac5a-3f54bf69d0ea"
+    },
+    {
+      "character": {
+        "name": "Hildegarde Schmidt",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "82a9bf3a-ee75-4374-9d9c-662726da7f1c"
+    },
+    {
+      "character": {
+        "name": "Countess Elena Andrenyi",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "468bbbb1-09c3-4b96-9d1b-0c567a2c5095"
+    },
+    {
+      "character": {
+        "name": "Biniamino Marquez",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b169baf9-243c-4cc6-b604-551a844b9305"
+    },
+    {
+      "character": {
+        "name": "Count Rudolph Andrenyi",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "eef48856-0af8-4fda-897a-0da97cc1b21b"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "54"
+  },
+  "releaseDate": "2017-11-01",
+  "trailer": "Mq4m3yAoW8E"
+}

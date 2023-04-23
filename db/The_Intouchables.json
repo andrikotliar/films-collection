@@ -1,0 +1,82 @@
+{
+  "id": "bc041ba1-e94d-4808-9377-992ed70a36b7",
+  "title": "The Intouchables",
+  "poster": "intouchables",
+  "genres": [
+    "Biography",
+    "Comedy",
+    "Drama"
+  ],
+  "production": [
+    "Gaumont",
+    "TF1 Films Production"
+  ],
+  "directedBy": [
+    "Oliver Nakache",
+    "Eric Toledano"
+  ],
+  "producedBy": "Nicolas Duval Adassovsky, Yann Zenou, Laurent Zeitoun",
+  "writtenBy": "Olivier Nakache, Eric Toledano",
+  "musicBy": "Ludovico Einaudi",
+  "cinematographyBy": "Mathieu Vadepied",
+  "countries": [
+    "France"
+  ],
+  "budget": {
+    "value": 11,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 427,
+    "suffix": "million"
+  },
+  "synopsis": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+  "collections": [
+    {
+      "name": "Real Events"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Philippe",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f5939180-5189-46ff-a482-0654d1132b05"
+    },
+    {
+      "character": {
+        "name": "Driss",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8dc10d24-b013-432f-b828-c9282444b342"
+    },
+    {
+      "character": {
+        "name": "Yvonne",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2be7a373-3906-481a-a318-73adf9cf6ac2"
+    },
+    {
+      "character": {
+        "name": "Magalie",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c731889b-061a-4c7f-9b08-775002a5e5c9"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "52"
+  },
+  "releaseDate": "2011-11-01",
+  "trailer": "34WIbmXkewU"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "41a5c59f-3357-4459-a346-bc60cc3a94c8",
+  "title": "2Fast 2Furious",
+  "poster": "fast_and_furious_2",
+  "genres": [
+    "Action",
+    "Crime"
+  ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "directedBy": [
+    "John Singleton"
+  ],
+  "producedBy": "Neal H. Moritz",
+  "writtenBy": "Michael Brandt, Derek Haas",
+  "musicBy": "David Arnold",
+  "cinematographyBy": "Matthew F. Leonetti",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 76,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 236,
+    "suffix": "million"
+  },
+  "synopsis": "Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself.",
+  "collections": [
+    {
+      "name": "Cars"
+    }
+  ],
+  "parts": {
+    "title": "Fast and Furious",
+    "part": 2
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Brian O'Conner",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2c49887f-4365-4050-9ad8-0dfebb5556e6"
+    },
+    {
+      "character": {
+        "name": "Roman Pearce",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d590cae8-3171-41ca-968c-1bbb1b425aa8"
+    },
+    {
+      "character": {
+        "name": "Monica Fuentes",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d6324ad7-dfed-40b0-911b-6cfa1d39f79c"
+    },
+    {
+      "character": {
+        "name": "Carter Verone",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f2a27f30-df8e-4421-bb2f-9a07e09a5b40"
+    },
+    {
+      "character": {
+        "name": "Tej",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a07a4f82-9579-40d3-97d8-9dd2d0904023"
+    },
+    {
+      "character": {
+        "name": "Agent Markham",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7c9d793a-2f26-4517-9d68-37f21dc42731"
+    },
+    {
+      "character": {
+        "name": "Suki",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d62cb22e-2e82-4140-bce7-1e5a15981d83"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "48"
+  },
+  "releaseDate": "2003-07-01",
+  "trailer": "F_VIM03DXWI"
+}

@@ -1,0 +1,57 @@
+.cast {
+  --cols: 5;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.actor {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.actor__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.actor__photo {
+  font-size: 0;
+  flex-shrink: 0;
+  margin-right: 20px;
+  width: 70px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.actor__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.actor__header:hover .actor__photo img {
+  transform: scale(1.08);
+}
+
+.actor__name {
+  margin-bottom: 3px;
+}
+
+.actor__name:hover {
+  color: var(--base-color);
+  text-decoration: underline;
+}
+
+.actor__character {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.actor__character img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

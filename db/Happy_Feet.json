@@ -1,0 +1,127 @@
+{
+  "id": "9d13b6af-963a-464a-b3dc-1959f53e2c1d",
+  "title": "Happy Feet",
+  "poster": "happy_feet",
+  "genres": [
+    "Musical",
+    "Romance"
+  ],
+  "production": [
+    "Warner Bros. Pictures",
+    "Village Roadshow Pictures"
+  ],
+  "directedBy": [
+    "George Miller"
+  ],
+  "producedBy": "Bill Miller, George Miller, Doug Mitchell",
+  "writtenBy": "Warren Coleman, John Collee, George Miller, Judy Morris",
+  "musicBy": "John Powell",
+  "cinematographyBy": "David Peers",
+  "countries": [
+    "USA",
+    "Australia"
+  ],
+  "budget": {
+    "value": 100,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 384,
+    "suffix": "million"
+  },
+  "synopsis": "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Animated Feature Film of the Year"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Animated Feature Film"
+      ]
+    }
+  ],
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Mumble",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5e154ae5-94f0-4d0e-9dfc-641120e4a219"
+    },
+    {
+      "character": {
+        "name": "Gloria",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "21a45d21-a973-48dc-80fd-2052acdc8e0c"
+    },
+    {
+      "character": {
+        "name": "Memphis",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3e2db4d6-df90-4736-9425-c1fd062d8868"
+    },
+    {
+      "character": {
+        "name": "Norma Jean",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "84e268fd-c575-4110-b9fd-445576e64a0d"
+    },
+    {
+      "character": {
+        "name": "Noah the Elder",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
+    },
+    {
+      "character": {
+        "name": "Nestor",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0093079e-056f-4cde-89e2-fe33cec183f3"
+    },
+    {
+      "character": {
+        "name": "Raul",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b00ba397-076c-4be3-951a-c99cf6f30f0a"
+    },
+    {
+      "character": {
+        "name": "Ramon / Lovelace",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9b0a7320-fca2-4be3-80a2-5d8e534860ae"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "48"
+  },
+  "releaseDate": "2006-12-01",
+  "trailer": "hFUC5adf8FE"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "a5b2db9d-3f8c-4a21-8976-cfe5ab5d2e8e",
+  "title": "Pirates of the Caribbean: On Stranger Tides",
+  "poster": "pirates_4",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Jerry Bruckheimer Films"
+  ],
+  "directedBy": [
+    "Rob Marshall"
+  ],
+  "producedBy": "Jerry Bruckheimer",
+  "writtenBy": "Ted Elliott, Terry Rossio",
+  "musicBy": "Hans Zimmer",
+  "cinematographyBy": "Dariusz Wolski",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 250,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.05,
+    "suffix": "billion"
+  },
+  "synopsis": "Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "parts": {
+    "title": "Pirates of the Caribbean",
+    "part": 4
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Captain Jack Sparrow",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e2d2c602-347d-41a4-8f35-a3d379043577"
+    },
+    {
+      "character": {
+        "name": "Angelica",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5903d731-5875-474e-a84f-1c93c0d9963c"
+    },
+    {
+      "character": {
+        "name": "Barbossa",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ed136d46-6d12-4343-ba41-0014e7f0e171"
+    },
+    {
+      "character": {
+        "name": "Blackbeard",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5ed07453-ee7d-426b-bf1c-799314d762bd"
+    },
+    {
+      "character": {
+        "name": "Gibbs",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "82c6791e-974b-43f3-a643-51e734a33522"
+    },
+    {
+      "character": {
+        "name": "Philip",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3f218f49-7b69-41e2-96b6-415b7fb97172"
+    },
+    {
+      "character": {
+        "name": "Syrena",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a89a58b3-7927-48a3-a41e-0e5d05e84d28"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "17"
+  },
+  "releaseDate": "2011-05-01",
+  "trailer": "t5AqJww06bw"
+}

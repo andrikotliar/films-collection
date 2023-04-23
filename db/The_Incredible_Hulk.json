@@ -1,0 +1,92 @@
+{
+  "id": "9e71883c-bbfd-4152-825f-b1cf4e732e6f",
+  "title": "The Incredible Hulk",
+  "poster": "the_incredible_hulk",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Marvel Studios",
+    "Universal Pictures"
+  ],
+  "directedBy": [
+    "Louis Leterrier"
+  ],
+  "producedBy": "Avi Arad, Gale Anne Hurd, Kevin Feige",
+  "writtenBy": "Zak Penn",
+  "musicBy": "Craig Armstrong",
+  "cinematographyBy": "Peter Menzies Jr.",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 263,
+    "suffix": "million"
+  },
+  "synopsis": "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into, whenever he loses his temper.",
+  "collections": [
+    {
+      "name": "Marvel Cinematic Universe"
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 2
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Bruce Banner / Hulk",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "dc558210-18c4-49e1-95f3-0fb82d6922ac"
+    },
+    {
+      "character": {
+        "name": "Betty Ross",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8373014e-e8c0-4615-8818-8c1388a13d74"
+    },
+    {
+      "character": {
+        "name": "Emil Blonsky / Abomination",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "247f6f1b-3b21-4856-8896-c9ff4856d80a"
+    },
+    {
+      "character": {
+        "name": "Thaddeus Ross",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b7fe53fb-9c28-4dad-9a00-8792043aeca1"
+    },
+    {
+      "character": {
+        "name": "Samuel Sterns",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a184dd3c-e6fb-4da8-b02c-a03407946399"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "52"
+  },
+  "releaseDate": "2008-06-01",
+  "trailer": "xbqNb2PFKKA"
+}

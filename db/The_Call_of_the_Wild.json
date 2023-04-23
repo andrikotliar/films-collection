@@ -1,0 +1,72 @@
+{
+  "id": "f2ff90ba-0e8d-4ee5-b130-115db72a665d",
+  "title": "The Call of the Wild",
+  "poster": "the_call_of_the_wild",
+  "genres": [
+    "Adventures",
+    "Drama"
+  ],
+  "production": [
+    "20th Century Studios"
+  ],
+  "directedBy": [
+    "Chris Sanders"
+  ],
+  "producedBy": "James Mangold, Erwin Stoff",
+  "writtenBy": "Michael Green",
+  "musicBy": "John Powell",
+  "cinematographyBy": "Janusz Kaminski",
+  "countries": [
+    "Canada",
+    "USA"
+  ],
+  "budget": {
+    "value": 135,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 110,
+    "suffix": "million"
+  },
+  "synopsis": "A sled dog struggles for survival in the wilds of the Yukon.",
+  "collections": [
+    {
+      "name": "Life Story"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "John Thornton",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80"
+    },
+    {
+      "character": {
+        "name": "Perrault",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8dc10d24-b013-432f-b828-c9282444b342"
+    },
+    {
+      "character": {
+        "name": "Hal",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3eeed1a8-5505-4398-b9f2-56904214ddfd"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "40"
+  },
+  "releaseDate": "2020-02-01",
+  "trailer": "h1LG9So2ZBk"
+}

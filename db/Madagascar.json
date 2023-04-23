@@ -1,0 +1,107 @@
+{
+  "id": "22d2e0bc-1c9d-4c63-ab5a-134e0d6afda3",
+  "title": "Madagascar",
+  "poster": "madagascar",
+  "genres": [
+    "Adventures",
+    "Comedy"
+  ],
+  "production": [
+    "DreamWorks Animation"
+  ],
+  "directedBy": [
+    "Eric Darnell",
+    "Tom McGrath"
+  ],
+  "producedBy": "Mireille Soria",
+  "writtenBy": "Mark Burton, Billy Frolick, Eric Darnell, Tom McGrath",
+  "musicBy": "Hans Zimmer",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 75,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 542,
+    "suffix": "million"
+  },
+  "synopsis": "A group of animals who have spent all their life in a New York zoo end up in the jungles of Madagascar, and must adjust to living in the wild.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "parts": {
+    "title": "Madagascar",
+    "part": 1
+  },
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Alex",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a30ab878-3936-4e10-8c58-a5c0fe9f9146"
+    },
+    {
+      "character": {
+        "name": "Marty",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "653c1c5c-0093-483f-97b7-bb93107cf469"
+    },
+    {
+      "character": {
+        "name": "Melman",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0822f145-f313-4d3a-a34c-acbb77593566"
+    },
+    {
+      "character": {
+        "name": "Gloria",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9e504ddc-91b4-45c1-a321-c5e7f40999d9"
+    },
+    {
+      "character": {
+        "name": "Julien",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "dda11932-ed49-4f73-8b6f-c6949a5079b5"
+    },
+    {
+      "character": {
+        "name": "Skipper",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3369ddeb-bfb7-4737-b7c5-ee2e556352c5"
+    },
+    {
+      "character": {
+        "name": "Kowalski",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "236345ed-4488-4da7-b810-9141c8a74f47"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "26"
+  },
+  "releaseDate": "2005-06-01",
+  "trailer": "orAqhC-Hp_o"
+}

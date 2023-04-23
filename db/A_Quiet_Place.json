@@ -1,0 +1,99 @@
+{
+  "id": "64349826-7810-4872-bbf2-9d6a3a6296e4",
+  "title": "A Quiet Place",
+  "poster": "quiet_place",
+  "genres": [
+    "Sci-Fi",
+    "Drama",
+    "Horror"
+  ],
+  "production": [
+    "Paramount Pictures"
+  ],
+  "directedBy": [
+    "John Krasinski"
+  ],
+  "producedBy": "Michael Bay, Andrew Form, Brad Fuller",
+  "writtenBy": "Bryan Woods, Scott Beck, John Krasinski",
+  "musicBy": "Marco Beltrami",
+  "cinematographyBy": "Charlotte Bruus Christensen",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 17,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 341,
+    "suffix": "million"
+  },
+  "synopsis": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing.",
+  "collections": [
+    {
+      "name": "Invaders"
+    }
+  ],
+  "parts": {
+    "title": "Quiet Place",
+    "part": 1
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Horror Film",
+        "Best Writing"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Sci-Fi/Horror Movie"
+      ]
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Evelyn Abbott",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c892df31-7868-42cc-b245-ded4556da768"
+    },
+    {
+      "character": {
+        "name": "Lee Abbott",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "020d7bd4-9fe2-4dae-9fa2-5d5e72a01d53"
+    },
+    {
+      "character": {
+        "name": "Regan Abbott",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bb506052-e040-4a30-91a7-7d33b432ef95"
+    },
+    {
+      "character": {
+        "name": "Marcus Abbott",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7a2f8831-01e7-4594-a33a-2a7db3b0dd06"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "30"
+  },
+  "releaseDate": "2018-03-01",
+  "trailer": "WR7cc5t7tv8"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "0bbee303-dc3d-46b4-8f8a-6770774b805a",
+  "title": "The Amazing Spider-Man",
+  "poster": "amazing_spider_man_1",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Columbia Pictures",
+    "Marvel Entertainment"
+  ],
+  "directedBy": [
+    "Marc Webb"
+  ],
+  "producedBy": "Avi Arad, Matt Tolmach, Laura Ziskin",
+  "writtenBy": "James Vanderbilt, Alvin Sargent, Steve Kloves",
+  "musicBy": "James Horner",
+  "cinematographyBy": "John Schwartzman",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 230,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 758,
+    "suffix": "million"
+  },
+  "synopsis": "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe.",
+  "collections": [
+    {
+      "name": "Superheroes"
+    }
+  ],
+  "parts": {
+    "title": "The Amazing Spider-Man",
+    "part": 1
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Spider-Man / Peter Parker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c46854bf-fbc1-41f3-8178-9068a0bc8042"
+    },
+    {
+      "character": {
+        "name": "Gwen Stacy",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "87534bac-855b-43e6-a1e6-ab35f4ee0e30"
+    },
+    {
+      "character": {
+        "name": "The Lizard / Dr. Curt Connors",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1dad2ddd-5e28-4329-bdf9-01e41c9c84eb"
+    },
+    {
+      "character": {
+        "name": "Captain Stacy",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "79d6d23f-2026-4b49-953a-7109e1281bdd"
+    },
+    {
+      "character": {
+        "name": "Uncle Ben",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "55b2fb49-b2e7-495b-83fb-e6bafc41cde8"
+    },
+    {
+      "character": {
+        "name": "Aunt May",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b7e11704-aab4-4425-8156-53ee6acab153"
+    },
+    {
+      "character": {
+        "name": "Richard Parker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a9f01fe4-8ce3-4457-ade4-1266ff0d5f59"
+    },
+    {
+      "character": {
+        "name": "Mary Parker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3f538d20-40d6-4dc7-85dd-6fd458bdbcf2"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "16"
+  },
+  "releaseDate": "2012-06-01",
+  "trailer": "-tnxzJ0SSOw"
+}

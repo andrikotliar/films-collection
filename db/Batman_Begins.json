@@ -1,0 +1,164 @@
+{
+  "id": "b1575dbf-9a36-4f53-9bbf-71c86782f7ce",
+  "title": "Batman Begins",
+  "poster": "batman_1",
+  "genres": [
+    "Action",
+    "Thriller"
+  ],
+  "production": [
+    "Warner Bros. Pictures",
+    "Legendary"
+  ],
+  "directedBy": [
+    "Christopher Nolan"
+  ],
+  "producedBy": "Charles Roven, Emma Thomas, Larry Franco",
+  "writtenBy": "Christopher Nolan, David S. Goyer",
+  "musicBy": "Hans Zimmer, James Newton Howard",
+  "cinematographyBy": "Wally Pfister",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 375,
+    "suffix": "million"
+  },
+  "synopsis": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
+  "collections": [
+    {
+      "name": "Superheroes"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Fantasy Film",
+        "Best Actor",
+        "Best Writing"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Hero"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Dark Knight",
+    "part": 1
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Bruce Wayne / Batman",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6900c450-d6ad-4f62-8af7-d8398a1b6f77"
+    },
+    {
+      "character": {
+        "name": "Alfred",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "87d38720-3045-4fad-9302-75ddc6e847d1"
+    },
+    {
+      "character": {
+        "name": "Ducard",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6f541516-898c-439d-bbc3-16aa28425e8d"
+    },
+    {
+      "character": {
+        "name": "Rachel Dawes",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5a9b347a-b996-47aa-9cfe-1352817c730d"
+    },
+    {
+      "character": {
+        "name": "Jim Gordon",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0b0a40d3-1976-4f41-b8b1-1a86e37042ea"
+    },
+    {
+      "character": {
+        "name": "Dr. Jonathan Crane / The Scarecrow",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9a91c941-d1d1-4514-9eb1-c4a27bbe9cce"
+    },
+    {
+      "character": {
+        "name": "Carmine Falcone",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a0effc86-76b7-4ff3-8033-7d30cb7bda0a"
+    },
+    {
+      "character": {
+        "name": "Earle",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f8183bab-9197-417b-b6fd-b5fb29bb47e9"
+    },
+    {
+      "character": {
+        "name": "Ra's Al Ghul",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6f94fc62-df6a-4f98-82ac-763cf52690df"
+    },
+    {
+      "character": {
+        "name": "Flass",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e0893327-84c4-4a69-a06f-72bbb49072ea"
+    },
+    {
+      "character": {
+        "name": "Thomas Wayne",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d2868368-39bb-45ff-bc7d-522fd55e9733"
+    },
+    {
+      "character": {
+        "name": "Lucius Fox",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "768ac83c-1206-4dd2-87f4-fd0550f8492b"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "20"
+  },
+  "releaseDate": "2005-08-01",
+  "trailer": "neY2xVmOfUM"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "be87facc-db65-4504-a2ff-2a0e0aa73063",
+  "title": "The Time Machine",
+  "poster": "time_machine",
+  "genres": [
+    "Sci-Fi",
+    "Adventures"
+  ],
+  "production": [
+    "Warner Bros. Pictures"
+  ],
+  "directedBy": [
+    "Simon Wells"
+  ],
+  "producedBy": "Walter F. Parkes, David Valdes",
+  "writtenBy": "John Logan",
+  "musicBy": "Klaus Badelt",
+  "cinematographyBy": "Donald McAlpine",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 80,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 124,
+    "suffix": "million"
+  },
+  "synopsis": "Hoping to alter the events of the past, a 19th century inventor instead travels 800,000 years into the future, where he finds humankind divided into two warring races.",
+  "collections": [
+    {
+      "name": "Future"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Alexander Hartdegen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9d24f107-5e8f-497f-bc8a-bba10c71662a"
+    },
+    {
+      "character": {
+        "name": "David Philby",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6b09c9c8-0ab2-448a-a1b7-96cf71c3a05d"
+    },
+    {
+      "character": {
+        "name": "Mrs. Watchit",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "69655a56-e934-4284-9b11-907e044ecfd0"
+    },
+    {
+      "character": {
+        "name": "Emma",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "afdc63d9-d4a8-4ef0-92eb-28e8c7486336"
+    },
+    {
+      "character": {
+        "name": "'ber-Morlock",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "90d0483f-127c-4dec-8165-f84e66f5ef9e"
+    },
+    {
+      "character": {
+        "name": "Jogger",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "18f6fccb-58f1-41a8-9232-e8b88b0cd558"
+    },
+    {
+      "character": {
+        "name": "Vox",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ca8be3de-aab2-4e2b-8d76-31a51af81827"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "36"
+  },
+  "releaseDate": "2002-03-01",
+  "trailer": "90T7iLuzFgg"
+}

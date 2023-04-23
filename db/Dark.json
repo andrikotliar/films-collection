@@ -1,0 +1,475 @@
+{
+  "id": "ed127090-58fa-4e83-9d98-37b8577f2db1",
+  "title": "Dark",
+  "poster": "dark",
+  "genres": [
+    "Fantasy",
+    "Drama"
+  ],
+  "production": [
+    "Netflix"
+  ],
+  "createdBy": [
+    "Baran bo Odar",
+    "Jantje Friese"
+  ],
+  "producedBy": "Justyna Müsch, Jantje Friese, Quirin Berg, Max Wiedemann, Baran bo Odar",
+  "musicBy": "Ben Frost",
+  "cinematographyBy": "Nikolaus Summerer",
+  "countries": [
+    "Germany",
+    "USA"
+  ],
+  "synopsis": "A family saga with a supernatural twist, set in a German town, where the disappearance of two young children exposes the relationships among four families.",
+  "collections": [
+    {
+      "name": "Future"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Jupyter",
+      "nominations": [
+        "Best German TV Actor"
+      ]
+    }
+  ],
+  "type": [
+    "Series"
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "trailer": "rrwycJ08PSA",
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "Secrets",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese",
+          "releaseDate": "2017-12-01"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Lies",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese, Ronny Schalk",
+          "releaseDate": "2017-12-01"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Past and Present",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese, Marc O. Seng",
+          "releaseDate": "2017-12-01"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "Double Lives",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Martin Behnke, Jantje Friese",
+          "releaseDate": "2017-12-01"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Truths",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Martin Behnke, Jantje Friese",
+          "releaseDate": "2017-12-01"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "Sic Mundus Creatus Est",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese, Ronny Schalk",
+          "releaseDate": "2017-12-01"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "Crossroads",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese, Marc O. Seng",
+          "releaseDate": "2017-12-01"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "What you sow, you will reap",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Martin Behnke, Jantje Friese",
+          "releaseDate": "2017-12-01"
+        },
+        {
+          "episodeOverall": 9,
+          "episode": 9,
+          "title": "Everything Is Now",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese, Marc O. Seng",
+          "releaseDate": "2017-12-01"
+        },
+        {
+          "episodeOverall": 10,
+          "episode": 10,
+          "title": "Alpha and Omega",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese, Ronny Schalk",
+          "releaseDate": "2017-12-01"
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "trailer": "810CHvSdXOo",
+      "episodes": [
+        {
+          "episodeOverall": 11,
+          "episode": 1,
+          "title": "Beginnings and Endings",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese, Daphne Ferraro",
+          "releaseDate": "2019-06-21"
+        },
+        {
+          "episodeOverall": 12,
+          "episode": 2,
+          "title": "Dark Matter",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese, Ronny Schalk",
+          "releaseDate": "2019-06-21"
+        },
+        {
+          "episodeOverall": 13,
+          "episode": 3,
+          "title": "Ghosts",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese, Marc O. Seng",
+          "releaseDate": "2019-06-21"
+        },
+        {
+          "episodeOverall": 14,
+          "episode": 4,
+          "title": "The Travelers",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese, Martin Behnke",
+          "releaseDate": "2019-06-21"
+        },
+        {
+          "episodeOverall": 15,
+          "episode": 5,
+          "title": "Lost and Found",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese, Ronny Schalk",
+          "releaseDate": "2019-06-21"
+        },
+        {
+          "episodeOverall": 16,
+          "episode": 6,
+          "title": "An Endless Cycle",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese, Martin Behnke",
+          "releaseDate": "2019-06-21"
+        },
+        {
+          "episodeOverall": 17,
+          "episode": 7,
+          "title": "The White Devil",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese, Marc O. Seng",
+          "releaseDate": "2019-06-21"
+        },
+        {
+          "episodeOverall": 18,
+          "episode": 8,
+          "title": "Endings and Beginnings",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese, Daphne Ferraro",
+          "releaseDate": "2019-06-21"
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "trailer": "cq2iTHoLrt0",
+      "episodes": [
+        {
+          "episodeOverall": 19,
+          "episode": 1,
+          "title": "Deja-vu",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese",
+          "releaseDate": "2020-06-27"
+        },
+        {
+          "episodeOverall": 20,
+          "episode": 2,
+          "title": "The Survivors",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese, Marc O. Seng",
+          "releaseDate": "2020-06-27"
+        },
+        {
+          "episodeOverall": 21,
+          "episode": 3,
+          "title": "Adam and Eva",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese",
+          "releaseDate": "2020-06-27"
+        },
+        {
+          "episodeOverall": 22,
+          "episode": 4,
+          "title": "The Origin",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese",
+          "releaseDate": "2020-06-27"
+        },
+        {
+          "episodeOverall": 23,
+          "episode": 5,
+          "title": "Life and Death",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese",
+          "releaseDate": "2020-06-27"
+        },
+        {
+          "episodeOverall": 24,
+          "episode": 6,
+          "title": "Light and Shadow",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese, Marc O. Seng",
+          "releaseDate": "2020-06-27"
+        },
+        {
+          "episodeOverall": 25,
+          "episode": 7,
+          "title": "In Between Time",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese",
+          "releaseDate": "2020-06-27"
+        },
+        {
+          "episodeOverall": 26,
+          "episode": 8,
+          "title": "Paradise",
+          "directedBy": "Baran bo Odar",
+          "writtenBy": "Jantje Friese",
+          "releaseDate": "2020-06-27"
+        }
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Jonas Kahnwald",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3c0086c5-98c8-4f99-965e-ba36c3a3a30c"
+    },
+    {
+      "character": {
+        "name": "Charlotte Doppler",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c5d87c53-d872-4f4f-9e22-57c1bec06b6f"
+    },
+    {
+      "character": {
+        "name": "Martha Nielsen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bb66bb33-bab9-42c3-a9c4-023cf055f622"
+    },
+    {
+      "character": {
+        "name": "Hannah Kahnwald",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6963651f-d18e-41e2-b05d-b7790d99ebd2"
+    },
+    {
+      "character": {
+        "name": "Peter Doppler",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "fde0d7f1-aa72-4685-9b1c-2e02ec251727"
+    },
+    {
+      "character": {
+        "name": "Katharina Nielsen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2c8fcc83-544f-4e9a-91d7-43f3c7ed3126"
+    },
+    {
+      "character": {
+        "name": "The Stranger",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8f326beb-1d0f-49d8-8eba-1a05747c92e3"
+    },
+    {
+      "character": {
+        "name": "Bartosz Tiedemann",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2a27bdd9-2bf9-4ff0-b027-ddeea932fccb"
+    },
+    {
+      "character": {
+        "name": "Magnus Nielsen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "afa7cf04-0b8d-4d99-bb5b-96722a426b7d"
+    },
+    {
+      "character": {
+        "name": "Magnus Nielsen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f41ebb57-bc97-4a33-81ff-ec8c4e88d233"
+    },
+    {
+      "character": {
+        "name": "Ulrich Nielsen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3f172e4c-5548-46fe-8baa-c20d577b64b7"
+    },
+    {
+      "character": {
+        "name": "Aleksander Tiedemann",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "84afba6b-8e87-41a9-b590-a0cff90bea01"
+    },
+    {
+      "character": {
+        "name": "Franziska Doppler",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "84f5d912-2084-4ce4-b4b0-fa45e712264d"
+    },
+    {
+      "character": {
+        "name": "Regina Tiedemann",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "013234f3-cb62-4313-8d8b-046981ab48ba"
+    },
+    {
+      "character": {
+        "name": "Claudia Tiedemann (1987)",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "35414a7b-36be-4e43-9db4-f99a0bd429ae"
+    },
+    {
+      "character": {
+        "name": "Elisabeth Doppler",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4dead87c-8e15-4310-b7bb-fd71afbfb6a4"
+    },
+    {
+      "character": {
+        "name": "Adam",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6e6dcc35-9d34-4411-b799-6a02683c384f"
+    },
+    {
+      "character": {
+        "name": "Noah",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6a75d356-05a9-45f4-8bec-ea7f4735fc5e"
+    },
+    {
+      "character": {
+        "name": "Helge Doppler",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6eed0b8a-5060-41ad-9f63-27c03adf2db4"
+    },
+    {
+      "character": {
+        "name": "Claudia Tiedemann",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f61e582e-cf6e-4a3e-84ea-518d6c5748f0"
+    },
+    {
+      "character": {
+        "name": "Ines Kahnwald (1986)",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "faf188fc-912f-4373-a532-ef1033edccb6"
+    },
+    {
+      "character": {
+        "name": "Tronte Nielsen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e8731e54-83ba-456d-9485-7f8cb2c69147"
+    },
+    {
+      "character": {
+        "name": "Regina Tiedemann (1986)",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2de67189-b3ca-4acf-a3d3-dc6978a19ee6"
+    },
+    {
+      "character": {
+        "name": "Helge Doppler (1953)",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e09bdc7e-0fb0-4c11-b0a6-5cf41b4afdc6"
+    },
+    {
+      "character": {
+        "name": "Young Noah",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ae6cd46f-4db3-48ab-a9e9-fcd2cf7a3e50"
+    }
+  ],
+  "duration": {
+    "hours": "26",
+    "minutes": "00"
+  },
+  "releaseDate": "2017-12-01"
+}

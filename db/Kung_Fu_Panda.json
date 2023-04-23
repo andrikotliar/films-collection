@@ -1,0 +1,129 @@
+{
+  "id": "a7f2e03b-ecea-40c8-9d9a-1e9e647b0449",
+  "title": "Kung Fu Panda",
+  "poster": "kungfu_panda",
+  "genres": [
+    "Action",
+    "Comedy"
+  ],
+  "production": [
+    "DreamWorks Animation"
+  ],
+  "directedBy": [
+    "Mark Osborne",
+    "John Stevenson"
+  ],
+  "producedBy": "Melissa Cobb",
+  "writtenBy": "Jonathan Aibel, Glenn Berger",
+  "musicBy": "John Powell, Hans Zimmer",
+  "cinematographyBy": "Yong Duk Jhun",
+  "countries": [
+    "USA",
+    "China"
+  ],
+  "budget": {
+    "value": 130,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 632,
+    "suffix": "million"
+  },
+  "synopsis": "The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance. However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a novice in martial arts.",
+  "collections": [
+    {
+      "name": "Martial Arts"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Animated Feature"
+      ]
+    }
+  ],
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Po",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "fc90b261-aefd-4bed-9b6d-aea444798a80"
+    },
+    {
+      "character": {
+        "name": "Shifu",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b15b62a8-412d-496f-83f8-2700b34f86eb"
+    },
+    {
+      "character": {
+        "name": "Tigress",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c8b9b1e2-6f03-412f-81b5-38e7a7e7ac8f"
+    },
+    {
+      "character": {
+        "name": "Tai Lung",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5ed07453-ee7d-426b-bf1c-799314d762bd"
+    },
+    {
+      "character": {
+        "name": "Monkey",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d9cdf9ae-7891-42bb-bb63-9633f6c5596e"
+    },
+    {
+      "character": {
+        "name": "Mantis",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "41a1c82c-7935-4162-8c41-9ea33bed02e6"
+    },
+    {
+      "character": {
+        "name": "Viper",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0ddc0eb1-bbc8-4c3c-83cd-228a7d74da2d"
+    },
+    {
+      "character": {
+        "name": "Crane",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1c38d264-4455-417f-b6ba-84673b62afd1"
+    },
+    {
+      "character": {
+        "name": "Oogway",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "39a6e64f-3733-4983-8bce-067363fb8fc0"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "32"
+  },
+  "releaseDate": "2008-06-01",
+  "trailer": "NRc-ze7Wrxw"
+}

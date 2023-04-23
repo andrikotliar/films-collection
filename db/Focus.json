@@ -1,0 +1,114 @@
+{
+  "id": "2c146fe3-821e-4448-82f7-ca4b49514e20",
+  "title": "Focus",
+  "poster": "focus",
+  "genres": [
+    "Drama",
+    "Comedy",
+    "Crime"
+  ],
+  "production": [
+    "Warner Bros. Pictures"
+  ],
+  "directedBy": [
+    "Glenn Ficarra",
+    "John Requa"
+  ],
+  "producedBy": "Denise Di Novi",
+  "writtenBy": "Glenn Ficarra, John Requa",
+  "musicBy": "Nick Urata",
+  "cinematographyBy": "Xavier Grobet",
+  "countries": [
+    "USA",
+    "Argentina"
+  ],
+  "budget": {
+    "value": 50,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 159,
+    "suffix": "million"
+  },
+  "synopsis": "In the midst of veteran con man Nicky's latest scheme, a woman from his past - now an accomplished femme fatale - shows up and throws his plans for a loop.",
+  "collections": [
+    {
+      "name": "Agents and Detectives"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Nicky",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0e631141-1b4a-4ed9-8325-5a1947f08404"
+    },
+    {
+      "character": {
+        "name": "Jess",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "55644902-2d3a-45a8-ba5d-049274449fda"
+    },
+    {
+      "character": {
+        "name": "Farhad",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "580f0e0d-5412-46be-ab8b-5a553ed5966b"
+    },
+    {
+      "character": {
+        "name": "Owens",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a0b8690d-4cc4-4d80-96b1-284b9c702141"
+    },
+    {
+      "character": {
+        "name": "Rafael Garriga",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "96520238-a1f8-4eaa-9820-ac392ba73d45"
+    },
+    {
+      "character": {
+        "name": "Liyuan Tse",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "98486615-e33a-430b-b038-935105096070"
+    },
+    {
+      "character": {
+        "name": "McEwen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6a87e57a-37b1-4342-bbea-a0ced790ffb1"
+    },
+    {
+      "character": {
+        "name": "Jared Mukulski",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e4d4cb52-c413-4947-a207-f91ccf4c33b5"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "45"
+  },
+  "releaseDate": "2015-02-01",
+  "trailer": "MxCRgtdAuBo"
+}

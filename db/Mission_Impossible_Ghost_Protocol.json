@@ -1,0 +1,100 @@
+{
+  "id": "adab19de-7c8c-4e2d-bd34-77bfa713f7e2",
+  "title": "Mission: Impossible - Ghost Protocol",
+  "poster": "mi_4",
+  "genres": [
+    "Action",
+    "Adventures"
+  ],
+  "production": [
+    "Paramount Pictures"
+  ],
+  "directedBy": [
+    "Brad Bird"
+  ],
+  "producedBy": "Tom Cruise, Bryan Burk, J.J. Abrams",
+  "writtenBy": "Josh Appelbaum, Andre Nemec",
+  "musicBy": "Michael Giacchino",
+  "cinematographyBy": "Robert Elswit",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 145,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 695,
+    "suffix": "million"
+  },
+  "synopsis": "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.",
+  "collections": [
+    {
+      "name": "Agents and Detectives"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Action/Adventure Film",
+        "Best Editing"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Mission: Impossible",
+    "part": 4
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Ethan Hunt",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81"
+    },
+    {
+      "character": {
+        "name": "Jane",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6afcf7b3-aec6-4502-8008-ee8af2870f8a"
+    },
+    {
+      "character": {
+        "name": "Benji",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "265bd112-e4bd-4d75-878c-cd5c60d2d034"
+    },
+    {
+      "character": {
+        "name": "Brandt",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b3e7f578-6981-4121-91d3-d768d95751ca"
+    },
+    {
+      "character": {
+        "name": "Hendricks",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2f31070a-a697-4af5-ae35-ab8ce3c06f0d"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "13"
+  },
+  "releaseDate": "2011-12-01",
+  "trailer": "EDGYVFZxsXQ"
+}

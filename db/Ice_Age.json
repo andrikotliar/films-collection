@@ -1,0 +1,83 @@
+{
+  "id": "4caa5313-e0ae-4215-9ba8-f51c54f60983",
+  "title": "Ice Age",
+  "poster": "ice_age_1",
+  "genres": [
+    "Adventures",
+    "Comedy"
+  ],
+  "production": [
+    "20th Century FOX",
+    "Blue Sky Studios"
+  ],
+  "directedBy": [
+    "Chris Wedge"
+  ],
+  "producedBy": "Lori Forte",
+  "writtenBy": "Michael Berg, Michael J. Wilson, Peter Ackerman",
+  "musicBy": "David Newman",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 59,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 383,
+    "suffix": "million"
+  },
+  "synopsis": "Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "parts": {
+    "title": "Ice Age",
+    "part": 1
+  },
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Manfred",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0cedcb92-8ff0-48bf-b5c0-ec52c697bf22"
+    },
+    {
+      "character": {
+        "name": "Sid",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ba1ea1c7-ab0d-4cc7-9574-25c858edd5a3"
+    },
+    {
+      "character": {
+        "name": "Diego",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "79d6d23f-2026-4b49-953a-7109e1281bdd"
+    },
+    {
+      "character": {
+        "name": "Soto",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ec353a09-b4f6-452d-acb5-1693b703f783"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "21"
+  },
+  "releaseDate": "2002-08-01",
+  "trailer": "i4noiCRJRoE"
+}

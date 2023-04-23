@@ -1,0 +1,112 @@
+{
+  "id": "349fb41e-b427-45c0-89b2-e0a15e7fbe50",
+  "title": "Tron: Legacy",
+  "poster": "tron",
+  "genres": [
+    "Sci-Fi",
+    "Adventures"
+  ],
+  "production": [
+    "Walt Disney Pictures"
+  ],
+  "directedBy": [
+    "Joseph Kosinski"
+  ],
+  "producedBy": "Sean Bailey, Steven Lisberger, Jeffrey Silver",
+  "writtenBy": "Edward Kitsis, Adam Horowitz",
+  "musicBy": "Daft Punk",
+  "cinematographyBy": "Claudio Miranda",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 170,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 400,
+    "suffix": "million"
+  },
+  "synopsis": "The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world.",
+  "collections": [
+    {
+      "name": "Future"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Production Design",
+        "Best Actor"
+      ]
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Kevin Flynn / Clu",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2774a52a-465e-4a82-b1b0-a1412c82af7d"
+    },
+    {
+      "character": {
+        "name": "Sam Flynn",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2c9ec2d4-e4e8-44b0-a0d4-24d3f079f813"
+    },
+    {
+      "character": {
+        "name": "Quorra",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a57d2ead-173f-47a2-86b3-6a1ce8ab7c9c"
+    },
+    {
+      "character": {
+        "name": "Alan Bradley / Tron",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2a6d4833-142f-43a3-9d32-c3fee51b7dcb"
+    },
+    {
+      "character": {
+        "name": "Jarvis",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9730f54f-55ab-457d-bd12-932e27760be1"
+    },
+    {
+      "character": {
+        "name": "Gem",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "52786d64-9e10-49a3-9432-8be2379753f0"
+    },
+    {
+      "character": {
+        "name": "Castor / Zuse",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cd31d4b4-862c-42da-9e5c-c6fa8a0132f7"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "05"
+  },
+  "releaseDate": "2010-12-01",
+  "trailer": "L9szn1QQfas"
+}

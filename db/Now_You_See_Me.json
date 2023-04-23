@@ -1,0 +1,119 @@
+{
+  "id": "3a7b5ed6-98c5-4b20-9053-56c99d190381",
+  "title": "Now You See Me",
+  "poster": "now_you_see_me",
+  "genres": [
+    "Crime",
+    "Thriller"
+  ],
+  "production": [
+    "Summit Entertainment"
+  ],
+  "directedBy": [
+    "Louis Leterrier"
+  ],
+  "producedBy": "Bobby Cohen, Alex Kurtzman, Roberto Orci",
+  "writtenBy": "Ed Solomon, Boaz Yakin, Edward Ricourt",
+  "musicBy": "Brian Tyler",
+  "cinematographyBy": "Mitchell Amundsen, Larry Fong",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 75,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 352,
+    "suffix": "million"
+  },
+  "synopsis": "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money.",
+  "collections": [
+    {
+      "name": "Agents and Detectives"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "J. Daniel Atlas",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2bcf645c-68c2-419e-a8c1-1b823e7d815e"
+    },
+    {
+      "character": {
+        "name": "Dylan Rhodes",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "66103de9-bd6b-4732-8a3b-b59d9c88035a"
+    },
+    {
+      "character": {
+        "name": "Merritt McKinney",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "29fcbe6e-884b-4b15-894b-1bb691c26c36"
+    },
+    {
+      "character": {
+        "name": "Henley Reeves",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8f0f8fd0-2242-49c3-9c41-51ca3f10cac1"
+    },
+    {
+      "character": {
+        "name": "Jack Wilder",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4c9315f3-61cb-4b8f-94c1-e393e8f0fe63"
+    },
+    {
+      "character": {
+        "name": "Alma Dray",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9527bacd-30e8-4702-b777-9e4bfc92d40f"
+    },
+    {
+      "character": {
+        "name": "Thaddeus Bradley",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "768ac83c-1206-4dd2-87f4-fd0550f8492b"
+    },
+    {
+      "character": {
+        "name": "Arthur Tressler",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "87d38720-3045-4fad-9302-75ddc6e847d1"
+    },
+    {
+      "character": {
+        "name": "Agent Fuller",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d41237ae-bebd-45ab-9e93-f0b6678d13be"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "55"
+  },
+  "releaseDate": "2013-05-01",
+  "trailer": "KzJNYYkkhzc"
+}

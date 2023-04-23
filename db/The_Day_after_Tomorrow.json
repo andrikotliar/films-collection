@@ -1,0 +1,154 @@
+{
+  "id": "0f2e692f-1767-4c8d-adcc-8eda7e73fafb",
+  "title": "The Day after Tomorrow",
+  "poster": "day_after_tomorrow",
+  "genres": [
+    "Sci-Fi"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "directedBy": [
+    "Roland Emmerich"
+  ],
+  "producedBy": "Roland Emmerich, Mark Gordon",
+  "writtenBy": "Roland Emmerich, Jeffrey Nachmanoff",
+  "musicBy": "Harald Kloser",
+  "cinematographyBy": "Ueli Steiger",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 125,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 544,
+    "suffix": "million"
+  },
+  "synopsis": "Jack Hall, paleoclimatologist, must make a daring trek from Washington, D.C. to New York City to reach his son, trapped in the cross-hairs of a sudden international storm which plunges the planet into a new Ice Age.",
+  "collections": [
+    {
+      "name": "Disaster"
+    }
+  ],
+  "awards": [
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Achievement in Special Visual Effects"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Action Sequence"
+      ]
+    },
+    {
+      "title": "Jupiter",
+      "nominations": [
+        "Best International Film"
+      ]
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Jack Hall",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ef6b9fcb-ea0e-4869-b798-ee2d1327638e"
+    },
+    {
+      "character": {
+        "name": "Sam Hall",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2d1069c2-2eb5-45c8-b4bd-db7be5015638"
+    },
+    {
+      "character": {
+        "name": "Laura Chapman",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cee42145-5832-42e3-9c3e-738f8488bfe9"
+    },
+    {
+      "character": {
+        "name": "Jason Evans",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9269dadd-db95-4831-860e-340bdd460033"
+    },
+    {
+      "character": {
+        "name": "Frank Harris",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7fe85d8e-f022-47bd-95cb-e1bc15f6440f"
+    },
+    {
+      "character": {
+        "name": "Dr. Lucy Hall",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4c80e951-f43e-48fb-8b8b-1e4e94ce6366"
+    },
+    {
+      "character": {
+        "name": "J.D.",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cbe01970-7d68-4e3c-92c3-b1182c6058aa"
+    },
+    {
+      "character": {
+        "name": "Brian Parks",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4771d4aa-76f8-4a29-a5df-4d3901915c00"
+    },
+    {
+      "character": {
+        "name": "Janet Tokada",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8e2fb7a9-0cda-446e-99d3-8dc489ea4417"
+    },
+    {
+      "character": {
+        "name": "Parker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b1fc4982-95c9-4ba9-9814-0b2d7c003a32"
+    },
+    {
+      "character": {
+        "name": "Terry Rapson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e9964030-afa3-42d4-ab91-9c1fd7c0f177"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "03"
+  },
+  "releaseDate": "2004-05-01",
+  "trailer": "Ku_IseK3xTc"
+}

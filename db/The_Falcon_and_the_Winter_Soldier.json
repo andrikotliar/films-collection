@@ -1,0 +1,187 @@
+{
+  "id": "0668cf46-4314-4ff8-918b-8df6e5bde9d9",
+  "title": "The Falcon and the Winter Soldier",
+  "poster": "falcon_and_the_winter_soldier",
+  "genres": [
+    "Action",
+    "Drama"
+  ],
+  "production": [
+    "Disney+",
+    "Marvel Studios"
+  ],
+  "createdBy": [
+    "Kari Skogland"
+  ],
+  "producedBy": "Ariella Blejer, Dawn Kamoche",
+  "musicBy": "Henry Jackman",
+  "cinematographyBy": "P.J. Dillon",
+  "countries": [
+    "USA"
+  ],
+  "synopsis": "Following the events of «Avengers: Endgame» Sam Wilson and Bucky Barnes team up in a global adventure that tests their abilities and their patience.",
+  "awards": [
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Hero",
+        "Best Duo"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "name": "Marvel Cinematic Universe"
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 25
+  },
+  "type": [
+    "Series"
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "New World Order",
+          "directedBy": "Kari Skogland",
+          "writtenBy": "Malcolm Spellman",
+          "releaseDate": "2021-03-19"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "The Star-Spangled Man",
+          "directedBy": "Kari Skogland",
+          "writtenBy": "Michael Kastelein",
+          "releaseDate": "2021-03-26"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Power Broker",
+          "directedBy": "Kari Skogland",
+          "writtenBy": "Derek Kolstad",
+          "releaseDate": "2021-04-02"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "The Whole World Is Watching",
+          "directedBy": "Kari Skogland",
+          "writtenBy": "Derek Kolstad",
+          "releaseDate": "2021-04-09"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Truth",
+          "directedBy": "Kari Skogland",
+          "writtenBy": "Dalan Musson",
+          "releaseDate": "2021-04-16"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "One World, One People",
+          "directedBy": "Kari Skogland",
+          "writtenBy": "Malcolm Spellman, Josef Sawyer",
+          "releaseDate": "2021-04-23"
+        }
+      ],
+      "trailer": "IWBsDaFWyTE"
+    }
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Sam Wilson / Falcon / Captain America",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0"
+    },
+    {
+      "character": {
+        "name": "James \"Bucky\" Barnes / Winter Soldier / White Wolf",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6efe0990-f8c2-479e-970a-f990a42f774a"
+    },
+    {
+      "character": {
+        "name": "John Walker / Captain America / U.S. Agent",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7c1b3858-5d84-4392-b553-1d7ba3629a24"
+    },
+    {
+      "character": {
+        "name": "Karli Morgenthau",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a64954db-d59b-406d-bf75-afa947dd864d"
+    },
+    {
+      "character": {
+        "name": "Sarah Wilson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ae166564-1e38-4546-9f8a-fe1b78e15eac"
+    },
+    {
+      "character": {
+        "name": "James \"Rhodey\" Rhodes",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "64bde65d-0d41-434b-ab94-01aa4422b632"
+    },
+    {
+      "character": {
+        "name": "Helmut Zemo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d31d9f34-2e99-4163-85e2-c801d2cf41d9"
+    },
+    {
+      "character": {
+        "name": "Sharon Carter / Power Broker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b8cae279-8df0-4334-ab14-9682abbf1882"
+    },
+    {
+      "character": {
+        "name": "Ayo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "dcbc2174-f30a-4be8-b21d-b2fccd31048a"
+    },
+    {
+      "character": {
+        "name": "Valentina Allegra de Fontaine",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "283b7be0-47c7-4082-804b-1f184b0c3537"
+    }
+  ],
+  "duration": {
+    "hours": "05",
+    "minutes": "00"
+  },
+  "releaseDate": "2021-03-01"
+}

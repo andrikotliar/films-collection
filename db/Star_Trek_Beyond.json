@@ -1,0 +1,164 @@
+{
+  "id": "693bc827-4f50-4c76-8c51-846132a8894f",
+  "title": "Star Trek: Beyond",
+  "poster": "star_trek_3",
+  "genres": [
+    "Sci-Fi",
+    "SpaceOpera"
+  ],
+  "production": [
+    "Paramount Pictures",
+    "Bad Robot Productions"
+  ],
+  "directedBy": [
+    "Justin Lin"
+  ],
+  "producedBy": "J.J. Abrams, Roberto Orci, Lindsey Weber, Justin Lin",
+  "writtenBy": "Simon Pegg, Doug Jung",
+  "musicBy": "Michael Giacchino",
+  "cinematographyBy": "Stephen F. Windon",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 185,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 343,
+    "suffix": "million"
+  },
+  "synopsis": "The crew of the USS Enterprise explores the furthest reaches of uncharted space, where they encounter a new ruthless enemy, who puts them, and everything the Federation stands for, to the test.",
+  "collections": [
+    {
+      "name": "Space"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Make-Up"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Star Trek",
+    "part": 3
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Captain James T. Kirk",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "586e7657-8411-4540-a748-26e815d3fb92"
+    },
+    {
+      "character": {
+        "name": "Commander Spock",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8ee9d755-abc4-4dc4-8255-7b46fdf7d84e"
+    },
+    {
+      "character": {
+        "name": "Doctor 'Bones' McCoy",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3b561873-fcce-4fc8-80f8-bae7ba163e26"
+    },
+    {
+      "character": {
+        "name": "Uhura",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "23e53bab-62a5-43a6-99a4-f61d68612d7d"
+    },
+    {
+      "character": {
+        "name": "Montgomery 'Scotty' Scott",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "265bd112-e4bd-4d75-878c-cd5c60d2d034"
+    },
+    {
+      "character": {
+        "name": "Sulu",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "da06d7ba-e039-4ca4-86b7-b4299cad0635"
+    },
+    {
+      "character": {
+        "name": "Chekov",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0aa77f73-ad44-4ddb-a9fb-5206ef077eab"
+    },
+    {
+      "character": {
+        "name": "Krall",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ed322351-e250-4592-a42d-18dc1e238066"
+    },
+    {
+      "character": {
+        "name": "Jaylah",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c1775d76-5821-4073-bab4-93bd36076ae2"
+    },
+    {
+      "character": {
+        "name": "Manas",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ac672132-0c01-425c-8f65-b7e7f4f7df5a"
+    },
+    {
+      "character": {
+        "name": "Kalara",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "40a19e44-9aa1-40bc-8f66-2e5c89d8008f"
+    },
+    {
+      "character": {
+        "name": "Keenser",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0b281b59-11dc-45d3-afe2-59092a25a531"
+    },
+    {
+      "character": {
+        "name": "Ensign Syl",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "afa0c107-d8ef-4a1e-96ea-6c51b6fd85dd"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "02"
+  },
+  "releaseDate": "2016-07-01",
+  "trailer": "XRVD32rnzOw"
+}

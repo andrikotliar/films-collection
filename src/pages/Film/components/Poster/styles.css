@@ -1,0 +1,15 @@
+.film__poster {
+  width: 100%;
+  font-size: 0;
+}
+.film__poster img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media (max-width: 880px) {
+  .film__poster {
+    width: 30%;
+    flex-shrink: 0;
+  }
+}

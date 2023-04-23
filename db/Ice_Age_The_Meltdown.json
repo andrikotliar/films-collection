@@ -1,0 +1,99 @@
+{
+  "id": "758049ce-9771-40b4-b597-d238544d4ea5",
+  "title": "Ice Age: The Meltdown",
+  "poster": "ice_age_2",
+  "genres": [
+    "Adventures",
+    "Comedy"
+  ],
+  "production": [
+    "20th Century FOX",
+    "Blue Sky Studios"
+  ],
+  "directedBy": [
+    "Carlos Saldanha"
+  ],
+  "producedBy": "Lori Forte",
+  "writtenBy": "Peter Gaulke, Gerry Swallow, Jim Hecht",
+  "musicBy": "John Powell",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 80,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 661,
+    "suffix": "million"
+  },
+  "synopsis": "Manny, Sid, and Diego discover that the ice age is coming to an end, and join everybody for a journey to higher ground. On the trip, they discover that Manny, in fact, is not the last of the woolly mammoths.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "parts": {
+    "title": "Ice Age",
+    "part": 2
+  },
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Manny",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0cedcb92-8ff0-48bf-b5c0-ec52c697bf22"
+    },
+    {
+      "character": {
+        "name": "Sid",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ba1ea1c7-ab0d-4cc7-9574-25c858edd5a3"
+    },
+    {
+      "character": {
+        "name": "Diego",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "79d6d23f-2026-4b49-953a-7109e1281bdd"
+    },
+    {
+      "character": {
+        "name": "Crash",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5e675149-f0be-4160-acbb-8bbcd1227dcc"
+    },
+    {
+      "character": {
+        "name": "Eddie",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "17c1ac34-36e2-4eb9-8c1c-610dd2df1d10"
+    },
+    {
+      "character": {
+        "name": "Ellie",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7df3a3a8-41bc-48c4-b88e-35583fe0e3d6"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "31"
+  },
+  "releaseDate": "2006-03-01",
+  "trailer": "s4PWGVtIZWA"
+}

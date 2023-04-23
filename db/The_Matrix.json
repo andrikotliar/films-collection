@@ -1,0 +1,148 @@
+{
+  "id": "7eff7ff6-1384-4815-8150-89ed83a24717",
+  "title": "The Matrix",
+  "poster": "matrix_1",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Warner Bros. Pictures"
+  ],
+  "directedBy": [
+    "The Wachowski Brothers"
+  ],
+  "producedBy": "Joel Silver",
+  "writtenBy": "The Wachowski Brothers",
+  "musicBy": "Don Davis",
+  "cinematographyBy": "Bill Pope",
+  "countries": [
+    "USA",
+    "Australia"
+  ],
+  "budget": {
+    "value": 63,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 463,
+    "suffix": "million"
+  },
+  "synopsis": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+  "collections": [
+    {
+      "name": "Legends"
+    },
+    {
+      "name": "Future"
+    },
+    {
+      "name": "Top 10",
+      "order": 9
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Film Editing",
+        "Best Sound",
+        "Best Effects (Sound Effects Editing)",
+        "Best Effects (Visual Effects)"
+      ]
+    },
+    {
+      "title": "Golden Globes",
+      "nominations": [
+        "Best Actress in a Leading Role",
+        "Best Actor in a Leading Role",
+        "Best Visual Effects"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Sound",
+        "Best Achievement in Special Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Director"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Movie",
+        "Best Male Performance",
+        "Best Fight"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Matrix",
+    "part": 1
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Neo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7543d97c-88d9-4319-8f10-1bc00f84b0e9"
+    },
+    {
+      "character": {
+        "name": "Morpheus",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d5cfb42e-818e-43cf-9840-f842bc4579e6"
+    },
+    {
+      "character": {
+        "name": "Trinity",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ce8cfc76-f7db-469e-bf79-0800723c1fc5"
+    },
+    {
+      "character": {
+        "name": "Agent Smith",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
+    },
+    {
+      "character": {
+        "name": "Oracle",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "86ce9437-91e5-459f-a4b5-a6480fafd5fe"
+    },
+    {
+      "character": {
+        "name": "Cypher",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "79ec0ceb-f615-41af-8559-3e2da184f750"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "16"
+  },
+  "releaseDate": "1999-03-01",
+  "trailer": "m8e-FF8MsqU"
+}

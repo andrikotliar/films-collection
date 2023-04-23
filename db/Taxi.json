@@ -1,0 +1,91 @@
+{
+  "id": "7bc9f348-9cb2-4241-8e55-e869cee8a42a",
+  "title": "Taxi",
+  "poster": "taxi_1",
+  "genres": [
+    "Comedy"
+  ],
+  "production": [
+    "TF1 Films Productions",
+    "ARP Selectio"
+  ],
+  "directedBy": [
+    "Gérard Pirès"
+  ],
+  "producedBy": "Luc Besson, Michele Petin, Laurent Petin",
+  "writtenBy": "Luc Besson",
+  "musicBy": "Akhenaton",
+  "cinematographyBy": "Jean-Pierre Sauvaire",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 9,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 44,
+    "suffix": "million"
+  },
+  "synopsis": "To work off his tarnished driving record, a hip taxi driver must chauffeur a loser police inspector on the trail of German bank robbers.",
+  "collections": [
+    {
+      "name": "Cars"
+    }
+  ],
+  "parts": {
+    "title": "Besson's Taxi",
+    "part": 1
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Daniel Morales",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ccc890f9-a52e-4f0e-a50a-2be19bd009f4"
+    },
+    {
+      "character": {
+        "name": "Emilien Coutant-Kerbalec",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "fc8fa2d2-1e26-46e5-8efc-bb538a5843e4"
+    },
+    {
+      "character": {
+        "name": "Lilly Bertineau",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "48f24be3-c558-4de3-b745-1b21538e4437"
+    },
+    {
+      "character": {
+        "name": "Petra",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f359b905-058e-4a71-9aaa-e349ec43331a"
+    },
+    {
+      "character": {
+        "name": "Commissaire Gibert",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "520d163f-bd2b-4c34-b97c-745da636ebf2"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "26"
+  },
+  "releaseDate": "1998-04-01",
+  "trailer": "buQxF0eIeXI"
+}

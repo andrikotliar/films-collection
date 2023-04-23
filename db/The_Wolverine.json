@@ -1,0 +1,101 @@
+{
+  "id": "d1572e38-75a2-442a-87a0-643c7d5f7707",
+  "title": "The Wolverine",
+  "poster": "wolverine",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "20th Century FOX",
+    "Marvel Entertainment"
+  ],
+  "directedBy": [
+    "James Mangold"
+  ],
+  "producedBy": "Hutch Parker, Lauren Shuler Donner",
+  "writtenBy": "Mark Bomback, Scott Frank",
+  "musicBy": "Marco Beltrami",
+  "cinematographyBy": "Ross Emery",
+  "countries": [
+    "USA",
+    "UK"
+  ],
+  "budget": {
+    "value": 132,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 415,
+    "suffix": "million"
+  },
+  "synopsis": "Wolverine comes to Japan to meet an old friend whose life he saved years ago, and gets embroiled in a conspiracy involving yakuza and mutants.",
+  "collections": [
+    {
+      "name": "Superheroes"
+    }
+  ],
+  "parts": {
+    "title": "X-Men",
+    "part": 6
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Logan",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3e2db4d6-df90-4736-9425-c1fd062d8868"
+    },
+    {
+      "character": {
+        "name": "Mariko Yashida",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "29c47ed1-94c6-4393-9355-b0ad5e98c9e7"
+    },
+    {
+      "character": {
+        "name": "Shingen Yashida",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "34ca6928-3a3c-480e-a8bd-8803543387a7"
+    },
+    {
+      "character": {
+        "name": "Yukio",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a756c8de-f4af-4aa9-9407-1fe654545622"
+    },
+    {
+      "character": {
+        "name": "Jean Grey",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8c9ab14e-14f3-45bc-ac3f-6305a8d7aa11"
+    },
+    {
+      "character": {
+        "name": "Dr. Green / Viper",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c4af2e04-55e6-4ee7-8799-66cb6b430c09"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "06"
+  },
+  "releaseDate": "2013-07-01",
+  "trailer": "toLpchTUYk8"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "efd33506-8cc8-41b4-aca9-8344b3d53f4f",
+  "title": "Hitch",
+  "poster": "hitch",
+  "genres": [
+    "Romantic comedy"
+  ],
+  "production": [
+    "Columbia Pictures"
+  ],
+  "directedBy": [
+    "Andy Tennant"
+  ],
+  "producedBy": "Will Smith, James Lassiter, Teddy Zee",
+  "writtenBy": "Kevin Bisch",
+  "musicBy": "George Fenton, Alan Elliott",
+  "cinematographyBy": "Andrew Dunn",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 70,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 368,
+    "suffix": "million"
+  },
+  "synopsis": "While helping his latest client woo the fine lady of his dreams, a professional \"date doctor\" finds that his game doesn't quite work on the gossip columnist with whom he's smitten.",
+  "collections": [
+    {
+      "name": "Life Story"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Jupiter",
+      "nominations": [
+        "Best International Actor"
+      ]
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Hitch",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0e631141-1b4a-4ed9-8325-5a1947f08404"
+    },
+    {
+      "character": {
+        "name": "Sara",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d6324ad7-dfed-40b0-911b-6cfa1d39f79c"
+    },
+    {
+      "character": {
+        "name": "Albert",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b7611baa-5dff-4dc9-982f-f9dfc474296f"
+    },
+    {
+      "character": {
+        "name": "Allegra",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "02986bb9-a8fe-42bf-a373-0da5bb88849f"
+    },
+    {
+      "character": {
+        "name": "Casey",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d14cc3fb-3cd4-4ba0-a853-2a5ff532503e"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "58"
+  },
+  "releaseDate": "2005-02-01",
+  "trailer": "pYrrEUgnT6s"
+}

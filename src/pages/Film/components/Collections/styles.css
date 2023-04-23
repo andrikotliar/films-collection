@@ -1,0 +1,6 @@
+.collections-list {
+  display: flex;
+  gap: 10px;
+  overflow-y: auto;
+  max-width: 300px;
+}

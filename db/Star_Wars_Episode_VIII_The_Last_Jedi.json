@@ -1,0 +1,134 @@
+{
+  "id": "1e27a5a7-5985-4235-bebe-324127476122",
+  "title": "Star Wars Episode VIII: The Last Jedi",
+  "poster": "star_wars_episode_VIII",
+  "genres": [
+    "SpaceOpera",
+    "Adventures"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Lucasfilm"
+  ],
+  "directedBy": [
+    "Rian Johnson"
+  ],
+  "producedBy": "Kathleen Kennedy, Ram Bergman",
+  "writtenBy": "Rian Johnson",
+  "musicBy": "John Williams",
+  "cinematographyBy": "Steve Yedlin",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 317,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.33,
+    "suffix": "billion"
+  },
+  "synopsis": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.",
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Writing",
+        "Best Actor",
+        "Best Editing"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "name": "Star Wars Universe"
+    }
+  ],
+  "parts": {
+    "title": "Star Wars Universe",
+    "part": 11
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Rey",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d38d79f6-63ce-4543-a2b4-b820fc7fbb60"
+    },
+    {
+      "character": {
+        "name": "Kylo Ren",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0aab5e43-79d6-4ffd-a921-bfd17a551394"
+    },
+    {
+      "character": {
+        "name": "Finn",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3f606ca0-e479-4cdb-9f7e-ed72d980f6f4"
+    },
+    {
+      "character": {
+        "name": "Luke Skywalker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4ff433ee-f363-4b38-8332-62b5ffece7dd"
+    },
+    {
+      "character": {
+        "name": "Leia",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3b974652-594d-4835-b73b-a497a2c849f9"
+    },
+    {
+      "character": {
+        "name": "Poe Dameron",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6322247a-311c-414e-a2ce-e5f658811569"
+    },
+    {
+      "character": {
+        "name": "Snoke",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135"
+    },
+    {
+      "character": {
+        "name": "Maz Kanata",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1c546317-ff4b-42d3-893b-7d59de3a35fc"
+    },
+    {
+      "character": {
+        "name": "Phasma",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a64e4407-72e4-44c3-889b-127f6750765a"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "32"
+  },
+  "releaseDate": "2017-12-01",
+  "trailer": "Q0CbN8sfihY"
+}

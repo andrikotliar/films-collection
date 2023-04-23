@@ -1,0 +1,132 @@
+{
+  "id": "5d20e680-612d-454c-87f9-2798db4714c9",
+  "title": "Spider-Man 3",
+  "poster": "raimi_spider_man_3",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Columbia Pictures",
+    "Marvel Enterprises"
+  ],
+  "directedBy": [
+    "Sam Raimi"
+  ],
+  "producedBy": "Avi Arad, Laura Ziskin, Grant Curtis",
+  "writtenBy": "Sam Raimi, Ivan Raimi, Alvin Sargent",
+  "musicBy": "Christopher Young",
+  "cinematographyBy": "Bill Pope",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 258,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 895,
+    "suffix": "million"
+  },
+  "synopsis": "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge.",
+  "collections": [
+    {
+      "name": "Superheroes"
+    }
+  ],
+  "parts": {
+    "title": "Raimi's Spider-Man",
+    "part": 3
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Spider-Man / Peter Parker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "deaf6b4d-ea83-4c45-ae61-4832bff20b5c"
+    },
+    {
+      "character": {
+        "name": "Mary Jane Watson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "35104a4f-627b-4c95-a2b5-09ab0b0a617b"
+    },
+    {
+      "character": {
+        "name": "New Goblin / Harry Osborn",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "05e8741b-e28e-4dce-8a03-0c33c2bc69c4"
+    },
+    {
+      "character": {
+        "name": "Sandman / Flint Marko",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9daa6fda-d979-4f27-b218-1fa9d66557b6"
+    },
+    {
+      "character": {
+        "name": "Venom / Eddie Brock",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8930977c-c882-41b1-9d0c-7a44b3466151"
+    },
+    {
+      "character": {
+        "name": "Gwen Stacy",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9bf5d841-f49e-492d-b248-b6d73f76e41e"
+    },
+    {
+      "character": {
+        "name": "May Parker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "96a9dfd1-f01e-4d2c-b8b3-e273ccf3fe6c"
+    },
+    {
+      "character": {
+        "name": "J. Jonah Jameson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3034deb0-7b15-4310-b3c8-14a06daee243"
+    },
+    {
+      "character": {
+        "name": "Captain Stacy",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e615eab2-b335-456c-9431-51a7fec8f45d"
+    },
+    {
+      "character": {
+        "name": "Dr. Curt Connors",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0ce7460c-c201-4e4c-839a-50e7da9268a5"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "19"
+  },
+  "releaseDate": "2007-04-01",
+  "trailer": "wPosLpgMtTY"
+}

@@ -1,0 +1,143 @@
+{
+  "id": "8851978e-cc87-4ca8-bcf3-7694dee1be37",
+  "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+  "poster": "narnia_1",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "production": [
+    "Walt Disney Pictures"
+  ],
+  "directedBy": [
+    "Andrew Adamson"
+  ],
+  "producedBy": "Mark Johnson, Phillip Steuer",
+  "writtenBy": "Ann Peacock, Andrew Adamson, Christopher Markus, Stephen McFeely",
+  "musicBy": "Harry Gregson-Williams",
+  "cinematographyBy": "Donald McAlpine",
+  "countries": [
+    "UK",
+    "USA"
+  ],
+  "budget": {
+    "value": 180,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 745,
+    "suffix": "million"
+  },
+  "synopsis": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Achievement in Makeup"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Make Up/Hair"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Costume",
+        "Best Make-Up"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Family Film (Live Action)"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Chronicles of Narnia",
+    "part": 1
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Lucy Pevensie",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3e49c831-a83a-4dc6-b05c-db4659e7bf01"
+    },
+    {
+      "character": {
+        "name": "Edmund Pevensie",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bb971d88-23e9-4de4-b403-aeeeeb28a4d6"
+    },
+    {
+      "character": {
+        "name": "Peter Pevensie",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6880c6e5-2f35-4d88-b5ae-3cd11910cefa"
+    },
+    {
+      "character": {
+        "name": "Susan Pevensie",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a9021910-439c-4c91-9b1d-73a8b8a30a82"
+    },
+    {
+      "character": {
+        "name": "White Witch",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "78d42ba6-0084-41f0-8c12-32560e40c79b"
+    },
+    {
+      "character": {
+        "name": "Mr. Tumnus",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8f4897bf-8957-47f7-9b1c-fe4616205de6"
+    },
+    {
+      "character": {
+        "name": "Professor Kirke",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "904469e3-d222-4e9c-be23-1cac77a68974"
+    },
+    {
+      "character": {
+        "name": "Aslan",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6f541516-898c-439d-bbc3-16aa28425e8d"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "25"
+  },
+  "releaseDate": "2005-12-01",
+  "trailer": "lWKj41HZBzM"
+}

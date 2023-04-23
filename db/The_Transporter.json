@@ -1,0 +1,92 @@
+{
+  "id": "d7b91dee-4219-4941-ac1b-194900371b04",
+  "title": "The Transporter",
+  "poster": "transporter_1",
+  "genres": [
+    "Action",
+    "Crime"
+  ],
+  "production": [
+    "EuropaCorp"
+  ],
+  "directedBy": [
+    "Louis Leterrier",
+    "Corey Yuen"
+  ],
+  "producedBy": "Luc Besson, Stephen Chasman",
+  "writtenBy": "Luc Besson, Robert Mark Kamen",
+  "musicBy": "Stenley Clark",
+  "cinematographyBy": "Pierre Morel",
+  "countries": [
+    "France"
+  ],
+  "budget": {
+    "value": 21,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 44,
+    "suffix": "million"
+  },
+  "synopsis": "Frank is hired to \"transport\" packages for unknown clients and has made a very good living doing so. But when asked to move a package that begins moving, complications arise.",
+  "collections": [
+    {
+      "name": "Cars"
+    }
+  ],
+  "parts": {
+    "title": "The Transporter",
+    "part": 1
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Frank Martin",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4a36ad60-4af7-44a4-85e7-879a11ec7b2e"
+    },
+    {
+      "character": {
+        "name": "Lai",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6418e78f-115f-4d0d-be2b-8cce366ddc5e"
+    },
+    {
+      "character": {
+        "name": "Wall Street",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0fd1fa5e-8a53-4439-a14d-6617087c7830"
+    },
+    {
+      "character": {
+        "name": "Inspector Tarconi",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "18075778-b409-47e7-8d3a-2b296d3908e3"
+    },
+    {
+      "character": {
+        "name": "Mr. Kwai",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "92158669-59a0-4b74-b424-dcc0ea2f9e5f"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "32"
+  },
+  "releaseDate": "2002-10-01",
+  "trailer": "0poXFSvX0_4"
+}

@@ -1,0 +1,167 @@
+{
+  "id": "64fa25b4-9c1d-43da-acea-b611bac37302",
+  "title": "The Martian",
+  "poster": "martian",
+  "genres": [
+    "Sci-Fi",
+    "Adventures"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "directedBy": [
+    "Ridley Scott"
+  ],
+  "producedBy": "Simon Kinberg, Ridley Scott, Michael Schaefer, Aditya Sood, Mark Huffam",
+  "writtenBy": "Drew Goddard",
+  "musicBy": "Harry Gregson-Williams",
+  "cinematographyBy": "Danusz Wolski",
+  "countries": [
+    "USA",
+    "UK"
+  ],
+  "budget": {
+    "value": 108,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 630,
+    "suffix": "million"
+  },
+  "synopsis": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.",
+  "collections": [
+    {
+      "name": "Space"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Golden Globes",
+      "nominations": [
+        "Best Motion Picture - Comedy or Musical",
+        "Best Performance by an Actor in a Motion Picture - Comedy or Musical"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Director"
+      ]
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Mark Watney",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "95da34ce-8572-4b69-a7e5-c10d81af5504"
+    },
+    {
+      "character": {
+        "name": "Melissa Lewis",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "68c1c739-b67f-4763-a026-d041bab4508b"
+    },
+    {
+      "character": {
+        "name": "Annie Montrose",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e3e5068a-c5ad-484a-93e6-ded28d61e48f"
+    },
+    {
+      "character": {
+        "name": "Teddy Sanders",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2acdc01e-e8a7-4c67-a061-47ec8ed67d26"
+    },
+    {
+      "character": {
+        "name": "Rick Martinez",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1bffcd51-f602-47df-b924-f575be9234f1"
+    },
+    {
+      "character": {
+        "name": "Mitch Henderson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f1d021e9-26d9-440c-9e19-398afd30f0e4"
+    },
+    {
+      "character": {
+        "name": "Beth Johanssen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "147beef0-2303-4b32-9c87-384a9e4a4a3c"
+    },
+    {
+      "character": {
+        "name": "Chris Beck",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6efe0990-f8c2-479e-970a-f990a42f774a"
+    },
+    {
+      "character": {
+        "name": "Alex Vogel",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6710fe9f-d4d3-49ee-a488-3afd9a8ed602"
+    },
+    {
+      "character": {
+        "name": "Vincent Kapoor",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f9adc0cc-6999-424d-a750-d5cd22ec97ae"
+    },
+    {
+      "character": {
+        "name": "Bruce Ng",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0138c730-8111-4494-bf7a-b96635ff65d2"
+    },
+    {
+      "character": {
+        "name": "Mindy Park",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9db70e27-76b9-402b-b470-e88311283e36"
+    },
+    {
+      "character": {
+        "name": "Rich Purnell",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "92196f4f-16de-4bed-a866-1c871f78fafa"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "22"
+  },
+  "releaseDate": "2015-09-01",
+  "trailer": "ej3ioOneTy8"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "9d1958d5-a3b2-4bbf-9ea9-8d580fa73db5",
+  "title": "Indiana Jones and the Last Crusade",
+  "poster": "indiana_jones_3",
+  "genres": [
+    "Adventures",
+    "Fantasy",
+    "Action"
+  ],
+  "production": [
+    "Paramount Pictures",
+    "Lucasfilm"
+  ],
+  "directedBy": [
+    "Steven Spielberg"
+  ],
+  "producedBy": "Robert Watts",
+  "writtenBy": "Jeffrey Boam, George Lucas (story)",
+  "musicBy": "John Williams",
+  "cinematographyBy": "Douglas Slocombe",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 48,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 474,
+    "suffix": "million"
+  },
+  "synopsis": "In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Professor Henry \"Indiana\" Jones, Jr. finds himself up against Adolf Hitler's Nazis again to stop them from obtaining its powers.",
+  "collections": [
+    {
+      "name": "Mysteries of the Past"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Sound Effects Editing"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best DVD Collection"
+      ]
+    },
+    {
+      "title": "Jupiter",
+      "nominations": [
+        "Best International Actor"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Indiana Jones",
+    "part": 3
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Dr. Henry «Indiana» Jones, Jr.",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80"
+    },
+    {
+      "character": {
+        "name": "Professor Henry Jones",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "15ce62dd-b330-48c1-81e5-aeb875360062"
+    },
+    {
+      "character": {
+        "name": "Marcus Brody",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6865977f-8cdb-4e4b-89a3-914ea2fa28de"
+    },
+    {
+      "character": {
+        "name": "Elsa",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bea777fc-2149-4c3f-ac13-2b2267d78236"
+    },
+    {
+      "character": {
+        "name": "Sallah",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cacd3465-d009-4fea-8c86-4c4bc266b6e5"
+    },
+    {
+      "character": {
+        "name": "Walter Donovan",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0828ff45-acce-400e-8415-85a1ecc0302b"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "07"
+  },
+  "releaseDate": "1989-09-01",
+  "trailer": "sagmdpkWUqc"
+}

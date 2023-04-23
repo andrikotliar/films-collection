@@ -1,0 +1,92 @@
+{
+  "id": "3fac3906-f99a-430d-9236-4a440b99dfa7",
+  "title": "The Matrix Resurrections",
+  "poster": "matrix_4",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Warner Bros. Pictures",
+    "Village Roadshow Pictures"
+  ],
+  "directedBy": [
+    "Lana Wachowski"
+  ],
+  "producedBy": "Grant Hill, Lana Wachowski, James McTeigue",
+  "writtenBy": "Lana Wachowski, David Mitchell, Aleksandar Hemon",
+  "musicBy": "Johnny Klimek, Tom Tykwer",
+  "cinematographyBy": "Daniele Massaccesi, John Toll",
+  "countries": [
+    "USA"
+  ],
+  "synopsis": "Plagued by strange memories, Neo's life takes an unexpected turn when he finds himself back inside the Matrix.",
+  "collections": [
+    {
+      "name": "Future"
+    }
+  ],
+  "parts": {
+    "title": "The Matrix",
+    "part": 4
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Neo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7543d97c-88d9-4319-8f10-1bc00f84b0e9"
+    },
+    {
+      "character": {
+        "name": "Trinity",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ce8cfc76-f7db-469e-bf79-0800723c1fc5"
+    },
+    {
+      "character": {
+        "name": "Sati",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7c109a47-b35a-424b-ad92-8462c4237ad6"
+    },
+    {
+      "character": {
+        "name": "Bugs",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a4d57163-8dee-4572-acf9-7900c4f7d398"
+    },
+    {
+      "character": {
+        "name": "The Analyst",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b7f6a9f6-e876-4938-84b4-6d84cfee6158"
+    },
+    {
+      "character": {
+        "name": "Morpheus",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "dab3ff0b-e5b2-41f0-9d0d-f27bc873de78"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "28"
+  },
+  "releaseDate": "2021-12-01",
+  "trailer": "9ix7TUGVYIo"
+}

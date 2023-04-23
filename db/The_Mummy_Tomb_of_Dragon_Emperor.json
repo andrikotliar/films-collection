@@ -1,0 +1,131 @@
+{
+  "id": "d68ee013-ecdb-48e5-87ea-677226bef433",
+  "title": "The Mummy: Tomb of Dragon Emperor",
+  "poster": "mummy_3",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "directedBy": [
+    "Rob Cohen"
+  ],
+  "producedBy": "Stephen Sommers, Sean Daniel",
+  "writtenBy": "Alfred Gough, Miles Millar",
+  "musicBy": "Randy Edelman",
+  "cinematographyBy": "Simon Duggan",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 145,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 401,
+    "suffix": "million"
+  },
+  "synopsis": "In the Far East, Alex O'Connell, the son of famed mummy fighters Rick and Evy O'Connell, unearths the mummy of the first Emperor of Qin -- a shape-shifting entity cursed by a witch centuries ago.",
+  "collections": [
+    {
+      "name": "Mysteries of the Past"
+    }
+  ],
+  "parts": {
+    "title": "The Mummy",
+    "part": 3
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Rick O'Connell",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3de23e91-0482-4ab0-9c13-fb63ce05d2b1"
+    },
+    {
+      "character": {
+        "name": "Emperor",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5df44a8b-c543-4f39-bc52-637578784a09"
+    },
+    {
+      "character": {
+        "name": "Evelyn O'Connell",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b45e2aeb-f69d-43b6-9a17-6cbede60bfc6"
+    },
+    {
+      "character": {
+        "name": "Jonathan Carnahan",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "920b8742-53bc-4c27-ba6a-65288909607c"
+    },
+    {
+      "character": {
+        "name": "Zi Yuan",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "25602f53-feec-43e3-8824-4273faf17a49"
+    },
+    {
+      "character": {
+        "name": "Alex O'Connell",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ee979a17-a72f-410f-988a-d6dfd4fd2791"
+    },
+    {
+      "character": {
+        "name": "Lin",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "376286bb-e5ea-4888-931c-c962b8074517"
+    },
+    {
+      "character": {
+        "name": "General Yang",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "34d2ae05-316f-4944-bfea-f58b96471794"
+    },
+    {
+      "character": {
+        "name": "Ming Guo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "417d3811-c0c7-4855-ad58-da45bcaf324c"
+    },
+    {
+      "character": {
+        "name": "Maguire",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5f2d9342-c192-478c-93c5-92dce2e87141"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "52"
+  },
+  "releaseDate": "2008-07-01",
+  "trailer": "5-4qSE2Ch0Y"
+}

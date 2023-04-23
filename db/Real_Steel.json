@@ -1,0 +1,103 @@
+{
+  "id": "2b0159d2-8948-4e84-a2b4-4815df867883",
+  "title": "Real Steel",
+  "poster": "real_steel",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "DreamWorks Pictures"
+  ],
+  "directedBy": [
+    "Shawn Levy"
+  ],
+  "producedBy": "Shawn Levy, Susan Montford, Don Murphy",
+  "writtenBy": "John Gatins",
+  "musicBy": "Danny Elfman",
+  "cinematographyBy": "Mauro Fiore",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 110,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 300,
+    "suffix": "million"
+  },
+  "synopsis": "In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot.",
+  "collections": [
+    {
+      "name": "Robots"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Charlie Kenton",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3e2db4d6-df90-4736-9425-c1fd062d8868"
+    },
+    {
+      "character": {
+        "name": "Max Kenton",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a55c462f-fef6-4523-a6fc-3012c985217f"
+    },
+    {
+      "character": {
+        "name": "Bailey Tallet",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "99d66277-33ee-47bc-874a-9390edbd1ead"
+    },
+    {
+      "character": {
+        "name": "Finn",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0"
+    },
+    {
+      "character": {
+        "name": "Ricky",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a19ebdf4-6120-4ec4-9227-97bb86e782ad"
+    },
+    {
+      "character": {
+        "name": "Aunt Debra",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "50af80e3-1919-4abe-8464-0051e239cc4e"
+    },
+    {
+      "character": {
+        "name": "Marvin",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4d78f2d9-29a4-44d3-9285-c65b82c1a447"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "07"
+  },
+  "releaseDate": "2011-09-01",
+  "trailer": "SwfmV3nn6QA"
+}

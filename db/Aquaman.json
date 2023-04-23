@@ -1,0 +1,124 @@
+{
+  "id": "c08d1fc0-8823-4a4b-ae46-1b92be8b02e3",
+  "title": "Aquaman",
+  "poster": "aquaman",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "production": [
+    "DC Entertainment",
+    "Warner Bros. Pictures"
+  ],
+  "directedBy": [
+    "James Wan"
+  ],
+  "producedBy": "Peter Safran, Rob Cowan",
+  "writtenBy": "David Leslie Johnson-McGoldrick, Will Beall",
+  "musicBy": "Rupert Gregson-Williams",
+  "cinematographyBy": "Don Burgess",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 160,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.15,
+    "suffix": "billion"
+  },
+  "synopsis": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
+  "collections": [
+    {
+      "name": "DC Extended Universe"
+    }
+  ],
+  "parts": {
+    "title": "DC Extended Universe",
+    "part": 6
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Arthur Curry / Aquaman",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bc4e2b06-01a0-4bcd-886a-bf360f90c181"
+    },
+    {
+      "character": {
+        "name": "Mera",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bb7d7377-ba2a-4e02-b135-e3b7c70c178a"
+    },
+    {
+      "character": {
+        "name": "Vulko",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4bbc8ea8-2f28-43b8-8a68-24598fd32c85"
+    },
+    {
+      "character": {
+        "name": "King Orm",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7e382d93-13f8-4002-9f50-6d13d6b08c31"
+    },
+    {
+      "character": {
+        "name": "Queen Atlanna",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "84e268fd-c575-4110-b9fd-445576e64a0d"
+    },
+    {
+      "character": {
+        "name": "King Nereus",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bc8ae44a-8083-41e2-a97f-c9664d81b8ad"
+    },
+    {
+      "character": {
+        "name": "Black Manta",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "dab3ff0b-e5b2-41f0-9d0d-f27bc873de78"
+    },
+    {
+      "character": {
+        "name": "Tom Curry",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "59046197-954c-4802-bd11-37f1c62a191e"
+    },
+    {
+      "character": {
+        "name": "Captain Murk",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bc93ba4f-0ba0-44e2-a4d0-77877fc475b9"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "23"
+  },
+  "releaseDate": "2018-11-01",
+  "trailer": "WDkg3h8PCVU"
+}

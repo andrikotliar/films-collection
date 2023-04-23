@@ -1,0 +1,119 @@
+{
+  "id": "0da04cec-1bf8-433a-b6dd-b5daa3b16d96",
+  "title": "Independence Day",
+  "poster": "independence_day",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "directedBy": [
+    "Roland Emmerich"
+  ],
+  "producedBy": "Dean Devlin",
+  "writtenBy": "Dean Devlin, Roland Emmerich",
+  "musicBy": "David Arnold",
+  "cinematographyBy": "Karl Walter Lindenlaub",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 75,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 817,
+    "suffix": "million"
+  },
+  "synopsis": "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive.",
+  "collections": [
+    {
+      "name": "Invaders"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Director",
+        "Best Special Effects"
+      ]
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Capt. Steven Hiller",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0e631141-1b4a-4ed9-8325-5a1947f08404"
+    },
+    {
+      "character": {
+        "name": "President Thomas J. Whitmore",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2449a2ef-3c99-44af-ae83-2f96799ec659"
+    },
+    {
+      "character": {
+        "name": "David Levinson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6b539e14-5cb0-4aa4-b194-4f1f240d0f64"
+    },
+    {
+      "character": {
+        "name": "Marilyn Whitmore",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "fa598310-94d8-4ca9-b215-304b5ad9d757"
+    },
+    {
+      "character": {
+        "name": "Julius Levinson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4382029a-4879-43ce-a7d8-f8f402b9e2c6"
+    },
+    {
+      "character": {
+        "name": "General William Grey",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "268cf111-e57d-43bf-97c6-300316c3ff7f"
+    },
+    {
+      "character": {
+        "name": "Russell Casse",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b87d24b2-bd89-40ca-af77-e5a70713ba4d"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "25"
+  },
+  "releaseDate": "1996-07-01",
+  "trailer": "kA2WzBi2grE"
+}

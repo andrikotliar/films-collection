@@ -1,0 +1,132 @@
+{
+  "id": "377d230e-1944-4733-97da-adac8c9aebf1",
+  "title": "Thor",
+  "poster": "thor_1",
+  "genres": [
+    "Fantasy",
+    "Action"
+  ],
+  "production": [
+    "Marvel Studios",
+    "Paramount Pictures"
+  ],
+  "directedBy": [
+    "Kenneth Branagh"
+  ],
+  "producedBy": "Kevin Feige",
+  "writtenBy": "Ashley Edward Miller, Zack Stentz, Don Payne",
+  "musicBy": "Patrick Doyle",
+  "cinematographyBy": "Haris Zambarloukos",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 449,
+    "suffix": "million"
+  },
+  "synopsis": "The powerful, but arrogant god Thor, is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
+  "collections": [
+    {
+      "name": "Marvel Cinematic Universe"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Costumes"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 4
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Thor",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5a7b31cb-f62d-44ae-85b6-21ed4c144a2d"
+    },
+    {
+      "character": {
+        "name": "Jane Foster",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0f310c3e-4e4f-41b7-9c51-61b4b5935607"
+    },
+    {
+      "character": {
+        "name": "Loki",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3f48a450-bff9-4a01-a00a-bba10e5a1e0a"
+    },
+    {
+      "character": {
+        "name": "Odin",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b8f068b0-99eb-451f-b746-f92a5dc655b1"
+    },
+    {
+      "character": {
+        "name": "Erik Selvig",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1b41f903-5993-4f31-8306-afb18e261e96"
+    },
+    {
+      "character": {
+        "name": "Darcy Lewis",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8ef45223-2a1b-42cc-98e8-db6637e88ca4"
+    },
+    {
+      "character": {
+        "name": "Agent Coulson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1a2b1db2-33d9-4755-8702-1e054532094b"
+    },
+    {
+      "character": {
+        "name": "King Laufey",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "86b4d3f8-c9d2-46df-9d95-b6cb77b055d7"
+    },
+    {
+      "character": {
+        "name": "Heimdall",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ed322351-e250-4592-a42d-18dc1e238066"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "54"
+  },
+  "releaseDate": "2011-04-01",
+  "trailer": "JOddp-nlNvQ"
+}

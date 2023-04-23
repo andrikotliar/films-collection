@@ -1,0 +1,116 @@
+{
+  "id": "cfe7f563-23b5-4f44-a6bf-785e52212d41",
+  "title": "Spider-Man",
+  "poster": "raimi_spider_man_1",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Columbia Pictures",
+    "Marvel Enterprises"
+  ],
+  "directedBy": [
+    "Sam Raimi"
+  ],
+  "producedBy": "Ian Bryce, Laura Ziskin",
+  "writtenBy": "David Koepp",
+  "musicBy": "Danny Elfman",
+  "cinematographyBy": "Don Burgess",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 139,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 825,
+    "suffix": "million"
+  },
+  "synopsis": "When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family.",
+  "collections": [
+    {
+      "name": "Superheroes"
+    }
+  ],
+  "parts": {
+    "title": "Raimi's Spider-Man",
+    "part": 1
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Spider-Man / Peter Parker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "deaf6b4d-ea83-4c45-ae61-4832bff20b5c"
+    },
+    {
+      "character": {
+        "name": "Green Goblin / Norman Osborn",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4bbc8ea8-2f28-43b8-8a68-24598fd32c85"
+    },
+    {
+      "character": {
+        "name": "Mary Jane Watson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "35104a4f-627b-4c95-a2b5-09ab0b0a617b"
+    },
+    {
+      "character": {
+        "name": "Harry Osborn",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "05e8741b-e28e-4dce-8a03-0c33c2bc69c4"
+    },
+    {
+      "character": {
+        "name": "Ben Parker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "dbba9d76-567d-4483-b19f-25212c1ffd8a"
+    },
+    {
+      "character": {
+        "name": "May Parker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "96a9dfd1-f01e-4d2c-b8b3-e273ccf3fe6c"
+    },
+    {
+      "character": {
+        "name": "J. Jonah Jameson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3034deb0-7b15-4310-b3c8-14a06daee243"
+    },
+    {
+      "character": {
+        "name": "Flash Thompson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "676eefc2-cb59-4fc1-b82f-acaaf29dde65"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "01"
+  },
+  "releaseDate": "2002-04-01",
+  "trailer": "_yhFofFZGcc"
+}

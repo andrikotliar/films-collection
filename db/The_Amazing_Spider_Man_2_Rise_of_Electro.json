@@ -1,0 +1,84 @@
+{
+  "id": "d8895f10-c1d5-49de-8110-0a1450f22f7e",
+  "title": "The Amazing Spider-Man 2: Rise of Electro",
+  "poster": "amazing_spider_man_2",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Columbia Pictures",
+    "Marvel Entertainment"
+  ],
+  "directedBy": [
+    "Marc Webb"
+  ],
+  "producedBy": "Avi Arad, Matt Tolmach",
+  "writtenBy": "Alex Kurtzman, Roberto Orci, Jeff Pinkner",
+  "musicBy": "Hans Zimmer, Pharrell Williams, Johnny Marr, Mike Einziger, Junkie XL, Steve Mazzaro, Andrew Kawczynski",
+  "cinematographyBy": "Dan Mindel",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 709,
+    "suffix": "million"
+  },
+  "synopsis": "When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones.",
+  "collections": [
+    {
+      "name": "Superheroes"
+    }
+  ],
+  "parts": {
+    "title": "The Amazing Spider-Man",
+    "part": 2
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Spider-Man / Peter Parker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c46854bf-fbc1-41f3-8178-9068a0bc8042"
+    },
+    {
+      "character": {
+        "name": "Gwen Stacy",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "87534bac-855b-43e6-a1e6-ab35f4ee0e30"
+    },
+    {
+      "character": {
+        "name": "Electro / Max Dillon",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "019133ab-0bae-49b7-a221-c4226fbedcb3"
+    },
+    {
+      "character": {
+        "name": "Green Goblin / Harry Osborn",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cb237545-9109-488f-a923-08cc14dda51b"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "22"
+  },
+  "releaseDate": "2014-04-01",
+  "trailer": "nbp3Ra3Yp74"
+}

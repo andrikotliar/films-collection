@@ -1,0 +1,243 @@
+{
+  "id": "21853ed2-e0ee-4377-ba54-881b0ac9ea7a",
+  "title": "Sherlock",
+  "poster": "sherlock",
+  "genres": [
+    "Crime",
+    "Drama",
+    "Thriller"
+  ],
+  "production": [
+    "BBC One"
+  ],
+  "createdBy": [
+    "Mark Gatiss",
+    "Steven Moffat"
+  ],
+  "producedBy": "Sue Vertue, Elaine Cameron",
+  "musicBy": "David Arnold, Michael Price",
+  "cinematographyBy": "Fabian Wagner, Steve Lawes",
+  "countries": [
+    "UK"
+  ],
+  "synopsis": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
+  "collections": [
+    {
+      "name": "Agents and Detectives"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Emmy",
+      "nominations": [
+        "Outstanding Television Movie",
+        "Outstanding Special Visual Effects in a Supporting Role",
+        "Outstanding Lead Actor in a Miniseries or a Movie",
+        "Outstanding Supporting Actor in a Miniseries or a Movie",
+        "Outstanding Writing for a Miniseries or a Dramatic Special",
+        "Outstanding Cinematography for a Miniseries or Movie",
+        "Outstanding Music Composition for a Miniseries",
+        "Movie or a Special (Original Dramatic Score)",
+        "Outstanding Single-Camera Picture Editing for a Miniseries or a Movie",
+        "Outstanding Sound Editing for a Miniseries",
+        "Movie or a Special"
+      ]
+    }
+  ],
+  "type": [
+    "Series"
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "A Study in Pink",
+          "directedBy": "Paul McGuigan",
+          "writtenBy": "Steven Moffat",
+          "releaseDate": "2010-07-25"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "The Blind Banker",
+          "directedBy": "Euros Lyn",
+          "writtenBy": "Stephen Thompson",
+          "releaseDate": "2010-08-01"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "The Great Game",
+          "directedBy": "Paul McGuigan",
+          "writtenBy": "Mark Gatiss",
+          "releaseDate": "2010-08-08"
+        }
+      ],
+      "trailer": "xK7S9mrFWL4"
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "episodeOverall": 4,
+          "episode": 1,
+          "title": "A Scandal in Belgravia",
+          "directedBy": "Paul McGuigan",
+          "writtenBy": "Steven Moffat",
+          "releaseDate": "2012-01-01"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 2,
+          "title": "The Hounds of Baskerville",
+          "directedBy": "Paul McGuigan",
+          "writtenBy": "Mark Gatiss",
+          "releaseDate": "2012-01-08"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 3,
+          "title": "The Reichenbach Fall",
+          "directedBy": "Toby Haynes",
+          "writtenBy": "Stephen Thompson",
+          "releaseDate": "2012-01-15"
+        }
+      ],
+      "trailer": "vydmN9pzDzg"
+    },
+    {
+      "season": 3,
+      "episodes": [
+        {
+          "episodeOverall": 7,
+          "episode": 1,
+          "title": "The Empty Hearse",
+          "directedBy": "Jeremy Lovering",
+          "writtenBy": "Mark Gatiss",
+          "releaseDate": "2014-01-01"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 2,
+          "title": "The Sign of Three",
+          "directedBy": "Colm McCarthy",
+          "writtenBy": "Stephen Thompson, Steven Moffat, Mark Gatiss",
+          "releaseDate": "2014-01-05"
+        },
+        {
+          "episodeOverall": 9,
+          "episode": 3,
+          "title": "His Last Vow",
+          "directedBy": "Nick Hurran",
+          "writtenBy": "Steven Moffat",
+          "releaseDate": "2014-01-12"
+        }
+      ],
+      "trailer": "9UcR9iKArd0"
+    },
+    {
+      "season": 4,
+      "episodes": [
+        {
+          "episodeOverall": 11,
+          "episode": 1,
+          "title": "The Six Thatchers",
+          "directedBy": "Rachel Talalay",
+          "writtenBy": "Mark Gatiss",
+          "releaseDate": "2017-01-01"
+        },
+        {
+          "episodeOverall": 12,
+          "episode": 2,
+          "title": "The Lying Detective",
+          "directedBy": "Nick Hurran",
+          "writtenBy": "Steven Moffat",
+          "releaseDate": "2017-01-08"
+        },
+        {
+          "episodeOverall": 13,
+          "episode": 3,
+          "title": "The Final Problem",
+          "directedBy": "Benjamin Caron",
+          "writtenBy": "Mark Gatiss, Steven Moffat",
+          "releaseDate": "2017-01-15"
+        }
+      ],
+      "trailer": "FOXZgRTfSUA"
+    }
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Sherlock Holmes",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b6c1e5b5-b534-438e-8ac1-a6bc0b901ac8"
+    },
+    {
+      "character": {
+        "name": "Dr. John Watson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3ac110d8-83ac-40a6-b22f-7537190f750b"
+    },
+    {
+      "character": {
+        "name": "Mrs. Hudson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f2ceae2a-1ea6-4607-972a-3747d9bc856d"
+    },
+    {
+      "character": {
+        "name": "DI Lestrade",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f7acd1f7-bce9-4c7b-ba9a-70a2f9d92918"
+    },
+    {
+      "character": {
+        "name": "Molly Hooper",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a66caead-b451-49ed-81c7-d38041e686b3"
+    },
+    {
+      "character": {
+        "name": "Mycroft Holmes",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "59ae6a9d-6005-4671-a78e-e938bea07fb7"
+    },
+    {
+      "character": {
+        "name": "Jim Moriarty",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "abb8c5f9-1623-4d3e-806e-7f5e8de4fc1d"
+    },
+    {
+      "character": {
+        "name": "Mary Watson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3df8cd50-093e-4edb-a3d3-b6e4b282a9ec"
+    }
+  ],
+  "duration": {
+    "hours": "17",
+    "minutes": "00"
+  },
+  "releaseDate": "2010-07-01"
+}

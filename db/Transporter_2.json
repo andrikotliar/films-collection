@@ -1,0 +1,123 @@
+{
+  "id": "472e6373-c27a-4685-b6b3-31360b324e44",
+  "title": "Transporter 2",
+  "poster": "transporter_2",
+  "genres": [
+    "Action",
+    "Crime"
+  ],
+  "production": [
+    "EuropaCorp"
+  ],
+  "directedBy": [
+    "Louis Leterrier"
+  ],
+  "producedBy": "Luc Besson, Stephen Chasman",
+  "writtenBy": "Luc Besson, Robert Mark Kamen",
+  "musicBy": "Alexandre Azaria",
+  "cinematographyBy": "Mitchell Amundsen",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 32,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 85,
+    "suffix": "million"
+  },
+  "synopsis": "Mercenary Frank Martin, who specializes moving goods of all kinds, surfaces again this time in Miami, Florida when he's implicated in the kidnapping of the young son of a powerful USA official.",
+  "collections": [
+    {
+      "name": "Cars"
+    }
+  ],
+  "parts": {
+    "title": "The Transporter",
+    "part": 2
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Frank Martin",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4a36ad60-4af7-44a4-85e7-879a11ec7b2e"
+    },
+    {
+      "character": {
+        "name": "Gianni Chellini",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "166573f3-a7c3-47c3-9a48-64c8921a4f80"
+    },
+    {
+      "character": {
+        "name": "Audrey Billings",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "02986bb9-a8fe-42bf-a373-0da5bb88849f"
+    },
+    {
+      "character": {
+        "name": "Lola",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3118643f-d7e1-4b84-83a5-8a4d40d4625e"
+    },
+    {
+      "character": {
+        "name": "Jefferson Billings",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "104dc564-1273-4cee-8228-6ebddfad5506"
+    },
+    {
+      "character": {
+        "name": "Dimitri",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "bebd0e6a-9671-4a95-ad7a-182b595e3d40"
+    },
+    {
+      "character": {
+        "name": "Stappleton",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "11de0615-6faf-461b-9b3b-6e6662f084c0"
+    },
+    {
+      "character": {
+        "name": "Jack Billings",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "50422e54-66b2-440d-8c36-1ab4fbdffef8"
+    },
+    {
+      "character": {
+        "name": "Inspector Tarconi",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "18075778-b409-47e7-8d3a-2b296d3908e3"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "27"
+  },
+  "releaseDate": "2005-08-01",
+  "trailer": "sYJ5LDoWRT4"
+}

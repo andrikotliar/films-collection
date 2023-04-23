@@ -1,0 +1,136 @@
+{
+  "id": "10b0f07f-6286-4173-9e7f-accaa263699d",
+  "title": "Ready Player One",
+  "poster": "ready_player_one",
+  "genres": [
+    "Sci-Fi",
+    "Adventures"
+  ],
+  "production": [
+    "Warner Bros. Pictures",
+    "Amblin Entertainment"
+  ],
+  "directedBy": [
+    "Steven Spielberg"
+  ],
+  "producedBy": "Donald De Line, Dan Farah",
+  "writtenBy": "Zak Penn, Ernest Cline",
+  "musicBy": "Alan Silvestri",
+  "cinematographyBy": "Janusz Kaminski",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 175,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 582,
+    "suffix": "million"
+  },
+  "synopsis": "When the creator of a virtual reality world called the OASIS dies, he releases a video in which he challenges all OASIS users to find his Easter Egg, which will give the finder his fortune",
+  "collections": [
+    {
+      "name": "Future"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film"
+      ]
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Parzival / Wade",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8ed4060f-04cd-4a2f-8006-6198159b22d0"
+    },
+    {
+      "character": {
+        "name": "Art3mis / Samantha",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "84b50a35-88a3-4dec-938e-f33e36dc1e93"
+    },
+    {
+      "character": {
+        "name": "Sorrento",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c001e778-8f5f-4626-983c-e492f2a1bb3e"
+    },
+    {
+      "character": {
+        "name": "Aech / Helen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7ca74401-03c7-4ddc-8aa1-ca2fd15a32d0"
+    },
+    {
+      "character": {
+        "name": "I-R0k",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "aeea5387-89bf-4fd7-a9b9-85f6b4537a57"
+    },
+    {
+      "character": {
+        "name": "Curator / Ogden Morrow",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "265bd112-e4bd-4d75-878c-cd5c60d2d034"
+    },
+    {
+      "character": {
+        "name": "Anorak / Halliday",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c707791f-9c30-4064-a58c-8ac30e9fe3d5"
+    },
+    {
+      "character": {
+        "name": "Sho",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "def92beb-3e50-4552-b3fb-5cba4724dd79"
+    },
+    {
+      "character": {
+        "name": "Daito",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9c89d816-71b5-4997-8024-2eac807fc7c3"
+    },
+    {
+      "character": {
+        "name": "F'Nale Zandor",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "23ed1b6c-63ab-4111-a1cc-f8923fc3153c"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "20"
+  },
+  "releaseDate": "2018-03-01",
+  "trailer": "cSp1dM2Vj48"
+}

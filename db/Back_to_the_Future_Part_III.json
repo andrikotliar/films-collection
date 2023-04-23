@@ -1,0 +1,83 @@
+{
+  "id": "1faed43c-7eb8-4185-8096-9ac8d0375e5a",
+  "title": "Back to the Future: Part III",
+  "poster": "back_to_the_future_3",
+  "genres": [
+    "Sci-Fi",
+    "Adventures"
+  ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "directedBy": [
+    "Robert Zemeckis"
+  ],
+  "producedBy": "Bob Gale, Neil Canton",
+  "writtenBy": "Bob Gale",
+  "musicBy": "Alan Silvestri",
+  "cinematographyBy": "Dean Cundey",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 40,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 245,
+    "suffix": "million"
+  },
+  "synopsis": "Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about to be killed by Buford \"Mad Dog\"Tannen. Marty McFly travels back in time to save his friend.",
+  "collections": [
+    {
+      "name": "Legends"
+    }
+  ],
+  "parts": {
+    "title": "Back to the Future",
+    "part": 3
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Marty McFly",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1864f0e9-50d2-42b5-ac38-5086f6cae1da"
+    },
+    {
+      "character": {
+        "name": "Dr. Emmett Brown",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e77d7157-1cfb-4afd-8aaa-dacbe0e31488"
+    },
+    {
+      "character": {
+        "name": "Clara Clayton",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "68a9bb69-a7d9-46ef-8e85-844fdbaa752e"
+    },
+    {
+      "character": {
+        "name": "Biff Tannen / Griff Tannen",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a85784f1-b798-4b6f-879e-8d89c5d6b369"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "58"
+  },
+  "releaseDate": "1990-05-01",
+  "trailer": "EYkguxpqsrg"
+}

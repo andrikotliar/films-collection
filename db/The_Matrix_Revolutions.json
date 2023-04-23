@@ -1,0 +1,116 @@
+{
+  "id": "bde56512-c674-4e3d-9d75-b3abbaa4e40f",
+  "title": "The Matrix Revolutions",
+  "poster": "matrix_3",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Warner Bros. Pictures"
+  ],
+  "directedBy": [
+    "The Wachowski Brothers"
+  ],
+  "producedBy": "Joel Silver",
+  "writtenBy": "The Wachowski Brothers",
+  "musicBy": "Don Davis",
+  "cinematographyBy": "Bill Pope",
+  "countries": [
+    "USA",
+    "Australia"
+  ],
+  "budget": {
+    "value": 110,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 427,
+    "suffix": "million"
+  },
+  "synopsis": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith.",
+  "collections": [
+    {
+      "name": "Future"
+    }
+  ],
+  "parts": {
+    "title": "The Matrix",
+    "part": 3
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Neo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7543d97c-88d9-4319-8f10-1bc00f84b0e9"
+    },
+    {
+      "character": {
+        "name": "Morpheus",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d5cfb42e-818e-43cf-9840-f842bc4579e6"
+    },
+    {
+      "character": {
+        "name": "Trinity",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ce8cfc76-f7db-469e-bf79-0800723c1fc5"
+    },
+    {
+      "character": {
+        "name": "Agent Smith",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
+    },
+    {
+      "character": {
+        "name": "Oracle",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "833b0e41-00e8-4c9b-9d17-d4510f0b86ee"
+    },
+    {
+      "character": {
+        "name": "Niobe",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9e504ddc-91b4-45c1-a321-c5e7f40999d9"
+    },
+    {
+      "character": {
+        "name": "Lock",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2cca1667-07db-451b-a853-9c4f1bd28cf3"
+    },
+    {
+      "character": {
+        "name": "Link",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "85dcf65e-0034-4b73-9165-4813486e5f90"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "09"
+  },
+  "releaseDate": "2003-11-01",
+  "trailer": "hMbexEPAOQI"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "5c49b674-d4e8-4f48-ba4d-50ffde77badd",
+  "title": "Klaus",
+  "poster": "klaus",
+  "genres": [
+    "Adventures",
+    "Comedy"
+  ],
+  "production": [
+    "The SPA Studios",
+    "Atresmedia Cine"
+  ],
+  "directedBy": [
+    "Sergio Pablos",
+    "Carlos Martínez López"
+  ],
+  "producedBy": "Sara Coca, Gustavo Ferra, Mikel Lejarzad, Mercedes Gamero, Matthew Teevan",
+  "writtenBy": "Sergio Pablos, Jim Mahone, Zach Lewisy,",
+  "musicBy": "Alfonso G. Aguilar",
+  "countries": [
+    "Spain",
+    "UK"
+  ],
+  "budget": {
+    "value": 40,
+    "suffix": "million (estimated)"
+  },
+  "synopsis": "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Jesper",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f26f7564-fa99-45cc-9374-cbab8b98aef0"
+    },
+    {
+      "character": {
+        "name": "Klaus",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3034deb0-7b15-4310-b3c8-14a06daee243"
+    },
+    {
+      "character": {
+        "name": "Alva",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ef5e84b0-436b-45bd-ad69-10b4ec6373c7"
+    },
+    {
+      "character": {
+        "name": "Mr. Ellingboe",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "42624484-9e9b-4ffc-a510-9358264f60df"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "36"
+  },
+  "releaseDate": "2019-11-01",
+  "trailer": "taE3PwurhYM"
+}

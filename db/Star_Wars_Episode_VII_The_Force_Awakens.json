@@ -1,0 +1,145 @@
+{
+  "id": "a4da0ce2-0003-4787-8e5d-6dee9a8e6bec",
+  "title": "Star Wars Episode VII: The Force Awakens",
+  "poster": "star_wars_episode_VII",
+  "genres": [
+    "SpaceOpera",
+    "Adventures"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Lucasfilm"
+  ],
+  "directedBy": [
+    "J.J. Abrams"
+  ],
+  "producedBy": "Kathleen Kennedy, J. J. Abrams, Bryan Burk",
+  "writtenBy": "Lawrence Kasdan, J. J. Abrams, Michael Arndt",
+  "musicBy": "John Williams",
+  "cinematographyBy": "Dan Mindel",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 306,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 2.07,
+    "suffix": "billion"
+  },
+  "synopsis": "Three decades after the Empire's defeat, a new threat arises in the militant First Order. Stormtrooper defector Finn and the scavenger Rey are caught up in the Resistance's search for the missing Luke Skywalker.",
+  "awards": [
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Achievement in Special Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Writing",
+        "Best Actor",
+        "Best Supporting Actor",
+        "Best Music",
+        "Best Editing",
+        "Best Make-Up",
+        "Best Special Effects"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "name": "Star Wars Universe"
+    }
+  ],
+  "parts": {
+    "title": "Star Wars Universe",
+    "part": 10
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Rey",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d38d79f6-63ce-4543-a2b4-b820fc7fbb60"
+    },
+    {
+      "character": {
+        "name": "Kylo Ren",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0aab5e43-79d6-4ffd-a921-bfd17a551394"
+    },
+    {
+      "character": {
+        "name": "Finn",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3f606ca0-e479-4cdb-9f7e-ed72d980f6f4"
+    },
+    {
+      "character": {
+        "name": "Han Solo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80"
+    },
+    {
+      "character": {
+        "name": "Luke Skywalker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4ff433ee-f363-4b38-8332-62b5ffece7dd"
+    },
+    {
+      "character": {
+        "name": "Leia",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3b974652-594d-4835-b73b-a497a2c849f9"
+    },
+    {
+      "character": {
+        "name": "Poe Dameron",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6322247a-311c-414e-a2ce-e5f658811569"
+    },
+    {
+      "character": {
+        "name": "Snoke",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135"
+    },
+    {
+      "character": {
+        "name": "Chewbacca",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b8f8ccea-b603-4414-8cf3-0d64cea77c19"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "15"
+  },
+  "releaseDate": "2015-12-01",
+  "trailer": "sGbxmsDFVnE"
+}

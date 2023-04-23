@@ -1,0 +1,116 @@
+{
+  "id": "48c28aa8-69aa-4a1a-bb19-7bd486d4c0d8",
+  "title": "Pirates of the Caribbean: At World's End",
+  "poster": "pirates_3",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Jerry Bruckheimer Films"
+  ],
+  "directedBy": [
+    "Gore Verbinski"
+  ],
+  "producedBy": "Jerry Bruckheimer",
+  "writtenBy": "Ted Elliott, Terry Rossio",
+  "musicBy": "Hans Zimmer",
+  "cinematographyBy": "Dariusz Wolski",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 300,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 963,
+    "suffix": "million"
+  },
+  "synopsis": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Make-Up"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Pirates of the Caribbean",
+    "part": 3
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Captain Jack Sparrow",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e2d2c602-347d-41a4-8f35-a3d379043577"
+    },
+    {
+      "character": {
+        "name": "Captain Hector Barbossa",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ed136d46-6d12-4343-ba41-0014e7f0e171"
+    },
+    {
+      "character": {
+        "name": "Will Turner",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9477d178-9893-44f0-9553-10119753c95f"
+    },
+    {
+      "character": {
+        "name": "Elizabeth Swann",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "09852405-f549-42e3-b781-8797340be64c"
+    },
+    {
+      "character": {
+        "name": "Norrington",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "35ca00e5-be27-4b73-a176-a4a09ea0c6a8"
+    },
+    {
+      "character": {
+        "name": "Davy Jones",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cfbe578b-11d9-404e-8320-5d9ec2b4f06d"
+    },
+    {
+      "character": {
+        "name": "Governor Weatherby Swann",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e33e9ef2-ee2e-497c-bfab-ff1f26118425"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "48"
+  },
+  "releaseDate": "2007-05-01",
+  "trailer": "HKSZtp_OGHY"
+}

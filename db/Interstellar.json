@@ -1,0 +1,127 @@
+{
+  "id": "bfc78062-1111-4eed-8c0f-17adc2e60557",
+  "title": "Interstellar",
+  "poster": "interstellar",
+  "genres": [
+    "Sci-Fi",
+    "Drama"
+  ],
+  "production": [
+    "Paramount Pictures",
+    "Warner Bros. Pictures"
+  ],
+  "directedBy": [
+    "Cristopher Nolan"
+  ],
+  "producedBy": "Cristopher Nolan, Lynda Obst, Emma Thomas",
+  "writtenBy": "Jonathan Nolan, Cristopher Nolan",
+  "musicBy": "Hans Zimmer",
+  "cinematographyBy": "Hoyte Van Hoytema",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 165,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 677,
+    "suffix": "million"
+  },
+  "synopsis": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+  "collections": [
+    {
+      "name": "Space"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Achievement in Visual Effects"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Special Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Production Design",
+        "Best Special Effects",
+        "Best Performance by a Younger Actor",
+        "Best Writing",
+        "Best Music"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Sci-Fi/Horror Movie"
+      ]
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Cooper",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ec4fdff0-0b03-45c8-bae9-fbb995da70d7"
+    },
+    {
+      "character": {
+        "name": "Murph",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "68c1c739-b67f-4763-a026-d041bab4508b"
+    },
+    {
+      "character": {
+        "name": "Murph (10 yrs.)",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d31e40c6-fbf7-4c26-91b4-8c25e004d4f8"
+    },
+    {
+      "character": {
+        "name": "Brand",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "190f4f7a-0b36-4e9f-adde-3ac7653f3df6"
+    },
+    {
+      "character": {
+        "name": "Professor Brand",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "87d38720-3045-4fad-9302-75ddc6e847d1"
+    },
+    {
+      "character": {
+        "name": "Mann",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "95da34ce-8572-4b69-a7e5-c10d81af5504"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "49"
+  },
+  "releaseDate": "2014-11-01",
+  "trailer": "zSWdZVtXT7E"
+}

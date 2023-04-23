@@ -1,0 +1,115 @@
+{
+  "id": "1e7f290c-b03b-412d-99ea-7670eef1c0d6",
+  "title": "Madagascar: Escape 2 Africa",
+  "poster": "madagascar_2",
+  "genres": [
+    "Adventures",
+    "Comedy"
+  ],
+  "production": [
+    "DreamWorks Animation"
+  ],
+  "directedBy": [
+    "Eric Darnell",
+    "Tom McGrath"
+  ],
+  "producedBy": "Mireille Soria, Mark Swift",
+  "writtenBy": "Etan Cohen, Eric Darnell, Tom McGrath",
+  "musicBy": "Hans Zimmer",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 604,
+    "suffix": "million"
+  },
+  "synopsis": "The Madagascar animals fly back to New York City, but crash-land on an African nature reserve, where they meet others of their own kind, and Alex especially discovers his royal heritage as prince of a lion pride.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "parts": {
+    "title": "Madagascar",
+    "part": 2
+  },
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Alex",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a30ab878-3936-4e10-8c58-a5c0fe9f9146"
+    },
+    {
+      "character": {
+        "name": "Marty",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "653c1c5c-0093-483f-97b7-bb93107cf469"
+    },
+    {
+      "character": {
+        "name": "Melman",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0822f145-f313-4d3a-a34c-acbb77593566"
+    },
+    {
+      "character": {
+        "name": "Gloria",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9e504ddc-91b4-45c1-a321-c5e7f40999d9"
+    },
+    {
+      "character": {
+        "name": "Julien",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "dda11932-ed49-4f73-8b6f-c6949a5079b5"
+    },
+    {
+      "character": {
+        "name": "Maurice",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b653a4f7-1945-4f56-b9a8-f8eb7b5c4429"
+    },
+    {
+      "character": {
+        "name": "Zuba",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e1b176c6-c14c-41de-92c3-e5769d65ba89"
+    },
+    {
+      "character": {
+        "name": "Makunga",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "fec867a8-35ae-4586-8add-02de4e0d9725"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "29"
+  },
+  "releaseDate": "2008-10-01",
+  "trailer": "hLVjIhPYq7s"
+}

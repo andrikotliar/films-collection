@@ -1,0 +1,132 @@
+{
+  "id": "2dcb59af-7f6b-40b0-9938-e82b59dee295",
+  "title": "Captain America: The First Avenger",
+  "poster": "captain_america_1",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Marvel Studios",
+    "Paramount Pictures"
+  ],
+  "directedBy": [
+    "Joe Johnston"
+  ],
+  "producedBy": "Kevin Feige",
+  "writtenBy": "Christopher Markus, Stephen McFeely",
+  "musicBy": "Alan Silvestri",
+  "cinematographyBy": "Shelly Johnson",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 140,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 371,
+    "suffix": "million"
+  },
+  "synopsis": "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
+  "collections": [
+    {
+      "name": "Marvel Cinematic Universe"
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 5
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Captain America / Steve Rogers",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "38541020-9829-440f-a21b-caf46d2d9428"
+    },
+    {
+      "character": {
+        "name": "Peggy Carter",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6cc700ae-5188-4d37-b03e-c0dd08fc7465"
+    },
+    {
+      "character": {
+        "name": "James Buchanan 'Bucky' Barnes",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6efe0990-f8c2-479e-970a-f990a42f774a"
+    },
+    {
+      "character": {
+        "name": "Colonel Chester Phillips",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "331a7b7e-753a-4546-aa4e-0ef3da3e5d8e"
+    },
+    {
+      "character": {
+        "name": "Johann Schmidt / Red Skull",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
+    },
+    {
+      "character": {
+        "name": "Howard Stark",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "48047421-83ba-4ea8-9f7d-c8f4e98dad79"
+    },
+    {
+      "character": {
+        "name": "Heinz Kruger",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a1065b71-c84c-4d85-bad6-965dcaa026c0"
+    },
+    {
+      "character": {
+        "name": "Dr. Abraham Erskine",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "817b87ee-34b6-404e-8ca1-6227de6e364d"
+    },
+    {
+      "character": {
+        "name": "Nick Fury",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "65e7e9e0-8e37-4237-9b23-a1f8a2d09147"
+    },
+    {
+      "character": {
+        "name": "Dr. Arnim Zola",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c6053d3e-33c2-43a7-9d7d-4d6cf7bc5b71"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "04"
+  },
+  "releaseDate": "2011-07-01",
+  "trailer": "JerVrbLldXw"
+}

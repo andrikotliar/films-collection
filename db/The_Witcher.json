@@ -1,0 +1,253 @@
+{
+  "id": "638609e6-a38a-4925-8b43-9b28c50c4461",
+  "title": "The Witcher",
+  "poster": "witcher",
+  "genres": [
+    "Adventures",
+    "Fantasy"
+  ],
+  "production": [
+    "Netflix"
+  ],
+  "createdBy": [
+    "Lauren Schmidt"
+  ],
+  "producedBy": "Mike Ostrowski",
+  "musicBy": "Sonya Belousova, Giona Ostinelli, Joseph Trapanese",
+  "cinematographyBy": "Jean-Philippe Gossart, Gavin Struthers, Romain Lacourbas",
+  "countries": [
+    "USA",
+    "Poland",
+    "Hungary"
+  ],
+  "synopsis": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "type": [
+    "Series"
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "The End's Beginning",
+          "directedBy": "Alik Sakharov",
+          "writtenBy": "Lauren Schmidt Hissrich",
+          "releaseDate": "2019-12-20"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Four Marks",
+          "directedBy": "Alik Sakharov",
+          "writtenBy": "Jenny Klein",
+          "releaseDate": "2019-12-20"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Betrayer Moon",
+          "directedBy": "Alex Garcia Lopez",
+          "writtenBy": "Beau DeMayo",
+          "releaseDate": "2019-12-20"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "Of Banquets, Bastards, Burials",
+          "directedBy": "Alex Garcia Lopez",
+          "writtenBy": "Declan de Barra",
+          "releaseDate": "2019-12-20"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Bottled Appetites",
+          "directedBy": "Charlotte Brändström",
+          "writtenBy": "Sneha Koorse",
+          "releaseDate": "2019-12-20"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "Rare Species",
+          "directedBy": "Charlotte Brändström",
+          "writtenBy": "Haily Hall",
+          "releaseDate": "2019-12-20"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "Before a Fall",
+          "directedBy": "Alik Sakharov, Marc Jobst",
+          "writtenBy": "Mike Ostrowski",
+          "releaseDate": "2019-12-20"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "Much More",
+          "directedBy": "Marc Jobst",
+          "writtenBy": "Lauren Schmidt Hissrich",
+          "releaseDate": "2019-12-20"
+        }
+      ],
+      "trailer": "ndl1W4ltcmg"
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "episodeOverall": 9,
+          "episode": 1,
+          "title": "A Grain of Truth",
+          "directedBy": "Stephen Surjik",
+          "writtenBy": "Declan de Barra",
+          "releaseDate": "2021-12-17"
+        },
+        {
+          "episodeOverall": 10,
+          "episode": 2,
+          "title": "Kaer Morhen",
+          "directedBy": "Stephen Surjik",
+          "writtenBy": "Beau DeMayo",
+          "releaseDate": "2021-12-17"
+        },
+        {
+          "episodeOverall": 11,
+          "episode": 3,
+          "title": "What Is Lost",
+          "directedBy": "Sarah O'Gorman",
+          "writtenBy": "Lauren Schmidt Hissrich, Clare Higgins",
+          "releaseDate": "2021-12-17"
+        },
+        {
+          "episodeOverall": 12,
+          "episode": 4,
+          "title": "Redanian Intelligence",
+          "directedBy": "Sarah O'Gorman",
+          "writtenBy": "Sneha Koorse",
+          "releaseDate": "2021-12-17"
+        },
+        {
+          "episodeOverall": 13,
+          "episode": 5,
+          "title": "Turn Your Back",
+          "directedBy": "Ed Bazalgette",
+          "writtenBy": "Haily Hall",
+          "releaseDate": "2021-12-17"
+        },
+        {
+          "episodeOverall": 14,
+          "episode": 6,
+          "title": "Dear Friend",
+          "directedBy": "Louise Hooper",
+          "writtenBy": "Matthew D'Ambrosio",
+          "releaseDate": "2021-12-17"
+        },
+        {
+          "episodeOverall": 15,
+          "episode": 7,
+          "title": "Voleth Meir",
+          "directedBy": "Louise Hooper",
+          "writtenBy": "Mike Ostrowski",
+          "releaseDate": "2021-12-17"
+        },
+        {
+          "episodeOverall": 16,
+          "episode": 8,
+          "title": "Family",
+          "directedBy": "Ed Bazalgette",
+          "writtenBy": "Lauren Schmidt Hissrich",
+          "releaseDate": "2021-12-17"
+        }
+      ],
+      "trailer": "2aMVzFlApa0"
+    }
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Geralt of Rivia",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e92d7fd1-edce-45e3-8d2b-b35443ac770d"
+    },
+    {
+      "character": {
+        "name": "Ciri",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1ccfdd54-80d5-4a9d-b01c-1827ebfe733e"
+    },
+    {
+      "character": {
+        "name": "Yennefer",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c64b7696-9f95-4197-b365-0127471fd364"
+    },
+    {
+      "character": {
+        "name": "Tissaia",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "08320a0b-f753-44b5-88b2-d41bea4b129b"
+    },
+    {
+      "character": {
+        "name": "Dara",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a662b6de-a31d-4959-9b88-6f4d946a57c8"
+    },
+    {
+      "character": {
+        "name": "Mousesack",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d4ccc491-3e27-464c-9e70-c56c9125f875"
+    },
+    {
+      "character": {
+        "name": "Stregobor",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "333d379b-3fd0-4310-9b61-f239c925586d"
+    },
+    {
+      "character": {
+        "name": "Istredd",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "36d00d9e-f23a-4425-ae66-fc0de06cf3bc"
+    },
+    {
+      "character": {
+        "name": "Queen Calanthe",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0b2e1797-7378-4e20-9828-a27a1e44603a"
+    }
+  ],
+  "duration": {
+    "hours": "08",
+    "minutes": "00"
+  },
+  "releaseDate": "2019-12-01"
+}

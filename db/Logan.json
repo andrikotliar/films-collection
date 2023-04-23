@@ -1,0 +1,138 @@
+{
+  "id": "719243d1-03bc-4bbd-ab4d-02b7bc090a2a",
+  "title": "Logan",
+  "poster": "logan",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "20th Century FOX",
+    "Marvel Entertainment"
+  ],
+  "directedBy": [
+    "James Mangold"
+  ],
+  "producedBy": "Lauren Shuler Donner, Simon Kinberg",
+  "writtenBy": "Scott Frank, James Mangold, Michael Green",
+  "musicBy": "Marco Beltrami",
+  "cinematographyBy": "John Mathieson",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 97,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 619,
+    "suffix": "million"
+  },
+  "synopsis": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
+  "collections": [
+    {
+      "name": "Superheroes"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Supporting Actor (Patrick Stewart)"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Duo"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "X-Men",
+    "part": 9
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Logan / X-24",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3e2db4d6-df90-4736-9425-c1fd062d8868"
+    },
+    {
+      "character": {
+        "name": "Charles",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "76c48e8a-834b-4683-a406-f2b72f99a39b"
+    },
+    {
+      "character": {
+        "name": "Laura",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "41541ca6-dc66-4991-b4b4-d6ee2c0396bd"
+    },
+    {
+      "character": {
+        "name": "Pierce",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9a6e8f54-0a81-4b00-a1c0-70aed9470f0f"
+    },
+    {
+      "character": {
+        "name": "Caliban",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "47d2c17c-94f4-47b8-b5eb-803eb79bc3f5"
+    },
+    {
+      "character": {
+        "name": "Gabriela",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2fa4a107-9d10-4ea8-9192-c0878f939695"
+    },
+    {
+      "character": {
+        "name": "Dr. Rice",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c87df396-657b-4c7b-9a59-63af0cac7886"
+    },
+    {
+      "character": {
+        "name": "Will Munson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b204b999-876b-4a62-8c4b-a35c2ea5a682"
+    },
+    {
+      "character": {
+        "name": "Kathryn Munson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "fcd1de6d-147f-4800-9ef7-d116ab590804"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "17"
+  },
+  "releaseDate": "2017-03-01",
+  "trailer": "Div0iP65aZo"
+}

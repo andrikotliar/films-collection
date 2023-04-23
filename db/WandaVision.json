@@ -1,0 +1,182 @@
+{
+  "id": "30275425-9e93-40cf-af58-de75dc17e238",
+  "title": "WandaVision",
+  "poster": "wandavision",
+  "genres": [
+    "Action",
+    "Drama"
+  ],
+  "production": [
+    "Disney+",
+    "Marvel Studios"
+  ],
+  "createdBy": [
+    "Matt Shakman"
+  ],
+  "producedBy": "Chuck Hayward",
+  "musicBy": "Christophe Beck, Alex Kovacs",
+  "cinematographyBy": "Jess Hall",
+  "countries": [
+    "USA"
+  ],
+  "synopsis": "Blends the style of classic sitcoms with the MCU, in which Wanda Maximoff and Vision - two super-powered beings living their ideal suburban lives - begin to suspect that everything is not as it seems.",
+  "awards": [
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Show",
+        "Best Performance in a Show (Elizabeth Olsen)",
+        "Best Villain (Kathryn Hahn)",
+        "Best Fight",
+        "Best Hero (Teyonah Parris)"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "name": "Marvel Cinematic Universe"
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 24
+  },
+  "type": [
+    "Series"
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "Filmed Before a Live Studio Audience",
+          "directedBy": "Matt Shakman",
+          "writtenBy": "Jac Schaeffer",
+          "releaseDate": "2021-01-15"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Don't Touch That Dial",
+          "directedBy": "Matt Shakman",
+          "writtenBy": "Gretchen Enders",
+          "releaseDate": "2021-01-15"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Now in Color",
+          "directedBy": "Matt Shakman",
+          "writtenBy": "Megan McDonnell",
+          "releaseDate": "2021-01-22"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "We Interrupt This Program",
+          "directedBy": "Matt Shakman",
+          "writtenBy": "Bobak Esfarjani, Megan McDonnell",
+          "releaseDate": "2021-01-29"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "On a Very Special Episode...",
+          "directedBy": "Matt Shakman",
+          "writtenBy": "Peter Cameron, Mackenzie Dohr",
+          "releaseDate": "2021-02-05"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "All-New Halloween Spooktacular!",
+          "directedBy": "Matt Shakman",
+          "writtenBy": "Chuck Hayward, Peter Cameron",
+          "releaseDate": "2021-02-12"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "Breaking the Fourth Wall",
+          "directedBy": "Matt Shakman",
+          "writtenBy": "Cameron Squires",
+          "releaseDate": "2021-02-19"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "Previously On",
+          "directedBy": "Matt Shakman",
+          "writtenBy": "Laura Donney",
+          "releaseDate": "2021-02-26"
+        },
+        {
+          "episodeOverall": 9,
+          "episode": 9,
+          "title": "The Series Finale",
+          "directedBy": "Matt Shakman",
+          "writtenBy": "Jac Schaeffer",
+          "releaseDate": "2021-03-05"
+        }
+      ],
+      "trailer": "sj9J2ecsSpo"
+    }
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Wanda Maximoff / Scarlet Witch",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f08bca90-8dc3-440a-a32a-4647bdf4d828"
+    },
+    {
+      "character": {
+        "name": "Vision",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7a77d424-0788-4e65-9596-e60d483cf264"
+    },
+    {
+      "character": {
+        "name": "Agatha Harkness",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a4b05dba-4bbc-4fcf-a6f1-4fec23f7c586"
+    },
+    {
+      "character": {
+        "name": "Monica Rambeau",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "87b36a08-ac4b-464a-be36-3bea73185c73"
+    },
+    {
+      "character": {
+        "name": "Jimmy Woo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "deb1161d-f4a0-402e-9353-2c8025b1f0fe"
+    },
+    {
+      "character": {
+        "name": "Darcy Lewis",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8ef45223-2a1b-42cc-98e8-db6637e88ca4"
+    }
+  ],
+  "duration": {
+    "hours": "05",
+    "minutes": "50"
+  },
+  "releaseDate": "2021-01-01"
+}

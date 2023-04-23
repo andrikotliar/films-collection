@@ -1,0 +1,127 @@
+{
+  "id": "2e070694-1082-49cb-875d-721e5ec7c2d2",
+  "title": "Pirates of the Caribbean: Dead Man's Chest",
+  "poster": "pirates_2",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Jerry Bruckheimer Films"
+  ],
+  "directedBy": [
+    "Gore Verbinski"
+  ],
+  "producedBy": "Jerry Bruckheimer",
+  "writtenBy": "Ted Elliott, Terry Rossio",
+  "musicBy": "Hans Zimmer",
+  "cinematographyBy": "Dariusz Wolski",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 225,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.1,
+    "suffix": "billion"
+  },
+  "synopsis": "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Achievement in Visual Effects"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Achievement in Special Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Special Effects"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Movie",
+        "Best Performance (Johnny Depp)"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Pirates of the Caribbean",
+    "part": 2
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Captain Jack Sparrow",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e2d2c602-347d-41a4-8f35-a3d379043577"
+    },
+    {
+      "character": {
+        "name": "Will Turner",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9477d178-9893-44f0-9553-10119753c95f"
+    },
+    {
+      "character": {
+        "name": "Elizabeth Swann",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "09852405-f549-42e3-b781-8797340be64c"
+    },
+    {
+      "character": {
+        "name": "Norrington",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "35ca00e5-be27-4b73-a176-a4a09ea0c6a8"
+    },
+    {
+      "character": {
+        "name": "Davy Jones",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cfbe578b-11d9-404e-8320-5d9ec2b4f06d"
+    },
+    {
+      "character": {
+        "name": "Governor Weatherby Swann",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e33e9ef2-ee2e-497c-bfab-ff1f26118425"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "30"
+  },
+  "releaseDate": "2006-07-01",
+  "trailer": "ozk0-RHXtFw"
+}

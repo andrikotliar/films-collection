@@ -1,0 +1,127 @@
+{
+  "id": "a629d81b-ae67-4f54-8772-30a4e4d5e91d",
+  "title": "John Carter",
+  "poster": "john_carter",
+  "genres": [
+    "Sci-Fi",
+    "Adventures"
+  ],
+  "production": [
+    "Walt Disney Pictures"
+  ],
+  "directedBy": [
+    "Andrew Stanton"
+  ],
+  "producedBy": "Jim Morris, Colin Wilson, Lindsey Collins",
+  "writtenBy": "Andrew Stanton, Mark Andrews",
+  "musicBy": "Michael Giacchino",
+  "cinematographyBy": "Dan Mindel",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 306,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 284,
+    "suffix": "million"
+  },
+  "synopsis": "Transported to Barsoom, a Civil War vet discovers a barren planet seemingly inhabited by 12-foot tall barbarians. Finding himself prisoner of these creatures, he escapes, only to encounter Woola and a princess in desperate need of a savior.",
+  "collections": [
+    {
+      "name": "Space"
+    }
+  ],
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "John Carter",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "dabd6cd8-7f8f-4c22-912e-8437f68ba7a6"
+    },
+    {
+      "character": {
+        "name": "Dejah Thoris",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "316a6839-9613-499d-8a13-b736d251a08a"
+    },
+    {
+      "character": {
+        "name": "Sola",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b25191b0-881c-488f-966d-f99d3d5c30fa"
+    },
+    {
+      "character": {
+        "name": "Tars Tarkas",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4bbc8ea8-2f28-43b8-8a68-24598fd32c85"
+    },
+    {
+      "character": {
+        "name": "Tal Hajus",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9daa6fda-d979-4f27-b218-1fa9d66557b6"
+    },
+    {
+      "character": {
+        "name": "Matai Shang",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "beafbdfd-c890-4b66-8522-42f8d04aa347"
+    },
+    {
+      "character": {
+        "name": "Tardos Mors",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8baee434-0f0f-46c0-b18d-57e115247859"
+    },
+    {
+      "character": {
+        "name": "Sab Than",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8f5269f2-cc67-42f1-8d1b-e4a057451baf"
+    },
+    {
+      "character": {
+        "name": "Kantos Kan",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "836a9554-616d-4e71-a2fb-266e7c2289d7"
+    },
+    {
+      "character": {
+        "name": "Powell",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9dd74a8f-06f6-4fc2-b9a6-208cd51fb478"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "12"
+  },
+  "releaseDate": "2012-02-01",
+  "trailer": "nlvYKl1fjBI"
+}

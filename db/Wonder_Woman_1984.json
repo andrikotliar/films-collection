@@ -1,0 +1,94 @@
+{
+  "id": "bb368981-2a9a-4774-b98f-240b50782b73",
+  "title": "Wonder Woman 1984",
+  "poster": "wonder_woman_2",
+  "genres": [
+    "Adventures",
+    "Fantasy"
+  ],
+  "production": [
+    "Warner Bros. Pictures",
+    "DC Entertainment"
+  ],
+  "directedBy": [
+    "Patty Jenkins"
+  ],
+  "producedBy": "Gal Gadot, Patty Jenkins, Charles Roven, Stephen Jones, Deborah Snyder, Zack Snyder",
+  "writtenBy": "Patty Jenkins, Geoff Johns, Dave Callaham",
+  "musicBy": "Hans Zimmer",
+  "cinematographyBy": "Matthew Jensen",
+  "countries": [
+    "USA",
+    "UK",
+    "Spain"
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 132,
+    "suffix": "million"
+  },
+  "synopsis": "Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient artifact that grants wishes goes missing.",
+  "collections": [
+    {
+      "name": "DC Extended Universe"
+    }
+  ],
+  "parts": {
+    "title": "DC Extended Universe",
+    "part": 9
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Diana Prince / Wonder Woman",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cac99b67-2448-4b4f-ab99-e88b4e516940"
+    },
+    {
+      "character": {
+        "name": "Steve Trevor",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "586e7657-8411-4540-a748-26e815d3fb92"
+    },
+    {
+      "character": {
+        "name": "Barbara Minerva",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e3e5068a-c5ad-484a-93e6-ded28d61e48f"
+    },
+    {
+      "character": {
+        "name": "Maxwell Lord",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "988895ad-a7a3-421a-87cd-6a4c7aa6c0fc"
+    },
+    {
+      "character": {
+        "name": "Alistair",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8fbbe2e6-c953-40f0-92e7-5995dde6c0b2"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "31"
+  },
+  "releaseDate": "2020-12-01",
+  "trailer": "sfM7_JLk-84"
+}

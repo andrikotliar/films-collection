@@ -1,0 +1,108 @@
+{
+  "id": "6d703b6d-475b-4b66-aaf3-9300b965697c",
+  "title": "Terminator: Salvation",
+  "poster": "terminator_4",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Columbia Pictures",
+    "The Halcyon Company"
+  ],
+  "directedBy": [
+    "McG"
+  ],
+  "producedBy": "Derek Anderson, Moritz Borman",
+  "writtenBy": "John Brancato, Michael Ferris",
+  "musicBy": "Danny Elfman",
+  "cinematographyBy": "Shane Hurlbut",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 371,
+    "suffix": "million"
+  },
+  "synopsis": "In 2018, a mysterious new weapon in the war against the machines, half-human and half-machine, comes to John Connor on the eve of a resistance attack on Skynet. But whose side is he on, and can he be trusted?",
+  "collections": [
+    {
+      "name": "Robots"
+    }
+  ],
+  "parts": {
+    "title": "The Terminator",
+    "part": 3
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "John Connor",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6900c450-d6ad-4f62-8af7-d8398a1b6f77"
+    },
+    {
+      "character": {
+        "name": "Marcus Wright",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "231acbe9-f5fd-46fb-84ad-0a0ea009f828"
+    },
+    {
+      "character": {
+        "name": "Blair Williams",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0c737e7a-43b7-4021-8250-25ad0fb18cd2"
+    },
+    {
+      "character": {
+        "name": "Dr. Serena Kogan",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cf40a9cd-4f18-4a84-93a8-6267385b2a87"
+    },
+    {
+      "character": {
+        "name": "Kyle Reese",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0aa77f73-ad44-4ddb-a9fb-5206ef077eab"
+    },
+    {
+      "character": {
+        "name": "Star (as Jadagrace Berry)",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "33ce28ec-fcb4-4440-96b9-616e7caf41e8"
+    },
+    {
+      "character": {
+        "name": "Kate Connor",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9bf5d841-f49e-492d-b248-b6d73f76e41e"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "55"
+  },
+  "releaseDate": "2009-06-01",
+  "trailer": "-Czz-TcWCkA"
+}

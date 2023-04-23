@@ -1,0 +1,139 @@
+{
+  "id": "f1ca62e6-e0e1-4937-91aa-d6f60a5dad02",
+  "title": "Alien",
+  "poster": "alien_1",
+  "genres": [
+    "Sci-Fi",
+    "Horror"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "directedBy": [
+    "Ridley Scott"
+  ],
+  "producedBy": "Gordon Carroll, David Giler, Walter Hill",
+  "writtenBy": "Dan O'Bannon",
+  "musicBy": "Jerry Goldsmith",
+  "cinematographyBy": "Derek Vanlint",
+  "countries": [
+    "USA",
+    "UK"
+  ],
+  "budget": {
+    "value": 11,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 106,
+    "suffix": "million"
+  },
+  "synopsis": "After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun.",
+  "collections": [
+    {
+      "name": "Space"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Visual Effects"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Production Design",
+        "Best Sound Track"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Supporting Actress",
+        "Best Director"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Aliens",
+    "part": 1
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Ripley",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2cf2b71a-2fe4-4ac9-a7a3-6ea1a9985770"
+    },
+    {
+      "character": {
+        "name": "Dallas",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "9773b74f-01b6-4f5c-947f-0000088199fa"
+    },
+    {
+      "character": {
+        "name": "Lambert",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cee0fa43-ecb3-4afa-bce5-897a64c790c9"
+    },
+    {
+      "character": {
+        "name": "Brett",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d1d46671-946d-454f-bf1a-ba58424c8f99"
+    },
+    {
+      "character": {
+        "name": "Kane",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4da33978-90aa-4ef5-bcc8-246e1f6b2988"
+    },
+    {
+      "character": {
+        "name": "Ash",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e9964030-afa3-42d4-ab91-9c1fd7c0f177"
+    },
+    {
+      "character": {
+        "name": "Parker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "c7e70e66-039f-4421-b2df-308f87379fda"
+    },
+    {
+      "character": {
+        "name": "Alien",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "448f8862-8e2a-4082-942f-1cf2bfd9b77b"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "57"
+  },
+  "releaseDate": "1979-05-01",
+  "trailer": "jQ5lPt9edzQ"
+}

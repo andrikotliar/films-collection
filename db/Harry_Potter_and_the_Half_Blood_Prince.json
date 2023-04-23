@@ -1,0 +1,124 @@
+{
+  "id": "6b0bb3b2-0f5f-4aeb-a6a5-dbca7579cb53",
+  "title": "Harry Potter and the Half-Blood Prince",
+  "poster": "harry_potter_6",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "production": [
+    "Warner Bros. Pictures"
+  ],
+  "directedBy": [
+    "David Yates"
+  ],
+  "producedBy": "David Heyman, David Barron",
+  "writtenBy": "Steve Kloves",
+  "musicBy": "Nicholas Hooper",
+  "cinematographyBy": "Bruno Delbonnel",
+  "countries": [
+    "USA",
+    "UK"
+  ],
+  "budget": {
+    "value": 250,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 934,
+    "suffix": "million"
+  },
+  "synopsis": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past.",
+  "collections": [
+    {
+      "name": "Harry Potter Universe"
+    }
+  ],
+  "parts": {
+    "title": "Harry Potter Universe",
+    "part": 8
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Harry Potter",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5751927d-1246-41af-a9f4-8c311e285cc7"
+    },
+    {
+      "character": {
+        "name": "Ron Weasley",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2ff23ded-97b8-4419-8b72-ca8197566240"
+    },
+    {
+      "character": {
+        "name": "Hermione Granger",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ee7c306c-c255-4f94-bf24-8d843c2b352b"
+    },
+    {
+      "character": {
+        "name": "Albus Dumbledore",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "05229f7a-0e7e-4352-9219-ff4e2113c2f0"
+    },
+    {
+      "character": {
+        "name": "Rubeus Hagrid",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4f8d4c6c-7c1e-467c-931e-3d44fd153542"
+    },
+    {
+      "character": {
+        "name": "Draco Malfoy",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "58889d31-faba-4da2-858d-b28261a42cea"
+    },
+    {
+      "character": {
+        "name": "Severus Snape",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6e8cb43d-6dc8-45fd-a9de-a20ba4ab4858"
+    },
+    {
+      "character": {
+        "name": "Bellatrix Lestrage",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cf40a9cd-4f18-4a84-93a8-6267385b2a87"
+    },
+    {
+      "character": {
+        "name": "Horace Slughorn",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "904469e3-d222-4e9c-be23-1cac77a68974"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "33"
+  },
+  "releaseDate": "2009-07-01",
+  "trailer": "sg81Lts5kYY"
+}

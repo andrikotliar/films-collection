@@ -1,0 +1,172 @@
+{
+  "id": "3ee02627-99e9-4250-a21b-4889bbd43ed9",
+  "title": "Star Wars Episode IV: A New Hope",
+  "poster": "star_wars_episode_IV",
+  "genres": [
+    "SpaceOpera",
+    "Adventures"
+  ],
+  "production": [
+    "20th Century FOX",
+    "Lucasfilm"
+  ],
+  "directedBy": [
+    "George Lucas"
+  ],
+  "producedBy": "Gary Kurtz",
+  "writtenBy": "George Lucas",
+  "musicBy": "John Williams",
+  "cinematographyBy": "Gilbert Taylor",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 11,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 775,
+    "suffix": "million"
+  },
+  "synopsis": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the evil Darth Vader.",
+  "collections": [
+    {
+      "name": "Star Wars Universe"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Art Direction-Set Decoration",
+        "Best Costume Design",
+        "Best Sound",
+        "Best Film Editing",
+        "Best Visual Effects"
+      ]
+    },
+    {
+      "title": "Golden Globes",
+      "nominations": [
+        "Best Original Score - Motion Picture"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Sound"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best DVD Collection",
+        "Best Science Fiction Film",
+        "Best Supporting Actor",
+        "Best Director",
+        "Best Writing",
+        "Best Music",
+        "Best Costumes",
+        "Best Make-Up",
+        "Best Special Effects",
+        "Outstanding Editing",
+        "Outstanding Sound",
+        "Outstanding Art Direction",
+        "Outstanding Set Decoration"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Lifetime Achievement"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Star Wars Universe",
+    "part": 6
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Luke Skywalker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4ff433ee-f363-4b38-8332-62b5ffece7dd"
+    },
+    {
+      "character": {
+        "name": "Han Solo",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80"
+    },
+    {
+      "character": {
+        "name": "Leia Organa",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3b974652-594d-4835-b73b-a497a2c849f9"
+    },
+    {
+      "character": {
+        "name": "Moff Tarkin",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d3493fa5-4de8-40fe-9d29-92cf16f7321c"
+    },
+    {
+      "character": {
+        "name": "Ben Obi-Wan Kenobi",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b6c0c5c7-7382-4b16-9ea9-8aff432e4622"
+    },
+    {
+      "character": {
+        "name": "C-3PO",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ee52d40c-12c0-417d-a413-491b049e76c3"
+    },
+    {
+      "character": {
+        "name": "R2-D2",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "373e6326-e3e5-4084-86cf-b2eb743441e0"
+    },
+    {
+      "character": {
+        "name": "Chewbacca",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b8f8ccea-b603-4414-8cf3-0d64cea77c19"
+    },
+    {
+      "character": {
+        "name": "Darth Vader",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4e9f83a6-617f-441f-b2a8-d030470d53a1"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "01"
+  },
+  "releaseDate": "1977-05-01",
+  "trailer": "vZ734NWnAHA"
+}

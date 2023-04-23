@@ -1,0 +1,148 @@
+{
+  "id": "2a7c2646-4a42-48e3-ab97-f968f2e21f90",
+  "title": "X-Men: First Class",
+  "poster": "x_men_5",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "20th Century FOX",
+    "Marvel Entertainment"
+  ],
+  "directedBy": [
+    "Matthew Vaughn"
+  ],
+  "producedBy": "Lauren Shuler Donner, Bryan Singer",
+  "writtenBy": "Ashley Edward Miller, Zack Stentz, Jane Goldman, Matthew Vaughn",
+  "musicBy": "Henry Jackman",
+  "cinematographyBy": "John Mathieson",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 140,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 354,
+    "suffix": "million"
+  },
+  "synopsis": "In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them.",
+  "collections": [
+    {
+      "name": "Superheroes"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Make-Up"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "X-Men",
+    "part": 5
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Charles Xavier",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8f4897bf-8957-47f7-9b1c-fe4616205de6"
+    },
+    {
+      "character": {
+        "name": "Erik Lensherr",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5e9cb45b-f3f1-435b-9a3d-d0b2b3963899"
+    },
+    {
+      "character": {
+        "name": "Young Erik",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a94f759d-6e3a-4ce7-baa6-5f18a377e011"
+    },
+    {
+      "character": {
+        "name": "Sebastian Shaw",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3c578d0d-0d3c-4bfb-b580-adeea340d073"
+    },
+    {
+      "character": {
+        "name": "Moira MacTaggert",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d13324bf-abf5-4e5c-85f0-b9f99e6127d5"
+    },
+    {
+      "character": {
+        "name": "Raven / Mystique",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "29b99567-4a10-4246-9bb2-26b55a9c1e63"
+    },
+    {
+      "character": {
+        "name": "Emma Frost",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "da3e7a09-dadb-4ab6-ad49-097adcb30554"
+    },
+    {
+      "character": {
+        "name": "Hank / Beast",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e71b81b3-8c4f-447d-97a8-56d5a976750d"
+    },
+    {
+      "character": {
+        "name": "Cassidy / Banshee",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "28066701-2a1a-4ad5-b59b-6032dc599b46"
+    },
+    {
+      "character": {
+        "name": "Alex Summers / Havok",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "273890bf-eac3-4493-a7e6-4db9ebab017f"
+    },
+    {
+      "character": {
+        "name": "William Stryker",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5a1879f4-ab18-4893-8b1e-0471c556933e"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "12"
+  },
+  "releaseDate": "2011-05-01",
+  "trailer": "kyQKi5-k0UU"
+}

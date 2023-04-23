@@ -1,0 +1,208 @@
+{
+  "id": "1716127b-8b92-46d9-8846-087499224d89",
+  "title": "Arcane",
+  "poster": "arcane",
+  "genres": [
+    "Adventures",
+    "Action"
+  ],
+  "production": [
+    "Netflix",
+    "Riot Games"
+  ],
+  "createdBy": [
+    "Christian Linke",
+    "Alex Yee"
+  ],
+  "producedBy": "Christian Linke, Marc Merill, Brandon Beck, Jane Chung, Thomas Vu",
+  "musicBy": "Alex Seaver, Alexander Temple",
+  "countries": [
+    "USA",
+    "France"
+  ],
+  "synopsis": "Set in utopian Piltover and the oppressed underground of Zaun, the story follows the origins of two iconic League champions-and the power that will tear them apart.",
+  "collections": [
+    {
+      "name": "Fantasy"
+    }
+  ],
+  "type": [
+    "Series",
+    "Animation"
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "episode": 1,
+          "episodeOverall": 1,
+          "title": "Welcome to the Playground",
+          "directedBy": "Pascal Charrue, Arnaud Delord",
+          "writtenBy": "Christian Linke, Alex Yee",
+          "releaseDate": "2021-11-06"
+        },
+        {
+          "episode": 2,
+          "episodeOverall": 2,
+          "title": "Some Mysteries Are Better Left Unsolved",
+          "directedBy": "Pascal Charrue, Arnaud Delord",
+          "writtenBy": "Christian Linke, Alex Yee",
+          "releaseDate": "2021-11-06"
+        },
+        {
+          "episode": 3,
+          "episodeOverall": 3,
+          "title": "The Base Violence Necessary for Change",
+          "directedBy": "Pascal Charrue, Arnaud Delord",
+          "writtenBy": "Ash Brannon",
+          "releaseDate": "2021-11-06"
+        },
+        {
+          "episode": 4,
+          "episodeOverall": 4,
+          "title": "Happy Progress Day!",
+          "directedBy": "Pascal Charrue, Arnaud Delord",
+          "writtenBy": "David Dunne",
+          "releaseDate": "2021-11-13"
+        },
+        {
+          "episode": 5,
+          "episodeOverall": 5,
+          "title": "Everybody Wants to Be My Enemy",
+          "directedBy": "Pascal Charrue, Arnaud Delord",
+          "writtenBy": "Amanda Overton",
+          "releaseDate": "2021-11-13"
+        },
+        {
+          "episode": 6,
+          "episodeOverall": 6,
+          "title": "When These Walls Come Tumbling Down",
+          "directedBy": "Pascal Charrue, Arnaud Delord",
+          "writtenBy": "Alex Yee",
+          "releaseDate": "2021-11-13"
+        },
+        {
+          "episode": 7,
+          "episodeOverall": 7,
+          "title": "The Boy Saviour",
+          "directedBy": "Pascal Charrue, Arnaud Delord",
+          "writtenBy": "Nick Luddington",
+          "releaseDate": "2021-11-20"
+        },
+        {
+          "episode": 8,
+          "episodeOverall": 8,
+          "title": "Oil and Water",
+          "directedBy": "Pascal Charrue, Arnaud Delord",
+          "writtenBy": "Ben St. John, Mollie St. John",
+          "releaseDate": "2021-11-20"
+        },
+        {
+          "episode": 9,
+          "episodeOverall": 9,
+          "title": "The Monster You Created",
+          "directedBy": "Pascal Charrue, Arnaud Delord",
+          "writtenBy": "Christian Linke, Alex Yee",
+          "releaseDate": "2021-11-20"
+        }
+      ],
+      "trailer": "3Svs_hl897c"
+    }
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Vi",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1a9d8258-5634-4990-bb53-f0262f587084"
+    },
+    {
+      "character": {
+        "name": "Jinx",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "517d6a59-581f-4f95-9fa7-998d7e25dcbe"
+    },
+    {
+      "character": {
+        "name": "Jayce",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b1bb9232-e486-4bbf-ad60-4e6a34da2ee7"
+    },
+    {
+      "character": {
+        "name": "Silco",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "4468585f-0093-4d09-9cc1-f4fc6f944140"
+    },
+    {
+      "character": {
+        "name": "Viktor",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "93530626-4fe7-4b30-ba92-e636941b689c"
+    },
+    {
+      "character": {
+        "name": "Mel Medarda",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ad88047d-1e07-4d21-a4a7-d10b131b2dae"
+    },
+    {
+      "character": {
+        "name": "Vander",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d590a983-d5c8-4e4a-9386-aa251e72efb7"
+    },
+    {
+      "character": {
+        "name": "Marcus",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "fe2d6d44-4dea-4bf6-b171-ea3a7503ce8f"
+    },
+    {
+      "character": {
+        "name": "Caitlyn",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "057b29da-5b1e-4ec5-93b7-0dc5434e8655"
+    },
+    {
+      "character": {
+        "name": "Heimerdinger",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "da928605-dde3-4773-82ae-cd7847932939"
+    },
+    {
+      "character": {
+        "name": "Ekko",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "38b319e3-5be2-4d16-928f-53b584d34b52"
+    }
+  ],
+  "duration": {
+    "hours": "06",
+    "minutes": "50"
+  },
+  "releaseDate": "2021-11-01"
+}

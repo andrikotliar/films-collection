@@ -1,0 +1,115 @@
+{
+  "id": "272e0cd1-eda5-487f-ad9a-889d1e2bda31",
+  "title": "Fast & Furious",
+  "poster": "fast_and_furious_4",
+  "genres": [
+    "Action",
+    "Crime"
+  ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "directedBy": [
+    "Justin Lin"
+  ],
+  "producedBy": "Neal H. Moritz, Vin Diesel",
+  "writtenBy": "Chris Morgan",
+  "musicBy": "Brian Tyler",
+  "cinematographyBy": "Amir Mokri",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 85,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 363,
+    "suffix": "million"
+  },
+  "synopsis": "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation.",
+  "collections": [
+    {
+      "name": "Cars"
+    }
+  ],
+  "parts": {
+    "title": "Fast and Furious",
+    "part": 4
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Dominic Toretto",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "81bac581-4158-4bcb-9920-60fd3a93bd6b"
+    },
+    {
+      "character": {
+        "name": "Brian O'Conner",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2c49887f-4365-4050-9ad8-0dfebb5556e6"
+    },
+    {
+      "character": {
+        "name": "Mia",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "49c64688-2490-427d-9650-4d5e8e2d53ac"
+    },
+    {
+      "character": {
+        "name": "Letty",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "973356cd-2905-4327-aac6-e95b4a336869"
+    },
+    {
+      "character": {
+        "name": "Campos",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8d743a86-34e8-4cae-8300-1eef68f58567"
+    },
+    {
+      "character": {
+        "name": "Fenix",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "600178b8-cd25-49fe-8270-07fa8496d076"
+    },
+    {
+      "character": {
+        "name": "Gisele",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cac99b67-2448-4b4f-ab99-e88b4e516940"
+    },
+    {
+      "character": {
+        "name": "Han",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d44f46b1-9cd7-432e-b62d-97de2a3ae027"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "47"
+  },
+  "releaseDate": "2009-03-01",
+  "trailer": "Gl-d_UIhdBw"
+}

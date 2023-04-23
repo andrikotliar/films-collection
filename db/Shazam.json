@@ -1,0 +1,100 @@
+{
+  "id": "3efb77c8-da14-4ca3-b6a7-a51b0daeff4b",
+  "title": "Shazam!",
+  "poster": "shazam",
+  "genres": [
+    "Adventures",
+    "Comedy"
+  ],
+  "production": [
+    "DC Entertainment",
+    "Warner Bros. Pictures"
+  ],
+  "directedBy": [
+    "David F. Sandberg"
+  ],
+  "producedBy": "Peter Safran",
+  "writtenBy": "Henry Gayden",
+  "musicBy": "Benjamin Wallfisch",
+  "cinematographyBy": "Maxime Alexandre",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 80,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 356,
+    "suffix": "million"
+  },
+  "synopsis": "We all have a superhero inside us, it just takes a bit of magic to bring it out. In Billy Batson's case, by shouting out one word - SHAZAM! - this streetwise fourteen-year-old foster kid can turn into the adult superhero Shazam.",
+  "collections": [
+    {
+      "name": "DC Extended Universe"
+    }
+  ],
+  "parts": {
+    "title": "DC Extended Universe",
+    "part": 7
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Shazam",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "a07c341b-bbc1-4d2a-bf8a-343ccdd38656"
+    },
+    {
+      "character": {
+        "name": "The Wizard",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "44677a98-c6e2-43c4-b7e2-3fe0a7f05703"
+    },
+    {
+      "character": {
+        "name": "Dr. Thaddeus Sivana",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "beafbdfd-c890-4b66-8522-42f8d04aa347"
+    },
+    {
+      "character": {
+        "name": "Freddy Freeman",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "8db8f661-11a3-4afa-a5d8-5c22abf47c37"
+    },
+    {
+      "character": {
+        "name": "Darla Dudley",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "acaab0fc-00c7-497a-abdb-d4937ac687f8"
+    },
+    {
+      "character": {
+        "name": "Billy Batson",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e1190c68-e586-4237-b598-1b7bf89371c0"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "12"
+  },
+  "releaseDate": "2019-03-01",
+  "trailer": "go6GEIrcvFY"
+}

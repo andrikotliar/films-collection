@@ -1,0 +1,131 @@
+{
+  "id": "c01fe496-1830-44d3-9d2b-b27b6f6d6385",
+  "title": "Home Alone 2: Lost in New York",
+  "poster": "home_alone_2",
+  "genres": [
+    "Comedy"
+  ],
+  "production": [
+    "20th Century FOX",
+    "Hughes Entertainment"
+  ],
+  "directedBy": [
+    "Chris Columbus"
+  ],
+  "producedBy": "John Hughes",
+  "writtenBy": "John Hughes",
+  "musicBy": "John Williams",
+  "cinematographyBy": "Julio Macat",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 20,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 359,
+    "suffix": "million"
+  },
+  "synopsis": "One year after Kevin McCallister was left home alone and had to defeat a pair of bumbling burglars, he accidentally finds himself stranded in New York City - and the same criminals are not far behind.",
+  "collections": [
+    {
+      "name": "Legends"
+    }
+  ],
+  "parts": {
+    "title": "Home Alone",
+    "part": 2
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Kevin",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "baab88fe-b70d-427a-bc4a-11e6cc5c8d58"
+    },
+    {
+      "character": {
+        "name": "Harry",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "cff5f4a1-35ff-4624-8783-aeee45496ea4"
+    },
+    {
+      "character": {
+        "name": "Marv",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d226047f-131f-4fb5-b9ad-bc1c844eac5c"
+    },
+    {
+      "character": {
+        "name": "Kate",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ce50be7b-ba2b-4095-b072-dcee23898dc1"
+    },
+    {
+      "character": {
+        "name": "Peter",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "dd68c4d9-72bd-44c7-9211-8d223fd9a8b3"
+    },
+    {
+      "character": {
+        "name": "Buzz",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "0f85da34-9fb8-42ca-8409-c911697f65cd"
+    },
+    {
+      "character": {
+        "name": "Megan",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "e28709ec-2f21-4e6f-aa8b-044722ec17bd"
+    },
+    {
+      "character": {
+        "name": "Jeff",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "2586e5c0-c654-4319-8d10-4c2c2d6af498"
+    },
+    {
+      "character": {
+        "name": "Uncle Frank",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6ce5df12-c1a1-469d-95c4-7ddf3b310986"
+    },
+    {
+      "character": {
+        "name": "Aunt Leslie",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "1b79f7d1-c487-4e1c-81bf-a5913ca3e472"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "00"
+  },
+  "releaseDate": "1992-11-01",
+  "trailer": "k0kJieJ1k6k"
+}

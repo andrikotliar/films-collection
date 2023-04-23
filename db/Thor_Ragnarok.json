@@ -1,0 +1,156 @@
+{
+  "id": "db20f98e-4019-4bf8-8465-aa1de75ca233",
+  "title": "Thor: Ragnarok",
+  "poster": "thor_3",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Marvel Studios"
+  ],
+  "directedBy": [
+    "Taika Waititi"
+  ],
+  "producedBy": "Kevin Feige",
+  "writtenBy": "Eric Pearson, Craig Kyle, Christopher L. Yost",
+  "musicBy": "Mark Mothersbaugh",
+  "cinematographyBy": "Javier Aguirresarobe",
+  "countries": [
+    "USA"
+  ],
+  "budget": {
+    "value": 180,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 854,
+    "suffix": "million"
+  },
+  "synopsis": "Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarцk, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
+  "collections": [
+    {
+      "name": "Marvel Cinematic Universe"
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 17
+  },
+  "type": [
+    "Film"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Thor",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "5a7b31cb-f62d-44ae-85b6-21ed4c144a2d"
+    },
+    {
+      "character": {
+        "name": "Loki",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3f48a450-bff9-4a01-a00a-bba10e5a1e0a"
+    },
+    {
+      "character": {
+        "name": "Hela",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "d7f81c80-afaa-4b4e-a3fa-49b85238c529"
+    },
+    {
+      "character": {
+        "name": "Heimdall",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "ed322351-e250-4592-a42d-18dc1e238066"
+    },
+    {
+      "character": {
+        "name": "Grandmaster",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6b539e14-5cb0-4aa4-b194-4f1f240d0f64"
+    },
+    {
+      "character": {
+        "name": "Valkyrie",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "da839bd9-fa94-47ac-8e02-24c7539ada85"
+    },
+    {
+      "character": {
+        "name": "Skurge",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "3b561873-fcce-4fc8-80f8-bae7ba163e26"
+    },
+    {
+      "character": {
+        "name": "Bruce Banner / Hulk",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "66103de9-bd6b-4732-8a3b-b59d9c88035a"
+    },
+    {
+      "character": {
+        "name": "Odin",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b8f068b0-99eb-451f-b746-f92a5dc655b1"
+    },
+    {
+      "character": {
+        "name": "Doctor Strange",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "b6c1e5b5-b534-438e-8ac1-a6bc0b901ac8"
+    },
+    {
+      "character": {
+        "name": "Korg",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6bdc5e6b-1aa4-4686-965f-8b5deefd01eb"
+    },
+    {
+      "character": {
+        "name": "Topaz",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "6ab4bb7f-0372-438f-88e1-00b13b22bd88"
+    },
+    {
+      "character": {
+        "name": "Surtur",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "7ba0570a-68be-41d9-b548-66375734f7ac"
+    }
+  ],
+  "duration": {
+    "hours": "2",
+    "minutes": "10"
+  },
+  "releaseDate": "2017-11-01",
+  "trailer": "ue80QwXMRHg"
+}

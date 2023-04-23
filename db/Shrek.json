@@ -1,0 +1,98 @@
+{
+  "id": "94a2e4fe-2934-4eca-92de-ee861de36ddf",
+  "title": "Shrek",
+  "poster": "shrek_1",
+  "genres": [
+    "Adventures",
+    "Comedy"
+  ],
+  "production": [
+    "DreamWorks Animation"
+  ],
+  "directedBy": [
+    "Andrew Adamson",
+    "Vicky Jenson"
+  ],
+  "producedBy": "Aron Warner, John H. Williams, Jeffrey Katzenberg",
+  "writtenBy": "Ted Elliott, Terry Rossio, Joe Stillman, Roger S. H. Schulman",
+  "musicBy": "Harry Gregson-Williams, John Powell",
+  "countries": [
+    "USA",
+    "Japan"
+  ],
+  "budget": {
+    "value": 60,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 488,
+    "suffix": "million"
+  },
+  "synopsis": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.",
+  "collections": [
+    {
+      "name": "Legends"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Animated Feature"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Screenplay (Adapted)"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Shrek",
+    "part": 1
+  },
+  "type": [
+    "Animation"
+  ],
+  "cast": [
+    {
+      "character": {
+        "name": "Shrek",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "fd488142-fcd7-4e8d-890a-148da9d26761"
+    },
+    {
+      "character": {
+        "name": "Donkey",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "99e5b905-3388-4ec8-a9c6-34f0f5229e05"
+    },
+    {
+      "character": {
+        "name": "Fiona",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "75e4a5c6-64e1-4493-90a6-bd31734ce3ed"
+    },
+    {
+      "character": {
+        "name": "Lord Farquaad",
+        "imageUrl": "",
+        "description": ""
+      },
+      "actorId": "f9d78af1-af04-43c0-b564-3faac60bedf9"
+    }
+  ],
+  "duration": {
+    "hours": "1",
+    "minutes": "30"
+  },
+  "releaseDate": "2001-11-01",
+  "trailer": "CwXOrWvPBPk"
+}
