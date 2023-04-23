@@ -6,8 +6,8 @@ const Modal = ({ showModal, children, closeModal }) => {
   
   return createPortal(
     <div className="modal">
-      <div className="modal-overlay" onClick={closeModal} />
-      <div className="modal-content">{children}</div>
+      <div className="modal__overlay" onClick={closeModal} />
+      <div className="modal__content">{children}</div>
     </div>,
     document.getElementById('modal'),
   );

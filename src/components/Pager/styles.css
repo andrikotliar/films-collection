@@ -19,7 +19,7 @@
   flex-shrink: 0;
 }
 
-.page-button-active {
+.page-button--active {
   color: #fff;
   background-color: var(--base-color);
   font-weight: bold;

@@ -27,7 +27,7 @@ const Pager = () => {
           className={classNames(
             'page-button',
             {
-              'page-button-active': pageNumber === getCurrentPage()
+              'page-button--active': pageNumber === getCurrentPage()
             }
           )}
           key={pageNumber}

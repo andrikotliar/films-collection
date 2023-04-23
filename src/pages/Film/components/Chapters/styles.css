@@ -6,18 +6,18 @@
   overflow-x: auto;
   padding-bottom: 20px;
 }
-.chapters-link {
+.chapters__link {
   display: flex;
   flex-direction: column;
   gap: 5px;
   text-align: center;
   height: 100%;
 }
-.chapters-link img {
+.chapters__link img {
   height: 100%;
   border-radius: 5px;
 }
-.chapters-link-active {
+.chapters__link--active {
   opacity: 0.3;
   pointer-events: none;
 }

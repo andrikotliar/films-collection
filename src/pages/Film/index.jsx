@@ -68,7 +68,7 @@ const Film = () => {
             <TopLine filmData={film} />
           </section>
           <div className="film-media">
-            <div className="film-media-main">
+            <div className="film-media__main">
               <Poster poster={film.poster} title={film.title} />
               {!film.type.includes('Series') ? (
                 <Trailer trailer={film.trailer} />

@@ -38,7 +38,7 @@
   height: 100%;
 }
 
-.film-media-main {
+.film-media__main {
   display: flex;
   flex-direction: column;
   gap: 20px;

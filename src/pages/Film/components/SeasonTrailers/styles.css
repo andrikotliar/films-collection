@@ -4,7 +4,7 @@
   gap: 5px;
 }
 
-.season-trailers-header {
+.season-trailers__header {
   display: flex;
   flex-wrap: wrap;
   border-radius: 10px;
@@ -12,14 +12,14 @@
   overflow: hidden;
 }
 
-.season-trailers-button {
+.season-trailers__button {
   font-size: 12px;
   width: 30px;
   height: 30px;
   flex-shrink: 0;
 }
 
-.season-trailers-button-active {
+.season-trailers__button--active {
   color: #fff;
   background-color: var(--base-color);
 }

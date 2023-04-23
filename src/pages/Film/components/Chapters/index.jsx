@@ -25,9 +25,9 @@ const Chapters = ({ data, parts }) => {
         <Link
           to={`/film/${film.id}`}
           className={classNames(
-            'chapters-link',
+            'chapters__link',
             {
-              'chapters-link-active': filmId === film.id
+              'chapters__link--active': filmId === film.id
             }
           )}
           key={film.id}

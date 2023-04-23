@@ -10,26 +10,26 @@
   border-bottom: 0;
 }
 
-.key-values-title {
+.key-values__title {
   text-transform: uppercase;
   font-size: 14px;
 }
 
-.key-values-list {
+.key-values__list {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
 }
 
-.key-values-list a {
+.key-values__list a {
   color: var(--base-color);
   text-decoration: underline;
 }
 
-.key-values-list a::after {
+.key-values__list a::after {
   content: ',';
 }
 
-.key-values-list p:last-child a::after {
+.key-values__list p:last-child a::after {
   content: '';
 }

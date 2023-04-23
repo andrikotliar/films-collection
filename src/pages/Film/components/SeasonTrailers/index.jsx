@@ -9,14 +9,14 @@ const SeasonTrailers = ({ seasons }) => {
   return (
     <div className="season-trailers">
       {seasons.length > 1 && (
-        <div className="season-trailers-header">
+        <div className="season-trailers__header">
           {seasons.map((s, idx) => (
             <button
               className={
                 classNames(
-                  'season-trailers-button',
+                  'season-trailers__button',
                   {
-                    'season-trailers-button-active': selectedSeason === idx
+                    'season-trailers__button--active': selectedSeason === idx
                   }
                 )
               }
