@@ -1,0 +1,24 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.loader {
+  width: 60px;
+}
+
+.loader svg {
+  animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

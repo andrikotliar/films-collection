@@ -1,6 +1,8 @@
 .synopsis {
   line-height: 1.5;
-  width: 50%;
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  border-radius: 10px;
 }
 
 @media (max-width: 1240px) {

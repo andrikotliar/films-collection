@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import './styles.css';
 import { useFilmsContext } from "@/context/filmsContext";
-import { Pager, SelectedFilters } from "@/components";
+import { Loader, Pager } from "@/components";
 import { getYearFromReleaseDate } from "@/heplers";
 
 const FilmsList = () => {
@@ -12,8 +12,8 @@ const FilmsList = () => {
 
   if(isFilmsLoading) {
     return (
-      <div className="data">
-        Loading...
+      <div className="list-container">
+        <Loader />
       </div>
     );
   }
@@ -28,7 +28,6 @@ const FilmsList = () => {
 
   return (
     <div className="list-container custom-scroll custom-scroll-visible">
-      <SelectedFilters />
       <div className="list">
         {films.map(film => (
           <Link

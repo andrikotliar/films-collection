@@ -10,7 +10,7 @@
   color: #000;
   padding: 12px 15px;
   outline: none;
-  border: var(--app-border);
+  border: 2px solid transparent;
   border-radius: 50px;
   transition: 0.2s;
   background-color: #fff;

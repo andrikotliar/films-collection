@@ -18,10 +18,6 @@ const ExtraDetails = ({ filmData }) => {
         values={filmData.production}
         linkParameter="production"
       />
-      <KeyValues
-        title="Release date"
-        values=""
-      />
     </div>
   );
 };

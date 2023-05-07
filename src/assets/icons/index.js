@@ -9,6 +9,7 @@ import CalendarIcon from './CalendarIcon';
 import MovieIcon from './MovieIcon';
 import SandClockIcon from './SandClockIcon';
 import MenuIcon from './MenuIcon';
+import LoaderIcon from './LoaderIcon';
 
 export {
   CloseIcon,
@@ -21,5 +22,6 @@ export {
   CalendarIcon,
   MovieIcon,
   SandClockIcon,
-  MenuIcon
+  MenuIcon,
+  LoaderIcon
 };

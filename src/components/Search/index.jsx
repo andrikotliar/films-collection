@@ -1,38 +1,58 @@
-import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useEffect, useRef, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import Modal from '../Modal';
 import { SearchIcon } from '@/assets/icons';
 import './style.css';
-import classNames from 'classnames';
 
-const Search = ({ className, showSearch = true }) => {
+const Search = ({
+  openSearch,
+  closeSearch,
+}) => {
   const [ searchFilm, setSearchFilm ] = useState('');
   const navigate = useNavigate();
+  const searchInputRef = useRef();
 
-  if(!showSearch) {
-    return null;
+  const runSearch = (searchValue) => {
+    navigate(`/?search=${searchValue}`);
+    closeSearch();
   }
 
   const keySearch = (event) => {
     if(event.keyCode === 13) {
-      navigate(`/?search=${event.target.value}`);
+      runSearch(event.target.value);
     }
   }
 
+  useEffect(() => {
+    if(openSearch) {
+      searchInputRef.current.focus();
+    }
+  }, [openSearch])
+
   return (
-    <div className={classNames('search-field', className)}>
-      <div className="search-field__wrapper">
-        <input
-          type="text"
-          className="search-field__input"
-          placeholder="Search film..."
-          onChange={(e) => setSearchFilm(e.target.value)}
-          onKeyDown={keySearch}
-        />
-        <Link to={`/?search=${searchFilm}`} className="search-field__button">
-          <SearchIcon fill="#ddd" />
-        </Link>
+    <Modal
+      showModal={openSearch}
+      closeModal={closeSearch}
+    >
+      <div className="search-field">
+        <div className="search-field__wrapper">
+          <input
+            type="text"
+            className="search-field__input"
+            placeholder="Search film..."
+            onChange={(e) => setSearchFilm(e.target.value)}
+            onKeyDown={keySearch}
+            ref={searchInputRef}
+          />
+          <button
+            onClick={() => runSearch(searchFilm)}
+            className="search-field__button"
+          >
+            <SearchIcon fill="#ddd" />
+          </button>
+        </div>
       </div>
-    </div>
+    </Modal>
   );
 };
 

@@ -4,7 +4,11 @@ import './styles.css';
 
 const TrailerModal = ({ showTrailer, closeTrailerModal, trailer }) => {
   return (
-    <Modal showModal={showTrailer} closeModal={closeTrailerModal}>
+    <Modal
+      showModal={showTrailer}
+      closeModal={closeTrailerModal}
+      contentClassName="trailer-content"
+    >
       <div className="trailer-container">
         <iframe
           src={`https://www.youtube.com/embed/${trailer}?rel=0&showinfo=0&autoplay=1`}

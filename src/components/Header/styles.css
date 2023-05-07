@@ -1,11 +1,14 @@
 .header {
-  position: relative;
+  position: sticky;
+  top: 0;
   height: var(--header-height);
   border-bottom: var(--app-border);
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #fff;
+  z-index: 100;
 }
 .header__logo {
   font-size: 0;

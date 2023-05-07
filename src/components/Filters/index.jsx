@@ -6,6 +6,7 @@ import StandardFilter from './components/StandardFilter';
 import ExpandFilter from './components/ExpandFilter';
 import { useFilmsContext } from '@/context/filmsContext';
 import { useForm, FormProvider, useFormState } from 'react-hook-form';
+import { FilterIcon } from '@/assets/icons';
 
 const Filters = () => {
   const { filterParams, updateFilter, resetFilter } = useFilmsContext();
@@ -52,7 +53,10 @@ const Filters = () => {
         </div>
         <div className="filters__controls">
           <button className="button">
-            Filter
+            <div className="button__icon">
+              <FilterIcon fill='white' />
+            </div>
+            <span>Filter</span>
           </button>
           {Object.keys(filterParams).length !== 0 && (
             <button type="button" className="button" onClick={() => {

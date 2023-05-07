@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { MenuIcon, SearchIcon } from '@/assets/icons';
 import { Link, useLocation } from 'react-router-dom';
 import Menu from '../Menu';
+import Search from '../Search';
 import './styles.css';
 import classNames from 'classnames';
 
@@ -43,6 +44,10 @@ const Header = () => {
         <MenuIcon />
       </button>
       <Menu isOpen={isDropdownOpen} />
+      <Search
+        openSearch={isSearchShow}
+        closeSearch={() => setIsSearchShow(false)}
+      />
     </header>
   );
 };
