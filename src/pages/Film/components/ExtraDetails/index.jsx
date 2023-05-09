@@ -1,13 +1,9 @@
 import KeyValues from '../KeyValues';
-import { buildRuntimeValue } from '@/heplers';
 
 const ExtraDetails = ({ filmData }) => {
+  const collections = filmData.collections.map((collection) => collection.name);
   return (
     <div className="details-group">
-      <KeyValues
-        title="Runtime"
-        values={buildRuntimeValue(filmData.duration)}
-      />
       <KeyValues
         title="Countries"
         values={filmData.countries}
@@ -17,6 +13,11 @@ const ExtraDetails = ({ filmData }) => {
         title="Production"
         values={filmData.production}
         linkParameter="production"
+      />
+      <KeyValues
+        title="Collections"
+        values={collections}
+        linkParameter="collections"
       />
     </div>
   );

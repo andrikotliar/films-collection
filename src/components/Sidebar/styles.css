@@ -3,6 +3,7 @@
   height: var(--app-height);
   flex-shrink: 0;
   border-right: 1px solid #ccc;
+  top: var(--header-height);
 }
 .sidebar__controls {
   display: none;

@@ -33,6 +33,7 @@ const Search = ({
     <Modal
       showModal={openSearch}
       closeModal={closeSearch}
+      contentClassName="search-content"
     >
       <div className="search-field">
         <div className="search-field__wrapper">

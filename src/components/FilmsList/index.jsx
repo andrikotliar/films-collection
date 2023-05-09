@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import './styles.css';
 import { useFilmsContext } from "@/context/filmsContext";
 import { Loader, Pager } from "@/components";
-import { getYearFromReleaseDate } from "@/heplers";
 
 const FilmsList = () => {
   const {
@@ -10,24 +9,12 @@ const FilmsList = () => {
     isFilmsLoading,
   } = useFilmsContext();
 
-  if(isFilmsLoading) {
-    return (
-      <div className="list-container">
-        <Loader />
-      </div>
-    );
-  }
-
-  if(films.length === 0) {
-    return (
-      <div className="list-empty">
-        <p>Films not found.</p>
-      </div>
-    )
-  }
-
   return (
-    <div className="list-container custom-scroll custom-scroll-visible">
+    <div
+      className="list-container custom-scroll custom-scroll-visible"
+    >
+      {isFilmsLoading && <Loader />}
+      {films.length === 0 && <p className="list-empty">Films not found.</p>}
       <div className="list">
         {films.map(film => (
           <Link
@@ -50,15 +37,12 @@ const FilmsList = () => {
               {film.title}
             </h3>
             <p className="list-film__subtitle">
-              {getYearFromReleaseDate(film.releaseDate)}
+              {film.year}
             </p>
           </Link>
         ))}
       </div>
       <Pager />
-      {!isFilmsLoading && !films.length && (
-        <span>Films not found</span>
-      )}
     </div>
   );
 };

@@ -5,25 +5,16 @@
   gap: 10px;
 }
 .top-line__link {
-  --bg: #ffe6b3;
   border-radius: 50px;
   padding: 5px 20px;
-  background-color: var(--bg);
-  transition: background-color 0.3s;
+  background-color: #dedede;
 }
 .top-line__link:hover {
-  --bg: #ffd681;
-}
-.top-line__link--highlight {
-  --bg: var(--base-color);
   color: #fff;
+  background-color: var(--base-color);
 }
-
-.top-line__link--highlight:hover {
-  --bg: #004471;
-}
-.top-line__list {
+.top-line__group {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 5px;
 }

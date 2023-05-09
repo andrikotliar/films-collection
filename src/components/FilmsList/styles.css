@@ -5,6 +5,7 @@
   overflow-y: auto;
   height: var(--app-height);
   max-width: 1920px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -76,9 +77,12 @@
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 .list-empty {
-  padding: 20px;
   width: 100%;
-  border-left: var(--app-border);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 @media (max-width: 1400px) {
   .list {

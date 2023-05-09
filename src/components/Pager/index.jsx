@@ -9,6 +9,10 @@ const Pager = () => {
     setPage
   } = useFilmsContext();
 
+  if(filmsCount <= 24) {
+    return null;
+  }
+
   const pagesList = (filmsCount) => {
     const pageNumbers = [];
     const pagesCount = filmsCount / 24;

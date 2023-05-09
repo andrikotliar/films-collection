@@ -40,6 +40,7 @@ const Film = () => {
 
   useEffect(() => {
     if(initialFilmsList && initialFilmsList.length) {
+      window.scrollTo(0, 0);
       findCurrentFilm(initialFilmsList);
     }
   }, [id, initialFilmsList]);
