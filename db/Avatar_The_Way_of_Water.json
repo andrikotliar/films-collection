@@ -169,14 +169,11 @@
       "actorId": "937d3d93-3df6-4eb5-b290-b8fe80d960d8"
     }
   ],
-  "duration": {
-    "hours": "3",
-    "minutes": "12"
-  },
-  "releaseDate": "2022-12-01",
+  "duration": 192,
   "trailer": "o5F8MOz_IDw",
   "parts": {
     "title": "Avatar",
     "part": 2
-  }
+  },
+  "year": 2022
 }

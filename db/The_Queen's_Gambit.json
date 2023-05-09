@@ -53,56 +53,49 @@
           "episode": 1,
           "title": "Openings",
           "directedBy": "Scott Frank",
-          "writtenBy": "Scott Frank",
-          "releaseDate": "2020-10-23"
+          "writtenBy": "Scott Frank"
         },
         {
           "episodeOverall": 2,
           "episode": 2,
           "title": "Exchanges",
           "directedBy": "Scott Frank",
-          "writtenBy": "Scott Frank",
-          "releaseDate": "2020-10-23"
+          "writtenBy": "Scott Frank"
         },
         {
           "episodeOverall": 3,
           "episode": 3,
           "title": "Doubled Pawns",
           "directedBy": "Scott Frank",
-          "writtenBy": "Scott Frank",
-          "releaseDate": "2020-10-23"
+          "writtenBy": "Scott Frank"
         },
         {
           "episodeOverall": 4,
           "episode": 4,
           "title": "Middle Game",
           "directedBy": "Scott Frank",
-          "writtenBy": "Scott Frank",
-          "releaseDate": "2020-10-23"
+          "writtenBy": "Scott Frank"
         },
         {
           "episodeOverall": 5,
           "episode": 5,
           "title": "Fork",
           "directedBy": "Scott Frank",
-          "writtenBy": "Scott Frank",
-          "releaseDate": "2020-10-23"
+          "writtenBy": "Scott Frank"
         },
         {
           "episodeOverall": 6,
           "episode": 6,
           "title": "Adjournment",
           "directedBy": "Scott Frank",
-          "writtenBy": "Scott Frank",
-          "releaseDate": "2020-10-23"
+          "writtenBy": "Scott Frank"
         },
         {
           "episodeOverall": 7,
           "episode": 7,
           "title": "End Game",
           "directedBy": "Scott Frank",
-          "writtenBy": "Scott Frank",
-          "releaseDate": "2020-10-23"
+          "writtenBy": "Scott Frank"
         }
       ],
       "trailer": "oZn3qSgmLqI"
@@ -182,9 +175,6 @@
       "actorId": "4adea2ce-6b1e-40ce-83f7-1d02b376c6f3"
     }
   ],
-  "duration": {
-    "hours": "06",
-    "minutes": "35"
-  },
-  "releaseDate": "2020-10-01"
+  "duration": 395,
+  "year": 2020
 }

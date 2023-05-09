@@ -55,64 +55,56 @@
           "episode": 1,
           "title": "Chapter 1: The Mandalorian",
           "directedBy": "Dave Filoni",
-          "writtenBy": "Jon Favreau",
-          "releaseDate": "2019-11-12"
+          "writtenBy": "Jon Favreau"
         },
         {
           "episodeOverall": 2,
           "episode": 2,
           "title": "Chapter 2: The Child",
           "directedBy": "Rick Famuyiwa",
-          "writtenBy": "Jon Favreau",
-          "releaseDate": "2019-11-15"
+          "writtenBy": "Jon Favreau"
         },
         {
           "episodeOverall": 3,
           "episode": 3,
           "title": "Chapter 3: The Sin",
           "directedBy": "Deborah Chow",
-          "writtenBy": "Jon Favreau",
-          "releaseDate": "2019-11-22"
+          "writtenBy": "Jon Favreau"
         },
         {
           "episodeOverall": 4,
           "episode": 4,
           "title": "Chapter 4: Sanctuary",
           "directedBy": "Bryce Dallas Howard",
-          "writtenBy": "Jon Favreau",
-          "releaseDate": "2019-11-29"
+          "writtenBy": "Jon Favreau"
         },
         {
           "episodeOverall": 5,
           "episode": 5,
           "title": "Chapter 5: The Gunslinger",
           "directedBy": "Dave Filoni",
-          "writtenBy": "Dave Filoni",
-          "releaseDate": "2019-12-06"
+          "writtenBy": "Dave Filoni"
         },
         {
           "episodeOverall": 6,
           "episode": 6,
           "title": "Chapter 6: The Prisoner",
           "directedBy": "Rick Famuyiwa",
-          "writtenBy": "Christopher Yost, Rick Famuyiwa",
-          "releaseDate": "2019-12-13"
+          "writtenBy": "Christopher Yost, Rick Famuyiwa"
         },
         {
           "episodeOverall": 7,
           "episode": 7,
           "title": "Chapter 7: The Reckoning",
           "directedBy": "Deborah Chow",
-          "writtenBy": "Jon Favreau",
-          "releaseDate": "2019-12-18"
+          "writtenBy": "Jon Favreau"
         },
         {
           "episodeOverall": 8,
           "episode": 8,
           "title": "Chapter 8: Redemption",
           "directedBy": "Taika Waititi",
-          "writtenBy": "Jon Favreau",
-          "releaseDate": "2019-12-27"
+          "writtenBy": "Jon Favreau"
         }
       ],
       "trailer": "OFlBh_eUsjA"
@@ -125,64 +117,56 @@
           "episode": 1,
           "title": "Chapter 9: The Marshal",
           "directedBy": "Jon Favreau",
-          "writtenBy": "Jon Favreau",
-          "releaseDate": "2020-10-30"
+          "writtenBy": "Jon Favreau"
         },
         {
           "episodeOverall": 10,
           "episode": 2,
           "title": "Chapter 10: The Passenger",
           "directedBy": "Peyton Reed",
-          "writtenBy": "Jon Favreau",
-          "releaseDate": "2020-11-06"
+          "writtenBy": "Jon Favreau"
         },
         {
           "episodeOverall": 11,
           "episode": 3,
           "title": "Chapter 11: The Heiress",
           "directedBy": "Bryce Dallas Howard",
-          "writtenBy": "Jon Favreau",
-          "releaseDate": "2020-11-13"
+          "writtenBy": "Jon Favreau"
         },
         {
           "episodeOverall": 12,
           "episode": 4,
           "title": "Chapter 12: The Siege",
           "directedBy": "Carl Weathers",
-          "writtenBy": "Jon Favreau",
-          "releaseDate": "2020-11-20"
+          "writtenBy": "Jon Favreau"
         },
         {
           "episodeOverall": 13,
           "episode": 5,
           "title": "Chapter 13: The Jedi",
           "directedBy": "Dave Filoni",
-          "writtenBy": "Dave Filoni",
-          "releaseDate": "2020-11-27"
+          "writtenBy": "Dave Filoni"
         },
         {
           "episodeOverall": 14,
           "episode": 6,
           "title": "Chapter 14: The Tragedy",
           "directedBy": "Robert Rodriguez",
-          "writtenBy": "Jon Favreau",
-          "releaseDate": "2020-12-04"
+          "writtenBy": "Jon Favreau"
         },
         {
           "episodeOverall": 15,
           "episode": 7,
           "title": "Chapter 15: The Believer",
           "directedBy": "Rick Famuyiwa",
-          "writtenBy": "Rick Famuyiwa",
-          "releaseDate": "2020-12-11"
+          "writtenBy": "Rick Famuyiwa"
         },
         {
           "episodeOverall": 16,
           "episode": 8,
           "title": "Chapter 16: The Rescue",
           "directedBy": "Peyton Reed",
-          "writtenBy": "Jon Favreau",
-          "releaseDate": "2020-12-18"
+          "writtenBy": "Jon Favreau"
         }
       ],
       "trailer": "eW7Twd85m2g"
@@ -262,9 +246,6 @@
       "actorId": "ab2be3de-4d69-41c2-908a-cc0df15fc8f2"
     }
   ],
-  "duration": {
-    "hours": "10",
-    "minutes": "40"
-  },
-  "releaseDate": "2019-11-01"
+  "duration": 640,
+  "year": 2019
 }

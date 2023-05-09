@@ -105,10 +105,7 @@
       "actorId": "e4d4cb52-c413-4947-a207-f91ccf4c33b5"
     }
   ],
-  "duration": {
-    "hours": "1",
-    "minutes": "45"
-  },
-  "releaseDate": "2015-02-01",
-  "trailer": "MxCRgtdAuBo"
+  "duration": 105,
+  "trailer": "MxCRgtdAuBo",
+  "year": 2015
 }

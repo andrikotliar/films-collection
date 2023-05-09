@@ -141,10 +141,7 @@
       "actorId": "00713f94-ee15-43d6-9565-81d63a7fa0f1"
     }
   ],
-  "duration": {
-    "hours": "1",
-    "minutes": "40"
-  },
-  "releaseDate": "2021-11-01",
-  "trailer": "x_me3xsvDgk"
+  "duration": 100,
+  "trailer": "x_me3xsvDgk",
+  "year": 2021
 }

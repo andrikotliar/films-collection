@@ -63,10 +63,7 @@
       "actorId": "3eeed1a8-5505-4398-b9f2-56904214ddfd"
     }
   ],
-  "duration": {
-    "hours": "1",
-    "minutes": "40"
-  },
-  "releaseDate": "2020-02-01",
-  "trailer": "h1LG9So2ZBk"
+  "duration": 100,
+  "trailer": "h1LG9So2ZBk",
+  "year": 2020
 }

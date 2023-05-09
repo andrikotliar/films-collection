@@ -111,10 +111,7 @@
       "actorId": "11c2ef11-4a44-4b3f-b5e2-fa10e592296c"
     }
   ],
-  "duration": {
-    "hours": "1",
-    "minutes": "50"
-  },
-  "releaseDate": "2007-02-01",
-  "trailer": "8M0lLJfNPds"
+  "duration": 110,
+  "trailer": "8M0lLJfNPds",
+  "year": 2007
 }

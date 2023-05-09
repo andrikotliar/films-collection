@@ -71,40 +71,35 @@
           "episode": 1,
           "title": "1:23:45",
           "directedBy": "Johan Renck",
-          "writtenBy": "Craig Mazin",
-          "releaseDate": "2019-05-06"
+          "writtenBy": "Craig Mazin"
         },
         {
           "episodeOverall": 2,
           "episode": 2,
           "title": "Please Remain Calm",
           "directedBy": "Johan Renck",
-          "writtenBy": "Craig Mazin",
-          "releaseDate": "2019-05-13"
+          "writtenBy": "Craig Mazin"
         },
         {
           "episodeOverall": 3,
           "episode": 3,
           "title": "Open Wide, O Earth",
           "directedBy": "Johan Renck",
-          "writtenBy": "Craig Mazin",
-          "releaseDate": "2019-05-20"
+          "writtenBy": "Craig Mazin"
         },
         {
           "episodeOverall": 4,
           "episode": 4,
           "title": "The Happiness of All Mankind",
           "directedBy": "Johan Renck",
-          "writtenBy": "Craig Mazin",
-          "releaseDate": "2019-05-27"
+          "writtenBy": "Craig Mazin"
         },
         {
           "episodeOverall": 5,
           "episode": 5,
           "title": "Vichnaya Pamyat",
           "directedBy": "Johan Renck",
-          "writtenBy": "Craig Mazin",
-          "releaseDate": "2019-06-03"
+          "writtenBy": "Craig Mazin"
         }
       ],
       "trailer": "s9APLXM9Ei8"
@@ -176,9 +171,6 @@
       "actorId": "63694732-cf05-4c92-b227-afd66265ba96"
     }
   ],
-  "duration": {
-    "hours": "05",
-    "minutes": "30"
-  },
-  "releaseDate": "2019-05-01"
+  "duration": 330,
+  "year": 2019
 }

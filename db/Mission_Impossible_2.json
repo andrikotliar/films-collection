@@ -116,10 +116,7 @@
       "actorId": "6b261d2c-81b2-4531-81b5-c6967c694f22"
     }
   ],
-  "duration": {
-    "hours": "2",
-    "minutes": "03"
-  },
-  "releaseDate": "2000-05-01",
-  "trailer": "Aqk78Z57LGg"
+  "duration": 123,
+  "trailer": "Aqk78Z57LGg",
+  "year": 2000
 }

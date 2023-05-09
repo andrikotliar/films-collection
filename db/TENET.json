@@ -116,10 +116,7 @@
       "actorId": "f1350936-4678-4bfa-9cc6-334a4fcaf567"
     }
   ],
-  "duration": {
-    "hours": "2",
-    "minutes": "30"
-  },
-  "releaseDate": "2020-08-01",
-  "trailer": "AZGcmvrTX9M"
+  "duration": 150,
+  "trailer": "AZGcmvrTX9M",
+  "year": 2020
 }

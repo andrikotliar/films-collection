@@ -129,10 +129,7 @@
       "actorId": "5e5c40b7-04ea-4cca-8f51-0353582a677c"
     }
   ],
-  "duration": {
-    "hours": "2",
-    "minutes": "03"
-  },
-  "releaseDate": "2016-08-01",
-  "trailer": "CmRih_VtVAs"
+  "duration": 123,
+  "trailer": "CmRih_VtVAs",
+  "year": 2016
 }

@@ -47,104 +47,91 @@
           "episode": 1,
           "title": "Pilot",
           "directedBy": "Bharat Nalluri",
-          "writtenBy": "Jason Rothenberg",
-          "releaseDate": "2014-03-19"
+          "writtenBy": "Jason Rothenberg"
         },
         {
           "episodeOverall": 2,
           "episode": 2,
           "title": "Earth Skills",
           "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg",
-          "releaseDate": "2014-03-26"
+          "writtenBy": "Jason Rothenberg"
         },
         {
           "episodeOverall": 3,
           "episode": 3,
           "title": "Earth Kills",
           "directedBy": "Dean White",
-          "writtenBy": "Elizabeth Craft, Sarah Fain",
-          "releaseDate": "2014-04-02"
+          "writtenBy": "Elizabeth Craft, Sarah Fain"
         },
         {
           "episodeOverall": 4,
           "episode": 4,
           "title": "Murphy's Law",
           "directedBy": "P. J. Pesce",
-          "writtenBy": "T. J. Brady, Rasheed Newson",
-          "releaseDate": "2014-04-09"
+          "writtenBy": "T. J. Brady, Rasheed Newson"
         },
         {
           "episodeOverall": 5,
           "episode": 5,
           "title": "Twilight's Last Gleaming",
           "directedBy": "Milan Cheylov",
-          "writtenBy": "Bruce Miller",
-          "releaseDate": "2014-04-16"
+          "writtenBy": "Bruce Miller"
         },
         {
           "episodeOverall": 6,
           "episode": 6,
           "title": "His Sister's Keeper",
           "directedBy": "Wayne Rose",
-          "writtenBy": "Tracy Bellomo, Dorothy Fortenberry",
-          "releaseDate": "2014-04-23"
+          "writtenBy": "Tracy Bellomo, Dorothy Fortenberry"
         },
         {
           "episodeOverall": 7,
           "episode": 7,
           "title": "Contents Under Pressure",
           "directedBy": "John Showalter",
-          "writtenBy": "Akela Cooper, Kira Snyder",
-          "releaseDate": "2014-04-30"
+          "writtenBy": "Akela Cooper, Kira Snyder"
         },
         {
           "episodeOverall": 8,
           "episode": 8,
           "title": "Day Trip",
           "directedBy": "Matt Barber",
-          "writtenBy": "Elizabeth Craft, Sarah Fain",
-          "releaseDate": "2014-05-07"
+          "writtenBy": "Elizabeth Craft, Sarah Fain"
         },
         {
           "episodeOverall": 9,
           "episode": 9,
           "title": "Unity Day",
           "directedBy": "John Behring",
-          "writtenBy": "Kim Shumway, Kira Snyder",
-          "releaseDate": "2014-05-14"
+          "writtenBy": "Kim Shumway, Kira Snyder"
         },
         {
           "episodeOverall": 10,
           "episode": 10,
           "title": "I Am Become Death",
           "directedBy": "Omar Madha",
-          "writtenBy": "T. J. Brady, Rasheed Newson",
-          "releaseDate": "2014-05-21"
+          "writtenBy": "T. J. Brady, Rasheed Newson"
         },
         {
           "episodeOverall": 11,
           "episode": 11,
           "title": "The Calm",
           "directedBy": "Mairzee Almas",
-          "writtenBy": "Bruce Miller",
-          "releaseDate": "2014-05-28"
+          "writtenBy": "Bruce Miller"
         },
         {
           "episodeOverall": 12,
           "episode": 12,
           "title": "We Are Grounders – Part I",
           "directedBy": "Dean White",
-          "writtenBy": "Tracy Bellmo, Akela Cooper",
-          "releaseDate": "2014-06-04"
+          "writtenBy": "Tracy Bellmo, Akela Cooper"
         },
         {
           "episodeOverall": 13,
           "episode": 13,
           "title": "We Are Grounders – Part II",
           "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg",
-          "releaseDate": "2014-06-11"
+          "writtenBy": "Jason Rothenberg"
         }
       ],
       "trailer": "ia1Fbg96vL0"
@@ -157,128 +144,112 @@
           "episode": 1,
           "title": "The 48",
           "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg",
-          "releaseDate": "2014-10-22"
+          "writtenBy": "Jason Rothenberg"
         },
         {
           "episodeOverall": 15,
           "episode": 2,
           "title": "Inclement Weather",
           "directedBy": "John F. Showalter",
-          "writtenBy": "Michael Angeli",
-          "releaseDate": "2014-10-29"
+          "writtenBy": "Michael Angeli"
         },
         {
           "episodeOverall": 16,
           "episode": 3,
           "title": "Reapercussions",
           "directedBy": "Dean White",
-          "writtenBy": "Aaron Ginsburg, Wade McIntyre",
-          "releaseDate": "2014-11-05"
+          "writtenBy": "Aaron Ginsburg, Wade McIntyre"
         },
         {
           "episodeOverall": 17,
           "episode": 4,
           "title": "Many Happy Returns",
           "directedBy": "P. J. Pesce",
-          "writtenBy": "Kim Shumway",
-          "releaseDate": "2014-11-12"
+          "writtenBy": "Kim Shumway"
         },
         {
           "episodeOverall": 18,
           "episode": 5,
           "title": "Human Trials",
           "directedBy": "Ed Fraiman",
-          "writtenBy": "Charlie Craig",
-          "releaseDate": "2014-11-19"
+          "writtenBy": "Charlie Craig"
         },
         {
           "episodeOverall": 19,
           "episode": 6,
           "title": "Fog of War",
           "directedBy": "Steven DePaul",
-          "writtenBy": "Kira Snyder",
-          "releaseDate": "2014-12-03"
+          "writtenBy": "Kira Snyder"
         },
         {
           "episodeOverall": 20,
           "episode": 7,
           "title": "Long Into an Abyss",
           "directedBy": "Antonio Negret",
-          "writtenBy": "James Thorpe",
-          "releaseDate": "2014-12-10"
+          "writtenBy": "James Thorpe"
         },
         {
           "episodeOverall": 21,
           "episode": 8,
           "title": "Spacewalker",
           "directedBy": "John F. Showalter",
-          "writtenBy": "Bruce Miller",
-          "releaseDate": "2014-12-17"
+          "writtenBy": "Bruce Miller"
         },
         {
           "episodeOverall": 22,
           "episode": 9,
           "title": "Remember Me",
           "directedBy": "Omar Madha",
-          "writtenBy": "Dorothy Fortenberry",
-          "releaseDate": "2015-01-21"
+          "writtenBy": "Dorothy Fortenberry"
         },
         {
           "episodeOverall": 23,
           "episode": 10,
           "title": "Survival of the Fittest",
           "directedBy": "Dean White",
-          "writtenBy": "Akela Cooper",
-          "releaseDate": "2015-01-28"
+          "writtenBy": "Akela Cooper"
         },
         {
           "episodeOverall": 24,
           "episode": 11,
           "title": "Coup de Grace",
           "directedBy": "P. J. Pesce",
-          "writtenBy": "Charlie Craig",
-          "releaseDate": "2015-02-04"
+          "writtenBy": "Charlie Craig"
         },
         {
           "episodeOverall": 25,
           "episode": 12,
           "title": "Rubicon",
           "directedBy": "Mairzee Almas",
-          "writtenBy": "Aaron Ginsburg, Wade McIntyre",
-          "releaseDate": "2015-02-11"
+          "writtenBy": "Aaron Ginsburg, Wade McIntyre"
         },
         {
           "episodeOverall": 26,
           "episode": 13,
           "title": "Resurrection",
           "directedBy": "Dean White",
-          "writtenBy": "Bruce Miller",
-          "releaseDate": "2015-02-18"
+          "writtenBy": "Bruce Miller"
         },
         {
           "episodeOverall": 27,
           "episode": 14,
           "title": "Bodyguard of Lies",
           "directedBy": "Uta Briesewitz",
-          "writtenBy": "Kim Shumway",
-          "releaseDate": "2015-02-25"
+          "writtenBy": "Kim Shumway"
         },
         {
           "episodeOverall": 28,
           "episode": 15,
           "title": "Blood Must Have Blood: Part One",
           "directedBy": "Omar Madha",
-          "writtenBy": "Aaron Ginsburg, Wade McIntyre",
-          "releaseDate": "2015-03-04"
+          "writtenBy": "Aaron Ginsburg, Wade McIntyre"
         },
         {
           "episodeOverall": 29,
           "episode": 16,
           "title": "Blood Must Have Blood: Part Two",
           "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg",
-          "releaseDate": "2015-03-11"
+          "writtenBy": "Jason Rothenberg"
         }
       ],
       "trailer": "IW7_ZzFZF-o"
@@ -291,128 +262,112 @@
           "episode": 1,
           "title": "Wanheda: Part One",
           "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg",
-          "releaseDate": "2016-01-21"
+          "writtenBy": "Jason Rothenberg"
         },
         {
           "episodeOverall": 31,
           "episode": 2,
           "title": "Wanheda: Part Two",
           "directedBy": "Mairzee Almas",
-          "writtenBy": "Aaron Ginsburg, Wade McIntyre",
-          "releaseDate": "2016-01-28"
+          "writtenBy": "Aaron Ginsburg, Wade McIntyre"
         },
         {
           "episodeOverall": 32,
           "episode": 3,
           "title": "Ye Who Enter Here",
           "directedBy": "Antonio Negret",
-          "writtenBy": "Kim Shumway",
-          "releaseDate": "2016-02-04"
+          "writtenBy": "Kim Shumway"
         },
         {
           "episodeOverall": 33,
           "episode": 4,
           "title": "Watch the Thrones",
           "directedBy": "Ed Fraiman",
-          "writtenBy": "Dorothy Fortenberry",
-          "releaseDate": "2016-02-11"
+          "writtenBy": "Dorothy Fortenberry"
         },
         {
           "episodeOverall": 34,
           "episode": 5,
           "title": "Hakeldama",
           "directedBy": "Tim Scanlan",
-          "writtenBy": "Charlie Craig",
-          "releaseDate": "2016-02-18"
+          "writtenBy": "Charlie Craig"
         },
         {
           "episodeOverall": 35,
           "episode": 6,
           "title": "Bitter Harvest",
           "directedBy": "Dean White",
-          "writtenBy": "Kira Snyder",
-          "releaseDate": "2016-02-25"
+          "writtenBy": "Kira Snyder"
         },
         {
           "episodeOverall": 36,
           "episode": 7,
           "title": "Thirteen",
           "directedBy": "Dean White",
-          "writtenBy": "Javier Grillo-Marxuach",
-          "releaseDate": "2016-03-03"
+          "writtenBy": "Javier Grillo-Marxuach"
         },
         {
           "episodeOverall": 37,
           "episode": 8,
           "title": "Terms, Conditions",
           "directedBy": "John Showalter",
-          "writtenBy": "Charlie Craig",
-          "releaseDate": "2016-03-10"
+          "writtenBy": "Charlie Craig"
         },
         {
           "episodeOverall": 38,
           "episode": 9,
           "title": "Stealing Fire",
           "directedBy": "Uta Briesewitz",
-          "writtenBy": "Heidi Cole McAdams",
-          "releaseDate": "2016-03-31"
+          "writtenBy": "Heidi Cole McAdams"
         },
         {
           "episodeOverall": 39,
           "episode": 10,
           "title": "Fallen",
           "directedBy": "Matt Barber",
-          "writtenBy": "Charmaine DeGrate, Javier Grillo-Marxuach",
-          "releaseDate": "2016-04-07"
+          "writtenBy": "Charmaine DeGrate, Javier Grillo-Marxuach"
         },
         {
           "episodeOverall": 40,
           "episode": 11,
           "title": "Nevermore",
           "directedBy": "Ed Fraiman",
-          "writtenBy": "Kim Shumway",
-          "releaseDate": "2016-04-14"
+          "writtenBy": "Kim Shumway"
         },
         {
           "episodeOverall": 41,
           "episode": 12,
           "title": "Demons",
           "directedBy": "P. J. Pesce",
-          "writtenBy": "Justine Juel Gillmer",
-          "releaseDate": "2016-04-21"
+          "writtenBy": "Justine Juel Gillmer"
         },
         {
           "episodeOverall": 42,
           "episode": 13,
           "title": "Join or Die",
           "directedBy": "Dean White",
-          "writtenBy": "Julie Benson, Shawna Benson",
-          "releaseDate": "2016-04-28"
+          "writtenBy": "Julie Benson, Shawna Benson"
         },
         {
           "episodeOverall": 43,
           "episode": 14,
           "title": "Red Sky at Morning",
           "directedBy": "P. J. Pesce",
-          "writtenBy": "Lauren Muir, Kira Snyder",
-          "releaseDate": "2016-05-05"
+          "writtenBy": "Lauren Muir, Kira Snyder"
         },
         {
           "episodeOverall": 44,
           "episode": 15,
           "title": "Perverse Instantiation – Part One",
           "directedBy": "Ed Fraiman",
-          "writtenBy": "Aaron Ginsburg, Wade McIntyre",
-          "releaseDate": "2016-05-12"
+          "writtenBy": "Aaron Ginsburg, Wade McIntyre"
         },
         {
           "episodeOverall": 45,
           "episode": 16,
           "title": "Perverse Instantiation – Part Two",
           "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg",
-          "releaseDate": "2016-05-19"
+          "writtenBy": "Jason Rothenberg"
         }
       ],
       "trailer": "uwxwHTu802M"
@@ -425,104 +380,91 @@
           "episode": 1,
           "title": "Echoes",
           "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg",
-          "releaseDate": "2017-02-01"
+          "writtenBy": "Jason Rothenberg"
         },
         {
           "episodeOverall": 47,
           "episode": 2,
           "title": "Heavy Lies the Crown",
           "directedBy": "Ed Fraiman",
-          "writtenBy": "Justine Juel Gillmer",
-          "releaseDate": "2017-02-08"
+          "writtenBy": "Justine Juel Gillmer"
         },
         {
           "episodeOverall": 48,
           "episode": 3,
           "title": "The Four Horsemen",
           "directedBy": "P. J. Pesce",
-          "writtenBy": "Heidi Cole McAdams",
-          "releaseDate": "2017-02-15"
+          "writtenBy": "Heidi Cole McAdams"
         },
         {
           "episodeOverall": 49,
           "episode": 4,
           "title": "A Lie Guarded",
           "directedBy": "Ian Samoil",
-          "writtenBy": "Kim Shumway",
-          "releaseDate": "2017-02-22"
+          "writtenBy": "Kim Shumway"
         },
         {
           "episodeOverall": 50,
           "episode": 5,
           "title": "The Tinder Box",
           "directedBy": "John F. Showalter",
-          "writtenBy": "Morgan Gendel",
-          "releaseDate": "2017-03-01"
+          "writtenBy": "Morgan Gendel"
         },
         {
           "episodeOverall": 51,
           "episode": 6,
           "title": "We Will Rise",
           "directedBy": "Dean White",
-          "writtenBy": "Charmaine DeGrate",
-          "releaseDate": "2017-03-15"
+          "writtenBy": "Charmaine DeGrate"
         },
         {
           "episodeOverall": 52,
           "episode": 7,
           "title": "Gimme Shelter",
           "directedBy": "Tim Scanlan",
-          "writtenBy": "Terri Hughes Burton, Ron Milbauer",
-          "releaseDate": "2017-03-22"
+          "writtenBy": "Terri Hughes Burton, Ron Milbauer"
         },
         {
           "episodeOverall": 53,
           "episode": 8,
           "title": "God Complex",
           "directedBy": "Omar Madha",
-          "writtenBy": "Lauren Muir",
-          "releaseDate": "2017-03-29"
+          "writtenBy": "Lauren Muir"
         },
         {
           "episodeOverall": 54,
           "episode": 9,
           "title": "DNR",
           "directedBy": "Mairzee Almas",
-          "writtenBy": "Miranda Kwok",
-          "releaseDate": "2017-04-26"
+          "writtenBy": "Miranda Kwok"
         },
         {
           "episodeOverall": 55,
           "episode": 10,
           "title": "Die All, Die Merrily",
           "directedBy": "Dean White",
-          "writtenBy": "Aaron Ginsburg, Wade McIntyre",
-          "releaseDate": "2017-05-03"
+          "writtenBy": "Aaron Ginsburg, Wade McIntyre"
         },
         {
           "episodeOverall": 56,
           "episode": 11,
           "title": "The Other Side",
           "directedBy": "Henry Ian Cusick",
-          "writtenBy": "Julie Benson, Shawna Benson",
-          "releaseDate": "2017-05-10"
+          "writtenBy": "Julie Benson, Shawna Benson"
         },
         {
           "episodeOverall": 57,
           "episode": 12,
           "title": "The Chosen",
           "directedBy": "Alex Kalymnios",
-          "writtenBy": "Aaron Ginsburg, Wade McIntyre",
-          "releaseDate": "2017-05-17"
+          "writtenBy": "Aaron Ginsburg, Wade McIntyre"
         },
         {
           "episodeOverall": 58,
           "episode": 13,
           "title": "Praimfaya",
           "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg",
-          "releaseDate": "2017-05-24"
+          "writtenBy": "Jason Rothenberg"
         }
       ],
       "trailer": "JQi2MAfpACI"
@@ -535,104 +477,91 @@
           "episode": 1,
           "title": "Eden",
           "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg",
-          "releaseDate": "2018-04-24"
+          "writtenBy": "Jason Rothenberg"
         },
         {
           "episodeOverall": 60,
           "episode": 2,
           "title": "Red Queen",
           "directedBy": "P. J. Pesce",
-          "writtenBy": "Terri Hughes Burton",
-          "releaseDate": "2018-05-01"
+          "writtenBy": "Terri Hughes Burton"
         },
         {
           "episodeOverall": 61,
           "episode": 3,
           "title": "Sleeping Giants",
           "directedBy": "Tim Scanlan",
-          "writtenBy": "Aaron Ginsburg, Wade McIntyre",
-          "releaseDate": "2018-05-08"
+          "writtenBy": "Aaron Ginsburg, Wade McIntyre"
         },
         {
           "episodeOverall": 62,
           "episode": 4,
           "title": "Pandora's Box",
           "directedBy": "Dean White",
-          "writtenBy": "Charmaine DeGrate",
-          "releaseDate": "2018-05-15"
+          "writtenBy": "Charmaine DeGrate"
         },
         {
           "episodeOverall": 63,
           "episode": 5,
           "title": "Shifting Sands",
           "directedBy": "Omar Madha",
-          "writtenBy": "Nick Bragg",
-          "releaseDate": "2018-05-22"
+          "writtenBy": "Nick Bragg"
         },
         {
           "episodeOverall": 64,
           "episode": 6,
           "title": "Exit Wounds",
           "directedBy": "Michael Blundell",
-          "writtenBy": "Drew Lindo",
-          "releaseDate": "2018-06-05"
+          "writtenBy": "Drew Lindo"
         },
         {
           "episodeOverall": 65,
           "episode": 7,
           "title": "Acceptable Losses",
           "directedBy": "Mairzee Almas",
-          "writtenBy": "Jeff Vlaming",
-          "releaseDate": "2018-06-19"
+          "writtenBy": "Jeff Vlaming"
         },
         {
           "episodeOverall": 66,
           "episode": 8,
           "title": "How We Get to Peace",
           "directedBy": "Antonio Negret",
-          "writtenBy": "Lauren Muir",
-          "releaseDate": "2018-06-26"
+          "writtenBy": "Lauren Muir"
         },
         {
           "episodeOverall": 67,
           "episode": 9,
           "title": "Sic Semper Tyrannis",
           "directedBy": "Ian Samoil",
-          "writtenBy": "Miranda Kwok",
-          "releaseDate": "2018-07-10"
+          "writtenBy": "Miranda Kwok"
         },
         {
           "episodeOverall": 68,
           "episode": 10,
           "title": "The Warriors Will",
           "directedBy": "Henry Ian Cusick",
-          "writtenBy": "Julie Benson, Shawna Benson",
-          "releaseDate": "2018-07-17"
+          "writtenBy": "Julie Benson, Shawna Benson"
         },
         {
           "episodeOverall": 69,
           "episode": 11,
           "title": "The Dark Year",
           "directedBy": "Alex Kalymnios",
-          "writtenBy": "Heidi Cole McAdams",
-          "releaseDate": "2018-07-24"
+          "writtenBy": "Heidi Cole McAdams"
         },
         {
           "episodeOverall": 70,
           "episode": 12,
           "title": "Damocles – Part One",
           "directedBy": "Dean White",
-          "writtenBy": "Justine Juel Gillmer",
-          "releaseDate": "2018-07-31"
+          "writtenBy": "Justine Juel Gillmer"
         },
         {
           "episodeOverall": 71,
           "episode": 13,
           "title": "Damocles – Part Two",
           "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg",
-          "releaseDate": "2018-08-07"
+          "writtenBy": "Jason Rothenberg"
         }
       ],
       "trailer": "AGSfZ4xt4UY"
@@ -645,104 +574,91 @@
           "episode": 1,
           "title": "Sanctum",
           "directedBy": "Ed Fraiman",
-          "writtenBy": "Jason Rothenberg",
-          "releaseDate": "2019-04-30"
+          "writtenBy": "Jason Rothenberg"
         },
         {
           "episodeOverall": 73,
           "episode": 2,
           "title": "Red Sun Rising",
           "directedBy": "Alex Kalymnios",
-          "writtenBy": "Jeff Vlaming",
-          "releaseDate": "2019-05-07"
+          "writtenBy": "Jeff Vlaming"
         },
         {
           "episodeOverall": 74,
           "episode": 3,
           "title": "The Children of Gabriel",
           "directedBy": "Dean White",
-          "writtenBy": "Drew Lindo",
-          "releaseDate": "2019-05-14"
+          "writtenBy": "Drew Lindo"
         },
         {
           "episodeOverall": 75,
           "episode": 4,
           "title": "The Face Behind the Glass",
           "directedBy": "Tim Scanlan",
-          "writtenBy": "Charmaine DeGraté",
-          "releaseDate": "2019-05-21"
+          "writtenBy": "Charmaine DeGraté"
         },
         {
           "episodeOverall": 76,
           "episode": 5,
           "title": "The Gospel of Josephine",
           "directedBy": "Ian Samoil",
-          "writtenBy": "Georgia Lee",
-          "releaseDate": "2019-05-28"
+          "writtenBy": "Georgia Lee"
         },
         {
           "episodeOverall": 77,
           "episode": 6,
           "title": "Memento Mori",
           "directedBy": "P.J. Pesce",
-          "writtenBy": "Alyssa Clark",
-          "releaseDate": "2019-06-11"
+          "writtenBy": "Alyssa Clark"
         },
         {
           "episodeOverall": 78,
           "episode": 7,
           "title": "Nevermind",
           "directedBy": "Michael Blundell",
-          "writtenBy": "Kim Shumway",
-          "releaseDate": "2019-06-18"
+          "writtenBy": "Kim Shumway"
         },
         {
           "episodeOverall": 79,
           "episode": 8,
           "title": "The Old Man, the Anomaly",
           "directedBy": "April Mullen",
-          "writtenBy": "Miranda Kwok",
-          "releaseDate": "2019-06-25"
+          "writtenBy": "Miranda Kwok"
         },
         {
           "episodeOverall": 80,
           "episode": 9,
           "title": "What You Take With You",
           "directedBy": "Marshall Virtue",
-          "writtenBy": "Nikki Goldwaser",
-          "releaseDate": "2019-07-09"
+          "writtenBy": "Nikki Goldwaser"
         },
         {
           "episodeOverall": 81,
           "episode": 10,
           "title": "Matryoshka",
           "directedBy": "Amanda Tapping",
-          "writtenBy": "Drew Lindo",
-          "releaseDate": "2019-07-16"
+          "writtenBy": "Drew Lindo"
         },
         {
           "episodeOverall": 82,
           "episode": 11,
           "title": "Ashes to Ashes",
           "directedBy": "Bob Morley",
-          "writtenBy": "Charmaine DeGraté",
-          "releaseDate": "2019-07-23"
+          "writtenBy": "Charmaine DeGraté"
         },
         {
           "episodeOverall": 83,
           "episode": 12,
           "title": "Adjustment Protocol",
           "directedBy": "Antonio Negret",
-          "writtenBy": "Kim Shumway",
-          "releaseDate": "2019-07-30"
+          "writtenBy": "Kim Shumway"
         },
         {
           "episodeOverall": 84,
           "episode": 13,
           "title": "The Blood of Sanctum",
           "directedBy": "Ed Fraiman",
-          "writtenBy": "Jason Rothenberg",
-          "releaseDate": "2019-08-06"
+          "writtenBy": "Jason Rothenberg"
         }
       ],
       "trailer": "AVDyeT-GsX4"
@@ -755,128 +671,112 @@
           "episode": 1,
           "title": "From the Ashes",
           "directedBy": "Ed Fraiman",
-          "writtenBy": "Jason Rothenberg",
-          "releaseDate": "2020-05-20"
+          "writtenBy": "Jason Rothenberg"
         },
         {
           "episodeOverall": 86,
           "episode": 2,
           "title": "The Garden",
           "directedBy": "Dean White",
-          "writtenBy": "Jeff Vlaming",
-          "releaseDate": "2020-05-27"
+          "writtenBy": "Jeff Vlaming"
         },
         {
           "episodeOverall": 87,
           "episode": 3,
           "title": "False Gods",
           "directedBy": "Tim Scanlan",
-          "writtenBy": "Kim Shumway",
-          "releaseDate": "2020-06-03"
+          "writtenBy": "Kim Shumway"
         },
         {
           "episodeOverall": 88,
           "episode": 4,
           "title": "Hesperides",
           "directedBy": "Diana Valentine",
-          "writtenBy": "Sean Crouch",
-          "releaseDate": "2020-06-10"
+          "writtenBy": "Sean Crouch"
         },
         {
           "episodeOverall": 89,
           "episode": 5,
           "title": "Welcome to Bardo",
           "directedBy": "Ian Samoil",
-          "writtenBy": "Drew Lindo",
-          "releaseDate": "2020-06-17"
+          "writtenBy": "Drew Lindo"
         },
         {
           "episodeOverall": 90,
           "episode": 6,
           "title": "Nakara",
           "directedBy": "PJ Pesce",
-          "writtenBy": "Erica Meredith",
-          "releaseDate": "2020-06-24"
+          "writtenBy": "Erica Meredith"
         },
         {
           "episodeOverall": 91,
           "episode": 7,
           "title": "The Queen's Gambit",
           "directedBy": "Lindsey Morgan",
-          "writtenBy": "Miranda Kwok",
-          "releaseDate": "2020-07-01"
+          "writtenBy": "Miranda Kwok"
         },
         {
           "episodeOverall": 92,
           "episode": 8,
           "title": "Anaconda",
           "directedBy": "Ed Fraiman",
-          "writtenBy": "Jason Rothenberg",
-          "releaseDate": "2020-07-08"
+          "writtenBy": "Jason Rothenberg"
         },
         {
           "episodeOverall": 93,
           "episode": 9,
           "title": "The Flock",
           "directedBy": "Amyn Kaderali",
-          "writtenBy": "Alyssa Clark",
-          "releaseDate": "2020-07-15"
+          "writtenBy": "Alyssa Clark"
         },
         {
           "episodeOverall": 94,
           "episode": 10,
           "title": "A Little Sacrifice",
           "directedBy": "Sherwin Shilati",
-          "writtenBy": "Nikki Goldwaser",
-          "releaseDate": "2020-08-05"
+          "writtenBy": "Nikki Goldwaser"
         },
         {
           "episodeOverall": 95,
           "episode": 11,
           "title": "Etherea",
           "directedBy": "Aprill Winney",
-          "writtenBy": "Jeff Vlaming",
-          "releaseDate": "2020-08-12"
+          "writtenBy": "Jeff Vlaming"
         },
         {
           "episodeOverall": 96,
           "episode": 12,
           "title": "The Stranger",
           "directedBy": "Amanda Row",
-          "writtenBy": "Blythe Ann Johnson",
-          "releaseDate": "2020-08-19"
+          "writtenBy": "Blythe Ann Johnson"
         },
         {
           "episodeOverall": 97,
           "episode": 13,
           "title": "Blood Giant",
           "directedBy": "Michael Cliett",
-          "writtenBy": "Ross Knight",
-          "releaseDate": "2020-09-09"
+          "writtenBy": "Ross Knight"
         },
         {
           "episodeOverall": 98,
           "episode": 14,
           "title": "A Sort of Homecoming",
           "directedBy": "Jessica Harmon",
-          "writtenBy": "Sean Crouch",
-          "releaseDate": "2020-09-16"
+          "writtenBy": "Sean Crouch"
         },
         {
           "episodeOverall": 99,
           "episode": 15,
           "title": "The Dying of the Light",
           "directedBy": "Ian Samoil",
-          "writtenBy": "Kim Shumway",
-          "releaseDate": "2020-09-23"
+          "writtenBy": "Kim Shumway"
         },
         {
           "episodeOverall": 100,
           "episode": 16,
           "title": "The Last War",
           "directedBy": "Jason Rothenberg",
-          "writtenBy": "Jason Rothenberg",
-          "releaseDate": "2020-09-30"
+          "writtenBy": "Jason Rothenberg"
         }
       ],
       "trailer": "VQaFKClCUpo"
@@ -1156,9 +1056,6 @@
       "actorId": "e685d628-5975-4f19-9606-fe956d069235"
     }
   ],
-  "duration": {
-    "hours": "71",
-    "minutes": "40"
-  },
-  "releaseDate": "2014-03-01"
+  "duration": 4300,
+  "year": 2014
 }

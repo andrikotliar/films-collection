@@ -106,10 +106,7 @@
       "actorId": "0aeb0252-6ba9-4897-a50d-589d6a3f50ad"
     }
   ],
-  "duration": {
-    "hours": "1",
-    "minutes": "30"
-  },
-  "releaseDate": "2004-12-01",
-  "trailer": "_LsPz8vCULE"
+  "duration": 90,
+  "trailer": "_LsPz8vCULE",
+  "year": 2004
 }

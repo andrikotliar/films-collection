@@ -165,14 +165,11 @@
       "actorId": "600178b8-cd25-49fe-8270-07fa8496d076"
     }
   ],
-  "duration": {
-    "hours": "2",
-    "minutes": "42"
-  },
-  "releaseDate": "2009-12-01",
+  "duration": 162,
   "trailer": "5PSNL1qE6VY",
   "parts": {
     "title": "Avatar",
     "part": 1
-  }
+  },
+  "year": 2009
 }

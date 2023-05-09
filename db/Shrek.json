@@ -89,10 +89,7 @@
       "actorId": "f9d78af1-af04-43c0-b564-3faac60bedf9"
     }
   ],
-  "duration": {
-    "hours": "1",
-    "minutes": "30"
-  },
-  "releaseDate": "2001-11-01",
-  "trailer": "CwXOrWvPBPk"
+  "duration": 90,
+  "trailer": "CwXOrWvPBPk",
+  "year": 2001
 }
