@@ -2,3 +2,9 @@
   font-size: 40px;
   line-height: 1;
 }
+
+@media (max-width: 500px) {
+  .film__title {
+    font-size: 30px;
+  }
+}

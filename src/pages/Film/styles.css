@@ -15,9 +15,8 @@
   gap: 20px;
 }
 
-.film__media {
-  display: flex;
-  width: 100%;
-  aspect-ratio: 21 / 9;
-  gap: 20px;
+@media (max-width: 500px) {
+  .film {
+    gap: 20px;
+  }
 }

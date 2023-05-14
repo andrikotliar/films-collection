@@ -1,39 +1,35 @@
-.series {
-  border: var(--app-border);
-  border-radius: 10px;
-  overflow: hidden;
-}
-
 .seasons {
   display: flex;
-  border-bottom: var(--app-border);
-  background-color: #f2f2f2;
-  overflow-x: auto;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
-.season-button {
-  padding: 20px;
-  background-color: #fff;
-  
+.seasons__select {
+  border: var(--app-border);
+  padding: 5px 20px;
+  border-radius: 10px;
 }
 
-.season-button--active {
-  color: #fff;
+.episodes {
+  width: 100%;
+  border: var(--app-border);
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+
+.episode-data__number {
   font-weight: bold;
-  background-color: var(--base-color);
-}
-
-.episode-data {
-  display: flex;
-  padding: 20px;
+  border-right: var(--app-border);
   border-bottom: var(--app-border);
-}
-
-.episode-data:last-child {
-  border-bottom: 0;
+  text-align: center;
 }
 
 .episode-data__main {
-  display: flex;
-  gap: 10px;
+  padding: 10px 20px;
+  border-bottom: var(--app-border);
+}
+
+.episode-data__title {
+  font-weight: normal;
 }

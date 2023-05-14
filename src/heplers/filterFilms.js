@@ -21,8 +21,8 @@ export const filterFilms = (list, filterParams) => {
         return handleSearchFilter(params.search, film.title);
       }
 
-      if(property === 'year' || property === 'duration') {
-        return film[property] === Number(params[property]);
+      if(property === 'year') {
+        return film.year === Number(params[property]);
       }
 
       if(property === 'collections') {

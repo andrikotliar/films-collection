@@ -33,3 +33,12 @@
 .key-values__list p:last-child a::after {
   content: '';
 }
+
+@media (max-width: 500px) {
+  .key-values {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+}

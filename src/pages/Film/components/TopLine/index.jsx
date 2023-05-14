@@ -5,7 +5,7 @@ import './styles.css'
 const TopLine = ({ filmData }) => {
   return (
     <div className="top-line">
-      <Link to={buildLink('year', filmData.year)} className="top-line__link">
+      <Link to={buildLink('year', filmData.year)} className="top-line__link top-line__link--highlight">
         {filmData.year}
       </Link>
       <div className="top-line__group">
@@ -15,9 +15,9 @@ const TopLine = ({ filmData }) => {
           </Link>
         ))}
       </div>
-      <Link to={buildLink('duration', filmData.duration)} className="top-line__link">
+      <span to={buildLink('duration', filmData.duration)} className="top-line__link top-line__link--static">
         {filmData.duration} min
-      </Link>
+      </span>
     </div>
   );
 };

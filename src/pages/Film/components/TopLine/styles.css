@@ -2,19 +2,33 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 .top-line__link {
   border-radius: 50px;
   padding: 5px 20px;
+  background-color: #ffe0b2;
+  transition: background-color 0.3s;
+}
+
+.top-line__link--highlight {
+  background-color: var(--base-color);
+  color: #fff;
+}
+
+.top-line__link--static {
   background-color: #dedede;
 }
-.top-line__link:hover {
-  color: #fff;
-  background-color: var(--base-color);
-}
+
 .top-line__group {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
+}
+
+@media (max-width: 500px) {
+  .top-line {
+    gap: 10px;
+    font-size: 14px;
+  }
 }

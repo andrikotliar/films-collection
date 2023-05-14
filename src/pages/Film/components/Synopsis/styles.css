@@ -5,8 +5,8 @@
   border-radius: 10px;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 500px) {
   .synopsis {
-    width: 100%;
+    padding: 20px;
   }
 }

@@ -5,9 +5,7 @@ import { useFilmsContext } from '@/context/filmsContext';
 import { Loader } from '@/components';
 import {
   FilmTitle,
-  Poster,
   TopLine,
-  Trailer,
   Episodes,
   Synopsis,
   Cast,
@@ -16,10 +14,10 @@ import {
   CreatorsList,
   SectionTitle,
   ExtraDetails,
-  SeasonTrailers
+  SeriesMedia,
+  FilmMedia
 } from './components';
 import { setBrowserTitle } from '@/heplers';
-import Collections from './components/Collections';
 import ActorsProvider from '@/context/actorsContext';
 
 const Film = () => {
@@ -60,14 +58,11 @@ const Film = () => {
           <FilmTitle title={film.title} />
           <TopLine filmData={film} />
         </section>
-        <div className="film__media">
-          <Poster poster={film.poster} title={film.title} />
-          {!film.type.includes('Series') ? (
-            <Trailer trailer={film.trailer} />
-          ) : (
-            <SeasonTrailers seasons={film.seasons} />
-          )}
-        </div>
+        {!film.type.includes('Series') ? (
+         <FilmMedia poster={film.poster} title={film.title} trailer={film.trailer} />
+        ) : (
+          <SeriesMedia seasons={film.seasons} title={film.title} poster={film.poster} />
+        )}
         <Synopsis text={film.synopsis} />
         <CreatorsList filmData={film} />
         {film.type.seasons ? (
@@ -88,6 +83,14 @@ const Film = () => {
           <SectionTitle>Cast and characters</SectionTitle>
           <Cast cast={film.cast} />
         </section>
+        
+        {film.type.includes('Series') && (
+          <section>
+            <SectionTitle>Episodes Overview</SectionTitle>
+            <Episodes seasons={film.seasons} />
+          </section>
+        )}
+        
         <section>
           <SectionTitle>Extra Details</SectionTitle>
           <ExtraDetails filmData={film} />
