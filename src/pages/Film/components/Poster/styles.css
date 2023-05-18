@@ -1,5 +1,5 @@
 .film__poster {
-  width: 28%;
+  width: 25%;
   font-size: 0;
   flex-shrink: 0;
 }
@@ -12,6 +12,7 @@
 
 @media (max-width: 500px) {
   .film__poster {
+    position: static;
     width: 100%;
   }
 }

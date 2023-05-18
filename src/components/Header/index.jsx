@@ -19,35 +19,37 @@ const Header = () => {
 
   return (
     <header className="header">
-      <button
-        className="header__button"
-        onClick={() => setIsSearchShow(true)}
-        aria-label="Show search field"
-        title="Search"
-      >
-        <SearchIcon />
-      </button>
-      <Link to="/" className="header__logo">
-        <picture>
-          <source srcSet="/images/logos/desktop-logo.svg" media="(min-width: 785px)" />
-          <img src="/images/logos/mobile-logo.svg" alt="Films Collection" />
-        </picture>
-      </Link>
-      <button
-        className={classNames('header__button', {
-          'header__button--active': isDropdownOpen
-        })}
-        onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-        aria-label="Show menu dropdown"
-        title="Menu"
-      >
-        <MenuIcon />
-      </button>
-      <Menu isOpen={isDropdownOpen} />
-      <Search
-        openSearch={isSearchShow}
-        closeSearch={() => setIsSearchShow(false)}
-      />
+      <div className="header__container container">
+        <button
+          className="header__button"
+          onClick={() => setIsSearchShow(true)}
+          aria-label="Show search field"
+          title="Search"
+        >
+          <SearchIcon fill="#fff" />
+        </button>
+        <Link to="/" className="header__logo">
+          <picture>
+            <source srcSet="/images/logos/desktop-logo.svg" media="(min-width: 785px)" />
+            <img src="/images/logos/mobile-logo.svg" alt="Films Collection" />
+          </picture>
+        </Link>
+        <button
+          className={classNames('header__button', {
+            'header__button--active': isDropdownOpen
+          })}
+          onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+          aria-label="Show menu dropdown"
+          title="Menu"
+        >
+          <MenuIcon fill="#fff" />
+        </button>
+        <Menu isOpen={isDropdownOpen} />
+        <Search
+          openSearch={isSearchShow}
+          closeSearch={() => setIsSearchShow(false)}
+        />
+      </div>
     </header>
   );
 };

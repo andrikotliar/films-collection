@@ -1,9 +1,11 @@
 .sidebar {
-  width: 280px;
-  height: var(--app-height);
+  width: 300px;
+  height: calc(var(--app-height) - 40px);
   flex-shrink: 0;
-  border-right: 1px solid #ccc;
-  top: var(--header-height);
+  border: var(--app-border);
+  border-radius: 10px;
+  position: sticky;
+  top: calc(var(--header-height) + 20px);
 }
 .sidebar__controls {
   display: none;

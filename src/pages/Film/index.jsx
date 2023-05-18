@@ -53,7 +53,7 @@ const Film = () => {
   
   return (
     <ActorsProvider>
-      <article className="film">
+      <article className="film container">
         <section className="film__general">
           <FilmTitle title={film.title} />
           <TopLine filmData={film} />

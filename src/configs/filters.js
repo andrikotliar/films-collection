@@ -30,6 +30,6 @@ export const filtersConfig = [
     type: "standard",
     title: "Studio",
     property: "production",
-    options: ['Walt Disney Pictures', 'Disney+', 'Pixar Animation', 'Netflix', '20th Century FOX', 'Lionsgate', 'Warner Bros. Pictures', 'HBO Max', 'DreamWorks Pictures', 'Lucasfilm', 'Legendary', 'Columbia Pictures', 'Amblin Entertainment', 'DreamWorks Animation', 'EuropaCorp', 'Metro-Goldwyn-Mayer', 'Summit Entertainment']
+    options: ['Walt Disney Pictures', 'Disney Plus', 'Pixar Animation', 'Netflix', '20th Century FOX', 'Lionsgate', 'Warner Bros. Pictures', 'HBO Max', 'DreamWorks Pictures', 'Lucasfilm', 'Legendary', 'Columbia Pictures', 'Amblin Entertainment', 'DreamWorks Animation', 'EuropaCorp', 'Metro-Goldwyn-Mayer', 'Summit Entertainment']
   }
 ]

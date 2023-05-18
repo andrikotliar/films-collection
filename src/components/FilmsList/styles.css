@@ -2,20 +2,17 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  overflow-y: auto;
-  height: var(--app-height);
   max-width: 1920px;
   width: 100%;
   margin: 0 auto;
 }
 
 .list {
-  --cols: 8;
+  --cols: 5;
   display: grid;
   grid-template-columns: repeat(var(--cols), 1fr);
   grid-template-rows: min-content;
   gap: 25px;
-  padding: 20px;
 }
 .list-film {
   position: relative;
