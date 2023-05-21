@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import Modal from '../Modal';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { SearchIcon } from '@/assets/icons';
 import './style.css';
 
@@ -10,11 +9,11 @@ const Search = ({
 }) => {
   const [ searchFilm, setSearchFilm ] = useState('');
   const navigate = useNavigate();
+  const location = useLocation();
   const searchInputRef = useRef();
 
   const runSearch = (searchValue) => {
     navigate(`/?search=${searchValue}`);
-    closeSearch();
   }
 
   const keySearch = (event) => {
@@ -27,33 +26,37 @@ const Search = ({
     if(openSearch) {
       searchInputRef.current.focus();
     }
-  }, [openSearch])
+  }, [openSearch]);
+
+  useEffect(() => {
+    if(openSearch) {
+      closeSearch();
+    }
+  }, [location]);
+
+  if(!openSearch) {
+    return null;
+  }
 
   return (
-    <Modal
-      showModal={openSearch}
-      closeModal={closeSearch}
-      contentClassName="search-content"
-    >
-      <div className="search-field">
-        <div className="search-field__wrapper">
-          <input
-            type="text"
-            className="search-field__input"
-            placeholder="Search film..."
-            onChange={(e) => setSearchFilm(e.target.value)}
-            onKeyDown={keySearch}
-            ref={searchInputRef}
-          />
-          <button
-            onClick={() => runSearch(searchFilm)}
-            className="search-field__button"
-          >
-            <SearchIcon fill="#ddd" />
-          </button>
-        </div>
+    <div className="search-field">
+      <div className="search-field__wrapper">
+        <input
+          type="text"
+          className="search-field__input"
+          placeholder="Search film..."
+          onChange={(e) => setSearchFilm(e.target.value)}
+          onKeyDown={keySearch}
+          ref={searchInputRef}
+        />
+        <button
+          onClick={() => runSearch(searchFilm)}
+          className="search-field__button"
+        >
+          <SearchIcon color="#ddd" />
+        </button>
       </div>
-    </Modal>
+    </div>
   );
 };
 

@@ -36,5 +36,5 @@
 }
 
 .collection:hover .collection__title {
-  color: var(--base-color);
+  color: var(--main-color);
 } 

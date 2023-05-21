@@ -54,7 +54,7 @@ const Filters = () => {
         <div className="filters__controls">
           <button className="button">
             <div className="button__icon">
-              <FilterIcon fill='white' />
+              <FilterIcon color="white" />
             </div>
             <span>Filter</span>
           </button>

@@ -7,7 +7,7 @@ const Sidebar = () => {
     <aside className="sidebar">
       <div className="sidebar__controls">
         <button className="sidebar__hide-button">
-          <CloseIcon />
+          <CloseIcon color="#000" />
         </button>
       </div>
       <Filters />

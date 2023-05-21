@@ -27,6 +27,7 @@ const SeriesMedia = ({ seasons, title, poster }) => {
             className={classNames({
               'active-season': idx === selectedSeason
             })}
+            disabled={seasons.length === 1}
           >
             Season {s.season}
           </button>

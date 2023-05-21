@@ -29,7 +29,7 @@
 
 .award__header--active,
 .award__header:hover {
-  background-color: var(--base-color);
+  background-color: var(--main-color);
 }
 
 .award__icon {
@@ -58,7 +58,7 @@
   flex-direction: column;
   gap: 10px;
   font-size: 14px;
-  background-color: var(--base-color);
+  background-color: var(--main-color);
   padding: 10px;
   width: 100%;
   border-bottom-left-radius: 10px;

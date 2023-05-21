@@ -5,7 +5,6 @@ import Filters from './Filters';
 import FilmsList from './FilmsList';
 import PageTitle from './PageTitle';
 import Pager from './Pager';
-import Modal from './Modal';
 import Loader from './Loader';
 
 export {
@@ -16,6 +15,5 @@ export {
   FilmsList,
   PageTitle,
   Pager,
-  Modal,
   Loader
 };

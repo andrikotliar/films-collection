@@ -36,7 +36,7 @@
 }
 
 .actor__name:hover {
-  color: var(--base-color);
+  color: var(--main-color);
   text-decoration: underline;
 }
 

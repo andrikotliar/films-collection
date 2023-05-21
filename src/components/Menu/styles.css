@@ -2,7 +2,6 @@
   position: absolute;
   top: calc(100% + 20px);
   right: 20px;
-  width: 300px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -25,6 +24,39 @@
   visibility: visible;
 }
 
-.menu__link {
+.menu__action {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.menu__action::after {
+  content: '';
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  position: absolute;
+  top: -5px;
+  left: -5px;
   background-color: #f2f2f2;
+  border-radius: 10px;
+  z-index: -1;
+  transform: scale(0);
+  transition: transform 0.2s ease;
+  transform-origin: bottom;
+}
+
+.menu__action:hover::after {
+  transform: scale(1);
+}
+
+.menu__action-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.menu__action-icon svg {
+  fill: var(--main-color);
 }

@@ -32,7 +32,7 @@ const ExpandFilter = ({ filter }) => {
             type="button"
           >
             <span>{title}</span>
-            <ExpandIcon className={`is-expanded-${isExpanded}`} />
+            <ExpandIcon className={`is-expanded-${isExpanded}`} color="#000" />
           </button>
         </div>
         {isExpanded && (

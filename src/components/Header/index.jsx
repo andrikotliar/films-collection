@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { MenuIcon, SearchIcon } from '@/assets/icons';
+import { CloseIcon, MenuIcon, SearchIcon } from '@/assets/icons';
 import { Link, useLocation } from 'react-router-dom';
 import Menu from '../Menu';
 import Search from '../Search';
@@ -22,12 +22,20 @@ const Header = () => {
       <div className="header__container container">
         <button
           className="header__button"
-          onClick={() => setIsSearchShow(true)}
+          onClick={() => setIsSearchShow(!isSearchShow)}
           aria-label="Show search field"
           title="Search"
         >
-          <SearchIcon fill="#fff" />
+          {!isSearchShow ? (
+            <SearchIcon color="#fff" />
+          ): (
+            <CloseIcon color="#fff" />
+          )}
         </button>
+        <Search
+          openSearch={isSearchShow}
+          closeSearch={() => setIsSearchShow(false)}
+        />
         <Link to="/" className="header__logo">
           <picture>
             <source srcSet="/images/logos/desktop-logo.svg" media="(min-width: 785px)" />
@@ -42,13 +50,9 @@ const Header = () => {
           aria-label="Show menu dropdown"
           title="Menu"
         >
-          <MenuIcon fill="#fff" />
+          <MenuIcon color="#fff" />
         </button>
         <Menu isOpen={isDropdownOpen} />
-        <Search
-          openSearch={isSearchShow}
-          closeSearch={() => setIsSearchShow(false)}
-        />
       </div>
     </header>
   );

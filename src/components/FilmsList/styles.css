@@ -41,7 +41,7 @@
   margin: 5px 0;
 }
 .list-film:hover .list-film__title {
-  color: var(--base-color);
+  color: var(--main-color);
 }
 .list-film__subtitle {
   text-align: center;

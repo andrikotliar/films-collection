@@ -1,12 +1,9 @@
 :root {
-  --base-color: #006db7;
+  --main-color: #006db7;
   --green: #00B5C6;
-  --light-blue: #0093CD;
-  --base-color-rgb: 0, 109, 183;
-  --light-yellow: #ffe6b3;
-  --error-color: #ff5252;
+  --light-yellow: #ffedd6;
 
-  --main-gradient: linear-gradient(45deg, var(--base-color), var(--green));
+  --main-gradient: linear-gradient(45deg, var(--main-color), var(--green));
   --app-border: 1px solid #ddd;
 
   --main-padding: 20px;
@@ -47,6 +44,9 @@ button {
   outline: none;
   -webkit-tap-highlight-color: transparent;
 }
+button[disabled] {
+  cursor: default;
+}
 input, select {
   color: inherit;
   font-size: inherit;
@@ -64,7 +64,7 @@ body {
   padding: 0 var(--main-padding);
 }
 .page-title span {
-  color: var(--base-color)
+  color: var(--main-color)
 }
 .button {
   display: flex;
@@ -72,7 +72,7 @@ body {
   justify-content: center;
   align-items: center;
   color: #fff;
-  background-color: var(--base-color);
+  background-color: var(--main-color);
   padding: 10px 20px;
   border-radius: 5px;
   transition: background-color 0.3s;
@@ -86,7 +86,7 @@ body {
 }
 @media (hover: hover) {
   .custom-scroll {
-    scrollbar-color: var(--base-color) #dbdbdb;
+    scrollbar-color: var(--main-color) #dbdbdb;
   }
   .custom-scroll::-webkit-scrollbar {
     background-color: #fff;

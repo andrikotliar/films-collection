@@ -22,7 +22,7 @@
 }
 
 .key-values__list a {
-  color: var(--base-color);
+  color: var(--main-color);
   text-decoration: underline;
 }
 

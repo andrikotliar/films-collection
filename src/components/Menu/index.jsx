@@ -1,6 +1,7 @@
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import './styles.css';
+import { CollectionsIcon } from '@/assets/icons';
 
 const menuLinks = [
   {
@@ -11,7 +12,8 @@ const menuLinks = [
   {
     title: 'Collections',
     type: 'button',
-    action: 'SHOW_COLLECTIONS'
+    action: 'SHOW_COLLECTIONS',
+    icon: <CollectionsIcon />
   },
   {
     title: 'Top 10',
@@ -41,11 +43,21 @@ const Menu = ({ isOpen }) => {
     })}>
       {menuLinks.map((item) => 
         item.type === 'link' ? (
-          <Link to={item.link} className="menu__link" key={item.title}>
+          <Link to={item.link} className="menu__action" key={item.title}>
+            <div className="menu__action-icon">
+              {item.icon}
+            </div>
             {item.title}
           </Link>
         ) : (
-          <button onClick={() => menuAction(item.action)} key={item.title}>
+          <button
+            className="menu__action"
+            onClick={() => menuAction(item.action)}
+            key={item.title}
+          >
+            <div className="menu__action-icon">
+              {item.icon}
+            </div>
             {item.title}
           </button>
         )

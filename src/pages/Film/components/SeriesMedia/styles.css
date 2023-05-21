@@ -13,5 +13,5 @@
 
 .series-media__controls button.active-season {
   color: #fff;
-  background-color: var(--base-color);
+  background-color: var(--main-color);
 }
