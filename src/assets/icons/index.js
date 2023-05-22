@@ -10,6 +10,9 @@ import MovieIcon from './MovieIcon';
 import SandClockIcon from './SandClockIcon';
 import MenuIcon from './MenuIcon';
 import LoaderIcon from './LoaderIcon';
+import RankIcon from './RankIcon';
+import StatsIcon from './StatsIcon';
+import InfoIcon from './InfoIcon';
 
 export {
   CloseIcon,
@@ -23,5 +26,8 @@ export {
   MovieIcon,
   SandClockIcon,
   MenuIcon,
-  LoaderIcon
+  LoaderIcon,
+  RankIcon,
+  StatsIcon,
+  InfoIcon,
 };
