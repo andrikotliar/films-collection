@@ -90,8 +90,8 @@ body {
   }
   .custom-scroll::-webkit-scrollbar {
     background-color: #fff;
-    height: 15px;
-    width: 8px;
+    height: 8px;
+    width: 4px;
     transition: 0.3s;
     border-radius: 50px;
   }
