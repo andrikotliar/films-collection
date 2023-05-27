@@ -1,62 +1,48 @@
-import { useEffect, useRef, useState } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
-import { SearchIcon } from '@/assets/icons';
 import './style.css';
+import { useNavigate } from 'react-router-dom';
+import { SearchIcon } from '@/assets/icons';
+import { useEffect, useRef, useState } from 'react';
+import MenuWrapper from '../MenuWrappper';
 
-const Search = ({
-  openSearch,
-  closeSearch,
-}) => {
-  const [ searchFilm, setSearchFilm ] = useState('');
+const Search = ({ isOpen }) => {
   const navigate = useNavigate();
-  const location = useLocation();
   const searchInputRef = useRef();
+  const [searchString, setSearchString] = useState('');
 
   const runSearch = (searchValue) => {
     navigate(`/?search=${searchValue}`);
   }
 
-  const keySearch = (event) => {
-    if(event.keyCode === 13) {
-      runSearch(event.target.value);
-    }
+  const onSubmit = (event) => {
+    event.preventDefault();
+    runSearch(searchString);
+    searchInputRef.current.value = '';
   }
 
   useEffect(() => {
-    if(openSearch) {
+    if(isOpen) {
       searchInputRef.current.focus();
     }
-  }, [openSearch]);
-
-  useEffect(() => {
-    if(openSearch) {
-      closeSearch();
-    }
-  }, [location]);
-
-  if(!openSearch) {
-    return null;
-  }
+  }, [isOpen]);
 
   return (
-    <div className="search-field">
-      <div className="search-field__wrapper">
+    <MenuWrapper isOpen={isOpen}>
+      <form
+        className="search-form"
+        onSubmit={onSubmit}
+      >
         <input
           type="text"
-          className="search-field__input"
+          className="search-input"
           placeholder="Search film..."
-          onChange={(e) => setSearchFilm(e.target.value)}
-          onKeyDown={keySearch}
+          onChange={(e) => setSearchString(e.target.value)}
           ref={searchInputRef}
         />
-        <button
-          onClick={() => runSearch(searchFilm)}
-          className="search-field__button"
-        >
+        <button className="search-button">
           <SearchIcon color="#ddd" />
         </button>
-      </div>
-    </div>
+      </form>
+    </MenuWrapper>
   );
 };
 

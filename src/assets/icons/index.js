@@ -13,6 +13,7 @@ import LoaderIcon from './LoaderIcon';
 import RankIcon from './RankIcon';
 import StatsIcon from './StatsIcon';
 import InfoIcon from './InfoIcon';
+import GridIcon from './GridIcon';
 
 export {
   CloseIcon,
@@ -30,4 +31,5 @@ export {
   RankIcon,
   StatsIcon,
   InfoIcon,
+  GridIcon,
 };

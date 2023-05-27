@@ -1,59 +1,72 @@
-import { useEffect, useState } from 'react';
-import { CloseIcon, MenuIcon, SearchIcon } from '@/assets/icons';
-import { Link, useLocation } from 'react-router-dom';
-import Menu from '../Menu';
-import Search from '../Search';
 import './styles.css';
-import classNames from 'classnames';
+import { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { MenuIcon, SearchIcon } from '@/assets/icons';
+import FilmsCollectionLogo from '@/assets/logo/FilmsCollectionLogo';
+import HeaderMenu from '../HeaderMenu';
+import Search from '../Search';
+import IconButton from '../IconButton';
+
+const MenuTypesEnum = {
+  NAVIGATION: 'navigation',
+  SEARCH: 'search'
+}
 
 const Header = () => {
   const location = useLocation();
-  const [ isSearchShow, setIsSearchShow ] = useState(false);
-  const [ isDropdownOpen, setIsDropdownOpen ] = useState(false);
+  const [ openedMenu, setOpenedMenu ] = useState(null);
+
+  const showHiddenMenu = (menuType) => {
+    if(openedMenu === menuType) {
+      setOpenedMenu(null);
+      return;
+    }
+    setOpenedMenu(menuType);
+  }
 
   useEffect(() => {
-    if(isDropdownOpen) {
-      setIsDropdownOpen(false);
+    if(openedMenu !== null) {
+      setOpenedMenu(null);
     }
   }, [location]);
+  
+  const handleKeyboard = (event) => {
+    if(event.key === 'F2') {
+      setOpenedMenu(MenuTypesEnum.SEARCH);
+    }
+
+    if(event.key === 'Escape') {
+      setOpenedMenu(null);
+    }
+  }
+
+  useEffect(() => {
+    document.addEventListener('keydown', handleKeyboard);
+  }, []);
 
   return (
     <header className="header">
       <div className="header__container container">
-        <button
-          className="header__button"
-          onClick={() => setIsSearchShow(!isSearchShow)}
-          aria-label="Show search field"
+        <IconButton
+          active={openedMenu === MenuTypesEnum.SEARCH}
+          onClick={() => showHiddenMenu(MenuTypesEnum.SEARCH)}
           title="Search"
         >
-          {!isSearchShow ? (
-            <SearchIcon color="#fff" />
-          ): (
-            <CloseIcon color="#fff" />
-          )}
-        </button>
-        <Search
-          openSearch={isSearchShow}
-          closeSearch={() => setIsSearchShow(false)}
-        />
+          <SearchIcon />
+        </IconButton>
         <Link to="/" className="header__logo">
-          <picture>
-            <source srcSet="/images/logos/desktop-logo.svg" media="(min-width: 785px)" />
-            <img src="/images/logos/mobile-logo.svg" alt="Films Collection" />
-          </picture>
+          <FilmsCollectionLogo />
         </Link>
-        <button
-          className={classNames('header__button', {
-            'header__button--active': isDropdownOpen
-          })}
-          onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-          aria-label="Show menu dropdown"
+        <IconButton
+          active={openedMenu === MenuTypesEnum.NAVIGATION}
+          onClick={() => showHiddenMenu(MenuTypesEnum.NAVIGATION)}
           title="Menu"
         >
-          <MenuIcon color="#fff" />
-        </button>
-        <Menu isOpen={isDropdownOpen} />
+          <MenuIcon />
+        </IconButton>
       </div>
+      <HeaderMenu isOpen={openedMenu === MenuTypesEnum.NAVIGATION} />
+      <Search isOpen={openedMenu === MenuTypesEnum.SEARCH} />
     </header>
   );
 };
