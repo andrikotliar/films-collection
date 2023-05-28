@@ -22,12 +22,18 @@
   width: 100%;
   height: 100%;
 }
-@media (max-width: 785px) {
-  .header__logo {
-    overflow: hidden;
-    width: 40px;
-  }
-  .header__logo svg {
-    width: 41px;
+.header__actions {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.header__filter-icon,
+.header__search-icon {
+  display: none;
+}
+
+@media (max-width: 920px) {
+  .header__search-icon {
+    display: block;
   }
 }

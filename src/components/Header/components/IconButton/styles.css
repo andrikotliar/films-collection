@@ -1,8 +1,8 @@
 .icon-button {
   position: relative;
   flex-shrink: 0;
-  width: 20px;
-  height: 20px;
+  width: 28px;
+  height: 28px;
 }
 .icon-button::after {
   content: '';
@@ -23,4 +23,10 @@
 .icon-button:hover::after,
 .icon-button--active::after {
   transform: scale(1);
+}
+@media (max-width: 920px) {
+  .icon-button {
+    width: 20px;
+    height: 20px;
+  }
 }

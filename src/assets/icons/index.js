@@ -1,5 +1,4 @@
 import CloseIcon from './CloseIcon';
-import CollectionsIcon from './CollectionsIcon';
 import FilterIcon from './FilterIcon';
 import PlayIcon from './PlayIcon';
 import SearchIcon from './SearchIcon';
@@ -8,16 +7,14 @@ import ExpandIcon from './ExpandIcon';
 import CalendarIcon from './CalendarIcon';
 import MovieIcon from './MovieIcon';
 import SandClockIcon from './SandClockIcon';
-import MenuIcon from './MenuIcon';
 import LoaderIcon from './LoaderIcon';
-import RankIcon from './RankIcon';
 import StatsIcon from './StatsIcon';
 import InfoIcon from './InfoIcon';
 import GridIcon from './GridIcon';
+import HomeIcon from './HomeIcon';
 
 export {
   CloseIcon,
-  CollectionsIcon,
   FilterIcon,
   PlayIcon,
   SearchIcon,
@@ -26,10 +23,9 @@ export {
   CalendarIcon,
   MovieIcon,
   SandClockIcon,
-  MenuIcon,
   LoaderIcon,
-  RankIcon,
   StatsIcon,
   InfoIcon,
   GridIcon,
+  HomeIcon,
 };

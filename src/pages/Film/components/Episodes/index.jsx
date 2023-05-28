@@ -43,7 +43,7 @@ const Episodes = ({ seasons }) => {
       </div>
       <div className="episodes">
         {seasons[activeSeason].episodes.map((episode) => (
-          <div className="episode">
+          <div className="episode" key={episode.episodeOverall}>
             <div
               className="episode__main"
               onClick={() => expandEpisode(episode.title, expandedEpisode)}

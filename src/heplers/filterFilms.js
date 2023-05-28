@@ -4,7 +4,7 @@ const handleSearchFilter = (searchQuery, title) => {
   const exclude = ['the', 'of', 'in', 'on', 'and', 'vs', 'or'];
   const filteredWords = words.filter((w) => !exclude.includes(w));
 
-  return filteredWords.some((w) => w.length > 2 && lowerTitle.includes(w));
+  return filteredWords.every((w) => w.length > 2 && lowerTitle.includes(w));
 };
 
 export const filterFilms = (list, filterParams) => {
@@ -14,6 +14,7 @@ export const filterFilms = (list, filterParams) => {
 
   const params = { ...filterParams };
   delete params.page;
+  delete params.actorName;
 
   const filteredFilms = list.filter((film) => {
     const match = Object.keys(params).every(property => {
@@ -29,8 +30,8 @@ export const filterFilms = (list, filterParams) => {
         return film.collections.some(collection => collection.name === params.collections);
       }
 
-      if(property === 'actor') {
-        const hasActorId = film.cast.find((actor) => actor.actorId === params.actor);
+      if(property === 'actorId') {
+        const hasActorId = film.cast.find((actor) => actor.actorId === params.actorId);
         if(hasActorId) {
           return true;
         }

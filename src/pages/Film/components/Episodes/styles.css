@@ -13,6 +13,17 @@
 
 .episode {
   border-bottom: var(--app-border);
+  overflow: hidden;
+}
+
+.episode:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.episode:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .episode:last-child {
@@ -78,6 +89,12 @@
   padding: 10px 20px;
   border-left: 2px solid #f2f2f2;
   border-right: 2px solid #f2f2f2;
+}
+
+.episode:last-child .episode__details {
+  border-bottom: 2px solid #f2f2f2;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .episode__creator {

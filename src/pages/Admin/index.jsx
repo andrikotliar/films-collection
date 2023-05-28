@@ -219,8 +219,8 @@ const Admin = () => {
               <span>MCU</span>
             </label>
             <label className="admin__checkbox-wrapper">
-              <input type="checkbox" className="admin__collection" value="Invaders"/>
-              <span>Invaders</span>
+              <input type="checkbox" className="admin__collection" value="Invasion"/>
+              <span>Invasion</span>
             </label>
             <label className="admin__checkbox-wrapper">
               <input type="checkbox" className="admin__collection" value="Cars"/>

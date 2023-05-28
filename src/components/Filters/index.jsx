@@ -56,7 +56,7 @@ const Filters = () => {
             <div className="button__icon">
               <FilterIcon color="white" />
             </div>
-            <span>Filter</span>
+            <span>Apply</span>
           </button>
           {Object.keys(filterParams).length !== 0 && (
             <button type="button" className="button" onClick={() => {

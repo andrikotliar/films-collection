@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useFilmsContext } from "@/context/filmsContext";
 import { Loader, Pager } from "@/components";
 import { useEffect } from "react";
+import ListHeader from '../ListHeader';
 
 const FilmsList = () => {
   const {
@@ -16,6 +17,7 @@ const FilmsList = () => {
 
   return (
     <div className="list-container">
+      <ListHeader />
       {isFilmsLoading && <Loader />}
       {films.length === 0 && <p className="list-empty">Films not found.</p>}
       <div className="list">

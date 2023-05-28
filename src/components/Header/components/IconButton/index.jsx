@@ -5,11 +5,12 @@ const IconButton = ({
   active,
   onClick,
   title,
+  className,
   children
 }) => {
   return (
     <button
-      className={classNames('icon-button', {
+      className={classNames('icon-button', className, {
         'icon-button--active': active
       })}
       onClick={onClick}

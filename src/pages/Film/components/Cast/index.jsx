@@ -35,7 +35,9 @@ const Cast = ({ cast }) => {
             </div>
             <div className="actor__info">
               <h3 className="actor__name">
-                <Link to={buildLink('actor', actor.actorId)}>
+                <Link
+                  to={`${buildLink('actorId', actor.actorId)}&actorName=${actor.name}`}
+                >
                   {actor.name}
                 </Link>
               </h3>
