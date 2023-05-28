@@ -41,12 +41,12 @@ const Filters = () => {
             filter.type === 'standard' ? (
               <StandardFilter
                 filter={filter}
-                key={filter.property}
+                key={filter.title}
               />
             ) : (
               <ExpandFilter
                 filter={filter}
-                key={filter.property}
+                key={filter.title}
               />
             )
           )}

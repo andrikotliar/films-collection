@@ -10,8 +10,8 @@ import SandClockIcon from './SandClockIcon';
 import LoaderIcon from './LoaderIcon';
 import StatsIcon from './StatsIcon';
 import InfoIcon from './InfoIcon';
-import GridIcon from './GridIcon';
 import HomeIcon from './HomeIcon';
+import AdminIcon from './AdminIcon';
 
 export {
   CloseIcon,
@@ -26,6 +26,6 @@ export {
   LoaderIcon,
   StatsIcon,
   InfoIcon,
-  GridIcon,
   HomeIcon,
+  AdminIcon
 };

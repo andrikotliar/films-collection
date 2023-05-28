@@ -1,15 +1,13 @@
 import { useFilmsContext } from "@/context/filmsContext";
 import './styles.css';
 
-const parametersToShow = ['collections', 'actorName', 'directedBy'];
+const parametersToShow = ['actorName', 'directedBy'];
 
 const ListHeader = () => {
   const { filterParams } = useFilmsContext();
 
   const getTitle = (param) => {
     switch(param) {
-      case 'collections':
-        return 'Collection:';
       case 'actorName':
         return 'Actor:';
       case 'directedBy':

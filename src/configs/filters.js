@@ -30,6 +30,27 @@ export const filtersConfig = [
     type: "standard",
     title: "Studio",
     property: "production",
-    options: ['Walt Disney Pictures', 'Disney Plus', 'Pixar Animation', 'Netflix', '20th Century FOX', 'Lionsgate', 'Warner Bros. Pictures', 'HBO Max', 'DreamWorks Pictures', 'Lucasfilm', 'Legendary', 'Columbia Pictures', 'Amblin Entertainment', 'DreamWorks Animation', 'EuropaCorp', 'Metro-Goldwyn-Mayer', 'Summit Entertainment']
+    options: ['Walt Disney Pictures', 'Disney Plus', 'Pixar Animation', 'Netflix', '20th Century FOX', 'Lionsgate', 'Warner Bros. Pictures', 'HBO Max', 'DreamWorks Pictures', 'Lucasfilm', 'Legendary', 'Columbia Pictures', 'Amblin Entertainment', 'DreamWorks Animation', 'EuropaCorp', 'Metro-Goldwyn-Mayer', 'Summit Entertainment'],
+  },
+  {
+    type: 'standard',
+    title: 'Collections',
+    property: 'collections',
+    options: ['Space', 'Future', 'Fantasy', 'Robots', 'Legends', 'Invasion', 'Cars', 'Dystopia', 'Mysteries of the Past', 'True Story', 'Superheroes', 'Agents and Detectives', 'Monsters', 'Anime', 'Disaster', 'Martial Arts', 'Based on Real Events'],
+    radio: true
+  },
+  {
+    type: 'standard',
+    title: 'Cinematic Universes',
+    property: 'collections',
+    options: ['Marvel Cinematic Universe', 'Star Wars Universe', 'DC Extended Universe', 'Harry Potter Universe', 'Middle-Earth Universe'],
+    radio: true
+  },
+  {
+    type: 'standard',
+    title: 'Tops',
+    property: 'collections',
+    options: ['Top 10'],
+    radio: true
   }
 ]

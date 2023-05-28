@@ -10,6 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
   height: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -25,15 +26,108 @@
 .header__actions {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 15px;
 }
-.header__filter-icon,
-.header__search-icon {
+.header__button {
+  width: 20px;
+  height: 20px;
+}
+.header__filter-button,
+.header__search-button {
   display: none;
 }
+.header__menu-button {
+  width: 25px;
+  height: 30px;
+  transition: 0.3s;
+}
 
-@media (max-width: 920px) {
-  .header__search-icon {
+.header__menu-button span {
+  position: relative;
+  display: block;
+  background-color: #fff;
+  width: 100%;
+  height: 3px;
+  transition: 0.3s;
+}
+
+.header__menu-button span::before,
+.header__menu-button span::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background-color: #fff;
+}
+
+.header__menu-button span::before {
+  top: -8px;
+}
+
+.header__menu-button span::after {
+  top: 8px;
+}
+
+.header__menu-button--active {
+  transform: rotate(90deg);
+}
+
+.header__menu-button--active span {
+  background-color: transparent!important;
+}
+
+.header__menu-button--active span::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.header__menu-button--active span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+@media (max-width: 735px) {
+  .header__container {
+    justify-content: center;
+  }
+  .header__actions {
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 100;
+    border-top: var(--app-border);
+    width: 100%;
+    height: var(--header-height);
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .header__button svg{
+    fill: #000;
+  }
+  .header__filter-button,
+  .header__search-button {
     display: block;
+  }
+  .header__filter-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color);
+    border-radius: 50px;
+    padding: 5px;
+    color: #fff;
+    flex: 1;
+    gap: 5px;
+  }
+  .header__filter-button .header__button-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .header__menu-button span,
+  .header__menu-button span::after,
+  .header__menu-button span::before {
+    background-color: #000;
   }
 }

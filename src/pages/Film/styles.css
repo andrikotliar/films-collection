@@ -13,6 +13,12 @@
   gap: 20px;
 }
 
+@media (max-width: 735px) {
+  .film {
+    padding-bottom: calc(var(--header-height) + 50px);
+  }
+}
+
 @media (max-width: 500px) {
   .film {
     gap: 20px;

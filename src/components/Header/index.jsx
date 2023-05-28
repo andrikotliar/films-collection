@@ -1,23 +1,24 @@
 import './styles.css';
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { SearchIcon, FilterIcon, HomeIcon, InfoIcon, StatsIcon, GridIcon } from '@/assets/icons';
+import { FilterIcon, SearchIcon } from '@/assets/icons';
 import FilmsCollectionLogo from '@/assets/logo/FilmsCollectionLogo';
 import Search from '../Search';
-import IconButton from './components/IconButton';
-import IconLink from './components/IconLink';
-import CollectionsMenu from '../CollectionsMenu';
+import classNames from 'classnames';
+import Menu from '../Menu';
+import { useAppContext } from '@/context/appContext';
 
 const Header = () => {
-  const location = useLocation();
-  const [ showCollections, setShowCollections ] = useState(false);
-  const [ showSearch, setShowSearch ] = useState(false);
+  const { pathname } = useLocation();
+  const [ isSearchVisible, setIsSearchVisible ] = useState(false);
+  const [ isMenuVisible, setIsMenuVisible ] = useState(false);
+  const { isFilterOpen, setIsFilterOpen } = useAppContext();
 
   useEffect(() => {
-    if(showCollections) {
-      setShowCollections(false);
+    if(isMenuVisible) {
+      setIsMenuVisible(false);
     }
-  }, [location])
+  }, [pathname]);
 
   return (
     <header className="header">
@@ -26,53 +27,45 @@ const Header = () => {
           <FilmsCollectionLogo />
         </Link>
         <div className="header__actions">
-          <IconLink
-            link="/"
-            active={location.pathname === '/'}
-            title="Home"
-          >
-            <HomeIcon />
-          </IconLink>
-          <IconButton
-            active={showCollections}
-            title="Collections"
-            onClick={() => setShowCollections(!showCollections)}
-          >
-            <GridIcon />
-          </IconButton>
-          <IconLink
-            link="/stats"
-            active={location.pathname === '/stats'}
-            title="Statistic"
-          >
-            <StatsIcon />
-          </IconLink>
-          <IconLink
-            link="/info"
-            active={location.pathname === '/info'}
-            title="Info"
-          >
-            <InfoIcon />
-          </IconLink>
-          <IconButton
-            active={showSearch}
-            title="Filter"
-            className="header__filter-icon"
-          >
-            <FilterIcon  />
-          </IconButton>
-          <IconButton
-            active={showSearch}
-            title="Search"
-            className="header__search-icon"
-            onClick={() => setShowSearch(!showSearch)}
+          <button
+            className="header__button header__search-button"
+            onClick={() => {
+              setIsSearchVisible(!isSearchVisible);
+              setIsFilterOpen(false);
+              setIsMenuVisible(false);
+            }}
           >
             <SearchIcon />
-          </IconButton>
-          <Search isOpen={showSearch} />
+          </button>
+          <button
+            className="header__filter-button"
+            onClick={() => {
+              setIsFilterOpen(!isFilterOpen);
+              setIsSearchVisible(false);
+              setIsMenuVisible(false);
+            }}
+          >
+            <div className="header__button-icon">
+              <FilterIcon />
+            </div>
+            <span>Filter</span>
+          </button>
+          <Search isOpen={isSearchVisible} />
+          <button
+            className={classNames('header__menu-button', {
+              'header__menu-button--active': isMenuVisible
+            })}
+            onClick={() => {
+              setIsMenuVisible(!isMenuVisible);
+              setIsFilterOpen(false);
+              setIsSearchVisible(false);
+            }}
+          >
+            <span></span>
+          </button>
         </div>
+        <Menu isActive={isMenuVisible} />
       </div>
-      <CollectionsMenu isOpen={showCollections} />
     </header>
   );
 };

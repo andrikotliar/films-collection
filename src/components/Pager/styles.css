@@ -1,11 +1,11 @@
 .pager {
   width: 100%;
   display: flex;
-  gap: 15px;
+  flex-wrap: wrap;
+  gap: 10px;
   margin-top: auto;
   background-color: #fff;
   padding-top: 40px;
-  overflow-x: auto;
   flex-shrink: 0;
 }
 

@@ -81,11 +81,6 @@
   align-items: center;
   padding: 20px;
 }
-@media (max-width: 1400px) {
-  .list {
-    --cols: 6;
-  }
-}
 @media (max-width: 1200px) {
   .list {
     --cols: 4;
@@ -94,6 +89,11 @@
 @media (max-width: 785px) {
   .list {
     --cols: 3;
+  }
+}
+@media (max-width: 735px) {
+  .list-container {
+    padding-bottom: calc(var(--header-height) + 20px);
   }
 }
 @media(max-width: 560px) {

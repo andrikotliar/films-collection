@@ -64,7 +64,7 @@ export const filterFilms = (list, filterParams) => {
       }
     });
 
-    if(filmsWithMinifiedCollections[0].collections?.order) {
+    if(filmsWithMinifiedCollections[0]?.collections?.order) {
       return filmsWithMinifiedCollections.sort(
         (a, b) => a.collections.order > b.collections.order ? 1 : -1
       );
