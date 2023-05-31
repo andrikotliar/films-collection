@@ -1,15 +1,18 @@
 import './styles.css';
-import classNames from "classnames";
+import { FC } from 'react';
+import { Filter } from '@/types';
 import FilterCheckbox from "../FilterCheckbox";
 import FiltersGroupHeader from "../FiltersGroupHeader";
 
-const StandardFilter = ({ filter }) => {
+type StandardFilterProps = {
+  filter: Filter
+};
+
+const StandardFilter: FC<StandardFilterProps> = ({ filter }) => {
   return (
     <div className="filters-group">
       <FiltersGroupHeader title={filter.title} />
-      <div className={classNames('standard-filter', {
-        'standard-filter-scrollable custom-scroll custom-scroll-visible': filter.isScrollable
-      })}>
+      <div className="standard-filter">
         {filter.options.map((option, index) => (
           <FilterCheckbox
             type={filter.radio ? 'radio' : 'checkbox'}

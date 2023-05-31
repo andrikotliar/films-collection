@@ -56,7 +56,7 @@ type FilmType = {
   budget?: MoneyValue;
   boxoffice?: MoneyValue;
   synopsis: string;
-  collections: Collection[];
+  collections: Collection | Collection[];
   awards?: Award[];
   cast: Cast[];
   duration: number;

@@ -17,7 +17,7 @@ const Filters = () => {
     control: methods.control,
   })
 
-  const submitFilter = (data) => {
+  const submitFilter = (data: any) => {
     updateFilter(data, dirtyFields);
   };
 

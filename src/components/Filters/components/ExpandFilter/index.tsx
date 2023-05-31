@@ -1,12 +1,17 @@
-import { useEffect } from 'react';
+import { FC, useEffect } from 'react';
 import { useState } from 'react';
 import { useFormContext } from 'react-hook-form';
 import FilterCheckbox from '../FilterCheckbox';
 import FiltersGroupHeader from '../FiltersGroupHeader';
 import { ExpandIcon } from '@/assets/icons';
 import './styles.css';
+import { Filter } from '@/types';
 
-const ExpandFilter = ({ filter }) => {
+type ExpandFilterProps = {
+  filter: Filter
+};
+
+const ExpandFilter: FC<ExpandFilterProps> = ({ filter }) => {
   const [ title, setTitle ] = useState(filter.defaultOptionTitle);
   const [ isExpanded, setIsExpanded ] = useState(false);
   const { watch } = useFormContext();

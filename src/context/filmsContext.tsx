@@ -1,16 +1,33 @@
-import { createContext, useContext, useEffect, useState } from 'react';
+import { FC, PropsWithChildren, createContext, useContext, useEffect, useState } from 'react';
 import { filterFilms, pager } from '@/heplers';
 import { useFilter } from '@/hooks';
 import { filmsSettings } from '@/constants';
+import { FilmType } from '@/types';
 
-const FilmsContext = createContext();
+type FilmsContextType = {
+  initialFilmsList: FilmType[];
+  films: FilmType[];
+  isFilmsLoading: boolean;
+  filmsCount: number;
+  filterParams: { [key: string]: any };
+  pageData: {
+    from: number;
+    to: number;
+  };
+  getCurrentPage(): void;
+  setPage(page: number): void;
+  updateFilter(data: any, dirtyFields: any): void;
+  resetFilter(): void;
+}
+
+const FilmsContext = createContext<FilmsContextType>({} as FilmsContextType);
 
 export const useFilmsContext = () => useContext(FilmsContext);
 
-const FilmsProvider = ({ children }) => {
-  const [ initialFilmsList, setInitialFilmsList ] = useState([]);
+const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
+  const [ initialFilmsList, setInitialFilmsList ] = useState<FilmType[]>([]);
   const [ filmsCount, setFilmsCount ] = useState(0);
-  const [ films, setFilms ] = useState([]);
+  const [ films, setFilms ] = useState<FilmType[]>([]);
   const [ isFilmsLoading, setIsFilmsLoading ] = useState(true);
   const [ filterParams, setSearchParams ] = useFilter();
   const [ pageData, setPageData ] = useState({
@@ -43,7 +60,7 @@ const FilmsProvider = ({ children }) => {
     }
   }, [initialFilmsList, filterParams]);
 
-  const updateFilter = (data, dirtyFields) => {
+  const updateFilter = (data: any, dirtyFields: any) => {
     const params = {
       ...filterParams,
     };
@@ -68,7 +85,7 @@ const FilmsProvider = ({ children }) => {
     return 1;
   }
 
-  const setPage = (page) => {
+  const setPage = (page: number) => {
     setSearchParams({ ...filterParams, page });
   };
 

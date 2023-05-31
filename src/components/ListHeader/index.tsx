@@ -6,7 +6,7 @@ const parametersToShow = ['actorName', 'directedBy'];
 const ListHeader = () => {
   const { filterParams } = useFilmsContext();
 
-  const getTitle = (param) => {
+  const getTitle = (param: string) => {
     switch(param) {
       case 'actorName':
         return 'Actor:';

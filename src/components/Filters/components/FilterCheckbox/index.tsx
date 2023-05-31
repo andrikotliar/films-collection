@@ -1,8 +1,19 @@
+import { FC } from "react";
 import { Checkmark } from "@/assets/icons";
 import { useFormContext } from "react-hook-form";
 import './styles.css';
 
-const FilterCheckbox = ({ type="checkbox", option, property }) => {
+type FilterCheckboxProps = {
+  type: 'checkbox' | 'radio';
+  option: string | number;
+  property: string;
+}
+
+const FilterCheckbox: FC<FilterCheckboxProps> = ({
+  type="checkbox",
+  option,
+  property
+}) => {
   const { register } = useFormContext();
 
   return (

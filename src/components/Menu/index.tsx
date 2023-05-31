@@ -2,6 +2,11 @@ import './styles.css';
 import { Link, useLocation } from "react-router-dom";
 import classNames from 'classnames';
 import { AdminIcon, HomeIcon, InfoIcon, StatsIcon } from "@/assets/icons";
+import { FC } from 'react';
+
+type MenuProps = {
+  isActive: boolean;
+}
 
 const menu = [
   {
@@ -30,7 +35,7 @@ const menu = [
   },
 ];
 
-const Menu = ({ isActive }) => {
+const Menu: FC<MenuProps> = ({ isActive }) => {
   const { pathname } = useLocation();
 
   return (
