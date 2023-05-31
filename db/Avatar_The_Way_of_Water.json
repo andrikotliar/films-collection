@@ -32,11 +32,10 @@
   "synopsis": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
   "collections": [
     {
-      "name": "Avatar Universe"
+      "name": "Space"
     },
     {
-      "name": "Top 10",
-      "order": 2
+      "name": "Future"
     }
   ],
   "type": [
@@ -173,14 +172,11 @@
       "actorId": "937d3d93-3df6-4eb5-b290-b8fe80d960d8"
     }
   ],
-  "duration": {
-    "hours": "3",
-    "minutes": "12"
-  },
-  "releaseDate": "2022-12-01",
+  "duration": 192,
   "trailer": "o5F8MOz_IDw",
   "parts": {
     "title": "Avatar",
     "part": 2
-  }
+  },
+  "year": 2022
 }

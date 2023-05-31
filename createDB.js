@@ -9,7 +9,7 @@ const createDB = () => {
 		db.push(JSON.parse(fileData));
 	}
 
-	const sortedDB = db.sort((a, b) => a.releaseDate < b.releaseDate ? 1 : -1);
+	const sortedDB = db.sort((a, b) => a.year < b.year ? 1 : -1);
 
 	fs.writeFile('./public/database/database.json', JSON.stringify(sortedDB), (error) => {
     if(error) {

@@ -30,7 +30,7 @@
   "synopsis": "With an unmanned, half-mile-long freight train barreling toward a city, a veteran engineer and a young conductor race against the clock to prevent a catastrophe.",
   "collections": [
     {
-      "name": "Real Events"
+      "name": "Based on Real Events"
     }
   ],
   "type": [
@@ -86,10 +86,7 @@
       "actorId": "97ad1b79-9461-4eac-8170-0bbe3a47ee5a"
     }
   ],
-  "duration": {
-    "hours": "1",
-    "minutes": "38"
-  },
-  "releaseDate": "2010-10-01",
-  "trailer": "fyuoIqeL-bc"
+  "duration": 98,
+  "trailer": "fyuoIqeL-bc",
+  "year": 2010
 }

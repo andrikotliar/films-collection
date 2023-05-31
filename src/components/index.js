@@ -5,8 +5,7 @@ import Filters from './Filters';
 import FilmsList from './FilmsList';
 import PageTitle from './PageTitle';
 import Pager from './Pager';
-import SelectedFilters from './SelectedFilters';
-import Modal from './Modal';
+import Loader from './Loader';
 
 export {
   Sidebar,
@@ -16,6 +15,5 @@ export {
   FilmsList,
   PageTitle,
   Pager,
-  SelectedFilters,
-  Modal,
+  Loader
 };

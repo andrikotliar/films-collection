@@ -31,7 +31,7 @@
   "synopsis": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
   "collections": [
     {
-      "name": "Real Events"
+      "name": "Based on Real Events"
     }
   ],
   "awards": [
@@ -113,10 +113,7 @@
       "actorId": "732662c2-efc5-4f51-87fa-748e3f3a2e5e"
     }
   ],
-  "duration": {
-    "hours": "3",
-    "minutes": "14"
-  },
-  "releaseDate": "1997-11-01",
-  "trailer": "kVrqfYjkTdQ"
+  "duration": 194,
+  "trailer": "kVrqfYjkTdQ",
+  "year": 1997
 }

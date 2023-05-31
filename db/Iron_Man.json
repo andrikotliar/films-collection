@@ -45,7 +45,7 @@
     },
     {
       "name": "Top 10",
-      "order": 3
+      "order": 2
     }
   ],
   "parts": {
@@ -121,10 +121,7 @@
       "actorId": "1a2b1db2-33d9-4755-8702-1e054532094b"
     }
   ],
-  "duration": {
-    "hours": "2",
-    "minutes": "06"
-  },
-  "releaseDate": "2008-04-01",
-  "trailer": "8hYlB38asDY"
+  "duration": 126,
+  "trailer": "8hYlB38asDY",
+  "year": 2008
 }

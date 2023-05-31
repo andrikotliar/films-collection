@@ -3,23 +3,15 @@ import KeyValues from "../KeyValues";
 const CreatorsList = ({ filmData }) => {
   return (
     <div>
-      {!filmData.type.includes('Series') ? (
-        <>
-          <KeyValues
-            title="Directed by"
-            linkParameter="directedBy"
-            values={filmData.directedBy}
-          />
-          <KeyValues
-            title="Written by"
-            values={filmData.writtenBy}
-          />
-        </>
-      ) : (
+      <KeyValues
+        title="Directed by"
+        linkParameter="directedBy"
+        values={filmData.directedBy}
+      />
+      {filmData.writtenBy && (
         <KeyValues
-          title="Created by"
-          linkParameter="createdBy"
-          values={filmData.createdBy}
+          title="Written by"
+          values={filmData.writtenBy}
         />
       )}
       <KeyValues

@@ -59,7 +59,7 @@
 
 .admin__add-row-btn {
 	color: #fff;
-	background-color: #006db7;
+	background-color: var(--main-color);
 	margin-top: 20px;
 }
 

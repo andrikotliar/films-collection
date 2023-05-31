@@ -31,7 +31,7 @@
   "synopsis": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save The World of Middle-earth from the Dark Lord Sauron.",
   "collections": [
     {
-      "name": "Middle-Earth"
+      "name": "Middle-Earth Universe"
     }
   ],
   "awards": [
@@ -77,7 +77,7 @@
     }
   ],
   "parts": {
-    "title": "Middle-Earth",
+    "title": "Middle-Earth Universe",
     "part": 4
   },
   "type": [
@@ -181,10 +181,7 @@
       "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
     }
   ],
-  "duration": {
-    "hours": "2",
-    "minutes": "58"
-  },
-  "releaseDate": "2001-12-01",
-  "trailer": "aStYWD25fAQ"
+  "duration": 178,
+  "trailer": "aStYWD25fAQ",
+  "year": 2001
 }

@@ -3,7 +3,6 @@ import { PlayIcon } from '@/assets/icons';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import TrailerModal from '../TrailerModal';
 
 const Trailer = ({ trailer }) => {
   const [ showTrailer, setShowTrailer ] = useState(false);
@@ -16,23 +15,31 @@ const Trailer = ({ trailer }) => {
   }, [id]);
 
   return (
-    <>
-      <button className="trailer" onClick={() => setShowTrailer(true)}>
-        <img
-          src={`https://i.ytimg.com/vi/${trailer}/hqdefault.jpg`}
-          className="trailer__cover"
-          alt=""
-        />
-        <div className="trailer__play-icon">
-          <PlayIcon />
-        </div>
-      </button>
-      <TrailerModal
-        showTrailer={showTrailer}
-        closeTrailerModal={() => setShowTrailer(false)}
-        trailer={trailer}
-      />
-    </>
+    <div
+      className="trailer"
+      onClick={() => setShowTrailer(true)}
+      aria-label="Show trailer"
+    >
+      <div className="trailer__cover">
+        {!showTrailer ? (
+          <>
+            <img
+              src={`https://i.ytimg.com/vi/${trailer}/hqdefault.jpg`}
+              alt=""
+            />
+            <div className="trailer__play-icon">
+              <PlayIcon />
+            </div>
+          </>
+        ) : (
+          <iframe
+            src={`https://www.youtube-nocookie.com/embed/${trailer}?rel=0&showinfo=0&autoplay=1`}
+            allow="autoplay"
+            allowFullScreen
+          />
+        )}
+      </div>
+    </div>
   );
 };
 

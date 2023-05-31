@@ -27,7 +27,7 @@
 }
 .filter-checkbox__input:checked + .filter-checkbox__icon {
   background-image: var(--main-gradient);
-  border-color: var(--base-color);
+  border-color: var(--main-color);
 }
 .filter-checkbox__input:checked + .filter-checkbox__icon svg {
   display: block;
@@ -38,5 +38,5 @@
   user-select: none;
 }
 .filter-checkbox:hover .filter-checkbox__label {
-  color: var(--base-color);
+  color: var(--main-color);
 }

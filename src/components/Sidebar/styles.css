@@ -1,11 +1,11 @@
 .sidebar {
-  width: 280px;
-  height: var(--app-height);
+  width: 300px;
+  height: calc(var(--app-height) - 40px);
   flex-shrink: 0;
-  border-right: 1px solid #ccc;
-}
-.sidebar__controls {
-  display: none;
+  border: var(--app-border);
+  border-radius: 10px;
+  position: sticky;
+  top: calc(var(--header-height) + 20px);
 }
 @media (max-width: 1200px) {
   .sidebar {
@@ -15,33 +15,25 @@
 @media (max-width: 785px) {
   .sidebar {
     position: fixed;
-    top: 0;
+    bottom: var(--header-height);
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 500px;
     background-color: #fff;
+    border-radius: 0;
+    z-index: 90;
+    border: none;
+    border-top: var(--app-border);
+    opacity: 0;
     visibility: hidden;
-    transform: translateX(-120%);
-    transition: transform 0.3s, visibility 0.3s;
-    z-index: 999;
+    transform: translateY(500px);
+    transition: 0.2s;
+    top: initial;
   }
-  .sidebar--active {
+  .sidebar--open {
+    opacity: 1;
     visibility: visible;
     transform: translateX(0);
     overflow-y: scroll;
-  }
-  .sidebar__controls {
-    display: flex;
-    justify-content: flex-end;
-    background-color: #fff;
-    position: sticky;
-    top: 0;
-    padding: 20px;
-    padding-bottom: 0;
-    z-index: 20;
-  }
-  .sidebar__hide-button {
-    width: 20px;
-    height: 20px;
   }
 }

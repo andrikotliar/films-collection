@@ -7,10 +7,10 @@
     "Fantasy"
   ],
   "production": [
-    "Disney+",
+    "Disney Plus",
     "Marvel Studios"
   ],
-  "createdBy": [
+  "directedBy": [
     "Kate Herron"
   ],
   "producedBy": "Kevin Feige, Louis D'Esposito, Victoria Alonso, Stephen Broussard",
@@ -41,48 +41,42 @@
           "episode": 1,
           "title": "Glorious Purpose",
           "directedBy": "Kate Herron",
-          "writtenBy": "Michael Waldron",
-          "releaseDate": "2021-06-09"
+          "writtenBy": "Michael Waldron"
         },
         {
           "episodeOverall": 2,
           "episode": 2,
           "title": "The Variant",
           "directedBy": "Kate Herron",
-          "writtenBy": "Elissa Karasik",
-          "releaseDate": "2021-06-16"
+          "writtenBy": "Elissa Karasik"
         },
         {
           "episodeOverall": 3,
           "episode": 3,
           "title": "Lamentis",
           "directedBy": "Kate Herron",
-          "writtenBy": "Bisha K. Ali",
-          "releaseDate": "2021-06-23"
+          "writtenBy": "Bisha K. Ali"
         },
         {
           "episodeOverall": 4,
           "episode": 4,
           "title": "The Nexus Event",
           "directedBy": "Kate Herron",
-          "writtenBy": "Eric Martin",
-          "releaseDate": "2021-06-30"
+          "writtenBy": "Eric Martin"
         },
         {
           "episodeOverall": 5,
           "episode": 5,
           "title": "Journey into Mystery",
           "directedBy": "Kate Herron",
-          "writtenBy": "Tom Kauffman",
-          "releaseDate": "2021-07-07"
+          "writtenBy": "Tom Kauffman"
         },
         {
           "episodeOverall": 6,
           "episode": 6,
           "title": "For All Time. Always.",
           "directedBy": "Kate Herron",
-          "writtenBy": "Michael Waldron, Eric Martin",
-          "releaseDate": "2021-07-14"
+          "writtenBy": "Michael Waldron, Eric Martin"
         }
       ],
       "trailer": "nW948Va-l10"
@@ -162,9 +156,6 @@
       "actorId": "0f0e2257-d791-4061-a14d-0bc42c85c6cc"
     }
   ],
-  "duration": {
-    "hours": "05",
-    "minutes": "00"
-  },
-  "releaseDate": "2021-06-01"
+  "duration": 300,
+  "year": 2021
 }

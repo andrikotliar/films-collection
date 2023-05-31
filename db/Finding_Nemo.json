@@ -123,10 +123,7 @@
       "actorId": "77591066-37d5-4536-8802-62abee9bb555"
     }
   ],
-  "duration": {
-    "hours": "1",
-    "minutes": "40"
-  },
-  "releaseDate": "2003-05-01",
-  "trailer": "wZdpNglLbt8"
+  "duration": 100,
+  "trailer": "wZdpNglLbt8",
+  "year": 2003
 }

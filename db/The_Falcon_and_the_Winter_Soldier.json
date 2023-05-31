@@ -7,10 +7,10 @@
     "Drama"
   ],
   "production": [
-    "Disney+",
+    "Disney Plus",
     "Marvel Studios"
   ],
-  "createdBy": [
+  "directedBy": [
     "Kari Skogland"
   ],
   "producedBy": "Ariella Blejer, Dawn Kamoche",
@@ -50,48 +50,42 @@
           "episode": 1,
           "title": "New World Order",
           "directedBy": "Kari Skogland",
-          "writtenBy": "Malcolm Spellman",
-          "releaseDate": "2021-03-19"
+          "writtenBy": "Malcolm Spellman"
         },
         {
           "episodeOverall": 2,
           "episode": 2,
           "title": "The Star-Spangled Man",
           "directedBy": "Kari Skogland",
-          "writtenBy": "Michael Kastelein",
-          "releaseDate": "2021-03-26"
+          "writtenBy": "Michael Kastelein"
         },
         {
           "episodeOverall": 3,
           "episode": 3,
           "title": "Power Broker",
           "directedBy": "Kari Skogland",
-          "writtenBy": "Derek Kolstad",
-          "releaseDate": "2021-04-02"
+          "writtenBy": "Derek Kolstad"
         },
         {
           "episodeOverall": 4,
           "episode": 4,
           "title": "The Whole World Is Watching",
           "directedBy": "Kari Skogland",
-          "writtenBy": "Derek Kolstad",
-          "releaseDate": "2021-04-09"
+          "writtenBy": "Derek Kolstad"
         },
         {
           "episodeOverall": 5,
           "episode": 5,
           "title": "Truth",
           "directedBy": "Kari Skogland",
-          "writtenBy": "Dalan Musson",
-          "releaseDate": "2021-04-16"
+          "writtenBy": "Dalan Musson"
         },
         {
           "episodeOverall": 6,
           "episode": 6,
           "title": "One World, One People",
           "directedBy": "Kari Skogland",
-          "writtenBy": "Malcolm Spellman, Josef Sawyer",
-          "releaseDate": "2021-04-23"
+          "writtenBy": "Malcolm Spellman, Josef Sawyer"
         }
       ],
       "trailer": "IWBsDaFWyTE"
@@ -179,9 +173,6 @@
       "actorId": "283b7be0-47c7-4082-804b-1f184b0c3537"
     }
   ],
-  "duration": {
-    "hours": "05",
-    "minutes": "00"
-  },
-  "releaseDate": "2021-03-01"
+  "duration": 300,
+  "year": 2021
 }

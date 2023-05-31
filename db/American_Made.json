@@ -33,7 +33,7 @@
   "synopsis": "The story of Barry Seal, an American pilot who became a drug-runner for the CIA in the 1980s in a clandestine operation that would be exposed as the Iran-Contra Affair.",
   "collections": [
     {
-      "name": "Life Story"
+      "name": "True Story"
     }
   ],
   "type": [
@@ -105,10 +105,7 @@
       "actorId": "db5e19f2-30fc-477c-8ca6-dd724fb0628a"
     }
   ],
-  "duration": {
-    "hours": "1",
-    "minutes": "55"
-  },
-  "releaseDate": "2017-09-01",
-  "trailer": "AEBIJRAkujM"
+  "duration": 115,
+  "trailer": "AEBIJRAkujM",
+  "year": 2017
 }

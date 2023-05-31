@@ -9,7 +9,7 @@
   "production": [
     "Nickelodeon Animation Studios"
   ],
-  "createdBy": [
+  "directedBy": [
     "Michael Dante DiMartino",
     "Bryan Konietzko"
   ],
@@ -50,96 +50,84 @@
           "episode": 1,
           "title": "Welcome to Republic City",
           "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
-          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
-          "releaseDate": "2012-04-14"
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko"
         },
         {
           "episodeOverall": 2,
           "episode": 2,
           "title": "A Leaf in the Wind",
           "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
-          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
-          "releaseDate": "2012-04-14"
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko"
         },
         {
           "episodeOverall": 3,
           "episode": 3,
           "title": "The Revelation",
           "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
-          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
-          "releaseDate": "2012-04-21"
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko"
         },
         {
           "episodeOverall": 4,
           "episode": 4,
           "title": "The Voice in the Night",
           "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
-          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
-          "releaseDate": "2012-04-28"
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko"
         },
         {
           "episodeOverall": 5,
           "episode": 5,
           "title": "The Spirit of Competition",
           "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
-          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
-          "releaseDate": "2012-05-05"
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko"
         },
         {
           "episodeOverall": 6,
           "episode": 6,
           "title": "And the Winner Is...",
           "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
-          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
-          "releaseDate": "2012-05-12"
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko"
         },
         {
           "episodeOverall": 7,
           "episode": 7,
           "title": "The Aftermath",
           "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
-          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
-          "releaseDate": "2012-05-19"
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko"
         },
         {
           "episodeOverall": 8,
           "episode": 8,
           "title": "When Extremes Meet",
           "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
-          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
-          "releaseDate": "2012-06-02"
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko"
         },
         {
           "episodeOverall": 9,
           "episode": 9,
           "title": "Out of the Past",
           "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
-          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
-          "releaseDate": "2012-06-09"
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko"
         },
         {
           "episodeOverall": 10,
           "episode": 10,
           "title": "Turning the Tides",
           "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
-          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
-          "releaseDate": "2012-06-16"
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko"
         },
         {
           "episodeOverall": 11,
           "episode": 11,
           "title": "Skeletons in the Closet",
           "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
-          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
-          "releaseDate": "2012-06-23"
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko"
         },
         {
           "episodeOverall": 12,
           "episode": 12,
           "title": "Endgame",
           "directedBy": "Joaquim Dos Santos, Ki Hyun Ryu",
-          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko",
-          "releaseDate": "2012-06-23"
+          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko"
         }
       ]
     },
@@ -152,112 +140,98 @@
           "episode": 1,
           "title": "Rebel Spirit",
           "directedBy": "Colin Heck",
-          "writtenBy": "Tim Hedrick",
-          "releaseDate": "2013-09-13"
+          "writtenBy": "Tim Hedrick"
         },
         {
           "episodeOverall": 14,
           "episode": 2,
           "title": "The Southern Lights",
           "directedBy": "Ian Graham",
-          "writtenBy": "Joshua Hamilton",
-          "releaseDate": "2013-09-13"
+          "writtenBy": "Joshua Hamilton"
         },
         {
           "episodeOverall": 15,
           "episode": 3,
           "title": "Civil Wars, Part 1",
           "directedBy": "Colin Heck",
-          "writtenBy": "Michael Dante DiMartino",
-          "releaseDate": "2013-09-20"
+          "writtenBy": "Michael Dante DiMartino"
         },
         {
           "episodeOverall": 16,
           "episode": 4,
           "title": "Civil Wars, Part 2",
           "directedBy": "Ian Graham",
-          "writtenBy": "Michael Dante DiMartino",
-          "releaseDate": "2013-09-27"
+          "writtenBy": "Michael Dante DiMartino"
         },
         {
           "episodeOverall": 17,
           "episode": 5,
           "title": "Peacekeepers",
           "directedBy": "Colin Heck",
-          "writtenBy": "Tim Hedrick",
-          "releaseDate": "2013-10-04"
+          "writtenBy": "Tim Hedrick"
         },
         {
           "episodeOverall": 18,
           "episode": 6,
           "title": "The Sting",
           "directedBy": "Ian Graham",
-          "writtenBy": "Joshua Hamilton",
-          "releaseDate": "2013-10-11"
+          "writtenBy": "Joshua Hamilton"
         },
         {
           "episodeOverall": 19,
           "episode": 7,
           "title": "Beginnings, Part 1",
           "directedBy": "Colin Heck",
-          "writtenBy": "Michael Dante DiMartino",
-          "releaseDate": "2013-10-18"
+          "writtenBy": "Michael Dante DiMartino"
         },
         {
           "episodeOverall": 20,
           "episode": 8,
           "title": "Beginnings, Part 2",
           "directedBy": "Ian Graham",
-          "writtenBy": "Tim Hedrick",
-          "releaseDate": "2013-10-18"
+          "writtenBy": "Tim Hedrick"
         },
         {
           "episodeOverall": 21,
           "episode": 9,
           "title": "The Guide",
           "directedBy": "Colin Heck",
-          "writtenBy": "Joshua Hamilton",
-          "releaseDate": "2013-11-01"
+          "writtenBy": "Joshua Hamilton"
         },
         {
           "episodeOverall": 22,
           "episode": 10,
           "title": "A New Spiritual Age",
           "directedBy": "Ian Graham",
-          "writtenBy": "Tim Hedrick",
-          "releaseDate": "2013-11-08"
+          "writtenBy": "Tim Hedrick"
         },
         {
           "episodeOverall": 23,
           "episode": 11,
           "title": "Night of a Thousand Stars",
           "directedBy": "Colin Heck",
-          "writtenBy": "Joshua Hamilton",
-          "releaseDate": "2013-11-15"
+          "writtenBy": "Joshua Hamilton"
         },
         {
           "episodeOverall": 24,
           "episode": 12,
           "title": "Harmonic Convergence",
           "directedBy": "Ian Graham",
-          "writtenBy": "Tim Hedrick",
-          "releaseDate": "2013-11-15"
+          "writtenBy": "Tim Hedrick"
         },
         {
           "episodeOverall": 25,
           "episode": 13,
           "title": "Darkness Falls",
           "directedBy": "Colin Heck",
-          "writtenBy": "Joshua Hamilton",
-          "releaseDate": "2013-11-22"
+          "writtenBy": "Joshua Hamilton"
         },
         {
           "episodeOverall": 26,
           "episode": 14,
           "title": "Light in the Dark",
           "directedBy": "Ian Graham",
-          "writtenBy": "Michael Dante DiMartino",
-          "releaseDate": "2013-11-22"
+          "writtenBy": "Michael Dante DiMartino"
         }
       ]
     },
@@ -270,104 +244,91 @@
           "episode": 1,
           "title": "A Breath of Fresh Air",
           "directedBy": "Melchior Zwyer",
-          "writtenBy": "Tim Hedrick",
-          "releaseDate": "2014-06-27"
+          "writtenBy": "Tim Hedrick"
         },
         {
           "episodeOverall": 28,
           "episode": 2,
           "title": "Rebirth",
           "directedBy": "Colin Heck",
-          "writtenBy": "Joshua Hamilton",
-          "releaseDate": "2014-06-27"
+          "writtenBy": "Joshua Hamilton"
         },
         {
           "episodeOverall": 29,
           "episode": 3,
           "title": "The Earth Queen",
           "directedBy": "Ian Graham",
-          "writtenBy": "Tim Hedrick",
-          "releaseDate": "2014-06-27"
+          "writtenBy": "Tim Hedrick"
         },
         {
           "episodeOverall": 30,
           "episode": 4,
           "title": "In Harm's Way",
           "directedBy": "Melchior Zwyer",
-          "writtenBy": "Joshua Hamilton",
-          "releaseDate": "2014-07-11"
+          "writtenBy": "Joshua Hamilton"
         },
         {
           "episodeOverall": 31,
           "episode": 5,
           "title": "The Metal Clan",
           "directedBy": "Colin Heck",
-          "writtenBy": "Michael Dante DiMartino",
-          "releaseDate": "2014-07-11"
+          "writtenBy": "Michael Dante DiMartino"
         },
         {
           "episodeOverall": 32,
           "episode": 6,
           "title": "Old Wounds",
           "directedBy": "Ian Graham",
-          "writtenBy": "Katie Mattila",
-          "releaseDate": "2014-07-18"
+          "writtenBy": "Katie Mattila"
         },
         {
           "episodeOverall": 33,
           "episode": 7,
           "title": "Original Airbenders",
           "directedBy": "Melchior Zwyer",
-          "writtenBy": "Tim Hedrick",
-          "releaseDate": "2014-07-18"
+          "writtenBy": "Tim Hedrick"
         },
         {
           "episodeOverall": 34,
           "episode": 8,
           "title": "The Terror Within",
           "directedBy": "Colin Heck",
-          "writtenBy": "Joshua Hamilton",
-          "releaseDate": "2014-07-25"
+          "writtenBy": "Joshua Hamilton"
         },
         {
           "episodeOverall": 35,
           "episode": 9,
           "title": "The Stakeout",
           "directedBy": "Ian Graham",
-          "writtenBy": "Michael Dante DiMartino",
-          "releaseDate": "2014-08-01"
+          "writtenBy": "Michael Dante DiMartino"
         },
         {
           "episodeOverall": 36,
           "episode": 10,
           "title": "Long Live the Queen",
           "directedBy": "Melchior Zwyer",
-          "writtenBy": "Tim Hedrick",
-          "releaseDate": "2014-08-08"
+          "writtenBy": "Tim Hedrick"
         },
         {
           "episodeOverall": 37,
           "episode": 11,
           "title": "The Ultimatum",
           "directedBy": "Colin Heck",
-          "writtenBy": "Joshua Hamilton",
-          "releaseDate": "2014-08-15"
+          "writtenBy": "Joshua Hamilton"
         },
         {
           "episodeOverall": 38,
           "episode": 12,
           "title": "Enter the Void",
           "directedBy": "Ian Graham",
-          "writtenBy": "Michael Dante DiMartino",
-          "releaseDate": "2014-08-22"
+          "writtenBy": "Michael Dante DiMartino"
         },
         {
           "episodeOverall": 39,
           "episode": 13,
           "title": "Venom of the Red Lotus",
           "directedBy": "Melchior Zwyer",
-          "writtenBy": "Tim Hedrick, Joshua Hamilton",
-          "releaseDate": "2014-08-22"
+          "writtenBy": "Tim Hedrick, Joshua Hamilton"
         }
       ]
     },
@@ -380,104 +341,91 @@
           "episode": 1,
           "title": "After All These Years",
           "directedBy": "Colin Heck",
-          "writtenBy": "Joshua Hamilton",
-          "releaseDate": "2014-10-03"
+          "writtenBy": "Joshua Hamilton"
         },
         {
           "episodeOverall": 41,
           "episode": 2,
           "title": "Korra Alone",
           "directedBy": "Ian Graham",
-          "writtenBy": "Michael Dante DiMartino",
-          "releaseDate": "2014-10-10"
+          "writtenBy": "Michael Dante DiMartino"
         },
         {
           "episodeOverall": 42,
           "episode": 3,
           "title": "The Coronation",
           "directedBy": "Melchior Zwyer",
-          "writtenBy": "Tim Hedrick",
-          "releaseDate": "2014-10-17"
+          "writtenBy": "Tim Hedrick"
         },
         {
           "episodeOverall": 43,
           "episode": 4,
           "title": "The Calling",
           "directedBy": "Colin Heck",
-          "writtenBy": "Katie Mattila",
-          "releaseDate": "2014-10-24"
+          "writtenBy": "Katie Mattila"
         },
         {
           "episodeOverall": 44,
           "episode": 5,
           "title": "Enemy at the Gates",
           "directedBy": "Ian Graham",
-          "writtenBy": "Joshua Hamilton",
-          "releaseDate": "2014-10-31"
+          "writtenBy": "Joshua Hamilton"
         },
         {
           "episodeOverall": 45,
           "episode": 6,
           "title": "The Battle of Zaofu",
           "directedBy": "Melchior Zwyer",
-          "writtenBy": "Tim Hedrick",
-          "releaseDate": "2014-11-07"
+          "writtenBy": "Tim Hedrick"
         },
         {
           "episodeOverall": 46,
           "episode": 7,
           "title": "Reunion",
           "directedBy": "Colin Heck",
-          "writtenBy": "Michael Dante DiMartino",
-          "releaseDate": "2014-11-14"
+          "writtenBy": "Michael Dante DiMartino"
         },
         {
           "episodeOverall": 47,
           "episode": 8,
           "title": "Remembrances",
           "directedBy": "Michael Dante DiMartino",
-          "writtenBy": "Joshua Hamilton, Katie Mattila, Tim Hedrick",
-          "releaseDate": "2014-11-21"
+          "writtenBy": "Joshua Hamilton, Katie Mattila, Tim Hedrick"
         },
         {
           "episodeOverall": 48,
           "episode": 9,
           "title": "Beyond the Wilds",
           "directedBy": "Ian Graham",
-          "writtenBy": "Joshua Hamilton",
-          "releaseDate": "2014-11-28"
+          "writtenBy": "Joshua Hamilton"
         },
         {
           "episodeOverall": 49,
           "episode": 10,
           "title": "Operation Beifong",
           "directedBy": "Melchior Zwyer",
-          "writtenBy": "Tim Hedrick",
-          "releaseDate": "2014-12-05"
+          "writtenBy": "Tim Hedrick"
         },
         {
           "episodeOverall": 50,
           "episode": 11,
           "title": "Kuvira's Gambit",
           "directedBy": "Colin Heck",
-          "writtenBy": "Joshua Hamilton",
-          "releaseDate": "2014-12-12"
+          "writtenBy": "Joshua Hamilton"
         },
         {
           "episodeOverall": 51,
           "episode": 12,
           "title": "Day of the Colossus",
           "directedBy": "Ian Graham",
-          "writtenBy": "Tim Hedrick",
-          "releaseDate": "2014-12-19"
+          "writtenBy": "Tim Hedrick"
         },
         {
           "episodeOverall": 52,
           "episode": 13,
           "title": "The Last Stand",
           "directedBy": "Melchior Zwyer",
-          "writtenBy": "Michael Dante Dimartino",
-          "releaseDate": "2014-12-19"
+          "writtenBy": "Michael Dante Dimartino"
         }
       ]
     }
@@ -644,9 +592,6 @@
       "actorId": "50dedb92-bf9a-4a5d-9f07-6b81e08d18e9"
     }
   ],
-  "duration": {
-    "hours": "19",
-    "minutes": "56"
-  },
-  "releaseDate": "2012-04-01"
+  "duration": 1196,
+  "year": 2012
 }

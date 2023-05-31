@@ -31,7 +31,7 @@
   "synopsis": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug.",
   "collections": [
     {
-      "name": "Middle-Earth"
+      "name": "Middle-Earth Universe"
     }
   ],
   "awards": [
@@ -43,7 +43,7 @@
     }
   ],
   "parts": {
-    "title": "Middle-Earth",
+    "title": "Middle-Earth Universe",
     "part": 1
   },
   "type": [
@@ -203,10 +203,7 @@
       "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135"
     }
   ],
-  "duration": {
-    "hours": "2",
-    "minutes": "49"
-  },
-  "releaseDate": "2012-12-01",
-  "trailer": "JTSoD4BBCJc"
+  "duration": 169,
+  "trailer": "JTSoD4BBCJc",
+  "year": 2012
 }

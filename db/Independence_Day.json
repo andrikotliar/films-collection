@@ -30,7 +30,7 @@
   "synopsis": "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive.",
   "collections": [
     {
-      "name": "Invaders"
+      "name": "Invasion"
     }
   ],
   "awards": [
@@ -110,10 +110,7 @@
       "actorId": "b87d24b2-bd89-40ca-af77-e5a70713ba4d"
     }
   ],
-  "duration": {
-    "hours": "2",
-    "minutes": "25"
-  },
-  "releaseDate": "1996-07-01",
-  "trailer": "kA2WzBi2grE"
+  "duration": 145,
+  "trailer": "kA2WzBi2grE",
+  "year": 1996
 }

@@ -11,7 +11,7 @@
     "NBC Universal Television",
     "Universal Media Studios"
   ],
-  "createdBy": [
+  "directedBy": [
     "Tim Kring"
   ],
   "producedBy": "Lori Motyer",
@@ -53,184 +53,161 @@
           "episode": 1,
           "title": "Genesis",
           "directedBy": "David Semel",
-          "writtenBy": "Tim Kring",
-          "releaseDate": "2006-09-25"
+          "writtenBy": "Tim Kring"
         },
         {
           "episodeOverall": 2,
           "episode": 2,
           "title": "Don't Look Back",
           "directedBy": "Allan Arkush",
-          "writtenBy": "Tim Kring",
-          "releaseDate": "2006-10-02"
+          "writtenBy": "Tim Kring"
         },
         {
           "episodeOverall": 3,
           "episode": 3,
           "title": "One Giant Leap",
           "directedBy": "Greg Beeman",
-          "writtenBy": "Jeph Loeb",
-          "releaseDate": "2006-10-09"
+          "writtenBy": "Jeph Loeb"
         },
         {
           "episodeOverall": 4,
           "episode": 4,
           "title": "Collision",
           "directedBy": "Ernest Dickerson",
-          "writtenBy": "Bryan Fuller",
-          "releaseDate": "2006-10-16"
+          "writtenBy": "Bryan Fuller"
         },
         {
           "episodeOverall": 5,
           "episode": 5,
           "title": "Hiros",
           "directedBy": "Paul Shapiro",
-          "writtenBy": "Michael Green",
-          "releaseDate": "2006-10-23"
+          "writtenBy": "Michael Green"
         },
         {
           "episodeOverall": 6,
           "episode": 6,
           "title": "Better Halves",
           "directedBy": "Greg Beeman",
-          "writtenBy": "Natalie Chaidez",
-          "releaseDate": "2006-10-30"
+          "writtenBy": "Natalie Chaidez"
         },
         {
           "episodeOverall": 7,
           "episode": 7,
           "title": "Nothing to Hide",
           "directedBy": "Donna Deitch",
-          "writtenBy": "Jesse Alexander",
-          "releaseDate": "2006-11-06"
+          "writtenBy": "Jesse Alexander"
         },
         {
           "episodeOverall": 8,
           "episode": 8,
           "title": "Seven Minutes to Midnight",
           "directedBy": "Paul Edwards",
-          "writtenBy": "Tim Kring",
-          "releaseDate": "2006-11-13"
+          "writtenBy": "Tim Kring"
         },
         {
           "episodeOverall": 9,
           "episode": 9,
           "title": "Homecoming",
           "directedBy": "Greg Beeman",
-          "writtenBy": "Adam Armus, Kay Foster",
-          "releaseDate": "2006-11-20"
+          "writtenBy": "Adam Armus, Kay Foster"
         },
         {
           "episodeOverall": 10,
           "episode": 10,
           "title": "Six Months Ago",
           "directedBy": "Allan Arkush",
-          "writtenBy": "Aron Eli Coleite",
-          "releaseDate": "2006-11-27"
+          "writtenBy": "Aron Eli Coleite"
         },
         {
           "episodeOverall": 11,
           "episode": 11,
           "title": "Fallout",
           "directedBy": "John Badham",
-          "writtenBy": "Joe Pokaski",
-          "releaseDate": "2006-12-04"
+          "writtenBy": "Joe Pokaski"
         },
         {
           "episodeOverall": 12,
           "episode": 12,
           "title": "Godsend",
           "directedBy": "Paul Shapiro",
-          "writtenBy": "Tim Kring",
-          "releaseDate": "2007-01-22"
+          "writtenBy": "Tim Kring"
         },
         {
           "episodeOverall": 13,
           "episode": 13,
           "title": "The Fix",
           "directedBy": "Terrence O'Hara",
-          "writtenBy": "Natalie Chaidez",
-          "releaseDate": "2007-01-29"
+          "writtenBy": "Natalie Chaidez"
         },
         {
           "episodeOverall": 14,
           "episode": 14,
           "title": "Distractions",
           "directedBy": "Jeannot Szwarc",
-          "writtenBy": "Michael Green",
-          "releaseDate": "2007-02-05"
+          "writtenBy": "Michael Green"
         },
         {
           "episodeOverall": 15,
           "episode": 15,
           "title": "Run!",
           "directedBy": "Roxann Dawson",
-          "writtenBy": "Adam Armus, Kay Foster",
-          "releaseDate": "2007-02-12"
+          "writtenBy": "Adam Armus, Kay Foster"
         },
         {
           "episodeOverall": 16,
           "episode": 16,
           "title": "Unexpected",
           "directedBy": "Greg Beeman",
-          "writtenBy": "Jeph Loeb",
-          "releaseDate": "2007-02-19"
+          "writtenBy": "Jeph Loeb"
         },
         {
           "episodeOverall": 17,
           "episode": 17,
           "title": "Company Man",
           "directedBy": "Allan Arkush",
-          "writtenBy": "Bryan Fuller",
-          "releaseDate": "2007-02-25"
+          "writtenBy": "Bryan Fuller"
         },
         {
           "episodeOverall": 18,
           "episode": 18,
           "title": "Parasite",
           "directedBy": "Kevin Bray",
-          "writtenBy": "Christopher Zatta",
-          "releaseDate": "2007-03-04"
+          "writtenBy": "Christopher Zatta"
         },
         {
           "episodeOverall": 19,
           "episode": 19,
           "title": "0.07%",
           "directedBy": "Adam Kane",
-          "writtenBy": "Chuck Kim",
-          "releaseDate": "2007-04-23"
+          "writtenBy": "Chuck Kim"
         },
         {
           "episodeOverall": 20,
           "episode": 20,
           "title": "Five Years Gone",
           "directedBy": "Paul Edwards",
-          "writtenBy": "Joe Pokaski",
-          "releaseDate": "2007-04-30"
+          "writtenBy": "Joe Pokaski"
         },
         {
           "episodeOverall": 21,
           "episode": 21,
           "title": "The Hard Part",
           "directedBy": "John Badham",
-          "writtenBy": "Aron Eli Coleite",
-          "releaseDate": "2007-05-07"
+          "writtenBy": "Aron Eli Coleite"
         },
         {
           "episodeOverall": 22,
           "episode": 22,
           "title": "Landslide",
           "directedBy": "Greg Beeman",
-          "writtenBy": "Jesse Alexander",
-          "releaseDate": "2007-05-14"
+          "writtenBy": "Jesse Alexander"
         },
         {
           "episodeOverall": 23,
           "episode": 23,
           "title": "How to Stop an Exploding Man",
           "directedBy": "Allan Arkush",
-          "writtenBy": "Tim Kring",
-          "releaseDate": "2007-05-21"
+          "writtenBy": "Tim Kring"
         }
       ],
       "trailer": "9AX6aXFdTkc"
@@ -244,88 +221,77 @@
           "episode": 1,
           "title": "Four Months Later...",
           "directedBy": "Greg Beeman",
-          "writtenBy": "Tim Kring",
-          "releaseDate": "2007-09-24"
+          "writtenBy": "Tim Kring"
         },
         {
           "episodeOverall": 25,
           "episode": 2,
           "title": "Lizards",
           "directedBy": "Allan Arkush",
-          "writtenBy": "Michael Green",
-          "releaseDate": "2007-10-01"
+          "writtenBy": "Michael Green"
         },
         {
           "episodeOverall": 26,
           "episode": 3,
           "title": "Kindred",
           "directedBy": "Paul Edwards",
-          "writtenBy": "J.J. Philbin",
-          "releaseDate": "2007-10-08"
+          "writtenBy": "J.J. Philbin"
         },
         {
           "episodeOverall": 27,
           "episode": 4,
           "title": "The Kindness of Strangers",
           "directedBy": "Adam Kane",
-          "writtenBy": "Tim Kring",
-          "releaseDate": "2007-10-15"
+          "writtenBy": "Tim Kring"
         },
         {
           "episodeOverall": 28,
           "episode": 5,
           "title": "Fight or Flight",
           "directedBy": "Lesli Glatter",
-          "writtenBy": "Joy Blake, Melissa Blake",
-          "releaseDate": "2007-10-22"
+          "writtenBy": "Joy Blake, Melissa Blake"
         },
         {
           "episodeOverall": 29,
           "episode": 6,
           "title": "The Line",
           "directedBy": "Jeannot Szwarc",
-          "writtenBy": "Adam Armus, Kay Foster",
-          "releaseDate": "2007-10-29"
+          "writtenBy": "Adam Armus, Kay Foster"
         },
         {
           "episodeOverall": 30,
           "episode": 7,
           "title": "Out of Time",
           "directedBy": "Daniel Attias",
-          "writtenBy": "Aron Eli Coleite",
-          "releaseDate": "2007-11-05"
+          "writtenBy": "Aron Eli Coleite"
         },
         {
           "episodeOverall": 31,
           "episode": 8,
           "title": "Four Months Ago...",
           "directedBy": "Greg Beeman",
-          "writtenBy": "Tim Kring",
-          "releaseDate": "2007-11-12"
+          "writtenBy": "Tim Kring"
         },
         {
           "episodeOverall": 32,
           "episode": 9,
           "title": "Cautionary Tales",
           "directedBy": "Greg Yaitanes",
-          "writtenBy": "Joe Pokaski",
-          "releaseDate": "2007-11-19"
+          "writtenBy": "Joe Pokaski"
         },
         {
           "episodeOverall": 33,
           "episode": 10,
           "title": "Truth, Consequences",
           "directedBy": "Adam Kane",
-          "writtenBy": "Jesse Alexander",
-          "releaseDate": "2007-11-26"
+          "writtenBy": "Jesse Alexander"
         },
         {
           "episodeOverall": 34,
           "episode": 11,
           "title": "Powerless",
           "directedBy": "Allan Arkush",
-          "writtenBy": "Jeph Loeb",
-          "releaseDate": "2007-12-03"
+          "writtenBy": "Jeph Loeb"
         }
       ],
       "trailer": "9mNGxXpAmHc"
@@ -339,104 +305,91 @@
           "episode": 1,
           "title": "The Second Coming",
           "directedBy": "Allan Arkush",
-          "writtenBy": "Tim Kring",
-          "releaseDate": "2008-09-22"
+          "writtenBy": "Tim Kring"
         },
         {
           "episodeOverall": 36,
           "episode": 2,
           "title": "The Butterfly Effect",
           "directedBy": "Greg Beeman",
-          "writtenBy": "Tim Kring",
-          "releaseDate": "2008-09-22"
+          "writtenBy": "Tim Kring"
         },
         {
           "episodeOverall": 37,
           "episode": 3,
           "title": "One of Us, One of Them",
           "directedBy": "Sergio Mimica-Gezzan",
-          "writtenBy": "Joe Pokaski",
-          "releaseDate": "2008-09-29"
+          "writtenBy": "Joe Pokaski"
         },
         {
           "episodeOverall": 38,
           "episode": 4,
           "title": "I Am Become Death",
           "directedBy": "David Von Ancken",
-          "writtenBy": "Aron Eli Coleite",
-          "releaseDate": "2008-10-06"
+          "writtenBy": "Aron Eli Coleite"
         },
         {
           "episodeOverall": 39,
           "episode": 5,
           "title": "Angels, Monsters",
           "directedBy": "Anthony Hemingway",
-          "writtenBy": "Adam Armus, Kay Foster",
-          "releaseDate": "2008-10-13"
+          "writtenBy": "Adam Armus, Kay Foster"
         },
         {
           "episodeOverall": 40,
           "episode": 6,
           "title": "Dying of the Light",
           "directedBy": "Daniel Attias",
-          "writtenBy": "Chuck Kim, Christopher Zatta",
-          "releaseDate": "2008-10-20"
+          "writtenBy": "Chuck Kim, Christopher Zatta"
         },
         {
           "episodeOverall": 41,
           "episode": 7,
           "title": "Eris Quod Sum",
           "directedBy": "Jeannot Szwarc",
-          "writtenBy": "Jesse Alexander",
-          "releaseDate": "2008-10-27"
+          "writtenBy": "Jesse Alexander"
         },
         {
           "episodeOverall": 42,
           "episode": 8,
           "title": "Villains",
           "directedBy": "Allan Arkush",
-          "writtenBy": "Rob Fresco",
-          "releaseDate": "2008-11-10"
+          "writtenBy": "Rob Fresco"
         },
         {
           "episodeOverall": 43,
           "episode": 9,
           "title": "It's Coming",
           "directedBy": "Greg Yaitanes",
-          "writtenBy": "Tim Kring",
-          "releaseDate": "2008-11-17"
+          "writtenBy": "Tim Kring"
         },
         {
           "episodeOverall": 44,
           "episode": 10,
           "title": "The Eclipse: Part 1",
           "directedBy": "Greg Beeman",
-          "writtenBy": "Aron Eli Coleite, Joe Pokaski",
-          "releaseDate": "2008-11-24"
+          "writtenBy": "Aron Eli Coleite, Joe Pokaski"
         },
         {
           "episodeOverall": 45,
           "episode": 11,
           "title": "The Eclipse: Part 2",
           "directedBy": "Holly Dale",
-          "writtenBy": "Aron Eli Coleite, Joe Pokaski",
-          "releaseDate": "2008-12-01"
+          "writtenBy": "Aron Eli Coleite, Joe Pokaski"
         },
         {
           "episodeOverall": 46,
           "episode": 12,
           "title": "Our Father",
           "directedBy": "Jeannot Szwarc",
-          "writtenBy": "Adam Armus, Kay Foster",
-          "releaseDate": "2008-12-08"
+          "writtenBy": "Adam Armus, Kay Foster"
         },
         {
           "episodeOverall": 47,
           "episode": 13,
           "title": "Dual",
           "directedBy": "Greg Beeman",
-          "writtenBy": "Jeph Loeb",
-          "releaseDate": "2008-12-15"
+          "writtenBy": "Jeph Loeb"
         }
       ],
       "trailer": "mTzPPIEUFEs"
@@ -450,96 +403,84 @@
           "episode": 14,
           "title": "A Clear and Present Danger",
           "directedBy": "Greg Yaitanes",
-          "writtenBy": "Tim Kring",
-          "releaseDate": "2009-02-02"
+          "writtenBy": "Tim Kring"
         },
         {
           "episodeOverall": 49,
           "episode": 15,
           "title": "Trust and Blood",
           "directedBy": "Allan Arkush",
-          "writtenBy": "Mark Verheiden",
-          "releaseDate": "2009-02-09"
+          "writtenBy": "Mark Verheiden"
         },
         {
           "episodeOverall": 50,
           "episode": 16,
           "title": "Building 26",
           "directedBy": "Sergio Mimica-Gezzan",
-          "writtenBy": "Rob Fresco",
-          "releaseDate": "2009-02-16"
+          "writtenBy": "Rob Fresco"
         },
         {
           "episodeOverall": 51,
           "episode": 17,
           "title": "Cold Wars",
           "directedBy": "Seith Mann",
-          "writtenBy": "Christopher Zatta, Aron Eli Coleite, Joe Pokaski",
-          "releaseDate": "2009-02-23"
+          "writtenBy": "Christopher Zatta, Aron Eli Coleite, Joe Pokaski"
         },
         {
           "episodeOverall": 52,
           "episode": 18,
           "title": "Exposed",
           "directedBy": "Eric Laneuville",
-          "writtenBy": "Adam Armus, Kay Foster",
-          "releaseDate": "2009-03-02"
+          "writtenBy": "Adam Armus, Kay Foster"
         },
         {
           "episodeOverall": 53,
           "episode": 19,
           "title": "Shades of Gray",
           "directedBy": "Greg Beeman",
-          "writtenBy": "Oliver Grigsby",
-          "releaseDate": "2009-03-09"
+          "writtenBy": "Oliver Grigsby"
         },
         {
           "episodeOverall": 54,
           "episode": 20,
           "title": "Cold Snap",
           "directedBy": "Greg Yaitanes",
-          "writtenBy": "Bryan Fuller",
-          "releaseDate": "2009-03-23"
+          "writtenBy": "Bryan Fuller"
         },
         {
           "episodeOverall": 55,
           "episode": 21,
           "title": "Into Asylum",
           "directedBy": "Jim Chory",
-          "writtenBy": "Joe Pokaski",
-          "releaseDate": "2009-03-30"
+          "writtenBy": "Joe Pokaski"
         },
         {
           "episodeOverall": 56,
           "episode": 22,
           "title": "Turn, Face the Strange",
           "directedBy": "Jeannot Szwarc",
-          "writtenBy": "Rob Fresco, Mark Verheiden",
-          "releaseDate": "2009-04-06"
+          "writtenBy": "Rob Fresco, Mark Verheiden"
         },
         {
           "episodeOverall": 57,
           "episode": 23,
           "title": "1961",
           "directedBy": "Adam Kane",
-          "writtenBy": "Aron Eli Coleite",
-          "releaseDate": "2009-04-13"
+          "writtenBy": "Aron Eli Coleite"
         },
         {
           "episodeOverall": 58,
           "episode": 24,
           "title": "I Am Sylar",
           "directedBy": "Allan Arkush",
-          "writtenBy": "Adam Armus, Kay Foster",
-          "releaseDate": "2009-04-20"
+          "writtenBy": "Adam Armus, Kay Foster"
         },
         {
           "episodeOverall": 59,
           "episode": 25,
           "title": "An Invisible Thread",
           "directedBy": "Greg Beeman",
-          "writtenBy": "Tim Kring",
-          "releaseDate": "2009-04-27"
+          "writtenBy": "Tim Kring"
         }
       ],
       "trailer": "mTzPPIEUFEs"
@@ -553,144 +494,126 @@
           "episode": 1,
           "title": "Orientation",
           "directedBy": "Ed Bianchi, David Straiton",
-          "writtenBy": "Adam Armus, Kay Foster, Tim Kring",
-          "releaseDate": "2009-09-21"
+          "writtenBy": "Adam Armus, Kay Foster, Tim Kring"
         },
         {
           "episodeOverall": 61,
           "episode": 2,
           "title": "Ink",
           "directedBy": "Roxann Dawson",
-          "writtenBy": "Aron Eli Coleite",
-          "releaseDate": "2009-09-28"
+          "writtenBy": "Aron Eli Coleite"
         },
         {
           "episodeOverall": 62,
           "episode": 3,
           "title": "Acceptance",
           "directedBy": "Christopher Misiano",
-          "writtenBy": "Bryan Fuller",
-          "releaseDate": "2009-10-05"
+          "writtenBy": "Bryan Fuller"
         },
         {
           "episodeOverall": 63,
           "episode": 4,
           "title": "Hysterical Blindness",
           "directedBy": "SJ Clarkson",
-          "writtenBy": "Joe Pokaski",
-          "releaseDate": "2009-10-12"
+          "writtenBy": "Joe Pokaski"
         },
         {
           "episodeOverall": 64,
           "episode": 5,
           "title": "Tabula Rasa",
           "directedBy": "Jim Chory",
-          "writtenBy": "Rob Fresco",
-          "releaseDate": "2009-10-19"
+          "writtenBy": "Rob Fresco"
         },
         {
           "episodeOverall": 65,
           "episode": 6,
           "title": "Strange Attractors",
           "directedBy": "Tucker Gates",
-          "writtenBy": "Juan Carlos Coto",
-          "releaseDate": "2009-10-26"
+          "writtenBy": "Juan Carlos Coto"
         },
         {
           "episodeOverall": 66,
           "episode": 7,
           "title": "Once Upon a Time in Texas",
           "directedBy": "Nate Goodman",
-          "writtenBy": "Aron Eli Coleite, Aury Wallington",
-          "releaseDate": "2009-11-02"
+          "writtenBy": "Aron Eli Coleite, Aury Wallington"
         },
         {
           "episodeOverall": 67,
           "episode": 8,
           "title": "Shadowboxing",
           "directedBy": "Jim Chory",
-          "writtenBy": "Misha Green, Joe Pokaski",
-          "releaseDate": "2009-11-09"
+          "writtenBy": "Misha Green, Joe Pokaski"
         },
         {
           "episodeOverall": 68,
           "episode": 9,
           "title": "Brother's Keeper",
           "directedBy": "Bryan Spicer",
-          "writtenBy": "Rob Fresco, Mark Verheiden",
-          "releaseDate": "2009-11-16"
+          "writtenBy": "Rob Fresco, Mark Verheiden"
         },
         {
           "episodeOverall": 69,
           "episode": 10,
           "title": "Thanksgiving",
           "directedBy": "Seith Mann",
-          "writtenBy": "Adam Armus, Kay Foster",
-          "releaseDate": "2009-11-23"
+          "writtenBy": "Adam Armus, Kay Foster"
         },
         {
           "episodeOverall": 70,
           "episode": 11,
           "title": "The Fifth Stage",
           "directedBy": "Kevin Dowling",
-          "writtenBy": "Tim Kring",
-          "releaseDate": "2009-11-30"
+          "writtenBy": "Tim Kring"
         },
         {
           "episodeOverall": 71,
           "episode": 12,
           "title": "Upon This Rock",
           "directedBy": "Ron Underwood",
-          "writtenBy": "Juan Carlos Coto",
-          "releaseDate": "2010-01-04"
+          "writtenBy": "Juan Carlos Coto"
         },
         {
           "episodeOverall": 72,
           "episode": 13,
           "title": "Let It Bleed",
           "directedBy": "Jeannot Szwarc",
-          "writtenBy": "Jim Martin",
-          "releaseDate": "2010-01-04"
+          "writtenBy": "Jim Martin"
         },
         {
           "episodeOverall": 73,
           "episode": 14,
           "title": "Close to You",
           "directedBy": "Roxann Dawson",
-          "writtenBy": "Rob Fresco",
-          "releaseDate": "2010-01-11"
+          "writtenBy": "Rob Fresco"
         },
         {
           "episodeOverall": 74,
           "episode": 15,
           "title": "Pass/Fail",
           "directedBy": "Michael Nankin",
-          "writtenBy": "Oliver Grigsby",
-          "releaseDate": "2010-01-18"
+          "writtenBy": "Oliver Grigsby"
         },
         {
           "episodeOverall": 75,
           "episode": 16,
           "title": "The Art of Deception",
           "directedBy": "SJ Clarkson",
-          "writtenBy": "Mark Verheiden, Misha Green",
-          "releaseDate": "2010-01-25"
+          "writtenBy": "Mark Verheiden, Misha Green"
         },
         {
           "episodeOverall": 76,
           "episode": 17,
           "title": "The Wall",
           "directedBy": "Allan Arkush",
-          "writtenBy": "Adam Armus, Kay Foster",
-          "releaseDate": "2010-02-01"
+          "writtenBy": "Adam Armus, Kay Foster"
         },
         {
           "episodeOverall": 77,
           "episode": 18,
           "title": "Brave New World",
           "directedBy": "Adam Kane",
-          "writtenBy": "Tim Kring",
-          "releaseDate": "2010-02-08"
+          "writtenBy": "Tim Kring"
         }
       ],
       "trailer": "i1VA_aWyrPI"
@@ -834,9 +757,6 @@
       "actorId": "bbf4ef6d-ba48-433e-b60f-a62bf2079bff"
     }
   ],
-  "duration": {
-    "hours": "57",
-    "minutes": "45"
-  },
-  "releaseDate": "2006-09-01"
+  "duration": 3465,
+  "year": 2006
 }

@@ -117,10 +117,7 @@
       "actorId": "7f0b81c7-b4b8-45fc-8945-2f3a6fbdf7f8"
     }
   ],
-  "duration": {
-    "hours": "2",
-    "minutes": "03"
-  },
-  "releaseDate": "2014-11-01",
-  "trailer": "3PkkHsuMrho"
+  "duration": 123,
+  "trailer": "3PkkHsuMrho",
+  "year": 2014
 }

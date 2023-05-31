@@ -1,38 +1,56 @@
-import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { SearchIcon } from '@/assets/icons';
 import './style.css';
+import { useNavigate } from 'react-router-dom';
+import { SearchIcon } from '@/assets/icons';
+import { useEffect, useRef, useState } from 'react';
 import classNames from 'classnames';
 
-const Search = ({ className, showSearch = true }) => {
-  const [ searchFilm, setSearchFilm ] = useState('');
+const Search = ({ isOpen }) => {
   const navigate = useNavigate();
+  const searchInputRef = useRef();
+  const [searchString, setSearchString] = useState('');
 
-  if(!showSearch) {
-    return null;
+  const runSearch = (searchValue) => {
+    navigate(`/?search=${searchValue}`);
   }
 
-  const keySearch = (event) => {
-    if(event.keyCode === 13) {
-      navigate(`/?search=${event.target.value}`);
+  const onSubmit = (event) => {
+    event.preventDefault();
+    runSearch(searchString);
+    searchInputRef.current.value = '';
+  }
+
+  const focusSearch = (event) => {
+    if(event.key === 'F2') {
+      searchInputRef.current.focus();
     }
   }
 
+  useEffect(() => {
+    document.addEventListener('keydown', focusSearch);
+
+    return () => {
+      document.removeEventListener('keydown', focusSearch);
+    }
+  }, []);
+
   return (
-    <div className={classNames('search-field', className)}>
-      <div className="search-field__wrapper">
-        <input
-          type="text"
-          className="search-field__input"
-          placeholder="Search film..."
-          onChange={(e) => setSearchFilm(e.target.value)}
-          onKeyDown={keySearch}
-        />
-        <Link to={`/?search=${searchFilm}`} className="search-field__button">
-          <SearchIcon fill="#ddd" />
-        </Link>
-      </div>
-    </div>
+    <form
+      className={classNames('search-form', {
+        'search-form--active': isOpen
+      })}
+      onSubmit={onSubmit}
+    >
+      <input
+        type="text"
+        className="search-input"
+        placeholder="Search film..."
+        onChange={(e) => setSearchString(e.target.value)}
+        ref={searchInputRef}
+      />
+      <button className="search-button">
+        <SearchIcon color="#ddd" />
+      </button>
+    </form>
   );
 };
 

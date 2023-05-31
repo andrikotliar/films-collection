@@ -13,7 +13,7 @@
   ],
   "producedBy": "Luc Besson",
   "writtenBy": "Luc Besson",
-  "musicBy": "Damien Roques, Trak Invaders",
+  "musicBy": "Damien Roques, Trak Invasion",
   "cinematographyBy": "Jean-François Hensgens",
   "countries": [
     "USA"
@@ -105,10 +105,7 @@
       "actorId": "13ffb0cf-a767-4d8e-805b-2f0084761b92"
     }
   ],
-  "duration": {
-    "hours": "1",
-    "minutes": "46"
-  },
-  "releaseDate": "2009-03-01",
-  "trailer": "jDDFNpj9xBQ"
+  "duration": 106,
+  "trailer": "jDDFNpj9xBQ",
+  "year": 2009
 }

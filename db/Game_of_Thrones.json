@@ -9,7 +9,7 @@
   "production": [
     "HBO"
   ],
-  "createdBy": [
+  "directedBy": [
     "David Benioff",
     "D. B. Weiss"
   ],
@@ -38,80 +38,70 @@
           "episode": 1,
           "title": "Winter Is Coming",
           "directedBy": "Tim Van Patten",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2011-04-17"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 2,
           "episode": 2,
           "title": "The Kingsroad",
           "directedBy": "Tim Van Patten",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2011-04-24"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 3,
           "episode": 3,
           "title": "Lord Snow",
           "directedBy": "Brian Kirk",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2011-05-01"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 4,
           "episode": 4,
           "title": "Cripples, Bastards, and Broken Things",
           "directedBy": "Brian Kirk",
-          "writtenBy": "Bryan Cogman",
-          "releaseDate": "2011-05-08"
+          "writtenBy": "Bryan Cogman"
         },
         {
           "episodeOverall": 5,
           "episode": 5,
           "title": "The Wolf, the Lion",
           "directedBy": "Brian Kirk",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2011-05-15"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 6,
           "episode": 6,
           "title": "A Golden Crown",
           "directedBy": "Daniel Minahan",
-          "writtenBy": "Jane Espenson, David Benioff, D. B. Weiss",
-          "releaseDate": "2011-05-22"
+          "writtenBy": "Jane Espenson, David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 7,
           "episode": 7,
           "title": "You Win or You Die",
           "directedBy": "Daniel Minahan",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2011-05-29"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 8,
           "episode": 8,
           "title": "The Pointy End",
           "directedBy": "Daniel Minahan",
-          "writtenBy": "George R. R. Martin",
-          "releaseDate": "2011-06-05"
+          "writtenBy": "George R. R. Martin"
         },
         {
           "episodeOverall": 9,
           "episode": 9,
           "title": "Baelor",
           "directedBy": "Alan Taylor",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2011-06-12"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 10,
           "episode": 10,
           "title": "Fire, Blood",
           "directedBy": "Alan Taylor",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2011-06-19"
+          "writtenBy": "David Benioff, D. B. Weiss"
         }
       ],
       "trailer": "gcTkNV5Vg1E"
@@ -124,80 +114,70 @@
           "episode": 1,
           "title": "The North Remembers",
           "directedBy": "Alan Taylor",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2012-04-01"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 12,
           "episode": 2,
           "title": "The Night Lands",
           "directedBy": "Alan Taylor",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2012-04-08"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 13,
           "episode": 3,
           "title": "What Is Dead May Never Die",
           "directedBy": "Alik Sakharov",
-          "writtenBy": "Bryan Cogman",
-          "releaseDate": "2012-04-15"
+          "writtenBy": "Bryan Cogman"
         },
         {
           "episodeOverall": 14,
           "episode": 4,
           "title": "Garden of Bones",
           "directedBy": "David Petrarca",
-          "writtenBy": "Vanessa Taylor",
-          "releaseDate": "2012-04-22"
+          "writtenBy": "Vanessa Taylor"
         },
         {
           "episodeOverall": 15,
           "episode": 5,
           "title": "The Ghost of Harrenhal",
           "directedBy": "David Petrarca",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2012-04-29"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 16,
           "episode": 6,
           "title": "The Old Gods and the New",
           "directedBy": "David Nutter",
-          "writtenBy": "Vanessa Taylor",
-          "releaseDate": "2012-05-06"
+          "writtenBy": "Vanessa Taylor"
         },
         {
           "episodeOverall": 17,
           "episode": 7,
           "title": "A Man Without Honor",
           "directedBy": "David Nutter",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2012-05-13"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 18,
           "episode": 8,
           "title": "The Prince of Winterfell",
           "directedBy": "Alan Taylor",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2012-05-20"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 19,
           "episode": 9,
           "title": "Blackwater",
           "directedBy": "Neil Marshall",
-          "writtenBy": "George R. R. Martin",
-          "releaseDate": "2012-05-27"
+          "writtenBy": "George R. R. Martin"
         },
         {
           "episodeOverall": 20,
           "episode": 10,
           "title": "Valar Morghulis",
           "directedBy": "Alan Taylor",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2012-06-03"
+          "writtenBy": "David Benioff, D. B. Weiss"
         }
       ],
       "trailer": "AlhHGUfCYw4"
@@ -210,80 +190,70 @@
           "episode": 1,
           "title": "Valar Dohaeris",
           "directedBy": "Daniel Minahan",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2013-03-31"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 22,
           "episode": 2,
           "title": "Dark Wings and Dark Words",
           "directedBy": "Daniel Minahan",
-          "writtenBy": "Vanessa Taylor",
-          "releaseDate": "2013-04-07"
+          "writtenBy": "Vanessa Taylor"
         },
         {
           "episodeOverall": 23,
           "episode": 3,
           "title": "Walk of Punishment",
           "directedBy": "David Benioff",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2013-04-14"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 24,
           "episode": 4,
           "title": "And Now His Watch Is Ended",
           "directedBy": "Alex Graves",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2013-04-21"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 25,
           "episode": 5,
           "title": "Kissed by Fire",
           "directedBy": "Alex Graves",
-          "writtenBy": "Bryan Cogman",
-          "releaseDate": "2013-04-28"
+          "writtenBy": "Bryan Cogman"
         },
         {
           "episodeOverall": 26,
           "episode": 6,
           "title": "The Climb",
           "directedBy": "Alik Sakharov",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2013-05-05"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 27,
           "episode": 7,
           "title": "The Bear, the Maiden Fair",
           "directedBy": "Michelle MacLaren",
-          "writtenBy": "George R. R. Martin",
-          "releaseDate": "2013-05-12"
+          "writtenBy": "George R. R. Martin"
         },
         {
           "episodeOverall": 28,
           "episode": 8,
           "title": "Second Sons",
           "directedBy": "Michelle MacLaren",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2013-05-19"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 29,
           "episode": 9,
           "title": "The Rains of Castamere",
           "directedBy": "David Nutter",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2013-06-02"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 30,
           "episode": 10,
           "title": "Mhysa",
           "directedBy": "David Nutter",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2013-06-09"
+          "writtenBy": "David Benioff, D. B. Weiss"
         }
       ],
       "trailer": "nblUgAMoOvU"
@@ -296,80 +266,70 @@
           "episode": 1,
           "title": "Two Swords",
           "directedBy": "D. B. Weiss",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2014-04-06"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 32,
           "episode": 2,
           "title": "The Lion and the Rose",
           "directedBy": "Alex Graves",
-          "writtenBy": "George R. R. Martin",
-          "releaseDate": "2014-04-13"
+          "writtenBy": "George R. R. Martin"
         },
         {
           "episodeOverall": 33,
           "episode": 3,
           "title": "Breaker of Chains",
           "directedBy": "Alex Graves",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2014-04-20"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 34,
           "episode": 4,
           "title": "Oathkeeper",
           "directedBy": "Michelle MacLaren",
-          "writtenBy": "Bryan Cogman",
-          "releaseDate": "2014-04-27"
+          "writtenBy": "Bryan Cogman"
         },
         {
           "episodeOverall": 35,
           "episode": 5,
           "title": "First of His Name",
           "directedBy": "Michelle MacLaren",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2014-05-04"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 36,
           "episode": 6,
           "title": "The Laws of Gods and Men",
           "directedBy": "Alik Sakharov",
-          "writtenBy": "Bryan Cogman",
-          "releaseDate": "2014-05-11"
+          "writtenBy": "Bryan Cogman"
         },
         {
           "episodeOverall": 37,
           "episode": 7,
           "title": "Mockingbird",
           "directedBy": "Alik Sakharov",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2014-05-18"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 38,
           "episode": 8,
           "title": "The Mountain and the Viper",
           "directedBy": "Alex Graves",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2014-06-01"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 39,
           "episode": 9,
           "title": "The Watchers on the Wall",
           "directedBy": "Neil Marshall",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2014-06-08"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 40,
           "episode": 10,
           "title": "The Children",
           "directedBy": "Alex Graves",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2014-06-15"
+          "writtenBy": "David Benioff, D. B. Weiss"
         }
       ],
       "trailer": "aj9x_Xea6cg"
@@ -382,80 +342,70 @@
           "episode": 1,
           "title": "The Wars to Come",
           "directedBy": "Michael Slovis",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2015-04-12"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 42,
           "episode": 2,
           "title": "The House of Black, White",
           "directedBy": "Michael Slovis",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2015-04-19"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 43,
           "episode": 3,
           "title": "High Sparrow",
           "directedBy": "Mark Mylod",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2015-04-26"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 44,
           "episode": 4,
           "title": "Sons of the Harpy",
           "directedBy": "Mark Mylod",
-          "writtenBy": "Dave Hill",
-          "releaseDate": "2015-05-03"
+          "writtenBy": "Dave Hill"
         },
         {
           "episodeOverall": 45,
           "episode": 5,
           "title": "Kill the Boy",
           "directedBy": "Jeremy Podeswa",
-          "writtenBy": "Bryan Cogman",
-          "releaseDate": "2015-05-10"
+          "writtenBy": "Bryan Cogman"
         },
         {
           "episodeOverall": 46,
           "episode": 6,
           "title": "Unbowed, Unbent, Unbroken",
           "directedBy": "Jeremy Podeswa",
-          "writtenBy": "Bryan Cogman",
-          "releaseDate": "2015-05-17"
+          "writtenBy": "Bryan Cogman"
         },
         {
           "episodeOverall": 47,
           "episode": 7,
           "title": "The Gift",
           "directedBy": "Miguel Sapochnik",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2015-05-24"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 48,
           "episode": 8,
           "title": "Hardhome",
           "directedBy": "Miguel Sapochnik",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2015-05-31"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 49,
           "episode": 9,
           "title": "The Dance of Dragons",
           "directedBy": "David Nutter",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2015-06-07"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 50,
           "episode": 10,
           "title": "Mother's Mercy",
           "directedBy": "David Nutter",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2015-06-14"
+          "writtenBy": "David Benioff, D. B. Weiss"
         }
       ],
       "trailer": "F9Bo89m2f6g"
@@ -468,80 +418,70 @@
           "episode": 1,
           "title": "The Red Woman",
           "directedBy": "Jeremy Podeswa",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2016-04-24"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 52,
           "episode": 2,
           "title": "Home",
           "directedBy": "Jeremy Podeswa",
-          "writtenBy": "Dave Hill",
-          "releaseDate": "2016-05-01"
+          "writtenBy": "Dave Hill"
         },
         {
           "episodeOverall": 53,
           "episode": 3,
           "title": "Oathbreaker",
           "directedBy": "Daniel Sackheim",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2016-05-08"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 54,
           "episode": 4,
           "title": "Book of the Stranger",
           "directedBy": "Daniel Sackheim",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2016-05-15"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 55,
           "episode": 5,
           "title": "The Door",
           "directedBy": "Jack Bender",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2016-05-22"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 56,
           "episode": 6,
           "title": "Blood of My Blood",
           "directedBy": "Jack Bender",
-          "writtenBy": "Bryan Cogman",
-          "releaseDate": "2016-05-29"
+          "writtenBy": "Bryan Cogman"
         },
         {
           "episodeOverall": 57,
           "episode": 7,
           "title": "The Broken Man",
           "directedBy": "Mark Mylod",
-          "writtenBy": "Bryan Cogman",
-          "releaseDate": "2016-06-05"
+          "writtenBy": "Bryan Cogman"
         },
         {
           "episodeOverall": 58,
           "episode": 8,
           "title": "No One",
           "directedBy": "Mark Mylod",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2016-06-12"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 59,
           "episode": 9,
           "title": "Battle of the Bastards",
           "directedBy": "Miguel Sapochnik",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2016-06-19"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 60,
           "episode": 10,
           "title": "The Winds of Winter",
           "directedBy": "Miguel Sapochnik",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2016-06-26"
+          "writtenBy": "David Benioff, D. B. Weiss"
         }
       ],
       "trailer": "yu8eRaq1FUM"
@@ -554,56 +494,49 @@
           "episode": 1,
           "title": "Dragonstone",
           "directedBy": "Jeremy Podeswa",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2017-07-16"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 62,
           "episode": 2,
           "title": "Stormborn",
           "directedBy": "Mark Mylod",
-          "writtenBy": "Bryan Cogman",
-          "releaseDate": "2017-07-23"
+          "writtenBy": "Bryan Cogman"
         },
         {
           "episodeOverall": 63,
           "episode": 3,
           "title": "The Queen's Justice",
           "directedBy": "Mark Mylod",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2017-07-30"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 64,
           "episode": 4,
           "title": "The Spoils of War",
           "directedBy": "Matt Shakman",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2017-08-06"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 65,
           "episode": 5,
           "title": "Eastwatch",
           "directedBy": "Matt Shakman",
-          "writtenBy": "Dave Hill",
-          "releaseDate": "2017-08-13"
+          "writtenBy": "Dave Hill"
         },
         {
           "episodeOverall": 66,
           "episode": 6,
           "title": "Beyond the Wall",
           "directedBy": "Alan Taylor",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2017-08-20"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 67,
           "episode": 7,
           "title": "The Dragon, the Wolf",
           "directedBy": "Jeremy Podeswa",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2017-08-27"
+          "writtenBy": "David Benioff, D. B. Weiss"
         }
       ],
       "trailer": "giYeaKsXnsI"
@@ -616,48 +549,42 @@
           "episode": 1,
           "title": "Winterfell",
           "directedBy": "David Nutter",
-          "writtenBy": "Dave Hill",
-          "releaseDate": "2019-04-14"
+          "writtenBy": "Dave Hill"
         },
         {
           "episodeOverall": 69,
           "episode": 2,
           "title": "A Knight of the Seven Kingdoms",
           "directedBy": "David Nutter",
-          "writtenBy": "Bryan Cogman",
-          "releaseDate": "2019-04-21"
+          "writtenBy": "Bryan Cogman"
         },
         {
           "episodeOverall": 70,
           "episode": 3,
           "title": "The Long Night",
           "directedBy": "Miguel Sapochnik",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2019-04-28"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 71,
           "episode": 4,
           "title": "The Last of the Starks",
           "directedBy": "David Nutter",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2019-05-05"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 72,
           "episode": 5,
           "title": "The Bells",
           "directedBy": "Miguel Sapochnik",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2019-05-12"
+          "writtenBy": "David Benioff, D. B. Weiss"
         },
         {
           "episodeOverall": 73,
           "episode": 6,
           "title": "The Iron Throne",
           "directedBy": "David Benioff, D. B. Weiss",
-          "writtenBy": "David Benioff, D. B. Weiss",
-          "releaseDate": "2019-05-19"
+          "writtenBy": "David Benioff, D. B. Weiss"
         }
       ],
       "trailer": "rlR4PJn8b8I"
@@ -985,9 +912,6 @@
       "actorId": "a1dc9344-0c17-4f6a-a1ec-5b4483a59d83"
     }
   ],
-  "duration": {
-    "hours": "69",
-    "minutes": "21"
-  },
-  "releaseDate": "2011-09-01"
+  "duration": 4161,
+  "year": 2011
 }

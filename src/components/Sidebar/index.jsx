@@ -1,15 +1,15 @@
-import { CloseIcon } from '@/assets/icons';
+import { useAppContext } from '@/context/appContext';
 import Filters from '../Filters';
 import './styles.css';
+import classNames from 'classnames';
 
 const Sidebar = () => {
+  const { isFilterOpen } = useAppContext();
+
   return (
-    <aside className="sidebar">
-      <div className="sidebar__controls">
-        <button className="sidebar__hide-button">
-          <CloseIcon />
-        </button>
-      </div>
+    <aside className={classNames('sidebar', {
+      'sidebar--open': isFilterOpen
+    })}>
       <Filters />
     </aside>
   );

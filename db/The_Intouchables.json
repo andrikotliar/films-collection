@@ -33,7 +33,7 @@
   "synopsis": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
   "collections": [
     {
-      "name": "Real Events"
+      "name": "Based on Real Events"
     }
   ],
   "type": [
@@ -73,10 +73,7 @@
       "actorId": "c731889b-061a-4c7f-9b08-775002a5e5c9"
     }
   ],
-  "duration": {
-    "hours": "1",
-    "minutes": "52"
-  },
-  "releaseDate": "2011-11-01",
-  "trailer": "34WIbmXkewU"
+  "duration": 112,
+  "trailer": "34WIbmXkewU",
+  "year": 2011
 }

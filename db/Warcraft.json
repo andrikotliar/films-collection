@@ -143,10 +143,7 @@
       "actorId": "4d047c47-5f96-42f8-9785-39c157afb232"
     }
   ],
-  "duration": {
-    "hours": "2",
-    "minutes": "03"
-  },
-  "releaseDate": "2016-06-01",
-  "trailer": "2Rxoz13Bthc"
+  "duration": 123,
+  "trailer": "2Rxoz13Bthc",
+  "year": 2016
 }

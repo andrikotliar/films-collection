@@ -30,7 +30,7 @@
   "synopsis": "A remake of the 1951 classic science fiction film about an alien visitor and his giant robot counterpart who visit Earth.",
   "collections": [
     {
-      "name": "Invaders"
+      "name": "Invasion"
     }
   ],
   "awards": [
@@ -118,10 +118,7 @@
       "actorId": "b29082e1-f1a4-4668-a0e3-9b7a536f30e0"
     }
   ],
-  "duration": {
-    "hours": "1",
-    "minutes": "43"
-  },
-  "releaseDate": "2008-12-01",
-  "trailer": "6QFcZohER3s"
+  "duration": 103,
+  "trailer": "6QFcZohER3s",
+  "year": 2008
 }

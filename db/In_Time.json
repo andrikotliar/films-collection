@@ -34,7 +34,7 @@
     },
     {
       "name": "Top 10",
-      "order": 7
+      "order": 6
     }
   ],
   "type": [
@@ -74,10 +74,7 @@
       "actorId": "69841fe0-8f2e-474d-80c2-21a13f49e365"
     }
   ],
-  "duration": {
-    "hours": "1",
-    "minutes": "49"
-  },
-  "releaseDate": "2011-10-01",
-  "trailer": "fdadZ_KrZVw"
+  "duration": 109,
+  "trailer": "fdadZ_KrZVw",
+  "year": 2011
 }

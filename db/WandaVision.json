@@ -7,10 +7,10 @@
     "Drama"
   ],
   "production": [
-    "Disney+",
+    "Disney Plus",
     "Marvel Studios"
   ],
-  "createdBy": [
+  "directedBy": [
     "Matt Shakman"
   ],
   "producedBy": "Chuck Hayward",
@@ -53,72 +53,63 @@
           "episode": 1,
           "title": "Filmed Before a Live Studio Audience",
           "directedBy": "Matt Shakman",
-          "writtenBy": "Jac Schaeffer",
-          "releaseDate": "2021-01-15"
+          "writtenBy": "Jac Schaeffer"
         },
         {
           "episodeOverall": 2,
           "episode": 2,
           "title": "Don't Touch That Dial",
           "directedBy": "Matt Shakman",
-          "writtenBy": "Gretchen Enders",
-          "releaseDate": "2021-01-15"
+          "writtenBy": "Gretchen Enders"
         },
         {
           "episodeOverall": 3,
           "episode": 3,
           "title": "Now in Color",
           "directedBy": "Matt Shakman",
-          "writtenBy": "Megan McDonnell",
-          "releaseDate": "2021-01-22"
+          "writtenBy": "Megan McDonnell"
         },
         {
           "episodeOverall": 4,
           "episode": 4,
           "title": "We Interrupt This Program",
           "directedBy": "Matt Shakman",
-          "writtenBy": "Bobak Esfarjani, Megan McDonnell",
-          "releaseDate": "2021-01-29"
+          "writtenBy": "Bobak Esfarjani, Megan McDonnell"
         },
         {
           "episodeOverall": 5,
           "episode": 5,
           "title": "On a Very Special Episode...",
           "directedBy": "Matt Shakman",
-          "writtenBy": "Peter Cameron, Mackenzie Dohr",
-          "releaseDate": "2021-02-05"
+          "writtenBy": "Peter Cameron, Mackenzie Dohr"
         },
         {
           "episodeOverall": 6,
           "episode": 6,
           "title": "All-New Halloween Spooktacular!",
           "directedBy": "Matt Shakman",
-          "writtenBy": "Chuck Hayward, Peter Cameron",
-          "releaseDate": "2021-02-12"
+          "writtenBy": "Chuck Hayward, Peter Cameron"
         },
         {
           "episodeOverall": 7,
           "episode": 7,
           "title": "Breaking the Fourth Wall",
           "directedBy": "Matt Shakman",
-          "writtenBy": "Cameron Squires",
-          "releaseDate": "2021-02-19"
+          "writtenBy": "Cameron Squires"
         },
         {
           "episodeOverall": 8,
           "episode": 8,
           "title": "Previously On",
           "directedBy": "Matt Shakman",
-          "writtenBy": "Laura Donney",
-          "releaseDate": "2021-02-26"
+          "writtenBy": "Laura Donney"
         },
         {
           "episodeOverall": 9,
           "episode": 9,
           "title": "The Series Finale",
           "directedBy": "Matt Shakman",
-          "writtenBy": "Jac Schaeffer",
-          "releaseDate": "2021-03-05"
+          "writtenBy": "Jac Schaeffer"
         }
       ],
       "trailer": "sj9J2ecsSpo"
@@ -174,9 +165,6 @@
       "actorId": "8ef45223-2a1b-42cc-98e8-db6637e88ca4"
     }
   ],
-  "duration": {
-    "hours": "05",
-    "minutes": "50"
-  },
-  "releaseDate": "2021-01-01"
+  "duration": 350,
+  "year": 2021
 }

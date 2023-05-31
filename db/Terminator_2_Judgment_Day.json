@@ -38,7 +38,7 @@
     },
     {
       "name": "Top 10",
-      "order": "4"
+      "order": 3
     }
   ],
   "awards": [
@@ -120,10 +120,7 @@
       "actorId": "3bba759a-ae0f-46e9-92e7-0e11c3c1bacd"
     }
   ],
-  "duration": {
-    "hours": "2",
-    "minutes": "17"
-  },
-  "releaseDate": "1991-07-01",
-  "trailer": "-W8CegO_Ixw"
+  "duration": 137,
+  "trailer": "-W8CegO_Ixw",
+  "year": 1991
 }

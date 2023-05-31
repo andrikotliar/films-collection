@@ -1,8 +1,10 @@
-import { getYearFromReleaseDate } from "./getYearFromReleaseDate";
-
 const handleSearchFilter = (searchQuery, title) => {
-  const reg = new RegExp(searchQuery, "gi");
-  return reg.test(title);
+  const lowerTitle = title.toLowerCase();
+  const words = searchQuery.split(' ');
+  const exclude = ['the', 'of', 'in', 'on', 'and', 'vs', 'or'];
+  const filteredWords = words.filter((w) => !exclude.includes(w));
+
+  return filteredWords.every((w) => w.length > 2 && lowerTitle.includes(w));
 };
 
 export const filterFilms = (list, filterParams) => {
@@ -12,6 +14,7 @@ export const filterFilms = (list, filterParams) => {
 
   const params = { ...filterParams };
   delete params.page;
+  delete params.actorName;
 
   const filteredFilms = list.filter((film) => {
     const match = Object.keys(params).every(property => {
@@ -20,16 +23,15 @@ export const filterFilms = (list, filterParams) => {
       }
 
       if(property === 'year') {
-        const filmYear = getYearFromReleaseDate(film.releaseDate);
-        return filmYear === Number(params.year);
+        return film.year === Number(params[property]);
       }
 
       if(property === 'collections') {
         return film.collections.some(collection => collection.name === params.collections);
       }
 
-      if(property === 'actor') {
-        const hasActorId = film.cast.find((actor) => actor.actorId === params.actor);
+      if(property === 'actorId') {
+        const hasActorId = film.cast.find((actor) => actor.actorId === params.actorId);
         if(hasActorId) {
           return true;
         }
@@ -62,7 +64,7 @@ export const filterFilms = (list, filterParams) => {
       }
     });
 
-    if(filmsWithMinifiedCollections[0].collections?.order) {
+    if(filmsWithMinifiedCollections[0]?.collections?.order) {
       return filmsWithMinifiedCollections.sort(
         (a, b) => a.collections.order > b.collections.order ? 1 : -1
       );

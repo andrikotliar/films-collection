@@ -1,0 +1,127 @@
+:root {
+  --main-color: #006db7;
+  --main-color-rgb: 0, 109, 183;
+  --green: #00B5C6;
+  --light-yellow: #ffedd6;
+
+  --main-gradient: linear-gradient(45deg, var(--main-color), var(--green));
+  --app-border: 1px solid #ddd;
+
+  --main-padding: 20px;
+  --header-height: 60px;
+  --app-height: calc(100vh - var(--header-height));
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url("./assets/fonts/Roboto-Regular.woff2");
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url("./assets/fonts/Roboto-Bold.woff2");
+  font-weight: bold;
+}
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-y: scroll;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+li {
+  list-style: none;
+}
+button {
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+button[disabled] {
+  cursor: default;
+}
+input, select {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+select, option {
+  background-color: transparent;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 var(--main-padding);
+}
+.page-title span {
+  color: var(--main-color)
+}
+.button {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: var(--main-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.button:hover {
+  background-color: var(--green);
+}
+.button__icon {
+  width: 20px;
+  height: 20px;
+}
+@media (hover: hover) {
+  .custom-scroll {
+    scrollbar-color: var(--main-color) #dbdbdb;
+  }
+  .custom-scroll::-webkit-scrollbar {
+    background-color: #fff;
+    height: 8px;
+    width: 4px;
+    transition: 0.3s;
+    border-radius: 50px;
+  }
+  .custom-scroll::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 50px;
+    transition: 0.3s;
+  }
+  .custom-scroll:hover::-webkit-scrollbar {
+    background-color: #f2f2f2;
+  }
+  .custom-scroll-visible::-webkit-scrollbar {
+    background-color: #f2f2f2;
+  }
+  .custom-scroll:hover::-webkit-scrollbar-thumb {
+    background-image: var(--main-gradient);
+  }
+  .custom-scroll-visible::-webkit-scrollbar-thumb {
+    background-image: var(--main-gradient);
+  }
+}
+@media (hover: none) {
+  .custom-scroll {
+    scrollbar-width: none;
+  }
+  .custom-scroll::-webkit-scrollbar {
+    display: none;
+  }
+}

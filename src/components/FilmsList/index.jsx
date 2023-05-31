@@ -1,8 +1,9 @@
-import { Link } from "react-router-dom";
 import './styles.css';
+import { Link } from "react-router-dom";
 import { useFilmsContext } from "@/context/filmsContext";
-import { Pager, SelectedFilters } from "@/components";
-import { getYearFromReleaseDate } from "@/heplers";
+import { Loader, Pager } from "@/components";
+import { useEffect } from "react";
+import ListHeader from '../ListHeader';
 
 const FilmsList = () => {
   const {
@@ -10,25 +11,15 @@ const FilmsList = () => {
     isFilmsLoading,
   } = useFilmsContext();
 
-  if(isFilmsLoading) {
-    return (
-      <div className="data">
-        Loading...
-      </div>
-    );
-  }
-
-  if(films.length === 0) {
-    return (
-      <div className="list-empty">
-        <p>Films not found.</p>
-      </div>
-    )
-  }
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [films])
 
   return (
-    <div className="list-container custom-scroll custom-scroll-visible">
-      <SelectedFilters />
+    <div className="list-container">
+      <ListHeader />
+      {isFilmsLoading && <Loader />}
+      {films.length === 0 && <p className="list-empty">Films not found.</p>}
       <div className="list">
         {films.map(film => (
           <Link
@@ -51,15 +42,12 @@ const FilmsList = () => {
               {film.title}
             </h3>
             <p className="list-film__subtitle">
-              {getYearFromReleaseDate(film.releaseDate)}
+              {film.year}
             </p>
           </Link>
         ))}
       </div>
       <Pager />
-      {!isFilmsLoading && !films.length && (
-        <span>Films not found</span>
-      )}
     </div>
   );
 };

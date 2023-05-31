@@ -30,7 +30,7 @@
   "synopsis": "A soldier fighting aliens gets to relive the same day over and over again, the day restarting every time he dies.",
   "collections": [
     {
-      "name": "Invaders"
+      "name": "Invasion"
     }
   ],
   "awards": [
@@ -140,10 +140,7 @@
       "actorId": "bebd7a91-14d2-47dd-ab7b-4d53049d4dce"
     }
   ],
-  "duration": {
-    "hours": "1",
-    "minutes": "53"
-  },
-  "releaseDate": "2014-05-01",
-  "trailer": "vw61gCe2oqI"
+  "duration": 113,
+  "trailer": "vw61gCe2oqI",
+  "year": 2014
 }

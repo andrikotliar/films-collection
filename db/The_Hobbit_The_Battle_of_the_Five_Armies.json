@@ -31,7 +31,7 @@
   "synopsis": "Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness.",
   "collections": [
     {
-      "name": "Middle-Earth"
+      "name": "Middle-Earth Universe"
     }
   ],
   "awards": [
@@ -50,7 +50,7 @@
     }
   ],
   "parts": {
-    "title": "Middle-Earth",
+    "title": "Middle-Earth Universe",
     "part": 3
   },
   "type": [
@@ -226,10 +226,7 @@
       "actorId": "33d9cb34-b243-4115-8fc3-4e073d89206a"
     }
   ],
-  "duration": {
-    "hours": "2",
-    "minutes": "24"
-  },
-  "releaseDate": "2014-12-01",
-  "trailer": "iVAgTiBrrDA"
+  "duration": 144,
+  "trailer": "iVAgTiBrrDA",
+  "year": 2014
 }

@@ -10,7 +10,7 @@
     "Netflix",
     "Riot Games"
   ],
-  "createdBy": [
+  "directedBy": [
     "Christian Linke",
     "Alex Yee"
   ],
@@ -39,72 +39,63 @@
           "episodeOverall": 1,
           "title": "Welcome to the Playground",
           "directedBy": "Pascal Charrue, Arnaud Delord",
-          "writtenBy": "Christian Linke, Alex Yee",
-          "releaseDate": "2021-11-06"
+          "writtenBy": "Christian Linke, Alex Yee"
         },
         {
           "episode": 2,
           "episodeOverall": 2,
           "title": "Some Mysteries Are Better Left Unsolved",
           "directedBy": "Pascal Charrue, Arnaud Delord",
-          "writtenBy": "Christian Linke, Alex Yee",
-          "releaseDate": "2021-11-06"
+          "writtenBy": "Christian Linke, Alex Yee"
         },
         {
           "episode": 3,
           "episodeOverall": 3,
           "title": "The Base Violence Necessary for Change",
           "directedBy": "Pascal Charrue, Arnaud Delord",
-          "writtenBy": "Ash Brannon",
-          "releaseDate": "2021-11-06"
+          "writtenBy": "Ash Brannon"
         },
         {
           "episode": 4,
           "episodeOverall": 4,
           "title": "Happy Progress Day!",
           "directedBy": "Pascal Charrue, Arnaud Delord",
-          "writtenBy": "David Dunne",
-          "releaseDate": "2021-11-13"
+          "writtenBy": "David Dunne"
         },
         {
           "episode": 5,
           "episodeOverall": 5,
           "title": "Everybody Wants to Be My Enemy",
           "directedBy": "Pascal Charrue, Arnaud Delord",
-          "writtenBy": "Amanda Overton",
-          "releaseDate": "2021-11-13"
+          "writtenBy": "Amanda Overton"
         },
         {
           "episode": 6,
           "episodeOverall": 6,
           "title": "When These Walls Come Tumbling Down",
           "directedBy": "Pascal Charrue, Arnaud Delord",
-          "writtenBy": "Alex Yee",
-          "releaseDate": "2021-11-13"
+          "writtenBy": "Alex Yee"
         },
         {
           "episode": 7,
           "episodeOverall": 7,
           "title": "The Boy Saviour",
           "directedBy": "Pascal Charrue, Arnaud Delord",
-          "writtenBy": "Nick Luddington",
-          "releaseDate": "2021-11-20"
+          "writtenBy": "Nick Luddington"
         },
         {
           "episode": 8,
           "episodeOverall": 8,
           "title": "Oil and Water",
           "directedBy": "Pascal Charrue, Arnaud Delord",
-          "writtenBy": "Ben St. John, Mollie St. John",
-          "releaseDate": "2021-11-20"
+          "writtenBy": "Ben St. John, Mollie St. John"
         },
         {
           "episode": 9,
           "episodeOverall": 9,
           "title": "The Monster You Created",
           "directedBy": "Pascal Charrue, Arnaud Delord",
-          "writtenBy": "Christian Linke, Alex Yee",
-          "releaseDate": "2021-11-20"
+          "writtenBy": "Christian Linke, Alex Yee"
         }
       ],
       "trailer": "3Svs_hl897c"
@@ -200,9 +191,6 @@
       "actorId": "38b319e3-5be2-4d16-928f-53b584d34b52"
     }
   ],
-  "duration": {
-    "hours": "06",
-    "minutes": "50"
-  },
-  "releaseDate": "2021-11-01"
+  "duration": 410,
+  "year": 2021
 }

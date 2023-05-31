@@ -145,10 +145,7 @@
       "actorId": "e9964030-afa3-42d4-ab91-9c1fd7c0f177"
     }
   ],
-  "duration": {
-    "hours": "2",
-    "minutes": "03"
-  },
-  "releaseDate": "2004-05-01",
-  "trailer": "Ku_IseK3xTc"
+  "duration": 123,
+  "trailer": "Ku_IseK3xTc",
+  "year": 2004
 }

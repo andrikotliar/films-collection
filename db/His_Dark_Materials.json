@@ -9,7 +9,7 @@
   "production": [
     "HBO"
   ],
-  "createdBy": [
+  "directedBy": [
     "Amit Gupta",
     "Weronika Tofilska",
     "Jamie Childs",
@@ -42,64 +42,56 @@
           "episode": 1,
           "title": "Lyra's Jordan",
           "directedBy": "Tom Hooper",
-          "writtenBy": "Jack Thorne",
-          "releaseDate": "2019-11-03"
+          "writtenBy": "Jack Thorne"
         },
         {
           "episodeOverall": 2,
           "episode": 2,
           "title": "The Idea of North",
           "directedBy": "Tom Hooper",
-          "writtenBy": "Jack Thorne",
-          "releaseDate": "2019-11-10"
+          "writtenBy": "Jack Thorne"
         },
         {
           "episodeOverall": 3,
           "episode": 3,
           "title": "The Spies",
           "directedBy": "Dawn Shadforth",
-          "writtenBy": "Jack Thorne",
-          "releaseDate": "2019-11-17"
+          "writtenBy": "Jack Thorne"
         },
         {
           "episodeOverall": 4,
           "episode": 4,
           "title": "Armour",
           "directedBy": "Otto Bathurst",
-          "writtenBy": "Jack Thorne",
-          "releaseDate": "2019-11-24"
+          "writtenBy": "Jack Thorne"
         },
         {
           "episodeOverall": 5,
           "episode": 5,
           "title": "The Lost Boy",
           "directedBy": "Otto Bathurst",
-          "writtenBy": "Jack Thorne",
-          "releaseDate": "2019-12-01"
+          "writtenBy": "Jack Thorne"
         },
         {
           "episodeOverall": 6,
           "episode": 6,
           "title": "The Daemon-Cages",
           "directedBy": "Euros Lyn",
-          "writtenBy": "Jack Thorne",
-          "releaseDate": "2019-12-08"
+          "writtenBy": "Jack Thorne"
         },
         {
           "episodeOverall": 7,
           "episode": 7,
           "title": "The Fight to the Death",
           "directedBy": "Jamie Childs",
-          "writtenBy": "Jack Thorne",
-          "releaseDate": "2019-12-15"
+          "writtenBy": "Jack Thorne"
         },
         {
           "episodeOverall": 8,
           "episode": 8,
           "title": "Betrayal",
           "directedBy": "Jamie Childs",
-          "writtenBy": "Jack Thorne",
-          "releaseDate": "2019-12-22"
+          "writtenBy": "Jack Thorne"
         }
       ],
       "trailer": "APduGe1eLVI"
@@ -112,56 +104,49 @@
           "episode": 1,
           "title": "The City of Magpies",
           "directedBy": "Jamie Childs",
-          "writtenBy": "Jack Thorne",
-          "releaseDate": "2020-11-08"
+          "writtenBy": "Jack Thorne"
         },
         {
           "episodeOverall": 10,
           "episode": 2,
           "title": "The Cave",
           "directedBy": "Jamie Childs",
-          "writtenBy": "Jack Thorne, Francesca Gardiner",
-          "releaseDate": "2020-11-15"
+          "writtenBy": "Jack Thorne, Francesca Gardiner"
         },
         {
           "episodeOverall": 11,
           "episode": 3,
           "title": "Theft",
           "directedBy": "Leanne Welham",
-          "writtenBy": "Jack Thorne, Sarah Quintrell",
-          "releaseDate": "2020-11-22"
+          "writtenBy": "Jack Thorne, Sarah Quintrell"
         },
         {
           "episodeOverall": 12,
           "episode": 4,
           "title": "Tower of the Angels",
           "directedBy": "Leanne Welham",
-          "writtenBy": "Jack Thorne, Namsi Khan",
-          "releaseDate": "2020-11-29"
+          "writtenBy": "Jack Thorne, Namsi Khan"
         },
         {
           "episodeOverall": 13,
           "episode": 5,
           "title": "The Scholar",
           "directedBy": "Leanne Welham",
-          "writtenBy": "Francesca Gardiner",
-          "releaseDate": "2020-12-06"
+          "writtenBy": "Francesca Gardiner"
         },
         {
           "episodeOverall": 14,
           "episode": 6,
           "title": "Malice",
           "directedBy": "Jamie Childs",
-          "writtenBy": "Jack Thorne, Lydia Adetunji",
-          "releaseDate": "2020-12-13"
+          "writtenBy": "Jack Thorne, Lydia Adetunji"
         },
         {
           "episodeOverall": 15,
           "episode": 7,
           "title": "Æsahættr",
           "directedBy": "Jamie Childs",
-          "writtenBy": "Jack Thorne",
-          "releaseDate": "2020-12-20"
+          "writtenBy": "Jack Thorne"
         }
       ],
       "trailer": "3CdQm6gLHUM"
@@ -265,9 +250,6 @@
       "actorId": "08629fb7-bcd1-4abb-adf5-c18546a279c8"
     }
   ],
-  "duration": {
-    "hours": "15",
-    "minutes": "00"
-  },
-  "releaseDate": "2019-11-01"
+  "duration": 900,
+  "year": 2019
 }

@@ -9,7 +9,7 @@
   "production": [
     "Netflix"
   ],
-  "createdBy": [
+  "directedBy": [
     "Lauren Schmidt"
   ],
   "producedBy": "Mike Ostrowski",
@@ -38,64 +38,56 @@
           "episode": 1,
           "title": "The End's Beginning",
           "directedBy": "Alik Sakharov",
-          "writtenBy": "Lauren Schmidt Hissrich",
-          "releaseDate": "2019-12-20"
+          "writtenBy": "Lauren Schmidt Hissrich"
         },
         {
           "episodeOverall": 2,
           "episode": 2,
           "title": "Four Marks",
           "directedBy": "Alik Sakharov",
-          "writtenBy": "Jenny Klein",
-          "releaseDate": "2019-12-20"
+          "writtenBy": "Jenny Klein"
         },
         {
           "episodeOverall": 3,
           "episode": 3,
           "title": "Betrayer Moon",
           "directedBy": "Alex Garcia Lopez",
-          "writtenBy": "Beau DeMayo",
-          "releaseDate": "2019-12-20"
+          "writtenBy": "Beau DeMayo"
         },
         {
           "episodeOverall": 4,
           "episode": 4,
           "title": "Of Banquets, Bastards, Burials",
           "directedBy": "Alex Garcia Lopez",
-          "writtenBy": "Declan de Barra",
-          "releaseDate": "2019-12-20"
+          "writtenBy": "Declan de Barra"
         },
         {
           "episodeOverall": 5,
           "episode": 5,
           "title": "Bottled Appetites",
           "directedBy": "Charlotte Brändström",
-          "writtenBy": "Sneha Koorse",
-          "releaseDate": "2019-12-20"
+          "writtenBy": "Sneha Koorse"
         },
         {
           "episodeOverall": 6,
           "episode": 6,
           "title": "Rare Species",
           "directedBy": "Charlotte Brändström",
-          "writtenBy": "Haily Hall",
-          "releaseDate": "2019-12-20"
+          "writtenBy": "Haily Hall"
         },
         {
           "episodeOverall": 7,
           "episode": 7,
           "title": "Before a Fall",
           "directedBy": "Alik Sakharov, Marc Jobst",
-          "writtenBy": "Mike Ostrowski",
-          "releaseDate": "2019-12-20"
+          "writtenBy": "Mike Ostrowski"
         },
         {
           "episodeOverall": 8,
           "episode": 8,
           "title": "Much More",
           "directedBy": "Marc Jobst",
-          "writtenBy": "Lauren Schmidt Hissrich",
-          "releaseDate": "2019-12-20"
+          "writtenBy": "Lauren Schmidt Hissrich"
         }
       ],
       "trailer": "ndl1W4ltcmg"
@@ -108,64 +100,56 @@
           "episode": 1,
           "title": "A Grain of Truth",
           "directedBy": "Stephen Surjik",
-          "writtenBy": "Declan de Barra",
-          "releaseDate": "2021-12-17"
+          "writtenBy": "Declan de Barra"
         },
         {
           "episodeOverall": 10,
           "episode": 2,
           "title": "Kaer Morhen",
           "directedBy": "Stephen Surjik",
-          "writtenBy": "Beau DeMayo",
-          "releaseDate": "2021-12-17"
+          "writtenBy": "Beau DeMayo"
         },
         {
           "episodeOverall": 11,
           "episode": 3,
           "title": "What Is Lost",
           "directedBy": "Sarah O'Gorman",
-          "writtenBy": "Lauren Schmidt Hissrich, Clare Higgins",
-          "releaseDate": "2021-12-17"
+          "writtenBy": "Lauren Schmidt Hissrich, Clare Higgins"
         },
         {
           "episodeOverall": 12,
           "episode": 4,
           "title": "Redanian Intelligence",
           "directedBy": "Sarah O'Gorman",
-          "writtenBy": "Sneha Koorse",
-          "releaseDate": "2021-12-17"
+          "writtenBy": "Sneha Koorse"
         },
         {
           "episodeOverall": 13,
           "episode": 5,
           "title": "Turn Your Back",
           "directedBy": "Ed Bazalgette",
-          "writtenBy": "Haily Hall",
-          "releaseDate": "2021-12-17"
+          "writtenBy": "Haily Hall"
         },
         {
           "episodeOverall": 14,
           "episode": 6,
           "title": "Dear Friend",
           "directedBy": "Louise Hooper",
-          "writtenBy": "Matthew D'Ambrosio",
-          "releaseDate": "2021-12-17"
+          "writtenBy": "Matthew D'Ambrosio"
         },
         {
           "episodeOverall": 15,
           "episode": 7,
           "title": "Voleth Meir",
           "directedBy": "Louise Hooper",
-          "writtenBy": "Mike Ostrowski",
-          "releaseDate": "2021-12-17"
+          "writtenBy": "Mike Ostrowski"
         },
         {
           "episodeOverall": 16,
           "episode": 8,
           "title": "Family",
           "directedBy": "Ed Bazalgette",
-          "writtenBy": "Lauren Schmidt Hissrich",
-          "releaseDate": "2021-12-17"
+          "writtenBy": "Lauren Schmidt Hissrich"
         }
       ],
       "trailer": "2aMVzFlApa0"
@@ -245,9 +229,6 @@
       "actorId": "0b2e1797-7378-4e20-9828-a27a1e44603a"
     }
   ],
-  "duration": {
-    "hours": "08",
-    "minutes": "00"
-  },
-  "releaseDate": "2019-12-01"
+  "duration": 480,
+  "year": 2019
 }

@@ -1,6 +1,7 @@
 import { filterFilms, pager } from '../heplers';
 import { createContext, useContext, useEffect, useState } from 'react';
 import { useFilter } from '@/hooks/useFilter';
+import { filmsSettings } from '@/constants';
 
 const FilmsContext = createContext();
 
@@ -14,7 +15,7 @@ const FilmsProvider = ({ children }) => {
   const [ filterParams, setSearchParams ] = useFilter();
   const [ pageData, setPageData ] = useState({
     from: 0,
-    to: 24
+    to: filmsSettings.perPage
   });
 
   const fetchFilms = async () => {
@@ -30,7 +31,6 @@ const FilmsProvider = ({ children }) => {
 
   useEffect(() => {
     if(initialFilmsList.length) {
-      window.scrollTo(0, 0);
       const filteredFilms = filterFilms(initialFilmsList, filterParams);
       setFilmsCount(filteredFilms.length);
       const pageData = pager(filteredFilms, filterParams.page || 1);

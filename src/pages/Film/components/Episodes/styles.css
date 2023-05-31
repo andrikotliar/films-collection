@@ -1,39 +1,112 @@
-.series {
+.seasons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.seasons__select {
   border: var(--app-border);
+  padding: 5px 20px;
   border-radius: 10px;
+}
+
+.episode {
+  border-bottom: var(--app-border);
   overflow: hidden;
 }
 
-.seasons {
-  display: flex;
-  border-bottom: var(--app-border);
-  background-color: #f2f2f2;
-  overflow-x: auto;
+.episode:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.season-button {
-  padding: 20px;
-  background-color: #fff;
-  
+.episode:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-.season-button--active {
-  color: #fff;
-  font-weight: bold;
-  background-color: var(--base-color);
-}
-
-.episode-data {
-  display: flex;
-  padding: 20px;
-  border-bottom: var(--app-border);
-}
-
-.episode-data:last-child {
+.episode:last-child {
   border-bottom: 0;
 }
 
-.episode-data__main {
+.episode__main {
   display: flex;
+  align-items: center;
   gap: 10px;
+  cursor: pointer;
+  padding-right: 10px;
+  background-color: #f2f2f2;
+  transition: background-color 0.3s ease;
+}
+
+.episode__main:hover {
+  background-color: #ddd;
+}
+
+.episode__numbers {
+  display: flex;
+  border-right: var(--app-border);
+}
+
+.episode__numbers span {
+  padding: 10px 5px;
+  width: 70px;
+  text-align: center;
+}
+
+.episode__numbers--overall {
+  color: #fff;
+  background-image: var(--main-gradient);
+}
+
+.episode__numbers--internal {
+  background-color: var(--light-yellow);
+}
+
+.episode__title {
+  font-weight: normal;
+}
+
+.episode__expand {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+}
+
+.episode__expand svg {
+  transform: rotate(-90deg);
+}
+
+.episode__expand--active svg {
+  transform: rotate(0);
+}
+
+.episode__details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 20px;
+  border-left: 2px solid #f2f2f2;
+  border-right: 2px solid #f2f2f2;
+}
+
+.episode:last-child .episode__details {
+  border-bottom: 2px solid #f2f2f2;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.episode__creator {
+  display: flex;
+  gap: 5px;
+}
+
+.episode__creator span {
+  font-weight: bold;
+}
+
+.episode__creator a {
+  color: var(--main-color);
+  text-decoration: underline;
 }

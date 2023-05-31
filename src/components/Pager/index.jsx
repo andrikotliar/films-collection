@@ -1,6 +1,7 @@
+import './styles.css';
 import { useFilmsContext } from "@/context/filmsContext";
 import classNames from "classnames";
-import './styles.css';
+import { filmsSettings } from "@/constants";
 
 const Pager = () => {
   const {
@@ -9,9 +10,13 @@ const Pager = () => {
     setPage
   } = useFilmsContext();
 
+  if(filmsCount <= filmsSettings.perPage) {
+    return null;
+  }
+
   const pagesList = (filmsCount) => {
     const pageNumbers = [];
-    const pagesCount = filmsCount / 24;
+    const pagesCount = filmsCount / filmsSettings.perPage;
 
     for(let i = 0; i <= pagesCount; i++) {
       pageNumbers.push(i + 1);
@@ -27,7 +32,7 @@ const Pager = () => {
           className={classNames(
             'page-button',
             {
-              'page-button-active': pageNumber === getCurrentPage()
+              'page-button--active': pageNumber === getCurrentPage()
             }
           )}
           key={pageNumber}

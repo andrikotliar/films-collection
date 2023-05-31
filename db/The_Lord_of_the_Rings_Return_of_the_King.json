@@ -31,7 +31,7 @@
   "synopsis": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
   "collections": [
     {
-      "name": "Middle-Earth"
+      "name": "Middle-Earth Universe"
     },
     {
       "name": "Legends"
@@ -103,7 +103,7 @@
     }
   ],
   "parts": {
-    "title": "Middle-Earth",
+    "title": "Middle-Earth Universe",
     "part": 6
   },
   "type": [
@@ -183,10 +183,7 @@
       "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135"
     }
   ],
-  "duration": {
-    "hours": "3",
-    "minutes": "21"
-  },
-  "releaseDate": "2003-12-01",
-  "trailer": "y2rYRu8UW8M"
+  "duration": 201,
+  "trailer": "y2rYRu8UW8M",
+  "year": 2003
 }

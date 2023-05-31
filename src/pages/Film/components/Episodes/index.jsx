@@ -1,40 +1,81 @@
-import classNames from 'classnames';
-import { useState } from 'react';
 import './styles.css';
+import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import classNames from 'classnames';
+import { buildLink } from '@/heplers';
+import { ExpandIcon } from '@/assets/icons';
 
 const Episodes = ({ seasons }) => {
   const [activeSeason, setActiveSeason] = useState(0);
+  const [expandedEpisode, setExpandedEpisode] = useState(null);
+
+  const defineActiveSeason = (event) => {
+    setActiveSeason(event.target.value);
+    if(expandedEpisode !== null) {
+      setExpandedEpisode(null);
+    };
+  };
+
+  const expandEpisode = (episodeTitle, expandedEpisode) => {
+    if(episodeTitle === expandedEpisode) {
+      setExpandedEpisode(null);
+      return;
+    }
+
+    setExpandedEpisode(episodeTitle);
+  }
 
   return (
     <div className="series">
       <div className="seasons">
-        {seasons.map((seasonData, seasonIndex) => (
-          <button
-            className={classNames(
-              'season-button',
-              {
-                'season-button--active': activeSeason === seasonIndex
-              }
-            )}
-            onClick={() => setActiveSeason(seasonIndex)}
-            key={seasonData.season}
-          >
-            Season {seasonData.season}
-          </button>
-        ))}
+        <span>Season:</span>
+        <select
+          className="seasons__select"
+          onChange={defineActiveSeason}
+          disabled={seasons.length === 1}
+        >
+          {seasons.map((seasonData, seasonIndex) => (
+            <option key={seasonData.season} value={seasonIndex}>
+              {seasonData.season}
+            </option>
+          ))}
+        </select>
       </div>
       <div className="episodes">
         {seasons[activeSeason].episodes.map((episode) => (
-          <div
-            className="episode-data"
-            key={episode.title}
-          >
-            <div className="episode-data__main">
-              <span>
-                {episode.episode} [ {episode.episodeOverall} ]
-              </span>
-              <h4 className="episode-data__title">{episode.title}</h4>
+          <div className="episode" key={episode.episodeOverall}>
+            <div
+              className="episode__main"
+              onClick={() => expandEpisode(episode.title, expandedEpisode)}
+              role="button"
+            >
+              <div className="episode__numbers">
+                <span className="episode__numbers--overall">{episode.episodeOverall}</span>
+                <span className="episode__numbers--internal">{episode.episode}</span>
+              </div>
+              <h4 className="episode__title">
+                {episode.title}
+              </h4>
+              <div className={classNames('episode__expand', {
+                'episode__expand--active': expandedEpisode === episode.title
+              })}>
+                <ExpandIcon />
+              </div>
             </div>
+            {expandedEpisode === episode.title && (
+              <div className="episode__details">
+                <div className="episode__creator">
+                  <span>Directed by:</span>
+                  <Link to={buildLink('directedBy', episode.directedBy)}>
+                    {episode.directedBy}
+                  </Link>
+                </div>
+                <div className="episode__creator">
+                  <span>Written by:</span>
+                  <div>{episode.writtenBy}</div>
+                </div>
+              </div>
+            )}
           </div>
         ))}
       </div>

@@ -7,8 +7,10 @@ const Main = () => {
 
   return (
     <div className="main">
-      <Sidebar />
-      <FilmsList />
+      <div className="container main__container">
+        <Sidebar />
+        <FilmsList />
+      </div>
     </div>
   );
 };

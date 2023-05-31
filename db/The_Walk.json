@@ -29,7 +29,7 @@
   "synopsis": "In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream: to walk the immense void between the World Trade Center towers.",
   "collections": [
     {
-      "name": "Life Story"
+      "name": "True Story"
     }
   ],
   "type": [
@@ -109,10 +109,7 @@
       "actorId": "a77201be-537a-4b2c-a15e-c9cc2716da41"
     }
   ],
-  "duration": {
-    "hours": "2",
-    "minutes": "03"
-  },
-  "releaseDate": "2015-09-01",
-  "trailer": "4W6byFcD5uE"
+  "duration": 123,
+  "trailer": "4W6byFcD5uE",
+  "year": 2015
 }

@@ -1,6 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import { Film, Home } from './pages';
-import Admin from './pages/Admin';
+import { Film, Home, InfoPage } from './pages';
 import { Header } from './components';
 
 const App = () => {
@@ -10,7 +9,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/film/:id" element={<Film />} />
-        <Route path="/admin" element={<Admin />} />
+        <Route path="/info" element={<InfoPage />} />
       </Routes>
     </div>
   );

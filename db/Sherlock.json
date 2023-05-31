@@ -10,7 +10,7 @@
   "production": [
     "BBC One"
   ],
-  "createdBy": [
+  "directedBy": [
     "Mark Gatiss",
     "Steven Moffat"
   ],
@@ -56,24 +56,21 @@
           "episode": 1,
           "title": "A Study in Pink",
           "directedBy": "Paul McGuigan",
-          "writtenBy": "Steven Moffat",
-          "releaseDate": "2010-07-25"
+          "writtenBy": "Steven Moffat"
         },
         {
           "episodeOverall": 2,
           "episode": 2,
           "title": "The Blind Banker",
           "directedBy": "Euros Lyn",
-          "writtenBy": "Stephen Thompson",
-          "releaseDate": "2010-08-01"
+          "writtenBy": "Stephen Thompson"
         },
         {
           "episodeOverall": 3,
           "episode": 3,
           "title": "The Great Game",
           "directedBy": "Paul McGuigan",
-          "writtenBy": "Mark Gatiss",
-          "releaseDate": "2010-08-08"
+          "writtenBy": "Mark Gatiss"
         }
       ],
       "trailer": "xK7S9mrFWL4"
@@ -86,24 +83,21 @@
           "episode": 1,
           "title": "A Scandal in Belgravia",
           "directedBy": "Paul McGuigan",
-          "writtenBy": "Steven Moffat",
-          "releaseDate": "2012-01-01"
+          "writtenBy": "Steven Moffat"
         },
         {
           "episodeOverall": 5,
           "episode": 2,
           "title": "The Hounds of Baskerville",
           "directedBy": "Paul McGuigan",
-          "writtenBy": "Mark Gatiss",
-          "releaseDate": "2012-01-08"
+          "writtenBy": "Mark Gatiss"
         },
         {
           "episodeOverall": 6,
           "episode": 3,
           "title": "The Reichenbach Fall",
           "directedBy": "Toby Haynes",
-          "writtenBy": "Stephen Thompson",
-          "releaseDate": "2012-01-15"
+          "writtenBy": "Stephen Thompson"
         }
       ],
       "trailer": "vydmN9pzDzg"
@@ -116,24 +110,21 @@
           "episode": 1,
           "title": "The Empty Hearse",
           "directedBy": "Jeremy Lovering",
-          "writtenBy": "Mark Gatiss",
-          "releaseDate": "2014-01-01"
+          "writtenBy": "Mark Gatiss"
         },
         {
           "episodeOverall": 8,
           "episode": 2,
           "title": "The Sign of Three",
           "directedBy": "Colm McCarthy",
-          "writtenBy": "Stephen Thompson, Steven Moffat, Mark Gatiss",
-          "releaseDate": "2014-01-05"
+          "writtenBy": "Stephen Thompson, Steven Moffat, Mark Gatiss"
         },
         {
           "episodeOverall": 9,
           "episode": 3,
           "title": "His Last Vow",
           "directedBy": "Nick Hurran",
-          "writtenBy": "Steven Moffat",
-          "releaseDate": "2014-01-12"
+          "writtenBy": "Steven Moffat"
         }
       ],
       "trailer": "9UcR9iKArd0"
@@ -146,24 +137,21 @@
           "episode": 1,
           "title": "The Six Thatchers",
           "directedBy": "Rachel Talalay",
-          "writtenBy": "Mark Gatiss",
-          "releaseDate": "2017-01-01"
+          "writtenBy": "Mark Gatiss"
         },
         {
           "episodeOverall": 12,
           "episode": 2,
           "title": "The Lying Detective",
           "directedBy": "Nick Hurran",
-          "writtenBy": "Steven Moffat",
-          "releaseDate": "2017-01-08"
+          "writtenBy": "Steven Moffat"
         },
         {
           "episodeOverall": 13,
           "episode": 3,
           "title": "The Final Problem",
           "directedBy": "Benjamin Caron",
-          "writtenBy": "Mark Gatiss, Steven Moffat",
-          "releaseDate": "2017-01-15"
+          "writtenBy": "Mark Gatiss, Steven Moffat"
         }
       ],
       "trailer": "FOXZgRTfSUA"
@@ -235,9 +223,6 @@
       "actorId": "3df8cd50-093e-4edb-a3d3-b6e4b282a9ec"
     }
   ],
-  "duration": {
-    "hours": "17",
-    "minutes": "00"
-  },
-  "releaseDate": "2010-07-01"
+  "duration": 1020,
+  "year": 2010
 }

@@ -31,6 +31,10 @@
   "collections": [
     {
       "name": "Space"
+    },
+    {
+      "top": 10,
+      "order": 7
     }
   ],
   "type": [
@@ -78,10 +82,7 @@
       "actorId": "e238613f-3004-4897-84e3-fdbcab37d857"
     }
   ],
-  "duration": {
-    "hours": "1",
-    "minutes": "56"
-  },
-  "releaseDate": "2016-12-01",
-  "trailer": "7BWWWQzTpNU"
+  "duration": 116,
+  "trailer": "7BWWWQzTpNU",
+  "year": 2016
 }

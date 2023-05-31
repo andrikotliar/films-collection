@@ -31,11 +31,14 @@
   "synopsis": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
   "collections": [
     {
-      "name": "Avatar Universe"
-    },
-    {
       "name": "Top 10",
       "order": 1
+    },
+    {
+      "name": "Space"
+    },
+    {
+      "name": "Future"
     }
   ],
   "awards": [
@@ -165,14 +168,11 @@
       "actorId": "600178b8-cd25-49fe-8270-07fa8496d076"
     }
   ],
-  "duration": {
-    "hours": "2",
-    "minutes": "42"
-  },
-  "releaseDate": "2009-12-01",
+  "duration": 162,
   "trailer": "5PSNL1qE6VY",
   "parts": {
     "title": "Avatar",
     "part": 1
-  }
+  },
+  "year": 2009
 }

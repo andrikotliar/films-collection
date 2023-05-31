@@ -31,7 +31,7 @@
   "synopsis": "A family man is drafted to fight in a future war where the fate of humanity relies on his ability to confront the past.",
   "collections": [
     {
-      "name": "Invaders"
+      "name": "Invasion"
     },
     {
       "name": "Future"
@@ -98,10 +98,7 @@
       "actorId": "b3679bc1-4677-47a4-8654-f3febe103eb1"
     }
   ],
-  "duration": {
-    "hours": "2",
-    "minutes": "18"
-  },
-  "releaseDate": "2021-07-01",
-  "trailer": "QPistcpGB8o"
+  "duration": 138,
+  "trailer": "QPistcpGB8o",
+  "year": 2021
 }

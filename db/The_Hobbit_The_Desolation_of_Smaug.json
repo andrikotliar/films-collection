@@ -31,7 +31,7 @@
   "synopsis": "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring.",
   "collections": [
     {
-      "name": "Middle-Earth"
+      "name": "Middle-Earth Universe"
     }
   ],
   "awards": [
@@ -43,7 +43,7 @@
     }
   ],
   "parts": {
-    "title": "Middle-Earth",
+    "title": "Middle-Earth Universe",
     "part": 2
   },
   "type": [
@@ -235,10 +235,7 @@
       "actorId": "33d9cb34-b243-4115-8fc3-4e073d89206a"
     }
   ],
-  "duration": {
-    "hours": "2",
-    "minutes": "41"
-  },
-  "releaseDate": "2013-12-01",
-  "trailer": "fnaojlfdUbs"
+  "duration": 161,
+  "trailer": "fnaojlfdUbs",
+  "year": 2013
 }

@@ -1,37 +1,80 @@
-import { useState } from 'react';
-import { CloseIcon, SearchIcon } from '@/assets/icons';
-import { Link } from 'react-router-dom';
-import { Logo } from '@/assets/logos';
-import Search from '@/components/Search';
 import './styles.css';
+import { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { FilterIcon, GridIcon, SearchIcon } from '@/assets/icons';
+import FilmsCollectionLogo from '@/assets/logo/FilmsCollectionLogo';
+import Search from '../Search';
+import classNames from 'classnames';
+import Menu from '../Menu';
+import { useAppContext } from '@/context/appContext';
 
 const Header = () => {
-  const [ isSearchShow, setIsSearchShow ] = useState(false);
+  const { pathname } = useLocation();
+  const [ isSearchVisible, setIsSearchVisible ] = useState(false);
+  const [ isMenuVisible, setIsMenuVisible ] = useState(false);
+  const { isFilterOpen, setIsFilterOpen } = useAppContext();
 
-  const showSearch = () => {
-    setIsSearchShow((prevState) => !prevState);
-  };
+  useEffect(() => {
+    if(isMenuVisible) {
+      setIsMenuVisible(false);
+    }
+  }, [pathname]);
 
   return (
     <header className="header">
-      <Link to="/" className="header__logo">
-        <Logo fill="#006db7" />
-      </Link>
-      <Search
-        className="header__search"
-        showSearch={isSearchShow}
-        changeVisibility={setIsSearchShow}
-      />
-      <nav className="header__navigation">
-        <button
-          className="header__button header__search-button"
-          onClick={showSearch}
-          aria-label="Show search field"
-          title="Search"
-        >
-          {isSearchShow ? <CloseIcon fill="#006db7" /> : <SearchIcon />}
-        </button>
-      </nav>
+      <div className="header__container container">
+        <Link to="/" className="header__logo">
+          <FilmsCollectionLogo />
+        </Link>
+        <div className="header__actions">
+          <button
+            className="header__button header__search-button"
+            onClick={() => {
+              setIsSearchVisible(!isSearchVisible);
+              setIsFilterOpen(false);
+              setIsMenuVisible(false);
+            }}
+          >
+            <SearchIcon />
+          </button>
+          {pathname === '/' ? (
+            <button
+              className="header__filter-button"
+              onClick={() => {
+                setIsFilterOpen(!isFilterOpen);
+                setIsSearchVisible(false);
+                setIsMenuVisible(false);
+              }}
+            >
+              <div className="header__button-icon">
+                <FilterIcon />
+              </div>
+              <span>Filter</span>
+            </button>
+          ) : (
+            <Link to="/" className="header__filter-button">
+              <div className="header__button-icon">
+                <GridIcon />
+              </div>
+              <span>Films</span>
+            </Link>
+          )}
+          <Search isOpen={isSearchVisible} />
+          <button
+            className={classNames('header__menu-button', {
+              'header__menu-button--active': isMenuVisible
+            })}
+            onClick={() => {
+              setIsMenuVisible(!isMenuVisible);
+              setIsFilterOpen(false);
+              setIsSearchVisible(false);
+            }}
+          >
+            <span></span>
+          </button>
+        </div>
+        <Menu isActive={isMenuVisible} />
+      </div>
     </header>
   );
 };
