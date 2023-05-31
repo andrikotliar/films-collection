@@ -1,6 +1,6 @@
-import { filterFilms, pager } from '../heplers';
 import { createContext, useContext, useEffect, useState } from 'react';
-import { useFilter } from '@/hooks/useFilter';
+import { filterFilms, pager } from '@/heplers';
+import { useFilter } from '@/hooks';
 import { filmsSettings } from '@/constants';
 
 const FilmsContext = createContext();
