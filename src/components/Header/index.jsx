@@ -1,7 +1,7 @@
 import './styles.css';
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { FilterIcon, SearchIcon } from '@/assets/icons';
+import { FilterIcon, GridIcon, SearchIcon } from '@/assets/icons';
 import FilmsCollectionLogo from '@/assets/logo/FilmsCollectionLogo';
 import Search from '../Search';
 import classNames from 'classnames';
@@ -37,19 +37,28 @@ const Header = () => {
           >
             <SearchIcon />
           </button>
-          <button
-            className="header__filter-button"
-            onClick={() => {
-              setIsFilterOpen(!isFilterOpen);
-              setIsSearchVisible(false);
-              setIsMenuVisible(false);
-            }}
-          >
-            <div className="header__button-icon">
-              <FilterIcon />
-            </div>
-            <span>Filter</span>
-          </button>
+          {pathname === '/' ? (
+            <button
+              className="header__filter-button"
+              onClick={() => {
+                setIsFilterOpen(!isFilterOpen);
+                setIsSearchVisible(false);
+                setIsMenuVisible(false);
+              }}
+            >
+              <div className="header__button-icon">
+                <FilterIcon />
+              </div>
+              <span>Filter</span>
+            </button>
+          ) : (
+            <Link to="/" className="header__filter-button">
+              <div className="header__button-icon">
+                <GridIcon />
+              </div>
+              <span>Films</span>
+            </Link>
+          )}
           <Search isOpen={isSearchVisible} />
           <button
             className={classNames('header__menu-button', {

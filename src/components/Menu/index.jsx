@@ -7,22 +7,26 @@ const menu = [
   {
     title: 'Home',
     route: '/',
-    icon: <HomeIcon />
+    icon: <HomeIcon />,
+    visible: true
   },
   {
     title: 'Statistic',
     route: '/stats',
-    icon: <StatsIcon />
+    icon: <StatsIcon />,
+    visible: false
   },
   {
     title: 'Information',
     route: '/info',
-    icon: <InfoIcon />
+    icon: <InfoIcon />,
+    visible: true
   },
   {
     title: 'Admin',
     route: '/admin',
-    icon: <AdminIcon />
+    icon: <AdminIcon />,
+    visible: false
   },
 ];
 
@@ -33,7 +37,7 @@ const Menu = ({ isActive }) => {
     <div className={classNames('menu', {
       'menu--open': isActive
     })}>
-      {menu.map((item) => (
+      {menu.map((item) => item.visible && (
         <Link
           className={classNames('menu__link', {
             'menu__link--active': pathname === item.route

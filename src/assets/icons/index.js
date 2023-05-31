@@ -12,6 +12,7 @@ import StatsIcon from './StatsIcon';
 import InfoIcon from './InfoIcon';
 import HomeIcon from './HomeIcon';
 import AdminIcon from './AdminIcon';
+import GridIcon from './GridIcon';
 
 export {
   CloseIcon,
@@ -27,5 +28,6 @@ export {
   StatsIcon,
   InfoIcon,
   HomeIcon,
-  AdminIcon
+  AdminIcon,
+  GridIcon
 };

@@ -9,6 +9,7 @@ import { imageFallbacks } from '@/constants';
 const Cast = ({ cast }) => {
   const { actors } = useActorsContext();
   const [ fullCastData, setFullCastData ] = useState([]);
+  const isCharacterImagesEnabled = import.meta.env.VITE_CHARACTER_IMAGES;  
 
   const handleImageError = (event, image) => {
     event.currentTarget.src = image;
@@ -46,13 +47,15 @@ const Cast = ({ cast }) => {
               </p>
             </div>
           </div>
-          <div className="actor__character">
-            <img
-              src={actor.character.imageUrl}
-              alt={actor.character.name}
-              onError={(e) => handleImageError(e, imageFallbacks.noCharacterImage)}
-            />
-          </div>
+          {isCharacterImagesEnabled && isCharacterImagesEnabled !== 'disabled' && (
+            <div className="actor__character">
+              <img
+                src={actor.character.imageUrl}
+                alt={actor.character.name}
+                onError={(e) => handleImageError(e, imageFallbacks.noCharacterImage)}
+              />
+            </div>
+          )}
         </div>
       )) : (
         <div>

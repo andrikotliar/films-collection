@@ -1,7 +1,6 @@
 .cast {
-  --cols: 5;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 30px;
 }
 
@@ -14,7 +13,6 @@
 .actor__header {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
 }
 .actor__photo {
   font-size: 0;
@@ -41,6 +39,7 @@
 }
 
 .actor__character {
+  margin-top: 10px;
   border-radius: 10px;
   overflow: hidden;
 }
