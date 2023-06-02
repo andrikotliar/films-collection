@@ -1,10 +1,15 @@
-import { createContext, useContext, useEffect, useState } from 'react';
+import { FC, PropsWithChildren, createContext, useContext, useEffect, useState } from 'react';
+import { Actor } from '@/types';
 
-const ActorsContext = createContext();
+type ActorsContextType = {
+  actors: Actor[];
+}
+
+const ActorsContext = createContext<ActorsContextType>({} as ActorsContextType);
 
 export const useActorsContext = () => useContext(ActorsContext);
 
-const ActorsProvider = ({ children }) => {
+const ActorsProvider: FC<PropsWithChildren> = ({ children }) => {
   const [ actors, setActors ] = useState([]);
 
   const fetchActors = async () => {

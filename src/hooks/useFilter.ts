@@ -1,11 +1,11 @@
 import { getFilterParams } from "@/heplers";
-import { UnknwonObject } from "@/types";
+import { UnknownObject } from "@/types";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
-export const useFilter = (): [UnknwonObject, any] => {
+export const useFilter = (): [UnknownObject, any] => {
   const [ searchParams, setSearchParams ] = useSearchParams();
-  const [ filterParams, setFilterParams ] = useState<UnknwonObject>({});
+  const [ filterParams, setFilterParams ] = useState<UnknownObject>({});
 
   useEffect(() => {
     const filterParams = getFilterParams(searchParams);

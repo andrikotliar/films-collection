@@ -1,8 +1,15 @@
 import './styles.css';
 import Poster from "../Poster";
 import Trailer from "../Trailer";
+import { FC } from 'react';
 
-const FilmMedia = ({
+type FilmMediaProps = {
+  poster: string;
+  title: string;
+  trailer: string;
+}
+
+const FilmMedia: FC<FilmMediaProps> = ({
   poster,
   title,
   trailer

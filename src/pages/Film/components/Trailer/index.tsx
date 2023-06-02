@@ -1,10 +1,10 @@
 import './styles.css';
 import { PlayIcon } from '@/assets/icons';
-import { useState } from 'react';
+import { FC, useState } from 'react';
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
-const Trailer = ({ trailer }) => {
+const Trailer: FC<{ trailer: string }> = ({ trailer }) => {
   const [ showTrailer, setShowTrailer ] = useState(false);
   const { id } = useParams();
 

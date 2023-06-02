@@ -1,6 +1,7 @@
+import { FC } from 'react';
 import './styles.css'
 
-const Synopsis = ({ text }) => {
+const Synopsis: FC<{ text: string }> = ({ text }) => {
   return (
     <div className="synopsis">
       {text}

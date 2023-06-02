@@ -14,7 +14,7 @@ type FilmsContextType = {
     from: number;
     to: number;
   };
-  getCurrentPage(): void;
+  getCurrentPage(): number;
   setPage(page: number): void;
   updateFilter(data: any, dirtyFields: any): void;
   resetFilter(): void;

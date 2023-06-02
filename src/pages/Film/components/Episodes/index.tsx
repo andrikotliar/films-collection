@@ -1,22 +1,26 @@
 import './styles.css';
+import { ChangeEvent, FC, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
 import classNames from 'classnames';
 import { buildLink } from '@/heplers';
 import { ExpandIcon } from '@/assets/icons';
+import { Season } from '@/types';
 
-const Episodes = ({ seasons }) => {
+const Episodes: FC<{ seasons: Season[] }> = ({ seasons }) => {
   const [activeSeason, setActiveSeason] = useState(0);
-  const [expandedEpisode, setExpandedEpisode] = useState(null);
+  const [expandedEpisode, setExpandedEpisode] = useState<string | null>(null);
 
-  const defineActiveSeason = (event) => {
-    setActiveSeason(event.target.value);
+  const defineActiveSeason = (event: ChangeEvent<HTMLSelectElement>) => {
+    setActiveSeason(Number(event.target.value));
     if(expandedEpisode !== null) {
       setExpandedEpisode(null);
     };
   };
 
-  const expandEpisode = (episodeTitle, expandedEpisode) => {
+  const expandEpisode = (
+    episodeTitle: string,
+    expandedEpisode: string | null
+  ) => {
     if(episodeTitle === expandedEpisode) {
       setExpandedEpisode(null);
       return;

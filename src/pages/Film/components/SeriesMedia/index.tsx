@@ -1,11 +1,19 @@
-import { useState } from 'react';
-import FilmMedia from '../FilmMedia';
 import './styles.css';
+import { FC, useState } from 'react';
 import classNames from 'classnames';
-const SeriesMedia = ({ seasons, title, poster }) => {
+import FilmMedia from '../FilmMedia';
+import { Season } from '@/types';
+
+type SeriesMediaProps = {
+  seasons: Season[];
+  title: string;
+  poster: string;
+}
+
+const SeriesMedia: FC<SeriesMediaProps> = ({ seasons, title, poster }) => {
   const [selectedSeason, setSelectedSeason] = useState(0);
 
-  const getPoster = (selectedSeason) => {
+  const getPoster = (selectedSeason: number) => {
     if(selectedSeason === 0) {
       return poster;
     } 

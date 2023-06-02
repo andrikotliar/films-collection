@@ -24,7 +24,7 @@ type Award = {
   nominations: string[];
 }
 
-type Chapters = {
+type Chapter = {
   title: string;
   part: number;
 }
@@ -38,6 +38,7 @@ type Season = {
     directedBy: string;
     writtenBy: string;
   }[];
+  trailer: string;
 }
 
 type FilmType = {
@@ -56,12 +57,12 @@ type FilmType = {
   budget?: MoneyValue;
   boxoffice?: MoneyValue;
   synopsis: string;
-  collections: Collection | Collection[];
+  collections: Collection[];
   awards?: Award[];
   cast: Cast[];
   duration: number;
   trailer: string;
-  parts?: Chapters;
+  parts?: Chapter;
   year: number;
   seasons?: Season[]
 };
@@ -73,6 +74,6 @@ export type {
   MoneyValue,
   Collection,
   Award,
-  Chapters,
+  Chapter,
   Season,
 }

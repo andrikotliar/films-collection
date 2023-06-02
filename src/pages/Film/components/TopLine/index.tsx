@@ -1,8 +1,10 @@
-import { buildLink } from '@/heplers';
+import './styles.css';
+import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import './styles.css'
+import { buildLink } from '@/heplers';
+import { FilmType } from '@/types';
 
-const TopLine = ({ filmData }) => {
+const TopLine: FC<{ filmData: FilmType }> = ({ filmData }) => {
   return (
     <div className="top-line">
       <Link to={buildLink('year', filmData.year)} className="top-line__link top-line__link--highlight">
@@ -15,7 +17,7 @@ const TopLine = ({ filmData }) => {
           </Link>
         ))}
       </div>
-      <span to={buildLink('duration', filmData.duration)} className="top-line__link top-line__link--static">
+      <span className="top-line__link top-line__link--static">
         {filmData.duration} min
       </span>
     </div>

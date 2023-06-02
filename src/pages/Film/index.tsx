@@ -5,7 +5,7 @@ import { useFilmsContext } from '@/context/filmsContext';
 import { Loader } from '@/components';
 import { setBrowserTitle } from '@/heplers';
 import ActorsProvider from '@/context/actorsContext';
-import { FilmType } from '@/types/film';
+import { FilmType } from '@/types';
 import {
   FilmTitle,
   TopLine,
@@ -61,19 +61,13 @@ const Film = () => {
           <FilmTitle title={film.title} />
           <TopLine filmData={film} />
         </section>
-        {!film.type.includes('Series') ? (
-         <FilmMedia poster={film.poster} title={film.title} trailer={film.trailer} />
+        {!film.seasons ? (
+          <FilmMedia poster={film.poster} title={film.title} trailer={film.trailer} />
         ) : (
           <SeriesMedia seasons={film.seasons} title={film.title} poster={film.poster} />
         )}
         <Synopsis text={film.synopsis} />
         <CreatorsList filmData={film} />
-        {film.type === 'Series' ? (
-          <section>
-            <SectionTitle>Episode Details</SectionTitle>
-            <Episodes seasons={film.seasons} />
-          </section>
-        ) : null}
       
         {film.awards ? (
           <section>
@@ -87,7 +81,7 @@ const Film = () => {
           <Cast cast={film.cast} />
         </section>
         
-        {film.type.includes('Series') && (
+        {film.seasons && (
           <section>
             <SectionTitle>Episodes Overview</SectionTitle>
             <Episodes seasons={film.seasons} />

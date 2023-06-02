@@ -1,8 +1,15 @@
-import classNames from 'classnames';
-import { Link, useParams } from 'react-router-dom';
 import './styles.css';
+import { FC } from 'react';
+import { Link, useParams } from 'react-router-dom';
+import classNames from 'classnames';
+import { Chapter, FilmType } from '@/types';
 
-const Chapters = ({ data, parts }) => {
+type ChaptersProps = {
+  data: FilmType[];
+  parts: Chapter
+}
+
+const Chapters: FC<ChaptersProps> = ({ data, parts }) => {
   const { id: filmId } = useParams();
 
   const partsList = () => {
@@ -10,7 +17,7 @@ const Chapters = ({ data, parts }) => {
       if (film.parts !== undefined) {
         return film.parts.title === parts.title;
       }
-    }).sort((a, b) => a.parts.part > b.parts.part ? 1 : -1);
+    }).sort((a, b) => Number(a.parts?.part) > Number(b.parts?.part) ? 1 : -1);
   }
 
   return (

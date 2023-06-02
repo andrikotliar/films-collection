@@ -1,6 +1,8 @@
+import { FC } from 'react';
 import KeyValues from '../KeyValues';
+import { FilmType } from '@/types';
 
-const ExtraDetails = ({ filmData }) => {
+const ExtraDetails: FC<{ filmData: FilmType }> = ({ filmData }) => {
   const collections = filmData.collections.map((collection) => collection.name);
   return (
     <div className="details-group">

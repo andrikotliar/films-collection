@@ -1,7 +1,7 @@
-import { UnknwonObject } from "@/types";
+import { UnknownObject } from "@/types";
 
 export const getFilterParams = (searchParams: URLSearchParams) => {
-  const filterParams: UnknwonObject = {};
+  const filterParams: UnknownObject = {};
   searchParams.forEach((value, key) => {
     if(filterParams[key]) {
       filterParams[key] = [filterParams[key], value];

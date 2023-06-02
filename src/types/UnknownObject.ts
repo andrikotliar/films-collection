@@ -1,3 +1,1 @@
-type UnknwonObject = { [key: string]: any };
-
-export type { UnknwonObject };
+export type UnknownObject = { [key: string]: any };

@@ -1,25 +1,25 @@
 import './style.css';
+import { FC, FormEvent, useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { SearchIcon } from '@/assets/icons';
-import { useEffect, useRef, useState } from 'react';
 import classNames from 'classnames';
+import { SearchIcon } from '@/assets/icons';
 
-const Search = ({ isOpen }) => {
+const Search: FC<{ isOpen: boolean }> = ({ isOpen }) => {
   const navigate = useNavigate();
-  const searchInputRef = useRef();
+  const searchInputRef = useRef<any>();
   const [searchString, setSearchString] = useState('');
 
-  const runSearch = (searchValue) => {
+  const runSearch = (searchValue: string) => {
     navigate(`/?search=${searchValue}`);
   }
 
-  const onSubmit = (event) => {
+  const onSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     runSearch(searchString);
     searchInputRef.current.value = '';
   }
 
-  const focusSearch = (event) => {
+  const focusSearch = (event: KeyboardEvent) => {
     if(event.key === 'F2') {
       searchInputRef.current.focus();
     }

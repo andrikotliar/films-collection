@@ -1,8 +1,8 @@
 import { FC } from "react";
 
 type ExpandIconProps = {
-  color: string,
-  className: string
+  color?: string,
+  className?: string
 };
 
 const ExpandIcon: FC<ExpandIconProps> = ({

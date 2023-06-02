@@ -1,17 +1,20 @@
 import './styles.css';
+import { FC, SyntheticEvent, useEffect, useState } from "react";
+import { Link } from 'react-router-dom';
 import { useActorsContext } from "@/context/actorsContext";
 import { buildActorsData, buildLink } from "@/heplers";
-import { useEffect } from "react";
-import { useState } from "react";
-import { Link } from "react-router-dom";
 import { imageFallbacks } from '@/constants';
+import { Cast, FilledActorData } from '@/types';
 
-const Cast = ({ cast }) => {
+const Cast: FC<{ cast: Cast[] }> = ({ cast }) => {
   const { actors } = useActorsContext();
-  const [ fullCastData, setFullCastData ] = useState([]);
   const isCharacterImagesEnabled = import.meta.env.VITE_CHARACTER_IMAGES;  
+  const [ fullCastData, setFullCastData ] = useState<FilledActorData[]>([]);
 
-  const handleImageError = (event, image) => {
+  const handleImageError = (
+    event: SyntheticEvent<HTMLImageElement>,
+    image: string,
+  ) => {
     event.currentTarget.src = image;
   }
 

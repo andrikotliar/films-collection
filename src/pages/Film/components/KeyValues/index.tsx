@@ -1,8 +1,16 @@
-import { buildLink } from '@/heplers';
-import { Link } from 'react-router-dom';
 import './styles.css';
+import { FC } from 'react';
+import { Link } from 'react-router-dom';
+import { buildLink } from '@/heplers';
 
-const KeyValues = ({
+type KeyValuesProps = {
+  title: string;
+  values: string | string[];
+  linkParameter?: string;
+  singleValueClassName?: string;
+}
+
+const KeyValues: FC<KeyValuesProps> = ({
   title,
   values,
   linkParameter,

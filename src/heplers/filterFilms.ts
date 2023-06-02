@@ -1,4 +1,6 @@
-const handleSearchFilter = (searchQuery, title) => {
+import { FilmType, FilterParams } from "@/types";
+
+const handleSearchFilter = (searchQuery: string, title: string) => {
   const lowerTitle = title.toLowerCase();
   const words = searchQuery.split(' ');
   const exclude = ['the', 'of', 'in', 'on', 'and', 'vs', 'or'];
@@ -7,7 +9,7 @@ const handleSearchFilter = (searchQuery, title) => {
   return filteredWords.every((w) => w.length > 2 && lowerTitle.includes(w));
 };
 
-export const filterFilms = (list, filterParams) => {
+export const filterFilms = (list: FilmType[], filterParams: FilterParams) => {
   if(!Object.keys(filterParams).length) {
     return list;
   }
@@ -17,7 +19,10 @@ export const filterFilms = (list, filterParams) => {
   delete params.actorName;
 
   const filteredFilms = list.filter((film) => {
-    const match = Object.keys(params).every(property => {
+    const match = Object.keys(params).every((prop) => {
+      const property = prop as keyof typeof params;
+      const filmProperty = prop as keyof typeof film;
+
       if(property === 'search') {
         return handleSearchFilter(params.search, film.title);
       }
@@ -38,12 +43,12 @@ export const filterFilms = (list, filterParams) => {
         return false;
       }
 
-      if(Array.isArray(params[property])) {
-        return film[property] && film[property].some(item => params[property].includes(item));
+      if(Array.isArray(params[property]) && film[filmProperty]) {
+        return (film[filmProperty] as any[]).some(item => params[property].includes(item));
       }
 
-      if(typeof params[property] === 'string') {
-        return film[property] && film[property].includes(params[property]);
+      if(typeof params[property] === 'string' && film[filmProperty]) {
+        return (film[filmProperty] as string).includes(params[property]);
       }
     });
     if(match) {
@@ -58,15 +63,18 @@ export const filterFilms = (list, filterParams) => {
         collection => collection.name === filterParams.collections
       );
 
-      return {
-        ...film,
-        collections: currentCollection,
+      if(currentCollection) {
+        return {
+          ...film,
+          collections: currentCollection,
+        }
       }
+      
     });
 
     if(filmsWithMinifiedCollections[0]?.collections?.order) {
       return filmsWithMinifiedCollections.sort(
-        (a, b) => a.collections.order > b.collections.order ? 1 : -1
+        (a, b) => Number(a?.collections?.order) > Number(b?.collections?.order) ? 1 : -1
       );
     }
 

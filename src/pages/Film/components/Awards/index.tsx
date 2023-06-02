@@ -1,16 +1,17 @@
 import './styles.css';
-import { awardIcons } from '@/configs';
-import { useState } from 'react';
+import { FC, useState } from 'react';
 import classNames from 'classnames';
+import { awardIcons } from '@/configs';
+import { Award } from '@/types';
 
-const Awards = ({ awards }) => {
-  const [ openNominations, setOpenNominations ] = useState();
+const Awards: FC<{ awards: Award[] }> = ({ awards }) => {
+  const [ openNominations, setOpenNominations ] = useState<string | null>(null);
 
-  const awardIcon = (awardTitle) => {
+  const awardIcon = (awardTitle: keyof typeof awardIcons) => {
     return `/images/awards/${awardIcons[awardTitle]}`;
   }
 
-  const handleOpenNominations = (awardTitle) => {
+  const handleOpenNominations = (awardTitle: string) => {
     setOpenNominations((prevValue) => {
       if(prevValue === awardTitle) {
         return null;
@@ -33,7 +34,7 @@ const Awards = ({ awards }) => {
             onClick={() => handleOpenNominations(award.title)}
           >
             <div className="award__icon">
-              <img src={awardIcon(award.title)} alt="" />
+              <img src={awardIcon(award.title as keyof typeof awardIcons)} alt="" />
             </div>
             <div className="award__main">
               <h3 className="award__title">

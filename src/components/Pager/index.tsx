@@ -14,7 +14,7 @@ const Pager = () => {
     return null;
   }
 
-  const pagesList = (filmsCount) => {
+  const pagesList = (filmsCount: number) => {
     const pageNumbers = [];
     const pagesCount = filmsCount / filmsSettings.perPage;
 
