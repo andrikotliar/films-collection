@@ -41,7 +41,7 @@ type Season = {
   trailer: string;
 }
 
-type FilmType = {
+export interface FilmType {
   id: string;
   type: Type;
   title: string;
@@ -64,11 +64,11 @@ type FilmType = {
   trailer: string;
   parts?: Chapter;
   year: number;
-  seasons?: Season[]
+  seasons?: Season[];
+  ordered?: boolean;
 };
 
 export type {
-  FilmType,
   Type,
   Cast,
   MoneyValue,

@@ -1,8 +1,8 @@
 import './styles.css';
+import { FC } from 'react';
 import { Link, useLocation } from "react-router-dom";
 import classNames from 'classnames';
 import { AdminIcon, HomeIcon, InfoIcon, StatsIcon } from "@/assets/icons";
-import { FC } from 'react';
 
 type MenuProps = {
   isActive: boolean;

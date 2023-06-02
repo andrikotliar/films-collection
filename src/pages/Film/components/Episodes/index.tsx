@@ -10,8 +10,8 @@ const Episodes: FC<{ seasons: Season[] }> = ({ seasons }) => {
   const [activeSeason, setActiveSeason] = useState(0);
   const [expandedEpisode, setExpandedEpisode] = useState<string | null>(null);
 
-  const defineActiveSeason = (event: ChangeEvent<HTMLSelectElement>) => {
-    setActiveSeason(Number(event.target.value));
+  const defineActiveSeason = (season: number) => {
+    setActiveSeason(season);
     if(expandedEpisode !== null) {
       setExpandedEpisode(null);
     };
@@ -32,18 +32,18 @@ const Episodes: FC<{ seasons: Season[] }> = ({ seasons }) => {
   return (
     <div className="series">
       <div className="seasons">
-        <span>Season:</span>
-        <select
-          className="seasons__select"
-          onChange={defineActiveSeason}
-          disabled={seasons.length === 1}
-        >
-          {seasons.map((seasonData, seasonIndex) => (
-            <option key={seasonData.season} value={seasonIndex}>
-              {seasonData.season}
-            </option>
-          ))}
-        </select>
+        {seasons.map((seasonData, seasonIndex) => (
+          <button
+            key={seasonData.season}
+            onClick={() => defineActiveSeason(seasonIndex)}
+            className={classNames('season-button', {
+              'season-button--active': seasonIndex === activeSeason
+            })}
+          >
+            <span className="season-button__title">Season</span>
+            <span>{seasonData.season}</span>
+          </button>
+        ))}
       </div>
       <div className="episodes">
         {seasons[activeSeason].episodes.map((episode) => (

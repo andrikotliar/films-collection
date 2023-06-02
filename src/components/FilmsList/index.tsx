@@ -13,7 +13,7 @@ const FilmsList = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [films])
+  }, [films]);
 
   return (
     <div className="list-container">
@@ -27,9 +27,9 @@ const FilmsList = () => {
             to={`/film/${film.id}`}
             key={film.id}
           >
-            {!Array.isArray(film.collections) && (
+            {film?.ordered && (
               <div className="list-film__order">
-                {film.collections.order}
+                {film.collections[0].order}
               </div>
             )}
             <div className="list-film__cover">

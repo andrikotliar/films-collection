@@ -50,7 +50,8 @@ const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
     if(initialFilmsList.length) {
       const filteredFilms = filterFilms(initialFilmsList, filterParams);
       setFilmsCount(filteredFilms.length);
-      const pageData = pager(filteredFilms, filterParams.page || 1);
+      const page = filterParams.page ? Number(filterParams.page) : 1;
+      const pageData = pager(filteredFilms as FilmType[], page);
       setFilms(pageData.list);
       setPageData({
         from: pageData.from,

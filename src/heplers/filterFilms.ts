@@ -1,4 +1,4 @@
-import { FilmType, FilterParams } from "@/types";
+import { FilmType } from "@/types";
 
 const handleSearchFilter = (searchQuery: string, title: string) => {
   const lowerTitle = title.toLowerCase();
@@ -9,7 +9,7 @@ const handleSearchFilter = (searchQuery: string, title: string) => {
   return filteredWords.every((w) => w.length > 2 && lowerTitle.includes(w));
 };
 
-export const filterFilms = (list: FilmType[], filterParams: FilterParams) => {
+export const filterFilms = (list: FilmType[], filterParams: any): FilmType[] => {
   if(!Object.keys(filterParams).length) {
     return list;
   }
@@ -19,11 +19,8 @@ export const filterFilms = (list: FilmType[], filterParams: FilterParams) => {
   delete params.actorName;
 
   const filteredFilms = list.filter((film) => {
-    const match = Object.keys(params).every((prop) => {
-      const property = prop as keyof typeof params;
-      const filmProperty = prop as keyof typeof film;
-
-      if(property === 'search') {
+    const match = Object.keys(params).every((property) => {
+      if(property === 'search' && params.search) {
         return handleSearchFilter(params.search, film.title);
       }
 
@@ -43,12 +40,12 @@ export const filterFilms = (list: FilmType[], filterParams: FilterParams) => {
         return false;
       }
 
-      if(Array.isArray(params[property]) && film[filmProperty]) {
-        return (film[filmProperty] as any[]).some(item => params[property].includes(item));
+      if(Array.isArray(params[property]) && film[property]) {
+        return film[property]?.some(item => params[property].includes(item));
       }
 
-      if(typeof params[property] === 'string' && film[filmProperty]) {
-        return (film[filmProperty] as string).includes(params[property]);
+      if(typeof params[property] === 'string') {
+        return film[property].includes(params[property]);
       }
     });
     if(match) {
@@ -59,22 +56,29 @@ export const filterFilms = (list: FilmType[], filterParams: FilterParams) => {
 
   if(filterParams.collections) {
     const filmsWithMinifiedCollections = filteredFilms.map(film => {
-      const currentCollection = film.collections.find(
+      const currentCollection = film.collections.filter(
         collection => collection.name === filterParams.collections
       );
 
-      if(currentCollection) {
+      if(currentCollection.length) {
         return {
           ...film,
           collections: currentCollection,
+          ordered: true
         }
       }
       
+      return {
+        ...film,
+        collections: []
+      };
     });
 
-    if(filmsWithMinifiedCollections[0]?.collections?.order) {
+    console.log(filmsWithMinifiedCollections)
+
+    if(filmsWithMinifiedCollections[0]?.collections[0]?.order) {
       return filmsWithMinifiedCollections.sort(
-        (a, b) => Number(a?.collections?.order) > Number(b?.collections?.order) ? 1 : -1
+        (a, b) => Number(a?.collections[0]?.order) > Number(b?.collections[0]?.order) ? 1 : -1
       );
     }
 

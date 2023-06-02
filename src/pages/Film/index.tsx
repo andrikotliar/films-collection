@@ -67,6 +67,7 @@ const Film = () => {
           <SeriesMedia seasons={film.seasons} title={film.title} poster={film.poster} />
         )}
         <Synopsis text={film.synopsis} />
+        
         <CreatorsList filmData={film} />
       
         {film.awards ? (

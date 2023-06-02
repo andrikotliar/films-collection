@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import { useActorsContext } from "@/context/actorsContext";
 import { buildActorsData, buildLink } from "@/heplers";
 import { imageFallbacks } from '@/constants';
-import { Cast, FilledActorData } from '@/types';
+import { Cast as CastType, FilledActorData } from '@/types';
 
-const Cast: FC<{ cast: Cast[] }> = ({ cast }) => {
+const Cast: FC<{ cast: CastType[] }> = ({ cast }) => {
   const { actors } = useActorsContext();
   const isCharacterImagesEnabled = import.meta.env.VITE_CHARACTER_IMAGES;  
   const [ fullCastData, setFullCastData ] = useState<FilledActorData[]>([]);
