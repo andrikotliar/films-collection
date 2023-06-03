@@ -45,80 +45,70 @@
     {
       "character": {
         "name": "Captain America / Steve Rogers",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "38541020-9829-440f-a21b-caf46d2d9428"
     },
     {
       "character": {
         "name": "Peggy Carter",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6cc700ae-5188-4d37-b03e-c0dd08fc7465"
     },
     {
       "character": {
         "name": "James Buchanan 'Bucky' Barnes",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6efe0990-f8c2-479e-970a-f990a42f774a"
     },
     {
       "character": {
         "name": "Colonel Chester Phillips",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "331a7b7e-753a-4546-aa4e-0ef3da3e5d8e"
     },
     {
       "character": {
         "name": "Johann Schmidt / Red Skull",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
     },
     {
       "character": {
         "name": "Howard Stark",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "48047421-83ba-4ea8-9f7d-c8f4e98dad79"
     },
     {
       "character": {
         "name": "Heinz Kruger",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a1065b71-c84c-4d85-bad6-965dcaa026c0"
     },
     {
       "character": {
         "name": "Dr. Abraham Erskine",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "817b87ee-34b6-404e-8ca1-6227de6e364d"
     },
     {
       "character": {
         "name": "Nick Fury",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "65e7e9e0-8e37-4237-9b23-a1f8a2d09147"
     },
     {
       "character": {
         "name": "Dr. Arnim Zola",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c6053d3e-33c2-43a7-9d7d-4d6cf7bc5b71"
     }

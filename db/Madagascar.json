@@ -44,56 +44,49 @@
     {
       "character": {
         "name": "Alex",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a30ab878-3936-4e10-8c58-a5c0fe9f9146"
     },
     {
       "character": {
         "name": "Marty",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "653c1c5c-0093-483f-97b7-bb93107cf469"
     },
     {
       "character": {
         "name": "Melman",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0822f145-f313-4d3a-a34c-acbb77593566"
     },
     {
       "character": {
         "name": "Gloria",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9e504ddc-91b4-45c1-a321-c5e7f40999d9"
     },
     {
       "character": {
         "name": "Julien",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "dda11932-ed49-4f73-8b6f-c6949a5079b5"
     },
     {
       "character": {
         "name": "Skipper",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3369ddeb-bfb7-4737-b7c5-ee2e556352c5"
     },
     {
       "character": {
         "name": "Kowalski",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "236345ed-4488-4da7-b810-9141c8a74f47"
     }

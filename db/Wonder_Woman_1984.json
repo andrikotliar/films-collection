@@ -47,40 +47,35 @@
     {
       "character": {
         "name": "Diana Prince / Wonder Woman",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cac99b67-2448-4b4f-ab99-e88b4e516940"
     },
     {
       "character": {
         "name": "Steve Trevor",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "586e7657-8411-4540-a748-26e815d3fb92"
     },
     {
       "character": {
         "name": "Barbara Minerva",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e3e5068a-c5ad-484a-93e6-ded28d61e48f"
     },
     {
       "character": {
         "name": "Maxwell Lord",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "988895ad-a7a3-421a-87cd-6a4c7aa6c0fc"
     },
     {
       "character": {
         "name": "Alistair",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "8fbbe2e6-c953-40f0-92e7-5995dde6c0b2"
     }

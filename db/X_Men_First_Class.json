@@ -53,88 +53,77 @@
     {
       "character": {
         "name": "Charles Xavier",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "8f4897bf-8957-47f7-9b1c-fe4616205de6"
     },
     {
       "character": {
         "name": "Erik Lensherr",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5e9cb45b-f3f1-435b-9a3d-d0b2b3963899"
     },
     {
       "character": {
         "name": "Young Erik",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a94f759d-6e3a-4ce7-baa6-5f18a377e011"
     },
     {
       "character": {
         "name": "Sebastian Shaw",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3c578d0d-0d3c-4bfb-b580-adeea340d073"
     },
     {
       "character": {
         "name": "Moira MacTaggert",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d13324bf-abf5-4e5c-85f0-b9f99e6127d5"
     },
     {
       "character": {
         "name": "Raven / Mystique",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "29b99567-4a10-4246-9bb2-26b55a9c1e63"
     },
     {
       "character": {
         "name": "Emma Frost",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "da3e7a09-dadb-4ab6-ad49-097adcb30554"
     },
     {
       "character": {
         "name": "Hank / Beast",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e71b81b3-8c4f-447d-97a8-56d5a976750d"
     },
     {
       "character": {
         "name": "Cassidy / Banshee",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "28066701-2a1a-4ad5-b59b-6032dc599b46"
     },
     {
       "character": {
         "name": "Alex Summers / Havok",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "273890bf-eac3-4493-a7e6-4db9ebab017f"
     },
     {
       "character": {
         "name": "William Stryker",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5a1879f4-ab18-4893-8b1e-0471c556933e"
     }

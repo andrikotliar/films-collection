@@ -44,48 +44,42 @@
     {
       "character": {
         "name": "Evelyn Abbott",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c892df31-7868-42cc-b245-ded4556da768"
     },
     {
       "character": {
         "name": "Lee Abbott",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "020d7bd4-9fe2-4dae-9fa2-5d5e72a01d53"
     },
     {
       "character": {
         "name": "Regan Abbott",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "bb506052-e040-4a30-91a7-7d33b432ef95"
     },
     {
       "character": {
         "name": "Marcus Abbott",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "7a2f8831-01e7-4594-a33a-2a7db3b0dd06"
     },
     {
       "character": {
         "name": "Emmett",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9a91c941-d1d1-4514-9eb1-c4a27bbe9cce"
     },
     {
       "character": {
         "name": "Man on Island",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "44677a98-c6e2-43c4-b7e2-3fe0a7f05703"
     }

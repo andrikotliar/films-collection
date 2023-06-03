@@ -43,24 +43,21 @@
     {
       "character": {
         "name": "Sohone",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "8dc10d24-b013-432f-b828-c9282444b342"
     },
     {
       "character": {
         "name": "Glim",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6db9931e-0947-4e42-8596-4ce9583b6eb7"
     },
     {
       "character": {
         "name": "Mune",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5f500be6-3476-4a43-baa1-850337c163e9"
     }

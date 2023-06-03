@@ -45,80 +45,70 @@
     {
       "character": {
         "name": "Clark Kent / Kal-El",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e92d7fd1-edce-45e3-8d2b-b35443ac770d"
     },
     {
       "character": {
         "name": "Lois Lane",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "42e2fc86-5bb2-4f2d-8cd4-4ae286c08dd6"
     },
     {
       "character": {
         "name": "General Zod",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "747daebb-caf5-468b-accb-ca827431128b"
     },
     {
       "character": {
         "name": "Martha Kent",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a469fc0d-53a2-4727-8ffe-d2fbb5f4ec84"
     },
     {
       "character": {
         "name": "Jor-El",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ea8192e9-b8d6-4160-9691-ae43dcc562b8"
     },
     {
       "character": {
         "name": "Faora-Ul",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "17121f3f-a914-47d4-8b84-b45cba173446"
     },
     {
       "character": {
         "name": "General Swanwick",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "2cca1667-07db-451b-a853-9c4f1bd28cf3"
     },
     {
       "character": {
         "name": "Dr. Emil Hamilton",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "25612eaa-f315-4c67-846b-f3496982de55"
     },
     {
       "character": {
         "name": "Colonel Nathan Hardy",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "40aab6f5-0b5c-4ab0-812d-696adf8add6c"
     },
     {
       "character": {
         "name": "Jonathan Kent",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4f0041b5-5d68-4dd6-9ec6-210f6e5d5b94"
     }

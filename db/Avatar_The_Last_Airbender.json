@@ -502,120 +502,105 @@
     {
       "character": {
         "name": "Aang",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "66bb5722-cb07-455b-9599-1edb21457016"
     },
     {
       "character": {
         "name": "Katara",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ed78b3ed-9822-4b09-99a3-4f064968c943"
     },
     {
       "character": {
         "name": "Sokka",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3d1c24f3-e57e-4bba-ad48-eb1d9b629951"
     },
     {
       "character": {
         "name": "Zuko",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "fe9deb01-53d0-46e2-a020-00b89dc64d91"
     },
     {
       "character": {
         "name": "Toph",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c6ad31b8-d76b-49a8-bfdf-ef5def41fe37"
     },
     {
       "character": {
         "name": "Airo",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "743aa000-2770-4069-accb-d76b9969fdd9"
     },
     {
       "character": {
         "name": "Azula",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "f929cee3-33a5-4b6c-b396-3cd1753a7ca5"
     },
     {
       "character": {
         "name": "Hakoda",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4dbd652a-acde-4959-87ed-16f0b0a17e87"
     },
     {
       "character": {
         "name": "Mai",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a43e286d-c292-42ef-be63-0f6646229a47"
     },
     {
       "character": {
         "name": "Ty Lee",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d80c910c-ac68-4657-b8b1-63e3fd6dc17d"
     },
     {
       "character": {
         "name": "Roku",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "607fb408-26e8-4276-bfe1-f4f7066e0ca3"
     },
     {
       "character": {
         "name": "Zhao",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "24f7fda0-f9e4-4b4f-8f21-5258aa22abf4"
     },
     {
       "character": {
         "name": "Long Feng",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "7ba0570a-68be-41d9-b548-66375734f7ac"
     },
     {
       "character": {
         "name": "Princess Yue",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6bc3e0d4-6215-41fa-9f2b-11dd8334e432"
     },
     {
       "character": {
         "name": "Suki",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4a373c3e-5e8c-4f7e-a70b-2d7a12b1843b"
     }

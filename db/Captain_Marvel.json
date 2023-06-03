@@ -46,88 +46,77 @@
     {
       "character": {
         "name": "Carol Danvers / Captain Marvel",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4386f45e-86dd-4155-b767-426709fb26a1"
     },
     {
       "character": {
         "name": "Nick Fury",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "65e7e9e0-8e37-4237-9b23-a1f8a2d09147"
     },
     {
       "character": {
         "name": "Talos / Keller",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c001e778-8f5f-4626-983c-e492f2a1bb3e"
     },
     {
       "character": {
         "name": "Yon-Rogg",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0ea25e04-1def-4859-a5fb-801b62900b47"
     },
     {
       "character": {
         "name": "Supreme Intelligence / Dr. Wendy Lawson",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "20c1e76a-73ba-444e-8543-d72949ca9357"
     },
     {
       "character": {
         "name": "Maria Rambeau",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e848c914-351e-41f6-9a4c-076fb4181590"
     },
     {
       "character": {
         "name": "Agent Coulson",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1a2b1db2-33d9-4755-8702-1e054532094b"
     },
     {
       "character": {
         "name": "Bron-Char",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "91c17b8b-855c-4a32-bdbe-eb9a86c4581d"
     },
     {
       "character": {
         "name": "Minn-Erva",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d676bec9-4a25-4066-bbab-22757401e8f8"
     },
     {
       "character": {
         "name": "Korath",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "44677a98-c6e2-43c4-b7e2-3fe0a7f05703"
     },
     {
       "character": {
         "name": "Ronan",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "33d9cb34-b243-4115-8fc3-4e073d89206a"
     }

@@ -44,40 +44,35 @@
     {
       "character": {
         "name": "Aurora Lane",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "29b99567-4a10-4246-9bb2-26b55a9c1e63"
     },
     {
       "character": {
         "name": "Jim Preston",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d37a1702-6d76-425e-a1ac-940961feb029"
     },
     {
       "character": {
         "name": "Arthur",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cd31d4b4-862c-42da-9e5c-c6fa8a0132f7"
     },
     {
       "character": {
         "name": "Gus Mancuso",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d5cfb42e-818e-43cf-9840-f842bc4579e6"
     },
     {
       "character": {
         "name": "Captain Norris",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e238613f-3004-4897-84e3-fdbcab37d857"
     }

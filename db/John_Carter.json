@@ -40,80 +40,70 @@
     {
       "character": {
         "name": "John Carter",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "dabd6cd8-7f8f-4c22-912e-8437f68ba7a6"
     },
     {
       "character": {
         "name": "Dejah Thoris",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "316a6839-9613-499d-8a13-b736d251a08a"
     },
     {
       "character": {
         "name": "Sola",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b25191b0-881c-488f-966d-f99d3d5c30fa"
     },
     {
       "character": {
         "name": "Tars Tarkas",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4bbc8ea8-2f28-43b8-8a68-24598fd32c85"
     },
     {
       "character": {
         "name": "Tal Hajus",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9daa6fda-d979-4f27-b218-1fa9d66557b6"
     },
     {
       "character": {
         "name": "Matai Shang",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "beafbdfd-c890-4b66-8522-42f8d04aa347"
     },
     {
       "character": {
         "name": "Tardos Mors",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "8baee434-0f0f-46c0-b18d-57e115247859"
     },
     {
       "character": {
         "name": "Sab Than",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "8f5269f2-cc67-42f1-8d1b-e4a057451baf"
     },
     {
       "character": {
         "name": "Kantos Kan",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "836a9554-616d-4e71-a2fb-266e7c2289d7"
     },
     {
       "character": {
         "name": "Powell",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9dd74a8f-06f6-4fc2-b9a6-208cd51fb478"
     }

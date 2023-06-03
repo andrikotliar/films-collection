@@ -55,24 +55,21 @@
     {
       "character": {
         "name": "T-800",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "dfb2cc61-095f-4a4c-8c60-64b1de7458a4"
     },
     {
       "character": {
         "name": "Kyle Reese",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "fedfd9ed-a1f3-4dfb-95aa-67dda121d4f9"
     },
     {
       "character": {
         "name": "Sarah Connor",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5567133f-edab-4200-bb7e-cd30a409abb2"
     }

@@ -44,32 +44,28 @@
     {
       "character": {
         "name": "Marty McFly",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1864f0e9-50d2-42b5-ac38-5086f6cae1da"
     },
     {
       "character": {
         "name": "Dr. Emmett Brown",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e77d7157-1cfb-4afd-8aaa-dacbe0e31488"
     },
     {
       "character": {
         "name": "Clara Clayton",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "68a9bb69-a7d9-46ef-8e85-844fdbaa752e"
     },
     {
       "character": {
         "name": "Biff Tannen / Griff Tannen",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a85784f1-b798-4b6f-879e-8d89c5d6b369"
     }

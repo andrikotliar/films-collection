@@ -85,80 +85,70 @@
     {
       "character": {
         "name": "Frodo Baggins",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5e154ae5-94f0-4d0e-9dfc-641120e4a219"
     },
     {
       "character": {
         "name": "Gandalf",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "18b67364-14a8-461a-bf48-a12c4741d52f"
     },
     {
       "character": {
         "name": "Samwise Gamgee",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9e55ad2e-faa1-4895-b232-d606d29438d7"
     },
     {
       "character": {
         "name": "Aragorn",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1806b00d-b0f7-4338-a721-10d3ce7c3586"
     },
     {
       "character": {
         "name": "Gimli",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cacd3465-d009-4fea-8c86-4c4bc266b6e5"
     },
     {
       "character": {
         "name": "Legolas",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9477d178-9893-44f0-9553-10119753c95f"
     },
     {
       "character": {
         "name": "Galadriel",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d7f81c80-afaa-4b4e-a3fa-49b85238c529"
     },
     {
       "character": {
         "name": "Saruman",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "59d49cbd-921f-4b4a-89c0-41260222973b"
     },
     {
       "character": {
         "name": "Elrond",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
     },
     {
       "character": {
         "name": "Gollum",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135"
     }

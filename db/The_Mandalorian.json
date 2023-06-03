@@ -176,72 +176,63 @@
     {
       "character": {
         "name": "The Mandalorian",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "988895ad-a7a3-421a-87cd-6a4c7aa6c0fc"
     },
     {
       "character": {
         "name": "Cara Dune",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b48b258a-04c5-48cd-a10b-9e22dc17ae3d"
     },
     {
       "character": {
         "name": "Moff Gideon",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a9c92ba0-abf9-4f9b-83c6-bc07ac0eb7b7"
     },
     {
       "character": {
         "name": "Greef Karga",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4c2cc6d7-6078-4db0-ae80-c09ea495da7e"
     },
     {
       "character": {
         "name": "Boba Fett",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "59046197-954c-4802-bd11-37f1c62a191e"
     },
     {
       "character": {
         "name": "Fennec Shand",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "fa86fd24-00fa-45c4-bb07-9836c886da30"
     },
     {
       "character": {
         "name": "Ahsoka Tano",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "532dfdc9-0006-4d29-9068-485005d3dc4f"
     },
     {
       "character": {
         "name": "IG-11",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6bdc5e6b-1aa4-4686-965f-8b5deefd01eb"
     },
     {
       "character": {
         "name": "Kuiil",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ab2be3de-4d69-41c2-908a-cc0df15fc8f2"
     }

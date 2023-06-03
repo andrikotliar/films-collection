@@ -61,40 +61,35 @@
     {
       "character": {
         "name": "Agent Kay",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "331a7b7e-753a-4546-aa4e-0ef3da3e5d8e"
     },
     {
       "character": {
         "name": "Agent Jay",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0e631141-1b4a-4ed9-8325-5a1947f08404"
     },
     {
       "character": {
         "name": "Laurel",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e85b49ef-a8f5-4c88-8bd5-593745237b32"
     },
     {
       "character": {
         "name": "Edgar",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d39e216b-d069-4f40-b485-2be6eafa4d11"
     },
     {
       "character": {
         "name": "Z",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a4db5eb9-cbf6-468e-b63a-b3900d4371d3"
     }

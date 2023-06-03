@@ -53,80 +53,70 @@
     {
       "character": {
         "name": "Scott Lang / Ant-Man",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cd9b8e2c-3973-46fb-a71a-7df6ca9c5b2e"
     },
     {
       "character": {
         "name": "Dr. Hank Pym",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "485694d1-0656-4c1e-ae30-2e46af4b7df1"
     },
     {
       "character": {
         "name": "Hope van Dyne",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "99d66277-33ee-47bc-874a-9390edbd1ead"
     },
     {
       "character": {
         "name": "Darren Cross / Yellowjacket",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c5a329bd-eefd-46be-bbfe-1bdfe4b9aa57"
     },
     {
       "character": {
         "name": "Paxton",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "929b7475-8e3f-4326-b8f5-f45c441c3bbf"
     },
     {
       "character": {
         "name": "Sam Wilson / Falcon",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0"
     },
     {
       "character": {
         "name": "Maggie Lang",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b999e11f-6bb6-4cfc-b668-ca5ee377a087"
     },
     {
       "character": {
         "name": "Cassie Lang",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b34fadf6-773e-44dc-9f06-e3919da95db9"
     },
     {
       "character": {
         "name": "Luis",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1bffcd51-f602-47df-b924-f575be9234f1"
     },
     {
       "character": {
         "name": "Kurt",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "80863320-fecd-40ed-843c-d83ea21fb63b"
     }

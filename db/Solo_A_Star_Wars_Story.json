@@ -54,40 +54,35 @@
     {
       "character": {
         "name": "Han Solo",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ee5a6e7c-3dce-4bec-a9d4-1c907368fe8b"
     },
     {
       "character": {
         "name": "Chewbacca",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "10bc1c98-84fe-4446-8f80-5791682e3a10"
     },
     {
       "character": {
         "name": "Beckett",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "29fcbe6e-884b-4b15-894b-1bb691c26c36"
     },
     {
       "character": {
         "name": "Qi'ra",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "57c4bd91-9284-4980-b9bc-8db63710ab06"
     },
     {
       "character": {
         "name": "Lando Calrissian",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "92196f4f-16de-4bed-a866-1c871f78fafa"
     },
@@ -95,32 +90,28 @@
       "name": "Thandie Newton",
       "character": {
         "name": "Val",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "64cdb5d2-f4c8-4d5c-ab13-cdf68cac4485"
     },
     {
       "character": {
         "name": "L3-37",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "7e8032c3-6a4c-4e6d-b14e-1cdd78ab1f55"
     },
     {
       "character": {
         "name": "Dryden Vos",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "7a77d424-0788-4e65-9596-e60d483cf264"
     },
     {
       "character": {
         "name": "Rio Durant",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d8678c6b-5c51-4775-99ea-aebeb97a28e8"
     }

@@ -45,64 +45,56 @@
     {
       "character": {
         "name": "Spider-Man / Peter Parker",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "deaf6b4d-ea83-4c45-ae61-4832bff20b5c"
     },
     {
       "character": {
         "name": "Green Goblin / Norman Osborn",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4bbc8ea8-2f28-43b8-8a68-24598fd32c85"
     },
     {
       "character": {
         "name": "Mary Jane Watson",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "35104a4f-627b-4c95-a2b5-09ab0b0a617b"
     },
     {
       "character": {
         "name": "Harry Osborn",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "05e8741b-e28e-4dce-8a03-0c33c2bc69c4"
     },
     {
       "character": {
         "name": "Ben Parker",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "dbba9d76-567d-4483-b19f-25212c1ffd8a"
     },
     {
       "character": {
         "name": "May Parker",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "96a9dfd1-f01e-4d2c-b8b3-e273ccf3fe6c"
     },
     {
       "character": {
         "name": "J. Jonah Jameson",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3034deb0-7b15-4310-b3c8-14a06daee243"
     },
     {
       "character": {
         "name": "Flash Thompson",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "676eefc2-cb59-4fc1-b82f-acaaf29dde65"
     }

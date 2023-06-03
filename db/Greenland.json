@@ -42,48 +42,42 @@
     {
       "character": {
         "name": "John Garrity",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c781f4d1-0f36-4078-aece-b893a0405504"
     },
     {
       "character": {
         "name": "Allison Garrity",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a35237bf-7688-4cda-95c1-c1257946609a"
     },
     {
       "character": {
         "name": "Nathan Garrity",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "061d59ba-c541-4d5f-8107-6d60acf564fa"
     },
     {
       "character": {
         "name": "Dale",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "70d82b88-8cc0-4f96-b30a-70f9429c1d8d"
     },
     {
       "character": {
         "name": "Ralph Vento",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "17de5867-bbeb-48c6-b9f2-b9b64f05e18d"
     },
     {
       "character": {
         "name": "Judy Vento",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "50af80e3-1919-4abe-8464-0051e239cc4e"
     }

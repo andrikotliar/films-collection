@@ -45,88 +45,77 @@
     {
       "character": {
         "name": "Sam Witwicky",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0eac0045-e7d9-4f55-9bf5-4347b6447417"
     },
     {
       "character": {
         "name": "Mikaela Banes",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9e62046b-4fe8-4f6d-914e-3d617619aa2d"
     },
     {
       "character": {
         "name": "Major Lennox",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "669ffd1c-6e00-4943-9ce9-80e98fba3b3f"
     },
     {
       "character": {
         "name": "Simmons",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3bd0ee3c-2afa-40de-8aac-ed75222a14dd"
     },
     {
       "character": {
         "name": "Leo Spitz",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1b6271db-38be-468d-920e-17672e76bd6f"
     },
     {
       "character": {
         "name": "Optimus Prime",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9174c001-6bed-4c51-910d-5caa6063f8a0"
     },
     {
       "character": {
         "name": "Jetfire",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0bce2c34-01fe-4dd9-8c5d-aa437e3a500b"
     },
     {
       "character": {
         "name": "Megatron",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
     },
     {
       "character": {
         "name": "Fallen",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c0a612f0-57e1-435c-8ea5-803fc13a97b5"
     },
     {
       "character": {
         "name": "Starscream",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "fa53192b-857e-4a61-8a2e-bce0427f750c"
     },
     {
       "character": {
         "name": "Soundwave / Devastator",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "017b1716-0402-4820-9a10-7765a7a4c98f"
     }

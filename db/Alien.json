@@ -68,64 +68,56 @@
     {
       "character": {
         "name": "Ripley",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "2cf2b71a-2fe4-4ac9-a7a3-6ea1a9985770"
     },
     {
       "character": {
         "name": "Dallas",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9773b74f-01b6-4f5c-947f-0000088199fa"
     },
     {
       "character": {
         "name": "Lambert",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cee0fa43-ecb3-4afa-bce5-897a64c790c9"
     },
     {
       "character": {
         "name": "Brett",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d1d46671-946d-454f-bf1a-ba58424c8f99"
     },
     {
       "character": {
         "name": "Kane",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4da33978-90aa-4ef5-bcc8-246e1f6b2988"
     },
     {
       "character": {
         "name": "Ash",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e9964030-afa3-42d4-ab91-9c1fd7c0f177"
     },
     {
       "character": {
         "name": "Parker",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c7e70e66-039f-4421-b2df-308f87379fda"
     },
     {
       "character": {
         "name": "Alien",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "448f8862-8e2a-4082-942f-1cf2bfd9b77b"
     }

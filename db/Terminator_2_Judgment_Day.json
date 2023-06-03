@@ -82,40 +82,35 @@
     {
       "character": {
         "name": "T-800",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "dfb2cc61-095f-4a4c-8c60-64b1de7458a4"
     },
     {
       "character": {
         "name": "John Connor",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "87d544e4-9c3a-4357-bced-3d5a55fff331"
     },
     {
       "character": {
         "name": "Sarah Connor",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5567133f-edab-4200-bb7e-cd30a409abb2"
     },
     {
       "character": {
         "name": "T-1000",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "88e2c496-53e0-4ac6-98df-7851f4b76e65"
     },
     {
       "character": {
         "name": "Miles Bennett Dyson",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3bba759a-ae0f-46e9-92e7-0e11c3c1bacd"
     }

@@ -73,40 +73,35 @@
     {
       "character": {
         "name": "Ripley",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "2cf2b71a-2fe4-4ac9-a7a3-6ea1a9985770"
     },
     {
       "character": {
         "name": "Newt",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5b714993-abaf-4d6a-829a-ba31f9432b6e"
     },
     {
       "character": {
         "name": "Corporal Hicks",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "fedfd9ed-a1f3-4dfb-95aa-67dda121d4f9"
     },
     {
       "character": {
         "name": "Carter J. Burke",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "04ba2d74-68aa-4d07-9a24-22743e52d796"
     },
     {
       "character": {
         "name": "Bishop",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "de99dca8-89eb-4a96-a592-ed96c56ae8a2"
     }

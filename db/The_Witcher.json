@@ -159,72 +159,63 @@
     {
       "character": {
         "name": "Geralt of Rivia",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e92d7fd1-edce-45e3-8d2b-b35443ac770d"
     },
     {
       "character": {
         "name": "Ciri",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1ccfdd54-80d5-4a9d-b01c-1827ebfe733e"
     },
     {
       "character": {
         "name": "Yennefer",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c64b7696-9f95-4197-b365-0127471fd364"
     },
     {
       "character": {
         "name": "Tissaia",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "08320a0b-f753-44b5-88b2-d41bea4b129b"
     },
     {
       "character": {
         "name": "Dara",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a662b6de-a31d-4959-9b88-6f4d946a57c8"
     },
     {
       "character": {
         "name": "Mousesack",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d4ccc491-3e27-464c-9e70-c56c9125f875"
     },
     {
       "character": {
         "name": "Stregobor",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "333d379b-3fd0-4310-9b61-f239c925586d"
     },
     {
       "character": {
         "name": "Istredd",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "36d00d9e-f23a-4425-ae66-fc0de06cf3bc"
     },
     {
       "character": {
         "name": "Queen Calanthe",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0b2e1797-7378-4e20-9828-a27a1e44603a"
     }

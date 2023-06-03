@@ -262,104 +262,91 @@
     {
       "character": {
         "name": "Luther Hargreeves",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "35c2c4ea-41c4-4434-9ee6-a3693afdb48f"
     },
     {
       "character": {
         "name": "Diego Hargreeves",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cef86410-c685-4347-98bf-bd7844d463a4"
     },
     {
       "character": {
         "name": "Allison Hargreeves",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "08fc18b1-a4b9-4bcd-a9b9-b0ced787f47f"
     },
     {
       "character": {
         "name": "Klaus Hargreeves",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ec5bfd1d-2159-4572-9f5f-63b4c7c8dee3"
     },
     {
       "character": {
         "name": "Number Five",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1bdb0c7b-f7d9-46e5-aec0-8e2ecf9a1ee6"
     },
     {
       "character": {
         "name": "Ben Hargreeves",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d6e2899d-445a-4232-9e79-5b5491b67d31"
     },
     {
       "character": {
         "name": "Vanya Hargreeves",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e329dda6-a5c4-4427-bf93-16bb46e8e96f"
     },
     {
       "character": {
         "name": "Reginald Hargreeves",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "86b4d3f8-c9d2-46df-9d95-b6cb77b055d7"
     },
     {
       "character": {
         "name": "Lila Pitts",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4d7ffd93-be14-4738-b950-bb19a9c87552"
     },
     {
       "character": {
         "name": "Grace",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "2ba39e2d-1a51-44ae-b195-40e7415fb192"
     },
     {
       "character": {
         "name": "The Handler",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3cf34202-ab8c-41e6-af91-aa25c6ca038a"
     },
     {
       "character": {
         "name": "Hazel",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "2acb89dc-aa4f-4200-8244-adb05747d2b6"
     },
     {
       "character": {
         "name": "Cha-Cha",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "27bc76eb-df87-40e4-96f4-b1489f82d833"
     }

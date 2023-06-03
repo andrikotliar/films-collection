@@ -161,64 +161,56 @@
     {
       "character": {
         "name": "Sherlock Holmes",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b6c1e5b5-b534-438e-8ac1-a6bc0b901ac8"
     },
     {
       "character": {
         "name": "Dr. John Watson",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3ac110d8-83ac-40a6-b22f-7537190f750b"
     },
     {
       "character": {
         "name": "Mrs. Hudson",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "f2ceae2a-1ea6-4607-972a-3747d9bc856d"
     },
     {
       "character": {
         "name": "DI Lestrade",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "f7acd1f7-bce9-4c7b-ba9a-70a2f9d92918"
     },
     {
       "character": {
         "name": "Molly Hooper",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a66caead-b451-49ed-81c7-d38041e686b3"
     },
     {
       "character": {
         "name": "Mycroft Holmes",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "59ae6a9d-6005-4671-a78e-e938bea07fb7"
     },
     {
       "character": {
         "name": "Jim Moriarty",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "abb8c5f9-1623-4d3e-806e-7f5e8de4fc1d"
     },
     {
       "character": {
         "name": "Mary Watson",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3df8cd50-093e-4edb-a3d3-b6e4b282a9ec"
     }

@@ -60,72 +60,63 @@
     {
       "character": {
         "name": "Obi-Wan Kenobi",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "00ab0b8e-4e0a-4de4-ac2f-70bb49947372"
     },
     {
       "character": {
         "name": "Padme",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0f310c3e-4e4f-41b7-9c51-61b4b5935607"
     },
     {
       "character": {
         "name": "Anakin Skywalker",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "fd4015ca-89a9-477d-a8b0-63d397f46fb6"
     },
     {
       "character": {
         "name": "Count Dooku",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "59d49cbd-921f-4b4a-89c0-41260222973b"
     },
     {
       "character": {
         "name": "Mace Windu",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "65e7e9e0-8e37-4237-9b23-a1f8a2d09147"
     },
     {
       "character": {
         "name": "Yoda",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "11e3cf6a-7cbb-46ab-a58b-681d70c0d69c"
     },
     {
       "character": {
         "name": "Palpatine",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4280bdd8-33a0-4f2c-8024-7de0ead1924e"
     },
     {
       "character": {
         "name": "Jango Fett",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "59046197-954c-4802-bd11-37f1c62a191e"
     },
     {
       "character": {
         "name": "Bail Organa",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "258788d4-04ea-41c0-b8f9-5e653892f72c"
     }

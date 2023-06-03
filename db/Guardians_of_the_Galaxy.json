@@ -63,96 +63,84 @@
     {
       "character": {
         "name": "Peter Quill / Star-Lord",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d37a1702-6d76-425e-a1ac-940961feb029"
     },
     {
       "character": {
         "name": "Gamora",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "23e53bab-62a5-43a6-99a4-f61d68612d7d"
     },
     {
       "character": {
         "name": "Drax",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "991ea0a4-315d-42f4-8960-4b0c64be1ebd"
     },
     {
       "character": {
         "name": "Groot",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "81bac581-4158-4bcb-9920-60fd3a93bd6b"
     },
     {
       "character": {
         "name": "Rocket",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "41614959-9380-45b5-98b7-bad8ea79da1d"
     },
     {
       "character": {
         "name": "Ronan",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "33d9cb34-b243-4115-8fc3-4e073d89206a"
     },
     {
       "character": {
         "name": "Yondu Udonta",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "49943e49-03fd-41fd-99ae-7b37bb231079"
     },
     {
       "character": {
         "name": "Nebula",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0e1ceaa6-d248-427b-b2bf-89480f17a7c3"
     },
     {
       "character": {
         "name": "Korath",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "44677a98-c6e2-43c4-b7e2-3fe0a7f05703"
     },
     {
       "character": {
         "name": "Corpsman Dey",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "afd07ed4-7fcb-4a43-b45e-34d6f5f2a7ca"
     },
     {
       "character": {
         "name": "Nova Prime",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5b7f76d5-8799-49fa-879d-ceddf6548e3c"
     },
     {
       "character": {
         "name": "The Collector",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4fa32a1f-d2de-4d44-801f-2fcfb1ba6bde"
     }

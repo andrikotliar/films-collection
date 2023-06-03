@@ -42,160 +42,140 @@
     {
       "character": {
         "name": "Bruce Wayne / Batman",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9a789b25-5bc6-4680-9c86-d13fc2f93d40"
     },
     {
       "character": {
         "name": "Clark Kent / Superman",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e92d7fd1-edce-45e3-8d2b-b35443ac770d"
     },
     {
       "character": {
         "name": "Lois Lane",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "42e2fc86-5bb2-4f2d-8cd4-4ae286c08dd6"
     },
     {
       "character": {
         "name": "Diana Prince / Wonder Woman",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cac99b67-2448-4b4f-ab99-e88b4e516940"
     },
     {
       "character": {
         "name": "Barry Allen / The Flash",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ba66e4c4-8840-4706-ad29-7add3e3d1dde"
     },
     {
       "character": {
         "name": "Arthur Curry / Aquaman",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "bc4e2b06-01a0-4bcd-886a-bf360f90c181"
     },
     {
       "character": {
         "name": "Victor Stone / Cyborg",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "689ba014-22e7-4ad5-a426-ea3cccc3fc16"
     },
     {
       "character": {
         "name": "Alfred",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "90d0483f-127c-4dec-8165-f84e66f5ef9e"
     },
     {
       "character": {
         "name": "Martha Kent",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a469fc0d-53a2-4727-8ffe-d2fbb5f4ec84"
     },
     {
       "character": {
         "name": "Queen Hippolyta",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "71f09ce7-e350-4148-a945-fbb6b96c786f"
     },
     {
       "character": {
         "name": "Commissioner Gordon",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3034deb0-7b15-4310-b3c8-14a06daee243"
     },
     {
       "character": {
         "name": "Steppenwolf",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "8baee434-0f0f-46c0-b18d-57e115247859"
     },
     {
       "character": {
         "name": "Darkseid",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "230d9496-1fe3-4941-a781-563960e952fa"
     },
     {
       "character": {
         "name": "Ryan Choi",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cb4ecb7c-e331-451c-8170-6914b01204c5"
     },
     {
       "character": {
         "name": "Mera",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "bb7d7377-ba2a-4e02-b135-e3b7c70c178a"
     },
     {
       "character": {
         "name": "Silas Stone",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3bba759a-ae0f-46e9-92e7-0e11c3c1bacd"
     },
     {
       "character": {
         "name": "Deathstroke",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "676eefc2-cb59-4fc1-b82f-acaaf29dde65"
     },
     {
       "character": {
         "name": "Vulko",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4bbc8ea8-2f28-43b8-8a68-24598fd32c85"
     },
     {
       "character": {
         "name": "General Swanwick / Martian Manhunter",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "2cca1667-07db-451b-a853-9c4f1bd28cf3"
     },
     {
       "character": {
         "name": "DeSaad",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c215425a-4811-4332-87bf-67eb080a01d4"
     }

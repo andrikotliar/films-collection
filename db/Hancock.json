@@ -40,80 +40,70 @@
     {
       "character": {
         "name": "John Hancock",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0e631141-1b4a-4ed9-8325-5a1947f08404"
     },
     {
       "character": {
         "name": "Mary",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "88f04db4-a4c6-4449-adb9-ebbcdc57f582"
     },
     {
       "character": {
         "name": "Ray",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "51bb7b46-0647-4620-8875-5168ef74947a"
     },
     {
       "character": {
         "name": "Aaron",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "911face6-0e43-4581-a980-9cee8e8d58e5"
     },
     {
       "character": {
         "name": "Red",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1cb7b6e2-da77-4a95-bab6-a8ce8a8fbe6b"
     },
     {
       "character": {
         "name": "Man Mountain",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "bb22d0e1-ef12-4982-ac55-de9016728f90"
     },
     {
       "character": {
         "name": "Matrix",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0f3964ba-2520-4ddc-bd0e-955d76768c1d"
     },
     {
       "character": {
         "name": "Mike",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b17a2203-4643-454c-9adb-aaa3529ead28"
     },
     {
       "character": {
         "name": "Jeremy",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "69841fe0-8f2e-474d-80c2-21a13f49e365"
     },
     {
       "character": {
         "name": "Hottie",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "7bd36da9-7c57-429b-a1f9-e1a7e9fb7ecb"
     }

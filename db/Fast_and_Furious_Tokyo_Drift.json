@@ -44,48 +44,42 @@
     {
       "character": {
         "name": "Sean Boswell",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3d5c68b1-c351-4086-8c21-b217096101ff"
     },
     {
       "character": {
         "name": "Neela",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4a8a6bc8-b702-47d6-a8ba-0a9e969dcdff"
     },
     {
       "character": {
         "name": "Han",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d44f46b1-9cd7-432e-b62d-97de2a3ae027"
     },
     {
       "character": {
         "name": "Twinkie",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c987561c-e7e1-4e87-a98c-b6d29af05ab6"
     },
     {
       "character": {
         "name": "Takashi",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "fb22bd10-8061-467b-a27f-51059afb5e22"
     },
     {
       "character": {
         "name": "Dominic Torreto",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "81bac581-4158-4bcb-9920-60fd3a93bd6b"
     }

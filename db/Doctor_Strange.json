@@ -54,48 +54,42 @@
     {
       "character": {
         "name": "Dr. Stephen Strange",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b6c1e5b5-b534-438e-8ac1-a6bc0b901ac8"
     },
     {
       "character": {
         "name": "Mordo",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "f9adc0cc-6999-424d-a750-d5cd22ec97ae"
     },
     {
       "character": {
         "name": "Dr. Christine Palmer",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "8dfbb573-399a-4ff3-b5fa-a77cd2a7e0c4"
     },
     {
       "character": {
         "name": "Wong",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0138c730-8111-4494-bf7a-b96635ff65d2"
     },
     {
       "character": {
         "name": "Kaecilius",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "2ff1ac8e-3c81-431d-8718-d44041993b87"
     },
     {
       "character": {
         "name": "The Ancient One",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "78d42ba6-0084-41f0-8c12-32560e40c79b"
     }

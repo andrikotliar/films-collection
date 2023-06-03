@@ -66,48 +66,42 @@
     {
       "character": {
         "name": "Dr. Henry «Indiana» Jones, Jr.",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80"
     },
     {
       "character": {
         "name": "Professor Henry Jones",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "15ce62dd-b330-48c1-81e5-aeb875360062"
     },
     {
       "character": {
         "name": "Marcus Brody",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6865977f-8cdb-4e4b-89a3-914ea2fa28de"
     },
     {
       "character": {
         "name": "Elsa",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "bea777fc-2149-4c3f-ac13-2b2267d78236"
     },
     {
       "character": {
         "name": "Sallah",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cacd3465-d009-4fea-8c86-4c4bc266b6e5"
     },
     {
       "character": {
         "name": "Walter Donovan",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0828ff45-acce-400e-8415-85a1ecc0302b"
     }

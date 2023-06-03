@@ -43,64 +43,56 @@
     {
       "character": {
         "name": "Barry Seal",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81"
     },
     {
       "character": {
         "name": "Monty 'Schafer'",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0e501cfc-d0cb-463c-83b4-da4113e4afbc"
     },
     {
       "character": {
         "name": "Lucy Seal",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "8c61e23b-4b8c-4a6c-b531-bab8ae8bc9e8"
     },
     {
       "character": {
         "name": "Sheriff Downing",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "f0c350c9-f469-4faf-af3e-5313732e11ef"
     },
     {
       "character": {
         "name": "JB",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "28066701-2a1a-4ad5-b59b-6032dc599b46"
     },
     {
       "character": {
         "name": "George W. Bush",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "684a1dcc-8840-4e5e-9eac-cba3af3e8946"
     },
     {
       "character": {
         "name": "Pablo Escobar",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "fd966b66-a804-448e-80eb-abf32ef322d8"
     },
     {
       "character": {
         "name": "Jorge Ochoa",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "db5e19f2-30fc-477c-8ca6-dd724fb0628a"
     }

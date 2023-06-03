@@ -72,48 +72,42 @@
     {
       "character": {
         "name": "Captain Jack Sparrow",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e2d2c602-347d-41a4-8f35-a3d379043577"
     },
     {
       "character": {
         "name": "Will Turner",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9477d178-9893-44f0-9553-10119753c95f"
     },
     {
       "character": {
         "name": "Elizabeth Swann",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "09852405-f549-42e3-b781-8797340be64c"
     },
     {
       "character": {
         "name": "Norrington",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "35ca00e5-be27-4b73-a176-a4a09ea0c6a8"
     },
     {
       "character": {
         "name": "Davy Jones",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cfbe578b-11d9-404e-8320-5d9ec2b4f06d"
     },
     {
       "character": {
         "name": "Governor Weatherby Swann",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e33e9ef2-ee2e-497c-bfab-ff1f26118425"
     }

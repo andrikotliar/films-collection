@@ -80,48 +80,42 @@
     {
       "character": {
         "name": "Grant",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1970e5a6-cd2f-4982-af96-a9b0b1155051"
     },
     {
       "character": {
         "name": "Ellie",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "865a5ee4-fdb6-443e-b333-ff23c20029a5"
     },
     {
       "character": {
         "name": "Malcolm",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6b539e14-5cb0-4aa4-b194-4f1f240d0f64"
     },
     {
       "character": {
         "name": "Hammond",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9ef202b2-9850-4f52-9428-060c709f2cb6"
     },
     {
       "character": {
         "name": "Tim",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e16e2868-3796-4210-bf27-678271a2d204"
     },
     {
       "character": {
         "name": "Lex",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9f8a99db-df53-4050-8ca9-3c5264b4e07f"
     }

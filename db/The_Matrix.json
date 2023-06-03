@@ -93,48 +93,42 @@
     {
       "character": {
         "name": "Neo",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "7543d97c-88d9-4319-8f10-1bc00f84b0e9"
     },
     {
       "character": {
         "name": "Morpheus",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d5cfb42e-818e-43cf-9840-f842bc4579e6"
     },
     {
       "character": {
         "name": "Trinity",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ce8cfc76-f7db-469e-bf79-0800723c1fc5"
     },
     {
       "character": {
         "name": "Agent Smith",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
     },
     {
       "character": {
         "name": "Oracle",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "86ce9437-91e5-459f-a4b5-a6480fafd5fe"
     },
     {
       "character": {
         "name": "Cypher",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "79ec0ceb-f615-41af-8559-3e2da184f750"
     }

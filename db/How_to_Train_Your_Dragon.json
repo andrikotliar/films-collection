@@ -48,72 +48,63 @@
     {
       "character": {
         "name": "Hiccup",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "bd9320ce-d946-4c06-98f6-39871d61e972"
     },
     {
       "character": {
         "name": "Stoick ",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c781f4d1-0f36-4078-aece-b893a0405504"
     },
     {
       "character": {
         "name": "Gobber ",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5201384e-56db-455a-89f3-2c7ff61d9515"
     },
     {
       "character": {
         "name": "Astrid ",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9bed7813-db69-4322-bba9-bdc4763a1567"
     },
     {
       "character": {
         "name": "Snotlout ",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5abf531b-6efc-468e-8acf-70b8b49cf7dc"
     },
     {
       "character": {
         "name": "Fishlegs ",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e4ab1fb8-f28b-4e4a-869f-07f4dbf1dff1"
     },
     {
       "character": {
         "name": "Tuffnut ",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "aeea5387-89bf-4fd7-a9b9-85f6b4537a57"
     },
     {
       "character": {
         "name": "Ruffnut ",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e3e5068a-c5ad-484a-93e6-ded28d61e48f"
     },
     {
       "character": {
         "name": "Ack ",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "7d8eb5c9-9bac-400d-9952-3fbd5e154f14"
     }

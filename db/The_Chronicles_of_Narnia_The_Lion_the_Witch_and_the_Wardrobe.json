@@ -72,64 +72,56 @@
     {
       "character": {
         "name": "Lucy Pevensie",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3e49c831-a83a-4dc6-b05c-db4659e7bf01"
     },
     {
       "character": {
         "name": "Edmund Pevensie",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "bb971d88-23e9-4de4-b403-aeeeeb28a4d6"
     },
     {
       "character": {
         "name": "Peter Pevensie",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6880c6e5-2f35-4d88-b5ae-3cd11910cefa"
     },
     {
       "character": {
         "name": "Susan Pevensie",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a9021910-439c-4c91-9b1d-73a8b8a30a82"
     },
     {
       "character": {
         "name": "White Witch",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "78d42ba6-0084-41f0-8c12-32560e40c79b"
     },
     {
       "character": {
         "name": "Mr. Tumnus",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "8f4897bf-8957-47f7-9b1c-fe4616205de6"
     },
     {
       "character": {
         "name": "Professor Kirke",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "904469e3-d222-4e9c-be23-1cac77a68974"
     },
     {
       "character": {
         "name": "Aslan",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6f541516-898c-439d-bbc3-16aa28425e8d"
     }

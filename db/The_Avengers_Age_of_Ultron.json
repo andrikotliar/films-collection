@@ -53,128 +53,112 @@
     {
       "character": {
         "name": "Tony Stark / Iron Man",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e"
     },
     {
       "character": {
         "name": "Thor",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5a7b31cb-f62d-44ae-85b6-21ed4c144a2d"
     },
     {
       "character": {
         "name": "Bruce Banner / Hulk",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "66103de9-bd6b-4732-8a3b-b59d9c88035a"
     },
     {
       "character": {
         "name": "Steve Rogers / Captain America",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "38541020-9829-440f-a21b-caf46d2d9428"
     },
     {
       "character": {
         "name": "Natasha Romanoff / Black Widow",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "56501e25-8153-4a05-9aaa-43e683f72492"
     },
     {
       "character": {
         "name": "Clint Barton / Hawkeye",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b3e7f578-6981-4121-91d3-d768d95751ca"
     },
     {
       "character": {
         "name": "Ultron",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0ea5a590-9554-427a-8b79-71da5c42d215"
     },
     {
       "character": {
         "name": "Nick Fury",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "65e7e9e0-8e37-4237-9b23-a1f8a2d09147"
     },
     {
       "character": {
         "name": "James Rhodes",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "64bde65d-0d41-434b-ab94-01aa4422b632"
     },
     {
       "character": {
         "name": "Pietro Maximoff",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "8e22a021-6cef-4c3a-82fe-c5eefe62217a"
     },
     {
       "character": {
         "name": "Wanda Maximoff / Scarlett Witch",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "f08bca90-8dc3-440a-a32a-4647bdf4d828"
     },
     {
       "character": {
         "name": "Jarvis / Vision",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "7a77d424-0788-4e65-9596-e60d483cf264"
     },
     {
       "character": {
         "name": "Maria Hill",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "8627927d-0a92-4a5a-902f-24d189e429e2"
     },
     {
       "character": {
         "name": "Sam Wilson",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0"
     },
     {
       "character": {
         "name": "Peggy Carter",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6cc700ae-5188-4d37-b03e-c0dd08fc7465"
     },
     {
       "character": {
         "name": "Heimdall",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ed322351-e250-4592-a42d-18dc1e238066"
     }

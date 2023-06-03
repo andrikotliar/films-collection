@@ -45,96 +45,84 @@
     {
       "character": {
         "name": "Sam Witwicky",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0eac0045-e7d9-4f55-9bf5-4347b6447417"
     },
     {
       "character": {
         "name": "Carly",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d6270753-2921-4f42-aa7e-25c75acc11fc"
     },
     {
       "character": {
         "name": "Lennox",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "669ffd1c-6e00-4943-9ce9-80e98fba3b3f"
     },
     {
       "character": {
         "name": "Simmons",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3bd0ee3c-2afa-40de-8aac-ed75222a14dd"
     },
     {
       "character": {
         "name": "Epps",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d590cae8-3171-41ca-968c-1bbb1b425aa8"
     },
     {
       "character": {
         "name": "Dylan",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "24764a9c-188d-448e-b2c8-8438950d6e51"
     },
     {
       "character": {
         "name": "Mearing",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "31bd06fb-d592-4c5c-b6d2-77b779239ea5"
     },
     {
       "character": {
         "name": "Bruce Brazos",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5317ce46-2d7f-4fc3-8e59-2d25a6e529eb"
     },
     {
       "character": {
         "name": "Optimus Prime",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9174c001-6bed-4c51-910d-5caa6063f8a0"
     },
     {
       "character": {
         "name": "Megatron",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
     },
     {
       "character": {
         "name": "Sentinel Prime",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "f5f144c1-2549-4e2d-8cf7-50ed282c6318"
     },
     {
       "character": {
         "name": "Shockwave / Soundwave",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "017b1716-0402-4820-9a10-7765a7a4c98f"
     }

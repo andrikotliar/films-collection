@@ -93,72 +93,63 @@
     {
       "character": {
         "name": "Luke Skywalker",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4ff433ee-f363-4b38-8332-62b5ffece7dd"
     },
     {
       "character": {
         "name": "Han Solo",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80"
     },
     {
       "character": {
         "name": "Leia Organa",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3b974652-594d-4835-b73b-a497a2c849f9"
     },
     {
       "character": {
         "name": "Moff Tarkin",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d3493fa5-4de8-40fe-9d29-92cf16f7321c"
     },
     {
       "character": {
         "name": "Ben Obi-Wan Kenobi",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b6c0c5c7-7382-4b16-9ea9-8aff432e4622"
     },
     {
       "character": {
         "name": "C-3PO",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ee52d40c-12c0-417d-a413-491b049e76c3"
     },
     {
       "character": {
         "name": "R2-D2",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "373e6326-e3e5-4084-86cf-b2eb743441e0"
     },
     {
       "character": {
         "name": "Chewbacca",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b8f8ccea-b603-4414-8cf3-0d64cea77c19"
     },
     {
       "character": {
         "name": "Darth Vader",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4e9f83a6-617f-441f-b2a8-d030470d53a1"
     }

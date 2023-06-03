@@ -58,88 +58,77 @@
     {
       "character": {
         "name": "Logan / Wolverine",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3e2db4d6-df90-4736-9425-c1fd062d8868"
     },
     {
       "character": {
         "name": "Professor Charles Xavier",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "76c48e8a-834b-4683-a406-f2b72f99a39b"
     },
     {
       "character": {
         "name": "Eric Lensherr / Magneto",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "18b67364-14a8-461a-bf48-a12c4741d52f"
     },
     {
       "character": {
         "name": "Jean Grey",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "8c9ab14e-14f3-45bc-ac3f-6305a8d7aa11"
     },
     {
       "character": {
         "name": "Scott Summers / Cyclops",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "33667252-70d3-4c36-a89d-a0fd68e7b131"
     },
     {
       "character": {
         "name": "Ororo Munroe / Storm",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4551e8d8-1551-4a8e-926a-6b767938bdda"
     },
     {
       "character": {
         "name": "Rogue",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0acad1f8-e388-42ee-a0bc-c8e1a5b335a0"
     },
     {
       "character": {
         "name": "Sabretooth",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d1db93ce-f0a9-4825-bc23-b714b41c2159"
     },
     {
       "character": {
         "name": "Toad",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "fad61f43-784f-43bc-a5df-193d70fdee1a"
     },
     {
       "character": {
         "name": "Mystique Senator Kelly",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4533b45c-3d80-475c-8254-b13660e2aa3e"
     },
     {
       "character": {
         "name": "Senator Kelly",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "228b656c-0882-4251-8e2c-80c2c48e2098"
     }

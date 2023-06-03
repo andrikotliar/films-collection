@@ -44,56 +44,49 @@
     {
       "character": {
         "name": "Natasha Romanoff / Black Widow",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "56501e25-8153-4a05-9aaa-43e683f72492"
     },
     {
       "character": {
         "name": "Yelena Belova / Black Widow",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9bc18e7e-36b4-4524-af4c-b4c99a7413de"
     },
     {
       "character": {
         "name": "Melina Vostokoff / Black Widow",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "819d09b5-4e1e-4038-a658-1c71736eed87"
     },
     {
       "character": {
         "name": "Alexei Shostakov / Red Guardian",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1137f062-f67c-4686-9857-0ffc1bf53aa5"
     },
     {
       "character": {
         "name": "Rick Mason",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "526fcf40-b67d-4a7c-9a14-75b0f5d845ac"
     },
     {
       "character": {
         "name": "Antonia Dreykov / Taskmaster",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "15e23497-1682-48a3-ab05-bebac8767fdb"
     },
     {
       "character": {
         "name": "Dreykov",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "71efd2a5-8858-43a4-9bd7-6e52a8eaee6d"
     }

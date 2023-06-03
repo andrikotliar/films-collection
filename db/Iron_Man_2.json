@@ -45,80 +45,70 @@
     {
       "character": {
         "name": "Tony Stark / Iron Man",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e"
     },
     {
       "character": {
         "name": "Pepper Potts",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "21b0cc1a-55c6-40a0-88c4-aafcf510b3e4"
     },
     {
       "character": {
         "name": "James Rhodes / War Machine",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "64bde65d-0d41-434b-ab94-01aa4422b632"
     },
     {
       "character": {
         "name": "Natasha Romanoff / Black Whidow",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "56501e25-8153-4a05-9aaa-43e683f72492"
     },
     {
       "character": {
         "name": "Justin Hammer",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "7d61684d-2e25-404e-863e-456af0b1b68d"
     },
     {
       "character": {
         "name": "Ivan Vanko",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "022ba2f2-4455-4c96-ac5a-6d694fd74609"
     },
     {
       "character": {
         "name": "Nick Fury",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "65e7e9e0-8e37-4237-9b23-a1f8a2d09147"
     },
     {
       "character": {
         "name": "Agent Coulson",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1a2b1db2-33d9-4755-8702-1e054532094b"
     },
     {
       "character": {
         "name": "Howard Stark",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "8e34ff83-ec16-4201-849b-bfc482c8911b"
     },
     {
       "character": {
         "name": "Senator Stern",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "83c14810-cef1-4d3e-858d-16b82f6c572d"
     }

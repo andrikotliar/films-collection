@@ -95,80 +95,70 @@
     {
       "character": {
         "name": "Sam Wilson / Falcon / Captain America",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0"
     },
     {
       "character": {
         "name": "James \"Bucky\" Barnes / Winter Soldier / White Wolf",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6efe0990-f8c2-479e-970a-f990a42f774a"
     },
     {
       "character": {
         "name": "John Walker / Captain America / U.S. Agent",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "7c1b3858-5d84-4392-b553-1d7ba3629a24"
     },
     {
       "character": {
         "name": "Karli Morgenthau",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a64954db-d59b-406d-bf75-afa947dd864d"
     },
     {
       "character": {
         "name": "Sarah Wilson",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ae166564-1e38-4546-9f8a-fe1b78e15eac"
     },
     {
       "character": {
         "name": "James \"Rhodey\" Rhodes",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "64bde65d-0d41-434b-ab94-01aa4422b632"
     },
     {
       "character": {
         "name": "Helmut Zemo",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d31d9f34-2e99-4163-85e2-c801d2cf41d9"
     },
     {
       "character": {
         "name": "Sharon Carter / Power Broker",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b8cae279-8df0-4334-ab14-9682abbf1882"
     },
     {
       "character": {
         "name": "Ayo",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "dcbc2174-f30a-4be8-b21d-b2fccd31048a"
     },
     {
       "character": {
         "name": "Valentina Allegra de Fontaine",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "283b7be0-47c7-4082-804b-1f184b0c3537"
     }

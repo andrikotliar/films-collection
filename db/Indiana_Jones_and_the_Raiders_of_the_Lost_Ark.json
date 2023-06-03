@@ -87,48 +87,42 @@
     {
       "character": {
         "name": "Dr. Henry «Indiana» Jones, Jr.",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80"
     },
     {
       "character": {
         "name": "Marion",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d9149d9e-56e7-45ce-8c03-5cb1adcdf699"
     },
     {
       "character": {
         "name": "Belloq",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "21fe3bff-8d7d-482f-952a-5398f9ed258e"
     },
     {
       "character": {
         "name": "Toht",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "58291ec7-02f6-4b0e-aa50-2508bd1c706a"
     },
     {
       "character": {
         "name": "Sallah",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cacd3465-d009-4fea-8c86-4c4bc266b6e5"
     },
     {
       "character": {
         "name": "Brody",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6865977f-8cdb-4e4b-89a3-914ea2fa28de"
     }

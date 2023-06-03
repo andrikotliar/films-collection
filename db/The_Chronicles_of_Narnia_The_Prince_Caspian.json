@@ -45,64 +45,56 @@
     {
       "character": {
         "name": "Prince Caspian",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "17318765-5e64-43a4-8042-1ef13716785d"
     },
     {
       "character": {
         "name": "Lucy Pevensie",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3e49c831-a83a-4dc6-b05c-db4659e7bf01"
     },
     {
       "character": {
         "name": "Edmund Pevensie",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "bb971d88-23e9-4de4-b403-aeeeeb28a4d6"
     },
     {
       "character": {
         "name": "Peter Pevensie",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6880c6e5-2f35-4d88-b5ae-3cd11910cefa"
     },
     {
       "character": {
         "name": "Susan Pevensie",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a9021910-439c-4c91-9b1d-73a8b8a30a82"
     },
     {
       "character": {
         "name": "Miraz",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "99081286-8cce-4b7a-aea1-8bd7746d258c"
     },
     {
       "character": {
         "name": "Trumpkin",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6cc034f0-dc5c-41cc-967a-87f9d4d70c9a"
     },
     {
       "character": {
         "name": "Nikabrik",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d8513f29-4c84-4dd5-9077-8f2b988be685"
     }

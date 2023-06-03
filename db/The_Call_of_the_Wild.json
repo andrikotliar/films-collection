@@ -41,24 +41,21 @@
     {
       "character": {
         "name": "John Thornton",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80"
     },
     {
       "character": {
         "name": "Perrault",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "8dc10d24-b013-432f-b828-c9282444b342"
     },
     {
       "character": {
         "name": "Hal",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3eeed1a8-5505-4398-b9f2-56904214ddfd"
     }

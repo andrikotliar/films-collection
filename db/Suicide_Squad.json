@@ -59,72 +59,63 @@
     {
       "character": {
         "name": "Deadshot",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0e631141-1b4a-4ed9-8325-5a1947f08404"
     },
     {
       "character": {
         "name": "Harley Quinn",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "55644902-2d3a-45a8-ba5d-049274449fda"
     },
     {
       "character": {
         "name": "Amanda Waller",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "323dde3c-fb03-4c11-b8d0-aca57deb2b17"
     },
     {
       "character": {
         "name": "The Joker",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "fb39cd61-fecb-425f-b2f4-e50289774a31"
     },
     {
       "character": {
         "name": "George Harkness / Captain Boomerang",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "45712cb8-ed52-4847-bf71-f35d4aa0a161"
     },
     {
       "character": {
         "name": "Diablo",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b433e807-9923-48ad-b23a-599b59d3f67a"
     },
     {
       "character": {
         "name": "Killer Croc",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "948af610-7ded-4634-bdbc-972301a0939e"
     },
     {
       "character": {
         "name": "June Moone / Enchantress",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d09b2d53-8747-4954-8a6f-6ad500b13dd3"
     },
     {
       "character": {
         "name": "Rick Flag",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5e5c40b7-04ea-4cca-8f51-0353582a677c"
     }
