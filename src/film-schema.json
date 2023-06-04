@@ -1,0 +1,251 @@
+{
+  "id": {
+    "type": "string",
+    "description": "Unique identifier",
+    "required": true
+  },
+  "type": {
+    "type": "string",
+    "required": true,
+    "oneOf": [
+      "Film",
+      "Animation",
+      "Series"
+    ],
+    "description": "Devide data into Films and Series, but also can have the Animation type that doesn't influence on data, but is useful for filtering. You can mix Film and Animation types and Series and Animation types, but cannot Film and Series."
+  },
+  "title": {
+    "type": "string",
+    "required": true
+  },
+  "poster": {
+    "type": "array",
+    "required": true,
+    "items": {
+      "type": "string"
+    },
+    "description": "The name of a file that is stored by the /public/posters path and have to have the .webp extension. For the film/animation types it's required only one file in the array, for the series type each index is equal to a season."
+  },
+  "trailer": {
+    "type": "array",
+    "required": true,
+    "items": {
+      "type": "string"
+    },
+    "description": "Youtube video id (d9MyW72ELq0). For the film/animation types it's required only one ID in the array, for the series type each index is equal to a season."
+  },
+  "genres": {
+    "type": "array",
+    "required": true,
+    "items": {
+      "type": "string"
+    }
+  },
+  "production": {
+    "type": "array",
+    "required": true,
+    "items": {
+      "type": "string"
+    }
+  },
+  "crew": {
+    "type": "array",
+    "required": true,
+    "items": {
+      "type": "object",
+      "properties": {
+        "role": {
+          "type": "string",
+          "required": true,
+          "oneOf": [
+            "director",
+            "screenwriter",
+            "producer",
+            "cameraman",
+            "composer"
+          ]
+        },
+        "people": {
+          "type": "array",
+          "required": true,
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "required": true
+              },
+              "comment": {
+                "type": "string",
+                "required": false
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "year": {
+    "type": "number",
+    "required": true,
+    "description": "Release year"
+  },
+  "countries": {
+    "type": "array",
+    "required": true,
+    "items": {
+      "type": "string"
+    }
+  },
+  "synopsis": {
+    "type": "string",
+    "required": true,
+    "description": "Short description"
+  },
+  "cast": {
+    "type": "array",
+    "required": true,
+    "items": {
+      "type": "object",
+      "properties": {
+        "actorId": {
+          "type": "string",
+          "required": true,
+          "description": "Reference to the actor in the actors.json file"
+        },
+        "character": {
+          "type": "object",
+          "required": true,
+          "properties": {
+            "name": {
+              "type": "string",
+              "required": true
+            },
+            "imageUrl": {
+              "type": "string",
+              "required": true,
+              "description": "Link to the actor image from TMDB or any open resource."
+            }
+          }
+        }
+      }
+    }
+  },
+  "collections": {
+    "type": "array",
+    "required": true,
+    "items": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "required": true,
+          "description": "Every collection name that starts with \"Top\" will be added to the Tops filter, every collection name that ends with \"Universe\" will be added to the \"Cinematic Universes\" filter. Others name will be grouped into the Collections filter"
+        },
+        "order": {
+          "type": "number",
+          "required": false,
+          "description": "Order of films when the list are filtered by a collection name"
+        }
+      }
+    }
+  },
+  "duration": {
+    "type": "number",
+    "required": true,
+    "description": "Runtime in minutes"
+  },
+  "budget": {
+    "type": "object",
+    "required": false,
+    "properties": {
+      "value": {
+        "type": "number",
+        "required": true
+      },
+      "suffix": {
+        "type": "string",
+        "required": true,
+        "oneOf": [
+          "million",
+          "billion"
+        ]
+      }
+    }
+  },
+  "boxoffice": {
+    "type": "object",
+    "required": false,
+    "properties": {
+      "value": {
+        "type": "number",
+        "required": true
+      },
+      "suffix": {
+        "type": "string",
+        "required": true,
+        "oneOf": [
+          "million",
+          "billion"
+        ]
+      }
+    }
+  },
+  "awards": {
+    "type": "array",
+    "required": false,
+    "properties": {
+      "title": {
+        "type": "string",
+        "required": true
+      },
+      "nominations": {
+        "type": "array",
+        "required": true,
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "parts": {
+    "type": "object",
+    "required": false,
+    "description": "Allow to display the list of film chapters",
+    "properties": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "description": "Films with the same parts title will be gathered into chapters list. Basically it is the base title of a franchise (e.g. Pirates of the Caribbean)"
+      },
+      "part": {
+        "type": "number",
+        "required": true,
+        "description": "Order of films in the list"
+      }
+    }
+  },
+  "episodes": {
+    "type": "array",
+    "required": false,
+    "items": {
+      "type": "object",
+      "properties": {
+        "episodeOverall": {
+          "type": "number",
+          "required": true,
+          "description": "Episode number through all seasons"
+        },
+        "episode": {
+          "type": "number",
+          "required": true,
+          "description": "Episode number in the current season"
+        },
+        "title": {
+          "type": "string",
+          "required": true
+        }
+      }
+    }
+  }
+}
