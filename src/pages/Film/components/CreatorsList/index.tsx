@@ -1,8 +1,8 @@
 import { FC } from "react";
 import KeyValues from "../KeyValues";
-import { FilmType } from "@/types";
+import { GeneralFilm } from "@/types";
 
-const CreatorsList: FC<{ filmData: FilmType }> = ({ filmData }) => {
+const CreatorsList: FC<{ filmData: GeneralFilm }> = ({ filmData }) => {
   return (
     <div>
       <KeyValues

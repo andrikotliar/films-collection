@@ -1,11 +1,11 @@
 import './styles.css';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { useFilmsContext } from '@/context/filmsContext';
+import { useFilmsContext } from '@/context/FilmsContext';
 import { Loader } from '@/components';
 import { setBrowserTitle } from '@/heplers';
-import ActorsProvider from '@/context/actorsContext';
-import { FilmType } from '@/types';
+import ActorsProvider from '@/context/ActorsContext';
+import { FilmData, GeneralFilm, SeriesData } from '@/types';
 import {
   FilmTitle,
   TopLine,
@@ -24,13 +24,13 @@ import {
 const Film = () => {
   const { id } = useParams();
   const { initialFilmsList } = useFilmsContext();
-  const [ film, setFilm ] = useState<FilmType | null>(null);
+  const [ film, setFilm ] = useState<GeneralFilm | null>(null);
 
   if(film) {
     setBrowserTitle(`${film.title} - Films Collection`)
   }
   
-  const findCurrentFilm = (initialFilmsList: FilmType[]) => {
+  const findCurrentFilm = (initialFilmsList: GeneralFilm[]) => {
     const foundFilm = initialFilmsList.find(
       film => film.id === id
     );
@@ -61,10 +61,10 @@ const Film = () => {
           <FilmTitle title={film.title} />
           <TopLine filmData={film} />
         </section>
-        {!film.seasons ? (
-          <FilmMedia poster={film.poster} title={film.title} trailer={film.trailer} />
+        {!film.type.includes('Series') ? (
+          <FilmMedia poster={film.poster} title={film.title} trailer={(film as FilmData).trailer} />
         ) : (
-          <SeriesMedia seasons={film.seasons} title={film.title} poster={film.poster} />
+          <SeriesMedia seasons={(film as SeriesData).seasons} title={film.title} poster={film.poster} />
         )}
         <Synopsis text={film.synopsis} />
         
@@ -82,10 +82,10 @@ const Film = () => {
           <Cast cast={film.cast} />
         </section>
         
-        {film.seasons && (
+        {film.type.includes('Series') && (
           <section>
             <SectionTitle>Episodes Overview</SectionTitle>
-            <Episodes seasons={film.seasons} />
+            <Episodes seasons={(film as SeriesData).seasons} />
           </section>
         )}
         

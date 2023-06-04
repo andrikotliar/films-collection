@@ -1,7 +1,7 @@
 import './styles.css';
 import { FC, SyntheticEvent, useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
-import { useActorsContext } from "@/context/actorsContext";
+import { useActorsContext } from "@/context/ActorsContext";
 import { buildActorsData, buildLink } from "@/heplers";
 import { imageFallbacks } from '@/constants';
 import { Cast as CastType, FilledActorData } from '@/types';

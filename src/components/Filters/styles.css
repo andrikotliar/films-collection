@@ -27,5 +27,9 @@
 }
 
 .filters__controls button {
+  border-radius: 50px;
+}
+
+.filters__apply {
   flex: 1;
 }

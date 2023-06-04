@@ -1,6 +1,6 @@
 import './styles.css';
 import { Link } from "react-router-dom";
-import { useFilmsContext } from "@/context/filmsContext";
+import { useFilmsContext } from "@/context/FilmsContext";
 import { Loader, Pager } from "@/components";
 import { useEffect } from "react";
 import ListHeader from '../ListHeader';

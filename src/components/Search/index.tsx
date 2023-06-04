@@ -10,7 +10,7 @@ const Search: FC<{ isOpen: boolean }> = ({ isOpen }) => {
   const [searchString, setSearchString] = useState('');
 
   const runSearch = (searchValue: string) => {
-    navigate(`/?search=${searchValue}`);
+    navigate(`/?search=${searchValue.toLowerCase()}`);
   }
 
   const onSubmit = (event: FormEvent<HTMLFormElement>) => {
@@ -24,6 +24,12 @@ const Search: FC<{ isOpen: boolean }> = ({ isOpen }) => {
       searchInputRef.current.focus();
     }
   }
+
+  useEffect(() => {
+    if(isOpen) {
+      searchInputRef.current.focus();
+    }
+  }, [isOpen])
 
   useEffect(() => {
     document.addEventListener('keydown', focusSearch);

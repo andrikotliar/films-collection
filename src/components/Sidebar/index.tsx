@@ -1,4 +1,4 @@
-import { useAppContext } from '@/context/appContext';
+import { useAppContext } from '@/context/AppContext';
 import Filters from '../Filters';
 import './styles.css';
 import classNames from 'classnames';

@@ -1,4 +1,4 @@
-import { useFilmsContext } from "@/context/filmsContext";
+import { useFilmsContext } from "@/context/FilmsContext";
 import './styles.css';
 
 const parametersToShow = ['actorName', 'directedBy'];
