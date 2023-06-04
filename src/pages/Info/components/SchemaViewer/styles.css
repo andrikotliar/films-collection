@@ -1,0 +1,39 @@
+.schema-block {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.schema-block:first-child {
+  margin-left: 0;
+}
+
+.schema-block__label,
+.schema-block__array-label {
+  color: #1AD6B5;
+  margin-right: 5px;
+}
+
+.schema-block__data {
+  margin-left: 20px;
+}
+
+.schema-block__data div {
+  display: inline-block;
+}
+
+.schema-block__data .number,
+.schema-block__data .boolean {
+  color: #9984EE;
+}
+
+.schema-block__array {
+  margin-left: 20px;
+}
+
+.schema-block__array-values {
+  margin-left: 20px;
+}
+
+.schema-block__array-bracket {
+  color: #FFA000;
+}
