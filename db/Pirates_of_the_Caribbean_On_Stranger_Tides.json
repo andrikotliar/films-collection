@@ -45,56 +45,49 @@
     {
       "character": {
         "name": "Captain Jack Sparrow",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e2d2c602-347d-41a4-8f35-a3d379043577"
     },
     {
       "character": {
         "name": "Angelica",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5903d731-5875-474e-a84f-1c93c0d9963c"
     },
     {
       "character": {
         "name": "Barbossa",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ed136d46-6d12-4343-ba41-0014e7f0e171"
     },
     {
       "character": {
         "name": "Blackbeard",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5ed07453-ee7d-426b-bf1c-799314d762bd"
     },
     {
       "character": {
         "name": "Gibbs",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "82c6791e-974b-43f3-a643-51e734a33522"
     },
     {
       "character": {
         "name": "Philip",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3f218f49-7b69-41e2-96b6-415b7fb97172"
     },
     {
       "character": {
         "name": "Syrena",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a89a58b3-7927-48a3-a41e-0e5d05e84d28"
     }

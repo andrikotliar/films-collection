@@ -1,5 +1,5 @@
 import './styles.css';
-import { useFilmsContext } from "@/context/filmsContext";
+import { useFilmsContext } from "@/context/FilmsContext";
 import classNames from "classnames";
 import { filmsSettings } from "@/constants";
 

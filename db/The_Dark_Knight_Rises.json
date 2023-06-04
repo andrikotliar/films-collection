@@ -53,104 +53,91 @@
     {
       "character": {
         "name": "Bruce Wayne",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6900c450-d6ad-4f62-8af7-d8398a1b6f77"
     },
     {
       "character": {
         "name": "Commissioner Gordon",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0b0a40d3-1976-4f41-b8b1-1a86e37042ea"
     },
     {
       "character": {
         "name": "Bane",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ae102061-d333-4298-b22b-bde9e0bf110f"
     },
     {
       "character": {
         "name": "Blake",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4e666ef9-06a3-4372-8684-71aca1713d6b"
     },
     {
       "character": {
         "name": "Selina",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "2f4125f0-fe12-41dd-88d7-0cb4582d5f1f"
     },
     {
       "character": {
         "name": "Miranda",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "48f24be3-c558-4de3-b745-1b21538e4437"
     },
     {
       "character": {
         "name": "Fox",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "768ac83c-1206-4dd2-87f4-fd0550f8492b"
     },
     {
       "character": {
         "name": "Alfred",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "87d38720-3045-4fad-9302-75ddc6e847d1"
     },
     {
       "character": {
         "name": "Foley",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "104dc564-1273-4cee-8228-6ebddfad5506"
     },
     {
       "character": {
         "name": "Dr. Pavel",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a19386c5-f8cd-45fb-a26a-bdfab67da198"
     },
     {
       "character": {
         "name": "Daggett",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c001e778-8f5f-4626-983c-e492f2a1bb3e"
     },
     {
       "character": {
         "name": "Stryver",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c43b96b4-bcc3-4de4-828c-2fc051732d87"
     },
     {
       "character": {
         "name": "Captain Jones",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "938fae8e-6b9d-4be6-8c10-2123031c43e1"
     }

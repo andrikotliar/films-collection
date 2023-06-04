@@ -40,48 +40,42 @@
     {
       "character": {
         "name": "Frank",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1f7932ee-21db-4be0-b125-958a65b86594"
     },
     {
       "character": {
         "name": "Will",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "586e7657-8411-4540-a748-26e815d3fb92"
     },
     {
       "character": {
         "name": "Connie",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "532dfdc9-0006-4d29-9068-485005d3dc4f"
     },
     {
       "character": {
         "name": "Dewey",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "8fed07fe-075e-4100-8b66-0f047c333b40"
     },
     {
       "character": {
         "name": "Galvin",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "bf93bd4a-80b9-4175-a347-c1994749a3e0"
     },
     {
       "character": {
         "name": "Inspector Werner",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "97ad1b79-9461-4eac-8170-0bbe3a47ee5a"
     }

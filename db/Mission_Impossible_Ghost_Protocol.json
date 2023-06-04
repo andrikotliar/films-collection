@@ -53,40 +53,35 @@
     {
       "character": {
         "name": "Ethan Hunt",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81"
     },
     {
       "character": {
         "name": "Jane",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6afcf7b3-aec6-4502-8008-ee8af2870f8a"
     },
     {
       "character": {
         "name": "Benji",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "265bd112-e4bd-4d75-878c-cd5c60d2d034"
     },
     {
       "character": {
         "name": "Brandt",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b3e7f578-6981-4121-91d3-d768d95751ca"
     },
     {
       "character": {
         "name": "Hendricks",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "2f31070a-a697-4af5-ae35-ab8ce3c06f0d"
     }

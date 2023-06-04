@@ -44,72 +44,63 @@
     {
       "character": {
         "name": "Frank Martin",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4a36ad60-4af7-44a4-85e7-879a11ec7b2e"
     },
     {
       "character": {
         "name": "Gianni Chellini",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "166573f3-a7c3-47c3-9a48-64c8921a4f80"
     },
     {
       "character": {
         "name": "Audrey Billings",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "02986bb9-a8fe-42bf-a373-0da5bb88849f"
     },
     {
       "character": {
         "name": "Lola",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3118643f-d7e1-4b84-83a5-8a4d40d4625e"
     },
     {
       "character": {
         "name": "Jefferson Billings",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "104dc564-1273-4cee-8228-6ebddfad5506"
     },
     {
       "character": {
         "name": "Dimitri",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "bebd0e6a-9671-4a95-ad7a-182b595e3d40"
     },
     {
       "character": {
         "name": "Stappleton",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "11de0615-6faf-461b-9b3b-6e6662f084c0"
     },
     {
       "character": {
         "name": "Jack Billings",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "50422e54-66b2-440d-8c36-1ab4fbdffef8"
     },
     {
       "character": {
         "name": "Inspector Tarconi",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "18075778-b409-47e7-8d3a-2b296d3908e3"
     }

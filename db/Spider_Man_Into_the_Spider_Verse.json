@@ -63,96 +63,84 @@
     {
       "character": {
         "name": "Miles Morales",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "f77b054a-0abb-449e-bf33-4f77b5f71375"
     },
     {
       "character": {
         "name": "Peter B. Parker",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ba27009e-efb1-4811-9ac7-4bf64152918a"
     },
     {
       "character": {
         "name": "Gwen Stacy",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1a9d8258-5634-4990-bb53-f0262f587084"
     },
     {
       "character": {
         "name": "Uncle Aaron",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ee6f8993-13d0-4a0b-ba97-1cd08b0428d8"
     },
     {
       "character": {
         "name": "Jefferson Davis",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "353aff48-04c0-427e-a670-6fbc3a861d16"
     },
     {
       "character": {
         "name": "Aunt May",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "854e27fb-78d8-4190-8e7e-a608bf44451c"
     },
     {
       "character": {
         "name": "Rio Morales",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "dd599f28-e6b0-4016-a815-7b1eb388043b"
     },
     {
       "character": {
         "name": "Mary Jane",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d0581330-d8c7-4ae3-b638-7aabb28cdfa4"
     },
     {
       "character": {
         "name": "Spider-Ham",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "24a25753-bf24-4b01-a46b-ed1bc975355b"
     },
     {
       "character": {
         "name": "Peni Parker",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9fe90b2d-6633-43b2-9cbb-5dd8ed7eb2a3"
     },
     {
       "character": {
         "name": "Spider-Man Noir",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "155db7cd-d010-42ad-9041-58afc680fb53"
     },
     {
       "character": {
         "name": "Wilson Fisk",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "7259af6b-8864-4412-b9dd-41cfa1643304"
     }

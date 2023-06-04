@@ -46,64 +46,56 @@
     {
       "character": {
         "name": "Shrek",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "fd488142-fcd7-4e8d-890a-148da9d26761"
     },
     {
       "character": {
         "name": "Donkey",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "99e5b905-3388-4ec8-a9c6-34f0f5229e05"
     },
     {
       "character": {
         "name": "Fiona",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "75e4a5c6-64e1-4493-90a6-bd31734ce3ed"
     },
     {
       "character": {
         "name": "Puss In Boots",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e1e6186f-8bc4-401f-b818-8fbb22d44691"
     },
     {
       "character": {
         "name": "Queen",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9649d428-2027-439d-ac69-b04dcef79f77"
     },
     {
       "character": {
         "name": "King",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e23d9e20-90d0-462e-a693-507a089ced1b"
     },
     {
       "character": {
         "name": "Prince Charming",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "66a6fc87-58dd-417b-bb0a-b7da79794db2"
     },
     {
       "character": {
         "name": "Fairy Godmother",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5de8777a-57aa-4b6f-95f8-56a58243aa10"
     }

@@ -45,40 +45,35 @@
     {
       "character": {
         "name": "Jake Sully",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "231acbe9-f5fd-46fb-84ad-0a0ea009f828"
     },
     {
       "character": {
         "name": "Neytiri",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "23e53bab-62a5-43a6-99a4-f61d68612d7d"
     },
     {
       "character": {
         "name": "Kiri",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "2cf2b71a-2fe4-4ac9-a7a3-6ea1a9985770"
     },
     {
       "character": {
         "name": "Quaritch",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "34a6cfdf-8d07-4ce7-b0fb-684b9cc105dc"
     },
     {
       "character": {
         "name": "Ronal",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "2399b787-01d5-4372-83db-b4ba3d0730ea"
     },
@@ -86,16 +81,14 @@
       "name": "Cliff Curtis",
       "character": {
         "name": "Tonowari",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4df5b856-f94f-41bf-a999-d4e80b962a35"
     },
     {
       "character": {
         "name": "Norm",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "310ca9d3-c632-4a93-89f2-f7a539cad1bb"
     },
@@ -103,8 +96,7 @@
       "name": "Jamie Flatters",
       "character": {
         "name": "Neteyam",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4206bcab-efc6-4176-9163-24dbbd3a70c1"
     },
@@ -112,8 +104,7 @@
       "name": "Britain Dalton",
       "character": {
         "name": "Lo'Ak",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c7d12de2-8512-4e94-af99-1b155f8bf3c8"
     },
@@ -121,8 +112,7 @@
       "name": "Trinity Jo-Li Bliss",
       "character": {
         "name": "Tuk",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e70db34e-d839-4c3c-9f9e-c0192a134432"
     },
@@ -130,8 +120,7 @@
       "name": "Jack Champion",
       "character": {
         "name": "Spider",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d7092eb2-32ae-4357-992f-67c0d1f52797"
     },
@@ -139,8 +128,7 @@
       "name": "Bailey Bass",
       "character": {
         "name": "Tsireya",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "2c041a6f-76f2-4d7b-b3b9-607e69d6deac"
     },
@@ -148,8 +136,7 @@
       "name": "Filip Gelijo",
       "character": {
         "name": "Aonung",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "f818c29d-9609-4d4f-ad90-17b79b649839"
     },
@@ -157,8 +144,7 @@
       "name": "Duane Evans Jr.",
       "character": {
         "name": "Rotxo",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "30d5c15e-3be2-4c23-bf6f-afd331a588e2"
     },
@@ -166,8 +152,7 @@
       "name": "Edie Falco",
       "character": {
         "name": "General Ardmore",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "937d3d93-3df6-4eb5-b290-b8fe80d960d8"
     }

@@ -45,72 +45,63 @@
     {
       "character": {
         "name": "Bruce Wayne / Batman",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9a789b25-5bc6-4680-9c86-d13fc2f93d40"
     },
     {
       "character": {
         "name": "Clark Kent / Superman",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e92d7fd1-edce-45e3-8d2b-b35443ac770d"
     },
     {
       "character": {
         "name": "Lois Lane",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "42e2fc86-5bb2-4f2d-8cd4-4ae286c08dd6"
     },
     {
       "character": {
         "name": "Lex Luthor",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "2bcf645c-68c2-419e-a8c1-1b823e7d815e"
     },
     {
       "character": {
         "name": "Martha Kent",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a469fc0d-53a2-4727-8ffe-d2fbb5f4ec84"
     },
     {
       "character": {
         "name": "Perry White",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d5cfb42e-818e-43cf-9840-f842bc4579e6"
     },
     {
       "character": {
         "name": "Alfred Pennyworth",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "90d0483f-127c-4dec-8165-f84e66f5ef9e"
     },
     {
       "character": {
         "name": "Senator Finch",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9cb7e9b4-86c6-429d-9756-efb2cab6f330"
     },
     {
       "character": {
         "name": "Diana Prince / Wonder Woman",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cac99b67-2448-4b4f-ab99-e88b4e516940"
     }

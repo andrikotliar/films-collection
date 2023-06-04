@@ -86,72 +86,63 @@
     {
       "character": {
         "name": "Loki",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3f48a450-bff9-4a01-a00a-bba10e5a1e0a"
     },
     {
       "character": {
         "name": "Ravonna Renslayer",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "eb815f03-d721-4d6c-8cbd-0ae8b0f11b91"
     },
     {
       "character": {
         "name": "Sylvie",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c72a1017-9a72-468d-8312-9d517590e16f"
     },
     {
       "character": {
         "name": "Mobius",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ac7aa64f-cb8c-4729-bb25-a26fc1617da5"
     },
     {
       "character": {
         "name": "Hunter B-15",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "8c9bae37-4f8f-4187-acd5-670b2416141b"
     },
     {
       "character": {
         "name": "Miss Minutes",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3bbe8cbc-fc7b-42bf-a4a5-a34de0e3ceda"
     },
     {
       "character": {
         "name": "Classic Loki",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c87df396-657b-4c7b-9a59-63af0cac7886"
     },
     {
       "character": {
         "name": "Kid Loki",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e3b35f37-c474-4587-b356-c45ecb957a62"
     },
     {
       "character": {
         "name": "He Who Remains",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0f0e2257-d791-4061-a14d-0bc42c85c6cc"
     }

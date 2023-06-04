@@ -55,72 +55,63 @@
     {
       "character": {
         "name": "Rey",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d38d79f6-63ce-4543-a2b4-b820fc7fbb60"
     },
     {
       "character": {
         "name": "Kylo Ren",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0aab5e43-79d6-4ffd-a921-bfd17a551394"
     },
     {
       "character": {
         "name": "Finn",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3f606ca0-e479-4cdb-9f7e-ed72d980f6f4"
     },
     {
       "character": {
         "name": "Luke Skywalker",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4ff433ee-f363-4b38-8332-62b5ffece7dd"
     },
     {
       "character": {
         "name": "Leia",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3b974652-594d-4835-b73b-a497a2c849f9"
     },
     {
       "character": {
         "name": "Poe Dameron",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6322247a-311c-414e-a2ce-e5f658811569"
     },
     {
       "character": {
         "name": "Snoke",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135"
     },
     {
       "character": {
         "name": "Maz Kanata",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1c546317-ff4b-42d3-893b-7d59de3a35fc"
     },
     {
       "character": {
         "name": "Phasma",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a64e4407-72e4-44c3-889b-127f6750765a"
     }

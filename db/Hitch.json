@@ -47,40 +47,35 @@
     {
       "character": {
         "name": "Hitch",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0e631141-1b4a-4ed9-8325-5a1947f08404"
     },
     {
       "character": {
         "name": "Sara",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d6324ad7-dfed-40b0-911b-6cfa1d39f79c"
     },
     {
       "character": {
         "name": "Albert",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b7611baa-5dff-4dc9-982f-f9dfc474296f"
     },
     {
       "character": {
         "name": "Allegra",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "02986bb9-a8fe-42bf-a373-0da5bb88849f"
     },
     {
       "character": {
         "name": "Casey",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d14cc3fb-3cd4-4ba0-a853-2a5ff532503e"
     }

@@ -54,88 +54,77 @@
     {
       "character": {
         "name": "Cage",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81"
     },
     {
       "character": {
         "name": "Rita",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c892df31-7868-42cc-b245-ded4556da768"
     },
     {
       "character": {
         "name": "General Brigham",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9bde7480-17e9-4c82-820d-4e42a339bfde"
     },
     {
       "character": {
         "name": "Master Sergeant Farell",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a21fff8b-a24d-40e2-8e05-e44d558d7f3f"
     },
     {
       "character": {
         "name": "Skinner",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "fae4d734-7e0e-4318-a702-5e96a79eddd0"
     },
     {
       "character": {
         "name": "Kimmel",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d8e0b43c-3326-41ef-a4e4-8ccfd17ebad4"
     },
     {
       "character": {
         "name": "Griff",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b9a9535a-b556-4eaf-a1aa-670fa1c5940c"
     },
     {
       "character": {
         "name": "Ford",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0f184322-867e-4da7-a0c0-125c126b9fa3"
     },
     {
       "character": {
         "name": "Kuntz",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c1a8313e-52a7-454c-b906-78a1ae46e8a8"
     },
     {
       "character": {
         "name": "Nance",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "675f9a7c-5e1a-412d-8906-3f2d93c1af87"
     },
     {
       "character": {
         "name": "Takeda",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "bebd7a91-14d2-47dd-ab7b-4d53049d4dce"
     }

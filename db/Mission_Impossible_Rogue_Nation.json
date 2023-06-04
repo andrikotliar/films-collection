@@ -44,64 +44,56 @@
     {
       "character": {
         "name": "Ethan Hunt",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81"
     },
     {
       "character": {
         "name": "William Brandt",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b3e7f578-6981-4121-91d3-d768d95751ca"
     },
     {
       "character": {
         "name": "Benji Dunn",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "265bd112-e4bd-4d75-878c-cd5c60d2d034"
     },
     {
       "character": {
         "name": "Ilsa Faust",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5de23f5e-b272-4fa6-9128-6dc70bc9784a"
     },
     {
       "character": {
         "name": "Luther Stickell",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a73a07c8-48c4-4a30-a559-2e6ae0ad3a68"
     },
     {
       "character": {
         "name": "Lane",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "56857981-c9e3-4e0a-bb2e-ed00ddb36c6a"
     },
     {
       "character": {
         "name": "Atlee",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9f6943d3-a6e6-4d6b-a7a9-a4f53de605d3"
     },
     {
       "character": {
         "name": "Prime Minister",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "7e743648-0b27-4015-a291-a78eb50c9229"
     }

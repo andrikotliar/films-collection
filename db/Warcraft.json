@@ -41,104 +41,91 @@
     {
       "character": {
         "name": "Anduin Lothar",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "737bbe3a-80ae-42a2-8500-207976127507"
     },
     {
       "character": {
         "name": "Garona",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6afcf7b3-aec6-4502-8008-ee8af2870f8a"
     },
     {
       "character": {
         "name": "Medivh",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cbc5ec16-8349-4460-b4c1-3b4ac5458f63"
     },
     {
       "character": {
         "name": "Llane Wrynn",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "48047421-83ba-4ea8-9f7d-c8f4e98dad79"
     },
     {
       "character": {
         "name": "Durotan / Antonidas",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "bec1cd7d-5c0e-4da9-952a-178bd6300466"
     },
     {
       "character": {
         "name": "Khadgar",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "78948598-15f1-4410-9260-1cd0feaa587b"
     },
     {
       "character": {
         "name": "Orgrim",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "09c939c8-d8a1-47ad-aa2a-4ce757af6ff9"
     },
     {
       "character": {
         "name": "Blackhand",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "7ba0570a-68be-41d9-b548-66375734f7ac"
     },
     {
       "character": {
         "name": "Gul'dan",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a0f1e720-acf9-44ac-9ae5-bda5e680a42e"
     },
     {
       "character": {
         "name": "Lady Taria",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a8874657-7152-46f8-bad0-107d7ea23cbf"
     },
     {
       "character": {
         "name": "Draka",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c9547fd9-b81e-460e-964d-31c540d24bf0"
     },
     {
       "character": {
         "name": "Moroes",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "94af4f7f-c18b-426b-b279-b13f97214e83"
     },
     {
       "character": {
         "name": "Callan",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4d047c47-5f96-42f8-9785-39c157afb232"
     }

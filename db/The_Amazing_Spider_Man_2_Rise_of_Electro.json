@@ -45,32 +45,28 @@
     {
       "character": {
         "name": "Spider-Man / Peter Parker",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c46854bf-fbc1-41f3-8178-9068a0bc8042"
     },
     {
       "character": {
         "name": "Gwen Stacy",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "87534bac-855b-43e6-a1e6-ab35f4ee0e30"
     },
     {
       "character": {
         "name": "Electro / Max Dillon",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "019133ab-0bae-49b7-a221-c4226fbedcb3"
     },
     {
       "character": {
         "name": "Green Goblin / Harry Osborn",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cb237545-9109-488f-a923-08cc14dda51b"
     }

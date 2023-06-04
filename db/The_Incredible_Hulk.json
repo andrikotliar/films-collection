@@ -45,40 +45,35 @@
     {
       "character": {
         "name": "Bruce Banner / Hulk",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "dc558210-18c4-49e1-95f3-0fb82d6922ac"
     },
     {
       "character": {
         "name": "Betty Ross",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "8373014e-e8c0-4615-8818-8c1388a13d74"
     },
     {
       "character": {
         "name": "Emil Blonsky / Abomination",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "247f6f1b-3b21-4856-8896-c9ff4856d80a"
     },
     {
       "character": {
         "name": "Thaddeus Ross",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b7fe53fb-9c28-4dad-9a00-8792043aeca1"
     },
     {
       "character": {
         "name": "Samuel Sterns",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a184dd3c-e6fb-4da8-b02c-a03407946399"
     }

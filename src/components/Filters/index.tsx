@@ -4,9 +4,9 @@ import { useLocation } from 'react-router-dom';
 import { filtersConfig } from '@/configs';
 import StandardFilter from './components/StandardFilter';
 import ExpandFilter from './components/ExpandFilter';
-import { useFilmsContext } from '@/context/filmsContext';
+import { useFilmsContext } from '@/context/FilmsContext';
 import { useForm, FormProvider, useFormState } from 'react-hook-form';
-import { FilterIcon } from '@/assets/icons';
+import { FilterIcon, ResetIcon } from '@/assets/icons';
 
 const Filters = () => {
   const { filterParams, updateFilter, resetFilter } = useFilmsContext();
@@ -52,7 +52,7 @@ const Filters = () => {
           )}
         </div>
         <div className="filters__controls">
-          <button className="button">
+          <button className="button filters__apply">
             <div className="button__icon">
               <FilterIcon color="white" />
             </div>
@@ -63,7 +63,9 @@ const Filters = () => {
               resetFilter();
               methods.reset();
             }}>
-              Show all
+              <div className="button__icon">
+                <ResetIcon />
+              </div>
             </button>
           )}
         </div>

@@ -44,72 +44,63 @@
     {
       "character": {
         "name": "Ethan Hunt",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81"
     },
     {
       "character": {
         "name": "Jim Phelps",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c9993d00-ed24-41d2-9bb7-d6eb83a33525"
     },
     {
       "character": {
         "name": "Claire",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e74a5f4c-f16c-40ab-a258-c268f2acce0a"
     },
     {
       "character": {
         "name": "Kittridge",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "449051d2-fcef-4640-9794-d87987cbe666"
     },
     {
       "character": {
         "name": "Krieger",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "232061d1-31d2-448d-9810-09e895cadef6"
     },
     {
       "character": {
         "name": "Luther",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a73a07c8-48c4-4a30-a559-2e6ae0ad3a68"
     },
     {
       "character": {
         "name": "Sarah Davies",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b133e4c6-8bc9-4c15-921c-f57cf00ba5da"
     },
     {
       "character": {
         "name": "Max",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "29e381ea-f756-422c-9b7d-769f524c6216"
     },
     {
       "character": {
         "name": "Hannah",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d72941b6-6e74-4b4b-aea7-849cc2e1c7d4"
     }

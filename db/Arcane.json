@@ -105,88 +105,77 @@
     {
       "character": {
         "name": "Vi",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1a9d8258-5634-4990-bb53-f0262f587084"
     },
     {
       "character": {
         "name": "Jinx",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "517d6a59-581f-4f95-9fa7-998d7e25dcbe"
     },
     {
       "character": {
         "name": "Jayce",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b1bb9232-e486-4bbf-ad60-4e6a34da2ee7"
     },
     {
       "character": {
         "name": "Silco",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4468585f-0093-4d09-9cc1-f4fc6f944140"
     },
     {
       "character": {
         "name": "Viktor",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "93530626-4fe7-4b30-ba92-e636941b689c"
     },
     {
       "character": {
         "name": "Mel Medarda",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ad88047d-1e07-4d21-a4a7-d10b131b2dae"
     },
     {
       "character": {
         "name": "Vander",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d590a983-d5c8-4e4a-9386-aa251e72efb7"
     },
     {
       "character": {
         "name": "Marcus",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "fe2d6d44-4dea-4bf6-b171-ea3a7503ce8f"
     },
     {
       "character": {
         "name": "Caitlyn",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "057b29da-5b1e-4ec5-93b7-0dc5434e8655"
     },
     {
       "character": {
         "name": "Heimerdinger",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "da928605-dde3-4773-82ae-cd7847932939"
     },
     {
       "character": {
         "name": "Ekko",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "38b319e3-5be2-4d16-928f-53b584d34b52"
     }

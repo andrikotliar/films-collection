@@ -53,104 +53,91 @@
     {
       "character": {
         "name": "Captain James T. Kirk",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "586e7657-8411-4540-a748-26e815d3fb92"
     },
     {
       "character": {
         "name": "Commander Spock",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "8ee9d755-abc4-4dc4-8255-7b46fdf7d84e"
     },
     {
       "character": {
         "name": "Doctor 'Bones' McCoy",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3b561873-fcce-4fc8-80f8-bae7ba163e26"
     },
     {
       "character": {
         "name": "Uhura",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "23e53bab-62a5-43a6-99a4-f61d68612d7d"
     },
     {
       "character": {
         "name": "Montgomery 'Scotty' Scott",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "265bd112-e4bd-4d75-878c-cd5c60d2d034"
     },
     {
       "character": {
         "name": "Sulu",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "da06d7ba-e039-4ca4-86b7-b4299cad0635"
     },
     {
       "character": {
         "name": "Chekov",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0aa77f73-ad44-4ddb-a9fb-5206ef077eab"
     },
     {
       "character": {
         "name": "Krall",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ed322351-e250-4592-a42d-18dc1e238066"
     },
     {
       "character": {
         "name": "Jaylah",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c1775d76-5821-4073-bab4-93bd36076ae2"
     },
     {
       "character": {
         "name": "Manas",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ac672132-0c01-425c-8f65-b7e7f4f7df5a"
     },
     {
       "character": {
         "name": "Kalara",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "40a19e44-9aa1-40bc-8f66-2e5c89d8008f"
     },
     {
       "character": {
         "name": "Keenser",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0b281b59-11dc-45d3-afe2-59092a25a531"
     },
     {
       "character": {
         "name": "Ensign Syl",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "afa0c107-d8ef-4a1e-96ea-6c51b6fd85dd"
     }

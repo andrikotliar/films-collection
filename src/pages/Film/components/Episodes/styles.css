@@ -6,127 +6,56 @@
   margin-bottom: 10px;
 }
 
-.season-button {
-  display: flex;
-  border: var(--app-border);
-  padding: 5px 20px;
-  border-radius: 50px;
+.episodes-table-wrapper {
+  overflow-x: auto;
 }
 
-.season-button--active {
+.episodes-table {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.episodes-table__header {
   color: #fff;
-  background-color: var(--main-color);
-  border-color: var(--main-color);
 }
 
-.season-button__title {
-  display: block;
-  width: 0;
-  overflow: hidden;
-  text-align: left;
-  transition: 0.3s;
+.episodes-table__cell {
+  padding: 10px;
+  background-color: #f2f2f2;
 }
 
-.season-button--active .season-button__title {
-  width: 60px;
-}
-
-.episode {
-  border-bottom: var(--app-border);
-  overflow: hidden;
-}
-
-.episode:first-child {
+.episodes-table__header th:first-child {
   border-top-left-radius: 10px;
+}
+
+.episodes-table__header th:last-child {
   border-top-right-radius: 10px;
 }
 
-.episode:last-child {
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-.episode:last-child {
-  border-bottom: 0;
-}
-
-.episode__main {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  cursor: pointer;
-  padding-right: 10px;
-  background-color: #f2f2f2;
-  transition: background-color 0.3s ease;
-}
-
-.episode__main:hover {
-  background-color: #ddd;
-}
-
-.episode__numbers {
-  display: flex;
-  border-right: var(--app-border);
-}
-
-.episode__numbers span {
-  padding: 10px 5px;
-  width: 70px;
+.episodes-table__header .episodes-table__cell {
   text-align: center;
-}
-
-.episode__numbers--overall {
-  color: #fff;
+  font-weight: bold;
   background-color: var(--main-color);
 }
 
-.episode__numbers--internal {
-  background-color: var(--light-yellow);
+.episodes-table__cell--num {
+  text-align: center;
+  width: 80px;
 }
 
-.episode__title {
-  font-weight: normal;
-}
-
-.episode__expand {
-  width: 20px;
-  height: 20px;
-  margin-left: auto;
-}
-
-.episode__expand svg {
-  transform: rotate(-90deg);
-}
-
-.episode__expand--active svg {
-  transform: rotate(0);
-}
-
-.episode__details {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  padding: 10px 20px;
-  border-left: 2px solid #f2f2f2;
-  border-right: 2px solid #f2f2f2;
-}
-
-.episode:last-child .episode__details {
-  border-bottom: 2px solid #f2f2f2;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-.episode__creator {
-  display: flex;
-  gap: 5px;
-}
-
-.episode__creator span {
-  font-weight: bold;
-}
-
-.episode__creator a {
+.episodes-table__cell a {
   color: var(--main-color);
   text-decoration: underline;
+}
+
+.episodes-table__cell--small {
+  width: 200px;
+}
+
+.episodes-table__body .episodes-table__row:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+.episodes-table__body .episodes-table__row:last-child td:last-child {
+  border-bottom-right-radius: 10px;
 }

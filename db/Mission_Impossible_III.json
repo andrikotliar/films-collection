@@ -44,88 +44,77 @@
     {
       "character": {
         "name": "Ethan Hunt",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81"
     },
     {
       "character": {
         "name": "Owen Davian",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a0be77f1-ba7a-47b5-9522-852a56e3fdc8"
     },
     {
       "character": {
         "name": "Luther",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a73a07c8-48c4-4a30-a559-2e6ae0ad3a68"
     },
     {
       "character": {
         "name": "Musgrave",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5309c380-df27-4bf6-ae44-4b7ea491b856"
     },
     {
       "character": {
         "name": "Julia",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4c102c30-8c20-4f7d-9d8c-414519470ef2"
     },
     {
       "character": {
         "name": "Declan",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "01c58f19-4789-4bfa-87c4-40d30bdad469"
     },
     {
       "character": {
         "name": "Lindsey Farris",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "bb6ecfd3-99a8-4e40-a890-70220c3a2d2d"
     },
     {
       "character": {
         "name": "Zhen",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cc7fcb15-c9b9-4eaa-aae3-8a1580d969e7"
     },
     {
       "character": {
         "name": "Benji",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "265bd112-e4bd-4d75-878c-cd5c60d2d034"
     },
     {
       "character": {
         "name": "Brownway",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1cb7b6e2-da77-4a95-bab6-a8ce8a8fbe6b"
     },
     {
       "character": {
         "name": "Theodore Brassel",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d5cfb42e-818e-43cf-9840-f842bc4579e6"
     }

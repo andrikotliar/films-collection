@@ -44,64 +44,56 @@
     {
       "character": {
         "name": "Allan Quatermain",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "15ce62dd-b330-48c1-81e5-aeb875360062"
     },
     {
       "character": {
         "name": "Captain Nemo",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "db33e246-80c2-4a2f-98b8-8a99fa9a9885"
     },
     {
       "character": {
         "name": "Mina Harker",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "984e65ba-7c69-4f99-8926-9c6f37e227f3"
     },
     {
       "character": {
         "name": "Rodney Skinner",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cd74bb9c-86b9-42c0-8e16-9c28e7cc395b"
     },
     {
       "character": {
         "name": "Dorian Gray",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1089807a-a531-4e84-8f55-3d29776e885e"
     },
     {
       "character": {
         "name": "Tom Sawyer",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b89c6dad-a47a-47b1-95b5-052e69f497bb"
     },
     {
       "character": {
         "name": "Dr. Henry Jekyll / Edward Hyde",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "bebd0e6a-9671-4a95-ad7a-182b595e3d40"
     },
     {
       "character": {
         "name": "M",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "995291f9-bf02-4b7f-bd77-b3893d1ad8e9"
     }

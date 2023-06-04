@@ -61,96 +61,84 @@
     {
       "character": {
         "name": "Bruce Wayne / Batman",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6900c450-d6ad-4f62-8af7-d8398a1b6f77"
     },
     {
       "character": {
         "name": "Alfred",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "87d38720-3045-4fad-9302-75ddc6e847d1"
     },
     {
       "character": {
         "name": "Ducard",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6f541516-898c-439d-bbc3-16aa28425e8d"
     },
     {
       "character": {
         "name": "Rachel Dawes",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5a9b347a-b996-47aa-9cfe-1352817c730d"
     },
     {
       "character": {
         "name": "Jim Gordon",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0b0a40d3-1976-4f41-b8b1-1a86e37042ea"
     },
     {
       "character": {
         "name": "Dr. Jonathan Crane / The Scarecrow",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9a91c941-d1d1-4514-9eb1-c4a27bbe9cce"
     },
     {
       "character": {
         "name": "Carmine Falcone",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a0effc86-76b7-4ff3-8033-7d30cb7bda0a"
     },
     {
       "character": {
         "name": "Earle",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "f8183bab-9197-417b-b6fd-b5fb29bb47e9"
     },
     {
       "character": {
         "name": "Ra's Al Ghul",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6f94fc62-df6a-4f98-82ac-763cf52690df"
     },
     {
       "character": {
         "name": "Flass",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e0893327-84c4-4a69-a06f-72bbb49072ea"
     },
     {
       "character": {
         "name": "Thomas Wayne",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d2868368-39bb-45ff-bc7d-522fd55e9733"
     },
     {
       "character": {
         "name": "Lucius Fox",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "768ac83c-1206-4dd2-87f4-fd0550f8492b"
     }

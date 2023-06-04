@@ -44,32 +44,28 @@
     {
       "character": {
         "name": "Manfred",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0cedcb92-8ff0-48bf-b5c0-ec52c697bf22"
     },
     {
       "character": {
         "name": "Sid",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ba1ea1c7-ab0d-4cc7-9574-25c858edd5a3"
     },
     {
       "character": {
         "name": "Diego",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "79d6d23f-2026-4b49-953a-7109e1281bdd"
     },
     {
       "character": {
         "name": "Soto",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ec353a09-b4f6-452d-acb5-1693b703f783"
     }

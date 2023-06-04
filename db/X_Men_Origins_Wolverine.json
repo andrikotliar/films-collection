@@ -45,72 +45,63 @@
     {
       "character": {
         "name": "Logan / Wolverine",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3e2db4d6-df90-4736-9425-c1fd062d8868"
     },
     {
       "character": {
         "name": "Victor Creed",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "7259af6b-8864-4412-b9dd-41cfa1643304"
     },
     {
       "character": {
         "name": "Stryker",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "23d4382f-11e9-4c09-8d87-ea2599774bde"
     },
     {
       "character": {
         "name": "John Wraith",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0e1744cf-7faa-4b79-bfc2-35c86bb31399"
     },
     {
       "character": {
         "name": "Kayla Silverfox",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "316a6839-9613-499d-8a13-b736d251a08a"
     },
     {
       "character": {
         "name": "Fred Dukes",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a19ebdf4-6120-4ec4-9227-97bb86e782ad"
     },
     {
       "character": {
         "name": "Chris Bradley / Bolt",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "45bb2b5f-7072-45c8-9600-1ddb618c7979"
     },
     {
       "character": {
         "name": "Remy LeBeau",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "dabd6cd8-7f8f-4c22-912e-8437f68ba7a6"
     },
     {
       "character": {
         "name": "Wade Wilson",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "7852b668-f0a2-4286-bb6e-799072cea4b8"
     }

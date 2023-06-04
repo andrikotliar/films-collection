@@ -43,88 +43,77 @@
     {
       "character": {
         "name": "Percy Jackson",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a215121b-6247-4480-9ee9-e0521b370028"
     },
     {
       "character": {
         "name": "Grover",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "c2fb77dd-6950-42f6-89a9-57a7e24c132d"
     },
     {
       "character": {
         "name": "Annabeth",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "cedf2fbd-5afe-44bb-b0fe-56804247e21e"
     },
     {
       "character": {
         "name": "Luke",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "51c8c087-d2ad-4a8b-aa6f-13c43051ce50"
     },
     {
       "character": {
         "name": "Zeus",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "f1d021e9-26d9-440c-9e19-398afd30f0e4"
     },
     {
       "character": {
         "name": "Mr. Brunner / Chiron",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "eb9b1b8e-2e56-435f-904c-c7f7dd216bfd"
     },
     {
       "character": {
         "name": "Hades",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "55284d01-0d85-40c0-bbb3-c76c988b7e9c"
     },
     {
       "character": {
         "name": "Persephone",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "532dfdc9-0006-4d29-9068-485005d3dc4f"
     },
     {
       "character": {
         "name": "Athena",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "eb9850f1-cf6b-49e5-b957-87b7430bea4b"
     },
     {
       "character": {
         "name": "Sally Jackson",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1f800c8d-e7f0-42ee-892e-a798ca0a2a9a"
     },
     {
       "character": {
         "name": "Poseidon",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "929a29e3-9844-4404-a5a0-50b76e1c903d"
     }

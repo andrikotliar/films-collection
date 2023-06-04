@@ -1,7 +1,7 @@
-import { FilmType } from "@/types";
+import { GeneralFilm } from "@/types";
 
-export const pager = (
-  films: FilmType[],
+export const sliceFilmsByPage = (
+  films: GeneralFilm[],
   currentPage: number,
   perPage = 25
 ) => {

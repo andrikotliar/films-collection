@@ -44,64 +44,56 @@
     {
       "character": {
         "name": "Alex",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a30ab878-3936-4e10-8c58-a5c0fe9f9146"
     },
     {
       "character": {
         "name": "Marty",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "653c1c5c-0093-483f-97b7-bb93107cf469"
     },
     {
       "character": {
         "name": "Melman",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0822f145-f313-4d3a-a34c-acbb77593566"
     },
     {
       "character": {
         "name": "Gloria",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "9e504ddc-91b4-45c1-a321-c5e7f40999d9"
     },
     {
       "character": {
         "name": "Julien",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "dda11932-ed49-4f73-8b6f-c6949a5079b5"
     },
     {
       "character": {
         "name": "Maurice",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b653a4f7-1945-4f56-b9a8-f8eb7b5c4429"
     },
     {
       "character": {
         "name": "Zuba",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "e1b176c6-c14c-41de-92c3-e5769d65ba89"
     },
     {
       "character": {
         "name": "Makunga",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "fec867a8-35ae-4586-8add-02de4e0d9725"
     }

@@ -60,88 +60,77 @@
     {
       "character": {
         "name": "Qui-Gon Jinn",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6f541516-898c-439d-bbc3-16aa28425e8d"
     },
     {
       "character": {
         "name": "Obi-Wan Kenobi",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "00ab0b8e-4e0a-4de4-ac2f-70bb49947372"
     },
     {
       "character": {
         "name": "Padme",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0f310c3e-4e4f-41b7-9c51-61b4b5935607"
     },
     {
       "character": {
         "name": "Anakin Skywalker",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "8ee1c3dc-f097-4d5d-8c02-f094a0e98451"
     },
     {
       "character": {
         "name": "Senator Palpatine",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "4280bdd8-33a0-4f2c-8024-7de0ead1924e"
     },
     {
       "character": {
         "name": "Shmi Skywalker",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3959d53e-fe0e-497b-8c8a-dc5f65605ce2"
     },
     {
       "character": {
         "name": "Jar Jar Binks",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "72383746-5e8f-4ba7-8a71-2204868ded25"
     },
     {
       "character": {
         "name": "C-3PO",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ee52d40c-12c0-417d-a413-491b049e76c3"
     },
     {
       "character": {
         "name": "R2-D2",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "373e6326-e3e5-4084-86cf-b2eb743441e0"
     },
     {
       "character": {
         "name": "Yoda",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "11e3cf6a-7cbb-46ab-a58b-681d70c0d69c"
     },
     {
       "character": {
         "name": "Darth Maul",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "fad61f43-784f-43bc-a5df-193d70fdee1a"
     }

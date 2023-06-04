@@ -5,6 +5,5 @@ export type FilledActorData = {
   character: {
     name: string;
     imageUrl: string;
-    description?: string; // deprecated
   };
 }

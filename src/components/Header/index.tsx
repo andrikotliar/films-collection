@@ -1,12 +1,12 @@
 import './styles.css';
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { FilterIcon, GridIcon, SearchIcon } from '@/assets/icons';
+import { CloseIcon, FilterIcon, GridIcon, SearchIcon } from '@/assets/icons';
 import FilmsCollectionLogo from '@/assets/logo/FilmsCollectionLogo';
 import Search from '../Search';
 import classNames from 'classnames';
 import Menu from '../Menu';
-import { useAppContext } from '@/context/appContext';
+import { useAppContext } from '@/context/AppContext';
 
 const Header = () => {
   const { pathname } = useLocation();
@@ -46,10 +46,21 @@ const Header = () => {
                 setIsMenuVisible(false);
               }}
             >
-              <div className="header__button-icon">
-                <FilterIcon />
-              </div>
-              <span>Filter</span>
+              {!isFilterOpen ?  (
+                <>
+                  <div className="header__button-icon">
+                    <FilterIcon />
+                  </div>
+                  <span>Filter</span>
+                </>
+              ) : (
+                <>
+                  <div className="header__button-icon">
+                    <CloseIcon />
+                  </div>
+                  <span>Close</span>
+                </>
+              )}
             </button>
           ) : (
             <Link to="/" className="header__filter-button">

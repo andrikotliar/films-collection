@@ -45,40 +45,35 @@
     {
       "character": {
         "name": "Todd",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "f70d14d5-2f1a-46a1-8462-bdf6fc18141a"
     },
     {
       "character": {
         "name": "Viola",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d38d79f6-63ce-4543-a2b4-b820fc7fbb60"
     },
     {
       "character": {
         "name": "Mayor Prentiss",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "2ff1ac8e-3c81-431d-8718-d44041993b87"
     },
     {
       "character": {
         "name": "Davy Prentiss, Jr.",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "43ef42e0-ebe5-4c7b-b358-d46dbd0a3bfb"
     },
     {
       "character": {
         "name": "Aaron",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0e7a3dc6-4bce-46f5-8d16-f05422a88a10"
     }

@@ -88,96 +88,84 @@
     {
       "character": {
         "name": "T'Challa / Black Panther",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6bb68e05-b7bc-4a8b-929f-3ba185a3e5f9"
     },
     {
       "character": {
         "name": "Erik Killmonger",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "f99f23e3-5ef3-437a-bf04-a67aa38f8697"
     },
     {
       "character": {
         "name": "Nakia",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1c546317-ff4b-42d3-893b-7d59de3a35fc"
     },
     {
       "character": {
         "name": "Okoye",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6b7859db-227e-42c0-9fe5-09647e33ebc7"
     },
     {
       "character": {
         "name": "Everett K. Ross",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3ac110d8-83ac-40a6-b22f-7537190f750b"
     },
     {
       "character": {
         "name": "W'Kabi",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "6f384706-a2fe-4cfb-8578-8d2634cd0de9"
     },
     {
       "character": {
         "name": "Shuri",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "87cf439e-596e-4420-a7a4-85f07c35d15b"
     },
     {
       "character": {
         "name": "M'Baku",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "1d3478f1-b89c-4441-b0d9-b8d196eeae09"
     },
     {
       "character": {
         "name": "N'Jobu",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "241c9b66-9a52-454b-887c-f81b070e85c4"
     },
     {
       "character": {
         "name": "Ramonda",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ab92f0ba-6256-45fa-ad66-f501d7700c67"
     },
     {
       "character": {
         "name": "Zuri",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "d6966d68-0949-41c0-9414-00b9cecf1f5b"
     },
     {
       "character": {
         "name": "Ulysses Klaue",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135"
     }

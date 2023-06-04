@@ -1,20 +1,20 @@
 import { FC, PropsWithChildren, createContext, useContext, useEffect, useState } from 'react';
 import { Actor } from '@/types';
+import { ActorsAPI } from '@/api';
 
 type ActorsContextType = {
   actors: Actor[];
-}
+};
 
 const ActorsContext = createContext<ActorsContextType>({} as ActorsContextType);
 
 export const useActorsContext = () => useContext(ActorsContext);
 
 const ActorsProvider: FC<PropsWithChildren> = ({ children }) => {
-  const [ actors, setActors ] = useState([]);
+  const [ actors, setActors ] = useState<Actor[]>([]);
 
   const fetchActors = async () => {
-    const response = await fetch('/database/actors.json');
-    const actors = await response.json();
+    const actors = await ActorsAPI.getAll();
     setActors(actors);
   }
 

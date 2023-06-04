@@ -45,88 +45,77 @@
     {
       "character": {
         "name": "Thor",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "5a7b31cb-f62d-44ae-85b6-21ed4c144a2d"
     },
     {
       "character": {
         "name": "Jane Foster",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "0f310c3e-4e4f-41b7-9c51-61b4b5935607"
     },
     {
       "character": {
         "name": "Loki",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "3f48a450-bff9-4a01-a00a-bba10e5a1e0a"
     },
     {
       "character": {
         "name": "Odin",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "b8f068b0-99eb-451f-b746-f92a5dc655b1"
     },
     {
       "character": {
         "name": "Malekith",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "befc7a75-f9ad-4581-b50b-9951c696c9b1"
     },
     {
       "character": {
         "name": "Sif",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "adf5faca-ae4a-42ef-9094-e83371b6a758"
     },
     {
       "character": {
         "name": "Fandral",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "a07c341b-bbc1-4d2a-bf8a-343ccdd38656"
     },
     {
       "character": {
         "name": "Volstagg",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "00a7b738-97aa-4ed3-994b-9b2653322287"
     },
     {
       "character": {
         "name": "Hogun",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "247b46fd-26fe-46c5-b8fe-1267709acc3e"
     },
     {
       "character": {
         "name": "Heimdall",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "ed322351-e250-4592-a42d-18dc1e238066"
     },
     {
       "character": {
         "name": "Frigga",
-        "imageUrl": "",
-        "description": ""
+        "imageUrl": ""
       },
       "actorId": "23a8f7f0-94b0-4e20-a0f7-67a571c1ccda"
     }
