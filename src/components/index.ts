@@ -1,10 +1,11 @@
-import Sidebar from './Sidebar';
-import Header from './Header';
-import Search from './Search';
-import Filters from './Filters';
-import FilmsList from './FilmsList';
-import Pager from './Pager';
-import Loader from './Loader';
+import Sidebar from '@/components/Sidebar';
+import Header from '@/components/Header';
+import Search from '@/components/Search';
+import Filters from '@/components/Filters';
+import FilmsList from '@/components/FilmsList';
+import Pager from '@/components/Pager';
+import Loader from '@/components/Loader';
+import ResizableButton from '@/components/ResizableButton';
 
 export {
   Sidebar,
@@ -13,5 +14,6 @@ export {
   Filters,
   FilmsList,
   Pager,
-  Loader
+  Loader,
+  ResizableButton
 };

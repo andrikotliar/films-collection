@@ -13,6 +13,7 @@ import InfoIcon from './InfoIcon';
 import HomeIcon from './HomeIcon';
 import AdminIcon from './AdminIcon';
 import GridIcon from './GridIcon';
+import ResetIcon from '@/assets/icons/ResetIcon';
 
 export {
   CloseIcon,
@@ -29,5 +30,6 @@ export {
   InfoIcon,
   HomeIcon,
   AdminIcon,
-  GridIcon
+  GridIcon,
+  ResetIcon
 };

@@ -1,17 +1,10 @@
 .series-media__controls {
   display: flex;
   gap: 10px;
-  margin-top: 10px;
-}
-
-.series-media__controls button {
-  background-color: #f7f7f7;
-  padding: 10px 20px;
-  border-radius: 50px;
+  position: sticky;
+  background-color: #fff;
+  padding: 10px 0;
+  top: var(--header-height);
+  z-index: 95;
   overflow-x: auto;
-}
-
-.series-media__controls button.active-season {
-  color: #fff;
-  background-color: var(--main-color);
 }
