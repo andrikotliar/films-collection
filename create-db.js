@@ -27,8 +27,16 @@ const createFolderForDB = () => {
   });
 }
 
-if(fs.existsSync('./public/database')) {
-  createDB();
-} else {
-  createFolderForDB();
+const init = () => {
+  try {
+    if (fs.existsSync('./public/database')) {
+      createDB();
+    } else {
+      createFolderForDB();
+    }
+  } catch (error) {
+    console.error(error);
+  }
 }
+
+init();

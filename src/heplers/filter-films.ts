@@ -1,4 +1,4 @@
-import { FilmType } from "@/types";
+import { GeneralFilm } from "@/types";
 
 const handleSearchFilter = (searchQuery: string, title: string) => {
   const lowerTitle = title.toLowerCase();
@@ -9,7 +9,7 @@ const handleSearchFilter = (searchQuery: string, title: string) => {
   return filteredWords.every((w) => w.length > 2 && lowerTitle.includes(w));
 };
 
-export const filterFilms = (list: FilmType[], filterParams: any): FilmType[] => {
+export const filterFilms = (list: GeneralFilm[], filterParams: any): GeneralFilm[] => {
   if(!Object.keys(filterParams).length) {
     return list;
   }

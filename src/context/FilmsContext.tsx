@@ -1,12 +1,13 @@
 import { FC, PropsWithChildren, createContext, useContext, useEffect, useState } from 'react';
-import { filterFilms, pager } from '@/heplers';
+import { filterFilms, sliceFilmsByPage } from '@/heplers';
 import { useFilter } from '@/hooks';
 import { filmsSettings } from '@/constants';
-import { FilmType } from '@/types';
+import { GeneralFilm } from '@/types';
+import { FilmAPI } from '@/api';
 
 type FilmsContextType = {
-  initialFilmsList: FilmType[];
-  films: FilmType[];
+  initialFilmsList: GeneralFilm[];
+  films: GeneralFilm[];
   isFilmsLoading: boolean;
   filmsCount: number;
   filterParams: { [key: string]: any };
@@ -25,9 +26,9 @@ const FilmsContext = createContext<FilmsContextType>({} as FilmsContextType);
 export const useFilmsContext = () => useContext(FilmsContext);
 
 const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
-  const [ initialFilmsList, setInitialFilmsList ] = useState<FilmType[]>([]);
+  const [ initialFilmsList, setInitialFilmsList ] = useState<GeneralFilm[]>([]);
   const [ filmsCount, setFilmsCount ] = useState(0);
-  const [ films, setFilms ] = useState<FilmType[]>([]);
+  const [ films, setFilms ] = useState<GeneralFilm[]>([]);
   const [ isFilmsLoading, setIsFilmsLoading ] = useState(true);
   const [ filterParams, setSearchParams ] = useFilter();
   const [ pageData, setPageData ] = useState({
@@ -36,8 +37,7 @@ const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
   });
 
   const fetchFilms = async () => {
-    const response = await fetch('/database/database.json');
-    const films = await response.json();
+    const films = await FilmAPI.getAll();
     setInitialFilmsList(films);
     setFilmsCount(films.length);
   }
@@ -51,7 +51,7 @@ const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
       const filteredFilms = filterFilms(initialFilmsList, filterParams);
       setFilmsCount(filteredFilms.length);
       const page = filterParams.page ? Number(filterParams.page) : 1;
-      const pageData = pager(filteredFilms as FilmType[], page);
+      const pageData = sliceFilmsByPage(filteredFilms as GeneralFilm[], page);
       setFilms(pageData.list);
       setPageData({
         from: pageData.from,
