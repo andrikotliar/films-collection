@@ -2,28 +2,28 @@
 
 The application is developed as my personal collection of favorite films.
 
-All information, posters and videos was taken from open internet resources. Actor photos loads from [the TMDB](https://www.themoviedb.org/) directly.
+All information, posters and videos was taken from open resources. Actor photos are loaded from [the TMDB](https://www.themoviedb.org/) directly.
 
-Source code of the app: [https://github.com/andrikotliar/filmscollection](https://github.com/andrikotliar/filmscollection)
+App source code: [https://github.com/andrikotliar/filmscollection](https://github.com/andrikotliar/filmscollection)
 
 ## Data
 
-All data stores in simple json-files. They are combined in the single JSON-file during building by using node-script.
+All data stores in json-files, that are combined into the **database.json** file after the build or start command is run.
 
-To build your own version of the list, you need to clone the project:
+To build your own version of the list, clone the project:
 
 ```bash
 git clone git@github.com:andrikotliar/filmscollection.git
 cd filmscollection
 ```
 
-Add or delete some films form the db folder and then run commands:
+Add or delete films form the db folder and then run commands:
 
 ```bash
 npm install
 npm start
 ```
-It will install all required packages and start the development server.
+It will install all required packages, create the "database" file and start the development server.
 
 Or run following commads to build project for the production:
 
@@ -32,10 +32,11 @@ npm install
 npm run build
 ```
 
-To create data for the new film you can use the [Film Builder](https://filmscollection.netlify.app/admin) GUI
+To create data for the new film, use the [Film Builder](https://filmscollection.netlify.app/admin) GUI.
 
+## Film data details
 
-The film data has the following schema: [film-schema.json](https://github.com/andrikotliar/films-collection/blob/main/src/film-schema.json);
+The detailed explanation of each field in JSON-files is available by [the link](https://filmscollection.netlify.app/info#details).
 
 ## Tools
 
