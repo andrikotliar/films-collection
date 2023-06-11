@@ -1,61 +1,68 @@
 {
   "id": "c8a17022-dbdc-434f-846a-b55d77c68cf0",
+  "type": [
+    "Animation"
+  ],
   "title": "Brave",
   "poster": "brave",
+  "trailer": "TEHWDA_6e3M",
   "genres": [
     "Adventures",
     "Fantasy"
   ],
-  "production": [
-    "Pixar Animation"
+  "synopsis": "Determined to make her own path in life, Princess Merida (Kelly Macdonald) defies a custom that brings chaos to her kingdom. Granted one wish, Merida must rely on her bravery and her archery skills to undo a beastly curse.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Mark Andrews"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Mark Andrews"
+        },
+        {
+          "name": "Steve Purcell"
+        },
+        {
+          "name": "Brenda Chapman"
+        },
+        {
+          "name": "Irene Mecchi"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Katherine Sarafian"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Patrick Doyle"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Mark Andrews"
-  ],
-  "producedBy": "Katherine Sarafian",
-  "writtenBy": "Mark Andrews, Steve Purcell, Brenda Chapman, Irene Mecchi",
-  "musicBy": "Patrick Doyle",
+  "year": 2012,
   "countries": [
     "USA",
     "UK"
   ],
-  "budget": {
-    "value": 185,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 539,
-    "suffix": "million"
-  },
-  "synopsis": "Determined to make her own path in life, Princess Merida (Kelly Macdonald) defies a custom that brings chaos to her kingdom. Granted one wish, Merida must rely on her bravery and her archery skills to undo a beastly curse.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
+  "production": [
+    "Pixar Animation"
   ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Animated Feature"
-      ]
-    },
-    {
-      "title": "Golden Globe",
-      "nominations": [
-        "Best Animated Feature"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Animated Film"
-      ]
-    }
-  ],
-  "type": [
-    "Animation"
-  ],
+  "duration": 93,
   "cast": [
     {
       "character": {
@@ -86,7 +93,37 @@
       "actorId": "cf746ab4-83af-4fbd-a129-4a86c3e5e4fe"
     }
   ],
-  "duration": 93,
-  "trailer": "TEHWDA_6e3M",
-  "year": 2012
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 185,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 539,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Animated Feature"
+      ]
+    },
+    {
+      "title": "Golden Globe",
+      "nominations": [
+        "Best Animated Feature"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Animated Film"
+      ]
+    }
+  ]
 }

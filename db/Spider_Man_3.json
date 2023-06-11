@@ -1,46 +1,79 @@
 {
   "id": "5d20e680-612d-454c-87f9-2798db4714c9",
+  "type": [
+    "Film"
+  ],
   "title": "Spider-Man 3",
   "poster": "raimi_spider_man_3",
+  "trailer": "wPosLpgMtTY",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Sam Raimi"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Sam Raimi"
+        },
+        {
+          "name": "Ivan Raimi"
+        },
+        {
+          "name": "Alvin Sargent"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Avi Arad"
+        },
+        {
+          "name": "Laura Ziskin"
+        },
+        {
+          "name": "Grant Curtis"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Christopher Young"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Bill Pope"
+        }
+      ]
+    }
+  ],
+  "year": 2007,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Columbia Pictures",
     "Marvel Enterprises"
   ],
-  "directedBy": [
-    "Sam Raimi"
-  ],
-  "producedBy": "Avi Arad, Laura Ziskin, Grant Curtis",
-  "writtenBy": "Sam Raimi, Ivan Raimi, Alvin Sargent",
-  "musicBy": "Christopher Young",
-  "cinematographyBy": "Bill Pope",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 258,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 895,
-    "suffix": "million"
-  },
-  "synopsis": "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge.",
-  "collections": [
-    {
-      "name": "Superheroes"
-    }
-  ],
-  "parts": {
-    "title": "Raimi's Spider-Man",
-    "part": 3
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 139,
   "cast": [
     {
       "character": {
@@ -113,7 +146,21 @@
       "actorId": "0ce7460c-c201-4e4c-839a-50e7da9268a5"
     }
   ],
-  "duration": 139,
-  "trailer": "wPosLpgMtTY",
-  "year": 2007
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": {
+    "value": 258,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 895,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Raimi's Spider-Man",
+    "part": 3
+  }
 }

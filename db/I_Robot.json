@@ -1,45 +1,78 @@
 {
   "id": "412ef321-fbf6-43a7-bb26-7c6ce75fb430",
+  "type": [
+    "Film"
+  ],
   "title": "I, Robot",
   "poster": "i_robot",
+  "trailer": "rL6RRIOZyCM",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "production": [
-    "20th Century FOX"
+  "synopsis": "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Alex Proyas"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Jeff Vintar"
+        },
+        {
+          "name": "Akiva Goldsman"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Laurence Mark"
+        },
+        {
+          "name": "John Davis"
+        },
+        {
+          "name": "Topher Dow"
+        },
+        {
+          "name": "Wyck Godfrey"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Marco Beltrami"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Simon Duggan"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Alex Proyas"
-  ],
-  "producedBy": "Laurence Mark, John Davis, Topher Dow, Wyck Godfrey",
-  "writtenBy": "Jeff Vintar, Akiva Goldsman",
-  "musicBy": "Marco Beltrami",
-  "cinematographyBy": "Simon Duggan",
+  "year": 2004,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 120,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 347,
-    "suffix": "million"
-  },
-  "synopsis": "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity.",
-  "collections": [
-    {
-      "name": "Robots"
-    },
-    {
-      "name": "Top 10",
-      "order": 5
-    }
+  "production": [
+    "20th Century FOX"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 115,
   "cast": [
     {
       "character": {
@@ -84,7 +117,21 @@
       "actorId": "295c3036-2af6-4a5d-b721-ad61de5616f1"
     }
   ],
-  "duration": 115,
-  "trailer": "rL6RRIOZyCM",
-  "year": 2004
+  "collections": [
+    {
+      "title": "Robots"
+    },
+    {
+      "title": "Top 10",
+      "order": 5
+    }
+  ],
+  "budget": {
+    "value": 120,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 347,
+    "suffix": "million"
+  }
 }

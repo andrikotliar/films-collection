@@ -1,45 +1,72 @@
 {
   "id": "f7f8d801-8f03-404c-994b-131480d0db5f",
+  "type": [
+    "Film"
+  ],
   "title": "Transporter 3",
   "poster": "transporter_3",
+  "trailer": "Pbh3CDBNIQA",
   "genres": [
     "Action",
     "Crime"
   ],
-  "production": [
-    "EuropaCorp"
+  "synopsis": "Frank Martin puts the driving gloves on to deliver Valentina, the kidnapped daughter of a Ukrainian government official, from Marseilles to Odessa on the Black Sea. En route, he has to contend with thugs who want to intercept Valentina's safe delivery and not let his personal feelings get in the way of his dangerous objective.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Oliver Megaton"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Luc Besson"
+        },
+        {
+          "name": "Robert Mark Kamen"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Luc Besson"
+        },
+        {
+          "name": "Stephen Chasman"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Alexandre Azaria"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Giovanni Fiore Coltellacci"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Oliver Megaton"
-  ],
-  "producedBy": "Luc Besson, Stephen Chasman",
-  "writtenBy": "Luc Besson, Robert Mark Kamen",
-  "musicBy": "Alexandre Azaria",
-  "cinematographyBy": "Giovanni Fiore Coltellacci",
+  "year": 2008,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 40,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 109,
-    "suffix": "million"
-  },
-  "synopsis": "Frank Martin puts the driving gloves on to deliver Valentina, the kidnapped daughter of a Ukrainian government official, from Marseilles to Odessa on the Black Sea. En route, he has to contend with thugs who want to intercept Valentina's safe delivery and not let his personal feelings get in the way of his dangerous objective.",
-  "collections": [
-    {
-      "name": "Cars"
-    }
+  "production": [
+    "EuropaCorp"
   ],
-  "parts": {
-    "title": "The Transporter",
-    "part": 3
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 104,
   "cast": [
     {
       "character": {
@@ -70,7 +97,21 @@
       "actorId": "252db9fc-059d-4632-baaf-0868115f013a"
     }
   ],
-  "duration": 104,
-  "trailer": "Pbh3CDBNIQA",
-  "year": 2008
+  "collections": [
+    {
+      "title": "Cars"
+    }
+  ],
+  "budget": {
+    "value": 40,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 109,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "The Transporter",
+    "part": 3
+  }
 }

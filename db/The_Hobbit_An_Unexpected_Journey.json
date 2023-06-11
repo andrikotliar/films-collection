@@ -1,54 +1,85 @@
 {
   "id": "02e7f1ba-76db-4ae5-88db-f2e91a6084ae",
+  "type": [
+    "Film"
+  ],
   "title": "The Hobbit: An Unexpected Journey",
   "poster": "middle_earth_1",
+  "trailer": "JTSoD4BBCJc",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "New Line Cinema"
+  "synopsis": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Peter Jackson"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Fran Walsh"
+        },
+        {
+          "name": "Philippa Boyens"
+        },
+        {
+          "name": "Peter Jackson"
+        },
+        {
+          "name": "Guillermo del Toro"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Carolynne Cunningham"
+        },
+        {
+          "name": "Zane Weiner"
+        },
+        {
+          "name": "Fran Walsh"
+        },
+        {
+          "name": "Peter Jackson"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Howard Shore"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Andrew Lesnie"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Peter Jackson"
-  ],
-  "producedBy": "Carolynne Cunningham, Zane Weiner, Fran Walsh, Peter Jackson",
-  "writtenBy": "Fran Walsh, Philippa Boyens, Peter Jackson, Guillermo del Toro",
-  "musicBy": "Howard Shore",
-  "cinematographyBy": "Andrew Lesnie",
+  "year": 2012,
   "countries": [
     "USA",
     "New Zealand"
   ],
-  "budget": {
-    "value": 200,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.02,
-    "suffix": "billion"
-  },
-  "synopsis": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug.",
-  "collections": [
-    {
-      "name": "Middle-Earth Universe"
-    }
+  "production": [
+    "New Line Cinema"
   ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Production Design"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Middle-Earth Universe",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 169,
   "cast": [
     {
       "character": {
@@ -184,7 +215,29 @@
       "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135"
     }
   ],
-  "duration": 169,
-  "trailer": "JTSoD4BBCJc",
-  "year": 2012
+  "collections": [
+    {
+      "title": "Middle-Earth Universe"
+    }
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.02,
+    "suffix": "billion"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Production Design"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Middle-Earth Universe",
+    "part": 1
+  }
 }

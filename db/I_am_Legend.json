@@ -1,55 +1,78 @@
 {
   "id": "c6e56e01-80d8-4d64-a481-870fadec8f9e",
+  "type": [
+    "Film"
+  ],
   "title": "I am Legend",
   "poster": "i_am_legend",
+  "trailer": "dtKMEAXyPkg",
   "genres": [
     "Sci-Fi"
+  ],
+  "synopsis": "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Francis Lawrence"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Mark Protosevich"
+        },
+        {
+          "name": "Akiva Goldsman"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Akiva Goldsman"
+        },
+        {
+          "name": "James Lassiter"
+        },
+        {
+          "name": "David Heyman"
+        },
+        {
+          "name": "Neal H. Moritz"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "James Newton Howard"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Andrew Lesnie"
+        }
+      ]
+    }
+  ],
+  "year": 2007,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Warner Bros. Pictures",
     "Village Roadshow Pictures"
   ],
-  "directedBy": [
-    "Francis Lawrence"
-  ],
-  "producedBy": "Akiva Goldsman, James Lassiter,David Heyman, Neal H. Moritz",
-  "writtenBy": "Mark Protosevich, Akiva Goldsman",
-  "musicBy": "James Newton Howard",
-  "cinematographyBy": "Andrew Lesnie",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 585,
-    "suffix": "million"
-  },
-  "synopsis": "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure.",
-  "collections": [
-    {
-      "name": "Robots"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Actor"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Male Performance"
-      ]
-    }
-  ],
-  "type": [
-    "Film"
-  ],
+  "duration": 101,
   "cast": [
     {
       "character": {
@@ -87,7 +110,31 @@
       "actorId": "e82bd6e0-653f-4d20-9c97-8911eafa5e57"
     }
   ],
-  "duration": 101,
-  "trailer": "dtKMEAXyPkg",
-  "year": 2007
+  "collections": [
+    {
+      "title": "Robots"
+    }
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 585,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Actor"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Male Performance"
+      ]
+    }
+  ]
 }

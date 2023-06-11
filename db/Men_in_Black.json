@@ -1,62 +1,70 @@
 {
   "id": "b766b644-3619-4b99-8d3f-100c3ee9daf3",
+  "type": [
+    "Film"
+  ],
   "title": "Men in Black",
   "poster": "mib_1",
+  "trailer": "1Q4mhYF9aQQ",
   "genres": [
     "Sci-Fi",
     "Action",
     "Comedy"
   ],
-  "production": [
-    "Columbia Pictures"
-  ],
-  "directedBy": [
-    "Barry Sonnenfeld"
-  ],
-  "producedBy": "Walter F. Parkes, Laurie MacDonald",
-  "writtenBy": "Ed Solomon",
-  "musicBy": "Danny Elfman",
-  "cinematographyBy": "Don Peterman",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 90,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 589,
-    "suffix": "million"
-  },
   "synopsis": "A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth.",
-  "collections": [
+  "crew": [
     {
-      "name": "Invasion"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Makeup"
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Barry Sonnenfeld"
+        }
       ]
     },
     {
-      "title": "Saturn",
-      "nominations": [
-        "Best Science Fiction Film",
-        "Best Supporting Actor",
-        "Best Music"
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Ed Solomon"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Walter F. Parkes"
+        },
+        {
+          "name": "Laurie MacDonald"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Danny Elfman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Don Peterman"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "Men in Black",
-    "part": 1
-  },
-  "type": [
-    "Film"
+  "year": 1997,
+  "countries": [
+    "USA"
   ],
+  "production": [
+    "Columbia Pictures"
+  ],
+  "duration": 98,
   "cast": [
     {
       "character": {
@@ -94,7 +102,37 @@
       "actorId": "a4db5eb9-cbf6-468e-b63a-b3900d4371d3"
     }
   ],
-  "duration": 98,
-  "trailer": "1Q4mhYF9aQQ",
-  "year": 1997
+  "collections": [
+    {
+      "title": "Invasion"
+    }
+  ],
+  "budget": {
+    "value": 90,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 589,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Makeup"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Supporting Actor",
+        "Best Music"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Men in Black",
+    "part": 1
+  }
 }

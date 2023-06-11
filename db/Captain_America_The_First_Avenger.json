@@ -1,46 +1,70 @@
 {
   "id": "2dcb59af-7f6b-40b0-9938-e82b59dee295",
+  "type": [
+    "Film"
+  ],
   "title": "Captain America: The First Avenger",
   "poster": "captain_america_1",
+  "trailer": "JerVrbLldXw",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Joe Johnston"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Christopher Markus"
+        },
+        {
+          "name": "Stephen McFeely"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Alan Silvestri"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Shelly Johnson"
+        }
+      ]
+    }
+  ],
+  "year": 2011,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Marvel Studios",
     "Paramount Pictures"
   ],
-  "directedBy": [
-    "Joe Johnston"
-  ],
-  "producedBy": "Kevin Feige",
-  "writtenBy": "Christopher Markus, Stephen McFeely",
-  "musicBy": "Alan Silvestri",
-  "cinematographyBy": "Shelly Johnson",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 140,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 371,
-    "suffix": "million"
-  },
-  "synopsis": "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 5
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 124,
   "cast": [
     {
       "character": {
@@ -113,7 +137,21 @@
       "actorId": "c6053d3e-33c2-43a7-9d7d-4d6cf7bc5b71"
     }
   ],
-  "duration": 124,
-  "trailer": "JerVrbLldXw",
-  "year": 2011
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 140,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 371,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 5
+  }
 }

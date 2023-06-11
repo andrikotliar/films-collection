@@ -1,46 +1,76 @@
 {
   "id": "9d589501-8871-4900-9479-907be40935dc",
+  "type": [
+    "Film"
+  ],
   "title": "Batman v Superman: Dawn of Justice",
   "poster": "batman_v_superman",
+  "trailer": "bha24P9uw-E",
   "genres": [
     "Action",
     "Adventures"
+  ],
+  "synopsis": "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Zack Snyder"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Chris Terrio"
+        },
+        {
+          "name": "David S. Goyer"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Charles Roven"
+        },
+        {
+          "name": "Deborah Snyder"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        },
+        {
+          "name": "Junkie XL"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Larry Fong"
+        }
+      ]
+    }
+  ],
+  "year": 2016,
+  "countries": [
+    "USA"
   ],
   "production": [
     "DC Entertainment",
     "Warner Bros. Pictures"
   ],
-  "directedBy": [
-    "Zack Snyder"
-  ],
-  "producedBy": "Charles Roven, Deborah Snyder",
-  "writtenBy": "Chris Terrio, David S. Goyer",
-  "musicBy": "Hans Zimmer, Junkie XL",
-  "cinematographyBy": "Larry Fong",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 250,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 874,
-    "suffix": "million"
-  },
-  "synopsis": "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs.",
-  "collections": [
-    {
-      "name": "DC Extended Universe"
-    }
-  ],
-  "parts": {
-    "title": "DC Extended Universe",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 151,
   "cast": [
     {
       "character": {
@@ -106,7 +136,21 @@
       "actorId": "cac99b67-2448-4b4f-ab99-e88b4e516940"
     }
   ],
-  "duration": 151,
-  "trailer": "bha24P9uw-E",
-  "year": 2016
+  "collections": [
+    {
+      "title": "DC Extended Universe"
+    }
+  ],
+  "budget": {
+    "value": 250,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 874,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "DC Extended Universe",
+    "part": 2
+  }
 }

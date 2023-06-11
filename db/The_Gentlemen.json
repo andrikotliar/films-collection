@@ -1,44 +1,75 @@
 {
   "id": "5e433756-fcee-4db2-919b-15979e06a1dc",
+  "type": [
+    "Film"
+  ],
   "title": "The Gentlemen",
   "poster": "gentlemen",
+  "trailer": "vaN8BtA8OJk",
   "genres": [
     "Action",
     "Comedy",
     "Crime"
   ],
-  "production": [
-    "STX Films",
-    "Miramax"
+  "synopsis": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Guy Ritchie"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Guy Ritchie"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Ivan Atkinson"
+        },
+        {
+          "name": "Bill Block"
+        },
+        {
+          "name": "Guy Ritchie"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Christopher Benstead"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Alan Stewart"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Guy Ritchie"
-  ],
-  "producedBy": "Ivan Atkinson, Bill Block, Guy Ritchie",
-  "writtenBy": "Guy Ritchie",
-  "musicBy": "Christopher Benstead",
-  "cinematographyBy": "Alan Stewart",
+  "year": 2019,
   "countries": [
     "UK",
     "USA"
   ],
-  "budget": {
-    "value": 22,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 115,
-    "suffix": "million"
-  },
-  "synopsis": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
-  "collections": [
-    {
-      "name": "True Story"
-    }
+  "production": [
+    "STX Films",
+    "Miramax"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 113,
   "cast": [
     {
       "character": {
@@ -104,7 +135,17 @@
       "actorId": "8bd6fd5a-fca2-4544-8309-7755b2b48424"
     }
   ],
-  "duration": 113,
-  "trailer": "vaN8BtA8OJk",
-  "year": 2019
+  "collections": [
+    {
+      "title": "True Story"
+    }
+  ],
+  "budget": {
+    "value": 22,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 115,
+    "suffix": "million"
+  }
 }

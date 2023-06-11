@@ -1,44 +1,80 @@
 {
   "id": "bc041ba1-e94d-4808-9377-992ed70a36b7",
+  "type": [
+    "Film"
+  ],
   "title": "The Intouchables",
   "poster": "intouchables",
+  "trailer": "34WIbmXkewU",
   "genres": [
     "Biography",
     "Comedy",
     "Drama"
   ],
+  "synopsis": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Oliver Nakache"
+        },
+        {
+          "name": "Eric Toledano"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Olivier Nakache"
+        },
+        {
+          "name": "Eric Toledano"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Nicolas Duval Adassovsky"
+        },
+        {
+          "name": "Yann Zenou"
+        },
+        {
+          "name": "Laurent Zeitoun"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Ludovico Einaudi"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Mathieu Vadepied"
+        }
+      ]
+    }
+  ],
+  "year": 2011,
+  "countries": [
+    "France"
+  ],
   "production": [
     "Gaumont",
     "TF1 Films Production"
   ],
-  "directedBy": [
-    "Oliver Nakache",
-    "Eric Toledano"
-  ],
-  "producedBy": "Nicolas Duval Adassovsky, Yann Zenou, Laurent Zeitoun",
-  "writtenBy": "Olivier Nakache, Eric Toledano",
-  "musicBy": "Ludovico Einaudi",
-  "cinematographyBy": "Mathieu Vadepied",
-  "countries": [
-    "France"
-  ],
-  "budget": {
-    "value": 11,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 427,
-    "suffix": "million"
-  },
-  "synopsis": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
-  "collections": [
-    {
-      "name": "Based on Real Events"
-    }
-  ],
-  "type": [
-    "Film"
-  ],
+  "duration": 112,
   "cast": [
     {
       "character": {
@@ -69,7 +105,17 @@
       "actorId": "c731889b-061a-4c7f-9b08-775002a5e5c9"
     }
   ],
-  "duration": 112,
-  "trailer": "34WIbmXkewU",
-  "year": 2011
+  "collections": [
+    {
+      "title": "Based on Real Events"
+    }
+  ],
+  "budget": {
+    "value": 11,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 427,
+    "suffix": "million"
+  }
 }

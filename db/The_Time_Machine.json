@@ -1,41 +1,69 @@
 {
   "id": "be87facc-db65-4504-a2ff-2a0e0aa73063",
+  "type": [
+    "Film"
+  ],
   "title": "The Time Machine",
   "poster": "time_machine",
+  "trailer": "90T7iLuzFgg",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "production": [
-    "Warner Bros. Pictures"
+  "synopsis": "Hoping to alter the events of the past, a 19th century inventor instead travels 800,000 years into the future, where he finds humankind divided into two warring races.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Simon Wells"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "John Logan"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Walter F. Parkes"
+        },
+        {
+          "name": "David Valdes"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Klaus Badelt"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Donald McAlpine"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Simon Wells"
-  ],
-  "producedBy": "Walter F. Parkes, David Valdes",
-  "writtenBy": "John Logan",
-  "musicBy": "Klaus Badelt",
-  "cinematographyBy": "Donald McAlpine",
+  "year": 2002,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 80,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 124,
-    "suffix": "million"
-  },
-  "synopsis": "Hoping to alter the events of the past, a 19th century inventor instead travels 800,000 years into the future, where he finds humankind divided into two warring races.",
-  "collections": [
-    {
-      "name": "Future"
-    }
+  "production": [
+    "Warner Bros. Pictures"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 96,
   "cast": [
     {
       "character": {
@@ -87,7 +115,17 @@
       "actorId": "ca8be3de-aab2-4e2b-8d76-31a51af81827"
     }
   ],
-  "duration": 96,
-  "trailer": "90T7iLuzFgg",
-  "year": 2002
+  "collections": [
+    {
+      "title": "Future"
+    }
+  ],
+  "budget": {
+    "value": 80,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 124,
+    "suffix": "million"
+  }
 }

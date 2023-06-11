@@ -1,96 +1,87 @@
 {
   "id": "0668cf46-4314-4ff8-918b-8df6e5bde9d9",
+  "type": [
+    "Series"
+  ],
   "title": "The Falcon and the Winter Soldier",
   "poster": "falcon_and_the_winter_soldier",
   "genres": [
     "Action",
     "Drama"
   ],
+  "synopsis": "Following the events of «Avengers: Endgame» Sam Wilson and Bucky Barnes team up in a global adventure that tests their abilities and their patience.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Kari Skogland",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Malcolm Spellman",
+          "comment": ""
+        },
+        {
+          "name": "Michael Kastelein",
+          "comment": ""
+        },
+        {
+          "name": "Derek Kolstad",
+          "comment": ""
+        },
+        {
+          "name": "Dalan Musson",
+          "comment": ""
+        },
+        {
+          "name": "Josef Sawyer",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Ariella Blejer"
+        },
+        {
+          "name": "Dawn Kamoche"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Henry Jackman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "P.J. Dillon"
+        }
+      ]
+    }
+  ],
+  "year": 2021,
+  "countries": [
+    "USA"
+  ],
   "production": [
     "Disney Plus",
     "Marvel Studios"
   ],
-  "directedBy": [
-    "Kari Skogland"
-  ],
-  "producedBy": "Ariella Blejer, Dawn Kamoche",
-  "musicBy": "Henry Jackman",
-  "cinematographyBy": "P.J. Dillon",
-  "countries": [
-    "USA"
-  ],
-  "synopsis": "Following the events of «Avengers: Endgame» Sam Wilson and Bucky Barnes team up in a global adventure that tests their abilities and their patience.",
-  "awards": [
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Hero",
-        "Best Duo"
-      ]
-    }
-  ],
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 25
-  },
-  "type": [
-    "Series"
-  ],
-  "seasons": [
-    {
-      "season": 1,
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "New World Order",
-          "directedBy": "Kari Skogland",
-          "writtenBy": "Malcolm Spellman"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "The Star-Spangled Man",
-          "directedBy": "Kari Skogland",
-          "writtenBy": "Michael Kastelein"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Power Broker",
-          "directedBy": "Kari Skogland",
-          "writtenBy": "Derek Kolstad"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "The Whole World Is Watching",
-          "directedBy": "Kari Skogland",
-          "writtenBy": "Derek Kolstad"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Truth",
-          "directedBy": "Kari Skogland",
-          "writtenBy": "Dalan Musson"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "One World, One People",
-          "directedBy": "Kari Skogland",
-          "writtenBy": "Malcolm Spellman, Josef Sawyer"
-        }
-      ],
-      "trailer": "IWBsDaFWyTE"
-    }
-  ],
+  "duration": 300,
   "cast": [
     {
       "character": {
@@ -163,6 +154,61 @@
       "actorId": "283b7be0-47c7-4082-804b-1f184b0c3537"
     }
   ],
-  "duration": 300,
-  "year": 2021
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "awards": [
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Hero",
+        "Best Duo"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 25
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "trailer": "IWBsDaFWyTE",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "New World Order"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "The Star-Spangled Man"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Power Broker"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "The Whole World Is Watching"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Truth"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "One World, One People"
+        }
+      ]
+    }
+  ]
 }

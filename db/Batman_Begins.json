@@ -1,62 +1,79 @@
 {
   "id": "b1575dbf-9a36-4f53-9bbf-71c86782f7ce",
+  "type": [
+    "Film"
+  ],
   "title": "Batman Begins",
   "poster": "batman_1",
+  "trailer": "neY2xVmOfUM",
   "genres": [
     "Action",
     "Thriller"
+  ],
+  "synopsis": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Christopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Christopher Nolan"
+        },
+        {
+          "name": "David S. Goyer"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Charles Roven"
+        },
+        {
+          "name": "Emma Thomas"
+        },
+        {
+          "name": "Larry Franco"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        },
+        {
+          "name": "James Newton Howard"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Wally Pfister"
+        }
+      ]
+    }
+  ],
+  "year": 2005,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Warner Bros. Pictures",
     "Legendary"
   ],
-  "directedBy": [
-    "Christopher Nolan"
-  ],
-  "producedBy": "Charles Roven, Emma Thomas, Larry Franco",
-  "writtenBy": "Christopher Nolan, David S. Goyer",
-  "musicBy": "Hans Zimmer, James Newton Howard",
-  "cinematographyBy": "Wally Pfister",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 375,
-    "suffix": "million"
-  },
-  "synopsis": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
-  "collections": [
-    {
-      "name": "Superheroes"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Fantasy Film",
-        "Best Actor",
-        "Best Writing"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Hero"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "The Dark Knight",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 140,
   "cast": [
     {
       "character": {
@@ -143,7 +160,37 @@
       "actorId": "768ac83c-1206-4dd2-87f4-fd0550f8492b"
     }
   ],
-  "duration": 140,
-  "trailer": "neY2xVmOfUM",
-  "year": 2005
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 375,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Fantasy Film",
+        "Best Actor",
+        "Best Writing"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Hero"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Dark Knight",
+    "part": 1
+  }
 }

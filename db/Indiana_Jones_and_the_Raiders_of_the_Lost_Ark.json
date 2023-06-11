@@ -1,88 +1,71 @@
 {
   "id": "0f08adbb-62a4-43d1-9a0c-f63b6e56cd53",
+  "type": [
+    "Film"
+  ],
   "title": "Indiana Jones and the Raiders of the Lost Ark",
   "poster": "indiana_jones_1",
+  "trailer": "Rh_BJXG1-44",
   "genres": [
     "Adventures",
     "Fantasy",
     "Action"
   ],
+  "synopsis": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Steven Spielberg"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Lawrence Kasdan"
+        },
+        {
+          "name": "George Lucas (story)"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Frank Marshall"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Douglas Slocombe"
+        }
+      ]
+    }
+  ],
+  "year": 1981,
+  "countries": [
+    "USA"
+  ],
   "production": [
     "Paramount Pictures",
     "Lucasfilm"
   ],
-  "directedBy": [
-    "Steven Spielberg"
-  ],
-  "producedBy": "Frank Marshall",
-  "writtenBy": "Lawrence Kasdan, George Lucas (story)",
-  "musicBy": "John Williams",
-  "cinematographyBy": "Douglas Slocombe",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 18,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 390,
-    "suffix": "million"
-  },
-  "synopsis": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers.",
-  "collections": [
-    {
-      "name": "Legends"
-    },
-    {
-      "name": "Mysteries of the Past"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Art Direction-Set Decoration",
-        "Best Sound",
-        "Best Film Editing",
-        "Best Effects",
-        "Visual Effects"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Production Design/Art Direction"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best DVD Collection",
-        "Best Fantasy Film",
-        "Best Actor (Harrison Ford)",
-        "Best Actress (Karen Allen)",
-        "Best Director",
-        "Best Writing",
-        "Best Music",
-        "Best Special Effects"
-      ]
-    },
-    {
-      "title": "Jupiter",
-      "nominations": [
-        "Best International Actor",
-        "Best International Film"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Indiana Jones",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 115,
   "cast": [
     {
       "character": {
@@ -127,7 +110,62 @@
       "actorId": "6865977f-8cdb-4e4b-89a3-914ea2fa28de"
     }
   ],
-  "duration": 115,
-  "trailer": "Rh_BJXG1-44",
-  "year": 1981
+  "collections": [
+    {
+      "title": "Legends"
+    },
+    {
+      "title": "Mysteries of the Past"
+    }
+  ],
+  "budget": {
+    "value": 18,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 390,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Art Direction-Set Decoration",
+        "Best Sound",
+        "Best Film Editing",
+        "Best Effects",
+        "Visual Effects"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Production Design/Art Direction"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best DVD Collection",
+        "Best Fantasy Film",
+        "Best Actor (Harrison Ford)",
+        "Best Actress (Karen Allen)",
+        "Best Director",
+        "Best Writing",
+        "Best Music",
+        "Best Special Effects"
+      ]
+    },
+    {
+      "title": "Jupiter",
+      "nominations": [
+        "Best International Actor",
+        "Best International Film"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Indiana Jones",
+    "part": 1
+  }
 }

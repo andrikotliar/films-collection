@@ -1,46 +1,70 @@
 {
   "id": "a5b2db9d-3f8c-4a21-8976-cfe5ab5d2e8e",
+  "type": [
+    "Film"
+  ],
   "title": "Pirates of the Caribbean: On Stranger Tides",
   "poster": "pirates_4",
+  "trailer": "t5AqJww06bw",
   "genres": [
     "Fantasy",
     "Adventures"
+  ],
+  "synopsis": "Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Rob Marshall"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Ted Elliott"
+        },
+        {
+          "name": "Terry Rossio"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Jerry Bruckheimer"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Dariusz Wolski"
+        }
+      ]
+    }
+  ],
+  "year": 2011,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Jerry Bruckheimer Films"
   ],
-  "directedBy": [
-    "Rob Marshall"
-  ],
-  "producedBy": "Jerry Bruckheimer",
-  "writtenBy": "Ted Elliott, Terry Rossio",
-  "musicBy": "Hans Zimmer",
-  "cinematographyBy": "Dariusz Wolski",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 250,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.05,
-    "suffix": "billion"
-  },
-  "synopsis": "Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
-  ],
-  "parts": {
-    "title": "Pirates of the Caribbean",
-    "part": 4
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 137,
   "cast": [
     {
       "character": {
@@ -92,7 +116,21 @@
       "actorId": "a89a58b3-7927-48a3-a41e-0e5d05e84d28"
     }
   ],
-  "duration": 137,
-  "trailer": "t5AqJww06bw",
-  "year": 2011
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 250,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.05,
+    "suffix": "billion"
+  },
+  "parts": {
+    "title": "Pirates of the Caribbean",
+    "part": 4
+  }
 }

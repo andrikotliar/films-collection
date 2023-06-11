@@ -1,44 +1,73 @@
 {
   "id": "2bdff333-f23a-46ce-b360-bfc350ddf0cc",
+  "type": [
+    "Animation"
+  ],
   "title": "Mune, Le Gardian De La Lune",
   "poster": "mune",
+  "trailer": "AbHXQRiY3H8",
   "genres": [
     "Adventures",
     "Comedy"
+  ],
+  "synopsis": "When an evil magma demon and his minions steals the sun of a magical world, the new guardians of both the sun and the moon must embark on a quest to retrieve it and save their world from disaster as the moon faces destruction as well.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Alexandre Heboyan"
+        },
+        {
+          "name": "Beno't Philippon"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Benoît Philippon"
+        },
+        {
+          "name": "Jérôme Fansten"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Dimitri Rassam"
+        },
+        {
+          "name": "Aton Soumache"
+        },
+        {
+          "name": "Alexis Vonarb"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Bruno Coulais"
+        }
+      ]
+    }
+  ],
+  "year": 2015,
+  "countries": [
+    "France",
+    "USA"
   ],
   "production": [
     "Onyx Films",
     "Kinology",
     "ON Animation Studios"
   ],
-  "directedBy": [
-    "Alexandre Heboyan",
-    "Beno't Philippon"
-  ],
-  "producedBy": "Dimitri Rassam, Aton Soumache, Alexis Vonarb",
-  "writtenBy": "Benoît Philippon, Jérôme Fansten",
-  "musicBy": "Bruno Coulais",
-  "countries": [
-    "France",
-    "USA"
-  ],
-  "budget": {
-    "value": 17,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 9.1,
-    "suffix": "million"
-  },
-  "synopsis": "When an evil magma demon and his minions steals the sun of a magical world, the new guardians of both the sun and the moon must embark on a quest to retrieve it and save their world from disaster as the moon faces destruction as well.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
-  ],
-  "type": [
-    "Animation"
-  ],
+  "duration": 86,
   "cast": [
     {
       "character": {
@@ -62,7 +91,17 @@
       "actorId": "5f500be6-3476-4a43-baa1-850337c163e9"
     }
   ],
-  "duration": 86,
-  "trailer": "AbHXQRiY3H8",
-  "year": 2015
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 17,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 9.1,
+    "suffix": "million"
+  }
 }

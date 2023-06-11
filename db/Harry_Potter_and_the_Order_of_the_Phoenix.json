@@ -1,46 +1,70 @@
 {
   "id": "2da6b927-0ed4-4f4b-b976-609f1dc705b6",
+  "type": [
+    "Film"
+  ],
   "title": "Harry Potter and the Order of the Phoenix",
   "poster": "harry_potter_5",
+  "trailer": "y6ZW7KXaXYk",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "Warner Bros. Pictures"
+  "synopsis": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "David Yates"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Michael Goldenberg"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "David Heyman"
+        },
+        {
+          "name": "David Barron"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Nicholas Hooper"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Slawomir Idziak"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "David Yates"
-  ],
-  "producedBy": "David Heyman, David Barron",
-  "writtenBy": "Michael Goldenberg",
-  "musicBy": "Nicholas Hooper",
-  "cinematographyBy": "Slawomir Idziak",
+  "year": 2007,
   "countries": [
     "USA",
     "UK"
   ],
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 940,
-    "suffix": "million"
-  },
-  "synopsis": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.",
-  "collections": [
-    {
-      "name": "Harry Potter Universe"
-    }
+  "production": [
+    "Warner Bros. Pictures"
   ],
-  "parts": {
-    "title": "Harry Potter Universe",
-    "part": 7
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 138,
   "cast": [
     {
       "character": {
@@ -113,7 +137,21 @@
       "actorId": "6e8cb43d-6dc8-45fd-a9de-a20ba4ab4858"
     }
   ],
-  "duration": 138,
-  "trailer": "y6ZW7KXaXYk",
-  "year": 2007
+  "collections": [
+    {
+      "title": "Harry Potter Universe"
+    }
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 940,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Harry Potter Universe",
+    "part": 7
+  }
 }

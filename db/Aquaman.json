@@ -1,46 +1,73 @@
 {
   "id": "c08d1fc0-8823-4a4b-ae46-1b92be8b02e3",
+  "type": [
+    "Film"
+  ],
   "title": "Aquaman",
   "poster": "aquaman",
+  "trailer": "WDkg3h8PCVU",
   "genres": [
     "Fantasy",
     "Adventures"
+  ],
+  "synopsis": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "James Wan"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "David Leslie Johnson-McGoldrick"
+        },
+        {
+          "name": "Will Beall"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Peter Safran"
+        },
+        {
+          "name": "Rob Cowan"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Rupert Gregson-Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Don Burgess"
+        }
+      ]
+    }
+  ],
+  "year": 2018,
+  "countries": [
+    "USA"
   ],
   "production": [
     "DC Entertainment",
     "Warner Bros. Pictures"
   ],
-  "directedBy": [
-    "James Wan"
-  ],
-  "producedBy": "Peter Safran, Rob Cowan",
-  "writtenBy": "David Leslie Johnson-McGoldrick, Will Beall",
-  "musicBy": "Rupert Gregson-Williams",
-  "cinematographyBy": "Don Burgess",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 160,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.15,
-    "suffix": "billion"
-  },
-  "synopsis": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
-  "collections": [
-    {
-      "name": "DC Extended Universe"
-    }
-  ],
-  "parts": {
-    "title": "DC Extended Universe",
-    "part": 6
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 143,
   "cast": [
     {
       "character": {
@@ -106,7 +133,21 @@
       "actorId": "bc93ba4f-0ba0-44e2-a4d0-77877fc475b9"
     }
   ],
-  "duration": 143,
-  "trailer": "WDkg3h8PCVU",
-  "year": 2018
+  "collections": [
+    {
+      "title": "DC Extended Universe"
+    }
+  ],
+  "budget": {
+    "value": 160,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.15,
+    "suffix": "billion"
+  },
+  "parts": {
+    "title": "DC Extended Universe",
+    "part": 6
+  }
 }

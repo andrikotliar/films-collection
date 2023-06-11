@@ -1,54 +1,76 @@
 {
   "id": "8a9fc3da-8308-46b3-a0b5-e407939715da",
+  "type": [
+    "Film"
+  ],
   "title": "The Dark Knight Rises",
   "poster": "batman_3",
+  "trailer": "GokKUqLcvD8",
   "genres": [
     "Action",
     "Thriller"
+  ],
+  "synopsis": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City, now on the edge of total annihilation, from the brutal guerrilla terrorist Bane.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Christopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Christopher Nolan"
+        },
+        {
+          "name": "Jonathan Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Charles Roven"
+        },
+        {
+          "name": "Emma Thomas"
+        },
+        {
+          "name": "Christopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Wally Pfister"
+        }
+      ]
+    }
+  ],
+  "year": 2012,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Warner Bros. Pictures",
     "Legendary"
   ],
-  "directedBy": [
-    "Christopher Nolan"
-  ],
-  "producedBy": "Charles Roven, Emma Thomas, Christopher Nolan",
-  "writtenBy": "Christopher Nolan, Jonathan Nolan",
-  "musicBy": "Hans Zimmer",
-  "cinematographyBy": "Wally Pfister",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 250,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.08,
-    "suffix": "billion"
-  },
-  "synopsis": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City, now on the edge of total annihilation, from the brutal guerrilla terrorist Bane.",
-  "collections": [
-    {
-      "name": "Superheroes"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Supporting Actress"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "The Dark Knight",
-    "part": 3
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 165,
   "cast": [
     {
       "character": {
@@ -142,7 +164,29 @@
       "actorId": "938fae8e-6b9d-4be6-8c10-2123031c43e1"
     }
   ],
-  "duration": 165,
-  "trailer": "GokKUqLcvD8",
-  "year": 2012
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": {
+    "value": 250,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.08,
+    "suffix": "billion"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Supporting Actress"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Dark Knight",
+    "part": 3
+  }
 }

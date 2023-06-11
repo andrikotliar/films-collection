@@ -1,60 +1,70 @@
 {
   "id": "37707d09-0bfb-42b5-821f-300a2b0cb1e4",
+  "type": [
+    "Film"
+  ],
   "title": "Suicide Squad",
   "poster": "suicide_squad",
+  "trailer": "CmRih_VtVAs",
   "genres": [
     "Action",
     "Adventures"
+  ],
+  "synopsis": "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "David Ayer"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "David Ayer"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Charles Roven"
+        },
+        {
+          "name": "Richard Suckle"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Steven Price"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Roman Vasyanov"
+        }
+      ]
+    }
+  ],
+  "year": 2016,
+  "countries": [
+    "USA"
   ],
   "production": [
     "DC Entertainment",
     "Warner Bros. Pictures"
   ],
-  "directedBy": [
-    "David Ayer"
-  ],
-  "producedBy": "Charles Roven, Richard Suckle",
-  "writtenBy": "David Ayer",
-  "musicBy": "Steven Price",
-  "cinematographyBy": "Roman Vasyanov",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 175,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 747,
-    "suffix": "million"
-  },
-  "synopsis": "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse.",
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Achievement in Makeup and Hairstyling"
-      ]
-    },
-    {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Actress in an Action Movie"
-      ]
-    }
-  ],
-  "collections": [
-    {
-      "name": "DC Extended Universe"
-    }
-  ],
-  "parts": {
-    "title": "DC Extended Universe",
-    "part": 3
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 123,
   "cast": [
     {
       "character": {
@@ -120,7 +130,35 @@
       "actorId": "5e5c40b7-04ea-4cca-8f51-0353582a677c"
     }
   ],
-  "duration": 123,
-  "trailer": "CmRih_VtVAs",
-  "year": 2016
+  "collections": [
+    {
+      "title": "DC Extended Universe"
+    }
+  ],
+  "budget": {
+    "value": 175,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 747,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Achievement in Makeup and Hairstyling"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Actress in an Action Movie"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "DC Extended Universe",
+    "part": 3
+  }
 }

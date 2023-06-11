@@ -1,59 +1,70 @@
 {
   "id": "be7740c1-74b4-405a-9f59-3b611751bec5",
+  "type": [
+    "Film"
+  ],
   "title": "X-Men",
   "poster": "x_men_1",
+  "trailer": "VNxwlx6etXI",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Bryan Singer"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "David Hayter"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Lauren Shuler Donner"
+        },
+        {
+          "name": "Ralph Winter"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Michael Kamen"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Newton Thomas Sigel"
+        }
+      ]
+    }
+  ],
+  "year": 2000,
+  "countries": [
+    "USA"
   ],
   "production": [
     "20th Century FOX",
     "Marvel Entertainment"
   ],
-  "directedBy": [
-    "Bryan Singer"
-  ],
-  "producedBy": "Lauren Shuler Donner, Ralph Winter",
-  "writtenBy": "David Hayter",
-  "musicBy": "Michael Kamen",
-  "cinematographyBy": "Newton Thomas Sigel",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 75,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 296,
-    "suffix": "million"
-  },
-  "synopsis": "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men.",
-  "collections": [
-    {
-      "name": "Superheroes"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Science Fiction Film",
-        "Best Actor",
-        "Best Supporting Actress",
-        "Best Director",
-        "Best Writing",
-        "Best Costumes"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "X-Men",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 104,
   "cast": [
     {
       "character": {
@@ -133,7 +144,34 @@
       "actorId": "228b656c-0882-4251-8e2c-80c2c48e2098"
     }
   ],
-  "duration": 104,
-  "trailer": "VNxwlx6etXI",
-  "year": 2000
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": {
+    "value": 75,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 296,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Actor",
+        "Best Supporting Actress",
+        "Best Director",
+        "Best Writing",
+        "Best Costumes"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "X-Men",
+    "part": 1
+  }
 }

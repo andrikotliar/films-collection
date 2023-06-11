@@ -1,60 +1,73 @@
 {
   "id": "4084aa14-d199-44b3-b0a1-b9a87f1845ed",
+  "type": [
+    "Film"
+  ],
   "title": "Harry Potter and the Deathly Hallows: Part II",
   "poster": "harry_potter_8",
+  "trailer": "5NYt1qirBWg",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "Warner Bros. Pictures"
+  "synopsis": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "David Yates"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Steve Kloves"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "David Heyman"
+        },
+        {
+          "name": "David Barron"
+        },
+        {
+          "name": "J.K.Rowling"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Alexandre Desplat"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Eduardo Serra"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "David Yates"
-  ],
-  "producedBy": "David Heyman, David Barron, J.K.Rowling",
-  "writtenBy": "Steve Kloves",
-  "musicBy": "Alexandre Desplat",
-  "cinematographyBy": "Eduardo Serra",
+  "year": 2011,
   "countries": [
     "USA",
     "UK"
   ],
-  "budget": {
-    "value": 250,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.34,
-    "suffix": "billion"
-  },
-  "synopsis": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
-  "awards": [
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Special Visual Effects"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Fantasy Film"
-      ]
-    }
+  "production": [
+    "Warner Bros. Pictures"
   ],
-  "collections": [
-    {
-      "name": "Harry Potter Universe"
-    }
-  ],
-  "parts": {
-    "title": "Harry Potter Universe",
-    "part": 10
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 130,
   "cast": [
     {
       "character": {
@@ -113,7 +126,35 @@
       "actorId": "cf40a9cd-4f18-4a84-93a8-6267385b2a87"
     }
   ],
-  "duration": 130,
-  "trailer": "5NYt1qirBWg",
-  "year": 2011
+  "collections": [
+    {
+      "title": "Harry Potter Universe"
+    }
+  ],
+  "budget": {
+    "value": 250,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.34,
+    "suffix": "billion"
+  },
+  "awards": [
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Special Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Fantasy Film"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Harry Potter Universe",
+    "part": 10
+  }
 }

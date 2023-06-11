@@ -1,47 +1,76 @@
 {
   "id": "3f5f5910-90cc-4f8f-9927-78eedd6e15d4",
+  "type": [
+    "Film"
+  ],
   "title": "Captain Marvel",
   "poster": "captain_marvel",
+  "trailer": "TcMBFSGVi1c",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Anna Boden"
+        },
+        {
+          "name": "Ryan Fleck"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Anna Boden"
+        },
+        {
+          "name": "Ryan Fleck"
+        },
+        {
+          "name": "Geneva Robertson-Dworet"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Pinar Toprak"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Ben Davis"
+        }
+      ]
+    }
+  ],
+  "year": 2019,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "directedBy": [
-    "Anna Boden",
-    "Ryan Fleck"
-  ],
-  "producedBy": "Kevin Feige",
-  "writtenBy": "Anna Boden, Ryan Fleck, Geneva Robertson-Dworet",
-  "musicBy": "Pinar Toprak",
-  "cinematographyBy": "Ben Davis",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 152,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.13,
-    "suffix": "billion"
-  },
-  "synopsis": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 21
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 124,
   "cast": [
     {
       "character": {
@@ -121,7 +150,21 @@
       "actorId": "33d9cb34-b243-4115-8fc3-4e073d89206a"
     }
   ],
-  "duration": 124,
-  "trailer": "TcMBFSGVi1c",
-  "year": 2019
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 152,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.13,
+    "suffix": "billion"
+  },
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 21
+  }
 }

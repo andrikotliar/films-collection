@@ -1,44 +1,68 @@
 {
   "id": "d1438f1f-0622-43da-b15c-1cea3055da5b",
+  "type": [
+    "Film"
+  ],
   "title": "Taxi 3",
   "poster": "taxi_3",
+  "trailer": "XLP-rf3dHOQ",
   "genres": [
     "Comedy"
+  ],
+  "synopsis": "Out to stop a new gang disguised as Santa Claus, Emilien and Daniel must also handle major changes in their personal relationships.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Gérard Krawczyk"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Luc Besson"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Luc Besson"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "DJ Kore"
+        },
+        {
+          "name": "DJ Skalp"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "G'rard Sterin"
+        }
+      ]
+    }
+  ],
+  "year": 2003,
+  "countries": [
+    "USA"
   ],
   "production": [
     "LionsGate Entertainment"
   ],
-  "directedBy": [
-    "Gérard Krawczyk"
-  ],
-  "producedBy": "Luc Besson",
-  "writtenBy": "Luc Besson",
-  "musicBy": "DJ Kore, DJ Skalp",
-  "cinematographyBy": "G'rard Sterin",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 14,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 64,
-    "suffix": "million"
-  },
-  "synopsis": "Out to stop a new gang disguised as Santa Claus, Emilien and Daniel must also handle major changes in their personal relationships.",
-  "collections": [
-    {
-      "name": "Cars"
-    }
-  ],
-  "parts": {
-    "title": "Besson's Taxi",
-    "part": 3
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 84,
   "cast": [
     {
       "character": {
@@ -97,7 +121,21 @@
       "actorId": "2d8da59e-b0ce-424b-b02e-bf9c1e8997a6"
     }
   ],
-  "duration": 84,
-  "trailer": "XLP-rf3dHOQ",
-  "year": 2003
+  "collections": [
+    {
+      "title": "Cars"
+    }
+  ],
+  "budget": {
+    "value": 14,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 64,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Besson's Taxi",
+    "part": 3
+  }
 }

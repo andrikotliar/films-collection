@@ -1,244 +1,100 @@
 {
   "id": "ed127090-58fa-4e83-9d98-37b8577f2db1",
+  "type": [
+    "Series"
+  ],
   "title": "Dark",
   "poster": "dark",
   "genres": [
     "Fantasy",
     "Drama"
   ],
-  "production": [
-    "Netflix"
+  "synopsis": "A family saga with a supernatural twist, set in a German town, where the disappearance of two young children exposes the relationships among four families.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Baran bo Odar",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Jantje Friese",
+          "comment": ""
+        },
+        {
+          "name": "Ronny Schalk",
+          "comment": ""
+        },
+        {
+          "name": "Marc O. Seng",
+          "comment": ""
+        },
+        {
+          "name": "Martin Behnke",
+          "comment": ""
+        },
+        {
+          "name": "Daphne Ferraro",
+          "comment": ""
+        },
+        {
+          "name": "Martin Behnke",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Justyna Müsch"
+        },
+        {
+          "name": "Jantje Friese"
+        },
+        {
+          "name": "Quirin Berg"
+        },
+        {
+          "name": "Max Wiedemann"
+        },
+        {
+          "name": "Baran bo Odar"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Ben Frost"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Nikolaus Summerer"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Baran bo Odar",
-    "Jantje Friese"
-  ],
-  "producedBy": "Justyna Müsch, Jantje Friese, Quirin Berg, Max Wiedemann, Baran bo Odar",
-  "musicBy": "Ben Frost",
-  "cinematographyBy": "Nikolaus Summerer",
+  "year": 2017,
   "countries": [
     "Germany",
     "USA"
   ],
-  "synopsis": "A family saga with a supernatural twist, set in a German town, where the disappearance of two young children exposes the relationships among four families.",
-  "collections": [
-    {
-      "name": "Future"
-    }
+  "production": [
+    "Netflix"
   ],
-  "awards": [
-    {
-      "title": "Jupyter",
-      "nominations": [
-        "Best German TV Actor"
-      ]
-    }
-  ],
-  "type": [
-    "Series"
-  ],
-  "seasons": [
-    {
-      "season": 1,
-      "trailer": "rrwycJ08PSA",
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "Secrets",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Lies",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese, Ronny Schalk"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Past and Present",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese, Marc O. Seng"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "Double Lives",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Martin Behnke, Jantje Friese"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Truths",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Martin Behnke, Jantje Friese"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "Sic Mundus Creatus Est",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese, Ronny Schalk"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "Crossroads",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese, Marc O. Seng"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 8,
-          "title": "What you sow, you will reap",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Martin Behnke, Jantje Friese"
-        },
-        {
-          "episodeOverall": 9,
-          "episode": 9,
-          "title": "Everything Is Now",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese, Marc O. Seng"
-        },
-        {
-          "episodeOverall": 10,
-          "episode": 10,
-          "title": "Alpha and Omega",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese, Ronny Schalk"
-        }
-      ]
-    },
-    {
-      "season": 2,
-      "trailer": "810CHvSdXOo",
-      "episodes": [
-        {
-          "episodeOverall": 11,
-          "episode": 1,
-          "title": "Beginnings and Endings",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese, Daphne Ferraro"
-        },
-        {
-          "episodeOverall": 12,
-          "episode": 2,
-          "title": "Dark Matter",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese, Ronny Schalk"
-        },
-        {
-          "episodeOverall": 13,
-          "episode": 3,
-          "title": "Ghosts",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese, Marc O. Seng"
-        },
-        {
-          "episodeOverall": 14,
-          "episode": 4,
-          "title": "The Travelers",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese, Martin Behnke"
-        },
-        {
-          "episodeOverall": 15,
-          "episode": 5,
-          "title": "Lost and Found",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese, Ronny Schalk"
-        },
-        {
-          "episodeOverall": 16,
-          "episode": 6,
-          "title": "An Endless Cycle",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese, Martin Behnke"
-        },
-        {
-          "episodeOverall": 17,
-          "episode": 7,
-          "title": "The White Devil",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese, Marc O. Seng"
-        },
-        {
-          "episodeOverall": 18,
-          "episode": 8,
-          "title": "Endings and Beginnings",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese, Daphne Ferraro"
-        }
-      ]
-    },
-    {
-      "season": 3,
-      "trailer": "cq2iTHoLrt0",
-      "episodes": [
-        {
-          "episodeOverall": 19,
-          "episode": 1,
-          "title": "Deja-vu",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese"
-        },
-        {
-          "episodeOverall": 20,
-          "episode": 2,
-          "title": "The Survivors",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese, Marc O. Seng"
-        },
-        {
-          "episodeOverall": 21,
-          "episode": 3,
-          "title": "Adam and Eva",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese"
-        },
-        {
-          "episodeOverall": 22,
-          "episode": 4,
-          "title": "The Origin",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese"
-        },
-        {
-          "episodeOverall": 23,
-          "episode": 5,
-          "title": "Life and Death",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese"
-        },
-        {
-          "episodeOverall": 24,
-          "episode": 6,
-          "title": "Light and Shadow",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese, Marc O. Seng"
-        },
-        {
-          "episodeOverall": 25,
-          "episode": 7,
-          "title": "In Between Time",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese"
-        },
-        {
-          "episodeOverall": 26,
-          "episode": 8,
-          "title": "Paradise",
-          "directedBy": "Baran bo Odar",
-          "writtenBy": "Jantje Friese"
-        }
-      ]
-    }
-  ],
+  "duration": 1560,
   "cast": [
     {
       "character": {
@@ -416,6 +272,170 @@
       "actorId": "ae6cd46f-4db3-48ab-a9e9-fcd2cf7a3e50"
     }
   ],
-  "duration": 1560,
-  "year": 2017
+  "collections": [
+    {
+      "title": "Future"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Jupyter",
+      "nominations": [
+        "Best German TV Actor"
+      ]
+    }
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "trailer": "rrwycJ08PSA",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "Secrets"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Lies"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Past and Present"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "Double Lives"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Truths"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "Sic Mundus Creatus Est"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "Crossroads"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "What you sow, you will reap"
+        },
+        {
+          "episodeOverall": 9,
+          "episode": 9,
+          "title": "Everything Is Now"
+        },
+        {
+          "episodeOverall": 10,
+          "episode": 10,
+          "title": "Alpha and Omega"
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "trailer": "810CHvSdXOo",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 11,
+          "episode": 1,
+          "title": "Beginnings and Endings"
+        },
+        {
+          "episodeOverall": 12,
+          "episode": 2,
+          "title": "Dark Matter"
+        },
+        {
+          "episodeOverall": 13,
+          "episode": 3,
+          "title": "Ghosts"
+        },
+        {
+          "episodeOverall": 14,
+          "episode": 4,
+          "title": "The Travelers"
+        },
+        {
+          "episodeOverall": 15,
+          "episode": 5,
+          "title": "Lost and Found"
+        },
+        {
+          "episodeOverall": 16,
+          "episode": 6,
+          "title": "An Endless Cycle"
+        },
+        {
+          "episodeOverall": 17,
+          "episode": 7,
+          "title": "The White Devil"
+        },
+        {
+          "episodeOverall": 18,
+          "episode": 8,
+          "title": "Endings and Beginnings"
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "trailer": "cq2iTHoLrt0",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 19,
+          "episode": 1,
+          "title": "Deja-vu"
+        },
+        {
+          "episodeOverall": 20,
+          "episode": 2,
+          "title": "The Survivors"
+        },
+        {
+          "episodeOverall": 21,
+          "episode": 3,
+          "title": "Adam and Eva"
+        },
+        {
+          "episodeOverall": 22,
+          "episode": 4,
+          "title": "The Origin"
+        },
+        {
+          "episodeOverall": 23,
+          "episode": 5,
+          "title": "Life and Death"
+        },
+        {
+          "episodeOverall": 24,
+          "episode": 6,
+          "title": "Light and Shadow"
+        },
+        {
+          "episodeOverall": 25,
+          "episode": 7,
+          "title": "In Between Time"
+        },
+        {
+          "episodeOverall": 26,
+          "episode": 8,
+          "title": "Paradise"
+        }
+      ]
+    }
+  ]
 }

@@ -1,46 +1,67 @@
 {
   "id": "3efb77c8-da14-4ca3-b6a7-a51b0daeff4b",
+  "type": [
+    "Film"
+  ],
   "title": "Shazam!",
   "poster": "shazam",
+  "trailer": "go6GEIrcvFY",
   "genres": [
     "Adventures",
     "Comedy"
+  ],
+  "synopsis": "We all have a superhero inside us, it just takes a bit of magic to bring it out. In Billy Batson's case, by shouting out one word - SHAZAM! - this streetwise fourteen-year-old foster kid can turn into the adult superhero Shazam.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "David F. Sandberg"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Henry Gayden"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Peter Safran"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Benjamin Wallfisch"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Maxime Alexandre"
+        }
+      ]
+    }
+  ],
+  "year": 2019,
+  "countries": [
+    "USA"
   ],
   "production": [
     "DC Entertainment",
     "Warner Bros. Pictures"
   ],
-  "directedBy": [
-    "David F. Sandberg"
-  ],
-  "producedBy": "Peter Safran",
-  "writtenBy": "Henry Gayden",
-  "musicBy": "Benjamin Wallfisch",
-  "cinematographyBy": "Maxime Alexandre",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 80,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 356,
-    "suffix": "million"
-  },
-  "synopsis": "We all have a superhero inside us, it just takes a bit of magic to bring it out. In Billy Batson's case, by shouting out one word - SHAZAM! - this streetwise fourteen-year-old foster kid can turn into the adult superhero Shazam.",
-  "collections": [
-    {
-      "name": "DC Extended Universe"
-    }
-  ],
-  "parts": {
-    "title": "DC Extended Universe",
-    "part": 7
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 132,
   "cast": [
     {
       "character": {
@@ -85,7 +106,21 @@
       "actorId": "e1190c68-e586-4237-b598-1b7bf89371c0"
     }
   ],
-  "duration": 132,
-  "trailer": "go6GEIrcvFY",
-  "year": 2019
+  "collections": [
+    {
+      "title": "DC Extended Universe"
+    }
+  ],
+  "budget": {
+    "value": 80,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 356,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "DC Extended Universe",
+    "part": 7
+  }
 }

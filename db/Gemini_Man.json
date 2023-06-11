@@ -1,42 +1,76 @@
 {
   "id": "0a7a3ff1-0f86-4670-a5ea-9daa10373967",
+  "type": [
+    "Film"
+  ],
   "title": "Gemini Man",
   "poster": "gemini",
+  "trailer": "AbyJignbSj0",
   "genres": [
     "Action",
     "Sci-Fi"
+  ],
+  "synopsis": "An over-the-hill hitman faces off against a younger clone of himself",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Ang Lee"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "David Benioff"
+        },
+        {
+          "name": "Billy Ray"
+        },
+        {
+          "name": "Darren Lemke"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Jerry Bruckheimer"
+        },
+        {
+          "name": "David Ellison"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Lorne Balfe"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Dion Beebe"
+        }
+      ]
+    }
+  ],
+  "year": 2019,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Paramount Pictures",
     "Skydance Media"
   ],
-  "directedBy": [
-    "Ang Lee"
-  ],
-  "producedBy": "Jerry Bruckheimer, David Ellison",
-  "writtenBy": "David Benioff, Billy Ray, Darren Lemke",
-  "musicBy": "Lorne Balfe",
-  "cinematographyBy": "Dion Beebe",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 138,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 173,
-    "suffix": "million"
-  },
-  "synopsis": "An over-the-hill hitman faces off against a younger clone of himself",
-  "collections": [
-    {
-      "name": "Future"
-    }
-  ],
-  "type": [
-    "Film"
-  ],
+  "duration": 117,
   "cast": [
     {
       "character": {
@@ -102,7 +136,17 @@
       "actorId": "ba004115-a4a1-4705-8d45-8703a39ff932"
     }
   ],
-  "duration": 117,
-  "trailer": "AbyJignbSj0",
-  "year": 2019
+  "collections": [
+    {
+      "title": "Future"
+    }
+  ],
+  "budget": {
+    "value": 138,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 173,
+    "suffix": "million"
+  }
 }

@@ -1,41 +1,75 @@
 {
   "id": "aa81f038-7f7e-4bd7-b3d0-2040d6a39eff",
+  "type": [
+    "Film"
+  ],
   "title": "Murder on the Orient Express",
   "poster": "murder_on_the_orient_express",
+  "trailer": "Mq4m3yAoW8E",
   "genres": [
     "Crime",
     "Drama"
   ],
-  "production": [
-    "20th Century FOX"
+  "synopsis": "When a murder occurs on the train on which he's travelling, celebrated detective Hercule Poirot is recruited to solve the case.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Kenneth Branagh"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Michael Green"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Ridley Scott"
+        },
+        {
+          "name": "Mark Gordon"
+        },
+        {
+          "name": "Simon Kinberg"
+        },
+        {
+          "name": "Kenneth Branagh"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Patrick Doyle"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Haris Zambarloukos"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Kenneth Branagh"
-  ],
-  "producedBy": "Ridley Scott, Mark Gordon, Simon Kinberg, Kenneth Branagh",
-  "writtenBy": "Michael Green",
-  "musicBy": "Patrick Doyle",
-  "cinematographyBy": "Haris Zambarloukos",
+  "year": 2017,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 55,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 353,
-    "suffix": "million"
-  },
-  "synopsis": "When a murder occurs on the train on which he's travelling, celebrated detective Hercule Poirot is recruited to solve the case.",
-  "collections": [
-    {
-      "name": "Agents and Detectives"
-    }
+  "production": [
+    "20th Century FOX"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 114,
   "cast": [
     {
       "character": {
@@ -150,7 +184,17 @@
       "actorId": "eef48856-0af8-4fda-897a-0da97cc1b21b"
     }
   ],
-  "duration": 114,
-  "trailer": "Mq4m3yAoW8E",
-  "year": 2017
+  "collections": [
+    {
+      "title": "Agents and Detectives"
+    }
+  ],
+  "budget": {
+    "value": 55,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 353,
+    "suffix": "million"
+  }
 }

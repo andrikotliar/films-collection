@@ -1,46 +1,70 @@
 {
   "id": "cc9b2203-2dc1-488b-81cf-d9ac0e1f77c1",
+  "type": [
+    "Film"
+  ],
   "title": "X-Men: Apocalypse",
   "poster": "x_men_7",
+  "trailer": "Jer8XjMrUB4",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "In the 1980s the X-Men must defeat an ancient all-powerful mutant, En Sabah Nur, who intends to thrive through bringing destruction to the world.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Bryan Singer"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Simon Kinberg"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Lauren Shuler Donner"
+        },
+        {
+          "name": "Bryan Singer"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Ottman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Newton Thomas Sigel"
+        }
+      ]
+    }
+  ],
+  "year": 2016,
+  "countries": [
+    "USA"
   ],
   "production": [
     "20th Century FOX",
     "Marvel Entertainment"
   ],
-  "directedBy": [
-    "Bryan Singer"
-  ],
-  "producedBy": "Lauren Shuler Donner, Bryan Singer",
-  "writtenBy": "Simon Kinberg",
-  "musicBy": "John Ottman",
-  "cinematographyBy": "Newton Thomas Sigel",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 178,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 544,
-    "suffix": "million"
-  },
-  "synopsis": "In the 1980s the X-Men must defeat an ancient all-powerful mutant, En Sabah Nur, who intends to thrive through bringing destruction to the world.",
-  "collections": [
-    {
-      "name": "Superheroes"
-    }
-  ],
-  "parts": {
-    "title": "X-Men",
-    "part": 8
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 144,
   "cast": [
     {
       "character": {
@@ -127,7 +151,21 @@
       "actorId": "852a50e9-5001-4823-a658-384d34594f37"
     }
   ],
-  "duration": 144,
-  "trailer": "Jer8XjMrUB4",
-  "year": 2016
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": {
+    "value": 178,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 544,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "X-Men",
+    "part": 8
+  }
 }

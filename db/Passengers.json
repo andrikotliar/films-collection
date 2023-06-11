@@ -1,45 +1,75 @@
 {
   "id": "24de11f5-5644-4e29-a734-838663847150",
+  "type": [
+    "Film"
+  ],
   "title": "Passengers",
   "poster": "passengers",
+  "trailer": "7BWWWQzTpNU",
   "genres": [
     "Sci-Fi",
     "Romance"
   ],
-  "production": [
-    "Columbia Pictures"
+  "synopsis": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Morten Tyldum"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Jon Spaihts"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Stephen Hamel"
+        },
+        {
+          "name": "Michael Maher"
+        },
+        {
+          "name": "Neal H. Moritz"
+        },
+        {
+          "name": "Ori Marmur"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Thomas Newman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Rodrigo Prieto"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Morten Tyldum"
-  ],
-  "producedBy": "Stephen Hamel, Michael Maher, Neal H. Moritz, Ori Marmur",
-  "writtenBy": "Jon Spaihts",
-  "musicBy": "Thomas Newman",
-  "cinematographyBy": "Rodrigo Prieto",
+  "year": 2016,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 110,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 303,
-    "suffix": "million"
-  },
-  "synopsis": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early.",
-  "collections": [
-    {
-      "name": "Space"
-    },
-    {
-      "top": 10,
-      "order": 7
-    }
+  "production": [
+    "Columbia Pictures"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 116,
   "cast": [
     {
       "character": {
@@ -77,7 +107,20 @@
       "actorId": "e238613f-3004-4897-84e3-fdbcab37d857"
     }
   ],
-  "duration": 116,
-  "trailer": "7BWWWQzTpNU",
-  "year": 2016
+  "collections": [
+    {
+      "title": "Space"
+    },
+    {
+      "order": 7
+    }
+  ],
+  "budget": {
+    "value": 110,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 303,
+    "suffix": "million"
+  }
 }

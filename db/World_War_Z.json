@@ -1,57 +1,77 @@
 {
   "id": "2d6009ca-845e-42d9-9259-c1bc7c839568",
+  "type": [
+    "Film"
+  ],
   "title": "World War Z",
   "poster": "world_war_z",
+  "trailer": "Md6Dvxdr0AQ",
   "genres": [
     "Action",
     "Adventures",
     "Horror"
   ],
+  "synopsis": "Former United Nations employee Gerry Lane traverses the world in a race against time to stop the Zombie pandemic that is toppling armies and governments, and threatening to destroy humanity itself.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Marc Forster"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Matthew Michael Carnahan"
+        },
+        {
+          "name": "Drew Goddard"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Brad Pitt"
+        },
+        {
+          "name": "Dede Gardner"
+        },
+        {
+          "name": "Jeremy Kleiner"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Marco Beltrami"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Ben Seresin"
+        }
+      ]
+    }
+  ],
+  "year": 2013,
+  "countries": [
+    "USA"
+  ],
   "production": [
     "Paramount Pictures",
     "Skydance Productions"
   ],
-  "directedBy": [
-    "Marc Forster"
-  ],
-  "producedBy": "Brad Pitt, Dede Gardner, Jeremy Kleiner",
-  "writtenBy": "Matthew Michael Carnahan, Drew Goddard",
-  "musicBy": "Marco Beltrami",
-  "cinematographyBy": "Ben Seresin",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 190,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 540,
-    "suffix": "million"
-  },
-  "synopsis": "Former United Nations employee Gerry Lane traverses the world in a race against time to stop the Zombie pandemic that is toppling armies and governments, and threatening to destroy humanity itself.",
-  "collections": [
-    {
-      "name": "Future"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Thriller Film"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Scared-As-S**t Performance"
-      ]
-    }
-  ],
-  "type": [
-    "Film"
-  ],
+  "duration": 116,
   "cast": [
     {
       "character": {
@@ -89,7 +109,31 @@
       "actorId": "a080b48b-1838-45bd-be09-e597b55dd762"
     }
   ],
-  "duration": 116,
-  "trailer": "Md6Dvxdr0AQ",
-  "year": 2013
+  "collections": [
+    {
+      "title": "Future"
+    }
+  ],
+  "budget": {
+    "value": 190,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 540,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Thriller Film"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Scared-As-S**t Performance"
+      ]
+    }
+  ]
 }

@@ -1,44 +1,77 @@
 {
   "id": "f9fdcca8-6241-4b6e-b9b8-10322b3bb5ab",
+  "type": [
+    "Film"
+  ],
   "title": "Taxi 2",
   "poster": "taxi_2",
+  "trailer": "XkMZ75BwhCg",
   "genres": [
     "Comedy"
+  ],
+  "synopsis": "Police inspector Emilien and his taxi-driver pal Daniel are back, this time on the tail of a group of Japanese yakuza.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Gérard Pirès"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Luc Besson"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Luc Besson"
+        },
+        {
+          "name": "Michele Petin"
+        },
+        {
+          "name": "Laurent Petin"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Olivier \"Akos\" Castelli"
+        },
+        {
+          "name": "Al Khemya"
+        },
+        {
+          "name": "One Shot"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Thierry Guilmaro"
+        }
+      ]
+    }
+  ],
+  "year": 2000,
+  "countries": [
+    "USA"
   ],
   "production": [
     "LionsGate Entertainment"
   ],
-  "directedBy": [
-    "Gérard Pirès"
-  ],
-  "producedBy": "Luc Besson, Michele Petin, Laurent Petin",
-  "writtenBy": "Luc Besson",
-  "musicBy": "Olivier \"Akos\" Castelli, Al Khemya, One Shot",
-  "cinematographyBy": "Thierry Guilmaro",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 10,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 64,
-    "suffix": "million"
-  },
-  "synopsis": "Police inspector Emilien and his taxi-driver pal Daniel are back, this time on the tail of a group of Japanese yakuza.",
-  "collections": [
-    {
-      "name": "Cars"
-    }
-  ],
-  "parts": {
-    "title": "Besson's Taxi",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 88,
   "cast": [
     {
       "character": {
@@ -76,7 +109,21 @@
       "actorId": "520d163f-bd2b-4c34-b97c-745da636ebf2"
     }
   ],
-  "duration": 88,
-  "trailer": "XkMZ75BwhCg",
-  "year": 2000
+  "collections": [
+    {
+      "title": "Cars"
+    }
+  ],
+  "budget": {
+    "value": 10,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 64,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Besson's Taxi",
+    "part": 2
+  }
 }

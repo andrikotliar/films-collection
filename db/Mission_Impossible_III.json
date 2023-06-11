@@ -1,45 +1,75 @@
 {
   "id": "b58f1d96-ac14-4b5b-9679-74ab405916b8",
+  "type": [
+    "Film"
+  ],
   "title": "Mission: Impossible III",
   "poster": "mi_3",
+  "trailer": "rl2bysiyltg",
   "genres": [
     "Action",
     "Adventures"
   ],
-  "production": [
-    "Paramount Pictures"
+  "synopsis": "IMF Agent Ethan Hunt comes into conflict with a dangerous and sadistic arms dealer who threatens his life and his fiancée in response.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "J.J. Abrams"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Alex Kurtzman"
+        },
+        {
+          "name": "Roberto Orci"
+        },
+        {
+          "name": "J.J. Abrams"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Tom Cruise"
+        },
+        {
+          "name": "Paula Wagner"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Michael Giacchino"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Dan Mindel"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "J.J. Abrams"
-  ],
-  "producedBy": "Tom Cruise, Paula Wagner",
-  "writtenBy": "Alex Kurtzman, Roberto Orci, J.J. Abrams",
-  "musicBy": "Michael Giacchino",
-  "cinematographyBy": "Dan Mindel",
+  "year": 2006,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 398,
-    "suffix": "million"
-  },
-  "synopsis": "IMF Agent Ethan Hunt comes into conflict with a dangerous and sadistic arms dealer who threatens his life and his fiancée in response.",
-  "collections": [
-    {
-      "name": "Agents and Detectives"
-    }
+  "production": [
+    "Paramount Pictures"
   ],
-  "parts": {
-    "title": "Mission: Impossible",
-    "part": 3
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 125,
   "cast": [
     {
       "character": {
@@ -119,7 +149,21 @@
       "actorId": "d5cfb42e-818e-43cf-9840-f842bc4579e6"
     }
   ],
-  "duration": 125,
-  "trailer": "rl2bysiyltg",
-  "year": 2006
+  "collections": [
+    {
+      "title": "Agents and Detectives"
+    }
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 398,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Mission: Impossible",
+    "part": 3
+  }
 }

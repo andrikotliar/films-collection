@@ -1,45 +1,70 @@
 {
   "id": "3a0b5c45-d6b6-428f-8417-8815b46e9474",
+  "type": [
+    "Film"
+  ],
   "title": "The League of Extraordinary Gentlemen",
   "poster": "league_of_extraordinary_gentlemen",
+  "trailer": "_WWIiTlGyYQ",
   "genres": [
     "Adventures",
     "Fantasy",
     "Action"
   ],
-  "production": [
-    "20th Century FOX"
+  "synopsis": "In an alternate Victorian Age world, a group of famous contemporary fantasy, science fiction, and adventure characters team up on a secret mission.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Stephen Norrington"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "James Robinson"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Don Murphy"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Trevor Jones"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Dan Laustsen"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Stephen Norrington"
-  ],
-  "producedBy": "Don Murphy",
-  "writtenBy": "James Robinson",
-  "musicBy": "Trevor Jones",
-  "cinematographyBy": "Dan Laustsen",
+  "year": 2003,
   "countries": [
     "USA",
     "Germany",
     "Czech Republic",
     "UK"
   ],
-  "budget": {
-    "value": 78,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 179,
-    "suffix": "million"
-  },
-  "synopsis": "In an alternate Victorian Age world, a group of famous contemporary fantasy, science fiction, and adventure characters team up on a secret mission.",
-  "collections": [
-    {
-      "name": "Superheroes"
-    }
+  "production": [
+    "20th Century FOX"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 110,
   "cast": [
     {
       "character": {
@@ -98,7 +123,17 @@
       "actorId": "995291f9-bf02-4b7f-bd77-b3893d1ad8e9"
     }
   ],
-  "duration": 110,
-  "trailer": "_WWIiTlGyYQ",
-  "year": 2003
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": {
+    "value": 78,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 179,
+    "suffix": "million"
+  }
 }

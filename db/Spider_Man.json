@@ -1,46 +1,70 @@
 {
   "id": "cfe7f563-23b5-4f44-a6bf-785e52212d41",
+  "type": [
+    "Film"
+  ],
   "title": "Spider-Man",
   "poster": "raimi_spider_man_1",
+  "trailer": "_yhFofFZGcc",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Sam Raimi"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "David Koepp"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Ian Bryce"
+        },
+        {
+          "name": "Laura Ziskin"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Danny Elfman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Don Burgess"
+        }
+      ]
+    }
+  ],
+  "year": 2002,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Columbia Pictures",
     "Marvel Enterprises"
   ],
-  "directedBy": [
-    "Sam Raimi"
-  ],
-  "producedBy": "Ian Bryce, Laura Ziskin",
-  "writtenBy": "David Koepp",
-  "musicBy": "Danny Elfman",
-  "cinematographyBy": "Don Burgess",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 139,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 825,
-    "suffix": "million"
-  },
-  "synopsis": "When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family.",
-  "collections": [
-    {
-      "name": "Superheroes"
-    }
-  ],
-  "parts": {
-    "title": "Raimi's Spider-Man",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 121,
   "cast": [
     {
       "character": {
@@ -99,7 +123,21 @@
       "actorId": "676eefc2-cb59-4fc1-b82f-acaaf29dde65"
     }
   ],
-  "duration": 121,
-  "trailer": "_yhFofFZGcc",
-  "year": 2002
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": {
+    "value": 139,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 825,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Raimi's Spider-Man",
+    "part": 1
+  }
 }

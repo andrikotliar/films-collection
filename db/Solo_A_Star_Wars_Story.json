@@ -1,55 +1,78 @@
 {
   "id": "4b3cb1b3-ddf5-4eff-bd11-65e574d6ed59",
+  "type": [
+    "Film"
+  ],
   "title": "Solo: A Star Wars Story",
   "poster": "solo",
+  "trailer": "jPEYpryMp2s",
   "genres": [
     "Space Western"
+  ],
+  "synopsis": "During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Ron Howard"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Jonathan Kasdan"
+        },
+        {
+          "name": "Lawrence Kasdan"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kathleen Kennedy"
+        },
+        {
+          "name": "Allison Shearmur"
+        },
+        {
+          "name": "Simon Emanuel"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Powell"
+        },
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Bradford Young"
+        }
+      ]
+    }
+  ],
+  "year": 2018,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Lucasfilm",
     "Walt Disney Pictures"
   ],
-  "directedBy": [
-    "Ron Howard"
-  ],
-  "producedBy": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
-  "writtenBy": "Jonathan Kasdan, Lawrence Kasdan",
-  "musicBy": "John Powell, John Williams",
-  "cinematographyBy": "Bradford Young",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 375,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 393,
-    "suffix": "million"
-  },
-  "synopsis": "During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion.",
-  "collections": [
-    {
-      "name": "Star Wars Universe"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Film",
-        "Best Actress",
-        "Best Director"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Star Wars Universe",
-    "part": 5
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 135,
   "cast": [
     {
       "character": {
@@ -116,7 +139,31 @@
       "actorId": "d8678c6b-5c51-4775-99ea-aebeb97a28e8"
     }
   ],
-  "duration": 135,
-  "trailer": "jPEYpryMp2s",
-  "year": 2018
+  "collections": [
+    {
+      "title": "Star Wars Universe"
+    }
+  ],
+  "budget": {
+    "value": 375,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 393,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Film",
+        "Best Actress",
+        "Best Director"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Star Wars Universe",
+    "part": 5
+  }
 }

@@ -1,55 +1,71 @@
 {
   "id": "980e1d04-6cb8-48f7-88aa-cd18f8ec21ac",
+  "type": [
+    "Film"
+  ],
   "title": "Indiana Jones and the Kingdom of the Crystal Skull",
   "poster": "indiana_jones_4",
+  "trailer": "WAdJf4wTC5Y",
   "genres": [
     "Adventures",
     "Fantasy",
     "Action"
   ],
+  "synopsis": "In 1957, archaeologist and adventurer Dr. Henry \"Indiana\" Jones, Jr. is called back into action and becomes entangled in a Soviet plot to uncover the secret behind mysterious artifacts known as the Crystal Skulls.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Steven Spielberg"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "David Koepp"
+        },
+        {
+          "name": "George Lucas (story)"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Frank Marshall"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Janusz Kaminski"
+        }
+      ]
+    }
+  ],
+  "year": 2008,
+  "countries": [
+    "USA"
+  ],
   "production": [
     "Paramount Pictures",
     "Lucasfilm"
   ],
-  "directedBy": [
-    "Steven Spielberg"
-  ],
-  "producedBy": "Frank Marshall",
-  "writtenBy": "David Koepp, George Lucas (story)",
-  "musicBy": "John Williams",
-  "cinematographyBy": "Janusz Kaminski",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 185,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 790,
-    "suffix": "million"
-  },
-  "synopsis": "In 1957, archaeologist and adventurer Dr. Henry \"Indiana\" Jones, Jr. is called back into action and becomes entangled in a Soviet plot to uncover the secret behind mysterious artifacts known as the Crystal Skulls.",
-  "collections": [
-    {
-      "name": "Mysteries of the Past"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Costume"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Indiana Jones",
-    "part": 4
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 127,
   "cast": [
     {
       "character": {
@@ -94,7 +110,29 @@
       "actorId": "4da33978-90aa-4ef5-bcc8-246e1f6b2988"
     }
   ],
-  "duration": 127,
-  "trailer": "WAdJf4wTC5Y",
-  "year": 2008
+  "collections": [
+    {
+      "title": "Mysteries of the Past"
+    }
+  ],
+  "budget": {
+    "value": 185,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 790,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Costume"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Indiana Jones",
+    "part": 4
+  }
 }

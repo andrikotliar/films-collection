@@ -1,56 +1,70 @@
 {
   "id": "7aea7e24-97ce-4af6-9759-04cf2c3cc4cb",
+  "type": [
+    "Film"
+  ],
   "title": "Iron Man 3",
   "poster": "iron_man_3",
+  "trailer": "Ke1Y3P9D0Bc",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Shane Black"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Shane Black"
+        },
+        {
+          "name": "Drew Pearce"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Brian Tyler"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "John Toll"
+        }
+      ]
+    }
+  ],
+  "year": 2013,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "directedBy": [
-    "Shane Black"
-  ],
-  "producedBy": "Kevin Feige",
-  "writtenBy": "Shane Black, Drew Pearce",
-  "musicBy": "Brian Tyler",
-  "cinematographyBy": "John Toll",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 200,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.2,
-    "suffix": "billion"
-  },
-  "synopsis": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Comic-to-Film Motion Picture",
-        "Best Actor",
-        "Best Supporting Actor"
-      ]
-    }
-  ],
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 7
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 131,
   "cast": [
     {
       "character": {
@@ -102,7 +116,31 @@
       "actorId": "1e35187e-647f-4233-9215-41762259fff0"
     }
   ],
-  "duration": 131,
-  "trailer": "Ke1Y3P9D0Bc",
-  "year": 2013
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.2,
+    "suffix": "billion"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Comic-to-Film Motion Picture",
+        "Best Actor",
+        "Best Supporting Actor"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 7
+  }
 }

@@ -1,61 +1,85 @@
 {
   "id": "00aa136f-dc50-4e02-a3d2-26c10291c824",
+  "type": [
+    "Film"
+  ],
   "title": "The Hobbit: The Battle of the Five Armies",
   "poster": "middle_earth_3",
+  "trailer": "iVAgTiBrrDA",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "New Line Cinema"
+  "synopsis": "Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Peter Jackson"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Fran Walsh"
+        },
+        {
+          "name": "Philippa Boyens"
+        },
+        {
+          "name": "Peter Jackson"
+        },
+        {
+          "name": "Guillermo del Toro"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Carolynne Cunningham"
+        },
+        {
+          "name": "Zane Weiner"
+        },
+        {
+          "name": "Fran Walsh"
+        },
+        {
+          "name": "Peter Jackson"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Howard Shore"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Andrew Lesnie"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Peter Jackson"
-  ],
-  "producedBy": "Carolynne Cunningham, Zane Weiner, Fran Walsh, Peter Jackson",
-  "writtenBy": "Fran Walsh, Philippa Boyens, Peter Jackson, Guillermo del Toro",
-  "musicBy": "Howard Shore",
-  "cinematographyBy": "Andrew Lesnie",
+  "year": 2014,
   "countries": [
     "USA",
     "New Zealand"
   ],
-  "budget": {
-    "value": 250,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 956,
-    "suffix": "million"
-  },
-  "synopsis": "Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness.",
-  "collections": [
-    {
-      "name": "Middle-Earth Universe"
-    }
+  "production": [
+    "New Line Cinema"
   ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Supporting Actor",
-        "Best Fantasy Film"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Action Sequence"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Middle-Earth Universe",
-    "part": 3
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 144,
   "cast": [
     {
       "character": {
@@ -205,7 +229,36 @@
       "actorId": "33d9cb34-b243-4115-8fc3-4e073d89206a"
     }
   ],
-  "duration": 144,
-  "trailer": "iVAgTiBrrDA",
-  "year": 2014
+  "collections": [
+    {
+      "title": "Middle-Earth Universe"
+    }
+  ],
+  "budget": {
+    "value": 250,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 956,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Supporting Actor",
+        "Best Fantasy Film"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Action Sequence"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Middle-Earth Universe",
+    "part": 3
+  }
 }

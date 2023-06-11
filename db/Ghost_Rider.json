@@ -1,42 +1,73 @@
 {
   "id": "172615ec-8942-4255-b222-561ab918df08",
+  "type": [
+    "Film"
+  ],
   "title": "Ghost Rider",
   "poster": "ghost_rider",
+  "trailer": "8M0lLJfNPds",
   "genres": [
     "Supernatural",
     "Action"
+  ],
+  "synopsis": "When motorcycle rider Johnny Blaze sells his soul to the Devil to save his father's life, he is transformed into the Ghost Rider, the Devil's own bounty hunter, and is sent to hunt down sinners.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Mark Steven Johnson"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Mark Steven Johnson"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Avi Arad"
+        },
+        {
+          "name": "Steven Paul"
+        },
+        {
+          "name": "Michael De Luca"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Christopher Young"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Russell Boyd"
+        }
+      ]
+    }
+  ],
+  "year": 2007,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Sony Pictures",
     "Columbia Pictures"
   ],
-  "directedBy": [
-    "Mark Steven Johnson"
-  ],
-  "producedBy": "Avi Arad, Steven Paul, Michael De Luca",
-  "writtenBy": "Mark Steven Johnson",
-  "musicBy": "Christopher Young",
-  "cinematographyBy": "Russell Boyd",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 110,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 228,
-    "suffix": "million"
-  },
-  "synopsis": "When motorcycle rider Johnny Blaze sells his soul to the Devil to save his father's life, he is transformed into the Ghost Rider, the Devil's own bounty hunter, and is sent to hunt down sinners.",
-  "collections": [
-    {
-      "name": "Superheroes"
-    }
-  ],
-  "type": [
-    "Film"
-  ],
+  "duration": 110,
   "cast": [
     {
       "character": {
@@ -102,7 +133,17 @@
       "actorId": "11c2ef11-4a44-4b3f-b5e2-fa10e592296c"
     }
   ],
-  "duration": 110,
-  "trailer": "8M0lLJfNPds",
-  "year": 2007
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": {
+    "value": 110,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 228,
+    "suffix": "million"
+  }
 }

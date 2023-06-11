@@ -1,74 +1,67 @@
 {
   "id": "cd6e18e2-6465-432e-8765-4ba1303a1c9f",
+  "type": [
+    "Film"
+  ],
   "title": "Aliens",
   "poster": "alien_2",
+  "trailer": "oSeQQlaCZgU",
   "genres": [
     "Sci-Fi",
     "Horror"
   ],
-  "production": [
-    "20th Century FOX"
+  "synopsis": "Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "James Cameron"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "James Cameron"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Gale Anne Hurd"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "James Horner"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Adrian Biddle"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "James Cameron"
-  ],
-  "producedBy": "Gale Anne Hurd",
-  "writtenBy": "James Cameron",
-  "musicBy": "James Horner",
-  "cinematographyBy": "Adrian Biddle",
+  "year": 1986,
   "countries": [
     "USA",
     "UK"
   ],
-  "budget": {
-    "value": 18,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 131,
-    "suffix": "million"
-  },
-  "synopsis": "Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators.",
-  "collections": [
-    {
-      "name": "Space"
-    }
+  "production": [
+    "20th Century FOX"
   ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Sound Effects Editing",
-        "Best Visual Effects"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Special Visual Effects"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Science Fiction Film",
-        "Best Actress (Sigourney Weaver)",
-        "Best Supporting Actor (Bill Paxton)",
-        "Best Supporting Actress (Jenette Goldstein)",
-        "Best Performance by a Younger Actor (Carrie Henn)",
-        "Best Director",
-        "Best Writing",
-        "Best Special Effects"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Aliens",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 137,
   "cast": [
     {
       "character": {
@@ -106,7 +99,49 @@
       "actorId": "de99dca8-89eb-4a96-a592-ed96c56ae8a2"
     }
   ],
-  "duration": 137,
-  "trailer": "oSeQQlaCZgU",
-  "year": 1986
+  "collections": [
+    {
+      "title": "Space"
+    }
+  ],
+  "budget": {
+    "value": 18,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 131,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Sound Effects Editing",
+        "Best Visual Effects"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Special Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Actress (Sigourney Weaver)",
+        "Best Supporting Actor (Bill Paxton)",
+        "Best Supporting Actress (Jenette Goldstein)",
+        "Best Performance by a Younger Actor (Carrie Henn)",
+        "Best Director",
+        "Best Writing",
+        "Best Special Effects"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Aliens",
+    "part": 2
+  }
 }

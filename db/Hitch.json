@@ -1,48 +1,74 @@
 {
   "id": "efd33506-8cc8-41b4-aca9-8344b3d53f4f",
+  "type": [
+    "Film"
+  ],
   "title": "Hitch",
   "poster": "hitch",
+  "trailer": "pYrrEUgnT6s",
   "genres": [
     "Romantic comedy"
+  ],
+  "synopsis": "While helping his latest client woo the fine lady of his dreams, a professional \"date doctor\" finds that his game doesn't quite work on the gossip columnist with whom he's smitten.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Andy Tennant"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Kevin Bisch"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Will Smith"
+        },
+        {
+          "name": "James Lassiter"
+        },
+        {
+          "name": "Teddy Zee"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "George Fenton"
+        },
+        {
+          "name": "Alan Elliott"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Andrew Dunn"
+        }
+      ]
+    }
+  ],
+  "year": 2005,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Columbia Pictures"
   ],
-  "directedBy": [
-    "Andy Tennant"
-  ],
-  "producedBy": "Will Smith, James Lassiter, Teddy Zee",
-  "writtenBy": "Kevin Bisch",
-  "musicBy": "George Fenton, Alan Elliott",
-  "cinematographyBy": "Andrew Dunn",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 70,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 368,
-    "suffix": "million"
-  },
-  "synopsis": "While helping his latest client woo the fine lady of his dreams, a professional \"date doctor\" finds that his game doesn't quite work on the gossip columnist with whom he's smitten.",
-  "collections": [
-    {
-      "name": "True Story"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Jupiter",
-      "nominations": [
-        "Best International Actor"
-      ]
-    }
-  ],
-  "type": [
-    "Film"
-  ],
+  "duration": 118,
   "cast": [
     {
       "character": {
@@ -80,7 +106,25 @@
       "actorId": "d14cc3fb-3cd4-4ba0-a853-2a5ff532503e"
     }
   ],
-  "duration": 118,
-  "trailer": "pYrrEUgnT6s",
-  "year": 2005
+  "collections": [
+    {
+      "title": "True Story"
+    }
+  ],
+  "budget": {
+    "value": 70,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 368,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Jupiter",
+      "nominations": [
+        "Best International Actor"
+      ]
+    }
+  ]
 }

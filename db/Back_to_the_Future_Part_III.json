@@ -1,45 +1,69 @@
 {
   "id": "1faed43c-7eb8-4185-8096-9ac8d0375e5a",
+  "type": [
+    "Film"
+  ],
   "title": "Back to the Future: Part III",
   "poster": "back_to_the_future_3",
+  "trailer": "EYkguxpqsrg",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "production": [
-    "Universal Pictures"
+  "synopsis": "Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about to be killed by Buford \"Mad Dog\"Tannen. Marty McFly travels back in time to save his friend.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Robert Zemeckis"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Bob Gale"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Bob Gale"
+        },
+        {
+          "name": "Neil Canton"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Alan Silvestri"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Dean Cundey"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Robert Zemeckis"
-  ],
-  "producedBy": "Bob Gale, Neil Canton",
-  "writtenBy": "Bob Gale",
-  "musicBy": "Alan Silvestri",
-  "cinematographyBy": "Dean Cundey",
+  "year": 1990,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 40,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 245,
-    "suffix": "million"
-  },
-  "synopsis": "Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about to be killed by Buford \"Mad Dog\"Tannen. Marty McFly travels back in time to save his friend.",
-  "collections": [
-    {
-      "name": "Legends"
-    }
+  "production": [
+    "Universal Pictures"
   ],
-  "parts": {
-    "title": "Back to the Future",
-    "part": 3
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 118,
   "cast": [
     {
       "character": {
@@ -70,7 +94,21 @@
       "actorId": "a85784f1-b798-4b6f-879e-8d89c5d6b369"
     }
   ],
-  "duration": 118,
-  "trailer": "EYkguxpqsrg",
-  "year": 1990
+  "collections": [
+    {
+      "title": "Legends"
+    }
+  ],
+  "budget": {
+    "value": 40,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 245,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Back to the Future",
+    "part": 3
+  }
 }

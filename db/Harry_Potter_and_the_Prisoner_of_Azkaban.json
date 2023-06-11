@@ -1,46 +1,73 @@
 {
   "id": "9e7b69b2-96c8-4e5b-98d3-1175de8b8ba7",
+  "type": [
+    "Film"
+  ],
   "title": "Harry Potter and the Prisoner of Azkaban",
   "poster": "harry_potter_3",
+  "trailer": "lAxgztbYDbs",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "Warner Bros. Pictures"
+  "synopsis": "It's Harry's third year at Hogwarts; not only does he have a new \"Defense Against the Dark Arts\" teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Alfonso Cuaron"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Steve Kloves"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "David Heyman"
+        },
+        {
+          "name": "Chris Columbus"
+        },
+        {
+          "name": "Mark Radcliffe"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Michael Seresin"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Alfonso Cuaron"
-  ],
-  "producedBy": "David Heyman, Chris Columbus, Mark Radcliffe",
-  "writtenBy": "Steve Kloves",
-  "musicBy": "John Williams",
-  "cinematographyBy": "Michael Seresin",
+  "year": 2004,
   "countries": [
     "USA",
     "UK"
   ],
-  "budget": {
-    "value": 130,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 797,
-    "suffix": "million"
-  },
-  "synopsis": "It's Harry's third year at Hogwarts; not only does he have a new \"Defense Against the Dark Arts\" teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry.",
-  "collections": [
-    {
-      "name": "Harry Potter Universe"
-    }
+  "production": [
+    "Warner Bros. Pictures"
   ],
-  "parts": {
-    "title": "Harry Potter Universe",
-    "part": 5
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 142,
   "cast": [
     {
       "character": {
@@ -106,7 +133,21 @@
       "actorId": "663d908e-aa52-49f8-9578-075d8fa84478"
     }
   ],
-  "duration": 142,
-  "trailer": "lAxgztbYDbs",
-  "year": 2004
+  "collections": [
+    {
+      "title": "Harry Potter Universe"
+    }
+  ],
+  "budget": {
+    "value": 130,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 797,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Harry Potter Universe",
+    "part": 5
+  }
 }

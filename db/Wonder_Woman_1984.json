@@ -1,48 +1,90 @@
 {
   "id": "bb368981-2a9a-4774-b98f-240b50782b73",
+  "type": [
+    "Film"
+  ],
   "title": "Wonder Woman 1984",
   "poster": "wonder_woman_2",
+  "trailer": "sfM7_JLk-84",
   "genres": [
     "Adventures",
     "Fantasy"
   ],
-  "production": [
-    "Warner Bros. Pictures",
-    "DC Entertainment"
+  "synopsis": "Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient artifact that grants wishes goes missing.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Patty Jenkins"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Patty Jenkins"
+        },
+        {
+          "name": "Geoff Johns"
+        },
+        {
+          "name": "Dave Callaham"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Gal Gadot"
+        },
+        {
+          "name": "Patty Jenkins"
+        },
+        {
+          "name": "Charles Roven"
+        },
+        {
+          "name": "Stephen Jones"
+        },
+        {
+          "name": "Deborah Snyder"
+        },
+        {
+          "name": "Zack Snyder"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Matthew Jensen"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Patty Jenkins"
-  ],
-  "producedBy": "Gal Gadot, Patty Jenkins, Charles Roven, Stephen Jones, Deborah Snyder, Zack Snyder",
-  "writtenBy": "Patty Jenkins, Geoff Johns, Dave Callaham",
-  "musicBy": "Hans Zimmer",
-  "cinematographyBy": "Matthew Jensen",
+  "year": 2020,
   "countries": [
     "USA",
     "UK",
     "Spain"
   ],
-  "budget": {
-    "value": 200,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 132,
-    "suffix": "million"
-  },
-  "synopsis": "Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient artifact that grants wishes goes missing.",
-  "collections": [
-    {
-      "name": "DC Extended Universe"
-    }
+  "production": [
+    "Warner Bros. Pictures",
+    "DC Entertainment"
   ],
-  "parts": {
-    "title": "DC Extended Universe",
-    "part": 9
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 151,
   "cast": [
     {
       "character": {
@@ -80,7 +122,21 @@
       "actorId": "8fbbe2e6-c953-40f0-92e7-5995dde6c0b2"
     }
   ],
-  "duration": 151,
-  "trailer": "sfM7_JLk-84",
-  "year": 2020
+  "collections": [
+    {
+      "title": "DC Extended Universe"
+    }
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 132,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "DC Extended Universe",
+    "part": 9
+  }
 }

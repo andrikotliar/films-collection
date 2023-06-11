@@ -1,45 +1,69 @@
 {
   "id": "272e0cd1-eda5-487f-ad9a-889d1e2bda31",
+  "type": [
+    "Film"
+  ],
   "title": "Fast & Furious",
   "poster": "fast_and_furious_4",
+  "trailer": "Gl-d_UIhdBw",
   "genres": [
     "Action",
     "Crime"
   ],
-  "production": [
-    "Universal Pictures"
+  "synopsis": "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Justin Lin"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Chris Morgan"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Neal H. Moritz"
+        },
+        {
+          "name": "Vin Diesel"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Brian Tyler"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Amir Mokri"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Justin Lin"
-  ],
-  "producedBy": "Neal H. Moritz, Vin Diesel",
-  "writtenBy": "Chris Morgan",
-  "musicBy": "Brian Tyler",
-  "cinematographyBy": "Amir Mokri",
+  "year": 2009,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 85,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 363,
-    "suffix": "million"
-  },
-  "synopsis": "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation.",
-  "collections": [
-    {
-      "name": "Cars"
-    }
+  "production": [
+    "Universal Pictures"
   ],
-  "parts": {
-    "title": "Fast and Furious",
-    "part": 4
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 107,
   "cast": [
     {
       "character": {
@@ -98,7 +122,21 @@
       "actorId": "d44f46b1-9cd7-432e-b62d-97de2a3ae027"
     }
   ],
-  "duration": 107,
-  "trailer": "Gl-d_UIhdBw",
-  "year": 2009
+  "collections": [
+    {
+      "title": "Cars"
+    }
+  ],
+  "budget": {
+    "value": 85,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 363,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Fast and Furious",
+    "part": 4
+  }
 }

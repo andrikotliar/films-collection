@@ -1,74 +1,74 @@
 {
   "id": "0395ecd6-f19d-44ce-bc4b-4082fbabeda5",
+  "type": [
+    "Film"
+  ],
   "title": "Indiana Jones and the Temple of Doom",
   "poster": "indiana_jones_2",
+  "trailer": "WBdyLyijZhU",
   "genres": [
     "Adventures",
     "Fantasy",
     "Action"
   ],
+  "synopsis": "In 1935, Indiana Jones arrives in India, still part of the British Empire, and is asked to find a mystical stone. He then stumbles upon a secret cult committing enslavement and human sacrifices in the catacombs of an ancient palace.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Steven Spielberg"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Willard Huyck"
+        },
+        {
+          "name": "Gloria Katz"
+        },
+        {
+          "name": "George Lucas (story)"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Robert Watts"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Douglas Slocombe"
+        }
+      ]
+    }
+  ],
+  "year": 1984,
+  "countries": [
+    "USA"
+  ],
   "production": [
     "Paramount Pictures",
     "Lucasfilm"
   ],
-  "directedBy": [
-    "Steven Spielberg"
-  ],
-  "producedBy": "Robert Watts",
-  "writtenBy": "Willard Huyck, Gloria Katz, George Lucas (story)",
-  "musicBy": "John Williams",
-  "cinematographyBy": "Douglas Slocombe",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 28,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 333,
-    "suffix": "million"
-  },
-  "synopsis": "In 1935, Indiana Jones arrives in India, still part of the British Empire, and is asked to find a mystical stone. He then stumbles upon a secret cult committing enslavement and human sacrifices in the catacombs of an ancient palace.",
-  "collections": [
-    {
-      "name": "Mysteries of the Past"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Visual Effects"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Special Visual Effects"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best DVD Collection"
-      ]
-    },
-    {
-      "title": "Jupiter",
-      "nominations": [
-        "Best International Actor",
-        "Best International Film"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Indiana Jones",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 118,
   "cast": [
     {
       "character": {
@@ -106,7 +106,48 @@
       "actorId": "3a4e5005-97b0-4229-bb5d-ad454d43d8fa"
     }
   ],
-  "duration": 118,
-  "trailer": "WBdyLyijZhU",
-  "year": 1984
+  "collections": [
+    {
+      "title": "Mysteries of the Past"
+    }
+  ],
+  "budget": {
+    "value": 28,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 333,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Visual Effects"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Special Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best DVD Collection"
+      ]
+    },
+    {
+      "title": "Jupiter",
+      "nominations": [
+        "Best International Actor",
+        "Best International Film"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Indiana Jones",
+    "part": 2
+  }
 }

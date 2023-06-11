@@ -1,56 +1,74 @@
 {
   "id": "c35c93b0-7835-4456-9ba3-8ba8d0f4c5e7",
+  "type": [
+    "Film"
+  ],
   "title": "The Hunger Games: Mockingjay - Part 1",
   "poster": "hunger_games_3",
+  "trailer": "3PkkHsuMrho",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "production": [
-    "Lionsgate"
+  "synopsis": "Katniss Everdeen is in District 13 after she shatters the games forever. Under the leadership of President Coin and the advice of her trusted friends, Katniss spreads her wings as she fights to save Peeta and a nation moved by her courage.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Francis Lawrence"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Peter Craig"
+        },
+        {
+          "name": "Danny Strong"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Nina Jacobson"
+        },
+        {
+          "name": "Jon Kilik"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "James Newton Howard"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Jo Willems"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Francis Lawrence"
-  ],
-  "producedBy": "Nina Jacobson, Jon Kilik",
-  "writtenBy": "Peter Craig, Danny Strong",
-  "musicBy": "James Newton Howard",
-  "cinematographyBy": "Jo Willems",
+  "year": 2014,
   "countries": [
     "USA",
     "Canada",
     "France"
   ],
-  "budget": {
-    "value": 125,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 755,
-    "suffix": "million"
-  },
-  "synopsis": "Katniss Everdeen is in District 13 after she shatters the games forever. Under the leadership of President Coin and the advice of her trusted friends, Katniss spreads her wings as she fights to save Peeta and a nation moved by her courage.",
-  "collections": [
-    {
-      "name": "Dystopia"
-    }
+  "production": [
+    "Lionsgate"
   ],
-  "awards": [
-    {
-      "title": "MTV Movie Awards",
-      "nominations": [
-        "Best Musical Moment",
-        "Best On-Screen Transformation"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "The Hunger Games",
-    "part": 3
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 123,
   "cast": [
     {
       "character": {
@@ -109,7 +127,30 @@
       "actorId": "7f0b81c7-b4b8-45fc-8945-2f3a6fbdf7f8"
     }
   ],
-  "duration": 123,
-  "trailer": "3PkkHsuMrho",
-  "year": 2014
+  "collections": [
+    {
+      "title": "Dystopia"
+    }
+  ],
+  "budget": {
+    "value": 125,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 755,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "MTV Movie Awards",
+      "nominations": [
+        "Best Musical Moment",
+        "Best On-Screen Transformation"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Hunger Games",
+    "part": 3
+  }
 }

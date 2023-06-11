@@ -1,73 +1,79 @@
 {
   "id": "8851978e-cc87-4ca8-bcf3-7694dee1be37",
+  "type": [
+    "Film"
+  ],
   "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
   "poster": "narnia_1",
+  "trailer": "lWKj41HZBzM",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "Walt Disney Pictures"
+  "synopsis": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Andrew Adamson"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Ann Peacock"
+        },
+        {
+          "name": "Andrew Adamson"
+        },
+        {
+          "name": "Christopher Markus"
+        },
+        {
+          "name": "Stephen McFeely"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Mark Johnson"
+        },
+        {
+          "name": "Phillip Steuer"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Harry Gregson-Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Donald McAlpine"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Andrew Adamson"
-  ],
-  "producedBy": "Mark Johnson, Phillip Steuer",
-  "writtenBy": "Ann Peacock, Andrew Adamson, Christopher Markus, Stephen McFeely",
-  "musicBy": "Harry Gregson-Williams",
-  "cinematographyBy": "Donald McAlpine",
+  "year": 2005,
   "countries": [
     "UK",
     "USA"
   ],
-  "budget": {
-    "value": 180,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 745,
-    "suffix": "million"
-  },
-  "synopsis": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
+  "production": [
+    "Walt Disney Pictures"
   ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Achievement in Makeup"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Make Up/Hair"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Costume",
-        "Best Make-Up"
-      ]
-    },
-    {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Family Film (Live Action)"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "The Chronicles of Narnia",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 145,
   "cast": [
     {
       "character": {
@@ -126,7 +132,48 @@
       "actorId": "6f541516-898c-439d-bbc3-16aa28425e8d"
     }
   ],
-  "duration": 145,
-  "trailer": "lWKj41HZBzM",
-  "year": 2005
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 180,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 745,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Achievement in Makeup"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Make Up/Hair"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Costume",
+        "Best Make-Up"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Family Film (Live Action)"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Chronicles of Narnia",
+    "part": 1
+  }
 }

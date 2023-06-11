@@ -1,59 +1,72 @@
 {
   "id": "2dce8081-3270-482d-8f01-ff2abd7b4a86",
+  "type": [
+    "Film"
+  ],
   "title": "Furious Seven",
   "poster": "fast_and_furious_7",
+  "trailer": "Skpu5HaVkOc",
   "genres": [
     "Action",
     "Crime"
   ],
-  "production": [
-    "Universal Pictures"
-  ],
-  "directedBy": [
-    "James Wan"
-  ],
-  "producedBy": "Neal H. Moritz, Vin Diesel",
-  "writtenBy": "Chris Morgan",
-  "musicBy": "Brian Tyler",
-  "cinematographyBy": "Stephen F. Windon, Marc Spicer",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 190,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.52,
-    "suffix": "billion"
-  },
   "synopsis": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.",
-  "collections": [
+  "crew": [
     {
-      "name": "Cars"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Action/Adventure Film"
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "James Wan"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Song"
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Chris Morgan"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Neal H. Moritz"
+        },
+        {
+          "name": "Vin Diesel"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Brian Tyler"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Stephen F. Windon"
+        },
+        {
+          "name": "Marc Spicer"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "Fast and Furious",
-    "part": 7
-  },
-  "type": [
-    "Film"
+  "year": 2015,
+  "countries": [
+    "USA"
   ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "duration": 137,
   "cast": [
     {
       "character": {
@@ -140,7 +153,35 @@
       "actorId": "a601625c-13b8-403a-b7eb-79165f3abd28"
     }
   ],
-  "duration": 137,
-  "trailer": "Skpu5HaVkOc",
-  "year": 2015
+  "collections": [
+    {
+      "title": "Cars"
+    }
+  ],
+  "budget": {
+    "value": 190,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.52,
+    "suffix": "billion"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Action/Adventure Film"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Song"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Fast and Furious",
+    "part": 7
+  }
 }

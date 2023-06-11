@@ -1,49 +1,72 @@
 {
   "id": "0f754f4f-156d-47bd-8bf8-9ff3e67dc8ee",
+  "type": [
+    "Film"
+  ],
   "title": "The Day the Earth Stood Steel",
   "poster": "day_the_earth_stood_still",
+  "trailer": "6QFcZohER3s",
   "genres": [
     "Sci-Fi",
     "Thriller"
   ],
-  "production": [
-    "20th Century FOX"
-  ],
-  "directedBy": [
-    "Scott Derrickson"
-  ],
-  "producedBy": "Paul Harris Boardman, Gregory Goodman, Erwin Stoff",
-  "writtenBy": "David Scarpa",
-  "musicBy": "Tyler Bates",
-  "cinematographyBy": "David Tattersall",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 80,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 233,
-    "suffix": "million"
-  },
   "synopsis": "A remake of the 1951 classic science fiction film about an alien visitor and his giant robot counterpart who visit Earth.",
-  "collections": [
+  "crew": [
     {
-      "name": "Invasion"
-    }
-  ],
-  "awards": [
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Scott Derrickson"
+        }
+      ]
+    },
     {
-      "title": "Saturn",
-      "nominations": [
-        "Best Performance by a Younger Actor"
+      "role": "Written by",
+      "people": [
+        {
+          "name": "David Scarpa"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Paul Harris Boardman"
+        },
+        {
+          "name": "Gregory Goodman"
+        },
+        {
+          "name": "Erwin Stoff"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Tyler Bates"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "David Tattersall"
+        }
       ]
     }
   ],
-  "type": [
-    "Film"
+  "year": 2008,
+  "countries": [
+    "USA"
   ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "duration": 103,
   "cast": [
     {
       "character": {
@@ -109,7 +132,25 @@
       "actorId": "b29082e1-f1a4-4668-a0e3-9b7a536f30e0"
     }
   ],
-  "duration": 103,
-  "trailer": "6QFcZohER3s",
-  "year": 2008
+  "collections": [
+    {
+      "title": "Invasion"
+    }
+  ],
+  "budget": {
+    "value": 80,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 233,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Performance by a Younger Actor"
+      ]
+    }
+  ]
 }

@@ -1,46 +1,73 @@
 {
   "id": "9e71883c-bbfd-4152-825f-b1cf4e732e6f",
+  "type": [
+    "Film"
+  ],
   "title": "The Incredible Hulk",
   "poster": "the_incredible_hulk",
+  "trailer": "xbqNb2PFKKA",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into, whenever he loses his temper.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Louis Leterrier"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Zak Penn"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Avi Arad"
+        },
+        {
+          "name": "Gale Anne Hurd"
+        },
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Craig Armstrong"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Peter Menzies Jr."
+        }
+      ]
+    }
+  ],
+  "year": 2008,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Marvel Studios",
     "Universal Pictures"
   ],
-  "directedBy": [
-    "Louis Leterrier"
-  ],
-  "producedBy": "Avi Arad, Gale Anne Hurd, Kevin Feige",
-  "writtenBy": "Zak Penn",
-  "musicBy": "Craig Armstrong",
-  "cinematographyBy": "Peter Menzies Jr.",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 263,
-    "suffix": "million"
-  },
-  "synopsis": "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into, whenever he loses his temper.",
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 112,
   "cast": [
     {
       "character": {
@@ -78,7 +105,21 @@
       "actorId": "a184dd3c-e6fb-4da8-b02c-a03407946399"
     }
   ],
-  "duration": 112,
-  "trailer": "xbqNb2PFKKA",
-  "year": 2008
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 263,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 2
+  }
 }

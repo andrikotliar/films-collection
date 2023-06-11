@@ -1,41 +1,78 @@
 {
   "id": "65c86041-f13b-4f87-902d-61bae09a0d65",
+  "type": [
+    "Film"
+  ],
   "title": "Unstoppable",
   "poster": "unstoppable",
+  "trailer": "fyuoIqeL-bc",
   "genres": [
     "Action",
     "Thriller"
   ],
-  "production": [
-    "20th Century FOX"
+  "synopsis": "With an unmanned, half-mile-long freight train barreling toward a city, a veteran engineer and a young conductor race against the clock to prevent a catastrophe.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Tony Scott"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Mark Bomback"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Eric McLeod"
+        },
+        {
+          "name": "Mimi Rogers"
+        },
+        {
+          "name": "Tony Scott"
+        },
+        {
+          "name": "Julie Yorn"
+        },
+        {
+          "name": "Alex Young"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Harry Gregson-Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Ben Seresin"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Tony Scott"
-  ],
-  "producedBy": "Eric McLeod, Mimi Rogers, Tony Scott, Julie Yorn, Alex Young",
-  "writtenBy": "Mark Bomback",
-  "musicBy": "Harry Gregson-Williams",
-  "cinematographyBy": "Ben Seresin",
+  "year": 2010,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 100,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 167,
-    "suffix": "million"
-  },
-  "synopsis": "With an unmanned, half-mile-long freight train barreling toward a city, a veteran engineer and a young conductor race against the clock to prevent a catastrophe.",
-  "collections": [
-    {
-      "name": "Based on Real Events"
-    }
+  "production": [
+    "20th Century FOX"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 98,
   "cast": [
     {
       "character": {
@@ -80,7 +117,17 @@
       "actorId": "97ad1b79-9461-4eac-8170-0bbe3a47ee5a"
     }
   ],
-  "duration": 98,
-  "trailer": "fyuoIqeL-bc",
-  "year": 2010
+  "collections": [
+    {
+      "title": "Based on Real Events"
+    }
+  ],
+  "budget": {
+    "value": 100,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 167,
+    "suffix": "million"
+  }
 }

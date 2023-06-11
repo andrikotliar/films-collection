@@ -1,45 +1,62 @@
 {
   "id": "2c61f9e3-0660-4318-a9a2-3f7516dfad3b",
+  "type": [
+    "Animation"
+  ],
   "title": "How to Train Your Dragon: The Hidden World",
   "poster": "how_to_train_your_dragon_3",
+  "trailer": "SkcucKDrbOI",
   "genres": [
     "Fantasy",
     "Adventures"
+  ],
+  "synopsis": "When Hiccup discovers Toothless isn't the only Night Fury, he must seek \"The Hidden World\", a secret Dragon Utopia before a hired tyrant named Grimmel finds it first.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Dean DeBlois"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Dean DeBlois"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Bonnie Amold"
+        },
+        {
+          "name": "Brad Lewis"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Powell"
+        }
+      ]
+    }
+  ],
+  "year": 2019,
+  "countries": [
+    "USA"
   ],
   "production": [
     "DreamWorks Animation",
     "Universal Pictures"
   ],
-  "directedBy": [
-    "Dean DeBlois"
-  ],
-  "producedBy": "Bonnie Amold, Brad Lewis",
-  "writtenBy": "Dean DeBlois",
-  "musicBy": "John Powell",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 129,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 443,
-    "suffix": "million"
-  },
-  "synopsis": "When Hiccup discovers Toothless isn't the only Night Fury, he must seek \"The Hidden World\", a secret Dragon Utopia before a hired tyrant named Grimmel finds it first.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
-  ],
-  "parts": {
-    "title": "How to Train Your Dragon",
-    "part": 3
-  },
-  "type": [
-    "Animation"
-  ],
+  "duration": 104,
   "cast": [
     {
       "character": {
@@ -119,7 +136,21 @@
       "actorId": "2bc56fbd-6836-42c7-8486-d738d375ae49"
     }
   ],
-  "duration": 104,
-  "trailer": "SkcucKDrbOI",
-  "year": 2019
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 129,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 443,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "How to Train Your Dragon",
+    "part": 3
+  }
 }

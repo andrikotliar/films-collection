@@ -1,89 +1,70 @@
 {
   "id": "dfbec318-f2d0-45ce-93a8-417a2c05bb42",
+  "type": [
+    "Film"
+  ],
   "title": "Inception",
   "poster": "inception",
+  "trailer": "YoHD9XEInc0",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Christopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Christopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Emma Thomas"
+        },
+        {
+          "name": "Christopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Wally Pfister"
+        }
+      ]
+    }
+  ],
+  "year": 2010,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Warner Bros. Pictures",
     "Legendary"
   ],
-  "directedBy": [
-    "Christopher Nolan"
-  ],
-  "producedBy": "Emma Thomas, Christopher Nolan",
-  "writtenBy": "Christopher Nolan",
-  "musicBy": "Hans Zimmer",
-  "cinematographyBy": "Wally Pfister",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 160,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 828,
-    "suffix": "million"
-  },
-  "synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
-  "collections": [
-    {
-      "name": "Future"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Achievement in Cinematography",
-        "Best Achievement in Sound Mixing",
-        "Best Achievement in Sound Editing",
-        "Best Achievement in Visual Effects"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Production Design",
-        "Best Sound",
-        "Best Special Visual Effects"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Science Fiction Film",
-        "Best Director",
-        "Best Writing",
-        "Best Music",
-        "Best Special Effects"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Scared-As-Shit Performance",
-        "Breakthrough Male Performance"
-      ]
-    },
-    {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Cinematography",
-        " Best Art Direction",
-        "Best Editing",
-        "Best Visual Effects",
-        "Best Sound",
-        "Best Action Movie"
-      ]
-    }
-  ],
-  "type": [
-    "Film"
-  ],
+  "duration": 148,
   "cast": [
     {
       "character": {
@@ -156,7 +137,64 @@
       "actorId": "87d38720-3045-4fad-9302-75ddc6e847d1"
     }
   ],
-  "duration": 148,
-  "trailer": "YoHD9XEInc0",
-  "year": 2010
+  "collections": [
+    {
+      "title": "Future"
+    }
+  ],
+  "budget": {
+    "value": 160,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 828,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Achievement in Cinematography",
+        "Best Achievement in Sound Mixing",
+        "Best Achievement in Sound Editing",
+        "Best Achievement in Visual Effects"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Production Design",
+        "Best Sound",
+        "Best Special Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Director",
+        "Best Writing",
+        "Best Music",
+        "Best Special Effects"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Scared-As-Shit Performance",
+        "Breakthrough Male Performance"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Cinematography",
+        " Best Art Direction",
+        "Best Editing",
+        "Best Visual Effects",
+        "Best Sound",
+        "Best Action Movie"
+      ]
+    }
+  ]
 }

@@ -1,42 +1,82 @@
 {
   "id": "0e88c14b-7ed8-47a5-ac7d-909680e0d6b0",
+  "type": [
+    "Film"
+  ],
   "title": "Warcraft",
   "poster": "warcraft",
+  "trailer": "2Rxoz13Bthc",
   "genres": [
     "Fantasy",
     "Action"
+  ],
+  "synopsis": "As an Orc horde invades the planet Azeroth using a magic portal, a few human heroes and dissenting Orcs must attempt to stop the true evil behind this war.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Duncan Jones"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Charles Leavitt"
+        },
+        {
+          "name": "Duncan Jones"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Charles Roven"
+        },
+        {
+          "name": "Alex Gartner"
+        },
+        {
+          "name": "Thomas Tull"
+        },
+        {
+          "name": "Jon Jashni"
+        },
+        {
+          "name": "Stuart Fenegan"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Ramin Djawadi"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Simon Duggan"
+        }
+      ]
+    }
+  ],
+  "year": 2016,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Universal Pictures",
     "Legendary"
   ],
-  "directedBy": [
-    "Duncan Jones"
-  ],
-  "producedBy": "Charles Roven, Alex Gartner, Thomas Tull, Jon Jashni, Stuart Fenegan",
-  "writtenBy": "Charles Leavitt, Duncan Jones",
-  "musicBy": "Ramin Djawadi",
-  "cinematographyBy": "Simon Duggan",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 160,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 434,
-    "suffix": "million"
-  },
-  "synopsis": "As an Orc horde invades the planet Azeroth using a magic portal, a few human heroes and dissenting Orcs must attempt to stop the true evil behind this war.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
-  ],
-  "type": [
-    "Film"
-  ],
+  "duration": 123,
   "cast": [
     {
       "character": {
@@ -130,7 +170,17 @@
       "actorId": "4d047c47-5f96-42f8-9785-39c157afb232"
     }
   ],
-  "duration": 123,
-  "trailer": "2Rxoz13Bthc",
-  "year": 2016
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 160,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 434,
+    "suffix": "million"
+  }
 }

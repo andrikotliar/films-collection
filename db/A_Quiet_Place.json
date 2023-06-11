@@ -1,61 +1,79 @@
 {
   "id": "64349826-7810-4872-bbf2-9d6a3a6296e4",
+  "type": [
+    "Film"
+  ],
   "title": "A Quiet Place",
   "poster": "quiet_place",
+  "trailer": "WR7cc5t7tv8",
   "genres": [
     "Sci-Fi",
     "Drama",
     "Horror"
   ],
-  "production": [
-    "Paramount Pictures"
-  ],
-  "directedBy": [
-    "John Krasinski"
-  ],
-  "producedBy": "Michael Bay, Andrew Form, Brad Fuller",
-  "writtenBy": "Bryan Woods, Scott Beck, John Krasinski",
-  "musicBy": "Marco Beltrami",
-  "cinematographyBy": "Charlotte Bruus Christensen",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 17,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 341,
-    "suffix": "million"
-  },
   "synopsis": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing.",
-  "collections": [
+  "crew": [
     {
-      "name": "Invasion"
-    }
-  ],
-  "parts": {
-    "title": "Quiet Place",
-    "part": 1
-  },
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Horror Film",
-        "Best Writing"
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "John Krasinski"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Sci-Fi/Horror Movie"
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Bryan Woods"
+        },
+        {
+          "name": "Scott Beck"
+        },
+        {
+          "name": "John Krasinski"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Michael Bay"
+        },
+        {
+          "name": "Andrew Form"
+        },
+        {
+          "name": "Brad Fuller"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Marco Beltrami"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Charlotte Bruus Christensen"
+        }
       ]
     }
   ],
-  "type": [
-    "Film"
+  "year": 2018,
+  "countries": [
+    "USA"
   ],
+  "production": [
+    "Paramount Pictures"
+  ],
+  "duration": 90,
   "cast": [
     {
       "character": {
@@ -86,7 +104,36 @@
       "actorId": "7a2f8831-01e7-4594-a33a-2a7db3b0dd06"
     }
   ],
-  "duration": 90,
-  "trailer": "WR7cc5t7tv8",
-  "year": 2018
+  "collections": [
+    {
+      "title": "Invasion"
+    }
+  ],
+  "budget": {
+    "value": 17,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 341,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Horror Film",
+        "Best Writing"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Sci-Fi/Horror Movie"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Quiet Place",
+    "part": 1
+  }
 }

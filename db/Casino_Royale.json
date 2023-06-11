@@ -1,21 +1,68 @@
 {
   "id": "0fbc5b8f-add1-4b6c-afc4-851b0f44c6db",
+  "type": [
+    "Film"
+  ],
   "title": "Casino Royale",
   "poster": "casino_royale",
+  "trailer": "36mnx8dBbGE",
   "genres": [
     "Action",
     "Thriller"
   ],
-  "production": [
-    "Columbia Pictures"
+  "synopsis": "After earning 00 status and a licence to kill, secret agent James Bond sets out on his first mission as 007. Bond must defeat a private banker funding terrorists in a high-stakes game of poker at Casino Royale, Montenegro.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Martin Campbell"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Neal Purvis"
+        },
+        {
+          "name": "Robert Wade"
+        },
+        {
+          "name": "Paul Haggis"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Barbara Broccoli"
+        },
+        {
+          "name": "Michael G. Wilson"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "David Arnold"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Phil Meheux"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Martin Campbell"
-  ],
-  "producedBy": "Barbara Broccoli, Michael G. Wilson",
-  "writtenBy": "Neal Purvis, Robert Wade, Paul Haggis",
-  "musicBy": "David Arnold",
-  "cinematographyBy": "Phil Meheux",
+  "year": 2006,
   "countries": [
     "UK",
     "USA",
@@ -23,23 +70,10 @@
     "Germany",
     "Bahamas"
   ],
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 616,
-    "suffix": "million"
-  },
-  "synopsis": "After earning 00 status and a licence to kill, secret agent James Bond sets out on his first mission as 007. Bond must defeat a private banker funding terrorists in a high-stakes game of poker at Casino Royale, Montenegro.",
-  "collections": [
-    {
-      "name": "Agents and Detectives"
-    }
+  "production": [
+    "Columbia Pictures"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 144,
   "cast": [
     {
       "character": {
@@ -84,7 +118,17 @@
       "actorId": "5d88af52-6754-4221-8517-29daa6486020"
     }
   ],
-  "duration": 144,
-  "trailer": "36mnx8dBbGE",
-  "year": 2006
+  "collections": [
+    {
+      "title": "Agents and Detectives"
+    }
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 616,
+    "suffix": "million"
+  }
 }

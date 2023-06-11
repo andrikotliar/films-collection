@@ -1,81 +1,73 @@
 {
   "id": "e2a1054a-e0b5-4b8f-83b0-90384a05f40f",
+  "type": [
+    "Film"
+  ],
   "title": "Jurassic Park",
   "poster": "jurassic_park_1",
+  "trailer": "QWBKEmWWL38",
   "genres": [
     "Sci-Fi",
     "Adventures"
+  ],
+  "synopsis": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Steven Spielberg"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Michael Crichton"
+        },
+        {
+          "name": "David Koepp"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kathleen Kennedy"
+        },
+        {
+          "name": "Gerald R. Molen"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Dean Cundey"
+        }
+      ]
+    }
+  ],
+  "year": 1993,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Universal Pictures",
     "Amblin Entertainment"
   ],
-  "directedBy": [
-    "Steven Spielberg"
-  ],
-  "producedBy": "Kathleen Kennedy, Gerald R. Molen",
-  "writtenBy": "Michael Crichton, David Koepp",
-  "musicBy": "John Williams",
-  "cinematographyBy": "Dean Cundey",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 63,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.03,
-    "suffix": "billion"
-  },
-  "synopsis": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
-  "collections": [
-    {
-      "name": "Legends"
-    },
-    {
-      "name": "Monsters"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Sound",
-        "Best Sound Effects Editing",
-        "Best Visual Effects"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Special Effects"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Science Fiction Film",
-        "Best Director",
-        "Best Writing",
-        "Best Special Effects"
-      ]
-    },
-    {
-      "title": "Jupiter",
-      "nominations": [
-        "Best International Film",
-        "Best International Director"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Jurassic Park",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 127,
   "cast": [
     {
       "character": {
@@ -120,7 +112,56 @@
       "actorId": "9f8a99db-df53-4050-8ca9-3c5264b4e07f"
     }
   ],
-  "duration": 127,
-  "trailer": "QWBKEmWWL38",
-  "year": 1993
+  "collections": [
+    {
+      "title": "Legends"
+    },
+    {
+      "title": "Monsters"
+    }
+  ],
+  "budget": {
+    "value": 63,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.03,
+    "suffix": "billion"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Sound",
+        "Best Sound Effects Editing",
+        "Best Visual Effects"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Special Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Director",
+        "Best Writing",
+        "Best Special Effects"
+      ]
+    },
+    {
+      "title": "Jupiter",
+      "nominations": [
+        "Best International Film",
+        "Best International Director"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Jurassic Park",
+    "part": 1
+  }
 }

@@ -1,55 +1,72 @@
 {
   "id": "148feb59-b532-4131-a6ea-8a3985aa0390",
+  "type": [
+    "Film"
+  ],
   "title": "The Hunger Games: Catching Fire",
   "poster": "hunger_games_2",
+  "trailer": "EAzGXqJSDJ8",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "production": [
-    "Lionsgate"
-  ],
-  "directedBy": [
-    "Francis Lawrence"
-  ],
-  "producedBy": "Nina Jacobson, Jon Kilik",
-  "writtenBy": "Simon Beaufoy, Michael Arndt",
-  "musicBy": "James Newton Howard",
-  "cinematographyBy": "Jo Willems",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 130,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 865,
-    "suffix": "million"
-  },
   "synopsis": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem.",
-  "collections": [
+  "crew": [
     {
-      "name": "Dystopia"
-    }
-  ],
-  "awards": [
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Francis Lawrence"
+        }
+      ]
+    },
     {
-      "title": "MTV Movie Awards",
-      "nominations": [
-        "Movie of the Year (2014)",
-        "Best Male Performance (Josh Hutcherson)",
-        "Best Female Performance (Jennifer Lawrence)"
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Simon Beaufoy"
+        },
+        {
+          "name": "Michael Arndt"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Nina Jacobson"
+        },
+        {
+          "name": "Jon Kilik"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "James Newton Howard"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Jo Willems"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "The Hunger Games",
-    "part": 2
-  },
-  "type": [
-    "Film"
+  "year": 2013,
+  "countries": [
+    "USA"
   ],
+  "production": [
+    "Lionsgate"
+  ],
+  "duration": 146,
   "cast": [
     {
       "character": {
@@ -94,7 +111,31 @@
       "actorId": "415a20c6-1d1f-4ede-b4d9-5b52bb3d6156"
     }
   ],
-  "duration": 146,
-  "trailer": "EAzGXqJSDJ8",
-  "year": 2013
+  "collections": [
+    {
+      "title": "Dystopia"
+    }
+  ],
+  "budget": {
+    "value": 130,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 865,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "MTV Movie Awards",
+      "nominations": [
+        "Movie of the Year (2014)",
+        "Best Male Performance (Josh Hutcherson)",
+        "Best Female Performance (Jennifer Lawrence)"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Hunger Games",
+    "part": 2
+  }
 }

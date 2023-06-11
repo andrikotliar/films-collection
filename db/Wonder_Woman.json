@@ -1,61 +1,77 @@
 {
   "id": "b5a03489-de70-47c8-b619-ce3a3f59249d",
+  "type": [
+    "Film"
+  ],
   "title": "Wonder Woman",
   "poster": "wonder_woman",
+  "trailer": "1Q8fG0TtVAY",
   "genres": [
     "Fantasy",
     "Adventures",
     "Drama"
   ],
+  "synopsis": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Patty Jenkins"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Allan Heinberg"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Charles Roven"
+        },
+        {
+          "name": "Deborah Snyder"
+        },
+        {
+          "name": "Zack Snyder"
+        },
+        {
+          "name": "Richard Suckle"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Rupert Gregson-Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Matthew Jensen"
+        }
+      ]
+    }
+  ],
+  "year": 2017,
+  "countries": [
+    "USA"
+  ],
   "production": [
     "DC Entertainment",
     "Warner Bros. Pictures"
   ],
-  "directedBy": [
-    "Patty Jenkins"
-  ],
-  "producedBy": "Charles Roven, Deborah Snyder, Zack Snyder, Richard Suckle",
-  "writtenBy": "Allan Heinberg",
-  "musicBy": "Rupert Gregson-Williams",
-  "cinematographyBy": "Matthew Jensen",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 120,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 822,
-    "suffix": "million"
-  },
-  "synopsis": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Actress"
-      ]
-    },
-    {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Action Movie"
-      ]
-    }
-  ],
-  "collections": [
-    {
-      "name": "DC Extended Universe"
-    }
-  ],
-  "parts": {
-    "title": "DC Extended Universe",
-    "part": 4
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 141,
   "cast": [
     {
       "character": {
@@ -114,7 +130,35 @@
       "actorId": "6598f633-3ed7-4e51-abb8-66d698a65869"
     }
   ],
-  "duration": 141,
-  "trailer": "1Q8fG0TtVAY",
-  "year": 2017
+  "collections": [
+    {
+      "title": "DC Extended Universe"
+    }
+  ],
+  "budget": {
+    "value": 120,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 822,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Actress"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Action Movie"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "DC Extended Universe",
+    "part": 4
+  }
 }

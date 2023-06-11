@@ -1,39 +1,84 @@
 {
   "id": "5c49b674-d4e8-4f48-ba4d-50ffde77badd",
+  "type": [
+    "Animation"
+  ],
   "title": "Klaus",
   "poster": "klaus",
+  "trailer": "taE3PwurhYM",
   "genres": [
     "Adventures",
     "Comedy"
+  ],
+  "synopsis": "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Sergio Pablos"
+        },
+        {
+          "name": "Carlos Martínez López"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Sergio Pablos"
+        },
+        {
+          "name": "Jim Mahone"
+        },
+        {
+          "name": "Zach Lewisy"
+        },
+        {
+          "name": ""
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Sara Coca"
+        },
+        {
+          "name": "Gustavo Ferra"
+        },
+        {
+          "name": "Mikel Lejarzad"
+        },
+        {
+          "name": "Mercedes Gamero"
+        },
+        {
+          "name": "Matthew Teevan"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Alfonso G. Aguilar"
+        }
+      ]
+    }
+  ],
+  "year": 2019,
+  "countries": [
+    "Spain",
+    "UK"
   ],
   "production": [
     "The SPA Studios",
     "Atresmedia Cine"
   ],
-  "directedBy": [
-    "Sergio Pablos",
-    "Carlos Martínez López"
-  ],
-  "producedBy": "Sara Coca, Gustavo Ferra, Mikel Lejarzad, Mercedes Gamero, Matthew Teevan",
-  "writtenBy": "Sergio Pablos, Jim Mahone, Zach Lewisy,",
-  "musicBy": "Alfonso G. Aguilar",
-  "countries": [
-    "Spain",
-    "UK"
-  ],
-  "budget": {
-    "value": 40,
-    "suffix": "million (estimated)"
-  },
-  "synopsis": "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
-  ],
-  "type": [
-    "Animation"
-  ],
+  "duration": 96,
   "cast": [
     {
       "character": {
@@ -64,7 +109,13 @@
       "actorId": "42624484-9e9b-4ffc-a510-9358264f60df"
     }
   ],
-  "duration": 96,
-  "trailer": "taE3PwurhYM",
-  "year": 2019
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 40,
+    "suffix": "million (estimated)"
+  }
 }

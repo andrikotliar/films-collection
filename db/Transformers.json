@@ -1,60 +1,79 @@
 {
   "id": "a37be58d-7f0d-4ca6-9d8d-27fcdf3756a2",
+  "type": [
+    "Film"
+  ],
   "title": "Transformers",
   "poster": "transformers_1",
+  "trailer": "dxQxgAfNzyE",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Michael Bay"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Roberto Orci"
+        },
+        {
+          "name": "Alex Kurtzman"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Lorenzo di Bonaventura"
+        },
+        {
+          "name": "Tom DeSanto"
+        },
+        {
+          "name": "Don Murphy"
+        },
+        {
+          "name": "Ian Bryce"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Steve Jablonsky"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Mitchell Amundsen"
+        }
+      ]
+    }
+  ],
+  "year": 2007,
+  "countries": [
+    "USA"
   ],
   "production": [
     "DreamWorks Pictures",
     "Paramount Pictures"
   ],
-  "directedBy": [
-    "Michael Bay"
-  ],
-  "producedBy": "Lorenzo di Bonaventura, Tom DeSanto, Don Murphy, Ian Bryce",
-  "writtenBy": "Roberto Orci, Alex Kurtzman",
-  "musicBy": "Steve Jablonsky",
-  "cinematographyBy": "Mitchell Amundsen",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 710,
-    "suffix": "million"
-  },
-  "synopsis": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
-  "collections": [
-    {
-      "name": "Robots"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Special Effects"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Movie"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Transformers",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 143,
   "cast": [
     {
       "character": {
@@ -148,7 +167,35 @@
       "actorId": "fa53192b-857e-4a61-8a2e-bce0427f750c"
     }
   ],
-  "duration": 143,
-  "trailer": "dxQxgAfNzyE",
-  "year": 2007
+  "collections": [
+    {
+      "title": "Robots"
+    }
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 710,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Special Effects"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Movie"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Transformers",
+    "part": 2
+  }
 }

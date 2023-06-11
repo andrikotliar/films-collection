@@ -1,64 +1,70 @@
 {
   "id": "73c2272e-0bec-48d4-9943-d3ee370574b9",
+  "type": [
+    "Film"
+  ],
   "title": "Spider-Man 2",
   "poster": "raimi_spider_man_2",
+  "trailer": "1s9Yln0YwCw",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Sam Raimi"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Alvin Sargent"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Avi Arad"
+        },
+        {
+          "name": "Laura Ziskin"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Danny Elfman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Bill Pope"
+        }
+      ]
+    }
+  ],
+  "year": 2004,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Columbia Pictures",
     "Marvel Enterprises"
   ],
-  "directedBy": [
-    "Sam Raimi"
-  ],
-  "producedBy": "Avi Arad, Laura Ziskin",
-  "writtenBy": "Alvin Sargent",
-  "musicBy": "Danny Elfman",
-  "cinematographyBy": "Bill Pope",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 200,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 789,
-    "suffix": "million"
-  },
-  "synopsis": "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius.",
-  "collections": [
-    {
-      "name": "Superheroes"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Achievement in Visual Effects"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Fantasy Film",
-        "Best Actor",
-        "Best Director",
-        "Best Writer",
-        "Best Special Effects"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Raimi's Spider-Man",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 127,
   "cast": [
     {
       "character": {
@@ -103,7 +109,39 @@
       "actorId": "3034deb0-7b15-4310-b3c8-14a06daee243"
     }
   ],
-  "duration": 127,
-  "trailer": "1s9Yln0YwCw",
-  "year": 2004
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 789,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Achievement in Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Fantasy Film",
+        "Best Actor",
+        "Best Director",
+        "Best Writer",
+        "Best Special Effects"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Raimi's Spider-Man",
+    "part": 2
+  }
 }

@@ -1,42 +1,70 @@
 {
   "id": "f2ff90ba-0e8d-4ee5-b130-115db72a665d",
+  "type": [
+    "Film"
+  ],
   "title": "The Call of the Wild",
   "poster": "the_call_of_the_wild",
+  "trailer": "h1LG9So2ZBk",
   "genres": [
     "Adventures",
     "Drama"
   ],
-  "production": [
-    "20th Century Studios"
+  "synopsis": "A sled dog struggles for survival in the wilds of the Yukon.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Chris Sanders"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Michael Green"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "James Mangold"
+        },
+        {
+          "name": "Erwin Stoff"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Powell"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Janusz Kaminski"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Chris Sanders"
-  ],
-  "producedBy": "James Mangold, Erwin Stoff",
-  "writtenBy": "Michael Green",
-  "musicBy": "John Powell",
-  "cinematographyBy": "Janusz Kaminski",
+  "year": 2020,
   "countries": [
     "Canada",
     "USA"
   ],
-  "budget": {
-    "value": 135,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 110,
-    "suffix": "million"
-  },
-  "synopsis": "A sled dog struggles for survival in the wilds of the Yukon.",
-  "collections": [
-    {
-      "name": "True Story"
-    }
+  "production": [
+    "20th Century Studios"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 100,
   "cast": [
     {
       "character": {
@@ -60,7 +88,17 @@
       "actorId": "3eeed1a8-5505-4398-b9f2-56904214ddfd"
     }
   ],
-  "duration": 100,
-  "trailer": "h1LG9So2ZBk",
-  "year": 2020
+  "collections": [
+    {
+      "title": "True Story"
+    }
+  ],
+  "budget": {
+    "value": 135,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 110,
+    "suffix": "million"
+  }
 }

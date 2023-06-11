@@ -1,41 +1,87 @@
 {
   "id": "73b015d2-9f1e-4e6b-b3ef-1da57a7b5975",
+  "type": [
+    "Film"
+  ],
   "title": "Teenage Mutant Ninja Tourtles",
   "poster": "tmnt",
+  "trailer": "VZZ0PnDZdZk",
   "genres": [
     "Action",
     "Comedy"
   ],
-  "production": [
-    "Paramount Pictures"
+  "synopsis": "When a kingpin threatens New York City, a group of mutated turtle warriors must emerge from the shadows to protect their home.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Jonathan Liebesman"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Josh Appelbaum"
+        },
+        {
+          "name": "André Nemec"
+        },
+        {
+          "name": "Evan Daugherty"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Michael Bay"
+        },
+        {
+          "name": "Andrew Form"
+        },
+        {
+          "name": "Brad Fuller"
+        },
+        {
+          "name": "Galen Walker"
+        },
+        {
+          "name": "Scott Mednick"
+        },
+        {
+          "name": "Ian Bryce"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Brian Tyler"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Lula Carvalho"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Jonathan Liebesman"
-  ],
-  "producedBy": "Michael Bay, Andrew Form, Brad Fuller, Galen Walker, Scott Mednick, Ian Bryce",
-  "writtenBy": "Josh Appelbaum, André Nemec, Evan Daugherty",
-  "musicBy": "Brian Tyler",
-  "cinematographyBy": "Lula Carvalho",
+  "year": 2014,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 125,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 493,
-    "suffix": "million"
-  },
-  "synopsis": "When a kingpin threatens New York City, a group of mutated turtle warriors must emerge from the shadows to protect their home.",
-  "collections": [
-    {
-      "name": "Superheroes"
-    }
+  "production": [
+    "Paramount Pictures"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 101,
   "cast": [
     {
       "character": {
@@ -115,7 +161,17 @@
       "actorId": "0bf747ee-2575-4df2-8dff-f10cd8a6ddf3"
     }
   ],
-  "duration": 101,
-  "trailer": "VZZ0PnDZdZk",
-  "year": 2014
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": {
+    "value": 125,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 493,
+    "suffix": "million"
+  }
 }

@@ -1,86 +1,79 @@
 {
   "id": "7b2b6456-35d8-4c73-93fc-33b6868152c2",
+  "type": [
+    "Film"
+  ],
   "title": "The Lord of the Rings: The Two Towers",
   "poster": "middle_earth_5",
+  "trailer": "LbfMDwc4azU",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "New Line Cinema"
+  "synopsis": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Peter Jackson"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Fran Walsh"
+        },
+        {
+          "name": "Philippa Boyens"
+        },
+        {
+          "name": "Peter Jackson"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Peter Jackson"
+        },
+        {
+          "name": "Fran Walsh"
+        },
+        {
+          "name": "Barrie M. Osborne"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Howard Shore"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Andrew Lesnie"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Peter Jackson"
-  ],
-  "producedBy": "Peter Jackson, Fran Walsh, Barrie M. Osborne",
-  "writtenBy": "Fran Walsh, Philippa Boyens, Peter Jackson",
-  "musicBy": "Howard Shore",
-  "cinematographyBy": "Andrew Lesnie",
+  "year": 2002,
   "countries": [
     "USA",
     "New Zealand"
   ],
-  "budget": {
-    "value": 94,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 926,
-    "suffix": "million"
-  },
-  "synopsis": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
-  "collections": [
-    {
-      "name": "Middle-Earth Universe"
-    }
+  "production": [
+    "New Line Cinema"
   ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Sound Editing",
-        "Best Visual Effects"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Costume Design",
-        "Best Achievement in Special Visual Effects"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Fantasy Film",
-        "Best Supporting Actor",
-        "Best Costumes",
-        "Best Make-Up"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Movie",
-        "Best On-Screen Team",
-        "Best Virtual Performance",
-        "Best Action Sequence"
-      ]
-    },
-    {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Digital Acting Performance"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Middle-Earth Universe",
-    "part": 5
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 179,
   "cast": [
     {
       "character": {
@@ -153,7 +146,61 @@
       "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135"
     }
   ],
-  "duration": 179,
-  "trailer": "LbfMDwc4azU",
-  "year": 2002
+  "collections": [
+    {
+      "title": "Middle-Earth Universe"
+    }
+  ],
+  "budget": {
+    "value": 94,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 926,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Sound Editing",
+        "Best Visual Effects"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Costume Design",
+        "Best Achievement in Special Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Fantasy Film",
+        "Best Supporting Actor",
+        "Best Costumes",
+        "Best Make-Up"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Movie",
+        "Best On-Screen Team",
+        "Best Virtual Performance",
+        "Best Action Sequence"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Digital Acting Performance"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Middle-Earth Universe",
+    "part": 5
+  }
 }

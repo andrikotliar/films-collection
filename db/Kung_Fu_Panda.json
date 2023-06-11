@@ -1,51 +1,76 @@
 {
   "id": "a7f2e03b-ecea-40c8-9d9a-1e9e647b0449",
+  "type": [
+    "Animation"
+  ],
   "title": "Kung Fu Panda",
   "poster": "kungfu_panda",
+  "trailer": "NRc-ze7Wrxw",
   "genres": [
     "Action",
     "Comedy"
   ],
-  "production": [
-    "DreamWorks Animation"
+  "synopsis": "The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance. However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a novice in martial arts.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Mark Osborne"
+        },
+        {
+          "name": "John Stevenson"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Jonathan Aibel"
+        },
+        {
+          "name": "Glenn Berger"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Melissa Cobb"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Powell"
+        },
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Yong Duk Jhun"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Mark Osborne",
-    "John Stevenson"
-  ],
-  "producedBy": "Melissa Cobb",
-  "writtenBy": "Jonathan Aibel, Glenn Berger",
-  "musicBy": "John Powell, Hans Zimmer",
-  "cinematographyBy": "Yong Duk Jhun",
+  "year": 2008,
   "countries": [
     "USA",
     "China"
   ],
-  "budget": {
-    "value": 130,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 632,
-    "suffix": "million"
-  },
-  "synopsis": "The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance. However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a novice in martial arts.",
-  "collections": [
-    {
-      "name": "Martial Arts"
-    }
+  "production": [
+    "DreamWorks Animation"
   ],
-  "awards": [
-    {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Animated Feature"
-      ]
-    }
-  ],
-  "type": [
-    "Animation"
-  ],
+  "duration": 92,
   "cast": [
     {
       "character": {
@@ -111,7 +136,25 @@
       "actorId": "39a6e64f-3733-4983-8bce-067363fb8fc0"
     }
   ],
-  "duration": 92,
-  "trailer": "NRc-ze7Wrxw",
-  "year": 2008
+  "collections": [
+    {
+      "title": "Martial Arts"
+    }
+  ],
+  "budget": {
+    "value": 130,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 632,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Animated Feature"
+      ]
+    }
+  ]
 }

@@ -1,41 +1,75 @@
 {
   "id": "995eb666-1f68-4835-943c-1888de969f45",
+  "type": [
+    "Film"
+  ],
   "title": "Predator",
   "poster": "predator",
+  "trailer": "_1wDBNHYDv8",
   "genres": [
     "Action",
     "Horror"
   ],
-  "production": [
-    "20th Century FOX"
+  "synopsis": "A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "John McTiernan"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Jim Thomas"
+        },
+        {
+          "name": "John Thomas"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "John Davis"
+        },
+        {
+          "name": "Lawrence Gordon"
+        },
+        {
+          "name": "Joel Silver"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Alan Silvestri"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Donald McAlpine"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "John McTiernan"
-  ],
-  "producedBy": "John Davis, Lawrence Gordon, Joel Silver",
-  "writtenBy": "Jim Thomas, John Thomas",
-  "musicBy": "Alan Silvestri",
-  "cinematographyBy": "Donald McAlpine",
+  "year": 1987,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 15,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 98,
-    "suffix": "million"
-  },
-  "synopsis": "A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior.",
-  "collections": [
-    {
-      "name": "Invasion"
-    }
+  "production": [
+    "20th Century FOX"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 107,
   "cast": [
     {
       "character": {
@@ -94,7 +128,17 @@
       "actorId": "d608a89f-0ea9-44c2-89d5-4a5320612988"
     }
   ],
-  "duration": 107,
-  "trailer": "_1wDBNHYDv8",
-  "year": 1987
+  "collections": [
+    {
+      "title": "Invasion"
+    }
+  ],
+  "budget": {
+    "value": 15,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 98,
+    "suffix": "million"
+  }
 }

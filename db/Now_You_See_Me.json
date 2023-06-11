@@ -1,41 +1,81 @@
 {
   "id": "3a7b5ed6-98c5-4b20-9053-56c99d190381",
+  "type": [
+    "Film"
+  ],
   "title": "Now You See Me",
   "poster": "now_you_see_me",
+  "trailer": "KzJNYYkkhzc",
   "genres": [
     "Crime",
     "Thriller"
   ],
-  "production": [
-    "Summit Entertainment"
+  "synopsis": "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Louis Leterrier"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Ed Solomon"
+        },
+        {
+          "name": "Boaz Yakin"
+        },
+        {
+          "name": "Edward Ricourt"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Bobby Cohen"
+        },
+        {
+          "name": "Alex Kurtzman"
+        },
+        {
+          "name": "Roberto Orci"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Brian Tyler"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Mitchell Amundsen"
+        },
+        {
+          "name": "Larry Fong"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Louis Leterrier"
-  ],
-  "producedBy": "Bobby Cohen, Alex Kurtzman, Roberto Orci",
-  "writtenBy": "Ed Solomon, Boaz Yakin, Edward Ricourt",
-  "musicBy": "Brian Tyler",
-  "cinematographyBy": "Mitchell Amundsen, Larry Fong",
+  "year": 2013,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 75,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 352,
-    "suffix": "million"
-  },
-  "synopsis": "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money.",
-  "collections": [
-    {
-      "name": "Agents and Detectives"
-    }
+  "production": [
+    "Summit Entertainment"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 115,
   "cast": [
     {
       "character": {
@@ -101,7 +141,17 @@
       "actorId": "d41237ae-bebd-45ab-9e93-f0b6678d13be"
     }
   ],
-  "duration": 115,
-  "trailer": "KzJNYYkkhzc",
-  "year": 2013
+  "collections": [
+    {
+      "title": "Agents and Detectives"
+    }
+  ],
+  "budget": {
+    "value": 75,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 352,
+    "suffix": "million"
+  }
 }

@@ -1,44 +1,78 @@
 {
   "id": "6d4bcd9b-1cf6-4983-8777-f4736a780636",
+  "type": [
+    "Film"
+  ],
   "title": "Love and Monsters",
   "poster": "love_and_monsters",
+  "trailer": "1dzGhJ5QGsQ",
   "genres": [
     "Adventures",
     "Action",
     "Comedy"
   ],
-  "production": [
-    "Paramount Pictures"
+  "synopsis": "Seven years after he survived the monster apocalypse, lovably hapless Joel leaves his cozy underground bunker behind on a quest to reunite with his ex.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Michael Matthews"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Brian Duffield"
+        },
+        {
+          "name": "Matthew Robinson"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Dan Cohen"
+        },
+        {
+          "name": "Shawn Levy"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Marco Beltrami"
+        },
+        {
+          "name": "Marcus Trumpp"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Lachlan Milne"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Michael Matthews"
-  ],
-  "producedBy": "Dan Cohen, Shawn Levy",
-  "writtenBy": "Brian Duffield, Matthew Robinson",
-  "musicBy": "Marco Beltrami, Marcus Trumpp",
-  "cinematographyBy": "Lachlan Milne",
+  "year": 2020,
   "countries": [
     "Canada",
     "USA",
     "Australia"
   ],
-  "budget": {
-    "value": 30,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1,
-    "suffix": "million"
-  },
-  "synopsis": "Seven years after he survived the monster apocalypse, lovably hapless Joel leaves his cozy underground bunker behind on a quest to reunite with his ex.",
-  "collections": [
-    {
-      "name": "Monsters"
-    }
+  "production": [
+    "Paramount Pictures"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 109,
   "cast": [
     {
       "character": {
@@ -90,7 +124,17 @@
       "actorId": "edc4956a-f546-4e9e-a2dd-2e5785d0e4fa"
     }
   ],
-  "duration": 109,
-  "trailer": "1dzGhJ5QGsQ",
-  "year": 2020
+  "collections": [
+    {
+      "title": "Monsters"
+    }
+  ],
+  "budget": {
+    "value": 30,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1,
+    "suffix": "million"
+  }
 }

@@ -1,41 +1,72 @@
 {
   "id": "6e623a51-a4ed-4d99-b025-61342e797282",
+  "type": [
+    "Film"
+  ],
   "title": "Prince of Persia: The Sand of Time",
   "poster": "prince_of_persia",
+  "trailer": "bZ7Li5w2I-k",
   "genres": [
     "Fantasy",
     "Action"
   ],
-  "production": [
-    "Walt Disney Pictures"
+  "synopsis": "A young fugitive Prince and Princess must stop a villain who unknowingly threatens to destroy the world with a special dagger that enables the magic sand inside to reverse time.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Mike Newell"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Boaz Yakin"
+        },
+        {
+          "name": "Doug Miro"
+        },
+        {
+          "name": "Carlo Bernard"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Jerry Bruckheimer"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Harry Gregson-Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "John Seale"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Mike Newell"
-  ],
-  "producedBy": "Jerry Bruckheimer",
-  "writtenBy": "Boaz Yakin, Doug Miro, Carlo Bernard",
-  "musicBy": "Harry Gregson-Williams",
-  "cinematographyBy": "John Seale",
+  "year": 2010,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 336,
-    "suffix": "million"
-  },
-  "synopsis": "A young fugitive Prince and Princess must stop a villain who unknowingly threatens to destroy the world with a special dagger that enables the magic sand inside to reverse time.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
+  "production": [
+    "Walt Disney Pictures"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 116,
   "cast": [
     {
       "character": {
@@ -101,7 +132,17 @@
       "actorId": "f2a7e65b-cb4e-4f18-956b-aab6e5a7f1c3"
     }
   ],
-  "duration": 116,
-  "trailer": "bZ7Li5w2I-k",
-  "year": 2010
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 336,
+    "suffix": "million"
+  }
 }

@@ -1,84 +1,79 @@
 {
   "id": "caee011c-a5f5-4c33-a502-bd8b5efbc7c4",
+  "type": [
+    "Film"
+  ],
   "title": "The Dark Knight",
   "poster": "batman_2",
+  "trailer": "EXeTwQWrcwY",
   "genres": [
     "Action",
     "Thriller"
+  ],
+  "synopsis": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Christopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Christopher Nolan"
+        },
+        {
+          "name": "Jonathan Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Charles Roven"
+        },
+        {
+          "name": "Emma Thomas"
+        },
+        {
+          "name": "Christopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        },
+        {
+          "name": "James Newton Howard"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Wally Pfister"
+        }
+      ]
+    }
+  ],
+  "year": 2008,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Warner Bros. Pictures",
     "Legendary"
   ],
-  "directedBy": [
-    "Christopher Nolan"
-  ],
-  "producedBy": "Charles Roven, Emma Thomas, Christopher Nolan",
-  "writtenBy": "Christopher Nolan, Jonathan Nolan",
-  "musicBy": "Hans Zimmer, James Newton Howard",
-  "cinematographyBy": "Wally Pfister",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 185,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.005,
-    "suffix": "illion b"
-  },
-  "synopsis": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-  "collections": [
-    {
-      "name": "Superheroes"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Performance by an Actor in a Supporting Role",
-        "Best Achievement in Sound Editing"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Supporting Actor"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Action/Adventure/Thriller Film",
-        "Best Supporting Actor",
-        "Best Writing",
-        "Best Music",
-        "Best Special Effects"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Villain"
-      ]
-    },
-    {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Supporting Actor",
-        "Best Action Movie"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "The Dark Knight",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 152,
   "cast": [
     {
       "character": {
@@ -144,7 +139,59 @@
       "actorId": "9a91c941-d1d1-4514-9eb1-c4a27bbe9cce"
     }
   ],
-  "duration": 152,
-  "trailer": "EXeTwQWrcwY",
-  "year": 2008
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": {
+    "value": 185,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.005,
+    "suffix": "illion b"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Performance by an Actor in a Supporting Role",
+        "Best Achievement in Sound Editing"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Supporting Actor"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Action/Adventure/Thriller Film",
+        "Best Supporting Actor",
+        "Best Writing",
+        "Best Music",
+        "Best Special Effects"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Villain"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Supporting Actor",
+        "Best Action Movie"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Dark Knight",
+    "part": 2
+  }
 }

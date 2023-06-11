@@ -1,46 +1,76 @@
 {
   "id": "fc2c9d32-e68d-4317-9cd9-0c68eb2c6361",
+  "type": [
+    "Film"
+  ],
   "title": "X-Men Origins: Wolverine",
   "poster": "x_men_4",
+  "trailer": "QojV7s3UTu0",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "The early years of James Logan, featuring his rivalry with his brother Victor Creed, his service in the special forces team Weapon X, and his experimentation into the metal-lined mutant Wolverine.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Gavin Hood"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "David Benioff"
+        },
+        {
+          "name": "Skip Woods"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Lauren Shuler Donner"
+        },
+        {
+          "name": "Ralph Winter"
+        },
+        {
+          "name": "Hugh Jackman"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Harry Gregson-Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Donald McAlpine"
+        }
+      ]
+    }
+  ],
+  "year": 2009,
+  "countries": [
+    "USA"
   ],
   "production": [
     "20th Century FOX",
     "Marvel Entertainment"
   ],
-  "directedBy": [
-    "Gavin Hood"
-  ],
-  "producedBy": "Lauren Shuler Donner, Ralph Winter, Hugh Jackman",
-  "writtenBy": "David Benioff, Skip Woods",
-  "musicBy": "Harry Gregson-Williams",
-  "cinematographyBy": "Donald McAlpine",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 373,
-    "suffix": "million"
-  },
-  "synopsis": "The early years of James Logan, featuring his rivalry with his brother Victor Creed, his service in the special forces team Weapon X, and his experimentation into the metal-lined mutant Wolverine.",
-  "collections": [
-    {
-      "name": "Superheroes"
-    }
-  ],
-  "parts": {
-    "title": "X-Men",
-    "part": 4
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 107,
   "cast": [
     {
       "character": {
@@ -106,7 +136,21 @@
       "actorId": "7852b668-f0a2-4286-bb6e-799072cea4b8"
     }
   ],
-  "duration": 107,
-  "trailer": "QojV7s3UTu0",
-  "year": 2009
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 373,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "X-Men",
+    "part": 4
+  }
 }

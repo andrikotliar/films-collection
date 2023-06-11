@@ -1,43 +1,71 @@
 {
   "id": "89b374bc-af9a-498f-a6f5-328762a27c56",
+  "type": [
+    "Film"
+  ],
   "title": "Zack Snyder's Justice League",
   "poster": "justice_league",
+  "trailer": "vM-Bja2Gy04",
   "genres": [
     "Action",
     "Adventures"
+  ],
+  "synopsis": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Zack Snyder"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Chris Terrio"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Charles Roven"
+        },
+        {
+          "name": "Deborah Snyder"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Junkie XL"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Fabian Wagner"
+        }
+      ]
+    }
+  ],
+  "year": 2021,
+  "countries": [
+    "USA",
+    "UK"
   ],
   "production": [
     "HBO Max",
     "Warner Bros. Pictures"
   ],
-  "directedBy": [
-    "Zack Snyder"
-  ],
-  "producedBy": "Charles Roven, Deborah Snyder",
-  "writtenBy": "Chris Terrio",
-  "musicBy": "Junkie XL",
-  "cinematographyBy": "Fabian Wagner",
-  "countries": [
-    "USA",
-    "UK"
-  ],
-  "budget": {
-    "value": 300,
-    "suffix": "million"
-  },
-  "synopsis": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.",
-  "collections": [
-    {
-      "name": "DC Extended Universe"
-    }
-  ],
-  "parts": {
-    "title": "DC Extended Universe",
-    "part": 5
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 242,
   "cast": [
     {
       "character": {
@@ -180,7 +208,17 @@
       "actorId": "c215425a-4811-4332-87bf-67eb080a01d4"
     }
   ],
-  "duration": 242,
-  "trailer": "vM-Bja2Gy04",
-  "year": 2021
+  "collections": [
+    {
+      "title": "DC Extended Universe"
+    }
+  ],
+  "budget": {
+    "value": 300,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "DC Extended Universe",
+    "part": 5
+  }
 }

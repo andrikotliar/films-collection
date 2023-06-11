@@ -1,41 +1,78 @@
 {
   "id": "da0509e3-9df0-4bf7-8e6b-bbcc494d7426",
+  "type": [
+    "Film"
+  ],
   "title": "Hancock",
   "poster": "hancock",
+  "trailer": "SkX1VuXLRSc",
   "genres": [
     "Action",
     "Comedy"
   ],
-  "production": [
-    "Columbia Pictures"
+  "synopsis": "Hancock is a superhero whose ill considered behavior regularly causes damage in the millions. He changes when the person he saves helps him improve his public image.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Peter Berg"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Vince Gilligan"
+        },
+        {
+          "name": "Vincent Ngo"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Akiva Goldsman"
+        },
+        {
+          "name": "James Lassiter"
+        },
+        {
+          "name": "Michael Mann"
+        },
+        {
+          "name": "Will Smith"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Powell"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Tobias A. Schliessler"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Peter Berg"
-  ],
-  "producedBy": "Akiva Goldsman, James Lassiter, Michael Mann, Will Smith",
-  "writtenBy": "Vince Gilligan, Vincent Ngo",
-  "musicBy": "John Powell",
-  "cinematographyBy": "Tobias A. Schliessler",
+  "year": 2008,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 624,
-    "suffix": "million"
-  },
-  "synopsis": "Hancock is a superhero whose ill considered behavior regularly causes damage in the millions. He changes when the person he saves helps him improve his public image.",
-  "collections": [
-    {
-      "name": "Superheroes"
-    }
+  "production": [
+    "Columbia Pictures"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 92,
   "cast": [
     {
       "character": {
@@ -108,7 +145,17 @@
       "actorId": "7bd36da9-7c57-429b-a1f9-e1a7e9fb7ecb"
     }
   ],
-  "duration": 92,
-  "trailer": "SkX1VuXLRSc",
-  "year": 2008
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 624,
+    "suffix": "million"
+  }
 }

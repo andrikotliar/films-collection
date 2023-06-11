@@ -1,57 +1,69 @@
 {
   "id": "0da04cec-1bf8-433a-b6dd-b5daa3b16d96",
+  "type": [
+    "Film"
+  ],
   "title": "Independence Day",
   "poster": "independence_day",
+  "trailer": "kA2WzBi2grE",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "production": [
-    "20th Century FOX"
-  ],
-  "directedBy": [
-    "Roland Emmerich"
-  ],
-  "producedBy": "Dean Devlin",
-  "writtenBy": "Dean Devlin, Roland Emmerich",
-  "musicBy": "David Arnold",
-  "cinematographyBy": "Karl Walter Lindenlaub",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 75,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 817,
-    "suffix": "million"
-  },
   "synopsis": "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive.",
-  "collections": [
+  "crew": [
     {
-      "name": "Invasion"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Visual Effects"
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Roland Emmerich"
+        }
       ]
     },
     {
-      "title": "Saturn",
-      "nominations": [
-        "Best Science Fiction Film",
-        "Best Director",
-        "Best Special Effects"
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Dean Devlin"
+        },
+        {
+          "name": "Roland Emmerich"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Dean Devlin"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "David Arnold"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Karl Walter Lindenlaub"
+        }
       ]
     }
   ],
-  "type": [
-    "Film"
+  "year": 1996,
+  "countries": [
+    "USA"
   ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "duration": 145,
   "cast": [
     {
       "character": {
@@ -103,7 +115,33 @@
       "actorId": "b87d24b2-bd89-40ca-af77-e5a70713ba4d"
     }
   ],
-  "duration": 145,
-  "trailer": "kA2WzBi2grE",
-  "year": 1996
+  "collections": [
+    {
+      "title": "Invasion"
+    }
+  ],
+  "budget": {
+    "value": 75,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 817,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Director",
+        "Best Special Effects"
+      ]
+    }
+  ]
 }

@@ -1,624 +1,299 @@
 {
   "id": "4cb94e19-1f7b-4acf-9bb3-62168f89583a",
+  "type": [
+    "Series"
+  ],
   "title": "Heroes",
   "poster": "heroes",
   "genres": [
     "Sci-Fi",
     "Drama"
   ],
+  "synopsis": "Common people discover that they have super powers. Their lives intertwine as a devastating event must be prevented.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "David Semel",
+          "comment": ""
+        },
+        {
+          "name": "Allan Arkush",
+          "comment": ""
+        },
+        {
+          "name": "Greg Beeman",
+          "comment": ""
+        },
+        {
+          "name": "Ernest Dickerson",
+          "comment": ""
+        },
+        {
+          "name": "Paul Shapiro",
+          "comment": ""
+        },
+        {
+          "name": "Donna Deitch",
+          "comment": ""
+        },
+        {
+          "name": "Paul Edwards",
+          "comment": ""
+        },
+        {
+          "name": "John Badham",
+          "comment": ""
+        },
+        {
+          "name": "Terrence O'Hara",
+          "comment": ""
+        },
+        {
+          "name": "Jeannot Szwarc",
+          "comment": ""
+        },
+        {
+          "name": "Roxann Dawson",
+          "comment": ""
+        },
+        {
+          "name": "Kevin Bray",
+          "comment": ""
+        },
+        {
+          "name": "Adam Kane",
+          "comment": ""
+        },
+        {
+          "name": "Lesli Glatter",
+          "comment": ""
+        },
+        {
+          "name": "Daniel Attias",
+          "comment": ""
+        },
+        {
+          "name": "Greg Yaitanes",
+          "comment": ""
+        },
+        {
+          "name": "Sergio Mimica-Gezzan",
+          "comment": ""
+        },
+        {
+          "name": "David Von Ancken",
+          "comment": ""
+        },
+        {
+          "name": "Anthony Hemingway",
+          "comment": ""
+        },
+        {
+          "name": "Holly Dale",
+          "comment": ""
+        },
+        {
+          "name": "Seith Mann",
+          "comment": ""
+        },
+        {
+          "name": "Eric Laneuville",
+          "comment": ""
+        },
+        {
+          "name": "Jim Chory",
+          "comment": ""
+        },
+        {
+          "name": "Ed Bianchi",
+          "comment": ""
+        },
+        {
+          "name": "David Straiton",
+          "comment": ""
+        },
+        {
+          "name": "Christopher Misiano",
+          "comment": ""
+        },
+        {
+          "name": "SJ Clarkson",
+          "comment": ""
+        },
+        {
+          "name": "Tucker Gates",
+          "comment": ""
+        },
+        {
+          "name": "Nate Goodman",
+          "comment": ""
+        },
+        {
+          "name": "Bryan Spicer",
+          "comment": ""
+        },
+        {
+          "name": "Kevin Dowling",
+          "comment": ""
+        },
+        {
+          "name": "Ron Underwood",
+          "comment": ""
+        },
+        {
+          "name": "Michael Nankin",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Tim Kring",
+          "comment": ""
+        },
+        {
+          "name": "Jeph Loeb",
+          "comment": ""
+        },
+        {
+          "name": "Bryan Fuller",
+          "comment": ""
+        },
+        {
+          "name": "Michael Green",
+          "comment": ""
+        },
+        {
+          "name": "Natalie Chaidez",
+          "comment": ""
+        },
+        {
+          "name": "Jesse Alexander",
+          "comment": ""
+        },
+        {
+          "name": "Adam Armus",
+          "comment": ""
+        },
+        {
+          "name": "Kay Foster",
+          "comment": ""
+        },
+        {
+          "name": "Aron Eli Coleite",
+          "comment": ""
+        },
+        {
+          "name": "Joe Pokaski",
+          "comment": ""
+        },
+        {
+          "name": "Christopher Zatta",
+          "comment": ""
+        },
+        {
+          "name": "Chuck Kim",
+          "comment": ""
+        },
+        {
+          "name": "J.J. Philbin",
+          "comment": ""
+        },
+        {
+          "name": "Joy Blake",
+          "comment": ""
+        },
+        {
+          "name": "Melissa Blake",
+          "comment": ""
+        },
+        {
+          "name": "Rob Fresco",
+          "comment": ""
+        },
+        {
+          "name": "Mark Verheiden",
+          "comment": ""
+        },
+        {
+          "name": "Oliver Grigsby",
+          "comment": ""
+        },
+        {
+          "name": "Juan Carlos Coto",
+          "comment": ""
+        },
+        {
+          "name": "Aury Wallington",
+          "comment": ""
+        },
+        {
+          "name": "Misha Green",
+          "comment": ""
+        },
+        {
+          "name": "Jim Martin",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Lori Motyer"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Lisa Coleman"
+        },
+        {
+          "name": "Wendy Melvoin"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Nathaniel Goodman"
+        },
+        {
+          "name": "Charlie Lieberman"
+        },
+        {
+          "name": "John B. Aronson"
+        },
+        {
+          "name": "Edward J. Pei"
+        },
+        {
+          "name": "Adam Kane"
+        },
+        {
+          "name": "John Newby"
+        }
+      ]
+    }
+  ],
+  "year": 2006,
+  "countries": [
+    "USA"
+  ],
   "production": [
     "Tailwind Productions",
     "NBC Universal Television",
     "Universal Media Studios"
   ],
-  "directedBy": [
-    "Tim Kring"
-  ],
-  "producedBy": "Lori Motyer",
-  "musicBy": "Lisa Coleman, Wendy Melvoin",
-  "cinematographyBy": "Nathaniel Goodman, Charlie Lieberman, John B. Aronson, Edward J. Pei, Adam Kane, John Newby",
-  "countries": [
-    "USA"
-  ],
-  "synopsis": "Common people discover that they have super powers. Their lives intertwine as a devastating event must be prevented.",
-  "collections": [
-    {
-      "name": "Superheroes"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Emmy",
-      "nominations": [
-        "Outstanding Special Visual Effects for a Series"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best International"
-      ]
-    }
-  ],
-  "type": [
-    "Series"
-  ],
-  "seasons": [
-    {
-      "season": 1,
-      "seasonTitle": "Volume One: Genesis",
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "Genesis",
-          "directedBy": "David Semel",
-          "writtenBy": "Tim Kring"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Don't Look Back",
-          "directedBy": "Allan Arkush",
-          "writtenBy": "Tim Kring"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "One Giant Leap",
-          "directedBy": "Greg Beeman",
-          "writtenBy": "Jeph Loeb"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "Collision",
-          "directedBy": "Ernest Dickerson",
-          "writtenBy": "Bryan Fuller"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Hiros",
-          "directedBy": "Paul Shapiro",
-          "writtenBy": "Michael Green"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "Better Halves",
-          "directedBy": "Greg Beeman",
-          "writtenBy": "Natalie Chaidez"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "Nothing to Hide",
-          "directedBy": "Donna Deitch",
-          "writtenBy": "Jesse Alexander"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 8,
-          "title": "Seven Minutes to Midnight",
-          "directedBy": "Paul Edwards",
-          "writtenBy": "Tim Kring"
-        },
-        {
-          "episodeOverall": 9,
-          "episode": 9,
-          "title": "Homecoming",
-          "directedBy": "Greg Beeman",
-          "writtenBy": "Adam Armus, Kay Foster"
-        },
-        {
-          "episodeOverall": 10,
-          "episode": 10,
-          "title": "Six Months Ago",
-          "directedBy": "Allan Arkush",
-          "writtenBy": "Aron Eli Coleite"
-        },
-        {
-          "episodeOverall": 11,
-          "episode": 11,
-          "title": "Fallout",
-          "directedBy": "John Badham",
-          "writtenBy": "Joe Pokaski"
-        },
-        {
-          "episodeOverall": 12,
-          "episode": 12,
-          "title": "Godsend",
-          "directedBy": "Paul Shapiro",
-          "writtenBy": "Tim Kring"
-        },
-        {
-          "episodeOverall": 13,
-          "episode": 13,
-          "title": "The Fix",
-          "directedBy": "Terrence O'Hara",
-          "writtenBy": "Natalie Chaidez"
-        },
-        {
-          "episodeOverall": 14,
-          "episode": 14,
-          "title": "Distractions",
-          "directedBy": "Jeannot Szwarc",
-          "writtenBy": "Michael Green"
-        },
-        {
-          "episodeOverall": 15,
-          "episode": 15,
-          "title": "Run!",
-          "directedBy": "Roxann Dawson",
-          "writtenBy": "Adam Armus, Kay Foster"
-        },
-        {
-          "episodeOverall": 16,
-          "episode": 16,
-          "title": "Unexpected",
-          "directedBy": "Greg Beeman",
-          "writtenBy": "Jeph Loeb"
-        },
-        {
-          "episodeOverall": 17,
-          "episode": 17,
-          "title": "Company Man",
-          "directedBy": "Allan Arkush",
-          "writtenBy": "Bryan Fuller"
-        },
-        {
-          "episodeOverall": 18,
-          "episode": 18,
-          "title": "Parasite",
-          "directedBy": "Kevin Bray",
-          "writtenBy": "Christopher Zatta"
-        },
-        {
-          "episodeOverall": 19,
-          "episode": 19,
-          "title": "0.07%",
-          "directedBy": "Adam Kane",
-          "writtenBy": "Chuck Kim"
-        },
-        {
-          "episodeOverall": 20,
-          "episode": 20,
-          "title": "Five Years Gone",
-          "directedBy": "Paul Edwards",
-          "writtenBy": "Joe Pokaski"
-        },
-        {
-          "episodeOverall": 21,
-          "episode": 21,
-          "title": "The Hard Part",
-          "directedBy": "John Badham",
-          "writtenBy": "Aron Eli Coleite"
-        },
-        {
-          "episodeOverall": 22,
-          "episode": 22,
-          "title": "Landslide",
-          "directedBy": "Greg Beeman",
-          "writtenBy": "Jesse Alexander"
-        },
-        {
-          "episodeOverall": 23,
-          "episode": 23,
-          "title": "How to Stop an Exploding Man",
-          "directedBy": "Allan Arkush",
-          "writtenBy": "Tim Kring"
-        }
-      ],
-      "trailer": "9AX6aXFdTkc"
-    },
-    {
-      "season": 2,
-      "seasonTitle": "Volume Two: Generations",
-      "episodes": [
-        {
-          "episodeOverall": 24,
-          "episode": 1,
-          "title": "Four Months Later...",
-          "directedBy": "Greg Beeman",
-          "writtenBy": "Tim Kring"
-        },
-        {
-          "episodeOverall": 25,
-          "episode": 2,
-          "title": "Lizards",
-          "directedBy": "Allan Arkush",
-          "writtenBy": "Michael Green"
-        },
-        {
-          "episodeOverall": 26,
-          "episode": 3,
-          "title": "Kindred",
-          "directedBy": "Paul Edwards",
-          "writtenBy": "J.J. Philbin"
-        },
-        {
-          "episodeOverall": 27,
-          "episode": 4,
-          "title": "The Kindness of Strangers",
-          "directedBy": "Adam Kane",
-          "writtenBy": "Tim Kring"
-        },
-        {
-          "episodeOverall": 28,
-          "episode": 5,
-          "title": "Fight or Flight",
-          "directedBy": "Lesli Glatter",
-          "writtenBy": "Joy Blake, Melissa Blake"
-        },
-        {
-          "episodeOverall": 29,
-          "episode": 6,
-          "title": "The Line",
-          "directedBy": "Jeannot Szwarc",
-          "writtenBy": "Adam Armus, Kay Foster"
-        },
-        {
-          "episodeOverall": 30,
-          "episode": 7,
-          "title": "Out of Time",
-          "directedBy": "Daniel Attias",
-          "writtenBy": "Aron Eli Coleite"
-        },
-        {
-          "episodeOverall": 31,
-          "episode": 8,
-          "title": "Four Months Ago...",
-          "directedBy": "Greg Beeman",
-          "writtenBy": "Tim Kring"
-        },
-        {
-          "episodeOverall": 32,
-          "episode": 9,
-          "title": "Cautionary Tales",
-          "directedBy": "Greg Yaitanes",
-          "writtenBy": "Joe Pokaski"
-        },
-        {
-          "episodeOverall": 33,
-          "episode": 10,
-          "title": "Truth, Consequences",
-          "directedBy": "Adam Kane",
-          "writtenBy": "Jesse Alexander"
-        },
-        {
-          "episodeOverall": 34,
-          "episode": 11,
-          "title": "Powerless",
-          "directedBy": "Allan Arkush",
-          "writtenBy": "Jeph Loeb"
-        }
-      ],
-      "trailer": "9mNGxXpAmHc"
-    },
-    {
-      "season": 3.1,
-      "seasonTitle": "Volume Three: Villains",
-      "episodes": [
-        {
-          "episodeOverall": 35,
-          "episode": 1,
-          "title": "The Second Coming",
-          "directedBy": "Allan Arkush",
-          "writtenBy": "Tim Kring"
-        },
-        {
-          "episodeOverall": 36,
-          "episode": 2,
-          "title": "The Butterfly Effect",
-          "directedBy": "Greg Beeman",
-          "writtenBy": "Tim Kring"
-        },
-        {
-          "episodeOverall": 37,
-          "episode": 3,
-          "title": "One of Us, One of Them",
-          "directedBy": "Sergio Mimica-Gezzan",
-          "writtenBy": "Joe Pokaski"
-        },
-        {
-          "episodeOverall": 38,
-          "episode": 4,
-          "title": "I Am Become Death",
-          "directedBy": "David Von Ancken",
-          "writtenBy": "Aron Eli Coleite"
-        },
-        {
-          "episodeOverall": 39,
-          "episode": 5,
-          "title": "Angels, Monsters",
-          "directedBy": "Anthony Hemingway",
-          "writtenBy": "Adam Armus, Kay Foster"
-        },
-        {
-          "episodeOverall": 40,
-          "episode": 6,
-          "title": "Dying of the Light",
-          "directedBy": "Daniel Attias",
-          "writtenBy": "Chuck Kim, Christopher Zatta"
-        },
-        {
-          "episodeOverall": 41,
-          "episode": 7,
-          "title": "Eris Quod Sum",
-          "directedBy": "Jeannot Szwarc",
-          "writtenBy": "Jesse Alexander"
-        },
-        {
-          "episodeOverall": 42,
-          "episode": 8,
-          "title": "Villains",
-          "directedBy": "Allan Arkush",
-          "writtenBy": "Rob Fresco"
-        },
-        {
-          "episodeOverall": 43,
-          "episode": 9,
-          "title": "It's Coming",
-          "directedBy": "Greg Yaitanes",
-          "writtenBy": "Tim Kring"
-        },
-        {
-          "episodeOverall": 44,
-          "episode": 10,
-          "title": "The Eclipse: Part 1",
-          "directedBy": "Greg Beeman",
-          "writtenBy": "Aron Eli Coleite, Joe Pokaski"
-        },
-        {
-          "episodeOverall": 45,
-          "episode": 11,
-          "title": "The Eclipse: Part 2",
-          "directedBy": "Holly Dale",
-          "writtenBy": "Aron Eli Coleite, Joe Pokaski"
-        },
-        {
-          "episodeOverall": 46,
-          "episode": 12,
-          "title": "Our Father",
-          "directedBy": "Jeannot Szwarc",
-          "writtenBy": "Adam Armus, Kay Foster"
-        },
-        {
-          "episodeOverall": 47,
-          "episode": 13,
-          "title": "Dual",
-          "directedBy": "Greg Beeman",
-          "writtenBy": "Jeph Loeb"
-        }
-      ],
-      "trailer": "mTzPPIEUFEs"
-    },
-    {
-      "season": 3.2,
-      "seasonTitle": "Volume Four: Fugitives",
-      "episodes": [
-        {
-          "episodeOverall": 48,
-          "episode": 14,
-          "title": "A Clear and Present Danger",
-          "directedBy": "Greg Yaitanes",
-          "writtenBy": "Tim Kring"
-        },
-        {
-          "episodeOverall": 49,
-          "episode": 15,
-          "title": "Trust and Blood",
-          "directedBy": "Allan Arkush",
-          "writtenBy": "Mark Verheiden"
-        },
-        {
-          "episodeOverall": 50,
-          "episode": 16,
-          "title": "Building 26",
-          "directedBy": "Sergio Mimica-Gezzan",
-          "writtenBy": "Rob Fresco"
-        },
-        {
-          "episodeOverall": 51,
-          "episode": 17,
-          "title": "Cold Wars",
-          "directedBy": "Seith Mann",
-          "writtenBy": "Christopher Zatta, Aron Eli Coleite, Joe Pokaski"
-        },
-        {
-          "episodeOverall": 52,
-          "episode": 18,
-          "title": "Exposed",
-          "directedBy": "Eric Laneuville",
-          "writtenBy": "Adam Armus, Kay Foster"
-        },
-        {
-          "episodeOverall": 53,
-          "episode": 19,
-          "title": "Shades of Gray",
-          "directedBy": "Greg Beeman",
-          "writtenBy": "Oliver Grigsby"
-        },
-        {
-          "episodeOverall": 54,
-          "episode": 20,
-          "title": "Cold Snap",
-          "directedBy": "Greg Yaitanes",
-          "writtenBy": "Bryan Fuller"
-        },
-        {
-          "episodeOverall": 55,
-          "episode": 21,
-          "title": "Into Asylum",
-          "directedBy": "Jim Chory",
-          "writtenBy": "Joe Pokaski"
-        },
-        {
-          "episodeOverall": 56,
-          "episode": 22,
-          "title": "Turn, Face the Strange",
-          "directedBy": "Jeannot Szwarc",
-          "writtenBy": "Rob Fresco, Mark Verheiden"
-        },
-        {
-          "episodeOverall": 57,
-          "episode": 23,
-          "title": "1961",
-          "directedBy": "Adam Kane",
-          "writtenBy": "Aron Eli Coleite"
-        },
-        {
-          "episodeOverall": 58,
-          "episode": 24,
-          "title": "I Am Sylar",
-          "directedBy": "Allan Arkush",
-          "writtenBy": "Adam Armus, Kay Foster"
-        },
-        {
-          "episodeOverall": 59,
-          "episode": 25,
-          "title": "An Invisible Thread",
-          "directedBy": "Greg Beeman",
-          "writtenBy": "Tim Kring"
-        }
-      ],
-      "trailer": "mTzPPIEUFEs"
-    },
-    {
-      "season": 4,
-      "seasonTitle": "Volume Five: Redemption",
-      "episodes": [
-        {
-          "episodeOverall": 60,
-          "episode": 1,
-          "title": "Orientation",
-          "directedBy": "Ed Bianchi, David Straiton",
-          "writtenBy": "Adam Armus, Kay Foster, Tim Kring"
-        },
-        {
-          "episodeOverall": 61,
-          "episode": 2,
-          "title": "Ink",
-          "directedBy": "Roxann Dawson",
-          "writtenBy": "Aron Eli Coleite"
-        },
-        {
-          "episodeOverall": 62,
-          "episode": 3,
-          "title": "Acceptance",
-          "directedBy": "Christopher Misiano",
-          "writtenBy": "Bryan Fuller"
-        },
-        {
-          "episodeOverall": 63,
-          "episode": 4,
-          "title": "Hysterical Blindness",
-          "directedBy": "SJ Clarkson",
-          "writtenBy": "Joe Pokaski"
-        },
-        {
-          "episodeOverall": 64,
-          "episode": 5,
-          "title": "Tabula Rasa",
-          "directedBy": "Jim Chory",
-          "writtenBy": "Rob Fresco"
-        },
-        {
-          "episodeOverall": 65,
-          "episode": 6,
-          "title": "Strange Attractors",
-          "directedBy": "Tucker Gates",
-          "writtenBy": "Juan Carlos Coto"
-        },
-        {
-          "episodeOverall": 66,
-          "episode": 7,
-          "title": "Once Upon a Time in Texas",
-          "directedBy": "Nate Goodman",
-          "writtenBy": "Aron Eli Coleite, Aury Wallington"
-        },
-        {
-          "episodeOverall": 67,
-          "episode": 8,
-          "title": "Shadowboxing",
-          "directedBy": "Jim Chory",
-          "writtenBy": "Misha Green, Joe Pokaski"
-        },
-        {
-          "episodeOverall": 68,
-          "episode": 9,
-          "title": "Brother's Keeper",
-          "directedBy": "Bryan Spicer",
-          "writtenBy": "Rob Fresco, Mark Verheiden"
-        },
-        {
-          "episodeOverall": 69,
-          "episode": 10,
-          "title": "Thanksgiving",
-          "directedBy": "Seith Mann",
-          "writtenBy": "Adam Armus, Kay Foster"
-        },
-        {
-          "episodeOverall": 70,
-          "episode": 11,
-          "title": "The Fifth Stage",
-          "directedBy": "Kevin Dowling",
-          "writtenBy": "Tim Kring"
-        },
-        {
-          "episodeOverall": 71,
-          "episode": 12,
-          "title": "Upon This Rock",
-          "directedBy": "Ron Underwood",
-          "writtenBy": "Juan Carlos Coto"
-        },
-        {
-          "episodeOverall": 72,
-          "episode": 13,
-          "title": "Let It Bleed",
-          "directedBy": "Jeannot Szwarc",
-          "writtenBy": "Jim Martin"
-        },
-        {
-          "episodeOverall": 73,
-          "episode": 14,
-          "title": "Close to You",
-          "directedBy": "Roxann Dawson",
-          "writtenBy": "Rob Fresco"
-        },
-        {
-          "episodeOverall": 74,
-          "episode": 15,
-          "title": "Pass/Fail",
-          "directedBy": "Michael Nankin",
-          "writtenBy": "Oliver Grigsby"
-        },
-        {
-          "episodeOverall": 75,
-          "episode": 16,
-          "title": "The Art of Deception",
-          "directedBy": "SJ Clarkson",
-          "writtenBy": "Mark Verheiden, Misha Green"
-        },
-        {
-          "episodeOverall": 76,
-          "episode": 17,
-          "title": "The Wall",
-          "directedBy": "Allan Arkush",
-          "writtenBy": "Adam Armus, Kay Foster"
-        },
-        {
-          "episodeOverall": 77,
-          "episode": 18,
-          "title": "Brave New World",
-          "directedBy": "Adam Kane",
-          "writtenBy": "Tim Kring"
-        }
-      ],
-      "trailer": "i1VA_aWyrPI"
-    }
-  ],
+  "duration": 3465,
   "cast": [
     {
       "character": {
@@ -740,6 +415,445 @@
       "actorId": "bbf4ef6d-ba48-433e-b60f-a62bf2079bff"
     }
   ],
-  "duration": 3465,
-  "year": 2006
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Emmy",
+      "nominations": [
+        "Outstanding Special Visual Effects for a Series"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best International"
+      ]
+    }
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "trailer": "9AX6aXFdTkc",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "Genesis"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Don't Look Back"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "One Giant Leap"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "Collision"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Hiros"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "Better Halves"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "Nothing to Hide"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "Seven Minutes to Midnight"
+        },
+        {
+          "episodeOverall": 9,
+          "episode": 9,
+          "title": "Homecoming"
+        },
+        {
+          "episodeOverall": 10,
+          "episode": 10,
+          "title": "Six Months Ago"
+        },
+        {
+          "episodeOverall": 11,
+          "episode": 11,
+          "title": "Fallout"
+        },
+        {
+          "episodeOverall": 12,
+          "episode": 12,
+          "title": "Godsend"
+        },
+        {
+          "episodeOverall": 13,
+          "episode": 13,
+          "title": "The Fix"
+        },
+        {
+          "episodeOverall": 14,
+          "episode": 14,
+          "title": "Distractions"
+        },
+        {
+          "episodeOverall": 15,
+          "episode": 15,
+          "title": "Run!"
+        },
+        {
+          "episodeOverall": 16,
+          "episode": 16,
+          "title": "Unexpected"
+        },
+        {
+          "episodeOverall": 17,
+          "episode": 17,
+          "title": "Company Man"
+        },
+        {
+          "episodeOverall": 18,
+          "episode": 18,
+          "title": "Parasite"
+        },
+        {
+          "episodeOverall": 19,
+          "episode": 19,
+          "title": "0.07%"
+        },
+        {
+          "episodeOverall": 20,
+          "episode": 20,
+          "title": "Five Years Gone"
+        },
+        {
+          "episodeOverall": 21,
+          "episode": 21,
+          "title": "The Hard Part"
+        },
+        {
+          "episodeOverall": 22,
+          "episode": 22,
+          "title": "Landslide"
+        },
+        {
+          "episodeOverall": 23,
+          "episode": 23,
+          "title": "How to Stop an Exploding Man"
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "trailer": "9mNGxXpAmHc",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 24,
+          "episode": 1,
+          "title": "Four Months Later..."
+        },
+        {
+          "episodeOverall": 25,
+          "episode": 2,
+          "title": "Lizards"
+        },
+        {
+          "episodeOverall": 26,
+          "episode": 3,
+          "title": "Kindred"
+        },
+        {
+          "episodeOverall": 27,
+          "episode": 4,
+          "title": "The Kindness of Strangers"
+        },
+        {
+          "episodeOverall": 28,
+          "episode": 5,
+          "title": "Fight or Flight"
+        },
+        {
+          "episodeOverall": 29,
+          "episode": 6,
+          "title": "The Line"
+        },
+        {
+          "episodeOverall": 30,
+          "episode": 7,
+          "title": "Out of Time"
+        },
+        {
+          "episodeOverall": 31,
+          "episode": 8,
+          "title": "Four Months Ago..."
+        },
+        {
+          "episodeOverall": 32,
+          "episode": 9,
+          "title": "Cautionary Tales"
+        },
+        {
+          "episodeOverall": 33,
+          "episode": 10,
+          "title": "Truth, Consequences"
+        },
+        {
+          "episodeOverall": 34,
+          "episode": 11,
+          "title": "Powerless"
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "trailer": "i1VA_aWyrPI",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 60,
+          "episode": 1,
+          "title": "Orientation"
+        },
+        {
+          "episodeOverall": 61,
+          "episode": 2,
+          "title": "Ink"
+        },
+        {
+          "episodeOverall": 62,
+          "episode": 3,
+          "title": "Acceptance"
+        },
+        {
+          "episodeOverall": 63,
+          "episode": 4,
+          "title": "Hysterical Blindness"
+        },
+        {
+          "episodeOverall": 64,
+          "episode": 5,
+          "title": "Tabula Rasa"
+        },
+        {
+          "episodeOverall": 65,
+          "episode": 6,
+          "title": "Strange Attractors"
+        },
+        {
+          "episodeOverall": 66,
+          "episode": 7,
+          "title": "Once Upon a Time in Texas"
+        },
+        {
+          "episodeOverall": 67,
+          "episode": 8,
+          "title": "Shadowboxing"
+        },
+        {
+          "episodeOverall": 68,
+          "episode": 9,
+          "title": "Brother's Keeper"
+        },
+        {
+          "episodeOverall": 69,
+          "episode": 10,
+          "title": "Thanksgiving"
+        },
+        {
+          "episodeOverall": 70,
+          "episode": 11,
+          "title": "The Fifth Stage"
+        },
+        {
+          "episodeOverall": 71,
+          "episode": 12,
+          "title": "Upon This Rock"
+        },
+        {
+          "episodeOverall": 72,
+          "episode": 13,
+          "title": "Let It Bleed"
+        },
+        {
+          "episodeOverall": 73,
+          "episode": 14,
+          "title": "Close to You"
+        },
+        {
+          "episodeOverall": 74,
+          "episode": 15,
+          "title": "Pass/Fail"
+        },
+        {
+          "episodeOverall": 75,
+          "episode": 16,
+          "title": "The Art of Deception"
+        },
+        {
+          "episodeOverall": 76,
+          "episode": 17,
+          "title": "The Wall"
+        },
+        {
+          "episodeOverall": 77,
+          "episode": 18,
+          "title": "Brave New World"
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "trailer": "mTzPPIEUFEs",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 35,
+          "episode": 1,
+          "title": "The Second Coming"
+        },
+        {
+          "episodeOverall": 36,
+          "episode": 2,
+          "title": "The Butterfly Effect"
+        },
+        {
+          "episodeOverall": 37,
+          "episode": 3,
+          "title": "One of Us, One of Them"
+        },
+        {
+          "episodeOverall": 38,
+          "episode": 4,
+          "title": "I Am Become Death"
+        },
+        {
+          "episodeOverall": 39,
+          "episode": 5,
+          "title": "Angels, Monsters"
+        },
+        {
+          "episodeOverall": 40,
+          "episode": 6,
+          "title": "Dying of the Light"
+        },
+        {
+          "episodeOverall": 41,
+          "episode": 7,
+          "title": "Eris Quod Sum"
+        },
+        {
+          "episodeOverall": 42,
+          "episode": 8,
+          "title": "Villains"
+        },
+        {
+          "episodeOverall": 43,
+          "episode": 9,
+          "title": "It's Coming"
+        },
+        {
+          "episodeOverall": 44,
+          "episode": 10,
+          "title": "The Eclipse: Part 1"
+        },
+        {
+          "episodeOverall": 45,
+          "episode": 11,
+          "title": "The Eclipse: Part 2"
+        },
+        {
+          "episodeOverall": 46,
+          "episode": 12,
+          "title": "Our Father"
+        },
+        {
+          "episodeOverall": 47,
+          "episode": 13,
+          "title": "Dual"
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "trailer": "mTzPPIEUFEs",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 48,
+          "episode": 14,
+          "title": "A Clear and Present Danger"
+        },
+        {
+          "episodeOverall": 49,
+          "episode": 15,
+          "title": "Trust and Blood"
+        },
+        {
+          "episodeOverall": 50,
+          "episode": 16,
+          "title": "Building 26"
+        },
+        {
+          "episodeOverall": 51,
+          "episode": 17,
+          "title": "Cold Wars"
+        },
+        {
+          "episodeOverall": 52,
+          "episode": 18,
+          "title": "Exposed"
+        },
+        {
+          "episodeOverall": 53,
+          "episode": 19,
+          "title": "Shades of Gray"
+        },
+        {
+          "episodeOverall": 54,
+          "episode": 20,
+          "title": "Cold Snap"
+        },
+        {
+          "episodeOverall": 55,
+          "episode": 21,
+          "title": "Into Asylum"
+        },
+        {
+          "episodeOverall": 56,
+          "episode": 22,
+          "title": "Turn, Face the Strange"
+        },
+        {
+          "episodeOverall": 57,
+          "episode": 23,
+          "title": "1961"
+        },
+        {
+          "episodeOverall": 58,
+          "episode": 24,
+          "title": "I Am Sylar"
+        },
+        {
+          "episodeOverall": 59,
+          "episode": 25,
+          "title": "An Invisible Thread"
+        }
+      ]
+    }
+  ]
 }

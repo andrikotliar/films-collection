@@ -1,46 +1,70 @@
 {
   "id": "cfcd9484-4b9b-40fd-a2f2-0ac1888430ea",
+  "type": [
+    "Film"
+  ],
   "title": "The Lost World: Jurassic Park",
   "poster": "jurassic_park_2",
+  "trailer": "RxrvaneULkE",
   "genres": [
     "Sci-Fi",
     "Adventures"
+  ],
+  "synopsis": "A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Steven Spielberg"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "David Koepp"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Gerald R. Molen"
+        },
+        {
+          "name": "Colin Wilson"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Janusz Kaminski"
+        }
+      ]
+    }
+  ],
+  "year": 1997,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Universal Pictures",
     "Amblin Entertainment"
   ],
-  "directedBy": [
-    "Steven Spielberg"
-  ],
-  "producedBy": "Gerald R. Molen, Colin Wilson",
-  "writtenBy": "David Koepp",
-  "musicBy": "John Williams",
-  "cinematographyBy": "Janusz Kaminski",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 73,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 619,
-    "suffix": "million"
-  },
-  "synopsis": "A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda.",
-  "collections": [
-    {
-      "name": "Monsters"
-    }
-  ],
-  "parts": {
-    "title": "Jurassic Park",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 129,
   "cast": [
     {
       "character": {
@@ -71,7 +95,21 @@
       "actorId": "0b7d6ece-cd3d-45c2-ae05-267b3445eabf"
     }
   ],
-  "duration": 129,
-  "trailer": "RxrvaneULkE",
-  "year": 1997
+  "collections": [
+    {
+      "title": "Monsters"
+    }
+  ],
+  "budget": {
+    "value": 73,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 619,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Jurassic Park",
+    "part": 2
+  }
 }

@@ -1,46 +1,67 @@
 {
   "id": "5e48d2a2-2aa4-411d-aa03-a90a88465ffb",
+  "type": [
+    "Film"
+  ],
   "title": "The Matrix Reloaded",
   "poster": "matrix_2",
+  "trailer": "kYzz0FSgpSU",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "production": [
-    "Warner Bros. Pictures"
+  "synopsis": "Neo and the rebel leaders estimate that they have 72 hours until 250,000 probes discover Zion and destroy it and its inhabitants. During this, Neo must decide how he can save Trinity from a dark fate in his dreams.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "The Wachowski Brothers"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "The Wachowski Brothers"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Joel Silver"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Don Davis"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Bill Pope"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "The Wachowski Brothers"
-  ],
-  "producedBy": "Joel Silver",
-  "writtenBy": "The Wachowski Brothers",
-  "musicBy": "Don Davis",
-  "cinematographyBy": "Bill Pope",
+  "year": 2003,
   "countries": [
     "USA",
     "Australia"
   ],
-  "budget": {
-    "value": 127,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 742,
-    "suffix": "million"
-  },
-  "synopsis": "Neo and the rebel leaders estimate that they have 72 hours until 250,000 probes discover Zion and destroy it and its inhabitants. During this, Neo must decide how he can save Trinity from a dark fate in his dreams.",
-  "collections": [
-    {
-      "name": "Future"
-    }
+  "production": [
+    "Warner Bros. Pictures"
   ],
-  "parts": {
-    "title": "The Matrix",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 138,
   "cast": [
     {
       "character": {
@@ -113,7 +134,21 @@
       "actorId": "abf2d958-a84e-4617-8ea2-9068868b3e81"
     }
   ],
-  "duration": 138,
-  "trailer": "kYzz0FSgpSU",
-  "year": 2003
+  "collections": [
+    {
+      "title": "Future"
+    }
+  ],
+  "budget": {
+    "value": 127,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 742,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "The Matrix",
+    "part": 2
+  }
 }

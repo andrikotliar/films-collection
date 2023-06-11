@@ -1,41 +1,78 @@
 {
   "id": "b4e19508-22f6-4e37-93eb-1ee7ad2b99db",
+  "type": [
+    "Film"
+  ],
   "title": "Oblivion",
   "poster": "oblivion",
+  "trailer": "XmIIgE7eSak",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "production": [
-    "Universal Pictures"
+  "synopsis": "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Joseph Kosinski"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Karl Gajdusek"
+        },
+        {
+          "name": "Michael deBruyn"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Peter Chernin"
+        },
+        {
+          "name": "Dylan Clark"
+        },
+        {
+          "name": "Duncan Henderson"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "M83"
+        },
+        {
+          "name": "Joseph Trapanese"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Claudio Miranda"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Joseph Kosinski"
-  ],
-  "producedBy": "Peter Chernin, Dylan Clark, Duncan Henderson",
-  "writtenBy": "Karl Gajdusek, Michael deBruyn",
-  "musicBy": "M83, Joseph Trapanese",
-  "cinematographyBy": "Claudio Miranda",
+  "year": 2013,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 160,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 286,
-    "suffix": "million"
-  },
-  "synopsis": "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.",
-  "collections": [
-    {
-      "name": "Invasion"
-    }
+  "production": [
+    "Universal Pictures"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 124,
   "cast": [
     {
       "character": {
@@ -87,7 +124,17 @@
       "actorId": "691bac35-07f3-4e53-a923-d852ba53b75a"
     }
   ],
-  "duration": 124,
-  "trailer": "XmIIgE7eSak",
-  "year": 2013
+  "collections": [
+    {
+      "title": "Invasion"
+    }
+  ],
+  "budget": {
+    "value": 160,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 286,
+    "suffix": "million"
+  }
 }

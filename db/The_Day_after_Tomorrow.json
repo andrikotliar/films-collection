@@ -1,60 +1,71 @@
 {
   "id": "0f2e692f-1767-4c8d-adcc-8eda7e73fafb",
+  "type": [
+    "Film"
+  ],
   "title": "The Day after Tomorrow",
   "poster": "day_after_tomorrow",
+  "trailer": "Ku_IseK3xTc",
   "genres": [
     "Sci-Fi"
+  ],
+  "synopsis": "Jack Hall, paleoclimatologist, must make a daring trek from Washington, D.C. to New York City to reach his son, trapped in the cross-hairs of a sudden international storm which plunges the planet into a new Ice Age.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Roland Emmerich"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Roland Emmerich"
+        },
+        {
+          "name": "Jeffrey Nachmanoff"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Roland Emmerich"
+        },
+        {
+          "name": "Mark Gordon"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Harald Kloser"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Ueli Steiger"
+        }
+      ]
+    }
+  ],
+  "year": 2004,
+  "countries": [
+    "USA"
   ],
   "production": [
     "20th Century FOX"
   ],
-  "directedBy": [
-    "Roland Emmerich"
-  ],
-  "producedBy": "Roland Emmerich, Mark Gordon",
-  "writtenBy": "Roland Emmerich, Jeffrey Nachmanoff",
-  "musicBy": "Harald Kloser",
-  "cinematographyBy": "Ueli Steiger",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 125,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 544,
-    "suffix": "million"
-  },
-  "synopsis": "Jack Hall, paleoclimatologist, must make a daring trek from Washington, D.C. to New York City to reach his son, trapped in the cross-hairs of a sudden international storm which plunges the planet into a new Ice Age.",
-  "collections": [
-    {
-      "name": "Disaster"
-    }
-  ],
-  "awards": [
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Achievement in Special Visual Effects"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Action Sequence"
-      ]
-    },
-    {
-      "title": "Jupiter",
-      "nominations": [
-        "Best International Film"
-      ]
-    }
-  ],
-  "type": [
-    "Film"
-  ],
+  "duration": 123,
   "cast": [
     {
       "character": {
@@ -134,7 +145,37 @@
       "actorId": "e9964030-afa3-42d4-ab91-9c1fd7c0f177"
     }
   ],
-  "duration": 123,
-  "trailer": "Ku_IseK3xTc",
-  "year": 2004
+  "collections": [
+    {
+      "title": "Disaster"
+    }
+  ],
+  "budget": {
+    "value": 125,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 544,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Achievement in Special Visual Effects"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Action Sequence"
+      ]
+    },
+    {
+      "title": "Jupiter",
+      "nominations": [
+        "Best International Film"
+      ]
+    }
+  ]
 }

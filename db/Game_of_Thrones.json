@@ -1,595 +1,222 @@
 {
   "id": "a78b5bad-60cf-456c-b1bd-21214153591b",
+  "type": [
+    "Series"
+  ],
   "title": "Game of Thrones",
   "poster": "got",
   "genres": [
     "Adventures",
     "Drama"
   ],
-  "production": [
-    "HBO"
+  "synopsis": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Tim Van Patten",
+          "comment": ""
+        },
+        {
+          "name": "Brian Kirk",
+          "comment": ""
+        },
+        {
+          "name": "Daniel Minahan",
+          "comment": ""
+        },
+        {
+          "name": "Alan Taylor",
+          "comment": ""
+        },
+        {
+          "name": "Alik Sakharov",
+          "comment": ""
+        },
+        {
+          "name": "David Petrarca",
+          "comment": ""
+        },
+        {
+          "name": "David Nutter",
+          "comment": ""
+        },
+        {
+          "name": "Neil Marshall",
+          "comment": ""
+        },
+        {
+          "name": "David Benioff",
+          "comment": ""
+        },
+        {
+          "name": "Alex Graves",
+          "comment": ""
+        },
+        {
+          "name": "Michelle MacLaren",
+          "comment": ""
+        },
+        {
+          "name": "D. B. Weiss",
+          "comment": ""
+        },
+        {
+          "name": "Michael Slovis",
+          "comment": ""
+        },
+        {
+          "name": "Mark Mylod",
+          "comment": ""
+        },
+        {
+          "name": "Jeremy Podeswa",
+          "comment": ""
+        },
+        {
+          "name": "Miguel Sapochnik",
+          "comment": ""
+        },
+        {
+          "name": "Daniel Sackheim",
+          "comment": ""
+        },
+        {
+          "name": "Jack Bender",
+          "comment": ""
+        },
+        {
+          "name": "Matt Shakman",
+          "comment": ""
+        },
+        {
+          "name": "David Benioff",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "David Benioff",
+          "comment": ""
+        },
+        {
+          "name": "D. B. Weiss",
+          "comment": ""
+        },
+        {
+          "name": "Bryan Cogman",
+          "comment": ""
+        },
+        {
+          "name": "Jane Espenson",
+          "comment": ""
+        },
+        {
+          "name": "George R. R. Martin",
+          "comment": ""
+        },
+        {
+          "name": "Vanessa Taylor",
+          "comment": ""
+        },
+        {
+          "name": "Dave Hill",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Christopher Newman"
+        },
+        {
+          "name": "Greg Spence"
+        },
+        {
+          "name": "Lisa McAtackney"
+        },
+        {
+          "name": "Mark Huffam"
+        },
+        {
+          "name": "Jo Burn"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Ramin Djawadi"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Anette Haellmigk"
+        },
+        {
+          "name": "Jonathan Freeman"
+        },
+        {
+          "name": "Robert McLachlan"
+        },
+        {
+          "name": "Fabian Wagner"
+        },
+        {
+          "name": "David Franco"
+        },
+        {
+          "name": "Gregory Middleton"
+        },
+        {
+          "name": "P.J. Dillon"
+        },
+        {
+          "name": "Matthew Jensen"
+        },
+        {
+          "name": "Alik Sakharov"
+        },
+        {
+          "name": "Martin Kenzie"
+        },
+        {
+          "name": "Marco Pontecorvo"
+        },
+        {
+          "name": "Kramer Morgenthau"
+        },
+        {
+          "name": "Chris Seager"
+        },
+        {
+          "name": "Sam McCurdy"
+        },
+        {
+          "name": "David Katznelson"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "David Benioff",
-    "D. B. Weiss"
-  ],
-  "producedBy": "Christopher Newman, Greg Spence, Lisa McAtackney, Mark Huffam, Jo Burn",
-  "musicBy": "Ramin Djawadi",
-  "cinematographyBy": "Anette Haellmigk, Jonathan Freeman, Robert McLachlan, Fabian Wagner, David Franco, Gregory Middleton, P.J. Dillon, Matthew Jensen, Alik Sakharov, Martin Kenzie, Marco Pontecorvo, Kramer Morgenthau, Chris Seager, Sam McCurdy, David Katznelson",
+  "year": 2011,
   "countries": [
     "USA",
     "UK"
   ],
-  "synopsis": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
+  "production": [
+    "HBO"
   ],
-  "type": [
-    "Series"
-  ],
-  "seasons": [
-    {
-      "season": 1,
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "Winter Is Coming",
-          "directedBy": "Tim Van Patten",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "The Kingsroad",
-          "directedBy": "Tim Van Patten",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Lord Snow",
-          "directedBy": "Brian Kirk",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "Cripples, Bastards, and Broken Things",
-          "directedBy": "Brian Kirk",
-          "writtenBy": "Bryan Cogman"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "The Wolf, the Lion",
-          "directedBy": "Brian Kirk",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "A Golden Crown",
-          "directedBy": "Daniel Minahan",
-          "writtenBy": "Jane Espenson, David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "You Win or You Die",
-          "directedBy": "Daniel Minahan",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 8,
-          "title": "The Pointy End",
-          "directedBy": "Daniel Minahan",
-          "writtenBy": "George R. R. Martin"
-        },
-        {
-          "episodeOverall": 9,
-          "episode": 9,
-          "title": "Baelor",
-          "directedBy": "Alan Taylor",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 10,
-          "episode": 10,
-          "title": "Fire, Blood",
-          "directedBy": "Alan Taylor",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        }
-      ],
-      "trailer": "gcTkNV5Vg1E"
-    },
-    {
-      "season": 2,
-      "episodes": [
-        {
-          "episodeOverall": 11,
-          "episode": 1,
-          "title": "The North Remembers",
-          "directedBy": "Alan Taylor",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 12,
-          "episode": 2,
-          "title": "The Night Lands",
-          "directedBy": "Alan Taylor",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 13,
-          "episode": 3,
-          "title": "What Is Dead May Never Die",
-          "directedBy": "Alik Sakharov",
-          "writtenBy": "Bryan Cogman"
-        },
-        {
-          "episodeOverall": 14,
-          "episode": 4,
-          "title": "Garden of Bones",
-          "directedBy": "David Petrarca",
-          "writtenBy": "Vanessa Taylor"
-        },
-        {
-          "episodeOverall": 15,
-          "episode": 5,
-          "title": "The Ghost of Harrenhal",
-          "directedBy": "David Petrarca",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 16,
-          "episode": 6,
-          "title": "The Old Gods and the New",
-          "directedBy": "David Nutter",
-          "writtenBy": "Vanessa Taylor"
-        },
-        {
-          "episodeOverall": 17,
-          "episode": 7,
-          "title": "A Man Without Honor",
-          "directedBy": "David Nutter",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 18,
-          "episode": 8,
-          "title": "The Prince of Winterfell",
-          "directedBy": "Alan Taylor",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 19,
-          "episode": 9,
-          "title": "Blackwater",
-          "directedBy": "Neil Marshall",
-          "writtenBy": "George R. R. Martin"
-        },
-        {
-          "episodeOverall": 20,
-          "episode": 10,
-          "title": "Valar Morghulis",
-          "directedBy": "Alan Taylor",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        }
-      ],
-      "trailer": "AlhHGUfCYw4"
-    },
-    {
-      "season": 3,
-      "episodes": [
-        {
-          "episodeOverall": 21,
-          "episode": 1,
-          "title": "Valar Dohaeris",
-          "directedBy": "Daniel Minahan",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 22,
-          "episode": 2,
-          "title": "Dark Wings and Dark Words",
-          "directedBy": "Daniel Minahan",
-          "writtenBy": "Vanessa Taylor"
-        },
-        {
-          "episodeOverall": 23,
-          "episode": 3,
-          "title": "Walk of Punishment",
-          "directedBy": "David Benioff",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 24,
-          "episode": 4,
-          "title": "And Now His Watch Is Ended",
-          "directedBy": "Alex Graves",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 25,
-          "episode": 5,
-          "title": "Kissed by Fire",
-          "directedBy": "Alex Graves",
-          "writtenBy": "Bryan Cogman"
-        },
-        {
-          "episodeOverall": 26,
-          "episode": 6,
-          "title": "The Climb",
-          "directedBy": "Alik Sakharov",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 27,
-          "episode": 7,
-          "title": "The Bear, the Maiden Fair",
-          "directedBy": "Michelle MacLaren",
-          "writtenBy": "George R. R. Martin"
-        },
-        {
-          "episodeOverall": 28,
-          "episode": 8,
-          "title": "Second Sons",
-          "directedBy": "Michelle MacLaren",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 29,
-          "episode": 9,
-          "title": "The Rains of Castamere",
-          "directedBy": "David Nutter",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 30,
-          "episode": 10,
-          "title": "Mhysa",
-          "directedBy": "David Nutter",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        }
-      ],
-      "trailer": "nblUgAMoOvU"
-    },
-    {
-      "season": 4,
-      "episodes": [
-        {
-          "episodeOverall": 31,
-          "episode": 1,
-          "title": "Two Swords",
-          "directedBy": "D. B. Weiss",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 32,
-          "episode": 2,
-          "title": "The Lion and the Rose",
-          "directedBy": "Alex Graves",
-          "writtenBy": "George R. R. Martin"
-        },
-        {
-          "episodeOverall": 33,
-          "episode": 3,
-          "title": "Breaker of Chains",
-          "directedBy": "Alex Graves",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 34,
-          "episode": 4,
-          "title": "Oathkeeper",
-          "directedBy": "Michelle MacLaren",
-          "writtenBy": "Bryan Cogman"
-        },
-        {
-          "episodeOverall": 35,
-          "episode": 5,
-          "title": "First of His Name",
-          "directedBy": "Michelle MacLaren",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 36,
-          "episode": 6,
-          "title": "The Laws of Gods and Men",
-          "directedBy": "Alik Sakharov",
-          "writtenBy": "Bryan Cogman"
-        },
-        {
-          "episodeOverall": 37,
-          "episode": 7,
-          "title": "Mockingbird",
-          "directedBy": "Alik Sakharov",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 38,
-          "episode": 8,
-          "title": "The Mountain and the Viper",
-          "directedBy": "Alex Graves",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 39,
-          "episode": 9,
-          "title": "The Watchers on the Wall",
-          "directedBy": "Neil Marshall",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 40,
-          "episode": 10,
-          "title": "The Children",
-          "directedBy": "Alex Graves",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        }
-      ],
-      "trailer": "aj9x_Xea6cg"
-    },
-    {
-      "season": 5,
-      "episodes": [
-        {
-          "episodeOverall": 41,
-          "episode": 1,
-          "title": "The Wars to Come",
-          "directedBy": "Michael Slovis",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 42,
-          "episode": 2,
-          "title": "The House of Black, White",
-          "directedBy": "Michael Slovis",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 43,
-          "episode": 3,
-          "title": "High Sparrow",
-          "directedBy": "Mark Mylod",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 44,
-          "episode": 4,
-          "title": "Sons of the Harpy",
-          "directedBy": "Mark Mylod",
-          "writtenBy": "Dave Hill"
-        },
-        {
-          "episodeOverall": 45,
-          "episode": 5,
-          "title": "Kill the Boy",
-          "directedBy": "Jeremy Podeswa",
-          "writtenBy": "Bryan Cogman"
-        },
-        {
-          "episodeOverall": 46,
-          "episode": 6,
-          "title": "Unbowed, Unbent, Unbroken",
-          "directedBy": "Jeremy Podeswa",
-          "writtenBy": "Bryan Cogman"
-        },
-        {
-          "episodeOverall": 47,
-          "episode": 7,
-          "title": "The Gift",
-          "directedBy": "Miguel Sapochnik",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 48,
-          "episode": 8,
-          "title": "Hardhome",
-          "directedBy": "Miguel Sapochnik",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 49,
-          "episode": 9,
-          "title": "The Dance of Dragons",
-          "directedBy": "David Nutter",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 50,
-          "episode": 10,
-          "title": "Mother's Mercy",
-          "directedBy": "David Nutter",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        }
-      ],
-      "trailer": "F9Bo89m2f6g"
-    },
-    {
-      "season": 6,
-      "episodes": [
-        {
-          "episodeOverall": 51,
-          "episode": 1,
-          "title": "The Red Woman",
-          "directedBy": "Jeremy Podeswa",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 52,
-          "episode": 2,
-          "title": "Home",
-          "directedBy": "Jeremy Podeswa",
-          "writtenBy": "Dave Hill"
-        },
-        {
-          "episodeOverall": 53,
-          "episode": 3,
-          "title": "Oathbreaker",
-          "directedBy": "Daniel Sackheim",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 54,
-          "episode": 4,
-          "title": "Book of the Stranger",
-          "directedBy": "Daniel Sackheim",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 55,
-          "episode": 5,
-          "title": "The Door",
-          "directedBy": "Jack Bender",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 56,
-          "episode": 6,
-          "title": "Blood of My Blood",
-          "directedBy": "Jack Bender",
-          "writtenBy": "Bryan Cogman"
-        },
-        {
-          "episodeOverall": 57,
-          "episode": 7,
-          "title": "The Broken Man",
-          "directedBy": "Mark Mylod",
-          "writtenBy": "Bryan Cogman"
-        },
-        {
-          "episodeOverall": 58,
-          "episode": 8,
-          "title": "No One",
-          "directedBy": "Mark Mylod",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 59,
-          "episode": 9,
-          "title": "Battle of the Bastards",
-          "directedBy": "Miguel Sapochnik",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 60,
-          "episode": 10,
-          "title": "The Winds of Winter",
-          "directedBy": "Miguel Sapochnik",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        }
-      ],
-      "trailer": "yu8eRaq1FUM"
-    },
-    {
-      "season": 7,
-      "episodes": [
-        {
-          "episodeOverall": 61,
-          "episode": 1,
-          "title": "Dragonstone",
-          "directedBy": "Jeremy Podeswa",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 62,
-          "episode": 2,
-          "title": "Stormborn",
-          "directedBy": "Mark Mylod",
-          "writtenBy": "Bryan Cogman"
-        },
-        {
-          "episodeOverall": 63,
-          "episode": 3,
-          "title": "The Queen's Justice",
-          "directedBy": "Mark Mylod",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 64,
-          "episode": 4,
-          "title": "The Spoils of War",
-          "directedBy": "Matt Shakman",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 65,
-          "episode": 5,
-          "title": "Eastwatch",
-          "directedBy": "Matt Shakman",
-          "writtenBy": "Dave Hill"
-        },
-        {
-          "episodeOverall": 66,
-          "episode": 6,
-          "title": "Beyond the Wall",
-          "directedBy": "Alan Taylor",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 67,
-          "episode": 7,
-          "title": "The Dragon, the Wolf",
-          "directedBy": "Jeremy Podeswa",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        }
-      ],
-      "trailer": "giYeaKsXnsI"
-    },
-    {
-      "season": 8,
-      "episodes": [
-        {
-          "episodeOverall": 68,
-          "episode": 1,
-          "title": "Winterfell",
-          "directedBy": "David Nutter",
-          "writtenBy": "Dave Hill"
-        },
-        {
-          "episodeOverall": 69,
-          "episode": 2,
-          "title": "A Knight of the Seven Kingdoms",
-          "directedBy": "David Nutter",
-          "writtenBy": "Bryan Cogman"
-        },
-        {
-          "episodeOverall": 70,
-          "episode": 3,
-          "title": "The Long Night",
-          "directedBy": "Miguel Sapochnik",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 71,
-          "episode": 4,
-          "title": "The Last of the Starks",
-          "directedBy": "David Nutter",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 72,
-          "episode": 5,
-          "title": "The Bells",
-          "directedBy": "Miguel Sapochnik",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        },
-        {
-          "episodeOverall": 73,
-          "episode": 6,
-          "title": "The Iron Throne",
-          "directedBy": "David Benioff, D. B. Weiss",
-          "writtenBy": "David Benioff, D. B. Weiss"
-        }
-      ],
-      "trailer": "rlR4PJn8b8I"
-    }
-  ],
+  "duration": 4161,
   "cast": [
     {
       "character": {
@@ -872,6 +499,432 @@
       "actorId": "a1dc9344-0c17-4f6a-a1ec-5b4483a59d83"
     }
   ],
-  "duration": 4161,
-  "year": 2011
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "trailer": "gcTkNV5Vg1E",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "Winter Is Coming"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "The Kingsroad"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Lord Snow"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "Cripples, Bastards, and Broken Things"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "The Wolf, the Lion"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "A Golden Crown"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "You Win or You Die"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "The Pointy End"
+        },
+        {
+          "episodeOverall": 9,
+          "episode": 9,
+          "title": "Baelor"
+        },
+        {
+          "episodeOverall": 10,
+          "episode": 10,
+          "title": "Fire, Blood"
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "trailer": "AlhHGUfCYw4",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 11,
+          "episode": 1,
+          "title": "The North Remembers"
+        },
+        {
+          "episodeOverall": 12,
+          "episode": 2,
+          "title": "The Night Lands"
+        },
+        {
+          "episodeOverall": 13,
+          "episode": 3,
+          "title": "What Is Dead May Never Die"
+        },
+        {
+          "episodeOverall": 14,
+          "episode": 4,
+          "title": "Garden of Bones"
+        },
+        {
+          "episodeOverall": 15,
+          "episode": 5,
+          "title": "The Ghost of Harrenhal"
+        },
+        {
+          "episodeOverall": 16,
+          "episode": 6,
+          "title": "The Old Gods and the New"
+        },
+        {
+          "episodeOverall": 17,
+          "episode": 7,
+          "title": "A Man Without Honor"
+        },
+        {
+          "episodeOverall": 18,
+          "episode": 8,
+          "title": "The Prince of Winterfell"
+        },
+        {
+          "episodeOverall": 19,
+          "episode": 9,
+          "title": "Blackwater"
+        },
+        {
+          "episodeOverall": 20,
+          "episode": 10,
+          "title": "Valar Morghulis"
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "trailer": "nblUgAMoOvU",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 21,
+          "episode": 1,
+          "title": "Valar Dohaeris"
+        },
+        {
+          "episodeOverall": 22,
+          "episode": 2,
+          "title": "Dark Wings and Dark Words"
+        },
+        {
+          "episodeOverall": 23,
+          "episode": 3,
+          "title": "Walk of Punishment"
+        },
+        {
+          "episodeOverall": 24,
+          "episode": 4,
+          "title": "And Now His Watch Is Ended"
+        },
+        {
+          "episodeOverall": 25,
+          "episode": 5,
+          "title": "Kissed by Fire"
+        },
+        {
+          "episodeOverall": 26,
+          "episode": 6,
+          "title": "The Climb"
+        },
+        {
+          "episodeOverall": 27,
+          "episode": 7,
+          "title": "The Bear, the Maiden Fair"
+        },
+        {
+          "episodeOverall": 28,
+          "episode": 8,
+          "title": "Second Sons"
+        },
+        {
+          "episodeOverall": 29,
+          "episode": 9,
+          "title": "The Rains of Castamere"
+        },
+        {
+          "episodeOverall": 30,
+          "episode": 10,
+          "title": "Mhysa"
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "trailer": "aj9x_Xea6cg",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 31,
+          "episode": 1,
+          "title": "Two Swords"
+        },
+        {
+          "episodeOverall": 32,
+          "episode": 2,
+          "title": "The Lion and the Rose"
+        },
+        {
+          "episodeOverall": 33,
+          "episode": 3,
+          "title": "Breaker of Chains"
+        },
+        {
+          "episodeOverall": 34,
+          "episode": 4,
+          "title": "Oathkeeper"
+        },
+        {
+          "episodeOverall": 35,
+          "episode": 5,
+          "title": "First of His Name"
+        },
+        {
+          "episodeOverall": 36,
+          "episode": 6,
+          "title": "The Laws of Gods and Men"
+        },
+        {
+          "episodeOverall": 37,
+          "episode": 7,
+          "title": "Mockingbird"
+        },
+        {
+          "episodeOverall": 38,
+          "episode": 8,
+          "title": "The Mountain and the Viper"
+        },
+        {
+          "episodeOverall": 39,
+          "episode": 9,
+          "title": "The Watchers on the Wall"
+        },
+        {
+          "episodeOverall": 40,
+          "episode": 10,
+          "title": "The Children"
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "trailer": "F9Bo89m2f6g",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 41,
+          "episode": 1,
+          "title": "The Wars to Come"
+        },
+        {
+          "episodeOverall": 42,
+          "episode": 2,
+          "title": "The House of Black, White"
+        },
+        {
+          "episodeOverall": 43,
+          "episode": 3,
+          "title": "High Sparrow"
+        },
+        {
+          "episodeOverall": 44,
+          "episode": 4,
+          "title": "Sons of the Harpy"
+        },
+        {
+          "episodeOverall": 45,
+          "episode": 5,
+          "title": "Kill the Boy"
+        },
+        {
+          "episodeOverall": 46,
+          "episode": 6,
+          "title": "Unbowed, Unbent, Unbroken"
+        },
+        {
+          "episodeOverall": 47,
+          "episode": 7,
+          "title": "The Gift"
+        },
+        {
+          "episodeOverall": 48,
+          "episode": 8,
+          "title": "Hardhome"
+        },
+        {
+          "episodeOverall": 49,
+          "episode": 9,
+          "title": "The Dance of Dragons"
+        },
+        {
+          "episodeOverall": 50,
+          "episode": 10,
+          "title": "Mother's Mercy"
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "trailer": "yu8eRaq1FUM",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 51,
+          "episode": 1,
+          "title": "The Red Woman"
+        },
+        {
+          "episodeOverall": 52,
+          "episode": 2,
+          "title": "Home"
+        },
+        {
+          "episodeOverall": 53,
+          "episode": 3,
+          "title": "Oathbreaker"
+        },
+        {
+          "episodeOverall": 54,
+          "episode": 4,
+          "title": "Book of the Stranger"
+        },
+        {
+          "episodeOverall": 55,
+          "episode": 5,
+          "title": "The Door"
+        },
+        {
+          "episodeOverall": 56,
+          "episode": 6,
+          "title": "Blood of My Blood"
+        },
+        {
+          "episodeOverall": 57,
+          "episode": 7,
+          "title": "The Broken Man"
+        },
+        {
+          "episodeOverall": 58,
+          "episode": 8,
+          "title": "No One"
+        },
+        {
+          "episodeOverall": 59,
+          "episode": 9,
+          "title": "Battle of the Bastards"
+        },
+        {
+          "episodeOverall": 60,
+          "episode": 10,
+          "title": "The Winds of Winter"
+        }
+      ]
+    },
+    {
+      "season": 7,
+      "trailer": "giYeaKsXnsI",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 61,
+          "episode": 1,
+          "title": "Dragonstone"
+        },
+        {
+          "episodeOverall": 62,
+          "episode": 2,
+          "title": "Stormborn"
+        },
+        {
+          "episodeOverall": 63,
+          "episode": 3,
+          "title": "The Queen's Justice"
+        },
+        {
+          "episodeOverall": 64,
+          "episode": 4,
+          "title": "The Spoils of War"
+        },
+        {
+          "episodeOverall": 65,
+          "episode": 5,
+          "title": "Eastwatch"
+        },
+        {
+          "episodeOverall": 66,
+          "episode": 6,
+          "title": "Beyond the Wall"
+        },
+        {
+          "episodeOverall": 67,
+          "episode": 7,
+          "title": "The Dragon, the Wolf"
+        }
+      ]
+    },
+    {
+      "season": 8,
+      "trailer": "rlR4PJn8b8I",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 68,
+          "episode": 1,
+          "title": "Winterfell"
+        },
+        {
+          "episodeOverall": 69,
+          "episode": 2,
+          "title": "A Knight of the Seven Kingdoms"
+        },
+        {
+          "episodeOverall": 70,
+          "episode": 3,
+          "title": "The Long Night"
+        },
+        {
+          "episodeOverall": 71,
+          "episode": 4,
+          "title": "The Last of the Starks"
+        },
+        {
+          "episodeOverall": 72,
+          "episode": 5,
+          "title": "The Bells"
+        },
+        {
+          "episodeOverall": 73,
+          "episode": 6,
+          "title": "The Iron Throne"
+        }
+      ]
+    }
+  ]
 }

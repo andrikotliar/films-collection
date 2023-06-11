@@ -1,67 +1,71 @@
 {
   "id": "9d1958d5-a3b2-4bbf-9ea9-8d580fa73db5",
+  "type": [
+    "Film"
+  ],
   "title": "Indiana Jones and the Last Crusade",
   "poster": "indiana_jones_3",
+  "trailer": "sagmdpkWUqc",
   "genres": [
     "Adventures",
     "Fantasy",
     "Action"
   ],
+  "synopsis": "In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Professor Henry \"Indiana\" Jones, Jr. finds himself up against Adolf Hitler's Nazis again to stop them from obtaining its powers.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Steven Spielberg"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Jeffrey Boam"
+        },
+        {
+          "name": "George Lucas (story)"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Robert Watts"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Douglas Slocombe"
+        }
+      ]
+    }
+  ],
+  "year": 1989,
+  "countries": [
+    "USA"
+  ],
   "production": [
     "Paramount Pictures",
     "Lucasfilm"
   ],
-  "directedBy": [
-    "Steven Spielberg"
-  ],
-  "producedBy": "Robert Watts",
-  "writtenBy": "Jeffrey Boam, George Lucas (story)",
-  "musicBy": "John Williams",
-  "cinematographyBy": "Douglas Slocombe",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 48,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 474,
-    "suffix": "million"
-  },
-  "synopsis": "In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Professor Henry \"Indiana\" Jones, Jr. finds himself up against Adolf Hitler's Nazis again to stop them from obtaining its powers.",
-  "collections": [
-    {
-      "name": "Mysteries of the Past"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Sound Effects Editing"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best DVD Collection"
-      ]
-    },
-    {
-      "title": "Jupiter",
-      "nominations": [
-        "Best International Actor"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Indiana Jones",
-    "part": 3
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 127,
   "cast": [
     {
       "character": {
@@ -106,7 +110,41 @@
       "actorId": "0828ff45-acce-400e-8415-85a1ecc0302b"
     }
   ],
-  "duration": 127,
-  "trailer": "sagmdpkWUqc",
-  "year": 1989
+  "collections": [
+    {
+      "title": "Mysteries of the Past"
+    }
+  ],
+  "budget": {
+    "value": 48,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 474,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Sound Effects Editing"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best DVD Collection"
+      ]
+    },
+    {
+      "title": "Jupiter",
+      "nominations": [
+        "Best International Actor"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Indiana Jones",
+    "part": 3
+  }
 }

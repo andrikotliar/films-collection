@@ -1,73 +1,76 @@
 {
   "id": "bfc78062-1111-4eed-8c0f-17adc2e60557",
+  "type": [
+    "Film"
+  ],
   "title": "Interstellar",
   "poster": "interstellar",
+  "trailer": "zSWdZVtXT7E",
   "genres": [
     "Sci-Fi",
     "Drama"
+  ],
+  "synopsis": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Cristopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Jonathan Nolan"
+        },
+        {
+          "name": "Cristopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Cristopher Nolan"
+        },
+        {
+          "name": "Lynda Obst"
+        },
+        {
+          "name": "Emma Thomas"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Hoyte Van Hoytema"
+        }
+      ]
+    }
+  ],
+  "year": 2014,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Paramount Pictures",
     "Warner Bros. Pictures"
   ],
-  "directedBy": [
-    "Cristopher Nolan"
-  ],
-  "producedBy": "Cristopher Nolan, Lynda Obst, Emma Thomas",
-  "writtenBy": "Jonathan Nolan, Cristopher Nolan",
-  "musicBy": "Hans Zimmer",
-  "cinematographyBy": "Hoyte Van Hoytema",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 165,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 677,
-    "suffix": "million"
-  },
-  "synopsis": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
-  "collections": [
-    {
-      "name": "Space"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Achievement in Visual Effects"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Special Visual Effects"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Science Fiction Film",
-        "Best Production Design",
-        "Best Special Effects",
-        "Best Performance by a Younger Actor",
-        "Best Writing",
-        "Best Music"
-      ]
-    },
-    {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Sci-Fi/Horror Movie"
-      ]
-    }
-  ],
-  "type": [
-    "Film"
-  ],
+  "duration": 169,
   "cast": [
     {
       "character": {
@@ -112,7 +115,48 @@
       "actorId": "95da34ce-8572-4b69-a7e5-c10d81af5504"
     }
   ],
-  "duration": 169,
-  "trailer": "zSWdZVtXT7E",
-  "year": 2014
+  "collections": [
+    {
+      "title": "Space"
+    }
+  ],
+  "budget": {
+    "value": 165,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 677,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Achievement in Visual Effects"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Special Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Production Design",
+        "Best Special Effects",
+        "Best Performance by a Younger Actor",
+        "Best Writing",
+        "Best Music"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Sci-Fi/Horror Movie"
+      ]
+    }
+  ]
 }

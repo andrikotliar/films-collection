@@ -1,41 +1,72 @@
 {
   "id": "e73f1133-843f-41ea-b02c-396bbedf0287",
+  "type": [
+    "Film"
+  ],
   "title": "Alita: Battle Angel",
   "poster": "alita",
+  "trailer": "w7pYhpJaJW8",
   "genres": [
     "Cyberpunk",
     "Action"
   ],
-  "production": [
-    "20th Century FOX"
+  "synopsis": "A deactivated female cyborg is revived, but cannot remember anything of her past life and goes on a quest to find out who she is.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Robert Rodriguez"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "James Cameron"
+        },
+        {
+          "name": "Laeta Kalogridis"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "James Cameron"
+        },
+        {
+          "name": "Jon Landau"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Tom Holkenborg"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Bill Pope"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Robert Rodriguez"
-  ],
-  "producedBy": "James Cameron, Jon Landau",
-  "writtenBy": "James Cameron, Laeta Kalogridis",
-  "musicBy": "Tom Holkenborg",
-  "cinematographyBy": "Bill Pope",
+  "year": 2019,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 170,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 400,
-    "suffix": "million"
-  },
-  "synopsis": "A deactivated female cyborg is revived, but cannot remember anything of her past life and goes on a quest to find out who she is.",
-  "collections": [
-    {
-      "name": "Robots"
-    }
+  "production": [
+    "20th Century FOX"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 122,
   "cast": [
     {
       "character": {
@@ -87,7 +118,17 @@
       "actorId": "463da174-5a39-4d4d-bfb4-2562faf587a6"
     }
   ],
-  "duration": 122,
-  "trailer": "w7pYhpJaJW8",
-  "year": 2019
+  "collections": [
+    {
+      "title": "Robots"
+    }
+  ],
+  "budget": {
+    "value": 170,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 400,
+    "suffix": "million"
+  }
 }

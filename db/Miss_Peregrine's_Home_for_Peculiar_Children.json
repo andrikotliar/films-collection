@@ -1,42 +1,73 @@
 {
   "id": "e5e2f8bc-623f-4f84-9474-cbbfd13ce938",
+  "type": [
+    "Film"
+  ],
   "title": "Miss Peregrine's Home for Peculiar Children",
   "poster": "miss_peregrin",
+  "trailer": "tV_IhWE4LP0",
   "genres": [
     "Fantasy",
     "Adventures",
     "Drama"
   ],
-  "production": [
-    "20th Century FOX"
+  "synopsis": "When Jacob discovers clues to a mystery that stretches across time, he finds Miss Peregrine's Home for Peculiar Children. But the danger deepens after he gets to know the residents and learns about their special powers.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Tim Burton"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Jane Goldman"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Peter Chernin"
+        },
+        {
+          "name": "Jenno Topping"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Mike Higham"
+        },
+        {
+          "name": "Matthew Margeson"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Bruno Delbonnel"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Tim Burton"
-  ],
-  "producedBy": "Peter Chernin, Jenno Topping",
-  "writtenBy": "Jane Goldman",
-  "musicBy": "Mike Higham, Matthew Margeson",
-  "cinematographyBy": "Bruno Delbonnel",
+  "year": 2016,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 110,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 296,
-    "suffix": "million"
-  },
-  "synopsis": "When Jacob discovers clues to a mystery that stretches across time, he finds Miss Peregrine's Home for Peculiar Children. But the danger deepens after he gets to know the residents and learns about their special powers.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
+  "production": [
+    "20th Century FOX"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 127,
   "cast": [
     {
       "character": {
@@ -109,7 +140,17 @@
       "actorId": "69bab80f-be19-4905-8197-7f99adfe8cff"
     }
   ],
-  "duration": 127,
-  "trailer": "tV_IhWE4LP0",
-  "year": 2016
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 110,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 296,
+    "suffix": "million"
+  }
 }

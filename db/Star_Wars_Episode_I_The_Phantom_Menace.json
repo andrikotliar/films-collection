@@ -1,61 +1,67 @@
 {
   "id": "c2112f0c-27d0-4c88-9561-804c80fefcd2",
+  "type": [
+    "Film"
+  ],
   "title": "Star Wars Episode I: The Phantom Menace",
   "poster": "star_wars_episode_I",
+  "trailer": "bD7bpG-zDJQ",
   "genres": [
     "SpaceOpera",
     "Adventures"
+  ],
+  "synopsis": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their old glory.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "George Lucas"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "George Lucas"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Rick McCallum"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "David Tattersall"
+        }
+      ]
+    }
+  ],
+  "year": 1999,
+  "countries": [
+    "USA"
   ],
   "production": [
     "20th Century FOX",
     "Lucasfilm"
   ],
-  "directedBy": [
-    "George Lucas"
-  ],
-  "producedBy": "Rick McCallum",
-  "writtenBy": "George Lucas",
-  "musicBy": "John Williams",
-  "cinematographyBy": "David Tattersall",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 115,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.02,
-    "suffix": "billion"
-  },
-  "synopsis": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their old glory.",
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Costumes",
-        "Best Special Effects"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Action Sequence"
-      ]
-    }
-  ],
-  "collections": [
-    {
-      "name": "Star Wars Universe"
-    }
-  ],
-  "parts": {
-    "title": "Star Wars Universe",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 136,
   "cast": [
     {
       "character": {
@@ -135,7 +141,36 @@
       "actorId": "fad61f43-784f-43bc-a5df-193d70fdee1a"
     }
   ],
-  "duration": 136,
-  "trailer": "bD7bpG-zDJQ",
-  "year": 1999
+  "collections": [
+    {
+      "title": "Star Wars Universe"
+    }
+  ],
+  "budget": {
+    "value": 115,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.02,
+    "suffix": "billion"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Costumes",
+        "Best Special Effects"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Action Sequence"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Star Wars Universe",
+    "part": 1
+  }
 }

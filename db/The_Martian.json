@@ -1,57 +1,79 @@
 {
   "id": "64fa25b4-9c1d-43da-acea-b611bac37302",
+  "type": [
+    "Film"
+  ],
   "title": "The Martian",
   "poster": "martian",
+  "trailer": "ej3ioOneTy8",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "production": [
-    "20th Century FOX"
+  "synopsis": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Ridley Scott"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Drew Goddard"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Simon Kinberg"
+        },
+        {
+          "name": "Ridley Scott"
+        },
+        {
+          "name": "Michael Schaefer"
+        },
+        {
+          "name": "Aditya Sood"
+        },
+        {
+          "name": "Mark Huffam"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Harry Gregson-Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Danusz Wolski"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Ridley Scott"
-  ],
-  "producedBy": "Simon Kinberg, Ridley Scott, Michael Schaefer, Aditya Sood, Mark Huffam",
-  "writtenBy": "Drew Goddard",
-  "musicBy": "Harry Gregson-Williams",
-  "cinematographyBy": "Danusz Wolski",
+  "year": 2015,
   "countries": [
     "USA",
     "UK"
   ],
-  "budget": {
-    "value": 108,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 630,
-    "suffix": "million"
-  },
-  "synopsis": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.",
-  "collections": [
-    {
-      "name": "Space"
-    }
+  "production": [
+    "20th Century FOX"
   ],
-  "awards": [
-    {
-      "title": "Golden Globes",
-      "nominations": [
-        "Best Motion Picture - Comedy or Musical",
-        "Best Performance by an Actor in a Motion Picture - Comedy or Musical"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Director"
-      ]
-    }
-  ],
-  "type": [
-    "Film"
-  ],
+  "duration": 142,
   "cast": [
     {
       "character": {
@@ -145,7 +167,32 @@
       "actorId": "92196f4f-16de-4bed-a866-1c871f78fafa"
     }
   ],
-  "duration": 142,
-  "trailer": "ej3ioOneTy8",
-  "year": 2015
+  "collections": [
+    {
+      "title": "Space"
+    }
+  ],
+  "budget": {
+    "value": 108,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 630,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Golden Globes",
+      "nominations": [
+        "Best Motion Picture - Comedy or Musical",
+        "Best Performance by an Actor in a Motion Picture - Comedy or Musical"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Director"
+      ]
+    }
+  ]
 }

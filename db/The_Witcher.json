@@ -1,160 +1,141 @@
 {
   "id": "638609e6-a38a-4925-8b43-9b28c50c4461",
+  "type": [
+    "Series"
+  ],
   "title": "The Witcher",
   "poster": "witcher",
   "genres": [
     "Adventures",
     "Fantasy"
   ],
-  "production": [
-    "Netflix"
+  "synopsis": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Alik Sakharov",
+          "comment": ""
+        },
+        {
+          "name": "Alex Garcia Lopez",
+          "comment": ""
+        },
+        {
+          "name": "Charlotte Brändström",
+          "comment": ""
+        },
+        {
+          "name": "Marc Jobst",
+          "comment": ""
+        },
+        {
+          "name": "Stephen Surjik",
+          "comment": ""
+        },
+        {
+          "name": "Sarah O'Gorman",
+          "comment": ""
+        },
+        {
+          "name": "Ed Bazalgette",
+          "comment": ""
+        },
+        {
+          "name": "Louise Hooper",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Lauren Schmidt Hissrich",
+          "comment": ""
+        },
+        {
+          "name": "Jenny Klein",
+          "comment": ""
+        },
+        {
+          "name": "Beau DeMayo",
+          "comment": ""
+        },
+        {
+          "name": "Declan de Barra",
+          "comment": ""
+        },
+        {
+          "name": "Sneha Koorse",
+          "comment": ""
+        },
+        {
+          "name": "Haily Hall",
+          "comment": ""
+        },
+        {
+          "name": "Mike Ostrowski",
+          "comment": ""
+        },
+        {
+          "name": "Clare Higgins",
+          "comment": ""
+        },
+        {
+          "name": "Matthew D'Ambrosio",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Mike Ostrowski"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Sonya Belousova"
+        },
+        {
+          "name": "Giona Ostinelli"
+        },
+        {
+          "name": "Joseph Trapanese"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Jean-Philippe Gossart"
+        },
+        {
+          "name": "Gavin Struthers"
+        },
+        {
+          "name": "Romain Lacourbas"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Lauren Schmidt"
-  ],
-  "producedBy": "Mike Ostrowski",
-  "musicBy": "Sonya Belousova, Giona Ostinelli, Joseph Trapanese",
-  "cinematographyBy": "Jean-Philippe Gossart, Gavin Struthers, Romain Lacourbas",
+  "year": 2019,
   "countries": [
     "USA",
     "Poland",
     "Hungary"
   ],
-  "synopsis": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
+  "production": [
+    "Netflix"
   ],
-  "type": [
-    "Series"
-  ],
-  "seasons": [
-    {
-      "season": 1,
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "The End's Beginning",
-          "directedBy": "Alik Sakharov",
-          "writtenBy": "Lauren Schmidt Hissrich"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Four Marks",
-          "directedBy": "Alik Sakharov",
-          "writtenBy": "Jenny Klein"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Betrayer Moon",
-          "directedBy": "Alex Garcia Lopez",
-          "writtenBy": "Beau DeMayo"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "Of Banquets, Bastards, Burials",
-          "directedBy": "Alex Garcia Lopez",
-          "writtenBy": "Declan de Barra"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Bottled Appetites",
-          "directedBy": "Charlotte Brändström",
-          "writtenBy": "Sneha Koorse"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "Rare Species",
-          "directedBy": "Charlotte Brändström",
-          "writtenBy": "Haily Hall"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "Before a Fall",
-          "directedBy": "Alik Sakharov, Marc Jobst",
-          "writtenBy": "Mike Ostrowski"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 8,
-          "title": "Much More",
-          "directedBy": "Marc Jobst",
-          "writtenBy": "Lauren Schmidt Hissrich"
-        }
-      ],
-      "trailer": "ndl1W4ltcmg"
-    },
-    {
-      "season": 2,
-      "episodes": [
-        {
-          "episodeOverall": 9,
-          "episode": 1,
-          "title": "A Grain of Truth",
-          "directedBy": "Stephen Surjik",
-          "writtenBy": "Declan de Barra"
-        },
-        {
-          "episodeOverall": 10,
-          "episode": 2,
-          "title": "Kaer Morhen",
-          "directedBy": "Stephen Surjik",
-          "writtenBy": "Beau DeMayo"
-        },
-        {
-          "episodeOverall": 11,
-          "episode": 3,
-          "title": "What Is Lost",
-          "directedBy": "Sarah O'Gorman",
-          "writtenBy": "Lauren Schmidt Hissrich, Clare Higgins"
-        },
-        {
-          "episodeOverall": 12,
-          "episode": 4,
-          "title": "Redanian Intelligence",
-          "directedBy": "Sarah O'Gorman",
-          "writtenBy": "Sneha Koorse"
-        },
-        {
-          "episodeOverall": 13,
-          "episode": 5,
-          "title": "Turn Your Back",
-          "directedBy": "Ed Bazalgette",
-          "writtenBy": "Haily Hall"
-        },
-        {
-          "episodeOverall": 14,
-          "episode": 6,
-          "title": "Dear Friend",
-          "directedBy": "Louise Hooper",
-          "writtenBy": "Matthew D'Ambrosio"
-        },
-        {
-          "episodeOverall": 15,
-          "episode": 7,
-          "title": "Voleth Meir",
-          "directedBy": "Louise Hooper",
-          "writtenBy": "Mike Ostrowski"
-        },
-        {
-          "episodeOverall": 16,
-          "episode": 8,
-          "title": "Family",
-          "directedBy": "Ed Bazalgette",
-          "writtenBy": "Lauren Schmidt Hissrich"
-        }
-      ],
-      "trailer": "2aMVzFlApa0"
-    }
-  ],
+  "duration": 480,
   "cast": [
     {
       "character": {
@@ -220,6 +201,105 @@
       "actorId": "0b2e1797-7378-4e20-9828-a27a1e44603a"
     }
   ],
-  "duration": 480,
-  "year": 2019
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "trailer": "ndl1W4ltcmg",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "The End's Beginning"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Four Marks"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Betrayer Moon"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "Of Banquets, Bastards, Burials"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Bottled Appetites"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "Rare Species"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "Before a Fall"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "Much More"
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "trailer": "2aMVzFlApa0",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 9,
+          "episode": 1,
+          "title": "A Grain of Truth"
+        },
+        {
+          "episodeOverall": 10,
+          "episode": 2,
+          "title": "Kaer Morhen"
+        },
+        {
+          "episodeOverall": 11,
+          "episode": 3,
+          "title": "What Is Lost"
+        },
+        {
+          "episodeOverall": 12,
+          "episode": 4,
+          "title": "Redanian Intelligence"
+        },
+        {
+          "episodeOverall": 13,
+          "episode": 5,
+          "title": "Turn Your Back"
+        },
+        {
+          "episodeOverall": 14,
+          "episode": 6,
+          "title": "Dear Friend"
+        },
+        {
+          "episodeOverall": 15,
+          "episode": 7,
+          "title": "Voleth Meir"
+        },
+        {
+          "episodeOverall": 16,
+          "episode": 8,
+          "title": "Family"
+        }
+      ]
+    }
+  ]
 }

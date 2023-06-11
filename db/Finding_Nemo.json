@@ -1,62 +1,75 @@
 {
   "id": "b27542bf-b891-46b4-b273-33d21c23871a",
+  "type": [
+    "Animation"
+  ],
   "title": "Finding Nemo",
   "poster": "finding_nemo",
+  "trailer": "wZdpNglLbt8",
   "genres": [
     "Adventures"
+  ],
+  "synopsis": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Andrew Stanton"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Andrew Stanton"
+        },
+        {
+          "name": "Bob Peterson"
+        },
+        {
+          "name": "David Reynolds"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Graham Walters"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Thomas Newman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Sharon Calahan"
+        },
+        {
+          "name": "Jeremy Lasky"
+        }
+      ]
+    }
+  ],
+  "year": 2003,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Pixar Animation"
   ],
-  "directedBy": [
-    "Andrew Stanton"
-  ],
-  "producedBy": "Graham Walters",
-  "writtenBy": "Andrew Stanton, Bob Peterson, David Reynolds",
-  "musicBy": "Thomas Newman",
-  "cinematographyBy": "Sharon Calahan, Jeremy Lasky",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 94,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 940,
-    "suffix": "million"
-  },
-  "synopsis": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Animated Feature"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Animated Film",
-        "Best Supporting Actress"
-      ]
-    },
-    {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Animated Feature"
-      ]
-    }
-  ],
-  "type": [
-    "Animation"
-  ],
+  "duration": 100,
   "cast": [
     {
       "character": {
@@ -115,7 +128,38 @@
       "actorId": "77591066-37d5-4536-8802-62abee9bb555"
     }
   ],
-  "duration": 100,
-  "trailer": "wZdpNglLbt8",
-  "year": 2003
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 94,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 940,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Animated Feature"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Animated Film",
+        "Best Supporting Actress"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Animated Feature"
+      ]
+    }
+  ]
 }

@@ -1,45 +1,69 @@
 {
   "id": "a688f4fe-3a27-4887-95a8-a2d9785ddb7c",
+  "type": [
+    "Film"
+  ],
   "title": "The Mummy Returns",
   "poster": "mummy_2",
+  "trailer": "3yXjs7BUKYc",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "Universal Pictures"
+  "synopsis": "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Stephen Sommers"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Stephen Sommers"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "James Jacks"
+        },
+        {
+          "name": "Sean Daniel"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Alan Silvestri"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Adrian Biddle"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Stephen Sommers"
-  ],
-  "producedBy": "James Jacks, Sean Daniel",
-  "writtenBy": "Stephen Sommers",
-  "musicBy": "Alan Silvestri",
-  "cinematographyBy": "Adrian Biddle",
+  "year": 2001,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 98,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 433,
-    "suffix": "million"
-  },
-  "synopsis": "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror.",
-  "collections": [
-    {
-      "name": "Mysteries of the Past"
-    }
+  "production": [
+    "Universal Pictures"
   ],
-  "parts": {
-    "title": "The Mummy",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 130,
   "cast": [
     {
       "character": {
@@ -119,7 +143,21 @@
       "actorId": "ca2f6623-3043-479b-ad84-f54498420d2e"
     }
   ],
-  "duration": 130,
-  "trailer": "3yXjs7BUKYc",
-  "year": 2001
+  "collections": [
+    {
+      "title": "Mysteries of the Past"
+    }
+  ],
+  "budget": {
+    "value": 98,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 433,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "The Mummy",
+    "part": 2
+  }
 }

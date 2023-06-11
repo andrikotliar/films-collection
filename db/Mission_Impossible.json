@@ -1,45 +1,72 @@
 {
   "id": "29047af8-965b-450d-9782-951f92e89ae6",
+  "type": [
+    "Film"
+  ],
   "title": "Mission: Impossible",
   "poster": "mi_1",
+  "trailer": "Ohws8y572KE",
   "genres": [
     "Action",
     "Adventures"
   ],
-  "production": [
-    "Paramount Pictures"
+  "synopsis": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Brian De Palma"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "David Koepp"
+        },
+        {
+          "name": "Robert Towne"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Tom Cruise"
+        },
+        {
+          "name": "Paula Wagner"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Danny Elfman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Stephen H. Burum"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Brian De Palma"
-  ],
-  "producedBy": "Tom Cruise, Paula Wagner",
-  "writtenBy": "David Koepp, Robert Towne",
-  "musicBy": "Danny Elfman",
-  "cinematographyBy": "Stephen H. Burum",
+  "year": 1996,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 80,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 458,
-    "suffix": "million"
-  },
-  "synopsis": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization.",
-  "collections": [
-    {
-      "name": "Agents and Detectives"
-    }
+  "production": [
+    "Paramount Pictures"
   ],
-  "parts": {
-    "title": "Mission: Impossible",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 110,
   "cast": [
     {
       "character": {
@@ -105,7 +132,21 @@
       "actorId": "d72941b6-6e74-4b4b-aea7-849cc2e1c7d4"
     }
   ],
-  "duration": 110,
-  "trailer": "Ohws8y572KE",
-  "year": 1996
+  "collections": [
+    {
+      "title": "Agents and Detectives"
+    }
+  ],
+  "budget": {
+    "value": 80,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 458,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Mission: Impossible",
+    "part": 1
+  }
 }

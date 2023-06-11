@@ -1,54 +1,76 @@
 {
   "id": "2a3d097e-a777-4158-9187-539b7fcf2a63",
+  "type": [
+    "Film"
+  ],
   "title": "Ant-Man",
   "poster": "ant_man_1",
+  "trailer": "pWdKf3MneyI",
   "genres": [
     "Sci-Fi",
     "Comedy"
+  ],
+  "synopsis": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Peyton Reed"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Edgar Wright"
+        },
+        {
+          "name": "Joe Cornish"
+        },
+        {
+          "name": "Adam McKay"
+        },
+        {
+          "name": "Paul Rudd"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Christophe Beck"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Russell Carpenter"
+        }
+      ]
+    }
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "directedBy": [
-    "Peyton Reed"
-  ],
-  "producedBy": "Kevin Feige",
-  "writtenBy": "Edgar Wright, Joe Cornish, Adam McKay, Paul Rudd",
-  "musicBy": "Christophe Beck",
-  "cinematographyBy": "Russell Carpenter",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 130,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 519,
-    "suffix": "million"
-  },
-  "synopsis": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world.",
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Comic-to-Film Motion Picture"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 12
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 117,
   "cast": [
     {
       "character": {
@@ -121,7 +143,29 @@
       "actorId": "80863320-fecd-40ed-843c-d83ea21fb63b"
     }
   ],
-  "duration": 117,
-  "trailer": "pWdKf3MneyI",
-  "year": 2015
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 130,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 519,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Comic-to-Film Motion Picture"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 12
+  }
 }

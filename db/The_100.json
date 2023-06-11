@@ -1,787 +1,415 @@
 {
   "id": "a5800bb1-748f-4886-8c78-49c6b0850117",
+  "type": [
+    "Series"
+  ],
   "title": "The 100",
   "poster": "hundred",
   "genres": [
     "Sci-Fi",
     "Drama"
   ],
+  "synopsis": "Set ninety-seven years after a nuclear war has destroyed civilization, when a spaceship housing humanity's lone survivors sends one hundred juvenile delinquents back to Earth, in hopes of possibly re-populating the planet.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Bharat Nalluri",
+          "comment": ""
+        },
+        {
+          "name": "Dean White",
+          "comment": ""
+        },
+        {
+          "name": "P. J. Pesce",
+          "comment": ""
+        },
+        {
+          "name": "Milan Cheylov",
+          "comment": ""
+        },
+        {
+          "name": "Wayne Rose",
+          "comment": ""
+        },
+        {
+          "name": "John Showalter",
+          "comment": ""
+        },
+        {
+          "name": "Matt Barber",
+          "comment": ""
+        },
+        {
+          "name": "John Behring",
+          "comment": ""
+        },
+        {
+          "name": "Omar Madha",
+          "comment": ""
+        },
+        {
+          "name": "Mairzee Almas",
+          "comment": ""
+        },
+        {
+          "name": "John F. Showalter",
+          "comment": ""
+        },
+        {
+          "name": "Ed Fraiman",
+          "comment": ""
+        },
+        {
+          "name": "Steven DePaul",
+          "comment": ""
+        },
+        {
+          "name": "Antonio Negret",
+          "comment": ""
+        },
+        {
+          "name": "Uta Briesewitz",
+          "comment": ""
+        },
+        {
+          "name": "Tim Scanlan",
+          "comment": ""
+        },
+        {
+          "name": "Ian Samoil",
+          "comment": ""
+        },
+        {
+          "name": "Henry Ian Cusick",
+          "comment": ""
+        },
+        {
+          "name": "Alex Kalymnios",
+          "comment": ""
+        },
+        {
+          "name": "Michael Blundell",
+          "comment": ""
+        },
+        {
+          "name": "P.J. Pesce",
+          "comment": ""
+        },
+        {
+          "name": "April Mullen",
+          "comment": ""
+        },
+        {
+          "name": "Marshall Virtue",
+          "comment": ""
+        },
+        {
+          "name": "Amanda Tapping",
+          "comment": ""
+        },
+        {
+          "name": "Bob Morley",
+          "comment": ""
+        },
+        {
+          "name": "Diana Valentine",
+          "comment": ""
+        },
+        {
+          "name": "PJ Pesce",
+          "comment": ""
+        },
+        {
+          "name": "Lindsey Morgan",
+          "comment": ""
+        },
+        {
+          "name": "Amyn Kaderali",
+          "comment": ""
+        },
+        {
+          "name": "Sherwin Shilati",
+          "comment": ""
+        },
+        {
+          "name": "Aprill Winney",
+          "comment": ""
+        },
+        {
+          "name": "Amanda Row",
+          "comment": ""
+        },
+        {
+          "name": "Michael Cliett",
+          "comment": ""
+        },
+        {
+          "name": "Jessica Harmon",
+          "comment": ""
+        },
+        {
+          "name": "Jason Rothenberg",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Jason Rothenberg",
+          "comment": ""
+        },
+        {
+          "name": "Elizabeth Craft",
+          "comment": ""
+        },
+        {
+          "name": "Sarah Fain",
+          "comment": ""
+        },
+        {
+          "name": "T. J. Brady",
+          "comment": ""
+        },
+        {
+          "name": "Rasheed Newson",
+          "comment": ""
+        },
+        {
+          "name": "Bruce Miller",
+          "comment": ""
+        },
+        {
+          "name": "Tracy Bellomo",
+          "comment": ""
+        },
+        {
+          "name": "Akela Cooper",
+          "comment": ""
+        },
+        {
+          "name": "Kim Shumway",
+          "comment": ""
+        },
+        {
+          "name": "Tracy Bellmo",
+          "comment": ""
+        },
+        {
+          "name": "Michael Angeli",
+          "comment": ""
+        },
+        {
+          "name": "Aaron Ginsburg",
+          "comment": ""
+        },
+        {
+          "name": "Wade McIntyre",
+          "comment": ""
+        },
+        {
+          "name": "Charlie Craig",
+          "comment": ""
+        },
+        {
+          "name": "Kira Snyder",
+          "comment": ""
+        },
+        {
+          "name": "James Thorpe",
+          "comment": ""
+        },
+        {
+          "name": "Dorothy Fortenberry",
+          "comment": ""
+        },
+        {
+          "name": "Javier Grillo-Marxuach",
+          "comment": ""
+        },
+        {
+          "name": "Heidi Cole McAdams",
+          "comment": ""
+        },
+        {
+          "name": "Charmaine DeGrate",
+          "comment": ""
+        },
+        {
+          "name": "Justine Juel Gillmer",
+          "comment": ""
+        },
+        {
+          "name": "Julie Benson",
+          "comment": ""
+        },
+        {
+          "name": "Shawna Benson",
+          "comment": ""
+        },
+        {
+          "name": "Morgan Gendel",
+          "comment": ""
+        },
+        {
+          "name": "Ron Milbauer",
+          "comment": ""
+        },
+        {
+          "name": "Lauren Muir",
+          "comment": ""
+        },
+        {
+          "name": "Miranda Kwok",
+          "comment": ""
+        },
+        {
+          "name": "Terri Hughes Burton",
+          "comment": ""
+        },
+        {
+          "name": "Nick Bragg",
+          "comment": ""
+        },
+        {
+          "name": "Drew Lindo",
+          "comment": ""
+        },
+        {
+          "name": "Jeff Vlaming",
+          "comment": ""
+        },
+        {
+          "name": "Charmaine DeGraté",
+          "comment": ""
+        },
+        {
+          "name": "Georgia Lee",
+          "comment": ""
+        },
+        {
+          "name": "Alyssa Clark",
+          "comment": ""
+        },
+        {
+          "name": "Nikki Goldwaser",
+          "comment": ""
+        },
+        {
+          "name": "Sean Crouch",
+          "comment": ""
+        },
+        {
+          "name": "Erica Meredith",
+          "comment": ""
+        },
+        {
+          "name": "Blythe Ann Johnson",
+          "comment": ""
+        },
+        {
+          "name": "Ross Knight",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Jae Marchant"
+        },
+        {
+          "name": "Tim Scanlan"
+        },
+        {
+          "name": "Aaron Ginsburg"
+        },
+        {
+          "name": "Wade McIntyre"
+        },
+        {
+          "name": "T.J. Brady"
+        },
+        {
+          "name": "Rasheed Newson"
+        },
+        {
+          "name": "Kira Snyder"
+        },
+        {
+          "name": "Kim Shumway"
+        },
+        {
+          "name": "Heidi Cole McAdams"
+        },
+        {
+          "name": "Miranda Kwok"
+        },
+        {
+          "name": "Alyssa Clark"
+        },
+        {
+          "name": "Georgia Lee"
+        },
+        {
+          "name": "Charles Lyle"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Tree Adams"
+        },
+        {
+          "name": "Marc Dauer"
+        },
+        {
+          "name": "Evan Frankfort"
+        },
+        {
+          "name": "Liz Phair"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Michael C. Blundell"
+        },
+        {
+          "name": "Gerald Packer"
+        },
+        {
+          "name": "Philip Linzey"
+        },
+        {
+          "name": "Jim Stacey"
+        },
+        {
+          "name": "Nathaniel Goodman"
+        }
+      ]
+    }
+  ],
+  "year": 2014,
+  "countries": [
+    "USA",
+    "Canada"
+  ],
   "production": [
     "The CW",
     "Warner Bros. Television",
     "CBS Television Studios"
   ],
-  "directedBy": [
-    "Jason Rothenberg"
-  ],
-  "producedBy": "Jae Marchant, Tim Scanlan, Aaron Ginsburg, Wade McIntyre, T.J. Brady, Rasheed Newson, Kira Snyder, Kim Shumway, Heidi Cole McAdams, Miranda Kwok, Alyssa Clark, Georgia Lee, Charles Lyle",
-  "musicBy": "Tree Adams, Marc Dauer, Evan Frankfort, Liz Phair",
-  "cinematographyBy": "Michael C. Blundell, Gerald Packer, Philip Linzey, Jim Stacey, Nathaniel Goodman",
-  "countries": [
-    "USA",
-    "Canada"
-  ],
-  "synopsis": "Set ninety-seven years after a nuclear war has destroyed civilization, when a spaceship housing humanity's lone survivors sends one hundred juvenile delinquents back to Earth, in hopes of possibly re-populating the planet.",
-  "collections": [
-    {
-      "name": "Future"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Youth-Oriented Series on Television"
-      ]
-    }
-  ],
-  "type": [
-    "Series"
-  ],
-  "seasons": [
-    {
-      "season": 1,
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "Pilot",
-          "directedBy": "Bharat Nalluri",
-          "writtenBy": "Jason Rothenberg"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Earth Skills",
-          "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Earth Kills",
-          "directedBy": "Dean White",
-          "writtenBy": "Elizabeth Craft, Sarah Fain"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "Murphy's Law",
-          "directedBy": "P. J. Pesce",
-          "writtenBy": "T. J. Brady, Rasheed Newson"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Twilight's Last Gleaming",
-          "directedBy": "Milan Cheylov",
-          "writtenBy": "Bruce Miller"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "His Sister's Keeper",
-          "directedBy": "Wayne Rose",
-          "writtenBy": "Tracy Bellomo, Dorothy Fortenberry"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "Contents Under Pressure",
-          "directedBy": "John Showalter",
-          "writtenBy": "Akela Cooper, Kira Snyder"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 8,
-          "title": "Day Trip",
-          "directedBy": "Matt Barber",
-          "writtenBy": "Elizabeth Craft, Sarah Fain"
-        },
-        {
-          "episodeOverall": 9,
-          "episode": 9,
-          "title": "Unity Day",
-          "directedBy": "John Behring",
-          "writtenBy": "Kim Shumway, Kira Snyder"
-        },
-        {
-          "episodeOverall": 10,
-          "episode": 10,
-          "title": "I Am Become Death",
-          "directedBy": "Omar Madha",
-          "writtenBy": "T. J. Brady, Rasheed Newson"
-        },
-        {
-          "episodeOverall": 11,
-          "episode": 11,
-          "title": "The Calm",
-          "directedBy": "Mairzee Almas",
-          "writtenBy": "Bruce Miller"
-        },
-        {
-          "episodeOverall": 12,
-          "episode": 12,
-          "title": "We Are Grounders – Part I",
-          "directedBy": "Dean White",
-          "writtenBy": "Tracy Bellmo, Akela Cooper"
-        },
-        {
-          "episodeOverall": 13,
-          "episode": 13,
-          "title": "We Are Grounders – Part II",
-          "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg"
-        }
-      ],
-      "trailer": "ia1Fbg96vL0"
-    },
-    {
-      "season": 2,
-      "episodes": [
-        {
-          "episodeOverall": 14,
-          "episode": 1,
-          "title": "The 48",
-          "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg"
-        },
-        {
-          "episodeOverall": 15,
-          "episode": 2,
-          "title": "Inclement Weather",
-          "directedBy": "John F. Showalter",
-          "writtenBy": "Michael Angeli"
-        },
-        {
-          "episodeOverall": 16,
-          "episode": 3,
-          "title": "Reapercussions",
-          "directedBy": "Dean White",
-          "writtenBy": "Aaron Ginsburg, Wade McIntyre"
-        },
-        {
-          "episodeOverall": 17,
-          "episode": 4,
-          "title": "Many Happy Returns",
-          "directedBy": "P. J. Pesce",
-          "writtenBy": "Kim Shumway"
-        },
-        {
-          "episodeOverall": 18,
-          "episode": 5,
-          "title": "Human Trials",
-          "directedBy": "Ed Fraiman",
-          "writtenBy": "Charlie Craig"
-        },
-        {
-          "episodeOverall": 19,
-          "episode": 6,
-          "title": "Fog of War",
-          "directedBy": "Steven DePaul",
-          "writtenBy": "Kira Snyder"
-        },
-        {
-          "episodeOverall": 20,
-          "episode": 7,
-          "title": "Long Into an Abyss",
-          "directedBy": "Antonio Negret",
-          "writtenBy": "James Thorpe"
-        },
-        {
-          "episodeOverall": 21,
-          "episode": 8,
-          "title": "Spacewalker",
-          "directedBy": "John F. Showalter",
-          "writtenBy": "Bruce Miller"
-        },
-        {
-          "episodeOverall": 22,
-          "episode": 9,
-          "title": "Remember Me",
-          "directedBy": "Omar Madha",
-          "writtenBy": "Dorothy Fortenberry"
-        },
-        {
-          "episodeOverall": 23,
-          "episode": 10,
-          "title": "Survival of the Fittest",
-          "directedBy": "Dean White",
-          "writtenBy": "Akela Cooper"
-        },
-        {
-          "episodeOverall": 24,
-          "episode": 11,
-          "title": "Coup de Grace",
-          "directedBy": "P. J. Pesce",
-          "writtenBy": "Charlie Craig"
-        },
-        {
-          "episodeOverall": 25,
-          "episode": 12,
-          "title": "Rubicon",
-          "directedBy": "Mairzee Almas",
-          "writtenBy": "Aaron Ginsburg, Wade McIntyre"
-        },
-        {
-          "episodeOverall": 26,
-          "episode": 13,
-          "title": "Resurrection",
-          "directedBy": "Dean White",
-          "writtenBy": "Bruce Miller"
-        },
-        {
-          "episodeOverall": 27,
-          "episode": 14,
-          "title": "Bodyguard of Lies",
-          "directedBy": "Uta Briesewitz",
-          "writtenBy": "Kim Shumway"
-        },
-        {
-          "episodeOverall": 28,
-          "episode": 15,
-          "title": "Blood Must Have Blood: Part One",
-          "directedBy": "Omar Madha",
-          "writtenBy": "Aaron Ginsburg, Wade McIntyre"
-        },
-        {
-          "episodeOverall": 29,
-          "episode": 16,
-          "title": "Blood Must Have Blood: Part Two",
-          "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg"
-        }
-      ],
-      "trailer": "IW7_ZzFZF-o"
-    },
-    {
-      "season": 3,
-      "episodes": [
-        {
-          "episodeOverall": 30,
-          "episode": 1,
-          "title": "Wanheda: Part One",
-          "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg"
-        },
-        {
-          "episodeOverall": 31,
-          "episode": 2,
-          "title": "Wanheda: Part Two",
-          "directedBy": "Mairzee Almas",
-          "writtenBy": "Aaron Ginsburg, Wade McIntyre"
-        },
-        {
-          "episodeOverall": 32,
-          "episode": 3,
-          "title": "Ye Who Enter Here",
-          "directedBy": "Antonio Negret",
-          "writtenBy": "Kim Shumway"
-        },
-        {
-          "episodeOverall": 33,
-          "episode": 4,
-          "title": "Watch the Thrones",
-          "directedBy": "Ed Fraiman",
-          "writtenBy": "Dorothy Fortenberry"
-        },
-        {
-          "episodeOverall": 34,
-          "episode": 5,
-          "title": "Hakeldama",
-          "directedBy": "Tim Scanlan",
-          "writtenBy": "Charlie Craig"
-        },
-        {
-          "episodeOverall": 35,
-          "episode": 6,
-          "title": "Bitter Harvest",
-          "directedBy": "Dean White",
-          "writtenBy": "Kira Snyder"
-        },
-        {
-          "episodeOverall": 36,
-          "episode": 7,
-          "title": "Thirteen",
-          "directedBy": "Dean White",
-          "writtenBy": "Javier Grillo-Marxuach"
-        },
-        {
-          "episodeOverall": 37,
-          "episode": 8,
-          "title": "Terms, Conditions",
-          "directedBy": "John Showalter",
-          "writtenBy": "Charlie Craig"
-        },
-        {
-          "episodeOverall": 38,
-          "episode": 9,
-          "title": "Stealing Fire",
-          "directedBy": "Uta Briesewitz",
-          "writtenBy": "Heidi Cole McAdams"
-        },
-        {
-          "episodeOverall": 39,
-          "episode": 10,
-          "title": "Fallen",
-          "directedBy": "Matt Barber",
-          "writtenBy": "Charmaine DeGrate, Javier Grillo-Marxuach"
-        },
-        {
-          "episodeOverall": 40,
-          "episode": 11,
-          "title": "Nevermore",
-          "directedBy": "Ed Fraiman",
-          "writtenBy": "Kim Shumway"
-        },
-        {
-          "episodeOverall": 41,
-          "episode": 12,
-          "title": "Demons",
-          "directedBy": "P. J. Pesce",
-          "writtenBy": "Justine Juel Gillmer"
-        },
-        {
-          "episodeOverall": 42,
-          "episode": 13,
-          "title": "Join or Die",
-          "directedBy": "Dean White",
-          "writtenBy": "Julie Benson, Shawna Benson"
-        },
-        {
-          "episodeOverall": 43,
-          "episode": 14,
-          "title": "Red Sky at Morning",
-          "directedBy": "P. J. Pesce",
-          "writtenBy": "Lauren Muir, Kira Snyder"
-        },
-        {
-          "episodeOverall": 44,
-          "episode": 15,
-          "title": "Perverse Instantiation – Part One",
-          "directedBy": "Ed Fraiman",
-          "writtenBy": "Aaron Ginsburg, Wade McIntyre"
-        },
-        {
-          "episodeOverall": 45,
-          "episode": 16,
-          "title": "Perverse Instantiation – Part Two",
-          "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg"
-        }
-      ],
-      "trailer": "uwxwHTu802M"
-    },
-    {
-      "season": 4,
-      "episodes": [
-        {
-          "episodeOverall": 46,
-          "episode": 1,
-          "title": "Echoes",
-          "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg"
-        },
-        {
-          "episodeOverall": 47,
-          "episode": 2,
-          "title": "Heavy Lies the Crown",
-          "directedBy": "Ed Fraiman",
-          "writtenBy": "Justine Juel Gillmer"
-        },
-        {
-          "episodeOverall": 48,
-          "episode": 3,
-          "title": "The Four Horsemen",
-          "directedBy": "P. J. Pesce",
-          "writtenBy": "Heidi Cole McAdams"
-        },
-        {
-          "episodeOverall": 49,
-          "episode": 4,
-          "title": "A Lie Guarded",
-          "directedBy": "Ian Samoil",
-          "writtenBy": "Kim Shumway"
-        },
-        {
-          "episodeOverall": 50,
-          "episode": 5,
-          "title": "The Tinder Box",
-          "directedBy": "John F. Showalter",
-          "writtenBy": "Morgan Gendel"
-        },
-        {
-          "episodeOverall": 51,
-          "episode": 6,
-          "title": "We Will Rise",
-          "directedBy": "Dean White",
-          "writtenBy": "Charmaine DeGrate"
-        },
-        {
-          "episodeOverall": 52,
-          "episode": 7,
-          "title": "Gimme Shelter",
-          "directedBy": "Tim Scanlan",
-          "writtenBy": "Terri Hughes Burton, Ron Milbauer"
-        },
-        {
-          "episodeOverall": 53,
-          "episode": 8,
-          "title": "God Complex",
-          "directedBy": "Omar Madha",
-          "writtenBy": "Lauren Muir"
-        },
-        {
-          "episodeOverall": 54,
-          "episode": 9,
-          "title": "DNR",
-          "directedBy": "Mairzee Almas",
-          "writtenBy": "Miranda Kwok"
-        },
-        {
-          "episodeOverall": 55,
-          "episode": 10,
-          "title": "Die All, Die Merrily",
-          "directedBy": "Dean White",
-          "writtenBy": "Aaron Ginsburg, Wade McIntyre"
-        },
-        {
-          "episodeOverall": 56,
-          "episode": 11,
-          "title": "The Other Side",
-          "directedBy": "Henry Ian Cusick",
-          "writtenBy": "Julie Benson, Shawna Benson"
-        },
-        {
-          "episodeOverall": 57,
-          "episode": 12,
-          "title": "The Chosen",
-          "directedBy": "Alex Kalymnios",
-          "writtenBy": "Aaron Ginsburg, Wade McIntyre"
-        },
-        {
-          "episodeOverall": 58,
-          "episode": 13,
-          "title": "Praimfaya",
-          "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg"
-        }
-      ],
-      "trailer": "JQi2MAfpACI"
-    },
-    {
-      "season": 5,
-      "episodes": [
-        {
-          "episodeOverall": 59,
-          "episode": 1,
-          "title": "Eden",
-          "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg"
-        },
-        {
-          "episodeOverall": 60,
-          "episode": 2,
-          "title": "Red Queen",
-          "directedBy": "P. J. Pesce",
-          "writtenBy": "Terri Hughes Burton"
-        },
-        {
-          "episodeOverall": 61,
-          "episode": 3,
-          "title": "Sleeping Giants",
-          "directedBy": "Tim Scanlan",
-          "writtenBy": "Aaron Ginsburg, Wade McIntyre"
-        },
-        {
-          "episodeOverall": 62,
-          "episode": 4,
-          "title": "Pandora's Box",
-          "directedBy": "Dean White",
-          "writtenBy": "Charmaine DeGrate"
-        },
-        {
-          "episodeOverall": 63,
-          "episode": 5,
-          "title": "Shifting Sands",
-          "directedBy": "Omar Madha",
-          "writtenBy": "Nick Bragg"
-        },
-        {
-          "episodeOverall": 64,
-          "episode": 6,
-          "title": "Exit Wounds",
-          "directedBy": "Michael Blundell",
-          "writtenBy": "Drew Lindo"
-        },
-        {
-          "episodeOverall": 65,
-          "episode": 7,
-          "title": "Acceptable Losses",
-          "directedBy": "Mairzee Almas",
-          "writtenBy": "Jeff Vlaming"
-        },
-        {
-          "episodeOverall": 66,
-          "episode": 8,
-          "title": "How We Get to Peace",
-          "directedBy": "Antonio Negret",
-          "writtenBy": "Lauren Muir"
-        },
-        {
-          "episodeOverall": 67,
-          "episode": 9,
-          "title": "Sic Semper Tyrannis",
-          "directedBy": "Ian Samoil",
-          "writtenBy": "Miranda Kwok"
-        },
-        {
-          "episodeOverall": 68,
-          "episode": 10,
-          "title": "The Warriors Will",
-          "directedBy": "Henry Ian Cusick",
-          "writtenBy": "Julie Benson, Shawna Benson"
-        },
-        {
-          "episodeOverall": 69,
-          "episode": 11,
-          "title": "The Dark Year",
-          "directedBy": "Alex Kalymnios",
-          "writtenBy": "Heidi Cole McAdams"
-        },
-        {
-          "episodeOverall": 70,
-          "episode": 12,
-          "title": "Damocles – Part One",
-          "directedBy": "Dean White",
-          "writtenBy": "Justine Juel Gillmer"
-        },
-        {
-          "episodeOverall": 71,
-          "episode": 13,
-          "title": "Damocles – Part Two",
-          "directedBy": "Dean White",
-          "writtenBy": "Jason Rothenberg"
-        }
-      ],
-      "trailer": "AGSfZ4xt4UY"
-    },
-    {
-      "season": 6,
-      "episodes": [
-        {
-          "episodeOverall": 72,
-          "episode": 1,
-          "title": "Sanctum",
-          "directedBy": "Ed Fraiman",
-          "writtenBy": "Jason Rothenberg"
-        },
-        {
-          "episodeOverall": 73,
-          "episode": 2,
-          "title": "Red Sun Rising",
-          "directedBy": "Alex Kalymnios",
-          "writtenBy": "Jeff Vlaming"
-        },
-        {
-          "episodeOverall": 74,
-          "episode": 3,
-          "title": "The Children of Gabriel",
-          "directedBy": "Dean White",
-          "writtenBy": "Drew Lindo"
-        },
-        {
-          "episodeOverall": 75,
-          "episode": 4,
-          "title": "The Face Behind the Glass",
-          "directedBy": "Tim Scanlan",
-          "writtenBy": "Charmaine DeGraté"
-        },
-        {
-          "episodeOverall": 76,
-          "episode": 5,
-          "title": "The Gospel of Josephine",
-          "directedBy": "Ian Samoil",
-          "writtenBy": "Georgia Lee"
-        },
-        {
-          "episodeOverall": 77,
-          "episode": 6,
-          "title": "Memento Mori",
-          "directedBy": "P.J. Pesce",
-          "writtenBy": "Alyssa Clark"
-        },
-        {
-          "episodeOverall": 78,
-          "episode": 7,
-          "title": "Nevermind",
-          "directedBy": "Michael Blundell",
-          "writtenBy": "Kim Shumway"
-        },
-        {
-          "episodeOverall": 79,
-          "episode": 8,
-          "title": "The Old Man, the Anomaly",
-          "directedBy": "April Mullen",
-          "writtenBy": "Miranda Kwok"
-        },
-        {
-          "episodeOverall": 80,
-          "episode": 9,
-          "title": "What You Take With You",
-          "directedBy": "Marshall Virtue",
-          "writtenBy": "Nikki Goldwaser"
-        },
-        {
-          "episodeOverall": 81,
-          "episode": 10,
-          "title": "Matryoshka",
-          "directedBy": "Amanda Tapping",
-          "writtenBy": "Drew Lindo"
-        },
-        {
-          "episodeOverall": 82,
-          "episode": 11,
-          "title": "Ashes to Ashes",
-          "directedBy": "Bob Morley",
-          "writtenBy": "Charmaine DeGraté"
-        },
-        {
-          "episodeOverall": 83,
-          "episode": 12,
-          "title": "Adjustment Protocol",
-          "directedBy": "Antonio Negret",
-          "writtenBy": "Kim Shumway"
-        },
-        {
-          "episodeOverall": 84,
-          "episode": 13,
-          "title": "The Blood of Sanctum",
-          "directedBy": "Ed Fraiman",
-          "writtenBy": "Jason Rothenberg"
-        }
-      ],
-      "trailer": "AVDyeT-GsX4"
-    },
-    {
-      "season": 7,
-      "episodes": [
-        {
-          "episodeOverall": 85,
-          "episode": 1,
-          "title": "From the Ashes",
-          "directedBy": "Ed Fraiman",
-          "writtenBy": "Jason Rothenberg"
-        },
-        {
-          "episodeOverall": 86,
-          "episode": 2,
-          "title": "The Garden",
-          "directedBy": "Dean White",
-          "writtenBy": "Jeff Vlaming"
-        },
-        {
-          "episodeOverall": 87,
-          "episode": 3,
-          "title": "False Gods",
-          "directedBy": "Tim Scanlan",
-          "writtenBy": "Kim Shumway"
-        },
-        {
-          "episodeOverall": 88,
-          "episode": 4,
-          "title": "Hesperides",
-          "directedBy": "Diana Valentine",
-          "writtenBy": "Sean Crouch"
-        },
-        {
-          "episodeOverall": 89,
-          "episode": 5,
-          "title": "Welcome to Bardo",
-          "directedBy": "Ian Samoil",
-          "writtenBy": "Drew Lindo"
-        },
-        {
-          "episodeOverall": 90,
-          "episode": 6,
-          "title": "Nakara",
-          "directedBy": "PJ Pesce",
-          "writtenBy": "Erica Meredith"
-        },
-        {
-          "episodeOverall": 91,
-          "episode": 7,
-          "title": "The Queen's Gambit",
-          "directedBy": "Lindsey Morgan",
-          "writtenBy": "Miranda Kwok"
-        },
-        {
-          "episodeOverall": 92,
-          "episode": 8,
-          "title": "Anaconda",
-          "directedBy": "Ed Fraiman",
-          "writtenBy": "Jason Rothenberg"
-        },
-        {
-          "episodeOverall": 93,
-          "episode": 9,
-          "title": "The Flock",
-          "directedBy": "Amyn Kaderali",
-          "writtenBy": "Alyssa Clark"
-        },
-        {
-          "episodeOverall": 94,
-          "episode": 10,
-          "title": "A Little Sacrifice",
-          "directedBy": "Sherwin Shilati",
-          "writtenBy": "Nikki Goldwaser"
-        },
-        {
-          "episodeOverall": 95,
-          "episode": 11,
-          "title": "Etherea",
-          "directedBy": "Aprill Winney",
-          "writtenBy": "Jeff Vlaming"
-        },
-        {
-          "episodeOverall": 96,
-          "episode": 12,
-          "title": "The Stranger",
-          "directedBy": "Amanda Row",
-          "writtenBy": "Blythe Ann Johnson"
-        },
-        {
-          "episodeOverall": 97,
-          "episode": 13,
-          "title": "Blood Giant",
-          "directedBy": "Michael Cliett",
-          "writtenBy": "Ross Knight"
-        },
-        {
-          "episodeOverall": 98,
-          "episode": 14,
-          "title": "A Sort of Homecoming",
-          "directedBy": "Jessica Harmon",
-          "writtenBy": "Sean Crouch"
-        },
-        {
-          "episodeOverall": 99,
-          "episode": 15,
-          "title": "The Dying of the Light",
-          "directedBy": "Ian Samoil",
-          "writtenBy": "Kim Shumway"
-        },
-        {
-          "episodeOverall": 100,
-          "episode": 16,
-          "title": "The Last War",
-          "directedBy": "Jason Rothenberg",
-          "writtenBy": "Jason Rothenberg"
-        }
-      ],
-      "trailer": "VQaFKClCUpo"
-    }
-  ],
+  "duration": 4300,
   "cast": [
     {
       "character": {
@@ -1022,6 +650,568 @@
       "actorId": "e685d628-5975-4f19-9606-fe956d069235"
     }
   ],
-  "duration": 4300,
-  "year": 2014
+  "collections": [
+    {
+      "title": "Future"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Youth-Oriented Series on Television"
+      ]
+    }
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "trailer": "ia1Fbg96vL0",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "Pilot"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Earth Skills"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Earth Kills"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "Murphy's Law"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Twilight's Last Gleaming"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "His Sister's Keeper"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "Contents Under Pressure"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "Day Trip"
+        },
+        {
+          "episodeOverall": 9,
+          "episode": 9,
+          "title": "Unity Day"
+        },
+        {
+          "episodeOverall": 10,
+          "episode": 10,
+          "title": "I Am Become Death"
+        },
+        {
+          "episodeOverall": 11,
+          "episode": 11,
+          "title": "The Calm"
+        },
+        {
+          "episodeOverall": 12,
+          "episode": 12,
+          "title": "We Are Grounders – Part I"
+        },
+        {
+          "episodeOverall": 13,
+          "episode": 13,
+          "title": "We Are Grounders – Part II"
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "trailer": "IW7_ZzFZF-o",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 14,
+          "episode": 1,
+          "title": "The 48"
+        },
+        {
+          "episodeOverall": 15,
+          "episode": 2,
+          "title": "Inclement Weather"
+        },
+        {
+          "episodeOverall": 16,
+          "episode": 3,
+          "title": "Reapercussions"
+        },
+        {
+          "episodeOverall": 17,
+          "episode": 4,
+          "title": "Many Happy Returns"
+        },
+        {
+          "episodeOverall": 18,
+          "episode": 5,
+          "title": "Human Trials"
+        },
+        {
+          "episodeOverall": 19,
+          "episode": 6,
+          "title": "Fog of War"
+        },
+        {
+          "episodeOverall": 20,
+          "episode": 7,
+          "title": "Long Into an Abyss"
+        },
+        {
+          "episodeOverall": 21,
+          "episode": 8,
+          "title": "Spacewalker"
+        },
+        {
+          "episodeOverall": 22,
+          "episode": 9,
+          "title": "Remember Me"
+        },
+        {
+          "episodeOverall": 23,
+          "episode": 10,
+          "title": "Survival of the Fittest"
+        },
+        {
+          "episodeOverall": 24,
+          "episode": 11,
+          "title": "Coup de Grace"
+        },
+        {
+          "episodeOverall": 25,
+          "episode": 12,
+          "title": "Rubicon"
+        },
+        {
+          "episodeOverall": 26,
+          "episode": 13,
+          "title": "Resurrection"
+        },
+        {
+          "episodeOverall": 27,
+          "episode": 14,
+          "title": "Bodyguard of Lies"
+        },
+        {
+          "episodeOverall": 28,
+          "episode": 15,
+          "title": "Blood Must Have Blood: Part One"
+        },
+        {
+          "episodeOverall": 29,
+          "episode": 16,
+          "title": "Blood Must Have Blood: Part Two"
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "trailer": "uwxwHTu802M",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 30,
+          "episode": 1,
+          "title": "Wanheda: Part One"
+        },
+        {
+          "episodeOverall": 31,
+          "episode": 2,
+          "title": "Wanheda: Part Two"
+        },
+        {
+          "episodeOverall": 32,
+          "episode": 3,
+          "title": "Ye Who Enter Here"
+        },
+        {
+          "episodeOverall": 33,
+          "episode": 4,
+          "title": "Watch the Thrones"
+        },
+        {
+          "episodeOverall": 34,
+          "episode": 5,
+          "title": "Hakeldama"
+        },
+        {
+          "episodeOverall": 35,
+          "episode": 6,
+          "title": "Bitter Harvest"
+        },
+        {
+          "episodeOverall": 36,
+          "episode": 7,
+          "title": "Thirteen"
+        },
+        {
+          "episodeOverall": 37,
+          "episode": 8,
+          "title": "Terms, Conditions"
+        },
+        {
+          "episodeOverall": 38,
+          "episode": 9,
+          "title": "Stealing Fire"
+        },
+        {
+          "episodeOverall": 39,
+          "episode": 10,
+          "title": "Fallen"
+        },
+        {
+          "episodeOverall": 40,
+          "episode": 11,
+          "title": "Nevermore"
+        },
+        {
+          "episodeOverall": 41,
+          "episode": 12,
+          "title": "Demons"
+        },
+        {
+          "episodeOverall": 42,
+          "episode": 13,
+          "title": "Join or Die"
+        },
+        {
+          "episodeOverall": 43,
+          "episode": 14,
+          "title": "Red Sky at Morning"
+        },
+        {
+          "episodeOverall": 44,
+          "episode": 15,
+          "title": "Perverse Instantiation – Part One"
+        },
+        {
+          "episodeOverall": 45,
+          "episode": 16,
+          "title": "Perverse Instantiation – Part Two"
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "trailer": "JQi2MAfpACI",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 46,
+          "episode": 1,
+          "title": "Echoes"
+        },
+        {
+          "episodeOverall": 47,
+          "episode": 2,
+          "title": "Heavy Lies the Crown"
+        },
+        {
+          "episodeOverall": 48,
+          "episode": 3,
+          "title": "The Four Horsemen"
+        },
+        {
+          "episodeOverall": 49,
+          "episode": 4,
+          "title": "A Lie Guarded"
+        },
+        {
+          "episodeOverall": 50,
+          "episode": 5,
+          "title": "The Tinder Box"
+        },
+        {
+          "episodeOverall": 51,
+          "episode": 6,
+          "title": "We Will Rise"
+        },
+        {
+          "episodeOverall": 52,
+          "episode": 7,
+          "title": "Gimme Shelter"
+        },
+        {
+          "episodeOverall": 53,
+          "episode": 8,
+          "title": "God Complex"
+        },
+        {
+          "episodeOverall": 54,
+          "episode": 9,
+          "title": "DNR"
+        },
+        {
+          "episodeOverall": 55,
+          "episode": 10,
+          "title": "Die All, Die Merrily"
+        },
+        {
+          "episodeOverall": 56,
+          "episode": 11,
+          "title": "The Other Side"
+        },
+        {
+          "episodeOverall": 57,
+          "episode": 12,
+          "title": "The Chosen"
+        },
+        {
+          "episodeOverall": 58,
+          "episode": 13,
+          "title": "Praimfaya"
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "trailer": "AGSfZ4xt4UY",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 59,
+          "episode": 1,
+          "title": "Eden"
+        },
+        {
+          "episodeOverall": 60,
+          "episode": 2,
+          "title": "Red Queen"
+        },
+        {
+          "episodeOverall": 61,
+          "episode": 3,
+          "title": "Sleeping Giants"
+        },
+        {
+          "episodeOverall": 62,
+          "episode": 4,
+          "title": "Pandora's Box"
+        },
+        {
+          "episodeOverall": 63,
+          "episode": 5,
+          "title": "Shifting Sands"
+        },
+        {
+          "episodeOverall": 64,
+          "episode": 6,
+          "title": "Exit Wounds"
+        },
+        {
+          "episodeOverall": 65,
+          "episode": 7,
+          "title": "Acceptable Losses"
+        },
+        {
+          "episodeOverall": 66,
+          "episode": 8,
+          "title": "How We Get to Peace"
+        },
+        {
+          "episodeOverall": 67,
+          "episode": 9,
+          "title": "Sic Semper Tyrannis"
+        },
+        {
+          "episodeOverall": 68,
+          "episode": 10,
+          "title": "The Warriors Will"
+        },
+        {
+          "episodeOverall": 69,
+          "episode": 11,
+          "title": "The Dark Year"
+        },
+        {
+          "episodeOverall": 70,
+          "episode": 12,
+          "title": "Damocles – Part One"
+        },
+        {
+          "episodeOverall": 71,
+          "episode": 13,
+          "title": "Damocles – Part Two"
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "trailer": "AVDyeT-GsX4",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 72,
+          "episode": 1,
+          "title": "Sanctum"
+        },
+        {
+          "episodeOverall": 73,
+          "episode": 2,
+          "title": "Red Sun Rising"
+        },
+        {
+          "episodeOverall": 74,
+          "episode": 3,
+          "title": "The Children of Gabriel"
+        },
+        {
+          "episodeOverall": 75,
+          "episode": 4,
+          "title": "The Face Behind the Glass"
+        },
+        {
+          "episodeOverall": 76,
+          "episode": 5,
+          "title": "The Gospel of Josephine"
+        },
+        {
+          "episodeOverall": 77,
+          "episode": 6,
+          "title": "Memento Mori"
+        },
+        {
+          "episodeOverall": 78,
+          "episode": 7,
+          "title": "Nevermind"
+        },
+        {
+          "episodeOverall": 79,
+          "episode": 8,
+          "title": "The Old Man, the Anomaly"
+        },
+        {
+          "episodeOverall": 80,
+          "episode": 9,
+          "title": "What You Take With You"
+        },
+        {
+          "episodeOverall": 81,
+          "episode": 10,
+          "title": "Matryoshka"
+        },
+        {
+          "episodeOverall": 82,
+          "episode": 11,
+          "title": "Ashes to Ashes"
+        },
+        {
+          "episodeOverall": 83,
+          "episode": 12,
+          "title": "Adjustment Protocol"
+        },
+        {
+          "episodeOverall": 84,
+          "episode": 13,
+          "title": "The Blood of Sanctum"
+        }
+      ]
+    },
+    {
+      "season": 7,
+      "trailer": "VQaFKClCUpo",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 85,
+          "episode": 1,
+          "title": "From the Ashes"
+        },
+        {
+          "episodeOverall": 86,
+          "episode": 2,
+          "title": "The Garden"
+        },
+        {
+          "episodeOverall": 87,
+          "episode": 3,
+          "title": "False Gods"
+        },
+        {
+          "episodeOverall": 88,
+          "episode": 4,
+          "title": "Hesperides"
+        },
+        {
+          "episodeOverall": 89,
+          "episode": 5,
+          "title": "Welcome to Bardo"
+        },
+        {
+          "episodeOverall": 90,
+          "episode": 6,
+          "title": "Nakara"
+        },
+        {
+          "episodeOverall": 91,
+          "episode": 7,
+          "title": "The Queen's Gambit"
+        },
+        {
+          "episodeOverall": 92,
+          "episode": 8,
+          "title": "Anaconda"
+        },
+        {
+          "episodeOverall": 93,
+          "episode": 9,
+          "title": "The Flock"
+        },
+        {
+          "episodeOverall": 94,
+          "episode": 10,
+          "title": "A Little Sacrifice"
+        },
+        {
+          "episodeOverall": 95,
+          "episode": 11,
+          "title": "Etherea"
+        },
+        {
+          "episodeOverall": 96,
+          "episode": 12,
+          "title": "The Stranger"
+        },
+        {
+          "episodeOverall": 97,
+          "episode": 13,
+          "title": "Blood Giant"
+        },
+        {
+          "episodeOverall": 98,
+          "episode": 14,
+          "title": "A Sort of Homecoming"
+        },
+        {
+          "episodeOverall": 99,
+          "episode": 15,
+          "title": "The Dying of the Light"
+        },
+        {
+          "episodeOverall": 100,
+          "episode": 16,
+          "title": "The Last War"
+        }
+      ]
+    }
+  ]
 }

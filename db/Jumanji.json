@@ -1,53 +1,75 @@
 {
   "id": "3f08bb54-2e49-4404-9642-ad019b2f16e4",
+  "type": [
+    "Film"
+  ],
   "title": "Jumanji",
   "poster": "jumanji_1",
+  "trailer": "5p18zqZmeiI",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "TriStar"
-  ],
-  "directedBy": [
-    "Joe Johnston"
-  ],
-  "producedBy": "Scott Kroopf, William Teitler",
-  "writtenBy": "Greg Taylor, Jonathan Hensleigh, Jim Strain",
-  "musicBy": "James Horner",
-  "cinematographyBy": "Thomas E. Ackerman",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 65,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 263,
-    "suffix": "million"
-  },
   "synopsis": "When two kids find and play a magical board game, they release a man trapped for decades in it and a host of dangers that can only be stopped by finishing the game.",
-  "collections": [
+  "crew": [
     {
-      "name": "Fantasy"
-    }
-  ],
-  "awards": [
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Joe Johnston"
+        }
+      ]
+    },
     {
-      "title": "Saturn",
-      "nominations": [
-        "Best Supporting Actress"
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Greg Taylor"
+        },
+        {
+          "name": "Jonathan Hensleigh"
+        },
+        {
+          "name": "Jim Strain"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Scott Kroopf"
+        },
+        {
+          "name": "William Teitler"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "James Horner"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Thomas E. Ackerman"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "Jumanji",
-    "part": 1
-  },
-  "type": [
-    "Film"
+  "year": 1995,
+  "countries": [
+    "USA"
   ],
+  "production": [
+    "TriStar"
+  ],
+  "duration": 104,
   "cast": [
     {
       "character": {
@@ -106,7 +128,29 @@
       "actorId": "c6e174c6-5cb9-422a-950e-8452d99b4d2c"
     }
   ],
-  "duration": 104,
-  "trailer": "5p18zqZmeiI",
-  "year": 1995
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 65,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 263,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Supporting Actress"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Jumanji",
+    "part": 1
+  }
 }

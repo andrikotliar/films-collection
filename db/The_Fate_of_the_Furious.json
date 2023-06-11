@@ -1,53 +1,69 @@
 {
   "id": "20fae14e-5e1d-4648-9482-7585c96d94aa",
+  "type": [
+    "Film"
+  ],
   "title": "The Fate of the Furious",
   "poster": "fast_and_furious_8",
+  "trailer": "9GvX2uexGkA",
   "genres": [
     "Action",
     "Crime"
   ],
-  "production": [
-    "Universal Pictures"
-  ],
-  "directedBy": [
-    "F. Gary Gray"
-  ],
-  "producedBy": "Neal H. Moritz, Vin Diesel",
-  "writtenBy": "Chris Morgan",
-  "musicBy": "Brian Tyler",
-  "cinematographyBy": "Stephen F. Windon",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 250,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.24,
-    "suffix": "billion"
-  },
   "synopsis": "When a mysterious woman seduces Dom into the world of terrorism and a betrayal of those closest to him, the crew face trials that will test them as never before.",
-  "collections": [
+  "crew": [
     {
-      "name": "Cars"
-    }
-  ],
-  "awards": [
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "F. Gary Gray"
+        }
+      ]
+    },
     {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Action Sequence"
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Chris Morgan"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Neal H. Moritz"
+        },
+        {
+          "name": "Vin Diesel"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Brian Tyler"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Stephen F. Windon"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "Fast and Furious",
-    "part": 8
-  },
-  "type": [
-    "Film"
+  "year": 2017,
+  "countries": [
+    "USA"
   ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "duration": 136,
   "cast": [
     {
       "character": {
@@ -127,7 +143,29 @@
       "actorId": "a601625c-13b8-403a-b7eb-79165f3abd28"
     }
   ],
-  "duration": 136,
-  "trailer": "9GvX2uexGkA",
-  "year": 2017
+  "collections": [
+    {
+      "title": "Cars"
+    }
+  ],
+  "budget": {
+    "value": 250,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.24,
+    "suffix": "billion"
+  },
+  "awards": [
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Action Sequence"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Fast and Furious",
+    "part": 8
+  }
 }

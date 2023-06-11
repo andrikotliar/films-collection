@@ -1,83 +1,70 @@
 {
   "id": "e55016b6-5f4b-4528-b828-dac2d8e722b7",
+  "type": [
+    "Film"
+  ],
   "title": "Terminator 2: Judgment Day",
   "poster": "terminator_2",
+  "trailer": "-W8CegO_Ixw",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her teenage son, John Connor, from a more advanced and powerful cyborg.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "James Cameron"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "James Cameron"
+        },
+        {
+          "name": "William Wisher"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "James Cameron"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Brad Fiedel"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Adam Greenberg"
+        }
+      ]
+    }
+  ],
+  "year": 1991,
+  "countries": [
+    "USA"
   ],
   "production": [
     "TriStar",
     "Carolco Pictures"
   ],
-  "directedBy": [
-    "James Cameron"
-  ],
-  "producedBy": "James Cameron",
-  "writtenBy": "James Cameron, William Wisher",
-  "musicBy": "Brad Fiedel",
-  "cinematographyBy": "Adam Greenberg",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 94,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 521,
-    "suffix": "million"
-  },
-  "synopsis": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her teenage son, John Connor, from a more advanced and powerful cyborg.",
-  "collections": [
-    {
-      "name": "Legends"
-    },
-    {
-      "name": "Robots"
-    },
-    {
-      "name": "Top 10",
-      "order": 3
-    }
-  ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Sound",
-        "Best Sound Effects Editing",
-        "Best Visual Effects",
-        "Best Makeup"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Sound",
-        "Best Special Visual Effects",
-        "Best Production Design"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Movie",
-        "Best Female Performance",
-        "Best Male Performance",
-        "Best Breakthrough Performance",
-        "Most Desirable Female",
-        "Best Action Sequence"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "The Terminator",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 137,
   "cast": [
     {
       "character": {
@@ -115,7 +102,58 @@
       "actorId": "3bba759a-ae0f-46e9-92e7-0e11c3c1bacd"
     }
   ],
-  "duration": 137,
-  "trailer": "-W8CegO_Ixw",
-  "year": 1991
+  "collections": [
+    {
+      "title": "Legends"
+    },
+    {
+      "title": "Robots"
+    },
+    {
+      "title": "Top 10",
+      "order": 3
+    }
+  ],
+  "budget": {
+    "value": 94,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 521,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Sound",
+        "Best Sound Effects Editing",
+        "Best Visual Effects",
+        "Best Makeup"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Sound",
+        "Best Special Visual Effects",
+        "Best Production Design"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Movie",
+        "Best Female Performance",
+        "Best Male Performance",
+        "Best Breakthrough Performance",
+        "Most Desirable Female",
+        "Best Action Sequence"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Terminator",
+    "part": 2
+  }
 }

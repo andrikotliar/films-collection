@@ -1,54 +1,75 @@
 {
   "id": "adab19de-7c8c-4e2d-bd34-77bfa713f7e2",
+  "type": [
+    "Film"
+  ],
   "title": "Mission: Impossible - Ghost Protocol",
   "poster": "mi_4",
+  "trailer": "EDGYVFZxsXQ",
   "genres": [
     "Action",
     "Adventures"
   ],
-  "production": [
-    "Paramount Pictures"
-  ],
-  "directedBy": [
-    "Brad Bird"
-  ],
-  "producedBy": "Tom Cruise, Bryan Burk, J.J. Abrams",
-  "writtenBy": "Josh Appelbaum, Andre Nemec",
-  "musicBy": "Michael Giacchino",
-  "cinematographyBy": "Robert Elswit",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 145,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 695,
-    "suffix": "million"
-  },
   "synopsis": "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.",
-  "collections": [
+  "crew": [
     {
-      "name": "Agents and Detectives"
-    }
-  ],
-  "awards": [
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Brad Bird"
+        }
+      ]
+    },
     {
-      "title": "Saturn",
-      "nominations": [
-        "Best Action/Adventure Film",
-        "Best Editing"
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Josh Appelbaum"
+        },
+        {
+          "name": "Andre Nemec"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Tom Cruise"
+        },
+        {
+          "name": "Bryan Burk"
+        },
+        {
+          "name": "J.J. Abrams"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Michael Giacchino"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Robert Elswit"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "Mission: Impossible",
-    "part": 4
-  },
-  "type": [
-    "Film"
+  "year": 2011,
+  "countries": [
+    "USA"
   ],
+  "production": [
+    "Paramount Pictures"
+  ],
+  "duration": 133,
   "cast": [
     {
       "character": {
@@ -86,7 +107,30 @@
       "actorId": "2f31070a-a697-4af5-ae35-ab8ce3c06f0d"
     }
   ],
-  "duration": 133,
-  "trailer": "EDGYVFZxsXQ",
-  "year": 2011
+  "collections": [
+    {
+      "title": "Agents and Detectives"
+    }
+  ],
+  "budget": {
+    "value": 145,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 695,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Action/Adventure Film",
+        "Best Editing"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Mission: Impossible",
+    "part": 4
+  }
 }

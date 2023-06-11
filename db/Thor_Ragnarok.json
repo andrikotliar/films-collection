@@ -1,46 +1,73 @@
 {
   "id": "db20f98e-4019-4bf8-8465-aa1de75ca233",
+  "type": [
+    "Film"
+  ],
   "title": "Thor: Ragnarok",
   "poster": "thor_3",
+  "trailer": "ue80QwXMRHg",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarцk, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Taika Waititi"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Eric Pearson"
+        },
+        {
+          "name": "Craig Kyle"
+        },
+        {
+          "name": "Christopher L. Yost"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Mark Mothersbaugh"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Javier Aguirresarobe"
+        }
+      ]
+    }
+  ],
+  "year": 2017,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "directedBy": [
-    "Taika Waititi"
-  ],
-  "producedBy": "Kevin Feige",
-  "writtenBy": "Eric Pearson, Craig Kyle, Christopher L. Yost",
-  "musicBy": "Mark Mothersbaugh",
-  "cinematographyBy": "Javier Aguirresarobe",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 180,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 854,
-    "suffix": "million"
-  },
-  "synopsis": "Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarцk, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 17
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 130,
   "cast": [
     {
       "character": {
@@ -134,7 +161,21 @@
       "actorId": "7ba0570a-68be-41d9-b548-66375734f7ac"
     }
   ],
-  "duration": 130,
-  "trailer": "ue80QwXMRHg",
-  "year": 2017
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 180,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 854,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 17
+  }
 }

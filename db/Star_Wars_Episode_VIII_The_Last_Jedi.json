@@ -1,56 +1,70 @@
 {
   "id": "1e27a5a7-5985-4235-bebe-324127476122",
+  "type": [
+    "Film"
+  ],
   "title": "Star Wars Episode VIII: The Last Jedi",
   "poster": "star_wars_episode_VIII",
+  "trailer": "Q0CbN8sfihY",
   "genres": [
     "SpaceOpera",
     "Adventures"
+  ],
+  "synopsis": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Rian Johnson"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Rian Johnson"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kathleen Kennedy"
+        },
+        {
+          "name": "Ram Bergman"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Steve Yedlin"
+        }
+      ]
+    }
+  ],
+  "year": 2017,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Lucasfilm"
   ],
-  "directedBy": [
-    "Rian Johnson"
-  ],
-  "producedBy": "Kathleen Kennedy, Ram Bergman",
-  "writtenBy": "Rian Johnson",
-  "musicBy": "John Williams",
-  "cinematographyBy": "Steve Yedlin",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 317,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.33,
-    "suffix": "billion"
-  },
-  "synopsis": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.",
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Writing",
-        "Best Actor",
-        "Best Editing"
-      ]
-    }
-  ],
-  "collections": [
-    {
-      "name": "Star Wars Universe"
-    }
-  ],
-  "parts": {
-    "title": "Star Wars Universe",
-    "part": 11
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 152,
   "cast": [
     {
       "character": {
@@ -116,7 +130,31 @@
       "actorId": "a64e4407-72e4-44c3-889b-127f6750765a"
     }
   ],
-  "duration": 152,
-  "trailer": "Q0CbN8sfihY",
-  "year": 2017
+  "collections": [
+    {
+      "title": "Star Wars Universe"
+    }
+  ],
+  "budget": {
+    "value": 317,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.33,
+    "suffix": "billion"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Writing",
+        "Best Actor",
+        "Best Editing"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Star Wars Universe",
+    "part": 11
+  }
 }

@@ -1,42 +1,73 @@
 {
   "id": "4f15fe5f-3e8b-41a6-9b97-3261a6a4a5dd",
+  "type": [
+    "Film"
+  ],
   "title": "The Sorcerer's Apprentice",
   "poster": "sorcerers_apprentice",
+  "trailer": "v2uV0_1C4UM",
   "genres": [
     "Fantasy",
     "Adventures"
+  ],
+  "synopsis": "Master sorcerer Balthazar Blake must find and train Merlin's descendant to defeat dark sorceress Morgana la Fée.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Jon Torteltaub"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Doug Miro"
+        },
+        {
+          "name": "Carlo Bernard"
+        },
+        {
+          "name": "Matt Lopez"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Jerry Bruckheimer"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Trevor Rabin"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Bojan Bazelli"
+        }
+      ]
+    }
+  ],
+  "year": 2010,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Jerry Bruckheimer Films"
   ],
-  "directedBy": [
-    "Jon Torteltaub"
-  ],
-  "producedBy": "Jerry Bruckheimer",
-  "writtenBy": "Doug Miro, Carlo Bernard, Matt Lopez",
-  "musicBy": "Trevor Rabin",
-  "cinematographyBy": "Bojan Bazelli",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 215,
-    "suffix": "million"
-  },
-  "synopsis": "Master sorcerer Balthazar Blake must find and train Merlin's descendant to defeat dark sorceress Morgana la Fée.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
-  ],
-  "type": [
-    "Film"
-  ],
+  "duration": 109,
   "cast": [
     {
       "character": {
@@ -102,7 +133,17 @@
       "actorId": "40c7fc2e-8efe-4e28-a03c-23933e20bb99"
     }
   ],
-  "duration": 109,
-  "trailer": "v2uV0_1C4UM",
-  "year": 2010
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 215,
+    "suffix": "million"
+  }
 }

@@ -1,55 +1,67 @@
 {
   "id": "7129ca00-b9c7-4a8d-b052-ab5ce44fc167",
+  "type": [
+    "Film"
+  ],
   "title": "Star Wars Episode III: Revenge of the Sith",
   "poster": "star_wars_episode_III",
+  "trailer": "5UnjrG_N8hU",
   "genres": [
     "SpaceOpera",
     "Adventures"
+  ],
+  "synopsis": "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "George Lucas"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "George Lucas"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Rick McCallum"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "David Tattersall"
+        }
+      ]
+    }
+  ],
+  "year": 2005,
+  "countries": [
+    "USA"
   ],
   "production": [
     "20th Century FOX",
     "Lucasfilm"
   ],
-  "directedBy": [
-    "George Lucas"
-  ],
-  "producedBy": "Rick McCallum",
-  "writtenBy": "George Lucas",
-  "musicBy": "John Williams",
-  "cinematographyBy": "David Tattersall",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 113,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 849,
-    "suffix": "million"
-  },
-  "synopsis": "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy.",
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Science Fiction Film",
-        "Best Music"
-      ]
-    }
-  ],
-  "collections": [
-    {
-      "name": "Star Wars Universe"
-    }
-  ],
-  "parts": {
-    "title": "Star Wars Universe",
-    "part": 3
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 140,
   "cast": [
     {
       "character": {
@@ -101,7 +113,30 @@
       "actorId": "258788d4-04ea-41c0-b8f9-5e653892f72c"
     }
   ],
-  "duration": 140,
-  "trailer": "5UnjrG_N8hU",
-  "year": 2005
+  "collections": [
+    {
+      "title": "Star Wars Universe"
+    }
+  ],
+  "budget": {
+    "value": 113,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 849,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Music"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Star Wars Universe",
+    "part": 3
+  }
 }

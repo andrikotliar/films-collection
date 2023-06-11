@@ -1,64 +1,70 @@
 {
   "id": "f488f54a-2cce-45a2-8cdc-3b1a2ebd8b4e",
+  "type": [
+    "Film"
+  ],
   "title": "Guardians of the Galaxy",
   "poster": "guardians_of_the_galaxy",
+  "trailer": "d96cjJhvlMA",
   "genres": [
     "Sci-Fi",
     "Comedy"
+  ],
+  "synopsis": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "James Gunn"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "James Gunn"
+        },
+        {
+          "name": "Nicole Perlman"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Tyler Bates"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Ben Davis"
+        }
+      ]
+    }
+  ],
+  "year": 2014,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "directedBy": [
-    "James Gunn"
-  ],
-  "producedBy": "Kevin Feige",
-  "writtenBy": "James Gunn, Nicole Perlman",
-  "musicBy": "Tyler Bates",
-  "cinematographyBy": "Ben Davis",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 196,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 773,
-    "suffix": "million"
-  },
-  "synopsis": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.",
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Actor (Chris Pratt)",
-        "Best Director",
-        "Best Make-Up",
-        "Best Comic-to-Film Motion Picture "
-      ]
-    },
-    {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Hair & Makeup",
-        "Best Action Movie"
-      ]
-    }
-  ],
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 10
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 122,
   "cast": [
     {
       "character": {
@@ -145,7 +151,39 @@
       "actorId": "4fa32a1f-d2de-4d44-801f-2fcfb1ba6bde"
     }
   ],
-  "duration": 122,
-  "trailer": "d96cjJhvlMA",
-  "year": 2014
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 196,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 773,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Actor (Chris Pratt)",
+        "Best Director",
+        "Best Make-Up",
+        "Best Comic-to-Film Motion Picture "
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Hair & Makeup",
+        "Best Action Movie"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 10
+  }
 }

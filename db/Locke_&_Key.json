@@ -1,253 +1,176 @@
 {
   "id": "68641108-6dbf-4b94-a26b-4f1b53960327",
+  "type": [
+    "Series"
+  ],
   "title": "Locke & Key",
   "poster": "locke_key",
   "genres": [
     "Fantasy",
     "Drama"
   ],
-  "production": [
-    "Netflix"
+  "synopsis": "After their father is murdered under mysterious circumstances, the three Locke siblings and their mother move into their ancestral home, Keyhouse, which they discover is full of magical keys that may be connected to their father's death.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Michael Morris",
+          "comment": ""
+        },
+        {
+          "name": "Tim Southam",
+          "comment": ""
+        },
+        {
+          "name": "Mark Tonderai-Hodges",
+          "comment": ""
+        },
+        {
+          "name": "Dawn Wilkinson",
+          "comment": ""
+        },
+        {
+          "name": "Vincenzo Natali",
+          "comment": ""
+        },
+        {
+          "name": "Mark Tonderai",
+          "comment": ""
+        },
+        {
+          "name": "Mairzee Almas",
+          "comment": ""
+        },
+        {
+          "name": "Carlton Cuse",
+          "comment": ""
+        },
+        {
+          "name": "Millicent Shelton",
+          "comment": ""
+        },
+        {
+          "name": "Guy Ferland",
+          "comment": ""
+        },
+        {
+          "name": "Ed Ornelas",
+          "comment": ""
+        },
+        {
+          "name": "Marisol Adler",
+          "comment": ""
+        },
+        {
+          "name": "Jeremy Webb",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Joe Hill",
+          "comment": ""
+        },
+        {
+          "name": "Aron Eli Coleite",
+          "comment": ""
+        },
+        {
+          "name": "Liz Phang",
+          "comment": ""
+        },
+        {
+          "name": "Meredith Averill",
+          "comment": ""
+        },
+        {
+          "name": "Mackenzie Dohr",
+          "comment": ""
+        },
+        {
+          "name": "Andres Fischer-Centeno",
+          "comment": ""
+        },
+        {
+          "name": "Brett Treacy",
+          "comment": ""
+        },
+        {
+          "name": "Dan Woodward",
+          "comment": ""
+        },
+        {
+          "name": "Michael D. Fuller",
+          "comment": ""
+        },
+        {
+          "name": "Vanessa Rojas",
+          "comment": ""
+        },
+        {
+          "name": "Carlton Cuse",
+          "comment": ""
+        },
+        {
+          "name": "Kimi Howl Lee",
+          "comment": ""
+        },
+        {
+          "name": "Jordan Riggs",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Ra'uf Glasgow"
+        },
+        {
+          "name": "Kevin Lafferty"
+        },
+        {
+          "name": "Nishpeksh Mehra"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Torin Borrowdale"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Tico Poulakakis"
+        },
+        {
+          "name": "Dylan Macleod"
+        },
+        {
+          "name": "Colin Hoult"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Michael Morris",
-    "Vincenzo Natali",
-    "Tim Southam",
-    "Mark Tonderai",
-    "Dawn Wilkinson"
-  ],
-  "producedBy": "Ra'uf Glasgow, Kevin Lafferty, Nishpeksh Mehra",
-  "musicBy": "Torin Borrowdale",
-  "cinematographyBy": "Tico Poulakakis, Dylan Macleod, Colin Hoult",
+  "year": 2020,
   "countries": [
     "USA",
     "Canada"
   ],
-  "synopsis": "After their father is murdered under mysterious circumstances, the three Locke siblings and their mother move into their ancestral home, Keyhouse, which they discover is full of magical keys that may be connected to their father's death.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
+  "production": [
+    "Netflix"
   ],
-  "type": [
-    "Series"
-  ],
-  "seasons": [
-    {
-      "season": 1,
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "Welcome to Matheson",
-          "directedBy": "Michael Morris",
-          "writtenBy": "Joe Hill, Aron Eli Coleite"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Trapper / Keeper",
-          "directedBy": "Michael Morris",
-          "writtenBy": "Liz Phang"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Head Games",
-          "directedBy": "Tim Southam",
-          "writtenBy": "Meredith Averill"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "The Keepers of the Keys",
-          "directedBy": "Tim Southam",
-          "writtenBy": "Mackenzie Dohr"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Family Tree",
-          "directedBy": "Mark Tonderai-Hodges",
-          "writtenBy": "Andres Fischer-Centeno"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "The Black Door",
-          "directedBy": "Mark Tonderai-Hodges",
-          "writtenBy": "Brett Treacy, Dan Woodward"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "Dissection",
-          "directedBy": "Dawn Wilkinson",
-          "writtenBy": "Michael D. Fuller"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 8,
-          "title": "Ray of F**king Sunshine",
-          "directedBy": "Dawn Wilkinson",
-          "writtenBy": "Vanessa Rojas"
-        },
-        {
-          "episodeOverall": 9,
-          "episode": 9,
-          "title": "Echoes",
-          "directedBy": "Vincenzo Natali",
-          "writtenBy": "Meredith Averill, Liz Phang"
-        },
-        {
-          "episodeOverall": 10,
-          "episode": 10,
-          "title": "Crown of Shadows",
-          "directedBy": "Vincenzo Natali",
-          "writtenBy": "Carlton Cuse, Meredith Averill"
-        }
-      ],
-      "trailer": "_EonRi0yQOE"
-    },
-    {
-      "season": 2,
-      "episodes": [
-        {
-          "episodeOverall": 11,
-          "episode": 1,
-          "title": "The Premiere",
-          "directedBy": "Mark Tonderai",
-          "writtenBy": "Meredith Averill, Carlton Cuse"
-        },
-        {
-          "episodeOverall": 12,
-          "episode": 2,
-          "title": "The Head and the Heart",
-          "directedBy": "Mark Tonderai",
-          "writtenBy": "Liz Phang"
-        },
-        {
-          "episodeOverall": 13,
-          "episode": 3,
-          "title": "Small World",
-          "directedBy": "Mairzee Almas",
-          "writtenBy": "Mackenzie Dohr"
-        },
-        {
-          "episodeOverall": 14,
-          "episode": 4,
-          "title": "Forget Me Not",
-          "directedBy": "Mairzee Almas",
-          "writtenBy": "Vanessa Rojas"
-        },
-        {
-          "episodeOverall": 15,
-          "episode": 5,
-          "title": "Past is Prologue",
-          "directedBy": "Carlton Cuse",
-          "writtenBy": "Meredith Averill"
-        },
-        {
-          "episodeOverall": 16,
-          "episode": 6,
-          "title": "The Maze",
-          "directedBy": "Mairzee Almas",
-          "writtenBy": "Kimi Howl Lee"
-        },
-        {
-          "episodeOverall": 17,
-          "episode": 7,
-          "title": "Best Laid Plans",
-          "directedBy": "Millicent Shelton",
-          "writtenBy": "Michael D. Fuller"
-        },
-        {
-          "episodeOverall": 18,
-          "episode": 8,
-          "title": "Irons in the Fire",
-          "directedBy": "Millicent Shelton",
-          "writtenBy": "Jordan Riggs"
-        },
-        {
-          "episodeOverall": 19,
-          "episode": 9,
-          "title": "Alpha and Omega",
-          "directedBy": "Mark Tonderai",
-          "writtenBy": "Meredith Averill, Liz Phang"
-        },
-        {
-          "episodeOverall": 20,
-          "episode": 10,
-          "title": "Cliffhanger",
-          "directedBy": "Mark Tonderai",
-          "writtenBy": "Carlton Cuse, Meredith Averill"
-        }
-      ],
-      "trailer": "lxJdvbG2fPw"
-    },
-    {
-      "season": 3,
-      "episodes": [
-        {
-          "episodeOverall": 21,
-          "episode": 1,
-          "title": "The Snow Globe",
-          "directedBy": "Guy Ferland",
-          "writtenBy": "Liz Phang"
-        },
-        {
-          "episodeOverall": 22,
-          "episode": 2,
-          "title": "Wedding Crashers",
-          "directedBy": "Guy Ferland",
-          "writtenBy": "Michael D. Fuller"
-        },
-        {
-          "episodeOverall": 23,
-          "episode": 3,
-          "title": "Five Minutes Past",
-          "directedBy": "Ed Ornelas",
-          "writtenBy": "Vanessa Rojas"
-        },
-        {
-          "episodeOverall": 24,
-          "episode": 4,
-          "title": "Deep Cover",
-          "directedBy": "Ed Ornelas",
-          "writtenBy": "Mackenzie Dohr"
-        },
-        {
-          "episodeOverall": 25,
-          "episode": 5,
-          "title": "Siege",
-          "directedBy": "Marisol Adler",
-          "writtenBy": "Meredith Averill"
-        },
-        {
-          "episodeOverall": 26,
-          "episode": 6,
-          "title": "Free Bird",
-          "directedBy": "Marisol Adler",
-          "writtenBy": "Jordan Riggs"
-        },
-        {
-          "episodeOverall": 27,
-          "episode": 7,
-          "title": "Curtain",
-          "directedBy": "Jeremy Webb",
-          "writtenBy": "Carlton Cuse, Joe Hill"
-        },
-        {
-          "episodeOverall": 28,
-          "episode": 8,
-          "title": "Farewell",
-          "directedBy": "Jeremy Webb",
-          "writtenBy": "Meredith Averill, Carlton Cuse"
-        }
-      ],
-      "trailer": "PX-t1wYNtBs"
-    }
-  ],
+  "duration": 1056,
   "cast": [
     {
       "character": {
@@ -306,6 +229,172 @@
       "actorId": "645d4323-e065-4e22-8bc3-ef48f64e612b"
     }
   ],
-  "duration": 1056,
-  "year": 2020
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "trailer": "_EonRi0yQOE",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "Welcome to Matheson"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Trapper / Keeper"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Head Games"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "The Keepers of the Keys"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Family Tree"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "The Black Door"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "Dissection"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "Ray of F**king Sunshine"
+        },
+        {
+          "episodeOverall": 9,
+          "episode": 9,
+          "title": "Echoes"
+        },
+        {
+          "episodeOverall": 10,
+          "episode": 10,
+          "title": "Crown of Shadows"
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "trailer": "lxJdvbG2fPw",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 11,
+          "episode": 1,
+          "title": "The Premiere"
+        },
+        {
+          "episodeOverall": 12,
+          "episode": 2,
+          "title": "The Head and the Heart"
+        },
+        {
+          "episodeOverall": 13,
+          "episode": 3,
+          "title": "Small World"
+        },
+        {
+          "episodeOverall": 14,
+          "episode": 4,
+          "title": "Forget Me Not"
+        },
+        {
+          "episodeOverall": 15,
+          "episode": 5,
+          "title": "Past is Prologue"
+        },
+        {
+          "episodeOverall": 16,
+          "episode": 6,
+          "title": "The Maze"
+        },
+        {
+          "episodeOverall": 17,
+          "episode": 7,
+          "title": "Best Laid Plans"
+        },
+        {
+          "episodeOverall": 18,
+          "episode": 8,
+          "title": "Irons in the Fire"
+        },
+        {
+          "episodeOverall": 19,
+          "episode": 9,
+          "title": "Alpha and Omega"
+        },
+        {
+          "episodeOverall": 20,
+          "episode": 10,
+          "title": "Cliffhanger"
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "trailer": "PX-t1wYNtBs",
+      "year": 0,
+      "episodes": [
+        {
+          "episodeOverall": 21,
+          "episode": 1,
+          "title": "The Snow Globe"
+        },
+        {
+          "episodeOverall": 22,
+          "episode": 2,
+          "title": "Wedding Crashers"
+        },
+        {
+          "episodeOverall": 23,
+          "episode": 3,
+          "title": "Five Minutes Past"
+        },
+        {
+          "episodeOverall": 24,
+          "episode": 4,
+          "title": "Deep Cover"
+        },
+        {
+          "episodeOverall": 25,
+          "episode": 5,
+          "title": "Siege"
+        },
+        {
+          "episodeOverall": 26,
+          "episode": 6,
+          "title": "Free Bird"
+        },
+        {
+          "episodeOverall": 27,
+          "episode": 7,
+          "title": "Curtain"
+        },
+        {
+          "episodeOverall": 28,
+          "episode": 8,
+          "title": "Farewell"
+        }
+      ]
+    }
+  ]
 }

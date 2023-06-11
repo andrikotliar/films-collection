@@ -1,47 +1,74 @@
 {
   "id": "d1572e38-75a2-442a-87a0-643c7d5f7707",
+  "type": [
+    "Film"
+  ],
   "title": "The Wolverine",
   "poster": "wolverine",
+  "trailer": "toLpchTUYk8",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "Wolverine comes to Japan to meet an old friend whose life he saved years ago, and gets embroiled in a conspiracy involving yakuza and mutants.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "James Mangold"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Mark Bomback"
+        },
+        {
+          "name": "Scott Frank"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Hutch Parker"
+        },
+        {
+          "name": "Lauren Shuler Donner"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Marco Beltrami"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Ross Emery"
+        }
+      ]
+    }
+  ],
+  "year": 2013,
+  "countries": [
+    "USA",
+    "UK"
   ],
   "production": [
     "20th Century FOX",
     "Marvel Entertainment"
   ],
-  "directedBy": [
-    "James Mangold"
-  ],
-  "producedBy": "Hutch Parker, Lauren Shuler Donner",
-  "writtenBy": "Mark Bomback, Scott Frank",
-  "musicBy": "Marco Beltrami",
-  "cinematographyBy": "Ross Emery",
-  "countries": [
-    "USA",
-    "UK"
-  ],
-  "budget": {
-    "value": 132,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 415,
-    "suffix": "million"
-  },
-  "synopsis": "Wolverine comes to Japan to meet an old friend whose life he saved years ago, and gets embroiled in a conspiracy involving yakuza and mutants.",
-  "collections": [
-    {
-      "name": "Superheroes"
-    }
-  ],
-  "parts": {
-    "title": "X-Men",
-    "part": 6
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 126,
   "cast": [
     {
       "character": {
@@ -86,7 +113,21 @@
       "actorId": "c4af2e04-55e6-4ee7-8799-66cb6b430c09"
     }
   ],
-  "duration": 126,
-  "trailer": "toLpchTUYk8",
-  "year": 2013
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": {
+    "value": 132,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 415,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "X-Men",
+    "part": 6
+  }
 }

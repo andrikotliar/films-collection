@@ -1,46 +1,67 @@
 {
   "id": "bde56512-c674-4e3d-9d75-b3abbaa4e40f",
+  "type": [
+    "Film"
+  ],
   "title": "The Matrix Revolutions",
   "poster": "matrix_3",
+  "trailer": "hMbexEPAOQI",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "production": [
-    "Warner Bros. Pictures"
+  "synopsis": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "The Wachowski Brothers"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "The Wachowski Brothers"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Joel Silver"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Don Davis"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Bill Pope"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "The Wachowski Brothers"
-  ],
-  "producedBy": "Joel Silver",
-  "writtenBy": "The Wachowski Brothers",
-  "musicBy": "Don Davis",
-  "cinematographyBy": "Bill Pope",
+  "year": 2003,
   "countries": [
     "USA",
     "Australia"
   ],
-  "budget": {
-    "value": 110,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 427,
-    "suffix": "million"
-  },
-  "synopsis": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith.",
-  "collections": [
-    {
-      "name": "Future"
-    }
+  "production": [
+    "Warner Bros. Pictures"
   ],
-  "parts": {
-    "title": "The Matrix",
-    "part": 3
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 129,
   "cast": [
     {
       "character": {
@@ -99,7 +120,21 @@
       "actorId": "85dcf65e-0034-4b73-9165-4813486e5f90"
     }
   ],
-  "duration": 129,
-  "trailer": "hMbexEPAOQI",
-  "year": 2003
+  "collections": [
+    {
+      "title": "Future"
+    }
+  ],
+  "budget": {
+    "value": 110,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 427,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "The Matrix",
+    "part": 3
+  }
 }

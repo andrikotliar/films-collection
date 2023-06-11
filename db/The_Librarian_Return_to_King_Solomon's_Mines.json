@@ -1,45 +1,69 @@
 {
   "id": "746416e8-b424-40d0-8056-94b989123817",
+  "type": [
+    "Film"
+  ],
   "title": "The Librarian: Return to King Solomon's Mines",
   "poster": "librarian_2",
+  "trailer": "ansvc2Muxr0",
   "genres": [
     "Adventures",
     "Fantasy"
   ],
-  "production": [
-    "TNT"
-  ],
-  "directedBy": [
-    "Jonathan Frakes"
-  ],
-  "producedBy": "Michael S. Murphey, Noah Wyle",
-  "writtenBy": "Marco Schnabel",
-  "musicBy": "Joseph LoDuca",
-  "cinematographyBy": "Walt Lloyd",
-  "countries": [
-    "USA"
-  ],
   "synopsis": "Librarian-turned-adventurer Flynn Carsen endeavors to find King Solomon's mines.",
-  "collections": [
+  "crew": [
     {
-      "name": "Fantasy"
-    }
-  ],
-  "awards": [
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Jonathan Frakes"
+        }
+      ]
+    },
     {
-      "title": "Saturn",
-      "nominations": [
-        "Best Presentation on Television"
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Marco Schnabel"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Michael S. Murphey"
+        },
+        {
+          "name": "Noah Wyle"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Joseph LoDuca"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Walt Lloyd"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "The Librarian",
-    "part": 2
-  },
-  "type": [
-    "Film"
+  "year": 2006,
+  "countries": [
+    "USA"
   ],
+  "production": [
+    "TNT"
+  ],
+  "duration": 95,
   "cast": [
     {
       "character": {
@@ -105,7 +129,21 @@
       "actorId": "276ac76b-bb0d-473f-9682-ebd8e6ac5fd1"
     }
   ],
-  "duration": 95,
-  "trailer": "ansvc2Muxr0",
-  "year": 2006
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Presentation on Television"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Librarian",
+    "part": 2
+  }
 }

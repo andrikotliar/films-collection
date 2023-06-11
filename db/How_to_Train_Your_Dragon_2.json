@@ -1,44 +1,58 @@
 {
   "id": "ae904217-fd37-4e3b-8710-52faf22052ac",
+  "type": [
+    "Animation"
+  ],
   "title": "How to Train Your Dragon 2",
   "poster": "how_to_train_your_dragon_2",
+  "trailer": "2BP38770KNo",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "DreamWorks Animation"
+  "synopsis": "When Hiccup and Toothless discover an ice cave that is home to hundreds of new wild dragons and the mysterious Dragon Rider, the two friends find themselves at the center of a battle to protect the peace.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Dean DeBlois"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Dean DeBlois"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Bonnie Amold"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Powell"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Dean DeBlois"
-  ],
-  "producedBy": "Bonnie Amold",
-  "writtenBy": "Dean DeBlois",
-  "musicBy": "John Powell",
+  "year": 2014,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 145,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 621,
-    "suffix": "million"
-  },
-  "synopsis": "When Hiccup and Toothless discover an ice cave that is home to hundreds of new wild dragons and the mysterious Dragon Rider, the two friends find themselves at the center of a battle to protect the peace.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
+  "production": [
+    "DreamWorks Animation"
   ],
-  "parts": {
-    "title": "How to Train Your Dragon",
-    "part": 2
-  },
-  "type": [
-    "Animation"
-  ],
+  "duration": 102,
   "cast": [
     {
       "character": {
@@ -90,7 +104,21 @@
       "actorId": "82f820ef-07a2-47e1-82bd-b53f68e7b6ab"
     }
   ],
-  "duration": 102,
-  "trailer": "2BP38770KNo",
-  "year": 2014
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 145,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 621,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "How to Train Your Dragon",
+    "part": 2
+  }
 }

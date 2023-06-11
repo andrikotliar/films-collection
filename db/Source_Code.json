@@ -1,42 +1,73 @@
 {
   "id": "74f83335-9be3-4892-95ab-7ec9d040880f",
+  "type": [
+    "Film"
+  ],
   "title": "Source Code",
   "poster": "source_code",
+  "trailer": "mnJegNyAb1w",
   "genres": [
     "Sci-Fi",
     "Action",
     "Thriller"
   ],
-  "production": [
-    "Summit Entertainment"
+  "synopsis": "A soldier wakes up in someone else's body and discovers he's part of an experimental government program to find the bomber of a commuter train. A mission he has only 8 minutes to complete.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Duncan Jones"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Ben Ripley"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Mark Gordon"
+        },
+        {
+          "name": "Jordan Wynn"
+        },
+        {
+          "name": "Philippe Roussellet"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Chris Bacon"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Don Burgess"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Duncan Jones"
-  ],
-  "producedBy": "Mark Gordon, Jordan Wynn, Philippe Roussellet",
-  "writtenBy": "Ben Ripley",
-  "musicBy": "Chris Bacon",
-  "cinematographyBy": "Don Burgess",
+  "year": 2011,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 32,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 147,
-    "suffix": "million"
-  },
-  "synopsis": "A soldier wakes up in someone else's body and discovers he's part of an experimental government program to find the bomber of a commuter train. A mission he has only 8 minutes to complete.",
-  "collections": [
-    {
-      "name": "Future"
-    }
+  "production": [
+    "Summit Entertainment"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 93,
   "cast": [
     {
       "character": {
@@ -88,7 +119,17 @@
       "actorId": "bc8151bb-2528-4a02-94bc-022f77218420"
     }
   ],
-  "duration": 93,
-  "trailer": "mnJegNyAb1w",
-  "year": 2011
+  "collections": [
+    {
+      "title": "Future"
+    }
+  ],
+  "budget": {
+    "value": 32,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 147,
+    "suffix": "million"
+  }
 }

@@ -1,46 +1,77 @@
 {
   "id": "7b8c1be2-c9a4-45b1-a9c6-602f1a13797a",
+  "type": [
+    "Film"
+  ],
   "title": "Avatar: The Way of Water",
   "poster": "avatar_2",
+  "trailer": "o5F8MOz_IDw",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "James Cameron"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "James Cameron"
+        },
+        {
+          "name": "Rick Jaffa"
+        },
+        {
+          "name": "Amanda Silver"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "James Cameron"
+        },
+        {
+          "name": "Jon Landau"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Simon Franglen"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Russell Carpenter"
+        }
+      ]
+    }
+  ],
+  "year": 2022,
+  "countries": [
+    "USA"
   ],
   "production": [
     "20th Century Studios",
     "Lightstorm Entertainment",
     "TSG Entertainment"
   ],
-  "directedBy": [
-    "James Cameron"
-  ],
-  "producedBy": "James Cameron, Jon Landau",
-  "writtenBy": "James Cameron, Rick Jaffa, Amanda Silver",
-  "musicBy": "Simon Franglen",
-  "cinematographyBy": "Russell Carpenter",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 350,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.4,
-    "suffix": "billion"
-  },
-  "synopsis": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
-  "collections": [
-    {
-      "name": "Space"
-    },
-    {
-      "name": "Future"
-    }
-  ],
-  "type": [
-    "Film"
-  ],
+  "duration": 192,
   "cast": [
     {
       "character": {
@@ -157,11 +188,24 @@
       "actorId": "937d3d93-3df6-4eb5-b290-b8fe80d960d8"
     }
   ],
-  "duration": 192,
-  "trailer": "o5F8MOz_IDw",
+  "collections": [
+    {
+      "title": "Space"
+    },
+    {
+      "title": "Future"
+    }
+  ],
+  "budget": {
+    "value": 350,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.4,
+    "suffix": "billion"
+  },
   "parts": {
     "title": "Avatar",
     "part": 2
-  },
-  "year": 2022
+  }
 }

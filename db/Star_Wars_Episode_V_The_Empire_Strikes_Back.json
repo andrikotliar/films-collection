@@ -1,64 +1,70 @@
 {
   "id": "4ecabb50-353e-467a-90e0-d2cd15e49891",
+  "type": [
+    "Film"
+  ],
   "title": "Star Wars Episode V: The Empire Strikes Back",
   "poster": "star_wars_episode_V",
+  "trailer": "JNwNXF9Y6kY",
   "genres": [
     "SpaceOpera",
     "Adventures"
+  ],
+  "synopsis": "After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Irvin Kershner"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Leight Brackett"
+        },
+        {
+          "name": "Lawrence Kasdan"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Gary Kurtz"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Peter Suschitzky"
+        }
+      ]
+    }
+  ],
+  "year": 1980,
+  "countries": [
+    "USA"
   ],
   "production": [
     "20th Century FOX",
     "Lucasfilm"
   ],
-  "directedBy": [
-    "Irvin Kershner"
-  ],
-  "producedBy": "Gary Kurtz",
-  "writtenBy": "Leight Brackett, Lawrence Kasdan",
-  "musicBy": "John Williams",
-  "cinematographyBy": "Peter Suschitzky",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 18,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 248,
-    "suffix": "million"
-  },
-  "synopsis": "After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.",
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Sound"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best DVD Collection",
-        "Best Science Fiction Film",
-        "Best Actor",
-        "Best Director",
-        "Best Special Effects"
-      ]
-    }
-  ],
-  "collections": [
-    {
-      "name": "Star Wars Universe"
-    }
-  ],
-  "parts": {
-    "title": "Star Wars Universe",
-    "part": 7
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 124,
   "cast": [
     {
       "character": {
@@ -124,7 +130,39 @@
       "actorId": "11e3cf6a-7cbb-46ab-a58b-681d70c0d69c"
     }
   ],
-  "duration": 124,
-  "trailer": "JNwNXF9Y6kY",
-  "year": 1980
+  "collections": [
+    {
+      "title": "Star Wars Universe"
+    }
+  ],
+  "budget": {
+    "value": 18,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 248,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Sound"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best DVD Collection",
+        "Best Science Fiction Film",
+        "Best Actor",
+        "Best Director",
+        "Best Special Effects"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Star Wars Universe",
+    "part": 7
+  }
 }
