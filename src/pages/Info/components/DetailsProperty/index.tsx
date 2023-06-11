@@ -17,6 +17,8 @@ const DetailsProperty: FC<DetailsPropertyProps> = ({ details }) => {
         title={details.property}
         types={details.type}
         onClick={() => setOpenedDetails(!openedDetails)}
+        isRequired={details.required}
+        isRequiredPartially={details.requiredPartially}
         isExpanded={openedDetails}
       />
       <div className={classNames('details-property__body', {
@@ -27,12 +29,16 @@ const DetailsProperty: FC<DetailsPropertyProps> = ({ details }) => {
           description={details.description}
           posibleValues={details.possibleValues}
           valueExample={details.valueExample}
+          arrayItemsType={details.arrayItemsType}
         />
         {details.properties && (
           <div className="details-property__nested">
-            {details.properties.map((item) => (
-              <DetailsProperty details={item} key={item.property} />
-            ))}
+            <p><b>Object properties:</b></p>
+            <div className="details-property__nested-wrapper">
+              {details.properties.map((item) => (
+                <DetailsProperty details={item} key={item.property} />
+              ))}
+            </div>
           </div>
         )}
       </div>

@@ -9,31 +9,43 @@ type PropertyHeaderProps = {
   types: DataTypes[];
   onClick(): void;
   isExpanded: boolean;
-}
+  isRequired: boolean;
+  isRequiredPartially?: boolean;
+};
 
 const PropertyHeader: FC<PropertyHeaderProps> = ({
   title,
   types,
   onClick,
-  isExpanded
+  isExpanded,
+  isRequired,
+  isRequiredPartially
 }) => {
   return (
     <button className={classNames('property-header', {
       'property-header--expanded': isExpanded
     })} onClick={onClick}>
       <span className="property-header__title">
-        {title}
+        <span>{title}</span>
+        {isRequired && (
+          <span className="required">*</span>
+        )}
+        {isRequiredPartially && (
+          <span className="required-partialy">*</span>
+        )}
       </span>
-      <div className="property-header__types">
-        {types.map((type, idx) => (
-          <span className={type} key={type + idx}>
-            {type}
-          </span>
-        ))}
+      <div className="property-header__right">
+        <div className="property-header__types property-types">
+          {types.map((type, idx) => (
+            <span className={type} key={type + idx}>
+              {type}
+            </span>
+          ))}
+        </div>
+        <span className="property-header__expander">
+          <ExpandIcon />
+        </span>
       </div>
-      <span className="property-header__expander">
-        <ExpandIcon />
-      </span>
     </button>
   );
 };

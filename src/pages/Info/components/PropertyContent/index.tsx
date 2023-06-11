@@ -7,19 +7,35 @@ type PropertyContentProps = {
   description: string;
   posibleValues?: string[];
   valueExample?: string | string[];
+  arrayItemsType?: string[];
 };
 
 const PropertyContent: FC<PropertyContentProps> = ({
   property,
   description,
   posibleValues,
-  valueExample
+  valueExample,
+  arrayItemsType,
 }) => {
   return (
     <div className="property-content">
       <p className="property-content__description">
         <b>Description:</b> {description}
       </p>
+      {arrayItemsType && (
+        <div className="property-content__possible-values">
+          <b className="property-content__possible-values-title">
+            Array items type:
+          </b>
+          <div className="property-content__possible-values-list property-types">
+            {arrayItemsType.map((type) => (
+              <span className={type} key={type}>
+                {type}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
       {posibleValues && (
         <div className="property-content__possible-values">
           <b className="property-content__possible-values-title">
