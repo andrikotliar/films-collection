@@ -1,7 +1,5 @@
 import './styles.css';
 import { FC, useState } from 'react';
-import { Link } from 'react-router-dom';
-import { buildLink } from '@/heplers';
 import { Season } from '@/types';
 import { ResizableButton } from '@/components';
 
@@ -35,8 +33,6 @@ const Episodes: FC<{ seasons: Season[] }> = ({ seasons }) => {
             <tr className="episodes-table__row">
               <th className="episodes-table__cell" colSpan={2}>Episode</th>
               <th className="episodes-table__cell">Title</th>
-              <th className="episodes-table__cell">Direcred by</th>
-              <th className="episodes-table__cell">Written by</th>
             </tr>
           </thead>
           <tbody className="episodes-table__body">
@@ -50,14 +46,6 @@ const Episodes: FC<{ seasons: Season[] }> = ({ seasons }) => {
                 </td>
                 <td className="episodes-table__cell">
                   {episode.title}
-                </td>
-                <td className="episodes-table__cell episodes-table__cell--small">
-                  <Link to={buildLink('directedBy', episode.directedBy)}>
-                    {episode.directedBy}
-                  </Link>
-                </td>
-                <td className="episodes-table__cell episodes-table__cell--small">
-                  {episode.writtenBy}
                 </td>
               </tr>
             ))}

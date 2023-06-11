@@ -1,5 +1,12 @@
-type FilmType = "Film" | "Animation";
-type SeriesType = "Series" | "Animation";
+type TypeVariants = "Film" | "Animation" | "Series";
+
+type Crew = {
+  role: string;
+  people: {
+    name: string;
+    comment?: string;
+  }[];
+};
 
 type Cast = {
   actorId: string;
@@ -15,7 +22,7 @@ type MoneyValue = {
 }
 
 type Collection = {
-  name: string;
+  title: string;
   order?: number;
 }
 
@@ -31,27 +38,25 @@ type Chapter = {
 
 type Season = {
   season: number;
+  trailer: string;
+  poster: string;
+  year: number;
   episodes: {
     episodeOverall: number;
     episode: number;
     title: string;
-    directedBy: string;
-    writtenBy: string;
   }[];
-  trailer: string;
 }
 
-type BaseFilmData = {
+type FilmData = {
   id: string;
-  title: string;
+  type: TypeVariants[];
   poster: string;
+  trailer?: string;
+  title: string;
   genres: string[];
   production: string[];
-  directedBy: string[];
-  producedBy: string;
-  writtenBy: string;
-  musicBy: string;
-  cinematographyBy?: string;
+  crew: Crew[];
   synopsis: string;
   countries: string[];
   year: number;
@@ -62,27 +67,13 @@ type BaseFilmData = {
   boxoffice?: MoneyValue;
   parts?: Chapter;
   awards?: Award[];
+  seasons?: Season[];
   ordered?: boolean;
 };
 
-type FilmData = BaseFilmData & {
-  type: FilmType;
-  trailer: string;
-};
-
-type SeriesData = BaseFilmData & {
-  type: SeriesType;
-  seasons: Season[];
-}
-
-type GeneralFilm = FilmData | SeriesData;
-
 export type {
-  FilmType,
-  SeriesType,
   FilmData,
-  SeriesData,
-  GeneralFilm,
+  Crew,
   Cast,
   MoneyValue,
   Collection,

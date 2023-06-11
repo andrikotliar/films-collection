@@ -1,6 +1,5 @@
 import './styles.css';
 import { FC, useState } from 'react';
-import classNames from 'classnames';
 import FilmMedia from '../FilmMedia';
 import { Season } from '@/types';
 import { ResizableButton } from '@/components';

@@ -2,10 +2,10 @@ import './styles.css';
 import { FC } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import classNames from 'classnames';
-import { Chapter, GeneralFilm } from '@/types';
+import { Chapter, FilmType } from '@/types';
 
 type ChaptersProps = {
-  data: GeneralFilm[];
+  data: FilmType[];
   parts: Chapter
 }
 

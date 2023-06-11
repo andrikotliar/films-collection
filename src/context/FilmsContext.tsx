@@ -2,12 +2,12 @@ import { FC, PropsWithChildren, createContext, useContext, useEffect, useState }
 import { filterFilms, sliceFilmsByPage } from '@/heplers';
 import { useFilter } from '@/hooks';
 import { filmsSettings } from '@/constants';
-import { GeneralFilm } from '@/types';
+import { FilmData } from '@/types';
 import { FilmAPI } from '@/api';
 
 type FilmsContextType = {
-  initialFilmsList: GeneralFilm[];
-  films: GeneralFilm[];
+  initialFilmsList: FilmData[];
+  films: FilmData[];
   isFilmsLoading: boolean;
   filmsCount: number;
   filterParams: { [key: string]: any };
@@ -26,9 +26,9 @@ const FilmsContext = createContext<FilmsContextType>({} as FilmsContextType);
 export const useFilmsContext = () => useContext(FilmsContext);
 
 const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
-  const [ initialFilmsList, setInitialFilmsList ] = useState<GeneralFilm[]>([]);
+  const [ initialFilmsList, setInitialFilmsList ] = useState<FilmData[]>([]);
   const [ filmsCount, setFilmsCount ] = useState(0);
-  const [ films, setFilms ] = useState<GeneralFilm[]>([]);
+  const [ films, setFilms ] = useState<FilmData[]>([]);
   const [ isFilmsLoading, setIsFilmsLoading ] = useState(true);
   const [ filterParams, setSearchParams ] = useFilter();
   const [ pageData, setPageData ] = useState({
@@ -51,7 +51,7 @@ const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
       const filteredFilms = filterFilms(initialFilmsList, filterParams);
       setFilmsCount(filteredFilms.length);
       const page = filterParams.page ? Number(filterParams.page) : 1;
-      const pageData = sliceFilmsByPage(filteredFilms as GeneralFilm[], page);
+      const pageData = sliceFilmsByPage(filteredFilms, page);
       setFilms(pageData.list);
       setPageData({
         from: pageData.from,
