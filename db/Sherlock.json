@@ -13,39 +13,58 @@
   "synopsis": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
   "crew": [
     {
+      "role": "Created by",
+      "people": [
+        {
+          "name": "Mark Gatiss"
+        },
+        {
+          "name": "Steven Moffat"
+        }
+      ]
+    },
+    {
       "role": "Directed by",
       "people": [
         {
           "name": "Paul McGuigan",
-          "comment": ""
+          "comment": "4 episodes"
         },
         {
           "name": "Euros Lyn",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Toby Haynes",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Jeremy Lovering",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Colm McCarthy",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Nick Hurran",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Rachel Talalay",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Benjamin Caron",
-          "comment": ""
+          "comment": "1 episode"
+        },
+        {
+          "name": "Coky Giedroyc",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Douglas Mackinnon",
+          "comment": "1 episode"
         }
       ]
     },
@@ -54,15 +73,15 @@
       "people": [
         {
           "name": "Steven Moffat",
-          "comment": ""
+          "comment": "9 episodes"
         },
         {
           "name": "Stephen Thompson",
-          "comment": ""
+          "comment": "3 episodes"
         },
         {
           "name": "Mark Gatiss",
-          "comment": ""
+          "comment": "8 episodes"
         }
       ]
     },

@@ -12,11 +12,18 @@
   "synopsis": "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes.",
   "crew": [
     {
+      "role": "Created by",
+      "people": [
+        {
+          "name": "Craig Mazin"
+        }
+      ]
+    },
+    {
       "role": "Directed by",
       "people": [
         {
-          "name": "Johan Renck",
-          "comment": ""
+          "name": "Johan Renck"
         }
       ]
     },
@@ -24,8 +31,7 @@
       "role": "Written by",
       "people": [
         {
-          "name": "Craig Mazin",
-          "comment": ""
+          "name": "Craig Mazin"
         }
       ]
     },

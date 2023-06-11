@@ -16,12 +16,10 @@
       "role": "Directed by",
       "people": [
         {
-          "name": "Pascal Charrue",
-          "comment": ""
+          "name": "Pascal Charrue"
         },
         {
-          "name": "Arnaud Delord",
-          "comment": ""
+          "name": "Arnaud Delord"
         }
       ]
     },
@@ -30,39 +28,35 @@
       "people": [
         {
           "name": "Christian Linke",
-          "comment": ""
-        },
-        {
-          "name": "Alex Yee",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Ash Brannon",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "David Dunne",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Amanda Overton",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Alex Yee",
-          "comment": ""
+          "comment": "3 episodes"
         },
         {
           "name": "Nick Luddington",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Ben St. John",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
-          "name": "Mollie St. John",
-          "comment": ""
+          "name": "Mollie Bickley St. John",
+          "comment": "1 episode"
         }
       ]
     },

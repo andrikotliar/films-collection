@@ -12,11 +12,21 @@
   "synopsis": "A family saga with a supernatural twist, set in a German town, where the disappearance of two young children exposes the relationships among four families.",
   "crew": [
     {
+      "role": "Created by",
+      "people": [
+        {
+          "name": "Baran bo Odar"
+        },
+        {
+          "name": "Jantje Friese"
+        }
+      ]
+    },
+    {
       "role": "Directed by",
       "people": [
         {
-          "name": "Baran bo Odar",
-          "comment": ""
+          "name": "Baran bo Odar"
         }
       ]
     },
@@ -25,27 +35,23 @@
       "people": [
         {
           "name": "Jantje Friese",
-          "comment": ""
+          "comment": "26 episodes"
         },
         {
           "name": "Ronny Schalk",
-          "comment": ""
+          "comment": "5 episodes"
         },
         {
           "name": "Marc O. Seng",
-          "comment": ""
+          "comment": "5 episodes"
         },
         {
           "name": "Martin Behnke",
-          "comment": ""
+          "comment": "5 episodes"
         },
         {
           "name": "Daphne Ferraro",
-          "comment": ""
-        },
-        {
-          "name": "Martin Behnke",
-          "comment": ""
+          "comment": "2 episodes"
         }
       ]
     },

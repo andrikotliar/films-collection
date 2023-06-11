@@ -13,35 +13,50 @@
   "synopsis": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
   "crew": [
     {
+      "role": "Created by",
+      "people": [
+        {
+          "name": "Michael Dante DiMartino"
+        },
+        {
+          "name": "Bryan Konietzko"
+        }
+      ]
+    },
+    {
       "role": "Directed by",
       "people": [
         {
-          "name": "Dave Filoni",
-          "comment": ""
-        },
-        {
-          "name": "Lauren MacMullan",
-          "comment": ""
+          "name": "Michael Dante DiMartino",
+          "comment": "2 episodes"
         },
         {
           "name": "Giancarlo Volpe",
-          "comment": ""
+          "comment": "19 episodes"
+        },
+        {
+          "name": "Dave Filoni",
+          "comment": "9 episodes"
+        },
+        {
+          "name": "Lauren MacMullan",
+          "comment": "11 episodes"
         },
         {
           "name": "Anthony Lioi",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Ethan Spaulding",
-          "comment": ""
+          "comment": "12 episodes"
         },
         {
-          "name": "Michael Dante DiMartino",
-          "comment": ""
+          "name": "Bryan Konietzko",
+          "comment": "1 episode"
         },
         {
           "name": "Joaquim Dos Santos",
-          "comment": ""
+          "comment": "8 episodes"
         }
       ]
     },
@@ -50,79 +65,75 @@
       "people": [
         {
           "name": "Michael Dante DiMartino",
-          "comment": ""
+          "comment": "14 episodes (written by)"
         },
         {
           "name": "Bryan Konietzko",
-          "comment": ""
-        },
-        {
-          "name": "Nick Malis",
-          "comment": ""
+          "comment": "7 episodes (written by)"
         },
         {
           "name": "John O'Bryan",
-          "comment": ""
-        },
-        {
-          "name": "Matthew Hubbard",
-          "comment": ""
+          "comment": "12 episodes"
         },
         {
           "name": "Aaron Ehasz",
-          "comment": ""
+          "comment": "11 episodes"
         },
         {
           "name": "James Eagan",
-          "comment": ""
+          "comment": "5 episodes"
         },
         {
           "name": "Ian Wilcox",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Tim Hedrick",
-          "comment": ""
+          "comment": "10 episodes"
         },
         {
-          "name": "Elizabeth Welch",
-          "comment": ""
+          "name": "Elizabeth Welch Ehasz",
+          "comment": "8 episodes"
         },
         {
           "name": "Joshua Hamilton",
-          "comment": ""
+          "comment": "7 episodes"
         },
         {
           "name": "Joann Estoesta",
-          "comment": ""
+          "comment": "1 episode"
+        },
+        {
+          "name": "Matt Hubbard",
+          "comment": "1 episode"
         },
         {
           "name": "Lisa Wahlander",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Andrew Huebner",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Gary Scheppke",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Katie Mattila",
-          "comment": ""
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Nick Malis",
+          "comment": "1 episode"
         },
         {
           "name": "May Chan",
-          "comment": ""
-        },
-        {
-          "name": "Lauren MacMullan",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Giancarlo Volpe",
-          "comment": ""
+          "comment": "1 episode"
         }
       ]
     },

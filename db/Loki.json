@@ -12,11 +12,27 @@
   "synopsis": "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of «Avengers: Endgame».",
   "crew": [
     {
+      "role": "Created by",
+      "people": [
+        {
+          "name": "Michael Waldron"
+        }
+      ]
+    },
+    {
       "role": "Directed by",
       "people": [
         {
           "name": "Kate Herron",
-          "comment": ""
+          "comment": "6 episodes"
+        },
+        {
+          "name": "Justin Benson",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Aaron Moorhead",
+          "comment": "1 episode"
         }
       ]
     },
@@ -25,23 +41,23 @@
       "people": [
         {
           "name": "Michael Waldron",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Elissa Karasik",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Bisha K. Ali",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Eric Martin",
-          "comment": ""
+          "comment": "8 episodes"
         },
         {
           "name": "Tom Kauffman",
-          "comment": ""
+          "comment": "1 episode"
         }
       ]
     },

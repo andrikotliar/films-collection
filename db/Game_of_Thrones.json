@@ -12,87 +12,94 @@
   "synopsis": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
   "crew": [
     {
+      "role": "Created by",
+      "people": [
+        {
+          "name": "David Benioff"
+        },
+        {
+          "name": "D. B. Weiss"
+        }
+      ]
+    },
+    {
       "role": "Directed by",
       "people": [
         {
-          "name": "Tim Van Patten",
-          "comment": ""
+          "name": "Timothy Van Patten",
+          "comment": "2 episodes"
         },
         {
           "name": "Brian Kirk",
-          "comment": ""
+          "comment": "3 episodes"
         },
         {
           "name": "Daniel Minahan",
-          "comment": ""
+          "comment": "5 episodes"
         },
         {
           "name": "Alan Taylor",
-          "comment": ""
+          "comment": "7 episodes"
         },
         {
           "name": "Alik Sakharov",
-          "comment": ""
+          "comment": "4 episodes"
         },
         {
           "name": "David Petrarca",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "David Nutter",
-          "comment": ""
+          "comment": "9 episodes"
         },
         {
           "name": "Neil Marshall",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "David Benioff",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Alex Graves",
-          "comment": ""
+          "comment": "6 episodes"
         },
         {
           "name": "Michelle MacLaren",
-          "comment": ""
+          "comment": "4 episodes"
         },
         {
           "name": "D. B. Weiss",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Michael Slovis",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Mark Mylod",
-          "comment": ""
+          "comment": "6 episodes"
         },
         {
           "name": "Jeremy Podeswa",
-          "comment": ""
+          "comment": "6 episodes"
         },
         {
           "name": "Miguel Sapochnik",
-          "comment": ""
+          "comment": "6 episodes"
         },
         {
           "name": "Daniel Sackheim",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Jack Bender",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Matt Shakman",
-          "comment": ""
-        },
-        {
-          "name": "David Benioff",
-          "comment": ""
+          "comment": "2 episodes"
         }
       ]
     },
@@ -100,32 +107,32 @@
       "role": "Written by",
       "people": [
         {
+          "name": "George R. R. Martin",
+          "comment": "2 episodes (written by), author of the original book \"A Song of Ice and Fire\""
+        },
+        {
           "name": "David Benioff",
-          "comment": ""
+          "comment": "13 episodes"
         },
         {
           "name": "D. B. Weiss",
-          "comment": ""
+          "comment": "13 episodes"
         },
         {
           "name": "Bryan Cogman",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Jane Espenson",
-          "comment": ""
-        },
-        {
-          "name": "George R. R. Martin",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Vanessa Taylor",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Dave Hill",
-          "comment": ""
+          "comment": "4 episodes"
         }
       ]
     },

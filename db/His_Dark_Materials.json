@@ -15,28 +15,36 @@
       "role": "Directed by",
       "people": [
         {
+          "name": "Jamie Childs",
+          "comment": "6 episodes"
+        },
+        {
+          "name": "William McGregor",
+          "comment": "6 episodes"
+        },
+        {
+          "name": "Amit Gupta",
+          "comment": "4 episodes"
+        },
+        {
           "name": "Tom Hooper",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Dawn Shadforth",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Otto Bathurst",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Euros Lyn",
-          "comment": ""
-        },
-        {
-          "name": "Jamie Childs",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Leanne Welham",
-          "comment": ""
+          "comment": "3 episodes"
         }
       ]
     },
@@ -45,23 +53,27 @@
       "people": [
         {
           "name": "Jack Thorne",
-          "comment": ""
+          "comment": "18 episodes"
         },
         {
           "name": "Francesca Gardiner",
-          "comment": ""
+          "comment": "5 episodes"
+        },
+        {
+          "name": "Amelia Spencer",
+          "comment": "3 episodes"
         },
         {
           "name": "Sarah Quintrell",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Namsi Khan",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Lydia Adetunji",
-          "comment": ""
+          "comment": "1 episode"
         }
       ]
     },

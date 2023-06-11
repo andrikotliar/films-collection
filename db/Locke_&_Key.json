@@ -12,59 +12,69 @@
   "synopsis": "After their father is murdered under mysterious circumstances, the three Locke siblings and their mother move into their ancestral home, Keyhouse, which they discover is full of magical keys that may be connected to their father's death.",
   "crew": [
     {
+      "role": "Created by",
+      "people": [
+        {
+          "name": "Meredith Averill"
+        },
+        {
+          "name": "Carlton Cuse"
+        },
+        {
+          "name": "Aron Eli Coleite"
+        }
+      ]
+    },
+    {
       "role": "Directed by",
       "people": [
         {
           "name": "Michael Morris",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Tim Southam",
-          "comment": ""
-        },
-        {
-          "name": "Mark Tonderai-Hodges",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Dawn Wilkinson",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Vincenzo Natali",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Mark Tonderai",
-          "comment": ""
+          "comment": "6 episodes"
         },
         {
           "name": "Mairzee Almas",
-          "comment": ""
+          "comment": "3 episodes"
         },
         {
           "name": "Carlton Cuse",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Millicent Shelton",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Guy Ferland",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
-          "name": "Ed Ornelas",
-          "comment": ""
+          "name": "Edward Ornelas",
+          "comment": "2 episodes"
         },
         {
           "name": "Marisol Adler",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Jeremy Webb",
-          "comment": ""
+          "comment": "2 episodes"
         }
       ]
     },
@@ -73,55 +83,55 @@
       "people": [
         {
           "name": "Joe Hill",
-          "comment": ""
+          "comment": "17 episodes"
         },
         {
           "name": "Aron Eli Coleite",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Liz Phang",
-          "comment": ""
+          "comment": "5 episodes"
         },
         {
           "name": "Meredith Averill",
-          "comment": ""
+          "comment": "5 episodes"
         },
         {
           "name": "Mackenzie Dohr",
-          "comment": ""
+          "comment": "3 episodes"
         },
         {
           "name": "Andres Fischer-Centeno",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Brett Treacy",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Dan Woodward",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Michael D. Fuller",
-          "comment": ""
+          "comment": "3 episodes"
         },
         {
           "name": "Vanessa Rojas",
-          "comment": ""
+          "comment": "4 episodes"
         },
         {
           "name": "Carlton Cuse",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
-          "name": "Kimi Howl Lee",
-          "comment": ""
+          "name": "Kimi Lee",
+          "comment": "1 episode"
         },
         {
           "name": "Jordan Riggs",
-          "comment": ""
+          "comment": "6 episodes"
         }
       ]
     },

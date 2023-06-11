@@ -13,10 +13,25 @@
   "synopsis": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
   "crew": [
     {
+      "role": "Created by",
+      "people": [
+        {
+          "name": "Matt Duffer"
+        },
+        {
+          "name": "Ross Duffer"
+        }
+      ]
+    },
+    {
       "role": "Directed by",
       "people": [
         {
-          "name": "The Duffer Brothers",
+          "name": "Matt Duffer",
+          "comment": ""
+        },
+        {
+          "name": "Ross Duffer",
           "comment": ""
         },
         {
