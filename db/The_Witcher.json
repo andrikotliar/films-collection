@@ -12,39 +12,47 @@
   "synopsis": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
   "crew": [
     {
+      "role": "Created by",
+      "people": [
+        {
+          "name": "Lauren Schmidt Hissrich"
+        }
+      ]
+    },
+    {
       "role": "Directed by",
       "people": [
         {
           "name": "Alik Sakharov",
-          "comment": ""
+          "comment": "3 episodes"
         },
         {
           "name": "Alex Garcia Lopez",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Charlotte Brändström",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Marc Jobst",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Stephen Surjik",
-          "comment": ""
+          "comment": "3 episodes"
         },
         {
           "name": "Sarah O'Gorman",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Ed Bazalgette",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Louise Hooper",
-          "comment": ""
+          "comment": "2 episodes"
         }
       ]
     },
@@ -53,39 +61,39 @@
       "people": [
         {
           "name": "Lauren Schmidt Hissrich",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Jenny Klein",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Beau DeMayo",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
-          "name": "Declan de Barra",
-          "comment": ""
+          "name": "Declan De Barra",
+          "comment": "2 episodes"
         },
         {
           "name": "Sneha Koorse",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Haily Hall",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Mike Ostrowski",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Clare Higgins",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Matthew D'Ambrosio",
-          "comment": ""
+          "comment": "1 episode"
         }
       ]
     },
@@ -210,7 +218,7 @@
     {
       "season": 1,
       "trailer": "ndl1W4ltcmg",
-      "year": 0,
+      "year": 2019,
       "episodes": [
         {
           "episodeOverall": 1,
@@ -257,7 +265,7 @@
     {
       "season": 2,
       "trailer": "2aMVzFlApa0",
-      "year": 0,
+      "year": 2021,
       "episodes": [
         {
           "episodeOverall": 9,

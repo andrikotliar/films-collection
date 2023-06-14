@@ -28,31 +28,31 @@
       "people": [
         {
           "name": "Matt Duffer",
-          "comment": ""
+          "comment": "23 episodes"
         },
         {
           "name": "Ross Duffer",
-          "comment": ""
+          "comment": "23 episodes"
         },
         {
           "name": "Shawn Levy",
-          "comment": ""
+          "comment": "10 episodes"
         },
         {
           "name": "Andrew Stanton",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Rebecca Thomas",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Uta Briesewitz",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Nimród Antal",
-          "comment": ""
+          "comment": "2 episodes"
         }
       ]
     },
@@ -60,44 +60,48 @@
       "role": "Written by",
       "people": [
         {
-          "name": "The Duffer Brothers",
-          "comment": ""
+          "name": "Matt Duffer",
+          "comment": "11 episodes"
+        },
+        {
+          "name": "Ross Duffer",
+          "comment": "11 episodes"
         },
         {
           "name": "Jessica Mecklenburg",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Justin Doble",
-          "comment": ""
+          "comment": "4 episodes"
         },
         {
           "name": "Alison Tatlock",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Jessie Nickson-Lopez",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Paul Dichter",
-          "comment": ""
+          "comment": "4 episodes"
         },
         {
           "name": "Kate Trefry",
-          "comment": ""
+          "comment": "18 episodes"
         },
         {
           "name": "William Bridges",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Curtis Gwinn",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Caitlin Schneiderhan",
-          "comment": ""
+          "comment": "9 episodes"
         }
       ]
     },
@@ -263,7 +267,7 @@
     {
       "season": 1,
       "trailer": "b9EkMc79ZSU",
-      "year": 0,
+      "year": 2016,
       "episodes": [
         {
           "episodeOverall": 1,
@@ -310,7 +314,7 @@
     {
       "season": 2,
       "trailer": "R1ZXOOLMJ8s",
-      "year": 0,
+      "year": 2017,
       "episodes": [
         {
           "episodeOverall": 9,
@@ -362,7 +366,7 @@
     {
       "season": 3,
       "trailer": "6Am4v0C_z8c",
-      "year": 0,
+      "year": 2019,
       "episodes": [
         {
           "episodeOverall": 18,
@@ -409,7 +413,7 @@
     {
       "season": 4,
       "trailer": "a3thyAnShck",
-      "year": 0,
+      "year": 2022,
       "episodes": [
         {
           "episodeOverall": 26,

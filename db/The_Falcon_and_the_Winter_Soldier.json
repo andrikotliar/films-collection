@@ -15,8 +15,7 @@
       "role": "Directed by",
       "people": [
         {
-          "name": "Kari Skogland",
-          "comment": ""
+          "name": "Kari Skogland"
         }
       ]
     },
@@ -25,23 +24,23 @@
       "people": [
         {
           "name": "Malcolm Spellman",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Michael Kastelein",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Derek Kolstad",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Dalan Musson",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Josef Sawyer",
-          "comment": ""
+          "comment": "1 episode"
         }
       ]
     },
@@ -176,7 +175,7 @@
     {
       "season": 1,
       "trailer": "IWBsDaFWyTE",
-      "year": 0,
+      "year": 2021,
       "episodes": [
         {
           "episodeOverall": 1,

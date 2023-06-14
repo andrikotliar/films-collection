@@ -12,55 +12,63 @@
   "synopsis": "A family of former child heroes, now grown apart, must reunite to continue to protect the world.",
   "crew": [
     {
+      "role": "Created by",
+      "people": [
+        {
+          "name": "Jeremy Slater"
+        }
+      ]
+    },
+    {
       "role": "Directed by",
       "people": [
         {
           "name": "Peter Hoar",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Andrew Bernstein",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Ellen Kuras",
-          "comment": ""
+          "comment": "4 episodes"
         },
         {
           "name": "Stephen Surjik",
-          "comment": ""
+          "comment": "4 episodes"
         },
         {
           "name": "Jeremy Webb",
-          "comment": ""
+          "comment": "4 episodes"
         },
         {
           "name": "Sylvain White",
-          "comment": ""
+          "comment": "3 episodes"
         },
         {
           "name": "Tom Verica",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Amanda Marsalis",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Cheryl Dunye",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
-          "name": "Jeff F. King",
-          "comment": ""
+          "name": "Jeff King",
+          "comment": "2 episodes"
         },
         {
           "name": "Kate Woods",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Paco Cabezas",
-          "comment": ""
+          "comment": "2 episodes"
         }
       ]
     },
@@ -69,71 +77,71 @@
       "people": [
         {
           "name": "Jeremy Slater",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Steve Blackman",
-          "comment": ""
+          "comment": "3 episodes"
         },
         {
           "name": "Ben Nedivi",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Matt Wolpert",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Lauren Schmidt Hissrich",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
-          "name": "Bob DeLaurentis",
-          "comment": ""
+          "name": "Bob De Laurentis",
+          "comment": "2 episodes"
         },
         {
           "name": "Sneha Koorse",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Eric W. Phillips",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Mark Goffman",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Jesse McKeown",
-          "comment": ""
+          "comment": "4 episodes"
         },
         {
           "name": "Bronwyn Garrity",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Robert Askins",
-          "comment": ""
+          "comment": "5 episodes"
         },
         {
           "name": "Aeryn Michelle Williams",
-          "comment": ""
+          "comment": "3 episodes"
         },
         {
           "name": "Nikki Schiefelbein",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Elizabeth Padden",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Lauren Otero",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Michelle Lovretta",
-          "comment": ""
+          "comment": "2 episodes"
         }
       ]
     },
@@ -290,7 +298,7 @@
     {
       "season": 1,
       "trailer": "0DAmWHxeoKw",
-      "year": 0,
+      "year":2019,
       "episodes": [
         {
           "episodeOverall": 1,
@@ -347,7 +355,7 @@
     {
       "season": 2,
       "trailer": "SGgXLbZnr1Y",
-      "year": 0,
+      "year": 2020,
       "episodes": [
         {
           "episodeOverall": 11,
@@ -404,7 +412,7 @@
     {
       "season": 3,
       "trailer": "hs6alRuY1UU",
-      "year": 0,
+      "year": 2022,
       "episodes": [
         {
           "episodeOverall": 21,

@@ -446,7 +446,7 @@
     {
       "season": 1,
       "trailer": "9AX6aXFdTkc",
-      "year": 0,
+      "year": 2006,
       "episodes": [
         {
           "episodeOverall": 1,
@@ -568,7 +568,7 @@
     {
       "season": 2,
       "trailer": "9mNGxXpAmHc",
-      "year": 0,
+      "year": 2007,
       "episodes": [
         {
           "episodeOverall": 24,
@@ -628,9 +628,9 @@
       ]
     },
     {
-      "season": 3,
+      "season": 3.1,
       "trailer": "i1VA_aWyrPI",
-      "year": 0,
+      "year": 2008,
       "episodes": [
         {
           "episodeOverall": 60,
@@ -725,9 +725,9 @@
       ]
     },
     {
-      "season": 4,
+      "season": 3.2,
       "trailer": "mTzPPIEUFEs",
-      "year": 0,
+      "year": 2009,
       "episodes": [
         {
           "episodeOverall": 35,
@@ -797,9 +797,9 @@
       ]
     },
     {
-      "season": 5,
+      "season": 4,
       "trailer": "mTzPPIEUFEs",
-      "year": 0,
+      "year": 2009,
       "episodes": [
         {
           "episodeOverall": 48,

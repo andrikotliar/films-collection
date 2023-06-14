@@ -12,31 +12,42 @@
   "synopsis": "Avatar Korra fights to keep Republic City safe from the evil forces of both the physical and spiritual worlds.",
   "crew": [
     {
+      "role": "Created by",
+      "people": [
+        {
+          "name": "Michael Dante DiMartino"
+        },
+        {
+          "name": "Bryan Konietzko"
+        }
+      ]
+    },
+    {
       "role": "Directed by",
       "people": [
         {
           "name": "Joaquim Dos Santos",
-          "comment": ""
+          "comment": "12 episodes"
         },
         {
           "name": "Ki Hyun Ryu",
-          "comment": ""
+          "comment": "12 episodes"
         },
         {
           "name": "Colin Heck",
-          "comment": ""
+          "comment": "15 episodes"
         },
         {
           "name": "Ian Graham",
-          "comment": ""
+          "comment": "15 episodes"
         },
         {
           "name": "Melchior Zwyer",
-          "comment": ""
+          "comment": "9 episodes"
         },
         {
           "name": "Michael Dante DiMartino",
-          "comment": ""
+          "comment": "1 episode"
         }
       ]
     },
@@ -45,23 +56,23 @@
       "people": [
         {
           "name": "Michael Dante DiMartino",
-          "comment": ""
+          "comment": "22 episodes"
         },
         {
           "name": "Bryan Konietzko",
-          "comment": ""
+          "comment": "12 episodes"
         },
         {
           "name": "Tim Hedrick",
-          "comment": ""
+          "comment": "15 episodes"
         },
         {
           "name": "Joshua Hamilton",
-          "comment": ""
+          "comment": "15 episodes"
         },
         {
           "name": "Katie Mattila",
-          "comment": ""
+          "comment": "3 episodes"
         }
       ]
     },
@@ -257,7 +268,7 @@
     {
       "season": 1,
       "trailer": "NBNpGCIavwA",
-      "year": 0,
+      "year": 2012,
       "episodes": [
         {
           "episodeOverall": 1,
@@ -324,7 +335,7 @@
     {
       "season": 2,
       "trailer": "NBNpGCIavwA",
-      "year": 0,
+      "year": 2013,
       "episodes": [
         {
           "episodeOverall": 13,
@@ -401,7 +412,7 @@
     {
       "season": 3,
       "trailer": "NBNpGCIavwA",
-      "year": 0,
+      "year": 2014,
       "episodes": [
         {
           "episodeOverall": 27,
@@ -473,7 +484,7 @@
     {
       "season": 4,
       "trailer": "NBNpGCIavwA",
-      "year": 0,
+      "year": 2014,
       "episodes": [
         {
           "episodeOverall": 40,

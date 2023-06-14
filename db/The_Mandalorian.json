@@ -12,43 +12,63 @@
   "synopsis": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
   "crew": [
     {
+      "role": "Created by",
+      "people": [
+        {
+          "name": "Jon Favreau"
+        }
+      ]
+    },
+    {
       "role": "Directed by",
       "people": [
         {
           "name": "Dave Filoni",
-          "comment": ""
+          "comment": "3 episodes"
         },
         {
           "name": "Rick Famuyiwa",
-          "comment": ""
+          "comment": "6 episodes"
         },
         {
           "name": "Deborah Chow",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Bryce Dallas Howard",
-          "comment": ""
+          "comment": "3 episodes"
         },
         {
           "name": "Taika Waititi",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Jon Favreau",
-          "comment": ""
+          "comment": "1 episode"
         },
         {
           "name": "Peyton Reed",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Carl Weathers",
-          "comment": ""
+          "comment": "2 episodes"
         },
         {
           "name": "Robert Rodriguez",
-          "comment": ""
+          "comment": "1 episode"
+        },
+        {
+          "name": "Lee Isaac Chung",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Rachel Morrison",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Peter Ramsey",
+          "comment": "1 episode"
         }
       ]
     },
@@ -57,19 +77,23 @@
       "people": [
         {
           "name": "Jon Favreau",
-          "comment": ""
+          "comment": "20 episodes"
         },
         {
           "name": "Dave Filoni",
-          "comment": ""
+          "comment": "4 episodes"
         },
         {
-          "name": "Christopher Yost",
-          "comment": ""
+          "name": "Christopher L. Yost",
+          "comment": "1 episode"
         },
         {
           "name": "Rick Famuyiwa",
-          "comment": ""
+          "comment": "1 episode"
+        },
+        {
+          "name": "Noah Kloor",
+          "comment": "1 episode"
         }
       ]
     },
@@ -217,7 +241,7 @@
     {
       "season": 1,
       "trailer": "OFlBh_eUsjA",
-      "year": 0,
+      "year": 2019,
       "episodes": [
         {
           "episodeOverall": 1,
@@ -264,7 +288,7 @@
     {
       "season": 2,
       "trailer": "eW7Twd85m2g",
-      "year": 0,
+      "year": 2020,
       "episodes": [
         {
           "episodeOverall": 9,

@@ -12,11 +12,18 @@
   "synopsis": "Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s USA. But child stardom comes at a price.",
   "crew": [
     {
+      "role": "Created by",
+      "people": [
+        {
+          "name": "Scott Frank"
+        }
+      ]
+    },
+    {
       "role": "Directed by",
       "people": [
         {
-          "name": "Scott Frank",
-          "comment": ""
+          "name": "Scott Frank"
         }
       ]
     },
@@ -24,8 +31,7 @@
       "role": "Written by",
       "people": [
         {
-          "name": "Scott Frank",
-          "comment": ""
+          "name": "Scott Frank"
         }
       ]
     },
@@ -155,7 +161,7 @@
     {
       "season": 1,
       "trailer": "oZn3qSgmLqI",
-      "year": 0,
+      "year": 2020,
       "episodes": [
         {
           "episodeOverall": 1,
