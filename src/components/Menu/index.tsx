@@ -10,12 +10,6 @@ type MenuProps = {
 
 const menu = [
   {
-    title: 'Home',
-    route: '/',
-    icon: <HomeIcon />,
-    visible: true
-  },
-  {
     title: 'Statistic',
     route: '/stats',
     icon: <StatsIcon />,
