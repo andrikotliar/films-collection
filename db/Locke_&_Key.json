@@ -300,7 +300,8 @@
           "episode": 10,
           "title": "Crown of Shadows"
         }
-      ]
+      ],
+      "poster": "locke_key"
     },
     {
       "season": 2,
@@ -357,7 +358,8 @@
           "episode": 10,
           "title": "Cliffhanger"
         }
-      ]
+      ],
+      "poster": "locke_key_s2"
     },
     {
       "season": 3,
@@ -404,7 +406,8 @@
           "episode": 8,
           "title": "Farewell"
         }
-      ]
+      ],
+      "poster": "locke_key_s3"
     }
   ]
 }

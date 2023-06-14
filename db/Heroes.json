@@ -563,7 +563,8 @@
           "episode": 23,
           "title": "How to Stop an Exploding Man"
         }
-      ]
+      ],
+      "poster": "heroes"
     },
     {
       "season": 2,
@@ -625,7 +626,8 @@
           "episode": 11,
           "title": "Powerless"
         }
-      ]
+      ],
+      "poster": "heroes_s2"
     },
     {
       "season": 3.1,
@@ -722,7 +724,8 @@
           "episode": 18,
           "title": "Brave New World"
         }
-      ]
+      ],
+      "poster": "heroes_s3.1"
     },
     {
       "season": 3.2,
@@ -794,7 +797,8 @@
           "episode": 13,
           "title": "Dual"
         }
-      ]
+      ],
+      "poster": "heroes_s3.2"
     },
     {
       "season": 4,
@@ -861,7 +865,8 @@
           "episode": 25,
           "title": "An Invisible Thread"
         }
-      ]
+      ],
+      "poster": "heroes_s4"
     }
   ]
 }

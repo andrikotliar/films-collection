@@ -722,7 +722,8 @@
           "episode": 13,
           "title": "We Are Grounders – Part II"
         }
-      ]
+      ],
+      "poster": "hundred"
     },
     {
       "season": 2,
@@ -809,7 +810,8 @@
           "episode": 16,
           "title": "Blood Must Have Blood: Part Two"
         }
-      ]
+      ],
+      "poster": "hundred_s2"
     },
     {
       "season": 3,
@@ -896,7 +898,8 @@
           "episode": 16,
           "title": "Perverse Instantiation – Part Two"
         }
-      ]
+      ],
+      "poster": "hundred_s3"
     },
     {
       "season": 4,
@@ -968,7 +971,8 @@
           "episode": 13,
           "title": "Praimfaya"
         }
-      ]
+      ],
+      "poster": "hundred_s4"
     },
     {
       "season": 5,
@@ -1040,7 +1044,8 @@
           "episode": 13,
           "title": "Damocles – Part Two"
         }
-      ]
+      ],
+      "poster": "hundred_s5"
     },
     {
       "season": 6,
@@ -1112,7 +1117,8 @@
           "episode": 13,
           "title": "The Blood of Sanctum"
         }
-      ]
+      ],
+      "poster": "hundred_s6"
     },
     {
       "season": 7,
@@ -1199,7 +1205,8 @@
           "episode": 16,
           "title": "The Last War"
         }
-      ]
+      ],
+      "poster": "hundred_s7"
     }
   ]
 }

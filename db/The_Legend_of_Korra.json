@@ -330,7 +330,8 @@
           "episode": 12,
           "title": "Endgame"
         }
-      ]
+      ],
+      "poster": "legend_of_korra"
     },
     {
       "season": 2,
@@ -407,7 +408,8 @@
           "episode": 14,
           "title": "Light in the Dark"
         }
-      ]
+      ],
+      "poster": "legend_of_korra_s2"
     },
     {
       "season": 3,
@@ -479,7 +481,8 @@
           "episode": 13,
           "title": "Venom of the Red Lotus"
         }
-      ]
+      ],
+      "poster": "legend_of_korra_s3"
     },
     {
       "season": 4,
@@ -551,7 +554,8 @@
           "episode": 13,
           "title": "The Last Stand"
         }
-      ]
+      ],
+      "poster": "legend_of_korra_s4"
     }
   ]
 }

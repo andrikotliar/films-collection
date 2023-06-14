@@ -347,7 +347,8 @@
           "episode": 10,
           "title": "Alpha and Omega"
         }
-      ]
+      ],
+      "poster": "dark"
     },
     {
       "season": 2,
@@ -394,7 +395,8 @@
           "episode": 8,
           "title": "Endings and Beginnings"
         }
-      ]
+      ],
+      "poster": "dark_s2"
     },
     {
       "season": 3,
@@ -441,7 +443,8 @@
           "episode": 8,
           "title": "Paradise"
         }
-      ]
+      ],
+      "poster": "dark_s3"
     }
   ]
 }

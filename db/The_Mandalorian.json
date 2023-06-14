@@ -283,7 +283,8 @@
           "episode": 8,
           "title": "Chapter 8: Redemption"
         }
-      ]
+      ],
+      "poster": "mandalorian"
     },
     {
       "season": 2,
@@ -330,7 +331,8 @@
           "episode": 8,
           "title": "Chapter 16: The Rescue"
         }
-      ]
+      ],
+      "poster": "mandalorian_s2"
     }
   ]
 }

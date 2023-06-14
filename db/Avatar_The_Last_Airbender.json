@@ -409,7 +409,8 @@
           "episode": 20,
           "title": "The Siege of the North, Part 2"
         }
-      ]
+      ],
+      "poster": "last_airbender"
     },
     {
       "season": 2,
@@ -516,7 +517,8 @@
           "episode": 20,
           "title": "The Crossroads of Destiny"
         }
-      ]
+      ],
+      "poster": "last_airbender_s2"
     },
     {
       "season": 3,
@@ -628,7 +630,8 @@
           "episode": 21,
           "title": "Sozin's Comet, Part 4: Avatar Aang"
         }
-      ]
+      ],
+      "poster": "last_airbender_s3"
     }
   ]
 }

@@ -309,7 +309,8 @@
           "episode": 8,
           "title": "Chapter Eight: The Upside Down"
         }
-      ]
+      ],
+      "poster": "stranger_things"
     },
     {
       "season": 2,
@@ -361,7 +362,8 @@
           "episode": 9,
           "title": "Chapter Nine: The Gate"
         }
-      ]
+      ],
+      "poster": "stranger_things_s2"
     },
     {
       "season": 3,
@@ -408,7 +410,8 @@
           "episode": 8,
           "title": "Chapter Eight: The Battle of Starcourt"
         }
-      ]
+      ],
+      "poster": "stranger_things_s3"
     },
     {
       "season": 4,
@@ -460,7 +463,8 @@
           "episode": 9,
           "title": "Chapter Nine: The Piggyback"
         }
-      ]
+      ],
+      "poster": "stranger_things_s4"
     }
   ]
 }

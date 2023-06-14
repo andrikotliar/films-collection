@@ -567,7 +567,8 @@
           "episode": 10,
           "title": "Fire, Blood"
         }
-      ]
+      ],
+      "poster": "got"
     },
     {
       "season": 2,
@@ -624,7 +625,8 @@
           "episode": 10,
           "title": "Valar Morghulis"
         }
-      ]
+      ],
+      "poster": "got_s2"
     },
     {
       "season": 3,
@@ -681,7 +683,8 @@
           "episode": 10,
           "title": "Mhysa"
         }
-      ]
+      ],
+      "poster": "got_s3"
     },
     {
       "season": 4,
@@ -738,7 +741,8 @@
           "episode": 10,
           "title": "The Children"
         }
-      ]
+      ],
+      "poster": "got_s4"
     },
     {
       "season": 5,
@@ -795,7 +799,8 @@
           "episode": 10,
           "title": "Mother's Mercy"
         }
-      ]
+      ],
+      "poster": "got_s5"
     },
     {
       "season": 6,
@@ -852,7 +857,8 @@
           "episode": 10,
           "title": "The Winds of Winter"
         }
-      ]
+      ],
+      "poster": "got_s6"
     },
     {
       "season": 7,
@@ -894,7 +900,8 @@
           "episode": 7,
           "title": "The Dragon, the Wolf"
         }
-      ]
+      ],
+      "poster": "got_s7"
     },
     {
       "season": 8,
@@ -931,7 +938,8 @@
           "episode": 6,
           "title": "The Iron Throne"
         }
-      ]
+      ],
+      "poster": "got_s8"
     }
   ]
 }

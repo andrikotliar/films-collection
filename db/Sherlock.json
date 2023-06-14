@@ -229,7 +229,8 @@
           "episode": 3,
           "title": "The Great Game"
         }
-      ]
+      ],
+      "poster": "sherlock"
     },
     {
       "season": 2,
@@ -251,7 +252,8 @@
           "episode": 3,
           "title": "The Reichenbach Fall"
         }
-      ]
+      ],
+      "poster": "sherlock_s2"
     },
     {
       "season": 3,
@@ -273,7 +275,8 @@
           "episode": 3,
           "title": "His Last Vow"
         }
-      ]
+      ],
+      "poster": "sherlock_s3"
     },
     {
       "season": 4,
@@ -295,7 +298,8 @@
           "episode": 3,
           "title": "The Final Problem"
         }
-      ]
+      ],
+      "poster": "sherlock_s4"
     }
   ]
 }
