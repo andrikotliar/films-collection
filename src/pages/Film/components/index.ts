@@ -11,6 +11,7 @@ import Episodes from './Episodes';
 import SectionTitle from './SectionTitle';
 import Synopsis from './Synopsis';
 import SeriesMedia from './SeriesMedia';
+import ExtraDetails from '@/pages/Film/components/ExtraDetails';
 
 export {
   FilmTitle,
@@ -25,5 +26,6 @@ export {
   Episodes,
   Synopsis,
   SeriesMedia,
-  CrewList
+  CrewList,
+  ExtraDetails
 };

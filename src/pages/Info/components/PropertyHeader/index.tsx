@@ -37,7 +37,7 @@ const PropertyHeader: FC<PropertyHeaderProps> = ({
       <div className="property-header__right">
         <div className="property-header__types property-types">
           {types.map((type, idx) => (
-            <span className={type} key={type + idx}>
+            <span className={type} key={idx}>
               {type}
             </span>
           ))}

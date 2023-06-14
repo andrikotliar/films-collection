@@ -3,6 +3,7 @@ import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { buildLink } from '@/heplers';
 import { Crew } from '@/types';
+import { InfoIcon } from '@/assets/icons';
 
 const CrewItem: FC<{ crewItem: Crew }> = ({
   crewItem
@@ -12,17 +13,23 @@ const CrewItem: FC<{ crewItem: Crew }> = ({
       <h3 className="crew-item__title">
         {crewItem.role}
       </h3>
-      <div className="crew-item__list">
+      <ul className="crew-item__list">
         {crewItem.people.map((person, idx) => (
-          <Link
-            to={buildLink('crew', JSON.stringify({ [crewItem.role]: person.name }))}
-            key={person.name + idx}
-            className="crew-item__link"
-          >
-            {person.name}
-          </Link>
+          <li className="crew-item__person" key={idx}>
+            <Link
+              to={buildLink('crew', JSON.stringify({ [crewItem.role]: person.name }))}
+              className="crew-item__link"
+            >
+              {person.name}
+            </Link>
+            {person.comment && (
+              <span className="crew-item__person-comment">
+                ({person.comment})
+              </span>
+            )}
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
   );
 };

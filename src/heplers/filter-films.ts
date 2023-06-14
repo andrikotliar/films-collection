@@ -36,8 +36,8 @@ export const filterFilms = (list: FilmData[], filterParams: any): FilmData[] => 
           return film.year === Number(params[property]);
         }
   
-        if(property === 'collections') {
-          return film.collections.some(collection => collection.title === params.collections);
+        if(property === 'collections' || property === 'awards') {
+          return film[property]?.some(item => item.title === params[property]);
         }
   
         if(property === 'actorId') {

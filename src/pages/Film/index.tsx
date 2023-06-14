@@ -17,7 +17,8 @@ import {
   SectionTitle,
   SeriesMedia,
   FilmMedia,
-  CrewList
+  CrewList,
+  ExtraDetails
 } from './components';
 
 const Film = () => {
@@ -68,28 +69,24 @@ const Film = () => {
           <SeriesMedia
             seasons={film.seasons}
             title={film.title}
-            poster={film.poster}
           />
         )}
 
         <Synopsis text={film.synopsis} />
         
-        <section>
-          <SectionTitle>Crew</SectionTitle>
-          <CrewList crew={film.crew} />
-        </section>
-      
-        {film.awards ? (
-          <section>
-            <SectionTitle>Awards</SectionTitle>
-            <Awards awards={film.awards} />
-          </section>
-        ) : null}
+        <CrewList crew={film.crew} />
       
         <section>
           <SectionTitle>Cast and characters</SectionTitle>
           <Cast cast={film.cast} />
         </section>
+
+        {film.awards && (
+          <section>
+            <SectionTitle>Awards</SectionTitle>
+            <Awards awards={film.awards} />
+          </section>
+        )}
         
         {film.seasons && (
           <section>
@@ -100,6 +97,7 @@ const Film = () => {
         
         <section>
           <SectionTitle>Extra Details</SectionTitle>
+          <ExtraDetails filmData={film} />
         </section>
         
         {film.parts && (
