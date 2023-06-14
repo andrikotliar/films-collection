@@ -1,13 +1,13 @@
 import FilmsList from "./FilmsList";
 import Filters from "./Filters";
-import ListHeader from "./ListHeader";
+import SelectedFilters from "./SelectedFilters";
 import Pagination from "./Pagination";
 import Sidebar from "./Sidebar";
 
 export {
   FilmsList,
   Filters,
-  ListHeader,
+  SelectedFilters,
   Pagination,
   Sidebar,
 };

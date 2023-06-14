@@ -2,9 +2,9 @@ import './styles.css';
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useFilmsContext } from "@/context/FilmsContext";
-import { Loader } from "@/components";
-import ListHeader from '../ListHeader';
+import SelectedFilters from '../SelectedFilters';
 import Pagination from '../Pagination';
+import FilmListSkeleton from '@/pages/Main/components/FilmListSkeleton';
 
 const FilmsList = () => {
   const {
@@ -18,8 +18,8 @@ const FilmsList = () => {
 
   return (
     <div className="list-container">
-      <ListHeader />
-      {isFilmsLoading && <Loader className="list-loader" />}
+      <SelectedFilters />
+      {isFilmsLoading && <FilmListSkeleton />}
       {films.length === 0 && <p className="list-empty">Films not found.</p>}
       <div className="list">
         {films.map(film => (
