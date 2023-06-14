@@ -7,6 +7,10 @@
   margin: 0 auto;
 }
 
+.list-loader {
+  height: calc(100vh - 40px - var(--header-height))!important;
+}
+
 .list {
   --cols: 5;
   display: grid;

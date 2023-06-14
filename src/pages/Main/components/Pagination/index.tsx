@@ -3,7 +3,7 @@ import { useFilmsContext } from "@/context/FilmsContext";
 import classNames from "classnames";
 import { filmsSettings } from "@/constants";
 
-const Pager = () => {
+const Pagination = () => {
   const {
     getCurrentPage,
     filmsCount,
@@ -26,7 +26,7 @@ const Pager = () => {
   }
 
   return (
-    <div className="pager">
+    <div className="pagination">
       {pagesList(filmsCount).map((pageNumber) => (
         <button
           className={classNames(
@@ -45,4 +45,4 @@ const Pager = () => {
   );
 };
 
-export default Pager;
+export default Pagination;

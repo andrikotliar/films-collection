@@ -46,11 +46,7 @@ const Film = () => {
   }, [id, initialFilmsList]);
 
   if(film === null) {
-    return (
-      <article className="film">
-        <Loader />
-      </article>
-    );
+    return <Loader />;
   }
   
   return (
@@ -104,7 +100,6 @@ const Film = () => {
         
         <section>
           <SectionTitle>Extra Details</SectionTitle>
-          {/* <ExtraDetails filmData={film} /> */}
         </section>
         
         {film.parts && (

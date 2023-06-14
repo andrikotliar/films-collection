@@ -1,4 +1,4 @@
-import { Sidebar, FilmsList } from '@/components';
+import { Sidebar, FilmsList } from './components';
 import { setBrowserTitle } from '@/heplers';
 import './styles.css';
 

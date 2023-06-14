@@ -1,9 +1,10 @@
 import './styles.css';
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useFilmsContext } from "@/context/FilmsContext";
-import { Loader, Pager } from "@/components";
-import { useEffect } from "react";
+import { Loader } from "@/components";
 import ListHeader from '../ListHeader';
+import Pagination from '../Pagination';
 
 const FilmsList = () => {
   const {
@@ -18,7 +19,7 @@ const FilmsList = () => {
   return (
     <div className="list-container">
       <ListHeader />
-      {isFilmsLoading && <Loader />}
+      {isFilmsLoading && <Loader className="list-loader" />}
       {films.length === 0 && <p className="list-empty">Films not found.</p>}
       <div className="list">
         {films.map(film => (
@@ -47,7 +48,7 @@ const FilmsList = () => {
           </Link>
         ))}
       </div>
-      <Pager />
+      <Pagination />
     </div>
   );
 };
