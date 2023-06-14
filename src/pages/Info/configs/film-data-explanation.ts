@@ -285,6 +285,13 @@ export const filmDataExplanation: DataExplanation[] = [
         valueExample: 'a3thyAnShck',
       },
       {
+        property: 'poster',
+        type: ['string'],
+        required: true,
+        description: 'File name without extension. Files are stored by the /public/posters path and should have the .webp extension',
+        valueExample: 'stranger_things_s2',
+      },
+      {
         property: 'year',
         type: ['number'],
         required: true,
