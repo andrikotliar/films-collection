@@ -48,7 +48,7 @@ export const filterFilms = (list: FilmData[], filterParams: any): FilmData[] => 
           return false;
         }
   
-        return film[property].some((item: string) => params[property].includes(item));
+        return (film as any)[property].some((item: string) => params[property].includes(item));
       });
       if(match) {
         return true;
