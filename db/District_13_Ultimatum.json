@@ -1,44 +1,68 @@
 {
   "id": "f7ffba16-2199-4247-b902-1d17da94cc9a",
+  "type": [
+    "Film"
+  ],
   "title": "District 13: Ultimatum",
   "poster": "d13_2",
+  "trailer": "jDDFNpj9xBQ",
   "genres": [
     "Action"
+  ],
+  "synopsis": "Damien and Leito return to District 13 on a mission to bring peace to the troubled sector that is controlled by five different gang bosses, before the city's secret services take drastic measures to solve the problem.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Patrick Alessandrin"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Luc Besson"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Luc Besson"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Damien Roques"
+        },
+        {
+          "name": "Trak Invasion"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Jean-François Hensgens"
+        }
+      ]
+    }
+  ],
+  "year": 2009,
+  "countries": [
+    "USA"
   ],
   "production": [
     "EuropaCorp"
   ],
-  "directedBy": [
-    "Patrick Alessandrin"
-  ],
-  "producedBy": "Luc Besson",
-  "writtenBy": "Luc Besson",
-  "musicBy": "Damien Roques, Trak Invasion",
-  "cinematographyBy": "Jean-François Hensgens",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 14,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 14,
-    "suffix": "million"
-  },
-  "synopsis": "Damien and Leito return to District 13 on a mission to bring peace to the troubled sector that is controlled by five different gang bosses, before the city's secret services take drastic measures to solve the problem.",
-  "collections": [
-    {
-      "name": "Dystopia"
-    }
-  ],
-  "parts": {
-    "title": "District 13",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 106,
   "cast": [
     {
       "character": {
@@ -97,7 +121,21 @@
       "actorId": "13ffb0cf-a767-4d8e-805b-2f0084761b92"
     }
   ],
-  "duration": 106,
-  "trailer": "jDDFNpj9xBQ",
-  "year": 2009
+  "collections": [
+    {
+      "title": "Dystopia"
+    }
+  ],
+  "budget": {
+    "value": 14,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 14,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "District 13",
+    "part": 2
+  }
 }

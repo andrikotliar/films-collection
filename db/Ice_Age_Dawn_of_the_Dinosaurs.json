@@ -1,45 +1,71 @@
 {
   "id": "eac23066-3be8-4fde-81f8-7ad97272d1ec",
+  "type": [
+    "Animation"
+  ],
   "title": "Ice Age: Dawn of the Dinosaurs",
   "poster": "ice_age_3",
+  "trailer": "Y_nSwh2WjAM",
   "genres": [
     "Adventures",
     "Comedy"
+  ],
+  "synopsis": "When Sid's attempt to adopt three dinosaur eggs gets him abducted by their real mother to an underground lost world, his friends attempt to rescue him.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Carlos Saldanha"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Michael Berg"
+        },
+        {
+          "name": "Peter Ackerman"
+        },
+        {
+          "name": "Mike Reiss"
+        },
+        {
+          "name": "Yoni Brenner"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Lori Forte"
+        },
+        {
+          "name": "John C. Donkin"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Powell"
+        }
+      ]
+    }
+  ],
+  "year": 2009,
+  "countries": [
+    "USA"
   ],
   "production": [
     "20th Century FOX",
     "Blue Sky Studios"
   ],
-  "directedBy": [
-    "Carlos Saldanha"
-  ],
-  "producedBy": "Lori Forte, John C. Donkin",
-  "writtenBy": "Michael Berg, Peter Ackerman, Mike Reiss, Yoni Brenner",
-  "musicBy": "John Powell",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 90,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 886,
-    "suffix": "million"
-  },
-  "synopsis": "When Sid's attempt to adopt three dinosaur eggs gets him abducted by their real mother to an underground lost world, his friends attempt to rescue him.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
-  ],
-  "parts": {
-    "title": "Ice Age",
-    "part": 3
-  },
-  "type": [
-    "Animation"
-  ],
+  "duration": 94,
   "cast": [
     {
       "character": {
@@ -105,7 +131,21 @@
       "actorId": "220494d5-3135-45c8-93e5-5cc6f98ad6de"
     }
   ],
-  "duration": 94,
-  "trailer": "Y_nSwh2WjAM",
-  "year": 2009
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 90,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 886,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Ice Age",
+    "part": 3
+  }
 }

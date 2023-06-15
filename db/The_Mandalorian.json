@@ -1,177 +1,154 @@
 {
   "id": "347557de-0cb5-4f93-996c-46581cc13a19",
+  "type": [
+    "Series"
+  ],
   "title": "The Mandalorian",
   "poster": "mandalorian",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
+  "synopsis": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
+  "crew": [
+    {
+      "role": "Created by",
+      "people": [
+        {
+          "name": "Jon Favreau"
+        }
+      ]
+    },
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Dave Filoni",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Rick Famuyiwa",
+          "comment": "6 episodes"
+        },
+        {
+          "name": "Deborah Chow",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Bryce Dallas Howard",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Taika Waititi",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Jon Favreau",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Peyton Reed",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Carl Weathers",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Robert Rodriguez",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Lee Isaac Chung",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Rachel Morrison",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Peter Ramsey",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Jon Favreau",
+          "comment": "20 episodes"
+        },
+        {
+          "name": "Dave Filoni",
+          "comment": "4 episodes"
+        },
+        {
+          "name": "Christopher L. Yost",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Rick Famuyiwa",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Noah Kloor",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Jon Favreau"
+        },
+        {
+          "name": "Dave Filoni"
+        },
+        {
+          "name": "Kathleen Kennedy"
+        },
+        {
+          "name": "Colin Wilson"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Ludwig Göransson"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Barry Baz Idoine"
+        },
+        {
+          "name": "Greig Fraser"
+        },
+        {
+          "name": "Matthew Jensen"
+        },
+        {
+          "name": "David Klein"
+        }
+      ]
+    }
+  ],
+  "year": 2019,
+  "countries": [
+    "USA"
+  ],
   "production": [
     "Disney Plus",
     "Lucasfilm"
   ],
-  "directedBy": [
-    "Jon Favreau"
-  ],
-  "producedBy": "Jon Favreau, Dave Filoni, Kathleen Kennedy, Colin Wilson",
-  "musicBy": "Ludwig Göransson",
-  "cinematographyBy": "Barry Baz Idoine, Greig Fraser, Matthew Jensen, David Klein",
-  "countries": [
-    "USA"
-  ],
-  "synopsis": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
-  "awards": [
-    {
-      "title": "Emmy",
-      "nominations": [
-        "Outstanding Cinematography for a Single-Camera Series (Half-Hour)",
-        "Outstanding Music Composition for a Series (Original Dramatic Score)",
-        "Outstanding Production Design for a Narrative Program (Half-Hour)",
-        "Outstanding Stunt Coordination for a Drama Series Limited Series or Movie",
-        "Outstanding Sound Editing for a Comedy or Drama Series (Half-Hour) and Animation",
-        "Outstanding Sound Mixing for a Comedy or Drama Series (Half-Hour) and Animation",
-        "Outstanding Special Visual Effects"
-      ]
-    }
-  ],
-  "collections": [
-    {
-      "name": "Star Wars Universe"
-    }
-  ],
-  "parts": {
-    "title": "Star Wars Universe",
-    "part": 9
-  },
-  "type": [
-    "Series"
-  ],
-  "seasons": [
-    {
-      "season": 1,
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "Chapter 1: The Mandalorian",
-          "directedBy": "Dave Filoni",
-          "writtenBy": "Jon Favreau"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Chapter 2: The Child",
-          "directedBy": "Rick Famuyiwa",
-          "writtenBy": "Jon Favreau"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Chapter 3: The Sin",
-          "directedBy": "Deborah Chow",
-          "writtenBy": "Jon Favreau"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "Chapter 4: Sanctuary",
-          "directedBy": "Bryce Dallas Howard",
-          "writtenBy": "Jon Favreau"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Chapter 5: The Gunslinger",
-          "directedBy": "Dave Filoni",
-          "writtenBy": "Dave Filoni"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "Chapter 6: The Prisoner",
-          "directedBy": "Rick Famuyiwa",
-          "writtenBy": "Christopher Yost, Rick Famuyiwa"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "Chapter 7: The Reckoning",
-          "directedBy": "Deborah Chow",
-          "writtenBy": "Jon Favreau"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 8,
-          "title": "Chapter 8: Redemption",
-          "directedBy": "Taika Waititi",
-          "writtenBy": "Jon Favreau"
-        }
-      ],
-      "trailer": "OFlBh_eUsjA"
-    },
-    {
-      "season": 2,
-      "episodes": [
-        {
-          "episodeOverall": 9,
-          "episode": 1,
-          "title": "Chapter 9: The Marshal",
-          "directedBy": "Jon Favreau",
-          "writtenBy": "Jon Favreau"
-        },
-        {
-          "episodeOverall": 10,
-          "episode": 2,
-          "title": "Chapter 10: The Passenger",
-          "directedBy": "Peyton Reed",
-          "writtenBy": "Jon Favreau"
-        },
-        {
-          "episodeOverall": 11,
-          "episode": 3,
-          "title": "Chapter 11: The Heiress",
-          "directedBy": "Bryce Dallas Howard",
-          "writtenBy": "Jon Favreau"
-        },
-        {
-          "episodeOverall": 12,
-          "episode": 4,
-          "title": "Chapter 12: The Siege",
-          "directedBy": "Carl Weathers",
-          "writtenBy": "Jon Favreau"
-        },
-        {
-          "episodeOverall": 13,
-          "episode": 5,
-          "title": "Chapter 13: The Jedi",
-          "directedBy": "Dave Filoni",
-          "writtenBy": "Dave Filoni"
-        },
-        {
-          "episodeOverall": 14,
-          "episode": 6,
-          "title": "Chapter 14: The Tragedy",
-          "directedBy": "Robert Rodriguez",
-          "writtenBy": "Jon Favreau"
-        },
-        {
-          "episodeOverall": 15,
-          "episode": 7,
-          "title": "Chapter 15: The Believer",
-          "directedBy": "Rick Famuyiwa",
-          "writtenBy": "Rick Famuyiwa"
-        },
-        {
-          "episodeOverall": 16,
-          "episode": 8,
-          "title": "Chapter 16: The Rescue",
-          "directedBy": "Peyton Reed",
-          "writtenBy": "Jon Favreau"
-        }
-      ],
-      "trailer": "eW7Twd85m2g"
-    }
-  ],
+  "duration": 640,
   "cast": [
     {
       "character": {
@@ -237,6 +214,125 @@
       "actorId": "ab2be3de-4d69-41c2-908a-cc0df15fc8f2"
     }
   ],
-  "duration": 640,
-  "year": 2019
+  "collections": [
+    {
+      "title": "Star Wars Universe"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Emmy",
+      "nominations": [
+        "Outstanding Cinematography for a Single-Camera Series (Half-Hour)",
+        "Outstanding Music Composition for a Series (Original Dramatic Score)",
+        "Outstanding Production Design for a Narrative Program (Half-Hour)",
+        "Outstanding Stunt Coordination for a Drama Series Limited Series or Movie",
+        "Outstanding Sound Editing for a Comedy or Drama Series (Half-Hour) and Animation",
+        "Outstanding Sound Mixing for a Comedy or Drama Series (Half-Hour) and Animation",
+        "Outstanding Special Visual Effects"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Star Wars Universe",
+    "part": 9
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "trailer": "OFlBh_eUsjA",
+      "year": 2019,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "Chapter 1: The Mandalorian"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Chapter 2: The Child"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Chapter 3: The Sin"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "Chapter 4: Sanctuary"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Chapter 5: The Gunslinger"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "Chapter 6: The Prisoner"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "Chapter 7: The Reckoning"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "Chapter 8: Redemption"
+        }
+      ],
+      "poster": "mandalorian"
+    },
+    {
+      "season": 2,
+      "trailer": "eW7Twd85m2g",
+      "year": 2020,
+      "episodes": [
+        {
+          "episodeOverall": 9,
+          "episode": 1,
+          "title": "Chapter 9: The Marshal"
+        },
+        {
+          "episodeOverall": 10,
+          "episode": 2,
+          "title": "Chapter 10: The Passenger"
+        },
+        {
+          "episodeOverall": 11,
+          "episode": 3,
+          "title": "Chapter 11: The Heiress"
+        },
+        {
+          "episodeOverall": 12,
+          "episode": 4,
+          "title": "Chapter 12: The Siege"
+        },
+        {
+          "episodeOverall": 13,
+          "episode": 5,
+          "title": "Chapter 13: The Jedi"
+        },
+        {
+          "episodeOverall": 14,
+          "episode": 6,
+          "title": "Chapter 14: The Tragedy"
+        },
+        {
+          "episodeOverall": 15,
+          "episode": 7,
+          "title": "Chapter 15: The Believer"
+        },
+        {
+          "episodeOverall": 16,
+          "episode": 8,
+          "title": "Chapter 16: The Rescue"
+        }
+      ],
+      "poster": "mandalorian_s2"
+    }
+  ]
 }

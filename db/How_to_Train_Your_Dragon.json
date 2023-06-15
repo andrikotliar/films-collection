@@ -1,49 +1,67 @@
 {
   "id": "11753839-2a11-4782-aaf4-d3613f951509",
+  "type": [
+    "Animation"
+  ],
   "title": "How to Train Your Dragon",
   "poster": "how_to_train_your_dragon_1",
+  "trailer": "oKiYuIsPxYk",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "DreamWorks Animation"
+  "synopsis": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Chris Sanders"
+        },
+        {
+          "name": "Dean DeBlois"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Will Davies"
+        },
+        {
+          "name": "Dean DeBlois"
+        },
+        {
+          "name": "Chris Sanders"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Bonnie Amold"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Powell"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Chris Sanders",
-    "Dean DeBlois"
-  ],
-  "producedBy": "Bonnie Amold",
-  "writtenBy": "Will Davies, Dean DeBlois, Chris Sanders",
-  "musicBy": "John Powell",
+  "year": 2010,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 165,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 496,
-    "suffix": "million"
-  },
-  "synopsis": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    },
-    {
-      "name": "Top 10",
-      "order": 4
-    }
+  "production": [
+    "DreamWorks Animation"
   ],
-  "parts": {
-    "title": "How to Train Your Dragon",
-    "part": 1
-  },
-  "type": [
-    "Animation"
-  ],
+  "duration": 98,
   "cast": [
     {
       "character": {
@@ -109,7 +127,25 @@
       "actorId": "7d8eb5c9-9bac-400d-9952-3fbd5e154f14"
     }
   ],
-  "duration": 98,
-  "trailer": "oKiYuIsPxYk",
-  "year": 2010
+  "collections": [
+    {
+      "title": "Fantasy"
+    },
+    {
+      "title": "Top 10",
+      "order": 4
+    }
+  ],
+  "budget": {
+    "value": 165,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 496,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "How to Train Your Dragon",
+    "part": 1
+  }
 }

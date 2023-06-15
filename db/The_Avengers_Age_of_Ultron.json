@@ -1,54 +1,70 @@
 {
   "id": "821b280a-bbd9-46bf-a8de-a3b5203747d8",
+  "type": [
+    "Film"
+  ],
   "title": "The Avengers: Age of Ultron",
   "poster": "avengers_2",
+  "trailer": "tmeOjFno6Do",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Joss Whedon"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Joss Whedon"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Brian Tyler"
+        },
+        {
+          "name": "Danny Elfman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Ben Davis"
+        }
+      ]
+    }
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "directedBy": [
-    "Joss Whedon"
-  ],
-  "producedBy": "Kevin Feige",
-  "writtenBy": "Joss Whedon",
-  "musicBy": "Brian Tyler, Danny Elfman",
-  "cinematographyBy": "Ben Davis",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 365,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.4,
-    "suffix": "billion"
-  },
-  "synopsis": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.",
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Costume Design"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 11
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 141,
   "cast": [
     {
       "character": {
@@ -163,7 +179,29 @@
       "actorId": "ed322351-e250-4592-a42d-18dc1e238066"
     }
   ],
-  "duration": 141,
-  "trailer": "tmeOjFno6Do",
-  "year": 2015
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 365,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.4,
+    "suffix": "billion"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Costume Design"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 11
+  }
 }

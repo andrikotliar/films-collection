@@ -1,53 +1,69 @@
 {
   "id": "9a8a014d-00fa-42b2-a3bb-d8da07700cf8",
+  "type": [
+    "Film"
+  ],
   "title": "Furious Six",
   "poster": "fast_and_furious_6",
+  "trailer": "dKi5XoeTN0k",
   "genres": [
     "Action",
     "Crime"
   ],
-  "production": [
-    "Universal Pictures"
-  ],
-  "directedBy": [
-    "Justin Lin"
-  ],
-  "producedBy": "Neal H. Moritz, Vin Diesel",
-  "writtenBy": "Chris Morgan",
-  "musicBy": "Lucas Vidal",
-  "cinematographyBy": "Stephen F. Windon",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 160,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 789,
-    "suffix": "million"
-  },
   "synopsis": "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty.",
-  "collections": [
+  "crew": [
     {
-      "name": "Cars"
-    }
-  ],
-  "awards": [
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Justin Lin"
+        }
+      ]
+    },
     {
-      "title": "Saturn",
-      "nominations": [
-        "Best Action/Adventure Film"
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Chris Morgan"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Neal H. Moritz"
+        },
+        {
+          "name": "Vin Diesel"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Lucas Vidal"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Stephen F. Windon"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "Fast and Furious",
-    "part": 6
-  },
-  "type": [
-    "Film"
+  "year": 2013,
+  "countries": [
+    "USA"
   ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "duration": 131,
   "cast": [
     {
       "character": {
@@ -127,7 +143,29 @@
       "actorId": "a601625c-13b8-403a-b7eb-79165f3abd28"
     }
   ],
-  "duration": 131,
-  "trailer": "dKi5XoeTN0k",
-  "year": 2013
+  "collections": [
+    {
+      "title": "Cars"
+    }
+  ],
+  "budget": {
+    "value": 160,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 789,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Action/Adventure Film"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Fast and Furious",
+    "part": 6
+  }
 }

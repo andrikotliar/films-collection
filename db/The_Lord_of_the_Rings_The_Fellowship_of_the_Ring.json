@@ -1,88 +1,82 @@
 {
   "id": "33449387-9232-4761-bc26-918774ddd41f",
+  "type": [
+    "Film"
+  ],
   "title": "The Lord of the Rings: The Fellowship of the Ring",
   "poster": "middle_earth_4",
+  "trailer": "aStYWD25fAQ",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "New Line Cinema"
+  "synopsis": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save The World of Middle-earth from the Dark Lord Sauron.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Peter Jackson"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Fran Walsh"
+        },
+        {
+          "name": "Philippa Boyens"
+        },
+        {
+          "name": "Peter Jackson"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Peter Jackson"
+        },
+        {
+          "name": "Tim Sanders"
+        },
+        {
+          "name": "Fran Walsh"
+        },
+        {
+          "name": "Barrie M. Osborne"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Howard Shore"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Andrew Lesnie"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Peter Jackson"
-  ],
-  "producedBy": "Peter Jackson, Tim Sanders, Fran Walsh, Barrie M. Osborne",
-  "writtenBy": "Fran Walsh, Philippa Boyens, Peter Jackson",
-  "musicBy": "Howard Shore",
-  "cinematographyBy": "Andrew Lesnie",
+  "year": 2001,
   "countries": [
     "USA",
     "New Zealand"
   ],
-  "budget": {
-    "value": 93,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 871,
-    "suffix": "million"
-  },
-  "synopsis": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save The World of Middle-earth from the Dark Lord Sauron.",
-  "collections": [
-    {
-      "name": "Middle-Earth Universe"
-    }
+  "production": [
+    "New Line Cinema"
   ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Cinematography",
-        "Best Makeup",
-        "Best Music",
-        "Best Visual Effects"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Film",
-        "Best Achievement in Special Visual Effects",
-        "Best Make Up/Hair"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Fantasy Film",
-        "Best Supporting Actor",
-        "Best Director"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Movie",
-        "Breakthrough Male Performance"
-      ]
-    },
-    {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Favorite Film Franchise",
-        "Best Song",
-        "Best Composer"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Middle-Earth Universe",
-    "part": 4
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 178,
   "cast": [
     {
       "character": {
@@ -169,7 +163,63 @@
       "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
     }
   ],
-  "duration": 178,
-  "trailer": "aStYWD25fAQ",
-  "year": 2001
+  "collections": [
+    {
+      "title": "Middle-Earth Universe"
+    }
+  ],
+  "budget": {
+    "value": 93,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 871,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Cinematography",
+        "Best Makeup",
+        "Best Music",
+        "Best Visual Effects"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Film",
+        "Best Achievement in Special Visual Effects",
+        "Best Make Up/Hair"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Fantasy Film",
+        "Best Supporting Actor",
+        "Best Director"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Movie",
+        "Breakthrough Male Performance"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Favorite Film Franchise",
+        "Best Song",
+        "Best Composer"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Middle-Earth Universe",
+    "part": 4
+  }
 }

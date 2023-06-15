@@ -1,45 +1,65 @@
 {
   "id": "758049ce-9771-40b4-b597-d238544d4ea5",
+  "type": [
+    "Animation"
+  ],
   "title": "Ice Age: The Meltdown",
   "poster": "ice_age_2",
+  "trailer": "s4PWGVtIZWA",
   "genres": [
     "Adventures",
     "Comedy"
+  ],
+  "synopsis": "Manny, Sid, and Diego discover that the ice age is coming to an end, and join everybody for a journey to higher ground. On the trip, they discover that Manny, in fact, is not the last of the woolly mammoths.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Carlos Saldanha"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Peter Gaulke"
+        },
+        {
+          "name": "Gerry Swallow"
+        },
+        {
+          "name": "Jim Hecht"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Lori Forte"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Powell"
+        }
+      ]
+    }
+  ],
+  "year": 2006,
+  "countries": [
+    "USA"
   ],
   "production": [
     "20th Century FOX",
     "Blue Sky Studios"
   ],
-  "directedBy": [
-    "Carlos Saldanha"
-  ],
-  "producedBy": "Lori Forte",
-  "writtenBy": "Peter Gaulke, Gerry Swallow, Jim Hecht",
-  "musicBy": "John Powell",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 80,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 661,
-    "suffix": "million"
-  },
-  "synopsis": "Manny, Sid, and Diego discover that the ice age is coming to an end, and join everybody for a journey to higher ground. On the trip, they discover that Manny, in fact, is not the last of the woolly mammoths.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
-  ],
-  "parts": {
-    "title": "Ice Age",
-    "part": 2
-  },
-  "type": [
-    "Animation"
-  ],
+  "duration": 91,
   "cast": [
     {
       "character": {
@@ -84,7 +104,21 @@
       "actorId": "7df3a3a8-41bc-48c4-b88e-35583fe0e3d6"
     }
   ],
-  "duration": 91,
-  "trailer": "s4PWGVtIZWA",
-  "year": 2006
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 80,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 661,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Ice Age",
+    "part": 2
+  }
 }

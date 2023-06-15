@@ -1,60 +1,73 @@
 {
   "id": "990f2cbb-0ad9-4d98-bfee-d63c1cb26f0e",
+  "type": [
+    "Film"
+  ],
   "title": "Star Trek",
   "poster": "star_trek_1",
+  "trailer": "pKFUZ10Wmbw",
   "genres": [
     "Sci-Fi",
     "SpaceOpera"
+  ],
+  "synopsis": "The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "J.J. Abrams"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Roberto Orci"
+        },
+        {
+          "name": "Alex Kurtzman"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "J.J. Abrams"
+        },
+        {
+          "name": "Deamon Lindelof"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Michael Giacchino"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Dan Mindel"
+        }
+      ]
+    }
+  ],
+  "year": 2009,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Paramount Pictures",
     "Bad Robot Productions"
   ],
-  "directedBy": [
-    "J.J. Abrams"
-  ],
-  "producedBy": "J.J. Abrams, Deamon Lindelof",
-  "writtenBy": "Roberto Orci, Alex Kurtzman",
-  "musicBy": "Michael Giacchino",
-  "cinematographyBy": "Dan Mindel",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 386,
-    "suffix": "million"
-  },
-  "synopsis": "The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time.",
-  "collections": [
-    {
-      "name": "Space"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Achievement in Makeup"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Make-Up"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Star Trek",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 127,
   "cast": [
     {
       "character": {
@@ -148,7 +161,35 @@
       "actorId": "5a7b31cb-f62d-44ae-85b6-21ed4c144a2d"
     }
   ],
-  "duration": 127,
-  "trailer": "pKFUZ10Wmbw",
-  "year": 2009
+  "collections": [
+    {
+      "title": "Space"
+    }
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 386,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Achievement in Makeup"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Make-Up"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Star Trek",
+    "part": 1
+  }
 }

@@ -1,11 +1,11 @@
-import { LoaderIcon } from "@/assets/icons";
 import './styles.css';
+import { LoaderIcon } from "@/assets/icons";
 
 const Loader = () => {
   return (
     <div className="loader-container">
       <div className="loader">
-        <LoaderIcon />
+        <LoaderIcon color="#006db7" />
       </div>
     </div>
   );

@@ -1,68 +1,75 @@
 {
   "id": "ce00d611-74a9-4643-be81-ca50fdc66f00",
+  "type": [
+    "Film"
+  ],
   "title": "The Hunger Games",
   "poster": "hunger_games_1",
+  "trailer": "mfmrPu43DF8",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "production": [
-    "Lionsgate"
+  "synopsis": "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Gary Ross"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Gary Ross"
+        },
+        {
+          "name": "Suzanne Collins"
+        },
+        {
+          "name": "Billy Ray"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Nina Jacobson"
+        },
+        {
+          "name": "Jon Kilik"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "James Newton Howard"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Tom Stern"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Gary Ross"
-  ],
-  "producedBy": "Nina Jacobson, Jon Kilik",
-  "writtenBy": "Gary Ross, Suzanne Collins, Billy Ray",
-  "musicBy": "James Newton Howard",
-  "cinematographyBy": "Tom Stern",
+  "year": 2012,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 78,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 694,
-    "suffix": "million"
-  },
-  "synopsis": "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death.",
-  "collections": [
-    {
-      "name": "Dystopia"
-    }
+  "production": [
+    "Lionsgate"
   ],
-  "awards": [
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Feature Film"
-      ]
-    },
-    {
-      "title": "Grammy",
-      "nominations": [
-        "Best Song Written for Visual Media"
-      ]
-    },
-    {
-      "title": "MTV Movie ",
-      "nominations": [
-        "Best Male Performance",
-        "Best Female Performance",
-        "Best On-Screen Transformation",
-        "Best Fight"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "The Hunger Games",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 142,
   "cast": [
     {
       "character": {
@@ -121,7 +128,44 @@
       "actorId": "415a20c6-1d1f-4ede-b4d9-5b52bb3d6156"
     }
   ],
-  "duration": 142,
-  "trailer": "mfmrPu43DF8",
-  "year": 2012
+  "collections": [
+    {
+      "title": "Dystopia"
+    }
+  ],
+  "budget": {
+    "value": 78,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 694,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Feature Film"
+      ]
+    },
+    {
+      "title": "Grammy",
+      "nominations": [
+        "Best Song Written for Visual Media"
+      ]
+    },
+    {
+      "title": "MTV Movie ",
+      "nominations": [
+        "Best Male Performance",
+        "Best Female Performance",
+        "Best On-Screen Transformation",
+        "Best Fight"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Hunger Games",
+    "part": 1
+  }
 }

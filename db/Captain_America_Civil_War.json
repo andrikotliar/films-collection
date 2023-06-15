@@ -1,55 +1,73 @@
 {
   "id": "c6685020-b817-4dfb-8812-717a1c6eddf3",
+  "type": [
+    "Film"
+  ],
   "title": "Captain America: Civil War",
   "poster": "captain_america_3",
+  "trailer": "dKrVegVI0Us",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Anthony Russo"
+        },
+        {
+          "name": "Joe Russo"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Christopher Markus"
+        },
+        {
+          "name": "Stephen McFeely"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Henry Jackman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Trent Opaloch"
+        }
+      ]
+    }
+  ],
+  "year": 2016,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "directedBy": [
-    "Anthony Russo",
-    "Joe Russo"
-  ],
-  "producedBy": "Kevin Feige",
-  "writtenBy": "Christopher Markus, Stephen McFeely",
-  "musicBy": "Henry Jackman",
-  "cinematographyBy": "Trent Opaloch",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 250,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.15,
-    "suffix": "billion"
-  },
-  "synopsis": "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man.",
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Performance by a Younger Actor (Tom Holland)"
-      ]
-    }
-  ],
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 13
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 147,
   "cast": [
     {
       "character": {
@@ -157,7 +175,29 @@
       "actorId": "2ff5c3e6-e823-409d-b24d-af8c47d8b1b8"
     }
   ],
-  "duration": 147,
-  "trailer": "dKrVegVI0Us",
-  "year": 2016
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 250,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.15,
+    "suffix": "billion"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Performance by a Younger Actor (Tom Holland)"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 13
+  }
 }

@@ -1,46 +1,76 @@
 {
   "id": "992dcc67-8d75-4f7a-b6cb-b4d723df583f",
+  "type": [
+    "Film"
+  ],
   "title": "The Chronicles of Narnia: The Prince Caspian",
   "poster": "narnia_2",
+  "trailer": "9Q0Da4jlxBk",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "Walt Disney Pictures"
+  "synopsis": "The Pevensie siblings return to Narnia, where they are enlisted to once again help ward off an evil king and restore the rightful heir to the land's throne, Prince Caspian.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Andrew Adamson"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Andrew Adamson"
+        },
+        {
+          "name": "Christopher Markus"
+        },
+        {
+          "name": "Stephen McFeely"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Mark Johnson"
+        },
+        {
+          "name": "Phillip Steuer"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Harry Gregson-Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Karl Walter Lindenlaub"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Andrew Adamson"
-  ],
-  "producedBy": "Mark Johnson, Phillip Steuer",
-  "writtenBy": "Andrew Adamson, Christopher Markus, Stephen McFeely",
-  "musicBy": "Harry Gregson-Williams",
-  "cinematographyBy": "Karl Walter Lindenlaub",
+  "year": 2008,
   "countries": [
     "UK",
     "USA"
   ],
-  "budget": {
-    "value": 225,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 420,
-    "suffix": "million"
-  },
-  "synopsis": "The Pevensie siblings return to Narnia, where they are enlisted to once again help ward off an evil king and restore the rightful heir to the land's throne, Prince Caspian.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
+  "production": [
+    "Walt Disney Pictures"
   ],
-  "parts": {
-    "title": "The Chronicles of Narnia",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 150,
   "cast": [
     {
       "character": {
@@ -99,7 +129,21 @@
       "actorId": "d8513f29-4c84-4dd5-9077-8f2b988be685"
     }
   ],
-  "duration": 150,
-  "trailer": "9Q0Da4jlxBk",
-  "year": 2008
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 225,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 420,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "The Chronicles of Narnia",
+    "part": 2
+  }
 }

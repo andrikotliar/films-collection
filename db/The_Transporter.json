@@ -1,46 +1,75 @@
 {
   "id": "d7b91dee-4219-4941-ac1b-194900371b04",
+  "type": [
+    "Film"
+  ],
   "title": "The Transporter",
   "poster": "transporter_1",
+  "trailer": "0poXFSvX0_4",
   "genres": [
     "Action",
     "Crime"
   ],
-  "production": [
-    "EuropaCorp"
+  "synopsis": "Frank is hired to \"transport\" packages for unknown clients and has made a very good living doing so. But when asked to move a package that begins moving, complications arise.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Louis Leterrier"
+        },
+        {
+          "name": "Corey Yuen"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Luc Besson"
+        },
+        {
+          "name": "Robert Mark Kamen"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Luc Besson"
+        },
+        {
+          "name": "Stephen Chasman"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Stenley Clark"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Pierre Morel"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Louis Leterrier",
-    "Corey Yuen"
-  ],
-  "producedBy": "Luc Besson, Stephen Chasman",
-  "writtenBy": "Luc Besson, Robert Mark Kamen",
-  "musicBy": "Stenley Clark",
-  "cinematographyBy": "Pierre Morel",
+  "year": 2002,
   "countries": [
     "France"
   ],
-  "budget": {
-    "value": 21,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 44,
-    "suffix": "million"
-  },
-  "synopsis": "Frank is hired to \"transport\" packages for unknown clients and has made a very good living doing so. But when asked to move a package that begins moving, complications arise.",
-  "collections": [
-    {
-      "name": "Cars"
-    }
+  "production": [
+    "EuropaCorp"
   ],
-  "parts": {
-    "title": "The Transporter",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 92,
   "cast": [
     {
       "character": {
@@ -78,7 +107,21 @@
       "actorId": "92158669-59a0-4b74-b424-dcc0ea2f9e5f"
     }
   ],
-  "duration": 92,
-  "trailer": "0poXFSvX0_4",
-  "year": 2002
+  "collections": [
+    {
+      "title": "Cars"
+    }
+  ],
+  "budget": {
+    "value": 21,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 44,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "The Transporter",
+    "part": 1
+  }
 }

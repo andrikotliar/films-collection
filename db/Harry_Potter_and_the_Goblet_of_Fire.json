@@ -1,54 +1,67 @@
 {
   "id": "18ed6ab9-3df2-4709-8ef9-4e6ab6de9761",
+  "type": [
+    "Film"
+  ],
   "title": "Harry Potter and the Goblet of Fire",
   "poster": "harry_potter_4",
+  "trailer": "3EGojp4Hh6I",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "Warner Bros. Pictures"
+  "synopsis": "A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Mike Newell"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Steve Kloves"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "David Heyman"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Patrick Doyle"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Roger Pratt"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Mike Newell"
-  ],
-  "producedBy": "David Heyman",
-  "writtenBy": "Steve Kloves",
-  "musicBy": "Patrick Doyle",
-  "cinematographyBy": "Roger Pratt",
+  "year": 2005,
   "countries": [
     "USA",
     "UK"
   ],
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 897,
-    "suffix": "illionm"
-  },
-  "synopsis": "A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
-  "awards": [
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Production Design"
-      ]
-    }
+  "production": [
+    "Warner Bros. Pictures"
   ],
-  "collections": [
-    {
-      "name": "Harry Potter Universe"
-    }
-  ],
-  "parts": {
-    "title": "Harry Potter Universe",
-    "part": 6
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 157,
   "cast": [
     {
       "character": {
@@ -114,7 +127,29 @@
       "actorId": "6e8cb43d-6dc8-45fd-a9de-a20ba4ab4858"
     }
   ],
-  "duration": 157,
-  "trailer": "3EGojp4Hh6I",
-  "year": 2005
+  "collections": [
+    {
+      "title": "Harry Potter Universe"
+    }
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 897,
+    "suffix": "illionm"
+  },
+  "awards": [
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Production Design"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Harry Potter Universe",
+    "part": 6
+  }
 }

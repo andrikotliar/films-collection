@@ -1,55 +1,73 @@
 {
   "id": "8b009205-f684-4c5a-b47c-84b3702c59ab",
+  "type": [
+    "Film"
+  ],
   "title": "Doctor Strange",
   "poster": "doctor_strange",
+  "trailer": "HSzx-zryEgM",
   "genres": [
     "Fantasy",
     "Action"
+  ],
+  "synopsis": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Scott Derrickson"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Jon Spaihts"
+        },
+        {
+          "name": "Scott Derrickson"
+        },
+        {
+          "name": "C. Robert Cargill"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Michael Giacchino"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Ben Davis"
+        }
+      ]
+    }
+  ],
+  "year": 2016,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "directedBy": [
-    "Scott Derrickson"
-  ],
-  "producedBy": "Kevin Feige",
-  "writtenBy": "Jon Spaihts, Scott Derrickson, C. Robert Cargill",
-  "musicBy": "Michael Giacchino",
-  "cinematographyBy": "Ben Davis",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 165,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 678,
-    "suffix": "million"
-  },
-  "synopsis": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Comic-to-Film Motion Picture",
-        "Best Supporting Actress (Tilda Swinton)"
-      ]
-    }
-  ],
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 14
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 115,
   "cast": [
     {
       "character": {
@@ -94,7 +112,30 @@
       "actorId": "78d42ba6-0084-41f0-8c12-32560e40c79b"
     }
   ],
-  "duration": 115,
-  "trailer": "HSzx-zryEgM",
-  "year": 2016
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 165,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 678,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Comic-to-Film Motion Picture",
+        "Best Supporting Actress (Tilda Swinton)"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 14
+  }
 }

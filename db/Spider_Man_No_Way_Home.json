@@ -1,37 +1,65 @@
 {
   "id": "244209a7-0d5a-4ccf-9c77-a694991a9948",
+  "type": [
+    "Film"
+  ],
   "title": "Spider-Man: No Way Home",
   "poster": "mcu_spider_man_3",
+  "trailer": "rt-2cxAiPJk",
   "genres": [
     "Adventures",
     "Action"
+  ],
+  "synopsis": "For the first time in the cinematic history of Spider-Man, our friendly neighborhood hero is unmasked and no longer able to separate his normal life from the high-stakes of being a Super Hero. When he asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Jon Watts"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Chris McKenna"
+        },
+        {
+          "name": "Erik Sommers"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        },
+        {
+          "name": "Amy Pascal"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Michael Giacchino"
+        }
+      ]
+    }
+  ],
+  "year": 2021,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Marvel Studios",
     "Sony Pictures Entertainment"
   ],
-  "directedBy": [
-    "Jon Watts"
-  ],
-  "producedBy": "Kevin Feige, Amy Pascal",
-  "writtenBy": "Chris McKenna, Erik Sommers",
-  "musicBy": "Michael Giacchino",
-  "countries": [
-    "USA"
-  ],
-  "synopsis": "For the first time in the cinematic history of Spider-Man, our friendly neighborhood hero is unmasked and no longer able to separate his normal life from the high-stakes of being a Super Hero. When he asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 30
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 100,
   "cast": [
     {
       "character": {
@@ -111,7 +139,13 @@
       "actorId": "986607c1-944b-4d3e-a059-9530f848549b"
     }
   ],
-  "duration": 100,
-  "trailer": "rt-2cxAiPJk",
-  "year": 2021
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 30
+  }
 }

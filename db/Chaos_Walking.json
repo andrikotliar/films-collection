@@ -1,46 +1,83 @@
 {
   "id": "3a8af8e3-4a8d-45e9-8551-66a8aba25085",
+  "type": [
+    "Film"
+  ],
   "title": "Chaos Walking",
   "poster": "chaos_walking",
+  "trailer": "UIrGxHhdqXo",
   "genres": [
     "Adventures",
     "Fantasy",
     "Action"
   ],
-  "production": [
-    "Lionsgate",
-    "Quadrant Pictures"
+  "synopsis": "Two unlikely companions embark on a perilous adventure through the badlands of an unexplored planet as they try to escape a dangerous and disorienting reality where all thoughts are seen and heard by everyone.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Doug Liman"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Patrick Ness"
+        },
+        {
+          "name": "Christopher Ford"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Allison Shearmur"
+        },
+        {
+          "name": "Erwin Stoff"
+        },
+        {
+          "name": "Alison Winter"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Marco Beltrami"
+        },
+        {
+          "name": "Brandon Roberts"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Ben Seresin"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Doug Liman"
-  ],
-  "producedBy": "Allison Shearmur, Erwin Stoff, Alison Winter",
-  "writtenBy": "Patrick Ness, Christopher Ford",
-  "musicBy": "Marco Beltrami, Brandon Roberts",
-  "cinematographyBy": "Ben Seresin",
+  "year": 2021,
   "countries": [
     "USA",
     "Canada",
     "Hong Kong",
     "Luxembourg"
   ],
-  "budget": {
-    "value": 125,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 26,
-    "suffix": "million"
-  },
-  "synopsis": "Two unlikely companions embark on a perilous adventure through the badlands of an unexplored planet as they try to escape a dangerous and disorienting reality where all thoughts are seen and heard by everyone.",
-  "collections": [
-    {
-      "name": "Space"
-    }
+  "production": [
+    "Lionsgate",
+    "Quadrant Pictures"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 109,
   "cast": [
     {
       "character": {
@@ -78,7 +115,17 @@
       "actorId": "0e7a3dc6-4bce-46f5-8d16-f05422a88a10"
     }
   ],
-  "duration": 109,
-  "trailer": "UIrGxHhdqXo",
-  "year": 2021
+  "collections": [
+    {
+      "title": "Space"
+    }
+  ],
+  "budget": {
+    "value": 125,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 26,
+    "suffix": "million"
+  }
 }

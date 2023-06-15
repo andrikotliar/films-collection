@@ -1,24 +1,154 @@
 {
   "id": "1ad32457-9cc1-4424-90cd-73325f07bb5a",
+  "type": [
+    "Film"
+  ],
   "title": "The Lord of the Rings: Return of the King",
   "poster": "middle_earth_6",
+  "trailer": "y2rYRu8UW8M",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "New Line Cinema"
+  "synopsis": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Peter Jackson"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Fran Walsh"
+        },
+        {
+          "name": "Philippa Boyens"
+        },
+        {
+          "name": "Peter Jackson"
+        },
+        {
+          "name": "Stephen Sinclair"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Peter Jackson"
+        },
+        {
+          "name": "Fran Walsh"
+        },
+        {
+          "name": "Barrie M. Osborne"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Howard Shore"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Andrew Lesnie"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Peter Jackson"
-  ],
-  "producedBy": "Peter Jackson, Fran Walsh, Barrie M. Osborne",
-  "writtenBy": "Fran Walsh, Philippa Boyens, Peter Jackson, Stephen Sinclair",
-  "musicBy": "Howard Shore",
-  "cinematographyBy": "Andrew Lesnie",
+  "year": 2003,
   "countries": [
     "USA",
     "New Zealand"
+  ],
+  "production": [
+    "New Line Cinema"
+  ],
+  "duration": 201,
+  "cast": [
+    {
+      "character": {
+        "name": "Frodo Baggins",
+        "imageUrl": ""
+      },
+      "actorId": "5e154ae5-94f0-4d0e-9dfc-641120e4a219"
+    },
+    {
+      "character": {
+        "name": "Gandalf",
+        "imageUrl": ""
+      },
+      "actorId": "18b67364-14a8-461a-bf48-a12c4741d52f"
+    },
+    {
+      "character": {
+        "name": "Samwise Gamgee",
+        "imageUrl": ""
+      },
+      "actorId": "9e55ad2e-faa1-4895-b232-d606d29438d7"
+    },
+    {
+      "character": {
+        "name": "Aragorn",
+        "imageUrl": ""
+      },
+      "actorId": "1806b00d-b0f7-4338-a721-10d3ce7c3586"
+    },
+    {
+      "character": {
+        "name": "Gimli",
+        "imageUrl": ""
+      },
+      "actorId": "cacd3465-d009-4fea-8c86-4c4bc266b6e5"
+    },
+    {
+      "character": {
+        "name": "Legolas",
+        "imageUrl": ""
+      },
+      "actorId": "9477d178-9893-44f0-9553-10119753c95f"
+    },
+    {
+      "character": {
+        "name": "Galadriel",
+        "imageUrl": ""
+      },
+      "actorId": "d7f81c80-afaa-4b4e-a3fa-49b85238c529"
+    },
+    {
+      "character": {
+        "name": "Elrond",
+        "imageUrl": ""
+      },
+      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
+    },
+    {
+      "character": {
+        "name": "Gollum",
+        "imageUrl": ""
+      },
+      "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135"
+    }
+  ],
+  "collections": [
+    {
+      "title": "Middle-Earth Universe"
+    },
+    {
+      "title": "Legends"
+    }
   ],
   "budget": {
     "value": 94,
@@ -28,15 +158,6 @@
     "value": 1.12,
     "suffix": "billion"
   },
-  "synopsis": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
-  "collections": [
-    {
-      "name": "Middle-Earth Universe"
-    },
-    {
-      "name": "Legends"
-    }
-  ],
   "awards": [
     {
       "title": "Oscar",
@@ -105,76 +226,5 @@
   "parts": {
     "title": "Middle-Earth Universe",
     "part": 6
-  },
-  "type": [
-    "Film"
-  ],
-  "cast": [
-    {
-      "character": {
-        "name": "Frodo Baggins",
-        "imageUrl": ""
-      },
-      "actorId": "5e154ae5-94f0-4d0e-9dfc-641120e4a219"
-    },
-    {
-      "character": {
-        "name": "Gandalf",
-        "imageUrl": ""
-      },
-      "actorId": "18b67364-14a8-461a-bf48-a12c4741d52f"
-    },
-    {
-      "character": {
-        "name": "Samwise Gamgee",
-        "imageUrl": ""
-      },
-      "actorId": "9e55ad2e-faa1-4895-b232-d606d29438d7"
-    },
-    {
-      "character": {
-        "name": "Aragorn",
-        "imageUrl": ""
-      },
-      "actorId": "1806b00d-b0f7-4338-a721-10d3ce7c3586"
-    },
-    {
-      "character": {
-        "name": "Gimli",
-        "imageUrl": ""
-      },
-      "actorId": "cacd3465-d009-4fea-8c86-4c4bc266b6e5"
-    },
-    {
-      "character": {
-        "name": "Legolas",
-        "imageUrl": ""
-      },
-      "actorId": "9477d178-9893-44f0-9553-10119753c95f"
-    },
-    {
-      "character": {
-        "name": "Galadriel",
-        "imageUrl": ""
-      },
-      "actorId": "d7f81c80-afaa-4b4e-a3fa-49b85238c529"
-    },
-    {
-      "character": {
-        "name": "Elrond",
-        "imageUrl": ""
-      },
-      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
-    },
-    {
-      "character": {
-        "name": "Gollum",
-        "imageUrl": ""
-      },
-      "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135"
-    }
-  ],
-  "duration": 201,
-  "trailer": "y2rYRu8UW8M",
-  "year": 2003
+  }
 }

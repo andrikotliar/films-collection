@@ -1,54 +1,67 @@
 {
   "id": "f84b356b-b77f-46cd-83cc-41a6cdc55af9",
+  "type": [
+    "Film"
+  ],
   "title": "Guardians of the Galaxy: Vol. II",
   "poster": "guardians_of_the_galaxy_2",
+  "trailer": "wUn05hdkhjM",
   "genres": [
     "Sci-Fi",
     "Comedy"
+  ],
+  "synopsis": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "James Gunn"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "James Gunn"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Tyler Bates"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Henry Braham"
+        }
+      ]
+    }
+  ],
+  "year": 2017,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "directedBy": [
-    "James Gunn"
-  ],
-  "producedBy": "Kevin Feige",
-  "writtenBy": "James Gunn",
-  "musicBy": "Tyler Bates",
-  "cinematographyBy": "Henry Braham",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 200,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 864,
-    "suffix": "million"
-  },
-  "synopsis": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Special Effects"
-      ]
-    }
-  ],
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 15
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 137,
   "cast": [
     {
       "character": {
@@ -135,7 +148,29 @@
       "actorId": "01bf1d06-deb1-422c-9967-9e3e9bac6c23"
     }
   ],
-  "duration": 137,
-  "trailer": "wUn05hdkhjM",
-  "year": 2017
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 864,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Special Effects"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 15
+  }
 }

@@ -1,62 +1,75 @@
 {
   "id": "809c0d6d-77c0-41bf-b81e-37d0e75b4f0f",
+  "type": [
+    "Animation"
+  ],
   "title": "Zootopia",
   "poster": "zootopia",
+  "trailer": "jWM0ct-OLsM",
   "genres": [
     "Adventures",
     "Comedy"
   ],
-  "production": [
-    "Walt Disney Pictures"
+  "synopsis": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Byron Howard"
+        },
+        {
+          "name": "Rich Moore"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Jared Bush"
+        },
+        {
+          "name": "Phil Johnston"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Clark Spencer"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Michael Giacchino"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Nathan Warner"
+        },
+        {
+          "name": "Brian Leach"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Byron Howard",
-    "Rich Moore"
-  ],
-  "producedBy": "Clark Spencer",
-  "writtenBy": "Jared Bush, Phil Johnston",
-  "musicBy": "Michael Giacchino",
-  "cinematographyBy": "Nathan Warner, Brian Leach",
+  "year": 2016,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.02,
-    "suffix": "billion"
-  },
-  "synopsis": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
+  "production": [
+    "Walt Disney Pictures"
   ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Animated Feature Film of the Year"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Feature Film"
-      ]
-    },
-    {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Animated Feature"
-      ]
-    }
-  ],
-  "type": [
-    "Animation"
-  ],
+  "duration": 108,
   "cast": [
     {
       "character": {
@@ -122,7 +135,37 @@
       "actorId": "3034deb0-7b15-4310-b3c8-14a06daee243"
     }
   ],
-  "duration": 108,
-  "trailer": "jWM0ct-OLsM",
-  "year": 2016
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.02,
+    "suffix": "billion"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Animated Feature Film of the Year"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Feature Film"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Animated Feature"
+      ]
+    }
+  ]
 }

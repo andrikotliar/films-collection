@@ -1,41 +1,78 @@
 {
   "id": "d941b679-1cf0-4569-8cb8-ad5e8b0cf060",
+  "type": [
+    "Film"
+  ],
   "title": "2012",
   "poster": "twenty_twelve",
+  "trailer": "ce0N3TEcFw0",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "production": [
-    "Columbia Pictures"
+  "synopsis": "A frustrated writer struggles to keep his family alive when a series of global catastrophes threatens to annihilate mankind.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Roland Emmerich"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Harald Kloser"
+        },
+        {
+          "name": "Roland Emmerich"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Harald Kloser"
+        },
+        {
+          "name": "Mark Gordon"
+        },
+        {
+          "name": "Larry J. Franco"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Harald Kloser"
+        },
+        {
+          "name": "Thomas Wander"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Dean Semler"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Roland Emmerich"
-  ],
-  "producedBy": "Harald Kloser, Mark Gordon, Larry J. Franco",
-  "writtenBy": "Harald Kloser, Roland Emmerich",
-  "musicBy": "Harald Kloser, Thomas Wander",
-  "cinematographyBy": "Dean Semler",
+  "year": 2009,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 200,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 770,
-    "suffix": "million"
-  },
-  "synopsis": "A frustrated writer struggles to keep his family alive when a series of global catastrophes threatens to annihilate mankind.",
-  "collections": [
-    {
-      "name": "Disaster"
-    }
+  "production": [
+    "Columbia Pictures"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 158,
   "cast": [
     {
       "character": {
@@ -123,7 +160,17 @@
       "actorId": "75cb4982-ddc4-40b1-88c2-d7d8d952d99d"
     }
   ],
-  "duration": 158,
-  "trailer": "ce0N3TEcFw0",
-  "year": 2009
+  "collections": [
+    {
+      "title": "Disaster"
+    }
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 770,
+    "suffix": "million"
+  }
 }

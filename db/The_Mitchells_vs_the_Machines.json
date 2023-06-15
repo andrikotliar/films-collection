@@ -1,34 +1,69 @@
 {
   "id": "c78ff49a-664c-408b-9e1b-c112849973f7",
+  "type": [
+    "Animation"
+  ],
   "title": "The Mitchells vs the Machines",
   "poster": "mitchells",
+  "trailer": "_ak5dFt8Ar0",
   "genres": [
     "Adventures",
     "Comedy"
   ],
-  "production": [
-    "Netflix"
+  "synopsis": "A quirky, dysfunctional family's road trip is upended when they find themselves in the middle of the robot apocalypse and suddenly become humanity's unlikeliest last hope.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Michael Rianda"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Michael Rianda"
+        },
+        {
+          "name": "Jeff Rowe"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Phil Lord"
+        },
+        {
+          "name": "Christopher Miller"
+        },
+        {
+          "name": "Kurt Albrecht"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Mark Mothersbaugh"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Michael Rianda"
-  ],
-  "producedBy": "Phil Lord, Christopher Miller,  Kurt Albrecht",
-  "writtenBy": "Michael Rianda, Jeff Rowe",
-  "musicBy": "Mark Mothersbaugh",
+  "year": 2021,
   "countries": [
     "USA",
     "Canada",
     "Hong Kong"
   ],
-  "synopsis": "A quirky, dysfunctional family's road trip is upended when they find themselves in the middle of the robot apocalypse and suddenly become humanity's unlikeliest last hope.",
-  "collections": [
-    {
-      "name": "Robots"
-    }
+  "production": [
+    "Netflix"
   ],
-  "type": [
-    "Animation"
-  ],
+  "duration": 113,
   "cast": [
     {
       "character": {
@@ -80,7 +115,9 @@
       "actorId": "611eee62-61b7-4f5b-9a06-e287a955231a"
     }
   ],
-  "duration": 113,
-  "trailer": "_ak5dFt8Ar0",
-  "year": 2021
+  "collections": [
+    {
+      "title": "Robots"
+    }
+  ]
 }

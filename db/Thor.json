@@ -1,54 +1,73 @@
 {
   "id": "377d230e-1944-4733-97da-adac8c9aebf1",
+  "type": [
+    "Film"
+  ],
   "title": "Thor",
   "poster": "thor_1",
+  "trailer": "JOddp-nlNvQ",
   "genres": [
     "Fantasy",
     "Action"
+  ],
+  "synopsis": "The powerful, but arrogant god Thor, is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Kenneth Branagh"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Ashley Edward Miller"
+        },
+        {
+          "name": "Zack Stentz"
+        },
+        {
+          "name": "Don Payne"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Patrick Doyle"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Haris Zambarloukos"
+        }
+      ]
+    }
+  ],
+  "year": 2011,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Marvel Studios",
     "Paramount Pictures"
   ],
-  "directedBy": [
-    "Kenneth Branagh"
-  ],
-  "producedBy": "Kevin Feige",
-  "writtenBy": "Ashley Edward Miller, Zack Stentz, Don Payne",
-  "musicBy": "Patrick Doyle",
-  "cinematographyBy": "Haris Zambarloukos",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 449,
-    "suffix": "million"
-  },
-  "synopsis": "The powerful, but arrogant god Thor, is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Costumes"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 4
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 114,
   "cast": [
     {
       "character": {
@@ -114,7 +133,29 @@
       "actorId": "ed322351-e250-4592-a42d-18dc1e238066"
     }
   ],
-  "duration": 114,
-  "trailer": "JOddp-nlNvQ",
-  "year": 2011
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 449,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Costumes"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 4
+  }
 }

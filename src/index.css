@@ -93,14 +93,12 @@ body {
     scrollbar-color: var(--main-color) #dbdbdb;
   }
   .custom-scroll::-webkit-scrollbar {
-    background-color: #fff;
     height: 8px;
     width: 4px;
     transition: 0.3s;
     border-radius: 50px;
   }
   .custom-scroll::-webkit-scrollbar-thumb {
-    background-color: #fff;
     border-radius: 50px;
     transition: 0.3s;
   }

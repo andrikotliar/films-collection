@@ -1,89 +1,70 @@
 {
   "id": "32bc7b61-058e-45fa-835a-eb74504a15a2",
+  "type": [
+    "Film"
+  ],
   "title": "Black Panther",
   "poster": "black_panther",
+  "trailer": "xjDjIWPwcPU",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "After the death of his father, Prince T'Challa ascends to the throne of the small African country of Wakanda. T'Challa is also Black Panther, superhero. Now not only must he govern his country but defeat a dangerous adversary.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Ryan Coogler"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Ryan Coogler"
+        },
+        {
+          "name": "Joe Robert Cole"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Ludwig Gцransson"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Rachel Morrison"
+        }
+      ]
+    }
+  ],
+  "year": 2018,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "directedBy": [
-    "Ryan Coogler"
-  ],
-  "producedBy": "Kevin Feige",
-  "writtenBy": "Ryan Coogler, Joe Robert Cole",
-  "musicBy": "Ludwig Gцransson",
-  "cinematographyBy": "Rachel Morrison",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 200,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.35,
-    "suffix": "billion"
-  },
-  "synopsis": "After the death of his father, Prince T'Challa ascends to the throne of the small African country of Wakanda. T'Challa is also Black Panther, superhero. Now not only must he govern his country but defeat a dangerous adversary.",
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Achievement in Music Written for Motion Pictures (Original Score)",
-        "Best Achievement in Costume Design",
-        "Best Achievement in Production Design"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Achievement in Special Visual Effects"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Comic-to-Film Motion Picture",
-        "Best Director",
-        "Best Supporting Actress",
-        "Best Production Design",
-        "Best Make-Up"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Movie of the Year",
-        "Best Performance in a Movie",
-        "Best Hero",
-        "Best Villain"
-      ]
-    },
-    {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Visual Effects",
-        "Best Production Design",
-        "Best Costume Design"
-      ]
-    }
-  ],
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 18
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 134,
   "cast": [
     {
       "character": {
@@ -170,7 +151,64 @@
       "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135"
     }
   ],
-  "duration": 134,
-  "trailer": "xjDjIWPwcPU",
-  "year": 2018
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.35,
+    "suffix": "billion"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Achievement in Music Written for Motion Pictures (Original Score)",
+        "Best Achievement in Costume Design",
+        "Best Achievement in Production Design"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Achievement in Special Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Comic-to-Film Motion Picture",
+        "Best Director",
+        "Best Supporting Actress",
+        "Best Production Design",
+        "Best Make-Up"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Movie of the Year",
+        "Best Performance in a Movie",
+        "Best Hero",
+        "Best Villain"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Visual Effects",
+        "Best Production Design",
+        "Best Costume Design"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 18
+  }
 }

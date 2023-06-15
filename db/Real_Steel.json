@@ -1,41 +1,72 @@
 {
   "id": "2b0159d2-8948-4e84-a2b4-4815df867883",
+  "type": [
+    "Film"
+  ],
   "title": "Real Steel",
   "poster": "real_steel",
+  "trailer": "SwfmV3nn6QA",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "production": [
-    "DreamWorks Pictures"
+  "synopsis": "In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Shawn Levy"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "John Gatins"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Shawn Levy"
+        },
+        {
+          "name": "Susan Montford"
+        },
+        {
+          "name": "Don Murphy"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Danny Elfman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Mauro Fiore"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Shawn Levy"
-  ],
-  "producedBy": "Shawn Levy, Susan Montford, Don Murphy",
-  "writtenBy": "John Gatins",
-  "musicBy": "Danny Elfman",
-  "cinematographyBy": "Mauro Fiore",
+  "year": 2011,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 110,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 300,
-    "suffix": "million"
-  },
-  "synopsis": "In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot.",
-  "collections": [
-    {
-      "name": "Robots"
-    }
+  "production": [
+    "DreamWorks Pictures"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 127,
   "cast": [
     {
       "character": {
@@ -87,7 +118,17 @@
       "actorId": "4d78f2d9-29a4-44d3-9285-c65b82c1a447"
     }
   ],
-  "duration": 127,
-  "trailer": "SwfmV3nn6QA",
-  "year": 2011
+  "collections": [
+    {
+      "title": "Robots"
+    }
+  ],
+  "budget": {
+    "value": 110,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 300,
+    "suffix": "million"
+  }
 }

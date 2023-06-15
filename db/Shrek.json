@@ -1,60 +1,80 @@
 {
   "id": "94a2e4fe-2934-4eca-92de-ee861de36ddf",
+  "type": [
+    "Animation"
+  ],
   "title": "Shrek",
   "poster": "shrek_1",
+  "trailer": "CwXOrWvPBPk",
   "genres": [
     "Adventures",
     "Comedy"
   ],
-  "production": [
-    "DreamWorks Animation"
+  "synopsis": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Andrew Adamson"
+        },
+        {
+          "name": "Vicky Jenson"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Ted Elliott"
+        },
+        {
+          "name": "Terry Rossio"
+        },
+        {
+          "name": "Joe Stillman"
+        },
+        {
+          "name": "Roger S. H. Schulman"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Aron Warner"
+        },
+        {
+          "name": "John H. Williams"
+        },
+        {
+          "name": "Jeffrey Katzenberg"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Harry Gregson-Williams"
+        },
+        {
+          "name": "John Powell"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Andrew Adamson",
-    "Vicky Jenson"
-  ],
-  "producedBy": "Aron Warner, John H. Williams, Jeffrey Katzenberg",
-  "writtenBy": "Ted Elliott, Terry Rossio, Joe Stillman, Roger S. H. Schulman",
-  "musicBy": "Harry Gregson-Williams, John Powell",
+  "year": 2001,
   "countries": [
     "USA",
     "Japan"
   ],
-  "budget": {
-    "value": 60,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 488,
-    "suffix": "million"
-  },
-  "synopsis": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.",
-  "collections": [
-    {
-      "name": "Legends"
-    }
+  "production": [
+    "DreamWorks Animation"
   ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Animated Feature"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Screenplay (Adapted)"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Shrek",
-    "part": 1
-  },
-  "type": [
-    "Animation"
-  ],
+  "duration": 90,
   "cast": [
     {
       "character": {
@@ -85,7 +105,35 @@
       "actorId": "f9d78af1-af04-43c0-b564-3faac60bedf9"
     }
   ],
-  "duration": 90,
-  "trailer": "CwXOrWvPBPk",
-  "year": 2001
+  "collections": [
+    {
+      "title": "Legends"
+    }
+  ],
+  "budget": {
+    "value": 60,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 488,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Animated Feature"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Screenplay (Adapted)"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Shrek",
+    "part": 1
+  }
 }

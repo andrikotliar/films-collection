@@ -1,45 +1,72 @@
 {
   "id": "472e6373-c27a-4685-b6b3-31360b324e44",
+  "type": [
+    "Film"
+  ],
   "title": "Transporter 2",
   "poster": "transporter_2",
+  "trailer": "sYJ5LDoWRT4",
   "genres": [
     "Action",
     "Crime"
   ],
-  "production": [
-    "EuropaCorp"
+  "synopsis": "Mercenary Frank Martin, who specializes moving goods of all kinds, surfaces again this time in Miami, Florida when he's implicated in the kidnapping of the young son of a powerful USA official.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Louis Leterrier"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Luc Besson"
+        },
+        {
+          "name": "Robert Mark Kamen"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Luc Besson"
+        },
+        {
+          "name": "Stephen Chasman"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Alexandre Azaria"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Mitchell Amundsen"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Louis Leterrier"
-  ],
-  "producedBy": "Luc Besson, Stephen Chasman",
-  "writtenBy": "Luc Besson, Robert Mark Kamen",
-  "musicBy": "Alexandre Azaria",
-  "cinematographyBy": "Mitchell Amundsen",
+  "year": 2005,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 32,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 85,
-    "suffix": "million"
-  },
-  "synopsis": "Mercenary Frank Martin, who specializes moving goods of all kinds, surfaces again this time in Miami, Florida when he's implicated in the kidnapping of the young son of a powerful USA official.",
-  "collections": [
-    {
-      "name": "Cars"
-    }
+  "production": [
+    "EuropaCorp"
   ],
-  "parts": {
-    "title": "The Transporter",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 87,
   "cast": [
     {
       "character": {
@@ -105,7 +132,21 @@
       "actorId": "18075778-b409-47e7-8d3a-2b296d3908e3"
     }
   ],
-  "duration": 87,
-  "trailer": "sYJ5LDoWRT4",
-  "year": 2005
+  "collections": [
+    {
+      "title": "Cars"
+    }
+  ],
+  "budget": {
+    "value": 32,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 85,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "The Transporter",
+    "part": 2
+  }
 }

@@ -1,54 +1,73 @@
 {
   "id": "6b6c5189-ecff-4d07-b6d5-32c7dd87bfbe",
+  "type": [
+    "Film"
+  ],
   "title": "X-Men: The Last Stand",
   "poster": "x_men_3",
+  "trailer": "r8ZMvxzplwc",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "The human government develops a cure for mutations, and Jean Gray becomes a darker uncontrollable persona called the Phoenix who allies with Magneto, causing escalation into an all-out battle for the X-Men.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Brett Ratner"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Simon Kinberg"
+        },
+        {
+          "name": "Zak Penn"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Lauren Shuler Donner"
+        },
+        {
+          "name": "Ralph Winter"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Powell"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Dante Spinotti"
+        }
+      ]
+    }
+  ],
+  "year": 2006,
+  "countries": [
+    "USA"
   ],
   "production": [
     "20th Century FOX",
     "Marvel Entertainment"
   ],
-  "directedBy": [
-    "Brett Ratner"
-  ],
-  "producedBy": "Lauren Shuler Donner, Ralph Winter",
-  "writtenBy": "Simon Kinberg, Zak Penn",
-  "musicBy": "John Powell",
-  "cinematographyBy": "Dante Spinotti",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 210,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 459,
-    "suffix": "million"
-  },
-  "synopsis": "The human government develops a cure for mutations, and Jean Gray becomes a darker uncontrollable persona called the Phoenix who allies with Magneto, causing escalation into an all-out battle for the X-Men.",
-  "collections": [
-    {
-      "name": "Superheroes"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Supporting Actress (Famke Janssen)"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "X-Men",
-    "part": 3
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 104,
   "cast": [
     {
       "character": {
@@ -135,7 +154,29 @@
       "actorId": "e329dda6-a5c4-4427-bf93-16bb46e8e96f"
     }
   ],
-  "duration": 104,
-  "trailer": "r8ZMvxzplwc",
-  "year": 2006
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": {
+    "value": 210,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 459,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Supporting Actress (Famke Janssen)"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "X-Men",
+    "part": 3
+  }
 }

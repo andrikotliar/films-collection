@@ -1,42 +1,82 @@
 {
   "id": "fb818771-4ac6-4001-8852-64653b134ffd",
+  "type": [
+    "Film"
+  ],
   "title": "Ford v Ferrari",
   "poster": "fordvsferrari",
+  "trailer": "zyYgDtY2AMY",
   "genres": [
     "Action",
     "Drama",
     "Biography"
   ],
-  "production": [
-    "20th Century FOX"
+  "synopsis": "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "James Mangold"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Jez Butterworth"
+        },
+        {
+          "name": "John-Henry Butterworth"
+        },
+        {
+          "name": "Jason Keller"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Peter Chernin"
+        },
+        {
+          "name": "James Mangold"
+        },
+        {
+          "name": "Jenno Topping"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Marco Beltrami"
+        },
+        {
+          "name": "Buck Sanders"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Phedon Papamichael"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "James Mangold"
-  ],
-  "producedBy": "Peter Chernin, James Mangold, Jenno Topping",
-  "writtenBy": "Jez Butterworth, John-Henry Butterworth, Jason Keller",
-  "musicBy": "Marco Beltrami, Buck Sanders",
-  "cinematographyBy": "Phedon Papamichael",
+  "year": 2019,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 98,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 226,
-    "suffix": "million"
-  },
-  "synopsis": "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.",
-  "collections": [
-    {
-      "name": "Cars"
-    }
+  "production": [
+    "20th Century FOX"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 152,
   "cast": [
     {
       "character": {
@@ -74,7 +114,17 @@
       "actorId": "ab1c98a5-a4be-4f64-86e7-5fe5a966aa81"
     }
   ],
-  "duration": 152,
-  "trailer": "zyYgDtY2AMY",
-  "year": 2019
+  "collections": [
+    {
+      "title": "Cars"
+    }
+  ],
+  "budget": {
+    "value": 98,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 226,
+    "suffix": "million"
+  }
 }

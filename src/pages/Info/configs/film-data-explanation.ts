@@ -9,9 +9,10 @@ export const filmDataExplanation: DataExplanation[] = [
   },
   {
     property: 'type',
-    type: ['array', 'string'],
-    description: 'Divide data into Films and Series, but also can have the Animation type that doesn\'t influence on data, but is useful for filtering. You can mix Film and Animation types and Series and Animation types, but cannot Film and Series.',
+    type: ['array'],
+    description: 'Entity types. The property helps quickly access to series or animation lists. Some properties entity can have only when it has the Series type.',
     required: true,
+    arrayItemsType: ['string'],
     possibleValues: ['Film', 'Animation', 'Series']
   },
   {
@@ -22,50 +23,57 @@ export const filmDataExplanation: DataExplanation[] = [
   },
   {
     property: 'poster',
-    type: ['array', 'string'],
-    description: 'The name of a file that is stored by the /public/posters path and have to have the .webp extension. For the film/animation types it\'s required only one file in the array, for the series type each index is equal to a season.',
+    type: ['array'],
+    description: 'File name without extension. Files are stored by the /public/posters path and should have the .webp extension',
     required: true,
+    arrayItemsType: ['string'],
     valueExample: '["pirates_of_the_carribean_2"]'
   },
   {
     property: 'trailer',
-    type: ['array', 'string'],
-    description: 'Youtube video ids. For the film/animation types it\'s required only one ID in the array, for the series type each index is equal to a season.',
-    required: true,
+    type: ['array'],
+    description: 'Youtube video ID. This property has to be added when the type is either Film or Animation. In case when this property is omited, the placeholder will be displayed on a film page.',
+    required: false,
+    requiredPartially: true,
+    arrayItemsType: ['string'],
     valueExample: '["d9MyW72ELq0"]'
   },
   {
     property: 'genres',
-    type: ['array', 'string'],
-    description: 'List of film genres. Genre names are not restricted and can be any.',
+    type: ['array'],
+    description: 'List of film genres.',
     required: true,
+    arrayItemsType: ['string'],
     valueExample: '["Sci-Fi", "Action"]'
   },
   {
     property: 'production',
-    type: ['array', 'string'],
-    description: 'List of studios responsible for film creation and promotion. They names are not restricted and can be any.',
+    type: ['array'],
+    description: 'List of studios responsible for film creation and promotion.',
     required: true,
+    arrayItemsType: ['string'],
     valueExample: '["Pixar Animation"]'
   },
   {
     property: 'crew',
-    type: ['array', 'object'],
+    type: ['array'],
     description: 'Data about film crew (directors, screenwrites, producers etc.)',
     required: true,
+    arrayItemsType: ['object'],
     properties: [
       {
         property: 'role',
         type: ['string'],
         required: true,
         description: 'Define crew position',
-        possibleValues: ["director", "screenwriter", "producer", "cameraman", "composer"],
+        valueExample: ['Directed by', 'Written by']
       },
       {
         property: 'people',
-        type: ['array', 'object'],
+        type: ['array'],
         required: true,
         description: 'List of each person data in a position (role)',
+        arrayItemsType: ['object'],
         properties: [
           {
             property: 'name',
@@ -92,9 +100,10 @@ export const filmDataExplanation: DataExplanation[] = [
   },
   {
     property: 'countries',
-    type: ['array', 'string'],
+    type: ['array'],
     required: true,
     description: 'List of origin countries, can be any string',
+    arrayItemsType: ['string'],
     valueExample: '["USA", "UK"]'
   },
   {
@@ -105,9 +114,10 @@ export const filmDataExplanation: DataExplanation[] = [
   },
   {
     property: 'cast',
-    type: ['array', 'object'],
+    type: ['array'],
     required: true,
     description: 'Cast details',
+    arrayItemsType: ['string'],
     properties: [
       {
         property: 'actorId',
@@ -130,8 +140,9 @@ export const filmDataExplanation: DataExplanation[] = [
           },
           {
             property: 'imageUrl',
-            type: ['array', 'string'],
+            type: ['array'],
             required: true,
+            arrayItemsType: ['string'],
             description: 'Links to a frame from the film showing the character'
           }
         ]
@@ -140,9 +151,10 @@ export const filmDataExplanation: DataExplanation[] = [
   },
   {
     property: 'collections',
-    type: ['array', 'object'],
+    type: ['array'],
     required: true,
     description: 'Film collections data',
+    arrayItemsType: ['object'],
     properties: [
       {
         property: 'title',
@@ -208,9 +220,10 @@ export const filmDataExplanation: DataExplanation[] = [
   },
   {
     property: 'awards',
-    type: ['array', 'object'],
+    type: ['array'],
     required: false,
     description: 'Awards that a film has won.',
+    arrayItemsType: ['object'],
     properties: [
       {
         property: 'title',
@@ -221,9 +234,10 @@ export const filmDataExplanation: DataExplanation[] = [
       },
       {
         property: 'nominations',
-        type: ['array', 'string'],
+        type: ['array'],
         required: true,
         description: 'List of nominations in which a film has won.',
+        arrayItemsType: ['string'],
         valueExample: '["Best Achievement in Visual Effects"]'
       },
     ]
@@ -250,28 +264,65 @@ export const filmDataExplanation: DataExplanation[] = [
     ]
   },
   {
-    property: 'episodes',
-    type: ['array', 'object'],
+    property: 'seasons',
+    type: ['array'],
     required: false,
-    description: 'Series episodes list',
+    requiredPartially: true,
+    description: 'Series specific data. Required only for Series type. If omit this property, posters, trailers and episodes list will not be displayed on a film page.',
+    arrayItemsType: ['object'],
     properties: [
       {
-        property: 'episodeOverall',
+        property: 'season',
         type: ['number'],
         required: true,
-        description: 'Episode number through all seasons'
+        description: 'Season number'
       },
       {
-        property: 'episode',
-        type: ['number'],
-        required: true,
-        description: 'Episode number in the current season'
-      },
-      {
-        property: 'title',
+        property: 'trailer',
         type: ['string'],
         required: true,
-        description: 'Episode title'
+        description: 'Season trailer. Youtube video ID',
+        valueExample: 'a3thyAnShck',
+      },
+      {
+        property: 'poster',
+        type: ['string'],
+        required: true,
+        description: 'File name without extension. Files are stored by the /public/posters path and should have the .webp extension',
+        valueExample: 'stranger_things_s2',
+      },
+      {
+        property: 'year',
+        type: ['number'],
+        required: true,
+        description: 'Season release year'
+      },
+      {
+        property: 'episodes',
+        type: ['array'],
+        required: true,
+        description: 'List of episodes',
+        arrayItemsType: ['object'],
+        properties: [
+          {
+            property: 'episodeOverall',
+            type: ['number'],
+            required: true,
+            description: 'Episode number through all seasons'
+          },
+          {
+            property: 'episode',
+            type: ['number'],
+            required: true,
+            description: 'Episode number in the current season'
+          },
+          {
+            property: 'title',
+            type: ['string'],
+            required: true,
+            description: 'Episode title'
+          },
+        ]
       },
     ]
   },

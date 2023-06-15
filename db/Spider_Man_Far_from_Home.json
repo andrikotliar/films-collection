@@ -1,55 +1,73 @@
 {
   "id": "efdefdd0-fe54-40bc-8caf-0b6763c570ee",
+  "type": [
+    "Film"
+  ],
   "title": "Spider-Man: Far from Home",
   "poster": "mcu_spider_man_2",
+  "trailer": "Nt9L1jCKGnE",
   "genres": [
     "Sci-Fi",
     "Comedy"
+  ],
+  "synopsis": "Following the events of Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Jon Watts"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Chris McKenna"
+        },
+        {
+          "name": "Erik Sommers"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        },
+        {
+          "name": "Amy Pascal"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Michael Giacchino"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Matthew J. Lloyd"
+        }
+      ]
+    }
+  ],
+  "year": 2019,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Sony Pictures",
     "Marvel Studios"
   ],
-  "directedBy": [
-    "Jon Watts"
-  ],
-  "producedBy": "Kevin Feige, Amy Pascal",
-  "writtenBy": "Chris McKenna, Erik Sommers",
-  "musicBy": "Michael Giacchino",
-  "cinematographyBy": "Matthew J. Lloyd",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 160,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.13,
-    "suffix": "billion"
-  },
-  "synopsis": "Following the events of Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Supporting Actress",
-        "Best Performance by a Younger Actor"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 23
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 129,
   "cast": [
     {
       "character": {
@@ -94,7 +112,30 @@
       "actorId": "c8eeb8d9-51c3-4833-a31d-ec18431eaf71"
     }
   ],
-  "duration": 129,
-  "trailer": "Nt9L1jCKGnE",
-  "year": 2019
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 160,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.13,
+    "suffix": "billion"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Supporting Actress",
+        "Best Performance by a Younger Actor"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 23
+  }
 }

@@ -1,45 +1,81 @@
 {
   "id": "4ebc7427-80a0-4bd9-bb24-5fdb77bd191b",
+  "type": [
+    "Film"
+  ],
   "title": "Mission: Impossible - Rogue Nation",
   "poster": "mi_5",
+  "trailer": "gOW_azQbOjw",
   "genres": [
     "Action",
     "Adventures"
   ],
-  "production": [
-    "Paramount Pictures"
+  "synopsis": "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Christopher McQuarrie"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Christopher McQuarrie"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Tom Cruise"
+        },
+        {
+          "name": "Bryan Burk"
+        },
+        {
+          "name": "J.J. Abrams"
+        },
+        {
+          "name": "David Ellison"
+        },
+        {
+          "name": "Dana Goldberg"
+        },
+        {
+          "name": "Don Granger"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Joe Kraemer"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Robert Elswit"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Christopher McQuarrie"
-  ],
-  "producedBy": "Tom Cruise, Bryan Burk, J.J. Abrams, David Ellison, Dana Goldberg, Don Granger",
-  "writtenBy": "Christopher McQuarrie",
-  "musicBy": "Joe Kraemer",
-  "cinematographyBy": "Robert Elswit",
+  "year": 2015,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 683,
-    "suffix": "million"
-  },
-  "synopsis": "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF.",
-  "collections": [
-    {
-      "name": "Agents and Detectives"
-    }
+  "production": [
+    "Paramount Pictures"
   ],
-  "parts": {
-    "title": "Mission: Impossible",
-    "part": 5
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 131,
   "cast": [
     {
       "character": {
@@ -98,7 +134,21 @@
       "actorId": "7e743648-0b27-4015-a291-a78eb50c9229"
     }
   ],
-  "duration": 131,
-  "trailer": "gOW_azQbOjw",
-  "year": 2015
+  "collections": [
+    {
+      "title": "Agents and Detectives"
+    }
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 683,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Mission: Impossible",
+    "part": 5
+  }
 }

@@ -1,46 +1,79 @@
 {
   "id": "0bbee303-dc3d-46b4-8f8a-6770774b805a",
+  "type": [
+    "Film"
+  ],
   "title": "The Amazing Spider-Man",
   "poster": "amazing_spider_man_1",
+  "trailer": "-tnxzJ0SSOw",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Marc Webb"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "James Vanderbilt"
+        },
+        {
+          "name": "Alvin Sargent"
+        },
+        {
+          "name": "Steve Kloves"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Avi Arad"
+        },
+        {
+          "name": "Matt Tolmach"
+        },
+        {
+          "name": "Laura Ziskin"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "James Horner"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "John Schwartzman"
+        }
+      ]
+    }
+  ],
+  "year": 2012,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Columbia Pictures",
     "Marvel Entertainment"
   ],
-  "directedBy": [
-    "Marc Webb"
-  ],
-  "producedBy": "Avi Arad, Matt Tolmach, Laura Ziskin",
-  "writtenBy": "James Vanderbilt, Alvin Sargent, Steve Kloves",
-  "musicBy": "James Horner",
-  "cinematographyBy": "John Schwartzman",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 230,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 758,
-    "suffix": "million"
-  },
-  "synopsis": "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe.",
-  "collections": [
-    {
-      "name": "Superheroes"
-    }
-  ],
-  "parts": {
-    "title": "The Amazing Spider-Man",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 136,
   "cast": [
     {
       "character": {
@@ -99,7 +132,21 @@
       "actorId": "3f538d20-40d6-4dc7-85dd-6fd458bdbcf2"
     }
   ],
-  "duration": 136,
-  "trailer": "-tnxzJ0SSOw",
-  "year": 2012
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": {
+    "value": 230,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 758,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "The Amazing Spider-Man",
+    "part": 1
+  }
 }

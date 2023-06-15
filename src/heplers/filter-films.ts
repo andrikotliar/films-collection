@@ -1,4 +1,4 @@
-import { GeneralFilm } from "@/types";
+import { FilmData} from "@/types";
 
 const handleSearchFilter = (searchQuery: string, title: string) => {
   const lowerTitle = title.toLowerCase();
@@ -9,81 +9,85 @@ const handleSearchFilter = (searchQuery: string, title: string) => {
   return filteredWords.every((w) => w.length > 2 && lowerTitle.includes(w));
 };
 
-export const filterFilms = (list: GeneralFilm[], filterParams: any): GeneralFilm[] => {
+export const filterFilms = (list: FilmData[], filterParams: any): FilmData[] => {
   if(!Object.keys(filterParams).length) {
     return list;
   }
 
-  const params = { ...filterParams };
-  delete params.page;
-  delete params.actorName;
-
-  const filteredFilms = list.filter((film) => {
-    const match = Object.keys(params).every((property) => {
-      if(property === 'search' && params.search) {
-        return handleSearchFilter(params.search, film.title);
-      }
-
-      if(property === 'year') {
-        return film.year === Number(params[property]);
-      }
-
-      if(property === 'collections') {
-        return film.collections.some(collection => collection.name === params.collections);
-      }
-
-      if(property === 'actorId') {
-        const hasActorId = film.cast.find((actor) => actor.actorId === params.actorId);
-        if(hasActorId) {
-          return true;
+  try {
+    const params = { ...filterParams };
+    delete params.page;
+    delete params.actorName;
+  
+    const filteredFilms = list.filter((film) => {
+      const match = Object.keys(params).every((property) => {
+        if(property === 'search' && params.search) {
+          return handleSearchFilter(params.search, film.title);
         }
-        return false;
+  
+        if(property === 'crew') {
+          const parsedCrew = JSON.parse(params[property]);
+          const role = Object.keys(parsedCrew)[0];
+          const crewPosition = film.crew.find((item) => item.role === role);
+          return crewPosition?.people.find((ppl) => ppl.name === parsedCrew[role])
+        }
+  
+        if(property === 'year') {
+          return film.year === Number(params[property]);
+        }
+  
+        if(property === 'collections' || property === 'awards') {
+          return film[property]?.some(item => item.title === params[property]);
+        }
+  
+        if(property === 'actorId') {
+          const hasActorId = film.cast.find((actor) => actor.actorId === params.actorId);
+          if(hasActorId) {
+            return true;
+          }
+          return false;
+        }
+  
+        return film[property].some((item: string) => params[property].includes(item));
+      });
+      if(match) {
+        return true;
       }
-
-      if(Array.isArray(params[property]) && film[property]) {
-        return film[property]?.some(item => params[property].includes(item));
-      }
-
-      if(typeof params[property] === 'string') {
-        return film[property].includes(params[property]);
-      }
+      return false;
     });
-    if(match) {
-      return true;
-    }
-    return false;
-  });
-
-  if(filterParams.collections) {
-    const filmsWithMinifiedCollections = filteredFilms.map(film => {
-      const currentCollection = film.collections.filter(
-        collection => collection.name === filterParams.collections
-      );
-
-      if(currentCollection.length) {
+  
+    if(filterParams.collections) {
+      const filmsWithMinifiedCollections = filteredFilms.map(film => {
+        const currentCollection = film.collections.filter(
+          collection => collection.title === filterParams.collections
+        );
+  
+        if(currentCollection.length) {
+          return {
+            ...film,
+            collections: currentCollection,
+            ordered: true
+          }
+        }
+        
         return {
           ...film,
-          collections: currentCollection,
-          ordered: true
-        }
+          collections: []
+        };
+      });
+  
+      if(filmsWithMinifiedCollections[0]?.collections[0]?.order) {
+        return filmsWithMinifiedCollections.sort(
+          (a, b) => Number(a?.collections[0]?.order) > Number(b?.collections[0]?.order) ? 1 : -1
+        );
       }
-      
-      return {
-        ...film,
-        collections: []
-      };
-    });
-
-    console.log(filmsWithMinifiedCollections)
-
-    if(filmsWithMinifiedCollections[0]?.collections[0]?.order) {
-      return filmsWithMinifiedCollections.sort(
-        (a, b) => Number(a?.collections[0]?.order) > Number(b?.collections[0]?.order) ? 1 : -1
-      );
+  
+      return filteredFilms;
     }
-
+  
     return filteredFilms;
+  } catch(e: any) {
+    console.error('Filter error', e?.message);
+    return [];
   }
-
-  return filteredFilms;
 }

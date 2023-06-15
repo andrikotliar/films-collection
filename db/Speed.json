@@ -1,69 +1,66 @@
 {
   "id": "b48e663d-94e9-459c-ad80-51310bb2e5ca",
+  "type": [
+    "Film"
+  ],
   "title": "Speed",
   "poster": "speed",
+  "trailer": "8piqd2BWeGI",
   "genres": [
     "Action",
     "Thriller"
   ],
-  "production": [
-    "20th Century FOX"
+  "synopsis": "A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Jan de Bont"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Graham Yost"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Mark Gordon"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Mark Mancina"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Andrzej Bartkowiak"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Jan de Bont"
-  ],
-  "producedBy": "Mark Gordon",
-  "writtenBy": "Graham Yost",
-  "musicBy": "Mark Mancina",
-  "cinematographyBy": "Andrzej Bartkowiak",
+  "year": 1994,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 30,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 350,
-    "suffix": "million"
-  },
-  "synopsis": "A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph.",
-  "collections": [
-    {
-      "name": "Cars"
-    }
+  "production": [
+    "20th Century FOX"
   ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Sound",
-        "Best Sound Effects Editing"
-      ]
-    },
-    {
-      "title": "Golden Globes",
-      "nominations": [
-        "Best Director - Motion Picture"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Editing",
-        "Best Sound"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Actress"
-      ]
-    }
-  ],
-  "type": [
-    "Film"
-  ],
+  "duration": 116,
   "cast": [
     {
       "character": {
@@ -115,7 +112,45 @@
       "actorId": "963da96c-521a-4e6b-b448-97411eff77ae"
     }
   ],
-  "duration": 116,
-  "trailer": "8piqd2BWeGI",
-  "year": 1994
+  "collections": [
+    {
+      "title": "Cars"
+    }
+  ],
+  "budget": {
+    "value": 30,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 350,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Sound",
+        "Best Sound Effects Editing"
+      ]
+    },
+    {
+      "title": "Golden Globes",
+      "nominations": [
+        "Best Director - Motion Picture"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Editing",
+        "Best Sound"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Actress"
+      ]
+    }
+  ]
 }

@@ -1,45 +1,70 @@
 {
   "id": "22d2e0bc-1c9d-4c63-ab5a-134e0d6afda3",
+  "type": [
+    "Animation"
+  ],
   "title": "Madagascar",
   "poster": "madagascar",
+  "trailer": "orAqhC-Hp_o",
   "genres": [
     "Adventures",
     "Comedy"
   ],
-  "production": [
-    "DreamWorks Animation"
+  "synopsis": "A group of animals who have spent all their life in a New York zoo end up in the jungles of Madagascar, and must adjust to living in the wild.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Eric Darnell"
+        },
+        {
+          "name": "Tom McGrath"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Mark Burton"
+        },
+        {
+          "name": "Billy Frolick"
+        },
+        {
+          "name": "Eric Darnell"
+        },
+        {
+          "name": "Tom McGrath"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Mireille Soria"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Eric Darnell",
-    "Tom McGrath"
-  ],
-  "producedBy": "Mireille Soria",
-  "writtenBy": "Mark Burton, Billy Frolick, Eric Darnell, Tom McGrath",
-  "musicBy": "Hans Zimmer",
+  "year": 2005,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 75,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 542,
-    "suffix": "million"
-  },
-  "synopsis": "A group of animals who have spent all their life in a New York zoo end up in the jungles of Madagascar, and must adjust to living in the wild.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
+  "production": [
+    "DreamWorks Animation"
   ],
-  "parts": {
-    "title": "Madagascar",
-    "part": 1
-  },
-  "type": [
-    "Animation"
-  ],
+  "duration": 86,
   "cast": [
     {
       "character": {
@@ -91,7 +116,21 @@
       "actorId": "236345ed-4488-4da7-b810-9141c8a74f47"
     }
   ],
-  "duration": 86,
-  "trailer": "orAqhC-Hp_o",
-  "year": 2005
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 75,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 542,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Madagascar",
+    "part": 1
+  }
 }

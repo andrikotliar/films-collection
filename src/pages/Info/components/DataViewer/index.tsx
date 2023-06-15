@@ -8,9 +8,15 @@ const DataViewer: FC<{ data: DataExplanation[] }> = ({
 }) => {
   return (
     <div className="data-viewer">
-      {data.map((item) => (
-        <DetailsProperty details={item} key={item.property} />
-      ))}
+      <div className="data-viewer__legend">
+        <p><span className="required">*</span> — property is required</p>
+        <p><span className="required-partialy">*</span> — this property is required in some cases, read description</p>
+      </div>
+      <div className="data-viewer__wrapper">
+        {data.map((item) => (
+          <DetailsProperty details={item} key={item.property} />
+        ))}
+      </div>
     </div>
   );
 };

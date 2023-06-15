@@ -1,503 +1,173 @@
 {
   "id": "76c25fd8-35ef-4685-a41b-5a5d40e2380d",
+  "type": [
+    "Series",
+    "Animation"
+  ],
   "title": "Avatar: The Last Airbender",
   "poster": "last_airbender",
   "genres": [
     "Adventures",
     "Fantasy"
   ],
-  "production": [
-    "Nickelodeon Animation Studios"
+  "synopsis": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
+  "crew": [
+    {
+      "role": "Created by",
+      "people": [
+        {
+          "name": "Michael Dante DiMartino"
+        },
+        {
+          "name": "Bryan Konietzko"
+        }
+      ]
+    },
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Michael Dante DiMartino",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Giancarlo Volpe",
+          "comment": "19 episodes"
+        },
+        {
+          "name": "Dave Filoni",
+          "comment": "9 episodes"
+        },
+        {
+          "name": "Lauren MacMullan",
+          "comment": "11 episodes"
+        },
+        {
+          "name": "Anthony Lioi",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Ethan Spaulding",
+          "comment": "12 episodes"
+        },
+        {
+          "name": "Bryan Konietzko",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Joaquim Dos Santos",
+          "comment": "8 episodes"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Michael Dante DiMartino",
+          "comment": "14 episodes (written by)"
+        },
+        {
+          "name": "Bryan Konietzko",
+          "comment": "7 episodes (written by)"
+        },
+        {
+          "name": "John O'Bryan",
+          "comment": "12 episodes"
+        },
+        {
+          "name": "Aaron Ehasz",
+          "comment": "11 episodes"
+        },
+        {
+          "name": "James Eagan",
+          "comment": "5 episodes"
+        },
+        {
+          "name": "Ian Wilcox",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Tim Hedrick",
+          "comment": "10 episodes"
+        },
+        {
+          "name": "Elizabeth Welch Ehasz",
+          "comment": "8 episodes"
+        },
+        {
+          "name": "Joshua Hamilton",
+          "comment": "7 episodes"
+        },
+        {
+          "name": "Joann Estoesta",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Matt Hubbard",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Lisa Wahlander",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Andrew Huebner",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Gary Scheppke",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Katie Mattila",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Nick Malis",
+          "comment": "1 episode"
+        },
+        {
+          "name": "May Chan",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Giancarlo Volpe",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Michael Dante DiMartino"
+        },
+        {
+          "name": "Bryan Konietzko"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Benjamin Wynn"
+        },
+        {
+          "name": "Jeremy Zuckerman"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Michael Dante DiMartino",
-    "Bryan Konietzko"
-  ],
-  "producedBy": "Michael Dante DiMartino, Bryan Konietzko",
-  "musicBy": "Benjamin Wynn, Jeremy Zuckerman",
+  "year": 2005,
   "countries": [
     "USA"
   ],
-  "synopsis": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
+  "production": [
+    "Nickelodeon Animation Studios"
   ],
-  "awards": [
-    {
-      "title": "Emmy",
-      "nominations": [
-        "Outstanding Individual Achievement in Animation"
-      ]
-    },
-    {
-      "title": "Annie",
-      "nominations": [
-        "Best Animated Television Production Produced for Children",
-        "Best Directing in an Animated Television Production or Short Form",
-        "Best Character Animation in a Television Production",
-        "Best Directing in an Animated Television Production",
-        "Best Storyboarding in an Animated Television Production",
-        "Best Animated Television Production"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "The Last Airbender",
-    "part": 1
-  },
-  "type": [
-    "Series",
-    "Animation"
-  ],
-  "seasons": [
-    {
-      "season": 1,
-      "trailer": "ahPeclU9VW0",
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "The Boy in the Iceberg",
-          "directedBy": "Dave Filoni",
-          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "The Avatar Returns",
-          "directedBy": "Dave Filoni",
-          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "The Southern Air Temple",
-          "directedBy": "Lauren MacMullan",
-          "writtenBy": "Michael Dante DiMartino"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "The Warriors of Kyoshi",
-          "directedBy": "Giancarlo Volpe",
-          "writtenBy": "Nick Malis"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "The King of Omashu",
-          "directedBy": "Anthony Lioi",
-          "writtenBy": "John O'Bryan"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "Imprisoned",
-          "directedBy": "Dave Filoni",
-          "writtenBy": "Matthew Hubbard"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "Winter Solstice, Part 1: The Spirit World",
-          "directedBy": "Lauren MacMullan",
-          "writtenBy": "Aaron Ehasz"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 8,
-          "title": "Winter Solstice, Part 2: Avatar Roku",
-          "directedBy": "Giancarlo Volpe",
-          "writtenBy": "Michael Dante DiMartino"
-        },
-        {
-          "episodeOverall": 9,
-          "episode": 9,
-          "title": "The Waterbending Scroll",
-          "directedBy": "Anthony Lioi",
-          "writtenBy": "John O'Bryan"
-        },
-        {
-          "episodeOverall": 10,
-          "episode": 10,
-          "title": "Jet",
-          "directedBy": "Dave Filoni",
-          "writtenBy": "James Eagan"
-        },
-        {
-          "episodeOverall": 11,
-          "episode": 11,
-          "title": "The Great Divide",
-          "directedBy": "Giancarlo Volpe",
-          "writtenBy": "John O'Bryan"
-        },
-        {
-          "episodeOverall": 12,
-          "episode": 12,
-          "title": "The Storm",
-          "directedBy": "Lauren MacMullan",
-          "writtenBy": "Aaron Ehasz"
-        },
-        {
-          "episodeOverall": 13,
-          "episode": 13,
-          "title": "The Blue Spirit",
-          "directedBy": "Dave Filoni",
-          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko"
-        },
-        {
-          "episodeOverall": 14,
-          "episode": 14,
-          "title": "The Fortuneteller",
-          "directedBy": "Dave Filoni",
-          "writtenBy": "Aaron Ehasz, John O'Bryan"
-        },
-        {
-          "episodeOverall": 15,
-          "episode": 15,
-          "title": "Bato of the Water Tribe",
-          "directedBy": "Giancarlo Volpe",
-          "writtenBy": "Ian Wilcox"
-        },
-        {
-          "episodeOverall": 16,
-          "episode": 16,
-          "title": "The Deserter",
-          "directedBy": "Lauren MacMullan",
-          "writtenBy": "Tim Hedrick"
-        },
-        {
-          "episodeOverall": 17,
-          "episode": 17,
-          "title": "The Northern Air Temple",
-          "directedBy": "Dave Filoni",
-          "writtenBy": "Elizabeth Welch"
-        },
-        {
-          "episodeOverall": 18,
-          "episode": 18,
-          "title": "The Waterbending Master",
-          "directedBy": "Giancarlo Volpe",
-          "writtenBy": "Michael Dante DiMartino"
-        },
-        {
-          "episodeOverall": 19,
-          "episode": 19,
-          "title": "The Siege of the North, Part 1",
-          "directedBy": "Lauren MacMullan",
-          "writtenBy": "John O'Bryan"
-        },
-        {
-          "episodeOverall": 20,
-          "episode": 20,
-          "title": "The Siege of the North, Part 2",
-          "directedBy": "Dave Filoni",
-          "writtenBy": "Aaron Ehasz"
-        }
-      ]
-    },
-    {
-      "season": 2,
-      "trailer": "ahPeclU9VW0",
-      "episodes": [
-        {
-          "episodeOverall": 21,
-          "episode": 1,
-          "title": "The Avatar State",
-          "directedBy": "Giancarlo Volpe",
-          "writtenBy": "Aaron Ehasz, Elizabeth Welch, Tim Hedrick, John O'Bryan"
-        },
-        {
-          "episodeOverall": 22,
-          "episode": 2,
-          "title": "The Cave of Two Lovers",
-          "directedBy": "Lauren MacMullan",
-          "writtenBy": "Joshua Hamilton"
-        },
-        {
-          "episodeOverall": 23,
-          "episode": 3,
-          "title": "Return to Omashu",
-          "directedBy": "Ethan Spaulding",
-          "writtenBy": "Elizabeth Welch"
-        },
-        {
-          "episodeOverall": 24,
-          "episode": 4,
-          "title": "The Swamp",
-          "directedBy": "Giancarlo Volpe",
-          "writtenBy": "Tim Hedrick"
-        },
-        {
-          "episodeOverall": 25,
-          "episode": 5,
-          "title": "Avatar Day",
-          "directedBy": "Lauren MacMullan",
-          "writtenBy": "John O'Bryan"
-        },
-        {
-          "episodeOverall": 26,
-          "episode": 6,
-          "title": "The Blind Bandit",
-          "directedBy": "Ethan Spaulding",
-          "writtenBy": "Michael Dante DiMartino"
-        },
-        {
-          "episodeOverall": 27,
-          "episode": 7,
-          "title": "Zuko Alone",
-          "directedBy": "Lauren MacMullan",
-          "writtenBy": "Elizabeth Welch"
-        },
-        {
-          "episodeOverall": 28,
-          "episode": 8,
-          "title": "The Chase",
-          "directedBy": "Giancarlo Volpe",
-          "writtenBy": "Joshua Hamilton"
-        },
-        {
-          "episodeOverall": 29,
-          "episode": 9,
-          "title": "Bitter Work",
-          "directedBy": "Ethan Spaulding",
-          "writtenBy": "Aaron Ehasz"
-        },
-        {
-          "episodeOverall": 30,
-          "episode": 10,
-          "title": "The Library",
-          "directedBy": "Giancarlo Volpe",
-          "writtenBy": "John O'Bryan"
-        },
-        {
-          "episodeOverall": 31,
-          "episode": 11,
-          "title": "The Desert",
-          "directedBy": "Lauren MacMullan",
-          "writtenBy": "Tim Hedrick"
-        },
-        {
-          "episodeOverall": 32,
-          "episode": 12,
-          "title": "The Serpent's Pass",
-          "directedBy": "Ethan Spaulding",
-          "writtenBy": "Michael Dante DiMartino, Joshua Hamilton"
-        },
-        {
-          "episodeOverall": 33,
-          "episode": 13,
-          "title": "The Drill",
-          "directedBy": "Giancarlo Volpe",
-          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko"
-        },
-        {
-          "episodeOverall": 34,
-          "episode": 14,
-          "title": "City of Walls, Secrets",
-          "directedBy": "Lauren MacMullan",
-          "writtenBy": "Tim Hedrick"
-        },
-        {
-          "episodeOverall": 35,
-          "episode": 15,
-          "title": "The Tales of Ba Sing Se",
-          "directedBy": "Ethan Spaulding",
-          "writtenBy": "The Tale of Toph and Katara: Joann Estoesta, Lisa Wahlander; The Tale of Iroh: Andrew Huebner; The Tale of Aang: Gary Scheppke; The Tale of Sokka: Lauren MacMullan; The Tale of Zuko: Katie Mattila; The Tale of Momo: Justin Ridge, Giancarlo Volpe"
-        },
-        {
-          "episodeOverall": 36,
-          "episode": 16,
-          "title": "Appa's Lost Days",
-          "directedBy": "Giancarlo Volpe",
-          "writtenBy": "Elizabeth Welch"
-        },
-        {
-          "episodeOverall": 37,
-          "episode": 17,
-          "title": "Lake Laogai",
-          "directedBy": "Lauren MacMullan",
-          "writtenBy": "Tim Hedrick"
-        },
-        {
-          "episodeOverall": 38,
-          "episode": 18,
-          "title": "The Earth King",
-          "directedBy": "Ethan Spaulding",
-          "writtenBy": "John O'Bryan"
-        },
-        {
-          "episodeOverall": 39,
-          "episode": 19,
-          "title": "The Guru",
-          "directedBy": "Giancarlo Volpe",
-          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko"
-        },
-        {
-          "episodeOverall": 40,
-          "episode": 20,
-          "title": "The Crossroads of Destiny",
-          "directedBy": "Michael Dante DiMartino",
-          "writtenBy": "Aaron Ehasz"
-        }
-      ]
-    },
-    {
-      "season": 3,
-      "trailer": "ahPeclU9VW0",
-      "episodes": [
-        {
-          "episodeOverall": 41,
-          "episode": 1,
-          "title": "The Awakening",
-          "directedBy": "Giancarlo Volpe",
-          "writtenBy": "Aaron Ehasz"
-        },
-        {
-          "episodeOverall": 42,
-          "episode": 2,
-          "title": "The Headband",
-          "directedBy": "Joaquim Dos Santos",
-          "writtenBy": "John O'Bryan"
-        },
-        {
-          "episodeOverall": 43,
-          "episode": 3,
-          "title": "The Painted Lady",
-          "directedBy": "Ethan Spaulding",
-          "writtenBy": "Joshua Hamilton"
-        },
-        {
-          "episodeOverall": 44,
-          "episode": 4,
-          "title": "Sokka's Master",
-          "directedBy": "Giancarlo Volpe",
-          "writtenBy": "Tim Hedrick"
-        },
-        {
-          "episodeOverall": 45,
-          "episode": 5,
-          "title": "The Beach",
-          "directedBy": "Joaquim Dos Santos",
-          "writtenBy": "Katie Mattila"
-        },
-        {
-          "episodeOverall": 46,
-          "episode": 6,
-          "title": "The Avatar and the Fire Lord",
-          "directedBy": "Ethan Spaulding",
-          "writtenBy": "Elizabeth Welch"
-        },
-        {
-          "episodeOverall": 47,
-          "episode": 7,
-          "title": "The Runaway",
-          "directedBy": "Giancarlo Volpe",
-          "writtenBy": "Joshua Hamilton"
-        },
-        {
-          "episodeOverall": 48,
-          "episode": 8,
-          "title": "The Puppetmaster",
-          "directedBy": "Joaquim Dos Santos",
-          "writtenBy": "Tim Hedrick"
-        },
-        {
-          "episodeOverall": 49,
-          "episode": 9,
-          "title": "Nightmares and Daydreams",
-          "directedBy": "Ethan Spaulding",
-          "writtenBy": "John O'Bryan"
-        },
-        {
-          "episodeOverall": 50,
-          "episode": 10,
-          "title": "The Day of Black Sun, Part 1: The Invasion",
-          "directedBy": "Giancarlo Volpe",
-          "writtenBy": "Michael Dante DiMartino"
-        },
-        {
-          "episodeOverall": 51,
-          "episode": 11,
-          "title": "The Day of Black Sun, Part 2: The Eclipse",
-          "directedBy": "Joaquim Dos Santos",
-          "writtenBy": "Aaron Ehasz"
-        },
-        {
-          "episodeOverall": 52,
-          "episode": 12,
-          "title": "The Western Air Temple",
-          "directedBy": "Ethan Spaulding",
-          "writtenBy": "Elizabeth Welch, Tim Hedrick"
-        },
-        {
-          "episodeOverall": 53,
-          "episode": 13,
-          "title": "The Firebending Masters",
-          "directedBy": "Giancarlo Volpe",
-          "writtenBy": "John O'Bryan"
-        },
-        {
-          "episodeOverall": 54,
-          "episode": 14,
-          "title": "The Boiling Rock, Part 1",
-          "directedBy": "Joaquim Dos Santos",
-          "writtenBy": "May Chan"
-        },
-        {
-          "episodeOverall": 55,
-          "episode": 15,
-          "title": "The Boiling Rock, Part 2",
-          "directedBy": "Ethan Spaulding",
-          "writtenBy": "Joshua Hamilton"
-        },
-        {
-          "episodeOverall": 56,
-          "episode": 16,
-          "title": "The Southern Raiders",
-          "directedBy": "Joaquim Dos Santos",
-          "writtenBy": "Elizabeth Welch"
-        },
-        {
-          "episodeOverall": 57,
-          "episode": 17,
-          "title": "The Ember Island Players",
-          "directedBy": "Giancarlo Volpe",
-          "writtenBy": "Tim Hedrick, Joshua Hamilton, John O'Bryan"
-        },
-        {
-          "episodeOverall": 58,
-          "episode": 18,
-          "title": "Sozin's Comet, Part 1: The Phoenix King",
-          "directedBy": "Ethan Spaulding",
-          "writtenBy": "Michael Dante DiMartino"
-        },
-        {
-          "episodeOverall": 59,
-          "episode": 19,
-          "title": "Sozin's Comet, Part 2: The Old Masters",
-          "directedBy": "Giancarlo Volpe",
-          "writtenBy": "Aaron Ehasz"
-        },
-        {
-          "episodeOverall": 60,
-          "episode": 20,
-          "title": "Sozin's Comet, Part 3: Into the Inferno",
-          "directedBy": "Joaquim Dos Santos",
-          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko"
-        },
-        {
-          "episodeOverall": 61,
-          "episode": 21,
-          "title": "Sozin's Comet, Part 4: Avatar Aang",
-          "directedBy": "Joaquim Dos Santos",
-          "writtenBy": "Michael Dante DiMartino, Bryan Konietzko"
-        }
-      ]
-    }
-  ],
+  "duration": 1220,
   "cast": [
     {
       "character": {
@@ -605,6 +275,363 @@
       "actorId": "4a373c3e-5e8c-4f7e-a70b-2d7a12b1843b"
     }
   ],
-  "duration": 1220,
-  "year": 2005
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Emmy",
+      "nominations": [
+        "Outstanding Individual Achievement in Animation"
+      ]
+    },
+    {
+      "title": "Annie",
+      "nominations": [
+        "Best Animated Television Production Produced for Children",
+        "Best Directing in an Animated Television Production or Short Form",
+        "Best Character Animation in a Television Production",
+        "Best Directing in an Animated Television Production",
+        "Best Storyboarding in an Animated Television Production",
+        "Best Animated Television Production"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Last Airbender",
+    "part": 1
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "trailer": "ahPeclU9VW0",
+      "year": 2005,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "The Boy in the Iceberg"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "The Avatar Returns"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "The Southern Air Temple"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "The Warriors of Kyoshi"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "The King of Omashu"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "Imprisoned"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "Winter Solstice, Part 1: The Spirit World"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "Winter Solstice, Part 2: Avatar Roku"
+        },
+        {
+          "episodeOverall": 9,
+          "episode": 9,
+          "title": "The Waterbending Scroll"
+        },
+        {
+          "episodeOverall": 10,
+          "episode": 10,
+          "title": "Jet"
+        },
+        {
+          "episodeOverall": 11,
+          "episode": 11,
+          "title": "The Great Divide"
+        },
+        {
+          "episodeOverall": 12,
+          "episode": 12,
+          "title": "The Storm"
+        },
+        {
+          "episodeOverall": 13,
+          "episode": 13,
+          "title": "The Blue Spirit"
+        },
+        {
+          "episodeOverall": 14,
+          "episode": 14,
+          "title": "The Fortuneteller"
+        },
+        {
+          "episodeOverall": 15,
+          "episode": 15,
+          "title": "Bato of the Water Tribe"
+        },
+        {
+          "episodeOverall": 16,
+          "episode": 16,
+          "title": "The Deserter"
+        },
+        {
+          "episodeOverall": 17,
+          "episode": 17,
+          "title": "The Northern Air Temple"
+        },
+        {
+          "episodeOverall": 18,
+          "episode": 18,
+          "title": "The Waterbending Master"
+        },
+        {
+          "episodeOverall": 19,
+          "episode": 19,
+          "title": "The Siege of the North, Part 1"
+        },
+        {
+          "episodeOverall": 20,
+          "episode": 20,
+          "title": "The Siege of the North, Part 2"
+        }
+      ],
+      "poster": "last_airbender"
+    },
+    {
+      "season": 2,
+      "trailer": "ahPeclU9VW0",
+      "year": 2006,
+      "episodes": [
+        {
+          "episodeOverall": 21,
+          "episode": 1,
+          "title": "The Avatar State"
+        },
+        {
+          "episodeOverall": 22,
+          "episode": 2,
+          "title": "The Cave of Two Lovers"
+        },
+        {
+          "episodeOverall": 23,
+          "episode": 3,
+          "title": "Return to Omashu"
+        },
+        {
+          "episodeOverall": 24,
+          "episode": 4,
+          "title": "The Swamp"
+        },
+        {
+          "episodeOverall": 25,
+          "episode": 5,
+          "title": "Avatar Day"
+        },
+        {
+          "episodeOverall": 26,
+          "episode": 6,
+          "title": "The Blind Bandit"
+        },
+        {
+          "episodeOverall": 27,
+          "episode": 7,
+          "title": "Zuko Alone"
+        },
+        {
+          "episodeOverall": 28,
+          "episode": 8,
+          "title": "The Chase"
+        },
+        {
+          "episodeOverall": 29,
+          "episode": 9,
+          "title": "Bitter Work"
+        },
+        {
+          "episodeOverall": 30,
+          "episode": 10,
+          "title": "The Library"
+        },
+        {
+          "episodeOverall": 31,
+          "episode": 11,
+          "title": "The Desert"
+        },
+        {
+          "episodeOverall": 32,
+          "episode": 12,
+          "title": "The Serpent's Pass"
+        },
+        {
+          "episodeOverall": 33,
+          "episode": 13,
+          "title": "The Drill"
+        },
+        {
+          "episodeOverall": 34,
+          "episode": 14,
+          "title": "City of Walls, Secrets"
+        },
+        {
+          "episodeOverall": 35,
+          "episode": 15,
+          "title": "The Tales of Ba Sing Se"
+        },
+        {
+          "episodeOverall": 36,
+          "episode": 16,
+          "title": "Appa's Lost Days"
+        },
+        {
+          "episodeOverall": 37,
+          "episode": 17,
+          "title": "Lake Laogai"
+        },
+        {
+          "episodeOverall": 38,
+          "episode": 18,
+          "title": "The Earth King"
+        },
+        {
+          "episodeOverall": 39,
+          "episode": 19,
+          "title": "The Guru"
+        },
+        {
+          "episodeOverall": 40,
+          "episode": 20,
+          "title": "The Crossroads of Destiny"
+        }
+      ],
+      "poster": "last_airbender_s2"
+    },
+    {
+      "season": 3,
+      "trailer": "ahPeclU9VW0",
+      "year": 2008,
+      "episodes": [
+        {
+          "episodeOverall": 41,
+          "episode": 1,
+          "title": "The Awakening"
+        },
+        {
+          "episodeOverall": 42,
+          "episode": 2,
+          "title": "The Headband"
+        },
+        {
+          "episodeOverall": 43,
+          "episode": 3,
+          "title": "The Painted Lady"
+        },
+        {
+          "episodeOverall": 44,
+          "episode": 4,
+          "title": "Sokka's Master"
+        },
+        {
+          "episodeOverall": 45,
+          "episode": 5,
+          "title": "The Beach"
+        },
+        {
+          "episodeOverall": 46,
+          "episode": 6,
+          "title": "The Avatar and the Fire Lord"
+        },
+        {
+          "episodeOverall": 47,
+          "episode": 7,
+          "title": "The Runaway"
+        },
+        {
+          "episodeOverall": 48,
+          "episode": 8,
+          "title": "The Puppetmaster"
+        },
+        {
+          "episodeOverall": 49,
+          "episode": 9,
+          "title": "Nightmares and Daydreams"
+        },
+        {
+          "episodeOverall": 50,
+          "episode": 10,
+          "title": "The Day of Black Sun, Part 1: The Invasion"
+        },
+        {
+          "episodeOverall": 51,
+          "episode": 11,
+          "title": "The Day of Black Sun, Part 2: The Eclipse"
+        },
+        {
+          "episodeOverall": 52,
+          "episode": 12,
+          "title": "The Western Air Temple"
+        },
+        {
+          "episodeOverall": 53,
+          "episode": 13,
+          "title": "The Firebending Masters"
+        },
+        {
+          "episodeOverall": 54,
+          "episode": 14,
+          "title": "The Boiling Rock, Part 1"
+        },
+        {
+          "episodeOverall": 55,
+          "episode": 15,
+          "title": "The Boiling Rock, Part 2"
+        },
+        {
+          "episodeOverall": 56,
+          "episode": 16,
+          "title": "The Southern Raiders"
+        },
+        {
+          "episodeOverall": 57,
+          "episode": 17,
+          "title": "The Ember Island Players"
+        },
+        {
+          "episodeOverall": 58,
+          "episode": 18,
+          "title": "Sozin's Comet, Part 1: The Phoenix King"
+        },
+        {
+          "episodeOverall": 59,
+          "episode": 19,
+          "title": "Sozin's Comet, Part 2: The Old Masters"
+        },
+        {
+          "episodeOverall": 60,
+          "episode": 20,
+          "title": "Sozin's Comet, Part 3: Into the Inferno"
+        },
+        {
+          "episodeOverall": 61,
+          "episode": 21,
+          "title": "Sozin's Comet, Part 4: Avatar Aang"
+        }
+      ],
+      "poster": "last_airbender_s3"
+    }
+  ]
 }

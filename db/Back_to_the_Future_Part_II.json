@@ -1,53 +1,69 @@
 {
   "id": "d7d4d358-01c5-400f-98bf-d94bc4808ee9",
+  "type": [
+    "Film"
+  ],
   "title": "Back to the Future: Part II",
   "poster": "back_to_the_future_2",
+  "trailer": "MdENmefJRpw",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "production": [
-    "Universal Pictures"
-  ],
-  "directedBy": [
-    "Robert Zemeckis"
-  ],
-  "producedBy": "Bob Gale, Neil Canton",
-  "writtenBy": "Bob Gale",
-  "musicBy": "Alan Silvestri",
-  "cinematographyBy": "Dean Cundey",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 40,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 332,
-    "suffix": "million"
-  },
   "synopsis": "After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip.",
-  "collections": [
+  "crew": [
     {
-      "name": "Legends"
-    }
-  ],
-  "awards": [
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Robert Zemeckis"
+        }
+      ]
+    },
     {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Special Effects"
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Bob Gale"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Bob Gale"
+        },
+        {
+          "name": "Neil Canton"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Alan Silvestri"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Dean Cundey"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "Back to the Future",
-    "part": 2
-  },
-  "type": [
-    "Film"
+  "year": 1989,
+  "countries": [
+    "USA"
   ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "duration": 108,
   "cast": [
     {
       "character": {
@@ -85,7 +101,29 @@
       "actorId": "a85784f1-b798-4b6f-879e-8d89c5d6b369"
     }
   ],
-  "duration": 108,
-  "trailer": "MdENmefJRpw",
-  "year": 1989
+  "collections": [
+    {
+      "title": "Legends"
+    }
+  ],
+  "budget": {
+    "value": 40,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 332,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Special Effects"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Back to the Future",
+    "part": 2
+  }
 }

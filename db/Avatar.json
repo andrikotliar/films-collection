@@ -1,99 +1,70 @@
 {
   "id": "0ffe6d39-aad8-4540-a218-6b4ceadd9740",
+  "type": [
+    "Film"
+  ],
   "title": "Avatar",
   "poster": "avatar",
+  "trailer": "CM79GTEm2ps",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "production": [
-    "20th Century FOX"
+  "synopsis": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "James Cameron"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "James Cameron"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "James Cameron"
+        },
+        {
+          "name": "Jon Landau"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "James Horner"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Mauro Fiore"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "James Cameron"
-  ],
-  "producedBy": "James Cameron, Jon Landau",
-  "writtenBy": "James Cameron",
-  "musicBy": "James Horner",
-  "cinematographyBy": "Mauro Fiore",
+  "year": 2009,
   "countries": [
     "USA",
     "UK"
   ],
-  "budget": {
-    "value": 237,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 2.8,
-    "suffix": "billion"
-  },
-  "synopsis": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
-  "collections": [
-    {
-      "name": "Top 10",
-      "order": 1
-    },
-    {
-      "name": "Space"
-    },
-    {
-      "name": "Future"
-    }
+  "production": [
+    "20th Century FOX"
   ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Achievement in Cinematography",
-        "Best Achievement in Visual Effects",
-        "Best Achievement in Art Direction"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Production Design",
-        "Best Special Visual Effects"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Actor (Sam Worthington)",
-        "Best Actress (Zoe Saldana)",
-        "Best Supporting Actor (Stephen Lang)",
-        "Best Supporting Actress (Sigourney Weaver)",
-        "Best Director",
-        "Best Writing",
-        "Best Music",
-        "Best Production Design",
-        "Best Science Fiction Film",
-        "Best Special Effects"
-      ]
-    },
-    {
-      "title": "Golden Globe",
-      "nominations": [
-        "Best Director - Motion Picture",
-        "Best Motion Picture - Drama"
-      ]
-    },
-    {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Cinematography",
-        "Best Editing",
-        "Best Art Direction",
-        "Best Sound",
-        "Best Visual Effects",
-        "Best Action Movie"
-      ]
-    }
-  ],
-  "type": [
-    "Film"
-  ],
+  "duration": 162,
   "cast": [
     {
       "character": {
@@ -159,11 +130,78 @@
       "actorId": "600178b8-cd25-49fe-8270-07fa8496d076"
     }
   ],
-  "duration": 162,
-  "trailer": "5PSNL1qE6VY",
+  "collections": [
+    {
+      "title": "Top 10",
+      "order": 1
+    },
+    {
+      "title": "Space"
+    },
+    {
+      "title": "Future"
+    }
+  ],
+  "budget": {
+    "value": 237,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 2.8,
+    "suffix": "billion"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Achievement in Cinematography",
+        "Best Achievement in Visual Effects",
+        "Best Achievement in Art Direction"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Production Design",
+        "Best Special Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Actor (Sam Worthington)",
+        "Best Actress (Zoe Saldana)",
+        "Best Supporting Actor (Stephen Lang)",
+        "Best Supporting Actress (Sigourney Weaver)",
+        "Best Director",
+        "Best Writing",
+        "Best Music",
+        "Best Production Design",
+        "Best Science Fiction Film",
+        "Best Special Effects"
+      ]
+    },
+    {
+      "title": "Golden Globe",
+      "nominations": [
+        "Best Director - Motion Picture",
+        "Best Motion Picture - Drama"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Cinematography",
+        "Best Editing",
+        "Best Art Direction",
+        "Best Sound",
+        "Best Visual Effects",
+        "Best Action Movie"
+      ]
+    }
+  ],
   "parts": {
     "title": "Avatar",
     "part": 1
-  },
-  "year": 2009
+  }
 }

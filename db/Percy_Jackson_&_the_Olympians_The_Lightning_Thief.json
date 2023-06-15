@@ -1,44 +1,78 @@
 {
   "id": "57f08f4f-6aad-40e4-91f8-9c28f9668ac7",
+  "type": [
+    "Film"
+  ],
   "title": "Percy Jackson & the Olympians: The Lightning Thief",
   "poster": "percy_jackson",
+  "trailer": "xko1Mx5w4tg",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "20th Century FOX"
+  "synopsis": "A teenager discovers he's the descendant of a Greek god and sets out on an adventure to settle an on-going battle between the gods.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Chris Columbus"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Craig Titley"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Karen Rosenfelt"
+        },
+        {
+          "name": "Chris Columbus"
+        },
+        {
+          "name": "Michael Barnathan"
+        },
+        {
+          "name": "Mark Redcliff"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Christophe Beck"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Stephen Goldblatt"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Chris Columbus"
-  ],
-  "producedBy": "Karen Rosenfelt, Chris Columbus, Michael Barnathan, Mark Redcliff",
-  "writtenBy": "Craig Titley",
-  "musicBy": "Christophe Beck",
-  "cinematographyBy": "Stephen Goldblatt",
+  "year": 2010,
   "countries": [
     "USA",
     "UK",
     "Canada",
     "Australia"
   ],
-  "budget": {
-    "value": 95,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 226,
-    "suffix": "million"
-  },
-  "synopsis": "A teenager discovers he's the descendant of a Greek god and sets out on an adventure to settle an on-going battle between the gods.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
+  "production": [
+    "20th Century FOX"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 95,
   "cast": [
     {
       "character": {
@@ -118,7 +152,17 @@
       "actorId": "929a29e3-9844-4404-a5a0-50b76e1c903d"
     }
   ],
-  "duration": 95,
-  "trailer": "xko1Mx5w4tg",
-  "year": 2010
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 95,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 226,
+    "suffix": "million"
+  }
 }

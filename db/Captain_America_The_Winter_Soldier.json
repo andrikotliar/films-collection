@@ -1,47 +1,73 @@
 {
   "id": "172e10f9-eabd-458e-b00d-2a1855df64b6",
+  "type": [
+    "Film"
+  ],
   "title": "Captain America: The Winter Soldier",
   "poster": "captain_america_2",
+  "trailer": "7SlILk2WMTI",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Anthony Russo"
+        },
+        {
+          "name": "Joe Russo"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Christopher Markus"
+        },
+        {
+          "name": "Stephen McFeely"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Henry Jackman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Trent Opaloch"
+        }
+      ]
+    }
+  ],
+  "year": 2014,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "directedBy": [
-    "Anthony Russo",
-    "Joe Russo"
-  ],
-  "producedBy": "Kevin Feige",
-  "writtenBy": "Christopher Markus, Stephen McFeely",
-  "musicBy": "Henry Jackman",
-  "cinematographyBy": "Trent Opaloch",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 177,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 714,
-    "suffix": "million"
-  },
-  "synopsis": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 9
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 136,
   "cast": [
     {
       "character": {
@@ -93,7 +119,21 @@
       "actorId": "8627927d-0a92-4a5a-902f-24d189e429e2"
     }
   ],
-  "duration": 136,
-  "trailer": "7SlILk2WMTI",
-  "year": 2014
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 177,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 714,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 9
+  }
 }

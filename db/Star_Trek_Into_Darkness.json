@@ -1,46 +1,73 @@
 {
   "id": "3799eb90-4855-4984-b892-57901f017e07",
+  "type": [
+    "Film"
+  ],
   "title": "Star Trek: Into Darkness",
   "poster": "star_trek_2",
+  "trailer": "jJMYAJ3_0uw",
   "genres": [
     "Sci-Fi",
     "SpaceOpera"
+  ],
+  "synopsis": "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "J.J. Abrams"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Roberto Orci"
+        },
+        {
+          "name": "Alex Kurtzman"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "J.J. Abrams"
+        },
+        {
+          "name": "Deamon Lindelof"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Michael Giacchino"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Dan Mindel"
+        }
+      ]
+    }
+  ],
+  "year": 2013,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Paramount Pictures",
     "Bad Robot Productions"
   ],
-  "directedBy": [
-    "J.J. Abrams"
-  ],
-  "producedBy": "J.J. Abrams, Deamon Lindelof",
-  "writtenBy": "Roberto Orci, Alex Kurtzman",
-  "musicBy": "Michael Giacchino",
-  "cinematographyBy": "Dan Mindel",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 185,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 467,
-    "suffix": "million"
-  },
-  "synopsis": "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction.",
-  "collections": [
-    {
-      "name": "Space"
-    }
-  ],
-  "parts": {
-    "title": "Star Trek",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 133,
   "cast": [
     {
       "character": {
@@ -127,7 +154,21 @@
       "actorId": "8cec464d-cc87-4894-8c3b-9e4412cc9cc3"
     }
   ],
-  "duration": 133,
-  "trailer": "jJMYAJ3_0uw",
-  "year": 2013
+  "collections": [
+    {
+      "title": "Space"
+    }
+  ],
+  "budget": {
+    "value": 185,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 467,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Star Trek",
+    "part": 2
+  }
 }

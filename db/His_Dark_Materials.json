@@ -1,157 +1,143 @@
 {
   "id": "8b6e86b5-720d-4d67-91ef-18f2b56a9caa",
+  "type": [
+    "Series"
+  ],
   "title": "His Dark Materials",
   "poster": "his_dark_materials",
   "genres": [
     "Adventures",
     "Fantasy"
   ],
-  "production": [
-    "HBO"
+  "synopsis": "A young girl is destined to liberate her world from the grip of the Magisterium which represses people's ties to magic and their animal spirits known as daemons.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Jamie Childs",
+          "comment": "6 episodes"
+        },
+        {
+          "name": "William McGregor",
+          "comment": "6 episodes"
+        },
+        {
+          "name": "Amit Gupta",
+          "comment": "4 episodes"
+        },
+        {
+          "name": "Tom Hooper",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Dawn Shadforth",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Otto Bathurst",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Euros Lyn",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Leanne Welham",
+          "comment": "3 episodes"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Jack Thorne",
+          "comment": "18 episodes"
+        },
+        {
+          "name": "Francesca Gardiner",
+          "comment": "5 episodes"
+        },
+        {
+          "name": "Amelia Spencer",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Sarah Quintrell",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Namsi Khan",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Lydia Adetunji",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Stephen Haren"
+        },
+        {
+          "name": "Laurie Borg"
+        },
+        {
+          "name": "Brian Donovan"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Lorne Balfe"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Gary Shaw"
+        },
+        {
+          "name": "David Higgs"
+        },
+        {
+          "name": "Joel Devlin"
+        },
+        {
+          "name": "Justin Brown"
+        },
+        {
+          "name": "David Luther"
+        },
+        {
+          "name": "Petra Korner"
+        },
+        {
+          "name": "Ole Bratt Birkeland"
+        },
+        {
+          "name": "Suzie Lavelle"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Amit Gupta",
-    "Weronika Tofilska",
-    "Jamie Childs",
-    "William McGregor",
-    "Leanne Welham",
-    "Otto Bathurst"
-  ],
-  "producedBy": "Stephen Haren, Laurie Borg, Brian Donovan",
-  "musicBy": "Lorne Balfe",
-  "cinematographyBy": "Gary Shaw, David Higgs, Joel Devlin, Justin Brown, David Luther, Petra Korner, Ole Bratt Birkeland, Suzie Lavelle",
+  "year": 2019,
   "countries": [
     "UK",
     "USA"
   ],
-  "synopsis": "A young girl is destined to liberate her world from the grip of the Magisterium which represses people's ties to magic and their animal spirits known as daemons.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
+  "production": [
+    "HBO"
   ],
-  "type": [
-    "Series"
-  ],
-  "seasons": [
-    {
-      "season": 1,
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "Lyra's Jordan",
-          "directedBy": "Tom Hooper",
-          "writtenBy": "Jack Thorne"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "The Idea of North",
-          "directedBy": "Tom Hooper",
-          "writtenBy": "Jack Thorne"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "The Spies",
-          "directedBy": "Dawn Shadforth",
-          "writtenBy": "Jack Thorne"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "Armour",
-          "directedBy": "Otto Bathurst",
-          "writtenBy": "Jack Thorne"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "The Lost Boy",
-          "directedBy": "Otto Bathurst",
-          "writtenBy": "Jack Thorne"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "The Daemon-Cages",
-          "directedBy": "Euros Lyn",
-          "writtenBy": "Jack Thorne"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "The Fight to the Death",
-          "directedBy": "Jamie Childs",
-          "writtenBy": "Jack Thorne"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 8,
-          "title": "Betrayal",
-          "directedBy": "Jamie Childs",
-          "writtenBy": "Jack Thorne"
-        }
-      ],
-      "trailer": "APduGe1eLVI"
-    },
-    {
-      "season": 2,
-      "episodes": [
-        {
-          "episodeOverall": 9,
-          "episode": 1,
-          "title": "The City of Magpies",
-          "directedBy": "Jamie Childs",
-          "writtenBy": "Jack Thorne"
-        },
-        {
-          "episodeOverall": 10,
-          "episode": 2,
-          "title": "The Cave",
-          "directedBy": "Jamie Childs",
-          "writtenBy": "Jack Thorne, Francesca Gardiner"
-        },
-        {
-          "episodeOverall": 11,
-          "episode": 3,
-          "title": "Theft",
-          "directedBy": "Leanne Welham",
-          "writtenBy": "Jack Thorne, Sarah Quintrell"
-        },
-        {
-          "episodeOverall": 12,
-          "episode": 4,
-          "title": "Tower of the Angels",
-          "directedBy": "Leanne Welham",
-          "writtenBy": "Jack Thorne, Namsi Khan"
-        },
-        {
-          "episodeOverall": 13,
-          "episode": 5,
-          "title": "The Scholar",
-          "directedBy": "Leanne Welham",
-          "writtenBy": "Francesca Gardiner"
-        },
-        {
-          "episodeOverall": 14,
-          "episode": 6,
-          "title": "Malice",
-          "directedBy": "Jamie Childs",
-          "writtenBy": "Jack Thorne, Lydia Adetunji"
-        },
-        {
-          "episodeOverall": 15,
-          "episode": 7,
-          "title": "Æsahættr",
-          "directedBy": "Jamie Childs",
-          "writtenBy": "Jack Thorne"
-        }
-      ],
-      "trailer": "3CdQm6gLHUM"
-    }
-  ],
+  "duration": 900,
   "cast": [
     {
       "character": {
@@ -238,6 +224,102 @@
       "actorId": "08629fb7-bcd1-4abb-adf5-c18546a279c8"
     }
   ],
-  "duration": 900,
-  "year": 2019
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "trailer": "APduGe1eLVI",
+      "year": 2019,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "Lyra's Jordan"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "The Idea of North"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "The Spies"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "Armour"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "The Lost Boy"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "The Daemon-Cages"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "The Fight to the Death"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "Betrayal"
+        }
+      ],
+      "poster": "his_dark_materials"
+    },
+    {
+      "season": 2,
+      "trailer": "3CdQm6gLHUM",
+      "year": 2020,
+      "episodes": [
+        {
+          "episodeOverall": 9,
+          "episode": 1,
+          "title": "The City of Magpies"
+        },
+        {
+          "episodeOverall": 10,
+          "episode": 2,
+          "title": "The Cave"
+        },
+        {
+          "episodeOverall": 11,
+          "episode": 3,
+          "title": "Theft"
+        },
+        {
+          "episodeOverall": 12,
+          "episode": 4,
+          "title": "Tower of the Angels"
+        },
+        {
+          "episodeOverall": 13,
+          "episode": 5,
+          "title": "The Scholar"
+        },
+        {
+          "episodeOverall": 14,
+          "episode": 6,
+          "title": "Malice"
+        },
+        {
+          "episodeOverall": 15,
+          "episode": 7,
+          "title": "Æsahættr"
+        }
+      ],
+      "poster": "his_dark_materials_s2"
+    }
+  ]
 }

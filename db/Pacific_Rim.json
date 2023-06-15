@@ -1,46 +1,79 @@
 {
   "id": "7cd87cbc-b1c8-4047-bed9-5188a33c0a53",
+  "type": [
+    "Film"
+  ],
   "title": "Pacific Rim",
   "poster": "pacific_rim_1",
+  "trailer": "5guMumPFBag",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Guillermo del Toro"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Travis Beacham"
+        },
+        {
+          "name": "Guillermo del Toro"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Guillermo del Toro"
+        },
+        {
+          "name": "Thomas Tull"
+        },
+        {
+          "name": "Jon Jashni"
+        },
+        {
+          "name": "Mary Parent"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Ramin Djawadi"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Guillermo Navarro"
+        }
+      ]
+    }
+  ],
+  "year": 2013,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Warner Bros. Pictures",
     "Legendary"
   ],
-  "directedBy": [
-    "Guillermo del Toro"
-  ],
-  "producedBy": "Guillermo del Toro, Thomas Tull, Jon Jashni, Mary Parent",
-  "writtenBy": "Travis Beacham, Guillermo del Toro",
-  "musicBy": "Ramin Djawadi",
-  "cinematographyBy": "Guillermo Navarro",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 180,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 411,
-    "suffix": "million"
-  },
-  "synopsis": "As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse.",
-  "collections": [
-    {
-      "name": "Robots"
-    }
-  ],
-  "parts": {
-    "title": "Pacific Rim",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 132,
   "cast": [
     {
       "character": {
@@ -113,7 +146,21 @@
       "actorId": "9a7b88ec-6ee3-4c9d-9cf5-f7258c880e79"
     }
   ],
-  "duration": 132,
-  "trailer": "5guMumPFBag",
-  "year": 2013
+  "collections": [
+    {
+      "title": "Robots"
+    }
+  ],
+  "budget": {
+    "value": 180,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 411,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Pacific Rim",
+    "part": 1
+  }
 }

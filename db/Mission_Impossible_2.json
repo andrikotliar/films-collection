@@ -1,54 +1,69 @@
 {
   "id": "5bf0671b-04b6-474f-99c8-0aef956e4e65",
+  "type": [
+    "Film"
+  ],
   "title": "Mission: Impossible 2",
   "poster": "mi_2",
+  "trailer": "Aqk78Z57LGg",
   "genres": [
     "Action",
     "Adventures"
   ],
-  "production": [
-    "Paramount Pictures"
-  ],
-  "directedBy": [
-    "John Wo"
-  ],
-  "producedBy": "Tom Cruise, Paula Wagner",
-  "writtenBy": "Robert Towne",
-  "musicBy": "Hans Zimmer",
-  "cinematographyBy": "Jeffrey L. Kimball",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 125,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 546,
-    "suffix": "million"
-  },
   "synopsis": "IMF Agent Ethan Hunt is sent to Sydney, to find and destroy a genetically modified disease called \"Chimera\".",
-  "collections": [
+  "crew": [
     {
-      "name": "Agents and Detectives"
-    }
-  ],
-  "awards": [
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "John Wo"
+        }
+      ]
+    },
     {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Male Performance",
-        "Best Action Sequence"
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Robert Towne"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Tom Cruise"
+        },
+        {
+          "name": "Paula Wagner"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Jeffrey L. Kimball"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "Mission: Impossible",
-    "part": 2
-  },
-  "type": [
-    "Film"
+  "year": 2000,
+  "countries": [
+    "USA"
   ],
+  "production": [
+    "Paramount Pictures"
+  ],
+  "duration": 123,
   "cast": [
     {
       "character": {
@@ -108,7 +123,30 @@
       "actorId": "6b261d2c-81b2-4531-81b5-c6967c694f22"
     }
   ],
-  "duration": 123,
-  "trailer": "Aqk78Z57LGg",
-  "year": 2000
+  "collections": [
+    {
+      "title": "Agents and Detectives"
+    }
+  ],
+  "budget": {
+    "value": 125,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 546,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Male Performance",
+        "Best Action Sequence"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Mission: Impossible",
+    "part": 2
+  }
 }

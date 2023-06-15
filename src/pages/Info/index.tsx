@@ -2,10 +2,15 @@ import './styles.css';
 import { setBrowserTitle } from '@/heplers';
 import DataViewer from '@/pages/Info/components/DataViewer';
 import { filmDataExplanation } from '@/pages/Info/configs';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const InfoPage = () => {
   setBrowserTitle('Information about Films Collection App');
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="info">
@@ -18,7 +23,7 @@ const InfoPage = () => {
             <a href="#tools">Tools</a>
           </nav>
         </aside>
-        <article className="info__data">
+        <article className="info__main">
           <section className="info__section">
             <h1 className="info__title">Films Collection Application - {new Date().getFullYear()}</h1>
             <p className="info__text">

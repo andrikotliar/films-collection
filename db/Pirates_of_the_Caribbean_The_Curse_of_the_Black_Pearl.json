@@ -1,72 +1,70 @@
 {
   "id": "02401a06-283e-49d9-bb0f-73f266064053",
+  "type": [
+    "Film"
+  ],
   "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
   "poster": "pirates_1",
+  "trailer": "naQr0uTrH_s",
   "genres": [
     "Fantasy",
     "Adventures"
+  ],
+  "synopsis": "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Gore Verbinski"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Ted Elliott"
+        },
+        {
+          "name": "Terry Rossio"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Jerry Bruckheimer"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Klaus Badelt"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Dariusz Wolski"
+        }
+      ]
+    }
+  ],
+  "year": 2003,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Jerry Bruckheimer Films"
   ],
-  "directedBy": [
-    "Gore Verbinski"
-  ],
-  "producedBy": "Jerry Bruckheimer",
-  "writtenBy": "Ted Elliott, Terry Rossio",
-  "musicBy": "Klaus Badelt",
-  "cinematographyBy": "Dariusz Wolski",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 140,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 654,
-    "suffix": "million"
-  },
-  "synopsis": "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
-  ],
-  "awards": [
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Make Up/Hair"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Costumes"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Male Performance"
-      ]
-    },
-    {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Family Film - Live Action"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Pirates of the Caribbean",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 143,
   "cast": [
     {
       "character": {
@@ -111,7 +109,47 @@
       "actorId": "e33e9ef2-ee2e-497c-bfab-ff1f26118425"
     }
   ],
-  "duration": 143,
-  "trailer": "naQr0uTrH_s",
-  "year": 2003
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 140,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 654,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Make Up/Hair"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Costumes"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Male Performance"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Family Film - Live Action"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Pirates of the Caribbean",
+    "part": 1
+  }
 }

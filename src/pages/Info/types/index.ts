@@ -5,6 +5,8 @@ export type DataExplanation = {
   type: DataTypes[];
   description: string;
   required: boolean;
+  requiredPartially?: boolean;
+  arrayItemsType?: DataTypes[];
   possibleValues?: string[];
   properties?: DataExplanation[];
   valueExample?: string | string[] | string[];

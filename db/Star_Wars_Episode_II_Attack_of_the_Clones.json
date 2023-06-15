@@ -1,61 +1,70 @@
 {
   "id": "7eeabf98-f7fd-4631-b3e4-3e144312177d",
+  "type": [
+    "Film"
+  ],
   "title": "Star Wars Episode II: Attack of the Clones",
   "poster": "star_wars_episode_II",
+  "trailer": "gYbW1F_c9eM",
   "genres": [
     "SpaceOpera",
     "Adventures"
+  ],
+  "synopsis": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "George Lucas"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "George Lucas"
+        },
+        {
+          "name": "Jonathan Hales"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Rick McCallum"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "David Tattersall"
+        }
+      ]
+    }
+  ],
+  "year": 2002,
+  "countries": [
+    "USA"
   ],
   "production": [
     "20th Century FOX",
     "Lucasfilm"
   ],
-  "directedBy": [
-    "George Lucas"
-  ],
-  "producedBy": "Rick McCallum",
-  "writtenBy": "George Lucas, Jonathan Hales",
-  "musicBy": "John Williams",
-  "cinematographyBy": "David Tattersall",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 115,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 649,
-    "suffix": "million"
-  },
-  "synopsis": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi.",
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Costumes",
-        "Best Special Effects"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Fight"
-      ]
-    }
-  ],
-  "collections": [
-    {
-      "name": "Star Wars Universe"
-    }
-  ],
-  "parts": {
-    "title": "Star Wars Universe",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 142,
   "cast": [
     {
       "character": {
@@ -121,7 +130,36 @@
       "actorId": "258788d4-04ea-41c0-b8f9-5e653892f72c"
     }
   ],
-  "duration": 142,
-  "trailer": "gYbW1F_c9eM",
-  "year": 2002
+  "collections": [
+    {
+      "title": "Star Wars Universe"
+    }
+  ],
+  "budget": {
+    "value": 115,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 649,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Costumes",
+        "Best Special Effects"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Fight"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Star Wars Universe",
+    "part": 2
+  }
 }

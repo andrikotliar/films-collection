@@ -1,45 +1,69 @@
 {
   "id": "d3894262-bebb-4257-a8c9-19da7f7f50fa",
+  "type": [
+    "Film"
+  ],
   "title": "Fast Five",
   "poster": "fast_and_furious_5",
+  "trailer": "mw2AqdB5EVA",
   "genres": [
     "Action",
     "Crime"
   ],
-  "production": [
-    "Universal Pictures"
+  "synopsis": "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Justin Lin"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Chris Morgan"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Neal H. Moritz"
+        },
+        {
+          "name": "Vin Diesel"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Brian Tyler"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Stephen F. Windon"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Justin Lin"
-  ],
-  "producedBy": "Neal H. Moritz, Vin Diesel",
-  "writtenBy": "Chris Morgan",
-  "musicBy": "Brian Tyler",
-  "cinematographyBy": "Stephen F. Windon",
+  "year": 2011,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 125,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 626,
-    "suffix": "million"
-  },
-  "synopsis": "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent.",
-  "collections": [
-    {
-      "name": "Cars"
-    }
+  "production": [
+    "Universal Pictures"
   ],
-  "parts": {
-    "title": "Fast and Furious",
-    "part": 5
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 130,
   "cast": [
     {
       "character": {
@@ -119,7 +143,21 @@
       "actorId": "a601625c-13b8-403a-b7eb-79165f3abd28"
     }
   ],
-  "duration": 130,
-  "trailer": "mw2AqdB5EVA",
-  "year": 2011
+  "collections": [
+    {
+      "title": "Cars"
+    }
+  ],
+  "budget": {
+    "value": 125,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 626,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Fast and Furious",
+    "part": 5
+  }
 }

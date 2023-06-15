@@ -1,46 +1,73 @@
 {
   "id": "c66b9610-2233-4db5-a20f-aca0733c264b",
+  "type": [
+    "Film"
+  ],
   "title": "Thor: The Dark World",
   "poster": "thor_2",
+  "trailer": "npvJ9FTgZbM",
   "genres": [
     "Fantasy",
     "Action"
+  ],
+  "synopsis": "When Dr. Jane Foster gets cursed with a powerful entity known as the Aether, Thor is heralded of the cosmic event known as the Convergence and the genocidal Dark Elves.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Alan Taylor"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Christopher Yost"
+        },
+        {
+          "name": "Stephen McFeely"
+        },
+        {
+          "name": "Christopher Markus"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Brian Tyler"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Kramer Morgenthau"
+        }
+      ]
+    }
+  ],
+  "year": 2013,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "directedBy": [
-    "Alan Taylor"
-  ],
-  "producedBy": "Kevin Feige",
-  "writtenBy": "Christopher Yost, Stephen McFeely, Christopher Markus",
-  "musicBy": "Brian Tyler",
-  "cinematographyBy": "Kramer Morgenthau",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 153,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 645,
-    "suffix": "million"
-  },
-  "synopsis": "When Dr. Jane Foster gets cursed with a powerful entity known as the Aether, Thor is heralded of the cosmic event known as the Convergence and the genocidal Dark Elves.",
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 8
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 112,
   "cast": [
     {
       "character": {
@@ -120,7 +147,21 @@
       "actorId": "23a8f7f0-94b0-4e20-a0f7-67a571c1ccda"
     }
   ],
-  "duration": 112,
-  "trailer": "npvJ9FTgZbM",
-  "year": 2013
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 153,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 645,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 8
+  }
 }

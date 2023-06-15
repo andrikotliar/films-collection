@@ -1,48 +1,81 @@
 {
   "id": "3efe3f9d-9fbd-40f9-a99b-e17a261b9c23",
+  "type": [
+    "Film"
+  ],
   "title": "Eternals",
   "poster": "eternals",
+  "trailer": "x_me3xsvDgk",
   "genres": [
     "Adventures",
     "Action",
     "Drama"
   ],
-  "production": [
-    "Marvel Studios",
-    "Walt Disney Pictures"
+  "synopsis": "The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Chloe Zhao"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Chloe Zhao"
+        },
+        {
+          "name": "Patrick Burleigh"
+        },
+        {
+          "name": "Ryan Firpo"
+        },
+        {
+          "name": "Kaz Firpo"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        },
+        {
+          "name": "Nate Moore"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Ramin Djawadi"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Ben Davis"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Chloe Zhao"
-  ],
-  "producedBy": "Kevin Feige, Nate Moore",
-  "writtenBy": "Chloe Zhao, Patrick Burleigh, Ryan Firpo, Kaz Firpo",
-  "musicBy": "Ramin Djawadi",
-  "cinematographyBy": "Ben Davis",
-  "budget": {
-    "value": 200,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 281,
-    "suffix": "million"
-  },
+  "year": 2021,
   "countries": [
     "USA",
     "UK"
   ],
-  "synopsis": "The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations.",
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
+  "production": [
+    "Marvel Studios",
+    "Walt Disney Pictures"
   ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 28
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 100,
   "cast": [
     {
       "character": {
@@ -129,7 +162,21 @@
       "actorId": "00713f94-ee15-43d6-9565-81d63a7fa0f1"
     }
   ],
-  "duration": 100,
-  "trailer": "x_me3xsvDgk",
-  "year": 2021
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 281,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 28
+  }
 }

@@ -1,73 +1,70 @@
 {
   "id": "2e070694-1082-49cb-875d-721e5ec7c2d2",
+  "type": [
+    "Film"
+  ],
   "title": "Pirates of the Caribbean: Dead Man's Chest",
   "poster": "pirates_2",
+  "trailer": "ozk0-RHXtFw",
   "genres": [
     "Fantasy",
     "Adventures"
+  ],
+  "synopsis": "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Gore Verbinski"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Ted Elliott"
+        },
+        {
+          "name": "Terry Rossio"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Jerry Bruckheimer"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Dariusz Wolski"
+        }
+      ]
+    }
+  ],
+  "year": 2006,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Jerry Bruckheimer Films"
   ],
-  "directedBy": [
-    "Gore Verbinski"
-  ],
-  "producedBy": "Jerry Bruckheimer",
-  "writtenBy": "Ted Elliott, Terry Rossio",
-  "musicBy": "Hans Zimmer",
-  "cinematographyBy": "Dariusz Wolski",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 225,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.1,
-    "suffix": "billion"
-  },
-  "synopsis": "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Achievement in Visual Effects"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Achievement in Special Visual Effects"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Special Effects"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Movie",
-        "Best Performance (Johnny Depp)"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Pirates of the Caribbean",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 150,
   "cast": [
     {
       "character": {
@@ -112,7 +109,48 @@
       "actorId": "e33e9ef2-ee2e-497c-bfab-ff1f26118425"
     }
   ],
-  "duration": 150,
-  "trailer": "ozk0-RHXtFw",
-  "year": 2006
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 225,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.1,
+    "suffix": "billion"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Achievement in Visual Effects"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Achievement in Special Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Special Effects"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Movie",
+        "Best Performance (Johnny Depp)"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Pirates of the Caribbean",
+    "part": 2
+  }
 }

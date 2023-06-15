@@ -1,50 +1,75 @@
 {
   "id": "349fb41e-b427-45c0-89b2-e0a15e7fbe50",
+  "type": [
+    "Film"
+  ],
   "title": "Tron: Legacy",
   "poster": "tron",
+  "trailer": "L9szn1QQfas",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "production": [
-    "Walt Disney Pictures"
-  ],
-  "directedBy": [
-    "Joseph Kosinski"
-  ],
-  "producedBy": "Sean Bailey, Steven Lisberger, Jeffrey Silver",
-  "writtenBy": "Edward Kitsis, Adam Horowitz",
-  "musicBy": "Daft Punk",
-  "cinematographyBy": "Claudio Miranda",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 170,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 400,
-    "suffix": "million"
-  },
   "synopsis": "The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world.",
-  "collections": [
+  "crew": [
     {
-      "name": "Future"
-    }
-  ],
-  "awards": [
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Joseph Kosinski"
+        }
+      ]
+    },
     {
-      "title": "Saturn",
-      "nominations": [
-        "Best Production Design",
-        "Best Actor"
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Edward Kitsis"
+        },
+        {
+          "name": "Adam Horowitz"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Sean Bailey"
+        },
+        {
+          "name": "Steven Lisberger"
+        },
+        {
+          "name": "Jeffrey Silver"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Daft Punk"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Claudio Miranda"
+        }
       ]
     }
   ],
-  "type": [
-    "Film"
+  "year": 2010,
+  "countries": [
+    "USA"
   ],
+  "production": [
+    "Walt Disney Pictures"
+  ],
+  "duration": 125,
   "cast": [
     {
       "character": {
@@ -96,7 +121,26 @@
       "actorId": "cd31d4b4-862c-42da-9e5c-c6fa8a0132f7"
     }
   ],
-  "duration": 125,
-  "trailer": "L9szn1QQfas",
-  "year": 2010
+  "collections": [
+    {
+      "title": "Future"
+    }
+  ],
+  "budget": {
+    "value": 170,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 400,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Production Design",
+        "Best Actor"
+      ]
+    }
+  ]
 }

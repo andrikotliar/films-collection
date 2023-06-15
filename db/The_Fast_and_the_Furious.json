@@ -1,54 +1,70 @@
 {
   "id": "61416c25-c6a0-40a4-88f8-3b3743a128b0",
+  "type": [
+    "Film"
+  ],
   "title": "The Fast and the Furious",
   "poster": "fast_and_furious_1",
+  "trailer": "2TAOizOnNPo",
   "genres": [
     "Action",
     "Crime"
   ],
-  "production": [
-    "Universal Pictures"
+  "synopsis": "Los Angeles police officer Brian O'Connor must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Rob Cohen"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Gary Scott Thompson"
+        },
+        {
+          "name": "Erik Bergq"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Neal H. Moritz"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "BT"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Ericson Core"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Rob Cohen"
-  ],
-  "producedBy": "Neal H. Moritz",
-  "writtenBy": "Gary Scott Thompson, Erik Bergq",
-  "musicBy": "BT",
-  "cinematographyBy": "Ericson Core",
+  "year": 2001,
   "countries": [
     "USA",
     "Germany"
   ],
-  "budget": {
-    "value": 38,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 207,
-    "suffix": "million"
-  },
-  "synopsis": "Los Angeles police officer Brian O'Connor must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy.",
-  "collections": [
-    {
-      "name": "Cars"
-    }
+  "production": [
+    "Universal Pictures"
   ],
-  "awards": [
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best On-Screen Team"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Fast and Furious",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 106,
   "cast": [
     {
       "character": {
@@ -100,7 +116,29 @@
       "actorId": "0fd1fa5e-8a53-4439-a14d-6617087c7830"
     }
   ],
-  "duration": 106,
-  "trailer": "2TAOizOnNPo",
-  "year": 2001
+  "collections": [
+    {
+      "title": "Cars"
+    }
+  ],
+  "budget": {
+    "value": 38,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 207,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best On-Screen Team"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Fast and Furious",
+    "part": 1
+  }
 }

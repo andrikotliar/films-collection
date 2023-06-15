@@ -1,55 +1,78 @@
 {
   "id": "6f72f3ca-bd5a-45db-bcf7-74a10ac0d95b",
+  "type": [
+    "Film"
+  ],
   "title": "Edge of Tomorrow",
   "poster": "edge_of_tomorow",
+  "trailer": "vw61gCe2oqI",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "production": [
-    "Warner Bros. Pictures"
-  ],
-  "directedBy": [
-    "Doug Liman"
-  ],
-  "producedBy": "Erwin Stoff, Tom Lassally, Jeffrey Silver",
-  "writtenBy": "Christopher McQuarrie, Jez Butterworth, John-Henry Butterworth",
-  "musicBy": "Christophe Beck",
-  "cinematographyBy": "Dion Beebe",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 178,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 370,
-    "suffix": "million"
-  },
   "synopsis": "A soldier fighting aliens gets to relive the same day over and over again, the day restarting every time he dies.",
-  "collections": [
+  "crew": [
     {
-      "name": "Invasion"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Editing"
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Doug Liman"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Actress in an Action Movie"
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Christopher McQuarrie"
+        },
+        {
+          "name": "Jez Butterworth"
+        },
+        {
+          "name": "John-Henry Butterworth"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Erwin Stoff"
+        },
+        {
+          "name": "Tom Lassally"
+        },
+        {
+          "name": "Jeffrey Silver"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Christophe Beck"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Dion Beebe"
+        }
       ]
     }
   ],
-  "type": [
-    "Film"
+  "year": 2014,
+  "countries": [
+    "USA"
   ],
+  "production": [
+    "Warner Bros. Pictures"
+  ],
+  "duration": 113,
   "cast": [
     {
       "character": {
@@ -129,7 +152,31 @@
       "actorId": "bebd7a91-14d2-47dd-ab7b-4d53049d4dce"
     }
   ],
-  "duration": 113,
-  "trailer": "vw61gCe2oqI",
-  "year": 2014
+  "collections": [
+    {
+      "title": "Invasion"
+    }
+  ],
+  "budget": {
+    "value": 178,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 370,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Editing"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Actress in an Action Movie"
+      ]
+    }
+  ]
 }

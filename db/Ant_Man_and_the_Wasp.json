@@ -1,46 +1,76 @@
 {
   "id": "ff90364b-fd44-4187-919f-9596191666f6",
+  "type": [
+    "Film"
+  ],
   "title": "Ant-Man and the Wasp",
   "poster": "ant_man_2",
+  "trailer": "UUkn-enk2RU",
   "genres": [
     "Sci-Fi",
     "Comedy"
+  ],
+  "synopsis": "As Scott Lang balances being both a Super Hero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Peyton Reed"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Chris McKenna"
+        },
+        {
+          "name": "Erik Sommers"
+        },
+        {
+          "name": "Paul Rudd"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        },
+        {
+          "name": "Stephen Broussard"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Christophe Beck"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Dante Spinotti"
+        }
+      ]
+    }
+  ],
+  "year": 2018,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "directedBy": [
-    "Peyton Reed"
-  ],
-  "producedBy": "Kevin Feige, Stephen Broussard",
-  "writtenBy": "Chris McKenna, Erik Sommers, Paul Rudd",
-  "musicBy": "Christophe Beck",
-  "cinematographyBy": "Dante Spinotti",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 162,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 595,
-    "suffix": "million"
-  },
-  "synopsis": "As Scott Lang balances being both a Super Hero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 20
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 118,
   "cast": [
     {
       "character": {
@@ -92,7 +122,21 @@
       "actorId": "485694d1-0656-4c1e-ae30-2e46af4b7df1"
     }
   ],
-  "duration": 118,
-  "trailer": "UUkn-enk2RU",
-  "year": 2018
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 162,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 595,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 20
+  }
 }

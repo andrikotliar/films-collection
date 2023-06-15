@@ -1,53 +1,75 @@
 {
   "id": "ce0c8356-6bda-4680-bff4-b79bd28346d7",
+  "type": [
+    "Film"
+  ],
   "title": "Back to the Future",
   "poster": "back_to_the_future_1",
+  "trailer": "qvsgGtivCgs",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "production": [
-    "Universal Pictures"
-  ],
-  "directedBy": [
-    "Robert Zemeckis"
-  ],
-  "producedBy": "Steven Spielberg, Bob Gale, Neil Canton",
-  "writtenBy": "Robert Zemeckis, Bob Gale",
-  "musicBy": "Alan Silvestri",
-  "cinematographyBy": "Dean Cundey",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 19,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 381,
-    "suffix": "million"
-  },
   "synopsis": "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
-  "collections": [
+  "crew": [
     {
-      "name": "Legends"
-    }
-  ],
-  "awards": [
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Robert Zemeckis"
+        }
+      ]
+    },
     {
-      "title": "Oscar",
-      "nominations": [
-        "Best Sound Effects Editing"
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Robert Zemeckis"
+        },
+        {
+          "name": "Bob Gale"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Steven Spielberg"
+        },
+        {
+          "name": "Bob Gale"
+        },
+        {
+          "name": "Neil Canton"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Alan Silvestri"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Dean Cundey"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "Back to the Future",
-    "part": 1
-  },
-  "type": [
-    "Film"
+  "year": 1985,
+  "countries": [
+    "USA"
   ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "duration": 116,
   "cast": [
     {
       "character": {
@@ -99,7 +121,29 @@
       "actorId": "7153cf89-1f74-4d93-963f-6cef0fe2d37f"
     }
   ],
-  "duration": 116,
-  "trailer": "qvsgGtivCgs",
-  "year": 1985
+  "collections": [
+    {
+      "title": "Legends"
+    }
+  ],
+  "budget": {
+    "value": 19,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 381,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Sound Effects Editing"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Back to the Future",
+    "part": 1
+  }
 }

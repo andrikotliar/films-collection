@@ -1,43 +1,74 @@
 {
   "id": "54f5746d-8ebf-4f1d-b1ba-408ba8f920cf",
+  "type": [
+    "Film"
+  ],
   "title": "Greenland",
   "poster": "greenland",
+  "trailer": "RTODtIQQRpA",
   "genres": [
     "Drama"
+  ],
+  "synopsis": "A family struggles for survival in the face of a cataclysmic natural disaster.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Ric Roman Waugh"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Chris Sparling"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Gerard Butler"
+        },
+        {
+          "name": "Sébastien Raybaud"
+        },
+        {
+          "name": "Alan Siegel"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "David Buckley"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Dana Gonzales"
+        }
+      ]
+    }
+  ],
+  "year": 2020,
+  "countries": [
+    "USA",
+    "UK"
   ],
   "production": [
     "Thunder Road",
     "Anton",
     "G Base"
   ],
-  "directedBy": [
-    "Ric Roman Waugh"
-  ],
-  "producedBy": "Gerard Butler, Sébastien Raybaud, Alan Siegel",
-  "writtenBy": "Chris Sparling",
-  "musicBy": "David Buckley",
-  "cinematographyBy": "Dana Gonzales",
-  "countries": [
-    "USA",
-    "UK"
-  ],
-  "budget": {
-    "value": 35,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 52,
-    "suffix": "million"
-  },
-  "synopsis": "A family struggles for survival in the face of a cataclysmic natural disaster.",
-  "collections": [
-    {
-      "name": "Disaster"
-    }
-  ],
-  "type": [
-    "Film"
-  ],
+  "duration": 119,
   "cast": [
     {
       "character": {
@@ -82,7 +113,17 @@
       "actorId": "50af80e3-1919-4abe-8464-0051e239cc4e"
     }
   ],
-  "duration": 119,
-  "trailer": "RTODtIQQRpA",
-  "year": 2020
+  "collections": [
+    {
+      "title": "Disaster"
+    }
+  ],
+  "budget": {
+    "value": 35,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 52,
+    "suffix": "million"
+  }
 }

@@ -5,7 +5,7 @@ import { useFilmsContext } from '@/context/FilmsContext';
 import { Loader } from '@/components';
 import { setBrowserTitle } from '@/heplers';
 import ActorsProvider from '@/context/ActorsContext';
-import { FilmData, GeneralFilm, SeriesData } from '@/types';
+import { FilmData } from '@/types';
 import {
   FilmTitle,
   TopLine,
@@ -14,23 +14,23 @@ import {
   Cast,
   Awards,
   Chapters,
-  CreatorsList,
   SectionTitle,
-  ExtraDetails,
   SeriesMedia,
-  FilmMedia
+  FilmMedia,
+  CrewList,
+  ExtraDetails
 } from './components';
 
 const Film = () => {
   const { id } = useParams();
   const { initialFilmsList } = useFilmsContext();
-  const [ film, setFilm ] = useState<GeneralFilm | null>(null);
+  const [ film, setFilm ] = useState<FilmData | null>(null);
 
   if(film) {
     setBrowserTitle(`${film.title} - Films Collection`)
   }
   
-  const findCurrentFilm = (initialFilmsList: GeneralFilm[]) => {
+  const findCurrentFilm = (initialFilmsList: FilmData[]) => {
     const foundFilm = initialFilmsList.find(
       film => film.id === id
     );
@@ -48,8 +48,10 @@ const Film = () => {
 
   if(film === null) {
     return (
-      <article className="film">
-        <Loader />
+      <article className="film container">
+        <div className="film-loader">
+          <Loader />
+        </div>
       </article>
     );
   }
@@ -61,31 +63,41 @@ const Film = () => {
           <FilmTitle title={film.title} />
           <TopLine filmData={film} />
         </section>
-        {!film.type.includes('Series') ? (
-          <FilmMedia poster={film.poster} title={film.title} trailer={(film as FilmData).trailer} />
-        ) : (
-          <SeriesMedia seasons={(film as SeriesData).seasons} title={film.title} poster={film.poster} />
+        {(!film.type.includes('Series') && film.trailer) && (
+          <FilmMedia
+            poster={film.poster}
+            title={film.title}
+            trailer={film.trailer}
+          />
         )}
+
+        {film.type.includes('Series') && film.seasons && (
+          <SeriesMedia
+            seasons={film.seasons}
+            title={film.title}
+          />
+        )}
+
         <Synopsis text={film.synopsis} />
         
-        <CreatorsList filmData={film} />
-      
-        {film.awards ? (
-          <section>
-            <SectionTitle>Awards</SectionTitle>
-            <Awards awards={film.awards} />
-          </section>
-        ) : null}
+        <CrewList crew={film.crew} />
       
         <section>
           <SectionTitle>Cast and characters</SectionTitle>
           <Cast cast={film.cast} />
         </section>
+
+        {film.awards && (
+          <section>
+            <SectionTitle>Awards</SectionTitle>
+            <Awards awards={film.awards} />
+          </section>
+        )}
         
-        {film.type.includes('Series') && (
+        {film.seasons && (
           <section>
             <SectionTitle>Episodes Overview</SectionTitle>
-            <Episodes seasons={(film as SeriesData).seasons} />
+            <Episodes seasons={film.seasons} />
           </section>
         )}
         
@@ -93,6 +105,7 @@ const Film = () => {
           <SectionTitle>Extra Details</SectionTitle>
           <ExtraDetails filmData={film} />
         </section>
+        
         {film.parts && (
           <div className="film-chapters custom-scroll">
             <SectionTitle>Chapters</SectionTitle>

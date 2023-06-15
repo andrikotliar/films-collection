@@ -1,44 +1,71 @@
 {
   "id": "4e4d9852-a771-40e9-806c-e71ef8bac30a",
+  "type": [
+    "Film"
+  ],
   "title": "District 13",
   "poster": "d13_1",
+  "trailer": "Mcmkx1klOpE",
   "genres": [
     "Action"
+  ],
+  "synopsis": "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Pierre Morel"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Luc Besson"
+        },
+        {
+          "name": "Bibi Nacen"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Luc Besson"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Bastide Donny"
+        },
+        {
+          "name": "Damien Roques"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Manuel Teran"
+        }
+      ]
+    }
+  ],
+  "year": 2004,
+  "countries": [
+    "France"
   ],
   "production": [
     "EuropaCorp"
   ],
-  "directedBy": [
-    "Pierre Morel"
-  ],
-  "producedBy": "Luc Besson",
-  "writtenBy": "Luc Besson, Bibi Nacen",
-  "musicBy": "Bastide Donny, Damien Roques",
-  "cinematographyBy": "Manuel Teran",
-  "countries": [
-    "France"
-  ],
-  "budget": {
-    "value": 14,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 12,
-    "suffix": "million"
-  },
-  "synopsis": "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb.",
-  "collections": [
-    {
-      "name": "Dystopia"
-    }
-  ],
-  "parts": {
-    "title": "District 13",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 86,
   "cast": [
     {
       "character": {
@@ -76,7 +103,21 @@
       "actorId": "ce6c74f7-77e5-41a7-9c09-5691e2e625e9"
     }
   ],
-  "duration": 86,
-  "trailer": "Mcmkx1klOpE",
-  "year": 2004
+  "collections": [
+    {
+      "title": "Dystopia"
+    }
+  ],
+  "budget": {
+    "value": 14,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 12,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "District 13",
+    "part": 1
+  }
 }

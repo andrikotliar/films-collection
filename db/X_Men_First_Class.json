@@ -1,54 +1,79 @@
 {
   "id": "2a7c2646-4a42-48e3-ab97-f968f2e21f90",
+  "type": [
+    "Film"
+  ],
   "title": "X-Men: First Class",
   "poster": "x_men_5",
+  "trailer": "kyQKi5-k0UU",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Matthew Vaughn"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Ashley Edward Miller"
+        },
+        {
+          "name": "Zack Stentz"
+        },
+        {
+          "name": "Jane Goldman"
+        },
+        {
+          "name": "Matthew Vaughn"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Lauren Shuler Donner"
+        },
+        {
+          "name": "Bryan Singer"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Henry Jackman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "John Mathieson"
+        }
+      ]
+    }
+  ],
+  "year": 2011,
+  "countries": [
+    "USA"
   ],
   "production": [
     "20th Century FOX",
     "Marvel Entertainment"
   ],
-  "directedBy": [
-    "Matthew Vaughn"
-  ],
-  "producedBy": "Lauren Shuler Donner, Bryan Singer",
-  "writtenBy": "Ashley Edward Miller, Zack Stentz, Jane Goldman, Matthew Vaughn",
-  "musicBy": "Henry Jackman",
-  "cinematographyBy": "John Mathieson",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 140,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 354,
-    "suffix": "million"
-  },
-  "synopsis": "In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them.",
-  "collections": [
-    {
-      "name": "Superheroes"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Make-Up"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "X-Men",
-    "part": 5
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 132,
   "cast": [
     {
       "character": {
@@ -128,7 +153,29 @@
       "actorId": "5a1879f4-ab18-4893-8b1e-0471c556933e"
     }
   ],
-  "duration": 132,
-  "trailer": "kyQKi5-k0UU",
-  "year": 2011
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": {
+    "value": 140,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 354,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Make-Up"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "X-Men",
+    "part": 5
+  }
 }

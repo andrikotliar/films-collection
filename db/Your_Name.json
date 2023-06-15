@@ -1,42 +1,70 @@
 {
   "id": "c6d7c99a-098c-494c-80fc-faaf3133bdab",
+  "type": [
+    "Film"
+  ],
   "title": "Your Name",
   "poster": "your_name",
+  "trailer": "xU47nhruN-Q",
   "genres": [
     "Anime",
     "Drama",
     "Fantasy"
   ],
-  "production": [
-    "Toho, CoMix Wave Films"
+  "synopsis": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Makoto Shinkai"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Makoto Shinkai"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Noritaka Kawaguchi"
+        },
+        {
+          "name": "Genki Kawamura"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Radwimps"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Makoto Shinkai"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Makoto Shinkai"
-  ],
-  "producedBy": "Noritaka Kawaguchi, Genki Kawamura",
-  "writtenBy": "Makoto Shinkai",
-  "musicBy": "Radwimps",
-  "cinematographyBy": "Makoto Shinkai",
+  "year": 2016,
   "countries": [
     "Japan"
   ],
-  "budget": {
-    "value": 3.48,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 358,
-    "suffix": "million"
-  },
-  "synopsis": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?",
-  "collections": [
-    {
-      "name": "Anime"
-    }
+  "production": [
+    "Toho, CoMix Wave Films"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 107,
   "cast": [
     {
       "character": {
@@ -88,7 +116,17 @@
       "actorId": "99fabf8e-6648-4688-815c-4356348a4851"
     }
   ],
-  "duration": 107,
-  "trailer": "xU47nhruN-Q",
-  "year": 2016
+  "collections": [
+    {
+      "title": "Anime"
+    }
+  ],
+  "budget": {
+    "value": 3.48,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 358,
+    "suffix": "million"
+  }
 }

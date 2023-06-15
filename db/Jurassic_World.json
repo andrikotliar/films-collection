@@ -1,59 +1,78 @@
 {
   "id": "7b52c535-44e8-491a-8bf0-6fb9434a2a00",
+  "type": [
+    "Film"
+  ],
   "title": "Jurassic World",
   "poster": "jurassic_world",
+  "trailer": "RFinNxS5KN4",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "production": [
-    "Universal Pictures"
-  ],
-  "directedBy": [
-    "Colin Trevorrow"
-  ],
-  "producedBy": "Frank Marshall, Patrick Crowley",
-  "writtenBy": "Rick Jaffa, Amanda Silver, Derek Connolly, Colin Trevorrow",
-  "musicBy": "Michael Giacchino",
-  "cinematographyBy": "John Schwartzman",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.67,
-    "suffix": "billion"
-  },
   "synopsis": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree.",
-  "collections": [
+  "crew": [
     {
-      "name": "Monsters"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Performance by a Younger Actor (Ty Simpkins)"
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Colin Trevorrow"
+        }
       ]
     },
     {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Action Performance"
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Rick Jaffa"
+        },
+        {
+          "name": "Amanda Silver"
+        },
+        {
+          "name": "Derek Connolly"
+        },
+        {
+          "name": "Colin Trevorrow"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Frank Marshall"
+        },
+        {
+          "name": "Patrick Crowley"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Michael Giacchino"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "John Schwartzman"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "Jurassic Park",
-    "part": 4
-  },
-  "type": [
-    "Film"
+  "year": 2015,
+  "countries": [
+    "USA"
   ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "duration": 124,
   "cast": [
     {
       "character": {
@@ -140,7 +159,35 @@
       "actorId": "c987561c-e7e1-4e87-a98c-b6d29af05ab6"
     }
   ],
-  "duration": 124,
-  "trailer": "RFinNxS5KN4",
-  "year": 2015
+  "collections": [
+    {
+      "title": "Monsters"
+    }
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.67,
+    "suffix": "billion"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Performance by a Younger Actor (Ty Simpkins)"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Action Performance"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Jurassic Park",
+    "part": 4
+  }
 }

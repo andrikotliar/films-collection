@@ -1,44 +1,84 @@
 {
   "id": "eb3b2c18-deda-4bed-a706-73a37add71ce",
+  "type": [
+    "Film"
+  ],
   "title": "Dune",
   "poster": "dune",
+  "trailer": "w0HgHet0sxg",
   "genres": [
     "Sci-Fi",
     "Adventures",
     "Drama"
   ],
-  "production": [
-    "Warner Bros. Pictures",
-    "Legendary"
+  "synopsis": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Denis Villeneuve"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Jon Spaihts"
+        },
+        {
+          "name": "Denis Villeneuve"
+        },
+        {
+          "name": "Eric Roth"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Cale Boyter"
+        },
+        {
+          "name": "Joseph M. Caracciolo Jr."
+        },
+        {
+          "name": "Mary Parent"
+        },
+        {
+          "name": "Denis Villeneuve"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Greig Fraser"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Denis Villeneuve"
-  ],
-  "producedBy": "Cale Boyter, Joseph M. Caracciolo Jr., Mary Parent, Denis Villeneuve",
-  "writtenBy": "Jon Spaihts, Denis Villeneuve, Eric Roth",
-  "musicBy": "Hans Zimmer",
-  "cinematographyBy": "Greig Fraser",
+  "year": 2021,
   "countries": [
     "USA",
     "Canada"
   ],
-  "budget": {
-    "value": 165,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 398,
-    "suffix": "million"
-  },
-  "synopsis": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
-  "collections": [
-    {
-      "name": "Space"
-    }
+  "production": [
+    "Warner Bros. Pictures",
+    "Legendary"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 155,
   "cast": [
     {
       "character": {
@@ -132,7 +172,17 @@
       "actorId": "4fd4987f-71d2-49a2-8e60-cc1c93280aef"
     }
   ],
-  "duration": 155,
-  "trailer": "w0HgHet0sxg",
-  "year": 2021
+  "collections": [
+    {
+      "title": "Space"
+    }
+  ],
+  "budget": {
+    "value": 165,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 398,
+    "suffix": "million"
+  }
 }

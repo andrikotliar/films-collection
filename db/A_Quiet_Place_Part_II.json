@@ -1,45 +1,75 @@
 {
   "id": "0534d5d1-19ea-4e66-b9b9-99d22f493394",
+  "type": [
+    "Film"
+  ],
   "title": "A Quiet Place Part II",
   "poster": "quiet_place_2",
+  "trailer": "BpdDN9d9Jio",
   "genres": [
     "Sci-Fi",
     "Horror"
   ],
-  "production": [
-    "Paramount Pictures"
+  "synopsis": "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize the creatures that hunt by sound are not the only threats lurking beyond the sand path.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "John Krasinski"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "John Krasinski"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Michael Bay"
+        },
+        {
+          "name": "Andrew Form"
+        },
+        {
+          "name": "Brad Fuller"
+        },
+        {
+          "name": "John Krasinski"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Marco Beltrami"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Polly Morgan"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "John Krasinski"
-  ],
-  "producedBy": "Michael Bay, Andrew Form, Brad Fuller, John Krasinski",
-  "writtenBy": "John Krasinski",
-  "musicBy": "Marco Beltrami",
-  "cinematographyBy": "Polly Morgan",
+  "year": 2021,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 160,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 297,
-    "suffix": "million"
-  },
-  "synopsis": "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize the creatures that hunt by sound are not the only threats lurking beyond the sand path.",
-  "collections": [
-    {
-      "name": "Invasion"
-    }
+  "production": [
+    "Paramount Pictures"
   ],
-  "parts": {
-    "title": "Quiet Place",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 97,
   "cast": [
     {
       "character": {
@@ -84,7 +114,21 @@
       "actorId": "44677a98-c6e2-43c4-b7e2-3fe0a7f05703"
     }
   ],
-  "duration": 97,
-  "trailer": "BpdDN9d9Jio",
-  "year": 2021
+  "collections": [
+    {
+      "title": "Invasion"
+    }
+  ],
+  "budget": {
+    "value": 160,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 297,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Quiet Place",
+    "part": 2
+  }
 }

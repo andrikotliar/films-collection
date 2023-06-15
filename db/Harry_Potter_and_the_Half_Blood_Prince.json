@@ -1,46 +1,70 @@
 {
   "id": "6b0bb3b2-0f5f-4aeb-a6a5-dbca7579cb53",
+  "type": [
+    "Film"
+  ],
   "title": "Harry Potter and the Half-Blood Prince",
   "poster": "harry_potter_6",
+  "trailer": "sg81Lts5kYY",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "Warner Bros. Pictures"
+  "synopsis": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "David Yates"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Steve Kloves"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "David Heyman"
+        },
+        {
+          "name": "David Barron"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Nicholas Hooper"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Bruno Delbonnel"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "David Yates"
-  ],
-  "producedBy": "David Heyman, David Barron",
-  "writtenBy": "Steve Kloves",
-  "musicBy": "Nicholas Hooper",
-  "cinematographyBy": "Bruno Delbonnel",
+  "year": 2009,
   "countries": [
     "USA",
     "UK"
   ],
-  "budget": {
-    "value": 250,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 934,
-    "suffix": "million"
-  },
-  "synopsis": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past.",
-  "collections": [
-    {
-      "name": "Harry Potter Universe"
-    }
+  "production": [
+    "Warner Bros. Pictures"
   ],
-  "parts": {
-    "title": "Harry Potter Universe",
-    "part": 8
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 153,
   "cast": [
     {
       "character": {
@@ -106,7 +130,21 @@
       "actorId": "904469e3-d222-4e9c-be23-1cac77a68974"
     }
   ],
-  "duration": 153,
-  "trailer": "sg81Lts5kYY",
-  "year": 2009
+  "collections": [
+    {
+      "title": "Harry Potter Universe"
+    }
+  ],
+  "budget": {
+    "value": 250,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 934,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Harry Potter Universe",
+    "part": 8
+  }
 }

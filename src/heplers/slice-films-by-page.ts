@@ -1,7 +1,7 @@
-import { GeneralFilm } from "@/types";
+import { FilmData } from "@/types";
 
 export const sliceFilmsByPage = (
-  films: GeneralFilm[],
+  films: FilmData[],
   currentPage: number,
   perPage = 25
 ) => {

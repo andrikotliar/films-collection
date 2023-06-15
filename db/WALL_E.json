@@ -1,78 +1,73 @@
 {
   "id": "01409f2e-109c-49d8-812e-e41925eb2235",
+  "type": [
+    "Animation"
+  ],
   "title": "WALL-E",
   "poster": "wall_e",
+  "trailer": "alIq_wG9FNk",
   "genres": [
     "Sci-Fi",
     "Romance"
+  ],
+  "synopsis": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Andrew Stanton"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Andrew Stanton"
+        },
+        {
+          "name": "Jim Reardon"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Jim Morris"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Thomas Newman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Jeremy Lasky"
+        },
+        {
+          "name": "Danielle Feinberg"
+        }
+      ]
+    }
+  ],
+  "year": 2008,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Pixar Animation"
   ],
-  "directedBy": [
-    "Andrew Stanton"
-  ],
-  "producedBy": "Jim Morris",
-  "writtenBy": "Andrew Stanton, Jim Reardon",
-  "musicBy": "Thomas Newman",
-  "cinematographyBy": "Jeremy Lasky, Danielle Feinberg",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 180,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 533,
-    "suffix": "million"
-  },
-  "synopsis": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
-  "collections": [
-    {
-      "name": "Space"
-    },
-    {
-      "name": "Top 10",
-      "order": 9
-    }
-  ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Animated Feature Film of the Year"
-      ]
-    },
-    {
-      "title": "Golden Globes",
-      "nominations": [
-        "Best Animated Film"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Animated Film"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Animated Film"
-      ]
-    },
-    {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Animated Feature"
-      ]
-    }
-  ],
-  "type": [
-    "Animation"
-  ],
+  "duration": 97,
   "cast": [
     {
       "character": {
@@ -117,7 +112,53 @@
       "actorId": "2cf393e7-0dd3-49c5-abb2-c9fd2a0f8c23"
     }
   ],
-  "duration": 97,
-  "trailer": "alIq_wG9FNk",
-  "year": 2008
+  "collections": [
+    {
+      "title": "Space"
+    },
+    {
+      "title": "Top 10",
+      "order": 9
+    }
+  ],
+  "budget": {
+    "value": 180,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 533,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Animated Feature Film of the Year"
+      ]
+    },
+    {
+      "title": "Golden Globes",
+      "nominations": [
+        "Best Animated Film"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Animated Film"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Animated Film"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Animated Feature"
+      ]
+    }
+  ]
 }

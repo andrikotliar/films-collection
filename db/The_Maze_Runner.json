@@ -1,55 +1,81 @@
 {
   "id": "d36dcea6-478a-43d9-9a2f-49e022aa9e81",
+  "type": [
+    "Film"
+  ],
   "title": "The Maze Runner",
   "poster": "maze_runner_1",
+  "trailer": "AwwbhhjQ9Xk",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "production": [
-    "20th Century FOX"
-  ],
-  "directedBy": [
-    "Wes Ball"
-  ],
-  "producedBy": "Marty Bowen, Wyck Godfrey, Ellen Goldsmith-Vein, Lee Stollman",
-  "writtenBy": "Noah Oppenheim, Grant Pierce Myers, T.S. Nowlin",
-  "musicBy": "John Paesano",
-  "cinematographyBy": "Enrique Chediak",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 34,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 348,
-    "suffix": "million"
-  },
   "synopsis": "Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow \"runners\" for a shot at escape.",
-  "collections": [
+  "crew": [
     {
-      "name": "Dystopia"
-    }
-  ],
-  "awards": [
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Wes Ball"
+        }
+      ]
+    },
     {
-      "title": "MTV Movie Awards (2015)",
-      "nominations": [
-        "Breakthrough Performance",
-        "Best Fight",
-        "Best Hero"
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Noah Oppenheim"
+        },
+        {
+          "name": "Grant Pierce Myers"
+        },
+        {
+          "name": "T.S. Nowlin"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Marty Bowen"
+        },
+        {
+          "name": "Wyck Godfrey"
+        },
+        {
+          "name": "Ellen Goldsmith-Vein"
+        },
+        {
+          "name": "Lee Stollman"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Paesano"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Enrique Chediak"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "The Maze Runner",
-    "part": 1
-  },
-  "type": [
-    "Film"
+  "year": 2014,
+  "countries": [
+    "USA"
   ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "duration": 113,
   "cast": [
     {
       "character": {
@@ -101,7 +127,31 @@
       "actorId": "c6e174c6-5cb9-422a-950e-8452d99b4d2c"
     }
   ],
-  "duration": 113,
-  "trailer": "AwwbhhjQ9Xk",
-  "year": 2014
+  "collections": [
+    {
+      "title": "Dystopia"
+    }
+  ],
+  "budget": {
+    "value": 34,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 348,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "MTV Movie Awards (2015)",
+      "nominations": [
+        "Breakthrough Performance",
+        "Best Fight",
+        "Best Hero"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Maze Runner",
+    "part": 1
+  }
 }

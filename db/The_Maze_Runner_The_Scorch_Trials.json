@@ -1,45 +1,75 @@
 {
   "id": "fdbe3c8b-99b9-4da5-9bad-37246b82b441",
+  "type": [
+    "Film"
+  ],
   "title": "The Maze Runner: The Scorch Trials",
   "poster": "maze_runner_2",
+  "trailer": "SDofO3P2HpE",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "production": [
-    "20th Century FOX"
+  "synopsis": "After having escaped the Maze, the Gladers now face a new set of challenges on the open roads of a desolate landscape filled with unimaginable obstacles.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Wes Ball"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "T.S. Nowlin"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Marty Bowen"
+        },
+        {
+          "name": "Wyck Godfrey"
+        },
+        {
+          "name": "Ellen Goldsmith-Vein"
+        },
+        {
+          "name": "Lee Stollman"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Paesano"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Gyula Pados"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Wes Ball"
-  ],
-  "producedBy": "Marty Bowen, Wyck Godfrey, Ellen Goldsmith-Vein, Lee Stollman",
-  "writtenBy": "T.S. Nowlin",
-  "musicBy": "John Paesano",
-  "cinematographyBy": "Gyula Pados",
+  "year": 2015,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 61,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 312,
-    "suffix": "million"
-  },
-  "synopsis": "After having escaped the Maze, the Gladers now face a new set of challenges on the open roads of a desolate landscape filled with unimaginable obstacles.",
-  "collections": [
-    {
-      "name": "Dystopia"
-    }
+  "production": [
+    "20th Century FOX"
   ],
-  "parts": {
-    "title": "The Maze Runner",
-    "part": 2
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 131,
   "cast": [
     {
       "character": {
@@ -105,7 +135,21 @@
       "actorId": "5b44c88a-eaff-4f50-b93c-77a8b827c304"
     }
   ],
-  "duration": 131,
-  "trailer": "SDofO3P2HpE",
-  "year": 2015
+  "collections": [
+    {
+      "title": "Dystopia"
+    }
+  ],
+  "budget": {
+    "value": 61,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 312,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "The Maze Runner",
+    "part": 2
+  }
 }

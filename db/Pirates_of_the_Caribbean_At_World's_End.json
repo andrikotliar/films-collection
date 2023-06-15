@@ -1,54 +1,70 @@
 {
   "id": "48c28aa8-69aa-4a1a-bb19-7bd486d4c0d8",
+  "type": [
+    "Film"
+  ],
   "title": "Pirates of the Caribbean: At World's End",
   "poster": "pirates_3",
+  "trailer": "HKSZtp_OGHY",
   "genres": [
     "Fantasy",
     "Adventures"
+  ],
+  "synopsis": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Gore Verbinski"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Ted Elliott"
+        },
+        {
+          "name": "Terry Rossio"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Jerry Bruckheimer"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Dariusz Wolski"
+        }
+      ]
+    }
+  ],
+  "year": 2007,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Jerry Bruckheimer Films"
   ],
-  "directedBy": [
-    "Gore Verbinski"
-  ],
-  "producedBy": "Jerry Bruckheimer",
-  "writtenBy": "Ted Elliott, Terry Rossio",
-  "musicBy": "Hans Zimmer",
-  "cinematographyBy": "Dariusz Wolski",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 300,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 963,
-    "suffix": "million"
-  },
-  "synopsis": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Make-Up"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Pirates of the Caribbean",
-    "part": 3
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 168,
   "cast": [
     {
       "character": {
@@ -100,7 +116,29 @@
       "actorId": "e33e9ef2-ee2e-497c-bfab-ff1f26118425"
     }
   ],
-  "duration": 168,
-  "trailer": "HKSZtp_OGHY",
-  "year": 2007
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 300,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 963,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Make-Up"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Pirates of the Caribbean",
+    "part": 3
+  }
 }

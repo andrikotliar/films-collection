@@ -1,45 +1,66 @@
 {
   "id": "196affdd-0577-422e-a864-d697d0f38b3b",
+  "type": [
+    "Film"
+  ],
   "title": "Black Widow",
   "poster": "black_widow",
+  "trailer": "ybji16u608U",
   "genres": [
     "Adventures",
     "Action"
   ],
-  "production": [
-    "Marvel Studios"
+  "synopsis": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Cate Shortland"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Eric Pearson"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Lorne Balfe"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Gabriel Beristain"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Cate Shortland"
-  ],
-  "producedBy": "Kevin Feige",
-  "writtenBy": "Eric Pearson",
-  "musicBy": "Lorne Balfe",
-  "cinematographyBy": "Gabriel Beristain",
+  "year": 2021,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 200,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 379,
-    "suffix": "million"
-  },
-  "synopsis": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises.",
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
+  "production": [
+    "Marvel Studios"
   ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 27
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 134,
   "cast": [
     {
       "character": {
@@ -91,7 +112,21 @@
       "actorId": "71efd2a5-8858-43a4-9bd7-6e52a8eaee6d"
     }
   ],
-  "duration": 134,
-  "trailer": "ybji16u608U",
-  "year": 2021
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 379,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 27
+  }
 }

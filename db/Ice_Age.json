@@ -1,45 +1,65 @@
 {
   "id": "4caa5313-e0ae-4215-9ba8-f51c54f60983",
+  "type": [
+    "Animation"
+  ],
   "title": "Ice Age",
   "poster": "ice_age_1",
+  "trailer": "i4noiCRJRoE",
   "genres": [
     "Adventures",
     "Comedy"
+  ],
+  "synopsis": "Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Chris Wedge"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Michael Berg"
+        },
+        {
+          "name": "Michael J. Wilson"
+        },
+        {
+          "name": "Peter Ackerman"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Lori Forte"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "David Newman"
+        }
+      ]
+    }
+  ],
+  "year": 2002,
+  "countries": [
+    "USA"
   ],
   "production": [
     "20th Century FOX",
     "Blue Sky Studios"
   ],
-  "directedBy": [
-    "Chris Wedge"
-  ],
-  "producedBy": "Lori Forte",
-  "writtenBy": "Michael Berg, Michael J. Wilson, Peter Ackerman",
-  "musicBy": "David Newman",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 59,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 383,
-    "suffix": "million"
-  },
-  "synopsis": "Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
-  ],
-  "parts": {
-    "title": "Ice Age",
-    "part": 1
-  },
-  "type": [
-    "Animation"
-  ],
+  "duration": 81,
   "cast": [
     {
       "character": {
@@ -70,7 +90,21 @@
       "actorId": "ec353a09-b4f6-452d-acb5-1693b703f783"
     }
   ],
-  "duration": 81,
-  "trailer": "i4noiCRJRoE",
-  "year": 2002
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 59,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 383,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Ice Age",
+    "part": 1
+  }
 }

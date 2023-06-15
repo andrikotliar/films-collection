@@ -1,5 +1,8 @@
 {
   "id": "c0711246-0900-44d2-bff9-957fa4ba5392",
+  "type": [
+    "Series"
+  ],
   "title": "Stranger Things",
   "poster": "stranger_things",
   "genres": [
@@ -7,321 +10,152 @@
     "Drama",
     "Horror"
   ],
-  "production": [
-    "Netflix"
+  "synopsis": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
+  "crew": [
+    {
+      "role": "Created by",
+      "people": [
+        {
+          "name": "Matt Duffer"
+        },
+        {
+          "name": "Ross Duffer"
+        }
+      ]
+    },
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Matt Duffer",
+          "comment": "23 episodes"
+        },
+        {
+          "name": "Ross Duffer",
+          "comment": "23 episodes"
+        },
+        {
+          "name": "Shawn Levy",
+          "comment": "10 episodes"
+        },
+        {
+          "name": "Andrew Stanton",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Rebecca Thomas",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Uta Briesewitz",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Nimród Antal",
+          "comment": "2 episodes"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Matt Duffer",
+          "comment": "11 episodes"
+        },
+        {
+          "name": "Ross Duffer",
+          "comment": "11 episodes"
+        },
+        {
+          "name": "Jessica Mecklenburg",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Justin Doble",
+          "comment": "4 episodes"
+        },
+        {
+          "name": "Alison Tatlock",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Jessie Nickson-Lopez",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Paul Dichter",
+          "comment": "4 episodes"
+        },
+        {
+          "name": "Kate Trefry",
+          "comment": "18 episodes"
+        },
+        {
+          "name": "William Bridges",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Curtis Gwinn",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Caitlin Schneiderhan",
+          "comment": "9 episodes"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Rand Geiger"
+        },
+        {
+          "name": "Justin Doble"
+        },
+        {
+          "name": "The Duffer Brothers"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Kyle Dixon"
+        },
+        {
+          "name": "Michael Stein"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Tim Ives"
+        },
+        {
+          "name": "Tod Campbell"
+        },
+        {
+          "name": "Lachlan Milne"
+        },
+        {
+          "name": "David Franco"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "The Duffer Brothers"
-  ],
-  "producedBy": "Rand Geiger, Justin Doble, The Duffer Brothers",
-  "musicBy": "Kyle Dixon, Michael Stein",
-  "cinematographyBy": "Tim Ives, Tod Campbell, Lachlan Milne, David Franco",
+  "year": 2016,
   "countries": [
     "USA"
   ],
-  "synopsis": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    },
-    {
-      "name": "Top 10",
-      "order": 10
-    }
+  "production": [
+    "Netflix"
   ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Supporting Actress in Streaming Presentation",
-        "Best Streaming Horror & Thriller Series"
-      ]
-    },
-    {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Supporting Actor in a Drama Series"
-      ]
-    },
-    {
-      "title": "Emmy",
-      "nominations": [
-        "Outstanding Sound Editing for a Comedy or Drama Series (One Hour)",
-        "Outstanding Main Title Design",
-        "Outstanding Original Main Title Theme Music",
-        "Outstanding Casting for a Drama Series",
-        "Outstanding Single-Camera Picture Editing for a Drama Series",
-        "Outstanding Sound Editing for a Series"
-      ]
-    }
-  ],
-  "type": [
-    "Series"
-  ],
-  "seasons": [
-    {
-      "season": 1,
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "Chapter One: The Vanishing of Will Byers",
-          "directedBy": "The Duffer Brothers",
-          "writtenBy": "The Duffer Brothers"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Chapter Two: The Weirdo on Maple Street",
-          "directedBy": "The Duffer Brothers",
-          "writtenBy": "The Duffer Brothers"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Chapter Three: Holly, Jolly",
-          "directedBy": "Shawn Levy",
-          "writtenBy": "Jessica Mecklenburg"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "Chapter Four: The Body",
-          "directedBy": "Shawn Levy",
-          "writtenBy": "Justin Doble"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Chapter Five: The Flea, the Acrobat",
-          "directedBy": "The Duffer Brothers",
-          "writtenBy": "Alison Tatlock"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "Chapter Six: The Monster",
-          "directedBy": "The Duffer Brothers",
-          "writtenBy": "Jessie Nickson-Lopez"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "Chapter Seven: The Bathtub",
-          "directedBy": "The Duffer Brothers",
-          "writtenBy": "Justin Doble"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 8,
-          "title": "Chapter Eight: The Upside Down",
-          "directedBy": "The Duffer Brothers",
-          "writtenBy": "The Duffer Brothers"
-        }
-      ],
-      "trailer": "b9EkMc79ZSU"
-    },
-    {
-      "season": 2,
-      "episodes": [
-        {
-          "episodeOverall": 9,
-          "episode": 1,
-          "title": "Chapter One: MADMAX",
-          "directedBy": "The Duffer Brothers",
-          "writtenBy": "The Duffer Brothers"
-        },
-        {
-          "episodeOverall": 10,
-          "episode": 2,
-          "title": "Chapter Two: Trick or Treat, Freak",
-          "directedBy": "The Duffer Brothers",
-          "writtenBy": "The Duffer Brothers"
-        },
-        {
-          "episodeOverall": 11,
-          "episode": 3,
-          "title": "Chapter Three: The Pollywog",
-          "directedBy": "Shawn Levy",
-          "writtenBy": "Justin Doble"
-        },
-        {
-          "episodeOverall": 12,
-          "episode": 4,
-          "title": "Chapter Four: Will the Wise",
-          "directedBy": "Shawn Levy",
-          "writtenBy": "Paul Dichter"
-        },
-        {
-          "episodeOverall": 13,
-          "episode": 5,
-          "title": "Chapter Five: Dig Dug",
-          "directedBy": "Andrew Stanton",
-          "writtenBy": "Jessie Nickson-Lopez"
-        },
-        {
-          "episodeOverall": 14,
-          "episode": 6,
-          "title": "Chapter Six: The Spy",
-          "directedBy": "Andrew Stanton",
-          "writtenBy": "Kate Trefry"
-        },
-        {
-          "episodeOverall": 15,
-          "episode": 7,
-          "title": "Chapter Seven: The Lost Sister",
-          "directedBy": "Rebecca Thomas",
-          "writtenBy": "Justin Doble"
-        },
-        {
-          "episodeOverall": 16,
-          "episode": 8,
-          "title": "Chapter Eight: The Mind Flayer",
-          "directedBy": "The Duffer Brothers",
-          "writtenBy": "The Duffer Brothers"
-        },
-        {
-          "episodeOverall": 17,
-          "episode": 9,
-          "title": "Chapter Nine: The Gate",
-          "directedBy": "The Duffer Brothers",
-          "writtenBy": "The Duffer Brothers"
-        }
-      ],
-      "trailer": "R1ZXOOLMJ8s"
-    },
-    {
-      "season": 3,
-      "episodes": [
-        {
-          "episodeOverall": 18,
-          "episode": 1,
-          "title": "Chapter One: Suzie, Do You Copy?",
-          "directedBy": "The Duffer Brothers",
-          "writtenBy": "The Duffer Brothers"
-        },
-        {
-          "episodeOverall": 19,
-          "episode": 2,
-          "title": "Chapter Two: The Mall Rats",
-          "directedBy": "The Duffer Brothers",
-          "writtenBy": "The Duffer Brothers"
-        },
-        {
-          "episodeOverall": 20,
-          "episode": 3,
-          "title": "Chapter Three: The Case of the Missing Lifeguard",
-          "directedBy": "Shawn Levy",
-          "writtenBy": "William Bridges"
-        },
-        {
-          "episodeOverall": 21,
-          "episode": 4,
-          "title": "Chapter Four: The Sauna Test",
-          "directedBy": "Shawn Levy",
-          "writtenBy": "Kate Trefry"
-        },
-        {
-          "episodeOverall": 22,
-          "episode": 5,
-          "title": "Chapter Five: The Flayed",
-          "directedBy": "Uta Briesewitz",
-          "writtenBy": "Paul Dichter"
-        },
-        {
-          "episodeOverall": 23,
-          "episode": 6,
-          "title": "Chapter Six: E Pluribus Unum",
-          "directedBy": "Uta Briesewitz",
-          "writtenBy": "Curtis Gwinn"
-        },
-        {
-          "episodeOverall": 24,
-          "episode": 7,
-          "title": "Chapter Seven: The Bite",
-          "directedBy": "The Duffer Brothers",
-          "writtenBy": "The Duffer Brothers"
-        },
-        {
-          "episodeOverall": 25,
-          "episode": 8,
-          "title": "Chapter Eight: The Battle of Starcourt",
-          "directedBy": "The Duffer Brothers",
-          "writtenBy": "The Duffer Brothers"
-        }
-      ],
-      "trailer": "6Am4v0C_z8c"
-    },
-    {
-      "season": 4,
-      "episodes": [
-        {
-          "episodeOverall": 26,
-          "episode": 1,
-          "title": "Chapter One: The Hellfire Club",
-          "directedBy": "The Duffer Brothers",
-          "writtenBy": "The Duffer Brothers"
-        },
-        {
-          "episodeOverall": 27,
-          "episode": 2,
-          "title": "Chapter Two: Vecna's Curse",
-          "directedBy": "The Duffer Brothers",
-          "writtenBy": "The Duffer Brothers"
-        },
-        {
-          "episodeOverall": 28,
-          "episode": 3,
-          "title": "Chapter Three: The Monster and the Superhero",
-          "directedBy": "Shawn Levy",
-          "writtenBy": "Caitlin Schneiderhan"
-        },
-        {
-          "episodeOverall": 29,
-          "episode": 4,
-          "title": "Chapter Four: Dear Billy",
-          "directedBy": "Shawn Levy",
-          "writtenBy": "Paul Dichter"
-        },
-        {
-          "episodeOverall": 30,
-          "episode": 5,
-          "title": "Chapter Five: The Nina Project",
-          "directedBy": "Nimród Antal",
-          "writtenBy": "Kate Trefry"
-        },
-        {
-          "episodeOverall": 31,
-          "episode": 6,
-          "title": "Chapter Six: The Dive",
-          "directedBy": "Nimród Antal",
-          "writtenBy": "Curtis Gwinn"
-        },
-        {
-          "episodeOverall": 32,
-          "episode": 7,
-          "title": "Chapter Seven: The Massacre at Hawkins Lab",
-          "directedBy": "The Duffer Brothers",
-          "writtenBy": "The Duffer Brothers"
-        },
-        {
-          "episodeOverall": 33,
-          "episode": 8,
-          "title": "Chapter Eight: Papa",
-          "directedBy": "The Duffer Brothers",
-          "writtenBy": "The Duffer Brothers"
-        },
-        {
-          "episodeOverall": 34,
-          "episode": 9,
-          "title": "Chapter Nine: The Piggyback",
-          "directedBy": "The Duffer Brothers",
-          "writtenBy": "The Duffer Brothers"
-        }
-      ],
-      "trailer": "yQEondeGvKo"
-    }
-  ],
+  "duration": 1275,
   "cast": [
     {
       "character": {
@@ -394,6 +228,243 @@
       "actorId": "a1c7cd58-4c7f-4a68-924f-809a5b0793d2"
     }
   ],
-  "duration": 1275,
-  "year": 2016
+  "collections": [
+    {
+      "title": "Fantasy"
+    },
+    {
+      "title": "Top 10",
+      "order": 10
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Supporting Actress in Streaming Presentation",
+        "Best Streaming Horror & Thriller Series"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Supporting Actor in a Drama Series"
+      ]
+    },
+    {
+      "title": "Emmy",
+      "nominations": [
+        "Outstanding Sound Editing for a Comedy or Drama Series (One Hour)",
+        "Outstanding Main Title Design",
+        "Outstanding Original Main Title Theme Music",
+        "Outstanding Casting for a Drama Series",
+        "Outstanding Single-Camera Picture Editing for a Drama Series",
+        "Outstanding Sound Editing for a Series"
+      ]
+    }
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "trailer": "b9EkMc79ZSU",
+      "year": 2016,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "Chapter One: The Vanishing of Will Byers"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Chapter Two: The Weirdo on Maple Street"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Chapter Three: Holly, Jolly"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "Chapter Four: The Body"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Chapter Five: The Flea, the Acrobat"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "Chapter Six: The Monster"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "Chapter Seven: The Bathtub"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "Chapter Eight: The Upside Down"
+        }
+      ],
+      "poster": "stranger_things"
+    },
+    {
+      "season": 2,
+      "trailer": "R1ZXOOLMJ8s",
+      "year": 2017,
+      "episodes": [
+        {
+          "episodeOverall": 9,
+          "episode": 1,
+          "title": "Chapter One: MADMAX"
+        },
+        {
+          "episodeOverall": 10,
+          "episode": 2,
+          "title": "Chapter Two: Trick or Treat, Freak"
+        },
+        {
+          "episodeOverall": 11,
+          "episode": 3,
+          "title": "Chapter Three: The Pollywog"
+        },
+        {
+          "episodeOverall": 12,
+          "episode": 4,
+          "title": "Chapter Four: Will the Wise"
+        },
+        {
+          "episodeOverall": 13,
+          "episode": 5,
+          "title": "Chapter Five: Dig Dug"
+        },
+        {
+          "episodeOverall": 14,
+          "episode": 6,
+          "title": "Chapter Six: The Spy"
+        },
+        {
+          "episodeOverall": 15,
+          "episode": 7,
+          "title": "Chapter Seven: The Lost Sister"
+        },
+        {
+          "episodeOverall": 16,
+          "episode": 8,
+          "title": "Chapter Eight: The Mind Flayer"
+        },
+        {
+          "episodeOverall": 17,
+          "episode": 9,
+          "title": "Chapter Nine: The Gate"
+        }
+      ],
+      "poster": "stranger_things_s2"
+    },
+    {
+      "season": 3,
+      "trailer": "6Am4v0C_z8c",
+      "year": 2019,
+      "episodes": [
+        {
+          "episodeOverall": 18,
+          "episode": 1,
+          "title": "Chapter One: Suzie, Do You Copy?"
+        },
+        {
+          "episodeOverall": 19,
+          "episode": 2,
+          "title": "Chapter Two: The Mall Rats"
+        },
+        {
+          "episodeOverall": 20,
+          "episode": 3,
+          "title": "Chapter Three: The Case of the Missing Lifeguard"
+        },
+        {
+          "episodeOverall": 21,
+          "episode": 4,
+          "title": "Chapter Four: The Sauna Test"
+        },
+        {
+          "episodeOverall": 22,
+          "episode": 5,
+          "title": "Chapter Five: The Flayed"
+        },
+        {
+          "episodeOverall": 23,
+          "episode": 6,
+          "title": "Chapter Six: E Pluribus Unum"
+        },
+        {
+          "episodeOverall": 24,
+          "episode": 7,
+          "title": "Chapter Seven: The Bite"
+        },
+        {
+          "episodeOverall": 25,
+          "episode": 8,
+          "title": "Chapter Eight: The Battle of Starcourt"
+        }
+      ],
+      "poster": "stranger_things_s3"
+    },
+    {
+      "season": 4,
+      "trailer": "a3thyAnShck",
+      "year": 2022,
+      "episodes": [
+        {
+          "episodeOverall": 26,
+          "episode": 1,
+          "title": "Chapter One: The Hellfire Club"
+        },
+        {
+          "episodeOverall": 27,
+          "episode": 2,
+          "title": "Chapter Two: Vecna's Curse"
+        },
+        {
+          "episodeOverall": 28,
+          "episode": 3,
+          "title": "Chapter Three: The Monster and the Superhero"
+        },
+        {
+          "episodeOverall": 29,
+          "episode": 4,
+          "title": "Chapter Four: Dear Billy"
+        },
+        {
+          "episodeOverall": 30,
+          "episode": 5,
+          "title": "Chapter Five: The Nina Project"
+        },
+        {
+          "episodeOverall": 31,
+          "episode": 6,
+          "title": "Chapter Six: The Dive"
+        },
+        {
+          "episodeOverall": 32,
+          "episode": 7,
+          "title": "Chapter Seven: The Massacre at Hawkins Lab"
+        },
+        {
+          "episodeOverall": 33,
+          "episode": 8,
+          "title": "Chapter Eight: Papa"
+        },
+        {
+          "episodeOverall": 34,
+          "episode": 9,
+          "title": "Chapter Nine: The Piggyback"
+        }
+      ],
+      "poster": "stranger_things_s4"
+    }
+  ]
 }

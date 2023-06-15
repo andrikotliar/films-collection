@@ -1,120 +1,102 @@
 {
   "id": "30275425-9e93-40cf-af58-de75dc17e238",
+  "type": [
+    "Series"
+  ],
   "title": "WandaVision",
   "poster": "wandavision",
   "genres": [
     "Action",
     "Drama"
   ],
+  "synopsis": "Blends the style of classic sitcoms with the MCU, in which Wanda Maximoff and Vision - two super-powered beings living their ideal suburban lives - begin to suspect that everything is not as it seems.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Matt Shakman"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Jac Schaeffer",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Gretchen Enders",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Megan McDonnell",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Bobak Esfarjani",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Peter Cameron",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Mackenzie Dohr",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Chuck Hayward",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Cameron Squires",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Laura Donney",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Chuck Hayward"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Christophe Beck"
+        },
+        {
+          "name": "Alex Kovacs"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Jess Hall"
+        }
+      ]
+    }
+  ],
+  "year": 2021,
+  "countries": [
+    "USA"
+  ],
   "production": [
     "Disney Plus",
     "Marvel Studios"
   ],
-  "directedBy": [
-    "Matt Shakman"
-  ],
-  "producedBy": "Chuck Hayward",
-  "musicBy": "Christophe Beck, Alex Kovacs",
-  "cinematographyBy": "Jess Hall",
-  "countries": [
-    "USA"
-  ],
-  "synopsis": "Blends the style of classic sitcoms with the MCU, in which Wanda Maximoff and Vision - two super-powered beings living their ideal suburban lives - begin to suspect that everything is not as it seems.",
-  "awards": [
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Show",
-        "Best Performance in a Show (Elizabeth Olsen)",
-        "Best Villain (Kathryn Hahn)",
-        "Best Fight",
-        "Best Hero (Teyonah Parris)"
-      ]
-    }
-  ],
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 24
-  },
-  "type": [
-    "Series"
-  ],
-  "seasons": [
-    {
-      "season": 1,
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "Filmed Before a Live Studio Audience",
-          "directedBy": "Matt Shakman",
-          "writtenBy": "Jac Schaeffer"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Don't Touch That Dial",
-          "directedBy": "Matt Shakman",
-          "writtenBy": "Gretchen Enders"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Now in Color",
-          "directedBy": "Matt Shakman",
-          "writtenBy": "Megan McDonnell"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "We Interrupt This Program",
-          "directedBy": "Matt Shakman",
-          "writtenBy": "Bobak Esfarjani, Megan McDonnell"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "On a Very Special Episode...",
-          "directedBy": "Matt Shakman",
-          "writtenBy": "Peter Cameron, Mackenzie Dohr"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "All-New Halloween Spooktacular!",
-          "directedBy": "Matt Shakman",
-          "writtenBy": "Chuck Hayward, Peter Cameron"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "Breaking the Fourth Wall",
-          "directedBy": "Matt Shakman",
-          "writtenBy": "Cameron Squires"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 8,
-          "title": "Previously On",
-          "directedBy": "Matt Shakman",
-          "writtenBy": "Laura Donney"
-        },
-        {
-          "episodeOverall": 9,
-          "episode": 9,
-          "title": "The Series Finale",
-          "directedBy": "Matt Shakman",
-          "writtenBy": "Jac Schaeffer"
-        }
-      ],
-      "trailer": "sj9J2ecsSpo"
-    }
-  ],
+  "duration": 350,
   "cast": [
     {
       "character": {
@@ -159,6 +141,80 @@
       "actorId": "8ef45223-2a1b-42cc-98e8-db6637e88ca4"
     }
   ],
-  "duration": 350,
-  "year": 2021
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "awards": [
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Show",
+        "Best Performance in a Show (Elizabeth Olsen)",
+        "Best Villain (Kathryn Hahn)",
+        "Best Fight",
+        "Best Hero (Teyonah Parris)"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 24
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "trailer": "sj9J2ecsSpo",
+      "year": 2021,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "Filmed Before a Live Studio Audience"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Don't Touch That Dial"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Now in Color"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "We Interrupt This Program"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "On a Very Special Episode..."
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "All-New Halloween Spooktacular!"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "Breaking the Fourth Wall"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "Previously On"
+        },
+        {
+          "episodeOverall": 9,
+          "episode": 9,
+          "title": "The Series Finale"
+        }
+      ],
+      "poster": "wandavision"
+    }
+  ]
 }

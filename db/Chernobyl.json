@@ -1,110 +1,74 @@
 {
   "id": "ca42c671-ea29-49de-8292-6166619f7c27",
+  "type": [
+    "Series"
+  ],
   "title": "Chernobyl",
   "poster": "chernobyl",
   "genres": [
     "Drama",
     "History"
   ],
-  "production": [
-    "HBO"
+  "synopsis": "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes.",
+  "crew": [
+    {
+      "role": "Created by",
+      "people": [
+        {
+          "name": "Craig Mazin"
+        }
+      ]
+    },
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Johan Renck"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Craig Mazin"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Sanne Wohlenberg"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Hildur Guðnadóttir"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Jakob Ihre"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Craig Mazin"
-  ],
-  "producedBy": "Sanne Wohlenberg",
-  "musicBy": "Hildur Guðnadóttir",
-  "cinematographyBy": "Jakob Ihre",
+  "year": 2019,
   "countries": [
     "USA",
     "UK"
   ],
-  "synopsis": "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes.",
-  "collections": [
-    {
-      "name": "Based on Real Events"
-    }
+  "production": [
+    "HBO"
   ],
-  "awards": [
-    {
-      "title": "Emmy",
-      "nominations": [
-        "Outstanding Limited Series",
-        "Outstanding Directing for a Limited Series",
-        "Outstanding Writing for a Limited Series",
-        "Outstanding Cinematography for a Limited Series or Movie",
-        "Outstanding Production Design for a Narrative Period or Fantasy Program (One Hour or More)",
-        "Outstanding Music Composition for a Limited Series",
-        "Movie",
-        "or Special (Original Dramatic Score)",
-        "Outstanding Single-Camera Picture Editing for a Limited Series or Movie",
-        "Outstanding Sound Mixing for a Limited Series or Movie",
-        "Outstanding Sound Editing for a Limited Series",
-        "Movie or Special",
-        "Outstanding Special Visual Effects in a Supporting Role,"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Leading Actor (Jared Harris)",
-        "Mini-Series",
-        "Supporting Actor (Stellan Skarsgård)"
-      ]
-    },
-    {
-      "title": "Critics Choice Award",
-      "nominations": [
-        "Best Supporting Actor in a Limited Series or Movie Made for Television (Stellan Skarsgård)"
-      ]
-    }
-  ],
-  "type": [
-    "Series"
-  ],
-  "seasons": [
-    {
-      "season": 1,
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "1:23:45",
-          "directedBy": "Johan Renck",
-          "writtenBy": "Craig Mazin"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Please Remain Calm",
-          "directedBy": "Johan Renck",
-          "writtenBy": "Craig Mazin"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Open Wide, O Earth",
-          "directedBy": "Johan Renck",
-          "writtenBy": "Craig Mazin"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "The Happiness of All Mankind",
-          "directedBy": "Johan Renck",
-          "writtenBy": "Craig Mazin"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Vichnaya Pamyat",
-          "directedBy": "Johan Renck",
-          "writtenBy": "Craig Mazin"
-        }
-      ],
-      "trailer": "s9APLXM9Ei8"
-    }
-  ],
+  "duration": 330,
   "cast": [
     {
       "character": {
@@ -163,6 +127,78 @@
       "actorId": "63694732-cf05-4c92-b227-afd66265ba96"
     }
   ],
-  "duration": 330,
-  "year": 2019
+  "collections": [
+    {
+      "title": "Based on Real Events"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Emmy",
+      "nominations": [
+        "Outstanding Limited Series",
+        "Outstanding Directing for a Limited Series",
+        "Outstanding Writing for a Limited Series",
+        "Outstanding Cinematography for a Limited Series or Movie",
+        "Outstanding Production Design for a Narrative Period or Fantasy Program (One Hour or More)",
+        "Outstanding Music Composition for a Limited Series",
+        "Movie",
+        "or Special (Original Dramatic Score)",
+        "Outstanding Single-Camera Picture Editing for a Limited Series or Movie",
+        "Outstanding Sound Mixing for a Limited Series or Movie",
+        "Outstanding Sound Editing for a Limited Series",
+        "Movie or Special",
+        "Outstanding Special Visual Effects in a Supporting Role,"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Leading Actor (Jared Harris)",
+        "Mini-Series",
+        "Supporting Actor (Stellan Skarsgård)"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Supporting Actor in a Limited Series or Movie Made for Television (Stellan Skarsgård)"
+      ]
+    }
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "trailer": "s9APLXM9Ei8",
+      "year": 2019,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "1:23:45"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Please Remain Calm"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Open Wide, O Earth"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "The Happiness of All Mankind"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Vichnaya Pamyat"
+        }
+      ],
+      "poster": "chernobyl"
+    }
+  ]
 }

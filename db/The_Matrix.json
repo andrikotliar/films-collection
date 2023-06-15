@@ -1,94 +1,67 @@
 {
   "id": "7eff7ff6-1384-4815-8150-89ed83a24717",
+  "type": [
+    "Film"
+  ],
   "title": "The Matrix",
   "poster": "matrix_1",
+  "trailer": "m8e-FF8MsqU",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "production": [
-    "Warner Bros. Pictures"
+  "synopsis": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "The Wachowski Brothers"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "The Wachowski Brothers"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Joel Silver"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Don Davis"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Bill Pope"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "The Wachowski Brothers"
-  ],
-  "producedBy": "Joel Silver",
-  "writtenBy": "The Wachowski Brothers",
-  "musicBy": "Don Davis",
-  "cinematographyBy": "Bill Pope",
+  "year": 1999,
   "countries": [
     "USA",
     "Australia"
   ],
-  "budget": {
-    "value": 63,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 463,
-    "suffix": "million"
-  },
-  "synopsis": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
-  "collections": [
-    {
-      "name": "Legends"
-    },
-    {
-      "name": "Future"
-    },
-    {
-      "name": "Top 10",
-      "order": 8
-    }
+  "production": [
+    "Warner Bros. Pictures"
   ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Film Editing",
-        "Best Sound",
-        "Best Effects (Sound Effects Editing)",
-        "Best Effects (Visual Effects)"
-      ]
-    },
-    {
-      "title": "Golden Globes",
-      "nominations": [
-        "Best Actress in a Leading Role",
-        "Best Actor in a Leading Role",
-        "Best Visual Effects"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Sound",
-        "Best Achievement in Special Visual Effects"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Science Fiction Film",
-        "Best Director"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Movie",
-        "Best Male Performance",
-        "Best Fight"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "The Matrix",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 136,
   "cast": [
     {
       "character": {
@@ -133,7 +106,69 @@
       "actorId": "79ec0ceb-f615-41af-8559-3e2da184f750"
     }
   ],
-  "duration": 136,
-  "trailer": "m8e-FF8MsqU",
-  "year": 1999
+  "collections": [
+    {
+      "title": "Legends"
+    },
+    {
+      "title": "Future"
+    },
+    {
+      "title": "Top 10",
+      "order": 8
+    }
+  ],
+  "budget": {
+    "value": 63,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 463,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Film Editing",
+        "Best Sound",
+        "Best Effects (Sound Effects Editing)",
+        "Best Effects (Visual Effects)"
+      ]
+    },
+    {
+      "title": "Golden Globes",
+      "nominations": [
+        "Best Actress in a Leading Role",
+        "Best Actor in a Leading Role",
+        "Best Visual Effects"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Sound",
+        "Best Achievement in Special Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Director"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Best Movie",
+        "Best Male Performance",
+        "Best Fight"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Matrix",
+    "part": 1
+  }
 }

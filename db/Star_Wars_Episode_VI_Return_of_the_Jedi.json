@@ -1,65 +1,70 @@
 {
   "id": "cf9b51db-05e2-4477-809c-fb9f644553f9",
+  "type": [
+    "Film"
+  ],
   "title": "Star Wars Episode VI: Return of the Jedi",
   "poster": "star_wars_episode_VI",
+  "trailer": "5UfA_aKBGMc",
   "genres": [
     "SpaceOpera",
     "Adventures"
+  ],
+  "synopsis": "After a daring mission to rescue Han Solo from Jabba the Hutt, the rebels dispatch to Endor to destroy a more powerful Death Star. Meanwhile, Luke struggles to help Vader back from the dark side without falling into the Emperor's trap.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Richard Marquand"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "George Lucas"
+        },
+        {
+          "name": "Lawrence Kasdan"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Howard Kazanjian"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Alan Hume"
+        }
+      ]
+    }
+  ],
+  "year": 1983,
+  "countries": [
+    "USA"
   ],
   "production": [
     "20th Century FOX",
     "Lucasfilm"
   ],
-  "directedBy": [
-    "Richard Marquand"
-  ],
-  "producedBy": "Howard Kazanjian",
-  "writtenBy": "George Lucas, Lawrence Kasdan",
-  "musicBy": "John Williams",
-  "cinematographyBy": "Alan Hume",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 32,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 573,
-    "suffix": "million"
-  },
-  "synopsis": "After a daring mission to rescue Han Solo from Jabba the Hutt, the rebels dispatch to Endor to destroy a more powerful Death Star. Meanwhile, Luke struggles to help Vader back from the dark side without falling into the Emperor's trap.",
-  "awards": [
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Special Visual Effects"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best DVD Collection",
-        "Best Science Fiction Film",
-        "Best Actor",
-        "Best Costumes",
-        "Best Make-Up",
-        "Best Special Effects"
-      ]
-    }
-  ],
-  "collections": [
-    {
-      "name": "Star Wars Universe"
-    }
-  ],
-  "parts": {
-    "title": "Star Wars Universe",
-    "part": 8
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 131,
   "cast": [
     {
       "character": {
@@ -125,7 +130,40 @@
       "actorId": "11e3cf6a-7cbb-46ab-a58b-681d70c0d69c"
     }
   ],
-  "duration": 131,
-  "trailer": "5UfA_aKBGMc",
-  "year": 1983
+  "collections": [
+    {
+      "title": "Star Wars Universe"
+    }
+  ],
+  "budget": {
+    "value": 32,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 573,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Special Visual Effects"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best DVD Collection",
+        "Best Science Fiction Film",
+        "Best Actor",
+        "Best Costumes",
+        "Best Make-Up",
+        "Best Special Effects"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Star Wars Universe",
+    "part": 8
+  }
 }

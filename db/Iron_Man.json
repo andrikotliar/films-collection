@@ -1,60 +1,79 @@
 {
   "id": "46304760-5a11-4634-8ee2-b9ba5b349e64",
+  "type": [
+    "Film"
+  ],
   "title": "Iron Man",
   "poster": "iron_man_1",
+  "trailer": "8hYlB38asDY",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Jon Favreau"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Mark Fergus"
+        },
+        {
+          "name": "Hawk Ostby"
+        },
+        {
+          "name": "Art Marcum"
+        },
+        {
+          "name": "Matt Holloway"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Avi Arad"
+        },
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Ramin Djawadi"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Matthew Libatique"
+        }
+      ]
+    }
+  ],
+  "year": 2008,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Marvel Studios",
     "Paramount Pictures"
   ],
-  "directedBy": [
-    "Jon Favreau"
-  ],
-  "producedBy": "Avi Arad, Kevin Feige",
-  "writtenBy": "Mark Fergus, Hawk Ostby, Art Marcum, Matt Holloway",
-  "musicBy": "Ramin Djawadi",
-  "cinematographyBy": "Matthew Libatique",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 140,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 585,
-    "suffix": "million"
-  },
-  "synopsis": "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Science Fiction Film",
-        "Best Actor",
-        "Best Director"
-      ]
-    }
-  ],
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    },
-    {
-      "name": "Top 10",
-      "order": 2
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 126,
   "cast": [
     {
       "character": {
@@ -113,7 +132,35 @@
       "actorId": "1a2b1db2-33d9-4755-8702-1e054532094b"
     }
   ],
-  "duration": 126,
-  "trailer": "8hYlB38asDY",
-  "year": 2008
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    },
+    {
+      "title": "Top 10",
+      "order": 2
+    }
+  ],
+  "budget": {
+    "value": 140,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 585,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Actor",
+        "Best Director"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 1
+  }
 }

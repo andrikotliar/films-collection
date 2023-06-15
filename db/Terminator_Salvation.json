@@ -1,46 +1,73 @@
 {
   "id": "6d703b6d-475b-4b66-aaf3-9300b965697c",
+  "type": [
+    "Film"
+  ],
   "title": "Terminator: Salvation",
   "poster": "terminator_4",
+  "trailer": "-Czz-TcWCkA",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "In 2018, a mysterious new weapon in the war against the machines, half-human and half-machine, comes to John Connor on the eve of a resistance attack on Skynet. But whose side is he on, and can he be trusted?",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "McG"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "John Brancato"
+        },
+        {
+          "name": "Michael Ferris"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Derek Anderson"
+        },
+        {
+          "name": "Moritz Borman"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Danny Elfman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Shane Hurlbut"
+        }
+      ]
+    }
+  ],
+  "year": 2009,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Columbia Pictures",
     "The Halcyon Company"
   ],
-  "directedBy": [
-    "McG"
-  ],
-  "producedBy": "Derek Anderson, Moritz Borman",
-  "writtenBy": "John Brancato, Michael Ferris",
-  "musicBy": "Danny Elfman",
-  "cinematographyBy": "Shane Hurlbut",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 200,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 371,
-    "suffix": "million"
-  },
-  "synopsis": "In 2018, a mysterious new weapon in the war against the machines, half-human and half-machine, comes to John Connor on the eve of a resistance attack on Skynet. But whose side is he on, and can he be trusted?",
-  "collections": [
-    {
-      "name": "Robots"
-    }
-  ],
-  "parts": {
-    "title": "The Terminator",
-    "part": 3
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 115,
   "cast": [
     {
       "character": {
@@ -92,7 +119,21 @@
       "actorId": "9bf5d841-f49e-492d-b248-b6d73f76e41e"
     }
   ],
-  "duration": 115,
-  "trailer": "-Czz-TcWCkA",
-  "year": 2009
+  "collections": [
+    {
+      "title": "Robots"
+    }
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 371,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "The Terminator",
+    "part": 3
+  }
 }

@@ -1,46 +1,76 @@
 {
   "id": "2d243721-b212-4886-866d-2ac1990c71b0",
+  "type": [
+    "Film"
+  ],
   "title": "Shang-Chi and the Legend of the Ten Rings",
   "poster": "shang_chi",
+  "trailer": "COGg-Vjauwo",
   "genres": [
     "Fantasy",
     "Action"
+  ],
+  "synopsis": "Shang-Chi, the master of unarmed weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Destin Daniel Cretton"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Dave Callaham"
+        },
+        {
+          "name": "Destin Daniel Cretton"
+        },
+        {
+          "name": "Andrew Lanham"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        },
+        {
+          "name": "Jonathan Schwartz"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Joel P. West"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Bill Pope"
+        }
+      ]
+    }
+  ],
+  "year": 2021,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "directedBy": [
-    "Destin Daniel Cretton"
-  ],
-  "producedBy": "Kevin Feige, Jonathan Schwartz",
-  "writtenBy": "Dave Callaham,  Destin Daniel Cretton, Andrew Lanham",
-  "musicBy": "Joel P. West",
-  "cinematographyBy": "Bill Pope",
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 430,
-    "suffix": "million"
-  },
-  "countries": [
-    "USA"
-  ],
-  "synopsis": "Shang-Chi, the master of unarmed weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization.",
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 27
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 132,
   "cast": [
     {
       "character": {
@@ -106,7 +136,21 @@
       "actorId": "f5bf20de-40fb-498f-a1c0-8c86823769be"
     }
   ],
-  "duration": 132,
-  "trailer": "COGg-Vjauwo",
-  "year": 2021
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 150,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 430,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 27
+  }
 }

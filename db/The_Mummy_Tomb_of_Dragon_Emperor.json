@@ -1,45 +1,72 @@
 {
   "id": "d68ee013-ecdb-48e5-87ea-677226bef433",
+  "type": [
+    "Film"
+  ],
   "title": "The Mummy: Tomb of Dragon Emperor",
   "poster": "mummy_3",
+  "trailer": "5-4qSE2Ch0Y",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "Universal Pictures"
+  "synopsis": "In the Far East, Alex O'Connell, the son of famed mummy fighters Rick and Evy O'Connell, unearths the mummy of the first Emperor of Qin -- a shape-shifting entity cursed by a witch centuries ago.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Rob Cohen"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Alfred Gough"
+        },
+        {
+          "name": "Miles Millar"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Stephen Sommers"
+        },
+        {
+          "name": "Sean Daniel"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Randy Edelman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Simon Duggan"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Rob Cohen"
-  ],
-  "producedBy": "Stephen Sommers, Sean Daniel",
-  "writtenBy": "Alfred Gough, Miles Millar",
-  "musicBy": "Randy Edelman",
-  "cinematographyBy": "Simon Duggan",
+  "year": 2008,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 145,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 401,
-    "suffix": "million"
-  },
-  "synopsis": "In the Far East, Alex O'Connell, the son of famed mummy fighters Rick and Evy O'Connell, unearths the mummy of the first Emperor of Qin -- a shape-shifting entity cursed by a witch centuries ago.",
-  "collections": [
-    {
-      "name": "Mysteries of the Past"
-    }
+  "production": [
+    "Universal Pictures"
   ],
-  "parts": {
-    "title": "The Mummy",
-    "part": 3
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 112,
   "cast": [
     {
       "character": {
@@ -112,7 +139,21 @@
       "actorId": "5f2d9342-c192-478c-93c5-92dce2e87141"
     }
   ],
-  "duration": 112,
-  "trailer": "5-4qSE2Ch0Y",
-  "year": 2008
+  "collections": [
+    {
+      "title": "Mysteries of the Past"
+    }
+  ],
+  "budget": {
+    "value": 145,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 401,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "The Mummy",
+    "part": 3
+  }
 }

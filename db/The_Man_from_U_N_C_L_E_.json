@@ -1,42 +1,79 @@
 {
   "id": "d95febc0-881b-4bba-924c-81be66957d6a",
+  "type": [
+    "Film"
+  ],
   "title": "The Man from U.N.C.L.E.",
   "poster": "the_man_from_uncle",
+  "trailer": "CzYRlISYE8Y",
   "genres": [
     "Action",
     "Comedy"
   ],
-  "production": [
-    "Warner Bros. Pictures"
+  "synopsis": "In the early 1960s, CIA agent Napoleon Solo and KGB operative Illya Kuryakin participate in a joint mission against a mysterious criminal organization, which is working to proliferate nuclear weapons.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Guy Ritchie"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Guy Ritchie"
+        },
+        {
+          "name": "Lionel Wigram"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Steve Clark-Hall"
+        },
+        {
+          "name": "John Davis"
+        },
+        {
+          "name": "Guy Ritchie"
+        },
+        {
+          "name": "Lionel Wigram"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Daniel Pemberton"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "John Mathieson"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Guy Ritchie"
-  ],
-  "producedBy": "Steve Clark-Hall, John Davis, Guy Ritchie, Lionel Wigram",
-  "writtenBy": "Guy Ritchie, Lionel Wigram",
-  "musicBy": "Daniel Pemberton",
-  "cinematographyBy": "John Mathieson",
+  "year": 2015,
   "countries": [
     "USA",
     "UK"
   ],
-  "budget": {
-    "value": 75,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 107,
-    "suffix": "million"
-  },
-  "synopsis": "In the early 1960s, CIA agent Napoleon Solo and KGB operative Illya Kuryakin participate in a joint mission against a mysterious criminal organization, which is working to proliferate nuclear weapons.",
-  "collections": [
-    {
-      "name": "Agents and Detectives"
-    }
+  "production": [
+    "Warner Bros. Pictures"
   ],
-  "type": [
-    "Film"
-  ],
+  "duration": 116,
   "cast": [
     {
       "character": {
@@ -88,7 +125,17 @@
       "actorId": "8bd6fd5a-fca2-4544-8309-7755b2b48424"
     }
   ],
-  "duration": 116,
-  "trailer": "CzYRlISYE8Y",
-  "year": 2015
+  "collections": [
+    {
+      "title": "Agents and Detectives"
+    }
+  ],
+  "budget": {
+    "value": 75,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 107,
+    "suffix": "million"
+  }
 }

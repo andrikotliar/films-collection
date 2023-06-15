@@ -1,94 +1,67 @@
 {
   "id": "3ee02627-99e9-4250-a21b-4889bbd43ed9",
+  "type": [
+    "Film"
+  ],
   "title": "Star Wars Episode IV: A New Hope",
   "poster": "star_wars_episode_IV",
+  "trailer": "vZ734NWnAHA",
   "genres": [
     "SpaceOpera",
     "Adventures"
+  ],
+  "synopsis": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the evil Darth Vader.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "George Lucas"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "George Lucas"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Gary Kurtz"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Gilbert Taylor"
+        }
+      ]
+    }
+  ],
+  "year": 1977,
+  "countries": [
+    "USA"
   ],
   "production": [
     "20th Century FOX",
     "Lucasfilm"
   ],
-  "directedBy": [
-    "George Lucas"
-  ],
-  "producedBy": "Gary Kurtz",
-  "writtenBy": "George Lucas",
-  "musicBy": "John Williams",
-  "cinematographyBy": "Gilbert Taylor",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 11,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 775,
-    "suffix": "million"
-  },
-  "synopsis": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the evil Darth Vader.",
-  "collections": [
-    {
-      "name": "Star Wars Universe"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Art Direction-Set Decoration",
-        "Best Costume Design",
-        "Best Sound",
-        "Best Film Editing",
-        "Best Visual Effects"
-      ]
-    },
-    {
-      "title": "Golden Globes",
-      "nominations": [
-        "Best Original Score - Motion Picture"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Sound"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best DVD Collection",
-        "Best Science Fiction Film",
-        "Best Supporting Actor",
-        "Best Director",
-        "Best Writing",
-        "Best Music",
-        "Best Costumes",
-        "Best Make-Up",
-        "Best Special Effects",
-        "Outstanding Editing",
-        "Outstanding Sound",
-        "Outstanding Art Direction",
-        "Outstanding Set Decoration"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Lifetime Achievement"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Star Wars Universe",
-    "part": 6
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 121,
   "cast": [
     {
       "character": {
@@ -154,7 +127,69 @@
       "actorId": "4e9f83a6-617f-441f-b2a8-d030470d53a1"
     }
   ],
-  "duration": 121,
-  "trailer": "vZ734NWnAHA",
-  "year": 1977
+  "collections": [
+    {
+      "title": "Star Wars Universe"
+    }
+  ],
+  "budget": {
+    "value": 11,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 775,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Art Direction-Set Decoration",
+        "Best Costume Design",
+        "Best Sound",
+        "Best Film Editing",
+        "Best Visual Effects"
+      ]
+    },
+    {
+      "title": "Golden Globes",
+      "nominations": [
+        "Best Original Score - Motion Picture"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Sound"
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best DVD Collection",
+        "Best Science Fiction Film",
+        "Best Supporting Actor",
+        "Best Director",
+        "Best Writing",
+        "Best Music",
+        "Best Costumes",
+        "Best Make-Up",
+        "Best Special Effects",
+        "Outstanding Editing",
+        "Outstanding Sound",
+        "Outstanding Art Direction",
+        "Outstanding Set Decoration"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Lifetime Achievement"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Star Wars Universe",
+    "part": 6
+  }
 }

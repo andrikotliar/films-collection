@@ -1,46 +1,76 @@
 {
   "id": "092065ff-ebf9-40fd-9e81-15966def563c",
+  "type": [
+    "Film"
+  ],
   "title": "Jurassic Park III",
   "poster": "jurassic_park_3",
+  "trailer": "gjIaV6CU0wA",
   "genres": [
     "Sci-Fi",
     "Adventures"
+  ],
+  "synopsis": "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Joe Johnston"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Peter Buchman"
+        },
+        {
+          "name": "Alexander Payne"
+        },
+        {
+          "name": "Jim Taylor"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Larry Franco"
+        },
+        {
+          "name": "Kathleen Kennedy"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Don Davis"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Shelly Johnson"
+        }
+      ]
+    }
+  ],
+  "year": 2001,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Universal Pictures",
     "Amblin Entertainment"
   ],
-  "directedBy": [
-    "Joe Johnston"
-  ],
-  "producedBy": "Larry Franco, Kathleen Kennedy",
-  "writtenBy": "Peter Buchman, Alexander Payne, Jim Taylor",
-  "musicBy": "Don Davis",
-  "cinematographyBy": "Shelly Johnson",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 93,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 368,
-    "suffix": "million"
-  },
-  "synopsis": "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants.",
-  "collections": [
-    {
-      "name": "Monsters"
-    }
-  ],
-  "parts": {
-    "title": "Jurassic Park",
-    "part": 3
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 92,
   "cast": [
     {
       "character": {
@@ -78,7 +108,21 @@
       "actorId": "763834a2-a2c4-4267-b4d2-fccaac6bc9c5"
     }
   ],
-  "duration": 92,
-  "trailer": "gjIaV6CU0wA",
-  "year": 2001
+  "collections": [
+    {
+      "title": "Monsters"
+    }
+  ],
+  "budget": {
+    "value": 93,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 368,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Jurassic Park",
+    "part": 3
+  }
 }

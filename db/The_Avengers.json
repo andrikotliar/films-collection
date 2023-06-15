@@ -1,65 +1,67 @@
 {
   "id": "2332489a-d78b-454c-b470-a02e20b5be8d",
+  "type": [
+    "Film"
+  ],
   "title": "The Avengers",
   "poster": "avengers_1",
+  "trailer": "hIR8Ar-Z4hw",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Joss Whedon"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Joss Whedon"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Alan Silvestri"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Seamus McGarvey"
+        }
+      ]
+    }
+  ],
+  "year": 2012,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "directedBy": [
-    "Joss Whedon"
-  ],
-  "producedBy": "Kevin Feige",
-  "writtenBy": "Joss Whedon",
-  "musicBy": "Alan Silvestri",
-  "cinematographyBy": "Seamus McGarvey",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 220,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.52,
-    "suffix": "billion"
-  },
-  "synopsis": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Science Fiction Film",
-        "Best Supporting Actor (Clark Gregg)",
-        "Best Director",
-        "Best Special Effects"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Movie of the Year",
-        "Best Villain",
-        "Best Fight"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 6
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 143,
   "cast": [
     {
       "character": {
@@ -153,7 +155,40 @@
       "actorId": "7a77d424-0788-4e65-9596-e60d483cf264"
     }
   ],
-  "duration": 143,
-  "trailer": "hIR8Ar-Z4hw",
-  "year": 2012
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": {
+    "value": 220,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.52,
+    "suffix": "billion"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Science Fiction Film",
+        "Best Supporting Actor (Clark Gregg)",
+        "Best Director",
+        "Best Special Effects"
+      ]
+    },
+    {
+      "title": "MTV Movie Award",
+      "nominations": [
+        "Movie of the Year",
+        "Best Villain",
+        "Best Fight"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 6
+  }
 }

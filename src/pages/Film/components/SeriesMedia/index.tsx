@@ -1,6 +1,5 @@
 import './styles.css';
 import { FC, useState } from 'react';
-import classNames from 'classnames';
 import FilmMedia from '../FilmMedia';
 import { Season } from '@/types';
 import { ResizableButton } from '@/components';
@@ -8,18 +7,10 @@ import { ResizableButton } from '@/components';
 type SeriesMediaProps = {
   seasons: Season[];
   title: string;
-  poster: string;
 }
 
-const SeriesMedia: FC<SeriesMediaProps> = ({ seasons, title, poster }) => {
+const SeriesMedia: FC<SeriesMediaProps> = ({ seasons, title }) => {
   const [selectedSeason, setSelectedSeason] = useState(0);
-
-  const getPoster = (selectedSeason: number) => {
-    if(selectedSeason === 0) {
-      return poster;
-    } 
-    return `${poster}_s${selectedSeason + 1}`;
-  };
 
   return (
     <div className="series-media">
@@ -36,7 +27,7 @@ const SeriesMedia: FC<SeriesMediaProps> = ({ seasons, title, poster }) => {
         ))}
       </div>
       <FilmMedia
-        poster={getPoster(selectedSeason)}
+        poster={seasons[selectedSeason].poster}
         title={title}
         trailer={seasons[selectedSeason].trailer}
       />

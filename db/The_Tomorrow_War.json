@@ -1,45 +1,82 @@
 {
   "id": "383380f9-6359-453f-8d69-4ed5aedf6d6c",
+  "type": [
+    "Film"
+  ],
   "title": "The Tomorrow War",
   "poster": "tomorrow_war",
+  "trailer": "QPistcpGB8o",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "A family man is drafted to fight in a future war where the fate of humanity relies on his ability to confront the past.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Chris McKay"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Zach Dean"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Jules Daly"
+        },
+        {
+          "name": "David Ellison"
+        },
+        {
+          "name": "Dana Goldberg"
+        },
+        {
+          "name": "David S. Goyer"
+        },
+        {
+          "name": "Don Granger"
+        },
+        {
+          "name": "Adam Kolbrenner"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Lorne Balfe"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Larry Fong"
+        }
+      ]
+    }
+  ],
+  "year": 2021,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Paramount Pictures",
     "Amazon Prime"
   ],
-  "directedBy": [
-    "Chris McKay"
-  ],
-  "producedBy": "Jules Daly, David Ellison, Dana Goldberg, David S. Goyer, Don Granger, Adam Kolbrenner",
-  "writtenBy": "Zach Dean",
-  "musicBy": "Lorne Balfe",
-  "cinematographyBy": "Larry Fong",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 200,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 14,
-    "suffix": "million"
-  },
-  "synopsis": "A family man is drafted to fight in a future war where the fate of humanity relies on his ability to confront the past.",
-  "collections": [
-    {
-      "name": "Invasion"
-    },
-    {
-      "name": "Future"
-    }
-  ],
-  "type": [
-    "Film"
-  ],
+  "duration": 138,
   "cast": [
     {
       "character": {
@@ -91,7 +128,20 @@
       "actorId": "b3679bc1-4677-47a4-8654-f3febe103eb1"
     }
   ],
-  "duration": 138,
-  "trailer": "QPistcpGB8o",
-  "year": 2021
+  "collections": [
+    {
+      "title": "Invasion"
+    },
+    {
+      "title": "Future"
+    }
+  ],
+  "budget": {
+    "value": 200,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 14,
+    "suffix": "million"
+  }
 }

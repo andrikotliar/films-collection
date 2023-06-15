@@ -1,22 +1,22 @@
+import { FilmData } from '@/types';
 import { FC } from 'react';
-import KeyValues from '../KeyValues';
-import { GeneralFilm } from '@/types';
+import ExtraDetailsItem from '@/pages/Film/components/ExtraDetailsItem';
 
-const ExtraDetails: FC<{ filmData: GeneralFilm }> = ({ filmData }) => {
-  const collections = filmData.collections.map((collection) => collection.name);
+const ExtraDetails: FC<{ filmData: FilmData }> = ({ filmData }) => {
+  const collections = filmData.collections.map((collection) => collection.title);
   return (
     <div className="details-group">
-      <KeyValues
+      <ExtraDetailsItem
         title="Countries"
         values={filmData.countries}
         linkParameter="countries"
       />
-      <KeyValues
+      <ExtraDetailsItem
         title="Production"
         values={filmData.production}
         linkParameter="production"
       />
-      <KeyValues
+      <ExtraDetailsItem
         title="Collections"
         values={collections}
         linkParameter="collections"

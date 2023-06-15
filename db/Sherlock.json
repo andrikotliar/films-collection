@@ -1,5 +1,8 @@
 {
   "id": "21853ed2-e0ee-4377-ba54-881b0ac9ea7a",
+  "type": [
+    "Series"
+  ],
   "title": "Sherlock",
   "poster": "sherlock",
   "genres": [
@@ -7,156 +10,123 @@
     "Drama",
     "Thriller"
   ],
-  "production": [
-    "BBC One"
-  ],
-  "directedBy": [
-    "Mark Gatiss",
-    "Steven Moffat"
-  ],
-  "producedBy": "Sue Vertue, Elaine Cameron",
-  "musicBy": "David Arnold, Michael Price",
-  "cinematographyBy": "Fabian Wagner, Steve Lawes",
-  "countries": [
-    "UK"
-  ],
   "synopsis": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
-  "collections": [
+  "crew": [
     {
-      "name": "Agents and Detectives"
-    }
-  ],
-  "awards": [
+      "role": "Created by",
+      "people": [
+        {
+          "name": "Mark Gatiss"
+        },
+        {
+          "name": "Steven Moffat"
+        }
+      ]
+    },
     {
-      "title": "Emmy",
-      "nominations": [
-        "Outstanding Television Movie",
-        "Outstanding Special Visual Effects in a Supporting Role",
-        "Outstanding Lead Actor in a Miniseries or a Movie",
-        "Outstanding Supporting Actor in a Miniseries or a Movie",
-        "Outstanding Writing for a Miniseries or a Dramatic Special",
-        "Outstanding Cinematography for a Miniseries or Movie",
-        "Outstanding Music Composition for a Miniseries",
-        "Movie or a Special (Original Dramatic Score)",
-        "Outstanding Single-Camera Picture Editing for a Miniseries or a Movie",
-        "Outstanding Sound Editing for a Miniseries",
-        "Movie or a Special"
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Paul McGuigan",
+          "comment": "4 episodes"
+        },
+        {
+          "name": "Euros Lyn",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Toby Haynes",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Jeremy Lovering",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Colm McCarthy",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Nick Hurran",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Rachel Talalay",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Benjamin Caron",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Coky Giedroyc",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Douglas Mackinnon",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Steven Moffat",
+          "comment": "9 episodes"
+        },
+        {
+          "name": "Stephen Thompson",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Mark Gatiss",
+          "comment": "8 episodes"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Sue Vertue"
+        },
+        {
+          "name": "Elaine Cameron"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "David Arnold"
+        },
+        {
+          "name": "Michael Price"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Fabian Wagner"
+        },
+        {
+          "name": "Steve Lawes"
+        }
       ]
     }
   ],
-  "type": [
-    "Series"
+  "year": 2010,
+  "countries": [
+    "UK"
   ],
-  "seasons": [
-    {
-      "season": 1,
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "A Study in Pink",
-          "directedBy": "Paul McGuigan",
-          "writtenBy": "Steven Moffat"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "The Blind Banker",
-          "directedBy": "Euros Lyn",
-          "writtenBy": "Stephen Thompson"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "The Great Game",
-          "directedBy": "Paul McGuigan",
-          "writtenBy": "Mark Gatiss"
-        }
-      ],
-      "trailer": "xK7S9mrFWL4"
-    },
-    {
-      "season": 2,
-      "episodes": [
-        {
-          "episodeOverall": 4,
-          "episode": 1,
-          "title": "A Scandal in Belgravia",
-          "directedBy": "Paul McGuigan",
-          "writtenBy": "Steven Moffat"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 2,
-          "title": "The Hounds of Baskerville",
-          "directedBy": "Paul McGuigan",
-          "writtenBy": "Mark Gatiss"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 3,
-          "title": "The Reichenbach Fall",
-          "directedBy": "Toby Haynes",
-          "writtenBy": "Stephen Thompson"
-        }
-      ],
-      "trailer": "vydmN9pzDzg"
-    },
-    {
-      "season": 3,
-      "episodes": [
-        {
-          "episodeOverall": 7,
-          "episode": 1,
-          "title": "The Empty Hearse",
-          "directedBy": "Jeremy Lovering",
-          "writtenBy": "Mark Gatiss"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 2,
-          "title": "The Sign of Three",
-          "directedBy": "Colm McCarthy",
-          "writtenBy": "Stephen Thompson, Steven Moffat, Mark Gatiss"
-        },
-        {
-          "episodeOverall": 9,
-          "episode": 3,
-          "title": "His Last Vow",
-          "directedBy": "Nick Hurran",
-          "writtenBy": "Steven Moffat"
-        }
-      ],
-      "trailer": "9UcR9iKArd0"
-    },
-    {
-      "season": 4,
-      "episodes": [
-        {
-          "episodeOverall": 11,
-          "episode": 1,
-          "title": "The Six Thatchers",
-          "directedBy": "Rachel Talalay",
-          "writtenBy": "Mark Gatiss"
-        },
-        {
-          "episodeOverall": 12,
-          "episode": 2,
-          "title": "The Lying Detective",
-          "directedBy": "Nick Hurran",
-          "writtenBy": "Steven Moffat"
-        },
-        {
-          "episodeOverall": 13,
-          "episode": 3,
-          "title": "The Final Problem",
-          "directedBy": "Benjamin Caron",
-          "writtenBy": "Mark Gatiss, Steven Moffat"
-        }
-      ],
-      "trailer": "FOXZgRTfSUA"
-    }
+  "production": [
+    "BBC One"
   ],
+  "duration": 1020,
   "cast": [
     {
       "character": {
@@ -215,6 +185,121 @@
       "actorId": "3df8cd50-093e-4edb-a3d3-b6e4b282a9ec"
     }
   ],
-  "duration": 1020,
-  "year": 2010
+  "collections": [
+    {
+      "title": "Agents and Detectives"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Emmy",
+      "nominations": [
+        "Outstanding Television Movie",
+        "Outstanding Special Visual Effects in a Supporting Role",
+        "Outstanding Lead Actor in a Miniseries or a Movie",
+        "Outstanding Supporting Actor in a Miniseries or a Movie",
+        "Outstanding Writing for a Miniseries or a Dramatic Special",
+        "Outstanding Cinematography for a Miniseries or Movie",
+        "Outstanding Music Composition for a Miniseries",
+        "Movie or a Special (Original Dramatic Score)",
+        "Outstanding Single-Camera Picture Editing for a Miniseries or a Movie",
+        "Outstanding Sound Editing for a Miniseries",
+        "Movie or a Special"
+      ]
+    }
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "trailer": "xK7S9mrFWL4",
+      "year": 2010,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "A Study in Pink"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "The Blind Banker"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "The Great Game"
+        }
+      ],
+      "poster": "sherlock"
+    },
+    {
+      "season": 2,
+      "trailer": "vydmN9pzDzg",
+      "year": 2012,
+      "episodes": [
+        {
+          "episodeOverall": 4,
+          "episode": 1,
+          "title": "A Scandal in Belgravia"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 2,
+          "title": "The Hounds of Baskerville"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 3,
+          "title": "The Reichenbach Fall"
+        }
+      ],
+      "poster": "sherlock_s2"
+    },
+    {
+      "season": 3,
+      "trailer": "9UcR9iKArd0",
+      "year": 2014,
+      "episodes": [
+        {
+          "episodeOverall": 7,
+          "episode": 1,
+          "title": "The Empty Hearse"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 2,
+          "title": "The Sign of Three"
+        },
+        {
+          "episodeOverall": 9,
+          "episode": 3,
+          "title": "His Last Vow"
+        }
+      ],
+      "poster": "sherlock_s3"
+    },
+    {
+      "season": 4,
+      "trailer": "FOXZgRTfSUA",
+      "year": 2017,
+      "episodes": [
+        {
+          "episodeOverall": 11,
+          "episode": 1,
+          "title": "The Six Thatchers"
+        },
+        {
+          "episodeOverall": 12,
+          "episode": 2,
+          "title": "The Lying Detective"
+        },
+        {
+          "episodeOverall": 13,
+          "episode": 3,
+          "title": "The Final Problem"
+        }
+      ],
+      "poster": "sherlock_s4"
+    }
+  ]
 }

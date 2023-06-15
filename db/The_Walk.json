@@ -1,40 +1,74 @@
 {
   "id": "15f6b446-2cd0-42c3-bba1-c69936c25944",
+  "type": [
+    "Film"
+  ],
   "title": "The Walk",
   "poster": "walk",
+  "trailer": "4W6byFcD5uE",
   "genres": [
     "Adventures"
+  ],
+  "synopsis": "In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream: to walk the immense void between the World Trade Center towers.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Robert Zemeckis"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Robert Zemeckis"
+        },
+        {
+          "name": "Christopher Browne"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Jack Rapke"
+        },
+        {
+          "name": "Steve Starkey"
+        },
+        {
+          "name": "Robert Zemeckis"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Alan Silvestri"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Dariusz Wolski"
+        }
+      ]
+    }
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Sony Pictures Entertainment"
   ],
-  "directedBy": [
-    "Robert Zemeckis"
-  ],
-  "producedBy": "Jack Rapke, Steve Starkey, Robert Zemeckis",
-  "writtenBy": "Robert Zemeckis, Christopher Browne",
-  "musicBy": "Alan Silvestri",
-  "cinematographyBy": "Dariusz Wolski",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 35,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 61,
-    "suffix": "million"
-  },
-  "synopsis": "In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream: to walk the immense void between the World Trade Center towers.",
-  "collections": [
-    {
-      "name": "True Story"
-    }
-  ],
-  "type": [
-    "Film"
-  ],
+  "duration": 123,
   "cast": [
     {
       "character": {
@@ -100,7 +134,17 @@
       "actorId": "a77201be-537a-4b2c-a15e-c9cc2716da41"
     }
   ],
-  "duration": 123,
-  "trailer": "4W6byFcD5uE",
-  "year": 2015
+  "collections": [
+    {
+      "title": "True Story"
+    }
+  ],
+  "budget": {
+    "value": 35,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 61,
+    "suffix": "million"
+  }
 }

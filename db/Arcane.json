@@ -1,106 +1,107 @@
 {
   "id": "1716127b-8b92-46d9-8846-087499224d89",
+  "type": [
+    "Series",
+    "Animation"
+  ],
   "title": "Arcane",
   "poster": "arcane",
   "genres": [
     "Adventures",
     "Action"
   ],
-  "production": [
-    "Netflix",
-    "Riot Games"
+  "synopsis": "Set in utopian Piltover and the oppressed underground of Zaun, the story follows the origins of two iconic League champions-and the power that will tear them apart.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Pascal Charrue"
+        },
+        {
+          "name": "Arnaud Delord"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Christian Linke",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Ash Brannon",
+          "comment": "1 episode"
+        },
+        {
+          "name": "David Dunne",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Amanda Overton",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Alex Yee",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Nick Luddington",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Ben St. John",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Mollie Bickley St. John",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Christian Linke"
+        },
+        {
+          "name": "Marc Merill"
+        },
+        {
+          "name": "Brandon Beck"
+        },
+        {
+          "name": "Jane Chung"
+        },
+        {
+          "name": "Thomas Vu"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Alex Seaver"
+        },
+        {
+          "name": "Alexander Temple"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Christian Linke",
-    "Alex Yee"
-  ],
-  "producedBy": "Christian Linke, Marc Merill, Brandon Beck, Jane Chung, Thomas Vu",
-  "musicBy": "Alex Seaver, Alexander Temple",
+  "year": 2021,
   "countries": [
     "USA",
     "France"
   ],
-  "synopsis": "Set in utopian Piltover and the oppressed underground of Zaun, the story follows the origins of two iconic League champions-and the power that will tear them apart.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
+  "production": [
+    "Netflix",
+    "Riot Games"
   ],
-  "type": [
-    "Series",
-    "Animation"
-  ],
-  "seasons": [
-    {
-      "season": 1,
-      "episodes": [
-        {
-          "episode": 1,
-          "episodeOverall": 1,
-          "title": "Welcome to the Playground",
-          "directedBy": "Pascal Charrue, Arnaud Delord",
-          "writtenBy": "Christian Linke, Alex Yee"
-        },
-        {
-          "episode": 2,
-          "episodeOverall": 2,
-          "title": "Some Mysteries Are Better Left Unsolved",
-          "directedBy": "Pascal Charrue, Arnaud Delord",
-          "writtenBy": "Christian Linke, Alex Yee"
-        },
-        {
-          "episode": 3,
-          "episodeOverall": 3,
-          "title": "The Base Violence Necessary for Change",
-          "directedBy": "Pascal Charrue, Arnaud Delord",
-          "writtenBy": "Ash Brannon"
-        },
-        {
-          "episode": 4,
-          "episodeOverall": 4,
-          "title": "Happy Progress Day!",
-          "directedBy": "Pascal Charrue, Arnaud Delord",
-          "writtenBy": "David Dunne"
-        },
-        {
-          "episode": 5,
-          "episodeOverall": 5,
-          "title": "Everybody Wants to Be My Enemy",
-          "directedBy": "Pascal Charrue, Arnaud Delord",
-          "writtenBy": "Amanda Overton"
-        },
-        {
-          "episode": 6,
-          "episodeOverall": 6,
-          "title": "When These Walls Come Tumbling Down",
-          "directedBy": "Pascal Charrue, Arnaud Delord",
-          "writtenBy": "Alex Yee"
-        },
-        {
-          "episode": 7,
-          "episodeOverall": 7,
-          "title": "The Boy Saviour",
-          "directedBy": "Pascal Charrue, Arnaud Delord",
-          "writtenBy": "Nick Luddington"
-        },
-        {
-          "episode": 8,
-          "episodeOverall": 8,
-          "title": "Oil and Water",
-          "directedBy": "Pascal Charrue, Arnaud Delord",
-          "writtenBy": "Ben St. John, Mollie St. John"
-        },
-        {
-          "episode": 9,
-          "episodeOverall": 9,
-          "title": "The Monster You Created",
-          "directedBy": "Pascal Charrue, Arnaud Delord",
-          "writtenBy": "Christian Linke, Alex Yee"
-        }
-      ],
-      "trailer": "3Svs_hl897c"
-    }
-  ],
+  "duration": 410,
   "cast": [
     {
       "character": {
@@ -180,6 +181,64 @@
       "actorId": "38b319e3-5be2-4d16-928f-53b584d34b52"
     }
   ],
-  "duration": 410,
-  "year": 2021
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "seasons": [
+    {
+      "season": 1,
+      "trailer": "3Svs_hl897c",
+      "year": 2021,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "Welcome to the Playground"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Some Mysteries Are Better Left Unsolved"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "The Base Violence Necessary for Change"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "Happy Progress Day!"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Everybody Wants to Be My Enemy"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "When These Walls Come Tumbling Down"
+        },
+        {
+          "episodeOverall": 7,
+          "episode": 7,
+          "title": "The Boy Saviour"
+        },
+        {
+          "episodeOverall": 8,
+          "episode": 8,
+          "title": "Oil and Water"
+        },
+        {
+          "episodeOverall": 9,
+          "episode": 9,
+          "title": "The Monster You Created"
+        }
+      ],
+      "poster": "arcane"
+    }
+  ]
 }

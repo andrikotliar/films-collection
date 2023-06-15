@@ -1,56 +1,75 @@
 {
   "id": "3abf05f6-5972-490e-b20a-85d69655e4f8",
+  "type": [
+    "Film"
+  ],
   "title": "The Hunger Games: Mockingjay - Part 2",
   "poster": "hunger_games_4",
+  "trailer": "n-7K_OjsDCQ",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "production": [
-    "Lionsgate"
+  "synopsis": "Katniss and a team of rebels from District 13 prepare for the final battle that will decide the fate of Panem.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Francis Lawrence"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Peter Craig"
+        },
+        {
+          "name": "Danny Strong"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Nina Jacobson"
+        },
+        {
+          "name": "Jon Kilik"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "James Newton Howard"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Jo Willems"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Francis Lawrence"
-  ],
-  "producedBy": "Nina Jacobson, Jon Kilik",
-  "writtenBy": "Peter Craig, Danny Strong",
-  "musicBy": "James Newton Howard",
-  "cinematographyBy": "Jo Willems",
+  "year": 2015,
   "countries": [
     "USA",
     "Germany",
     "Canada",
     "France"
   ],
-  "budget": {
-    "value": 160,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 658,
-    "suffix": "million"
-  },
-  "synopsis": "Katniss and a team of rebels from District 13 prepare for the final battle that will decide the fate of Panem.",
-  "collections": [
-    {
-      "name": "Dystopia"
-    }
+  "production": [
+    "Lionsgate"
   ],
-  "awards": [
-    {
-      "title": "MTV Movie Awards",
-      "nominations": [
-        "Best Hero (2015)"
-      ]
-    }
-  ],
-  "parts": {
-    "title": "The Hunger Games",
-    "part": 4
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 137,
   "cast": [
     {
       "character": {
@@ -109,7 +128,29 @@
       "actorId": "7f0b81c7-b4b8-45fc-8945-2f3a6fbdf7f8"
     }
   ],
-  "duration": 137,
-  "trailer": "n-7K_OjsDCQ",
-  "year": 2015
+  "collections": [
+    {
+      "title": "Dystopia"
+    }
+  ],
+  "budget": {
+    "value": 160,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 658,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "MTV Movie Awards",
+      "nominations": [
+        "Best Hero (2015)"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Hunger Games",
+    "part": 4
+  }
 }

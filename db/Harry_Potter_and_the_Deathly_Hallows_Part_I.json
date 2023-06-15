@@ -1,46 +1,73 @@
 {
   "id": "d298763b-6a45-4a00-8bbd-7b271f99134f",
+  "type": [
+    "Film"
+  ],
   "title": "Harry Potter and the Deathly Hallows: Part I",
   "poster": "harry_potter_7",
+  "trailer": "MxqsmsA8y5k",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "Warner Bros. Pictures"
+  "synopsis": "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "David Yates"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Steve Kloves"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "David Heyman"
+        },
+        {
+          "name": "David Barron"
+        },
+        {
+          "name": "J.K.Rowling"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Alexandre Desplat"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Eduardo Serra"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "David Yates"
-  ],
-  "producedBy": "David Heyman, David Barron, J.K.Rowling",
-  "writtenBy": "Steve Kloves",
-  "musicBy": "Alexandre Desplat",
-  "cinematographyBy": "Eduardo Serra",
+  "year": 2010,
   "countries": [
     "USA",
     "UK"
   ],
-  "budget": {
-    "value": 250,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 960,
-    "suffix": "million"
-  },
-  "synopsis": "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows.",
-  "collections": [
-    {
-      "name": "Harry Potter Universe"
-    }
+  "production": [
+    "Warner Bros. Pictures"
   ],
-  "parts": {
-    "title": "Harry Potter Universe",
-    "part": 9
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 146,
   "cast": [
     {
       "character": {
@@ -99,7 +126,21 @@
       "actorId": "cf40a9cd-4f18-4a84-93a8-6267385b2a87"
     }
   ],
-  "duration": 146,
-  "trailer": "MxqsmsA8y5k",
-  "year": 2010
+  "collections": [
+    {
+      "title": "Harry Potter Universe"
+    }
+  ],
+  "budget": {
+    "value": 250,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 960,
+    "suffix": "million"
+  },
+  "parts": {
+    "title": "Harry Potter Universe",
+    "part": 9
+  }
 }

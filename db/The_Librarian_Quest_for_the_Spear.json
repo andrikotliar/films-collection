@@ -1,37 +1,69 @@
 {
   "id": "648dab46-2bd5-4daa-820b-7d8f05237f63",
+  "type": [
+    "Film"
+  ],
   "title": "The Librarian: Quest for the Spear",
   "poster": "librarian_1",
+  "trailer": "_LsPz8vCULE",
   "genres": [
     "Adventures",
     "Fantasy"
   ],
-  "production": [
-    "TNT"
+  "synopsis": "A bookworm becomes the librarian. Same night a magical spear gets stolen and he's off to get some real life experience around the globe on his quest for the spear - starting with being thrown off a plane over Amazonas by his cute helper.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Peter Winther"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "David Titcher"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Phillip M. Goldfarb"
+        },
+        {
+          "name": "Gary Hamilton"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Joseph LoDuca"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Alan Caso"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Peter Winther"
-  ],
-  "producedBy": "Phillip M. Goldfarb, Gary Hamilton",
-  "writtenBy": "David Titcher",
-  "musicBy": "Joseph LoDuca",
-  "cinematographyBy": "Alan Caso",
+  "year": 2004,
   "countries": [
     "USA"
   ],
-  "synopsis": "A bookworm becomes the librarian. Same night a magical spear gets stolen and he's off to get some real life experience around the globe on his quest for the spear - starting with being thrown off a plane over Amazonas by his cute helper.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
+  "production": [
+    "TNT"
   ],
-  "parts": {
-    "title": "The Librarian",
-    "part": 1
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 90,
   "cast": [
     {
       "character": {
@@ -97,7 +129,13 @@
       "actorId": "0aeb0252-6ba9-4897-a50d-589d6a3f50ad"
     }
   ],
-  "duration": 90,
-  "trailer": "_LsPz8vCULE",
-  "year": 2004
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "parts": {
+    "title": "The Librarian",
+    "part": 1
+  }
 }

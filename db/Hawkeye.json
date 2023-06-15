@@ -1,86 +1,111 @@
 {
   "id": "cc0a9500-a718-4cd0-b3dc-05247ce1ed71",
+  "type": [
+    "Series"
+  ],
   "title": "Hawkeye",
   "poster": "hawkeye",
   "genres": [
     "Action",
     "Crime"
   ],
-  "production": [
-    "Marvel Studios"
+  "synopsis": "Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate M. Bishop, who took on the role after the original Avenger, Clint Barton.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Rhys Thomas",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Bert",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Bertie",
+          "comment": "3 episodes"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Jonathan Igla",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Elisa Lomnitz Climent",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Katrina Mathewson",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Erin Cancino",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Jenna Noel Frazier",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Tanner Bean",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Heather Quinn",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        },
+        {
+          "name": "Trinh Tran"
+        },
+        {
+          "name": "Rhys Thomas"
+        },
+        {
+          "name": "Jonathan Igla"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Christophe Beck"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Eric Steelberg"
+        },
+        {
+          "name": "James Whitaker"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Jonathan Igla"
-  ],
-  "producedBy": "Kevin Feige, Trinh Tran, Rhys Thomas, Jonathan Igla",
-  "musicBy": "Christophe Beck",
-  "cinematographyBy": "Eric Steelberg, James Whitaker",
+  "year": 2021,
   "countries": [
     "USA"
   ],
-  "synopsis": "Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate M. Bishop, who took on the role after the original Avenger, Clint Barton.",
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 29
-  },
-  "collections": [
-    {
-      "name": "Marvel Cinematic Universe"
-    }
+  "production": [
+    "Marvel Studios"
   ],
-  "type": [
-    "Series"
-  ],
-  "seasons": [
-    {
-      "season": 1,
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "Never Meet Your Heroes",
-          "directedBy": "Rhys Thomas",
-          "writtenBy": "Jonathan Igla"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Hide, Seek",
-          "directedBy": "Rhys Thomas",
-          "writtenBy": "Elisa Climent"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Echoes",
-          "directedBy": "Bert, Bertie",
-          "writtenBy": "Katie Mathewson, Tanner Bean"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "Partners, Am I Right?",
-          "directedBy": "Bert, Bertie",
-          "writtenBy": "Erin Cancino, Heather Quinn"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Ronin",
-          "directedBy": "Bert, Bertie",
-          "writtenBy": "Jenna Noel Frazier"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "So This Is Christmas?",
-          "directedBy": "Rhys Thomas",
-          "writtenBy": "Jonathan Igla, Elisa Climent"
-        }
-      ],
-      "trailer": "5VYb3B1ETlk"
-    }
-  ],
+  "duration": 360,
   "cast": [
     {
       "character": {
@@ -97,6 +122,53 @@
       "actorId": "1a9d8258-5634-4990-bb53-f0262f587084"
     }
   ],
-  "duration": 360,
-  "year": 2021
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "parts": {
+    "title": "Marvel Cinematic Universe",
+    "part": 29
+  },
+  "seasons": [
+    {
+      "season": 1,
+      "trailer": "5VYb3B1ETlk",
+      "year": 2021,
+      "episodes": [
+        {
+          "episodeOverall": 1,
+          "episode": 1,
+          "title": "Never Meet Your Heroes"
+        },
+        {
+          "episodeOverall": 2,
+          "episode": 2,
+          "title": "Hide, Seek"
+        },
+        {
+          "episodeOverall": 3,
+          "episode": 3,
+          "title": "Echoes"
+        },
+        {
+          "episodeOverall": 4,
+          "episode": 4,
+          "title": "Partners, Am I Right?"
+        },
+        {
+          "episodeOverall": 5,
+          "episode": 5,
+          "title": "Ronin"
+        },
+        {
+          "episodeOverall": 6,
+          "episode": 6,
+          "title": "So This Is Christmas?"
+        }
+      ],
+      "poster": "hawkeye"
+    }
+  ]
 }

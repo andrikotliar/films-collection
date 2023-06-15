@@ -1,57 +1,83 @@
 {
   "id": "9d13b6af-963a-464a-b3dc-1959f53e2c1d",
+  "type": [
+    "Animation"
+  ],
   "title": "Happy Feet",
   "poster": "happy_feet",
+  "trailer": "hFUC5adf8FE",
   "genres": [
     "Musical",
     "Romance"
+  ],
+  "synopsis": "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "George Miller"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Warren Coleman"
+        },
+        {
+          "name": "John Collee"
+        },
+        {
+          "name": "George Miller"
+        },
+        {
+          "name": "Judy Morris"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Bill Miller"
+        },
+        {
+          "name": "George Miller"
+        },
+        {
+          "name": "Doug Mitchell"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Powell"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "David Peers"
+        }
+      ]
+    }
+  ],
+  "year": 2006,
+  "countries": [
+    "USA",
+    "Australia"
   ],
   "production": [
     "Warner Bros. Pictures",
     "Village Roadshow Pictures"
   ],
-  "directedBy": [
-    "George Miller"
-  ],
-  "producedBy": "Bill Miller, George Miller, Doug Mitchell",
-  "writtenBy": "Warren Coleman, John Collee, George Miller, Judy Morris",
-  "musicBy": "John Powell",
-  "cinematographyBy": "David Peers",
-  "countries": [
-    "USA",
-    "Australia"
-  ],
-  "budget": {
-    "value": 100,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 384,
-    "suffix": "million"
-  },
-  "synopsis": "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Oscar",
-      "nominations": [
-        "Best Animated Feature Film of the Year"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Animated Feature Film"
-      ]
-    }
-  ],
-  "type": [
-    "Animation"
-  ],
+  "duration": 108,
   "cast": [
     {
       "character": {
@@ -110,7 +136,31 @@
       "actorId": "9b0a7320-fca2-4be3-80a2-5d8e534860ae"
     }
   ],
-  "duration": 108,
-  "trailer": "hFUC5adf8FE",
-  "year": 2006
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 100,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 384,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Oscar",
+      "nominations": [
+        "Best Animated Feature Film of the Year"
+      ]
+    },
+    {
+      "title": "BAFTA",
+      "nominations": [
+        "Best Animated Feature Film"
+      ]
+    }
+  ]
 }

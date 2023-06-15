@@ -1,46 +1,76 @@
 {
   "id": "702e0d41-a49e-42d2-ae5a-aa95af5af8a5",
+  "type": [
+    "Film"
+  ],
   "title": "Transformers: Dark of the Moon",
   "poster": "transformers_3",
+  "trailer": "bTIrEZM-cFE",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "The Autobots learn of a Cybertronian spacecraft hidden on the moon, and race against the Decepticons to reach it and to learn its secrets.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Michael Bay"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Ehren Kruger"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Lorenzo di Bonaventura"
+        },
+        {
+          "name": "Tom DeSanto"
+        },
+        {
+          "name": "Don Murphy"
+        },
+        {
+          "name": "Ian Bryce"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Steve Jablonsky"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Amir Mokri"
+        }
+      ]
+    }
+  ],
+  "year": 2011,
+  "countries": [
+    "USA"
   ],
   "production": [
     "DreamWorks Pictures",
     "Paramount Pictures"
   ],
-  "directedBy": [
-    "Michael Bay"
-  ],
-  "producedBy": "Lorenzo di Bonaventura, Tom DeSanto, Don Murphy, Ian Bryce",
-  "writtenBy": "Ehren Kruger",
-  "musicBy": "Steve Jablonsky",
-  "cinematographyBy": "Amir Mokri",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 195,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.12,
-    "suffix": "billion"
-  },
-  "synopsis": "The Autobots learn of a Cybertronian spacecraft hidden on the moon, and race against the Decepticons to reach it and to learn its secrets.",
-  "collections": [
-    {
-      "name": "Robots"
-    }
-  ],
-  "parts": {
-    "title": "Transformers",
-    "part": 4
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 154,
   "cast": [
     {
       "character": {
@@ -127,7 +157,21 @@
       "actorId": "017b1716-0402-4820-9a10-7765a7a4c98f"
     }
   ],
-  "duration": 154,
-  "trailer": "bTIrEZM-cFE",
-  "year": 2011
+  "collections": [
+    {
+      "title": "Robots"
+    }
+  ],
+  "budget": {
+    "value": 195,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 1.12,
+    "suffix": "billion"
+  },
+  "parts": {
+    "title": "Transformers",
+    "part": 4
+  }
 }

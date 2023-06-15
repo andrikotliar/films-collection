@@ -1,53 +1,69 @@
 {
   "id": "b031a7af-87a2-425e-bc04-c4a384048e6b",
+  "type": [
+    "Film"
+  ],
   "title": "The Mummy",
   "poster": "mummy_1",
+  "trailer": "h3ptPtxWJRs",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "production": [
-    "Universal Pictures"
-  ],
-  "directedBy": [
-    "Stephen Sommers"
-  ],
-  "producedBy": "James Jacks, Sean Daniel",
-  "writtenBy": "Stephen Sommers",
-  "musicBy": "Jerry Goldsmith",
-  "cinematographyBy": "Adrian Biddle",
-  "countries": [
-    "USA"
-  ],
-  "budget": {
-    "value": 80,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 416,
-    "suffix": "million"
-  },
   "synopsis": "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreck havoc as he searches for the reincarnation of his long-lost love.",
-  "collections": [
+  "crew": [
     {
-      "name": "Mysteries of the Past"
-    }
-  ],
-  "awards": [
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Stephen Sommers"
+        }
+      ]
+    },
     {
-      "title": "Saturn",
-      "nominations": [
-        "Best Make-Up"
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Stephen Sommers"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "James Jacks"
+        },
+        {
+          "name": "Sean Daniel"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Jerry Goldsmith"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Adrian Biddle"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "The Mummy",
-    "part": 1
-  },
-  "type": [
-    "Film"
+  "year": 1999,
+  "countries": [
+    "USA"
   ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "duration": 125,
   "cast": [
     {
       "character": {
@@ -106,7 +122,29 @@
       "actorId": "29e24d4c-1c00-4a98-a9df-4328ff3b948f"
     }
   ],
-  "duration": 125,
-  "trailer": "h3ptPtxWJRs",
-  "year": 1999
+  "collections": [
+    {
+      "title": "Mysteries of the Past"
+    }
+  ],
+  "budget": {
+    "value": 80,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 416,
+    "suffix": "million"
+  },
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Make-Up"
+      ]
+    }
+  ],
+  "parts": {
+    "title": "The Mummy",
+    "part": 1
+  }
 }

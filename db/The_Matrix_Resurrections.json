@@ -1,38 +1,85 @@
 {
   "id": "3fac3906-f99a-430d-9236-4a440b99dfa7",
+  "type": [
+    "Film"
+  ],
   "title": "The Matrix Resurrections",
   "poster": "matrix_4",
+  "trailer": "9ix7TUGVYIo",
   "genres": [
     "Sci-Fi",
     "Action"
+  ],
+  "synopsis": "Plagued by strange memories, Neo's life takes an unexpected turn when he finds himself back inside the Matrix.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Lana Wachowski"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Lana Wachowski"
+        },
+        {
+          "name": "David Mitchell"
+        },
+        {
+          "name": "Aleksandar Hemon"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Grant Hill"
+        },
+        {
+          "name": "Lana Wachowski"
+        },
+        {
+          "name": "James McTeigue"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "Johnny Klimek"
+        },
+        {
+          "name": "Tom Tykwer"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Daniele Massaccesi"
+        },
+        {
+          "name": "John Toll"
+        }
+      ]
+    }
+  ],
+  "year": 2021,
+  "countries": [
+    "USA"
   ],
   "production": [
     "Warner Bros. Pictures",
     "Village Roadshow Pictures"
   ],
-  "directedBy": [
-    "Lana Wachowski"
-  ],
-  "producedBy": "Grant Hill, Lana Wachowski, James McTeigue",
-  "writtenBy": "Lana Wachowski, David Mitchell, Aleksandar Hemon",
-  "musicBy": "Johnny Klimek, Tom Tykwer",
-  "cinematographyBy": "Daniele Massaccesi, John Toll",
-  "countries": [
-    "USA"
-  ],
-  "synopsis": "Plagued by strange memories, Neo's life takes an unexpected turn when he finds himself back inside the Matrix.",
-  "collections": [
-    {
-      "name": "Future"
-    }
-  ],
-  "parts": {
-    "title": "The Matrix",
-    "part": 4
-  },
-  "type": [
-    "Film"
-  ],
+  "duration": 148,
   "cast": [
     {
       "character": {
@@ -77,7 +124,13 @@
       "actorId": "dab3ff0b-e5b2-41f0-9d0d-f27bc873de78"
     }
   ],
-  "duration": 148,
-  "trailer": "9ix7TUGVYIo",
-  "year": 2021
+  "collections": [
+    {
+      "title": "Future"
+    }
+  ],
+  "parts": {
+    "title": "The Matrix",
+    "part": 4
+  }
 }

@@ -1,42 +1,72 @@
 {
   "id": "c4ee6c81-1daf-4b5a-8cab-2caecbeee761",
+  "type": [
+    "Animation"
+  ],
   "title": "Raya and the Last Dragon",
   "poster": "raya",
+  "trailer": "1VIZ89FEjYI",
   "genres": [
     "Adventures",
     "Fantasy"
   ],
-  "production": [
-    "Walt Disney Pictures"
+  "synopsis": "In a realm known as Kumandra, a re-imagined Earth inhabited by an ancient civilization, a warrior named Raya is determined to find the last dragon.",
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Don Hall"
+        },
+        {
+          "name": "Carlos López Estrada"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Qui Nguyen"
+        },
+        {
+          "name": "Adele Lim"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Peter Del Vecho"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "James Newton Howard"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Rob Dressel"
+        }
+      ]
+    }
   ],
-  "directedBy": [
-    "Don Hall",
-    "Carlos López Estrada"
-  ],
-  "producedBy": "Peter Del Vecho",
-  "writtenBy": "Qui Nguyen, Adele Lim",
-  "musicBy": "James Newton Howard",
-  "cinematographyBy": "Rob Dressel",
+  "year": 2021,
   "countries": [
     "USA"
   ],
-  "budget": {
-    "value": 100,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 130,
-    "suffix": "million"
-  },
-  "synopsis": "In a realm known as Kumandra, a re-imagined Earth inhabited by an ancient civilization, a warrior named Raya is determined to find the last dragon.",
-  "collections": [
-    {
-      "name": "Fantasy"
-    }
+  "production": [
+    "Walt Disney Pictures"
   ],
-  "type": [
-    "Animation"
-  ],
+  "duration": 107,
   "cast": [
     {
       "character": {
@@ -81,7 +111,17 @@
       "actorId": "0138c730-8111-4494-bf7a-b96635ff65d2"
     }
   ],
-  "duration": 107,
-  "trailer": "1VIZ89FEjYI",
-  "year": 2021
+  "collections": [
+    {
+      "title": "Fantasy"
+    }
+  ],
+  "budget": {
+    "value": 100,
+    "suffix": "million"
+  },
+  "boxoffice": {
+    "value": 130,
+    "suffix": "million"
+  }
 }
