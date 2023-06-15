@@ -1,9 +1,9 @@
 import { api } from "@/services";
-import { FilmType } from "@/types";
+import { FilmData } from "@/types";
 
 export class FilmAPI {
   static async getAll() {
-    const response = await api.get<FilmType[]>('/database/database.json');
+    const response = await api.get<FilmData[]>('/database/database.json');
     return response.data;
   }
 }
