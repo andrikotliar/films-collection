@@ -2,9 +2,9 @@ import './styles.css';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { buildLink } from '@/heplers';
-import { FilmType } from '@/types';
+import { FilmData } from '@/types';
 
-const TopLine: FC<{ filmData: FilmType }> = ({ filmData }) => {
+const TopLine: FC<{ filmData: FilmData }> = ({ filmData }) => {
   return (
     <div className="top-line">
       <Link to={buildLink('year', filmData.year)} className="top-line__link top-line__link--highlight">
