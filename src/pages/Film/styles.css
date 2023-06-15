@@ -7,6 +7,10 @@
   min-height: var(--app-height);
 }
 
+.film-loader {
+  height: var(--app-height);
+}
+
 .film__general {
   display: flex;
   flex-direction: column;

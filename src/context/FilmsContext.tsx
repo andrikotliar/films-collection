@@ -37,9 +37,12 @@ const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
   });
 
   const fetchFilms = async () => {
-    const films = await FilmAPI.getAll();
-    setInitialFilmsList(films);
-    setFilmsCount(films.length);
+    setTimeout(async () => {
+      const films = await FilmAPI.getAll();
+      setInitialFilmsList(films);
+      setFilmsCount(films.length);
+    }, 3000)
+
   }
 
   useEffect(() => {

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useFilmsContext } from "@/context/FilmsContext";
 import SelectedFilters from '../SelectedFilters';
 import Pagination from '../Pagination';
-import FilmListSkeleton from '@/pages/Main/components/FilmListSkeleton';
+import { Loader } from '@/components';
 
 const FilmsList = () => {
   const {
@@ -19,8 +19,10 @@ const FilmsList = () => {
   return (
     <div className="list-container">
       <SelectedFilters />
-      {isFilmsLoading && <FilmListSkeleton />}
-      {films.length === 0 && <p className="list-empty">Films not found.</p>}
+      {isFilmsLoading && <Loader />}
+      {(films.length === 0 && !isFilmsLoading) && (
+        <p className="list-empty">Films not found.</p>
+      )}
       <div className="list">
         {films.map(film => (
           <Link

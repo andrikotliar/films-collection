@@ -1,11 +1,9 @@
-import { LoaderIcon } from "@/assets/icons";
 import './styles.css';
-import { FC } from "react";
-import classNames from "classnames";
+import { LoaderIcon } from "@/assets/icons";
 
-const Loader: FC<{ className?: string }> = ({ className }) => {
+const Loader = () => {
   return (
-    <div className={classNames(className, 'loader-container')}>
+    <div className="loader-container">
       <div className="loader">
         <LoaderIcon color="#006db7" />
       </div>

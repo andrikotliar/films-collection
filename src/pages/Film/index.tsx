@@ -47,7 +47,13 @@ const Film = () => {
   }, [id, initialFilmsList]);
 
   if(film === null) {
-    return <Loader />;
+    return (
+      <article className="film container">
+        <div className="film-loader">
+          <Loader />
+        </div>
+      </article>
+    );
   }
   
   return (
