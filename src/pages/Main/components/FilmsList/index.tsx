@@ -5,8 +5,12 @@ import { useFilmsContext } from "@/context/FilmsContext";
 import SelectedFilters from '../SelectedFilters';
 import Pagination from '../Pagination';
 import { Loader } from '@/components';
+import { FilterIcon } from '@/assets/icons';
+import { useAppContext } from '@/context/AppContext';
 
 const FilmsList = () => {
+  const { isFilterOpen, setIsFilterOpen } = useAppContext();
+  
   const {
     films,
     isFilmsLoading,
@@ -18,6 +22,15 @@ const FilmsList = () => {
 
   return (
     <div className="list-container">
+      <button
+        className="show-filter-mobile"
+        onClick={() => setIsFilterOpen(!isFilterOpen)}
+      >
+        <div className="show-filter-mobile__icon">
+          <FilterIcon />
+        </div>
+        <span>Filter</span>
+      </button>
       <SelectedFilters />
       {isFilmsLoading && <Loader />}
       {(films.length === 0 && !isFilmsLoading) && (

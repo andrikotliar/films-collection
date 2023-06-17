@@ -1,7 +1,7 @@
 import './styles.css';
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { CloseIcon, FilterIcon, GridIcon, SearchIcon } from '@/assets/icons';
+import { CloseIcon, HomeIcon, SearchIcon } from '@/assets/icons';
 import FilmsCollectionLogo from '@/assets/logo/FilmsCollectionLogo';
 import Search from '../Search';
 import classNames from 'classnames';
@@ -27,49 +27,26 @@ const Header = () => {
           <FilmsCollectionLogo />
         </Link>
         <div className="header__actions">
+          <Link
+            className={classNames('header__button header__home-button', {
+              'header__button--active': pathname === '/'
+            })}
+            to="/"
+          >
+            <HomeIcon />
+          </Link>
           <button
-            className="header__button header__search-button"
+            className={classNames('header__button header__search-button', {
+              'header__button--active': isSearchVisible
+            })}
             onClick={() => {
               setIsSearchVisible(!isSearchVisible);
               setIsFilterOpen(false);
               setIsMenuVisible(false);
             }}
           >
-            <SearchIcon />
+            {isSearchVisible ? <CloseIcon /> : <SearchIcon />}
           </button>
-          {pathname === '/' ? (
-            <button
-              className="header__filter-button"
-              onClick={() => {
-                setIsFilterOpen(!isFilterOpen);
-                setIsSearchVisible(false);
-                setIsMenuVisible(false);
-              }}
-            >
-              {!isFilterOpen ?  (
-                <>
-                  <div className="header__button-icon">
-                    <FilterIcon />
-                  </div>
-                  <span>Filter</span>
-                </>
-              ) : (
-                <>
-                  <div className="header__button-icon">
-                    <CloseIcon />
-                  </div>
-                  <span>Close</span>
-                </>
-              )}
-            </button>
-          ) : (
-            <Link to="/" className="header__filter-button">
-              <div className="header__button-icon">
-                <GridIcon />
-              </div>
-              <span>Films</span>
-            </Link>
-          )}
           <Search isOpen={isSearchVisible} />
           <button
             className={classNames('header__menu-button', {

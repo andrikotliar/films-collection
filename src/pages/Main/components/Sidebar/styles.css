@@ -15,7 +15,7 @@
 @media (max-width: 785px) {
   .sidebar {
     position: fixed;
-    bottom: var(--header-height);
+    bottom: 0;
     left: 0;
     width: 100%;
     height: 500px;
@@ -35,5 +35,11 @@
     visibility: visible;
     transform: translateX(0);
     overflow-y: scroll;
+  }
+}
+
+@media (max-width: 500px) {
+  .sidebar {
+    bottom: var(--header-height);
   }
 }
