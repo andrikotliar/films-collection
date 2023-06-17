@@ -1,5 +1,5 @@
-import { useFilmsContext } from "@/context/FilmsContext";
 import './styles.css';
+import { useFilmsContext } from "@/context/FilmsContext";
 import { UnknownObject } from "@/types";
 
 const parametersToHide = ['actorId', 'page'];
@@ -9,11 +9,11 @@ const ListHeader = () => {
 
   const keys = Object.keys(filterParams);
 
-  if(keys.length === 0) return null;
-
   const filteredParams = (keys: string[]) => {
     return keys.filter((key) => !parametersToHide.includes(key))
   }
+
+  if(filteredParams(keys).length === 0) return null;
 
   const getValue = (filterParams: UnknownObject, param: string) => {
     if(param === 'crew') {

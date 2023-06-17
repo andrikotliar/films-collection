@@ -7,9 +7,11 @@ import ExpandFilter from './components/ExpandFilter';
 import { useFilmsContext } from '@/context/FilmsContext';
 import { useForm, FormProvider, useFormState } from 'react-hook-form';
 import { FilterIcon, ResetIcon } from '@/assets/icons';
+import { useAppContext } from '@/context/AppContext';
 
 const Filters = () => {
   const { filterParams, updateFilter, resetFilter } = useFilmsContext();
+  const { setIsFilterOpen } = useAppContext();
   const location = useLocation();
 
   const methods = useForm();
@@ -18,6 +20,7 @@ const Filters = () => {
   })
 
   const submitFilter = (data: any) => {
+    setIsFilterOpen(false);
     updateFilter(data, dirtyFields);
   };
 

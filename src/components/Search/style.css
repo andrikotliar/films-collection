@@ -36,7 +36,7 @@
     display: none;
     position: fixed;
     width: 100%;
-    bottom: var(--header-height);
+    top: var(--header-height);
     left: 0;
     background-color: #fff;
     border-top: var(--app-border);
@@ -50,5 +50,12 @@
   }
   .search-button {
     right: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .search-form {
+    top: initial;
+    bottom: var(--header-height);
   }
 }
