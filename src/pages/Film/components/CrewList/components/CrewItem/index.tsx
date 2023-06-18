@@ -3,7 +3,6 @@ import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { buildLink } from '@/heplers';
 import { Crew } from '@/types';
-import { InfoIcon } from '@/assets/icons';
 
 const CrewItem: FC<{ crewItem: Crew }> = ({
   crewItem

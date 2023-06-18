@@ -1,0 +1,11 @@
+.money {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.money__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

@@ -18,7 +18,8 @@ import {
   SeriesMedia,
   FilmMedia,
   CrewList,
-  ExtraDetails
+  ExtraDetails,
+  BoxOffice,
 } from './components';
 
 const Film = () => {
@@ -105,6 +106,13 @@ const Film = () => {
           <SectionTitle>Extra Details</SectionTitle>
           <ExtraDetails filmData={film} />
         </section>
+
+        {(film.budget || film.boxoffice) && (
+          <section>
+            <SectionTitle>Box Office</SectionTitle>
+            <BoxOffice budget={film.budget} boxOffice={film.boxoffice} />
+          </section>
+        )}
         
         {film.parts && (
           <div className="film-chapters custom-scroll">
