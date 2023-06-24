@@ -168,14 +168,8 @@
       "title": "Middle-Earth Universe"
     }
   ],
-  "budget": {
-    "value": 93,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 871,
-    "suffix": "million"
-  },
+  "budget": 93000000,
+  "boxoffice": 871000000,
   "awards": [
     {
       "title": "Oscar",

@@ -248,14 +248,8 @@
       "title": "Middle-Earth Universe"
     }
   ],
-  "budget": {
-    "value": 225,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 960,
-    "suffix": "million"
-  },
+  "budget": 225000000,
+  "boxoffice": 960000000,
   "awards": [
     {
       "title": "Saturn",

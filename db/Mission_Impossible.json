@@ -137,14 +137,8 @@
       "title": "Agents and Detectives"
     }
   ],
-  "budget": {
-    "value": 80,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 458,
-    "suffix": "million"
-  },
+  "budget": 80000000,
+  "boxoffice": 458000000,
   "parts": {
     "title": "Mission: Impossible",
     "part": 1

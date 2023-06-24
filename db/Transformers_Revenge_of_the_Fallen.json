@@ -161,14 +161,8 @@
       "title": "Robots"
     }
   ],
-  "budget": {
-    "value": 200,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 836,
-    "suffix": "million"
-  },
+  "budget": 200000000,
+  "boxoffice": 836000000,
   "parts": {
     "title": "Transformers",
     "part": 3

@@ -137,14 +137,8 @@
       "title": "Fantasy"
     }
   ],
-  "budget": {
-    "value": 180,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 745,
-    "suffix": "million"
-  },
+  "budget": 180000000,
+  "boxoffice": 745000000,
   "awards": [
     {
       "title": "Oscar",

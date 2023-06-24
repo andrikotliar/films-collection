@@ -93,14 +93,8 @@
       "title": "Robots"
     }
   ],
-  "budget": {
-    "value": 6.4,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 40,
-    "suffix": "million"
-  },
+  "budget": 6400000,
+  "boxoffice": 40000000,
   "awards": [
     {
       "title": "Saturn",

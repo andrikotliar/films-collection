@@ -213,10 +213,7 @@
       "title": "DC Extended Universe"
     }
   ],
-  "budget": {
-    "value": 300,
-    "suffix": "million"
-  },
+  "budget": 300000000,
   "parts": {
     "title": "DC Extended Universe",
     "part": 5

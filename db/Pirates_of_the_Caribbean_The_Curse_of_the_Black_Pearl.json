@@ -114,14 +114,8 @@
       "title": "Fantasy"
     }
   ],
-  "budget": {
-    "value": 140,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 654,
-    "suffix": "million"
-  },
+  "budget": 140000000,
+  "boxoffice": 654000000,
   "awards": [
     {
       "title": "BAFTA",

@@ -172,14 +172,8 @@
       "title": "Space"
     }
   ],
-  "budget": {
-    "value": 185,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 343,
-    "suffix": "million"
-  },
+  "budget": 185000000,
+  "boxoffice": 343000000,
   "awards": [
     {
       "title": "Saturn",

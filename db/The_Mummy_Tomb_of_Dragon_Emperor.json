@@ -144,14 +144,8 @@
       "title": "Mysteries of the Past"
     }
   ],
-  "budget": {
-    "value": 145,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 401,
-    "suffix": "million"
-  },
+  "budget": 145000000,
+  "boxoffice": 401000000,
   "parts": {
     "title": "The Mummy",
     "part": 3

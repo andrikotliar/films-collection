@@ -118,12 +118,6 @@
       "title": "Disaster"
     }
   ],
-  "budget": {
-    "value": 35,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 52,
-    "suffix": "million"
-  }
+  "budget": 35000000,
+  "boxoffice": 52000000
 }

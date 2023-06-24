@@ -115,14 +115,8 @@
       "title": "Mysteries of the Past"
     }
   ],
-  "budget": {
-    "value": 48,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 474,
-    "suffix": "million"
-  },
+  "budget": 48000000,
+  "boxoffice": 474000000,
   "awards": [
     {
       "title": "Oscar",

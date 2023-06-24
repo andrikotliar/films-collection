@@ -159,14 +159,8 @@
       "title": "Space"
     }
   ],
-  "budget": {
-    "value": 185,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 467,
-    "suffix": "million"
-  },
+  "budget": 185000000,
+  "boxoffice": 467000000,
   "parts": {
     "title": "Star Trek",
     "part": 2

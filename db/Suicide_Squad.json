@@ -135,14 +135,8 @@
       "title": "DC Extended Universe"
     }
   ],
-  "budget": {
-    "value": 175,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 747,
-    "suffix": "million"
-  },
+  "budget": 175000000,
+  "boxoffice": 747000000,
   "awards": [
     {
       "title": "Oscar",

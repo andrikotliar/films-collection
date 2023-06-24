@@ -117,14 +117,8 @@
       "title": "Invasion"
     }
   ],
-  "budget": {
-    "value": 140,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 442,
-    "suffix": "million"
-  },
+  "budget": 140000000,
+  "boxoffice": 442000000,
   "parts": {
     "title": "Men in Black",
     "part": 2

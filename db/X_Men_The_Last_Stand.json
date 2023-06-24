@@ -159,14 +159,8 @@
       "title": "Superheroes"
     }
   ],
-  "budget": {
-    "value": 210,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 459,
-    "suffix": "million"
-  },
+  "budget": 210000000,
+  "boxoffice": 459000000,
   "awards": [
     {
       "title": "Saturn",

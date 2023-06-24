@@ -132,14 +132,8 @@
       "title": "Harry Potter Universe"
     }
   ],
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 897,
-    "suffix": "illionm"
-  },
+  "budget": 150000000,
+  "boxoffice": 897000000000,
   "awards": [
     {
       "title": "BAFTA",

@@ -137,14 +137,8 @@
       "title": "Invasion"
     }
   ],
-  "budget": {
-    "value": 80,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 233,
-    "suffix": "million"
-  },
+  "budget": 80000000,
+  "boxoffice": 233000000,
   "awards": [
     {
       "title": "Saturn",

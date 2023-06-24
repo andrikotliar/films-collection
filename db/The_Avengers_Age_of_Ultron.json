@@ -184,14 +184,8 @@
       "title": "Marvel Cinematic Universe"
     }
   ],
-  "budget": {
-    "value": 365,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.4,
-    "suffix": "billion"
-  },
+  "budget": 365000000,
+  "boxoffice": 1400000000,
   "awards": [
     {
       "title": "Saturn",

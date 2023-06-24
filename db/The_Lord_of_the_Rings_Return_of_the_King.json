@@ -150,14 +150,8 @@
       "title": "Legends"
     }
   ],
-  "budget": {
-    "value": 94,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.12,
-    "suffix": "billion"
-  },
+  "budget": 94000000,
+  "boxoffice": 1120000000,
   "awards": [
     {
       "title": "Oscar",

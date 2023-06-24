@@ -151,14 +151,8 @@
       "title": "Superheroes"
     }
   ],
-  "budget": {
-    "value": 258,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 895,
-    "suffix": "million"
-  },
+  "budget": 258000000,
+  "boxoffice": 895000000,
   "parts": {
     "title": "Raimi's Spider-Man",
     "part": 3

@@ -111,14 +111,8 @@
       "title": "DC Extended Universe"
     }
   ],
-  "budget": {
-    "value": 80,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 356,
-    "suffix": "million"
-  },
+  "budget": 80000000,
+  "boxoffice": 356000000,
   "parts": {
     "title": "DC Extended Universe",
     "part": 7

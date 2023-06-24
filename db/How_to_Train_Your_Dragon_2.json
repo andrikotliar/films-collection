@@ -109,14 +109,8 @@
       "title": "Fantasy"
     }
   ],
-  "budget": {
-    "value": 145,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 621,
-    "suffix": "million"
-  },
+  "budget": 145000000,
+  "boxoffice": 621000000,
   "parts": {
     "title": "How to Train Your Dragon",
     "part": 2

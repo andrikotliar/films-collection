@@ -137,14 +137,8 @@
       "title": "Superheroes"
     }
   ],
-  "budget": {
-    "value": 230,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 758,
-    "suffix": "million"
-  },
+  "budget": 230000000,
+  "boxoffice": 758000000,
   "parts": {
     "title": "The Amazing Spider-Man",
     "part": 1

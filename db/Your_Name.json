@@ -121,12 +121,6 @@
       "title": "Anime"
     }
   ],
-  "budget": {
-    "value": 3.48,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 358,
-    "suffix": "million"
-  }
+  "budget": 3480000,
+  "boxoffice": 358000000
 }

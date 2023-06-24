@@ -121,14 +121,8 @@
       "order": 9
     }
   ],
-  "budget": {
-    "value": 180,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 533,
-    "suffix": "million"
-  },
+  "budget": 180000000,
+  "boxoffice": 533000000,
   "awards": [
     {
       "title": "Oscar",

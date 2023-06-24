@@ -148,14 +148,8 @@
       "title": "Cars"
     }
   ],
-  "budget": {
-    "value": 125,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 626,
-    "suffix": "million"
-  },
+  "budget": 125000000,
+  "boxoffice": 626000000,
   "parts": {
     "title": "Fast and Furious",
     "part": 5

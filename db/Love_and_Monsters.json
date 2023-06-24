@@ -129,12 +129,6 @@
       "title": "Monsters"
     }
   ],
-  "budget": {
-    "value": 30,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1,
-    "suffix": "million"
-  }
+  "budget": 30000000,
+  "boxoffice": 1000000
 }

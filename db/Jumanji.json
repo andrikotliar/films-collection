@@ -133,14 +133,8 @@
       "title": "Fantasy"
     }
   ],
-  "budget": {
-    "value": 65,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 263,
-    "suffix": "million"
-  },
+  "budget": 65000000,
+  "boxoffice": 263000000,
   "awards": [
     {
       "title": "Saturn",

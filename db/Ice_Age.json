@@ -95,14 +95,8 @@
       "title": "Fantasy"
     }
   ],
-  "budget": {
-    "value": 59,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 383,
-    "suffix": "million"
-  },
+  "budget": 59000000,
+  "boxoffice": 383000000,
   "parts": {
     "title": "Ice Age",
     "part": 1
