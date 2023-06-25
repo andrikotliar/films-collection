@@ -1,0 +1,26 @@
+.legend-item {
+  position: relative;
+  display: flex;
+  gap: 5px;
+  padding-left: 15px;
+}
+
+.legend-item::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #ffb74d;
+  border-radius: 50px;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.legend-item.box-office-low::before {
+  background-color: #d32f2f;
+}
+
+.legend-item.box-office-high::before {
+  background-color: #4db6ac;
+}

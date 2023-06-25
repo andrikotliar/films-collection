@@ -141,14 +141,8 @@
       "order": 2
     }
   ],
-  "budget": {
-    "value": 140,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 585,
-    "suffix": "million"
-  },
+  "budget": 140000000,
+  "boxoffice": 585000000,
   "awards": [
     {
       "title": "Saturn",

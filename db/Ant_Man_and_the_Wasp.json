@@ -127,14 +127,8 @@
       "title": "Marvel Cinematic Universe"
     }
   ],
-  "budget": {
-    "value": 162,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 595,
-    "suffix": "million"
-  },
+  "budget": 162000000,
+  "boxoffice": 595000000,
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 20

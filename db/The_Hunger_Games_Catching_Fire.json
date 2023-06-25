@@ -116,14 +116,8 @@
       "title": "Dystopia"
     }
   ],
-  "budget": {
-    "value": 130,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 865,
-    "suffix": "million"
-  },
+  "budget": 130000000,
+  "boxoffice": 865000000,
   "awards": [
     {
       "title": "MTV Movie Awards",

@@ -142,14 +142,8 @@
       "title": "Future"
     }
   ],
-  "budget": {
-    "value": 237,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 2.8,
-    "suffix": "billion"
-  },
+  "budget": 237000000,
+  "boxoffice": 2800000000,
   "awards": [
     {
       "title": "Oscar",

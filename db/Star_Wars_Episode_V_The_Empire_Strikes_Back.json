@@ -135,14 +135,8 @@
       "title": "Star Wars Universe"
     }
   ],
-  "budget": {
-    "value": 18,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 248,
-    "suffix": "million"
-  },
+  "budget": 18000000,
+  "boxoffice": 248000000,
   "awards": [
     {
       "title": "Oscar",

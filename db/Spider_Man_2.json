@@ -114,14 +114,8 @@
       "title": "Superheroes"
     }
   ],
-  "budget": {
-    "value": 200,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 789,
-    "suffix": "million"
-  },
+  "budget": 200000000,
+  "boxoffice": 789000000,
   "awards": [
     {
       "title": "Oscar",

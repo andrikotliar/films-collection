@@ -118,14 +118,8 @@
       "title": "Superheroes"
     }
   ],
-  "budget": {
-    "value": 132,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 415,
-    "suffix": "million"
-  },
+  "budget": 132000000,
+  "boxoffice": 415000000,
   "parts": {
     "title": "X-Men",
     "part": 6

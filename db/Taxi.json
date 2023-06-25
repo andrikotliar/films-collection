@@ -109,14 +109,8 @@
       "title": "Cars"
     }
   ],
-  "budget": {
-    "value": 9,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 44,
-    "suffix": "million"
-  },
+  "budget": 9000000,
+  "boxoffice": 44000000,
   "parts": {
     "title": "Besson's Taxi",
     "part": 1

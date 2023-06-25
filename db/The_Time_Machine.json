@@ -120,12 +120,6 @@
       "title": "Future"
     }
   ],
-  "budget": {
-    "value": 80,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 124,
-    "suffix": "million"
-  }
+  "budget": 80000000,
+  "boxoffice": 124000000
 }

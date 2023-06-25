@@ -1,6 +1,6 @@
 import { FilmData } from '@/types';
 import { FC } from 'react';
-import ExtraDetailsItem from '@/pages/Film/components/ExtraDetailsItem';
+import ExtraDetailsItem from './components/ExtraDetailsItem';
 
 const ExtraDetails: FC<{ filmData: FilmData }> = ({ filmData }) => {
   const collections = filmData.collections.map((collection) => collection.title);

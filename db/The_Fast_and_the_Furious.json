@@ -121,14 +121,8 @@
       "title": "Cars"
     }
   ],
-  "budget": {
-    "value": 38,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 207,
-    "suffix": "million"
-  },
+  "budget": 38000000,
+  "boxoffice": 207000000,
   "awards": [
     {
       "title": "MTV Movie Award",

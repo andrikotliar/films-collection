@@ -138,14 +138,8 @@
       "title": "Harry Potter Universe"
     }
   ],
-  "budget": {
-    "value": 130,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 797,
-    "suffix": "million"
-  },
+  "budget": 130000000,
+  "boxoffice": 797000000,
   "parts": {
     "title": "Harry Potter Universe",
     "part": 5

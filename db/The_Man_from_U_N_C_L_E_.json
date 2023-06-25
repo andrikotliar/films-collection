@@ -130,12 +130,6 @@
       "title": "Agents and Detectives"
     }
   ],
-  "budget": {
-    "value": 75,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 107,
-    "suffix": "million"
-  }
+  "budget": 75000000,
+  "boxoffice": 107000000
 }

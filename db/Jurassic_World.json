@@ -164,14 +164,8 @@
       "title": "Monsters"
     }
   ],
-  "budget": {
-    "value": 150,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 1.67,
-    "suffix": "billion"
-  },
+  "budget": 150000000,
+  "boxoffice": 1670000000,
   "awards": [
     {
       "title": "Saturn",

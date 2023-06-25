@@ -12,6 +12,7 @@ import SectionTitle from './SectionTitle';
 import Synopsis from './Synopsis';
 import SeriesMedia from './SeriesMedia';
 import ExtraDetails from './ExtraDetails';
+import BoxOffice from './BoxOffice';
 
 export {
   FilmTitle,
@@ -27,5 +28,6 @@ export {
   Synopsis,
   SeriesMedia,
   CrewList,
-  ExtraDetails
+  ExtraDetails,
+  BoxOffice,
 };

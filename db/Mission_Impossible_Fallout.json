@@ -140,14 +140,8 @@
       "title": "Agents and Detectives"
     }
   ],
-  "budget": {
-    "value": 178,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 791,
-    "suffix": "million"
-  },
+  "budget": 178000000,
+  "boxoffice": 791000000,
   "awards": [
     {
       "title": "Saturn",

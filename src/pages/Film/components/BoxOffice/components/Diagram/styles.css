@@ -1,0 +1,50 @@
+.box-office-diagram {
+  width: 50%;
+}
+
+.box-office-diagram__track {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 50px;
+}
+
+.box-office-diagram__track-value {
+  position: absolute;
+  height: 100%;
+  border-radius: 50px;
+}
+
+.box-office-diagram__track-value.box-office-high {
+  background-color: #4db6ac;
+}
+
+.box-office-diagram__track-value.box-office-low {
+  background-color: #d32f2f;
+}
+
+.box-office-diagram__track-value span {
+  position: absolute;
+  right: -15px;
+  top: 12px;
+  display: block;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.box-office-diagram__range {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: calc(100% + 10px);
+  top: 12px;
+  color: #777;
+  font-size: 14px;
+}
+
+@media (max-width: 950px) {
+  .box-office-diagram {
+    width: 100%;
+  }
+}

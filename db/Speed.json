@@ -117,14 +117,8 @@
       "title": "Cars"
     }
   ],
-  "budget": {
-    "value": 30,
-    "suffix": "million"
-  },
-  "boxoffice": {
-    "value": 350,
-    "suffix": "million"
-  },
+  "budget": 30000000,
+  "boxoffice": 350000000,
   "awards": [
     {
       "title": "Oscar",

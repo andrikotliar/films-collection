@@ -114,8 +114,5 @@
       "title": "Fantasy"
     }
   ],
-  "budget": {
-    "value": 40,
-    "suffix": "million (estimated)"
-  }
+  "budget": 40000000000
 }

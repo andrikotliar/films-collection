@@ -1,6 +1,6 @@
 import { FC } from "react";
-import CrewItem from "@/pages/Film/components/CrewItem";
 import { Crew } from "@/types";
+import CrewItem from "./components/CrewItem";
 
 const CrewList: FC<{ crew: Crew[] }> = ({ crew }) => {
   return (

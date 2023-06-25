@@ -1,0 +1,21 @@
+.diagram-display-value {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.diagram-display-abs-value {
+  position: absolute;
+  right: -20px;
+  top: 12px;
+  width: 40px;
+}
+
+.diagram-display-value__number {
+  font-size: 14px;
+}
+
+.diagram-display-value__order {
+  font-size: 12px;
+}
