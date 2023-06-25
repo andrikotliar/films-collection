@@ -1,39 +1,28 @@
 import './styles.css';
-import { MoneyValue } from "@/types";
 import { FC } from "react";
-import MoneyMainValue from "./components/MoneyMainValue";
 import Diagram from './components/Diagram';
-import { getMoneySubClassName } from './helpers';
+import Legend from './components/Legend';
+import { getFormattedValue, getBoxOfficeSubClassName } from './helpers';
 
 type BoxOfficeProps = {
-  budget?: MoneyValue;
-  boxOffice?: MoneyValue;
+  budget?: number;
+  boxOffice?: number;
 };
 
 const BoxOffice: FC<BoxOfficeProps> = ({ budget, boxOffice }) => {
-  const moneyValueSubClassName = getMoneySubClassName(budget?.value, boxOffice?.value);
+  const boxOfficeSubClassName = getBoxOfficeSubClassName(budget, boxOffice);
 
   return (
-    <div className="money">
-      <div className="money__info">
-        {budget && (
-          <MoneyMainValue
-            details={budget}
-            type="Budget"
-          />
-        )}
-        {boxOffice && (
-          <MoneyMainValue
-            details={boxOffice}
-            type="Box Office"
-            subClassName={moneyValueSubClassName}
-          />
-        )}
-      </div>
+    <div className="box-office">
+      <Legend
+        hasBudget={!!budget}
+        hasBoxOffice={!!boxOffice}
+        subClassName={boxOfficeSubClassName}
+      />
       <Diagram
-        budget={budget}
-        boxOffice={boxOffice}
-        boxOfficeSubClassName={moneyValueSubClassName}
+        budget={getFormattedValue(budget)}
+        boxOffice={getFormattedValue(boxOffice)}
+        boxOfficeSubClassName={boxOfficeSubClassName}
       />
     </div>
   );

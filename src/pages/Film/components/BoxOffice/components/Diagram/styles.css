@@ -1,8 +1,8 @@
-.money-diagram {
+.box-office-diagram {
   width: 50%;
 }
 
-.money-diagram__track {
+.box-office-diagram__track {
   position: relative;
   width: 100%;
   height: 10px;
@@ -10,33 +10,41 @@
   border-radius: 50px;
 }
 
-.money-diagram__track-value {
+.box-office-diagram__track-value {
   position: absolute;
   height: 100%;
   border-radius: 50px;
 }
 
-.money-diagram__track-value.box-office-high {
+.box-office-diagram__track-value.box-office-high {
   background-color: #4db6ac;
 }
 
-.money-diagram__track-value.box-office-low {
+.box-office-diagram__track-value.box-office-low {
   background-color: #d32f2f;
 }
 
-.money-diagram__track-value span {
+.box-office-diagram__track-value span {
   position: absolute;
-  right: -20px;
+  right: -15px;
   top: 12px;
+  display: block;
   font-size: 14px;
+  background-color: #fff;
 }
 
-.money-diagram__range {
+.box-office-diagram__range {
   display: flex;
   justify-content: space-between;
   position: absolute;
-  width: 100%;
+  width: calc(100% + 10px);
   top: 12px;
   color: #777;
   font-size: 14px;
+}
+
+@media (max-width: 950px) {
+  .box-office-diagram {
+    width: 100%;
+  }
 }

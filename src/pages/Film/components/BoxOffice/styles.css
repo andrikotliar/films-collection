@@ -1,11 +1,6 @@
-.money {
+.box-office {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-.money__info {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  margin-bottom: 35px;
 }

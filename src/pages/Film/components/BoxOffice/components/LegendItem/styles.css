@@ -1,11 +1,11 @@
-.money-main-value {
+.legend-item {
   position: relative;
   display: flex;
   gap: 5px;
   padding-left: 15px;
 }
 
-.money-main-value::before {
+.legend-item::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -17,14 +17,10 @@
   transform: translateY(-50%);
 }
 
-.money-main-value.box-office-low::before {
+.legend-item.box-office-low::before {
   background-color: #d32f2f;
 }
 
-.money-main-value.box-office-high::before {
+.legend-item.box-office-high::before {
   background-color: #4db6ac;
-}
-
-.money-main-value__type {
-  font-weight: bold;
 }

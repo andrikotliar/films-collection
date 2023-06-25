@@ -136,7 +136,7 @@ const Admin = () => {
             <div className="admin__input-wrapper">
               <input type="number" id="budget"/>
             </div>
-            <div className="admin__select-wrapper select-wrapper--money">
+            <div className="admin__select-wrapper">
               <select id="budget-million">
                 <option value="million">million</option>
                 <option value="billion">billion</option>
@@ -150,7 +150,7 @@ const Admin = () => {
             <div className="admin__input-wrapper">
               <input type="number" id="boxoffice"/>
             </div>
-            <div className="admin__select-wrapper select-wrapper--money">
+            <div className="admin__select-wrapper">
               <select id="boxoffice-million">
                 <option value="million">million</option>
                 <option value="billion">billion</option>

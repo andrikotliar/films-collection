@@ -178,45 +178,15 @@ export const filmDataExplanation: DataExplanation[] = [
   },
   {
     property: 'budget',
-    type: ['object'],
+    type: ['number'],
     required: false,
-    description: 'Budget details',
-    properties: [
-      {
-        property: 'value',
-        type: ['number'],
-        required: true,
-        description: 'Budget size in number'
-      },
-      {
-        property: 'suffix',
-        type: ['string'],
-        required: true,
-        description: 'Budget grade',
-        possibleValues: ['millions', 'billions']
-      }
-    ]
+    description: 'Budget amount',
   },
   {
     property: 'boxoffice',
-    type: ['object'],
+    type: ['number'],
     required: false,
-    description: 'Box Office details',
-    properties: [
-      {
-        property: 'value',
-        type: ['number'],
-        required: true,
-        description: 'Box Office result in number'
-      },
-      {
-        property: 'suffix',
-        type: ['string'],
-        required: true,
-        description: 'Box Office grade',
-        possibleValues: ['millions', 'billions']
-      }
-    ]
+    description: 'Worldwide gross',
   },
   {
     property: 'awards',

@@ -14,6 +14,7 @@ const FilmsList = () => {
   const {
     films,
     isFilmsLoading,
+    pageData
   } = useFilmsContext();
 
   useEffect(() => {

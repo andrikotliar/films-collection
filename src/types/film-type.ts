@@ -16,11 +16,6 @@ type Cast = {
   };
 }
 
-type MoneyValue = {
-  value: number;
-  suffix: string;
-}
-
 type Collection = {
   title: string;
   order?: number;
@@ -63,8 +58,8 @@ type FilmData = {
   duration: number;
   cast: Cast[];
   collections: Collection[];
-  budget?: MoneyValue;
-  boxoffice?: MoneyValue;
+  budget?: number;
+  boxoffice?: number;
   parts?: Chapter;
   awards?: Award[];
   seasons?: Season[];
@@ -75,7 +70,6 @@ export type {
   FilmData,
   Crew,
   Cast,
-  MoneyValue,
   Collection,
   Award,
   Chapter,

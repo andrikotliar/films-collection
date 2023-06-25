@@ -1,78 +1,64 @@
-import { SubClassNamesEnum, getMoneySubClassName } from '@/pages/Film/components/BoxOffice/helpers';
 import './styles.css';
-import { MoneyValue } from "@/types";
 import { FC, useMemo } from "react";
 import classNames from 'classnames';
+import { FormattedValue, SubClassNamesEnum, getBoxOfficeTargetValue } from '@/pages/Film/components/BoxOffice/helpers';
+import DisagramDisplayValue from '@/pages/Film/components/BoxOffice/components/DiagramDisplayValue';
 
 type DiagramProps = {
-  budget?: MoneyValue;
-  boxOffice?: MoneyValue;
+  budget: FormattedValue | null;
+  boxOffice: FormattedValue | null;
   boxOfficeSubClassName: SubClassNamesEnum;
-}
-
-const DEFAULT_MIN_VALUE = 1_000_000;
-const DEFAULT_MAX_VALUE = 1_000_000_000;
+};
 
 const Diagram: FC<DiagramProps> = ({ budget, boxOffice, boxOfficeSubClassName }) => {
   const maxValue = useMemo(() => {
-    if(boxOffice && boxOffice.suffix === 'billion') {
-      return {
-        number: boxOffice.value,
-        alias: `${boxOffice.value}B`
-      };
-    }
-    return {
-      number: DEFAULT_MAX_VALUE,
-      alias: '1B'
-    };
-  }, [boxOffice]);
+    return getBoxOfficeTargetValue(boxOffice?.value, budget?.value)
+  }, [boxOffice, budget]);
 
-  const calculatePercent = (option: MoneyValue) => {
-    const range = option.suffix === 'million' ? DEFAULT_MIN_VALUE : DEFAULT_MAX_VALUE;
-    return option.value * range * 100 / maxValue.number;
+  const calculatePercent = (value: number) => {
+    return value * 100 / maxValue.value;
   }
   
   return (
-    <div className="money-diagram">
-      <div className="money-diagram__track">
+    <div className="box-office-diagram">
+      <div className="box-office-diagram__track">
         {budget && (
           <div
-            className="money-diagram__track-value"
+            className="box-office-diagram__track-value"
             style={{
-              width: `${calculatePercent(budget)}%`,
+              width: `${calculatePercent(budget.value)}%`,
               backgroundColor: '#FFB74D',
               zIndex: 2
             }}
             title="Budget"
           >
-            <span>{budget.value}{budget.suffix[0].toUpperCase()}</span>
+            <DisagramDisplayValue option={budget} />
           </div>
         )}
         {boxOffice && (
           <div
             className={classNames(
-              'money-diagram__track-value',
+              'box-office-diagram__track-value',
               boxOfficeSubClassName
             )}
             style={{
-              width: `${calculatePercent(boxOffice)}%`,
+              width: `${calculatePercent(boxOffice.value)}%`,
               zIndex: boxOffice.value < Number(budget?.value) ? 3 : 1
             }}
             title="Box Office"
           >
-            <span>{boxOffice.value}{boxOffice.suffix[0].toUpperCase()}</span>
+            <DisagramDisplayValue option={boxOffice} />
           </div>
         )}
-        <div className="money-diagram__range">
-          <div className="money-diagram__range-start ">
-            0
+        <div className="box-office-diagram__range">
+          <div className="box-office-diagram__range-start">
+            $0
           </div>
-          <div className="money-diagram__range-end ">
-            {maxValue.alias}
+          <div className="box-office-diagram__range-end">
+            <DisagramDisplayValue option={maxValue} isAbs={false} />
           </div>
         </div>
       </div>
-
     </div>
   );
 };

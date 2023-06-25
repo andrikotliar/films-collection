@@ -3,15 +3,15 @@ export enum SubClassNamesEnum {
   BOX_OFFICE_HIGH = 'box-office-high',
 };
 
-const getMoneySubClassName = (
-  budget?: number,
-  boxOffice?: number
+const getBoxOfficeSubClassName = (
+  budget: number = 0,
+  boxOffice: number = 0
 ) => {
-  if(budget && boxOffice && boxOffice > budget) {
+  if(boxOffice > budget) {
     return SubClassNamesEnum.BOX_OFFICE_HIGH;
   }
 
   return SubClassNamesEnum.BOX_OFFICE_LOW;
 };
 
-export { getMoneySubClassName };
+export { getBoxOfficeSubClassName };

@@ -117,11 +117,6 @@
   border-radius: 3px;
 }
 
-.admin__select-wrapper--money select {
-	text-transform: initial;
-	box-shadow: 0 0 0 2px #ddd;
-}
-
 .admin textarea.synopsis {
 	width: 100%;
 	height: 150px;
