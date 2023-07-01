@@ -11,6 +11,7 @@ import HomeIcon from './HomeIcon';
 import AdminIcon from './AdminIcon';
 import GridIcon from './GridIcon';
 import ResetIcon from '@/assets/icons/ResetIcon';
+import MenuIcon from '@/assets/icons/MenuIcon';
 
 export {
   CloseIcon,
@@ -25,5 +26,6 @@ export {
   HomeIcon,
   AdminIcon,
   GridIcon,
-  ResetIcon
+  ResetIcon,
+  MenuIcon
 };

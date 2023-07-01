@@ -58,12 +58,3 @@
     border-bottom: var(--app-border);
   }
 }
-
-@media (max-width: 500px) {
-  .menu {
-    top: initial;
-    bottom: var(--header-height);
-    border-bottom: 0;
-    border-top: var(--app-border);
-  }
-}
