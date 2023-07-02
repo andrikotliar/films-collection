@@ -2,24 +2,6 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 2px;
   margin-top: auto;
-  background-color: #fff;
-  padding-top: 40px;
-  flex-shrink: 0;
-}
-
-.page-button {
-  color: var(--main-color);
-  width: 35px;
-  height: 35px;
-  border: 2px solid var(--main-color);
-  border-radius: 10px;
-  flex-shrink: 0;
-}
-
-.page-button--active {
-  color: #fff;
-  background-color: var(--main-color);
-  font-weight: bold;
 }
