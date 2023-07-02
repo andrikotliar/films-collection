@@ -48,9 +48,6 @@ button {
   outline: none;
   -webkit-tap-highlight-color: transparent;
 }
-button[disabled] {
-  cursor: default;
-}
 input, select {
   color: inherit;
   font-size: inherit;
@@ -69,24 +66,6 @@ body {
 }
 .page-title span {
   color: var(--main-color)
-}
-.button {
-  display: flex;
-  gap: 5px;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  background-color: var(--main-color);
-  padding: 10px 20px;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-.button:hover {
-  background-color: var(--green);
-}
-.button__icon {
-  width: 20px;
-  height: 20px;
 }
 @media (hover: hover) {
   .custom-scroll {
