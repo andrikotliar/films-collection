@@ -37,12 +37,14 @@ const Header = () => {
               setIsMenuVisible(false);
             }}
           >
-            <SearchIcon />
+            <div className="header__search-icon">
+              <SearchIcon color="#fff" />
+            </div>
           </button>
           <Search isOpen={isSearchVisible} />
           <button
-            className={classNames('header__menu-button', {
-              'header__menu-button--active': isMenuVisible
+            className={classNames('header__button', {
+              'header__button--active': isMenuVisible
             })}
             onClick={() => {
               setIsMenuVisible(!isMenuVisible);
@@ -50,7 +52,9 @@ const Header = () => {
               setIsSearchVisible(false);
             }}
           >
-            <MenuIcon />
+            <div className="header__menu-icon">
+              <MenuIcon />
+            </div>
           </button>
         </div>
         <Menu isActive={isMenuVisible} />
