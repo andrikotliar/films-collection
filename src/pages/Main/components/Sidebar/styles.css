@@ -37,9 +37,3 @@
     overflow-y: scroll;
   }
 }
-
-@media (max-width: 500px) {
-  .sidebar {
-    bottom: var(--header-height);
-  }
-}

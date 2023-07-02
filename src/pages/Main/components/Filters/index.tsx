@@ -8,6 +8,8 @@ import { useFilmsContext } from '@/context/FilmsContext';
 import { useForm, FormProvider, useFormState } from 'react-hook-form';
 import { FilterIcon, ResetIcon } from '@/assets/icons';
 import { useAppContext } from '@/context/AppContext';
+import { Button } from '@/components';
+import { isResetBtnVisible } from '@/pages/Main/components/Filters/helpers';
 
 const Filters = () => {
   const { filterParams, updateFilter, resetFilter } = useFilmsContext();
@@ -55,21 +57,17 @@ const Filters = () => {
           )}
         </div>
         <div className="filters__controls">
-          <button className="button filters__apply">
-            <div className="button__icon">
-              <FilterIcon color="white" />
-            </div>
-            <span>Apply</span>
-          </button>
-          {Object.keys(filterParams).length !== 0 && (
-            <button type="button" className="button" onClick={() => {
-              resetFilter();
-              methods.reset();
-            }}>
-              <div className="button__icon">
-                <ResetIcon />
-              </div>
-            </button>
+          <Button icon={<FilterIcon color="white" />} type="submit" className="filters__apply">
+            Apply
+          </Button>
+          {isResetBtnVisible(filterParams) && (
+            <Button
+              onClick={() => {
+                resetFilter();
+                methods.reset();
+              }}
+              icon={<ResetIcon />}
+            />
           )}
         </div>
       </form>

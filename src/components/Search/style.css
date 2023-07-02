@@ -35,7 +35,7 @@
 
 @media (max-width: 735px) {
   .search-form {
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: var(--header-height);
     left: 0;

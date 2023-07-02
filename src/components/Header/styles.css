@@ -57,7 +57,7 @@
 }
 
 .header__search-button {
-  display: none;
+  visibility: hidden;
 }
 
 .header__menu-icon {
@@ -67,7 +67,7 @@
 
 @media (max-width: 735px) {
   .header__search-button {
-    display: block;
+    visibility: visible;
   }
   .header__search-icon {
     width: 20px;
