@@ -1,9 +1,10 @@
+import { filmsSettings } from "@/constants";
 import { FilmData } from "@/types";
 
 export const sliceFilmsByPage = (
   films: FilmData[],
   currentPage: number,
-  perPage = 25
+  perPage = filmsSettings.perPage
 ) => {
   const from = currentPage * perPage - perPage;
   const to = currentPage * perPage;

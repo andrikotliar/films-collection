@@ -1,9 +1,7 @@
 import './styles.css';
 import { useFilmsContext } from "@/context/FilmsContext";
+import { filmsSettings } from "@/constants";
 import { Button } from '@/components';
-import { getPagination } from '@/pages/Main/components/Pagination/helpers';
-
-const pagesDevider = '...';
 
 const Pagination = () => {
   const {
@@ -12,18 +10,31 @@ const Pagination = () => {
     setPage
   } = useFilmsContext();
 
-  const currentPage = getCurrentPage();
+  if(filmsCount <= filmsSettings.perPage) {
+    return null;
+  }
+
+  const pagesList = (filmsCount: number) => {
+    const pageNumbers: number[] = [];
+    const pagesCount = filmsCount / filmsSettings.perPage;
+
+    for(let i = 0; i <= pagesCount; i++) {
+      pageNumbers.push(i + 1);
+    }
+
+    return pageNumbers;
+  }
 
   return (
     <div className="pagination">
-      {getPagination(currentPage, filmsCount).map((page, idx) => (
+      {pagesList(filmsCount).map((pageNumber) => (
         <Button
-          onClick={() => setPage(page)}
-          key={page}
-          design={page === currentPage ? 'primary' : 'empty'}
-          isActive={page === currentPage}
+          isActive={pageNumber === getCurrentPage()}
+          key={pageNumber}
+          onClick={() => setPage(pageNumber)}
+          design={pageNumber === getCurrentPage() ? 'primary' : 'empty'}
         >
-          {page}
+          {pageNumber}
         </Button>
       ))}
     </div>

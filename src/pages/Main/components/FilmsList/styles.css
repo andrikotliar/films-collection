@@ -36,8 +36,8 @@
 .list-film__title {
   text-align: center;
   font-weight: normal;
-  font-size: 15px;
-  line-height: 18px;
+  font-size: 14px;
+  line-height: 16px;
   transition: color 0.3s;
   margin: 5px 0;
 }
