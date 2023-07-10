@@ -87,7 +87,9 @@ const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
   }
 
   const setPage = (page: number) => {
-    setSearchParams({ ...filterParams, page });
+    if(page !== getCurrentPage()) {
+      setSearchParams({ ...filterParams, page });
+    }
   };
 
   return (

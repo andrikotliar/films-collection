@@ -1,7 +1,7 @@
 import './styles.css';
 import { useFilmsContext } from "@/context/FilmsContext";
-import classNames from "classnames";
 import { filmsSettings } from "@/constants";
+import { Button } from '@/components';
 
 const Pagination = () => {
   const {
@@ -28,18 +28,14 @@ const Pagination = () => {
   return (
     <div className="pagination">
       {pagesList(filmsCount).map((pageNumber) => (
-        <button
-          className={classNames(
-            'page-button',
-            {
-              'page-button--active': pageNumber === getCurrentPage()
-            }
-          )}
+        <Button
+          isActive={pageNumber === getCurrentPage()}
           key={pageNumber}
           onClick={() => setPage(pageNumber)}
+          design={pageNumber === getCurrentPage() ? 'primary' : 'empty'}
         >
           {pageNumber}
-        </button>
+        </Button>
       ))}
     </div>
   );

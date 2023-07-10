@@ -1,7 +1,7 @@
 import './styles.css';
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { CloseIcon, HomeIcon, SearchIcon } from '@/assets/icons';
+import { CloseIcon, HomeIcon, MenuIcon, SearchIcon } from '@/assets/icons';
 import FilmsCollectionLogo from '@/assets/logo/FilmsCollectionLogo';
 import Search from '../Search';
 import classNames from 'classnames';
@@ -27,14 +27,6 @@ const Header = () => {
           <FilmsCollectionLogo />
         </Link>
         <div className="header__actions">
-          <Link
-            className={classNames('header__button header__home-button', {
-              'header__button--active': pathname === '/'
-            })}
-            to="/"
-          >
-            <HomeIcon />
-          </Link>
           <button
             className={classNames('header__button header__search-button', {
               'header__button--active': isSearchVisible
@@ -45,12 +37,14 @@ const Header = () => {
               setIsMenuVisible(false);
             }}
           >
-            {isSearchVisible ? <CloseIcon /> : <SearchIcon />}
+            <div className="header__search-icon">
+              <SearchIcon color="#fff" />
+            </div>
           </button>
           <Search isOpen={isSearchVisible} />
           <button
-            className={classNames('header__menu-button', {
-              'header__menu-button--active': isMenuVisible
+            className={classNames('header__button', {
+              'header__button--active': isMenuVisible
             })}
             onClick={() => {
               setIsMenuVisible(!isMenuVisible);
@@ -58,7 +52,9 @@ const Header = () => {
               setIsSearchVisible(false);
             }}
           >
-            <span></span>
+            <div className="header__menu-icon">
+              <MenuIcon />
+            </div>
           </button>
         </div>
         <Menu isActive={isMenuVisible} />

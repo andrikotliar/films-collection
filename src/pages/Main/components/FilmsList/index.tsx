@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useFilmsContext } from "@/context/FilmsContext";
 import SelectedFilters from '../SelectedFilters';
 import Pagination from '../Pagination';
-import { Loader } from '@/components';
+import { Button, Loader } from '@/components';
 import { FilterIcon } from '@/assets/icons';
 import { useAppContext } from '@/context/AppContext';
 
@@ -14,7 +14,6 @@ const FilmsList = () => {
   const {
     films,
     isFilmsLoading,
-    pageData
   } = useFilmsContext();
 
   useEffect(() => {
@@ -23,15 +22,13 @@ const FilmsList = () => {
 
   return (
     <div className="list-container">
-      <button
-        className="show-filter-mobile"
+      <Button
         onClick={() => setIsFilterOpen(!isFilterOpen)}
+        icon={<FilterIcon />}
+        isHidden
       >
-        <div className="show-filter-mobile__icon">
-          <FilterIcon />
-        </div>
-        <span>Filter</span>
-      </button>
+        Filter
+      </Button>
       <SelectedFilters />
       {isFilmsLoading && <Loader />}
       {(films.length === 0 && !isFilmsLoading) && (
