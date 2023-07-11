@@ -1,0 +1,1 @@
+export { default as ExtraDetails } from './ExtraDetails';
