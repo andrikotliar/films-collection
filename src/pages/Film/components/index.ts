@@ -1,33 +1,15 @@
-import FilmTitle from './FilmTitle';
-import FilmMedia from './FilmMedia';
-import Awards from './Awards';
-import Cast from './Cast';
-import CrewList from './CrewList';
-import Chapters from './Chapters';
-import Poster from './Poster';
-import TopLine from './TopLine';
-import Trailer from './Trailer';
-import Episodes from './Episodes';
-import SectionTitle from './SectionTitle';
-import Synopsis from './Synopsis';
-import SeriesMedia from './SeriesMedia';
-import ExtraDetails from './ExtraDetails';
-import BoxOffice from './BoxOffice';
-
-export {
-  FilmTitle,
-  FilmMedia,
-  SectionTitle,
-  Awards,
-  Cast,
-  Chapters,
-  Poster,
-  TopLine,
-  Trailer,
-  Episodes,
-  Synopsis,
-  SeriesMedia,
-  CrewList,
-  ExtraDetails,
-  BoxOffice,
-};
+export * from './FilmTitle';
+export * from './FilmMedia';
+export * from './Awards';
+export * from './Cast';
+export * from './CrewList';
+export * from './Chapters';
+export * from './Poster';
+export * from './TopLine';
+export * from './Trailer';
+export * from './Episodes';
+export * from './SectionTitle';
+export * from './Synopsis';
+export * from './SeriesMedia';
+export * from './ExtraDetails';
+export * from './BoxOffice';
