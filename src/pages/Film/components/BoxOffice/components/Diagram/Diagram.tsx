@@ -63,4 +63,4 @@ const Diagram: FC<DiagramProps> = ({ budget, boxOffice, boxOfficeSubClassName })
   );
 };
 
-export default Diagram;
+export { Diagram };

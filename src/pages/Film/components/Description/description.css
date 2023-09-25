@@ -1,0 +1,31 @@
+.description {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+
+.description__header {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom: var(--app-border);
+}
+
+.description__header h2 {
+  font-size: 16px;
+}
+
+.description__content {
+  padding: 0 20px 20px 20px;
+}
+
+.description__text {
+  line-height: 1.5;
+}
+
+.description__episodes {
+  margin-top: 20px;
+}
+

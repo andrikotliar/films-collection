@@ -30,4 +30,4 @@ const ExtraDetailsItem: FC<ExtraDetailsItemProps> = ({
   );
 };
 
-export default ExtraDetailsItem;
+export { ExtraDetailsItem };

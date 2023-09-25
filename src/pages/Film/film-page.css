@@ -11,7 +11,7 @@
   height: var(--app-height);
 }
 
-.film__general {
+.film-general {
   display: flex;
   flex-direction: column;
   gap: 20px;

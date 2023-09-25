@@ -16,4 +16,4 @@ const LegendItem: FC<LegendProps> = ({ type, subClassName }) => {
   );
 };
 
-export default LegendItem;
+export { LegendItem };

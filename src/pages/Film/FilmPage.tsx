@@ -4,25 +4,23 @@ import { useParams } from 'react-router-dom';
 import { useFilmsContext } from '@/context/FilmsContext';
 import { Loader } from '@/components';
 import { setBrowserTitle } from '@/heplers';
-import ActorsProvider from '@/context/ActorsContext';
+import { ActorsProvider } from '@/context/ActorsContext';
 import { FilmData } from '@/types';
 import {
   FilmTitle,
   TopLine,
-  Episodes,
-  Synopsis,
+  FilmDesctiption,
   Cast,
   Awards,
   Chapters,
   SectionTitle,
-  SeriesMedia,
-  FilmMedia,
+  Media,
   CrewList,
   ExtraDetails,
   BoxOffice,
 } from './components';
 
-const Film = () => {
+const FilmPage = () => {
   const { id } = useParams();
   const { initialFilmsList } = useFilmsContext();
   const [ film, setFilm ] = useState<FilmData | null>(null);
@@ -60,26 +58,21 @@ const Film = () => {
   return (
     <ActorsProvider>
       <article className="film container">
-        <section className="film__general">
+        <section className="film-general">
           <FilmTitle title={film.title} />
           <TopLine filmData={film} />
         </section>
-        {(!film.type.includes('Series') && film.trailer) && (
-          <FilmMedia
-            poster={film.poster}
-            title={film.title}
-            trailer={film.trailer}
-          />
-        )}
+        <Media
+          type={film.type}
+          posters={film.posters}
+          title={film.title}
+          trailers={film.trailers}
+        />
 
-        {film.type.includes('Series') && film.seasons && (
-          <SeriesMedia
-            seasons={film.seasons}
-            title={film.title}
-          />
-        )}
-
-        <Synopsis text={film.synopsis} />
+        <FilmDesctiption
+          type={film.type}
+          description={film.description}
+        />
         
         <CrewList crew={film.crew} />
       
@@ -92,13 +85,6 @@ const Film = () => {
           <section>
             <SectionTitle>Awards</SectionTitle>
             <Awards awards={film.awards} />
-          </section>
-        )}
-        
-        {film.seasons && (
-          <section>
-            <SectionTitle>Episodes Overview</SectionTitle>
-            <Episodes seasons={film.seasons} />
           </section>
         )}
         
@@ -125,4 +111,4 @@ const Film = () => {
   );
 };
 
-export default Film;
+export default FilmPage;

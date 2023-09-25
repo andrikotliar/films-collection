@@ -1,1 +1,1 @@
-export { default as Chapters } from './Chapters';
+export * from './Chapters';

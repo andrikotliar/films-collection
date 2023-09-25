@@ -34,11 +34,11 @@ const Chapters: FC<ChaptersProps> = ({ data, parts }) => {
           key={film.id}
           id={film.id}
         >
-          <img src={`/posters/${film.poster}.webp`} alt="" />
+          <img src={film.posters[0]} alt={film.title} />
         </Link>
       ))}
     </div>
   );
 };
 
-export default Chapters;
+export { Chapters };

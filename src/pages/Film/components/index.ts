@@ -1,5 +1,5 @@
 export * from './FilmTitle';
-export * from './FilmMedia';
+export * from './Media';
 export * from './Awards';
 export * from './Cast';
 export * from './CrewList';
@@ -7,9 +7,7 @@ export * from './Chapters';
 export * from './Poster';
 export * from './TopLine';
 export * from './Trailer';
-export * from './Episodes';
 export * from './SectionTitle';
-export * from './Synopsis';
-export * from './SeriesMedia';
+export * from './Description';
 export * from './ExtraDetails';
 export * from './BoxOffice';

@@ -43,4 +43,4 @@ const Trailer: FC<{ trailer: string }> = ({ trailer }) => {
   );
 };
 
-export default Trailer;
+export { Trailer };

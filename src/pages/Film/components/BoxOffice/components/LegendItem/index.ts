@@ -1,1 +1,1 @@
-export { default as LegendItem } from './LegendItem';
+export * from './LegendItem';

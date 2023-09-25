@@ -1,0 +1,26 @@
+.media {
+  position: relative;
+  display: flex;
+  width: 100%;
+  aspect-ratio: 21 / 8;
+  gap: 20px;
+}
+
+.media__select {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+@media (max-width: 500px) {
+  .media {
+    flex-direction: column;
+    aspect-ratio: initial;
+  }
+
+  .media__select {
+    position: static;
+    width: 100%;
+  }
+}

@@ -24,4 +24,4 @@ const TopLine: FC<{ filmData: FilmData }> = ({ filmData }) => {
   );
 };
 
-export default TopLine;
+export { TopLine };

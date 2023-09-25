@@ -1,1 +1,1 @@
-export { default as DiagramDisplayValue } from './DiagramDisplayValue';
+export * from './DiagramDisplayValue';

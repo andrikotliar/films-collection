@@ -1,1 +1,1 @@
-export { default as CrewList } from './CrewList';
+export * from './CrewList';

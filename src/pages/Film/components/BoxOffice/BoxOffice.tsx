@@ -27,4 +27,4 @@ const BoxOffice: FC<BoxOfficeProps> = ({ budget, boxOffice }) => {
   );
 };
 
-export default BoxOffice;
+export { BoxOffice };

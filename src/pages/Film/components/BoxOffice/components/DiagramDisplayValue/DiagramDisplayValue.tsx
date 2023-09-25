@@ -26,4 +26,4 @@ const DiagramDisplayValue: FC<DisagramDisplayValueProps> = ({
   );
 };
 
-export default DiagramDisplayValue;
+export { DiagramDisplayValue };

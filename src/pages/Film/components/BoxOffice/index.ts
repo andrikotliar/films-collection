@@ -1,1 +1,1 @@
-export { default as BoxOffice } from './BoxOffice';
+export * from './BoxOffice';

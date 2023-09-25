@@ -1,1 +1,1 @@
-export { default as ExtraDetails } from './ExtraDetails';
+export * from './ExtraDetails';

@@ -42,4 +42,4 @@ const Awards: FC<{ awards: Award[] }> = ({ awards }) => {
   );
 };
 
-export default Awards;
+export { Awards };

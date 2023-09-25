@@ -29,4 +29,4 @@ const Legend: FC<LegendProps> = ({
   );
 };
 
-export default Legend;
+export { Legend };

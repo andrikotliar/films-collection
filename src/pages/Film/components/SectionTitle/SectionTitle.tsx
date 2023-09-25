@@ -9,4 +9,4 @@ const SectionTitle: FC<PropsWithChildren> = ({ children }) => {
   );
 };
 
-export default SectionTitle;
+export { SectionTitle };

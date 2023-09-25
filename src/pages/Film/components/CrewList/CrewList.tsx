@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { Crew } from "@/types";
-import CrewItem from "./components/CrewItem/CrewItem";
+import { CrewItem } from "./components";
 
 const CrewList: FC<{ crew: Crew[] }> = ({ crew }) => {
   return (
@@ -12,4 +12,4 @@ const CrewList: FC<{ crew: Crew[] }> = ({ crew }) => {
   );
 };
 
-export default CrewList;
+export { CrewList };

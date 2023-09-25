@@ -1,1 +1,1 @@
-export { default as TopLine } from './TopLine';
+export * from './TopLine';

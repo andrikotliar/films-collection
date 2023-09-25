@@ -25,4 +25,4 @@ const ExtraDetails: FC<{ filmData: FilmData }> = ({ filmData }) => {
   );
 };
 
-export default ExtraDetails;
+export { ExtraDetails };

@@ -69,4 +69,4 @@ const Cast: FC<{ cast: CastType[] }> = ({ cast }) => {
   );
 };
 
-export default Cast;
+export { Cast };

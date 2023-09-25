@@ -33,4 +33,4 @@ const CrewItem: FC<{ crewItem: Crew }> = ({
   );
 };
 
-export default CrewItem;
+export { CrewItem };
