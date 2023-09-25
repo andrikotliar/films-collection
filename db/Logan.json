@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Logan",
-  "poster": "logan",
-  "trailer": "Div0iP65aZo",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
   "crew": [
     {
       "role": "Directed by",
@@ -160,5 +157,16 @@
   "parts": {
     "title": "X-Men",
     "part": 9
-  }
+  },
+  "trailers": [
+    "Div0iP65aZo"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/logan.webp"
+  ],
+  "description": [
+    {
+      "plot": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety."
+    }
+  ]
 }

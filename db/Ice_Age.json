@@ -4,13 +4,10 @@
     "Animation"
   ],
   "title": "Ice Age",
-  "poster": "ice_age_1",
-  "trailer": "i4noiCRJRoE",
   "genres": [
     "Adventures",
     "Comedy"
   ],
-  "synopsis": "Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe.",
   "crew": [
     {
       "role": "Directed by",
@@ -100,5 +97,16 @@
   "parts": {
     "title": "Ice Age",
     "part": 1
-  }
+  },
+  "trailers": [
+    "i4noiCRJRoE"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/ice_age_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe."
+    }
+  ]
 }

@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Pirates of the Caribbean: At World's End",
-  "poster": "pirates_3",
-  "trailer": "HKSZtp_OGHY",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "synopsis": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.",
   "crew": [
     {
       "role": "Directed by",
@@ -134,5 +131,16 @@
   "parts": {
     "title": "Pirates of the Caribbean",
     "part": 3
-  }
+  },
+  "trailers": [
+    "HKSZtp_OGHY"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/pirates_3.webp"
+  ],
+  "description": [
+    {
+      "plot": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle."
+    }
+  ]
 }

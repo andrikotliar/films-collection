@@ -4,14 +4,11 @@
     "Film"
   ],
   "title": "Your Name",
-  "poster": "your_name",
-  "trailer": "xU47nhruN-Q",
   "genres": [
     "Anime",
     "Drama",
     "Fantasy"
   ],
-  "synopsis": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?",
   "crew": [
     {
       "role": "Directed by",
@@ -122,5 +119,16 @@
     }
   ],
   "budget": 3480000,
-  "boxoffice": 358000000
+  "boxoffice": 358000000,
+  "trailers": [
+    "xU47nhruN-Q"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/your_name.webp"
+  ],
+  "description": [
+    {
+      "plot": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?"
+    }
+  ]
 }

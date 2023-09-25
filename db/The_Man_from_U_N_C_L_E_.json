@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Man from U.N.C.L.E.",
-  "poster": "the_man_from_uncle",
-  "trailer": "CzYRlISYE8Y",
   "genres": [
     "Action",
     "Comedy"
   ],
-  "synopsis": "In the early 1960s, CIA agent Napoleon Solo and KGB operative Illya Kuryakin participate in a joint mission against a mysterious criminal organization, which is working to proliferate nuclear weapons.",
   "crew": [
     {
       "role": "Directed by",
@@ -131,5 +128,16 @@
     }
   ],
   "budget": 75000000,
-  "boxoffice": 107000000
+  "boxoffice": 107000000,
+  "trailers": [
+    "CzYRlISYE8Y"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/the_man_from_uncle.webp"
+  ],
+  "description": [
+    {
+      "plot": "In the early 1960s, CIA agent Napoleon Solo and KGB operative Illya Kuryakin participate in a joint mission against a mysterious criminal organization, which is working to proliferate nuclear weapons."
+    }
+  ]
 }

@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Amazing Spider-Man",
-  "poster": "amazing_spider_man_1",
-  "trailer": "-tnxzJ0SSOw",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe.",
   "crew": [
     {
       "role": "Directed by",
@@ -142,5 +139,16 @@
   "parts": {
     "title": "The Amazing Spider-Man",
     "part": 1
-  }
+  },
+  "trailers": [
+    "-tnxzJ0SSOw"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/amazing_spider_man_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe."
+    }
+  ]
 }

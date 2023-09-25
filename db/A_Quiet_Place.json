@@ -4,14 +4,11 @@
     "Film"
   ],
   "title": "A Quiet Place",
-  "poster": "quiet_place",
-  "trailer": "WR7cc5t7tv8",
   "genres": [
     "Sci-Fi",
     "Drama",
     "Horror"
   ],
-  "synopsis": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing.",
   "crew": [
     {
       "role": "Directed by",
@@ -129,5 +126,16 @@
   "parts": {
     "title": "Quiet Place",
     "part": 1
-  }
+  },
+  "trailers": [
+    "WR7cc5t7tv8"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/quiet_place.webp"
+  ],
+  "description": [
+    {
+      "plot": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing."
+    }
+  ]
 }

@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Alien",
-  "poster": "alien_1",
-  "trailer": "jQ5lPt9edzQ",
   "genres": [
     "Sci-Fi",
     "Horror"
   ],
-  "synopsis": "After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun.",
   "crew": [
     {
       "role": "Directed by",
@@ -159,5 +156,16 @@
   "parts": {
     "title": "Aliens",
     "part": 1
-  }
+  },
+  "trailers": [
+    "jQ5lPt9edzQ"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/alien_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun."
+    }
+  ]
 }

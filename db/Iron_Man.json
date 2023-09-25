@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Iron Man",
-  "poster": "iron_man_1",
-  "trailer": "8hYlB38asDY",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
   "crew": [
     {
       "role": "Directed by",
@@ -156,5 +153,16 @@
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 1
-  }
+  },
+  "trailers": [
+    "8hYlB38asDY"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/iron_man_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
+    }
+  ]
 }

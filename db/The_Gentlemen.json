@@ -4,14 +4,11 @@
     "Film"
   ],
   "title": "The Gentlemen",
-  "poster": "gentlemen",
-  "trailer": "vaN8BtA8OJk",
   "genres": [
     "Action",
     "Comedy",
     "Crime"
   ],
-  "synopsis": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
   "crew": [
     {
       "role": "Directed by",
@@ -141,5 +138,16 @@
     }
   ],
   "budget": 22000000,
-  "boxoffice": 115000000
+  "boxoffice": 115000000,
+  "trailers": [
+    "vaN8BtA8OJk"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/gentlemen.webp"
+  ],
+  "description": [
+    {
+      "plot": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him."
+    }
+  ]
 }

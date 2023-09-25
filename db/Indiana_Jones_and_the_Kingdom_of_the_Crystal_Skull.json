@@ -4,14 +4,11 @@
     "Film"
   ],
   "title": "Indiana Jones and the Kingdom of the Crystal Skull",
-  "poster": "indiana_jones_4",
-  "trailer": "WAdJf4wTC5Y",
   "genres": [
     "Adventures",
     "Fantasy",
     "Action"
   ],
-  "synopsis": "In 1957, archaeologist and adventurer Dr. Henry \"Indiana\" Jones, Jr. is called back into action and becomes entangled in a Soviet plot to uncover the secret behind mysterious artifacts known as the Crystal Skulls.",
   "crew": [
     {
       "role": "Directed by",
@@ -128,5 +125,16 @@
   "parts": {
     "title": "Indiana Jones",
     "part": 4
-  }
+  },
+  "trailers": [
+    "WAdJf4wTC5Y"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/indiana_jones_4.webp"
+  ],
+  "description": [
+    {
+      "plot": "In 1957, archaeologist and adventurer Dr. Henry \"Indiana\" Jones, Jr. is called back into action and becomes entangled in a Soviet plot to uncover the secret behind mysterious artifacts known as the Crystal Skulls."
+    }
+  ]
 }

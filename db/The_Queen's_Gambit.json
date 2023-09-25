@@ -4,12 +4,10 @@
     "Series"
   ],
   "title": "The Queen's Gambit",
-  "poster": "queens_gambit",
   "genres": [
     "Drama",
     "Sport"
   ],
-  "synopsis": "Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s USA. But child stardom comes at a price.",
   "crew": [
     {
       "role": "Created by",
@@ -157,11 +155,16 @@
       ]
     }
   ],
-  "seasons": [
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/queens_gambit.webp"
+  ],
+  "trailers": [
+    "oZn3qSgmLqI"
+  ],
+  "description": [
     {
-      "season": 1,
-      "trailer": "oZn3qSgmLqI",
-      "year": 2020,
+      "title": "Season 1",
+      "plot": "Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s USA. But child stardom comes at a price.",
       "episodes": [
         {
           "episodeOverall": 1,
@@ -199,7 +202,7 @@
           "title": "End Game"
         }
       ],
-      "poster": "queens_gambit"
+      "year": 2020
     }
   ]
 }

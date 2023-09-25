@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Guardians of the Galaxy: Vol. II",
-  "poster": "guardians_of_the_galaxy_2",
-  "trailer": "wUn05hdkhjM",
   "genres": [
     "Sci-Fi",
     "Comedy"
   ],
-  "synopsis": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
   "crew": [
     {
       "role": "Directed by",
@@ -166,5 +163,16 @@
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 15
-  }
+  },
+  "trailers": [
+    "wUn05hdkhjM"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/guardians_of_the_galaxy_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage."
+    }
+  ]
 }

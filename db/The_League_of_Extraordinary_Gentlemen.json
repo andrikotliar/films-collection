@@ -4,14 +4,11 @@
     "Film"
   ],
   "title": "The League of Extraordinary Gentlemen",
-  "poster": "league_of_extraordinary_gentlemen",
-  "trailer": "_WWIiTlGyYQ",
   "genres": [
     "Adventures",
     "Fantasy",
     "Action"
   ],
-  "synopsis": "In an alternate Victorian Age world, a group of famous contemporary fantasy, science fiction, and adventure characters team up on a secret mission.",
   "crew": [
     {
       "role": "Directed by",
@@ -129,5 +126,16 @@
     }
   ],
   "budget": 78000000,
-  "boxoffice": 179000000
+  "boxoffice": 179000000,
+  "trailers": [
+    "_WWIiTlGyYQ"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/league_of_extraordinary_gentlemen.webp"
+  ],
+  "description": [
+    {
+      "plot": "In an alternate Victorian Age world, a group of famous contemporary fantasy, science fiction, and adventure characters team up on a secret mission."
+    }
+  ]
 }

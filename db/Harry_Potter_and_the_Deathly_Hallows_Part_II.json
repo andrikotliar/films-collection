@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Harry Potter and the Deathly Hallows: Part II",
-  "poster": "harry_potter_8",
-  "trailer": "5NYt1qirBWg",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "synopsis": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
   "crew": [
     {
       "role": "Directed by",
@@ -150,5 +147,16 @@
   "parts": {
     "title": "Harry Potter Universe",
     "part": 10
-  }
+  },
+  "trailers": [
+    "5NYt1qirBWg"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/harry_potter_8.webp"
+  ],
+  "description": [
+    {
+      "plot": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts."
+    }
+  ]
 }

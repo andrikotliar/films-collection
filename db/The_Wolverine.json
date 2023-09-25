@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Wolverine",
-  "poster": "wolverine",
-  "trailer": "toLpchTUYk8",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "Wolverine comes to Japan to meet an old friend whose life he saved years ago, and gets embroiled in a conspiracy involving yakuza and mutants.",
   "crew": [
     {
       "role": "Directed by",
@@ -123,5 +120,16 @@
   "parts": {
     "title": "X-Men",
     "part": 6
-  }
+  },
+  "trailers": [
+    "toLpchTUYk8"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/wolverine.webp"
+  ],
+  "description": [
+    {
+      "plot": "Wolverine comes to Japan to meet an old friend whose life he saved years ago, and gets embroiled in a conspiracy involving yakuza and mutants."
+    }
+  ]
 }

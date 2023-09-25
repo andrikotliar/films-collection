@@ -4,12 +4,10 @@
     "Series"
   ],
   "title": "Locke & Key",
-  "poster": "locke_key",
   "genres": [
     "Fantasy",
     "Drama"
   ],
-  "synopsis": "After their father is murdered under mysterious circumstances, the three Locke siblings and their mother move into their ancestral home, Keyhouse, which they discover is full of magical keys that may be connected to their father's death.",
   "crew": [
     {
       "role": "Created by",
@@ -244,11 +242,20 @@
       "title": "Fantasy"
     }
   ],
-  "seasons": [
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/locke_key.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/locke_key_s2.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/locke_key_s3.webp"
+  ],
+  "trailers": [
+    "_EonRi0yQOE",
+    "lxJdvbG2fPw",
+    "PX-t1wYNtBs"
+  ],
+  "description": [
     {
-      "season": 1,
-      "trailer": "_EonRi0yQOE",
-      "year": 2020,
+      "title": "Season 1",
+      "plot": "After their father is murdered under mysterious circumstances, the three Locke siblings and their mother move into their ancestral home, Keyhouse, which they discover is full of magical keys that may be connected to their father's death.",
       "episodes": [
         {
           "episodeOverall": 1,
@@ -301,12 +308,11 @@
           "title": "Crown of Shadows"
         }
       ],
-      "poster": "locke_key"
+      "year": 2020
     },
     {
-      "season": 2,
-      "trailer": "lxJdvbG2fPw",
-      "year": 2021,
+      "title": "Season 2",
+      "plot": "After their father is murdered under mysterious circumstances, the three Locke siblings and their mother move into their ancestral home, Keyhouse, which they discover is full of magical keys that may be connected to their father's death.",
       "episodes": [
         {
           "episodeOverall": 11,
@@ -359,12 +365,11 @@
           "title": "Cliffhanger"
         }
       ],
-      "poster": "locke_key_s2"
+      "year": 2021
     },
     {
-      "season": 3,
-      "trailer": "PX-t1wYNtBs",
-      "year": 2022,
+      "title": "Season 3",
+      "plot": "After their father is murdered under mysterious circumstances, the three Locke siblings and their mother move into their ancestral home, Keyhouse, which they discover is full of magical keys that may be connected to their father's death.",
       "episodes": [
         {
           "episodeOverall": 21,
@@ -407,7 +412,7 @@
           "title": "Farewell"
         }
       ],
-      "poster": "locke_key_s3"
+      "year": 2022
     }
   ]
 }

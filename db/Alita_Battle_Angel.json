@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Alita: Battle Angel",
-  "poster": "alita",
-  "trailer": "w7pYhpJaJW8",
   "genres": [
     "Cyberpunk",
     "Action"
   ],
-  "synopsis": "A deactivated female cyborg is revived, but cannot remember anything of her past life and goes on a quest to find out who she is.",
   "crew": [
     {
       "role": "Directed by",
@@ -124,5 +121,16 @@
     }
   ],
   "budget": 170000000,
-  "boxoffice": 400000000
+  "boxoffice": 400000000,
+  "trailers": [
+    "w7pYhpJaJW8"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/alita.webp"
+  ],
+  "description": [
+    {
+      "plot": "A deactivated female cyborg is revived, but cannot remember anything of her past life and goes on a quest to find out who she is."
+    }
+  ]
 }

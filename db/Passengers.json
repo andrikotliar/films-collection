@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Passengers",
-  "poster": "passengers",
-  "trailer": "7BWWWQzTpNU",
   "genres": [
     "Sci-Fi",
     "Romance"
   ],
-  "synopsis": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early.",
   "crew": [
     {
       "role": "Directed by",
@@ -116,5 +113,16 @@
     }
   ],
   "budget": 110000000,
-  "boxoffice": 303000000
+  "boxoffice": 303000000,
+  "trailers": [
+    "7BWWWQzTpNU"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/passengers.webp"
+  ],
+  "description": [
+    {
+      "plot": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early."
+    }
+  ]
 }

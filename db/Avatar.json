@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Avatar",
-  "poster": "avatar",
-  "trailer": "CM79GTEm2ps",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
   "crew": [
     {
       "role": "Directed by",
@@ -197,5 +194,16 @@
   "parts": {
     "title": "Avatar",
     "part": 1
-  }
+  },
+  "trailers": [
+    "CM79GTEm2ps"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/avatar.webp"
+  ],
+  "description": [
+    {
+      "plot": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home."
+    }
+  ]
 }

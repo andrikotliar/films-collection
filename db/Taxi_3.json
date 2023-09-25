@@ -4,12 +4,9 @@
     "Film"
   ],
   "title": "Taxi 3",
-  "poster": "taxi_3",
-  "trailer": "XLP-rf3dHOQ",
   "genres": [
     "Comedy"
   ],
-  "synopsis": "Out to stop a new gang disguised as Santa Claus, Emilien and Daniel must also handle major changes in their personal relationships.",
   "crew": [
     {
       "role": "Directed by",
@@ -131,5 +128,16 @@
   "parts": {
     "title": "Besson's Taxi",
     "part": 3
-  }
+  },
+  "trailers": [
+    "XLP-rf3dHOQ"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/taxi_3.webp"
+  ],
+  "description": [
+    {
+      "plot": "Out to stop a new gang disguised as Santa Claus, Emilien and Daniel must also handle major changes in their personal relationships."
+    }
+  ]
 }

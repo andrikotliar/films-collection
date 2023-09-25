@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Back to the Future: Part II",
-  "poster": "back_to_the_future_2",
-  "trailer": "MdENmefJRpw",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "synopsis": "After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip.",
   "crew": [
     {
       "role": "Directed by",
@@ -119,5 +116,16 @@
   "parts": {
     "title": "Back to the Future",
     "part": 2
-  }
+  },
+  "trailers": [
+    "MdENmefJRpw"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/back_to_the_future_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip."
+    }
+  ]
 }

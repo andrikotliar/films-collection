@@ -4,12 +4,9 @@
     "Film"
   ],
   "title": "District 13",
-  "poster": "d13_1",
-  "trailer": "Mcmkx1klOpE",
   "genres": [
     "Action"
   ],
-  "synopsis": "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb.",
   "crew": [
     {
       "role": "Directed by",
@@ -113,5 +110,16 @@
   "parts": {
     "title": "District 13",
     "part": 1
-  }
+  },
+  "trailers": [
+    "Mcmkx1klOpE"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/d13_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb."
+    }
+  ]
 }

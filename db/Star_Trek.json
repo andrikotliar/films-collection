@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Star Trek",
-  "poster": "star_trek_1",
-  "trailer": "pKFUZ10Wmbw",
   "genres": [
     "Sci-Fi",
     "SpaceOpera"
   ],
-  "synopsis": "The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time.",
   "crew": [
     {
       "role": "Directed by",
@@ -185,5 +182,16 @@
   "parts": {
     "title": "Star Trek",
     "part": 1
-  }
+  },
+  "trailers": [
+    "pKFUZ10Wmbw"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/star_trek_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time."
+    }
+  ]
 }

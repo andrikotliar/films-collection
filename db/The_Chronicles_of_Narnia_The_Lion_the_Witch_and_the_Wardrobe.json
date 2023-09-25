@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
-  "poster": "narnia_1",
-  "trailer": "lWKj41HZBzM",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "synopsis": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion.",
   "crew": [
     {
       "role": "Directed by",
@@ -169,5 +166,16 @@
   "parts": {
     "title": "The Chronicles of Narnia",
     "part": 1
-  }
+  },
+  "trailers": [
+    "lWKj41HZBzM"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/narnia_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion."
+    }
+  ]
 }

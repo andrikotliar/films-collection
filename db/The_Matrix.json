@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Matrix",
-  "poster": "matrix_1",
-  "trailer": "m8e-FF8MsqU",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
   "crew": [
     {
       "role": "Directed by",
@@ -164,5 +161,16 @@
   "parts": {
     "title": "The Matrix",
     "part": 1
-  }
+  },
+  "trailers": [
+    "m8e-FF8MsqU"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/matrix_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
+    }
+  ]
 }

@@ -4,12 +4,10 @@
     "Series"
   ],
   "title": "The Umbrella Academy",
-  "poster": "umbrella_academy",
   "genres": [
     "Fantasy",
     "Comedy"
   ],
-  "synopsis": "A family of former child heroes, now grown apart, must reunite to continue to protect the world.",
   "crew": [
     {
       "role": "Created by",
@@ -294,11 +292,20 @@
       "title": "Superheroes"
     }
   ],
-  "seasons": [
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/umbrella_academy.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/umbrella_academy_s2.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/umbrella_academy_s3.webp"
+  ],
+  "trailers": [
+    "0DAmWHxeoKw",
+    "SGgXLbZnr1Y",
+    "hs6alRuY1UU"
+  ],
+  "description": [
     {
-      "season": 1,
-      "trailer": "0DAmWHxeoKw",
-      "year": 2019,
+      "title": "Season 1",
+      "plot": "A family of former child heroes, now grown apart, must reunite to continue to protect the world.",
       "episodes": [
         {
           "episodeOverall": 1,
@@ -351,12 +358,11 @@
           "title": "The White Violin"
         }
       ],
-      "poster": "umbrella_academy"
+      "year": 2019
     },
     {
-      "season": 2,
-      "trailer": "SGgXLbZnr1Y",
-      "year": 2020,
+      "title": "Season 2",
+      "plot": "A family of former child heroes, now grown apart, must reunite to continue to protect the world.",
       "episodes": [
         {
           "episodeOverall": 11,
@@ -409,12 +415,11 @@
           "title": "The End of Something"
         }
       ],
-      "poster": "umbrella_academy_s2"
+      "year": 2020
     },
     {
-      "season": 3,
-      "trailer": "hs6alRuY1UU",
-      "year": 2022,
+      "title": "Season 3",
+      "plot": "A family of former child heroes, now grown apart, must reunite to continue to protect the world.",
       "episodes": [
         {
           "episodeOverall": 21,
@@ -467,7 +472,7 @@
           "title": "Oblivion"
         }
       ],
-      "poster": "umbrella_academy_s3"
+      "year": 2022
     }
   ]
 }

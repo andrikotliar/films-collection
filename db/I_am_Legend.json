@@ -4,12 +4,9 @@
     "Film"
   ],
   "title": "I am Legend",
-  "poster": "i_am_legend",
-  "trailer": "dtKMEAXyPkg",
   "genres": [
     "Sci-Fi"
   ],
-  "synopsis": "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure.",
   "crew": [
     {
       "role": "Directed by",
@@ -129,6 +126,17 @@
       "nominations": [
         "Best Male Performance"
       ]
+    }
+  ],
+  "trailers": [
+    "dtKMEAXyPkg"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/i_am_legend.webp"
+  ],
+  "description": [
+    {
+      "plot": "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure."
     }
   ]
 }

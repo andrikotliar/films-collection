@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Lord of the Rings: Return of the King",
-  "poster": "middle_earth_6",
-  "trailer": "y2rYRu8UW8M",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "synopsis": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
   "crew": [
     {
       "role": "Directed by",
@@ -220,5 +217,16 @@
   "parts": {
     "title": "Middle-Earth Universe",
     "part": 6
-  }
+  },
+  "trailers": [
+    "y2rYRu8UW8M"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/middle_earth_6.webp"
+  ],
+  "description": [
+    {
+      "plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+    }
+  ]
 }

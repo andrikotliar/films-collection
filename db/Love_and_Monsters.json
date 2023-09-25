@@ -4,14 +4,11 @@
     "Film"
   ],
   "title": "Love and Monsters",
-  "poster": "love_and_monsters",
-  "trailer": "1dzGhJ5QGsQ",
   "genres": [
     "Adventures",
     "Action",
     "Comedy"
   ],
-  "synopsis": "Seven years after he survived the monster apocalypse, lovably hapless Joel leaves his cozy underground bunker behind on a quest to reunite with his ex.",
   "crew": [
     {
       "role": "Directed by",
@@ -130,5 +127,16 @@
     }
   ],
   "budget": 30000000,
-  "boxoffice": 1000000
+  "boxoffice": 1000000,
+  "trailers": [
+    "1dzGhJ5QGsQ"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/love_and_monsters.webp"
+  ],
+  "description": [
+    {
+      "plot": "Seven years after he survived the monster apocalypse, lovably hapless Joel leaves his cozy underground bunker behind on a quest to reunite with his ex."
+    }
+  ]
 }

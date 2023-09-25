@@ -4,14 +4,11 @@
     "Film"
   ],
   "title": "Indiana Jones and the Raiders of the Lost Ark",
-  "poster": "indiana_jones_1",
-  "trailer": "Rh_BJXG1-44",
   "genres": [
     "Adventures",
     "Fantasy",
     "Action"
   ],
-  "synopsis": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers.",
   "crew": [
     {
       "role": "Directed by",
@@ -161,5 +158,16 @@
   "parts": {
     "title": "Indiana Jones",
     "part": 1
-  }
+  },
+  "trailers": [
+    "Rh_BJXG1-44"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/indiana_jones_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers."
+    }
+  ]
 }

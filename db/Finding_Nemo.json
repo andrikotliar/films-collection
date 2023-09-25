@@ -4,12 +4,9 @@
     "Animation"
   ],
   "title": "Finding Nemo",
-  "poster": "finding_nemo",
-  "trailer": "wZdpNglLbt8",
   "genres": [
     "Adventures"
   ],
-  "synopsis": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
   "crew": [
     {
       "role": "Directed by",
@@ -154,6 +151,17 @@
       "nominations": [
         "Best Animated Feature"
       ]
+    }
+  ],
+  "trailers": [
+    "wZdpNglLbt8"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/finding_nemo.webp"
+  ],
+  "description": [
+    {
+      "plot": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home."
     }
   ]
 }

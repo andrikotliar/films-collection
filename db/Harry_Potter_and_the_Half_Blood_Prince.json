@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Harry Potter and the Half-Blood Prince",
-  "poster": "harry_potter_6",
-  "trailer": "sg81Lts5kYY",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "synopsis": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past.",
   "crew": [
     {
       "role": "Directed by",
@@ -140,5 +137,16 @@
   "parts": {
     "title": "Harry Potter Universe",
     "part": 8
-  }
+  },
+  "trailers": [
+    "sg81Lts5kYY"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/harry_potter_6.webp"
+  ],
+  "description": [
+    {
+      "plot": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past."
+    }
+  ]
 }

@@ -4,14 +4,11 @@
     "Film"
   ],
   "title": "The Intouchables",
-  "poster": "intouchables",
-  "trailer": "34WIbmXkewU",
   "genres": [
     "Biography",
     "Comedy",
     "Drama"
   ],
-  "synopsis": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
   "crew": [
     {
       "role": "Directed by",
@@ -111,5 +108,16 @@
     }
   ],
   "budget": 11000000,
-  "boxoffice": 427000000
+  "boxoffice": 427000000,
+  "trailers": [
+    "34WIbmXkewU"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/intouchables.webp"
+  ],
+  "description": [
+    {
+      "plot": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver."
+    }
+  ]
 }

@@ -4,14 +4,11 @@
     "Film"
   ],
   "title": "Ford v Ferrari",
-  "poster": "fordvsferrari",
-  "trailer": "zyYgDtY2AMY",
   "genres": [
     "Action",
     "Drama",
     "Biography"
   ],
-  "synopsis": "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.",
   "crew": [
     {
       "role": "Directed by",
@@ -120,5 +117,16 @@
     }
   ],
   "budget": 98000000,
-  "boxoffice": 226000000
+  "boxoffice": 226000000,
+  "trailers": [
+    "zyYgDtY2AMY"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fordvsferrari.webp"
+  ],
+  "description": [
+    {
+      "plot": "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966."
+    }
+  ]
 }

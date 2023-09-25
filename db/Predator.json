@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Predator",
-  "poster": "predator",
-  "trailer": "_1wDBNHYDv8",
   "genres": [
     "Action",
     "Horror"
   ],
-  "synopsis": "A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior.",
   "crew": [
     {
       "role": "Directed by",
@@ -134,5 +131,16 @@
     }
   ],
   "budget": 15000000,
-  "boxoffice": 98000000
+  "boxoffice": 98000000,
+  "trailers": [
+    "_1wDBNHYDv8"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/predator.webp"
+  ],
+  "description": [
+    {
+      "plot": "A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior."
+    }
+  ]
 }

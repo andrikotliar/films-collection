@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Terminator",
-  "poster": "terminator_1",
-  "trailer": "k64P4l2Wmeg",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "A seemingly indestructible android is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs.",
   "crew": [
     {
       "role": "Directed by",
@@ -108,5 +105,16 @@
   "parts": {
     "title": "The Terminator",
     "part": 1
-  }
+  },
+  "trailers": [
+    "k64P4l2Wmeg"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/terminator_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "A seemingly indestructible android is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs."
+    }
+  ]
 }

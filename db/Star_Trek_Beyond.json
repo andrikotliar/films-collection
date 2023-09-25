@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Star Trek: Beyond",
-  "poster": "star_trek_3",
-  "trailer": "XRVD32rnzOw",
   "genres": [
     "Sci-Fi",
     "SpaceOpera"
   ],
-  "synopsis": "The crew of the USS Enterprise explores the furthest reaches of uncharted space, where they encounter a new ruthless enemy, who puts them, and everything the Federation stands for, to the test.",
   "crew": [
     {
       "role": "Directed by",
@@ -185,5 +182,16 @@
   "parts": {
     "title": "Star Trek",
     "part": 3
-  }
+  },
+  "trailers": [
+    "XRVD32rnzOw"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/star_trek_3.webp"
+  ],
+  "description": [
+    {
+      "plot": "The crew of the USS Enterprise explores the furthest reaches of uncharted space, where they encounter a new ruthless enemy, who puts them, and everything the Federation stands for, to the test."
+    }
+  ]
 }

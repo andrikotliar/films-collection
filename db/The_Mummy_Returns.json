@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Mummy Returns",
-  "poster": "mummy_2",
-  "trailer": "3yXjs7BUKYc",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "synopsis": "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror.",
   "crew": [
     {
       "role": "Directed by",
@@ -153,5 +150,16 @@
   "parts": {
     "title": "The Mummy",
     "part": 2
-  }
+  },
+  "trailers": [
+    "3yXjs7BUKYc"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mummy_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror."
+    }
+  ]
 }

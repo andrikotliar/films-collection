@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Call of the Wild",
-  "poster": "the_call_of_the_wild",
-  "trailer": "h1LG9So2ZBk",
   "genres": [
     "Adventures",
     "Drama"
   ],
-  "synopsis": "A sled dog struggles for survival in the wilds of the Yukon.",
   "crew": [
     {
       "role": "Directed by",
@@ -94,5 +91,16 @@
     }
   ],
   "budget": 135000000,
-  "boxoffice": 110000000
+  "boxoffice": 110000000,
+  "trailers": [
+    "h1LG9So2ZBk"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/the_call_of_the_wild.webp"
+  ],
+  "description": [
+    {
+      "plot": "A sled dog struggles for survival in the wilds of the Yukon."
+    }
+  ]
 }

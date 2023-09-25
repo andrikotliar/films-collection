@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "2Fast 2Furious",
-  "poster": "fast_and_furious_2",
-  "trailer": "F_VIM03DXWI",
   "genres": [
     "Action",
     "Crime"
   ],
-  "synopsis": "Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself.",
   "crew": [
     {
       "role": "Directed by",
@@ -125,5 +122,16 @@
   "parts": {
     "title": "Fast and Furious",
     "part": 2
-  }
+  },
+  "trailers": [
+    "F_VIM03DXWI"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself."
+    }
+  ]
 }

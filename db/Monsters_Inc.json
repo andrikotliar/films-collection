@@ -4,13 +4,10 @@
     "Animation"
   ],
   "title": "Monsters, Inc.",
-  "poster": "monsters_inc",
-  "trailer": "6tCxnHCqqxg",
   "genres": [
     "Adventures",
     "Comedy"
   ],
-  "synopsis": "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, 2 monsters realize things may not be what they think.",
   "crew": [
     {
       "role": "Directed by",
@@ -131,6 +128,17 @@
       "nominations": [
         "Best Song Written for Visual Media"
       ]
+    }
+  ],
+  "trailers": [
+    "6tCxnHCqqxg"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/monsters_inc.webp"
+  ],
+  "description": [
+    {
+      "plot": "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, 2 monsters realize things may not be what they think."
     }
   ]
 }

@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Interstellar",
-  "poster": "interstellar",
-  "trailer": "zSWdZVtXT7E",
   "genres": [
     "Sci-Fi",
     "Drama"
   ],
-  "synopsis": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
   "crew": [
     {
       "role": "Directed by",
@@ -151,6 +148,17 @@
       "nominations": [
         "Best Sci-Fi/Horror Movie"
       ]
+    }
+  ],
+  "trailers": [
+    "zSWdZVtXT7E"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/interstellar.webp"
+  ],
+  "description": [
+    {
+      "plot": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
     }
   ]
 }

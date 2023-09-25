@@ -4,14 +4,11 @@
     "Film"
   ],
   "title": "Men in Black II",
-  "poster": "mib_2",
-  "trailer": "p4NJHqoojOU",
   "genres": [
     "Sci-Fi",
     "Action",
     "Comedy"
   ],
-  "synopsis": "Agent J needs help so he is sent to find Agent K and restore his memory.",
   "crew": [
     {
       "role": "Directed by",
@@ -122,5 +119,16 @@
   "parts": {
     "title": "Men in Black",
     "part": 2
-  }
+  },
+  "trailers": [
+    "p4NJHqoojOU"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mib_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "Agent J needs help so he is sent to find Agent K and restore his memory."
+    }
+  ]
 }

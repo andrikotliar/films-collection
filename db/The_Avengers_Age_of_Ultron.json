@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Avengers: Age of Ultron",
-  "poster": "avengers_2",
-  "trailer": "tmeOjFno6Do",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.",
   "crew": [
     {
       "role": "Directed by",
@@ -197,5 +194,16 @@
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 11
-  }
+  },
+  "trailers": [
+    "tmeOjFno6Do"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/avengers_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan."
+    }
+  ]
 }

@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Mummy: Tomb of Dragon Emperor",
-  "poster": "mummy_3",
-  "trailer": "5-4qSE2Ch0Y",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "synopsis": "In the Far East, Alex O'Connell, the son of famed mummy fighters Rick and Evy O'Connell, unearths the mummy of the first Emperor of Qin -- a shape-shifting entity cursed by a witch centuries ago.",
   "crew": [
     {
       "role": "Directed by",
@@ -149,5 +146,16 @@
   "parts": {
     "title": "The Mummy",
     "part": 3
-  }
+  },
+  "trailers": [
+    "5-4qSE2Ch0Y"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mummy_3.webp"
+  ],
+  "description": [
+    {
+      "plot": "In the Far East, Alex O'Connell, the son of famed mummy fighters Rick and Evy O'Connell, unearths the mummy of the first Emperor of Qin -- a shape-shifting entity cursed by a witch centuries ago."
+    }
+  ]
 }

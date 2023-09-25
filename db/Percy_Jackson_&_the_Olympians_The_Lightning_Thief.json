@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Percy Jackson & the Olympians: The Lightning Thief",
-  "poster": "percy_jackson",
-  "trailer": "xko1Mx5w4tg",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "synopsis": "A teenager discovers he's the descendant of a Greek god and sets out on an adventure to settle an on-going battle between the gods.",
   "crew": [
     {
       "role": "Directed by",
@@ -158,5 +155,16 @@
     }
   ],
   "budget": 95000000,
-  "boxoffice": 226000000
+  "boxoffice": 226000000,
+  "trailers": [
+    "xko1Mx5w4tg"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/percy_jackson.webp"
+  ],
+  "description": [
+    {
+      "plot": "A teenager discovers he's the descendant of a Greek god and sets out on an adventure to settle an on-going battle between the gods."
+    }
+  ]
 }

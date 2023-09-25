@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Spider-Man 3",
-  "poster": "raimi_spider_man_3",
-  "trailer": "wPosLpgMtTY",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge.",
   "crew": [
     {
       "role": "Directed by",
@@ -156,5 +153,16 @@
   "parts": {
     "title": "Raimi's Spider-Man",
     "part": 3
-  }
+  },
+  "trailers": [
+    "wPosLpgMtTY"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/raimi_spider_man_3.webp"
+  ],
+  "description": [
+    {
+      "plot": "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge."
+    }
+  ]
 }

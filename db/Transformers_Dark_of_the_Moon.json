@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Transformers: Dark of the Moon",
-  "poster": "transformers_3",
-  "trailer": "bTIrEZM-cFE",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "The Autobots learn of a Cybertronian spacecraft hidden on the moon, and race against the Decepticons to reach it and to learn its secrets.",
   "crew": [
     {
       "role": "Directed by",
@@ -167,5 +164,16 @@
   "parts": {
     "title": "Transformers",
     "part": 4
-  }
+  },
+  "trailers": [
+    "bTIrEZM-cFE"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/transformers_3.webp"
+  ],
+  "description": [
+    {
+      "plot": "The Autobots learn of a Cybertronian spacecraft hidden on the moon, and race against the Decepticons to reach it and to learn its secrets."
+    }
+  ]
 }

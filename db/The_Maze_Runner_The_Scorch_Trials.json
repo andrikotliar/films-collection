@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Maze Runner: The Scorch Trials",
-  "poster": "maze_runner_2",
-  "trailer": "SDofO3P2HpE",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "After having escaped the Maze, the Gladers now face a new set of challenges on the open roads of a desolate landscape filled with unimaginable obstacles.",
   "crew": [
     {
       "role": "Directed by",
@@ -145,5 +142,16 @@
   "parts": {
     "title": "The Maze Runner",
     "part": 2
-  }
+  },
+  "trailers": [
+    "SDofO3P2HpE"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/maze_runner_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "After having escaped the Maze, the Gladers now face a new set of challenges on the open roads of a desolate landscape filled with unimaginable obstacles."
+    }
+  ]
 }

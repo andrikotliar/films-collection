@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Harry Potter and the Order of the Phoenix",
-  "poster": "harry_potter_5",
-  "trailer": "y6ZW7KXaXYk",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "synopsis": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.",
   "crew": [
     {
       "role": "Directed by",
@@ -147,5 +144,16 @@
   "parts": {
     "title": "Harry Potter Universe",
     "part": 7
-  }
+  },
+  "trailers": [
+    "y6ZW7KXaXYk"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/harry_potter_5.webp"
+  ],
+  "description": [
+    {
+      "plot": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts."
+    }
+  ]
 }

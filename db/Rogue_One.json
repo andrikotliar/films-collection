@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Rogue One",
-  "poster": "rogue_one",
-  "trailer": "frdj1zb9sMY",
   "genres": [
     "SpaceOpera",
     "Adventures"
   ],
-  "synopsis": "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans.",
   "crew": [
     {
       "role": "Directed by",
@@ -153,5 +150,16 @@
   "parts": {
     "title": "Star Wars Universe",
     "part": 4
-  }
+  },
+  "trailers": [
+    "frdj1zb9sMY"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/rogue_one.webp"
+  ],
+  "description": [
+    {
+      "plot": "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans."
+    }
+  ]
 }

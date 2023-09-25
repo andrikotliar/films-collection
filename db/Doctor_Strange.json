@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Doctor Strange",
-  "poster": "doctor_strange",
-  "trailer": "HSzx-zryEgM",
   "genres": [
     "Fantasy",
     "Action"
   ],
-  "synopsis": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
   "crew": [
     {
       "role": "Directed by",
@@ -131,5 +128,16 @@
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 14
-  }
+  },
+  "trailers": [
+    "HSzx-zryEgM"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/doctor_strange.webp"
+  ],
+  "description": [
+    {
+      "plot": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts."
+    }
+  ]
 }

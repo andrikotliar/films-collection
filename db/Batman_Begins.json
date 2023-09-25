@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Batman Begins",
-  "poster": "batman_1",
-  "trailer": "neY2xVmOfUM",
   "genres": [
     "Action",
     "Thriller"
   ],
-  "synopsis": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
   "crew": [
     {
       "role": "Directed by",
@@ -186,5 +183,16 @@
   "parts": {
     "title": "The Dark Knight",
     "part": 1
-  }
+  },
+  "trailers": [
+    "neY2xVmOfUM"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/batman_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption."
+    }
+  ]
 }

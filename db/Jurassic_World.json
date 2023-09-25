@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Jurassic World",
-  "poster": "jurassic_world",
-  "trailer": "RFinNxS5KN4",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "synopsis": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree.",
   "crew": [
     {
       "role": "Directed by",
@@ -183,5 +180,16 @@
   "parts": {
     "title": "Jurassic Park",
     "part": 4
-  }
+  },
+  "trailers": [
+    "RFinNxS5KN4"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/jurassic_world.webp"
+  ],
+  "description": [
+    {
+      "plot": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree."
+    }
+  ]
 }

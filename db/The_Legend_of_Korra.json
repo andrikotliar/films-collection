@@ -4,12 +4,10 @@
     "Series"
   ],
   "title": "The Legend of Korra",
-  "poster": "legend_of_korra",
   "genres": [
     "Adventures",
     "Fantasy"
   ],
-  "synopsis": "Avatar Korra fights to keep Republic City safe from the evil forces of both the physical and spiritual worlds.",
   "crew": [
     {
       "role": "Created by",
@@ -264,11 +262,22 @@
     "title": "The Last Airbender",
     "part": 2
   },
-  "seasons": [
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra_s2.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra_s3.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra_s4.webp"
+  ],
+  "trailers": [
+    "NBNpGCIavwA",
+    "NBNpGCIavwA",
+    "NBNpGCIavwA",
+    "NBNpGCIavwA"
+  ],
+  "description": [
     {
-      "season": 1,
-      "trailer": "NBNpGCIavwA",
-      "year": 2012,
+      "title": "Book 1: Air",
+      "plot": "Avatar Korra fights to keep Republic City safe from the evil forces of both the physical and spiritual worlds.",
       "episodes": [
         {
           "episodeOverall": 1,
@@ -331,12 +340,11 @@
           "title": "Endgame"
         }
       ],
-      "poster": "legend_of_korra"
+      "year": 2012
     },
     {
-      "season": 2,
-      "trailer": "NBNpGCIavwA",
-      "year": 2013,
+      "title": "Book 2: Spirits",
+      "plot": "Avatar Korra fights to keep Republic City safe from the evil forces of both the physical and spiritual worlds.",
       "episodes": [
         {
           "episodeOverall": 13,
@@ -409,12 +417,11 @@
           "title": "Light in the Dark"
         }
       ],
-      "poster": "legend_of_korra_s2"
+      "year": 2013
     },
     {
-      "season": 3,
-      "trailer": "NBNpGCIavwA",
-      "year": 2014,
+      "title": "Book 3: Change",
+      "plot": "Avatar Korra fights to keep Republic City safe from the evil forces of both the physical and spiritual worlds.",
       "episodes": [
         {
           "episodeOverall": 27,
@@ -482,12 +489,11 @@
           "title": "Venom of the Red Lotus"
         }
       ],
-      "poster": "legend_of_korra_s3"
+      "year": 2014
     },
     {
-      "season": 4,
-      "trailer": "NBNpGCIavwA",
-      "year": 2014,
+      "title": "Book 4: Balance",
+      "plot": "Avatar Korra fights to keep Republic City safe from the evil forces of both the physical and spiritual worlds.",
       "episodes": [
         {
           "episodeOverall": 40,
@@ -555,7 +561,7 @@
           "title": "The Last Stand"
         }
       ],
-      "poster": "legend_of_korra_s4"
+      "year": 2014
     }
   ]
 }

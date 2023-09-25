@@ -4,12 +4,9 @@
     "Film"
   ],
   "title": "Solo: A Star Wars Story",
-  "poster": "solo",
-  "trailer": "jPEYpryMp2s",
   "genres": [
     "Space Western"
   ],
-  "synopsis": "During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion.",
   "crew": [
     {
       "role": "Directed by",
@@ -159,5 +156,16 @@
   "parts": {
     "title": "Star Wars Universe",
     "part": 5
-  }
+  },
+  "trailers": [
+    "jPEYpryMp2s"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/solo.webp"
+  ],
+  "description": [
+    {
+      "plot": "During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion."
+    }
+  ]
 }

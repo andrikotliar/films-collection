@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Amazing Spider-Man 2: Rise of Electro",
-  "poster": "amazing_spider_man_2",
-  "trailer": "nbp3Ra3Yp74",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones.",
   "crew": [
     {
       "role": "Directed by",
@@ -129,5 +126,16 @@
   "parts": {
     "title": "The Amazing Spider-Man",
     "part": 2
-  }
+  },
+  "trailers": [
+    "nbp3Ra3Yp74"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/amazing_spider_man_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones."
+    }
+  ]
 }

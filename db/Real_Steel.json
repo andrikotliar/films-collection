@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Real Steel",
-  "poster": "real_steel",
-  "trailer": "SwfmV3nn6QA",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot.",
   "crew": [
     {
       "role": "Directed by",
@@ -124,5 +121,16 @@
     }
   ],
   "budget": 110000000,
-  "boxoffice": 300000000
+  "boxoffice": 300000000,
+  "trailers": [
+    "SwfmV3nn6QA"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/real_steel.webp"
+  ],
+  "description": [
+    {
+      "plot": "In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot."
+    }
+  ]
 }

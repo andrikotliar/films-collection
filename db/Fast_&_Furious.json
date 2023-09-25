@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Fast & Furious",
-  "poster": "fast_and_furious_4",
-  "trailer": "Gl-d_UIhdBw",
   "genres": [
     "Action",
     "Crime"
   ],
-  "synopsis": "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation.",
   "crew": [
     {
       "role": "Directed by",
@@ -132,5 +129,16 @@
   "parts": {
     "title": "Fast and Furious",
     "part": 4
-  }
+  },
+  "trailers": [
+    "Gl-d_UIhdBw"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_4.webp"
+  ],
+  "description": [
+    {
+      "plot": "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation."
+    }
+  ]
 }

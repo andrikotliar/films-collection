@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Mission: Impossible",
-  "poster": "mi_1",
-  "trailer": "Ohws8y572KE",
   "genres": [
     "Action",
     "Adventures"
   ],
-  "synopsis": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization.",
   "crew": [
     {
       "role": "Directed by",
@@ -142,5 +139,16 @@
   "parts": {
     "title": "Mission: Impossible",
     "part": 1
-  }
+  },
+  "trailers": [
+    "Ohws8y572KE"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mi_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization."
+    }
+  ]
 }

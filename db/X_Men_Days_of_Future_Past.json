@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "X-Men: Days of Future Past",
-  "poster": "x_men_6",
-  "trailer": "pK2zYHWDZKo",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.",
   "crew": [
     {
       "role": "Directed by",
@@ -176,5 +173,16 @@
   "parts": {
     "title": "X-Men",
     "part": 7
-  }
+  },
+  "trailers": [
+    "pK2zYHWDZKo"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/x_men_6.webp"
+  ],
+  "description": [
+    {
+      "plot": "The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants."
+    }
+  ]
 }

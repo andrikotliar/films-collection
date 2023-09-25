@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Librarian: Return to King Solomon's Mines",
-  "poster": "librarian_2",
-  "trailer": "ansvc2Muxr0",
   "genres": [
     "Adventures",
     "Fantasy"
   ],
-  "synopsis": "Librarian-turned-adventurer Flynn Carsen endeavors to find King Solomon's mines.",
   "crew": [
     {
       "role": "Directed by",
@@ -145,5 +142,16 @@
   "parts": {
     "title": "The Librarian",
     "part": 2
-  }
+  },
+  "trailers": [
+    "ansvc2Muxr0"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/librarian_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "Librarian-turned-adventurer Flynn Carsen endeavors to find King Solomon's mines."
+    }
+  ]
 }

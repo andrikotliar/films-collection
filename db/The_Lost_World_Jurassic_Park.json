@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Lost World: Jurassic Park",
-  "poster": "jurassic_park_2",
-  "trailer": "RxrvaneULkE",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "synopsis": "A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda.",
   "crew": [
     {
       "role": "Directed by",
@@ -105,5 +102,16 @@
   "parts": {
     "title": "Jurassic Park",
     "part": 2
-  }
+  },
+  "trailers": [
+    "RxrvaneULkE"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/jurassic_park_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda."
+    }
+  ]
 }

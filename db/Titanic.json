@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Titanic",
-  "poster": "titanic",
-  "trailer": "kVrqfYjkTdQ",
   "genres": [
     "Drama",
     "Romance"
   ],
-  "synopsis": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
   "crew": [
     {
       "role": "Directed by",
@@ -140,6 +137,17 @@
         "Best Original Score - Motion Picture",
         "Best Original Song - Motion Picture"
       ]
+    }
+  ],
+  "trailers": [
+    "kVrqfYjkTdQ"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/titanic.webp"
+  ],
+  "description": [
+    {
+      "plot": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
     }
   ]
 }

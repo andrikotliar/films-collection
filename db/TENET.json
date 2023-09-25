@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "TENET",
-  "poster": "tenet",
-  "trailer": "AZGcmvrTX9M",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
   "crew": [
     {
       "role": "Directed by",
@@ -145,6 +142,17 @@
       "nominations": [
         "Best Visual Effects"
       ]
+    }
+  ],
+  "trailers": [
+    "AZGcmvrTX9M"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/tenet.webp"
+  ],
+  "description": [
+    {
+      "plot": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time."
     }
   ]
 }

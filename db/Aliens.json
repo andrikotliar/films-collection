@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Aliens",
-  "poster": "alien_2",
-  "trailer": "oSeQQlaCZgU",
   "genres": [
     "Sci-Fi",
     "Horror"
   ],
-  "synopsis": "Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators.",
   "crew": [
     {
       "role": "Directed by",
@@ -137,5 +134,16 @@
   "parts": {
     "title": "Aliens",
     "part": 2
-  }
+  },
+  "trailers": [
+    "oSeQQlaCZgU"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/alien_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators."
+    }
+  ]
 }

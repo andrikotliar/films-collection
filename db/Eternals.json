@@ -4,14 +4,11 @@
     "Film"
   ],
   "title": "Eternals",
-  "poster": "eternals",
-  "trailer": "x_me3xsvDgk",
   "genres": [
     "Adventures",
     "Action",
     "Drama"
   ],
-  "synopsis": "The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations.",
   "crew": [
     {
       "role": "Directed by",
@@ -172,5 +169,16 @@
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 28
-  }
+  },
+  "trailers": [
+    "x_me3xsvDgk"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/eternals.webp"
+  ],
+  "description": [
+    {
+      "plot": "The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations."
+    }
+  ]
 }

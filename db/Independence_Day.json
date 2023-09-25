@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Independence Day",
-  "poster": "independence_day",
-  "trailer": "kA2WzBi2grE",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive.",
   "crew": [
     {
       "role": "Directed by",
@@ -136,6 +133,17 @@
         "Best Director",
         "Best Special Effects"
       ]
+    }
+  ],
+  "trailers": [
+    "kA2WzBi2grE"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/independence_day.webp"
+  ],
+  "description": [
+    {
+      "plot": "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive."
     }
   ]
 }

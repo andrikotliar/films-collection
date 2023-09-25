@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Hunger Games: Catching Fire",
-  "poster": "hunger_games_2",
-  "trailer": "EAzGXqJSDJ8",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "synopsis": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem.",
   "crew": [
     {
       "role": "Directed by",
@@ -131,5 +128,16 @@
   "parts": {
     "title": "The Hunger Games",
     "part": 2
-  }
+  },
+  "trailers": [
+    "EAzGXqJSDJ8"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hunger_games_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem."
+    }
+  ]
 }

@@ -4,13 +4,10 @@
     "Animation"
   ],
   "title": "Madagascar: Escape 2 Africa",
-  "poster": "madagascar_2",
-  "trailer": "hLVjIhPYq7s",
   "genres": [
     "Adventures",
     "Comedy"
   ],
-  "synopsis": "The Madagascar animals fly back to New York City, but crash-land on an African nature reserve, where they meet others of their own kind, and Alex especially discovers his royal heritage as prince of a lion pride.",
   "crew": [
     {
       "role": "Directed by",
@@ -133,5 +130,16 @@
   "parts": {
     "title": "Madagascar",
     "part": 2
-  }
+  },
+  "trailers": [
+    "hLVjIhPYq7s"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/madagascar_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "The Madagascar animals fly back to New York City, but crash-land on an African nature reserve, where they meet others of their own kind, and Alex especially discovers his royal heritage as prince of a lion pride."
+    }
+  ]
 }

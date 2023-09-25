@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "X-Men: The Last Stand",
-  "poster": "x_men_3",
-  "trailer": "r8ZMvxzplwc",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "The human government develops a cure for mutations, and Jean Gray becomes a darker uncontrollable persona called the Phoenix who allies with Magneto, causing escalation into an all-out battle for the X-Men.",
   "crew": [
     {
       "role": "Directed by",
@@ -172,5 +169,16 @@
   "parts": {
     "title": "X-Men",
     "part": 3
-  }
+  },
+  "trailers": [
+    "r8ZMvxzplwc"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/x_men_3.webp"
+  ],
+  "description": [
+    {
+      "plot": "The human government develops a cure for mutations, and Jean Gray becomes a darker uncontrollable persona called the Phoenix who allies with Magneto, causing escalation into an all-out battle for the X-Men."
+    }
+  ]
 }

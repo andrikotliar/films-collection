@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Lord of the Rings: The Two Towers",
-  "poster": "middle_earth_5",
-  "trailer": "LbfMDwc4azU",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "synopsis": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
   "crew": [
     {
       "role": "Directed by",
@@ -196,5 +193,16 @@
   "parts": {
     "title": "Middle-Earth Universe",
     "part": 5
-  }
+  },
+  "trailers": [
+    "LbfMDwc4azU"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/middle_earth_5.webp"
+  ],
+  "description": [
+    {
+      "plot": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
+    }
+  ]
 }

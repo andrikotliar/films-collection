@@ -4,13 +4,10 @@
     "Animation"
   ],
   "title": "Ice Age: The Meltdown",
-  "poster": "ice_age_2",
-  "trailer": "s4PWGVtIZWA",
   "genres": [
     "Adventures",
     "Comedy"
   ],
-  "synopsis": "Manny, Sid, and Diego discover that the ice age is coming to an end, and join everybody for a journey to higher ground. On the trip, they discover that Manny, in fact, is not the last of the woolly mammoths.",
   "crew": [
     {
       "role": "Directed by",
@@ -114,5 +111,16 @@
   "parts": {
     "title": "Ice Age",
     "part": 2
-  }
+  },
+  "trailers": [
+    "s4PWGVtIZWA"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/ice_age_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "Manny, Sid, and Diego discover that the ice age is coming to an end, and join everybody for a journey to higher ground. On the trip, they discover that Manny, in fact, is not the last of the woolly mammoths."
+    }
+  ]
 }

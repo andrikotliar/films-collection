@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Ant-Man and the Wasp",
-  "poster": "ant_man_2",
-  "trailer": "UUkn-enk2RU",
   "genres": [
     "Sci-Fi",
     "Comedy"
   ],
-  "synopsis": "As Scott Lang balances being both a Super Hero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
   "crew": [
     {
       "role": "Directed by",
@@ -132,5 +129,16 @@
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 20
-  }
+  },
+  "trailers": [
+    "UUkn-enk2RU"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/ant_man_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "As Scott Lang balances being both a Super Hero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past."
+    }
+  ]
 }

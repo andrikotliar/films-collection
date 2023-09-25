@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Transformers: Revenge of the Fallen",
-  "poster": "transformers_2",
-  "trailer": "fnXzKwUgDhg",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "Sam Witwicky leaves the Autobots behind for a normal life. But when his mind is filled with cryptic symbols, the Decepticons target him and he is dragged back into the Transformers' war.",
   "crew": [
     {
       "role": "Directed by",
@@ -166,5 +163,16 @@
   "parts": {
     "title": "Transformers",
     "part": 3
-  }
+  },
+  "trailers": [
+    "fnXzKwUgDhg"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/transformers_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "Sam Witwicky leaves the Autobots behind for a normal life. But when his mind is filled with cryptic symbols, the Decepticons target him and he is dragged back into the Transformers' war."
+    }
+  ]
 }

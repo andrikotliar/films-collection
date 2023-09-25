@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Now You See Me",
-  "poster": "now_you_see_me",
-  "trailer": "KzJNYYkkhzc",
   "genres": [
     "Crime",
     "Thriller"
   ],
-  "synopsis": "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money.",
   "crew": [
     {
       "role": "Directed by",
@@ -147,5 +144,16 @@
     }
   ],
   "budget": 75000000,
-  "boxoffice": 352000000
+  "boxoffice": 352000000,
+  "trailers": [
+    "KzJNYYkkhzc"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/now_you_see_me.webp"
+  ],
+  "description": [
+    {
+      "plot": "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money."
+    }
+  ]
 }

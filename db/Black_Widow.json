@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Black Widow",
-  "poster": "black_widow",
-  "trailer": "ybji16u608U",
   "genres": [
     "Adventures",
     "Action"
   ],
-  "synopsis": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises.",
   "crew": [
     {
       "role": "Directed by",
@@ -122,5 +119,16 @@
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 27
-  }
+  },
+  "trailers": [
+    "ybji16u608U"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/black_widow.webp"
+  ],
+  "description": [
+    {
+      "plot": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises."
+    }
+  ]
 }

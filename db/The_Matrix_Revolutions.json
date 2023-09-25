@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Matrix Revolutions",
-  "poster": "matrix_3",
-  "trailer": "hMbexEPAOQI",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith.",
   "crew": [
     {
       "role": "Directed by",
@@ -130,5 +127,16 @@
   "parts": {
     "title": "The Matrix",
     "part": 3
-  }
+  },
+  "trailers": [
+    "hMbexEPAOQI"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/matrix_3.webp"
+  ],
+  "description": [
+    {
+      "plot": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith."
+    }
+  ]
 }

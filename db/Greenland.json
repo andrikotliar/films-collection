@@ -4,12 +4,9 @@
     "Film"
   ],
   "title": "Greenland",
-  "poster": "greenland",
-  "trailer": "RTODtIQQRpA",
   "genres": [
     "Drama"
   ],
-  "synopsis": "A family struggles for survival in the face of a cataclysmic natural disaster.",
   "crew": [
     {
       "role": "Directed by",
@@ -119,5 +116,16 @@
     }
   ],
   "budget": 35000000,
-  "boxoffice": 52000000
+  "boxoffice": 52000000,
+  "trailers": [
+    "RTODtIQQRpA"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/greenland.webp"
+  ],
+  "description": [
+    {
+      "plot": "A family struggles for survival in the face of a cataclysmic natural disaster."
+    }
+  ]
 }

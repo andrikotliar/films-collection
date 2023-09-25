@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Mission: Impossible III",
-  "poster": "mi_3",
-  "trailer": "rl2bysiyltg",
   "genres": [
     "Action",
     "Adventures"
   ],
-  "synopsis": "IMF Agent Ethan Hunt comes into conflict with a dangerous and sadistic arms dealer who threatens his life and his fiancée in response.",
   "crew": [
     {
       "role": "Directed by",
@@ -159,5 +156,16 @@
   "parts": {
     "title": "Mission: Impossible",
     "part": 3
-  }
+  },
+  "trailers": [
+    "rl2bysiyltg"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mi_3.webp"
+  ],
+  "description": [
+    {
+      "plot": "IMF Agent Ethan Hunt comes into conflict with a dangerous and sadistic arms dealer who threatens his life and his fiancée in response."
+    }
+  ]
 }

@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Inception",
-  "poster": "inception",
-  "trailer": "YoHD9XEInc0",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
   "crew": [
     {
       "role": "Directed by",
@@ -189,6 +186,17 @@
         "Best Sound",
         "Best Action Movie"
       ]
+    }
+  ],
+  "trailers": [
+    "YoHD9XEInc0"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/inception.webp"
+  ],
+  "description": [
+    {
+      "plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO."
     }
   ]
 }

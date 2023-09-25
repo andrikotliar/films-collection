@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Harry Potter and the Deathly Hallows: Part I",
-  "poster": "harry_potter_7",
-  "trailer": "MxqsmsA8y5k",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "synopsis": "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows.",
   "crew": [
     {
       "role": "Directed by",
@@ -136,5 +133,16 @@
   "parts": {
     "title": "Harry Potter Universe",
     "part": 9
-  }
+  },
+  "trailers": [
+    "MxqsmsA8y5k"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/harry_potter_7.webp"
+  ],
+  "description": [
+    {
+      "plot": "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows."
+    }
+  ]
 }

@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "X-Men Origins: Wolverine",
-  "poster": "x_men_4",
-  "trailer": "QojV7s3UTu0",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "The early years of James Logan, featuring his rivalry with his brother Victor Creed, his service in the special forces team Weapon X, and his experimentation into the metal-lined mutant Wolverine.",
   "crew": [
     {
       "role": "Directed by",
@@ -146,5 +143,16 @@
   "parts": {
     "title": "X-Men",
     "part": 4
-  }
+  },
+  "trailers": [
+    "QojV7s3UTu0"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/x_men_4.webp"
+  ],
+  "description": [
+    {
+      "plot": "The early years of James Logan, featuring his rivalry with his brother Victor Creed, his service in the special forces team Weapon X, and his experimentation into the metal-lined mutant Wolverine."
+    }
+  ]
 }

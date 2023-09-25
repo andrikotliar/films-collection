@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Spider-Man 2",
-  "poster": "raimi_spider_man_2",
-  "trailer": "1s9Yln0YwCw",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius.",
   "crew": [
     {
       "role": "Directed by",
@@ -137,5 +134,16 @@
   "parts": {
     "title": "Raimi's Spider-Man",
     "part": 2
-  }
+  },
+  "trailers": [
+    "1s9Yln0YwCw"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/raimi_spider_man_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius."
+    }
+  ]
 }

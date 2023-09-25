@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "X-Men: First Class",
-  "poster": "x_men_5",
-  "trailer": "kyQKi5-k0UU",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them.",
   "crew": [
     {
       "role": "Directed by",
@@ -171,5 +168,16 @@
   "parts": {
     "title": "X-Men",
     "part": 5
-  }
+  },
+  "trailers": [
+    "kyQKi5-k0UU"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/x_men_5.webp"
+  ],
+  "description": [
+    {
+      "plot": "In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them."
+    }
+  ]
 }

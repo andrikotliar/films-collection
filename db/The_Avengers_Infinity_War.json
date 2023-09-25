@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Avengers: Infinity War",
-  "poster": "avengers_3",
-  "trailer": "6ZfuNTqbHE8",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
   "crew": [
     {
       "role": "Directed by",
@@ -242,5 +239,16 @@
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 19
-  }
+  },
+  "trailers": [
+    "6ZfuNTqbHE8"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/avengers_3.webp"
+  ],
+  "description": [
+    {
+      "plot": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
+    }
+  ]
 }

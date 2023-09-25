@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Day the Earth Stood Steel",
-  "poster": "day_the_earth_stood_still",
-  "trailer": "6QFcZohER3s",
   "genres": [
     "Sci-Fi",
     "Thriller"
   ],
-  "synopsis": "A remake of the 1951 classic science fiction film about an alien visitor and his giant robot counterpart who visit Earth.",
   "crew": [
     {
       "role": "Directed by",
@@ -145,6 +142,17 @@
       "nominations": [
         "Best Performance by a Younger Actor"
       ]
+    }
+  ],
+  "trailers": [
+    "6QFcZohER3s"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/day_the_earth_stood_still.webp"
+  ],
+  "description": [
+    {
+      "plot": "A remake of the 1951 classic science fiction film about an alien visitor and his giant robot counterpart who visit Earth."
     }
   ]
 }

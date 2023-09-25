@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Spider-Man: Homecoming",
-  "poster": "mcu_spider_man_1",
-  "trailer": "n9DwoQ7HWvI",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
   "crew": [
     {
       "role": "Directed by",
@@ -157,5 +154,16 @@
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 16
-  }
+  },
+  "trailers": [
+    "n9DwoQ7HWvI"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mcu_spider_man_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City."
+    }
+  ]
 }

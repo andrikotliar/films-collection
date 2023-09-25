@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Captain America: The Winter Soldier",
-  "poster": "captain_america_2",
-  "trailer": "7SlILk2WMTI",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
   "crew": [
     {
       "role": "Directed by",
@@ -129,5 +126,16 @@
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 9
-  }
+  },
+  "trailers": [
+    "7SlILk2WMTI"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/captain_america_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier."
+    }
+  ]
 }

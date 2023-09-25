@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Mission: Impossible - Ghost Protocol",
-  "poster": "mi_4",
-  "trailer": "EDGYVFZxsXQ",
   "genres": [
     "Action",
     "Adventures"
   ],
-  "synopsis": "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.",
   "crew": [
     {
       "role": "Directed by",
@@ -126,5 +123,16 @@
   "parts": {
     "title": "Mission: Impossible",
     "part": 4
-  }
+  },
+  "trailers": [
+    "EDGYVFZxsXQ"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mi_4.webp"
+  ],
+  "description": [
+    {
+      "plot": "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name."
+    }
+  ]
 }

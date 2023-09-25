@@ -4,12 +4,10 @@
     "Series"
   ],
   "title": "WandaVision",
-  "poster": "wandavision",
   "genres": [
     "Action",
     "Drama"
   ],
-  "synopsis": "Blends the style of classic sitcoms with the MCU, in which Wanda Maximoff and Vision - two super-powered beings living their ideal suburban lives - begin to suspect that everything is not as it seems.",
   "crew": [
     {
       "role": "Directed by",
@@ -162,11 +160,16 @@
     "title": "Marvel Cinematic Universe",
     "part": 24
   },
-  "seasons": [
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/wandavision.webp"
+  ],
+  "trailers": [
+    "sj9J2ecsSpo"
+  ],
+  "description": [
     {
-      "season": 1,
-      "trailer": "sj9J2ecsSpo",
-      "year": 2021,
+      "title": "Season 1",
+      "plot": "Blends the style of classic sitcoms with the MCU, in which Wanda Maximoff and Vision - two super-powered beings living their ideal suburban lives - begin to suspect that everything is not as it seems.",
       "episodes": [
         {
           "episodeOverall": 1,
@@ -214,7 +217,7 @@
           "title": "The Series Finale"
         }
       ],
-      "poster": "wandavision"
+      "year": 2021
     }
   ]
 }

@@ -4,12 +4,10 @@
     "Series"
   ],
   "title": "The Mandalorian",
-  "poster": "mandalorian",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "synopsis": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
   "crew": [
     {
       "role": "Created by",
@@ -237,11 +235,18 @@
     "title": "Star Wars Universe",
     "part": 9
   },
-  "seasons": [
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mandalorian.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mandalorian_s2.webp"
+  ],
+  "trailers": [
+    "OFlBh_eUsjA",
+    "eW7Twd85m2g"
+  ],
+  "description": [
     {
-      "season": 1,
-      "trailer": "OFlBh_eUsjA",
-      "year": 2019,
+      "title": "Season 1",
+      "plot": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
       "episodes": [
         {
           "episodeOverall": 1,
@@ -284,12 +289,11 @@
           "title": "Chapter 8: Redemption"
         }
       ],
-      "poster": "mandalorian"
+      "year": 2019
     },
     {
-      "season": 2,
-      "trailer": "eW7Twd85m2g",
-      "year": 2020,
+      "title": "Season 2",
+      "plot": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
       "episodes": [
         {
           "episodeOverall": 9,
@@ -332,7 +336,7 @@
           "title": "Chapter 16: The Rescue"
         }
       ],
-      "poster": "mandalorian_s2"
+      "year": 2020
     }
   ]
 }

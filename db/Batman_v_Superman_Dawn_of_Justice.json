@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Batman v Superman: Dawn of Justice",
-  "poster": "batman_v_superman",
-  "trailer": "bha24P9uw-E",
   "genres": [
     "Action",
     "Adventures"
   ],
-  "synopsis": "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs.",
   "crew": [
     {
       "role": "Directed by",
@@ -146,5 +143,16 @@
   "parts": {
     "title": "DC Extended Universe",
     "part": 2
-  }
+  },
+  "trailers": [
+    "bha24P9uw-E"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/batman_v_superman.webp"
+  ],
+  "description": [
+    {
+      "plot": "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs."
+    }
+  ]
 }

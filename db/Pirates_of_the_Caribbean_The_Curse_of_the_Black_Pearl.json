@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
-  "poster": "pirates_1",
-  "trailer": "naQr0uTrH_s",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "synopsis": "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
   "crew": [
     {
       "role": "Directed by",
@@ -145,5 +142,16 @@
   "parts": {
     "title": "Pirates of the Caribbean",
     "part": 1
-  }
+  },
+  "trailers": [
+    "naQr0uTrH_s"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/pirates_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead."
+    }
+  ]
 }

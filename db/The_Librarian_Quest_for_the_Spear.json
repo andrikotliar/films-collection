@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Librarian: Quest for the Spear",
-  "poster": "librarian_1",
-  "trailer": "_LsPz8vCULE",
   "genres": [
     "Adventures",
     "Fantasy"
   ],
-  "synopsis": "A bookworm becomes the librarian. Same night a magical spear gets stolen and he's off to get some real life experience around the globe on his quest for the spear - starting with being thrown off a plane over Amazonas by his cute helper.",
   "crew": [
     {
       "role": "Directed by",
@@ -137,5 +134,16 @@
   "parts": {
     "title": "The Librarian",
     "part": 1
-  }
+  },
+  "trailers": [
+    "_LsPz8vCULE"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/librarian_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "A bookworm becomes the librarian. Same night a magical spear gets stolen and he's off to get some real life experience around the globe on his quest for the spear - starting with being thrown off a plane over Amazonas by his cute helper."
+    }
+  ]
 }

@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Speed",
-  "poster": "speed",
-  "trailer": "8piqd2BWeGI",
   "genres": [
     "Action",
     "Thriller"
   ],
-  "synopsis": "A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph.",
   "crew": [
     {
       "role": "Directed by",
@@ -145,6 +142,17 @@
       "nominations": [
         "Best Actress"
       ]
+    }
+  ],
+  "trailers": [
+    "8piqd2BWeGI"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/speed.webp"
+  ],
+  "description": [
+    {
+      "plot": "A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph."
     }
   ]
 }

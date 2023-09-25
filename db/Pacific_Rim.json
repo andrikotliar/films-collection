@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Pacific Rim",
-  "poster": "pacific_rim_1",
-  "trailer": "5guMumPFBag",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse.",
   "crew": [
     {
       "role": "Directed by",
@@ -156,5 +153,16 @@
   "parts": {
     "title": "Pacific Rim",
     "part": 1
-  }
+  },
+  "trailers": [
+    "5guMumPFBag"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/pacific_rim_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse."
+    }
+  ]
 }

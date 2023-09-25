@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Shang-Chi and the Legend of the Ten Rings",
-  "poster": "shang_chi",
-  "trailer": "COGg-Vjauwo",
   "genres": [
     "Fantasy",
     "Action"
   ],
-  "synopsis": "Shang-Chi, the master of unarmed weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization.",
   "crew": [
     {
       "role": "Directed by",
@@ -146,5 +143,16 @@
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 27
-  }
+  },
+  "trailers": [
+    "COGg-Vjauwo"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/shang_chi.webp"
+  ],
+  "description": [
+    {
+      "plot": "Shang-Chi, the master of unarmed weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization."
+    }
+  ]
 }

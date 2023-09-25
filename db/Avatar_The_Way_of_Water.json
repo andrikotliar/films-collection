@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Avatar: The Way of Water",
-  "poster": "avatar_2",
-  "trailer": "o5F8MOz_IDw",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
   "crew": [
     {
       "role": "Directed by",
@@ -201,5 +198,16 @@
   "parts": {
     "title": "Avatar",
     "part": 2
-  }
+  },
+  "trailers": [
+    "o5F8MOz_IDw"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/avatar_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home."
+    }
+  ]
 }

@@ -4,14 +4,11 @@
     "Film"
   ],
   "title": "Dune",
-  "poster": "dune",
-  "trailer": "w0HgHet0sxg",
   "genres": [
     "Sci-Fi",
     "Adventures",
     "Drama"
   ],
-  "synopsis": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
   "crew": [
     {
       "role": "Directed by",
@@ -178,5 +175,16 @@
     }
   ],
   "budget": 165000000,
-  "boxoffice": 398000000
+  "boxoffice": 398000000,
+  "trailers": [
+    "w0HgHet0sxg"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/dune.webp"
+  ],
+  "description": [
+    {
+      "plot": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy."
+    }
+  ]
 }

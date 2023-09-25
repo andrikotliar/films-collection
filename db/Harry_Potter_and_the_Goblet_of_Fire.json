@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Harry Potter and the Goblet of Fire",
-  "poster": "harry_potter_4",
-  "trailer": "3EGojp4Hh6I",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "synopsis": "A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
   "crew": [
     {
       "role": "Directed by",
@@ -145,5 +142,16 @@
   "parts": {
     "title": "Harry Potter Universe",
     "part": 6
-  }
+  },
+  "trailers": [
+    "3EGojp4Hh6I"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/harry_potter_4.webp"
+  ],
+  "description": [
+    {
+      "plot": "A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares."
+    }
+  ]
 }

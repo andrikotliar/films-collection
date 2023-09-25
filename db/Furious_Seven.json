@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Furious Seven",
-  "poster": "fast_and_furious_7",
-  "trailer": "Skpu5HaVkOc",
   "genres": [
     "Action",
     "Crime"
   ],
-  "synopsis": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.",
   "crew": [
     {
       "role": "Directed by",
@@ -177,5 +174,16 @@
   "parts": {
     "title": "Fast and Furious",
     "part": 7
-  }
+  },
+  "trailers": [
+    "Skpu5HaVkOc"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_7.webp"
+  ],
+  "description": [
+    {
+      "plot": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother."
+    }
+  ]
 }

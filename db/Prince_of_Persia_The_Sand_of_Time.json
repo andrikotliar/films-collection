@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Prince of Persia: The Sand of Time",
-  "poster": "prince_of_persia",
-  "trailer": "bZ7Li5w2I-k",
   "genres": [
     "Fantasy",
     "Action"
   ],
-  "synopsis": "A young fugitive Prince and Princess must stop a villain who unknowingly threatens to destroy the world with a special dagger that enables the magic sand inside to reverse time.",
   "crew": [
     {
       "role": "Directed by",
@@ -138,5 +135,16 @@
     }
   ],
   "budget": 150000000,
-  "boxoffice": 336000000
+  "boxoffice": 336000000,
+  "trailers": [
+    "bZ7Li5w2I-k"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/prince_of_persia.webp"
+  ],
+  "description": [
+    {
+      "plot": "A young fugitive Prince and Princess must stop a villain who unknowingly threatens to destroy the world with a special dagger that enables the magic sand inside to reverse time."
+    }
+  ]
 }

@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Pirates of the Caribbean: On Stranger Tides",
-  "poster": "pirates_4",
-  "trailer": "t5AqJww06bw",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "synopsis": "Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too.",
   "crew": [
     {
       "role": "Directed by",
@@ -126,5 +123,16 @@
   "parts": {
     "title": "Pirates of the Caribbean",
     "part": 4
-  }
+  },
+  "trailers": [
+    "t5AqJww06bw"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/pirates_4.webp"
+  ],
+  "description": [
+    {
+      "plot": "Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too."
+    }
+  ]
 }

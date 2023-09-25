@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Chronicles of Narnia: The Prince Caspian",
-  "poster": "narnia_2",
-  "trailer": "9Q0Da4jlxBk",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "synopsis": "The Pevensie siblings return to Narnia, where they are enlisted to once again help ward off an evil king and restore the rightful heir to the land's throne, Prince Caspian.",
   "crew": [
     {
       "role": "Directed by",
@@ -139,5 +136,16 @@
   "parts": {
     "title": "The Chronicles of Narnia",
     "part": 2
-  }
+  },
+  "trailers": [
+    "9Q0Da4jlxBk"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/narnia_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "The Pevensie siblings return to Narnia, where they are enlisted to once again help ward off an evil king and restore the rightful heir to the land's throne, Prince Caspian."
+    }
+  ]
 }

@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Ready Player One",
-  "poster": "ready_player_one",
-  "trailer": "cSp1dM2Vj48",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "synopsis": "When the creator of a virtual reality world called the OASIS dies, he releases a video in which he challenges all OASIS users to find his Easter Egg, which will give the finder his fortune",
   "crew": [
     {
       "role": "Directed by",
@@ -153,6 +150,17 @@
       "nominations": [
         "Best Science Fiction Film"
       ]
+    }
+  ],
+  "trailers": [
+    "cSp1dM2Vj48"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/ready_player_one.webp"
+  ],
+  "description": [
+    {
+      "plot": "When the creator of a virtual reality world called the OASIS dies, he releases a video in which he challenges all OASIS users to find his Easter Egg, which will give the finder his fortune"
     }
   ]
 }

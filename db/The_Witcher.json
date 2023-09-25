@@ -4,12 +4,10 @@
     "Series"
   ],
   "title": "The Witcher",
-  "poster": "witcher",
   "genres": [
     "Adventures",
     "Fantasy"
   ],
-  "synopsis": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
   "crew": [
     {
       "role": "Created by",
@@ -214,11 +212,18 @@
       "title": "Fantasy"
     }
   ],
-  "seasons": [
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/witcher.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/witcher_s2.webp"
+  ],
+  "trailers": [
+    "ndl1W4ltcmg",
+    "2aMVzFlApa0"
+  ],
+  "description": [
     {
-      "season": 1,
-      "trailer": "ndl1W4ltcmg",
-      "year": 2019,
+      "title": "Season 1",
+      "plot": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
       "episodes": [
         {
           "episodeOverall": 1,
@@ -261,12 +266,11 @@
           "title": "Much More"
         }
       ],
-      "poster": "witcher"
+      "year": 2019
     },
     {
-      "season": 2,
-      "trailer": "2aMVzFlApa0",
-      "year": 2021,
+      "title": "Season 2",
+      "plot": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
       "episodes": [
         {
           "episodeOverall": 9,
@@ -309,7 +313,7 @@
           "title": "Family"
         }
       ],
-      "poster": "witcher_s2"
+      "year": 2021
     }
   ]
 }

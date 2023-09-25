@@ -4,12 +4,10 @@
     "Series"
   ],
   "title": "The 100",
-  "poster": "hundred",
   "genres": [
     "Sci-Fi",
     "Drama"
   ],
-  "synopsis": "Set ninety-seven years after a nuclear war has destroyed civilization, when a spaceship housing humanity's lone survivors sends one hundred juvenile delinquents back to Earth, in hopes of possibly re-populating the planet.",
   "crew": [
     {
       "role": "Directed by",
@@ -651,11 +649,28 @@
       ]
     }
   ],
-  "seasons": [
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred_s2.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred_s3.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred_s4.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred_s5.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred_s6.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred_s7.webp"
+  ],
+  "trailers": [
+    "ia1Fbg96vL0",
+    "IW7_ZzFZF-o",
+    "uwxwHTu802M",
+    "JQi2MAfpACI",
+    "AGSfZ4xt4UY",
+    "AVDyeT-GsX4",
+    "VQaFKClCUpo"
+  ],
+  "description": [
     {
-      "season": 1,
-      "trailer": "ia1Fbg96vL0",
-      "year": 2014,
+      "title": "Season 1",
+      "plot": "Set ninety-seven years after a nuclear war has destroyed civilization, when a spaceship housing humanity's lone survivors sends one hundred juvenile delinquents back to Earth, in hopes of possibly re-populating the planet.",
       "episodes": [
         {
           "episodeOverall": 1,
@@ -723,12 +738,11 @@
           "title": "We Are Grounders – Part II"
         }
       ],
-      "poster": "hundred"
+      "year": 2014
     },
     {
-      "season": 2,
-      "trailer": "IW7_ZzFZF-o",
-      "year": 2014,
+      "title": "Season 2",
+      "plot": "Set ninety-seven years after a nuclear war has destroyed civilization, when a spaceship housing humanity's lone survivors sends one hundred juvenile delinquents back to Earth, in hopes of possibly re-populating the planet.",
       "episodes": [
         {
           "episodeOverall": 14,
@@ -811,12 +825,11 @@
           "title": "Blood Must Have Blood: Part Two"
         }
       ],
-      "poster": "hundred_s2"
+      "year": 2014
     },
     {
-      "season": 3,
-      "trailer": "uwxwHTu802M",
-      "year": 2016,
+      "title": "Season 3",
+      "plot": "Set ninety-seven years after a nuclear war has destroyed civilization, when a spaceship housing humanity's lone survivors sends one hundred juvenile delinquents back to Earth, in hopes of possibly re-populating the planet.",
       "episodes": [
         {
           "episodeOverall": 30,
@@ -899,12 +912,11 @@
           "title": "Perverse Instantiation – Part Two"
         }
       ],
-      "poster": "hundred_s3"
+      "year": 2016
     },
     {
-      "season": 4,
-      "trailer": "JQi2MAfpACI",
-      "year": 2017,
+      "title": "Season 4",
+      "plot": "Set ninety-seven years after a nuclear war has destroyed civilization, when a spaceship housing humanity's lone survivors sends one hundred juvenile delinquents back to Earth, in hopes of possibly re-populating the planet.",
       "episodes": [
         {
           "episodeOverall": 46,
@@ -972,12 +984,11 @@
           "title": "Praimfaya"
         }
       ],
-      "poster": "hundred_s4"
+      "year": 2017
     },
     {
-      "season": 5,
-      "trailer": "AGSfZ4xt4UY",
-      "year": 2018,
+      "title": "Season 5",
+      "plot": "Set ninety-seven years after a nuclear war has destroyed civilization, when a spaceship housing humanity's lone survivors sends one hundred juvenile delinquents back to Earth, in hopes of possibly re-populating the planet.",
       "episodes": [
         {
           "episodeOverall": 59,
@@ -1045,12 +1056,11 @@
           "title": "Damocles – Part Two"
         }
       ],
-      "poster": "hundred_s5"
+      "year": 2018
     },
     {
-      "season": 6,
-      "trailer": "AVDyeT-GsX4",
-      "year": 2019,
+      "title": "Season 6",
+      "plot": "Set ninety-seven years after a nuclear war has destroyed civilization, when a spaceship housing humanity's lone survivors sends one hundred juvenile delinquents back to Earth, in hopes of possibly re-populating the planet.",
       "episodes": [
         {
           "episodeOverall": 72,
@@ -1118,12 +1128,11 @@
           "title": "The Blood of Sanctum"
         }
       ],
-      "poster": "hundred_s6"
+      "year": 2019
     },
     {
-      "season": 7,
-      "trailer": "VQaFKClCUpo",
-      "year": 2020,
+      "title": "Season 7",
+      "plot": "Set ninety-seven years after a nuclear war has destroyed civilization, when a spaceship housing humanity's lone survivors sends one hundred juvenile delinquents back to Earth, in hopes of possibly re-populating the planet.",
       "episodes": [
         {
           "episodeOverall": 85,
@@ -1206,7 +1215,7 @@
           "title": "The Last War"
         }
       ],
-      "poster": "hundred_s7"
+      "year": 2020
     }
   ]
 }

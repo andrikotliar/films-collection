@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Mission: Impossible - Fallout",
-  "poster": "mi_6",
-  "trailer": "wb49-oV0F78",
   "genres": [
     "Action",
     "Adventures"
   ],
-  "synopsis": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.",
   "crew": [
     {
       "role": "Directed by",
@@ -153,5 +150,16 @@
   "parts": {
     "title": "Mission: Impossible",
     "part": 6
-  }
+  },
+  "trailers": [
+    "wb49-oV0F78"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mi_6.webp"
+  ],
+  "description": [
+    {
+      "plot": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong."
+    }
+  ]
 }

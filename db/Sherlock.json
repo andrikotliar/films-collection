@@ -4,13 +4,11 @@
     "Series"
   ],
   "title": "Sherlock",
-  "poster": "sherlock",
   "genres": [
     "Crime",
     "Drama",
     "Thriller"
   ],
-  "synopsis": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
   "crew": [
     {
       "role": "Created by",
@@ -208,11 +206,22 @@
       ]
     }
   ],
-  "seasons": [
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/sherlock.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/sherlock_s2.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/sherlock_s3.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/sherlock_s4.webp"
+  ],
+  "trailers": [
+    "xK7S9mrFWL4",
+    "vydmN9pzDzg",
+    "9UcR9iKArd0",
+    "FOXZgRTfSUA"
+  ],
+  "description": [
     {
-      "season": 1,
-      "trailer": "xK7S9mrFWL4",
-      "year": 2010,
+      "title": "Season 1",
+      "plot": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
       "episodes": [
         {
           "episodeOverall": 1,
@@ -230,12 +239,11 @@
           "title": "The Great Game"
         }
       ],
-      "poster": "sherlock"
+      "year": 2010
     },
     {
-      "season": 2,
-      "trailer": "vydmN9pzDzg",
-      "year": 2012,
+      "title": "Season 2",
+      "plot": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
       "episodes": [
         {
           "episodeOverall": 4,
@@ -253,12 +261,11 @@
           "title": "The Reichenbach Fall"
         }
       ],
-      "poster": "sherlock_s2"
+      "year": 2012
     },
     {
-      "season": 3,
-      "trailer": "9UcR9iKArd0",
-      "year": 2014,
+      "title": "Season 3",
+      "plot": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
       "episodes": [
         {
           "episodeOverall": 7,
@@ -276,12 +283,11 @@
           "title": "His Last Vow"
         }
       ],
-      "poster": "sherlock_s3"
+      "year": 2014
     },
     {
-      "season": 4,
-      "trailer": "FOXZgRTfSUA",
-      "year": 2017,
+      "title": "Season 4",
+      "plot": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
       "episodes": [
         {
           "episodeOverall": 11,
@@ -299,7 +305,7 @@
           "title": "The Final Problem"
         }
       ],
-      "poster": "sherlock_s4"
+      "year": 2017
     }
   ]
 }

@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Suicide Squad",
-  "poster": "suicide_squad",
-  "trailer": "CmRih_VtVAs",
   "genres": [
     "Action",
     "Adventures"
   ],
-  "synopsis": "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse.",
   "crew": [
     {
       "role": "Directed by",
@@ -154,5 +151,16 @@
   "parts": {
     "title": "DC Extended Universe",
     "part": 3
-  }
+  },
+  "trailers": [
+    "CmRih_VtVAs"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/suicide_squad.webp"
+  ],
+  "description": [
+    {
+      "plot": "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse."
+    }
+  ]
 }

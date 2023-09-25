@@ -4,13 +4,10 @@
     "Animation"
   ],
   "title": "The Mitchells vs the Machines",
-  "poster": "mitchells",
-  "trailer": "_ak5dFt8Ar0",
   "genres": [
     "Adventures",
     "Comedy"
   ],
-  "synopsis": "A quirky, dysfunctional family's road trip is upended when they find themselves in the middle of the robot apocalypse and suddenly become humanity's unlikeliest last hope.",
   "crew": [
     {
       "role": "Directed by",
@@ -118,6 +115,17 @@
   "collections": [
     {
       "title": "Robots"
+    }
+  ],
+  "trailers": [
+    "_ak5dFt8Ar0"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mitchells.webp"
+  ],
+  "description": [
+    {
+      "plot": "A quirky, dysfunctional family's road trip is upended when they find themselves in the middle of the robot apocalypse and suddenly become humanity's unlikeliest last hope."
     }
   ]
 }

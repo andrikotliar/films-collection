@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Mission: Impossible 2",
-  "poster": "mi_2",
-  "trailer": "Aqk78Z57LGg",
   "genres": [
     "Action",
     "Adventures"
   ],
-  "synopsis": "IMF Agent Ethan Hunt is sent to Sydney, to find and destroy a genetically modified disease called \"Chimera\".",
   "crew": [
     {
       "role": "Directed by",
@@ -142,5 +139,16 @@
   "parts": {
     "title": "Mission: Impossible",
     "part": 2
-  }
+  },
+  "trailers": [
+    "Aqk78Z57LGg"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mi_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "IMF Agent Ethan Hunt is sent to Sydney, to find and destroy a genetically modified disease called \"Chimera\"."
+    }
+  ]
 }

@@ -4,12 +4,10 @@
     "Series"
   ],
   "title": "Heroes",
-  "poster": "heroes",
   "genres": [
     "Sci-Fi",
     "Drama"
   ],
-  "synopsis": "Common people discover that they have super powers. Their lives intertwine as a devastating event must be prevented.",
   "crew": [
     {
       "role": "Created by",
@@ -442,11 +440,24 @@
       ]
     }
   ],
-  "seasons": [
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes_s2.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes_s3.1.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes_s3.2.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes_s4.webp"
+  ],
+  "trailers": [
+    "9AX6aXFdTkc",
+    "9mNGxXpAmHc",
+    "i1VA_aWyrPI",
+    "mTzPPIEUFEs",
+    "mTzPPIEUFEs"
+  ],
+  "description": [
     {
-      "season": 1,
-      "trailer": "9AX6aXFdTkc",
-      "year": 2006,
+      "title": "Volume 1: Genesis",
+      "plot": "Common people discover that they have super powers. Their lives intertwine as a devastating event must be prevented.",
       "episodes": [
         {
           "episodeOverall": 1,
@@ -564,12 +575,11 @@
           "title": "How to Stop an Exploding Man"
         }
       ],
-      "poster": "heroes"
+      "year": 2006
     },
     {
-      "season": 2,
-      "trailer": "9mNGxXpAmHc",
-      "year": 2007,
+      "title": "Volume 2: Generations",
+      "plot": "Common people discover that they have super powers. Their lives intertwine as a devastating event must be prevented.",
       "episodes": [
         {
           "episodeOverall": 24,
@@ -627,12 +637,11 @@
           "title": "Powerless"
         }
       ],
-      "poster": "heroes_s2"
+      "year": 2007
     },
     {
-      "season": 3.1,
-      "trailer": "i1VA_aWyrPI",
-      "year": 2008,
+      "title": "Volume 3. Part 1: Villains",
+      "plot": "Common people discover that they have super powers. Their lives intertwine as a devastating event must be prevented.",
       "episodes": [
         {
           "episodeOverall": 60,
@@ -725,12 +734,11 @@
           "title": "Brave New World"
         }
       ],
-      "poster": "heroes_s3.1"
+      "year": 2008
     },
     {
-      "season": 3.2,
-      "trailer": "mTzPPIEUFEs",
-      "year": 2009,
+      "title": "Volume 3. Part 2: Fugitives",
+      "plot": "Common people discover that they have super powers. Their lives intertwine as a devastating event must be prevented.",
       "episodes": [
         {
           "episodeOverall": 35,
@@ -798,12 +806,11 @@
           "title": "Dual"
         }
       ],
-      "poster": "heroes_s3.2"
+      "year": 2009
     },
     {
-      "season": 4,
-      "trailer": "mTzPPIEUFEs",
-      "year": 2009,
+      "title": "Volume 4: Redemption",
+      "plot": "Common people discover that they have super powers. Their lives intertwine as a devastating event must be prevented.",
       "episodes": [
         {
           "episodeOverall": 48,
@@ -866,7 +873,7 @@
           "title": "An Invisible Thread"
         }
       ],
-      "poster": "heroes_s4"
+      "year": 2009
     }
   ]
 }

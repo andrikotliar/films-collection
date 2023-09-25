@@ -4,12 +4,10 @@
     "Series"
   ],
   "title": "The Falcon and the Winter Soldier",
-  "poster": "falcon_and_the_winter_soldier",
   "genres": [
     "Action",
     "Drama"
   ],
-  "synopsis": "Following the events of «Avengers: Endgame» Sam Wilson and Bucky Barnes team up in a global adventure that tests their abilities and their patience.",
   "crew": [
     {
       "role": "Directed by",
@@ -171,11 +169,16 @@
     "title": "Marvel Cinematic Universe",
     "part": 25
   },
-  "seasons": [
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/falcon_and_the_winter_soldier.webp"
+  ],
+  "trailers": [
+    "IWBsDaFWyTE"
+  ],
+  "description": [
     {
-      "season": 1,
-      "trailer": "IWBsDaFWyTE",
-      "year": 2021,
+      "title": "Season 1",
+      "plot": "Following the events of «Avengers: Endgame» Sam Wilson and Bucky Barnes team up in a global adventure that tests their abilities and their patience.",
       "episodes": [
         {
           "episodeOverall": 1,
@@ -208,7 +211,7 @@
           "title": "One World, One People"
         }
       ],
-      "poster": "falcon_and_the_winter_soldier"
+      "year": 2021
     }
   ]
 }

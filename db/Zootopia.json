@@ -4,13 +4,10 @@
     "Animation"
   ],
   "title": "Zootopia",
-  "poster": "zootopia",
-  "trailer": "jWM0ct-OLsM",
   "genres": [
     "Adventures",
     "Comedy"
   ],
-  "synopsis": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
   "crew": [
     {
       "role": "Directed by",
@@ -160,6 +157,17 @@
       "nominations": [
         "Best Animated Feature"
       ]
+    }
+  ],
+  "trailers": [
+    "jWM0ct-OLsM"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/zootopia.webp"
+  ],
+  "description": [
+    {
+      "plot": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy."
     }
   ]
 }

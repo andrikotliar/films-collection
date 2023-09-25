@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Aquaman",
-  "poster": "aquaman",
-  "trailer": "WDkg3h8PCVU",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "synopsis": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
   "crew": [
     {
       "role": "Directed by",
@@ -143,5 +140,16 @@
   "parts": {
     "title": "DC Extended Universe",
     "part": 6
-  }
+  },
+  "trailers": [
+    "WDkg3h8PCVU"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/aquaman.webp"
+  ],
+  "description": [
+    {
+      "plot": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land."
+    }
+  ]
 }

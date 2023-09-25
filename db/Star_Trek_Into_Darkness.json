@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Star Trek: Into Darkness",
-  "poster": "star_trek_2",
-  "trailer": "jJMYAJ3_0uw",
   "genres": [
     "Sci-Fi",
     "SpaceOpera"
   ],
-  "synopsis": "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction.",
   "crew": [
     {
       "role": "Directed by",
@@ -164,5 +161,16 @@
   "parts": {
     "title": "Star Trek",
     "part": 2
-  }
+  },
+  "trailers": [
+    "jJMYAJ3_0uw"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/star_trek_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction."
+    }
+  ]
 }

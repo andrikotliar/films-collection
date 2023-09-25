@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Tron: Legacy",
-  "poster": "tron",
-  "trailer": "L9szn1QQfas",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "synopsis": "The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world.",
   "crew": [
     {
       "role": "Directed by",
@@ -135,6 +132,17 @@
         "Best Production Design",
         "Best Actor"
       ]
+    }
+  ],
+  "trailers": [
+    "L9szn1QQfas"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/tron.webp"
+  ],
+  "description": [
+    {
+      "plot": "The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world."
     }
   ]
 }

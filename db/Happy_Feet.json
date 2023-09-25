@@ -4,13 +4,10 @@
     "Animation"
   ],
   "title": "Happy Feet",
-  "poster": "happy_feet",
-  "trailer": "hFUC5adf8FE",
   "genres": [
     "Musical",
     "Romance"
   ],
-  "synopsis": "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!",
   "crew": [
     {
       "role": "Directed by",
@@ -155,6 +152,17 @@
       "nominations": [
         "Best Animated Feature Film"
       ]
+    }
+  ],
+  "trailers": [
+    "hFUC5adf8FE"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/happy_feet.webp"
+  ],
+  "description": [
+    {
+      "plot": "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!"
     }
   ]
 }

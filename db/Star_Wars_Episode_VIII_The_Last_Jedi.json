@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Star Wars Episode VIII: The Last Jedi",
-  "poster": "star_wars_episode_VIII",
-  "trailer": "Q0CbN8sfihY",
   "genres": [
     "SpaceOpera",
     "Adventures"
   ],
-  "synopsis": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.",
   "crew": [
     {
       "role": "Directed by",
@@ -150,5 +147,16 @@
   "parts": {
     "title": "Star Wars Universe",
     "part": 11
-  }
+  },
+  "trailers": [
+    "Q0CbN8sfihY"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/star_wars_episode_VIII.webp"
+  ],
+  "description": [
+    {
+      "plot": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order."
+    }
+  ]
 }

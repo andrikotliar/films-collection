@@ -4,14 +4,11 @@
     "Film"
   ],
   "title": "Source Code",
-  "poster": "source_code",
-  "trailer": "mnJegNyAb1w",
   "genres": [
     "Sci-Fi",
     "Action",
     "Thriller"
   ],
-  "synopsis": "A soldier wakes up in someone else's body and discovers he's part of an experimental government program to find the bomber of a commuter train. A mission he has only 8 minutes to complete.",
   "crew": [
     {
       "role": "Directed by",
@@ -125,5 +122,16 @@
     }
   ],
   "budget": 32000000,
-  "boxoffice": 147000000
+  "boxoffice": 147000000,
+  "trailers": [
+    "mnJegNyAb1w"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/source_code.webp"
+  ],
+  "description": [
+    {
+      "plot": "A soldier wakes up in someone else's body and discovers he's part of an experimental government program to find the bomber of a commuter train. A mission he has only 8 minutes to complete."
+    }
+  ]
 }

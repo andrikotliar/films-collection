@@ -4,14 +4,11 @@
     "Film"
   ],
   "title": "World War Z",
-  "poster": "world_war_z",
-  "trailer": "Md6Dvxdr0AQ",
   "genres": [
     "Action",
     "Adventures",
     "Horror"
   ],
-  "synopsis": "Former United Nations employee Gerry Lane traverses the world in a race against time to stop the Zombie pandemic that is toppling armies and governments, and threatening to destroy humanity itself.",
   "crew": [
     {
       "role": "Directed by",
@@ -128,6 +125,17 @@
       "nominations": [
         "Best Scared-As-S**t Performance"
       ]
+    }
+  ],
+  "trailers": [
+    "Md6Dvxdr0AQ"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/world_war_z.webp"
+  ],
+  "description": [
+    {
+      "plot": "Former United Nations employee Gerry Lane traverses the world in a race against time to stop the Zombie pandemic that is toppling armies and governments, and threatening to destroy humanity itself."
     }
   ]
 }

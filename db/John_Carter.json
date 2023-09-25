@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "John Carter",
-  "poster": "john_carter",
-  "trailer": "nlvYKl1fjBI",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "synopsis": "Transported to Barsoom, a Civil War vet discovers a barren planet seemingly inhabited by 12-foot tall barbarians. Finding himself prisoner of these creatures, he escapes, only to encounter Woola and a princess in desperate need of a savior.",
   "crew": [
     {
       "role": "Directed by",
@@ -148,5 +145,16 @@
     }
   ],
   "budget": 306000000,
-  "boxoffice": 284000000
+  "boxoffice": 284000000,
+  "trailers": [
+    "nlvYKl1fjBI"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/john_carter.webp"
+  ],
+  "description": [
+    {
+      "plot": "Transported to Barsoom, a Civil War vet discovers a barren planet seemingly inhabited by 12-foot tall barbarians. Finding himself prisoner of these creatures, he escapes, only to encounter Woola and a princess in desperate need of a savior."
+    }
+  ]
 }

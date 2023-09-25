@@ -4,14 +4,11 @@
     "Film"
   ],
   "title": "Men in Black",
-  "poster": "mib_1",
-  "trailer": "1Q4mhYF9aQQ",
   "genres": [
     "Sci-Fi",
     "Action",
     "Comedy"
   ],
-  "synopsis": "A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth.",
   "crew": [
     {
       "role": "Directed by",
@@ -128,5 +125,16 @@
   "parts": {
     "title": "Men in Black",
     "part": 1
-  }
+  },
+  "trailers": [
+    "1Q4mhYF9aQQ"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mib_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth."
+    }
+  ]
 }

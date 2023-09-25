@@ -4,13 +4,10 @@
     "Animation"
   ],
   "title": "Spider-Man: Into the Spider-Verse",
-  "poster": "spiderman_intospiderverse",
-  "trailer": "g4Hbz2jLxvQ",
   "genres": [
     "Action",
     "Adventures"
   ],
-  "synopsis": "Teen Miles Morales becomes Spider-Man of his reality, crossing his path with five counterparts from other dimensions to stop a threat for all realities.",
   "crew": [
     {
       "role": "Directed by",
@@ -187,6 +184,17 @@
       "nominations": [
         "Best Animated Feature"
       ]
+    }
+  ],
+  "trailers": [
+    "g4Hbz2jLxvQ"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/spiderman_intospiderverse.webp"
+  ],
+  "description": [
+    {
+      "plot": "Teen Miles Morales becomes Spider-Man of his reality, crossing his path with five counterparts from other dimensions to stop a threat for all realities."
     }
   ]
 }

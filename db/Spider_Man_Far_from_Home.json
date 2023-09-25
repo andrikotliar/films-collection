@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Spider-Man: Far from Home",
-  "poster": "mcu_spider_man_2",
-  "trailer": "Nt9L1jCKGnE",
   "genres": [
     "Sci-Fi",
     "Comedy"
   ],
-  "synopsis": "Following the events of Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
   "crew": [
     {
       "role": "Directed by",
@@ -131,5 +128,16 @@
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 23
-  }
+  },
+  "trailers": [
+    "Nt9L1jCKGnE"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mcu_spider_man_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "Following the events of Endgame, Spider-Man must step up to take on new threats in a world that has changed forever."
+    }
+  ]
 }

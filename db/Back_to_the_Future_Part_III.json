@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Back to the Future: Part III",
-  "poster": "back_to_the_future_3",
-  "trailer": "EYkguxpqsrg",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "synopsis": "Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about to be killed by Buford \"Mad Dog\"Tannen. Marty McFly travels back in time to save his friend.",
   "crew": [
     {
       "role": "Directed by",
@@ -104,5 +101,16 @@
   "parts": {
     "title": "Back to the Future",
     "part": 3
-  }
+  },
+  "trailers": [
+    "EYkguxpqsrg"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/back_to_the_future_3.webp"
+  ],
+  "description": [
+    {
+      "plot": "Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about to be killed by Buford \"Mad Dog\"Tannen. Marty McFly travels back in time to save his friend."
+    }
+  ]
 }

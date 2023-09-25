@@ -4,13 +4,10 @@
     "Animation"
   ],
   "title": "Shrek 2",
-  "poster": "shrek_2",
-  "trailer": "xBgSfhp5Fxo",
   "genres": [
     "Adventures",
     "Comedy"
   ],
-  "synopsis": "Shrek and Fiona travel to the Kingdom of Far Far Away, where Fiona's parents are King and Queen, to celebrate their marriage. When they arrive, they find they are not as welcome as they thought they would be.",
   "crew": [
     {
       "role": "Directed by",
@@ -143,5 +140,16 @@
   "parts": {
     "title": "Shrek",
     "part": 2
-  }
+  },
+  "trailers": [
+    "xBgSfhp5Fxo"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/shrek_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "Shrek and Fiona travel to the Kingdom of Far Far Away, where Fiona's parents are King and Queen, to celebrate their marriage. When they arrive, they find they are not as welcome as they thought they would be."
+    }
+  ]
 }

@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Matrix Reloaded",
-  "poster": "matrix_2",
-  "trailer": "kYzz0FSgpSU",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "Neo and the rebel leaders estimate that they have 72 hours until 250,000 probes discover Zion and destroy it and its inhabitants. During this, Neo must decide how he can save Trinity from a dark fate in his dreams.",
   "crew": [
     {
       "role": "Directed by",
@@ -144,5 +141,16 @@
   "parts": {
     "title": "The Matrix",
     "part": 2
-  }
+  },
+  "trailers": [
+    "kYzz0FSgpSU"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/matrix_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "Neo and the rebel leaders estimate that they have 72 hours until 250,000 probes discover Zion and destroy it and its inhabitants. During this, Neo must decide how he can save Trinity from a dark fate in his dreams."
+    }
+  ]
 }

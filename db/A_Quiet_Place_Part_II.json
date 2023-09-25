@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "A Quiet Place Part II",
-  "poster": "quiet_place_2",
-  "trailer": "BpdDN9d9Jio",
   "genres": [
     "Sci-Fi",
     "Horror"
   ],
-  "synopsis": "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize the creatures that hunt by sound are not the only threats lurking beyond the sand path.",
   "crew": [
     {
       "role": "Directed by",
@@ -124,5 +121,16 @@
   "parts": {
     "title": "Quiet Place",
     "part": 2
-  }
+  },
+  "trailers": [
+    "BpdDN9d9Jio"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/quiet_place_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize the creatures that hunt by sound are not the only threats lurking beyond the sand path."
+    }
+  ]
 }

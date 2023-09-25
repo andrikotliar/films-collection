@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Captain America: Civil War",
-  "poster": "captain_america_3",
-  "trailer": "dKrVegVI0Us",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man.",
   "crew": [
     {
       "role": "Directed by",
@@ -193,5 +190,16 @@
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 13
-  }
+  },
+  "trailers": [
+    "dKrVegVI0Us"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/captain_america_3.webp"
+  ],
+  "description": [
+    {
+      "plot": "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man."
+    }
+  ]
 }

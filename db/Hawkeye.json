@@ -4,12 +4,10 @@
     "Series"
   ],
   "title": "Hawkeye",
-  "poster": "hawkeye",
   "genres": [
     "Action",
     "Crime"
   ],
-  "synopsis": "Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate M. Bishop, who took on the role after the original Avenger, Clint Barton.",
   "crew": [
     {
       "role": "Directed by",
@@ -131,11 +129,16 @@
     "title": "Marvel Cinematic Universe",
     "part": 29
   },
-  "seasons": [
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hawkeye.webp"
+  ],
+  "trailers": [
+    "5VYb3B1ETlk"
+  ],
+  "description": [
     {
-      "season": 1,
-      "trailer": "5VYb3B1ETlk",
-      "year": 2021,
+      "title": "Season 1",
+      "plot": "Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate M. Bishop, who took on the role after the original Avenger, Clint Barton.",
       "episodes": [
         {
           "episodeOverall": 1,
@@ -168,7 +171,7 @@
           "title": "So This Is Christmas?"
         }
       ],
-      "poster": "hawkeye"
+      "year": 2021
     }
   ]
 }

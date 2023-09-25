@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Martian",
-  "poster": "martian",
-  "trailer": "ej3ioOneTy8",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "synopsis": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.",
   "crew": [
     {
       "role": "Directed by",
@@ -187,6 +184,17 @@
       "nominations": [
         "Best Director"
       ]
+    }
+  ],
+  "trailers": [
+    "ej3ioOneTy8"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/martian.webp"
+  ],
+  "description": [
+    {
+      "plot": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive."
     }
   ]
 }

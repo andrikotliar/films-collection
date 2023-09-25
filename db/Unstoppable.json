@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Unstoppable",
-  "poster": "unstoppable",
-  "trailer": "fyuoIqeL-bc",
   "genres": [
     "Action",
     "Thriller"
   ],
-  "synopsis": "With an unmanned, half-mile-long freight train barreling toward a city, a veteran engineer and a young conductor race against the clock to prevent a catastrophe.",
   "crew": [
     {
       "role": "Directed by",
@@ -123,5 +120,16 @@
     }
   ],
   "budget": 100000000,
-  "boxoffice": 167000000
+  "boxoffice": 167000000,
+  "trailers": [
+    "fyuoIqeL-bc"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/unstoppable.webp"
+  ],
+  "description": [
+    {
+      "plot": "With an unmanned, half-mile-long freight train barreling toward a city, a veteran engineer and a young conductor race against the clock to prevent a catastrophe."
+    }
+  ]
 }

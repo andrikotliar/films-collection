@@ -4,14 +4,11 @@
     "Film"
   ],
   "title": "Indiana Jones and the Last Crusade",
-  "poster": "indiana_jones_3",
-  "trailer": "sagmdpkWUqc",
   "genres": [
     "Adventures",
     "Fantasy",
     "Action"
   ],
-  "synopsis": "In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Professor Henry \"Indiana\" Jones, Jr. finds himself up against Adolf Hitler's Nazis again to stop them from obtaining its powers.",
   "crew": [
     {
       "role": "Directed by",
@@ -140,5 +137,16 @@
   "parts": {
     "title": "Indiana Jones",
     "part": 3
-  }
+  },
+  "trailers": [
+    "sagmdpkWUqc"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/indiana_jones_3.webp"
+  ],
+  "description": [
+    {
+      "plot": "In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Professor Henry \"Indiana\" Jones, Jr. finds himself up against Adolf Hitler's Nazis again to stop them from obtaining its powers."
+    }
+  ]
 }

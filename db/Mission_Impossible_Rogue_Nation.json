@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Mission: Impossible - Rogue Nation",
-  "poster": "mi_5",
-  "trailer": "gOW_azQbOjw",
   "genres": [
     "Action",
     "Adventures"
   ],
-  "synopsis": "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF.",
   "crew": [
     {
       "role": "Directed by",
@@ -144,5 +141,16 @@
   "parts": {
     "title": "Mission: Impossible",
     "part": 5
-  }
+  },
+  "trailers": [
+    "gOW_azQbOjw"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mi_5.webp"
+  ],
+  "description": [
+    {
+      "plot": "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF."
+    }
+  ]
 }

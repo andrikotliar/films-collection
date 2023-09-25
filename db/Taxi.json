@@ -4,12 +4,9 @@
     "Film"
   ],
   "title": "Taxi",
-  "poster": "taxi_1",
-  "trailer": "buQxF0eIeXI",
   "genres": [
     "Comedy"
   ],
-  "synopsis": "To work off his tarnished driving record, a hip taxi driver must chauffeur a loser police inspector on the trail of German bank robbers.",
   "crew": [
     {
       "role": "Directed by",
@@ -114,5 +111,16 @@
   "parts": {
     "title": "Besson's Taxi",
     "part": 1
-  }
+  },
+  "trailers": [
+    "buQxF0eIeXI"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/taxi_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "To work off his tarnished driving record, a hip taxi driver must chauffeur a loser police inspector on the trail of German bank robbers."
+    }
+  ]
 }

@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Transporter 2",
-  "poster": "transporter_2",
-  "trailer": "sYJ5LDoWRT4",
   "genres": [
     "Action",
     "Crime"
   ],
-  "synopsis": "Mercenary Frank Martin, who specializes moving goods of all kinds, surfaces again this time in Miami, Florida when he's implicated in the kidnapping of the young son of a powerful USA official.",
   "crew": [
     {
       "role": "Directed by",
@@ -142,5 +139,16 @@
   "parts": {
     "title": "The Transporter",
     "part": 2
-  }
+  },
+  "trailers": [
+    "sYJ5LDoWRT4"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/transporter_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "Mercenary Frank Martin, who specializes moving goods of all kinds, surfaces again this time in Miami, Florida when he's implicated in the kidnapping of the young son of a powerful USA official."
+    }
+  ]
 }

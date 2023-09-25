@@ -4,12 +4,10 @@
     "Series"
   ],
   "title": "Dark",
-  "poster": "dark",
   "genres": [
     "Fantasy",
     "Drama"
   ],
-  "synopsis": "A family saga with a supernatural twist, set in a German town, where the disappearance of two young children exposes the relationships among four families.",
   "crew": [
     {
       "role": "Created by",
@@ -291,11 +289,20 @@
       ]
     }
   ],
-  "seasons": [
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/dark.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/dark_s2.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/dark_s3.webp"
+  ],
+  "trailers": [
+    "rrwycJ08PSA",
+    "810CHvSdXOo",
+    "cq2iTHoLrt0"
+  ],
+  "description": [
     {
-      "season": 1,
-      "trailer": "rrwycJ08PSA",
-      "year": 2017,
+      "title": "Season 1",
+      "plot": "A family saga with a supernatural twist, set in a German town, where the disappearance of two young children exposes the relationships among four families.",
       "episodes": [
         {
           "episodeOverall": 1,
@@ -348,12 +355,11 @@
           "title": "Alpha and Omega"
         }
       ],
-      "poster": "dark"
+      "year": 2017
     },
     {
-      "season": 2,
-      "trailer": "810CHvSdXOo",
-      "year": 2019,
+      "title": "Season 2",
+      "plot": "A family saga with a supernatural twist, set in a German town, where the disappearance of two young children exposes the relationships among four families.",
       "episodes": [
         {
           "episodeOverall": 11,
@@ -396,12 +402,11 @@
           "title": "Endings and Beginnings"
         }
       ],
-      "poster": "dark_s2"
+      "year": 2019
     },
     {
-      "season": 3,
-      "trailer": "cq2iTHoLrt0",
-      "year": 2020,
+      "title": "Season 3",
+      "plot": "A family saga with a supernatural twist, set in a German town, where the disappearance of two young children exposes the relationships among four families.",
       "episodes": [
         {
           "episodeOverall": 19,
@@ -444,7 +449,7 @@
           "title": "Paradise"
         }
       ],
-      "poster": "dark_s3"
+      "year": 2020
     }
   ]
 }

@@ -4,12 +4,10 @@
     "Series"
   ],
   "title": "Game of Thrones",
-  "poster": "got",
   "genres": [
     "Adventures",
     "Drama"
   ],
-  "synopsis": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
   "crew": [
     {
       "role": "Created by",
@@ -511,11 +509,30 @@
       "title": "Fantasy"
     }
   ],
-  "seasons": [
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s2.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s3.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s4.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s5.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s6.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s7.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s8.webp"
+  ],
+  "trailers": [
+    "gcTkNV5Vg1E",
+    "AlhHGUfCYw4",
+    "nblUgAMoOvU",
+    "aj9x_Xea6cg",
+    "F9Bo89m2f6g",
+    "yu8eRaq1FUM",
+    "giYeaKsXnsI",
+    "rlR4PJn8b8I"
+  ],
+  "description": [
     {
-      "season": 1,
-      "trailer": "gcTkNV5Vg1E",
-      "year": 2011,
+      "title": "Season 1",
+      "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
       "episodes": [
         {
           "episodeOverall": 1,
@@ -568,12 +585,11 @@
           "title": "Fire, Blood"
         }
       ],
-      "poster": "got"
+      "year": 2011
     },
     {
-      "season": 2,
-      "trailer": "AlhHGUfCYw4",
-      "year": 2012,
+      "title": "Season 2",
+      "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
       "episodes": [
         {
           "episodeOverall": 11,
@@ -626,12 +642,11 @@
           "title": "Valar Morghulis"
         }
       ],
-      "poster": "got_s2"
+      "year": 2012
     },
     {
-      "season": 3,
-      "trailer": "nblUgAMoOvU",
-      "year": 2013,
+      "title": "Season 3",
+      "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
       "episodes": [
         {
           "episodeOverall": 21,
@@ -684,12 +699,11 @@
           "title": "Mhysa"
         }
       ],
-      "poster": "got_s3"
+      "year": 2013
     },
     {
-      "season": 4,
-      "trailer": "aj9x_Xea6cg",
-      "year": 2014,
+      "title": "Season 4",
+      "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
       "episodes": [
         {
           "episodeOverall": 31,
@@ -742,12 +756,11 @@
           "title": "The Children"
         }
       ],
-      "poster": "got_s4"
+      "year": 2014
     },
     {
-      "season": 5,
-      "trailer": "F9Bo89m2f6g",
-      "year": 2015,
+      "title": "Season 5",
+      "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
       "episodes": [
         {
           "episodeOverall": 41,
@@ -800,12 +813,11 @@
           "title": "Mother's Mercy"
         }
       ],
-      "poster": "got_s5"
+      "year": 2015
     },
     {
-      "season": 6,
-      "trailer": "yu8eRaq1FUM",
-      "year": 2016,
+      "title": "Season 6",
+      "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
       "episodes": [
         {
           "episodeOverall": 51,
@@ -858,12 +870,11 @@
           "title": "The Winds of Winter"
         }
       ],
-      "poster": "got_s6"
+      "year": 2016
     },
     {
-      "season": 7,
-      "trailer": "giYeaKsXnsI",
-      "year": 2017,
+      "title": "Season 7",
+      "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
       "episodes": [
         {
           "episodeOverall": 61,
@@ -901,12 +912,11 @@
           "title": "The Dragon, the Wolf"
         }
       ],
-      "poster": "got_s7"
+      "year": 2017
     },
     {
-      "season": 8,
-      "trailer": "rlR4PJn8b8I",
-      "year": 2019,
+      "title": "Season 8",
+      "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
       "episodes": [
         {
           "episodeOverall": 68,
@@ -939,7 +949,7 @@
           "title": "The Iron Throne"
         }
       ],
-      "poster": "got_s8"
+      "year": 2019
     }
   ]
 }

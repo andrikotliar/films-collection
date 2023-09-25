@@ -4,13 +4,10 @@
     "Animation"
   ],
   "title": "WALL-E",
-  "poster": "wall_e",
-  "trailer": "alIq_wG9FNk",
   "genres": [
     "Sci-Fi",
     "Romance"
   ],
-  "synopsis": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
   "crew": [
     {
       "role": "Directed by",
@@ -153,6 +150,17 @@
       "nominations": [
         "Best Animated Feature"
       ]
+    }
+  ],
+  "trailers": [
+    "alIq_wG9FNk"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/wall_e.webp"
+  ],
+  "description": [
+    {
+      "plot": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind."
     }
   ]
 }

@@ -4,12 +4,9 @@
     "Film"
   ],
   "title": "Taxi 2",
-  "poster": "taxi_2",
-  "trailer": "XkMZ75BwhCg",
   "genres": [
     "Comedy"
   ],
-  "synopsis": "Police inspector Emilien and his taxi-driver pal Daniel are back, this time on the tail of a group of Japanese yakuza.",
   "crew": [
     {
       "role": "Directed by",
@@ -119,5 +116,16 @@
   "parts": {
     "title": "Besson's Taxi",
     "part": 2
-  }
+  },
+  "trailers": [
+    "XkMZ75BwhCg"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/taxi_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "Police inspector Emilien and his taxi-driver pal Daniel are back, this time on the tail of a group of Japanese yakuza."
+    }
+  ]
 }

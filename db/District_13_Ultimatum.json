@@ -4,12 +4,9 @@
     "Film"
   ],
   "title": "District 13: Ultimatum",
-  "poster": "d13_2",
-  "trailer": "jDDFNpj9xBQ",
   "genres": [
     "Action"
   ],
-  "synopsis": "Damien and Leito return to District 13 on a mission to bring peace to the troubled sector that is controlled by five different gang bosses, before the city's secret services take drastic measures to solve the problem.",
   "crew": [
     {
       "role": "Directed by",
@@ -131,5 +128,16 @@
   "parts": {
     "title": "District 13",
     "part": 2
-  }
+  },
+  "trailers": [
+    "jDDFNpj9xBQ"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/d13_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "Damien and Leito return to District 13 on a mission to bring peace to the troubled sector that is controlled by five different gang bosses, before the city's secret services take drastic measures to solve the problem."
+    }
+  ]
 }

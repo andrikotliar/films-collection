@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Murder on the Orient Express",
-  "poster": "murder_on_the_orient_express",
-  "trailer": "Mq4m3yAoW8E",
   "genres": [
     "Crime",
     "Drama"
   ],
-  "synopsis": "When a murder occurs on the train on which he's travelling, celebrated detective Hercule Poirot is recruited to solve the case.",
   "crew": [
     {
       "role": "Directed by",
@@ -190,5 +187,16 @@
     }
   ],
   "budget": 55000000,
-  "boxoffice": 353000000
+  "boxoffice": 353000000,
+  "trailers": [
+    "Mq4m3yAoW8E"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/murder_on_the_orient_express.webp"
+  ],
+  "description": [
+    {
+      "plot": "When a murder occurs on the train on which he's travelling, celebrated detective Hercule Poirot is recruited to solve the case."
+    }
+  ]
 }

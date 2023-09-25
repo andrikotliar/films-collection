@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Iron Man 3",
-  "poster": "iron_man_3",
-  "trailer": "Ke1Y3P9D0Bc",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
   "crew": [
     {
       "role": "Directed by",
@@ -136,5 +133,16 @@
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 7
-  }
+  },
+  "trailers": [
+    "Ke1Y3P9D0Bc"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/iron_man_3.webp"
+  ],
+  "description": [
+    {
+      "plot": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution."
+    }
+  ]
 }

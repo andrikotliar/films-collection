@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Star Wars Episode VI: Return of the Jedi",
-  "poster": "star_wars_episode_VI",
-  "trailer": "5UfA_aKBGMc",
   "genres": [
     "SpaceOpera",
     "Adventures"
   ],
-  "synopsis": "After a daring mission to rescue Han Solo from Jabba the Hutt, the rebels dispatch to Endor to destroy a more powerful Death Star. Meanwhile, Luke struggles to help Vader back from the dark side without falling into the Emperor's trap.",
   "crew": [
     {
       "role": "Directed by",
@@ -159,5 +156,16 @@
   "parts": {
     "title": "Star Wars Universe",
     "part": 8
-  }
+  },
+  "trailers": [
+    "5UfA_aKBGMc"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/star_wars_episode_VI.webp"
+  ],
+  "description": [
+    {
+      "plot": "After a daring mission to rescue Han Solo from Jabba the Hutt, the rebels dispatch to Endor to destroy a more powerful Death Star. Meanwhile, Luke struggles to help Vader back from the dark side without falling into the Emperor's trap."
+    }
+  ]
 }

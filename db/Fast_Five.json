@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Fast Five",
-  "poster": "fast_and_furious_5",
-  "trailer": "mw2AqdB5EVA",
   "genres": [
     "Action",
     "Crime"
   ],
-  "synopsis": "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent.",
   "crew": [
     {
       "role": "Directed by",
@@ -153,5 +150,16 @@
   "parts": {
     "title": "Fast and Furious",
     "part": 5
-  }
+  },
+  "trailers": [
+    "mw2AqdB5EVA"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_5.webp"
+  ],
+  "description": [
+    {
+      "plot": "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent."
+    }
+  ]
 }

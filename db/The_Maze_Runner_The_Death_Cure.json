@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Maze Runner: The Death Cure",
-  "poster": "maze_runner_3",
-  "trailer": "4-BTxXm8KSg",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "Young hero Thomas embarks on a mission to find a cure for a deadly disease known as \"The Flare\".",
   "crew": [
     {
       "role": "Directed by",
@@ -159,5 +156,16 @@
   "parts": {
     "title": "The Maze Runner",
     "part": 3
-  }
+  },
+  "trailers": [
+    "4-BTxXm8KSg"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/maze_runner_3.webp"
+  ],
+  "description": [
+    {
+      "plot": "Young hero Thomas embarks on a mission to find a cure for a deadly disease known as \"The Flare\"."
+    }
+  ]
 }

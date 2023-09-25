@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Furious Six",
-  "poster": "fast_and_furious_6",
-  "trailer": "dKi5XoeTN0k",
   "genres": [
     "Action",
     "Crime"
   ],
-  "synopsis": "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty.",
   "crew": [
     {
       "role": "Directed by",
@@ -161,5 +158,16 @@
   "parts": {
     "title": "Fast and Furious",
     "part": 6
-  }
+  },
+  "trailers": [
+    "dKi5XoeTN0k"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_6.webp"
+  ],
+  "description": [
+    {
+      "plot": "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty."
+    }
+  ]
 }

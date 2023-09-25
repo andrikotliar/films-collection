@@ -4,14 +4,11 @@
     "Film"
   ],
   "title": "Wonder Woman",
-  "poster": "wonder_woman",
-  "trailer": "1Q8fG0TtVAY",
   "genres": [
     "Fantasy",
     "Adventures",
     "Drama"
   ],
-  "synopsis": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
   "crew": [
     {
       "role": "Directed by",
@@ -154,5 +151,16 @@
   "parts": {
     "title": "DC Extended Universe",
     "part": 4
-  }
+  },
+  "trailers": [
+    "1Q8fG0TtVAY"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/wonder_woman.webp"
+  ],
+  "description": [
+    {
+      "plot": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny."
+    }
+  ]
 }

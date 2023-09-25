@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Transformers",
-  "poster": "transformers_1",
-  "trailer": "dxQxgAfNzyE",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
   "crew": [
     {
       "role": "Directed by",
@@ -191,5 +188,16 @@
   "parts": {
     "title": "Transformers",
     "part": 2
-  }
+  },
+  "trailers": [
+    "dxQxgAfNzyE"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/transformers_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager."
+    }
+  ]
 }

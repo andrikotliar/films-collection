@@ -4,13 +4,10 @@
     "Animation"
   ],
   "title": "Klaus",
-  "poster": "klaus",
-  "trailer": "taE3PwurhYM",
   "genres": [
     "Adventures",
     "Comedy"
   ],
-  "synopsis": "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions.",
   "crew": [
     {
       "role": "Directed by",
@@ -114,5 +111,16 @@
       "title": "Fantasy"
     }
   ],
-  "budget": 40000000000
+  "budget": 40000000000,
+  "trailers": [
+    "taE3PwurhYM"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/klaus.webp"
+  ],
+  "description": [
+    {
+      "plot": "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions."
+    }
+  ]
 }

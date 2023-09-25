@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Incredible Hulk",
-  "poster": "the_incredible_hulk",
-  "trailer": "xbqNb2PFKKA",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into, whenever he loses his temper.",
   "crew": [
     {
       "role": "Directed by",
@@ -115,5 +112,16 @@
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 2
-  }
+  },
+  "trailers": [
+    "xbqNb2PFKKA"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/the_incredible_hulk.webp"
+  ],
+  "description": [
+    {
+      "plot": "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into, whenever he loses his temper."
+    }
+  ]
 }

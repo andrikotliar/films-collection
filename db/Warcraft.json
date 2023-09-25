@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Warcraft",
-  "poster": "warcraft",
-  "trailer": "2Rxoz13Bthc",
   "genres": [
     "Fantasy",
     "Action"
   ],
-  "synopsis": "As an Orc horde invades the planet Azeroth using a magic portal, a few human heroes and dissenting Orcs must attempt to stop the true evil behind this war.",
   "crew": [
     {
       "role": "Directed by",
@@ -176,5 +173,16 @@
     }
   ],
   "budget": 160000000,
-  "boxoffice": 434000000
+  "boxoffice": 434000000,
+  "trailers": [
+    "2Rxoz13Bthc"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/warcraft.webp"
+  ],
+  "description": [
+    {
+      "plot": "As an Orc horde invades the planet Azeroth using a magic portal, a few human heroes and dissenting Orcs must attempt to stop the true evil behind this war."
+    }
+  ]
 }

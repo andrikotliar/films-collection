@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Hobbit: An Unexpected Journey",
-  "poster": "middle_earth_1",
-  "trailer": "JTSoD4BBCJc",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "synopsis": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug.",
   "crew": [
     {
       "role": "Directed by",
@@ -233,5 +230,16 @@
   "parts": {
     "title": "Middle-Earth Universe",
     "part": 1
-  }
+  },
+  "trailers": [
+    "JTSoD4BBCJc"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/middle_earth_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug."
+    }
+  ]
 }

@@ -4,12 +4,9 @@
     "Film"
   ],
   "title": "The Walk",
-  "poster": "walk",
-  "trailer": "4W6byFcD5uE",
   "genres": [
     "Adventures"
   ],
-  "synopsis": "In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream: to walk the immense void between the World Trade Center towers.",
   "crew": [
     {
       "role": "Directed by",
@@ -140,5 +137,16 @@
     }
   ],
   "budget": 35000000,
-  "boxoffice": 61000000
+  "boxoffice": 61000000,
+  "trailers": [
+    "4W6byFcD5uE"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/walk.webp"
+  ],
+  "description": [
+    {
+      "plot": "In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream: to walk the immense void between the World Trade Center towers."
+    }
+  ]
 }

@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Captain America: The First Avenger",
-  "poster": "captain_america_1",
-  "trailer": "JerVrbLldXw",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
   "crew": [
     {
       "role": "Directed by",
@@ -147,5 +144,16 @@
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 5
-  }
+  },
+  "trailers": [
+    "JerVrbLldXw"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/captain_america_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization."
+    }
+  ]
 }

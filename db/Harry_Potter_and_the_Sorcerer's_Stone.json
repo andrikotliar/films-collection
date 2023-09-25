@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Harry Potter and the Sorcerer's Stone",
-  "poster": "harry_potter_1",
-  "trailer": "VyHV0BRtdxo",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "synopsis": "An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
   "crew": [
     {
       "role": "Directed by",
@@ -138,5 +135,16 @@
   "parts": {
     "title": "Harry Potter Universe",
     "part": 3
-  }
+  },
+  "trailers": [
+    "VyHV0BRtdxo"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/harry_potter_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world."
+    }
+  ]
 }

@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Hunger Games: Mockingjay - Part 1",
-  "poster": "hunger_games_3",
-  "trailer": "3PkkHsuMrho",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "synopsis": "Katniss Everdeen is in District 13 after she shatters the games forever. Under the leadership of President Coin and the advice of her trusted friends, Katniss spreads her wings as she fights to save Peeta and a nation moved by her courage.",
   "crew": [
     {
       "role": "Directed by",
@@ -146,5 +143,16 @@
   "parts": {
     "title": "The Hunger Games",
     "part": 3
-  }
+  },
+  "trailers": [
+    "3PkkHsuMrho"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hunger_games_3.webp"
+  ],
+  "description": [
+    {
+      "plot": "Katniss Everdeen is in District 13 after she shatters the games forever. Under the leadership of President Coin and the advice of her trusted friends, Katniss spreads her wings as she fights to save Peeta and a nation moved by her courage."
+    }
+  ]
 }

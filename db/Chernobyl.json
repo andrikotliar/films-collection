@@ -4,12 +4,10 @@
     "Series"
   ],
   "title": "Chernobyl",
-  "poster": "chernobyl",
   "genres": [
     "Drama",
     "History"
   ],
-  "synopsis": "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes.",
   "crew": [
     {
       "role": "Created by",
@@ -166,11 +164,16 @@
       ]
     }
   ],
-  "seasons": [
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/chernobyl.webp"
+  ],
+  "trailers": [
+    "s9APLXM9Ei8"
+  ],
+  "description": [
     {
-      "season": 1,
-      "trailer": "s9APLXM9Ei8",
-      "year": 2019,
+      "title": "Season 1",
+      "plot": "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes.",
       "episodes": [
         {
           "episodeOverall": 1,
@@ -198,7 +201,7 @@
           "title": "Vichnaya Pamyat"
         }
       ],
-      "poster": "chernobyl"
+      "year": 2019
     }
   ]
 }

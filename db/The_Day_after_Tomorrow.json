@@ -4,12 +4,9 @@
     "Film"
   ],
   "title": "The Day after Tomorrow",
-  "poster": "day_after_tomorrow",
-  "trailer": "Ku_IseK3xTc",
   "genres": [
     "Sci-Fi"
   ],
-  "synopsis": "Jack Hall, paleoclimatologist, must make a daring trek from Washington, D.C. to New York City to reach his son, trapped in the cross-hairs of a sudden international storm which plunges the planet into a new Ice Age.",
   "crew": [
     {
       "role": "Directed by",
@@ -170,6 +167,17 @@
       "nominations": [
         "Best International Film"
       ]
+    }
+  ],
+  "trailers": [
+    "Ku_IseK3xTc"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/day_after_tomorrow.webp"
+  ],
+  "description": [
+    {
+      "plot": "Jack Hall, paleoclimatologist, must make a daring trek from Washington, D.C. to New York City to reach his son, trapped in the cross-hairs of a sudden international storm which plunges the planet into a new Ice Age."
     }
   ]
 }

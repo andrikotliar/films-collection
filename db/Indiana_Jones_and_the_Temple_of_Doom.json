@@ -4,14 +4,11 @@
     "Film"
   ],
   "title": "Indiana Jones and the Temple of Doom",
-  "poster": "indiana_jones_2",
-  "trailer": "WBdyLyijZhU",
   "genres": [
     "Adventures",
     "Fantasy",
     "Action"
   ],
-  "synopsis": "In 1935, Indiana Jones arrives in India, still part of the British Empire, and is asked to find a mystical stone. He then stumbles upon a secret cult committing enslavement and human sacrifices in the catacombs of an ancient palace.",
   "crew": [
     {
       "role": "Directed by",
@@ -143,5 +140,16 @@
   "parts": {
     "title": "Indiana Jones",
     "part": 2
-  }
+  },
+  "trailers": [
+    "WBdyLyijZhU"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/indiana_jones_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "In 1935, Indiana Jones arrives in India, still part of the British Empire, and is asked to find a mystical stone. He then stumbles upon a secret cult committing enslavement and human sacrifices in the catacombs of an ancient palace."
+    }
+  ]
 }

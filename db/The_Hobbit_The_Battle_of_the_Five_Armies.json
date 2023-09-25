@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Hobbit: The Battle of the Five Armies",
-  "poster": "middle_earth_3",
-  "trailer": "iVAgTiBrrDA",
   "genres": [
     "Fantasy",
     "Adventures"
   ],
-  "synopsis": "Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness.",
   "crew": [
     {
       "role": "Directed by",
@@ -254,5 +251,16 @@
   "parts": {
     "title": "Middle-Earth Universe",
     "part": 3
-  }
+  },
+  "trailers": [
+    "iVAgTiBrrDA"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/middle_earth_3.webp"
+  ],
+  "description": [
+    {
+      "plot": "Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness."
+    }
+  ]
 }

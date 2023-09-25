@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Thor: The Dark World",
-  "poster": "thor_2",
-  "trailer": "npvJ9FTgZbM",
   "genres": [
     "Fantasy",
     "Action"
   ],
-  "synopsis": "When Dr. Jane Foster gets cursed with a powerful entity known as the Aether, Thor is heralded of the cosmic event known as the Convergence and the genocidal Dark Elves.",
   "crew": [
     {
       "role": "Directed by",
@@ -157,5 +154,16 @@
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 8
-  }
+  },
+  "trailers": [
+    "npvJ9FTgZbM"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/thor_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "When Dr. Jane Foster gets cursed with a powerful entity known as the Aether, Thor is heralded of the cosmic event known as the Convergence and the genocidal Dark Elves."
+    }
+  ]
 }

@@ -4,13 +4,11 @@
     "Series"
   ],
   "title": "Stranger Things",
-  "poster": "stranger_things",
   "genres": [
     "Fantasy",
     "Drama",
     "Horror"
   ],
-  "synopsis": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
   "crew": [
     {
       "role": "Created by",
@@ -263,11 +261,22 @@
       ]
     }
   ],
-  "seasons": [
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/stranger_things.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/stranger_things_s2.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/stranger_things_s3.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/stranger_things_s4.webp"
+  ],
+  "trailers": [
+    "b9EkMc79ZSU",
+    "R1ZXOOLMJ8s",
+    "6Am4v0C_z8c",
+    "a3thyAnShck"
+  ],
+  "description": [
     {
-      "season": 1,
-      "trailer": "b9EkMc79ZSU",
-      "year": 2016,
+      "title": "Season 1",
+      "plot": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
       "episodes": [
         {
           "episodeOverall": 1,
@@ -310,12 +319,11 @@
           "title": "Chapter Eight: The Upside Down"
         }
       ],
-      "poster": "stranger_things"
+      "year": 2016
     },
     {
-      "season": 2,
-      "trailer": "R1ZXOOLMJ8s",
-      "year": 2017,
+      "title": "Season 2",
+      "plot": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
       "episodes": [
         {
           "episodeOverall": 9,
@@ -363,12 +371,11 @@
           "title": "Chapter Nine: The Gate"
         }
       ],
-      "poster": "stranger_things_s2"
+      "year": 2017
     },
     {
-      "season": 3,
-      "trailer": "6Am4v0C_z8c",
-      "year": 2019,
+      "title": "Season 3",
+      "plot": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
       "episodes": [
         {
           "episodeOverall": 18,
@@ -411,12 +418,11 @@
           "title": "Chapter Eight: The Battle of Starcourt"
         }
       ],
-      "poster": "stranger_things_s3"
+      "year": 2019
     },
     {
-      "season": 4,
-      "trailer": "a3thyAnShck",
-      "year": 2022,
+      "title": "Season 4",
+      "plot": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
       "episodes": [
         {
           "episodeOverall": 26,
@@ -464,7 +470,7 @@
           "title": "Chapter Nine: The Piggyback"
         }
       ],
-      "poster": "stranger_things_s4"
+      "year": 2022
     }
   ]
 }

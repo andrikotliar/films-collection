@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Tomorrow War",
-  "poster": "tomorrow_war",
-  "trailer": "QPistcpGB8o",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "A family man is drafted to fight in a future war where the fate of humanity relies on his ability to confront the past.",
   "crew": [
     {
       "role": "Directed by",
@@ -137,5 +134,16 @@
     }
   ],
   "budget": 200000000,
-  "boxoffice": 14000000
+  "boxoffice": 14000000,
+  "trailers": [
+    "QPistcpGB8o"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/tomorrow_war.webp"
+  ],
+  "description": [
+    {
+      "plot": "A family man is drafted to fight in a future war where the fate of humanity relies on his ability to confront the past."
+    }
+  ]
 }

@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Wonder Woman 1984",
-  "poster": "wonder_woman_2",
-  "trailer": "sfM7_JLk-84",
   "genres": [
     "Adventures",
     "Fantasy"
   ],
-  "synopsis": "Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient artifact that grants wishes goes missing.",
   "crew": [
     {
       "role": "Directed by",
@@ -132,5 +129,16 @@
   "parts": {
     "title": "DC Extended Universe",
     "part": 9
-  }
+  },
+  "trailers": [
+    "sfM7_JLk-84"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/wonder_woman_2.webp"
+  ],
+  "description": [
+    {
+      "plot": "Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient artifact that grants wishes goes missing."
+    }
+  ]
 }

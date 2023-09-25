@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "X-Men: Apocalypse",
-  "poster": "x_men_7",
-  "trailer": "Jer8XjMrUB4",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "In the 1980s the X-Men must defeat an ancient all-powerful mutant, En Sabah Nur, who intends to thrive through bringing destruction to the world.",
   "crew": [
     {
       "role": "Directed by",
@@ -161,5 +158,16 @@
   "parts": {
     "title": "X-Men",
     "part": 8
-  }
+  },
+  "trailers": [
+    "Jer8XjMrUB4"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/x_men_7.webp"
+  ],
+  "description": [
+    {
+      "plot": "In the 1980s the X-Men must defeat an ancient all-powerful mutant, En Sabah Nur, who intends to thrive through bringing destruction to the world."
+    }
+  ]
 }

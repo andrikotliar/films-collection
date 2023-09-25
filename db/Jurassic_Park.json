@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Jurassic Park",
-  "poster": "jurassic_park_1",
-  "trailer": "QWBKEmWWL38",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "synopsis": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
   "crew": [
     {
       "role": "Directed by",
@@ -157,5 +154,16 @@
   "parts": {
     "title": "Jurassic Park",
     "part": 1
-  }
+  },
+  "trailers": [
+    "QWBKEmWWL38"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/jurassic_park_1.webp"
+  ],
+  "description": [
+    {
+      "plot": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose."
+    }
+  ]
 }

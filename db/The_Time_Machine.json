@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "The Time Machine",
-  "poster": "time_machine",
-  "trailer": "90T7iLuzFgg",
   "genres": [
     "Sci-Fi",
     "Adventures"
   ],
-  "synopsis": "Hoping to alter the events of the past, a 19th century inventor instead travels 800,000 years into the future, where he finds humankind divided into two warring races.",
   "crew": [
     {
       "role": "Directed by",
@@ -121,5 +118,16 @@
     }
   ],
   "budget": 80000000,
-  "boxoffice": 124000000
+  "boxoffice": 124000000,
+  "trailers": [
+    "90T7iLuzFgg"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/time_machine.webp"
+  ],
+  "description": [
+    {
+      "plot": "Hoping to alter the events of the past, a 19th century inventor instead travels 800,000 years into the future, where he finds humankind divided into two warring races."
+    }
+  ]
 }

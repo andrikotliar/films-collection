@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Captain Marvel",
-  "poster": "captain_marvel",
-  "trailer": "TcMBFSGVi1c",
   "genres": [
     "Sci-Fi",
     "Action"
   ],
-  "synopsis": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
   "crew": [
     {
       "role": "Directed by",
@@ -160,5 +157,16 @@
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 21
-  }
+  },
+  "trailers": [
+    "TcMBFSGVi1c"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/captain_marvel.webp"
+  ],
+  "description": [
+    {
+      "plot": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races."
+    }
+  ]
 }

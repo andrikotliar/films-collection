@@ -5,12 +5,10 @@
     "Animation"
   ],
   "title": "Avatar: The Last Airbender",
-  "poster": "last_airbender",
   "genres": [
     "Adventures",
     "Fantasy"
   ],
-  "synopsis": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
   "crew": [
     {
       "role": "Created by",
@@ -303,11 +301,20 @@
     "title": "The Last Airbender",
     "part": 1
   },
-  "seasons": [
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/last_airbender.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/last_airbender_s2.webp",
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/last_airbender_s3.webp"
+  ],
+  "trailers": [
+    "ahPeclU9VW0",
+    "ahPeclU9VW0",
+    "ahPeclU9VW0"
+  ],
+  "description": [
     {
-      "season": 1,
-      "trailer": "ahPeclU9VW0",
-      "year": 2005,
+      "title": "Book 1: Water",
+      "plot": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
       "episodes": [
         {
           "episodeOverall": 1,
@@ -410,12 +417,11 @@
           "title": "The Siege of the North, Part 2"
         }
       ],
-      "poster": "last_airbender"
+      "year": 2005
     },
     {
-      "season": 2,
-      "trailer": "ahPeclU9VW0",
-      "year": 2006,
+      "title": "Book 2: Earth",
+      "plot": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
       "episodes": [
         {
           "episodeOverall": 21,
@@ -518,12 +524,11 @@
           "title": "The Crossroads of Destiny"
         }
       ],
-      "poster": "last_airbender_s2"
+      "year": 2006
     },
     {
-      "season": 3,
-      "trailer": "ahPeclU9VW0",
-      "year": 2008,
+      "title": "Book 3: Fire",
+      "plot": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
       "episodes": [
         {
           "episodeOverall": 41,
@@ -631,7 +636,7 @@
           "title": "Sozin's Comet, Part 4: Avatar Aang"
         }
       ],
-      "poster": "last_airbender_s3"
+      "year": 2008
     }
   ]
 }

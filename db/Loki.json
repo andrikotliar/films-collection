@@ -4,12 +4,10 @@
     "Series"
   ],
   "title": "Loki",
-  "poster": "loki",
   "genres": [
     "Adventures",
     "Fantasy"
   ],
-  "synopsis": "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of «Avengers: Endgame».",
   "crew": [
     {
       "role": "Created by",
@@ -178,11 +176,16 @@
     "title": "Marvel Cinematic Universe",
     "part": 26
   },
-  "seasons": [
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/loki.webp"
+  ],
+  "trailers": [
+    "nW948Va-l10"
+  ],
+  "description": [
     {
-      "season": 1,
-      "trailer": "nW948Va-l10",
-      "year": 2021,
+      "title": "Season 1",
+      "plot": "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of «Avengers: Endgame».",
       "episodes": [
         {
           "episodeOverall": 1,
@@ -215,7 +218,7 @@
           "title": "For All Time. Always."
         }
       ],
-      "poster": "loki"
+      "year": 2021
     }
   ]
 }

@@ -4,13 +4,10 @@
     "Film"
   ],
   "title": "Hancock",
-  "poster": "hancock",
-  "trailer": "SkX1VuXLRSc",
   "genres": [
     "Action",
     "Comedy"
   ],
-  "synopsis": "Hancock is a superhero whose ill considered behavior regularly causes damage in the millions. He changes when the person he saves helps him improve his public image.",
   "crew": [
     {
       "role": "Directed by",
@@ -151,5 +148,16 @@
     }
   ],
   "budget": 150000000,
-  "boxoffice": 624000000
+  "boxoffice": 624000000,
+  "trailers": [
+    "SkX1VuXLRSc"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hancock.webp"
+  ],
+  "description": [
+    {
+      "plot": "Hancock is a superhero whose ill considered behavior regularly causes damage in the millions. He changes when the person he saves helps him improve his public image."
+    }
+  ]
 }
