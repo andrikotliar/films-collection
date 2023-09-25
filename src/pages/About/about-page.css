@@ -1,0 +1,38 @@
+.about {
+  padding: 30px 0;
+}
+
+.about__title {
+  color: var(--main-color);
+  margin-bottom: 20px;
+}
+
+.about__content {
+  line-height: 1.5;
+  max-width: 800px;
+}
+
+.about__content p {
+  margin-bottom: 20px;
+}
+
+.about__content a {
+  color: var(--main-color);
+}
+
+.about__content a:hover {
+  text-decoration: underline;
+}
+
+.about__explore {
+  color: #fff;
+  display: inline-block;
+  background-color: var(--main-color);
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.about__explore:hover {
+  background-color: var(--green);
+}
