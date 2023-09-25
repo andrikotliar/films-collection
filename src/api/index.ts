@@ -1,2 +1,2 @@
-export { FilmAPI } from './films';
-export { ActorsAPI } from './actors';
+export * from './films';
+export * from './actors';

@@ -37,7 +37,9 @@ const ExpandFilter: FC<ExpandFilterProps> = ({ filter }) => {
             type="button"
           >
             <span>{title}</span>
-            <ExpandIcon className={`is-expanded-${isExpanded}`} color="#000" />
+            <div className={`is-expanded-${isExpanded}`}>
+              <ExpandIcon color="#000" />
+            </div>
           </button>
         </div>
         {isExpanded && (
@@ -57,4 +59,4 @@ const ExpandFilter: FC<ExpandFilterProps> = ({ filter }) => {
   );
 };
 
-export default ExpandFilter;
+export { ExpandFilter };

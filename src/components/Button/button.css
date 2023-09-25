@@ -8,9 +8,6 @@
   border-radius: 50px;
   transition: background-color 0.3s;
 }
-.button:hover {
-  background-color: var(--green);
-}
 .button[disabled] {
   cursor: default;
   background-color: #ddd;
@@ -22,14 +19,11 @@
   color: #222;
   background-color: #ddd;
 }
-.button-empty {
+.button-ghost {
   color: #222;
   background-color: transparent;
 }
 .button-active {
-  cursor: default;
-}
-.button-active:hover {
   background-color: var(--main-color);
 }
 .button-hidden {
@@ -39,6 +33,15 @@
 .button-icon {
   width: 20px;
   height: 20px;
+}
+@media (hover: hover) {
+  .button:hover {
+    background-color: var(--green);
+  }
+  
+  .button-active:hover {
+    background-color: var(--main-color);
+  }
 }
 @media (max-width: 735px) {
   .button-hidden {

@@ -1,2 +1,2 @@
-export { awardIcons } from './awards';
-export { filtersConfig } from './filters';
+export * from './awards';
+export * from './filters';

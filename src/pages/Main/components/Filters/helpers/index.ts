@@ -1,1 +1,1 @@
-export { isResetBtnVisible } from './isResetBtnVisible';
+export * from './isResetBtnVisible';

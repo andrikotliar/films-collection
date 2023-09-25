@@ -1,6 +1,6 @@
+import './button.css';
 import { FC, PropsWithChildren, ReactNode } from "react";
 import classNames from 'classnames';
-import './button.css';
 
 type ButtonProps = {
   onClick?: VoidFunction;
@@ -9,7 +9,8 @@ type ButtonProps = {
   className?: string;
   isHidden?: boolean;
   isActive?: boolean;
-  design?: 'primary' | 'secondary' | 'empty'
+  design?: 'primary' | 'secondary' | 'ghost';
+  activeClassName?: string;
 };
 
 const Button: FC<PropsWithChildren<ButtonProps>> = ({
@@ -20,7 +21,8 @@ const Button: FC<PropsWithChildren<ButtonProps>> = ({
   type = 'button',
   isHidden = false,
   design = 'primary',
-  isActive = false
+  isActive = false,
+  activeClassName = 'button-active',
 }) => {
   return (
     <button
@@ -28,7 +30,7 @@ const Button: FC<PropsWithChildren<ButtonProps>> = ({
       type={type}
       className={classNames('button', `button-${design}`, className, {
         'button-hidden': isHidden,
-        'button-active': isActive
+        [activeClassName]: isActive
       })}
     >
       {icon && (
@@ -41,4 +43,4 @@ const Button: FC<PropsWithChildren<ButtonProps>> = ({
   );
 };
 
-export default Button;
+export { Button };

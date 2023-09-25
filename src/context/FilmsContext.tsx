@@ -21,9 +21,9 @@ type FilmsContextType = {
   resetFilter(): void;
 }
 
-const FilmsContext = createContext<FilmsContextType>({} as FilmsContextType);
+const FilmsContext = createContext({} as FilmsContextType);
 
-export const useFilmsContext = () => useContext(FilmsContext);
+const useFilmsContext = () => useContext(FilmsContext);
 
 const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
   const [ initialFilmsList, setInitialFilmsList ] = useState<FilmData[]>([]);
@@ -110,4 +110,4 @@ const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
   );
 };
 
-export default FilmsProvider;
+export { FilmsProvider, useFilmsContext };

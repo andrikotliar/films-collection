@@ -11,4 +11,4 @@ const FiltersGroupHeader: FC<{ title: string }> = ({ title }) => {
   );
 };
 
-export default FiltersGroupHeader;
+export { FiltersGroupHeader };

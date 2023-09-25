@@ -33,7 +33,7 @@
   height: 100%;
   object-fit: cover;
 }
-.list-film__title {
+.list-film-title {
   text-align: center;
   font-weight: normal;
   font-size: 14px;
@@ -41,7 +41,7 @@
   transition: color 0.3s;
   margin: 5px 0;
 }
-.list-film:hover .list-film__title {
+.list-film:hover .list-film-title {
   color: var(--main-color);
 }
 .list-film__subtitle {
@@ -93,7 +93,7 @@
   .list {
     gap: 15px;
   }
-  .list-film__title,
+  .list-film-title,
   .list-film__subtitle {
     display: none;
   }

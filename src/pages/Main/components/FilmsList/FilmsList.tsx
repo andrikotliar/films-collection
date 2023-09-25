@@ -48,11 +48,11 @@ const FilmsList = () => {
             )}
             <div className="list-film__cover">
               <img
-                src={`/posters/${film.poster}.webp`}
+                src={film.posters[0]}
                 alt="film.title"
               />
             </div>
-            <h3 className="list-film__title">
+            <h3 className="list-film-title">
               {film.title}
             </h3>
             <p className="list-film__subtitle">
@@ -66,4 +66,4 @@ const FilmsList = () => {
   );
 };
 
-export default FilmsList;
+export { FilmsList };

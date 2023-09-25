@@ -1,1 +1,1 @@
-export { getPagination } from './getPagination';
+export * from './getPagination';

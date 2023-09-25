@@ -35,4 +35,4 @@ const FilterCheckbox: FC<FilterCheckboxProps> = ({
   );
 };
 
-export default FilterCheckbox;
+export { FilterCheckbox };

@@ -1,7 +1,7 @@
 import './sidebar.css';
 import classNames from 'classnames';
 import { useAppContext } from '@/context/AppContext';
-import { Filters } from '../Filters';
+import { Filters } from '@/pages/Main/components';
 
 const Sidebar = () => {
   const { isFilterOpen } = useAppContext();
@@ -15,4 +15,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export { Sidebar };

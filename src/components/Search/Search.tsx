@@ -73,4 +73,4 @@ const Search: FC<SearchProps> = ({
   );
 };
 
-export default Search;
+export { Search };

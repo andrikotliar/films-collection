@@ -26,4 +26,4 @@ const StandardFilter: FC<StandardFilterProps> = ({ filter }) => {
   );
 };
 
-export default StandardFilter;
+export { StandardFilter };

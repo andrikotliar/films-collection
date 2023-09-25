@@ -1,7 +1,7 @@
-export { buildActorsData } from "./build-actors-data";
-export { buildLink } from "./build-link";
-export { filterFilms } from "./filter-films";
-export { getFilterParams } from "./get-filter-params";
-export { getYears } from "./get-years";
-export { setBrowserTitle } from "./set-broswer-title";
-export { sliceFilmsByPage } from './slice-films-by-page';
+export * from "./build-actors-data";
+export * from "./build-link";
+export * from "./filter-films";
+export * from "./get-filter-params";
+export * from "./get-years";
+export * from "./set-broswer-title";
+export * from './slice-films-by-page';

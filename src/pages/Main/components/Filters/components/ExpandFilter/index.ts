@@ -1,1 +1,1 @@
-export { default as ExpandFilter } from './ExpandFilter';
+export * from './ExpandFilter';

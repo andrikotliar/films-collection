@@ -1,1 +1,1 @@
-export { default as FiltersGroupHeader } from './FiltersGroupHeader';
+export * from './FiltersGroupHeader';

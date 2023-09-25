@@ -32,7 +32,7 @@ const Pagination = () => {
           isActive={pageNumber === getCurrentPage()}
           key={pageNumber}
           onClick={() => setPage(pageNumber)}
-          design={pageNumber === getCurrentPage() ? 'primary' : 'empty'}
+          design={pageNumber === getCurrentPage() ? 'primary' : 'ghost'}
         >
           {pageNumber}
         </Button>
@@ -41,4 +41,4 @@ const Pagination = () => {
   );
 };
 
-export default Pagination;
+export { Pagination };

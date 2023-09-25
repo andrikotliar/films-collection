@@ -55,6 +55,7 @@ input, select {
 }
 select, option {
   background-color: transparent;
+  cursor: pointer;
 }
 body {
   font-family: 'Roboto', sans-serif;

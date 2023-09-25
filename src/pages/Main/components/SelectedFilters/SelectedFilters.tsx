@@ -4,7 +4,7 @@ import { UnknownObject } from "@/types";
 
 const parametersToHide = ['actorId', 'page'];
 
-const ListHeader = () => {
+const SelectedFilters = () => {
   const { filterParams } = useFilmsContext();
 
   const keys = Object.keys(filterParams);
@@ -57,4 +57,4 @@ const ListHeader = () => {
   );
 };
 
-export default ListHeader;
+export { SelectedFilters };

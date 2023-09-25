@@ -5,9 +5,9 @@ type AppContextType = {
   setIsFilterOpen: Dispatch<SetStateAction<boolean>>;
 };
 
-const AppContext = createContext<AppContextType>({} as AppContextType);
+const AppContext = createContext({} as AppContextType);
 
-export const useAppContext = () => useContext(AppContext);
+const useAppContext = () => useContext(AppContext);
 
 const AppProvider: FC<PropsWithChildren> = ({ children }) => {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
@@ -24,4 +24,4 @@ const AppProvider: FC<PropsWithChildren> = ({ children }) => {
   )
 }
 
-export default AppProvider;
+export { AppProvider, useAppContext };

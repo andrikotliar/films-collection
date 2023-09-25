@@ -31,28 +31,28 @@ type Chapter = {
   part: number;
 }
 
-type Season = {
-  season: number;
-  trailer: string;
-  poster: string;
-  year: number;
-  episodes: {
-    episodeOverall: number;
-    episode: number;
-    title: string;
-  }[];
-}
+type Episode = {
+  episodeOverall: number;
+  episode: number;
+  title: string;
+};
+
+type Description = {
+  title?: string;
+  plot: string;
+  episodes: Episode[];
+};
 
 type FilmData = {
   id: string;
   type: TypeVariants[];
-  poster: string;
-  trailer?: string;
+  posters: string[];
+  trailers: string[];
   title: string;
   genres: string[];
   production: string[];
   crew: Crew[];
-  synopsis: string;
+  description: Description[];
   countries: string[];
   year: number;
   duration: number;
@@ -62,16 +62,17 @@ type FilmData = {
   boxoffice?: number;
   parts?: Chapter;
   awards?: Award[];
-  seasons?: Season[];
   ordered?: boolean;
 };
 
 export type {
+  TypeVariants,
   FilmData,
   Crew,
   Cast,
   Collection,
   Award,
   Chapter,
-  Season,
+  Description,
+  Episode
 }

@@ -6,9 +6,9 @@ type ActorsContextType = {
   actors: Actor[];
 };
 
-const ActorsContext = createContext<ActorsContextType>({} as ActorsContextType);
+const ActorsContext = createContext({} as ActorsContextType);
 
-export const useActorsContext = () => useContext(ActorsContext);
+const useActorsContext = () => useContext(ActorsContext);
 
 const ActorsProvider: FC<PropsWithChildren> = ({ children }) => {
   const [ actors, setActors ] = useState<Actor[]>([]);
@@ -31,4 +31,4 @@ const ActorsProvider: FC<PropsWithChildren> = ({ children }) => {
   );
 };
 
-export default ActorsProvider;
+export { ActorsProvider, useActorsContext };
