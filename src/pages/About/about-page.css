@@ -7,32 +7,71 @@
   margin-bottom: 20px;
 }
 
-.about__content {
-  line-height: 1.5;
-  max-width: 800px;
+.about__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
 }
 
-.about__content p {
+.about__text {
+  max-width: 800px;
+  line-height: 1.5;
+}
+
+.about__text p {
   margin-bottom: 20px;
 }
 
-.about__content a {
+.about__text a {
   color: var(--main-color);
 }
 
-.about__content a:hover {
+.about__text a:hover {
   text-decoration: underline;
 }
 
-.about__explore {
+.about__text .about__explore {
   color: #fff;
   display: inline-block;
   background-color: var(--main-color);
-  padding: 10px 20px;
+  padding: 8px 30px;
   border-radius: 50px;
   transition: 0.3s;
 }
 
-.about__explore:hover {
+.about__text .about__explore:hover {
   background-color: var(--green);
+  text-decoration: none;
+}
+
+.about__sidebar {
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.about__sidebar h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.about__random-film {
+  display: block;
+  width: 100%;
+}
+
+.about__random-film img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media (max-width: 640px) {
+  .about__container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 340px) {
+  .about__sidebar {
+    width: 100%;
+  }
 }

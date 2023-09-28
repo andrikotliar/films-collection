@@ -1,30 +1,51 @@
 import './about-page.css';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { setBrowserTitle } from '@/heplers';
 import { Link } from 'react-router-dom';
+import { useFilmsContext } from '@/context';
 
 const AboutPage = () => {
+  const { films } = useFilmsContext();
+  const [randomFilmIdx, setRandomFilmIndex] = useState<number | null>(null);
+
   setBrowserTitle('About - Films Collection');
+
+  const currentFilm = randomFilmIdx !== null && films[randomFilmIdx];
+
+  const generateRandomIndex = () => {
+    const randomIndex = Math.floor(Math.random() * (films.length + 1));
+    setRandomFilmIndex(randomIndex);
+  }
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    generateRandomIndex();
   }, []);
 
   return (
     <div className="about">
-      <div className="container">
-        <h1 className="about__title">About</h1>
-        <article className="about__content">
-          <p>Hello, my name is Andrii. I'm a big fan of movies and like to collect information about them. This is the purpose of creating this collection of films. The app represents my personal films list and usually, I call it my blog.</p>
-          <p>I don't use any third-party API to get data. All data are manually collected from different resources, mainly from <a href="https://www.imdb.com/" target="_blank">the IMDB</a>. You can investigate data in the DB folder in the source code.</p>
-          <p>Posters and trailer videos belong to their authors and were taken from open resources. If you consider I have to remove your content, contact me via <a href="mailto:andrii.ktlr@gmail.com">andrii.ktlr@gmail.com.</a></p>
-          <p>Actor images fetch from the Movie Database: <a href="https://www.themoviedb.org/" target="_blank">https://www.themoviedb.org/</a>.</p>
-        </article>
-        <div className="about__footer">
-          <Link to="/" className="about__explore">
-            Explore films
-          </Link>
+      <div className="container about__container">
+        <div className="about__main">
+          <h1 className="about__title">About</h1>
+          <article className="about__text">
+            <p>Hello, my name is Andrii 👋 </p>
+            <p>I'm a big fan of films and series and like to collect information about them. This is the purpose of creating this app. The collection contains only movies I like.</p>
+            <p>My favorite genres are Sci-Fi and Fantasy. In the app, you mostly see representatives of these genres. But there are several movies from other genres like romance or action.</p>
+            <p>I don't use any third-party API to get data, all data is stored in JSON files and hosted on GitHub. You can investigate data in the DB folder in <a href="https://github.com/andrikotliar/films-collection" target="_blank">the source code</a>. Actor images are fetched from <a href="https://www.themoviedb.org/" target="_blank">TMDB</a>.</p>
+            <p>Have any questions? Feel free to contact me via <a href="mailto:andrii.ktlr@gmail.com">andrii.ktlr@gmail.com.</a></p>
+            <Link to="/" className="about__explore">
+              Explore films
+            </Link>
+          </article>
         </div>
+        <aside className="about__sidebar">
+          <h2>Explore random film:</h2>
+          {currentFilm && (
+            <Link to={`/film/${currentFilm.id}`} className="about__random-film">
+              <img src={currentFilm.posters[0]} alt={currentFilm.title} />
+            </Link>
+          )}
+        </aside>
       </div>
     </div>
   );
