@@ -37,9 +37,10 @@ const ExpandFilter: FC<ExpandFilterProps> = ({ filter }) => {
             type="button"
           >
             <span>{title}</span>
-            <div className={`is-expanded-${isExpanded}`}>
-              <ExpandIcon color="#000" />
-            </div>
+            <ExpandIcon
+              color="#000"
+              className={`is-expanded-${isExpanded}`}
+            />
           </button>
         </div>
         {isExpanded && (

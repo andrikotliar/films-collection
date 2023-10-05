@@ -2,7 +2,7 @@ import './header.css';
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { InfoIcon } from '@/assets/icons';
-import { FilmsCollectionLogo } from '@/assets/logo';
+import { FilmsCollectionLogo } from '@/assets/logos';
 import { Search } from '@/components/Search';
 import { IconLink } from '@/components/IconLink';
 import { HeaderSearchButton } from '@/components/Header/HeaderSearchButton';

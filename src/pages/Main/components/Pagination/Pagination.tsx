@@ -33,6 +33,7 @@ const Pagination = () => {
           key={pageNumber}
           onClick={() => setPage(pageNumber)}
           design={pageNumber === getCurrentPage() ? 'primary' : 'ghost'}
+          className="pagination__button"
         >
           {pageNumber}
         </Button>

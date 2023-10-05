@@ -24,9 +24,7 @@ const SeasonSelector: FC<SeasonSelectorProps> = ({
           </option>
         ))}
       </select>
-      <div className="season-selector-arrow">
-        <ExpandIcon color="#006db7" />
-      </div>
+      <ExpandIcon color="#006db7" className="season-selector-arrow" />
     </div>
   );
 };

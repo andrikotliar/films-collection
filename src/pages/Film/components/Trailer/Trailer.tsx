@@ -27,9 +27,7 @@ const Trailer: FC<{ trailer: string }> = ({ trailer }) => {
               src={`https://i.ytimg.com/vi/${trailer}/hqdefault.jpg`}
               alt=""
             />
-            <div className="trailer__play-icon">
-              <PlayIcon />
-            </div>
+            <PlayIcon className="trailer__play-icon" />
           </>
         ) : (
           <iframe

@@ -3,3 +3,4 @@ export * from './Header';
 export * from './Loader';
 export * from './Search';
 export * from './SeasonSelector';
+export * from './Footer';

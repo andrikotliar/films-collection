@@ -6,7 +6,7 @@ import { Award } from '@/types';
 import { buildLink } from '@/heplers';
 
 const Awards: FC<{ awards: Award[] }> = ({ awards }) => {
-  const awardIcon = (awardTitle: keyof typeof awardIcons) => {
+  const awardImage = (awardTitle: keyof typeof awardIcons) => {
     return `/images/awards/${awardIcons[awardTitle]}`;
   }
 
@@ -16,7 +16,7 @@ const Awards: FC<{ awards: Award[] }> = ({ awards }) => {
         <div className="award" key={award.title}>
           <div className="award__header">
             <div className="award__icon">
-              <img src={awardIcon(award.title as keyof typeof awardIcons)} alt="" />
+              <img src={awardImage(award.title as keyof typeof awardIcons)} alt="" />
             </div>
             <div className="award__main">
               <h3 className="award__title">

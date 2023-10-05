@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 40px;
   padding-top: var(--main-padding);
-  padding-bottom: 50px;
+  padding-bottom: var(--main-padding);
   min-height: var(--app-height);
 }
 
@@ -15,12 +15,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-@media (max-width: 735px) {
-  .film {
-    padding-bottom: calc(var(--header-height) + 50px);
-  }
 }
 
 @media (max-width: 500px) {
