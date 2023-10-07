@@ -1,5 +1,5 @@
 const filmsSettings = {
-  perPage: 25,
+  perPage: 24,
 };
 
 const imageFallbacks = {

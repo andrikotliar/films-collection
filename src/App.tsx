@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Footer, Header, Loader } from './components';
+import { Header, Loader } from './components';
 import { FilmPage, MainPage, AboutPage } from './pages';
 
 const App = () => {
@@ -14,7 +14,6 @@ const App = () => {
           <Route path="/about" element={<AboutPage />} />
         </Routes>
       </Suspense>
-      <Footer />
     </div>
   );
 };

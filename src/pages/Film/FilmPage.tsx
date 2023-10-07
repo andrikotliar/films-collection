@@ -2,7 +2,7 @@ import './film-page.css';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useFilmsContext } from '@/context/FilmsContext';
-import { Loader } from '@/components';
+import { Loader, Select } from '@/components';
 import { setBrowserTitle } from '@/heplers';
 import { ActorsProvider } from '@/context/ActorsContext';
 import { FilmData } from '@/types';
@@ -24,6 +24,7 @@ const FilmPage = () => {
   const { id } = useParams();
   const { initialFilmsList } = useFilmsContext();
   const [ film, setFilm ] = useState<FilmData | null>(null);
+  const [ activeIndex, setActiveIndex ] = useState(0);
 
   if(film) {
     setBrowserTitle(`${film.title} - Films Collection`)
@@ -53,7 +54,14 @@ const FilmPage = () => {
         </div>
       </article>
     );
-  }
+  };
+
+  const selectOptions = film.type.includes('Series') && film.description.map(
+    (item, index) => ({
+      label: item.title || '',
+      value: index,
+    }),
+  );
   
   return (
     <ActorsProvider>
@@ -62,17 +70,27 @@ const FilmPage = () => {
           <FilmTitle title={film.title} />
           <TopLine filmData={film} />
         </section>
-        <Media
-          type={film.type}
-          posters={film.posters}
-          title={film.title}
-          trailers={film.trailers}
-        />
-
-        <FilmDesctiption
-          type={film.type}
-          description={film.description}
-        />
+        <section className="film-hero">
+          {selectOptions && (
+            <div className="film-season-select">
+              <Select
+                options={selectOptions}
+                onSelect={(option) => setActiveIndex(+option.value)}
+              />
+            </div>
+          )}
+          <Media
+            posters={film.posters}
+            title={film.title}
+            trailers={film.trailers}
+            activeIndex={activeIndex}
+          />
+          <FilmDesctiption
+            type={film.type}
+            description={film.description}
+            activeIndex={activeIndex}
+          />
+        </section>
         
         <CrewList crew={film.crew} />
       

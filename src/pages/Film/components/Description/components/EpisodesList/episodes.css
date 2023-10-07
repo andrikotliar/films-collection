@@ -1,0 +1,17 @@
+.episodes-list {
+  display: inline-flex;
+  flex-direction: column;
+  border: var(--app-border);
+  border-radius: 8px;
+}
+
+.episodes-list-item {
+  display: flex;
+  gap: 4px;
+  padding: 10px;
+  border-bottom: var(--app-border);
+}
+
+.episodes-list-item:last-child {
+  border-bottom: 0;
+}

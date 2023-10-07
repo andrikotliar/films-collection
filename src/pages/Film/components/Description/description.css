@@ -4,16 +4,11 @@
 }
 
 .description__header {
-  display: flex;
-  gap: 20px;
-  align-items: center;
+  font-size: 16px;
   padding: 20px;
   margin-bottom: 20px;
   border-bottom: var(--app-border);
-}
-
-.description__header h2 {
-  font-size: 16px;
+  text-transform: uppercase;
 }
 
 .description__content {
@@ -25,7 +20,7 @@
 }
 
 .description__episodes {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 @media (max-width: 500px) {
