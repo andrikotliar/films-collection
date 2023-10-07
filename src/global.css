@@ -71,9 +71,6 @@ body {
   padding: 0 var(--main-padding);
   width: 100%;
 }
-.page-title span {
-  color: var(--main-color)
-}
 @media (hover: hover) {
   .custom-scroll {
     scrollbar-color: var(--main-color) #dbdbdb;
