@@ -29,9 +29,11 @@ const AboutPage = () => {
           <h1 className="about__title">About</h1>
           <article className="about__text">
             <p>Hello, my name is Andrii 👋 </p>
-            <p>I'm a big fan of films and series and like to collect information about them. This is the purpose of creating this app. The collection contains only movies I like.</p>
+            <p>I'm a big fan of films and series and like to collect information about them. This is the purpose of this app. The collection contains only movies I like.</p>
             <p>My favorite genres are Sci-Fi and Fantasy. In the app, you mostly see representatives of these genres. But there are several movies from other genres like romance or action.</p>
-            <p>I don't use any third-party API to get data, all data is stored in JSON files and hosted on GitHub. You can investigate data in the DB folder in <a href="https://github.com/andrikotliar/films-collection" target="_blank">the source code</a>. Actor images are fetched from <a href="https://www.themoviedb.org/" target="_blank">TMDB</a>.</p>
+            <p>I created this app from scatch on my own using React, TypeScript and my own UI design. The source code are on <a href="https://github.com/andrikotliar/films-collection" target="_bank">GitHub</a>.</p>
+            <p>I don't use any third-party API to get data. Data are just JSON files. You can investigate them in <a href="https://github.com/andrikotliar/films-collection/tree/main/db" target="_blank">the DB folder</a>.</p>
+            <p><b>Actor images are provided by <a href="https://www.themoviedb.org/" target="_blank">TMDB</a></b></p>
             <p>Have any questions? Feel free to contact me via <a href="mailto:andrii.ktlr@gmail.com">andrii.ktlr@gmail.com.</a></p>
             <Link to="/" className="about__explore">
               Explore films
