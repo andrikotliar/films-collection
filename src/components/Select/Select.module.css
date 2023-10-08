@@ -47,6 +47,8 @@
   z-index: 999999;
   overflow: hidden;
   transition: 200ms;
+  max-height: 300px;
+  overflow-y: auto;
 }
 
 .visible {
@@ -74,5 +76,6 @@
 }
 
 .highlighted {
-  background-color: #034f82;
+  color: #000;
+  background-color: #a8d0eb;
 }
