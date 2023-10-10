@@ -8,7 +8,7 @@ import { ActorsProvider } from '@/context/ActorsContext';
 import { FilmData } from '@/common';
 import {
   Title,
-  Links,
+  DataLinks,
   Description,
   Cast,
   Awards,
@@ -70,20 +70,20 @@ const FilmPage = () => {
       <Container className={classes.wrapper}>
         <section className={classes.general}>
           <Title variant="h1">{film.title}</Title>
-          <Links
+          <DataLinks
             items={[
               {
                 value: film.year,
                 isAccent: true,
-                key: 'year',
+                property: 'year',
               },
               {
                 value: film.genres,
-                key: 'genres',
+                property: 'genres',
               },
               {
                 value: film.duration,
-                key: 'duration',
+                property: 'duration',
                 isSecondary: true,
                 suffix: 'min',
               },

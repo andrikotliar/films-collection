@@ -5,7 +5,7 @@ export * from './Cast';
 export * from './CrewList';
 export * from './Chapters';
 export * from './Poster';
-export * from './Links';
+export * from './DataLinks';
 export * from './Trailer';
 export * from './Description';
 export * from './Details';
