@@ -1,7 +1,7 @@
-import './expand-button.css';
-import { ExpandIcon } from '@/assets/icons';
-import classNames from 'classnames';
+import classes from './ExpandButton.module.css';
 import { FC } from 'react';
+import classNames from 'classnames';
+import { ExpandIcon } from '@/assets/icons';
 
 type ExpandButtonProps = {
   isExpanded: boolean;
@@ -12,24 +12,19 @@ type ExpandButtonProps = {
 const ExpandButton: FC<ExpandButtonProps> = ({
   isExpanded,
   episodesCount,
-  onClick
+  onClick,
 }) => {
   return (
     <button
-      className="expand-button"
+      className={classes.expandButton}
       onClick={onClick}
     >
-      <span>
-        Show {episodesCount} episodes
-      </span>
+      <span>Show {episodesCount} episodes</span>
       <ExpandIcon
         color="currentcolor"
-        className={classNames(
-          'expand-button__icon',
-          {
-            'expand-button__icon--expanded': isExpanded
-          }
-        )}
+        className={classNames(classes.icon, {
+          [classes.expanded]: isExpanded,
+        })}
       />
     </button>
   );

@@ -1,0 +1,14 @@
+.selectedFilters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.filter {
+  display: flex;
+  gap: 5px;
+  background-color: #f2f2f2;
+  border-radius: 50px;
+  padding: 5px 20px;
+}
+

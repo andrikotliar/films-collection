@@ -11,32 +11,39 @@
   --header-height: 60px;
   --app-height: calc(100vh - var(--header-height));
 }
+
 @font-face {
   font-family: 'Roboto';
   src: url("./assets/fonts/Roboto-Regular.woff2");
   font-weight: normal;
 }
+
 @font-face {
   font-family: 'Roboto';
   src: url("./assets/fonts/Roboto-Bold.woff2");
   font-weight: bold;
 }
+
 *, ::before, ::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   overflow-y: scroll;
 }
+
 a {
   text-decoration: none;
   color: inherit;
   -webkit-tap-highlight-color: transparent;
 }
+
 li {
   list-style: none;
 }
+
 button {
   display: block;
   font-family: inherit;
@@ -48,29 +55,17 @@ button {
   outline: none;
   -webkit-tap-highlight-color: transparent;
 }
-input, select {
+
+input {
   color: inherit;
   font-size: inherit;
   font-family: inherit;
 }
-select, option {
-  background-color: transparent;
-  cursor: pointer;
-}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
-.app {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-.container {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0 var(--main-padding);
-  width: 100%;
-}
+
 @media (hover: hover) {
   .custom-scroll {
     scrollbar-color: var(--main-color) #dbdbdb;

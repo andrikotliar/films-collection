@@ -1,8 +1,12 @@
-import './diagram.css';
-import { FC, useMemo } from "react";
+import classes from './Diagram.module.css';
+import { FC, useMemo } from 'react';
 import classNames from 'classnames';
-import { FormattedValue, SubClassNamesEnum, getBoxOfficeTargetValue } from '../../helpers';
-import { DiagramDisplayValue } from '../DiagramDisplayValue';
+import {
+  FormattedValue,
+  SubClassNamesEnum,
+  getBoxOfficeTargetValue,
+} from '../../helpers';
+import { DisplayValue } from '../DisplayValue';
 
 type DiagramProps = {
   budget: FormattedValue | null;
@@ -10,53 +14,61 @@ type DiagramProps = {
   boxOfficeSubClassName: SubClassNamesEnum;
 };
 
-const Diagram: FC<DiagramProps> = ({ budget, boxOffice, boxOfficeSubClassName }) => {
+const Diagram: FC<DiagramProps> = ({
+  budget,
+  boxOffice,
+  boxOfficeSubClassName,
+}) => {
   const maxValue = useMemo(() => {
-    return getBoxOfficeTargetValue(boxOffice?.value, budget?.value)
+    return getBoxOfficeTargetValue(
+      boxOffice?.value,
+      budget?.value,
+    );
   }, [boxOffice, budget]);
 
   const calculatePercent = (value: number) => {
-    return value * 100 / maxValue.value;
-  }
-  
+    return (value * 100) / maxValue.value;
+  };
+
   return (
-    <div className="box-office-diagram">
-      <div className="box-office-diagram__track">
+    <div className={classes.diagram}>
+      <div className={classes.track}>
         {budget && (
           <div
-            className="box-office-diagram__track-value"
+            className={classes.value}
             style={{
               width: `${calculatePercent(budget.value)}%`,
               backgroundColor: '#FFB74D',
-              zIndex: 2
+              zIndex: 2,
             }}
             title="Budget"
           >
-            <DiagramDisplayValue option={budget} />
+            <DisplayValue option={budget} />
           </div>
         )}
         {boxOffice && (
           <div
             className={classNames(
-              'box-office-diagram__track-value',
-              boxOfficeSubClassName
+              classes.value,
+              boxOfficeSubClassName,
             )}
             style={{
-              width: `${calculatePercent(boxOffice.value)}%`,
-              zIndex: boxOffice.value < Number(budget?.value) ? 3 : 1
+              width: `${calculatePercent(
+                boxOffice.value,
+              )}%`,
+              zIndex:
+                boxOffice.value < Number(budget?.value)
+                  ? 3
+                  : 1,
             }}
             title="Box Office"
           >
-            <DiagramDisplayValue option={boxOffice} />
+            <DisplayValue option={boxOffice} />
           </div>
         )}
-        <div className="box-office-diagram__range">
-          <div className="box-office-diagram__range-start">
-            $0
-          </div>
-          <div className="box-office-diagram__range-end">
-            <DiagramDisplayValue option={maxValue} isAbs={false} />
-          </div>
+        <div className={classes.range}>
+          <span>$0</span>
+          <DisplayValue option={maxValue} isAbs={false} />
         </div>
       </div>
     </div>

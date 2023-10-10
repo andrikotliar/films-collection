@@ -1,16 +1,17 @@
+import { Container } from '@/components';
+import classes from './MainPage.module.css';
 import { Sidebar, FilmsList } from './components';
-import { setBrowserTitle } from '@/heplers';
-import './main-page.css';
+import { setBrowserTitle } from '@/helpers';
 
 const MainPage = () => {
   setBrowserTitle('Films Collection');
 
   return (
-    <div className="main">
-      <div className="container main__container">
+    <div className={classes.main}>
+      <Container className={classes.wrapper}>
         <Sidebar />
         <FilmsList />
-      </div>
+      </Container>
     </div>
   );
 };

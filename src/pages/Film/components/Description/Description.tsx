@@ -1,28 +1,29 @@
-import './description.css';
+import classes from './Description.module.css';
 import { FC, useState } from 'react';
-import { Description, TypeVariants } from '@/types';
-import { EpisodesList, ExpandButton } from '@/pages/Film/components/Description/components';
+import { DescriptionType, TypeVariants } from '@/types';
+import {
+  EpisodesList,
+  ExpandButton,
+} from '@/pages/Film/components/Description/components';
 
 type DescriptionProps = {
   type: TypeVariants[];
-  description: Description[];
+  description: DescriptionType[];
   activeIndex: number;
 };
 
-const FilmDesctiption: FC<DescriptionProps> = ({
+const Description: FC<DescriptionProps> = ({
   type,
   description,
-  activeIndex
+  activeIndex,
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <div className="description">
-      <h2 className="description__header">
-        Description
-      </h2>
-      <div className="description__content">
-        <div className="description__text">
+    <div className={classes.description}>
+      <h2 className={classes.title}>Description</h2>
+      <div className={classes.content}>
+        <div className={classes.text}>
           {description[activeIndex].plot}
         </div>
         {type.includes('Series') && (
@@ -30,12 +31,15 @@ const FilmDesctiption: FC<DescriptionProps> = ({
             <ExpandButton
               isExpanded={isExpanded}
               onClick={() => setIsExpanded(!isExpanded)}
-              episodesCount={description[activeIndex].episodes.length}
+              episodesCount={
+                description[activeIndex].episodes.length
+              }
             />
             {isExpanded && (
-              <div className="description__episodes">
-                <EpisodesList episodes={description[activeIndex].episodes} />
-              </div>
+              <EpisodesList
+                episodes={description[activeIndex].episodes}
+                className={classes.episodes}
+              />
             )}
           </>
         )}
@@ -44,4 +48,4 @@ const FilmDesctiption: FC<DescriptionProps> = ({
   );
 };
 
-export { FilmDesctiption };
+export { Description };

@@ -1,0 +1,60 @@
+.button {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50px;
+  transition: background-color 0.3s, color 0.2s;
+  flex-shrink: 0;
+}
+
+.button[disabled] {
+  cursor: default;
+  background-color: #ddd;
+}
+
+.primary {
+  background-color: var(--main-color);
+}
+
+.secondary {
+  color: #222;
+  background-color: #ddd;
+}
+
+.ghost {
+  color: #222;
+  background-color: transparent;
+}
+
+.active {
+  background-color: var(--main-color);
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media (hover: hover) {
+  .button:hover {
+    background-color: var(--green);
+  }
+  
+  .active:hover {
+    background-color: var(--main-color);
+  }
+}
+@media (max-width: 735px) {
+  .hidden {
+    display: flex;
+    visibility: visible;
+  }
+}

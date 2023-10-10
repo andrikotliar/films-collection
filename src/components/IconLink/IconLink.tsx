@@ -1,4 +1,4 @@
-import './icon-link.css';
+import classes from './IconLink.module.css';
 import { FC, ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -14,7 +14,7 @@ const IconLink: FC<IconLinkProps> = ({
   return (
     <Link
       to={path}
-      className="icon-link"
+      className={classes.iconLink}
     >
       {icon}
     </Link>

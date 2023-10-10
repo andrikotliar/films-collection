@@ -1,7 +1,14 @@
-import { FC, PropsWithChildren, createContext, useContext, useEffect, useState } from 'react';
-import { filterFilms, sliceFilmsByPage } from '@/heplers';
+import {
+  FC,
+  PropsWithChildren,
+  createContext,
+  useContext,
+  useEffect,
+  useState,
+} from 'react';
+import { filterFilms, sliceFilmsByPage } from '@/helpers';
 import { useFilter } from '@/hooks';
-import { filmsSettings } from '@/constants';
+import { FILMS_PER_PAGE } from '@/constants';
 import { FilmData } from '@/types';
 import { FilmAPI } from '@/api';
 
@@ -19,39 +26,52 @@ type FilmsContextType = {
   setPage(page: number): void;
   updateFilter(data: any, dirtyFields: any): void;
   resetFilter(): void;
-}
+};
 
 const FilmsContext = createContext({} as FilmsContextType);
 
 const useFilmsContext = () => useContext(FilmsContext);
 
-const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
-  const [ initialFilmsList, setInitialFilmsList ] = useState<FilmData[]>([]);
-  const [ filmsCount, setFilmsCount ] = useState(0);
-  const [ films, setFilms ] = useState<FilmData[]>([]);
-  const [ isFilmsLoading, setIsFilmsLoading ] = useState(true);
-  const [ filterParams, setSearchParams ] = useFilter();
-  const [ pageData, setPageData ] = useState({
+const FilmsProvider: FC<PropsWithChildren> = ({
+  children,
+}) => {
+  const [initialFilmsList, setInitialFilmsList] = useState<
+    FilmData[]
+  >([]);
+  const [filmsCount, setFilmsCount] = useState(0);
+  const [films, setFilms] = useState<FilmData[]>([]);
+  const [isFilmsLoading, setIsFilmsLoading] =
+    useState(true);
+  const [filterParams, setSearchParams] = useFilter();
+  const [pageData, setPageData] = useState({
     from: 0,
-    to: filmsSettings.perPage
+    to: FILMS_PER_PAGE,
   });
 
   const fetchFilms = async () => {
     const films = await FilmAPI.getAll();
     setInitialFilmsList(films);
     setFilmsCount(films.length);
-  }
+  };
 
   useEffect(() => {
     fetchFilms();
   }, []);
 
   useEffect(() => {
-    if(initialFilmsList.length) {
-      const filteredFilms = filterFilms(initialFilmsList, filterParams);
+    if (initialFilmsList.length) {
+      const filteredFilms = filterFilms(
+        initialFilmsList,
+        filterParams,
+      );
       setFilmsCount(filteredFilms.length);
-      const page = filterParams.page ? Number(filterParams.page) : 1;
-      const pageData = sliceFilmsByPage(filteredFilms, page);
+      const page = filterParams.page
+        ? Number(filterParams.page)
+        : 1;
+      const pageData = sliceFilmsByPage(
+        filteredFilms,
+        page,
+      );
       setFilms(pageData.list);
       setPageData({
         from: pageData.from,
@@ -70,7 +90,7 @@ const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
     });
     setSearchParams({
       ...params,
-      page: 1
+      page: 1,
     });
   };
 
@@ -80,31 +100,33 @@ const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
 
   const getCurrentPage = () => {
     const currentPage = Number(filterParams.page);
-    if(currentPage) {
+    if (currentPage) {
       return currentPage;
     }
     return 1;
-  }
+  };
 
   const setPage = (page: number) => {
-    if(page !== getCurrentPage()) {
+    if (page !== getCurrentPage()) {
       setSearchParams({ ...filterParams, page });
     }
   };
 
   return (
-    <FilmsContext.Provider value={{
-      initialFilmsList,
-      films,
-      isFilmsLoading,
-      filmsCount,
-      filterParams,
-      pageData,
-      getCurrentPage,
-      setPage,
-      updateFilter,
-      resetFilter,
-    }}>
+    <FilmsContext.Provider
+      value={{
+        initialFilmsList,
+        films,
+        isFilmsLoading,
+        filmsCount,
+        filterParams,
+        pageData,
+        getCurrentPage,
+        setPage,
+        updateFilter,
+        resetFilter,
+      }}
+    >
       {children}
     </FilmsContext.Provider>
   );

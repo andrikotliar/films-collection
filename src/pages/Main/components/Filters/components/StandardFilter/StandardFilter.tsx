@@ -1,28 +1,31 @@
-import './standard-filter.css';
+import classes from './StandardFilter.module.css';
 import { FC } from 'react';
 import { Filter } from '@/types';
-import { FilterCheckbox } from "../FilterCheckbox";
-import { FiltersGroupHeader } from "../FiltersGroupHeader";
+import { FormCheckbox } from '@/components';
+import { GroupHeader } from '@/pages/Main/components/Filters/components/GroupHeader';
+import { Group } from '@/pages/Main/components/Filters/components/Group';
 
 type StandardFilterProps = {
-  filter: Filter
+  filter: Filter;
 };
 
-const StandardFilter: FC<StandardFilterProps> = ({ filter }) => {
+const StandardFilter: FC<StandardFilterProps> = ({
+  filter,
+}) => {
   return (
-    <div className="filters-group">
-      <FiltersGroupHeader title={filter.title} />
-      <div className="standard-filter">
+    <Group>
+      <GroupHeader>{filter.title}</GroupHeader>
+      <div className={classes.standardFilter}>
         {filter.options.map((option, index) => (
-          <FilterCheckbox
+          <FormCheckbox
             type={filter.radio ? 'radio' : 'checkbox'}
-            option={option}
-            property={filter.property}
+            value={option}
+            name={filter.property}
             key={index}
           />
         ))}
       </div>
-    </div> 
+    </Group>
   );
 };
 

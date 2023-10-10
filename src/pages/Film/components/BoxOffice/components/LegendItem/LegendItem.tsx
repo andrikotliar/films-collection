@@ -1,5 +1,5 @@
-import './legend-item.css';
-import { FC } from "react";
+import classes from './LegendItem.module.css';
+import { FC } from 'react';
 import classNames from 'classnames';
 import { SubClassNamesEnum } from '../../helpers';
 
@@ -8,9 +8,17 @@ type LegendProps = {
   subClassName?: SubClassNamesEnum;
 };
 
-const LegendItem: FC<LegendProps> = ({ type, subClassName }) => {
+const LegendItem: FC<LegendProps> = ({
+  type,
+  subClassName,
+}) => {
   return (
-    <div className={classNames('legend-item', subClassName)}>
+    <div
+      className={classNames(
+        classes.legendItem,
+        subClassName && classes[subClassName],
+      )}
+    >
       {type}
     </div>
   );

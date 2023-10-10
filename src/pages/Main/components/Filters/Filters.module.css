@@ -1,0 +1,29 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.controls {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.controls button {
+  border-radius: 50px;
+}
+
+.apply {
+  flex: 1;
+}
