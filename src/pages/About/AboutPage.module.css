@@ -3,6 +3,7 @@
 }
 
 .title {
+  font-size: 28px;
   color: var(--main-color);
   margin-bottom: 20px;
 }

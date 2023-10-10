@@ -8,6 +8,7 @@ import { ActorsProvider } from '@/context/ActorsContext';
 import { FilmData } from '@/common';
 import {
   Title,
+  SectionTitle,
   DataLinks,
   Description,
   Cast,
@@ -69,7 +70,7 @@ const FilmPage = () => {
     <ActorsProvider>
       <Container className={classes.wrapper}>
         <section className={classes.general}>
-          <Title variant="h1">{film.title}</Title>
+          <Title>{film.title}</Title>
           <DataLinks
             items={[
               {
@@ -117,25 +118,25 @@ const FilmPage = () => {
         <CrewList crew={film.crew} />
 
         <section>
-          <Title>Cast and characters</Title>
+          <SectionTitle>Cast and characters</SectionTitle>
           <Cast cast={film.cast} />
         </section>
 
         {film.awards && (
           <section>
-            <Title>Awards</Title>
+            <SectionTitle>Awards</SectionTitle>
             <Awards awards={film.awards} />
           </section>
         )}
 
         <section>
-          <Title>Extra Details</Title>
+          <SectionTitle>Extra Details</SectionTitle>
           <Details filmData={film} />
         </section>
 
         {(film.budget || film.boxoffice) && (
           <section>
-            <Title>Box Office</Title>
+            <SectionTitle>Box Office</SectionTitle>
             <BoxOffice
               budget={film.budget}
               boxOffice={film.boxoffice}
@@ -145,7 +146,7 @@ const FilmPage = () => {
 
         {film.parts && (
           <section>
-            <Title>Chapters</Title>
+            <SectionTitle>Chapters</SectionTitle>
             <Chapters
               data={initialFilmsList}
               parts={film.parts}

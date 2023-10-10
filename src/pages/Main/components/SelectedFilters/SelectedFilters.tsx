@@ -7,8 +7,6 @@ const parametersToHide = ['actorId', 'page'];
 const SelectedFilters = () => {
   const { filterParams } = useFilmsContext();
 
-  console.log(filterParams);
-
   const keys = Object.keys(filterParams);
 
   const filteredParams = (keys: string[]) => {
