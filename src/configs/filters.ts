@@ -34,7 +34,14 @@ export const filtersConfig = [
     type: 'standard',
     title: 'Country',
     property: 'countries',
-    options: ['USA', 'UK', 'Canada', 'France', 'Germany', 'Japan'],
+    options: [
+      'USA',
+      'UK',
+      'Canada',
+      'France',
+      'Germany',
+      'Japan',
+    ],
   },
   {
     type: 'standard',

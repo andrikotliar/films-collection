@@ -7,7 +7,7 @@
     "start": "node create-db && vite",
     "build": "node create-db && tsc && vite build",
     "preview": "vite preview",
-    "prettier": "prettier src/**/*.{tsx,ts}"
+    "prettier": "prettier ./src/**/*.{tsx,ts} --write"
   },
   "dependencies": {
     "axios": "^1.4.0",
