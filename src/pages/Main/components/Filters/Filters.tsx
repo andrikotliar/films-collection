@@ -10,7 +10,7 @@ import {
 } from 'react-hook-form';
 import { FilterIcon, ResetIcon } from '@/assets/icons';
 import { useAppContext } from '@/context/AppContext';
-import { Button } from '@/components';
+import { Button, Scrollable } from '@/components';
 import { ExpandFilter, StandardFilter } from './components';
 import { isResetBtnVisible } from './helpers';
 import classNames from 'classnames';
@@ -50,12 +50,7 @@ const Filters = () => {
         onSubmit={methods.handleSubmit(submitFilter)}
         className={classes.filters}
       >
-        <div
-          className={classNames(
-            classes.wrapper,
-            'custom-scroll',
-          )}
-        >
+        <Scrollable className={classes.wrapper}>
           {filtersConfig.map(filter =>
             filter.type === 'standard' ? (
               <StandardFilter
@@ -69,7 +64,7 @@ const Filters = () => {
               />
             ),
           )}
-        </div>
+        </Scrollable>
         <div className={classes.controls}>
           <Button
             icon={<FilterIcon color="white" />}

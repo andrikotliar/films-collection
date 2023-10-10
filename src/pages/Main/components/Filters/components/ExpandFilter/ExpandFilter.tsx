@@ -2,7 +2,7 @@ import classes from './ExpandFilter.module.css';
 import { FC, useEffect } from 'react';
 import { useState } from 'react';
 import { useFormContext } from 'react-hook-form';
-import { FormCheckbox } from '@/components';
+import { FormCheckbox, Scrollable } from '@/components';
 import { GroupHeader } from '@/pages/Main/components/Filters/components/GroupHeader';
 import { ExpandIcon } from '@/assets/icons';
 import { Filter } from '@/common';
@@ -52,12 +52,7 @@ const ExpandFilter: FC<ExpandFilterProps> = ({
           </button>
         </div>
         {isExpanded && (
-          <div
-            className={classNames(
-              classes.list,
-              'custom-scroll',
-            )}
-          >
+          <Scrollable className={classes.chapters}>
             {filter.options.map(option => (
               <FormCheckbox
                 type="radio"
@@ -66,7 +61,7 @@ const ExpandFilter: FC<ExpandFilterProps> = ({
                 key={option}
               />
             ))}
-          </div>
+          </Scrollable>
         )}
       </div>
     </Group>

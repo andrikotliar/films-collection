@@ -1,0 +1,29 @@
+@media (hover: hover) {
+  .customScroll {
+    scrollbar-color: var(--main-color) #dbdbdb;
+  }
+  .customScroll::-webkit-scrollbar {
+    height: 8px;
+    width: 4px;
+    transition: 0.3s;
+    border-radius: 50px;
+  }
+  .customScroll::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    transition: 0.3s;
+  }
+  .customScroll:hover::-webkit-scrollbar {
+    background-color: #f2f2f2;
+  }
+  .customScroll:hover::-webkit-scrollbar-thumb {
+    background-image: var(--main-gradient);
+  }
+}
+@media (hover: none) {
+  .customScroll {
+    scrollbar-width: none;
+  }
+  .customScroll::-webkit-scrollbar {
+    display: none;
+  }
+}

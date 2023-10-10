@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { awardIcons } from '@/configs';
 import { Award } from '@/common';
 import { buildLink } from '@/helpers';
-import classNames from 'classnames';
+import { Scrollable } from '@/components';
 
 const Awards: FC<{ awards: Award[] }> = ({ awards }) => {
   const awardImage = (
@@ -38,16 +38,11 @@ const Awards: FC<{ awards: Award[] }> = ({ awards }) => {
               </p>
             </div>
           </div>
-          <ul
-            className={classNames(
-              classes.nominations,
-              'custom-scroll',
-            )}
-          >
+          <Scrollable className={classes.nominations}>
             {award.nominations.map(nomination => (
-              <li key={nomination}>{nomination}</li>
+              <p key={nomination}>{nomination}</p>
             ))}
-          </ul>
+          </Scrollable>
         </div>
       ))}
     </div>
