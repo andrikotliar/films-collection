@@ -2,7 +2,7 @@ import classes from './CrewItem.module.css';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { buildLink } from '@/helpers';
-import { Crew } from '@/types';
+import { Crew } from '@/common';
 
 const CrewItem: FC<{ crewItem: Crew }> = ({ crewItem }) => {
   return (

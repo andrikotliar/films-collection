@@ -8,8 +8,11 @@ import {
 import { Link } from 'react-router-dom';
 import { useActorsContext } from '@/context/ActorsContext';
 import { buildActorsData, buildLink } from '@/helpers';
-import { IMAGE_FALLBACKS } from '@/constants';
-import { Cast as CastType, FilledActorData } from '@/types';
+import { IMAGE_FALLBACKS } from '@/common/constants';
+import {
+  Cast as CastType,
+  FilledActorData,
+} from '@/common';
 
 const Cast: FC<{ cast: CastType[] }> = ({ cast }) => {
   const { actors } = useActorsContext();

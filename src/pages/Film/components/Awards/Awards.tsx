@@ -2,7 +2,7 @@ import classes from './Awards.module.css';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { awardIcons } from '@/configs';
-import { Award } from '@/types';
+import { Award } from '@/common';
 import { buildLink } from '@/helpers';
 import classNames from 'classnames';
 

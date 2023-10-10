@@ -1,6 +1,6 @@
 import classes from './Pagination.module.css';
 import { useFilmsContext } from '@/context/FilmsContext';
-import { FILMS_PER_PAGE } from '@/constants';
+import { FILMS_PER_PAGE } from '@/common/constants';
 import { Button } from '@/components';
 
 const Pagination = () => {

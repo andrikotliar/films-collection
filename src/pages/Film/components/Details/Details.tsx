@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { FilmData } from '@/types';
+import { FilmData } from '@/common';
 import { DetailsGroup } from './components';
 
 const Details: FC<{ filmData: FilmData }> = ({

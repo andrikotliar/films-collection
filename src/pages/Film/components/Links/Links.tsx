@@ -2,7 +2,7 @@ import classes from './Links.module.css';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { buildLink } from '@/helpers';
-import { FilmData } from '@/types';
+import { FilmData } from '@/common';
 import classNames from 'classnames';
 
 type LinksProps = {

@@ -1,5 +1,5 @@
-import { FILMS_PER_PAGE } from '@/constants';
-import { FilmData } from '@/types';
+import { FILMS_PER_PAGE } from '@/common/constants';
+import { FilmData } from '@/common';
 
 export const sliceFilmsByPage = (
   films: FilmData[],

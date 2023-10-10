@@ -1,4 +1,4 @@
-import { DynamicObject } from '@/types';
+import { DynamicObject } from '@/common';
 
 const isResetBtnVisible = (filterParams: DynamicObject) => {
   const paramsLength = Object.keys(filterParams).length;

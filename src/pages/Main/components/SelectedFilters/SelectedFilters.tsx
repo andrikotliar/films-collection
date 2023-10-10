@@ -1,6 +1,6 @@
 import classes from './SelectedFilters.module.css';
 import { useFilmsContext } from '@/context/FilmsContext';
-import { DynamicObject } from '@/types';
+import { DynamicObject } from '@/common';
 
 const parametersToHide = ['actorId', 'page'];
 

@@ -2,7 +2,7 @@ import classes from './Chapters.module.css';
 import { FC } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import classNames from 'classnames';
-import { Chapter, FilmData } from '@/types';
+import { Chapter, FilmData } from '@/common';
 
 type ChaptersProps = {
   data: FilmData[];

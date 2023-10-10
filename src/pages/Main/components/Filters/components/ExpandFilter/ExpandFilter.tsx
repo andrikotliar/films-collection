@@ -5,7 +5,7 @@ import { useFormContext } from 'react-hook-form';
 import { FormCheckbox } from '@/components';
 import { GroupHeader } from '@/pages/Main/components/Filters/components/GroupHeader';
 import { ExpandIcon } from '@/assets/icons';
-import { Filter } from '@/types';
+import { Filter } from '@/common';
 import { Group } from '@/pages/Main/components/Filters/components/Group';
 import classNames from 'classnames';
 

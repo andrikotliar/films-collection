@@ -1,4 +1,4 @@
-import { FilmData } from '@/types';
+import { FilmData } from '@/common';
 
 const handleSearchFilter = (
   searchQuery: string,

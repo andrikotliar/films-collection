@@ -8,8 +8,8 @@ import {
 } from 'react';
 import { filterFilms, sliceFilmsByPage } from '@/helpers';
 import { useFilter } from '@/hooks';
-import { FILMS_PER_PAGE } from '@/constants';
-import { FilmData } from '@/types';
+import { FILMS_PER_PAGE } from '@/common/constants';
+import { FilmData } from '@/common';
 import { FilmAPI } from '@/api';
 
 type FilmsContextType = {

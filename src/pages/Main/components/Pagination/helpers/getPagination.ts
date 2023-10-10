@@ -1,4 +1,4 @@
-import { FILMS_PER_PAGE } from '@/constants';
+import { FILMS_PER_PAGE } from '@/common/constants';
 
 const getPagination = (
   currentPage: number,

@@ -1,4 +1,4 @@
-import { PropsWithClassName } from '@/types';
+import { PropsWithClassName } from '@/common';
 import classes from './Title.module.css';
 import {
   FC,

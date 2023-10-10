@@ -5,7 +5,7 @@ import { useFilmsContext } from '@/context/FilmsContext';
 import { Container, Loader, Select } from '@/components';
 import { setBrowserTitle } from '@/helpers';
 import { ActorsProvider } from '@/context/ActorsContext';
-import { FilmData } from '@/types';
+import { FilmData } from '@/common';
 import {
   Title,
   Links,

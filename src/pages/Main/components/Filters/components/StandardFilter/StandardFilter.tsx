@@ -1,6 +1,6 @@
 import classes from './StandardFilter.module.css';
 import { FC } from 'react';
-import { Filter } from '@/types';
+import { Filter } from '@/common';
 import { FormCheckbox } from '@/components';
 import { GroupHeader } from '@/pages/Main/components/Filters/components/GroupHeader';
 import { Group } from '@/pages/Main/components/Filters/components/Group';
