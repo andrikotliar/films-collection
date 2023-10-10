@@ -1,14 +1,14 @@
+import classes from './Poster.module.css';
 import { FC } from 'react';
-import './poster.css'
 
 type PosterProps = {
   poster: string;
   title: string;
-}
+};
 
 const Poster: FC<PosterProps> = ({ poster, title }) => {
   return (
-    <div className="film-poster">
+    <div className={classes.poster}>
       <img src={poster} alt={title} />
     </div>
   );

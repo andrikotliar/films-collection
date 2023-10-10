@@ -1,39 +1,40 @@
-import './pagination.css';
-import { useFilmsContext } from "@/context/FilmsContext";
-import { filmsSettings } from "@/constants";
+import classes from './Pagination.module.css';
+import { useFilmsContext } from '@/context/FilmsContext';
+import { FILMS_PER_PAGE } from '@/constants';
 import { Button } from '@/components';
 
 const Pagination = () => {
-  const {
-    getCurrentPage,
-    filmsCount,
-    setPage
-  } = useFilmsContext();
+  const { getCurrentPage, filmsCount, setPage } =
+    useFilmsContext();
 
-  if(filmsCount <= filmsSettings.perPage) {
+  if (filmsCount <= FILMS_PER_PAGE) {
     return null;
   }
 
   const pagesList = (filmsCount: number) => {
     const pageNumbers: number[] = [];
-    const pagesCount = filmsCount / filmsSettings.perPage;
+    const pagesCount = filmsCount / FILMS_PER_PAGE;
 
-    for(let i = 0; i <= pagesCount; i++) {
+    for (let i = 0; i <= pagesCount; i++) {
       pageNumbers.push(i + 1);
     }
 
     return pageNumbers;
-  }
+  };
 
   return (
-    <div className="pagination">
-      {pagesList(filmsCount).map((pageNumber) => (
+    <div className={classes.pagination}>
+      {pagesList(filmsCount).map(pageNumber => (
         <Button
           isActive={pageNumber === getCurrentPage()}
           key={pageNumber}
           onClick={() => setPage(pageNumber)}
-          design={pageNumber === getCurrentPage() ? 'primary' : 'ghost'}
-          className="pagination__button"
+          design={
+            pageNumber === getCurrentPage()
+              ? 'primary'
+              : 'ghost'
+          }
+          className={classes.button}
         >
           {pageNumber}
         </Button>

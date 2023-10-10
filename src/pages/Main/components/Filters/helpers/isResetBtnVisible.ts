@@ -1,9 +1,12 @@
-import { UnknownObject } from "@/types";
+import { DynamicObject } from '@/types';
 
-const isResetBtnVisible = (filterParams: UnknownObject) => {
+const isResetBtnVisible = (filterParams: DynamicObject) => {
   const paramsLength = Object.keys(filterParams).length;
 
-  if(paramsLength === 1 && !filterParams.page || paramsLength > 1) {
+  if (
+    (paramsLength === 1 && !filterParams.page) ||
+    paramsLength > 1
+  ) {
     return true;
   }
 

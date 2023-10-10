@@ -1,10 +1,10 @@
-import './loader.css';
+import classes from './Loader.module.css';
 import { LoaderIcon } from "@/assets/icons";
 
 const Loader = () => {
   return (
-    <div className="loader-container">
-      <LoaderIcon color="#006db7" className="loader" />
+    <div className={classes.wrapper}>
+      <LoaderIcon color="#006db7" className={classes.loader} />
     </div>
   );
 };

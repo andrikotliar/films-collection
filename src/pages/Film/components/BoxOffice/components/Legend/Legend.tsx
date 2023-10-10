@@ -1,13 +1,13 @@
-import './legend.css';
-import { FC } from "react";
-import { SubClassNamesEnum } from "@/pages/Film/components/BoxOffice/helpers";
-import { LegendItem } from "../LegendItem";
+import classes from './Legend.module.css';
+import { FC } from 'react';
+import { SubClassNamesEnum } from '@/pages/Film/components/BoxOffice/helpers';
+import { LegendItem } from '../LegendItem';
 
 type LegendProps = {
   hasBudget: boolean;
   hasBoxOffice: boolean;
   subClassName?: SubClassNamesEnum;
-}
+};
 
 const Legend: FC<LegendProps> = ({
   hasBudget,
@@ -15,10 +15,8 @@ const Legend: FC<LegendProps> = ({
   subClassName,
 }) => {
   return (
-    <div className="box-office-legend">
-      {hasBudget && (
-        <LegendItem type="Budget" />
-      )}
+    <div className={classes.legend}>
+      {hasBudget && <LegendItem type="Budget" />}
       {hasBoxOffice && (
         <LegendItem
           type="Box Office"

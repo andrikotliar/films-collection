@@ -1,5 +1,13 @@
-import './search.css';
-import { Dispatch, FC, FormEvent, SetStateAction, useEffect, useRef, useState } from 'react';
+import classes from './Search.module.css';
+import {
+  Dispatch,
+  FC,
+  FormEvent,
+  SetStateAction,
+  useEffect,
+  useRef,
+  useState,
+} from 'react';
 import { useNavigate } from 'react-router-dom';
 import classNames from 'classnames';
 import { SearchIcon } from '@/assets/icons';
@@ -7,7 +15,7 @@ import { SearchIcon } from '@/assets/icons';
 type SearchProps = {
   isOpen: boolean;
   setIsSearchVisible: Dispatch<SetStateAction<boolean>>;
-}
+};
 
 const Search: FC<SearchProps> = ({
   isOpen,
@@ -18,55 +26,57 @@ const Search: FC<SearchProps> = ({
   const [searchString, setSearchString] = useState('');
 
   const runSearch = (searchValue: string) => {
-    navigate(`/?search=${searchValue.toLowerCase()}`);
-  }
+    if (searchValue.length) {
+      navigate(`/?search=${searchValue.toLowerCase()}`);
+    }
+  };
 
   const onSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     runSearch(searchString);
     searchInputRef.current.value = '';
-    if(isOpen) {
+    if (isOpen) {
       setIsSearchVisible(false);
     }
-  }
+  };
 
   const focusSearch = (event: KeyboardEvent) => {
-    if(event.key === 'F2') {
+    if (event.key === 'F2') {
       searchInputRef.current.focus();
     }
-  }
+  };
 
   useEffect(() => {
-    if(isOpen) {
+    if (isOpen) {
       setTimeout(() => {
         searchInputRef.current.focus();
-      }, 300)
+      }, 300);
     }
-  }, [isOpen, searchInputRef])
+  }, [isOpen, searchInputRef]);
 
   useEffect(() => {
     document.addEventListener('keydown', focusSearch);
 
     return () => {
       document.removeEventListener('keydown', focusSearch);
-    }
+    };
   }, []);
 
   return (
     <form
-      className={classNames('search-form', {
-        'search-form--active': isOpen
+      className={classNames(classes.form, {
+        [classes.active]: isOpen,
       })}
       onSubmit={onSubmit}
     >
       <input
         type="text"
-        className="search-input"
+        className={classes.input}
         placeholder="Search film..."
-        onChange={(e) => setSearchString(e.target.value)}
+        onChange={e => setSearchString(e.target.value)}
         ref={searchInputRef}
       />
-      <button className="search-button">
+      <button className={classes.button}>
         <SearchIcon color="#ddd" />
       </button>
     </form>

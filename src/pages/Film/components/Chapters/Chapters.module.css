@@ -1,0 +1,23 @@
+.chapters {
+  display: flex;
+  gap: 20px;
+  height: 220px;
+  width: 100%;
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+  height: 100%;
+}
+.link img {
+  height: 100%;
+  border-radius: 5px;
+}
+.active {
+  opacity: 0.3;
+  pointer-events: none;
+}

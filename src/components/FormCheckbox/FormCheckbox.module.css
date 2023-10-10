@@ -1,0 +1,42 @@
+.formCheckbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.formCheckbox input {
+  display: none;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #c6c6c6;
+  width: 22px;
+  height: 22px;
+  padding: 5px;
+}
+.icon svg {
+  display: none;
+}
+.formCheckbox input[type="checkbox"] + .icon {
+  border-radius: 3px;
+}
+.formCheckbox input[type="radio"] + .icon {
+  border-radius: 50px;
+}
+.formCheckbox input:checked + .icon {
+  background-image: var(--main-gradient);
+  border-color: var(--main-color);
+}
+.formCheckbox input:checked + .icon svg {
+  display: block;
+  fill: #fff;
+}
+.title {
+  font-size: 14px;
+  user-select: none;
+}
+.formCheckbox:hover .title {
+  color: var(--main-color);
+}

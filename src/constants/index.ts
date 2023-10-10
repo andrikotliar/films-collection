@@ -1,13 +1,8 @@
-const filmsSettings = {
-  perPage: 24,
-};
+const FILMS_PER_PAGE = 24;
 
-const imageFallbacks = {
+const IMAGE_FALLBACKS = {
   noActorImage: '/images/noimage.jpg',
   noCharacterImage: '/images/noimage-character.webp',
 };
 
-export {
-  filmsSettings,
-  imageFallbacks,
-}
+export { FILMS_PER_PAGE, IMAGE_FALLBACKS };

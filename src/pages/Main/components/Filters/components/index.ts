@@ -1,4 +1,4 @@
 export * from './ExpandFilter';
-export * from './FilterCheckbox';
-export * from './FiltersGroupHeader';
+export * from '../../../../../components/FormCheckbox';
+export * from './GroupHeader';
 export * from './StandardFilter';

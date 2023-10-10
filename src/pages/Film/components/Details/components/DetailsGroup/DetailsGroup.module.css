@@ -1,0 +1,36 @@
+.detailsGroup {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: var(--app-border);
+}
+
+.detailsGroup:last-child {
+  border-bottom: 0;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.link {
+  color: var(--main-color);
+  text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  .detailsGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+}

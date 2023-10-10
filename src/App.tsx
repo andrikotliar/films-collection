@@ -1,11 +1,11 @@
 import { Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Header, Loader } from './components';
+import { AppWrapper, Header, Loader } from './components';
 import { FilmPage, MainPage, AboutPage } from './pages';
 
 const App = () => {
   return (
-    <div className="app">
+    <AppWrapper>
       <Header />
       <Suspense fallback={<Loader />}>
         <Routes>
@@ -14,7 +14,7 @@ const App = () => {
           <Route path="/about" element={<AboutPage />} />
         </Routes>
       </Suspense>
-    </div>
+    </AppWrapper>
   );
 };
 

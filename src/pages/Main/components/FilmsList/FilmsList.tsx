@@ -1,7 +1,7 @@
-import './films-list.css';
-import { useEffect } from "react";
-import { Link } from "react-router-dom";
-import { useFilmsContext } from "@/context/FilmsContext";
+import classes from './FilmsList.module.css';
+import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { useFilmsContext } from '@/context/FilmsContext';
 import { Button, Loader } from '@/components';
 import { FilterIcon } from '@/assets/icons';
 import { useAppContext } from '@/context/AppContext';
@@ -10,18 +10,15 @@ import { Pagination } from '../Pagination';
 
 const FilmsList = () => {
   const { isFilterOpen, setIsFilterOpen } = useAppContext();
-  
-  const {
-    films,
-    isFilmsLoading,
-  } = useFilmsContext();
+
+  const { films, isFilmsLoading } = useFilmsContext();
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [films]);
 
   return (
-    <div className="list-container">
+    <div className={classes.wrapper}>
       <Button
         onClick={() => setIsFilterOpen(!isFilterOpen)}
         icon={<FilterIcon />}
@@ -31,33 +28,28 @@ const FilmsList = () => {
       </Button>
       <SelectedFilters />
       {isFilmsLoading && <Loader />}
-      {(films.length === 0 && !isFilmsLoading) && (
-        <p className="list-empty">Films not found.</p>
+      {films.length === 0 && !isFilmsLoading && (
+        <p>Films not found.</p>
       )}
-      <div className="list">
+      <div className={classes.list}>
         {films.map(film => (
           <Link
-            className="list-film"
+            className={classes.film}
             to={`/film/${film.id}`}
             key={film.id}
           >
             {film?.ordered && (
-              <div className="list-film__order">
+              <div className={classes.filmOrder}>
                 {film.collections[0].order}
               </div>
             )}
-            <div className="list-film__cover">
-              <img
-                src={film.posters[0]}
-                alt="film.title"
-              />
+            <div className={classes.filmCover}>
+              <img src={film.posters[0]} alt={film.title} />
             </div>
-            <h3 className="list-film-title">
+            <h3 className={classes.filmTitle}>
               {film.title}
             </h3>
-            <p className="list-film__subtitle">
-              {film.year}
-            </p>
+            <p className={classes.filmYear}>{film.year}</p>
           </Link>
         ))}
       </div>

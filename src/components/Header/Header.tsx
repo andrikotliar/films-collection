@@ -1,11 +1,12 @@
-import './header.css';
+import classes from './Header.module.css';
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { InfoIcon } from '@/assets/icons';
 import { FilmsCollectionLogo } from '@/assets/logos';
 import { Search } from '@/components/Search';
 import { IconLink } from '@/components/IconLink';
-import { HeaderSearchButton } from '@/components/Header/HeaderSearchButton';
+import { HeaderSearchButton } from '@/components/Header/SearchButton';
+import { Container } from '@/components/Container';
 
 const Header = () => {
   const [ isSearchVisible, setIsSearchVisible ] = useState(false);
@@ -18,12 +19,12 @@ const Header = () => {
   }, [pathname]);
   
    return (
-    <header className="header">
-      <div className="header__container container">
-        <Link to="/" className="header__logo">
-          <FilmsCollectionLogo />
+    <header className={classes.header}>
+      <Container className={classes.container}>
+        <Link to="/" className={classes.logoLink}>
+          <FilmsCollectionLogo className={classes.logoImage} />
         </Link>
-        <div className="header__actions">
+        <div className={classes.actions}>
           <HeaderSearchButton
             isSearchVisible={isSearchVisible}
             setIsSearchVisible={setIsSearchVisible}
@@ -34,7 +35,7 @@ const Header = () => {
           />
           <IconLink path="/about" icon={<InfoIcon color="#fff" />} />
         </div>
-      </div>
+      </Container>
     </header>
   );
 };
