@@ -75,7 +75,8 @@
   background-color: var(--main-color);
 }
 
-.highlighted {
+.highlighted,
+.highlighted:hover {
   color: #000;
   background-color: #a8d0eb;
 }

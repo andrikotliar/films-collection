@@ -62,7 +62,7 @@ const FilmPage = () => {
     film.type.includes('Series') &&
     film.description.length > 1 &&
     film.description.map((item, index) => ({
-      label: item.title || '',
+      label: `${item.title} (${item.year})` || '',
       value: index,
     }));
 

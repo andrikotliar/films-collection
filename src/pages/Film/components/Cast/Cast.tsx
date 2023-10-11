@@ -1,32 +1,24 @@
 import classes from './Cast.module.css';
-import {
-  FC,
-  SyntheticEvent,
-  useEffect,
-  useState,
-} from 'react';
-import { Link } from 'react-router-dom';
+import { FC, useEffect, useState } from 'react';
 import { useActorsContext } from '@/context/ActorsContext';
-import { buildActorsData, buildLink } from '@/helpers';
-import { IMAGE_FALLBACKS } from '@/common/constants';
+import { buildActorsData } from '@/helpers';
 import {
   Cast as CastType,
   FilledActorData,
 } from '@/common';
+import { Actor } from '@/pages/Film/components/Cast/components';
+import { Loader } from '@/components';
 
-const Cast: FC<{ cast: CastType[] }> = ({ cast }) => {
+type CastProps = {
+  cast: CastType[];
+};
+
+const Cast: FC<CastProps> = ({ cast }) => {
   const { actors } = useActorsContext();
 
   const [fullCastData, setFullCastData] = useState<
     FilledActorData[]
   >([]);
-
-  const handleImageError = (
-    event: SyntheticEvent<HTMLImageElement>,
-    image: string,
-  ) => {
-    event.currentTarget.src = image;
-  };
 
   useEffect(() => {
     if (actors.length) {
@@ -35,65 +27,15 @@ const Cast: FC<{ cast: CastType[] }> = ({ cast }) => {
     }
   }, [cast, actors]);
 
+  if (!fullCastData.length) {
+    return <Loader />;
+  }
+
   return (
     <div className={classes.cast}>
-      {fullCastData.length ? (
-        fullCastData.map(actor => (
-          <div
-            key={actor.actorId}
-            className={classes.actor}
-          >
-            <div className={classes.profile}>
-              <div
-                className={classes.photo}
-                id={actor.actorId}
-              >
-                <img
-                  src={actor.photoUrl}
-                  alt={actor.name}
-                  onError={e =>
-                    handleImageError(
-                      e,
-                      IMAGE_FALLBACKS.noActorImage,
-                    )
-                  }
-                />
-              </div>
-              <div>
-                <h3 className={classes.name}>
-                  <Link
-                    to={`${buildLink(
-                      'actorId',
-                      actor.actorId,
-                    )}&actorName=${actor.name}`}
-                  >
-                    {actor.name}
-                  </Link>
-                </h3>
-                <p className={classes.role}>
-                  {actor.character.name}
-                </p>
-              </div>
-            </div>
-            {actor.character.imageUrl.length !== 0 && (
-              <div className={classes.character}>
-                <img
-                  src={actor.character.imageUrl}
-                  alt={actor.character.name}
-                  onError={e =>
-                    handleImageError(
-                      e,
-                      IMAGE_FALLBACKS.noCharacterImage,
-                    )
-                  }
-                />
-              </div>
-            )}
-          </div>
-        ))
-      ) : (
-        <div>Loading...</div>
-      )}
+      {fullCastData.map(actor => (
+        <Actor actor={actor} key={actor.actorId} />
+      ))}
     </div>
   );
 };

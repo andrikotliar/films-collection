@@ -5,6 +5,7 @@ import {
   SetStateAction,
   createContext,
   useContext,
+  useEffect,
   useState,
 } from 'react';
 
@@ -21,6 +22,14 @@ const AppProvider: FC<PropsWithChildren> = ({
   children,
 }) => {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
+
+  useEffect(() => {
+    if (isFilterOpen) {
+      document.documentElement.style.overflow = 'hidden';
+    } else {
+      document.documentElement.style.overflow = '';
+    }
+  }, [isFilterOpen]);
 
   return (
     <AppContext.Provider

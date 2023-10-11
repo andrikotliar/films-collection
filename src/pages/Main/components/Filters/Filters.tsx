@@ -8,7 +8,11 @@ import {
   FormProvider,
   useFormState,
 } from 'react-hook-form';
-import { FilterIcon, ResetIcon } from '@/assets/icons';
+import {
+  CloseIcon,
+  FilterIcon,
+  ResetIcon,
+} from '@/assets/icons';
 import { useAppContext } from '@/context/AppContext';
 import { Button, Scrollable } from '@/components';
 import { ExpandFilter, StandardFilter } from './components';
@@ -18,7 +22,7 @@ import classNames from 'classnames';
 const Filters = () => {
   const { filterParams, updateFilter, resetFilter } =
     useFilmsContext();
-  const { setIsFilterOpen } = useAppContext();
+  const { setIsFilterOpen, isFilterOpen } = useAppContext();
   const location = useLocation();
 
   const methods = useForm();
@@ -27,7 +31,6 @@ const Filters = () => {
   });
 
   const submitFilter = (data: any) => {
-    console.log(data);
     setIsFilterOpen(false);
     updateFilter(data, dirtyFields);
   };
@@ -48,7 +51,9 @@ const Filters = () => {
     <FormProvider {...methods}>
       <form
         onSubmit={methods.handleSubmit(submitFilter)}
-        className={classes.filters}
+        className={classNames(classes.filters, {
+          [classes.open]: isFilterOpen,
+        })}
       >
         <Scrollable className={classes.wrapper}>
           {filtersConfig.map(filter =>
@@ -82,6 +87,12 @@ const Filters = () => {
               icon={<ResetIcon />}
             />
           )}
+          <Button
+            icon={<CloseIcon />}
+            className={classes.closeButton}
+            onClick={() => setIsFilterOpen(false)}
+            isHidden
+          />
         </div>
       </form>
     </FormProvider>

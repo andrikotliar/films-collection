@@ -2,7 +2,7 @@ import classes from './SelectedFilters.module.css';
 import { useFilmsContext } from '@/context/FilmsContext';
 import { DynamicObject } from '@/common';
 
-const parametersToHide = ['actorId', 'page'];
+const parametersToHide = ['actorId'];
 
 const SelectedFilters = () => {
   const { filterParams } = useFilmsContext();
@@ -27,7 +27,6 @@ const SelectedFilters = () => {
     }
 
     if (Array.isArray(filterParams[param])) {
-      console.log(filterParams[param]);
       return filterParams[param].join(', ');
     }
 

@@ -1,14 +1,16 @@
 import {
+  Dispatch,
   FC,
   PropsWithChildren,
+  SetStateAction,
   createContext,
   useContext,
   useEffect,
   useState,
 } from 'react';
-import { filterFilms, sliceFilmsByPage } from '@/helpers';
+import { filterFilms } from '@/helpers';
 import { useFilter } from '@/hooks';
-import { FILMS_PER_PAGE } from '@/common/constants';
+import { FILMS_COUNT_STEP } from '@/common/constants';
 import { FilmData } from '@/common';
 import { FilmAPI } from '@/api';
 
@@ -16,15 +18,9 @@ type FilmsContextType = {
   initialFilmsList: FilmData[];
   films: FilmData[];
   isFilmsLoading: boolean;
-  filmsCount: number;
   filterParams: { [key: string]: any };
-  pageData: {
-    from: number;
-    to: number;
-  };
-  getCurrentPage(): number;
-  setPage(page: number): void;
   updateFilter(data: any, dirtyFields: any): void;
+  setLoadedFilmsNumber: Dispatch<SetStateAction<number>>;
   resetFilter(): void;
 };
 
@@ -38,20 +34,16 @@ const FilmsProvider: FC<PropsWithChildren> = ({
   const [initialFilmsList, setInitialFilmsList] = useState<
     FilmData[]
   >([]);
-  const [filmsCount, setFilmsCount] = useState(0);
   const [films, setFilms] = useState<FilmData[]>([]);
   const [isFilmsLoading, setIsFilmsLoading] =
     useState(true);
   const [filterParams, setSearchParams] = useFilter();
-  const [pageData, setPageData] = useState({
-    from: 0,
-    to: FILMS_PER_PAGE,
-  });
+  const [loadedFilmsNumber, setLoadedFilmsNumber] =
+    useState(FILMS_COUNT_STEP);
 
   const fetchFilms = async () => {
     const films = await FilmAPI.getAll();
     setInitialFilmsList(films);
-    setFilmsCount(films.length);
   };
 
   useEffect(() => {
@@ -59,24 +51,21 @@ const FilmsProvider: FC<PropsWithChildren> = ({
   }, []);
 
   useEffect(() => {
+    if (loadedFilmsNumber > FILMS_COUNT_STEP) {
+      setFilms(
+        initialFilmsList.slice(0, loadedFilmsNumber),
+      );
+    }
+  }, [loadedFilmsNumber]);
+
+  useEffect(() => {
     if (initialFilmsList.length) {
       const filteredFilms = filterFilms(
         initialFilmsList,
         filterParams,
       );
-      setFilmsCount(filteredFilms.length);
-      const page = filterParams.page
-        ? Number(filterParams.page)
-        : 1;
-      const pageData = sliceFilmsByPage(
-        filteredFilms,
-        page,
-      );
-      setFilms(pageData.list);
-      setPageData({
-        from: pageData.from,
-        to: pageData.to,
-      });
+      setFilms(filteredFilms.slice(0, FILMS_COUNT_STEP));
+      setLoadedFilmsNumber(FILMS_COUNT_STEP);
       setIsFilmsLoading(false);
     }
   }, [initialFilmsList, filterParams]);
@@ -88,28 +77,11 @@ const FilmsProvider: FC<PropsWithChildren> = ({
     Object.keys(dirtyFields).forEach(field => {
       params[field] = data[field];
     });
-    setSearchParams({
-      ...params,
-      page: 1,
-    });
+    setSearchParams(params);
   };
 
   const resetFilter = () => {
     setSearchParams({});
-  };
-
-  const getCurrentPage = () => {
-    const currentPage = Number(filterParams.page);
-    if (currentPage) {
-      return currentPage;
-    }
-    return 1;
-  };
-
-  const setPage = (page: number) => {
-    if (page !== getCurrentPage()) {
-      setSearchParams({ ...filterParams, page });
-    }
   };
 
   return (
@@ -118,13 +90,10 @@ const FilmsProvider: FC<PropsWithChildren> = ({
         initialFilmsList,
         films,
         isFilmsLoading,
-        filmsCount,
         filterParams,
-        pageData,
-        getCurrentPage,
-        setPage,
         updateFilter,
         resetFilter,
+        setLoadedFilmsNumber,
       }}
     >
       {children}

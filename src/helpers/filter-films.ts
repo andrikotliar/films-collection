@@ -34,7 +34,6 @@ export const filterFilms = (
 
   try {
     const params = { ...filterParams };
-    delete params.page;
     delete params.actorName;
 
     const filteredFilms = list.filter(film => {

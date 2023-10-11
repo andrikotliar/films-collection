@@ -4,4 +4,4 @@ export * from './filter-films';
 export * from './get-filter-params';
 export * from './get-years';
 export * from './set-browser-title';
-export * from './slice-films-by-page';
+export * from './handle-image-error';

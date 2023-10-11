@@ -5,27 +5,30 @@ import { InfoIcon } from '@/assets/icons';
 import { FilmsCollectionLogo } from '@/assets/logos';
 import { Search } from '@/components/Search';
 import { IconLink } from '@/components/IconLink';
-import { HeaderSearchButton } from '@/components/Header/SearchButton';
+import { SearchButton } from '@/components/Header/SearchButton';
 import { Container } from '@/components/Container';
 
 const Header = () => {
-  const [ isSearchVisible, setIsSearchVisible ] = useState(false);
+  const [isSearchVisible, setIsSearchVisible] =
+    useState(false);
   const { pathname } = useLocation();
 
   useEffect(() => {
-    if(isSearchVisible) {
+    if (isSearchVisible) {
       setIsSearchVisible(false);
     }
   }, [pathname]);
-  
-   return (
+
+  return (
     <header className={classes.header}>
       <Container className={classes.container}>
         <Link to="/" className={classes.logoLink}>
-          <FilmsCollectionLogo className={classes.logoImage} />
+          <FilmsCollectionLogo
+            className={classes.logoImage}
+          />
         </Link>
         <div className={classes.actions}>
-          <HeaderSearchButton
+          <SearchButton
             isSearchVisible={isSearchVisible}
             setIsSearchVisible={setIsSearchVisible}
           />
@@ -33,7 +36,10 @@ const Header = () => {
             isOpen={isSearchVisible}
             setIsSearchVisible={setIsSearchVisible}
           />
-          <IconLink path="/about" icon={<InfoIcon color="#fff" />} />
+          <IconLink
+            path="/about"
+            icon={<InfoIcon color="#fff" />}
+          />
         </div>
       </Container>
     </header>

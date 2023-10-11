@@ -41,6 +41,7 @@ type DescriptionType = {
   title?: string;
   plot: string;
   episodes: Episode[];
+  year?: number;
 };
 
 type FilmData = {

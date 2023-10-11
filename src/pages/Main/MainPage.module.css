@@ -6,3 +6,9 @@
   display: flex;
   gap: 40px;
 }
+
+@media (max-width: 735px) {
+  .main {
+    padding-bottom: 80px;
+  }
+}
