@@ -1,5 +1,6 @@
 .diagram {
   width: 50%;
+  padding-top: 40px;
 }
 
 .track {
@@ -10,37 +11,28 @@
   border-radius: 50px;
 }
 
-.value {
+.scale {
   position: absolute;
   height: 100%;
   border-radius: 50px;
-}
-
-.value.high {
-  background-color: #4db6ac;
-}
-
-.value.low {
   background-color: #d32f2f;
 }
 
-.value span {
+.option {
   position: absolute;
-  right: -15px;
-  top: 12px;
-  display: block;
-  font-size: 14px;
-  background-color: #fff;
+  right: 0;
+  border-right: 2px solid currentColor;
+  padding-right: 4px;
 }
 
-.range {
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  width: calc(100% + 10px);
-  top: 12px;
-  color: #777;
-  font-size: 14px;
+.option.budget {
+  bottom: 0;
+  padding-bottom: 18px;
+}
+
+.option.boxOffice {
+  top: 0;
+  padding-top: 18px;
 }
 
 @media (max-width: 950px) {

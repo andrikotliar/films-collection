@@ -11,16 +11,12 @@
   top: 50%;
   width: 10px;
   height: 10px;
-  background-color: #ffb74d;
+  background-color: currentColor;
   border-radius: 50px;
   left: 0;
   transform: translateY(-50%);
 }
 
-.legendItem.low::before {
-  background-color: #d32f2f;
-}
-
-.legendItem.high::before {
-  background-color: #4db6ac;
+.legendItem span {
+  color: #000;
 }

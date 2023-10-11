@@ -3,21 +3,24 @@ import { FC, useMemo } from 'react';
 import classNames from 'classnames';
 import {
   FormattedValue,
-  SubClassNamesEnum,
   getBoxOfficeTargetValue,
 } from '../../helpers';
 import { DisplayValue } from '../DisplayValue';
+import { Range } from '../Range';
+import {
+  LegendColorProps,
+  LegendColorsEnum,
+} from '@/pages/Film/components/BoxOffice/components/LegendItem';
 
 type DiagramProps = {
   budget: FormattedValue | null;
   boxOffice: FormattedValue | null;
-  boxOfficeSubClassName: SubClassNamesEnum;
-};
+} & LegendColorProps;
 
 const Diagram: FC<DiagramProps> = ({
   budget,
   boxOffice,
-  boxOfficeSubClassName,
+  color,
 }) => {
   const maxValue = useMemo(() => {
     return getBoxOfficeTargetValue(
@@ -32,45 +35,55 @@ const Diagram: FC<DiagramProps> = ({
 
   return (
     <div className={classes.diagram}>
-      <div className={classes.track}>
-        {budget && (
-          <div
-            className={classes.value}
-            style={{
-              width: `${calculatePercent(budget.value)}%`,
-              backgroundColor: '#FFB74D',
-              zIndex: 2,
-            }}
-            title="Budget"
-          >
-            <DisplayValue option={budget} />
-          </div>
-        )}
-        {boxOffice && (
-          <div
-            className={classNames(
-              classes.value,
-              boxOfficeSubClassName,
-            )}
-            style={{
-              width: `${calculatePercent(
-                boxOffice.value,
-              )}%`,
-              zIndex:
-                boxOffice.value < Number(budget?.value)
-                  ? 3
-                  : 1,
-            }}
-            title="Box Office"
-          >
-            <DisplayValue option={boxOffice} />
-          </div>
-        )}
-        <div className={classes.range}>
-          <span>$0</span>
-          <DisplayValue option={maxValue} isAbs={false} />
+      <Range maxValue={maxValue}>
+        <div className={classes.track}>
+          {budget && (
+            <div
+              title="Budget"
+              className={classNames(classes.scale)}
+              style={{
+                color: LegendColorsEnum.YELLOW,
+                width: `${calculatePercent(budget.value)}%`,
+                backgroundColor: LegendColorsEnum.YELLOW,
+                zIndex: 2,
+              }}
+            >
+              <DisplayValue
+                option={budget}
+                className={classNames(
+                  classes.option,
+                  classes.budget,
+                )}
+              />
+            </div>
+          )}
+          {boxOffice && (
+            <div
+              title="Box Office"
+              className={classes.scale}
+              style={{
+                color,
+                width: `${calculatePercent(
+                  boxOffice.value,
+                )}%`,
+                backgroundColor: color,
+                zIndex:
+                  boxOffice.value < Number(budget?.value)
+                    ? 3
+                    : 1,
+              }}
+            >
+              <DisplayValue
+                option={boxOffice}
+                className={classNames(
+                  classes.option,
+                  classes.boxOffice,
+                )}
+              />
+            </div>
+          )}
         </div>
-      </div>
+      </Range>
     </div>
   );
 };

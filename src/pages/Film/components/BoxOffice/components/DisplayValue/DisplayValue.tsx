@@ -1,22 +1,23 @@
 import classes from './DisplayValue.module.css';
+import { FC } from 'react';
+import { PropsWithClassName } from '@/common';
 import { FormattedValue } from '@/pages/Film/components/BoxOffice/helpers';
 import classNames from 'classnames';
-import { FC } from 'react';
 
-type DisplayValueProps = {
+type DisplayValueProps = PropsWithClassName<{
   option: FormattedValue;
-  isAbs?: boolean;
-};
+}>;
 
 const DisplayValue: FC<DisplayValueProps> = ({
   option,
-  isAbs = true,
+  className,
 }) => {
   return (
     <div
-      className={classNames(classes.displayValue, {
-        [classes.absoluteValue]: isAbs,
-      })}
+      className={classNames(
+        classes.displayValue,
+        className,
+      )}
     >
       <div className={classes.number}>
         ${option.shortValue}
