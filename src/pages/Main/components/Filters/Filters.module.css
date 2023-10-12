@@ -28,19 +28,17 @@
   flex: 1;
 }
 
-@media (max-width: 785px) {
-  .filters {
-    position: absolute;
-    background-color: #fff;
-    width: 100%;
-    height: 500px;
-    bottom: 0;
-    left: 0;
-    transform: translateY(500px);
-    transition: transform 0.2s;
-  }
+.mobileHeader {
+  display: none;
+}
 
-  .open {
-    transform: translateY(0);
+@media (max-width: 785px) {
+  .mobileHeader {
+    display: block;
+    padding-bottom: 20px;
+    border-bottom: var(--app-border);
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
   }
 }

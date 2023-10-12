@@ -17,12 +17,11 @@ import { useAppContext } from '@/context/AppContext';
 import { Button, Scrollable } from '@/components';
 import { ExpandFilter, StandardFilter } from './components';
 import { isResetBtnVisible } from './helpers';
-import classNames from 'classnames';
 
 const Filters = () => {
   const { filterParams, updateFilter, resetFilter } =
     useFilmsContext();
-  const { setIsFilterOpen, isFilterOpen } = useAppContext();
+  const { setIsFilterOpen } = useAppContext();
   const location = useLocation();
 
   const methods = useForm();
@@ -51,10 +50,9 @@ const Filters = () => {
     <FormProvider {...methods}>
       <form
         onSubmit={methods.handleSubmit(submitFilter)}
-        className={classNames(classes.filters, {
-          [classes.open]: isFilterOpen,
-        })}
+        className={classes.filters}
       >
+        <h2 className={classes.mobileHeader}>Filters</h2>
         <Scrollable className={classes.wrapper}>
           {filtersConfig.map(filter =>
             filter.type === 'standard' ? (
