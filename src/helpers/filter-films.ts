@@ -56,10 +56,14 @@ export const filterFilms = (
           );
         }
 
-        if (
-          property === 'year' ||
-          property === 'duration'
-        ) {
+        if (property === 'year') {
+          console.log(params[property]);
+          return params[property].includes(
+            film.year.toString(),
+          );
+        }
+
+        if (property === 'duration') {
           return (
             film[property] === Number(params[property])
           );

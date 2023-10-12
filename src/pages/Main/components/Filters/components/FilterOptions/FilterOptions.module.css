@@ -1,5 +1,9 @@
-.standardFilter {
+.filterOptions {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.scrollable {
+  height: 250px;
 }

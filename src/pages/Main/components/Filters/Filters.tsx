@@ -3,11 +3,7 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { filtersConfig } from '@/configs';
 import { useFilmsContext } from '@/context/FilmsContext';
-import {
-  useForm,
-  FormProvider,
-  useFormState,
-} from 'react-hook-form';
+import { useForm, FormProvider } from 'react-hook-form';
 import {
   CloseIcon,
   FilterIcon,
@@ -15,8 +11,9 @@ import {
 } from '@/assets/icons';
 import { useAppContext } from '@/context/AppContext';
 import { Button, Scrollable } from '@/components';
-import { ExpandFilter, StandardFilter } from './components';
+import { FilterOptions } from './components';
 import { isResetBtnVisible } from './helpers';
+import { filterValues } from '@/helpers';
 
 const Filters = () => {
   const { filterParams, updateFilter, resetFilter } =
@@ -25,13 +22,12 @@ const Filters = () => {
   const location = useLocation();
 
   const methods = useForm();
-  const { dirtyFields } = useFormState({
-    control: methods.control,
-  });
 
   const submitFilter = (data: any) => {
+    const filledOptions = filterValues(data);
+
+    updateFilter(filledOptions);
     setIsFilterOpen(false);
-    updateFilter(data, dirtyFields);
   };
 
   useEffect(() => {
@@ -46,6 +42,13 @@ const Filters = () => {
     }
   }, [location]);
 
+  const handleReset = () => {
+    resetFilter();
+    methods.reset();
+  };
+
+  const isResetAvailable = isResetBtnVisible(filterParams);
+
   return (
     <FormProvider {...methods}>
       <form
@@ -54,19 +57,12 @@ const Filters = () => {
       >
         <h2 className={classes.mobileHeader}>Filters</h2>
         <Scrollable className={classes.wrapper}>
-          {filtersConfig.map(filter =>
-            filter.type === 'standard' ? (
-              <StandardFilter
-                filter={filter}
-                key={filter.title}
-              />
-            ) : (
-              <ExpandFilter
-                filter={filter}
-                key={filter.title}
-              />
-            ),
-          )}
+          {filtersConfig.map(filter => (
+            <FilterOptions
+              filter={filter}
+              key={filter.title}
+            />
+          ))}
         </Scrollable>
         <div className={classes.controls}>
           <Button
@@ -76,13 +72,11 @@ const Filters = () => {
           >
             Apply
           </Button>
-          {isResetBtnVisible(filterParams) && (
+          {isResetAvailable && (
             <Button
-              onClick={() => {
-                resetFilter();
-                methods.reset();
-              }}
+              onClick={handleReset}
               icon={<ResetIcon />}
+              isHidden={isResetAvailable}
             />
           )}
           <Button

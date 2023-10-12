@@ -1,14 +1,13 @@
+import { Filter } from '@/common';
 import { getYears } from '@/helpers';
 
-export const filtersConfig = [
+export const filtersConfig: Filter[] = [
   {
-    type: 'standard',
     title: 'Type',
     property: 'type',
     options: ['Film', 'Animation', 'Series'],
   },
   {
-    type: 'standard',
     title: 'Genres',
     property: 'genres',
     options: [
@@ -24,14 +23,13 @@ export const filtersConfig = [
     ],
   },
   {
-    type: 'modal',
     title: 'Year',
     property: 'year',
     options: getYears(),
     defaultOptionTitle: 'All years',
+    isScrollable: true,
   },
   {
-    type: 'standard',
     title: 'Country',
     property: 'countries',
     options: [
@@ -44,7 +42,6 @@ export const filtersConfig = [
     ],
   },
   {
-    type: 'standard',
     title: 'Studio',
     property: 'production',
     options: [
@@ -68,7 +65,6 @@ export const filtersConfig = [
     ],
   },
   {
-    type: 'standard',
     title: 'Collections',
     property: 'collections',
     options: [
@@ -90,10 +86,9 @@ export const filtersConfig = [
       'Martial Arts',
       'Based on Real Events',
     ],
-    radio: true,
+    isRadio: true,
   },
   {
-    type: 'standard',
     title: 'Cinematic Universes',
     property: 'collections',
     options: [
@@ -103,13 +98,12 @@ export const filtersConfig = [
       'Harry Potter Universe',
       'Middle-Earth Universe',
     ],
-    radio: true,
+    isRadio: true,
   },
   {
-    type: 'standard',
     title: 'Tops',
     property: 'collections',
     options: ['Top 10'],
-    radio: true,
+    isRadio: true,
   },
 ];

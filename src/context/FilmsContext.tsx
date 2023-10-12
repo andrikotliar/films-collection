@@ -19,7 +19,7 @@ type FilmsContextType = {
   films: FilmData[];
   isFilmsLoading: boolean;
   filterParams: { [key: string]: any };
-  updateFilter(data: any, dirtyFields: any): void;
+  updateFilter(data: any): void;
   setLoadedFilmsNumber: Dispatch<SetStateAction<number>>;
   resetFilter(): void;
 };
@@ -51,37 +51,27 @@ const FilmsProvider: FC<PropsWithChildren> = ({
   }, []);
 
   useEffect(() => {
-    if (loadedFilmsNumber > FILMS_COUNT_STEP) {
-      setFilms(
-        initialFilmsList.slice(0, loadedFilmsNumber),
-      );
-    }
-  }, [loadedFilmsNumber]);
-
-  useEffect(() => {
     if (initialFilmsList.length) {
       const filteredFilms = filterFilms(
         initialFilmsList,
         filterParams,
       );
-      setFilms(filteredFilms.slice(0, FILMS_COUNT_STEP));
-      setLoadedFilmsNumber(FILMS_COUNT_STEP);
+      const startFilms = filteredFilms.slice(
+        0,
+        FILMS_COUNT_STEP,
+      );
+      setFilms(startFilms);
       setIsFilmsLoading(false);
     }
   }, [initialFilmsList, filterParams]);
 
-  const updateFilter = (data: any, dirtyFields: any) => {
-    const params = {
-      ...filterParams,
-    };
-    Object.keys(dirtyFields).forEach(field => {
-      params[field] = data[field];
-    });
-    setSearchParams(params);
+  const updateFilter = (data: any) => {
+    setSearchParams(data);
   };
 
   const resetFilter = () => {
     setSearchParams({});
+    setLoadedFilmsNumber(FILMS_COUNT_STEP);
   };
 
   return (
