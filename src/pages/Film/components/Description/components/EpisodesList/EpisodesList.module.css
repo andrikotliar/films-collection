@@ -2,7 +2,7 @@
   display: inline-flex;
   flex-direction: column;
   border: var(--app-border);
-  border-radius: 8px;
+  border-radius: var(--app-border-radius);
   width: 100%;
   background-color: #fff;
 }

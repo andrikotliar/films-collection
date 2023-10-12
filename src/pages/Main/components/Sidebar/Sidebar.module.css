@@ -3,7 +3,7 @@
   height: calc(var(--app-height) - 40px);
   flex-shrink: 0;
   border: var(--app-border);
-  border-radius: 10px;
+  border-radius: var(--app-border-radius);
   position: sticky;
   top: calc(var(--header-height) + 20px);
 }

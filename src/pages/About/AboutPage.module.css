@@ -59,7 +59,7 @@
   display: block;
   width: 100%;
   background-color: #f2f2f2;
-  border-radius: 10px;
+  border-radius: var(--app-border-radius);
   overflow: hidden;
 }
 

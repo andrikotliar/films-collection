@@ -1,6 +1,6 @@
 .character {
   margin-top: 10px;
-  border-radius: 10px;
+  border-radius: var(--app-border-radius);
   overflow: hidden;
 }
 
