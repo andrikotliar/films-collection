@@ -20,10 +20,6 @@
   gap: 10px;
 }
 
-.controls button {
-  border-radius: 50px;
-}
-
 .apply {
   flex: 1;
 }

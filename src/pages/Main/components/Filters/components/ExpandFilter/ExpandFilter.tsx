@@ -52,7 +52,7 @@ const ExpandFilter: FC<ExpandFilterProps> = ({
           </button>
         </div>
         {isExpanded && (
-          <Scrollable className={classes.chapters}>
+          <Scrollable className={classes.grid}>
             {filter.options.map(option => (
               <FormCheckbox
                 type="radio"
