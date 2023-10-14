@@ -7,23 +7,39 @@ import { useFilmsContext } from '@/context';
 import { FILMS_COUNT_STEP } from '@/common';
 
 const MainPage = () => {
-  const { setLoadedFilmsNumber } = useFilmsContext();
+  const {
+    filmsCount,
+    loadedFilmsNumber,
+    setLoadedFilmsNumber,
+  } = useFilmsContext();
+
   setBrowserTitle('Films Collection');
 
-  const detectScroll = () => {
+  const updateLoadedFilmsNumber = () => {
+    const target = document.documentElement;
+    const isScrolledToEnd =
+      target.scrollHeight - target.scrollTop ===
+      target.clientHeight;
+
     if (
-      window.innerHeight + Math.round(window.scrollY) >=
-      document.body.offsetHeight
+      isScrolledToEnd &&
+      loadedFilmsNumber <= filmsCount
     ) {
-      setLoadedFilmsNumber(num => num + FILMS_COUNT_STEP);
+      setLoadedFilmsNumber((num) => num + FILMS_COUNT_STEP);
     }
   };
 
   useEffect(() => {
-    document.addEventListener('scroll', detectScroll);
+    document.addEventListener(
+      'scroll',
+      updateLoadedFilmsNumber,
+    );
 
     return () => {
-      document.removeEventListener('scroll', detectScroll);
+      document.removeEventListener(
+        'scroll',
+        updateLoadedFilmsNumber,
+      );
     };
   }, []);
 

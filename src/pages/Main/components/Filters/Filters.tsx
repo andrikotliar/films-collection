@@ -41,6 +41,7 @@ const Filters = () => {
 
     updateFilter(filledOptions);
     setIsFilterOpen(false);
+    window.scrollTo(0, 0);
   };
 
   useEffect(() => {
@@ -52,6 +53,7 @@ const Filters = () => {
   const handleReset = () => {
     resetFilter();
     methods.reset(defaultValues);
+    window.scrollTo(0, 0);
   };
 
   return (
@@ -62,7 +64,7 @@ const Filters = () => {
       >
         <h2 className={classes.mobileHeader}>Filters</h2>
         <Scrollable className={classes.wrapper}>
-          {filtersConfig.map(filter => (
+          {filtersConfig.map((filter) => (
             <FilterOptions
               filter={filter}
               key={filter.title}

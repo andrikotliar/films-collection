@@ -27,7 +27,7 @@ const FilmsList = () => {
         <p>Films not found.</p>
       )}
       <div className={classes.list}>
-        {films.map(film => (
+        {films.map((film) => (
           <Link
             className={classes.film}
             to={`/film/${film.id}`}

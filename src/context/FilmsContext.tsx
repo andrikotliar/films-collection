@@ -19,6 +19,8 @@ type FilmsContextType = {
   films: FilmData[];
   isFilmsLoading: boolean;
   filterParams: { [key: string]: any };
+  loadedFilmsNumber: number;
+  filmsCount: number;
   updateFilter(data: any): void;
   setLoadedFilmsNumber: Dispatch<SetStateAction<number>>;
   resetFilter(): void;
@@ -38,6 +40,9 @@ const FilmsProvider: FC<PropsWithChildren> = ({
   const [isFilmsLoading, setIsFilmsLoading] =
     useState(true);
   const [filterParams, setSearchParams] = useFilter();
+  const [filmsCount, setFilmsCount] = useState(
+    initialFilmsList.length,
+  );
   const [loadedFilmsNumber, setLoadedFilmsNumber] =
     useState(FILMS_COUNT_STEP);
 
@@ -45,6 +50,8 @@ const FilmsProvider: FC<PropsWithChildren> = ({
     const films = await FilmAPI.getAll();
     setInitialFilmsList(films);
   };
+
+  console.log(loadedFilmsNumber);
 
   useEffect(() => {
     fetchFilms();
@@ -56,14 +63,15 @@ const FilmsProvider: FC<PropsWithChildren> = ({
         initialFilmsList,
         filterParams,
       );
+      setFilmsCount(filteredFilms.length);
       const startFilms = filteredFilms.slice(
         0,
-        FILMS_COUNT_STEP,
+        loadedFilmsNumber,
       );
       setFilms(startFilms);
       setIsFilmsLoading(false);
     }
-  }, [initialFilmsList, filterParams]);
+  }, [initialFilmsList, filterParams, loadedFilmsNumber]);
 
   const updateFilter = (data: any) => {
     setSearchParams(data);
@@ -81,6 +89,8 @@ const FilmsProvider: FC<PropsWithChildren> = ({
         films,
         isFilmsLoading,
         filterParams,
+        loadedFilmsNumber,
+        filmsCount,
         updateFilter,
         resetFilter,
         setLoadedFilmsNumber,
