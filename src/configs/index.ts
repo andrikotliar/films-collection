@@ -1,2 +1,2 @@
-export * from './awards';
-export * from './filters';
+export * from './awards.config';
+export * from './filters.config';

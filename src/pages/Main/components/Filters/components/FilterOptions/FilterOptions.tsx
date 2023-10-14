@@ -19,6 +19,7 @@ const FilterOptions: FC<
         classes.filterOptions,
         {
           [classes.scrollable]: filter.isScrollable,
+          [classes.grid]: filter.isGrid,
         },
         className,
       )}

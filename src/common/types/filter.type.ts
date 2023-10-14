@@ -5,4 +5,5 @@ export type Filter = {
   defaultOptionTitle?: string;
   isRadio?: true;
   isScrollable?: true;
+  isGrid?: true;
 };

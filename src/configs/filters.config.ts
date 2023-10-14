@@ -28,6 +28,7 @@ export const filtersConfig: Filter[] = [
     options: getYears(),
     defaultOptionTitle: 'All years',
     isScrollable: true,
+    isGrid: true,
   },
   {
     title: 'Country',

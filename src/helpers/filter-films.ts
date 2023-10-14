@@ -57,10 +57,17 @@ export const filterFilms = (
         }
 
         if (property === 'year') {
-          console.log(params[property]);
-          return params[property].includes(
-            film.year.toString(),
-          );
+          const yearsMatch =
+            params[property].includes(
+              film.year.toString(),
+            ) ||
+            film.description
+              .map(item => item.year?.toString())
+              .some(year =>
+                params[property].includes(year),
+              );
+
+          return yearsMatch;
         }
 
         if (property === 'duration') {
