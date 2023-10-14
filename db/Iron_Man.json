@@ -62,9 +62,6 @@
       ]
     }
   ],
-  "year": [
-    2008
-  ],
   "countries": [
     "USA"
   ],
@@ -166,5 +163,8 @@
       "plot": "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
     }
   ],
-  "boxOffice": 585000000
+  "boxOffice": 585000000,
+  "years": [
+    2008
+  ]
 }

@@ -53,9 +53,6 @@
       ]
     }
   ],
-  "year": [
-    2010
-  ],
   "countries": [
     "USA"
   ],
@@ -200,5 +197,8 @@
       "plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO."
     }
   ],
-  "boxOffice": 828000000
+  "boxOffice": 828000000,
+  "years": [
+    2010
+  ]
 }

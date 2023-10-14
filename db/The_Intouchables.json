@@ -63,9 +63,6 @@
       ]
     }
   ],
-  "year": [
-    2011
-  ],
   "countries": [
     "France"
   ],
@@ -121,5 +118,8 @@
       "plot": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver."
     }
   ],
-  "boxOffice": 427000000
+  "boxOffice": 427000000,
+  "years": [
+    2011
+  ]
 }

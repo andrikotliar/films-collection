@@ -59,9 +59,6 @@
       ]
     }
   ],
-  "year": [
-    2003
-  ],
   "countries": [
     "USA"
   ],
@@ -191,5 +188,8 @@
       "plot": "When anti-mutant colonel William Stryker kidnaps Professor X and attacks his school, the X-Men must ally with their archenemy Magneto to stop him."
     }
   ],
-  "boxOffice": 408000000
+  "boxOffice": 408000000,
+  "years": [
+    2003
+  ]
 }

@@ -59,9 +59,6 @@
       ]
     }
   ],
-  "year": [
-    2018
-  ],
   "countries": [
     "USA"
   ],
@@ -163,5 +160,8 @@
       "plot": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong."
     }
   ],
-  "boxOffice": 791000000
+  "boxOffice": 791000000,
+  "years": [
+    2018
+  ]
 }

@@ -62,9 +62,6 @@
       ]
     }
   ],
-  "year": [
-    2015
-  ],
   "countries": [
     "USA"
   ],
@@ -193,5 +190,8 @@
       "plot": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree."
     }
   ],
-  "boxOffice": 1670000000
+  "boxOffice": 1670000000,
+  "years": [
+    2015
+  ]
 }

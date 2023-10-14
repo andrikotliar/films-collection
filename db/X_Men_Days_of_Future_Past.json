@@ -53,9 +53,6 @@
       ]
     }
   ],
-  "year": [
-    2014
-  ],
   "countries": [
     "USA"
   ],
@@ -186,5 +183,8 @@
       "plot": "The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants."
     }
   ],
-  "boxOffice": 748000000
+  "boxOffice": 748000000,
+  "years": [
+    2014
+  ]
 }

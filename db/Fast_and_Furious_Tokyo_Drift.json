@@ -50,9 +50,6 @@
       ]
     }
   ],
-  "year": [
-    2006
-  ],
   "countries": [
     "USA"
   ],
@@ -125,5 +122,8 @@
       "plot": "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America."
     }
   ],
-  "boxOffice": 158000000
+  "boxOffice": 158000000,
+  "years": [
+    2006
+  ]
 }

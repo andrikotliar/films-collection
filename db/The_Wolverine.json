@@ -56,9 +56,6 @@
       ]
     }
   ],
-  "year": [
-    2013
-  ],
   "countries": [
     "USA",
     "UK"
@@ -133,5 +130,8 @@
       "plot": "Wolverine comes to Japan to meet an old friend whose life he saved years ago, and gets embroiled in a conspiracy involving yakuza and mutants."
     }
   ],
-  "boxOffice": 415000000
+  "boxOffice": 415000000,
+  "years": [
+    2013
+  ]
 }

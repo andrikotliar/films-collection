@@ -59,9 +59,6 @@
       ]
     }
   ],
-  "year": [
-    2013
-  ],
   "countries": [
     "USA"
   ],
@@ -163,5 +160,8 @@
       "plot": "Clark Kent is an alien who as a child was evacuated from his dying world and came to Earth, living as a normal human. But when survivors of his alien home invade Earth, he must reveal himself to the world."
     }
   ],
-  "boxOffice": 668000000
+  "boxOffice": 668000000,
+  "years": [
+    2013
+  ]
 }

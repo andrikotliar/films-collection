@@ -62,9 +62,6 @@
       ]
     }
   ],
-  "year": [
-    2011
-  ],
   "countries": [
     "USA"
   ],
@@ -181,5 +178,8 @@
       "plot": "In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them."
     }
   ],
-  "boxOffice": 354000000
+  "boxOffice": 354000000,
+  "years": [
+    2011
+  ]
 }

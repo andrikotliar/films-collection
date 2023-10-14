@@ -56,9 +56,6 @@
       ]
     }
   ],
-  "year": [
-    2010
-  ],
   "countries": [
     "USA"
   ],
@@ -149,5 +146,8 @@
       "plot": "Master sorcerer Balthazar Blake must find and train Merlin's descendant to defeat dark sorceress Morgana la Fée."
     }
   ],
-  "boxOffice": 215000000
+  "boxOffice": 215000000,
+  "years": [
+    2010
+  ]
 }

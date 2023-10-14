@@ -50,9 +50,6 @@
       ]
     }
   ],
-  "year": [
-    1994
-  ],
   "countries": [
     "USA"
   ],
@@ -156,5 +153,8 @@
       "plot": "A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph."
     }
   ],
-  "boxOffice": 350000000
+  "boxOffice": 350000000,
+  "years": [
+    1994
+  ]
 }

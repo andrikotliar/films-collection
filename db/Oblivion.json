@@ -62,9 +62,6 @@
       ]
     }
   ],
-  "year": [
-    2013
-  ],
   "countries": [
     "USA"
   ],
@@ -140,5 +137,8 @@
       "plot": "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself."
     }
   ],
-  "boxOffice": 286000000
+  "boxOffice": 286000000,
+  "years": [
+    2013
+  ]
 }

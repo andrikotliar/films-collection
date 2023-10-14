@@ -53,9 +53,6 @@
       ]
     }
   ],
-  "year": [
-    2011
-  ],
   "countries": [
     "USA"
   ],
@@ -157,5 +154,8 @@
       "plot": "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization."
     }
   ],
-  "boxOffice": 371000000
+  "boxOffice": 371000000,
+  "years": [
+    2011
+  ]
 }

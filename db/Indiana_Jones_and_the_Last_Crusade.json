@@ -54,9 +54,6 @@
       ]
     }
   ],
-  "year": [
-    1989
-  ],
   "countries": [
     "USA"
   ],
@@ -150,5 +147,8 @@
       "plot": "In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Professor Henry \"Indiana\" Jones, Jr. finds himself up against Adolf Hitler's Nazis again to stop them from obtaining its powers."
     }
   ],
-  "boxOffice": 474000000
+  "boxOffice": 474000000,
+  "years": [
+    1989
+  ]
 }

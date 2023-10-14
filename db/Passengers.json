@@ -59,9 +59,6 @@
       ]
     }
   ],
-  "year": [
-    2016
-  ],
   "countries": [
     "USA"
   ],
@@ -126,5 +123,8 @@
       "plot": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early."
     }
   ],
-  "boxOffice": 303000000
+  "boxOffice": 303000000,
+  "years": [
+    2016
+  ]
 }

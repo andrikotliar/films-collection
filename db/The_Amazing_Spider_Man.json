@@ -62,9 +62,6 @@
       ]
     }
   ],
-  "year": [
-    2012
-  ],
   "countries": [
     "USA"
   ],
@@ -152,5 +149,8 @@
       "plot": "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe."
     }
   ],
-  "boxOffice": 758000000
+  "boxOffice": 758000000,
+  "years": [
+    2012
+  ]
 }

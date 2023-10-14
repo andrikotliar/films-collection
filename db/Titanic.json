@@ -53,9 +53,6 @@
       ]
     }
   ],
-  "year": [
-    1997
-  ],
   "countries": [
     "USA"
   ],
@@ -151,5 +148,8 @@
       "plot": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
     }
   ],
-  "boxOffice": 2400000000
+  "boxOffice": 2400000000,
+  "years": [
+    1997
+  ]
 }

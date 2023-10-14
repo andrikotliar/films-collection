@@ -62,9 +62,6 @@
       ]
     }
   ],
-  "year": [
-    2014
-  ],
   "countries": [
     "USA"
   ],
@@ -182,5 +179,8 @@
       "plot": "A soldier fighting aliens gets to relive the same day over and over again, the day restarting every time he dies."
     }
   ],
-  "boxOffice": 370000000
+  "boxOffice": 370000000,
+  "years": [
+    2014
+  ]
 }

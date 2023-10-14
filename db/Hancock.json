@@ -62,9 +62,6 @@
       ]
     }
   ],
-  "year": [
-    2008
-  ],
   "countries": [
     "USA"
   ],
@@ -161,5 +158,8 @@
       "plot": "Hancock is a superhero whose ill considered behavior regularly causes damage in the millions. He changes when the person he saves helps him improve his public image."
     }
   ],
-  "boxOffice": 624000000
+  "boxOffice": 624000000,
+  "years": [
+    2008
+  ]
 }

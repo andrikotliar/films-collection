@@ -53,9 +53,6 @@
       ]
     }
   ],
-  "year": [
-    1999
-  ],
   "countries": [
     "USA"
   ],
@@ -150,5 +147,8 @@
       "plot": "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreck havoc as he searches for the reincarnation of his long-lost love."
     }
   ],
-  "boxOffice": 416000000
+  "boxOffice": 416000000,
+  "years": [
+    1999
+  ]
 }

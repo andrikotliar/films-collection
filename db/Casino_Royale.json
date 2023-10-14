@@ -59,9 +59,6 @@
       ]
     }
   ],
-  "year": [
-    2006
-  ],
   "countries": [
     "UK",
     "USA",
@@ -134,5 +131,8 @@
       "plot": "After earning 00 status and a licence to kill, secret agent James Bond sets out on his first mission as 007. Bond must defeat a private banker funding terrorists in a high-stakes game of poker at Casino Royale, Montenegro."
     }
   ],
-  "boxOffice": 616000000
+  "boxOffice": 616000000,
+  "years": [
+    2006
+  ]
 }

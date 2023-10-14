@@ -59,9 +59,6 @@
       ]
     }
   ],
-  "year": [
-    2022
-  ],
   "countries": [
     "USA"
   ],
@@ -211,5 +208,8 @@
       "plot": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home."
     }
   ],
-  "boxOffice": 1400000000
+  "boxOffice": 1400000000,
+  "years": [
+    2022
+  ]
 }

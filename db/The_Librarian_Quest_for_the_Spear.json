@@ -53,9 +53,6 @@
       ]
     }
   ],
-  "year": [
-    2004
-  ],
   "countries": [
     "USA"
   ],
@@ -147,5 +144,8 @@
     {
       "plot": "A bookworm becomes the librarian. Same night a magical spear gets stolen and he's off to get some real life experience around the globe on his quest for the spear - starting with being thrown off a plane over Amazonas by his cute helper."
     }
+  ],
+  "years": [
+    2004
   ]
 }

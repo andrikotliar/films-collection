@@ -56,9 +56,6 @@
       ]
     }
   ],
-  "year": [
-    2011
-  ],
   "countries": [
     "USA"
   ],
@@ -134,5 +131,8 @@
       "plot": "In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot."
     }
   ],
-  "boxOffice": 300000000
+  "boxOffice": 300000000,
+  "years": [
+    2011
+  ]
 }

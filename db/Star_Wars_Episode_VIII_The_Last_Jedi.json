@@ -53,9 +53,6 @@
       ]
     }
   ],
-  "year": [
-    2017
-  ],
   "countries": [
     "USA"
   ],
@@ -160,5 +157,8 @@
       "plot": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order."
     }
   ],
-  "boxOffice": 1330000000
+  "boxOffice": 1330000000,
+  "years": [
+    2017
+  ]
 }

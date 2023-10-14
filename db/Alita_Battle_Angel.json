@@ -56,9 +56,6 @@
       ]
     }
   ],
-  "year": [
-    2019
-  ],
   "countries": [
     "USA"
   ],
@@ -134,5 +131,8 @@
       "plot": "A deactivated female cyborg is revived, but cannot remember anything of her past life and goes on a quest to find out who she is."
     }
   ],
-  "boxOffice": 400000000
+  "boxOffice": 400000000,
+  "years": [
+    2019
+  ]
 }

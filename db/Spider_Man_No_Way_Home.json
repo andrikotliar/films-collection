@@ -48,9 +48,6 @@
       ]
     }
   ],
-  "year": [
-    2021
-  ],
   "countries": [
     "USA"
   ],
@@ -157,5 +154,8 @@
     {
       "plot": "For the first time in the cinematic history of Spider-Man, our friendly neighborhood hero is unmasked and no longer able to separate his normal life from the high-stakes of being a Super Hero. When he asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man."
     }
+  ],
+  "years": [
+    2021
   ]
 }

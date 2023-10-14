@@ -56,9 +56,6 @@
       ]
     }
   ],
-  "year": [
-    2016
-  ],
   "countries": [
     "USA"
   ],
@@ -203,5 +200,8 @@
       "plot": "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man."
     }
   ],
-  "boxOffice": 1150000000
+  "boxOffice": 1150000000,
+  "years": [
+    2016
+  ]
 }

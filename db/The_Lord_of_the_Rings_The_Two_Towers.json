@@ -62,9 +62,6 @@
       ]
     }
   ],
-  "year": [
-    2002
-  ],
   "countries": [
     "USA",
     "New Zealand"
@@ -206,5 +203,8 @@
       "plot": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
     }
   ],
-  "boxOffice": 926000000
+  "boxOffice": 926000000,
+  "years": [
+    2002
+  ]
 }

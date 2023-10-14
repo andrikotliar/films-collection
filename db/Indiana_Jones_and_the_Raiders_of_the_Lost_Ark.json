@@ -54,9 +54,6 @@
       ]
     }
   ],
-  "year": [
-    1981
-  ],
   "countries": [
     "USA"
   ],
@@ -171,5 +168,8 @@
       "plot": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers."
     }
   ],
-  "boxOffice": 390000000
+  "boxOffice": 390000000,
+  "years": [
+    1981
+  ]
 }

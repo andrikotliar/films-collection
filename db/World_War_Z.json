@@ -60,9 +60,6 @@
       ]
     }
   ],
-  "year": [
-    2013
-  ],
   "countries": [
     "USA"
   ],
@@ -139,5 +136,8 @@
       "plot": "Former United Nations employee Gerry Lane traverses the world in a race against time to stop the Zombie pandemic that is toppling armies and governments, and threatening to destroy humanity itself."
     }
   ],
-  "boxOffice": 540000000
+  "boxOffice": 540000000,
+  "years": [
+    2013
+  ]
 }

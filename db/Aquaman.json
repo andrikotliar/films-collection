@@ -56,9 +56,6 @@
       ]
     }
   ],
-  "year": [
-    2018
-  ],
   "countries": [
     "USA"
   ],
@@ -153,5 +150,8 @@
       "plot": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land."
     }
   ],
-  "boxOffice": 1150000000
+  "boxOffice": 1150000000,
+  "years": [
+    2018
+  ]
 }

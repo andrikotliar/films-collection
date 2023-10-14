@@ -56,9 +56,6 @@
       ]
     }
   ],
-  "year": [
-    2016
-  ],
   "countries": [
     "USA"
   ],
@@ -163,5 +160,8 @@
       "plot": "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans."
     }
   ],
-  "boxOffice": 1060000000
+  "boxOffice": 1060000000,
+  "years": [
+    2016
+  ]
 }

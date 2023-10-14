@@ -62,9 +62,6 @@
       ]
     }
   ],
-  "year": [
-    2009
-  ],
   "countries": [
     "USA"
   ],
@@ -176,5 +173,8 @@
       "plot": "A frustrated writer struggles to keep his family alive when a series of global catastrophes threatens to annihilate mankind."
     }
   ],
-  "boxOffice": 770000000
+  "boxOffice": 770000000,
+  "years": [
+    2009
+  ]
 }

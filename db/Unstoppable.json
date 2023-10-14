@@ -62,9 +62,6 @@
       ]
     }
   ],
-  "year": [
-    2010
-  ],
   "countries": [
     "USA"
   ],
@@ -133,5 +130,8 @@
       "plot": "With an unmanned, half-mile-long freight train barreling toward a city, a veteran engineer and a young conductor race against the clock to prevent a catastrophe."
     }
   ],
-  "boxOffice": 167000000
+  "boxOffice": 167000000,
+  "years": [
+    2010
+  ]
 }

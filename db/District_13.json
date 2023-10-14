@@ -55,9 +55,6 @@
       ]
     }
   ],
-  "year": [
-    2004
-  ],
   "countries": [
     "France"
   ],
@@ -123,5 +120,8 @@
       "plot": "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb."
     }
   ],
-  "boxOffice": 12000000
+  "boxOffice": 12000000,
+  "years": [
+    2004
+  ]
 }

@@ -68,9 +68,6 @@
       ]
     }
   ],
-  "year": [
-    2013
-  ],
   "countries": [
     "USA",
     "New Zealand"
@@ -271,5 +268,8 @@
       "plot": "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring."
     }
   ],
-  "boxOffice": 960000000
+  "boxOffice": 960000000,
+  "years": [
+    2013
+  ]
 }

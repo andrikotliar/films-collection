@@ -59,9 +59,6 @@
       ]
     }
   ],
-  "year": [
-    1987
-  ],
   "countries": [
     "USA"
   ],
@@ -144,5 +141,8 @@
       "plot": "A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior."
     }
   ],
-  "boxOffice": 98000000
+  "boxOffice": 98000000,
+  "years": [
+    1987
+  ]
 }

@@ -58,9 +58,6 @@
       ]
     }
   ],
-  "year": [
-    2003
-  ],
   "countries": [
     "USA"
   ],
@@ -165,5 +162,8 @@
       "plot": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home."
     }
   ],
-  "boxOffice": 940000000
+  "boxOffice": 940000000,
+  "years": [
+    2003
+  ]
 }

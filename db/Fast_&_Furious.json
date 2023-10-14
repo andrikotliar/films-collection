@@ -53,9 +53,6 @@
       ]
     }
   ],
-  "year": [
-    2009
-  ],
   "countries": [
     "USA"
   ],
@@ -142,5 +139,8 @@
       "plot": "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation."
     }
   ],
-  "boxOffice": 363000000
+  "boxOffice": 363000000,
+  "years": [
+    2009
+  ]
 }

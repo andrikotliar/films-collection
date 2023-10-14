@@ -56,9 +56,6 @@
       ]
     }
   ],
-  "year": [
-    2015
-  ],
   "countries": [
     "USA"
   ],
@@ -187,5 +184,8 @@
       "plot": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother."
     }
   ],
-  "boxOffice": 1520000000
+  "boxOffice": 1520000000,
+  "years": [
+    2015
+  ]
 }

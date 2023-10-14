@@ -53,9 +53,6 @@
       ]
     }
   ],
-  "year": [
-    2007
-  ],
   "countries": [
     "USA",
     "UK"
@@ -157,5 +154,8 @@
       "plot": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts."
     }
   ],
-  "boxOffice": 940000000
+  "boxOffice": 940000000,
+  "years": [
+    2007
+  ]
 }

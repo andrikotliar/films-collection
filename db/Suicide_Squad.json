@@ -53,9 +53,6 @@
       ]
     }
   ],
-  "year": [
-    2016
-  ],
   "countries": [
     "USA"
   ],
@@ -164,5 +161,8 @@
       "plot": "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse."
     }
   ],
-  "boxOffice": 747000000
+  "boxOffice": 747000000,
+  "years": [
+    2016
+  ]
 }

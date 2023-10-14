@@ -53,9 +53,6 @@
       ]
     }
   ],
-  "year": [
-    1989
-  ],
   "countries": [
     "USA"
   ],
@@ -129,5 +126,8 @@
       "plot": "After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip."
     }
   ],
-  "boxOffice": 332000000
+  "boxOffice": 332000000,
+  "years": [
+    1989
+  ]
 }

@@ -56,9 +56,6 @@
       ]
     }
   ],
-  "year": [
-    2018
-  ],
   "countries": [
     "USA"
   ],
@@ -252,5 +249,8 @@
       "plot": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
     }
   ],
-  "boxOffice": 2049999999.9999998
+  "boxOffice": 2049999999.9999998,
+  "years": [
+    2018
+  ]
 }

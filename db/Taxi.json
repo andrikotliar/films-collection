@@ -55,9 +55,6 @@
       ]
     }
   ],
-  "year": [
-    1998
-  ],
   "countries": [
     "USA"
   ],
@@ -124,5 +121,8 @@
       "plot": "To work off his tarnished driving record, a hip taxi driver must chauffeur a loser police inspector on the trail of German bank robbers."
     }
   ],
-  "boxOffice": 44000000
+  "boxOffice": 44000000,
+  "years": [
+    1998
+  ]
 }

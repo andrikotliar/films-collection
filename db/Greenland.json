@@ -55,9 +55,6 @@
       ]
     }
   ],
-  "year": [
-    2020
-  ],
   "countries": [
     "USA",
     "UK"
@@ -129,5 +126,8 @@
       "plot": "A family struggles for survival in the face of a cataclysmic natural disaster."
     }
   ],
-  "boxOffice": 52000000
+  "boxOffice": 52000000,
+  "years": [
+    2020
+  ]
 }

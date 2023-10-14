@@ -59,9 +59,6 @@
       ]
     }
   ],
-  "year": [
-    2018
-  ],
   "countries": [
     "USA"
   ],
@@ -142,5 +139,8 @@
       "plot": "As Scott Lang balances being both a Super Hero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past."
     }
   ],
-  "boxOffice": 595000000
+  "boxOffice": 595000000,
+  "years": [
+    2018
+  ]
 }

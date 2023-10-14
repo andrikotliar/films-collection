@@ -61,9 +61,6 @@
       ]
     }
   ],
-  "year": [
-    2000
-  ],
   "countries": [
     "USA"
   ],
@@ -129,5 +126,8 @@
       "plot": "Police inspector Emilien and his taxi-driver pal Daniel are back, this time on the tail of a group of Japanese yakuza."
     }
   ],
-  "boxOffice": 64000000
+  "boxOffice": 64000000,
+  "years": [
+    2000
+  ]
 }

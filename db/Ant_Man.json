@@ -59,9 +59,6 @@
       ]
     }
   ],
-  "year": [
-    2015
-  ],
   "countries": [
     "USA"
   ],
@@ -171,5 +168,8 @@
       "plot": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world."
     }
   ],
-  "boxOffice": 519000000
+  "boxOffice": 519000000,
+  "years": [
+    2015
+  ]
 }

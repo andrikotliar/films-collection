@@ -59,9 +59,6 @@
       ]
     }
   ],
-  "year": [
-    2001
-  ],
   "countries": [
     "USA"
   ],
@@ -128,5 +125,8 @@
       "plot": "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants."
     }
   ],
-  "boxOffice": 368000000
+  "boxOffice": 368000000,
+  "years": [
+    2001
+  ]
 }

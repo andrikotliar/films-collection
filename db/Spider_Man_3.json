@@ -62,9 +62,6 @@
       ]
     }
   ],
-  "year": [
-    2007
-  ],
   "countries": [
     "USA"
   ],
@@ -166,5 +163,8 @@
       "plot": "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge."
     }
   ],
-  "boxOffice": 895000000
+  "boxOffice": 895000000,
+  "years": [
+    2007
+  ]
 }

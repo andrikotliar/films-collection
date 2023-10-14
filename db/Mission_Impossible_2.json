@@ -53,9 +53,6 @@
       ]
     }
   ],
-  "year": [
-    2000
-  ],
   "countries": [
     "USA"
   ],
@@ -152,5 +149,8 @@
       "plot": "IMF Agent Ethan Hunt is sent to Sydney, to find and destroy a genetically modified disease called \"Chimera\"."
     }
   ],
-  "boxOffice": 546000000
+  "boxOffice": 546000000,
+  "years": [
+    2000
+  ]
 }

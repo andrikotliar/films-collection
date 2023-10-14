@@ -59,9 +59,6 @@
       ]
     }
   ],
-  "year": [
-    1995
-  ],
   "countries": [
     "USA"
   ],
@@ -156,5 +153,8 @@
       "plot": "When two kids find and play a magical board game, they release a man trapped for decades in it and a host of dangers that can only be stopped by finishing the game."
     }
   ],
-  "boxOffice": 263000000
+  "boxOffice": 263000000,
+  "years": [
+    1995
+  ]
 }

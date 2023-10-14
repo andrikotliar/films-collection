@@ -65,9 +65,6 @@
       ]
     }
   ],
-  "year": [
-    2014
-  ],
   "countries": [
     "USA"
   ],
@@ -157,5 +154,8 @@
       "plot": "Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow \"runners\" for a shot at escape."
     }
   ],
-  "boxOffice": 348000000
+  "boxOffice": 348000000,
+  "years": [
+    2014
+  ]
 }

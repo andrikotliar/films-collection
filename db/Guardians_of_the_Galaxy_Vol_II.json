@@ -50,9 +50,6 @@
       ]
     }
   ],
-  "year": [
-    2017
-  ],
   "countries": [
     "USA"
   ],
@@ -176,5 +173,8 @@
       "plot": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage."
     }
   ],
-  "boxOffice": 864000000
+  "boxOffice": 864000000,
+  "years": [
+    2017
+  ]
 }

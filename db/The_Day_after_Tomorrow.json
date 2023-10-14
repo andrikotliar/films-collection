@@ -55,9 +55,6 @@
       ]
     }
   ],
-  "year": [
-    2004
-  ],
   "countries": [
     "USA"
   ],
@@ -181,5 +178,8 @@
       "plot": "Jack Hall, paleoclimatologist, must make a daring trek from Washington, D.C. to New York City to reach his son, trapped in the cross-hairs of a sudden international storm which plunges the planet into a new Ice Age."
     }
   ],
-  "boxOffice": 544000000
+  "boxOffice": 544000000,
+  "years": [
+    2004
+  ]
 }

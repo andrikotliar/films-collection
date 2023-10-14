@@ -53,9 +53,6 @@
       ]
     }
   ],
-  "year": [
-    2011
-  ],
   "countries": [
     "USA"
   ],
@@ -163,5 +160,8 @@
       "plot": "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent."
     }
   ],
-  "boxOffice": 626000000
+  "boxOffice": 626000000,
+  "years": [
+    2011
+  ]
 }

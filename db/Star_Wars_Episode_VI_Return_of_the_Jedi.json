@@ -53,9 +53,6 @@
       ]
     }
   ],
-  "year": [
-    1983
-  ],
   "countries": [
     "USA"
   ],
@@ -169,5 +166,8 @@
       "plot": "After a daring mission to rescue Han Solo from Jabba the Hutt, the rebels dispatch to Endor to destroy a more powerful Death Star. Meanwhile, Luke struggles to help Vader back from the dark side without falling into the Emperor's trap."
     }
   ],
-  "boxOffice": 573000000
+  "boxOffice": 573000000,
+  "years": [
+    1983
+  ]
 }

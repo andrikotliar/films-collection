@@ -52,9 +52,6 @@
       ]
     }
   ],
-  "year": [
-    2003
-  ],
   "countries": [
     "USA"
   ],
@@ -141,5 +138,8 @@
       "plot": "Out to stop a new gang disguised as Santa Claus, Emilien and Daniel must also handle major changes in their personal relationships."
     }
   ],
-  "boxOffice": 64000000
+  "boxOffice": 64000000,
+  "years": [
+    2003
+  ]
 }

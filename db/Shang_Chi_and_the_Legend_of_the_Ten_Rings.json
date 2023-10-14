@@ -59,9 +59,6 @@
       ]
     }
   ],
-  "year": [
-    2021
-  ],
   "countries": [
     "USA"
   ],
@@ -156,5 +153,8 @@
       "plot": "Shang-Chi, the master of unarmed weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization."
     }
   ],
-  "boxOffice": 430000000
+  "boxOffice": 430000000,
+  "years": [
+    2021
+  ]
 }

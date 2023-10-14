@@ -62,9 +62,6 @@
       ]
     }
   ],
-  "year": [
-    2005
-  ],
   "countries": [
     "USA"
   ],
@@ -196,5 +193,8 @@
       "plot": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption."
     }
   ],
-  "boxOffice": 375000000
+  "boxOffice": 375000000,
+  "years": [
+    2005
+  ]
 }

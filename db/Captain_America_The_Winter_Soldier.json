@@ -56,9 +56,6 @@
       ]
     }
   ],
-  "year": [
-    2014
-  ],
   "countries": [
     "USA"
   ],
@@ -139,5 +136,8 @@
       "plot": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier."
     }
   ],
-  "boxOffice": 714000000
+  "boxOffice": 714000000,
+  "years": [
+    2014
+  ]
 }

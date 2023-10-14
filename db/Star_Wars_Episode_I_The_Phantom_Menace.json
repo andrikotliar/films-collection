@@ -50,9 +50,6 @@
       ]
     }
   ],
-  "year": [
-    1999
-  ],
   "countries": [
     "USA"
   ],
@@ -176,5 +173,8 @@
       "plot": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their old glory."
     }
   ],
-  "boxOffice": 1020000000
+  "boxOffice": 1020000000,
+  "years": [
+    1999
+  ]
 }

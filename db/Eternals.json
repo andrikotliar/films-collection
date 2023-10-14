@@ -63,9 +63,6 @@
       ]
     }
   ],
-  "year": [
-    2021
-  ],
   "countries": [
     "USA",
     "UK"
@@ -182,5 +179,8 @@
       "plot": "The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations."
     }
   ],
-  "boxOffice": 281000000
+  "boxOffice": 281000000,
+  "years": [
+    2021
+  ]
 }

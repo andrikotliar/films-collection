@@ -56,9 +56,6 @@
       ]
     }
   ],
-  "year": [
-    1993
-  ],
   "countries": [
     "USA"
   ],
@@ -167,5 +164,8 @@
       "plot": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose."
     }
   ],
-  "boxOffice": 1030000000
+  "boxOffice": 1030000000,
+  "years": [
+    1993
+  ]
 }

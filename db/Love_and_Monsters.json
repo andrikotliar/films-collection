@@ -60,9 +60,6 @@
       ]
     }
   ],
-  "year": [
-    2020
-  ],
   "countries": [
     "Canada",
     "USA",
@@ -140,5 +137,8 @@
       "plot": "Seven years after he survived the monster apocalypse, lovably hapless Joel leaves his cozy underground bunker behind on a quest to reunite with his ex."
     }
   ],
-  "boxOffice": 1000000
+  "boxOffice": 1000000,
+  "years": [
+    2020
+  ]
 }

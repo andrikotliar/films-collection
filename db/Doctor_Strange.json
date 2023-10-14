@@ -56,9 +56,6 @@
       ]
     }
   ],
-  "year": [
-    2016
-  ],
   "countries": [
     "USA"
   ],
@@ -141,5 +138,8 @@
       "plot": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts."
     }
   ],
-  "boxOffice": 678000000
+  "boxOffice": 678000000,
+  "years": [
+    2016
+  ]
 }

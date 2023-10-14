@@ -48,9 +48,6 @@
       ]
     }
   ],
-  "year": [
-    2006
-  ],
   "countries": [
     "USA"
   ],
@@ -124,5 +121,8 @@
       "plot": "Manny, Sid, and Diego discover that the ice age is coming to an end, and join everybody for a journey to higher ground. On the trip, they discover that Manny, in fact, is not the last of the woolly mammoths."
     }
   ],
-  "boxOffice": 661000000
+  "boxOffice": 661000000,
+  "years": [
+    2006
+  ]
 }

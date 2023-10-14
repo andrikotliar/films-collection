@@ -57,9 +57,6 @@
       ]
     }
   ],
-  "year": [
-    2011
-  ],
   "countries": [
     "USA"
   ],
@@ -135,5 +132,8 @@
       "plot": "A soldier wakes up in someone else's body and discovers he's part of an experimental government program to find the bomber of a commuter train. A mission he has only 8 minutes to complete."
     }
   ],
-  "boxOffice": 147000000
+  "boxOffice": 147000000,
+  "years": [
+    2011
+  ]
 }

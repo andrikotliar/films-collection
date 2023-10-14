@@ -59,9 +59,6 @@
       ]
     }
   ],
-  "year": [
-    2018
-  ],
   "countries": [
     "USA"
   ],
@@ -169,5 +166,8 @@
       "plot": "Young hero Thomas embarks on a mission to find a cure for a deadly disease known as \"The Flare\"."
     }
   ],
-  "boxOffice": 288000000
+  "boxOffice": 288000000,
+  "years": [
+    2018
+  ]
 }

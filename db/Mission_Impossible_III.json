@@ -59,9 +59,6 @@
       ]
     }
   ],
-  "year": [
-    2006
-  ],
   "countries": [
     "USA"
   ],
@@ -169,5 +166,8 @@
       "plot": "IMF Agent Ethan Hunt comes into conflict with a dangerous and sadistic arms dealer who threatens his life and his fiancée in response."
     }
   ],
-  "boxOffice": 398000000
+  "boxOffice": 398000000,
+  "years": [
+    2006
+  ]
 }

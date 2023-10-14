@@ -53,9 +53,6 @@
       ]
     }
   ],
-  "year": [
-    1996
-  ],
   "countries": [
     "USA"
   ],
@@ -147,5 +144,8 @@
       "plot": "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive."
     }
   ],
-  "boxOffice": 817000000
+  "boxOffice": 817000000,
+  "years": [
+    1996
+  ]
 }

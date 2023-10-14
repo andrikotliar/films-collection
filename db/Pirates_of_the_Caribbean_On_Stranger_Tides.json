@@ -53,9 +53,6 @@
       ]
     }
   ],
-  "year": [
-    2011
-  ],
   "countries": [
     "USA"
   ],
@@ -136,5 +133,8 @@
       "plot": "Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too."
     }
   ],
-  "boxOffice": 1050000000
+  "boxOffice": 1050000000,
+  "years": [
+    2011
+  ]
 }

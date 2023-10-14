@@ -53,9 +53,6 @@
       ]
     }
   ],
-  "year": [
-    2000
-  ],
   "countries": [
     "USA"
   ],
@@ -177,5 +174,8 @@
       "plot": "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men."
     }
   ],
-  "boxOffice": 296000000
+  "boxOffice": 296000000,
+  "years": [
+    2000
+  ]
 }

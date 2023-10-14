@@ -62,9 +62,6 @@
       ]
     }
   ],
-  "year": [
-    2007
-  ],
   "countries": [
     "USA"
   ],
@@ -201,5 +198,8 @@
       "plot": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager."
     }
   ],
-  "boxOffice": 710000000
+  "boxOffice": 710000000,
+  "years": [
+    2007
+  ]
 }

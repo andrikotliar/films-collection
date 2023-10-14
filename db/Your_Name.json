@@ -54,9 +54,6 @@
       ]
     }
   ],
-  "year": [
-    2016
-  ],
   "countries": [
     "Japan"
   ],
@@ -132,5 +129,8 @@
       "plot": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?"
     }
   ],
-  "boxOffice": 358000000
+  "boxOffice": 358000000,
+  "years": [
+    2016
+  ]
 }

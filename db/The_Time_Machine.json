@@ -53,9 +53,6 @@
       ]
     }
   ],
-  "year": [
-    2002
-  ],
   "countries": [
     "USA"
   ],
@@ -131,5 +128,8 @@
       "plot": "Hoping to alter the events of the past, a 19th century inventor instead travels 800,000 years into the future, where he finds humankind divided into two warring races."
     }
   ],
-  "boxOffice": 124000000
+  "boxOffice": 124000000,
+  "years": [
+    2002
+  ]
 }

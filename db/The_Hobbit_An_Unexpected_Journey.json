@@ -68,9 +68,6 @@
       ]
     }
   ],
-  "year": [
-    2012
-  ],
   "countries": [
     "USA",
     "New Zealand"
@@ -243,5 +240,8 @@
       "plot": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug."
     }
   ],
-  "boxOffice": 1020000000
+  "boxOffice": 1020000000,
+  "years": [
+    2012
+  ]
 }

@@ -66,9 +66,6 @@
       ]
     }
   ],
-  "year": [
-    2021
-  ],
   "countries": [
     "USA",
     "Canada"
@@ -188,5 +185,8 @@
       "plot": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy."
     }
   ],
-  "boxOffice": 398000000
+  "boxOffice": 398000000,
+  "years": [
+    2021
+  ]
 }

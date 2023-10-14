@@ -50,9 +50,6 @@
       ]
     }
   ],
-  "year": [
-    2003
-  ],
   "countries": [
     "USA",
     "Australia"
@@ -140,5 +137,8 @@
       "plot": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith."
     }
   ],
-  "boxOffice": 427000000
+  "boxOffice": 427000000,
+  "years": [
+    2003
+  ]
 }

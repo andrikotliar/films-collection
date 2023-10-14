@@ -53,9 +53,6 @@
       ]
     }
   ],
-  "year": [
-    1990
-  ],
   "countries": [
     "USA"
   ],
@@ -114,5 +111,8 @@
       "plot": "Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about to be killed by Buford \"Mad Dog\"Tannen. Marty McFly travels back in time to save his friend."
     }
   ],
-  "boxOffice": 245000000
+  "boxOffice": 245000000,
+  "years": [
+    1990
+  ]
 }

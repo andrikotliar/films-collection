@@ -58,9 +58,6 @@
       ]
     }
   ],
-  "year": [
-    2005
-  ],
   "countries": [
     "USA"
   ],
@@ -130,5 +127,8 @@
       "plot": "While helping his latest client woo the fine lady of his dreams, a professional \"date doctor\" finds that his game doesn't quite work on the gossip columnist with whom he's smitten."
     }
   ],
-  "boxOffice": 368000000
+  "boxOffice": 368000000,
+  "years": [
+    2005
+  ]
 }

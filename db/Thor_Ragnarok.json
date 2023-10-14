@@ -56,9 +56,6 @@
       ]
     }
   ],
-  "year": [
-    2017
-  ],
   "countries": [
     "USA"
   ],
@@ -181,5 +178,8 @@
       "plot": "Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarцk, the destruction of his world, at the hands of the powerful and ruthless villain Hela."
     }
   ],
-  "boxOffice": 854000000
+  "boxOffice": 854000000,
+  "years": [
+    2017
+  ]
 }

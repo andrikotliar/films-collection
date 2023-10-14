@@ -56,9 +56,6 @@
       ]
     }
   ],
-  "year": [
-    2021
-  ],
   "countries": [
     "USA"
   ],
@@ -127,5 +124,8 @@
       "plot": "In a realm known as Kumandra, a re-imagined Earth inhabited by an ancient civilization, a warrior named Raya is determined to find the last dragon."
     }
   ],
-  "boxOffice": 130000000
+  "boxOffice": 130000000,
+  "years": [
+    2021
+  ]
 }

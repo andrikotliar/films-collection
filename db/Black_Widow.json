@@ -50,9 +50,6 @@
       ]
     }
   ],
-  "year": [
-    2021
-  ],
   "countries": [
     "USA"
   ],
@@ -132,5 +129,8 @@
       "plot": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises."
     }
   ],
-  "boxOffice": 379000000
+  "boxOffice": 379000000,
+  "years": [
+    2021
+  ]
 }

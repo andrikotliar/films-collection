@@ -56,9 +56,6 @@
       ]
     }
   ],
-  "year": [
-    1996
-  ],
   "countries": [
     "USA"
   ],
@@ -152,5 +149,8 @@
       "plot": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization."
     }
   ],
-  "boxOffice": 458000000
+  "boxOffice": 458000000,
+  "years": [
+    1996
+  ]
 }

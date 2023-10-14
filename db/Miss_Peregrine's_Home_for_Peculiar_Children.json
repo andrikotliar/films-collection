@@ -57,9 +57,6 @@
       ]
     }
   ],
-  "year": [
-    2016
-  ],
   "countries": [
     "USA"
   ],
@@ -156,5 +153,8 @@
       "plot": "When Jacob discovers clues to a mystery that stretches across time, he finds Miss Peregrine's Home for Peculiar Children. But the danger deepens after he gets to know the residents and learns about their special powers."
     }
   ],
-  "boxOffice": 296000000
+  "boxOffice": 296000000,
+  "years": [
+    2016
+  ]
 }
