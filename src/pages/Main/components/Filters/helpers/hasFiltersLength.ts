@@ -1,6 +1,6 @@
 import { DynamicObject } from '@/common';
 
-const isResetBtnVisible = (filterParams: DynamicObject) => {
+const hasFiltersLength = (filterParams: DynamicObject) => {
   const paramsLength = Object.keys(filterParams).length;
 
   if (paramsLength) {
@@ -10,4 +10,4 @@ const isResetBtnVisible = (filterParams: DynamicObject) => {
   return false;
 };
 
-export { isResetBtnVisible };
+export { hasFiltersLength };

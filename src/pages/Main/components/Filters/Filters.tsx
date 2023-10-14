@@ -1,5 +1,5 @@
 import classes from './Filters.module.css';
-import { useEffect } from 'react';
+import { useEffect, useMemo } from 'react';
 import { useLocation } from 'react-router-dom';
 import { filtersConfig } from '@/configs';
 import { useFilmsContext } from '@/context/FilmsContext';
@@ -12,16 +12,31 @@ import {
 import { useAppContext } from '@/context/AppContext';
 import { Button, Scrollable } from '@/components';
 import { FilterOptions } from './components';
-import { isResetBtnVisible } from './helpers';
+import { hasFiltersLength } from './helpers';
 import { filterValues } from '@/helpers';
+
+const defaultValues = filtersConfig.reduce(
+  (values, { property }) => {
+    return {
+      ...values,
+      [property]: null,
+    };
+  },
+  {},
+);
 
 const Filters = () => {
   const { filterParams, updateFilter, resetFilter } =
     useFilmsContext();
+
+  const hasFilters = hasFiltersLength(filterParams);
+
   const { setIsFilterOpen } = useAppContext();
   const location = useLocation();
 
-  const methods = useForm();
+  const methods = useForm({
+    defaultValues,
+  });
 
   const submitFilter = (data: any) => {
     const filledOptions = filterValues(data);
@@ -31,23 +46,21 @@ const Filters = () => {
   };
 
   useEffect(() => {
-    if (filterParams) {
+    if (hasFilters) {
       methods.reset(filterParams);
     }
-  }, [filterParams]);
+  }, [filterParams, hasFilters]);
 
   useEffect(() => {
     if (location.search.includes('?search')) {
-      methods.reset();
+      methods.reset(defaultValues);
     }
   }, [location]);
 
   const handleReset = () => {
     resetFilter();
-    methods.reset();
+    methods.reset(defaultValues);
   };
-
-  const isResetAvailable = isResetBtnVisible(filterParams);
 
   return (
     <FormProvider {...methods}>
@@ -72,11 +85,10 @@ const Filters = () => {
           >
             Apply
           </Button>
-          {isResetAvailable && (
+          {hasFilters && (
             <Button
               onClick={handleReset}
               icon={<ResetIcon />}
-              isHidden={isResetAvailable}
             />
           )}
           <Button
