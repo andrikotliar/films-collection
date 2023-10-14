@@ -189,7 +189,6 @@
     }
   ],
   "budget": 55000000,
-  "boxoffice": 353000000,
   "trailers": [
     "Mq4m3yAoW8E"
   ],
@@ -200,5 +199,6 @@
     {
       "plot": "When a murder occurs on the train on which he's travelling, celebrated detective Hercule Poirot is recruited to solve the case."
     }
-  ]
+  ],
+  "boxOffice": 353000000
 }

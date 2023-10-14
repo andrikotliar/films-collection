@@ -126,7 +126,6 @@
     }
   ],
   "budget": 120000000,
-  "boxoffice": 347000000,
   "trailers": [
     "rL6RRIOZyCM"
   ],
@@ -137,5 +136,6 @@
     {
       "plot": "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity."
     }
-  ]
+  ],
+  "boxOffice": 347000000
 }

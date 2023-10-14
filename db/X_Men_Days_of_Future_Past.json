@@ -163,7 +163,6 @@
     }
   ],
   "budget": 200000000,
-  "boxoffice": 748000000,
   "awards": [
     {
       "title": "Saturn",
@@ -186,5 +185,6 @@
     {
       "plot": "The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants."
     }
-  ]
+  ],
+  "boxOffice": 748000000
 }

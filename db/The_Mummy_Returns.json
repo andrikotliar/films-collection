@@ -148,7 +148,6 @@
     }
   ],
   "budget": 98000000,
-  "boxoffice": 433000000,
   "parts": {
     "title": "The Mummy",
     "part": 2
@@ -163,5 +162,6 @@
     {
       "plot": "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror."
     }
-  ]
+  ],
+  "boxOffice": 433000000
 }

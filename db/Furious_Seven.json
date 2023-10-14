@@ -158,7 +158,6 @@
     }
   ],
   "budget": 190000000,
-  "boxoffice": 1520000000,
   "awards": [
     {
       "title": "Saturn",
@@ -187,5 +186,6 @@
     {
       "plot": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother."
     }
-  ]
+  ],
+  "boxOffice": 1520000000
 }

@@ -121,7 +121,6 @@
     }
   ],
   "budget": 75000000,
-  "boxoffice": 542000000,
   "parts": {
     "title": "Madagascar",
     "part": 1
@@ -136,5 +135,6 @@
     {
       "plot": "A group of animals who have spent all their life in a New York zoo end up in the jungles of Madagascar, and must adjust to living in the wild."
     }
-  ]
+  ],
+  "boxOffice": 542000000
 }

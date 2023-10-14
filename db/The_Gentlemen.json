@@ -140,7 +140,6 @@
     }
   ],
   "budget": 22000000,
-  "boxoffice": 115000000,
   "trailers": [
     "vaN8BtA8OJk"
   ],
@@ -151,5 +150,6 @@
     {
       "plot": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him."
     }
-  ]
+  ],
+  "boxOffice": 115000000
 }

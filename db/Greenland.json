@@ -118,7 +118,6 @@
     }
   ],
   "budget": 35000000,
-  "boxoffice": 52000000,
   "trailers": [
     "RTODtIQQRpA"
   ],
@@ -129,5 +128,6 @@
     {
       "plot": "A family struggles for survival in the face of a cataclysmic natural disaster."
     }
-  ]
+  ],
+  "boxOffice": 52000000
 }

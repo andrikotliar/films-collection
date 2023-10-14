@@ -99,7 +99,6 @@
     }
   ],
   "budget": 40000000,
-  "boxoffice": 245000000,
   "parts": {
     "title": "Back to the Future",
     "part": 3
@@ -114,5 +113,6 @@
     {
       "plot": "Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about to be killed by Buford \"Mad Dog\"Tannen. Marty McFly travels back in time to save his friend."
     }
-  ]
+  ],
+  "boxOffice": 245000000
 }

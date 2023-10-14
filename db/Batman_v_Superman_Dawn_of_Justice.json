@@ -141,7 +141,6 @@
     }
   ],
   "budget": 250000000,
-  "boxoffice": 874000000,
   "parts": {
     "title": "DC Extended Universe",
     "part": 2
@@ -156,5 +155,6 @@
     {
       "plot": "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs."
     }
-  ]
+  ],
+  "boxOffice": 874000000
 }

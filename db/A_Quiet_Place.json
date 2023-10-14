@@ -109,7 +109,6 @@
     }
   ],
   "budget": 17000000,
-  "boxoffice": 341000000,
   "awards": [
     {
       "title": "Saturn",
@@ -139,5 +138,6 @@
     {
       "plot": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing."
     }
-  ]
+  ],
+  "boxOffice": 341000000
 }

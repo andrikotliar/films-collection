@@ -138,7 +138,6 @@
     }
   ],
   "budget": 110000000,
-  "boxoffice": 228000000,
   "trailers": [
     "8M0lLJfNPds"
   ],
@@ -149,5 +148,6 @@
     {
       "plot": "When motorcycle rider Johnny Blaze sells his soul to the Devil to save his father's life, he is transformed into the Ghost Rider, the Devil's own bounty hunter, and is sent to hunt down sinners."
     }
-  ]
+  ],
+  "boxOffice": 228000000
 }

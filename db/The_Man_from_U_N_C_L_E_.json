@@ -130,7 +130,6 @@
     }
   ],
   "budget": 75000000,
-  "boxoffice": 107000000,
   "trailers": [
     "CzYRlISYE8Y"
   ],
@@ -141,5 +140,6 @@
     {
       "plot": "In the early 1960s, CIA agent Napoleon Solo and KGB operative Illya Kuryakin participate in a joint mission against a mysterious criminal organization, which is working to proliferate nuclear weapons."
     }
-  ]
+  ],
+  "boxOffice": 107000000
 }

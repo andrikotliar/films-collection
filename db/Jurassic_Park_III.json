@@ -113,7 +113,6 @@
     }
   ],
   "budget": 93000000,
-  "boxoffice": 368000000,
   "parts": {
     "title": "Jurassic Park",
     "part": 3
@@ -128,5 +127,6 @@
     {
       "plot": "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants."
     }
-  ]
+  ],
+  "boxOffice": 368000000
 }

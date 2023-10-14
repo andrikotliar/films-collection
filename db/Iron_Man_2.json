@@ -139,7 +139,6 @@
     }
   ],
   "budget": 200000000,
-  "boxoffice": 624000000,
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 3
@@ -154,5 +153,6 @@
     {
       "plot": "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy."
     }
-  ]
+  ],
+  "boxOffice": 624000000
 }

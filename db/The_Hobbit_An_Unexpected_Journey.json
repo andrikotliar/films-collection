@@ -220,7 +220,6 @@
     }
   ],
   "budget": 200000000,
-  "boxoffice": 1020000000,
   "awards": [
     {
       "title": "Saturn",
@@ -243,5 +242,6 @@
     {
       "plot": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug."
     }
-  ]
+  ],
+  "boxOffice": 1020000000
 }

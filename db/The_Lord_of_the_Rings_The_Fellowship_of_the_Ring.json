@@ -168,7 +168,6 @@
     }
   ],
   "budget": 93000000,
-  "boxoffice": 871000000,
   "awards": [
     {
       "title": "Oscar",
@@ -225,5 +224,6 @@
     {
       "plot": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save The World of Middle-earth from the Dark Lord Sauron."
     }
-  ]
+  ],
+  "boxOffice": 871000000
 }

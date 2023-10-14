@@ -109,7 +109,6 @@
     }
   ],
   "budget": 9000000,
-  "boxoffice": 44000000,
   "parts": {
     "title": "Besson's Taxi",
     "part": 1
@@ -124,5 +123,6 @@
     {
       "plot": "To work off his tarnished driving record, a hip taxi driver must chauffeur a loser police inspector on the trail of German bank robbers."
     }
-  ]
+  ],
+  "boxOffice": 44000000
 }

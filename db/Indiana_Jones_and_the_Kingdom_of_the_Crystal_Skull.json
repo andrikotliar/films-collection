@@ -115,7 +115,6 @@
     }
   ],
   "budget": 185000000,
-  "boxoffice": 790000000,
   "awards": [
     {
       "title": "Saturn",
@@ -138,5 +137,6 @@
     {
       "plot": "In 1957, archaeologist and adventurer Dr. Henry \"Indiana\" Jones, Jr. is called back into action and becomes entangled in a Soviet plot to uncover the secret behind mysterious artifacts known as the Crystal Skulls."
     }
-  ]
+  ],
+  "boxOffice": 790000000
 }

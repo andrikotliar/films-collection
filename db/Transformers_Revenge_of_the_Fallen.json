@@ -161,7 +161,6 @@
     }
   ],
   "budget": 200000000,
-  "boxoffice": 836000000,
   "parts": {
     "title": "Transformers",
     "part": 3
@@ -176,5 +175,6 @@
     {
       "plot": "Sam Witwicky leaves the Autobots behind for a normal life. But when his mind is filled with cryptic symbols, the Decepticons target him and he is dragged back into the Transformers' war."
     }
-  ]
+  ],
+  "boxOffice": 836000000
 }

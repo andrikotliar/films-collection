@@ -117,7 +117,6 @@
     }
   ],
   "budget": 30000000,
-  "boxoffice": 350000000,
   "awards": [
     {
       "title": "Oscar",
@@ -156,5 +155,6 @@
     {
       "plot": "A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph."
     }
-  ]
+  ],
+  "boxOffice": 350000000
 }

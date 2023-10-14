@@ -125,7 +125,6 @@
     }
   ],
   "budget": 110000000,
-  "boxoffice": 427000000,
   "parts": {
     "title": "The Matrix",
     "part": 3
@@ -140,5 +139,6 @@
     {
       "plot": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith."
     }
-  ]
+  ],
+  "boxOffice": 427000000
 }

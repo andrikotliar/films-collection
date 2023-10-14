@@ -145,7 +145,6 @@
     }
   ],
   "budget": 110000000,
-  "boxoffice": 296000000,
   "trailers": [
     "tV_IhWE4LP0"
   ],
@@ -156,5 +155,6 @@
     {
       "plot": "When Jacob discovers clues to a mystery that stretches across time, he finds Miss Peregrine's Home for Peculiar Children. But the danger deepens after he gets to know the residents and learns about their special powers."
     }
-  ]
+  ],
+  "boxOffice": 296000000
 }

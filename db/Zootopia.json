@@ -140,7 +140,6 @@
     }
   ],
   "budget": 150000000,
-  "boxoffice": 1020000000,
   "awards": [
     {
       "title": "Oscar",
@@ -171,5 +170,6 @@
     {
       "plot": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy."
     }
-  ]
+  ],
+  "boxOffice": 1020000000
 }

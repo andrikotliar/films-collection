@@ -137,7 +137,6 @@
     }
   ],
   "budget": 230000000,
-  "boxoffice": 758000000,
   "parts": {
     "title": "The Amazing Spider-Man",
     "part": 1
@@ -152,5 +151,6 @@
     {
       "plot": "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe."
     }
-  ]
+  ],
+  "boxOffice": 758000000
 }

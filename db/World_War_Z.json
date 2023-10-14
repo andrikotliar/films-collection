@@ -114,7 +114,6 @@
     }
   ],
   "budget": 190000000,
-  "boxoffice": 540000000,
   "awards": [
     {
       "title": "Saturn",
@@ -139,5 +138,6 @@
     {
       "plot": "Former United Nations employee Gerry Lane traverses the world in a race against time to stop the Zombie pandemic that is toppling armies and governments, and threatening to destroy humanity itself."
     }
-  ]
+  ],
+  "boxOffice": 540000000
 }

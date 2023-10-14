@@ -138,7 +138,6 @@
     }
   ],
   "budget": 200000000,
-  "boxoffice": 1060000000,
   "awards": [
     {
       "title": "Saturn",
@@ -163,5 +162,6 @@
     {
       "plot": "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans."
     }
-  ]
+  ],
+  "boxOffice": 1060000000
 }

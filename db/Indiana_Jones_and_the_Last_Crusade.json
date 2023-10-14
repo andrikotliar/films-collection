@@ -115,7 +115,6 @@
     }
   ],
   "budget": 48000000,
-  "boxoffice": 474000000,
   "awards": [
     {
       "title": "Oscar",
@@ -150,5 +149,6 @@
     {
       "plot": "In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Professor Henry \"Indiana\" Jones, Jr. finds himself up against Adolf Hitler's Nazis again to stop them from obtaining its powers."
     }
-  ]
+  ],
+  "boxOffice": 474000000
 }

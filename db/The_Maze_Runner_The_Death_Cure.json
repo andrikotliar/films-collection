@@ -154,7 +154,6 @@
     }
   ],
   "budget": 62000000,
-  "boxoffice": 288000000,
   "parts": {
     "title": "The Maze Runner",
     "part": 3
@@ -169,5 +168,6 @@
     {
       "plot": "Young hero Thomas embarks on a mission to find a cure for a deadly disease known as \"The Flare\"."
     }
-  ]
+  ],
+  "boxOffice": 288000000
 }

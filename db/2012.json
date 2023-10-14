@@ -165,7 +165,6 @@
     }
   ],
   "budget": 200000000,
-  "boxoffice": 770000000,
   "trailers": [
     "ce0N3TEcFw0"
   ],
@@ -176,5 +175,6 @@
     {
       "plot": "A frustrated writer struggles to keep his family alive when a series of global catastrophes threatens to annihilate mankind."
     }
-  ]
+  ],
+  "boxOffice": 770000000
 }

@@ -129,7 +129,6 @@
     }
   ],
   "budget": 160000000,
-  "boxoffice": 286000000,
   "trailers": [
     "XmIIgE7eSak"
   ],
@@ -140,5 +139,6 @@
     {
       "plot": "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself."
     }
-  ]
+  ],
+  "boxOffice": 286000000
 }

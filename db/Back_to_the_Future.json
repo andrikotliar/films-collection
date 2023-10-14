@@ -126,7 +126,6 @@
     }
   ],
   "budget": 19000000,
-  "boxoffice": 381000000,
   "awards": [
     {
       "title": "Oscar",
@@ -149,5 +148,6 @@
     {
       "plot": "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown."
     }
-  ]
+  ],
+  "boxOffice": 381000000
 }

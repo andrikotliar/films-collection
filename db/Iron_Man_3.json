@@ -121,7 +121,6 @@
     }
   ],
   "budget": 200000000,
-  "boxoffice": 1200000000,
   "awards": [
     {
       "title": "Saturn",
@@ -146,5 +145,6 @@
     {
       "plot": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution."
     }
-  ]
+  ],
+  "boxOffice": 1200000000
 }

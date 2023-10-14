@@ -128,7 +128,6 @@
     }
   ],
   "budget": 150000000,
-  "boxoffice": 604000000,
   "parts": {
     "title": "Madagascar",
     "part": 2
@@ -143,5 +142,6 @@
     {
       "plot": "The Madagascar animals fly back to New York City, but crash-land on an African nature reserve, where they meet others of their own kind, and Alex especially discovers his royal heritage as prince of a lion pride."
     }
-  ]
+  ],
+  "boxOffice": 604000000
 }

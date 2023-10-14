@@ -135,7 +135,6 @@
     }
   ],
   "budget": 32000000,
-  "boxoffice": 573000000,
   "awards": [
     {
       "title": "BAFTA",
@@ -169,5 +168,6 @@
     {
       "plot": "After a daring mission to rescue Han Solo from Jabba the Hutt, the rebels dispatch to Endor to destroy a more powerful Death Star. Meanwhile, Luke struggles to help Vader back from the dark side without falling into the Emperor's trap."
     }
-  ]
+  ],
+  "boxOffice": 573000000
 }

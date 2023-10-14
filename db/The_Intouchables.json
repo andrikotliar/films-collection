@@ -110,7 +110,6 @@
     }
   ],
   "budget": 11000000,
-  "boxoffice": 427000000,
   "trailers": [
     "34WIbmXkewU"
   ],
@@ -121,5 +120,6 @@
     {
       "plot": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver."
     }
-  ]
+  ],
+  "boxOffice": 427000000
 }

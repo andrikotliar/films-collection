@@ -157,7 +157,6 @@
     }
   ],
   "budget": 178000000,
-  "boxoffice": 370000000,
   "awards": [
     {
       "title": "Saturn",
@@ -182,5 +181,6 @@
     {
       "plot": "A soldier fighting aliens gets to relive the same day over and over again, the day restarting every time he dies."
     }
-  ]
+  ],
+  "boxOffice": 370000000
 }

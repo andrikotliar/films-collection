@@ -114,7 +114,6 @@
     }
   ],
   "budget": 94000000,
-  "boxoffice": 521000000,
   "awards": [
     {
       "title": "Oscar",
@@ -159,5 +158,6 @@
     {
       "plot": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her teenage son, John Connor, from a more advanced and powerful cyborg."
     }
-  ]
+  ],
+  "boxOffice": 521000000
 }

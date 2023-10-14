@@ -121,7 +121,6 @@
     }
   ],
   "budget": 300000000,
-  "boxoffice": 963000000,
   "awards": [
     {
       "title": "Saturn",
@@ -144,5 +143,6 @@
     {
       "plot": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle."
     }
-  ]
+  ],
+  "boxOffice": 963000000
 }

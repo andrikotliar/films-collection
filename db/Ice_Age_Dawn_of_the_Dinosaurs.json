@@ -136,7 +136,6 @@
     }
   ],
   "budget": 90000000,
-  "boxoffice": 886000000,
   "parts": {
     "title": "Ice Age",
     "part": 3
@@ -151,5 +150,6 @@
     {
       "plot": "When Sid's attempt to adopt three dinosaur eggs gets him abducted by their real mother to an underground lost world, his friends attempt to rescue him."
     }
-  ]
+  ],
+  "boxOffice": 886000000
 }

@@ -112,7 +112,6 @@
     }
   ],
   "budget": 21000000,
-  "boxoffice": 44000000,
   "parts": {
     "title": "The Transporter",
     "part": 1
@@ -127,5 +126,6 @@
     {
       "plot": "Frank is hired to \"transport\" packages for unknown clients and has made a very good living doing so. But when asked to move a package that begins moving, complications arise."
     }
-  ]
+  ],
+  "boxOffice": 44000000
 }

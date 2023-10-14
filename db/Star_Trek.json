@@ -166,7 +166,6 @@
     }
   ],
   "budget": 150000000,
-  "boxoffice": 386000000,
   "awards": [
     {
       "title": "Oscar",
@@ -195,5 +194,6 @@
     {
       "plot": "The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time."
     }
-  ]
+  ],
+  "boxOffice": 386000000
 }

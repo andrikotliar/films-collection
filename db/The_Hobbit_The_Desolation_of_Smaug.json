@@ -248,7 +248,6 @@
     }
   ],
   "budget": 225000000,
-  "boxoffice": 960000000,
   "awards": [
     {
       "title": "Saturn",
@@ -271,5 +270,6 @@
     {
       "plot": "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring."
     }
-  ]
+  ],
+  "boxOffice": 960000000
 }

@@ -153,7 +153,6 @@
     }
   ],
   "budget": 200000000,
-  "boxoffice": 864000000,
   "awards": [
     {
       "title": "Saturn",
@@ -176,5 +175,6 @@
     {
       "plot": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage."
     }
-  ]
+  ],
+  "boxOffice": 864000000
 }

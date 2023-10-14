@@ -140,7 +140,6 @@
     }
   ],
   "budget": 178000000,
-  "boxoffice": 791000000,
   "awards": [
     {
       "title": "Saturn",
@@ -163,5 +162,6 @@
     {
       "plot": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong."
     }
-  ]
+  ],
+  "boxOffice": 791000000
 }

@@ -146,7 +146,6 @@
     }
   ],
   "budget": 75000000,
-  "boxoffice": 352000000,
   "trailers": [
     "KzJNYYkkhzc"
   ],
@@ -157,5 +156,6 @@
     {
       "plot": "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money."
     }
-  ]
+  ],
+  "boxOffice": 352000000
 }

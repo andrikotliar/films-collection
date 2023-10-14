@@ -194,7 +194,6 @@
     }
   ],
   "budget": 356000000,
-  "boxoffice": 2730000000,
   "awards": [
     {
       "title": "Saturn",
@@ -237,5 +236,6 @@
     {
       "plot": "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to undo Thanos' actions and restore order to the universe."
     }
-  ]
+  ],
+  "boxOffice": 2730000000
 }

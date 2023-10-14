@@ -172,7 +172,6 @@
     }
   ],
   "budget": 108000000,
-  "boxoffice": 630000000,
   "awards": [
     {
       "title": "Golden Globes",
@@ -198,5 +197,6 @@
     {
       "plot": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive."
     }
-  ]
+  ],
+  "boxOffice": 630000000
 }

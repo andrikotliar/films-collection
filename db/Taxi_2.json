@@ -114,7 +114,6 @@
     }
   ],
   "budget": 10000000,
-  "boxoffice": 64000000,
   "parts": {
     "title": "Besson's Taxi",
     "part": 2
@@ -129,5 +128,6 @@
     {
       "plot": "Police inspector Emilien and his taxi-driver pal Daniel are back, this time on the tail of a group of Japanese yakuza."
     }
-  ]
+  ],
+  "boxOffice": 64000000
 }

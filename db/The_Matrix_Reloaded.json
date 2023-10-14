@@ -139,7 +139,6 @@
     }
   ],
   "budget": 127000000,
-  "boxoffice": 742000000,
   "parts": {
     "title": "The Matrix",
     "part": 2
@@ -154,5 +153,6 @@
     {
       "plot": "Neo and the rebel leaders estimate that they have 72 hours until 250,000 probes discover Zion and destroy it and its inhabitants. During this, Neo must decide how he can save Trinity from a dark fate in his dreams."
     }
-  ]
+  ],
+  "boxOffice": 742000000
 }

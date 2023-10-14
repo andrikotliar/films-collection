@@ -144,7 +144,6 @@
     }
   ],
   "budget": 306000000,
-  "boxoffice": 2069999999.9999998,
   "awards": [
     {
       "title": "BAFTA",
@@ -180,5 +179,6 @@
     {
       "plot": "Three decades after the Empire's defeat, a new threat arises in the militant First Order. Stormtrooper defector Finn and the scavenger Rey are caught up in the Resistance's search for the missing Luke Skywalker."
     }
-  ]
+  ],
+  "boxOffice": 2069999999.9999998
 }

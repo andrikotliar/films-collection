@@ -138,7 +138,6 @@
     }
   ],
   "budget": 160000000,
-  "boxoffice": 1150000000,
   "parts": {
     "title": "DC Extended Universe",
     "part": 6
@@ -153,5 +152,6 @@
     {
       "plot": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land."
     }
-  ]
+  ],
+  "boxOffice": 1150000000
 }

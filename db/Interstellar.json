@@ -120,7 +120,6 @@
     }
   ],
   "budget": 165000000,
-  "boxoffice": 677000000,
   "awards": [
     {
       "title": "Oscar",
@@ -162,5 +161,6 @@
     {
       "plot": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
     }
-  ]
+  ],
+  "boxOffice": 677000000
 }

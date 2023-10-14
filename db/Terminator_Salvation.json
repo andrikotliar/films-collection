@@ -124,7 +124,6 @@
     }
   ],
   "budget": 200000000,
-  "boxoffice": 371000000,
   "parts": {
     "title": "The Terminator",
     "part": 3
@@ -139,5 +138,6 @@
     {
       "plot": "In 2018, a mysterious new weapon in the war against the machines, half-human and half-machine, comes to John Connor on the eve of a resistance attack on Skynet. But whose side is he on, and can he be trusted?"
     }
-  ]
+  ],
+  "boxOffice": 371000000
 }

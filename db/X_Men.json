@@ -149,7 +149,6 @@
     }
   ],
   "budget": 75000000,
-  "boxoffice": 296000000,
   "awards": [
     {
       "title": "Saturn",
@@ -177,5 +176,6 @@
     {
       "plot": "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men."
     }
-  ]
+  ],
+  "boxOffice": 296000000
 }

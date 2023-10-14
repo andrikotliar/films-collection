@@ -156,7 +156,6 @@
     }
   ],
   "budget": 196000000,
-  "boxoffice": 773000000,
   "awards": [
     {
       "title": "Saturn",
@@ -189,5 +188,6 @@
     {
       "plot": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe."
     }
-  ]
+  ],
+  "boxOffice": 773000000
 }

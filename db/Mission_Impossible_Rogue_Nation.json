@@ -139,7 +139,6 @@
     }
   ],
   "budget": 150000000,
-  "boxoffice": 683000000,
   "parts": {
     "title": "Mission: Impossible",
     "part": 5
@@ -154,5 +153,6 @@
     {
       "plot": "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF."
     }
-  ]
+  ],
+  "boxOffice": 683000000
 }

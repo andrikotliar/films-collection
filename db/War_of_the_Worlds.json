@@ -115,7 +115,6 @@
     }
   ],
   "budget": 132000000,
-  "boxoffice": 604000000,
   "trailers": [
     "SM6aEEjc5hA"
   ],
@@ -140,5 +139,6 @@
         "Best Young Actress (Dakota Fanning)"
       ]
     }
-  ]
+  ],
+  "boxOffice": 604000000
 }

@@ -133,7 +133,6 @@
     }
   ],
   "budget": 15000000,
-  "boxoffice": 98000000,
   "trailers": [
     "_1wDBNHYDv8"
   ],
@@ -144,5 +143,6 @@
     {
       "plot": "A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior."
     }
-  ]
+  ],
+  "boxOffice": 98000000
 }

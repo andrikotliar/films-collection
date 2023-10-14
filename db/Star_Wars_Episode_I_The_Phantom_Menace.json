@@ -146,7 +146,6 @@
     }
   ],
   "budget": 115000000,
-  "boxoffice": 1020000000,
   "awards": [
     {
       "title": "Saturn",
@@ -176,5 +175,6 @@
     {
       "plot": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their old glory."
     }
-  ]
+  ],
+  "boxOffice": 1020000000
 }

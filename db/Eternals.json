@@ -167,7 +167,6 @@
     }
   ],
   "budget": 200000000,
-  "boxoffice": 281000000,
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 28
@@ -182,5 +181,6 @@
     {
       "plot": "The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations."
     }
-  ]
+  ],
+  "boxOffice": 281000000
 }

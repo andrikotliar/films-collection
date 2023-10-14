@@ -126,7 +126,6 @@
     }
   ],
   "budget": 14000000,
-  "boxoffice": 64000000,
   "parts": {
     "title": "Besson's Taxi",
     "part": 3
@@ -141,5 +140,6 @@
     {
       "plot": "Out to stop a new gang disguised as Santa Claus, Emilien and Daniel must also handle major changes in their personal relationships."
     }
-  ]
+  ],
+  "boxOffice": 64000000
 }

@@ -117,7 +117,6 @@
     }
   ],
   "budget": 140000000,
-  "boxoffice": 442000000,
   "parts": {
     "title": "Men in Black",
     "part": 2
@@ -132,5 +131,6 @@
     {
       "plot": "Agent J needs help so he is sent to find Agent K and restore his memory."
     }
-  ]
+  ],
+  "boxOffice": 442000000
 }

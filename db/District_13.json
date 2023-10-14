@@ -108,7 +108,6 @@
     }
   ],
   "budget": 14000000,
-  "boxoffice": 12000000,
   "parts": {
     "title": "District 13",
     "part": 1
@@ -123,5 +122,6 @@
     {
       "plot": "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb."
     }
-  ]
+  ],
+  "boxOffice": 12000000
 }

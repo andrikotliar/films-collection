@@ -137,7 +137,6 @@
     }
   ],
   "budget": 80000000,
-  "boxoffice": 458000000,
   "parts": {
     "title": "Mission: Impossible",
     "part": 1
@@ -152,5 +151,6 @@
     {
       "plot": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization."
     }
-  ]
+  ],
+  "boxOffice": 458000000
 }

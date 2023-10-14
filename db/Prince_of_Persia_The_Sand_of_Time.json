@@ -137,7 +137,6 @@
     }
   ],
   "budget": 150000000,
-  "boxoffice": 336000000,
   "trailers": [
     "bZ7Li5w2I-k"
   ],
@@ -148,5 +147,6 @@
     {
       "plot": "A young fugitive Prince and Princess must stop a villain who unknowingly threatens to destroy the world with a special dagger that enables the magic sand inside to reverse time."
     }
-  ]
+  ],
+  "boxOffice": 336000000
 }

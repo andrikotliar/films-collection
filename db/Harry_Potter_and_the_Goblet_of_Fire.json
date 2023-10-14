@@ -132,7 +132,6 @@
     }
   ],
   "budget": 150000000,
-  "boxoffice": 897000000000,
   "awards": [
     {
       "title": "BAFTA",
@@ -155,5 +154,6 @@
     {
       "plot": "A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares."
     }
-  ]
+  ],
+  "boxOffice": 897000000000
 }

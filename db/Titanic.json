@@ -114,7 +114,6 @@
     }
   ],
   "budget": 200000000,
-  "boxoffice": 2400000000,
   "awards": [
     {
       "title": "Oscar",
@@ -151,5 +150,6 @@
     {
       "plot": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
     }
-  ]
+  ],
+  "boxOffice": 2400000000
 }
