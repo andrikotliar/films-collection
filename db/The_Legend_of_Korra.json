@@ -94,7 +94,12 @@
       ]
     }
   ],
-  "year": 2012,
+  "year": [
+    2012,
+    2013,
+    2014,
+    2014
+  ],
   "countries": [
     "USA"
   ],
@@ -339,8 +344,7 @@
           "episode": 12,
           "title": "Endgame"
         }
-      ],
-      "year": 2012
+      ]
     },
     {
       "title": "Book 2: Spirits",
@@ -416,8 +420,7 @@
           "episode": 14,
           "title": "Light in the Dark"
         }
-      ],
-      "year": 2013
+      ]
     },
     {
       "title": "Book 3: Change",
@@ -488,8 +491,7 @@
           "episode": 13,
           "title": "Venom of the Red Lotus"
         }
-      ],
-      "year": 2014
+      ]
     },
     {
       "title": "Book 4: Balance",
@@ -560,8 +562,7 @@
           "episode": 13,
           "title": "The Last Stand"
         }
-      ],
-      "year": 2014
+      ]
     }
   ]
 }

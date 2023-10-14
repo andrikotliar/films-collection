@@ -56,7 +56,9 @@
       ]
     }
   ],
-  "year": 1979,
+  "year": [
+    1979
+  ],
   "countries": [
     "USA",
     "UK"

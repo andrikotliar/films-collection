@@ -60,7 +60,9 @@
       ]
     }
   ],
-  "year": 2020,
+  "year": [
+    2020
+  ],
   "countries": [
     "Canada",
     "USA",

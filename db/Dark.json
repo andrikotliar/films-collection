@@ -90,7 +90,11 @@
       ]
     }
   ],
-  "year": 2017,
+  "year": [
+    2017,
+    2019,
+    2020
+  ],
   "countries": [
     "Germany",
     "USA"
@@ -354,8 +358,7 @@
           "episode": 10,
           "title": "Alpha and Omega"
         }
-      ],
-      "year": 2017
+      ]
     },
     {
       "title": "Season 2",
@@ -401,8 +404,7 @@
           "episode": 8,
           "title": "Endings and Beginnings"
         }
-      ],
-      "year": 2019
+      ]
     },
     {
       "title": "Season 3",
@@ -448,8 +450,7 @@
           "episode": 8,
           "title": "Paradise"
         }
-      ],
-      "year": 2020
+      ]
     }
   ]
 }

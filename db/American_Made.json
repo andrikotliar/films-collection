@@ -59,7 +59,9 @@
       ]
     }
   ],
-  "year": 2017,
+  "year": [
+    2017
+  ],
   "countries": [
     "USA",
     "Japan",

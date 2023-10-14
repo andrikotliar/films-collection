@@ -170,7 +170,11 @@
       ]
     }
   ],
-  "year": 2020,
+  "year": [
+    2020,
+    2021,
+    2022
+  ],
   "countries": [
     "USA",
     "Canada"
@@ -307,8 +311,7 @@
           "episode": 10,
           "title": "Crown of Shadows"
         }
-      ],
-      "year": 2020
+      ]
     },
     {
       "title": "Season 2",
@@ -364,8 +367,7 @@
           "episode": 10,
           "title": "Cliffhanger"
         }
-      ],
-      "year": 2021
+      ]
     },
     {
       "title": "Season 3",
@@ -411,8 +413,7 @@
           "episode": 8,
           "title": "Farewell"
         }
-      ],
-      "year": 2022
+      ]
     }
   ]
 }

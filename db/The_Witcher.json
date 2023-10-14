@@ -132,7 +132,10 @@
       ]
     }
   ],
-  "year": 2019,
+  "year": [
+    2019,
+    2021
+  ],
   "countries": [
     "USA",
     "Poland",
@@ -265,8 +268,7 @@
           "episode": 8,
           "title": "Much More"
         }
-      ],
-      "year": 2019
+      ]
     },
     {
       "title": "Season 2",
@@ -312,8 +314,7 @@
           "episode": 8,
           "title": "Family"
         }
-      ],
-      "year": 2021
+      ]
     }
   ]
 }

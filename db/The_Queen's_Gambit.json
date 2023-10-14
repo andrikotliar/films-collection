@@ -61,7 +61,9 @@
       ]
     }
   ],
-  "year": 2020,
+  "year": [
+    2020
+  ],
   "countries": [
     "USA"
   ],
@@ -201,8 +203,7 @@
           "episode": 7,
           "title": "End Game"
         }
-      ],
-      "year": 2020
+      ]
     }
   ]
 }

@@ -186,7 +186,11 @@
       ]
     }
   ],
-  "year": 2019,
+  "year": [
+    2019,
+    2020,
+    2022
+  ],
   "countries": [
     "USA"
   ],
@@ -357,8 +361,7 @@
           "episode": 10,
           "title": "The White Violin"
         }
-      ],
-      "year": 2019
+      ]
     },
     {
       "title": "Season 2",
@@ -414,8 +417,7 @@
           "episode": 10,
           "title": "The End of Something"
         }
-      ],
-      "year": 2020
+      ]
     },
     {
       "title": "Season 3",
@@ -471,8 +473,7 @@
           "episode": 10,
           "title": "Oblivion"
         }
-      ],
-      "year": 2022
+      ]
     }
   ]
 }

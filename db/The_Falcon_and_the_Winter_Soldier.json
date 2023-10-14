@@ -70,7 +70,9 @@
       ]
     }
   ],
-  "year": 2021,
+  "year": [
+    2021
+  ],
   "countries": [
     "USA"
   ],
@@ -210,8 +212,7 @@
           "episode": 6,
           "title": "One World, One People"
         }
-      ],
-      "year": 2021
+      ]
     }
   ]
 }

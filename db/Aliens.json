@@ -50,7 +50,9 @@
       ]
     }
   ],
-  "year": 1986,
+  "year": [
+    1986
+  ],
   "countries": [
     "USA",
     "UK"

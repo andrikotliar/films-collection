@@ -68,7 +68,9 @@
       ]
     }
   ],
-  "year": 2013,
+  "year": [
+    2013
+  ],
   "countries": [
     "USA",
     "New Zealand"

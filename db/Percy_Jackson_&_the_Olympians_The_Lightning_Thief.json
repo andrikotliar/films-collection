@@ -59,7 +59,9 @@
       ]
     }
   ],
-  "year": 2010,
+  "year": [
+    2010
+  ],
   "countries": [
     "USA",
     "UK",

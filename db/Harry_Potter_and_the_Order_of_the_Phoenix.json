@@ -53,7 +53,9 @@
       ]
     }
   ],
-  "year": 2007,
+  "year": [
+    2007
+  ],
   "countries": [
     "USA",
     "UK"

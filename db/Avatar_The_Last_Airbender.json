@@ -158,7 +158,11 @@
       ]
     }
   ],
-  "year": 2005,
+  "year": [
+    2005,
+    2006,
+    2008
+  ],
   "countries": [
     "USA"
   ],
@@ -416,8 +420,7 @@
           "episode": 20,
           "title": "The Siege of the North, Part 2"
         }
-      ],
-      "year": 2005
+      ]
     },
     {
       "title": "Book 2: Earth",
@@ -523,8 +526,7 @@
           "episode": 20,
           "title": "The Crossroads of Destiny"
         }
-      ],
-      "year": 2006
+      ]
     },
     {
       "title": "Book 3: Fire",
@@ -635,8 +637,7 @@
           "episode": 21,
           "title": "Sozin's Comet, Part 4: Avatar Aang"
         }
-      ],
-      "year": 2008
+      ]
     }
   ]
 }

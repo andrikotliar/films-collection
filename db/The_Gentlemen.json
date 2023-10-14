@@ -57,7 +57,9 @@
       ]
     }
   ],
-  "year": 2019,
+  "year": [
+    2019
+  ],
   "countries": [
     "UK",
     "USA"
