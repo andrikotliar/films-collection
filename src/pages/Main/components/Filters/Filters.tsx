@@ -1,6 +1,5 @@
 import classes from './Filters.module.css';
-import { useEffect, useMemo } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import { filtersConfig } from '@/configs';
 import { useFilmsContext } from '@/context/FilmsContext';
 import { useForm, FormProvider } from 'react-hook-form';
@@ -32,7 +31,6 @@ const Filters = () => {
   const hasFilters = hasFiltersLength(filterParams);
 
   const { setIsFilterOpen } = useAppContext();
-  const location = useLocation();
 
   const methods = useForm({
     defaultValues,
@@ -50,12 +48,6 @@ const Filters = () => {
       methods.reset(filterParams);
     }
   }, [filterParams, hasFilters]);
-
-  useEffect(() => {
-    if (location.search.includes('?search')) {
-      methods.reset(defaultValues);
-    }
-  }, [location]);
 
   const handleReset = () => {
     resetFilter();

@@ -11,18 +11,31 @@ import { Container } from '@/components/Container';
 const Header = () => {
   const [isSearchVisible, setIsSearchVisible] =
     useState(false);
-  const { pathname } = useLocation();
+  const [searchString, setSearchString] = useState('');
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.pathname === '/') {
+      setSearchString(location.search);
+    }
+  }, [location]);
 
   useEffect(() => {
     if (isSearchVisible) {
       setIsSearchVisible(false);
     }
-  }, [pathname]);
+  }, [location.pathname]);
 
   return (
     <header className={classes.header}>
       <Container className={classes.container}>
-        <Link to="/" className={classes.logoLink}>
+        <Link
+          to={{
+            pathname: '/',
+            search: searchString,
+          }}
+          className={classes.logoLink}
+        >
           <FilmsCollectionLogo
             className={classes.logoImage}
           />
