@@ -43,8 +43,6 @@ const SelectedFilters = () => {
         return keys[0];
       case 'search':
         return 'Search string';
-      case 'year':
-        return 'Years';
       default:
         return param[0].toUpperCase() + param.slice(1);
     }

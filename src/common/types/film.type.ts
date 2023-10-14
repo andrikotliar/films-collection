@@ -41,7 +41,6 @@ type DescriptionType = {
   title?: string;
   plot: string;
   episodes: Episode[];
-  year?: number;
 };
 
 type FilmData = {
@@ -55,12 +54,12 @@ type FilmData = {
   crew: Crew[];
   description: DescriptionType[];
   countries: string[];
-  year: number;
+  years: number[];
   duration: number;
   cast: Cast[];
   collections: Collection[];
   budget?: number;
-  boxoffice?: number;
+  boxOffice?: number;
   parts?: Chapter;
   awards?: Award[];
   ordered?: boolean;

@@ -44,7 +44,11 @@ const FilmsList = () => {
             <h3 className={classes.filmTitle}>
               {film.title}
             </h3>
-            <p className={classes.filmYear}>{film.year}</p>
+            <p className={classes.filmYear}>
+              {film.years.length > 1
+                ? `${film.years[0]} - ${film.years.at(-1)}`
+                : film.years[0]}
+            </p>
           </Link>
         ))}
       </div>

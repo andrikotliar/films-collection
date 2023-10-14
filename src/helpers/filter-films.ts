@@ -56,20 +56,6 @@ export const filterFilms = (
           );
         }
 
-        if (property === 'year') {
-          const yearsMatch =
-            params[property].includes(
-              film.year.toString(),
-            ) ||
-            film.description
-              .map(item => item.year?.toString())
-              .some(year =>
-                params[property].includes(year),
-              );
-
-          return yearsMatch;
-        }
-
         if (property === 'duration') {
           return (
             film[property] === Number(params[property])
@@ -96,7 +82,8 @@ export const filterFilms = (
         }
 
         return (film as any)[property].some(
-          (item: string) => params[property].includes(item),
+          (item: string | number) =>
+            params[property].includes(item.toString()),
         );
       });
       if (match) {

@@ -62,7 +62,7 @@ const FilmPage = () => {
     film.type.includes('Series') &&
     film.description.length > 1 &&
     film.description.map((item, index) => ({
-      label: `${item.title} (${item.year})` || '',
+      label: `${item.title} (${film.years[index]})` || '',
       value: index,
     }));
 
@@ -74,9 +74,9 @@ const FilmPage = () => {
           <DataLinks
             items={[
               {
-                value: film.year,
+                value: film.years[0],
                 isAccent: true,
-                property: 'year',
+                property: 'years',
               },
               {
                 value: film.genres,
@@ -134,12 +134,12 @@ const FilmPage = () => {
           <Details filmData={film} />
         </section>
 
-        {(film.budget || film.boxoffice) && (
+        {(film.budget || film.boxOffice) && (
           <section>
             <SectionTitle>Box Office</SectionTitle>
             <BoxOffice
               budget={film.budget}
-              boxOffice={film.boxoffice}
+              boxOffice={film.boxOffice}
             />
           </section>
         )}

@@ -2,14 +2,16 @@ import fs from 'fs';
 
 const createDB = () => {
 	const files = fs.readdirSync('./db/')
-	const db = [];
+	const db = files.map((file) => {
+    try {
+      const fileData = fs.readFileSync(`./db/${file}`, 'utf8');
+      return JSON.parse(fileData);
+    } catch(e) {
+      console.error(e?.message);
+    }
+  });
 
-	for(const file of files) {
-		const fileData = fs.readFileSync(`./db/${file}`, 'utf8');
-		db.push(JSON.parse(fileData));
-	}
-
-	const sortedDB = db.sort((a, b) => a.year < b.year ? 1 : -1);
+	const sortedDB = db.sort((a, b) => a.years[0] < b.years[0] ? 1 : -1);
 
 	fs.writeFile('./public/database/database.json', JSON.stringify(sortedDB), (error) => {
     if(error) {

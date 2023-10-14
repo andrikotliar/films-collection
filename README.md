@@ -1,14 +1,20 @@
 # Films Collection Application
 
-The application is developed as my personal collection of favorite films.
+The application is developed as my personal collection of
+favorite films.
 
-All information, posters and videos was taken from open resources. Actor photos are loaded from [the TMDB](https://www.themoviedb.org/) directly.
+All information, posters and videos was taken from open
+resources. Actor photos are loaded from
+[the TMDB](https://www.themoviedb.org/) directly.
 
-App source code: [https://github.com/andrikotliar/filmscollection](https://github.com/andrikotliar/filmscollection)
+App source code:
+[https://github.com/andrikotliar/filmscollection](https://github.com/andrikotliar/filmscollection)
 
 ## Data
 
-All data stores in json-files, that are combined into the **database.json** file after the build or start command is run.
+All data stores in json-files, that are combined into the
+**database.json** file after the build or start command is
+run.
 
 To build your own version of the list, clone the project:
 
@@ -17,15 +23,19 @@ git clone git@github.com:andrikotliar/filmscollection.git
 cd filmscollection
 ```
 
-Add or delete films form the db folder and then run commands:
+Add or delete films form the db folder and then run
+commands:
 
 ```bash
 npm install
 npm start
 ```
-It will install all required packages, create the "database" file and start the development server.
 
-Or run following commads to build project for the production:
+It will install all required packages, create the "database"
+file and start the development server.
+
+Or run following commads to build project for the
+production:
 
 ```bash
 npm install
@@ -104,10 +114,6 @@ npm run build
               "required": ["episodesOverall", "episode", "title"]
             }
           },
-          "year": {
-            "type": "number",
-            "description": "The field doesn't appear on Film and Animation types and represents the series season start year"
-          }
         },
         "required": ["plot"]
       },
@@ -142,9 +148,12 @@ npm run build
         "required": ["role", "people"]
       }
     },
-    "year": {
-      "type": "number",
-      "description": "Release year. Use start year of the first season for the Series type."
+    "years": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "description": "Release year. Has only one value for the film/animation type and many values for series and shows the release year of each season from the first to the last."
     },
     "countries": {
       "type": "array",
@@ -188,7 +197,7 @@ npm run build
           }
         },
         "required": ["character", "actorId"]
-      } 
+      }
     },
     "collections": {
       "type": "array",
@@ -209,7 +218,7 @@ npm run build
     "budget": {
       "type": "number"
     },
-    "boxoffice": {
+    "boxOffice": {
       "type": "number"
     },
     "awards": {
@@ -250,4 +259,6 @@ npm run build
 
 ## Tools
 
-There is the **create-db.js** script in the root of the project that help to build "database". Run this script to bring together all JSONs from the DB folder into one file.
+There is the **create-db.js** script in the root of the
+project that help to build "database". Run this script to
+bring together all JSONs from the DB folder into one file.

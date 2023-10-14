@@ -24,7 +24,7 @@ export const filtersConfig: Filter[] = [
   },
   {
     title: 'Year',
-    property: 'year',
+    property: 'years',
     options: getYears(),
     defaultOptionTitle: 'All years',
     isScrollable: true,
