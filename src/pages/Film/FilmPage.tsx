@@ -18,7 +18,6 @@ import {
   Details,
   BoxOffice,
 } from './components';
-import { TMDBLogo } from '@/assets/logos';
 
 const FilmPage = () => {
   const { id } = useParams();
@@ -52,7 +51,7 @@ const FilmPage = () => {
     return (
       <article className="film container">
         <div className="film-loader">
-          <Loader />
+          <Loader isFullPage />
         </div>
       </article>
     );
