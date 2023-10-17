@@ -51,8 +51,6 @@ const FilmsProvider: FC<PropsWithChildren> = ({
     setInitialFilmsList(films);
   };
 
-  console.log(loadedFilmsNumber);
-
   useEffect(() => {
     fetchFilms();
   }, []);

@@ -1,11 +1,24 @@
 import fs from 'fs';
+import actors from './public/database/actors.json' assert { type: 'json' };
 
 const createDB = () => {
 	const files = fs.readdirSync('./db/')
 	const db = files.map((file) => {
     try {
       const fileData = fs.readFileSync(`./db/${file}`, 'utf8');
-      return JSON.parse(fileData);
+      const film = JSON.parse(fileData);
+
+      film.cast = film.cast.map((actor) => {
+        const currentActor = actors.find((a) => a.id === actor.actorId);
+
+        return {
+          ...actor,
+          name: currentActor?.name,
+          photoUrl: currentActor?.photoUrl,
+        }
+      });
+
+      return film;
     } catch(e) {
       console.error(e?.message);
     }

@@ -4,6 +4,7 @@ import { setBrowserTitle } from '@/helpers';
 import { Link } from 'react-router-dom';
 import { useFilmsContext } from '@/context';
 import { Container } from '@/components';
+import { TMDBLogo } from '@/assets/logos';
 
 const AboutPage = () => {
   const { initialFilmsList: films } = useFilmsContext();
@@ -47,10 +48,10 @@ const AboutPage = () => {
               these genres. But there are several movies
               from other genres like romance or action.
             </p>
+            <h2>For developers</h2>
             <p>
-              I created this app from scratch on my own
-              using React, TypeScript and my own UI design.
-              The source code are on{' '}
+              The app is built with React, TypeScript and my
+              own UI design. The source code are on{' '}
               <a
                 href="https://github.com/andrikotliar/films-collection"
                 target="_bank"
@@ -60,28 +61,41 @@ const AboutPage = () => {
               .
             </p>
             <p>
-              I don't use any third-party API to get data.
-              Data are just JSON files. You can investigate
-              them in{' '}
+              I don't use third-party API and create my own
+              set of data. Why? I like collect data and it's
+              exiting to build own "database" of information
+              about movies. Currently data stores in plain
+              JSON-files, in the near future I plan to use
+              MongoDB for this purpose. For now you can
+              investigate JSON files in{' '}
               <a
                 href="https://github.com/andrikotliar/films-collection/tree/main/db"
                 target="_blank"
               >
-                the DB folder
+                the DB folder.
+              </a>
+            </p>
+            <p>
+              The detail explanation of each field is in{' '}
+              <a
+                href="https://github.com/andrikotliar/films-collection/blob/main/README.md#data-schema"
+                target="_blank"
+              >
+                README
               </a>
               .
             </p>
-            <p>
-              <b>
-                Actor images are provided by{' '}
-                <a
-                  href="https://www.themoviedb.org/"
-                  target="_blank"
-                >
-                  TMDB
-                </a>
-              </b>
-            </p>
+            <h2>Info</h2>
+            <div className={classes.photosSource}>
+              <span>Actor images are provided by</span>
+              <a
+                href="https://www.themoviedb.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <TMDBLogo />
+              </a>
+            </div>
             <p>
               Have any questions? Feel free to contact me
               via{' '}

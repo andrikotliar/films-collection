@@ -1,10 +1,10 @@
-import { FilledActorData, IMAGE_FALLBACKS } from '@/common';
+import { CastType, IMAGE_FALLBACKS } from '@/common';
 import classes from './Character.module.css';
 import { FC } from 'react';
 import { handleImageError } from '@/helpers';
 
 type CharacterProps = {
-  character: FilledActorData['character'];
+  character: CastType['character'];
 };
 
 const Character: FC<CharacterProps> = ({ character }) => {
@@ -13,7 +13,7 @@ const Character: FC<CharacterProps> = ({ character }) => {
       <img
         src={character.imageUrl}
         alt={character.name}
-        onError={e =>
+        onError={(e) =>
           handleImageError(
             e,
             IMAGE_FALLBACKS.noCharacterImage,

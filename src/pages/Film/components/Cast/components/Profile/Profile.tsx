@@ -1,11 +1,11 @@
-import { FilledActorData, IMAGE_FALLBACKS } from '@/common';
+import { CastType, IMAGE_FALLBACKS } from '@/common';
 import classes from './Profile.module.css';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { buildLink, handleImageError } from '@/helpers';
 
 type ProfileProps = {
-  actor: FilledActorData;
+  actor: CastType;
 };
 
 const Profile: FC<ProfileProps> = ({ actor }) => {
@@ -15,7 +15,7 @@ const Profile: FC<ProfileProps> = ({ actor }) => {
         <img
           src={actor.photoUrl}
           alt={actor.name}
-          onError={e =>
+          onError={(e) =>
             handleImageError(
               e,
               IMAGE_FALLBACKS.noActorImage,

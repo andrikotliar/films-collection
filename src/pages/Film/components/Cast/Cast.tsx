@@ -1,41 +1,32 @@
 import classes from './Cast.module.css';
-import { FC, useEffect, useState } from 'react';
-import { useActorsContext } from '@/context/ActorsContext';
-import { buildActorsData } from '@/helpers';
-import {
-  Cast as CastType,
-  FilledActorData,
-} from '@/common';
+import { FC } from 'react';
+import { CastType } from '@/common';
 import { Actor } from '@/pages/Film/components/Cast/components';
-import { Loader } from '@/components';
+import { TMDBLogo } from '@/assets/logos';
 
 type CastProps = {
   cast: CastType[];
 };
 
 const Cast: FC<CastProps> = ({ cast }) => {
-  const { actors } = useActorsContext();
-
-  const [fullCastData, setFullCastData] = useState<
-    FilledActorData[]
-  >([]);
-
-  useEffect(() => {
-    if (actors.length) {
-      const fullData = buildActorsData(actors, cast);
-      setFullCastData(fullData);
-    }
-  }, [cast, actors]);
-
-  if (!fullCastData.length) {
-    return <Loader />;
-  }
-
   return (
-    <div className={classes.cast}>
-      {fullCastData.map(actor => (
-        <Actor actor={actor} key={actor.actorId} />
-      ))}
+    <div className={classes.wrapper}>
+      <div className={classes.cast}>
+        {cast.map((actor) => (
+          <Actor actor={actor} key={actor.actorId} />
+        ))}
+      </div>
+      <div className={classes.castFooter}>
+        <span>Actor photos provided by</span>
+        <a
+          href="https://www.themoviedb.org"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.photosSource}
+        >
+          <TMDBLogo />
+        </a>
+      </div>
     </div>
   );
 };
