@@ -262,10 +262,10 @@
     "part": 2
   },
   "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra_s2.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra_s3.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra_s4.webp"
+    "legend_of_korra.webp",
+    "legend_of_korra_s2.webp",
+    "legend_of_korra_s3.webp",
+    "legend_of_korra_s4.webp"
   ],
   "trailers": [
     "NBNpGCIavwA",

@@ -261,10 +261,10 @@
     }
   ],
   "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/stranger_things.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/stranger_things_s2.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/stranger_things_s3.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/stranger_things_s4.webp"
+    "stranger_things.webp",
+    "stranger_things_s2.webp",
+    "stranger_things_s3.webp",
+    "stranger_things_s4.webp"
   ],
   "trailers": [
     "b9EkMc79ZSU",

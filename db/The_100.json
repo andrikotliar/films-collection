@@ -649,13 +649,13 @@
     }
   ],
   "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred_s2.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred_s3.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred_s4.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred_s5.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred_s6.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred_s7.webp"
+    "hundred.webp",
+    "hundred_s2.webp",
+    "hundred_s3.webp",
+    "hundred_s4.webp",
+    "hundred_s5.webp",
+    "hundred_s6.webp",
+    "hundred_s7.webp"
   ],
   "trailers": [
     "ia1Fbg96vL0",

@@ -289,9 +289,9 @@
     }
   ],
   "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/dark.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/dark_s2.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/dark_s3.webp"
+    "dark.webp",
+    "dark_s2.webp",
+    "dark_s3.webp"
   ],
   "trailers": [
     "rrwycJ08PSA",

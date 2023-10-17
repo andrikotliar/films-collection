@@ -301,9 +301,9 @@
     "part": 1
   },
   "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/last_airbender.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/last_airbender_s2.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/last_airbender_s3.webp"
+    "last_airbender.webp",
+    "last_airbender_s2.webp",
+    "last_airbender_s3.webp"
   ],
   "trailers": [
     "ahPeclU9VW0",

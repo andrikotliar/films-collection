@@ -206,10 +206,10 @@
     }
   ],
   "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/sherlock.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/sherlock_s2.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/sherlock_s3.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/sherlock_s4.webp"
+    "sherlock.webp",
+    "sherlock_s2.webp",
+    "sherlock_s3.webp",
+    "sherlock_s4.webp"
   ],
   "trailers": [
     "xK7S9mrFWL4",

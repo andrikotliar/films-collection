@@ -242,9 +242,9 @@
     }
   ],
   "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/locke_key.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/locke_key_s2.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/locke_key_s3.webp"
+    "locke_key.webp",
+    "locke_key_s2.webp",
+    "locke_key_s3.webp"
   ],
   "trailers": [
     "_EonRi0yQOE",
