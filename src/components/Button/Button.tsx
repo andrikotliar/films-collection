@@ -11,6 +11,7 @@ type ButtonProps = {
   isActive?: boolean;
   design?: 'primary' | 'secondary' | 'ghost';
   activeClassName?: string;
+  disabled?: boolean;
 };
 
 const Button: FC<
@@ -25,6 +26,7 @@ const Button: FC<
   design = 'primary',
   isActive = false,
   activeClassName = classes.active,
+  disabled,
 }) => {
   return (
     <button
@@ -39,6 +41,7 @@ const Button: FC<
           [activeClassName]: isActive,
         },
       )}
+      disabled={disabled}
     >
       {icon && <div className={classes.icon}>{icon}</div>}
       {children}

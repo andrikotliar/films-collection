@@ -5,3 +5,4 @@ export * from './get-years';
 export * from './set-browser-title';
 export * from './handle-image-error';
 export * from './filter-values';
+export * from './count-keys';

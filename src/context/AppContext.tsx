@@ -1,3 +1,4 @@
+import { MOBILE_VIEW_BREAKPOINT_PX } from '@/common';
 import {
   Dispatch,
   FC,
@@ -5,13 +6,14 @@ import {
   SetStateAction,
   createContext,
   useContext,
-  useEffect,
   useState,
 } from 'react';
 
 type AppContextType = {
   isFilterOpen: boolean;
+  filtersCount: number;
   setIsFilterOpen: Dispatch<SetStateAction<boolean>>;
+  updateFiltersCount: (count: number) => void;
 };
 
 const AppContext = createContext({} as AppContextType);
@@ -22,20 +24,24 @@ const AppProvider: FC<PropsWithChildren> = ({
   children,
 }) => {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
+  const [filtersCount, setFiltersCount] = useState(0);
 
-  useEffect(() => {
-    if (isFilterOpen) {
-      document.documentElement.style.overflow = 'hidden';
-    } else {
-      document.documentElement.style.overflow = '';
+  const updateFiltersCount = (count: number) => {
+    if (
+      document.documentElement.clientWidth <=
+      MOBILE_VIEW_BREAKPOINT_PX
+    ) {
+      setFiltersCount(count);
     }
-  }, [isFilterOpen]);
+  };
 
   return (
     <AppContext.Provider
       value={{
         isFilterOpen,
         setIsFilterOpen,
+        filtersCount,
+        updateFiltersCount,
       }}
     >
       {children}

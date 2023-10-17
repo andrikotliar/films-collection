@@ -10,11 +10,6 @@
   flex-shrink: 0;
 }
 
-.button[disabled] {
-  cursor: default;
-  background-color: #ddd;
-}
-
 .primary {
   background-color: var(--main-color);
 }
@@ -41,6 +36,15 @@
 .icon {
   width: 20px;
   height: 20px;
+}
+
+.button[disabled] {
+  cursor: default;
+  background-color: #ddd;
+}
+
+.button[disabled]:hover {
+  background-color: #ddd;
 }
 
 @media (hover: hover) {

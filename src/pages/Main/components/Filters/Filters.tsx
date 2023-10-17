@@ -11,8 +11,7 @@ import {
 import { useAppContext } from '@/context/AppContext';
 import { Button, Scrollable } from '@/components';
 import { FilterOptions } from './components';
-import { hasFiltersLength } from './helpers';
-import { filterValues } from '@/helpers';
+import { countObjectKeys, filterValues } from '@/helpers';
 
 const defaultValues = filtersConfig.reduce(
   (values, { property }) => {
@@ -28,9 +27,10 @@ const Filters = () => {
   const { filterParams, updateFilter, resetFilter } =
     useFilmsContext();
 
-  const hasFilters = hasFiltersLength(filterParams);
+  const filtersCount = countObjectKeys(filterParams);
 
-  const { setIsFilterOpen } = useAppContext();
+  const { setIsFilterOpen, updateFiltersCount } =
+    useAppContext();
 
   const methods = useForm({
     defaultValues,
@@ -45,15 +45,17 @@ const Filters = () => {
   };
 
   useEffect(() => {
-    if (hasFilters) {
+    if (filtersCount > 0) {
       methods.reset(filterParams);
+      updateFiltersCount(filtersCount);
     }
-  }, [filterParams, hasFilters]);
+  }, [filterParams, filtersCount]);
 
   const handleReset = () => {
     resetFilter();
     methods.reset(defaultValues);
     window.scrollTo(0, 0);
+    updateFiltersCount(filtersCount);
   };
 
   return (
@@ -79,7 +81,7 @@ const Filters = () => {
           >
             Apply
           </Button>
-          {hasFilters && (
+          {filtersCount > 0 && (
             <Button
               onClick={handleReset}
               icon={<ResetIcon />}

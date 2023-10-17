@@ -7,7 +7,8 @@ import { useAppContext } from '@/context/AppContext';
 import { SelectedFilters } from '../SelectedFilters';
 
 const FilmsList = () => {
-  const { isFilterOpen, setIsFilterOpen } = useAppContext();
+  const { isFilterOpen, setIsFilterOpen, filtersCount } =
+    useAppContext();
 
   const { films, isFilmsLoading } = useFilmsContext();
 
@@ -20,6 +21,7 @@ const FilmsList = () => {
         isHidden
       >
         Filters
+        {filtersCount > 0 && <span>({filtersCount})</span>}
       </Button>
       <SelectedFilters />
       {isFilmsLoading && <Loader />}
