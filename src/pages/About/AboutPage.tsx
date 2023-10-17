@@ -1,10 +1,10 @@
 import classes from './AboutPage.module.css';
 import { useEffect, useState } from 'react';
-import { setBrowserTitle } from '@/helpers';
 import { Link } from 'react-router-dom';
 import { useFilmsContext } from '@/context';
 import { Container } from '@/components';
 import { TMDBLogo } from '@/assets/logos';
+import { useDocumentTitle } from '@/hooks';
 
 const AboutPage = () => {
   const { initialFilmsList: films } = useFilmsContext();
@@ -12,7 +12,7 @@ const AboutPage = () => {
     number | null
   >(null);
 
-  setBrowserTitle('About - Films Collection');
+  useDocumentTitle('About');
 
   const currentFilm =
     randomFilmIdx !== null && films[randomFilmIdx];

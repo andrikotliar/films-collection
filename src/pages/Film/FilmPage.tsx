@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useFilmsContext } from '@/context/FilmsContext';
 import { Container, Loader, Select } from '@/components';
-import { setBrowserTitle } from '@/helpers';
 import { FilmData } from '@/common';
 import {
   Title,
@@ -18,6 +17,7 @@ import {
   Details,
   BoxOffice,
 } from './components';
+import { useDocumentTitle } from '@/hooks';
 
 const FilmPage = () => {
   const { id } = useParams();
@@ -25,9 +25,7 @@ const FilmPage = () => {
   const [film, setFilm] = useState<FilmData | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
 
-  if (film) {
-    setBrowserTitle(`${film.title} - Films Collection`);
-  }
+  useDocumentTitle(film?.title);
 
   const findCurrentFilm = (
     initialFilmsList: FilmData[],

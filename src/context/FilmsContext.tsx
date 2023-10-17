@@ -11,18 +11,18 @@ import {
 import { filterFilms } from '@/helpers';
 import { useFilter } from '@/hooks';
 import { FILMS_COUNT_STEP } from '@/common/constants';
-import { FilmData } from '@/common';
+import { DynamicObject, FilmData } from '@/common';
 import { FilmAPI } from '@/api';
 
 type FilmsContextType = {
   initialFilmsList: FilmData[];
   films: FilmData[];
   isFilmsLoading: boolean;
-  filterParams: { [key: string]: any };
-  loadedFilmsNumber: number;
+  filterParams: DynamicObject;
   filmsCount: number;
+  hasMore: boolean;
   updateFilter(data: any): void;
-  setLoadedFilmsNumber: Dispatch<SetStateAction<number>>;
+  setFilmsCount: Dispatch<SetStateAction<number>>;
   resetFilter(): void;
 };
 
@@ -40,11 +40,10 @@ const FilmsProvider: FC<PropsWithChildren> = ({
   const [isFilmsLoading, setIsFilmsLoading] =
     useState(true);
   const [filterParams, setSearchParams] = useFilter();
+  const [hasMore, setHasMore] = useState(true);
   const [filmsCount, setFilmsCount] = useState(
-    initialFilmsList.length,
+    FILMS_COUNT_STEP,
   );
-  const [loadedFilmsNumber, setLoadedFilmsNumber] =
-    useState(FILMS_COUNT_STEP);
 
   const fetchFilms = async () => {
     const films = await FilmAPI.getAll();
@@ -61,15 +60,18 @@ const FilmsProvider: FC<PropsWithChildren> = ({
         initialFilmsList,
         filterParams,
       );
-      setFilmsCount(filteredFilms.length);
-      const startFilms = filteredFilms.slice(
-        0,
-        loadedFilmsNumber,
-      );
-      setFilms(startFilms);
+
+      const films = filteredFilms.slice(0, filmsCount);
+
+      setFilms(films);
+
+      if (films.length === initialFilmsList.length) {
+        setHasMore(false);
+      }
+
       setIsFilmsLoading(false);
     }
-  }, [initialFilmsList, filterParams, loadedFilmsNumber]);
+  }, [initialFilmsList, filterParams, filmsCount]);
 
   const updateFilter = (data: any) => {
     setSearchParams(data);
@@ -77,7 +79,7 @@ const FilmsProvider: FC<PropsWithChildren> = ({
 
   const resetFilter = () => {
     setSearchParams({});
-    setLoadedFilmsNumber(FILMS_COUNT_STEP);
+    setFilmsCount(FILMS_COUNT_STEP);
   };
 
   return (
@@ -87,11 +89,11 @@ const FilmsProvider: FC<PropsWithChildren> = ({
         films,
         isFilmsLoading,
         filterParams,
-        loadedFilmsNumber,
         filmsCount,
+        hasMore,
         updateFilter,
         resetFilter,
-        setLoadedFilmsNumber,
+        setFilmsCount,
       }}
     >
       {children}
