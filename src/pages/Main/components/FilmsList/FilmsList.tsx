@@ -12,8 +12,13 @@ const FilmsList = () => {
   const { isFilterOpen, setIsFilterOpen, filtersCount } =
     useAppContext();
 
-  const { films, isFilmsLoading, hasMore, setFilmsCount } =
-    useFilmsContext();
+  const {
+    films,
+    isFilmsLoading,
+    hasMore,
+    setFilmsCount,
+    initialFilmsList,
+  } = useFilmsContext();
 
   const observer = useRef<IntersectionObserver | null>(
     null,

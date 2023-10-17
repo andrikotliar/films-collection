@@ -18,6 +18,7 @@ import {
   BoxOffice,
 } from './components';
 import { useDocumentTitle } from '@/hooks';
+import { seriesContent } from '@/pages/Film/helpers';
 
 const FilmPage = () => {
   const { id } = useParams();
@@ -55,13 +56,11 @@ const FilmPage = () => {
     );
   }
 
-  const selectOptions =
-    film.type.includes('Series') &&
-    film.description.length > 1 &&
-    film.description.map((item, index) => ({
-      label: `${item.title} (${film.years[index]})` || '',
-      value: index,
-    }));
+  const seriesData = seriesContent(
+    film.type,
+    film.description,
+    film.years,
+  );
 
   return (
     <Container className={classes.wrapper}>
@@ -71,7 +70,7 @@ const FilmPage = () => {
           items={[
             {
               value: film.years[0],
-              isAccent: true,
+              color: 'primary',
               property: 'years',
             },
             {
@@ -81,17 +80,18 @@ const FilmPage = () => {
             {
               value: film.duration,
               property: 'duration',
-              isSecondary: true,
+              color: 'secondary',
               suffix: 'min',
             },
+            ...seriesData.links,
           ]}
         />
       </section>
       <section className={classes.hero}>
-        {selectOptions && (
+        {seriesData.selectOptions.length > 1 && (
           <div className={classes.select}>
             <Select
-              options={selectOptions}
+              options={seriesData.selectOptions}
               onSelect={(option) =>
                 setActiveIndex(+option.value)
               }

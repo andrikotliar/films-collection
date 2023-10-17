@@ -138,38 +138,7 @@
     {
       "title": "Season 1",
       "plot": "Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate M. Bishop, who took on the role after the original Avenger, Clint Barton.",
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "Never Meet Your Heroes"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Hide, Seek"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Echoes"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "Partners, Am I Right?"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Ronin"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "So This Is Christmas?"
-        }
-      ]
+      "episodesCount": 6
     }
   ],
   "years": [

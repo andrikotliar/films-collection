@@ -220,87 +220,23 @@
   "description": [
     {
       "title": "Season 1",
-      "plot": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "A Study in Pink"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "The Blind Banker"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "The Great Game"
-        }
-      ]
+      "plot": "In the debut season, viewers are introduced to Sherlock Holmes and Dr. John Watson, who become flatmates in modern-day London. Together, they tackle a series of perplexing cases, including a string of suicides that Sherlock believes are connected by a shadowy antagonist.",
+      "episodesCount": 3
     },
     {
       "title": "Season 2",
-      "plot": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
-      "episodes": [
-        {
-          "episodeOverall": 4,
-          "episode": 1,
-          "title": "A Scandal in Belgravia"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 2,
-          "title": "The Hounds of Baskerville"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 3,
-          "title": "The Reichenbach Fall"
-        }
-      ]
+      "plot": "In the second season, Sherlock continues to astound with his deductive abilities, but he faces even more formidable adversaries. Moriarty, a brilliant and dangerous criminal mastermind, becomes his primary nemesis. The season is filled with high-stakes conflicts and intricate puzzles.",
+      "episodesCount": 3
     },
     {
       "title": "Season 3",
-      "plot": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
-      "episodes": [
-        {
-          "episodeOverall": 7,
-          "episode": 1,
-          "title": "The Empty Hearse"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 2,
-          "title": "The Sign of Three"
-        },
-        {
-          "episodeOverall": 9,
-          "episode": 3,
-          "title": "His Last Vow"
-        }
-      ]
+      "plot": "Season 3 explores Sherlock's return from a two-year absence, during which he was believed to be dead. The dynamic between Sherlock and Watson is tested as they confront new mysteries, including a wedding, a case of a disappearing train, and a deadly adversary from the past.",
+      "episodesCount": 3
     },
     {
       "title": "Season 4",
-      "plot": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
-      "episodes": [
-        {
-          "episodeOverall": 11,
-          "episode": 1,
-          "title": "The Six Thatchers"
-        },
-        {
-          "episodeOverall": 12,
-          "episode": 2,
-          "title": "The Lying Detective"
-        },
-        {
-          "episodeOverall": 13,
-          "episode": 3,
-          "title": "The Final Problem"
-        }
-      ]
+      "plot": "The fourth season delves deeper into Sherlock's complex personal life and his troubled past. It features an enigmatic new villain, Culverton Smith, and a series of cases that bring Sherlock to the brink of despair. Dark secrets and unexpected revelations surface, challenging the detective like never before.",
+      "episodesCount": 3
     }
   ],
   "years": [

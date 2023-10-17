@@ -6,31 +6,20 @@
 .title {
   font-size: 16px;
   padding: 20px;
-  margin-bottom: 20px;
   border-bottom: var(--app-border);
   text-transform: uppercase;
 }
 
-.content {
-  padding: 0 20px 20px 20px;
-}
-
 .text {
+  padding: 20px;
   line-height: 1.5;
 }
 
-.episodes {
-  margin-top: 10px;
+.episodesCount {
+  border-top: var(--app-border);
+  padding: 20px;
 }
 
-@media (max-width: 500px) {
-  .header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  .header > * {
-    width: 100%;
-  }
+.episodesCount b {
+  color: var(--main-color);
 }

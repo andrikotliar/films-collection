@@ -304,171 +304,18 @@
   "description": [
     {
       "title": "Season 1",
-      "plot": "A family of former child heroes, now grown apart, must reunite to continue to protect the world.",
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "We Only See Each Other at Weddings, Funerals"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Run Boy Run"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Extra Ordinary"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "Man on the Moon"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Number Five"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "The Day That Wasn't"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "The Day That Was"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 8,
-          "title": "I Heard a Rumor"
-        },
-        {
-          "episodeOverall": 9,
-          "episode": 9,
-          "title": "Changes"
-        },
-        {
-          "episodeOverall": 10,
-          "episode": 10,
-          "title": "The White Violin"
-        }
-      ]
+      "plot": "In the first season, a dysfunctional family of adopted super-powered siblings reunites after the mysterious death of their adoptive father. They must work together to solve the mystery and prevent an impending global apocalypse while dealing with their own complex relationships and personal issues.",
+      "episodesCount": 10
     },
     {
       "title": "Season 2",
-      "plot": "A family of former child heroes, now grown apart, must reunite to continue to protect the world.",
-      "episodes": [
-        {
-          "episodeOverall": 11,
-          "episode": 1,
-          "title": "Right Back Where We Started"
-        },
-        {
-          "episodeOverall": 12,
-          "episode": 2,
-          "title": "The Frankel Footage"
-        },
-        {
-          "episodeOverall": 13,
-          "episode": 3,
-          "title": "The Swedish Job"
-        },
-        {
-          "episodeOverall": 14,
-          "episode": 4,
-          "title": "The Majestic 12"
-        },
-        {
-          "episodeOverall": 15,
-          "episode": 5,
-          "title": "Valhalla"
-        },
-        {
-          "episodeOverall": 16,
-          "episode": 6,
-          "title": "A Light Supper"
-        },
-        {
-          "episodeOverall": 17,
-          "episode": 7,
-          "title": "Öga for Öga"
-        },
-        {
-          "episodeOverall": 18,
-          "episode": 8,
-          "title": "The Seven Stages"
-        },
-        {
-          "episodeOverall": 19,
-          "episode": 9,
-          "title": "743"
-        },
-        {
-          "episodeOverall": 20,
-          "episode": 10,
-          "title": "The End of Something"
-        }
-      ]
+      "plot": "The second season sees the siblings time-travel to the 1960s, where they must once again prevent a doomsday event. Each sibling faces new challenges and adventures in a different era, all while trying to reunite and make sense of the temporal chaos they find themselves in.",
+      "episodesCount": 10
     },
     {
       "title": "Season 3",
-      "plot": "A family of former child heroes, now grown apart, must reunite to continue to protect the world.",
-      "episodes": [
-        {
-          "episodeOverall": 21,
-          "episode": 1,
-          "title": "Meet the Family"
-        },
-        {
-          "episodeOverall": 22,
-          "episode": 2,
-          "title": "World's Biggest Ball of Twine"
-        },
-        {
-          "episodeOverall": 23,
-          "episode": 3,
-          "title": "Pocket Full of Lightning"
-        },
-        {
-          "episodeOverall": 24,
-          "episode": 4,
-          "title": "Kugelblitz"
-        },
-        {
-          "episodeOverall": 25,
-          "episode": 5,
-          "title": "Kindest Cut"
-        },
-        {
-          "episodeOverall": 26,
-          "episode": 6,
-          "title": "Marigold"
-        },
-        {
-          "episodeOverall": 27,
-          "episode": 7,
-          "title": "Auf Wiedersehen"
-        },
-        {
-          "episodeOverall": 28,
-          "episode": 8,
-          "title": "Wedding at the End of the World"
-        },
-        {
-          "episodeOverall": 29,
-          "episode": 9,
-          "title": "Seven Bells"
-        },
-        {
-          "episodeOverall": 30,
-          "episode": 10,
-          "title": "Oblivion"
-        }
-      ]
+      "plot": "Back at the Academy, the Umbrellas clash with a new squad of Hargreeves siblings as a mysterious force begins to wreak havoc on the city.",
+      "episodesCount": 10
     }
   ],
   "years": [

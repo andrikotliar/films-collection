@@ -164,43 +164,7 @@
     {
       "title": "Season 1",
       "plot": "Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s USA. But child stardom comes at a price.",
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "Openings"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Exchanges"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Doubled Pawns"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "Middle Game"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Fork"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "Adjournment"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "End Game"
-        }
-      ]
+      "episodesCount": 7
     }
   ],
   "years": [

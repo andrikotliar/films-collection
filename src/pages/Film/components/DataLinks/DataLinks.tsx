@@ -15,12 +15,12 @@ const DataLinks: FC<DataLinksProps> = ({ items }) => {
       {items.map((item, index) =>
         Array.isArray(item.value) ? (
           <div className={classes.group} key={index}>
-            {item.value.map(val => (
+            {item.value.map((val) => (
               <DataLink {...item} value={val} key={val} />
             ))}
           </div>
         ) : (
-          <DataLink {...item} key={item.value} />
+          <DataLink {...item} key={item.property} />
         ),
       )}
     </div>

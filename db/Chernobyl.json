@@ -173,33 +173,7 @@
     {
       "title": "Season 1",
       "plot": "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes.",
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "1:23:45"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Please Remain Calm"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Open Wide, O Earth"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "The Happiness of All Mankind"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Vichnaya Pamyat"
-        }
-      ]
+      "episodesCount": 5
     }
   ],
   "years": [

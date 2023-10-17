@@ -36,16 +36,10 @@ type Chapter = {
   part: number;
 };
 
-type Episode = {
-  episodeOverall: number;
-  episode: number;
-  title: string;
-};
-
 type DescriptionType = {
   title?: string;
   plot: string;
-  episodes: Episode[];
+  episodesCount?: number;
 };
 
 type FilmData = {
@@ -80,5 +74,4 @@ export type {
   Award,
   Chapter,
   DescriptionType,
-  Episode,
 };
