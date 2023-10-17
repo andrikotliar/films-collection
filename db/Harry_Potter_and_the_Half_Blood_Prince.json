@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 2009,
   "countries": [
     "USA",
     "UK"
@@ -133,7 +132,6 @@
     }
   ],
   "budget": 250000000,
-  "boxoffice": 934000000,
   "parts": {
     "title": "Harry Potter Universe",
     "part": 8
@@ -148,5 +146,9 @@
     {
       "plot": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past."
     }
+  ],
+  "boxOffice": 934000000,
+  "years": [
+    2009
   ]
 }

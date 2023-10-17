@@ -61,7 +61,6 @@
       ]
     }
   ],
-  "year": 2007,
   "countries": [
     "USA"
   ],
@@ -113,7 +112,6 @@
     }
   ],
   "budget": 150000000,
-  "boxoffice": 585000000,
   "awards": [
     {
       "title": "Saturn",
@@ -138,5 +136,9 @@
     {
       "plot": "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure."
     }
+  ],
+  "boxOffice": 585000000,
+  "years": [
+    2007
   ]
 }

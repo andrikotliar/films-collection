@@ -60,7 +60,6 @@
       ]
     }
   ],
-  "year": 2017,
   "countries": [
     "USA"
   ],
@@ -133,7 +132,6 @@
     }
   ],
   "budget": 120000000,
-  "boxoffice": 822000000,
   "awards": [
     {
       "title": "Saturn",
@@ -162,5 +160,9 @@
     {
       "plot": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny."
     }
+  ],
+  "boxOffice": 822000000,
+  "years": [
+    2017
   ]
 }

@@ -62,7 +62,6 @@
       ]
     }
   ],
-  "year": 2008,
   "countries": [
     "USA"
   ],
@@ -139,7 +138,6 @@
     }
   ],
   "budget": 140000000,
-  "boxoffice": 585000000,
   "awards": [
     {
       "title": "Saturn",
@@ -164,5 +162,9 @@
     {
       "plot": "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
     }
+  ],
+  "boxOffice": 585000000,
+  "years": [
+    2008
   ]
 }

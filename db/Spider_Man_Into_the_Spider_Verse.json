@@ -63,7 +63,6 @@
       ]
     }
   ],
-  "year": 2018,
   "countries": [
     "USA"
   ],
@@ -165,7 +164,6 @@
     }
   ],
   "budget": 90000000,
-  "boxoffice": 371000000,
   "awards": [
     {
       "title": "Oscar",
@@ -196,5 +194,9 @@
     {
       "plot": "Teen Miles Morales becomes Spider-Man of his reality, crossing his path with five counterparts from other dimensions to stop a threat for all realities."
     }
+  ],
+  "boxOffice": 371000000,
+  "years": [
+    2018
   ]
 }

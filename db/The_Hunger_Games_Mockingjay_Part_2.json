@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 2015,
   "countries": [
     "USA",
     "Germany",
@@ -131,7 +130,6 @@
     }
   ],
   "budget": 160000000,
-  "boxoffice": 658000000,
   "awards": [
     {
       "title": "MTV Movie Awards",
@@ -154,5 +152,9 @@
     {
       "plot": "Katniss and a team of rebels from District 13 prepare for the final battle that will decide the fate of Panem."
     }
+  ],
+  "boxOffice": 658000000,
+  "years": [
+    2015
   ]
 }

@@ -66,7 +66,6 @@
       ]
     }
   ],
-  "year": 2019,
   "countries": [
     "USA"
   ],
@@ -117,7 +116,6 @@
     }
   ],
   "budget": 98000000,
-  "boxoffice": 226000000,
   "trailers": [
     "zyYgDtY2AMY"
   ],
@@ -128,5 +126,9 @@
     {
       "plot": "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966."
     }
+  ],
+  "boxOffice": 226000000,
+  "years": [
+    2019
   ]
 }

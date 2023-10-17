@@ -5,27 +5,43 @@ import { InfoIcon } from '@/assets/icons';
 import { FilmsCollectionLogo } from '@/assets/logos';
 import { Search } from '@/components/Search';
 import { IconLink } from '@/components/IconLink';
-import { HeaderSearchButton } from '@/components/Header/SearchButton';
+import { SearchButton } from '@/components/Header/SearchButton';
 import { Container } from '@/components/Container';
 
 const Header = () => {
-  const [ isSearchVisible, setIsSearchVisible ] = useState(false);
-  const { pathname } = useLocation();
+  const [isSearchVisible, setIsSearchVisible] =
+    useState(false);
+  const [searchString, setSearchString] = useState('');
+  const location = useLocation();
 
   useEffect(() => {
-    if(isSearchVisible) {
+    if (location.pathname === '/') {
+      setSearchString(location.search);
+    }
+  }, [location]);
+
+  useEffect(() => {
+    if (isSearchVisible) {
       setIsSearchVisible(false);
     }
-  }, [pathname]);
-  
-   return (
+  }, [location.pathname]);
+
+  return (
     <header className={classes.header}>
       <Container className={classes.container}>
-        <Link to="/" className={classes.logoLink}>
-          <FilmsCollectionLogo className={classes.logoImage} />
+        <Link
+          to={{
+            pathname: '/',
+            search: searchString,
+          }}
+          className={classes.logoLink}
+        >
+          <FilmsCollectionLogo
+            className={classes.logoImage}
+          />
         </Link>
         <div className={classes.actions}>
-          <HeaderSearchButton
+          <SearchButton
             isSearchVisible={isSearchVisible}
             setIsSearchVisible={setIsSearchVisible}
           />
@@ -33,7 +49,10 @@ const Header = () => {
             isOpen={isSearchVisible}
             setIsSearchVisible={setIsSearchVisible}
           />
-          <IconLink path="/about" icon={<InfoIcon color="#fff" />} />
+          <IconLink
+            path="/about"
+            icon={<InfoIcon color="#fff" />}
+          />
         </div>
       </Container>
     </header>

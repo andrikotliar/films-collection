@@ -59,7 +59,6 @@
       ]
     }
   ],
-  "year": 2006,
   "countries": [
     "USA"
   ],
@@ -152,7 +151,6 @@
     }
   ],
   "budget": 150000000,
-  "boxoffice": 398000000,
   "parts": {
     "title": "Mission: Impossible",
     "part": 3
@@ -167,5 +165,9 @@
     {
       "plot": "IMF Agent Ethan Hunt comes into conflict with a dangerous and sadistic arms dealer who threatens his life and his fiancée in response."
     }
+  ],
+  "boxOffice": 398000000,
+  "years": [
+    2006
   ]
 }

@@ -1,6 +1,6 @@
 .description {
   background-color: #f7f7f7;
-  border-radius: 10px;
+  border-radius: var(--app-border-radius);
 }
 
 .title {

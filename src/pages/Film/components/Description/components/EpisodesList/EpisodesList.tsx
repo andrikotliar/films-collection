@@ -1,6 +1,6 @@
 import classes from './EpisodesList.module.css';
 import { FC } from 'react';
-import { Episode, PropsWithClassName } from '@/types';
+import { Episode, PropsWithClassName } from '@/common';
 import classNames from 'classnames';
 
 type EpisodesListProps = {

@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 1984,
   "countries": [
     "USA"
   ],
@@ -91,7 +90,6 @@
     }
   ],
   "budget": 6400000,
-  "boxoffice": 40000000,
   "awards": [
     {
       "title": "Saturn",
@@ -116,5 +114,9 @@
     {
       "plot": "A seemingly indestructible android is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs."
     }
+  ],
+  "boxOffice": 40000000,
+  "years": [
+    1984
   ]
 }

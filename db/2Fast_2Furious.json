@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 2003,
   "countries": [
     "USA"
   ],
@@ -118,7 +117,6 @@
     }
   ],
   "budget": 76000000,
-  "boxoffice": 236000000,
   "parts": {
     "title": "Fast and Furious",
     "part": 2
@@ -133,5 +131,9 @@
     {
       "plot": "Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself."
     }
+  ],
+  "boxOffice": 236000000,
+  "years": [
+    2003
   ]
 }

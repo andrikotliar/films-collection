@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 1993,
   "countries": [
     "USA"
   ],
@@ -118,7 +117,6 @@
     }
   ],
   "budget": 63000000,
-  "boxoffice": 1030000000,
   "awards": [
     {
       "title": "Oscar",
@@ -165,5 +163,9 @@
     {
       "plot": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose."
     }
+  ],
+  "boxOffice": 1030000000,
+  "years": [
+    1993
   ]
 }

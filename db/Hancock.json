@@ -62,7 +62,6 @@
       ]
     }
   ],
-  "year": 2008,
   "countries": [
     "USA"
   ],
@@ -148,7 +147,6 @@
     }
   ],
   "budget": 150000000,
-  "boxoffice": 624000000,
   "trailers": [
     "SkX1VuXLRSc"
   ],
@@ -159,5 +157,9 @@
     {
       "plot": "Hancock is a superhero whose ill considered behavior regularly causes damage in the millions. He changes when the person he saves helps him improve his public image."
     }
+  ],
+  "boxOffice": 624000000,
+  "years": [
+    2008
   ]
 }

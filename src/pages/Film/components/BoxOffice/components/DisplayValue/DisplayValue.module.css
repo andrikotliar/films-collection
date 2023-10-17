@@ -2,18 +2,11 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #fff;
-}
-
-.absoluteValue {
-  position: absolute;
-  right: -20px;
-  top: 12px;
-  width: 40px;
+  line-height: 1;
 }
 
 .number {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .order {

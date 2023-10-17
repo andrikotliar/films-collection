@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 2019,
   "countries": [
     "USA"
   ],
@@ -115,7 +114,6 @@
     }
   ],
   "budget": 160000000,
-  "boxoffice": 1130000000,
   "awards": [
     {
       "title": "Saturn",
@@ -139,5 +137,9 @@
     {
       "plot": "Following the events of Endgame, Spider-Man must step up to take on new threats in a world that has changed forever."
     }
+  ],
+  "boxOffice": 1130000000,
+  "years": [
+    2019
   ]
 }

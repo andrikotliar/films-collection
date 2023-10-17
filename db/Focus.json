@@ -57,7 +57,6 @@
       ]
     }
   ],
-  "year": 2015,
   "countries": [
     "USA",
     "Argentina"
@@ -130,7 +129,6 @@
     }
   ],
   "budget": 50000000,
-  "boxoffice": 159000000,
   "trailers": [
     "MxCRgtdAuBo"
   ],
@@ -141,5 +139,9 @@
     {
       "plot": "In the midst of veteran con man Nicky's latest scheme, a woman from his past - now an accomplished femme fatale - shows up and throws his plans for a loop."
     }
+  ],
+  "boxOffice": 159000000,
+  "years": [
+    2015
   ]
 }

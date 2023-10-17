@@ -117,7 +117,6 @@
       ]
     }
   ],
-  "year": 2010,
   "countries": [
     "UK"
   ],
@@ -238,8 +237,7 @@
           "episode": 3,
           "title": "The Great Game"
         }
-      ],
-      "year": 2010
+      ]
     },
     {
       "title": "Season 2",
@@ -260,8 +258,7 @@
           "episode": 3,
           "title": "The Reichenbach Fall"
         }
-      ],
-      "year": 2012
+      ]
     },
     {
       "title": "Season 3",
@@ -282,8 +279,7 @@
           "episode": 3,
           "title": "His Last Vow"
         }
-      ],
-      "year": 2014
+      ]
     },
     {
       "title": "Season 4",
@@ -304,8 +300,13 @@
           "episode": 3,
           "title": "The Final Problem"
         }
-      ],
-      "year": 2017
+      ]
     }
+  ],
+  "years": [
+    2010,
+    2012,
+    2014,
+    2017
   ]
 }

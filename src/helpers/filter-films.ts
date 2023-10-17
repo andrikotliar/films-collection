@@ -1,4 +1,4 @@
-import { FilmData } from '@/types';
+import { FilmData } from '@/common';
 
 const handleSearchFilter = (
   searchQuery: string,
@@ -34,7 +34,6 @@ export const filterFilms = (
 
   try {
     const params = { ...filterParams };
-    delete params.page;
     delete params.actorName;
 
     const filteredFilms = list.filter(film => {
@@ -57,10 +56,7 @@ export const filterFilms = (
           );
         }
 
-        if (
-          property === 'year' ||
-          property === 'duration'
-        ) {
+        if (property === 'duration') {
           return (
             film[property] === Number(params[property])
           );
@@ -86,7 +82,8 @@ export const filterFilms = (
         }
 
         return (film as any)[property].some(
-          (item: string) => params[property].includes(item),
+          (item: string | number) =>
+            params[property].includes(item.toString()),
         );
       });
       if (match) {

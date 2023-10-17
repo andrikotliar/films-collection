@@ -59,7 +59,6 @@
       ]
     }
   ],
-  "year": 2017,
   "countries": [
     "USA"
   ],
@@ -139,7 +138,6 @@
     }
   ],
   "budget": 97000000,
-  "boxoffice": 619000000,
   "awards": [
     {
       "title": "Saturn",
@@ -168,5 +166,9 @@
     {
       "plot": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety."
     }
+  ],
+  "boxOffice": 619000000,
+  "years": [
+    2017
   ]
 }

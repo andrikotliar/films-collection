@@ -65,7 +65,6 @@
       ]
     }
   ],
-  "year": 2016,
   "countries": [
     "USA"
   ],
@@ -173,7 +172,6 @@
     }
   ],
   "budget": 160000000,
-  "boxoffice": 434000000,
   "trailers": [
     "2Rxoz13Bthc"
   ],
@@ -184,5 +182,9 @@
     {
       "plot": "As an Orc horde invades the planet Azeroth using a magic portal, a few human heroes and dissenting Orcs must attempt to stop the true evil behind this war."
     }
+  ],
+  "boxOffice": 434000000,
+  "years": [
+    2016
   ]
 }

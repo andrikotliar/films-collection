@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 2004,
   "countries": [
     "USA",
     "UK"
@@ -136,7 +135,6 @@
     }
   ],
   "budget": 130000000,
-  "boxoffice": 797000000,
   "parts": {
     "title": "Harry Potter Universe",
     "part": 5
@@ -151,5 +149,9 @@
     {
       "plot": "It's Harry's third year at Hogwarts; not only does he have a new \"Defense Against the Dark Arts\" teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry."
     }
+  ],
+  "boxOffice": 797000000,
+  "years": [
+    2004
   ]
 }

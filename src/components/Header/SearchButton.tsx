@@ -8,19 +8,23 @@ type HeaderSearchButtonProps = {
   setIsSearchVisible: Dispatch<SetStateAction<boolean>>;
 };
 
-const HeaderSearchButton: FC<HeaderSearchButtonProps> = ({
+const SearchButton: FC<HeaderSearchButtonProps> = ({
   isSearchVisible,
   setIsSearchVisible,
 }) => {
+  const handleSearchOpen = () => {
+    setIsSearchVisible(isVisible => !isVisible);
+  };
+
   return (
     <Button
       design="ghost"
       className={classes.searchButton}
-      onClick={() => setIsSearchVisible(!isSearchVisible)}
+      onClick={handleSearchOpen}
       icon={<SearchIcon color="#fff" />}
       isActive={isSearchVisible}
     />
   );
 };
 
-export { HeaderSearchButton };
+export { SearchButton };

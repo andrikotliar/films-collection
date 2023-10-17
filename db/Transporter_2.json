@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 2005,
   "countries": [
     "USA"
   ],
@@ -135,7 +134,6 @@
     }
   ],
   "budget": 32000000,
-  "boxoffice": 85000000,
   "parts": {
     "title": "The Transporter",
     "part": 2
@@ -150,5 +148,9 @@
     {
       "plot": "Mercenary Frank Martin, who specializes moving goods of all kinds, surfaces again this time in Miami, Florida when he's implicated in the kidnapping of the young son of a powerful USA official."
     }
+  ],
+  "boxOffice": 85000000,
+  "years": [
+    2005
   ]
 }

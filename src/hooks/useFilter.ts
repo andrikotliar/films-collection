@@ -1,5 +1,5 @@
 import { getFilterParams } from '@/helpers';
-import { DynamicObject } from '@/types';
+import { DynamicObject } from '@/common';
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 

@@ -3,37 +3,36 @@
   height: calc(var(--app-height) - 40px);
   flex-shrink: 0;
   border: var(--app-border);
-  border-radius: 10px;
+  border-radius: var(--app-border-radius);
   position: sticky;
   top: calc(var(--header-height) + 20px);
 }
+
 @media (max-width: 1200px) {
   .sidebar {
     width: 200px;
   }
 }
+
 @media (max-width: 785px) {
   .sidebar {
     position: fixed;
-    bottom: 0;
-    left: 0;
     width: 100%;
-    height: 500px;
+    height: 100vh;
+    top: 0;
+    left: 0;
     background-color: #fff;
+    z-index: 99999;
     border-radius: 0;
-    z-index: 90;
     border: none;
-    border-top: var(--app-border);
     opacity: 0;
     visibility: hidden;
-    transform: translateY(500px);
-    transition: 0.2s;
-    top: initial;
+    transform: translateY(250px);
+    transition: transform 200ms;
   }
   .open {
     opacity: 1;
     visibility: visible;
     transform: translateX(0);
-    overflow-y: scroll;
   }
 }

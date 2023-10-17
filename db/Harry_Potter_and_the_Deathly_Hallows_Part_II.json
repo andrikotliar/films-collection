@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 2011,
   "countries": [
     "USA",
     "UK"
@@ -129,7 +128,6 @@
     }
   ],
   "budget": 250000000,
-  "boxoffice": 1340000000,
   "awards": [
     {
       "title": "BAFTA",
@@ -158,5 +156,9 @@
     {
       "plot": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts."
     }
+  ],
+  "boxOffice": 1340000000,
+  "years": [
+    2011
   ]
 }

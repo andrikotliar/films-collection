@@ -57,7 +57,6 @@
       ]
     }
   ],
-  "year": 1984,
   "countries": [
     "USA"
   ],
@@ -109,7 +108,6 @@
     }
   ],
   "budget": 28000000,
-  "boxoffice": 333000000,
   "awards": [
     {
       "title": "Oscar",
@@ -151,5 +149,9 @@
     {
       "plot": "In 1935, Indiana Jones arrives in India, still part of the British Empire, and is asked to find a mystical stone. He then stumbles upon a secret cult committing enslavement and human sacrifices in the catacombs of an ancient palace."
     }
+  ],
+  "boxOffice": 333000000,
+  "years": [
+    1984
   ]
 }

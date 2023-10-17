@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 1996,
   "countries": [
     "USA"
   ],
@@ -118,7 +117,6 @@
     }
   ],
   "budget": 75000000,
-  "boxoffice": 817000000,
   "awards": [
     {
       "title": "Oscar",
@@ -145,5 +143,9 @@
     {
       "plot": "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive."
     }
+  ],
+  "boxOffice": 817000000,
+  "years": [
+    1996
   ]
 }

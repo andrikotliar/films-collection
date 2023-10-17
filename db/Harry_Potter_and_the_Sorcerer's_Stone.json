@@ -50,7 +50,6 @@
       ]
     }
   ],
-  "year": 2001,
   "countries": [
     "USA",
     "UK"
@@ -123,7 +122,6 @@
     }
   ],
   "budget": 125000000,
-  "boxoffice": 975000000000,
   "awards": [
     {
       "title": "Saturn",
@@ -146,5 +144,9 @@
     {
       "plot": "An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world."
     }
+  ],
+  "boxOffice": 975000000000,
+  "years": [
+    2001
   ]
 }

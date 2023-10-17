@@ -65,7 +65,6 @@
       ]
     }
   ],
-  "year": 2006,
   "countries": [
     "USA",
     "Australia"
@@ -139,7 +138,6 @@
     }
   ],
   "budget": 100000000,
-  "boxoffice": 384000000,
   "awards": [
     {
       "title": "Oscar",
@@ -164,5 +162,9 @@
     {
       "plot": "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!"
     }
+  ],
+  "boxOffice": 384000000,
+  "years": [
+    2006
   ]
 }

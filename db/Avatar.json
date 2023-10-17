@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 2009,
   "countries": [
     "USA",
     "UK"
@@ -140,7 +139,6 @@
     }
   ],
   "budget": 237000000,
-  "boxoffice": 2800000000,
   "awards": [
     {
       "title": "Oscar",
@@ -205,5 +203,9 @@
     {
       "plot": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home."
     }
+  ],
+  "boxOffice": 2800000000,
+  "years": [
+    2009
   ]
 }

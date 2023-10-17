@@ -48,7 +48,6 @@
       ]
     }
   ],
-  "year": 2006,
   "countries": [
     "USA"
   ],
@@ -107,7 +106,6 @@
     }
   ],
   "budget": 80000000,
-  "boxoffice": 661000000,
   "parts": {
     "title": "Ice Age",
     "part": 2
@@ -122,5 +120,9 @@
     {
       "plot": "Manny, Sid, and Diego discover that the ice age is coming to an end, and join everybody for a journey to higher ground. On the trip, they discover that Manny, in fact, is not the last of the woolly mammoths."
     }
+  ],
+  "boxOffice": 661000000,
+  "years": [
+    2006
   ]
 }

@@ -7,7 +7,7 @@ const App = () => {
   return (
     <AppWrapper>
       <Header />
-      <Suspense fallback={<Loader />}>
+      <Suspense fallback={<Loader isFullPage />}>
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/film/:id" element={<FilmPage />} />

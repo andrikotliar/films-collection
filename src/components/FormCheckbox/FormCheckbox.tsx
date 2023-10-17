@@ -22,7 +22,6 @@ const FormCheckbox: FC<FormCheckboxProps> = ({
         type={type}
         value={value}
         {...register(name)}
-        name={name}
       />
       <div className={classes.icon}>
         <Checkmark />

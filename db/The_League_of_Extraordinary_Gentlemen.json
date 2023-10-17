@@ -51,7 +51,6 @@
       ]
     }
   ],
-  "year": 2003,
   "countries": [
     "USA",
     "Germany",
@@ -126,7 +125,6 @@
     }
   ],
   "budget": 78000000,
-  "boxoffice": 179000000,
   "trailers": [
     "_WWIiTlGyYQ"
   ],
@@ -137,5 +135,9 @@
     {
       "plot": "In an alternate Victorian Age world, a group of famous contemporary fantasy, science fiction, and adventure characters team up on a secret mission."
     }
+  ],
+  "boxOffice": 179000000,
+  "years": [
+    2003
   ]
 }

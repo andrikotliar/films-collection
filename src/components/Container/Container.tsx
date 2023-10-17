@@ -1,7 +1,7 @@
 import classes from './Container.module.css';
 import { FC, PropsWithChildren } from 'react';
 import classNames from 'classnames';
-import { PropsWithClassName } from '@/types';
+import { PropsWithClassName } from '@/common';
 
 const Container: FC<
   PropsWithChildren<PropsWithClassName>

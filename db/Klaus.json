@@ -66,7 +66,6 @@
       ]
     }
   ],
-  "year": 2019,
   "countries": [
     "Spain",
     "UK"
@@ -122,5 +121,8 @@
     {
       "plot": "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions."
     }
+  ],
+  "years": [
+    2019
   ]
 }

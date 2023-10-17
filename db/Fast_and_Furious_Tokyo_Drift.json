@@ -50,7 +50,6 @@
       ]
     }
   ],
-  "year": 2006,
   "countries": [
     "USA"
   ],
@@ -108,7 +107,6 @@
     }
   ],
   "budget": 85000000,
-  "boxoffice": 158000000,
   "parts": {
     "title": "Fast and Furious",
     "part": 3
@@ -123,5 +121,9 @@
     {
       "plot": "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America."
     }
+  ],
+  "boxOffice": 158000000,
+  "years": [
+    2006
   ]
 }

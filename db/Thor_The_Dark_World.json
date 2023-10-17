@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 2013,
   "countries": [
     "USA"
   ],
@@ -150,7 +149,6 @@
     }
   ],
   "budget": 153000000,
-  "boxoffice": 645000000,
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 8
@@ -165,5 +163,9 @@
     {
       "plot": "When Dr. Jane Foster gets cursed with a powerful entity known as the Aether, Thor is heralded of the cosmic event known as the Convergence and the genocidal Dark Elves."
     }
+  ],
+  "boxOffice": 645000000,
+  "years": [
+    2013
   ]
 }

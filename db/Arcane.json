@@ -90,7 +90,6 @@
       ]
     }
   ],
-  "year": 2021,
   "countries": [
     "USA",
     "France"
@@ -240,8 +239,10 @@
           "episode": 9,
           "title": "The Monster You Created"
         }
-      ],
-      "year": 2021
+      ]
     }
+  ],
+  "years": [
+    2021
   ]
 }

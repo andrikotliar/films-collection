@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 2011,
   "countries": [
     "USA"
   ],
@@ -104,7 +103,6 @@
     }
   ],
   "budget": 40000000,
-  "boxoffice": 174000000,
   "trailers": [
     "fdadZ_KrZVw"
   ],
@@ -115,5 +113,9 @@
     {
       "plot": "In a future where people stop aging at 25, but are engineered to live only one more year, having the means to buy your way out of the situation is a shot at immortal youth. Here, Will Salas finds himself accused of murder and on the run with a hostage - a connection that becomes an important part of the way against the system."
     }
+  ],
+  "boxOffice": 174000000,
+  "years": [
+    2011
   ]
 }

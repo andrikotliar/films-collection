@@ -54,7 +54,6 @@
       ]
     }
   ],
-  "year": 1997,
   "countries": [
     "USA"
   ],
@@ -105,7 +104,6 @@
     }
   ],
   "budget": 90000000,
-  "boxoffice": 589000000,
   "awards": [
     {
       "title": "Oscar",
@@ -136,5 +134,9 @@
     {
       "plot": "A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth."
     }
+  ],
+  "boxOffice": 589000000,
+  "years": [
+    1997
   ]
 }

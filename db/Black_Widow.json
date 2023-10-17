@@ -50,7 +50,6 @@
       ]
     }
   ],
-  "year": 2021,
   "countries": [
     "USA"
   ],
@@ -115,7 +114,6 @@
     }
   ],
   "budget": 200000000,
-  "boxoffice": 379000000,
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 27
@@ -130,5 +128,9 @@
     {
       "plot": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises."
     }
+  ],
+  "boxOffice": 379000000,
+  "years": [
+    2021
   ]
 }

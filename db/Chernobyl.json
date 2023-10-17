@@ -58,7 +58,6 @@
       ]
     }
   ],
-  "year": 2019,
   "countries": [
     "USA",
     "UK"
@@ -200,8 +199,10 @@
           "episode": 5,
           "title": "Vichnaya Pamyat"
         }
-      ],
-      "year": 2019
+      ]
     }
+  ],
+  "years": [
+    2019
   ]
 }

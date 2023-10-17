@@ -1,4 +1,4 @@
-import { DynamicObject } from '@/types';
+import { DynamicObject } from '@/common';
 
 export const getFilterParams = (
   searchParams: URLSearchParams,

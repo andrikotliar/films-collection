@@ -1,1 +1,1 @@
-export * from './isResetBtnVisible';
+export * from './hasFiltersLength';

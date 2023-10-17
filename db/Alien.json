@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 1979,
   "countries": [
     "USA",
     "UK"
@@ -129,7 +128,6 @@
     }
   ],
   "budget": 11000000,
-  "boxoffice": 106000000,
   "awards": [
     {
       "title": "Oscar",
@@ -167,5 +165,9 @@
     {
       "plot": "After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun."
     }
+  ],
+  "boxOffice": 106000000,
+  "years": [
+    1979
   ]
 }

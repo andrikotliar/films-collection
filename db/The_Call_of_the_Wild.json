@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 2020,
   "countries": [
     "Canada",
     "USA"
@@ -91,7 +90,6 @@
     }
   ],
   "budget": 135000000,
-  "boxoffice": 110000000,
   "trailers": [
     "h1LG9So2ZBk"
   ],
@@ -102,5 +100,9 @@
     {
       "plot": "A sled dog struggles for survival in the wilds of the Yukon."
     }
+  ],
+  "boxOffice": 110000000,
+  "years": [
+    2020
   ]
 }

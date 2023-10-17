@@ -62,7 +62,6 @@
       ]
     }
   ],
-  "year": 2017,
   "countries": [
     "USA"
   ],
@@ -142,7 +141,6 @@
     }
   ],
   "budget": 175000000,
-  "boxoffice": 880000000,
   "awards": [
     {
       "title": "Saturn",
@@ -165,5 +163,9 @@
     {
       "plot": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City."
     }
+  ],
+  "boxOffice": 880000000,
+  "years": [
+    2017
   ]
 }

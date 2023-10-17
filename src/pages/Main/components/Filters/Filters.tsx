@@ -1,48 +1,60 @@
 import classes from './Filters.module.css';
 import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
 import { filtersConfig } from '@/configs';
 import { useFilmsContext } from '@/context/FilmsContext';
+import { useForm, FormProvider } from 'react-hook-form';
 import {
-  useForm,
-  FormProvider,
-  useFormState,
-} from 'react-hook-form';
-import { FilterIcon, ResetIcon } from '@/assets/icons';
+  CloseIcon,
+  FilterIcon,
+  ResetIcon,
+} from '@/assets/icons';
 import { useAppContext } from '@/context/AppContext';
-import { Button } from '@/components';
-import { ExpandFilter, StandardFilter } from './components';
-import { isResetBtnVisible } from './helpers';
-import classNames from 'classnames';
+import { Button, Scrollable } from '@/components';
+import { FilterOptions } from './components';
+import { hasFiltersLength } from './helpers';
+import { filterValues } from '@/helpers';
+
+const defaultValues = filtersConfig.reduce(
+  (values, { property }) => {
+    return {
+      ...values,
+      [property]: null,
+    };
+  },
+  {},
+);
 
 const Filters = () => {
   const { filterParams, updateFilter, resetFilter } =
     useFilmsContext();
-  const { setIsFilterOpen } = useAppContext();
-  const location = useLocation();
 
-  const methods = useForm();
-  const { dirtyFields } = useFormState({
-    control: methods.control,
+  const hasFilters = hasFiltersLength(filterParams);
+
+  const { setIsFilterOpen } = useAppContext();
+
+  const methods = useForm({
+    defaultValues,
   });
 
   const submitFilter = (data: any) => {
-    console.log(data);
+    const filledOptions = filterValues(data);
+
+    updateFilter(filledOptions);
     setIsFilterOpen(false);
-    updateFilter(data, dirtyFields);
+    window.scrollTo(0, 0);
   };
 
   useEffect(() => {
-    if (filterParams) {
+    if (hasFilters) {
       methods.reset(filterParams);
     }
-  }, [filterParams]);
+  }, [filterParams, hasFilters]);
 
-  useEffect(() => {
-    if (location.search.includes('?search')) {
-      methods.reset();
-    }
-  }, [location]);
+  const handleReset = () => {
+    resetFilter();
+    methods.reset(defaultValues);
+    window.scrollTo(0, 0);
+  };
 
   return (
     <FormProvider {...methods}>
@@ -50,26 +62,15 @@ const Filters = () => {
         onSubmit={methods.handleSubmit(submitFilter)}
         className={classes.filters}
       >
-        <div
-          className={classNames(
-            classes.wrapper,
-            'custom-scroll',
-          )}
-        >
-          {filtersConfig.map(filter =>
-            filter.type === 'standard' ? (
-              <StandardFilter
-                filter={filter}
-                key={filter.title}
-              />
-            ) : (
-              <ExpandFilter
-                filter={filter}
-                key={filter.title}
-              />
-            ),
-          )}
-        </div>
+        <h2 className={classes.mobileHeader}>Filters</h2>
+        <Scrollable className={classes.wrapper}>
+          {filtersConfig.map((filter) => (
+            <FilterOptions
+              filter={filter}
+              key={filter.title}
+            />
+          ))}
+        </Scrollable>
         <div className={classes.controls}>
           <Button
             icon={<FilterIcon color="white" />}
@@ -78,15 +79,18 @@ const Filters = () => {
           >
             Apply
           </Button>
-          {isResetBtnVisible(filterParams) && (
+          {hasFilters && (
             <Button
-              onClick={() => {
-                resetFilter();
-                methods.reset();
-              }}
+              onClick={handleReset}
               icon={<ResetIcon />}
             />
           )}
+          <Button
+            icon={<CloseIcon />}
+            className={classes.closeButton}
+            onClick={() => setIsFilterOpen(false)}
+            isHidden
+          />
         </div>
       </form>
     </FormProvider>

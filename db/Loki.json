@@ -93,7 +93,6 @@
       ]
     }
   ],
-  "year": 2021,
   "countries": [
     "USA"
   ],
@@ -217,8 +216,10 @@
           "episode": 6,
           "title": "For All Time. Always."
         }
-      ],
-      "year": 2021
+      ]
     }
+  ],
+  "years": [
+    2021
   ]
 }

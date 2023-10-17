@@ -59,7 +59,6 @@
       ]
     }
   ],
-  "year": 2011,
   "countries": [
     "USA"
   ],
@@ -110,7 +109,6 @@
     }
   ],
   "budget": 145000000,
-  "boxoffice": 695000000,
   "awards": [
     {
       "title": "Saturn",
@@ -134,5 +132,9 @@
     {
       "plot": "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name."
     }
+  ],
+  "boxOffice": 695000000,
+  "years": [
+    2011
   ]
 }

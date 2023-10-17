@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 2006,
   "countries": [
     "USA"
   ],
@@ -157,7 +156,6 @@
     }
   ],
   "budget": 210000000,
-  "boxoffice": 459000000,
   "awards": [
     {
       "title": "Saturn",
@@ -180,5 +178,9 @@
     {
       "plot": "The human government develops a cure for mutations, and Jean Gray becomes a darker uncontrollable persona called the Phoenix who allies with Magneto, causing escalation into an all-out battle for the X-Men."
     }
+  ],
+  "boxOffice": 459000000,
+  "years": [
+    2006
   ]
 }

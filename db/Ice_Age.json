@@ -48,7 +48,6 @@
       ]
     }
   ],
-  "year": 2002,
   "countries": [
     "USA"
   ],
@@ -93,7 +92,6 @@
     }
   ],
   "budget": 59000000,
-  "boxoffice": 383000000,
   "parts": {
     "title": "Ice Age",
     "part": 1
@@ -108,5 +106,9 @@
     {
       "plot": "Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe."
     }
+  ],
+  "boxOffice": 383000000,
+  "years": [
+    2002
   ]
 }

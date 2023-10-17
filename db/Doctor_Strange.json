@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 2016,
   "countries": [
     "USA"
   ],
@@ -115,7 +114,6 @@
     }
   ],
   "budget": 165000000,
-  "boxoffice": 678000000,
   "awards": [
     {
       "title": "Saturn",
@@ -139,5 +137,9 @@
     {
       "plot": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts."
     }
+  ],
+  "boxOffice": 678000000,
+  "years": [
+    2016
   ]
 }

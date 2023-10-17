@@ -50,7 +50,6 @@
       ]
     }
   ],
-  "year": 2019,
   "countries": [
     "USA"
   ],
@@ -109,7 +108,6 @@
     }
   ],
   "budget": 80000000,
-  "boxoffice": 356000000,
   "parts": {
     "title": "DC Extended Universe",
     "part": 7
@@ -124,5 +122,9 @@
     {
       "plot": "We all have a superhero inside us, it just takes a bit of magic to bring it out. In Billy Batson's case, by shouting out one word - SHAZAM! - this streetwise fourteen-year-old foster kid can turn into the adult superhero Shazam."
     }
+  ],
+  "boxOffice": 356000000,
+  "years": [
+    2019
   ]
 }

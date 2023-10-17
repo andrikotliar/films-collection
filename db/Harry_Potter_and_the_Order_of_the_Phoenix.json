@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 2007,
   "countries": [
     "USA",
     "UK"
@@ -140,7 +139,6 @@
     }
   ],
   "budget": 150000000,
-  "boxoffice": 940000000,
   "parts": {
     "title": "Harry Potter Universe",
     "part": 7
@@ -155,5 +153,9 @@
     {
       "plot": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts."
     }
+  ],
+  "boxOffice": 940000000,
+  "years": [
+    2007
   ]
 }

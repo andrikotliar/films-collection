@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 2006,
   "countries": [
     "USA"
   ],
@@ -153,5 +152,8 @@
     {
       "plot": "Librarian-turned-adventurer Flynn Carsen endeavors to find King Solomon's mines."
     }
+  ],
+  "years": [
+    2006
   ]
 }

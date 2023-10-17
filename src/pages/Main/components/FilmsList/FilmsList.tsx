@@ -1,30 +1,25 @@
 import classes from './FilmsList.module.css';
-import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useFilmsContext } from '@/context/FilmsContext';
 import { Button, Loader } from '@/components';
 import { FilterIcon } from '@/assets/icons';
 import { useAppContext } from '@/context/AppContext';
 import { SelectedFilters } from '../SelectedFilters';
-import { Pagination } from '../Pagination';
 
 const FilmsList = () => {
   const { isFilterOpen, setIsFilterOpen } = useAppContext();
 
   const { films, isFilmsLoading } = useFilmsContext();
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [films]);
-
   return (
     <div className={classes.wrapper}>
       <Button
         onClick={() => setIsFilterOpen(!isFilterOpen)}
         icon={<FilterIcon />}
+        className={classes.filterButton}
         isHidden
       >
-        Filter
+        Filters
       </Button>
       <SelectedFilters />
       {isFilmsLoading && <Loader />}
@@ -32,7 +27,7 @@ const FilmsList = () => {
         <p>Films not found.</p>
       )}
       <div className={classes.list}>
-        {films.map(film => (
+        {films.map((film) => (
           <Link
             className={classes.film}
             to={`/film/${film.id}`}
@@ -49,11 +44,14 @@ const FilmsList = () => {
             <h3 className={classes.filmTitle}>
               {film.title}
             </h3>
-            <p className={classes.filmYear}>{film.year}</p>
+            <p className={classes.filmYear}>
+              {film.years.length > 1
+                ? `${film.years[0]} - ${film.years.at(-1)}`
+                : film.years[0]}
+            </p>
           </Link>
         ))}
       </div>
-      <Pagination />
     </div>
   );
 };

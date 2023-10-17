@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 2001,
   "countries": [
     "USA",
     "Germany"
@@ -119,7 +118,6 @@
     }
   ],
   "budget": 38000000,
-  "boxoffice": 207000000,
   "awards": [
     {
       "title": "MTV Movie Award",
@@ -142,5 +140,9 @@
     {
       "plot": "Los Angeles police officer Brian O'Connor must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy."
     }
+  ],
+  "boxOffice": 207000000,
+  "years": [
+    2001
   ]
 }

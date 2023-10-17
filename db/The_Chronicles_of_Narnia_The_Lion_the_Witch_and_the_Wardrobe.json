@@ -62,7 +62,6 @@
       ]
     }
   ],
-  "year": 2005,
   "countries": [
     "UK",
     "USA"
@@ -135,7 +134,6 @@
     }
   ],
   "budget": 180000000,
-  "boxoffice": 745000000,
   "awards": [
     {
       "title": "Oscar",
@@ -177,5 +175,9 @@
     {
       "plot": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion."
     }
+  ],
+  "boxOffice": 745000000,
+  "years": [
+    2005
   ]
 }

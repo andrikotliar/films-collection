@@ -59,7 +59,6 @@
       ]
     }
   ],
-  "year": 2011,
   "countries": [
     "USA"
   ],
@@ -160,7 +159,6 @@
     }
   ],
   "budget": 195000000,
-  "boxoffice": 1120000000,
   "parts": {
     "title": "Transformers",
     "part": 4
@@ -175,5 +173,9 @@
     {
       "plot": "The Autobots learn of a Cybertronian spacecraft hidden on the moon, and race against the Decepticons to reach it and to learn its secrets."
     }
+  ],
+  "boxOffice": 1120000000,
+  "years": [
+    2011
   ]
 }

@@ -3,6 +3,7 @@
 }
 
 .title {
+  font-size: 28px;
   color: var(--main-color);
   margin-bottom: 20px;
 }
@@ -14,12 +15,17 @@
 }
 
 .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
   max-width: 800px;
   line-height: 1.5;
 }
 
-.text p {
-  margin-bottom: 20px;
+.text h2 {
+  font-size: 18px;
+  color: var(--main-color);
 }
 
 .text a {
@@ -35,7 +41,7 @@
   display: inline-block;
   background-color: var(--main-color);
   padding: 8px 30px;
-  border-radius: 50px;
+  border-radius: var(--app-border-radius);
   transition: 0.3s;
 }
 
@@ -58,13 +64,23 @@
   display: block;
   width: 100%;
   background-color: #f2f2f2;
-  border-radius: 10px;
+  border-radius: var(--app-border-radius);
   overflow: hidden;
 }
 
 .randomFilm img {
   display: block;
   width: 100%;
+}
+
+.photosSource {
+  display: flex;
+  font-weight: bold;
+  gap: 10px;
+}
+
+.photosSource a {
+  width: 200px;
 }
 
 @media (max-width: 640px) {

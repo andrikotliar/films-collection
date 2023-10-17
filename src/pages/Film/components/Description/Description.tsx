@@ -1,6 +1,6 @@
 import classes from './Description.module.css';
 import { FC, useState } from 'react';
-import { DescriptionType, TypeVariants } from '@/types';
+import { DescriptionType, TypeVariants } from '@/common';
 import {
   EpisodesList,
   ExpandButton,

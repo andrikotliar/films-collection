@@ -9,3 +9,7 @@
 .loader {
   width: 80px;
 }
+
+.fullPage {
+  height: var(--app-height);
+}

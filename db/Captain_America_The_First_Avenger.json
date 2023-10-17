@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 2011,
   "countries": [
     "USA"
   ],
@@ -140,7 +139,6 @@
     }
   ],
   "budget": 140000000,
-  "boxoffice": 371000000,
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 5
@@ -155,5 +153,9 @@
     {
       "plot": "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization."
     }
+  ],
+  "boxOffice": 371000000,
+  "years": [
+    2011
   ]
 }

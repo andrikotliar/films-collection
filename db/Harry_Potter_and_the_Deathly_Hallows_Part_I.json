@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 2010,
   "countries": [
     "USA",
     "UK"
@@ -129,7 +128,6 @@
     }
   ],
   "budget": 250000000,
-  "boxoffice": 960000000,
   "parts": {
     "title": "Harry Potter Universe",
     "part": 9
@@ -144,5 +142,9 @@
     {
       "plot": "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows."
     }
+  ],
+  "boxOffice": 960000000,
+  "years": [
+    2010
   ]
 }

@@ -1,27 +1,25 @@
 import classes from './Legend.module.css';
 import { FC } from 'react';
-import { SubClassNamesEnum } from '@/pages/Film/components/BoxOffice/helpers';
-import { LegendItem } from '../LegendItem';
+import {
+  LegendColorProps,
+  LegendItem,
+} from '../LegendItem';
 
 type LegendProps = {
   hasBudget: boolean;
   hasBoxOffice: boolean;
-  subClassName?: SubClassNamesEnum;
-};
+} & LegendColorProps;
 
 const Legend: FC<LegendProps> = ({
   hasBudget,
   hasBoxOffice,
-  subClassName,
+  color,
 }) => {
   return (
     <div className={classes.legend}>
       {hasBudget && <LegendItem type="Budget" />}
       {hasBoxOffice && (
-        <LegendItem
-          type="Box Office"
-          subClassName={subClassName}
-        />
+        <LegendItem type="Box Office" color={color} />
       )}
     </div>
   );

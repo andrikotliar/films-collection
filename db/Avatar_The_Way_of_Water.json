@@ -59,7 +59,6 @@
       ]
     }
   ],
-  "year": 2022,
   "countries": [
     "USA"
   ],
@@ -194,7 +193,6 @@
     }
   ],
   "budget": 350000000,
-  "boxoffice": 1400000000,
   "parts": {
     "title": "Avatar",
     "part": 2
@@ -209,5 +207,9 @@
     {
       "plot": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home."
     }
+  ],
+  "boxOffice": 1400000000,
+  "years": [
+    2022
   ]
 }

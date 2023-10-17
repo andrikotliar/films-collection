@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 2016,
   "countries": [
     "USA"
   ],
@@ -154,7 +153,6 @@
     }
   ],
   "budget": 178000000,
-  "boxoffice": 544000000,
   "parts": {
     "title": "X-Men",
     "part": 8
@@ -169,5 +167,9 @@
     {
       "plot": "In the 1980s the X-Men must defeat an ancient all-powerful mutant, En Sabah Nur, who intends to thrive through bringing destruction to the world."
     }
+  ],
+  "boxOffice": 544000000,
+  "years": [
+    2016
   ]
 }

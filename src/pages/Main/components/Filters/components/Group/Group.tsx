@@ -1,8 +1,26 @@
+import { GroupHeader } from '@/pages/Main/components/Filters/components/GroupHeader';
 import classes from './Group.module.css';
 import { FC, PropsWithChildren } from 'react';
+import { Scrollable } from '@/components';
 
-const Group: FC<PropsWithChildren> = ({ children }) => {
-  return <div className={classes.group}>{children}</div>;
+type GroupProps = {
+  title: string;
+  bodyClassName?: string;
+};
+
+const Group: FC<PropsWithChildren<GroupProps>> = ({
+  children,
+  title,
+  bodyClassName,
+}) => {
+  return (
+    <div className={classes.group}>
+      <GroupHeader>{title}</GroupHeader>
+      <Scrollable className={bodyClassName}>
+        {children}
+      </Scrollable>
+    </div>
+  );
 };
 
 export { Group };

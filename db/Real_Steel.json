@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 2011,
   "countries": [
     "USA"
   ],
@@ -121,7 +120,6 @@
     }
   ],
   "budget": 110000000,
-  "boxoffice": 300000000,
   "trailers": [
     "SwfmV3nn6QA"
   ],
@@ -132,5 +130,9 @@
     {
       "plot": "In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot."
     }
+  ],
+  "boxOffice": 300000000,
+  "years": [
+    2011
   ]
 }

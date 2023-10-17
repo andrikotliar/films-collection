@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 2004,
   "countries": [
     "USA"
   ],
@@ -112,7 +111,6 @@
     }
   ],
   "budget": 200000000,
-  "boxoffice": 789000000,
   "awards": [
     {
       "title": "Oscar",
@@ -145,5 +143,9 @@
     {
       "plot": "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius."
     }
+  ],
+  "boxOffice": 789000000,
+  "years": [
+    2004
   ]
 }

@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 2016,
   "countries": [
     "USA"
   ],
@@ -178,7 +177,6 @@
     }
   ],
   "budget": 250000000,
-  "boxoffice": 1150000000,
   "awards": [
     {
       "title": "Saturn",
@@ -201,5 +199,9 @@
     {
       "plot": "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man."
     }
+  ],
+  "boxOffice": 1150000000,
+  "years": [
+    2016
   ]
 }

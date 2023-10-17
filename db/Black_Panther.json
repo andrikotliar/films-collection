@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 2018,
   "countries": [
     "USA"
   ],
@@ -154,7 +153,6 @@
     }
   ],
   "budget": 200000000,
-  "boxoffice": 1350000000,
   "awards": [
     {
       "title": "Oscar",
@@ -212,5 +210,9 @@
     {
       "plot": "After the death of his father, Prince T'Challa ascends to the throne of the small African country of Wakanda. T'Challa is also Black Panther, superhero. Now not only must he govern his country but defeat a dangerous adversary."
     }
+  ],
+  "boxOffice": 1350000000,
+  "years": [
+    2018
   ]
 }

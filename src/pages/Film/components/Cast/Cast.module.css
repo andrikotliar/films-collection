@@ -4,48 +4,17 @@
   gap: 30px;
 }
 
-.actor {
-  background-color: #f7f7f7;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-.profile {
+.castFooter {
+  font-size: 14px;
+  color: #777;
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   align-items: center;
+  margin-top: 20px;
 }
-.photo {
+
+.photosSource {
   font-size: 0;
-  flex-shrink: 0;
-  margin-right: 20px;
-  width: 70px;
-  height: 100px;
-  overflow: hidden;
-  border-radius: 5px;
-}
-.photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.name {
-  margin-bottom: 3px;
-}
-
-.name:hover {
-  color: var(--main-color);
-  text-decoration: underline;
-}
-
-.character {
-  margin-top: 10px;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.character img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: 130px;
 }

@@ -59,7 +59,6 @@
       ]
     }
   ],
-  "year": 2009,
   "countries": [
     "USA"
   ],
@@ -139,7 +138,6 @@
     }
   ],
   "budget": 150000000,
-  "boxoffice": 373000000,
   "parts": {
     "title": "X-Men",
     "part": 4
@@ -154,5 +152,9 @@
     {
       "plot": "The early years of James Logan, featuring his rivalry with his brother Victor Creed, his service in the special forces team Weapon X, and his experimentation into the metal-lined mutant Wolverine."
     }
+  ],
+  "boxOffice": 373000000,
+  "years": [
+    2009
   ]
 }

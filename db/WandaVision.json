@@ -86,7 +86,6 @@
       ]
     }
   ],
-  "year": 2021,
   "countries": [
     "USA"
   ],
@@ -216,8 +215,10 @@
           "episode": 9,
           "title": "The Series Finale"
         }
-      ],
-      "year": 2021
+      ]
     }
+  ],
+  "years": [
+    2021
   ]
 }

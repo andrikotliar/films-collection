@@ -50,7 +50,6 @@
       ]
     }
   ],
-  "year": 1986,
   "countries": [
     "USA",
     "UK"
@@ -102,7 +101,6 @@
     }
   ],
   "budget": 18000000,
-  "boxoffice": 131000000,
   "awards": [
     {
       "title": "Oscar",
@@ -145,5 +143,9 @@
     {
       "plot": "Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators."
     }
+  ],
+  "boxOffice": 131000000,
+  "years": [
+    1986
   ]
 }

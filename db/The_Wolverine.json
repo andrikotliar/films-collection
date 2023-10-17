@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 2013,
   "countries": [
     "USA",
     "UK"
@@ -116,7 +115,6 @@
     }
   ],
   "budget": 132000000,
-  "boxoffice": 415000000,
   "parts": {
     "title": "X-Men",
     "part": 6
@@ -131,5 +129,9 @@
     {
       "plot": "Wolverine comes to Japan to meet an old friend whose life he saved years ago, and gets embroiled in a conspiracy involving yakuza and mutants."
     }
+  ],
+  "boxOffice": 415000000,
+  "years": [
+    2013
   ]
 }

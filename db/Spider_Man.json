@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 2002,
   "countries": [
     "USA"
   ],
@@ -126,7 +125,6 @@
     }
   ],
   "budget": 139000000,
-  "boxoffice": 825000000,
   "parts": {
     "title": "Raimi's Spider-Man",
     "part": 1
@@ -141,5 +139,9 @@
     {
       "plot": "When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family."
     }
+  ],
+  "boxOffice": 825000000,
+  "years": [
+    2002
   ]
 }

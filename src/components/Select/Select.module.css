@@ -12,7 +12,7 @@
   width: 100%;
   text-align: left;
   padding: 0 10px;
-  border-radius: 10px;
+  border-radius: var(--app-border-radius);
   background-color: #fff;
   cursor: pointer;
 }
@@ -42,7 +42,7 @@
   opacity: 0;
   background-color: #fff;
   width: 100%;
-  border-radius: 10px;
+  border-radius: var(--app-border-radius);
   box-shadow: 0 10px 20px rgba(0 0 0 / 25%);
   z-index: 999999;
   overflow: hidden;
@@ -75,7 +75,8 @@
   background-color: var(--main-color);
 }
 
-.highlighted {
+.highlighted,
+.highlighted:hover {
   color: #000;
   background-color: #a8d0eb;
 }

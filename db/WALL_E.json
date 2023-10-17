@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 2008,
   "countries": [
     "USA"
   ],
@@ -119,7 +118,6 @@
     }
   ],
   "budget": 180000000,
-  "boxoffice": 533000000,
   "awards": [
     {
       "title": "Oscar",
@@ -162,5 +160,9 @@
     {
       "plot": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind."
     }
+  ],
+  "boxOffice": 533000000,
+  "years": [
+    2008
   ]
 }

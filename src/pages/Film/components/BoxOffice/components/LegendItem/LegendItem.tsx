@@ -1,27 +1,35 @@
 import classes from './LegendItem.module.css';
 import { FC } from 'react';
-import classNames from 'classnames';
-import { SubClassNamesEnum } from '../../helpers';
+
+enum LegendColorsEnum {
+  YELLOW = '#ffb74d',
+  RED = '#d32f2f',
+  GREEN = '#4db6ac',
+}
+
+type LegendColorProps = {
+  color: LegendColorsEnum;
+};
 
 type LegendProps = {
   type: 'Budget' | 'Box Office';
-  subClassName?: SubClassNamesEnum;
-};
+} & Partial<LegendColorProps>;
 
 const LegendItem: FC<LegendProps> = ({
   type,
-  subClassName,
+  color = LegendColorsEnum.YELLOW,
 }) => {
   return (
     <div
-      className={classNames(
-        classes.legendItem,
-        subClassName && classes[subClassName],
-      )}
+      className={classes.legendItem}
+      style={{
+        color,
+      }}
     >
-      {type}
+      <span>{type}</span>
     </div>
   );
 };
 
-export { LegendItem };
+export { LegendItem, LegendColorsEnum };
+export type { LegendColorProps };

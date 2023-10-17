@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 2015,
   "countries": [
     "USA"
   ],
@@ -182,7 +181,6 @@
     }
   ],
   "budget": 365000000,
-  "boxoffice": 1400000000,
   "awards": [
     {
       "title": "Saturn",
@@ -205,5 +203,9 @@
     {
       "plot": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan."
     }
+  ],
+  "boxOffice": 1400000000,
+  "years": [
+    2015
   ]
 }

@@ -385,7 +385,6 @@
       ]
     }
   ],
-  "year": 2014,
   "countries": [
     "USA",
     "Canada"
@@ -737,8 +736,7 @@
           "episode": 13,
           "title": "We Are Grounders – Part II"
         }
-      ],
-      "year": 2014
+      ]
     },
     {
       "title": "Season 2",
@@ -824,8 +822,7 @@
           "episode": 16,
           "title": "Blood Must Have Blood: Part Two"
         }
-      ],
-      "year": 2014
+      ]
     },
     {
       "title": "Season 3",
@@ -911,8 +908,7 @@
           "episode": 16,
           "title": "Perverse Instantiation – Part Two"
         }
-      ],
-      "year": 2016
+      ]
     },
     {
       "title": "Season 4",
@@ -983,8 +979,7 @@
           "episode": 13,
           "title": "Praimfaya"
         }
-      ],
-      "year": 2017
+      ]
     },
     {
       "title": "Season 5",
@@ -1055,8 +1050,7 @@
           "episode": 13,
           "title": "Damocles – Part Two"
         }
-      ],
-      "year": 2018
+      ]
     },
     {
       "title": "Season 6",
@@ -1127,8 +1121,7 @@
           "episode": 13,
           "title": "The Blood of Sanctum"
         }
-      ],
-      "year": 2019
+      ]
     },
     {
       "title": "Season 7",
@@ -1214,8 +1207,16 @@
           "episode": 16,
           "title": "The Last War"
         }
-      ],
-      "year": 2020
+      ]
     }
+  ],
+  "years": [
+    2014,
+    2014,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
   ]
 }

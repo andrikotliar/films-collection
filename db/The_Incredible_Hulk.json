@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 2008,
   "countries": [
     "USA"
   ],
@@ -108,7 +107,6 @@
     }
   ],
   "budget": 150000000,
-  "boxoffice": 263000000,
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 2
@@ -123,5 +121,9 @@
     {
       "plot": "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into, whenever he loses his temper."
     }
+  ],
+  "boxOffice": 263000000,
+  "years": [
+    2008
   ]
 }

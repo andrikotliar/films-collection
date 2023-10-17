@@ -2,7 +2,8 @@ import classes from './Chapters.module.css';
 import { FC } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import classNames from 'classnames';
-import { Chapter, FilmData } from '@/types';
+import { Chapter, FilmData } from '@/common';
+import { Scrollable } from '@/components';
 
 type ChaptersProps = {
   data: FilmData[];
@@ -27,12 +28,7 @@ const Chapters: FC<ChaptersProps> = ({ data, parts }) => {
   };
 
   return (
-    <div
-      className={classNames(
-        classes.chapters,
-        'custom-scroll',
-      )}
-    >
+    <Scrollable className={classes.chapters}>
       {partsList().map(film => (
         <Link
           to={`/film/${film.id}`}
@@ -45,7 +41,7 @@ const Chapters: FC<ChaptersProps> = ({ data, parts }) => {
           <img src={film.posters[0]} alt={film.title} />
         </Link>
       ))}
-    </div>
+    </Scrollable>
   );
 };
 

@@ -62,7 +62,6 @@
       ]
     }
   ],
-  "year": 2005,
   "countries": [
     "USA"
   ],
@@ -163,7 +162,6 @@
     }
   ],
   "budget": 150000000,
-  "boxoffice": 375000000,
   "awards": [
     {
       "title": "Saturn",
@@ -194,5 +192,9 @@
     {
       "plot": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption."
     }
+  ],
+  "boxOffice": 375000000,
+  "years": [
+    2005
   ]
 }

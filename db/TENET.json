@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 2020,
   "countries": [
     "USA",
     "UK"
@@ -123,7 +122,6 @@
     }
   ],
   "budget": 205000000,
-  "boxoffice": 364000000,
   "awards": [
     {
       "title": "Oscar",
@@ -154,5 +152,9 @@
     {
       "plot": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time."
     }
+  ],
+  "boxOffice": 364000000,
+  "years": [
+    2020
   ]
 }

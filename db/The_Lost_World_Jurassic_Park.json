@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 1997,
   "countries": [
     "USA"
   ],
@@ -98,7 +97,6 @@
     }
   ],
   "budget": 73000000,
-  "boxoffice": 619000000,
   "parts": {
     "title": "Jurassic Park",
     "part": 2
@@ -113,5 +111,9 @@
     {
       "plot": "A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda."
     }
+  ],
+  "boxOffice": 619000000,
+  "years": [
+    1997
   ]
 }

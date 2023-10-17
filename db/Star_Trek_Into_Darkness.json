@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 2013,
   "countries": [
     "USA"
   ],
@@ -157,7 +156,6 @@
     }
   ],
   "budget": 185000000,
-  "boxoffice": 467000000,
   "parts": {
     "title": "Star Trek",
     "part": 2
@@ -172,5 +170,9 @@
     {
       "plot": "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction."
     }
+  ],
+  "boxOffice": 467000000,
+  "years": [
+    2013
   ]
 }

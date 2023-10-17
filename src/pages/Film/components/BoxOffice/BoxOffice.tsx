@@ -3,8 +3,9 @@ import { FC } from 'react';
 import { Diagram, Legend } from './components';
 import {
   getFormattedValue,
-  getBoxOfficeSubClassName,
+  hasBoxOfficeBenefit,
 } from './helpers';
+import { LegendColorsEnum } from '@/pages/Film/components/BoxOffice/components/LegendItem';
 
 type BoxOfficeProps = {
   budget?: number;
@@ -15,22 +16,26 @@ const BoxOffice: FC<BoxOfficeProps> = ({
   budget,
   boxOffice,
 }) => {
-  const boxOfficeSubClassName = getBoxOfficeSubClassName(
+  const isBoxOfficeHigher = hasBoxOfficeBenefit(
     budget,
     boxOffice,
   );
+
+  const boxOfficeColor = isBoxOfficeHigher
+    ? LegendColorsEnum.GREEN
+    : LegendColorsEnum.RED;
 
   return (
     <div className={classes.boxOffice}>
       <Legend
         hasBudget={!!budget}
         hasBoxOffice={!!boxOffice}
-        subClassName={boxOfficeSubClassName}
+        color={boxOfficeColor}
       />
       <Diagram
         budget={getFormattedValue(budget)}
         boxOffice={getFormattedValue(boxOffice)}
-        boxOfficeSubClassName={boxOfficeSubClassName}
+        color={boxOfficeColor}
       />
     </div>
   );

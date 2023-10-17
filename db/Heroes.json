@@ -290,7 +290,6 @@
       ]
     }
   ],
-  "year": 2006,
   "countries": [
     "USA"
   ],
@@ -574,8 +573,7 @@
           "episode": 23,
           "title": "How to Stop an Exploding Man"
         }
-      ],
-      "year": 2006
+      ]
     },
     {
       "title": "Volume 2: Generations",
@@ -636,8 +634,7 @@
           "episode": 11,
           "title": "Powerless"
         }
-      ],
-      "year": 2007
+      ]
     },
     {
       "title": "Volume 3. Part 1: Villains",
@@ -733,8 +730,7 @@
           "episode": 18,
           "title": "Brave New World"
         }
-      ],
-      "year": 2008
+      ]
     },
     {
       "title": "Volume 3. Part 2: Fugitives",
@@ -805,8 +801,7 @@
           "episode": 13,
           "title": "Dual"
         }
-      ],
-      "year": 2009
+      ]
     },
     {
       "title": "Volume 4: Redemption",
@@ -872,8 +867,14 @@
           "episode": 25,
           "title": "An Invisible Thread"
         }
-      ],
-      "year": 2009
+      ]
     }
+  ],
+  "years": [
+    2006,
+    2007,
+    2008,
+    2009,
+    2009
   ]
 }

@@ -24,7 +24,7 @@
   position: relative;
   width: 100%;
   aspect-ratio: 10/16;
-  border-radius: 10px;
+  border-radius: var(--app-border-radius);
   overflow: hidden;
   background-color: #f2f2f2;
 }
@@ -71,6 +71,17 @@
 @media (max-width: 785px) {
   .list {
     --cols: 3;
+  }
+}
+@media (max-width: 735px) {
+  .filterButton {
+    position: fixed;
+    bottom: 20px;
+    z-index: 999;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 3px 3px 8px rgb(0 0 0 / 25%);
   }
 }
 @media (max-width: 400px) {

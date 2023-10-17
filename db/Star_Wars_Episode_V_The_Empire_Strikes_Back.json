@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 1980,
   "countries": [
     "USA"
   ],
@@ -133,7 +132,6 @@
     }
   ],
   "budget": 18000000,
-  "boxoffice": 248000000,
   "awards": [
     {
       "title": "Oscar",
@@ -166,5 +164,9 @@
     {
       "plot": "After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader."
     }
+  ],
+  "boxOffice": 248000000,
+  "years": [
+    1980
   ]
 }

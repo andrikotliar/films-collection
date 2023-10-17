@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 2006,
   "countries": [
     "USA"
   ],
@@ -112,7 +111,6 @@
     }
   ],
   "budget": 225000000,
-  "boxoffice": 1100000000,
   "awards": [
     {
       "title": "Oscar",
@@ -154,5 +152,9 @@
     {
       "plot": "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well."
     }
+  ],
+  "boxOffice": 1100000000,
+  "years": [
+    2006
   ]
 }

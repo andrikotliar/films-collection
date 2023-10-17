@@ -59,7 +59,6 @@
       ]
     }
   ],
-  "year": 2021,
   "countries": [
     "USA"
   ],
@@ -139,7 +138,6 @@
     }
   ],
   "budget": 150000000,
-  "boxoffice": 430000000,
   "parts": {
     "title": "Marvel Cinematic Universe",
     "part": 27
@@ -154,5 +152,9 @@
     {
       "plot": "Shang-Chi, the master of unarmed weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization."
     }
+  ],
+  "boxOffice": 430000000,
+  "years": [
+    2021
   ]
 }

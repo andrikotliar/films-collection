@@ -1,7 +1,7 @@
 import classes from './Button.module.css';
 import { FC, PropsWithChildren, ReactNode } from 'react';
 import classNames from 'classnames';
-import { PropsWithClassName } from '@/types';
+import { PropsWithClassName } from '@/common';
 
 type ButtonProps = {
   onClick?: VoidFunction;

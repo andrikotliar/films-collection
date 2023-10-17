@@ -138,7 +138,6 @@
       ]
     }
   ],
-  "year": 2019,
   "countries": [
     "USA"
   ],
@@ -288,8 +287,7 @@
           "episode": 8,
           "title": "Chapter 8: Redemption"
         }
-      ],
-      "year": 2019
+      ]
     },
     {
       "title": "Season 2",
@@ -335,8 +333,11 @@
           "episode": 8,
           "title": "Chapter 16: The Rescue"
         }
-      ],
-      "year": 2020
+      ]
     }
+  ],
+  "years": [
+    2019,
+    2020
   ]
 }

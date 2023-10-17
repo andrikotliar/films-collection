@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 2003,
   "countries": [
     "USA"
   ],
@@ -112,7 +111,6 @@
     }
   ],
   "budget": 140000000,
-  "boxoffice": 654000000,
   "awards": [
     {
       "title": "BAFTA",
@@ -153,5 +151,9 @@
     {
       "plot": "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead."
     }
+  ],
+  "boxOffice": 654000000,
+  "years": [
+    2003
   ]
 }

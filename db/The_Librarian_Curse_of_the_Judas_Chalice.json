@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 2008,
   "countries": [
     "USA"
   ],
@@ -125,5 +124,8 @@
     {
       "plot": "Losing his girlfriend because he was at an auction dramatically getting the magical philosopher's stone instead of a date, he needs a vacation - New Orleans but finds himself busy saving Earth from the curse of the Judas chalice/vampires."
     }
+  ],
+  "years": [
+    2008
   ]
 }

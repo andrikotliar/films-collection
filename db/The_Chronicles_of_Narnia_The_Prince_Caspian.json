@@ -59,7 +59,6 @@
       ]
     }
   ],
-  "year": 2008,
   "countries": [
     "UK",
     "USA"
@@ -132,7 +131,6 @@
     }
   ],
   "budget": 225000000,
-  "boxoffice": 420000000,
   "parts": {
     "title": "The Chronicles of Narnia",
     "part": 2
@@ -147,5 +145,9 @@
     {
       "plot": "The Pevensie siblings return to Narnia, where they are enlisted to once again help ward off an evil king and restore the rightful heir to the land's throne, Prince Caspian."
     }
+  ],
+  "boxOffice": 420000000,
+  "years": [
+    2008
   ]
 }

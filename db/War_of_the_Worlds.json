@@ -1,0 +1,144 @@
+{
+  "id": "5a8594ff-28da-4bd6-8d3f-10518d46f5c3",
+  "type": [
+    "Film"
+  ],
+  "title": "War of the Worlds",
+  "genres": [
+    "Action",
+    "Sci-Fi"
+  ],
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": "Steven Spielberg"
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": "Josh Friedman"
+        },
+        {
+          "name": "David Koepp"
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": "Kathleen Kennedy"
+        },
+        {
+          "name": "Colin Wilson"
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": "Janusz Kaminski"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Paramount Pictures",
+    "DreamWorks Pictures",
+    "Amblin Entertainment"
+  ],
+  "duration": 116,
+  "cast": [
+    {
+      "character": {
+        "name": "Ray Ferrier",
+        "imageUrl": ""
+      },
+      "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81"
+    },
+    {
+      "character": {
+        "name": "Rachel Ferrier",
+        "imageUrl": ""
+      },
+      "actorId": "4cddb738-b885-4830-bd26-8b27ff0bb936"
+    },
+    {
+      "character": {
+        "name": "Robbie Ferrier",
+        "imageUrl": ""
+      },
+      "actorId": "210ff05c-b6af-4b8b-8507-c73d3aa17b1a"
+    },
+    {
+      "character": {
+        "name": "Mary-Ann",
+        "imageUrl": ""
+      },
+      "actorId": "91fa95db-6fc4-45db-92fe-c4b1287f4d0d"
+    },
+    {
+      "character": {
+        "name": "Harlan Ogilvy",
+        "imageUrl": ""
+      },
+      "actorId": "70919800-cec9-40f8-840e-202ea96ce760"
+    }
+  ],
+  "collections": [
+    {
+      "title": "Invasion"
+    },
+    {
+      "title": "Top 10",
+      "order": 7
+    }
+  ],
+  "budget": 132000000,
+  "trailers": [
+    "SM6aEEjc5hA"
+  ],
+  "posters": [
+    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/war_of_the_worlds.webp"
+  ],
+  "description": [
+    {
+      "plot": "An alien invasion threatens the future of humanity. The catastrophic nightmare is depicted through the eyes of one American family fighting for survival."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Saturn",
+      "nominations": [
+        "Best Performance by a Younger Actor (Dakota Fanning)"
+      ]
+    },
+    {
+      "title": "Critics Choice Award",
+      "nominations": [
+        "Best Young Actress (Dakota Fanning)"
+      ]
+    }
+  ],
+  "boxOffice": 604000000,
+  "years": [
+    2005
+  ]
+}

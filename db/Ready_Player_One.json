@@ -56,7 +56,6 @@
       ]
     }
   ],
-  "year": 2018,
   "countries": [
     "USA"
   ],
@@ -143,7 +142,6 @@
     }
   ],
   "budget": 175000000,
-  "boxoffice": 582000000,
   "awards": [
     {
       "title": "Saturn",
@@ -162,5 +160,9 @@
     {
       "plot": "When the creator of a virtual reality world called the OASIS dies, he releases a video in which he challenges all OASIS users to find his Easter Egg, which will give the finder his fortune"
     }
+  ],
+  "boxOffice": 582000000,
+  "years": [
+    2018
   ]
 }

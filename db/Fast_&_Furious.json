@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "year": 2009,
   "countries": [
     "USA"
   ],
@@ -125,7 +124,6 @@
     }
   ],
   "budget": 85000000,
-  "boxoffice": 363000000,
   "parts": {
     "title": "Fast and Furious",
     "part": 4
@@ -140,5 +138,9 @@
     {
       "plot": "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation."
     }
+  ],
+  "boxOffice": 363000000,
+  "years": [
+    2009
   ]
 }

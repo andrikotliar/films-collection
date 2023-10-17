@@ -68,7 +68,6 @@
       ]
     }
   ],
-  "year": 2014,
   "countries": [
     "USA",
     "New Zealand"
@@ -232,7 +231,6 @@
     }
   ],
   "budget": 250000000,
-  "boxoffice": 956000000,
   "awards": [
     {
       "title": "Saturn",
@@ -262,5 +260,9 @@
     {
       "plot": "Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness."
     }
+  ],
+  "boxOffice": 956000000,
+  "years": [
+    2014
   ]
 }

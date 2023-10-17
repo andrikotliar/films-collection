@@ -51,7 +51,6 @@
       ]
     }
   ],
-  "year": 2010,
   "countries": [
     "USA"
   ],
@@ -134,7 +133,6 @@
     }
   ],
   "budget": 165000000,
-  "boxoffice": 496000000,
   "parts": {
     "title": "How to Train Your Dragon",
     "part": 1
@@ -149,5 +147,9 @@
     {
       "plot": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed."
     }
+  ],
+  "boxOffice": 496000000,
+  "years": [
+    2010
   ]
 }
