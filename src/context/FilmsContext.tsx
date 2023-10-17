@@ -80,6 +80,7 @@ const FilmsProvider: FC<PropsWithChildren> = ({
   const resetFilter = () => {
     setSearchParams({});
     setFilmsCount(FILMS_COUNT_STEP);
+    setHasMore(true);
   };
 
   return (
