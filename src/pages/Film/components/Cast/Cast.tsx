@@ -41,7 +41,10 @@ const Cast: FC<{ cast: CastType[] }> = ({ cast }) => {
             className={classes.actor}
           >
             <div className={classes.profile}>
-              <div className={classes.photo}>
+              <div
+                className={classes.photo}
+                id={actor.actorId}
+              >
                 <img
                   src={actor.photoUrl}
                   alt={actor.name}
