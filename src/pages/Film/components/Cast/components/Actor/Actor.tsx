@@ -10,7 +10,7 @@ type ActorProps = {
 
 const Actor: FC<ActorProps> = ({ actor }) => {
   return (
-    <div className={classes.actor}>
+    <div className={classes.actor} id={actor.actorId}>
       <Profile actor={actor} />
       {actor.character.imageUrl.length !== 0 && (
         <Character
