@@ -75,6 +75,7 @@
 
 .photosSource {
   display: flex;
+  flex-wrap: wrap;
   font-weight: bold;
   gap: 10px;
 }
