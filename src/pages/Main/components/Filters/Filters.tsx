@@ -55,7 +55,7 @@ const Filters = () => {
     resetFilter();
     methods.reset(defaultValues);
     window.scrollTo(0, 0);
-    updateFiltersCount(filtersCount);
+    updateFiltersCount(0);
   };
 
   return (
