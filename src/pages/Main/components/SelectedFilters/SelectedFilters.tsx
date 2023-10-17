@@ -7,15 +7,16 @@ const parametersToHide = ['actorId'];
 const SelectedFilters = () => {
   const { filterParams } = useFilmsContext();
 
-  const keys = Object.keys(filterParams);
-
-  const filteredParams = (keys: string[]) => {
+  const optionsToShow = () => {
+    const keys = Object.keys(filterParams);
     return keys.filter(
-      key => !parametersToHide.includes(key),
+      (key) => !parametersToHide.includes(key),
     );
   };
 
-  if (filteredParams(keys).length === 0) return null;
+  const filteredParams = optionsToShow();
+
+  if (filteredParams.length === 0) return null;
 
   const getValue = (
     filterParams: DynamicObject,
@@ -50,7 +51,7 @@ const SelectedFilters = () => {
 
   return (
     <div className={classes.selectedFilters}>
-      {filteredParams(keys).map(param => (
+      {filteredParams.map((param) => (
         <div className={classes.filter} key={param}>
           <b>{getTitle(param)}:</b>
           <span>{getValue(filterParams, param)}</span>

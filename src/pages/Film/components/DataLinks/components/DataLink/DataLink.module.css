@@ -1,15 +1,22 @@
 .dataLink {
   border-radius: var(--app-border-radius);
   padding: 5px 20px;
-  background-color: var(--light-yellow);
   transition: background-color 0.3s;
 }
 
-.accent {
+.main {
+  background-color: var(--light-yellow);
+}
+
+.primary {
   background-color: var(--main-color);
   color: #fff;
 }
 
 .secondary {
   background-color: #f2f2f2; 
+}
+
+.extra {
+  background-color: #80DEEA;
 }

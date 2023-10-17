@@ -169,53 +169,7 @@
     {
       "title": "Season 1",
       "plot": "Blends the style of classic sitcoms with the MCU, in which Wanda Maximoff and Vision - two super-powered beings living their ideal suburban lives - begin to suspect that everything is not as it seems.",
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "Filmed Before a Live Studio Audience"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Don't Touch That Dial"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Now in Color"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "We Interrupt This Program"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "On a Very Special Episode..."
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "All-New Halloween Spooktacular!"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "Breaking the Fourth Wall"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 8,
-          "title": "Previously On"
-        },
-        {
-          "episodeOverall": 9,
-          "episode": 9,
-          "title": "The Series Finale"
-        }
-      ]
+      "episodesCount": 9
     }
   ],
   "years": [

@@ -222,95 +222,13 @@
   "description": [
     {
       "title": "Season 1",
-      "plot": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "The End's Beginning"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Four Marks"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Betrayer Moon"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "Of Banquets, Bastards, Burials"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Bottled Appetites"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "Rare Species"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "Before a Fall"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 8,
-          "title": "Much More"
-        }
-      ]
+      "plot": "In the first season, Geralt of Rivia, a monster hunter known as a Witcher, navigates a world filled with dangerous creatures and complex political intrigue. He crosses paths with Yennefer, a powerful sorceress, and Ciri, a young princess with a destiny tied to his own. The three destinies converge in a world where the line between good and evil is blurred.",
+      "episodesCount": 8
     },
     {
       "title": "Season 2",
-      "plot": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
-      "episodes": [
-        {
-          "episodeOverall": 9,
-          "episode": 1,
-          "title": "A Grain of Truth"
-        },
-        {
-          "episodeOverall": 10,
-          "episode": 2,
-          "title": "Kaer Morhen"
-        },
-        {
-          "episodeOverall": 11,
-          "episode": 3,
-          "title": "What Is Lost"
-        },
-        {
-          "episodeOverall": 12,
-          "episode": 4,
-          "title": "Redanian Intelligence"
-        },
-        {
-          "episodeOverall": 13,
-          "episode": 5,
-          "title": "Turn Your Back"
-        },
-        {
-          "episodeOverall": 14,
-          "episode": 6,
-          "title": "Dear Friend"
-        },
-        {
-          "episodeOverall": 15,
-          "episode": 7,
-          "title": "Voleth Meir"
-        },
-        {
-          "episodeOverall": 16,
-          "episode": 8,
-          "title": "Family"
-        }
-      ]
+      "plot": "Geralt embraces his destiny as he protects Ciri from the forces battling for control of the Continent — and from the mysterious power she possesses.",
+      "episodesCount": 8
     }
   ],
   "years": [

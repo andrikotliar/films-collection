@@ -3,30 +3,27 @@ import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import classNames from 'classnames';
 import { buildLink } from '@/helpers';
-import { FilmData } from '@/common';
 
 type DataLinkType = {
-  property: keyof FilmData;
+  property: string;
   value: string | number | string[];
   suffix?: string;
-  isAccent?: boolean;
-  isSecondary?: boolean;
+  color?: 'primary' | 'secondary' | 'extra';
 };
 
 const DataLink: FC<DataLinkType> = ({
   property,
   value,
   suffix,
-  isAccent,
-  isSecondary,
+  color = 'main',
 }) => {
   return (
     <Link
       to={buildLink(property, value)}
-      className={classNames(classes.dataLink, {
-        [classes.accent]: isAccent,
-        [classes.secondary]: isSecondary,
-      })}
+      className={classNames(
+        classes.dataLink,
+        classes[color],
+      )}
     >
       {value} {suffix}
     </Link>

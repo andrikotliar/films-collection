@@ -245,95 +245,13 @@
   "description": [
     {
       "title": "Season 1",
-      "plot": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "Chapter 1: The Mandalorian"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Chapter 2: The Child"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Chapter 3: The Sin"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "Chapter 4: Sanctuary"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Chapter 5: The Gunslinger"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "Chapter 6: The Prisoner"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "Chapter 7: The Reckoning"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 8,
-          "title": "Chapter 8: Redemption"
-        }
-      ]
+      "plot": "Set in the Star Wars universe, the first season follows a lone bounty hunter known as the Mandalorian. His quest to capture a mysterious and powerful child, referred to as \"The Child\" but commonly known as Baby Yoda, leads to a series of adventures across the galaxy. He must protect the child from various threats and uncover the secrets of its origins.",
+      "episodesCount": 8
     },
     {
       "title": "Season 2",
-      "plot": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
-      "episodes": [
-        {
-          "episodeOverall": 9,
-          "episode": 1,
-          "title": "Chapter 9: The Marshal"
-        },
-        {
-          "episodeOverall": 10,
-          "episode": 2,
-          "title": "Chapter 10: The Passenger"
-        },
-        {
-          "episodeOverall": 11,
-          "episode": 3,
-          "title": "Chapter 11: The Heiress"
-        },
-        {
-          "episodeOverall": 12,
-          "episode": 4,
-          "title": "Chapter 12: The Siege"
-        },
-        {
-          "episodeOverall": 13,
-          "episode": 5,
-          "title": "Chapter 13: The Jedi"
-        },
-        {
-          "episodeOverall": 14,
-          "episode": 6,
-          "title": "Chapter 14: The Tragedy"
-        },
-        {
-          "episodeOverall": 15,
-          "episode": 7,
-          "title": "Chapter 15: The Believer"
-        },
-        {
-          "episodeOverall": 16,
-          "episode": 8,
-          "title": "Chapter 16: The Rescue"
-        }
-      ]
+      "plot": "In the second season, the Mandalorian continues his journey with Baby Yoda, searching for other Mandalorians who can help him return the child to its people. Their quest leads them to encounters with familiar and new characters, as well as deeper involvement in the events of the broader Star Wars galaxy.",
+      "episodesCount": 8
     }
   ],
   "years": [

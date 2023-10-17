@@ -275,197 +275,23 @@
   "description": [
     {
       "title": "Season 1",
-      "plot": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "Chapter One: The Vanishing of Will Byers"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Chapter Two: The Weirdo on Maple Street"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Chapter Three: Holly, Jolly"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "Chapter Four: The Body"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Chapter Five: The Flea, the Acrobat"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "Chapter Six: The Monster"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "Chapter Seven: The Bathtub"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 8,
-          "title": "Chapter Eight: The Upside Down"
-        }
-      ]
+      "plot": "Set in the 1980s in the town of Hawkins, Indiana, the first season follows the disappearance of a young boy and the mysterious appearance of a girl with psychokinetic abilities. A group of friends embarks on a quest to find their missing friend while uncovering supernatural mysteries. The arrival of a sinister force known as the Demogorgon leads to a parallel dimension known as the Upside Down.",
+      "episodesCount": 8
     },
     {
       "title": "Season 2",
-      "plot": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
-      "episodes": [
-        {
-          "episodeOverall": 9,
-          "episode": 1,
-          "title": "Chapter One: MADMAX"
-        },
-        {
-          "episodeOverall": 10,
-          "episode": 2,
-          "title": "Chapter Two: Trick or Treat, Freak"
-        },
-        {
-          "episodeOverall": 11,
-          "episode": 3,
-          "title": "Chapter Three: The Pollywog"
-        },
-        {
-          "episodeOverall": 12,
-          "episode": 4,
-          "title": "Chapter Four: Will the Wise"
-        },
-        {
-          "episodeOverall": 13,
-          "episode": 5,
-          "title": "Chapter Five: Dig Dug"
-        },
-        {
-          "episodeOverall": 14,
-          "episode": 6,
-          "title": "Chapter Six: The Spy"
-        },
-        {
-          "episodeOverall": 15,
-          "episode": 7,
-          "title": "Chapter Seven: The Lost Sister"
-        },
-        {
-          "episodeOverall": 16,
-          "episode": 8,
-          "title": "Chapter Eight: The Mind Flayer"
-        },
-        {
-          "episodeOverall": 17,
-          "episode": 9,
-          "title": "Chapter Nine: The Gate"
-        }
-      ]
+      "plot": "In the second season, a year after the events of the first season, Hawkins faces a new supernatural threat. The group of friends reunites to confront a shadowy entity that threatens the town, and they learn more about the Upside Down. Eleven, the psychokinetic girl, seeks her past and abilities.",
+      "episodesCount": 9
     },
     {
       "title": "Season 3",
-      "plot": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
-      "episodes": [
-        {
-          "episodeOverall": 18,
-          "episode": 1,
-          "title": "Chapter One: Suzie, Do You Copy?"
-        },
-        {
-          "episodeOverall": 19,
-          "episode": 2,
-          "title": "Chapter Two: The Mall Rats"
-        },
-        {
-          "episodeOverall": 20,
-          "episode": 3,
-          "title": "Chapter Three: The Case of the Missing Lifeguard"
-        },
-        {
-          "episodeOverall": 21,
-          "episode": 4,
-          "title": "Chapter Four: The Sauna Test"
-        },
-        {
-          "episodeOverall": 22,
-          "episode": 5,
-          "title": "Chapter Five: The Flayed"
-        },
-        {
-          "episodeOverall": 23,
-          "episode": 6,
-          "title": "Chapter Six: E Pluribus Unum"
-        },
-        {
-          "episodeOverall": 24,
-          "episode": 7,
-          "title": "Chapter Seven: The Bite"
-        },
-        {
-          "episodeOverall": 25,
-          "episode": 8,
-          "title": "Chapter Eight: The Battle of Starcourt"
-        }
-      ]
+      "plot": "Set during the summer of 1985, Season 3 follows the group of friends as they face new challenges, both supernatural and personal. The town's new mall hides a dark secret, and the Russians play a significant role in the unfolding mysteries. The Mind Flayer returns, and Hawkins is once again in grave danger.",
+      "episodesCount": 8
     },
     {
       "title": "Season 4",
-      "plot": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
-      "episodes": [
-        {
-          "episodeOverall": 26,
-          "episode": 1,
-          "title": "Chapter One: The Hellfire Club"
-        },
-        {
-          "episodeOverall": 27,
-          "episode": 2,
-          "title": "Chapter Two: Vecna's Curse"
-        },
-        {
-          "episodeOverall": 28,
-          "episode": 3,
-          "title": "Chapter Three: The Monster and the Superhero"
-        },
-        {
-          "episodeOverall": 29,
-          "episode": 4,
-          "title": "Chapter Four: Dear Billy"
-        },
-        {
-          "episodeOverall": 30,
-          "episode": 5,
-          "title": "Chapter Five: The Nina Project"
-        },
-        {
-          "episodeOverall": 31,
-          "episode": 6,
-          "title": "Chapter Six: The Dive"
-        },
-        {
-          "episodeOverall": 32,
-          "episode": 7,
-          "title": "Chapter Seven: The Massacre at Hawkins Lab"
-        },
-        {
-          "episodeOverall": 33,
-          "episode": 8,
-          "title": "Chapter Eight: Papa"
-        },
-        {
-          "episodeOverall": 34,
-          "episode": 9,
-          "title": "Chapter Nine: The Piggyback"
-        }
-      ]
+      "plot": "Darkness returns to Hawkins just in time for spring break, igniting fresh terror, disturbing memories — and an ominous new threat.",
+      "episodesCount": 9
     }
   ],
   "years": [

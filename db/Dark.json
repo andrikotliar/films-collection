@@ -301,151 +301,18 @@
   "description": [
     {
       "title": "Season 1",
-      "plot": "A family saga with a supernatural twist, set in a German town, where the disappearance of two young children exposes the relationships among four families.",
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "Secrets"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Lies"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Past and Present"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "Double Lives"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Truths"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "Sic Mundus Creatus Est"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "Crossroads"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 8,
-          "title": "What you sow, you will reap"
-        },
-        {
-          "episodeOverall": 9,
-          "episode": 9,
-          "title": "Everything Is Now"
-        },
-        {
-          "episodeOverall": 10,
-          "episode": 10,
-          "title": "Alpha and Omega"
-        }
-      ]
+      "plot": "In the small town of Winden, a mysterious child disappearance reveals the existence of a time loop spanning over a century. Four interconnected families uncover their past secrets as they try to unravel the mysteries of time travel and the elusive concept of the 'origin.'",
+      "episodesCount": 8
     },
     {
       "title": "Season 2",
-      "plot": "A family saga with a supernatural twist, set in a German town, where the disappearance of two young children exposes the relationships among four families.",
-      "episodes": [
-        {
-          "episodeOverall": 11,
-          "episode": 1,
-          "title": "Beginnings and Endings"
-        },
-        {
-          "episodeOverall": 12,
-          "episode": 2,
-          "title": "Dark Matter"
-        },
-        {
-          "episodeOverall": 13,
-          "episode": 3,
-          "title": "Ghosts"
-        },
-        {
-          "episodeOverall": 14,
-          "episode": 4,
-          "title": "The Travelers"
-        },
-        {
-          "episodeOverall": 15,
-          "episode": 5,
-          "title": "Lost and Found"
-        },
-        {
-          "episodeOverall": 16,
-          "episode": 6,
-          "title": "An Endless Cycle"
-        },
-        {
-          "episodeOverall": 17,
-          "episode": 7,
-          "title": "The White Devil"
-        },
-        {
-          "episodeOverall": 18,
-          "episode": 8,
-          "title": "Endings and Beginnings"
-        }
-      ]
+      "plot": "As the time loop's complexities deepen, the characters navigate multiple time periods while confronting the impending apocalypse. Tensions rise, family bonds are strained, and the intricate web of time travel's consequences becomes even more convoluted.",
+      "episodesCount": 8
     },
     {
       "title": "Season 3",
-      "plot": "A family saga with a supernatural twist, set in a German town, where the disappearance of two young children exposes the relationships among four families.",
-      "episodes": [
-        {
-          "episodeOverall": 19,
-          "episode": 1,
-          "title": "Deja-vu"
-        },
-        {
-          "episodeOverall": 20,
-          "episode": 2,
-          "title": "The Survivors"
-        },
-        {
-          "episodeOverall": 21,
-          "episode": 3,
-          "title": "Adam and Eva"
-        },
-        {
-          "episodeOverall": 22,
-          "episode": 4,
-          "title": "The Origin"
-        },
-        {
-          "episodeOverall": 23,
-          "episode": 5,
-          "title": "Life and Death"
-        },
-        {
-          "episodeOverall": 24,
-          "episode": 6,
-          "title": "Light and Shadow"
-        },
-        {
-          "episodeOverall": 25,
-          "episode": 7,
-          "title": "In Between Time"
-        },
-        {
-          "episodeOverall": 26,
-          "episode": 8,
-          "title": "Paradise"
-        }
-      ]
+      "plot": "In the final season, Winden faces its ultimate fate, and the characters must confront the origin of the time loop. Time travel takes them to different dimensions, and they strive to break the cycle to save their world from annihilation, all while exploring the timeless questions of destiny, free will, and the eternal battle between light and shadow.",
+      "episodesCount": 8
     }
   ],
   "years": [

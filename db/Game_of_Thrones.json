@@ -531,417 +531,45 @@
   "description": [
     {
       "title": "Season 1",
-      "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "Winter Is Coming"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "The Kingsroad"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Lord Snow"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "Cripples, Bastards, and Broken Things"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "The Wolf, the Lion"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "A Golden Crown"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "You Win or You Die"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 8,
-          "title": "The Pointy End"
-        },
-        {
-          "episodeOverall": 9,
-          "episode": 9,
-          "title": "Baelor"
-        },
-        {
-          "episodeOverall": 10,
-          "episode": 10,
-          "title": "Fire, Blood"
-        }
-      ]
+      "plot": "The Seven Kingdoms of Westeros are in turmoil as noble families vie for the Iron Throne. Eddard Stark is appointed Hand of the King for his old friend Robert Baratheon. Meanwhile, Daenerys Targaryen seeks to reclaim her family's throne, and dark forces stir beyond the Wall in the North.",
+      "episodesCount": 10
     },
     {
       "title": "Season 2",
-      "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
-      "episodes": [
-        {
-          "episodeOverall": 11,
-          "episode": 1,
-          "title": "The North Remembers"
-        },
-        {
-          "episodeOverall": 12,
-          "episode": 2,
-          "title": "The Night Lands"
-        },
-        {
-          "episodeOverall": 13,
-          "episode": 3,
-          "title": "What Is Dead May Never Die"
-        },
-        {
-          "episodeOverall": 14,
-          "episode": 4,
-          "title": "Garden of Bones"
-        },
-        {
-          "episodeOverall": 15,
-          "episode": 5,
-          "title": "The Ghost of Harrenhal"
-        },
-        {
-          "episodeOverall": 16,
-          "episode": 6,
-          "title": "The Old Gods and the New"
-        },
-        {
-          "episodeOverall": 17,
-          "episode": 7,
-          "title": "A Man Without Honor"
-        },
-        {
-          "episodeOverall": 18,
-          "episode": 8,
-          "title": "The Prince of Winterfell"
-        },
-        {
-          "episodeOverall": 19,
-          "episode": 9,
-          "title": "Blackwater"
-        },
-        {
-          "episodeOverall": 20,
-          "episode": 10,
-          "title": "Valar Morghulis"
-        }
-      ]
+      "plot": "War rages across Westeros as five kings lay claim to the Iron Throne. Robb Stark seeks independence for the North, Stannis Baratheon battles for the throne, and Daenerys Targaryen seeks allies to reclaim her birthright. The shadow of an ancient threat looms larger in the North.",
+      "episodesCount": 10
     },
     {
       "title": "Season 3",
-      "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
-      "episodes": [
-        {
-          "episodeOverall": 21,
-          "episode": 1,
-          "title": "Valar Dohaeris"
-        },
-        {
-          "episodeOverall": 22,
-          "episode": 2,
-          "title": "Dark Wings and Dark Words"
-        },
-        {
-          "episodeOverall": 23,
-          "episode": 3,
-          "title": "Walk of Punishment"
-        },
-        {
-          "episodeOverall": 24,
-          "episode": 4,
-          "title": "And Now His Watch Is Ended"
-        },
-        {
-          "episodeOverall": 25,
-          "episode": 5,
-          "title": "Kissed by Fire"
-        },
-        {
-          "episodeOverall": 26,
-          "episode": 6,
-          "title": "The Climb"
-        },
-        {
-          "episodeOverall": 27,
-          "episode": 7,
-          "title": "The Bear, the Maiden Fair"
-        },
-        {
-          "episodeOverall": 28,
-          "episode": 8,
-          "title": "Second Sons"
-        },
-        {
-          "episodeOverall": 29,
-          "episode": 9,
-          "title": "The Rains of Castamere"
-        },
-        {
-          "episodeOverall": 30,
-          "episode": 10,
-          "title": "Mhysa"
-        }
-      ]
+      "plot": "The struggle for power intensifies as chaos reigns in the Seven Kingdoms. Jon Snow explores beyond the Wall, while the Lannisters and Starks continue their deadly feud. Daenerys grows in strength and seeks an army to conquer Westeros, while a looming supernatural threat becomes more apparent.",
+      "episodesCount": 10
     },
     {
       "title": "Season 4",
-      "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
-      "episodes": [
-        {
-          "episodeOverall": 31,
-          "episode": 1,
-          "title": "Two Swords"
-        },
-        {
-          "episodeOverall": 32,
-          "episode": 2,
-          "title": "The Lion and the Rose"
-        },
-        {
-          "episodeOverall": 33,
-          "episode": 3,
-          "title": "Breaker of Chains"
-        },
-        {
-          "episodeOverall": 34,
-          "episode": 4,
-          "title": "Oathkeeper"
-        },
-        {
-          "episodeOverall": 35,
-          "episode": 5,
-          "title": "First of His Name"
-        },
-        {
-          "episodeOverall": 36,
-          "episode": 6,
-          "title": "The Laws of Gods and Men"
-        },
-        {
-          "episodeOverall": 37,
-          "episode": 7,
-          "title": "Mockingbird"
-        },
-        {
-          "episodeOverall": 38,
-          "episode": 8,
-          "title": "The Mountain and the Viper"
-        },
-        {
-          "episodeOverall": 39,
-          "episode": 9,
-          "title": "The Watchers on the Wall"
-        },
-        {
-          "episodeOverall": 40,
-          "episode": 10,
-          "title": "The Children"
-        }
-      ]
+      "plot": "The War of the Five Kings begins to wind down, but new threats emerge. Tyrion Lannister faces trial for his life, Jon Snow navigates leadership at the Wall, and Daenerys consolidates her rule in Slaver's Bay. Dark and powerful enemies continue to rise in Westeros.",
+      "episodesCount": 10
     },
     {
       "title": "Season 5",
-      "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
-      "episodes": [
-        {
-          "episodeOverall": 41,
-          "episode": 1,
-          "title": "The Wars to Come"
-        },
-        {
-          "episodeOverall": 42,
-          "episode": 2,
-          "title": "The House of Black, White"
-        },
-        {
-          "episodeOverall": 43,
-          "episode": 3,
-          "title": "High Sparrow"
-        },
-        {
-          "episodeOverall": 44,
-          "episode": 4,
-          "title": "Sons of the Harpy"
-        },
-        {
-          "episodeOverall": 45,
-          "episode": 5,
-          "title": "Kill the Boy"
-        },
-        {
-          "episodeOverall": 46,
-          "episode": 6,
-          "title": "Unbowed, Unbent, Unbroken"
-        },
-        {
-          "episodeOverall": 47,
-          "episode": 7,
-          "title": "The Gift"
-        },
-        {
-          "episodeOverall": 48,
-          "episode": 8,
-          "title": "Hardhome"
-        },
-        {
-          "episodeOverall": 49,
-          "episode": 9,
-          "title": "The Dance of Dragons"
-        },
-        {
-          "episodeOverall": 50,
-          "episode": 10,
-          "title": "Mother's Mercy"
-        }
-      ]
+      "plot": "Amidst the ongoing power struggles and machinations for the Iron Throne, Jon Snow becomes Lord Commander, Cersei faces her own challenges in King's Landing, and Daenerys contends with rebellion in Meereen. The White Walkers pose an increasingly dire threat to the realm.",
+      "episodesCount": 10
     },
     {
       "title": "Season 6",
-      "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
-      "episodes": [
-        {
-          "episodeOverall": 51,
-          "episode": 1,
-          "title": "The Red Woman"
-        },
-        {
-          "episodeOverall": 52,
-          "episode": 2,
-          "title": "Home"
-        },
-        {
-          "episodeOverall": 53,
-          "episode": 3,
-          "title": "Oathbreaker"
-        },
-        {
-          "episodeOverall": 54,
-          "episode": 4,
-          "title": "Book of the Stranger"
-        },
-        {
-          "episodeOverall": 55,
-          "episode": 5,
-          "title": "The Door"
-        },
-        {
-          "episodeOverall": 56,
-          "episode": 6,
-          "title": "Blood of My Blood"
-        },
-        {
-          "episodeOverall": 57,
-          "episode": 7,
-          "title": "The Broken Man"
-        },
-        {
-          "episodeOverall": 58,
-          "episode": 8,
-          "title": "No One"
-        },
-        {
-          "episodeOverall": 59,
-          "episode": 9,
-          "title": "Battle of the Bastards"
-        },
-        {
-          "episodeOverall": 60,
-          "episode": 10,
-          "title": "The Winds of Winter"
-        }
-      ]
+      "plot": "The battle for control of the Seven Kingdoms escalates as Jon Snow and Sansa Stark seek allies, Daenerys sails for Westeros, and Cersei consolidates power in King's Landing. The threat of the White Walkers becomes a central concern, and prophecies and destinies are fulfilled.",
+      "episodesCount": 10
     },
     {
       "title": "Season 7",
-      "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
-      "episodes": [
-        {
-          "episodeOverall": 61,
-          "episode": 1,
-          "title": "Dragonstone"
-        },
-        {
-          "episodeOverall": 62,
-          "episode": 2,
-          "title": "Stormborn"
-        },
-        {
-          "episodeOverall": 63,
-          "episode": 3,
-          "title": "The Queen's Justice"
-        },
-        {
-          "episodeOverall": 64,
-          "episode": 4,
-          "title": "The Spoils of War"
-        },
-        {
-          "episodeOverall": 65,
-          "episode": 5,
-          "title": "Eastwatch"
-        },
-        {
-          "episodeOverall": 66,
-          "episode": 6,
-          "title": "Beyond the Wall"
-        },
-        {
-          "episodeOverall": 67,
-          "episode": 7,
-          "title": "The Dragon, the Wolf"
-        }
-      ]
+      "plot": "The Great War looms as Daenerys and her allies set their sights on the Iron Throne. Jon Snow, now recognized as a Targaryen, must unite Westeros against the White Walker threat. Cersei Lannister retains her grip on King's Landing, creating a complex web of alliances and betrayals.",
+      "episodesCount": 7
     },
     {
       "title": "Season 8",
-      "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
-      "episodes": [
-        {
-          "episodeOverall": 68,
-          "episode": 1,
-          "title": "Winterfell"
-        },
-        {
-          "episodeOverall": 69,
-          "episode": 2,
-          "title": "A Knight of the Seven Kingdoms"
-        },
-        {
-          "episodeOverall": 70,
-          "episode": 3,
-          "title": "The Long Night"
-        },
-        {
-          "episodeOverall": 71,
-          "episode": 4,
-          "title": "The Last of the Starks"
-        },
-        {
-          "episodeOverall": 72,
-          "episode": 5,
-          "title": "The Bells"
-        },
-        {
-          "episodeOverall": 73,
-          "episode": 6,
-          "title": "The Iron Throne"
-        }
-      ]
+      "plot": "The battle for the Iron Throne reaches its climax as Daenerys, Jon Snow, and others confront their destinies. The White Walkers advance, and the living must unite against the impending doom. The fate of Westeros and its rulers is decided in a series of epic confrontations.",
+      "episodesCount": 6
     }
+    
   ],
   "years": [
     2011,

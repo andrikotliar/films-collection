@@ -178,38 +178,7 @@
     {
       "title": "Season 1",
       "plot": "Following the events of «Avengers: Endgame» Sam Wilson and Bucky Barnes team up in a global adventure that tests their abilities and their patience.",
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "New World Order"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "The Star-Spangled Man"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Power Broker"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "The Whole World Is Watching"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Truth"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "One World, One People"
-        }
-      ]
+      "episodesCount": 6
     }
   ],
   "years": [

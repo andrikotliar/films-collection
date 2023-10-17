@@ -185,38 +185,7 @@
     {
       "title": "Season 1",
       "plot": "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of «Avengers: Endgame».",
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "Glorious Purpose"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "The Variant"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "Lamentis"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "The Nexus Event"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Journey into Mystery"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "For All Time. Always."
-        }
-      ]
+      "episodesCount": 6
     }
   ],
   "years": [

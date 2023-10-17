@@ -193,53 +193,7 @@
     {
       "title": "Season 1",
       "plot": "Set in utopian Piltover and the oppressed underground of Zaun, the story follows the origins of two iconic League champions-and the power that will tear them apart.",
-      "episodes": [
-        {
-          "episodeOverall": 1,
-          "episode": 1,
-          "title": "Welcome to the Playground"
-        },
-        {
-          "episodeOverall": 2,
-          "episode": 2,
-          "title": "Some Mysteries Are Better Left Unsolved"
-        },
-        {
-          "episodeOverall": 3,
-          "episode": 3,
-          "title": "The Base Violence Necessary for Change"
-        },
-        {
-          "episodeOverall": 4,
-          "episode": 4,
-          "title": "Happy Progress Day!"
-        },
-        {
-          "episodeOverall": 5,
-          "episode": 5,
-          "title": "Everybody Wants to Be My Enemy"
-        },
-        {
-          "episodeOverall": 6,
-          "episode": 6,
-          "title": "When These Walls Come Tumbling Down"
-        },
-        {
-          "episodeOverall": 7,
-          "episode": 7,
-          "title": "The Boy Saviour"
-        },
-        {
-          "episodeOverall": 8,
-          "episode": 8,
-          "title": "Oil and Water"
-        },
-        {
-          "episodeOverall": 9,
-          "episode": 9,
-          "title": "The Monster You Created"
-        }
-      ]
+      "episodesCount": 9
     }
   ],
   "years": [
