@@ -163,23 +163,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 354000000,
+  "trailer": "kyQKi5-k0UU",
+  "poster": "x_men_5.webp",
+  "year": 2011,
+  "summary": {
+    "sections": [
+      {
+        "text": "In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them."
+      }
+    ]
+  },
+  "chapters": {
     "title": "X-Men",
     "part": 5
-  },
-  "trailers": [
-    "kyQKi5-k0UU"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/x_men_5.webp"
-  ],
-  "description": [
-    {
-      "plot": "In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them."
-    }
-  ],
-  "boxOffice": 354000000,
-  "years": [
-    2011
-  ]
+  }
 }

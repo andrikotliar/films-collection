@@ -135,23 +135,19 @@
     }
   ],
   "budget": 160000000,
-  "parts": {
+  "boxOffice": 1150000000,
+  "trailer": "WDkg3h8PCVU",
+  "poster": "aquaman.webp",
+  "year": 2018,
+  "summary": {
+    "sections": [
+      {
+        "text": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land."
+      }
+    ]
+  },
+  "chapters": {
     "title": "DC Extended Universe",
     "part": 6
-  },
-  "trailers": [
-    "WDkg3h8PCVU"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/aquaman.webp"
-  ],
-  "description": [
-    {
-      "plot": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land."
-    }
-  ],
-  "boxOffice": 1150000000,
-  "years": [
-    2018
-  ]
+  }
 }

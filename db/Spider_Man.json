@@ -125,23 +125,19 @@
     }
   ],
   "budget": 139000000,
-  "parts": {
+  "boxOffice": 825000000,
+  "trailer": "_yhFofFZGcc",
+  "poster": "raimi_spider_man_1.webp",
+  "year": 2002,
+  "summary": {
+    "sections": [
+      {
+        "text": "When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Raimi's Spider-Man",
     "part": 1
-  },
-  "trailers": [
-    "_yhFofFZGcc"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/raimi_spider_man_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family."
-    }
-  ],
-  "boxOffice": 825000000,
-  "years": [
-    2002
-  ]
+  }
 }

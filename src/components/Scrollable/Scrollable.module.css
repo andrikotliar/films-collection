@@ -1,8 +1,17 @@
+.customScroll {
+  scrollbar-width: none;
+}
+.customScroll::-webkit-scrollbar {
+  display: none;
+}
+
 @media (hover: hover) {
   .customScroll {
+    scrollbar-width: thin;
     scrollbar-color: var(--main-color) #dbdbdb;
   }
   .customScroll::-webkit-scrollbar {
+    display: block;
     height: 8px;
     width: 4px;
     transition: 0.3s;
@@ -17,13 +26,5 @@
   }
   .customScroll:hover::-webkit-scrollbar-thumb {
     background-image: var(--main-gradient);
-  }
-}
-@media (hover: none) {
-  .customScroll {
-    scrollbar-width: none;
-  }
-  .customScroll::-webkit-scrollbar {
-    display: none;
   }
 }

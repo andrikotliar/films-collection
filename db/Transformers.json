@@ -183,23 +183,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 710000000,
+  "trailer": "dxQxgAfNzyE",
+  "poster": "transformers_1.webp",
+  "year": 2007,
+  "summary": {
+    "sections": [
+      {
+        "text": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Transformers",
     "part": 2
-  },
-  "trailers": [
-    "dxQxgAfNzyE"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/transformers_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager."
-    }
-  ],
-  "boxOffice": 710000000,
-  "years": [
-    2007
-  ]
+  }
 }

@@ -175,20 +175,27 @@
     "title": "Marvel Cinematic Universe",
     "part": 26
   },
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/loki.webp"
-  ],
-  "trailers": [
-    "nW948Va-l10"
-  ],
-  "description": [
-    {
-      "title": "Season 1",
-      "plot": "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of «Avengers: Endgame».",
-      "episodesCount": 6
-    }
-  ],
-  "years": [
-    2021
-  ]
+  "poster": "loki.webp",
+  "year": 2021,
+  "summary": {
+    "sections": [
+      {
+        "title": "Season 1",
+        "text": "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of «Avengers: Endgame»."
+      }
+    ]
+  },
+  "series": {
+    "episodesTotal": 6,
+    "seasons": [
+      {
+        "number": 1,
+        "title": "Season 1",
+        "poster": "loki.webp",
+        "trailer": "nW948Va-l10",
+        "episodesCount": 6,
+        "year": 2021
+      }
+    ]
+  }
 }

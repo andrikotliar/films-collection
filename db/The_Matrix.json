@@ -156,23 +156,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 463000000,
+  "trailer": "m8e-FF8MsqU",
+  "poster": "matrix_1.webp",
+  "year": 1999,
+  "summary": {
+    "sections": [
+      {
+        "text": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
+      }
+    ]
+  },
+  "chapters": {
     "title": "The Matrix",
     "part": 1
-  },
-  "trailers": [
-    "m8e-FF8MsqU"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/matrix_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
-    }
-  ],
-  "boxOffice": 463000000,
-  "years": [
-    1999
-  ]
+  }
 }

@@ -138,23 +138,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 263000000,
+  "trailer": "5p18zqZmeiI",
+  "poster": "jumanji_1.webp",
+  "year": 1995,
+  "summary": {
+    "sections": [
+      {
+        "text": "When two kids find and play a magical board game, they release a man trapped for decades in it and a host of dangers that can only be stopped by finishing the game."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Jumanji",
     "part": 1
-  },
-  "trailers": [
-    "5p18zqZmeiI"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/jumanji_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "When two kids find and play a magical board game, they release a man trapped for decades in it and a host of dangers that can only be stopped by finishing the game."
-    }
-  ],
-  "boxOffice": 263000000,
-  "years": [
-    1995
-  ]
+  }
 }

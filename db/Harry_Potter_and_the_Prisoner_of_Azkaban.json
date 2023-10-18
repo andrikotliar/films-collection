@@ -135,23 +135,19 @@
     }
   ],
   "budget": 130000000,
-  "parts": {
+  "boxOffice": 797000000,
+  "trailer": "lAxgztbYDbs",
+  "poster": "harry_potter_3.webp",
+  "year": 2004,
+  "summary": {
+    "sections": [
+      {
+        "text": "It's Harry's third year at Hogwarts; not only does he have a new \"Defense Against the Dark Arts\" teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Harry Potter Universe",
     "part": 5
-  },
-  "trailers": [
-    "lAxgztbYDbs"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/harry_potter_3.webp"
-  ],
-  "description": [
-    {
-      "plot": "It's Harry's third year at Hogwarts; not only does he have a new \"Defense Against the Dark Arts\" teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry."
-    }
-  ],
-  "boxOffice": 797000000,
-  "years": [
-    2004
-  ]
+  }
 }

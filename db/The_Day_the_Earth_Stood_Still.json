@@ -142,19 +142,15 @@
       ]
     }
   ],
-  "trailers": [
-    "6QFcZohER3s"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/day_the_earth_stood_still.webp"
-  ],
-  "description": [
-    {
-      "plot": "A remake of the 1951 classic science fiction film about an alien visitor and his giant robot counterpart who visit Earth."
-    }
-  ],
   "boxOffice": 233000000,
-  "years": [
-    2008
-  ]
+  "trailer": "6QFcZohER3s",
+  "poster": "day_the_earth_stood_still.webp",
+  "year": 2008,
+  "summary": {
+    "sections": [
+      {
+        "text": "A remake of the 1951 classic science fiction film about an alien visitor and his giant robot counterpart who visit Earth."
+      }
+    ]
+  }
 }

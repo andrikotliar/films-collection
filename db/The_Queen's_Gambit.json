@@ -154,20 +154,27 @@
       ]
     }
   ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/queens_gambit.webp"
-  ],
-  "trailers": [
-    "oZn3qSgmLqI"
-  ],
-  "description": [
-    {
-      "title": "Season 1",
-      "plot": "Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s USA. But child stardom comes at a price.",
-      "episodesCount": 7
-    }
-  ],
-  "years": [
-    2020
-  ]
+  "poster": "queens_gambit.webp",
+  "year": 2020,
+  "summary": {
+    "sections": [
+      {
+        "title": "Season 1",
+        "text": "Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s USA. But child stardom comes at a price."
+      }
+    ]
+  },
+  "series": {
+    "episodesTotal": 7,
+    "seasons": [
+      {
+        "number": 1,
+        "title": "Season 1",
+        "poster": "queens_gambit.webp",
+        "trailer": "oZn3qSgmLqI",
+        "episodesCount": 7,
+        "year": 2020
+      }
+    ]
+  }
 }

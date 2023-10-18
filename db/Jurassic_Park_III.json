@@ -110,23 +110,19 @@
     }
   ],
   "budget": 93000000,
-  "parts": {
+  "boxOffice": 368000000,
+  "trailer": "gjIaV6CU0wA",
+  "poster": "jurassic_park_3.webp",
+  "year": 2001,
+  "summary": {
+    "sections": [
+      {
+        "text": "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Jurassic Park",
     "part": 3
-  },
-  "trailers": [
-    "gjIaV6CU0wA"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/jurassic_park_3.webp"
-  ],
-  "description": [
-    {
-      "plot": "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants."
-    }
-  ],
-  "boxOffice": 368000000,
-  "years": [
-    2001
-  ]
+  }
 }

@@ -126,19 +126,15 @@
     }
   ],
   "budget": 30000000,
-  "trailers": [
-    "1dzGhJ5QGsQ"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/love_and_monsters.webp"
-  ],
-  "description": [
-    {
-      "plot": "Seven years after he survived the monster apocalypse, lovably hapless Joel leaves his cozy underground bunker behind on a quest to reunite with his ex."
-    }
-  ],
   "boxOffice": 1000000,
-  "years": [
-    2020
-  ]
+  "trailer": "1dzGhJ5QGsQ",
+  "poster": "love_and_monsters.webp",
+  "year": 2020,
+  "summary": {
+    "sections": [
+      {
+        "text": "Seven years after he survived the monster apocalypse, lovably hapless Joel leaves his cozy underground bunker behind on a quest to reunite with his ex."
+      }
+    ]
+  }
 }

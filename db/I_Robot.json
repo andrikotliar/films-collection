@@ -123,19 +123,15 @@
     }
   ],
   "budget": 120000000,
-  "trailers": [
-    "rL6RRIOZyCM"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/i_robot.webp"
-  ],
-  "description": [
-    {
-      "plot": "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity."
-    }
-  ],
   "boxOffice": 347000000,
-  "years": [
-    2004
-  ]
+  "trailer": "rL6RRIOZyCM",
+  "poster": "i_robot.webp",
+  "year": 2004,
+  "summary": {
+    "sections": [
+      {
+        "text": "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity."
+      }
+    ]
+  }
 }

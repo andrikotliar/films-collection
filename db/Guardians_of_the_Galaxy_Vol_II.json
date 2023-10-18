@@ -158,23 +158,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 864000000,
+  "trailer": "wUn05hdkhjM",
+  "poster": "guardians_of_the_galaxy_2.webp",
+  "year": 2017,
+  "summary": {
+    "sections": [
+      {
+        "text": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 15
-  },
-  "trailers": [
-    "wUn05hdkhjM"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/guardians_of_the_galaxy_2.webp"
-  ],
-  "description": [
-    {
-      "plot": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage."
-    }
-  ],
-  "boxOffice": 864000000,
-  "years": [
-    2017
-  ]
+  }
 }

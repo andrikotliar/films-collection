@@ -153,23 +153,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 789000000,
+  "trailer": "dKi5XoeTN0k",
+  "poster": "fast_and_furious_6.webp",
+  "year": 2013,
+  "summary": {
+    "sections": [
+      {
+        "text": "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Fast and Furious",
     "part": 6
-  },
-  "trailers": [
-    "dKi5XoeTN0k"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_6.webp"
-  ],
-  "description": [
-    {
-      "plot": "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty."
-    }
-  ],
-  "boxOffice": 789000000,
-  "years": [
-    2013
-  ]
+  }
 }

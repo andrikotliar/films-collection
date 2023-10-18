@@ -508,77 +508,111 @@
       "title": "Fantasy"
     }
   ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s2.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s3.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s4.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s5.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s6.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s7.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s8.webp"
-  ],
-  "trailers": [
-    "gcTkNV5Vg1E",
-    "AlhHGUfCYw4",
-    "nblUgAMoOvU",
-    "aj9x_Xea6cg",
-    "F9Bo89m2f6g",
-    "yu8eRaq1FUM",
-    "giYeaKsXnsI",
-    "rlR4PJn8b8I"
-  ],
-  "description": [
-    {
-      "title": "Season 1",
-      "plot": "The Seven Kingdoms of Westeros are in turmoil as noble families vie for the Iron Throne. Eddard Stark is appointed Hand of the King for his old friend Robert Baratheon. Meanwhile, Daenerys Targaryen seeks to reclaim her family's throne, and dark forces stir beyond the Wall in the North.",
-      "episodesCount": 10
-    },
-    {
-      "title": "Season 2",
-      "plot": "War rages across Westeros as five kings lay claim to the Iron Throne. Robb Stark seeks independence for the North, Stannis Baratheon battles for the throne, and Daenerys Targaryen seeks allies to reclaim her birthright. The shadow of an ancient threat looms larger in the North.",
-      "episodesCount": 10
-    },
-    {
-      "title": "Season 3",
-      "plot": "The struggle for power intensifies as chaos reigns in the Seven Kingdoms. Jon Snow explores beyond the Wall, while the Lannisters and Starks continue their deadly feud. Daenerys grows in strength and seeks an army to conquer Westeros, while a looming supernatural threat becomes more apparent.",
-      "episodesCount": 10
-    },
-    {
-      "title": "Season 4",
-      "plot": "The War of the Five Kings begins to wind down, but new threats emerge. Tyrion Lannister faces trial for his life, Jon Snow navigates leadership at the Wall, and Daenerys consolidates her rule in Slaver's Bay. Dark and powerful enemies continue to rise in Westeros.",
-      "episodesCount": 10
-    },
-    {
-      "title": "Season 5",
-      "plot": "Amidst the ongoing power struggles and machinations for the Iron Throne, Jon Snow becomes Lord Commander, Cersei faces her own challenges in King's Landing, and Daenerys contends with rebellion in Meereen. The White Walkers pose an increasingly dire threat to the realm.",
-      "episodesCount": 10
-    },
-    {
-      "title": "Season 6",
-      "plot": "The battle for control of the Seven Kingdoms escalates as Jon Snow and Sansa Stark seek allies, Daenerys sails for Westeros, and Cersei consolidates power in King's Landing. The threat of the White Walkers becomes a central concern, and prophecies and destinies are fulfilled.",
-      "episodesCount": 10
-    },
-    {
-      "title": "Season 7",
-      "plot": "The Great War looms as Daenerys and her allies set their sights on the Iron Throne. Jon Snow, now recognized as a Targaryen, must unite Westeros against the White Walker threat. Cersei Lannister retains her grip on King's Landing, creating a complex web of alliances and betrayals.",
-      "episodesCount": 7
-    },
-    {
-      "title": "Season 8",
-      "plot": "The battle for the Iron Throne reaches its climax as Daenerys, Jon Snow, and others confront their destinies. The White Walkers advance, and the living must unite against the impending doom. The fate of Westeros and its rulers is decided in a series of epic confrontations.",
-      "episodesCount": 6
-    }
-    
-  ],
-  "years": [
-    2011,
-    2012,
-    2013,
-    2014,
-    2015,
-    2016,
-    2017,
-    2019
-  ]
+  "poster": "got.webp",
+  "year": 2011,
+  "summary": {
+    "sections": [
+      {
+        "title": "Season 1",
+        "text": "The Seven Kingdoms of Westeros are in turmoil as noble families vie for the Iron Throne. Eddard Stark is appointed Hand of the King for his old friend Robert Baratheon. Meanwhile, Daenerys Targaryen seeks to reclaim her family's throne, and dark forces stir beyond the Wall in the North."
+      },
+      {
+        "title": "Season 2",
+        "text": "War rages across Westeros as five kings lay claim to the Iron Throne. Robb Stark seeks independence for the North, Stannis Baratheon battles for the throne, and Daenerys Targaryen seeks allies to reclaim her birthright. The shadow of an ancient threat looms larger in the North."
+      },
+      {
+        "title": "Season 3",
+        "text": "The struggle for power intensifies as chaos reigns in the Seven Kingdoms. Jon Snow explores beyond the Wall, while the Lannisters and Starks continue their deadly feud. Daenerys grows in strength and seeks an army to conquer Westeros, while a looming supernatural threat becomes more apparent."
+      },
+      {
+        "title": "Season 4",
+        "text": "The War of the Five Kings begins to wind down, but new threats emerge. Tyrion Lannister faces trial for his life, Jon Snow navigates leadership at the Wall, and Daenerys consolidates her rule in Slaver's Bay. Dark and powerful enemies continue to rise in Westeros."
+      },
+      {
+        "title": "Season 5",
+        "text": "Amidst the ongoing power struggles and machinations for the Iron Throne, Jon Snow becomes Lord Commander, Cersei faces her own challenges in King's Landing, and Daenerys contends with rebellion in Meereen. The White Walkers pose an increasingly dire threat to the realm."
+      },
+      {
+        "title": "Season 6",
+        "text": "The battle for control of the Seven Kingdoms escalates as Jon Snow and Sansa Stark seek allies, Daenerys sails for Westeros, and Cersei consolidates power in King's Landing. The threat of the White Walkers becomes a central concern, and prophecies and destinies are fulfilled."
+      },
+      {
+        "title": "Season 7",
+        "text": "The Great War looms as Daenerys and her allies set their sights on the Iron Throne. Jon Snow, now recognized as a Targaryen, must unite Westeros against the White Walker threat. Cersei Lannister retains her grip on King's Landing, creating a complex web of alliances and betrayals."
+      },
+      {
+        "title": "Season 8",
+        "text": "The battle for the Iron Throne reaches its climax as Daenerys, Jon Snow, and others confront their destinies. The White Walkers advance, and the living must unite against the impending doom. The fate of Westeros and its rulers is decided in a series of epic confrontations."
+      }
+    ]
+  },
+  "series": {
+    "episodesTotal": 73,
+    "seasons": [
+      {
+        "number": 1,
+        "title": "Season 1",
+        "poster": "got.webp",
+        "trailer": "gcTkNV5Vg1E",
+        "episodesCount": 10,
+        "year": 2011
+      },
+      {
+        "number": 2,
+        "title": "Season 2",
+        "poster": "got_s2.webp",
+        "trailer": "AlhHGUfCYw4",
+        "episodesCount": 10,
+        "year": 2012
+      },
+      {
+        "number": 3,
+        "title": "Season 3",
+        "poster": "got_s3.webp",
+        "trailer": "nblUgAMoOvU",
+        "episodesCount": 10,
+        "year": 2013
+      },
+      {
+        "number": 4,
+        "title": "Season 4",
+        "poster": "got_s4.webp",
+        "trailer": "aj9x_Xea6cg",
+        "episodesCount": 10,
+        "year": 2014
+      },
+      {
+        "number": 5,
+        "title": "Season 5",
+        "poster": "got_s5.webp",
+        "trailer": "F9Bo89m2f6g",
+        "episodesCount": 10,
+        "year": 2015
+      },
+      {
+        "number": 6,
+        "title": "Season 6",
+        "poster": "got_s6.webp",
+        "trailer": "yu8eRaq1FUM",
+        "episodesCount": 10,
+        "year": 2016
+      },
+      {
+        "number": 7,
+        "title": "Season 7",
+        "poster": "got_s7.webp",
+        "trailer": "giYeaKsXnsI",
+        "episodesCount": 7,
+        "year": 2017
+      },
+      {
+        "number": 8,
+        "title": "Season 8",
+        "poster": "got_s8.webp",
+        "trailer": "rlR4PJn8b8I",
+        "episodesCount": 6,
+        "year": 2019
+      }
+    ]
+  }
 }

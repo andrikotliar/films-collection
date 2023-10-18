@@ -219,23 +219,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 2730000000,
+  "trailer": "TcMBFSGVi1c",
+  "poster": "avengers_4.webp",
+  "year": 2019,
+  "summary": {
+    "sections": [
+      {
+        "text": "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to undo Thanos' actions and restore order to the universe."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 22
-  },
-  "trailers": [
-    "TcMBFSGVi1c"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/avengers_4.webp"
-  ],
-  "description": [
-    {
-      "plot": "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to undo Thanos' actions and restore order to the universe."
-    }
-  ],
-  "boxOffice": 2730000000,
-  "years": [
-    2019
-  ]
+  }
 }

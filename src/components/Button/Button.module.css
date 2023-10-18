@@ -22,6 +22,7 @@
 .ghost {
   color: #222;
   background-color: transparent;
+  border-radius: 0;
 }
 
 .active {
@@ -54,6 +55,10 @@
   
   .active:hover {
     background-color: var(--main-color);
+  }
+
+  .ghost:hover {
+    background-color: transparent;
   }
 }
 @media (max-width: 735px) {

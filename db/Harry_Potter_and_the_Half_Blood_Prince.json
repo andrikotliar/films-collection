@@ -132,23 +132,19 @@
     }
   ],
   "budget": 250000000,
-  "parts": {
+  "boxOffice": 934000000,
+  "trailer": "sg81Lts5kYY",
+  "poster": "harry_potter_6.webp",
+  "year": 2009,
+  "summary": {
+    "sections": [
+      {
+        "text": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Harry Potter Universe",
     "part": 8
-  },
-  "trailers": [
-    "sg81Lts5kYY"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/harry_potter_6.webp"
-  ],
-  "description": [
-    {
-      "plot": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past."
-    }
-  ],
-  "boxOffice": 934000000,
-  "years": [
-    2009
-  ]
+  }
 }

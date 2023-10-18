@@ -139,23 +139,19 @@
     }
   ],
   "budget": 150000000,
-  "parts": {
+  "boxOffice": 940000000,
+  "trailer": "y6ZW7KXaXYk",
+  "poster": "harry_potter_5.webp",
+  "year": 2007,
+  "summary": {
+    "sections": [
+      {
+        "text": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Harry Potter Universe",
     "part": 7
-  },
-  "trailers": [
-    "y6ZW7KXaXYk"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/harry_potter_5.webp"
-  ],
-  "description": [
-    {
-      "plot": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts."
-    }
-  ],
-  "boxOffice": 940000000,
-  "years": [
-    2007
-  ]
+  }
 }

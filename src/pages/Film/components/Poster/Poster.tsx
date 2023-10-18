@@ -1,3 +1,4 @@
+import { env } from '@/configs';
 import classes from './Poster.module.css';
 import { FC } from 'react';
 
@@ -9,7 +10,7 @@ type PosterProps = {
 const Poster: FC<PosterProps> = ({ poster, title }) => {
   return (
     <div className={classes.poster}>
-      <img src={poster} alt={title} />
+      <img src={`${env.POSTERS_URL}${poster}`} alt={title} />
     </div>
   );
 };

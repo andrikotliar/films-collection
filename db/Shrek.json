@@ -121,23 +121,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 488000000,
+  "trailer": "CwXOrWvPBPk",
+  "poster": "shrek_1.webp",
+  "year": 2001,
+  "summary": {
+    "sections": [
+      {
+        "text": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Shrek",
     "part": 1
-  },
-  "trailers": [
-    "CwXOrWvPBPk"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/shrek_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back."
-    }
-  ],
-  "boxOffice": 488000000,
-  "years": [
-    2001
-  ]
+  }
 }

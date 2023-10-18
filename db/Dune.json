@@ -174,19 +174,15 @@
     }
   ],
   "budget": 165000000,
-  "trailers": [
-    "w0HgHet0sxg"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/dune.webp"
-  ],
-  "description": [
-    {
-      "plot": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy."
-    }
-  ],
   "boxOffice": 398000000,
-  "years": [
-    2021
-  ]
+  "trailer": "w0HgHet0sxg",
+  "poster": "dune.webp",
+  "year": 2021,
+  "summary": {
+    "sections": [
+      {
+        "text": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy."
+      }
+    ]
+  }
 }

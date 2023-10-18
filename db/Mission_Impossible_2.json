@@ -134,23 +134,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 546000000,
+  "trailer": "Aqk78Z57LGg",
+  "poster": "mi_2.webp",
+  "year": 2000,
+  "summary": {
+    "sections": [
+      {
+        "text": "IMF Agent Ethan Hunt is sent to Sydney, to find and destroy a genetically modified disease called \"Chimera\"."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Mission: Impossible",
     "part": 2
-  },
-  "trailers": [
-    "Aqk78Z57LGg"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mi_2.webp"
-  ],
-  "description": [
-    {
-      "plot": "IMF Agent Ethan Hunt is sent to Sydney, to find and destroy a genetically modified disease called \"Chimera\"."
-    }
-  ],
-  "boxOffice": 546000000,
-  "years": [
-    2000
-  ]
+  }
 }

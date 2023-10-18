@@ -115,23 +115,19 @@
     }
   ],
   "budget": 132000000,
-  "parts": {
+  "boxOffice": 415000000,
+  "trailer": "toLpchTUYk8",
+  "poster": "wolverine.webp",
+  "year": 2013,
+  "summary": {
+    "sections": [
+      {
+        "text": "Wolverine comes to Japan to meet an old friend whose life he saved years ago, and gets embroiled in a conspiracy involving yakuza and mutants."
+      }
+    ]
+  },
+  "chapters": {
     "title": "X-Men",
     "part": 6
-  },
-  "trailers": [
-    "toLpchTUYk8"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/wolverine.webp"
-  ],
-  "description": [
-    {
-      "plot": "Wolverine comes to Japan to meet an old friend whose life he saved years ago, and gets embroiled in a conspiracy involving yakuza and mutants."
-    }
-  ],
-  "boxOffice": 415000000,
-  "years": [
-    2013
-  ]
+  }
 }

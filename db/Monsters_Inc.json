@@ -128,19 +128,15 @@
       ]
     }
   ],
-  "trailers": [
-    "6tCxnHCqqxg"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/monsters_inc.webp"
-  ],
-  "description": [
-    {
-      "plot": "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, 2 monsters realize things may not be what they think."
-    }
-  ],
   "boxOffice": 580000000,
-  "years": [
-    2001
-  ]
+  "trailer": "6tCxnHCqqxg",
+  "poster": "monsters_inc.webp",
+  "year": 2001,
+  "summary": {
+    "sections": [
+      {
+        "text": "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, 2 monsters realize things may not be what they think."
+      }
+    ]
+  }
 }

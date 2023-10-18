@@ -172,19 +172,15 @@
     }
   ],
   "budget": 160000000,
-  "trailers": [
-    "2Rxoz13Bthc"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/warcraft.webp"
-  ],
-  "description": [
-    {
-      "plot": "As an Orc horde invades the planet Azeroth using a magic portal, a few human heroes and dissenting Orcs must attempt to stop the true evil behind this war."
-    }
-  ],
   "boxOffice": 434000000,
-  "years": [
-    2016
-  ]
+  "trailer": "2Rxoz13Bthc",
+  "poster": "warcraft.webp",
+  "year": 2016,
+  "summary": {
+    "sections": [
+      {
+        "text": "As an Orc horde invades the planet Azeroth using a magic portal, a few human heroes and dissenting Orcs must attempt to stop the true evil behind this war."
+      }
+    ]
+  }
 }

@@ -118,23 +118,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 695000000,
+  "trailer": "EDGYVFZxsXQ",
+  "poster": "mi_4.webp",
+  "year": 2011,
+  "summary": {
+    "sections": [
+      {
+        "text": "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Mission: Impossible",
     "part": 4
-  },
-  "trailers": [
-    "EDGYVFZxsXQ"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mi_4.webp"
-  ],
-  "description": [
-    {
-      "plot": "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name."
-    }
-  ],
-  "boxOffice": 695000000,
-  "years": [
-    2011
-  ]
+  }
 }

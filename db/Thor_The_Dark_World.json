@@ -149,23 +149,19 @@
     }
   ],
   "budget": 153000000,
-  "parts": {
+  "boxOffice": 645000000,
+  "trailer": "npvJ9FTgZbM",
+  "poster": "thor_2.webp",
+  "year": 2013,
+  "summary": {
+    "sections": [
+      {
+        "text": "When Dr. Jane Foster gets cursed with a powerful entity known as the Aether, Thor is heralded of the cosmic event known as the Convergence and the genocidal Dark Elves."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 8
-  },
-  "trailers": [
-    "npvJ9FTgZbM"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/thor_2.webp"
-  ],
-  "description": [
-    {
-      "plot": "When Dr. Jane Foster gets cursed with a powerful entity known as the Aether, Thor is heralded of the cosmic event known as the Convergence and the genocidal Dark Elves."
-    }
-  ],
-  "boxOffice": 645000000,
-  "years": [
-    2013
-  ]
+  }
 }

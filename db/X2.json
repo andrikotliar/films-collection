@@ -173,23 +173,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 408000000,
+  "trailer": "luHcOYS1HxQ",
+  "poster": "x_men_2.webp",
+  "year": 2003,
+  "summary": {
+    "sections": [
+      {
+        "text": "When anti-mutant colonel William Stryker kidnaps Professor X and attacks his school, the X-Men must ally with their archenemy Magneto to stop him."
+      }
+    ]
+  },
+  "chapters": {
     "title": "X-Men",
     "part": 2
-  },
-  "trailers": [
-    "luHcOYS1HxQ"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/x_men_2.webp"
-  ],
-  "description": [
-    {
-      "plot": "When anti-mutant colonel William Stryker kidnaps Professor X and attacks his school, the X-Men must ally with their archenemy Magneto to stop him."
-    }
-  ],
-  "boxOffice": 408000000,
-  "years": [
-    2003
-  ]
+  }
 }

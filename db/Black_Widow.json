@@ -114,23 +114,19 @@
     }
   ],
   "budget": 200000000,
-  "parts": {
+  "boxOffice": 379000000,
+  "trailer": "ybji16u608U",
+  "poster": "black_widow.webp",
+  "year": 2021,
+  "summary": {
+    "sections": [
+      {
+        "text": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 27
-  },
-  "trailers": [
-    "ybji16u608U"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/black_widow.webp"
-  ],
-  "description": [
-    {
-      "plot": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises."
-    }
-  ],
-  "boxOffice": 379000000,
-  "years": [
-    2021
-  ]
+  }
 }

@@ -128,23 +128,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 1200000000,
+  "trailer": "Ke1Y3P9D0Bc",
+  "poster": "iron_man_3.webp",
+  "year": 2013,
+  "summary": {
+    "sections": [
+      {
+        "text": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 7
-  },
-  "trailers": [
-    "Ke1Y3P9D0Bc"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/iron_man_3.webp"
-  ],
-  "description": [
-    {
-      "plot": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution."
-    }
-  ],
-  "boxOffice": 1200000000,
-  "years": [
-    2013
-  ]
+  }
 }

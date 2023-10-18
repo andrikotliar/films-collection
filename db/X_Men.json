@@ -159,23 +159,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 296000000,
+  "trailer": "VNxwlx6etXI",
+  "poster": "x_men_1.webp",
+  "year": 2000,
+  "summary": {
+    "sections": [
+      {
+        "text": "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men."
+      }
+    ]
+  },
+  "chapters": {
     "title": "X-Men",
     "part": 1
-  },
-  "trailers": [
-    "VNxwlx6etXI"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/x_men_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men."
-    }
-  ],
-  "boxOffice": 296000000,
-  "years": [
-    2000
-  ]
+  }
 }

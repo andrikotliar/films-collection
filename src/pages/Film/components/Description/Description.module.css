@@ -1,25 +1,39 @@
 .description {
-  background-color: #f7f7f7;
+  background-color: #f2f2f2;
   border-radius: var(--app-border-radius);
 }
 
-.title {
-  font-size: 16px;
+.header {
+  font-size: 18px;
   padding: 20px;
   border-bottom: var(--app-border);
-  text-transform: uppercase;
 }
 
-.text {
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   padding: 20px;
-  line-height: 1.5;
+  max-height: 300px;
+  overflow: auto;
 }
 
-.episodesCount {
-  border-top: var(--app-border);
-  padding: 20px;
+.section {
+  padding-bottom: 20px;
+  border-bottom: var(--app-border);
 }
 
-.episodesCount b {
+.section:last-child {
+  padding-bottom: 0;
+  border: none;
+}
+
+.section h3 {
   color: var(--main-color);
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.section p {
+  line-height: 1.5;
 }

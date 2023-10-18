@@ -107,19 +107,15 @@
     }
   ],
   "budget": 11000000,
-  "trailers": [
-    "34WIbmXkewU"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/intouchables.webp"
-  ],
-  "description": [
-    {
-      "plot": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver."
-    }
-  ],
   "boxOffice": 427000000,
-  "years": [
-    2011
-  ]
+  "trailer": "34WIbmXkewU",
+  "poster": "intouchables.webp",
+  "year": 2011,
+  "summary": {
+    "sections": [
+      {
+        "text": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver."
+      }
+    ]
+  }
 }

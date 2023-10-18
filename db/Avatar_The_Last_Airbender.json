@@ -300,36 +300,51 @@
     "title": "The Last Airbender",
     "part": 1
   },
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/last_airbender.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/last_airbender_s2.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/last_airbender_s3.webp"
-  ],
-  "trailers": [
-    "ahPeclU9VW0",
-    "ahPeclU9VW0",
-    "ahPeclU9VW0"
-  ],
-  "description": [
-    {
-      "title": "Book 1: Water",
-      "plot": "Follow the journey of Aang, the last Airbender and the Avatar, as he awakens from a century-long slumber to a world ravaged by war. With the help of new friends Katara and Sokka, he embarks on a quest to master the elements and bring balance to a world torn by the Fire Nation's aggression.",
-      "episodesCount": 20
-    },
-    {
-      "title": "Book 2: Earth",
-      "plot": "Aang continues his training as the Avatar, facing new challenges and adventures. The group confronts the Earth Kingdom's struggles, uncovers the secrets of the spirit world, and Aang delves deeper into his connection with the Avatar State, all while the Fire Nation intensifies its pursuit.",
-      "episodesCount": 20
-    },
-    {
-      "title": "Book 3: Fire",
-      "plot": "Aang and his friends prepare for the ultimate showdown with the Fire Nation and its tyrannical ruler, Fire Lord Ozai. The group faces personal dilemmas and tough choices, while the world holds its breath, waiting for the Avatar's triumph and the restoration of balance.",
-      "episodesCount": 21
-    }
-  ],
-  "years": [
-    2005,
-    2006,
-    2008
-  ]
+  "poster": "last_airbender.webp",
+  "year": 2005,
+  "summary": {
+    "sections": [
+      {
+        "title": "Book 1: Water",
+        "text": "Follow the journey of Aang, the last Airbender and the Avatar, as he awakens from a century-long slumber to a world ravaged by war. With the help of new friends Katara and Sokka, he embarks on a quest to master the elements and bring balance to a world torn by the Fire Nation's aggression."
+      },
+      {
+        "title": "Book 2: Earth",
+        "text": "Aang continues his training as the Avatar, facing new challenges and adventures. The group confronts the Earth Kingdom's struggles, uncovers the secrets of the spirit world, and Aang delves deeper into his connection with the Avatar State, all while the Fire Nation intensifies its pursuit."
+      },
+      {
+        "title": "Book 3: Fire",
+        "text": "Aang and his friends prepare for the ultimate showdown with the Fire Nation and its tyrannical ruler, Fire Lord Ozai. The group faces personal dilemmas and tough choices, while the world holds its breath, waiting for the Avatar's triumph and the restoration of balance."
+      }
+    ]
+  },
+  "series": {
+    "episodesTotal": 61,
+    "seasons": [
+      {
+        "number": 1,
+        "title": "Book 1: Water",
+        "poster": "last_airbender.webp",
+        "trailer": "ahPeclU9VW0",
+        "episodesCount": 20,
+        "year": 2005
+      },
+      {
+        "number": 2,
+        "title": "Book 2: Earth",
+        "poster": "last_airbender_s2.webp",
+        "trailer": "ahPeclU9VW0",
+        "episodesCount": 20,
+        "year": 2006
+      },
+      {
+        "number": 3,
+        "title": "Book 3: Fire",
+        "poster": "last_airbender_s3.webp",
+        "trailer": "ahPeclU9VW0",
+        "episodesCount": 21,
+        "year": 2007
+      }
+    ]
+  }
 }

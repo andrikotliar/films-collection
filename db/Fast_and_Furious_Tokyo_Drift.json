@@ -107,23 +107,19 @@
     }
   ],
   "budget": 85000000,
-  "parts": {
+  "boxOffice": 158000000,
+  "trailer": "p8HQ2JLlc4E",
+  "poster": "fast_and_furious_3.webp",
+  "year": 2006,
+  "summary": {
+    "sections": [
+      {
+        "text": "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Fast and Furious",
     "part": 3
-  },
-  "trailers": [
-    "p8HQ2JLlc4E"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_3.webp"
-  ],
-  "description": [
-    {
-      "plot": "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America."
-    }
-  ],
-  "boxOffice": 158000000,
-  "years": [
-    2006
-  ]
+  }
 }

@@ -126,23 +126,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 963000000,
+  "trailer": "HKSZtp_OGHY",
+  "poster": "pirates_3.webp",
+  "year": 2007,
+  "summary": {
+    "sections": [
+      {
+        "text": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Pirates of the Caribbean",
     "part": 3
-  },
-  "trailers": [
-    "HKSZtp_OGHY"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/pirates_3.webp"
-  ],
-  "description": [
-    {
-      "plot": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle."
-    }
-  ],
-  "boxOffice": 963000000,
-  "years": [
-    2007
-  ]
+  }
 }

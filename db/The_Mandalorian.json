@@ -234,28 +234,39 @@
     "title": "Star Wars Universe",
     "part": 9
   },
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mandalorian.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mandalorian_s2.webp"
-  ],
-  "trailers": [
-    "OFlBh_eUsjA",
-    "eW7Twd85m2g"
-  ],
-  "description": [
-    {
-      "title": "Season 1",
-      "plot": "Set in the Star Wars universe, the first season follows a lone bounty hunter known as the Mandalorian. His quest to capture a mysterious and powerful child, referred to as \"The Child\" but commonly known as Baby Yoda, leads to a series of adventures across the galaxy. He must protect the child from various threats and uncover the secrets of its origins.",
-      "episodesCount": 8
-    },
-    {
-      "title": "Season 2",
-      "plot": "In the second season, the Mandalorian continues his journey with Baby Yoda, searching for other Mandalorians who can help him return the child to its people. Their quest leads them to encounters with familiar and new characters, as well as deeper involvement in the events of the broader Star Wars galaxy.",
-      "episodesCount": 8
-    }
-  ],
-  "years": [
-    2019,
-    2020
-  ]
+  "poster": "mandalorian.webp",
+  "year": 2019,
+  "summary": {
+    "sections": [
+      {
+        "title": "Season 1",
+        "text": "Set in the Star Wars universe, the first season follows a lone bounty hunter known as the Mandalorian. His quest to capture a mysterious and powerful child, referred to as \"The Child\" but commonly known as Baby Yoda, leads to a series of adventures across the galaxy. He must protect the child from various threats and uncover the secrets of its origins."
+      },
+      {
+        "title": "Season 2",
+        "text": "In the second season, the Mandalorian continues his journey with Baby Yoda, searching for other Mandalorians who can help him return the child to its people. Their quest leads them to encounters with familiar and new characters, as well as deeper involvement in the events of the broader Star Wars galaxy."
+      }
+    ]
+  },
+  "series": {
+    "episodesTotal": 16,
+    "seasons": [
+      {
+        "number": 1,
+        "title": "Season 1",
+        "poster": "mandalorian.webp",
+        "trailer": "OFlBh_eUsjA",
+        "episodesCount": 8,
+        "year": 2019
+      },
+      {
+        "number": 2,
+        "title": "Season 2",
+        "poster": "mandalorian_s2.webp",
+        "trailer": "eW7Twd85m2g",
+        "episodesCount": 8,
+        "year": 2020
+      }
+    ]
+  }
 }

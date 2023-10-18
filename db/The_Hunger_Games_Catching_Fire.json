@@ -123,23 +123,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 865000000,
+  "trailer": "EAzGXqJSDJ8",
+  "poster": "hunger_games_2.webp",
+  "year": 2013,
+  "summary": {
+    "sections": [
+      {
+        "text": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem."
+      }
+    ]
+  },
+  "chapters": {
     "title": "The Hunger Games",
     "part": 2
-  },
-  "trailers": [
-    "EAzGXqJSDJ8"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hunger_games_2.webp"
-  ],
-  "description": [
-    {
-      "plot": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem."
-    }
-  ],
-  "boxOffice": 865000000,
-  "years": [
-    2013
-  ]
+  }
 }

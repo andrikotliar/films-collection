@@ -137,19 +137,15 @@
     }
   ],
   "budget": 22000000,
-  "trailers": [
-    "vaN8BtA8OJk"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/gentlemen.webp"
-  ],
-  "description": [
-    {
-      "plot": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him."
-    }
-  ],
   "boxOffice": 115000000,
-  "years": [
-    2019
-  ]
+  "trailer": "vaN8BtA8OJk",
+  "poster": "gentlemen.webp",
+  "year": 2019,
+  "summary": {
+    "sections": [
+      {
+        "text": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him."
+      }
+    ]
+  }
 }

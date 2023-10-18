@@ -125,19 +125,15 @@
     }
   ],
   "budget": 78000000,
-  "trailers": [
-    "_WWIiTlGyYQ"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/league_of_extraordinary_gentlemen.webp"
-  ],
-  "description": [
-    {
-      "plot": "In an alternate Victorian Age world, a group of famous contemporary fantasy, science fiction, and adventure characters team up on a secret mission."
-    }
-  ],
   "boxOffice": 179000000,
-  "years": [
-    2003
-  ]
+  "trailer": "_WWIiTlGyYQ",
+  "poster": "league_of_extraordinary_gentlemen.webp",
+  "year": 2003,
+  "summary": {
+    "sections": [
+      {
+        "text": "In an alternate Victorian Age world, a group of famous contemporary fantasy, science fiction, and adventure characters team up on a secret mission."
+      }
+    ]
+  }
 }

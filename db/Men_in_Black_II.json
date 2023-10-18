@@ -114,23 +114,19 @@
     }
   ],
   "budget": 140000000,
-  "parts": {
+  "boxOffice": 442000000,
+  "trailer": "p4NJHqoojOU",
+  "poster": "mib_2.webp",
+  "year": 2002,
+  "summary": {
+    "sections": [
+      {
+        "text": "Agent J needs help so he is sent to find Agent K and restore his memory."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Men in Black",
     "part": 2
-  },
-  "trailers": [
-    "p4NJHqoojOU"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mib_2.webp"
-  ],
-  "description": [
-    {
-      "plot": "Agent J needs help so he is sent to find Agent K and restore his memory."
-    }
-  ],
-  "boxOffice": 442000000,
-  "years": [
-    2002
-  ]
+  }
 }

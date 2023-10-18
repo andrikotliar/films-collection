@@ -123,23 +123,19 @@
     }
   ],
   "budget": 14000000,
-  "parts": {
+  "boxOffice": 14000000,
+  "trailer": "jDDFNpj9xBQ",
+  "poster": "d13_2.webp",
+  "year": 2009,
+  "summary": {
+    "sections": [
+      {
+        "text": "Damien and Leito return to District 13 on a mission to bring peace to the troubled sector that is controlled by five different gang bosses, before the city's secret services take drastic measures to solve the problem."
+      }
+    ]
+  },
+  "chapters": {
     "title": "District 13",
     "part": 2
-  },
-  "trailers": [
-    "jDDFNpj9xBQ"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/d13_2.webp"
-  ],
-  "description": [
-    {
-      "plot": "Damien and Leito return to District 13 on a mission to bring peace to the troubled sector that is controlled by five different gang bosses, before the city's secret services take drastic measures to solve the problem."
-    }
-  ],
-  "boxOffice": 14000000,
-  "years": [
-    2009
-  ]
+  }
 }

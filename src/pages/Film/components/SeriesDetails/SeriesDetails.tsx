@@ -1,0 +1,51 @@
+import classes from './SeriesDetails.module.css';
+import { SeriesExtension } from '@/common';
+import { buildLink } from '@/helpers';
+import { FC } from 'react';
+import { Link } from 'react-router-dom';
+
+type SeriesDetailsProps = {
+  series: SeriesExtension;
+};
+
+const SeriesDetails: FC<SeriesDetailsProps> = ({ series }) => {
+  return (
+    <div className={classes.seriesDetails}>
+      <table>
+        <thead>
+          <tr>
+            <td>Season</td>
+            <td>Title</td>
+            <td>Episodes</td>
+            <td>Year</td>
+          </tr>
+        </thead>
+        <tbody>
+          {series.seasons.map((season) => (
+            <tr key={season.number}>
+              <td>{season.number}</td>
+              <td className={classes.title}>
+                {season.title.includes('Season') ? (
+                  <i>No specified</i>
+                ) : (
+                  season.title
+                )}
+              </td>
+              <td>{season.episodesCount}</td>
+              <td>
+                <Link
+                  to={buildLink('year', season.year)}
+                  className={classes.link}
+                >
+                  {season.year}
+                </Link>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+};
+
+export { SeriesDetails };

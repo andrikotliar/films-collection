@@ -145,23 +145,19 @@
     }
   ],
   "budget": 225000000,
-  "parts": {
+  "boxOffice": 668000000,
+  "trailer": "T6DJcgm3wNY",
+  "poster": "man_of_steel.webp",
+  "year": 2013,
+  "summary": {
+    "sections": [
+      {
+        "text": "Clark Kent is an alien who as a child was evacuated from his dying world and came to Earth, living as a normal human. But when survivors of his alien home invade Earth, he must reveal himself to the world."
+      }
+    ]
+  },
+  "chapters": {
     "title": "DC Extended Universe",
     "part": 1
-  },
-  "trailers": [
-    "T6DJcgm3wNY"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/man_of_steel.webp"
-  ],
-  "description": [
-    {
-      "plot": "Clark Kent is an alien who as a child was evacuated from his dying world and came to Earth, living as a normal human. But when survivors of his alien home invade Earth, he must reveal himself to the world."
-    }
-  ],
-  "boxOffice": 668000000,
-  "years": [
-    2013
-  ]
+  }
 }

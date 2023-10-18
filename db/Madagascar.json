@@ -118,23 +118,19 @@
     }
   ],
   "budget": 75000000,
-  "parts": {
+  "boxOffice": 542000000,
+  "trailer": "orAqhC-Hp_o",
+  "poster": "madagascar.webp",
+  "year": 2005,
+  "summary": {
+    "sections": [
+      {
+        "text": "A group of animals who have spent all their life in a New York zoo end up in the jungles of Madagascar, and must adjust to living in the wild."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Madagascar",
     "part": 1
-  },
-  "trailers": [
-    "orAqhC-Hp_o"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/madagascar.webp"
-  ],
-  "description": [
-    {
-      "plot": "A group of animals who have spent all their life in a New York zoo end up in the jungles of Madagascar, and must adjust to living in the wild."
-    }
-  ],
-  "boxOffice": 542000000,
-  "years": [
-    2005
-  ]
+  }
 }

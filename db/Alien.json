@@ -151,23 +151,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 106000000,
+  "trailer": "jQ5lPt9edzQ",
+  "poster": "alien_1.webp",
+  "year": 1979,
+  "summary": {
+    "sections": [
+      {
+        "text": "After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Aliens",
     "part": 1
-  },
-  "trailers": [
-    "jQ5lPt9edzQ"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/alien_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun."
-    }
-  ],
-  "boxOffice": 106000000,
-  "years": [
-    1979
-  ]
+  }
 }

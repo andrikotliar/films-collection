@@ -132,19 +132,15 @@
       ]
     }
   ],
-  "trailers": [
-    "L9szn1QQfas"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/tron.webp"
-  ],
-  "description": [
-    {
-      "plot": "The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world."
-    }
-  ],
   "boxOffice": 400000000,
-  "years": [
-    2010
-  ]
+  "trailer": "L9szn1QQfas",
+  "poster": "tron.webp",
+  "year": 2010,
+  "summary": {
+    "sections": [
+      {
+        "text": "The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world."
+      }
+    ]
+  }
 }

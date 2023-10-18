@@ -185,23 +185,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 1150000000,
+  "trailer": "dKrVegVI0Us",
+  "poster": "captain_america_3.webp",
+  "year": 2016,
+  "summary": {
+    "sections": [
+      {
+        "text": "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 13
-  },
-  "trailers": [
-    "dKrVegVI0Us"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/captain_america_3.webp"
-  ],
-  "description": [
-    {
-      "plot": "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man."
-    }
-  ],
-  "boxOffice": 1150000000,
-  "years": [
-    2016
-  ]
+  }
 }

@@ -105,23 +105,19 @@
     }
   ],
   "budget": 14000000,
-  "parts": {
+  "boxOffice": 12000000,
+  "trailer": "Mcmkx1klOpE",
+  "poster": "d13_1.webp",
+  "year": 2004,
+  "summary": {
+    "sections": [
+      {
+        "text": "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb."
+      }
+    ]
+  },
+  "chapters": {
     "title": "District 13",
     "part": 1
-  },
-  "trailers": [
-    "Mcmkx1klOpE"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/d13_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb."
-    }
-  ],
-  "boxOffice": 12000000,
-  "years": [
-    2004
-  ]
+  }
 }

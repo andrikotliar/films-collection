@@ -99,23 +99,19 @@
     }
   ],
   "budget": 40000000,
-  "parts": {
+  "boxOffice": 109000000,
+  "trailer": "Pbh3CDBNIQA",
+  "poster": "transporter_3.webp",
+  "year": 2008,
+  "summary": {
+    "sections": [
+      {
+        "text": "Frank Martin puts the driving gloves on to deliver Valentina, the kidnapped daughter of a Ukrainian government official, from Marseilles to Odessa on the Black Sea. En route, he has to contend with thugs who want to intercept Valentina's safe delivery and not let his personal feelings get in the way of his dangerous objective."
+      }
+    ]
+  },
+  "chapters": {
     "title": "The Transporter",
     "part": 3
-  },
-  "trailers": [
-    "Pbh3CDBNIQA"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/transporter_3.webp"
-  ],
-  "description": [
-    {
-      "plot": "Frank Martin puts the driving gloves on to deliver Valentina, the kidnapped daughter of a Ukrainian government official, from Marseilles to Odessa on the Black Sea. En route, he has to contend with thugs who want to intercept Valentina's safe delivery and not let his personal feelings get in the way of his dangerous objective."
-    }
-  ],
-  "boxOffice": 109000000,
-  "years": [
-    2008
-  ]
+  }
 }

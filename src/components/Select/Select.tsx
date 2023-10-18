@@ -1,11 +1,6 @@
 import classNames from 'classnames';
 import classes from './Select.module.css';
-import {
-  FC,
-  KeyboardEvent,
-  useEffect,
-  useState,
-} from 'react';
+import { FC, KeyboardEvent, useEffect, useState } from 'react';
 import { ExpandIcon } from '@/assets/icons';
 
 type Option = {
@@ -19,14 +14,8 @@ type SelectProps = {
   onSelect?: (option: Option) => void;
 };
 
-const Select: FC<SelectProps> = ({
-  options,
-  defaultValue,
-  onSelect,
-}) => {
-  const [selectedOption, setSelectedOption] = useState(
-    options[0],
-  );
+const Select: FC<SelectProps> = ({ options, defaultValue, onSelect }) => {
+  const [selectedOption, setSelectedOption] = useState(options[0]);
   const [activeIndex, setActiveIndex] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
 
@@ -42,12 +31,10 @@ const Select: FC<SelectProps> = ({
   };
 
   const handleDropdown = () => {
-    setIsOpen(isOpen => !isOpen);
+    setIsOpen((isOpen) => !isOpen);
   };
 
-  const handleDropdownOnKey = (
-    e: KeyboardEvent<HTMLDivElement>,
-  ) => {
+  const handleDropdownOnKey = (e: KeyboardEvent<HTMLDivElement>) => {
     switch (e.key) {
       case ' ':
         e.preventDefault();
@@ -63,7 +50,7 @@ const Select: FC<SelectProps> = ({
         break;
       case 'ArrowDown':
         e.preventDefault();
-        setActiveIndex(index => {
+        setActiveIndex((index) => {
           if (index >= 0 && index < options.length - 1) {
             return index + 1;
           }
@@ -73,7 +60,7 @@ const Select: FC<SelectProps> = ({
         break;
       case 'ArrowUp':
         e.preventDefault();
-        setActiveIndex(index => {
+        setActiveIndex((index) => {
           if (index > 0) {
             return index - 1;
           }
@@ -89,7 +76,7 @@ const Select: FC<SelectProps> = ({
   useEffect(() => {
     if (defaultValue) {
       const index = options.findIndex(
-        option => option.value === defaultValue,
+        (option) => option.value === defaultValue,
       );
 
       if (index !== -1) {
@@ -126,13 +113,12 @@ const Select: FC<SelectProps> = ({
         {options.map((option, index) => (
           <li
             key={option.value}
-            onClick={e => {
+            onClick={(e) => {
               e.stopPropagation();
               handleChange(option, index);
             }}
             className={classNames(classes.option, {
-              [classes.selected]:
-                option.value === selectedOption.value,
+              [classes.selected]: option.value === selectedOption.value,
               [classes.highlighted]: activeIndex === index,
             })}
             role="menuitem"

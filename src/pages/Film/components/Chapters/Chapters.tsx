@@ -4,6 +4,7 @@ import { Link, useParams } from 'react-router-dom';
 import classNames from 'classnames';
 import { Chapter, FilmData } from '@/common';
 import { Scrollable } from '@/components';
+import { env } from '@/configs';
 
 type ChaptersProps = {
   data: FilmData[];
@@ -15,21 +16,19 @@ const Chapters: FC<ChaptersProps> = ({ data, parts }) => {
 
   const partsList = () => {
     return data
-      .filter(film => {
-        if (film.parts !== undefined) {
-          return film.parts.title === parts.title;
+      .filter((film) => {
+        if (film.chapters !== undefined) {
+          return film.chapters.title === parts.title;
         }
       })
       .sort((a, b) =>
-        Number(a.parts?.part) > Number(b.parts?.part)
-          ? 1
-          : -1,
+        Number(a.chapters?.part) > Number(b.chapters?.part) ? 1 : -1,
       );
   };
 
   return (
     <Scrollable className={classes.chapters}>
-      {partsList().map(film => (
+      {partsList().map((film) => (
         <Link
           to={`/film/${film.id}`}
           className={classNames(classes.link, {
@@ -38,7 +37,7 @@ const Chapters: FC<ChaptersProps> = ({ data, parts }) => {
           key={film.id}
           id={film.id}
         >
-          <img src={film.posters[0]} alt={film.title} />
+          <img src={`${env.POSTERS_URL}${film.poster}`} alt={film.title} />
         </Link>
       ))}
     </Scrollable>

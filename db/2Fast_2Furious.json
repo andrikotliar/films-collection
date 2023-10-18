@@ -117,23 +117,19 @@
     }
   ],
   "budget": 76000000,
-  "parts": {
+  "boxOffice": 236000000,
+  "trailer": "F_VIM03DXWI",
+  "poster": "fast_and_furious_2.webp",
+  "year": 2003,
+  "summary": {
+    "sections": [
+      {
+        "text": "Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Fast and Furious",
     "part": 2
-  },
-  "trailers": [
-    "F_VIM03DXWI"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_2.webp"
-  ],
-  "description": [
-    {
-      "plot": "Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself."
-    }
-  ],
-  "boxOffice": 236000000,
-  "years": [
-    2003
-  ]
+  }
 }

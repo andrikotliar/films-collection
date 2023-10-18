@@ -157,19 +157,15 @@
       ]
     }
   ],
-  "trailers": [
-    "jWM0ct-OLsM"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/zootopia.webp"
-  ],
-  "description": [
-    {
-      "plot": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy."
-    }
-  ],
   "boxOffice": 1020000000,
-  "years": [
-    2016
-  ]
+  "trailer": "jWM0ct-OLsM",
+  "poster": "zootopia.webp",
+  "year": 2016,
+  "summary": {
+    "sections": [
+      {
+        "text": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy."
+      }
+    ]
+  }
 }

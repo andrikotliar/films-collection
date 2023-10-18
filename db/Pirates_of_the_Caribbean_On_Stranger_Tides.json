@@ -118,23 +118,19 @@
     }
   ],
   "budget": 250000000,
-  "parts": {
+  "boxOffice": 1050000000,
+  "trailer": "t5AqJww06bw",
+  "poster": "pirates_4.webp",
+  "year": 2011,
+  "summary": {
+    "sections": [
+      {
+        "text": "Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Pirates of the Caribbean",
     "part": 4
-  },
-  "trailers": [
-    "t5AqJww06bw"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/pirates_4.webp"
-  ],
-  "description": [
-    {
-      "plot": "Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too."
-    }
-  ],
-  "boxOffice": 1050000000,
-  "years": [
-    2011
-  ]
+  }
 }

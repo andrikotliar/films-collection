@@ -126,19 +126,15 @@
     }
   ],
   "budget": 160000000,
-  "trailers": [
-    "XmIIgE7eSak"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/oblivion.webp"
-  ],
-  "description": [
-    {
-      "plot": "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself."
-    }
-  ],
   "boxOffice": 286000000,
-  "years": [
-    2013
-  ]
+  "trailer": "XmIIgE7eSak",
+  "poster": "oblivion.webp",
+  "year": 2013,
+  "summary": {
+    "sections": [
+      {
+        "text": "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself."
+      }
+    ]
+  }
 }

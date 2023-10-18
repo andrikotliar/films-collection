@@ -211,28 +211,39 @@
       "title": "Fantasy"
     }
   ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/witcher.webp",
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/witcher_s2.webp"
-  ],
-  "trailers": [
-    "ndl1W4ltcmg",
-    "2aMVzFlApa0"
-  ],
-  "description": [
-    {
-      "title": "Season 1",
-      "plot": "In the first season, Geralt of Rivia, a monster hunter known as a Witcher, navigates a world filled with dangerous creatures and complex political intrigue. He crosses paths with Yennefer, a powerful sorceress, and Ciri, a young princess with a destiny tied to his own. The three destinies converge in a world where the line between good and evil is blurred.",
-      "episodesCount": 8
-    },
-    {
-      "title": "Season 2",
-      "plot": "Geralt embraces his destiny as he protects Ciri from the forces battling for control of the Continent — and from the mysterious power she possesses.",
-      "episodesCount": 8
-    }
-  ],
-  "years": [
-    2019,
-    2021
-  ]
+  "poster": "witcher.webp",
+  "year": 2019,
+  "summary": {
+    "sections": [
+      {
+        "title": "Season 1",
+        "text": "In the first season, Geralt of Rivia, a monster hunter known as a Witcher, navigates a world filled with dangerous creatures and complex political intrigue. He crosses paths with Yennefer, a powerful sorceress, and Ciri, a young princess with a destiny tied to his own. The three destinies converge in a world where the line between good and evil is blurred."
+      },
+      {
+        "title": "Season 2",
+        "text": "Geralt embraces his destiny as he protects Ciri from the forces battling for control of the Continent — and from the mysterious power she possesses."
+      }
+    ]
+  },
+  "series": {
+    "episodesTotal": 16,
+    "seasons": [
+      {
+        "number": 1,
+        "title": "Season 1",
+        "poster": "witcher.webp",
+        "trailer": "ndl1W4ltcmg",
+        "episodesCount": 8,
+        "year": 2019
+      },
+      {
+        "number": 2,
+        "title": "Season 2",
+        "poster": "witcher_s2.webp",
+        "trailer": "2aMVzFlApa0",
+        "episodesCount": 8,
+        "year": 2021
+      }
+    ]
+  }
 }

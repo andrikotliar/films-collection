@@ -111,18 +111,14 @@
     }
   ],
   "budget": 40000000000,
-  "trailers": [
-    "taE3PwurhYM"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/klaus.webp"
-  ],
-  "description": [
-    {
-      "plot": "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions."
-    }
-  ],
-  "years": [
-    2019
-  ]
+  "trailer": "taE3PwurhYM",
+  "poster": "klaus.webp",
+  "year": 2019,
+  "summary": {
+    "sections": [
+      {
+        "text": "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions."
+      }
+    ]
+  }
 }

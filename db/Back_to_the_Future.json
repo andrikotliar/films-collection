@@ -131,23 +131,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 381000000,
+  "trailer": "qvsgGtivCgs",
+  "poster": "back_to_the_future_1.webp",
+  "year": 1985,
+  "summary": {
+    "sections": [
+      {
+        "text": "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Back to the Future",
     "part": 1
-  },
-  "trailers": [
-    "qvsgGtivCgs"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/back_to_the_future_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown."
-    }
-  ],
-  "boxOffice": 381000000,
-  "years": [
-    1985
-  ]
+  }
 }

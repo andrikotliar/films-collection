@@ -253,23 +253,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 960000000,
+  "trailer": "fnaojlfdUbs",
+  "poster": "middle_earth_2.webp",
+  "year": 2013,
+  "summary": {
+    "sections": [
+      {
+        "text": "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Middle-Earth Universe",
     "part": 2
-  },
-  "trailers": [
-    "fnaojlfdUbs"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/middle_earth_2.webp"
-  ],
-  "description": [
-    {
-      "plot": "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring."
-    }
-  ],
-  "boxOffice": 960000000,
-  "years": [
-    2013
-  ]
+  }
 }

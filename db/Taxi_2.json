@@ -111,23 +111,19 @@
     }
   ],
   "budget": 10000000,
-  "parts": {
+  "boxOffice": 64000000,
+  "trailer": "XkMZ75BwhCg",
+  "poster": "taxi_2.webp",
+  "year": 2000,
+  "summary": {
+    "sections": [
+      {
+        "text": "Police inspector Emilien and his taxi-driver pal Daniel are back, this time on the tail of a group of Japanese yakuza."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Besson's Taxi",
     "part": 2
-  },
-  "trailers": [
-    "XkMZ75BwhCg"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/taxi_2.webp"
-  ],
-  "description": [
-    {
-      "plot": "Police inspector Emilien and his taxi-driver pal Daniel are back, this time on the tail of a group of Japanese yakuza."
-    }
-  ],
-  "boxOffice": 64000000,
-  "years": [
-    2000
-  ]
+  }
 }

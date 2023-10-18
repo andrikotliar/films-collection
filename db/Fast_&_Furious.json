@@ -124,23 +124,19 @@
     }
   ],
   "budget": 85000000,
-  "parts": {
+  "boxOffice": 363000000,
+  "trailer": "Gl-d_UIhdBw",
+  "poster": "fast_and_furious_4.webp",
+  "year": 2009,
+  "summary": {
+    "sections": [
+      {
+        "text": "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Fast and Furious",
     "part": 4
-  },
-  "trailers": [
-    "Gl-d_UIhdBw"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_4.webp"
-  ],
-  "description": [
-    {
-      "plot": "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation."
-    }
-  ],
-  "boxOffice": 363000000,
-  "years": [
-    2009
-  ]
+  }
 }

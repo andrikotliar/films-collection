@@ -207,23 +207,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 871000000,
+  "trailer": "aStYWD25fAQ",
+  "poster": "middle_earth_4.webp",
+  "year": 2001,
+  "summary": {
+    "sections": [
+      {
+        "text": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save The World of Middle-earth from the Dark Lord Sauron."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Middle-Earth Universe",
     "part": 4
-  },
-  "trailers": [
-    "aStYWD25fAQ"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/middle_earth_4.webp"
-  ],
-  "description": [
-    {
-      "plot": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save The World of Middle-earth from the Dark Lord Sauron."
-    }
-  ],
-  "boxOffice": 871000000,
-  "years": [
-    2001
-  ]
+  }
 }

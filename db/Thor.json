@@ -143,23 +143,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 449000000,
+  "trailer": "JOddp-nlNvQ",
+  "poster": "thor_1.webp",
+  "year": 2011,
+  "summary": {
+    "sections": [
+      {
+        "text": "The powerful, but arrogant god Thor, is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 4
-  },
-  "trailers": [
-    "JOddp-nlNvQ"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/thor_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "The powerful, but arrogant god Thor, is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders."
-    }
-  ],
-  "boxOffice": 449000000,
-  "years": [
-    2011
-  ]
+  }
 }

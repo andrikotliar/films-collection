@@ -153,23 +153,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 390000000,
+  "trailer": "Rh_BJXG1-44",
+  "poster": "indiana_jones_1.webp",
+  "year": 1981,
+  "summary": {
+    "sections": [
+      {
+        "text": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Indiana Jones",
     "part": 1
-  },
-  "trailers": [
-    "Rh_BJXG1-44"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/indiana_jones_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers."
-    }
-  ],
-  "boxOffice": 390000000,
-  "years": [
-    1981
-  ]
+  }
 }

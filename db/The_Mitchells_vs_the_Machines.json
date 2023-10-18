@@ -116,18 +116,14 @@
       "title": "Robots"
     }
   ],
-  "trailers": [
-    "_ak5dFt8Ar0"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mitchells.webp"
-  ],
-  "description": [
-    {
-      "plot": "A quirky, dysfunctional family's road trip is upended when they find themselves in the middle of the robot apocalypse and suddenly become humanity's unlikeliest last hope."
-    }
-  ],
-  "years": [
-    2021
-  ]
+  "trailer": "_ak5dFt8Ar0",
+  "poster": "mitchells.webp",
+  "year": 2021,
+  "summary": {
+    "sections": [
+      {
+        "text": "A quirky, dysfunctional family's road trip is upended when they find themselves in the middle of the robot apocalypse and suddenly become humanity's unlikeliest last hope."
+      }
+    ]
+  }
 }

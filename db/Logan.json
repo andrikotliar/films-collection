@@ -152,23 +152,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 619000000,
+  "trailer": "Div0iP65aZo",
+  "poster": "logan.webp",
+  "year": 2017,
+  "summary": {
+    "sections": [
+      {
+        "text": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety."
+      }
+    ]
+  },
+  "chapters": {
     "title": "X-Men",
     "part": 9
-  },
-  "trailers": [
-    "Div0iP65aZo"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/logan.webp"
-  ],
-  "description": [
-    {
-      "plot": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety."
-    }
-  ],
-  "boxOffice": 619000000,
-  "years": [
-    2017
-  ]
+  }
 }

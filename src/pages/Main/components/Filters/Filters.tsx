@@ -3,34 +3,25 @@ import { useEffect } from 'react';
 import { filtersConfig } from '@/configs';
 import { useFilmsContext } from '@/context/FilmsContext';
 import { useForm, FormProvider } from 'react-hook-form';
-import {
-  CloseIcon,
-  FilterIcon,
-  ResetIcon,
-} from '@/assets/icons';
+import { CloseIcon, FilterIcon, ResetIcon } from '@/assets/icons';
 import { useAppContext } from '@/context/AppContext';
 import { Button, Scrollable } from '@/components';
 import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
 
-const defaultValues = filtersConfig.reduce(
-  (values, { property }) => {
-    return {
-      ...values,
-      [property]: null,
-    };
-  },
-  {},
-);
+const defaultValues = filtersConfig.reduce((values, { property }) => {
+  return {
+    ...values,
+    [property]: null,
+  };
+}, {});
 
 const Filters = () => {
-  const { filterParams, updateFilter, resetFilter } =
-    useFilmsContext();
+  const { filterParams, updateFilter, resetFilter } = useFilmsContext();
 
   const filtersCount = countObjectKeys(filterParams);
 
-  const { setIsFilterOpen, updateFiltersCount } =
-    useAppContext();
+  const { setIsFilterOpen, updateFiltersCount } = useAppContext();
 
   const methods = useForm({
     defaultValues,
@@ -67,10 +58,7 @@ const Filters = () => {
         <h2 className={classes.mobileHeader}>Filters</h2>
         <Scrollable className={classes.wrapper}>
           {filtersConfig.map((filter) => (
-            <FilterOptions
-              filter={filter}
-              key={filter.title}
-            />
+            <FilterOptions filter={filter} key={filter.title} />
           ))}
         </Scrollable>
         <div className={classes.controls}>
@@ -82,10 +70,7 @@ const Filters = () => {
             Apply
           </Button>
           {filtersCount > 0 && (
-            <Button
-              onClick={handleReset}
-              icon={<ResetIcon />}
-            />
+            <Button onClick={handleReset} icon={<ResetIcon />} />
           )}
           <Button
             icon={<CloseIcon />}

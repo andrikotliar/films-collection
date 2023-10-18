@@ -121,23 +121,19 @@
     }
   ],
   "budget": 200000000,
-  "parts": {
+  "boxOffice": 709000000,
+  "trailer": "nbp3Ra3Yp74",
+  "poster": "amazing_spider_man_2.webp",
+  "year": 2014,
+  "summary": {
+    "sections": [
+      {
+        "text": "When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones."
+      }
+    ]
+  },
+  "chapters": {
     "title": "The Amazing Spider-Man",
     "part": 2
-  },
-  "trailers": [
-    "nbp3Ra3Yp74"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/amazing_spider_man_2.webp"
-  ],
-  "description": [
-    {
-      "plot": "When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones."
-    }
-  ],
-  "boxOffice": 709000000,
-  "years": [
-    2014
-  ]
+  }
 }

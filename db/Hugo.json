@@ -130,19 +130,15 @@
       ]
     }
   ],
-  "trailers": [
-    "Hv3obL9HqyY"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hugo.webp"
-  ],
-  "description": [
-    {
-      "plot": "In Paris in 1931, an orphan named Hugo Cabret, who lives in the walls of a train station, is wrapped up in a mystery involving his late father and an automaton"
-    }
-  ],
   "boxOffice": 186000000,
-  "years": [
-    2011
-  ]
+  "trailer": "Hv3obL9HqyY",
+  "poster": "hugo.webp",
+  "year": 2011,
+  "summary": {
+    "sections": [
+      {
+        "text": "In Paris in 1931, an orphan named Hugo Cabret, who lives in the walls of a train station, is wrapped up in a mystery involving his late father and an automaton"
+      }
+    ]
+  }
 }

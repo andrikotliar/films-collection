@@ -145,23 +145,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 1060000000,
+  "trailer": "frdj1zb9sMY",
+  "poster": "rogue_one.webp",
+  "year": 2016,
+  "summary": {
+    "sections": [
+      {
+        "text": "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Star Wars Universe",
     "part": 4
-  },
-  "trailers": [
-    "frdj1zb9sMY"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/rogue_one.webp"
-  ],
-  "description": [
-    {
-      "plot": "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans."
-    }
-  ],
-  "boxOffice": 1060000000,
-  "years": [
-    2016
-  ]
+  }
 }

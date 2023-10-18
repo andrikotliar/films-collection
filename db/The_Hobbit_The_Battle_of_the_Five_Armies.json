@@ -246,23 +246,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 956000000,
+  "trailer": "iVAgTiBrrDA",
+  "poster": "middle_earth_3.webp",
+  "year": 2014,
+  "summary": {
+    "sections": [
+      {
+        "text": "Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Middle-Earth Universe",
     "part": 3
-  },
-  "trailers": [
-    "iVAgTiBrrDA"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/middle_earth_3.webp"
-  ],
-  "description": [
-    {
-      "plot": "Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness."
-    }
-  ],
-  "boxOffice": 956000000,
-  "years": [
-    2014
-  ]
+  }
 }

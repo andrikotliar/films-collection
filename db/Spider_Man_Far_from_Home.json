@@ -123,23 +123,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 1130000000,
+  "trailer": "Nt9L1jCKGnE",
+  "poster": "mcu_spider_man_2.webp",
+  "year": 2019,
+  "summary": {
+    "sections": [
+      {
+        "text": "Following the events of Endgame, Spider-Man must step up to take on new threats in a world that has changed forever."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 23
-  },
-  "trailers": [
-    "Nt9L1jCKGnE"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mcu_spider_man_2.webp"
-  ],
-  "description": [
-    {
-      "plot": "Following the events of Endgame, Spider-Man must step up to take on new threats in a world that has changed forever."
-    }
-  ],
-  "boxOffice": 1130000000,
-  "years": [
-    2019
-  ]
+  }
 }

@@ -174,23 +174,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 1080000000,
+  "trailer": "GokKUqLcvD8",
+  "poster": "batman_3.webp",
+  "year": 2012,
+  "summary": {
+    "sections": [
+      {
+        "text": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City, now on the edge of total annihilation, from the brutal guerrilla terrorist Bane."
+      }
+    ]
+  },
+  "chapters": {
     "title": "The Dark Knight",
     "part": 3
-  },
-  "trailers": [
-    "GokKUqLcvD8"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/batman_3.webp"
-  ],
-  "description": [
-    {
-      "plot": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City, now on the edge of total annihilation, from the brutal guerrilla terrorist Bane."
-    }
-  ],
-  "boxOffice": 1080000000,
-  "years": [
-    2012
-  ]
+  }
 }

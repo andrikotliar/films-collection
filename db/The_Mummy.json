@@ -132,23 +132,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 416000000,
+  "trailer": "h3ptPtxWJRs",
+  "poster": "mummy_1.webp",
+  "year": 1999,
+  "summary": {
+    "sections": [
+      {
+        "text": "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreck havoc as he searches for the reincarnation of his long-lost love."
+      }
+    ]
+  },
+  "chapters": {
     "title": "The Mummy",
     "part": 1
-  },
-  "trailers": [
-    "h3ptPtxWJRs"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mummy_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreck havoc as he searches for the reincarnation of his long-lost love."
-    }
-  ],
-  "boxOffice": 416000000,
-  "years": [
-    1999
-  ]
+  }
 }

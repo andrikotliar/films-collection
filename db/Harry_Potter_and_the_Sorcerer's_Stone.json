@@ -130,23 +130,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 975000000000,
+  "trailer": "VyHV0BRtdxo",
+  "poster": "harry_potter_1.webp",
+  "year": 2001,
+  "summary": {
+    "sections": [
+      {
+        "text": "An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Harry Potter Universe",
     "part": 3
-  },
-  "trailers": [
-    "VyHV0BRtdxo"
-  ],
-  "posters": [
-    "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/harry_potter_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world."
-    }
-  ],
-  "boxOffice": 975000000000,
-  "years": [
-    2001
-  ]
+  }
 }
