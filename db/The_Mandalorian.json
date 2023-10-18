@@ -256,14 +256,16 @@
         "title": "Season 1",
         "poster": "mandalorian.webp",
         "trailer": "OFlBh_eUsjA",
-        "episodesCount": 8
+        "episodesCount": 8,
+        "year": 2019
       },
       {
         "number": 2,
         "title": "Season 2",
         "poster": "mandalorian_s2.webp",
         "trailer": "eW7Twd85m2g",
-        "episodesCount": 8
+        "episodesCount": 8,
+        "year": 2020
       }
     ]
   }

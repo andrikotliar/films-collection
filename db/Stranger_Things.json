@@ -290,28 +290,32 @@
         "title": "Season 1",
         "poster": "stranger_things.webp",
         "trailer": "b9EkMc79ZSU",
-        "episodesCount": 8
+        "episodesCount": 8,
+        "year": 2016
       },
       {
         "number": 2,
         "title": "Season 2",
         "poster": "stranger_things_s2.webp",
         "trailer": "R1ZXOOLMJ8s",
-        "episodesCount": 9
+        "episodesCount": 9,
+        "year": 2017
       },
       {
         "number": 3,
         "title": "Season 3",
         "poster": "stranger_things_s3.webp",
         "trailer": "6Am4v0C_z8c",
-        "episodesCount": 8
+        "episodesCount": 8,
+        "year": 2019
       },
       {
         "number": 4,
         "title": "Season 4",
         "poster": "stranger_things_s4.webp",
         "trailer": "a3thyAnShck",
-        "episodesCount": 9
+        "episodesCount": 9,
+        "year": 2022
       }
     ]
   }

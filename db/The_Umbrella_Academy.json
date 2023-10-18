@@ -317,21 +317,24 @@
         "title": "Season 1",
         "poster": "umbrella_academy.webp",
         "trailer": "0DAmWHxeoKw",
-        "episodesCount": 10
+        "episodesCount": 10,
+        "year": 2019
       },
       {
         "number": 2,
         "title": "Season 2",
         "poster": "umbrella_academy_s2.webp",
         "trailer": "SGgXLbZnr1Y",
-        "episodesCount": 10
+        "episodesCount": 10,
+        "year": 2020
       },
       {
         "number": 3,
         "title": "Season 3",
         "poster": "umbrella_academy_s3.webp",
         "trailer": "hs6alRuY1UU",
-        "episodesCount": 10
+        "episodesCount": 10,
+        "year": 2022
       }
     ]
   }

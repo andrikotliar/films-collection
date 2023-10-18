@@ -326,21 +326,24 @@
         "title": "Book 1: Water",
         "poster": "last_airbender.webp",
         "trailer": "ahPeclU9VW0",
-        "episodesCount": 20
+        "episodesCount": 20,
+        "year": 2005
       },
       {
         "number": 2,
         "title": "Book 2: Earth",
         "poster": "last_airbender_s2.webp",
         "trailer": "ahPeclU9VW0",
-        "episodesCount": 20
+        "episodesCount": 20,
+        "year": 2006
       },
       {
         "number": 3,
         "title": "Book 3: Fire",
         "poster": "last_airbender_s3.webp",
         "trailer": "ahPeclU9VW0",
-        "episodesCount": 21
+        "episodesCount": 21,
+        "year": 2007
       }
     ]
   }

@@ -473,35 +473,40 @@
         "title": "Volume 1: Genesis",
         "poster": "heroes.webp",
         "trailer": "9AX6aXFdTkc",
-        "episodesCount": 23
+        "episodesCount": 23,
+        "year": 2006
       },
       {
         "number": 2,
         "title": "Volume 2: Generations",
         "poster": "heroes_s2.webp",
         "trailer": "9mNGxXpAmHc",
-        "episodesCount": 11
+        "episodesCount": 11,
+        "year": 2007
       },
       {
         "number": 3,
         "title": "Volume 3. Part 1: Villains",
         "poster": "heroes_s3.1.webp",
         "trailer": "i1VA_aWyrPI",
-        "episodesCount": 18
+        "episodesCount": 18,
+        "year": 2008
       },
       {
         "number": 4,
         "title": "Volume 3. Part 2: Fugitives",
         "poster": "heroes_s3.2.webp",
         "trailer": "mTzPPIEUFEs",
-        "episodesCount": 13
+        "episodesCount": 13,
+        "year": 2009
       },
       {
         "number": 5,
         "title": "Volume 4: Redemption",
         "poster": "heroes_s4.webp",
         "trailer": "mTzPPIEUFEs",
-        "episodesCount": 12
+        "episodesCount": 12,
+        "year": 2009
       }
     ]
   }

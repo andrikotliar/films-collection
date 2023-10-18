@@ -291,28 +291,32 @@
         "title": "Book One: Air",
         "poster": "legend_of_korra.webp",
         "trailer": "NBNpGCIavwA",
-        "episodesCount": 12
+        "episodesCount": 12,
+        "year": 2012
       },
       {
         "number": 2,
         "title": "Book Two: Spirits",
         "poster": "legend_of_korra_s2.webp",
         "trailer": "NBNpGCIavwA",
-        "episodesCount": 14
+        "episodesCount": 14,
+        "year": 2013
       },
       {
         "number": 3,
         "title": "Book Three: Change",
         "poster": "legend_of_korra_s3.webp",
         "trailer": "NBNpGCIavwA",
-        "episodesCount": 13
+        "episodesCount": 13,
+        "year": 2014
       },
       {
         "number": 4,
         "title": "Book Four: Balance",
         "poster": "legend_of_korra_s4.webp",
         "trailer": "NBNpGCIavwA",
-        "episodesCount": 13
+        "episodesCount": 13,
+        "year": 2014
       }
     ]
   }

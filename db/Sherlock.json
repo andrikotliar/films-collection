@@ -235,28 +235,32 @@
         "title": "Season 1",
         "poster": "sherlock.webp",
         "trailer": "xK7S9mrFWL4",
-        "episodesCount": 3
+        "episodesCount": 3,
+        "year": 2010
       },
       {
         "number": 2,
         "title": "Season 2",
         "poster": "sherlock_s2.webp",
         "trailer": "vydmN9pzDzg",
-        "episodesCount": 3
+        "episodesCount": 3,
+        "year": 2012
       },
       {
         "number": 3,
         "title": "Season 3",
         "poster": "sherlock_s3.webp",
         "trailer": "9UcR9iKArd0",
-        "episodesCount": 3
+        "episodesCount": 3,
+        "year": 2014
       },
       {
         "number": 4,
         "title": "Season 4",
         "poster": "sherlock_s4.webp",
         "trailer": "FOXZgRTfSUA",
-        "episodesCount": 3
+        "episodesCount": 3,
+        "year": 2017
       }
     ]
   }

@@ -690,49 +690,56 @@
         "title": "Season 1",
         "poster": "hundred.webp",
         "trailer": "ia1Fbg96vL0",
-        "episodesCount": 13
+        "episodesCount": 13,
+        "year": 2014
       },
       {
         "number": 2,
         "title": "Season 2",
         "poster": "hundred_s2.webp",
         "trailer": "IW7_ZzFZF-o",
-        "episodesCount": 16
+        "episodesCount": 16,
+        "year": 2014
       },
       {
         "number": 3,
         "title": "Season 3",
         "poster": "hundred_s3.webp",
         "trailer": "uwxwHTu802M",
-        "episodesCount": 16
+        "episodesCount": 16,
+        "year": 2016
       },
       {
         "number": 4,
         "title": "Season 4",
         "poster": "hundred_s4.webp",
         "trailer": "JQi2MAfpACI",
-        "episodesCount": 13
+        "episodesCount": 13,
+        "year": 2017
       },
       {
         "number": 5,
         "title": "Season 5",
         "poster": "hundred_s5.webp",
         "trailer": "AGSfZ4xt4UY",
-        "episodesCount": 13
+        "episodesCount": 13,
+        "year": 2018
       },
       {
         "number": 6,
         "title": "Season 6",
         "poster": "hundred_s6.webp",
         "trailer": "AVDyeT-GsX4",
-        "episodesCount": 13
+        "episodesCount": 13,
+        "year": 2019
       },
       {
         "number": 7,
         "title": "Season 7",
         "poster": "hundred_s7.webp",
         "trailer": "VQaFKClCUpo",
-        "episodesCount": 16
+        "episodesCount": 16,
+        "year": 2020
       }
     ]
   }
