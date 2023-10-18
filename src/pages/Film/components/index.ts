@@ -11,3 +11,4 @@ export * from './Trailer';
 export * from './Description';
 export * from './Details';
 export * from './BoxOffice';
+export * from './SeriesDetails';

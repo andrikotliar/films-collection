@@ -1,1 +1,2 @@
-export * from './Media';
+export * from './FilmMedia';
+export * from './SeriesMedia';

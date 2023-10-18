@@ -24,7 +24,7 @@ const createDB = () => {
     }
   });
 
-	const sortedDB = db.sort((a, b) => a.years[0] < b.years[0] ? 1 : -1);
+	const sortedDB = db.sort((a, b) => a.year < b.year ? 1 : -1);
 
 	fs.writeFile('./public/database/database.json', JSON.stringify(sortedDB), (error) => {
     if(error) {

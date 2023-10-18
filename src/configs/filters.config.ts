@@ -24,7 +24,7 @@ export const filtersConfig: Filter[] = [
   },
   {
     title: 'Year',
-    property: 'years',
+    property: 'year',
     options: getYears(),
     defaultOptionTitle: 'All years',
     isScrollable: true,
@@ -33,14 +33,7 @@ export const filtersConfig: Filter[] = [
   {
     title: 'Country',
     property: 'countries',
-    options: [
-      'USA',
-      'UK',
-      'Canada',
-      'France',
-      'Germany',
-      'Japan',
-    ],
+    options: ['USA', 'UK', 'Canada', 'France', 'Germany', 'Japan'],
   },
   {
     title: 'Studio',

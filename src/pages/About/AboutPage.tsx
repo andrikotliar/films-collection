@@ -5,22 +5,18 @@ import { useFilmsContext } from '@/context';
 import { Container } from '@/components';
 import { TMDBLogo } from '@/assets/logos';
 import { useDocumentTitle } from '@/hooks';
+import { env } from '@/configs';
 
 const AboutPage = () => {
   const { initialFilmsList: films } = useFilmsContext();
-  const [randomFilmIdx, setRandomFilmIndex] = useState<
-    number | null
-  >(null);
+  const [randomFilmIdx, setRandomFilmIndex] = useState<number | null>(null);
 
   useDocumentTitle('About');
 
-  const currentFilm =
-    randomFilmIdx !== null && films[randomFilmIdx];
+  const currentFilm = randomFilmIdx !== null && films[randomFilmIdx];
 
   const generateRandomIndex = () => {
-    const randomIndex = Math.floor(
-      Math.random() * (films.length + 1),
-    );
+    const randomIndex = Math.floor(Math.random() * (films.length + 1));
     setRandomFilmIndex(randomIndex);
   };
 
@@ -37,21 +33,19 @@ const AboutPage = () => {
           <article className={classes.text}>
             <p>Hello, my name is Andrii 👋 </p>
             <p>
-              I'm a big fan of films and series and like to
-              collect information about them. This is the
-              purpose of this app. The collection contains
-              only movies I like.
+              I'm a big fan of films and series and like to collect information
+              about them. This is the purpose of this app. The collection
+              contains only movies I like.
             </p>
             <p>
-              My favorite genres are Sci-Fi and Fantasy. In
-              the app, you mostly see representatives of
-              these genres. But there are several movies
+              My favorite genres are Sci-Fi and Fantasy. In the app, you mostly
+              see representatives of these genres. But there are several movies
               from other genres like romance or action.
             </p>
             <h2>For developers</h2>
             <p>
-              The app is built with React, TypeScript and my
-              own UI design. The source code are on{' '}
+              The app is built with React, TypeScript and my own UI design. The
+              source code are on{' '}
               <a
                 href="https://github.com/andrikotliar/films-collection"
                 target="_bank"
@@ -61,13 +55,11 @@ const AboutPage = () => {
               .
             </p>
             <p>
-              I don't use third-party API and create my own
-              set of data. Why? I like collect data and it's
-              exiting to build own "database" of information
-              about movies. Currently data stores in plain
-              JSON-files, in the near future I plan to use
-              MongoDB for this purpose. For now you can
-              investigate JSON files in{' '}
+              I don't use third-party API and create my own set of data. Why? I
+              like collect data and it's exiting to build own "database" of
+              information about movies. Currently data stores in plain
+              JSON-files, in the near future I plan to use MongoDB for this
+              purpose. For now you can investigate JSON files in{' '}
               <a
                 href="https://github.com/andrikotliar/films-collection/tree/main/db"
                 target="_blank"
@@ -97,11 +89,8 @@ const AboutPage = () => {
               </a>
             </div>
             <p>
-              Have any questions? Feel free to contact me
-              via{' '}
-              <a href="mailto:andrii.ktlr@gmail.com">
-                andrii.ktlr@gmail.com.
-              </a>
+              Have any questions? Feel free to contact me via{' '}
+              <a href="mailto:andrii.ktlr@gmail.com">andrii.ktlr@gmail.com.</a>
             </p>
             <Link to="/" className={classes.explore}>
               Explore films
@@ -111,12 +100,9 @@ const AboutPage = () => {
         {currentFilm && (
           <aside className={classes.sidebar}>
             <h2>Explore random film:</h2>
-            <Link
-              to={`/film/${currentFilm.id}`}
-              className={classes.randomFilm}
-            >
+            <Link to={`/film/${currentFilm.id}`} className={classes.randomFilm}>
               <img
-                src={currentFilm.posters[0]}
+                src={`${env.POSTERS_URL}${currentFilm.poster}`}
                 alt={currentFilm.title}
               />
             </Link>

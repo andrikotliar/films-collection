@@ -1,29 +1,24 @@
 import classes from './Description.module.css';
 import { FC } from 'react';
-import { DescriptionType, TypeVariants } from '@/common';
+import { Summary } from '@/common';
+import { Scrollable } from '@/components';
 
 type DescriptionProps = {
-  type: TypeVariants[];
-  description: DescriptionType[];
-  activeIndex: number;
+  description: Summary[];
 };
 
-const Description: FC<DescriptionProps> = ({
-  description,
-  activeIndex,
-}) => {
+const Description: FC<DescriptionProps> = ({ description }) => {
   return (
     <div className={classes.description}>
-      <h2 className={classes.title}>Description</h2>
-      <div className={classes.text}>
-        {description[activeIndex].plot}
-      </div>
-      {description[activeIndex].episodesCount && (
-        <div className={classes.episodesCount}>
-          Episodes number:{' '}
-          <b>{description[activeIndex].episodesCount}</b>
-        </div>
-      )}
+      <h2 className={classes.header}>Description</h2>
+      <Scrollable className={classes.content}>
+        {description.map((section, index) => (
+          <div className={classes.section} key={index}>
+            {section.title && <h3>{section.title}</h3>}
+            <p>{section.text}</p>
+          </div>
+        ))}
+      </Scrollable>
     </div>
   );
 };
