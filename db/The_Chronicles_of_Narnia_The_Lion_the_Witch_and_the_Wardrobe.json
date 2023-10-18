@@ -161,23 +161,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 745000000,
+  "trailer": "lWKj41HZBzM",
+  "poster": "narnia_1.webp",
+  "year": 2005,
+  "summary": {
+    "sections": [
+      {
+        "text": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion."
+      }
+    ]
+  },
+  "chapters": {
     "title": "The Chronicles of Narnia",
     "part": 1
-  },
-  "trailers": [
-    "lWKj41HZBzM"
-  ],
-  "posters": [
-    "narnia_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion."
-    }
-  ],
-  "boxOffice": 745000000,
-  "years": [
-    2005
-  ]
+  }
 }

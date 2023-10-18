@@ -146,23 +146,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 822000000,
+  "trailer": "1Q8fG0TtVAY",
+  "poster": "wonder_woman.webp",
+  "year": 2017,
+  "summary": {
+    "sections": [
+      {
+        "text": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny."
+      }
+    ]
+  },
+  "chapters": {
     "title": "DC Extended Universe",
     "part": 4
-  },
-  "trailers": [
-    "1Q8fG0TtVAY"
-  ],
-  "posters": [
-    "wonder_woman.webp"
-  ],
-  "description": [
-    {
-      "plot": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny."
-    }
-  ],
-  "boxOffice": 822000000,
-  "years": [
-    2017
-  ]
+  }
 }

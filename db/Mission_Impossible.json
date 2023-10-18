@@ -134,23 +134,19 @@
     }
   ],
   "budget": 80000000,
-  "parts": {
+  "boxOffice": 458000000,
+  "trailer": "Ohws8y572KE",
+  "poster": "mi_1.webp",
+  "year": 1996,
+  "summary": {
+    "sections": [
+      {
+        "text": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Mission: Impossible",
     "part": 1
-  },
-  "trailers": [
-    "Ohws8y572KE"
-  ],
-  "posters": [
-    "mi_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization."
-    }
-  ],
-  "boxOffice": 458000000,
-  "years": [
-    1996
-  ]
+  }
 }

@@ -148,23 +148,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 585000000,
+  "trailer": "8hYlB38asDY",
+  "poster": "iron_man_1.webp",
+  "year": 2008,
+  "summary": {
+    "sections": [
+      {
+        "text": "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 1
-  },
-  "trailers": [
-    "8hYlB38asDY"
-  ],
-  "posters": [
-    "iron_man_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
-    }
-  ],
-  "boxOffice": 585000000,
-  "years": [
-    2008
-  ]
+  }
 }

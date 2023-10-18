@@ -186,19 +186,15 @@
       ]
     }
   ],
-  "trailers": [
-    "YoHD9XEInc0"
-  ],
-  "posters": [
-    "inception.webp"
-  ],
-  "description": [
-    {
-      "plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO."
-    }
-  ],
   "boxOffice": 828000000,
-  "years": [
-    2010
-  ]
+  "trailer": "YoHD9XEInc0",
+  "poster": "inception.webp",
+  "year": 2010,
+  "summary": {
+    "sections": [
+      {
+        "text": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO."
+      }
+    ]
+  }
 }

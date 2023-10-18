@@ -146,23 +146,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 747000000,
+  "trailer": "CmRih_VtVAs",
+  "poster": "suicide_squad.webp",
+  "year": 2016,
+  "summary": {
+    "sections": [
+      {
+        "text": "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse."
+      }
+    ]
+  },
+  "chapters": {
     "title": "DC Extended Universe",
     "part": 3
-  },
-  "trailers": [
-    "CmRih_VtVAs"
-  ],
-  "posters": [
-    "suicide_squad.webp"
-  ],
-  "description": [
-    {
-      "plot": "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse."
-    }
-  ],
-  "boxOffice": 747000000,
-  "years": [
-    2016
-  ]
+  }
 }

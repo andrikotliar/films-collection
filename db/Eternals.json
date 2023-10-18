@@ -164,23 +164,19 @@
     }
   ],
   "budget": 200000000,
-  "parts": {
+  "boxOffice": 281000000,
+  "trailer": "x_me3xsvDgk",
+  "poster": "eternals.webp",
+  "year": 2021,
+  "summary": {
+    "sections": [
+      {
+        "text": "The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 28
-  },
-  "trailers": [
-    "x_me3xsvDgk"
-  ],
-  "posters": [
-    "eternals.webp"
-  ],
-  "description": [
-    {
-      "plot": "The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations."
-    }
-  ],
-  "boxOffice": 281000000,
-  "years": [
-    2021
-  ]
+  }
 }

@@ -129,23 +129,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 131000000,
+  "trailer": "oSeQQlaCZgU",
+  "poster": "alien_2.webp",
+  "year": 1986,
+  "summary": {
+    "sections": [
+      {
+        "text": "Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Aliens",
     "part": 2
-  },
-  "trailers": [
-    "oSeQQlaCZgU"
-  ],
-  "posters": [
-    "alien_2.webp"
-  ],
-  "description": [
-    {
-      "plot": "Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators."
-    }
-  ],
-  "boxOffice": 131000000,
-  "years": [
-    1986
-  ]
+  }
 }

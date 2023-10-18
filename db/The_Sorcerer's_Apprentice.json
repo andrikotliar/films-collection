@@ -135,19 +135,15 @@
     }
   ],
   "budget": 150000000,
-  "trailers": [
-    "v2uV0_1C4UM"
-  ],
-  "posters": [
-    "sorcerers_apprentice.webp"
-  ],
-  "description": [
-    {
-      "plot": "Master sorcerer Balthazar Blake must find and train Merlin's descendant to defeat dark sorceress Morgana la Fée."
-    }
-  ],
   "boxOffice": 215000000,
-  "years": [
-    2010
-  ]
+  "trailer": "v2uV0_1C4UM",
+  "poster": "sorcerers_apprentice.webp",
+  "year": 2010,
+  "summary": {
+    "sections": [
+      {
+        "text": "Master sorcerer Balthazar Blake must find and train Merlin's descendant to defeat dark sorceress Morgana la Fée."
+      }
+    ]
+  }
 }

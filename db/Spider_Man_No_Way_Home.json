@@ -140,22 +140,18 @@
       "title": "Marvel Cinematic Universe"
     }
   ],
-  "parts": {
+  "trailer": "rt-2cxAiPJk",
+  "poster": "mcu_spider_man_3.webp",
+  "year": 2021,
+  "summary": {
+    "sections": [
+      {
+        "text": "For the first time in the cinematic history of Spider-Man, our friendly neighborhood hero is unmasked and no longer able to separate his normal life from the high-stakes of being a Super Hero. When he asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 30
-  },
-  "trailers": [
-    "rt-2cxAiPJk"
-  ],
-  "posters": [
-    "mcu_spider_man_3.webp"
-  ],
-  "description": [
-    {
-      "plot": "For the first time in the cinematic history of Spider-Man, our friendly neighborhood hero is unmasked and no longer able to separate his normal life from the high-stakes of being a Super Hero. When he asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man."
-    }
-  ],
-  "years": [
-    2021
-  ]
+  }
 }

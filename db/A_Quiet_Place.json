@@ -121,23 +121,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 341000000,
+  "trailer": "WR7cc5t7tv8",
+  "poster": "quiet_place.webp",
+  "year": 2018,
+  "summary": {
+    "sections": [
+      {
+        "text": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Quiet Place",
     "part": 1
-  },
-  "trailers": [
-    "WR7cc5t7tv8"
-  ],
-  "posters": [
-    "quiet_place.webp"
-  ],
-  "description": [
-    {
-      "plot": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing."
-    }
-  ],
-  "boxOffice": 341000000,
-  "years": [
-    2018
-  ]
+  }
 }

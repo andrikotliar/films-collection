@@ -439,52 +439,70 @@
       ]
     }
   ],
-  "posters": [
-    "heroes.webp",
-    "heroes_s2.webp",
-    "heroes_s3.1.webp",
-    "heroes_s3.2.webp",
-    "heroes_s4.webp"
-  ],
-  "trailers": [
-    "9AX6aXFdTkc",
-    "9mNGxXpAmHc",
-    "i1VA_aWyrPI",
-    "mTzPPIEUFEs",
-    "mTzPPIEUFEs"
-  ],
-  "description": [
-    {
-      "title": "Volume 1: Genesis",
-      "plot": "Ordinary people discover they possess extraordinary abilities. As they come to terms with their powers, they must navigate the mysteries surrounding their origins and the looming threat of a catastrophe that could change the world.",
-      "episodesCount": 23
-    },
-    {
-      "title": "Volume 2: Generations",
-      "plot": "The characters continue to explore their powers while new individuals with abilities emerge. A global conspiracy and the hunt for a virus add to the intrigue as the heroes try to prevent a deadly outbreak.",
-      "episodesCount": 11
-    },
-    {
-      "title": "Volume 3. Part 1: Villains",
-      "plot": "The heroes face new challenges as they confront government scrutiny and a malevolent villain, Arthur Petrelli. The discovery of dangerous abilities and a divided group of heroes complicate their mission to save the world from powerful threats.",
-      "episodesCount": 18
-    },
-    {
-      "title": "Volume 3. Part 2: Fugitives",
-      "plot": "The heroes continue their journey, facing government forces and an ever-growing threat. A new organization, Building 26, seeks to control those with abilities, forcing the heroes into a fugitive lifestyle as they strive to protect themselves and others.",
-      "episodesCount": 13
-    },
-    {
-      "title": "Volume 4: Redemption",
-      "plot": "The heroes deals with the carnage caused by a carnival of people with abilities. They must unite to thwart the carnival's leader, Samuel Sullivan, and face their destinies in an epic showdown.",
-      "episodesCount": 12
-    }
-  ],
-  "years": [
-    2006,
-    2007,
-    2008,
-    2009,
-    2009
-  ]
+  "poster": "heroes.webp",
+  "year": 2006,
+  "summary": {
+    "sections": [
+      {
+        "title": "Volume 1: Genesis",
+        "text": "Ordinary people discover they possess extraordinary abilities. As they come to terms with their powers, they must navigate the mysteries surrounding their origins and the looming threat of a catastrophe that could change the world."
+      },
+      {
+        "title": "Volume 2: Generations",
+        "text": "The characters continue to explore their powers while new individuals with abilities emerge. A global conspiracy and the hunt for a virus add to the intrigue as the heroes try to prevent a deadly outbreak."
+      },
+      {
+        "title": "Volume 3. Part 1: Villains",
+        "text": "The heroes face new challenges as they confront government scrutiny and a malevolent villain, Arthur Petrelli. The discovery of dangerous abilities and a divided group of heroes complicate their mission to save the world from powerful threats."
+      },
+      {
+        "title": "Volume 3. Part 2: Fugitives",
+        "text": "The heroes continue their journey, facing government forces and an ever-growing threat. A new organization, Building 26, seeks to control those with abilities, forcing the heroes into a fugitive lifestyle as they strive to protect themselves and others."
+      },
+      {
+        "title": "Volume 4: Redemption",
+        "text": "The heroes deals with the carnage caused by a carnival of people with abilities. They must unite to thwart the carnival's leader, Samuel Sullivan, and face their destinies in an epic showdown."
+      }
+    ]
+  },
+  "series": {
+    "episodesTotal": 77,
+    "seasons": [
+      {
+        "number": 1,
+        "title": "Volume 1: Genesis",
+        "poster": "heroes.webp",
+        "trailer": "9AX6aXFdTkc",
+        "episodesCount": 23
+      },
+      {
+        "number": 2,
+        "title": "Volume 2: Generations",
+        "poster": "heroes_s2.webp",
+        "trailer": "9mNGxXpAmHc",
+        "episodesCount": 11
+      },
+      {
+        "number": 3,
+        "title": "Volume 3. Part 1: Villains",
+        "poster": "heroes_s3.1.webp",
+        "trailer": "i1VA_aWyrPI",
+        "episodesCount": 18
+      },
+      {
+        "number": 4,
+        "title": "Volume 3. Part 2: Fugitives",
+        "poster": "heroes_s3.2.webp",
+        "trailer": "mTzPPIEUFEs",
+        "episodesCount": 13
+      },
+      {
+        "number": 5,
+        "title": "Volume 4: Redemption",
+        "poster": "heroes_s4.webp",
+        "trailer": "mTzPPIEUFEs",
+        "episodesCount": 12
+      }
+    ]
+  }
 }

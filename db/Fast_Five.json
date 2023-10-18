@@ -145,23 +145,19 @@
     }
   ],
   "budget": 125000000,
-  "parts": {
+  "boxOffice": 626000000,
+  "trailer": "mw2AqdB5EVA",
+  "poster": "fast_and_furious_5.webp",
+  "year": 2011,
+  "summary": {
+    "sections": [
+      {
+        "text": "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Fast and Furious",
     "part": 5
-  },
-  "trailers": [
-    "mw2AqdB5EVA"
-  ],
-  "posters": [
-    "fast_and_furious_5.webp"
-  ],
-  "description": [
-    {
-      "plot": "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent."
-    }
-  ],
-  "boxOffice": 626000000,
-  "years": [
-    2011
-  ]
+  }
 }

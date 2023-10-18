@@ -120,23 +120,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 790000000,
+  "trailer": "WAdJf4wTC5Y",
+  "poster": "indiana_jones_4.webp",
+  "year": 2008,
+  "summary": {
+    "sections": [
+      {
+        "text": "In 1957, archaeologist and adventurer Dr. Henry \"Indiana\" Jones, Jr. is called back into action and becomes entangled in a Soviet plot to uncover the secret behind mysterious artifacts known as the Crystal Skulls."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Indiana Jones",
     "part": 4
-  },
-  "trailers": [
-    "WAdJf4wTC5Y"
-  ],
-  "posters": [
-    "indiana_jones_4.webp"
-  ],
-  "description": [
-    {
-      "plot": "In 1957, archaeologist and adventurer Dr. Henry \"Indiana\" Jones, Jr. is called back into action and becomes entangled in a Soviet plot to uncover the secret behind mysterious artifacts known as the Crystal Skulls."
-    }
-  ],
-  "boxOffice": 790000000,
-  "years": [
-    2008
-  ]
+  }
 }

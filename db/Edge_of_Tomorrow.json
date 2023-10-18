@@ -168,19 +168,15 @@
       ]
     }
   ],
-  "trailers": [
-    "vw61gCe2oqI"
-  ],
-  "posters": [
-    "edge_of_tomorow.webp"
-  ],
-  "description": [
-    {
-      "plot": "A soldier fighting aliens gets to relive the same day over and over again, the day restarting every time he dies."
-    }
-  ],
   "boxOffice": 370000000,
-  "years": [
-    2014
-  ]
+  "trailer": "vw61gCe2oqI",
+  "poster": "edge_of_tomorow.webp",
+  "year": 2014,
+  "summary": {
+    "sections": [
+      {
+        "text": "A soldier fighting aliens gets to relive the same day over and over again, the day restarting every time he dies."
+      }
+    ]
+  }
 }

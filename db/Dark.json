@@ -288,36 +288,48 @@
       ]
     }
   ],
-  "posters": [
-    "dark.webp",
-    "dark_s2.webp",
-    "dark_s3.webp"
-  ],
-  "trailers": [
-    "rrwycJ08PSA",
-    "810CHvSdXOo",
-    "cq2iTHoLrt0"
-  ],
-  "description": [
-    {
-      "title": "Season 1",
-      "plot": "In the small town of Winden, a mysterious child disappearance reveals the existence of a time loop spanning over a century. Four interconnected families uncover their past secrets as they try to unravel the mysteries of time travel and the elusive concept of the 'origin.'",
-      "episodesCount": 8
-    },
-    {
-      "title": "Season 2",
-      "plot": "As the time loop's complexities deepen, the characters navigate multiple time periods while confronting the impending apocalypse. Tensions rise, family bonds are strained, and the intricate web of time travel's consequences becomes even more convoluted.",
-      "episodesCount": 8
-    },
-    {
-      "title": "Season 3",
-      "plot": "In the final season, Winden faces its ultimate fate, and the characters must confront the origin of the time loop. Time travel takes them to different dimensions, and they strive to break the cycle to save their world from annihilation, all while exploring the timeless questions of destiny, free will, and the eternal battle between light and shadow.",
-      "episodesCount": 8
-    }
-  ],
-  "years": [
-    2017,
-    2019,
-    2020
-  ]
+  "poster": "dark.webp",
+  "year": 2017,
+  "summary": {
+    "sections": [
+      {
+        "title": "Season 1",
+        "text": "In the small town of Winden, a mysterious child disappearance reveals the existence of a time loop spanning over a century. Four interconnected families uncover their past secrets as they try to unravel the mysteries of time travel and the elusive concept of the 'origin.'"
+      },
+      {
+        "title": "Season 2",
+        "text": "As the time loop's complexities deepen, the characters navigate multiple time periods while confronting the impending apocalypse. Tensions rise, family bonds are strained, and the intricate web of time travel's consequences becomes even more convoluted."
+      },
+      {
+        "title": "Season 3",
+        "text": "In the final season, Winden faces its ultimate fate, and the characters must confront the origin of the time loop. Time travel takes them to different dimensions, and they strive to break the cycle to save their world from annihilation, all while exploring the timeless questions of destiny, free will, and the eternal battle between light and shadow."
+      }
+    ]
+  },
+  "series": {
+    "episodesTotal": 24,
+    "seasons": [
+      {
+        "number": 1,
+        "title": "Season 1",
+        "poster": "dark.webp",
+        "trailer": "rrwycJ08PSA",
+        "episodesCount": 8
+      },
+      {
+        "number": 2,
+        "title": "Season 2",
+        "poster": "dark_s2.webp",
+        "trailer": "810CHvSdXOo",
+        "episodesCount": 8
+      },
+      {
+        "number": 3,
+        "title": "Season 3",
+        "poster": "dark_s3.webp",
+        "trailer": "cq2iTHoLrt0",
+        "episodesCount": 8
+      }
+    ]
+  }
 }

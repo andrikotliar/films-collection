@@ -142,19 +142,15 @@
       ]
     }
   ],
-  "trailers": [
-    "AZGcmvrTX9M"
-  ],
-  "posters": [
-    "tenet.webp"
-  ],
-  "description": [
-    {
-      "plot": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time."
-    }
-  ],
   "boxOffice": 364000000,
-  "years": [
-    2020
-  ]
+  "trailer": "AZGcmvrTX9M",
+  "poster": "tenet.webp",
+  "year": 2020,
+  "summary": {
+    "sections": [
+      {
+        "text": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time."
+      }
+    ]
+  }
 }

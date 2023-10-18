@@ -169,23 +169,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 1520000000,
+  "trailer": "Skpu5HaVkOc",
+  "poster": "fast_and_furious_7.webp",
+  "year": 2015,
+  "summary": {
+    "sections": [
+      {
+        "text": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Fast and Furious",
     "part": 7
-  },
-  "trailers": [
-    "Skpu5HaVkOc"
-  ],
-  "posters": [
-    "fast_and_furious_7.webp"
-  ],
-  "description": [
-    {
-      "plot": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother."
-    }
-  ],
-  "boxOffice": 1520000000,
-  "years": [
-    2015
-  ]
+  }
 }

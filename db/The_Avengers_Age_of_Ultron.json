@@ -189,23 +189,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 1400000000,
+  "trailer": "tmeOjFno6Do",
+  "poster": "avengers_2.webp",
+  "year": 2015,
+  "summary": {
+    "sections": [
+      {
+        "text": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 11
-  },
-  "trailers": [
-    "tmeOjFno6Do"
-  ],
-  "posters": [
-    "avengers_2.webp"
-  ],
-  "description": [
-    {
-      "plot": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan."
-    }
-  ],
-  "boxOffice": 1400000000,
-  "years": [
-    2015
-  ]
+  }
 }

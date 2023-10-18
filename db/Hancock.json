@@ -147,19 +147,15 @@
     }
   ],
   "budget": 150000000,
-  "trailers": [
-    "SkX1VuXLRSc"
-  ],
-  "posters": [
-    "hancock.webp"
-  ],
-  "description": [
-    {
-      "plot": "Hancock is a superhero whose ill considered behavior regularly causes damage in the millions. He changes when the person he saves helps him improve his public image."
-    }
-  ],
   "boxOffice": 624000000,
-  "years": [
-    2008
-  ]
+  "trailer": "SkX1VuXLRSc",
+  "poster": "hancock.webp",
+  "year": 2008,
+  "summary": {
+    "sections": [
+      {
+        "text": "Hancock is a superhero whose ill considered behavior regularly causes damage in the millions. He changes when the person he saves helps him improve his public image."
+      }
+    ]
+  }
 }

@@ -210,22 +210,18 @@
     }
   ],
   "budget": 300000000,
-  "parts": {
+  "trailer": "ui37YKQ9AC4",
+  "poster": "justice_league.webp",
+  "year": 2021,
+  "summary": {
+    "sections": [
+      {
+        "text": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions."
+      }
+    ]
+  },
+  "chapters": {
     "title": "DC Extended Universe",
     "part": 5
-  },
-  "trailers": [
-    "ui37YKQ9AC4"
-  ],
-  "posters": [
-    "justice_league.webp"
-  ],
-  "description": [
-    {
-      "plot": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions."
-    }
-  ],
-  "years": [
-    2021
-  ]
+  }
 }

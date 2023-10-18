@@ -110,22 +110,18 @@
       ]
     }
   ],
-  "parts": {
+  "trailer": "SfONecwHgHY",
+  "poster": "librarian_3.webp",
+  "year": 2008,
+  "summary": {
+    "sections": [
+      {
+        "text": "Losing his girlfriend because he was at an auction dramatically getting the magical philosopher's stone instead of a date, he needs a vacation - New Orleans but finds himself busy saving Earth from the curse of the Judas chalice/vampires."
+      }
+    ]
+  },
+  "chapters": {
     "title": "The Librarian",
     "part": 3
-  },
-  "trailers": [
-    "SfONecwHgHY"
-  ],
-  "posters": [
-    "librarian_3.webp"
-  ],
-  "description": [
-    {
-      "plot": "Losing his girlfriend because he was at an auction dramatically getting the magical philosopher's stone instead of a date, he needs a vacation - New Orleans but finds himself busy saving Earth from the curse of the Judas chalice/vampires."
-    }
-  ],
-  "years": [
-    2008
-  ]
+  }
 }

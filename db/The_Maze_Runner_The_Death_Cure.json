@@ -151,23 +151,19 @@
     }
   ],
   "budget": 62000000,
-  "parts": {
+  "boxOffice": 288000000,
+  "trailer": "4-BTxXm8KSg",
+  "poster": "maze_runner_3.webp",
+  "year": 2018,
+  "summary": {
+    "sections": [
+      {
+        "text": "Young hero Thomas embarks on a mission to find a cure for a deadly disease known as \"The Flare\"."
+      }
+    ]
+  },
+  "chapters": {
     "title": "The Maze Runner",
     "part": 3
-  },
-  "trailers": [
-    "4-BTxXm8KSg"
-  ],
-  "posters": [
-    "maze_runner_3.webp"
-  ],
-  "description": [
-    {
-      "plot": "Young hero Thomas embarks on a mission to find a cure for a deadly disease known as \"The Flare\"."
-    }
-  ],
-  "boxOffice": 288000000,
-  "years": [
-    2018
-  ]
+  }
 }

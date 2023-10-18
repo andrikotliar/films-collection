@@ -156,23 +156,19 @@
     }
   ],
   "budget": 185000000,
-  "parts": {
+  "boxOffice": 467000000,
+  "trailer": "jJMYAJ3_0uw",
+  "poster": "star_trek_2.webp",
+  "year": 2013,
+  "summary": {
+    "sections": [
+      {
+        "text": "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Star Trek",
     "part": 2
-  },
-  "trailers": [
-    "jJMYAJ3_0uw"
-  ],
-  "posters": [
-    "star_trek_2.webp"
-  ],
-  "description": [
-    {
-      "plot": "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction."
-    }
-  ],
-  "boxOffice": 467000000,
-  "years": [
-    2013
-  ]
+  }
 }

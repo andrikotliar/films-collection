@@ -145,23 +145,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 791000000,
+  "trailer": "wb49-oV0F78",
+  "poster": "mi_6.webp",
+  "year": 2018,
+  "summary": {
+    "sections": [
+      {
+        "text": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Mission: Impossible",
     "part": 6
-  },
-  "trailers": [
-    "wb49-oV0F78"
-  ],
-  "posters": [
-    "mi_6.webp"
-  ],
-  "description": [
-    {
-      "plot": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong."
-    }
-  ],
-  "boxOffice": 791000000,
-  "years": [
-    2018
-  ]
+  }
 }

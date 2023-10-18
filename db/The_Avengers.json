@@ -176,23 +176,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 1520000000,
+  "trailer": "hIR8Ar-Z4hw",
+  "poster": "avengers_1.webp",
+  "year": 2012,
+  "summary": {
+    "sections": [
+      {
+        "text": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 6
-  },
-  "trailers": [
-    "hIR8Ar-Z4hw"
-  ],
-  "posters": [
-    "avengers_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
-    }
-  ],
-  "boxOffice": 1520000000,
-  "years": [
-    2012
-  ]
+  }
 }

@@ -133,23 +133,19 @@
     }
   ],
   "budget": 165000000,
-  "parts": {
+  "boxOffice": 496000000,
+  "trailer": "oKiYuIsPxYk",
+  "poster": "how_to_train_your_dragon_1.webp",
+  "year": 2010,
+  "summary": {
+    "sections": [
+      {
+        "text": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed."
+      }
+    ]
+  },
+  "chapters": {
     "title": "How to Train Your Dragon",
     "part": 1
-  },
-  "trailers": [
-    "oKiYuIsPxYk"
-  ],
-  "posters": [
-    "how_to_train_your_dragon_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed."
-    }
-  ],
-  "boxOffice": 496000000,
-  "years": [
-    2010
-  ]
+  }
 }

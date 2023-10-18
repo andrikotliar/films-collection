@@ -121,23 +121,19 @@
     }
   ],
   "budget": 177000000,
-  "parts": {
+  "boxOffice": 714000000,
+  "trailer": "7SlILk2WMTI",
+  "poster": "captain_america_2.webp",
+  "year": 2014,
+  "summary": {
+    "sections": [
+      {
+        "text": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 9
-  },
-  "trailers": [
-    "7SlILk2WMTI"
-  ],
-  "posters": [
-    "captain_america_2.webp"
-  ],
-  "description": [
-    {
-      "plot": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier."
-    }
-  ],
-  "boxOffice": 714000000,
-  "years": [
-    2014
-  ]
+  }
 }

@@ -90,19 +90,15 @@
     }
   ],
   "budget": 135000000,
-  "trailers": [
-    "h1LG9So2ZBk"
-  ],
-  "posters": [
-    "the_call_of_the_wild.webp"
-  ],
-  "description": [
-    {
-      "plot": "A sled dog struggles for survival in the wilds of the Yukon."
-    }
-  ],
   "boxOffice": 110000000,
-  "years": [
-    2020
-  ]
+  "trailer": "h1LG9So2ZBk",
+  "poster": "the_call_of_the_wild.webp",
+  "year": 2020,
+  "summary": {
+    "sections": [
+      {
+        "text": "A sled dog struggles for survival in the wilds of the Yukon."
+      }
+    ]
+  }
 }

@@ -167,19 +167,15 @@
       ]
     }
   ],
-  "trailers": [
-    "Ku_IseK3xTc"
-  ],
-  "posters": [
-    "day_after_tomorrow.webp"
-  ],
-  "description": [
-    {
-      "plot": "Jack Hall, paleoclimatologist, must make a daring trek from Washington, D.C. to New York City to reach his son, trapped in the cross-hairs of a sudden international storm which plunges the planet into a new Ice Age."
-    }
-  ],
   "boxOffice": 544000000,
-  "years": [
-    2004
-  ]
+  "trailer": "Ku_IseK3xTc",
+  "poster": "day_after_tomorrow.webp",
+  "year": 2004,
+  "summary": {
+    "sections": [
+      {
+        "text": "Jack Hall, paleoclimatologist, must make a daring trek from Washington, D.C. to New York City to reach his son, trapped in the cross-hairs of a sudden international storm which plunges the planet into a new Ice Age."
+      }
+    ]
+  }
 }

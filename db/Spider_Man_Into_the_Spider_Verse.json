@@ -184,19 +184,15 @@
       ]
     }
   ],
-  "trailers": [
-    "g4Hbz2jLxvQ"
-  ],
-  "posters": [
-    "spiderman_intospiderverse.webp"
-  ],
-  "description": [
-    {
-      "plot": "Teen Miles Morales becomes Spider-Man of his reality, crossing his path with five counterparts from other dimensions to stop a threat for all realities."
-    }
-  ],
   "boxOffice": 371000000,
-  "years": [
-    2018
-  ]
+  "trailer": "g4Hbz2jLxvQ",
+  "poster": "spiderman_intospiderverse.webp",
+  "year": 2018,
+  "summary": {
+    "sections": [
+      {
+        "text": "Teen Miles Morales becomes Spider-Man of his reality, crossing his path with five counterparts from other dimensions to stop a threat for all realities."
+      }
+    ]
+  }
 }

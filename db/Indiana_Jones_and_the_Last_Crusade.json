@@ -132,23 +132,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 474000000,
+  "trailer": "sagmdpkWUqc",
+  "poster": "indiana_jones_3.webp",
+  "year": 1989,
+  "summary": {
+    "sections": [
+      {
+        "text": "In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Professor Henry \"Indiana\" Jones, Jr. finds himself up against Adolf Hitler's Nazis again to stop them from obtaining its powers."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Indiana Jones",
     "part": 3
-  },
-  "trailers": [
-    "sagmdpkWUqc"
-  ],
-  "posters": [
-    "indiana_jones_3.webp"
-  ],
-  "description": [
-    {
-      "plot": "In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Professor Henry \"Indiana\" Jones, Jr. finds himself up against Adolf Hitler's Nazis again to stop them from obtaining its powers."
-    }
-  ],
-  "boxOffice": 474000000,
-  "years": [
-    1989
-  ]
+  }
 }

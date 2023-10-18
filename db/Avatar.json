@@ -189,23 +189,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 2800000000,
+  "trailer": "CM79GTEm2ps",
+  "poster": "avatar.webp",
+  "year": 2009,
+  "summary": {
+    "sections": [
+      {
+        "text": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Avatar",
     "part": 1
-  },
-  "trailers": [
-    "CM79GTEm2ps"
-  ],
-  "posters": [
-    "avatar.webp"
-  ],
-  "description": [
-    {
-      "plot": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home."
-    }
-  ],
-  "boxOffice": 2800000000,
-  "years": [
-    2009
-  ]
+  }
 }

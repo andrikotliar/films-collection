@@ -126,19 +126,15 @@
       ]
     }
   ],
-  "trailers": [
-    "dtKMEAXyPkg"
-  ],
-  "posters": [
-    "i_am_legend.webp"
-  ],
-  "description": [
-    {
-      "plot": "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure."
-    }
-  ],
   "boxOffice": 585000000,
-  "years": [
-    2007
-  ]
+  "trailer": "dtKMEAXyPkg",
+  "poster": "i_am_legend.webp",
+  "year": 2007,
+  "summary": {
+    "sections": [
+      {
+        "text": "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure."
+      }
+    ]
+  }
 }

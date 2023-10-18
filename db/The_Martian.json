@@ -184,19 +184,15 @@
       ]
     }
   ],
-  "trailers": [
-    "ej3ioOneTy8"
-  ],
-  "posters": [
-    "martian.webp"
-  ],
-  "description": [
-    {
-      "plot": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive."
-    }
-  ],
   "boxOffice": 630000000,
-  "years": [
-    2015
-  ]
+  "trailer": "ej3ioOneTy8",
+  "poster": "martian.webp",
+  "year": 2015,
+  "summary": {
+    "sections": [
+      {
+        "text": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive."
+      }
+    ]
+  }
 }

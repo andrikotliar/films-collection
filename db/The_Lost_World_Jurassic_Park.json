@@ -97,23 +97,19 @@
     }
   ],
   "budget": 73000000,
-  "parts": {
+  "boxOffice": 619000000,
+  "trailer": "RxrvaneULkE",
+  "poster": "jurassic_park_2.webp",
+  "year": 1997,
+  "summary": {
+    "sections": [
+      {
+        "text": "A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Jurassic Park",
     "part": 2
-  },
-  "trailers": [
-    "RxrvaneULkE"
-  ],
-  "posters": [
-    "jurassic_park_2.webp"
-  ],
-  "description": [
-    {
-      "plot": "A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda."
-    }
-  ],
-  "boxOffice": 619000000,
-  "years": [
-    1997
-  ]
+  }
 }

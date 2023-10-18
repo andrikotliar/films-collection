@@ -116,23 +116,19 @@
     }
   ],
   "budget": 160000000,
-  "parts": {
+  "boxOffice": 297000000,
+  "trailer": "BpdDN9d9Jio",
+  "poster": "quiet_place_2.webp",
+  "year": 2021,
+  "summary": {
+    "sections": [
+      {
+        "text": "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize the creatures that hunt by sound are not the only threats lurking beyond the sand path."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Quiet Place",
     "part": 2
-  },
-  "trailers": [
-    "BpdDN9d9Jio"
-  ],
-  "posters": [
-    "quiet_place_2.webp"
-  ],
-  "description": [
-    {
-      "plot": "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize the creatures that hunt by sound are not the only threats lurking beyond the sand path."
-    }
-  ],
-  "boxOffice": 297000000,
-  "years": [
-    2021
-  ]
+  }
 }

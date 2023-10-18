@@ -122,23 +122,19 @@
     }
   ],
   "budget": 110000000,
-  "parts": {
+  "boxOffice": 427000000,
+  "trailer": "hMbexEPAOQI",
+  "poster": "matrix_3.webp",
+  "year": 2003,
+  "summary": {
+    "sections": [
+      {
+        "text": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith."
+      }
+    ]
+  },
+  "chapters": {
     "title": "The Matrix",
     "part": 3
-  },
-  "trailers": [
-    "hMbexEPAOQI"
-  ],
-  "posters": [
-    "matrix_3.webp"
-  ],
-  "description": [
-    {
-      "plot": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith."
-    }
-  ],
-  "boxOffice": 427000000,
-  "years": [
-    2003
-  ]
+  }
 }

@@ -112,17 +112,6 @@
     }
   ],
   "budget": 132000000,
-  "trailers": [
-    "SM6aEEjc5hA"
-  ],
-  "posters": [
-    "war_of_the_worlds.webp"
-  ],
-  "description": [
-    {
-      "plot": "An alien invasion threatens the future of humanity. The catastrophic nightmare is depicted through the eyes of one American family fighting for survival."
-    }
-  ],
   "awards": [
     {
       "title": "Saturn",
@@ -138,7 +127,14 @@
     }
   ],
   "boxOffice": 604000000,
-  "years": [
-    2005
-  ]
+  "trailer": "SM6aEEjc5hA",
+  "poster": "war_of_the_worlds.webp",
+  "year": 2005,
+  "summary": {
+    "sections": [
+      {
+        "text": "An alien invasion threatens the future of humanity. The catastrophic nightmare is depicted through the eyes of one American family fighting for survival."
+      }
+    ]
+  }
 }

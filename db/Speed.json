@@ -142,19 +142,15 @@
       ]
     }
   ],
-  "trailers": [
-    "8piqd2BWeGI"
-  ],
-  "posters": [
-    "speed.webp"
-  ],
-  "description": [
-    {
-      "plot": "A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph."
-    }
-  ],
   "boxOffice": 350000000,
-  "years": [
-    1994
-  ]
+  "trailer": "8piqd2BWeGI",
+  "poster": "speed.webp",
+  "year": 1994,
+  "summary": {
+    "sections": [
+      {
+        "text": "A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph."
+      }
+    ]
+  }
 }

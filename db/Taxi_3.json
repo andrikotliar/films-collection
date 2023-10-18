@@ -123,23 +123,19 @@
     }
   ],
   "budget": 14000000,
-  "parts": {
+  "boxOffice": 64000000,
+  "trailer": "XLP-rf3dHOQ",
+  "poster": "taxi_3.webp",
+  "year": 2003,
+  "summary": {
+    "sections": [
+      {
+        "text": "Out to stop a new gang disguised as Santa Claus, Emilien and Daniel must also handle major changes in their personal relationships."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Besson's Taxi",
     "part": 3
-  },
-  "trailers": [
-    "XLP-rf3dHOQ"
-  ],
-  "posters": [
-    "taxi_3.webp"
-  ],
-  "description": [
-    {
-      "plot": "Out to stop a new gang disguised as Santa Claus, Emilien and Daniel must also handle major changes in their personal relationships."
-    }
-  ],
-  "boxOffice": 64000000,
-  "years": [
-    2003
-  ]
+  }
 }

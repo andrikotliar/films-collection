@@ -127,19 +127,15 @@
     }
   ],
   "budget": 75000000,
-  "trailers": [
-    "CzYRlISYE8Y"
-  ],
-  "posters": [
-    "the_man_from_uncle.webp"
-  ],
-  "description": [
-    {
-      "plot": "In the early 1960s, CIA agent Napoleon Solo and KGB operative Illya Kuryakin participate in a joint mission against a mysterious criminal organization, which is working to proliferate nuclear weapons."
-    }
-  ],
   "boxOffice": 107000000,
-  "years": [
-    2015
-  ]
+  "trailer": "CzYRlISYE8Y",
+  "poster": "the_man_from_uncle.webp",
+  "year": 2015,
+  "summary": {
+    "sections": [
+      {
+        "text": "In the early 1960s, CIA agent Napoleon Solo and KGB operative Illya Kuryakin participate in a joint mission against a mysterious criminal organization, which is working to proliferate nuclear weapons."
+      }
+    ]
+  }
 }

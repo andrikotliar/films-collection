@@ -149,23 +149,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 1030000000,
+  "trailer": "QWBKEmWWL38",
+  "poster": "jurassic_park_1.webp",
+  "year": 1993,
+  "summary": {
+    "sections": [
+      {
+        "text": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Jurassic Park",
     "part": 1
-  },
-  "trailers": [
-    "QWBKEmWWL38"
-  ],
-  "posters": [
-    "jurassic_park_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose."
-    }
-  ],
-  "boxOffice": 1030000000,
-  "years": [
-    1993
-  ]
+  }
 }

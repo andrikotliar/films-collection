@@ -153,23 +153,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 519000000,
+  "trailer": "pWdKf3MneyI",
+  "poster": "ant_man_1.webp",
+  "year": 2015,
+  "summary": {
+    "sections": [
+      {
+        "text": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 12
-  },
-  "trailers": [
-    "pWdKf3MneyI"
-  ],
-  "posters": [
-    "ant_man_1.webp"
-  ],
-  "description": [
-    {
-      "plot": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world."
-    }
-  ],
-  "boxOffice": 519000000,
-  "years": [
-    2015
-  ]
+  }
 }

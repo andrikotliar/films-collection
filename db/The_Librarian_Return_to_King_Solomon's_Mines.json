@@ -138,22 +138,18 @@
       ]
     }
   ],
-  "parts": {
+  "trailer": "ansvc2Muxr0",
+  "poster": "librarian_2.webp",
+  "year": 2006,
+  "summary": {
+    "sections": [
+      {
+        "text": "Librarian-turned-adventurer Flynn Carsen endeavors to find King Solomon's mines."
+      }
+    ]
+  },
+  "chapters": {
     "title": "The Librarian",
     "part": 2
-  },
-  "trailers": [
-    "ansvc2Muxr0"
-  ],
-  "posters": [
-    "librarian_2.webp"
-  ],
-  "description": [
-    {
-      "plot": "Librarian-turned-adventurer Flynn Carsen endeavors to find King Solomon's mines."
-    }
-  ],
-  "years": [
-    2006
-  ]
+  }
 }

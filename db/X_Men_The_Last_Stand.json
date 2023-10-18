@@ -164,23 +164,19 @@
       ]
     }
   ],
-  "parts": {
+  "boxOffice": 459000000,
+  "trailer": "r8ZMvxzplwc",
+  "poster": "x_men_3.webp",
+  "year": 2006,
+  "summary": {
+    "sections": [
+      {
+        "text": "The human government develops a cure for mutations, and Jean Gray becomes a darker uncontrollable persona called the Phoenix who allies with Magneto, causing escalation into an all-out battle for the X-Men."
+      }
+    ]
+  },
+  "chapters": {
     "title": "X-Men",
     "part": 3
-  },
-  "trailers": [
-    "r8ZMvxzplwc"
-  ],
-  "posters": [
-    "x_men_3.webp"
-  ],
-  "description": [
-    {
-      "plot": "The human government develops a cure for mutations, and Jean Gray becomes a darker uncontrollable persona called the Phoenix who allies with Magneto, causing escalation into an all-out battle for the X-Men."
-    }
-  ],
-  "boxOffice": 459000000,
-  "years": [
-    2006
-  ]
+  }
 }

@@ -136,23 +136,19 @@
     }
   ],
   "budget": 150000000,
-  "parts": {
+  "boxOffice": 683000000,
+  "trailer": "gOW_azQbOjw",
+  "poster": "mi_5.webp",
+  "year": 2015,
+  "summary": {
+    "sections": [
+      {
+        "text": "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF."
+      }
+    ]
+  },
+  "chapters": {
     "title": "Mission: Impossible",
     "part": 5
-  },
-  "trailers": [
-    "gOW_azQbOjw"
-  ],
-  "posters": [
-    "mi_5.webp"
-  ],
-  "description": [
-    {
-      "plot": "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF."
-    }
-  ],
-  "boxOffice": 683000000,
-  "years": [
-    2015
-  ]
+  }
 }
