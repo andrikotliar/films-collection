@@ -230,7 +230,6 @@
     "seasons": [
       {
         "number": 1,
-        "title": "Season 1",
         "poster": "witcher.webp",
         "trailer": "ndl1W4ltcmg",
         "episodesCount": 8,
@@ -238,7 +237,6 @@
       },
       {
         "number": 2,
-        "title": "Season 2",
         "poster": "witcher_s2.webp",
         "trailer": "2aMVzFlApa0",
         "episodesCount": 8,

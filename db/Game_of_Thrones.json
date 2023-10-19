@@ -551,7 +551,6 @@
     "seasons": [
       {
         "number": 1,
-        "title": "Season 1",
         "poster": "got.webp",
         "trailer": "gcTkNV5Vg1E",
         "episodesCount": 10,
@@ -559,7 +558,6 @@
       },
       {
         "number": 2,
-        "title": "Season 2",
         "poster": "got_s2.webp",
         "trailer": "AlhHGUfCYw4",
         "episodesCount": 10,
@@ -567,7 +565,6 @@
       },
       {
         "number": 3,
-        "title": "Season 3",
         "poster": "got_s3.webp",
         "trailer": "nblUgAMoOvU",
         "episodesCount": 10,
@@ -575,7 +572,6 @@
       },
       {
         "number": 4,
-        "title": "Season 4",
         "poster": "got_s4.webp",
         "trailer": "aj9x_Xea6cg",
         "episodesCount": 10,
@@ -583,7 +579,6 @@
       },
       {
         "number": 5,
-        "title": "Season 5",
         "poster": "got_s5.webp",
         "trailer": "F9Bo89m2f6g",
         "episodesCount": 10,
@@ -591,7 +586,6 @@
       },
       {
         "number": 6,
-        "title": "Season 6",
         "poster": "got_s6.webp",
         "trailer": "yu8eRaq1FUM",
         "episodesCount": 10,
@@ -599,7 +593,6 @@
       },
       {
         "number": 7,
-        "title": "Season 7",
         "poster": "got_s7.webp",
         "trailer": "giYeaKsXnsI",
         "episodesCount": 7,
@@ -607,7 +600,6 @@
       },
       {
         "number": 8,
-        "title": "Season 8",
         "poster": "got_s8.webp",
         "trailer": "rlR4PJn8b8I",
         "episodesCount": 6,

@@ -43,7 +43,6 @@ type Summary = {
 
 type SeasonType = {
   number: number;
-  title: string;
   poster: string;
   trailer: string;
   year: number;

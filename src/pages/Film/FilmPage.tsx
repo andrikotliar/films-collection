@@ -90,7 +90,11 @@ const FilmPage = () => {
       )}
 
       {film.type.includes('Series') && film.series && (
-        <SeriesMedia series={film.series} title={film.title} />
+        <SeriesMedia
+          series={film.series}
+          title={film.title}
+          summarySections={film.summary.sections}
+        />
       )}
 
       <Description description={film.summary.sections} />

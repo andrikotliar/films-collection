@@ -264,7 +264,6 @@
     "seasons": [
       {
         "number": 1,
-        "title": "Season 1",
         "poster": "locke_key.webp",
         "trailer": "_EonRi0yQOE",
         "episodesCount": 10,
@@ -272,7 +271,6 @@
       },
       {
         "number": 2,
-        "title": "Season 2",
         "poster": "locke_key_s2.webp",
         "trailer": "lxJdvbG2fPw",
         "episodesCount": 10,
@@ -280,7 +278,6 @@
       },
       {
         "number": 3,
-        "title": "Season 3",
         "poster": "locke_key_s3.webp",
         "trailer": "PX-t1wYNtBs",
         "episodesCount": 10,

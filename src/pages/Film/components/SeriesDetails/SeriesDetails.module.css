@@ -38,21 +38,13 @@
   color: #777;
 }
 
-.title {
-  min-width: 150px;
-  text-align: left;
-}
-
 .link {
   color: var(--main-color);
   text-decoration: underline;
 }
 
 @media (max-width: 480px) {
-  .seriesDetails {
-    width: 100%;
-    overflow-x: auto;
-  }
+  .seriesDetails,
   .seriesDetails table {
     width: 100%;
   }

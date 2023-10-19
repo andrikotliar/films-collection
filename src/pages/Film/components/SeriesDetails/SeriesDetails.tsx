@@ -15,7 +15,6 @@ const SeriesDetails: FC<SeriesDetailsProps> = ({ series }) => {
         <thead>
           <tr>
             <td>Season</td>
-            <td>Title</td>
             <td>Episodes</td>
             <td>Year</td>
           </tr>
@@ -24,13 +23,6 @@ const SeriesDetails: FC<SeriesDetailsProps> = ({ series }) => {
           {series.seasons.map((season) => (
             <tr key={season.number}>
               <td>{season.number}</td>
-              <td className={classes.title}>
-                {season.title.includes('Season') ? (
-                  <i>No specified</i>
-                ) : (
-                  season.title
-                )}
-              </td>
               <td>{season.episodesCount}</td>
               <td>
                 <Link
