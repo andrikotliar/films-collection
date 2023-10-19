@@ -314,7 +314,6 @@
     "seasons": [
       {
         "number": 1,
-        "title": "Season 1",
         "poster": "umbrella_academy.webp",
         "trailer": "0DAmWHxeoKw",
         "episodesCount": 10,
@@ -322,7 +321,6 @@
       },
       {
         "number": 2,
-        "title": "Season 2",
         "poster": "umbrella_academy_s2.webp",
         "trailer": "SGgXLbZnr1Y",
         "episodesCount": 10,
@@ -330,7 +328,6 @@
       },
       {
         "number": 3,
-        "title": "Season 3",
         "poster": "umbrella_academy_s3.webp",
         "trailer": "hs6alRuY1UU",
         "episodesCount": 10,

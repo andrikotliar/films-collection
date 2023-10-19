@@ -1,19 +1,24 @@
 import classes from './SeriesMedia.module.css';
-import { SeriesExtension } from '@/common';
+import { SeriesExtension, Summary } from '@/common';
 import { Select } from '@/components';
 import { FilmMedia } from '@/pages/Film/components/Media/FilmMedia';
 import { FC, useState } from 'react';
 
 type SeriesMediaProps = {
   series: SeriesExtension;
+  summarySections: Summary[];
   title: string;
 };
 
-const SeriesMedia: FC<SeriesMediaProps> = ({ series, title }) => {
+const SeriesMedia: FC<SeriesMediaProps> = ({
+  series,
+  title,
+  summarySections,
+}) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
-  const options = series.seasons.map((season, index) => ({
-    label: season.title,
+  const options = summarySections.map((section, index) => ({
+    label: section.title || `Season ${index + 1}`,
     value: index,
   }));
 

@@ -311,7 +311,6 @@
     "seasons": [
       {
         "number": 1,
-        "title": "Season 1",
         "poster": "dark.webp",
         "trailer": "rrwycJ08PSA",
         "episodesCount": 8,
@@ -319,7 +318,6 @@
       },
       {
         "number": 2,
-        "title": "Season 2",
         "poster": "dark_s2.webp",
         "trailer": "810CHvSdXOo",
         "episodesCount": 8,
@@ -327,7 +325,6 @@
       },
       {
         "number": 3,
-        "title": "Season 3",
         "poster": "dark_s3.webp",
         "trailer": "cq2iTHoLrt0",
         "episodesCount": 8,
