@@ -2,29 +2,22 @@ import classes from './SelectedFilters.module.css';
 import { useFilmsContext } from '@/context/FilmsContext';
 import { DynamicObject } from '@/common';
 
-const parametersToHide = ['actorId'];
-
 const SelectedFilters = () => {
   const { filterParams } = useFilmsContext();
 
-  const optionsToShow = () => {
-    const keys = Object.keys(filterParams);
-    return keys.filter(
-      (key) => !parametersToHide.includes(key),
-    );
-  };
+  const filterKeys = Object.keys(filterParams);
 
-  const filteredParams = optionsToShow();
+  if (filterKeys.length === 0) return null;
 
-  if (filteredParams.length === 0) return null;
-
-  const getValue = (
-    filterParams: DynamicObject,
-    param: string,
-  ) => {
+  const getValue = (filterParams: DynamicObject, param: string) => {
     if (param === 'crew') {
       const parsedData = JSON.parse(filterParams[param]);
       return Object.values(parsedData).join(', ');
+    }
+
+    if (param === 'actor') {
+      const parsedData = JSON.parse(filterParams[param]);
+      return parsedData.name;
     }
 
     if (Array.isArray(filterParams[param])) {
@@ -36,7 +29,7 @@ const SelectedFilters = () => {
 
   const getTitle = (param: string) => {
     switch (param) {
-      case 'actorName':
+      case 'actor':
         return 'Starred';
       case 'crew':
         const parsedData = JSON.parse(filterParams[param]);
@@ -51,7 +44,7 @@ const SelectedFilters = () => {
 
   return (
     <div className={classes.selectedFilters}>
-      {filteredParams.map((param) => (
+      {filterKeys.map((param) => (
         <div className={classes.filter} key={param}>
           <b>{getTitle(param)}:</b>
           <span>{getValue(filterParams, param)}</span>

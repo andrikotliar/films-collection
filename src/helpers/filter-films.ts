@@ -19,7 +19,6 @@ export const filterFilms = (
 
   try {
     const params = { ...filterParams };
-    delete params.actorName;
 
     const filteredFilms = list.filter((film) => {
       const match = Object.keys(params).every((property) => {
@@ -68,9 +67,10 @@ export const filterFilms = (
           );
         }
 
-        if (property === 'actorId') {
+        if (property === 'actor') {
+          const parsedActor = JSON.parse(params[property]);
           const hasActorId = film.cast.find(
-            (actor) => actor.actorId === params.actorId,
+            (actor) => actor.actorId === parsedActor.id,
           );
           if (hasActorId) {
             return true;
