@@ -7,12 +7,9 @@ import { Search } from '@/components/Search';
 import { IconLink } from '@/components/IconLink';
 import { SearchButton } from '@/components/Header/SearchButton';
 import { Container } from '@/components/Container';
-import { useFilmsContext } from '@/context';
 
 const Header = () => {
-  const { initialFilmsList } = useFilmsContext();
-  const [isSearchVisible, setIsSearchVisible] =
-    useState(false);
+  const [isSearchVisible, setIsSearchVisible] = useState(false);
   const [searchString, setSearchString] = useState('');
   const location = useLocation();
 
@@ -38,9 +35,7 @@ const Header = () => {
           }}
           className={classes.logoLink}
         >
-          <FilmsCollectionLogo
-            className={classes.logoImage}
-          />
+          <FilmsCollectionLogo className={classes.logoImage} />
         </Link>
         <div className={classes.actions}>
           <SearchButton
@@ -51,14 +46,7 @@ const Header = () => {
             isOpen={isSearchVisible}
             setIsSearchVisible={setIsSearchVisible}
           />
-          <div className={classes.filmsCount}>
-            <b>{initialFilmsList.length}</b>
-            <span>Films</span>
-          </div>
-          <IconLink
-            path="/about"
-            icon={<InfoIcon color="#fff" />}
-          />
+          <IconLink path="/about" icon={<InfoIcon color="#fff" />} />
         </div>
       </Container>
     </header>

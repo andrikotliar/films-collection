@@ -16,21 +16,16 @@ const Profile: FC<ProfileProps> = ({ actor }) => {
         <img
           src={actor.photoUrl}
           alt={actor.name}
-          onError={(e) =>
-            handleImageError(
-              e,
-              IMAGE_FALLBACKS.noActorImage,
-            )
-          }
+          onError={(e) => handleImageError(e, IMAGE_FALLBACKS.noActorImage)}
         />
       </div>
       <div>
         <h3 className={classes.name}>
           <Link
             to={`${buildLink(
-              'actorId',
-              actor.actorId,
-            )}&actorName=${actor.name}`}
+              'actor',
+              JSON.stringify({ id: actor.actorId, name: actor.name }),
+            )}`}
           >
             {actor.name}
           </Link>
