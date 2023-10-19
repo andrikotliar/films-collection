@@ -1,20 +1,17 @@
 # Films Collection Application
 
-The application is developed as my personal collection of
-favorite films.
+The application is developed as my personal collection of favorite films.
 
-All information, posters and videos was taken from open
-resources. Actor photos are loaded from
-[the TMDB](https://www.themoviedb.org/) directly.
+All information, posters and videos was taken from open resources. Actor photos
+are loaded from [the TMDB](https://www.themoviedb.org/) directly.
 
 App source code:
 [https://github.com/andrikotliar/filmscollection](https://github.com/andrikotliar/filmscollection)
 
 ## Data
 
-All data stores in json-files, that are combined into the
-**database.json** file after the build or start command is
-run.
+All data stores in json-files, that are combined into the **database.json** file
+after the build or start command is run.
 
 To build your own version of the list, clone the project:
 
@@ -23,19 +20,17 @@ git clone git@github.com:andrikotliar/filmscollection.git
 cd filmscollection
 ```
 
-Add or delete films form the db folder and then run
-commands:
+Add or delete films form the db folder and then run commands:
 
 ```bash
 npm install
 npm start
 ```
 
-It will install all required packages, create the "database"
-file and start the development server.
+It will install all required packages, create the "database" file and start the
+development server.
 
-Or run following commads to build project for the
-production:
+Or run following commands to build project for the production:
 
 ```bash
 npm install
@@ -69,55 +64,37 @@ npm run build
         "type": "string"
       }
     },
-    "trailers": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "description": "Youtube video IDs"
+    "trailer": {
+      "type": "string",
+      "description": "Youtube video IDs for Film and Animation types."
     },
-    "posters": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "description": "Poster links"
+    "poster": {
+      "type": "string",
+      "description": "The default poster image slug. It appears on the main page and for Film and Animation types. Series use this image only on the main page."
     },
-    "description": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "plot": {
-            "type": "string"
-          },
-          "title": {
-            "type": "string"
-          },
-          "episodes": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "episodeOverall": {
-                  "type": "number",
-                  "description": "The number of an episode through whole series"
-                },
-                "episode": {
-                  "type": "number",
-                  "description": "The number of an episode in a current season"
-                },
-                "title": {
-                  "type": "string"
-                }
+    "summary": {
+      "type": "object",
+      "properties": {
+        "sections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string",
+                "description": "Paragraph title, usually present only for series where defines season title."
               },
-              "required": ["episodesOverall", "episode", "title"]
-            }
+              "text": {
+                "type": "string",
+                "description": "Short movie description"
+              }
+            },
+            "required": ["text"]
           },
+          "description": "Array of paragraphs for the movie description section"
         },
-        "required": ["plot"]
-      },
-      "description": "Items with type Film or Animation have to contain only one element. The app doesn't provide a way to interact with multiple descriptions for this type. Each index of the array represents a season for a Series type."
+        "required": ["sections"]
+      }
     },
     "crew": {
       "type": "array",
@@ -148,12 +125,9 @@ npm run build
         "required": ["role", "people"]
       }
     },
-    "years": {
-      "type": "array",
-      "items": {
-        "type": "number"
-      },
-      "description": "Release year. Has only one value for the film/animation type and many values for series and shows the release year of each season from the first to the last."
+    "year": {
+      "type": "number",
+      "description": "Release year. Release of the first season for series."
     },
     "countries": {
       "type": "array",
@@ -239,7 +213,7 @@ npm run build
         "required": ["title", "nominations"]
       }
     },
-    "parts": {
+    "chapters": {
       "type": "object",
       "properties": {
         "title": {
@@ -250,7 +224,47 @@ npm run build
           "type": "number",
           "description": "Order within related films"
         }
-      }
+      },
+      "required": ["title", "part"]
+    },
+    "series": {
+      "type": "object",
+      "properties": {
+        "episodesTotal": {
+          "type": "number",
+          "description": "Number of episodes across a series"
+        },
+        "seasons": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "number": {
+                "type": "number",
+                "description": "The number of a season"
+              },
+              "poster": {
+                "type": "string",
+                "description": "Season poster"
+              },
+              "trailer": {
+                "type": "string",
+                "description": "Season trailer"
+              },
+              "episodesCount": {
+                "type": "number",
+                "description": "Number of episodes in the particular season"
+              },
+              "year": {
+                "type": "number",
+                "description": "Year a season was released"
+              }
+            },
+            "required": ["number", "poster", "trailer", "episodesCount", "year"]
+          }
+        }
+      },
+      "required": ["episodesTotal", "seasons"]
     }
   }
 }
@@ -259,6 +273,6 @@ npm run build
 
 ## Tools
 
-There is the **create-db.js** script in the root of the
-project that help to build "database". Run this script to
-bring together all JSONs from the DB folder into one file.
+There is the **create-db.js** script in the root of the project that help to
+build "database". Run this script to bring together all JSONs from the DB folder
+into one file.
