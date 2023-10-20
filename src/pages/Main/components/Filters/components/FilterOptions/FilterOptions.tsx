@@ -1,17 +1,18 @@
 import classes from './FilterOptions.module.css';
 import { FC } from 'react';
-import { Filter, PropsWithClassName } from '@/common';
+import { FilterItem, PropsWithClassName } from '@/common';
 import { FormCheckbox } from '@/components';
 import { Group } from '@/pages/Main/components/Filters/components/Group';
 import classNames from 'classnames';
 
 type FilterOptionsProps = {
-  filter: Filter;
+  filter: FilterItem;
 };
 
-const FilterOptions: FC<
-  PropsWithClassName<FilterOptionsProps>
-> = ({ filter, className }) => {
+const FilterOptions: FC<PropsWithClassName<FilterOptionsProps>> = ({
+  filter,
+  className,
+}) => {
   return (
     <Group
       title={filter.title}

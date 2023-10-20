@@ -2,7 +2,7 @@ import { FilmData } from '@/common/types/film.type';
 
 type FilterKeys = 'general' | 'collections';
 
-type FilterItem = {
+export type FilterItem = {
   title: string;
   property: keyof FilmData;
   options: (string | number)[];
