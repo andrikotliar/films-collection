@@ -13,15 +13,14 @@ const CrewItem: FC<{ crewItem: Crew }> = ({ crewItem }) => {
           <li className={classes.person} key={idx}>
             <Link
               to={buildLink('crew', {
-                [crewItem.role]: person.name,
+                role: crewItem.role,
+                name: person.name,
               })}
             >
               {person.name}
             </Link>
             {person.comment && (
-              <span className={classes.comment}>
-                ({person.comment})
-              </span>
+              <span className={classes.comment}>({person.comment})</span>
             )}
           </li>
         ))}

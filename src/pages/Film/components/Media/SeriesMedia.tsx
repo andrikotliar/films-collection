@@ -33,6 +33,7 @@ const SeriesMedia: FC<SeriesMediaProps> = ({
           <Select
             options={options}
             onSelect={(option) => setActiveIndex(+option.value)}
+            defaultValue={options[0]}
           />
         </div>
       )}

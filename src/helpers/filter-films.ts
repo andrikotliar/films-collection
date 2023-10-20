@@ -27,12 +27,12 @@ export const filterFilms = (
         }
 
         if (property === 'crew') {
-          const parsedCrew = JSON.parse(params[property]);
-          const role = Object.keys(parsedCrew)[0];
-          const crewPosition = film.crew.find((item) => item.role === role);
-          return crewPosition?.people.find(
-            (ppl) => ppl.name === parsedCrew[role],
+          const crew = JSON.parse(params[property]);
+          console.log(crew);
+          const crewPosition = film.crew.find(
+            (item) => item.role === crew.role,
           );
+          return crewPosition?.people.find((ppl) => ppl.name === crew.name);
         }
 
         if (property === 'duration') {

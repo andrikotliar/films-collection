@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import classes from './Select.module.css';
-import { FC, KeyboardEvent, useEffect, useState } from 'react';
+import { FC, KeyboardEvent, useState } from 'react';
 import { ExpandIcon } from '@/assets/icons';
 
 type Option = {
@@ -10,12 +10,20 @@ type Option = {
 
 type SelectProps = {
   options: Option[];
-  defaultValue?: Option['value'];
+  defaultValue?: Option | null;
   onSelect?: (option: Option) => void;
+  placeholder?: string;
 };
 
-const Select: FC<SelectProps> = ({ options, defaultValue, onSelect }) => {
-  const [selectedOption, setSelectedOption] = useState(options[0]);
+const Select: FC<SelectProps> = ({
+  options,
+  defaultValue = null,
+  onSelect,
+  placeholder = 'Select option',
+}) => {
+  const [selectedOption, setSelectedOption] = useState<Option | null>(
+    defaultValue,
+  );
   const [activeIndex, setActiveIndex] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
 
@@ -50,6 +58,7 @@ const Select: FC<SelectProps> = ({ options, defaultValue, onSelect }) => {
         break;
       case 'ArrowDown':
         e.preventDefault();
+        setIsOpen(true);
         setActiveIndex((index) => {
           if (index >= 0 && index < options.length - 1) {
             return index + 1;
@@ -60,6 +69,7 @@ const Select: FC<SelectProps> = ({ options, defaultValue, onSelect }) => {
         break;
       case 'ArrowUp':
         e.preventDefault();
+        setIsOpen(true);
         setActiveIndex((index) => {
           if (index > 0) {
             return index - 1;
@@ -73,19 +83,6 @@ const Select: FC<SelectProps> = ({ options, defaultValue, onSelect }) => {
     }
   };
 
-  useEffect(() => {
-    if (defaultValue) {
-      const index = options.findIndex(
-        (option) => option.value === defaultValue,
-      );
-
-      if (index !== -1) {
-        setSelectedOption(options[index]);
-        setActiveIndex(index);
-      }
-    }
-  }, [defaultValue]);
-
   return (
     <div
       className={classes.select}
@@ -97,7 +94,7 @@ const Select: FC<SelectProps> = ({ options, defaultValue, onSelect }) => {
       aria-expanded={isOpen}
     >
       <div className={classes.value}>
-        <span>{selectedOption.label}</span>
+        <span>{selectedOption ? selectedOption.label : placeholder}</span>
         <ExpandIcon
           className={classNames(classes.expandIcon, {
             [classes.expanded]: isOpen,
@@ -118,10 +115,11 @@ const Select: FC<SelectProps> = ({ options, defaultValue, onSelect }) => {
               handleChange(option, index);
             }}
             className={classNames(classes.option, {
-              [classes.selected]: option.value === selectedOption.value,
+              [classes.selected]: option.value === selectedOption?.value,
               [classes.highlighted]: activeIndex === index,
             })}
             role="menuitem"
+            onMouseEnter={() => setActiveIndex(index)}
           >
             {option.label}
           </li>

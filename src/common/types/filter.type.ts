@@ -1,6 +1,8 @@
 import { FilmData } from '@/common/types/film.type';
 
-export type Filter = {
+type FilterKeys = 'general' | 'collections';
+
+type FilterItem = {
   title: string;
   property: keyof FilmData;
   options: (string | number)[];
@@ -8,4 +10,8 @@ export type Filter = {
   isRadio?: true;
   isScrollable?: true;
   isGrid?: true;
+};
+
+export type Filters = {
+  [key in FilterKeys]: FilterItem[];
 };
