@@ -5,16 +5,18 @@ import { useFilmsContext } from '@/context/FilmsContext';
 import { useForm, FormProvider } from 'react-hook-form';
 import { CloseIcon, FilterIcon, ResetIcon } from '@/assets/icons';
 import { useAppContext } from '@/context/AppContext';
-import { Button, Scrollable } from '@/components';
+import { Button, Tabs } from '@/components';
 import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
 
-const defaultValues = filtersConfig.reduce((values, { property }) => {
-  return {
-    ...values,
-    [property]: null,
-  };
-}, {});
+const defaultValues = {
+  type: null,
+  collections: null,
+  genres: null,
+  year: null,
+  country: null,
+  studio: null,
+};
 
 const Filters = () => {
   const { filterParams, updateFilter, resetFilter } = useFilmsContext();
@@ -56,11 +58,30 @@ const Filters = () => {
         className={classes.filters}
       >
         <h2 className={classes.mobileHeader}>Filters</h2>
-        <Scrollable className={classes.wrapper}>
-          {filtersConfig.map((filter) => (
-            <FilterOptions filter={filter} key={filter.title} />
-          ))}
-        </Scrollable>
+        <Tabs
+          components={[
+            {
+              label: 'General',
+              content: (
+                <div className={classes.filterGroups}>
+                  {filtersConfig.general.map((filter) => (
+                    <FilterOptions filter={filter} key={filter.title} />
+                  ))}
+                </div>
+              ),
+            },
+            {
+              label: 'Collections',
+              content: (
+                <div className={classes.filterGroups}>
+                  {filtersConfig.collections.map((filter) => (
+                    <FilterOptions filter={filter} key={filter.title} />
+                  ))}
+                </div>
+              ),
+            },
+          ]}
+        />
         <div className={classes.controls}>
           <Button
             icon={<FilterIcon color="white" />}
