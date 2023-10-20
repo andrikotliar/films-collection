@@ -146,8 +146,6 @@
   ],
   "budget": 125000000,
   "boxOffice": 626000000,
-  "trailer": "mw2AqdB5EVA",
-  "poster": "fast_and_furious_5.webp",
   "year": 2011,
   "summary": {
     "sections": [
@@ -159,5 +157,15 @@
   "chapters": {
     "title": "Fast and Furious",
     "part": 5
-  }
+  },
+  "trailers": [
+    {
+      "path": "mw2AqdB5EVA"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_5.webp"
+    }
+  ]
 }

@@ -157,8 +157,6 @@
   ],
   "budget": 185000000,
   "boxOffice": 467000000,
-  "trailer": "jJMYAJ3_0uw",
-  "poster": "star_trek_2.webp",
   "year": 2013,
   "summary": {
     "sections": [
@@ -170,5 +168,15 @@
   "chapters": {
     "title": "Star Trek",
     "part": 2
-  }
+  },
+  "trailers": [
+    {
+      "path": "jJMYAJ3_0uw"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/star_trek_2.webp"
+    }
+  ]
 }

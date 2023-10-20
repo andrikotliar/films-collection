@@ -138,8 +138,6 @@
     }
   ],
   "boxOffice": 654000000,
-  "trailer": "naQr0uTrH_s",
-  "poster": "pirates_1.webp",
   "year": 2003,
   "summary": {
     "sections": [
@@ -151,5 +149,15 @@
   "chapters": {
     "title": "Pirates of the Caribbean",
     "part": 1
-  }
+  },
+  "trailers": [
+    {
+      "path": "naQr0uTrH_s"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/pirates_1.webp"
+    }
+  ]
 }

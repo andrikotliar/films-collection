@@ -169,8 +169,6 @@
     }
   ],
   "boxOffice": 748000000,
-  "trailer": "pK2zYHWDZKo",
-  "poster": "x_men_6.webp",
   "year": 2014,
   "summary": {
     "sections": [
@@ -182,5 +180,15 @@
   "chapters": {
     "title": "X-Men",
     "part": 7
-  }
+  },
+  "trailers": [
+    {
+      "path": "pK2zYHWDZKo"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/x_men_6.webp"
+    }
+  ]
 }

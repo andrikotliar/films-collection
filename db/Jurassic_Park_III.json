@@ -111,8 +111,6 @@
   ],
   "budget": 93000000,
   "boxOffice": 368000000,
-  "trailer": "gjIaV6CU0wA",
-  "poster": "jurassic_park_3.webp",
   "year": 2001,
   "summary": {
     "sections": [
@@ -124,5 +122,15 @@
   "chapters": {
     "title": "Jurassic Park",
     "part": 3
-  }
+  },
+  "trailers": [
+    {
+      "path": "gjIaV6CU0wA"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/jurassic_park_3.webp"
+    }
+  ]
 }

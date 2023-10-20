@@ -139,8 +139,6 @@
   ],
   "budget": 150000000,
   "boxOffice": 373000000,
-  "trailer": "QojV7s3UTu0",
-  "poster": "x_men_4.webp",
   "year": 2009,
   "summary": {
     "sections": [
@@ -152,5 +150,15 @@
   "chapters": {
     "title": "X-Men",
     "part": 4
-  }
+  },
+  "trailers": [
+    {
+      "path": "QojV7s3UTu0"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/x_men_4.webp"
+    }
+  ]
 }

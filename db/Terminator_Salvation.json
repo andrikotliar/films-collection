@@ -122,8 +122,6 @@
   ],
   "budget": 200000000,
   "boxOffice": 371000000,
-  "trailer": "-Czz-TcWCkA",
-  "poster": "terminator_4.webp",
   "year": 2009,
   "summary": {
     "sections": [
@@ -135,5 +133,15 @@
   "chapters": {
     "title": "The Terminator",
     "part": 3
-  }
+  },
+  "trailers": [
+    {
+      "path": "-Czz-TcWCkA"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/terminator_4.webp"
+    }
+  ]
 }

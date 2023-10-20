@@ -175,8 +175,6 @@
     }
   ],
   "boxOffice": 1080000000,
-  "trailer": "GokKUqLcvD8",
-  "poster": "batman_3.webp",
   "year": 2012,
   "summary": {
     "sections": [
@@ -188,5 +186,15 @@
   "chapters": {
     "title": "The Dark Knight",
     "part": 3
-  }
+  },
+  "trailers": [
+    {
+      "path": "GokKUqLcvD8"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/batman_3.webp"
+    }
+  ]
 }

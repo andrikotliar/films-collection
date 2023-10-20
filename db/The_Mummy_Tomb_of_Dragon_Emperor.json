@@ -135,8 +135,6 @@
   ],
   "budget": 145000000,
   "boxOffice": 401000000,
-  "trailer": "5-4qSE2Ch0Y",
-  "poster": "mummy_3.webp",
   "year": 2008,
   "summary": {
     "sections": [
@@ -148,5 +146,15 @@
   "chapters": {
     "title": "The Mummy",
     "part": 3
-  }
+  },
+  "trailers": [
+    {
+      "path": "5-4qSE2Ch0Y"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mummy_3.webp"
+    }
+  ]
 }

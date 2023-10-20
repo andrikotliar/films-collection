@@ -97,8 +97,6 @@
   ],
   "budget": 40000000,
   "boxOffice": 245000000,
-  "trailer": "EYkguxpqsrg",
-  "poster": "back_to_the_future_3.webp",
   "year": 1990,
   "summary": {
     "sections": [
@@ -110,5 +108,15 @@
   "chapters": {
     "title": "Back to the Future",
     "part": 3
-  }
+  },
+  "trailers": [
+    {
+      "path": "EYkguxpqsrg"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/back_to_the_future_3.webp"
+    }
+  ]
 }

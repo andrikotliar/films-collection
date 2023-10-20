@@ -153,8 +153,6 @@
     }
   ],
   "boxOffice": 384000000,
-  "trailer": "hFUC5adf8FE",
-  "poster": "happy_feet.webp",
   "year": 2006,
   "summary": {
     "sections": [
@@ -162,5 +160,15 @@
         "text": "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!"
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "path": "hFUC5adf8FE"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/happy_feet.webp"
+    }
+  ]
 }

@@ -177,8 +177,6 @@
     }
   ],
   "boxOffice": 1520000000,
-  "trailer": "hIR8Ar-Z4hw",
-  "poster": "avengers_1.webp",
   "year": 2012,
   "summary": {
     "sections": [
@@ -190,5 +188,15 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 6
-  }
+  },
+  "trailers": [
+    {
+      "path": "hIR8Ar-Z4hw"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/avengers_1.webp"
+    }
+  ]
 }

@@ -101,8 +101,6 @@
     }
   ],
   "boxOffice": 40000000,
-  "trailer": "k64P4l2Wmeg",
-  "poster": "terminator_1.webp",
   "year": 1984,
   "summary": {
     "sections": [
@@ -114,5 +112,15 @@
   "chapters": {
     "title": "The Terminator",
     "part": 1
-  }
+  },
+  "trailers": [
+    {
+      "path": "k64P4l2Wmeg"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/terminator_1.webp"
+    }
+  ]
 }

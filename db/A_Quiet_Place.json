@@ -122,8 +122,6 @@
     }
   ],
   "boxOffice": 341000000,
-  "trailer": "WR7cc5t7tv8",
-  "poster": "quiet_place.webp",
   "year": 2018,
   "summary": {
     "sections": [
@@ -135,5 +133,15 @@
   "chapters": {
     "title": "Quiet Place",
     "part": 1
-  }
+  },
+  "trailers": [
+    {
+      "path": "WR7cc5t7tv8"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/quiet_place.webp"
+    }
+  ]
 }

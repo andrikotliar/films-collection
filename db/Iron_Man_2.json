@@ -137,8 +137,6 @@
   ],
   "budget": 200000000,
   "boxOffice": 624000000,
-  "trailer": "BoohRoVA9WQ",
-  "poster": "iron_man_2.webp",
   "year": 2010,
   "summary": {
     "sections": [
@@ -150,5 +148,15 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 3
-  }
+  },
+  "trailers": [
+    {
+      "path": "BoohRoVA9WQ"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/iron_man_2.webp"
+    }
+  ]
 }

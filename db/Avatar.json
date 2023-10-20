@@ -190,8 +190,6 @@
     }
   ],
   "boxOffice": 2800000000,
-  "trailer": "CM79GTEm2ps",
-  "poster": "avatar.webp",
   "year": 2009,
   "summary": {
     "sections": [
@@ -203,5 +201,15 @@
   "chapters": {
     "title": "Avatar",
     "part": 1
-  }
+  },
+  "trailers": [
+    {
+      "path": "CM79GTEm2ps"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/avatar.webp"
+    }
+  ]
 }

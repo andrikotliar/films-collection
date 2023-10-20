@@ -124,8 +124,6 @@
     }
   ],
   "boxOffice": 678000000,
-  "trailer": "HSzx-zryEgM",
-  "poster": "doctor_strange.webp",
   "year": 2016,
   "summary": {
     "sections": [
@@ -137,5 +135,15 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 14
-  }
+  },
+  "trailers": [
+    {
+      "path": "HSzx-zryEgM"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/doctor_strange.webp"
+    }
+  ]
 }

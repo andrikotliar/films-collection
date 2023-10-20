@@ -140,8 +140,6 @@
       "title": "Marvel Cinematic Universe"
     }
   ],
-  "trailer": "rt-2cxAiPJk",
-  "poster": "mcu_spider_man_3.webp",
   "year": 2021,
   "summary": {
     "sections": [
@@ -153,5 +151,15 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 30
-  }
+  },
+  "trailers": [
+    {
+      "path": "rt-2cxAiPJk"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mcu_spider_man_3.webp"
+    }
+  ]
 }

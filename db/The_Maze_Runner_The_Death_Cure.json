@@ -152,8 +152,6 @@
   ],
   "budget": 62000000,
   "boxOffice": 288000000,
-  "trailer": "4-BTxXm8KSg",
-  "poster": "maze_runner_3.webp",
   "year": 2018,
   "summary": {
     "sections": [
@@ -165,5 +163,15 @@
   "chapters": {
     "title": "The Maze Runner",
     "part": 3
-  }
+  },
+  "trailers": [
+    {
+      "path": "4-BTxXm8KSg"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/maze_runner_3.webp"
+    }
+  ]
 }

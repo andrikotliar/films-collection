@@ -183,7 +183,6 @@
       "title": "Fantasy"
     }
   ],
-  "poster": "arcane.webp",
   "year": 2021,
   "summary": {
     "sections": [
@@ -198,11 +197,21 @@
     "seasons": [
       {
         "number": 1,
-        "poster": "arcane.webp",
-        "trailer": "3Svs_hl897c",
         "episodesCount": 9,
         "year": 2021
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "path": "3Svs_hl897c",
+      "caption": "Season 1"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/arcane.webp",
+      "caption": "Season 1"
+    }
+  ]
 }

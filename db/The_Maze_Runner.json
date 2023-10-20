@@ -140,8 +140,6 @@
     }
   ],
   "boxOffice": 348000000,
-  "trailer": "AwwbhhjQ9Xk",
-  "poster": "maze_runner_1.webp",
   "year": 2014,
   "summary": {
     "sections": [
@@ -153,5 +151,15 @@
   "chapters": {
     "title": "The Maze Runner",
     "part": 1
-  }
+  },
+  "trailers": [
+    {
+      "path": "AwwbhhjQ9Xk"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/maze_runner_1.webp"
+    }
+  ]
 }

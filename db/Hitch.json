@@ -117,8 +117,6 @@
     }
   ],
   "boxOffice": 368000000,
-  "trailer": "pYrrEUgnT6s",
-  "poster": "hitch.webp",
   "year": 2005,
   "summary": {
     "sections": [
@@ -126,5 +124,15 @@
         "text": "While helping his latest client woo the fine lady of his dreams, a professional \"date doctor\" finds that his game doesn't quite work on the gossip columnist with whom he's smitten."
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "path": "pYrrEUgnT6s"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hitch.webp"
+    }
+  ]
 }

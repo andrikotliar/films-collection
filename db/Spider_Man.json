@@ -126,8 +126,6 @@
   ],
   "budget": 139000000,
   "boxOffice": 825000000,
-  "trailer": "_yhFofFZGcc",
-  "poster": "raimi_spider_man_1.webp",
   "year": 2002,
   "summary": {
     "sections": [
@@ -139,5 +137,15 @@
   "chapters": {
     "title": "Raimi's Spider-Man",
     "part": 1
-  }
+  },
+  "trailers": [
+    {
+      "path": "_yhFofFZGcc"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/raimi_spider_man_1.webp"
+    }
+  ]
 }

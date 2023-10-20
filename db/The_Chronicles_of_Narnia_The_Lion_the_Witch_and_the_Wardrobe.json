@@ -162,8 +162,6 @@
     }
   ],
   "boxOffice": 745000000,
-  "trailer": "lWKj41HZBzM",
-  "poster": "narnia_1.webp",
   "year": 2005,
   "summary": {
     "sections": [
@@ -175,5 +173,15 @@
   "chapters": {
     "title": "The Chronicles of Narnia",
     "part": 1
-  }
+  },
+  "trailers": [
+    {
+      "path": "lWKj41HZBzM"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/narnia_1.webp"
+    }
+  ]
 }

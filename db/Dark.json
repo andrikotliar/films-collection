@@ -288,7 +288,6 @@
       ]
     }
   ],
-  "poster": "dark.webp",
   "year": 2017,
   "summary": {
     "sections": [
@@ -311,25 +310,47 @@
     "seasons": [
       {
         "number": 1,
-        "poster": "dark.webp",
-        "trailer": "rrwycJ08PSA",
         "episodesCount": 8,
         "year": 2017
       },
       {
         "number": 2,
-        "poster": "dark_s2.webp",
-        "trailer": "810CHvSdXOo",
         "episodesCount": 8,
         "year": 2019
       },
       {
         "number": 3,
-        "poster": "dark_s3.webp",
-        "trailer": "cq2iTHoLrt0",
         "episodesCount": 8,
         "year": 2020
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "path": "rrwycJ08PSA",
+      "caption": "Season 1"
+    },
+    {
+      "path": "810CHvSdXOo",
+      "caption": "Season 2"
+    },
+    {
+      "path": "cq2iTHoLrt0",
+      "caption": "Season 3"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/dark.webp",
+      "caption": "Season 1"
+    },
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/dark_s2.webp",
+      "caption": "Season 2"
+    },
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/dark_s3.webp",
+      "caption": "Season 3"
+    }
+  ]
 }

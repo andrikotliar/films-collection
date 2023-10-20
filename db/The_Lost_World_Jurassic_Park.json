@@ -98,8 +98,6 @@
   ],
   "budget": 73000000,
   "boxOffice": 619000000,
-  "trailer": "RxrvaneULkE",
-  "poster": "jurassic_park_2.webp",
   "year": 1997,
   "summary": {
     "sections": [
@@ -111,5 +109,15 @@
   "chapters": {
     "title": "Jurassic Park",
     "part": 2
-  }
+  },
+  "trailers": [
+    {
+      "path": "RxrvaneULkE"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/jurassic_park_2.webp"
+    }
+  ]
 }

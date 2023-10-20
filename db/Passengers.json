@@ -113,8 +113,6 @@
   ],
   "budget": 110000000,
   "boxOffice": 303000000,
-  "trailer": "7BWWWQzTpNU",
-  "poster": "passengers.webp",
   "year": 2016,
   "summary": {
     "sections": [
@@ -122,5 +120,15 @@
         "text": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early."
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "path": "7BWWWQzTpNU"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/passengers.webp"
+    }
+  ]
 }

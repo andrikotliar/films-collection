@@ -136,8 +136,6 @@
   ],
   "budget": 130000000,
   "boxOffice": 797000000,
-  "trailer": "lAxgztbYDbs",
-  "poster": "harry_potter_3.webp",
   "year": 2004,
   "summary": {
     "sections": [
@@ -149,5 +147,15 @@
   "chapters": {
     "title": "Harry Potter Universe",
     "part": 5
-  }
+  },
+  "trailers": [
+    {
+      "path": "lAxgztbYDbs"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/harry_potter_3.webp"
+    }
+  ]
 }

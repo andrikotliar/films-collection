@@ -157,8 +157,6 @@
     }
   ],
   "boxOffice": 463000000,
-  "trailer": "m8e-FF8MsqU",
-  "poster": "matrix_1.webp",
   "year": 1999,
   "summary": {
     "sections": [
@@ -170,5 +168,15 @@
   "chapters": {
     "title": "The Matrix",
     "part": 1
-  }
+  },
+  "trailers": [
+    {
+      "path": "m8e-FF8MsqU"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/matrix_1.webp"
+    }
+  ]
 }

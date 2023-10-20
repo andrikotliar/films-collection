@@ -186,8 +186,6 @@
     }
   ],
   "boxOffice": 1150000000,
-  "trailer": "dKrVegVI0Us",
-  "poster": "captain_america_3.webp",
   "year": 2016,
   "summary": {
     "sections": [
@@ -199,5 +197,15 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 13
-  }
+  },
+  "trailers": [
+    {
+      "path": "dKrVegVI0Us"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/captain_america_3.webp"
+    }
+  ]
 }

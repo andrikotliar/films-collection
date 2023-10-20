@@ -190,8 +190,6 @@
     }
   ],
   "boxOffice": 1400000000,
-  "trailer": "tmeOjFno6Do",
-  "poster": "avengers_2.webp",
   "year": 2015,
   "summary": {
     "sections": [
@@ -203,5 +201,15 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 11
-  }
+  },
+  "trailers": [
+    {
+      "path": "tmeOjFno6Do"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/avengers_2.webp"
+    }
+  ]
 }

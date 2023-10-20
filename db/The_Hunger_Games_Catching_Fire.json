@@ -124,8 +124,6 @@
     }
   ],
   "boxOffice": 865000000,
-  "trailer": "EAzGXqJSDJ8",
-  "poster": "hunger_games_2.webp",
   "year": 2013,
   "summary": {
     "sections": [
@@ -137,5 +135,15 @@
   "chapters": {
     "title": "The Hunger Games",
     "part": 2
-  }
+  },
+  "trailers": [
+    {
+      "path": "EAzGXqJSDJ8"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hunger_games_2.webp"
+    }
+  ]
 }

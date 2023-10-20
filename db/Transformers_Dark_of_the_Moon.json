@@ -160,8 +160,6 @@
   ],
   "budget": 195000000,
   "boxOffice": 1120000000,
-  "trailer": "bTIrEZM-cFE",
-  "poster": "transformers_3.webp",
   "year": 2011,
   "summary": {
     "sections": [
@@ -173,5 +171,15 @@
   "chapters": {
     "title": "Transformers",
     "part": 4
-  }
+  },
+  "trailers": [
+    {
+      "path": "bTIrEZM-cFE"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/transformers_3.webp"
+    }
+  ]
 }

@@ -147,8 +147,6 @@
     }
   ],
   "boxOffice": 822000000,
-  "trailer": "1Q8fG0TtVAY",
-  "poster": "wonder_woman.webp",
   "year": 2017,
   "summary": {
     "sections": [
@@ -160,5 +158,15 @@
   "chapters": {
     "title": "DC Extended Universe",
     "part": 4
-  }
+  },
+  "trailers": [
+    {
+      "path": "1Q8fG0TtVAY"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/wonder_woman.webp"
+    }
+  ]
 }

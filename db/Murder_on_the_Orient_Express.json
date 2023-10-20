@@ -187,8 +187,6 @@
   ],
   "budget": 55000000,
   "boxOffice": 353000000,
-  "trailer": "Mq4m3yAoW8E",
-  "poster": "murder_on_the_orient_express.webp",
   "year": 2017,
   "summary": {
     "sections": [
@@ -196,5 +194,15 @@
         "text": "When a murder occurs on the train on which he's travelling, celebrated detective Hercule Poirot is recruited to solve the case."
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "path": "Mq4m3yAoW8E"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/murder_on_the_orient_express.webp"
+    }
+  ]
 }

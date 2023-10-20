@@ -139,8 +139,6 @@
   ],
   "budget": 250000000,
   "boxOffice": 874000000,
-  "trailer": "bha24P9uw-E",
-  "poster": "batman_v_superman.webp",
   "year": 2016,
   "summary": {
     "sections": [
@@ -152,5 +150,15 @@
   "chapters": {
     "title": "DC Extended Universe",
     "part": 2
-  }
+  },
+  "trailers": [
+    {
+      "path": "bha24P9uw-E"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/batman_v_superman.webp"
+    }
+  ]
 }

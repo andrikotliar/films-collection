@@ -120,8 +120,6 @@
   ],
   "budget": 100000000,
   "boxOffice": 167000000,
-  "trailer": "fyuoIqeL-bc",
-  "poster": "unstoppable.webp",
   "year": 2010,
   "summary": {
     "sections": [
@@ -129,5 +127,15 @@
         "text": "With an unmanned, half-mile-long freight train barreling toward a city, a veteran engineer and a young conductor race against the clock to prevent a catastrophe."
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "path": "fyuoIqeL-bc"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/unstoppable.webp"
+    }
+  ]
 }

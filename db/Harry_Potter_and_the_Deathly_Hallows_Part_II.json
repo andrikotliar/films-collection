@@ -143,8 +143,6 @@
     }
   ],
   "boxOffice": 1340000000,
-  "trailer": "5NYt1qirBWg",
-  "poster": "harry_potter_8.webp",
   "year": 2011,
   "summary": {
     "sections": [
@@ -156,5 +154,15 @@
   "chapters": {
     "title": "Harry Potter Universe",
     "part": 10
-  }
+  },
+  "trailers": [
+    {
+      "path": "5NYt1qirBWg"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/harry_potter_8.webp"
+    }
+  ]
 }

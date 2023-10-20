@@ -139,8 +139,6 @@
   ],
   "budget": 129000000,
   "boxOffice": 443000000,
-  "trailer": "SkcucKDrbOI",
-  "poster": "how_to_train_your_dragon_3.webp",
   "year": 2019,
   "summary": {
     "sections": [
@@ -152,5 +150,15 @@
   "chapters": {
     "title": "How to Train Your Dragon",
     "part": 3
-  }
+  },
+  "trailers": [
+    {
+      "path": "SkcucKDrbOI"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/how_to_train_your_dragon_3.webp"
+    }
+  ]
 }

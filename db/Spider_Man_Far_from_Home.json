@@ -124,8 +124,6 @@
     }
   ],
   "boxOffice": 1130000000,
-  "trailer": "Nt9L1jCKGnE",
-  "poster": "mcu_spider_man_2.webp",
   "year": 2019,
   "summary": {
     "sections": [
@@ -137,5 +135,15 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 23
-  }
+  },
+  "trailers": [
+    {
+      "path": "Nt9L1jCKGnE"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mcu_spider_man_2.webp"
+    }
+  ]
 }

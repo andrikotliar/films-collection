@@ -205,7 +205,6 @@
       ]
     }
   ],
-  "poster": "sherlock.webp",
   "year": 2010,
   "summary": {
     "sections": [
@@ -232,32 +231,60 @@
     "seasons": [
       {
         "number": 1,
-        "poster": "sherlock.webp",
-        "trailer": "xK7S9mrFWL4",
         "episodesCount": 3,
         "year": 2010
       },
       {
         "number": 2,
-        "poster": "sherlock_s2.webp",
-        "trailer": "vydmN9pzDzg",
         "episodesCount": 3,
         "year": 2012
       },
       {
         "number": 3,
-        "poster": "sherlock_s3.webp",
-        "trailer": "9UcR9iKArd0",
         "episodesCount": 3,
         "year": 2014
       },
       {
         "number": 4,
-        "poster": "sherlock_s4.webp",
-        "trailer": "FOXZgRTfSUA",
         "episodesCount": 3,
         "year": 2017
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "path": "xK7S9mrFWL4",
+      "caption": "Season 1"
+    },
+    {
+      "path": "vydmN9pzDzg",
+      "caption": "Season 2"
+    },
+    {
+      "path": "9UcR9iKArd0",
+      "caption": "Season 3"
+    },
+    {
+      "path": "FOXZgRTfSUA",
+      "caption": "Season 4"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/sherlock.webp",
+      "caption": "Season 1"
+    },
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/sherlock_s2.webp",
+      "caption": "Season 2"
+    },
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/sherlock_s3.webp",
+      "caption": "Season 3"
+    },
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/sherlock_s4.webp",
+      "caption": "Season 4"
+    }
+  ]
 }

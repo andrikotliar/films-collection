@@ -131,8 +131,6 @@
     }
   ],
   "boxOffice": 975000000000,
-  "trailer": "VyHV0BRtdxo",
-  "poster": "harry_potter_1.webp",
   "year": 2001,
   "summary": {
     "sections": [
@@ -144,5 +142,15 @@
   "chapters": {
     "title": "Harry Potter Universe",
     "part": 3
-  }
+  },
+  "trailers": [
+    {
+      "path": "VyHV0BRtdxo"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/harry_potter_1.webp"
+    }
+  ]
 }

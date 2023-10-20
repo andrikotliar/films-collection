@@ -139,8 +139,6 @@
     }
   ],
   "boxOffice": 658000000,
-  "trailer": "n-7K_OjsDCQ",
-  "poster": "hunger_games_4.webp",
   "year": 2015,
   "summary": {
     "sections": [
@@ -152,5 +150,15 @@
   "chapters": {
     "title": "The Hunger Games",
     "part": 4
-  }
+  },
+  "trailers": [
+    {
+      "path": "n-7K_OjsDCQ"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hunger_games_4.webp"
+    }
+  ]
 }

@@ -154,8 +154,6 @@
   ],
   "budget": 178000000,
   "boxOffice": 544000000,
-  "trailer": "Jer8XjMrUB4",
-  "poster": "x_men_7.webp",
   "year": 2016,
   "summary": {
     "sections": [
@@ -167,5 +165,15 @@
   "chapters": {
     "title": "X-Men",
     "part": 8
-  }
+  },
+  "trailers": [
+    {
+      "path": "Jer8XjMrUB4"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/x_men_7.webp"
+    }
+  ]
 }

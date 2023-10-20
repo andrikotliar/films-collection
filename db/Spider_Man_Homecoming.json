@@ -150,8 +150,6 @@
     }
   ],
   "boxOffice": 880000000,
-  "trailer": "n9DwoQ7HWvI",
-  "poster": "mcu_spider_man_1.webp",
   "year": 2017,
   "summary": {
     "sections": [
@@ -163,5 +161,15 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 16
-  }
+  },
+  "trailers": [
+    {
+      "path": "n9DwoQ7HWvI"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mcu_spider_man_1.webp"
+    }
+  ]
 }

@@ -210,8 +210,6 @@
     }
   ],
   "budget": 300000000,
-  "trailer": "ui37YKQ9AC4",
-  "poster": "justice_league.webp",
   "year": 2021,
   "summary": {
     "sections": [
@@ -223,5 +221,15 @@
   "chapters": {
     "title": "DC Extended Universe",
     "part": 5
-  }
+  },
+  "trailers": [
+    {
+      "path": "ui37YKQ9AC4"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/justice_league.webp"
+    }
+  ]
 }

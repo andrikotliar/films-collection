@@ -130,8 +130,6 @@
     }
   ],
   "boxOffice": 789000000,
-  "trailer": "1s9Yln0YwCw",
-  "poster": "raimi_spider_man_2.webp",
   "year": 2004,
   "summary": {
     "sections": [
@@ -143,5 +141,15 @@
   "chapters": {
     "title": "Raimi's Spider-Man",
     "part": 2
-  }
+  },
+  "trailers": [
+    {
+      "path": "1s9Yln0YwCw"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/raimi_spider_man_2.webp"
+    }
+  ]
 }

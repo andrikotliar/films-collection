@@ -164,8 +164,6 @@
   ],
   "budget": 180000000,
   "boxOffice": 854000000,
-  "trailer": "ue80QwXMRHg",
-  "poster": "thor_3.webp",
   "year": 2017,
   "summary": {
     "sections": [
@@ -177,5 +175,15 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 17
-  }
+  },
+  "trailers": [
+    {
+      "path": "ue80QwXMRHg"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/thor_3.webp"
+    }
+  ]
 }

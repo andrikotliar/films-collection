@@ -125,8 +125,6 @@
     }
   ],
   "boxOffice": 849000000,
-  "trailer": "5UnjrG_N8hU",
-  "poster": "star_wars_episode_III.webp",
   "year": 2005,
   "summary": {
     "sections": [
@@ -138,5 +136,15 @@
   "chapters": {
     "title": "Star Wars Universe",
     "part": 3
-  }
+  },
+  "trailers": [
+    {
+      "path": "5UnjrG_N8hU"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/star_wars_episode_III.webp"
+    }
+  ]
 }

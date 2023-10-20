@@ -147,8 +147,6 @@
     }
   ],
   "boxOffice": 747000000,
-  "trailer": "CmRih_VtVAs",
-  "poster": "suicide_squad.webp",
   "year": 2016,
   "summary": {
     "sections": [
@@ -160,5 +158,15 @@
   "chapters": {
     "title": "DC Extended Universe",
     "part": 3
-  }
+  },
+  "trailers": [
+    {
+      "path": "CmRih_VtVAs"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/suicide_squad.webp"
+    }
+  ]
 }

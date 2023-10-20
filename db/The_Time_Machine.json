@@ -118,8 +118,6 @@
   ],
   "budget": 80000000,
   "boxOffice": 124000000,
-  "trailer": "90T7iLuzFgg",
-  "poster": "time_machine.webp",
   "year": 2002,
   "summary": {
     "sections": [
@@ -127,5 +125,15 @@
         "text": "Hoping to alter the events of the past, a 19th century inventor instead travels 800,000 years into the future, where he finds humankind divided into two warring races."
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "path": "90T7iLuzFgg"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/time_machine.webp"
+    }
+  ]
 }

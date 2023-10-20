@@ -106,8 +106,6 @@
   ],
   "budget": 14000000,
   "boxOffice": 12000000,
-  "trailer": "Mcmkx1klOpE",
-  "poster": "d13_1.webp",
   "year": 2004,
   "summary": {
     "sections": [
@@ -119,5 +117,15 @@
   "chapters": {
     "title": "District 13",
     "part": 1
-  }
+  },
+  "trailers": [
+    {
+      "path": "Mcmkx1klOpE"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/d13_1.webp"
+    }
+  ]
 }

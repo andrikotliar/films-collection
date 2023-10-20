@@ -132,8 +132,6 @@
   ],
   "budget": 225000000,
   "boxOffice": 420000000,
-  "trailer": "9Q0Da4jlxBk",
-  "poster": "narnia_2.webp",
   "year": 2008,
   "summary": {
     "sections": [
@@ -145,5 +143,15 @@
   "chapters": {
     "title": "The Chronicles of Narnia",
     "part": 2
-  }
+  },
+  "trailers": [
+    {
+      "path": "9Q0Da4jlxBk"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/narnia_2.webp"
+    }
+  ]
 }

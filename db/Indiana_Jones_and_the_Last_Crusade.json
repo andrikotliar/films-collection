@@ -133,8 +133,6 @@
     }
   ],
   "boxOffice": 474000000,
-  "trailer": "sagmdpkWUqc",
-  "poster": "indiana_jones_3.webp",
   "year": 1989,
   "summary": {
     "sections": [
@@ -146,5 +144,15 @@
   "chapters": {
     "title": "Indiana Jones",
     "part": 3
-  }
+  },
+  "trailers": [
+    {
+      "path": "sagmdpkWUqc"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/indiana_jones_3.webp"
+    }
+  ]
 }

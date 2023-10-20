@@ -137,8 +137,6 @@
   ],
   "budget": 127000000,
   "boxOffice": 742000000,
-  "trailer": "kYzz0FSgpSU",
-  "poster": "matrix_2.webp",
   "year": 2003,
   "summary": {
     "sections": [
@@ -150,5 +148,15 @@
   "chapters": {
     "title": "The Matrix",
     "part": 2
-  }
+  },
+  "trailers": [
+    {
+      "path": "kYzz0FSgpSU"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/matrix_2.webp"
+    }
+  ]
 }

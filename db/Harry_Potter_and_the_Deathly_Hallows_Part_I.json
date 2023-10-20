@@ -129,8 +129,6 @@
   ],
   "budget": 250000000,
   "boxOffice": 960000000,
-  "trailer": "MxqsmsA8y5k",
-  "poster": "harry_potter_7.webp",
   "year": 2010,
   "summary": {
     "sections": [
@@ -142,5 +140,15 @@
   "chapters": {
     "title": "Harry Potter Universe",
     "part": 9
-  }
+  },
+  "trailers": [
+    {
+      "path": "MxqsmsA8y5k"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/harry_potter_7.webp"
+    }
+  ]
 }

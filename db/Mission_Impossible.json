@@ -135,8 +135,6 @@
   ],
   "budget": 80000000,
   "boxOffice": 458000000,
-  "trailer": "Ohws8y572KE",
-  "poster": "mi_1.webp",
   "year": 1996,
   "summary": {
     "sections": [
@@ -148,5 +146,15 @@
   "chapters": {
     "title": "Mission: Impossible",
     "part": 1
-  }
+  },
+  "trailers": [
+    {
+      "path": "Ohws8y572KE"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mi_1.webp"
+    }
+  ]
 }

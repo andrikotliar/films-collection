@@ -153,8 +153,6 @@
     }
   ],
   "boxOffice": 619000000,
-  "trailer": "Div0iP65aZo",
-  "poster": "logan.webp",
   "year": 2017,
   "summary": {
     "sections": [
@@ -166,5 +164,15 @@
   "chapters": {
     "title": "X-Men",
     "part": 9
-  }
+  },
+  "trailers": [
+    {
+      "path": "Div0iP65aZo"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/logan.webp"
+    }
+  ]
 }

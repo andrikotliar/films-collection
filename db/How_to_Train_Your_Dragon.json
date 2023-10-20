@@ -134,8 +134,6 @@
   ],
   "budget": 165000000,
   "boxOffice": 496000000,
-  "trailer": "oKiYuIsPxYk",
-  "poster": "how_to_train_your_dragon_1.webp",
   "year": 2010,
   "summary": {
     "sections": [
@@ -147,5 +145,15 @@
   "chapters": {
     "title": "How to Train Your Dragon",
     "part": 1
-  }
+  },
+  "trailers": [
+    {
+      "path": "oKiYuIsPxYk"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/how_to_train_your_dragon_1.webp"
+    }
+  ]
 }

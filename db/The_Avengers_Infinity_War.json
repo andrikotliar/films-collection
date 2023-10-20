@@ -235,8 +235,6 @@
     }
   ],
   "boxOffice": 2049999999.9999998,
-  "trailer": "6ZfuNTqbHE8",
-  "poster": "avengers_3.webp",
   "year": 2018,
   "summary": {
     "sections": [
@@ -248,5 +246,15 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 19
-  }
+  },
+  "trailers": [
+    {
+      "path": "6ZfuNTqbHE8"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/avengers_3.webp"
+    }
+  ]
 }

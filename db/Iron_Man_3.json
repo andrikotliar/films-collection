@@ -129,8 +129,6 @@
     }
   ],
   "boxOffice": 1200000000,
-  "trailer": "Ke1Y3P9D0Bc",
-  "poster": "iron_man_3.webp",
   "year": 2013,
   "summary": {
     "sections": [
@@ -142,5 +140,15 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 7
-  }
+  },
+  "trailers": [
+    {
+      "path": "Ke1Y3P9D0Bc"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/iron_man_3.webp"
+    }
+  ]
 }

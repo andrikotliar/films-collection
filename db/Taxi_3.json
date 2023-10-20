@@ -124,8 +124,6 @@
   ],
   "budget": 14000000,
   "boxOffice": 64000000,
-  "trailer": "XLP-rf3dHOQ",
-  "poster": "taxi_3.webp",
   "year": 2003,
   "summary": {
     "sections": [
@@ -137,5 +135,15 @@
   "chapters": {
     "title": "Besson's Taxi",
     "part": 3
-  }
+  },
+  "trailers": [
+    {
+      "path": "XLP-rf3dHOQ"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/taxi_3.webp"
+    }
+  ]
 }

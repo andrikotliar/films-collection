@@ -130,8 +130,6 @@
   ],
   "budget": 50000000,
   "boxOffice": 159000000,
-  "trailer": "MxCRgtdAuBo",
-  "poster": "focus.webp",
   "year": 2015,
   "summary": {
     "sections": [
@@ -139,5 +137,15 @@
         "text": "In the midst of veteran con man Nicky's latest scheme, a woman from his past - now an accomplished femme fatale - shows up and throws his plans for a loop."
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "path": "MxCRgtdAuBo"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/focus.webp"
+    }
+  ]
 }

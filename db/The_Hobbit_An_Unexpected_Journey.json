@@ -226,8 +226,6 @@
     }
   ],
   "boxOffice": 1020000000,
-  "trailer": "JTSoD4BBCJc",
-  "poster": "middle_earth_1.webp",
   "year": 2012,
   "summary": {
     "sections": [
@@ -239,5 +237,15 @@
   "chapters": {
     "title": "Middle-Earth Universe",
     "part": 1
-  }
+  },
+  "trailers": [
+    {
+      "path": "JTSoD4BBCJc"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/middle_earth_1.webp"
+    }
+  ]
 }

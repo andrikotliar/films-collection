@@ -121,8 +121,6 @@
   ],
   "budget": 110000000,
   "boxOffice": 300000000,
-  "trailer": "SwfmV3nn6QA",
-  "poster": "real_steel.webp",
   "year": 2011,
   "summary": {
     "sections": [
@@ -130,5 +128,15 @@
         "text": "In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot."
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "path": "SwfmV3nn6QA"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/real_steel.webp"
+    }
+  ]
 }

@@ -154,8 +154,6 @@
     }
   ],
   "boxOffice": 390000000,
-  "trailer": "Rh_BJXG1-44",
-  "poster": "indiana_jones_1.webp",
   "year": 1981,
   "summary": {
     "sections": [
@@ -167,5 +165,15 @@
   "chapters": {
     "title": "Indiana Jones",
     "part": 1
-  }
+  },
+  "trailers": [
+    {
+      "path": "Rh_BJXG1-44"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/indiana_jones_1.webp"
+    }
+  ]
 }

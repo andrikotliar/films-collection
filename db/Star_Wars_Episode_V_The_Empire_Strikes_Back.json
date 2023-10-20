@@ -151,8 +151,6 @@
     }
   ],
   "boxOffice": 248000000,
-  "trailer": "JNwNXF9Y6kY",
-  "poster": "star_wars_episode_V.webp",
   "year": 1980,
   "summary": {
     "sections": [
@@ -164,5 +162,15 @@
   "chapters": {
     "title": "Star Wars Universe",
     "part": 7
-  }
+  },
+  "trailers": [
+    {
+      "path": "JNwNXF9Y6kY"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/star_wars_episode_V.webp"
+    }
+  ]
 }

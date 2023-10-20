@@ -117,8 +117,6 @@
   ],
   "budget": 160000000,
   "boxOffice": 297000000,
-  "trailer": "BpdDN9d9Jio",
-  "poster": "quiet_place_2.webp",
   "year": 2021,
   "summary": {
     "sections": [
@@ -130,5 +128,15 @@
   "chapters": {
     "title": "Quiet Place",
     "part": 2
-  }
+  },
+  "trailers": [
+    {
+      "path": "BpdDN9d9Jio"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/quiet_place_2.webp"
+    }
+  ]
 }

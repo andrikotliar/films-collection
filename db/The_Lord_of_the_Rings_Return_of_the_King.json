@@ -213,8 +213,6 @@
     }
   ],
   "boxOffice": 1120000000,
-  "trailer": "y2rYRu8UW8M",
-  "poster": "middle_earth_6.webp",
   "year": 2003,
   "summary": {
     "sections": [
@@ -226,5 +224,15 @@
   "chapters": {
     "title": "Middle-Earth Universe",
     "part": 6
-  }
+  },
+  "trailers": [
+    {
+      "path": "y2rYRu8UW8M"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/middle_earth_6.webp"
+    }
+  ]
 }

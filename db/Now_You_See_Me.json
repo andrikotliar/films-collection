@@ -144,8 +144,6 @@
   ],
   "budget": 75000000,
   "boxOffice": 352000000,
-  "trailer": "KzJNYYkkhzc",
-  "poster": "now_you_see_me.webp",
   "year": 2013,
   "summary": {
     "sections": [
@@ -153,5 +151,15 @@
         "text": "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money."
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "path": "KzJNYYkkhzc"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/now_you_see_me.webp"
+    }
+  ]
 }

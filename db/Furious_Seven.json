@@ -170,8 +170,6 @@
     }
   ],
   "boxOffice": 1520000000,
-  "trailer": "Skpu5HaVkOc",
-  "poster": "fast_and_furious_7.webp",
   "year": 2015,
   "summary": {
     "sections": [
@@ -183,5 +181,15 @@
   "chapters": {
     "title": "Fast and Furious",
     "part": 7
-  }
+  },
+  "trailers": [
+    {
+      "path": "Skpu5HaVkOc"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_7.webp"
+    }
+  ]
 }

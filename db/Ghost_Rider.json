@@ -136,8 +136,6 @@
   ],
   "budget": 110000000,
   "boxOffice": 228000000,
-  "trailer": "8M0lLJfNPds",
-  "poster": "ghost_rider.webp",
   "year": 2007,
   "summary": {
     "sections": [
@@ -145,5 +143,15 @@
         "text": "When motorcycle rider Johnny Blaze sells his soul to the Devil to save his father's life, he is transformed into the Ghost Rider, the Devil's own bounty hunter, and is sent to hunt down sinners."
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "path": "8M0lLJfNPds"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/ghost_rider.webp"
+    }
+  ]
 }

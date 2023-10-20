@@ -261,7 +261,6 @@
     "title": "The Last Airbender",
     "part": 2
   },
-  "poster": "legend_of_korra.webp",
   "year": 2012,
   "summary": {
     "sections": [
@@ -289,35 +288,63 @@
       {
         "number": 1,
         "title": "Book One: Air",
-        "poster": "legend_of_korra.webp",
-        "trailer": "NBNpGCIavwA",
         "episodesCount": 12,
         "year": 2012
       },
       {
         "number": 2,
         "title": "Book Two: Spirits",
-        "poster": "legend_of_korra_s2.webp",
-        "trailer": "NBNpGCIavwA",
         "episodesCount": 14,
         "year": 2013
       },
       {
         "number": 3,
         "title": "Book Three: Change",
-        "poster": "legend_of_korra_s3.webp",
-        "trailer": "NBNpGCIavwA",
         "episodesCount": 13,
         "year": 2014
       },
       {
         "number": 4,
         "title": "Book Four: Balance",
-        "poster": "legend_of_korra_s4.webp",
-        "trailer": "NBNpGCIavwA",
         "episodesCount": 13,
         "year": 2014
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "path": "NBNpGCIavwA",
+      "caption": "Book One: Air"
+    },
+    {
+      "path": "NBNpGCIavwA",
+      "caption": "Book Two: Spirits"
+    },
+    {
+      "path": "NBNpGCIavwA",
+      "caption": "Book Three: Change"
+    },
+    {
+      "path": "NBNpGCIavwA",
+      "caption": "Book Four: Balance"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra.webp",
+      "caption": "Book One: Air"
+    },
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra_s2.webp",
+      "caption": "Book Two: Spirits"
+    },
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra_s3.webp",
+      "caption": "Book Three: Change"
+    },
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra_s4.webp",
+      "caption": "Book Four: Balance"
+    }
+  ]
 }

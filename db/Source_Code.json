@@ -122,8 +122,6 @@
   ],
   "budget": 32000000,
   "boxOffice": 147000000,
-  "trailer": "mnJegNyAb1w",
-  "poster": "source_code.webp",
   "year": 2011,
   "summary": {
     "sections": [
@@ -131,5 +129,15 @@
         "text": "A soldier wakes up in someone else's body and discovers he's part of an experimental government program to find the bomber of a commuter train. A mission he has only 8 minutes to complete."
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "path": "mnJegNyAb1w"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/source_code.webp"
+    }
+  ]
 }

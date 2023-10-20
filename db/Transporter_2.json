@@ -135,8 +135,6 @@
   ],
   "budget": 32000000,
   "boxOffice": 85000000,
-  "trailer": "sYJ5LDoWRT4",
-  "poster": "transporter_2.webp",
   "year": 2005,
   "summary": {
     "sections": [
@@ -148,5 +146,15 @@
   "chapters": {
     "title": "The Transporter",
     "part": 2
-  }
+  },
+  "trailers": [
+    {
+      "path": "sYJ5LDoWRT4"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/transporter_2.webp"
+    }
+  ]
 }

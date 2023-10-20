@@ -151,8 +151,6 @@
     }
   ],
   "boxOffice": 533000000,
-  "trailer": "alIq_wG9FNk",
-  "poster": "wall_e.webp",
   "year": 2008,
   "summary": {
     "sections": [
@@ -160,5 +158,15 @@
         "text": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind."
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "path": "alIq_wG9FNk"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/wall_e.webp"
+    }
+  ]
 }

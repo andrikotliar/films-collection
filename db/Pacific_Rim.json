@@ -149,8 +149,6 @@
   ],
   "budget": 180000000,
   "boxOffice": 411000000,
-  "trailer": "5guMumPFBag",
-  "poster": "pacific_rim_1.webp",
   "year": 2013,
   "summary": {
     "sections": [
@@ -162,5 +160,15 @@
   "chapters": {
     "title": "Pacific Rim",
     "part": 1
-  }
+  },
+  "trailers": [
+    {
+      "path": "5guMumPFBag"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/pacific_rim_1.webp"
+    }
+  ]
 }

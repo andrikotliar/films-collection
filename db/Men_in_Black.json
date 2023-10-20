@@ -121,8 +121,6 @@
     }
   ],
   "boxOffice": 589000000,
-  "trailer": "1Q4mhYF9aQQ",
-  "poster": "mib_1.webp",
   "year": 1997,
   "summary": {
     "sections": [
@@ -134,5 +132,15 @@
   "chapters": {
     "title": "Men in Black",
     "part": 1
-  }
+  },
+  "trailers": [
+    {
+      "path": "1Q4mhYF9aQQ"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mib_1.webp"
+    }
+  ]
 }

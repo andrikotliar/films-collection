@@ -178,8 +178,6 @@
     }
   ],
   "boxOffice": 386000000,
-  "trailer": "pKFUZ10Wmbw",
-  "poster": "star_trek_1.webp",
   "year": 2009,
   "summary": {
     "sections": [
@@ -191,5 +189,15 @@
   "chapters": {
     "title": "Star Trek",
     "part": 1
-  }
+  },
+  "trailers": [
+    {
+      "path": "pKFUZ10Wmbw"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/star_trek_1.webp"
+    }
+  ]
 }

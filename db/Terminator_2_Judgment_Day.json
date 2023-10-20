@@ -142,8 +142,6 @@
     }
   ],
   "boxOffice": 521000000,
-  "trailer": "-W8CegO_Ixw",
-  "poster": "terminator_2.webp",
   "year": 1991,
   "summary": {
     "sections": [
@@ -155,5 +153,15 @@
   "chapters": {
     "title": "The Terminator",
     "part": 2
-  }
+  },
+  "trailers": [
+    {
+      "path": "-W8CegO_Ixw"
+    }
+  ],
+  "posters": [
+    {
+      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/terminator_2.webp"
+    }
+  ]
 }
