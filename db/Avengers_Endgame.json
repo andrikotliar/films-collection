@@ -232,14 +232,10 @@
     "title": "Marvel Cinematic Universe",
     "part": 22
   },
-  "trailers": [
+  "media": [
     {
-      "path": "TcMBFSGVi1c"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/avengers_4.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/avengers_4.webp",
+      "trailer": "TcMBFSGVi1c"
     }
   ]
 }

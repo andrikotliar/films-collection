@@ -141,14 +141,10 @@
     "title": "Harry Potter Universe",
     "part": 9
   },
-  "trailers": [
+  "media": [
     {
-      "path": "MxqsmsA8y5k"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/harry_potter_7.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/harry_potter_7.webp",
+      "trailer": "MxqsmsA8y5k"
     }
   ]
 }

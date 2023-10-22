@@ -134,14 +134,10 @@
     "title": "The Terminator",
     "part": 3
   },
-  "trailers": [
+  "media": [
     {
-      "path": "-Czz-TcWCkA"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/terminator_4.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/terminator_4.webp",
+      "trailer": "-Czz-TcWCkA"
     }
   ]
 }

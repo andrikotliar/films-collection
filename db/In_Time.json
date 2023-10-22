@@ -112,14 +112,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "fdadZ_KrZVw"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/time.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/time.webp",
+      "trailer": "fdadZ_KrZVw"
     }
   ]
 }

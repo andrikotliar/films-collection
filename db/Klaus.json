@@ -119,14 +119,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "taE3PwurhYM"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/klaus.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/klaus.webp",
+      "trailer": "taE3PwurhYM"
     }
   ]
 }

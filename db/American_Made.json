@@ -142,14 +142,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "AEBIJRAkujM"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/american_made.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/american_made.webp",
+      "trailer": "AEBIJRAkujM"
     }
   ]
 }

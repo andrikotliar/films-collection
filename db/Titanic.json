@@ -146,14 +146,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "kVrqfYjkTdQ"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/titanic.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/titanic.webp",
+      "trailer": "kVrqfYjkTdQ"
     }
   ]
 }

@@ -161,14 +161,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "hFUC5adf8FE"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/happy_feet.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/happy_feet.webp",
+      "trailer": "hFUC5adf8FE"
     }
   ]
 }

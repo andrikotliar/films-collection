@@ -165,14 +165,10 @@
     "title": "X-Men",
     "part": 9
   },
-  "trailers": [
+  "media": [
     {
-      "path": "Div0iP65aZo"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/logan.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/logan.webp",
+      "trailer": "Div0iP65aZo"
     }
   ]
 }

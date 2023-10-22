@@ -135,14 +135,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "1dzGhJ5QGsQ"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/love_and_monsters.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/love_and_monsters.webp",
+      "trailer": "1dzGhJ5QGsQ"
     }
   ]
 }

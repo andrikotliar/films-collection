@@ -239,23 +239,15 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "ndl1W4ltcmg",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/witcher.webp",
+      "trailer": "ndl1W4ltcmg",
       "caption": "Season 1"
     },
     {
-      "path": "2aMVzFlApa0",
-      "caption": "Season 2"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/witcher.webp",
-      "caption": "Season 1"
-    },
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/witcher_s2.webp",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/witcher_s2.webp",
+      "trailer": "2aMVzFlApa0",
       "caption": "Season 2"
     }
   ]

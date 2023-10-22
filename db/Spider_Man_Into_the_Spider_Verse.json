@@ -193,14 +193,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "g4Hbz2jLxvQ"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/spiderman_intospiderverse.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/spiderman_intospiderverse.webp",
+      "trailer": "g4Hbz2jLxvQ"
     }
   ]
 }

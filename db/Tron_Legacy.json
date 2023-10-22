@@ -141,14 +141,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "L9szn1QQfas"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/tron.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/tron.webp",
+      "trailer": "L9szn1QQfas"
     }
   ]
 }

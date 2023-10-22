@@ -152,14 +152,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "KzJNYYkkhzc"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/now_you_see_me.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/now_you_see_me.webp",
+      "trailer": "KzJNYYkkhzc"
     }
   ]
 }

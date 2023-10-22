@@ -151,14 +151,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "AZGcmvrTX9M"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/tenet.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/tenet.webp",
+      "trailer": "AZGcmvrTX9M"
     }
   ]
 }

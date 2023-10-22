@@ -162,14 +162,10 @@
     "title": "Marvel Cinematic Universe",
     "part": 16
   },
-  "trailers": [
+  "media": [
     {
-      "path": "n9DwoQ7HWvI"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mcu_spider_man_1.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mcu_spider_man_1.webp",
+      "trailer": "n9DwoQ7HWvI"
     }
   ]
 }

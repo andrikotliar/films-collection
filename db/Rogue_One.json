@@ -158,14 +158,10 @@
     "title": "Star Wars Universe",
     "part": 4
   },
-  "trailers": [
+  "media": [
     {
-      "path": "frdj1zb9sMY"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/rogue_one.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/rogue_one.webp",
+      "trailer": "frdj1zb9sMY"
     }
   ]
 }

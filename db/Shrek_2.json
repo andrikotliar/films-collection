@@ -148,14 +148,10 @@
     "title": "Shrek",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "xBgSfhp5Fxo"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/shrek_2.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/shrek_2.webp",
+      "trailer": "xBgSfhp5Fxo"
     }
   ]
 }

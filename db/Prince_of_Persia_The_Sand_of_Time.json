@@ -143,14 +143,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "bZ7Li5w2I-k"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/prince_of_persia.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/prince_of_persia.webp",
+      "trailer": "bZ7Li5w2I-k"
     }
   ]
 }

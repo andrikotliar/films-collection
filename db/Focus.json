@@ -138,14 +138,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "MxCRgtdAuBo"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/focus.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/focus.webp",
+      "trailer": "MxCRgtdAuBo"
     }
   ]
 }

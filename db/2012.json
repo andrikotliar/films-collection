@@ -171,14 +171,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "ce0N3TEcFw0"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/twenty_twelve.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/twenty_twelve.webp",
+      "trailer": "ce0N3TEcFw0"
     }
   ]
 }

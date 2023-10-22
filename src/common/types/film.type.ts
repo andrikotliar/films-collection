@@ -43,8 +43,6 @@ type Summary = {
 
 type SeasonType = {
   number: number;
-  poster: string;
-  trailer: string;
   year: number;
   episodesCount: number;
 };
@@ -54,11 +52,16 @@ type SeriesExtension = {
   seasons: SeasonType[];
 };
 
+type MediaItem = {
+  poster: string;
+  trailer: string;
+  caption?: string;
+};
+
 type FilmData = {
   id: string;
   type: TypeVariants[];
-  poster: string;
-  trailer?: string;
+  media: MediaItem[];
   title: string;
   genres: string[];
   production: string[];
@@ -91,4 +94,5 @@ export type {
   Summary,
   SeriesExtension,
   SeasonType,
+  MediaItem,
 };

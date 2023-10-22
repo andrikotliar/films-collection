@@ -173,15 +173,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "oZn3qSgmLqI",
-      "caption": "Season 1"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/queens_gambit.webp",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/queens_gambit.webp",
+      "trailer": "oZn3qSgmLqI",
       "caption": "Season 1"
     }
   ]

@@ -119,14 +119,10 @@
     "title": "Ice Age",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "s4PWGVtIZWA"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/ice_age_2.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/ice_age_2.webp",
+      "trailer": "s4PWGVtIZWA"
     }
   ]
 }

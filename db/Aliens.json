@@ -142,14 +142,10 @@
     "title": "Aliens",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "oSeQQlaCZgU"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/alien_2.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/alien_2.webp",
+      "trailer": "oSeQQlaCZgU"
     }
   ]
 }

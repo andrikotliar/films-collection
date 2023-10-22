@@ -4,7 +4,7 @@ import { Link, useParams } from 'react-router-dom';
 import classNames from 'classnames';
 import { Chapter, FilmData } from '@/common';
 import { Scrollable } from '@/components';
-import { env } from '@/configs';
+import { getChapters } from '@/pages/Film/components/Chapters/helpers';
 
 type ChaptersProps = {
   data: FilmData[];
@@ -14,30 +14,20 @@ type ChaptersProps = {
 const Chapters: FC<ChaptersProps> = ({ data, parts }) => {
   const { id: filmId } = useParams();
 
-  const partsList = () => {
-    return data
-      .filter((film) => {
-        if (film.chapters !== undefined) {
-          return film.chapters.title === parts.title;
-        }
-      })
-      .sort((a, b) =>
-        Number(a.chapters?.part) > Number(b.chapters?.part) ? 1 : -1,
-      );
-  };
+  const chapters = getChapters(data, parts.title);
 
   return (
     <Scrollable className={classes.chapters}>
-      {partsList().map((film) => (
+      {chapters.map((chapter) => (
         <Link
-          to={`/film/${film.id}`}
+          to={`/film/${chapter.id}`}
           className={classNames(classes.link, {
-            [classes.active]: filmId === film.id,
+            [classes.active]: filmId === chapter.id,
           })}
-          key={film.id}
-          id={film.id}
+          key={chapter.id}
+          id={chapter.id}
         >
-          <img src={`${env.POSTERS_URL}${film.poster}`} alt={film.title} />
+          <img src={chapter.media[0].poster} alt={chapter.title} />
         </Link>
       ))}
     </Scrollable>

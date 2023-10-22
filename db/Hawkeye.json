@@ -147,15 +147,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "5VYb3B1ETlk",
-      "caption": "Season 1"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hawkeye.webp",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hawkeye.webp",
+      "trailer": "5VYb3B1ETlk",
       "caption": "Season 1"
     }
   ]

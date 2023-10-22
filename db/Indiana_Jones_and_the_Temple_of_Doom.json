@@ -148,14 +148,10 @@
     "title": "Indiana Jones",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "WBdyLyijZhU"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/indiana_jones_2.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/indiana_jones_2.webp",
+      "trailer": "WBdyLyijZhU"
     }
   ]
 }

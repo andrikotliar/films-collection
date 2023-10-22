@@ -158,14 +158,10 @@
     "title": "Mission: Impossible",
     "part": 6
   },
-  "trailers": [
+  "media": [
     {
-      "path": "wb49-oV0F78"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mi_6.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mi_6.webp",
+      "trailer": "wb49-oV0F78"
     }
   ]
 }

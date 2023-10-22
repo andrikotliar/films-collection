@@ -196,14 +196,10 @@
     "title": "Transformers",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "dxQxgAfNzyE"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/transformers_1.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/transformers_1.webp",
+      "trailer": "dxQxgAfNzyE"
     }
   ]
 }

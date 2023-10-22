@@ -129,14 +129,10 @@
     "title": "Quiet Place",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "BpdDN9d9Jio"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/quiet_place_2.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/quiet_place_2.webp",
+      "trailer": "BpdDN9d9Jio"
     }
   ]
 }

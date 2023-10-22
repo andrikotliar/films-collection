@@ -209,14 +209,10 @@
     "title": "Marvel Cinematic Universe",
     "part": 18
   },
-  "trailers": [
+  "media": [
     {
-      "path": "xjDjIWPwcPU"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/black_panther.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/black_panther.webp",
+      "trailer": "xjDjIWPwcPU"
     }
   ]
 }

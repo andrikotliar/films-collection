@@ -150,14 +150,10 @@
     "title": "The Librarian",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "ansvc2Muxr0"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/librarian_2.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/librarian_2.webp",
+      "trailer": "ansvc2Muxr0"
     }
   ]
 }

@@ -153,14 +153,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "nlvYKl1fjBI"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/john_carter.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/john_carter.webp",
+      "trailer": "nlvYKl1fjBI"
     }
   ]
 }

@@ -164,14 +164,10 @@
     "title": "Star Wars Universe",
     "part": 5
   },
-  "trailers": [
+  "media": [
     {
-      "path": "jPEYpryMp2s"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/solo.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/solo.webp",
+      "trailer": "jPEYpryMp2s"
     }
   ]
 }

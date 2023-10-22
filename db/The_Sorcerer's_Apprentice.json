@@ -144,14 +144,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "v2uV0_1C4UM"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/sorcerers_apprentice.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/sorcerers_apprentice.webp",
+      "trailer": "v2uV0_1C4UM"
     }
   ]
 }

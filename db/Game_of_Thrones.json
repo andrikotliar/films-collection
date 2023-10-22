@@ -590,71 +590,45 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "gcTkNV5Vg1E",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got.webp",
+      "trailer": "gcTkNV5Vg1E",
       "caption": "Season 1"
     },
     {
-      "path": "AlhHGUfCYw4",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s2.webp",
+      "trailer": "AlhHGUfCYw4",
       "caption": "Season 2"
     },
     {
-      "path": "nblUgAMoOvU",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s3.webp",
+      "trailer": "nblUgAMoOvU",
       "caption": "Season 3"
     },
     {
-      "path": "aj9x_Xea6cg",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s4.webp",
+      "trailer": "aj9x_Xea6cg",
       "caption": "Season 4"
     },
     {
-      "path": "F9Bo89m2f6g",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s5.webp",
+      "trailer": "F9Bo89m2f6g",
       "caption": "Season 5"
     },
     {
-      "path": "yu8eRaq1FUM",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s6.webp",
+      "trailer": "yu8eRaq1FUM",
       "caption": "Season 6"
     },
     {
-      "path": "giYeaKsXnsI",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s7.webp",
+      "trailer": "giYeaKsXnsI",
       "caption": "Season 7"
     },
     {
-      "path": "rlR4PJn8b8I",
-      "caption": "Season 8"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got.webp",
-      "caption": "Season 1"
-    },
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s2.webp",
-      "caption": "Season 2"
-    },
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s3.webp",
-      "caption": "Season 3"
-    },
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s4.webp",
-      "caption": "Season 4"
-    },
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s5.webp",
-      "caption": "Season 5"
-    },
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s6.webp",
-      "caption": "Season 6"
-    },
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s7.webp",
-      "caption": "Season 7"
-    },
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s8.webp",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/got_s8.webp",
+      "trailer": "rlR4PJn8b8I",
       "caption": "Season 8"
     }
   ]

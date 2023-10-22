@@ -222,14 +222,10 @@
     "title": "DC Extended Universe",
     "part": 5
   },
-  "trailers": [
+  "media": [
     {
-      "path": "ui37YKQ9AC4"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/justice_league.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/justice_league.webp",
+      "trailer": "ui37YKQ9AC4"
     }
   ]
 }

@@ -157,14 +157,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "zSWdZVtXT7E"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/interstellar.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/interstellar.webp",
+      "trailer": "zSWdZVtXT7E"
     }
   ]
 }

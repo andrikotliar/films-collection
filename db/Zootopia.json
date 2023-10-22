@@ -166,14 +166,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "jWM0ct-OLsM"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/zootopia.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/zootopia.webp",
+      "trailer": "jWM0ct-OLsM"
     }
   ]
 }

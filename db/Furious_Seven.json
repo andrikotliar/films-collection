@@ -182,14 +182,10 @@
     "title": "Fast and Furious",
     "part": 7
   },
-  "trailers": [
+  "media": [
     {
-      "path": "Skpu5HaVkOc"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_7.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_7.webp",
+      "trailer": "Skpu5HaVkOc"
     }
   ]
 }

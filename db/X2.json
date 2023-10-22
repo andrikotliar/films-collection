@@ -186,14 +186,10 @@
     "title": "X-Men",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "luHcOYS1HxQ"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/x_men_2.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/x_men_2.webp",
+      "trailer": "luHcOYS1HxQ"
     }
   ]
 }

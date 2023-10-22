@@ -135,14 +135,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "dtKMEAXyPkg"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/i_am_legend.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/i_am_legend.webp",
+      "trailer": "dtKMEAXyPkg"
     }
   ]
 }

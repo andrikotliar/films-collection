@@ -151,14 +151,10 @@
     "title": "Jumanji",
     "part": 1
   },
-  "trailers": [
+  "media": [
     {
-      "path": "5p18zqZmeiI"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/jumanji_1.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/jumanji_1.webp",
+      "trailer": "5p18zqZmeiI"
     }
   ]
 }

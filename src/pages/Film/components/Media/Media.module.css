@@ -1,0 +1,28 @@
+.media {
+  position: absolute;
+  width: var(--media-column-width);
+  top: var(--main-padding);
+  left: var(--main-padding);
+  border-radius: var(--app-border-radius);
+  overflow: hidden;
+  font-size: 0;
+}
+
+.trailerButton {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.track {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.modalContent {
+  width: 80%;
+}

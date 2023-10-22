@@ -120,14 +120,10 @@
     "title": "Fast and Furious",
     "part": 3
   },
-  "trailers": [
+  "media": [
     {
-      "path": "p8HQ2JLlc4E"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_3.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_3.webp",
+      "trailer": "p8HQ2JLlc4E"
     }
   ]
 }

@@ -128,14 +128,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "fyuoIqeL-bc"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/unstoppable.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/unstoppable.webp",
+      "trailer": "fyuoIqeL-bc"
     }
   ]
 }

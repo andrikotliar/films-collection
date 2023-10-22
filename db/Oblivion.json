@@ -135,14 +135,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "XmIIgE7eSak"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/oblivion.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/oblivion.webp",
+      "trailer": "XmIIgE7eSak"
     }
   ]
 }

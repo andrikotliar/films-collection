@@ -161,14 +161,10 @@
     "title": "Raimi's Spider-Man",
     "part": 3
   },
-  "trailers": [
+  "media": [
     {
-      "path": "wPosLpgMtTY"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/raimi_spider_man_3.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/raimi_spider_man_3.webp",
+      "trailer": "wPosLpgMtTY"
     }
   ]
 }

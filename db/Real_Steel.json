@@ -129,14 +129,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "SwfmV3nn6QA"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/real_steel.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/real_steel.webp",
+      "trailer": "SwfmV3nn6QA"
     }
   ]
 }

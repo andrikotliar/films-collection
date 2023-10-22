@@ -136,14 +136,10 @@
     "title": "Besson's Taxi",
     "part": 3
   },
-  "trailers": [
+  "media": [
     {
-      "path": "XLP-rf3dHOQ"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/taxi_3.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/taxi_3.webp",
+      "trailer": "XLP-rf3dHOQ"
     }
   ]
 }

@@ -5,7 +5,6 @@ import { useFilmsContext } from '@/context';
 import { Container } from '@/components';
 import { TMDBLogo } from '@/assets/logos';
 import { useDocumentTitle } from '@/hooks';
-import { env } from '@/configs';
 
 const AboutPage = () => {
   const { initialFilmsList: films } = useFilmsContext();
@@ -101,10 +100,7 @@ const AboutPage = () => {
           <aside className={classes.sidebar}>
             <h2>Explore random film:</h2>
             <Link to={`/film/${currentFilm.id}`} className={classes.randomFilm}>
-              <img
-                src={`${env.POSTERS_URL}${currentFilm.poster}`}
-                alt={currentFilm.title}
-              />
+              <img src={currentFilm.posters[0].path} alt={currentFilm.title} />
             </Link>
           </aside>
         )}

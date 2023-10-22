@@ -191,14 +191,10 @@
     "title": "The Dark Knight",
     "part": 1
   },
-  "trailers": [
+  "media": [
     {
-      "path": "neY2xVmOfUM"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/batman_1.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/batman_1.webp",
+      "trailer": "neY2xVmOfUM"
     }
   ]
 }

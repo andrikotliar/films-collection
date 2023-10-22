@@ -172,14 +172,10 @@
     "title": "Transformers",
     "part": 4
   },
-  "trailers": [
+  "media": [
     {
-      "path": "bTIrEZM-cFE"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/transformers_3.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/transformers_3.webp",
+      "trailer": "bTIrEZM-cFE"
     }
   ]
 }

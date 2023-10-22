@@ -146,14 +146,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "vaN8BtA8OJk"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/gentlemen.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/gentlemen.webp",
+      "trailer": "vaN8BtA8OJk"
     }
   ]
 }

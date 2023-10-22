@@ -152,14 +152,10 @@
     "title": "The Maze Runner",
     "part": 1
   },
-  "trailers": [
+  "media": [
     {
-      "path": "AwwbhhjQ9Xk"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/maze_runner_1.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/maze_runner_1.webp",
+      "trailer": "AwwbhhjQ9Xk"
     }
   ]
 }

@@ -311,39 +311,25 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "NBNpGCIavwA",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra.webp",
+      "trailer": "NBNpGCIavwA",
       "caption": "Book One: Air"
     },
     {
-      "path": "NBNpGCIavwA",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra_s2.webp",
+      "trailer": "NBNpGCIavwA",
       "caption": "Book Two: Spirits"
     },
     {
-      "path": "NBNpGCIavwA",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra_s3.webp",
+      "trailer": "NBNpGCIavwA",
       "caption": "Book Three: Change"
     },
     {
-      "path": "NBNpGCIavwA",
-      "caption": "Book Four: Balance"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra.webp",
-      "caption": "Book One: Air"
-    },
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra_s2.webp",
-      "caption": "Book Two: Spirits"
-    },
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra_s3.webp",
-      "caption": "Book Three: Change"
-    },
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra_s4.webp",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/legend_of_korra_s4.webp",
+      "trailer": "NBNpGCIavwA",
       "caption": "Book Four: Balance"
     }
   ]

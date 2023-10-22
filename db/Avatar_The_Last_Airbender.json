@@ -340,31 +340,20 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "ahPeclU9VW0",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/last_airbender.webp",
+      "trailer": "ahPeclU9VW0",
       "caption": "Book 1: Water"
     },
     {
-      "path": "ahPeclU9VW0",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/last_airbender_s2.webp",
+      "trailer": "ahPeclU9VW0",
       "caption": "Book 2: Earth"
     },
     {
-      "path": "ahPeclU9VW0",
-      "caption": "Book 3: Fire"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/last_airbender.webp",
-      "caption": "Book 1: Water"
-    },
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/last_airbender_s2.webp",
-      "caption": "Book 2: Earth"
-    },
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/last_airbender_s3.webp",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/last_airbender_s3.webp",
+      "trailer": "ahPeclU9VW0",
       "caption": "Book 3: Fire"
     }
   ]

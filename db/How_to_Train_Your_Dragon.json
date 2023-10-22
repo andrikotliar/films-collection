@@ -146,14 +146,10 @@
     "title": "How to Train Your Dragon",
     "part": 1
   },
-  "trailers": [
+  "media": [
     {
-      "path": "oKiYuIsPxYk"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/how_to_train_your_dragon_1.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/how_to_train_your_dragon_1.webp",
+      "trailer": "oKiYuIsPxYk"
     }
   ]
 }

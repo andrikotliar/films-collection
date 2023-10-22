@@ -10,14 +10,7 @@ import { Container } from '@/components/Container';
 
 const Header = () => {
   const [isSearchVisible, setIsSearchVisible] = useState(false);
-  const [searchString, setSearchString] = useState('');
   const location = useLocation();
-
-  useEffect(() => {
-    if (location.pathname === '/') {
-      setSearchString(location.search);
-    }
-  }, [location]);
 
   useEffect(() => {
     if (isSearchVisible) {
@@ -31,7 +24,7 @@ const Header = () => {
         <Link
           to={{
             pathname: '/',
-            search: searchString,
+            search: location.search,
           }}
           className={classes.logoLink}
         >

@@ -202,14 +202,10 @@
     "title": "Avatar",
     "part": 1
   },
-  "trailers": [
+  "media": [
     {
-      "path": "CM79GTEm2ps"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/avatar.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/avatar.webp",
+      "trailer": "CM79GTEm2ps"
     }
   ]
 }

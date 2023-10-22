@@ -129,14 +129,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "36mnx8dBbGE"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/casino_royale.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/casino_royale.webp",
+      "trailer": "36mnx8dBbGE"
     }
   ]
 }

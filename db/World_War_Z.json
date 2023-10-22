@@ -134,14 +134,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "Md6Dvxdr0AQ"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/world_war_z.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/world_war_z.webp",
+      "trailer": "Md6Dvxdr0AQ"
     }
   ]
 }

@@ -159,14 +159,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "cSp1dM2Vj48"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/ready_player_one.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/ready_player_one.webp",
+      "trailer": "cSp1dM2Vj48"
     }
   ]
 }

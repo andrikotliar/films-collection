@@ -193,14 +193,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "ej3ioOneTy8"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/martian.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/martian.webp",
+      "trailer": "ej3ioOneTy8"
     }
   ]
 }

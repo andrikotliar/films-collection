@@ -139,14 +139,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "_1wDBNHYDv8"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/predator.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/predator.webp",
+      "trailer": "_1wDBNHYDv8"
     }
   ]
 }

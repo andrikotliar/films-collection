@@ -134,14 +134,10 @@
     "title": "Marvel Cinematic Universe",
     "part": 9
   },
-  "trailers": [
+  "media": [
     {
-      "path": "7SlILk2WMTI"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/captain_america_2.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/captain_america_2.webp",
+      "trailer": "7SlILk2WMTI"
     }
   ]
 }

@@ -127,14 +127,10 @@
     "title": "Men in Black",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "p4NJHqoojOU"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mib_2.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mib_2.webp",
+      "trailer": "p4NJHqoojOU"
     }
   ]
 }

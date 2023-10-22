@@ -124,14 +124,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "RTODtIQQRpA"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/greenland.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/greenland.webp",
+      "trailer": "RTODtIQQRpA"
     }
   ]
 }

@@ -220,14 +220,10 @@
     "title": "Middle-Earth Universe",
     "part": 4
   },
-  "trailers": [
+  "media": [
     {
-      "path": "aStYWD25fAQ"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/middle_earth_4.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/middle_earth_4.webp",
+      "trailer": "aStYWD25fAQ"
     }
   ]
 }

@@ -165,14 +165,10 @@
     "title": "Marvel Cinematic Universe",
     "part": 21
   },
-  "trailers": [
+  "media": [
     {
-      "path": "TcMBFSGVi1c"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/captain_marvel.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/captain_marvel.webp",
+      "trailer": "TcMBFSGVi1c"
     }
   ]
 }

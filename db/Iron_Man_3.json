@@ -141,14 +141,10 @@
     "title": "Marvel Cinematic Universe",
     "part": 7
   },
-  "trailers": [
+  "media": [
     {
-      "path": "Ke1Y3P9D0Bc"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/iron_man_3.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/iron_man_3.webp",
+      "trailer": "Ke1Y3P9D0Bc"
     }
   ]
 }

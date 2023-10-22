@@ -174,14 +174,10 @@
     "title": "The Chronicles of Narnia",
     "part": 1
   },
-  "trailers": [
+  "media": [
     {
-      "path": "lWKj41HZBzM"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/narnia_1.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/narnia_1.webp",
+      "trailer": "lWKj41HZBzM"
     }
   ]
 }

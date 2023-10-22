@@ -161,14 +161,10 @@
     "title": "Pacific Rim",
     "part": 1
   },
-  "trailers": [
+  "media": [
     {
-      "path": "5guMumPFBag"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/pacific_rim_1.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/pacific_rim_1.webp",
+      "trailer": "5guMumPFBag"
     }
   ]
 }

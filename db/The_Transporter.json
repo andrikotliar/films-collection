@@ -122,14 +122,10 @@
     "title": "The Transporter",
     "part": 1
   },
-  "trailers": [
+  "media": [
     {
-      "path": "0poXFSvX0_4"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/transporter_1.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/transporter_1.webp",
+      "trailer": "0poXFSvX0_4"
     }
   ]
 }

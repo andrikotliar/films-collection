@@ -125,14 +125,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "zyYgDtY2AMY"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fordvsferrari.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fordvsferrari.webp",
+      "trailer": "zyYgDtY2AMY"
     }
   ]
 }

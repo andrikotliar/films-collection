@@ -131,14 +131,10 @@
     "title": "Madagascar",
     "part": 1
   },
-  "trailers": [
+  "media": [
     {
-      "path": "orAqhC-Hp_o"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/madagascar.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/madagascar.webp",
+      "trailer": "orAqhC-Hp_o"
     }
   ]
 }

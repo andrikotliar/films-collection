@@ -135,14 +135,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "SM6aEEjc5hA"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/war_of_the_worlds.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/war_of_the_worlds.webp",
+      "trailer": "SM6aEEjc5hA"
     }
   ]
 }

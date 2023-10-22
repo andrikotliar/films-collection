@@ -122,14 +122,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "1VIZ89FEjYI"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/raya.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/raya.webp",
+      "trailer": "1VIZ89FEjYI"
     }
   ]
 }

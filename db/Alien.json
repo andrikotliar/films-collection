@@ -164,14 +164,10 @@
     "title": "Aliens",
     "part": 1
   },
-  "trailers": [
+  "media": [
     {
-      "path": "jQ5lPt9edzQ"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/alien_1.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/alien_1.webp",
+      "trailer": "jQ5lPt9edzQ"
     }
   ]
 }

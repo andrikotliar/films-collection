@@ -128,14 +128,10 @@
     "title": "X-Men",
     "part": 6
   },
-  "trailers": [
+  "media": [
     {
-      "path": "toLpchTUYk8"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/wolverine.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/wolverine.webp",
+      "trailer": "toLpchTUYk8"
     }
   ]
 }

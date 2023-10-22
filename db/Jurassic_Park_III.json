@@ -123,14 +123,10 @@
     "title": "Jurassic Park",
     "part": 3
   },
-  "trailers": [
+  "media": [
     {
-      "path": "gjIaV6CU0wA"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/jurassic_park_3.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/jurassic_park_3.webp",
+      "trailer": "gjIaV6CU0wA"
     }
   ]
 }

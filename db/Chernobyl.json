@@ -182,15 +182,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "s9APLXM9Ei8",
-      "caption": "Season 1"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/chernobyl.webp",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/chernobyl.webp",
+      "trailer": "s9APLXM9Ei8",
       "caption": "Season 1"
     }
   ]

@@ -262,23 +262,15 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "OFlBh_eUsjA",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mandalorian.webp",
+      "trailer": "OFlBh_eUsjA",
       "caption": "Season 1"
     },
     {
-      "path": "eW7Twd85m2g",
-      "caption": "Season 2"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mandalorian.webp",
-      "caption": "Season 1"
-    },
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mandalorian_s2.webp",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mandalorian_s2.webp",
+      "trailer": "eW7Twd85m2g",
       "caption": "Season 2"
     }
   ]

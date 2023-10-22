@@ -206,14 +206,10 @@
     "title": "Avatar",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "o5F8MOz_IDw"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/avatar_2.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/avatar_2.webp",
+      "trailer": "o5F8MOz_IDw"
     }
   ]
 }

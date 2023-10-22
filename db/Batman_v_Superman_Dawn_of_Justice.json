@@ -151,14 +151,10 @@
     "title": "DC Extended Universe",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "bha24P9uw-E"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/batman_v_superman.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/batman_v_superman.webp",
+      "trailer": "bha24P9uw-E"
     }
   ]
 }

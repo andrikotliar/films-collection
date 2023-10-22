@@ -110,14 +110,10 @@
     "title": "Jurassic Park",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "RxrvaneULkE"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/jurassic_park_2.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/jurassic_park_2.webp",
+      "trailer": "RxrvaneULkE"
     }
   ]
 }

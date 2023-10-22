@@ -151,14 +151,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "8piqd2BWeGI"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/speed.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/speed.webp",
+      "trailer": "8piqd2BWeGI"
     }
   ]
 }

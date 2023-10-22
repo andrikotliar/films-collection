@@ -195,14 +195,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "YoHD9XEInc0"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/inception.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/inception.webp",
+      "trailer": "YoHD9XEInc0"
     }
   ]
 }

@@ -151,14 +151,10 @@
     "title": "Marvel Cinematic Universe",
     "part": 27
   },
-  "trailers": [
+  "media": [
     {
-      "path": "COGg-Vjauwo"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/shang_chi.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/shang_chi.webp",
+      "trailer": "COGg-Vjauwo"
     }
   ]
 }

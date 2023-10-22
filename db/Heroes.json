@@ -499,47 +499,30 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "9AX6aXFdTkc",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes.webp",
+      "trailer": "9AX6aXFdTkc",
       "caption": "Volume 1: Genesis"
     },
     {
-      "path": "9mNGxXpAmHc",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes_s2.webp",
+      "trailer": "9mNGxXpAmHc",
       "caption": "Volume 2: Generations"
     },
     {
-      "path": "i1VA_aWyrPI",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes_s3.1.webp",
+      "trailer": "i1VA_aWyrPI",
       "caption": "Volume 3. Part 1: Villains"
     },
     {
-      "path": "mTzPPIEUFEs",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes_s3.2.webp",
+      "trailer": "mTzPPIEUFEs",
       "caption": "Volume 3. Part 2: Fugitives"
     },
     {
-      "path": "mTzPPIEUFEs",
-      "caption": "Volume 4: Redemption"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes.webp",
-      "caption": "Volume 1: Genesis"
-    },
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes_s2.webp",
-      "caption": "Volume 2: Generations"
-    },
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes_s3.1.webp",
-      "caption": "Volume 3. Part 1: Villains"
-    },
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes_s3.2.webp",
-      "caption": "Volume 3. Part 2: Fugitives"
-    },
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes_s4.webp",
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes_s4.webp",
+      "trailer": "mTzPPIEUFEs",
       "caption": "Volume 4: Redemption"
     }
   ]

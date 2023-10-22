@@ -176,14 +176,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "Ku_IseK3xTc"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/day_after_tomorrow.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/day_after_tomorrow.webp",
+      "trailer": "Ku_IseK3xTc"
     }
   ]
 }

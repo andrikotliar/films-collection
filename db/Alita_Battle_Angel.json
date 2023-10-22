@@ -129,14 +129,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "w7pYhpJaJW8"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/alita.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/alita.webp",
+      "trailer": "w7pYhpJaJW8"
     }
   ]
 }

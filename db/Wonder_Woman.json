@@ -159,14 +159,10 @@
     "title": "DC Extended Universe",
     "part": 4
   },
-  "trailers": [
+  "media": [
     {
-      "path": "1Q8fG0TtVAY"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/wonder_woman.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/wonder_woman.webp",
+      "trailer": "1Q8fG0TtVAY"
     }
   ]
 }

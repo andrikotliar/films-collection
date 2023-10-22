@@ -158,14 +158,10 @@
     "title": "DC Extended Universe",
     "part": 1
   },
-  "trailers": [
+  "media": [
     {
-      "path": "T6DJcgm3wNY"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/man_of_steel.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/man_of_steel.webp",
+      "trailer": "T6DJcgm3wNY"
     }
   ]
 }

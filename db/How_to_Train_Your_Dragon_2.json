@@ -119,14 +119,10 @@
     "title": "How to Train Your Dragon",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "2BP38770KNo"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/how_to_train_your_dragon_2.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/how_to_train_your_dragon_2.webp",
+      "trailer": "2BP38770KNo"
     }
   ]
 }

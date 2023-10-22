@@ -159,14 +159,10 @@
     "title": "DC Extended Universe",
     "part": 3
   },
-  "trailers": [
+  "media": [
     {
-      "path": "CmRih_VtVAs"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/suicide_squad.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/suicide_squad.webp",
+      "trailer": "CmRih_VtVAs"
     }
   ]
 }

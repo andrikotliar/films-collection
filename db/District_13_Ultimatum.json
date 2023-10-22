@@ -136,14 +136,10 @@
     "title": "District 13",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "jDDFNpj9xBQ"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/d13_2.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/d13_2.webp",
+      "trailer": "jDDFNpj9xBQ"
     }
   ]
 }

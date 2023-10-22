@@ -166,14 +166,10 @@
     "title": "Marvel Cinematic Universe",
     "part": 12
   },
-  "trailers": [
+  "media": [
     {
-      "path": "pWdKf3MneyI"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/ant_man_1.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/ant_man_1.webp",
+      "trailer": "pWdKf3MneyI"
     }
   ]
 }

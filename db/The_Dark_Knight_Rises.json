@@ -187,14 +187,10 @@
     "title": "The Dark Knight",
     "part": 3
   },
-  "trailers": [
+  "media": [
     {
-      "path": "GokKUqLcvD8"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/batman_3.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/batman_3.webp",
+      "trailer": "GokKUqLcvD8"
     }
   ]
 }

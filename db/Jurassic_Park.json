@@ -162,14 +162,10 @@
     "title": "Jurassic Park",
     "part": 1
   },
-  "trailers": [
+  "media": [
     {
-      "path": "QWBKEmWWL38"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/jurassic_park_1.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/jurassic_park_1.webp",
+      "trailer": "QWBKEmWWL38"
     }
   ]
 }

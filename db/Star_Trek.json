@@ -190,14 +190,10 @@
     "title": "Star Trek",
     "part": 1
   },
-  "trailers": [
+  "media": [
     {
-      "path": "pKFUZ10Wmbw"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/star_trek_1.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/star_trek_1.webp",
+      "trailer": "pKFUZ10Wmbw"
     }
   ]
 }

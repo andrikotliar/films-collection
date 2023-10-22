@@ -116,14 +116,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "34WIbmXkewU"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/intouchables.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/intouchables.webp",
+      "trailer": "34WIbmXkewU"
     }
   ]
 }

@@ -136,14 +136,10 @@
     "title": "The Hunger Games",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "EAzGXqJSDJ8"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hunger_games_2.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hunger_games_2.webp",
+      "trailer": "EAzGXqJSDJ8"
     }
   ]
 }

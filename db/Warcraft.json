@@ -181,14 +181,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "2Rxoz13Bthc"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/warcraft.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/warcraft.webp",
+      "trailer": "2Rxoz13Bthc"
     }
   ]
 }

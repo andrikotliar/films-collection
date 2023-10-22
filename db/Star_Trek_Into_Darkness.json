@@ -169,14 +169,10 @@
     "title": "Star Trek",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "jJMYAJ3_0uw"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/star_trek_2.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/star_trek_2.webp",
+      "trailer": "jJMYAJ3_0uw"
     }
   ]
 }

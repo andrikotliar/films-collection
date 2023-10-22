@@ -164,14 +164,10 @@
     "title": "Star Wars Universe",
     "part": 8
   },
-  "trailers": [
+  "media": [
     {
-      "path": "5UfA_aKBGMc"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/star_wars_episode_VI.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/star_wars_episode_VI.webp",
+      "trailer": "5UfA_aKBGMc"
     }
   ]
 }

@@ -149,14 +149,10 @@
     "title": "The Matrix",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "kYzz0FSgpSU"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/matrix_2.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/matrix_2.webp",
+      "trailer": "kYzz0FSgpSU"
     }
   ]
 }

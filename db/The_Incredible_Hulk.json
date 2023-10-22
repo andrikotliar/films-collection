@@ -120,14 +120,10 @@
     "title": "Marvel Cinematic Universe",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "xbqNb2PFKKA"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/the_incredible_hulk.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/the_incredible_hulk.webp",
+      "trailer": "xbqNb2PFKKA"
     }
   ]
 }

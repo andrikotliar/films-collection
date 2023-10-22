@@ -148,14 +148,10 @@
     "title": "DC Extended Universe",
     "part": 6
   },
-  "trailers": [
+  "media": [
     {
-      "path": "WDkg3h8PCVU"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/aquaman.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/aquaman.webp",
+      "trailer": "WDkg3h8PCVU"
     }
   ]
 }

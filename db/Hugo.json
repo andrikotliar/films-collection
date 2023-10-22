@@ -139,14 +139,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "Hv3obL9HqyY"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hugo.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hugo.webp",
+      "trailer": "Hv3obL9HqyY"
     }
   ]
 }

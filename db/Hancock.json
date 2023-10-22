@@ -156,14 +156,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "SkX1VuXLRSc"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hancock.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hancock.webp",
+      "trailer": "SkX1VuXLRSc"
     }
   ]
 }

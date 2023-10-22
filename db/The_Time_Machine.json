@@ -126,14 +126,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "90T7iLuzFgg"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/time_machine.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/time_machine.webp",
+      "trailer": "90T7iLuzFgg"
     }
   ]
 }

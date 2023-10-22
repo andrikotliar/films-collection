@@ -158,14 +158,10 @@
     "title": "Fast and Furious",
     "part": 5
   },
-  "trailers": [
+  "media": [
     {
-      "path": "mw2AqdB5EVA"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_5.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_5.webp",
+      "trailer": "mw2AqdB5EVA"
     }
   ]
 }

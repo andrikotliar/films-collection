@@ -150,14 +150,10 @@
     "title": "Pirates of the Caribbean",
     "part": 1
   },
-  "trailers": [
+  "media": [
     {
-      "path": "naQr0uTrH_s"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/pirates_1.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/pirates_1.webp",
+      "trailer": "naQr0uTrH_s"
     }
   ]
 }

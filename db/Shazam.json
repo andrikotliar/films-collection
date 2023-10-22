@@ -121,14 +121,10 @@
     "title": "DC Extended Universe",
     "part": 7
   },
-  "trailers": [
+  "media": [
     {
-      "path": "go6GEIrcvFY"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/shazam.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/shazam.webp",
+      "trailer": "go6GEIrcvFY"
     }
   ]
 }

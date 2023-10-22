@@ -134,14 +134,10 @@
     "title": "The Amazing Spider-Man",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "nbp3Ra3Yp74"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/amazing_spider_man_2.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/amazing_spider_man_2.webp",
+      "trailer": "nbp3Ra3Yp74"
     }
   ]
 }

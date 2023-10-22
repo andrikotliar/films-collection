@@ -160,14 +160,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "wZdpNglLbt8"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/finding_nemo.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/finding_nemo.webp",
+      "trailer": "wZdpNglLbt8"
     }
   ]
 }

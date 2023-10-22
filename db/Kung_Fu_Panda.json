@@ -155,14 +155,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "NRc-ze7Wrxw"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/kungfu_panda.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/kungfu_panda.webp",
+      "trailer": "NRc-ze7Wrxw"
     }
   ]
 }

@@ -158,14 +158,10 @@
     "title": "The Mummy",
     "part": 2
   },
-  "trailers": [
+  "media": [
     {
-      "path": "3yXjs7BUKYc"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mummy_2.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mummy_2.webp",
+      "trailer": "3yXjs7BUKYc"
     }
   ]
 }

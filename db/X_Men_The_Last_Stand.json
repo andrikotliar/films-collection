@@ -177,14 +177,10 @@
     "title": "X-Men",
     "part": 3
   },
-  "trailers": [
+  "media": [
     {
-      "path": "r8ZMvxzplwc"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/x_men_3.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/x_men_3.webp",
+      "trailer": "r8ZMvxzplwc"
     }
   ]
 }

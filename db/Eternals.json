@@ -177,14 +177,10 @@
     "title": "Marvel Cinematic Universe",
     "part": 28
   },
-  "trailers": [
+  "media": [
     {
-      "path": "x_me3xsvDgk"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/eternals.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/eternals.webp",
+      "trailer": "x_me3xsvDgk"
     }
   ]
 }

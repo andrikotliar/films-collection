@@ -58,7 +58,7 @@
   }
 
   .ghost:hover {
-    background-color: transparent;
+    background-color: currentColor;
   }
 }
 @media (max-width: 735px) {

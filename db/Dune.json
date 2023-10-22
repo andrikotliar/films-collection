@@ -183,14 +183,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "w0HgHet0sxg"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/dune.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/dune.webp",
+      "trailer": "w0HgHet0sxg"
     }
   ]
 }

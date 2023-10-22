@@ -137,14 +137,10 @@
       }
     ]
   },
-  "trailers": [
+  "media": [
     {
-      "path": "6tCxnHCqqxg"
-    }
-  ],
-  "posters": [
-    {
-      "path": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/monsters_inc.webp"
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/monsters_inc.webp",
+      "trailer": "6tCxnHCqqxg"
     }
   ]
 }
