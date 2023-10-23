@@ -112,8 +112,6 @@
     }
   ],
   "boxOffice": 332000000,
-  "trailer": "MdENmefJRpw",
-  "poster": "back_to_the_future_2.webp",
   "year": 1989,
   "summary": {
     "sections": [
@@ -125,5 +123,11 @@
   "chapters": {
     "title": "Back to the Future",
     "part": 2
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/back_to_the_future_2.webp",
+      "trailer": "MdENmefJRpw"
+    }
+  ]
 }

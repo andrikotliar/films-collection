@@ -100,8 +100,6 @@
   ],
   "budget": 40000000,
   "boxOffice": 109000000,
-  "trailer": "Pbh3CDBNIQA",
-  "poster": "transporter_3.webp",
   "year": 2008,
   "summary": {
     "sections": [
@@ -113,5 +111,11 @@
   "chapters": {
     "title": "The Transporter",
     "part": 3
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/transporter_3.webp",
+      "trailer": "Pbh3CDBNIQA"
+    }
+  ]
 }

@@ -122,8 +122,6 @@
   ],
   "budget": 177000000,
   "boxOffice": 714000000,
-  "trailer": "7SlILk2WMTI",
-  "poster": "captain_america_2.webp",
   "year": 2014,
   "summary": {
     "sections": [
@@ -135,5 +133,11 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 9
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/captain_america_2.webp",
+      "trailer": "7SlILk2WMTI"
+    }
+  ]
 }

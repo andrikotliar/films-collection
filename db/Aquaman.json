@@ -136,8 +136,6 @@
   ],
   "budget": 160000000,
   "boxOffice": 1150000000,
-  "trailer": "WDkg3h8PCVU",
-  "poster": "aquaman.webp",
   "year": 2018,
   "summary": {
     "sections": [
@@ -149,5 +147,11 @@
   "chapters": {
     "title": "DC Extended Universe",
     "part": 6
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/aquaman.webp",
+      "trailer": "WDkg3h8PCVU"
+    }
+  ]
 }

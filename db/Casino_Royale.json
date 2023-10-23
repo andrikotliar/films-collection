@@ -121,8 +121,6 @@
   ],
   "budget": 150000000,
   "boxOffice": 616000000,
-  "trailer": "36mnx8dBbGE",
-  "poster": "casino_royale.webp",
   "year": 2006,
   "summary": {
     "sections": [
@@ -130,5 +128,11 @@
         "text": "After earning 00 status and a licence to kill, secret agent James Bond sets out on his first mission as 007. Bond must defeat a private banker funding terrorists in a high-stakes game of poker at Casino Royale, Montenegro."
       }
     ]
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/casino_royale.webp",
+      "trailer": "36mnx8dBbGE"
+    }
+  ]
 }

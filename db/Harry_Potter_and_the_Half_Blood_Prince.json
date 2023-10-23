@@ -133,8 +133,6 @@
   ],
   "budget": 250000000,
   "boxOffice": 934000000,
-  "trailer": "sg81Lts5kYY",
-  "poster": "harry_potter_6.webp",
   "year": 2009,
   "summary": {
     "sections": [
@@ -146,5 +144,11 @@
   "chapters": {
     "title": "Harry Potter Universe",
     "part": 8
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/harry_potter_6.webp",
+      "trailer": "sg81Lts5kYY"
+    }
+  ]
 }

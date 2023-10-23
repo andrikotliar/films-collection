@@ -117,8 +117,6 @@
   ],
   "budget": 98000000,
   "boxOffice": 226000000,
-  "trailer": "zyYgDtY2AMY",
-  "poster": "fordvsferrari.webp",
   "year": 2019,
   "summary": {
     "sections": [
@@ -126,5 +124,11 @@
         "text": "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966."
       }
     ]
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fordvsferrari.webp",
+      "trailer": "zyYgDtY2AMY"
+    }
+  ]
 }

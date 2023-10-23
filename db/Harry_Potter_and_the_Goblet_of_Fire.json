@@ -138,8 +138,6 @@
     }
   ],
   "boxOffice": 897000000000,
-  "trailer": "3EGojp4Hh6I",
-  "poster": "harry_potter_4.webp",
   "year": 2005,
   "summary": {
     "sections": [
@@ -151,5 +149,11 @@
   "chapters": {
     "title": "Harry Potter Universe",
     "part": 6
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/harry_potter_4.webp",
+      "trailer": "3EGojp4Hh6I"
+    }
+  ]
 }

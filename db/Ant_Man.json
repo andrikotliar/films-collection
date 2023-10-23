@@ -154,8 +154,6 @@
     }
   ],
   "boxOffice": 519000000,
-  "trailer": "pWdKf3MneyI",
-  "poster": "ant_man_1.webp",
   "year": 2015,
   "summary": {
     "sections": [
@@ -167,5 +165,11 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 12
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/ant_man_1.webp",
+      "trailer": "pWdKf3MneyI"
+    }
+  ]
 }

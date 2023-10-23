@@ -139,8 +139,6 @@
     }
   ],
   "boxOffice": 263000000,
-  "trailer": "5p18zqZmeiI",
-  "poster": "jumanji_1.webp",
   "year": 1995,
   "summary": {
     "sections": [
@@ -152,5 +150,11 @@
   "chapters": {
     "title": "Jumanji",
     "part": 1
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/jumanji_1.webp",
+      "trailer": "5p18zqZmeiI"
+    }
+  ]
 }

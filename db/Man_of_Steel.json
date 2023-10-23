@@ -146,8 +146,6 @@
   ],
   "budget": 225000000,
   "boxOffice": 668000000,
-  "trailer": "T6DJcgm3wNY",
-  "poster": "man_of_steel.webp",
   "year": 2013,
   "summary": {
     "sections": [
@@ -159,5 +157,11 @@
   "chapters": {
     "title": "DC Extended Universe",
     "part": 1
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/man_of_steel.webp",
+      "trailer": "T6DJcgm3wNY"
+    }
+  ]
 }

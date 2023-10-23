@@ -133,8 +133,6 @@
     }
   ],
   "boxOffice": 416000000,
-  "trailer": "h3ptPtxWJRs",
-  "poster": "mummy_1.webp",
   "year": 1999,
   "summary": {
     "sections": [
@@ -146,5 +144,11 @@
   "chapters": {
     "title": "The Mummy",
     "part": 1
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mummy_1.webp",
+      "trailer": "h3ptPtxWJRs"
+    }
+  ]
 }

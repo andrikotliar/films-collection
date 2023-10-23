@@ -163,8 +163,6 @@
     }
   ],
   "boxOffice": 2069999999.9999998,
-  "trailer": "sGbxmsDFVnE",
-  "poster": "star_wars_episode_VII.webp",
   "year": 2015,
   "summary": {
     "sections": [
@@ -176,5 +174,11 @@
   "chapters": {
     "title": "Star Wars Universe",
     "part": 10
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/star_wars_episode_VII.webp",
+      "trailer": "sGbxmsDFVnE"
+    }
+  ]
 }

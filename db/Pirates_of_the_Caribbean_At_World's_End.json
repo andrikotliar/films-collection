@@ -127,8 +127,6 @@
     }
   ],
   "boxOffice": 963000000,
-  "trailer": "HKSZtp_OGHY",
-  "poster": "pirates_3.webp",
   "year": 2007,
   "summary": {
     "sections": [
@@ -140,5 +138,11 @@
   "chapters": {
     "title": "Pirates of the Caribbean",
     "part": 3
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/pirates_3.webp",
+      "trailer": "HKSZtp_OGHY"
+    }
+  ]
 }

@@ -2,7 +2,6 @@ import { FilmData } from '@/common';
 import classes from './Film.module.css';
 import { forwardRef } from 'react';
 import { Link } from 'react-router-dom';
-import { env } from '@/configs';
 
 type FilmProps = {
   data: FilmData;
@@ -20,7 +19,7 @@ const Film = forwardRef<HTMLAnchorElement, FilmProps>(({ data }, ref) => {
         <div className={classes.order}>{data.collections[0].order}</div>
       )}
       <div className={classes.cover}>
-        <img src={`${env.POSTERS_URL}${data.poster}`} alt={data.title} />
+        <img src={data.media[0].poster} alt={data.title} />
       </div>
       <h3 className={classes.title}>{data.title}</h3>
 

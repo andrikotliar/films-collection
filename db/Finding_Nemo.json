@@ -152,8 +152,6 @@
     }
   ],
   "boxOffice": 940000000,
-  "trailer": "wZdpNglLbt8",
-  "poster": "finding_nemo.webp",
   "year": 2003,
   "summary": {
     "sections": [
@@ -161,5 +159,11 @@
         "text": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home."
       }
     ]
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/finding_nemo.webp",
+      "trailer": "wZdpNglLbt8"
+    }
+  ]
 }

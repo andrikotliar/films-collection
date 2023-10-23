@@ -140,8 +140,6 @@
   ],
   "budget": 140000000,
   "boxOffice": 371000000,
-  "trailer": "JerVrbLldXw",
-  "poster": "captain_america_1.webp",
   "year": 2011,
   "summary": {
     "sections": [
@@ -153,5 +151,11 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 5
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/captain_america_1.webp",
+      "trailer": "JerVrbLldXw"
+    }
+  ]
 }

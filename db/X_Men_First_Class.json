@@ -164,8 +164,6 @@
     }
   ],
   "boxOffice": 354000000,
-  "trailer": "kyQKi5-k0UU",
-  "poster": "x_men_5.webp",
   "year": 2011,
   "summary": {
     "sections": [
@@ -177,5 +175,11 @@
   "chapters": {
     "title": "X-Men",
     "part": 5
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/x_men_5.webp",
+      "trailer": "kyQKi5-k0UU"
+    }
+  ]
 }

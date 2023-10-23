@@ -8,3 +8,4 @@ export * from './AppWrapper';
 export * from './FormCheckbox';
 export * from './Scrollable';
 export * from './Tabs';
+export * from './Modal';

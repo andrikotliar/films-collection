@@ -178,8 +178,6 @@
     }
   ],
   "boxOffice": 343000000,
-  "trailer": "XRVD32rnzOw",
-  "poster": "star_trek_3.webp",
   "year": 2016,
   "summary": {
     "sections": [
@@ -191,5 +189,11 @@
   "chapters": {
     "title": "Star Trek",
     "part": 3
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/star_trek_3.webp",
+      "trailer": "XRVD32rnzOw"
+    }
+  ]
 }

@@ -136,8 +136,6 @@
     }
   ],
   "boxOffice": 333000000,
-  "trailer": "WBdyLyijZhU",
-  "poster": "indiana_jones_2.webp",
   "year": 1984,
   "summary": {
     "sections": [
@@ -149,5 +147,11 @@
   "chapters": {
     "title": "Indiana Jones",
     "part": 2
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/indiana_jones_2.webp",
+      "trailer": "WBdyLyijZhU"
+    }
+  ]
 }

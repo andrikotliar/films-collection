@@ -154,8 +154,6 @@
     }
   ],
   "boxOffice": 789000000,
-  "trailer": "dKi5XoeTN0k",
-  "poster": "fast_and_furious_6.webp",
   "year": 2013,
   "summary": {
     "sections": [
@@ -167,5 +165,11 @@
   "chapters": {
     "title": "Fast and Furious",
     "part": 6
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_6.webp",
+      "trailer": "dKi5XoeTN0k"
+    }
+  ]
 }

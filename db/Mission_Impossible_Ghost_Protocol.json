@@ -119,8 +119,6 @@
     }
   ],
   "boxOffice": 695000000,
-  "trailer": "EDGYVFZxsXQ",
-  "poster": "mi_4.webp",
   "year": 2011,
   "summary": {
     "sections": [
@@ -132,5 +130,11 @@
   "chapters": {
     "title": "Mission: Impossible",
     "part": 4
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mi_4.webp",
+      "trailer": "EDGYVFZxsXQ"
+    }
+  ]
 }

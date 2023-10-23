@@ -122,8 +122,6 @@
     }
   ],
   "boxOffice": 488000000,
-  "trailer": "CwXOrWvPBPk",
-  "poster": "shrek_1.webp",
   "year": 2001,
   "summary": {
     "sections": [
@@ -135,5 +133,11 @@
   "chapters": {
     "title": "Shrek",
     "part": 1
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/shrek_1.webp",
+      "trailer": "CwXOrWvPBPk"
+    }
+  ]
 }

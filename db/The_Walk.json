@@ -137,8 +137,6 @@
   ],
   "budget": 35000000,
   "boxOffice": 61000000,
-  "trailer": "4W6byFcD5uE",
-  "poster": "walk.webp",
   "year": 2015,
   "summary": {
     "sections": [
@@ -146,5 +144,11 @@
         "text": "In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream: to walk the immense void between the World Trade Center towers."
       }
     ]
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/walk.webp",
+      "trailer": "4W6byFcD5uE"
+    }
+  ]
 }

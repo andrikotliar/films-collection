@@ -121,8 +121,6 @@
     }
   ],
   "boxOffice": 790000000,
-  "trailer": "WAdJf4wTC5Y",
-  "poster": "indiana_jones_4.webp",
   "year": 2008,
   "summary": {
     "sections": [
@@ -134,5 +132,11 @@
   "chapters": {
     "title": "Indiana Jones",
     "part": 4
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/indiana_jones_4.webp",
+      "trailer": "WAdJf4wTC5Y"
+    }
+  ]
 }

@@ -126,8 +126,6 @@
     }
   ],
   "boxOffice": 540000000,
-  "trailer": "Md6Dvxdr0AQ",
-  "poster": "world_war_z.webp",
   "year": 2013,
   "summary": {
     "sections": [
@@ -135,5 +133,11 @@
         "text": "Former United Nations employee Gerry Lane traverses the world in a race against time to stop the Zombie pandemic that is toppling armies and governments, and threatening to destroy humanity itself."
       }
     ]
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/world_war_z.webp",
+      "trailer": "Md6Dvxdr0AQ"
+    }
+  ]
 }

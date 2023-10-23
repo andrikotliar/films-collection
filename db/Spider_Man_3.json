@@ -149,8 +149,6 @@
   ],
   "budget": 258000000,
   "boxOffice": 895000000,
-  "trailer": "wPosLpgMtTY",
-  "poster": "raimi_spider_man_3.webp",
   "year": 2007,
   "summary": {
     "sections": [
@@ -162,5 +160,11 @@
   "chapters": {
     "title": "Raimi's Spider-Man",
     "part": 3
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/raimi_spider_man_3.webp",
+      "trailer": "wPosLpgMtTY"
+    }
+  ]
 }

@@ -131,8 +131,6 @@
   ],
   "budget": 15000000,
   "boxOffice": 98000000,
-  "trailer": "_1wDBNHYDv8",
-  "poster": "predator.webp",
   "year": 1987,
   "summary": {
     "sections": [
@@ -140,5 +138,11 @@
         "text": "A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior."
       }
     ]
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/predator.webp",
+      "trailer": "_1wDBNHYDv8"
+    }
+  ]
 }

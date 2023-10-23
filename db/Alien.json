@@ -152,8 +152,6 @@
     }
   ],
   "boxOffice": 106000000,
-  "trailer": "jQ5lPt9edzQ",
-  "poster": "alien_1.webp",
   "year": 1979,
   "summary": {
     "sections": [
@@ -165,5 +163,11 @@
   "chapters": {
     "title": "Aliens",
     "part": 1
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/alien_1.webp",
+      "trailer": "jQ5lPt9edzQ"
+    }
+  ]
 }

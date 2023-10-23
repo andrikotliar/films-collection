@@ -153,8 +153,6 @@
   ],
   "budget": 152000000,
   "boxOffice": 1130000000,
-  "trailer": "TcMBFSGVi1c",
-  "poster": "captain_marvel.webp",
   "year": 2019,
   "summary": {
     "sections": [
@@ -166,5 +164,11 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 21
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/captain_marvel.webp",
+      "trailer": "TcMBFSGVi1c"
+    }
+  ]
 }

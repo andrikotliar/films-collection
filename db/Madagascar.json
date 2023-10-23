@@ -119,8 +119,6 @@
   ],
   "budget": 75000000,
   "boxOffice": 542000000,
-  "trailer": "orAqhC-Hp_o",
-  "poster": "madagascar.webp",
   "year": 2005,
   "summary": {
     "sections": [
@@ -132,5 +130,11 @@
   "chapters": {
     "title": "Madagascar",
     "part": 1
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/madagascar.webp",
+      "trailer": "orAqhC-Hp_o"
+    }
+  ]
 }

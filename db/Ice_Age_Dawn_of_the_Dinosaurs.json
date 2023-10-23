@@ -134,8 +134,6 @@
   ],
   "budget": 90000000,
   "boxOffice": 886000000,
-  "trailer": "Y_nSwh2WjAM",
-  "poster": "ice_age_3.webp",
   "year": 2009,
   "summary": {
     "sections": [
@@ -147,5 +145,11 @@
   "chapters": {
     "title": "Ice Age",
     "part": 3
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/ice_age_3.webp",
+      "trailer": "Y_nSwh2WjAM"
+    }
+  ]
 }

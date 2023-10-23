@@ -124,8 +124,6 @@
   ],
   "budget": 14000000,
   "boxOffice": 14000000,
-  "trailer": "jDDFNpj9xBQ",
-  "poster": "d13_2.webp",
   "year": 2009,
   "summary": {
     "sections": [
@@ -137,5 +135,11 @@
   "chapters": {
     "title": "District 13",
     "part": 2
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/d13_2.webp",
+      "trailer": "jDDFNpj9xBQ"
+    }
+  ]
 }

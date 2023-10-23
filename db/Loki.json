@@ -175,7 +175,6 @@
     "title": "Marvel Cinematic Universe",
     "part": 26
   },
-  "poster": "loki.webp",
   "year": 2021,
   "summary": {
     "sections": [
@@ -190,11 +189,16 @@
     "seasons": [
       {
         "number": 1,
-        "poster": "loki.webp",
-        "trailer": "nW948Va-l10",
         "episodesCount": 6,
         "year": 2021
       }
     ]
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/loki.webp",
+      "trailer": "nW948Va-l10",
+      "caption": "Season 1"
+    }
+  ]
 }

@@ -130,8 +130,6 @@
       "title": "Fantasy"
     }
   ],
-  "trailer": "_LsPz8vCULE",
-  "poster": "librarian_1.webp",
   "year": 2004,
   "summary": {
     "sections": [
@@ -143,5 +141,11 @@
   "chapters": {
     "title": "The Librarian",
     "part": 1
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/librarian_1.webp",
+      "trailer": "_LsPz8vCULE"
+    }
+  ]
 }

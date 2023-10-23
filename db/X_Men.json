@@ -160,8 +160,6 @@
     }
   ],
   "boxOffice": 296000000,
-  "trailer": "VNxwlx6etXI",
-  "poster": "x_men_1.webp",
   "year": 2000,
   "summary": {
     "sections": [
@@ -173,5 +171,11 @@
   "chapters": {
     "title": "X-Men",
     "part": 1
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/x_men_1.webp",
+      "trailer": "VNxwlx6etXI"
+    }
+  ]
 }

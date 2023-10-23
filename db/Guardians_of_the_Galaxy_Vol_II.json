@@ -159,8 +159,6 @@
     }
   ],
   "boxOffice": 864000000,
-  "trailer": "wUn05hdkhjM",
-  "poster": "guardians_of_the_galaxy_2.webp",
   "year": 2017,
   "summary": {
     "sections": [
@@ -172,5 +170,11 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 15
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/guardians_of_the_galaxy_2.webp",
+      "trailer": "wUn05hdkhjM"
+    }
+  ]
 }

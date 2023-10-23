@@ -134,8 +134,6 @@
     }
   ],
   "boxOffice": 817000000,
-  "trailer": "kA2WzBi2grE",
-  "poster": "independence_day.webp",
   "year": 1996,
   "summary": {
     "sections": [
@@ -143,5 +141,11 @@
         "text": "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive."
       }
     ]
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/independence_day.webp",
+      "trailer": "kA2WzBi2grE"
+    }
+  ]
 }

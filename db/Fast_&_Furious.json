@@ -125,8 +125,6 @@
   ],
   "budget": 85000000,
   "boxOffice": 363000000,
-  "trailer": "Gl-d_UIhdBw",
-  "poster": "fast_and_furious_4.webp",
   "year": 2009,
   "summary": {
     "sections": [
@@ -138,5 +136,11 @@
   "chapters": {
     "title": "Fast and Furious",
     "part": 4
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_4.webp",
+      "trailer": "Gl-d_UIhdBw"
+    }
+  ]
 }

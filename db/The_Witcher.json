@@ -211,7 +211,6 @@
       "title": "Fantasy"
     }
   ],
-  "poster": "witcher.webp",
   "year": 2019,
   "summary": {
     "sections": [
@@ -230,18 +229,26 @@
     "seasons": [
       {
         "number": 1,
-        "poster": "witcher.webp",
-        "trailer": "ndl1W4ltcmg",
         "episodesCount": 8,
         "year": 2019
       },
       {
         "number": 2,
-        "poster": "witcher_s2.webp",
-        "trailer": "2aMVzFlApa0",
         "episodesCount": 8,
         "year": 2021
       }
     ]
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/witcher.webp",
+      "trailer": "ndl1W4ltcmg",
+      "caption": "Season 1"
+    },
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/witcher_s2.webp",
+      "trailer": "2aMVzFlApa0",
+      "caption": "Season 2"
+    }
+  ]
 }

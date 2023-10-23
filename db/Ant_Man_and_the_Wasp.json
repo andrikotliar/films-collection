@@ -125,8 +125,6 @@
   ],
   "budget": 162000000,
   "boxOffice": 595000000,
-  "trailer": "UUkn-enk2RU",
-  "poster": "ant_man_2.webp",
   "year": 2018,
   "summary": {
     "sections": [
@@ -138,5 +136,11 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 20
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/ant_man_2.webp",
+      "trailer": "UUkn-enk2RU"
+    }
+  ]
 }

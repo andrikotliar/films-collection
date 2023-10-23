@@ -155,8 +155,6 @@
   ],
   "budget": 95000000,
   "boxOffice": 226000000,
-  "trailer": "xko1Mx5w4tg",
-  "poster": "percy_jackson.webp",
   "year": 2010,
   "summary": {
     "sections": [
@@ -164,5 +162,11 @@
         "text": "A teenager discovers he's the descendant of a Greek god and sets out on an adventure to settle an on-going battle between the gods."
       }
     ]
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/percy_jackson.webp",
+      "trailer": "xko1Mx5w4tg"
+    }
+  ]
 }

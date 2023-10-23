@@ -126,8 +126,6 @@
   ],
   "budget": 150000000,
   "boxOffice": 604000000,
-  "trailer": "hLVjIhPYq7s",
-  "poster": "madagascar_2.webp",
   "year": 2008,
   "summary": {
     "sections": [
@@ -139,5 +137,11 @@
   "chapters": {
     "title": "Madagascar",
     "part": 2
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/madagascar_2.webp",
+      "trailer": "hLVjIhPYq7s"
+    }
+  ]
 }

@@ -648,7 +648,6 @@
       ]
     }
   ],
-  "poster": "hundred.webp",
   "year": 2014,
   "summary": {
     "sections": [
@@ -687,53 +686,76 @@
     "seasons": [
       {
         "number": 1,
-        "poster": "hundred.webp",
-        "trailer": "ia1Fbg96vL0",
         "episodesCount": 13,
         "year": 2014
       },
       {
         "number": 2,
-        "poster": "hundred_s2.webp",
-        "trailer": "IW7_ZzFZF-o",
         "episodesCount": 16,
         "year": 2014
       },
       {
         "number": 3,
-        "poster": "hundred_s3.webp",
-        "trailer": "uwxwHTu802M",
         "episodesCount": 16,
         "year": 2016
       },
       {
         "number": 4,
-        "poster": "hundred_s4.webp",
-        "trailer": "JQi2MAfpACI",
         "episodesCount": 13,
         "year": 2017
       },
       {
         "number": 5,
-        "poster": "hundred_s5.webp",
-        "trailer": "AGSfZ4xt4UY",
         "episodesCount": 13,
         "year": 2018
       },
       {
         "number": 6,
-        "poster": "hundred_s6.webp",
-        "trailer": "AVDyeT-GsX4",
         "episodesCount": 13,
         "year": 2019
       },
       {
         "number": 7,
-        "poster": "hundred_s7.webp",
-        "trailer": "VQaFKClCUpo",
         "episodesCount": 16,
         "year": 2020
       }
     ]
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred.webp",
+      "trailer": "ia1Fbg96vL0",
+      "caption": "Season 1"
+    },
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred_s2.webp",
+      "trailer": "IW7_ZzFZF-o",
+      "caption": "Season 2"
+    },
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred_s3.webp",
+      "trailer": "uwxwHTu802M",
+      "caption": "Season 3"
+    },
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred_s4.webp",
+      "trailer": "JQi2MAfpACI",
+      "caption": "Season 4"
+    },
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred_s5.webp",
+      "trailer": "AGSfZ4xt4UY",
+      "caption": "Season 5"
+    },
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred_s6.webp",
+      "trailer": "AVDyeT-GsX4",
+      "caption": "Season 6"
+    },
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hundred_s7.webp",
+      "trailer": "VQaFKClCUpo",
+      "caption": "Season 7"
+    }
+  ]
 }

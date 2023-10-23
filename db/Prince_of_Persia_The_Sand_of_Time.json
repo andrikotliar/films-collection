@@ -135,8 +135,6 @@
   ],
   "budget": 150000000,
   "boxOffice": 336000000,
-  "trailer": "bZ7Li5w2I-k",
-  "poster": "prince_of_persia.webp",
   "year": 2010,
   "summary": {
     "sections": [
@@ -144,5 +142,11 @@
         "text": "A young fugitive Prince and Princess must stop a villain who unknowingly threatens to destroy the world with a special dagger that enables the magic sand inside to reverse time."
       }
     ]
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/prince_of_persia.webp",
+      "trailer": "bZ7Li5w2I-k"
+    }
+  ]
 }

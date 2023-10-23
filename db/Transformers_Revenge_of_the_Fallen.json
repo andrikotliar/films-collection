@@ -159,8 +159,6 @@
   ],
   "budget": 200000000,
   "boxOffice": 836000000,
-  "trailer": "fnXzKwUgDhg",
-  "poster": "transformers_2.webp",
   "year": 2009,
   "summary": {
     "sections": [
@@ -172,5 +170,11 @@
   "chapters": {
     "title": "Transformers",
     "part": 3
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/transformers_2.webp",
+      "trailer": "fnXzKwUgDhg"
+    }
+  ]
 }

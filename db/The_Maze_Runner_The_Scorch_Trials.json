@@ -138,8 +138,6 @@
   ],
   "budget": 61000000,
   "boxOffice": 312000000,
-  "trailer": "SDofO3P2HpE",
-  "poster": "maze_runner_2.webp",
   "year": 2015,
   "summary": {
     "sections": [
@@ -151,5 +149,11 @@
   "chapters": {
     "title": "The Maze Runner",
     "part": 2
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/maze_runner_2.webp",
+      "trailer": "SDofO3P2HpE"
+    }
+  ]
 }

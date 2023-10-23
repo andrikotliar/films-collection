@@ -154,8 +154,6 @@
     }
   ],
   "boxOffice": 694000000,
-  "trailer": "mfmrPu43DF8",
-  "poster": "hunger_games_1.webp",
   "year": 2012,
   "summary": {
     "sections": [
@@ -167,5 +165,11 @@
   "chapters": {
     "title": "The Hunger Games",
     "part": 1
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hunger_games_1.webp",
+      "trailer": "mfmrPu43DF8"
+    }
+  ]
 }

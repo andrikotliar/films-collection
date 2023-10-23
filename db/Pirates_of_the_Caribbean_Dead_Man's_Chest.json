@@ -139,8 +139,6 @@
     }
   ],
   "boxOffice": 1100000000,
-  "trailer": "ozk0-RHXtFw",
-  "poster": "pirates_2.webp",
   "year": 2006,
   "summary": {
     "sections": [
@@ -152,5 +150,11 @@
   "chapters": {
     "title": "Pirates of the Caribbean",
     "part": 2
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/pirates_2.webp",
+      "trailer": "ozk0-RHXtFw"
+    }
+  ]
 }

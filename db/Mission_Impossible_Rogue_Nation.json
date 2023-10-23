@@ -137,8 +137,6 @@
   ],
   "budget": 150000000,
   "boxOffice": 683000000,
-  "trailer": "gOW_azQbOjw",
-  "poster": "mi_5.webp",
   "year": 2015,
   "summary": {
     "sections": [
@@ -150,5 +148,11 @@
   "chapters": {
     "title": "Mission: Impossible",
     "part": 5
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mi_5.webp",
+      "trailer": "gOW_azQbOjw"
+    }
+  ]
 }

@@ -112,8 +112,6 @@
   ],
   "budget": 10000000,
   "boxOffice": 64000000,
-  "trailer": "XkMZ75BwhCg",
-  "poster": "taxi_2.webp",
   "year": 2000,
   "summary": {
     "sections": [
@@ -125,5 +123,11 @@
   "chapters": {
     "title": "Besson's Taxi",
     "part": 2
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/taxi_2.webp",
+      "trailer": "XkMZ75BwhCg"
+    }
+  ]
 }

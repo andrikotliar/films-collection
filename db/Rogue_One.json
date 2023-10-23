@@ -146,8 +146,6 @@
     }
   ],
   "boxOffice": 1060000000,
-  "trailer": "frdj1zb9sMY",
-  "poster": "rogue_one.webp",
   "year": 2016,
   "summary": {
     "sections": [
@@ -159,5 +157,11 @@
   "chapters": {
     "title": "Star Wars Universe",
     "part": 4
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/rogue_one.webp",
+      "trailer": "frdj1zb9sMY"
+    }
+  ]
 }

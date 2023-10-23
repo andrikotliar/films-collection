@@ -93,8 +93,6 @@
   ],
   "budget": 59000000,
   "boxOffice": 383000000,
-  "trailer": "i4noiCRJRoE",
-  "poster": "ice_age_1.webp",
   "year": 2002,
   "summary": {
     "sections": [
@@ -106,5 +104,11 @@
   "chapters": {
     "title": "Ice Age",
     "part": 1
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/ice_age_1.webp",
+      "trailer": "i4noiCRJRoE"
+    }
+  ]
 }

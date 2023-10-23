@@ -165,8 +165,6 @@
     }
   ],
   "boxOffice": 459000000,
-  "trailer": "r8ZMvxzplwc",
-  "poster": "x_men_3.webp",
   "year": 2006,
   "summary": {
     "sections": [
@@ -178,5 +176,11 @@
   "chapters": {
     "title": "X-Men",
     "part": 3
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/x_men_3.webp",
+      "trailer": "r8ZMvxzplwc"
+    }
+  ]
 }

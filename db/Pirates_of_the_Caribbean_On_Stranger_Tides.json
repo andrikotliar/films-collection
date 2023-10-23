@@ -119,8 +119,6 @@
   ],
   "budget": 250000000,
   "boxOffice": 1050000000,
-  "trailer": "t5AqJww06bw",
-  "poster": "pirates_4.webp",
   "year": 2011,
   "summary": {
     "sections": [
@@ -132,5 +130,11 @@
   "chapters": {
     "title": "Pirates of the Caribbean",
     "part": 4
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/pirates_4.webp",
+      "trailer": "t5AqJww06bw"
+    }
+  ]
 }

@@ -128,7 +128,6 @@
     "title": "Marvel Cinematic Universe",
     "part": 29
   },
-  "poster": "hawkeye.webp",
   "year": 2021,
   "summary": {
     "sections": [
@@ -143,11 +142,16 @@
     "seasons": [
       {
         "number": 1,
-        "poster": "hawkeye.webp",
-        "trailer": "5VYb3B1ETlk",
         "episodesCount": 6,
         "year": 2021
       }
     ]
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hawkeye.webp",
+      "trailer": "5VYb3B1ETlk",
+      "caption": "Season 1"
+    }
+  ]
 }

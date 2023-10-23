@@ -148,8 +148,6 @@
     }
   ],
   "boxOffice": 649000000,
-  "trailer": "gYbW1F_c9eM",
-  "poster": "star_wars_episode_II.webp",
   "year": 2002,
   "summary": {
     "sections": [
@@ -161,5 +159,11 @@
   "chapters": {
     "title": "Star Wars Universe",
     "part": 2
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/star_wars_episode_II.webp",
+      "trailer": "gYbW1F_c9eM"
+    }
+  ]
 }

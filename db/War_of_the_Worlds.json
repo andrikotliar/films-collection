@@ -127,8 +127,6 @@
     }
   ],
   "boxOffice": 604000000,
-  "trailer": "SM6aEEjc5hA",
-  "poster": "war_of_the_worlds.webp",
   "year": 2005,
   "summary": {
     "sections": [
@@ -136,5 +134,11 @@
         "text": "An alien invasion threatens the future of humanity. The catastrophic nightmare is depicted through the eyes of one American family fighting for survival."
       }
     ]
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/war_of_the_worlds.webp",
+      "trailer": "SM6aEEjc5hA"
+    }
+  ]
 }

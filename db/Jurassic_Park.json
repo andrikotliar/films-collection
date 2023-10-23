@@ -150,8 +150,6 @@
     }
   ],
   "boxOffice": 1030000000,
-  "trailer": "QWBKEmWWL38",
-  "poster": "jurassic_park_1.webp",
   "year": 1993,
   "summary": {
     "sections": [
@@ -163,5 +161,11 @@
   "chapters": {
     "title": "Jurassic Park",
     "part": 1
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/jurassic_park_1.webp",
+      "trailer": "QWBKEmWWL38"
+    }
+  ]
 }

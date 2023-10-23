@@ -109,8 +109,6 @@
   ],
   "budget": 80000000,
   "boxOffice": 356000000,
-  "trailer": "go6GEIrcvFY",
-  "poster": "shazam.webp",
   "year": 2019,
   "summary": {
     "sections": [
@@ -122,5 +120,11 @@
   "chapters": {
     "title": "DC Extended Universe",
     "part": 7
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/shazam.webp",
+      "trailer": "go6GEIrcvFY"
+    }
+  ]
 }

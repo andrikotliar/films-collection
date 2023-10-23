@@ -130,8 +130,6 @@
     }
   ],
   "boxOffice": 131000000,
-  "trailer": "oSeQQlaCZgU",
-  "poster": "alien_2.webp",
   "year": 1986,
   "summary": {
     "sections": [
@@ -143,5 +141,11 @@
   "chapters": {
     "title": "Aliens",
     "part": 2
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/alien_2.webp",
+      "trailer": "oSeQQlaCZgU"
+    }
+  ]
 }

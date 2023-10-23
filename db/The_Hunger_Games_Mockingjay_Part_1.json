@@ -139,8 +139,6 @@
     }
   ],
   "boxOffice": 755000000,
-  "trailer": "3PkkHsuMrho",
-  "poster": "hunger_games_3.webp",
   "year": 2014,
   "summary": {
     "sections": [
@@ -152,5 +150,11 @@
   "chapters": {
     "title": "The Hunger Games",
     "part": 3
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/hunger_games_3.webp",
+      "trailer": "3PkkHsuMrho"
+    }
+  ]
 }

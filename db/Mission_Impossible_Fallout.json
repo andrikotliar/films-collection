@@ -146,8 +146,6 @@
     }
   ],
   "boxOffice": 791000000,
-  "trailer": "wb49-oV0F78",
-  "poster": "mi_6.webp",
   "year": 2018,
   "summary": {
     "sections": [
@@ -159,5 +157,11 @@
   "chapters": {
     "title": "Mission: Impossible",
     "part": 6
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mi_6.webp",
+      "trailer": "wb49-oV0F78"
+    }
+  ]
 }

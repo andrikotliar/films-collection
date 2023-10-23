@@ -140,8 +140,6 @@
   ],
   "budget": 150000000,
   "boxOffice": 940000000,
-  "trailer": "y6ZW7KXaXYk",
-  "poster": "harry_potter_5.webp",
   "year": 2007,
   "summary": {
     "sections": [
@@ -153,5 +151,11 @@
   "chapters": {
     "title": "Harry Potter Universe",
     "part": 7
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/harry_potter_5.webp",
+      "trailer": "y6ZW7KXaXYk"
+    }
+  ]
 }

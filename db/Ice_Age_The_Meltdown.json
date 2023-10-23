@@ -107,8 +107,6 @@
   ],
   "budget": 80000000,
   "boxOffice": 661000000,
-  "trailer": "s4PWGVtIZWA",
-  "poster": "ice_age_2.webp",
   "year": 2006,
   "summary": {
     "sections": [
@@ -120,5 +118,11 @@
   "chapters": {
     "title": "Ice Age",
     "part": 2
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/ice_age_2.webp",
+      "trailer": "s4PWGVtIZWA"
+    }
+  ]
 }

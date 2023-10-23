@@ -165,8 +165,6 @@
   ],
   "budget": 200000000,
   "boxOffice": 281000000,
-  "trailer": "x_me3xsvDgk",
-  "poster": "eternals.webp",
   "year": 2021,
   "summary": {
     "sections": [
@@ -178,5 +176,11 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 28
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/eternals.webp",
+      "trailer": "x_me3xsvDgk"
+    }
+  ]
 }

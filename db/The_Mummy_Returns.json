@@ -146,8 +146,6 @@
   ],
   "budget": 98000000,
   "boxOffice": 433000000,
-  "trailer": "3yXjs7BUKYc",
-  "poster": "mummy_2.webp",
   "year": 2001,
   "summary": {
     "sections": [
@@ -159,5 +157,11 @@
   "chapters": {
     "title": "The Mummy",
     "part": 2
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mummy_2.webp",
+      "trailer": "3yXjs7BUKYc"
+    }
+  ]
 }

@@ -172,8 +172,6 @@
     }
   ],
   "boxOffice": 773000000,
-  "trailer": "d96cjJhvlMA",
-  "poster": "guardians_of_the_galaxy.webp",
   "year": 2014,
   "summary": {
     "sections": [
@@ -185,5 +183,11 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 10
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/guardians_of_the_galaxy.webp",
+      "trailer": "d96cjJhvlMA"
+    }
+  ]
 }

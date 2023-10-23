@@ -115,8 +115,6 @@
   ],
   "budget": 200000000,
   "boxOffice": 379000000,
-  "trailer": "ybji16u608U",
-  "poster": "black_widow.webp",
   "year": 2021,
   "summary": {
     "sections": [
@@ -128,5 +126,11 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 27
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/black_widow.webp",
+      "trailer": "ybji16u608U"
+    }
+  ]
 }

@@ -132,8 +132,6 @@
     }
   ],
   "boxOffice": 381000000,
-  "trailer": "qvsgGtivCgs",
-  "poster": "back_to_the_future_1.webp",
   "year": 1985,
   "summary": {
     "sections": [
@@ -145,5 +143,11 @@
   "chapters": {
     "title": "Back to the Future",
     "part": 1
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/back_to_the_future_1.webp",
+      "trailer": "qvsgGtivCgs"
+    }
+  ]
 }

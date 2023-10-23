@@ -189,8 +189,6 @@
     }
   ],
   "boxOffice": 926000000,
-  "trailer": "LbfMDwc4azU",
-  "poster": "middle_earth_5.webp",
   "year": 2002,
   "summary": {
     "sections": [
@@ -202,5 +200,11 @@
   "chapters": {
     "title": "Middle-Earth Universe",
     "part": 5
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/middle_earth_5.webp",
+      "trailer": "LbfMDwc4azU"
+    }
+  ]
 }

@@ -144,8 +144,6 @@
     }
   ],
   "boxOffice": 449000000,
-  "trailer": "JOddp-nlNvQ",
-  "poster": "thor_1.webp",
   "year": 2011,
   "summary": {
     "sections": [
@@ -157,5 +155,11 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 4
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/thor_1.webp",
+      "trailer": "JOddp-nlNvQ"
+    }
+  ]
 }

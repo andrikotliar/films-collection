@@ -176,8 +176,6 @@
     }
   ],
   "boxOffice": 1670000000,
-  "trailer": "RFinNxS5KN4",
-  "poster": "jurassic_world.webp",
   "year": 2015,
   "summary": {
     "sections": [
@@ -189,5 +187,11 @@
   "chapters": {
     "title": "Jurassic Park",
     "part": 4
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/jurassic_world.webp",
+      "trailer": "RFinNxS5KN4"
+    }
+  ]
 }

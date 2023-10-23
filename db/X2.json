@@ -174,8 +174,6 @@
     }
   ],
   "boxOffice": 408000000,
-  "trailer": "luHcOYS1HxQ",
-  "poster": "x_men_2.webp",
   "year": 2003,
   "summary": {
     "sections": [
@@ -187,5 +185,11 @@
   "chapters": {
     "title": "X-Men",
     "part": 2
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/x_men_2.webp",
+      "trailer": "luHcOYS1HxQ"
+    }
+  ]
 }

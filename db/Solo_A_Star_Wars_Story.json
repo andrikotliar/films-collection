@@ -152,8 +152,6 @@
     }
   ],
   "boxOffice": 393000000,
-  "trailer": "jPEYpryMp2s",
-  "poster": "solo.webp",
   "year": 2018,
   "summary": {
     "sections": [
@@ -165,5 +163,11 @@
   "chapters": {
     "title": "Star Wars Universe",
     "part": 5
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/solo.webp",
+      "trailer": "jPEYpryMp2s"
+    }
+  ]
 }

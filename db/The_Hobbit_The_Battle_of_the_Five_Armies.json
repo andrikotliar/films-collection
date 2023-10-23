@@ -247,8 +247,6 @@
     }
   ],
   "boxOffice": 956000000,
-  "trailer": "iVAgTiBrrDA",
-  "poster": "middle_earth_3.webp",
   "year": 2014,
   "summary": {
     "sections": [
@@ -260,5 +258,11 @@
   "chapters": {
     "title": "Middle-Earth Universe",
     "part": 3
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/middle_earth_3.webp",
+      "trailer": "iVAgTiBrrDA"
+    }
+  ]
 }

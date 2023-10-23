@@ -136,8 +136,6 @@
   ],
   "budget": 150000000,
   "boxOffice": 920000000,
-  "trailer": "xBgSfhp5Fxo",
-  "poster": "shrek_2.webp",
   "year": 2004,
   "summary": {
     "sections": [
@@ -149,5 +147,11 @@
   "chapters": {
     "title": "Shrek",
     "part": 2
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/shrek_2.webp",
+      "trailer": "xBgSfhp5Fxo"
+    }
+  ]
 }

@@ -149,8 +149,6 @@
     }
   ],
   "boxOffice": 677000000,
-  "trailer": "zSWdZVtXT7E",
-  "poster": "interstellar.webp",
   "year": 2014,
   "summary": {
     "sections": [
@@ -158,5 +156,11 @@
         "text": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
       }
     ]
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/interstellar.webp",
+      "trailer": "zSWdZVtXT7E"
+    }
+  ]
 }

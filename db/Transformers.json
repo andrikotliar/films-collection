@@ -184,8 +184,6 @@
     }
   ],
   "boxOffice": 710000000,
-  "trailer": "dxQxgAfNzyE",
-  "poster": "transformers_1.webp",
   "year": 2007,
   "summary": {
     "sections": [
@@ -197,5 +195,11 @@
   "chapters": {
     "title": "Transformers",
     "part": 2
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/transformers_1.webp",
+      "trailer": "dxQxgAfNzyE"
+    }
+  ]
 }

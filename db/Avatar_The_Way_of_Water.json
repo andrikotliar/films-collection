@@ -194,8 +194,6 @@
   ],
   "budget": 350000000,
   "boxOffice": 1400000000,
-  "trailer": "o5F8MOz_IDw",
-  "poster": "avatar_2.webp",
   "year": 2022,
   "summary": {
     "sections": [
@@ -207,5 +205,11 @@
   "chapters": {
     "title": "Avatar",
     "part": 2
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/avatar_2.webp",
+      "trailer": "o5F8MOz_IDw"
+    }
+  ]
 }

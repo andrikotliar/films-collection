@@ -254,8 +254,6 @@
     }
   ],
   "boxOffice": 960000000,
-  "trailer": "fnaojlfdUbs",
-  "poster": "middle_earth_2.webp",
   "year": 2013,
   "summary": {
     "sections": [
@@ -267,5 +265,11 @@
   "chapters": {
     "title": "Middle-Earth Universe",
     "part": 2
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/middle_earth_2.webp",
+      "trailer": "fnaojlfdUbs"
+    }
+  ]
 }

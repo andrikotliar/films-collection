@@ -179,8 +179,6 @@
     }
   ],
   "boxOffice": 375000000,
-  "trailer": "neY2xVmOfUM",
-  "poster": "batman_1.webp",
   "year": 2005,
   "summary": {
     "sections": [
@@ -192,5 +190,11 @@
   "chapters": {
     "title": "The Dark Knight",
     "part": 1
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/batman_1.webp",
+      "trailer": "neY2xVmOfUM"
+    }
+  ]
 }

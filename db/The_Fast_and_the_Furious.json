@@ -127,8 +127,6 @@
     }
   ],
   "boxOffice": 207000000,
-  "trailer": "2TAOizOnNPo",
-  "poster": "fast_and_furious_1.webp",
   "year": 2001,
   "summary": {
     "sections": [
@@ -140,5 +138,11 @@
   "chapters": {
     "title": "Fast and Furious",
     "part": 1
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/fast_and_furious_1.webp",
+      "trailer": "2TAOizOnNPo"
+    }
+  ]
 }

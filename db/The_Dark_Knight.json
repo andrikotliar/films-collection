@@ -180,8 +180,6 @@
     }
   ],
   "boxOffice": 1004999999.9999999,
-  "trailer": "EXeTwQWrcwY",
-  "poster": "batman_2.webp",
   "year": 2008,
   "summary": {
     "sections": [
@@ -193,5 +191,11 @@
   "chapters": {
     "title": "The Dark Knight",
     "part": 2
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/batman_2.webp",
+      "trailer": "EXeTwQWrcwY"
+    }
+  ]
 }

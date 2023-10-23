@@ -121,8 +121,6 @@
   ],
   "budget": 170000000,
   "boxOffice": 400000000,
-  "trailer": "w7pYhpJaJW8",
-  "poster": "alita.webp",
   "year": 2019,
   "summary": {
     "sections": [
@@ -130,5 +128,11 @@
         "text": "A deactivated female cyborg is revived, but cannot remember anything of her past life and goes on a quest to find out who she is."
       }
     ]
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/alita.webp",
+      "trailer": "w7pYhpJaJW8"
+    }
+  ]
 }

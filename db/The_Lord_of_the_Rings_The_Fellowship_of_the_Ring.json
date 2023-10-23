@@ -208,8 +208,6 @@
     }
   ],
   "boxOffice": 871000000,
-  "trailer": "aStYWD25fAQ",
-  "poster": "middle_earth_4.webp",
   "year": 2001,
   "summary": {
     "sections": [
@@ -221,5 +219,11 @@
   "chapters": {
     "title": "Middle-Earth Universe",
     "part": 4
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/middle_earth_4.webp",
+      "trailer": "aStYWD25fAQ"
+    }
+  ]
 }

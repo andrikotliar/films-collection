@@ -116,8 +116,6 @@
   ],
   "budget": 132000000,
   "boxOffice": 415000000,
-  "trailer": "toLpchTUYk8",
-  "poster": "wolverine.webp",
   "year": 2013,
   "summary": {
     "sections": [
@@ -129,5 +127,11 @@
   "chapters": {
     "title": "X-Men",
     "part": 6
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/wolverine.webp",
+      "trailer": "toLpchTUYk8"
+    }
+  ]
 }

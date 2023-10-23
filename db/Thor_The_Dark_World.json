@@ -150,8 +150,6 @@
   ],
   "budget": 153000000,
   "boxOffice": 645000000,
-  "trailer": "npvJ9FTgZbM",
-  "poster": "thor_2.webp",
   "year": 2013,
   "summary": {
     "sections": [
@@ -163,5 +161,11 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 8
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/thor_2.webp",
+      "trailer": "npvJ9FTgZbM"
+    }
+  ]
 }

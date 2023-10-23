@@ -107,8 +107,6 @@
   ],
   "budget": 9000000,
   "boxOffice": 44000000,
-  "trailer": "buQxF0eIeXI",
-  "poster": "taxi_1.webp",
   "year": 1998,
   "summary": {
     "sections": [
@@ -120,5 +118,11 @@
   "chapters": {
     "title": "Besson's Taxi",
     "part": 1
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/taxi_1.webp",
+      "trailer": "buQxF0eIeXI"
+    }
+  ]
 }

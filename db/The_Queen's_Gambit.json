@@ -154,7 +154,6 @@
       ]
     }
   ],
-  "poster": "queens_gambit.webp",
   "year": 2020,
   "summary": {
     "sections": [
@@ -169,11 +168,16 @@
     "seasons": [
       {
         "number": 1,
-        "poster": "queens_gambit.webp",
-        "trailer": "oZn3qSgmLqI",
         "episodesCount": 7,
         "year": 2020
       }
     ]
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/queens_gambit.webp",
+      "trailer": "oZn3qSgmLqI",
+      "caption": "Season 1"
+    }
+  ]
 }

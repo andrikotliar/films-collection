@@ -135,8 +135,6 @@
   ],
   "budget": 230000000,
   "boxOffice": 758000000,
-  "trailer": "-tnxzJ0SSOw",
-  "poster": "amazing_spider_man_1.webp",
   "year": 2012,
   "summary": {
     "sections": [
@@ -148,5 +146,11 @@
   "chapters": {
     "title": "The Amazing Spider-Man",
     "part": 1
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/amazing_spider_man_1.webp",
+      "trailer": "-tnxzJ0SSOw"
+    }
+  ]
 }

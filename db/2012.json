@@ -163,8 +163,6 @@
   ],
   "budget": 200000000,
   "boxOffice": 770000000,
-  "trailer": "ce0N3TEcFw0",
-  "poster": "twenty_twelve.webp",
   "year": 2009,
   "summary": {
     "sections": [
@@ -172,5 +170,11 @@
         "text": "A frustrated writer struggles to keep his family alive when a series of global catastrophes threatens to annihilate mankind."
       }
     ]
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/twenty_twelve.webp",
+      "trailer": "ce0N3TEcFw0"
+    }
+  ]
 }

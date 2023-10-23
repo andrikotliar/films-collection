@@ -116,8 +116,6 @@
   ],
   "budget": 35000000,
   "boxOffice": 52000000,
-  "trailer": "RTODtIQQRpA",
-  "poster": "greenland.webp",
   "year": 2020,
   "summary": {
     "sections": [
@@ -125,5 +123,11 @@
         "text": "A family struggles for survival in the face of a cataclysmic natural disaster."
       }
     ]
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/greenland.webp",
+      "trailer": "RTODtIQQRpA"
+    }
+  ]
 }

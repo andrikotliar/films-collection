@@ -197,8 +197,6 @@
     }
   ],
   "boxOffice": 1350000000,
-  "trailer": "xjDjIWPwcPU",
-  "poster": "black_panther.webp",
   "year": 2018,
   "summary": {
     "sections": [
@@ -210,5 +208,11 @@
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 18
-  }
+  },
+  "media": [
+    {
+      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/black_panther.webp",
+      "trailer": "xjDjIWPwcPU"
+    }
+  ]
 }
