@@ -100,7 +100,7 @@ const AboutPage = () => {
           <aside className={classes.sidebar}>
             <h2>Explore random film:</h2>
             <Link to={`/film/${currentFilm.id}`} className={classes.randomFilm}>
-              <img src={currentFilm.posters[0].path} alt={currentFilm.title} />
+              <img src={currentFilm.media[0].poster} alt={currentFilm.title} />
             </Link>
           </aside>
         )}
