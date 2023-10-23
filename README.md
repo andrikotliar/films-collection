@@ -2,11 +2,8 @@
 
 The application is developed as my personal collection of favorite films.
 
-All information, posters and videos was taken from open resources. Actor photos
-are loaded from [the TMDB](https://www.themoviedb.org/) directly.
-
-App source code:
-[https://github.com/andrikotliar/filmscollection](https://github.com/andrikotliar/filmscollection)
+All information, posters and videos were taken from open resources. Actor photos
+are provided by [the TMDB](https://www.themoviedb.org/).
 
 ## Data
 
@@ -20,7 +17,7 @@ git clone git@github.com:andrikotliar/filmscollection.git
 cd filmscollection
 ```
 
-Add or delete films form the db folder and then run commands:
+Add films data files to the DB folder and then run commands:
 
 ```bash
 npm install
@@ -64,13 +61,27 @@ npm run build
         "type": "string"
       }
     },
-    "trailer": {
-      "type": "string",
+    "media": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "poster": {
+            "type": "string",
+            "description": "Full poster url"
+          },
+          "trailer": {
+            "type": "string",
+            "description": "Youtube video ID"
+          },
+          "caption": {
+            "type": "string",
+            "description": "Short description on the current poster. Appears only on the posters slider"
+          }
+        },
+        "required": ["poster", "trailer"]
+      },
       "description": "Youtube video IDs for Film and Animation types."
-    },
-    "poster": {
-      "type": "string",
-      "description": "The default poster image slug. It appears on the main page and for Film and Animation types. Series use this image only on the main page."
     },
     "summary": {
       "type": "object",
@@ -242,14 +253,6 @@ npm run build
               "number": {
                 "type": "number",
                 "description": "The number of a season"
-              },
-              "poster": {
-                "type": "string",
-                "description": "Season poster"
-              },
-              "trailer": {
-                "type": "string",
-                "description": "Season trailer"
               },
               "episodesCount": {
                 "type": "number",
