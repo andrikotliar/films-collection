@@ -43,19 +43,13 @@
   margin-top: -10px;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 780px) {
   .wrapper {
     --media-column-width: 200px;
   }
 }
 
-@media (max-width: 640px) {
-  .wrapper {
-    --media-column-width: 150px;
-  }
-}
-
-@media (max-width: 540px) {
+@media (max-width: 580px) {
   .wrapper {
     display: block;
   }

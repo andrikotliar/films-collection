@@ -3,6 +3,7 @@ import { FC, useState } from 'react';
 import { MediaItem } from '@/common';
 import { Controls, Video } from '@/pages/Film/components/Media/components';
 import { Modal } from '@/components';
+import { PlayIcon } from '@/assets/icons';
 
 type MediaProps = {
   media: MediaItem[];
@@ -19,21 +20,24 @@ const Media: FC<MediaProps> = ({ media, title }) => {
         <div
           className={classes.track}
           style={{
-            transform: `translate(calc(-100% * ${activeIndex}))`,
+            transform: `translate(${-100 * activeIndex}%)`,
           }}
         >
           {media.map((item) => (
-            <button
-              className={classes.trailerButton}
-              onClick={() => setIsModalOpen(true)}
-              key={item.poster}
-            >
+            <div className={classes.posterWrapper} key={item.poster}>
               <img
                 src={item.poster}
                 alt={item.caption || title}
-                className={classes.image}
+                className={classes.poster}
               />
-            </button>
+              <button
+                className={classes.trailerButton}
+                onClick={() => setIsModalOpen(true)}
+              >
+                <PlayIcon className={classes.playIcon} />
+                <span>Watch trailer</span>
+              </button>
+            </div>
           ))}
         </div>
         {media.length > 1 && (
