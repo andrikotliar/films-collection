@@ -280,17 +280,17 @@
   },
   "media": [
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/locke_key.webp",
+      "poster": "locke_key.webp",
       "trailer": "_EonRi0yQOE",
       "caption": "Season 1"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/locke_key_s2.webp",
+      "poster": "locke_key_s2.webp",
       "trailer": "lxJdvbG2fPw",
       "caption": "Season 2"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/locke_key_s3.webp",
+      "poster": "locke_key_s3.webp",
       "trailer": "PX-t1wYNtBs",
       "caption": "Season 3"
     }

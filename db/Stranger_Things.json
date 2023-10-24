@@ -308,22 +308,22 @@
   },
   "media": [
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/stranger_things.webp",
+      "poster": "stranger_things.webp",
       "trailer": "b9EkMc79ZSU",
       "caption": "Season 1"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/stranger_things_s2.webp",
+      "poster": "stranger_things_s2.webp",
       "trailer": "R1ZXOOLMJ8s",
       "caption": "Season 2"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/stranger_things_s3.webp",
+      "poster": "stranger_things_s3.webp",
       "trailer": "6Am4v0C_z8c",
       "caption": "Season 3"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/stranger_things_s4.webp",
+      "poster": "stranger_things_s4.webp",
       "trailer": "a3thyAnShck",
       "caption": "Season 4"
     }

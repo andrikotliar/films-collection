@@ -1,10 +1,10 @@
 import classes from './Chapters.module.css';
 import { FC } from 'react';
-import { Link, useParams } from 'react-router-dom';
-import classNames from 'classnames';
+import { useParams } from 'react-router-dom';
 import { Chapter, FilmData } from '@/common';
 import { Scrollable } from '@/components';
 import { getChapters } from '@/pages/Film/components/Chapters/helpers';
+import { ChapterLink } from '@/pages/Film/components/Chapters/components';
 
 type ChaptersProps = {
   data: FilmData[];
@@ -12,23 +12,20 @@ type ChaptersProps = {
 };
 
 const Chapters: FC<ChaptersProps> = ({ data, parts }) => {
-  const { id: filmId } = useParams();
+  const { id: currentFilmId } = useParams<string>();
 
   const chapters = getChapters(data, parts.title);
 
   return (
     <Scrollable className={classes.chapters}>
       {chapters.map((chapter) => (
-        <Link
-          to={`/film/${chapter.id}`}
-          className={classNames(classes.link, {
-            [classes.active]: filmId === chapter.id,
-          })}
-          key={chapter.id}
+        <ChapterLink
+          currentFilmId={currentFilmId!}
           id={chapter.id}
-        >
-          <img src={chapter.media[0].poster} alt={chapter.title} />
-        </Link>
+          title={chapter.title}
+          poster={chapter.media[0].poster}
+          key={chapter.id}
+        />
       ))}
     </Scrollable>
   );

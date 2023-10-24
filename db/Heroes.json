@@ -501,27 +501,27 @@
   },
   "media": [
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes.webp",
+      "poster": "heroes.webp",
       "trailer": "9AX6aXFdTkc",
       "caption": "Volume 1: Genesis"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes_s2.webp",
+      "poster": "heroes_s2.webp",
       "trailer": "9mNGxXpAmHc",
       "caption": "Volume 2: Generations"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes_s3.1.webp",
+      "poster": "heroes_s3.1.webp",
       "trailer": "i1VA_aWyrPI",
       "caption": "Volume 3. Part 1: Villains"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes_s3.2.webp",
+      "poster": "heroes_s3.2.webp",
       "trailer": "mTzPPIEUFEs",
       "caption": "Volume 3. Part 2: Fugitives"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/heroes_s4.webp",
+      "poster": "heroes_s4.webp",
       "trailer": "mTzPPIEUFEs",
       "caption": "Volume 4: Redemption"
     }

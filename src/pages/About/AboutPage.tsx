@@ -3,8 +3,8 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useFilmsContext } from '@/context';
 import { Container } from '@/components';
-import { TMDBLogo } from '@/assets/logos';
 import { useDocumentTitle } from '@/hooks';
+import { buildMediaPath } from '@/helpers';
 
 const AboutPage = () => {
   const { initialFilmsList: films } = useFilmsContext();
@@ -76,31 +76,16 @@ const AboutPage = () => {
               </a>
               .
             </p>
-            <h2>Info</h2>
-            <div className={classes.photosSource}>
-              <span>Actor images are provided by</span>
-              <a
-                href="https://www.themoviedb.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <TMDBLogo />
-              </a>
-            </div>
-            <p>
-              Have any questions? Feel free to contact me via{' '}
-              <a href="mailto:andrii.ktlr@gmail.com">andrii.ktlr@gmail.com.</a>
-            </p>
-            <Link to="/" className={classes.explore}>
-              Explore films
-            </Link>
           </article>
         </section>
         {currentFilm && (
           <aside className={classes.sidebar}>
             <h2>Explore random film:</h2>
             <Link to={`/film/${currentFilm.id}`} className={classes.randomFilm}>
-              <img src={currentFilm.media[0].poster} alt={currentFilm.title} />
+              <img
+                src={buildMediaPath('posters', currentFilm.media[0].poster)}
+                alt={currentFilm.title}
+              />
             </Link>
           </aside>
         )}

@@ -253,22 +253,22 @@
   },
   "media": [
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/sherlock.webp",
+      "poster": "sherlock.webp",
       "trailer": "xK7S9mrFWL4",
       "caption": "Season 1"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/sherlock_s2.webp",
+      "poster": "sherlock_s2.webp",
       "trailer": "vydmN9pzDzg",
       "caption": "Season 2"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/sherlock_s3.webp",
+      "poster": "sherlock_s3.webp",
       "trailer": "9UcR9iKArd0",
       "caption": "Season 3"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/sherlock_s4.webp",
+      "poster": "sherlock_s4.webp",
       "trailer": "FOXZgRTfSUA",
       "caption": "Season 4"
     }

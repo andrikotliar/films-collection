@@ -241,12 +241,12 @@
   },
   "media": [
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/witcher.webp",
+      "poster": "witcher.webp",
       "trailer": "ndl1W4ltcmg",
       "caption": "Season 1"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/witcher_s2.webp",
+      "poster": "witcher_s2.webp",
       "trailer": "2aMVzFlApa0",
       "caption": "Season 2"
     }

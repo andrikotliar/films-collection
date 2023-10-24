@@ -1,0 +1,11 @@
+.link {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+  height: 100%;
+}
+.link img {
+  height: 100%;
+  border-radius: 5px;
+}

@@ -2,8 +2,7 @@
 
 The application is developed as my personal collection of favorite films.
 
-All information, posters and videos were taken from open resources. Actor photos
-are provided by [the TMDB](https://www.themoviedb.org/).
+All information, posters and videos were taken from open resources.
 
 ## Data
 

@@ -131,7 +131,7 @@
         "name": "Dr. Henry Wu",
         "imageUrl": ""
       },
-      "actorId": "52ccc600-a475-4799-b31d-306e6931e494"
+      "actorId": "98486615-e33a-430b-b038-935105096070"
     },
     {
       "character": {
@@ -190,7 +190,7 @@
   },
   "media": [
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/jurassic_world.webp",
+      "poster": "jurassic_world.webp",
       "trailer": "RFinNxS5KN4"
     }
   ]

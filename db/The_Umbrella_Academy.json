@@ -330,17 +330,17 @@
   },
   "media": [
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/umbrella_academy.webp",
+      "poster": "umbrella_academy.webp",
       "trailer": "0DAmWHxeoKw",
       "caption": "Season 1"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/umbrella_academy_s2.webp",
+      "poster": "umbrella_academy_s2.webp",
       "trailer": "SGgXLbZnr1Y",
       "caption": "Season 2"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/umbrella_academy_s3.webp",
+      "poster": "umbrella_academy_s3.webp",
       "trailer": "hs6alRuY1UU",
       "caption": "Season 3"
     }
