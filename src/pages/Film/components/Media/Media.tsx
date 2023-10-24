@@ -1,9 +1,12 @@
 import classes from './Media.module.css';
 import { FC, useState } from 'react';
 import { MediaItem } from '@/common';
-import { Controls, Video } from '@/pages/Film/components/Media/components';
+import {
+  Controls,
+  Poster,
+  Video,
+} from '@/pages/Film/components/Media/components';
 import { Modal } from '@/components';
-import { PlayIcon } from '@/assets/icons';
 
 type MediaProps = {
   media: MediaItem[];
@@ -24,20 +27,12 @@ const Media: FC<MediaProps> = ({ media, title }) => {
           }}
         >
           {media.map((item) => (
-            <div className={classes.posterWrapper} key={item.poster}>
-              <img
-                src={item.poster}
-                alt={item.caption || title}
-                className={classes.poster}
-              />
-              <button
-                className={classes.trailerButton}
-                onClick={() => setIsModalOpen(true)}
-              >
-                <PlayIcon className={classes.playIcon} />
-                <span>Watch trailer</span>
-              </button>
-            </div>
+            <Poster
+              poster={item.poster}
+              setIsModalOpen={setIsModalOpen}
+              key={item.poster}
+              title={title}
+            />
           ))}
         </div>
         {media.length > 1 && (

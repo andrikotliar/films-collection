@@ -3,18 +3,3 @@
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 30px;
 }
-
-.castFooter {
-  font-size: 14px;
-  color: #777;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.photosSource {
-  font-size: 0;
-  width: 130px;
-}

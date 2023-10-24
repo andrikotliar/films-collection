@@ -30,20 +30,13 @@ const FilmsContext = createContext({} as FilmsContextType);
 
 const useFilmsContext = () => useContext(FilmsContext);
 
-const FilmsProvider: FC<PropsWithChildren> = ({
-  children,
-}) => {
-  const [initialFilmsList, setInitialFilmsList] = useState<
-    FilmData[]
-  >([]);
+const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
+  const [initialFilmsList, setInitialFilmsList] = useState<FilmData[]>([]);
   const [films, setFilms] = useState<FilmData[]>([]);
-  const [isFilmsLoading, setIsFilmsLoading] =
-    useState(true);
+  const [isFilmsLoading, setIsFilmsLoading] = useState(true);
   const [filterParams, setSearchParams] = useFilter();
   const [hasMore, setHasMore] = useState(true);
-  const [filmsCount, setFilmsCount] = useState(
-    FILMS_COUNT_STEP,
-  );
+  const [filmsCount, setFilmsCount] = useState(FILMS_COUNT_STEP);
 
   const fetchFilms = async () => {
     const films = await FilmAPI.getAll();
@@ -55,11 +48,9 @@ const FilmsProvider: FC<PropsWithChildren> = ({
   }, []);
 
   useEffect(() => {
+    setIsFilmsLoading(true);
     if (initialFilmsList.length) {
-      const filteredFilms = filterFilms(
-        initialFilmsList,
-        filterParams,
-      );
+      const filteredFilms = filterFilms(initialFilmsList, filterParams);
 
       const films = filteredFilms.slice(0, filmsCount);
 
