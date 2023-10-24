@@ -327,17 +327,17 @@
   },
   "media": [
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/dark.webp",
+      "poster": "dark.webp",
       "trailer": "rrwycJ08PSA",
       "caption": "Season 1"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/dark_s2.webp",
+      "poster": "dark_s2.webp",
       "trailer": "810CHvSdXOo",
       "caption": "Season 2"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/dark_s3.webp",
+      "poster": "dark_s3.webp",
       "trailer": "cq2iTHoLrt0",
       "caption": "Season 3"
     }

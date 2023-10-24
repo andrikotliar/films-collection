@@ -342,17 +342,17 @@
   },
   "media": [
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/last_airbender.webp",
+      "poster": "last_airbender.webp",
       "trailer": "ahPeclU9VW0",
       "caption": "Book 1: Water"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/last_airbender_s2.webp",
+      "poster": "last_airbender_s2.webp",
       "trailer": "ahPeclU9VW0",
       "caption": "Book 2: Earth"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/last_airbender_s3.webp",
+      "poster": "last_airbender_s3.webp",
       "trailer": "ahPeclU9VW0",
       "caption": "Book 3: Fire"
     }

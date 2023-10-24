@@ -264,12 +264,12 @@
   },
   "media": [
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mandalorian.webp",
+      "poster": "mandalorian.webp",
       "trailer": "OFlBh_eUsjA",
       "caption": "Season 1"
     },
     {
-      "poster": "https://res.cloudinary.com/dtyv9qerp/image/upload/posters/mandalorian_s2.webp",
+      "poster": "mandalorian_s2.webp",
       "trailer": "eW7Twd85m2g",
       "caption": "Season 2"
     }
