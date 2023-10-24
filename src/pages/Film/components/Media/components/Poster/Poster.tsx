@@ -17,16 +17,17 @@ const Poster: FC<PosterProps> = ({
   setIsModalOpen,
 }) => {
   const posterUrl = buildMediaPath('posters', poster);
+  const posterTitle = caption || 'Watch trailer';
 
   return (
     <div className={classes.posterWrapper}>
-      <img src={posterUrl} alt={caption || title} className={classes.poster} />
+      <img src={posterUrl} alt={title} className={classes.poster} />
       <button
         className={classes.trailerButton}
         onClick={() => setIsModalOpen(true)}
       >
         <PlayIcon className={classes.playIcon} />
-        <span>Watch trailer</span>
+        <span>{posterTitle}</span>
       </button>
     </div>
   );
