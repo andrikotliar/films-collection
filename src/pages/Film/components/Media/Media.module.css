@@ -1,8 +1,8 @@
 .media {
-  position: absolute;
-  width: var(--media-column-width);
-  top: var(--main-padding);
-  left: var(--main-padding);
+  position: sticky;
+  top: calc(var(--header-height) + 20px);
+  flex-shrink: 0;
+  width: 300px;
   border-radius: var(--app-border-radius);
   overflow: hidden;
 }
@@ -16,11 +16,18 @@
   width: 80%;
 }
 
+@media (max-width: 870px) {
+  .media {
+    width: 200px;
+  }
+}
+
 @media (max-width: 580px) {
   .media {
-    position: relative;
-    top: 0;
-    left: 0;
+    position: static;
     width: 100%;
+  }
+  .modalContent {
+    width: 90%;
   }
 }

@@ -1,20 +1,16 @@
 .wrapper {
-  --media-column-width: 300px;
-  position: relative;
-  display: grid;
-  grid-template-columns: var(--media-column-width) 1fr;
-  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   padding-top: var(--main-padding);
   padding-bottom: var(--main-padding);
   min-height: var(--app-height);
 }
 
-.content {
+.layout {
   display: flex;
-  flex-direction: column;
-  gap: 40px;
-  grid-column: 2;
-  overflow: hidden;
+  align-items: flex-start;
+  gap: 20px;
 }
 
 .loader {
@@ -27,20 +23,12 @@
   gap: 20px;
 }
 
-.hero {
+.content {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-}
-
-.select {
-  position: sticky;
-  top: var(--header-height);
-  z-index: 100;
-  padding: 10px 0;
-  background-color: #fff;
-  margin-bottom: -10px;
-  margin-top: -10px;
+  gap: 40px;
+  overflow: hidden;
+  width: 100%;
 }
 
 @media (max-width: 780px) {
@@ -50,8 +38,8 @@
 }
 
 @media (max-width: 580px) {
-  .wrapper {
-    display: block;
+  .layout {
+    flex-direction: column;
   }
 
   .content {

@@ -29,6 +29,7 @@ const Media: FC<MediaProps> = ({ media, title }) => {
           {media.map((item) => (
             <Poster
               poster={item.poster}
+              caption={item.caption}
               setIsModalOpen={setIsModalOpen}
               key={item.poster}
               title={title}
