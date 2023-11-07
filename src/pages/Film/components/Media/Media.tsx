@@ -36,13 +36,13 @@ const Media: FC<MediaProps> = ({ media, title }) => {
             />
           ))}
         </div>
-        {/* {media.length > 1 && ( */}
-        <Controls
-          activeIndex={activeIndex}
-          setActiveIndex={setActiveIndex}
-          media={media}
-        />
-        {/* // )} */}
+        {media.length > 1 && (
+          <Controls
+            activeIndex={activeIndex}
+            setActiveIndex={setActiveIndex}
+            media={media}
+          />
+        )}
         <Modal
           isOpen={isModalOpen}
           close={() => setIsModalOpen(false)}
