@@ -1,5 +1,4 @@
 .diagram {
-  width: 50%;
   padding-top: 40px;
 }
 
@@ -33,10 +32,4 @@
 .option.boxOffice {
   top: 0;
   padding-top: 18px;
-}
-
-@media (max-width: 950px) {
-  .diagram {
-    width: 100%;
-  }
 }
