@@ -8,6 +8,10 @@
   top: calc(var(--header-height) + 20px);
 }
 
+.filterButton {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .sidebar {
     width: 200px;
@@ -15,6 +19,15 @@
 }
 
 @media (max-width: 785px) {
+  .filterButton {
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    width: 100%;
+    left: 0;
+    border-radius: 0;
+  }
+
   .sidebar {
     position: fixed;
     width: 100%;

@@ -3,16 +3,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
-import { AppProvider, FilmsProvider } from './context';
+import { FilmsProvider } from './context';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
-      <AppProvider>
-        <FilmsProvider>
-          <App />
-        </FilmsProvider>
-      </AppProvider>
+      <FilmsProvider>
+        <App />
+      </FilmsProvider>
     </BrowserRouter>
-  </React.StrictMode>
-)
+  </React.StrictMode>,
+);

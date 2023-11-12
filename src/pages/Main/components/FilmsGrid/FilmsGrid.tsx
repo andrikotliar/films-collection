@@ -1,15 +1,11 @@
 import classes from './FilmsGrid.module.css';
-import { useFilmsContext } from '@/context/FilmsContext';
-import { Button, Loader } from '@/components';
-import { FilterIcon } from '@/assets/icons';
-import { useAppContext } from '@/context/AppContext';
+import { useFilmsContext } from '@/context';
+import { Loader } from '@/components';
 import { Film } from '@/pages/Main/components/FilmsGrid/components';
 import { useListObserver } from '@/pages/Main/hooks';
 import { PageTitle } from '@/pages/Main/components/PageTitle';
 
 const FilmsGrid = () => {
-  const { isFilterOpen, setIsFilterOpen, filtersCount } = useAppContext();
-
   const { films, isFilmsLoading } = useFilmsContext();
 
   const lastFilmRef = useListObserver();
@@ -28,15 +24,6 @@ const FilmsGrid = () => {
         )}
       </div>
       {films.length === 0 && !isFilmsLoading && <p>Films not found.</p>}
-      <Button
-        onClick={() => setIsFilterOpen(!isFilterOpen)}
-        icon={<FilterIcon />}
-        className={classes.filterButton}
-        isHidden
-      >
-        Filters
-        {filtersCount > 0 && <span>({filtersCount})</span>}
-      </Button>
     </div>
   );
 };

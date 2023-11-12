@@ -1,10 +1,10 @@
 import classes from './Filters.module.css';
 import { useEffect } from 'react';
 import { filtersConfig } from '@/configs';
-import { useFilmsContext } from '@/context/FilmsContext';
+import { useFilmsContext } from '@/context';
 import { useForm, FormProvider } from 'react-hook-form';
 import { CloseIcon, FilterIcon, ResetIcon } from '@/assets/icons';
-import { useAppContext } from '@/context/AppContext';
+import { useSidebarContext } from '@/pages/Main/components/Sidebar/Sidebar.context';
 import { Button, Tabs } from '@/components';
 import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
@@ -23,7 +23,7 @@ const Filters = () => {
 
   const filtersCount = countObjectKeys(filterParams);
 
-  const { setIsFilterOpen, updateFiltersCount } = useAppContext();
+  const { setIsFilterOpen, updateFiltersCount } = useSidebarContext();
 
   const methods = useForm({
     defaultValues,

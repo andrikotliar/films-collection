@@ -9,34 +9,29 @@ import {
   useState,
 } from 'react';
 
-type AppContextType = {
+type SidebarContextType = {
   isFilterOpen: boolean;
   filtersCount: number;
   setIsFilterOpen: Dispatch<SetStateAction<boolean>>;
   updateFiltersCount: (count: number) => void;
 };
 
-const AppContext = createContext({} as AppContextType);
+const SidebarContext = createContext({} as SidebarContextType);
 
-const useAppContext = () => useContext(AppContext);
+const useSidebarContext = () => useContext(SidebarContext);
 
-const AppProvider: FC<PropsWithChildren> = ({
-  children,
-}) => {
+const SidebarProvider: FC<PropsWithChildren> = ({ children }) => {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
   const [filtersCount, setFiltersCount] = useState(0);
 
   const updateFiltersCount = (count: number) => {
-    if (
-      document.documentElement.clientWidth <=
-      MOBILE_VIEW_BREAKPOINT_PX
-    ) {
+    if (document.documentElement.clientWidth <= MOBILE_VIEW_BREAKPOINT_PX) {
       setFiltersCount(count);
     }
   };
 
   return (
-    <AppContext.Provider
+    <SidebarContext.Provider
       value={{
         isFilterOpen,
         setIsFilterOpen,
@@ -45,8 +40,8 @@ const AppProvider: FC<PropsWithChildren> = ({
       }}
     >
       {children}
-    </AppContext.Provider>
+    </SidebarContext.Provider>
   );
 };
 
-export { AppProvider, useAppContext };
+export { SidebarProvider, useSidebarContext };

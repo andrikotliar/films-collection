@@ -1,2 +1,1 @@
-export * from './AppContext';
-export * from './FilmsContext';
+export * from './films.context';

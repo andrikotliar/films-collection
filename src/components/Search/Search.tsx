@@ -1,26 +1,9 @@
 import classes from './Search.module.css';
-import {
-  Dispatch,
-  FC,
-  FormEvent,
-  SetStateAction,
-  useEffect,
-  useRef,
-  useState,
-} from 'react';
+import { FormEvent, useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import classNames from 'classnames';
 import { SearchIcon } from '@/assets/icons';
 
-type SearchProps = {
-  isOpen: boolean;
-  setIsSearchVisible: Dispatch<SetStateAction<boolean>>;
-};
-
-const Search: FC<SearchProps> = ({
-  isOpen,
-  setIsSearchVisible,
-}) => {
+const Search = () => {
   const navigate = useNavigate();
   const searchInputRef = useRef<any>();
   const [searchString, setSearchString] = useState('');
@@ -35,9 +18,6 @@ const Search: FC<SearchProps> = ({
     event.preventDefault();
     runSearch(searchString);
     searchInputRef.current.value = '';
-    if (isOpen) {
-      setIsSearchVisible(false);
-    }
   };
 
   const focusSearch = (event: KeyboardEvent) => {
@@ -45,14 +25,6 @@ const Search: FC<SearchProps> = ({
       searchInputRef.current.focus();
     }
   };
-
-  useEffect(() => {
-    if (isOpen) {
-      setTimeout(() => {
-        searchInputRef.current.focus();
-      }, 300);
-    }
-  }, [isOpen, searchInputRef]);
 
   useEffect(() => {
     document.addEventListener('keydown', focusSearch);
@@ -63,17 +35,12 @@ const Search: FC<SearchProps> = ({
   }, []);
 
   return (
-    <form
-      className={classNames(classes.form, {
-        [classes.active]: isOpen,
-      })}
-      onSubmit={onSubmit}
-    >
+    <form className={classes.form} onSubmit={onSubmit}>
       <input
         type="text"
         className={classes.input}
         placeholder="Search film..."
-        onChange={e => setSearchString(e.target.value)}
+        onChange={(e) => setSearchString(e.target.value)}
         ref={searchInputRef}
       />
       <button className={classes.button}>

@@ -1,8 +1,0 @@
-.searchButton {
-  display: none;
-}
-@media (max-width: 735px) {
-  .searchButton {
-    display: block;
-  }
-}

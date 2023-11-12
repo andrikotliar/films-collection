@@ -1,5 +1,5 @@
 import classes from './PageTitle.module.css';
-import { useFilmsContext } from '@/context/FilmsContext';
+import { useFilmsContext } from '@/context';
 import { DynamicObject } from '@/common';
 
 const PageTitle = () => {

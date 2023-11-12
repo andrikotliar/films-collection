@@ -1,6 +1,7 @@
 .form {
   position: relative;
-  width: 350px;
+  max-width: 500px;
+  width: 100%;
 }
 
 .input {
@@ -11,7 +12,7 @@
   padding-right: 50px;
   outline: none;
   border: var(--app-border);
-  border-radius: var(--app-border-radius);
+  border-radius: 50px;
   transition: 0.2s;
   background-color: #fff;
 }
@@ -36,34 +37,4 @@
 
 .input:focus + .button svg {
   fill: var(--main-color);
-}
-
-@media (max-width: 735px) {
-  .form {
-    position: absolute;
-    width: 100%;
-    top: var(--header-height);
-    left: 0;
-    background-color: #fff;
-    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    transform: translateY(10px);
-    transition: 0.3s;
-    opacity: 0;
-    visibility: hidden;
-  }
-
-  .active {
-    transform: translateY(0);
-    visibility: visible;
-    opacity: 1;
-  }
-
-  .input {
-    border: var(--app-border);
-  }
-  
-  .button {
-    right: 40px;
-  }
 }
