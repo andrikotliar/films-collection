@@ -6,7 +6,7 @@ import { Button } from '@/components';
 import { FilterIcon } from '@/assets/icons';
 
 const Sidebar = () => {
-  const { isFilterOpen, setIsFilterOpen } = useSidebarContext();
+  const { isFilterOpen, setIsFilterOpen, filtersCount } = useSidebarContext();
 
   return (
     <>
@@ -22,7 +22,11 @@ const Sidebar = () => {
         icon={<FilterIcon />}
         className={classes.filterButton}
         isHidden
-      />
+      >
+        {filtersCount > 0 && (
+          <span className={classes.filterButtonBadge}>{filtersCount}</span>
+        )}
+      </Button>
     </>
   );
 };
