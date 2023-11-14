@@ -21,11 +21,12 @@
 @media (max-width: 785px) {
   .filterButton {
     position: fixed;
-    bottom: 0;
+    bottom: 20px;
+    right: 20px;
     z-index: 999;
-    width: 100%;
-    left: 0;
-    border-radius: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
     display: flex;
   }
 
