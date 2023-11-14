@@ -34,16 +34,17 @@ const AboutPage = () => {
             <p>
               I'm a big fan of films and series and like to collect information
               about them. This is the purpose of this app. The collection
-              contains only movies I like.
+              contains only titles I like.
             </p>
             <p>
               My favorite genres are Sci-Fi and Fantasy. In the app, you mostly
-              see representatives of these genres. But there are several movies
-              from other genres like romance or action.
+              see representatives of these genres. But there are several titles
+              from other genres like romance, action, detectives etc.
             </p>
             <h2>For developers</h2>
             <p>
-              The app is built with React, TypeScript and my own UI design. The
+              The app is built with React and TypeScript. I created UI
+              components from scratch inspired by existing app designs. The
               source code are on{' '}
               <a
                 href="https://github.com/andrikotliar/films-collection"
@@ -54,11 +55,9 @@ const AboutPage = () => {
               .
             </p>
             <p>
-              I don't use third-party API and create my own set of data. Why? I
-              like collect data and it's exiting to build own "database" of
-              information about movies. Currently data stores in plain
-              JSON-files, in the near future I plan to use MongoDB for this
-              purpose. For now you can investigate JSON files in{' '}
+              I created my own database of titles. Currently data stores in
+              plain JSON-files, in the near future I plan to use MongoDB for
+              this purpose. For now you can investigate JSON files in{' '}
               <a
                 href="https://github.com/andrikotliar/films-collection/tree/main/db"
                 target="_blank"
