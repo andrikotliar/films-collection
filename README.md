@@ -1,19 +1,26 @@
-# Films Collection Application
+# Films Collection
 
-The application is developed as my personal collection of favorite films.
+The personal collection of favorite films.
 
-All information, posters and videos were taken from open resources.
+## Stack
 
-## Data
+- React
+- TypeScript
+- JSON
 
-All data stores in json-files, that are combined into the **database.json** file
-after the build or start command is run.
+## Database
+
+Currently data stores in plain JSON-files by path: [/db](https://github.com/andrikotliar/films-collection/tree/main/db).
+
+When you run `npm start` or `npm run build` commands, the `create-db.js` script bring together all files into one `database.json` file. The app fetches this file on the initial load.
+
+## Build
 
 To build your own version of the list, clone the project:
 
 ```bash
-git clone git@github.com:andrikotliar/filmscollection.git
-cd filmscollection
+git clone git@github.com:andrikotliar/films-collection.git
+cd films-collection
 ```
 
 Add films data files to the DB folder and then run commands:
@@ -33,7 +40,7 @@ npm install
 npm run build
 ```
 
-## Data schema
+## Schema
 
 ```JSON
 {
@@ -49,7 +56,8 @@ npm run build
       "items": {
         "type": "string"
       },
-      "enum": ["Film", "Animation", "Series"]
+      "enum": ["Film", "Animation", "Series"],
+      "description": "Each title can have multiple types the same time, but Film cannot be series or Animation. You can mix only Animation and Series types."
     },
     "title": {
       "type": "string"
