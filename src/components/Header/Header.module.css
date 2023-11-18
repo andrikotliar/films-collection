@@ -16,8 +16,8 @@
   padding-bottom: 8px;
 }
 .logoLink {
-  height: 34px;
-  width: 34px;
+  font-size: 0;
+  width: 50px;
   flex-shrink: 0;
 }
 .logoImage {
@@ -26,4 +26,13 @@
 }
 .infoLink {
   flex-shrink: 0;
+}
+
+@media (max-width: 385px) {
+  .container {
+    gap: 10px;
+  }
+  .logoLink {
+    width: 40px;
+  }
 }
