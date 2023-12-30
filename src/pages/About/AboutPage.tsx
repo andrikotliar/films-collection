@@ -13,7 +13,7 @@ const AboutPage = () => {
   return (
     <article className={classes.about}>
       <Container className={classes.content}>
-        <h1 className={classes.title}>About</h1>
+        <h1>About</h1>
         <p>Hello, my name is Andrii 👋 </p>
         <p>
           I'm a big fan of films and series and like to collect information
@@ -25,10 +25,10 @@ const AboutPage = () => {
           representatives of these genres. But there are several titles from
           other genres like romance, action, detectives etc.
         </p>
-        <h2>For developers</h2>
+        <h2>App details</h2>
         <p>
-          The app is built with React and TypeScript. I created UI components
-          from scratch inspired by existing app designs. The source code are on{' '}
+          The app is built with React and TypeScript utilizing custom UI design.
+          The source code are on{' '}
           <a
             href="https://github.com/andrikotliar/films-collection"
             target="_bank"
@@ -37,10 +37,11 @@ const AboutPage = () => {
           </a>
           .
         </p>
+        <h2>Data</h2>
         <p>
-          I created my own database of titles. Currently data stores in plain
-          JSON-files, in the near future I plan to use MongoDB for this purpose.
-          For now you can investigate JSON files in{' '}
+          I created an independent database of titles. Currently data stores in
+          plain JSON-files, in the near future I plan to use MongoDB for this
+          purpose. For now you can investigate JSON files in{' '}
           <a
             href="https://github.com/andrikotliar/films-collection/tree/main/db"
             target="_blank"
