@@ -49,16 +49,6 @@ const AboutPage = () => {
             the DB folder.
           </a>
         </p>
-        <p>
-          The detail explanation of each field is in{' '}
-          <a
-            href="https://github.com/andrikotliar/films-collection/blob/main/README.md#data-schema"
-            target="_blank"
-          >
-            README
-          </a>
-          .
-        </p>
       </Container>
     </article>
   );
