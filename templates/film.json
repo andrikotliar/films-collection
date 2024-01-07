@@ -1,0 +1,95 @@
+{
+  "id": "",
+  "type": [
+    "Film"
+  ],
+  "title": "",
+  "genres": [],
+  "media": [
+    {
+      "poster": "",
+      "trailer": ""
+    }
+  ],
+  "crew": [
+    {
+      "role": "Directed by",
+      "people": [
+        {
+          "name": ""
+        }
+      ]
+    },
+    {
+      "role": "Written by",
+      "people": [
+        {
+          "name": ""
+        }
+      ]
+    },
+    {
+      "role": "Produced by",
+      "people": [
+        {
+          "name": ""
+        }
+      ]
+    },
+    {
+      "role": "Music by",
+      "people": [
+        {
+          "name": ""
+        }
+      ]
+    },
+    {
+      "role": "Cinematography by",
+      "people": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [],
+  "duration": 0,
+  "cast": [
+    {
+      "character": {
+        "name": "",
+        "imageUrl": null
+      },
+      "actorId": ""
+    }
+  ],
+  "collections": [
+    {
+      "title": ""
+    }
+  ],
+  "budget": 0,
+  "boxOffice": 0,
+  "awards": [
+    {
+      "title": "",
+      "nominations": []
+    }
+  ],
+  "year": 2024,
+  "summary": {
+    "sections": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  "chapters": {
+    "title": "",
+    "part": 0
+  }
+}
