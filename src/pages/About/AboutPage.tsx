@@ -25,29 +25,39 @@ const AboutPage = () => {
           representatives of these genres. But there are several titles from
           other genres like romance, action, detectives etc.
         </p>
-        <h2>App details</h2>
-        <p>
-          The app is built with React and TypeScript utilizing custom UI design.
-          The source code are on{' '}
+        <p className={classes.accent}>
+          Interested in the source code of this app? It's pure React with
+          TypeScript and JSON files as a "database". You can investigate code on
+          the{' '}
           <a
             href="https://github.com/andrikotliar/films-collection"
             target="_bank"
           >
-            GitHub
+            {' '}
+            GitHub{' '}
           </a>
           .
         </p>
-        <h2>Data</h2>
+        <h2>Ratings ✨</h2>
         <p>
-          I created an independent database of titles. Currently data stores in
-          plain JSON-files, in the near future I plan to use MongoDB for this
-          purpose. For now you can investigate JSON files in{' '}
-          <a
-            href="https://github.com/andrikotliar/films-collection/tree/main/db"
-            target="_blank"
-          >
-            the DB folder.
-          </a>
+          I like all titles in my collection, but some of them I like more and
+          some less. In this app I use simple three-star system of rating.
+        </p>
+        <p>
+          ⭐⭐⭐ - <a href="/?collections=Top+10">My best favorites</a>. I do
+          love them so much and have rewatched them countless times.
+        </p>
+        <p>
+          ⭐⭐ - Interested and excited titles. I rewatch them rarely, but have
+          good memories about them and like discuss them.
+        </p>
+        <p>
+          ⭐ - These titles I have watched not so many times. I still like them,
+          but they may have some troubles in plot or whatever. This is the case
+          when I could add a movie just to have it in the collection (hello,
+          some{' '}
+          <a href="/?collections=Marvel+Cinematic+Universe">movies from MCU</a>
+          ).
         </p>
       </Container>
     </article>
