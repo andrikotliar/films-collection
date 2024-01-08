@@ -10,12 +10,11 @@ The personal collection of favorite films.
 
 ## Database
 
-Currently data stores in plain JSON-files by path:
-[/db](https://github.com/andrikotliar/films-collection/tree/main/db).
+Currently data stores in plain JSON-files in the `db` folder.
 
-When you run `npm start` or `npm run build` commands, the `create-db.js` script
-bring together all files into one `database.json` file. The app fetches this
-file on the initial load.
+When you run `npm start` or `npm run build` commands, the `generate-db.js` script bring together all files into one `database.json` file. The app fetches this file on the initial load. You can find this script in the `utils` folder.
+
+The `utils` folder contains several other scripts that help to manage local data.
 
 ## Build
 
@@ -33,8 +32,7 @@ npm install
 npm start
 ```
 
-It will install all required packages, create the "database" file and start the
-development server.
+It will install all required packages, create the "database" file and start the development server.
 
 Or run following commands to build project for the production:
 
@@ -42,9 +40,3 @@ Or run following commands to build project for the production:
 npm install
 npm run build
 ```
-
-## Tools
-
-There is the **create-db.js** script in the root of the project that help to
-build "database". Run this script to bring together all JSONs from the DB folder
-into one file.
