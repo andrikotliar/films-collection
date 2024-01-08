@@ -21,12 +21,14 @@ const Header = () => {
         >
           <FilmsCollectionLogo className={classes.logoImage} />
         </Link>
-        <Search />
-        <IconLink
-          path="/about"
-          icon={<InfoIcon color="#fff" />}
-          className={classes.infoLink}
-        />
+        <div className={classes.headerRight}>
+          <Search />
+          <IconLink
+            path="/about"
+            icon={<InfoIcon color="#fff" />}
+            className={classes.infoLink}
+          />
+        </div>
       </Container>
     </header>
   );

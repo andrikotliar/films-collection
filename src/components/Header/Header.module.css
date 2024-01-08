@@ -27,6 +27,19 @@
 .infoLink {
   flex-shrink: 0;
 }
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 50%;
+  width: 100%;
+}
+
+@media (max-width: 720px) {
+  .headerRight {
+    max-width: 100%;
+  }
+}
 
 @media (max-width: 385px) {
   .container {
