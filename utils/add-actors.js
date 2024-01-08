@@ -59,6 +59,8 @@ const askQuestions = async (actors, names) => {
 
   actors[id] = data;
 
+  console.log(answers.name, id);
+
   const doContinue = await askContinue();
 
   if (doContinue) {

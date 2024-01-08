@@ -43,6 +43,7 @@ const createTemplate = ({ isSeries, title }) => {
 
   currentTemplate.id = crypto.randomUUID();
   currentTemplate.title = title;
+  currentTemplate.media[0].poster = fileTitle.toLowerCase();
 
   fs.writeFileSync(
     `./db/${fileTitle}.json`,

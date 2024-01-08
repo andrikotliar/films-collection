@@ -5,6 +5,14 @@
   ],
   "title": "",
   "genres": [],
+  "year": 2024,
+  "summary": {
+    "sections": [
+      {
+        "text": ""
+      }
+    ]
+  },
   "media": [
     {
       "poster": "",
@@ -53,20 +61,20 @@
       ]
     }
   ],
+  "cast": [
+    {
+      "actorId": "",
+      "name": "Omar Sy",
+      "character": {
+        "name": "",
+        "imageUrl": null
+      }
+    }
+  ],
   "countries": [
     "USA"
   ],
   "production": [],
-  "duration": 0,
-  "cast": [
-    {
-      "character": {
-        "name": "",
-        "imageUrl": null
-      },
-      "actorId": ""
-    }
-  ],
   "collections": [
     {
       "title": ""
@@ -74,20 +82,13 @@
   ],
   "budget": 0,
   "boxOffice": 0,
+  "duration": 0,
   "awards": [
     {
       "title": "",
       "nominations": []
     }
   ],
-  "year": 2024,
-  "summary": {
-    "sections": [
-      {
-        "text": ""
-      }
-    ]
-  },
   "chapters": {
     "title": "",
     "part": 0
