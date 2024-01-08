@@ -13,7 +13,6 @@ const generateDatabaseFile = () => {
 
         return {
           ...actor,
-          name: currentActor?.name,
           photoUrl: currentActor?.photoUrl,
         };
       });

@@ -4,7 +4,7 @@ import { modifier } from './modifier.js';
 
 const DATA_FOLDER = './db';
 const files = fs.readdirSync(DATA_FOLDER);
-const shouldWriteData = process.argv[1] === 'write';
+const shouldWriteData = process.argv[2] === 'write';
 
 const readData = (file) => {
   try {
