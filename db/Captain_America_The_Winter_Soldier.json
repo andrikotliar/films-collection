@@ -70,49 +70,56 @@
         "name": "Steve Rogers / Captain America",
         "imageUrl": ""
       },
-      "actorId": "38541020-9829-440f-a21b-caf46d2d9428"
+      "actorId": "38541020-9829-440f-a21b-caf46d2d9428",
+      "name": "Chris Evans"
     },
     {
       "character": {
         "name": "Nick Fury",
         "imageUrl": ""
       },
-      "actorId": "65e7e9e0-8e37-4237-9b23-a1f8a2d09147"
+      "actorId": "65e7e9e0-8e37-4237-9b23-a1f8a2d09147",
+      "name": "Samuel L. Jackson"
     },
     {
       "character": {
         "name": "Natasha Romanoff / Black Widow",
         "imageUrl": ""
       },
-      "actorId": "56501e25-8153-4a05-9aaa-43e683f72492"
+      "actorId": "56501e25-8153-4a05-9aaa-43e683f72492",
+      "name": "Scarlett Johansson"
     },
     {
       "character": {
         "name": "Alexander Pierce",
         "imageUrl": ""
       },
-      "actorId": "8473e23b-9160-4311-9b4c-2c85f2925a9e"
+      "actorId": "8473e23b-9160-4311-9b4c-2c85f2925a9e",
+      "name": "Robert Redford"
     },
     {
       "character": {
         "name": "Bucky Barnes / Winter Soldier",
         "imageUrl": ""
       },
-      "actorId": "6efe0990-f8c2-479e-970a-f990a42f774a"
+      "actorId": "6efe0990-f8c2-479e-970a-f990a42f774a",
+      "name": "Sebastian Stan"
     },
     {
       "character": {
         "name": "Sam Wilson / Falcon",
         "imageUrl": ""
       },
-      "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0"
+      "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0",
+      "name": "Anthony Mackie"
     },
     {
       "character": {
         "name": "Maria Hill",
         "imageUrl": ""
       },
-      "actorId": "8627927d-0a92-4a5a-902f-24d189e429e2"
+      "actorId": "8627927d-0a92-4a5a-902f-24d189e429e2",
+      "name": "Cobie Smulders"
     }
   ],
   "collections": [

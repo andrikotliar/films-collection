@@ -73,84 +73,96 @@
         "name": "Professor Charles Xavier",
         "imageUrl": ""
       },
-      "actorId": "76c48e8a-834b-4683-a406-f2b72f99a39b"
+      "actorId": "76c48e8a-834b-4683-a406-f2b72f99a39b",
+      "name": "Patrick Stewart"
     },
     {
       "character": {
         "name": "Logan / Wolverine",
         "imageUrl": ""
       },
-      "actorId": "3e2db4d6-df90-4736-9425-c1fd062d8868"
+      "actorId": "3e2db4d6-df90-4736-9425-c1fd062d8868",
+      "name": "Hugh Jackman"
     },
     {
       "character": {
         "name": "Eric Lehnsherr / Magneto",
         "imageUrl": ""
       },
-      "actorId": "18b67364-14a8-461a-bf48-a12c4741d52f"
+      "actorId": "18b67364-14a8-461a-bf48-a12c4741d52f",
+      "name": "Ian McKellen"
     },
     {
       "character": {
         "name": "Ororo Munroe / Storm",
         "imageUrl": ""
       },
-      "actorId": "4551e8d8-1551-4a8e-926a-6b767938bdda"
+      "actorId": "4551e8d8-1551-4a8e-926a-6b767938bdda",
+      "name": "Halle Berry"
     },
     {
       "character": {
         "name": "Jean Grey",
         "imageUrl": ""
       },
-      "actorId": "8c9ab14e-14f3-45bc-ac3f-6305a8d7aa11"
+      "actorId": "8c9ab14e-14f3-45bc-ac3f-6305a8d7aa11",
+      "name": "Famke Janssen"
     },
     {
       "character": {
         "name": "Scott Summers / Cyclops",
         "imageUrl": ""
       },
-      "actorId": "33667252-70d3-4c36-a89d-a0fd68e7b131"
+      "actorId": "33667252-70d3-4c36-a89d-a0fd68e7b131",
+      "name": "James Marsden"
     },
     {
       "character": {
         "name": "Rogue",
         "imageUrl": ""
       },
-      "actorId": "0acad1f8-e388-42ee-a0bc-c8e1a5b335a0"
+      "actorId": "0acad1f8-e388-42ee-a0bc-c8e1a5b335a0",
+      "name": "Anna Paquin"
     },
     {
       "character": {
         "name": "Raven Darkholme / Mystique",
         "imageUrl": ""
       },
-      "actorId": "4533b45c-3d80-475c-8254-b13660e2aa3e"
+      "actorId": "4533b45c-3d80-475c-8254-b13660e2aa3e",
+      "name": "Rebecca Romijn"
     },
     {
       "character": {
         "name": "William Stryker",
         "imageUrl": ""
       },
-      "actorId": "aa35a63b-6ef6-40c4-aea9-d6878498a8d9"
+      "actorId": "aa35a63b-6ef6-40c4-aea9-d6878498a8d9",
+      "name": "Brian Cox"
     },
     {
       "character": {
         "name": "Kurt Wagner / Nightcrawler",
         "imageUrl": ""
       },
-      "actorId": "4047438d-dde5-4cda-b6c3-bdb03310f9c9"
+      "actorId": "4047438d-dde5-4cda-b6c3-bdb03310f9c9",
+      "name": "Alan Cumming"
     },
     {
       "character": {
         "name": "John Allerdyce / Pyro",
         "imageUrl": ""
       },
-      "actorId": "533d06f4-eb87-442b-bebb-56259ed0d876"
+      "actorId": "533d06f4-eb87-442b-bebb-56259ed0d876",
+      "name": "Aaron Stanford"
     },
     {
       "character": {
         "name": "Bobby Drake / Ice Man",
         "imageUrl": ""
       },
-      "actorId": "65899214-7886-452c-b7c9-721e5ba24e8f"
+      "actorId": "65899214-7886-452c-b7c9-721e5ba24e8f",
+      "name": "Shawn Ashmore"
     }
   ],
   "collections": [

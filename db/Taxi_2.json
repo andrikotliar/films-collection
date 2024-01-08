@@ -74,35 +74,40 @@
         "name": "Daniel Morales",
         "imageUrl": ""
       },
-      "actorId": "ccc890f9-a52e-4f0e-a50a-2be19bd009f4"
+      "actorId": "ccc890f9-a52e-4f0e-a50a-2be19bd009f4",
+      "name": "Samy Naceri"
     },
     {
       "character": {
         "name": "Emilien Coutant-Kerbalec",
         "imageUrl": ""
       },
-      "actorId": "fc8fa2d2-1e26-46e5-8efc-bb538a5843e4"
+      "actorId": "fc8fa2d2-1e26-46e5-8efc-bb538a5843e4",
+      "name": "Frédéric Diefenthal"
     },
     {
       "character": {
         "name": "Lilly Bertineau",
         "imageUrl": ""
       },
-      "actorId": "48f24be3-c558-4de3-b745-1b21538e4437"
+      "actorId": "48f24be3-c558-4de3-b745-1b21538e4437",
+      "name": "Marion Cotillard"
     },
     {
       "character": {
         "name": "Petra",
         "imageUrl": ""
       },
-      "actorId": "f359b905-058e-4a71-9aaa-e349ec43331a"
+      "actorId": "f359b905-058e-4a71-9aaa-e349ec43331a",
+      "name": "Emma Wiklund"
     },
     {
       "character": {
         "name": "Commissaire Gibert",
         "imageUrl": ""
       },
-      "actorId": "520d163f-bd2b-4c34-b97c-745da636ebf2"
+      "actorId": "520d163f-bd2b-4c34-b97c-745da636ebf2",
+      "name": "Bernard Farcy"
     }
   ],
   "collections": [

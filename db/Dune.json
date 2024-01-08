@@ -81,91 +81,104 @@
         "name": "Paul Atreides",
         "imageUrl": ""
       },
-      "actorId": "74937c62-fb43-4cfb-9285-e21ac4b8de98"
+      "actorId": "74937c62-fb43-4cfb-9285-e21ac4b8de98",
+      "name": "Timothee Chalamet"
     },
     {
       "character": {
         "name": "Lady Jessica",
         "imageUrl": ""
       },
-      "actorId": "5de23f5e-b272-4fa6-9128-6dc70bc9784a"
+      "actorId": "5de23f5e-b272-4fa6-9128-6dc70bc9784a",
+      "name": "Rebecca Ferguson"
     },
     {
       "character": {
         "name": "Duke Leto Atreides",
         "imageUrl": ""
       },
-      "actorId": "6322247a-311c-414e-a2ce-e5f658811569"
+      "actorId": "6322247a-311c-414e-a2ce-e5f658811569",
+      "name": "Oscar Isaac"
     },
     {
       "character": {
         "name": "Duncan Idaho",
         "imageUrl": ""
       },
-      "actorId": "bc4e2b06-01a0-4bcd-886a-bf360f90c181"
+      "actorId": "bc4e2b06-01a0-4bcd-886a-bf360f90c181",
+      "name": "Jason Momoa"
     },
     {
       "character": {
         "name": "Baron Vladimir Harkonnen",
         "imageUrl": ""
       },
-      "actorId": "1b41f903-5993-4f31-8306-afb18e261e96"
+      "actorId": "1b41f903-5993-4f31-8306-afb18e261e96",
+      "name": "Stellan Skarsgard"
     },
     {
       "character": {
         "name": "Piter De Vries",
         "imageUrl": ""
       },
-      "actorId": "80863320-fecd-40ed-843c-d83ea21fb63b"
+      "actorId": "80863320-fecd-40ed-843c-d83ea21fb63b",
+      "name": "David Dastmalchian"
     },
     {
       "character": {
         "name": "Chani",
         "imageUrl": ""
       },
-      "actorId": "c8eeb8d9-51c3-4833-a31d-ec18431eaf71"
+      "actorId": "c8eeb8d9-51c3-4833-a31d-ec18431eaf71",
+      "name": "Zendaya"
     },
     {
       "character": {
         "name": "Gurney Halleck",
         "imageUrl": ""
       },
-      "actorId": "02b35a55-aa39-45bf-b0df-6f82c5aa8f07"
+      "actorId": "02b35a55-aa39-45bf-b0df-6f82c5aa8f07",
+      "name": "Josh Brolin"
     },
     {
       "character": {
         "name": "Glossu 'Beast' Rabban",
         "imageUrl": ""
       },
-      "actorId": "991ea0a4-315d-42f4-8960-4b0c64be1ebd"
+      "actorId": "991ea0a4-315d-42f4-8960-4b0c64be1ebd",
+      "name": "Dave Bautista"
     },
     {
       "character": {
         "name": "Thufir Hawat",
         "imageUrl": ""
       },
-      "actorId": "5d6c501a-1855-484d-b02a-154a15cec39a"
+      "actorId": "5d6c501a-1855-484d-b02a-154a15cec39a",
+      "name": "Stephen McKinley Henderson"
     },
     {
       "character": {
         "name": "Dr. Liet Kynes",
         "imageUrl": ""
       },
-      "actorId": "9af014d3-4587-46d4-bb6a-dd8e6fe04304"
+      "actorId": "9af014d3-4587-46d4-bb6a-dd8e6fe04304",
+      "name": "Sharon Duncan-Brewster"
     },
     {
       "character": {
         "name": "Stilgar",
         "imageUrl": ""
       },
-      "actorId": "a5282c0d-4767-4aa0-b3ea-e31f210b7829"
+      "actorId": "a5282c0d-4767-4aa0-b3ea-e31f210b7829",
+      "name": "Javier Bardem"
     },
     {
       "character": {
         "name": "Dr. Wellington Yueh",
         "imageUrl": ""
       },
-      "actorId": "4fd4987f-71d2-49a2-8e60-cc1c93280aef"
+      "actorId": "4fd4987f-71d2-49a2-8e60-cc1c93280aef",
+      "name": "Chen Chang"
     }
   ],
   "collections": [

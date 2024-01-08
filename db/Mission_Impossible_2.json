@@ -66,14 +66,16 @@
         "name": "Ethan Hunt",
         "imageUrl": ""
       },
-      "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81"
+      "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81",
+      "name": "Tom Cruise"
     },
     {
       "character": {
         "name": "Sean Ambrose",
         "imageUrl": ""
       },
-      "actorId": "f08a8ea5-00c0-4fec-aaac-d61cb34b6e69"
+      "actorId": "f08a8ea5-00c0-4fec-aaac-d61cb34b6e69",
+      "name": "Dougray Scott"
     },
     {
       "name": "Thandie Newton",
@@ -88,35 +90,40 @@
         "name": "Luther Strickell",
         "imageUrl": ""
       },
-      "actorId": "a73a07c8-48c4-4a30-a559-2e6ae0ad3a68"
+      "actorId": "a73a07c8-48c4-4a30-a559-2e6ae0ad3a68",
+      "name": "Ving Rhames"
     },
     {
       "character": {
         "name": "Hugh Stamp",
         "imageUrl": ""
       },
-      "actorId": "995291f9-bf02-4b7f-bd77-b3893d1ad8e9"
+      "actorId": "995291f9-bf02-4b7f-bd77-b3893d1ad8e9",
+      "name": "Richard Roxburgh"
     },
     {
       "character": {
         "name": "Billy Baird",
         "imageUrl": ""
       },
-      "actorId": "8237c6b3-e676-40d4-bcc4-cc6401051239"
+      "actorId": "8237c6b3-e676-40d4-bcc4-cc6401051239",
+      "name": "John Polson"
     },
     {
       "character": {
         "name": "McCloy",
         "imageUrl": ""
       },
-      "actorId": "9bde7480-17e9-4c82-820d-4e42a339bfde"
+      "actorId": "9bde7480-17e9-4c82-820d-4e42a339bfde",
+      "name": "Brendan Gleeson"
     },
     {
       "character": {
         "name": "Dr. Nekhorvich",
         "imageUrl": ""
       },
-      "actorId": "6b261d2c-81b2-4531-81b5-c6967c694f22"
+      "actorId": "6b261d2c-81b2-4531-81b5-c6967c694f22",
+      "name": "Rade Serbedzija"
     }
   ],
   "collections": [

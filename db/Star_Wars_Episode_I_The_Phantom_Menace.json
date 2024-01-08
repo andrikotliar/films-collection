@@ -64,77 +64,88 @@
         "name": "Qui-Gon Jinn",
         "imageUrl": ""
       },
-      "actorId": "6f541516-898c-439d-bbc3-16aa28425e8d"
+      "actorId": "6f541516-898c-439d-bbc3-16aa28425e8d",
+      "name": "Liam Neeson"
     },
     {
       "character": {
         "name": "Obi-Wan Kenobi",
         "imageUrl": ""
       },
-      "actorId": "00ab0b8e-4e0a-4de4-ac2f-70bb49947372"
+      "actorId": "00ab0b8e-4e0a-4de4-ac2f-70bb49947372",
+      "name": "Ewan McGregor"
     },
     {
       "character": {
         "name": "Padme",
         "imageUrl": ""
       },
-      "actorId": "0f310c3e-4e4f-41b7-9c51-61b4b5935607"
+      "actorId": "0f310c3e-4e4f-41b7-9c51-61b4b5935607",
+      "name": "Natalie Portman"
     },
     {
       "character": {
         "name": "Anakin Skywalker",
         "imageUrl": ""
       },
-      "actorId": "8ee1c3dc-f097-4d5d-8c02-f094a0e98451"
+      "actorId": "8ee1c3dc-f097-4d5d-8c02-f094a0e98451",
+      "name": "Jake Lloyd"
     },
     {
       "character": {
         "name": "Senator Palpatine",
         "imageUrl": ""
       },
-      "actorId": "4280bdd8-33a0-4f2c-8024-7de0ead1924e"
+      "actorId": "4280bdd8-33a0-4f2c-8024-7de0ead1924e",
+      "name": "Ian McDiarmid"
     },
     {
       "character": {
         "name": "Shmi Skywalker",
         "imageUrl": ""
       },
-      "actorId": "3959d53e-fe0e-497b-8c8a-dc5f65605ce2"
+      "actorId": "3959d53e-fe0e-497b-8c8a-dc5f65605ce2",
+      "name": "Pernilla August"
     },
     {
       "character": {
         "name": "Jar Jar Binks",
         "imageUrl": ""
       },
-      "actorId": "72383746-5e8f-4ba7-8a71-2204868ded25"
+      "actorId": "72383746-5e8f-4ba7-8a71-2204868ded25",
+      "name": "Ahmed Best"
     },
     {
       "character": {
         "name": "C-3PO",
         "imageUrl": ""
       },
-      "actorId": "ee52d40c-12c0-417d-a413-491b049e76c3"
+      "actorId": "ee52d40c-12c0-417d-a413-491b049e76c3",
+      "name": "Anthony Daniels"
     },
     {
       "character": {
         "name": "R2-D2",
         "imageUrl": ""
       },
-      "actorId": "373e6326-e3e5-4084-86cf-b2eb743441e0"
+      "actorId": "373e6326-e3e5-4084-86cf-b2eb743441e0",
+      "name": "Kenny Baker"
     },
     {
       "character": {
         "name": "Yoda",
         "imageUrl": ""
       },
-      "actorId": "11e3cf6a-7cbb-46ab-a58b-681d70c0d69c"
+      "actorId": "11e3cf6a-7cbb-46ab-a58b-681d70c0d69c",
+      "name": "Frank Oz"
     },
     {
       "character": {
         "name": "Darth Maul",
         "imageUrl": ""
       },
-      "actorId": "fad61f43-784f-43bc-a5df-193d70fdee1a"
+      "actorId": "fad61f43-784f-43bc-a5df-193d70fdee1a",
+      "name": "Ray Park"
     }
   ],
   "collections": [

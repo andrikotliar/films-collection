@@ -73,63 +73,72 @@
         "name": "Po",
         "imageUrl": ""
       },
-      "actorId": "fc90b261-aefd-4bed-9b6d-aea444798a80"
+      "actorId": "fc90b261-aefd-4bed-9b6d-aea444798a80",
+      "name": "Jack Black"
     },
     {
       "character": {
         "name": "Shifu",
         "imageUrl": ""
       },
-      "actorId": "b15b62a8-412d-496f-83f8-2700b34f86eb"
+      "actorId": "b15b62a8-412d-496f-83f8-2700b34f86eb",
+      "name": "Dustin Hoffman"
     },
     {
       "character": {
         "name": "Tigress",
         "imageUrl": ""
       },
-      "actorId": "c8b9b1e2-6f03-412f-81b5-38e7a7e7ac8f"
+      "actorId": "c8b9b1e2-6f03-412f-81b5-38e7a7e7ac8f",
+      "name": "Angelina Jolie"
     },
     {
       "character": {
         "name": "Tai Lung",
         "imageUrl": ""
       },
-      "actorId": "5ed07453-ee7d-426b-bf1c-799314d762bd"
+      "actorId": "5ed07453-ee7d-426b-bf1c-799314d762bd",
+      "name": "Ian McShane"
     },
     {
       "character": {
         "name": "Monkey",
         "imageUrl": ""
       },
-      "actorId": "d9cdf9ae-7891-42bb-bb63-9633f6c5596e"
+      "actorId": "d9cdf9ae-7891-42bb-bb63-9633f6c5596e",
+      "name": "Jackie Chan"
     },
     {
       "character": {
         "name": "Mantis",
         "imageUrl": ""
       },
-      "actorId": "41a1c82c-7935-4162-8c41-9ea33bed02e6"
+      "actorId": "41a1c82c-7935-4162-8c41-9ea33bed02e6",
+      "name": "Seth Rogen"
     },
     {
       "character": {
         "name": "Viper",
         "imageUrl": ""
       },
-      "actorId": "0ddc0eb1-bbc8-4c3c-83cd-228a7d74da2d"
+      "actorId": "0ddc0eb1-bbc8-4c3c-83cd-228a7d74da2d",
+      "name": "Lucy Liu"
     },
     {
       "character": {
         "name": "Crane",
         "imageUrl": ""
       },
-      "actorId": "1c38d264-4455-417f-b6ba-84673b62afd1"
+      "actorId": "1c38d264-4455-417f-b6ba-84673b62afd1",
+      "name": "David Cross"
     },
     {
       "character": {
         "name": "Oogway",
         "imageUrl": ""
       },
-      "actorId": "39a6e64f-3733-4983-8bce-067363fb8fc0"
+      "actorId": "39a6e64f-3733-4983-8bce-067363fb8fc0",
+      "name": "Randall Duk Kim"
     }
   ],
   "collections": [

@@ -70,91 +70,104 @@
         "name": "Thor",
         "imageUrl": ""
       },
-      "actorId": "5a7b31cb-f62d-44ae-85b6-21ed4c144a2d"
+      "actorId": "5a7b31cb-f62d-44ae-85b6-21ed4c144a2d",
+      "name": "Chris Hemsworth"
     },
     {
       "character": {
         "name": "Loki",
         "imageUrl": ""
       },
-      "actorId": "3f48a450-bff9-4a01-a00a-bba10e5a1e0a"
+      "actorId": "3f48a450-bff9-4a01-a00a-bba10e5a1e0a",
+      "name": "Tom Hiddleston"
     },
     {
       "character": {
         "name": "Hela",
         "imageUrl": ""
       },
-      "actorId": "d7f81c80-afaa-4b4e-a3fa-49b85238c529"
+      "actorId": "d7f81c80-afaa-4b4e-a3fa-49b85238c529",
+      "name": "Cate Blanchett"
     },
     {
       "character": {
         "name": "Heimdall",
         "imageUrl": ""
       },
-      "actorId": "ed322351-e250-4592-a42d-18dc1e238066"
+      "actorId": "ed322351-e250-4592-a42d-18dc1e238066",
+      "name": "Idris Elba"
     },
     {
       "character": {
         "name": "Grandmaster",
         "imageUrl": ""
       },
-      "actorId": "6b539e14-5cb0-4aa4-b194-4f1f240d0f64"
+      "actorId": "6b539e14-5cb0-4aa4-b194-4f1f240d0f64",
+      "name": "Jeff Goldblum"
     },
     {
       "character": {
         "name": "Valkyrie",
         "imageUrl": ""
       },
-      "actorId": "da839bd9-fa94-47ac-8e02-24c7539ada85"
+      "actorId": "da839bd9-fa94-47ac-8e02-24c7539ada85",
+      "name": "Tessa Thompson"
     },
     {
       "character": {
         "name": "Skurge",
         "imageUrl": ""
       },
-      "actorId": "3b561873-fcce-4fc8-80f8-bae7ba163e26"
+      "actorId": "3b561873-fcce-4fc8-80f8-bae7ba163e26",
+      "name": "Karl Urban"
     },
     {
       "character": {
         "name": "Bruce Banner / Hulk",
         "imageUrl": ""
       },
-      "actorId": "66103de9-bd6b-4732-8a3b-b59d9c88035a"
+      "actorId": "66103de9-bd6b-4732-8a3b-b59d9c88035a",
+      "name": "Mark Ruffalo"
     },
     {
       "character": {
         "name": "Odin",
         "imageUrl": ""
       },
-      "actorId": "b8f068b0-99eb-451f-b746-f92a5dc655b1"
+      "actorId": "b8f068b0-99eb-451f-b746-f92a5dc655b1",
+      "name": "Anthony Hopkins"
     },
     {
       "character": {
         "name": "Doctor Strange",
         "imageUrl": ""
       },
-      "actorId": "b6c1e5b5-b534-438e-8ac1-a6bc0b901ac8"
+      "actorId": "b6c1e5b5-b534-438e-8ac1-a6bc0b901ac8",
+      "name": "Benedict Cumberbatch"
     },
     {
       "character": {
         "name": "Korg",
         "imageUrl": ""
       },
-      "actorId": "6bdc5e6b-1aa4-4686-965f-8b5deefd01eb"
+      "actorId": "6bdc5e6b-1aa4-4686-965f-8b5deefd01eb",
+      "name": "Taika Waititi"
     },
     {
       "character": {
         "name": "Topaz",
         "imageUrl": ""
       },
-      "actorId": "6ab4bb7f-0372-438f-88e1-00b13b22bd88"
+      "actorId": "6ab4bb7f-0372-438f-88e1-00b13b22bd88",
+      "name": "Rachel House"
     },
     {
       "character": {
         "name": "Surtur",
         "imageUrl": ""
       },
-      "actorId": "7ba0570a-68be-41d9-b548-66375734f7ac"
+      "actorId": "7ba0570a-68be-41d9-b548-66375734f7ac",
+      "name": "Clancy Brown"
     }
   ],
   "collections": [

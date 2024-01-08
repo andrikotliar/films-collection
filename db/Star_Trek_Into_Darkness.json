@@ -70,84 +70,96 @@
         "name": "Kirk",
         "imageUrl": ""
       },
-      "actorId": "586e7657-8411-4540-a748-26e815d3fb92"
+      "actorId": "586e7657-8411-4540-a748-26e815d3fb92",
+      "name": "Chris Pine"
     },
     {
       "character": {
         "name": "Spock",
         "imageUrl": ""
       },
-      "actorId": "8ee9d755-abc4-4dc4-8255-7b46fdf7d84e"
+      "actorId": "8ee9d755-abc4-4dc4-8255-7b46fdf7d84e",
+      "name": "Zachary Quinto"
     },
     {
       "character": {
         "name": "Uhura",
         "imageUrl": ""
       },
-      "actorId": "23e53bab-62a5-43a6-99a4-f61d68612d7d"
+      "actorId": "23e53bab-62a5-43a6-99a4-f61d68612d7d",
+      "name": "Zoe Saldana"
     },
     {
       "character": {
         "name": "Bones",
         "imageUrl": ""
       },
-      "actorId": "3b561873-fcce-4fc8-80f8-bae7ba163e26"
+      "actorId": "3b561873-fcce-4fc8-80f8-bae7ba163e26",
+      "name": "Karl Urban"
     },
     {
       "character": {
         "name": "Scotty",
         "imageUrl": ""
       },
-      "actorId": "265bd112-e4bd-4d75-878c-cd5c60d2d034"
+      "actorId": "265bd112-e4bd-4d75-878c-cd5c60d2d034",
+      "name": "Simon Pegg"
     },
     {
       "character": {
         "name": "Sulu",
         "imageUrl": ""
       },
-      "actorId": "da06d7ba-e039-4ca4-86b7-b4299cad0635"
+      "actorId": "da06d7ba-e039-4ca4-86b7-b4299cad0635",
+      "name": "John Cho"
     },
     {
       "character": {
         "name": "Khan",
         "imageUrl": ""
       },
-      "actorId": "b6c1e5b5-b534-438e-8ac1-a6bc0b901ac8"
+      "actorId": "b6c1e5b5-b534-438e-8ac1-a6bc0b901ac8",
+      "name": "Benedict Cumberbatch"
     },
     {
       "character": {
         "name": "Chekov",
         "imageUrl": ""
       },
-      "actorId": "0aa77f73-ad44-4ddb-a9fb-5206ef077eab"
+      "actorId": "0aa77f73-ad44-4ddb-a9fb-5206ef077eab",
+      "name": "Anton Yelchin"
     },
     {
       "character": {
         "name": "Pike",
         "imageUrl": ""
       },
-      "actorId": "a02f67c9-9995-4e55-a3af-114a69960a3e"
+      "actorId": "a02f67c9-9995-4e55-a3af-114a69960a3e",
+      "name": "Bruce Greenwood"
     },
     {
       "character": {
         "name": "Marcus",
         "imageUrl": ""
       },
-      "actorId": "aa720299-f974-494b-b152-cdcaea6a3473"
+      "actorId": "aa720299-f974-494b-b152-cdcaea6a3473",
+      "name": "Peter Weller"
     },
     {
       "character": {
         "name": "Carol Marcus",
         "imageUrl": ""
       },
-      "actorId": "b87f7765-2013-4f5d-b60c-b1f7201d0998"
+      "actorId": "b87f7765-2013-4f5d-b60c-b1f7201d0998",
+      "name": "Alice Eve"
     },
     {
       "character": {
         "name": "Thomas Harewood",
         "imageUrl": ""
       },
-      "actorId": "8cec464d-cc87-4894-8c3b-9e4412cc9cc3"
+      "actorId": "8cec464d-cc87-4894-8c3b-9e4412cc9cc3",
+      "name": "Noel Clarke"
     }
   ],
   "collections": [

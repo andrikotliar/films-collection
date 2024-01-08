@@ -75,42 +75,48 @@
         "name": "Del Spooner",
         "imageUrl": ""
       },
-      "actorId": "0e631141-1b4a-4ed9-8325-5a1947f08404"
+      "actorId": "0e631141-1b4a-4ed9-8325-5a1947f08404",
+      "name": "Will Smith"
     },
     {
       "character": {
         "name": "Susan Calvin",
         "imageUrl": ""
       },
-      "actorId": "268ab293-1a19-4f15-bd48-64ac4ea9f686"
+      "actorId": "268ab293-1a19-4f15-bd48-64ac4ea9f686",
+      "name": "Bridget Moynahan"
     },
     {
       "character": {
         "name": "Sonny",
         "imageUrl": ""
       },
-      "actorId": "cb96dbad-b822-406b-88fb-6ad38ec6a68b"
+      "actorId": "cb96dbad-b822-406b-88fb-6ad38ec6a68b",
+      "name": "Alan Tudyk"
     },
     {
       "character": {
         "name": "Dr. Alfred Lanning",
         "imageUrl": ""
       },
-      "actorId": "e615eab2-b335-456c-9431-51a7fec8f45d"
+      "actorId": "e615eab2-b335-456c-9431-51a7fec8f45d",
+      "name": "James Cromwell"
     },
     {
       "character": {
         "name": "Lawrence Robertson",
         "imageUrl": ""
       },
-      "actorId": "a02f67c9-9995-4e55-a3af-114a69960a3e"
+      "actorId": "a02f67c9-9995-4e55-a3af-114a69960a3e",
+      "name": "Bruce Greenwood"
     },
     {
       "character": {
         "name": "V.I.K.I.",
         "imageUrl": ""
       },
-      "actorId": "295c3036-2af6-4a5d-b721-ad61de5616f1"
+      "actorId": "295c3036-2af6-4a5d-b721-ad61de5616f1",
+      "name": "Fiona Hogan"
     }
   ],
   "collections": [

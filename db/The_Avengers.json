@@ -64,91 +64,104 @@
         "name": "Tony Stark / Iron Man",
         "imageUrl": ""
       },
-      "actorId": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e"
+      "actorId": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e",
+      "name": "Robert Downey Jr."
     },
     {
       "character": {
         "name": "Steve Rogers / Captain America",
         "imageUrl": ""
       },
-      "actorId": "38541020-9829-440f-a21b-caf46d2d9428"
+      "actorId": "38541020-9829-440f-a21b-caf46d2d9428",
+      "name": "Chris Evans"
     },
     {
       "character": {
         "name": "Bruce Banner / The Hulk",
         "imageUrl": ""
       },
-      "actorId": "66103de9-bd6b-4732-8a3b-b59d9c88035a"
+      "actorId": "66103de9-bd6b-4732-8a3b-b59d9c88035a",
+      "name": "Mark Ruffalo"
     },
     {
       "character": {
         "name": "Thor",
         "imageUrl": ""
       },
-      "actorId": "5a7b31cb-f62d-44ae-85b6-21ed4c144a2d"
+      "actorId": "5a7b31cb-f62d-44ae-85b6-21ed4c144a2d",
+      "name": "Chris Hemsworth"
     },
     {
       "character": {
         "name": "Natasha Romanoff / Black Widow",
         "imageUrl": ""
       },
-      "actorId": "56501e25-8153-4a05-9aaa-43e683f72492"
+      "actorId": "56501e25-8153-4a05-9aaa-43e683f72492",
+      "name": "Scarlett Johansson"
     },
     {
       "character": {
         "name": "Clint Barton / Hawkeye",
         "imageUrl": ""
       },
-      "actorId": "b3e7f578-6981-4121-91d3-d768d95751ca"
+      "actorId": "b3e7f578-6981-4121-91d3-d768d95751ca",
+      "name": "Jeremy Renner"
     },
     {
       "character": {
         "name": "Loki",
         "imageUrl": ""
       },
-      "actorId": "3f48a450-bff9-4a01-a00a-bba10e5a1e0a"
+      "actorId": "3f48a450-bff9-4a01-a00a-bba10e5a1e0a",
+      "name": "Tom Hiddleston"
     },
     {
       "character": {
         "name": "Agent Phil Coulson",
         "imageUrl": ""
       },
-      "actorId": "1a2b1db2-33d9-4755-8702-1e054532094b"
+      "actorId": "1a2b1db2-33d9-4755-8702-1e054532094b",
+      "name": "Clark Gregg"
     },
     {
       "character": {
         "name": "Agent Maria Hill",
         "imageUrl": ""
       },
-      "actorId": "8627927d-0a92-4a5a-902f-24d189e429e2"
+      "actorId": "8627927d-0a92-4a5a-902f-24d189e429e2",
+      "name": "Cobie Smulders"
     },
     {
       "character": {
         "name": "Selvig",
         "imageUrl": ""
       },
-      "actorId": "1b41f903-5993-4f31-8306-afb18e261e96"
+      "actorId": "1b41f903-5993-4f31-8306-afb18e261e96",
+      "name": "Stellan Skarsgard"
     },
     {
       "character": {
         "name": "Nick Fury",
         "imageUrl": ""
       },
-      "actorId": "65e7e9e0-8e37-4237-9b23-a1f8a2d09147"
+      "actorId": "65e7e9e0-8e37-4237-9b23-a1f8a2d09147",
+      "name": "Samuel L. Jackson"
     },
     {
       "character": {
         "name": "Pepper Potts",
         "imageUrl": ""
       },
-      "actorId": "21b0cc1a-55c6-40a0-88c4-aafcf510b3e4"
+      "actorId": "21b0cc1a-55c6-40a0-88c4-aafcf510b3e4",
+      "name": "Gwyneth Paltrow"
     },
     {
       "character": {
         "name": "Jarvis",
         "imageUrl": ""
       },
-      "actorId": "7a77d424-0788-4e65-9596-e60d483cf264"
+      "actorId": "7a77d424-0788-4e65-9596-e60d483cf264",
+      "name": "Paul Bettany"
     }
   ],
   "collections": [

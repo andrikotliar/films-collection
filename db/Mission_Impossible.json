@@ -69,63 +69,72 @@
         "name": "Ethan Hunt",
         "imageUrl": ""
       },
-      "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81"
+      "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81",
+      "name": "Tom Cruise"
     },
     {
       "character": {
         "name": "Jim Phelps",
         "imageUrl": ""
       },
-      "actorId": "c9993d00-ed24-41d2-9bb7-d6eb83a33525"
+      "actorId": "c9993d00-ed24-41d2-9bb7-d6eb83a33525",
+      "name": "Jon Voight"
     },
     {
       "character": {
         "name": "Claire",
         "imageUrl": ""
       },
-      "actorId": "e74a5f4c-f16c-40ab-a258-c268f2acce0a"
+      "actorId": "e74a5f4c-f16c-40ab-a258-c268f2acce0a",
+      "name": "Emmanuelle Beart"
     },
     {
       "character": {
         "name": "Kittridge",
         "imageUrl": ""
       },
-      "actorId": "449051d2-fcef-4640-9794-d87987cbe666"
+      "actorId": "449051d2-fcef-4640-9794-d87987cbe666",
+      "name": "Henry Czerny"
     },
     {
       "character": {
         "name": "Krieger",
         "imageUrl": ""
       },
-      "actorId": "232061d1-31d2-448d-9810-09e895cadef6"
+      "actorId": "232061d1-31d2-448d-9810-09e895cadef6",
+      "name": "Jean Reno"
     },
     {
       "character": {
         "name": "Luther",
         "imageUrl": ""
       },
-      "actorId": "a73a07c8-48c4-4a30-a559-2e6ae0ad3a68"
+      "actorId": "a73a07c8-48c4-4a30-a559-2e6ae0ad3a68",
+      "name": "Ving Rhames"
     },
     {
       "character": {
         "name": "Sarah Davies",
         "imageUrl": ""
       },
-      "actorId": "b133e4c6-8bc9-4c15-921c-f57cf00ba5da"
+      "actorId": "b133e4c6-8bc9-4c15-921c-f57cf00ba5da",
+      "name": "Kristin Scott Thomas"
     },
     {
       "character": {
         "name": "Max",
         "imageUrl": ""
       },
-      "actorId": "29e381ea-f756-422c-9b7d-769f524c6216"
+      "actorId": "29e381ea-f756-422c-9b7d-769f524c6216",
+      "name": "Vanessa Redgrave"
     },
     {
       "character": {
         "name": "Hannah",
         "imageUrl": ""
       },
-      "actorId": "d72941b6-6e74-4b4b-aea7-849cc2e1c7d4"
+      "actorId": "d72941b6-6e74-4b4b-aea7-849cc2e1c7d4",
+      "name": "Ingeborga Dapkunaite"
     }
   ],
   "collections": [

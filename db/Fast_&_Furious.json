@@ -66,56 +66,64 @@
         "name": "Dominic Toretto",
         "imageUrl": ""
       },
-      "actorId": "81bac581-4158-4bcb-9920-60fd3a93bd6b"
+      "actorId": "81bac581-4158-4bcb-9920-60fd3a93bd6b",
+      "name": "Vin Diesel"
     },
     {
       "character": {
         "name": "Brian O'Conner",
         "imageUrl": ""
       },
-      "actorId": "2c49887f-4365-4050-9ad8-0dfebb5556e6"
+      "actorId": "2c49887f-4365-4050-9ad8-0dfebb5556e6",
+      "name": "Paul Walker"
     },
     {
       "character": {
         "name": "Mia",
         "imageUrl": ""
       },
-      "actorId": "49c64688-2490-427d-9650-4d5e8e2d53ac"
+      "actorId": "49c64688-2490-427d-9650-4d5e8e2d53ac",
+      "name": "Jordana Brewster"
     },
     {
       "character": {
         "name": "Letty",
         "imageUrl": ""
       },
-      "actorId": "973356cd-2905-4327-aac6-e95b4a336869"
+      "actorId": "973356cd-2905-4327-aac6-e95b4a336869",
+      "name": "Michelle Rodriguez"
     },
     {
       "character": {
         "name": "Campos",
         "imageUrl": ""
       },
-      "actorId": "8d743a86-34e8-4cae-8300-1eef68f58567"
+      "actorId": "8d743a86-34e8-4cae-8300-1eef68f58567",
+      "name": "John Ortiz"
     },
     {
       "character": {
         "name": "Fenix",
         "imageUrl": ""
       },
-      "actorId": "600178b8-cd25-49fe-8270-07fa8496d076"
+      "actorId": "600178b8-cd25-49fe-8270-07fa8496d076",
+      "name": "Laz Alonso"
     },
     {
       "character": {
         "name": "Gisele",
         "imageUrl": ""
       },
-      "actorId": "cac99b67-2448-4b4f-ab99-e88b4e516940"
+      "actorId": "cac99b67-2448-4b4f-ab99-e88b4e516940",
+      "name": "Gal Gadot"
     },
     {
       "character": {
         "name": "Han",
         "imageUrl": ""
       },
-      "actorId": "d44f46b1-9cd7-432e-b62d-97de2a3ae027"
+      "actorId": "d44f46b1-9cd7-432e-b62d-97de2a3ae027",
+      "name": "Sung Kang"
     }
   ],
   "collections": [

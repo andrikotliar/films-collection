@@ -70,42 +70,48 @@
         "name": "Grant",
         "imageUrl": ""
       },
-      "actorId": "1970e5a6-cd2f-4982-af96-a9b0b1155051"
+      "actorId": "1970e5a6-cd2f-4982-af96-a9b0b1155051",
+      "name": "Sam Neill"
     },
     {
       "character": {
         "name": "Ellie",
         "imageUrl": ""
       },
-      "actorId": "865a5ee4-fdb6-443e-b333-ff23c20029a5"
+      "actorId": "865a5ee4-fdb6-443e-b333-ff23c20029a5",
+      "name": "Laura Dern"
     },
     {
       "character": {
         "name": "Malcolm",
         "imageUrl": ""
       },
-      "actorId": "6b539e14-5cb0-4aa4-b194-4f1f240d0f64"
+      "actorId": "6b539e14-5cb0-4aa4-b194-4f1f240d0f64",
+      "name": "Jeff Goldblum"
     },
     {
       "character": {
         "name": "Hammond",
         "imageUrl": ""
       },
-      "actorId": "9ef202b2-9850-4f52-9428-060c709f2cb6"
+      "actorId": "9ef202b2-9850-4f52-9428-060c709f2cb6",
+      "name": "Richard Attenborough"
     },
     {
       "character": {
         "name": "Tim",
         "imageUrl": ""
       },
-      "actorId": "e16e2868-3796-4210-bf27-678271a2d204"
+      "actorId": "e16e2868-3796-4210-bf27-678271a2d204",
+      "name": "Joseph Mazzello"
     },
     {
       "character": {
         "name": "Lex",
         "imageUrl": ""
       },
-      "actorId": "9f8a99db-df53-4050-8ca9-3c5264b4e07f"
+      "actorId": "9f8a99db-df53-4050-8ca9-3c5264b4e07f",
+      "name": "Ariana Richards"
     }
   ],
   "collections": [

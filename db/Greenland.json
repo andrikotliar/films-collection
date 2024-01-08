@@ -71,42 +71,48 @@
         "name": "John Garrity",
         "imageUrl": ""
       },
-      "actorId": "c781f4d1-0f36-4078-aece-b893a0405504"
+      "actorId": "c781f4d1-0f36-4078-aece-b893a0405504",
+      "name": "Gerard Butler"
     },
     {
       "character": {
         "name": "Allison Garrity",
         "imageUrl": ""
       },
-      "actorId": "a35237bf-7688-4cda-95c1-c1257946609a"
+      "actorId": "a35237bf-7688-4cda-95c1-c1257946609a",
+      "name": "Morena Baccarin"
     },
     {
       "character": {
         "name": "Nathan Garrity",
         "imageUrl": ""
       },
-      "actorId": "061d59ba-c541-4d5f-8107-6d60acf564fa"
+      "actorId": "061d59ba-c541-4d5f-8107-6d60acf564fa",
+      "name": "Roger Dale Floyd"
     },
     {
       "character": {
         "name": "Dale",
         "imageUrl": ""
       },
-      "actorId": "70d82b88-8cc0-4f96-b30a-70f9429c1d8d"
+      "actorId": "70d82b88-8cc0-4f96-b30a-70f9429c1d8d",
+      "name": "Scott Glenn"
     },
     {
       "character": {
         "name": "Ralph Vento",
         "imageUrl": ""
       },
-      "actorId": "17de5867-bbeb-48c6-b9f2-b9b64f05e18d"
+      "actorId": "17de5867-bbeb-48c6-b9f2-b9b64f05e18d",
+      "name": "David Denman"
     },
     {
       "character": {
         "name": "Judy Vento",
         "imageUrl": ""
       },
-      "actorId": "50af80e3-1919-4abe-8464-0051e239cc4e"
+      "actorId": "50af80e3-1919-4abe-8464-0051e239cc4e",
+      "name": "Hope Davis"
     }
   ],
   "collections": [

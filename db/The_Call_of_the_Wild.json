@@ -67,21 +67,24 @@
         "name": "John Thornton",
         "imageUrl": ""
       },
-      "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80"
+      "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80",
+      "name": "Harrison Ford"
     },
     {
       "character": {
         "name": "Perrault",
         "imageUrl": ""
       },
-      "actorId": "8dc10d24-b013-432f-b828-c9282444b342"
+      "actorId": "8dc10d24-b013-432f-b828-c9282444b342",
+      "name": "Omar Sy"
     },
     {
       "character": {
         "name": "Hal",
         "imageUrl": ""
       },
-      "actorId": "3eeed1a8-5505-4398-b9f2-56904214ddfd"
+      "actorId": "3eeed1a8-5505-4398-b9f2-56904214ddfd",
+      "name": "Dan Stevens"
     }
   ],
   "collections": [

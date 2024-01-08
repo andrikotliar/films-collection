@@ -71,49 +71,56 @@
         "name": "Protagonist",
         "imageUrl": ""
       },
-      "actorId": "fa9a3c62-e627-4e1d-846f-0728ae4113db"
+      "actorId": "fa9a3c62-e627-4e1d-846f-0728ae4113db",
+      "name": "John David Washington"
     },
     {
       "character": {
         "name": "Neil",
         "imageUrl": ""
       },
-      "actorId": "547ee4a9-1f12-4d6a-98c2-34cf5c5a3774"
+      "actorId": "547ee4a9-1f12-4d6a-98c2-34cf5c5a3774",
+      "name": "Robert Pattinson"
     },
     {
       "character": {
         "name": "Katherine Barton",
         "imageUrl": ""
       },
-      "actorId": "607fd22b-9746-4ab2-8a30-57ec3f84bf2c"
+      "actorId": "607fd22b-9746-4ab2-8a30-57ec3f84bf2c",
+      "name": "Elizabeth Debicki"
     },
     {
       "character": {
         "name": "Priya",
         "imageUrl": ""
       },
-      "actorId": "74b3f292-ab32-4bdf-9d45-cc00e684ff86"
+      "actorId": "74b3f292-ab32-4bdf-9d45-cc00e684ff86",
+      "name": "Dimple Kapadia"
     },
     {
       "character": {
         "name": "Fay",
         "imageUrl": ""
       },
-      "actorId": "4c505178-8b21-44d7-8c0b-0dbc9c6ec0e8"
+      "actorId": "4c505178-8b21-44d7-8c0b-0dbc9c6ec0e8",
+      "name": "Martin Donovan"
     },
     {
       "character": {
         "name": "Wheeler",
         "imageUrl": ""
       },
-      "actorId": "29127659-382b-4890-bdc7-2f184b66b868"
+      "actorId": "29127659-382b-4890-bdc7-2f184b66b868",
+      "name": "Fiona Dourif"
     },
     {
       "character": {
         "name": "Andrei Sator",
         "imageUrl": ""
       },
-      "actorId": "f1350936-4678-4bfa-9cc6-334a4fcaf567"
+      "actorId": "f1350936-4678-4bfa-9cc6-334a4fcaf567",
+      "name": "Kenneth Branagh"
     }
   ],
   "collections": [

@@ -76,56 +76,64 @@
         "name": "Lucy Pevensie",
         "imageUrl": ""
       },
-      "actorId": "3e49c831-a83a-4dc6-b05c-db4659e7bf01"
+      "actorId": "3e49c831-a83a-4dc6-b05c-db4659e7bf01",
+      "name": "Georgie Henley"
     },
     {
       "character": {
         "name": "Edmund Pevensie",
         "imageUrl": ""
       },
-      "actorId": "bb971d88-23e9-4de4-b403-aeeeeb28a4d6"
+      "actorId": "bb971d88-23e9-4de4-b403-aeeeeb28a4d6",
+      "name": "Skandar Keynes"
     },
     {
       "character": {
         "name": "Peter Pevensie",
         "imageUrl": ""
       },
-      "actorId": "6880c6e5-2f35-4d88-b5ae-3cd11910cefa"
+      "actorId": "6880c6e5-2f35-4d88-b5ae-3cd11910cefa",
+      "name": "William Moseley"
     },
     {
       "character": {
         "name": "Susan Pevensie",
         "imageUrl": ""
       },
-      "actorId": "a9021910-439c-4c91-9b1d-73a8b8a30a82"
+      "actorId": "a9021910-439c-4c91-9b1d-73a8b8a30a82",
+      "name": "Anna Popplewell"
     },
     {
       "character": {
         "name": "White Witch",
         "imageUrl": ""
       },
-      "actorId": "78d42ba6-0084-41f0-8c12-32560e40c79b"
+      "actorId": "78d42ba6-0084-41f0-8c12-32560e40c79b",
+      "name": "Tilda Swinton"
     },
     {
       "character": {
         "name": "Mr. Tumnus",
         "imageUrl": ""
       },
-      "actorId": "8f4897bf-8957-47f7-9b1c-fe4616205de6"
+      "actorId": "8f4897bf-8957-47f7-9b1c-fe4616205de6",
+      "name": "James McAvoy"
     },
     {
       "character": {
         "name": "Professor Kirke",
         "imageUrl": ""
       },
-      "actorId": "904469e3-d222-4e9c-be23-1cac77a68974"
+      "actorId": "904469e3-d222-4e9c-be23-1cac77a68974",
+      "name": "Jim Broadbent"
     },
     {
       "character": {
         "name": "Aslan",
         "imageUrl": ""
       },
-      "actorId": "6f541516-898c-439d-bbc3-16aa28425e8d"
+      "actorId": "6f541516-898c-439d-bbc3-16aa28425e8d",
+      "name": "Liam Neeson"
     }
   ],
   "collections": [

@@ -70,49 +70,56 @@
         "name": "John Connor",
         "imageUrl": ""
       },
-      "actorId": "6900c450-d6ad-4f62-8af7-d8398a1b6f77"
+      "actorId": "6900c450-d6ad-4f62-8af7-d8398a1b6f77",
+      "name": "Christian Bale"
     },
     {
       "character": {
         "name": "Marcus Wright",
         "imageUrl": ""
       },
-      "actorId": "231acbe9-f5fd-46fb-84ad-0a0ea009f828"
+      "actorId": "231acbe9-f5fd-46fb-84ad-0a0ea009f828",
+      "name": "Sam Worthington"
     },
     {
       "character": {
         "name": "Blair Williams",
         "imageUrl": ""
       },
-      "actorId": "0c737e7a-43b7-4021-8250-25ad0fb18cd2"
+      "actorId": "0c737e7a-43b7-4021-8250-25ad0fb18cd2",
+      "name": "Moon Bloodgood"
     },
     {
       "character": {
         "name": "Dr. Serena Kogan",
         "imageUrl": ""
       },
-      "actorId": "cf40a9cd-4f18-4a84-93a8-6267385b2a87"
+      "actorId": "cf40a9cd-4f18-4a84-93a8-6267385b2a87",
+      "name": "Helena Bonham Carter"
     },
     {
       "character": {
         "name": "Kyle Reese",
         "imageUrl": ""
       },
-      "actorId": "0aa77f73-ad44-4ddb-a9fb-5206ef077eab"
+      "actorId": "0aa77f73-ad44-4ddb-a9fb-5206ef077eab",
+      "name": "Anton Yelchin"
     },
     {
       "character": {
         "name": "Star (as Jadagrace Berry)",
         "imageUrl": ""
       },
-      "actorId": "33ce28ec-fcb4-4440-96b9-616e7caf41e8"
+      "actorId": "33ce28ec-fcb4-4440-96b9-616e7caf41e8",
+      "name": "Jadagrace"
     },
     {
       "character": {
         "name": "Kate Connor",
         "imageUrl": ""
       },
-      "actorId": "9bf5d841-f49e-492d-b248-b6d73f76e41e"
+      "actorId": "9bf5d841-f49e-492d-b248-b6d73f76e41e",
+      "name": "Bryce Dallas Howard"
     }
   ],
   "collections": [

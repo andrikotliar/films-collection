@@ -64,56 +64,64 @@
         "name": "Harry Potter",
         "imageUrl": ""
       },
-      "actorId": "5751927d-1246-41af-a9f4-8c311e285cc7"
+      "actorId": "5751927d-1246-41af-a9f4-8c311e285cc7",
+      "name": "Daniel Radcliffe"
     },
     {
       "character": {
         "name": "Ron Weasley",
         "imageUrl": ""
       },
-      "actorId": "2ff23ded-97b8-4419-8b72-ca8197566240"
+      "actorId": "2ff23ded-97b8-4419-8b72-ca8197566240",
+      "name": "Rupert Grint"
     },
     {
       "character": {
         "name": "Hermione Granger",
         "imageUrl": ""
       },
-      "actorId": "ee7c306c-c255-4f94-bf24-8d843c2b352b"
+      "actorId": "ee7c306c-c255-4f94-bf24-8d843c2b352b",
+      "name": "Emma Watson"
     },
     {
       "character": {
         "name": "Albus Dumbledore",
         "imageUrl": ""
       },
-      "actorId": "05229f7a-0e7e-4352-9219-ff4e2113c2f0"
+      "actorId": "05229f7a-0e7e-4352-9219-ff4e2113c2f0",
+      "name": "Richard Harris"
     },
     {
       "character": {
         "name": "Rubeus Hagrid",
         "imageUrl": ""
       },
-      "actorId": "4f8d4c6c-7c1e-467c-931e-3d44fd153542"
+      "actorId": "4f8d4c6c-7c1e-467c-931e-3d44fd153542",
+      "name": "Robbie Coltrane"
     },
     {
       "character": {
         "name": "Quirinus Quirrell",
         "imageUrl": ""
       },
-      "actorId": "3ecd9464-a51b-4057-9c1d-adb5f4d1c1a3"
+      "actorId": "3ecd9464-a51b-4057-9c1d-adb5f4d1c1a3",
+      "name": "Ian Hart"
     },
     {
       "character": {
         "name": "Draco Malfoy",
         "imageUrl": ""
       },
-      "actorId": "58889d31-faba-4da2-858d-b28261a42cea"
+      "actorId": "58889d31-faba-4da2-858d-b28261a42cea",
+      "name": "Tom Felton"
     },
     {
       "character": {
         "name": "Severus Snape",
         "imageUrl": ""
       },
-      "actorId": "6e8cb43d-6dc8-45fd-a9de-a20ba4ab4858"
+      "actorId": "6e8cb43d-6dc8-45fd-a9de-a20ba4ab4858",
+      "name": "Alan Rickman"
     }
   ],
   "collections": [

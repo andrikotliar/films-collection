@@ -84,70 +84,80 @@
         "name": "Sam Wilson / Falcon / Captain America",
         "imageUrl": ""
       },
-      "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0"
+      "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0",
+      "name": "Anthony Mackie"
     },
     {
       "character": {
         "name": "James \"Bucky\" Barnes / Winter Soldier / White Wolf",
         "imageUrl": ""
       },
-      "actorId": "6efe0990-f8c2-479e-970a-f990a42f774a"
+      "actorId": "6efe0990-f8c2-479e-970a-f990a42f774a",
+      "name": "Sebastian Stan"
     },
     {
       "character": {
         "name": "John Walker / Captain America / U.S. Agent",
         "imageUrl": ""
       },
-      "actorId": "7c1b3858-5d84-4392-b553-1d7ba3629a24"
+      "actorId": "7c1b3858-5d84-4392-b553-1d7ba3629a24",
+      "name": "Wyatt Russell"
     },
     {
       "character": {
         "name": "Karli Morgenthau",
         "imageUrl": ""
       },
-      "actorId": "a64954db-d59b-406d-bf75-afa947dd864d"
+      "actorId": "a64954db-d59b-406d-bf75-afa947dd864d",
+      "name": "Erin Kellyman"
     },
     {
       "character": {
         "name": "Sarah Wilson",
         "imageUrl": ""
       },
-      "actorId": "ae166564-1e38-4546-9f8a-fe1b78e15eac"
+      "actorId": "ae166564-1e38-4546-9f8a-fe1b78e15eac",
+      "name": "Adepero Oduye"
     },
     {
       "character": {
         "name": "James \"Rhodey\" Rhodes",
         "imageUrl": ""
       },
-      "actorId": "64bde65d-0d41-434b-ab94-01aa4422b632"
+      "actorId": "64bde65d-0d41-434b-ab94-01aa4422b632",
+      "name": "Don Cheadle"
     },
     {
       "character": {
         "name": "Helmut Zemo",
         "imageUrl": ""
       },
-      "actorId": "d31d9f34-2e99-4163-85e2-c801d2cf41d9"
+      "actorId": "d31d9f34-2e99-4163-85e2-c801d2cf41d9",
+      "name": "Daniel Brühl"
     },
     {
       "character": {
         "name": "Sharon Carter / Power Broker",
         "imageUrl": ""
       },
-      "actorId": "b8cae279-8df0-4334-ab14-9682abbf1882"
+      "actorId": "b8cae279-8df0-4334-ab14-9682abbf1882",
+      "name": "Emily VanCamp"
     },
     {
       "character": {
         "name": "Ayo",
         "imageUrl": ""
       },
-      "actorId": "dcbc2174-f30a-4be8-b21d-b2fccd31048a"
+      "actorId": "dcbc2174-f30a-4be8-b21d-b2fccd31048a",
+      "name": "Florence Kasumba"
     },
     {
       "character": {
         "name": "Valentina Allegra de Fontaine",
         "imageUrl": ""
       },
-      "actorId": "283b7be0-47c7-4082-804b-1f184b0c3537"
+      "actorId": "283b7be0-47c7-4082-804b-1f184b0c3537",
+      "name": "Julia Louis-Dreyfus"
     }
   ],
   "collections": [

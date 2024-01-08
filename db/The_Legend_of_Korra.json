@@ -107,140 +107,160 @@
         "name": "Korra",
         "imageUrl": ""
       },
-      "actorId": "6b6a96e6-0958-4094-b23e-316b452b0ead"
+      "actorId": "6b6a96e6-0958-4094-b23e-316b452b0ead",
+      "name": "Janet Varney"
     },
     {
       "character": {
         "name": "Bolin",
         "imageUrl": ""
       },
-      "actorId": "ffd0bd90-4c34-4a4f-ad92-ff08536b5d39"
+      "actorId": "ffd0bd90-4c34-4a4f-ad92-ff08536b5d39",
+      "name": "P.J. Byrne"
     },
     {
       "character": {
         "name": "Mako",
         "imageUrl": ""
       },
-      "actorId": "41d05549-f991-4ddb-9c96-618ff4d887d2"
+      "actorId": "41d05549-f991-4ddb-9c96-618ff4d887d2",
+      "name": "David Faustino"
     },
     {
       "character": {
         "name": "Tenzin",
         "imageUrl": ""
       },
-      "actorId": "3034deb0-7b15-4310-b3c8-14a06daee243"
+      "actorId": "3034deb0-7b15-4310-b3c8-14a06daee243",
+      "name": "J.K. Simmons"
     },
     {
       "character": {
         "name": "Asami Sato",
         "imageUrl": ""
       },
-      "actorId": "0866e946-75f5-4e33-a6a2-4f964d784df1"
+      "actorId": "0866e946-75f5-4e33-a6a2-4f964d784df1",
+      "name": "Seychelle Gabriel"
     },
     {
       "character": {
         "name": "Lin Beifong",
         "imageUrl": ""
       },
-      "actorId": "ab89a473-af48-4e68-aa1c-1364a422d8c1"
+      "actorId": "ab89a473-af48-4e68-aa1c-1364a422d8c1",
+      "name": "Mindy Sterling"
     },
     {
       "character": {
         "name": "Meelo",
         "imageUrl": ""
       },
-      "actorId": "f48ee956-9c7a-4612-b702-d5d2fd13a31c"
+      "actorId": "f48ee956-9c7a-4612-b702-d5d2fd13a31c",
+      "name": "Logan Wells"
     },
     {
       "character": {
         "name": "Jinora",
         "imageUrl": ""
       },
-      "actorId": "f0c6ea30-0b29-43af-b740-4b063a7bd3e6"
+      "actorId": "f0c6ea30-0b29-43af-b740-4b063a7bd3e6",
+      "name": "Kiernan Shipka"
     },
     {
       "character": {
         "name": "Varrick",
         "imageUrl": ""
       },
-      "actorId": "e5965c2e-a998-48de-9e88-e6f494d790b1"
+      "actorId": "e5965c2e-a998-48de-9e88-e6f494d790b1",
+      "name": "John Michael Higgins"
     },
     {
       "character": {
         "name": "Ikki",
         "imageUrl": ""
       },
-      "actorId": "d65b0bc3-31e8-481e-a2ff-78c7f11d04ba"
+      "actorId": "d65b0bc3-31e8-481e-a2ff-78c7f11d04ba",
+      "name": "Darcy Rose Byrnes"
     },
     {
       "character": {
         "name": "Bumi",
         "imageUrl": ""
       },
-      "actorId": "d194ad44-5dad-4e8f-830c-c0499d9f6150"
+      "actorId": "d194ad44-5dad-4e8f-830c-c0499d9f6150",
+      "name": "Richard Riehle"
     },
     {
       "character": {
         "name": "Tonraq",
         "imageUrl": ""
       },
-      "actorId": "7c9d793a-2f26-4517-9d68-37f21dc42731"
+      "actorId": "7c9d793a-2f26-4517-9d68-37f21dc42731",
+      "name": "James Remar"
     },
     {
       "character": {
         "name": "Unalaq",
         "imageUrl": ""
       },
-      "actorId": "e2176fdd-d47a-49f9-bf20-3385453fec5f"
+      "actorId": "e2176fdd-d47a-49f9-bf20-3385453fec5f",
+      "name": "Adrian LaTourelle"
     },
     {
       "character": {
         "name": "Zaheer",
         "imageUrl": ""
       },
-      "actorId": "cddd134c-f5b2-4bae-8f68-086e0201470e"
+      "actorId": "cddd134c-f5b2-4bae-8f68-086e0201470e",
+      "name": "Henry Rollins"
     },
     {
       "character": {
         "name": "Amon",
         "imageUrl": ""
       },
-      "actorId": "c79f62dc-d424-4040-adc0-4bec2f1b4b7f"
+      "actorId": "c79f62dc-d424-4040-adc0-4bec2f1b4b7f",
+      "name": "Steve Blum"
     },
     {
       "character": {
         "name": "Kuvira",
         "imageUrl": ""
       },
-      "actorId": "64633ad8-3b72-47ab-a77f-425be6c9573a"
+      "actorId": "64633ad8-3b72-47ab-a77f-425be6c9573a",
+      "name": "Zelda Williams"
     },
     {
       "character": {
         "name": "Vaatu",
         "imageUrl": ""
       },
-      "actorId": "40669806-c748-4c5d-9e14-18873c768e41"
+      "actorId": "40669806-c748-4c5d-9e14-18873c768e41",
+      "name": "Jonathan Adams"
     },
     {
       "character": {
         "name": "Raava",
         "imageUrl": ""
       },
-      "actorId": "b4fcc3fc-9565-4350-b62b-599c5be0ebfa"
+      "actorId": "b4fcc3fc-9565-4350-b62b-599c5be0ebfa",
+      "name": "April Stewart"
     },
     {
       "character": {
         "name": "Aang",
         "imageUrl": ""
       },
-      "actorId": "ac6f5602-67ef-4b23-b320-6008ecab65e0"
+      "actorId": "ac6f5602-67ef-4b23-b320-6008ecab65e0",
+      "name": "D.B. Sweeney"
     },
     {
       "character": {
         "name": "Katara",
         "imageUrl": ""
       },
-      "actorId": "50dedb92-bf9a-4a5d-9f07-6b81e08d18e9"
+      "actorId": "50dedb92-bf9a-4a5d-9f07-6b81e08d18e9",
+      "name": "Eva Marie Saint"
     }
   ],
   "collections": [

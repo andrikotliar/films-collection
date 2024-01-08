@@ -75,35 +75,40 @@
         "name": "Robert Neville",
         "imageUrl": ""
       },
-      "actorId": "0e631141-1b4a-4ed9-8325-5a1947f08404"
+      "actorId": "0e631141-1b4a-4ed9-8325-5a1947f08404",
+      "name": "Will Smith"
     },
     {
       "character": {
         "name": "Anna",
         "imageUrl": ""
       },
-      "actorId": "19c5637b-ef6e-4af0-8cb8-981ca2f1b835"
+      "actorId": "19c5637b-ef6e-4af0-8cb8-981ca2f1b835",
+      "name": "Alice Braga"
     },
     {
       "character": {
         "name": "Ethan",
         "imageUrl": ""
       },
-      "actorId": "ed2db2a1-ca1e-442f-a8a8-40ebab509f27"
+      "actorId": "ed2db2a1-ca1e-442f-a8a8-40ebab509f27",
+      "name": "Charlie Tahan"
     },
     {
       "character": {
         "name": "Zoe Neville",
         "imageUrl": ""
       },
-      "actorId": "b0c0a919-16a2-4fc9-800e-4656610d103d"
+      "actorId": "b0c0a919-16a2-4fc9-800e-4656610d103d",
+      "name": "Salli Richardson-Whitfield"
     },
     {
       "character": {
         "name": "Marley Neville",
         "imageUrl": ""
       },
-      "actorId": "e82bd6e0-653f-4d20-9c97-8911eafa5e57"
+      "actorId": "e82bd6e0-653f-4d20-9c97-8911eafa5e57",
+      "name": "Willow Smith"
     }
   ],
   "collections": [

@@ -69,42 +69,48 @@
         "name": "Raya",
         "imageUrl": ""
       },
-      "actorId": "e747423a-2241-414b-854d-343eeaa95c41"
+      "actorId": "e747423a-2241-414b-854d-343eeaa95c41",
+      "name": "Kelly Marie Tran"
     },
     {
       "character": {
         "name": "Sisu",
         "imageUrl": ""
       },
-      "actorId": "c9311c58-0d9e-4555-ab09-a2cb174e51a9"
+      "actorId": "c9311c58-0d9e-4555-ab09-a2cb174e51a9",
+      "name": "Awkwafina"
     },
     {
       "character": {
         "name": "Boun",
         "imageUrl": ""
       },
-      "actorId": "5e01e6d8-fe79-4025-a7c3-4eb41bab99f1"
+      "actorId": "5e01e6d8-fe79-4025-a7c3-4eb41bab99f1",
+      "name": "Izaac Wang"
     },
     {
       "character": {
         "name": "Namaari",
         "imageUrl": ""
       },
-      "actorId": "d676bec9-4a25-4066-bbab-22757401e8f8"
+      "actorId": "d676bec9-4a25-4066-bbab-22757401e8f8",
+      "name": "Gemma Chan"
     },
     {
       "character": {
         "name": "Benja",
         "imageUrl": ""
       },
-      "actorId": "eaa8ce99-6d88-408b-9eff-24ca2df771a0"
+      "actorId": "eaa8ce99-6d88-408b-9eff-24ca2df771a0",
+      "name": "Daniel Dae Kim"
     },
     {
       "character": {
         "name": "Tong",
         "imageUrl": ""
       },
-      "actorId": "0138c730-8111-4494-bf7a-b96635ff65d2"
+      "actorId": "0138c730-8111-4494-bf7a-b96635ff65d2",
+      "name": "Benedict Wong"
     }
   ],
   "collections": [

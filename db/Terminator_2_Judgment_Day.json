@@ -67,35 +67,40 @@
         "name": "T-800",
         "imageUrl": ""
       },
-      "actorId": "dfb2cc61-095f-4a4c-8c60-64b1de7458a4"
+      "actorId": "dfb2cc61-095f-4a4c-8c60-64b1de7458a4",
+      "name": "Arnold Schwarzenegger"
     },
     {
       "character": {
         "name": "John Connor",
         "imageUrl": ""
       },
-      "actorId": "87d544e4-9c3a-4357-bced-3d5a55fff331"
+      "actorId": "87d544e4-9c3a-4357-bced-3d5a55fff331",
+      "name": "Edward Furlong"
     },
     {
       "character": {
         "name": "Sarah Connor",
         "imageUrl": ""
       },
-      "actorId": "5567133f-edab-4200-bb7e-cd30a409abb2"
+      "actorId": "5567133f-edab-4200-bb7e-cd30a409abb2",
+      "name": "Linda Hamilton"
     },
     {
       "character": {
         "name": "T-1000",
         "imageUrl": ""
       },
-      "actorId": "88e2c496-53e0-4ac6-98df-7851f4b76e65"
+      "actorId": "88e2c496-53e0-4ac6-98df-7851f4b76e65",
+      "name": "Robert Patrick"
     },
     {
       "character": {
         "name": "Miles Bennett Dyson",
         "imageUrl": ""
       },
-      "actorId": "3bba759a-ae0f-46e9-92e7-0e11c3c1bacd"
+      "actorId": "3bba759a-ae0f-46e9-92e7-0e11c3c1bacd",
+      "name": "Joe Morton"
     }
   ],
   "collections": [

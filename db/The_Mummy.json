@@ -66,56 +66,64 @@
         "name": "Rick O'Connell",
         "imageUrl": ""
       },
-      "actorId": "3de23e91-0482-4ab0-9c13-fb63ce05d2b1"
+      "actorId": "3de23e91-0482-4ab0-9c13-fb63ce05d2b1",
+      "name": "Brendan Fraser"
     },
     {
       "character": {
         "name": "Evelyn Carnahan",
         "imageUrl": ""
       },
-      "actorId": "819d09b5-4e1e-4038-a658-1c71736eed87"
+      "actorId": "819d09b5-4e1e-4038-a658-1c71736eed87",
+      "name": "Rachel Weisz"
     },
     {
       "character": {
         "name": "Jonathan Carnahan",
         "imageUrl": ""
       },
-      "actorId": "920b8742-53bc-4c27-ba6a-65288909607c"
+      "actorId": "920b8742-53bc-4c27-ba6a-65288909607c",
+      "name": "John Hannah"
     },
     {
       "character": {
         "name": "Imhotep",
         "imageUrl": ""
       },
-      "actorId": "93771b70-5481-47eb-a88b-b412ba0cb46a"
+      "actorId": "93771b70-5481-47eb-a88b-b412ba0cb46a",
+      "name": "Arnold Vosloo"
     },
     {
       "character": {
         "name": "Beni Gabor",
         "imageUrl": ""
       },
-      "actorId": "2c19e0da-5834-49c2-8014-1a88976241d8"
+      "actorId": "2c19e0da-5834-49c2-8014-1a88976241d8",
+      "name": "Kevin J. O'Connor"
     },
     {
       "character": {
         "name": "Dr. Allen Chamberlain",
         "imageUrl": ""
       },
-      "actorId": "81d9cfc0-ff46-4769-bf31-4867f4a04980"
+      "actorId": "81d9cfc0-ff46-4769-bf31-4867f4a04980",
+      "name": "Jonathan Hyde"
     },
     {
       "character": {
         "name": "Ardeth Bay",
         "imageUrl": ""
       },
-      "actorId": "8e904b1b-c093-443d-9641-4ee7b7d6b811"
+      "actorId": "8e904b1b-c093-443d-9641-4ee7b7d6b811",
+      "name": "Oded Fehr"
     },
     {
       "character": {
         "name": "Dr. Terrence Bey",
         "imageUrl": ""
       },
-      "actorId": "29e24d4c-1c00-4a98-a9df-4328ff3b948f"
+      "actorId": "29e24d4c-1c00-4a98-a9df-4328ff3b948f",
+      "name": "Erick Avari"
     }
   ],
   "collections": [

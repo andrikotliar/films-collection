@@ -159,70 +159,80 @@
         "name": "Joyce Byers",
         "imageUrl": ""
       },
-      "actorId": "ba6890ec-19e2-4473-a215-7254995d5542"
+      "actorId": "ba6890ec-19e2-4473-a215-7254995d5542",
+      "name": "Winona Ryder"
     },
     {
       "character": {
         "name": "Jim Hopper",
         "imageUrl": ""
       },
-      "actorId": "1137f062-f67c-4686-9857-0ffc1bf53aa5"
+      "actorId": "1137f062-f67c-4686-9857-0ffc1bf53aa5",
+      "name": "David Harbour"
     },
     {
       "character": {
         "name": "Mike Wheeler",
         "imageUrl": ""
       },
-      "actorId": "31db8789-fe19-43ac-a9df-c0e85bdc26ea"
+      "actorId": "31db8789-fe19-43ac-a9df-c0e85bdc26ea",
+      "name": "Finn Wolfhard"
     },
     {
       "character": {
         "name": "Eleven",
         "imageUrl": ""
       },
-      "actorId": "3b25b0fc-954b-4863-a6d9-5ba457d5fa41"
+      "actorId": "3b25b0fc-954b-4863-a6d9-5ba457d5fa41",
+      "name": "Millie Bobby Brown"
     },
     {
       "character": {
         "name": "Dustin Henderson",
         "imageUrl": ""
       },
-      "actorId": "076af8b3-d637-4908-8245-dc918dd0f99c"
+      "actorId": "076af8b3-d637-4908-8245-dc918dd0f99c",
+      "name": "Gaten Matarazzo"
     },
     {
       "character": {
         "name": "Lucas Sinclair",
         "imageUrl": ""
       },
-      "actorId": "f7385ba2-414c-49c1-9d43-6331e77d8809"
+      "actorId": "f7385ba2-414c-49c1-9d43-6331e77d8809",
+      "name": "Caleb McLaughlin"
     },
     {
       "character": {
         "name": "Nancy Wheeler",
         "imageUrl": ""
       },
-      "actorId": "a0a05f34-e8f5-41a9-9ac7-8bac54b29b24"
+      "actorId": "a0a05f34-e8f5-41a9-9ac7-8bac54b29b24",
+      "name": "Natalia Dyer"
     },
     {
       "character": {
         "name": "Jonathan Byers",
         "imageUrl": ""
       },
-      "actorId": "bcce4bd7-ce48-4387-9768-4c15404da04f"
+      "actorId": "bcce4bd7-ce48-4387-9768-4c15404da04f",
+      "name": "Charlie Heaton"
     },
     {
       "character": {
         "name": "Steve Harrington",
         "imageUrl": ""
       },
-      "actorId": "475573a9-4086-4522-bcc4-14c9877b6703"
+      "actorId": "475573a9-4086-4522-bcc4-14c9877b6703",
+      "name": "Joe Keery"
     },
     {
       "character": {
         "name": "Will Byers",
         "imageUrl": ""
       },
-      "actorId": "a1c7cd58-4c7f-4a68-924f-809a5b0793d2"
+      "actorId": "a1c7cd58-4c7f-4a68-924f-809a5b0793d2",
+      "name": "Noah Schnapp"
     }
   ],
   "collections": [

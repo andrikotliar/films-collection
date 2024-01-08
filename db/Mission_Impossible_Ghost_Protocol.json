@@ -72,35 +72,40 @@
         "name": "Ethan Hunt",
         "imageUrl": ""
       },
-      "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81"
+      "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81",
+      "name": "Tom Cruise"
     },
     {
       "character": {
         "name": "Jane",
         "imageUrl": ""
       },
-      "actorId": "6afcf7b3-aec6-4502-8008-ee8af2870f8a"
+      "actorId": "6afcf7b3-aec6-4502-8008-ee8af2870f8a",
+      "name": "Paula Patton"
     },
     {
       "character": {
         "name": "Benji",
         "imageUrl": ""
       },
-      "actorId": "265bd112-e4bd-4d75-878c-cd5c60d2d034"
+      "actorId": "265bd112-e4bd-4d75-878c-cd5c60d2d034",
+      "name": "Simon Pegg"
     },
     {
       "character": {
         "name": "Brandt",
         "imageUrl": ""
       },
-      "actorId": "b3e7f578-6981-4121-91d3-d768d95751ca"
+      "actorId": "b3e7f578-6981-4121-91d3-d768d95751ca",
+      "name": "Jeremy Renner"
     },
     {
       "character": {
         "name": "Hendricks",
         "imageUrl": ""
       },
-      "actorId": "2f31070a-a697-4af5-ae35-ab8ce3c06f0d"
+      "actorId": "2f31070a-a697-4af5-ae35-ab8ce3c06f0d",
+      "name": "Michael Nyqvist"
     }
   ],
   "collections": [

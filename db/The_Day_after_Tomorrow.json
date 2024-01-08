@@ -68,77 +68,88 @@
         "name": "Jack Hall",
         "imageUrl": ""
       },
-      "actorId": "ef6b9fcb-ea0e-4869-b798-ee2d1327638e"
+      "actorId": "ef6b9fcb-ea0e-4869-b798-ee2d1327638e",
+      "name": "Dennis Quaid"
     },
     {
       "character": {
         "name": "Sam Hall",
         "imageUrl": ""
       },
-      "actorId": "2d1069c2-2eb5-45c8-b4bd-db7be5015638"
+      "actorId": "2d1069c2-2eb5-45c8-b4bd-db7be5015638",
+      "name": "Jake Gyllenhaal"
     },
     {
       "character": {
         "name": "Laura Chapman",
         "imageUrl": ""
       },
-      "actorId": "cee42145-5832-42e3-9c3e-738f8488bfe9"
+      "actorId": "cee42145-5832-42e3-9c3e-738f8488bfe9",
+      "name": "Emmy Rossum"
     },
     {
       "character": {
         "name": "Jason Evans",
         "imageUrl": ""
       },
-      "actorId": "9269dadd-db95-4831-860e-340bdd460033"
+      "actorId": "9269dadd-db95-4831-860e-340bdd460033",
+      "name": "Dash Mihok"
     },
     {
       "character": {
         "name": "Frank Harris",
         "imageUrl": ""
       },
-      "actorId": "7fe85d8e-f022-47bd-95cb-e1bc15f6440f"
+      "actorId": "7fe85d8e-f022-47bd-95cb-e1bc15f6440f",
+      "name": "Jay O. Sanders"
     },
     {
       "character": {
         "name": "Dr. Lucy Hall",
         "imageUrl": ""
       },
-      "actorId": "4c80e951-f43e-48fb-8b8b-1e4e94ce6366"
+      "actorId": "4c80e951-f43e-48fb-8b8b-1e4e94ce6366",
+      "name": "Sela Ward"
     },
     {
       "character": {
         "name": "J.D.",
         "imageUrl": ""
       },
-      "actorId": "cbe01970-7d68-4e3c-92c3-b1182c6058aa"
+      "actorId": "cbe01970-7d68-4e3c-92c3-b1182c6058aa",
+      "name": "Austin Nichols"
     },
     {
       "character": {
         "name": "Brian Parks",
         "imageUrl": ""
       },
-      "actorId": "4771d4aa-76f8-4a29-a5df-4d3901915c00"
+      "actorId": "4771d4aa-76f8-4a29-a5df-4d3901915c00",
+      "name": "Arjay Smith"
     },
     {
       "character": {
         "name": "Janet Tokada",
         "imageUrl": ""
       },
-      "actorId": "8e2fb7a9-0cda-446e-99d3-8dc489ea4417"
+      "actorId": "8e2fb7a9-0cda-446e-99d3-8dc489ea4417",
+      "name": "Tamlyn Tomita"
     },
     {
       "character": {
         "name": "Parker",
         "imageUrl": ""
       },
-      "actorId": "b1fc4982-95c9-4ba9-9814-0b2d7c003a32"
+      "actorId": "b1fc4982-95c9-4ba9-9814-0b2d7c003a32",
+      "name": "Sasha Roiz"
     },
     {
       "character": {
         "name": "Terry Rapson",
         "imageUrl": ""
       },
-      "actorId": "e9964030-afa3-42d4-ab91-9c1fd7c0f177"
+      "actorId": "e9964030-afa3-42d4-ab91-9c1fd7c0f177",
+      "name": "Ian Holm"
     }
   ],
   "collections": [

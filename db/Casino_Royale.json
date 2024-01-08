@@ -76,42 +76,48 @@
         "name": "James Bond",
         "imageUrl": ""
       },
-      "actorId": "5060c19a-02f2-4c39-be01-f7415aef8dae"
+      "actorId": "5060c19a-02f2-4c39-be01-f7415aef8dae",
+      "name": "Daniel Craig"
     },
     {
       "character": {
         "name": "Vesper Lynd",
         "imageUrl": ""
       },
-      "actorId": "9910e839-03f9-4d6a-ab57-17b0f6c24aa2"
+      "actorId": "9910e839-03f9-4d6a-ab57-17b0f6c24aa2",
+      "name": "Eva Green"
     },
     {
       "character": {
         "name": "Le Chiffre",
         "imageUrl": ""
       },
-      "actorId": "2ff1ac8e-3c81-431d-8718-d44041993b87"
+      "actorId": "2ff1ac8e-3c81-431d-8718-d44041993b87",
+      "name": "Mads Mikkelsen"
     },
     {
       "character": {
         "name": "M",
         "imageUrl": ""
       },
-      "actorId": "566219b1-2494-4616-aae5-34677667ea38"
+      "actorId": "566219b1-2494-4616-aae5-34677667ea38",
+      "name": "Judi Dench"
     },
     {
       "character": {
         "name": "Felix Leiter",
         "imageUrl": ""
       },
-      "actorId": "e5acfeed-3d4e-4fb2-829f-a747781579d7"
+      "actorId": "e5acfeed-3d4e-4fb2-829f-a747781579d7",
+      "name": "Jeffrey Wright"
     },
     {
       "character": {
         "name": "Rene Mathis",
         "imageUrl": ""
       },
-      "actorId": "5d88af52-6754-4221-8517-29daa6486020"
+      "actorId": "5d88af52-6754-4221-8517-29daa6486020",
+      "name": "Giancarlo Giannini"
     }
   ],
   "collections": [

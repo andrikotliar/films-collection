@@ -66,35 +66,40 @@
         "name": "Marty McFly",
         "imageUrl": ""
       },
-      "actorId": "1864f0e9-50d2-42b5-ac38-5086f6cae1da"
+      "actorId": "1864f0e9-50d2-42b5-ac38-5086f6cae1da",
+      "name": "Michael J. Fox"
     },
     {
       "character": {
         "name": "Dr. Emmett Brown",
         "imageUrl": ""
       },
-      "actorId": "e77d7157-1cfb-4afd-8aaa-dacbe0e31488"
+      "actorId": "e77d7157-1cfb-4afd-8aaa-dacbe0e31488",
+      "name": "Christopher Lloyd"
     },
     {
       "character": {
         "name": "Lorraine Baines",
         "imageUrl": ""
       },
-      "actorId": "506a9a1b-e7b1-4bd5-93f3-8bf93eb9adee"
+      "actorId": "506a9a1b-e7b1-4bd5-93f3-8bf93eb9adee",
+      "name": "Lea Thompson"
     },
     {
       "character": {
         "name": "George McFly",
         "imageUrl": ""
       },
-      "actorId": "88a304c8-0c7f-4308-9e3f-9c06ba5fcaf0"
+      "actorId": "88a304c8-0c7f-4308-9e3f-9c06ba5fcaf0",
+      "name": "Jeffrey Weisman"
     },
     {
       "character": {
         "name": "Biff Tannen / Griff Tannen",
         "imageUrl": ""
       },
-      "actorId": "a85784f1-b798-4b6f-879e-8d89c5d6b369"
+      "actorId": "a85784f1-b798-4b6f-879e-8d89c5d6b369",
+      "name": "Thomas F. Wilson"
     }
   ],
   "collections": [

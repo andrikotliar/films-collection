@@ -66,63 +66,72 @@
         "name": "Flynn Carsen",
         "imageUrl": ""
       },
-      "actorId": "521e92a5-04cd-432b-80b8-fe1331ee58a6"
+      "actorId": "521e92a5-04cd-432b-80b8-fe1331ee58a6",
+      "name": "Noah Wyle"
     },
     {
       "character": {
         "name": "Emily Davenport",
         "imageUrl": ""
       },
-      "actorId": "aefd64d0-5d9e-4ba4-b591-d52943e53371"
+      "actorId": "aefd64d0-5d9e-4ba4-b591-d52943e53371",
+      "name": "Gabrielle Anwar"
     },
     {
       "character": {
         "name": "Judson",
         "imageUrl": ""
       },
-      "actorId": "2d3f746c-e37d-4f12-a139-d8463dc71b66"
+      "actorId": "2d3f746c-e37d-4f12-a139-d8463dc71b66",
+      "name": "Bob Newhart"
     },
     {
       "character": {
         "name": "Charlene",
         "imageUrl": ""
       },
-      "actorId": "b50126e9-325b-4406-9164-dfe7ef882acc"
+      "actorId": "b50126e9-325b-4406-9164-dfe7ef882acc",
+      "name": "Jane Curtin"
     },
     {
       "character": {
         "name": "Margie Carsen",
         "imageUrl": ""
       },
-      "actorId": "3edb4170-5178-4fb8-aa43-27b2cafbe82a"
+      "actorId": "3edb4170-5178-4fb8-aa43-27b2cafbe82a",
+      "name": "Olympia Dukakis"
     },
     {
       "character": {
         "name": "General Samir",
         "imageUrl": ""
       },
-      "actorId": "29e24d4c-1c00-4a98-a9df-4328ff3b948f"
+      "actorId": "29e24d4c-1c00-4a98-a9df-4328ff3b948f",
+      "name": "Erick Avari"
     },
     {
       "character": {
         "name": "Jomo",
         "imageUrl": ""
       },
-      "actorId": "e45981fe-f8fc-4097-8a7b-c3cb92dfa90d"
+      "actorId": "e45981fe-f8fc-4097-8a7b-c3cb92dfa90d",
+      "name": "Hakeem Kae-Kazim"
     },
     {
       "character": {
         "name": "Uncle Jerry",
         "imageUrl": ""
       },
-      "actorId": "6b491be4-6dcd-403b-9357-5fbab26b4f30"
+      "actorId": "6b491be4-6dcd-403b-9357-5fbab26b4f30",
+      "name": "Robert Foxworth"
     },
     {
       "character": {
         "name": "Tommy Yellow Hawk",
         "imageUrl": ""
       },
-      "actorId": "276ac76b-bb0d-473f-9682-ebd8e6ac5fd1"
+      "actorId": "276ac76b-bb0d-473f-9682-ebd8e6ac5fd1",
+      "name": "Zahn McClarnon"
     }
   ],
   "collections": [

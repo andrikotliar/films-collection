@@ -67,49 +67,56 @@
         "name": "Tony Stark / Iron Man",
         "imageUrl": ""
       },
-      "actorId": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e"
+      "actorId": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e",
+      "name": "Robert Downey Jr."
     },
     {
       "character": {
         "name": "Pepper Potts",
         "imageUrl": ""
       },
-      "actorId": "21b0cc1a-55c6-40a0-88c4-aafcf510b3e4"
+      "actorId": "21b0cc1a-55c6-40a0-88c4-aafcf510b3e4",
+      "name": "Gwyneth Paltrow"
     },
     {
       "character": {
         "name": "Colonel James Rhodes",
         "imageUrl": ""
       },
-      "actorId": "64bde65d-0d41-434b-ab94-01aa4422b632"
+      "actorId": "64bde65d-0d41-434b-ab94-01aa4422b632",
+      "name": "Don Cheadle"
     },
     {
       "character": {
         "name": "Aldrich Killian",
         "imageUrl": ""
       },
-      "actorId": "9d24f107-5e8f-497f-bc8a-bba10c71662a"
+      "actorId": "9d24f107-5e8f-497f-bc8a-bba10c71662a",
+      "name": "Guy Pearce"
     },
     {
       "character": {
         "name": "Maya Hansen",
         "imageUrl": ""
       },
-      "actorId": "4c508853-393f-407d-a881-db96a4b4825f"
+      "actorId": "4c508853-393f-407d-a881-db96a4b4825f",
+      "name": "Rebecca Hall"
     },
     {
       "character": {
         "name": "Happy Hogan",
         "imageUrl": ""
       },
-      "actorId": "d8678c6b-5c51-4775-99ea-aebeb97a28e8"
+      "actorId": "d8678c6b-5c51-4775-99ea-aebeb97a28e8",
+      "name": "Jon Favreau"
     },
     {
       "character": {
         "name": "Trevor Slattery",
         "imageUrl": ""
       },
-      "actorId": "1e35187e-647f-4233-9215-41762259fff0"
+      "actorId": "1e35187e-647f-4233-9215-41762259fff0",
+      "name": "Ben Kingsley"
     }
   ],
   "collections": [

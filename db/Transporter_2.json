@@ -69,63 +69,72 @@
         "name": "Frank Martin",
         "imageUrl": ""
       },
-      "actorId": "4a36ad60-4af7-44a4-85e7-879a11ec7b2e"
+      "actorId": "4a36ad60-4af7-44a4-85e7-879a11ec7b2e",
+      "name": "Jason Statham"
     },
     {
       "character": {
         "name": "Gianni Chellini",
         "imageUrl": ""
       },
-      "actorId": "166573f3-a7c3-47c3-9a48-64c8921a4f80"
+      "actorId": "166573f3-a7c3-47c3-9a48-64c8921a4f80",
+      "name": "Alessandro Gassman"
     },
     {
       "character": {
         "name": "Audrey Billings",
         "imageUrl": ""
       },
-      "actorId": "02986bb9-a8fe-42bf-a373-0da5bb88849f"
+      "actorId": "02986bb9-a8fe-42bf-a373-0da5bb88849f",
+      "name": "Amber Valletta"
     },
     {
       "character": {
         "name": "Lola",
         "imageUrl": ""
       },
-      "actorId": "3118643f-d7e1-4b84-83a5-8a4d40d4625e"
+      "actorId": "3118643f-d7e1-4b84-83a5-8a4d40d4625e",
+      "name": "Kate Nauta"
     },
     {
       "character": {
         "name": "Jefferson Billings",
         "imageUrl": ""
       },
-      "actorId": "104dc564-1273-4cee-8228-6ebddfad5506"
+      "actorId": "104dc564-1273-4cee-8228-6ebddfad5506",
+      "name": "Matthew Modine"
     },
     {
       "character": {
         "name": "Dimitri",
         "imageUrl": ""
       },
-      "actorId": "bebd0e6a-9671-4a95-ad7a-182b595e3d40"
+      "actorId": "bebd0e6a-9671-4a95-ad7a-182b595e3d40",
+      "name": "Jason Flemyng"
     },
     {
       "character": {
         "name": "Stappleton",
         "imageUrl": ""
       },
-      "actorId": "11de0615-6faf-461b-9b3b-6e6662f084c0"
+      "actorId": "11de0615-6faf-461b-9b3b-6e6662f084c0",
+      "name": "Keith David"
     },
     {
       "character": {
         "name": "Jack Billings",
         "imageUrl": ""
       },
-      "actorId": "50422e54-66b2-440d-8c36-1ab4fbdffef8"
+      "actorId": "50422e54-66b2-440d-8c36-1ab4fbdffef8",
+      "name": "Hunter Clary"
     },
     {
       "character": {
         "name": "Inspector Tarconi",
         "imageUrl": ""
       },
-      "actorId": "18075778-b409-47e7-8d3a-2b296d3908e3"
+      "actorId": "18075778-b409-47e7-8d3a-2b296d3908e3",
+      "name": "François Berléand"
     }
   ],
   "collections": [

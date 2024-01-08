@@ -79,84 +79,96 @@
         "name": "Frodo Baggins",
         "imageUrl": ""
       },
-      "actorId": "5e154ae5-94f0-4d0e-9dfc-641120e4a219"
+      "actorId": "5e154ae5-94f0-4d0e-9dfc-641120e4a219",
+      "name": "Elijah Wood"
     },
     {
       "character": {
         "name": "Gandalf",
         "imageUrl": ""
       },
-      "actorId": "18b67364-14a8-461a-bf48-a12c4741d52f"
+      "actorId": "18b67364-14a8-461a-bf48-a12c4741d52f",
+      "name": "Ian McKellen"
     },
     {
       "character": {
         "name": "Samwise Gamgee",
         "imageUrl": ""
       },
-      "actorId": "9e55ad2e-faa1-4895-b232-d606d29438d7"
+      "actorId": "9e55ad2e-faa1-4895-b232-d606d29438d7",
+      "name": "Sean Astin"
     },
     {
       "character": {
         "name": "Aragorn",
         "imageUrl": ""
       },
-      "actorId": "1806b00d-b0f7-4338-a721-10d3ce7c3586"
+      "actorId": "1806b00d-b0f7-4338-a721-10d3ce7c3586",
+      "name": "Viggo Mortensen"
     },
     {
       "character": {
         "name": "Pereggrin",
         "imageUrl": ""
       },
-      "actorId": "ffd18982-2edb-45e2-91aa-136421c2dca6"
+      "actorId": "ffd18982-2edb-45e2-91aa-136421c2dca6",
+      "name": "Billy Boyd"
     },
     {
       "character": {
         "name": "Meriadoc",
         "imageUrl": ""
       },
-      "actorId": "45bb2b5f-7072-45c8-9600-1ddb618c7979"
+      "actorId": "45bb2b5f-7072-45c8-9600-1ddb618c7979",
+      "name": "Dominic Monaghan"
     },
     {
       "character": {
         "name": "Gimli",
         "imageUrl": ""
       },
-      "actorId": "cacd3465-d009-4fea-8c86-4c4bc266b6e5"
+      "actorId": "cacd3465-d009-4fea-8c86-4c4bc266b6e5",
+      "name": "John Rhys-Davies"
     },
     {
       "character": {
         "name": "Legolas",
         "imageUrl": ""
       },
-      "actorId": "9477d178-9893-44f0-9553-10119753c95f"
+      "actorId": "9477d178-9893-44f0-9553-10119753c95f",
+      "name": "Orlando Bloom"
     },
     {
       "character": {
         "name": "Boromir",
         "imageUrl": ""
       },
-      "actorId": "f1d021e9-26d9-440c-9e19-398afd30f0e4"
+      "actorId": "f1d021e9-26d9-440c-9e19-398afd30f0e4",
+      "name": "Sean Bean"
     },
     {
       "character": {
         "name": "Bilbo Baggins",
         "imageUrl": ""
       },
-      "actorId": "e9964030-afa3-42d4-ab91-9c1fd7c0f177"
+      "actorId": "e9964030-afa3-42d4-ab91-9c1fd7c0f177",
+      "name": "Ian Holm"
     },
     {
       "character": {
         "name": "Saruman",
         "imageUrl": ""
       },
-      "actorId": "59d49cbd-921f-4b4a-89c0-41260222973b"
+      "actorId": "59d49cbd-921f-4b4a-89c0-41260222973b",
+      "name": "Christopher Lee"
     },
     {
       "character": {
         "name": "Elrond",
         "imageUrl": ""
       },
-      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
+      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139",
+      "name": "Hugo Weaving"
     }
   ],
   "collections": [

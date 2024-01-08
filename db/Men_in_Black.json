@@ -67,35 +67,40 @@
         "name": "Agent Kay",
         "imageUrl": ""
       },
-      "actorId": "331a7b7e-753a-4546-aa4e-0ef3da3e5d8e"
+      "actorId": "331a7b7e-753a-4546-aa4e-0ef3da3e5d8e",
+      "name": "Tommy Lee Jones"
     },
     {
       "character": {
         "name": "Agent Jay",
         "imageUrl": ""
       },
-      "actorId": "0e631141-1b4a-4ed9-8325-5a1947f08404"
+      "actorId": "0e631141-1b4a-4ed9-8325-5a1947f08404",
+      "name": "Will Smith"
     },
     {
       "character": {
         "name": "Laurel",
         "imageUrl": ""
       },
-      "actorId": "e85b49ef-a8f5-4c88-8bd5-593745237b32"
+      "actorId": "e85b49ef-a8f5-4c88-8bd5-593745237b32",
+      "name": "Linda Fiorentino"
     },
     {
       "character": {
         "name": "Edgar",
         "imageUrl": ""
       },
-      "actorId": "d39e216b-d069-4f40-b485-2be6eafa4d11"
+      "actorId": "d39e216b-d069-4f40-b485-2be6eafa4d11",
+      "name": "Vincent D'Onofrio"
     },
     {
       "character": {
         "name": "Z",
         "imageUrl": ""
       },
-      "actorId": "a4db5eb9-cbf6-468e-b63a-b3900d4371d3"
+      "actorId": "a4db5eb9-cbf6-468e-b63a-b3900d4371d3",
+      "name": "Rip Torn"
     }
   ],
   "collections": [

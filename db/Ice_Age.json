@@ -62,28 +62,32 @@
         "name": "Manfred",
         "imageUrl": ""
       },
-      "actorId": "0cedcb92-8ff0-48bf-b5c0-ec52c697bf22"
+      "actorId": "0cedcb92-8ff0-48bf-b5c0-ec52c697bf22",
+      "name": "Ray Romano"
     },
     {
       "character": {
         "name": "Sid",
         "imageUrl": ""
       },
-      "actorId": "ba1ea1c7-ab0d-4cc7-9574-25c858edd5a3"
+      "actorId": "ba1ea1c7-ab0d-4cc7-9574-25c858edd5a3",
+      "name": "John Leguizamo"
     },
     {
       "character": {
         "name": "Diego",
         "imageUrl": ""
       },
-      "actorId": "79d6d23f-2026-4b49-953a-7109e1281bdd"
+      "actorId": "79d6d23f-2026-4b49-953a-7109e1281bdd",
+      "name": "Denis Leary"
     },
     {
       "character": {
         "name": "Soto",
         "imageUrl": ""
       },
-      "actorId": "ec353a09-b4f6-452d-acb5-1693b703f783"
+      "actorId": "ec353a09-b4f6-452d-acb5-1693b703f783",
+      "name": "Goran Visnjic"
     }
   ],
   "collections": [

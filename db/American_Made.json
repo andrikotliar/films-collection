@@ -75,56 +75,64 @@
         "name": "Barry Seal",
         "imageUrl": ""
       },
-      "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81"
+      "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81",
+      "name": "Tom Cruise"
     },
     {
       "character": {
         "name": "Monty 'Schafer'",
         "imageUrl": ""
       },
-      "actorId": "0e501cfc-d0cb-463c-83b4-da4113e4afbc"
+      "actorId": "0e501cfc-d0cb-463c-83b4-da4113e4afbc",
+      "name": "Domhnall Gleeson"
     },
     {
       "character": {
         "name": "Lucy Seal",
         "imageUrl": ""
       },
-      "actorId": "8c61e23b-4b8c-4a6c-b531-bab8ae8bc9e8"
+      "actorId": "8c61e23b-4b8c-4a6c-b531-bab8ae8bc9e8",
+      "name": "Sarah Wright"
     },
     {
       "character": {
         "name": "Sheriff Downing",
         "imageUrl": ""
       },
-      "actorId": "f0c350c9-f469-4faf-af3e-5313732e11ef"
+      "actorId": "f0c350c9-f469-4faf-af3e-5313732e11ef",
+      "name": "Jesse Plemons"
     },
     {
       "character": {
         "name": "JB",
         "imageUrl": ""
       },
-      "actorId": "28066701-2a1a-4ad5-b59b-6032dc599b46"
+      "actorId": "28066701-2a1a-4ad5-b59b-6032dc599b46",
+      "name": "Caleb Landry Jones"
     },
     {
       "character": {
         "name": "George W. Bush",
         "imageUrl": ""
       },
-      "actorId": "684a1dcc-8840-4e5e-9eac-cba3af3e8946"
+      "actorId": "684a1dcc-8840-4e5e-9eac-cba3af3e8946",
+      "name": "Connor Trinneer"
     },
     {
       "character": {
         "name": "Pablo Escobar",
         "imageUrl": ""
       },
-      "actorId": "fd966b66-a804-448e-80eb-abf32ef322d8"
+      "actorId": "fd966b66-a804-448e-80eb-abf32ef322d8",
+      "name": "Mauricio Mejía"
     },
     {
       "character": {
         "name": "Jorge Ochoa",
         "imageUrl": ""
       },
-      "actorId": "db5e19f2-30fc-477c-8ca6-dd724fb0628a"
+      "actorId": "db5e19f2-30fc-477c-8ca6-dd724fb0628a",
+      "name": "Alejandro Edda"
     }
   ],
   "collections": [

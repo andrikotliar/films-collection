@@ -71,35 +71,40 @@
         "name": "Ray Ferrier",
         "imageUrl": ""
       },
-      "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81"
+      "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81",
+      "name": "Tom Cruise"
     },
     {
       "character": {
         "name": "Rachel Ferrier",
         "imageUrl": ""
       },
-      "actorId": "4cddb738-b885-4830-bd26-8b27ff0bb936"
+      "actorId": "4cddb738-b885-4830-bd26-8b27ff0bb936",
+      "name": "Dakota Fanning"
     },
     {
       "character": {
         "name": "Robbie Ferrier",
         "imageUrl": ""
       },
-      "actorId": "210ff05c-b6af-4b8b-8507-c73d3aa17b1a"
+      "actorId": "210ff05c-b6af-4b8b-8507-c73d3aa17b1a",
+      "name": "Justin Chatwin"
     },
     {
       "character": {
         "name": "Mary-Ann",
         "imageUrl": ""
       },
-      "actorId": "91fa95db-6fc4-45db-92fe-c4b1287f4d0d"
+      "actorId": "91fa95db-6fc4-45db-92fe-c4b1287f4d0d",
+      "name": "Miranda Otto"
     },
     {
       "character": {
         "name": "Harlan Ogilvy",
         "imageUrl": ""
       },
-      "actorId": "70919800-cec9-40f8-840e-202ea96ce760"
+      "actorId": "70919800-cec9-40f8-840e-202ea96ce760",
+      "name": "Tim Robbins"
     }
   ],
   "collections": [

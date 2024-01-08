@@ -147,63 +147,72 @@
         "name": "Geralt of Rivia",
         "imageUrl": ""
       },
-      "actorId": "e92d7fd1-edce-45e3-8d2b-b35443ac770d"
+      "actorId": "e92d7fd1-edce-45e3-8d2b-b35443ac770d",
+      "name": "Henry Cavill"
     },
     {
       "character": {
         "name": "Ciri",
         "imageUrl": ""
       },
-      "actorId": "1ccfdd54-80d5-4a9d-b01c-1827ebfe733e"
+      "actorId": "1ccfdd54-80d5-4a9d-b01c-1827ebfe733e",
+      "name": "Freya Allan"
     },
     {
       "character": {
         "name": "Yennefer",
         "imageUrl": ""
       },
-      "actorId": "c64b7696-9f95-4197-b365-0127471fd364"
+      "actorId": "c64b7696-9f95-4197-b365-0127471fd364",
+      "name": "Anya Chalotra"
     },
     {
       "character": {
         "name": "Tissaia",
         "imageUrl": ""
       },
-      "actorId": "08320a0b-f753-44b5-88b2-d41bea4b129b"
+      "actorId": "08320a0b-f753-44b5-88b2-d41bea4b129b",
+      "name": "MyAnna Buring"
     },
     {
       "character": {
         "name": "Dara",
         "imageUrl": ""
       },
-      "actorId": "a662b6de-a31d-4959-9b88-6f4d946a57c8"
+      "actorId": "a662b6de-a31d-4959-9b88-6f4d946a57c8",
+      "name": "Wilson Radjou-Pujalte"
     },
     {
       "character": {
         "name": "Mousesack",
         "imageUrl": ""
       },
-      "actorId": "d4ccc491-3e27-464c-9e70-c56c9125f875"
+      "actorId": "d4ccc491-3e27-464c-9e70-c56c9125f875",
+      "name": "Adam Levy"
     },
     {
       "character": {
         "name": "Stregobor",
         "imageUrl": ""
       },
-      "actorId": "333d379b-3fd0-4310-9b61-f239c925586d"
+      "actorId": "333d379b-3fd0-4310-9b61-f239c925586d",
+      "name": "Lars Mikkelsen"
     },
     {
       "character": {
         "name": "Istredd",
         "imageUrl": ""
       },
-      "actorId": "36d00d9e-f23a-4425-ae66-fc0de06cf3bc"
+      "actorId": "36d00d9e-f23a-4425-ae66-fc0de06cf3bc",
+      "name": "Royce Pierreson"
     },
     {
       "character": {
         "name": "Queen Calanthe",
         "imageUrl": ""
       },
-      "actorId": "0b2e1797-7378-4e20-9828-a27a1e44603a"
+      "actorId": "0b2e1797-7378-4e20-9828-a27a1e44603a",
+      "name": "Jodhi May"
     }
   ],
   "collections": [

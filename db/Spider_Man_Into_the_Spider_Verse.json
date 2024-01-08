@@ -78,84 +78,96 @@
         "name": "Miles Morales",
         "imageUrl": ""
       },
-      "actorId": "f77b054a-0abb-449e-bf33-4f77b5f71375"
+      "actorId": "f77b054a-0abb-449e-bf33-4f77b5f71375",
+      "name": "Shameik Moore"
     },
     {
       "character": {
         "name": "Peter B. Parker",
         "imageUrl": ""
       },
-      "actorId": "ba27009e-efb1-4811-9ac7-4bf64152918a"
+      "actorId": "ba27009e-efb1-4811-9ac7-4bf64152918a",
+      "name": "Jake Johnson"
     },
     {
       "character": {
         "name": "Gwen Stacy",
         "imageUrl": ""
       },
-      "actorId": "1a9d8258-5634-4990-bb53-f0262f587084"
+      "actorId": "1a9d8258-5634-4990-bb53-f0262f587084",
+      "name": "Hailee Steinfeld"
     },
     {
       "character": {
         "name": "Uncle Aaron",
         "imageUrl": ""
       },
-      "actorId": "ee6f8993-13d0-4a0b-ba97-1cd08b0428d8"
+      "actorId": "ee6f8993-13d0-4a0b-ba97-1cd08b0428d8",
+      "name": "Mahershala Ali"
     },
     {
       "character": {
         "name": "Jefferson Davis",
         "imageUrl": ""
       },
-      "actorId": "353aff48-04c0-427e-a670-6fbc3a861d16"
+      "actorId": "353aff48-04c0-427e-a670-6fbc3a861d16",
+      "name": "Brian Tyree Henry"
     },
     {
       "character": {
         "name": "Aunt May",
         "imageUrl": ""
       },
-      "actorId": "854e27fb-78d8-4190-8e7e-a608bf44451c"
+      "actorId": "854e27fb-78d8-4190-8e7e-a608bf44451c",
+      "name": "Lily Tomlin"
     },
     {
       "character": {
         "name": "Rio Morales",
         "imageUrl": ""
       },
-      "actorId": "dd599f28-e6b0-4016-a815-7b1eb388043b"
+      "actorId": "dd599f28-e6b0-4016-a815-7b1eb388043b",
+      "name": "Luna Lauren Velez"
     },
     {
       "character": {
         "name": "Mary Jane",
         "imageUrl": ""
       },
-      "actorId": "d0581330-d8c7-4ae3-b638-7aabb28cdfa4"
+      "actorId": "d0581330-d8c7-4ae3-b638-7aabb28cdfa4",
+      "name": "Zoe Kravitz"
     },
     {
       "character": {
         "name": "Spider-Ham",
         "imageUrl": ""
       },
-      "actorId": "24a25753-bf24-4b01-a46b-ed1bc975355b"
+      "actorId": "24a25753-bf24-4b01-a46b-ed1bc975355b",
+      "name": "John Mulaney"
     },
     {
       "character": {
         "name": "Peni Parker",
         "imageUrl": ""
       },
-      "actorId": "9fe90b2d-6633-43b2-9cbb-5dd8ed7eb2a3"
+      "actorId": "9fe90b2d-6633-43b2-9cbb-5dd8ed7eb2a3",
+      "name": "Kimiko Glenn"
     },
     {
       "character": {
         "name": "Spider-Man Noir",
         "imageUrl": ""
       },
-      "actorId": "155db7cd-d010-42ad-9041-58afc680fb53"
+      "actorId": "155db7cd-d010-42ad-9041-58afc680fb53",
+      "name": "Nicolas Cage"
     },
     {
       "character": {
         "name": "Wilson Fisk",
         "imageUrl": ""
       },
-      "actorId": "7259af6b-8864-4412-b9dd-41cfa1643304"
+      "actorId": "7259af6b-8864-4412-b9dd-41cfa1643304",
+      "name": "Liev Schreiber"
     }
   ],
   "collections": [

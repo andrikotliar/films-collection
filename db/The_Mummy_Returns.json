@@ -66,77 +66,88 @@
         "name": "Rick O'Connell",
         "imageUrl": ""
       },
-      "actorId": "3de23e91-0482-4ab0-9c13-fb63ce05d2b1"
+      "actorId": "3de23e91-0482-4ab0-9c13-fb63ce05d2b1",
+      "name": "Brendan Fraser"
     },
     {
       "character": {
         "name": "Evelyn Carnahan / Nefertiri",
         "imageUrl": ""
       },
-      "actorId": "819d09b5-4e1e-4038-a658-1c71736eed87"
+      "actorId": "819d09b5-4e1e-4038-a658-1c71736eed87",
+      "name": "Rachel Weisz"
     },
     {
       "character": {
         "name": "Jonathan",
         "imageUrl": ""
       },
-      "actorId": "920b8742-53bc-4c27-ba6a-65288909607c"
+      "actorId": "920b8742-53bc-4c27-ba6a-65288909607c",
+      "name": "John Hannah"
     },
     {
       "character": {
         "name": "Imhotep",
         "imageUrl": ""
       },
-      "actorId": "93771b70-5481-47eb-a88b-b412ba0cb46a"
+      "actorId": "93771b70-5481-47eb-a88b-b412ba0cb46a",
+      "name": "Arnold Vosloo"
     },
     {
       "character": {
         "name": "Ardeth Bay",
         "imageUrl": ""
       },
-      "actorId": "8e904b1b-c093-443d-9641-4ee7b7d6b811"
+      "actorId": "8e904b1b-c093-443d-9641-4ee7b7d6b811",
+      "name": "Oded Fehr"
     },
     {
       "character": {
         "name": "Meela / Anck-Su-Namun",
         "imageUrl": ""
       },
-      "actorId": "9b3cd68c-01a3-4dd7-bb8f-e06a8ac75620"
+      "actorId": "9b3cd68c-01a3-4dd7-bb8f-e06a8ac75620",
+      "name": "Patricia Velasquez"
     },
     {
       "character": {
         "name": "Alex",
         "imageUrl": ""
       },
-      "actorId": "b5e8101d-2f8f-4e55-ac37-f62ff4be25ad"
+      "actorId": "b5e8101d-2f8f-4e55-ac37-f62ff4be25ad",
+      "name": "Freddie Boath"
     },
     {
       "character": {
         "name": "Mr. Hafez",
         "imageUrl": ""
       },
-      "actorId": "d28613cf-df80-4df4-8d99-3ab560aacc04"
+      "actorId": "d28613cf-df80-4df4-8d99-3ab560aacc04",
+      "name": "Alun Armstrong"
     },
     {
       "character": {
         "name": "The Scorpion King",
         "imageUrl": ""
       },
-      "actorId": "d10e4d00-cb12-4d0f-a8f7-949530f17b88"
+      "actorId": "d10e4d00-cb12-4d0f-a8f7-949530f17b88",
+      "name": "Dwayne Johnson"
     },
     {
       "character": {
         "name": "Lock-Nah",
         "imageUrl": ""
       },
-      "actorId": "948af610-7ded-4634-bdbc-972301a0939e"
+      "actorId": "948af610-7ded-4634-bdbc-972301a0939e",
+      "name": "Adewale Akinnuoye-Agbaje"
     },
     {
       "character": {
         "name": "Izzy",
         "imageUrl": ""
       },
-      "actorId": "ca2f6623-3043-479b-ad84-f54498420d2e"
+      "actorId": "ca2f6623-3043-479b-ad84-f54498420d2e",
+      "name": "Shaun Parkes"
     }
   ],
   "collections": [

@@ -71,35 +71,40 @@
         "name": "Dr. Henry «Indiana» Jones, Jr.",
         "imageUrl": ""
       },
-      "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80"
+      "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80",
+      "name": "Harrison Ford"
     },
     {
       "character": {
         "name": "Willie Scott",
         "imageUrl": ""
       },
-      "actorId": "c4667095-3e7c-4e1a-adaf-1429bda4f432"
+      "actorId": "c4667095-3e7c-4e1a-adaf-1429bda4f432",
+      "name": "Kate Capshaw"
     },
     {
       "character": {
         "name": "Short Round",
         "imageUrl": ""
       },
-      "actorId": "c9e5db95-6be8-4494-b41e-487d77018ea2"
+      "actorId": "c9e5db95-6be8-4494-b41e-487d77018ea2",
+      "name": "Ke Huy Quan"
     },
     {
       "character": {
         "name": "Mola Ram",
         "imageUrl": ""
       },
-      "actorId": "8dbad3dd-c59a-474b-ab6b-dbffefc60a16"
+      "actorId": "8dbad3dd-c59a-474b-ab6b-dbffefc60a16",
+      "name": "Amrish Puri"
     },
     {
       "character": {
         "name": "Chattar Lal",
         "imageUrl": ""
       },
-      "actorId": "3a4e5005-97b0-4229-bb5d-ad454d43d8fa"
+      "actorId": "3a4e5005-97b0-4229-bb5d-ad454d43d8fa",
+      "name": "Roshan Seth"
     }
   ],
   "collections": [

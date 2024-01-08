@@ -67,63 +67,72 @@
         "name": "Rey",
         "imageUrl": ""
       },
-      "actorId": "d38d79f6-63ce-4543-a2b4-b820fc7fbb60"
+      "actorId": "d38d79f6-63ce-4543-a2b4-b820fc7fbb60",
+      "name": "Daisy Ridley"
     },
     {
       "character": {
         "name": "Kylo Ren",
         "imageUrl": ""
       },
-      "actorId": "0aab5e43-79d6-4ffd-a921-bfd17a551394"
+      "actorId": "0aab5e43-79d6-4ffd-a921-bfd17a551394",
+      "name": "Adam Driver"
     },
     {
       "character": {
         "name": "Finn",
         "imageUrl": ""
       },
-      "actorId": "3f606ca0-e479-4cdb-9f7e-ed72d980f6f4"
+      "actorId": "3f606ca0-e479-4cdb-9f7e-ed72d980f6f4",
+      "name": "John Boyega"
     },
     {
       "character": {
         "name": "Luke Skywalker",
         "imageUrl": ""
       },
-      "actorId": "4ff433ee-f363-4b38-8332-62b5ffece7dd"
+      "actorId": "4ff433ee-f363-4b38-8332-62b5ffece7dd",
+      "name": "Mark Hamill"
     },
     {
       "character": {
         "name": "Leia",
         "imageUrl": ""
       },
-      "actorId": "3b974652-594d-4835-b73b-a497a2c849f9"
+      "actorId": "3b974652-594d-4835-b73b-a497a2c849f9",
+      "name": "Carrie Fisher"
     },
     {
       "character": {
         "name": "Poe Dameron",
         "imageUrl": ""
       },
-      "actorId": "6322247a-311c-414e-a2ce-e5f658811569"
+      "actorId": "6322247a-311c-414e-a2ce-e5f658811569",
+      "name": "Oscar Isaac"
     },
     {
       "character": {
         "name": "Snoke",
         "imageUrl": ""
       },
-      "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135"
+      "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135",
+      "name": "Andy Serkis"
     },
     {
       "character": {
         "name": "Maz Kanata",
         "imageUrl": ""
       },
-      "actorId": "1c546317-ff4b-42d3-893b-7d59de3a35fc"
+      "actorId": "1c546317-ff4b-42d3-893b-7d59de3a35fc",
+      "name": "Lupita Nyung'o"
     },
     {
       "character": {
         "name": "Phasma",
         "imageUrl": ""
       },
-      "actorId": "a64e4407-72e4-44c3-889b-127f6750765a"
+      "actorId": "a64e4407-72e4-44c3-889b-127f6750765a",
+      "name": "Gwendoline Christie"
     }
   ],
   "collections": [

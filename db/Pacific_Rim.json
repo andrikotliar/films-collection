@@ -76,70 +76,80 @@
         "name": "Raleigh Becket",
         "imageUrl": ""
       },
-      "actorId": "603ed1ff-a7ff-4794-b304-618562321eef"
+      "actorId": "603ed1ff-a7ff-4794-b304-618562321eef",
+      "name": "Charlie Hunnam"
     },
     {
       "character": {
         "name": "Yancy Becket",
         "imageUrl": ""
       },
-      "actorId": "385aa308-77be-407c-8692-f448a3b7db55"
+      "actorId": "385aa308-77be-407c-8692-f448a3b7db55",
+      "name": "Diego Klattenhoff"
     },
     {
       "character": {
         "name": "Stacker Pentecost",
         "imageUrl": ""
       },
-      "actorId": "ed322351-e250-4592-a42d-18dc1e238066"
+      "actorId": "ed322351-e250-4592-a42d-18dc1e238066",
+      "name": "Idris Elba"
     },
     {
       "character": {
         "name": "Mako Mori",
         "imageUrl": ""
       },
-      "actorId": "659d56b9-9c58-44ad-af61-61622b9a7218"
+      "actorId": "659d56b9-9c58-44ad-af61-61622b9a7218",
+      "name": "Rinko Kikuchi"
     },
     {
       "character": {
         "name": "Dr. Newton Geiszler",
         "imageUrl": ""
       },
-      "actorId": "3b3ea29d-fb85-4873-af9b-da6621c25576"
+      "actorId": "3b3ea29d-fb85-4873-af9b-da6621c25576",
+      "name": "Charlie Day"
     },
     {
       "character": {
         "name": "Herman Gottlieb",
         "imageUrl": ""
       },
-      "actorId": "c43b96b4-bcc3-4de4-828c-2fc051732d87"
+      "actorId": "c43b96b4-bcc3-4de4-828c-2fc051732d87",
+      "name": "Burn Gorman"
     },
     {
       "character": {
         "name": "Herc Hansen",
         "imageUrl": ""
       },
-      "actorId": "b80f205c-29aa-41d3-8902-58eb398f1b19"
+      "actorId": "b80f205c-29aa-41d3-8902-58eb398f1b19",
+      "name": "Max Martini"
     },
     {
       "character": {
         "name": "Chuck Hansen",
         "imageUrl": ""
       },
-      "actorId": "09c939c8-d8a1-47ad-aa2a-4ce757af6ff9"
+      "actorId": "09c939c8-d8a1-47ad-aa2a-4ce757af6ff9",
+      "name": "Robert Kazinsky"
     },
     {
       "character": {
         "name": "Ops Tendo Choi",
         "imageUrl": ""
       },
-      "actorId": "bf1d0a81-a7e2-4a05-bea8-72197b9f6d9d"
+      "actorId": "bf1d0a81-a7e2-4a05-bea8-72197b9f6d9d",
+      "name": "Clifton Collins Jr."
     },
     {
       "character": {
         "name": "Hannibal Chau",
         "imageUrl": ""
       },
-      "actorId": "9a7b88ec-6ee3-4c9d-9cf5-f7258c880e79"
+      "actorId": "9a7b88ec-6ee3-4c9d-9cf5-f7258c880e79",
+      "name": "Ron Perlman"
     }
   ],
   "collections": [

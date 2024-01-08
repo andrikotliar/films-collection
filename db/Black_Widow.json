@@ -63,49 +63,56 @@
         "name": "Natasha Romanoff / Black Widow",
         "imageUrl": ""
       },
-      "actorId": "56501e25-8153-4a05-9aaa-43e683f72492"
+      "actorId": "56501e25-8153-4a05-9aaa-43e683f72492",
+      "name": "Scarlett Johansson"
     },
     {
       "character": {
         "name": "Yelena Belova / Black Widow",
         "imageUrl": ""
       },
-      "actorId": "9bc18e7e-36b4-4524-af4c-b4c99a7413de"
+      "actorId": "9bc18e7e-36b4-4524-af4c-b4c99a7413de",
+      "name": "Florence Pugh"
     },
     {
       "character": {
         "name": "Melina Vostokoff / Black Widow",
         "imageUrl": ""
       },
-      "actorId": "819d09b5-4e1e-4038-a658-1c71736eed87"
+      "actorId": "819d09b5-4e1e-4038-a658-1c71736eed87",
+      "name": "Rachel Weisz"
     },
     {
       "character": {
         "name": "Alexei Shostakov / Red Guardian",
         "imageUrl": ""
       },
-      "actorId": "1137f062-f67c-4686-9857-0ffc1bf53aa5"
+      "actorId": "1137f062-f67c-4686-9857-0ffc1bf53aa5",
+      "name": "David Harbour"
     },
     {
       "character": {
         "name": "Rick Mason",
         "imageUrl": ""
       },
-      "actorId": "526fcf40-b67d-4a7c-9a14-75b0f5d845ac"
+      "actorId": "526fcf40-b67d-4a7c-9a14-75b0f5d845ac",
+      "name": "O-T Fagbenle"
     },
     {
       "character": {
         "name": "Antonia Dreykov / Taskmaster",
         "imageUrl": ""
       },
-      "actorId": "15e23497-1682-48a3-ab05-bebac8767fdb"
+      "actorId": "15e23497-1682-48a3-ab05-bebac8767fdb",
+      "name": "Olga Kurylenko"
     },
     {
       "character": {
         "name": "Dreykov",
         "imageUrl": ""
       },
-      "actorId": "71efd2a5-8858-43a4-9bd7-6e52a8eaee6d"
+      "actorId": "71efd2a5-8858-43a4-9bd7-6e52a8eaee6d",
+      "name": "Ray Winstone"
     }
   ],
   "collections": [

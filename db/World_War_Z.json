@@ -74,35 +74,40 @@
         "name": "Gerry Lane",
         "imageUrl": ""
       },
-      "actorId": "4d283681-5033-4240-a844-289f0fc4ab52"
+      "actorId": "4d283681-5033-4240-a844-289f0fc4ab52",
+      "name": "Brad Pitt"
     },
     {
       "character": {
         "name": "Karin Lane",
         "imageUrl": ""
       },
-      "actorId": "8f5a8c1a-d79b-48bf-852c-0fbe9f83b72a"
+      "actorId": "8f5a8c1a-d79b-48bf-852c-0fbe9f83b72a",
+      "name": "Mireille Enos"
     },
     {
       "character": {
         "name": "Segen",
         "imageUrl": ""
       },
-      "actorId": "d29a0b08-7442-4a32-a7ba-bb3c9ed0ba0b"
+      "actorId": "d29a0b08-7442-4a32-a7ba-bb3c9ed0ba0b",
+      "name": "Daniella Kertesz"
     },
     {
       "character": {
         "name": "Captain Speke",
         "imageUrl": ""
       },
-      "actorId": "f2da2980-78fb-46b3-a149-13dadb4637b9"
+      "actorId": "f2da2980-78fb-46b3-a149-13dadb4637b9",
+      "name": "James Badge Dale"
     },
     {
       "character": {
         "name": "Jurgen Warmbrunn",
         "imageUrl": ""
       },
-      "actorId": "a080b48b-1838-45bd-be09-e597b55dd762"
+      "actorId": "a080b48b-1838-45bd-be09-e597b55dd762",
+      "name": "Ludi Boeken"
     }
   ],
   "collections": [

@@ -81,28 +81,32 @@
         "name": "Jesper",
         "imageUrl": ""
       },
-      "actorId": "f26f7564-fa99-45cc-9374-cbab8b98aef0"
+      "actorId": "f26f7564-fa99-45cc-9374-cbab8b98aef0",
+      "name": "Jason Schwartzman"
     },
     {
       "character": {
         "name": "Klaus",
         "imageUrl": ""
       },
-      "actorId": "3034deb0-7b15-4310-b3c8-14a06daee243"
+      "actorId": "3034deb0-7b15-4310-b3c8-14a06daee243",
+      "name": "J.K. Simmons"
     },
     {
       "character": {
         "name": "Alva",
         "imageUrl": ""
       },
-      "actorId": "ef5e84b0-436b-45bd-ad69-10b4ec6373c7"
+      "actorId": "ef5e84b0-436b-45bd-ad69-10b4ec6373c7",
+      "name": "Rashida Jones"
     },
     {
       "character": {
         "name": "Mr. Ellingboe",
         "imageUrl": ""
       },
-      "actorId": "42624484-9e9b-4ffc-a510-9358264f60df"
+      "actorId": "42624484-9e9b-4ffc-a510-9358264f60df",
+      "name": "Will Sasso"
     }
   ],
   "collections": [

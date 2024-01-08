@@ -58,42 +58,48 @@
         "name": "Sullivan",
         "imageUrl": ""
       },
-      "actorId": "65a31ca4-0ada-434c-8129-81d10204f816"
+      "actorId": "65a31ca4-0ada-434c-8129-81d10204f816",
+      "name": "John Goodman"
     },
     {
       "character": {
         "name": "Mike",
         "imageUrl": ""
       },
-      "actorId": "40dcacbe-93b3-456b-94ba-000ae86e0da5"
+      "actorId": "40dcacbe-93b3-456b-94ba-000ae86e0da5",
+      "name": "Billy Crystal"
     },
     {
       "character": {
         "name": "Boo",
         "imageUrl": ""
       },
-      "actorId": "604590b1-86a9-4af9-ba4a-d19f5214bd7c"
+      "actorId": "604590b1-86a9-4af9-ba4a-d19f5214bd7c",
+      "name": "Mary Gibbs"
     },
     {
       "character": {
         "name": "Randall",
         "imageUrl": ""
       },
-      "actorId": "d6cf516b-3467-43a0-bfd6-b8d93a7993c1"
+      "actorId": "d6cf516b-3467-43a0-bfd6-b8d93a7993c1",
+      "name": "Steve Buscemi"
     },
     {
       "character": {
         "name": "Waternoose",
         "imageUrl": ""
       },
-      "actorId": "e5e37fb5-4e38-4ef3-94bf-099a020c47ad"
+      "actorId": "e5e37fb5-4e38-4ef3-94bf-099a020c47ad",
+      "name": "James Coburn"
     },
     {
       "character": {
         "name": "Celia",
         "imageUrl": ""
       },
-      "actorId": "4d761d67-8eb1-4c7d-a43d-aa2189a20d62"
+      "actorId": "4d761d67-8eb1-4c7d-a43d-aa2189a20d62",
+      "name": "Jennifer Tilly"
     }
   ],
   "collections": [

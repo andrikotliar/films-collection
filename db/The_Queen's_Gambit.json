@@ -74,63 +74,72 @@
         "name": "Beth Harmon",
         "imageUrl": ""
       },
-      "actorId": "0d18823d-a78f-46ea-b364-4b8450ef33bf"
+      "actorId": "0d18823d-a78f-46ea-b364-4b8450ef33bf",
+      "name": "Anya Taylor-Joy"
     },
     {
       "character": {
         "name": "Alice Harmon",
         "imageUrl": ""
       },
-      "actorId": "3f2daa8a-6c9e-4a9c-a491-abad8356adeb"
+      "actorId": "3f2daa8a-6c9e-4a9c-a491-abad8356adeb",
+      "name": "Chloe Pirrie"
     },
     {
       "character": {
         "name": "Mr. Shaibel",
         "imageUrl": ""
       },
-      "actorId": "53210443-6b2e-436d-8bb3-6524dc5db0fb"
+      "actorId": "53210443-6b2e-436d-8bb3-6524dc5db0fb",
+      "name": "Bill Camp"
     },
     {
       "character": {
         "name": "Vasily Borgov",
         "imageUrl": ""
       },
-      "actorId": "d00a6edb-a6b9-4d81-99e9-09dc8fa16b7d"
+      "actorId": "d00a6edb-a6b9-4d81-99e9-09dc8fa16b7d",
+      "name": "Marcin Dorocinski"
     },
     {
       "character": {
         "name": "Alma Wheatley",
         "imageUrl": ""
       },
-      "actorId": "a715a7f8-6fef-4523-8b85-70d9b8b01632"
+      "actorId": "a715a7f8-6fef-4523-8b85-70d9b8b01632",
+      "name": "Marielle Heller"
     },
     {
       "character": {
         "name": "Benny Watts",
         "imageUrl": ""
       },
-      "actorId": "601f50c2-ddda-4c74-bf4e-a8950ba7cd75"
+      "actorId": "601f50c2-ddda-4c74-bf4e-a8950ba7cd75",
+      "name": "Thomas Brodie-Sangster"
     },
     {
       "character": {
         "name": "Jolene",
         "imageUrl": ""
       },
-      "actorId": "9cfe14d1-abee-4898-ab58-4a46b9d5349c"
+      "actorId": "9cfe14d1-abee-4898-ab58-4a46b9d5349c",
+      "name": "Moses Ingram"
     },
     {
       "character": {
         "name": "Harry Beltik",
         "imageUrl": ""
       },
-      "actorId": "4884ad71-87ce-473e-be4c-32e5bc2fb671"
+      "actorId": "4884ad71-87ce-473e-be4c-32e5bc2fb671",
+      "name": "Harry Melling"
     },
     {
       "character": {
         "name": "Young Beth Harmon",
         "imageUrl": ""
       },
-      "actorId": "4adea2ce-6b1e-40ce-83f7-1d02b376c6f3"
+      "actorId": "4adea2ce-6b1e-40ce-83f7-1d02b376c6f3",
+      "name": "Isla Johnston"
     }
   ],
   "collections": [

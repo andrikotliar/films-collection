@@ -70,70 +70,80 @@
         "name": "Parzival / Wade",
         "imageUrl": ""
       },
-      "actorId": "8ed4060f-04cd-4a2f-8006-6198159b22d0"
+      "actorId": "8ed4060f-04cd-4a2f-8006-6198159b22d0",
+      "name": "Tye Sheridan"
     },
     {
       "character": {
         "name": "Art3mis / Samantha",
         "imageUrl": ""
       },
-      "actorId": "84b50a35-88a3-4dec-938e-f33e36dc1e93"
+      "actorId": "84b50a35-88a3-4dec-938e-f33e36dc1e93",
+      "name": "Olivia Cooke"
     },
     {
       "character": {
         "name": "Sorrento",
         "imageUrl": ""
       },
-      "actorId": "c001e778-8f5f-4626-983c-e492f2a1bb3e"
+      "actorId": "c001e778-8f5f-4626-983c-e492f2a1bb3e",
+      "name": "Ben Mendelsohn"
     },
     {
       "character": {
         "name": "Aech / Helen",
         "imageUrl": ""
       },
-      "actorId": "7ca74401-03c7-4ddc-8aa1-ca2fd15a32d0"
+      "actorId": "7ca74401-03c7-4ddc-8aa1-ca2fd15a32d0",
+      "name": "Lena Waithe"
     },
     {
       "character": {
         "name": "I-R0k",
         "imageUrl": ""
       },
-      "actorId": "aeea5387-89bf-4fd7-a9b9-85f6b4537a57"
+      "actorId": "aeea5387-89bf-4fd7-a9b9-85f6b4537a57",
+      "name": "T.J. Miller"
     },
     {
       "character": {
         "name": "Curator / Ogden Morrow",
         "imageUrl": ""
       },
-      "actorId": "265bd112-e4bd-4d75-878c-cd5c60d2d034"
+      "actorId": "265bd112-e4bd-4d75-878c-cd5c60d2d034",
+      "name": "Simon Pegg"
     },
     {
       "character": {
         "name": "Anorak / Halliday",
         "imageUrl": ""
       },
-      "actorId": "c707791f-9c30-4064-a58c-8ac30e9fe3d5"
+      "actorId": "c707791f-9c30-4064-a58c-8ac30e9fe3d5",
+      "name": "Mark Rylance"
     },
     {
       "character": {
         "name": "Sho",
         "imageUrl": ""
       },
-      "actorId": "def92beb-3e50-4552-b3fb-5cba4724dd79"
+      "actorId": "def92beb-3e50-4552-b3fb-5cba4724dd79",
+      "name": "Philip Zhao"
     },
     {
       "character": {
         "name": "Daito",
         "imageUrl": ""
       },
-      "actorId": "9c89d816-71b5-4997-8024-2eac807fc7c3"
+      "actorId": "9c89d816-71b5-4997-8024-2eac807fc7c3",
+      "name": "Win Morisaki"
     },
     {
       "character": {
         "name": "F'Nale Zandor",
         "imageUrl": ""
       },
-      "actorId": "23ed1b6c-63ab-4111-a1cc-f8923fc3153c"
+      "actorId": "23ed1b6c-63ab-4111-a1cc-f8923fc3153c",
+      "name": "Hannah John-Kamen"
     }
   ],
   "collections": [

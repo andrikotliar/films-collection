@@ -66,49 +66,56 @@
         "name": "Brian O'Conner",
         "imageUrl": ""
       },
-      "actorId": "2c49887f-4365-4050-9ad8-0dfebb5556e6"
+      "actorId": "2c49887f-4365-4050-9ad8-0dfebb5556e6",
+      "name": "Paul Walker"
     },
     {
       "character": {
         "name": "Roman Pearce",
         "imageUrl": ""
       },
-      "actorId": "d590cae8-3171-41ca-968c-1bbb1b425aa8"
+      "actorId": "d590cae8-3171-41ca-968c-1bbb1b425aa8",
+      "name": "Tyrese Gibson"
     },
     {
       "character": {
         "name": "Monica Fuentes",
         "imageUrl": ""
       },
-      "actorId": "d6324ad7-dfed-40b0-911b-6cfa1d39f79c"
+      "actorId": "d6324ad7-dfed-40b0-911b-6cfa1d39f79c",
+      "name": "Eva Mendes"
     },
     {
       "character": {
         "name": "Carter Verone",
         "imageUrl": ""
       },
-      "actorId": "f2a27f30-df8e-4421-bb2f-9a07e09a5b40"
+      "actorId": "f2a27f30-df8e-4421-bb2f-9a07e09a5b40",
+      "name": "Cole Hauser"
     },
     {
       "character": {
         "name": "Tej",
         "imageUrl": ""
       },
-      "actorId": "a07a4f82-9579-40d3-97d8-9dd2d0904023"
+      "actorId": "a07a4f82-9579-40d3-97d8-9dd2d0904023",
+      "name": "Ludacris"
     },
     {
       "character": {
         "name": "Agent Markham",
         "imageUrl": ""
       },
-      "actorId": "7c9d793a-2f26-4517-9d68-37f21dc42731"
+      "actorId": "7c9d793a-2f26-4517-9d68-37f21dc42731",
+      "name": "James Remar"
     },
     {
       "character": {
         "name": "Suki",
         "imageUrl": ""
       },
-      "actorId": "d62cb22e-2e82-4140-bce7-1e5a15981d83"
+      "actorId": "d62cb22e-2e82-4140-bce7-1e5a15981d83",
+      "name": "Devon Aoki"
     }
   ],
   "collections": [

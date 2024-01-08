@@ -69,63 +69,72 @@
         "name": "Rick O'Connell",
         "imageUrl": ""
       },
-      "actorId": "3de23e91-0482-4ab0-9c13-fb63ce05d2b1"
+      "actorId": "3de23e91-0482-4ab0-9c13-fb63ce05d2b1",
+      "name": "Brendan Fraser"
     },
     {
       "character": {
         "name": "Emperor",
         "imageUrl": ""
       },
-      "actorId": "5df44a8b-c543-4f39-bc52-637578784a09"
+      "actorId": "5df44a8b-c543-4f39-bc52-637578784a09",
+      "name": "Jet Li"
     },
     {
       "character": {
         "name": "Evelyn O'Connell",
         "imageUrl": ""
       },
-      "actorId": "b45e2aeb-f69d-43b6-9a17-6cbede60bfc6"
+      "actorId": "b45e2aeb-f69d-43b6-9a17-6cbede60bfc6",
+      "name": "Maria Bello"
     },
     {
       "character": {
         "name": "Jonathan Carnahan",
         "imageUrl": ""
       },
-      "actorId": "920b8742-53bc-4c27-ba6a-65288909607c"
+      "actorId": "920b8742-53bc-4c27-ba6a-65288909607c",
+      "name": "John Hannah"
     },
     {
       "character": {
         "name": "Zi Yuan",
         "imageUrl": ""
       },
-      "actorId": "25602f53-feec-43e3-8824-4273faf17a49"
+      "actorId": "25602f53-feec-43e3-8824-4273faf17a49",
+      "name": "Michelle Yeoh"
     },
     {
       "character": {
         "name": "Alex O'Connell",
         "imageUrl": ""
       },
-      "actorId": "ee979a17-a72f-410f-988a-d6dfd4fd2791"
+      "actorId": "ee979a17-a72f-410f-988a-d6dfd4fd2791",
+      "name": "Luke Ford"
     },
     {
       "character": {
         "name": "Lin",
         "imageUrl": ""
       },
-      "actorId": "376286bb-e5ea-4888-931c-c962b8074517"
+      "actorId": "376286bb-e5ea-4888-931c-c962b8074517",
+      "name": "Isabella Leong"
     },
     {
       "character": {
         "name": "Ming Guo",
         "imageUrl": ""
       },
-      "actorId": "417d3811-c0c7-4855-ad58-da45bcaf324c"
+      "actorId": "417d3811-c0c7-4855-ad58-da45bcaf324c",
+      "name": "Russell Wong"
     },
     {
       "character": {
         "name": "Maguire",
         "imageUrl": ""
       },
-      "actorId": "5f2d9342-c192-478c-93c5-92dce2e87141"
+      "actorId": "5f2d9342-c192-478c-93c5-92dce2e87141",
+      "name": "Liam Cunningham"
     }
   ],
   "collections": [

@@ -74,35 +74,40 @@
         "name": "Jake Sully",
         "imageUrl": ""
       },
-      "actorId": "231acbe9-f5fd-46fb-84ad-0a0ea009f828"
+      "actorId": "231acbe9-f5fd-46fb-84ad-0a0ea009f828",
+      "name": "Sam Worthington"
     },
     {
       "character": {
         "name": "Neytiri",
         "imageUrl": ""
       },
-      "actorId": "23e53bab-62a5-43a6-99a4-f61d68612d7d"
+      "actorId": "23e53bab-62a5-43a6-99a4-f61d68612d7d",
+      "name": "Zoe Saldana"
     },
     {
       "character": {
         "name": "Kiri",
         "imageUrl": ""
       },
-      "actorId": "2cf2b71a-2fe4-4ac9-a7a3-6ea1a9985770"
+      "actorId": "2cf2b71a-2fe4-4ac9-a7a3-6ea1a9985770",
+      "name": "Sigourney Weaver"
     },
     {
       "character": {
         "name": "Quaritch",
         "imageUrl": ""
       },
-      "actorId": "34a6cfdf-8d07-4ce7-b0fb-684b9cc105dc"
+      "actorId": "34a6cfdf-8d07-4ce7-b0fb-684b9cc105dc",
+      "name": "Stephen Lang"
     },
     {
       "character": {
         "name": "Ronal",
         "imageUrl": ""
       },
-      "actorId": "2399b787-01d5-4372-83db-b4ba3d0730ea"
+      "actorId": "2399b787-01d5-4372-83db-b4ba3d0730ea",
+      "name": "Kate Winslet"
     },
     {
       "name": "Cliff Curtis",
@@ -117,7 +122,8 @@
         "name": "Norm",
         "imageUrl": ""
       },
-      "actorId": "310ca9d3-c632-4a93-89f2-f7a539cad1bb"
+      "actorId": "310ca9d3-c632-4a93-89f2-f7a539cad1bb",
+      "name": "Joel David Moore"
     },
     {
       "name": "Jamie Flatters",

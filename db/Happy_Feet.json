@@ -80,56 +80,64 @@
         "name": "Mumble",
         "imageUrl": ""
       },
-      "actorId": "5e154ae5-94f0-4d0e-9dfc-641120e4a219"
+      "actorId": "5e154ae5-94f0-4d0e-9dfc-641120e4a219",
+      "name": "Elijah Wood"
     },
     {
       "character": {
         "name": "Gloria",
         "imageUrl": ""
       },
-      "actorId": "21a45d21-a973-48dc-80fd-2052acdc8e0c"
+      "actorId": "21a45d21-a973-48dc-80fd-2052acdc8e0c",
+      "name": "Brittany Murphy"
     },
     {
       "character": {
         "name": "Memphis",
         "imageUrl": ""
       },
-      "actorId": "3e2db4d6-df90-4736-9425-c1fd062d8868"
+      "actorId": "3e2db4d6-df90-4736-9425-c1fd062d8868",
+      "name": "Hugh Jackman"
     },
     {
       "character": {
         "name": "Norma Jean",
         "imageUrl": ""
       },
-      "actorId": "84e268fd-c575-4110-b9fd-445576e64a0d"
+      "actorId": "84e268fd-c575-4110-b9fd-445576e64a0d",
+      "name": "Nicole Kidman"
     },
     {
       "character": {
         "name": "Noah the Elder",
         "imageUrl": ""
       },
-      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
+      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139",
+      "name": "Hugo Weaving"
     },
     {
       "character": {
         "name": "Nestor",
         "imageUrl": ""
       },
-      "actorId": "0093079e-056f-4cde-89e2-fe33cec183f3"
+      "actorId": "0093079e-056f-4cde-89e2-fe33cec183f3",
+      "name": "Carlos Alazraqui"
     },
     {
       "character": {
         "name": "Raul",
         "imageUrl": ""
       },
-      "actorId": "b00ba397-076c-4be3-951a-c99cf6f30f0a"
+      "actorId": "b00ba397-076c-4be3-951a-c99cf6f30f0a",
+      "name": "Lombardo Boyar"
     },
     {
       "character": {
         "name": "Ramon / Lovelace",
         "imageUrl": ""
       },
-      "actorId": "9b0a7320-fca2-4be3-80a2-5d8e534860ae"
+      "actorId": "9b0a7320-fca2-4be3-80a2-5d8e534860ae",
+      "name": "Robin Williams"
     }
   ],
   "collections": [

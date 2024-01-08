@@ -73,70 +73,80 @@
         "name": "Scott Lang / Ant-Man",
         "imageUrl": ""
       },
-      "actorId": "cd9b8e2c-3973-46fb-a71a-7df6ca9c5b2e"
+      "actorId": "cd9b8e2c-3973-46fb-a71a-7df6ca9c5b2e",
+      "name": "Paul Rudd"
     },
     {
       "character": {
         "name": "Dr. Hank Pym",
         "imageUrl": ""
       },
-      "actorId": "485694d1-0656-4c1e-ae30-2e46af4b7df1"
+      "actorId": "485694d1-0656-4c1e-ae30-2e46af4b7df1",
+      "name": "Michael Douglas"
     },
     {
       "character": {
         "name": "Hope van Dyne",
         "imageUrl": ""
       },
-      "actorId": "99d66277-33ee-47bc-874a-9390edbd1ead"
+      "actorId": "99d66277-33ee-47bc-874a-9390edbd1ead",
+      "name": "Evangeline Lilly"
     },
     {
       "character": {
         "name": "Darren Cross / Yellowjacket",
         "imageUrl": ""
       },
-      "actorId": "c5a329bd-eefd-46be-bbfe-1bdfe4b9aa57"
+      "actorId": "c5a329bd-eefd-46be-bbfe-1bdfe4b9aa57",
+      "name": "Corey Stoll"
     },
     {
       "character": {
         "name": "Paxton",
         "imageUrl": ""
       },
-      "actorId": "929b7475-8e3f-4326-b8f5-f45c441c3bbf"
+      "actorId": "929b7475-8e3f-4326-b8f5-f45c441c3bbf",
+      "name": "Bobby Cannavale"
     },
     {
       "character": {
         "name": "Sam Wilson / Falcon",
         "imageUrl": ""
       },
-      "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0"
+      "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0",
+      "name": "Anthony Mackie"
     },
     {
       "character": {
         "name": "Maggie Lang",
         "imageUrl": ""
       },
-      "actorId": "b999e11f-6bb6-4cfc-b668-ca5ee377a087"
+      "actorId": "b999e11f-6bb6-4cfc-b668-ca5ee377a087",
+      "name": "Judy Greer"
     },
     {
       "character": {
         "name": "Cassie Lang",
         "imageUrl": ""
       },
-      "actorId": "b34fadf6-773e-44dc-9f06-e3919da95db9"
+      "actorId": "b34fadf6-773e-44dc-9f06-e3919da95db9",
+      "name": "Abby Ryder Fortson"
     },
     {
       "character": {
         "name": "Luis",
         "imageUrl": ""
       },
-      "actorId": "1bffcd51-f602-47df-b924-f575be9234f1"
+      "actorId": "1bffcd51-f602-47df-b924-f575be9234f1",
+      "name": "Michael Pena"
     },
     {
       "character": {
         "name": "Kurt",
         "imageUrl": ""
       },
-      "actorId": "80863320-fecd-40ed-843c-d83ea21fb63b"
+      "actorId": "80863320-fecd-40ed-843c-d83ea21fb63b",
+      "name": "David Dastmalchian"
     }
   ],
   "collections": [

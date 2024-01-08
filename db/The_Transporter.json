@@ -72,35 +72,40 @@
         "name": "Frank Martin",
         "imageUrl": ""
       },
-      "actorId": "4a36ad60-4af7-44a4-85e7-879a11ec7b2e"
+      "actorId": "4a36ad60-4af7-44a4-85e7-879a11ec7b2e",
+      "name": "Jason Statham"
     },
     {
       "character": {
         "name": "Lai",
         "imageUrl": ""
       },
-      "actorId": "6418e78f-115f-4d0d-be2b-8cce366ddc5e"
+      "actorId": "6418e78f-115f-4d0d-be2b-8cce366ddc5e",
+      "name": "Qi Shu"
     },
     {
       "character": {
         "name": "Wall Street",
         "imageUrl": ""
       },
-      "actorId": "0fd1fa5e-8a53-4439-a14d-6617087c7830"
+      "actorId": "0fd1fa5e-8a53-4439-a14d-6617087c7830",
+      "name": "Matt Schulze"
     },
     {
       "character": {
         "name": "Inspector Tarconi",
         "imageUrl": ""
       },
-      "actorId": "18075778-b409-47e7-8d3a-2b296d3908e3"
+      "actorId": "18075778-b409-47e7-8d3a-2b296d3908e3",
+      "name": "François Berléand"
     },
     {
       "character": {
         "name": "Mr. Kwai",
         "imageUrl": ""
       },
-      "actorId": "92158669-59a0-4b74-b424-dcc0ea2f9e5f"
+      "actorId": "92158669-59a0-4b74-b424-dcc0ea2f9e5f",
+      "name": "Ric Young"
     }
   ],
   "collections": [

@@ -69,49 +69,56 @@
         "name": "Charlie Kenton",
         "imageUrl": ""
       },
-      "actorId": "3e2db4d6-df90-4736-9425-c1fd062d8868"
+      "actorId": "3e2db4d6-df90-4736-9425-c1fd062d8868",
+      "name": "Hugh Jackman"
     },
     {
       "character": {
         "name": "Max Kenton",
         "imageUrl": ""
       },
-      "actorId": "a55c462f-fef6-4523-a6fc-3012c985217f"
+      "actorId": "a55c462f-fef6-4523-a6fc-3012c985217f",
+      "name": "Dakota Goyo"
     },
     {
       "character": {
         "name": "Bailey Tallet",
         "imageUrl": ""
       },
-      "actorId": "99d66277-33ee-47bc-874a-9390edbd1ead"
+      "actorId": "99d66277-33ee-47bc-874a-9390edbd1ead",
+      "name": "Evangeline Lilly"
     },
     {
       "character": {
         "name": "Finn",
         "imageUrl": ""
       },
-      "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0"
+      "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0",
+      "name": "Anthony Mackie"
     },
     {
       "character": {
         "name": "Ricky",
         "imageUrl": ""
       },
-      "actorId": "a19ebdf4-6120-4ec4-9227-97bb86e782ad"
+      "actorId": "a19ebdf4-6120-4ec4-9227-97bb86e782ad",
+      "name": "Kevin Durand"
     },
     {
       "character": {
         "name": "Aunt Debra",
         "imageUrl": ""
       },
-      "actorId": "50af80e3-1919-4abe-8464-0051e239cc4e"
+      "actorId": "50af80e3-1919-4abe-8464-0051e239cc4e",
+      "name": "Hope Davis"
     },
     {
       "character": {
         "name": "Marvin",
         "imageUrl": ""
       },
-      "actorId": "4d78f2d9-29a4-44d3-9285-c65b82c1a447"
+      "actorId": "4d78f2d9-29a4-44d3-9285-c65b82c1a447",
+      "name": "James Rebhorn"
     }
   ],
   "collections": [

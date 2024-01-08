@@ -67,63 +67,72 @@
         "name": "Luke Skywalker",
         "imageUrl": ""
       },
-      "actorId": "4ff433ee-f363-4b38-8332-62b5ffece7dd"
+      "actorId": "4ff433ee-f363-4b38-8332-62b5ffece7dd",
+      "name": "Mark Hamill"
     },
     {
       "character": {
         "name": "Han Solo",
         "imageUrl": ""
       },
-      "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80"
+      "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80",
+      "name": "Harrison Ford"
     },
     {
       "character": {
         "name": "Leia",
         "imageUrl": ""
       },
-      "actorId": "3b974652-594d-4835-b73b-a497a2c849f9"
+      "actorId": "3b974652-594d-4835-b73b-a497a2c849f9",
+      "name": "Carrie Fisher"
     },
     {
       "character": {
         "name": "Lando Calrissian",
         "imageUrl": ""
       },
-      "actorId": "986b8275-a080-40bd-9ba8-afebee2973c8"
+      "actorId": "986b8275-a080-40bd-9ba8-afebee2973c8",
+      "name": "Billy Dee Williams"
     },
     {
       "character": {
         "name": "C-3PO",
         "imageUrl": ""
       },
-      "actorId": "ee52d40c-12c0-417d-a413-491b049e76c3"
+      "actorId": "ee52d40c-12c0-417d-a413-491b049e76c3",
+      "name": "Anthony Daniels"
     },
     {
       "character": {
         "name": "Darth Vader",
         "imageUrl": ""
       },
-      "actorId": "4e9f83a6-617f-441f-b2a8-d030470d53a1"
+      "actorId": "4e9f83a6-617f-441f-b2a8-d030470d53a1",
+      "name": "David Prowse"
     },
     {
       "character": {
         "name": "Chewbacca",
         "imageUrl": ""
       },
-      "actorId": "b8f8ccea-b603-4414-8cf3-0d64cea77c19"
+      "actorId": "b8f8ccea-b603-4414-8cf3-0d64cea77c19",
+      "name": "Peter Mayhew"
     },
     {
       "character": {
         "name": "R2-D2",
         "imageUrl": ""
       },
-      "actorId": "373e6326-e3e5-4084-86cf-b2eb743441e0"
+      "actorId": "373e6326-e3e5-4084-86cf-b2eb743441e0",
+      "name": "Kenny Baker"
     },
     {
       "character": {
         "name": "Yoda",
         "imageUrl": ""
       },
-      "actorId": "11e3cf6a-7cbb-46ab-a58b-681d70c0d69c"
+      "actorId": "11e3cf6a-7cbb-46ab-a58b-681d70c0d69c",
+      "name": "Frank Oz"
     }
   ],
   "collections": [

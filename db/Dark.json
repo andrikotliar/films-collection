@@ -104,175 +104,200 @@
         "name": "Jonas Kahnwald",
         "imageUrl": ""
       },
-      "actorId": "3c0086c5-98c8-4f99-965e-ba36c3a3a30c"
+      "actorId": "3c0086c5-98c8-4f99-965e-ba36c3a3a30c",
+      "name": "Louis Hofmann"
     },
     {
       "character": {
         "name": "Charlotte Doppler",
         "imageUrl": ""
       },
-      "actorId": "c5d87c53-d872-4f4f-9e22-57c1bec06b6f"
+      "actorId": "c5d87c53-d872-4f4f-9e22-57c1bec06b6f",
+      "name": "Karoline Eichhorn"
     },
     {
       "character": {
         "name": "Martha Nielsen",
         "imageUrl": ""
       },
-      "actorId": "bb66bb33-bab9-42c3-a9c4-023cf055f622"
+      "actorId": "bb66bb33-bab9-42c3-a9c4-023cf055f622",
+      "name": "Lisa Vicari"
     },
     {
       "character": {
         "name": "Hannah Kahnwald",
         "imageUrl": ""
       },
-      "actorId": "6963651f-d18e-41e2-b05d-b7790d99ebd2"
+      "actorId": "6963651f-d18e-41e2-b05d-b7790d99ebd2",
+      "name": "Maja Schöne"
     },
     {
       "character": {
         "name": "Peter Doppler",
         "imageUrl": ""
       },
-      "actorId": "fde0d7f1-aa72-4685-9b1c-2e02ec251727"
+      "actorId": "fde0d7f1-aa72-4685-9b1c-2e02ec251727",
+      "name": "Stephan Kampwirth"
     },
     {
       "character": {
         "name": "Katharina Nielsen",
         "imageUrl": ""
       },
-      "actorId": "2c8fcc83-544f-4e9a-91d7-43f3c7ed3126"
+      "actorId": "2c8fcc83-544f-4e9a-91d7-43f3c7ed3126",
+      "name": "Jördis Triebel"
     },
     {
       "character": {
         "name": "The Stranger",
         "imageUrl": ""
       },
-      "actorId": "8f326beb-1d0f-49d8-8eba-1a05747c92e3"
+      "actorId": "8f326beb-1d0f-49d8-8eba-1a05747c92e3",
+      "name": "Andreas Pietschmann"
     },
     {
       "character": {
         "name": "Bartosz Tiedemann",
         "imageUrl": ""
       },
-      "actorId": "2a27bdd9-2bf9-4ff0-b027-ddeea932fccb"
+      "actorId": "2a27bdd9-2bf9-4ff0-b027-ddeea932fccb",
+      "name": "Paul Lux"
     },
     {
       "character": {
         "name": "Magnus Nielsen",
         "imageUrl": ""
       },
-      "actorId": "afa7cf04-0b8d-4d99-bb5b-96722a426b7d"
+      "actorId": "afa7cf04-0b8d-4d99-bb5b-96722a426b7d",
+      "name": "Moritz Jahn"
     },
     {
       "character": {
         "name": "Magnus Nielsen",
         "imageUrl": ""
       },
-      "actorId": "f41ebb57-bc97-4a33-81ff-ec8c4e88d233"
+      "actorId": "f41ebb57-bc97-4a33-81ff-ec8c4e88d233",
+      "name": "Christian Hutcherson"
     },
     {
       "character": {
         "name": "Ulrich Nielsen",
         "imageUrl": ""
       },
-      "actorId": "3f172e4c-5548-46fe-8baa-c20d577b64b7"
+      "actorId": "3f172e4c-5548-46fe-8baa-c20d577b64b7",
+      "name": "Oliver Masucci"
     },
     {
       "character": {
         "name": "Aleksander Tiedemann",
         "imageUrl": ""
       },
-      "actorId": "84afba6b-8e87-41a9-b590-a0cff90bea01"
+      "actorId": "84afba6b-8e87-41a9-b590-a0cff90bea01",
+      "name": "Peter Benedict"
     },
     {
       "character": {
         "name": "Franziska Doppler",
         "imageUrl": ""
       },
-      "actorId": "84f5d912-2084-4ce4-b4b0-fa45e712264d"
+      "actorId": "84f5d912-2084-4ce4-b4b0-fa45e712264d",
+      "name": "Gina Stiebitz"
     },
     {
       "character": {
         "name": "Regina Tiedemann",
         "imageUrl": ""
       },
-      "actorId": "013234f3-cb62-4313-8d8b-046981ab48ba"
+      "actorId": "013234f3-cb62-4313-8d8b-046981ab48ba",
+      "name": "Deborah Kaufmann"
     },
     {
       "character": {
         "name": "Claudia Tiedemann (1987)",
         "imageUrl": ""
       },
-      "actorId": "35414a7b-36be-4e43-9db4-f99a0bd429ae"
+      "actorId": "35414a7b-36be-4e43-9db4-f99a0bd429ae",
+      "name": "Julika Jenkins"
     },
     {
       "character": {
         "name": "Elisabeth Doppler",
         "imageUrl": ""
       },
-      "actorId": "4dead87c-8e15-4310-b7bb-fd71afbfb6a4"
+      "actorId": "4dead87c-8e15-4310-b7bb-fd71afbfb6a4",
+      "name": "Carlotta von Falkenhayn"
     },
     {
       "character": {
         "name": "Adam",
         "imageUrl": ""
       },
-      "actorId": "6e6dcc35-9d34-4411-b799-6a02683c384f"
+      "actorId": "6e6dcc35-9d34-4411-b799-6a02683c384f",
+      "name": "Dietrich Hollinderbäumer"
     },
     {
       "character": {
         "name": "Noah",
         "imageUrl": ""
       },
-      "actorId": "6a75d356-05a9-45f4-8bec-ea7f4735fc5e"
+      "actorId": "6a75d356-05a9-45f4-8bec-ea7f4735fc5e",
+      "name": "Mark Waschke"
     },
     {
       "character": {
         "name": "Helge Doppler",
         "imageUrl": ""
       },
-      "actorId": "6eed0b8a-5060-41ad-9f63-27c03adf2db4"
+      "actorId": "6eed0b8a-5060-41ad-9f63-27c03adf2db4",
+      "name": "Hermann Beyer"
     },
     {
       "character": {
         "name": "Claudia Tiedemann",
         "imageUrl": ""
       },
-      "actorId": "f61e582e-cf6e-4a3e-84ea-518d6c5748f0"
+      "actorId": "f61e582e-cf6e-4a3e-84ea-518d6c5748f0",
+      "name": "Lisa Kreuzer"
     },
     {
       "character": {
         "name": "Ines Kahnwald (1986)",
         "imageUrl": ""
       },
-      "actorId": "faf188fc-912f-4373-a532-ef1033edccb6"
+      "actorId": "faf188fc-912f-4373-a532-ef1033edccb6",
+      "name": "Anne Ratte-Polle"
     },
     {
       "character": {
         "name": "Tronte Nielsen",
         "imageUrl": ""
       },
-      "actorId": "e8731e54-83ba-456d-9485-7f8cb2c69147"
+      "actorId": "e8731e54-83ba-456d-9485-7f8cb2c69147",
+      "name": "Walter Kreye"
     },
     {
       "character": {
         "name": "Regina Tiedemann (1986)",
         "imageUrl": ""
       },
-      "actorId": "2de67189-b3ca-4acf-a3d3-dc6978a19ee6"
+      "actorId": "2de67189-b3ca-4acf-a3d3-dc6978a19ee6",
+      "name": "Lydia Maria Makrides"
     },
     {
       "character": {
         "name": "Helge Doppler (1953)",
         "imageUrl": ""
       },
-      "actorId": "e09bdc7e-0fb0-4c11-b0a6-5cf41b4afdc6"
+      "actorId": "e09bdc7e-0fb0-4c11-b0a6-5cf41b4afdc6",
+      "name": "Tom Philipp"
     },
     {
       "character": {
         "name": "Young Noah",
         "imageUrl": ""
       },
-      "actorId": "ae6cd46f-4db3-48ab-a9e9-fcd2cf7a3e50"
+      "actorId": "ae6cd46f-4db3-48ab-a9e9-fcd2cf7a3e50",
+      "name": "Max Schimmelpfennig"
     }
   ],
   "collections": [

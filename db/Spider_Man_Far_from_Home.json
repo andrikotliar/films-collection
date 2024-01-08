@@ -70,42 +70,48 @@
         "name": "Peter Parker / Spider-Man",
         "imageUrl": ""
       },
-      "actorId": "f70d14d5-2f1a-46a1-8462-bdf6fc18141a"
+      "actorId": "f70d14d5-2f1a-46a1-8462-bdf6fc18141a",
+      "name": "Tom Holland"
     },
     {
       "character": {
         "name": "Quentin Beck / Mysterio",
         "imageUrl": ""
       },
-      "actorId": "2d1069c2-2eb5-45c8-b4bd-db7be5015638"
+      "actorId": "2d1069c2-2eb5-45c8-b4bd-db7be5015638",
+      "name": "Jake Gyllenhaal"
     },
     {
       "character": {
         "name": "Nick Fury",
         "imageUrl": ""
       },
-      "actorId": "65e7e9e0-8e37-4237-9b23-a1f8a2d09147"
+      "actorId": "65e7e9e0-8e37-4237-9b23-a1f8a2d09147",
+      "name": "Samuel L. Jackson"
     },
     {
       "character": {
         "name": "May Parker",
         "imageUrl": ""
       },
-      "actorId": "1044cb86-56b7-4895-bef0-c7fe6683dcd9"
+      "actorId": "1044cb86-56b7-4895-bef0-c7fe6683dcd9",
+      "name": "Marisa Tomei"
     },
     {
       "character": {
         "name": "Happy Hogan",
         "imageUrl": ""
       },
-      "actorId": "d8678c6b-5c51-4775-99ea-aebeb97a28e8"
+      "actorId": "d8678c6b-5c51-4775-99ea-aebeb97a28e8",
+      "name": "Jon Favreau"
     },
     {
       "character": {
         "name": "MJ",
         "imageUrl": ""
       },
-      "actorId": "c8eeb8d9-51c3-4833-a31d-ec18431eaf71"
+      "actorId": "c8eeb8d9-51c3-4833-a31d-ec18431eaf71",
+      "name": "Zendaya"
     }
   ],
   "collections": [

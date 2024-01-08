@@ -66,49 +66,56 @@
         "name": "Capt. Steven Hiller",
         "imageUrl": ""
       },
-      "actorId": "0e631141-1b4a-4ed9-8325-5a1947f08404"
+      "actorId": "0e631141-1b4a-4ed9-8325-5a1947f08404",
+      "name": "Will Smith"
     },
     {
       "character": {
         "name": "President Thomas J. Whitmore",
         "imageUrl": ""
       },
-      "actorId": "2449a2ef-3c99-44af-ae83-2f96799ec659"
+      "actorId": "2449a2ef-3c99-44af-ae83-2f96799ec659",
+      "name": "Bill Pullman"
     },
     {
       "character": {
         "name": "David Levinson",
         "imageUrl": ""
       },
-      "actorId": "6b539e14-5cb0-4aa4-b194-4f1f240d0f64"
+      "actorId": "6b539e14-5cb0-4aa4-b194-4f1f240d0f64",
+      "name": "Jeff Goldblum"
     },
     {
       "character": {
         "name": "Marilyn Whitmore",
         "imageUrl": ""
       },
-      "actorId": "fa598310-94d8-4ca9-b215-304b5ad9d757"
+      "actorId": "fa598310-94d8-4ca9-b215-304b5ad9d757",
+      "name": "Mary McDonnell"
     },
     {
       "character": {
         "name": "Julius Levinson",
         "imageUrl": ""
       },
-      "actorId": "4382029a-4879-43ce-a7d8-f8f402b9e2c6"
+      "actorId": "4382029a-4879-43ce-a7d8-f8f402b9e2c6",
+      "name": "Judd Hirsch"
     },
     {
       "character": {
         "name": "General William Grey",
         "imageUrl": ""
       },
-      "actorId": "268cf111-e57d-43bf-97c6-300316c3ff7f"
+      "actorId": "268cf111-e57d-43bf-97c6-300316c3ff7f",
+      "name": "Robert Loggia"
     },
     {
       "character": {
         "name": "Russell Casse",
         "imageUrl": ""
       },
-      "actorId": "b87d24b2-bd89-40ca-af77-e5a70713ba4d"
+      "actorId": "b87d24b2-bd89-40ca-af77-e5a70713ba4d",
+      "name": "Randy Quaid"
     }
   ],
   "collections": [

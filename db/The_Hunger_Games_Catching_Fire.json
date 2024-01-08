@@ -69,42 +69,48 @@
         "name": "Katniss Everdeen",
         "imageUrl": ""
       },
-      "actorId": "29b99567-4a10-4246-9bb2-26b55a9c1e63"
+      "actorId": "29b99567-4a10-4246-9bb2-26b55a9c1e63",
+      "name": "Jennifer Lawrence"
     },
     {
       "character": {
         "name": "Peeta Mellark",
         "imageUrl": ""
       },
-      "actorId": "1d56e82b-951f-4350-acb3-dca0d17311b1"
+      "actorId": "1d56e82b-951f-4350-acb3-dca0d17311b1",
+      "name": "Josh Hutcherson"
     },
     {
       "character": {
         "name": "Gale Hawthorne",
         "imageUrl": ""
       },
-      "actorId": "81b174dd-c5ab-426e-83b8-d5ba3b75881e"
+      "actorId": "81b174dd-c5ab-426e-83b8-d5ba3b75881e",
+      "name": "Liam Hemsworth"
     },
     {
       "character": {
         "name": "Haymitch Abernathy",
         "imageUrl": ""
       },
-      "actorId": "29fcbe6e-884b-4b15-894b-1bb691c26c36"
+      "actorId": "29fcbe6e-884b-4b15-894b-1bb691c26c36",
+      "name": "Woody Harrelson"
     },
     {
       "character": {
         "name": "Effie Trinket",
         "imageUrl": ""
       },
-      "actorId": "0731af77-ccc4-4542-b7b8-063a23dfc03e"
+      "actorId": "0731af77-ccc4-4542-b7b8-063a23dfc03e",
+      "name": "Elizabeth Banks"
     },
     {
       "character": {
         "name": "President Coriolanus Snow",
         "imageUrl": ""
       },
-      "actorId": "415a20c6-1d1f-4ede-b4d9-5b52bb3d6156"
+      "actorId": "415a20c6-1d1f-4ede-b4d9-5b52bb3d6156",
+      "name": "Donald Sutherland"
     }
   ],
   "collections": [

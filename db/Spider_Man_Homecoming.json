@@ -76,63 +76,72 @@
         "name": "Adrian Toomes / Vulture",
         "imageUrl": ""
       },
-      "actorId": "bc56268b-56b9-482c-8883-55fc4825a213"
+      "actorId": "bc56268b-56b9-482c-8883-55fc4825a213",
+      "name": "Michael Keaton"
     },
     {
       "character": {
         "name": "Peter Parker / Spider-Man",
         "imageUrl": ""
       },
-      "actorId": "f70d14d5-2f1a-46a1-8462-bdf6fc18141a"
+      "actorId": "f70d14d5-2f1a-46a1-8462-bdf6fc18141a",
+      "name": "Tom Holland"
     },
     {
       "character": {
         "name": "Tony Stark / Iron Man",
         "imageUrl": ""
       },
-      "actorId": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e"
+      "actorId": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e",
+      "name": "Robert Downey Jr."
     },
     {
       "character": {
         "name": "May Parker",
         "imageUrl": ""
       },
-      "actorId": "1044cb86-56b7-4895-bef0-c7fe6683dcd9"
+      "actorId": "1044cb86-56b7-4895-bef0-c7fe6683dcd9",
+      "name": "Marisa Tomei"
     },
     {
       "character": {
         "name": "Happy Hogan",
         "imageUrl": ""
       },
-      "actorId": "d8678c6b-5c51-4775-99ea-aebeb97a28e8"
+      "actorId": "d8678c6b-5c51-4775-99ea-aebeb97a28e8",
+      "name": "Jon Favreau"
     },
     {
       "character": {
         "name": "Pepper Potts",
         "imageUrl": ""
       },
-      "actorId": "21b0cc1a-55c6-40a0-88c4-aafcf510b3e4"
+      "actorId": "21b0cc1a-55c6-40a0-88c4-aafcf510b3e4",
+      "name": "Gwyneth Paltrow"
     },
     {
       "character": {
         "name": "Michelle",
         "imageUrl": ""
       },
-      "actorId": "c8eeb8d9-51c3-4833-a31d-ec18431eaf71"
+      "actorId": "c8eeb8d9-51c3-4833-a31d-ec18431eaf71",
+      "name": "Zendaya"
     },
     {
       "character": {
         "name": "Aaron Davis",
         "imageUrl": ""
       },
-      "actorId": "92196f4f-16de-4bed-a866-1c871f78fafa"
+      "actorId": "92196f4f-16de-4bed-a866-1c871f78fafa",
+      "name": "Donald Glover"
     },
     {
       "character": {
         "name": "Ned",
         "imageUrl": ""
       },
-      "actorId": "986607c1-944b-4d3e-a059-9530f848549b"
+      "actorId": "986607c1-944b-4d3e-a059-9530f848549b",
+      "name": "Jacob Batalon"
     }
   ],
   "collections": [

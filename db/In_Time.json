@@ -69,28 +69,32 @@
         "name": "Will Salas",
         "imageUrl": ""
       },
-      "actorId": "c216a8dd-1041-4499-9a31-4f3c6109819a"
+      "actorId": "c216a8dd-1041-4499-9a31-4f3c6109819a",
+      "name": "Justin Timberlake"
     },
     {
       "character": {
         "name": "Rachel Salas",
         "imageUrl": ""
       },
-      "actorId": "a57d2ead-173f-47a2-86b3-6a1ce8ab7c9c"
+      "actorId": "a57d2ead-173f-47a2-86b3-6a1ce8ab7c9c",
+      "name": "Olivia Wilde"
     },
     {
       "character": {
         "name": "Maya",
         "imageUrl": ""
       },
-      "actorId": "144f3f7a-8759-421f-aad0-c6b6b0341f52"
+      "actorId": "144f3f7a-8759-421f-aad0-c6b6b0341f52",
+      "name": "Shyloh Oostwald"
     },
     {
       "character": {
         "name": "Borel",
         "imageUrl": ""
       },
-      "actorId": "69841fe0-8f2e-474d-80c2-21a13f49e365"
+      "actorId": "69841fe0-8f2e-474d-80c2-21a13f49e365",
+      "name": "Johnny Galecki"
     }
   ],
   "collections": [

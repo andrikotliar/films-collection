@@ -70,63 +70,72 @@
         "name": "Arthur Curry / Aquaman",
         "imageUrl": ""
       },
-      "actorId": "bc4e2b06-01a0-4bcd-886a-bf360f90c181"
+      "actorId": "bc4e2b06-01a0-4bcd-886a-bf360f90c181",
+      "name": "Jason Momoa"
     },
     {
       "character": {
         "name": "Mera",
         "imageUrl": ""
       },
-      "actorId": "bb7d7377-ba2a-4e02-b135-e3b7c70c178a"
+      "actorId": "bb7d7377-ba2a-4e02-b135-e3b7c70c178a",
+      "name": "Amber Heard"
     },
     {
       "character": {
         "name": "Vulko",
         "imageUrl": ""
       },
-      "actorId": "4bbc8ea8-2f28-43b8-8a68-24598fd32c85"
+      "actorId": "4bbc8ea8-2f28-43b8-8a68-24598fd32c85",
+      "name": "Willem Dafoe"
     },
     {
       "character": {
         "name": "King Orm",
         "imageUrl": ""
       },
-      "actorId": "7e382d93-13f8-4002-9f50-6d13d6b08c31"
+      "actorId": "7e382d93-13f8-4002-9f50-6d13d6b08c31",
+      "name": "Patrick Wilson"
     },
     {
       "character": {
         "name": "Queen Atlanna",
         "imageUrl": ""
       },
-      "actorId": "84e268fd-c575-4110-b9fd-445576e64a0d"
+      "actorId": "84e268fd-c575-4110-b9fd-445576e64a0d",
+      "name": "Nicole Kidman"
     },
     {
       "character": {
         "name": "King Nereus",
         "imageUrl": ""
       },
-      "actorId": "bc8ae44a-8083-41e2-a97f-c9664d81b8ad"
+      "actorId": "bc8ae44a-8083-41e2-a97f-c9664d81b8ad",
+      "name": "Dolph Lundgren"
     },
     {
       "character": {
         "name": "Black Manta",
         "imageUrl": ""
       },
-      "actorId": "dab3ff0b-e5b2-41f0-9d0d-f27bc873de78"
+      "actorId": "dab3ff0b-e5b2-41f0-9d0d-f27bc873de78",
+      "name": "Yahya Abdul-Mateen II"
     },
     {
       "character": {
         "name": "Tom Curry",
         "imageUrl": ""
       },
-      "actorId": "59046197-954c-4802-bd11-37f1c62a191e"
+      "actorId": "59046197-954c-4802-bd11-37f1c62a191e",
+      "name": "Temuera Morrison"
     },
     {
       "character": {
         "name": "Captain Murk",
         "imageUrl": ""
       },
-      "actorId": "bc93ba4f-0ba0-44e2-a4d0-77877fc475b9"
+      "actorId": "bc93ba4f-0ba0-44e2-a4d0-77877fc475b9",
+      "name": "Ludi Lin"
     }
   ],
   "collections": [

@@ -105,77 +105,88 @@
         "name": "Vi",
         "imageUrl": ""
       },
-      "actorId": "1a9d8258-5634-4990-bb53-f0262f587084"
+      "actorId": "1a9d8258-5634-4990-bb53-f0262f587084",
+      "name": "Hailee Steinfeld"
     },
     {
       "character": {
         "name": "Jinx",
         "imageUrl": ""
       },
-      "actorId": "517d6a59-581f-4f95-9fa7-998d7e25dcbe"
+      "actorId": "517d6a59-581f-4f95-9fa7-998d7e25dcbe",
+      "name": "Ella Purnell"
     },
     {
       "character": {
         "name": "Jayce",
         "imageUrl": ""
       },
-      "actorId": "b1bb9232-e486-4bbf-ad60-4e6a34da2ee7"
+      "actorId": "b1bb9232-e486-4bbf-ad60-4e6a34da2ee7",
+      "name": "Kevin Alejandro"
     },
     {
       "character": {
         "name": "Silco",
         "imageUrl": ""
       },
-      "actorId": "4468585f-0093-4d09-9cc1-f4fc6f944140"
+      "actorId": "4468585f-0093-4d09-9cc1-f4fc6f944140",
+      "name": "Jason Spisak"
     },
     {
       "character": {
         "name": "Viktor",
         "imageUrl": ""
       },
-      "actorId": "93530626-4fe7-4b30-ba92-e636941b689c"
+      "actorId": "93530626-4fe7-4b30-ba92-e636941b689c",
+      "name": "Harry Lloyd"
     },
     {
       "character": {
         "name": "Mel Medarda",
         "imageUrl": ""
       },
-      "actorId": "ad88047d-1e07-4d21-a4a7-d10b131b2dae"
+      "actorId": "ad88047d-1e07-4d21-a4a7-d10b131b2dae",
+      "name": "Toks Olagundoye"
     },
     {
       "character": {
         "name": "Vander",
         "imageUrl": ""
       },
-      "actorId": "d590a983-d5c8-4e4a-9386-aa251e72efb7"
+      "actorId": "d590a983-d5c8-4e4a-9386-aa251e72efb7",
+      "name": "JB Blanc"
     },
     {
       "character": {
         "name": "Marcus",
         "imageUrl": ""
       },
-      "actorId": "fe2d6d44-4dea-4bf6-b171-ea3a7503ce8f"
+      "actorId": "fe2d6d44-4dea-4bf6-b171-ea3a7503ce8f",
+      "name": "Remy Hii"
     },
     {
       "character": {
         "name": "Caitlyn",
         "imageUrl": ""
       },
-      "actorId": "057b29da-5b1e-4ec5-93b7-0dc5434e8655"
+      "actorId": "057b29da-5b1e-4ec5-93b7-0dc5434e8655",
+      "name": "Katie Leung"
     },
     {
       "character": {
         "name": "Heimerdinger",
         "imageUrl": ""
       },
-      "actorId": "da928605-dde3-4773-82ae-cd7847932939"
+      "actorId": "da928605-dde3-4773-82ae-cd7847932939",
+      "name": "Mick Wingert"
     },
     {
       "character": {
         "name": "Ekko",
         "imageUrl": ""
       },
-      "actorId": "38b319e3-5be2-4d16-928f-53b584d34b52"
+      "actorId": "38b319e3-5be2-4d16-928f-53b584d34b52",
+      "name": "Reed Shannon"
     }
   ],
   "collections": [

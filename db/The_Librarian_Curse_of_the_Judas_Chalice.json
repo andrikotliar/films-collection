@@ -66,35 +66,40 @@
         "name": "Flynn Carsen",
         "imageUrl": ""
       },
-      "actorId": "521e92a5-04cd-432b-80b8-fe1331ee58a6"
+      "actorId": "521e92a5-04cd-432b-80b8-fe1331ee58a6",
+      "name": "Noah Wyle"
     },
     {
       "character": {
         "name": "Professor Lazlo / Vlad",
         "imageUrl": ""
       },
-      "actorId": "228b656c-0882-4251-8e2c-80c2c48e2098"
+      "actorId": "228b656c-0882-4251-8e2c-80c2c48e2098",
+      "name": "Bruce Davison"
     },
     {
       "character": {
         "name": "Simone Renoir",
         "imageUrl": ""
       },
-      "actorId": "55af0405-fcb8-4dbf-8333-68ed6e67d6cf"
+      "actorId": "55af0405-fcb8-4dbf-8333-68ed6e67d6cf",
+      "name": "Stana Katic"
     },
     {
       "character": {
         "name": "Judson",
         "imageUrl": ""
       },
-      "actorId": "2d3f746c-e37d-4f12-a139-d8463dc71b66"
+      "actorId": "2d3f746c-e37d-4f12-a139-d8463dc71b66",
+      "name": "Bob Newhart"
     },
     {
       "character": {
         "name": "Charlene",
         "imageUrl": ""
       },
-      "actorId": "b50126e9-325b-4406-9164-dfe7ef882acc"
+      "actorId": "b50126e9-325b-4406-9164-dfe7ef882acc",
+      "name": "Jane Curtin"
     }
   ],
   "collections": [

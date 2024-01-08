@@ -76,84 +76,96 @@
         "name": "Bruce Wayne / Batman",
         "imageUrl": ""
       },
-      "actorId": "6900c450-d6ad-4f62-8af7-d8398a1b6f77"
+      "actorId": "6900c450-d6ad-4f62-8af7-d8398a1b6f77",
+      "name": "Christian Bale"
     },
     {
       "character": {
         "name": "Alfred",
         "imageUrl": ""
       },
-      "actorId": "87d38720-3045-4fad-9302-75ddc6e847d1"
+      "actorId": "87d38720-3045-4fad-9302-75ddc6e847d1",
+      "name": "Michael Caine"
     },
     {
       "character": {
         "name": "Ducard",
         "imageUrl": ""
       },
-      "actorId": "6f541516-898c-439d-bbc3-16aa28425e8d"
+      "actorId": "6f541516-898c-439d-bbc3-16aa28425e8d",
+      "name": "Liam Neeson"
     },
     {
       "character": {
         "name": "Rachel Dawes",
         "imageUrl": ""
       },
-      "actorId": "5a9b347a-b996-47aa-9cfe-1352817c730d"
+      "actorId": "5a9b347a-b996-47aa-9cfe-1352817c730d",
+      "name": "Katie Holmes"
     },
     {
       "character": {
         "name": "Jim Gordon",
         "imageUrl": ""
       },
-      "actorId": "0b0a40d3-1976-4f41-b8b1-1a86e37042ea"
+      "actorId": "0b0a40d3-1976-4f41-b8b1-1a86e37042ea",
+      "name": "Gary Oldman"
     },
     {
       "character": {
         "name": "Dr. Jonathan Crane / The Scarecrow",
         "imageUrl": ""
       },
-      "actorId": "9a91c941-d1d1-4514-9eb1-c4a27bbe9cce"
+      "actorId": "9a91c941-d1d1-4514-9eb1-c4a27bbe9cce",
+      "name": "Cillian Murphy"
     },
     {
       "character": {
         "name": "Carmine Falcone",
         "imageUrl": ""
       },
-      "actorId": "a0effc86-76b7-4ff3-8033-7d30cb7bda0a"
+      "actorId": "a0effc86-76b7-4ff3-8033-7d30cb7bda0a",
+      "name": "Tom Wilkinson"
     },
     {
       "character": {
         "name": "Earle",
         "imageUrl": ""
       },
-      "actorId": "f8183bab-9197-417b-b6fd-b5fb29bb47e9"
+      "actorId": "f8183bab-9197-417b-b6fd-b5fb29bb47e9",
+      "name": "Rutger Hauer"
     },
     {
       "character": {
         "name": "Ra's Al Ghul",
         "imageUrl": ""
       },
-      "actorId": "6f94fc62-df6a-4f98-82ac-763cf52690df"
+      "actorId": "6f94fc62-df6a-4f98-82ac-763cf52690df",
+      "name": "Ken Watanabe"
     },
     {
       "character": {
         "name": "Flass",
         "imageUrl": ""
       },
-      "actorId": "e0893327-84c4-4a69-a06f-72bbb49072ea"
+      "actorId": "e0893327-84c4-4a69-a06f-72bbb49072ea",
+      "name": "Mark Boone Junior"
     },
     {
       "character": {
         "name": "Thomas Wayne",
         "imageUrl": ""
       },
-      "actorId": "d2868368-39bb-45ff-bc7d-522fd55e9733"
+      "actorId": "d2868368-39bb-45ff-bc7d-522fd55e9733",
+      "name": "Linus Roache"
     },
     {
       "character": {
         "name": "Lucius Fox",
         "imageUrl": ""
       },
-      "actorId": "768ac83c-1206-4dd2-87f4-fd0550f8492b"
+      "actorId": "768ac83c-1206-4dd2-87f4-fd0550f8492b",
+      "name": "Morgan Freeman"
     }
   ],
   "collections": [

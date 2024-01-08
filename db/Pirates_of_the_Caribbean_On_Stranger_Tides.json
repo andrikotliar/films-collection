@@ -67,49 +67,56 @@
         "name": "Captain Jack Sparrow",
         "imageUrl": ""
       },
-      "actorId": "e2d2c602-347d-41a4-8f35-a3d379043577"
+      "actorId": "e2d2c602-347d-41a4-8f35-a3d379043577",
+      "name": "Johnny Depp"
     },
     {
       "character": {
         "name": "Angelica",
         "imageUrl": ""
       },
-      "actorId": "5903d731-5875-474e-a84f-1c93c0d9963c"
+      "actorId": "5903d731-5875-474e-a84f-1c93c0d9963c",
+      "name": "Penelope Cruz"
     },
     {
       "character": {
         "name": "Barbossa",
         "imageUrl": ""
       },
-      "actorId": "ed136d46-6d12-4343-ba41-0014e7f0e171"
+      "actorId": "ed136d46-6d12-4343-ba41-0014e7f0e171",
+      "name": "Geoffrey Rush"
     },
     {
       "character": {
         "name": "Blackbeard",
         "imageUrl": ""
       },
-      "actorId": "5ed07453-ee7d-426b-bf1c-799314d762bd"
+      "actorId": "5ed07453-ee7d-426b-bf1c-799314d762bd",
+      "name": "Ian McShane"
     },
     {
       "character": {
         "name": "Gibbs",
         "imageUrl": ""
       },
-      "actorId": "82c6791e-974b-43f3-a643-51e734a33522"
+      "actorId": "82c6791e-974b-43f3-a643-51e734a33522",
+      "name": "Kevin McNally"
     },
     {
       "character": {
         "name": "Philip",
         "imageUrl": ""
       },
-      "actorId": "3f218f49-7b69-41e2-96b6-415b7fb97172"
+      "actorId": "3f218f49-7b69-41e2-96b6-415b7fb97172",
+      "name": "Sam Claflin"
     },
     {
       "character": {
         "name": "Syrena",
         "imageUrl": ""
       },
-      "actorId": "a89a58b3-7927-48a3-a41e-0e5d05e84d28"
+      "actorId": "a89a58b3-7927-48a3-a41e-0e5d05e84d28",
+      "name": "Astrid Berges-Frisbey"
     }
   ],
   "collections": [

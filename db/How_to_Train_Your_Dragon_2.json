@@ -55,49 +55,56 @@
         "name": "Hiccup",
         "imageUrl": ""
       },
-      "actorId": "bd9320ce-d946-4c06-98f6-39871d61e972"
+      "actorId": "bd9320ce-d946-4c06-98f6-39871d61e972",
+      "name": "Jay Baruchel"
     },
     {
       "character": {
         "name": "Valka",
         "imageUrl": ""
       },
-      "actorId": "d7f81c80-afaa-4b4e-a3fa-49b85238c529"
+      "actorId": "d7f81c80-afaa-4b4e-a3fa-49b85238c529",
+      "name": "Cate Blanchett"
     },
     {
       "character": {
         "name": "Stoick",
         "imageUrl": ""
       },
-      "actorId": "c781f4d1-0f36-4078-aece-b893a0405504"
+      "actorId": "c781f4d1-0f36-4078-aece-b893a0405504",
+      "name": "Gerard Butler"
     },
     {
       "character": {
         "name": "Gobber",
         "imageUrl": ""
       },
-      "actorId": "5201384e-56db-455a-89f3-2c7ff61d9515"
+      "actorId": "5201384e-56db-455a-89f3-2c7ff61d9515",
+      "name": "Craig Ferguson"
     },
     {
       "character": {
         "name": "Astrid",
         "imageUrl": ""
       },
-      "actorId": "9bed7813-db69-4322-bba9-bdc4763a1567"
+      "actorId": "9bed7813-db69-4322-bba9-bdc4763a1567",
+      "name": "America Ferrera"
     },
     {
       "character": {
         "name": "Drago Bludvist",
         "imageUrl": ""
       },
-      "actorId": "44677a98-c6e2-43c4-b7e2-3fe0a7f05703"
+      "actorId": "44677a98-c6e2-43c4-b7e2-3fe0a7f05703",
+      "name": "Djimon Hounsou"
     },
     {
       "character": {
         "name": "Eret",
         "imageUrl": ""
       },
-      "actorId": "82f820ef-07a2-47e1-82bd-b53f68e7b6ab"
+      "actorId": "82f820ef-07a2-47e1-82bd-b53f68e7b6ab",
+      "name": "Kit Harington"
     }
   ],
   "collections": [

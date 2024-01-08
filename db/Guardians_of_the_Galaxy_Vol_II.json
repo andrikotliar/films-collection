@@ -64,84 +64,96 @@
         "name": "Peter Quill / Star-Lord",
         "imageUrl": ""
       },
-      "actorId": "d37a1702-6d76-425e-a1ac-940961feb029"
+      "actorId": "d37a1702-6d76-425e-a1ac-940961feb029",
+      "name": "Chris Pratt"
     },
     {
       "character": {
         "name": "Gamora",
         "imageUrl": ""
       },
-      "actorId": "23e53bab-62a5-43a6-99a4-f61d68612d7d"
+      "actorId": "23e53bab-62a5-43a6-99a4-f61d68612d7d",
+      "name": "Zoe Saldana"
     },
     {
       "character": {
         "name": "Drax",
         "imageUrl": ""
       },
-      "actorId": "991ea0a4-315d-42f4-8960-4b0c64be1ebd"
+      "actorId": "991ea0a4-315d-42f4-8960-4b0c64be1ebd",
+      "name": "Dave Bautista"
     },
     {
       "character": {
         "name": "Baby Groot",
         "imageUrl": ""
       },
-      "actorId": "81bac581-4158-4bcb-9920-60fd3a93bd6b"
+      "actorId": "81bac581-4158-4bcb-9920-60fd3a93bd6b",
+      "name": "Vin Diesel"
     },
     {
       "character": {
         "name": "Rocket",
         "imageUrl": ""
       },
-      "actorId": "41614959-9380-45b5-98b7-bad8ea79da1d"
+      "actorId": "41614959-9380-45b5-98b7-bad8ea79da1d",
+      "name": "Bradley Cooper"
     },
     {
       "character": {
         "name": "Yondu",
         "imageUrl": ""
       },
-      "actorId": "49943e49-03fd-41fd-99ae-7b37bb231079"
+      "actorId": "49943e49-03fd-41fd-99ae-7b37bb231079",
+      "name": "Michael Rooker"
     },
     {
       "character": {
         "name": "Nebula",
         "imageUrl": ""
       },
-      "actorId": "0e1ceaa6-d248-427b-b2bf-89480f17a7c3"
+      "actorId": "0e1ceaa6-d248-427b-b2bf-89480f17a7c3",
+      "name": "Karen Gillan"
     },
     {
       "character": {
         "name": "Mantis",
         "imageUrl": ""
       },
-      "actorId": "8d6da9e7-1e45-46a6-ad6b-515674377935"
+      "actorId": "8d6da9e7-1e45-46a6-ad6b-515674377935",
+      "name": "Pom Klementieff"
     },
     {
       "character": {
         "name": "Stakar Ogord",
         "imageUrl": ""
       },
-      "actorId": "f1d22857-607e-424d-a340-aa576ca72da7"
+      "actorId": "f1d22857-607e-424d-a340-aa576ca72da7",
+      "name": "Sylvester Stallone"
     },
     {
       "character": {
         "name": "Ego",
         "imageUrl": ""
       },
-      "actorId": "0b277102-e940-47e1-9be6-f9e118dd94ba"
+      "actorId": "0b277102-e940-47e1-9be6-f9e118dd94ba",
+      "name": "Kurt Russell"
     },
     {
       "character": {
         "name": "Ayesha",
         "imageUrl": ""
       },
-      "actorId": "607fd22b-9746-4ab2-8a30-57ec3f84bf2c"
+      "actorId": "607fd22b-9746-4ab2-8a30-57ec3f84bf2c",
+      "name": "Elizabeth Debicki"
     },
     {
       "character": {
         "name": "Taserface",
         "imageUrl": ""
       },
-      "actorId": "01bf1d06-deb1-422c-9967-9e3e9bac6c23"
+      "actorId": "01bf1d06-deb1-422c-9967-9e3e9bac6c23",
+      "name": "Chris Sullivan"
     }
   ],
   "collections": [

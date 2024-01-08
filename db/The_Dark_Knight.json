@@ -76,63 +76,72 @@
         "name": "Bruce Wayne",
         "imageUrl": ""
       },
-      "actorId": "6900c450-d6ad-4f62-8af7-d8398a1b6f77"
+      "actorId": "6900c450-d6ad-4f62-8af7-d8398a1b6f77",
+      "name": "Christian Bale"
     },
     {
       "character": {
         "name": "Joker",
         "imageUrl": ""
       },
-      "actorId": "97047f5c-fea2-4606-86a2-2477e3725f98"
+      "actorId": "97047f5c-fea2-4606-86a2-2477e3725f98",
+      "name": "Heath Ledger"
     },
     {
       "character": {
         "name": "Harvey Dent",
         "imageUrl": ""
       },
-      "actorId": "f1cab56d-690e-43e8-9ee5-a7c0ee60e46d"
+      "actorId": "f1cab56d-690e-43e8-9ee5-a7c0ee60e46d",
+      "name": "Aaron Eckhart"
     },
     {
       "character": {
         "name": "Alfred",
         "imageUrl": ""
       },
-      "actorId": "87d38720-3045-4fad-9302-75ddc6e847d1"
+      "actorId": "87d38720-3045-4fad-9302-75ddc6e847d1",
+      "name": "Michael Caine"
     },
     {
       "character": {
         "name": "Rachel",
         "imageUrl": ""
       },
-      "actorId": "f6169400-bdd6-4396-b6bc-9555464bf260"
+      "actorId": "f6169400-bdd6-4396-b6bc-9555464bf260",
+      "name": "Maggie Gyllenhaal"
     },
     {
       "character": {
         "name": "Gordon",
         "imageUrl": ""
       },
-      "actorId": "0b0a40d3-1976-4f41-b8b1-1a86e37042ea"
+      "actorId": "0b0a40d3-1976-4f41-b8b1-1a86e37042ea",
+      "name": "Gary Oldman"
     },
     {
       "character": {
         "name": "Lucius Fox",
         "imageUrl": ""
       },
-      "actorId": "768ac83c-1206-4dd2-87f4-fd0550f8492b"
+      "actorId": "768ac83c-1206-4dd2-87f4-fd0550f8492b",
+      "name": "Morgan Freeman"
     },
     {
       "character": {
         "name": "Ramirez",
         "imageUrl": ""
       },
-      "actorId": "b0b0dad6-af33-45e2-b212-b497d9917311"
+      "actorId": "b0b0dad6-af33-45e2-b212-b497d9917311",
+      "name": "Monique Gabriela Curnen"
     },
     {
       "character": {
         "name": "Scarecrow",
         "imageUrl": ""
       },
-      "actorId": "9a91c941-d1d1-4514-9eb1-c4a27bbe9cce"
+      "actorId": "9a91c941-d1d1-4514-9eb1-c4a27bbe9cce",
+      "name": "Cillian Murphy"
     }
   ],
   "collections": [

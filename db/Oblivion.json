@@ -75,49 +75,56 @@
         "name": "Jack",
         "imageUrl": ""
       },
-      "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81"
+      "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81",
+      "name": "Tom Cruise"
     },
     {
       "character": {
         "name": "Beech",
         "imageUrl": ""
       },
-      "actorId": "768ac83c-1206-4dd2-87f4-fd0550f8492b"
+      "actorId": "768ac83c-1206-4dd2-87f4-fd0550f8492b",
+      "name": "Morgan Freeman"
     },
     {
       "character": {
         "name": "Julia",
         "imageUrl": ""
       },
-      "actorId": "15e23497-1682-48a3-ab05-bebac8767fdb"
+      "actorId": "15e23497-1682-48a3-ab05-bebac8767fdb",
+      "name": "Olga Kurylenko"
     },
     {
       "character": {
         "name": "Victoria",
         "imageUrl": ""
       },
-      "actorId": "4e690781-edf2-49f2-b74e-6cb1fa0144c5"
+      "actorId": "4e690781-edf2-49f2-b74e-6cb1fa0144c5",
+      "name": "Andrea Riseborough"
     },
     {
       "character": {
         "name": "Sykes",
         "imageUrl": ""
       },
-      "actorId": "ff564a65-9ad2-4f88-85cd-69302b3975b3"
+      "actorId": "ff564a65-9ad2-4f88-85cd-69302b3975b3",
+      "name": "Nikolaj Coster-Waldau"
     },
     {
       "character": {
         "name": "Sally",
         "imageUrl": ""
       },
-      "actorId": "352ed082-840b-4afe-bbd1-db3ecafe15bf"
+      "actorId": "352ed082-840b-4afe-bbd1-db3ecafe15bf",
+      "name": "Melissa Leo"
     },
     {
       "character": {
         "name": "Kara",
         "imageUrl": ""
       },
-      "actorId": "691bac35-07f3-4e53-a923-d852ba53b75a"
+      "actorId": "691bac35-07f3-4e53-a923-d852ba53b75a",
+      "name": "Zoe Bell"
     }
   ],
   "collections": [

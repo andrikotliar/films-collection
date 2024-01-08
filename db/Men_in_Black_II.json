@@ -70,42 +70,48 @@
         "name": "K",
         "imageUrl": ""
       },
-      "actorId": "331a7b7e-753a-4546-aa4e-0ef3da3e5d8e"
+      "actorId": "331a7b7e-753a-4546-aa4e-0ef3da3e5d8e",
+      "name": "Tommy Lee Jones"
     },
     {
       "character": {
         "name": "J",
         "imageUrl": ""
       },
-      "actorId": "0e631141-1b4a-4ed9-8325-5a1947f08404"
+      "actorId": "0e631141-1b4a-4ed9-8325-5a1947f08404",
+      "name": "Will Smith"
     },
     {
       "character": {
         "name": "Z",
         "imageUrl": ""
       },
-      "actorId": "a4db5eb9-cbf6-468e-b63a-b3900d4371d3"
+      "actorId": "a4db5eb9-cbf6-468e-b63a-b3900d4371d3",
+      "name": "Rip Torn"
     },
     {
       "character": {
         "name": "Serleena",
         "imageUrl": ""
       },
-      "actorId": "862b7a71-a6fc-4060-9920-5c7affb24034"
+      "actorId": "862b7a71-a6fc-4060-9920-5c7affb24034",
+      "name": "Lara Flynn Boyle"
     },
     {
       "character": {
         "name": "Scrad / Charlie",
         "imageUrl": ""
       },
-      "actorId": "6598d0f8-6bee-4efd-b1b4-0a7e2be7da94"
+      "actorId": "6598d0f8-6bee-4efd-b1b4-0a7e2be7da94",
+      "name": "Johnny Knoxville"
     },
     {
       "character": {
         "name": "Laura Vasquez",
         "imageUrl": ""
       },
-      "actorId": "532dfdc9-0006-4d29-9068-485005d3dc4f"
+      "actorId": "532dfdc9-0006-4d29-9068-485005d3dc4f",
+      "name": "Rosario Dawson"
     }
   ],
   "collections": [

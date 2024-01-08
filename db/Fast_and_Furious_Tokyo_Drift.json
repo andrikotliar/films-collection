@@ -63,42 +63,48 @@
         "name": "Sean Boswell",
         "imageUrl": ""
       },
-      "actorId": "3d5c68b1-c351-4086-8c21-b217096101ff"
+      "actorId": "3d5c68b1-c351-4086-8c21-b217096101ff",
+      "name": "Lucas Black"
     },
     {
       "character": {
         "name": "Neela",
         "imageUrl": ""
       },
-      "actorId": "4a8a6bc8-b702-47d6-a8ba-0a9e969dcdff"
+      "actorId": "4a8a6bc8-b702-47d6-a8ba-0a9e969dcdff",
+      "name": "Nathalie Kelley"
     },
     {
       "character": {
         "name": "Han",
         "imageUrl": ""
       },
-      "actorId": "d44f46b1-9cd7-432e-b62d-97de2a3ae027"
+      "actorId": "d44f46b1-9cd7-432e-b62d-97de2a3ae027",
+      "name": "Sung Kang"
     },
     {
       "character": {
         "name": "Twinkie",
         "imageUrl": ""
       },
-      "actorId": "c987561c-e7e1-4e87-a98c-b6d29af05ab6"
+      "actorId": "c987561c-e7e1-4e87-a98c-b6d29af05ab6",
+      "name": "Brian Tee"
     },
     {
       "character": {
         "name": "Takashi",
         "imageUrl": ""
       },
-      "actorId": "fb22bd10-8061-467b-a27f-51059afb5e22"
+      "actorId": "fb22bd10-8061-467b-a27f-51059afb5e22",
+      "name": "Bow Wow"
     },
     {
       "character": {
         "name": "Dominic Torreto",
         "imageUrl": ""
       },
-      "actorId": "81bac581-4158-4bcb-9920-60fd3a93bd6b"
+      "actorId": "81bac581-4158-4bcb-9920-60fd3a93bd6b",
+      "name": "Vin Diesel"
     }
   ],
   "collections": [

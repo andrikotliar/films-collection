@@ -75,77 +75,88 @@
         "name": "Cage",
         "imageUrl": ""
       },
-      "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81"
+      "actorId": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81",
+      "name": "Tom Cruise"
     },
     {
       "character": {
         "name": "Rita",
         "imageUrl": ""
       },
-      "actorId": "c892df31-7868-42cc-b245-ded4556da768"
+      "actorId": "c892df31-7868-42cc-b245-ded4556da768",
+      "name": "Emily Blunt"
     },
     {
       "character": {
         "name": "General Brigham",
         "imageUrl": ""
       },
-      "actorId": "9bde7480-17e9-4c82-820d-4e42a339bfde"
+      "actorId": "9bde7480-17e9-4c82-820d-4e42a339bfde",
+      "name": "Brendan Gleeson"
     },
     {
       "character": {
         "name": "Master Sergeant Farell",
         "imageUrl": ""
       },
-      "actorId": "a21fff8b-a24d-40e2-8e05-e44d558d7f3f"
+      "actorId": "a21fff8b-a24d-40e2-8e05-e44d558d7f3f",
+      "name": "Bill Paxton"
     },
     {
       "character": {
         "name": "Skinner",
         "imageUrl": ""
       },
-      "actorId": "fae4d734-7e0e-4318-a702-5e96a79eddd0"
+      "actorId": "fae4d734-7e0e-4318-a702-5e96a79eddd0",
+      "name": "Jonas Armstrong"
     },
     {
       "character": {
         "name": "Kimmel",
         "imageUrl": ""
       },
-      "actorId": "d8e0b43c-3326-41ef-a4e4-8ccfd17ebad4"
+      "actorId": "d8e0b43c-3326-41ef-a4e4-8ccfd17ebad4",
+      "name": "Tony Way"
     },
     {
       "character": {
         "name": "Griff",
         "imageUrl": ""
       },
-      "actorId": "b9a9535a-b556-4eaf-a1aa-670fa1c5940c"
+      "actorId": "b9a9535a-b556-4eaf-a1aa-670fa1c5940c",
+      "name": "Kick Gurry"
     },
     {
       "character": {
         "name": "Ford",
         "imageUrl": ""
       },
-      "actorId": "0f184322-867e-4da7-a0c0-125c126b9fa3"
+      "actorId": "0f184322-867e-4da7-a0c0-125c126b9fa3",
+      "name": "Franz Drameh"
     },
     {
       "character": {
         "name": "Kuntz",
         "imageUrl": ""
       },
-      "actorId": "c1a8313e-52a7-454c-b906-78a1ae46e8a8"
+      "actorId": "c1a8313e-52a7-454c-b906-78a1ae46e8a8",
+      "name": "Dragomir Mrsic"
     },
     {
       "character": {
         "name": "Nance",
         "imageUrl": ""
       },
-      "actorId": "675f9a7c-5e1a-412d-8906-3f2d93c1af87"
+      "actorId": "675f9a7c-5e1a-412d-8906-3f2d93c1af87",
+      "name": "Charlotte Riley"
     },
     {
       "character": {
         "name": "Takeda",
         "imageUrl": ""
       },
-      "actorId": "bebd7a91-14d2-47dd-ab7b-4d53049d4dce"
+      "actorId": "bebd7a91-14d2-47dd-ab7b-4d53049d4dce",
+      "name": "Masayoshi Haneda"
     }
   ],
   "collections": [

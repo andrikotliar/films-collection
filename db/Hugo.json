@@ -69,28 +69,32 @@
         "name": "Hugo Cabret",
         "imageUrl": ""
       },
-      "actorId": "8e4d10d3-d24f-4004-a3c9-094884463799"
+      "actorId": "8e4d10d3-d24f-4004-a3c9-094884463799",
+      "name": "Asa Butterfield"
     },
     {
       "character": {
         "name": "Georges M'li's",
         "imageUrl": ""
       },
-      "actorId": "1e35187e-647f-4233-9215-41762259fff0"
+      "actorId": "1e35187e-647f-4233-9215-41762259fff0",
+      "name": "Ben Kingsley"
     },
     {
       "character": {
         "name": "Station Inspector",
         "imageUrl": ""
       },
-      "actorId": "dda11932-ed49-4f73-8b6f-c6949a5079b5"
+      "actorId": "dda11932-ed49-4f73-8b6f-c6949a5079b5",
+      "name": "Sacha Baron Cohen"
     },
     {
       "character": {
         "name": "Isabelle",
         "imageUrl": ""
       },
-      "actorId": "b3e5cf35-efcd-4a7d-98cd-ed082eadf40e"
+      "actorId": "b3e5cf35-efcd-4a7d-98cd-ed082eadf40e",
+      "name": "Chloë Grace Moretz"
     }
   ],
   "collections": [

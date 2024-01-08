@@ -67,84 +67,96 @@
         "name": "T'Challa / Black Panther",
         "imageUrl": ""
       },
-      "actorId": "6bb68e05-b7bc-4a8b-929f-3ba185a3e5f9"
+      "actorId": "6bb68e05-b7bc-4a8b-929f-3ba185a3e5f9",
+      "name": "Chadwick Boseman"
     },
     {
       "character": {
         "name": "Erik Killmonger",
         "imageUrl": ""
       },
-      "actorId": "f99f23e3-5ef3-437a-bf04-a67aa38f8697"
+      "actorId": "f99f23e3-5ef3-437a-bf04-a67aa38f8697",
+      "name": "Michael B. Jordan"
     },
     {
       "character": {
         "name": "Nakia",
         "imageUrl": ""
       },
-      "actorId": "1c546317-ff4b-42d3-893b-7d59de3a35fc"
+      "actorId": "1c546317-ff4b-42d3-893b-7d59de3a35fc",
+      "name": "Lupita Nyung'o"
     },
     {
       "character": {
         "name": "Okoye",
         "imageUrl": ""
       },
-      "actorId": "6b7859db-227e-42c0-9fe5-09647e33ebc7"
+      "actorId": "6b7859db-227e-42c0-9fe5-09647e33ebc7",
+      "name": "Danai Gurira"
     },
     {
       "character": {
         "name": "Everett K. Ross",
         "imageUrl": ""
       },
-      "actorId": "3ac110d8-83ac-40a6-b22f-7537190f750b"
+      "actorId": "3ac110d8-83ac-40a6-b22f-7537190f750b",
+      "name": "Martin Freeman"
     },
     {
       "character": {
         "name": "W'Kabi",
         "imageUrl": ""
       },
-      "actorId": "6f384706-a2fe-4cfb-8578-8d2634cd0de9"
+      "actorId": "6f384706-a2fe-4cfb-8578-8d2634cd0de9",
+      "name": "Daniel Kaluuya"
     },
     {
       "character": {
         "name": "Shuri",
         "imageUrl": ""
       },
-      "actorId": "87cf439e-596e-4420-a7a4-85f07c35d15b"
+      "actorId": "87cf439e-596e-4420-a7a4-85f07c35d15b",
+      "name": "Letitia Wright"
     },
     {
       "character": {
         "name": "M'Baku",
         "imageUrl": ""
       },
-      "actorId": "1d3478f1-b89c-4441-b0d9-b8d196eeae09"
+      "actorId": "1d3478f1-b89c-4441-b0d9-b8d196eeae09",
+      "name": "Winston Duke"
     },
     {
       "character": {
         "name": "N'Jobu",
         "imageUrl": ""
       },
-      "actorId": "241c9b66-9a52-454b-887c-f81b070e85c4"
+      "actorId": "241c9b66-9a52-454b-887c-f81b070e85c4",
+      "name": "Sterling K. Brown"
     },
     {
       "character": {
         "name": "Ramonda",
         "imageUrl": ""
       },
-      "actorId": "ab92f0ba-6256-45fa-ad66-f501d7700c67"
+      "actorId": "ab92f0ba-6256-45fa-ad66-f501d7700c67",
+      "name": "Angela Bassett"
     },
     {
       "character": {
         "name": "Zuri",
         "imageUrl": ""
       },
-      "actorId": "d6966d68-0949-41c0-9414-00b9cecf1f5b"
+      "actorId": "d6966d68-0949-41c0-9414-00b9cecf1f5b",
+      "name": "Forest Whitaker"
     },
     {
       "character": {
         "name": "Ulysses Klaue",
         "imageUrl": ""
       },
-      "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135"
+      "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135",
+      "name": "Andy Serkis"
     }
   ],
   "collections": [

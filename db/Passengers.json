@@ -72,35 +72,40 @@
         "name": "Aurora Lane",
         "imageUrl": ""
       },
-      "actorId": "29b99567-4a10-4246-9bb2-26b55a9c1e63"
+      "actorId": "29b99567-4a10-4246-9bb2-26b55a9c1e63",
+      "name": "Jennifer Lawrence"
     },
     {
       "character": {
         "name": "Jim Preston",
         "imageUrl": ""
       },
-      "actorId": "d37a1702-6d76-425e-a1ac-940961feb029"
+      "actorId": "d37a1702-6d76-425e-a1ac-940961feb029",
+      "name": "Chris Pratt"
     },
     {
       "character": {
         "name": "Arthur",
         "imageUrl": ""
       },
-      "actorId": "cd31d4b4-862c-42da-9e5c-c6fa8a0132f7"
+      "actorId": "cd31d4b4-862c-42da-9e5c-c6fa8a0132f7",
+      "name": "Michael Sheen"
     },
     {
       "character": {
         "name": "Gus Mancuso",
         "imageUrl": ""
       },
-      "actorId": "d5cfb42e-818e-43cf-9840-f842bc4579e6"
+      "actorId": "d5cfb42e-818e-43cf-9840-f842bc4579e6",
+      "name": "Laurence Fishburne"
     },
     {
       "character": {
         "name": "Captain Norris",
         "imageUrl": ""
       },
-      "actorId": "e238613f-3004-4897-84e3-fdbcab37d857"
+      "actorId": "e238613f-3004-4897-84e3-fdbcab37d857",
+      "name": "Andy Garcia"
     }
   ],
   "collections": [

@@ -75,42 +75,48 @@
         "name": "Frank",
         "imageUrl": ""
       },
-      "actorId": "1f7932ee-21db-4be0-b125-958a65b86594"
+      "actorId": "1f7932ee-21db-4be0-b125-958a65b86594",
+      "name": "Denzel Washington"
     },
     {
       "character": {
         "name": "Will",
         "imageUrl": ""
       },
-      "actorId": "586e7657-8411-4540-a748-26e815d3fb92"
+      "actorId": "586e7657-8411-4540-a748-26e815d3fb92",
+      "name": "Chris Pine"
     },
     {
       "character": {
         "name": "Connie",
         "imageUrl": ""
       },
-      "actorId": "532dfdc9-0006-4d29-9068-485005d3dc4f"
+      "actorId": "532dfdc9-0006-4d29-9068-485005d3dc4f",
+      "name": "Rosario Dawson"
     },
     {
       "character": {
         "name": "Dewey",
         "imageUrl": ""
       },
-      "actorId": "8fed07fe-075e-4100-8b66-0f047c333b40"
+      "actorId": "8fed07fe-075e-4100-8b66-0f047c333b40",
+      "name": "Ethan Suplee"
     },
     {
       "character": {
         "name": "Galvin",
         "imageUrl": ""
       },
-      "actorId": "bf93bd4a-80b9-4175-a347-c1994749a3e0"
+      "actorId": "bf93bd4a-80b9-4175-a347-c1994749a3e0",
+      "name": "Kevin Dunn"
     },
     {
       "character": {
         "name": "Inspector Werner",
         "imageUrl": ""
       },
-      "actorId": "97ad1b79-9461-4eac-8170-0bbe3a47ee5a"
+      "actorId": "97ad1b79-9461-4eac-8170-0bbe3a47ee5a",
+      "name": "Kevin Corrigan"
     }
   ],
   "collections": [

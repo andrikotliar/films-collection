@@ -70,105 +70,120 @@
         "name": "Steve Rogers / Captain America",
         "imageUrl": ""
       },
-      "actorId": "38541020-9829-440f-a21b-caf46d2d9428"
+      "actorId": "38541020-9829-440f-a21b-caf46d2d9428",
+      "name": "Chris Evans"
     },
     {
       "character": {
         "name": "Tony Stark / Iron Man",
         "imageUrl": ""
       },
-      "actorId": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e"
+      "actorId": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e",
+      "name": "Robert Downey Jr."
     },
     {
       "character": {
         "name": "Natasha Romanoff / Black Widow",
         "imageUrl": ""
       },
-      "actorId": "56501e25-8153-4a05-9aaa-43e683f72492"
+      "actorId": "56501e25-8153-4a05-9aaa-43e683f72492",
+      "name": "Scarlett Johansson"
     },
     {
       "character": {
         "name": "Bucky Barnes / The Winter Soldier",
         "imageUrl": ""
       },
-      "actorId": "6efe0990-f8c2-479e-970a-f990a42f774a"
+      "actorId": "6efe0990-f8c2-479e-970a-f990a42f774a",
+      "name": "Sebastian Stan"
     },
     {
       "character": {
         "name": "Sam Wilson / The Falcon",
         "imageUrl": ""
       },
-      "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0"
+      "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0",
+      "name": "Anthony Mackie"
     },
     {
       "character": {
         "name": "James Rhodes / War Machine",
         "imageUrl": ""
       },
-      "actorId": "64bde65d-0d41-434b-ab94-01aa4422b632"
+      "actorId": "64bde65d-0d41-434b-ab94-01aa4422b632",
+      "name": "Don Cheadle"
     },
     {
       "character": {
         "name": "Clint Barton / Hawkeye",
         "imageUrl": ""
       },
-      "actorId": "b3e7f578-6981-4121-91d3-d768d95751ca"
+      "actorId": "b3e7f578-6981-4121-91d3-d768d95751ca",
+      "name": "Jeremy Renner"
     },
     {
       "character": {
         "name": "T'Challa",
         "imageUrl": ""
       },
-      "actorId": "6bb68e05-b7bc-4a8b-929f-3ba185a3e5f9"
+      "actorId": "6bb68e05-b7bc-4a8b-929f-3ba185a3e5f9",
+      "name": "Chadwick Boseman"
     },
     {
       "character": {
         "name": "Vision",
         "imageUrl": ""
       },
-      "actorId": "7a77d424-0788-4e65-9596-e60d483cf264"
+      "actorId": "7a77d424-0788-4e65-9596-e60d483cf264",
+      "name": "Paul Bettany"
     },
     {
       "character": {
         "name": "Wanda Maximoff",
         "imageUrl": ""
       },
-      "actorId": "f08bca90-8dc3-440a-a32a-4647bdf4d828"
+      "actorId": "f08bca90-8dc3-440a-a32a-4647bdf4d828",
+      "name": "Elizabeth Olsen"
     },
     {
       "character": {
         "name": "Scott Lang / Ant-Man",
         "imageUrl": ""
       },
-      "actorId": "cd9b8e2c-3973-46fb-a71a-7df6ca9c5b2e"
+      "actorId": "cd9b8e2c-3973-46fb-a71a-7df6ca9c5b2e",
+      "name": "Paul Rudd"
     },
     {
       "character": {
         "name": "Sharon Carter",
         "imageUrl": ""
       },
-      "actorId": "b8cae279-8df0-4334-ab14-9682abbf1882"
+      "actorId": "b8cae279-8df0-4334-ab14-9682abbf1882",
+      "name": "Emily VanCamp"
     },
     {
       "character": {
         "name": "Peter Parker / Spider-Man",
         "imageUrl": ""
       },
-      "actorId": "f70d14d5-2f1a-46a1-8462-bdf6fc18141a"
+      "actorId": "f70d14d5-2f1a-46a1-8462-bdf6fc18141a",
+      "name": "Tom Holland"
     },
     {
       "character": {
         "name": "Zemo",
         "imageUrl": ""
       },
-      "actorId": "d31d9f34-2e99-4163-85e2-c801d2cf41d9"
+      "actorId": "d31d9f34-2e99-4163-85e2-c801d2cf41d9",
+      "name": "Daniel Brühl"
     },
     {
       "character": {
         "name": "Brock Rumlow",
         "imageUrl": ""
       },
-      "actorId": "2ff5c3e6-e823-409d-b24d-af8c47d8b1b8"
+      "actorId": "2ff5c3e6-e823-409d-b24d-af8c47d8b1b8",
+      "name": "Frank Grillo"
     }
   ],
   "collections": [

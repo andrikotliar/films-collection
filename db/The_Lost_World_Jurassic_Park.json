@@ -67,28 +67,32 @@
         "name": "Malcolm",
         "imageUrl": ""
       },
-      "actorId": "6b539e14-5cb0-4aa4-b194-4f1f240d0f64"
+      "actorId": "6b539e14-5cb0-4aa4-b194-4f1f240d0f64",
+      "name": "Jeff Goldblum"
     },
     {
       "character": {
         "name": "Hammond",
         "imageUrl": ""
       },
-      "actorId": "9ef202b2-9850-4f52-9428-060c709f2cb6"
+      "actorId": "9ef202b2-9850-4f52-9428-060c709f2cb6",
+      "name": "Richard Attenborough"
     },
     {
       "character": {
         "name": "Sarah Harding",
         "imageUrl": ""
       },
-      "actorId": "7f0b81c7-b4b8-45fc-8945-2f3a6fbdf7f8"
+      "actorId": "7f0b81c7-b4b8-45fc-8945-2f3a6fbdf7f8",
+      "name": "Julianne Moore"
     },
     {
       "character": {
         "name": "Peter Ludlow",
         "imageUrl": ""
       },
-      "actorId": "0b7d6ece-cd3d-45c2-ae05-267b3445eabf"
+      "actorId": "0b7d6ece-cd3d-45c2-ae05-267b3445eabf",
+      "name": "Arliss Howard"
     }
   ],
   "collections": [

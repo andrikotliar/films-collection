@@ -66,63 +66,72 @@
         "name": "Flynn Carsen",
         "imageUrl": ""
       },
-      "actorId": "521e92a5-04cd-432b-80b8-fe1331ee58a6"
+      "actorId": "521e92a5-04cd-432b-80b8-fe1331ee58a6",
+      "name": "Noah Wyle"
     },
     {
       "character": {
         "name": "Nicole Noone",
         "imageUrl": ""
       },
-      "actorId": "39a3e51c-6bba-4b8e-aee4-ee6ed9a9f5f6"
+      "actorId": "39a3e51c-6bba-4b8e-aee4-ee6ed9a9f5f6",
+      "name": "Sonya Walger"
     },
     {
       "character": {
         "name": "Judson",
         "imageUrl": ""
       },
-      "actorId": "2d3f746c-e37d-4f12-a139-d8463dc71b66"
+      "actorId": "2d3f746c-e37d-4f12-a139-d8463dc71b66",
+      "name": "Bob Newhart"
     },
     {
       "character": {
         "name": "Edward Wilde",
         "imageUrl": ""
       },
-      "actorId": "5c3e83db-6012-4ef0-9710-a99a5e19baca"
+      "actorId": "5c3e83db-6012-4ef0-9710-a99a5e19baca",
+      "name": "Kyle MacLachlan"
     },
     {
       "character": {
         "name": "Lana",
         "imageUrl": ""
       },
-      "actorId": "c43955ec-2f50-493a-8a07-2b0be231c142"
+      "actorId": "c43955ec-2f50-493a-8a07-2b0be231c142",
+      "name": "Kelly Hu"
     },
     {
       "character": {
         "name": "Rhodes",
         "imageUrl": ""
       },
-      "actorId": "979c25b0-31bd-44fb-88e4-e31bf1cf100d"
+      "actorId": "979c25b0-31bd-44fb-88e4-e31bf1cf100d",
+      "name": "David Dayan Fisher"
     },
     {
       "character": {
         "name": "Charlene",
         "imageUrl": ""
       },
-      "actorId": "b50126e9-325b-4406-9164-dfe7ef882acc"
+      "actorId": "b50126e9-325b-4406-9164-dfe7ef882acc",
+      "name": "Jane Curtin"
     },
     {
       "character": {
         "name": "Margie Carsen",
         "imageUrl": ""
       },
-      "actorId": "3edb4170-5178-4fb8-aa43-27b2cafbe82a"
+      "actorId": "3edb4170-5178-4fb8-aa43-27b2cafbe82a",
+      "name": "Olympia Dukakis"
     },
     {
       "character": {
         "name": "Debra",
         "imageUrl": ""
       },
-      "actorId": "0aeb0252-6ba9-4897-a50d-589d6a3f50ad"
+      "actorId": "0aeb0252-6ba9-4897-a50d-589d6a3f50ad",
+      "name": "Lisa Brenner"
     }
   ],
   "collections": [

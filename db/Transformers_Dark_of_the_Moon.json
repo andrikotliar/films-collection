@@ -73,84 +73,96 @@
         "name": "Sam Witwicky",
         "imageUrl": ""
       },
-      "actorId": "0eac0045-e7d9-4f55-9bf5-4347b6447417"
+      "actorId": "0eac0045-e7d9-4f55-9bf5-4347b6447417",
+      "name": "Shia LaBeouf"
     },
     {
       "character": {
         "name": "Carly",
         "imageUrl": ""
       },
-      "actorId": "d6270753-2921-4f42-aa7e-25c75acc11fc"
+      "actorId": "d6270753-2921-4f42-aa7e-25c75acc11fc",
+      "name": "Rosie Huntington-Whiteley"
     },
     {
       "character": {
         "name": "Lennox",
         "imageUrl": ""
       },
-      "actorId": "669ffd1c-6e00-4943-9ce9-80e98fba3b3f"
+      "actorId": "669ffd1c-6e00-4943-9ce9-80e98fba3b3f",
+      "name": "Josh Duhamel"
     },
     {
       "character": {
         "name": "Simmons",
         "imageUrl": ""
       },
-      "actorId": "3bd0ee3c-2afa-40de-8aac-ed75222a14dd"
+      "actorId": "3bd0ee3c-2afa-40de-8aac-ed75222a14dd",
+      "name": "John Turturro"
     },
     {
       "character": {
         "name": "Epps",
         "imageUrl": ""
       },
-      "actorId": "d590cae8-3171-41ca-968c-1bbb1b425aa8"
+      "actorId": "d590cae8-3171-41ca-968c-1bbb1b425aa8",
+      "name": "Tyrese Gibson"
     },
     {
       "character": {
         "name": "Dylan",
         "imageUrl": ""
       },
-      "actorId": "24764a9c-188d-448e-b2c8-8438950d6e51"
+      "actorId": "24764a9c-188d-448e-b2c8-8438950d6e51",
+      "name": "Patrick Dempsey"
     },
     {
       "character": {
         "name": "Mearing",
         "imageUrl": ""
       },
-      "actorId": "31bd06fb-d592-4c5c-b6d2-77b779239ea5"
+      "actorId": "31bd06fb-d592-4c5c-b6d2-77b779239ea5",
+      "name": "Frances McDormand"
     },
     {
       "character": {
         "name": "Bruce Brazos",
         "imageUrl": ""
       },
-      "actorId": "5317ce46-2d7f-4fc3-8e59-2d25a6e529eb"
+      "actorId": "5317ce46-2d7f-4fc3-8e59-2d25a6e529eb",
+      "name": "John Malkovich"
     },
     {
       "character": {
         "name": "Optimus Prime",
         "imageUrl": ""
       },
-      "actorId": "9174c001-6bed-4c51-910d-5caa6063f8a0"
+      "actorId": "9174c001-6bed-4c51-910d-5caa6063f8a0",
+      "name": "Peter Cullen"
     },
     {
       "character": {
         "name": "Megatron",
         "imageUrl": ""
       },
-      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
+      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139",
+      "name": "Hugo Weaving"
     },
     {
       "character": {
         "name": "Sentinel Prime",
         "imageUrl": ""
       },
-      "actorId": "f5f144c1-2549-4e2d-8cf7-50ed282c6318"
+      "actorId": "f5f144c1-2549-4e2d-8cf7-50ed282c6318",
+      "name": "Leonard Nimoy"
     },
     {
       "character": {
         "name": "Shockwave / Soundwave",
         "imageUrl": ""
       },
-      "actorId": "017b1716-0402-4820-9a10-7765a7a4c98f"
+      "actorId": "017b1716-0402-4820-9a10-7765a7a4c98f",
+      "name": "Frank Welker"
     }
   ],
   "collections": [

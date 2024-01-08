@@ -65,56 +65,64 @@
         "name": "Damien Tomaso",
         "imageUrl": ""
       },
-      "actorId": "1b34d9ae-bb3e-4712-b2d6-a6e8039844d5"
+      "actorId": "1b34d9ae-bb3e-4712-b2d6-a6e8039844d5",
+      "name": "Cyril Raffaelli"
     },
     {
       "character": {
         "name": "Le'to",
         "imageUrl": ""
       },
-      "actorId": "ce6d262a-eaa0-46f8-863a-923a46992247"
+      "actorId": "ce6d262a-eaa0-46f8-863a-923a46992247",
+      "name": "David Belle"
     },
     {
       "character": {
         "name": "Le pr'sident de la R'publique",
         "imageUrl": ""
       },
-      "actorId": "1e55ccf8-805b-4a43-be29-cf88d099d3e8"
+      "actorId": "1e55ccf8-805b-4a43-be29-cf88d099d3e8",
+      "name": "Philippe Torreton"
     },
     {
       "character": {
         "name": "Walter Gassman",
         "imageUrl": ""
       },
-      "actorId": "97959845-9a5e-43b2-aec5-fd0d5f569fb4"
+      "actorId": "97959845-9a5e-43b2-aec5-fd0d5f569fb4",
+      "name": "Daniel Duval"
     },
     {
       "character": {
         "name": "Tao",
         "imageUrl": ""
       },
-      "actorId": "583e88ff-5f6f-4f6c-b099-a2c5c5942bc8"
+      "actorId": "583e88ff-5f6f-4f6c-b099-a2c5c5942bc8",
+      "name": "Elodie Yung"
     },
     {
       "character": {
         "name": "Molko",
         "imageUrl": ""
       },
-      "actorId": "3c333c8f-aa1d-4848-bf6a-260d17a7a4f8"
+      "actorId": "3c333c8f-aa1d-4848-bf6a-260d17a7a4f8",
+      "name": "MC Jean Gab'1"
     },
     {
       "character": {
         "name": "Karl le skin",
         "imageUrl": ""
       },
-      "actorId": "c4d4b886-9305-4ee2-bf69-f94516abd3ef"
+      "actorId": "c4d4b886-9305-4ee2-bf69-f94516abd3ef",
+      "name": "James Deano"
     },
     {
       "character": {
         "name": "Ali-K",
         "imageUrl": ""
       },
-      "actorId": "13ffb0cf-a767-4d8e-805b-2f0084761b92"
+      "actorId": "13ffb0cf-a767-4d8e-805b-2f0084761b92",
+      "name": "Laouni Mouhid"
     }
   ],
   "collections": [

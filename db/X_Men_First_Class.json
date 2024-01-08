@@ -76,77 +76,88 @@
         "name": "Charles Xavier",
         "imageUrl": ""
       },
-      "actorId": "8f4897bf-8957-47f7-9b1c-fe4616205de6"
+      "actorId": "8f4897bf-8957-47f7-9b1c-fe4616205de6",
+      "name": "James McAvoy"
     },
     {
       "character": {
         "name": "Erik Lensherr",
         "imageUrl": ""
       },
-      "actorId": "5e9cb45b-f3f1-435b-9a3d-d0b2b3963899"
+      "actorId": "5e9cb45b-f3f1-435b-9a3d-d0b2b3963899",
+      "name": "Michael Fassbender"
     },
     {
       "character": {
         "name": "Young Erik",
         "imageUrl": ""
       },
-      "actorId": "a94f759d-6e3a-4ce7-baa6-5f18a377e011"
+      "actorId": "a94f759d-6e3a-4ce7-baa6-5f18a377e011",
+      "name": "Bill Milner"
     },
     {
       "character": {
         "name": "Sebastian Shaw",
         "imageUrl": ""
       },
-      "actorId": "3c578d0d-0d3c-4bfb-b580-adeea340d073"
+      "actorId": "3c578d0d-0d3c-4bfb-b580-adeea340d073",
+      "name": "Kevin Bacon"
     },
     {
       "character": {
         "name": "Moira MacTaggert",
         "imageUrl": ""
       },
-      "actorId": "d13324bf-abf5-4e5c-85f0-b9f99e6127d5"
+      "actorId": "d13324bf-abf5-4e5c-85f0-b9f99e6127d5",
+      "name": "Rose Byrne"
     },
     {
       "character": {
         "name": "Raven / Mystique",
         "imageUrl": ""
       },
-      "actorId": "29b99567-4a10-4246-9bb2-26b55a9c1e63"
+      "actorId": "29b99567-4a10-4246-9bb2-26b55a9c1e63",
+      "name": "Jennifer Lawrence"
     },
     {
       "character": {
         "name": "Emma Frost",
         "imageUrl": ""
       },
-      "actorId": "da3e7a09-dadb-4ab6-ad49-097adcb30554"
+      "actorId": "da3e7a09-dadb-4ab6-ad49-097adcb30554",
+      "name": "January Jones"
     },
     {
       "character": {
         "name": "Hank / Beast",
         "imageUrl": ""
       },
-      "actorId": "e71b81b3-8c4f-447d-97a8-56d5a976750d"
+      "actorId": "e71b81b3-8c4f-447d-97a8-56d5a976750d",
+      "name": "Nicholas Hoult"
     },
     {
       "character": {
         "name": "Cassidy / Banshee",
         "imageUrl": ""
       },
-      "actorId": "28066701-2a1a-4ad5-b59b-6032dc599b46"
+      "actorId": "28066701-2a1a-4ad5-b59b-6032dc599b46",
+      "name": "Caleb Landry Jones"
     },
     {
       "character": {
         "name": "Alex Summers / Havok",
         "imageUrl": ""
       },
-      "actorId": "273890bf-eac3-4493-a7e6-4db9ebab017f"
+      "actorId": "273890bf-eac3-4493-a7e6-4db9ebab017f",
+      "name": "Lucas Till"
     },
     {
       "character": {
         "name": "William Stryker",
         "imageUrl": ""
       },
-      "actorId": "5a1879f4-ab18-4893-8b1e-0471c556933e"
+      "actorId": "5a1879f4-ab18-4893-8b1e-0471c556933e",
+      "name": "Don Creech"
     }
   ],
   "collections": [

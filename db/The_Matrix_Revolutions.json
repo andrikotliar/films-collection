@@ -64,56 +64,64 @@
         "name": "Neo",
         "imageUrl": ""
       },
-      "actorId": "7543d97c-88d9-4319-8f10-1bc00f84b0e9"
+      "actorId": "7543d97c-88d9-4319-8f10-1bc00f84b0e9",
+      "name": "Keanu Reeves"
     },
     {
       "character": {
         "name": "Morpheus",
         "imageUrl": ""
       },
-      "actorId": "d5cfb42e-818e-43cf-9840-f842bc4579e6"
+      "actorId": "d5cfb42e-818e-43cf-9840-f842bc4579e6",
+      "name": "Laurence Fishburne"
     },
     {
       "character": {
         "name": "Trinity",
         "imageUrl": ""
       },
-      "actorId": "ce8cfc76-f7db-469e-bf79-0800723c1fc5"
+      "actorId": "ce8cfc76-f7db-469e-bf79-0800723c1fc5",
+      "name": "Carrie-Anne Moss"
     },
     {
       "character": {
         "name": "Agent Smith",
         "imageUrl": ""
       },
-      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
+      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139",
+      "name": "Hugo Weaving"
     },
     {
       "character": {
         "name": "Oracle",
         "imageUrl": ""
       },
-      "actorId": "833b0e41-00e8-4c9b-9d17-d4510f0b86ee"
+      "actorId": "833b0e41-00e8-4c9b-9d17-d4510f0b86ee",
+      "name": "Mary Alice"
     },
     {
       "character": {
         "name": "Niobe",
         "imageUrl": ""
       },
-      "actorId": "9e504ddc-91b4-45c1-a321-c5e7f40999d9"
+      "actorId": "9e504ddc-91b4-45c1-a321-c5e7f40999d9",
+      "name": "Jada Pinkett Smith"
     },
     {
       "character": {
         "name": "Lock",
         "imageUrl": ""
       },
-      "actorId": "2cca1667-07db-451b-a853-9c4f1bd28cf3"
+      "actorId": "2cca1667-07db-451b-a853-9c4f1bd28cf3",
+      "name": "Harry J. Lennix"
     },
     {
       "character": {
         "name": "Link",
         "imageUrl": ""
       },
-      "actorId": "85dcf65e-0034-4b73-9165-4813486e5f90"
+      "actorId": "85dcf65e-0034-4b73-9165-4813486e5f90",
+      "name": "Harold Perrineau"
     }
   ],
   "collections": [

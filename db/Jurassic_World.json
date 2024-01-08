@@ -75,84 +75,96 @@
         "name": "Owen",
         "imageUrl": ""
       },
-      "actorId": "d37a1702-6d76-425e-a1ac-940961feb029"
+      "actorId": "d37a1702-6d76-425e-a1ac-940961feb029",
+      "name": "Chris Pratt"
     },
     {
       "character": {
         "name": "Claire",
         "imageUrl": ""
       },
-      "actorId": "9bf5d841-f49e-492d-b248-b6d73f76e41e"
+      "actorId": "9bf5d841-f49e-492d-b248-b6d73f76e41e",
+      "name": "Bryce Dallas Howard"
     },
     {
       "character": {
         "name": "Masrani",
         "imageUrl": ""
       },
-      "actorId": "78c0990e-0728-4cde-81b2-2bc4535f5730"
+      "actorId": "78c0990e-0728-4cde-81b2-2bc4535f5730",
+      "name": "Irrfan Khan"
     },
     {
       "character": {
         "name": "Hoskins",
         "imageUrl": ""
       },
-      "actorId": "d39e216b-d069-4f40-b485-2be6eafa4d11"
+      "actorId": "d39e216b-d069-4f40-b485-2be6eafa4d11",
+      "name": "Vincent D'Onofrio"
     },
     {
       "character": {
         "name": "Gray",
         "imageUrl": ""
       },
-      "actorId": "43829348-2d1a-4215-9d14-bbaa6f1a6802"
+      "actorId": "43829348-2d1a-4215-9d14-bbaa6f1a6802",
+      "name": "Ty Simpkins"
     },
     {
       "character": {
         "name": "Zach",
         "imageUrl": ""
       },
-      "actorId": "7af5957b-94b5-4ad7-ba1c-8a6d2b8d8aad"
+      "actorId": "7af5957b-94b5-4ad7-ba1c-8a6d2b8d8aad",
+      "name": "Nick Robinson"
     },
     {
       "character": {
         "name": "Lowery",
         "imageUrl": ""
       },
-      "actorId": "ba27009e-efb1-4811-9ac7-4bf64152918a"
+      "actorId": "ba27009e-efb1-4811-9ac7-4bf64152918a",
+      "name": "Jake Johnson"
     },
     {
       "character": {
         "name": "Barry",
         "imageUrl": ""
       },
-      "actorId": "8dc10d24-b013-432f-b828-c9282444b342"
+      "actorId": "8dc10d24-b013-432f-b828-c9282444b342",
+      "name": "Omar Sy"
     },
     {
       "character": {
         "name": "Dr. Henry Wu",
         "imageUrl": ""
       },
-      "actorId": "98486615-e33a-430b-b038-935105096070"
+      "actorId": "98486615-e33a-430b-b038-935105096070",
+      "name": "B.D. Wong"
     },
     {
       "character": {
         "name": "Karen",
         "imageUrl": ""
       },
-      "actorId": "b999e11f-6bb6-4cfc-b668-ca5ee377a087"
+      "actorId": "b999e11f-6bb6-4cfc-b668-ca5ee377a087",
+      "name": "Judy Greer"
     },
     {
       "character": {
         "name": "Vivian",
         "imageUrl": ""
       },
-      "actorId": "7dc90708-83e7-4838-b6ab-787631e96541"
+      "actorId": "7dc90708-83e7-4838-b6ab-787631e96541",
+      "name": "Lauren Lapkus"
     },
     {
       "character": {
         "name": "Hamada",
         "imageUrl": ""
       },
-      "actorId": "c987561c-e7e1-4e87-a98c-b6d29af05ab6"
+      "actorId": "c987561c-e7e1-4e87-a98c-b6d29af05ab6",
+      "name": "Brian Tee"
     }
   ],
   "collections": [

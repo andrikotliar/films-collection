@@ -70,63 +70,72 @@
         "name": "Thor",
         "imageUrl": ""
       },
-      "actorId": "5a7b31cb-f62d-44ae-85b6-21ed4c144a2d"
+      "actorId": "5a7b31cb-f62d-44ae-85b6-21ed4c144a2d",
+      "name": "Chris Hemsworth"
     },
     {
       "character": {
         "name": "Jane Foster",
         "imageUrl": ""
       },
-      "actorId": "0f310c3e-4e4f-41b7-9c51-61b4b5935607"
+      "actorId": "0f310c3e-4e4f-41b7-9c51-61b4b5935607",
+      "name": "Natalie Portman"
     },
     {
       "character": {
         "name": "Loki",
         "imageUrl": ""
       },
-      "actorId": "3f48a450-bff9-4a01-a00a-bba10e5a1e0a"
+      "actorId": "3f48a450-bff9-4a01-a00a-bba10e5a1e0a",
+      "name": "Tom Hiddleston"
     },
     {
       "character": {
         "name": "Odin",
         "imageUrl": ""
       },
-      "actorId": "b8f068b0-99eb-451f-b746-f92a5dc655b1"
+      "actorId": "b8f068b0-99eb-451f-b746-f92a5dc655b1",
+      "name": "Anthony Hopkins"
     },
     {
       "character": {
         "name": "Erik Selvig",
         "imageUrl": ""
       },
-      "actorId": "1b41f903-5993-4f31-8306-afb18e261e96"
+      "actorId": "1b41f903-5993-4f31-8306-afb18e261e96",
+      "name": "Stellan Skarsgard"
     },
     {
       "character": {
         "name": "Darcy Lewis",
         "imageUrl": ""
       },
-      "actorId": "8ef45223-2a1b-42cc-98e8-db6637e88ca4"
+      "actorId": "8ef45223-2a1b-42cc-98e8-db6637e88ca4",
+      "name": "Kat Dennings"
     },
     {
       "character": {
         "name": "Agent Coulson",
         "imageUrl": ""
       },
-      "actorId": "1a2b1db2-33d9-4755-8702-1e054532094b"
+      "actorId": "1a2b1db2-33d9-4755-8702-1e054532094b",
+      "name": "Clark Gregg"
     },
     {
       "character": {
         "name": "King Laufey",
         "imageUrl": ""
       },
-      "actorId": "86b4d3f8-c9d2-46df-9d95-b6cb77b055d7"
+      "actorId": "86b4d3f8-c9d2-46df-9d95-b6cb77b055d7",
+      "name": "Colm Feore"
     },
     {
       "character": {
         "name": "Heimdall",
         "imageUrl": ""
       },
-      "actorId": "ed322351-e250-4592-a42d-18dc1e238066"
+      "actorId": "ed322351-e250-4592-a42d-18dc1e238066",
+      "name": "Idris Elba"
     }
   ],
   "collections": [

@@ -171,105 +171,120 @@
         "name": "Aang",
         "imageUrl": ""
       },
-      "actorId": "66bb5722-cb07-455b-9599-1edb21457016"
+      "actorId": "66bb5722-cb07-455b-9599-1edb21457016",
+      "name": "Zach Tyler"
     },
     {
       "character": {
         "name": "Katara",
         "imageUrl": ""
       },
-      "actorId": "ed78b3ed-9822-4b09-99a3-4f064968c943"
+      "actorId": "ed78b3ed-9822-4b09-99a3-4f064968c943",
+      "name": "Mae Whitman"
     },
     {
       "character": {
         "name": "Sokka",
         "imageUrl": ""
       },
-      "actorId": "3d1c24f3-e57e-4bba-ad48-eb1d9b629951"
+      "actorId": "3d1c24f3-e57e-4bba-ad48-eb1d9b629951",
+      "name": "Jack De Sena"
     },
     {
       "character": {
         "name": "Zuko",
         "imageUrl": ""
       },
-      "actorId": "fe9deb01-53d0-46e2-a020-00b89dc64d91"
+      "actorId": "fe9deb01-53d0-46e2-a020-00b89dc64d91",
+      "name": "Dante Basco"
     },
     {
       "character": {
         "name": "Toph",
         "imageUrl": ""
       },
-      "actorId": "c6ad31b8-d76b-49a8-bfdf-ef5def41fe37"
+      "actorId": "c6ad31b8-d76b-49a8-bfdf-ef5def41fe37",
+      "name": "Michaela Jill Murphy"
     },
     {
       "character": {
         "name": "Airo",
         "imageUrl": ""
       },
-      "actorId": "743aa000-2770-4069-accb-d76b9969fdd9"
+      "actorId": "743aa000-2770-4069-accb-d76b9969fdd9",
+      "name": "Mako"
     },
     {
       "character": {
         "name": "Azula",
         "imageUrl": ""
       },
-      "actorId": "f929cee3-33a5-4b6c-b396-3cd1753a7ca5"
+      "actorId": "f929cee3-33a5-4b6c-b396-3cd1753a7ca5",
+      "name": "Grey Griffin"
     },
     {
       "character": {
         "name": "Hakoda",
         "imageUrl": ""
       },
-      "actorId": "4dbd652a-acde-4959-87ed-16f0b0a17e87"
+      "actorId": "4dbd652a-acde-4959-87ed-16f0b0a17e87",
+      "name": "André Sogliuzzo"
     },
     {
       "character": {
         "name": "Mai",
         "imageUrl": ""
       },
-      "actorId": "a43e286d-c292-42ef-be63-0f6646229a47"
+      "actorId": "a43e286d-c292-42ef-be63-0f6646229a47",
+      "name": "Cricket Leigh"
     },
     {
       "character": {
         "name": "Ty Lee",
         "imageUrl": ""
       },
-      "actorId": "d80c910c-ac68-4657-b8b1-63e3fd6dc17d"
+      "actorId": "d80c910c-ac68-4657-b8b1-63e3fd6dc17d",
+      "name": "Olivia Hack"
     },
     {
       "character": {
         "name": "Roku",
         "imageUrl": ""
       },
-      "actorId": "607fb408-26e8-4276-bfe1-f4f7066e0ca3"
+      "actorId": "607fb408-26e8-4276-bfe1-f4f7066e0ca3",
+      "name": "James Garrett"
     },
     {
       "character": {
         "name": "Zhao",
         "imageUrl": ""
       },
-      "actorId": "24f7fda0-f9e4-4b4f-8f21-5258aa22abf4"
+      "actorId": "24f7fda0-f9e4-4b4f-8f21-5258aa22abf4",
+      "name": "Jason Isaacs"
     },
     {
       "character": {
         "name": "Long Feng",
         "imageUrl": ""
       },
-      "actorId": "7ba0570a-68be-41d9-b548-66375734f7ac"
+      "actorId": "7ba0570a-68be-41d9-b548-66375734f7ac",
+      "name": "Clancy Brown"
     },
     {
       "character": {
         "name": "Princess Yue",
         "imageUrl": ""
       },
-      "actorId": "6bc3e0d4-6215-41fa-9f2b-11dd8334e432"
+      "actorId": "6bc3e0d4-6215-41fa-9f2b-11dd8334e432",
+      "name": "Johanna Braddy"
     },
     {
       "character": {
         "name": "Suki",
         "imageUrl": ""
       },
-      "actorId": "4a373c3e-5e8c-4f7e-a70b-2d7a12b1843b"
+      "actorId": "4a373c3e-5e8c-4f7e-a70b-2d7a12b1843b",
+      "name": "Jennie Kwan"
     }
   ],
   "collections": [

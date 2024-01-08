@@ -67,56 +67,64 @@
         "name": "Alex",
         "imageUrl": ""
       },
-      "actorId": "a30ab878-3936-4e10-8c58-a5c0fe9f9146"
+      "actorId": "a30ab878-3936-4e10-8c58-a5c0fe9f9146",
+      "name": "Ben Stiller"
     },
     {
       "character": {
         "name": "Marty",
         "imageUrl": ""
       },
-      "actorId": "653c1c5c-0093-483f-97b7-bb93107cf469"
+      "actorId": "653c1c5c-0093-483f-97b7-bb93107cf469",
+      "name": "Chris Rock"
     },
     {
       "character": {
         "name": "Melman",
         "imageUrl": ""
       },
-      "actorId": "0822f145-f313-4d3a-a34c-acbb77593566"
+      "actorId": "0822f145-f313-4d3a-a34c-acbb77593566",
+      "name": "David Schwimmer"
     },
     {
       "character": {
         "name": "Gloria",
         "imageUrl": ""
       },
-      "actorId": "9e504ddc-91b4-45c1-a321-c5e7f40999d9"
+      "actorId": "9e504ddc-91b4-45c1-a321-c5e7f40999d9",
+      "name": "Jada Pinkett Smith"
     },
     {
       "character": {
         "name": "Julien",
         "imageUrl": ""
       },
-      "actorId": "dda11932-ed49-4f73-8b6f-c6949a5079b5"
+      "actorId": "dda11932-ed49-4f73-8b6f-c6949a5079b5",
+      "name": "Sacha Baron Cohen"
     },
     {
       "character": {
         "name": "Maurice",
         "imageUrl": ""
       },
-      "actorId": "b653a4f7-1945-4f56-b9a8-f8eb7b5c4429"
+      "actorId": "b653a4f7-1945-4f56-b9a8-f8eb7b5c4429",
+      "name": "Cedric the Entertainer"
     },
     {
       "character": {
         "name": "Zuba",
         "imageUrl": ""
       },
-      "actorId": "e1b176c6-c14c-41de-92c3-e5769d65ba89"
+      "actorId": "e1b176c6-c14c-41de-92c3-e5769d65ba89",
+      "name": "Bernie Mac"
     },
     {
       "character": {
         "name": "Makunga",
         "imageUrl": ""
       },
-      "actorId": "fec867a8-35ae-4586-8add-02de4e0d9725"
+      "actorId": "fec867a8-35ae-4586-8add-02de4e0d9725",
+      "name": "Alec Baldwin"
     }
   ],
   "collections": [

@@ -76,91 +76,104 @@
         "name": "Mark Watney",
         "imageUrl": ""
       },
-      "actorId": "95da34ce-8572-4b69-a7e5-c10d81af5504"
+      "actorId": "95da34ce-8572-4b69-a7e5-c10d81af5504",
+      "name": "Matt Damon"
     },
     {
       "character": {
         "name": "Melissa Lewis",
         "imageUrl": ""
       },
-      "actorId": "68c1c739-b67f-4763-a026-d041bab4508b"
+      "actorId": "68c1c739-b67f-4763-a026-d041bab4508b",
+      "name": "Jessica Chastain"
     },
     {
       "character": {
         "name": "Annie Montrose",
         "imageUrl": ""
       },
-      "actorId": "e3e5068a-c5ad-484a-93e6-ded28d61e48f"
+      "actorId": "e3e5068a-c5ad-484a-93e6-ded28d61e48f",
+      "name": "Kristen Wiig"
     },
     {
       "character": {
         "name": "Teddy Sanders",
         "imageUrl": ""
       },
-      "actorId": "2acdc01e-e8a7-4c67-a061-47ec8ed67d26"
+      "actorId": "2acdc01e-e8a7-4c67-a061-47ec8ed67d26",
+      "name": "Jeff Daniels"
     },
     {
       "character": {
         "name": "Rick Martinez",
         "imageUrl": ""
       },
-      "actorId": "1bffcd51-f602-47df-b924-f575be9234f1"
+      "actorId": "1bffcd51-f602-47df-b924-f575be9234f1",
+      "name": "Michael Pena"
     },
     {
       "character": {
         "name": "Mitch Henderson",
         "imageUrl": ""
       },
-      "actorId": "f1d021e9-26d9-440c-9e19-398afd30f0e4"
+      "actorId": "f1d021e9-26d9-440c-9e19-398afd30f0e4",
+      "name": "Sean Bean"
     },
     {
       "character": {
         "name": "Beth Johanssen",
         "imageUrl": ""
       },
-      "actorId": "147beef0-2303-4b32-9c87-384a9e4a4a3c"
+      "actorId": "147beef0-2303-4b32-9c87-384a9e4a4a3c",
+      "name": "Kate Mara"
     },
     {
       "character": {
         "name": "Chris Beck",
         "imageUrl": ""
       },
-      "actorId": "6efe0990-f8c2-479e-970a-f990a42f774a"
+      "actorId": "6efe0990-f8c2-479e-970a-f990a42f774a",
+      "name": "Sebastian Stan"
     },
     {
       "character": {
         "name": "Alex Vogel",
         "imageUrl": ""
       },
-      "actorId": "6710fe9f-d4d3-49ee-a488-3afd9a8ed602"
+      "actorId": "6710fe9f-d4d3-49ee-a488-3afd9a8ed602",
+      "name": "Aksel Hennie"
     },
     {
       "character": {
         "name": "Vincent Kapoor",
         "imageUrl": ""
       },
-      "actorId": "f9adc0cc-6999-424d-a750-d5cd22ec97ae"
+      "actorId": "f9adc0cc-6999-424d-a750-d5cd22ec97ae",
+      "name": "Chiwetel Ejiofor"
     },
     {
       "character": {
         "name": "Bruce Ng",
         "imageUrl": ""
       },
-      "actorId": "0138c730-8111-4494-bf7a-b96635ff65d2"
+      "actorId": "0138c730-8111-4494-bf7a-b96635ff65d2",
+      "name": "Benedict Wong"
     },
     {
       "character": {
         "name": "Mindy Park",
         "imageUrl": ""
       },
-      "actorId": "9db70e27-76b9-402b-b470-e88311283e36"
+      "actorId": "9db70e27-76b9-402b-b470-e88311283e36",
+      "name": "Mackenzie Davis"
     },
     {
       "character": {
         "name": "Rich Purnell",
         "imageUrl": ""
       },
-      "actorId": "92196f4f-16de-4bed-a866-1c871f78fafa"
+      "actorId": "92196f4f-16de-4bed-a866-1c871f78fafa",
+      "name": "Donald Glover"
     }
   ],
   "collections": [

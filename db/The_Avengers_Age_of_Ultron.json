@@ -67,112 +67,128 @@
         "name": "Tony Stark / Iron Man",
         "imageUrl": ""
       },
-      "actorId": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e"
+      "actorId": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e",
+      "name": "Robert Downey Jr."
     },
     {
       "character": {
         "name": "Thor",
         "imageUrl": ""
       },
-      "actorId": "5a7b31cb-f62d-44ae-85b6-21ed4c144a2d"
+      "actorId": "5a7b31cb-f62d-44ae-85b6-21ed4c144a2d",
+      "name": "Chris Hemsworth"
     },
     {
       "character": {
         "name": "Bruce Banner / Hulk",
         "imageUrl": ""
       },
-      "actorId": "66103de9-bd6b-4732-8a3b-b59d9c88035a"
+      "actorId": "66103de9-bd6b-4732-8a3b-b59d9c88035a",
+      "name": "Mark Ruffalo"
     },
     {
       "character": {
         "name": "Steve Rogers / Captain America",
         "imageUrl": ""
       },
-      "actorId": "38541020-9829-440f-a21b-caf46d2d9428"
+      "actorId": "38541020-9829-440f-a21b-caf46d2d9428",
+      "name": "Chris Evans"
     },
     {
       "character": {
         "name": "Natasha Romanoff / Black Widow",
         "imageUrl": ""
       },
-      "actorId": "56501e25-8153-4a05-9aaa-43e683f72492"
+      "actorId": "56501e25-8153-4a05-9aaa-43e683f72492",
+      "name": "Scarlett Johansson"
     },
     {
       "character": {
         "name": "Clint Barton / Hawkeye",
         "imageUrl": ""
       },
-      "actorId": "b3e7f578-6981-4121-91d3-d768d95751ca"
+      "actorId": "b3e7f578-6981-4121-91d3-d768d95751ca",
+      "name": "Jeremy Renner"
     },
     {
       "character": {
         "name": "Ultron",
         "imageUrl": ""
       },
-      "actorId": "0ea5a590-9554-427a-8b79-71da5c42d215"
+      "actorId": "0ea5a590-9554-427a-8b79-71da5c42d215",
+      "name": "James Spader"
     },
     {
       "character": {
         "name": "Nick Fury",
         "imageUrl": ""
       },
-      "actorId": "65e7e9e0-8e37-4237-9b23-a1f8a2d09147"
+      "actorId": "65e7e9e0-8e37-4237-9b23-a1f8a2d09147",
+      "name": "Samuel L. Jackson"
     },
     {
       "character": {
         "name": "James Rhodes",
         "imageUrl": ""
       },
-      "actorId": "64bde65d-0d41-434b-ab94-01aa4422b632"
+      "actorId": "64bde65d-0d41-434b-ab94-01aa4422b632",
+      "name": "Don Cheadle"
     },
     {
       "character": {
         "name": "Pietro Maximoff",
         "imageUrl": ""
       },
-      "actorId": "8e22a021-6cef-4c3a-82fe-c5eefe62217a"
+      "actorId": "8e22a021-6cef-4c3a-82fe-c5eefe62217a",
+      "name": "Aaron Taylor-Johnson"
     },
     {
       "character": {
         "name": "Wanda Maximoff / Scarlett Witch",
         "imageUrl": ""
       },
-      "actorId": "f08bca90-8dc3-440a-a32a-4647bdf4d828"
+      "actorId": "f08bca90-8dc3-440a-a32a-4647bdf4d828",
+      "name": "Elizabeth Olsen"
     },
     {
       "character": {
         "name": "Jarvis / Vision",
         "imageUrl": ""
       },
-      "actorId": "7a77d424-0788-4e65-9596-e60d483cf264"
+      "actorId": "7a77d424-0788-4e65-9596-e60d483cf264",
+      "name": "Paul Bettany"
     },
     {
       "character": {
         "name": "Maria Hill",
         "imageUrl": ""
       },
-      "actorId": "8627927d-0a92-4a5a-902f-24d189e429e2"
+      "actorId": "8627927d-0a92-4a5a-902f-24d189e429e2",
+      "name": "Cobie Smulders"
     },
     {
       "character": {
         "name": "Sam Wilson",
         "imageUrl": ""
       },
-      "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0"
+      "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0",
+      "name": "Anthony Mackie"
     },
     {
       "character": {
         "name": "Peggy Carter",
         "imageUrl": ""
       },
-      "actorId": "6cc700ae-5188-4d37-b03e-c0dd08fc7465"
+      "actorId": "6cc700ae-5188-4d37-b03e-c0dd08fc7465",
+      "name": "Hayley Atwell"
     },
     {
       "character": {
         "name": "Heimdall",
         "imageUrl": ""
       },
-      "actorId": "ed322351-e250-4592-a42d-18dc1e238066"
+      "actorId": "ed322351-e250-4592-a42d-18dc1e238066",
+      "name": "Idris Elba"
     }
   ],
   "collections": [

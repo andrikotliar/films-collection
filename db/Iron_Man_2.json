@@ -64,70 +64,80 @@
         "name": "Tony Stark / Iron Man",
         "imageUrl": ""
       },
-      "actorId": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e"
+      "actorId": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e",
+      "name": "Robert Downey Jr."
     },
     {
       "character": {
         "name": "Pepper Potts",
         "imageUrl": ""
       },
-      "actorId": "21b0cc1a-55c6-40a0-88c4-aafcf510b3e4"
+      "actorId": "21b0cc1a-55c6-40a0-88c4-aafcf510b3e4",
+      "name": "Gwyneth Paltrow"
     },
     {
       "character": {
         "name": "James Rhodes / War Machine",
         "imageUrl": ""
       },
-      "actorId": "64bde65d-0d41-434b-ab94-01aa4422b632"
+      "actorId": "64bde65d-0d41-434b-ab94-01aa4422b632",
+      "name": "Don Cheadle"
     },
     {
       "character": {
         "name": "Natasha Romanoff / Black Whidow",
         "imageUrl": ""
       },
-      "actorId": "56501e25-8153-4a05-9aaa-43e683f72492"
+      "actorId": "56501e25-8153-4a05-9aaa-43e683f72492",
+      "name": "Scarlett Johansson"
     },
     {
       "character": {
         "name": "Justin Hammer",
         "imageUrl": ""
       },
-      "actorId": "7d61684d-2e25-404e-863e-456af0b1b68d"
+      "actorId": "7d61684d-2e25-404e-863e-456af0b1b68d",
+      "name": "Sam Rockwell"
     },
     {
       "character": {
         "name": "Ivan Vanko",
         "imageUrl": ""
       },
-      "actorId": "022ba2f2-4455-4c96-ac5a-6d694fd74609"
+      "actorId": "022ba2f2-4455-4c96-ac5a-6d694fd74609",
+      "name": "Mickey Rourke"
     },
     {
       "character": {
         "name": "Nick Fury",
         "imageUrl": ""
       },
-      "actorId": "65e7e9e0-8e37-4237-9b23-a1f8a2d09147"
+      "actorId": "65e7e9e0-8e37-4237-9b23-a1f8a2d09147",
+      "name": "Samuel L. Jackson"
     },
     {
       "character": {
         "name": "Agent Coulson",
         "imageUrl": ""
       },
-      "actorId": "1a2b1db2-33d9-4755-8702-1e054532094b"
+      "actorId": "1a2b1db2-33d9-4755-8702-1e054532094b",
+      "name": "Clark Gregg"
     },
     {
       "character": {
         "name": "Howard Stark",
         "imageUrl": ""
       },
-      "actorId": "8e34ff83-ec16-4201-849b-bfc482c8911b"
+      "actorId": "8e34ff83-ec16-4201-849b-bfc482c8911b",
+      "name": "John Slattery"
     },
     {
       "character": {
         "name": "Senator Stern",
         "imageUrl": ""
       },
-      "actorId": "83c14810-cef1-4d3e-858d-16b82f6c572d"
+      "actorId": "83c14810-cef1-4d3e-858d-16b82f6c572d",
+      "name": "Garry Shandling"
     }
   ],
   "collections": [

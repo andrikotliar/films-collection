@@ -64,42 +64,48 @@
         "name": "Neo",
         "imageUrl": ""
       },
-      "actorId": "7543d97c-88d9-4319-8f10-1bc00f84b0e9"
+      "actorId": "7543d97c-88d9-4319-8f10-1bc00f84b0e9",
+      "name": "Keanu Reeves"
     },
     {
       "character": {
         "name": "Morpheus",
         "imageUrl": ""
       },
-      "actorId": "d5cfb42e-818e-43cf-9840-f842bc4579e6"
+      "actorId": "d5cfb42e-818e-43cf-9840-f842bc4579e6",
+      "name": "Laurence Fishburne"
     },
     {
       "character": {
         "name": "Trinity",
         "imageUrl": ""
       },
-      "actorId": "ce8cfc76-f7db-469e-bf79-0800723c1fc5"
+      "actorId": "ce8cfc76-f7db-469e-bf79-0800723c1fc5",
+      "name": "Carrie-Anne Moss"
     },
     {
       "character": {
         "name": "Agent Smith",
         "imageUrl": ""
       },
-      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
+      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139",
+      "name": "Hugo Weaving"
     },
     {
       "character": {
         "name": "Oracle",
         "imageUrl": ""
       },
-      "actorId": "86ce9437-91e5-459f-a4b5-a6480fafd5fe"
+      "actorId": "86ce9437-91e5-459f-a4b5-a6480fafd5fe",
+      "name": "Gloria Foster"
     },
     {
       "character": {
         "name": "Cypher",
         "imageUrl": ""
       },
-      "actorId": "79ec0ceb-f615-41af-8559-3e2da184f750"
+      "actorId": "79ec0ceb-f615-41af-8559-3e2da184f750",
+      "name": "Joe Pantoliano"
     }
   ],
   "collections": [

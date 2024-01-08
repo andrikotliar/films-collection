@@ -67,49 +67,56 @@
         "name": "Alex",
         "imageUrl": ""
       },
-      "actorId": "a30ab878-3936-4e10-8c58-a5c0fe9f9146"
+      "actorId": "a30ab878-3936-4e10-8c58-a5c0fe9f9146",
+      "name": "Ben Stiller"
     },
     {
       "character": {
         "name": "Marty",
         "imageUrl": ""
       },
-      "actorId": "653c1c5c-0093-483f-97b7-bb93107cf469"
+      "actorId": "653c1c5c-0093-483f-97b7-bb93107cf469",
+      "name": "Chris Rock"
     },
     {
       "character": {
         "name": "Melman",
         "imageUrl": ""
       },
-      "actorId": "0822f145-f313-4d3a-a34c-acbb77593566"
+      "actorId": "0822f145-f313-4d3a-a34c-acbb77593566",
+      "name": "David Schwimmer"
     },
     {
       "character": {
         "name": "Gloria",
         "imageUrl": ""
       },
-      "actorId": "9e504ddc-91b4-45c1-a321-c5e7f40999d9"
+      "actorId": "9e504ddc-91b4-45c1-a321-c5e7f40999d9",
+      "name": "Jada Pinkett Smith"
     },
     {
       "character": {
         "name": "Julien",
         "imageUrl": ""
       },
-      "actorId": "dda11932-ed49-4f73-8b6f-c6949a5079b5"
+      "actorId": "dda11932-ed49-4f73-8b6f-c6949a5079b5",
+      "name": "Sacha Baron Cohen"
     },
     {
       "character": {
         "name": "Skipper",
         "imageUrl": ""
       },
-      "actorId": "3369ddeb-bfb7-4737-b7c5-ee2e556352c5"
+      "actorId": "3369ddeb-bfb7-4737-b7c5-ee2e556352c5",
+      "name": "Tom McGrath"
     },
     {
       "character": {
         "name": "Kowalski",
         "imageUrl": ""
       },
-      "actorId": "236345ed-4488-4da7-b810-9141c8a74f47"
+      "actorId": "236345ed-4488-4da7-b810-9141c8a74f47",
+      "name": "Chris Miller"
     }
   ],
   "collections": [

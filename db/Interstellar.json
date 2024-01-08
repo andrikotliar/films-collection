@@ -73,42 +73,48 @@
         "name": "Cooper",
         "imageUrl": ""
       },
-      "actorId": "ec4fdff0-0b03-45c8-bae9-fbb995da70d7"
+      "actorId": "ec4fdff0-0b03-45c8-bae9-fbb995da70d7",
+      "name": "Matthew McConaughey"
     },
     {
       "character": {
         "name": "Murph",
         "imageUrl": ""
       },
-      "actorId": "68c1c739-b67f-4763-a026-d041bab4508b"
+      "actorId": "68c1c739-b67f-4763-a026-d041bab4508b",
+      "name": "Jessica Chastain"
     },
     {
       "character": {
         "name": "Murph (10 yrs.)",
         "imageUrl": ""
       },
-      "actorId": "d31e40c6-fbf7-4c26-91b4-8c25e004d4f8"
+      "actorId": "d31e40c6-fbf7-4c26-91b4-8c25e004d4f8",
+      "name": "Mackenzie Foy"
     },
     {
       "character": {
         "name": "Brand",
         "imageUrl": ""
       },
-      "actorId": "190f4f7a-0b36-4e9f-adde-3ac7653f3df6"
+      "actorId": "190f4f7a-0b36-4e9f-adde-3ac7653f3df6",
+      "name": "Anne Hathaway"
     },
     {
       "character": {
         "name": "Professor Brand",
         "imageUrl": ""
       },
-      "actorId": "87d38720-3045-4fad-9302-75ddc6e847d1"
+      "actorId": "87d38720-3045-4fad-9302-75ddc6e847d1",
+      "name": "Michael Caine"
     },
     {
       "character": {
         "name": "Mann",
         "imageUrl": ""
       },
-      "actorId": "95da34ce-8572-4b69-a7e5-c10d81af5504"
+      "actorId": "95da34ce-8572-4b69-a7e5-c10d81af5504",
+      "name": "Matt Damon"
     }
   ],
   "collections": [

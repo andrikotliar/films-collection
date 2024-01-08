@@ -69,63 +69,72 @@
         "name": "Klaatu",
         "imageUrl": ""
       },
-      "actorId": "7543d97c-88d9-4319-8f10-1bc00f84b0e9"
+      "actorId": "7543d97c-88d9-4319-8f10-1bc00f84b0e9",
+      "name": "Keanu Reeves"
     },
     {
       "character": {
         "name": "Helen Benson",
         "imageUrl": ""
       },
-      "actorId": "6976c976-f48d-404b-b408-712ed62cd091"
+      "actorId": "6976c976-f48d-404b-b408-712ed62cd091",
+      "name": "Jennifer Connelly"
     },
     {
       "character": {
         "name": "Regina Jackson",
         "imageUrl": ""
       },
-      "actorId": "9c3bdc25-55b0-47db-b247-1cdb4648bd41"
+      "actorId": "9c3bdc25-55b0-47db-b247-1cdb4648bd41",
+      "name": "Kathy Bates"
     },
     {
       "character": {
         "name": "Jacob Benson",
         "imageUrl": ""
       },
-      "actorId": "09816309-1e66-41ba-ad2e-a4a480b3e99f"
+      "actorId": "09816309-1e66-41ba-ad2e-a4a480b3e99f",
+      "name": "Jaden Smith"
     },
     {
       "character": {
         "name": "Professor Barnhardt",
         "imageUrl": ""
       },
-      "actorId": "e23d9e20-90d0-462e-a693-507a089ced1b"
+      "actorId": "e23d9e20-90d0-462e-a693-507a089ced1b",
+      "name": "John Cleese"
     },
     {
       "character": {
         "name": "Michael Granier",
         "imageUrl": ""
       },
-      "actorId": "098587ab-66d3-472c-8af4-82215f6b058c"
+      "actorId": "098587ab-66d3-472c-8af4-82215f6b058c",
+      "name": "Jon Hamm"
     },
     {
       "character": {
         "name": "John Driscoll",
         "imageUrl": ""
       },
-      "actorId": "5d1b5eb2-f611-4b98-88bb-95c69f21a7c4"
+      "actorId": "5d1b5eb2-f611-4b98-88bb-95c69f21a7c4",
+      "name": "Kyle Chandler"
     },
     {
       "character": {
         "name": "Colonel",
         "imageUrl": ""
       },
-      "actorId": "252db9fc-059d-4632-baaf-0868115f013a"
+      "actorId": "252db9fc-059d-4632-baaf-0868115f013a",
+      "name": "Robert Knepper"
     },
     {
       "character": {
         "name": "Mr. Wu",
         "imageUrl": ""
       },
-      "actorId": "b29082e1-f1a4-4668-a0e3-9b7a536f30e0"
+      "actorId": "b29082e1-f1a4-4668-a0e3-9b7a536f30e0",
+      "name": "James Hong"
     }
   ],
   "collections": [

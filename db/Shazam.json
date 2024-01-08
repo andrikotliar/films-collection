@@ -64,42 +64,48 @@
         "name": "Shazam",
         "imageUrl": ""
       },
-      "actorId": "a07c341b-bbc1-4d2a-bf8a-343ccdd38656"
+      "actorId": "a07c341b-bbc1-4d2a-bf8a-343ccdd38656",
+      "name": "Zachary Levi"
     },
     {
       "character": {
         "name": "The Wizard",
         "imageUrl": ""
       },
-      "actorId": "44677a98-c6e2-43c4-b7e2-3fe0a7f05703"
+      "actorId": "44677a98-c6e2-43c4-b7e2-3fe0a7f05703",
+      "name": "Djimon Hounsou"
     },
     {
       "character": {
         "name": "Dr. Thaddeus Sivana",
         "imageUrl": ""
       },
-      "actorId": "beafbdfd-c890-4b66-8522-42f8d04aa347"
+      "actorId": "beafbdfd-c890-4b66-8522-42f8d04aa347",
+      "name": "Mark Strong"
     },
     {
       "character": {
         "name": "Freddy Freeman",
         "imageUrl": ""
       },
-      "actorId": "8db8f661-11a3-4afa-a5d8-5c22abf47c37"
+      "actorId": "8db8f661-11a3-4afa-a5d8-5c22abf47c37",
+      "name": "Jack Dylan Grazer"
     },
     {
       "character": {
         "name": "Darla Dudley",
         "imageUrl": ""
       },
-      "actorId": "acaab0fc-00c7-497a-abdb-d4937ac687f8"
+      "actorId": "acaab0fc-00c7-497a-abdb-d4937ac687f8",
+      "name": "Meagan Good"
     },
     {
       "character": {
         "name": "Billy Batson",
         "imageUrl": ""
       },
-      "actorId": "e1190c68-e586-4237-b598-1b7bf89371c0"
+      "actorId": "e1190c68-e586-4237-b598-1b7bf89371c0",
+      "name": "Asher Angel"
     }
   ],
   "collections": [

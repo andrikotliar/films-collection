@@ -71,63 +71,72 @@
         "name": "Philippe Petit",
         "imageUrl": ""
       },
-      "actorId": "4e666ef9-06a3-4372-8684-71aca1713d6b"
+      "actorId": "4e666ef9-06a3-4372-8684-71aca1713d6b",
+      "name": "Joseph Gordon-Levitt"
     },
     {
       "character": {
         "name": "Annie Allix",
         "imageUrl": ""
       },
-      "actorId": "128b2895-90cd-42ae-a2fe-36a42fbd8ada"
+      "actorId": "128b2895-90cd-42ae-a2fe-36a42fbd8ada",
+      "name": "Charlotte Le Bon"
     },
     {
       "character": {
         "name": "Papa Rudy",
         "imageUrl": ""
       },
-      "actorId": "1e35187e-647f-4233-9215-41762259fff0"
+      "actorId": "1e35187e-647f-4233-9215-41762259fff0",
+      "name": "Ben Kingsley"
     },
     {
       "character": {
         "name": "Jean-Louis",
         "imageUrl": ""
       },
-      "actorId": "c3bde0b3-2a59-4670-aab6-3e14992add9c"
+      "actorId": "c3bde0b3-2a59-4670-aab6-3e14992add9c",
+      "name": "Clément Sibony"
     },
     {
       "character": {
         "name": "Jean-Pierre",
         "imageUrl": ""
       },
-      "actorId": "f2da2980-78fb-46b3-a149-13dadb4637b9"
+      "actorId": "f2da2980-78fb-46b3-a149-13dadb4637b9",
+      "name": "James Badge Dale"
     },
     {
       "character": {
         "name": "Jeff",
         "imageUrl": ""
       },
-      "actorId": "8c386039-fe64-46a4-afcf-c943c7341edd"
+      "actorId": "8c386039-fe64-46a4-afcf-c943c7341edd",
+      "name": "César Domboy"
     },
     {
       "character": {
         "name": "Albert",
         "imageUrl": ""
       },
-      "actorId": "3aed5724-e1e2-42f2-a560-114cbae3e0ad"
+      "actorId": "3aed5724-e1e2-42f2-a560-114cbae3e0ad",
+      "name": "Ben Schwartz"
     },
     {
       "character": {
         "name": "David",
         "imageUrl": ""
       },
-      "actorId": "22af0786-f98e-4f26-9509-1eb07e3f20cc"
+      "actorId": "22af0786-f98e-4f26-9509-1eb07e3f20cc",
+      "name": "Benedict Samuel"
     },
     {
       "character": {
         "name": "Barry Greenhouse",
         "imageUrl": ""
       },
-      "actorId": "a77201be-537a-4b2c-a15e-c9cc2716da41"
+      "actorId": "a77201be-537a-4b2c-a15e-c9cc2716da41",
+      "name": "Steve Valentine"
     }
   ],
   "collections": [

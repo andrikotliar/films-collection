@@ -227,280 +227,320 @@
         "name": "Tyrion Lannister",
         "imageUrl": ""
       },
-      "actorId": "6cc034f0-dc5c-41cc-967a-87f9d4d70c9a"
+      "actorId": "6cc034f0-dc5c-41cc-967a-87f9d4d70c9a",
+      "name": "Peter Dinklage"
     },
     {
       "character": {
         "name": "Cersei Lannister",
         "imageUrl": ""
       },
-      "actorId": "f1aa68f9-f519-4849-a913-40f95a1b0f32"
+      "actorId": "f1aa68f9-f519-4849-a913-40f95a1b0f32",
+      "name": "Lena Headey"
     },
     {
       "character": {
         "name": "Daenerys Targaryen",
         "imageUrl": ""
       },
-      "actorId": "57c4bd91-9284-4980-b9bc-8db63710ab06"
+      "actorId": "57c4bd91-9284-4980-b9bc-8db63710ab06",
+      "name": "Emilia Clarke"
     },
     {
       "character": {
         "name": "Jon Snow",
         "imageUrl": ""
       },
-      "actorId": "82f820ef-07a2-47e1-82bd-b53f68e7b6ab"
+      "actorId": "82f820ef-07a2-47e1-82bd-b53f68e7b6ab",
+      "name": "Kit Harington"
     },
     {
       "character": {
         "name": "Sansa Stark",
         "imageUrl": ""
       },
-      "actorId": "612f44c9-8b67-47b0-9faf-e2df202c7842"
+      "actorId": "612f44c9-8b67-47b0-9faf-e2df202c7842",
+      "name": "Sophie Turner"
     },
     {
       "character": {
         "name": "Arya Stark",
         "imageUrl": ""
       },
-      "actorId": "20d4b10e-ddda-4a5f-a769-2342cbf9e4f4"
+      "actorId": "20d4b10e-ddda-4a5f-a769-2342cbf9e4f4",
+      "name": "Maisie Williams"
     },
     {
       "character": {
         "name": "Jaime Lannister",
         "imageUrl": ""
       },
-      "actorId": "ff564a65-9ad2-4f88-85cd-69302b3975b3"
+      "actorId": "ff564a65-9ad2-4f88-85cd-69302b3975b3",
+      "name": "Nikolaj Coster-Waldau"
     },
     {
       "character": {
         "name": "Jorah Mormont",
         "imageUrl": ""
       },
-      "actorId": "9f97f5ab-cc87-4f40-bda7-d033635f1d25"
+      "actorId": "9f97f5ab-cc87-4f40-bda7-d033635f1d25",
+      "name": "Iain Glen"
     },
     {
       "character": {
         "name": "Samwell Tarly",
         "imageUrl": ""
       },
-      "actorId": "80dde91f-19cd-495e-bba8-687fe8350b79"
+      "actorId": "80dde91f-19cd-495e-bba8-687fe8350b79",
+      "name": "John Bradley"
     },
     {
       "character": {
         "name": "Theon Greyjoy",
         "imageUrl": ""
       },
-      "actorId": "9b060af2-3ad2-4fc9-92ef-df7a578bc10c"
+      "actorId": "9b060af2-3ad2-4fc9-92ef-df7a578bc10c",
+      "name": "Alfie Allen"
     },
     {
       "character": {
         "name": "Lord Varys",
         "imageUrl": ""
       },
-      "actorId": "4d89fa5a-8495-4586-8a3d-e6a3d020d9b1"
+      "actorId": "4d89fa5a-8495-4586-8a3d-e6a3d020d9b1",
+      "name": "Conleth Hill"
     },
     {
       "character": {
         "name": "Davos Seaworth",
         "imageUrl": ""
       },
-      "actorId": "5f2d9342-c192-478c-93c5-92dce2e87141"
+      "actorId": "5f2d9342-c192-478c-93c5-92dce2e87141",
+      "name": "Liam Cunningham"
     },
     {
       "character": {
         "name": "Brienne of Tarth",
         "imageUrl": ""
       },
-      "actorId": "a64e4407-72e4-44c3-889b-127f6750765a"
+      "actorId": "a64e4407-72e4-44c3-889b-127f6750765a",
+      "name": "Gwendoline Christie"
     },
     {
       "character": {
         "name": "Petyr 'Littlefinger' Baelish",
         "imageUrl": ""
       },
-      "actorId": "49624f6f-090c-43ff-b47a-e25d7ba8b424"
+      "actorId": "49624f6f-090c-43ff-b47a-e25d7ba8b424",
+      "name": "Aidan Gillen"
     },
     {
       "character": {
         "name": "Bran Stark",
         "imageUrl": ""
       },
-      "actorId": "0f25eb55-6190-4e52-b2a9-42e8adf39adb"
+      "actorId": "0f25eb55-6190-4e52-b2a9-42e8adf39adb",
+      "name": "Isaac Hempstead Wright"
     },
     {
       "character": {
         "name": "Sandor 'The Hound' Clegane",
         "imageUrl": ""
       },
-      "actorId": "90799ec5-0d0c-4da7-b6a2-88f86e6f8275"
+      "actorId": "90799ec5-0d0c-4da7-b6a2-88f86e6f8275",
+      "name": "Rory McCann"
     },
     {
       "character": {
         "name": "Missandei",
         "imageUrl": ""
       },
-      "actorId": "f8b33060-bc5b-41ae-be6c-f2bcde373e6d"
+      "actorId": "f8b33060-bc5b-41ae-be6c-f2bcde373e6d",
+      "name": "Nathalie Emmanuel"
     },
     {
       "character": {
         "name": "Bronn",
         "imageUrl": ""
       },
-      "actorId": "c8f8e029-913d-4ad9-ade3-2685b67cb215"
+      "actorId": "c8f8e029-913d-4ad9-ade3-2685b67cb215",
+      "name": "Jerome Flynn"
     },
     {
       "character": {
         "name": "Podrick Payne",
         "imageUrl": ""
       },
-      "actorId": "513ca891-6975-4932-8929-a9ccbfe69333"
+      "actorId": "513ca891-6975-4932-8929-a9ccbfe69333",
+      "name": "Daniel Portman"
     },
     {
       "character": {
         "name": "Grey Worm",
         "imageUrl": ""
       },
-      "actorId": "2998970c-7167-4bd9-89f2-c2aa12e7be14"
+      "actorId": "2998970c-7167-4bd9-89f2-c2aa12e7be14",
+      "name": "Jacob Anderson"
     },
     {
       "character": {
         "name": "Melisandre",
         "imageUrl": ""
       },
-      "actorId": "f4de2b64-db56-486e-8b79-26b0d06f685b"
+      "actorId": "f4de2b64-db56-486e-8b79-26b0d06f685b",
+      "name": "Carice van Houten"
     },
     {
       "character": {
         "name": "Tywin Lannister",
         "imageUrl": ""
       },
-      "actorId": "596b7ace-630b-4806-8d4c-db221bda5b88"
+      "actorId": "596b7ace-630b-4806-8d4c-db221bda5b88",
+      "name": "Charles Dance"
     },
     {
       "character": {
         "name": "Margaery Tyrell",
         "imageUrl": ""
       },
-      "actorId": "e3af0acc-3ba4-415c-a0ba-b123ec8f0eae"
+      "actorId": "e3af0acc-3ba4-415c-a0ba-b123ec8f0eae",
+      "name": "Natalie Dormer"
     },
     {
       "character": {
         "name": "Joffrey Baratheon",
         "imageUrl": ""
       },
-      "actorId": "68937119-e68e-4b68-b44e-cac9cf44feb8"
+      "actorId": "68937119-e68e-4b68-b44e-cac9cf44feb8",
+      "name": "Jack Gleeson"
     },
     {
       "character": {
         "name": "Catelyn Stark",
         "imageUrl": ""
       },
-      "actorId": "ff38b0e8-7f44-435e-87dd-34de0f2eb48e"
+      "actorId": "ff38b0e8-7f44-435e-87dd-34de0f2eb48e",
+      "name": "Michelle Fairley"
     },
     {
       "character": {
         "name": "Stannis Baratheon",
         "imageUrl": ""
       },
-      "actorId": "1a86f745-d466-4598-8d55-dba8a397c315"
+      "actorId": "1a86f745-d466-4598-8d55-dba8a397c315",
+      "name": "Stephen Dillane"
     },
     {
       "character": {
         "name": "Hodor",
         "imageUrl": ""
       },
-      "actorId": "f6164826-e7e7-4c28-b685-cfa553ba264b"
+      "actorId": "f6164826-e7e7-4c28-b685-cfa553ba264b",
+      "name": "Kristian Nairn"
     },
     {
       "character": {
         "name": "Robb Stark",
         "imageUrl": ""
       },
-      "actorId": "484bd452-6acf-4a06-945d-769685cc7c00"
+      "actorId": "484bd452-6acf-4a06-945d-769685cc7c00",
+      "name": "Richard Madden"
     },
     {
       "character": {
         "name": "Ramsay Bolton",
         "imageUrl": ""
       },
-      "actorId": "49f04972-cfe7-4646-b715-255f81ace552"
+      "actorId": "49f04972-cfe7-4646-b715-255f81ace552",
+      "name": "Iwan Rheon"
     },
     {
       "character": {
         "name": "Euron Greyjoy",
         "imageUrl": ""
       },
-      "actorId": "9d3de91c-03e9-4360-ba32-15aa8f700561"
+      "actorId": "9d3de91c-03e9-4360-ba32-15aa8f700561",
+      "name": "Pilou Asbaek"
     },
     {
       "character": {
         "name": "Olenna Tyrell",
         "imageUrl": ""
       },
-      "actorId": "c4ddf030-e50a-44ae-93df-c66d620073b4"
+      "actorId": "c4ddf030-e50a-44ae-93df-c66d620073b4",
+      "name": "Diana Rigg"
     },
     {
       "character": {
         "name": "Tommen Baratheon",
         "imageUrl": ""
       },
-      "actorId": "75ae6af3-4dfa-43f9-9bac-5e9623279a1b"
+      "actorId": "75ae6af3-4dfa-43f9-9bac-5e9623279a1b",
+      "name": "Dean-Charles Chapman"
     },
     {
       "character": {
         "name": "Yara Greyjoy",
         "imageUrl": ""
       },
-      "actorId": "3dc182ea-25ca-4fb7-9ed0-6528e3eb3d1c"
+      "actorId": "3dc182ea-25ca-4fb7-9ed0-6528e3eb3d1c",
+      "name": "Gemma Whelan"
     },
     {
       "character": {
         "name": "Rickon Stark",
         "imageUrl": ""
       },
-      "actorId": "1177cb78-337e-4cb9-b8d5-032d3f59a86c"
+      "actorId": "1177cb78-337e-4cb9-b8d5-032d3f59a86c",
+      "name": "Art Parkinson"
     },
     {
       "character": {
         "name": "Eddard 'Ned' Stark",
         "imageUrl": ""
       },
-      "actorId": "f1d021e9-26d9-440c-9e19-398afd30f0e4"
+      "actorId": "f1d021e9-26d9-440c-9e19-398afd30f0e4",
+      "name": "Sean Bean"
     },
     {
       "character": {
         "name": "Robert Baratheon",
         "imageUrl": ""
       },
-      "actorId": "6b09c9c8-0ab2-448a-a1b7-96cf71c3a05d"
+      "actorId": "6b09c9c8-0ab2-448a-a1b7-96cf71c3a05d",
+      "name": "Mark Addy"
     },
     {
       "character": {
         "name": "The Night King",
         "imageUrl": ""
       },
-      "actorId": "ed3ce597-e203-4395-9656-5f4c3b7fd637"
+      "actorId": "ed3ce597-e203-4395-9656-5f4c3b7fd637",
+      "name": "Vladimir 'Furdo' Furdik"
     },
     {
       "character": {
         "name": "Ygritte",
         "imageUrl": ""
       },
-      "actorId": "d62917c3-9812-4616-ab37-42a70d0a87ba"
+      "actorId": "d62917c3-9812-4616-ab37-42a70d0a87ba",
+      "name": "Rose Leslie"
     },
     {
       "character": {
         "name": "Gilly",
         "imageUrl": ""
       },
-      "actorId": "070664ce-3df8-4310-b42d-0559a3e28fa1"
+      "actorId": "070664ce-3df8-4310-b42d-0559a3e28fa1",
+      "name": "Hannah Murray"
     },
     {
       "character": {
         "name": "Tormund Giantsbane",
         "imageUrl": ""
       },
-      "actorId": "a1dc9344-0c17-4f6a-a1ec-5b4483a59d83"
+      "actorId": "a1dc9344-0c17-4f6a-a1ec-5b4483a59d83",
+      "name": "Kristofer Hivju"
     }
   ],
   "collections": [

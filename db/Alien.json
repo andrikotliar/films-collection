@@ -70,56 +70,64 @@
         "name": "Ripley",
         "imageUrl": ""
       },
-      "actorId": "2cf2b71a-2fe4-4ac9-a7a3-6ea1a9985770"
+      "actorId": "2cf2b71a-2fe4-4ac9-a7a3-6ea1a9985770",
+      "name": "Sigourney Weaver"
     },
     {
       "character": {
         "name": "Dallas",
         "imageUrl": ""
       },
-      "actorId": "9773b74f-01b6-4f5c-947f-0000088199fa"
+      "actorId": "9773b74f-01b6-4f5c-947f-0000088199fa",
+      "name": "Tom Skerritt"
     },
     {
       "character": {
         "name": "Lambert",
         "imageUrl": ""
       },
-      "actorId": "cee0fa43-ecb3-4afa-bce5-897a64c790c9"
+      "actorId": "cee0fa43-ecb3-4afa-bce5-897a64c790c9",
+      "name": "Veronica Cartwright"
     },
     {
       "character": {
         "name": "Brett",
         "imageUrl": ""
       },
-      "actorId": "d1d46671-946d-454f-bf1a-ba58424c8f99"
+      "actorId": "d1d46671-946d-454f-bf1a-ba58424c8f99",
+      "name": "Harry Dean Stanton"
     },
     {
       "character": {
         "name": "Kane",
         "imageUrl": ""
       },
-      "actorId": "4da33978-90aa-4ef5-bcc8-246e1f6b2988"
+      "actorId": "4da33978-90aa-4ef5-bcc8-246e1f6b2988",
+      "name": "John Hurt"
     },
     {
       "character": {
         "name": "Ash",
         "imageUrl": ""
       },
-      "actorId": "e9964030-afa3-42d4-ab91-9c1fd7c0f177"
+      "actorId": "e9964030-afa3-42d4-ab91-9c1fd7c0f177",
+      "name": "Ian Holm"
     },
     {
       "character": {
         "name": "Parker",
         "imageUrl": ""
       },
-      "actorId": "c7e70e66-039f-4421-b2df-308f87379fda"
+      "actorId": "c7e70e66-039f-4421-b2df-308f87379fda",
+      "name": "Yaphet Kotto"
     },
     {
       "character": {
         "name": "Alien",
         "imageUrl": ""
       },
-      "actorId": "448f8862-8e2a-4082-942f-1cf2bfd9b77b"
+      "actorId": "448f8862-8e2a-4082-942f-1cf2bfd9b77b",
+      "name": "Bolaji Badejo"
     }
   ],
   "collections": [

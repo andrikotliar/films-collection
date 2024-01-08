@@ -78,84 +78,96 @@
         "name": "Ikaris",
         "imageUrl": ""
       },
-      "actorId": "484bd452-6acf-4a06-945d-769685cc7c00"
+      "actorId": "484bd452-6acf-4a06-945d-769685cc7c00",
+      "name": "Richard Madden"
     },
     {
       "character": {
         "name": "Ajak",
         "imageUrl": ""
       },
-      "actorId": "2cf61341-e6db-40bb-893f-bb8778cacbbd"
+      "actorId": "2cf61341-e6db-40bb-893f-bb8778cacbbd",
+      "name": "Salma Hayek"
     },
     {
       "character": {
         "name": "Thena",
         "imageUrl": ""
       },
-      "actorId": "c8b9b1e2-6f03-412f-81b5-38e7a7e7ac8f"
+      "actorId": "c8b9b1e2-6f03-412f-81b5-38e7a7e7ac8f",
+      "name": "Angelina Jolie"
     },
     {
       "character": {
         "name": "Dane Whitman / Black Knight",
         "imageUrl": ""
       },
-      "actorId": "82f820ef-07a2-47e1-82bd-b53f68e7b6ab"
+      "actorId": "82f820ef-07a2-47e1-82bd-b53f68e7b6ab",
+      "name": "Kit Harington"
     },
     {
       "character": {
         "name": "Sersi",
         "imageUrl": ""
       },
-      "actorId": "d676bec9-4a25-4066-bbab-22757401e8f8"
+      "actorId": "d676bec9-4a25-4066-bbab-22757401e8f8",
+      "name": "Gemma Chan"
     },
     {
       "character": {
         "name": "Druig",
         "imageUrl": ""
       },
-      "actorId": "d6a16aae-dbc4-4118-b32f-9133717bb1eb"
+      "actorId": "d6a16aae-dbc4-4118-b32f-9133717bb1eb",
+      "name": "Barry Keoghan"
     },
     {
       "character": {
         "name": "Sprite",
         "imageUrl": ""
       },
-      "actorId": "8da78feb-eee6-49f6-841b-59322f7c853a"
+      "actorId": "8da78feb-eee6-49f6-841b-59322f7c853a",
+      "name": "Lia McHugh"
     },
     {
       "character": {
         "name": "Phastos",
         "imageUrl": ""
       },
-      "actorId": "353aff48-04c0-427e-a670-6fbc3a861d16"
+      "actorId": "353aff48-04c0-427e-a670-6fbc3a861d16",
+      "name": "Brian Tyree Henry"
     },
     {
       "character": {
         "name": "Kingo",
         "imageUrl": ""
       },
-      "actorId": "46ff9500-b048-44e7-9d4f-09d07b0e8b14"
+      "actorId": "46ff9500-b048-44e7-9d4f-09d07b0e8b14",
+      "name": "Kumail Nanjiani"
     },
     {
       "character": {
         "name": "Makkari",
         "imageUrl": ""
       },
-      "actorId": "288da129-fbf2-4eee-828e-bb6a2fe055bf"
+      "actorId": "288da129-fbf2-4eee-828e-bb6a2fe055bf",
+      "name": "Lauren Ridloff"
     },
     {
       "character": {
         "name": "Gilgamesh",
         "imageUrl": ""
       },
-      "actorId": "f9517e7b-98d6-4353-ad6d-f13c1bf4e621"
+      "actorId": "f9517e7b-98d6-4353-ad6d-f13c1bf4e621",
+      "name": "Ma Dong Seok"
     },
     {
       "character": {
         "name": "Karun",
         "imageUrl": ""
       },
-      "actorId": "00713f94-ee15-43d6-9565-81d63a7fa0f1"
+      "actorId": "00713f94-ee15-43d6-9565-81d63a7fa0f1",
+      "name": "Harish Patel"
     }
   ],
   "collections": [

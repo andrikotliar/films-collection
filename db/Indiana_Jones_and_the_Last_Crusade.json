@@ -68,42 +68,48 @@
         "name": "Dr. Henry «Indiana» Jones, Jr.",
         "imageUrl": ""
       },
-      "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80"
+      "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80",
+      "name": "Harrison Ford"
     },
     {
       "character": {
         "name": "Professor Henry Jones",
         "imageUrl": ""
       },
-      "actorId": "15ce62dd-b330-48c1-81e5-aeb875360062"
+      "actorId": "15ce62dd-b330-48c1-81e5-aeb875360062",
+      "name": "Sean Connery"
     },
     {
       "character": {
         "name": "Marcus Brody",
         "imageUrl": ""
       },
-      "actorId": "6865977f-8cdb-4e4b-89a3-914ea2fa28de"
+      "actorId": "6865977f-8cdb-4e4b-89a3-914ea2fa28de",
+      "name": "Denholm Elliott"
     },
     {
       "character": {
         "name": "Elsa",
         "imageUrl": ""
       },
-      "actorId": "bea777fc-2149-4c3f-ac13-2b2267d78236"
+      "actorId": "bea777fc-2149-4c3f-ac13-2b2267d78236",
+      "name": "Alison Doody"
     },
     {
       "character": {
         "name": "Sallah",
         "imageUrl": ""
       },
-      "actorId": "cacd3465-d009-4fea-8c86-4c4bc266b6e5"
+      "actorId": "cacd3465-d009-4fea-8c86-4c4bc266b6e5",
+      "name": "John Rhys-Davies"
     },
     {
       "character": {
         "name": "Walter Donovan",
         "imageUrl": ""
       },
-      "actorId": "0828ff45-acce-400e-8415-85a1ecc0302b"
+      "actorId": "0828ff45-acce-400e-8415-85a1ecc0302b",
+      "name": "Julian Glover"
     }
   ],
   "collections": [

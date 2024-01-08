@@ -66,49 +66,56 @@
         "name": "Alexander Hartdegen",
         "imageUrl": ""
       },
-      "actorId": "9d24f107-5e8f-497f-bc8a-bba10c71662a"
+      "actorId": "9d24f107-5e8f-497f-bc8a-bba10c71662a",
+      "name": "Guy Pearce"
     },
     {
       "character": {
         "name": "David Philby",
         "imageUrl": ""
       },
-      "actorId": "6b09c9c8-0ab2-448a-a1b7-96cf71c3a05d"
+      "actorId": "6b09c9c8-0ab2-448a-a1b7-96cf71c3a05d",
+      "name": "Mark Addy"
     },
     {
       "character": {
         "name": "Mrs. Watchit",
         "imageUrl": ""
       },
-      "actorId": "69655a56-e934-4284-9b11-907e044ecfd0"
+      "actorId": "69655a56-e934-4284-9b11-907e044ecfd0",
+      "name": "Phyllida Law"
     },
     {
       "character": {
         "name": "Emma",
         "imageUrl": ""
       },
-      "actorId": "afdc63d9-d4a8-4ef0-92eb-28e8c7486336"
+      "actorId": "afdc63d9-d4a8-4ef0-92eb-28e8c7486336",
+      "name": "Sienna Guillory"
     },
     {
       "character": {
         "name": "'ber-Morlock",
         "imageUrl": ""
       },
-      "actorId": "90d0483f-127c-4dec-8165-f84e66f5ef9e"
+      "actorId": "90d0483f-127c-4dec-8165-f84e66f5ef9e",
+      "name": "Jeremy Irons"
     },
     {
       "character": {
         "name": "Jogger",
         "imageUrl": ""
       },
-      "actorId": "18f6fccb-58f1-41a8-9232-e8b88b0cd558"
+      "actorId": "18f6fccb-58f1-41a8-9232-e8b88b0cd558",
+      "name": "Myndy Crist"
     },
     {
       "character": {
         "name": "Vox",
         "imageUrl": ""
       },
-      "actorId": "ca8be3de-aab2-4e2b-8d76-31a51af81827"
+      "actorId": "ca8be3de-aab2-4e2b-8d76-31a51af81827",
+      "name": "Orlando Jones"
     }
   ],
   "collections": [

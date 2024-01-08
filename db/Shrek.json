@@ -77,28 +77,32 @@
         "name": "Shrek",
         "imageUrl": ""
       },
-      "actorId": "fd488142-fcd7-4e8d-890a-148da9d26761"
+      "actorId": "fd488142-fcd7-4e8d-890a-148da9d26761",
+      "name": "Mike Myers"
     },
     {
       "character": {
         "name": "Donkey",
         "imageUrl": ""
       },
-      "actorId": "99e5b905-3388-4ec8-a9c6-34f0f5229e05"
+      "actorId": "99e5b905-3388-4ec8-a9c6-34f0f5229e05",
+      "name": "Eddie Murphy"
     },
     {
       "character": {
         "name": "Fiona",
         "imageUrl": ""
       },
-      "actorId": "75e4a5c6-64e1-4493-90a6-bd31734ce3ed"
+      "actorId": "75e4a5c6-64e1-4493-90a6-bd31734ce3ed",
+      "name": "Cameron Diaz"
     },
     {
       "character": {
         "name": "Lord Farquaad",
         "imageUrl": ""
       },
-      "actorId": "f9d78af1-af04-43c0-b564-3faac60bedf9"
+      "actorId": "f9d78af1-af04-43c0-b564-3faac60bedf9",
+      "name": "John Lithgow"
     }
   ],
   "collections": [

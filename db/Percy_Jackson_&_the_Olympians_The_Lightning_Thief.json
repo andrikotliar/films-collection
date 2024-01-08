@@ -75,77 +75,88 @@
         "name": "Percy Jackson",
         "imageUrl": ""
       },
-      "actorId": "a215121b-6247-4480-9ee9-e0521b370028"
+      "actorId": "a215121b-6247-4480-9ee9-e0521b370028",
+      "name": "Logan Lerman"
     },
     {
       "character": {
         "name": "Grover",
         "imageUrl": ""
       },
-      "actorId": "c2fb77dd-6950-42f6-89a9-57a7e24c132d"
+      "actorId": "c2fb77dd-6950-42f6-89a9-57a7e24c132d",
+      "name": "Brandon T. Jackson"
     },
     {
       "character": {
         "name": "Annabeth",
         "imageUrl": ""
       },
-      "actorId": "cedf2fbd-5afe-44bb-b0fe-56804247e21e"
+      "actorId": "cedf2fbd-5afe-44bb-b0fe-56804247e21e",
+      "name": "Alexandra Daddario"
     },
     {
       "character": {
         "name": "Luke",
         "imageUrl": ""
       },
-      "actorId": "51c8c087-d2ad-4a8b-aa6f-13c43051ce50"
+      "actorId": "51c8c087-d2ad-4a8b-aa6f-13c43051ce50",
+      "name": "Jake Abel"
     },
     {
       "character": {
         "name": "Zeus",
         "imageUrl": ""
       },
-      "actorId": "f1d021e9-26d9-440c-9e19-398afd30f0e4"
+      "actorId": "f1d021e9-26d9-440c-9e19-398afd30f0e4",
+      "name": "Sean Bean"
     },
     {
       "character": {
         "name": "Mr. Brunner / Chiron",
         "imageUrl": ""
       },
-      "actorId": "eb9b1b8e-2e56-435f-904c-c7f7dd216bfd"
+      "actorId": "eb9b1b8e-2e56-435f-904c-c7f7dd216bfd",
+      "name": "Pierce Brosnan"
     },
     {
       "character": {
         "name": "Hades",
         "imageUrl": ""
       },
-      "actorId": "55284d01-0d85-40c0-bbb3-c76c988b7e9c"
+      "actorId": "55284d01-0d85-40c0-bbb3-c76c988b7e9c",
+      "name": "Steve Coogan"
     },
     {
       "character": {
         "name": "Persephone",
         "imageUrl": ""
       },
-      "actorId": "532dfdc9-0006-4d29-9068-485005d3dc4f"
+      "actorId": "532dfdc9-0006-4d29-9068-485005d3dc4f",
+      "name": "Rosario Dawson"
     },
     {
       "character": {
         "name": "Athena",
         "imageUrl": ""
       },
-      "actorId": "eb9850f1-cf6b-49e5-b957-87b7430bea4b"
+      "actorId": "eb9850f1-cf6b-49e5-b957-87b7430bea4b",
+      "name": "Melina Kanakaredes"
     },
     {
       "character": {
         "name": "Sally Jackson",
         "imageUrl": ""
       },
-      "actorId": "1f800c8d-e7f0-42ee-892e-a798ca0a2a9a"
+      "actorId": "1f800c8d-e7f0-42ee-892e-a798ca0a2a9a",
+      "name": "Catherine Keener"
     },
     {
       "character": {
         "name": "Poseidon",
         "imageUrl": ""
       },
-      "actorId": "929a29e3-9844-4404-a5a0-50b76e1c903d"
+      "actorId": "929a29e3-9844-4404-a5a0-50b76e1c903d",
+      "name": "Kevin McKidd"
     }
   ],
   "collections": [

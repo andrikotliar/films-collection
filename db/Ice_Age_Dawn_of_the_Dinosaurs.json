@@ -68,63 +68,72 @@
         "name": "Manny",
         "imageUrl": ""
       },
-      "actorId": "0cedcb92-8ff0-48bf-b5c0-ec52c697bf22"
+      "actorId": "0cedcb92-8ff0-48bf-b5c0-ec52c697bf22",
+      "name": "Ray Romano"
     },
     {
       "character": {
         "name": "Ellie",
         "imageUrl": ""
       },
-      "actorId": "7df3a3a8-41bc-48c4-b88e-35583fe0e3d6"
+      "actorId": "7df3a3a8-41bc-48c4-b88e-35583fe0e3d6",
+      "name": "Queen Latifah"
     },
     {
       "character": {
         "name": "Diego",
         "imageUrl": ""
       },
-      "actorId": "79d6d23f-2026-4b49-953a-7109e1281bdd"
+      "actorId": "79d6d23f-2026-4b49-953a-7109e1281bdd",
+      "name": "Denis Leary"
     },
     {
       "character": {
         "name": "Sid",
         "imageUrl": ""
       },
-      "actorId": "ba1ea1c7-ab0d-4cc7-9574-25c858edd5a3"
+      "actorId": "ba1ea1c7-ab0d-4cc7-9574-25c858edd5a3",
+      "name": "John Leguizamo"
     },
     {
       "character": {
         "name": "Eddie",
         "imageUrl": ""
       },
-      "actorId": "17c1ac34-36e2-4eb9-8c1c-610dd2df1d10"
+      "actorId": "17c1ac34-36e2-4eb9-8c1c-610dd2df1d10",
+      "name": "Josh Peck"
     },
     {
       "character": {
         "name": "Buck",
         "imageUrl": ""
       },
-      "actorId": "265bd112-e4bd-4d75-878c-cd5c60d2d034"
+      "actorId": "265bd112-e4bd-4d75-878c-cd5c60d2d034",
+      "name": "Simon Pegg"
     },
     {
       "character": {
         "name": "Crash",
         "imageUrl": ""
       },
-      "actorId": "5e675149-f0be-4160-acbb-8bbcd1227dcc"
+      "actorId": "5e675149-f0be-4160-acbb-8bbcd1227dcc",
+      "name": "Seann William Scott"
     },
     {
       "character": {
         "name": "Scrat",
         "imageUrl": ""
       },
-      "actorId": "ff6cca61-c707-4ae9-98d9-87531ab166ae"
+      "actorId": "ff6cca61-c707-4ae9-98d9-87531ab166ae",
+      "name": "Chris Wedge"
     },
     {
       "character": {
         "name": "Scratte",
         "imageUrl": ""
       },
-      "actorId": "220494d5-3135-45c8-93e5-5cc6f98ad6de"
+      "actorId": "220494d5-3135-45c8-93e5-5cc6f98ad6de",
+      "name": "Karen Disher"
     }
   ],
   "collections": [

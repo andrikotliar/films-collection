@@ -76,91 +76,104 @@
         "name": "Sam Witwicky",
         "imageUrl": ""
       },
-      "actorId": "0eac0045-e7d9-4f55-9bf5-4347b6447417"
+      "actorId": "0eac0045-e7d9-4f55-9bf5-4347b6447417",
+      "name": "Shia LaBeouf"
     },
     {
       "character": {
         "name": "Mikaela Banes",
         "imageUrl": ""
       },
-      "actorId": "9e62046b-4fe8-4f6d-914e-3d617619aa2d"
+      "actorId": "9e62046b-4fe8-4f6d-914e-3d617619aa2d",
+      "name": "Megan Fox"
     },
     {
       "character": {
         "name": "Captain Lennox",
         "imageUrl": ""
       },
-      "actorId": "669ffd1c-6e00-4943-9ce9-80e98fba3b3f"
+      "actorId": "669ffd1c-6e00-4943-9ce9-80e98fba3b3f",
+      "name": "Josh Duhamel"
     },
     {
       "character": {
         "name": "Epps",
         "imageUrl": ""
       },
-      "actorId": "d590cae8-3171-41ca-968c-1bbb1b425aa8"
+      "actorId": "d590cae8-3171-41ca-968c-1bbb1b425aa8",
+      "name": "Tyrese Gibson"
     },
     {
       "character": {
         "name": "Maggie Madsen",
         "imageUrl": ""
       },
-      "actorId": "5f63721f-5453-4eaa-90e8-1126abe4fc56"
+      "actorId": "5f63721f-5453-4eaa-90e8-1126abe4fc56",
+      "name": "Rachael Taylor"
     },
     {
       "character": {
         "name": "Glen Whitmann",
         "imageUrl": ""
       },
-      "actorId": "257c70ba-4a56-4995-850e-c1ac6acc0be9"
+      "actorId": "257c70ba-4a56-4995-850e-c1ac6acc0be9",
+      "name": "Anthony Anderson"
     },
     {
       "character": {
         "name": "John Keller",
         "imageUrl": ""
       },
-      "actorId": "c9993d00-ed24-41d2-9bb7-d6eb83a33525"
+      "actorId": "c9993d00-ed24-41d2-9bb7-d6eb83a33525",
+      "name": "Jon Voight"
     },
     {
       "character": {
         "name": "Agent Simmons",
         "imageUrl": ""
       },
-      "actorId": "3bd0ee3c-2afa-40de-8aac-ed75222a14dd"
+      "actorId": "3bd0ee3c-2afa-40de-8aac-ed75222a14dd",
+      "name": "John Turturro"
     },
     {
       "character": {
         "name": "Optimus Prime",
         "imageUrl": ""
       },
-      "actorId": "9174c001-6bed-4c51-910d-5caa6063f8a0"
+      "actorId": "9174c001-6bed-4c51-910d-5caa6063f8a0",
+      "name": "Peter Cullen"
     },
     {
       "character": {
         "name": "Bumblebee",
         "imageUrl": ""
       },
-      "actorId": "0bce2c34-01fe-4dd9-8c5d-aa437e3a500b"
+      "actorId": "0bce2c34-01fe-4dd9-8c5d-aa437e3a500b",
+      "name": "Mark Ryan"
     },
     {
       "character": {
         "name": "Megatron",
         "imageUrl": ""
       },
-      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139"
+      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139",
+      "name": "Hugo Weaving"
     },
     {
       "character": {
         "name": "Frenzy",
         "imageUrl": ""
       },
-      "actorId": "457b4ec9-55fc-4adb-8e0b-0b5325aa62cb"
+      "actorId": "457b4ec9-55fc-4adb-8e0b-0b5325aa62cb",
+      "name": "Reno Wilson"
     },
     {
       "character": {
         "name": "Starscream",
         "imageUrl": ""
       },
-      "actorId": "fa53192b-857e-4a61-8a2e-bce0427f750c"
+      "actorId": "fa53192b-857e-4a61-8a2e-bce0427f750c",
+      "name": "Charlie Adler"
     }
   ],
   "collections": [

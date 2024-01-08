@@ -72,56 +72,64 @@
         "name": "Alan Parrish",
         "imageUrl": ""
       },
-      "actorId": "9b0a7320-fca2-4be3-80a2-5d8e534860ae"
+      "actorId": "9b0a7320-fca2-4be3-80a2-5d8e534860ae",
+      "name": "Robin Williams"
     },
     {
       "character": {
         "name": "Van Pelt / Sam Parrish",
         "imageUrl": ""
       },
-      "actorId": "81d9cfc0-ff46-4769-bf31-4867f4a04980"
+      "actorId": "81d9cfc0-ff46-4769-bf31-4867f4a04980",
+      "name": "Jonathan Hyde"
     },
     {
       "character": {
         "name": "Judy Shepherd",
         "imageUrl": ""
       },
-      "actorId": "35104a4f-627b-4c95-a2b5-09ab0b0a617b"
+      "actorId": "35104a4f-627b-4c95-a2b5-09ab0b0a617b",
+      "name": "Kirsten Dunst"
     },
     {
       "character": {
         "name": "Peter Shepherd",
         "imageUrl": ""
       },
-      "actorId": "fc131120-673f-4600-9bf6-c3e4adf99feb"
+      "actorId": "fc131120-673f-4600-9bf6-c3e4adf99feb",
+      "name": "Bradley Pierce"
     },
     {
       "character": {
         "name": "Sarah Whittle",
         "imageUrl": ""
       },
-      "actorId": "9479f4b0-ea14-4538-a020-ce3c28467a95"
+      "actorId": "9479f4b0-ea14-4538-a020-ce3c28467a95",
+      "name": "Bonnie Hunt"
     },
     {
       "character": {
         "name": "Nora Shepherd",
         "imageUrl": ""
       },
-      "actorId": "89bdd244-c260-4c15-90c2-851ea009709f"
+      "actorId": "89bdd244-c260-4c15-90c2-851ea009709f",
+      "name": "Bebe Neuwirth"
     },
     {
       "character": {
         "name": "Bentley",
         "imageUrl": ""
       },
-      "actorId": "d20fb7d9-6d7d-4a58-b41d-e553c84c145b"
+      "actorId": "d20fb7d9-6d7d-4a58-b41d-e553c84c145b",
+      "name": "David Alan Grier"
     },
     {
       "character": {
         "name": "Carol Parrish",
         "imageUrl": ""
       },
-      "actorId": "c6e174c6-5cb9-422a-950e-8452d99b4d2c"
+      "actorId": "c6e174c6-5cb9-422a-950e-8452d99b4d2c",
+      "name": "Patricia Clarkson"
     }
   ],
   "collections": [

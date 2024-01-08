@@ -67,49 +67,56 @@
         "name": "Taki Tachibana",
         "imageUrl": ""
       },
-      "actorId": "0c676dd8-e5a2-4194-bb8e-462c47423c30"
+      "actorId": "0c676dd8-e5a2-4194-bb8e-462c47423c30",
+      "name": "Ryunosuke Kamiki"
     },
     {
       "character": {
         "name": "Mitsuha Miyamizu",
         "imageUrl": ""
       },
-      "actorId": "0fd0e111-3784-45ce-a337-8ba54009819a"
+      "actorId": "0fd0e111-3784-45ce-a337-8ba54009819a",
+      "name": "Mone Kamishiraishi"
     },
     {
       "character": {
         "name": "Katsuhiko Teshigawara",
         "imageUrl": ""
       },
-      "actorId": "aabd4648-9d3a-4291-8ab7-5841aec19918"
+      "actorId": "aabd4648-9d3a-4291-8ab7-5841aec19918",
+      "name": "Ryo Narita"
     },
     {
       "character": {
         "name": "Sayaka Natori",
         "imageUrl": ""
       },
-      "actorId": "6f9d445f-f103-4d62-83d3-580f1f8cef13"
+      "actorId": "6f9d445f-f103-4d62-83d3-580f1f8cef13",
+      "name": "Aoi Yuki"
     },
     {
       "character": {
         "name": "Tsukasa Fujii",
         "imageUrl": ""
       },
-      "actorId": "4a7c5bfb-a0f0-4337-876c-0a33c9f0c028"
+      "actorId": "4a7c5bfb-a0f0-4337-876c-0a33c9f0c028",
+      "name": "Nobunaga Shimazaki"
     },
     {
       "character": {
         "name": "Shinta Takagi",
         "imageUrl": ""
       },
-      "actorId": "37352151-9bbf-4467-96ad-adcf99cc22e0"
+      "actorId": "37352151-9bbf-4467-96ad-adcf99cc22e0",
+      "name": "Kaito Ishikawa"
     },
     {
       "character": {
         "name": "Yotsuha Miyamizu",
         "imageUrl": ""
       },
-      "actorId": "99fabf8e-6648-4688-815c-4356348a4851"
+      "actorId": "99fabf8e-6648-4688-815c-4356348a4851",
+      "name": "Kanon Tani"
     }
   ],
   "collections": [

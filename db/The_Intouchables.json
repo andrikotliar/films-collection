@@ -77,28 +77,32 @@
         "name": "Philippe",
         "imageUrl": ""
       },
-      "actorId": "f5939180-5189-46ff-a482-0654d1132b05"
+      "actorId": "f5939180-5189-46ff-a482-0654d1132b05",
+      "name": "Francois Cluzet"
     },
     {
       "character": {
         "name": "Driss",
         "imageUrl": ""
       },
-      "actorId": "8dc10d24-b013-432f-b828-c9282444b342"
+      "actorId": "8dc10d24-b013-432f-b828-c9282444b342",
+      "name": "Omar Sy"
     },
     {
       "character": {
         "name": "Yvonne",
         "imageUrl": ""
       },
-      "actorId": "2be7a373-3906-481a-a318-73adf9cf6ac2"
+      "actorId": "2be7a373-3906-481a-a318-73adf9cf6ac2",
+      "name": "Anne Le Ny"
     },
     {
       "character": {
         "name": "Magalie",
         "imageUrl": ""
       },
-      "actorId": "c731889b-061a-4c7f-9b08-775002a5e5c9"
+      "actorId": "c731889b-061a-4c7f-9b08-775002a5e5c9",
+      "name": "Audrey Fleurot"
     }
   ],
   "collections": [
