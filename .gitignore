@@ -26,5 +26,4 @@ dist-ssr
 
 # Local node data
 
-update-db.js
-data/*
+utils/modifier.js
