@@ -1,8 +1,6 @@
 import {
-  Dispatch,
   FC,
   PropsWithChildren,
-  SetStateAction,
   createContext,
   useContext,
   useEffect,
@@ -10,7 +8,7 @@ import {
 } from 'react';
 import { filterFilms } from '@/helpers';
 import { useFilter } from '@/hooks';
-import { FILMS_COUNT_STEP } from '@/common/constants';
+import { PER_PAGE } from '@/common/constants';
 import { DynamicObject, FilmData } from '@/common';
 import { FilmAPI } from '@/api';
 
@@ -18,11 +16,9 @@ type FilmsContextType = {
   initialFilmsList: FilmData[];
   films: FilmData[];
   isFilmsLoading: boolean;
+  pagesCount: number;
   filterParams: DynamicObject;
-  filmsCount: number;
-  hasMore: boolean;
   updateFilter(data: any): void;
-  setFilmsCount: Dispatch<SetStateAction<number>>;
   resetFilter(): void;
 };
 
@@ -35,8 +31,7 @@ const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
   const [films, setFilms] = useState<FilmData[]>([]);
   const [isFilmsLoading, setIsFilmsLoading] = useState(true);
   const [filterParams, setSearchParams] = useFilter();
-  const [hasMore, setHasMore] = useState(true);
-  const [filmsCount, setFilmsCount] = useState(FILMS_COUNT_STEP);
+  const [pagesCount, setPagesCount] = useState(0);
 
   const fetchFilms = async () => {
     const films = await FilmAPI.getAll();
@@ -50,19 +45,21 @@ const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
   useEffect(() => {
     setIsFilmsLoading(true);
     if (initialFilmsList.length) {
-      const filteredFilms = filterFilms(initialFilmsList, filterParams);
+      const { pageIndex = 0, ...params } = filterParams;
+      const filteredFilms = filterFilms(initialFilmsList, params);
+      const pageIndexNum = Number(pageIndex);
 
-      const films = filteredFilms.slice(0, filmsCount);
+      const sliceStart = PER_PAGE * pageIndexNum;
+      const sliceEnd = PER_PAGE * (pageIndexNum + 1);
 
+      const films = filteredFilms.slice(sliceStart, sliceEnd);
+      const pagesCount = Math.ceil(filteredFilms.length / PER_PAGE);
+
+      setPagesCount(pagesCount);
       setFilms(films);
-
-      if (films.length === initialFilmsList.length) {
-        setHasMore(false);
-      }
-
       setIsFilmsLoading(false);
     }
-  }, [initialFilmsList, filterParams, filmsCount]);
+  }, [initialFilmsList, filterParams]);
 
   const updateFilter = (data: any) => {
     setSearchParams(data);
@@ -70,22 +67,18 @@ const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
 
   const resetFilter = () => {
     setSearchParams({});
-    setFilmsCount(FILMS_COUNT_STEP);
-    setHasMore(true);
   };
 
   return (
     <FilmsContext.Provider
       value={{
         initialFilmsList,
+        pagesCount,
         films,
         isFilmsLoading,
         filterParams,
-        filmsCount,
-        hasMore,
         updateFilter,
         resetFilter,
-        setFilmsCount,
       }}
     >
       {children}

@@ -32,9 +32,15 @@ const Filters = () => {
   const submitFilter = (data: any) => {
     const filledOptions = filterValues(data);
 
-    updateFilter(filledOptions);
+    updateFilter({
+      ...filledOptions,
+      pageIndex: 0,
+    });
     setIsFilterOpen(false);
-    window.scrollTo(0, 0);
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
   };
 
   useEffect(() => {

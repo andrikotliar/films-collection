@@ -8,3 +8,4 @@ export * from './FormCheckbox';
 export * from './Scrollable';
 export * from './Tabs';
 export * from './Modal';
+export * from './Pagination';

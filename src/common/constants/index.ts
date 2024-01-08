@@ -1,6 +1,6 @@
 const APP_TITLE = 'Films Collection';
 
-const FILMS_COUNT_STEP = 30;
+const PER_PAGE = 30;
 const MOBILE_VIEW_BREAKPOINT_PX = 785;
 
 const IMAGE_FALLBACKS = {
@@ -8,9 +8,4 @@ const IMAGE_FALLBACKS = {
   noCharacterImage: '/images/noimage-character.webp',
 };
 
-export {
-  APP_TITLE,
-  FILMS_COUNT_STEP,
-  IMAGE_FALLBACKS,
-  MOBILE_VIEW_BREAKPOINT_PX,
-};
+export { APP_TITLE, PER_PAGE, IMAGE_FALLBACKS, MOBILE_VIEW_BREAKPOINT_PX };
