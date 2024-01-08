@@ -12,11 +12,8 @@ const Actor: FC<ActorProps> = ({ actor }) => {
   return (
     <div className={classes.actor} id={actor.actorId}>
       <Profile actor={actor} />
-      {actor.character.imageUrl.length !== 0 && (
-        <Character
-          character={actor.character}
-          key={actor.character.imageUrl}
-        />
+      {actor.character.imageUrl?.length !== 0 && (
+        <Character character={actor.character} key={actor.character.imageUrl} />
       )}
     </div>
   );

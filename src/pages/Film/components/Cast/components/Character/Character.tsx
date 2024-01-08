@@ -11,14 +11,9 @@ const Character: FC<CharacterProps> = ({ character }) => {
   return (
     <div className={classes.character}>
       <img
-        src={character.imageUrl}
+        src={character.imageUrl || ''}
         alt={character.name}
-        onError={(e) =>
-          handleImageError(
-            e,
-            IMAGE_FALLBACKS.noCharacterImage,
-          )
-        }
+        onError={(e) => handleImageError(e, IMAGE_FALLBACKS.noCharacterImage)}
       />
     </div>
   );

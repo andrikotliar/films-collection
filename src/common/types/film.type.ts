@@ -17,7 +17,7 @@ type CastType = {
   actorId: string;
   character: {
     name: string;
-    imageUrl: string;
+    imageUrl: string | null;
   };
 } & ActorData;
 
