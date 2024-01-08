@@ -3,7 +3,8 @@ import actors from './data/actors.json' assert { type: 'json' };
 
 const generateDatabaseFile = () => {
   const files = fs.readdirSync('./db/');
-  const db = files.map((file) => {
+  const filteredFiles = files.filter((file) => !file.startsWith('_'));
+  const db = filteredFiles.map((file) => {
     try {
       const fileData = fs.readFileSync(`./db/${file}`, 'utf8');
       const film = JSON.parse(fileData);

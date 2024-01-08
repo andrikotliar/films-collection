@@ -43,10 +43,10 @@ const createTemplate = ({ isSeries, title }) => {
 
   currentTemplate.id = crypto.randomUUID();
   currentTemplate.title = title;
-  currentTemplate.media[0].poster = fileTitle.toLowerCase();
+  currentTemplate.media[0].poster = `${fileTitle.toLowerCase()}.webp`;
 
   fs.writeFileSync(
-    `./db/${fileTitle}.json`,
+    `./db/_${fileTitle}.json`,
     JSON.stringify(currentTemplate, undefined, 2),
     'utf-8',
   );
