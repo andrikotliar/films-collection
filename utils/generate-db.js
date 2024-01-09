@@ -10,7 +10,7 @@ const generateDatabaseFile = () => {
       const film = JSON.parse(fileData);
 
       film.cast = film.cast.map((actor) => {
-        const currentActor = actors[actor.actorId];
+        const currentActor = actors.find((a) => a.id === actor.actorId);
 
         return {
           ...actor,

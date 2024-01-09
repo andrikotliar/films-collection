@@ -1,55 +1,56 @@
-import fs from 'fs';
 import inquirer from 'inquirer';
-import crypto from 'crypto';
+import { randomUUID } from 'crypto';
 import { prepareFileName } from './helpers/prepare-file-name.js';
+import { writeData } from './helpers/write-data.js';
+import { getTemplate } from './helpers/get-template.js';
+import { addCast } from './add-cast.js';
 
-import filmTemplate from './templates/film.json' assert { type: 'json' };
-import seriesTemplate from './templates/series.json' assert { type: 'json' };
+const createTemplate = async ({ type, title, year }) => {
+  const fileName = prepareFileName(title);
 
-const templates = {
-  film: filmTemplate,
-  series: seriesTemplate,
-};
-
-inquirer
-  .prompt([
-    {
-      name: 'title',
-      message: 'Title:',
-    },
-    {
-      type: 'confirm',
-      name: 'isSeries',
-      message: 'Is series? (optional):',
-      default: false,
-    },
-  ])
-  .then((answers) => {
-    createTemplate(answers);
-  });
-
-const createTemplate = ({ isSeries, title }) => {
-  console.log('Processing...');
-
-  const type = isSeries ? 'series' : 'film';
-
-  const fileTitle = prepareFileName(title);
-
-  const currentTemplate = templates[type];
+  const currentTemplate = getTemplate(type);
 
   if (!currentTemplate) {
     throw Error(`Template for the ${type} type not found!`);
   }
 
-  currentTemplate.id = crypto.randomUUID();
+  const filePath = `./db/_${fileName}.json`;
+  const cast = await addCast(filePath);
+
+  currentTemplate.id = randomUUID();
   currentTemplate.title = title;
-  currentTemplate.media[0].poster = `${fileTitle.toLowerCase()}.webp`;
+  currentTemplate.type = type;
+  currentTemplate.year = year;
+  currentTemplate.media[0].poster = `${fileName.toLowerCase()}.webp`;
+  currentTemplate.cast = cast;
 
-  fs.writeFileSync(
-    `./db/_${fileTitle}.json`,
-    JSON.stringify(currentTemplate, undefined, 2),
-    'utf-8',
-  );
-
-  console.log('Finished');
+  writeData(currentTemplate, filePath);
 };
+
+const processTemplates = async () => {
+  const currentYear = new Date().getFullYear();
+
+  const answers = await inquirer.prompt([
+    {
+      name: 'title',
+      message: 'Title:',
+    },
+    {
+      type: 'checkbox',
+      name: 'type',
+      message: 'Type:',
+      choices: ['Film', 'Animation', 'Series'],
+      default: 'Film',
+    },
+    {
+      type: 'number',
+      name: 'year',
+      message: 'Release year:',
+      default: currentYear,
+    },
+  ]);
+
+  createTemplate(answers);
+};
+
+processTemplates();
