@@ -44,6 +44,7 @@ const AboutPage = () => {
         <p>
           ⭐⭐ - good tiles I do like. I've watched them less times than
           previous category, but always excited to watch them one more time.
+          Majority of titles in the collection have this rating.
         </p>
         <p>
           ⭐ - titles I still like but they have some nuances or were added just
