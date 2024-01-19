@@ -39,25 +39,16 @@ const AboutPage = () => {
           .
         </p>
         <h2>Ratings ✨</h2>
+        <p>I rate titles in the collection by three-stars rating:</p>
+        <p>⭐⭐⭐ - my best favorites. I've watched them countless times.</p>
         <p>
-          I like all titles in my collection, but some of them I like more and
-          some less. In this app I use simple three-star system of rating.
+          ⭐⭐ - good tiles I do like. I've watched them less times than
+          previous category, but always excited to watch them one more time.
         </p>
         <p>
-          ⭐⭐⭐ - <a href="/?collections=Top+10">My best favorites</a>. I do
-          love them so much and have rewatched them countless times.
-        </p>
-        <p>
-          ⭐⭐ - Interested and excited titles. I rewatch them rarely, but have
-          good memories about them and like discuss them.
-        </p>
-        <p>
-          ⭐ - These titles I have watched not so many times. I still like them,
-          but they may have some troubles in plot or whatever. This is the case
-          when I could add a movie just to have it in the collection (hello,
-          some{' '}
-          <a href="/?collections=Marvel+Cinematic+Universe">movies from MCU</a>
-          ).
+          ⭐ - titles I still like but they have some nuances or were added just
+          to have in the collection. I've watched them only a few times and
+          usually choose to rewatch some titles from the previous category.
         </p>
       </Container>
     </article>
