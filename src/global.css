@@ -10,7 +10,7 @@
 
   --main-padding: 20px;
   --header-height: 60px;
-  --app-height: calc(100vh - var(--header-height));
+  --app-height: 100vh;
 }
 
 @font-face {
