@@ -316,22 +316,20 @@
     "part": 1
   },
   "year": 2005,
-  "summary": {
-    "sections": [
-      {
-        "title": "Book 1: Water",
-        "text": "Follow the journey of Aang, the last Airbender and the Avatar, as he awakens from a century-long slumber to a world ravaged by war. With the help of new friends Katara and Sokka, he embarks on a quest to master the elements and bring balance to a world torn by the Fire Nation's aggression."
-      },
-      {
-        "title": "Book 2: Earth",
-        "text": "Aang continues his training as the Avatar, facing new challenges and adventures. The group confronts the Earth Kingdom's struggles, uncovers the secrets of the spirit world, and Aang delves deeper into his connection with the Avatar State, all while the Fire Nation intensifies its pursuit."
-      },
-      {
-        "title": "Book 3: Fire",
-        "text": "Aang and his friends prepare for the ultimate showdown with the Fire Nation and its tyrannical ruler, Fire Lord Ozai. The group faces personal dilemmas and tough choices, while the world holds its breath, waiting for the Avatar's triumph and the restoration of balance."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "title": "Book 1: Water",
+      "text": "Follow the journey of Aang, the last Airbender and the Avatar, as he awakens from a century-long slumber to a world ravaged by war. With the help of new friends Katara and Sokka, he embarks on a quest to master the elements and bring balance to a world torn by the Fire Nation's aggression."
+    },
+    {
+      "title": "Book 2: Earth",
+      "text": "Aang continues his training as the Avatar, facing new challenges and adventures. The group confronts the Earth Kingdom's struggles, uncovers the secrets of the spirit world, and Aang delves deeper into his connection with the Avatar State, all while the Fire Nation intensifies its pursuit."
+    },
+    {
+      "title": "Book 3: Fire",
+      "text": "Aang and his friends prepare for the ultimate showdown with the Fire Nation and its tyrannical ruler, Fire Lord Ozai. The group faces personal dilemmas and tough choices, while the world holds its breath, waiting for the Avatar's triumph and the restoration of balance."
+    }
+  ],
   "series": {
     "episodesTotal": 61,
     "seasons": [

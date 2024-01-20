@@ -141,13 +141,11 @@
   ],
   "boxOffice": 400000000,
   "year": 2010,
-  "summary": {
-    "sections": [
-      {
-        "text": "The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world."
+    }
+  ],
   "media": [
     {
       "poster": "tron.webp",

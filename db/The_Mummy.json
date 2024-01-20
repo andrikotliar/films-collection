@@ -142,13 +142,11 @@
   ],
   "boxOffice": 416000000,
   "year": 1999,
-  "summary": {
-    "sections": [
-      {
-        "text": "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreck havoc as he searches for the reincarnation of his long-lost love."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreck havoc as he searches for the reincarnation of his long-lost love."
+    }
+  ],
   "chapters": {
     "title": "The Mummy",
     "part": 1

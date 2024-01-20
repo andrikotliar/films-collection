@@ -191,13 +191,11 @@
   ],
   "boxOffice": 1520000000,
   "year": 2012,
-  "summary": {
-    "sections": [
-      {
-        "text": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
+    }
+  ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 6

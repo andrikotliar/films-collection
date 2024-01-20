@@ -185,14 +185,12 @@
     "part": 26
   },
   "year": 2021,
-  "summary": {
-    "sections": [
-      {
-        "title": "Season 1",
-        "text": "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of «Avengers: Endgame»."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "title": "Season 1",
+      "text": "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of «Avengers: Endgame»."
+    }
+  ],
   "series": {
     "episodesTotal": 6,
     "seasons": [

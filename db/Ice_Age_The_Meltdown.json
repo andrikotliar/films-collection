@@ -114,13 +114,11 @@
   "budget": 80000000,
   "boxOffice": 661000000,
   "year": 2006,
-  "summary": {
-    "sections": [
-      {
-        "text": "Manny, Sid, and Diego discover that the ice age is coming to an end, and join everybody for a journey to higher ground. On the trip, they discover that Manny, in fact, is not the last of the woolly mammoths."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Manny, Sid, and Diego discover that the ice age is coming to an end, and join everybody for a journey to higher ground. On the trip, they discover that Manny, in fact, is not the last of the woolly mammoths."
+    }
+  ],
   "chapters": {
     "title": "Ice Age",
     "part": 2

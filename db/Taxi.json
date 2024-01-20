@@ -113,13 +113,11 @@
   "budget": 9000000,
   "boxOffice": 44000000,
   "year": 1998,
-  "summary": {
-    "sections": [
-      {
-        "text": "To work off his tarnished driving record, a hip taxi driver must chauffeur a loser police inspector on the trail of German bank robbers."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "To work off his tarnished driving record, a hip taxi driver must chauffeur a loser police inspector on the trail of German bank robbers."
+    }
+  ],
   "chapters": {
     "title": "Besson's Taxi",
     "part": 1

@@ -145,13 +145,11 @@
   "budget": 145000000,
   "boxOffice": 401000000,
   "year": 2008,
-  "summary": {
-    "sections": [
-      {
-        "text": "In the Far East, Alex O'Connell, the son of famed mummy fighters Rick and Evy O'Connell, unearths the mummy of the first Emperor of Qin -- a shape-shifting entity cursed by a witch centuries ago."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "In the Far East, Alex O'Connell, the son of famed mummy fighters Rick and Evy O'Connell, unearths the mummy of the first Emperor of Qin -- a shape-shifting entity cursed by a witch centuries ago."
+    }
+  ],
   "chapters": {
     "title": "The Mummy",
     "part": 3

@@ -137,13 +137,11 @@
   ],
   "boxOffice": 789000000,
   "year": 2004,
-  "summary": {
-    "sections": [
-      {
-        "text": "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius."
+    }
+  ],
   "chapters": {
     "title": "Raimi's Spider-Man",
     "part": 2

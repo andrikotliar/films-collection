@@ -103,13 +103,11 @@
   "budget": 73000000,
   "boxOffice": 619000000,
   "year": 1997,
-  "summary": {
-    "sections": [
-      {
-        "text": "A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda."
+    }
+  ],
   "chapters": {
     "title": "Jurassic Park",
     "part": 2

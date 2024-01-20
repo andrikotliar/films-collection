@@ -134,13 +134,11 @@
   "budget": 85000000,
   "boxOffice": 363000000,
   "year": 2009,
-  "summary": {
-    "sections": [
-      {
-        "text": "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation."
+    }
+  ],
   "chapters": {
     "title": "Fast and Furious",
     "part": 4

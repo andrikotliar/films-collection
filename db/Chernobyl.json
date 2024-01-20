@@ -172,14 +172,12 @@
     }
   ],
   "year": 2019,
-  "summary": {
-    "sections": [
-      {
-        "title": "Season 1",
-        "text": "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "title": "Season 1",
+      "text": "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes."
+    }
+  ],
   "series": {
     "episodesTotal": 5,
     "seasons": [

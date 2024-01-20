@@ -178,13 +178,11 @@
   "budget": 200000000,
   "boxOffice": 281000000,
   "year": 2021,
-  "summary": {
-    "sections": [
-      {
-        "text": "The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations."
+    }
+  ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 28

@@ -146,13 +146,11 @@
   "budget": 130000000,
   "boxOffice": 797000000,
   "year": 2004,
-  "summary": {
-    "sections": [
-      {
-        "text": "It's Harry's third year at Hogwarts; not only does he have a new \"Defense Against the Dark Arts\" teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "It's Harry's third year at Hogwarts; not only does he have a new \"Defense Against the Dark Arts\" teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry."
+    }
+  ],
   "chapters": {
     "title": "Harry Potter Universe",
     "part": 5

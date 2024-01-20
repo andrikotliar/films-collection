@@ -202,13 +202,11 @@
   ],
   "boxOffice": 1150000000,
   "year": 2016,
-  "summary": {
-    "sections": [
-      {
-        "text": "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man."
+    }
+  ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 13

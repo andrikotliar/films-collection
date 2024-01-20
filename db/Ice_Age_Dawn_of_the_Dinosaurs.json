@@ -144,13 +144,11 @@
   "budget": 90000000,
   "boxOffice": 886000000,
   "year": 2009,
-  "summary": {
-    "sections": [
-      {
-        "text": "When Sid's attempt to adopt three dinosaur eggs gets him abducted by their real mother to an underground lost world, his friends attempt to rescue him."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "When Sid's attempt to adopt three dinosaur eggs gets him abducted by their real mother to an underground lost world, his friends attempt to rescue him."
+    }
+  ],
   "chapters": {
     "title": "Ice Age",
     "part": 3

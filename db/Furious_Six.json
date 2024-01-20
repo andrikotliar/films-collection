@@ -166,13 +166,11 @@
   ],
   "boxOffice": 789000000,
   "year": 2013,
-  "summary": {
-    "sections": [
-      {
-        "text": "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty."
+    }
+  ],
   "chapters": {
     "title": "Fast and Furious",
     "part": 6

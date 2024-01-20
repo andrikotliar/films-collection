@@ -164,13 +164,11 @@
   "budget": 150000000,
   "boxOffice": 398000000,
   "year": 2006,
-  "summary": {
-    "sections": [
-      {
-        "text": "IMF Agent Ethan Hunt comes into conflict with a dangerous and sadistic arms dealer who threatens his life and his fiancée in response."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "IMF Agent Ethan Hunt comes into conflict with a dangerous and sadistic arms dealer who threatens his life and his fiancée in response."
+    }
+  ],
   "chapters": {
     "title": "Mission: Impossible",
     "part": 3

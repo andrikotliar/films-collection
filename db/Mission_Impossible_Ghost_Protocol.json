@@ -125,13 +125,11 @@
   ],
   "boxOffice": 695000000,
   "year": 2011,
-  "summary": {
-    "sections": [
-      {
-        "text": "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name."
+    }
+  ],
   "chapters": {
     "title": "Mission: Impossible",
     "part": 4

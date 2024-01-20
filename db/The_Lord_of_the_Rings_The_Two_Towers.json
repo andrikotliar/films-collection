@@ -200,13 +200,11 @@
   ],
   "boxOffice": 926000000,
   "year": 2002,
-  "summary": {
-    "sections": [
-      {
-        "text": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
+    }
+  ],
   "chapters": {
     "title": "Middle-Earth Universe",
     "part": 5

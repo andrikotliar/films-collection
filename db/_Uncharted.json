@@ -9,13 +9,11 @@
     "Adventures"
   ],
   "year": 2022,
-  "summary": {
-    "sections": [
-      {
-        "text": "Street-smart Nathan Drake is recruited by seasoned treasure hunter Victor \"Sully\" Sullivan to recover a fortune amassed by Ferdinand Magellan, and lost 500 years ago by the House of Moncada."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Street-smart Nathan Drake is recruited by seasoned treasure hunter Victor \"Sully\" Sullivan to recover a fortune amassed by Ferdinand Magellan, and lost 500 years ago by the House of Moncada."
+    }
+  ],
   "media": [
     {
       "poster": "uncharted.webp",

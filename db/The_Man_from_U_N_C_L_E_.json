@@ -136,13 +136,11 @@
   "budget": 75000000,
   "boxOffice": 107000000,
   "year": 2015,
-  "summary": {
-    "sections": [
-      {
-        "text": "In the early 1960s, CIA agent Napoleon Solo and KGB operative Illya Kuryakin participate in a joint mission against a mysterious criminal organization, which is working to proliferate nuclear weapons."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "In the early 1960s, CIA agent Napoleon Solo and KGB operative Illya Kuryakin participate in a joint mission against a mysterious criminal organization, which is working to proliferate nuclear weapons."
+    }
+  ],
   "media": [
     {
       "poster": "the_man_from_uncle.webp",

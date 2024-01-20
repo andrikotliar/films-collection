@@ -158,13 +158,11 @@
   ],
   "boxOffice": 585000000,
   "year": 2008,
-  "summary": {
-    "sections": [
-      {
-        "text": "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
+    }
+  ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 1

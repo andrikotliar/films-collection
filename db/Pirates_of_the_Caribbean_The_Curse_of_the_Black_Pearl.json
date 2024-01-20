@@ -145,13 +145,11 @@
   ],
   "boxOffice": 654000000,
   "year": 2003,
-  "summary": {
-    "sections": [
-      {
-        "text": "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead."
+    }
+  ],
   "chapters": {
     "title": "Pirates of the Caribbean",
     "part": 1

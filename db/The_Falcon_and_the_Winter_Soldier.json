@@ -179,14 +179,12 @@
     "part": 25
   },
   "year": 2021,
-  "summary": {
-    "sections": [
-      {
-        "title": "Season 1",
-        "text": "Following the events of «Avengers: Endgame» Sam Wilson and Bucky Barnes team up in a global adventure that tests their abilities and their patience."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "title": "Season 1",
+      "text": "Following the events of «Avengers: Endgame» Sam Wilson and Bucky Barnes team up in a global adventure that tests their abilities and their patience."
+    }
+  ],
   "series": {
     "episodesTotal": 6,
     "seasons": [

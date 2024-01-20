@@ -146,13 +146,11 @@
   "budget": 150000000,
   "boxOffice": 683000000,
   "year": 2015,
-  "summary": {
-    "sections": [
-      {
-        "text": "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF."
+    }
+  ],
   "chapters": {
     "title": "Mission: Impossible",
     "part": 5

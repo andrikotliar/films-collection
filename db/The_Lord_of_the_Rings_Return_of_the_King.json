@@ -223,13 +223,11 @@
   ],
   "boxOffice": 1120000000,
   "year": 2003,
-  "summary": {
-    "sections": [
-      {
-        "text": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+    }
+  ],
   "chapters": {
     "title": "Middle-Earth Universe",
     "part": 6

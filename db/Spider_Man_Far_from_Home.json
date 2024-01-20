@@ -131,13 +131,11 @@
   ],
   "boxOffice": 1130000000,
   "year": 2019,
-  "summary": {
-    "sections": [
-      {
-        "text": "Following the events of Endgame, Spider-Man must step up to take on new threats in a world that has changed forever."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Following the events of Endgame, Spider-Man must step up to take on new threats in a world that has changed forever."
+    }
+  ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 23

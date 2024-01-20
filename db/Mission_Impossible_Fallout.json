@@ -156,13 +156,11 @@
   ],
   "boxOffice": 791000000,
   "year": 2018,
-  "summary": {
-    "sections": [
-      {
-        "text": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong."
+    }
+  ],
   "chapters": {
     "title": "Mission: Impossible",
     "part": 6

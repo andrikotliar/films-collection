@@ -164,13 +164,11 @@
   "budget": 62000000,
   "boxOffice": 288000000,
   "year": 2018,
-  "summary": {
-    "sections": [
-      {
-        "text": "Young hero Thomas embarks on a mission to find a cure for a deadly disease known as \"The Flare\"."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Young hero Thomas embarks on a mission to find a cure for a deadly disease known as \"The Flare\"."
+    }
+  ],
   "chapters": {
     "title": "The Maze Runner",
     "part": 3

@@ -135,13 +135,11 @@
   ],
   "boxOffice": 963000000,
   "year": 2007,
-  "summary": {
-    "sections": [
-      {
-        "text": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle."
+    }
+  ],
   "chapters": {
     "title": "Pirates of the Caribbean",
     "part": 3

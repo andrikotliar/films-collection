@@ -145,13 +145,11 @@
   "budget": 80000000,
   "boxOffice": 458000000,
   "year": 1996,
-  "summary": {
-    "sections": [
-      {
-        "text": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization."
+    }
+  ],
   "chapters": {
     "title": "Mission: Impossible",
     "part": 1

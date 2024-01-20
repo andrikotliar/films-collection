@@ -131,13 +131,11 @@
   "budget": 120000000,
   "boxOffice": 347000000,
   "year": 2004,
-  "summary": {
-    "sections": [
-      {
-        "text": "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity."
+    }
+  ],
   "media": [
     {
       "poster": "i_robot.webp",

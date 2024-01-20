@@ -126,13 +126,11 @@
   "budget": 76000000,
   "boxOffice": 236000000,
   "year": 2003,
-  "summary": {
-    "sections": [
-      {
-        "text": "Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself."
+    }
+  ],
   "chapters": {
     "title": "Fast and Furious",
     "part": 2

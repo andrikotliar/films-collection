@@ -200,13 +200,11 @@
   ],
   "boxOffice": 2800000000,
   "year": 2009,
-  "summary": {
-    "sections": [
-      {
-        "text": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home."
+    }
+  ],
   "chapters": {
     "title": "Avatar",
     "part": 1

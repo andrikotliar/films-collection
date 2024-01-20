@@ -133,13 +133,11 @@
   "budget": 14000000,
   "boxOffice": 14000000,
   "year": 2009,
-  "summary": {
-    "sections": [
-      {
-        "text": "Damien and Leito return to District 13 on a mission to bring peace to the troubled sector that is controlled by five different gang bosses, before the city's secret services take drastic measures to solve the problem."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Damien and Leito return to District 13 on a mission to bring peace to the troubled sector that is controlled by five different gang bosses, before the city's secret services take drastic measures to solve the problem."
+    }
+  ],
   "chapters": {
     "title": "District 13",
     "part": 2

@@ -144,13 +144,11 @@
   "budget": 165000000,
   "boxOffice": 496000000,
   "year": 2010,
-  "summary": {
-    "sections": [
-      {
-        "text": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed."
+    }
+  ],
   "chapters": {
     "title": "How to Train Your Dragon",
     "part": 1

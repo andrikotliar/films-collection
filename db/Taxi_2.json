@@ -118,13 +118,11 @@
   "budget": 10000000,
   "boxOffice": 64000000,
   "year": 2000,
-  "summary": {
-    "sections": [
-      {
-        "text": "Police inspector Emilien and his taxi-driver pal Daniel are back, this time on the tail of a group of Japanese yakuza."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Police inspector Emilien and his taxi-driver pal Daniel are back, this time on the tail of a group of Japanese yakuza."
+    }
+  ],
   "chapters": {
     "title": "Besson's Taxi",
     "part": 2

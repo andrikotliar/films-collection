@@ -160,13 +160,11 @@
   "budget": 180000000,
   "boxOffice": 411000000,
   "year": 2013,
-  "summary": {
-    "sections": [
-      {
-        "text": "As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse."
+    }
+  ],
   "chapters": {
     "title": "Pacific Rim",
     "part": 1

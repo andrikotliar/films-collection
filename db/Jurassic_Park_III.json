@@ -117,13 +117,11 @@
   "budget": 93000000,
   "boxOffice": 368000000,
   "year": 2001,
-  "summary": {
-    "sections": [
-      {
-        "text": "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants."
+    }
+  ],
   "chapters": {
     "title": "Jurassic Park",
     "part": 3

@@ -271,26 +271,24 @@
     }
   ],
   "year": 2016,
-  "summary": {
-    "sections": [
-      {
-        "title": "Season 1",
-        "text": "Set in the 1980s in the town of Hawkins, Indiana, the first season follows the disappearance of a young boy and the mysterious appearance of a girl with psychokinetic abilities. A group of friends embarks on a quest to find their missing friend while uncovering supernatural mysteries. The arrival of a sinister force known as the Demogorgon leads to a parallel dimension known as the Upside Down."
-      },
-      {
-        "title": "Season 2",
-        "text": "In the second season, a year after the events of the first season, Hawkins faces a new supernatural threat. The group of friends reunites to confront a shadowy entity that threatens the town, and they learn more about the Upside Down. Eleven, the psychokinetic girl, seeks her past and abilities."
-      },
-      {
-        "title": "Season 3",
-        "text": "Set during the summer of 1985, Season 3 follows the group of friends as they face new challenges, both supernatural and personal. The town's new mall hides a dark secret, and the Russians play a significant role in the unfolding mysteries. The Mind Flayer returns, and Hawkins is once again in grave danger."
-      },
-      {
-        "title": "Season 4",
-        "text": "Darkness returns to Hawkins just in time for spring break, igniting fresh terror, disturbing memories — and an ominous new threat."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "title": "Season 1",
+      "text": "Set in the 1980s in the town of Hawkins, Indiana, the first season follows the disappearance of a young boy and the mysterious appearance of a girl with psychokinetic abilities. A group of friends embarks on a quest to find their missing friend while uncovering supernatural mysteries. The arrival of a sinister force known as the Demogorgon leads to a parallel dimension known as the Upside Down."
+    },
+    {
+      "title": "Season 2",
+      "text": "In the second season, a year after the events of the first season, Hawkins faces a new supernatural threat. The group of friends reunites to confront a shadowy entity that threatens the town, and they learn more about the Upside Down. Eleven, the psychokinetic girl, seeks her past and abilities."
+    },
+    {
+      "title": "Season 3",
+      "text": "Set during the summer of 1985, Season 3 follows the group of friends as they face new challenges, both supernatural and personal. The town's new mall hides a dark secret, and the Russians play a significant role in the unfolding mysteries. The Mind Flayer returns, and Hawkins is once again in grave danger."
+    },
+    {
+      "title": "Season 4",
+      "text": "Darkness returns to Hawkins just in time for spring break, igniting fresh terror, disturbing memories — and an ominous new threat."
+    }
+  ],
   "series": {
     "episodesTotal": 34,
     "seasons": [

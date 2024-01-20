@@ -10,13 +10,11 @@
     "Action"
   ],
   "year": 2022,
-  "summary": {
-    "sections": [
-      {
-        "text": "Doctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses, to battle multiple threats, including other-universe versions of himself, which threaten to wipe out millions across the multiverse. They seek help from Wanda the Scarlet Witch, Wong and others."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Doctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses, to battle multiple threats, including other-universe versions of himself, which threaten to wipe out millions across the multiverse. They seek help from Wanda the Scarlet Witch, Wong and others."
+    }
+  ],
   "media": [
     {
       "poster": "doctor_strange_2.webp",

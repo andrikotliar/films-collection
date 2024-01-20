@@ -151,13 +151,11 @@
   "budget": 129000000,
   "boxOffice": 443000000,
   "year": 2019,
-  "summary": {
-    "sections": [
-      {
-        "text": "When Hiccup discovers Toothless isn't the only Night Fury, he must seek \"The Hidden World\", a secret Dragon Utopia before a hired tyrant named Grimmel finds it first."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "When Hiccup discovers Toothless isn't the only Night Fury, he must seek \"The Hidden World\", a secret Dragon Utopia before a hired tyrant named Grimmel finds it first."
+    }
+  ],
   "chapters": {
     "title": "How to Train Your Dragon",
     "part": 3

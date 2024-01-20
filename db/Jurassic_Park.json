@@ -157,13 +157,11 @@
   ],
   "boxOffice": 1030000000,
   "year": 1993,
-  "summary": {
-    "sections": [
-      {
-        "text": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose."
+    }
+  ],
   "chapters": {
     "title": "Jurassic Park",
     "part": 1

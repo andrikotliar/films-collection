@@ -95,13 +95,11 @@
   "budget": 135000000,
   "boxOffice": 110000000,
   "year": 2020,
-  "summary": {
-    "sections": [
-      {
-        "text": "A sled dog struggles for survival in the wilds of the Yukon."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "A sled dog struggles for survival in the wilds of the Yukon."
+    }
+  ],
   "media": [
     {
       "poster": "the_call_of_the_wild.webp",

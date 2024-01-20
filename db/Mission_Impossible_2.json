@@ -143,13 +143,11 @@
   ],
   "boxOffice": 546000000,
   "year": 2000,
-  "summary": {
-    "sections": [
-      {
-        "text": "IMF Agent Ethan Hunt is sent to Sydney, to find and destroy a genetically modified disease called \"Chimera\"."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "IMF Agent Ethan Hunt is sent to Sydney, to find and destroy a genetically modified disease called \"Chimera\"."
+    }
+  ],
   "chapters": {
     "title": "Mission: Impossible",
     "part": 2

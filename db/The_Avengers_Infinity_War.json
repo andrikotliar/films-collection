@@ -258,13 +258,11 @@
   ],
   "boxOffice": 2049999999.9999998,
   "year": 2018,
-  "summary": {
-    "sections": [
-      {
-        "text": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
+    }
+  ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 19

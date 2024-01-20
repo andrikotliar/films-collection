@@ -127,13 +127,11 @@
   ],
   "boxOffice": 488000000,
   "year": 2001,
-  "summary": {
-    "sections": [
-      {
-        "text": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back."
+    }
+  ],
   "chapters": {
     "title": "Shrek",
     "part": 1
