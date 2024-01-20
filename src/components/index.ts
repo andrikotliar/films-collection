@@ -1,5 +1,5 @@
 export * from './Button';
-export * from './Header';
+export * from './Navigation';
 export * from './Loader';
 export * from './Search';
 export * from './Container';
@@ -9,3 +9,4 @@ export * from './Scrollable';
 export * from './Tabs';
 export * from './Modal';
 export * from './Pagination';
+export * from './Accordion';
