@@ -66,9 +66,7 @@ type FilmData = {
   genres: string[];
   production: string[];
   crew: Crew[];
-  summary: {
-    sections: Summary[];
-  };
+  summary: Summary[];
   countries: string[];
   year: number;
   duration: number;

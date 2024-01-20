@@ -1,12 +1,12 @@
 import classes from './Search.module.css';
-import { FormEvent, useEffect, useRef, useState } from 'react';
+import { ChangeEvent, useCallback, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { SearchIcon } from '@/assets/icons';
+import { debounce } from '@/helpers';
 
 const Search = () => {
   const navigate = useNavigate();
   const searchInputRef = useRef<any>();
-  const [searchString, setSearchString] = useState('');
 
   const runSearch = (searchValue: string) => {
     if (searchValue.length) {
@@ -14,17 +14,18 @@ const Search = () => {
     }
   };
 
-  const onSubmit = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    runSearch(searchString);
-    searchInputRef.current.value = '';
-  };
-
   const focusSearch = (event: KeyboardEvent) => {
     if (event.key === 'F2') {
       searchInputRef.current.focus();
     }
   };
+
+  const handleSearch = useCallback((event: ChangeEvent<HTMLInputElement>) => {
+    runSearch(event.target.value);
+    searchInputRef.current.value = '';
+  }, []);
+
+  const debouncedSearch = debounce(handleSearch, 1000);
 
   useEffect(() => {
     document.addEventListener('keydown', focusSearch);
@@ -35,18 +36,16 @@ const Search = () => {
   }, []);
 
   return (
-    <form className={classes.form} onSubmit={onSubmit}>
+    <div className={classes.searchWrapper}>
       <input
         type="text"
         className={classes.input}
         placeholder="Search film..."
-        onChange={(e) => setSearchString(e.target.value)}
+        onChange={debouncedSearch}
         ref={searchInputRef}
       />
-      <button className={classes.button}>
-        <SearchIcon color="#ddd" />
-      </button>
-    </form>
+      <SearchIcon color="#ddd" className={classes.searchIcon} />
+    </div>
   );
 };
 

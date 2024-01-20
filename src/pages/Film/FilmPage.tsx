@@ -15,8 +15,7 @@ import {
   CrewList,
   Details,
   BoxOffice,
-  SeriesDetails,
-  Media,
+  Poster,
 } from './components';
 import { useDocumentTitle } from '@/hooks';
 import { seriesContent } from '@/pages/Film/helpers';
@@ -79,54 +78,46 @@ const FilmPage = () => {
           ]}
         />
       </section>
-      <div className={classes.layout}>
-        <Media media={film.media} title={film.title} />
 
-        <div className={classes.content}>
-          <Description description={film.summary.sections} />
-
-          <CrewList crew={film.crew} />
-
-          {film.type.includes('Series') &&
-            film.series &&
-            film.series.seasons.length > 1 && (
-              <section>
-                <SectionTitle>Series Details</SectionTitle>
-                <SeriesDetails series={film.series} />
-              </section>
-            )}
-
-          <section>
-            <SectionTitle>Cast and characters</SectionTitle>
-            <Cast cast={film.cast} />
-          </section>
-
-          {film.awards && (
-            <section>
-              <SectionTitle>Awards</SectionTitle>
-              <Awards awards={film.awards} />
-            </section>
-          )}
-
-          <section>
-            <SectionTitle>Extra Details</SectionTitle>
-            <Details filmData={film} />
-          </section>
-
-          {(film.budget || film.boxOffice) && (
-            <section>
-              <SectionTitle>Box Office</SectionTitle>
-              <BoxOffice budget={film.budget} boxOffice={film.boxOffice} />
-            </section>
-          )}
-
-          {film.chapters && (
-            <section>
-              <SectionTitle>Chapters</SectionTitle>
-              <Chapters data={initialFilmsList} parts={film.chapters} />
-            </section>
-          )}
+      <div className={classes.content}>
+        <div className={classes.heroSection}>
+          <Poster media={film.media} title={film.title} />
+          <div className={classes.heroSectionDetails}>
+            <Description description={film.summary} media={film.media} />
+            <CrewList crew={film.crew} />
+          </div>
         </div>
+
+        <section>
+          <SectionTitle>Cast and characters</SectionTitle>
+          <Cast cast={film.cast} />
+        </section>
+
+        {film.awards && (
+          <section>
+            <SectionTitle>Awards</SectionTitle>
+            <Awards awards={film.awards} />
+          </section>
+        )}
+
+        <section>
+          <SectionTitle>Extra Details</SectionTitle>
+          <Details filmData={film} />
+        </section>
+
+        {(film.budget || film.boxOffice) && (
+          <section>
+            <SectionTitle>Box Office</SectionTitle>
+            <BoxOffice budget={film.budget} boxOffice={film.boxOffice} />
+          </section>
+        )}
+
+        {film.chapters && (
+          <section>
+            <SectionTitle>Chapters</SectionTitle>
+            <Chapters data={initialFilmsList} parts={film.chapters} />
+          </section>
+        )}
       </div>
     </Container>
   );

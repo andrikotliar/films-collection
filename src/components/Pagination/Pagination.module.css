@@ -1,5 +1,18 @@
 .pagination {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.pages {
+  display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
@@ -21,4 +34,12 @@
   color: #fff;
   background-color: var(--main-color);
   border-color: var(--main-color);
+}
+
+.stats {
+  flex-shrink: 0;
+}
+
+.currentState {
+  color: var(--main-color);
 }

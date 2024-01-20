@@ -1,24 +1,26 @@
 import classes from './Description.module.css';
-import { FC } from 'react';
-import { Summary } from '@/common';
-import { Scrollable } from '@/components';
+import { FC, useState } from 'react';
+import { MediaItem, Summary } from '@/common';
+import { Accordion, Scrollable } from '@/components';
+import classNames from 'classnames';
+import { AccordionItem } from '@/components/Accordion/AccordionItem';
 
 type DescriptionProps = {
   description: Summary[];
+  media: MediaItem[];
 };
 
 const Description: FC<DescriptionProps> = ({ description }) => {
   return (
     <div className={classes.description}>
       <h2 className={classes.header}>Description</h2>
-      <Scrollable className={classes.content}>
-        {description.map((section, index) => (
-          <div className={classes.section} key={index}>
-            {section.title && <h3>{section.title}</h3>}
-            <p>{section.text}</p>
-          </div>
+      <Accordion defaultOpen={0}>
+        {description.map((item, index) => (
+          <AccordionItem index={index} title={item.title} key={index}>
+            {item.text}
+          </AccordionItem>
         ))}
-      </Scrollable>
+      </Accordion>
     </div>
   );
 };

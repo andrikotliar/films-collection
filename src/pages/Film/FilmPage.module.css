@@ -5,12 +5,8 @@
   padding-top: var(--main-padding);
   padding-bottom: var(--main-padding);
   min-height: var(--app-height);
-}
-
-.layout {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .loader {
@@ -31,6 +27,18 @@
   width: 100%;
 }
 
+.heroSection {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.heroSectionDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 @media (max-width: 780px) {
   .wrapper {
     --media-column-width: 200px;
@@ -38,7 +46,7 @@
 }
 
 @media (max-width: 580px) {
-  .layout {
+  .heroSection {
     flex-direction: column;
   }
 

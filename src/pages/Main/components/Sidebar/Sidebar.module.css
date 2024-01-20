@@ -1,11 +1,10 @@
 .sidebar {
   width: 300px;
-  height: calc(var(--app-height) - 40px);
+  height: var(--app-height);
   flex-shrink: 0;
-  border: var(--app-border);
-  border-radius: var(--app-border-radius);
+  border-right: var(--app-border);
   position: sticky;
-  top: calc(var(--header-height) + 20px);
+  top: 0;
 }
 
 .filterButton {

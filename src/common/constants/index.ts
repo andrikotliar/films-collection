@@ -1,6 +1,6 @@
 const APP_TITLE = 'Films Collection';
 
-const PER_PAGE = 30;
+const PER_PAGE = 40;
 const MOBILE_VIEW_BREAKPOINT_PX = 785;
 
 const IMAGE_FALLBACKS = {
