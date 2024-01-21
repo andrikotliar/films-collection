@@ -13,7 +13,6 @@ import {
   Awards,
   Chapters,
   CrewList,
-  Details,
   BoxOffice,
   Poster,
 } from './components';
@@ -92,6 +91,12 @@ const FilmPage = () => {
                 color: 'red',
                 title: 'Collections',
               },
+              {
+                value: film.production,
+                property: 'production',
+                color: 'secondary',
+                title: 'Studios',
+              },
             ]}
           />
         </div>
@@ -115,11 +120,6 @@ const FilmPage = () => {
               <Awards awards={film.awards} />
             </section>
           )}
-
-          <section>
-            <SectionTitle>Extra Details</SectionTitle>
-            <Details filmData={film} />
-          </section>
 
           {(film.budget || film.boxOffice) && (
             <section>

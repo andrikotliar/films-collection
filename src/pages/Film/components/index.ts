@@ -7,6 +7,5 @@ export * from './CrewList';
 export * from './Chapters';
 export * from './DataLinks';
 export * from './Description';
-export * from './Details';
 export * from './BoxOffice';
 export * from './SeriesDetails';
