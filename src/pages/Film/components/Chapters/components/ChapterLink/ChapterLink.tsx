@@ -8,7 +8,7 @@ type ChapterLinkProps = {
   id: string;
   poster: string;
   title: string;
-  currentFilmId: string;
+  currentFilmId?: string;
 };
 
 const ChapterLink: FC<ChapterLinkProps> = ({

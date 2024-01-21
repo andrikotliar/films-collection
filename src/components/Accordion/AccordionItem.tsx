@@ -4,24 +4,17 @@ import classNames from 'classnames';
 import { FC, PropsWithChildren } from 'react';
 import classes from './AccordionItem.module.css';
 
-type ClassNames = {
-  wrapper: string;
-  button: string;
-  body: string;
-  title: string;
-};
-
 type AccordionItemProps = {
   index: number;
   title?: string;
-  styles?: Partial<ClassNames>;
+  className?: string;
 };
 
 const AccordionItem: FC<PropsWithChildren<AccordionItemProps>> = ({
   children,
   index,
   title,
-  styles,
+  className,
 }) => {
   const { activeIndex, setActiveIndex } = useAccordionContext();
   const isOpen = activeIndex === index;
@@ -36,23 +29,19 @@ const AccordionItem: FC<PropsWithChildren<AccordionItemProps>> = ({
   };
 
   return (
-    <div className={styles?.wrapper}>
+    <div className={classNames(classes.wrapper, className)}>
       {title && (
         <button
-          className={classNames(classes.button, styles?.button)}
+          className={classNames(classes.button, {
+            [classes.buttonOpen]: isOpen,
+          })}
           onClick={() => handleActiveIndex(index)}
         >
-          <span className={styles?.title}>{title}</span>
-          <ExpandIcon
-            className={classNames(classes.expandIcon, {
-              [classes.expandIconOpen]: isOpen,
-            })}
-          />
+          <span>{title}</span>
+          <ExpandIcon className={classes.expandIcon} />
         </button>
       )}
-      {isOpen && (
-        <div className={classNames(classes.body, styles?.body)}>{children}</div>
-      )}
+      {isOpen && <div className={classes.body}>{children}</div>}
     </div>
   );
 };

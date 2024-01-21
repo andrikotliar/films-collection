@@ -20,7 +20,7 @@ const Chapters: FC<ChaptersProps> = ({ data, parts }) => {
     <Scrollable className={classes.chapters}>
       {chapters.map((chapter) => (
         <ChapterLink
-          currentFilmId={currentFilmId!}
+          currentFilmId={currentFilmId}
           id={chapter.id}
           title={chapter.title}
           poster={chapter.media[0].poster}

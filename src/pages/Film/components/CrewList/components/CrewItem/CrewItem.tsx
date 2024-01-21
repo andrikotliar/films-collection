@@ -3,11 +3,11 @@ import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { buildLink } from '@/helpers';
 import { Crew } from '@/common';
+import { DataRow } from '@/components';
 
 const CrewItem: FC<{ crewItem: Crew }> = ({ crewItem }) => {
   return (
-    <div className={classes.crewItem}>
-      <h3 className={classes.title}>{crewItem.role}</h3>
+    <DataRow title={crewItem.role}>
       <ul className={classes.list}>
         {crewItem.people.map((person, idx) => (
           <li className={classes.person} key={idx}>
@@ -25,7 +25,7 @@ const CrewItem: FC<{ crewItem: Crew }> = ({ crewItem }) => {
           </li>
         ))}
       </ul>
-    </div>
+    </DataRow>
   );
 };
 

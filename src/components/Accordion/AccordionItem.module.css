@@ -1,9 +1,20 @@
+.wrapper:not(:last-child) {
+  padding-bottom: 10px;
+  border-bottom: var(--app-border);
+}
+
 .button {
   display: flex;
   justify-content: space-between;
+  gap: 10px;
   align-items: center;
   width: 100%;
-  padding: 10px;
+  padding: 10px 0;
+}
+
+.button:hover,
+.buttonOpen {
+  color: var(--main-color);
 }
 
 .expandIcon {
@@ -12,11 +23,15 @@
   transition: transform 0.3s;
 }
 
-.expandIconOpen {
+.button:hover .expandIcon {
+  fill: var(--main-color);
+}
+
+.buttonOpen .expandIcon {
+  fill: var(--main-color);
   transform: rotate(180deg);
 }
 
 .body {
-  padding: 10px;
   line-height: 1.5;
 }

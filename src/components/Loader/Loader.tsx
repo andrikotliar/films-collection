@@ -3,9 +3,12 @@ import classes from './Loader.module.css';
 import { LoaderIcon } from '@/assets/icons';
 import classNames from 'classnames';
 
-const Loader: FC<{ isFullPage?: boolean }> = ({
-  isFullPage = false,
-}) => {
+type Props = {
+  isFullPage?: boolean;
+  iconClassName?: string;
+};
+
+const Loader: FC<Props> = ({ isFullPage = false, iconClassName }) => {
   return (
     <div
       className={classNames(classes.wrapper, {
@@ -14,7 +17,7 @@ const Loader: FC<{ isFullPage?: boolean }> = ({
     >
       <LoaderIcon
         color="#006db7"
-        className={classes.loader}
+        className={classNames(classes.loader, iconClassName)}
       />
     </div>
   );

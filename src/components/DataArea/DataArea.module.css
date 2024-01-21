@@ -1,0 +1,7 @@
+.dataArea {
+  border: var(--app-border);
+  border-radius: var(--app-border-radius);
+  background-color: var(--gray-invisible);
+  width: 100%;
+  padding: 10px;
+}
