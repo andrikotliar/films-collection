@@ -5,11 +5,13 @@
   padding: var(--main-padding);
   min-height: var(--app-height);
   max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .layout {
-  display: flex;
+  display: grid;
+  grid-template-columns: 300px 1fr;
   gap: 20px;
 }
 
@@ -17,4 +19,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  overflow: hidden;
 }
+
