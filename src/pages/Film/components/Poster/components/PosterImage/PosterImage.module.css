@@ -1,4 +1,5 @@
 .posterWrapper {
+  position: relative;
   font-size: 0;
   width: 100%;
   aspect-ratio: 9 / 14;
@@ -9,6 +10,18 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.caption {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  color: #000;
+  font-size: 18px;
+  background-color: rgb(255 255 255 / 90%);
+  border-radius: 50px;
+  padding: 3px 15px;
+  transform: translateX(-50%);
 }
 
 @media (max-width: 580px) {

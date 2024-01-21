@@ -19,19 +19,6 @@
   background-color: rgb(0 0 0 / 40%);
 }
 
-.caption {
-  color: #fff;
-  font-weight: bold;
-  position: absolute;
-  font-size: 20px;
-  top: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  padding: 10px;
-  background-color: rgb(0 0 0 / 20%);
-}
-
 .arrow {
   width: 30px;
   fill: #fff;

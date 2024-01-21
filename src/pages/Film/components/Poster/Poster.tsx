@@ -20,15 +20,16 @@ const Poster: FC<PosterProps> = ({ media, title }) => {
         }}
       >
         {media.map((item) => (
-          <PosterImage src={item.poster} key={item.poster} title={title} />
+          <PosterImage
+            src={item.poster}
+            key={item.poster}
+            alt={title}
+            caption={item.caption}
+          />
         ))}
       </div>
       {media.length > 1 && (
-        <Controls
-          itemsCount={media.length}
-          setActiveIndex={setActiveIndex}
-          caption={media[activeIndex].caption}
-        />
+        <Controls itemsCount={media.length} setActiveIndex={setActiveIndex} />
       )}
     </div>
   );
