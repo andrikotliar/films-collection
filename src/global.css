@@ -3,6 +3,7 @@
   --main-color-rgb: 0, 109, 183;
   --green: #00B5C6;
   --light-yellow: #ffedd6;
+  --gray-invisible: #fdfdfd;
 
   --main-gradient: linear-gradient(45deg, var(--main-color), var(--green));
   --app-border: 1px solid #ddd;
@@ -11,6 +12,7 @@
   --main-padding: 20px;
   --header-height: 60px;
   --app-height: 100vh;
+  --default-column-width: minmax(260px, 1fr);
 }
 
 @font-face {
