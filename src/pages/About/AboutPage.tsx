@@ -12,46 +12,44 @@ const AboutPage = () => {
 
   return (
     <article className={classes.about}>
-      <Container className={classes.content}>
-        <h1>About</h1>
-        <p>Hello, my name is Andrii 👋 </p>
-        <p>
-          I'm a big fan of films and series and like to collect information
-          about them. This is the purpose of this app. The collection contains
-          only titles I like.
-        </p>
-        <p>
-          My favorite genres are Sci-Fi and Fantasy. In the app, you mostly see
-          representatives of these genres. But there are several titles from
-          other genres like romance, action, detectives etc.
-        </p>
-        <p className={classes.accent}>
-          Interested in the source code of this app? It's pure React with
-          TypeScript and JSON files as a "database". You can investigate code on
-          the{' '}
-          <a
-            href="https://github.com/andrikotliar/films-collection"
-            target="_bank"
-          >
-            {' '}
-            GitHub{' '}
-          </a>
-          .
-        </p>
-        <h2>Ratings ✨</h2>
-        <p>I rate titles in the collection by three-stars rating:</p>
-        <p>⭐⭐⭐ - my best favorites. I've watched them countless times.</p>
-        <p>
-          ⭐⭐ - good tiles I do like. I've watched them less times than
-          previous category, but always excited to watch them one more time.
-          Majority of titles in the collection have this rating.
-        </p>
-        <p>
-          ⭐ - titles I still like but they have some nuances or were added just
-          to have in the collection. I've watched them only a few times and
-          usually choose to rewatch some titles from the previous category.
-        </p>
-      </Container>
+      <h1>About</h1>
+      <p>Hello, my name is Andrii 👋 </p>
+      <p>
+        I'm a big fan of films and series and like to collect information about
+        them. This is the purpose of this app. The collection contains only
+        titles I like.
+      </p>
+      <p>
+        My favorite genres are Sci-Fi and Fantasy. In the app, you mostly see
+        representatives of these genres. But there are several titles from other
+        genres like romance, action, detectives etc.
+      </p>
+      <p className={classes.accent}>
+        Interested in the source code of this app? It's pure React with
+        TypeScript and JSON files as a "database". You can investigate code on
+        the{' '}
+        <a
+          href="https://github.com/andrikotliar/films-collection"
+          target="_bank"
+        >
+          {' '}
+          GitHub{' '}
+        </a>
+        .
+      </p>
+      <h2>Ratings ✨</h2>
+      <p>I rate titles in the collection by three-stars rating:</p>
+      <p>⭐⭐⭐ - my best favorites. I've watched them countless times.</p>
+      <p>
+        ⭐⭐ - good tiles I do like. I've watched them less times than previous
+        category, but always excited to watch them one more time. Majority of
+        titles in the collection have this rating.
+      </p>
+      <p>
+        ⭐ - titles I still like but they have some nuances or were added just
+        to have in the collection. I've watched them only a few times and
+        usually choose to rewatch some titles from the previous category.
+      </p>
     </article>
   );
 };

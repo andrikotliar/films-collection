@@ -2,8 +2,8 @@ import classes from './FilmPage.module.css';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useFilmsContext } from '@/context';
-import { Container, Loader } from '@/components';
-import { FilmData } from '@/common';
+import { Loader } from '@/components';
+import { FilmData, LinkGroup } from '@/common';
 import {
   Title,
   SectionTitle,
@@ -42,84 +42,101 @@ const FilmPage = () => {
   }, [id, initialFilmsList]);
 
   if (film === null) {
-    return (
-      <article className="film container">
-        <div className="film-loader">
-          <Loader isFullPage />
-        </div>
-      </article>
-    );
+    return <Loader isFullPage />;
   }
 
   const seriesData = seriesContent(film.series);
 
   return (
-    <Container className={classes.wrapper}>
-      <section className={classes.general}>
-        <Title>{film.title}</Title>
-        <DataLinks
-          items={[
-            {
-              value: film.year,
-              color: 'primary',
-              property: 'year',
-            },
-            {
-              value: film.genres,
-              property: 'genres',
-            },
-            {
-              value: film.duration,
-              property: 'duration',
-              color: 'secondary',
-              suffix: 'min',
-            },
-            ...seriesData,
-          ]}
-        />
-      </section>
-
-      <div className={classes.content}>
-        <div className={classes.heroSection}>
+    <div className={classes.wrapper}>
+      <Title>{film.title}</Title>
+      <div className={classes.layout}>
+        <div className={classes.column}>
           <Poster media={film.media} title={film.title} />
-          <div className={classes.heroSectionDetails}>
-            <Description description={film.summary} media={film.media} />
-            <CrewList crew={film.crew} />
-          </div>
+          <DataLinks
+            items={[
+              ...(!film.series
+                ? [
+                    {
+                      value: film.year,
+                      color: 'primary',
+                      property: 'year',
+                      title: 'Release Year',
+                    } as LinkGroup,
+                  ]
+                : []),
+              {
+                value: film.genres,
+                property: 'genres',
+                title: 'Genres',
+              },
+              {
+                value: film.duration,
+                property: 'duration',
+                color: 'secondary',
+                suffix: 'min',
+                title: 'Runtime',
+              },
+              {
+                value: film.countries,
+                property: 'countries',
+                color: 'secondary',
+                title: `Origin ${
+                  film.countries.length > 1 ? 'countries' : 'country'
+                }`,
+              },
+              ...seriesData,
+              {
+                value: film.collections.map((collection) => collection.title),
+                property: 'collections',
+                color: 'red',
+                title: 'Collections',
+              },
+            ]}
+          />
         </div>
+        <div className={classes.column}>
+          <Description
+            description={film.summary}
+            media={film.media}
+            seasons={film?.series?.seasons}
+          />
 
-        <section>
-          <SectionTitle>Cast and characters</SectionTitle>
-          <Cast cast={film.cast} />
-        </section>
+          <CrewList crew={film.crew} />
 
-        {film.awards && (
           <section>
-            <SectionTitle>Awards</SectionTitle>
-            <Awards awards={film.awards} />
+            <SectionTitle>Cast and characters</SectionTitle>
+            <Cast cast={film.cast} />
           </section>
-        )}
 
-        <section>
-          <SectionTitle>Extra Details</SectionTitle>
-          <Details filmData={film} />
-        </section>
+          {film.awards && (
+            <section>
+              <SectionTitle>Awards</SectionTitle>
+              <Awards awards={film.awards} />
+            </section>
+          )}
 
-        {(film.budget || film.boxOffice) && (
           <section>
-            <SectionTitle>Box Office</SectionTitle>
-            <BoxOffice budget={film.budget} boxOffice={film.boxOffice} />
+            <SectionTitle>Extra Details</SectionTitle>
+            <Details filmData={film} />
           </section>
-        )}
 
-        {film.chapters && (
-          <section>
-            <SectionTitle>Chapters</SectionTitle>
-            <Chapters data={initialFilmsList} parts={film.chapters} />
-          </section>
-        )}
+          {(film.budget || film.boxOffice) && (
+            <section>
+              <SectionTitle>Box Office</SectionTitle>
+              <BoxOffice budget={film.budget} boxOffice={film.boxOffice} />
+            </section>
+          )}
+
+          {film.chapters && (
+            <section>
+              <SectionTitle>Chapters</SectionTitle>
+              <Chapters data={initialFilmsList} parts={film.chapters} />
+            </section>
+          )}
+        </div>
       </div>
-    </Container>
+    </div>
   );
 };
 

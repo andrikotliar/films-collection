@@ -1,21 +1,17 @@
-import { SeriesExtension } from '@/common';
-import { DataLinkType } from '@/pages/Film/components/DataLinks/components';
+import { LinkGroup, SeriesExtension } from '@/common';
 
-const seriesContent = (series?: SeriesExtension): DataLinkType[] => {
+const seriesContent = (series?: SeriesExtension): LinkGroup[] => {
   if (!series) return [];
 
   return [
     {
-      value: series.seasons.length,
+      value: [
+        `${series.seasons.length} seasons`,
+        `${series.episodesTotal} episodes`,
+      ],
       property: 'seasons',
-      suffix: 'seasons',
       color: 'extra',
-    },
-    {
-      value: series.episodesTotal,
-      property: 'episodes',
-      suffix: 'eps',
-      color: 'extra',
+      title: 'Series stats',
     },
   ];
 };

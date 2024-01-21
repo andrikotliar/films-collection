@@ -1,39 +1,65 @@
-.description {
-  background-color: #f2f2f2;
-  border-radius: var(--app-border-radius);
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
 }
 
 .header {
-  font-size: 18px;
-  padding: 20px;
-  border-bottom: var(--app-border);
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-.content {
+.video {
+  width: 80%;
+}
+
+.metaInfo {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
-  max-height: 300px;
-  overflow: auto;
+  margin-top: 5px;
 }
 
-.section {
-  padding-bottom: 20px;
-  border-bottom: var(--app-border);
-}
-
-.section:last-child {
-  padding-bottom: 0;
-  border: none;
-}
-
-.section h3 {
+.playButton {
   color: var(--main-color);
-  font-size: 16px;
-  margin-bottom: 5px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
-.section p {
-  line-height: 1.5;
+.playButtonIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.playButton span {
+  flex-shrink: 0;
+}
+
+.seriesDetails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.detailsItem:not(:last-child) {
+  border-right: var(--app-border);
+  padding-right: 20px;
+}
+
+.detailsItem span {
+  font-weight: bold;
+}
+
+.year {
+  font-size: 14px;
+}
+
+@media (max-width: 580px) {
+  .video {
+    width: 90%;
+  }
 }
