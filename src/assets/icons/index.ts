@@ -8,3 +8,4 @@ export * from './LoaderIcon';
 export * from './InfoIcon';
 export * from './ResetIcon';
 export * from './GithubIcon';
+export * from './PlayIconOutline';
