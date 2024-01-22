@@ -8,13 +8,60 @@
   width: 300px;
   flex-shrink: 0;
   border-right: var(--app-border);
+}
+
+.navigationHeader {
   padding: var(--main-padding);
+  padding-bottom: 0;
 }
 
 .logoWrapper {
+  display: block;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .logo {
   width: 70px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuItem {
+  border-bottom: var(--app-border);
+}
+
+.menuItem:first-child {
+  border-top: var(--app-border);
+}
+
+.menuLink {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.menuLink:hover {
+  background-color: var(--gray-light);
+}
+
+.menuLink.disabled {
+  opacity: 0.2;
+  cursor: default;
+  pointer-events: none;
+}
+
+.menuLink.active {
+  color: #fff;
+  background-color: var(--main-color);
+}
+
+.menuItemIcon {
+  width: 20px;
+  height: 20px;
 }

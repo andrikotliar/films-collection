@@ -9,3 +9,6 @@ export * from './InfoIcon';
 export * from './ResetIcon';
 export * from './GithubIcon';
 export * from './PlayIconOutline';
+export * from './HomeIcon';
+export * from './StatsIcon';
+export * from './FolderIcon';

@@ -1,31 +1,31 @@
-import { PlayIcon } from '@/assets/icons';
+import { FolderIcon, HomeIcon, InfoIcon, StatsIcon } from '@/assets/icons';
 
 const menu = [
   {
     id: 'home',
     title: 'Home',
     link: '/',
-    icon: <PlayIcon />,
-  },
-  {
-    id: 'about',
-    title: 'About',
-    link: '/about',
-    icon: <PlayIcon />,
+    icon: <HomeIcon />,
   },
   {
     id: 'stats',
     title: 'Statistic',
     link: '/stats',
-    icon: <PlayIcon />,
+    icon: <StatsIcon />,
     isDisabled: true,
   },
   {
     id: 'admin',
     title: 'Create film',
     link: '/create',
-    icon: <PlayIcon />,
+    icon: <FolderIcon />,
     isDisabled: true,
+  },
+  {
+    id: 'about',
+    title: 'About',
+    link: '/about',
+    icon: <InfoIcon />,
   },
 ];
 

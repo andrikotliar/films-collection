@@ -1,13 +1,13 @@
 import { IconType } from '@/common';
 import { FC } from 'react';
 
-const InfoIcon: FC<IconType> = ({ color, className }) => {
+const InfoIcon: FC<IconType> = ({ className }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 52 52"
       className={className}
-      fill={color}
+      fill="currentColor"
     >
       <rect
         width="6"
