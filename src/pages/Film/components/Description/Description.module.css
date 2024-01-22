@@ -10,35 +10,6 @@
   text-transform: uppercase;
 }
 
-.video {
-  width: 80%;
-}
-
-.metaInfo {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin-top: 5px;
-}
-
-.playButton {
-  color: var(--main-color);
-  display: flex;
-  gap: 5px;
-  align-items: center;
-  font-size: 14px;
-  text-transform: uppercase;
-}
-
-.playButtonIcon {
-  width: 20px;
-  height: 20px;
-}
-
-.playButton span {
-  flex-shrink: 0;
-}
-
 .seriesDetails {
   display: flex;
   flex-wrap: wrap;
@@ -56,10 +27,4 @@
 
 .year {
   font-size: 14px;
-}
-
-@media (max-width: 580px) {
-  .video {
-    width: 90%;
-  }
 }

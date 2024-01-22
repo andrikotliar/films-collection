@@ -1,6 +1,6 @@
 export * from './Title';
 export * from './SectionTitle';
-export * from './Poster';
+export * from './Media';
 export * from './Awards';
 export * from './Cast';
 export * from './CrewList';

@@ -1,26 +1,24 @@
-.posters {
+.wrapper {
   position: relative;
   flex-shrink: 0;
   width: 300px;
-  border-radius: var(--app-border-radius);
   overflow: hidden;
 }
 
 .track {
   display: flex;
   transition: transform 0.3s ease;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 870px) {
-  .posters {
+  .wrapper {
     width: 200px;
   }
 }
 
 @media (max-width: 580px) {
-  .posters {
-    position: relative;
-    top: 0;
+  .wrapper {
     width: 100%;
   }
 }

@@ -4,6 +4,8 @@
   width: 100%;
   aspect-ratio: 9 / 14;
   flex-shrink: 0;
+  border-radius: var(--app-border-radius);
+  overflow: hidden;
 }
 
 .poster {

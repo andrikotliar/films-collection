@@ -14,7 +14,7 @@ import {
   Chapters,
   CrewList,
   BoxOffice,
-  Poster,
+  Media,
 } from './components';
 import { useDocumentTitle } from '@/hooks';
 import { seriesContent } from '@/pages/Film/helpers';
@@ -51,7 +51,7 @@ const FilmPage = () => {
       <Title>{film.title}</Title>
       <div className={classes.layout}>
         <div className={classes.column}>
-          <Poster media={film.media} title={film.title} />
+          <Media media={film.media} title={film.title} />
           <DataLinks
             items={[
               ...(!film.series

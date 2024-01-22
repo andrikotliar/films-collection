@@ -1,18 +1,19 @@
-import classes from './Poster.module.css';
+import classes from './Media.module.css';
 import { FC, useState } from 'react';
 import { MediaItem } from '@/common';
 import { Controls, PosterImage } from './components';
+import { TrailerButton } from '@/pages/Film/components/TrailerButton';
 
-type PosterProps = {
+type Props = {
   media: MediaItem[];
   title: string;
 };
 
-const Poster: FC<PosterProps> = ({ media, title }) => {
+const Media: FC<Props> = ({ media, title }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className={classes.posters}>
+    <div className={classes.wrapper}>
       <div
         className={classes.track}
         style={{
@@ -28,6 +29,8 @@ const Poster: FC<PosterProps> = ({ media, title }) => {
           />
         ))}
       </div>
+      <TrailerButton trailer={media[activeIndex].trailer} />
+
       {media.length > 1 && (
         <Controls itemsCount={media.length} setActiveIndex={setActiveIndex} />
       )}
@@ -35,4 +38,4 @@ const Poster: FC<PosterProps> = ({ media, title }) => {
   );
 };
 
-export { Poster };
+export { Media };
