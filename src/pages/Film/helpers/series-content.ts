@@ -10,7 +10,7 @@ const seriesContent = (series?: SeriesExtension): LinkGroup[] => {
         `${series.episodesTotal} episodes`,
       ],
       property: 'seasons',
-      color: 'extra',
+      variant: 'sky',
       title: 'Series stats',
     },
   ];

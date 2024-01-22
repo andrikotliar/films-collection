@@ -1,0 +1,28 @@
+.base {
+  border-radius: var(--app-border-radius);
+  padding: 5px 15px;
+  line-height: 1;
+  transition: background-color 0.3s;
+  background-color: var(--bg);
+}
+
+.clouds {
+  --bg: #daf4fc;
+}
+
+.ocean {
+  --bg: var(--main-color);
+  color: #fff;
+}
+
+.desert {
+  --bg: var(--light-yellow);
+}
+
+.sky {
+  --bg: #80deea;
+}
+
+.mars {
+  background-color: #ffcccc;
+}

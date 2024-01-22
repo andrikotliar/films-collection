@@ -58,7 +58,7 @@ const FilmPage = () => {
                 ? [
                     {
                       value: film.year,
-                      color: 'primary',
+                      variant: 'ocean',
                       property: 'year',
                       title: 'Release Year',
                     } as LinkGroup,
@@ -72,14 +72,14 @@ const FilmPage = () => {
               {
                 value: film.duration,
                 property: 'duration',
-                color: 'secondary',
+                variant: 'clouds',
                 suffix: 'min',
                 title: 'Runtime',
               },
               {
                 value: film.countries,
                 property: 'countries',
-                color: 'secondary',
+                variant: 'clouds',
                 title: `Origin ${
                   film.countries.length > 1 ? 'countries' : 'country'
                 }`,
@@ -88,13 +88,13 @@ const FilmPage = () => {
               {
                 value: film.collections.map((collection) => collection.title),
                 property: 'collections',
-                color: 'red',
+                variant: 'mars',
                 title: 'Collections',
               },
               {
                 value: film.production,
                 property: 'production',
-                color: 'secondary',
+                variant: 'clouds',
                 title: 'Studios',
               },
             ]}

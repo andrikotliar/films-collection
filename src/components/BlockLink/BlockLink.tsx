@@ -1,29 +1,29 @@
-import classes from './BubbleLink.module.css';
+import classes from './BlockLink.module.css';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import classNames from 'classnames';
 import { buildLink } from '@/helpers';
-import { BubbleLinkType } from '@/common';
+import { BlockLinkType } from '@/common';
 
-type Props = BubbleLinkType & {
+type Props = BlockLinkType & {
   className?: string;
 };
 
-const BubbleLink: FC<Props> = ({
+const BlockLink: FC<Props> = ({
   property,
   value,
   suffix,
-  color = 'main',
+  variant = 'clouds',
   className,
 }) => {
   return (
     <Link
       to={buildLink(property, value)}
-      className={classNames(classes.dataLink, classes[color], className)}
+      className={classNames(classes.base, classes[variant], className)}
     >
       {value} {suffix}
     </Link>
   );
 };
 
-export { BubbleLink };
+export { BlockLink };

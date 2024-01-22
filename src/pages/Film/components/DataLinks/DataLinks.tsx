@@ -1,6 +1,6 @@
 import classes from './DataLinks.module.css';
 import { FC } from 'react';
-import { BubbleLink, DataArea } from '@/components';
+import { BlockLink, DataArea } from '@/components';
 import { LinkGroup } from '@/common';
 
 type DataLinksProps = {
@@ -16,10 +16,10 @@ const DataLinks: FC<DataLinksProps> = ({ items }) => {
           <div className={classes.group}>
             {Array.isArray(item.value) ? (
               item.value.map((val) => (
-                <BubbleLink {...item} value={val} key={val} />
+                <BlockLink {...item} value={val} key={val} />
               ))
             ) : (
-              <BubbleLink {...item} />
+              <BlockLink {...item} />
             )}
           </div>
         </div>

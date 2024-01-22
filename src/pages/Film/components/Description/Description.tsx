@@ -1,12 +1,10 @@
 import classes from './Description.module.css';
 import { FC, useState } from 'react';
-import { MediaItem, SeasonType, SeriesExtension, Summary } from '@/common';
-import { Accordion, BubbleLink, DataArea, Modal } from '@/components';
+import { MediaItem, SeasonType, Summary } from '@/common';
+import { Accordion, BlockLink, DataArea, Modal } from '@/components';
 import { AccordionItem } from '@/components/Accordion/AccordionItem';
 import { Video } from '@/pages/Film/components/Description/components/Video';
 import { PlayIconOutline } from '@/assets/icons';
-import { Link } from 'react-router-dom';
-import { buildLink } from '@/helpers';
 import classNames from 'classnames';
 
 type DescriptionProps = {
@@ -47,10 +45,10 @@ const Description: FC<DescriptionProps> = ({ description, media, seasons }) => {
                     </div>
                     <div className={classes.detailsItem}>
                       <span>Release year: </span>
-                      <BubbleLink
+                      <BlockLink
                         property="year"
                         value={seasons[index].year}
-                        color="primary"
+                        variant="ocean"
                         className={classes.year}
                       />
                     </div>
