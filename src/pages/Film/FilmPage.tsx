@@ -1,9 +1,9 @@
 import classes from './FilmPage.module.css';
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useFilmsContext } from '@/context';
 import { Loader } from '@/components';
-import { FilmData, LinkGroup } from '@/common';
+import { FilmData } from '@/common';
 import {
   Title,
   SectionTitle,
@@ -17,7 +17,7 @@ import {
   Media,
 } from './components';
 import { useDocumentTitle } from '@/hooks';
-import { seriesContent } from '@/pages/Film/helpers';
+import { getDataLinkConfig } from '@/pages/Film/helpers';
 
 const FilmPage = () => {
   const { id } = useParams();
@@ -40,11 +40,17 @@ const FilmPage = () => {
     }
   }, [id, initialFilmsList]);
 
+  const dataLinks = useMemo(() => {
+    if (!film) {
+      return [];
+    }
+
+    return getDataLinkConfig(film);
+  }, [film]);
+
   if (film === null) {
     return <Loader isFullPage />;
   }
-
-  const seriesData = seriesContent(film.series);
 
   return (
     <div className={classes.wrapper}>
@@ -52,55 +58,10 @@ const FilmPage = () => {
       <div className={classes.layout}>
         <div className={classes.column}>
           <Media media={film.media} title={film.title} />
-          <DataLinks
-            items={[
-              ...(!film.series
-                ? [
-                    {
-                      value: film.year,
-                      variant: 'ocean',
-                      property: 'year',
-                      title: 'Release Year',
-                    } as LinkGroup,
-                  ]
-                : []),
-              {
-                value: film.genres,
-                property: 'genres',
-                title: 'Genres',
-              },
-              {
-                value: film.duration,
-                property: 'duration',
-                variant: 'clouds',
-                suffix: 'min',
-                title: 'Runtime',
-              },
-              {
-                value: film.countries,
-                property: 'countries',
-                variant: 'clouds',
-                title: `Origin ${
-                  film.countries.length > 1 ? 'countries' : 'country'
-                }`,
-              },
-              ...seriesData,
-              {
-                value: film.collections.map((collection) => collection.title),
-                property: 'collections',
-                variant: 'mars',
-                title: 'Collections',
-              },
-              {
-                value: film.production,
-                property: 'production',
-                variant: 'clouds',
-                title: 'Studios',
-              },
-            ]}
-          />
         </div>
         <div className={classes.column}>
+          <DataLinks items={dataLinks} />
+
           <Description
             description={film.summary}
             media={film.media}

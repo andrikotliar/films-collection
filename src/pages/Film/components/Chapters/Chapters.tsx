@@ -17,7 +17,7 @@ const Chapters: FC<ChaptersProps> = ({ data, parts }) => {
   const chapters = getChapters(data, parts.title);
 
   return (
-    <Scrollable className={classes.chapters}>
+    <div className={classes.chapters}>
       {chapters.map((chapter) => (
         <ChapterLink
           currentFilmId={currentFilmId}
@@ -27,7 +27,7 @@ const Chapters: FC<ChaptersProps> = ({ data, parts }) => {
           key={chapter.id}
         />
       ))}
-    </Scrollable>
+    </div>
   );
 };
 

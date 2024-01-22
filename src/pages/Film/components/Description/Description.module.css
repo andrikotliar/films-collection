@@ -11,9 +11,11 @@
 }
 
 .seriesDetails {
+  font-size: 14px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  margin-top: 10px;
 }
 
 .detailsItem:not(:last-child) {
@@ -23,8 +25,4 @@
 
 .detailsItem span {
   font-weight: bold;
-}
-
-.year {
-  font-size: 14px;
 }

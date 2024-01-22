@@ -1,1 +1,1 @@
-export * from './series-content';
+export * from './get-data-links-config';

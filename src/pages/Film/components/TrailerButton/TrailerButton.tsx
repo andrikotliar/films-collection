@@ -25,9 +25,9 @@ const TrailerButton: FC<Props> = ({ className, trailer }) => {
       <Modal
         isOpen={isTrailerOpen}
         onClose={() => setIsTrailerOpen(false)}
-        contentClassName={classes.video}
+        contentClassName={classes.trailer}
       >
-        {<Video path={trailer} />}
+        <Video path={trailer} />
       </Modal>
     </>
   );

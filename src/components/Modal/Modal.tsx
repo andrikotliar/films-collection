@@ -18,7 +18,9 @@ const Modal: FC<PropsWithChildren<ModalProps>> = ({
 
   return createPortal(
     <div className={classes.modal} onClick={onClose}>
-      <ModalContent {...props}>{children}</ModalContent>
+      <ModalContent {...props} onClose={onClose}>
+        {children}
+      </ModalContent>
     </div>,
     document.body,
   );

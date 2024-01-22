@@ -6,11 +6,13 @@ import { CloseIcon } from '@/assets/icons';
 
 type ModalContentProps = {
   contentClassName?: string;
+  onClose: VoidFunction;
 };
 
 const ModalContent: FC<PropsWithChildren<ModalContentProps>> = ({
   children,
   contentClassName,
+  onClose,
 }) => {
   useEffect(() => {
     document.body.style.height = '100vh';
@@ -30,7 +32,7 @@ const ModalContent: FC<PropsWithChildren<ModalContentProps>> = ({
       {children}
       <Button
         design="ghost"
-        onClick={close}
+        onClick={onClose}
         icon={<CloseIcon color="black" />}
         className={classes.closeButton}
       />
