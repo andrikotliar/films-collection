@@ -2,7 +2,7 @@ import { Button } from '@/components';
 import classNames from 'classnames';
 import { FC, PropsWithChildren, useEffect } from 'react';
 import classes from './ModalContent.module.css';
-import { CloseIcon } from '@/assets/icons';
+import { X } from 'lucide-react';
 
 type ModalContentProps = {
   contentClassName?: string;
@@ -33,7 +33,7 @@ const ModalContent: FC<PropsWithChildren<ModalContentProps>> = ({
       <Button
         design="ghost"
         onClick={onClose}
-        icon={<CloseIcon color="black" />}
+        icon={<X />}
         className={classes.closeButton}
       />
     </div>

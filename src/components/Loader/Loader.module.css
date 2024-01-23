@@ -7,9 +7,17 @@
 }
 
 .loader {
-  width: 80px;
+  width: 60px;
+  height: 60px;
+  animation: spin 1.5s linear infinite;
 }
 
 .fullPage {
   height: var(--app-height);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }

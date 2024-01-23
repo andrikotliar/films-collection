@@ -21,13 +21,4 @@
 
 .arrow {
   width: 30px;
-  fill: #fff;
-}
-
-.arrowLeft {
-  transform: rotate(90deg);
-}
-
-.arrowRight {
-  transform: rotate(-90deg);
 }

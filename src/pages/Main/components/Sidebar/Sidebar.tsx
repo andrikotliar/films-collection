@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import { useSidebarContext } from '@/pages/Main/components/Sidebar/Sidebar.context';
 import { Filters } from '@/pages/Main/components';
 import { Button } from '@/components';
-import { FilterIcon } from '@/assets/icons';
+import { SlidersHorizontal } from 'lucide-react';
 
 const Sidebar = () => {
   const { isFilterOpen, setIsFilterOpen, filtersCount } = useSidebarContext();
@@ -19,7 +19,7 @@ const Sidebar = () => {
       </aside>
       <Button
         onClick={() => setIsFilterOpen(!isFilterOpen)}
-        icon={<FilterIcon />}
+        icon={<SlidersHorizontal />}
         className={classes.filterButton}
         isHidden
       >

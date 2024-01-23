@@ -14,9 +14,7 @@ type ButtonProps = {
   disabled?: boolean;
 };
 
-const Button: FC<
-  PropsWithChildren<PropsWithClassName<ButtonProps>>
-> = ({
+const Button: FC<PropsWithChildren<PropsWithClassName<ButtonProps>>> = ({
   children,
   icon,
   onClick,
@@ -32,15 +30,10 @@ const Button: FC<
     <button
       onClick={onClick}
       type={type}
-      className={classNames(
-        classes.button,
-        classes[design],
-        className,
-        {
-          [classes.hidden]: isHidden,
-          [activeClassName]: isActive,
-        },
-      )}
+      className={classNames(classes.button, classes[design], className, {
+        [classes.hidden]: isHidden,
+        [activeClassName]: isActive,
+      })}
       disabled={disabled}
     >
       {icon && <div className={classes.icon}>{icon}</div>}

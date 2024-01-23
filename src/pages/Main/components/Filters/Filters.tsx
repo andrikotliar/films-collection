@@ -3,11 +3,11 @@ import { useEffect } from 'react';
 import { filtersConfig } from '@/configs';
 import { useFilmsContext } from '@/context';
 import { useForm, FormProvider } from 'react-hook-form';
-import { CloseIcon, FilterIcon, ResetIcon } from '@/assets/icons';
 import { useSidebarContext } from '@/pages/Main/components/Sidebar/Sidebar.context';
 import { Button, Tabs } from '@/components';
 import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
+import { RotateCcw, SlidersHorizontal, X } from 'lucide-react';
 
 const defaultValues = {
   type: null,
@@ -90,17 +90,17 @@ const Filters = () => {
         />
         <div className={classes.controls}>
           <Button
-            icon={<FilterIcon color="white" />}
+            icon={<SlidersHorizontal color="#fff" />}
             type="submit"
             className={classes.apply}
           >
             Apply
           </Button>
           {filtersCount > 0 && (
-            <Button onClick={handleReset} icon={<ResetIcon />} />
+            <Button onClick={handleReset} icon={<RotateCcw />} />
           )}
           <Button
-            icon={<CloseIcon />}
+            icon={<X />}
             className={classes.closeButton}
             onClick={() => setIsFilterOpen(false)}
             isHidden

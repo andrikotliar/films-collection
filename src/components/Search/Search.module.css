@@ -22,6 +22,7 @@
 }
 
 .searchIcon {
+  color: #ddd;
   position: absolute;
   top: 50%;
   right: 20px;
@@ -33,5 +34,5 @@
 }
 
 .input:focus + .searchIcon {
-  fill: var(--main-color);
+  color: var(--main-color);
 }

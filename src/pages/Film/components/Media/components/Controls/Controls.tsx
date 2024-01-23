@@ -1,7 +1,6 @@
-import { ExpandIcon } from '@/assets/icons';
 import classes from './Controls.module.css';
 import { Dispatch, FC, SetStateAction } from 'react';
-import classNames from 'classnames';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 type ControlsProps = {
   itemsCount: number;
@@ -32,10 +31,10 @@ const Controls: FC<ControlsProps> = ({ itemsCount, setActiveIndex }) => {
   return (
     <div className={classes.controls}>
       <button onClick={handlePrev} className={classes.slideControl}>
-        <ExpandIcon className={classNames(classes.arrow, classes.arrowLeft)} />
+        <ChevronLeft color="#fff" className={classes.arrow} />
       </button>
       <button onClick={handleNext} className={classes.slideControl}>
-        <ExpandIcon className={classNames(classes.arrow, classes.arrowRight)} />
+        <ChevronRight color="#fff" className={classes.arrow} />
       </button>
     </div>
   );

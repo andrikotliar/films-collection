@@ -33,7 +33,7 @@ const Navigation = () => {
                 [classes.active]: location.pathname === menuItem.link,
               })}
             >
-              <div className={classes.menuItemIcon}>{menuItem.icon}</div>
+              {menuItem.icon}
               {menuItem.title}
             </Link>
           </li>

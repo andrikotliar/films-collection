@@ -1,8 +1,8 @@
-import { ExpandIcon } from '@/assets/icons';
 import { useAccordionContext } from '@/components/Accordion/accordion.context';
 import classNames from 'classnames';
 import { FC, PropsWithChildren } from 'react';
 import classes from './AccordionItem.module.css';
+import { ChevronDown } from 'lucide-react';
 
 type AccordionItemProps = {
   index: number;
@@ -38,7 +38,7 @@ const AccordionItem: FC<PropsWithChildren<AccordionItemProps>> = ({
           onClick={() => handleActiveIndex(index)}
         >
           <span>{title}</span>
-          <ExpandIcon className={classes.expandIcon} />
+          <ChevronDown className={classes.expandIcon} />
         </button>
       )}
       {isOpen && <div className={classes.body}>{children}</div>}

@@ -1,9 +1,9 @@
 import classNames from 'classnames';
 import { FC, useState } from 'react';
 import classes from './TrailerButton.module.css';
-import { PlayIconOutline } from '@/assets/icons';
 import { Modal } from '@/components';
 import { Video } from './components';
+import { Play } from 'lucide-react';
 
 type Props = {
   trailer: string;
@@ -19,7 +19,7 @@ const TrailerButton: FC<Props> = ({ className, trailer }) => {
         onClick={() => setIsTrailerOpen(true)}
         className={classNames(classes.playButton, className)}
       >
-        <PlayIconOutline className={classes.playButtonIcon} color="#006db7" />
+        <Play className={classes.playButtonIcon} color="#006db7" />
         <span>Play trailer</span>
       </button>
       <Modal

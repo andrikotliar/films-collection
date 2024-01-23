@@ -7,31 +7,31 @@
 .formCheckbox input {
   display: none;
 }
-.icon {
+.iconWrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid #c6c6c6;
   width: 22px;
   height: 22px;
-  padding: 5px;
+  padding: 3px;
 }
-.icon svg {
+.icon {
   display: none;
 }
-.formCheckbox input[type="checkbox"] + .icon {
+.formCheckbox input[type="checkbox"] + .iconWrapper {
   border-radius: 3px;
 }
-.formCheckbox input[type="radio"] + .icon {
+.formCheckbox input[type="radio"] + .iconWrapper {
   border-radius: 50px;
 }
-.formCheckbox input:checked + .icon {
+.formCheckbox input:checked + .iconWrapper {
   background-image: var(--main-gradient);
   border-color: var(--main-color);
 }
-.formCheckbox input:checked + .icon svg {
+.formCheckbox input:checked + .iconWrapper .icon {
   display: block;
-  fill: #fff;
+  color: #fff;
 }
 .title {
   font-size: 14px;

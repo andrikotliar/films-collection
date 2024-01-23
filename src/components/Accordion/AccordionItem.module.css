@@ -18,17 +18,15 @@
 }
 
 .expandIcon {
-  width: 20px;
-  height: 20px;
   transition: transform 0.3s;
 }
 
 .button:hover .expandIcon {
-  fill: var(--main-color);
+  color: var(--main-color);
 }
 
 .buttonOpen .expandIcon {
-  fill: var(--main-color);
+  color: var(--main-color);
   transform: rotate(180deg);
 }
 
