@@ -2,3 +2,9 @@
   display: flex;
   flex-grow: 1;
 }
+
+@media (max-width: 785px) {
+  .main {
+    flex-direction: column;
+  }
+}

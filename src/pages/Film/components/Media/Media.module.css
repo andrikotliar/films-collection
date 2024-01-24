@@ -1,7 +1,6 @@
 .wrapper {
   position: relative;
   flex-shrink: 0;
-  width: 300px;
   overflow: hidden;
 }
 
@@ -9,16 +8,4 @@
   display: flex;
   transition: transform 0.3s ease;
   margin-bottom: 10px;
-}
-
-@media (max-width: 870px) {
-  .wrapper {
-    width: 200px;
-  }
-}
-
-@media (max-width: 580px) {
-  .wrapper {
-    width: 100%;
-  }
 }

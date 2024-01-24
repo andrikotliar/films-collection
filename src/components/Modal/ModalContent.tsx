@@ -31,7 +31,7 @@ const ModalContent: FC<PropsWithChildren<ModalContentProps>> = ({
     >
       {children}
       <Button
-        design="ghost"
+        variant="ghost"
         onClick={onClose}
         icon={<X />}
         className={classes.closeButton}

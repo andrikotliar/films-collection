@@ -14,13 +14,10 @@
 
 .controls {
   display: flex;
+  flex-direction: column;
   width: 100%;
   gap: 10px;
   margin-top: auto;
-}
-
-.apply {
-  flex: 1;
 }
 
 .mobileHeader {
@@ -29,7 +26,10 @@
 
 @media (max-width: 785px) {
   .mobileHeader {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
     padding-bottom: 20px;
     border-bottom: var(--app-border);
     font-size: 16px;

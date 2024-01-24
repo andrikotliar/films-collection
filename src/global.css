@@ -14,6 +14,7 @@
   --main-padding: 20px;
   --header-height: 60px;
   --app-height: 100vh;
+  --mobile-app-height: calc(100vh - var(--header-height));
   --default-column-width: minmax(260px, 1fr);
 }
 

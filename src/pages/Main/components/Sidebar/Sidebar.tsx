@@ -17,16 +17,18 @@ const Sidebar = () => {
       >
         <Filters />
       </aside>
-      <Button
-        onClick={() => setIsFilterOpen(!isFilterOpen)}
-        icon={<SlidersHorizontal />}
-        className={classes.filterButton}
-        isHidden
-      >
-        {filtersCount > 0 && (
-          <span className={classes.filterButtonBadge}>{filtersCount}</span>
-        )}
-      </Button>
+      <div className={classNames(classes.actionsWrapper)}>
+        <button
+          onClick={() => setIsFilterOpen(!isFilterOpen)}
+          className={classes.filterButton}
+        >
+          <SlidersHorizontal />
+          <span>Filters</span>
+          {filtersCount > 0 && (
+            <span className={classes.filterButtonBadge}>{filtersCount}</span>
+          )}
+        </button>
+      </div>
     </>
   );
 };

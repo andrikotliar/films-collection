@@ -10,8 +10,9 @@
 }
 
 .layout {
+  --left-column: 300px;
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: var(--left-column) 1fr;
   gap: 20px;
 }
 
@@ -22,3 +23,14 @@
   overflow: hidden;
 }
 
+@media (max-width: 985px) {
+  .layout {
+    --left-column: 200px;
+  }
+}
+
+@media (max-width: 680px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}

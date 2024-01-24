@@ -7,7 +7,7 @@ import { useSidebarContext } from '@/pages/Main/components/Sidebar/Sidebar.conte
 import { Button, Tabs } from '@/components';
 import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
-import { RotateCcw, SlidersHorizontal, X } from 'lucide-react';
+import { RotateCcw, Search, X } from 'lucide-react';
 
 const defaultValues = {
   type: null,
@@ -21,7 +21,7 @@ const defaultValues = {
 const Filters = () => {
   const { filterParams, updateFilter, resetFilter } = useFilmsContext();
 
-  const filtersCount = countObjectKeys(filterParams);
+  const filtersCount = countObjectKeys(filterParams, ['pageIndex']);
 
   const { setIsFilterOpen, updateFiltersCount } = useSidebarContext();
 
@@ -63,7 +63,12 @@ const Filters = () => {
         onSubmit={methods.handleSubmit(submitFilter)}
         className={classes.filters}
       >
-        <h2 className={classes.mobileHeader}>Filters</h2>
+        <h2 className={classes.mobileHeader}>
+          <span>Filters</span>
+          <button onClick={() => setIsFilterOpen(false)}>
+            <X />
+          </button>
+        </h2>
         <Tabs
           components={[
             {
@@ -89,22 +94,18 @@ const Filters = () => {
           ]}
         />
         <div className={classes.controls}>
-          <Button
-            icon={<SlidersHorizontal color="#fff" />}
-            type="submit"
-            className={classes.apply}
-          >
-            Apply
+          <Button icon={<Search color="#fff" />} type="submit">
+            Search
           </Button>
           {filtersCount > 0 && (
-            <Button onClick={handleReset} icon={<RotateCcw />} />
+            <Button
+              onClick={handleReset}
+              icon={<RotateCcw />}
+              variant="secondary"
+            >
+              Reset
+            </Button>
           )}
-          <Button
-            icon={<X />}
-            className={classes.closeButton}
-            onClick={() => setIsFilterOpen(false)}
-            isHidden
-          />
         </div>
       </form>
     </FormProvider>

@@ -15,15 +15,31 @@ type Link = {
   isPrivate?: boolean;
 };
 
+type ClassNames = {
+  rootClassName?: string;
+  headerClassName?: string;
+  menuWrapperClassName?: string;
+  menuItemClassName?: string;
+  menuLinkClassName?: string;
+};
+
 type Props = {
   links: Link[];
   checkIsActive: (currentLink: Link['link']) => boolean;
-};
+} & ClassNames;
 
-const Navigation: FC<Props> = ({ links, checkIsActive }) => {
+const Navigation: FC<Props> = ({
+  links,
+  checkIsActive,
+  rootClassName,
+  headerClassName,
+  menuItemClassName,
+  menuLinkClassName,
+  menuWrapperClassName,
+}) => {
   return (
-    <Scrollable className={classes.navigation}>
-      <div className={classes.navigationHeader}>
+    <Scrollable className={classNames(classes.navigation, rootClassName)}>
+      <div className={classNames(classes.navigationHeader, headerClassName)}>
         <Link
           to={{
             pathname: '/',
@@ -35,12 +51,15 @@ const Navigation: FC<Props> = ({ links, checkIsActive }) => {
         </Link>
         <Search />
       </div>
-      <ul className={classes.menu}>
+      <ul className={classNames(classes.menu, menuWrapperClassName)}>
         {links.map((menuItem) => (
-          <li className={classes.menuItem} key={menuItem.id}>
+          <li
+            className={classNames(classes.menuItem, menuItemClassName)}
+            key={menuItem.id}
+          >
             <Link
               to={menuItem.link}
-              className={classNames(classes.menuLink, {
+              className={classNames(classes.menuLink, menuLinkClassName, {
                 [classes.disabled]: menuItem.isDisabled,
                 [classes.active]: checkIsActive(menuItem.link),
               })}

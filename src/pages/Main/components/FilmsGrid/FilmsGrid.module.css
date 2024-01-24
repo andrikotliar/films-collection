@@ -27,14 +27,15 @@
   }
 }
 
-@media (max-width: 1420px) {
+@media (max-width: 785px) {
   .grid {
     --cols: 4;
   }
 }
-@media (max-width: 785px) {
+
+@media (max-width: 540px) {
   .grid {
-    --cols: 3;
+    --cols: 2;
   }
 }
 

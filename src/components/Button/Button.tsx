@@ -9,7 +9,7 @@ type ButtonProps = {
   icon?: ReactNode;
   isHidden?: boolean;
   isActive?: boolean;
-  design?: 'primary' | 'secondary' | 'ghost';
+  variant?: 'primary' | 'secondary' | 'ghost';
   activeClassName?: string;
   disabled?: boolean;
 };
@@ -21,7 +21,7 @@ const Button: FC<PropsWithChildren<PropsWithClassName<ButtonProps>>> = ({
   className,
   type = 'button',
   isHidden = false,
-  design = 'primary',
+  variant = 'primary',
   isActive = false,
   activeClassName = classes.active,
   disabled,
@@ -30,7 +30,7 @@ const Button: FC<PropsWithChildren<PropsWithClassName<ButtonProps>>> = ({
     <button
       onClick={onClick}
       type={type}
-      className={classNames(classes.button, classes[design], className, {
+      className={classNames(classes.button, classes[variant], className, {
         [classes.hidden]: isHidden,
         [activeClassName]: isActive,
       })}

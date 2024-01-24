@@ -3,3 +3,33 @@
   display: flex;
   width: 100%;
 }
+
+@media (max-width: 1400px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .navigation {
+    flex-direction: row;
+    height: var(--header-height);
+    width: 100%;
+    border-bottom: var(--app-border);
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    z-index: 100;
+    padding: 0 var(--main-padding);
+  }
+
+  .navigationHeader {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 0;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: row;
+  }
+}
