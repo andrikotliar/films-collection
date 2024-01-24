@@ -1,14 +1,26 @@
 import classes from './Navigation.module.css';
 import { FilmsCollectionLogo } from '@/assets/logos';
-import { menu } from '@/components/Navigation/common/menu';
 import { Scrollable } from '@/components/Scrollable';
 import { Search } from '@/components/Search';
 import classNames from 'classnames';
-import { Link, useLocation } from 'react-router-dom';
+import { FC, ReactNode } from 'react';
+import { Link } from 'react-router-dom';
 
-const Navigation = () => {
-  const location = useLocation();
+type Link = {
+  id: string;
+  title: string;
+  link: string;
+  icon: ReactNode;
+  isDisabled?: boolean;
+  isPrivate?: boolean;
+};
 
+type Props = {
+  links: Link[];
+  checkIsActive: (currentLink: Link['link']) => boolean;
+};
+
+const Navigation: FC<Props> = ({ links, checkIsActive }) => {
   return (
     <Scrollable className={classes.navigation}>
       <div className={classes.navigationHeader}>
@@ -24,13 +36,13 @@ const Navigation = () => {
         <Search />
       </div>
       <ul className={classes.menu}>
-        {menu.map((menuItem) => (
+        {links.map((menuItem) => (
           <li className={classes.menuItem} key={menuItem.id}>
             <Link
               to={menuItem.link}
               className={classNames(classes.menuLink, {
                 [classes.disabled]: menuItem.isDisabled,
-                [classes.active]: location.pathname === menuItem.link,
+                [classes.active]: checkIsActive(menuItem.link),
               })}
             >
               {menuItem.icon}
