@@ -40,7 +40,7 @@ const Search = () => {
       <input
         type="text"
         className={classes.input}
-        placeholder="Search film..."
+        placeholder="Search by title..."
         onChange={debouncedSearch}
         ref={searchInputRef}
       />

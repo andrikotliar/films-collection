@@ -1,6 +1,7 @@
-import { FolderPlus, Home, Info, LogIn, PieChart } from 'lucide-react';
+import { NavLink } from '@/common';
+import { Home, Info, LogIn, PieChart } from 'lucide-react';
 
-const globalMenu = [
+const globalMenu: NavLink[] = [
   {
     id: 'home',
     title: 'Home',
