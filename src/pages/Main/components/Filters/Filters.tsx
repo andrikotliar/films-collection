@@ -1,5 +1,5 @@
 import classes from './Filters.module.css';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { filtersConfig } from '@/configs';
 import { useFilmsContext } from '@/context';
 import { useForm, FormProvider } from 'react-hook-form';
@@ -18,8 +18,11 @@ const defaultValues = {
   studio: null,
 };
 
+const COLLECTIONS_TAB_INDEX = 1;
+
 const Filters = () => {
   const { filterParams, updateFilter, resetFilter } = useFilmsContext();
+  const [defaultTabIndex, setDefaultTabIndex] = useState(0);
 
   const filtersCount = countObjectKeys(filterParams, ['pageIndex']);
 
@@ -31,6 +34,10 @@ const Filters = () => {
 
   const submitFilter = (data: any) => {
     const filledOptions = filterValues(data);
+
+    if (filledOptions.collections === 'Any') {
+      delete filledOptions.collections;
+    }
 
     updateFilter({
       ...filledOptions,
@@ -47,6 +54,10 @@ const Filters = () => {
     if (filtersCount > 0) {
       methods.reset(filterParams);
       updateFiltersCount(filtersCount);
+    }
+
+    if (filterParams.collections) {
+      setDefaultTabIndex(COLLECTIONS_TAB_INDEX);
     }
   }, [filterParams, filtersCount]);
 
@@ -70,6 +81,7 @@ const Filters = () => {
           </button>
         </h2>
         <Tabs
+          defaultTabIndex={defaultTabIndex}
           components={[
             {
               label: 'General',

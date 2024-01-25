@@ -2,7 +2,6 @@ import classes from './Sidebar.module.css';
 import classNames from 'classnames';
 import { useSidebarContext } from '@/pages/Main/components/Sidebar/Sidebar.context';
 import { Filters } from '@/pages/Main/components';
-import { Button } from '@/components';
 import { SlidersHorizontal } from 'lucide-react';
 
 const Sidebar = () => {

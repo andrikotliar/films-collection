@@ -1,6 +1,6 @@
 import { Scrollable } from '@/components/Scrollable';
 import classes from './Tabs.module.css';
-import { FC, ReactNode, useState } from 'react';
+import { FC, ReactNode, useEffect, useState } from 'react';
 import classNames from 'classnames';
 
 type TabsProps = {
@@ -13,6 +13,10 @@ type TabsProps = {
 
 const Tabs: FC<TabsProps> = ({ components, defaultTabIndex = 0 }) => {
   const [activeIndex, setActiveIndex] = useState(defaultTabIndex);
+
+  useEffect(() => {
+    setActiveIndex(defaultTabIndex);
+  }, [defaultTabIndex]);
 
   return (
     <div className={classes.tabs}>

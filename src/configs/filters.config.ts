@@ -65,6 +65,7 @@ export const filtersConfig: Filters = {
       title: 'Main theme',
       property: 'collections',
       options: [
+        'Any',
         'Space',
         'Future',
         'Fantasy Worlds',
