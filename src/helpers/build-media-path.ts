@@ -1,9 +1,9 @@
-import { environment } from '@/configs';
+import { filePaths } from '@/configs';
 
-type PathParameters = keyof typeof environment;
+type PathParameters = keyof typeof filePaths;
 
 const buildMediaPath = (parameter: PathParameters, slug: string) => {
-  const fullPath = `${environment[parameter]}${slug}`;
+  const fullPath = `${filePaths[parameter]}${slug}`;
   return fullPath;
 };
 
