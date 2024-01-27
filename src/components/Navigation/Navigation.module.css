@@ -7,11 +7,8 @@
   border-bottom: var(--app-border);
 }
 
-.navItem:first-child {
-  border-top: var(--app-border);
-}
-
 .navLink {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -30,7 +27,24 @@
 }
 
 .navLink.active {
-  color: #fff;
-  background-color: var(--main-color);
+  color: var(--main-color);
+  cursor: default;
   pointer-events: none;
+}
+
+.navLink.active::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background-color: var(--main-color);
+} 
+
+.navLink.active.leftMarker::after {
+  left: -1px;
+}
+
+.navLink.active.rightMarker::after {
+  right: -1px;
 }

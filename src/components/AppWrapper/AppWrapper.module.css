@@ -1,11 +1,4 @@
 .app {
   min-height: 100vh;
-  display: flex;
   width: 100%;
-}
-
-@media (max-width: 1400px) {
-  .app {
-    flex-direction: column;
-  }
 }

@@ -4,18 +4,11 @@
   flex-shrink: 0;
   border-right: var(--app-border);
   position: sticky;
-  top: 0;
+  top: var(--header-height);
 }
 
 .filterButton {
   display: none;
-}
-
-@media (max-width: 1400px) {
-  .sidebar {
-    top: var(--header-height);
-    height: var(--mobile-app-height);
-  }
 }
 
 @media (max-width: 1200px) {

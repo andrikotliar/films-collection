@@ -7,19 +7,33 @@ import { Link } from 'react-router-dom';
 type Props = {
   links: NavLink[];
   checkIsActive: (currentLink: NavLink['link']) => boolean;
+  markerAlignment?: 'left' | 'right';
 };
 
-const Navigation: FC<Props> = ({ links, checkIsActive }) => {
+const markerAlignmentClassName = {
+  left: classes.leftMarker,
+  right: classes.rightMarker,
+};
+
+const Navigation: FC<Props> = ({
+  links,
+  checkIsActive,
+  markerAlignment = 'right',
+}) => {
   return (
     <ul className={classes.navigation}>
       {links.map((menuItem) => (
         <li className={classes.navItem} key={menuItem.id}>
           <Link
             to={menuItem.link}
-            className={classNames(classes.navLink, {
-              [classes.disabled]: menuItem.isDisabled,
-              [classes.active]: checkIsActive(menuItem.link),
-            })}
+            className={classNames(
+              classes.navLink,
+              markerAlignmentClassName[markerAlignment],
+              {
+                [classes.disabled]: menuItem.isDisabled,
+                [classes.active]: checkIsActive(menuItem.link),
+              },
+            )}
           >
             {menuItem.icon}
             {menuItem.title}
