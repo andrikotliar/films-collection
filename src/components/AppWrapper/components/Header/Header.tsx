@@ -1,6 +1,6 @@
 import classes from './Header.module.css';
 import { Link, useLocation } from 'react-router-dom';
-import { FilmsCollectionLogo } from '@/assets/logos';
+import { Logo } from '@/components/AppWrapper/components/Header/Logo';
 import { Search } from '@/components/Search';
 import { globalMenu } from '@/configs';
 import { Menu } from 'lucide-react';
@@ -33,7 +33,7 @@ const Header = () => {
         }}
         className={classes.logoWrapper}
       >
-        <FilmsCollectionLogo className={classes.logo} />
+        <Logo className={classes.logo} />
       </Link>
       <Search />
       <button className={classes.menuButton} onClick={handleOpenMenu}>
