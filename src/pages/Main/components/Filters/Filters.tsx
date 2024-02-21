@@ -1,4 +1,4 @@
-import classes from './Filters.module.css';
+import styles from './Filters.module.css';
 import { useEffect, useState } from 'react';
 import { filtersConfig } from '@/configs';
 import { useFilmsContext } from '@/context';
@@ -72,9 +72,9 @@ const Filters = () => {
     <FormProvider {...methods}>
       <form
         onSubmit={methods.handleSubmit(submitFilter)}
-        className={classes.filters}
+        className={styles.filters}
       >
-        <h2 className={classes.mobileHeader}>
+        <h2 className={styles.mobileHeader}>
           <span>Filters</span>
           <button onClick={() => setIsFilterOpen(false)}>
             <X />
@@ -86,7 +86,7 @@ const Filters = () => {
             {
               label: 'General',
               content: (
-                <div className={classes.filterGroups}>
+                <div className={styles.filterGroups}>
                   {filtersConfig.general.map((filter) => (
                     <FilterOptions filter={filter} key={filter.title} />
                   ))}
@@ -96,7 +96,7 @@ const Filters = () => {
             {
               label: 'Collections',
               content: (
-                <div className={classes.filterGroups}>
+                <div className={styles.filterGroups}>
                   {filtersConfig.collections.map((filter) => (
                     <FilterOptions filter={filter} key={filter.title} />
                   ))}
@@ -105,7 +105,7 @@ const Filters = () => {
             },
           ]}
         />
-        <div className={classes.controls}>
+        <div className={styles.controls}>
           <Button icon={<Search color="#fff" />} type="submit">
             Search
           </Button>

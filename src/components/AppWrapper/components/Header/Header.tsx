@@ -1,4 +1,4 @@
-import classes from './Header.module.css';
+import styles from './Header.module.css';
 import { Link, useLocation } from 'react-router-dom';
 import { Logo } from '@/components/AppWrapper/components/Header/Logo';
 import { Search } from '@/components/Search';
@@ -25,23 +25,23 @@ const Header = () => {
   }, [location]);
 
   return (
-    <header className={classes.header}>
+    <header className={styles.header}>
       <Link
         to={{
           pathname: '/',
           search: location.search,
         }}
-        className={classes.logoWrapper}
+        className={styles.logoWrapper}
       >
-        <Logo className={classes.logo} />
+        <Logo className={styles.logo} />
       </Link>
       <Search />
-      <button className={classes.menuButton} onClick={handleOpenMenu}>
+      <button className={styles.menuButton} onClick={handleOpenMenu}>
         <Menu />
       </button>
       <div
-        className={classNames(classes.navigation, {
-          [classes.isOpen]: isMenuOpen,
+        className={classNames(styles.navigation, {
+          [styles.isOpen]: isMenuOpen,
         })}
       >
         <Navigation

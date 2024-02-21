@@ -1,4 +1,4 @@
-import classes from './FilmPage.module.css';
+import styles from './FilmPage.module.css';
 import { useEffect, useMemo, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useFilmsContext } from '@/context';
@@ -53,13 +53,13 @@ const FilmPage = () => {
   }
 
   return (
-    <div className={classes.wrapper}>
+    <div className={styles.wrapper}>
       <Title>{film.title}</Title>
-      <div className={classes.layout}>
-        <div className={classes.column}>
+      <div className={styles.layout}>
+        <div className={styles.column}>
           <Media media={film.media} title={film.title} />
         </div>
-        <div className={classes.column}>
+        <div className={styles.column}>
           <DataLinks items={dataLinks} />
 
           <Description

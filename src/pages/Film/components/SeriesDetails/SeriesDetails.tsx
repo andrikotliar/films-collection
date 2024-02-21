@@ -1,4 +1,4 @@
-import classes from './SeriesDetails.module.css';
+import styles from './SeriesDetails.module.css';
 import { SeriesExtension } from '@/common';
 import { buildLink } from '@/helpers';
 import { FC } from 'react';
@@ -10,7 +10,7 @@ type SeriesDetailsProps = {
 
 const SeriesDetails: FC<SeriesDetailsProps> = ({ series }) => {
   return (
-    <div className={classes.seriesDetails}>
+    <div className={styles.seriesDetails}>
       <table>
         <thead>
           <tr>
@@ -27,7 +27,7 @@ const SeriesDetails: FC<SeriesDetailsProps> = ({ series }) => {
               <td>
                 <Link
                   to={buildLink('year', season.year)}
-                  className={classes.link}
+                  className={styles.link}
                 >
                   {season.year}
                 </Link>

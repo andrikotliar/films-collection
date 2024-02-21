@@ -1,4 +1,4 @@
-import classes from './PosterImage.module.css';
+import styles from './PosterImage.module.css';
 import { FC } from 'react';
 import { buildMediaPath } from '@/helpers';
 
@@ -12,9 +12,9 @@ const PosterImage: FC<PosterImageProps> = ({ src, alt, caption }) => {
   const posterUrl = buildMediaPath('posters', src);
 
   return (
-    <div className={classes.posterWrapper}>
-      <img src={posterUrl} alt={alt} className={classes.poster} />
-      {caption && <span className={classes.caption}>{caption}</span>}
+    <div className={styles.posterWrapper}>
+      <img src={posterUrl} alt={alt} className={styles.poster} />
+      {caption && <span className={styles.caption}>{caption}</span>}
     </div>
   );
 };

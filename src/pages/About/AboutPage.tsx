@@ -1,4 +1,4 @@
-import classes from './AboutPage.module.css';
+import styles from './AboutPage.module.css';
 import { useEffect } from 'react';
 import { useDocumentTitle } from '@/hooks';
 
@@ -10,9 +10,9 @@ const AboutPage = () => {
   }, []);
 
   return (
-    <article className={classes.about}>
-      <div className={classes.content}>
-        <h1 className={classes.title}>About</h1>
+    <article className={styles.about}>
+      <div className={styles.content}>
+        <h1 className={styles.title}>About</h1>
         <p>Hello, my name is Andrii 👋 </p>
         <p>
           I'm a big fan of films and series and like to collect information
@@ -24,7 +24,7 @@ const AboutPage = () => {
           representatives of these genres. But there are several titles from
           other genres like romance, action, detectives etc.
         </p>
-        <p className={classes.accent}>
+        <p className={styles.accent}>
           Interested in the source code of this app? It's pure React with
           TypeScript and JSON files as a "database". You can investigate code on
           the{' '}

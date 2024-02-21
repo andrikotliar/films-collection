@@ -1,4 +1,4 @@
-import classes from './Controls.module.css';
+import styles from './Controls.module.css';
 import { Dispatch, FC, SetStateAction } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -29,12 +29,12 @@ const Controls: FC<ControlsProps> = ({ itemsCount, setActiveIndex }) => {
   };
 
   return (
-    <div className={classes.controls}>
-      <button onClick={handlePrev} className={classes.slideControl}>
-        <ChevronLeft color="#fff" className={classes.arrow} />
+    <div className={styles.controls}>
+      <button onClick={handlePrev} className={styles.slideControl}>
+        <ChevronLeft color="#fff" className={styles.arrow} />
       </button>
-      <button onClick={handleNext} className={classes.slideControl}>
-        <ChevronRight color="#fff" className={classes.arrow} />
+      <button onClick={handleNext} className={styles.slideControl}>
+        <ChevronRight color="#fff" className={styles.arrow} />
       </button>
     </div>
   );

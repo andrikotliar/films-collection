@@ -1,4 +1,4 @@
-import classes from './BlockLink.module.css';
+import styles from './BlockLink.module.css';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import classNames from 'classnames';
@@ -19,7 +19,7 @@ const BlockLink: FC<Props> = ({
   return (
     <Link
       to={buildLink(property, value)}
-      className={classNames(classes.base, classes[variant], className)}
+      className={classNames(styles.base, classes[variant], className)}
     >
       {value} {suffix}
     </Link>

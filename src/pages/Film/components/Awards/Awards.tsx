@@ -1,4 +1,4 @@
-import classes from './Awards.module.css';
+import styles from './Awards.module.css';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { awardIcons } from '@/configs';
@@ -14,16 +14,16 @@ const Awards: FC<{ awards: Award[] }> = ({ awards }) => {
   return (
     <DataGrid>
       {awards.map((award) => (
-        <DataArea className={classes.award} key={award.title}>
-          <div className={classes.header}>
-            <div className={classes.icon}>
+        <DataArea className={styles.award} key={award.title}>
+          <div className={styles.header}>
+            <div className={styles.icon}>
               <img
                 src={awardImage(award.title as keyof typeof awardIcons)}
                 alt=""
               />
             </div>
-            <div className={classes.main}>
-              <h3 className={classes.title}>
+            <div className={styles.main}>
+              <h3 className={styles.title}>
                 <Link to={buildLink('awards', award.title)}>{award.title}</Link>
               </h3>
               <p>
@@ -32,7 +32,7 @@ const Awards: FC<{ awards: Award[] }> = ({ awards }) => {
               </p>
             </div>
           </div>
-          <Scrollable className={classes.nominations}>
+          <Scrollable className={styles.nominations}>
             {award.nominations.map((nomination) => (
               <p key={nomination}>{nomination}</p>
             ))}

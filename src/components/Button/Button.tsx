@@ -1,4 +1,4 @@
-import classes from './Button.module.css';
+import styles from './Button.module.css';
 import { FC, PropsWithChildren, ReactNode } from 'react';
 import classNames from 'classnames';
 import { PropsWithClassName } from '@/common';
@@ -23,20 +23,20 @@ const Button: FC<PropsWithChildren<PropsWithClassName<ButtonProps>>> = ({
   isHidden = false,
   variant = 'primary',
   isActive = false,
-  activeClassName = classes.active,
+  activeClassName = styles.active,
   disabled,
 }) => {
   return (
     <button
       onClick={onClick}
       type={type}
-      className={classNames(classes.button, classes[variant], className, {
-        [classes.hidden]: isHidden,
+      className={classNames(styles.button, classes[variant], className, {
+        [styles.hidden]: isHidden,
         [activeClassName]: isActive,
       })}
       disabled={disabled}
     >
-      {icon && <div className={classes.icon}>{icon}</div>}
+      {icon && <div className={styles.icon}>{icon}</div>}
       {children}
     </button>
   );

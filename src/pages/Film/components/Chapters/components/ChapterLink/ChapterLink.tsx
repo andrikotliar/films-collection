@@ -1,4 +1,4 @@
-import classes from './ChapterLink.module.css';
+import styles from './ChapterLink.module.css';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import classNames from 'classnames';
@@ -22,8 +22,8 @@ const ChapterLink: FC<ChapterLinkProps> = ({
   return (
     <Link
       to={`/film/${id}`}
-      className={classNames(classes.link, {
-        [classes.active]: currentFilmId === id,
+      className={classNames(styles.link, {
+        [styles.active]: currentFilmId === id,
       })}
       id={id}
     >

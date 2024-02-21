@@ -1,4 +1,4 @@
-import classes from './Media.module.css';
+import styles from './Media.module.css';
 import { FC, useState } from 'react';
 import { MediaItem } from '@/common';
 import { Controls, PosterImage } from './components';
@@ -13,9 +13,9 @@ const Media: FC<Props> = ({ media, title }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className={classes.wrapper}>
+    <div className={styles.wrapper}>
       <div
-        className={classes.track}
+        className={styles.track}
         style={{
           transform: `translate(${-100 * activeIndex}%)`,
         }}

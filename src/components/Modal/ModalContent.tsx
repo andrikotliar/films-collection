@@ -1,7 +1,7 @@
 import { Button } from '@/components';
 import classNames from 'classnames';
 import { FC, PropsWithChildren, useEffect } from 'react';
-import classes from './ModalContent.module.css';
+import styles from './ModalContent.module.css';
 import { X } from 'lucide-react';
 
 type ModalContentProps = {
@@ -26,7 +26,7 @@ const ModalContent: FC<PropsWithChildren<ModalContentProps>> = ({
 
   return (
     <div
-      className={classNames(classes.content, contentClassName)}
+      className={classNames(styles.content, contentClassName)}
       onClick={(e) => e.stopPropagation()}
     >
       {children}
@@ -34,7 +34,7 @@ const ModalContent: FC<PropsWithChildren<ModalContentProps>> = ({
         variant="ghost"
         onClick={onClose}
         icon={<X />}
-        className={classes.closeButton}
+        className={styles.closeButton}
       />
     </div>
   );

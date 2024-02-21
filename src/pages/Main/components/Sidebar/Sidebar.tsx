@@ -1,4 +1,4 @@
-import classes from './Sidebar.module.css';
+import styles from './Sidebar.module.css';
 import classNames from 'classnames';
 import { useSidebarContext } from '@/pages/Main/components/Sidebar/Sidebar.context';
 import { Filters } from '@/pages/Main/components';
@@ -10,21 +10,21 @@ const Sidebar = () => {
   return (
     <>
       <aside
-        className={classNames(classes.sidebar, {
-          [classes.open]: isFilterOpen,
+        className={classNames(styles.sidebar, {
+          [styles.open]: isFilterOpen,
         })}
       >
         <Filters />
       </aside>
-      <div className={classNames(classes.actionsWrapper)}>
+      <div className={classNames(styles.actionsWrapper)}>
         <button
           onClick={() => setIsFilterOpen(!isFilterOpen)}
-          className={classes.filterButton}
+          className={styles.filterButton}
         >
           <SlidersHorizontal />
           <span>Filters</span>
           {filtersCount > 0 && (
-            <span className={classes.filterButtonBadge}>{filtersCount}</span>
+            <span className={styles.filterButtonBadge}>{filtersCount}</span>
           )}
         </button>
       </div>

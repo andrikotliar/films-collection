@@ -1,5 +1,5 @@
 import { CastType, IMAGE_FALLBACKS } from '@/common';
-import classes from './Profile.module.css';
+import styles from './Profile.module.css';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { buildLink, buildMediaPath } from '@/helpers';
@@ -13,8 +13,8 @@ const Profile: FC<ProfileProps> = ({ actor }) => {
   const photoUrl = buildMediaPath('actors', actor.photoUrl);
 
   return (
-    <div className={classes.profile}>
-      <div className={classes.photo}>
+    <div className={styles.profile}>
+      <div className={styles.photo}>
         <img
           src={photoUrl}
           alt={actor.name}
@@ -22,7 +22,7 @@ const Profile: FC<ProfileProps> = ({ actor }) => {
         />
       </div>
       <div>
-        <h3 className={classes.name}>
+        <h3 className={styles.name}>
           <Link
             to={`${buildLink(
               'actor',

@@ -1,4 +1,4 @@
-import classes from './FilterOptions.module.css';
+import styles from './FilterOptions.module.css';
 import { FC } from 'react';
 import { FilterItem, PropsWithClassName } from '@/common';
 import { FormCheckbox } from '@/components';
@@ -17,10 +17,10 @@ const FilterOptions: FC<PropsWithClassName<FilterOptionsProps>> = ({
     <Group
       title={filter.title}
       bodyClassName={classNames(
-        classes.filterOptions,
+        styles.filterOptions,
         {
-          [classes.scrollable]: filter.isScrollable,
-          [classes.grid]: filter.isGrid,
+          [styles.scrollable]: filter.isScrollable,
+          [styles.grid]: filter.isGrid,
         },
         className,
       )}

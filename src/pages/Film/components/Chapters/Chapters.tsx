@@ -1,4 +1,4 @@
-import classes from './Chapters.module.css';
+import styles from './Chapters.module.css';
 import { FC } from 'react';
 import { useParams } from 'react-router-dom';
 import { Chapter, FilmData } from '@/common';
@@ -17,7 +17,7 @@ const Chapters: FC<ChaptersProps> = ({ data, parts }) => {
   const chapters = getChapters(data, parts.title);
 
   return (
-    <div className={classes.chapters}>
+    <div className={styles.chapters}>
       {chapters.map((chapter) => (
         <ChapterLink
           currentFilmId={currentFilmId}

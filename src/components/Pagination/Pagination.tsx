@@ -1,5 +1,5 @@
 import { FC, useMemo } from 'react';
-import classes from './Pagination.module.css';
+import styles from './Pagination.module.css';
 import { useFilter } from '@/hooks';
 import classNames from 'classnames';
 import { useFilmsContext } from '@/context';
@@ -33,12 +33,12 @@ const Pagination: FC<PaginationProps> = ({ count }) => {
   };
 
   return (
-    <div className={classes.pagination}>
-      <div className={classes.pages}>
+    <div className={styles.pagination}>
+      <div className={styles.pages}>
         {Array.from({ length: count }, (_, index) => (
           <button
-            className={classNames(classes.pageButton, {
-              [classes.active]: activePage === index,
+            className={classNames(styles.pageButton, {
+              [styles.active]: activePage === index,
             })}
             key={index}
             onClick={handlePage(index)}
@@ -47,8 +47,8 @@ const Pagination: FC<PaginationProps> = ({ count }) => {
           </button>
         ))}
       </div>
-      <div className={classes.stats}>
-        <span className={classes.currentState}>
+      <div className={styles.stats}>
+        <span className={styles.currentState}>
           {activePage * PER_PAGE + 1} - {(activePage + 1) * PER_PAGE}
         </span>{' '}
         <span>/ {initialFilmsList.length} films</span>

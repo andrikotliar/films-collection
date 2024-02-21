@@ -1,7 +1,7 @@
 import { useAccordionContext } from '@/components/Accordion/accordion.context';
 import classNames from 'classnames';
 import { FC, PropsWithChildren } from 'react';
-import classes from './AccordionItem.module.css';
+import styles from './AccordionItem.module.css';
 import { ChevronDown } from 'lucide-react';
 
 type AccordionItemProps = {
@@ -29,19 +29,19 @@ const AccordionItem: FC<PropsWithChildren<AccordionItemProps>> = ({
   };
 
   return (
-    <div className={classNames(classes.wrapper, className)}>
+    <div className={classNames(styles.wrapper, className)}>
       {title && (
         <button
-          className={classNames(classes.button, {
-            [classes.buttonOpen]: isOpen,
+          className={classNames(styles.button, {
+            [styles.buttonOpen]: isOpen,
           })}
           onClick={() => handleActiveIndex(index)}
         >
           <span>{title}</span>
-          <ChevronDown className={classes.expandIcon} />
+          <ChevronDown className={styles.expandIcon} />
         </button>
       )}
-      {isOpen && <div className={classes.body}>{children}</div>}
+      {isOpen && <div className={styles.body}>{children}</div>}
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import classes from './CrewItem.module.css';
+import styles from './CrewItem.module.css';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { buildLink } from '@/helpers';
@@ -8,9 +8,9 @@ import { DataRow } from '@/components';
 const CrewItem: FC<{ crewItem: Crew }> = ({ crewItem }) => {
   return (
     <DataRow title={crewItem.role}>
-      <ul className={classes.list}>
+      <ul className={styles.list}>
         {crewItem.people.map((person, idx) => (
-          <li className={classes.person} key={idx}>
+          <li className={styles.person} key={idx}>
             <Link
               to={buildLink('crew', {
                 role: crewItem.role,
@@ -20,7 +20,7 @@ const CrewItem: FC<{ crewItem: Crew }> = ({ crewItem }) => {
               {person.name}
             </Link>
             {person.comment && (
-              <span className={classes.comment}>({person.comment})</span>
+              <span className={styles.comment}>({person.comment})</span>
             )}
           </li>
         ))}

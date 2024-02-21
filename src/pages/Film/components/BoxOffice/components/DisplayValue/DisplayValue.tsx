@@ -1,4 +1,4 @@
-import classes from './DisplayValue.module.css';
+import styles from './DisplayValue.module.css';
 import { FC } from 'react';
 import { PropsWithClassName } from '@/common';
 import { FormattedValue } from '@/pages/Film/components/BoxOffice/helpers';
@@ -8,21 +8,11 @@ type DisplayValueProps = PropsWithClassName<{
   option: FormattedValue;
 }>;
 
-const DisplayValue: FC<DisplayValueProps> = ({
-  option,
-  className,
-}) => {
+const DisplayValue: FC<DisplayValueProps> = ({ option, className }) => {
   return (
-    <div
-      className={classNames(
-        classes.displayValue,
-        className,
-      )}
-    >
-      <div className={classes.number}>
-        ${option.shortValue}
-      </div>
-      <div className={classes.order}>{option.order}</div>
+    <div className={classNames(styles.displayValue, className)}>
+      <div className={styles.number}>${option.shortValue}</div>
+      <div className={styles.order}>{option.order}</div>
     </div>
   );
 };

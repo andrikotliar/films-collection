@@ -1,5 +1,5 @@
 import { NavLink } from '@/common';
-import classes from './Navigation.module.css';
+import styles from './Navigation.module.css';
 import classNames from 'classnames';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
@@ -11,8 +11,8 @@ type Props = {
 };
 
 const markerAlignmentClassName = {
-  left: classes.leftMarker,
-  right: classes.rightMarker,
+  left: styles.leftMarker,
+  right: styles.rightMarker,
 };
 
 const Navigation: FC<Props> = ({
@@ -21,17 +21,17 @@ const Navigation: FC<Props> = ({
   markerAlignment = 'right',
 }) => {
   return (
-    <ul className={classes.navigation}>
+    <ul className={styles.navigation}>
       {links.map((menuItem) => (
-        <li className={classes.navItem} key={menuItem.id}>
+        <li className={styles.navItem} key={menuItem.id}>
           <Link
             to={menuItem.link}
             className={classNames(
-              classes.navLink,
+              styles.navLink,
               markerAlignmentClassName[markerAlignment],
               {
-                [classes.disabled]: menuItem.isDisabled,
-                [classes.active]: checkIsActive(menuItem.link),
+                [styles.disabled]: menuItem.isDisabled,
+                [styles.active]: checkIsActive(menuItem.link),
               },
             )}
           >

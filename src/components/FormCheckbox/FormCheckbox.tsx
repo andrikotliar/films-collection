@@ -1,4 +1,4 @@
-import classes from './FormCheckbox.module.css';
+import styles from './FormCheckbox.module.css';
 import { FC } from 'react';
 import { useFormContext } from 'react-hook-form';
 import { Check } from 'lucide-react';
@@ -17,12 +17,12 @@ const FormCheckbox: FC<FormCheckboxProps> = ({
   const { register } = useFormContext();
 
   return (
-    <label className={classes.formCheckbox}>
+    <label className={styles.formCheckbox}>
       <input type={type} value={value} {...register(name)} />
-      <div className={classes.iconWrapper}>
-        <Check className={classes.icon} />
+      <div className={styles.iconWrapper}>
+        <Check className={styles.icon} />
       </div>
-      <div className={classes.title}>{value}</div>
+      <div className={styles.title}>{value}</div>
     </label>
   );
 };

@@ -1,4 +1,4 @@
-import classes from './Modal.module.css';
+import styles from './Modal.module.css';
 import { ComponentProps, FC, PropsWithChildren } from 'react';
 import { createPortal } from 'react-dom';
 import { ModalContent } from '@/components/Modal/ModalContent';
@@ -17,7 +17,7 @@ const Modal: FC<PropsWithChildren<ModalProps>> = ({
   if (!isOpen) return null;
 
   return createPortal(
-    <div className={classes.modal} onClick={onClose}>
+    <div className={styles.modal} onClick={onClose}>
       <ModalContent {...props} onClose={onClose}>
         {children}
       </ModalContent>

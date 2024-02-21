@@ -1,4 +1,4 @@
-import classes from './DataLinks.module.css';
+import styles from './DataLinks.module.css';
 import { FC } from 'react';
 import { BlockLink, DataArea } from '@/components';
 import { LinkGroup } from '@/common';
@@ -9,11 +9,11 @@ type DataLinksProps = {
 
 const DataLinks: FC<DataLinksProps> = ({ items }) => {
   return (
-    <DataArea className={classes.dataLinks}>
+    <DataArea className={styles.dataLinks}>
       {items.map((item, index) => (
-        <div key={index} className={classes.row}>
-          <div className={classes.rowTitle}>{item.title}</div>
-          <div className={classes.group}>
+        <div key={index} className={styles.row}>
+          <div className={styles.rowTitle}>{item.title}</div>
+          <div className={styles.group}>
             {Array.isArray(item.value) ? (
               item.value.map((val) => (
                 <BlockLink {...item} value={val} key={val} />

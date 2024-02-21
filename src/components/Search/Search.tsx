@@ -1,4 +1,4 @@
-import classes from './Search.module.css';
+import styles from './Search.module.css';
 import { ChangeEvent, useCallback, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { debounce } from '@/helpers';
@@ -36,15 +36,15 @@ const Search = () => {
   }, []);
 
   return (
-    <div className={classes.searchWrapper}>
+    <div className={styles.searchWrapper}>
       <input
         type="text"
-        className={classes.input}
+        className={styles.input}
         placeholder="Search by title..."
         onChange={debouncedSearch}
         ref={searchInputRef}
       />
-      <SearchIcon className={classes.searchIcon} />
+      <SearchIcon className={styles.searchIcon} />
     </div>
   );
 };

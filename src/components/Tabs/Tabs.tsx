@@ -1,5 +1,5 @@
 import { Scrollable } from '@/components/Scrollable';
-import classes from './Tabs.module.css';
+import styles from './Tabs.module.css';
 import { FC, ReactNode, useEffect, useState } from 'react';
 import classNames from 'classnames';
 
@@ -19,22 +19,22 @@ const Tabs: FC<TabsProps> = ({ components, defaultTabIndex = 0 }) => {
   }, [defaultTabIndex]);
 
   return (
-    <div className={classes.tabs}>
-      <div className={classes.controls}>
+    <div className={styles.tabs}>
+      <div className={styles.controls}>
         {components.map((component, index) => (
           <button
             type="button"
             onClick={() => setActiveIndex(index)}
             key={component.label}
-            className={classNames(classes.tab, {
-              [classes.active]: activeIndex === index,
+            className={classNames(styles.tab, {
+              [styles.active]: activeIndex === index,
             })}
           >
             {component.label}
           </button>
         ))}
       </div>
-      <Scrollable className={classes.content}>
+      <Scrollable className={styles.content}>
         {components[activeIndex].content}
       </Scrollable>
     </div>

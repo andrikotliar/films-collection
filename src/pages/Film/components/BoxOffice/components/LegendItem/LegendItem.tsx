@@ -1,4 +1,4 @@
-import classes from './LegendItem.module.css';
+import styles from './LegendItem.module.css';
 import { FC } from 'react';
 
 enum LegendColorsEnum {
@@ -21,7 +21,7 @@ const LegendItem: FC<LegendProps> = ({
 }) => {
   return (
     <div
-      className={classes.legendItem}
+      className={styles.legendItem}
       style={{
         color,
       }}
