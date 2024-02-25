@@ -25,6 +25,7 @@ const generateDatabaseFile = () => {
   });
 
   const sortedDb = db.sort((a, b) => (a.year < b.year ? 1 : -1));
+  const ids = db.map((film) => film.id);
 
   fs.writeFile(
     './public/database/database.json',
@@ -35,6 +36,18 @@ const generateDatabaseFile = () => {
         return;
       }
       console.log('Database completed!');
+    },
+  );
+
+  fs.writeFile(
+    './public/database/film-ids.json',
+    JSON.stringify(ids),
+    (error) => {
+      if (error) {
+        console.log(error);
+        return;
+      }
+      console.log('Film IDs created!');
     },
   );
 };
