@@ -4,11 +4,8 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 30px;
-  position: sticky;
-  bottom: 0;
   width: 100%;
   background-color: #fff;
-  padding: 10px 0;
 }
 
 .pages {

@@ -2,9 +2,9 @@
   width: 300px;
   height: var(--app-height);
   flex-shrink: 0;
-  border-right: var(--app-border);
   position: sticky;
   top: var(--header-height);
+  padding: var(--main-padding) 0;
 }
 
 .filterButton {

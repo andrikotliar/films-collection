@@ -1,12 +1,14 @@
 import styles from './Search.module.css';
-import { ChangeEvent, useCallback, useEffect, useRef } from 'react';
+import { ChangeEvent, useCallback, useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { debounce } from '@/helpers';
 import { Search as SearchIcon } from 'lucide-react';
+import classNames from 'classnames';
 
 const Search = () => {
   const navigate = useNavigate();
   const searchInputRef = useRef<any>();
+  const [isInputFocused, setIsInputFocused] = useState(false);
 
   const runSearch = (searchValue: string) => {
     if (searchValue.length) {
@@ -35,16 +37,30 @@ const Search = () => {
     };
   }, []);
 
+  const handleFocused = () => {
+    setIsInputFocused(true);
+  };
+
+  const handleBlur = () => {
+    setIsInputFocused(false);
+  };
+
   return (
     <div className={styles.searchWrapper}>
+      <SearchIcon
+        className={classNames(styles.searchIcon, {
+          [styles.focused]: isInputFocused,
+        })}
+      />
       <input
         type="text"
         className={styles.input}
         placeholder="Search by title..."
         onChange={debouncedSearch}
         ref={searchInputRef}
+        onFocus={handleFocused}
+        onBlur={handleBlur}
       />
-      <SearchIcon className={styles.searchIcon} />
     </div>
   );
 };

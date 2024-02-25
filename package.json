@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "generate:db": "node --no-warnings ./utils/generate-db",
-    "start": "npm run generate:db && vite",
+    "dev": "npm run generate:db && vite",
     "build": "npm run generate:db && tsc && vite build",
     "preview": "vite preview",
     "prettier": "prettier ./src/**/*.{tsx,ts} --write",

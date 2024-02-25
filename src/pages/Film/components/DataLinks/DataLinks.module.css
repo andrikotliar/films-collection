@@ -23,8 +23,7 @@
 }
 
 @media (max-width: 500px) {
-  .links {
-    gap: 10px;
-    font-size: 14px;
+  .dataLinks {
+    flex-direction: column;
   }
 }

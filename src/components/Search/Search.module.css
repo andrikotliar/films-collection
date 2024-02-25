@@ -6,13 +6,13 @@
 
 .input {
   font-size: 14px;
-  color: #000;
-  padding: 10px 50px 10px 20px;
+  color: var(--main-color);
+  padding: 10px;
   width: 100%;
-  padding-right: 50px;
+  padding-left: 40px;
   outline: none;
   border: var(--app-border);
-  border-radius: 50px;
+  border-radius: var(--app-border-radius);
   transition: 0.2s;
   background-color: #fff;
 }
@@ -25,7 +25,7 @@
   color: #ddd;
   position: absolute;
   top: 50%;
-  right: 20px;
+  left: 10px;
   height: 20px;
   width: 20px;
   cursor: pointer;
@@ -33,6 +33,6 @@
   transform: translateY(-50%);
 }
 
-.input:focus + .searchIcon {
+.searchIcon.focused {
   color: var(--main-color);
 }

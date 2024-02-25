@@ -1,5 +1,5 @@
 .statisticPage {
-  padding: var(--main-padding);
+  padding: var(--main-padding) 0;
 }
 
 .title {

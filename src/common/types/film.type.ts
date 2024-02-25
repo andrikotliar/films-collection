@@ -78,6 +78,7 @@ type FilmData = {
   awards?: Award[];
   ordered?: boolean;
   series?: SeriesExtension;
+  rating: number;
 };
 
 export type {

@@ -1,6 +1,7 @@
 import styles from './AboutPage.module.css';
 import { useEffect } from 'react';
 import { useDocumentTitle } from '@/hooks';
+import { RandomTitle } from '@/pages/About/components';
 
 const AboutPage = () => {
   useDocumentTitle('About');
@@ -55,6 +56,7 @@ const AboutPage = () => {
           <i>To be continued...</i>
         </p>
       </div>
+      <RandomTitle />
     </article>
   );
 };

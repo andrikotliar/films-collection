@@ -1,8 +1,9 @@
 .about {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
   width: 100%;
-  padding: var(--main-padding);
-  max-width: 980px;
-  margin: 0 auto;
+  padding: var(--main-padding) 0;
 }
 
 .content {
@@ -35,10 +36,8 @@
 
 .content .accent {
   background-color: #f2f2f2;
-  padding: 20px 40px;
+  padding: 20px;
   border-radius: 6px;
-  margin-left: -20px;
-  margin-right: -20px;
 }
 
 .avatar {
@@ -53,4 +52,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media (max-width: 795px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
 }

@@ -7,6 +7,7 @@ import { Menu } from 'lucide-react';
 import classNames from 'classnames';
 import { useEffect, useState } from 'react';
 import { Navigation } from '@/components/Navigation';
+import { Container } from '@/components/Container';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,30 +27,32 @@ const Header = () => {
 
   return (
     <header className={styles.header}>
-      <Link
-        to={{
-          pathname: '/',
-          search: location.search,
-        }}
-        className={styles.logoWrapper}
-      >
-        <Logo className={styles.logo} />
-      </Link>
-      <Search />
-      <button className={styles.menuButton} onClick={handleOpenMenu}>
-        <Menu />
-      </button>
-      <div
-        className={classNames(styles.navigation, {
-          [styles.isOpen]: isMenuOpen,
-        })}
-      >
-        <Navigation
-          links={globalMenu}
-          checkIsActive={checkIsActive}
-          markerAlignment="left"
-        />
-      </div>
+      <Container className={styles.headerContainer}>
+        <Link
+          to={{
+            pathname: '/',
+            search: location.search,
+          }}
+          className={styles.logoWrapper}
+        >
+          <Logo className={styles.logo} />
+        </Link>
+        <Search />
+        <button className={styles.menuButton} onClick={handleOpenMenu}>
+          <Menu />
+        </button>
+        <div
+          className={classNames(styles.navigation, {
+            [styles.isOpen]: isMenuOpen,
+          })}
+        >
+          <Navigation
+            links={globalMenu}
+            checkIsActive={checkIsActive}
+            markerAlignment="left"
+          />
+        </div>
+      </Container>
     </header>
   );
 };
