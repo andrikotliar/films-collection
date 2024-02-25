@@ -3,11 +3,11 @@ import { CastType } from '@/common';
 import { Actor } from '@/pages/Film/components/Cast/components';
 import { DataGrid } from '@/components';
 
-type CastProps = {
+type Props = {
   cast: CastType[];
 };
 
-const Cast: FC<CastProps> = ({ cast }) => {
+const Cast: FC<Props> = ({ cast }) => {
   return (
     <DataGrid>
       {cast.map((actor) => (

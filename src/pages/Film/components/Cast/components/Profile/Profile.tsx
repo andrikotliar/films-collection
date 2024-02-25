@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 import { buildLink, buildMediaPath } from '@/helpers';
 import { handleImageError } from '@/utils';
 
-type ProfileProps = {
+type Props = {
   actor: CastType;
 };
 
-const Profile: FC<ProfileProps> = ({ actor }) => {
+const Profile: FC<Props> = ({ actor }) => {
   const photoUrl = buildMediaPath('actors', actor.photoUrl);
 
   return (

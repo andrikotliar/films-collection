@@ -4,12 +4,12 @@ import { Diagram, Legend } from './components';
 import { getFormattedValue, hasBoxOfficeBenefit } from './helpers';
 import { LegendColorsEnum } from '@/pages/Film/components/BoxOffice/components/LegendItem';
 
-type BoxOfficeProps = {
+type Props = {
   budget?: number;
   boxOffice?: number;
 };
 
-const BoxOffice: FC<BoxOfficeProps> = ({ budget, boxOffice }) => {
+const BoxOffice: FC<Props> = ({ budget, boxOffice }) => {
   const isBoxOfficeHigher = hasBoxOfficeBenefit(budget, boxOffice);
 
   const boxOfficeColor = isBoxOfficeHigher

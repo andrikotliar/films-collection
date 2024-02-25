@@ -4,11 +4,11 @@ import { Profile } from '@/pages/Film/components/Cast/components/Profile/Profile
 import { CastType } from '@/common';
 import { DataArea } from '@/components';
 
-type ActorProps = {
+type Props = {
   actor: CastType;
 };
 
-const Actor: FC<ActorProps> = ({ actor }) => {
+const Actor: FC<Props> = ({ actor }) => {
   return (
     <DataArea>
       <Profile actor={actor} />

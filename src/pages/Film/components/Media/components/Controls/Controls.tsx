@@ -2,12 +2,12 @@ import styles from './Controls.module.css';
 import { Dispatch, FC, SetStateAction } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-type ControlsProps = {
+type Props = {
   itemsCount: number;
   setActiveIndex: Dispatch<SetStateAction<number>>;
 };
 
-const Controls: FC<ControlsProps> = ({ itemsCount, setActiveIndex }) => {
+const Controls: FC<Props> = ({ itemsCount, setActiveIndex }) => {
   const handlePrev = () => {
     setActiveIndex((index) => {
       if (index === 0) {

@@ -3,11 +3,11 @@ import { FC } from 'react';
 import { BlockLink, DataArea } from '@/components';
 import { LinkGroup } from '@/common';
 
-type DataLinksProps = {
+type Props = {
   items: LinkGroup[];
 };
 
-const DataLinks: FC<DataLinksProps> = ({ items }) => {
+const DataLinks: FC<Props> = ({ items }) => {
   return (
     <DataArea className={styles.dataLinks}>
       {items.map((item, index) => (

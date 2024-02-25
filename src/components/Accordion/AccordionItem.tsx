@@ -4,13 +4,13 @@ import { FC, PropsWithChildren } from 'react';
 import styles from './AccordionItem.module.css';
 import { ChevronDown } from 'lucide-react';
 
-type AccordionItemProps = {
+type Props = {
   index: number;
   title?: string;
   className?: string;
 };
 
-const AccordionItem: FC<PropsWithChildren<AccordionItemProps>> = ({
+const AccordionItem: FC<PropsWithChildren<Props>> = ({
   children,
   index,
   title,

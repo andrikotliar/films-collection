@@ -3,7 +3,7 @@ import styles from './Tabs.module.css';
 import { FC, ReactNode, useEffect, useState } from 'react';
 import classNames from 'classnames';
 
-type TabsProps = {
+type Props = {
   components: {
     label: string;
     content: ReactNode;
@@ -11,7 +11,7 @@ type TabsProps = {
   defaultTabIndex?: number;
 };
 
-const Tabs: FC<TabsProps> = ({ components, defaultTabIndex = 0 }) => {
+const Tabs: FC<Props> = ({ components, defaultTabIndex = 0 }) => {
   const [activeIndex, setActiveIndex] = useState(defaultTabIndex);
 
   useEffect(() => {

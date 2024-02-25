@@ -19,7 +19,7 @@ const BlockLink: FC<Props> = ({
   return (
     <Link
       to={buildLink(property, value)}
-      className={classNames(styles.base, classes[variant], className)}
+      className={classNames(styles.base, styles[variant], className)}
     >
       {value} {suffix}
     </Link>

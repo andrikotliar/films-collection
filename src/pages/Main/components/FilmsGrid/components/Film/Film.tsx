@@ -4,11 +4,11 @@ import { forwardRef } from 'react';
 import { Link } from 'react-router-dom';
 import { buildMediaPath } from '@/helpers';
 
-type FilmProps = {
+type Props = {
   data: FilmData;
 };
 
-const Film = forwardRef<HTMLAnchorElement, FilmProps>(({ data }, ref) => {
+const Film = forwardRef<HTMLAnchorElement, Props>(({ data }, ref) => {
   const posterUrl = buildMediaPath('posters', data.media[0].poster);
 
   return (

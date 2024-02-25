@@ -9,12 +9,12 @@ import {
   LegendColorsEnum,
 } from '@/pages/Film/components/BoxOffice/components/LegendItem';
 
-type DiagramProps = {
+type Props = {
   budget: FormattedValue | null;
   boxOffice: FormattedValue | null;
 } & LegendColorProps;
 
-const Diagram: FC<DiagramProps> = ({ budget, boxOffice, color }) => {
+const Diagram: FC<Props> = ({ budget, boxOffice, color }) => {
   const maxValue = useMemo(() => {
     return getBoxOfficeTargetValue(boxOffice?.value, budget?.value);
   }, [boxOffice, budget]);

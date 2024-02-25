@@ -3,17 +3,13 @@ import { FC } from 'react';
 import { useFormContext } from 'react-hook-form';
 import { Check } from 'lucide-react';
 
-type FormCheckboxProps = {
+type Props = {
   type: 'checkbox' | 'radio';
   value: string | number;
   name: string;
 };
 
-const FormCheckbox: FC<FormCheckboxProps> = ({
-  type = 'checkbox',
-  value,
-  name,
-}) => {
+const FormCheckbox: FC<Props> = ({ type = 'checkbox', value, name }) => {
   const { register } = useFormContext();
 
   return (

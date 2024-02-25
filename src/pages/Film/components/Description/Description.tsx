@@ -4,13 +4,13 @@ import { MediaItem, SeasonType, Summary } from '@/common';
 import { Accordion, BlockLink, DataArea } from '@/components';
 import { AccordionItem } from '@/components/Accordion/AccordionItem';
 
-type DescriptionProps = {
+type Props = {
   description: Summary[];
   media: MediaItem[];
   seasons?: SeasonType[];
 };
 
-const Description: FC<DescriptionProps> = ({ description, seasons }) => {
+const Description: FC<Props> = ({ description, seasons }) => {
   return (
     <DataArea className={styles.wrapper}>
       <div className={styles.header}>Description</div>

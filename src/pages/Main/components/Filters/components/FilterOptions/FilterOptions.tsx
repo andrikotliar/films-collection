@@ -5,11 +5,11 @@ import { FormCheckbox } from '@/components';
 import { Group } from '@/pages/Main/components/Filters/components/Group';
 import classNames from 'classnames';
 
-type FilterOptionsProps = {
+type Props = {
   filter: FilterItem;
 };
 
-const FilterOptions: FC<PropsWithClassName<FilterOptionsProps>> = ({
+const FilterOptions: FC<PropsWithClassName<Props>> = ({
   filter,
   className,
 }) => {

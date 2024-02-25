@@ -13,14 +13,14 @@ type ContextValue = {
   setActiveIndex: Dispatch<SetStateAction<number | undefined>>;
 };
 
-type ProviderProps = {
+type Props = {
   defaultOpen?: number;
 };
 
 const AccordionContext = createContext({} as ContextValue);
 const useAccordionContext = () => useContext(AccordionContext);
 
-const AccordionProvider: FC<PropsWithChildren<ProviderProps>> = ({
+const AccordionProvider: FC<PropsWithChildren<Props>> = ({
   children,
   defaultOpen,
 }) => {

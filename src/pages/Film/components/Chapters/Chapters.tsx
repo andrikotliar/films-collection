@@ -2,16 +2,15 @@ import styles from './Chapters.module.css';
 import { FC } from 'react';
 import { useParams } from 'react-router-dom';
 import { Chapter, FilmData } from '@/common';
-import { Scrollable } from '@/components';
-import { getChapters } from '@/pages/Film/components/Chapters/helpers';
-import { ChapterLink } from '@/pages/Film/components/Chapters/components';
+import { getChapters } from './helpers';
+import { ChapterLink } from './components';
 
-type ChaptersProps = {
+type Props = {
   data: FilmData[];
   parts: Chapter;
 };
 
-const Chapters: FC<ChaptersProps> = ({ data, parts }) => {
+const Chapters: FC<Props> = ({ data, parts }) => {
   const { id: currentFilmId } = useParams<string>();
 
   const chapters = getChapters(data, parts.title);

@@ -4,12 +4,12 @@ import { FC, PropsWithChildren, useEffect } from 'react';
 import styles from './ModalContent.module.css';
 import { X } from 'lucide-react';
 
-type ModalContentProps = {
+type Props = {
   contentClassName?: string;
   onClose: VoidFunction;
 };
 
-const ModalContent: FC<PropsWithChildren<ModalContentProps>> = ({
+const ModalContent: FC<PropsWithChildren<Props>> = ({
   children,
   contentClassName,
   onClose,

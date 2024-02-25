@@ -11,14 +11,11 @@ type LegendColorProps = {
   color: LegendColorsEnum;
 };
 
-type LegendProps = {
+type Props = {
   type: 'Budget' | 'Box Office';
 } & Partial<LegendColorProps>;
 
-const LegendItem: FC<LegendProps> = ({
-  type,
-  color = LegendColorsEnum.YELLOW,
-}) => {
+const LegendItem: FC<Props> = ({ type, color = LegendColorsEnum.YELLOW }) => {
   return (
     <div
       className={styles.legendItem}

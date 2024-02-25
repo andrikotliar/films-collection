@@ -2,12 +2,12 @@ import styles from './Legend.module.css';
 import { FC } from 'react';
 import { LegendColorProps, LegendItem } from '../LegendItem';
 
-type LegendProps = {
+type Props = {
   hasBudget: boolean;
   hasBoxOffice: boolean;
 } & LegendColorProps;
 
-const Legend: FC<LegendProps> = ({ hasBudget, hasBoxOffice, color }) => {
+const Legend: FC<Props> = ({ hasBudget, hasBoxOffice, color }) => {
   return (
     <div className={styles.legend}>
       {hasBudget && <LegendItem type="Budget" />}
