@@ -27,6 +27,11 @@
 .list a {
   color: var(--main-color);
   text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.list a:hover {
+  color: var(--green);
 }
 
 .person {

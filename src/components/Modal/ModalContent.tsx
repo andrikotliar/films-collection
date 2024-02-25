@@ -30,12 +30,9 @@ const ModalContent: FC<PropsWithChildren<Props>> = ({
       onClick={(e) => e.stopPropagation()}
     >
       {children}
-      <Button
-        variant="ghost"
-        onClick={onClose}
-        icon={<X />}
-        className={styles.closeButton}
-      />
+      <button onClick={onClose} className={styles.closeButton}>
+        <X />
+      </button>
     </div>
   );
 };

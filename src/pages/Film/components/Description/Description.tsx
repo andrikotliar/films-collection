@@ -1,8 +1,10 @@
 import styles from './Description.module.css';
 import { FC } from 'react';
 import { MediaItem, SeasonType, Summary } from '@/common';
-import { Accordion, BlockLink, DataArea } from '@/components';
+import { Accordion, DataArea, RouterLink } from '@/components';
 import { AccordionItem } from '@/components/Accordion/AccordionItem';
+import { Link } from 'react-router-dom';
+import { buildLink } from '@/helpers';
 
 type Props = {
   description: Summary[];
@@ -25,12 +27,9 @@ const Description: FC<Props> = ({ description, seasons }) => {
                 </div>
                 <div className={styles.detailsItem}>
                   <span>Release year: </span>
-                  <BlockLink
-                    property="year"
-                    value={seasons[index].year}
-                    variant="ocean"
-                    className={styles.year}
-                  />
+                  <RouterLink to={buildLink('year', seasons[index].year)}>
+                    {seasons[index].year}
+                  </RouterLink>
                 </div>
               </div>
             )}

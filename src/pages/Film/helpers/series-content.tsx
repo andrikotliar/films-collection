@@ -5,13 +5,14 @@ const seriesContent = (series?: SeriesExtension): LinkGroup[] => {
 
   return [
     {
-      value: [
-        `${series.seasons.length} seasons`,
-        `${series.episodesTotal} episodes`,
-      ],
+      value: series.seasons.length,
       property: 'seasons',
-      variant: 'sky',
-      title: 'Series stats',
+      title: 'Seasons',
+    },
+    {
+      value: series.episodesTotal,
+      property: 'episodes',
+      title: 'Episodes',
     },
   ];
 };

@@ -1,25 +1,35 @@
 .dataLinks {
   display: flex;
-  flex-wrap: wrap;
-  gap: 15px 30px;
+  flex-direction: column;
+  padding: 20px;
 }
 
 .row {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 5px;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+  border-bottom: var(--app-border);
+  margin-bottom: 10px;
+}
+
+.row:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
 }
 
 .rowTitle {
-  text-transform: uppercase;
-  font-size: 12px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-weight: bold;
 }
 
 .group {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 15px;
 }
 
 @media (max-width: 500px) {

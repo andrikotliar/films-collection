@@ -1,4 +1,4 @@
-import { CSSProperties, FC, PropsWithChildren } from 'react';
+import { FC, PropsWithChildren } from 'react';
 import styles from './DataRow.module.css';
 import classNames from 'classnames';
 
@@ -20,18 +20,11 @@ const DataRow: FC<Props> = ({
   direction = RowDirection.COLUMN,
 }) => {
   return (
-    <div
-      className={classNames(styles.dataRow, className)}
-      style={
-        {
-          '--direction': direction,
-        } as CSSProperties
-      }
-    >
+    <div className={classNames(styles.dataRow, className, styles[direction])}>
       <span className={styles.title}>{title}</span>
       {children}
     </div>
   );
 };
 
-export { DataRow };
+export { DataRow, RowDirection };

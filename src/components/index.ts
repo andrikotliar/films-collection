@@ -12,4 +12,4 @@ export * from './Accordion';
 export * from './DataArea';
 export * from './DataRow';
 export * from './DataGrid';
-export * from './BlockLink';
+export * from './RouterLink';
