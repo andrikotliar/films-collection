@@ -1,0 +1,13 @@
+.dataLink {
+  font-size: 14px;
+  border: var(--app-border);
+  border-radius: 50px;
+  padding: 5px 15px;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.dataLink:hover {
+  color: #fff;
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}

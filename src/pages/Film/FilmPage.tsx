@@ -56,13 +56,12 @@ const FilmPage = () => {
   return (
     <div className={styles.wrapper}>
       <Title>{film.title}</Title>
+      <DataLinks items={dataLinks} />
       <div className={styles.layout}>
         <div className={classNames(styles.column, styles.leftColumn)}>
           <Media media={film.media} title={film.title} />
         </div>
         <div className={styles.column}>
-          <DataLinks items={dataLinks} />
-
           <Description
             description={film.summary}
             media={film.media}
