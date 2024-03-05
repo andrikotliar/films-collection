@@ -22,16 +22,7 @@ const Profile: FC<Props> = ({ actor }) => {
         />
       </div>
       <div>
-        <h3 className={styles.name}>
-          <Link
-            to={`${buildLink(
-              'actor',
-              JSON.stringify({ id: actor.actorId, name: actor.name }),
-            )}`}
-          >
-            {actor.name}
-          </Link>
-        </h3>
+        <h3 className={styles.name}>{actor.name}</h3>
         <p>{actor.character.name}</p>
       </div>
     </div>

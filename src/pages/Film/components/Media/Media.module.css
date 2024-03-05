@@ -2,10 +2,10 @@
   position: relative;
   flex-shrink: 0;
   overflow: hidden;
+  border-radius: var(--app-border-radius);
 }
 
 .track {
   display: flex;
   transition: transform 0.3s ease;
-  margin-bottom: 10px;
 }
