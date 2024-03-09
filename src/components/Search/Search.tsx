@@ -1,14 +1,12 @@
 import styles from './Search.module.css';
-import { ChangeEvent, useCallback, useEffect, useRef, useState } from 'react';
+import { ChangeEvent, useCallback, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { debounce } from '@/helpers';
 import { Search as SearchIcon } from 'lucide-react';
-import classNames from 'classnames';
 
 const Search = () => {
   const navigate = useNavigate();
-  const searchInputRef = useRef<any>();
-  const [isInputFocused, setIsInputFocused] = useState(false);
+  const searchInputRef = useRef<HTMLInputElement>(null);
 
   const runSearch = (searchValue: string) => {
     if (searchValue.length) {
@@ -17,14 +15,17 @@ const Search = () => {
   };
 
   const focusSearch = (event: KeyboardEvent) => {
-    if (event.key === 'F2') {
+    if (event.key === 'F2' && searchInputRef.current) {
       searchInputRef.current.focus();
     }
   };
 
   const handleSearch = useCallback((event: ChangeEvent<HTMLInputElement>) => {
     runSearch(event.target.value);
-    searchInputRef.current.value = '';
+
+    if (searchInputRef.current) {
+      searchInputRef.current.value = '';
+    }
   }, []);
 
   const debouncedSearch = debounce(handleSearch, 1000);
@@ -37,30 +38,16 @@ const Search = () => {
     };
   }, []);
 
-  const handleFocused = () => {
-    setIsInputFocused(true);
-  };
-
-  const handleBlur = () => {
-    setIsInputFocused(false);
-  };
-
   return (
     <div className={styles.searchWrapper}>
-      <SearchIcon
-        className={classNames(styles.searchIcon, {
-          [styles.focused]: isInputFocused,
-        })}
-      />
       <input
         type="text"
         className={styles.input}
         placeholder="Search by title..."
         onChange={debouncedSearch}
         ref={searchInputRef}
-        onFocus={handleFocused}
-        onBlur={handleBlur}
       />
+      <SearchIcon className={styles.searchIcon} />
     </div>
   );
 };
