@@ -5,8 +5,6 @@ type NavLink = {
   title: string;
   link: string;
   icon?: ReactNode;
-  isDisabled?: boolean;
-  isPrivate?: boolean;
 };
 
 export type { NavLink };

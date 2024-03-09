@@ -66,7 +66,7 @@ const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
   };
 
   const resetFilter = () => {
-    setSearchParams({});
+    setSearchParams({} as URLSearchParams);
   };
 
   return (

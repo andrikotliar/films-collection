@@ -11,6 +11,7 @@
 }
 
 .headerContainer {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -56,17 +57,6 @@
   border: 1px solid transparent;
 }
 
-.navigation {
-  display: none;
-  position: fixed;
-  top: var(--header-height);
-  right: 0;
-  height: var(--app-height);
-  width: 300px;
-  background-color: #fff;
-  border-left: var(--app-border);
-}
-
-.navigation.isOpen {
-  display: block;
+.menuIcon {
+  pointer-events: none;
 }
