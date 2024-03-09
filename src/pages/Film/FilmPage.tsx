@@ -15,6 +15,7 @@ import {
   CrewList,
   BoxOffice,
   Media,
+  Details,
 } from './components';
 import { useDocumentTitle } from '@/hooks';
 import { getDataLinkConfig } from '@/pages/Film/helpers';
@@ -73,6 +74,11 @@ const FilmPage = () => {
           <section>
             <SectionTitle>Cast and characters</SectionTitle>
             <Cast cast={film.cast} />
+          </section>
+
+          <section>
+            <SectionTitle>Details</SectionTitle>
+            <Details film={film} />
           </section>
 
           {film.awards && (

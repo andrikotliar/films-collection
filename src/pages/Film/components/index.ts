@@ -9,3 +9,4 @@ export * from './DataLinks';
 export * from './Description';
 export * from './BoxOffice';
 export * from './SeriesDetails';
+export * from './Details';
