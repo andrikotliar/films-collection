@@ -1,15 +1,10 @@
 {
-  "name": "films-collection",
+  "name": "films-collection-frontend",
   "private": true,
   "type": "module",
   "scripts": {
-    "generate:db": "node --no-warnings ./utils/generate-db",
-    "dev": "npm run generate:db && vite",
-    "build": "npm run generate:db && tsc && vite build",
-    "preview": "vite preview",
-    "prettier": "prettier ./src/**/*.{tsx,ts} --write",
-    "create": "node --no-warnings ./utils/create-file",
-    "update:bulk": "node --no-warnings ./utils/bulk-update write"
+    "dev": "vite",
+    "build": "npm run generate:db && tsc && vite build"
   },
   "dependencies": {
     "axios": "^1.4.0",
