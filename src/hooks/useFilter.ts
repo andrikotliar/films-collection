@@ -5,7 +5,7 @@ import { useSearchParams } from 'react-router-dom';
 
 export const useFilter = (): [
   DynamicObject,
-  (params: URLSearchParams) => void,
+  (params: DynamicObject) => void,
 ] => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [filterParams, setFilterParams] = useState<DynamicObject>({});
