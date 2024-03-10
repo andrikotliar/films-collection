@@ -1,4 +1,4 @@
-import classes from './LegendItem.module.css';
+import styles from './LegendItem.module.css';
 import { FC } from 'react';
 
 enum LegendColorsEnum {
@@ -11,17 +11,14 @@ type LegendColorProps = {
   color: LegendColorsEnum;
 };
 
-type LegendProps = {
+type Props = {
   type: 'Budget' | 'Box Office';
 } & Partial<LegendColorProps>;
 
-const LegendItem: FC<LegendProps> = ({
-  type,
-  color = LegendColorsEnum.YELLOW,
-}) => {
+const LegendItem: FC<Props> = ({ type, color = LegendColorsEnum.YELLOW }) => {
   return (
     <div
-      className={classes.legendItem}
+      className={styles.legendItem}
       style={{
         color,
       }}

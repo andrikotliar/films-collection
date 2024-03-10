@@ -142,7 +142,7 @@
   ],
   "collections": [
     {
-      "title": "Fantasy"
+      "title": "Fantasy Worlds"
     }
   ],
   "budget": 100000000,
@@ -162,17 +162,16 @@
   ],
   "boxOffice": 384000000,
   "year": 2006,
-  "summary": {
-    "sections": [
-      {
-        "text": "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!"
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!"
+    }
+  ],
   "media": [
     {
       "poster": "happy_feet.webp",
       "trailer": "hFUC5adf8FE"
     }
-  ]
+  ],
+  "rating": 2
 }

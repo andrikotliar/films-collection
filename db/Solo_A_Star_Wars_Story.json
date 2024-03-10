@@ -161,13 +161,11 @@
   ],
   "boxOffice": 393000000,
   "year": 2018,
-  "summary": {
-    "sections": [
-      {
-        "text": "During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion."
+    }
+  ],
   "chapters": {
     "title": "Star Wars Universe",
     "part": 5
@@ -177,5 +175,6 @@
       "poster": "solo.webp",
       "trailer": "jPEYpryMp2s"
     }
-  ]
+  ],
+  "rating": 1
 }

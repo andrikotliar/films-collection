@@ -151,13 +151,11 @@
   "budget": 140000000,
   "boxOffice": 371000000,
   "year": 2011,
-  "summary": {
-    "sections": [
-      {
-        "text": "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization."
+    }
+  ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 5
@@ -167,5 +165,6 @@
       "poster": "captain_america_1.webp",
       "trailer": "JerVrbLldXw"
     }
-  ]
+  ],
+  "rating": 1
 }

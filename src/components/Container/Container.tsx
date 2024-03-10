@@ -1,17 +1,14 @@
-import classes from './Container.module.css';
-import { FC, PropsWithChildren } from 'react';
-import classNames from 'classnames';
 import { PropsWithClassName } from '@/common';
+import { FC, PropsWithChildren } from 'react';
+import styles from './styles.module.css';
+import classNames from 'classnames';
 
-const Container: FC<
-  PropsWithChildren<PropsWithClassName>
-> = ({ className, children }) => {
+const Container: FC<PropsWithChildren<PropsWithClassName>> = ({
+  children,
+  className,
+}) => {
   return (
-    <div
-      className={classNames(classes.container, className)}
-    >
-      {children}
-    </div>
+    <div className={classNames(styles.container, className)}>{children}</div>
   );
 };
 

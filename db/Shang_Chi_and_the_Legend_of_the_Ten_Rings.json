@@ -149,13 +149,11 @@
   "budget": 150000000,
   "boxOffice": 430000000,
   "year": 2021,
-  "summary": {
-    "sections": [
-      {
-        "text": "Shang-Chi, the master of unarmed weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Shang-Chi, the master of unarmed weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization."
+    }
+  ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 27
@@ -165,5 +163,6 @@
       "poster": "shang_chi.webp",
       "trailer": "COGg-Vjauwo"
     }
-  ]
+  ],
+  "rating": 2
 }

@@ -127,13 +127,11 @@
   ],
   "boxOffice": 589000000,
   "year": 1997,
-  "summary": {
-    "sections": [
-      {
-        "text": "A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth."
+    }
+  ],
   "chapters": {
     "title": "Men in Black",
     "part": 1
@@ -143,5 +141,6 @@
       "poster": "mib_1.webp",
       "trailer": "1Q4mhYF9aQQ"
     }
-  ]
+  ],
+  "rating": 2
 }

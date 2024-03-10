@@ -1,31 +1,34 @@
-import classes from './CrewItem.module.css';
+import styles from './CrewItem.module.css';
 import { FC } from 'react';
-import { Link } from 'react-router-dom';
 import { buildLink } from '@/helpers';
 import { Crew } from '@/common';
+import { DataRow, RouterLink } from '@/components';
 
-const CrewItem: FC<{ crewItem: Crew }> = ({ crewItem }) => {
+type Props = {
+  crewItem: Crew;
+};
+
+const CrewItem: FC<Props> = ({ crewItem }) => {
   return (
-    <div className={classes.crewItem}>
-      <h3 className={classes.title}>{crewItem.role}</h3>
-      <ul className={classes.list}>
+    <DataRow title={crewItem.role}>
+      <ul className={styles.list}>
         {crewItem.people.map((person, idx) => (
-          <li className={classes.person} key={idx}>
-            <Link
+          <li className={styles.person} key={idx}>
+            <RouterLink
               to={buildLink('crew', {
                 role: crewItem.role,
                 name: person.name,
               })}
             >
               {person.name}
-            </Link>
+            </RouterLink>
             {person.comment && (
-              <span className={classes.comment}>({person.comment})</span>
+              <span className={styles.comment}>({person.comment})</span>
             )}
           </li>
         ))}
       </ul>
-    </div>
+    </DataRow>
   );
 };
 

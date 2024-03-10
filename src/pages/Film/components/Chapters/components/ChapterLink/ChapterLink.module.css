@@ -3,8 +3,8 @@
   flex-direction: column;
   gap: 5px;
   text-align: center;
-  height: 100%;
   width: 130px;
+  height: 200px;
   flex-shrink: 0;
 }
 .link img {
@@ -12,4 +12,9 @@
   height: 100%;
   object-fit: cover;
   border-radius: 5px;
+}
+.active {
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none;
 }

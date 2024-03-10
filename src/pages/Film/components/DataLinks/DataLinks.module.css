@@ -1,7 +1,6 @@
 .dataLinks {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   gap: 15px;
 }
 
@@ -9,11 +8,4 @@
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
-}
-
-@media (max-width: 500px) {
-  .links {
-    gap: 10px;
-    font-size: 14px;
-  }
 }

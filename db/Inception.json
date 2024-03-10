@@ -198,17 +198,16 @@
   ],
   "boxOffice": 828000000,
   "year": 2010,
-  "summary": {
-    "sections": [
-      {
-        "text": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO."
+    }
+  ],
   "media": [
     {
       "poster": "inception.webp",
       "trailer": "YoHD9XEInc0"
     }
-  ]
+  ],
+  "rating": 2
 }

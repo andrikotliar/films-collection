@@ -191,18 +191,16 @@
   ],
   "collections": [
     {
-      "title": "Fantasy"
+      "title": "Fantasy Worlds"
     }
   ],
   "year": 2021,
-  "summary": {
-    "sections": [
-      {
-        "title": "Season 1",
-        "text": "Set in utopian Piltover and the oppressed underground of Zaun, the story follows the origins of two iconic League champions-and the power that will tear them apart."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "title": "Season 1",
+      "text": "Set in utopian Piltover and the oppressed underground of Zaun, the story follows the origins of two iconic League champions-and the power that will tear them apart."
+    }
+  ],
   "series": {
     "episodesTotal": 9,
     "seasons": [
@@ -219,5 +217,6 @@
       "trailer": "3Svs_hl897c",
       "caption": "Season 1"
     }
-  ]
+  ],
+  "rating": 2
 }

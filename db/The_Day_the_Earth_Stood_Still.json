@@ -153,17 +153,16 @@
   ],
   "boxOffice": 233000000,
   "year": 2008,
-  "summary": {
-    "sections": [
-      {
-        "text": "A remake of the 1951 classic science fiction film about an alien visitor and his giant robot counterpart who visit Earth."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "A remake of the 1951 classic science fiction film about an alien visitor and his giant robot counterpart who visit Earth."
+    }
+  ],
   "media": [
     {
       "poster": "day_the_earth_stood_still.webp",
       "trailer": "6QFcZohER3s"
     }
-  ]
+  ],
+  "rating": 2
 }

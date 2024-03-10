@@ -1,8 +1,8 @@
-import classes from './FilmPage.module.css';
-import { useEffect, useState } from 'react';
+import styles from './FilmPage.module.css';
+import { useEffect, useMemo, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useFilmsContext } from '@/context';
-import { Container, Loader } from '@/components';
+import { Loader } from '@/components';
 import { FilmData } from '@/common';
 import {
   Title,
@@ -13,13 +13,13 @@ import {
   Awards,
   Chapters,
   CrewList,
-  Details,
   BoxOffice,
-  SeriesDetails,
   Media,
+  Details,
 } from './components';
 import { useDocumentTitle } from '@/hooks';
-import { seriesContent } from '@/pages/Film/helpers';
+import { getDataLinkConfig } from '@/pages/Film/helpers';
+import classNames from 'classnames';
 
 const FilmPage = () => {
   const { id } = useParams();
@@ -42,63 +42,49 @@ const FilmPage = () => {
     }
   }, [id, initialFilmsList]);
 
+  const dataLinks = useMemo(() => {
+    if (!film) {
+      return [];
+    }
+
+    return getDataLinkConfig(film);
+  }, [film]);
+
   if (film === null) {
-    return (
-      <article className="film container">
-        <div className="film-loader">
-          <Loader isFullPage />
-        </div>
-      </article>
-    );
+    return <Loader isFullPage />;
   }
 
-  const seriesData = seriesContent(film.series);
-
   return (
-    <Container className={classes.wrapper}>
-      <section className={classes.general}>
-        <Title>{film.title}</Title>
-        <DataLinks
-          items={[
-            {
-              value: film.year,
-              color: 'primary',
-              property: 'year',
-            },
-            {
-              value: film.genres,
-              property: 'genres',
-            },
-            {
-              value: film.duration,
-              property: 'duration',
-              color: 'secondary',
-              suffix: 'min',
-            },
-            ...seriesData,
-          ]}
-        />
-      </section>
-      <div className={classes.layout}>
-        <Media media={film.media} title={film.title} />
+    <div className={styles.wrapper}>
+      <Title>{film.title}</Title>
+      <DataLinks items={dataLinks} />
+      <div className={styles.layout}>
+        <div className={classNames(styles.column, styles.leftColumn)}>
+          <Media media={film.media} title={film.title} />
+        </div>
+        <div className={styles.column}>
+          <section>
+            <SectionTitle>Description</SectionTitle>
+            <Description
+              description={film.summary}
+              media={film.media}
+              seasons={film?.series?.seasons}
+            />
+          </section>
 
-        <div className={classes.content}>
-          <Description description={film.summary.sections} />
-
-          <CrewList crew={film.crew} />
-
-          {film.type.includes('Series') &&
-            film.series &&
-            film.series.seasons.length > 1 && (
-              <section>
-                <SectionTitle>Series Details</SectionTitle>
-                <SeriesDetails series={film.series} />
-              </section>
-            )}
+          <section>
+            <SectionTitle>Crew</SectionTitle>
+            <CrewList crew={film.crew} />
+          </section>
 
           <section>
             <SectionTitle>Cast and characters</SectionTitle>
             <Cast cast={film.cast} />
+          </section>
+
+          <section>
+            <SectionTitle>Details</SectionTitle>
+            <Details film={film} />
           </section>
 
           {film.awards && (
@@ -107,11 +93,6 @@ const FilmPage = () => {
               <Awards awards={film.awards} />
             </section>
           )}
-
-          <section>
-            <SectionTitle>Extra Details</SectionTitle>
-            <Details filmData={film} />
-          </section>
 
           {(film.budget || film.boxOffice) && (
             <section>
@@ -128,7 +109,7 @@ const FilmPage = () => {
           )}
         </div>
       </div>
-    </Container>
+    </div>
   );
 };
 

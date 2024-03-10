@@ -1,32 +1,24 @@
 .controls {
+  position: absolute;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  color: #fff;
-  font-size: 14px;
-  position: absolute;
   left: 0;
   top: 0;
   width: 100%;
-  background-color: rgb(0 0 0 / 80%);
-  padding: 10px;
-  text-align: center;
+  height: 100%;
 }
 
 .slideControl {
+  display: flex;
+  align-items: center;
   font-size: 0;
+  transition: background-color 0.3s;
+}
+
+.slideControl:hover {
+  background-color: rgb(0 0 0 / 40%);
 }
 
 .arrow {
-  width: 20px;
-  fill: #fff;
-}
-
-.arrowLeft {
-  transform: rotate(90deg);
-}
-
-.arrowRight {
-  transform: rotate(-90deg);
+  width: 30px;
 }

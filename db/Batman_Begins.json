@@ -192,13 +192,11 @@
   ],
   "boxOffice": 375000000,
   "year": 2005,
-  "summary": {
-    "sections": [
-      {
-        "text": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption."
+    }
+  ],
   "chapters": {
     "title": "The Dark Knight",
     "part": 1
@@ -208,5 +206,6 @@
       "poster": "batman_1.webp",
       "trailer": "neY2xVmOfUM"
     }
-  ]
+  ],
+  "rating": 2
 }

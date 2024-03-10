@@ -1,21 +1,31 @@
-import classes from './Actor.module.css';
 import { FC } from 'react';
-import { Character } from '@/pages/Film/components/Cast/components/Character/Character';
-import { Profile } from '@/pages/Film/components/Cast/components/Profile/Profile';
+import { Link } from 'react-router-dom';
 import { CastType } from '@/common';
+import { buildLink } from '@/helpers';
 
-type ActorProps = {
+import { Character } from '../Character/Character';
+import { Profile } from '../Profile/Profile';
+
+import styles from './Actor.module.css';
+
+type Props = {
   actor: CastType;
 };
 
-const Actor: FC<ActorProps> = ({ actor }) => {
+const Actor: FC<Props> = ({ actor }) => {
   return (
-    <div className={classes.actor} id={actor.actorId}>
+    <Link
+      to={`${buildLink(
+        'actor',
+        JSON.stringify({ id: actor.actorId, name: actor.name }),
+      )}`}
+      className={styles.actor}
+    >
       <Profile actor={actor} />
       {actor.character.imageUrl?.length !== 0 && (
         <Character character={actor.character} key={actor.character.imageUrl} />
       )}
-    </div>
+    </Link>
   );
 };
 

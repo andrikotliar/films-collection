@@ -9,6 +9,8 @@ const handleSearchFilter = (searchQuery: string, title: string) => {
   return filteredWords.every((w) => w.length > 2 && lowerTitle.includes(w));
 };
 
+const NUMBER_FILTER = ['duration'];
+
 export const filterFilms = (
   list: FilmData[],
   filterParams: any,
@@ -32,7 +34,9 @@ export const filterFilms = (
           const crewPosition = film.crew.find(
             (item) => item.role === crew.role,
           );
-          return crewPosition?.people.find((ppl) => ppl.name === crew.name);
+          return crewPosition?.people.find(
+            (person) => person.name === crew.name,
+          );
         }
 
         if (property === 'duration') {
@@ -40,10 +44,10 @@ export const filterFilms = (
         }
 
         if (property === 'year') {
-          const years = [
-            film.year,
-            film.series?.seasons.map((season) => season.year),
-          ];
+          const years = [film.year];
+          if (film.series) {
+            film.series.seasons.forEach((season) => years.push(season.year));
+          }
           return years.some((year) => params[property].includes(String(year)));
         }
 

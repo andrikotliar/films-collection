@@ -148,13 +148,11 @@
   "budget": 200000000,
   "boxOffice": 624000000,
   "year": 2010,
-  "summary": {
-    "sections": [
-      {
-        "text": "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy."
+    }
+  ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 3
@@ -164,5 +162,6 @@
       "poster": "iron_man_2.webp",
       "trailer": "BoohRoVA9WQ"
     }
-  ]
+  ],
+  "rating": 1
 }

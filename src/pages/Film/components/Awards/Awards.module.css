@@ -1,14 +1,5 @@
-.awards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px;
-}
-
 .award {
-  border-radius: var(--app-border-radius);
   overflow: hidden;
-  padding: 15px;
-  background-color: #f7f7f7;
 }
 
 .header {

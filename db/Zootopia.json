@@ -142,7 +142,7 @@
   ],
   "collections": [
     {
-      "title": "Fantasy"
+      "title": "Fantasy Worlds"
     }
   ],
   "budget": 150000000,
@@ -168,17 +168,16 @@
   ],
   "boxOffice": 1020000000,
   "year": 2016,
-  "summary": {
-    "sections": [
-      {
-        "text": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy."
+    }
+  ],
   "media": [
     {
       "poster": "zootopia.webp",
       "trailer": "jWM0ct-OLsM"
     }
-  ]
+  ],
+  "rating": 3
 }

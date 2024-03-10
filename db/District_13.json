@@ -107,18 +107,22 @@
   "collections": [
     {
       "title": "Dystopia"
+    },
+    {
+      "title": "Criminals"
+    },
+    {
+      "title": "Martial Arts"
     }
   ],
   "budget": 14000000,
   "boxOffice": 12000000,
   "year": 2004,
-  "summary": {
-    "sections": [
-      {
-        "text": "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb."
+    }
+  ],
   "chapters": {
     "title": "District 13",
     "part": 1
@@ -128,5 +132,6 @@
       "poster": "d13_1.webp",
       "trailer": "Mcmkx1klOpE"
     }
-  ]
+  ],
+  "rating": 2
 }

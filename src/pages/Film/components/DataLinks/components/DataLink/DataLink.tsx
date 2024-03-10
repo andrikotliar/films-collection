@@ -1,34 +1,17 @@
-import classes from './DataLink.module.css';
+import { DataLinkType } from '@/common';
 import { FC } from 'react';
-import { Link } from 'react-router-dom';
-import classNames from 'classnames';
 import { buildLink } from '@/helpers';
+import { Link } from 'react-router-dom';
+import styles from './DataLink.module.css';
 
-type DataLinkType = {
-  property: string;
-  value: string | number | string[];
-  suffix?: string;
-  color?: 'primary' | 'secondary' | 'extra';
-};
+type Props = DataLinkType;
 
-const DataLink: FC<DataLinkType> = ({
-  property,
-  value,
-  suffix,
-  color = 'main',
-}) => {
+const DataLink: FC<Props> = ({ property, value, suffix }) => {
   return (
-    <Link
-      to={buildLink(property, value)}
-      className={classNames(
-        classes.dataLink,
-        classes[color],
-      )}
-    >
+    <Link to={buildLink(property, value)} className={styles.dataLink}>
       {value} {suffix}
     </Link>
   );
 };
 
 export { DataLink };
-export type { DataLinkType };

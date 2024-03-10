@@ -136,7 +136,7 @@
   ],
   "collections": [
     {
-      "title": "Fantasy"
+      "title": "Fantasy Worlds"
     }
   ],
   "awards": [
@@ -148,13 +148,11 @@
     }
   ],
   "year": 2006,
-  "summary": {
-    "sections": [
-      {
-        "text": "Librarian-turned-adventurer Flynn Carsen endeavors to find King Solomon's mines."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Librarian-turned-adventurer Flynn Carsen endeavors to find King Solomon's mines."
+    }
+  ],
   "chapters": {
     "title": "The Librarian",
     "part": 2
@@ -164,5 +162,6 @@
       "poster": "librarian_2.webp",
       "trailer": "ansvc2Muxr0"
     }
-  ]
+  ],
+  "rating": 1
 }

@@ -1,4 +1,4 @@
-import classes from './PageTitle.module.css';
+import styles from './PageTitle.module.css';
 import { useFilmsContext } from '@/context';
 import { DynamicObject } from '@/common';
 
@@ -16,7 +16,7 @@ const PageTitle = () => {
       return (
         <>
           <span>Starred:</span>{' '}
-          <span className={classes.accent}>{actor.name}</span>
+          <span className={styles.accent}>{actor.name}</span>
         </>
       );
     }
@@ -27,7 +27,7 @@ const PageTitle = () => {
       return (
         <>
           <span>{crew.role}</span>{' '}
-          <span className={classes.accent}>{crew.name}</span>
+          <span className={styles.accent}>{crew.name}</span>
         </>
       );
     }
@@ -37,7 +37,7 @@ const PageTitle = () => {
 
   const value = currentDisplayValue(filterParams);
 
-  return <h2 className={classes.pageTitle}>{value}</h2>;
+  return <h2 className={styles.pageTitle}>{value}</h2>;
 };
 
 export { PageTitle };

@@ -1,32 +1,24 @@
-import classes from './FormCheckbox.module.css';
+import styles from './FormCheckbox.module.css';
 import { FC } from 'react';
-import { Checkmark } from '@/assets/icons';
 import { useFormContext } from 'react-hook-form';
+import { Check } from 'lucide-react';
 
-type FormCheckboxProps = {
+type Props = {
   type: 'checkbox' | 'radio';
   value: string | number;
   name: string;
 };
 
-const FormCheckbox: FC<FormCheckboxProps> = ({
-  type = 'checkbox',
-  value,
-  name,
-}) => {
+const FormCheckbox: FC<Props> = ({ type = 'checkbox', value, name }) => {
   const { register } = useFormContext();
 
   return (
-    <label className={classes.formCheckbox}>
-      <input
-        type={type}
-        value={value}
-        {...register(name)}
-      />
-      <div className={classes.icon}>
-        <Checkmark />
+    <label className={styles.formCheckbox}>
+      <input type={type} value={value} {...register(name)} />
+      <div className={styles.iconWrapper}>
+        <Check className={styles.icon} />
       </div>
-      <div className={classes.title}>{value}</div>
+      <div className={styles.title}>{value}</div>
     </label>
   );
 };

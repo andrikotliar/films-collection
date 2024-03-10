@@ -217,22 +217,20 @@
   ],
   "collections": [
     {
-      "title": "Fantasy"
+      "title": "Fantasy Worlds"
     }
   ],
   "year": 2019,
-  "summary": {
-    "sections": [
-      {
-        "title": "Season 1",
-        "text": "In the first season, Geralt of Rivia, a monster hunter known as a Witcher, navigates a world filled with dangerous creatures and complex political intrigue. He crosses paths with Yennefer, a powerful sorceress, and Ciri, a young princess with a destiny tied to his own. The three destinies converge in a world where the line between good and evil is blurred."
-      },
-      {
-        "title": "Season 2",
-        "text": "Geralt embraces his destiny as he protects Ciri from the forces battling for control of the Continent — and from the mysterious power she possesses."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "title": "Season 1",
+      "text": "In the first season, Geralt of Rivia, a monster hunter known as a Witcher, navigates a world filled with dangerous creatures and complex political intrigue. He crosses paths with Yennefer, a powerful sorceress, and Ciri, a young princess with a destiny tied to his own. The three destinies converge in a world where the line between good and evil is blurred."
+    },
+    {
+      "title": "Season 2",
+      "text": "Geralt embraces his destiny as he protects Ciri from the forces battling for control of the Continent — and from the mysterious power she possesses."
+    }
+  ],
   "series": {
     "episodesTotal": 16,
     "seasons": [
@@ -259,5 +257,6 @@
       "trailer": "2aMVzFlApa0",
       "caption": "Season 2"
     }
-  ]
+  ],
+  "rating": 2
 }

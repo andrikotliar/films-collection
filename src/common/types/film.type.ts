@@ -66,9 +66,7 @@ type FilmData = {
   genres: string[];
   production: string[];
   crew: Crew[];
-  summary: {
-    sections: Summary[];
-  };
+  summary: Summary[];
   countries: string[];
   year: number;
   duration: number;
@@ -80,6 +78,7 @@ type FilmData = {
   awards?: Award[];
   ordered?: boolean;
   series?: SeriesExtension;
+  rating: number;
 };
 
 export type {

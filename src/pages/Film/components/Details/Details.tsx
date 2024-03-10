@@ -1,31 +1,34 @@
+import { DataArea, DataRow, RouterLink } from '@/components';
+import { detailsConfig } from './details-config';
 import { FC } from 'react';
 import { FilmData } from '@/common';
-import { DetailsGroup } from './components';
 
-const Details: FC<{ filmData: FilmData }> = ({
-  filmData,
-}) => {
-  const collections = filmData.collections.map(
-    collection => collection.title,
-  );
+import styles from './Details.module.css';
+import { buildLink } from '@/helpers';
+
+type Props = {
+  film: FilmData;
+};
+
+const Details: FC<Props> = ({ film }) => {
   return (
-    <div>
-      <DetailsGroup
-        title="Countries"
-        values={filmData.countries}
-        linkParameter="countries"
-      />
-      <DetailsGroup
-        title="Production"
-        values={filmData.production}
-        linkParameter="production"
-      />
-      <DetailsGroup
-        title="Collections"
-        values={collections}
-        linkParameter="collections"
-      />
-    </div>
+    <DataArea>
+      {detailsConfig.map((item) => (
+        <DataRow key={item.property} title={item.title}>
+          <div className={styles.detailsRow}>
+            {film[item.property].map((link) => {
+              const value = typeof link === 'string' ? link : link.title;
+
+              return (
+                <RouterLink to={buildLink(item.property, value)} key={value}>
+                  {value}
+                </RouterLink>
+              );
+            })}
+          </div>
+        </DataRow>
+      ))}
+    </DataArea>
   );
 };
 

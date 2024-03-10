@@ -1,14 +1,17 @@
 import { FC, useMemo } from 'react';
-import classes from './Pagination.module.css';
+import styles from './Pagination.module.css';
 import { useFilter } from '@/hooks';
 import classNames from 'classnames';
+import { useFilmsContext } from '@/context';
+import { PER_PAGE } from '@/common';
 
-type PaginationProps = {
+type Props = {
   count: number;
 };
 
-const Pagination: FC<PaginationProps> = ({ count }) => {
+const Pagination: FC<Props> = ({ count }) => {
   const [params, setSearchParams] = useFilter();
+  const { initialFilmsList } = useFilmsContext();
 
   const activePage = useMemo(() => {
     if (!params.pageIndex) {
@@ -30,18 +33,26 @@ const Pagination: FC<PaginationProps> = ({ count }) => {
   };
 
   return (
-    <div className={classes.pagination}>
-      {Array.from({ length: count }, (_, index) => (
-        <button
-          className={classNames(classes.pageButton, {
-            [classes.active]: activePage === index,
-          })}
-          key={index}
-          onClick={handlePage(index)}
-        >
-          {index + 1}
-        </button>
-      ))}
+    <div className={styles.pagination}>
+      <div className={styles.pages}>
+        {Array.from({ length: count }, (_, index) => (
+          <button
+            className={classNames(styles.pageButton, {
+              [styles.active]: activePage === index,
+            })}
+            key={index}
+            onClick={handlePage(index)}
+          >
+            {index + 1}
+          </button>
+        ))}
+      </div>
+      <div className={styles.stats}>
+        <span className={styles.currentState}>
+          {activePage * PER_PAGE + 1} - {(activePage + 1) * PER_PAGE}
+        </span>{' '}
+        <span>/ {initialFilmsList.length} films</span>
+      </div>
     </div>
   );
 };

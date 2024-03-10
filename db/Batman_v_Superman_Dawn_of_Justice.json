@@ -149,13 +149,11 @@
   "budget": 250000000,
   "boxOffice": 874000000,
   "year": 2016,
-  "summary": {
-    "sections": [
-      {
-        "text": "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs."
+    }
+  ],
   "chapters": {
     "title": "DC Extended Universe",
     "part": 2
@@ -165,5 +163,6 @@
       "poster": "batman_v_superman.webp",
       "trailer": "bha24P9uw-E"
     }
-  ]
+  ],
+  "rating": 1
 }

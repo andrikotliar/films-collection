@@ -1,28 +1,26 @@
-import classes from './DataLinks.module.css';
+import styles from './DataLinks.module.css';
 import { FC } from 'react';
-import {
-  DataLink,
-  DataLinkType,
-} from '@/pages/Film/components/DataLinks/components';
+import { LinkGroup } from '@/common';
+import { DataLink } from './components';
 
-type DataLinksProps = {
-  items: DataLinkType[];
+type Props = {
+  items: LinkGroup[];
 };
 
-const DataLinks: FC<DataLinksProps> = ({ items }) => {
+const DataLinks: FC<Props> = ({ items }) => {
   return (
-    <div className={classes.dataLinks}>
-      {items.map((item, index) =>
-        Array.isArray(item.value) ? (
-          <div className={classes.group} key={index}>
-            {item.value.map((val) => (
-              <DataLink {...item} value={val} key={val} />
-            ))}
-          </div>
-        ) : (
-          <DataLink {...item} key={item.property} />
-        ),
-      )}
+    <div className={styles.dataLinks}>
+      {items.map((item, index) => (
+        <div className={styles.group} key={index}>
+          {Array.isArray(item.value) ? (
+            item.value.map((value) => (
+              <DataLink {...item} value={value} key={value} />
+            ))
+          ) : (
+            <DataLink {...item} />
+          )}
+        </div>
+      ))}
     </div>
   );
 };

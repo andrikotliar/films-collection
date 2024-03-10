@@ -158,13 +158,11 @@
   ],
   "boxOffice": 649000000,
   "year": 2002,
-  "summary": {
-    "sections": [
-      {
-        "text": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi."
+    }
+  ],
   "chapters": {
     "title": "Star Wars Universe",
     "part": 2
@@ -174,5 +172,6 @@
       "poster": "star_wars_episode_II.webp",
       "trailer": "gYbW1F_c9eM"
     }
-  ]
+  ],
+  "rating": 2
 }

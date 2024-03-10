@@ -189,13 +189,11 @@
   ],
   "boxOffice": 1670000000,
   "year": 2015,
-  "summary": {
-    "sections": [
-      {
-        "text": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree."
+    }
+  ],
   "chapters": {
     "title": "Jurassic Park",
     "part": 4
@@ -205,5 +203,6 @@
       "poster": "jurassic_world.webp",
       "trailer": "RFinNxS5KN4"
     }
-  ]
+  ],
+  "rating": 2
 }

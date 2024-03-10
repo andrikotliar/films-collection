@@ -138,13 +138,11 @@
   "budget": 250000000,
   "boxOffice": 960000000,
   "year": 2010,
-  "summary": {
-    "sections": [
-      {
-        "text": "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows."
+    }
+  ],
   "chapters": {
     "title": "Harry Potter Universe",
     "part": 9
@@ -154,5 +152,6 @@
       "poster": "harry_potter_7.webp",
       "trailer": "MxqsmsA8y5k"
     }
-  ]
+  ],
+  "rating": 3
 }

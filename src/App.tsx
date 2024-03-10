@@ -1,17 +1,17 @@
 import { Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { AppWrapper, Header, Loader } from './components';
-import { FilmPage, MainPage, AboutPage } from './pages';
+import { AppWrapper, Loader } from './components';
+import { FilmPage, MainPage, AboutPage, StatisticPage } from './pages';
 
 const App = () => {
   return (
     <AppWrapper>
-      <Header />
       <Suspense fallback={<Loader isFullPage />}>
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/film/:id" element={<FilmPage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/stats" element={<StatisticPage />} />
         </Routes>
       </Suspense>
     </AppWrapper>

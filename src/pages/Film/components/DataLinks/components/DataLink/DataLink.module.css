@@ -1,22 +1,13 @@
 .dataLink {
-  border-radius: var(--app-border-radius);
-  padding: 5px 20px;
-  transition: background-color 0.3s;
+  font-size: 14px;
+  border: var(--app-border);
+  border-radius: 50px;
+  padding: 5px 15px;
+  transition: background-color 0.2s, border-color 0.2s;
 }
 
-.main {
-  background-color: var(--light-yellow);
-}
-
-.primary {
-  background-color: var(--main-color);
+.dataLink:hover {
   color: #fff;
-}
-
-.secondary {
-  background-color: #f2f2f2; 
-}
-
-.extra {
-  background-color: #80DEEA;
+  background-color: var(--main-color);
+  border-color: var(--main-color);
 }

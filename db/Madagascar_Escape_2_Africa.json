@@ -129,19 +129,17 @@
   ],
   "collections": [
     {
-      "title": "Fantasy"
+      "title": "Fantasy Worlds"
     }
   ],
   "budget": 150000000,
   "boxOffice": 604000000,
   "year": 2008,
-  "summary": {
-    "sections": [
-      {
-        "text": "The Madagascar animals fly back to New York City, but crash-land on an African nature reserve, where they meet others of their own kind, and Alex especially discovers his royal heritage as prince of a lion pride."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "The Madagascar animals fly back to New York City, but crash-land on an African nature reserve, where they meet others of their own kind, and Alex especially discovers his royal heritage as prince of a lion pride."
+    }
+  ],
   "chapters": {
     "title": "Madagascar",
     "part": 2
@@ -151,5 +149,6 @@
       "poster": "madagascar_2.webp",
       "trailer": "hLVjIhPYq7s"
     }
-  ]
+  ],
+  "rating": 2
 }

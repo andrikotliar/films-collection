@@ -137,23 +137,22 @@
   ],
   "collections": [
     {
-      "title": "True Story"
+      "title": "Criminals"
     }
   ],
   "budget": 50000000,
   "boxOffice": 135000000,
   "year": 2017,
-  "summary": {
-    "sections": [
-      {
-        "text": "The story of Barry Seal, an American pilot who became a drug-runner for the CIA in the 1980s in a clandestine operation that would be exposed as the Iran-Contra Affair."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "The story of Barry Seal, an American pilot who became a drug-runner for the CIA in the 1980s in a clandestine operation that would be exposed as the Iran-Contra Affair."
+    }
+  ],
   "media": [
     {
       "poster": "american_made.webp",
       "trailer": "AEBIJRAkujM"
     }
-  ]
+  ],
+  "rating": 2
 }

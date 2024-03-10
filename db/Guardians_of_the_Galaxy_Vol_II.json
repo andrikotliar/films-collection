@@ -172,13 +172,11 @@
   ],
   "boxOffice": 864000000,
   "year": 2017,
-  "summary": {
-    "sections": [
-      {
-        "text": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage."
+    }
+  ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 15
@@ -188,5 +186,6 @@
       "poster": "guardians_of_the_galaxy_2.webp",
       "trailer": "wUn05hdkhjM"
     }
-  ]
+  ],
+  "rating": 2
 }

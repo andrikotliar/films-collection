@@ -144,7 +144,7 @@
   ],
   "collections": [
     {
-      "title": "True Story"
+      "title": "Sport"
     }
   ],
   "awards": [
@@ -164,14 +164,12 @@
     }
   ],
   "year": 2020,
-  "summary": {
-    "sections": [
-      {
-        "title": "Season 1",
-        "text": "Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s USA. But child stardom comes at a price."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "title": "Season 1",
+      "text": "Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s USA. But child stardom comes at a price."
+    }
+  ],
   "series": {
     "episodesTotal": 7,
     "seasons": [
@@ -188,5 +186,6 @@
       "trailer": "oZn3qSgmLqI",
       "caption": "Season 1"
     }
-  ]
+  ],
+  "rating": 1
 }

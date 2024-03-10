@@ -3,25 +3,29 @@
   --main-color-rgb: 0, 109, 183;
   --green: #00B5C6;
   --light-yellow: #ffedd6;
+  --gray: #ddd;
+  --gray-invisible: #fdfdfd;
+  --gray-light: #f2f2f2;
 
   --main-gradient: linear-gradient(45deg, var(--main-color), var(--green));
-  --app-border: 1px solid #ddd;
+  --app-border: 1px solid var(--gray);
   --app-border-radius: 8px;
 
   --main-padding: 20px;
   --header-height: 60px;
   --app-height: calc(100vh - var(--header-height));
+  --default-column-width: minmax(260px, 1fr);
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("./assets/fonts/Roboto-Regular.woff2");
+  src: url("/fonts/Roboto-Regular.woff2");
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("./assets/fonts/Roboto-Bold.woff2");
+  src: url("/fonts/Roboto-Bold.woff2");
   font-weight: bold;
 }
 

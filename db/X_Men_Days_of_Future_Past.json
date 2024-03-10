@@ -183,13 +183,11 @@
   ],
   "boxOffice": 748000000,
   "year": 2014,
-  "summary": {
-    "sections": [
-      {
-        "text": "The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants."
+    }
+  ],
   "chapters": {
     "title": "X-Men",
     "part": 7
@@ -199,5 +197,6 @@
       "poster": "x_men_6.webp",
       "trailer": "pK2zYHWDZKo"
     }
-  ]
+  ],
+  "rating": 2
 }

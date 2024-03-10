@@ -189,17 +189,16 @@
   "budget": 165000000,
   "boxOffice": 398000000,
   "year": 2021,
-  "summary": {
-    "sections": [
-      {
-        "text": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy."
+    }
+  ],
   "media": [
     {
       "poster": "dune.webp",
       "trailer": "w0HgHet0sxg"
     }
-  ]
+  ],
+  "rating": 2
 }

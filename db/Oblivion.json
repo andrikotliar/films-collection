@@ -135,17 +135,16 @@
   "budget": 160000000,
   "boxOffice": 286000000,
   "year": 2013,
-  "summary": {
-    "sections": [
-      {
-        "text": "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself."
+    }
+  ],
   "media": [
     {
       "poster": "oblivion.webp",
       "trailer": "XmIIgE7eSak"
     }
-  ]
+  ],
+  "rating": 1
 }

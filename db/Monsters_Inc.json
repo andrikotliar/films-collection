@@ -104,7 +104,7 @@
   ],
   "collections": [
     {
-      "title": "Fantasy"
+      "title": "Fantasy Worlds"
     }
   ],
   "budget": 115000000,
@@ -136,17 +136,16 @@
   ],
   "boxOffice": 580000000,
   "year": 2001,
-  "summary": {
-    "sections": [
-      {
-        "text": "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, 2 monsters realize things may not be what they think."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, 2 monsters realize things may not be what they think."
+    }
+  ],
   "media": [
     {
       "poster": "monsters_inc.webp",
       "trailer": "6tCxnHCqqxg"
     }
-  ]
+  ],
+  "rating": 2
 }

@@ -142,23 +142,22 @@
   ],
   "collections": [
     {
-      "title": "True Story"
+      "title": "Criminals"
     }
   ],
   "budget": 22000000,
   "boxOffice": 115000000,
   "year": 2019,
-  "summary": {
-    "sections": [
-      {
-        "text": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him."
+    }
+  ],
   "media": [
     {
       "poster": "gentlemen.webp",
       "trailer": "vaN8BtA8OJk"
     }
-  ]
+  ],
+  "rating": 2
 }

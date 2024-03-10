@@ -1,13 +1,13 @@
-import classes from './Filters.module.css';
-import { useEffect } from 'react';
+import styles from './Filters.module.css';
+import { useEffect, useState } from 'react';
 import { filtersConfig } from '@/configs';
 import { useFilmsContext } from '@/context';
 import { useForm, FormProvider } from 'react-hook-form';
-import { CloseIcon, FilterIcon, ResetIcon } from '@/assets/icons';
 import { useSidebarContext } from '@/pages/Main/components/Sidebar/Sidebar.context';
 import { Button, Tabs } from '@/components';
 import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
+import { RotateCcw, Search, X } from 'lucide-react';
 
 const defaultValues = {
   type: null,
@@ -18,10 +18,13 @@ const defaultValues = {
   studio: null,
 };
 
+const COLLECTIONS_TAB_INDEX = 1;
+
 const Filters = () => {
   const { filterParams, updateFilter, resetFilter } = useFilmsContext();
+  const [defaultTabIndex, setDefaultTabIndex] = useState(0);
 
-  const filtersCount = countObjectKeys(filterParams);
+  const filtersCount = countObjectKeys(filterParams, ['pageIndex']);
 
   const { setIsFilterOpen, updateFiltersCount } = useSidebarContext();
 
@@ -31,6 +34,10 @@ const Filters = () => {
 
   const submitFilter = (data: any) => {
     const filledOptions = filterValues(data);
+
+    if (filledOptions.collections === 'Any') {
+      delete filledOptions.collections;
+    }
 
     updateFilter({
       ...filledOptions,
@@ -48,6 +55,10 @@ const Filters = () => {
       methods.reset(filterParams);
       updateFiltersCount(filtersCount);
     }
+
+    if (filterParams.collections) {
+      setDefaultTabIndex(COLLECTIONS_TAB_INDEX);
+    }
   }, [filterParams, filtersCount]);
 
   const handleReset = () => {
@@ -61,15 +72,21 @@ const Filters = () => {
     <FormProvider {...methods}>
       <form
         onSubmit={methods.handleSubmit(submitFilter)}
-        className={classes.filters}
+        className={styles.filters}
       >
-        <h2 className={classes.mobileHeader}>Filters</h2>
+        <h2 className={styles.mobileHeader}>
+          <span>Filters</span>
+          <button onClick={() => setIsFilterOpen(false)}>
+            <X />
+          </button>
+        </h2>
         <Tabs
+          defaultTabIndex={defaultTabIndex}
           components={[
             {
               label: 'General',
               content: (
-                <div className={classes.filterGroups}>
+                <div className={styles.filterGroups}>
                   {filtersConfig.general.map((filter) => (
                     <FilterOptions filter={filter} key={filter.title} />
                   ))}
@@ -79,7 +96,7 @@ const Filters = () => {
             {
               label: 'Collections',
               content: (
-                <div className={classes.filterGroups}>
+                <div className={styles.filterGroups}>
                   {filtersConfig.collections.map((filter) => (
                     <FilterOptions filter={filter} key={filter.title} />
                   ))}
@@ -88,23 +105,19 @@ const Filters = () => {
             },
           ]}
         />
-        <div className={classes.controls}>
-          <Button
-            icon={<FilterIcon color="white" />}
-            type="submit"
-            className={classes.apply}
-          >
-            Apply
+        <div className={styles.controls}>
+          <Button icon={<Search color="#fff" />} type="submit">
+            Search
           </Button>
           {filtersCount > 0 && (
-            <Button onClick={handleReset} icon={<ResetIcon />} />
+            <Button
+              onClick={handleReset}
+              icon={<RotateCcw />}
+              variant="secondary"
+            >
+              Reset
+            </Button>
           )}
-          <Button
-            icon={<CloseIcon />}
-            className={classes.closeButton}
-            onClick={() => setIsFilterOpen(false)}
-            isHidden
-          />
         </div>
       </form>
     </FormProvider>

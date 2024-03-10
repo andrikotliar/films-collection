@@ -127,17 +127,16 @@
   "budget": 3480000,
   "boxOffice": 358000000,
   "year": 2016,
-  "summary": {
-    "sections": [
-      {
-        "text": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?"
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?"
+    }
+  ],
   "media": [
     {
       "poster": "your_name.webp",
       "trailer": "xU47nhruN-Q"
     }
-  ]
+  ],
+  "rating": 2
 }

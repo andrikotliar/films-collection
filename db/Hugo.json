@@ -99,7 +99,7 @@
   ],
   "collections": [
     {
-      "title": "True Story"
+      "title": "Cinematograph"
     }
   ],
   "budget": 150000000,
@@ -136,17 +136,16 @@
   ],
   "boxOffice": 186000000,
   "year": 2011,
-  "summary": {
-    "sections": [
-      {
-        "text": "In Paris in 1931, an orphan named Hugo Cabret, who lives in the walls of a train station, is wrapped up in a mystery involving his late father and an automaton"
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "In Paris in 1931, an orphan named Hugo Cabret, who lives in the walls of a train station, is wrapped up in a mystery involving his late father and an automaton"
+    }
+  ],
   "media": [
     {
       "poster": "hugo.webp",
       "trailer": "Hv3obL9HqyY"
     }
-  ]
+  ],
+  "rating": 2
 }

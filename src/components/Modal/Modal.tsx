@@ -1,38 +1,26 @@
-import { Button } from '@/components/Button';
-import classes from './Modal.module.css';
-import { FC, PropsWithChildren } from 'react';
+import styles from './Modal.module.css';
+import { ComponentProps, FC, PropsWithChildren } from 'react';
 import { createPortal } from 'react-dom';
-import { CloseIcon } from '@/assets/icons';
-import classNames from 'classnames';
+import { ModalContent } from '@/components/Modal/ModalContent';
 
-type ModalProps = {
+type Props = {
   isOpen: boolean;
-  close: VoidFunction;
-  contentClassName?: string;
-};
+  onClose: VoidFunction;
+} & ComponentProps<typeof ModalContent>;
 
-const Modal: FC<PropsWithChildren<ModalProps>> = ({
+const Modal: FC<PropsWithChildren<Props>> = ({
   isOpen = false,
   children,
-  close,
-  contentClassName,
+  onClose,
+  ...props
 }) => {
   if (!isOpen) return null;
 
   return createPortal(
-    <div className={classes.modal} onClick={close}>
-      <div
-        className={classNames(classes.content, contentClassName)}
-        onClick={(e) => e.stopPropagation()}
-      >
+    <div className={styles.modal} onClick={onClose}>
+      <ModalContent {...props} onClose={onClose}>
         {children}
-        <Button
-          design="ghost"
-          onClick={close}
-          icon={<CloseIcon color="black" />}
-          className={classes.closeButton}
-        />
-      </div>
+      </ModalContent>
     </div>,
     document.body,
   );

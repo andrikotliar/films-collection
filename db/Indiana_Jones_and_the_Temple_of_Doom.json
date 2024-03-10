@@ -142,13 +142,11 @@
   ],
   "boxOffice": 333000000,
   "year": 1984,
-  "summary": {
-    "sections": [
-      {
-        "text": "In 1935, Indiana Jones arrives in India, still part of the British Empire, and is asked to find a mystical stone. He then stumbles upon a secret cult committing enslavement and human sacrifices in the catacombs of an ancient palace."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "In 1935, Indiana Jones arrives in India, still part of the British Empire, and is asked to find a mystical stone. He then stumbles upon a secret cult committing enslavement and human sacrifices in the catacombs of an ancient palace."
+    }
+  ],
   "chapters": {
     "title": "Indiana Jones",
     "part": 2
@@ -158,5 +156,6 @@
       "poster": "indiana_jones_2.webp",
       "trailer": "WBdyLyijZhU"
     }
-  ]
+  ],
+  "rating": 1
 }

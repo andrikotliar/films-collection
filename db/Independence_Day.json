@@ -121,6 +121,9 @@
   "collections": [
     {
       "title": "Invasion"
+    },
+    {
+      "title": "Disaster"
     }
   ],
   "budget": 75000000,
@@ -142,17 +145,16 @@
   ],
   "boxOffice": 817000000,
   "year": 1996,
-  "summary": {
-    "sections": [
-      {
-        "text": "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive."
+    }
+  ],
   "media": [
     {
       "poster": "independence_day.webp",
       "trailer": "kA2WzBi2grE"
     }
-  ]
+  ],
+  "rating": 2
 }

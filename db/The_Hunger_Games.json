@@ -163,13 +163,11 @@
   ],
   "boxOffice": 694000000,
   "year": 2012,
-  "summary": {
-    "sections": [
-      {
-        "text": "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death."
+    }
+  ],
   "chapters": {
     "title": "The Hunger Games",
     "part": 1
@@ -179,5 +177,6 @@
       "poster": "hunger_games_1.webp",
       "trailer": "mfmrPu43DF8"
     }
-  ]
+  ],
+  "rating": 2
 }

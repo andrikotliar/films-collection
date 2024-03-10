@@ -105,13 +105,11 @@
   ],
   "boxOffice": 40000000,
   "year": 1984,
-  "summary": {
-    "sections": [
-      {
-        "text": "A seemingly indestructible android is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "A seemingly indestructible android is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs."
+    }
+  ],
   "chapters": {
     "title": "The Terminator",
     "part": 1
@@ -121,5 +119,6 @@
       "poster": "terminator_1.webp",
       "trailer": "k64P4l2Wmeg"
     }
-  ]
+  ],
+  "rating": 2
 }

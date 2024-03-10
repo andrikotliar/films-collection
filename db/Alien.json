@@ -161,13 +161,11 @@
   ],
   "boxOffice": 106000000,
   "year": 1979,
-  "summary": {
-    "sections": [
-      {
-        "text": "After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun."
+    }
+  ],
   "chapters": {
     "title": "Aliens",
     "part": 1
@@ -177,5 +175,6 @@
       "poster": "alien_1.webp",
       "trailer": "jQ5lPt9edzQ"
     }
-  ]
+  ],
+  "rating": 2
 }

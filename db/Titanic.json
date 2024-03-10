@@ -145,17 +145,16 @@
   ],
   "boxOffice": 2400000000,
   "year": 1997,
-  "summary": {
-    "sections": [
-      {
-        "text": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
+    }
+  ],
   "media": [
     {
       "poster": "titanic.webp",
       "trailer": "kVrqfYjkTdQ"
     }
-  ]
+  ],
+  "rating": 2
 }

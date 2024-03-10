@@ -139,23 +139,22 @@
   ],
   "collections": [
     {
-      "title": "Fantasy"
+      "title": "Fantasy Worlds"
     }
   ],
   "budget": 150000000,
   "boxOffice": 336000000,
   "year": 2010,
-  "summary": {
-    "sections": [
-      {
-        "text": "A young fugitive Prince and Princess must stop a villain who unknowingly threatens to destroy the world with a special dagger that enables the magic sand inside to reverse time."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "A young fugitive Prince and Princess must stop a villain who unknowingly threatens to destroy the world with a special dagger that enables the magic sand inside to reverse time."
+    }
+  ],
   "media": [
     {
       "poster": "prince_of_persia.webp",
       "trailer": "bZ7Li5w2I-k"
     }
-  ]
+  ],
+  "rating": 2
 }

@@ -158,17 +158,16 @@
   ],
   "boxOffice": 533000000,
   "year": 2008,
-  "summary": {
-    "sections": [
-      {
-        "text": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind."
+    }
+  ],
   "media": [
     {
       "poster": "wall_e.webp",
       "trailer": "alIq_wG9FNk"
     }
-  ]
+  ],
+  "rating": 3
 }

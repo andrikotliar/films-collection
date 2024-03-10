@@ -152,13 +152,11 @@
   ],
   "boxOffice": 1340000000,
   "year": 2011,
-  "summary": {
-    "sections": [
-      {
-        "text": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts."
+    }
+  ],
   "chapters": {
     "title": "Harry Potter Universe",
     "part": 10
@@ -168,5 +166,6 @@
       "poster": "harry_potter_8.webp",
       "trailer": "5NYt1qirBWg"
     }
-  ]
+  ],
+  "rating": 3
 }

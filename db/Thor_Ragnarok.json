@@ -178,13 +178,11 @@
   "budget": 180000000,
   "boxOffice": 854000000,
   "year": 2017,
-  "summary": {
-    "sections": [
-      {
-        "text": "Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarцk, the destruction of his world, at the hands of the powerful and ruthless villain Hela."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarцk, the destruction of his world, at the hands of the powerful and ruthless villain Hela."
+    }
+  ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 17
@@ -194,5 +192,6 @@
       "poster": "thor_3.webp",
       "trailer": "ue80QwXMRHg"
     }
-  ]
+  ],
+  "rating": 2
 }

@@ -92,19 +92,17 @@
   ],
   "collections": [
     {
-      "title": "Fantasy"
+      "title": "Fantasy Worlds"
     }
   ],
   "budget": 59000000,
   "boxOffice": 383000000,
   "year": 2002,
-  "summary": {
-    "sections": [
-      {
-        "text": "Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe."
+    }
+  ],
   "chapters": {
     "title": "Ice Age",
     "part": 1
@@ -114,5 +112,6 @@
       "poster": "ice_age_1.webp",
       "trailer": "i4noiCRJRoE"
     }
-  ]
+  ],
+  "rating": 3
 }

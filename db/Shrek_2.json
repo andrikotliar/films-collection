@@ -139,19 +139,17 @@
   ],
   "collections": [
     {
-      "title": "Fantasy"
+      "title": "Fantasy Worlds"
     }
   ],
   "budget": 150000000,
   "boxOffice": 920000000,
   "year": 2004,
-  "summary": {
-    "sections": [
-      {
-        "text": "Shrek and Fiona travel to the Kingdom of Far Far Away, where Fiona's parents are King and Queen, to celebrate their marriage. When they arrive, they find they are not as welcome as they thought they would be."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Shrek and Fiona travel to the Kingdom of Far Far Away, where Fiona's parents are King and Queen, to celebrate their marriage. When they arrive, they find they are not as welcome as they thought they would be."
+    }
+  ],
   "chapters": {
     "title": "Shrek",
     "part": 2
@@ -161,5 +159,6 @@
       "poster": "shrek_2.webp",
       "trailer": "xBgSfhp5Fxo"
     }
-  ]
+  ],
+  "rating": 3
 }

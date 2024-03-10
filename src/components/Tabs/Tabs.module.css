@@ -7,30 +7,79 @@
 
 .controls {
   display: flex;
-  width: 100%;
-  overflow-x: auto;
+  align-items: center;
+  position: relative;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 30px;
+  border: var(--app-border);
+  transition: background-color 300ms;
   flex-shrink: 0;
 }
 
-.tab {
-  width: 50%;
-  border: 1px solid var(--main-color);
-  border-right-width: 0;
-  padding: 5px 10px;
+.arrowLeft {
+  border-radius: 6px 0 0 6px;
 }
 
-.tab:first-child {
-  border-radius: var(--app-border-radius) 0 0 var(--app-border-radius);
+.arrowRight {
+  border-radius: 0 6px 6px 0;
 }
 
-.tab:last-child {
-  border-right-width: 1px;
-  border-radius: 0 var(--app-border-radius) var(--app-border-radius) 0;
+.arrow:hover {
+  background-color: var(--gray-light);
 }
 
-.active {
-  background-color: var(--main-color);
+.listControl {
+  width: 100%;
+  border-top: var(--app-border);
+  border-bottom: var(--app-border);
+  height: 30px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: background-color 300ms;
+}
+
+.listControl:hover {
+  background-color: var(--gray-light);
+}
+
+.groups {
+  position: absolute;
+  left: 39px;
+  top: 100%;
+  width: calc(100% - 78px);
+  background-color: #fff;
+  border: var(--app-border);
+  border-top: 0;
+  border-radius: 0 0 6px 6px;
+  box-shadow: 0px 2px 5px rgb(0 0 0 / 10%);
+  overflow: hidden;
+}
+
+.groupLabel {
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+}
+
+.groupLabel:hover {
   color: #fff;
+  background-color: var(--main-color);
+}
+
+.selectedGroup {
+  background-color: #f2f2f2;
+  pointer-events: none;
+}
+
+.placeholder {
+  color: #777;
+  font-size: 12px;
 }
 
 .content {

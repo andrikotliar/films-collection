@@ -1,20 +1,23 @@
 import { FC } from 'react';
-import classes from './Loader.module.css';
-import { LoaderIcon } from '@/assets/icons';
+import styles from './Loader.module.css';
 import classNames from 'classnames';
+import { Loader2 } from 'lucide-react';
 
-const Loader: FC<{ isFullPage?: boolean }> = ({
-  isFullPage = false,
-}) => {
+type Props = {
+  isFullPage?: boolean;
+  iconClassName?: string;
+};
+
+const Loader: FC<Props> = ({ isFullPage = false, iconClassName }) => {
   return (
     <div
-      className={classNames(classes.wrapper, {
-        [classes.fullPage]: isFullPage,
+      className={classNames(styles.wrapper, {
+        [styles.fullPage]: isFullPage,
       })}
     >
-      <LoaderIcon
+      <Loader2
         color="#006db7"
-        className={classes.loader}
+        className={classNames(styles.loader, iconClassName)}
       />
     </div>
   );

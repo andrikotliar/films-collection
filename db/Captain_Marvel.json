@@ -165,13 +165,11 @@
   "budget": 152000000,
   "boxOffice": 1130000000,
   "year": 2019,
-  "summary": {
-    "sections": [
-      {
-        "text": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races."
+    }
+  ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
     "part": 21
@@ -181,5 +179,6 @@
       "poster": "captain_marvel.webp",
       "trailer": "TcMBFSGVi1c"
     }
-  ]
+  ],
+  "rating": 1
 }

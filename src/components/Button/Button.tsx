@@ -1,49 +1,42 @@
-import classes from './Button.module.css';
+import styles from './Button.module.css';
 import { FC, PropsWithChildren, ReactNode } from 'react';
 import classNames from 'classnames';
 import { PropsWithClassName } from '@/common';
 
-type ButtonProps = {
+type Props = {
   onClick?: VoidFunction;
   type?: 'button' | 'submit';
   icon?: ReactNode;
   isHidden?: boolean;
   isActive?: boolean;
-  design?: 'primary' | 'secondary' | 'ghost';
+  variant?: 'primary' | 'secondary' | 'ghost';
   activeClassName?: string;
   disabled?: boolean;
 };
 
-const Button: FC<
-  PropsWithChildren<PropsWithClassName<ButtonProps>>
-> = ({
+const Button: FC<PropsWithChildren<PropsWithClassName<Props>>> = ({
   children,
   icon,
   onClick,
   className,
   type = 'button',
   isHidden = false,
-  design = 'primary',
+  variant = 'primary',
   isActive = false,
-  activeClassName = classes.active,
+  activeClassName = styles.active,
   disabled,
 }) => {
   return (
     <button
       onClick={onClick}
       type={type}
-      className={classNames(
-        classes.button,
-        classes[design],
-        className,
-        {
-          [classes.hidden]: isHidden,
-          [activeClassName]: isActive,
-        },
-      )}
+      className={classNames(styles.button, styles[variant], className, {
+        [styles.hidden]: isHidden,
+        [activeClassName]: isActive,
+      })}
       disabled={disabled}
     >
-      {icon && <div className={classes.icon}>{icon}</div>}
+      {icon && <div className={styles.icon}>{icon}</div>}
       {children}
     </button>
   );

@@ -1,15 +1,15 @@
-import classes from './FilterOptions.module.css';
+import styles from './FilterOptions.module.css';
 import { FC } from 'react';
 import { FilterItem, PropsWithClassName } from '@/common';
 import { FormCheckbox } from '@/components';
 import { Group } from '@/pages/Main/components/Filters/components/Group';
 import classNames from 'classnames';
 
-type FilterOptionsProps = {
+type Props = {
   filter: FilterItem;
 };
 
-const FilterOptions: FC<PropsWithClassName<FilterOptionsProps>> = ({
+const FilterOptions: FC<PropsWithClassName<Props>> = ({
   filter,
   className,
 }) => {
@@ -17,10 +17,10 @@ const FilterOptions: FC<PropsWithClassName<FilterOptionsProps>> = ({
     <Group
       title={filter.title}
       bodyClassName={classNames(
-        classes.filterOptions,
+        styles.filterOptions,
         {
-          [classes.scrollable]: filter.isScrollable,
-          [classes.grid]: filter.isGrid,
+          [styles.scrollable]: filter.isScrollable,
+          [styles.grid]: filter.isGrid,
         },
         className,
       )}

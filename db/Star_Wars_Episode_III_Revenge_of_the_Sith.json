@@ -133,13 +133,11 @@
   ],
   "boxOffice": 849000000,
   "year": 2005,
-  "summary": {
-    "sections": [
-      {
-        "text": "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy."
+    }
+  ],
   "chapters": {
     "title": "Star Wars Universe",
     "part": 3
@@ -149,5 +147,6 @@
       "poster": "star_wars_episode_III.webp",
       "trailer": "5UnjrG_N8hU"
     }
-  ]
+  ],
+  "rating": 2
 }

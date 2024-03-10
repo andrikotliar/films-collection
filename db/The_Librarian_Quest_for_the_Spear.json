@@ -136,17 +136,15 @@
   ],
   "collections": [
     {
-      "title": "Fantasy"
+      "title": "Fantasy Worlds"
     }
   ],
   "year": 2004,
-  "summary": {
-    "sections": [
-      {
-        "text": "A bookworm becomes the librarian. Same night a magical spear gets stolen and he's off to get some real life experience around the globe on his quest for the spear - starting with being thrown off a plane over Amazonas by his cute helper."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "A bookworm becomes the librarian. Same night a magical spear gets stolen and he's off to get some real life experience around the globe on his quest for the spear - starting with being thrown off a plane over Amazonas by his cute helper."
+    }
+  ],
   "chapters": {
     "title": "The Librarian",
     "part": 1
@@ -156,5 +154,6 @@
       "poster": "librarian_1.webp",
       "trailer": "_LsPz8vCULE"
     }
-  ]
+  ],
+  "rating": 1
 }

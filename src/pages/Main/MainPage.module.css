@@ -1,8 +1,9 @@
 .main {
-  padding: 20px 0;
+  display: flex;
 }
 
-.wrapper {
-  display: flex;
-  gap: 40px;
+@media (max-width: 785px) {
+  .main {
+    flex-direction: column;
+  }
 }

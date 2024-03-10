@@ -156,17 +156,16 @@
   "budget": 306000000,
   "boxOffice": 284000000,
   "year": 2012,
-  "summary": {
-    "sections": [
-      {
-        "text": "Transported to Barsoom, a Civil War vet discovers a barren planet seemingly inhabited by 12-foot tall barbarians. Finding himself prisoner of these creatures, he escapes, only to encounter Woola and a princess in desperate need of a savior."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Transported to Barsoom, a Civil War vet discovers a barren planet seemingly inhabited by 12-foot tall barbarians. Finding himself prisoner of these creatures, he escapes, only to encounter Woola and a princess in desperate need of a savior."
+    }
+  ],
   "media": [
     {
       "poster": "john_carter.webp",
       "trailer": "nlvYKl1fjBI"
     }
-  ]
+  ],
+  "rating": 1
 }

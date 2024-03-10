@@ -10,7 +10,7 @@ import { filterFilms } from '@/helpers';
 import { useFilter } from '@/hooks';
 import { PER_PAGE } from '@/common/constants';
 import { DynamicObject, FilmData } from '@/common';
-import { FilmAPI } from '@/api';
+import { fetchAllFilms } from '@/api';
 
 type FilmsContextType = {
   initialFilmsList: FilmData[];
@@ -34,7 +34,7 @@ const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
   const [pagesCount, setPagesCount] = useState(0);
 
   const fetchFilms = async () => {
-    const films = await FilmAPI.getAll();
+    const films = await fetchAllFilms();
     setInitialFilmsList(films);
   };
 
@@ -66,7 +66,7 @@ const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
   };
 
   const resetFilter = () => {
-    setSearchParams({});
+    setSearchParams({} as URLSearchParams);
   };
 
   return (

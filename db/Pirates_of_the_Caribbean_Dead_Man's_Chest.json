@@ -113,7 +113,7 @@
   ],
   "collections": [
     {
-      "title": "Fantasy"
+      "title": "Fantasy Worlds"
     }
   ],
   "budget": 225000000,
@@ -146,13 +146,11 @@
   ],
   "boxOffice": 1100000000,
   "year": 2006,
-  "summary": {
-    "sections": [
-      {
-        "text": "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well."
+    }
+  ],
   "chapters": {
     "title": "Pirates of the Caribbean",
     "part": 2
@@ -162,5 +160,6 @@
       "poster": "pirates_2.webp",
       "trailer": "ozk0-RHXtFw"
     }
-  ]
+  ],
+  "rating": 2
 }

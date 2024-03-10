@@ -112,6 +112,9 @@
       "title": "Invasion"
     },
     {
+      "title": "Disaster"
+    },
+    {
       "title": "Top 10",
       "order": 7
     }
@@ -133,17 +136,16 @@
   ],
   "boxOffice": 604000000,
   "year": 2005,
-  "summary": {
-    "sections": [
-      {
-        "text": "An alien invasion threatens the future of humanity. The catastrophic nightmare is depicted through the eyes of one American family fighting for survival."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "An alien invasion threatens the future of humanity. The catastrophic nightmare is depicted through the eyes of one American family fighting for survival."
+    }
+  ],
   "media": [
     {
       "poster": "war_of_the_worlds.webp",
       "trailer": "SM6aEEjc5hA"
     }
-  ]
+  ],
+  "rating": 3
 }

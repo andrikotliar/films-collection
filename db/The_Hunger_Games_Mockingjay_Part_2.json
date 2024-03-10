@@ -148,13 +148,11 @@
   ],
   "boxOffice": 658000000,
   "year": 2015,
-  "summary": {
-    "sections": [
-      {
-        "text": "Katniss and a team of rebels from District 13 prepare for the final battle that will decide the fate of Panem."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Katniss and a team of rebels from District 13 prepare for the final battle that will decide the fate of Panem."
+    }
+  ],
   "chapters": {
     "title": "The Hunger Games",
     "part": 4
@@ -164,5 +162,6 @@
       "poster": "hunger_games_4.webp",
       "trailer": "n-7K_OjsDCQ"
     }
-  ]
+  ],
+  "rating": 2
 }

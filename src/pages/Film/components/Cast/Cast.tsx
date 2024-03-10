@@ -1,19 +1,19 @@
-import classes from './Cast.module.css';
 import { FC } from 'react';
 import { CastType } from '@/common';
 import { Actor } from '@/pages/Film/components/Cast/components';
+import { DataGrid } from '@/components';
 
-type CastProps = {
+type Props = {
   cast: CastType[];
 };
 
-const Cast: FC<CastProps> = ({ cast }) => {
+const Cast: FC<Props> = ({ cast }) => {
   return (
-    <div className={classes.cast}>
+    <DataGrid>
       {cast.map((actor) => (
         <Actor actor={actor} key={actor.actorId} />
       ))}
-    </div>
+    </DataGrid>
   );
 };
 

@@ -129,17 +129,16 @@
   "budget": 110000000,
   "boxOffice": 300000000,
   "year": 2011,
-  "summary": {
-    "sections": [
-      {
-        "text": "In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot."
+    }
+  ],
   "media": [
     {
       "poster": "real_steel.webp",
       "trailer": "SwfmV3nn6QA"
     }
-  ]
+  ],
+  "rating": 3
 }

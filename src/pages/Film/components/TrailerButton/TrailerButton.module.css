@@ -1,0 +1,39 @@
+.playButton {
+  color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: var(--gray-invisible);
+  border: var(--app-border);
+  border-radius: var(--app-border-radius);
+  transition: background-color 0.3s, border 0.3s;
+}
+
+.playButton:hover {
+  border-color: #ccc;
+  background-color: #f2f2f2;
+}
+
+.playButtonIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.playButton span {
+  flex-shrink: 0;
+}
+
+.trailer {
+  width: 80%;
+}
+
+@media (max-width: 580px) {
+  .video {
+    width: 90%;
+  }
+}

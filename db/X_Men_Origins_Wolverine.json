@@ -149,13 +149,11 @@
   "budget": 150000000,
   "boxOffice": 373000000,
   "year": 2009,
-  "summary": {
-    "sections": [
-      {
-        "text": "The early years of James Logan, featuring his rivalry with his brother Victor Creed, his service in the special forces team Weapon X, and his experimentation into the metal-lined mutant Wolverine."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "The early years of James Logan, featuring his rivalry with his brother Victor Creed, his service in the special forces team Weapon X, and his experimentation into the metal-lined mutant Wolverine."
+    }
+  ],
   "chapters": {
     "title": "X-Men",
     "part": 4
@@ -165,5 +163,6 @@
       "poster": "x_men_4.webp",
       "trailer": "QojV7s3UTu0"
     }
-  ]
+  ],
+  "rating": 1
 }

@@ -1,24 +1,17 @@
-import { ExpandIcon } from '@/assets/icons';
-import classes from './Controls.module.css';
+import styles from './Controls.module.css';
 import { Dispatch, FC, SetStateAction } from 'react';
-import classNames from 'classnames';
-import { MediaItem } from '@/common';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-type ControlsProps = {
-  activeIndex: number;
+type Props = {
+  itemsCount: number;
   setActiveIndex: Dispatch<SetStateAction<number>>;
-  media: MediaItem[];
 };
 
-const Controls: FC<ControlsProps> = ({
-  activeIndex,
-  setActiveIndex,
-  media,
-}) => {
+const Controls: FC<Props> = ({ itemsCount, setActiveIndex }) => {
   const handlePrev = () => {
     setActiveIndex((index) => {
       if (index === 0) {
-        return media.length - 1;
+        return itemsCount - 1;
       }
 
       return index - 1;
@@ -27,7 +20,7 @@ const Controls: FC<ControlsProps> = ({
 
   const handleNext = () => {
     setActiveIndex((index) => {
-      if (index === media.length - 1) {
+      if (index === itemsCount - 1) {
         return 0;
       }
 
@@ -36,13 +29,12 @@ const Controls: FC<ControlsProps> = ({
   };
 
   return (
-    <div className={classes.controls}>
-      <button onClick={handlePrev} className={classes.slideControl}>
-        <ExpandIcon className={classNames(classes.arrow, classes.arrowLeft)} />
+    <div className={styles.controls}>
+      <button onClick={handlePrev} className={styles.slideControl}>
+        <ChevronLeft color="#fff" className={styles.arrow} />
       </button>
-      <span className={classes.caption}>{media[activeIndex].caption}</span>
-      <button onClick={handleNext} className={classes.slideControl}>
-        <ExpandIcon className={classNames(classes.arrow, classes.arrowRight)} />
+      <button onClick={handleNext} className={styles.slideControl}>
+        <ChevronRight color="#fff" className={styles.arrow} />
       </button>
     </div>
   );

@@ -134,7 +134,7 @@
   ],
   "collections": [
     {
-      "title": "Fantasy"
+      "title": "Fantasy Worlds"
     }
   ],
   "budget": 94000000,
@@ -161,17 +161,16 @@
   ],
   "boxOffice": 940000000,
   "year": 2003,
-  "summary": {
-    "sections": [
-      {
-        "text": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home."
+    }
+  ],
   "media": [
     {
       "poster": "finding_nemo.webp",
       "trailer": "wZdpNglLbt8"
     }
-  ]
+  ],
+  "rating": 2
 }

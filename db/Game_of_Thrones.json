@@ -545,46 +545,44 @@
   ],
   "collections": [
     {
-      "title": "Fantasy"
+      "title": "Fantasy Worlds"
     }
   ],
   "year": 2011,
-  "summary": {
-    "sections": [
-      {
-        "title": "Season 1",
-        "text": "The Seven Kingdoms of Westeros are in turmoil as noble families vie for the Iron Throne. Eddard Stark is appointed Hand of the King for his old friend Robert Baratheon. Meanwhile, Daenerys Targaryen seeks to reclaim her family's throne, and dark forces stir beyond the Wall in the North."
-      },
-      {
-        "title": "Season 2",
-        "text": "War rages across Westeros as five kings lay claim to the Iron Throne. Robb Stark seeks independence for the North, Stannis Baratheon battles for the throne, and Daenerys Targaryen seeks allies to reclaim her birthright. The shadow of an ancient threat looms larger in the North."
-      },
-      {
-        "title": "Season 3",
-        "text": "The struggle for power intensifies as chaos reigns in the Seven Kingdoms. Jon Snow explores beyond the Wall, while the Lannisters and Starks continue their deadly feud. Daenerys grows in strength and seeks an army to conquer Westeros, while a looming supernatural threat becomes more apparent."
-      },
-      {
-        "title": "Season 4",
-        "text": "The War of the Five Kings begins to wind down, but new threats emerge. Tyrion Lannister faces trial for his life, Jon Snow navigates leadership at the Wall, and Daenerys consolidates her rule in Slaver's Bay. Dark and powerful enemies continue to rise in Westeros."
-      },
-      {
-        "title": "Season 5",
-        "text": "Amidst the ongoing power struggles and machinations for the Iron Throne, Jon Snow becomes Lord Commander, Cersei faces her own challenges in King's Landing, and Daenerys contends with rebellion in Meereen. The White Walkers pose an increasingly dire threat to the realm."
-      },
-      {
-        "title": "Season 6",
-        "text": "The battle for control of the Seven Kingdoms escalates as Jon Snow and Sansa Stark seek allies, Daenerys sails for Westeros, and Cersei consolidates power in King's Landing. The threat of the White Walkers becomes a central concern, and prophecies and destinies are fulfilled."
-      },
-      {
-        "title": "Season 7",
-        "text": "The Great War looms as Daenerys and her allies set their sights on the Iron Throne. Jon Snow, now recognized as a Targaryen, must unite Westeros against the White Walker threat. Cersei Lannister retains her grip on King's Landing, creating a complex web of alliances and betrayals."
-      },
-      {
-        "title": "Season 8",
-        "text": "The battle for the Iron Throne reaches its climax as Daenerys, Jon Snow, and others confront their destinies. The White Walkers advance, and the living must unite against the impending doom. The fate of Westeros and its rulers is decided in a series of epic confrontations."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "title": "Season 1",
+      "text": "The Seven Kingdoms of Westeros are in turmoil as noble families vie for the Iron Throne. Eddard Stark is appointed Hand of the King for his old friend Robert Baratheon. Meanwhile, Daenerys Targaryen seeks to reclaim her family's throne, and dark forces stir beyond the Wall in the North."
+    },
+    {
+      "title": "Season 2",
+      "text": "War rages across Westeros as five kings lay claim to the Iron Throne. Robb Stark seeks independence for the North, Stannis Baratheon battles for the throne, and Daenerys Targaryen seeks allies to reclaim her birthright. The shadow of an ancient threat looms larger in the North."
+    },
+    {
+      "title": "Season 3",
+      "text": "The struggle for power intensifies as chaos reigns in the Seven Kingdoms. Jon Snow explores beyond the Wall, while the Lannisters and Starks continue their deadly feud. Daenerys grows in strength and seeks an army to conquer Westeros, while a looming supernatural threat becomes more apparent."
+    },
+    {
+      "title": "Season 4",
+      "text": "The War of the Five Kings begins to wind down, but new threats emerge. Tyrion Lannister faces trial for his life, Jon Snow navigates leadership at the Wall, and Daenerys consolidates her rule in Slaver's Bay. Dark and powerful enemies continue to rise in Westeros."
+    },
+    {
+      "title": "Season 5",
+      "text": "Amidst the ongoing power struggles and machinations for the Iron Throne, Jon Snow becomes Lord Commander, Cersei faces her own challenges in King's Landing, and Daenerys contends with rebellion in Meereen. The White Walkers pose an increasingly dire threat to the realm."
+    },
+    {
+      "title": "Season 6",
+      "text": "The battle for control of the Seven Kingdoms escalates as Jon Snow and Sansa Stark seek allies, Daenerys sails for Westeros, and Cersei consolidates power in King's Landing. The threat of the White Walkers becomes a central concern, and prophecies and destinies are fulfilled."
+    },
+    {
+      "title": "Season 7",
+      "text": "The Great War looms as Daenerys and her allies set their sights on the Iron Throne. Jon Snow, now recognized as a Targaryen, must unite Westeros against the White Walker threat. Cersei Lannister retains her grip on King's Landing, creating a complex web of alliances and betrayals."
+    },
+    {
+      "title": "Season 8",
+      "text": "The battle for the Iron Throne reaches its climax as Daenerys, Jon Snow, and others confront their destinies. The White Walkers advance, and the living must unite against the impending doom. The fate of Westeros and its rulers is decided in a series of epic confrontations."
+    }
+  ],
   "series": {
     "episodesTotal": 73,
     "seasons": [
@@ -671,5 +669,6 @@
       "trailer": "rlR4PJn8b8I",
       "caption": "Season 8"
     }
-  ]
+  ],
+  "rating": 2
 }

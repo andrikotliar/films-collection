@@ -201,13 +201,11 @@
   "budget": 350000000,
   "boxOffice": 1400000000,
   "year": 2022,
-  "summary": {
-    "sections": [
-      {
-        "text": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home."
+    }
+  ],
   "chapters": {
     "title": "Avatar",
     "part": 2
@@ -217,5 +215,6 @@
       "poster": "avatar_2.webp",
       "trailer": "o5F8MOz_IDw"
     }
-  ]
+  ],
+  "rating": 2
 }

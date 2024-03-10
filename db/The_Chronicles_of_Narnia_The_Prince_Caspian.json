@@ -135,19 +135,17 @@
   ],
   "collections": [
     {
-      "title": "Fantasy"
+      "title": "Fantasy Worlds"
     }
   ],
   "budget": 225000000,
   "boxOffice": 420000000,
   "year": 2008,
-  "summary": {
-    "sections": [
-      {
-        "text": "The Pevensie siblings return to Narnia, where they are enlisted to once again help ward off an evil king and restore the rightful heir to the land's throne, Prince Caspian."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "The Pevensie siblings return to Narnia, where they are enlisted to once again help ward off an evil king and restore the rightful heir to the land's throne, Prince Caspian."
+    }
+  ],
   "chapters": {
     "title": "The Chronicles of Narnia",
     "part": 2
@@ -157,5 +155,6 @@
       "poster": "narnia_2.webp",
       "trailer": "9Q0Da4jlxBk"
     }
-  ]
+  ],
+  "rating": 2
 }

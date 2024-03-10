@@ -1,15 +1,15 @@
 import { CastType, IMAGE_FALLBACKS } from '@/common';
-import classes from './Character.module.css';
+import styles from './Character.module.css';
 import { FC } from 'react';
 import { handleImageError } from '@/utils';
 
-type CharacterProps = {
+type Props = {
   character: CastType['character'];
 };
 
-const Character: FC<CharacterProps> = ({ character }) => {
+const Character: FC<Props> = ({ character }) => {
   return (
-    <div className={classes.character}>
+    <div className={styles.character}>
       <img
         src={character.imageUrl || ''}
         alt={character.name}

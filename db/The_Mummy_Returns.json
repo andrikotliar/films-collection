@@ -158,13 +158,11 @@
   "budget": 98000000,
   "boxOffice": 433000000,
   "year": 2001,
-  "summary": {
-    "sections": [
-      {
-        "text": "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror."
+    }
+  ],
   "chapters": {
     "title": "The Mummy",
     "part": 2
@@ -174,5 +172,6 @@
       "poster": "mummy_2.webp",
       "trailer": "3yXjs7BUKYc"
     }
-  ]
+  ],
+  "rating": 3
 }

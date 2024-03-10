@@ -148,13 +148,11 @@
   ],
   "boxOffice": 897000000000,
   "year": 2005,
-  "summary": {
-    "sections": [
-      {
-        "text": "A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares."
-      }
-    ]
-  },
+  "summary": [
+    {
+      "text": "A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares."
+    }
+  ],
   "chapters": {
     "title": "Harry Potter Universe",
     "part": 6
@@ -164,5 +162,6 @@
       "poster": "harry_potter_4.webp",
       "trailer": "3EGojp4Hh6I"
     }
-  ]
+  ],
+  "rating": 3
 }
