@@ -1,10 +1,10 @@
 import styles from './Description.module.css';
-import { FC } from 'react';
+import { FC, useState } from 'react';
 import { MediaItem, SeasonType, Summary } from '@/common';
-import { Accordion, DataArea, RouterLink } from '@/components';
-import { AccordionItem } from '@/components/Accordion/AccordionItem';
+import { DataArea, RouterLink } from '@/components';
 import { Link } from 'react-router-dom';
 import { buildLink } from '@/helpers';
+import { SeriesHeader } from '@/pages/Film/components/Description/components';
 
 type Props = {
   description: Summary[];
@@ -13,30 +13,35 @@ type Props = {
 };
 
 const Description: FC<Props> = ({ description, seasons }) => {
+  const [activeIndex, setActiveIndex] = useState(0);
+
   return (
-    <DataArea className={styles.wrapper}>
-      <div className={styles.header}>Description</div>
-      <Accordion defaultOpen={0}>
-        {description.map((item, index) => (
-          <AccordionItem index={index} title={item.title} key={index}>
-            <p>{item.text}</p>
-            {seasons && (
-              <div className={styles.seriesDetails}>
-                <div className={styles.detailsItem}>
-                  <span>Episodes:</span> {seasons[index].episodesCount}
-                </div>
-                <div className={styles.detailsItem}>
-                  <span>Release year: </span>
-                  <RouterLink to={buildLink('year', seasons[index].year)}>
-                    {seasons[index].year}
-                  </RouterLink>
-                </div>
+    <div>
+      <SeriesHeader
+        activeIndex={activeIndex}
+        setActiveIndex={setActiveIndex}
+        seasons={seasons}
+      />
+      <DataArea className={styles.wrapper}>
+        <div className={styles.description}>
+          {seasons && (
+            <div className={styles.details}>
+              <div className={styles.data}>
+                <span className={styles.prop}>Episodes:</span>{' '}
+                {seasons?.[activeIndex].episodesCount}
               </div>
-            )}
-          </AccordionItem>
-        ))}
-      </Accordion>
-    </DataArea>
+              <div className={styles.data}>
+                <span className={styles.prop}>Release year:</span>
+                <RouterLink to={buildLink('year', seasons[activeIndex].year)}>
+                  {seasons[activeIndex].year}
+                </RouterLink>
+              </div>
+            </div>
+          )}
+          {description[activeIndex].text}
+        </div>
+      </DataArea>
+    </div>
   );
 };
 

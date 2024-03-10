@@ -38,4 +38,7 @@
     font-weight: normal;
     text-align: center;
   }
+  .filters {
+    border-radius: 0;
+  }
 }

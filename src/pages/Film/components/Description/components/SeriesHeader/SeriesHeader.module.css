@@ -1,0 +1,49 @@
+.wrapper {
+  margin-bottom: -1px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+.title {
+  font-size: 12px;
+  text-transform: uppercase;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 10px;
+  position: sticky;
+  left: 0;
+  background-color: #fff;
+  border-bottom: var(--app-border);
+  z-index: 10;
+}
+
+.seasons {
+  display: flex;
+  gap: 3px;
+  flex-shrink: 0;
+}
+
+.button {
+  width: 40px;
+  height: 35px;
+}
+
+.activeButton {
+  border-top: var(--app-border);
+  border-left: var(--app-border);
+  border-right: var(--app-border);
+  background-color: #fff;
+  border-radius: 6px 6px 0 0;
+  font-weight: bold;
+  flex-shrink: 0;
+}

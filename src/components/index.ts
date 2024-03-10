@@ -7,7 +7,6 @@ export * from './Scrollable';
 export * from './Tabs';
 export * from './Modal';
 export * from './Pagination';
-export * from './Accordion';
 export * from './DataArea';
 export * from './DataRow';
 export * from './DataGrid';

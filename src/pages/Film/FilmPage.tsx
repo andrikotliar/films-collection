@@ -63,13 +63,19 @@ const FilmPage = () => {
           <Media media={film.media} title={film.title} />
         </div>
         <div className={styles.column}>
-          <Description
-            description={film.summary}
-            media={film.media}
-            seasons={film?.series?.seasons}
-          />
+          <section>
+            <SectionTitle>Description</SectionTitle>
+            <Description
+              description={film.summary}
+              media={film.media}
+              seasons={film?.series?.seasons}
+            />
+          </section>
 
-          <CrewList crew={film.crew} />
+          <section>
+            <SectionTitle>Crew</SectionTitle>
+            <CrewList crew={film.crew} />
+          </section>
 
           <section>
             <SectionTitle>Cast and characters</SectionTitle>
