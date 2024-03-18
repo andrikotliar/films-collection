@@ -1,6 +1,6 @@
 .menu {
   position: absolute;
-  top: calc(var(--header-height) + 20px);
+  top: calc(var(--header-height) - 5px);
   right: 15px;
   background-color: #fff;
   display: flex;
@@ -13,24 +13,10 @@
   min-width: 150px;
 }
 
-.menu::before {
-  content: '';
-  position: absolute;
-  top: -10px;
-  right: 10px;
-  width: 20px;
-  height: 20px;
-  background-color: inherit;
-  clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
-  transform: rotate(135deg);
-  border: var(--app-border);
-  border-radius: 0 0 0 4px;
-}
-
 .menuLink {
   padding: 6px 10px;
   border-radius: 4px;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .menuLink:hover {
