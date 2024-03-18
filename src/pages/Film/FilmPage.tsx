@@ -19,7 +19,6 @@ import {
 } from './components';
 import { useDocumentTitle } from '@/hooks';
 import { getDataLinkConfig } from '@/pages/Film/helpers';
-import classNames from 'classnames';
 
 const FilmPage = () => {
   const { id } = useParams();
@@ -59,7 +58,7 @@ const FilmPage = () => {
       <Title>{film.title}</Title>
       <DataLinks items={dataLinks} />
       <div className={styles.layout}>
-        <div className={classNames(styles.column, styles.leftColumn)}>
+        <div className={styles.column}>
           <Media media={film.media} title={film.title} />
         </div>
         <div className={styles.column}>
