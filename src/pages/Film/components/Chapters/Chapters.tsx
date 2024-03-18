@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { Chapter, FilmData } from '@/common';
 import { getChapters } from './helpers';
 import { ChapterLink } from './components';
+import { Scrollable } from '@/components';
 
 type Props = {
   data: FilmData[];
@@ -16,7 +17,7 @@ const Chapters: FC<Props> = ({ data, parts }) => {
   const chapters = getChapters(data, parts.title);
 
   return (
-    <div className={styles.chapters}>
+    <Scrollable className={styles.chapters}>
       {chapters.map((chapter) => (
         <ChapterLink
           currentFilmId={currentFilmId}
@@ -26,7 +27,7 @@ const Chapters: FC<Props> = ({ data, parts }) => {
           key={chapter.id}
         />
       ))}
-    </div>
+    </Scrollable>
   );
 };
 

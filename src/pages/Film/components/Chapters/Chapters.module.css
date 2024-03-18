@@ -1,6 +1,6 @@
 .chapters {
   display: flex;
-  flex-wrap: wrap;
+  overflow-x: auto;
   gap: 20px;
 }
 
