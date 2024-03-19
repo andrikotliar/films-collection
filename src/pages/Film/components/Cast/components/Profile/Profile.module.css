@@ -7,7 +7,6 @@
 .photo {
   font-size: 0;
   flex-shrink: 0;
-  margin-right: 20px;
   width: 70px;
   height: 100px;
   overflow: hidden;
@@ -20,14 +19,6 @@
   object-fit: cover;
 }
 
-.watermark {
-  position: absolute;
-  width: 80px;
-  height: auto;
-  bottom: -5px;
-  right: -5px;
-}
-
 .name {
   margin-bottom: 3px;
 }
@@ -35,4 +26,8 @@
 .name:hover {
   color: var(--main-color);
   text-decoration: underline;
+}
+
+.details {
+  padding: 15px;
 }

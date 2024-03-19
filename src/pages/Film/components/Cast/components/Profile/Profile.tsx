@@ -1,8 +1,7 @@
 import { CastType, IMAGE_FALLBACKS } from '@/common';
 import styles from './Profile.module.css';
 import { FC } from 'react';
-import { Link } from 'react-router-dom';
-import { buildLink, buildMediaPath } from '@/helpers';
+import { buildMediaPath } from '@/helpers';
 import { handleImageError } from '@/utils';
 
 type Props = {
@@ -21,7 +20,7 @@ const Profile: FC<Props> = ({ actor }) => {
           onError={(e) => handleImageError(e, IMAGE_FALLBACKS.noActorImage)}
         />
       </div>
-      <div>
+      <div className={styles.details}>
         <h3 className={styles.name}>{actor.name}</h3>
         <p>{actor.character.name}</p>
       </div>
