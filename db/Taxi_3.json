@@ -132,11 +132,8 @@
   ],
   "budget": 14000000,
   "boxOffice": 64000000,
-  "year": 2003,
-  "summary": [
-    {
-      "text": "Out to stop a new gang disguised as Santa Claus, Emilien and Daniel must also handle major changes in their personal relationships."
-    }
+  "year": [
+    2003
   ],
   "chapters": {
     "title": "Besson's Taxi",
@@ -148,5 +145,8 @@
       "trailer": "XLP-rf3dHOQ"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Out to stop a new gang disguised as Santa Claus, Emilien and Daniel must also handle major changes in their personal relationships."
+  ]
 }

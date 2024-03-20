@@ -134,11 +134,8 @@
   ],
   "budget": 160000000,
   "boxOffice": 286000000,
-  "year": 2013,
-  "summary": [
-    {
-      "text": "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself."
-    }
+  "year": [
+    2013
   ],
   "media": [
     {
@@ -146,5 +143,8 @@
       "trailer": "XmIIgE7eSak"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself."
+  ]
 }

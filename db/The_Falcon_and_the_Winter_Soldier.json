@@ -178,29 +178,27 @@
     "title": "Marvel Cinematic Universe",
     "part": 25
   },
-  "year": 2021,
-  "summary": [
-    {
-      "title": "Season 1",
-      "text": "Following the events of «Avengers: Endgame» Sam Wilson and Bucky Barnes team up in a global adventure that tests their abilities and their patience."
-    }
+  "year": [
+    2021
   ],
   "series": {
     "episodesTotal": 6,
     "seasons": [
       {
+        "title": "Season 1",
         "number": 1,
-        "episodesCount": 6,
-        "year": 2021
+        "episodesCount": 6
       }
     ]
   },
   "media": [
     {
       "poster": "falcon_and_the_winter_soldier.webp",
-      "trailer": "IWBsDaFWyTE",
-      "caption": "Season 1"
+      "trailer": "IWBsDaFWyTE"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "Following the events of «Avengers: Endgame» Sam Wilson and Bucky Barnes team up in a global adventure that tests their abilities and their patience."
+  ]
 }

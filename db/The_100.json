@@ -682,113 +682,93 @@
       ]
     }
   ],
-  "year": 2014,
-  "summary": [
-    {
-      "title": "Season 1",
-      "text": "In a post-apocalyptic world, 100 delinquent juvenile prisoners are sent to Earth from a dying space station to determine if the planet is habitable again. They encounter a wide range of dangers and face the struggle for survival, while uncovering the mysteries of Earth's past."
-    },
-    {
-      "title": "Season 2",
-      "text": "The survivors of the previous season continue to explore the Earth, but they face new threats, including warring factions, an artificial intelligence known as A.L.I.E., and a mysterious underground society known as the Grounders. Their fight for survival intensifies as they discover the truth about the Ark's survival on Earth."
-    },
-    {
-      "title": "Season 3",
-      "text": "In the third season, the conflict between the Arkers and the Grounders escalates as the threat of the AI A.L.I.E. becomes more pronounced. The group must navigate political intrigue and ethical dilemmas as they strive to save humanity from a looming apocalypse."
-    },
-    {
-      "title": "Season 4",
-      "text": "With the impending nuclear apocalypse threatening to wipe out all life on Earth, the characters must work together to find a solution. Tensions rise as the group faces difficult choices and scientific challenges in a race against time."
-    },
-    {
-      "title": "Season 5",
-      "text": "Season 5 picks up after a six-year time jump, as the survivors face new dangers on Earth, including a mysterious Eligius Corporation group and an overgrowing valley called the Shallow Valley. The conflicts between the various factions continue to test loyalties and survival skills."
-    },
-    {
-      "title": "Season 6",
-      "text": "The sixth season explores a new world, as the characters discover a habitable planet named Sanctum. However, they soon realize that this new world holds its own mysteries and challenges, and the search for answers continues."
-    },
-    {
-      "title": "Season 7",
-      "text": "In the final season, the characters face the ultimate test as they confront the aftermath of previous events and a powerful alien force. The stakes are higher than ever as they strive to save humanity and secure the future of their species."
-    }
+  "year": [
+    2014,
+    2014,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
   ],
   "series": {
     "episodesTotal": 100,
     "seasons": [
       {
+        "title": "Season 1",
         "number": 1,
-        "episodesCount": 13,
-        "year": 2014
+        "episodesCount": 13
       },
       {
+        "title": "Season 2",
         "number": 2,
-        "episodesCount": 16,
-        "year": 2014
+        "episodesCount": 16
       },
       {
+        "title": "Season 3",
         "number": 3,
-        "episodesCount": 16,
-        "year": 2016
+        "episodesCount": 16
       },
       {
+        "title": "Season 4",
         "number": 4,
-        "episodesCount": 13,
-        "year": 2017
+        "episodesCount": 13
       },
       {
+        "title": "Season 5",
         "number": 5,
-        "episodesCount": 13,
-        "year": 2018
+        "episodesCount": 13
       },
       {
+        "title": "Season 6",
         "number": 6,
-        "episodesCount": 13,
-        "year": 2019
+        "episodesCount": 13
       },
       {
+        "title": "Season 7",
         "number": 7,
-        "episodesCount": 16,
-        "year": 2020
+        "episodesCount": 16
       }
     ]
   },
   "media": [
     {
       "poster": "hundred.webp",
-      "trailer": "ia1Fbg96vL0",
-      "caption": "Season 1"
+      "trailer": "ia1Fbg96vL0"
     },
     {
       "poster": "hundred_s2.webp",
-      "trailer": "IW7_ZzFZF-o",
-      "caption": "Season 2"
+      "trailer": "IW7_ZzFZF-o"
     },
     {
       "poster": "hundred_s3.webp",
-      "trailer": "uwxwHTu802M",
-      "caption": "Season 3"
+      "trailer": "uwxwHTu802M"
     },
     {
       "poster": "hundred_s4.webp",
-      "trailer": "JQi2MAfpACI",
-      "caption": "Season 4"
+      "trailer": "JQi2MAfpACI"
     },
     {
       "poster": "hundred_s5.webp",
-      "trailer": "AGSfZ4xt4UY",
-      "caption": "Season 5"
+      "trailer": "AGSfZ4xt4UY"
     },
     {
       "poster": "hundred_s6.webp",
-      "trailer": "AVDyeT-GsX4",
-      "caption": "Season 6"
+      "trailer": "AVDyeT-GsX4"
     },
     {
       "poster": "hundred_s7.webp",
-      "trailer": "VQaFKClCUpo",
-      "caption": "Season 7"
+      "trailer": "VQaFKClCUpo"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "In a post-apocalyptic world, 100 delinquent juvenile prisoners are sent to Earth from a dying space station to determine if the planet is habitable again. They encounter a wide range of dangers and face the struggle for survival, while uncovering the mysteries of Earth's past.",
+    "The survivors of the previous season continue to explore the Earth, but they face new threats, including warring factions, an artificial intelligence known as A.L.I.E., and a mysterious underground society known as the Grounders. Their fight for survival intensifies as they discover the truth about the Ark's survival on Earth.",
+    "In the third season, the conflict between the Arkers and the Grounders escalates as the threat of the AI A.L.I.E. becomes more pronounced. The group must navigate political intrigue and ethical dilemmas as they strive to save humanity from a looming apocalypse.",
+    "With the impending nuclear apocalypse threatening to wipe out all life on Earth, the characters must work together to find a solution. Tensions rise as the group faces difficult choices and scientific challenges in a race against time.",
+    "Season 5 picks up after a six-year time jump, as the survivors face new dangers on Earth, including a mysterious Eligius Corporation group and an overgrowing valley called the Shallow Valley. The conflicts between the various factions continue to test loyalties and survival skills.",
+    "The sixth season explores a new world, as the characters discover a habitable planet named Sanctum. However, they soon realize that this new world holds its own mysteries and challenges, and the search for answers continues.",
+    "In the final season, the characters face the ultimate test as they confront the aftermath of previous events and a powerful alien force. The stakes are higher than ever as they strive to save humanity and secure the future of their species."
+  ]
 }

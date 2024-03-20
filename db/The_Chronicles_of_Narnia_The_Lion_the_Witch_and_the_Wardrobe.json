@@ -170,11 +170,8 @@
     }
   ],
   "boxOffice": 745000000,
-  "year": 2005,
-  "summary": [
-    {
-      "text": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion."
-    }
+  "year": [
+    2005
   ],
   "chapters": {
     "title": "The Chronicles of Narnia",
@@ -186,5 +183,8 @@
       "trailer": "lWKj41HZBzM"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion."
+  ]
 }

@@ -159,11 +159,8 @@
     }
   ],
   "boxOffice": 880000000,
-  "year": 2017,
-  "summary": [
-    {
-      "text": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City."
-    }
+  "year": [
+    2017
   ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
@@ -175,5 +172,8 @@
       "trailer": "n9DwoQ7HWvI"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City."
+  ]
 }

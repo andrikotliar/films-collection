@@ -191,11 +191,8 @@
     }
   ],
   "boxOffice": 343000000,
-  "year": 2016,
-  "summary": [
-    {
-      "text": "The crew of the USS Enterprise explores the furthest reaches of uncharted space, where they encounter a new ruthless enemy, who puts them, and everything the Federation stands for, to the test."
-    }
+  "year": [
+    2016
   ],
   "chapters": {
     "title": "Star Trek",
@@ -207,5 +204,8 @@
       "trailer": "XRVD32rnzOw"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "The crew of the USS Enterprise explores the furthest reaches of uncharted space, where they encounter a new ruthless enemy, who puts them, and everything the Federation stands for, to the test."
+  ]
 }

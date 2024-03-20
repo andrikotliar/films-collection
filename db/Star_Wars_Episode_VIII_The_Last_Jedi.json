@@ -152,11 +152,8 @@
     }
   ],
   "boxOffice": 1330000000,
-  "year": 2017,
-  "summary": [
-    {
-      "text": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order."
-    }
+  "year": [
+    2017
   ],
   "chapters": {
     "title": "Star Wars Universe",
@@ -168,5 +165,8 @@
       "trailer": "Q0CbN8sfihY"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order."
+  ]
 }

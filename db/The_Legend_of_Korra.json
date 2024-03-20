@@ -281,75 +281,60 @@
     "title": "The Last Airbender",
     "part": 2
   },
-  "year": 2012,
-  "summary": [
-    {
-      "title": "Book One: Air",
-      "text": "Korra, the new Avatar, embarks on her journey to master airbending in Republic City. She faces the Equalists, a group led by Amon that seeks to rid the world of bending. As she learns more about the complexities of being the Avatar, she must restore balance and peace."
-    },
-    {
-      "title": "Book Two: Spirits",
-      "text": "Korra faces new challenges as she delves into the spirit world and discovers the origins of bending. Civil unrest in Republic City and the appearance of dark spirits escalate the conflict. She must learn the ancient art of energybending and connect with her spiritual side."
-    },
-    {
-      "title": "Book Three: Change",
-      "text": "In the third season, Korra faces the Red Lotus, a dangerous anarchist group that seeks to end the Avatar cycle. As she confronts formidable adversaries, she must rebuild the Air Nation, rediscover herself, and make challenging decisions for the world's future."
-    },
-    {
-      "title": "Book Four: Balance",
-      "text": "The final season follows Korra as she deals with the aftermath of her traumatic battles. She faces Kuvira, an Earth Empire military leader who seeks to unite the Earth Kingdom. As Korra grapples with physical and emotional scars, she strives to bring balance to the world."
-    }
+  "year": [
+    2012,
+    2013,
+    2014,
+    2014
   ],
   "series": {
     "episodesTotal": 52,
     "seasons": [
       {
-        "number": 1,
         "title": "Book One: Air",
-        "episodesCount": 12,
-        "year": 2012
+        "number": 1,
+        "episodesCount": 12
       },
       {
-        "number": 2,
         "title": "Book Two: Spirits",
-        "episodesCount": 14,
-        "year": 2013
+        "number": 2,
+        "episodesCount": 14
       },
       {
-        "number": 3,
         "title": "Book Three: Change",
-        "episodesCount": 13,
-        "year": 2014
+        "number": 3,
+        "episodesCount": 13
       },
       {
-        "number": 4,
         "title": "Book Four: Balance",
-        "episodesCount": 13,
-        "year": 2014
+        "number": 4,
+        "episodesCount": 13
       }
     ]
   },
   "media": [
     {
       "poster": "legend_of_korra.webp",
-      "trailer": "NBNpGCIavwA",
-      "caption": "Book One: Air"
+      "trailer": "NBNpGCIavwA"
     },
     {
       "poster": "legend_of_korra_s2.webp",
-      "trailer": "NBNpGCIavwA",
-      "caption": "Book Two: Spirits"
+      "trailer": "NBNpGCIavwA"
     },
     {
       "poster": "legend_of_korra_s3.webp",
-      "trailer": "NBNpGCIavwA",
-      "caption": "Book Three: Change"
+      "trailer": "NBNpGCIavwA"
     },
     {
       "poster": "legend_of_korra_s4.webp",
-      "trailer": "NBNpGCIavwA",
-      "caption": "Book Four: Balance"
+      "trailer": "NBNpGCIavwA"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Korra, the new Avatar, embarks on her journey to master airbending in Republic City. She faces the Equalists, a group led by Amon that seeks to rid the world of bending. As she learns more about the complexities of being the Avatar, she must restore balance and peace.",
+    "Korra faces new challenges as she delves into the spirit world and discovers the origins of bending. Civil unrest in Republic City and the appearance of dark spirits escalate the conflict. She must learn the ancient art of energybending and connect with her spiritual side.",
+    "In the third season, Korra faces the Red Lotus, a dangerous anarchist group that seeks to end the Avatar cycle. As she confronts formidable adversaries, she must rebuild the Air Nation, rediscover herself, and make challenging decisions for the world's future.",
+    "The final season follows Korra as she deals with the aftermath of her traumatic battles. She faces Kuvira, an Earth Empire military leader who seeks to unite the Earth Kingdom. As Korra grapples with physical and emotional scars, she strives to bring balance to the world."
+  ]
 }

@@ -131,11 +131,8 @@
   ],
   "budget": 110000000,
   "boxOffice": 427000000,
-  "year": 2003,
-  "summary": [
-    {
-      "text": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith."
-    }
+  "year": [
+    2003
   ],
   "chapters": {
     "title": "The Matrix",
@@ -147,5 +144,8 @@
       "trailer": "hMbexEPAOQI"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith."
+  ]
 }

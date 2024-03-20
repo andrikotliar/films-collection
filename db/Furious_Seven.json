@@ -182,11 +182,8 @@
     }
   ],
   "boxOffice": 1520000000,
-  "year": 2015,
-  "summary": [
-    {
-      "text": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother."
-    }
+  "year": [
+    2015
   ],
   "chapters": {
     "title": "Fast and Furious",
@@ -198,5 +195,8 @@
       "trailer": "Skpu5HaVkOc"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother."
+  ]
 }

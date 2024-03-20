@@ -137,11 +137,8 @@
   ],
   "budget": 250000000,
   "boxOffice": 960000000,
-  "year": 2010,
-  "summary": [
-    {
-      "text": "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows."
-    }
+  "year": [
+    2010
   ],
   "chapters": {
     "title": "Harry Potter Universe",
@@ -153,5 +150,8 @@
       "trailer": "MxqsmsA8y5k"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows."
+  ]
 }

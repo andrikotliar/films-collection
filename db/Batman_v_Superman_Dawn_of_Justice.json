@@ -148,11 +148,8 @@
   ],
   "budget": 250000000,
   "boxOffice": 874000000,
-  "year": 2016,
-  "summary": [
-    {
-      "text": "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs."
-    }
+  "year": [
+    2016
   ],
   "chapters": {
     "title": "DC Extended Universe",
@@ -164,5 +161,8 @@
       "trailer": "bha24P9uw-E"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs."
+  ]
 }

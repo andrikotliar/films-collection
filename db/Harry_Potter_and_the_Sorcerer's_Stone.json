@@ -139,11 +139,8 @@
     }
   ],
   "boxOffice": 975000000000,
-  "year": 2001,
-  "summary": [
-    {
-      "text": "An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world."
-    }
+  "year": [
+    2001
   ],
   "chapters": {
     "title": "Harry Potter Universe",
@@ -155,5 +152,8 @@
       "trailer": "VyHV0BRtdxo"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world."
+  ]
 }

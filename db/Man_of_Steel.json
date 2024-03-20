@@ -156,11 +156,8 @@
   ],
   "budget": 225000000,
   "boxOffice": 668000000,
-  "year": 2013,
-  "summary": [
-    {
-      "text": "Clark Kent is an alien who as a child was evacuated from his dying world and came to Earth, living as a normal human. But when survivors of his alien home invade Earth, he must reveal himself to the world."
-    }
+  "year": [
+    2013
   ],
   "chapters": {
     "title": "DC Extended Universe",
@@ -172,5 +169,8 @@
       "trailer": "T6DJcgm3wNY"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Clark Kent is an alien who as a child was evacuated from his dying world and came to Earth, living as a normal human. But when survivors of his alien home invade Earth, he must reveal himself to the world."
+  ]
 }

@@ -180,11 +180,8 @@
     }
   ],
   "boxOffice": 370000000,
-  "year": 2014,
-  "summary": [
-    {
-      "text": "A soldier fighting aliens gets to relive the same day over and over again, the day restarting every time he dies."
-    }
+  "year": [
+    2014
   ],
   "media": [
     {
@@ -192,5 +189,8 @@
       "trailer": "vw61gCe2oqI"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "A soldier fighting aliens gets to relive the same day over and over again, the day restarting every time he dies."
+  ]
 }

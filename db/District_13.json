@@ -117,11 +117,8 @@
   ],
   "budget": 14000000,
   "boxOffice": 12000000,
-  "year": 2004,
-  "summary": [
-    {
-      "text": "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb."
-    }
+  "year": [
+    2004
   ],
   "chapters": {
     "title": "District 13",
@@ -133,5 +130,8 @@
       "trailer": "Mcmkx1klOpE"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb."
+  ]
 }

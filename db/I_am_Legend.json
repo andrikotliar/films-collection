@@ -132,11 +132,8 @@
     }
   ],
   "boxOffice": 585000000,
-  "year": 2007,
-  "summary": [
-    {
-      "text": "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure."
-    }
+  "year": [
+    2007
   ],
   "media": [
     {
@@ -144,5 +141,8 @@
       "trailer": "dtKMEAXyPkg"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure."
+  ]
 }

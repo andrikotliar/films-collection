@@ -114,11 +114,8 @@
   ],
   "budget": 145000000,
   "boxOffice": 621000000,
-  "year": 2014,
-  "summary": [
-    {
-      "text": "When Hiccup and Toothless discover an ice cave that is home to hundreds of new wild dragons and the mysterious Dragon Rider, the two friends find themselves at the center of a battle to protect the peace."
-    }
+  "year": [
+    2014
   ],
   "chapters": {
     "title": "How to Train Your Dragon",
@@ -130,5 +127,8 @@
       "trailer": "2BP38770KNo"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "When Hiccup and Toothless discover an ice cave that is home to hundreds of new wild dragons and the mysterious Dragon Rider, the two friends find themselves at the center of a battle to protect the peace."
+  ]
 }

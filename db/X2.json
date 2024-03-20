@@ -186,11 +186,8 @@
     }
   ],
   "boxOffice": 408000000,
-  "year": 2003,
-  "summary": [
-    {
-      "text": "When anti-mutant colonel William Stryker kidnaps Professor X and attacks his school, the X-Men must ally with their archenemy Magneto to stop him."
-    }
+  "year": [
+    2003
   ],
   "chapters": {
     "title": "X-Men",
@@ -202,5 +199,8 @@
       "trailer": "luHcOYS1HxQ"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "When anti-mutant colonel William Stryker kidnaps Professor X and attacks his school, the X-Men must ally with their archenemy Magneto to stop him."
+  ]
 }

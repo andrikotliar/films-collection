@@ -164,11 +164,8 @@
     }
   ],
   "boxOffice": 519000000,
-  "year": 2015,
-  "summary": [
-    {
-      "text": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world."
-    }
+  "year": [
+    2015
   ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
@@ -180,5 +177,8 @@
       "trailer": "pWdKf3MneyI"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world."
+  ]
 }

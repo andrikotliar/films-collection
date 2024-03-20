@@ -122,11 +122,8 @@
   ],
   "budget": 200000000,
   "boxOffice": 379000000,
-  "year": 2021,
-  "summary": [
-    {
-      "text": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises."
-    }
+  "year": [
+    2021
   ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
@@ -138,5 +135,8 @@
       "trailer": "ybji16u608U"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises."
+  ]
 }

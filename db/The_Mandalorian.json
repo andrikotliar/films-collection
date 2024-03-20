@@ -243,47 +243,42 @@
     "title": "Star Wars Universe",
     "part": 9
   },
-  "year": 2019,
-  "summary": [
-    {
-      "title": "Season 1",
-      "text": "Set in the Star Wars universe, the first season follows a lone bounty hunter known as the Mandalorian. His quest to capture a mysterious and powerful child, referred to as \"The Child\" but commonly known as Baby Yoda, leads to a series of adventures across the galaxy. He must protect the child from various threats and uncover the secrets of its origins."
-    },
-    {
-      "title": "Season 2",
-      "text": "In the second season, the Mandalorian continues his journey with Baby Yoda, searching for other Mandalorians who can help him return the child to its people. Their quest leads them to encounters with familiar and new characters, as well as deeper involvement in the events of the broader Star Wars galaxy."
-    }
+  "year": [
+    2019,
+    2020
   ],
   "series": {
     "episodesTotal": 16,
     "seasons": [
       {
+        "title": "Season 1",
         "number": 1,
-        "episodesCount": 8,
-        "year": 2019
+        "episodesCount": 8
       },
       {
+        "title": "Season 2",
         "number": 2,
-        "episodesCount": 8,
-        "year": 2020
+        "episodesCount": 8
       }
     ]
   },
   "media": [
     {
       "poster": "mandalorian.webp",
-      "trailer": "OFlBh_eUsjA",
-      "caption": "Season 1"
+      "trailer": "OFlBh_eUsjA"
     },
     {
       "poster": "mandalorian_s2.webp",
-      "trailer": "eW7Twd85m2g",
-      "caption": "Season 2"
+      "trailer": "eW7Twd85m2g"
     }
   ],
   "chapters": {
     "title": "Star Wars Universe",
     "part": 9
   },
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Set in the Star Wars universe, the first season follows a lone bounty hunter known as the Mandalorian. His quest to capture a mysterious and powerful child, referred to as \"The Child\" but commonly known as Baby Yoda, leads to a series of adventures across the galaxy. He must protect the child from various threats and uncover the secrets of its origins.",
+    "In the second season, the Mandalorian continues his journey with Baby Yoda, searching for other Mandalorians who can help him return the child to its people. Their quest leads them to encounters with familiar and new characters, as well as deeper involvement in the events of the broader Star Wars galaxy."
+  ]
 }

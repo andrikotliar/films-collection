@@ -171,11 +171,8 @@
     }
   ],
   "boxOffice": 296000000,
-  "year": 2000,
-  "summary": [
-    {
-      "text": "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men."
-    }
+  "year": [
+    2000
   ],
   "chapters": {
     "title": "X-Men",
@@ -187,5 +184,8 @@
       "trailer": "VNxwlx6etXI"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men."
+  ]
 }

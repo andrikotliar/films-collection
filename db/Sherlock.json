@@ -213,71 +213,60 @@
       ]
     }
   ],
-  "year": 2010,
-  "summary": [
-    {
-      "title": "Season 1",
-      "text": "In the debut season, viewers are introduced to Sherlock Holmes and Dr. John Watson, who become flatmates in modern-day London. Together, they tackle a series of perplexing cases, including a string of suicides that Sherlock believes are connected by a shadowy antagonist."
-    },
-    {
-      "title": "Season 2",
-      "text": "In the second season, Sherlock continues to astound with his deductive abilities, but he faces even more formidable adversaries. Moriarty, a brilliant and dangerous criminal mastermind, becomes his primary nemesis. The season is filled with high-stakes conflicts and intricate puzzles."
-    },
-    {
-      "title": "Season 3",
-      "text": "Season 3 explores Sherlock's return from a two-year absence, during which he was believed to be dead. The dynamic between Sherlock and Watson is tested as they confront new mysteries, including a wedding, a case of a disappearing train, and a deadly adversary from the past."
-    },
-    {
-      "title": "Season 4",
-      "text": "The fourth season delves deeper into Sherlock's complex personal life and his troubled past. It features an enigmatic new villain, Culverton Smith, and a series of cases that bring Sherlock to the brink of despair. Dark secrets and unexpected revelations surface, challenging the detective like never before."
-    }
+  "year": [
+    2010,
+    2012,
+    2014,
+    2017
   ],
   "series": {
     "episodesTotal": 12,
     "seasons": [
       {
+        "title": "Season 1",
         "number": 1,
-        "episodesCount": 3,
-        "year": 2010
+        "episodesCount": 3
       },
       {
+        "title": "Season 2",
         "number": 2,
-        "episodesCount": 3,
-        "year": 2012
+        "episodesCount": 3
       },
       {
+        "title": "Season 3",
         "number": 3,
-        "episodesCount": 3,
-        "year": 2014
+        "episodesCount": 3
       },
       {
+        "title": "Season 4",
         "number": 4,
-        "episodesCount": 3,
-        "year": 2017
+        "episodesCount": 3
       }
     ]
   },
   "media": [
     {
       "poster": "sherlock.webp",
-      "trailer": "xK7S9mrFWL4",
-      "caption": "Season 1"
+      "trailer": "xK7S9mrFWL4"
     },
     {
       "poster": "sherlock_s2.webp",
-      "trailer": "vydmN9pzDzg",
-      "caption": "Season 2"
+      "trailer": "vydmN9pzDzg"
     },
     {
       "poster": "sherlock_s3.webp",
-      "trailer": "9UcR9iKArd0",
-      "caption": "Season 3"
+      "trailer": "9UcR9iKArd0"
     },
     {
       "poster": "sherlock_s4.webp",
-      "trailer": "FOXZgRTfSUA",
-      "caption": "Season 4"
+      "trailer": "FOXZgRTfSUA"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "In the debut season, viewers are introduced to Sherlock Holmes and Dr. John Watson, who become flatmates in modern-day London. Together, they tackle a series of perplexing cases, including a string of suicides that Sherlock believes are connected by a shadowy antagonist.",
+    "In the second season, Sherlock continues to astound with his deductive abilities, but he faces even more formidable adversaries. Moriarty, a brilliant and dangerous criminal mastermind, becomes his primary nemesis. The season is filled with high-stakes conflicts and intricate puzzles.",
+    "Season 3 explores Sherlock's return from a two-year absence, during which he was believed to be dead. The dynamic between Sherlock and Watson is tested as they confront new mysteries, including a wedding, a case of a disappearing train, and a deadly adversary from the past.",
+    "The fourth season delves deeper into Sherlock's complex personal life and his troubled past. It features an enigmatic new villain, Culverton Smith, and a series of cases that bring Sherlock to the brink of despair. Dark secrets and unexpected revelations surface, challenging the detective like never before."
+  ]
 }

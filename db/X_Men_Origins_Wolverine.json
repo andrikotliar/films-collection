@@ -148,11 +148,8 @@
   ],
   "budget": 150000000,
   "boxOffice": 373000000,
-  "year": 2009,
-  "summary": [
-    {
-      "text": "The early years of James Logan, featuring his rivalry with his brother Victor Creed, his service in the special forces team Weapon X, and his experimentation into the metal-lined mutant Wolverine."
-    }
+  "year": [
+    2009
   ],
   "chapters": {
     "title": "X-Men",
@@ -164,5 +161,8 @@
       "trailer": "QojV7s3UTu0"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "The early years of James Logan, featuring his rivalry with his brother Victor Creed, his service in the special forces team Weapon X, and his experimentation into the metal-lined mutant Wolverine."
+  ]
 }

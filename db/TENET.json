@@ -150,11 +150,8 @@
     }
   ],
   "boxOffice": 364000000,
-  "year": 2020,
-  "summary": [
-    {
-      "text": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time."
-    }
+  "year": [
+    2020
   ],
   "media": [
     {
@@ -162,5 +159,8 @@
       "trailer": "AZGcmvrTX9M"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time."
+  ]
 }

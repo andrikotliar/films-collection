@@ -129,11 +129,8 @@
   ],
   "budget": 200000000,
   "boxOffice": 371000000,
-  "year": 2009,
-  "summary": [
-    {
-      "text": "In 2018, a mysterious new weapon in the war against the machines, half-human and half-machine, comes to John Connor on the eve of a resistance attack on Skynet. But whose side is he on, and can he be trusted?"
-    }
+  "year": [
+    2009
   ],
   "chapters": {
     "title": "The Terminator",
@@ -145,5 +142,8 @@
       "trailer": "-Czz-TcWCkA"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "In 2018, a mysterious new weapon in the war against the machines, half-human and half-machine, comes to John Connor on the eve of a resistance attack on Skynet. But whose side is he on, and can he be trusted?"
+  ]
 }

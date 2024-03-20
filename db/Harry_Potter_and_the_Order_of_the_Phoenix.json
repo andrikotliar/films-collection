@@ -150,11 +150,8 @@
   ],
   "budget": 150000000,
   "boxOffice": 940000000,
-  "year": 2007,
-  "summary": [
-    {
-      "text": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts."
-    }
+  "year": [
+    2007
   ],
   "chapters": {
     "title": "Harry Potter Universe",
@@ -166,5 +163,8 @@
       "trailer": "y6ZW7KXaXYk"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts."
+  ]
 }

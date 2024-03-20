@@ -157,11 +157,8 @@
     }
   ],
   "boxOffice": 649000000,
-  "year": 2002,
-  "summary": [
-    {
-      "text": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi."
-    }
+  "year": [
+    2002
   ],
   "chapters": {
     "title": "Star Wars Universe",
@@ -173,5 +170,8 @@
       "trailer": "gYbW1F_c9eM"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi."
+  ]
 }

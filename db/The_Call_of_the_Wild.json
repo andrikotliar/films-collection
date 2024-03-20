@@ -94,11 +94,8 @@
   ],
   "budget": 135000000,
   "boxOffice": 110000000,
-  "year": 2020,
-  "summary": [
-    {
-      "text": "A sled dog struggles for survival in the wilds of the Yukon."
-    }
+  "year": [
+    2020
   ],
   "media": [
     {
@@ -106,5 +103,8 @@
       "trailer": "h1LG9So2ZBk"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "A sled dog struggles for survival in the wilds of the Yukon."
+  ]
 }

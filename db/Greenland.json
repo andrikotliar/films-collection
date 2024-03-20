@@ -122,11 +122,8 @@
   ],
   "budget": 35000000,
   "boxOffice": 52000000,
-  "year": 2020,
-  "summary": [
-    {
-      "text": "A family struggles for survival in the face of a cataclysmic natural disaster."
-    }
+  "year": [
+    2020
   ],
   "media": [
     {
@@ -134,5 +131,8 @@
       "trailer": "RTODtIQQRpA"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "A family struggles for survival in the face of a cataclysmic natural disaster."
+  ]
 }

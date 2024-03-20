@@ -135,11 +135,8 @@
     }
   ],
   "boxOffice": 131000000,
-  "year": 1986,
-  "summary": [
-    {
-      "text": "Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators."
-    }
+  "year": [
+    1986
   ],
   "chapters": {
     "title": "Aliens",
@@ -151,5 +148,8 @@
       "trailer": "oSeQQlaCZgU"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators."
+  ]
 }

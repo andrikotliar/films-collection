@@ -135,11 +135,8 @@
     }
   ],
   "boxOffice": 604000000,
-  "year": 2005,
-  "summary": [
-    {
-      "text": "An alien invasion threatens the future of humanity. The catastrophic nightmare is depicted through the eyes of one American family fighting for survival."
-    }
+  "year": [
+    2005
   ],
   "media": [
     {
@@ -147,5 +144,8 @@
       "trailer": "SM6aEEjc5hA"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "An alien invasion threatens the future of humanity. The catastrophic nightmare is depicted through the eyes of one American family fighting for survival."
+  ]
 }

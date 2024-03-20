@@ -167,11 +167,8 @@
     }
   ],
   "boxOffice": 1020000000,
-  "year": 2016,
-  "summary": [
-    {
-      "text": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy."
-    }
+  "year": [
+    2016
   ],
   "media": [
     {
@@ -179,5 +176,8 @@
       "trailer": "jWM0ct-OLsM"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy."
+  ]
 }

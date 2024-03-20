@@ -203,11 +203,8 @@
   ],
   "budget": 55000000,
   "boxOffice": 353000000,
-  "year": 2017,
-  "summary": [
-    {
-      "text": "When a murder occurs on the train on which he's travelling, celebrated detective Hercule Poirot is recruited to solve the case."
-    }
+  "year": [
+    2017
   ],
   "media": [
     {
@@ -215,5 +212,8 @@
       "trailer": "Mq4m3yAoW8E"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "When a murder occurs on the train on which he's travelling, celebrated detective Hercule Poirot is recruited to solve the case."
+  ]
 }

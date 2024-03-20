@@ -166,11 +166,8 @@
   ],
   "budget": 95000000,
   "boxOffice": 226000000,
-  "year": 2010,
-  "summary": [
-    {
-      "text": "A teenager discovers he's the descendant of a Greek god and sets out on an adventure to settle an on-going battle between the gods."
-    }
+  "year": [
+    2010
   ],
   "media": [
     {
@@ -178,5 +175,8 @@
       "trailer": "xko1Mx5w4tg"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "A teenager discovers he's the descendant of a Greek god and sets out on an adventure to settle an on-going battle between the gods."
+  ]
 }

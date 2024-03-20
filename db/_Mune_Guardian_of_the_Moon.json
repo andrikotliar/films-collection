@@ -97,11 +97,11 @@
   ],
   "budget": 17000000,
   "boxOffice": 8500000,
-  "year": 2015,
-  "summary": [
-    {
-      "text": "When an evil magma demon and his minions steals the sun of a magical world, the new guardians of both the sun and the moon must embark on a quest to retrieve it and save their world from disaster as the moon faces destruction as well."
-    }
+  "year": [
+    2015
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "When an evil magma demon and his minions steals the sun of a magical world, the new guardians of both the sun and the moon must embark on a quest to retrieve it and save their world from disaster as the moon faces destruction as well."
+  ]
 }

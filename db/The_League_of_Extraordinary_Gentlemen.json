@@ -134,11 +134,8 @@
   ],
   "budget": 78000000,
   "boxOffice": 179000000,
-  "year": 2003,
-  "summary": [
-    {
-      "text": "In an alternate Victorian Age world, a group of famous contemporary fantasy, science fiction, and adventure characters team up on a secret mission."
-    }
+  "year": [
+    2003
   ],
   "media": [
     {
@@ -146,5 +143,8 @@
       "trailer": "_WWIiTlGyYQ"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "In an alternate Victorian Age world, a group of famous contemporary fantasy, science fiction, and adventure characters team up on a secret mission."
+  ]
 }

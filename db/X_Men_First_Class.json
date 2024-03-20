@@ -175,11 +175,8 @@
     }
   ],
   "boxOffice": 354000000,
-  "year": 2011,
-  "summary": [
-    {
-      "text": "In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them."
-    }
+  "year": [
+    2011
   ],
   "chapters": {
     "title": "X-Men",
@@ -191,5 +188,8 @@
       "trailer": "kyQKi5-k0UU"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them."
+  ]
 }

@@ -172,11 +172,8 @@
   ],
   "budget": 195000000,
   "boxOffice": 1120000000,
-  "year": 2011,
-  "summary": [
-    {
-      "text": "The Autobots learn of a Cybertronian spacecraft hidden on the moon, and race against the Decepticons to reach it and to learn its secrets."
-    }
+  "year": [
+    2011
   ],
   "chapters": {
     "title": "Transformers",
@@ -188,5 +185,8 @@
       "trailer": "bTIrEZM-cFE"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "The Autobots learn of a Cybertronian spacecraft hidden on the moon, and race against the Decepticons to reach it and to learn its secrets."
+  ]
 }

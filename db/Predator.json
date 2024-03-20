@@ -139,11 +139,8 @@
   ],
   "budget": 15000000,
   "boxOffice": 98000000,
-  "year": 1987,
-  "summary": [
-    {
-      "text": "A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior."
-    }
+  "year": [
+    1987
   ],
   "media": [
     {
@@ -151,5 +148,8 @@
       "trailer": "_1wDBNHYDv8"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior."
+  ]
 }

@@ -125,11 +125,8 @@
   ],
   "budget": 76000000,
   "boxOffice": 236000000,
-  "year": 2003,
-  "summary": [
-    {
-      "text": "Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself."
-    }
+  "year": [
+    2003
   ],
   "chapters": {
     "title": "Fast and Furious",
@@ -141,5 +138,8 @@
       "trailer": "F_VIM03DXWI"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself."
+  ]
 }

@@ -186,11 +186,8 @@
   ],
   "budget": 160000000,
   "boxOffice": 434000000,
-  "year": 2016,
-  "summary": [
-    {
-      "text": "As an Orc horde invades the planet Azeroth using a magic portal, a few human heroes and dissenting Orcs must attempt to stop the true evil behind this war."
-    }
+  "year": [
+    2016
   ],
   "media": [
     {
@@ -198,5 +195,8 @@
       "trailer": "2Rxoz13Bthc"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "As an Orc horde invades the planet Azeroth using a magic portal, a few human heroes and dissenting Orcs must attempt to stop the true evil behind this war."
+  ]
 }

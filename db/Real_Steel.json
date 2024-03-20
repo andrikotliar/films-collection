@@ -128,11 +128,8 @@
   ],
   "budget": 110000000,
   "boxOffice": 300000000,
-  "year": 2011,
-  "summary": [
-    {
-      "text": "In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot."
-    }
+  "year": [
+    2011
   ],
   "media": [
     {
@@ -140,5 +137,8 @@
       "trailer": "SwfmV3nn6QA"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot."
+  ]
 }

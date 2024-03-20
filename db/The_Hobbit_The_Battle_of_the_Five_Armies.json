@@ -268,11 +268,8 @@
     }
   ],
   "boxOffice": 956000000,
-  "year": 2014,
-  "summary": [
-    {
-      "text": "Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness."
-    }
+  "year": [
+    2014
   ],
   "chapters": {
     "title": "Middle-Earth Universe",
@@ -284,5 +281,8 @@
       "trailer": "iVAgTiBrrDA"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness."
+  ]
 }

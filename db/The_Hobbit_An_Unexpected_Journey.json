@@ -245,11 +245,8 @@
     }
   ],
   "boxOffice": 1020000000,
-  "year": 2012,
-  "summary": [
-    {
-      "text": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug."
-    }
+  "year": [
+    2012
   ],
   "chapters": {
     "title": "Middle-Earth Universe",
@@ -261,5 +258,8 @@
       "trailer": "JTSoD4BBCJc"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug."
+  ]
 }

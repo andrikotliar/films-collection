@@ -140,11 +140,8 @@
     }
   ],
   "boxOffice": 400000000,
-  "year": 2010,
-  "summary": [
-    {
-      "text": "The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world."
-    }
+  "year": [
+    2010
   ],
   "media": [
     {
@@ -152,5 +149,8 @@
       "trailer": "L9szn1QQfas"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world."
+  ]
 }
