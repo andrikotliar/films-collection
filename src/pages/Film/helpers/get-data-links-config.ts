@@ -6,7 +6,7 @@ const getDataLinkConfig = (film: FilmData): LinkGroup[] => {
 
   return [
     {
-      value: film.year,
+      value: film.year[0],
       property: 'year',
       title: 'Year',
     },

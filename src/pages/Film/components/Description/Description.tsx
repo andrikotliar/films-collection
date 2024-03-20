@@ -1,13 +1,11 @@
 import styles from './Description.module.css';
 import { FC, useState } from 'react';
-import { MediaItem, SeasonType, Summary } from '@/common';
-import { DataArea, RouterLink } from '@/components';
-import { Link } from 'react-router-dom';
-import { buildLink } from '@/helpers';
+import { MediaItem, SeasonType } from '@/common';
+import { DataArea } from '@/components';
 import { SeriesHeader } from '@/pages/Film/components/Description/components';
 
 type Props = {
-  description: Summary[];
+  description: string[];
   media: MediaItem[];
   seasons?: SeasonType[];
 };
@@ -23,23 +21,7 @@ const Description: FC<Props> = ({ description, seasons }) => {
         seasons={seasons}
       />
       <DataArea className={styles.wrapper}>
-        <div className={styles.description}>
-          {seasons && (
-            <div className={styles.details}>
-              <div className={styles.data}>
-                <span className={styles.prop}>Episodes:</span>{' '}
-                {seasons?.[activeIndex].episodesCount}
-              </div>
-              <div className={styles.data}>
-                <span className={styles.prop}>Release year:</span>
-                <RouterLink to={buildLink('year', seasons[activeIndex].year)}>
-                  {seasons[activeIndex].year}
-                </RouterLink>
-              </div>
-            </div>
-          )}
-          {description[activeIndex].text}
-        </div>
+        <div className={styles.description}>{description[activeIndex]}</div>
       </DataArea>
     </div>
   );

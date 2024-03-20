@@ -65,7 +65,7 @@ const FilmPage = () => {
           <section>
             <SectionTitle>Description</SectionTitle>
             <Description
-              description={film.summary}
+              description={film.description}
               media={film.media}
               seasons={film?.series?.seasons}
             />

@@ -36,14 +36,9 @@ type Chapter = {
   part: number;
 };
 
-type Summary = {
-  title?: string;
-  text: string;
-};
-
 type SeasonType = {
+  title: string;
   number: number;
-  year: number;
   episodesCount: number;
 };
 
@@ -55,7 +50,6 @@ type SeriesExtension = {
 type MediaItem = {
   poster: string;
   trailer: string;
-  caption?: string;
 };
 
 type FilmData = {
@@ -66,9 +60,9 @@ type FilmData = {
   genres: string[];
   production: string[];
   crew: Crew[];
-  summary: Summary[];
+  description: string[];
   countries: string[];
-  year: number;
+  year: number[];
   duration: number;
   cast: CastType[];
   collections: Collection[];
@@ -90,7 +84,6 @@ export type {
   Collection,
   Award,
   Chapter,
-  Summary,
   SeriesExtension,
   SeasonType,
   MediaItem,
