@@ -1,9 +1,10 @@
+import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { useRandomTitle } from './hooks';
-import styles from './RandomTitle.module.css';
 import { Loader } from '@/components';
 import { buildMediaPath } from '@/helpers';
-import { useMemo } from 'react';
+import { useRandomTitle } from './hooks';
+
+import styles from './RandomTitle.module.css';
 
 const RandomTitle = () => {
   const randomTitle = useRandomTitle();

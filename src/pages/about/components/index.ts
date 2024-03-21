@@ -1,1 +1,1 @@
-export * from './RandomTitle';
+export * from './random-title/RandomTitle';
