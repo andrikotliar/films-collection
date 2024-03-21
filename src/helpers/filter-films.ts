@@ -44,11 +44,7 @@ export const filterFilms = (
         }
 
         if (property === 'year') {
-          const years = [film.year];
-          if (film.series) {
-            film.series.seasons.forEach((season) => years.push(season.year));
-          }
-          return years.some((year) => params[property].includes(String(year)));
+          return film[property].includes(Number(params[property]));
         }
 
         if (property === 'seasons') {
