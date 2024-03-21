@@ -153,11 +153,8 @@
   ],
   "budget": 75000000,
   "boxOffice": 352000000,
-  "year": 2013,
-  "summary": [
-    {
-      "text": "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money."
-    }
+  "year": [
+    2013
   ],
   "media": [
     {
@@ -165,5 +162,8 @@
       "trailer": "KzJNYYkkhzc"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money."
+  ]
 }

@@ -184,11 +184,8 @@
     }
   ],
   "boxOffice": 773000000,
-  "year": 2014,
-  "summary": [
-    {
-      "text": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe."
-    }
+  "year": [
+    2014
   ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
@@ -200,5 +197,8 @@
       "trailer": "d96cjJhvlMA"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe."
+  ]
 }

@@ -130,29 +130,27 @@
     "title": "Marvel Cinematic Universe",
     "part": 29
   },
-  "year": 2021,
-  "summary": [
-    {
-      "title": "Season 1",
-      "text": "Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate M. Bishop, who took on the role after the original Avenger, Clint Barton."
-    }
+  "year": [
+    2021
   ],
   "series": {
     "episodesTotal": 6,
     "seasons": [
       {
+        "title": "Season 1",
         "number": 1,
-        "episodesCount": 6,
-        "year": 2021
+        "episodesCount": 6
       }
     ]
   },
   "media": [
     {
       "poster": "hawkeye.webp",
-      "trailer": "5VYb3B1ETlk",
-      "caption": "Season 1"
+      "trailer": "5VYb3B1ETlk"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate M. Bishop, who took on the role after the original Avenger, Clint Barton."
+  ]
 }

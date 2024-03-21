@@ -147,11 +147,8 @@
     }
   ],
   "boxOffice": 521000000,
-  "year": 1991,
-  "summary": [
-    {
-      "text": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her teenage son, John Connor, from a more advanced and powerful cyborg."
-    }
+  "year": [
+    1991
   ],
   "chapters": {
     "title": "The Terminator",
@@ -163,5 +160,8 @@
       "trailer": "-W8CegO_Ixw"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her teenage son, John Connor, from a more advanced and powerful cyborg."
+  ]
 }

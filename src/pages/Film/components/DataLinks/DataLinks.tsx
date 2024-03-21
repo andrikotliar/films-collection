@@ -1,16 +1,25 @@
 import styles from './DataLinks.module.css';
-import { FC } from 'react';
-import { LinkGroup } from '@/common';
+import { FC, useMemo } from 'react';
+import { FilmData } from '@/common';
 import { DataLink } from './components';
+import { getDataLinkConfig } from '@/pages/Film/helpers';
 
 type Props = {
-  items: LinkGroup[];
+  film: FilmData;
 };
 
-const DataLinks: FC<Props> = ({ items }) => {
+const DataLinks: FC<Props> = ({ film }) => {
+  const dataLinks = useMemo(() => {
+    if (!film) {
+      return [];
+    }
+
+    return getDataLinkConfig(film);
+  }, [film]);
+
   return (
     <div className={styles.dataLinks}>
-      {items.map((item, index) => (
+      {dataLinks.map((item, index) => (
         <div className={styles.group} key={index}>
           {Array.isArray(item.value) ? (
             item.value.map((value) => (

@@ -33,7 +33,7 @@ const RandomTitle = () => {
       <div className={styles.info}>
         <h3 className={styles.movieTitle}>{randomTitle.title}</h3>
         <p>
-          {randomTitle.year} - {directors}
+          {randomTitle.year[0]} - {directors}
         </p>
       </div>
     </Link>

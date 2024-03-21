@@ -157,11 +157,8 @@
   ],
   "budget": 125000000,
   "boxOffice": 626000000,
-  "year": 2011,
-  "summary": [
-    {
-      "text": "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent."
-    }
+  "year": [
+    2011
   ],
   "chapters": {
     "title": "Fast and Furious",
@@ -173,5 +170,8 @@
       "trailer": "mw2AqdB5EVA"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent."
+  ]
 }

@@ -124,11 +124,8 @@
     }
   ],
   "boxOffice": 695000000,
-  "year": 2011,
-  "summary": [
-    {
-      "text": "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name."
-    }
+  "year": [
+    2011
   ],
   "chapters": {
     "title": "Mission: Impossible",
@@ -140,5 +137,8 @@
       "trailer": "EDGYVFZxsXQ"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name."
+  ]
 }

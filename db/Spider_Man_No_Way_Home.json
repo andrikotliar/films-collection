@@ -151,11 +151,8 @@
       "title": "Marvel Cinematic Universe"
     }
   ],
-  "year": 2021,
-  "summary": [
-    {
-      "text": "For the first time in the cinematic history of Spider-Man, our friendly neighborhood hero is unmasked and no longer able to separate his normal life from the high-stakes of being a Super Hero. When he asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man."
-    }
+  "year": [
+    2021
   ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
@@ -167,5 +164,8 @@
       "trailer": "rt-2cxAiPJk"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "For the first time in the cinematic history of Spider-Man, our friendly neighborhood hero is unmasked and no longer able to separate his normal life from the high-stakes of being a Super Hero. When he asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man."
+  ]
 }

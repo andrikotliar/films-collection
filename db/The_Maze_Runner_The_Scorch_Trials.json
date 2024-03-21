@@ -147,11 +147,8 @@
   ],
   "budget": 61000000,
   "boxOffice": 312000000,
-  "year": 2015,
-  "summary": [
-    {
-      "text": "After having escaped the Maze, the Gladers now face a new set of challenges on the open roads of a desolate landscape filled with unimaginable obstacles."
-    }
+  "year": [
+    2015
   ],
   "chapters": {
     "title": "The Maze Runner",
@@ -163,5 +160,8 @@
       "trailer": "SDofO3P2HpE"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "After having escaped the Maze, the Gladers now face a new set of challenges on the open roads of a desolate landscape filled with unimaginable obstacles."
+  ]
 }

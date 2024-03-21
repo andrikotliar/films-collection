@@ -57,6 +57,10 @@
   border: 1px solid transparent;
 }
 
+.menuButton:focus-visible {
+  outline: auto;
+}
+
 .menuIcon {
   pointer-events: none;
 }

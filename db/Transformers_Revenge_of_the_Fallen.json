@@ -170,11 +170,8 @@
   ],
   "budget": 200000000,
   "boxOffice": 836000000,
-  "year": 2009,
-  "summary": [
-    {
-      "text": "Sam Witwicky leaves the Autobots behind for a normal life. But when his mind is filled with cryptic symbols, the Decepticons target him and he is dragged back into the Transformers' war."
-    }
+  "year": [
+    2009
   ],
   "chapters": {
     "title": "Transformers",
@@ -186,5 +183,8 @@
       "trailer": "fnXzKwUgDhg"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Sam Witwicky leaves the Autobots behind for a normal life. But when his mind is filled with cryptic symbols, the Decepticons target him and he is dragged back into the Transformers' war."
+  ]
 }

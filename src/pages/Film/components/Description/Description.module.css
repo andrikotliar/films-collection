@@ -1,22 +1,3 @@
 .description {
   line-height: 1.5;
 }
-
-.details {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin-bottom: 10px;
-}
-
-.data {
-  display: flex;
-  align-items: center;
-  font-size: 14px;
-  gap: 5px;
-}
-
-.prop {
-  font-weight: bold;
-  text-transform: uppercase;
-}

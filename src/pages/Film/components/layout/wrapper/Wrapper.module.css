@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: var(--main-padding) 0;
+  min-height: var(--app-height);
+  width: 100%;
+  margin: 0 auto;
+}

@@ -199,11 +199,8 @@
     }
   ],
   "boxOffice": 2800000000,
-  "year": 2009,
-  "summary": [
-    {
-      "text": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home."
-    }
+  "year": [
+    2009
   ],
   "chapters": {
     "title": "Avatar",
@@ -215,5 +212,8 @@
       "trailer": "CM79GTEm2ps"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home."
+  ]
 }

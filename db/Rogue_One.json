@@ -155,11 +155,8 @@
     }
   ],
   "boxOffice": 1060000000,
-  "year": 2016,
-  "summary": [
-    {
-      "text": "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans."
-    }
+  "year": [
+    2016
   ],
   "chapters": {
     "title": "Star Wars Universe",
@@ -171,5 +168,8 @@
       "trailer": "frdj1zb9sMY"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans."
+  ]
 }

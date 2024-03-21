@@ -160,11 +160,8 @@
     }
   ],
   "boxOffice": 248000000,
-  "year": 1980,
-  "summary": [
-    {
-      "text": "After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader."
-    }
+  "year": [
+    1980
   ],
   "chapters": {
     "title": "Star Wars Universe",
@@ -176,5 +173,8 @@
       "trailer": "JNwNXF9Y6kY"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader."
+  ]
 }

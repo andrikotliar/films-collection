@@ -160,11 +160,8 @@
     }
   ],
   "boxOffice": 390000000,
-  "year": 1981,
-  "summary": [
-    {
-      "text": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers."
-    }
+  "year": [
+    1981
   ],
   "chapters": {
     "title": "Indiana Jones",
@@ -176,5 +173,8 @@
       "trailer": "Rh_BJXG1-44"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers."
+  ]
 }

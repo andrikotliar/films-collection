@@ -121,11 +121,8 @@
   ],
   "budget": 140000000,
   "boxOffice": 442000000,
-  "year": 2002,
-  "summary": [
-    {
-      "text": "Agent J needs help so he is sent to find Agent K and restore his memory."
-    }
+  "year": [
+    2002
   ],
   "chapters": {
     "title": "Men in Black",
@@ -137,5 +134,8 @@
       "trailer": "p4NJHqoojOU"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Agent J needs help so he is sent to find Agent K and restore his memory."
+  ]
 }

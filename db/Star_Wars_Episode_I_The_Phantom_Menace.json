@@ -170,11 +170,8 @@
     }
   ],
   "boxOffice": 1020000000,
-  "year": 1999,
-  "summary": [
-    {
-      "text": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their old glory."
-    }
+  "year": [
+    1999
   ],
   "chapters": {
     "title": "Star Wars Universe",
@@ -186,5 +183,8 @@
       "trailer": "bD7bpG-zDJQ"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their old glory."
+  ]
 }

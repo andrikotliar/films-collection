@@ -147,11 +147,8 @@
     }
   ],
   "boxOffice": 263000000,
-  "year": 1995,
-  "summary": [
-    {
-      "text": "When two kids find and play a magical board game, they release a man trapped for decades in it and a host of dangers that can only be stopped by finishing the game."
-    }
+  "year": [
+    1995
   ],
   "chapters": {
     "title": "Jumanji",
@@ -163,5 +160,8 @@
       "trailer": "5p18zqZmeiI"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "When two kids find and play a magical board game, they release a man trapped for decades in it and a host of dangers that can only be stopped by finishing the game."
+  ]
 }

@@ -143,11 +143,8 @@
   ],
   "budget": 165000000,
   "boxOffice": 496000000,
-  "year": 2010,
-  "summary": [
-    {
-      "text": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed."
-    }
+  "year": [
+    2010
   ],
   "chapters": {
     "title": "How to Train Your Dragon",
@@ -159,5 +156,8 @@
       "trailer": "oKiYuIsPxYk"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed."
+  ]
 }

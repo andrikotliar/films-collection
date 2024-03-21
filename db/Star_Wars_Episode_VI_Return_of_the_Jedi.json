@@ -161,11 +161,8 @@
     }
   ],
   "boxOffice": 573000000,
-  "year": 1983,
-  "summary": [
-    {
-      "text": "After a daring mission to rescue Han Solo from Jabba the Hutt, the rebels dispatch to Endor to destroy a more powerful Death Star. Meanwhile, Luke struggles to help Vader back from the dark side without falling into the Emperor's trap."
-    }
+  "year": [
+    1983
   ],
   "chapters": {
     "title": "Star Wars Universe",
@@ -177,5 +174,8 @@
       "trailer": "5UfA_aKBGMc"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "After a daring mission to rescue Han Solo from Jabba the Hutt, the rebels dispatch to Endor to destroy a more powerful Death Star. Meanwhile, Luke struggles to help Vader back from the dark side without falling into the Emperor's trap."
+  ]
 }

@@ -127,11 +127,8 @@
   ],
   "budget": 150000000,
   "boxOffice": 616000000,
-  "year": 2006,
-  "summary": [
-    {
-      "text": "After earning 00 status and a licence to kill, secret agent James Bond sets out on his first mission as 007. Bond must defeat a private banker funding terrorists in a high-stakes game of poker at Casino Royale, Montenegro."
-    }
+  "year": [
+    2006
   ],
   "media": [
     {
@@ -139,5 +136,8 @@
       "trailer": "36mnx8dBbGE"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "After earning 00 status and a licence to kill, secret agent James Bond sets out on his first mission as 007. Bond must defeat a private banker funding terrorists in a high-stakes game of poker at Casino Royale, Montenegro."
+  ]
 }

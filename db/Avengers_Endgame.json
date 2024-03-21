@@ -237,11 +237,8 @@
     }
   ],
   "boxOffice": 2730000000,
-  "year": 2019,
-  "summary": [
-    {
-      "text": "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to undo Thanos' actions and restore order to the universe."
-    }
+  "year": [
+    2019
   ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
@@ -253,5 +250,8 @@
       "trailer": "TcMBFSGVi1c"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to undo Thanos' actions and restore order to the universe."
+  ]
 }

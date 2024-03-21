@@ -108,11 +108,8 @@
   ],
   "budget": 40000000,
   "boxOffice": 174000000,
-  "year": 2011,
-  "summary": [
-    {
-      "text": "In a future where people stop aging at 25, but are engineered to live only one more year, having the means to buy your way out of the situation is a shot at immortal youth. Here, Will Salas finds himself accused of murder and on the run with a hostage - a connection that becomes an important part of the way against the system."
-    }
+  "year": [
+    2011
   ],
   "media": [
     {
@@ -120,5 +117,8 @@
       "trailer": "fdadZ_KrZVw"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "In a future where people stop aging at 25, but are engineered to live only one more year, having the means to buy your way out of the situation is a shot at immortal youth. Here, Will Salas finds himself accused of murder and on the run with a hostage - a connection that becomes an important part of the way against the system."
+  ]
 }

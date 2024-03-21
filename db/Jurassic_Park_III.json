@@ -116,11 +116,8 @@
   ],
   "budget": 93000000,
   "boxOffice": 368000000,
-  "year": 2001,
-  "summary": [
-    {
-      "text": "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants."
-    }
+  "year": [
+    2001
   ],
   "chapters": {
     "title": "Jurassic Park",
@@ -132,5 +129,8 @@
       "trailer": "gjIaV6CU0wA"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants."
+  ]
 }

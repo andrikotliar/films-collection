@@ -117,11 +117,8 @@
     }
   ],
   "boxOffice": 332000000,
-  "year": 1989,
-  "summary": [
-    {
-      "text": "After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip."
-    }
+  "year": [
+    1989
   ],
   "chapters": {
     "title": "Back to the Future",
@@ -133,5 +130,8 @@
       "trailer": "MdENmefJRpw"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip."
+  ]
 }

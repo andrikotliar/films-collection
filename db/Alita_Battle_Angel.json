@@ -128,11 +128,8 @@
   ],
   "budget": 170000000,
   "boxOffice": 400000000,
-  "year": 2019,
-  "summary": [
-    {
-      "text": "A deactivated female cyborg is revived, but cannot remember anything of her past life and goes on a quest to find out who she is."
-    }
+  "year": [
+    2019
   ],
   "media": [
     {
@@ -140,5 +137,8 @@
       "trailer": "w7pYhpJaJW8"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "A deactivated female cyborg is revived, but cannot remember anything of her past life and goes on a quest to find out who she is."
+  ]
 }

@@ -270,71 +270,60 @@
       ]
     }
   ],
-  "year": 2016,
-  "summary": [
-    {
-      "title": "Season 1",
-      "text": "Set in the 1980s in the town of Hawkins, Indiana, the first season follows the disappearance of a young boy and the mysterious appearance of a girl with psychokinetic abilities. A group of friends embarks on a quest to find their missing friend while uncovering supernatural mysteries. The arrival of a sinister force known as the Demogorgon leads to a parallel dimension known as the Upside Down."
-    },
-    {
-      "title": "Season 2",
-      "text": "In the second season, a year after the events of the first season, Hawkins faces a new supernatural threat. The group of friends reunites to confront a shadowy entity that threatens the town, and they learn more about the Upside Down. Eleven, the psychokinetic girl, seeks her past and abilities."
-    },
-    {
-      "title": "Season 3",
-      "text": "Set during the summer of 1985, Season 3 follows the group of friends as they face new challenges, both supernatural and personal. The town's new mall hides a dark secret, and the Russians play a significant role in the unfolding mysteries. The Mind Flayer returns, and Hawkins is once again in grave danger."
-    },
-    {
-      "title": "Season 4",
-      "text": "Darkness returns to Hawkins just in time for spring break, igniting fresh terror, disturbing memories — and an ominous new threat."
-    }
+  "year": [
+    2016,
+    2017,
+    2019,
+    2022
   ],
   "series": {
     "episodesTotal": 34,
     "seasons": [
       {
+        "title": "Season 1",
         "number": 1,
-        "episodesCount": 8,
-        "year": 2016
+        "episodesCount": 8
       },
       {
+        "title": "Season 2",
         "number": 2,
-        "episodesCount": 9,
-        "year": 2017
+        "episodesCount": 9
       },
       {
+        "title": "Season 3",
         "number": 3,
-        "episodesCount": 8,
-        "year": 2019
+        "episodesCount": 8
       },
       {
+        "title": "Season 4",
         "number": 4,
-        "episodesCount": 9,
-        "year": 2022
+        "episodesCount": 9
       }
     ]
   },
   "media": [
     {
       "poster": "stranger_things.webp",
-      "trailer": "b9EkMc79ZSU",
-      "caption": "Season 1"
+      "trailer": "b9EkMc79ZSU"
     },
     {
       "poster": "stranger_things_s2.webp",
-      "trailer": "R1ZXOOLMJ8s",
-      "caption": "Season 2"
+      "trailer": "R1ZXOOLMJ8s"
     },
     {
       "poster": "stranger_things_s3.webp",
-      "trailer": "6Am4v0C_z8c",
-      "caption": "Season 3"
+      "trailer": "6Am4v0C_z8c"
     },
     {
       "poster": "stranger_things_s4.webp",
-      "trailer": "a3thyAnShck",
-      "caption": "Season 4"
+      "trailer": "a3thyAnShck"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "Set in the 1980s in the town of Hawkins, Indiana, the first season follows the disappearance of a young boy and the mysterious appearance of a girl with psychokinetic abilities. A group of friends embarks on a quest to find their missing friend while uncovering supernatural mysteries. The arrival of a sinister force known as the Demogorgon leads to a parallel dimension known as the Upside Down.",
+    "In the second season, a year after the events of the first season, Hawkins faces a new supernatural threat. The group of friends reunites to confront a shadowy entity that threatens the town, and they learn more about the Upside Down. Eleven, the psychokinetic girl, seeks her past and abilities.",
+    "Set during the summer of 1985, Season 3 follows the group of friends as they face new challenges, both supernatural and personal. The town's new mall hides a dark secret, and the Russians play a significant role in the unfolding mysteries. The Mind Flayer returns, and Hawkins is once again in grave danger.",
+    "Darkness returns to Hawkins just in time for spring break, igniting fresh terror, disturbing memories — and an ominous new threat."
+  ]
 }

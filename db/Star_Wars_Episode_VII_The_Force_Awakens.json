@@ -172,11 +172,8 @@
     }
   ],
   "boxOffice": 2069999999.9999998,
-  "year": 2015,
-  "summary": [
-    {
-      "text": "Three decades after the Empire's defeat, a new threat arises in the militant First Order. Stormtrooper defector Finn and the scavenger Rey are caught up in the Resistance's search for the missing Luke Skywalker."
-    }
+  "year": [
+    2015
   ],
   "chapters": {
     "title": "Star Wars Universe",
@@ -188,5 +185,8 @@
       "trailer": "sGbxmsDFVnE"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Three decades after the Empire's defeat, a new threat arises in the militant First Order. Stormtrooper defector Finn and the scavenger Rey are caught up in the Resistance's search for the missing Luke Skywalker."
+  ]
 }

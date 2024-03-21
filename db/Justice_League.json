@@ -230,11 +230,8 @@
     }
   ],
   "budget": 300000000,
-  "year": 2021,
-  "summary": [
-    {
-      "text": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions."
-    }
+  "year": [
+    2021
   ],
   "chapters": {
     "title": "DC Extended Universe",
@@ -246,5 +243,8 @@
       "trailer": "ui37YKQ9AC4"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions."
+  ]
 }

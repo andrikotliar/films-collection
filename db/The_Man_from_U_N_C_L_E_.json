@@ -135,11 +135,8 @@
   ],
   "budget": 75000000,
   "boxOffice": 107000000,
-  "year": 2015,
-  "summary": [
-    {
-      "text": "In the early 1960s, CIA agent Napoleon Solo and KGB operative Illya Kuryakin participate in a joint mission against a mysterious criminal organization, which is working to proliferate nuclear weapons."
-    }
+  "year": [
+    2015
   ],
   "media": [
     {
@@ -147,5 +144,8 @@
       "trailer": "CzYRlISYE8Y"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "In the early 1960s, CIA agent Napoleon Solo and KGB operative Illya Kuryakin participate in a joint mission against a mysterious criminal organization, which is working to proliferate nuclear weapons."
+  ]
 }

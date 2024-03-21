@@ -142,11 +142,8 @@
   ],
   "budget": 250000000,
   "boxOffice": 934000000,
-  "year": 2009,
-  "summary": [
-    {
-      "text": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past."
-    }
+  "year": [
+    2009
   ],
   "chapters": {
     "title": "Harry Potter Universe",
@@ -158,5 +155,8 @@
       "trailer": "sg81Lts5kYY"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past."
+  ]
 }

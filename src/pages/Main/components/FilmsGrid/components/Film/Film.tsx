@@ -27,9 +27,9 @@ const Film = forwardRef<HTMLAnchorElement, Props>(({ data }, ref) => {
       <h3 className={styles.title}>{data.title}</h3>
 
       <p className={styles.year}>
-        {!data.type.includes('Series') || data.series?.seasons.length === 1
-          ? data.year
-          : `${data.year} - ${data.series?.seasons.at(-1)?.year}`}
+        {data.year.length > 1
+          ? `${data.year[0]} - ${data.year.at(-1)}`
+          : data.year[0]}
       </p>
     </Link>
   );

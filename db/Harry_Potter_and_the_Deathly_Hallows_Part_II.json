@@ -151,11 +151,8 @@
     }
   ],
   "boxOffice": 1340000000,
-  "year": 2011,
-  "summary": [
-    {
-      "text": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts."
-    }
+  "year": [
+    2011
   ],
   "chapters": {
     "title": "Harry Potter Universe",
@@ -167,5 +164,8 @@
       "trailer": "5NYt1qirBWg"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts."
+  ]
 }

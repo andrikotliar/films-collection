@@ -191,11 +191,8 @@
     }
   ],
   "boxOffice": 386000000,
-  "year": 2009,
-  "summary": [
-    {
-      "text": "The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time."
-    }
+  "year": [
+    2009
   ],
   "chapters": {
     "title": "Star Trek",
@@ -207,5 +204,8 @@
       "trailer": "pKFUZ10Wmbw"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time."
+  ]
 }

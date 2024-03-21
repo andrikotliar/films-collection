@@ -161,11 +161,8 @@
     }
   ],
   "boxOffice": 384000000,
-  "year": 2006,
-  "summary": [
-    {
-      "text": "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!"
-    }
+  "year": [
+    2006
   ],
   "media": [
     {
@@ -173,5 +170,8 @@
       "trailer": "hFUC5adf8FE"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!"
+  ]
 }

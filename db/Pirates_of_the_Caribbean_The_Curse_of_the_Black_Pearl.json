@@ -144,11 +144,8 @@
     }
   ],
   "boxOffice": 654000000,
-  "year": 2003,
-  "summary": [
-    {
-      "text": "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead."
-    }
+  "year": [
+    2003
   ],
   "chapters": {
     "title": "Pirates of the Caribbean",
@@ -160,5 +157,8 @@
       "trailer": "naQr0uTrH_s"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead."
+  ]
 }

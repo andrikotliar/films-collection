@@ -169,11 +169,8 @@
   ],
   "budget": 185000000,
   "boxOffice": 467000000,
-  "year": 2013,
-  "summary": [
-    {
-      "text": "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction."
-    }
+  "year": [
+    2013
   ],
   "chapters": {
     "title": "Star Trek",
@@ -185,5 +182,8 @@
       "trailer": "jJMYAJ3_0uw"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction."
+  ]
 }

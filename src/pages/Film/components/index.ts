@@ -1,6 +1,6 @@
 export * from './Title';
 export * from './SectionTitle';
-export * from './Media';
+export * from './media/Media';
 export * from './Awards';
 export * from './Cast';
 export * from './CrewList';
@@ -8,5 +8,6 @@ export * from './Chapters';
 export * from './DataLinks';
 export * from './Description';
 export * from './BoxOffice';
-export * from './SeriesDetails';
 export * from './Details';
+export * from './layout';
+export * from './season-select/SeasonSelect';

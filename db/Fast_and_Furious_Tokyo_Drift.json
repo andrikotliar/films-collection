@@ -114,11 +114,8 @@
   ],
   "budget": 85000000,
   "boxOffice": 158000000,
-  "year": 2006,
-  "summary": [
-    {
-      "text": "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America."
-    }
+  "year": [
+    2006
   ],
   "chapters": {
     "title": "Fast and Furious",
@@ -130,5 +127,8 @@
       "trailer": "p8HQ2JLlc4E"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America."
+  ]
 }

@@ -155,11 +155,8 @@
     }
   ],
   "boxOffice": 822000000,
-  "year": 2017,
-  "summary": [
-    {
-      "text": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny."
-    }
+  "year": [
+    2017
   ],
   "chapters": {
     "title": "DC Extended Universe",
@@ -171,5 +168,8 @@
       "trailer": "1Q8fG0TtVAY"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny."
+  ]
 }

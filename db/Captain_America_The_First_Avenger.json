@@ -150,11 +150,8 @@
   ],
   "budget": 140000000,
   "boxOffice": 371000000,
-  "year": 2011,
-  "summary": [
-    {
-      "text": "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization."
-    }
+  "year": [
+    2011
   ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
@@ -166,5 +163,8 @@
       "trailer": "JerVrbLldXw"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization."
+  ]
 }

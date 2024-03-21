@@ -122,11 +122,8 @@
   ],
   "budget": 132000000,
   "boxOffice": 415000000,
-  "year": 2013,
-  "summary": [
-    {
-      "text": "Wolverine comes to Japan to meet an old friend whose life he saved years ago, and gets embroiled in a conspiracy involving yakuza and mutants."
-    }
+  "year": [
+    2013
   ],
   "chapters": {
     "title": "X-Men",
@@ -138,5 +135,8 @@
       "trailer": "toLpchTUYk8"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Wolverine comes to Japan to meet an old friend whose life he saved years ago, and gets embroiled in a conspiracy involving yakuza and mutants."
+  ]
 }

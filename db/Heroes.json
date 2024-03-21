@@ -456,90 +456,71 @@
       ]
     }
   ],
-  "year": 2006,
-  "summary": [
-    {
-      "title": "Volume 1: Genesis",
-      "text": "Ordinary people discover they possess extraordinary abilities. As they come to terms with their powers, they must navigate the mysteries surrounding their origins and the looming threat of a catastrophe that could change the world."
-    },
-    {
-      "title": "Volume 2: Generations",
-      "text": "The characters continue to explore their powers while new individuals with abilities emerge. A global conspiracy and the hunt for a virus add to the intrigue as the heroes try to prevent a deadly outbreak."
-    },
-    {
-      "title": "Volume 3. Part 1: Villains",
-      "text": "The heroes face new challenges as they confront government scrutiny and a malevolent villain, Arthur Petrelli. The discovery of dangerous abilities and a divided group of heroes complicate their mission to save the world from powerful threats."
-    },
-    {
-      "title": "Volume 3. Part 2: Fugitives",
-      "text": "The heroes continue their journey, facing government forces and an ever-growing threat. A new organization, Building 26, seeks to control those with abilities, forcing the heroes into a fugitive lifestyle as they strive to protect themselves and others."
-    },
-    {
-      "title": "Volume 4: Redemption",
-      "text": "The heroes deals with the carnage caused by a carnival of people with abilities. They must unite to thwart the carnival's leader, Samuel Sullivan, and face their destinies in an epic showdown."
-    }
+  "year": [
+    2006,
+    2007,
+    2008,
+    2009,
+    2009
   ],
   "series": {
     "episodesTotal": 77,
     "seasons": [
       {
-        "number": 1,
         "title": "Volume 1: Genesis",
-        "episodesCount": 23,
-        "year": 2006
+        "number": 1,
+        "episodesCount": 23
       },
       {
-        "number": 2,
         "title": "Volume 2: Generations",
-        "episodesCount": 11,
-        "year": 2007
+        "number": 2,
+        "episodesCount": 11
       },
       {
-        "number": 3,
         "title": "Volume 3. Part 1: Villains",
-        "episodesCount": 18,
-        "year": 2008
+        "number": 3,
+        "episodesCount": 18
       },
       {
-        "number": 4,
         "title": "Volume 3. Part 2: Fugitives",
-        "episodesCount": 13,
-        "year": 2009
+        "number": 4,
+        "episodesCount": 13
       },
       {
-        "number": 5,
         "title": "Volume 4: Redemption",
-        "episodesCount": 12,
-        "year": 2009
+        "number": 5,
+        "episodesCount": 12
       }
     ]
   },
   "media": [
     {
       "poster": "heroes.webp",
-      "trailer": "9AX6aXFdTkc",
-      "caption": "Volume 1: Genesis"
+      "trailer": "9AX6aXFdTkc"
     },
     {
       "poster": "heroes_s2.webp",
-      "trailer": "9mNGxXpAmHc",
-      "caption": "Volume 2: Generations"
+      "trailer": "9mNGxXpAmHc"
     },
     {
       "poster": "heroes_s3.1.webp",
-      "trailer": "i1VA_aWyrPI",
-      "caption": "Volume 3. Part 1: Villains"
+      "trailer": "i1VA_aWyrPI"
     },
     {
       "poster": "heroes_s3.2.webp",
-      "trailer": "mTzPPIEUFEs",
-      "caption": "Volume 3. Part 2: Fugitives"
+      "trailer": "mTzPPIEUFEs"
     },
     {
       "poster": "heroes_s4.webp",
-      "trailer": "mTzPPIEUFEs",
-      "caption": "Volume 4: Redemption"
+      "trailer": "mTzPPIEUFEs"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Ordinary people discover they possess extraordinary abilities. As they come to terms with their powers, they must navigate the mysteries surrounding their origins and the looming threat of a catastrophe that could change the world.",
+    "The characters continue to explore their powers while new individuals with abilities emerge. A global conspiracy and the hunt for a virus add to the intrigue as the heroes try to prevent a deadly outbreak.",
+    "The heroes face new challenges as they confront government scrutiny and a malevolent villain, Arthur Petrelli. The discovery of dangerous abilities and a divided group of heroes complicate their mission to save the world from powerful threats.",
+    "The heroes continue their journey, facing government forces and an ever-growing threat. A new organization, Building 26, seeks to control those with abilities, forcing the heroes into a fugitive lifestyle as they strive to protect themselves and others.",
+    "The heroes deals with the carnage caused by a carnival of people with abilities. They must unite to thwart the carnival's leader, Samuel Sullivan, and face their destinies in an epic showdown."
+  ]
 }

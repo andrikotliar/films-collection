@@ -126,11 +126,8 @@
     }
   ],
   "boxOffice": 341000000,
-  "year": 2018,
-  "summary": [
-    {
-      "text": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing."
-    }
+  "year": [
+    2018
   ],
   "chapters": {
     "title": "Quiet Place",
@@ -142,5 +139,8 @@
       "trailer": "WR7cc5t7tv8"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing."
+  ]
 }

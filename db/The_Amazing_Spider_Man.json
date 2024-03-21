@@ -143,11 +143,8 @@
   ],
   "budget": 230000000,
   "boxOffice": 758000000,
-  "year": 2012,
-  "summary": [
-    {
-      "text": "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe."
-    }
+  "year": [
+    2012
   ],
   "chapters": {
     "title": "The Amazing Spider-Man",
@@ -159,5 +156,8 @@
       "trailer": "-tnxzJ0SSOw"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe."
+  ]
 }

@@ -131,11 +131,8 @@
     }
   ],
   "boxOffice": 540000000,
-  "year": 2013,
-  "summary": [
-    {
-      "text": "Former United Nations employee Gerry Lane traverses the world in a race against time to stop the Zombie pandemic that is toppling armies and governments, and threatening to destroy humanity itself."
-    }
+  "year": [
+    2013
   ],
   "media": [
     {
@@ -143,5 +140,8 @@
       "trailer": "Md6Dvxdr0AQ"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Former United Nations employee Gerry Lane traverses the world in a race against time to stop the Zombie pandemic that is toppling armies and governments, and threatening to destroy humanity itself."
+  ]
 }

@@ -5,19 +5,20 @@ import { Chapter, FilmData } from '@/common';
 import { getChapters } from './helpers';
 import { ChapterLink } from './components';
 import { Scrollable } from '@/components';
+import { useFilmsContext } from '@/context';
 
 type Props = {
-  data: FilmData[];
   parts: Chapter;
 };
 
-const Chapters: FC<Props> = ({ data, parts }) => {
+const Chapters: FC<Props> = ({ parts }) => {
+  const { initialFilmsList } = useFilmsContext();
   const { id: currentFilmId } = useParams<string>();
 
-  const chapters = getChapters(data, parts.title);
+  const chapters = getChapters(initialFilmsList, parts.title);
 
   return (
-    <Scrollable className={styles.chapters}>
+    <div className={styles.chapters}>
       {chapters.map((chapter) => (
         <ChapterLink
           currentFilmId={currentFilmId}
@@ -27,7 +28,7 @@ const Chapters: FC<Props> = ({ data, parts }) => {
           key={chapter.id}
         />
       ))}
-    </Scrollable>
+    </div>
   );
 };
 

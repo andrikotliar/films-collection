@@ -162,11 +162,8 @@
     }
   ],
   "boxOffice": 619000000,
-  "year": 2017,
-  "summary": [
-    {
-      "text": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety."
-    }
+  "year": [
+    2017
   ],
   "chapters": {
     "title": "X-Men",
@@ -178,5 +175,8 @@
       "trailer": "Div0iP65aZo"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety."
+  ]
 }

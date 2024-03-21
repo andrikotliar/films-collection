@@ -152,11 +152,8 @@
     }
   ],
   "boxOffice": 233000000,
-  "year": 2008,
-  "summary": [
-    {
-      "text": "A remake of the 1951 classic science fiction film about an alien visitor and his giant robot counterpart who visit Earth."
-    }
+  "year": [
+    2008
   ],
   "media": [
     {
@@ -164,5 +161,8 @@
       "trailer": "6QFcZohER3s"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "A remake of the 1951 classic science fiction film about an alien visitor and his giant robot counterpart who visit Earth."
+  ]
 }

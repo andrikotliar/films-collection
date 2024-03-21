@@ -1,9 +1,9 @@
-import styles from './FilmPage.module.css';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useFilmsContext } from '@/context';
 import { Loader } from '@/components';
 import { FilmData } from '@/common';
+import { useDocumentTitle } from '@/hooks';
 import {
   Title,
   SectionTitle,
@@ -16,59 +16,49 @@ import {
   BoxOffice,
   Media,
   Details,
+  Wrapper,
+  Column,
+  Grid,
+  SeasonSelect,
 } from './components';
-import { useDocumentTitle } from '@/hooks';
-import { getDataLinkConfig } from '@/pages/Film/helpers';
+import { getCurrentFilm } from './helpers';
 
 const FilmPage = () => {
   const { id } = useParams();
   const { initialFilmsList } = useFilmsContext();
   const [film, setFilm] = useState<FilmData | null>(null);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   useDocumentTitle(film?.title);
-
-  const findCurrentFilm = (initialFilmsList: FilmData[]) => {
-    const foundFilm = initialFilmsList.find((film) => film.id === id);
-    if (foundFilm) {
-      setFilm(foundFilm);
-    }
-  };
 
   useEffect(() => {
     if (initialFilmsList && initialFilmsList.length) {
       window.scrollTo(0, 0);
-      findCurrentFilm(initialFilmsList);
+      const film = getCurrentFilm(initialFilmsList, id);
+      setFilm(film);
     }
   }, [id, initialFilmsList]);
-
-  const dataLinks = useMemo(() => {
-    if (!film) {
-      return [];
-    }
-
-    return getDataLinkConfig(film);
-  }, [film]);
 
   if (film === null) {
     return <Loader isFullPage />;
   }
 
   return (
-    <div className={styles.wrapper}>
+    <Wrapper>
       <Title>{film.title}</Title>
-      <DataLinks items={dataLinks} />
-      <div className={styles.layout}>
-        <div className={styles.column}>
-          <Media media={film.media} title={film.title} />
-        </div>
-        <div className={styles.column}>
+      <SeasonSelect seasons={film.series?.seasons} onChange={setActiveIndex} />
+      <Grid>
+        <Column>
+          <Media media={film.media[activeIndex]} />
+        </Column>
+        <Column>
+          <section>
+            <SectionTitle>Summary</SectionTitle>
+            <DataLinks film={film} />
+          </section>
           <section>
             <SectionTitle>Description</SectionTitle>
-            <Description
-              description={film.summary}
-              media={film.media}
-              seasons={film?.series?.seasons}
-            />
+            <Description>{film.description[activeIndex]}</Description>
           </section>
 
           <section>
@@ -103,12 +93,12 @@ const FilmPage = () => {
           {film.chapters && (
             <section>
               <SectionTitle>Chapters</SectionTitle>
-              <Chapters data={initialFilmsList} parts={film.chapters} />
+              <Chapters parts={film.chapters} />
             </section>
           )}
-        </div>
-      </div>
-    </div>
+        </Column>
+      </Grid>
+    </Wrapper>
   );
 };
 

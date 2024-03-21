@@ -155,11 +155,8 @@
     }
   ],
   "boxOffice": 677000000,
-  "year": 2014,
-  "summary": [
-    {
-      "text": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
-    }
+  "year": [
+    2014
   ],
   "media": [
     {
@@ -167,5 +164,8 @@
       "trailer": "zSWdZVtXT7E"
     }
   ],
-  "rating": 3
+  "rating": 3,
+  "description": [
+    "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+  ]
 }

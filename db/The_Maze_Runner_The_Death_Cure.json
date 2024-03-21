@@ -163,11 +163,8 @@
   ],
   "budget": 62000000,
   "boxOffice": 288000000,
-  "year": 2018,
-  "summary": [
-    {
-      "text": "Young hero Thomas embarks on a mission to find a cure for a deadly disease known as \"The Flare\"."
-    }
+  "year": [
+    2018
   ],
   "chapters": {
     "title": "The Maze Runner",
@@ -179,5 +176,8 @@
       "trailer": "4-BTxXm8KSg"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "Young hero Thomas embarks on a mission to find a cure for a deadly disease known as \"The Flare\"."
+  ]
 }

@@ -126,11 +126,8 @@
   ],
   "budget": 200000000,
   "boxOffice": 709000000,
-  "year": 2014,
-  "summary": [
-    {
-      "text": "When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones."
-    }
+  "year": [
+    2014
   ],
   "chapters": {
     "title": "The Amazing Spider-Man",
@@ -142,5 +139,8 @@
       "trailer": "nbp3Ra3Yp74"
     }
   ],
-  "rating": 2
+  "rating": 2,
+  "description": [
+    "When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones."
+  ]
 }

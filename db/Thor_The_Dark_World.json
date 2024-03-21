@@ -161,11 +161,8 @@
   ],
   "budget": 153000000,
   "boxOffice": 645000000,
-  "year": 2013,
-  "summary": [
-    {
-      "text": "When Dr. Jane Foster gets cursed with a powerful entity known as the Aether, Thor is heralded of the cosmic event known as the Convergence and the genocidal Dark Elves."
-    }
+  "year": [
+    2013
   ],
   "chapters": {
     "title": "Marvel Cinematic Universe",
@@ -177,5 +174,8 @@
       "trailer": "npvJ9FTgZbM"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "When Dr. Jane Foster gets cursed with a powerful entity known as the Aether, Thor is heralded of the cosmic event known as the Convergence and the genocidal Dark Elves."
+  ]
 }

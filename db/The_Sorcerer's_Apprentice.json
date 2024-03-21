@@ -145,11 +145,8 @@
   ],
   "budget": 150000000,
   "boxOffice": 215000000,
-  "year": 2010,
-  "summary": [
-    {
-      "text": "Master sorcerer Balthazar Blake must find and train Merlin's descendant to defeat dark sorceress Morgana la Fée."
-    }
+  "year": [
+    2010
   ],
   "media": [
     {
@@ -157,5 +154,8 @@
       "trailer": "v2uV0_1C4UM"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "Master sorcerer Balthazar Blake must find and train Merlin's descendant to defeat dark sorceress Morgana la Fée."
+  ]
 }

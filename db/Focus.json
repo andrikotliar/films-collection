@@ -138,11 +138,8 @@
   ],
   "budget": 50000000,
   "boxOffice": 159000000,
-  "year": 2015,
-  "summary": [
-    {
-      "text": "In the midst of veteran con man Nicky's latest scheme, a woman from his past - now an accomplished femme fatale - shows up and throws his plans for a loop."
-    }
+  "year": [
+    2015
   ],
   "media": [
     {
@@ -150,5 +147,8 @@
       "trailer": "MxCRgtdAuBo"
     }
   ],
-  "rating": 1
+  "rating": 1,
+  "description": [
+    "In the midst of veteran con man Nicky's latest scheme, a woman from his past - now an accomplished femme fatale - shows up and throws his plans for a loop."
+  ]
 }
