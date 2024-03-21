@@ -1,0 +1,8 @@
+.seasonSelect {
+  position: sticky;
+  top: var(--header-height);
+  background-color: #fff;
+  padding: 10px 0;
+  margin: -10px 0;
+  z-index: 100;
+}

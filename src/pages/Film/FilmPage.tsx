@@ -19,6 +19,7 @@ import {
   Wrapper,
   Column,
   Grid,
+  SeasonSelect,
 } from './components';
 import { getCurrentFilm } from './helpers';
 
@@ -45,10 +46,16 @@ const FilmPage = () => {
   return (
     <Wrapper>
       <Title>{film.title}</Title>
-      <DataLinks film={film} />
+      <SeasonSelect seasons={film.series?.seasons} onChange={setActiveIndex} />
       <Grid>
-        <Media media={film.media[activeIndex]} />
         <Column>
+          <Media media={film.media[activeIndex]} />
+        </Column>
+        <Column>
+          <section>
+            <SectionTitle>Summary</SectionTitle>
+            <DataLinks film={film} />
+          </section>
           <section>
             <SectionTitle>Description</SectionTitle>
             <Description>{film.description[activeIndex]}</Description>
