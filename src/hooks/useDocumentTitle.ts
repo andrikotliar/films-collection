@@ -1,4 +1,4 @@
-import { APP_TITLE } from '@/common';
+import { APP_TITLE } from '@/common/constants';
 import { useEffect } from 'react';
 
 const useDocumentTitle = (title?: string) => {

@@ -1,6 +1,5 @@
 import styles from './PageTitle.module.css';
 import { useFilmsContext } from '@/context';
-import { DynamicObject } from '@/common';
 
 const PageTitle = () => {
   const { filterParams } = useFilmsContext();
@@ -9,7 +8,7 @@ const PageTitle = () => {
     return null;
   }
 
-  const currentDisplayValue = (filterParams: DynamicObject) => {
+  const currentDisplayValue = (filterParams: { [key: string]: any }) => {
     if (filterParams.actor) {
       const actor = JSON.parse(filterParams.actor);
 

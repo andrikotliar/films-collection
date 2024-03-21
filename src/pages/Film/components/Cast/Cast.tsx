@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { CastType } from '@/common';
+import { CastType } from '@/common/types';
 import { Actor } from '@/pages/Film/components/Cast/components';
 import { DataGrid } from '@/components';
 

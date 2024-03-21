@@ -1,9 +1,10 @@
-import styles from './FilterOptions.module.css';
 import { FC } from 'react';
-import { FilterItem, PropsWithClassName } from '@/common';
-import { FormCheckbox } from '@/components';
-import { Group } from '@/pages/Main/components/Filters/components/Group';
 import classNames from 'classnames';
+import { FilterItem, PropsWithClassName } from '@/common/types';
+import { FormCheckbox } from '@/components';
+import { Group } from '../Group';
+
+import styles from './FilterOptions.module.css';
 
 type Props = {
   filter: FilterItem;

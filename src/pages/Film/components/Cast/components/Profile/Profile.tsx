@@ -1,8 +1,9 @@
-import { CastType, IMAGE_FALLBACKS } from '@/common';
 import styles from './Profile.module.css';
 import { FC } from 'react';
 import { buildMediaPath } from '@/helpers';
 import { handleImageError } from '@/utils';
+import { CastType } from '@/common/types';
+import { IMAGE_FALLBACKS } from '@/common/constants';
 
 type Props = {
   actor: CastType;

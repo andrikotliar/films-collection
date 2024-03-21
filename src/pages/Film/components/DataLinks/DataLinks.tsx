@@ -1,8 +1,9 @@
-import styles from './DataLinks.module.css';
 import { FC, useMemo } from 'react';
-import { FilmData } from '@/common';
+import { FilmData } from '@/common/types';
 import { DataLink } from './components';
 import { getDataLinkConfig } from '@/pages/Film/helpers';
+
+import styles from './DataLinks.module.css';
 
 type Props = {
   film: FilmData;

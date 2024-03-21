@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { MediaItem } from '@/common';
+import { MediaItem } from '@/common/types';
 import { PosterImage, TrailerButton } from './components';
 
 type Props = {

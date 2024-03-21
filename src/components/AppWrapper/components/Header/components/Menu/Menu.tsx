@@ -1,4 +1,4 @@
-import { NavLink } from '@/common';
+import { NavLink } from '@/common/types';
 import { Link } from 'react-router-dom';
 
 import styles from './Menu.module.css';

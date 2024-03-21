@@ -3,7 +3,7 @@ import styles from './Pagination.module.css';
 import { useFilter } from '@/hooks';
 import classNames from 'classnames';
 import { useFilmsContext } from '@/context';
-import { PER_PAGE } from '@/common';
+import { PER_PAGE } from '@/common/constants';
 
 type Props = {
   count: number;

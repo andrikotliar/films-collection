@@ -1,10 +1,11 @@
-import styles from './Awards.module.css';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { awardIcons } from '@/configs';
-import { Award } from '@/common';
+import { Award } from '@/common/types';
 import { buildLink } from '@/helpers';
 import { DataArea, DataGrid, Scrollable } from '@/components';
+
+import styles from './Awards.module.css';
 
 const Awards: FC<{ awards: Award[] }> = ({ awards }) => {
   const awardImage = (awardTitle: keyof typeof awardIcons) => {

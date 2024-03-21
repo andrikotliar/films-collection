@@ -1,4 +1,4 @@
-import { PropsWithClassName } from '@/common';
+import { PropsWithClassName } from '@/common/types';
 import { FC } from 'react';
 
 const Logo: FC<PropsWithClassName> = ({ className }) => {

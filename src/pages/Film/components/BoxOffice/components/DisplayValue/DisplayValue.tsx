@@ -1,6 +1,6 @@
 import styles from './DisplayValue.module.css';
 import { FC } from 'react';
-import { PropsWithClassName } from '@/common';
+import { PropsWithClassName } from '@/common/types';
 import { FormattedValue } from '@/pages/Film/components/BoxOffice/helpers';
 import classNames from 'classnames';
 

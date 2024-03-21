@@ -1,4 +1,4 @@
-import { LinkGroup, SeriesExtension } from '@/common';
+import { LinkGroup, SeriesExtension } from '@/common/types';
 
 const seriesContent = (series?: SeriesExtension): LinkGroup[] => {
   if (!series) return [];

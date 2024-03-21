@@ -1,4 +1,4 @@
-import { FilmData } from '@/common';
+import { FilmData } from '@/common/types';
 
 const getChapters = (data: FilmData[], chaptersTitle: string) => {
   return data

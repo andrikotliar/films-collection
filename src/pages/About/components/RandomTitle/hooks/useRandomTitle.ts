@@ -1,5 +1,5 @@
 import { fetchFilmIds } from '@/api';
-import { FilmData } from '@/common';
+import { FilmData } from '@/common/types';
 import { useFilmsContext } from '@/context';
 import { useEffect, useState } from 'react';
 

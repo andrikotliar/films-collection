@@ -1,14 +1,13 @@
-import { getFilterParams } from '@/helpers';
-import { DynamicObject } from '@/common';
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import { getFilterParams } from '@/helpers';
 
 export const useFilter = (): [
-  DynamicObject,
-  (params: DynamicObject) => void,
+  { [key: string]: any },
+  (params: { [key: string]: any }) => void,
 ] => {
   const [searchParams, setSearchParams] = useSearchParams();
-  const [filterParams, setFilterParams] = useState<DynamicObject>({});
+  const [filterParams, setFilterParams] = useState<{ [key: string]: any }>({});
 
   useEffect(() => {
     const filterParams = getFilterParams(searchParams);

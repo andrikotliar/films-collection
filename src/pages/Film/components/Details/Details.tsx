@@ -1,10 +1,10 @@
 import { DataArea, DataRow, RouterLink } from '@/components';
 import { detailsConfig } from './details-config';
 import { FC } from 'react';
-import { FilmData } from '@/common';
+import { FilmData } from '@/common/types';
+import { buildLink } from '@/helpers';
 
 import styles from './Details.module.css';
-import { buildLink } from '@/helpers';
 
 type Props = {
   film: FilmData;

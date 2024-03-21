@@ -1,11 +1,11 @@
-import styles from './Chapters.module.css';
 import { FC } from 'react';
 import { useParams } from 'react-router-dom';
-import { Chapter, FilmData } from '@/common';
+import { Chapter } from '@/common/types';
 import { getChapters } from './helpers';
 import { ChapterLink } from './components';
-import { Scrollable } from '@/components';
 import { useFilmsContext } from '@/context';
+
+import styles from './Chapters.module.css';
 
 type Props = {
   parts: Chapter;

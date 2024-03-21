@@ -1,4 +1,4 @@
-import { SeasonType } from '@/common';
+import { SeasonType } from '@/common/types';
 import { Option, Select } from '@/components';
 import { Dispatch, FC, SetStateAction } from 'react';
 

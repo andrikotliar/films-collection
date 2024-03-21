@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Crew } from '@/common';
+import { Crew } from '@/common/types';
 import { CrewItem } from './components';
 import { DataArea } from '@/components';
 import styles from './CrewList.module.css';

@@ -9,7 +9,7 @@ import {
 import { filterFilms } from '@/helpers';
 import { useFilter } from '@/hooks';
 import { PER_PAGE } from '@/common/constants';
-import { DynamicObject, FilmData } from '@/common';
+import { FilmData } from '@/common/types';
 import { fetchAllFilms } from '@/api';
 
 type FilmsContextType = {
@@ -17,7 +17,7 @@ type FilmsContextType = {
   films: FilmData[];
   isFilmsLoading: boolean;
   pagesCount: number;
-  filterParams: DynamicObject;
+  filterParams: { [key: string]: any };
   updateFilter(data: any): void;
   resetFilter(): void;
 };

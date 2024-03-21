@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import { CastType } from '@/common';
+import { CastType } from '@/common/types';
 import { buildLink } from '@/helpers';
 
 import { Character } from '../Character/Character';

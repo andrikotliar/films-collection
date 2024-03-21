@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useFilmsContext } from '@/context';
 import { Loader } from '@/components';
-import { FilmData } from '@/common';
+import { FilmData } from '@/common/types';
 import { useDocumentTitle } from '@/hooks';
 import {
   Title,

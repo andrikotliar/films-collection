@@ -1,4 +1,4 @@
-import { FilmData } from '@/common/types/film.type';
+import { FilmData } from '@/common/types';
 
 type FilterKeys = 'general' | 'collections';
 

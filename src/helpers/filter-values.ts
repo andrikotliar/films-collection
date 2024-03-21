@@ -1,11 +1,9 @@
-import { DynamicObject } from '@/common';
+const filterValues = (values: { [key: string]: any }) => {
+  const filteredObject: { [key: string]: any } = {};
 
-const filterValues = (obj: DynamicObject) => {
-  const filteredObject: DynamicObject = {};
-
-  for (const key in obj) {
-    if (obj[key]) {
-      filteredObject[key] = obj[key];
+  for (const key in values) {
+    if (values[key]) {
+      filteredObject[key] = values[key];
     }
   }
 

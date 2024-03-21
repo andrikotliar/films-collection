@@ -1,4 +1,4 @@
-import { MOBILE_VIEW_BREAKPOINT_PX } from '@/common';
+import { MOBILE_VIEW_BREAKPOINT_PX } from '@/common/constants';
 import {
   Dispatch,
   FC,

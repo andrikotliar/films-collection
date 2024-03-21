@@ -1,4 +1,4 @@
-import { FilmData } from '@/common';
+import { FilmData } from '@/common/types';
 import styles from './Film.module.css';
 import { forwardRef } from 'react';
 import { Link } from 'react-router-dom';

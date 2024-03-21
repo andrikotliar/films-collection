@@ -1,4 +1,4 @@
-import { PropsWithClassName } from '@/common';
+import { PropsWithClassName } from '@/common/types';
 import { FC, ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 

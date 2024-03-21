@@ -1,4 +1,4 @@
-import { NavLink } from '@/common';
+import { NavLink } from '@/common/types';
 
 const mainMenu: NavLink[] = [
   {

@@ -1,7 +1,8 @@
-import { DynamicObject } from '@/common';
-
-const countObjectKeys = (obj: DynamicObject, filterKeys?: string[]) => {
-  const keys = Object.keys(obj);
+const countObjectKeys = (
+  params: { [key: string]: any },
+  filterKeys?: string[],
+) => {
+  const keys = Object.keys(params);
 
   if (filterKeys) {
     const filteredKeys = keys.filter((key) => !filterKeys.includes(key));

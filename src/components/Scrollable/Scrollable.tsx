@@ -1,5 +1,5 @@
 import styles from './Scrollable.module.css';
-import { PropsWithClassName } from '@/common';
+import { PropsWithClassName } from '@/common/types';
 import { FC, PropsWithChildren } from 'react';
 import classNames from 'classnames';
 

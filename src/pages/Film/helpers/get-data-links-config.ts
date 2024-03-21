@@ -1,4 +1,4 @@
-import { FilmData, LinkGroup } from '@/common';
+import { FilmData, LinkGroup } from '@/common/types';
 import { seriesContent } from './series-content';
 
 const getDataLinkConfig = (film: FilmData): LinkGroup[] => {

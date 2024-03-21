@@ -1,7 +1,9 @@
-import { CastType, IMAGE_FALLBACKS } from '@/common';
-import styles from './Character.module.css';
 import { FC } from 'react';
 import { handleImageError } from '@/utils';
+import { CastType } from '@/common/types';
+import { IMAGE_FALLBACKS } from '@/common/constants';
+
+import styles from './Character.module.css';
 
 type Props = {
   character: CastType['character'];

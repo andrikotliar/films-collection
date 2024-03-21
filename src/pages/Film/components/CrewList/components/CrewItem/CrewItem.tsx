@@ -1,8 +1,9 @@
-import styles from './CrewItem.module.css';
 import { FC } from 'react';
 import { buildLink } from '@/helpers';
-import { Crew } from '@/common';
+import { Crew } from '@/common/types';
 import { DataRow, RouterLink } from '@/components';
+
+import styles from './CrewItem.module.css';
 
 type Props = {
   crewItem: Crew;

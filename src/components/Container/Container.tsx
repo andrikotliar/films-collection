@@ -1,4 +1,4 @@
-import { PropsWithClassName } from '@/common';
+import { PropsWithClassName } from '@/common/types';
 import { FC, PropsWithChildren } from 'react';
 import styles from './styles.module.css';
 import classNames from 'classnames';

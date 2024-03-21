@@ -1,7 +1,8 @@
-import { DataLinkType } from '@/common';
+import { DataLinkType } from '@/common/types';
 import { FC } from 'react';
 import { buildLink } from '@/helpers';
 import { Link } from 'react-router-dom';
+
 import styles from './DataLink.module.css';
 
 type Props = DataLinkType;

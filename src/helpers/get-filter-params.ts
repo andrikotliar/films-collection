@@ -1,9 +1,5 @@
-import { DynamicObject } from '@/common';
-
-export const getFilterParams = (
-  searchParams: URLSearchParams,
-) => {
-  const filterParams: DynamicObject = {};
+export const getFilterParams = (searchParams: URLSearchParams) => {
+  const filterParams: { [key: string]: any } = {};
   searchParams.forEach((value, key) => {
     if (filterParams[key]) {
       if (Array.isArray(filterParams[key])) {

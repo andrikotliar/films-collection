@@ -1,4 +1,4 @@
-import { FilmData } from '@/common';
+import { FilmData } from '@/common/types';
 
 const handleSearchFilter = (searchQuery: string, title: string) => {
   const lowerTitle = title.toLowerCase();
