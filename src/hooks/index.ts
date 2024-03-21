@@ -1,2 +1,2 @@
-export * from './useFilter';
-export * from './useDocumentTitle';
+export * from './use-filter.hook';
+export * from './use-document-title.hook';

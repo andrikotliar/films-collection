@@ -1,7 +1,8 @@
-import styles from './AboutPage.module.css';
 import { useEffect } from 'react';
 import { useDocumentTitle } from '@/hooks';
-import { RandomTitle } from '@/pages/About/components';
+import { RandomTitle } from './components';
+
+import styles from './AboutPage.module.css';
 
 const AboutPage = () => {
   useDocumentTitle('About');

@@ -1,8 +1,8 @@
-import styles from './BoxOffice.module.css';
 import { FC } from 'react';
-import { Diagram, Legend } from './components';
+import { Diagram, Legend, LegendColorsEnum } from './components';
 import { getFormattedValue, hasBoxOfficeBenefit } from './helpers';
-import { LegendColorsEnum } from '@/pages/Film/components/BoxOffice/components/LegendItem';
+
+import styles from './BoxOffice.module.css';
 
 type Props = {
   budget?: number;
