@@ -1,9 +1,10 @@
 import classNames from 'classnames';
 import { FC, useState } from 'react';
-import styles from './TrailerButton.module.css';
 import { Modal } from '@/components';
 import { Video } from './components';
 import { Play } from 'lucide-react';
+
+import styles from './TrailerButton.module.css';
 
 type Props = {
   trailer: string;

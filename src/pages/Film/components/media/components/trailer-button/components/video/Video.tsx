@@ -1,5 +1,6 @@
-import styles from './Video.module.css';
 import { FC } from 'react';
+
+import styles from './Video.module.css';
 
 type Props = {
   path: string;

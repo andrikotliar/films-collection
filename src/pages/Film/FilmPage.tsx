@@ -47,9 +47,7 @@ const FilmPage = () => {
       <Title>{film.title}</Title>
       <DataLinks film={film} />
       <Grid>
-        <Column>
-          <Media media={film.media[activeIndex]} />
-        </Column>
+        <Media media={film.media[activeIndex]} />
         <Column>
           <section>
             <SectionTitle>Description</SectionTitle>
