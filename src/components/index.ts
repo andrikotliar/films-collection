@@ -11,3 +11,4 @@ export * from './DataArea';
 export * from './DataRow';
 export * from './DataGrid';
 export * from './RouterLink';
+export * from './select/Select';
