@@ -1,14 +1,15 @@
 import { FilmData } from '@/common/types';
-import styles from './Film.module.css';
 import { forwardRef } from 'react';
 import { Link } from 'react-router-dom';
 import { buildMediaPath } from '@/helpers';
+
+import styles from './FilmLink.module.css';
 
 type Props = {
   data: FilmData;
 };
 
-const Film = forwardRef<HTMLAnchorElement, Props>(({ data }, ref) => {
+const FilmLink = forwardRef<HTMLAnchorElement, Props>(({ data }, ref) => {
   const posterUrl = buildMediaPath('posters', data.media[0].poster);
 
   return (
@@ -35,4 +36,4 @@ const Film = forwardRef<HTMLAnchorElement, Props>(({ data }, ref) => {
   );
 });
 
-export { Film };
+export { FilmLink };
