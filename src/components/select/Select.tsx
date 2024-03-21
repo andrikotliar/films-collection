@@ -1,7 +1,8 @@
 import classNames from 'classnames';
-import classes from './Select.module.css';
 import { FC, KeyboardEvent, useMemo, useState } from 'react';
 import { ChevronDown } from 'lucide-react';
+
+import styles from './Select.module.css';
 
 type Option = {
   label: string;
@@ -15,6 +16,7 @@ type SelectProps = {
   defaultValue?: SelectedValue;
   onSelect?: (value: Option['value']) => void;
   placeholder?: string;
+  isDisabled?: boolean;
 };
 
 const Select: FC<SelectProps> = ({
@@ -22,6 +24,7 @@ const Select: FC<SelectProps> = ({
   defaultValue = null,
   onSelect,
   placeholder = 'Select option',
+  isDisabled = false,
 }) => {
   const [value, setValue] = useState<SelectedValue>(defaultValue);
   const [activeIndex, setActiveIndex] = useState(0);
@@ -89,7 +92,9 @@ const Select: FC<SelectProps> = ({
 
   return (
     <div
-      className={classes.select}
+      className={classNames(styles.select, {
+        [styles.isDisabled]: isDisabled,
+      })}
       tabIndex={0}
       onClick={handleDropdown}
       onKeyDown={handleDropdownOnKey}
@@ -97,17 +102,17 @@ const Select: FC<SelectProps> = ({
       role="combobox"
       aria-expanded={isOpen}
     >
-      <div className={classes.value}>
+      <div className={styles.value}>
         <span>{selectedOption ? selectedOption.label : placeholder}</span>
         <ChevronDown
-          className={classNames(classes.expandIcon, {
-            [classes.expanded]: isOpen,
+          className={classNames(styles.expandIcon, {
+            [styles.expanded]: isOpen,
           })}
         />
       </div>
       <ul
-        className={classNames(classes.dropdown, {
-          [classes.visible]: isOpen,
+        className={classNames(styles.dropdown, {
+          [styles.visible]: isOpen,
         })}
         role="menu"
       >
@@ -118,9 +123,9 @@ const Select: FC<SelectProps> = ({
               e.stopPropagation();
               handleChange(option, index);
             }}
-            className={classNames(classes.option, {
-              [classes.selected]: option.value === selectedOption?.value,
-              [classes.highlighted]: activeIndex === index,
+            className={classNames(styles.option, {
+              [styles.selected]: option.value === selectedOption?.value,
+              [styles.highlighted]: activeIndex === index,
             })}
             role="menuitem"
             onMouseEnter={() => setActiveIndex(index)}

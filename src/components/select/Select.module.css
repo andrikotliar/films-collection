@@ -3,6 +3,12 @@
   outline: none;
 }
 
+.select.isDisabled {
+  opacity: 0.5;
+  pointer-events: none;
+  user-select: none;
+}
+
 .value {
   display: flex;
   align-items: center;
@@ -17,6 +23,11 @@
   cursor: pointer;
 }
 
+.select.isDisabled .value {
+  background-color: #f2f2f2;
+  border-color: #ddd;
+}
+
 .select:focus .value {
   color: var(--main-color);
   border-color: var(--main-color);
@@ -29,6 +40,10 @@
 
 .select:focus .expandIcon {
   stroke: var(--main-color);
+}
+
+.select.isDisabled .expandIcon {
+  stroke: #777;
 }
 
 .expandIcon.expanded {
