@@ -8,13 +8,19 @@ The personal collection of favorite films.
 - TypeScript
 - JSON
 
-## Database
+### Additional Libraries
 
-Currently data stores in plain JSON-files in the `db` folder.
+- React Hook Form
+- Axios
+- Lucide Icons 
 
-When you run `npm start` or `npm run build` commands, the `generate-db.js` script bring together all files into one `database.json` file. The app fetches this file on the initial load. You can find this script in the `utils` folder.
+## Data
 
-The `utils` folder contains several other scripts that help to manage local data.
+Currently data is stored as plain JSON-files in the `db` folder.
+
+When you run `npm start` or `npm run build` commands, the `utils/generate-db.js` script brings together all files from the `db` folder into the single `database.json` file. The app fetches this file on the initial load..
+
+The `utils` folder contains several scripts that help to manage local data.
 
 ## Build
 
@@ -31,8 +37,6 @@ Add films data files to the DB folder and then run commands:
 npm install
 npm start
 ```
-
-It will install all required packages, create the "database" file and start the development server.
 
 Or run following commands to build project for the production:
 
