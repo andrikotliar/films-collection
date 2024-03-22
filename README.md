@@ -7,6 +7,7 @@ The personal collection of favorite films.
 - React
 - TypeScript
 - JSON
+- CSS Modules
 
 ### Additional Libraries
 
