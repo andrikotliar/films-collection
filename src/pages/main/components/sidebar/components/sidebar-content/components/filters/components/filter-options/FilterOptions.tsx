@@ -2,7 +2,7 @@ import { FC } from 'react';
 import classNames from 'classnames';
 import { FilterItem, PropsWithClassName } from '@/common/types';
 import { FormCheckbox } from '@/components';
-import { Group } from '../Group';
+import { Group } from '../group/Group';
 
 import styles from './FilterOptions.module.css';
 

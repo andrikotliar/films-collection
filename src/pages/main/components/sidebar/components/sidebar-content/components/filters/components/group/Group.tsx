@@ -1,7 +1,7 @@
-import { GroupHeader } from '@/pages/Main/components/Filters/components/GroupHeader';
 import styles from './Group.module.css';
 import { FC, PropsWithChildren } from 'react';
 import { Scrollable } from '@/components';
+import { GroupHeader } from './components';
 
 type Props = {
   title: string;

@@ -1,10 +1,11 @@
-import styles from './Sidebar.module.css';
 import classNames from 'classnames';
-import { useSidebarContext } from '@/pages/Main/components/Sidebar/Sidebar.context';
-import { Filters } from '@/pages/Main/components';
 import { SlidersHorizontal } from 'lucide-react';
+import { useSidebarContext } from '@/pages/main/components/sidebar/context';
+import { Filters } from './components';
 
-const Sidebar = () => {
+import styles from './Sidebar.module.css';
+
+const SidebarContent = () => {
   const { isFilterOpen, setIsFilterOpen, filtersCount } = useSidebarContext();
 
   return (
@@ -32,4 +33,4 @@ const Sidebar = () => {
   );
 };
 
-export { Sidebar };
+export { SidebarContent };
