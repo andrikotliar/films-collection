@@ -1,4 +1,5 @@
 export * from './title/Title';
+export * from './title-row/TitleRow';
 export * from './section-title/SectionTitle';
 export * from './media/Media';
 export * from './awards/Awards';
