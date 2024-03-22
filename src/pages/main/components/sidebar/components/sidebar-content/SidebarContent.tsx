@@ -3,7 +3,7 @@ import { SlidersHorizontal } from 'lucide-react';
 import { useSidebarContext } from '@/pages/main/components/sidebar/context';
 import { Filters } from './components';
 
-import styles from './Sidebar.module.css';
+import styles from './SidebarContent.module.css';
 
 const SidebarContent = () => {
   const { isFilterOpen, setIsFilterOpen, filtersCount } = useSidebarContext();
@@ -11,7 +11,7 @@ const SidebarContent = () => {
   return (
     <>
       <aside
-        className={classNames(styles.sidebar, {
+        className={classNames(styles.sidebarContent, {
           [styles.open]: isFilterOpen,
         })}
       >

@@ -1,5 +1,5 @@
 import { FilmData, LinkGroup } from '@/common/types';
-import { seriesContent } from './series-content';
+import { seriesContent } from './series-content.helper';
 
 const getDataLinkConfig = (film: FilmData): LinkGroup[] => {
   const seriesData = seriesContent(film.series);
