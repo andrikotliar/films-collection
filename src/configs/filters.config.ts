@@ -1,4 +1,4 @@
-import { Filters } from '@/common';
+import { Filters } from '@/common/types';
 import { getYears } from '@/utils';
 
 export const filtersConfig: Filters = {

@@ -1,5 +1,5 @@
 import { api } from '@/services';
-import { FilmData } from '@/common';
+import { FilmData } from '@/common/types';
 
 const fetchAllFilms = async () => {
   const response = await api.get<FilmData[]>('/database/database.json');

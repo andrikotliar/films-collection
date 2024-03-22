@@ -1,0 +1,13 @@
+.posterWrapper {
+  width: 100%;
+  border-radius: var(--app-border-radius);
+  border: var(--app-border);
+  overflow: hidden;
+  font-size: 0;
+}
+
+.poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

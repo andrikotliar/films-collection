@@ -1,0 +1,70 @@
+.sidebarContent {
+  width: 300px;
+  height: var(--app-height);
+  flex-shrink: 0;
+  position: sticky;
+  top: var(--header-height);
+  padding: var(--main-padding) 0;
+}
+
+.filterButton {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .sidebarContent {
+    width: 200px;
+  }
+}
+
+@media (max-width: 785px) {
+  .actionsWrapper {
+    padding-top: var(--main-padding);
+  }
+
+  .filterButton {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--main-color);
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: var(--app-border-radius);
+  }
+
+  .filterButtonBadge {
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    font-size: 14px;
+  }
+
+  .sidebarContent {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 99999;
+    border-radius: 0;
+    border: none;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(250px);
+    transition: transform 200ms, opacity 100ms, visibility 100ms;
+    padding: 0;
+  }
+  .open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+  }
+}
