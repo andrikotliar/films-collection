@@ -66,6 +66,7 @@ const Filters = () => {
     methods.reset(defaultValues);
     window.scrollTo(0, 0);
     updateFiltersCount(0);
+    setDefaultTabIndex(0);
   };
 
   return (
