@@ -7,7 +7,7 @@ import { useRandomTitle } from './hooks';
 import styles from './RandomTitle.module.css';
 
 const RandomTitle = () => {
-  const randomTitle = useRandomTitle();
+  const { randomTitle, isTitleLoading } = useRandomTitle();
 
   const directors = useMemo(() => {
     const directors = randomTitle?.crew.find(
@@ -21,8 +21,16 @@ const RandomTitle = () => {
     return directors.people.map((person) => person.name).join(', ');
   }, [randomTitle]);
 
+  if (isTitleLoading) {
+    return (
+      <div className={styles.wrapper}>
+        <Loader />
+      </div>
+    );
+  }
+
   if (!randomTitle) {
-    return <Loader />;
+    return null;
   }
 
   return (
