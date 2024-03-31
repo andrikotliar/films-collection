@@ -7,7 +7,6 @@ import { useDocumentTitle } from '@/hooks';
 import {
   Title,
   SectionTitle,
-  DataLinks,
   Description,
   Cast,
   Awards,
@@ -15,12 +14,12 @@ import {
   CrewList,
   BoxOffice,
   Media,
-  Details,
   Wrapper,
   Column,
   Grid,
   SeasonSelect,
   TitleRow,
+  Summary,
 } from './components';
 import { getCurrentFilm } from './helpers';
 
@@ -59,12 +58,13 @@ const FilmPage = () => {
         </Column>
         <Column>
           <section>
-            <SectionTitle>Summary</SectionTitle>
-            <DataLinks film={film} />
-          </section>
-          <section>
             <SectionTitle>Description</SectionTitle>
             <Description>{film.description[activeIndex]}</Description>
+          </section>
+
+          <section>
+            <SectionTitle>Summary</SectionTitle>
+            <Summary film={film} activeIndex={activeIndex} />
           </section>
 
           <section>
@@ -75,11 +75,6 @@ const FilmPage = () => {
           <section>
             <SectionTitle>Cast and characters</SectionTitle>
             <Cast cast={film.cast} />
-          </section>
-
-          <section>
-            <SectionTitle>Details</SectionTitle>
-            <Details film={film} />
           </section>
 
           {film.awards && (
