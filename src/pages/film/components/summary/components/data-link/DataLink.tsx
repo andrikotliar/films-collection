@@ -1,17 +1,16 @@
 import { DataLinkType } from '@/common/types';
 import { FC } from 'react';
 import { buildLink } from '@/helpers';
-import { Link } from 'react-router-dom';
-
-import styles from './DataLink.module.css';
+import { RouterLink } from '@/components';
+import { DataContent } from '../data-content/DataContent';
 
 type Props = DataLinkType;
 
 const DataLink: FC<Props> = ({ property, value, suffix }) => {
   return (
-    <Link to={buildLink(property, value)} className={styles.dataLink}>
-      {value} {suffix}
-    </Link>
+    <RouterLink to={buildLink(property, value)}>
+      <DataContent value={value} suffix={suffix} />
+    </RouterLink>
   );
 };
 
