@@ -20,6 +20,7 @@ import {
   SeasonSelect,
   TitleRow,
   Summary,
+  CollapsibleSection,
 } from './components';
 import { getCurrentFilm } from './helpers';
 
@@ -62,40 +63,34 @@ const FilmPage = () => {
             <Description>{film.description[activeIndex]}</Description>
           </section>
 
-          <section>
-            <SectionTitle>Summary</SectionTitle>
+          <CollapsibleSection title="Summary">
             <Summary film={film} activeIndex={activeIndex} />
-          </section>
+          </CollapsibleSection>
 
-          <section>
-            <SectionTitle>Crew</SectionTitle>
+          <CollapsibleSection title="Crew">
             <CrewList crew={film.crew} />
-          </section>
+          </CollapsibleSection>
 
-          <section>
-            <SectionTitle>Cast and characters</SectionTitle>
+          <CollapsibleSection title="Cast and characters">
             <Cast cast={film.cast} />
-          </section>
+          </CollapsibleSection>
 
           {film.awards && (
-            <section>
-              <SectionTitle>Awards</SectionTitle>
+            <CollapsibleSection title="Awards">
               <Awards awards={film.awards} />
-            </section>
+            </CollapsibleSection>
           )}
 
           {(film.budget || film.boxOffice) && (
-            <section>
-              <SectionTitle>Box Office</SectionTitle>
+            <CollapsibleSection title="Box Office">
               <BoxOffice budget={film.budget} boxOffice={film.boxOffice} />
-            </section>
+            </CollapsibleSection>
           )}
 
           {film.chapters && (
-            <section>
-              <SectionTitle>Chapters</SectionTitle>
+            <CollapsibleSection title="Chapters">
               <Chapters parts={film.chapters} />
-            </section>
+            </CollapsibleSection>
           )}
         </Column>
       </Grid>

@@ -11,3 +11,4 @@ export * from './box-office/BoxOffice';
 export * from './season-select/SeasonSelect';
 export * from './summary/Summary';
 export * from './layout';
+export * from './collapsible-section/CollapsibleSection';
