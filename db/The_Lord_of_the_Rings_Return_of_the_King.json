@@ -225,10 +225,6 @@
   "year": [
     2003
   ],
-  "chapters": {
-    "title": "Middle-Earth Universe",
-    "part": 6
-  },
   "media": [
     {
       "poster": "middle_earth_6.webp",
@@ -238,5 +234,6 @@
   "rating": 3,
   "description": [
     "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
-  ]
+  ],
+  "relatedTitlesKey": "20b14ff3-1ede-4665-b869-aea99ed1bc1b"
 }

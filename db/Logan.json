@@ -165,10 +165,6 @@
   "year": [
     2017
   ],
-  "chapters": {
-    "title": "X-Men",
-    "part": 9
-  },
   "media": [
     {
       "poster": "logan.webp",
@@ -178,5 +174,6 @@
   "rating": 2,
   "description": [
     "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety."
-  ]
+  ],
+  "relatedTitlesKey": "1addf49a-f42f-4528-835a-d4a009225a41"
 }

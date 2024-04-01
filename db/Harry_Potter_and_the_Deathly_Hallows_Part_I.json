@@ -140,10 +140,6 @@
   "year": [
     2010
   ],
-  "chapters": {
-    "title": "Harry Potter Universe",
-    "part": 9
-  },
   "media": [
     {
       "poster": "harry_potter_7.webp",
@@ -153,5 +149,6 @@
   "rating": 3,
   "description": [
     "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows."
-  ]
+  ],
+  "relatedTitlesKey": "d7c10aa5-27a4-405e-bf89-19610e75b06f"
 }

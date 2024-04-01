@@ -137,10 +137,6 @@
   "year": [
     2001
   ],
-  "chapters": {
-    "title": "Fast and Furious",
-    "part": 1
-  },
   "media": [
     {
       "poster": "fast_and_furious_1.webp",
@@ -150,5 +146,6 @@
   "rating": 2,
   "description": [
     "Los Angeles police officer Brian O'Connor must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy."
-  ]
+  ],
+  "relatedTitlesKey": "fb00cf18-e891-4a30-a82a-d515fb3fd332"
 }

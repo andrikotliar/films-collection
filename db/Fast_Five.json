@@ -160,10 +160,6 @@
   "year": [
     2011
   ],
-  "chapters": {
-    "title": "Fast and Furious",
-    "part": 5
-  },
   "media": [
     {
       "poster": "fast_and_furious_5.webp",
@@ -173,5 +169,6 @@
   "rating": 2,
   "description": [
     "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent."
-  ]
+  ],
+  "relatedTitlesKey": "fb00cf18-e891-4a30-a82a-d515fb3fd332"
 }

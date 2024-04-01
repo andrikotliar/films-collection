@@ -156,10 +156,6 @@
   "year": [
     2011
   ],
-  "chapters": {
-    "title": "Marvel Cinematic Universe",
-    "part": 4
-  },
   "media": [
     {
       "poster": "thor_1.webp",
@@ -169,5 +165,6 @@
   "rating": 2,
   "description": [
     "The powerful, but arrogant god Thor, is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders."
-  ]
+  ],
+  "relatedTitlesKey": "71a22d78-aaf0-4932-a476-938a0788c8ce"
 }

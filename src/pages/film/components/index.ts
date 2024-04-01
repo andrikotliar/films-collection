@@ -1,3 +1,4 @@
+export * from './layout';
 export * from './title/Title';
 export * from './title-row/TitleRow';
 export * from './section-title/SectionTitle';
@@ -5,10 +6,9 @@ export * from './media/Media';
 export * from './awards/Awards';
 export * from './cast/Cast';
 export * from './crew-list/CrewList';
-export * from './chapters/Chapters';
 export * from './description/Description';
 export * from './box-office/BoxOffice';
 export * from './season-select/SeasonSelect';
 export * from './summary/Summary';
-export * from './layout';
 export * from './collapsible-section/CollapsibleSection';
+export * from './related/Related';

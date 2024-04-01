@@ -154,10 +154,6 @@
   "year": [
     2011
   ],
-  "chapters": {
-    "title": "Harry Potter Universe",
-    "part": 10
-  },
   "media": [
     {
       "poster": "harry_potter_8.webp",
@@ -167,5 +163,6 @@
   "rating": 3,
   "description": [
     "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts."
-  ]
+  ],
+  "relatedTitlesKey": "d7c10aa5-27a4-405e-bf89-19610e75b06f"
 }

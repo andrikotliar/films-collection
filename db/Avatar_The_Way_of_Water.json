@@ -203,10 +203,6 @@
   "year": [
     2022
   ],
-  "chapters": {
-    "title": "Avatar",
-    "part": 2
-  },
   "media": [
     {
       "poster": "avatar_2.webp",
@@ -216,5 +212,6 @@
   "rating": 2,
   "description": [
     "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home."
-  ]
+  ],
+  "relatedTitlesKey": "ac8cbfdb-b519-4b6f-a6c6-f6bc354368a8"
 }

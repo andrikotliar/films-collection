@@ -158,10 +158,6 @@
   "year": [
     2018
   ],
-  "chapters": {
-    "title": "Mission: Impossible",
-    "part": 6
-  },
   "media": [
     {
       "poster": "mi_6.webp",
@@ -171,5 +167,6 @@
   "rating": 2,
   "description": [
     "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong."
-  ]
+  ],
+  "relatedTitlesKey": "8d7104d7-8764-4479-b172-26c0560a30b6"
 }

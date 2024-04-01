@@ -116,10 +116,6 @@
   "year": [
     2008
   ],
-  "chapters": {
-    "title": "Marvel Cinematic Universe",
-    "part": 2
-  },
   "media": [
     {
       "poster": "the_incredible_hulk.webp",
@@ -129,5 +125,6 @@
   "rating": 2,
   "description": [
     "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into, whenever he loses his temper."
-  ]
+  ],
+  "relatedTitlesKey": "71a22d78-aaf0-4932-a476-938a0788c8ce"
 }

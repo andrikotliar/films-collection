@@ -117,10 +117,6 @@
   "year": [
     2006
   ],
-  "chapters": {
-    "title": "Fast and Furious",
-    "part": 3
-  },
   "media": [
     {
       "poster": "fast_and_furious_3.webp",
@@ -130,5 +126,6 @@
   "rating": 1,
   "description": [
     "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America."
-  ]
+  ],
+  "relatedTitlesKey": "fb00cf18-e891-4a30-a82a-d515fb3fd332"
 }

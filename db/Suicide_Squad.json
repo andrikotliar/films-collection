@@ -159,10 +159,6 @@
   "year": [
     2016
   ],
-  "chapters": {
-    "title": "DC Extended Universe",
-    "part": 3
-  },
   "media": [
     {
       "poster": "suicide_squad.webp",
@@ -172,5 +168,6 @@
   "rating": 1,
   "description": [
     "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse."
-  ]
+  ],
+  "relatedTitlesKey": "5c2eb8a7-7ddd-4c2f-be29-69f923076011"
 }

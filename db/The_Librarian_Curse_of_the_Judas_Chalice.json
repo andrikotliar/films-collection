@@ -118,10 +118,6 @@
   "year": [
     2008
   ],
-  "chapters": {
-    "title": "The Librarian",
-    "part": 3
-  },
   "media": [
     {
       "poster": "librarian_3.webp",
@@ -131,5 +127,6 @@
   "rating": 1,
   "description": [
     "Losing his girlfriend because he was at an auction dramatically getting the magical philosopher's stone instead of a date, he needs a vacation - New Orleans but finds himself busy saving Earth from the curse of the Judas chalice/vampires."
-  ]
+  ],
+  "relatedTitlesKey": "578beae7-0785-4abf-a291-76662f5a902e"
 }

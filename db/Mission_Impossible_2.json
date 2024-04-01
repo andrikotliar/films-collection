@@ -145,10 +145,6 @@
   "year": [
     2000
   ],
-  "chapters": {
-    "title": "Mission: Impossible",
-    "part": 2
-  },
   "media": [
     {
       "poster": "mi_2.webp",
@@ -158,5 +154,6 @@
   "rating": 1,
   "description": [
     "IMF Agent Ethan Hunt is sent to Sydney, to find and destroy a genetically modified disease called \"Chimera\"."
-  ]
+  ],
+  "relatedTitlesKey": "8d7104d7-8764-4479-b172-26c0560a30b6"
 }

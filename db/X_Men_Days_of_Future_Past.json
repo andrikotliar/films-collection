@@ -185,10 +185,6 @@
   "year": [
     2014
   ],
-  "chapters": {
-    "title": "X-Men",
-    "part": 7
-  },
   "media": [
     {
       "poster": "x_men_6.webp",
@@ -198,5 +194,6 @@
   "rating": 2,
   "description": [
     "The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants."
-  ]
+  ],
+  "relatedTitlesKey": "1addf49a-f42f-4528-835a-d4a009225a41"
 }

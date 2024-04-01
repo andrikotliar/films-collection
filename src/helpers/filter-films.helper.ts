@@ -9,8 +9,6 @@ const handleSearchFilter = (searchQuery: string, title: string) => {
   return filteredWords.every((w) => w.length > 2 && lowerTitle.includes(w));
 };
 
-const NUMBER_FILTER = ['duration'];
-
 export const filterFilms = (
   list: FilmData[],
   filterParams: any,

@@ -1,27 +1,24 @@
 import fs from 'fs';
 import actors from './data/actors.json' assert { type: 'json' };
 
-const generateDatabaseFile = () => {
+const generateDatabaseFiles = () => {
   const files = fs.readdirSync('./db/');
   const filteredFiles = files.filter((file) => !file.startsWith('_'));
+
   const db = filteredFiles.map((file) => {
-    try {
-      const fileData = fs.readFileSync(`./db/${file}`, 'utf8');
-      const film = JSON.parse(fileData);
+    const fileData = fs.readFileSync(`./db/${file}`, 'utf8');
+    const film = JSON.parse(fileData);
 
-      film.cast = film.cast.map((actor) => {
-        const currentActor = actors.find((a) => a.id === actor.actorId);
+    film.cast = film.cast.map((actor) => {
+      const currentActor = actors.find((a) => a.id === actor.actorId);
 
-        return {
-          ...actor,
-          photoUrl: currentActor?.photoUrl,
-        };
-      });
+      return {
+        ...actor,
+        photoUrl: currentActor?.photoUrl,
+      };
+    });
 
-      return film;
-    } catch (e) {
-      console.error(e?.message);
-    }
+    return film;
   });
 
   const sortedDb = db.sort((a, b) => (a.year < b.year ? 1 : -1));
@@ -62,7 +59,7 @@ const createFolderForDB = () => {
 const init = () => {
   try {
     if (fs.existsSync('./public/database')) {
-      generateDatabaseFile();
+      generateDatabaseFiles();
     } else {
       createFolderForDB();
     }

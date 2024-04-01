@@ -2,10 +2,16 @@ import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { getFilterParams } from '@/helpers';
 
-export const useFilter = (): [
-  { [key: string]: any },
-  (params: { [key: string]: any }) => void,
-] => {
+type FilterParams = { [key: string]: any };
+
+type UseFilter = {
+  filterParams: FilterParams;
+  setSearchParams: (params: FilterParams) => void;
+  updateFilter: (params: FilterParams) => void;
+  resetFilter: VoidFunction;
+};
+
+const useQueryFilter = (): UseFilter => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [filterParams, setFilterParams] = useState<{ [key: string]: any }>({});
 
@@ -14,5 +20,15 @@ export const useFilter = (): [
     setFilterParams(filterParams);
   }, [searchParams]);
 
-  return [filterParams, setSearchParams];
+  const updateFilter = (data: any) => {
+    setSearchParams(data);
+  };
+
+  const resetFilter = () => {
+    setSearchParams({});
+  };
+
+  return { filterParams, setSearchParams, updateFilter, resetFilter };
 };
+
+export { useQueryFilter };

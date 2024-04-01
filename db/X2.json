@@ -189,10 +189,6 @@
   "year": [
     2003
   ],
-  "chapters": {
-    "title": "X-Men",
-    "part": 2
-  },
   "media": [
     {
       "poster": "x_men_2.webp",
@@ -202,5 +198,6 @@
   "rating": 3,
   "description": [
     "When anti-mutant colonel William Stryker kidnaps Professor X and attacks his school, the X-Men must ally with their archenemy Magneto to stop him."
-  ]
+  ],
+  "relatedTitlesKey": "1addf49a-f42f-4528-835a-d4a009225a41"
 }

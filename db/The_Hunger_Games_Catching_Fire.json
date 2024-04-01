@@ -133,10 +133,6 @@
   "year": [
     2013
   ],
-  "chapters": {
-    "title": "The Hunger Games",
-    "part": 2
-  },
   "media": [
     {
       "poster": "hunger_games_2.webp",
@@ -146,5 +142,6 @@
   "rating": 2,
   "description": [
     "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem."
-  ]
+  ],
+  "relatedTitlesKey": "3bc3e7f9-2862-4ee9-9cbb-699dd460b9cb"
 }

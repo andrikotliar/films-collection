@@ -142,10 +142,6 @@
   "year": [
     1985
   ],
-  "chapters": {
-    "title": "Back to the Future",
-    "part": 1
-  },
   "media": [
     {
       "poster": "back_to_the_future_1.webp",
@@ -155,5 +151,6 @@
   "rating": 3,
   "description": [
     "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown."
-  ]
+  ],
+  "relatedTitlesKey": "c6972d0a-47f7-4e0b-ad9d-a234743dd2b7"
 }

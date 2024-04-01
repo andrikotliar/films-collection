@@ -162,10 +162,6 @@
   "year": [
     2017
   ],
-  "chapters": {
-    "title": "Marvel Cinematic Universe",
-    "part": 16
-  },
   "media": [
     {
       "poster": "mcu_spider_man_1.webp",
@@ -175,5 +171,6 @@
   "rating": 2,
   "description": [
     "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City."
-  ]
+  ],
+  "relatedTitlesKey": "71a22d78-aaf0-4932-a476-938a0788c8ce"
 }

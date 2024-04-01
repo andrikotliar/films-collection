@@ -180,10 +180,6 @@
   "year": [
     2006
   ],
-  "chapters": {
-    "title": "X-Men",
-    "part": 3
-  },
   "media": [
     {
       "poster": "x_men_3.webp",
@@ -193,5 +189,6 @@
   "rating": 1,
   "description": [
     "The human government develops a cure for mutations, and Jean Gray becomes a darker uncontrollable persona called the Phoenix who allies with Magneto, causing escalation into an all-out battle for the X-Men."
-  ]
+  ],
+  "relatedTitlesKey": "1addf49a-f42f-4528-835a-d4a009225a41"
 }

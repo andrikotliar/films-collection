@@ -166,10 +166,6 @@
   "year": [
     1999
   ],
-  "chapters": {
-    "title": "The Matrix",
-    "part": 1
-  },
   "media": [
     {
       "poster": "matrix_1.webp",
@@ -179,5 +175,6 @@
   "rating": 3,
   "description": [
     "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
-  ]
+  ],
+  "relatedTitlesKey": "ef2d700d-adb1-4e92-99d0-a41b737af0ab"
 }

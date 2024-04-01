@@ -194,10 +194,6 @@
   "year": [
     2005
   ],
-  "chapters": {
-    "title": "The Dark Knight",
-    "part": 1
-  },
   "media": [
     {
       "poster": "batman_1.webp",
@@ -207,5 +203,6 @@
   "rating": 2,
   "description": [
     "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption."
-  ]
+  ],
+  "relatedTitlesKey": "e016662b-fc0b-4dc6-89f8-ec2d1cd34360"
 }

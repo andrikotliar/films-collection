@@ -240,10 +240,6 @@
   "year": [
     2019
   ],
-  "chapters": {
-    "title": "Marvel Cinematic Universe",
-    "part": 22
-  },
   "media": [
     {
       "poster": "avengers_4.webp",
@@ -253,5 +249,6 @@
   "rating": 3,
   "description": [
     "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to undo Thanos' actions and restore order to the universe."
-  ]
+  ],
+  "relatedTitlesKey": "71a22d78-aaf0-4932-a476-938a0788c8ce"
 }

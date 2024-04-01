@@ -130,10 +130,6 @@
   "year": [
     2008
   ],
-  "chapters": {
-    "title": "Indiana Jones",
-    "part": 4
-  },
   "media": [
     {
       "poster": "indiana_jones_4.webp",
@@ -143,5 +139,6 @@
   "rating": 1,
   "description": [
     "In 1957, archaeologist and adventurer Dr. Henry \"Indiana\" Jones, Jr. is called back into action and becomes entangled in a Soviet plot to uncover the secret behind mysterious artifacts known as the Crystal Skulls."
-  ]
+  ],
+  "relatedTitlesKey": "e4abec89-df09-42e0-bfe6-dfb3696b0dcc"
 }

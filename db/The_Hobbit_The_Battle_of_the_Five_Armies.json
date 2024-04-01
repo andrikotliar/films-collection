@@ -271,10 +271,6 @@
   "year": [
     2014
   ],
-  "chapters": {
-    "title": "Middle-Earth Universe",
-    "part": 3
-  },
   "media": [
     {
       "poster": "middle_earth_3.webp",
@@ -284,5 +280,6 @@
   "rating": 2,
   "description": [
     "Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness."
-  ]
+  ],
+  "relatedTitlesKey": "20b14ff3-1ede-4665-b869-aea99ed1bc1b"
 }

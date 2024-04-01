@@ -151,10 +151,6 @@
   "year": [
     2021
   ],
-  "chapters": {
-    "title": "Marvel Cinematic Universe",
-    "part": 27
-  },
   "media": [
     {
       "poster": "shang_chi.webp",
@@ -164,5 +160,6 @@
   "rating": 2,
   "description": [
     "Shang-Chi, the master of unarmed weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization."
-  ]
+  ],
+  "relatedTitlesKey": "71a22d78-aaf0-4932-a476-938a0788c8ce"
 }

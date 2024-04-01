@@ -120,10 +120,6 @@
   "year": [
     1989
   ],
-  "chapters": {
-    "title": "Back to the Future",
-    "part": 2
-  },
   "media": [
     {
       "poster": "back_to_the_future_2.webp",
@@ -133,5 +129,6 @@
   "rating": 3,
   "description": [
     "After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip."
-  ]
+  ],
+  "relatedTitlesKey": "c6972d0a-47f7-4e0b-ad9d-a234743dd2b7"
 }

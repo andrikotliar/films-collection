@@ -160,10 +160,6 @@
   "year": [
     2001
   ],
-  "chapters": {
-    "title": "The Mummy",
-    "part": 2
-  },
   "media": [
     {
       "poster": "mummy_2.webp",
@@ -173,5 +169,6 @@
   "rating": 3,
   "description": [
     "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror."
-  ]
+  ],
+  "relatedTitlesKey": "8020c662-53b0-4f72-9b85-67346095489c"
 }

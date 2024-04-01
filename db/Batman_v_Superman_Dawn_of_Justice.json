@@ -151,10 +151,6 @@
   "year": [
     2016
   ],
-  "chapters": {
-    "title": "DC Extended Universe",
-    "part": 2
-  },
   "media": [
     {
       "poster": "batman_v_superman.webp",
@@ -164,5 +160,6 @@
   "rating": 1,
   "description": [
     "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs."
-  ]
+  ],
+  "relatedTitlesKey": "5c2eb8a7-7ddd-4c2f-be29-69f923076011"
 }

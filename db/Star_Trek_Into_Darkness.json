@@ -172,10 +172,6 @@
   "year": [
     2013
   ],
-  "chapters": {
-    "title": "Star Trek",
-    "part": 2
-  },
   "media": [
     {
       "poster": "star_trek_2.webp",
@@ -185,5 +181,6 @@
   "rating": 1,
   "description": [
     "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction."
-  ]
+  ],
+  "relatedTitlesKey": "893f5f2b-04fa-4c5b-adce-f0464317b565"
 }

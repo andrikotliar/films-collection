@@ -68,11 +68,11 @@ type FilmData = {
   collections: Collection[];
   budget?: number;
   boxOffice?: number;
-  chapters?: Chapter;
   awards?: Award[];
   ordered?: boolean;
   series?: SeriesExtension;
   rating: number;
+  relatedTitlesKey?: string;
 };
 
 export type {

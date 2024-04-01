@@ -153,10 +153,6 @@
   "year": [
     2007
   ],
-  "chapters": {
-    "title": "Harry Potter Universe",
-    "part": 7
-  },
   "media": [
     {
       "poster": "harry_potter_5.webp",
@@ -166,5 +162,6 @@
   "rating": 3,
   "description": [
     "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts."
-  ]
+  ],
+  "relatedTitlesKey": "d7c10aa5-27a4-405e-bf89-19610e75b06f"
 }

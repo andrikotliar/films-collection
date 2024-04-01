@@ -4,38 +4,37 @@ import {
   createContext,
   useContext,
   useEffect,
-  useState,
+  useReducer,
 } from 'react';
 import { filterFilms } from '@/helpers';
-import { useFilter } from '@/hooks';
+import { useQueryFilter } from '@/hooks';
 import { PER_PAGE } from '@/common/constants';
-import { FilmData } from '@/common/types';
-import { fetchAllFilms } from '@/api';
+import { fetchAllFilms, fetchRelatedFilmsList } from '@/api';
+import { filmsReducer, initialFilmsState } from './films/reducer';
+import { FilmsActionType } from '@/context/films/types';
 
-type FilmsContextType = {
-  initialFilmsList: FilmData[];
-  films: FilmData[];
-  isFilmsLoading: boolean;
-  pagesCount: number;
-  filterParams: { [key: string]: any };
-  updateFilter(data: any): void;
-  resetFilter(): void;
-};
-
-const FilmsContext = createContext({} as FilmsContextType);
+const FilmsContext = createContext(initialFilmsState);
 
 const useFilmsContext = () => useContext(FilmsContext);
 
 const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
-  const [initialFilmsList, setInitialFilmsList] = useState<FilmData[]>([]);
-  const [films, setFilms] = useState<FilmData[]>([]);
-  const [isFilmsLoading, setIsFilmsLoading] = useState(true);
-  const [filterParams, setSearchParams] = useFilter();
-  const [pagesCount, setPagesCount] = useState(0);
+  const [state, dispatch] = useReducer(filmsReducer, initialFilmsState);
+
+  const { initialFilmsList } = state;
+
+  const { filterParams } = useQueryFilter();
 
   const fetchFilms = async () => {
-    const films = await fetchAllFilms();
-    setInitialFilmsList(films);
+    const initialFilmsList = await fetchAllFilms();
+    const relatedFilmsList = await fetchRelatedFilmsList();
+
+    dispatch({
+      type: FilmsActionType.INIT_FILMS_LIST,
+      payload: {
+        initialFilmsList,
+        relatedFilmsList,
+      },
+    });
   };
 
   useEffect(() => {
@@ -43,7 +42,8 @@ const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
   }, []);
 
   useEffect(() => {
-    setIsFilmsLoading(true);
+    dispatch({ type: FilmsActionType.START_LOADING });
+
     if (initialFilmsList.length) {
       const { pageIndex = 0, ...params } = filterParams;
       const filteredFilms = filterFilms(initialFilmsList, params);
@@ -55,34 +55,15 @@ const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
       const films = filteredFilms.slice(sliceStart, sliceEnd);
       const pagesCount = Math.ceil(filteredFilms.length / PER_PAGE);
 
-      setPagesCount(pagesCount);
-      setFilms(films);
-      setIsFilmsLoading(false);
+      dispatch({
+        type: FilmsActionType.SET_FILMS_LIST,
+        payload: { pagesCount, films },
+      });
     }
   }, [initialFilmsList, filterParams]);
 
-  const updateFilter = (data: any) => {
-    setSearchParams(data);
-  };
-
-  const resetFilter = () => {
-    setSearchParams({} as URLSearchParams);
-  };
-
   return (
-    <FilmsContext.Provider
-      value={{
-        initialFilmsList,
-        pagesCount,
-        films,
-        isFilmsLoading,
-        filterParams,
-        updateFilter,
-        resetFilter,
-      }}
-    >
-      {children}
-    </FilmsContext.Provider>
+    <FilmsContext.Provider value={state}>{children}</FilmsContext.Provider>
   );
 };
 

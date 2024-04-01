@@ -133,10 +133,6 @@
   "year": [
     2016
   ],
-  "chapters": {
-    "title": "Marvel Cinematic Universe",
-    "part": 14
-  },
   "media": [
     {
       "poster": "doctor_strange.webp",
@@ -146,5 +142,6 @@
   "rating": 3,
   "description": [
     "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts."
-  ]
+  ],
+  "relatedTitlesKey": "71a22d78-aaf0-4932-a476-938a0788c8ce"
 }

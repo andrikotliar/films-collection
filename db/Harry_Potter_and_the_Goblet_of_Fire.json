@@ -150,10 +150,6 @@
   "year": [
     2005
   ],
-  "chapters": {
-    "title": "Harry Potter Universe",
-    "part": 6
-  },
   "media": [
     {
       "poster": "harry_potter_4.webp",
@@ -163,5 +159,6 @@
   "rating": 3,
   "description": [
     "A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares."
-  ]
+  ],
+  "relatedTitlesKey": "d7c10aa5-27a4-405e-bf89-19610e75b06f"
 }
