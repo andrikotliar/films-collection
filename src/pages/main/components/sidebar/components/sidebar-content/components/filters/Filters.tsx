@@ -1,13 +1,13 @@
 import styles from './Filters.module.css';
 import { useEffect, useState } from 'react';
 import { filtersConfig } from '@/configs';
-import { useFilmsContext } from '@/context';
 import { useForm, FormProvider } from 'react-hook-form';
 import { Button, Tabs } from '@/components';
 import { useSidebarContext } from '@/pages/main/components/sidebar/context';
 import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
 import { RotateCcw, Search, X } from 'lucide-react';
+import { useQueryFilter } from '@/hooks';
 
 const defaultValues = {
   type: null,
@@ -21,7 +21,7 @@ const defaultValues = {
 const COLLECTIONS_TAB_INDEX = 1;
 
 const Filters = () => {
-  const { filterParams, updateFilter, resetFilter } = useFilmsContext();
+  const { filterParams, updateFilter, resetFilter } = useQueryFilter();
   const [defaultTabIndex, setDefaultTabIndex] = useState(0);
 
   const filtersCount = countObjectKeys(filterParams, ['pageIndex']);

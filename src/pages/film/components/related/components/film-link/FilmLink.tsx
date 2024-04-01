@@ -11,7 +11,7 @@ type Props = {
   currentFilmId?: string;
 };
 
-const ChapterLink: FC<Props> = ({ id, poster, title, currentFilmId }) => {
+const FilmLink: FC<Props> = ({ id, poster, title, currentFilmId }) => {
   const posterUrl = buildMediaPath('posters', poster);
 
   return (
@@ -27,4 +27,4 @@ const ChapterLink: FC<Props> = ({ id, poster, title, currentFilmId }) => {
   );
 };
 
-export { ChapterLink };
+export { FilmLink };

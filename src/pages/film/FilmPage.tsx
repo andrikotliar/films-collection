@@ -10,7 +10,6 @@ import {
   Description,
   Cast,
   Awards,
-  Chapters,
   CrewList,
   BoxOffice,
   Media,
@@ -21,6 +20,7 @@ import {
   TitleRow,
   Summary,
   CollapsibleSection,
+  Related,
 } from './components';
 import { getCurrentFilm } from './helpers';
 
@@ -87,9 +87,9 @@ const FilmPage = () => {
             </CollapsibleSection>
           )}
 
-          {film.chapters && (
+          {film.relatedTitlesKey && id && (
             <CollapsibleSection title="Chapters">
-              <Chapters parts={film.chapters} />
+              <Related relatedKey={film.relatedTitlesKey} filmId={id} />
             </CollapsibleSection>
           )}
         </Column>

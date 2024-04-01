@@ -1,6 +1,6 @@
 import { FC, useMemo } from 'react';
 import styles from './Pagination.module.css';
-import { useFilter } from '@/hooks';
+import { useQueryFilter } from '@/hooks';
 import classNames from 'classnames';
 import { useFilmsContext } from '@/context';
 import { PER_PAGE } from '@/common/constants';
@@ -10,20 +10,20 @@ type Props = {
 };
 
 const Pagination: FC<Props> = ({ count }) => {
-  const [params, setSearchParams] = useFilter();
+  const { filterParams, setSearchParams } = useQueryFilter();
   const { initialFilmsList } = useFilmsContext();
 
   const activePage = useMemo(() => {
-    if (!params.pageIndex) {
+    if (!filterParams.pageIndex) {
       return 0;
     }
 
-    return Number(params.pageIndex);
-  }, [params]);
+    return Number(filterParams.pageIndex);
+  }, [filterParams]);
 
   const handlePage = (pageIndex: number) => () => {
     setSearchParams({
-      ...params,
+      ...filterParams,
       pageIndex,
     });
     window.scrollTo({
