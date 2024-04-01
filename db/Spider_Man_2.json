@@ -139,10 +139,6 @@
   "year": [
     2004
   ],
-  "chapters": {
-    "title": "Raimi's Spider-Man",
-    "part": 2
-  },
   "media": [
     {
       "poster": "raimi_spider_man_2.webp",
@@ -152,5 +148,6 @@
   "rating": 2,
   "description": [
     "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius."
-  ]
+  ],
+  "relatedTitlesKey": "c6ffa5e9-2e9a-4eba-ada2-02ae85a28771"
 }

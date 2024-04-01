@@ -166,10 +166,6 @@
   "year": [
     2018
   ],
-  "chapters": {
-    "title": "The Maze Runner",
-    "part": 3
-  },
   "media": [
     {
       "poster": "maze_runner_3.webp",
@@ -179,5 +175,6 @@
   "rating": 2,
   "description": [
     "Young hero Thomas embarks on a mission to find a cure for a deadly disease known as \"The Flare\"."
-  ]
+  ],
+  "relatedTitlesKey": "91ce78ff-dca7-4677-9986-b670c0524df7"
 }

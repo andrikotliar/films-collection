@@ -158,10 +158,6 @@
   "year": [
     2017
   ],
-  "chapters": {
-    "title": "DC Extended Universe",
-    "part": 4
-  },
   "media": [
     {
       "poster": "wonder_woman.webp",
@@ -171,5 +167,6 @@
   "rating": 2,
   "description": [
     "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny."
-  ]
+  ],
+  "relatedTitlesKey": "5c2eb8a7-7ddd-4c2f-be29-69f923076011"
 }

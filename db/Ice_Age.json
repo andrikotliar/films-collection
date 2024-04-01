@@ -100,10 +100,6 @@
   "year": [
     2002
   ],
-  "chapters": {
-    "title": "Ice Age",
-    "part": 1
-  },
   "media": [
     {
       "poster": "ice_age_1.webp",
@@ -113,5 +109,6 @@
   "rating": 3,
   "description": [
     "Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe."
-  ]
+  ],
+  "relatedTitlesKey": "aeee8d9b-e833-410a-8318-7fe2e5572c90"
 }

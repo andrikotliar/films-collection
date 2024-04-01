@@ -202,10 +202,6 @@
   "year": [
     2009
   ],
-  "chapters": {
-    "title": "Avatar",
-    "part": 1
-  },
   "media": [
     {
       "poster": "avatar.webp",
@@ -215,5 +211,6 @@
   "rating": 3,
   "description": [
     "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home."
-  ]
+  ],
+  "relatedTitlesKey": "ac8cbfdb-b519-4b6f-a6c6-f6bc354368a8"
 }

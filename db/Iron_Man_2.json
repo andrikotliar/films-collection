@@ -150,10 +150,6 @@
   "year": [
     2010
   ],
-  "chapters": {
-    "title": "Marvel Cinematic Universe",
-    "part": 3
-  },
   "media": [
     {
       "poster": "iron_man_2.webp",
@@ -163,5 +159,6 @@
   "rating": 1,
   "description": [
     "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy."
-  ]
+  ],
+  "relatedTitlesKey": "71a22d78-aaf0-4932-a476-938a0788c8ce"
 }

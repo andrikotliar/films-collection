@@ -118,10 +118,6 @@
   "year": [
     2019
   ],
-  "chapters": {
-    "title": "DC Extended Universe",
-    "part": 7
-  },
   "media": [
     {
       "poster": "shazam.webp",
@@ -131,5 +127,6 @@
   "rating": 1,
   "description": [
     "We all have a superhero inside us, it just takes a bit of magic to bring it out. In Billy Batson's case, by shouting out one word - SHAZAM! - this streetwise fourteen-year-old foster kid can turn into the adult superhero Shazam."
-  ]
+  ],
+  "relatedTitlesKey": "5c2eb8a7-7ddd-4c2f-be29-69f923076011"
 }

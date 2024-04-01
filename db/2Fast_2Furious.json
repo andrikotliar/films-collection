@@ -128,10 +128,6 @@
   "year": [
     2003
   ],
-  "chapters": {
-    "title": "Fast and Furious",
-    "part": 2
-  },
   "media": [
     {
       "poster": "fast_and_furious_2.webp",
@@ -141,5 +137,6 @@
   "rating": 1,
   "description": [
     "Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself."
-  ]
+  ],
+  "relatedTitlesKey": "fb00cf18-e891-4a30-a82a-d515fb3fd332"
 }

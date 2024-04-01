@@ -204,10 +204,6 @@
   "year": [
     2016
   ],
-  "chapters": {
-    "title": "Marvel Cinematic Universe",
-    "part": 13
-  },
   "media": [
     {
       "poster": "captain_america_3.webp",
@@ -217,5 +213,6 @@
   "rating": 3,
   "description": [
     "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man."
-  ]
+  ],
+  "relatedTitlesKey": "71a22d78-aaf0-4932-a476-938a0788c8ce"
 }

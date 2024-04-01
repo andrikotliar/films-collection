@@ -148,10 +148,6 @@
   "year": [
     2018
   ],
-  "chapters": {
-    "title": "DC Extended Universe",
-    "part": 6
-  },
   "media": [
     {
       "poster": "aquaman.webp",
@@ -161,5 +157,6 @@
   "rating": 1,
   "description": [
     "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land."
-  ]
+  ],
+  "relatedTitlesKey": "5c2eb8a7-7ddd-4c2f-be29-69f923076011"
 }

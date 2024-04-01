@@ -248,10 +248,6 @@
   "year": [
     2012
   ],
-  "chapters": {
-    "title": "Middle-Earth Universe",
-    "part": 1
-  },
   "media": [
     {
       "poster": "middle_earth_1.webp",
@@ -261,5 +257,6 @@
   "rating": 2,
   "description": [
     "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug."
-  ]
+  ],
+  "relatedTitlesKey": "20b14ff3-1ede-4665-b869-aea99ed1bc1b"
 }

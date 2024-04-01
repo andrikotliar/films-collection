@@ -173,10 +173,6 @@
   "year": [
     2009
   ],
-  "chapters": {
-    "title": "Transformers",
-    "part": 3
-  },
   "media": [
     {
       "poster": "transformers_2.webp",
@@ -186,5 +182,6 @@
   "rating": 2,
   "description": [
     "Sam Witwicky leaves the Autobots behind for a normal life. But when his mind is filled with cryptic symbols, the Decepticons target him and he is dragged back into the Transformers' war."
-  ]
+  ],
+  "relatedTitlesKey": "c12e1f21-834a-40c5-80eb-b84aa8436d40"
 }

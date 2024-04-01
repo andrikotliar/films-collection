@@ -180,10 +180,6 @@
   "year": [
     2017
   ],
-  "chapters": {
-    "title": "Marvel Cinematic Universe",
-    "part": 17
-  },
   "media": [
     {
       "poster": "thor_3.webp",
@@ -193,5 +189,6 @@
   "rating": 2,
   "description": [
     "Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarцk, the destruction of his world, at the hands of the powerful and ruthless villain Hela."
-  ]
+  ],
+  "relatedTitlesKey": "71a22d78-aaf0-4932-a476-938a0788c8ce"
 }

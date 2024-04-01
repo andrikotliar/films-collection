@@ -175,10 +175,6 @@
   "year": [
     2011
   ],
-  "chapters": {
-    "title": "Transformers",
-    "part": 4
-  },
   "media": [
     {
       "poster": "transformers_3.webp",
@@ -188,5 +184,6 @@
   "rating": 1,
   "description": [
     "The Autobots learn of a Cybertronian spacecraft hidden on the moon, and race against the Decepticons to reach it and to learn its secrets."
-  ]
+  ],
+  "relatedTitlesKey": "c12e1f21-834a-40c5-80eb-b84aa8436d40"
 }

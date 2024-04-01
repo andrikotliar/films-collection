@@ -148,10 +148,6 @@
   "year": [
     2004
   ],
-  "chapters": {
-    "title": "Harry Potter Universe",
-    "part": 5
-  },
   "media": [
     {
       "poster": "harry_potter_3.webp",
@@ -161,5 +157,6 @@
   "rating": 3,
   "description": [
     "It's Harry's third year at Hogwarts; not only does he have a new \"Defense Against the Dark Arts\" teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry."
-  ]
+  ],
+  "relatedTitlesKey": "d7c10aa5-27a4-405e-bf89-19610e75b06f"
 }

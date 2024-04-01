@@ -142,10 +142,6 @@
   "year": [
     2004
   ],
-  "chapters": {
-    "title": "The Librarian",
-    "part": 1
-  },
   "media": [
     {
       "poster": "librarian_1.webp",
@@ -155,5 +151,6 @@
   "rating": 1,
   "description": [
     "A bookworm becomes the librarian. Same night a magical spear gets stolen and he's off to get some real life experience around the globe on his quest for the spear - starting with being thrown off a plane over Amazonas by his cute helper."
-  ]
+  ],
+  "relatedTitlesKey": "578beae7-0785-4abf-a291-76662f5a902e"
 }

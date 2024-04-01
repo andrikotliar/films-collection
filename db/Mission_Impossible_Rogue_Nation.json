@@ -148,10 +148,6 @@
   "year": [
     2015
   ],
-  "chapters": {
-    "title": "Mission: Impossible",
-    "part": 5
-  },
   "media": [
     {
       "poster": "mi_5.webp",
@@ -161,5 +157,6 @@
   "rating": 2,
   "description": [
     "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF."
-  ]
+  ],
+  "relatedTitlesKey": "8d7104d7-8764-4479-b172-26c0560a30b6"
 }

@@ -120,10 +120,6 @@
   "year": [
     2004
   ],
-  "chapters": {
-    "title": "District 13",
-    "part": 1
-  },
   "media": [
     {
       "poster": "d13_1.webp",
@@ -133,5 +129,6 @@
   "rating": 2,
   "description": [
     "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb."
-  ]
+  ],
+  "relatedTitlesKey": "4471c6f7-e37e-4f1c-a4d2-021900d6ae26"
 }

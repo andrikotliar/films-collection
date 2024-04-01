@@ -178,10 +178,6 @@
   "year": [
     2011
   ],
-  "chapters": {
-    "title": "X-Men",
-    "part": 5
-  },
   "media": [
     {
       "poster": "x_men_5.webp",
@@ -191,5 +187,6 @@
   "rating": 3,
   "description": [
     "In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them."
-  ]
+  ],
+  "relatedTitlesKey": "1addf49a-f42f-4528-835a-d4a009225a41"
 }

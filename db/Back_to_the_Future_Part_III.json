@@ -104,10 +104,6 @@
   "year": [
     1990
   ],
-  "chapters": {
-    "title": "Back to the Future",
-    "part": 3
-  },
   "media": [
     {
       "poster": "back_to_the_future_3.webp",
@@ -117,5 +113,6 @@
   "rating": 3,
   "description": [
     "Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about to be killed by Buford \"Mad Dog\"Tannen. Marty McFly travels back in time to save his friend."
-  ]
+  ],
+  "relatedTitlesKey": "c6972d0a-47f7-4e0b-ad9d-a234743dd2b7"
 }

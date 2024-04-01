@@ -160,10 +160,6 @@
   "year": [
     2008
   ],
-  "chapters": {
-    "title": "Marvel Cinematic Universe",
-    "part": 1
-  },
   "media": [
     {
       "poster": "iron_man_1.webp",
@@ -173,5 +169,6 @@
   "rating": 3,
   "description": [
     "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
-  ]
+  ],
+  "relatedTitlesKey": "71a22d78-aaf0-4932-a476-938a0788c8ce"
 }

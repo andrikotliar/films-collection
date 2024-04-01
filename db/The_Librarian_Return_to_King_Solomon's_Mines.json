@@ -150,10 +150,6 @@
   "year": [
     2006
   ],
-  "chapters": {
-    "title": "The Librarian",
-    "part": 2
-  },
   "media": [
     {
       "poster": "librarian_2.webp",
@@ -163,5 +159,6 @@
   "rating": 1,
   "description": [
     "Librarian-turned-adventurer Flynn Carsen endeavors to find King Solomon's mines."
-  ]
+  ],
+  "relatedTitlesKey": "578beae7-0785-4abf-a291-76662f5a902e"
 }

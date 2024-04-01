@@ -147,10 +147,6 @@
   "year": [
     2008
   ],
-  "chapters": {
-    "title": "The Mummy",
-    "part": 3
-  },
   "media": [
     {
       "poster": "mummy_3.webp",
@@ -160,5 +156,6 @@
   "rating": 1,
   "description": [
     "In the Far East, Alex O'Connell, the son of famed mummy fighters Rick and Evy O'Connell, unearths the mummy of the first Emperor of Qin -- a shape-shifting entity cursed by a witch centuries ago."
-  ]
+  ],
+  "relatedTitlesKey": "8020c662-53b0-4f72-9b85-67346095489c"
 }

@@ -185,10 +185,6 @@
   "year": [
     2015
   ],
-  "chapters": {
-    "title": "Fast and Furious",
-    "part": 7
-  },
   "media": [
     {
       "poster": "fast_and_furious_7.webp",
@@ -198,5 +194,6 @@
   "rating": 2,
   "description": [
     "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother."
-  ]
+  ],
+  "relatedTitlesKey": "fb00cf18-e891-4a30-a82a-d515fb3fd332"
 }

@@ -162,10 +162,6 @@
   "year": [
     2007
   ],
-  "chapters": {
-    "title": "Raimi's Spider-Man",
-    "part": 3
-  },
   "media": [
     {
       "poster": "raimi_spider_man_3.webp",
@@ -175,5 +171,6 @@
   "rating": 1,
   "description": [
     "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge."
-  ]
+  ],
+  "relatedTitlesKey": "c6ffa5e9-2e9a-4eba-ada2-02ae85a28771"
 }

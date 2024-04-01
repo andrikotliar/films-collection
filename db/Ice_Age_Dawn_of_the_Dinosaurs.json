@@ -146,10 +146,6 @@
   "year": [
     2009
   ],
-  "chapters": {
-    "title": "Ice Age",
-    "part": 3
-  },
   "media": [
     {
       "poster": "ice_age_3.webp",
@@ -159,5 +155,6 @@
   "rating": 1,
   "description": [
     "When Sid's attempt to adopt three dinosaur eggs gets him abducted by their real mother to an underground lost world, his friends attempt to rescue him."
-  ]
+  ],
+  "relatedTitlesKey": "aeee8d9b-e833-410a-8318-7fe2e5572c90"
 }

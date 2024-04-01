@@ -202,10 +202,6 @@
   "year": [
     2002
   ],
-  "chapters": {
-    "title": "Middle-Earth Universe",
-    "part": 5
-  },
   "media": [
     {
       "poster": "middle_earth_5.webp",
@@ -215,5 +211,6 @@
   "rating": 3,
   "description": [
     "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
-  ]
+  ],
+  "relatedTitlesKey": "20b14ff3-1ede-4665-b869-aea99ed1bc1b"
 }

@@ -129,10 +129,6 @@
   "year": [
     2001
   ],
-  "chapters": {
-    "title": "Shrek",
-    "part": 1
-  },
   "media": [
     {
       "poster": "shrek_1.webp",
@@ -142,5 +138,6 @@
   "rating": 3,
   "description": [
     "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back."
-  ]
+  ],
+  "relatedTitlesKey": "2a7d5df8-5ebb-4f19-a6a1-f92472c61287"
 }

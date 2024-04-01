@@ -105,10 +105,6 @@
   "year": [
     1997
   ],
-  "chapters": {
-    "title": "Jurassic Park",
-    "part": 2
-  },
   "media": [
     {
       "poster": "jurassic_park_2.webp",
@@ -118,5 +114,6 @@
   "rating": 2,
   "description": [
     "A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda."
-  ]
+  ],
+  "relatedTitlesKey": "cceebced-34bc-475e-b1fc-63881718a1ec"
 }

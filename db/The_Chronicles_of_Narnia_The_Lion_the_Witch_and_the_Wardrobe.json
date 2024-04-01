@@ -173,10 +173,6 @@
   "year": [
     2005
   ],
-  "chapters": {
-    "title": "The Chronicles of Narnia",
-    "part": 1
-  },
   "media": [
     {
       "poster": "narnia_1.webp",
@@ -186,5 +182,6 @@
   "rating": 2,
   "description": [
     "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion."
-  ]
+  ],
+  "relatedTitlesKey": "239e067e-a2b0-4d67-b3c9-a0f1bd262fa7"
 }

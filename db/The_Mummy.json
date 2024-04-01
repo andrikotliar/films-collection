@@ -144,10 +144,6 @@
   "year": [
     1999
   ],
-  "chapters": {
-    "title": "The Mummy",
-    "part": 1
-  },
   "media": [
     {
       "poster": "mummy_1.webp",
@@ -157,5 +153,6 @@
   "rating": 3,
   "description": [
     "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreck havoc as he searches for the reincarnation of his long-lost love."
-  ]
+  ],
+  "relatedTitlesKey": "8020c662-53b0-4f72-9b85-67346095489c"
 }
