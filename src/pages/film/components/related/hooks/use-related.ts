@@ -16,13 +16,20 @@ const useRelated = (key: string, filmId: string) => {
       (data) => data.id === filmId,
     );
 
-    if (chaptersIndex < 0) {
-      return null;
-    }
+    const chaptersFilledWithNumbers = currentList.chapters.map(
+      (chapter, index) => ({
+        ...chapter,
+        chapter: index + 1,
+      }),
+    );
 
-    const splittedData = splitAt(chaptersIndex, currentList.chapters);
+    const chapters = splitAt(chaptersIndex, chaptersFilledWithNumbers);
 
-    return splittedData;
+    return {
+      chapters,
+      remakes: currentList.remakes,
+      originals: currentList.originals,
+    };
   }, [key, relatedFilmsList]);
 
   return data;

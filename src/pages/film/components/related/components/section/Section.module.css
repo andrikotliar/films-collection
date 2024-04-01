@@ -1,0 +1,22 @@
+.section {
+  border: var(--app-border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.title {
+  color: #373737;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 10px;
+  border-bottom: var(--app-border);
+  background-color: #f2f2f2;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 20px;
+  width: 100%;
+  padding: 15px;
+}

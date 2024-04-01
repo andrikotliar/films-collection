@@ -1,1 +1,1 @@
-export * from './film-link/FilmLink';
+export * from './section/Section';

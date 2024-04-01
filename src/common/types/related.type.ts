@@ -1,6 +1,7 @@
 type RelatedItem = {
   id: string;
   title: string;
+  poster: string;
 };
 
 type Related = {
