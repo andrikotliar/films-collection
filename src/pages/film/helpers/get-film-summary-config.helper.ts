@@ -8,13 +8,13 @@ const getSeriesExtension = (series?: SeriesExtension): LinkGroup[] => {
       value: series.seasons.length,
       property: 'seasons',
       title: 'Seasons count',
-      suffix: `season${series.seasons.length > 1 && 's'}`,
+      suffix: `season${series.seasons.length > 1 ? 's' : ''}`,
     },
     {
       value: series.episodesTotal,
       property: 'episodes',
       title: 'All episodes count',
-      suffix: `episode${series.episodesTotal > 1 && 's'}`,
+      suffix: `episode${series.episodesTotal > 1 ? 's' : ''}`,
     },
   ];
 };

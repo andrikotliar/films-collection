@@ -17,7 +17,7 @@ const getSeasonConfig = (film: FilmData, activeIndex: number) => {
       value: season.episodesCount,
       property: 'seasonEpisodesCount',
       title: 'Season episode count',
-      suffix: `episode${season.episodesCount > 1 && 's'}`,
+      suffix: `episode${season.episodesCount > 1 ? 's' : ''}`,
     },
   ];
 };
