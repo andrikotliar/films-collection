@@ -8,7 +8,7 @@ const StatisticPage = () => {
     <div className={styles.statisticPage}>
       <h1 className={styles.title}>Statistic</h1>
       <p>
-        <b>Total films count:</b> <span>{initialFilmsList.length}</span>
+        <b>Total films count:</b> <span>{initialFilmsList?.length ?? 0}</span>
       </p>
     </div>
   );

@@ -1,7 +1,7 @@
 import { FilmsActionType, FilmsActions, FilmsState } from './types';
 
 const initialFilmsState: FilmsState = {
-  initialFilmsList: [],
+  initialFilmsList: null,
   films: [],
   isFilmsLoading: true,
   pagesCount: 0,
@@ -13,12 +13,6 @@ const filmsReducer = (
   action: FilmsActions,
 ): FilmsState => {
   switch (action.type) {
-    case FilmsActionType.INIT_FILMS_LIST: {
-      return {
-        ...state,
-        ...action.payload,
-      };
-    }
     case FilmsActionType.SET_FILMS_LIST: {
       return {
         ...state,
