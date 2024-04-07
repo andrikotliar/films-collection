@@ -33,7 +33,7 @@ const FilmPage = () => {
   useDocumentTitle(film?.title);
 
   useEffect(() => {
-    if (initialFilmsList && initialFilmsList.length) {
+    if (initialFilmsList?.length) {
       window.scrollTo(0, 0);
       const film = getCurrentFilm(initialFilmsList, id);
       setFilm(film);

@@ -12,6 +12,7 @@ import { PER_PAGE } from '@/common/constants';
 import { fetchAllFilms, fetchRelatedFilmsList } from '@/api';
 import { filmsReducer, initialFilmsState } from './films/reducer';
 import { FilmsActionType } from '@/context/films/types';
+import { useQuery } from '@/hooks/query';
 
 const FilmsContext = createContext(initialFilmsState);
 
@@ -20,31 +21,20 @@ const useFilmsContext = () => useContext(FilmsContext);
 const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
   const [state, dispatch] = useReducer(filmsReducer, initialFilmsState);
 
-  const { initialFilmsList } = state;
-
   const { filterParams } = useQueryFilter();
 
-  const fetchFilms = async () => {
-    const initialFilmsList = await fetchAllFilms();
-    const relatedFilmsList = await fetchRelatedFilmsList();
+  const { data: initialFilmsList } = useQuery({
+    fn: fetchAllFilms,
+  });
 
-    dispatch({
-      type: FilmsActionType.INIT_FILMS_LIST,
-      payload: {
-        initialFilmsList,
-        relatedFilmsList,
-      },
-    });
-  };
-
-  useEffect(() => {
-    fetchFilms();
-  }, []);
+  const { data: relatedFilmsList } = useQuery({
+    fn: fetchRelatedFilmsList,
+  });
 
   useEffect(() => {
     dispatch({ type: FilmsActionType.START_LOADING });
 
-    if (initialFilmsList.length) {
+    if (initialFilmsList?.length) {
       const { pageIndex = 0, ...params } = filterParams;
       const filteredFilms = filterFilms(initialFilmsList, params);
       const pageIndexNum = Number(pageIndex);
@@ -63,7 +53,11 @@ const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
   }, [initialFilmsList, filterParams]);
 
   return (
-    <FilmsContext.Provider value={state}>{children}</FilmsContext.Provider>
+    <FilmsContext.Provider
+      value={{ ...state, initialFilmsList, relatedFilmsList }}
+    >
+      {children}
+    </FilmsContext.Provider>
   );
 };
 
