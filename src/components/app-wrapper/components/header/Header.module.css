@@ -33,20 +33,6 @@
   gap: 10px;
 }
 
-.iconLink {
-  font-size: 0;
-}
-
-.iconLink.active,
-.iconLink:hover {
-  color: var(--main-color);
-}
-
-.iconLink.active {
-  cursor: default;
-  pointer-events: none;
-}
-
 .menuButton {
   display: flex;
   justify-content: center;
@@ -62,5 +48,28 @@
 }
 
 .menuIcon {
+  pointer-events: none;
+}
+
+.menuWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 10px;
+}
+
+.menuLink {
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.menuLink:hover {
+  background-color: var(--gray-light);
+}
+
+.activeLink {
+  color: #fff;
+  background-color: var(--main-color);
   pointer-events: none;
 }
