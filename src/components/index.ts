@@ -11,3 +11,4 @@ export * from './data-row/DataRow';
 export * from './data-grid/DataGrid';
 export * from './router-link/RouterLink';
 export * from './select/Select';
+export * from './popup-menu/PopupMenu';

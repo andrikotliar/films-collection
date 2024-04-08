@@ -1,16 +1,15 @@
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { mainMenu } from '@/configs';
 import { MenuIcon } from 'lucide-react';
-import { useClickOutside } from '@/hooks';
+import classNames from 'classnames';
+import { mainMenu } from '@/configs';
+import { PopupMenu } from '@/components/popup-menu/PopupMenu';
 import { Container } from '../container/Container';
-import { Menu, Search, Logo } from './components';
-
+import { Search, Logo } from './components';
 import styles from './Header.module.css';
 
 const Header = () => {
   const menuButtonRef = useRef<HTMLButtonElement>(null);
-  const menuRef = useRef<HTMLDivElement>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const location = useLocation();
@@ -26,21 +25,6 @@ const Header = () => {
   const handleCloseMenu = () => {
     setIsMenuOpen(false);
   };
-
-  useEffect(() => {
-    document.addEventListener('scroll', handleCloseMenu);
-
-    return () => {
-      document.removeEventListener('scroll', handleCloseMenu);
-    };
-  }, []);
-
-  useClickOutside({
-    isOpen: isMenuOpen,
-    closeHandler: handleCloseMenu,
-    triggerElementRef: menuButtonRef,
-    containerRef: menuRef,
-  });
 
   return (
     <header className={styles.header}>
@@ -62,12 +46,26 @@ const Header = () => {
         >
           <MenuIcon className={styles.menuIcon} />
         </button>
-        <Menu
-          links={mainMenu}
+        <PopupMenu
+          onClose={handleCloseMenu}
+          triggerRef={menuButtonRef}
           isOpen={isMenuOpen}
-          checkActiveState={checkActiveState}
-          ref={menuRef}
-        />
+          positionMarker="right"
+        >
+          <div className={styles.menuWrapper}>
+            {mainMenu.map((item) => (
+              <Link
+                to={item.link}
+                className={classNames(styles.menuLink, {
+                  [styles.activeLink]: checkActiveState(item.link),
+                })}
+                key={item.link}
+              >
+                {item.title}
+              </Link>
+            ))}
+          </div>
+        </PopupMenu>
       </Container>
     </header>
   );
