@@ -9,7 +9,8 @@
   text-transform: uppercase;
 }
 
-.headerButton:hover {
+.headerButton:hover,
+.headerButton:focus {
   color: var(--main-color);
 }
 
