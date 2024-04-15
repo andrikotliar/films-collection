@@ -1,4 +1,4 @@
-import { useClickOutside } from '@/hooks';
+import { useClickOutside, useFocusTrap } from '@/hooks';
 import {
   FC,
   PropsWithChildren,
@@ -65,6 +65,12 @@ const PopupMenu: FC<PropsWithChildren<Props>> = ({
     closeHandler: onClose,
     triggerElementRef: triggerRef,
     containerRef: menuRef,
+  });
+
+  useFocusTrap({
+    container: menuRef.current,
+    trigger: triggerRef.current,
+    isOpen,
   });
 
   if (!isOpen) {
