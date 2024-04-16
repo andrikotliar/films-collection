@@ -1,10 +1,7 @@
-.gridSection {
-  position: relative;
+.wrapper {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 100%;
-  padding: var(--main-padding) 0 var(--main-padding) var(--main-padding);
 }
 
 .grid {
@@ -17,12 +14,6 @@
 @media (max-width: 880px) {
   .grid {
     --cols: 4;
-  }
-}
-
-@media (max-width: 785px) {
-  .gridSection {
-    padding: var(--main-padding) 0;
   }
 }
 

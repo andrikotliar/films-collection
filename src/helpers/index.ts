@@ -1,10 +1,8 @@
 export { buildLink } from './build-link';
-export { filterFilms } from './filter-films';
 export { getFilterParams } from './get-filter-params';
 export { filterValues } from './filter-values';
 export { countObjectKeys } from './count-keys';
 export { buildMediaPath } from './build-media-path';
 export { debounce } from './debounce';
 export { splitAt } from './split-at';
-export { getYears } from './get-years';
 export { handleImageError } from './handle-image-error';

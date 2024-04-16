@@ -6,13 +6,13 @@ import {
   useEffect,
   useReducer,
 } from 'react';
-import { filterFilms } from '@/helpers';
+import { useQuery } from '@/hooks/query';
 import { useQueryFilter } from '@/hooks';
 import { PER_PAGE } from '@/common/constants';
 import { fetchAllFilms, fetchRelatedFilmsList } from '@/api';
 import { filmsReducer, initialFilmsState } from './films/reducer';
-import { FilmsActionType } from '@/context/films/types';
-import { useQuery } from '@/hooks/query';
+import { FilmsActionType } from './films/types';
+import { filterFilms } from './films/filter-films';
 
 const FilmsContext = createContext(initialFilmsState);
 

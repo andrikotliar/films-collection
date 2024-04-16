@@ -1,5 +1,4 @@
 import fs from 'fs';
-import actors from './data/actors.json' assert { type: 'json' };
 
 const generateDatabaseFiles = () => {
   const files = fs.readdirSync('./db/');
@@ -8,15 +7,6 @@ const generateDatabaseFiles = () => {
   const db = filteredFiles.map((file) => {
     const fileData = fs.readFileSync(`./db/${file}`, 'utf8');
     const film = JSON.parse(fileData);
-
-    film.cast = film.cast.map((actor) => {
-      const currentActor = actors.find((a) => a.id === actor.actorId);
-
-      return {
-        ...actor,
-        photoUrl: currentActor?.photoUrl,
-      };
-    });
 
     return film;
   });

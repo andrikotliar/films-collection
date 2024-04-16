@@ -2,17 +2,32 @@ import { FC } from 'react';
 import { CastType } from '@/common/types';
 import { DataGrid } from '@/components';
 import { Actor } from './components';
+import { useActorsContext } from '@/context';
 
 type Props = {
   cast: CastType[];
 };
 
 const Cast: FC<Props> = ({ cast }) => {
+  const { actors } = useActorsContext();
+
+  if (!actors) {
+    return null;
+  }
+
   return (
     <DataGrid>
-      {cast.map((actor) => (
-        <Actor actor={actor} key={actor.actorId} />
-      ))}
+      {cast.map((actor) => {
+        const actorExternalData = actors[actor.actorId];
+
+        return (
+          <Actor
+            actor={actor}
+            externalData={actorExternalData}
+            key={actor.actorId}
+          />
+        );
+      })}
     </DataGrid>
   );
 };

@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.profile {
+  flex-shrink: 0;
+  width: 300px;
+  border: var(--app-border);
+  border-radius: var(--app-border-radius);
+  padding: 20px;
+}

@@ -1,4 +1,5 @@
-export { useQueryFilter } from './use-filter.hook';
-export { useDocumentTitle } from './use-document-title.hook';
-export { useClickOutside } from './use-click-outside.hook';
-export { useFocusTrap } from './use-focus-trap.hook';
+export { useQueryFilter } from './use-filter';
+export { useDocumentTitle } from './use-document-title';
+export { useClickOutside } from './use-click-outside';
+export { useFocusTrap } from './use-focus-trap';
+export { usePersonFilms } from './use-person-films';

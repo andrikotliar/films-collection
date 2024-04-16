@@ -8,18 +8,13 @@ type Crew = {
   }[];
 };
 
-type ActorData = {
-  name: string;
-  photoUrl: string;
-};
-
 type CastType = {
   actorId: string;
   character: {
     name: string;
     imageUrl: string | null;
   };
-} & ActorData;
+};
 
 type Collection = {
   title: string;
@@ -80,7 +75,6 @@ export type {
   FilmData,
   Crew,
   CastType,
-  ActorData,
   Collection,
   Award,
   Chapter,

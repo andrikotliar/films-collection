@@ -1,5 +1,5 @@
 import styles from './MainPage.module.css';
-import { Sidebar, FilmsGrid } from './components';
+import { Sidebar, FilmsSection } from './components';
 import { useDocumentTitle } from '@/hooks';
 
 const MainPage = () => {
@@ -8,7 +8,7 @@ const MainPage = () => {
   return (
     <div className={styles.main}>
       <Sidebar />
-      <FilmsGrid />
+      <FilmsSection />
     </div>
   );
 };

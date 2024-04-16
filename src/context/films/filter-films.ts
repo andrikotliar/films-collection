@@ -26,17 +26,6 @@ export const filterFilms = (
           return handleSearchFilter(params.search, film.title);
         }
 
-        if (property === 'crew') {
-          const crew = JSON.parse(params[property]);
-
-          const crewPosition = film.crew.find(
-            (item) => item.role === crew.role,
-          );
-          return crewPosition?.people.find(
-            (person) => person.name === crew.name,
-          );
-        }
-
         if (property === 'duration') {
           return film[property] === Number(params[property]);
         }
@@ -63,17 +52,6 @@ export const filterFilms = (
           return film[property]?.some(
             (item) => item.title === params[property],
           );
-        }
-
-        if (property === 'actor') {
-          const parsedActor = JSON.parse(params[property]);
-          const hasActorId = film.cast.find(
-            (actor) => actor.actorId === parsedActor.id,
-          );
-          if (hasActorId) {
-            return true;
-          }
-          return false;
         }
 
         return (film as any)[property].some((item: string | number) =>
