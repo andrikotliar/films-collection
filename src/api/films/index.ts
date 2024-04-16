@@ -1,1 +1,1 @@
-export * from './films.api';
+export * from './films';

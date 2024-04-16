@@ -1,4 +1,4 @@
-export * from './awards.config';
-export * from './filters.config';
-export * from './main-menu.config';
-export * from './file-paths.config';
+export { awardIcons } from './awards';
+export { filtersConfig } from './filters';
+export { mainMenu } from './main-menu';
+export { filePaths } from './file-paths';

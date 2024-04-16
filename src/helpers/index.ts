@@ -1,8 +1,10 @@
-export * from './build-link.helper';
-export * from './filter-films.helper';
-export * from './get-filter-params.helper';
-export * from './filter-values.helper';
-export * from './count-keys.helper';
-export * from './build-media-path.helper';
-export * from './debounce.helper';
-export * from './split-at.helper';
+export { buildLink } from './build-link';
+export { filterFilms } from './filter-films';
+export { getFilterParams } from './get-filter-params';
+export { filterValues } from './filter-values';
+export { countObjectKeys } from './count-keys';
+export { buildMediaPath } from './build-media-path';
+export { debounce } from './debounce';
+export { splitAt } from './split-at';
+export { getYears } from './get-years';
+export { handleImageError } from './handle-image-error';
