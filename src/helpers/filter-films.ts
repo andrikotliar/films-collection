@@ -28,7 +28,7 @@ export const filterFilms = (
 
         if (property === 'crew') {
           const crew = JSON.parse(params[property]);
-          console.log(crew);
+
           const crewPosition = film.crew.find(
             (item) => item.role === crew.role,
           );

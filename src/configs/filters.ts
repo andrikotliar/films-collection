@@ -1,5 +1,5 @@
 import { Filters } from '@/common/types';
-import { getYears } from '@/utils';
+import { getYears } from '@/helpers';
 
 export const filtersConfig: Filters = {
   general: [

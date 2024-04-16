@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { handleImageError } from '@/utils';
+import { handleImageError } from '@/helpers';
 import { CastType } from '@/common/types';
 import { IMAGE_FALLBACKS } from '@/common/constants';
 
