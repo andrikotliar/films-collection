@@ -1,7 +1,7 @@
 import { FilmData } from '@/common/types';
 import { forwardRef } from 'react';
 import { Link } from 'react-router-dom';
-import { buildMediaPath } from '@/helpers';
+import { buildMediaPath, buildRouterLink } from '@/helpers';
 
 import styles from './FilmLink.module.css';
 
@@ -15,7 +15,7 @@ const FilmLink = forwardRef<HTMLAnchorElement, Props>(({ data }, ref) => {
   return (
     <Link
       className={styles.film}
-      to={`/film/${data.id}`}
+      to={buildRouterLink('film', data.id)}
       key={data.id}
       ref={ref}
     >

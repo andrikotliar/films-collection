@@ -1,0 +1,18 @@
+.page {
+  padding: 20px 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 20px 0;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.title span {
+  color: var(--main-color);
+}

@@ -1,7 +1,9 @@
+import { PersonRole } from '@/common/enums';
+
 type TypeVariants = 'Film' | 'Animation' | 'Series';
 
 type Crew = {
-  role: string;
+  role: PersonRole;
   people: {
     name: string;
     comment?: string;

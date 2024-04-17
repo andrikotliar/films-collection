@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { awardIcons } from '@/configs';
 import { Award } from '@/common/types';
-import { buildLink } from '@/helpers';
+import { buildQueryLink } from '@/helpers';
 import { DataArea, DataGrid, Scrollable } from '@/components';
 
 import styles from './Awards.module.css';
@@ -29,7 +29,9 @@ const Awards: FC<Props> = ({ awards }) => {
             </div>
             <div className={styles.main}>
               <h3 className={styles.title}>
-                <Link to={buildLink('awards', award.title)}>{award.title}</Link>
+                <Link to={buildQueryLink('awards', award.title)}>
+                  {award.title}
+                </Link>
               </h3>
               <p>
                 {award.nominations.length} nomination
