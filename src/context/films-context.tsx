@@ -1,60 +1,36 @@
-import {
-  FC,
-  PropsWithChildren,
-  createContext,
-  useContext,
-  useEffect,
-  useReducer,
-} from 'react';
+import { FC, PropsWithChildren, createContext, useContext } from 'react';
 import { useQuery } from '@/hooks/query';
-import { useQueryFilter } from '@/hooks';
-import { PER_PAGE } from '@/common/constants';
 import { fetchAllFilms, fetchRelatedFilmsList } from '@/api';
-import { filmsReducer, initialFilmsState } from './films/reducer';
-import { FilmsActionType } from './films/types';
-import { filterFilms } from './films/filter-films';
+import { FilmData, Related } from '@/common/types';
 
-const FilmsContext = createContext(initialFilmsState);
+type InitialValue = {
+  films: FilmData[] | null;
+  relatedFilms: Related | null;
+  isFilmsFetching: boolean;
+};
+
+const initialValue: InitialValue = {
+  films: null,
+  relatedFilms: null,
+  isFilmsFetching: true,
+};
+
+const FilmsContext = createContext<InitialValue>(initialValue);
 
 const useFilmsContext = () => useContext(FilmsContext);
 
 const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
-  const [state, dispatch] = useReducer(filmsReducer, initialFilmsState);
-
-  const { filterParams } = useQueryFilter();
-
-  const { data: initialFilmsList } = useQuery({
+  const { data: films, isFetching } = useQuery({
     fn: fetchAllFilms,
   });
 
-  const { data: relatedFilmsList } = useQuery({
+  const { data: relatedFilms } = useQuery({
     fn: fetchRelatedFilmsList,
   });
 
-  useEffect(() => {
-    dispatch({ type: FilmsActionType.START_LOADING });
-
-    if (initialFilmsList?.length) {
-      const { pageIndex = 0, ...params } = filterParams;
-      const filteredFilms = filterFilms(initialFilmsList, params);
-      const pageIndexNum = Number(pageIndex);
-
-      const sliceStart = PER_PAGE * pageIndexNum;
-      const sliceEnd = PER_PAGE * (pageIndexNum + 1);
-
-      const films = filteredFilms.slice(sliceStart, sliceEnd);
-      const pagesCount = Math.ceil(filteredFilms.length / PER_PAGE);
-
-      dispatch({
-        type: FilmsActionType.SET_FILMS_LIST,
-        payload: { pagesCount, films },
-      });
-    }
-  }, [initialFilmsList, filterParams]);
-
   return (
     <FilmsContext.Provider
-      value={{ ...state, initialFilmsList, relatedFilmsList }}
+      value={{ films, relatedFilms, isFilmsFetching: isFetching }}
     >
       {children}
     </FilmsContext.Provider>

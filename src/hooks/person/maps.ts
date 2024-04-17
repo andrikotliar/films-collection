@@ -7,6 +7,7 @@ const mapPositionIdToTitle = {
   [PersonRole.PRODUCER]: 'Producer',
   [PersonRole.MUSIC]: 'Composer',
   [PersonRole.CINEMATOGRAPHY]: 'Cameraman',
+  [PersonRole.SERIES_CREATOR]: 'Series creator',
   [PersonRole.UNKNOWN]: 'Crew member',
 };
 

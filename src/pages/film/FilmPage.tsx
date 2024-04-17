@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useFilmsContext } from '@/context';
-import { Loader } from '@/components';
+import { Loader, NotFound } from '@/components';
 import { FilmData } from '@/common/types';
 import { useDocumentTitle } from '@/hooks';
 import {
@@ -26,22 +26,26 @@ import { getCurrentFilm } from './helpers';
 
 const FilmPage = () => {
   const { id } = useParams();
-  const { initialFilmsList } = useFilmsContext();
-  const [film, setFilm] = useState<FilmData | null>(null);
+  const { films, isFilmsFetching } = useFilmsContext();
+  const [film, setFilm] = useState<FilmData | null>();
   const [activeIndex, setActiveIndex] = useState(0);
 
   useDocumentTitle(film?.title);
 
   useEffect(() => {
-    if (initialFilmsList?.length) {
+    if (films?.length) {
       window.scrollTo(0, 0);
-      const film = getCurrentFilm(initialFilmsList, id);
+      const film = getCurrentFilm(films, id);
       setFilm(film);
     }
-  }, [id, initialFilmsList]);
+  }, [id, films]);
+
+  if (film === undefined || isFilmsFetching) {
+    return <Loader isFullPage />;
+  }
 
   if (film === null) {
-    return <Loader isFullPage />;
+    return <NotFound message="Film not found" />;
   }
 
   return (

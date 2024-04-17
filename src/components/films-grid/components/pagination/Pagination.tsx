@@ -11,7 +11,7 @@ type Props = {
 
 const Pagination: FC<Props> = ({ count }) => {
   const { filterParams, setSearchParams } = useQueryFilter();
-  const { initialFilmsList } = useFilmsContext();
+  const { films } = useFilmsContext();
 
   const activePage = useMemo(() => {
     if (!filterParams.pageIndex) {
@@ -51,7 +51,7 @@ const Pagination: FC<Props> = ({ count }) => {
         <span className={styles.currentState}>
           {activePage * PER_PAGE + 1} - {(activePage + 1) * PER_PAGE}
         </span>{' '}
-        <span>/ {initialFilmsList?.length ?? 0} films</span>
+        <span>/ {films?.length ?? 0} films</span>
       </div>
     </div>
   );

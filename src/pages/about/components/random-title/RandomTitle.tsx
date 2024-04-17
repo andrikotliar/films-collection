@@ -3,11 +3,10 @@ import { Link } from 'react-router-dom';
 import { Loader } from '@/components';
 import { buildMediaPath, buildRouterLink } from '@/helpers';
 import { useRandomTitle } from './hooks';
-
 import styles from './RandomTitle.module.css';
 
 const RandomTitle = () => {
-  const { randomTitle, isTitleLoading } = useRandomTitle();
+  const { randomTitle, isFilmsFetching } = useRandomTitle();
 
   const directors = useMemo(() => {
     const directors = randomTitle?.crew.find(
@@ -21,12 +20,8 @@ const RandomTitle = () => {
     return directors.people.map((person) => person.name).join(', ');
   }, [randomTitle]);
 
-  if (isTitleLoading) {
-    return (
-      <div className={styles.wrapper}>
-        <Loader />
-      </div>
-    );
+  if (isFilmsFetching) {
+    return <Loader />;
   }
 
   if (!randomTitle) {

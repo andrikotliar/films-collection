@@ -16,12 +16,12 @@ const ActorsContext = createContext(initialValue);
 const useActorsContext = () => useContext(ActorsContext);
 
 const ActorsProvider: FC<PropsWithChildren> = ({ children }) => {
-  const { data } = useQuery({
+  const { data: actors } = useQuery({
     fn: getActorsList,
   });
 
   return (
-    <ActorsContext.Provider value={{ actors: data }}>
+    <ActorsContext.Provider value={{ actors }}>
       {children}
     </ActorsContext.Provider>
   );

@@ -1,17 +1,13 @@
 import styles from './FilmsSection.module.css';
-import { useFilmsContext } from '@/context';
 import { FilmsGrid } from '@/components';
+import { useFilteredFilms } from '@/hooks';
 
 const FilmsSection = () => {
-  const { films, isFilmsLoading, pagesCount } = useFilmsContext();
+  const { films, pagesCount } = useFilteredFilms();
 
   return (
     <div className={styles.filmsSection}>
-      <FilmsGrid
-        films={films}
-        isLoading={isFilmsLoading}
-        pagesCount={pagesCount}
-      />
+      <FilmsGrid films={films} pagesCount={pagesCount} />
     </div>
   );
 };

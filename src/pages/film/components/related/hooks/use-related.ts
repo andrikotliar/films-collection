@@ -3,10 +3,10 @@ import { splitAt } from '@/helpers';
 import { useMemo } from 'react';
 
 const useRelated = (key: string, filmId: string) => {
-  const { relatedFilmsList } = useFilmsContext();
+  const { relatedFilms } = useFilmsContext();
 
   const data = useMemo(() => {
-    const currentList = relatedFilmsList?.[key];
+    const currentList = relatedFilms?.[key];
 
     if (!currentList) {
       return null;
@@ -30,7 +30,7 @@ const useRelated = (key: string, filmId: string) => {
       remakes: currentList.remakes,
       originals: currentList.originals,
     };
-  }, [key, relatedFilmsList]);
+  }, [key, relatedFilms]);
 
   return data;
 };

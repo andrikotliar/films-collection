@@ -8,11 +8,11 @@ import { ActorsProvider, FilmsProvider } from './context';
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
-      <ActorsProvider>
-        <FilmsProvider>
+      <FilmsProvider>
+        <ActorsProvider>
           <App />
-        </FilmsProvider>
-      </ActorsProvider>
+        </ActorsProvider>
+      </FilmsProvider>
     </BrowserRouter>
   </React.StrictMode>,
 );

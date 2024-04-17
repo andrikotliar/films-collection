@@ -6,14 +6,9 @@ const fetchAllFilms = () =>
     url: '/database/database.json',
   });
 
-const fetchFilmIds = () =>
-  api<string[]>({
-    url: '/database/film-ids.json',
-  });
-
 const fetchRelatedFilmsList = () =>
   api<Related>({
     url: '/database/related.json',
   });
 
-export { fetchAllFilms, fetchFilmIds, fetchRelatedFilmsList };
+export { fetchAllFilms, fetchRelatedFilmsList };

@@ -3,7 +3,7 @@ import { ActorsList, FilmData } from '@/common/types';
 import { FilterFilmsOptions, Person } from './types';
 import { mapPositionIdToTitle } from './maps';
 
-const filterFilms = ({ role, currentId, films }: FilterFilmsOptions) => {
+const findPersonFilms = ({ role, currentId, films }: FilterFilmsOptions) => {
   if (role === PersonRole.ACTOR) {
     return films.filter((film) => {
       return film.cast.find(({ actorId }) => actorId === currentId);
@@ -44,4 +44,4 @@ const getPersonData = (
   };
 };
 
-export { filterFilms, getStatisticValues, getPersonData };
+export { findPersonFilms, getStatisticValues, getPersonData };

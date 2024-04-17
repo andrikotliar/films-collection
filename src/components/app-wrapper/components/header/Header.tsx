@@ -32,7 +32,7 @@ const Header = () => {
         <Link
           to={{
             pathname: '/',
-            search: location.search,
+            search: location.pathname === '/' ? location.search : undefined,
           }}
           className={styles.logoWrapper}
         >
