@@ -5,6 +5,7 @@ enum PersonRole {
   PRODUCER = 'producer',
   MUSIC = 'music',
   CINEMATOGRAPHY = 'cinematography',
+  SERIES_CREATOR = 'series_creator',
   UNKNOWN = 'unknown',
 }
 
