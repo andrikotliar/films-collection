@@ -7,3 +7,4 @@ export { debounce } from './debounce';
 export { splitAt } from './split-at';
 export { handleImageError } from './handle-image-error';
 export { buildRouterLink } from './build-router-link';
+export { filterFilms } from './filter-films';

@@ -8,6 +8,7 @@ type Person = {
 
 type Values = {
   films: FilmData[];
+  totalFilmsCount: number;
   pagesCount: number;
   genres: string[];
   years: string[];

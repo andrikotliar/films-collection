@@ -13,22 +13,14 @@
   background-color: #fafafa;
 }
 
-.row {
-  border-bottom: var(--app-border);
-  padding: 15px;
+@media (max-width: 960px) {
+  .profile {
+    width: 180px;
+  }
 }
 
-.row:last-child {
-  border-bottom: 0;
-}
-
-.rowTitle {
-  margin-bottom: 5px;
-  line-height: 1;
-}
-
-.links {
-  display: flex;
-  gap: 5px;
-  flex-wrap: wrap;
+@media (max-width: 760px) {
+  .profile {
+    width: 100%;
+  }
 }

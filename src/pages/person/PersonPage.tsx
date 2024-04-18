@@ -11,10 +11,8 @@ const PersonPage = () => {
     position: PersonRole;
   }>();
 
-  const { films, pagesCount, genres, years, person } = usePersonFilms(
-    position,
-    personId,
-  );
+  const { films, totalFilmsCount, pagesCount, genres, years, person } =
+    usePersonFilms(position, personId);
 
   if (!person) {
     return <NotFound message="Person with given ID is not found" />;
@@ -26,7 +24,7 @@ const PersonPage = () => {
         {person.position} <span>{person.name}</span>
       </h1>
       <div className={styles.wrapper}>
-        <Profile genres={genres} years={years} filmsCount={films.length} />
+        <Profile genres={genres} years={years} filmsCount={totalFilmsCount} />
         <FilmsGrid films={films} pagesCount={pagesCount} />
       </div>
     </div>

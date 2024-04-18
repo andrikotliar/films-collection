@@ -16,3 +16,15 @@
 .title span {
   color: var(--main-color);
 }
+
+@media (max-width: 960px) {
+  .wrapper {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 760px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}
