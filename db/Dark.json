@@ -307,9 +307,14 @@
   ],
   "awards": [
     {
-      "title": "Jupyter",
+      "title": "Jupiter",
       "nominations": [
-        "Best German TV Actor"
+        {
+          "title": "Best German TV Actor",
+          "category": "cast",
+          "nominee": "Louis Hofmann",
+          "year": 2018
+        }
       ]
     }
   ],

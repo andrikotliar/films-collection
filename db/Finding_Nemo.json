@@ -142,20 +142,37 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Animated Feature"
+        {
+          "title": "Best Animated Feature",
+          "category": "best_movie",
+          "year": 2004
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Animated Film",
-        "Best Supporting Actress"
+        {
+          "title": "Best Animated Film",
+          "category": "best_movie",
+          "year": 2004
+        },
+        {
+          "title": "Best Supporting Actress",
+          "category": "cast",
+          "nominee": "Ellen DeGeneres",
+          "year": 2004
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Animated Feature"
+        {
+          "title": "Best Animated Feature",
+          "category": "best_movie",
+          "year": 2004
+        }
       ]
     }
   ],

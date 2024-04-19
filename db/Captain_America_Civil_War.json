@@ -196,7 +196,13 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Performance by a Younger Actor (Tom Holland)"
+        {
+          "title": "Best Performance by a Younger Actor",
+          "category": "cast",
+          "nominee": "Tom Holland",
+          "comment": "as Peter Parker / Spider-Man",
+          "year": 2017
+        }
       ]
     }
   ],

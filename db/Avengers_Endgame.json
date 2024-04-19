@@ -212,27 +212,76 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Comic-to-Film Motion Picture",
-        "Best Actor (Robert Downey Jr.)",
-        "Best Production Design",
-        "Best Make-Up",
-        "Best Editing",
-        "Best Special Effects"
+        {
+          "title": "Best Comic-to-Film Motion Picture",
+          "category": "adaptation",
+          "year": 2019
+        },
+        {
+          "title": "Best Actor",
+          "category": "cast",
+          "nominee": "Robert Downey Jr.",
+          "year": 2019
+        },
+        {
+          "title": "Best Production Design",
+          "category": "production_design",
+          "year": 2019
+        },
+        {
+          "title": "Best Make-Up",
+          "category": "make_up",
+          "year": 2019
+        },
+        {
+          "title": "Best Editing",
+          "category": "editing",
+          "year": 2019
+        },
+        {
+          "title": "Best Special Effects",
+          "category": "special_effects",
+          "year": 2019
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Movie",
-        "Best Hero (Robert Downey Jr. as Tony Stark)",
-        "Best Villain (Josh Brolin as Thanos)"
+        {
+          "title": "Best Movie",
+          "category": "best_movie",
+          "year": 2019
+        },
+        {
+          "title": "Best Hero",
+          "category": "cast",
+          "nominee": "Robert Downey Jr.",
+          "comment": "as Tony Stark / Iron Man",
+          "year": 2019
+        },
+        {
+          "title": "Best Villain",
+          "category": "cast",
+          "nominee": "Josh Brolin",
+          "comment": "as Thanos",
+          "year": 2019
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Visual Effects",
-        "Best Action Movie"
+        {
+          "title": "Best Visual Effects",
+          "category": "visual_effects",
+          "year": 2020
+        },
+        {
+          "title": "Best Action Movie",
+          "category": "genre",
+          "year": 2020
+        }
       ]
     }
   ],

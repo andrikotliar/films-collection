@@ -150,13 +150,21 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Animated Feature Film of the Year"
+        {
+          "title": "Best Animated Feature Film of the Year",
+          "category": "cast",
+          "year": 2007
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Animated Feature Film"
+        {
+          "title": "Best Animated Feature Film",
+          "category": "best_movie",
+          "year": 2007
+        }
       ]
     }
   ],

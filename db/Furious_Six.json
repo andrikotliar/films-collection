@@ -160,7 +160,11 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Action/Adventure Film"
+        {
+          "title": "Best Action/Adventure Film",
+          "category": "genre",
+          "year": 2016
+        }
       ]
     }
   ],

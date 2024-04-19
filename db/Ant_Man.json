@@ -159,7 +159,11 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Comic-to-Film Motion Picture"
+        {
+          "title": "Best Comic-to-Film Motion Picture",
+          "category": "adaptation",
+          "year": 2016
+        }
       ]
     }
   ],

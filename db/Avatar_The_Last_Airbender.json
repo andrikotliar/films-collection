@@ -294,27 +294,55 @@
   ],
   "awards": [
     {
-      "title": "Emmy",
+      "title": "Primetime Emmy",
       "nominations": [
-        "Outstanding Individual Achievement in Animation"
+        {
+          "title": "Outstanding Individual Achievement in Animation",
+          "category": "animation",
+          "year": 2007
+        }
       ]
     },
     {
       "title": "Annie",
       "nominations": [
-        "Best Animated Television Production Produced for Children",
-        "Best Directing in an Animated Television Production or Short Form",
-        "Best Character Animation in a Television Production",
-        "Best Directing in an Animated Television Production",
-        "Best Storyboarding in an Animated Television Production",
-        "Best Animated Television Production"
+        {
+          "title": "Best Animated Television Production Produced for Children",
+          "year": 2009,
+          "category": "best_movie"
+        },
+        {
+          "title": "Best Directing in an Animated Television Production or Short Form",
+          "category": "director",
+          "comment": "Joaquim Dos Santos. For episode \"Sozin's Comet: Part 3 - Into the Inferno\" (season 3, episode 20)",
+          "year": 2009
+        },
+        {
+          "title": "Best Character Animation in a Television Production",
+          "category": "animation",
+          "comment": "Jae-Myung Yoo. For episode \"The Blind Bandit\" (season 2 episode 6)",
+          "year": 2007
+        },
+        {
+          "title": "Best Directing in an Animated Television Production",
+          "category": "director",
+          "comment": "Giancarlo Volpe. For episode \"The Drill\" (season 2 episode 13)",
+          "year": 2007
+        },
+        {
+          "title": "Best Storyboarding in an Animated Television Production",
+          "category": "director",
+          "comment": "Lauren MacMullan. For episode \"The Deserter\" (season 1 episode 16)",
+          "year": 2006
+        },
+        {
+          "title": "Best Animated Television Production",
+          "category": "best_movie",
+          "year": 2006
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "The Last Airbender",
-    "part": 1
-  },
   "year": [
     2005,
     2006,
@@ -359,5 +387,6 @@
     "Follow the journey of Aang, the last Airbender and the Avatar, as he awakens from a century-long slumber to a world ravaged by war. With the help of new friends Katara and Sokka, he embarks on a quest to master the elements and bring balance to a world torn by the Fire Nation's aggression.",
     "Aang continues his training as the Avatar, facing new challenges and adventures. The group confronts the Earth Kingdom's struggles, uncovers the secrets of the spirit world, and Aang delves deeper into his connection with the Avatar State, all while the Fire Nation intensifies its pursuit.",
     "Aang and his friends prepare for the ultimate showdown with the Fire Nation and its tyrannical ruler, Fire Lord Ozai. The group faces personal dilemmas and tough choices, while the world holds its breath, waiting for the Avatar's triumph and the restoration of balance."
-  ]
+  ],
+  "relatedTitlesKey": "383d9ffb-1f12-4af6-85b2-f423112488d8"
 }

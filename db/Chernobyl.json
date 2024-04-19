@@ -139,35 +139,93 @@
   ],
   "awards": [
     {
-      "title": "Emmy",
+      "title": "Primetime Emmy",
       "nominations": [
-        "Outstanding Limited Series",
-        "Outstanding Directing for a Limited Series",
-        "Outstanding Writing for a Limited Series",
-        "Outstanding Cinematography for a Limited Series or Movie",
-        "Outstanding Production Design for a Narrative Period or Fantasy Program (One Hour or More)",
-        "Outstanding Music Composition for a Limited Series",
-        "Movie",
-        "or Special (Original Dramatic Score)",
-        "Outstanding Single-Camera Picture Editing for a Limited Series or Movie",
-        "Outstanding Sound Mixing for a Limited Series or Movie",
-        "Outstanding Sound Editing for a Limited Series",
-        "Movie or Special",
-        "Outstanding Special Visual Effects in a Supporting Role,"
+        {
+          "title": "Outstanding Limited Series",
+          "category": "best_movie",
+          "year": 2019
+        },
+        {
+          "title": "Outstanding Directing for a Limited Series",
+          "category": "director",
+          "year": 2019
+        },
+        {
+          "title": "Outstanding Writing for a Limited Series",
+          "category": "screenplay",
+          "year": 2019
+        },
+        {
+          "title": "Outstanding Cinematography for a Limited Series or Movie",
+          "category": "cinematography",
+          "year": 2019
+        },
+        {
+          "title": "Outstanding Production Design for a Narrative Period or Fantasy Program (One Hour or More)",
+          "category": "production_design",
+          "year": 2019
+        },
+        {
+          "title": "Outstanding Music Composition for a Limited Series, Movie or Special (Original Dramatic Score)",
+          "category": "music",
+          "year": 2019
+        },
+        {
+          "title": "Outstanding Single-Camera Picture Editing for a Limited Series or Movie",
+          "category": "cinematography",
+          "year": 2019
+        },
+        {
+          "title": "Outstanding Sound Mixing for a Limited Series or Movie",
+          "category": "sound_effects",
+          "year": 2019
+        },
+        {
+          "title": "Outstanding Sound Editing for a Limited Series, Movie or Special",
+          "category": "sound_effects",
+          "year": 2019
+        },
+        {
+          "title": "Outstanding Special Visual Effects in a Supporting Role,",
+          "category": "visual_effects",
+          "year": 2019
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Leading Actor (Jared Harris)",
-        "Mini-Series",
-        "Supporting Actor (Stellan Skarsgård)"
+        {
+          "title": "Leading Actor",
+          "category": "cast",
+          "nominee": "Jared Harris",
+          "year": 2020
+        },
+        {
+          "title": "Mini-Series",
+          "year": 2020,
+          "category": ""
+        },
+        {
+          "title": "Supporting Actor",
+          "category": "cast",
+          "nominee": "Stellan Skarsgard",
+          "comment": "as Boris Shcherbina",
+          "year": 2020
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Supporting Actor in a Limited Series or Movie Made for Television (Stellan Skarsgård)"
+        {
+          "title": "Best Supporting Actor in a Limited Series or Movie Made for Television",
+          "category": "cast",
+          "nominee": "Stellan Skarsgard",
+          "comment": "as Boris Shcherbina",
+          "year": 2020
+        }
       ]
     }
   ],
@@ -193,5 +251,10 @@
   "rating": 2,
   "description": [
     "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes."
-  ]
+  ],
+  "meta": {
+    "watchCount": {
+      "real": 2
+    }
+  }
 }

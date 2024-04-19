@@ -124,8 +124,17 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Comic-to-Film Motion Picture",
-        "Best Supporting Actress (Tilda Swinton)"
+        {
+          "title": "Best Comic-to-Film Motion Picture",
+          "category": "adaptation",
+          "year": 2017
+        },
+        {
+          "title": "Best Supporting Actress",
+          "category": "cast",
+          "nominee": "Tilda Swinton",
+          "year": 2017
+        }
       ]
     }
   ],

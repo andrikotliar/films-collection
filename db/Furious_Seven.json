@@ -171,13 +171,22 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Action/Adventure Film"
+        {
+          "title": "Best Action/Adventure Film",
+          "category": "genre",
+          "year": 2016
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Song"
+        {
+          "title": "Best Song",
+          "year": 2016,
+          "comment": "Song: See You Again",
+          "category": ""
+        }
       ]
     }
   ],

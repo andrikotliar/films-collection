@@ -169,17 +169,42 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Actor (Chris Pratt)",
-        "Best Director",
-        "Best Make-Up",
-        "Best Comic-to-Film Motion Picture "
+        {
+          "title": "Best Actor",
+          "category": "cast",
+          "nominee": "Chris Pratt",
+          "year": 2015
+        },
+        {
+          "title": "Best Director",
+          "category": "director",
+          "year": 2015
+        },
+        {
+          "title": "Best Make-Up",
+          "category": "make_up",
+          "year": 2015
+        },
+        {
+          "title": "Best Comic-to-Film Motion Picture",
+          "category": "adaptation",
+          "year": 2015
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Hair & Makeup",
-        "Best Action Movie"
+        {
+          "title": "Best Hair & Makeup",
+          "category": "make_up",
+          "year": 2015
+        },
+        {
+          "title": "Best Action Movie",
+          "category": "genre",
+          "year": 2015
+        }
       ]
     }
   ],

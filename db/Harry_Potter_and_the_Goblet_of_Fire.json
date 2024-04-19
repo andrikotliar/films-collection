@@ -142,7 +142,11 @@
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Production Design"
+        {
+          "title": "Best Production Design",
+          "category": "production_design",
+          "year": 2006
+        }
       ]
     }
   ],

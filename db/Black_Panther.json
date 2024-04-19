@@ -169,42 +169,114 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Achievement in Music Written for Motion Pictures (Original Score)",
-        "Best Achievement in Costume Design",
-        "Best Achievement in Production Design"
+        {
+          "title": "Best Achievement in Music Written for Motion Pictures (Original Score)",
+          "category": "music",
+          "year": 2019
+        },
+        {
+          "title": "Best Achievement in Costume Design",
+          "category": "costumes",
+          "year": 2019
+        },
+        {
+          "title": "Best Achievement in Production Design",
+          "category": "production_design",
+          "year": 2019
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Achievement in Special Visual Effects"
+        {
+          "title": "Best Achievement in Special Visual Effects",
+          "category": "visual_effects",
+          "year": 2019
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Comic-to-Film Motion Picture",
-        "Best Director",
-        "Best Supporting Actress",
-        "Best Production Design",
-        "Best Make-Up"
+        {
+          "title": "Best Comic-to-Film Motion Picture",
+          "category": "adaptation",
+          "year": 2018
+        },
+        {
+          "title": "Best Director",
+          "category": "director",
+          "year": 2018
+        },
+        {
+          "title": "Best Supporting Actress",
+          "category": "cast",
+          "nominee": "Danai Gurira",
+          "comment": "as Okoye",
+          "year": 2018
+        },
+        {
+          "title": "Best Production Design",
+          "category": "production_design",
+          "year": 2018
+        },
+        {
+          "title": "Best Make-Up",
+          "category": "make_up",
+          "year": 2018
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Movie of the Year",
-        "Best Performance in a Movie",
-        "Best Hero",
-        "Best Villain"
+        {
+          "title": "Movie of the Year",
+          "category": "best_of_year",
+          "year": 2018
+        },
+        {
+          "title": "Best Performance in a Movie",
+          "category": "cast",
+          "nominee": "Chadwick Boseman",
+          "comment": "as Black Panther",
+          "year": 2018
+        },
+        {
+          "title": "Best Hero",
+          "category": "cast",
+          "nominee": "Chadwick Boseman",
+          "comment": "as Black Panther",
+          "year": 2018
+        },
+        {
+          "title": "Best Villain",
+          "category": "cast",
+          "nominee": "Michael B. Jordan",
+          "comment": "as Erik Killmonger",
+          "year": 2018
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Visual Effects",
-        "Best Production Design",
-        "Best Costume Design"
+        {
+          "title": "Best Visual Effects",
+          "category": "visual_effects",
+          "year": 2019
+        },
+        {
+          "title": "Best Production Design",
+          "category": "production_design",
+          "year": 2019
+        },
+        {
+          "title": "Best Costume Design",
+          "category": "costumes",
+          "year": 2019
+        }
       ]
     }
   ],

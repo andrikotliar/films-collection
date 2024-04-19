@@ -178,15 +178,33 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Fantasy Film",
-        "Best Actor",
-        "Best Writing"
+        {
+          "title": "Best Fantasy Film",
+          "category": "genre",
+          "year": 2006
+        },
+        {
+          "title": "Best Actor",
+          "nominee": "Christian Bale",
+          "year": 2006,
+          "category": "cast"
+        },
+        {
+          "title": "Best Writing",
+          "year": 2006,
+          "category": "screenplay"
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Hero"
+        {
+          "title": "Best Hero",
+          "category": "cast",
+          "nominee": "Christian Bale",
+          "year": 2006
+        }
       ]
     }
   ],

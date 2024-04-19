@@ -112,7 +112,11 @@
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Special Effects"
+        {
+          "title": "Best Special Effects",
+          "category": "special_effects",
+          "year": 1990
+        }
       ]
     }
   ],

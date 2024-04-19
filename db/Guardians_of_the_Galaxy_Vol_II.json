@@ -166,7 +166,11 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Special Effects"
+        {
+          "title": "Best Special Effects",
+          "category": "special_effects",
+          "year": 2018
+        }
       ]
     }
   ],

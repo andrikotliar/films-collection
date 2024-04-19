@@ -169,13 +169,22 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Editing"
+        {
+          "title": "Best Editing",
+          "category": "editing",
+          "year": 2015
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Actress in an Action Movie"
+        {
+          "title": "Best Actress in an Action Movie",
+          "category": "cast",
+          "nominee": "Emily Blunt",
+          "year": 2015
+        }
       ]
     }
   ],

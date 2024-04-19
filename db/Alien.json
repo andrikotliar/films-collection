@@ -140,22 +140,52 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Visual Effects"
+        {
+          "title": "Best Visual Effects",
+          "category": "visual_effects",
+          "year": 1980
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Production Design",
-        "Best Sound Track"
+        {
+          "title": "Best Production Design",
+          "category": "production_design",
+          "year": 1980
+        },
+        {
+          "title": "Best Sound Track",
+          "category": "sound_effects",
+          "year": 1980
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Science Fiction Film",
-        "Best Supporting Actress",
-        "Best Director"
+        {
+          "title": "Best DVD Collection",
+          "category": "dvd",
+          "year": 2011
+        },
+        {
+          "title": "Best Science Fiction Film",
+          "category": "genre",
+          "year": 1980
+        },
+        {
+          "title": "Best Supporting Actress",
+          "category": "cast",
+          "nominee": "Veronica Cartwright",
+          "year": 1980
+        },
+        {
+          "title": "Best Director",
+          "category": "director",
+          "year": 1980
+        }
       ]
     }
   ],

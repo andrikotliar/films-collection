@@ -114,14 +114,26 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Horror Film",
-        "Best Writing"
+        {
+          "title": "Best Horror Film",
+          "year": 2019,
+          "category": "genre"
+        },
+        {
+          "title": "Best Writing",
+          "category": "screenplay",
+          "year": 2019
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Sci-Fi/Horror Movie"
+        {
+          "title": "Best Sci-Fi/Horror Movie",
+          "year": 2019,
+          "category": "genre"
+        }
       ]
     }
   ],

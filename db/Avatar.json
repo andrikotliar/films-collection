@@ -152,49 +152,151 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Achievement in Cinematography",
-        "Best Achievement in Visual Effects",
-        "Best Achievement in Art Direction"
+        {
+          "title": "Best Achievement in Cinematography",
+          "category": "cinematography",
+          "year": 2010
+        },
+        {
+          "title": "Best Achievement in Visual Effects",
+          "category": "visual_effects",
+          "year": 2010
+        },
+        {
+          "title": "Best Achievement in Art Direction",
+          "category": "production_design",
+          "year": 2010
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Production Design",
-        "Best Special Visual Effects"
+        {
+          "title": "Best Production Design",
+          "category": "production_design",
+          "year": 2010
+        },
+        {
+          "title": "Best Special Visual Effects",
+          "category": "visual_effects",
+          "year": 2010
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Actor (Sam Worthington)",
-        "Best Actress (Zoe Saldana)",
-        "Best Supporting Actor (Stephen Lang)",
-        "Best Supporting Actress (Sigourney Weaver)",
-        "Best Director",
-        "Best Writing",
-        "Best Music",
-        "Best Production Design",
-        "Best Science Fiction Film",
-        "Best Special Effects"
+        {
+          "title": "Best DVD Special Edition",
+          "category": "dvd",
+          "year": 2011,
+          "comment": "For the \"Extended Collector's Edition\" release."
+        },
+        {
+          "title": "Best Actor",
+          "category": "cast",
+          "nominee": "Sam Worthington",
+          "year": 2010
+        },
+        {
+          "title": "Best Actress",
+          "category": "cast",
+          "nominee": "Zoe Saldana",
+          "year": 2010
+        },
+        {
+          "title": "Best Supporting Actor",
+          "category": "cast",
+          "nominee": "Stephen Lang",
+          "year": 2010
+        },
+        {
+          "title": "Best Supporting Actress",
+          "category": "cast",
+          "nominee": "Sigourney Weaver",
+          "year": 2010
+        },
+        {
+          "title": "Best Director",
+          "category": "director",
+          "year": 2010
+        },
+        {
+          "title": "Best Writing",
+          "category": "screenplay",
+          "year": 2010
+        },
+        {
+          "title": "Best Music",
+          "category": "music",
+          "year": 2010
+        },
+        {
+          "title": "Best Production Design",
+          "category": "production_design",
+          "year": 2010
+        },
+        {
+          "title": "Best Science Fiction Film",
+          "category": "genre",
+          "year": 2010
+        },
+        {
+          "title": "Best Special Effects",
+          "category": "special_effects",
+          "year": 2010
+        }
       ]
     },
     {
       "title": "Golden Globe",
       "nominations": [
-        "Best Director - Motion Picture",
-        "Best Motion Picture - Drama"
+        {
+          "title": "Best Director - Motion Picture",
+          "category": "director",
+          "year": 2010
+        },
+        {
+          "title": "Best Motion Picture - Drama",
+          "category": "genre",
+          "year": 2010
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Cinematography",
-        "Best Editing",
-        "Best Art Direction",
-        "Best Sound",
-        "Best Visual Effects",
-        "Best Action Movie"
+        {
+          "title": "Best Cinematography",
+          "category": "cinematography",
+          "year": 2010
+        },
+        {
+          "title": "Best Editing",
+          "category": "editing",
+          "year": 2010
+        },
+        {
+          "title": "Best Art Direction",
+          "category": "art_direction",
+          "year": 2010
+        },
+        {
+          "title": "Best Sound",
+          "category": "sound_effects",
+          "year": 2010
+        },
+        {
+          "title": "Best Visual Effects",
+          "category": "visual_effects",
+          "year": 2010
+        },
+        {
+          "title": "Best Action Movie",
+          "category": "genre",
+          "year": 2010
+        }
       ]
     }
   ],

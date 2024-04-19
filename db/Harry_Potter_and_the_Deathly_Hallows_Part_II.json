@@ -140,13 +140,21 @@
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Special Visual Effects"
+        {
+          "title": "Best Special Visual Effects",
+          "category": "visual_effects",
+          "year": 2012
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Fantasy Film"
+        {
+          "title": "Best Fantasy Film",
+          "category": "genre",
+          "year": 2012
+        }
       ]
     }
   ],
