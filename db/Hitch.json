@@ -118,7 +118,12 @@
     {
       "title": "Jupiter",
       "nominations": [
-        "Best International Actor"
+        {
+          "title": "Best International Actor",
+          "category": "cast",
+          "nominee": "Will Smith",
+          "year": 2005
+        }
       ]
     }
   ],

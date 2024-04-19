@@ -444,15 +444,24 @@
   ],
   "awards": [
     {
-      "title": "Emmy",
+      "title": "Primetime Emmy",
       "nominations": [
-        "Outstanding Special Visual Effects for a Series"
+        {
+          "title": "Outstanding Special Visual Effects for a Series",
+          "category": "visual_effects",
+          "comment": "For episodes \"The Second Coming\" and \"The Butterfly Effect\"",
+          "year": 2009
+        }
       ]
     },
     {
-      "title": "BAFTA",
+      "title": "BAFTA TV",
       "nominations": [
-        "Best International"
+        {
+          "title": "Best International",
+          "category": "best_movie",
+          "year": 2008
+        }
       ]
     }
   ],

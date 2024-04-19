@@ -129,9 +129,23 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Comic-to-Film Motion Picture",
-        "Best Actor",
-        "Best Supporting Actor"
+        {
+          "title": "Best Comic-to-Film Motion Picture",
+          "category": "adaptation",
+          "year": 2014
+        },
+        {
+          "title": "Best Actor",
+          "category": "cast",
+          "nominee": "Robert Downey Jr.",
+          "year": 2014
+        },
+        {
+          "title": "Best Supporting Actor",
+          "category": "cast",
+          "nominee": "Ben Kingsley",
+          "year": 2014
+        }
       ]
     }
   ],
@@ -149,5 +163,10 @@
   "description": [
     "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution."
   ],
-  "relatedTitlesKey": "71a22d78-aaf0-4932-a476-938a0788c8ce"
+  "relatedTitlesKey": "71a22d78-aaf0-4932-a476-938a0788c8ce",
+  "meta": {
+    "watchCount": {
+      "real": 2
+    }
+  }
 }

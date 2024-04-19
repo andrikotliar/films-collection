@@ -131,15 +131,31 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Visual Effects"
+        {
+          "title": "Best Visual Effects",
+          "category": "visual_effects",
+          "year": 1997
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Science Fiction Film",
-        "Best Director",
-        "Best Special Effects"
+        {
+          "title": "Best Science Fiction Film",
+          "category": "genre",
+          "year": 1997
+        },
+        {
+          "title": "Best Director",
+          "category": "director",
+          "year": 1997
+        },
+        {
+          "title": "Best Special Effects",
+          "category": "special_effects",
+          "year": 1997
+        }
       ]
     }
   ],
@@ -156,5 +172,10 @@
   "rating": 2,
   "description": [
     "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive."
-  ]
+  ],
+  "meta": {
+    "watchCount": {
+      "approx": 10
+    }
+  }
 }

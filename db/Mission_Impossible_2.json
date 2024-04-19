@@ -134,10 +134,30 @@
   "budget": 125000000,
   "awards": [
     {
+      "title": "Critics Choice",
+      "nominations": [
+        {
+          "title": "Best Score",
+          "year": 2001,
+          "category": "music"
+        }
+      ]
+    },
+    {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Male Performance",
-        "Best Action Sequence"
+        {
+          "title": "Best Male Performance",
+          "year": 2001,
+          "category": "cast",
+          "nominee": "Tom Cruise"
+        },
+        {
+          "title": "Best Action Sequence",
+          "year": 2001,
+          "category": "action",
+          "comment": "For the motorcycle chase."
+        }
       ]
     }
   ],

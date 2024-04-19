@@ -177,13 +177,23 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Performance by a Younger Actor (Ty Simpkins)"
+        {
+          "title": "Best Performance by a Younger Actor",
+          "category": "cast",
+          "nominee": "Ty Simpkins",
+          "year": 2016
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Action Performance"
+        {
+          "title": "Best Action Performance",
+          "year": 2016,
+          "category": "cast",
+          "nominee": "Chris Pratt"
+        }
       ]
     }
   ],

@@ -127,30 +127,67 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Achievement in Visual Effects"
+        {
+          "title": "Best Achievement in Visual Effects",
+          "category": "visual_effects",
+          "year": 2015
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Special Visual Effects"
+        {
+          "title": "Best Special Visual Effects",
+          "category": "special_effects",
+          "year": 2015
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Science Fiction Film",
-        "Best Production Design",
-        "Best Special Effects",
-        "Best Performance by a Younger Actor",
-        "Best Writing",
-        "Best Music"
+        {
+          "title": "Best Science Fiction Film",
+          "category": "genre",
+          "year": 2015
+        },
+        {
+          "title": "Best Production Design",
+          "category": "production_design",
+          "year": 2015
+        },
+        {
+          "title": "Best Special Effects",
+          "category": "special_effects",
+          "year": 2015
+        },
+        {
+          "title": "Best Performance by a Younger Actor",
+          "category": "cast",
+          "nominee": "Mackenzie Foy",
+          "year": 2015
+        },
+        {
+          "title": "Best Writing",
+          "category": "screenplay",
+          "year": 2015
+        },
+        {
+          "title": "Best Music",
+          "category": "music",
+          "year": 2015
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Sci-Fi/Horror Movie"
+        {
+          "title": "Best Sci-Fi/Horror Movie",
+          "category": "genre",
+          "year": 2015
+        }
       ]
     }
   ],

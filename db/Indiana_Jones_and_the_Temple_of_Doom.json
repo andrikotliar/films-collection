@@ -117,26 +117,48 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Visual Effects"
+        {
+          "title": "Best Visual Effects",
+          "category": "visual_effects",
+          "year": 1985
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Special Visual Effects"
+        {
+          "title": "Best Special Visual Effects",
+          "category": "special_effects",
+          "year": 1985
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best DVD Collection"
+        {
+          "title": "Best DVD Collection",
+          "category": "dvd",
+          "year": 2004,
+          "comment": "For \"The Adventures of Indiana Jones DVD Collection\""
+        }
       ]
     },
     {
       "title": "Jupiter",
       "nominations": [
-        "Best International Actor",
-        "Best International Film"
+        {
+          "title": "Best International Actor",
+          "category": "cast",
+          "nominee": "Harrison Ford",
+          "year": 1985
+        },
+        {
+          "title": "Best International Film",
+          "category": "best_movie",
+          "year": 1985
+        }
       ]
     }
   ],

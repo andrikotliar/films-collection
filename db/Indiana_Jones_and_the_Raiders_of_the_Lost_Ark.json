@@ -125,37 +125,100 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Art Direction-Set Decoration",
-        "Best Sound",
-        "Best Film Editing",
-        "Best Effects",
-        "Visual Effects"
+        {
+          "title": "Best Art Direction-Set Decoration",
+          "category": "art_direction",
+          "year": 1982
+        },
+        {
+          "title": "Best Sound",
+          "category": "sound_effects",
+          "year": 1982
+        },
+        {
+          "title": "Best Film Editing",
+          "category": "editing",
+          "year": 1982
+        },
+        {
+          "title": "Best Effects, Visual Effects",
+          "category": "visual_effects",
+          "year": 1982
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Production Design/Art Direction"
+        {
+          "title": "Best Production Design/Art Direction",
+          "category": "production_design",
+          "year": 1982
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best DVD Collection",
-        "Best Fantasy Film",
-        "Best Actor (Harrison Ford)",
-        "Best Actress (Karen Allen)",
-        "Best Director",
-        "Best Writing",
-        "Best Music",
-        "Best Special Effects"
+        {
+          "title": "Best DVD Collection",
+          "category": "dvd",
+          "year": 2004,
+          "comment": "For \"The Adventures of Indiana Jones DVD Collection\""
+        },
+        {
+          "title": "Best Fantasy Film",
+          "category": "genre",
+          "year": 1982
+        },
+        {
+          "title": "Best Actor",
+          "category": "cast",
+          "nominee": "Harrison Ford",
+          "year": 1982
+        },
+        {
+          "title": "Best Actress",
+          "category": "cast",
+          "nominee": "Karen Allen",
+          "year": 1982
+        },
+        {
+          "title": "Best Director",
+          "category": "director",
+          "year": 1982
+        },
+        {
+          "title": "Best Writing",
+          "category": "screenplay",
+          "year": 1982
+        },
+        {
+          "title": "Best Music",
+          "category": "music",
+          "year": 1982
+        },
+        {
+          "title": "Best Special Effects",
+          "category": "special_effects",
+          "year": 1982
+        }
       ]
     },
     {
       "title": "Jupiter",
       "nominations": [
-        "Best International Actor",
-        "Best International Film"
+        {
+          "title": "Best International Actor",
+          "category": "cast",
+          "nominee": "Harrison Ford",
+          "year": 1982
+        },
+        {
+          "title": "Best International Film",
+          "category": "best_movie",
+          "year": 1982
+        }
       ]
     }
   ],

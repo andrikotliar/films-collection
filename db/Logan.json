@@ -151,13 +151,23 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Supporting Actor (Patrick Stewart)"
+        {
+          "title": "Best Supporting Actor",
+          "category": "cast",
+          "nominee": "Patrick Stewart",
+          "year": 2018
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Duo"
+        {
+          "title": "Best Duo",
+          "year": 2017,
+          "category": "cast",
+          "comment": "Hugh Jackman and Dafne Keen"
+        }
       ]
     }
   ],

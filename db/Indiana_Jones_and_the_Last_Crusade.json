@@ -122,19 +122,33 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Sound Effects Editing"
+        {
+          "title": "Best Sound Effects Editing",
+          "category": "sound_effects",
+          "year": 1990
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best DVD Collection"
+        {
+          "title": "Best DVD Collection",
+          "category": "dvd",
+          "comment": "For \"The Adventures of Indiana Jones DVD Collection\"",
+          "year": 2004
+        }
       ]
     },
     {
       "title": "Jupiter",
       "nominations": [
-        "Best International Actor"
+        {
+          "title": "Best International Actor",
+          "category": "cast",
+          "nominee": "Harrison Ford",
+          "year": 1990
+        }
       ]
     }
   ],

@@ -142,7 +142,12 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Supporting Actress"
+        {
+          "title": "Best Supporting Actress",
+          "category": "cast",
+          "nominee": "Bonnie Hunt",
+          "year": 1996
+        }
       ]
     }
   ],

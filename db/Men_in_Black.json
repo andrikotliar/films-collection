@@ -113,15 +113,32 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Makeup"
+        {
+          "title": "Best Make-up",
+          "year": 1998,
+          "category": "make_up"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Science Fiction Film",
-        "Best Supporting Actor",
-        "Best Music"
+        {
+          "title": "Best Science Fiction Film",
+          "year": 1998,
+          "category": "genre"
+        },
+        {
+          "title": "Best Supporting Actor",
+          "year": 1998,
+          "category": "cast",
+          "nominee": "Vincent D'Onofrio"
+        },
+        {
+          "title": "Best Music",
+          "year": 1998,
+          "category": "music"
+        }
       ]
     }
   ],

@@ -149,9 +149,49 @@
   "budget": 130000000,
   "awards": [
     {
-      "title": "Critics Choice Award",
+      "title": "Annie",
       "nominations": [
-        "Best Animated Feature"
+        {
+          "title": "Best Animated Feature",
+          "year": 2009,
+          "category": "best_movie"
+        },
+        {
+          "title": "Best Animated Effects",
+          "year": 2009,
+          "category": "animation"
+        },
+        {
+          "title": "Best Character Animation in a Feature Production",
+          "year": 2009,
+          "category": "animation"
+        },
+        {
+          "title": "Best Character Design in an Animated Feature Production",
+          "year": 2009,
+          "category": "animation"
+        },
+        {
+          "title": "Best Production Design in an Animated Feature Production",
+          "year": 2009,
+          "category": "production_design"
+        },
+        {
+          "title": "Best Storyboarding in an Animated Feature Production",
+          "year": 2009,
+          "category": "animation"
+        },
+        {
+          "title": "Best Voice Acting in an Animated Feature Production",
+          "year": 2009,
+          "category": "cast",
+          "nominee": "Dustin Hoffman"
+        },
+        {
+          "title": "Best Writing in an Animated Feature Production",
+          "year": 2009,
+          "category": "screenplay"
+        }
       ]
     }
   ],

@@ -121,13 +121,23 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Actor"
+        {
+          "title": "Best Actor",
+          "category": "cast",
+          "nominee": "Will Smith",
+          "year": 2008
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Male Performance"
+        {
+          "title": "Best Male Performance",
+          "category": "cast",
+          "nominee": "Will Smith",
+          "year": 2008
+        }
       ]
     }
   ],
@@ -144,5 +154,10 @@
   "rating": 1,
   "description": [
     "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure."
-  ]
+  ],
+  "meta": {
+    "watchCount": {
+      "real": 3
+    }
+  }
 }

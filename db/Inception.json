@@ -153,46 +153,128 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Achievement in Cinematography",
-        "Best Achievement in Sound Mixing",
-        "Best Achievement in Sound Editing",
-        "Best Achievement in Visual Effects"
+        {
+          "title": "Best Achievement in Cinematography",
+          "category": "cinematography",
+          "year": 2011
+        },
+        {
+          "title": "Best Achievement in Sound Mixing",
+          "category": "sound_effects",
+          "year": 2011
+        },
+        {
+          "title": "Best Achievement in Sound Editing",
+          "category": "sound_effects",
+          "year": 2011
+        },
+        {
+          "title": "Best Achievement in Visual Effects",
+          "category": "visual_effects",
+          "year": 2011
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Production Design",
-        "Best Sound",
-        "Best Special Visual Effects"
+        {
+          "title": "Best Production Design",
+          "category": "production_design",
+          "year": 2011
+        },
+        {
+          "title": "Best Sound",
+          "category": "sound_effects",
+          "year": 2011
+        },
+        {
+          "title": "Best Special Visual Effects",
+          "category": "visual_effects",
+          "year": 2011
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Science Fiction Film",
-        "Best Director",
-        "Best Writing",
-        "Best Music",
-        "Best Special Effects"
+        {
+          "title": "Best Science Fiction Film",
+          "category": "genre",
+          "year": 2011
+        },
+        {
+          "title": "Best Director",
+          "category": "director",
+          "year": 2011
+        },
+        {
+          "title": "Best Writing",
+          "category": "screenplay",
+          "year": 2011
+        },
+        {
+          "title": "Best Music",
+          "category": "music",
+          "year": 2011
+        },
+        {
+          "title": "Best Special Effects",
+          "category": "special_effects",
+          "year": 2011
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Scared-As-Shit Performance",
-        "Breakthrough Male Performance"
+        {
+          "title": "Best Scared-As-Shit Performance",
+          "category": "cast",
+          "nominee": "Ellen Page",
+          "year": 2011
+        },
+        {
+          "title": "Breakthrough Male Performance",
+          "category": "cast",
+          "nominee": "Tom Hardy",
+          "year": 2011
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Cinematography",
-        " Best Art Direction",
-        "Best Editing",
-        "Best Visual Effects",
-        "Best Sound",
-        "Best Action Movie"
+        {
+          "title": "Best Cinematography",
+          "category": "cinematography",
+          "year": 2011
+        },
+        {
+          "title": "Best Art Direction",
+          "category": "art_direction",
+          "year": 2011
+        },
+        {
+          "title": "Best Editing",
+          "category": "editing",
+          "year": 2011
+        },
+        {
+          "title": "Best Visual Effects",
+          "category": "visual_effects",
+          "year": 2011
+        },
+        {
+          "title": "Best Sound",
+          "category": "sound_effects",
+          "year": 2011
+        },
+        {
+          "title": "Best Action Movie",
+          "category": "genre",
+          "year": 2011
+        }
       ]
     }
   ],

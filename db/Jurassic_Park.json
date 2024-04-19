@@ -127,31 +127,71 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Sound",
-        "Best Sound Effects Editing",
-        "Best Visual Effects"
+        {
+          "title": "Best Sound",
+          "year": 1994,
+          "category": "sound_effects"
+        },
+        {
+          "title": "Best Sound Effects Editing",
+          "year": 1994,
+          "category": "sound_effects"
+        },
+        {
+          "title": "Best Visual Effects",
+          "year": 1994,
+          "category": "visual_effects"
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Special Effects"
+        {
+          "title": "Best Special Effects",
+          "year": 1994,
+          "category": "special_effects"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Science Fiction Film",
-        "Best Director",
-        "Best Writing",
-        "Best Special Effects"
+        {
+          "title": "Best Science Fiction Film",
+          "year": 1994,
+          "category": "genre"
+        },
+        {
+          "title": "Best Director",
+          "year": 1994,
+          "category": "director"
+        },
+        {
+          "title": "Best Writing",
+          "year": 1994,
+          "category": "screenplay"
+        },
+        {
+          "title": "Best Special Effects",
+          "year": 1994,
+          "category": "special_effects"
+        }
       ]
     },
     {
       "title": "Jupiter",
       "nominations": [
-        "Best International Film",
-        "Best International Director"
+        {
+          "title": "Best International Film",
+          "year": 1994,
+          "category": "best_movie"
+        },
+        {
+          "title": "Best International Director",
+          "year": 1994,
+          "category": "director"
+        }
       ]
     }
   ],

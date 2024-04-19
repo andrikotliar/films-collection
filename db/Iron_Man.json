@@ -150,9 +150,22 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Science Fiction Film",
-        "Best Actor",
-        "Best Director"
+        {
+          "title": "Best Science Fiction Film",
+          "category": "genre",
+          "year": 2009
+        },
+        {
+          "title": "Best Actor",
+          "category": "cast",
+          "nominee": "Robert Downey Jr.",
+          "year": 2009
+        },
+        {
+          "title": "Best Director",
+          "category": "director",
+          "year": 2009
+        }
       ]
     }
   ],
@@ -170,5 +183,10 @@
   "description": [
     "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
   ],
-  "relatedTitlesKey": "71a22d78-aaf0-4932-a476-938a0788c8ce"
+  "relatedTitlesKey": "71a22d78-aaf0-4932-a476-938a0788c8ce",
+  "meta": {
+    "watchCount": {
+      "approx": 5
+    }
+  }
 }
