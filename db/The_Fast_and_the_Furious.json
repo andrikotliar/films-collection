@@ -129,7 +129,12 @@
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best On-Screen Team"
+        {
+          "title": "Best On-Screen Team",
+          "year": 2002,
+          "category": "cast",
+          "comment": "Dominic Toretto and Brian O'Conner"
+        }
       ]
     }
   ],

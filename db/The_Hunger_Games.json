@@ -142,22 +142,38 @@
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Feature Film"
+        {
+          "title": "Best Feature Film",
+          "year": 2012,
+          "category": "best_movie"
+        }
       ]
     },
     {
-      "title": "Grammy",
+      "title": "MTV Movie Award",
       "nominations": [
-        "Best Song Written for Visual Media"
-      ]
-    },
-    {
-      "title": "MTV Movie ",
-      "nominations": [
-        "Best Male Performance",
-        "Best Female Performance",
-        "Best On-Screen Transformation",
-        "Best Fight"
+        {
+          "title": "Best Male Performance",
+          "year": 2012,
+          "category": "cast",
+          "nominee": "Josh Hutcherson"
+        },
+        {
+          "title": "Best Female Performance",
+          "year": 2012,
+          "category": "cast",
+          "nominee": "Jennifer Lawrence"
+        },
+        {
+          "title": "Best On-Screen Transformation",
+          "year": 2012,
+          "category": "Elizabeth Banks"
+        },
+        {
+          "title": "Best Fight",
+          "year": 2012,
+          "category": "Katniss Everdeen and Peeta Mallark vs. Cato"
+        }
       ]
     }
   ],

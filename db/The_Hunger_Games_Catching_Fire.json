@@ -123,9 +123,23 @@
     {
       "title": "MTV Movie Awards",
       "nominations": [
-        "Movie of the Year (2014)",
-        "Best Male Performance (Josh Hutcherson)",
-        "Best Female Performance (Jennifer Lawrence)"
+        {
+          "title": "Movie of the Year",
+          "year": 2014,
+          "category": "movie_of_year"
+        },
+        {
+          "title": "Best Male Performance",
+          "category": "cast",
+          "nominee": "Josh Hutcherson",
+          "year": 2014
+        },
+        {
+          "title": "Best Female Performance",
+          "category": "cast",
+          "nominee": "Jennifer Lawrence",
+          "year": 2014
+        }
       ]
     }
   ],

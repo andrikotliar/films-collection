@@ -256,14 +256,28 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Supporting Actor",
-        "Best Fantasy Film"
+        {
+          "title": "Best Supporting Actor",
+          "year": 2015,
+          "category": "cast",
+          "nominee": "Richard Armitage",
+          "comment": "Thorin"
+        },
+        {
+          "title": "Best Fantasy Film",
+          "year": 2015,
+          "category": "genre"
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Action Sequence"
+        {
+          "title": "Best Action Sequence",
+          "year": 2015,
+          "category": "The Battle of Five armies"
+        }
       ]
     }
   ],

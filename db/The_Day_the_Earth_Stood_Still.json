@@ -147,7 +147,12 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Performance by a Younger Actor"
+        {
+          "title": "Best Performance by a Younger Actor",
+          "year": 2009,
+          "category": "cast",
+          "nominee": "Jaden Smith"
+        }
       ]
     }
   ],

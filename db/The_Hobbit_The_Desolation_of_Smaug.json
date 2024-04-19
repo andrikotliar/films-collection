@@ -272,7 +272,11 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Production Design"
+        {
+          "title": "Best Production Design",
+          "year": 2014,
+          "category": "production_design"
+        }
       ]
     }
   ],

@@ -141,8 +141,17 @@
     {
       "title": "MTV Movie Awards",
       "nominations": [
-        "Best Musical Moment",
-        "Best On-Screen Transformation"
+        {
+          "title": "Best Musical Moment",
+          "year": 2015,
+          "category": "music"
+        },
+        {
+          "title": "Best On-Screen Transformation",
+          "year": 2015,
+          "category": "cast",
+          "nominee": "Elizabeth Banks"
+        }
       ]
     }
   ],

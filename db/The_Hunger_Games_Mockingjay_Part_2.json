@@ -142,7 +142,12 @@
     {
       "title": "MTV Movie Awards",
       "nominations": [
-        "Best Hero (2015)"
+        {
+          "title": "Best Hero",
+          "year": 2015,
+          "category": "cast",
+          "nominee": "Jennifer Lawrence"
+        }
       ]
     }
   ],

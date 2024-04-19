@@ -89,7 +89,7 @@
     },
     {
       "character": {
-        "name": "James \"Bucky\" Barnes / Winter Soldier / White Wolf",
+        "name": "James \"Bucky\" Barnes / White Wolf",
         "imageUrl": ""
       },
       "actorId": "6efe0990-f8c2-479e-970a-f990a42f774a",
@@ -169,15 +169,21 @@
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Hero",
-        "Best Duo"
+        {
+          "title": "Best Hero",
+          "year": 2022,
+          "category": "cast",
+          "nominee": "Anthony Mackie"
+        },
+        {
+          "title": "Best Duo",
+          "year": 2022,
+          "category": "cast",
+          "comment": "Falcon and the Winter Soldier"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 25
-  },
   "year": [
     2021
   ],
