@@ -7,6 +7,7 @@ enum NominationCategory {
   SPECIAL_EFFECTS = 'special_effects',
   SOUND_EFFECTS = 'sound_effects',
   PRODUCTION_DESIGN = 'production_design',
+  STUNT_COORDINATOR = 'stunt_coordinator',
   ANIMATION = 'animation',
   CINEMATOGRAPHY = 'cinematography',
   EDITING = 'editing',
@@ -19,6 +20,7 @@ enum NominationCategory {
   BEST_MOVIE = 'best_movie',
   BEST_OF_YEAR = 'best_of_year',
   ACTION = 'action',
+  CASTING = 'casting',
 }
 
 export { NominationCategory };
