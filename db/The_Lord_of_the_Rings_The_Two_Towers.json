@@ -162,39 +162,102 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Sound Editing",
-        "Best Visual Effects"
+        {
+          "title": "Best Sound Editing",
+          "year": 2003,
+          "category": "sound_effects"
+        },
+        {
+          "title": "Best Visual Effects",
+          "year": 2003,
+          "category": "visual_effects"
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Costume Design",
-        "Best Achievement in Special Visual Effects"
+        {
+          "title": "Best Costume Design",
+          "year": 2003,
+          "category": "costumes"
+        },
+        {
+          "title": "Best Achievement in Special Visual Effects",
+          "year": 2003,
+          "category": "visual_effects"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Fantasy Film",
-        "Best Supporting Actor",
-        "Best Costumes",
-        "Best Make-Up"
+        {
+          "title": "Best DVD Special Edition Release",
+          "year": 2004,
+          "category": "genre",
+          "comment": "Extended Edition"
+        },
+        {
+          "title": "Best Fantasy Film",
+          "year": 2003,
+          "category": "genre"
+        },
+        {
+          "title": "Best Supporting Actor",
+          "year": 2003,
+          "category": "cast",
+          "nominee": "Andy Serkis"
+        },
+        {
+          "title": "Best Costumes",
+          "year": 2003,
+          "category": "costumes"
+        },
+        {
+          "title": "Best Make-Up",
+          "year": 2003,
+          "category": "make_up"
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Movie",
-        "Best On-Screen Team",
-        "Best Virtual Performance",
-        "Best Action Sequence"
+        {
+          "title": "Best Movie",
+          "year": 2003,
+          "category": "best_movie"
+        },
+        {
+          "title": "Best On-Screen Team",
+          "year": 2003,
+          "category": "cast",
+          "comment": "Elijah Wood and Sean Astion"
+        },
+        {
+          "title": "Best Virtual Performance",
+          "year": 2003,
+          "category": "virtual_performance",
+          "comment": "Gollum"
+        },
+        {
+          "title": "Best Action Sequence",
+          "year": 2003,
+          "category": "action",
+          "comment": "The battle for Helms Deep"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Digital Acting Performance"
+        {
+          "title": "Best Digital Acting Performance",
+          "year": 2003,
+          "category": "virtual_performance",
+          "comment": "Gollum"
+        }
       ]
     }
   ],

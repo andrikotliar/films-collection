@@ -104,14 +104,18 @@
   ],
   "collections": [
     {
-      "title": "Fantasy Worlds"
+      "title": "Mysteries of the Past"
     }
   ],
   "awards": [
     {
       "title": "Saturn",
       "nominations": [
-        "Best Presentation on Television"
+        {
+          "title": "Best Presentation on Television",
+          "year": 2009,
+          "category": "best_movie"
+        }
       ]
     }
   ],

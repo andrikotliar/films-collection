@@ -181,41 +181,110 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Cinematography",
-        "Best Makeup",
-        "Best Music",
-        "Best Visual Effects"
+        {
+          "title": "Best Cinematography",
+          "year": 2002,
+          "category": "cinematography"
+        },
+        {
+          "title": "Best Makeup",
+          "year": 2002,
+          "category": "make_up"
+        },
+        {
+          "title": "Best Music",
+          "year": 2002,
+          "category": "music"
+        },
+        {
+          "title": "Best Visual Effects",
+          "year": 2002,
+          "category": "visual_effects"
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Film",
-        "Best Achievement in Special Visual Effects",
-        "Best Make Up/Hair"
+        {
+          "title": "Best Film",
+          "year": 2002,
+          "category": ""
+        },
+        {
+          "title": "Best Achievement in Special Visual Effects",
+          "year": 2002,
+          "category": "visual_effects"
+        },
+        {
+          "title": "Best Make Up/Hair",
+          "year": 2002,
+          "category": "make_up"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Fantasy Film",
-        "Best Supporting Actor",
-        "Best Director"
+        {
+          "title": "Best DVD Special Edition Release",
+          "year": 2003,
+          "category": "dvd",
+          "comment": "Extended Version"
+        },
+        {
+          "title": "Best Fantasy Film",
+          "year": 2002,
+          "category": "genre"
+        },
+        {
+          "title": "Best Supporting Actor",
+          "year": 2002,
+          "category": "cast",
+          "nominee": "Iam McKellen"
+        },
+        {
+          "title": "Best Director",
+          "year": 2002,
+          "category": "director"
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Movie",
-        "Breakthrough Male Performance"
+        {
+          "title": "Best Movie",
+          "year": 2002,
+          "category": "best_movie"
+        },
+        {
+          "title": "Breakthrough Male Performance",
+          "year": 2002,
+          "category": "cast",
+          "nominee": "Orlando Bloom"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Favorite Film Franchise",
-        "Best Song",
-        "Best Composer"
+        {
+          "title": "Favorite Film Franchise",
+          "year": 2013,
+          "category": "favorite_franchise"
+        },
+        {
+          "title": "Best Song",
+          "year": 2002,
+          "category": "music",
+          "comment": "Song \"May It Be\""
+        },
+        {
+          "title": "Best Composer",
+          "year": 2002,
+          "category": "music"
+        }
       ]
     }
   ],

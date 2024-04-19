@@ -160,64 +160,204 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Picture",
-        "Best Director",
-        "Best Writing (Adapted Screenplay)",
-        "Best Film Editing",
-        "Best Art Direction-Set Decoration",
-        "Best Costume Design",
-        "Best Makeup",
-        "Best Music (Original Score)",
-        "Best Music (Original Song)",
-        "Best Sound Mixing",
-        "Best Visual Effects"
+        {
+          "title": "Best Picture",
+          "year": 2004,
+          "category": "best_movie"
+        },
+        {
+          "title": "Best Director",
+          "year": 2004,
+          "category": "director"
+        },
+        {
+          "title": "Best Writing, Adapted Screenplay",
+          "year": 2004,
+          "category": "screenplay"
+        },
+        {
+          "title": "Best Film Editing",
+          "year": 2004,
+          "category": "editing"
+        },
+        {
+          "title": "Best Art Direction-Set Decoration",
+          "year": 2004,
+          "category": "art_direction"
+        },
+        {
+          "title": "Best Costume Design",
+          "year": 2004,
+          "category": "costumes"
+        },
+        {
+          "title": "Best Makeup",
+          "year": 2004,
+          "category": "make_up"
+        },
+        {
+          "title": "Best Music (Original Score)",
+          "year": 2004,
+          "category": "music"
+        },
+        {
+          "title": "Best Music (Original Song)",
+          "year": 2004,
+          "category": "music"
+        },
+        {
+          "title": "Best Sound Mixing",
+          "year": 2004,
+          "category": "sound_effects"
+        },
+        {
+          "title": "Best Visual Effects",
+          "year": 2004,
+          "category": "visual_effects"
+        }
       ]
     },
     {
-      "title": "Golden Globes",
+      "title": "Golden Globe",
       "nominations": [
-        "Best Director - Motion Picture",
-        "Best Original Score - Motion Picture",
-        "Best Original Song - Motion Picture",
-        "Best Motion Picture - Drama"
+        {
+          "title": "Best Director - Motion Picture",
+          "year": 2004,
+          "category": "director"
+        },
+        {
+          "title": "Best Original Score - Motion Picture",
+          "year": 2004,
+          "category": "best_movie"
+        },
+        {
+          "title": "Best Original Song - Motion Picture",
+          "year": 2004,
+          "category": "music"
+        },
+        {
+          "title": "Best Motion Picture - Drama",
+          "year": 2004,
+          "category": "genre"
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Film",
-        "Best Screenplay - Adapted",
-        "Best Cinematography",
-        "Best Achievement in Special Visual Effects"
+        {
+          "title": "Best Film",
+          "year": 2004,
+          "category": "best_movie"
+        },
+        {
+          "title": "Best Screenplay - Adapted",
+          "year": 2004,
+          "category": "screenplay"
+        },
+        {
+          "title": "Best Cinematography",
+          "year": 2004,
+          "category": "cinematography"
+        },
+        {
+          "title": "Best Achievement in Special Visual Effects",
+          "year": 2004,
+          "category": "visual_effects"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Fantasy Film",
-        "Best Actor",
-        "Best Supporting Actor",
-        "Best Director",
-        "Best Writing",
-        "Best Music",
-        "Best Make Up",
-        "Best Special Effects"
+        {
+          "title": "Best DVD Special Edition Release",
+          "year": 2005,
+          "category": "dvd",
+          "comment": "Extended cut"
+        },
+        {
+          "title": "Best Fantasy Film",
+          "year": 2004,
+          "category": "genre"
+        },
+        {
+          "title": "Best Actor",
+          "year": 2004,
+          "category": "cast",
+          "nominee": "Elijah Wood"
+        },
+        {
+          "title": "Best Supporting Actor",
+          "year": 2004,
+          "category": "cast",
+          "nominee": "Sean Astin"
+        },
+        {
+          "title": "Best Director",
+          "year": 2004,
+          "category": "director"
+        },
+        {
+          "title": "Best Writing",
+          "year": 2004,
+          "category": "screenplay"
+        },
+        {
+          "title": "Best Music",
+          "year": 2004,
+          "category": "music"
+        },
+        {
+          "title": "Best Make Up",
+          "year": 2004,
+          "category": "make_up"
+        },
+        {
+          "title": "Best Special Effects",
+          "year": 2004,
+          "category": "special_effects"
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Movie",
-        "Best Action Sequence"
+        {
+          "title": "Best Movie",
+          "year": 2004,
+          "category": "best_movie"
+        },
+        {
+          "title": "Best Action Sequence",
+          "year": 2004,
+          "category": "The battle at Gondor"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Picture",
-        "Best Acting Ensemble",
-        "Best Director",
-        "Best Composer"
+        {
+          "title": "Best Picture",
+          "year": 2004,
+          "category": "best_movie"
+        },
+        {
+          "title": "Best Acting Ensemble",
+          "year": 2004,
+          "category": "cast"
+        },
+        {
+          "title": "Best Director",
+          "year": 2004,
+          "category": "director"
+        },
+        {
+          "title": "Best Composer",
+          "year": 2004,
+          "category": "music"
+        }
       ]
     }
   ],

@@ -21,6 +21,8 @@ enum NominationCategory {
   BEST_OF_YEAR = 'best_of_year',
   ACTION = 'action',
   CASTING = 'casting',
+  FAVORITE_FRANCHISE = 'favorite_franchise',
+  VIRTUAL_PERFORMANCE = 'virtual_performance',
 }
 
 export { NominationCategory };
