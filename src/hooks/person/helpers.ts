@@ -1,7 +1,7 @@
 import { PersonRole } from '@/common/enums';
 import { ActorsList, FilmData } from '@/common/types';
 import { FilterFilmsOptions, Person } from './types';
-import { mapPositionIdToTitle } from './maps';
+import { personRoleToPageTitle } from '@/common/maps';
 
 const findPersonFilms = ({ role, currentId, films }: FilterFilmsOptions) => {
   if (role === PersonRole.ACTOR) {
@@ -40,7 +40,7 @@ const getPersonData = (
 
   return {
     name,
-    position: mapPositionIdToTitle[role],
+    position: personRoleToPageTitle[role],
   };
 };
 

@@ -2,9 +2,8 @@ import fs from 'fs';
 
 const generateDatabaseFiles = () => {
   const files = fs.readdirSync('./db/');
-  const filteredFiles = files.filter((file) => !file.startsWith('_'));
 
-  const db = filteredFiles.map((file) => {
+  const db = files.map((file) => {
     const fileData = fs.readFileSync(`./db/${file}`, 'utf8');
     const film = JSON.parse(fileData);
 

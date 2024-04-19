@@ -1,1 +1,1 @@
-export * from './role-to-title';
+export * from './person-role';

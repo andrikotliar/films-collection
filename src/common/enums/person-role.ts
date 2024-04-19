@@ -6,6 +6,10 @@ enum PersonRole {
   MUSIC = 'music',
   CINEMATOGRAPHY = 'cinematography',
   SERIES_CREATOR = 'series_creator',
+  SPECIAL_EFFECTS = 'special_effects',
+  PRODUCTION_DESIGN = 'production_design',
+  SOUND_DEPARTMENT = 'sound_department',
+  ANIMATOR = 'animator',
   UNKNOWN = 'unknown',
 }
 
