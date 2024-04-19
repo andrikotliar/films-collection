@@ -120,29 +120,97 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Sound",
-        "Best Sound Effects Editing",
-        "Best Visual Effects",
-        "Best Makeup"
+        {
+          "title": "Best Sound",
+          "year": 1992,
+          "category": "sound_effects"
+        },
+        {
+          "title": "Best Sound Effects Editing",
+          "year": 1992,
+          "category": "sound_effects"
+        },
+        {
+          "title": "Best Visual Effects",
+          "year": 1992,
+          "category": "visual_effects"
+        },
+        {
+          "title": "Best Makeup",
+          "year": 1992,
+          "category": "make_up"
+        }
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        {
+          "title": "Best Science Function Film",
+          "category": "genre",
+          "year": 1992
+        },
+        {
+          "title": "Best Performance by a Younger Actor",
+          "category": "cast",
+          "nominee": "Edward Furlong",
+          "year": 1992
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Sound",
-        "Best Special Visual Effects",
-        "Best Production Design"
+        {
+          "title": "Best Sound",
+          "year": 1992,
+          "category": "sound_effects"
+        },
+        {
+          "title": "Best Special Visual Effects",
+          "year": 1992,
+          "category": "special_effects"
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Movie",
-        "Best Female Performance",
-        "Best Male Performance",
-        "Best Breakthrough Performance",
-        "Most Desirable Female",
-        "Best Action Sequence"
+        {
+          "title": "Best Movie",
+          "year": 1992,
+          "category": "best_movie"
+        },
+        {
+          "title": "Best Female Performance",
+          "year": 1992,
+          "category": "cast",
+          "nominee": "Linda Hamilton"
+        },
+        {
+          "title": "Best Male Performance",
+          "year": 1992,
+          "category": "cast",
+          "nominee": "Arnold Schwarzenegger"
+        },
+        {
+          "title": "Best Breakthrough Performance",
+          "year": 1992,
+          "category": "cast",
+          "nominee": "Edward Furlong"
+        },
+        {
+          "title": "Most Desirable Female",
+          "year": 1992,
+          "category": "cast",
+          "nominee": "Linda Hamilton"
+        },
+        {
+          "title": "Best Action Sequence",
+          "year": 1992,
+          "category": "action",
+          "comment": "L.A. Freeway Scene"
+        }
       ]
     }
   ],

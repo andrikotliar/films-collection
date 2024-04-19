@@ -133,19 +133,42 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Achievement in Visual Effects"
+        {
+          "title": "Best Achievement in Visual Effects",
+          "year": 2021,
+          "category": "visual_effects"
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Achievement in Special Visual Effects"
+        {
+          "title": "Best Achievement in Special Visual Effects",
+          "year": 2021,
+          "category": "special_effects"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Visual Effects"
+        {
+          "title": "Best Visual Effects",
+          "year": 2021,
+          "category": "visual_effects"
+        }
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        {
+          "title": "Best Actor",
+          "year": 2021,
+          "category": "cast",
+          "nominee": "John David Washington"
+        }
       ]
     }
   ],

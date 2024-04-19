@@ -162,19 +162,31 @@
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Achievement in Special Visual Effects"
+        {
+          "title": "Best Achievement in Special Visual Effects",
+          "year": 2005,
+          "category": "visual_effects"
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Action Sequence"
+        {
+          "title": "Best Action Sequence",
+          "year": 2005,
+          "category": "Destruction of LA"
+        }
       ]
     },
     {
       "title": "Jupiter",
       "nominations": [
-        "Best International Film"
+        {
+          "title": "Best International Film",
+          "year": 2005,
+          "category": "best_movie"
+        }
       ]
     }
   ],

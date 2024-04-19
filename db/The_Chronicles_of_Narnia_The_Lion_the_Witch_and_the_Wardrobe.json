@@ -146,26 +146,46 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Achievement in Makeup"
+        {
+          "title": "Best Achievement in Makeup",
+          "year": 2006,
+          "category": "make_up"
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Make Up/Hair"
+        {
+          "title": "Best Make Up/Hair",
+          "year": 2006,
+          "category": "make_up"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Costume",
-        "Best Make-Up"
+        {
+          "title": "Best Costume",
+          "year": 2006,
+          "category": "costumes"
+        },
+        {
+          "title": "Best Make-Up",
+          "year": 2006,
+          "category": "make_up"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Family Film (Live Action)"
+        {
+          "title": "Best Family Film - Live Action",
+          "year": 2006,
+          "category": "genre"
+        }
       ]
     }
   ],

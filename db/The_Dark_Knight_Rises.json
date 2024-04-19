@@ -183,11 +183,16 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Supporting Actress"
+        {
+          "title": "Best Supporting Actress",
+          "year": 2013,
+          "category": "cast",
+          "nominee": "Anne Hathaway"
+        }
       ]
     }
   ],
-  "boxOffice": 1080000000,
+  "boxOffice": 1000000000,
   "year": [
     2012
   ],

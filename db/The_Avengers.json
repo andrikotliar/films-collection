@@ -174,18 +174,47 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Science Fiction Film",
-        "Best Supporting Actor (Clark Gregg)",
-        "Best Director",
-        "Best Special Effects"
+        {
+          "title": "Best Science Fiction Film",
+          "year": 2013,
+          "category": "genre"
+        },
+        {
+          "title": "Best Supporting Actor",
+          "category": "cast",
+          "nominee": "Clark Gregg",
+          "year": 2013
+        },
+        {
+          "title": "Best Director",
+          "year": 2013,
+          "category": "director"
+        },
+        {
+          "title": "Best Special Effects",
+          "year": 2013,
+          "category": "special_effects"
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Movie of the Year",
-        "Best Villain",
-        "Best Fight"
+        {
+          "title": "Movie of the Year",
+          "year": 2013,
+          "category": ""
+        },
+        {
+          "title": "Best Villain",
+          "year": 2013,
+          "category": ""
+        },
+        {
+          "title": "Best Fight",
+          "year": 2013,
+          "category": ""
+        }
       ]
     }
   ],

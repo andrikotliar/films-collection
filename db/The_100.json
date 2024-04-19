@@ -678,7 +678,11 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Youth-Oriented Series on Television"
+        {
+          "title": "Best Youth-Oriented Series on Television",
+          "year": 2015,
+          "category": "best_movie"
+        }
       ]
     }
   ],

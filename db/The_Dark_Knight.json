@@ -154,41 +154,95 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Performance by an Actor in a Supporting Role",
-        "Best Achievement in Sound Editing"
+        {
+          "title": "Best Performance by an Actor in a Supporting Role",
+          "year": 2009,
+          "category": "cast",
+          "nominee": "Heath Ledger",
+          "comment": "as Joker. Posthumously"
+        },
+        {
+          "title": "Best Achievement in Sound Editing",
+          "year": 2009,
+          "category": "sound_effects"
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Supporting Actor"
+        {
+          "title": "Best Supporting Actor",
+          "year": 2009,
+          "category": "cast",
+          "nominee": "Heath Ledger",
+          "comment": "as Joker. Posthumously"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Action/Adventure/Thriller Film",
-        "Best Supporting Actor",
-        "Best Writing",
-        "Best Music",
-        "Best Special Effects"
+        {
+          "title": "Best Action/Adventure/Thriller Film",
+          "year": 2009,
+          "category": "genre"
+        },
+        {
+          "title": "Best Supporting Actor",
+          "year": 2009,
+          "category": "cast",
+          "nominee": "Heath Ledger",
+          "comment": "as Joker. Posthumously"
+        },
+        {
+          "title": "Best Writing",
+          "year": 2009,
+          "category": "screenplay"
+        },
+        {
+          "title": "Best Music",
+          "year": 2009,
+          "category": "music"
+        },
+        {
+          "title": "Best Special Effects",
+          "year": 2009,
+          "category": "special_effects"
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Villain"
+        {
+          "title": "Best Villain",
+          "year": 2009,
+          "category": "cast",
+          "nominee": "Heath Ledger",
+          "comment": "as Joker. Posthumously"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Supporting Actor",
-        "Best Action Movie"
+        {
+          "title": "Best Supporting Actor",
+          "year": 2009,
+          "category": "cast",
+          "nominee": "Heath Ledger",
+          "comment": "as Joker. Posthumously"
+        },
+        {
+          "title": "Best Action Movie",
+          "year": 2009,
+          "category": "genre"
+        }
       ]
     }
   ],
-  "boxOffice": 1004999999.9999999,
+  "boxOffice": 1000000000,
   "year": [
     2008
   ],

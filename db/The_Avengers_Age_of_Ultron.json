@@ -201,7 +201,11 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Costume Design"
+        {
+          "title": "Best Costume Design",
+          "year": 2016,
+          "category": "costumes"
+        }
       ]
     }
   ],
