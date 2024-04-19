@@ -145,13 +145,22 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Achievement in Makeup and Hairstyling"
+        {
+          "title": "Best Achievement in Makeup and Hairstyling",
+          "year": 2017,
+          "category": "make_up"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Actress in an Action Movie"
+        {
+          "title": "Best Actress in an Action Movie",
+          "year": 2017,
+          "category": "cast",
+          "nominee": ""
+        }
       ]
     }
   ],

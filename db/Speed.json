@@ -125,27 +125,42 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Sound",
-        "Best Sound Effects Editing"
-      ]
-    },
-    {
-      "title": "Golden Globes",
-      "nominations": [
-        "Best Director - Motion Picture"
+        {
+          "title": "Best Sound",
+          "year": 1995,
+          "category": "sound_effects"
+        },
+        {
+          "title": "Best Sound Effects Editing",
+          "year": 1995,
+          "category": "sound_effects"
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Editing",
-        "Best Sound"
+        {
+          "title": "Best Editing",
+          "year": 1995,
+          "category": "editing"
+        },
+        {
+          "title": "Best Sound",
+          "year": 1995,
+          "category": "sound_effects"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Actress"
+        {
+          "title": "Best Actress",
+          "year": 1995,
+          "category": "cast",
+          "nominee": "Sandra Bullock"
+        }
       ]
     }
   ],

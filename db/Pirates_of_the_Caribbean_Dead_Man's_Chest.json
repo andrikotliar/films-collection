@@ -121,26 +121,47 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Achievement in Visual Effects"
+        {
+          "title": "Best Achievement in Visual Effects",
+          "year": 2007,
+          "category": "visual_effects"
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Achievement in Special Visual Effects"
+        {
+          "title": "Best Achievement in Special Visual Effects",
+          "year": 2007,
+          "category": "visual_effects"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Special Effects"
+        {
+          "title": "Best Special Effects",
+          "year": 2007,
+          "category": "special_effects"
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Movie",
-        "Best Performance (Johnny Depp)"
+        {
+          "title": "Best Movie",
+          "year": 2007,
+          "category": "best_movie"
+        },
+        {
+          "title": "Best Performance",
+          "category": "cast",
+          "nominee": "Johnny Depp",
+          "year": 2007
+        }
       ]
     }
   ],

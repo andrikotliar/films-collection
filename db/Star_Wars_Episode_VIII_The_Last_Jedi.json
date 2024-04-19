@@ -145,9 +145,22 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Writing",
-        "Best Actor",
-        "Best Editing"
+        {
+          "title": "Best Writing",
+          "year": 2018,
+          "category": "screenplay"
+        },
+        {
+          "title": "Best Actor",
+          "year": 2018,
+          "category": "cast",
+          "nominee": "Mark Hamill"
+        },
+        {
+          "title": "Best Editing",
+          "year": 2018,
+          "category": "editing"
+        }
       ]
     }
   ],

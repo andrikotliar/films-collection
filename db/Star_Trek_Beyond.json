@@ -186,7 +186,11 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Make-Up"
+        {
+          "title": "Best Make-Up",
+          "year": 2017,
+          "category": "make_up"
+        }
       ]
     }
   ],

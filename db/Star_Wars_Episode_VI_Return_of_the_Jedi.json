@@ -145,18 +145,47 @@
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Special Visual Effects"
+        {
+          "title": "Best Special Visual Effects",
+          "year": 1984,
+          "category": "visual_effects"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best DVD Collection",
-        "Best Science Fiction Film",
-        "Best Actor",
-        "Best Costumes",
-        "Best Make-Up",
-        "Best Special Effects"
+        {
+          "title": "Best DVD Collection",
+          "year": 2005,
+          "category": "As a part of \"Star Wars Trilogy\""
+        },
+        {
+          "title": "Best Science Fiction Film",
+          "year": 1984,
+          "category": "genre"
+        },
+        {
+          "title": "Best Actor",
+          "year": 1984,
+          "category": "cast",
+          "nominee": "Mark Hamill"
+        },
+        {
+          "title": "Best Costumes",
+          "year": 1984,
+          "category": "costumes"
+        },
+        {
+          "title": "Best Make-Up",
+          "year": 1984,
+          "category": "make_up"
+        },
+        {
+          "title": "Best Special Effects",
+          "year": 1984,
+          "category": "special_effects"
+        }
       ]
     }
   ],

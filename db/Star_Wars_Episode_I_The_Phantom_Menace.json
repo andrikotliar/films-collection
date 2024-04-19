@@ -158,14 +158,27 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Costumes",
-        "Best Special Effects"
+        {
+          "title": "Best Costumes",
+          "year": 2000,
+          "category": "costumes"
+        },
+        {
+          "title": "Best Special Effects",
+          "year": 2000,
+          "category": "special_effects"
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Action Sequence"
+        {
+          "title": "Best Action Sequence",
+          "year": 2000,
+          "category": "action",
+          "comment": "For the pod race"
+        }
       ]
     }
   ],

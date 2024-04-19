@@ -145,14 +145,26 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Costumes",
-        "Best Special Effects"
+        {
+          "title": "Best Costumes",
+          "year": 2003,
+          "category": "costumes"
+        },
+        {
+          "title": "Best Special Effects",
+          "year": 2003,
+          "category": "special_effects"
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Fight"
+        {
+          "title": "Best Fight",
+          "year": 2003,
+          "category": "Count Dooku vs. Yodu"
+        }
       ]
     }
   ],

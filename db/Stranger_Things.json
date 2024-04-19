@@ -248,25 +248,115 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Supporting Actress in Streaming Presentation",
-        "Best Streaming Horror & Thriller Series"
+        {
+          "title": "Best Performance by a Younger Actor in a Television Series",
+          "year": 2017,
+          "category": "cast",
+          "nominee": "Millie Bobby Brown"
+        },
+        {
+          "title": "Best Supporting Actress in Streaming Presentation",
+          "year": 2017,
+          "category": "cast",
+          "nominee": "Finn Wolfhard"
+        },
+        {
+          "title": "Best Streaming Horror & Thriller Series",
+          "year": 2022,
+          "category": "genre"
+        },
+        {
+          "title": "Best Streaming Horror & Thriller Series",
+          "year": 2019,
+          "category": "genre"
+        },
+        {
+          "title": "Best New Media Television Series",
+          "year": 2017,
+          "category": "best_movie"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Supporting Actor in a Drama Series"
+        {
+          "title": "Best Supporting Actor in a Drama Series",
+          "year": 2018,
+          "category": "cast",
+          "nominee": "David Harbor"
+        }
       ]
     },
     {
-      "title": "Emmy",
+      "title": "Primetime Emmy",
       "nominations": [
-        "Outstanding Sound Editing for a Comedy or Drama Series (One Hour)",
-        "Outstanding Main Title Design",
-        "Outstanding Original Main Title Theme Music",
-        "Outstanding Casting for a Drama Series",
-        "Outstanding Single-Camera Picture Editing for a Drama Series",
-        "Outstanding Sound Editing for a Series"
+        {
+          "title": "Outstanding Stunt Coordination for a Drama Series, Limited of Anthology Series or Movie",
+          "year": 2022,
+          "category": "stunt_coordinator",
+          "comment": "For Hiro Koda - stunt coordinator"
+        },
+        {
+          "title": "Outstanding Sound Editing for a Comedy or Drama Series (One Hour)",
+          "year": 2022,
+          "category": "sound_effects"
+        },
+        {
+          "title": "Outstanding Sound Mixing for a Comedy or Drama Series (One Hour)",
+          "year": 2022,
+          "category": "sound_effects",
+          "comment": "For \"Chapter Seven: The Massacre at Hawkins Lab\""
+        },
+        {
+          "title": "Outstanding Music Supervision",
+          "year": 2022,
+          "category": "sound_effects",
+          "comment": "For \"Chapter Four: Dear Billy\""
+        },
+        {
+          "title": "Outstanding Prosthetic Makeup",
+          "year": 2022,
+          "category": "make_up",
+          "comment": "For \"Chapter Four: Dear Billy\""
+        },
+        {
+          "title": "Outstanding Sound Editing for a Comedy or Drama Series (One Hour)",
+          "year": 2020,
+          "category": "sound_effects",
+          "comment": "For \"Chapter Eight: The Battle of Starcourt\""
+        },
+        {
+          "title": "Outstanding Sound Editing for a Comedy or Drama Series (One Hour)",
+          "year": 2018,
+          "category": "sound_effects",
+          "comment": "For \"Chapter Eight: The Ming Flayer\""
+        },
+        {
+          "title": "Outstanding Main Title Design",
+          "year": 2017,
+          "category": "production_design"
+        },
+        {
+          "title": "Outstanding Original Main Title Theme Music",
+          "year": 2017,
+          "category": "sound_effects"
+        },
+        {
+          "title": "Outstanding Casting for a Drama Series",
+          "year": 2017,
+          "category": "casting"
+        },
+        {
+          "title": "Outstanding Single-Camera Picture Editing for a Drama Series",
+          "year": 2017,
+          "category": "cinematography"
+        },
+        {
+          "title": "Outstanding Sound Editing for a Series",
+          "year": 2017,
+          "category": "sound_effects"
+        }
       ]
     }
   ],

@@ -112,25 +112,32 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Music (Original Song)"
-      ]
-    },
-    {
-      "title": "BAFTA",
-      "nominations": [
-        "Best Feature Film"
+        {
+          "title": "Best Music (Original Song)",
+          "year": 2002,
+          "category": "music",
+          "comment": "For the song \"If I Didn't Have You\""
+        }
       ]
     },
     {
       "title": "Annie",
       "nominations": [
-        "Outstanding Character Animation"
+        {
+          "title": "Outstanding Character Animation",
+          "year": 2003,
+          "category": "animation"
+        }
       ]
     },
     {
       "title": "Grammy",
       "nominations": [
-        "Best Song Written for Visual Media"
+        {
+          "title": "Best Song Written for Visual Media",
+          "year": 2002,
+          "category": "visual_effects"
+        }
       ]
     }
   ],

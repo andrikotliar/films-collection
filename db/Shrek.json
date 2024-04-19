@@ -115,13 +115,31 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Animated Feature"
+        {
+          "title": "Best Animated Feature",
+          "year": 2002,
+          "category": "best_movie"
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Screenplay (Adapted)"
+        {
+          "title": "Best Screenplay - Adapted",
+          "year": 2002,
+          "category": "screenplay"
+        }
+      ]
+    },
+    {
+      "title": "Saturn",
+      "nominations": [
+        {
+          "title": "Best DVD Special Edition Release",
+          "year": 2002,
+          "category": "dvd"
+        }
       ]
     }
   ],

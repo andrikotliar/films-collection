@@ -150,28 +150,66 @@
     }
   ],
   "budget": 306000000,
+  "boxOffice": 2000000000,
   "awards": [
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Achievement in Special Visual Effects"
+        {
+          "title": "Best Achievement in Special Visual Effects",
+          "year": 2016,
+          "category": "visual_effects"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Science Fiction Film",
-        "Best Writing",
-        "Best Actor",
-        "Best Supporting Actor",
-        "Best Music",
-        "Best Editing",
-        "Best Make-Up",
-        "Best Special Effects"
+        {
+          "title": "Best Science Fiction Film",
+          "year": 2016,
+          "category": "genre"
+        },
+        {
+          "title": "Best Writing",
+          "year": 2016,
+          "category": "screenplay"
+        },
+        {
+          "title": "Best Actor",
+          "year": 2016,
+          "category": "cast",
+          "nominee": "Harrison Ford"
+        },
+        {
+          "title": "Best Supporting Actor",
+          "year": 2016,
+          "category": "cast",
+          "nominee": "Adam Driver"
+        },
+        {
+          "title": "Best Music",
+          "year": 2016,
+          "category": "music"
+        },
+        {
+          "title": "Best Editing",
+          "year": 2016,
+          "category": "editing"
+        },
+        {
+          "title": "Best Make-Up",
+          "year": 2016,
+          "category": "make_up"
+        },
+        {
+          "title": "Best Special Effects",
+          "year": 2016,
+          "category": "special_effects"
+        }
       ]
     }
   ],
-  "boxOffice": 2069999999.9999998,
   "year": [
     2015
   ],

@@ -142,47 +142,134 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Art Direction-Set Decoration",
-        "Best Costume Design",
-        "Best Sound",
-        "Best Film Editing",
-        "Best Visual Effects"
+        {
+          "title": "Best Art Direction-Set Decoration",
+          "year": 1978,
+          "category": "art_direction"
+        },
+        {
+          "title": "Best Costume Design",
+          "year": 1978,
+          "category": "costumes"
+        },
+        {
+          "title": "Best Sound",
+          "year": 1978,
+          "category": "sound_effects"
+        },
+        {
+          "title": "Best Film Editing",
+          "year": 1978,
+          "category": "editing"
+        },
+        {
+          "title": "Best Visual Effects",
+          "year": 1978,
+          "category": "visual_effects"
+        }
       ]
     },
     {
-      "title": "Golden Globes",
+      "title": "Golden Globe",
       "nominations": [
-        "Best Original Score - Motion Picture"
+        {
+          "title": "Best Original Score - Motion Picture",
+          "year": 1978,
+          "category": "best_movie"
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Sound"
+        {
+          "title": "Best Sound",
+          "year": 1978,
+          "category": "sound_effects"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best DVD Collection",
-        "Best Science Fiction Film",
-        "Best Supporting Actor",
-        "Best Director",
-        "Best Writing",
-        "Best Music",
-        "Best Costumes",
-        "Best Make-Up",
-        "Best Special Effects",
-        "Outstanding Editing",
-        "Outstanding Sound",
-        "Outstanding Art Direction",
-        "Outstanding Set Decoration"
+        {
+          "title": "Best DVD Collection",
+          "year": 2005,
+          "category": "dvd",
+          "comment": "As a part of \"Star Wars Trilogy\""
+        },
+        {
+          "title": "Best Science Fiction Film",
+          "year": 1978,
+          "category": "genre"
+        },
+        {
+          "title": "Best Supporting Actor",
+          "year": 1978,
+          "category": "cast",
+          "nominee": "Peter Cushing",
+          "comment": "as Moff Tarkin"
+        },
+        {
+          "title": "Best Director",
+          "year": 1978,
+          "category": "director"
+        },
+        {
+          "title": "Best Writing",
+          "year": 1978,
+          "category": "screenplay"
+        },
+        {
+          "title": "Best Music",
+          "year": 1978,
+          "category": "music"
+        },
+        {
+          "title": "Best Costumes",
+          "year": 1978,
+          "category": "costumes"
+        },
+        {
+          "title": "Best Make-Up",
+          "year": 1978,
+          "category": "make_up"
+        },
+        {
+          "title": "Best Special Effects",
+          "year": 1978,
+          "category": "special_effects"
+        },
+        {
+          "title": "Outstanding Editing",
+          "year": 1978,
+          "category": "editing"
+        },
+        {
+          "title": "Outstanding Sound",
+          "year": 1978,
+          "category": "sound_effects"
+        },
+        {
+          "title": "Outstanding Art Direction",
+          "year": 1978,
+          "category": "art_direction"
+        },
+        {
+          "title": "Outstanding Set Decoration",
+          "year": 1978,
+          "category": "production_design"
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Lifetime Achievement"
+        {
+          "title": "Lifetime Achievement",
+          "year": 1977,
+          "category": "For the Star Wars trilogy"
+        }
       ]
     }
   ],

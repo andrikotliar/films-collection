@@ -197,19 +197,56 @@
   ],
   "awards": [
     {
-      "title": "Emmy",
+      "title": "Primetime Emmy",
       "nominations": [
-        "Outstanding Television Movie",
-        "Outstanding Special Visual Effects in a Supporting Role",
-        "Outstanding Lead Actor in a Miniseries or a Movie",
-        "Outstanding Supporting Actor in a Miniseries or a Movie",
-        "Outstanding Writing for a Miniseries or a Dramatic Special",
-        "Outstanding Cinematography for a Miniseries or Movie",
-        "Outstanding Music Composition for a Miniseries",
-        "Movie or a Special (Original Dramatic Score)",
-        "Outstanding Single-Camera Picture Editing for a Miniseries or a Movie",
-        "Outstanding Sound Editing for a Miniseries",
-        "Movie or a Special"
+        {
+          "title": "Outstanding Television Movie",
+          "year": 2016,
+          "category": "best_movie"
+        },
+        {
+          "title": "Outstanding Special Visual Effects in a Supporting Role",
+          "year": 2016,
+          "category": "visual_effects",
+          "comment": "For episode: \"The Abominable Bride\""
+        },
+        {
+          "title": "Outstanding Lead Actor in a Miniseries or a Movie",
+          "year": 2014,
+          "category": "cast",
+          "nominee": "Benedict Cumberbatch"
+        },
+        {
+          "title": "Outstanding Supporting Actor in a Miniseries or a Movie",
+          "year": 2014,
+          "category": "cast",
+          "nominee": "Martin Freeman"
+        },
+        {
+          "title": "Outstanding Writing for a Miniseries or a Dramatic Special",
+          "year": 2014,
+          "category": "screenplay"
+        },
+        {
+          "title": "Outstanding Cinematography for a Miniseries or Movie",
+          "year": 2014,
+          "category": "cinematography"
+        },
+        {
+          "title": "Outstanding Music Composition for a Miniseries, Movie or a Special (Original Dramatic Score)",
+          "year": 2014,
+          "category": "music"
+        },
+        {
+          "title": "Outstanding Single-Camera Picture Editing for a Miniseries or a Movie",
+          "year": 2014,
+          "category": "editing"
+        },
+        {
+          "title": "Outstanding Sound Editing for a Miniseries, Movie or a Special",
+          "year": 2014,
+          "category": "sound_effects"
+        }
       ]
     }
   ],

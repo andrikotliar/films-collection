@@ -145,17 +145,42 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Sound"
+        {
+          "title": "Best Sound",
+          "year": 1981,
+          "category": "sound_effects"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best DVD Collection",
-        "Best Science Fiction Film",
-        "Best Actor",
-        "Best Director",
-        "Best Special Effects"
+        {
+          "title": "Best DVD Collection",
+          "year": 2005,
+          "category": "As a part of \"Star Wars Trilogy\""
+        },
+        {
+          "title": "Best Science Fiction Film",
+          "year": 1981,
+          "category": "genre"
+        },
+        {
+          "title": "Best Actor",
+          "year": 1981,
+          "category": "cast",
+          "nominee": "Mark Hamill"
+        },
+        {
+          "title": "Best Director",
+          "year": 1981,
+          "category": "director"
+        },
+        {
+          "title": "Best Special Effects",
+          "year": 1981,
+          "category": "special_effects"
+        }
       ]
     }
   ],

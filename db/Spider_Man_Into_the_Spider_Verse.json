@@ -180,19 +180,31 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Animated Feature Film"
+        {
+          "title": "Best Animated Feature Film",
+          "year": 2019,
+          "category": "best_movie"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Animated Film"
+        {
+          "title": "Best Animated Film",
+          "year": 2019,
+          "category": "best_movie"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Animated Feature"
+        {
+          "title": "Best Animated Feature",
+          "year": 2019,
+          "category": "best_movie"
+        }
       ]
     }
   ],

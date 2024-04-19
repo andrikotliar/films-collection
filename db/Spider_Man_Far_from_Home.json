@@ -124,8 +124,18 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Supporting Actress",
-        "Best Performance by a Younger Actor"
+        {
+          "title": "Best Supporting Actress",
+          "year": 2019,
+          "category": "cast",
+          "nominee": "Zendaya"
+        },
+        {
+          "title": "Best Performance by a Younger Actor",
+          "year": 2019,
+          "category": "cast",
+          "nominee": "Tom Holland"
+        }
       ]
     }
   ],

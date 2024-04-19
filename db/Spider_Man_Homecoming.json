@@ -154,7 +154,12 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Performance by a Younger Actor"
+        {
+          "title": "Best Performance by a Younger Actor",
+          "year": 2018,
+          "category": "cast",
+          "nominee": "Tom Holland"
+        }
       ]
     }
   ],

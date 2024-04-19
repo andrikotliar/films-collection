@@ -118,8 +118,16 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Action/Adventure Film",
-        "Best Editing"
+        {
+          "title": "Best Action/Adventure Film",
+          "year": 2012,
+          "category": "genre"
+        },
+        {
+          "title": "Best Editing",
+          "year": 2012,
+          "category": "editing"
+        }
       ]
     }
   ],

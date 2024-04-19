@@ -129,7 +129,11 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Make-Up"
+        {
+          "title": "Best Make-Up",
+          "year": 2008,
+          "category": "make_up"
+        }
       ]
     }
   ],

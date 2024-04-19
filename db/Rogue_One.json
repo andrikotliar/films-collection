@@ -148,9 +148,21 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Science Fiction Film",
-        "Best Director",
-        "Best Special Effects"
+        {
+          "title": "Best Science Fiction Film",
+          "year": 2017,
+          "category": "genre"
+        },
+        {
+          "title": "Best Director",
+          "year": 2017,
+          "category": "director"
+        },
+        {
+          "title": "Best Special Effects",
+          "year": 2017,
+          "category": "special_effects"
+        }
       ]
     }
   ],

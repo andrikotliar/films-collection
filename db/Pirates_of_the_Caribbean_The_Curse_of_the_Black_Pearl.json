@@ -121,25 +121,42 @@
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Make Up/Hair"
+        {
+          "title": "Best Make Up/Hair",
+          "year": 2004,
+          "category": "make_up"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Costumes"
+        {
+          "title": "Best Costumes",
+          "year": 2004,
+          "category": "costumes"
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Male Performance"
+        {
+          "title": "Best Male Performance",
+          "year": 2004,
+          "category": "cast",
+          "nominee": "Johnny Depp"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Family Film - Live Action"
+        {
+          "title": "Best Family Film - Live Action",
+          "year": 2004,
+          "category": "genre"
+        }
       ]
     }
   ],

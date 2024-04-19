@@ -180,13 +180,21 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Achievement in Makeup"
+        {
+          "title": "Best Achievement in Makeup",
+          "year": 2010,
+          "category": "make_up"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Make-Up"
+        {
+          "title": "Best Make-Up",
+          "year": 2010,
+          "category": "make_up"
+        }
       ]
     }
   ],

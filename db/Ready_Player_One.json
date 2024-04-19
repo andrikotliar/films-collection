@@ -156,7 +156,11 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Science Fiction Film"
+        {
+          "title": "Best Science Fiction Film",
+          "year": 2019,
+          "category": "genre"
+        }
       ]
     }
   ],

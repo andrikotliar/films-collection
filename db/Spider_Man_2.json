@@ -121,17 +121,42 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Achievement in Visual Effects"
+        {
+          "title": "Best Achievement in Visual Effects",
+          "year": 2005,
+          "category": "visual_effects"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Fantasy Film",
-        "Best Actor",
-        "Best Director",
-        "Best Writer",
-        "Best Special Effects"
+        {
+          "title": "Best Fantasy Film",
+          "year": 2005,
+          "category": "genre"
+        },
+        {
+          "title": "Best Actor",
+          "year": 2005,
+          "category": "cast",
+          "nominee": "Tobey Maguire"
+        },
+        {
+          "title": "Best Director",
+          "year": 2005,
+          "category": "director"
+        },
+        {
+          "title": "Best Writer",
+          "year": 2005,
+          "category": "screenplay"
+        },
+        {
+          "title": "Best Special Effects",
+          "year": 2005,
+          "category": "special_effects"
+        }
       ]
     }
   ],

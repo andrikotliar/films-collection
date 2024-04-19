@@ -126,8 +126,16 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Science Fiction Film",
-        "Best Music"
+        {
+          "title": "Best Science Fiction Film",
+          "year": 2006,
+          "category": "genre"
+        },
+        {
+          "title": "Best Music",
+          "year": 2006,
+          "category": "music"
+        }
       ]
     }
   ],
