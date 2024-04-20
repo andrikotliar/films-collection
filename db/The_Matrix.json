@@ -125,40 +125,78 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Film Editing",
-        "Best Sound",
-        "Best Effects (Sound Effects Editing)",
-        "Best Effects (Visual Effects)"
-      ]
-    },
-    {
-      "title": "Golden Globes",
-      "nominations": [
-        "Best Actress in a Leading Role",
-        "Best Actor in a Leading Role",
-        "Best Visual Effects"
+        {
+          "title": "Best Film Editing",
+          "year": 2000,
+          "category": "editing"
+        },
+        {
+          "title": "Best Sound",
+          "year": 2000,
+          "category": "sound_effects"
+        },
+        {
+          "title": "Best Effects, Sound Effects Editing",
+          "year": 2000,
+          "category": "sound_effects"
+        },
+        {
+          "title": "Best Effects, Visual Effects",
+          "year": 2000,
+          "category": "visual_effects"
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Sound",
-        "Best Achievement in Special Visual Effects"
+        {
+          "title": "Best Sound",
+          "year": 2000,
+          "category": "sound_effects"
+        },
+        {
+          "title": "Best Achievement in Special Visual Effects",
+          "year": 2000,
+          "category": "visual_effects"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Science Fiction Film",
-        "Best Director"
+        {
+          "title": "Best Science Fiction Film",
+          "year": 2000,
+          "category": "genre"
+        },
+        {
+          "title": "Best Director",
+          "year": 2000,
+          "category": "director"
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Movie",
-        "Best Male Performance",
-        "Best Fight"
+        {
+          "title": "Best Movie",
+          "year": 2000,
+          "category": "best_movie"
+        },
+        {
+          "title": "Best Male Performance",
+          "year": 2000,
+          "category": "cast",
+          "nominee": "Keanu Reeves"
+        },
+        {
+          "title": "Best Fight",
+          "year": 2000,
+          "category": "action",
+          "comment": "Keanu Reeves and Laurence Fishburne"
+        }
       ]
     }
   ],

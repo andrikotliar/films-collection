@@ -227,22 +227,46 @@
   ],
   "awards": [
     {
-      "title": "Emmy",
+      "title": "Primetime Emmy",
       "nominations": [
-        "Outstanding Cinematography for a Single-Camera Series (Half-Hour)",
-        "Outstanding Music Composition for a Series (Original Dramatic Score)",
-        "Outstanding Production Design for a Narrative Program (Half-Hour)",
-        "Outstanding Stunt Coordination for a Drama Series Limited Series or Movie",
-        "Outstanding Sound Editing for a Comedy or Drama Series (Half-Hour) and Animation",
-        "Outstanding Sound Mixing for a Comedy or Drama Series (Half-Hour) and Animation",
-        "Outstanding Special Visual Effects"
+        {
+          "title": "Outstanding Cinematography for a Single-Camera Series (Half-Hour)",
+          "year": 2020,
+          "category": "cinematography"
+        },
+        {
+          "title": "Outstanding Music Composition for a Series (Original Dramatic Score)",
+          "year": 2020,
+          "category": "music"
+        },
+        {
+          "title": "Outstanding Production Design for a Narrative Program (Half-Hour)",
+          "year": 2020,
+          "category": "production_design"
+        },
+        {
+          "title": "Outstanding Stunt Coordination for a Drama Series Limited Series or Movie",
+          "year": 2020,
+          "category": "stunt_coordination"
+        },
+        {
+          "title": "Outstanding Sound Editing for a Comedy or Drama Series (Half-Hour and Animation)",
+          "year": 2020,
+          "category": "sound_effects"
+        },
+        {
+          "title": "Outstanding Sound Mixing for a Comedy or Drama Series (Half-Hour and Animation)",
+          "year": 2020,
+          "category": "sound_effects"
+        },
+        {
+          "title": "Outstanding Special Visual Effects",
+          "year": 2020,
+          "category": "visual_effects"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "Star Wars Universe",
-    "part": 9
-  },
   "year": [
     2019,
     2020

@@ -184,16 +184,29 @@
   "budget": 108000000,
   "awards": [
     {
-      "title": "Golden Globes",
+      "title": "Golden Globe",
       "nominations": [
-        "Best Motion Picture - Comedy or Musical",
-        "Best Performance by an Actor in a Motion Picture - Comedy or Musical"
+        {
+          "title": "Best Motion Picture - Comedy or Musical",
+          "year": 2016,
+          "category": "genre"
+        },
+        {
+          "title": "Best Performance by an Actor in a Motion Picture - Comedy or Musical",
+          "year": 2016,
+          "category": "cast",
+          "nominee": "Matt Damon"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Director"
+        {
+          "title": "Best Director",
+          "year": 2016,
+          "category": "director"
+        }
       ]
     }
   ],

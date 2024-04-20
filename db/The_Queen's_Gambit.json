@@ -151,15 +151,33 @@
     {
       "title": "Golden Globe",
       "nominations": [
-        "Best Motion Picture Made for Television",
-        "Best Performance by an Actress in a Motion Picture Made for Television"
+        {
+          "title": "Best Television Limited Series, Anthology Series or Motion Picture Made for Television",
+          "year": 2021,
+          "category": "best_movie"
+        },
+        {
+          "title": "Best Performance by an Actress in a Limited Series, Anthology Series or a Motion Picture Made for Television",
+          "year": 2021,
+          "category": "cast",
+          "nominee": "Anya Taylor-Joy"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Limited Series",
-        "Best Actress in a Limited Series or a Movie Made for Television"
+        {
+          "title": "Best Limited Series",
+          "year": 2021,
+          "category": "best_movie"
+        },
+        {
+          "title": "Best Actress in a Limited Series or a Movie Made for Television",
+          "year": 2021,
+          "category": "cast",
+          "nominee": "Anya Taylor-Joy"
+        }
       ]
     }
   ],
