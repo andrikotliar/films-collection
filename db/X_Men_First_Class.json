@@ -170,7 +170,11 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Make-Up"
+        {
+          "title": "Best Make-Up",
+          "year": 2012,
+          "category": "make_up"
+        }
       ]
     }
   ],

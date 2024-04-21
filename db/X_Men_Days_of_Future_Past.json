@@ -177,7 +177,11 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best DVD/Blu-Ray Special Edition Release"
+        {
+          "title": "Best DVD/Blu-Ray Special Edition Release",
+          "year": 2016,
+          "category": "dvd"
+        }
       ]
     }
   ],

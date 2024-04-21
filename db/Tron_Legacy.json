@@ -134,8 +134,17 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Production Design",
-        "Best Actor"
+        {
+          "title": "Best Production Design",
+          "year": 2011,
+          "category": "production_design"
+        },
+        {
+          "title": "Best Actor",
+          "year": 2011,
+          "category": "cast",
+          "nominee": "Jeff Bridges"
+        }
       ]
     }
   ],

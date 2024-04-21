@@ -124,13 +124,23 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Performance by a Younger Actor (Dakota Fanning)"
+        {
+          "title": "Best Performance by a Younger Actor",
+          "category": "cast",
+          "nominee": "Dakota Fanning",
+          "year": 2006
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Young Actress (Dakota Fanning)"
+        {
+          "title": "Best Young Actress",
+          "category": "cast",
+          "nominee": "Dakota Fanning",
+          "year": 2006
+        }
       ]
     }
   ],

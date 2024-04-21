@@ -153,18 +153,31 @@
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Show",
-        "Best Performance in a Show (Elizabeth Olsen)",
-        "Best Villain (Kathryn Hahn)",
-        "Best Fight",
-        "Best Hero (Teyonah Parris)"
+        {
+          "title": "Best Show",
+          "year": 2021,
+          "category": "best_movie"
+        },
+        {
+          "title": "Best Performance in a Show",
+          "category": "cast",
+          "nominee": "Elizabeth Olsen",
+          "year": 2021
+        },
+        {
+          "title": "Best Villain",
+          "category": "cast",
+          "nominee": "Kathryn Hahn",
+          "year": 2021
+        },
+        {
+          "title": "Best Fight",
+          "year": 2022,
+          "category": "Scarlet Witch vs. Agatha Harkness"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 24
-  },
   "year": [
     2021
   ],

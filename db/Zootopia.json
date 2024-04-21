@@ -150,19 +150,31 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Animated Feature Film of the Year"
+        {
+          "title": "Best Animated Feature Film of the Year",
+          "year": 2017,
+          "category": "best_of_year"
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Feature Film"
+        {
+          "title": "Best Feature Film",
+          "year": 2017,
+          "category": "best_movie"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Animated Feature"
+        {
+          "title": "Best Animated Feature",
+          "year": 2017,
+          "category": "best_movie"
+        }
       ]
     }
   ],

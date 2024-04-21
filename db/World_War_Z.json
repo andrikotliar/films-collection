@@ -120,13 +120,22 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Thriller Film"
+        {
+          "title": "Best Thriller Film",
+          "year": 2014,
+          "category": "genre"
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Scared-As-S**t Performance"
+        {
+          "title": "Best Scared-As-S**t Performance",
+          "year": 2014,
+          "category": "cast",
+          "nominee": "Brad Pitt"
+        }
       ]
     }
   ],

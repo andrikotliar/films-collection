@@ -161,12 +161,38 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Science Fiction Film",
-        "Best Actor",
-        "Best Supporting Actress",
-        "Best Director",
-        "Best Writing",
-        "Best Costumes"
+        {
+          "title": "Best Science Fiction Film",
+          "year": 2001,
+          "category": "genre"
+        },
+        {
+          "title": "Best Actor",
+          "year": 2001,
+          "category": "cast",
+          "nominee": "Hugh Jackman"
+        },
+        {
+          "title": "Best Supporting Actress",
+          "year": 2001,
+          "category": "cast",
+          "nominee": "Rebecca Romijn"
+        },
+        {
+          "title": "Best Director",
+          "year": 2001,
+          "category": "director"
+        },
+        {
+          "title": "Best Writing",
+          "year": 2001,
+          "category": "screenplay"
+        },
+        {
+          "title": "Best Costumes",
+          "year": 2001,
+          "category": "costumes"
+        }
       ]
     }
   ],

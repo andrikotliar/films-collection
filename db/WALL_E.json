@@ -128,31 +128,51 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Animated Feature Film of the Year"
+        {
+          "title": "Best Animated Feature Film of the Year",
+          "year": 2009,
+          "category": "best_of_year"
+        }
       ]
     },
     {
-      "title": "Golden Globes",
+      "title": "Golden Globe",
       "nominations": [
-        "Best Animated Film"
+        {
+          "title": "Best Animated Film",
+          "year": 2009,
+          "category": "best_movie"
+        }
       ]
     },
     {
       "title": "BAFTA",
       "nominations": [
-        "Best Animated Film"
+        {
+          "title": "Best Animated Film",
+          "year": 2009,
+          "category": "best_movie"
+        }
       ]
     },
     {
       "title": "Saturn",
       "nominations": [
-        "Best Animated Film"
+        {
+          "title": "Best Animated Film",
+          "year": 2009,
+          "category": "best_movie"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Animated Feature"
+        {
+          "title": "Best Animated Feature",
+          "year": 2009,
+          "category": "best_movie"
+        }
       ]
     }
   ],

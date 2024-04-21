@@ -121,25 +121,82 @@
     {
       "title": "Oscar",
       "nominations": [
-        "Best Picture",
-        "Best Director",
-        "Best Cinematography",
-        "Best Art Direction-Set Decoration",
-        "Best Costume Design",
-        "Best Sound",
-        "Best Film Editing",
-        "Best Sound Effects Editing",
-        "Best Visual Effects",
-        "Best Music (Original Song)",
-        "Best Music (Original Dramatic Score)"
+        {
+          "title": "Best Picture",
+          "year": 1998,
+          "category": "best_movie"
+        },
+        {
+          "title": "Best Director",
+          "year": 1998,
+          "category": "director"
+        },
+        {
+          "title": "Best Cinematography",
+          "year": 1998,
+          "category": "cinematography"
+        },
+        {
+          "title": "Best Art Direction-Set Decoration",
+          "year": 1998,
+          "category": "art_direction"
+        },
+        {
+          "title": "Best Costume Design",
+          "year": 1998,
+          "category": "costumes"
+        },
+        {
+          "title": "Best Sound",
+          "year": 1998,
+          "category": "sound_effects"
+        },
+        {
+          "title": "Best Film Editing",
+          "year": 1998,
+          "category": "editing"
+        },
+        {
+          "title": "Best Sound Effects Editing",
+          "year": 1998,
+          "category": "sound_effects"
+        },
+        {
+          "title": "Best Visual Effects",
+          "year": 1998,
+          "category": "visual_effects"
+        },
+        {
+          "title": "Best Music (Original Song)",
+          "year": 1998,
+          "category": "music"
+        },
+        {
+          "title": "Best Music (Original Dramatic Score)",
+          "year": 1998,
+          "category": "music"
+        }
       ]
     },
     {
       "title": "Golden Globe",
       "nominations": [
-        "Best Director - Motion Picture",
-        "Best Original Score - Motion Picture",
-        "Best Original Song - Motion Picture"
+        {
+          "title": "Best Director - Motion Picture",
+          "year": 1998,
+          "category": "director"
+        },
+        {
+          "title": "Best Original Score - Motion Picture",
+          "year": 1998,
+          "category": "music"
+        },
+        {
+          "title": "Best Original Song - Motion Picture",
+          "year": 1998,
+          "category": "music",
+          "comment": "My Heart Will Go On"
+        }
       ]
     }
   ],

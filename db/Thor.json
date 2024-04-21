@@ -148,7 +148,11 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Costumes"
+        {
+          "title": "Best Costumes",
+          "year": 2012,
+          "category": "costumes"
+        }
       ]
     }
   ],

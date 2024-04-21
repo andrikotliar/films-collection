@@ -97,9 +97,21 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Science Fiction Film",
-        "Best Writing",
-        "Best Make-Up"
+        {
+          "title": "Best Science Fiction Film",
+          "year": 1985,
+          "category": "genre"
+        },
+        {
+          "title": "Best Writing",
+          "year": 1985,
+          "category": "screenplay"
+        },
+        {
+          "title": "Best Make-Up",
+          "year": 1985,
+          "category": "make_up"
+        }
       ]
     }
   ],

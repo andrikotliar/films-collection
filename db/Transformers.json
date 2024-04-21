@@ -186,13 +186,26 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Special Effects"
+        {
+          "title": "Best Special Effects",
+          "year": 2008,
+          "category": "special_effects"
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Best Movie"
+        {
+          "title": "Best Movie",
+          "year": 2008,
+          "category": "best_movie"
+        },
+        {
+          "title": "Best Summer Movie You Haven't Seen Yet",
+          "year": 2007,
+          "category": "best_movie"
+        }
       ]
     }
   ],

@@ -144,13 +144,22 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Actress"
+        {
+          "title": "Best Actress",
+          "year": 2018,
+          "category": "cast",
+          "nominee": "Gal Gadot"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "title": "Critics Choice",
       "nominations": [
-        "Best Action Movie"
+        {
+          "title": "Best Action Movie",
+          "year": 2018,
+          "category": "genre"
+        }
       ]
     }
   ],

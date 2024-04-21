@@ -175,13 +175,22 @@
     {
       "title": "Saturn",
       "nominations": [
-        "Best Science Fiction Film"
+        {
+          "title": "Best Science Fiction Film",
+          "year": 2004,
+          "category": "genre"
+        }
       ]
     },
     {
       "title": "MTV Movie Award",
       "nominations": [
-        "Breakthrough Male Performance (Shawn Ashmore)"
+        {
+          "title": "Breakthrough Male Performance",
+          "category": "cast",
+          "nominee": "Shawn Ashmore",
+          "year": 2004
+        }
       ]
     }
   ],
