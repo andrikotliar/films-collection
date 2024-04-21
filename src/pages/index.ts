@@ -5,13 +5,5 @@ const MainPage = lazy(() => import('./main/MainPage'));
 const FilmPage = lazy(() => import('./film/FilmPage'));
 const AboutPage = lazy(() => import('./about/AboutPage'));
 const StatisticPage = lazy(() => import('./statistic/StatisticPage'));
-const PersonPage = lazy(() => import('./person/PersonPage'));
 
-export {
-  MainPage,
-  FilmPage,
-  AboutPage,
-  StatisticPage,
-  PersonPage,
-  NotFoundPage,
-};
+export { MainPage, FilmPage, AboutPage, StatisticPage, NotFoundPage };
