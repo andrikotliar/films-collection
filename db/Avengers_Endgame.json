@@ -220,7 +220,7 @@
         {
           "title": "Best Actor",
           "category": "cast",
-          "nominee": "Robert Downey Jr.",
+          "nominee": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e",
           "year": 2019
         },
         {
@@ -256,14 +256,14 @@
         {
           "title": "Best Hero",
           "category": "cast",
-          "nominee": "Robert Downey Jr.",
+          "nominee": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e",
           "comment": "as Tony Stark / Iron Man",
           "year": 2019
         },
         {
           "title": "Best Villain",
           "category": "cast",
-          "nominee": "Josh Brolin",
+          "nominee": "02b35a55-aa39-45bf-b0df-6f82c5aa8f07",
           "comment": "as Thanos",
           "year": 2019
         }
