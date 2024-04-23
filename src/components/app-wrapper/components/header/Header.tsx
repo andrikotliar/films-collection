@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { MenuIcon } from 'lucide-react';
 import classNames from 'classnames';
@@ -25,6 +25,10 @@ const Header = () => {
   const handleCloseMenu = () => {
     setIsMenuOpen(false);
   };
+
+  useEffect(() => {
+    handleCloseMenu();
+  }, [location]);
 
   return (
     <header className={styles.header}>

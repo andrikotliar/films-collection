@@ -22,10 +22,14 @@ const useFocusTrap = ({ container, trigger, isOpen }: Options) => {
       const firstElement = elements[0] as HTMLElement;
       const lastElement = elements[elements.length - 1] as HTMLElement;
 
-      firstElement.focus();
-
       const controlFocusWithinContainer = (e: KeyboardEvent) => {
         if (e.key === 'Tab') {
+          if (document.activeElement === trigger) {
+            e.preventDefault();
+            firstElement.focus();
+            return;
+          }
+
           if (e.shiftKey && document.activeElement === firstElement) {
             e.preventDefault();
             lastElement.focus();

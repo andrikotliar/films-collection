@@ -64,7 +64,7 @@
   transition: background-color 0.3s ease;
 }
 
-.menuLink:focus {
+.menuLink:focus-visible {
   outline-style: dashed;
   outline-color: var(--main-color);
 }
