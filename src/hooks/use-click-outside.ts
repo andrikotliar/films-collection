@@ -14,9 +14,10 @@ const useClickOutside = ({
   closeHandler,
 }: Options) => {
   const closeMenuHandler = (event: MouseEvent) => {
+    const path = event.composedPath();
     if (
-      event.target === triggerElementRef.current ||
-      event.target === containerRef?.current
+      path.includes(containerRef.current as EventTarget) ||
+      path.includes(triggerElementRef.current as EventTarget)
     ) {
       return;
     }

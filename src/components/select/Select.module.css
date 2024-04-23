@@ -1,9 +1,4 @@
-.select {
-  position: relative;
-  outline: none;
-}
-
-.select.isDisabled {
+.isDisabled {
   opacity: 0.5;
   pointer-events: none;
   user-select: none;
@@ -23,7 +18,12 @@
   cursor: pointer;
 }
 
-.select.isDisabled .value {
+.value:focus-visible {
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.isDisabled .value {
   background-color: #f2f2f2;
   border-color: #ddd;
 }
@@ -38,11 +38,7 @@
   transition: transform 0.3s ease-in-out;
 }
 
-.select:focus .expandIcon {
-  stroke: var(--main-color);
-}
-
-.select.isDisabled .expandIcon {
+.isDisabled .expandIcon {
   stroke: #777;
 }
 
@@ -51,24 +47,12 @@
 }
 
 .dropdown {
-  position: absolute;
-  top: 45px;
-  visibility: hidden;
-  opacity: 0;
-  background-color: #fff;
   width: 100%;
   border-radius: var(--app-border-radius);
   box-shadow: 0 10px 20px rgba(0 0 0 / 25%);
-  z-index: 999;
   overflow: hidden;
-  transition: 200ms;
   max-height: 300px;
   overflow-y: auto;
-}
-
-.visible {
-  visibility: visible;
-  opacity: 1;
 }
 
 .option {
@@ -79,14 +63,17 @@
   cursor: pointer;
 }
 
-.highlighted,
-.highlighted:hover {
+.option:focus {
   color: #000;
   background-color: #a8d0eb;
 }
 
 .selected,
-.selected:hover {
+.selected:focus {
   color: #fff;
   background-color: var(--main-color);
+}
+
+.selected {
+  pointer-events: none;
 }

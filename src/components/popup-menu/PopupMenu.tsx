@@ -1,6 +1,7 @@
-import { useClickOutside, useFocusTrap } from '@/hooks';
+import { useClickOutside, useCloseOnEscape, useFocusTrap } from '@/hooks';
 import {
   FC,
+  HTMLAttributes,
   PropsWithChildren,
   RefObject,
   useEffect,
@@ -18,7 +19,9 @@ type Props = PropsWithClassName<{
   triggerRef: RefObject<HTMLButtonElement>;
   menuMargin?: number;
   positionMarker?: 'left' | 'right';
-}>;
+  shouldAdjustToTriggerWidth?: boolean;
+}> &
+  HTMLAttributes<HTMLDivElement>;
 
 type Position = {
   left: number;
@@ -35,8 +38,11 @@ const PopupMenu: FC<PropsWithChildren<Props>> = ({
   menuMargin = DEFAULT_MENU_MARGIN_PX,
   className,
   positionMarker = 'left',
+  shouldAdjustToTriggerWidth,
+  ...divProps
 }) => {
   const [position, setPosition] = useState<Position | null>(null);
+  const [menuWidth, setMenuWidth] = useState<number>();
   const menuRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -51,14 +57,22 @@ const PopupMenu: FC<PropsWithChildren<Props>> = ({
     if (triggerRef.current && menuRef.current) {
       const { width } = menuRef.current.getBoundingClientRect();
 
-      const { left, bottom, right } =
-        triggerRef.current.getBoundingClientRect();
+      const {
+        left,
+        bottom,
+        right,
+        width: buttonWidth,
+      } = triggerRef.current.getBoundingClientRect();
 
       const leftPosition = positionMarker === 'left' ? left : right - width;
 
       setPosition({ left: leftPosition, top: bottom + menuMargin });
+
+      if (shouldAdjustToTriggerWidth) {
+        setMenuWidth(buttonWidth);
+      }
     }
-  }, [isOpen, triggerRef, menuRef]);
+  }, [isOpen, triggerRef, menuRef, shouldAdjustToTriggerWidth]);
 
   useClickOutside({
     isOpen,
@@ -66,6 +80,8 @@ const PopupMenu: FC<PropsWithChildren<Props>> = ({
     triggerElementRef: triggerRef,
     containerRef: menuRef,
   });
+
+  useCloseOnEscape(isOpen, onClose);
 
   useFocusTrap({
     container: menuRef.current,
@@ -81,7 +97,8 @@ const PopupMenu: FC<PropsWithChildren<Props>> = ({
     <div
       ref={menuRef}
       className={classNames(styles.popupMenu, className)}
-      style={position ?? {}}
+      style={{ ...position, width: menuWidth }}
+      {...divProps}
     >
       {children}
     </div>,
