@@ -151,128 +151,108 @@
   "budget": 160000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "title": "Best Achievement in Cinematography",
-          "category": "cinematography",
+          "nominationId": "d39a99f8-9730-4e7f-8da8-d61ce0af0858",
           "year": 2011
         },
         {
-          "title": "Best Achievement in Sound Mixing",
-          "category": "sound_effects",
+          "nominationId": "34c7b8f1-0115-4099-99ec-1f13cfbe0fa3",
           "year": 2011
         },
         {
-          "title": "Best Achievement in Sound Editing",
-          "category": "sound_effects",
+          "nominationId": "ac85bc32-bfab-4362-9557-dd089f7a0ec5",
           "year": 2011
         },
         {
-          "title": "Best Achievement in Visual Effects",
-          "category": "visual_effects",
+          "nominationId": "a6b1a904-f461-4360-aecc-9cd91d7d537a",
           "year": 2011
         }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "title": "Best Production Design",
-          "category": "production_design",
+          "nominationId": "bb69a340-0754-4a75-943a-75dbeb2257fd",
           "year": 2011
         },
         {
-          "title": "Best Sound",
-          "category": "sound_effects",
+          "nominationId": "fc19047a-84fa-4ddc-ab69-d69aec8aba25",
           "year": 2011
         },
         {
-          "title": "Best Special Visual Effects",
-          "category": "visual_effects",
+          "nominationId": "f7bd10f5-4137-4601-8c89-d9ccc58fe6a3",
           "year": 2011
         }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Science Fiction Film",
-          "category": "genre",
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5",
           "year": 2011
         },
         {
-          "title": "Best Director",
-          "category": "director",
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be",
           "year": 2011
         },
         {
-          "title": "Best Writing",
-          "category": "screenplay",
+          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea",
           "year": 2011
         },
         {
-          "title": "Best Music",
-          "category": "music",
+          "nominationId": "be35075e-d485-4f10-9869-f89d28592465",
           "year": 2011
         },
         {
-          "title": "Best Special Effects",
-          "category": "special_effects",
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91",
           "year": 2011
         }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "title": "Best Scared-As-Shit Performance",
-          "category": "cast",
+          "nominationId": "c992410b-8a19-4d8c-b802-9d7ef781ba40",
           "nominee": "e329dda6-a5c4-4427-bf93-16bb46e8e96f",
           "year": 2011
         },
         {
-          "title": "Breakthrough Male Performance",
-          "category": "cast",
+          "nominationId": "85c641a4-a6dd-4300-a1d3-9e3fd250c1eb",
           "nominee": "ae102061-d333-4298-b22b-bde9e0bf110f",
           "year": 2011
         }
       ]
     },
     {
-      "title": "Critics Choice",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
         {
-          "title": "Best Cinematography",
-          "category": "cinematography",
+          "nominationId": "29776f60-18dc-4f87-b67d-ce014b40dca7",
           "year": 2011
         },
         {
-          "title": "Best Art Direction",
-          "category": "art_direction",
+          "nominationId": "74b1f9bc-fb1b-4520-9611-c99c1b83d336",
           "year": 2011
         },
         {
-          "title": "Best Editing",
-          "category": "editing",
+          "nominationId": "e3315655-dd72-45ea-b678-99c733428907",
           "year": 2011
         },
         {
-          "title": "Best Visual Effects",
-          "category": "visual_effects",
+          "nominationId": "1dbbd79f-d824-4e8e-83c4-bda38adc45f9",
           "year": 2011
         },
         {
-          "title": "Best Sound",
-          "category": "sound_effects",
+          "nominationId": "7bfe511a-a03e-4b99-aa6c-fff51052aea5",
           "year": 2011
         },
         {
-          "title": "Best Action Movie",
-          "category": "genre",
+          "nominationId": "53f51093-e194-40d8-94b4-28908cb6a14c",
           "year": 2011
         }
       ]

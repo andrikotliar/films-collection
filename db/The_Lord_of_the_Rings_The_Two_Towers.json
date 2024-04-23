@@ -160,102 +160,88 @@
   "budget": 94000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "title": "Best Sound Editing",
-          "year": 2003,
-          "category": "sound_effects"
+          "nominationId": "a6e431ba-5968-40c0-b626-a32b63418733",
+          "year": 2003
         },
         {
-          "title": "Best Visual Effects",
-          "year": 2003,
-          "category": "visual_effects"
+          "nominationId": "c346a523-3bf3-4f58-98e3-599206560b12",
+          "year": 2003
         }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "title": "Best Costume Design",
-          "year": 2003,
-          "category": "costumes"
+          "nominationId": "90674ec1-5025-4c2f-aea2-4140975f1b22",
+          "year": 2003
         },
         {
-          "title": "Best Achievement in Special Visual Effects",
-          "year": 2003,
-          "category": "visual_effects"
+          "nominationId": "b6836a56-a68b-4b87-b609-71ebd8c50628",
+          "year": 2003
         }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best DVD Special Edition Release",
+          "nominationId": "90dce09b-0a64-49aa-8589-1fd1783ad0fe",
           "year": 2004,
-          "category": "genre",
           "comment": "Extended Edition"
         },
         {
-          "title": "Best Fantasy Film",
-          "year": 2003,
-          "category": "genre"
+          "nominationId": "43447644-6efc-4969-b6f8-8cd2d7089fae",
+          "year": 2003
         },
         {
-          "title": "Best Supporting Actor",
+          "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
           "year": 2003,
-          "category": "cast",
           "nominee": "06360bc2-eb75-4f37-ab81-cde1933e7135"
         },
         {
-          "title": "Best Costumes",
-          "year": 2003,
-          "category": "costumes"
+          "nominationId": "d35f98cd-6d5a-41c8-b511-9046a59d8828",
+          "year": 2003
         },
         {
-          "title": "Best Make-up",
-          "year": 2003,
-          "category": "make_up"
+          "nominationId": "a3c2244b-8c42-49be-96f2-a7d2edf3b8a7",
+          "year": 2003
         }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "title": "Best Movie",
-          "year": 2003,
-          "category": "best_movie"
+          "nominationId": "125802e2-8240-480d-99b9-db1d4a922e45",
+          "year": 2003
         },
         {
-          "title": "Best On-Screen Team",
+          "nominationId": "d06005ef-f8c6-49ce-8185-7bcfc8a91b0e",
           "year": 2003,
-          "category": "cast",
           "comment": "Elijah Wood and Sean Astion"
         },
         {
-          "title": "Best Virtual Performance",
+          "nominationId": "7a60c061-93f9-4c40-9a55-774e98bc58bb",
           "year": 2003,
-          "category": "virtual_performance",
           "comment": "Gollum"
         },
         {
-          "title": "Best Action Sequence",
+          "nominationId": "2f12b906-153f-4cd2-b719-e0e9d54527a0",
           "year": 2003,
-          "category": "action",
           "comment": "The battle for Helms Deep"
         }
       ]
     },
     {
-      "title": "Critics Choice",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
         {
-          "title": "Best Digital Acting Performance",
+          "nominationId": "111c6946-f2d3-4619-adab-f5a68d272890",
           "year": 2003,
-          "category": "virtual_performance",
           "comment": "Gollum"
         }
       ]

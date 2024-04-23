@@ -140,12 +140,11 @@
   "budget": 160000000,
   "awards": [
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "title": "Best Hero",
+          "nominationId": "9c04a0b5-a613-49ec-be5c-e6290b90911e",
           "year": 2015,
-          "category": "cast",
           "nominee": "29b99567-4a10-4246-9bb2-26b55a9c1e63"
         }
       ]

@@ -119,46 +119,41 @@
   "budget": 225000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "title": "Best Achievement in Visual Effects",
-          "year": 2007,
-          "category": "visual_effects"
+          "nominationId": "a6b1a904-f461-4360-aecc-9cd91d7d537a",
+          "year": 2007
         }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "title": "Best Achievement in Special Visual Effects",
-          "year": 2007,
-          "category": "visual_effects"
+          "nominationId": "b6836a56-a68b-4b87-b609-71ebd8c50628",
+          "year": 2007
         }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Special Effects",
-          "year": 2007,
-          "category": "special_effects"
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91",
+          "year": 2007
         }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "title": "Best Movie",
-          "year": 2007,
-          "category": "best_movie"
+          "nominationId": "125802e2-8240-480d-99b9-db1d4a922e45",
+          "year": 2007
         },
         {
-          "title": "Best Performance",
-          "category": "cast",
+          "nominationId": "7d150dfa-5f76-4262-9e06-5600d70ffc2a",
           "nominee": "e2d2c602-347d-41a4-8f35-a3d379043577",
           "year": 2007
         }

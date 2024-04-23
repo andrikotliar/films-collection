@@ -127,12 +127,11 @@
   "budget": 38000000,
   "awards": [
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "title": "Best On-Screen Team",
+          "nominationId": "d06005ef-f8c6-49ce-8185-7bcfc8a91b0e",
           "year": 2002,
-          "category": "cast",
           "comment": "Dominic Toretto and Brian O'Conner"
         }
       ]

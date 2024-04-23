@@ -246,116 +246,98 @@
   ],
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Performance by a Younger Actor in a Television Series",
+          "nominationId": "ac69b30b-8d41-4324-959b-4de0c4351cb2",
           "year": 2017,
-          "category": "cast",
           "nominee": "3b25b0fc-954b-4863-a6d9-5ba457d5fa41"
         },
         {
-          "title": "Best Supporting Actress in Streaming Presentation",
+          "nominationId": "b9ce2496-5d9c-4c45-bd2c-7523193813f9",
           "year": 2017,
-          "category": "cast",
           "nominee": "31db8789-fe19-43ac-a9df-c0e85bdc26ea"
         },
         {
-          "title": "Best Streaming Horror & Thriller Series",
-          "year": 2022,
-          "category": "genre"
+          "nominationId": "e1a07b16-cd0e-4b48-86d7-49e8e6fe92c0",
+          "year": 2022
         },
         {
-          "title": "Best Streaming Horror & Thriller Series",
-          "year": 2019,
-          "category": "genre"
+          "nominationId": "e1a07b16-cd0e-4b48-86d7-49e8e6fe92c0",
+          "year": 2019
         },
         {
-          "title": "Best New Media Television Series",
-          "year": 2017,
-          "category": "best_movie"
+          "nominationId": "8db5c8bd-ea70-4e58-8637-24287d247615",
+          "year": 2017
         }
       ]
     },
     {
-      "title": "Critics Choice",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
         {
-          "title": "Best Supporting Actor in a Drama Series",
+          "nominationId": "bdb7a047-42e4-44a9-9122-ec8d1c38c769",
           "year": 2018,
-          "category": "cast",
           "nominee": "1137f062-f67c-4686-9857-0ffc1bf53aa5"
         }
       ]
     },
     {
-      "title": "Primetime Emmy",
+      "awardId": "bee25875-f12e-4dfe-9fc5-f25cdb5d836d",
       "nominations": [
         {
-          "title": "Outstanding Stunt Coordination for a Drama Series, Limited of Anthology Series or Movie",
+          "nominationId": "c57e4f76-f7de-45e8-becd-e29a8f58345a",
           "year": 2022,
-          "category": "stunt_coordinator",
           "comment": "Hiro Koda - stunt coordinator"
         },
         {
-          "title": "Outstanding Sound Editing for a Comedy or Drama Series (One Hour)",
-          "year": 2022,
-          "category": "sound_effects"
+          "nominationId": "14bbeb92-155a-4b95-8191-3520856886b5",
+          "year": 2022
         },
         {
-          "title": "Outstanding Sound Mixing for a Comedy or Drama Series (One Hour)",
+          "nominationId": "f7aeea61-9f2c-4601-b438-80368c3a2a09",
           "year": 2022,
-          "category": "sound_effects",
           "comment": "\"The Massacre at Hawkins Lab\" episode"
         },
         {
-          "title": "Outstanding Music Supervision",
+          "nominationId": "7f461021-e76c-4fe5-8a89-3fecb1992e1b",
           "year": 2022,
-          "category": "sound_effects",
           "comment": "\"Dear Billy\" episode"
         },
         {
-          "title": "Outstanding Prosthetic Makeup",
+          "nominationId": "dee6e4c3-f3f0-4f29-95be-97053e1cfd59",
           "year": 2022,
-          "category": "make_up",
           "comment": "\"Dear Billy\" episode"
         },
         {
-          "title": "Outstanding Sound Editing for a Comedy or Drama Series (One Hour)",
+          "nominationId": "14bbeb92-155a-4b95-8191-3520856886b5",
           "year": 2020,
-          "category": "sound_effects",
           "comment": "\"The Battle of Starcourt\" episode"
         },
         {
-          "title": "Outstanding Sound Editing for a Comedy or Drama Series (One Hour)",
+          "nominationId": "14bbeb92-155a-4b95-8191-3520856886b5",
           "year": 2018,
-          "category": "sound_effects",
           "comment": "\"The Ming Flayer\" episode"
         },
         {
-          "title": "Outstanding Main Title Design",
-          "year": 2017,
-          "category": "production_design"
+          "nominationId": "a95b04f3-ae06-454b-997b-1f7a9a84bb90",
+          "year": 2017
         },
         {
-          "title": "Outstanding Original Main Title Theme Music",
-          "year": 2017,
-          "category": "sound_effects"
+          "nominationId": "24a6a674-1e32-464a-a2e3-328d52668bd5",
+          "year": 2017
         },
         {
-          "title": "Outstanding Casting for a Drama Series",
-          "year": 2017,
-          "category": "casting"
+          "nominationId": "8e7ffc12-f5ae-4bbf-972e-9f6c79ec5499",
+          "year": 2017
         },
         {
-          "title": "Outstanding Single-Camera Picture Editing for a Drama Series",
-          "year": 2017,
-          "category": "cinematography"
+          "nominationId": "907c69e6-dc76-47ec-bd50-1a348e60ddc4",
+          "year": 2017
         },
         {
-          "title": "Outstanding Sound Editing for a Series",
-          "year": 2017,
-          "category": "sound_effects"
+          "nominationId": "694cdcf7-bef3-4fbb-a477-fce5698b43e9",
+          "year": 2017
         }
       ]
     }

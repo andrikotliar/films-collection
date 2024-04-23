@@ -150,151 +150,127 @@
   "budget": 237000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "title": "Best Achievement in Cinematography",
-          "category": "cinematography",
+          "nominationId": "d39a99f8-9730-4e7f-8da8-d61ce0af0858",
           "year": 2010
         },
         {
-          "title": "Best Achievement in Visual Effects",
-          "category": "visual_effects",
+          "nominationId": "a6b1a904-f461-4360-aecc-9cd91d7d537a",
           "year": 2010
         },
         {
-          "title": "Best Achievement in Art Direction",
-          "category": "production_design",
+          "nominationId": "ca03f1f4-dade-4358-8dc6-0dd2493be0cc",
           "year": 2010
         }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "title": "Best Production Design",
-          "category": "production_design",
+          "nominationId": "bb69a340-0754-4a75-943a-75dbeb2257fd",
           "year": 2010
         },
         {
-          "title": "Best Special Visual Effects",
-          "category": "visual_effects",
+          "nominationId": "f7bd10f5-4137-4601-8c89-d9ccc58fe6a3",
           "year": 2010
         }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best DVD Special Edition",
-          "category": "dvd",
+          "nominationId": "835b9846-24c4-4ec3-8543-0cbd322cb2e8",
           "year": 2011,
           "comment": "The \"Extended Collector's Edition\" release."
         },
         {
-          "title": "Best Actor",
-          "category": "cast",
+          "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
           "nominee": "231acbe9-f5fd-46fb-84ad-0a0ea009f828",
           "year": 2010
         },
         {
-          "title": "Best Actress",
-          "category": "cast",
+          "nominationId": "66954688-228a-4288-b89a-af7fb4b3f890",
           "nominee": "23e53bab-62a5-43a6-99a4-f61d68612d7d",
           "year": 2010
         },
         {
-          "title": "Best Supporting Actor",
-          "category": "cast",
+          "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
           "nominee": "34a6cfdf-8d07-4ce7-b0fb-684b9cc105dc",
           "year": 2010
         },
         {
-          "title": "Best Supporting Actress",
-          "category": "cast",
+          "nominationId": "fe65a215-a19f-4382-a43e-c1dd27f8f27e",
           "nominee": "2cf2b71a-2fe4-4ac9-a7a3-6ea1a9985770",
           "year": 2010
         },
         {
-          "title": "Best Director",
-          "category": "director",
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be",
           "year": 2010
         },
         {
-          "title": "Best Writing",
-          "category": "screenplay",
+          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea",
           "year": 2010
         },
         {
-          "title": "Best Music",
-          "category": "music",
+          "nominationId": "be35075e-d485-4f10-9869-f89d28592465",
           "year": 2010
         },
         {
-          "title": "Best Production Design",
-          "category": "production_design",
+          "nominationId": "038bfccf-c5b8-47c9-b285-219c4e5d1efd",
           "year": 2010
         },
         {
-          "title": "Best Science Fiction Film",
-          "category": "genre",
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5",
           "year": 2010
         },
         {
-          "title": "Best Special Effects",
-          "category": "special_effects",
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91",
           "year": 2010
         }
       ]
     },
     {
-      "title": "Golden Globe",
+      "awardId": "ae6f2bdf-42ac-4c5d-9744-881198ac1a1d",
       "nominations": [
         {
-          "title": "Best Director - Motion Picture",
-          "category": "director",
+          "nominationId": "2654065c-16c7-426c-9dde-871e2e2be33a",
           "year": 2010
         },
         {
-          "title": "Best Motion Picture - Drama",
-          "category": "genre",
+          "nominationId": "1f4a5da9-689e-4ff5-8100-497bf998787f",
           "year": 2010
         }
       ]
     },
     {
-      "title": "Critics Choice",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
         {
-          "title": "Best Cinematography",
-          "category": "cinematography",
+          "nominationId": "29776f60-18dc-4f87-b67d-ce014b40dca7",
           "year": 2010
         },
         {
-          "title": "Best Editing",
-          "category": "editing",
+          "nominationId": "e3315655-dd72-45ea-b678-99c733428907",
           "year": 2010
         },
         {
-          "title": "Best Art Direction",
-          "category": "art_direction",
+          "nominationId": "74b1f9bc-fb1b-4520-9611-c99c1b83d336",
           "year": 2010
         },
         {
-          "title": "Best Sound",
-          "category": "sound_effects",
+          "nominationId": "7bfe511a-a03e-4b99-aa6c-fff51052aea5",
           "year": 2010
         },
         {
-          "title": "Best Visual Effects",
-          "category": "visual_effects",
+          "nominationId": "1dbbd79f-d824-4e8e-83c4-bda38adc45f9",
           "year": 2010
         },
         {
-          "title": "Best Action Movie",
-          "category": "genre",
+          "nominationId": "53f51093-e194-40d8-94b4-28908cb6a14c",
           "year": 2010
         }
       ]

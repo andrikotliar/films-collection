@@ -116,11 +116,10 @@
   "budget": 70000000,
   "awards": [
     {
-      "title": "Jupiter",
+      "awardId": "7ebe7513-34d1-4e11-8654-0f6390c2c290",
       "nominations": [
         {
-          "title": "Best International Actor",
-          "category": "cast",
+          "nominationId": "8f0cd2b0-fa7e-4898-8e97-1920c9b31616",
           "nominee": "0e631141-1b4a-4ed9-8325-5a1947f08404",
           "year": 2005
         }

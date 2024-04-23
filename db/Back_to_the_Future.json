@@ -132,11 +132,10 @@
   "budget": 19000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "title": "Best Sound Effects Editing",
-          "category": "sound_effects",
+          "nominationId": "be727846-3c6e-4539-8962-2c3539ea9ff1",
           "year": 1986
         }
       ]

@@ -153,59 +153,50 @@
   "boxOffice": 2000000000,
   "awards": [
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "title": "Best Achievement in Special Visual Effects",
-          "year": 2016,
-          "category": "visual_effects"
+          "nominationId": "b6836a56-a68b-4b87-b609-71ebd8c50628",
+          "year": 2016
         }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Science Fiction Film",
-          "year": 2016,
-          "category": "genre"
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5",
+          "year": 2016
         },
         {
-          "title": "Best Writing",
-          "year": 2016,
-          "category": "screenplay"
+          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea",
+          "year": 2016
         },
         {
-          "title": "Best Actor",
+          "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
           "year": 2016,
-          "category": "cast",
           "nominee": "cb7f43c6-0555-423c-8baa-9abdd084ab80"
         },
         {
-          "title": "Best Supporting Actor",
+          "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
           "year": 2016,
-          "category": "cast",
           "nominee": "0aab5e43-79d6-4ffd-a921-bfd17a551394"
         },
         {
-          "title": "Best Music",
-          "year": 2016,
-          "category": "music"
+          "nominationId": "be35075e-d485-4f10-9869-f89d28592465",
+          "year": 2016
         },
         {
-          "title": "Best Editing",
-          "year": 2016,
-          "category": "editing"
+          "nominationId": "4776a35c-732d-4ca9-a4ff-2d3312cf353f",
+          "year": 2016
         },
         {
-          "title": "Best Make-up",
-          "year": 2016,
-          "category": "make_up"
+          "nominationId": "a3c2244b-8c42-49be-96f2-a7d2edf3b8a7",
+          "year": 2016
         },
         {
-          "title": "Best Special Effects",
-          "year": 2016,
-          "category": "special_effects"
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91",
+          "year": 2016
         }
       ]
     }

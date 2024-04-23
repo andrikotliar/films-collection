@@ -95,22 +95,19 @@
   "budget": 6400000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Science Fiction Film",
-          "year": 1985,
-          "category": "genre"
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5",
+          "year": 1985
         },
         {
-          "title": "Best Writing",
-          "year": 1985,
-          "category": "screenplay"
+          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea",
+          "year": 1985
         },
         {
-          "title": "Best Make-up",
-          "year": 1985,
-          "category": "make_up"
+          "nominationId": "a3c2244b-8c42-49be-96f2-a7d2edf3b8a7",
+          "year": 1985
         }
       ]
     }

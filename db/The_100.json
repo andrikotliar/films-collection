@@ -676,12 +676,11 @@
   ],
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Youth-Oriented Series on Television",
-          "year": 2015,
-          "category": "best_movie"
+          "nominationId": "4f50a3c3-8ddb-45e1-b08e-3171814ed2e2",
+          "year": 2015
         }
       ]
     }

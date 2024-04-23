@@ -294,50 +294,43 @@
   ],
   "awards": [
     {
-      "title": "Primetime Emmy",
+      "awardId": "bee25875-f12e-4dfe-9fc5-f25cdb5d836d",
       "nominations": [
         {
-          "title": "Outstanding Individual Achievement in Animation",
-          "category": "animation",
+          "nominationId": "90dc0862-e778-4aef-9a86-3adbd717291e",
           "year": 2007
         }
       ]
     },
     {
-      "title": "Annie",
+      "awardId": "c4127f39-85a6-440c-bdcc-8742beb6e2f7",
       "nominations": [
         {
-          "title": "Best Animated Television Production Produced for Children",
-          "year": 2009,
-          "category": "best_movie"
+          "nominationId": "c8f59cea-39f8-4d08-86fb-b2ae18175c3b",
+          "year": 2009
         },
         {
-          "title": "Best Directing in an Animated Television Production or Short Form",
-          "category": "director",
+          "nominationId": "fbe7cd6e-c83f-4c33-b80f-d7ad0653c339",
           "comment": "Joaquim Dos Santos. For episode \"Sozin's Comet: Part 3 - Into the Inferno\" (season 3, episode 20)",
           "year": 2009
         },
         {
-          "title": "Best Character Animation in a Television Production",
-          "category": "animation",
+          "nominationId": "2aac359f-94d4-46aa-9695-6d69a80b460e",
           "comment": "Jae-Myung Yoo. For episode \"The Blind Bandit\" (season 2 episode 6)",
           "year": 2007
         },
         {
-          "title": "Best Directing in an Animated Television Production",
-          "category": "director",
+          "nominationId": "a1cc48e6-5d13-447e-b744-ac5b1e2ac47a",
           "comment": "Giancarlo Volpe. For episode \"The Drill\" (season 2 episode 13)",
           "year": 2007
         },
         {
-          "title": "Best Storyboarding in an Animated Television Production",
-          "category": "director",
+          "nominationId": "3f4b2fea-01a1-45a8-863a-bb1edf801edb",
           "comment": "Lauren MacMullan. For episode \"The Deserter\" (season 1 episode 16)",
           "year": 2006
         },
         {
-          "title": "Best Animated Television Production",
-          "category": "best_movie",
+          "nominationId": "2fcb9191-7cae-43bd-ba04-76d0df98f953",
           "year": 2006
         }
       ]

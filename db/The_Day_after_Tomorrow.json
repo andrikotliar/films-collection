@@ -160,32 +160,29 @@
   "budget": 125000000,
   "awards": [
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "title": "Best Achievement in Special Visual Effects",
-          "year": 2005,
-          "category": "visual_effects"
+          "nominationId": "b6836a56-a68b-4b87-b609-71ebd8c50628",
+          "year": 2005
         }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "title": "Best Action Sequence",
-          "year": 2005,
-          "category": "Destruction of LA"
+          "nominationId": "2f12b906-153f-4cd2-b719-e0e9d54527a0",
+          "year": 2005
         }
       ]
     },
     {
-      "title": "Jupiter",
+      "awardId": "7ebe7513-34d1-4e11-8654-0f6390c2c290",
       "nominations": [
         {
-          "title": "Best International Film",
-          "year": 2005,
-          "category": "best_movie"
+          "nominationId": "67d69cb3-6401-46f7-8765-4bd74eaba0a0",
+          "year": 2005
         }
       ]
     }

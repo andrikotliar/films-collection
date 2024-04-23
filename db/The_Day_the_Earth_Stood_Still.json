@@ -145,12 +145,11 @@
   "budget": 80000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Performance by a Younger Actor",
+          "nominationId": "dedc1e3d-4b67-46dd-bfd5-480f7a05d7e6",
           "year": 2009,
-          "category": "cast",
           "nominee": "09816309-1e66-41ba-ad2e-a4a480b3e99f"
         }
       ]

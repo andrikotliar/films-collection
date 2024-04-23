@@ -119,43 +119,39 @@
   "budget": 140000000,
   "awards": [
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "title": "Best Make Up/Hair",
-          "year": 2004,
-          "category": "make_up"
+          "nominationId": "49107a05-62b8-41da-93e6-98fb6423885d",
+          "year": 2004
         }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Costumes",
-          "year": 2004,
-          "category": "costumes"
+          "nominationId": "d35f98cd-6d5a-41c8-b511-9046a59d8828",
+          "year": 2004
         }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "title": "Best Male Performance",
+          "nominationId": "d974522c-228d-4bd2-9c6f-db86d4c4acc2",
           "year": 2004,
-          "category": "cast",
           "nominee": "e2d2c602-347d-41a4-8f35-a3d379043577"
         }
       ]
     },
     {
-      "title": "Critics Choice",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
         {
-          "title": "Best Family Film - Live Action",
-          "year": 2004,
-          "category": "genre"
+          "nominationId": "1aab9cd6-3a4f-4c34-9394-b4ff3b1854ff",
+          "year": 2004
         }
       ]
     }

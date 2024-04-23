@@ -151,29 +151,25 @@
   ],
   "awards": [
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "title": "Best Show",
-          "year": 2021,
-          "category": "best_movie"
+          "nominationId": "40a411f5-4379-4e05-9c99-df6f5a0fa53b",
+          "year": 2021
         },
         {
-          "title": "Best Performance in a Show",
-          "category": "cast",
+          "nominationId": "c1a5dfa1-71a4-4607-99b2-063a66a9580c",
           "nominee": "f08bca90-8dc3-440a-a32a-4647bdf4d828",
           "year": 2021
         },
         {
-          "title": "Best Villain",
-          "category": "cast",
+          "nominationId": "d3bafbf4-f684-4f60-875a-5cbbe09c14e2",
           "nominee": "a4b05dba-4bbc-4fcf-a6f1-4fec23f7c586",
           "year": 2021
         },
         {
-          "title": "Best Fight",
-          "year": 2022,
-          "category": "Scarlet Witch vs. Agatha Harkness"
+          "nominationId": "6f842add-0dec-488d-9a04-93e78aaddcc3",
+          "year": 2022
         }
       ]
     }

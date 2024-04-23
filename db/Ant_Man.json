@@ -157,11 +157,10 @@
   "budget": 130000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Comic-to-Film Motion Picture",
-          "category": "adaptation",
+          "nominationId": "f7a0a071-9da5-4baa-a192-931f60b7d2bf",
           "year": 2016
         }
       ]

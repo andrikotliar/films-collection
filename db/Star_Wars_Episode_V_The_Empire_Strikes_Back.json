@@ -143,43 +143,37 @@
   "budget": 18000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "title": "Best Sound",
-          "year": 1981,
-          "category": "sound_effects"
+          "nominationId": "5bc47561-63bd-455c-8c3d-9f9ced87e923",
+          "year": 1981
         }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best DVD Collection",
-          "year": 2005,
-          "category": "As a part of \"Star Wars Trilogy\""
+          "nominationId": "74ad3ee5-2619-4dd8-a034-d61cb277b764",
+          "year": 2005
         },
         {
-          "title": "Best Science Fiction Film",
-          "year": 1981,
-          "category": "genre"
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5",
+          "year": 1981
         },
         {
-          "title": "Best Actor",
+          "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
           "year": 1981,
-          "category": "cast",
           "nominee": "4ff433ee-f363-4b38-8332-62b5ffece7dd"
         },
         {
-          "title": "Best Director",
-          "year": 1981,
-          "category": "director"
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be",
+          "year": 1981
         },
         {
-          "title": "Best Special Effects",
-          "year": 1981,
-          "category": "special_effects"
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91",
+          "year": 1981
         }
       ]
     }

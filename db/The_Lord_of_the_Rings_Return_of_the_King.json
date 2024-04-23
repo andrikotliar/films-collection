@@ -158,205 +158,171 @@
   "budget": 94000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "title": "Best Picture",
-          "year": 2004,
-          "category": "best_movie"
+          "nominationId": "0bf39901-4ed1-48da-b081-97671bf08dd7",
+          "year": 2004
         },
         {
-          "title": "Best Director",
-          "year": 2004,
-          "category": "director"
+          "nominationId": "710da6af-dc6a-4619-9d70-587b6a18d5b8",
+          "year": 2004
         },
         {
-          "title": "Best Writing, Adapted Screenplay",
-          "year": 2004,
-          "category": "screenplay"
+          "nominationId": "06aa2817-8307-4d48-aa42-9fcb66be0fdb",
+          "year": 2004
         },
         {
-          "title": "Best Film Editing",
-          "year": 2004,
-          "category": "editing"
+          "nominationId": "6aa195b9-f874-42d9-aa00-9675923b2125",
+          "year": 2004
         },
         {
-          "title": "Best Art Direction-Set Decoration",
-          "year": 2004,
-          "category": "art_direction"
+          "nominationId": "17cc846a-59f4-475a-8f2f-3c8988cf2ad0",
+          "year": 2004
         },
         {
-          "title": "Best Costume Design",
-          "year": 2004,
-          "category": "costumes"
+          "nominationId": "e228fed5-d3cc-4ba6-ac4a-e4bbcf4d17cb",
+          "year": 2004
         },
         {
-          "title": "Best Make-up",
-          "year": 2004,
-          "category": "make_up"
+          "nominationId": "0c8ce350-1ddc-43e7-b423-3099e13284a0",
+          "year": 2004
         },
         {
-          "title": "Best Music (Original Score)",
-          "year": 2004,
-          "category": "music"
+          "nominationId": "23be7816-fd21-426d-8178-72ade1967b6a",
+          "year": 2004
         },
         {
-          "title": "Best Music (Original Song)",
-          "year": 2004,
-          "category": "music"
+          "nominationId": "862e14de-43a1-47f5-876d-6d2ea5970bee",
+          "year": 2004
         },
         {
-          "title": "Best Sound Mixing",
-          "year": 2004,
-          "category": "sound_effects"
+          "nominationId": "62ffbd2c-4189-4aa6-83a8-3c42bd244c2d",
+          "year": 2004
         },
         {
-          "title": "Best Visual Effects",
-          "year": 2004,
-          "category": "visual_effects"
+          "nominationId": "c346a523-3bf3-4f58-98e3-599206560b12",
+          "year": 2004
         }
       ]
     },
     {
-      "title": "Golden Globe",
+      "awardId": "ae6f2bdf-42ac-4c5d-9744-881198ac1a1d",
       "nominations": [
         {
-          "title": "Best Director - Motion Picture",
-          "year": 2004,
-          "category": "director"
+          "nominationId": "2654065c-16c7-426c-9dde-871e2e2be33a",
+          "year": 2004
         },
         {
-          "title": "Best Original Score - Motion Picture",
-          "year": 2004,
-          "category": "best_movie"
+          "nominationId": "67fd465d-1da6-4a38-9e7f-f6b4758e2b3a",
+          "year": 2004
         },
         {
-          "title": "Best Original Song - Motion Picture",
-          "year": 2004,
-          "category": "music"
+          "nominationId": "100ca2e6-3187-4ef9-af81-7c4791455781",
+          "year": 2004
         },
         {
-          "title": "Best Motion Picture - Drama",
-          "year": 2004,
-          "category": "genre"
+          "nominationId": "1f4a5da9-689e-4ff5-8100-497bf998787f",
+          "year": 2004
         }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "title": "Best Film",
-          "year": 2004,
-          "category": "best_movie"
+          "nominationId": "bc675d2e-557b-447d-b81f-690913a0d5aa",
+          "year": 2004
         },
         {
-          "title": "Best Screenplay - Adapted",
-          "year": 2004,
-          "category": "screenplay"
+          "nominationId": "ed971f9e-203f-4eeb-b3bf-4757d0b88346",
+          "year": 2004
         },
         {
-          "title": "Best Cinematography",
-          "year": 2004,
-          "category": "cinematography"
+          "nominationId": "de9886fe-9742-411d-b14a-1c494f8408b0",
+          "year": 2004
         },
         {
-          "title": "Best Achievement in Special Visual Effects",
-          "year": 2004,
-          "category": "visual_effects"
+          "nominationId": "b6836a56-a68b-4b87-b609-71ebd8c50628",
+          "year": 2004
         }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best DVD Special Edition Release",
+          "nominationId": "90dce09b-0a64-49aa-8589-1fd1783ad0fe",
           "year": 2005,
-          "category": "dvd",
           "comment": "Extended cut"
         },
         {
-          "title": "Best Fantasy Film",
-          "year": 2004,
-          "category": "genre"
+          "nominationId": "43447644-6efc-4969-b6f8-8cd2d7089fae",
+          "year": 2004
         },
         {
-          "title": "Best Actor",
+          "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
           "year": 2004,
-          "category": "cast",
           "nominee": "5e154ae5-94f0-4d0e-9dfc-641120e4a219"
         },
         {
-          "title": "Best Supporting Actor",
+          "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
           "year": 2004,
-          "category": "cast",
           "nominee": "9e55ad2e-faa1-4895-b232-d606d29438d7"
         },
         {
-          "title": "Best Director",
-          "year": 2004,
-          "category": "director"
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be",
+          "year": 2004
         },
         {
-          "title": "Best Writing",
-          "year": 2004,
-          "category": "screenplay"
+          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea",
+          "year": 2004
         },
         {
-          "title": "Best Music",
-          "year": 2004,
-          "category": "music"
+          "nominationId": "be35075e-d485-4f10-9869-f89d28592465",
+          "year": 2004
         },
         {
-          "title": "Best Make-up",
-          "year": 2004,
-          "category": "make_up"
+          "nominationId": "a3c2244b-8c42-49be-96f2-a7d2edf3b8a7",
+          "year": 2004
         },
         {
-          "title": "Best Special Effects",
-          "year": 2004,
-          "category": "special_effects"
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91",
+          "year": 2004
         }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "title": "Best Movie",
-          "year": 2004,
-          "category": "best_movie"
+          "nominationId": "125802e2-8240-480d-99b9-db1d4a922e45",
+          "year": 2004
         },
         {
-          "title": "Best Action Sequence",
-          "year": 2004,
-          "category": "The battle at Gondor"
+          "nominationId": "2f12b906-153f-4cd2-b719-e0e9d54527a0",
+          "year": 2004
         }
       ]
     },
     {
-      "title": "Critics Choice",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
         {
-          "title": "Best Picture",
-          "year": 2004,
-          "category": "best_movie"
+          "nominationId": "45736875-bb5d-429c-afbd-a60ada41c58b",
+          "year": 2004
         },
         {
-          "title": "Best Acting Ensemble",
-          "year": 2004,
-          "category": "cast"
+          "nominationId": "522ed3e9-6c70-494a-b926-b5729a885dd8",
+          "year": 2004
         },
         {
-          "title": "Best Director",
-          "year": 2004,
-          "category": "director"
+          "nominationId": "180f76b8-bdb9-4536-91c0-0d8fe887b0b3",
+          "year": 2004
         },
         {
-          "title": "Best Composer",
-          "year": 2004,
-          "category": "music"
+          "nominationId": "dfe3aaa5-4b86-49d4-b690-34ffbea590a0",
+          "year": 2004
         }
       ]
     }

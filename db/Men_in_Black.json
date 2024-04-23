@@ -111,33 +111,29 @@
   "budget": 90000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "title": "Best Make-up",
-          "year": 1998,
-          "category": "make_up"
+          "nominationId": "0c8ce350-1ddc-43e7-b423-3099e13284a0",
+          "year": 1998
         }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Science Fiction Film",
-          "year": 1998,
-          "category": "genre"
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5",
+          "year": 1998
         },
         {
-          "title": "Best Supporting Actor",
+          "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
           "year": 1998,
-          "category": "cast",
           "nominee": "d39e216b-d069-4f40-b485-2be6eafa4d11"
         },
         {
-          "title": "Best Music",
-          "year": 1998,
-          "category": "music"
+          "nominationId": "be35075e-d485-4f10-9869-f89d28592465",
+          "year": 1998
         }
       ]
     }

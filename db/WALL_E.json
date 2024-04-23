@@ -126,52 +126,47 @@
   "budget": 180000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "title": "Best Animated Feature",
-          "year": 2009,
-          "category": "best_movie"
+          "nominationId": "5d1bb57f-cea1-4c41-81e7-fad3c6b9a7ea",
+          "year": 2009
         }
       ]
     },
     {
-      "title": "Golden Globe",
+      "awardId": "ae6f2bdf-42ac-4c5d-9744-881198ac1a1d",
       "nominations": [
         {
-          "title": "Best Animated Film",
-          "year": 2009,
-          "category": "best_movie"
+          "nominationId": "3a67bd92-4965-45de-b539-6a1de187c488",
+          "year": 2009
         }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "title": "Best Animated Film",
-          "year": 2009,
-          "category": "best_movie"
+          "nominationId": "f89218a9-2b2a-412f-9092-e02f58564999",
+          "year": 2009
         }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Animated Film",
-          "year": 2009,
-          "category": "best_movie"
+          "nominationId": "15d0cdb6-94fc-450f-beb1-9d3c3246b828",
+          "year": 2009
         }
       ]
     },
     {
-      "title": "Critics Choice",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
         {
-          "title": "Best Animated Feature",
-          "year": 2009,
-          "category": "best_movie"
+          "nominationId": "492bd6f2-1108-41c7-9fa9-4fd7f634c408",
+          "year": 2009
         }
       ]
     }

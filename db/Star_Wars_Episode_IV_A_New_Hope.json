@@ -140,135 +140,114 @@
   "budget": 11000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "title": "Best Art Direction-Set Decoration",
-          "year": 1978,
-          "category": "art_direction"
+          "nominationId": "17cc846a-59f4-475a-8f2f-3c8988cf2ad0",
+          "year": 1978
         },
         {
-          "title": "Best Costume Design",
-          "year": 1978,
-          "category": "costumes"
+          "nominationId": "e228fed5-d3cc-4ba6-ac4a-e4bbcf4d17cb",
+          "year": 1978
         },
         {
-          "title": "Best Sound",
-          "year": 1978,
-          "category": "sound_effects"
+          "nominationId": "5bc47561-63bd-455c-8c3d-9f9ced87e923",
+          "year": 1978
         },
         {
-          "title": "Best Film Editing",
-          "year": 1978,
-          "category": "editing"
+          "nominationId": "6aa195b9-f874-42d9-aa00-9675923b2125",
+          "year": 1978
         },
         {
-          "title": "Best Visual Effects",
-          "year": 1978,
-          "category": "visual_effects"
+          "nominationId": "c346a523-3bf3-4f58-98e3-599206560b12",
+          "year": 1978
         }
       ]
     },
     {
-      "title": "Golden Globe",
+      "awardId": "ae6f2bdf-42ac-4c5d-9744-881198ac1a1d",
       "nominations": [
         {
-          "title": "Best Original Score - Motion Picture",
-          "year": 1978,
-          "category": "best_movie"
+          "nominationId": "67fd465d-1da6-4a38-9e7f-f6b4758e2b3a",
+          "year": 1978
         }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "title": "Best Sound",
-          "year": 1978,
-          "category": "sound_effects"
+          "nominationId": "fc19047a-84fa-4ddc-ab69-d69aec8aba25",
+          "year": 1978
         }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best DVD Collection",
+          "nominationId": "74ad3ee5-2619-4dd8-a034-d61cb277b764",
           "year": 2005,
-          "category": "dvd",
           "comment": "As a part of \"Star Wars Trilogy\""
         },
         {
-          "title": "Best Science Fiction Film",
-          "year": 1978,
-          "category": "genre"
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5",
+          "year": 1978
         },
         {
-          "title": "Best Supporting Actor",
+          "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
           "year": 1978,
-          "category": "cast",
           "nominee": "d3493fa5-4de8-40fe-9d29-92cf16f7321c",
           "comment": "as Moff Tarkin"
         },
         {
-          "title": "Best Director",
-          "year": 1978,
-          "category": "director"
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be",
+          "year": 1978
         },
         {
-          "title": "Best Writing",
-          "year": 1978,
-          "category": "screenplay"
+          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea",
+          "year": 1978
         },
         {
-          "title": "Best Music",
-          "year": 1978,
-          "category": "music"
+          "nominationId": "be35075e-d485-4f10-9869-f89d28592465",
+          "year": 1978
         },
         {
-          "title": "Best Costumes",
-          "year": 1978,
-          "category": "costumes"
+          "nominationId": "d35f98cd-6d5a-41c8-b511-9046a59d8828",
+          "year": 1978
         },
         {
-          "title": "Best Make-up",
-          "year": 1978,
-          "category": "make_up"
+          "nominationId": "a3c2244b-8c42-49be-96f2-a7d2edf3b8a7",
+          "year": 1978
         },
         {
-          "title": "Best Special Effects",
-          "year": 1978,
-          "category": "special_effects"
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91",
+          "year": 1978
         },
         {
-          "title": "Outstanding Editing",
-          "year": 1978,
-          "category": "editing"
+          "nominationId": "39288fdb-88aa-4694-acb8-0bc4c533151f",
+          "year": 1978
         },
         {
-          "title": "Outstanding Sound",
-          "year": 1978,
-          "category": "sound_effects"
+          "nominationId": "51ee4c95-b7fb-43cc-9a36-c562591b94ba",
+          "year": 1978
         },
         {
-          "title": "Outstanding Art Direction",
-          "year": 1978,
-          "category": "art_direction"
+          "nominationId": "7a57625c-92b7-4bf4-ba60-b2926608626f",
+          "year": 1978
         },
         {
-          "title": "Outstanding Set Decoration",
-          "year": 1978,
-          "category": "production_design"
+          "nominationId": "85e948fb-27f5-4e3e-8882-54c72090be98",
+          "year": 1978
         }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "title": "Lifetime Achievement",
-          "year": 1977,
-          "category": "For the Star Wars trilogy"
+          "nominationId": "35cc1f39-d016-478f-869d-c1a37cf9b086",
+          "year": 1977
         }
       ]
     }

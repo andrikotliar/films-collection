@@ -444,22 +444,20 @@
   ],
   "awards": [
     {
-      "title": "Primetime Emmy",
+      "awardId": "bee25875-f12e-4dfe-9fc5-f25cdb5d836d",
       "nominations": [
         {
-          "title": "Outstanding Special Visual Effects for a Series",
-          "category": "visual_effects",
+          "nominationId": "db88438e-db01-461c-b677-ff6bee46a6eb",
           "comment": "\"The Second Coming\" and \"The Butterfly Effect\" episodes",
           "year": 2009
         }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "title": "Best International",
-          "category": "best_movie",
+          "nominationId": "cc7ff5ce-dc99-4af9-b0c5-1948bd755ced",
           "year": 2008
         }
       ]

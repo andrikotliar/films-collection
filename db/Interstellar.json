@@ -125,67 +125,58 @@
   "budget": 165000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "title": "Best Achievement in Visual Effects",
-          "category": "visual_effects",
+          "nominationId": "a6b1a904-f461-4360-aecc-9cd91d7d537a",
           "year": 2015
         }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "title": "Best Special Visual Effects",
-          "category": "special_effects",
+          "nominationId": "f7bd10f5-4137-4601-8c89-d9ccc58fe6a3",
           "year": 2015
         }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Science Fiction Film",
-          "category": "genre",
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5",
           "year": 2015
         },
         {
-          "title": "Best Production Design",
-          "category": "production_design",
+          "nominationId": "038bfccf-c5b8-47c9-b285-219c4e5d1efd",
           "year": 2015
         },
         {
-          "title": "Best Special Effects",
-          "category": "special_effects",
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91",
           "year": 2015
         },
         {
-          "title": "Best Performance by a Younger Actor",
-          "category": "cast",
+          "nominationId": "dedc1e3d-4b67-46dd-bfd5-480f7a05d7e6",
           "nominee": "d31e40c6-fbf7-4c26-91b4-8c25e004d4f8",
           "year": 2015
         },
         {
-          "title": "Best Writing",
-          "category": "screenplay",
+          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea",
           "year": 2015
         },
         {
-          "title": "Best Music",
-          "category": "music",
+          "nominationId": "be35075e-d485-4f10-9869-f89d28592465",
           "year": 2015
         }
       ]
     },
     {
-      "title": "Critics Choice",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
         {
-          "title": "Best Sci-Fi/Horror Movie",
-          "category": "genre",
+          "nominationId": "e2b9afe6-c274-4cc0-8ca8-5738a3a6d46a",
           "year": 2015
         }
       ]

@@ -119,82 +119,68 @@
   "budget": 200000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "title": "Best Picture",
-          "year": 1998,
-          "category": "best_movie"
+          "nominationId": "0bf39901-4ed1-48da-b081-97671bf08dd7",
+          "year": 1998
         },
         {
-          "title": "Best Director",
-          "year": 1998,
-          "category": "director"
+          "nominationId": "710da6af-dc6a-4619-9d70-587b6a18d5b8",
+          "year": 1998
         },
         {
-          "title": "Best Cinematography",
-          "year": 1998,
-          "category": "cinematography"
+          "nominationId": "12aa25ba-0a5b-4288-8bcc-8ed417b5b50f",
+          "year": 1998
         },
         {
-          "title": "Best Art Direction-Set Decoration",
-          "year": 1998,
-          "category": "art_direction"
+          "nominationId": "17cc846a-59f4-475a-8f2f-3c8988cf2ad0",
+          "year": 1998
         },
         {
-          "title": "Best Costume Design",
-          "year": 1998,
-          "category": "costumes"
+          "nominationId": "e228fed5-d3cc-4ba6-ac4a-e4bbcf4d17cb",
+          "year": 1998
         },
         {
-          "title": "Best Sound",
-          "year": 1998,
-          "category": "sound_effects"
+          "nominationId": "5bc47561-63bd-455c-8c3d-9f9ced87e923",
+          "year": 1998
         },
         {
-          "title": "Best Film Editing",
-          "year": 1998,
-          "category": "editing"
+          "nominationId": "6aa195b9-f874-42d9-aa00-9675923b2125",
+          "year": 1998
         },
         {
-          "title": "Best Sound Effects Editing",
-          "year": 1998,
-          "category": "sound_effects"
+          "nominationId": "be727846-3c6e-4539-8962-2c3539ea9ff1",
+          "year": 1998
         },
         {
-          "title": "Best Visual Effects",
-          "year": 1998,
-          "category": "visual_effects"
+          "nominationId": "c346a523-3bf3-4f58-98e3-599206560b12",
+          "year": 1998
         },
         {
-          "title": "Best Music (Original Song)",
-          "year": 1998,
-          "category": "music"
+          "nominationId": "862e14de-43a1-47f5-876d-6d2ea5970bee",
+          "year": 1998
         },
         {
-          "title": "Best Music (Original Dramatic Score)",
-          "year": 1998,
-          "category": "music"
+          "nominationId": "c2ddefe1-8b1f-4222-bd82-95ef2460545c",
+          "year": 1998
         }
       ]
     },
     {
-      "title": "Golden Globe",
+      "awardId": "ae6f2bdf-42ac-4c5d-9744-881198ac1a1d",
       "nominations": [
         {
-          "title": "Best Director - Motion Picture",
-          "year": 1998,
-          "category": "director"
+          "nominationId": "2654065c-16c7-426c-9dde-871e2e2be33a",
+          "year": 1998
         },
         {
-          "title": "Best Original Score - Motion Picture",
-          "year": 1998,
-          "category": "music"
+          "nominationId": "67fd465d-1da6-4a38-9e7f-f6b4758e2b3a",
+          "year": 1998
         },
         {
-          "title": "Best Original Song - Motion Picture",
+          "nominationId": "100ca2e6-3187-4ef9-af81-7c4791455781",
           "year": 1998,
-          "category": "music",
           "comment": "My Heart Will Go On"
         }
       ]

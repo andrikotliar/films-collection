@@ -197,55 +197,46 @@
   ],
   "awards": [
     {
-      "title": "Primetime Emmy",
+      "awardId": "bee25875-f12e-4dfe-9fc5-f25cdb5d836d",
       "nominations": [
         {
-          "title": "Outstanding Television Movie",
-          "year": 2016,
-          "category": "best_movie"
+          "nominationId": "66b8f6e1-d00c-4df4-8f47-95e6cbcc6434",
+          "year": 2016
         },
         {
-          "title": "Outstanding Special Visual Effects in a Supporting Role",
+          "nominationId": "b279c08f-d226-44d9-8cd8-dc449cffcc1f",
           "year": 2016,
-          "category": "visual_effects",
           "comment": "\"The Abominable Bride\" episode"
         },
         {
-          "title": "Outstanding Lead Actor in a Miniseries or a Movie",
+          "nominationId": "0ca81c05-5827-4058-a312-2b1952da73eb",
           "year": 2014,
-          "category": "cast",
           "nominee": "b6c1e5b5-b534-438e-8ac1-a6bc0b901ac8"
         },
         {
-          "title": "Outstanding Supporting Actor in a Miniseries or a Movie",
+          "nominationId": "a67a2bd7-5f23-4ec9-b090-491d943d5665",
           "year": 2014,
-          "category": "cast",
           "nominee": "3ac110d8-83ac-40a6-b22f-7537190f750b"
         },
         {
-          "title": "Outstanding Writing for a Miniseries or a Dramatic Special",
-          "year": 2014,
-          "category": "screenplay"
+          "nominationId": "1cbc5a19-a786-4ed7-8865-9e034ac37cda",
+          "year": 2014
         },
         {
-          "title": "Outstanding Cinematography for a Miniseries or Movie",
-          "year": 2014,
-          "category": "cinematography"
+          "nominationId": "a4b1d8eb-c56e-4dae-b90f-80d6ebfcc852",
+          "year": 2014
         },
         {
-          "title": "Outstanding Music Composition for a Miniseries, Movie or a Special (Original Dramatic Score)",
-          "year": 2014,
-          "category": "music"
+          "nominationId": "8d33a402-89d8-4946-98ee-df9743f4ca55",
+          "year": 2014
         },
         {
-          "title": "Outstanding Single-Camera Picture Editing for a Miniseries or a Movie",
-          "year": 2014,
-          "category": "editing"
+          "nominationId": "dfbde00a-376a-4c66-807b-f3a5a6cc2079",
+          "year": 2014
         },
         {
-          "title": "Outstanding Sound Editing for a Miniseries, Movie or a Special",
-          "year": 2014,
-          "category": "sound_effects"
+          "nominationId": "6fda9634-3a1a-4051-b99a-09d9325218fe",
+          "year": 2014
         }
       ]
     }

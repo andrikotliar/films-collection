@@ -148,21 +148,19 @@
   "budget": 100000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "title": "Best Animated Feature",
-          "category": "best_movie",
+          "nominationId": "5d1bb57f-cea1-4c41-81e7-fad3c6b9a7ea",
           "year": 2007
         }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "title": "Best Animated Feature Film",
-          "category": "best_movie",
+          "nominationId": "02af1954-1c3e-474e-8368-e31fe6220a70",
           "year": 2007
         }
       ]

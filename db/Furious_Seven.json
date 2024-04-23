@@ -169,23 +169,21 @@
   "budget": 190000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Action/Adventure Film",
-          "category": "genre",
+          "nominationId": "ff7b106c-5ac3-4fe2-85d0-3449b0f7e753",
           "year": 2016
         }
       ]
     },
     {
-      "title": "Critics Choice",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
         {
-          "title": "Best Song",
+          "nominationId": "a9e2da06-f75b-43c9-a864-bc5bc8dbbdd1",
           "year": 2016,
-          "comment": "Song: See You Again",
-          "category": ""
+          "comment": "Song: See You Again"
         }
       ]
     }

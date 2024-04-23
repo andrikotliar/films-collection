@@ -138,52 +138,45 @@
   "budget": 11000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "title": "Best Visual Effects",
-          "category": "visual_effects",
+          "nominationId": "c346a523-3bf3-4f58-98e3-599206560b12",
           "year": 1980
         }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "title": "Best Production Design",
-          "category": "production_design",
+          "nominationId": "bb69a340-0754-4a75-943a-75dbeb2257fd",
           "year": 1980
         },
         {
-          "title": "Best Sound Track",
-          "category": "sound_effects",
+          "nominationId": "6e4269f9-99ad-4163-8910-6a96da2b2dd3",
           "year": 1980
         }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best DVD Collection",
-          "category": "dvd",
+          "nominationId": "74ad3ee5-2619-4dd8-a034-d61cb277b764",
           "year": 2011
         },
         {
-          "title": "Best Science Fiction Film",
-          "category": "genre",
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5",
           "year": 1980
         },
         {
-          "title": "Best Supporting Actress",
-          "category": "cast",
+          "nominationId": "fe65a215-a19f-4382-a43e-c1dd27f8f27e",
           "nominee": "cee0fa43-ecb3-4afa-bce5-897a64c790c9",
           "year": 1980
         },
         {
-          "title": "Best Director",
-          "category": "director",
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be",
           "year": 1980
         }
       ]

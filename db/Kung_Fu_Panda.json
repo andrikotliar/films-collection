@@ -149,48 +149,40 @@
   "budget": 130000000,
   "awards": [
     {
-      "title": "Annie",
+      "awardId": "c4127f39-85a6-440c-bdcc-8742beb6e2f7",
       "nominations": [
         {
-          "title": "Best Animated Feature",
-          "year": 2009,
-          "category": "best_movie"
+          "nominationId": "8e18c6b6-524b-467b-8139-dce657a6b352",
+          "year": 2009
         },
         {
-          "title": "Best Animated Effects",
-          "year": 2009,
-          "category": "animation"
+          "nominationId": "5ace8a28-f78b-42ca-896d-32d3efb85f41",
+          "year": 2009
         },
         {
-          "title": "Best Character Animation in a Feature Production",
-          "year": 2009,
-          "category": "animation"
+          "nominationId": "0fe4c462-5d45-4bfa-ac96-593996ea5080",
+          "year": 2009
         },
         {
-          "title": "Best Character Design in an Animated Feature Production",
-          "year": 2009,
-          "category": "animation"
+          "nominationId": "dbdc7f25-9f96-4a83-9669-c7dea23946ae",
+          "year": 2009
         },
         {
-          "title": "Best Production Design in an Animated Feature Production",
-          "year": 2009,
-          "category": "production_design"
+          "nominationId": "0c9814a3-c628-4c6c-a17d-0f6e4aa83293",
+          "year": 2009
         },
         {
-          "title": "Best Storyboarding in an Animated Feature Production",
-          "year": 2009,
-          "category": "animation"
+          "nominationId": "cfb0deca-2085-42cd-ab73-210816a9ddd3",
+          "year": 2009
         },
         {
-          "title": "Best Voice Acting in an Animated Feature Production",
+          "nominationId": "6439d840-fca4-41b7-9455-85a1ebf56f45",
           "year": 2009,
-          "category": "cast",
           "nominee": "b15b62a8-412d-496f-83f8-2700b34f86eb"
         },
         {
-          "title": "Best Writing in an Animated Feature Production",
-          "year": 2009,
-          "category": "screenplay"
+          "nominationId": "1c64a2ff-816d-4f13-8620-f43ea880ef1e",
+          "year": 2009
         }
       ]
     }

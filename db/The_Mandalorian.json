@@ -227,42 +227,35 @@
   ],
   "awards": [
     {
-      "title": "Primetime Emmy",
+      "awardId": "bee25875-f12e-4dfe-9fc5-f25cdb5d836d",
       "nominations": [
         {
-          "title": "Outstanding Cinematography for a Single-Camera Series (Half-Hour)",
-          "year": 2020,
-          "category": "cinematography"
+          "nominationId": "920a6e10-6f9e-42b0-af62-dfdb428770ee",
+          "year": 2020
         },
         {
-          "title": "Outstanding Music Composition for a Series (Original Dramatic Score)",
-          "year": 2020,
-          "category": "music"
+          "nominationId": "8f66fb8c-3a48-453b-8b03-84d7716f3e73",
+          "year": 2020
         },
         {
-          "title": "Outstanding Production Design for a Narrative Program (Half-Hour)",
-          "year": 2020,
-          "category": "production_design"
+          "nominationId": "1e2b2e1e-5c3c-4061-be3c-e717962b1c10",
+          "year": 2020
         },
         {
-          "title": "Outstanding Stunt Coordination for a Drama Series Limited Series or Movie",
-          "year": 2020,
-          "category": "stunt_coordination"
+          "nominationId": "c13289eb-0fcc-4378-9a72-ee780cba0002",
+          "year": 2020
         },
         {
-          "title": "Outstanding Sound Editing for a Comedy or Drama Series (Half-Hour and Animation)",
-          "year": 2020,
-          "category": "sound_effects"
+          "nominationId": "6e6b1254-beb5-48c7-915d-1b534268191d",
+          "year": 2020
         },
         {
-          "title": "Outstanding Sound Mixing for a Comedy or Drama Series (Half-Hour and Animation)",
-          "year": 2020,
-          "category": "sound_effects"
+          "nominationId": "e89a6b88-c703-4366-9b2e-a150e53c8252",
+          "year": 2020
         },
         {
-          "title": "Outstanding Special Visual Effects",
-          "year": 2020,
-          "category": "visual_effects"
+          "nominationId": "798f775a-0eee-422d-8ceb-e32e6dc6a41b",
+          "year": 2020
         }
       ]
     }

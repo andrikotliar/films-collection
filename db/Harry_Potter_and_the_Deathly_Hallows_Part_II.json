@@ -138,21 +138,19 @@
   "budget": 250000000,
   "awards": [
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "title": "Best Special Visual Effects",
-          "category": "visual_effects",
+          "nominationId": "f7bd10f5-4137-4601-8c89-d9ccc58fe6a3",
           "year": 2012
         }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Fantasy Film",
-          "category": "genre",
+          "nominationId": "43447644-6efc-4969-b6f8-8cd2d7089fae",
           "year": 2012
         }
       ]

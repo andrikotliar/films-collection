@@ -307,11 +307,10 @@
   ],
   "awards": [
     {
-      "title": "Jupiter",
+      "awardId": "7ebe7513-34d1-4e11-8654-0f6390c2c290",
       "nominations": [
         {
-          "title": "Best German TV Actor",
-          "category": "cast",
+          "nominationId": "452170e4-97c0-43a1-87db-959fd8d9d75c",
           "nominee": "3c0086c5-98c8-4f99-965e-ba36c3a3a30c",
           "year": 2018
         }

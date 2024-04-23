@@ -110,11 +110,10 @@
   "budget": 40000000,
   "awards": [
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "title": "Best Special Effects",
-          "category": "special_effects",
+          "nominationId": "949cb1a5-cb95-48e5-915b-aa95e255232d",
           "year": 1990
         }
       ]

@@ -254,29 +254,26 @@
   "budget": 250000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Supporting Actor",
+          "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
           "year": 2015,
-          "category": "cast",
           "nominee": "a1065b71-c84c-4d85-bad6-965dcaa026c0",
           "comment": "Thorin"
         },
         {
-          "title": "Best Fantasy Film",
-          "year": 2015,
-          "category": "genre"
+          "nominationId": "43447644-6efc-4969-b6f8-8cd2d7089fae",
+          "year": 2015
         }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "title": "Best Action Sequence",
-          "year": 2015,
-          "category": "The Battle of Five armies"
+          "nominationId": "2f12b906-153f-4cd2-b719-e0e9d54527a0",
+          "year": 2015
         }
       ]
     }

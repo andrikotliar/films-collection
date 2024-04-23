@@ -132,11 +132,10 @@
   "budget": 125000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Costumes",
-          "category": "costumes",
+          "nominationId": "d35f98cd-6d5a-41c8-b511-9046a59d8828",
           "year": 2002
         }
       ]

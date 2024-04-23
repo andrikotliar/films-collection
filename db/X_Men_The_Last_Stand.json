@@ -170,11 +170,10 @@
   "budget": 210000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Supporting Actress",
-          "category": "cast",
+          "nominationId": "fe65a215-a19f-4382-a43e-c1dd27f8f27e",
           "nominee": "8c9ab14e-14f3-45bc-ac3f-6305a8d7aa11",
           "year": 2007
         }

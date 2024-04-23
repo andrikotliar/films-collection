@@ -146,22 +146,19 @@
   "budget": 200000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Science Fiction Film",
-          "year": 2017,
-          "category": "genre"
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5",
+          "year": 2017
         },
         {
-          "title": "Best Director",
-          "year": 2017,
-          "category": "director"
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be",
+          "year": 2017
         },
         {
-          "title": "Best Special Effects",
-          "year": 2017,
-          "category": "special_effects"
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91",
+          "year": 2017
         }
       ]
     }

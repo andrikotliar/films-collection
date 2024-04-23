@@ -149,33 +149,29 @@
   ],
   "awards": [
     {
-      "title": "Golden Globe",
+      "awardId": "ae6f2bdf-42ac-4c5d-9744-881198ac1a1d",
       "nominations": [
         {
-          "title": "Best Television Limited Series, Anthology Series or Motion Picture Made for Television",
-          "year": 2021,
-          "category": "best_movie"
+          "nominationId": "d3f9ce2c-d7ee-46af-89a6-72cac4931b83",
+          "year": 2021
         },
         {
-          "title": "Best Performance by an Actress in a Limited Series, Anthology Series or a Motion Picture Made for Television",
+          "nominationId": "749bb15b-c750-4ba6-ae1e-3ca8d59d38bb",
           "year": 2021,
-          "category": "cast",
           "nominee": "0d18823d-a78f-46ea-b364-4b8450ef33bf"
         }
       ]
     },
     {
-      "title": "Critics Choice",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
         {
-          "title": "Best Limited Series",
-          "year": 2021,
-          "category": "best_movie"
+          "nominationId": "60849ea9-442f-4873-8ede-82d86114be48",
+          "year": 2021
         },
         {
-          "title": "Best Actress in a Limited Series or a Movie Made for Television",
+          "nominationId": "6bd9defb-5179-43e3-be13-f02b2cb2ede0",
           "year": 2021,
-          "category": "cast",
           "nominee": "0d18823d-a78f-46ea-b364-4b8450ef33bf"
         }
       ]

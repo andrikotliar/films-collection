@@ -167,21 +167,19 @@
   "budget": 178000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Editing",
-          "category": "editing",
+          "nominationId": "4776a35c-732d-4ca9-a4ff-2d3312cf353f",
           "year": 2015
         }
       ]
     },
     {
-      "title": "Critics Choice",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
         {
-          "title": "Best Actress in an Action Movie",
-          "category": "cast",
+          "nominationId": "b852d024-3f3d-4182-8905-7853a11e3073",
           "nominee": "c892df31-7868-42cc-b245-ded4556da768",
           "year": 2015
         }

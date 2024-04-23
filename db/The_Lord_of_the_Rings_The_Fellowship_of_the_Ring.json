@@ -179,111 +179,95 @@
   "budget": 93000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "title": "Best Cinematography",
-          "year": 2002,
-          "category": "cinematography"
+          "nominationId": "12aa25ba-0a5b-4288-8bcc-8ed417b5b50f",
+          "year": 2002
         },
         {
-          "title": "Best Make-up",
-          "year": 2002,
-          "category": "make_up"
+          "nominationId": "0c8ce350-1ddc-43e7-b423-3099e13284a0",
+          "year": 2002
         },
         {
-          "title": "Best Music",
-          "year": 2002,
-          "category": "music"
+          "nominationId": "e6962ab2-e7ab-4c69-8fc0-b1cae01a7036",
+          "year": 2002
         },
         {
-          "title": "Best Visual Effects",
-          "year": 2002,
-          "category": "visual_effects"
+          "nominationId": "c346a523-3bf3-4f58-98e3-599206560b12",
+          "year": 2002
         }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "title": "Best Film",
-          "year": 2002,
-          "category": ""
+          "nominationId": "bc675d2e-557b-447d-b81f-690913a0d5aa",
+          "year": 2002
         },
         {
-          "title": "Best Achievement in Special Visual Effects",
-          "year": 2002,
-          "category": "visual_effects"
+          "nominationId": "b6836a56-a68b-4b87-b609-71ebd8c50628",
+          "year": 2002
         },
         {
-          "title": "Best Make Up/Hair",
-          "year": 2002,
-          "category": "make_up"
+          "nominationId": "49107a05-62b8-41da-93e6-98fb6423885d",
+          "year": 2002
         }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best DVD Special Edition Release",
+          "nominationId": "90dce09b-0a64-49aa-8589-1fd1783ad0fe",
           "year": 2003,
-          "category": "dvd",
           "comment": "Extended Version"
         },
         {
-          "title": "Best Fantasy Film",
-          "year": 2002,
-          "category": "genre"
+          "nominationId": "43447644-6efc-4969-b6f8-8cd2d7089fae",
+          "year": 2002
         },
         {
-          "title": "Best Supporting Actor",
+          "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
           "year": 2002,
-          "category": "cast",
           "nominee": "18b67364-14a8-461a-bf48-a12c4741d52f"
         },
         {
-          "title": "Best Director",
-          "year": 2002,
-          "category": "director"
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be",
+          "year": 2002
         }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "title": "Best Movie",
-          "year": 2002,
-          "category": "best_movie"
+          "nominationId": "125802e2-8240-480d-99b9-db1d4a922e45",
+          "year": 2002
         },
         {
-          "title": "Breakthrough Male Performance",
+          "nominationId": "85c641a4-a6dd-4300-a1d3-9e3fd250c1eb",
           "year": 2002,
-          "category": "cast",
           "nominee": "9477d178-9893-44f0-9553-10119753c95f"
         }
       ]
     },
     {
-      "title": "Critics Choice",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
         {
-          "title": "Favorite Film Franchise",
-          "year": 2013,
-          "category": "favorite_franchise"
+          "nominationId": "bf2b625b-bb36-4e71-b853-0662f482e5fb",
+          "year": 2013
         },
         {
-          "title": "Best Song",
+          "nominationId": "a9e2da06-f75b-43c9-a864-bc5bc8dbbdd1",
           "year": 2002,
-          "category": "music",
           "comment": "Song \"May It Be\""
         },
         {
-          "title": "Best Composer",
-          "year": 2002,
-          "category": "music"
+          "nominationId": "dfe3aaa5-4b86-49d4-b690-34ffbea590a0",
+          "year": 2002
         }
       ]
     }

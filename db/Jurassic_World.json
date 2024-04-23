@@ -175,23 +175,21 @@
   "budget": 150000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Performance by a Younger Actor",
-          "category": "cast",
+          "nominationId": "dedc1e3d-4b67-46dd-bfd5-480f7a05d7e6",
           "nominee": "43829348-2d1a-4215-9d14-bbaa6f1a6802",
           "year": 2016
         }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "title": "Best Action Performance",
+          "nominationId": "b7103e19-b161-49b5-847f-753c106ceb5f",
           "year": 2016,
-          "category": "cast",
           "nominee": "d37a1702-6d76-425e-a1ac-940961feb029"
         }
       ]

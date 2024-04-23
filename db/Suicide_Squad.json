@@ -143,22 +143,20 @@
   "budget": 175000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "title": "Best Achievement in Makeup and Hairstyling",
-          "year": 2017,
-          "category": "make_up"
+          "nominationId": "83a03821-a59c-4603-983e-6b989cc2c2e3",
+          "year": 2017
         }
       ]
     },
     {
-      "title": "Critics Choice",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
         {
-          "title": "Best Actress in an Action Movie",
+          "nominationId": "b852d024-3f3d-4182-8905-7853a11e3073",
           "year": 2017,
-          "category": "cast",
           "nominee": ""
         }
       ]

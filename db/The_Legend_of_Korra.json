@@ -270,17 +270,15 @@
   ],
   "awards": [
     {
-      "title": "Annie",
+      "awardId": "c4127f39-85a6-440c-bdcc-8742beb6e2f7",
       "nominations": [
         {
-          "title": "Outstanding Achievement in Storyboarding in an Animated TV/Broadcast Production",
-          "year": 2015,
-          "category": "animation"
+          "nominationId": "0753fcab-6b0b-459b-a8e5-71567d5e27bb",
+          "year": 2015
         },
         {
-          "title": "Outstanding Achievement in Production Design in an Animated TV/Broadcast Production",
-          "year": 2014,
-          "category": "production_design"
+          "nominationId": "5319e99b-9464-40d9-91da-78e643f7ed13",
+          "year": 2014
         }
       ]
     }

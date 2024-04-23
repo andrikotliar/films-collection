@@ -125,72 +125,62 @@
   "budget": 63000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "title": "Best Sound",
-          "year": 1994,
-          "category": "sound_effects"
+          "nominationId": "5bc47561-63bd-455c-8c3d-9f9ced87e923",
+          "year": 1994
         },
         {
-          "title": "Best Sound Effects Editing",
-          "year": 1994,
-          "category": "sound_effects"
+          "nominationId": "be727846-3c6e-4539-8962-2c3539ea9ff1",
+          "year": 1994
         },
         {
-          "title": "Best Visual Effects",
-          "year": 1994,
-          "category": "visual_effects"
+          "nominationId": "c346a523-3bf3-4f58-98e3-599206560b12",
+          "year": 1994
         }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "title": "Best Special Effects",
-          "year": 1994,
-          "category": "special_effects"
+          "nominationId": "949cb1a5-cb95-48e5-915b-aa95e255232d",
+          "year": 1994
         }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Science Fiction Film",
-          "year": 1994,
-          "category": "genre"
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5",
+          "year": 1994
         },
         {
-          "title": "Best Director",
-          "year": 1994,
-          "category": "director"
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be",
+          "year": 1994
         },
         {
-          "title": "Best Writing",
-          "year": 1994,
-          "category": "screenplay"
+          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea",
+          "year": 1994
         },
         {
-          "title": "Best Special Effects",
-          "year": 1994,
-          "category": "special_effects"
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91",
+          "year": 1994
         }
       ]
     },
     {
-      "title": "Jupiter",
+      "awardId": "7ebe7513-34d1-4e11-8654-0f6390c2c290",
       "nominations": [
         {
-          "title": "Best International Film",
-          "year": 1994,
-          "category": "best_movie"
+          "nominationId": "67d69cb3-6401-46f7-8765-4bd74eaba0a0",
+          "year": 1994
         },
         {
-          "title": "Best International Director",
-          "year": 1994,
-          "category": "director"
+          "nominationId": "e98acd2a-140e-4b7b-80ee-85cca92e8acd",
+          "year": 1994
         }
       ]
     }

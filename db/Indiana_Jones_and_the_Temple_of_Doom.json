@@ -115,48 +115,43 @@
   "budget": 28000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "title": "Best Visual Effects",
-          "category": "visual_effects",
+          "nominationId": "c346a523-3bf3-4f58-98e3-599206560b12",
           "year": 1985
         }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "title": "Best Special Visual Effects",
-          "category": "special_effects",
+          "nominationId": "f7bd10f5-4137-4601-8c89-d9ccc58fe6a3",
           "year": 1985
         }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best DVD Collection",
-          "category": "dvd",
+          "nominationId": "74ad3ee5-2619-4dd8-a034-d61cb277b764",
           "year": 2004,
           "comment": "\"The Adventures of Indiana Jones DVD Collection\""
         }
       ]
     },
     {
-      "title": "Jupiter",
+      "awardId": "7ebe7513-34d1-4e11-8654-0f6390c2c290",
       "nominations": [
         {
-          "title": "Best International Actor",
-          "category": "cast",
+          "nominationId": "8f0cd2b0-fa7e-4898-8e97-1920c9b31616",
           "nominee": "cb7f43c6-0555-423c-8baa-9abdd084ab80",
           "year": 1985
         },
         {
-          "title": "Best International Film",
-          "category": "best_movie",
+          "nominationId": "67d69cb3-6401-46f7-8765-4bd74eaba0a0",
           "year": 1985
         }
       ]

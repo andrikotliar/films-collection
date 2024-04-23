@@ -181,12 +181,11 @@
   "budget": 250000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Supporting Actress",
+          "nominationId": "fe65a215-a19f-4382-a43e-c1dd27f8f27e",
           "year": 2013,
-          "category": "cast",
           "nominee": "190f4f7a-0b36-4e9f-adde-3ac7653f3df6"
         }
       ]

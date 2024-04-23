@@ -122,22 +122,20 @@
   "budget": 132000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Performance by a Younger Actor",
-          "category": "cast",
+          "nominationId": "dedc1e3d-4b67-46dd-bfd5-480f7a05d7e6",
           "nominee": "4cddb738-b885-4830-bd26-8b27ff0bb936",
           "year": 2006
         }
       ]
     },
     {
-      "title": "Critics Choice",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
         {
-          "title": "Best Young Actress",
-          "category": "cast",
+          "nominationId": "8cb10314-9a85-4429-8da5-3125da3d68b5",
           "nominee": "4cddb738-b885-4830-bd26-8b27ff0bb936",
           "year": 2006
         }

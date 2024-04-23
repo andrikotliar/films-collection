@@ -140,37 +140,33 @@
   "budget": 94000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "title": "Best Animated Feature",
-          "category": "best_movie",
+          "nominationId": "5d1bb57f-cea1-4c41-81e7-fad3c6b9a7ea",
           "year": 2004
         }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Animated Film",
-          "category": "best_movie",
+          "nominationId": "15d0cdb6-94fc-450f-beb1-9d3c3246b828",
           "year": 2004
         },
         {
-          "title": "Best Supporting Actress",
-          "category": "cast",
+          "nominationId": "fe65a215-a19f-4382-a43e-c1dd27f8f27e",
           "nominee": "581dbf40-0f38-46d7-b24f-55f5ccfa7b13",
           "year": 2004
         }
       ]
     },
     {
-      "title": "Critics Choice",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
         {
-          "title": "Best Animated Feature",
-          "category": "best_movie",
+          "nominationId": "492bd6f2-1108-41c7-9fa9-4fd7f634c408",
           "year": 2004
         }
       ]

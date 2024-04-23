@@ -164,11 +164,10 @@
   "budget": 200000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Special Effects",
-          "category": "special_effects",
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91",
           "year": 2018
         }
       ]

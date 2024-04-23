@@ -159,39 +159,33 @@
   "budget": 75000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Science Fiction Film",
-          "year": 2001,
-          "category": "genre"
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5",
+          "year": 2001
         },
         {
-          "title": "Best Actor",
+          "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
           "year": 2001,
-          "category": "cast",
           "nominee": "3e2db4d6-df90-4736-9425-c1fd062d8868"
         },
         {
-          "title": "Best Supporting Actress",
+          "nominationId": "fe65a215-a19f-4382-a43e-c1dd27f8f27e",
           "year": 2001,
-          "category": "cast",
           "nominee": "4533b45c-3d80-475c-8254-b13660e2aa3e"
         },
         {
-          "title": "Best Director",
-          "year": 2001,
-          "category": "director"
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be",
+          "year": 2001
         },
         {
-          "title": "Best Writing",
-          "year": 2001,
-          "category": "screenplay"
+          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea",
+          "year": 2001
         },
         {
-          "title": "Best Costumes",
-          "year": 2001,
-          "category": "costumes"
+          "nominationId": "d35f98cd-6d5a-41c8-b511-9046a59d8828",
+          "year": 2001
         }
       ]
     }

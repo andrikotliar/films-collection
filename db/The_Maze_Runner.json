@@ -138,24 +138,21 @@
   "budget": 34000000,
   "awards": [
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "title": "Breakthrough Performance",
+          "nominationId": "939c9889-253e-4f2d-a2cd-13f2aba6da0f",
           "year": 2015,
-          "category": "cast",
           "nominee": "c2e23382-b2ab-4810-b9c1-c08fe4dc2d9d"
         },
         {
-          "title": "Best Fight",
+          "nominationId": "6f842add-0dec-488d-9a04-93e78aaddcc3",
           "year": 2015,
-          "category": "cast",
           "comment": "Dylan O'Brien and Will Poulter"
         },
         {
-          "title": "Best Hero",
+          "nominationId": "9c04a0b5-a613-49ec-be5c-e6290b90911e",
           "year": 2015,
-          "category": "cast",
           "nominee": "c2e23382-b2ab-4810-b9c1-c08fe4dc2d9d",
           "comment": "As Thomas"
         }

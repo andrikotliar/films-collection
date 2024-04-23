@@ -210,59 +210,50 @@
   "budget": 356000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Comic-to-Film Motion Picture",
-          "category": "adaptation",
+          "nominationId": "f7a0a071-9da5-4baa-a192-931f60b7d2bf",
           "year": 2019
         },
         {
-          "title": "Best Actor",
-          "category": "cast",
+          "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
           "nominee": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e",
           "year": 2019
         },
         {
-          "title": "Best Production Design",
-          "category": "production_design",
+          "nominationId": "038bfccf-c5b8-47c9-b285-219c4e5d1efd",
           "year": 2019
         },
         {
-          "title": "Best Make-up",
-          "category": "make_up",
+          "nominationId": "a3c2244b-8c42-49be-96f2-a7d2edf3b8a7",
           "year": 2019
         },
         {
-          "title": "Best Editing",
-          "category": "editing",
+          "nominationId": "4776a35c-732d-4ca9-a4ff-2d3312cf353f",
           "year": 2019
         },
         {
-          "title": "Best Special Effects",
-          "category": "special_effects",
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91",
           "year": 2019
         }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "title": "Best Movie",
-          "category": "best_movie",
+          "nominationId": "125802e2-8240-480d-99b9-db1d4a922e45",
           "year": 2019
         },
         {
-          "title": "Best Hero",
-          "category": "cast",
+          "nominationId": "9c04a0b5-a613-49ec-be5c-e6290b90911e",
           "nominee": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e",
           "comment": "as Tony Stark / Iron Man",
           "year": 2019
         },
         {
-          "title": "Best Villain",
-          "category": "cast",
+          "nominationId": "d3bafbf4-f684-4f60-875a-5cbbe09c14e2",
           "nominee": "02b35a55-aa39-45bf-b0df-6f82c5aa8f07",
           "comment": "as Thanos",
           "year": 2019
@@ -270,16 +261,14 @@
       ]
     },
     {
-      "title": "Critics Choice",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
         {
-          "title": "Best Visual Effects",
-          "category": "visual_effects",
+          "nominationId": "1dbbd79f-d824-4e8e-83c4-bda38adc45f9",
           "year": 2020
         },
         {
-          "title": "Best Action Movie",
-          "category": "genre",
+          "nominationId": "53f51093-e194-40d8-94b4-28908cb6a14c",
           "year": 2020
         }
       ]

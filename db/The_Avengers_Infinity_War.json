@@ -250,11 +250,10 @@
   "budget": 316000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Supporting Actor",
-          "category": "cast",
+          "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
           "nominee": "02b35a55-aa39-45bf-b0df-6f82c5aa8f07",
           "year": 2019
         }

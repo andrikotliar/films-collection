@@ -149,23 +149,21 @@
   "budget": 97000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Supporting Actor",
-          "category": "cast",
+          "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
           "nominee": "76c48e8a-834b-4683-a406-f2b72f99a39b",
           "year": 2018
         }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "title": "Best Duo",
+          "nominationId": "640e7bd1-716a-4d9d-9c89-a2bcb4f46794",
           "year": 2017,
-          "category": "cast",
           "comment": "Hugh Jackman and Dafne Keen"
         }
       ]

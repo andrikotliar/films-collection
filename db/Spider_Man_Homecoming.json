@@ -152,12 +152,11 @@
   "budget": 175000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "title": "Best Performance by a Younger Actor",
+          "nominationId": "dedc1e3d-4b67-46dd-bfd5-480f7a05d7e6",
           "year": 2018,
-          "category": "cast",
           "nominee": "f70d14d5-2f1a-46a1-8462-bdf6fc18141a"
         }
       ]
