@@ -151,9 +151,9 @@
       "title": "Oscar",
       "nominations": [
         {
-          "title": "Best Animated Feature Film of the Year",
+          "title": "Best Animated Feature",
           "year": 2017,
-          "category": "best_of_year"
+          "category": "best_movie"
         }
       ]
     },

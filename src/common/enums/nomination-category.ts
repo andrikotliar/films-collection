@@ -18,11 +18,11 @@ enum NominationCategory {
   ART = 'art_direction',
   COSTUMES = 'costumes',
   BEST_MOVIE = 'best_movie',
-  BEST_OF_YEAR = 'best_of_year',
   ACTION = 'action',
   CASTING = 'casting',
   FAVORITE_FRANCHISE = 'favorite_franchise',
   VIRTUAL_PERFORMANCE = 'virtual_performance',
+  MINI_SERIES = 'mini_series',
 }
 
 export { NominationCategory };

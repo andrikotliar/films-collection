@@ -129,16 +129,6 @@
           "category": "animation"
         }
       ]
-    },
-    {
-      "title": "Grammy",
-      "nominations": [
-        {
-          "title": "Best Song Written for Visual Media",
-          "year": 2002,
-          "category": "visual_effects"
-        }
-      ]
     }
   ],
   "boxOffice": 580000000,
