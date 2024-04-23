@@ -6,7 +6,6 @@ import {
   MainPage,
   AboutPage,
   StatisticPage,
-  PersonPage,
   NotFoundPage,
 } from './pages';
 
