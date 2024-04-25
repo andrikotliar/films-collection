@@ -126,12 +126,10 @@
       "nominations": [
         {
           "nominationId": "fe65a215-a19f-4382-a43e-c1dd27f8f27e",
-          "year": 2019,
           "nominee": "c8eeb8d9-51c3-4833-a31d-ec18431eaf71"
         },
         {
           "nominationId": "dedc1e3d-4b67-46dd-bfd5-480f7a05d7e6",
-          "year": 2019,
           "nominee": "f70d14d5-2f1a-46a1-8462-bdf6fc18141a"
         }
       ]

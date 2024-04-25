@@ -273,12 +273,10 @@
       "awardId": "c4127f39-85a6-440c-bdcc-8742beb6e2f7",
       "nominations": [
         {
-          "nominationId": "0753fcab-6b0b-459b-a8e5-71567d5e27bb",
-          "year": 2015
+          "nominationId": "0753fcab-6b0b-459b-a8e5-71567d5e27bb"
         },
         {
-          "nominationId": "5319e99b-9464-40d9-91da-78e643f7ed13",
-          "year": 2014
+          "nominationId": "5319e99b-9464-40d9-91da-78e643f7ed13"
         }
       ]
     }

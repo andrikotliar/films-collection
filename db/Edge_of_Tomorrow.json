@@ -170,8 +170,7 @@
       "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "nominationId": "4776a35c-732d-4ca9-a4ff-2d3312cf353f",
-          "year": 2015
+          "nominationId": "4776a35c-732d-4ca9-a4ff-2d3312cf353f"
         }
       ]
     },
@@ -180,8 +179,7 @@
       "nominations": [
         {
           "nominationId": "b852d024-3f3d-4182-8905-7853a11e3073",
-          "nominee": "c892df31-7868-42cc-b245-ded4556da768",
-          "year": 2015
+          "nominee": "c892df31-7868-42cc-b245-ded4556da768"
         }
       ]
     }

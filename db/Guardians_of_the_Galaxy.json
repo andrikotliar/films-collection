@@ -171,20 +171,16 @@
       "nominations": [
         {
           "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
-          "nominee": "d37a1702-6d76-425e-a1ac-940961feb029",
-          "year": 2015
+          "nominee": "d37a1702-6d76-425e-a1ac-940961feb029"
         },
         {
-          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be",
-          "year": 2015
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"
         },
         {
-          "nominationId": "a3c2244b-8c42-49be-96f2-a7d2edf3b8a7",
-          "year": 2015
+          "nominationId": "a3c2244b-8c42-49be-96f2-a7d2edf3b8a7"
         },
         {
-          "nominationId": "f7a0a071-9da5-4baa-a192-931f60b7d2bf",
-          "year": 2015
+          "nominationId": "f7a0a071-9da5-4baa-a192-931f60b7d2bf"
         }
       ]
     },
@@ -192,12 +188,10 @@
       "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
         {
-          "nominationId": "66405be9-0573-45e1-b5fc-c80161d86500",
-          "year": 2015
+          "nominationId": "66405be9-0573-45e1-b5fc-c80161d86500"
         },
         {
-          "nominationId": "53f51093-e194-40d8-94b4-28908cb6a14c",
-          "year": 2015
+          "nominationId": "53f51093-e194-40d8-94b4-28908cb6a14c"
         }
       ]
     }

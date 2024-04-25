@@ -122,8 +122,7 @@
       "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "nominationId": "a6b1a904-f461-4360-aecc-9cd91d7d537a",
-          "year": 2005
+          "nominationId": "a6b1a904-f461-4360-aecc-9cd91d7d537a"
         }
       ]
     },
@@ -131,25 +130,20 @@
       "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "nominationId": "43447644-6efc-4969-b6f8-8cd2d7089fae",
-          "year": 2005
+          "nominationId": "43447644-6efc-4969-b6f8-8cd2d7089fae"
         },
         {
           "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
-          "year": 2005,
           "nominee": "deaf6b4d-ea83-4c45-ae61-4832bff20b5c"
         },
         {
-          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be",
-          "year": 2005
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"
         },
         {
-          "nominationId": "5aefbcf2-fe77-40b6-b866-fc647c89a400",
-          "year": 2005
+          "nominationId": "5aefbcf2-fe77-40b6-b866-fc647c89a400"
         },
         {
-          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91",
-          "year": 2005
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91"
         }
       ]
     }

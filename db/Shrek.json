@@ -116,8 +116,7 @@
       "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "nominationId": "5d1bb57f-cea1-4c41-81e7-fad3c6b9a7ea",
-          "year": 2002
+          "nominationId": "5d1bb57f-cea1-4c41-81e7-fad3c6b9a7ea"
         }
       ]
     },
@@ -125,8 +124,7 @@
       "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "nominationId": "ed971f9e-203f-4eeb-b3bf-4757d0b88346",
-          "year": 2002
+          "nominationId": "ed971f9e-203f-4eeb-b3bf-4757d0b88346"
         }
       ]
     },
@@ -134,8 +132,7 @@
       "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "nominationId": "90dce09b-0a64-49aa-8589-1fd1783ad0fe",
-          "year": 2002
+          "nominationId": "90dce09b-0a64-49aa-8589-1fd1783ad0fe"
         }
       ]
     }

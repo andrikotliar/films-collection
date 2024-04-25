@@ -151,17 +151,14 @@
       "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5",
-          "year": 2009
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5"
         },
         {
           "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
-          "nominee": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e",
-          "year": 2009
+          "nominee": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e"
         },
         {
-          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be",
-          "year": 2009
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"
         }
       ]
     }

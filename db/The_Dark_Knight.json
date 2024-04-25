@@ -156,13 +156,11 @@
       "nominations": [
         {
           "nominationId": "bca74c1f-f46a-4f82-bfab-f5f042b1b664",
-          "year": 2009,
           "nominee": "97047f5c-fea2-4606-86a2-2477e3725f98",
           "comment": "as Joker. Posthumously"
         },
         {
-          "nominationId": "ac85bc32-bfab-4362-9557-dd089f7a0ec5",
-          "year": 2009
+          "nominationId": "ac85bc32-bfab-4362-9557-dd089f7a0ec5"
         }
       ]
     },
@@ -171,7 +169,6 @@
       "nominations": [
         {
           "nominationId": "249fd8a4-59fe-4475-845f-4b49ed94ee76",
-          "year": 2009,
           "nominee": "97047f5c-fea2-4606-86a2-2477e3725f98",
           "comment": "as Joker. Posthumously"
         }
@@ -181,26 +178,21 @@
       "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "nominationId": "45a24e7b-3b27-45db-ada4-98608e63ac57",
-          "year": 2009
+          "nominationId": "45a24e7b-3b27-45db-ada4-98608e63ac57"
         },
         {
           "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
-          "year": 2009,
           "nominee": "97047f5c-fea2-4606-86a2-2477e3725f98",
           "comment": "as Joker. Posthumously"
         },
         {
-          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea",
-          "year": 2009
+          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea"
         },
         {
-          "nominationId": "be35075e-d485-4f10-9869-f89d28592465",
-          "year": 2009
+          "nominationId": "be35075e-d485-4f10-9869-f89d28592465"
         },
         {
-          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91",
-          "year": 2009
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91"
         }
       ]
     },
@@ -209,7 +201,6 @@
       "nominations": [
         {
           "nominationId": "d3bafbf4-f684-4f60-875a-5cbbe09c14e2",
-          "year": 2009,
           "nominee": "97047f5c-fea2-4606-86a2-2477e3725f98",
           "comment": "as Joker. Posthumously"
         }
@@ -220,13 +211,11 @@
       "nominations": [
         {
           "nominationId": "a9645c27-dbf0-401d-b637-09703c44e217",
-          "year": 2009,
           "nominee": "97047f5c-fea2-4606-86a2-2477e3725f98",
           "comment": "as Joker. Posthumously"
         },
         {
-          "nominationId": "53f51093-e194-40d8-94b4-28908cb6a14c",
-          "year": 2009
+          "nominationId": "53f51093-e194-40d8-94b4-28908cb6a14c"
         }
       ]
     }

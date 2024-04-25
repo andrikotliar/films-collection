@@ -146,12 +146,10 @@
       "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "nominationId": "d35f98cd-6d5a-41c8-b511-9046a59d8828",
-          "year": 2003
+          "nominationId": "d35f98cd-6d5a-41c8-b511-9046a59d8828"
         },
         {
-          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91",
-          "year": 2003
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91"
         }
       ]
     },
@@ -159,8 +157,7 @@
       "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "nominationId": "6f842add-0dec-488d-9a04-93e78aaddcc3",
-          "year": 2003
+          "nominationId": "6f842add-0dec-488d-9a04-93e78aaddcc3"
         }
       ]
     }

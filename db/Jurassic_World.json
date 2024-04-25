@@ -179,8 +179,7 @@
       "nominations": [
         {
           "nominationId": "dedc1e3d-4b67-46dd-bfd5-480f7a05d7e6",
-          "nominee": "43829348-2d1a-4215-9d14-bbaa6f1a6802",
-          "year": 2016
+          "nominee": "43829348-2d1a-4215-9d14-bbaa6f1a6802"
         }
       ]
     },
@@ -189,7 +188,6 @@
       "nominations": [
         {
           "nominationId": "b7103e19-b161-49b5-847f-753c106ceb5f",
-          "year": 2016,
           "nominee": "d37a1702-6d76-425e-a1ac-940961feb029"
         }
       ]

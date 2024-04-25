@@ -121,8 +121,7 @@
       "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "nominationId": "c75dcda3-a68d-41c1-a07a-61ddc9c1064f",
-          "year": 2014
+          "nominationId": "c75dcda3-a68d-41c1-a07a-61ddc9c1064f"
         }
       ]
     },
@@ -131,7 +130,6 @@
       "nominations": [
         {
           "nominationId": "197add55-ef2d-484e-b186-96ceeaccb9c2",
-          "year": 2014,
           "nominee": "4d283681-5033-4240-a844-289f0fc4ab52"
         }
       ]

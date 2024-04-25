@@ -124,18 +124,15 @@
       "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "nominationId": "bfff0a2c-c6d7-4352-a306-620f8b610ab2",
-          "year": 2014
+          "nominationId": "bfff0a2c-c6d7-4352-a306-620f8b610ab2"
         },
         {
           "nominationId": "d974522c-228d-4bd2-9c6f-db86d4c4acc2",
-          "nominee": "1d56e82b-951f-4350-acb3-dca0d17311b1",
-          "year": 2014
+          "nominee": "1d56e82b-951f-4350-acb3-dca0d17311b1"
         },
         {
           "nominationId": "92dcf3b9-9639-4482-bc85-5ad7895b7b5b",
-          "nominee": "29b99567-4a10-4246-9bb2-26b55a9c1e63",
-          "year": 2014
+          "nominee": "29b99567-4a10-4246-9bb2-26b55a9c1e63"
         }
       ]
     }

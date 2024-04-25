@@ -127,12 +127,10 @@
       "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5",
-          "year": 2006
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5"
         },
         {
-          "nominationId": "be35075e-d485-4f10-9869-f89d28592465",
-          "year": 2006
+          "nominationId": "be35075e-d485-4f10-9869-f89d28592465"
         }
       ]
     }

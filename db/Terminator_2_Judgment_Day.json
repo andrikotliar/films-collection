@@ -121,20 +121,16 @@
       "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "nominationId": "5bc47561-63bd-455c-8c3d-9f9ced87e923",
-          "year": 1992
+          "nominationId": "5bc47561-63bd-455c-8c3d-9f9ced87e923"
         },
         {
-          "nominationId": "be727846-3c6e-4539-8962-2c3539ea9ff1",
-          "year": 1992
+          "nominationId": "be727846-3c6e-4539-8962-2c3539ea9ff1"
         },
         {
-          "nominationId": "c346a523-3bf3-4f58-98e3-599206560b12",
-          "year": 1992
+          "nominationId": "c346a523-3bf3-4f58-98e3-599206560b12"
         },
         {
-          "nominationId": "0c8ce350-1ddc-43e7-b423-3099e13284a0",
-          "year": 1992
+          "nominationId": "0c8ce350-1ddc-43e7-b423-3099e13284a0"
         }
       ]
     },
@@ -142,13 +138,11 @@
       "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5",
-          "year": 1992
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5"
         },
         {
           "nominationId": "dedc1e3d-4b67-46dd-bfd5-480f7a05d7e6",
-          "nominee": "87d544e4-9c3a-4357-bced-3d5a55fff331",
-          "year": 1992
+          "nominee": "87d544e4-9c3a-4357-bced-3d5a55fff331"
         }
       ]
     },
@@ -156,12 +150,10 @@
       "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "nominationId": "fc19047a-84fa-4ddc-ab69-d69aec8aba25",
-          "year": 1992
+          "nominationId": "fc19047a-84fa-4ddc-ab69-d69aec8aba25"
         },
         {
-          "nominationId": "f7bd10f5-4137-4601-8c89-d9ccc58fe6a3",
-          "year": 1992
+          "nominationId": "f7bd10f5-4137-4601-8c89-d9ccc58fe6a3"
         }
       ]
     },
@@ -169,32 +161,26 @@
       "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "nominationId": "125802e2-8240-480d-99b9-db1d4a922e45",
-          "year": 1992
+          "nominationId": "125802e2-8240-480d-99b9-db1d4a922e45"
         },
         {
           "nominationId": "92dcf3b9-9639-4482-bc85-5ad7895b7b5b",
-          "year": 1992,
           "nominee": "5567133f-edab-4200-bb7e-cd30a409abb2"
         },
         {
           "nominationId": "d974522c-228d-4bd2-9c6f-db86d4c4acc2",
-          "year": 1992,
           "nominee": "dfb2cc61-095f-4a4c-8c60-64b1de7458a4"
         },
         {
           "nominationId": "72bea454-1925-495e-8b13-abd8ec41ac4b",
-          "year": 1992,
           "nominee": "87d544e4-9c3a-4357-bced-3d5a55fff331"
         },
         {
           "nominationId": "7497b93f-14ea-4b38-aeb4-c85128012c2f",
-          "year": 1992,
           "nominee": "5567133f-edab-4200-bb7e-cd30a409abb2"
         },
         {
           "nominationId": "2f12b906-153f-4cd2-b719-e0e9d54527a0",
-          "year": 1992,
           "comment": "L.A. Freeway Scene"
         }
       ]

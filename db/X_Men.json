@@ -162,30 +162,24 @@
       "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5",
-          "year": 2001
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5"
         },
         {
           "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
-          "year": 2001,
           "nominee": "3e2db4d6-df90-4736-9425-c1fd062d8868"
         },
         {
           "nominationId": "fe65a215-a19f-4382-a43e-c1dd27f8f27e",
-          "year": 2001,
           "nominee": "4533b45c-3d80-475c-8254-b13660e2aa3e"
         },
         {
-          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be",
-          "year": 2001
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"
         },
         {
-          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea",
-          "year": 2001
+          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea"
         },
         {
-          "nominationId": "d35f98cd-6d5a-41c8-b511-9046a59d8828",
-          "year": 2001
+          "nominationId": "d35f98cd-6d5a-41c8-b511-9046a59d8828"
         }
       ]
     }

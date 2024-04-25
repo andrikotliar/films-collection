@@ -122,8 +122,7 @@
       "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "nominationId": "a6b1a904-f461-4360-aecc-9cd91d7d537a",
-          "year": 2007
+          "nominationId": "a6b1a904-f461-4360-aecc-9cd91d7d537a"
         }
       ]
     },
@@ -131,8 +130,7 @@
       "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "nominationId": "b6836a56-a68b-4b87-b609-71ebd8c50628",
-          "year": 2007
+          "nominationId": "b6836a56-a68b-4b87-b609-71ebd8c50628"
         }
       ]
     },
@@ -140,8 +138,7 @@
       "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91",
-          "year": 2007
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91"
         }
       ]
     },
@@ -149,13 +146,11 @@
       "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "nominationId": "125802e2-8240-480d-99b9-db1d4a922e45",
-          "year": 2007
+          "nominationId": "125802e2-8240-480d-99b9-db1d4a922e45"
         },
         {
           "nominationId": "7d150dfa-5f76-4262-9e06-5600d70ffc2a",
-          "nominee": "e2d2c602-347d-41a4-8f35-a3d379043577",
-          "year": 2007
+          "nominee": "e2d2c602-347d-41a4-8f35-a3d379043577"
         }
       ]
     }

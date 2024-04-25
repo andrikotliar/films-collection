@@ -175,21 +175,17 @@
       "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5",
-          "year": 2013
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5"
         },
         {
           "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
-          "nominee": "1a2b1db2-33d9-4755-8702-1e054532094b",
-          "year": 2013
+          "nominee": "1a2b1db2-33d9-4755-8702-1e054532094b"
         },
         {
-          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be",
-          "year": 2013
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"
         },
         {
-          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91",
-          "year": 2013
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91"
         }
       ]
     },
@@ -197,16 +193,13 @@
       "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "nominationId": "bfff0a2c-c6d7-4352-a306-620f8b610ab2",
-          "year": 2013
+          "nominationId": "bfff0a2c-c6d7-4352-a306-620f8b610ab2"
         },
         {
-          "nominationId": "d3bafbf4-f684-4f60-875a-5cbbe09c14e2",
-          "year": 2013
+          "nominationId": "d3bafbf4-f684-4f60-875a-5cbbe09c14e2"
         },
         {
-          "nominationId": "6f842add-0dec-488d-9a04-93e78aaddcc3",
-          "year": 2013
+          "nominationId": "6f842add-0dec-488d-9a04-93e78aaddcc3"
         }
       ]
     }

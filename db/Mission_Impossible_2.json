@@ -137,8 +137,7 @@
       "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
         {
-          "nominationId": "6cbb6fbc-9d6a-4a2a-a4ae-e61fa307d8c5",
-          "year": 2001
+          "nominationId": "6cbb6fbc-9d6a-4a2a-a4ae-e61fa307d8c5"
         }
       ]
     },
@@ -147,12 +146,10 @@
       "nominations": [
         {
           "nominationId": "d974522c-228d-4bd2-9c6f-db86d4c4acc2",
-          "year": 2001,
           "nominee": "34dbc8dc-6e6e-4e45-a9c2-6ca23f70dc81"
         },
         {
           "nominationId": "2f12b906-153f-4cd2-b719-e0e9d54527a0",
-          "year": 2001,
           "comment": "The motorcycle chase."
         }
       ]

@@ -159,12 +159,10 @@
       "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "nominationId": "d35f98cd-6d5a-41c8-b511-9046a59d8828",
-          "year": 2000
+          "nominationId": "d35f98cd-6d5a-41c8-b511-9046a59d8828"
         },
         {
-          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91",
-          "year": 2000
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91"
         }
       ]
     },
@@ -173,7 +171,6 @@
       "nominations": [
         {
           "nominationId": "2f12b906-153f-4cd2-b719-e0e9d54527a0",
-          "year": 2000,
           "comment": "The pod race"
         }
       ]

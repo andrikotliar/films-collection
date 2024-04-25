@@ -143,8 +143,7 @@
       "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "nominationId": "37d6c9f0-b11c-446f-92ee-e369d76910ee",
-          "year": 2012
+          "nominationId": "37d6c9f0-b11c-446f-92ee-e369d76910ee"
         }
       ]
     },
@@ -153,21 +152,17 @@
       "nominations": [
         {
           "nominationId": "d974522c-228d-4bd2-9c6f-db86d4c4acc2",
-          "year": 2012,
           "nominee": "1d56e82b-951f-4350-acb3-dca0d17311b1"
         },
         {
           "nominationId": "92dcf3b9-9639-4482-bc85-5ad7895b7b5b",
-          "year": 2012,
           "nominee": "29b99567-4a10-4246-9bb2-26b55a9c1e63"
         },
         {
-          "nominationId": "eecc41a5-81dc-4fe0-849e-1d52264de776",
-          "year": 2012
+          "nominationId": "eecc41a5-81dc-4fe0-849e-1d52264de776"
         },
         {
-          "nominationId": "6f842add-0dec-488d-9a04-93e78aaddcc3",
-          "year": 2012
+          "nominationId": "6f842add-0dec-488d-9a04-93e78aaddcc3"
         }
       ]
     }

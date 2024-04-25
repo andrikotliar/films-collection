@@ -119,12 +119,10 @@
       "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
         {
-          "nominationId": "be727846-3c6e-4539-8962-2c3539ea9ff1",
-          "year": 1987
+          "nominationId": "be727846-3c6e-4539-8962-2c3539ea9ff1"
         },
         {
-          "nominationId": "38a477dc-4708-46b2-a96f-c39f7ec9af0b",
-          "year": 1987
+          "nominationId": "38a477dc-4708-46b2-a96f-c39f7ec9af0b"
         }
       ]
     },
@@ -132,8 +130,7 @@
       "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
         {
-          "nominationId": "f7bd10f5-4137-4601-8c89-d9ccc58fe6a3",
-          "year": 1987
+          "nominationId": "f7bd10f5-4137-4601-8c89-d9ccc58fe6a3"
         }
       ]
     },
@@ -142,44 +139,35 @@
       "nominations": [
         {
           "nominationId": "74ad3ee5-2619-4dd8-a034-d61cb277b764",
-          "year": 2011,
           "comment": "As part of the \"Alien Anthology\""
         },
         {
-          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5",
-          "year": 1987
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5"
         },
         {
           "nominationId": "66954688-228a-4288-b89a-af7fb4b3f890",
-          "nominee": "2cf2b71a-2fe4-4ac9-a7a3-6ea1a9985770",
-          "year": 1987
+          "nominee": "2cf2b71a-2fe4-4ac9-a7a3-6ea1a9985770"
         },
         {
           "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
-          "nominee": "a21fff8b-a24d-40e2-8e05-e44d558d7f3f",
-          "year": 1987
+          "nominee": "a21fff8b-a24d-40e2-8e05-e44d558d7f3f"
         },
         {
           "nominationId": "fe65a215-a19f-4382-a43e-c1dd27f8f27e",
-          "year": 1987,
           "comment": "Jenette Goldstein"
         },
         {
           "nominationId": "dedc1e3d-4b67-46dd-bfd5-480f7a05d7e6",
-          "nominee": "5b714993-abaf-4d6a-829a-ba31f9432b6e",
-          "year": 1987
+          "nominee": "5b714993-abaf-4d6a-829a-ba31f9432b6e"
         },
         {
-          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be",
-          "year": 1987
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"
         },
         {
-          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea",
-          "year": 1987
+          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea"
         },
         {
-          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91",
-          "year": 1987
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91"
         }
       ]
     }

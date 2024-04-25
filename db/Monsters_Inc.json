@@ -114,7 +114,6 @@
       "nominations": [
         {
           "nominationId": "862e14de-43a1-47f5-876d-6d2ea5970bee",
-          "year": 2002,
           "comment": "Song \"If I Didn't Have You\""
         }
       ]
@@ -123,8 +122,7 @@
       "awardId": "c4127f39-85a6-440c-bdcc-8742beb6e2f7",
       "nominations": [
         {
-          "nominationId": "52ed9d07-eae4-4768-9862-1b57ad65ac2f",
-          "year": 2003
+          "nominationId": "52ed9d07-eae4-4768-9862-1b57ad65ac2f"
         }
       ]
     }

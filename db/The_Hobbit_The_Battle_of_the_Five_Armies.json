@@ -258,13 +258,11 @@
       "nominations": [
         {
           "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
-          "year": 2015,
           "nominee": "a1065b71-c84c-4d85-bad6-965dcaa026c0",
           "comment": "Thorin"
         },
         {
-          "nominationId": "43447644-6efc-4969-b6f8-8cd2d7089fae",
-          "year": 2015
+          "nominationId": "43447644-6efc-4969-b6f8-8cd2d7089fae"
         }
       ]
     },
@@ -272,8 +270,7 @@
       "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
         {
-          "nominationId": "2f12b906-153f-4cd2-b719-e0e9d54527a0",
-          "year": 2015
+          "nominationId": "2f12b906-153f-4cd2-b719-e0e9d54527a0"
         }
       ]
     }

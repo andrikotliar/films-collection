@@ -179,17 +179,14 @@
       "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "nominationId": "43447644-6efc-4969-b6f8-8cd2d7089fae",
-          "year": 2006
+          "nominationId": "43447644-6efc-4969-b6f8-8cd2d7089fae"
         },
         {
           "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
-          "nominee": "6900c450-d6ad-4f62-8af7-d8398a1b6f77",
-          "year": 2006
+          "nominee": "6900c450-d6ad-4f62-8af7-d8398a1b6f77"
         },
         {
-          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea",
-          "year": 2006
+          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea"
         }
       ]
     },
@@ -198,8 +195,7 @@
       "nominations": [
         {
           "nominationId": "9c04a0b5-a613-49ec-be5c-e6290b90911e",
-          "nominee": "6900c450-d6ad-4f62-8af7-d8398a1b6f77",
-          "year": 2006
+          "nominee": "6900c450-d6ad-4f62-8af7-d8398a1b6f77"
         }
       ]
     }

@@ -172,8 +172,7 @@
       "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "nominationId": "ff7b106c-5ac3-4fe2-85d0-3449b0f7e753",
-          "year": 2016
+          "nominationId": "ff7b106c-5ac3-4fe2-85d0-3449b0f7e753"
         }
       ]
     },
@@ -182,7 +181,6 @@
       "nominations": [
         {
           "nominationId": "a9e2da06-f75b-43c9-a864-bc5bc8dbbdd1",
-          "year": 2016,
           "comment": "Song: See You Again"
         }
       ]

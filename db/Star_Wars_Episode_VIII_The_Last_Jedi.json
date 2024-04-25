@@ -146,17 +146,14 @@
       "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea",
-          "year": 2018
+          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea"
         },
         {
           "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
-          "year": 2018,
           "nominee": "4ff433ee-f363-4b38-8332-62b5ffece7dd"
         },
         {
-          "nominationId": "4776a35c-732d-4ca9-a4ff-2d3312cf353f",
-          "year": 2018
+          "nominationId": "4776a35c-732d-4ca9-a4ff-2d3312cf353f"
         }
       ]
     }

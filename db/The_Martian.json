@@ -187,12 +187,10 @@
       "awardId": "ae6f2bdf-42ac-4c5d-9744-881198ac1a1d",
       "nominations": [
         {
-          "nominationId": "cf903aa7-6778-43fb-bd91-b3ce3e18cac7",
-          "year": 2016
+          "nominationId": "cf903aa7-6778-43fb-bd91-b3ce3e18cac7"
         },
         {
           "nominationId": "a66ffaa4-57c6-48f1-bbe8-df9ef2d6d29c",
-          "year": 2016,
           "nominee": "95da34ce-8572-4b69-a7e5-c10d81af5504"
         }
       ]
@@ -201,8 +199,7 @@
       "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
         {
-          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be",
-          "year": 2016
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"
         }
       ]
     }

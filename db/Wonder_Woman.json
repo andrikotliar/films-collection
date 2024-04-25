@@ -146,7 +146,6 @@
       "nominations": [
         {
           "nominationId": "66954688-228a-4288-b89a-af7fb4b3f890",
-          "year": 2018,
           "nominee": "cac99b67-2448-4b4f-ab99-e88b4e516940"
         }
       ]
@@ -155,8 +154,7 @@
       "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
         {
-          "nominationId": "53f51093-e194-40d8-94b4-28908cb6a14c",
-          "year": 2018
+          "nominationId": "53f51093-e194-40d8-94b4-28908cb6a14c"
         }
       ]
     }
