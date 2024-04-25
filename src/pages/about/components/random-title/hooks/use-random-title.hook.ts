@@ -1,8 +1,8 @@
-import { useFilmsContext } from '@/context';
+import { useDataContext } from '@/context';
 import { useMemo } from 'react';
 
 const useRandomTitle = () => {
-  const { films, isFilmsFetching } = useFilmsContext();
+  const { films } = useDataContext();
 
   const randomTitle = useMemo(() => {
     if (!films) {
@@ -19,7 +19,7 @@ const useRandomTitle = () => {
     return null;
   }, [films]);
 
-  return { randomTitle, isFilmsFetching };
+  return randomTitle;
 };
 
 export { useRandomTitle };

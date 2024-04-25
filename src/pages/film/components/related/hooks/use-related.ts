@@ -1,9 +1,9 @@
-import { useFilmsContext } from '@/context';
+import { useDataContext } from '@/context';
 import { splitAt } from '@/helpers';
 import { useMemo } from 'react';
 
 const useRelated = (key: string, filmId: string) => {
-  const { relatedFilms } = useFilmsContext();
+  const { relatedFilms } = useDataContext();
 
   const data = useMemo(() => {
     const currentList = relatedFilms?.[key];

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { useFilmsContext } from '@/context';
+import { useDataContext } from '@/context';
 import { Loader, NotFound } from '@/components';
 import { FilmData } from '@/common/types';
 import { useDocumentTitle } from '@/hooks';
@@ -19,14 +19,13 @@ import {
   SeasonSelect,
   TitleRow,
   Summary,
-  CollapsibleSection,
   Related,
 } from './components';
 import { getCurrentFilm } from './helpers';
 
 const FilmPage = () => {
   const { id } = useParams();
-  const { films, isFilmsFetching } = useFilmsContext();
+  const { films } = useDataContext();
   const [film, setFilm] = useState<FilmData | null>();
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -40,7 +39,7 @@ const FilmPage = () => {
     }
   }, [id, films]);
 
-  if (film === undefined || isFilmsFetching) {
+  if (film === undefined) {
     return <Loader isFullPage />;
   }
 
@@ -67,34 +66,37 @@ const FilmPage = () => {
             <Description>{film.description[activeIndex]}</Description>
           </section>
 
-          <CollapsibleSection title="Summary">
+          <section>
+            <SectionTitle>Summary</SectionTitle>
             <Summary film={film} activeIndex={activeIndex} />
-          </CollapsibleSection>
+          </section>
 
-          <CollapsibleSection title="Crew">
+          <section>
+            <SectionTitle>Crew</SectionTitle>
             <CrewList crew={film.crew} />
-          </CollapsibleSection>
+          </section>
 
-          <CollapsibleSection title="Cast and characters">
+          <section>
+            <SectionTitle>Cast and characters</SectionTitle>
             <Cast cast={film.cast} />
-          </CollapsibleSection>
+          </section>
 
           {film.awards && (
-            <CollapsibleSection title="Awards">
+            <section>
+              <SectionTitle>Awards</SectionTitle>
               <Awards awards={film.awards} />
-            </CollapsibleSection>
+            </section>
           )}
 
           {(film.budget || film.boxOffice) && (
-            <CollapsibleSection title="Box Office">
+            <section>
+              <SectionTitle>Box Office</SectionTitle>
               <BoxOffice budget={film.budget} boxOffice={film.boxOffice} />
-            </CollapsibleSection>
+            </section>
           )}
 
           {film.relatedTitlesKey && id && (
-            <CollapsibleSection title="Chapters">
-              <Related relatedKey={film.relatedTitlesKey} filmId={id} />
-            </CollapsibleSection>
+            <Related relatedKey={film.relatedTitlesKey} filmId={id} />
           )}
         </Column>
       </Grid>

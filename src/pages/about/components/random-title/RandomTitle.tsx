@@ -6,7 +6,7 @@ import { useRandomTitle } from './hooks';
 import styles from './RandomTitle.module.css';
 
 const RandomTitle = () => {
-  const { randomTitle, isFilmsFetching } = useRandomTitle();
+  const randomTitle = useRandomTitle();
 
   const directors = useMemo(() => {
     const directors = randomTitle?.crew.find(
@@ -19,10 +19,6 @@ const RandomTitle = () => {
 
     return directors.people.map((person) => person.name).join(', ');
   }, [randomTitle]);
-
-  if (isFilmsFetching) {
-    return <Loader />;
-  }
 
   if (!randomTitle) {
     return null;
