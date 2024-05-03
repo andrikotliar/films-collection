@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Actor as ActorType, CastType } from '@/common/types';
 import { buildMediaPath, buildQueryLink, handleImageError } from '@/helpers';
 import { Character } from './components';
-import { IMAGE_FALLBACKS } from '@/common/constants';
+import { images } from '@/common/maps';
 import styles from './Actor.module.css';
 
 type Props = {
@@ -19,9 +19,9 @@ const Actor: FC<Props> = ({ actor, externalData }) => {
       <div className={styles.profile}>
         <div className={styles.photo}>
           <img
-            src={photoUrl}
+            src={photoUrl + 'abra'}
             alt={externalData.name}
-            onError={(e) => handleImageError(e, IMAGE_FALLBACKS.noActorImage)}
+            onError={handleImageError(images.actorNotFound)}
           />
         </div>
         <div className={styles.details}>
