@@ -1,4 +1,4 @@
-import { NominationCategory, PersonRole } from '@/common/enums';
+import { PersonRole } from '@/common/enums';
 
 type TypeVariants = 'Film' | 'Animation' | 'Series';
 
@@ -24,14 +24,13 @@ type Collection = {
 };
 
 type Nomination = {
-  title: string;
-  category: NominationCategory;
+  nominationId: string;
   nominee?: string;
   comment?: string;
 };
 
 type Award = {
-  title: string;
+  awardId: string;
   nominations: Nomination[];
 };
 

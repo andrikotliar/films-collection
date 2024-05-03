@@ -15,7 +15,7 @@ enum NominationCategory {
   GENRE = 'genre',
   DVD = 'dvd',
   ADAPTATION = 'adaption',
-  ART = 'art_direction',
+  ART_DIRECTION = 'art_direction',
   COSTUMES = 'costumes',
   BEST_MOVIE = 'best_movie',
   ACTION = 'action',
@@ -23,6 +23,7 @@ enum NominationCategory {
   FAVORITE_FRANCHISE = 'favorite_franchise',
   VIRTUAL_PERFORMANCE = 'virtual_performance',
   MINI_SERIES = 'mini_series',
+  LIFETIME_ACHIEVEMENT = 'lifetime_achievement',
 }
 
 export { NominationCategory };

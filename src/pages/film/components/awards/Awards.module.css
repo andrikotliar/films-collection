@@ -1,40 +1,47 @@
-.award {
-  overflow: hidden;
-}
-
-.header {
+.wrapper {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 20px;
-  width: 100%;
-  height: 70px;
-  padding-bottom: 15px;
-  margin-bottom: 15px;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.5);
 }
 
-.title:hover {
-  color: var(--main-color);
-}
-
-.icon {
+.award {
   display: flex;
-  justify-content: center;
-  width: 60px;
-  flex-shrink: 0;
+  gap: 20px;
+  border: 1px solid var(--yellow-gold);
+  border-radius: var(--app-border-radius);
+  padding: 10px;
 }
 
-.icon img {
-  height: 100%;
-  width: auto;
+.rightColumn {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.title {
+  display: inline-block;
+  color: var(--yellow-gold);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.awardIcon {
+  width: 100px;
+  height: 100px;
 }
 
 .nominations {
-  display: flex;
-  flex-direction: column;
   gap: 10px;
-  font-size: 14px;
-  width: 100%;
-  max-height: 100px;
-  overflow-y: auto;
+}
+
+@media (max-width: 480px) {
+  .title {
+    text-align: center;
+    width: 100%;
+  }
+  .award {
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+  }
 }

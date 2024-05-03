@@ -1,0 +1,23 @@
+.nomination {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border: var(--app-border);
+  border-radius: var(--app-border-radius);
+  padding: 10px;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.actorLink {
+  font-size: 12px;
+}
+
+.comment {
+  color: var(--gray-dark);
+  font-size: 12px;
+}
