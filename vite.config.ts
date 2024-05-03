@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import tsconfigPaths from 'vite-tsconfig-paths';
 import { VitePWA } from 'vite-plugin-pwa';
+import svgr from 'vite-plugin-svgr';
 
 export default defineConfig({
   server: {
@@ -11,6 +12,7 @@ export default defineConfig({
   plugins: [
     react(),
     tsconfigPaths(),
+    svgr(),
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
