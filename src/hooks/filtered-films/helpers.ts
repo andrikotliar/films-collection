@@ -46,9 +46,15 @@ const filterFilms = (
           );
         }
 
-        if (property === 'collections' || property === 'awards') {
+        if (property === 'collections') {
           return film[property]?.some(
             (item) => item.title === filterParams[property],
+          );
+        }
+
+        if (property === 'awards') {
+          return film[property]?.some(
+            (item) => item.awardId === filterParams[property],
           );
         }
 
