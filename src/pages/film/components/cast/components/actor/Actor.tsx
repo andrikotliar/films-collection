@@ -19,7 +19,7 @@ const Actor: FC<Props> = ({ actor, externalData }) => {
       <div className={styles.profile}>
         <div className={styles.photo}>
           <img
-            src={photoUrl + 'abra'}
+            src={photoUrl}
             alt={externalData.name}
             onError={handleImageError(images.actorNotFound)}
           />
