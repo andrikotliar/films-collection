@@ -6,7 +6,7 @@ import { useDataContext } from '@/context';
 import { buildQueryLink } from '@/helpers';
 import { Nomination } from './components';
 import styles from './Awards.module.css';
-import { DataGrid } from '@/components';
+import { DataArea, DataGrid } from '@/components';
 
 type Props = {
   awards: Award[];
@@ -14,10 +14,10 @@ type Props = {
 
 const Awards: FC<Props> = ({ awards }) => {
   const { actors } = useDataContext();
-  const awardsConfig = useMemo(() => getAwardsConfig({ size: 120 }), []);
+  const awardsConfig = useMemo(() => getAwardsConfig({ size: 100 }), []);
 
   return (
-    <div className={styles.wrapper}>
+    <DataArea className={styles.wrapper}>
       {awards.map(({ awardId, nominations }) => (
         <div key={awardId} className={styles.award}>
           <Link to={buildQueryLink('awards', awardId)}>
@@ -30,7 +30,7 @@ const Awards: FC<Props> = ({ awards }) => {
             >
               {awardsConfig[awardId].title}
             </Link>
-            <DataGrid className={styles.nominations}>
+            <div className={styles.nominations}>
               {nominations.map(({ nominationId, nominee, comment }) => (
                 <Nomination
                   title={awardsConfig[awardId].nominations[nominationId].title}
@@ -40,11 +40,11 @@ const Awards: FC<Props> = ({ awards }) => {
                   key={nominationId}
                 />
               ))}
-            </DataGrid>
+            </div>
           </div>
         </div>
       ))}
-    </div>
+    </DataArea>
   );
 };
 

@@ -7,9 +7,13 @@
 .award {
   display: flex;
   gap: 20px;
-  border: 1px solid var(--yellow-gold);
-  border-radius: var(--app-border-radius);
-  padding: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--gray);
+}
+
+.award:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
 }
 
 .rightColumn {

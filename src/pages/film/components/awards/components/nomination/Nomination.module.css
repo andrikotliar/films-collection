@@ -1,11 +1,16 @@
 .nomination {
   display: flex;
-  flex-direction: column;
-  gap: 2px;
-  border: var(--app-border);
-  border-radius: var(--app-border-radius);
-  padding: 10px;
-  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.nomination:last-child {
+  margin-bottom: 0 ;
+}
+
+.nomination::before {
+  content: '—';
+  color: var(--yellow-gold);
 }
 
 .title {
