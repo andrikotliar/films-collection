@@ -257,10 +257,8 @@
           "nominee": "31db8789-fe19-43ac-a9df-c0e85bdc26ea"
         },
         {
-          "nominationId": "e1a07b16-cd0e-4b48-86d7-49e8e6fe92c0"
-        },
-        {
-          "nominationId": "e1a07b16-cd0e-4b48-86d7-49e8e6fe92c0"
+          "nominationId": "e1a07b16-cd0e-4b48-86d7-49e8e6fe92c0",
+          "comment": "In 2019 and 2022 years"
         },
         {
           "nominationId": "8db5c8bd-ea70-4e58-8637-24287d247615"
@@ -284,7 +282,8 @@
           "comment": "Hiro Koda - stunt coordinator"
         },
         {
-          "nominationId": "14bbeb92-155a-4b95-8191-3520856886b5"
+          "nominationId": "14bbeb92-155a-4b95-8191-3520856886b5",
+          "comment": "2022 (episode: The Massacre at Hawkins Lab), 2020 (episode: The Battle of Starcourt), 2018 (episode: The Ming Flayer)"
         },
         {
           "nominationId": "f7aeea61-9f2c-4601-b438-80368c3a2a09",
@@ -297,14 +296,6 @@
         {
           "nominationId": "dee6e4c3-f3f0-4f29-95be-97053e1cfd59",
           "comment": "\"Dear Billy\" episode"
-        },
-        {
-          "nominationId": "14bbeb92-155a-4b95-8191-3520856886b5",
-          "comment": "\"The Battle of Starcourt\" episode"
-        },
-        {
-          "nominationId": "14bbeb92-155a-4b95-8191-3520856886b5",
-          "comment": "\"The Ming Flayer\" episode"
         },
         {
           "nominationId": "a95b04f3-ae06-454b-997b-1f7a9a84bb90"
