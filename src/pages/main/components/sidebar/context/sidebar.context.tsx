@@ -14,6 +14,7 @@ type SidebarContextType = {
   filtersCount: number;
   setIsFilterOpen: Dispatch<SetStateAction<boolean>>;
   updateFiltersCount: (count: number) => void;
+  toggleFilter: VoidFunction;
 };
 
 const SidebarContext = createContext({} as SidebarContextType);
@@ -30,6 +31,10 @@ const SidebarProvider: FC<PropsWithChildren> = ({ children }) => {
     }
   };
 
+  const toggleFilter = () => {
+    setIsFilterOpen((isOpen) => !isOpen);
+  };
+
   return (
     <SidebarContext.Provider
       value={{
@@ -37,6 +42,7 @@ const SidebarProvider: FC<PropsWithChildren> = ({ children }) => {
         setIsFilterOpen,
         filtersCount,
         updateFiltersCount,
+        toggleFilter,
       }}
     >
       {children}

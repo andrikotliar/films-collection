@@ -1,8 +1,8 @@
 import classNames from 'classnames';
 import { FC, MouseEvent, useEffect, useMemo, useRef, useState } from 'react';
-import { ChevronDown } from 'lucide-react';
 import { PopupMenu } from '@/components/popup-menu/PopupMenu';
 import styles from './Select.module.css';
+import { Icons } from '@/components/icons/Icons';
 
 type Option = {
   label: string;
@@ -126,7 +126,8 @@ const Select: FC<SelectProps> = ({
         onBlur={handleTriggerFocus}
       >
         <span>{selectedOption ? selectedOption.label : placeholder}</span>
-        <ChevronDown
+        <Icons
+          icon="chevronDown"
           className={classNames(styles.expandIcon, {
             [styles.expanded]: isOpen,
           })}

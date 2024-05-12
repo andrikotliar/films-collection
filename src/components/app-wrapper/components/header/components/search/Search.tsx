@@ -1,9 +1,9 @@
 import { ChangeEvent, useCallback, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { debounce } from '@/helpers';
-import { Search as SearchIcon } from 'lucide-react';
 
 import styles from './Search.module.css';
+import { Icons } from '@/components/icons/Icons';
 
 const Search = () => {
   const navigate = useNavigate();
@@ -48,7 +48,7 @@ const Search = () => {
         onChange={debouncedSearch}
         ref={searchInputRef}
       />
-      <SearchIcon className={styles.searchIcon} />
+      <Icons icon="search" className={styles.searchIcon} />
     </div>
   );
 };

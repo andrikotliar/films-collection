@@ -11,6 +11,18 @@ type IconNames =
   | 'emmyAward'
   | 'criticsChoiceAward'
   | 'jupiterAward'
-  | 'mtvAward';
+  | 'mtvAward'
+  | 'check'
+  | 'chevronUp'
+  | 'chevronDown'
+  | 'chevronLeft'
+  | 'chevronRight'
+  | 'close'
+  | 'menu'
+  | 'play'
+  | 'reset'
+  | 'search'
+  | 'slider'
+  | 'loader';
 
 export type { IconsMap, IconNames };
