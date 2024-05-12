@@ -30,7 +30,7 @@ const useRelated = (key: string, filmId: string) => {
       remakes: currentList.remakes,
       originals: currentList.originals,
     };
-  }, [key, relatedFilms]);
+  }, [key, relatedFilms, filmId]);
 
   return data;
 };

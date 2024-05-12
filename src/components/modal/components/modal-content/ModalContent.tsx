@@ -31,7 +31,7 @@ const ModalContent: FC<PropsWithChildren<Props>> = ({
     >
       {children}
       <button onClick={onClose} className={styles.closeButton}>
-        <Icons icon="close" />
+        <Icons icon="close" size={15} />
       </button>
     </div>
   );

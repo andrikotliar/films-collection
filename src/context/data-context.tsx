@@ -37,6 +37,8 @@ const DataProvider: FC<PropsWithChildren> = ({ children }) => {
     fn: fetchData,
   });
 
+  console.log(data);
+
   if (isFetching) {
     return <Loader isFullPage />;
   }

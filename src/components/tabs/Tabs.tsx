@@ -28,10 +28,11 @@ const Tabs: FC<Props> = ({ components, defaultTabIndex = 0 }) => {
       <div className={styles.controls}>
         {components.map((component, index) => (
           <button
+            type="button"
             onClick={handleSelectTab(index)}
             key={component.label}
             className={classNames(styles.tab, {
-              [styles.active]: index === activeIndex
+              [styles.active]: index === activeIndex,
             })}
           >
             {component.label}

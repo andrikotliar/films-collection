@@ -106,7 +106,7 @@ const Filters = () => {
           ]}
         />
         <div className={styles.controls}>
-          <Button icon={<Icons icon="search" fill="#fff" />} type="submit">
+          <Button icon={<Icons icon="search" />} type="submit">
             Search
           </Button>
           {filtersCount > 0 && (
