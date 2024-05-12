@@ -1,31 +1,16 @@
-import { fetchAllFilms, fetchRelatedFilmsList, fetchActorsList } from '@/api';
-import { ActorsList, FilmData, Related } from '@/common/types';
+import { DataCollection, fetchData } from '@/api';
 import { Loader, NotFound } from '@/components';
 import { useQuery } from '@/hooks/query';
 import { FC, PropsWithChildren, createContext, useContext } from 'react';
 
 type InitialValue = {
-  films: FilmData[] | null;
-  relatedFilms: Related | null;
-  actors: ActorsList | null;
+  films: DataCollection['films'];
+  actors: DataCollection['actors'] | null;
 };
 
 const initialValue: InitialValue = {
-  films: null,
-  relatedFilms: null,
+  films: [],
   actors: null,
-};
-
-const fetchData = async () => {
-  const films = await fetchAllFilms();
-  const relatedFilms = await fetchRelatedFilmsList();
-  const actors = await fetchActorsList();
-
-  return {
-    films,
-    relatedFilms,
-    actors,
-  };
 };
 
 const DataContext = createContext<InitialValue>(initialValue);
@@ -36,8 +21,6 @@ const DataProvider: FC<PropsWithChildren> = ({ children }) => {
   const { data, isFetching } = useQuery({
     fn: fetchData,
   });
-
-  console.log(data);
 
   if (isFetching) {
     return <Loader isFullPage />;

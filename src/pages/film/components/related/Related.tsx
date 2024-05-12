@@ -1,27 +1,23 @@
+import { FC } from 'react';
 import { Section } from '@/pages/film/components/related/components';
 import { useRelated } from '@/pages/film/components/related/hooks';
-import { FC } from 'react';
-
+import { RelatedFilms } from '@/common/types';
 import styles from './Related.module.css';
 
 type Props = {
-  relatedKey: string;
+  data: RelatedFilms;
   filmId: string;
 };
 
-const Related: FC<Props> = ({ relatedKey, filmId }) => {
-  const data = useRelated(relatedKey, filmId);
-
-  if (!data) {
-    return null;
-  }
+const Related: FC<Props> = ({ data, filmId }) => {
+  const relatedFilms = useRelated(data, filmId);
 
   return (
     <div className={styles.wrapper}>
-      <Section title="Previous chapters" data={data.chapters?.left} />
-      <Section title="Next chapters" data={data.chapters?.right} />
-      <Section title="Remakes" data={data.remakes} />
-      <Section title="Remake of" data={data.originals} />
+      <Section title="Previous chapters" data={relatedFilms.chapters.left} />
+      <Section title="Next chapters" data={relatedFilms.chapters.right} />
+      <Section title="Remakes" data={relatedFilms.remakes} />
+      <Section title="Remake of" data={relatedFilms.originals} />
     </div>
   );
 };

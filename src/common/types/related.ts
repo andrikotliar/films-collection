@@ -4,12 +4,10 @@ type RelatedItem = {
   poster: string;
 };
 
-type Related = {
-  [id: string]: {
-    chapters: RelatedItem[];
-    remakes?: RelatedItem[];
-    originals?: RelatedItem[];
-  };
+type RelatedFilms = {
+  chapters: RelatedItem[];
+  remakes?: RelatedItem[];
+  originals?: RelatedItem[];
 };
 
-export type { Related, RelatedItem };
+export type { RelatedFilms, RelatedItem };

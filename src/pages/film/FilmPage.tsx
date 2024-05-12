@@ -43,7 +43,7 @@ const FilmPage = () => {
     return <Loader isFullPage />;
   }
 
-  if (film === null) {
+  if (film === null || !id) {
     return <NotFound message="Film not found" />;
   }
 
@@ -95,9 +95,7 @@ const FilmPage = () => {
             </section>
           )}
 
-          {film.relatedTitlesKey && id && (
-            <Related relatedKey={film.relatedTitlesKey} filmId={id} />
-          )}
+          {film.related && <Related data={film.related} filmId={id} />}
         </Column>
       </Grid>
     </Wrapper>

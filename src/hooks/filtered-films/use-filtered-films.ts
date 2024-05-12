@@ -9,7 +9,7 @@ const useFilteredFilms = () => {
   const { filterParams } = useQueryFilter();
 
   const result = useMemo(() => {
-    if (films?.length) {
+    if (films.length) {
       const filtersCount = countObjectKeys(filterParams);
 
       if (filtersCount) {

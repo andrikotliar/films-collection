@@ -1,4 +1,5 @@
 import { PersonRole } from '@/common/enums';
+import { RelatedFilms } from './related';
 
 type TypeVariants = 'Film' | 'Animation' | 'Series';
 
@@ -76,6 +77,11 @@ type FilmData = {
   series?: SeriesExtension;
   rating: number;
   relatedTitlesKey?: string;
+  related: RelatedFilms;
+};
+
+type FilmsList = {
+  [id: string]: FilmData;
 };
 
 export type {
@@ -89,4 +95,5 @@ export type {
   SeriesExtension,
   SeasonType,
   MediaItem,
+  FilmsList,
 };

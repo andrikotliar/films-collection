@@ -1,4 +1,6 @@
 import fs from 'fs';
+import actorsData from './data/actors.json' assert { type: 'json' };
+import relatedFilmsData from './data/related.json' assert { type: 'json' };
 
 const generateDatabaseFiles = () => {
   const files = fs.readdirSync('./db/');
@@ -7,14 +9,23 @@ const generateDatabaseFiles = () => {
     const fileData = fs.readFileSync(`./db/${file}`, 'utf8');
     const film = JSON.parse(fileData);
 
+    if (film.relatedTitlesKey) {
+      film.related = relatedFilmsData[film.relatedTitlesKey];
+    }
+
     return film;
   });
 
   const sortedDb = db.sort((a, b) => (a.year < b.year ? 1 : -1));
 
+  const result = {
+    films: sortedDb,
+    actors: actorsData,
+  };
+
   fs.writeFile(
     './public/database/database.json',
-    JSON.stringify(sortedDb),
+    JSON.stringify(result),
     (error) => {
       if (error) {
         console.log(error);

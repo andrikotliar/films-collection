@@ -1,22 +1,14 @@
-import { useDataContext } from '@/context';
+import { RelatedFilms } from '@/common/types';
 import { splitAt } from '@/helpers';
 import { useMemo } from 'react';
 
-const useRelated = (key: string, filmId: string) => {
-  const { relatedFilms } = useDataContext();
-
+const useRelated = (related: RelatedFilms, currentFilmId: string) => {
   const data = useMemo(() => {
-    const currentList = relatedFilms?.[key];
-
-    if (!currentList) {
-      return null;
-    }
-
-    const chaptersIndex = currentList.chapters.findIndex(
-      (data) => data.id === filmId,
+    const chaptersIndex = related.chapters.findIndex(
+      (data) => data.id === currentFilmId,
     );
 
-    const chaptersFilledWithNumbers = currentList.chapters.map(
+    const chaptersFilledWithNumbers = related.chapters.map(
       (chapter, index) => ({
         ...chapter,
         chapter: index + 1,
@@ -27,10 +19,10 @@ const useRelated = (key: string, filmId: string) => {
 
     return {
       chapters,
-      remakes: currentList.remakes,
-      originals: currentList.originals,
+      remakes: related.remakes,
+      originals: related.originals,
     };
-  }, [key, relatedFilms, filmId]);
+  }, [related, currentFilmId]);
 
   return data;
 };
