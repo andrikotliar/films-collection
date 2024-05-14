@@ -1,15 +1,11 @@
-import { useEffect } from 'react';
-import { useDocumentTitle } from '@/hooks';
+import { useDocumentTitle, useScrollToTop } from '@/hooks';
 import { RandomTitle } from './components';
 
 import styles from './AboutPage.module.css';
 
 const AboutPage = () => {
   useDocumentTitle('About');
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  useScrollToTop([]);
 
   return (
     <article className={styles.about}>

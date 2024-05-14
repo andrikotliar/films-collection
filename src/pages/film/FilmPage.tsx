@@ -1,9 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { useDataContext } from '@/context';
 import { Loader, NotFound } from '@/components';
-import { FilmData } from '@/common/types';
-import { useDocumentTitle } from '@/hooks';
+import { useDocumentTitle, useScrollToTop } from '@/hooks';
 import {
   Title,
   SectionTitle,
@@ -21,23 +19,16 @@ import {
   Summary,
   Related,
 } from './components';
-import { getCurrentFilm } from './helpers';
+import { useCurrentFilm } from '@/pages/film/hooks';
 
 const FilmPage = () => {
   const { id } = useParams();
-  const { films } = useDataContext();
-  const [film, setFilm] = useState<FilmData | null>();
   const [activeIndex, setActiveIndex] = useState(0);
 
-  useDocumentTitle(film?.title);
+  const film = useCurrentFilm(id);
 
-  useEffect(() => {
-    if (films?.length) {
-      window.scrollTo(0, 0);
-      const film = getCurrentFilm(films, id);
-      setFilm(film);
-    }
-  }, [id, films]);
+  useScrollToTop([id]);
+  useDocumentTitle(film?.title);
 
   if (film === undefined) {
     return <Loader isFullPage />;

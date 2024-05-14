@@ -1,6 +1,4 @@
-import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { Loader } from '@/components';
 import { buildMediaPath, buildRouterLink } from '@/helpers';
 import { useRandomTitle } from './hooks';
 import styles from './RandomTitle.module.css';
@@ -8,35 +6,25 @@ import styles from './RandomTitle.module.css';
 const RandomTitle = () => {
   const randomTitle = useRandomTitle();
 
-  const directors = useMemo(() => {
-    const directors = randomTitle?.crew.find(
-      (item) => item.role === 'director',
-    );
-
-    if (!directors) {
-      return null;
-    }
-
-    return directors.people.map((person) => person.name).join(', ');
-  }, [randomTitle]);
-
   if (!randomTitle) {
     return null;
   }
 
   return (
     <Link
-      to={buildRouterLink('film', randomTitle.id)}
+      to={buildRouterLink('film', randomTitle.info.id)}
       className={styles.wrapper}
     >
       <h2 className={styles.title}>Random title</h2>
       <div className={styles.poster}>
-        <img src={buildMediaPath('posters', randomTitle.media[0].poster)} />
+        <img
+          src={buildMediaPath('posters', randomTitle.info.media[0].poster)}
+        />
       </div>
       <div className={styles.info}>
-        <h3 className={styles.movieTitle}>{randomTitle.title}</h3>
+        <h3 className={styles.movieTitle}>{randomTitle.info.title}</h3>
         <p>
-          {randomTitle.year[0]} - {directors}
+          {randomTitle.info.year[0]} - {randomTitle.directors}
         </p>
       </div>
     </Link>

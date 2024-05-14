@@ -1,11 +1,7 @@
 .nomination {
   display: flex;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-
-.nomination:last-child {
-  margin-bottom: 0 ;
+  gap: 5px;
+  padding-right: 5px;
 }
 
 .nomination::before {
@@ -13,12 +9,17 @@
   color: var(--yellow-gold);
 }
 
-.title {
-  font-size: 14px;
-  font-weight: normal;
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
-.actorLink {
+.title {
+  font-size: 15px;
+}
+
+.actor {
   font-size: 12px;
 }
 

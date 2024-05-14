@@ -1,30 +1,33 @@
 import { FC } from 'react';
 import styles from './Nomination.module.css';
 import { buildQueryLink } from '@/helpers';
-import { ActorsList } from '@/common/types';
 import { RouterLink } from '@/components';
+
+type Nominee = {
+  id: string;
+  name: string;
+};
 
 type Props = {
   title: string;
   comment?: string;
-  actorId?: string;
-  actors: ActorsList | null;
+  nominee: Nominee | null;
 };
 
-const Nomination: FC<Props> = ({ title, comment, actorId, actors }) => {
+const Nomination: FC<Props> = ({ title, comment, nominee }) => {
   return (
     <div className={styles.nomination}>
-      <div>
-        <h4 className={styles.title}>{title}</h4>
-        {actorId && actors && (
+      <div className={styles.container}>
+        <div className={styles.title}>{title}</div>
+        {nominee && (
           <RouterLink
-            to={buildQueryLink('cast', actorId)}
-            className={styles.actorLink}
+            to={buildQueryLink('cast', nominee.id)}
+            className={styles.actor}
           >
-            {actors[actorId].name}
+            {nominee.name}
           </RouterLink>
         )}
-        {comment && <div className={styles.comment}>{comment}</div>}
+        {comment && <div className={styles.comment}>({comment})</div>}
       </div>
     </div>
   );

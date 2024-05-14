@@ -131,6 +131,7 @@ const Select: FC<SelectProps> = ({
           className={classNames(styles.expandIcon, {
             [styles.expanded]: isOpen,
           })}
+          size={20}
         />
       </button>
       <PopupMenu
