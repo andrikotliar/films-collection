@@ -1,9 +1,9 @@
-import { useDataContext } from '@/context';
+import { FilmsContext } from '@/context';
 import { getCurrentFilm } from '@/pages/film/helpers';
-import { useMemo } from 'react';
+import { useContext, useMemo } from 'react';
 
 const useCurrentFilm = (id?: string) => {
-  const { films } = useDataContext();
+  const { films } = useContext(FilmsContext);
 
   const currentFilm = useMemo(() => {
     if (!id || !films.length) {

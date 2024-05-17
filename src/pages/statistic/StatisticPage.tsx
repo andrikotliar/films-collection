@@ -1,8 +1,9 @@
-import { useDataContext } from '@/context';
+import { useContext } from 'react';
+import { FilmsContext } from '@/context';
 import styles from './StatisticPage.module.css';
 
 const StatisticPage = () => {
-  const { films } = useDataContext();
+  const { films } = useContext(FilmsContext);
 
   return (
     <div className={styles.statisticPage}>

@@ -1,15 +1,15 @@
-import { FC } from 'react';
+import { FC, useContext } from 'react';
 import { CastType } from '@/common/types';
 import { DataGrid } from '@/components';
 import { Actor } from './components';
-import { useDataContext } from '@/context';
+import { FilmsContext } from '@/context';
 
 type Props = {
   cast: CastType[];
 };
 
 const Cast: FC<Props> = ({ cast }) => {
-  const { actors } = useDataContext();
+  const { actors } = useContext(FilmsContext);
 
   if (!actors) {
     return null;

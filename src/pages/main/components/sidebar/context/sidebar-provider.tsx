@@ -1,25 +1,6 @@
+import { FC, PropsWithChildren, useState } from 'react';
 import { MOBILE_VIEW_BREAKPOINT_PX } from '@/common/constants';
-import {
-  Dispatch,
-  FC,
-  PropsWithChildren,
-  SetStateAction,
-  createContext,
-  useContext,
-  useState,
-} from 'react';
-
-type SidebarContextType = {
-  isFilterOpen: boolean;
-  filtersCount: number;
-  setIsFilterOpen: Dispatch<SetStateAction<boolean>>;
-  updateFiltersCount: (count: number) => void;
-  toggleFilter: VoidFunction;
-};
-
-const SidebarContext = createContext({} as SidebarContextType);
-
-const useSidebarContext = () => useContext(SidebarContext);
+import { SidebarContext } from './sidebar-context';
 
 const SidebarProvider: FC<PropsWithChildren> = ({ children }) => {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
@@ -50,4 +31,4 @@ const SidebarProvider: FC<PropsWithChildren> = ({ children }) => {
   );
 };
 
-export { SidebarProvider, useSidebarContext };
+export { SidebarProvider };

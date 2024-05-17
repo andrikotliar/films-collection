@@ -1,11 +1,11 @@
-import { useMemo } from 'react';
-import { useDataContext } from '@/context';
+import { useContext, useMemo } from 'react';
+import { FilmsContext } from '@/context';
 import { countObjectKeys } from '@/helpers';
 import { useQueryFilter } from '@/hooks/use-query-filter';
 import { paginateFilms, filterFilms } from './helpers';
 
 const useFilteredFilms = () => {
-  const { films } = useDataContext();
+  const { films } = useContext(FilmsContext);
   const { filterParams } = useQueryFilter();
 
   const result = useMemo(() => {

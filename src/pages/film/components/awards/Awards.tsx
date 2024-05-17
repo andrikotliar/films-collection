@@ -1,8 +1,8 @@
-import { FC, useMemo } from 'react';
+import { FC, useContext, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { awardsConfig } from '@/configs';
 import { Award } from '@/common/types';
-import { useDataContext } from '@/context';
+import { FilmsContext } from '@/context';
 import { buildQueryLink } from '@/helpers';
 import { DataArea, DataGrid, Icons, Scrollable } from '@/components';
 import { Nomination } from './components';
@@ -13,7 +13,7 @@ type Props = {
 };
 
 const Awards: FC<Props> = ({ awards }) => {
-  const { actors } = useDataContext();
+  const { actors } = useContext(FilmsContext);
 
   const sortedAwards = useMemo(() => {
     return awards.sort((a, b) => b.nominations.length - a.nominations.length);

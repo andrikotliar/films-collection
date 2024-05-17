@@ -1,9 +1,9 @@
 import styles from './Filters.module.css';
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { filtersConfig } from '@/configs';
 import { useForm, FormProvider } from 'react-hook-form';
 import { Button, Icons, Tabs } from '@/components';
-import { useSidebarContext } from '@/pages/main/components/sidebar/context';
+import { SidebarContext } from '@/pages/main/components/sidebar/context';
 import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
 import { useQueryFilter } from '@/hooks';
@@ -25,7 +25,7 @@ const Filters = () => {
 
   const filtersCount = countObjectKeys(filterParams, ['pageIndex']);
 
-  const { setIsFilterOpen, updateFiltersCount } = useSidebarContext();
+  const { setIsFilterOpen, updateFiltersCount } = useContext(SidebarContext);
 
   const methods = useForm({
     defaultValues,

@@ -1,12 +1,13 @@
+import { useContext } from 'react';
 import classNames from 'classnames';
-import { useSidebarContext } from '@/pages/main/components/sidebar/context';
+import { SidebarContext } from '@/pages/main/components/sidebar/context';
 import { Filters } from './components';
-
-import styles from './SidebarContent.module.css';
 import { Icons } from '@/components';
+import styles from './SidebarContent.module.css';
 
 const SidebarContent = () => {
-  const { isFilterOpen, toggleFilter, filtersCount } = useSidebarContext();
+  const { isFilterOpen, toggleFilter, filtersCount } =
+    useContext(SidebarContext);
 
   return (
     <>

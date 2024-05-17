@@ -1,8 +1,8 @@
-import { useDataContext } from '@/context';
-import { useMemo } from 'react';
+import { FilmsContext } from '@/context';
+import { useContext, useMemo } from 'react';
 
 const useRandomTitle = () => {
-  const { films } = useDataContext();
+  const { films } = useContext(FilmsContext);
 
   const randomTitle = useMemo(() => {
     if (!films.length) {

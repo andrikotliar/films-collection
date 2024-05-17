@@ -1,8 +1,8 @@
-import { FC, useMemo } from 'react';
+import { FC, useContext, useMemo } from 'react';
 import styles from './Pagination.module.css';
 import { useQueryFilter } from '@/hooks';
 import classNames from 'classnames';
-import { useDataContext } from '@/context';
+import { FilmsContext } from '@/context';
 import { PER_PAGE } from '@/common/constants';
 
 type Props = {
@@ -11,7 +11,7 @@ type Props = {
 
 const Pagination: FC<Props> = ({ count }) => {
   const { filterParams, setSearchParams } = useQueryFilter();
-  const { films } = useDataContext();
+  const { films } = useContext(FilmsContext);
 
   const activePage = useMemo(() => {
     if (!filterParams.pageIndex) {
