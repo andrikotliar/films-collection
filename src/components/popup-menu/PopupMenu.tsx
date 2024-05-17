@@ -16,7 +16,7 @@ import classNames from 'classnames';
 type Props = PropsWithClassName<{
   isOpen: boolean;
   onClose: VoidFunction;
-  triggerRef: RefObject<HTMLButtonElement>;
+  triggerRef: RefObject<HTMLElement>;
   menuMargin?: number;
   positionMarker?: 'left' | 'right';
   shouldAdjustToTriggerWidth?: boolean;

@@ -2,7 +2,7 @@ import { RefObject, useEffect } from 'react';
 
 type Options = {
   isOpen: boolean;
-  triggerElementRef: RefObject<HTMLButtonElement>;
+  triggerElementRef: RefObject<HTMLElement>;
   containerRef: RefObject<HTMLDivElement>;
   closeHandler: VoidFunction;
 };
