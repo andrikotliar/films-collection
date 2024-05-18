@@ -4,14 +4,14 @@ import { buildMediaPath, buildRouterLink } from '@/helpers';
 
 import styles from './FilmLink.module.css';
 
-type Props = {
+type FilmLinkProps = {
   id: string;
   poster: string;
   title: string;
   chapter?: number;
 };
 
-const FilmLink: FC<Props> = ({ id, poster, title, chapter }) => {
+const FilmLink: FC<FilmLinkProps> = ({ id, poster, title, chapter }) => {
   const posterUrl = buildMediaPath('posters', poster);
 
   return (

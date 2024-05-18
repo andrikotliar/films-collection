@@ -2,13 +2,13 @@ import { FC } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import styles from './NotFound.module.css';
 
-type Props = {
+type NotFoundProps = {
   message?: string;
 };
 
 const DEFAULT_MESSAGE = "Page you're looking for doesn't exist.";
 
-const NotFound: FC<Props> = ({ message = DEFAULT_MESSAGE }) => {
+const NotFound: FC<NotFoundProps> = ({ message = DEFAULT_MESSAGE }) => {
   const navigate = useNavigate();
 
   return (

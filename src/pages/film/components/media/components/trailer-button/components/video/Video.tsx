@@ -2,11 +2,11 @@ import { FC } from 'react';
 
 import styles from './Video.module.css';
 
-type Props = {
+type VideoProps = {
   path: string;
 };
 
-const Video: FC<Props> = ({ path }) => {
+const Video: FC<VideoProps> = ({ path }) => {
   return (
     <div className={styles.videoWrapper}>
       <iframe

@@ -1,9 +1,9 @@
 import { DataLinkType } from '@/common/types';
 import { FC } from 'react';
 
-type Props = Pick<DataLinkType, 'value' | 'suffix'>;
+type DataContentProps = Pick<DataLinkType, 'value' | 'suffix'>;
 
-const DataContent: FC<Props> = ({ value, suffix }) => {
+const DataContent: FC<DataContentProps> = ({ value, suffix }) => {
   return (
     <span>
       {value} {suffix}

@@ -5,11 +5,11 @@ import styles from './CrewItem.module.css';
 import { buildQueryLink } from '@/helpers';
 import { personRoleToCrewTitle } from '@/common/maps';
 
-type Props = {
+type CrewItemProps = {
   crewItem: Crew;
 };
 
-const CrewItem: FC<Props> = ({ crewItem }) => {
+const CrewItem: FC<CrewItemProps> = ({ crewItem }) => {
   return (
     <DataRow title={personRoleToCrewTitle[crewItem.role]}>
       <ul className={styles.list}>

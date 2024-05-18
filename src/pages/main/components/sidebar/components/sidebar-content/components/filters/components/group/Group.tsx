@@ -3,12 +3,12 @@ import { FC, PropsWithChildren } from 'react';
 import { Scrollable } from '@/components';
 import { GroupHeader } from './components';
 
-type Props = {
+type GroupProps = {
   title: string;
   bodyClassName?: string;
 };
 
-const Group: FC<PropsWithChildren<Props>> = ({
+const Group: FC<PropsWithChildren<GroupProps>> = ({
   children,
   title,
   bodyClassName,

@@ -4,12 +4,12 @@ import { FC, PropsWithChildren, useEffect } from 'react';
 import styles from './ModalContent.module.css';
 import { Icons } from '@/components/icons/Icons';
 
-type Props = {
+type ModalContentProps = {
   contentClassName?: string;
   onClose: VoidFunction;
 };
 
-const ModalContent: FC<PropsWithChildren<Props>> = ({
+const ModalContent: FC<PropsWithChildren<ModalContentProps>> = ({
   children,
   contentClassName,
   onClose,
@@ -37,4 +37,4 @@ const ModalContent: FC<PropsWithChildren<Props>> = ({
   );
 };
 
-export { ModalContent };
+export { ModalContent, type ModalContentProps };

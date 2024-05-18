@@ -8,13 +8,13 @@ type Nominee = {
   name: string;
 };
 
-type Props = {
+type NominationProps = {
   title: string;
   comment?: string;
   nominee: Nominee | null;
 };
 
-const Nomination: FC<Props> = ({ title, comment, nominee }) => {
+const Nomination: FC<NominationProps> = ({ title, comment, nominee }) => {
   return (
     <div className={styles.nomination}>
       <div className={styles.container}>

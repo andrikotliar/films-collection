@@ -5,12 +5,12 @@ import { Video } from './components';
 
 import styles from './TrailerButton.module.css';
 
-type Props = {
+type TrailerButtonProps = {
   trailer: string;
   className?: string;
 };
 
-const TrailerButton: FC<Props> = ({ className, trailer }) => {
+const TrailerButton: FC<TrailerButtonProps> = ({ className, trailer }) => {
   const [isTrailerOpen, setIsTrailerOpen] = useState(false);
 
   return (

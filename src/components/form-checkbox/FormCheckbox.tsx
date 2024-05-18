@@ -3,13 +3,17 @@ import styles from './FormCheckbox.module.css';
 import { FC } from 'react';
 import { useFormContext } from 'react-hook-form';
 
-type Props = {
+type FormCheckboxProps = {
   type: 'checkbox' | 'radio';
   value: string | number;
   name: string;
 };
 
-const FormCheckbox: FC<Props> = ({ type = 'checkbox', value, name }) => {
+const FormCheckbox: FC<FormCheckboxProps> = ({
+  type = 'checkbox',
+  value,
+  name,
+}) => {
   const { register } = useFormContext();
 
   return (

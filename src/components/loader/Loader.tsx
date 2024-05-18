@@ -3,12 +3,12 @@ import styles from './Loader.module.css';
 import classNames from 'classnames';
 import { Icons } from '@/components/icons/Icons';
 
-type Props = {
+type LoaderProps = {
   isFullPage?: boolean;
   iconClassName?: string;
 };
 
-const Loader: FC<Props> = ({ isFullPage = false, iconClassName }) => {
+const Loader: FC<LoaderProps> = ({ isFullPage = false, iconClassName }) => {
   return (
     <div
       className={classNames(styles.wrapper, {
@@ -23,4 +23,4 @@ const Loader: FC<Props> = ({ isFullPage = false, iconClassName }) => {
   );
 };
 
-export { Loader };
+export { Loader, type LoaderProps };

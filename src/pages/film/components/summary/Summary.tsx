@@ -7,12 +7,12 @@ import styles from './Summary.module.css';
 import { getFilmSummaryConfig, getSeasonConfig } from '@/pages/film/helpers';
 import classNames from 'classnames';
 
-type Props = {
+type SummaryProps = {
   film: FilmData;
   activeIndex: number;
 };
 
-const Summary: FC<Props> = ({ film, activeIndex }) => {
+const Summary: FC<SummaryProps> = ({ film, activeIndex }) => {
   const isSeries = film.type.includes('Series');
 
   const filmSummaryConfig = useMemo(() => {

@@ -6,12 +6,12 @@ import { Character } from './components';
 import { images } from '@/common/maps';
 import styles from './Actor.module.css';
 
-type Props = {
+type ActorProps = {
   actor: CastType;
   externalData: ActorType;
 };
 
-const Actor: FC<Props> = ({ actor, externalData }) => {
+const Actor: FC<ActorProps> = ({ actor, externalData }) => {
   const photoUrl = buildMediaPath('actors', externalData.photoUrl);
 
   return (

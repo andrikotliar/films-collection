@@ -3,12 +3,12 @@ import { buildMediaPath } from '@/helpers';
 
 import styles from './PosterImage.module.css';
 
-type Props = {
+type PosterImageProps = {
   src: string;
   alt?: string;
 };
 
-const PosterImage: FC<Props> = ({ src, alt }) => {
+const PosterImage: FC<PosterImageProps> = ({ src, alt }) => {
   const posterUrl = buildMediaPath('posters', src);
 
   return (

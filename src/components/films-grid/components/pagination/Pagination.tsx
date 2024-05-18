@@ -5,11 +5,11 @@ import classNames from 'classnames';
 import { FilmsContext } from '@/context';
 import { PER_PAGE } from '@/common/constants';
 
-type Props = {
+type PaginationProps = {
   count: number;
 };
 
-const Pagination: FC<Props> = ({ count }) => {
+const Pagination: FC<PaginationProps> = ({ count }) => {
   const { filterParams, setSearchParams } = useQueryFilter();
   const { films } = useContext(FilmsContext);
 
@@ -57,4 +57,4 @@ const Pagination: FC<Props> = ({ count }) => {
   );
 };
 
-export { Pagination };
+export { Pagination, type PaginationProps };

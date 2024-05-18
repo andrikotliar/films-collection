@@ -4,7 +4,7 @@ import { Scrollable } from '../scrollable/Scrollable';
 import styles from './Tabs.module.css';
 import classNames from 'classnames';
 
-type Props = {
+type TabsProps = {
   components: {
     label: string;
     content: ReactNode;
@@ -12,7 +12,7 @@ type Props = {
   defaultTabIndex?: number;
 };
 
-const Tabs: FC<Props> = ({ components, defaultTabIndex = 0 }) => {
+const Tabs: FC<TabsProps> = ({ components, defaultTabIndex = 0 }) => {
   const [activeIndex, setActiveIndex] = useState(defaultTabIndex);
 
   useEffect(() => {

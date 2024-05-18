@@ -8,12 +8,12 @@ type ExtendedRelatedItem = RelatedItem & {
   chapter?: number;
 };
 
-type Props = {
+type SectionProps = {
   title: string;
   data?: ExtendedRelatedItem[];
 };
 
-const Section: FC<Props> = ({ title, data }) => {
+const Section: FC<SectionProps> = ({ title, data }) => {
   if (!data?.length) {
     return null;
   }

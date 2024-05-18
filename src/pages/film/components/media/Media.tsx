@@ -2,11 +2,11 @@ import { FC } from 'react';
 import { MediaItem } from '@/common/types';
 import { PosterImage, TrailerButton } from './components';
 
-type Props = {
+type MediaProps = {
   media: MediaItem;
 };
 
-const Media: FC<Props> = ({ media }) => {
+const Media: FC<MediaProps> = ({ media }) => {
   return (
     <>
       <PosterImage src={media.poster} />

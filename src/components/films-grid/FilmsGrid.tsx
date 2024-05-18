@@ -3,12 +3,12 @@ import { FilmData } from '@/common/types';
 import { FilmLink, FilmsNotFound, Pagination } from './components';
 import styles from './FilmsGrid.module.css';
 
-type Props = {
+type FilmsGridProps = {
   films: FilmData[];
   pagesCount: number;
 };
 
-const FilmsGrid: FC<Props> = ({ films, pagesCount }) => {
+const FilmsGrid: FC<FilmsGridProps> = ({ films, pagesCount }) => {
   return (
     <div className={styles.wrapper}>
       {films.length === 0 ? (

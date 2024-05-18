@@ -8,11 +8,11 @@ import { DataArea, DataGrid, Icons, Scrollable } from '@/components';
 import { Nomination } from './components';
 import styles from './Awards.module.css';
 
-type Props = {
+type AwardsProps = {
   awards: Award[];
 };
 
-const Awards: FC<Props> = ({ awards }) => {
+const Awards: FC<AwardsProps> = ({ awards }) => {
   const { actors } = useContext(FilmsContext);
 
   const sortedAwards = useMemo(() => {

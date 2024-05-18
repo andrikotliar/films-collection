@@ -3,7 +3,7 @@ import { FC, PropsWithChildren, ReactNode } from 'react';
 import classNames from 'classnames';
 import { PropsWithClassName } from '@/common/types';
 
-type Props = {
+type ButtonProps = {
   onClick?: VoidFunction;
   type?: 'button' | 'submit';
   icon?: ReactNode;
@@ -14,7 +14,7 @@ type Props = {
   disabled?: boolean;
 };
 
-const Button: FC<PropsWithChildren<PropsWithClassName<Props>>> = ({
+const Button: FC<PropsWithChildren<PropsWithClassName<ButtonProps>>> = ({
   children,
   icon,
   onClick,
@@ -42,4 +42,4 @@ const Button: FC<PropsWithChildren<PropsWithClassName<Props>>> = ({
   );
 };
 
-export { Button };
+export { Button, type ButtonProps };

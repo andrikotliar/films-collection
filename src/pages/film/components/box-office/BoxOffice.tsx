@@ -5,12 +5,12 @@ import { getFormattedValue, hasBoxOfficeBenefit } from './helpers';
 
 import styles from './BoxOffice.module.css';
 
-type Props = {
+type BoxOfficeProps = {
   budget?: number;
   boxOffice?: number;
 };
 
-const BoxOffice: FC<Props> = ({ budget, boxOffice }) => {
+const BoxOffice: FC<BoxOfficeProps> = ({ budget, boxOffice }) => {
   const isBoxOfficeHigher = hasBoxOfficeBenefit(budget, boxOffice);
 
   const boxOfficeColor = isBoxOfficeHigher

@@ -4,11 +4,11 @@ import { DataGrid } from '@/components';
 import { Actor } from './components';
 import { FilmsContext } from '@/context';
 
-type Props = {
+type CastProps = {
   cast: CastType[];
 };
 
-const Cast: FC<Props> = ({ cast }) => {
+const Cast: FC<CastProps> = ({ cast }) => {
   const { actors } = useContext(FilmsContext);
 
   if (!actors) {

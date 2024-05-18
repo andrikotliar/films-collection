@@ -8,13 +8,13 @@ import {
 } from '@/pages/film/components/box-office/helpers';
 import { DisplayValue, Range } from './components';
 
-type Props = {
+type DiagramProps = {
   budget: FormattedValue | null;
   boxOffice: FormattedValue | null;
   color: DiagramColorEnum;
 };
 
-const Diagram: FC<Props> = ({ budget, boxOffice, color }) => {
+const Diagram: FC<DiagramProps> = ({ budget, boxOffice, color }) => {
   const maxValue = useMemo(() => {
     return getBoxOfficeTargetValue(boxOffice?.value, budget?.value);
   }, [boxOffice, budget]);

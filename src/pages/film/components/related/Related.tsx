@@ -4,12 +4,12 @@ import { useRelated } from '@/pages/film/components/related/hooks';
 import { RelatedFilms } from '@/common/types';
 import styles from './Related.module.css';
 
-type Props = {
+type RelatedFilmsProps = {
   data: RelatedFilms;
   filmId: string;
 };
 
-const Related: FC<Props> = ({ data, filmId }) => {
+const Related: FC<RelatedFilmsProps> = ({ data, filmId }) => {
   const relatedFilms = useRelated(data, filmId);
 
   return (

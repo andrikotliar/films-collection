@@ -6,11 +6,11 @@ import { Group } from '../group/Group';
 
 import styles from './FilterOptions.module.css';
 
-type Props = {
+type FilterOptionsProps = {
   filter: FilterItem;
 };
 
-const FilterOptions: FC<PropsWithClassName<Props>> = ({
+const FilterOptions: FC<PropsWithClassName<FilterOptionsProps>> = ({
   filter,
   className,
 }) => {

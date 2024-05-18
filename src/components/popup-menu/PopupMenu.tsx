@@ -13,7 +13,7 @@ import { createPortal } from 'react-dom';
 import { PropsWithClassName } from '@/common/types';
 import classNames from 'classnames';
 
-type Props = PropsWithClassName<{
+type PopupMenuProps = PropsWithClassName<{
   isOpen: boolean;
   onClose: VoidFunction;
   triggerRef: RefObject<HTMLElement>;
@@ -31,7 +31,7 @@ type Position = {
 
 const DEFAULT_MENU_MARGIN_PX = 10;
 
-const PopupMenu: FC<PropsWithChildren<Props>> = ({
+const PopupMenu: FC<PropsWithChildren<PopupMenuProps>> = ({
   isOpen,
   onClose,
   triggerRef,
