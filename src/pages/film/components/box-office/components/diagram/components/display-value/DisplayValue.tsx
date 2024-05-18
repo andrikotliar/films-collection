@@ -5,11 +5,11 @@ import { FormattedValue } from '@/pages/film/components/box-office/helpers';
 
 import styles from './DisplayValue.module.css';
 
-type Props = PropsWithClassName<{
+type DisplayValueProps = PropsWithClassName<{
   option: FormattedValue;
 }>;
 
-const DisplayValue: FC<Props> = ({ option, className }) => {
+const DisplayValue: FC<DisplayValueProps> = ({ option, className }) => {
   return (
     <div className={classNames(styles.displayValue, className)}>
       <div className={styles.number}>${option.shortValue}</div>

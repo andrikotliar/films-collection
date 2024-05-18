@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Shane Black"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Shane Black"
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Kevin Feige"
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Brian Tyler"
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "John Toll"
@@ -127,11 +127,19 @@
   "budget": 200000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Comic-to-Film Motion Picture",
-        "Best Actor",
-        "Best Supporting Actor"
+        {
+          "nominationId": "f7a0a071-9da5-4baa-a192-931f60b7d2bf"
+        },
+        {
+          "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
+          "nominee": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e"
+        },
+        {
+          "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
+          "nominee": "1e35187e-647f-4233-9215-41762259fff0"
+        }
       ]
     }
   ],
@@ -149,5 +157,10 @@
   "description": [
     "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution."
   ],
-  "relatedTitlesKey": "71a22d78-aaf0-4932-a476-938a0788c8ce"
+  "relatedTitlesKey": "71a22d78-aaf0-4932-a476-938a0788c8ce",
+  "meta": {
+    "watchCount": {
+      "real": 2
+    }
+  }
 }

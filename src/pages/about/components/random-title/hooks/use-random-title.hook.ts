@@ -1,26 +1,34 @@
-import { fetchFilmIds } from '@/api';
-import { FilmData } from '@/common/types';
-import { useFilmsContext } from '@/context';
-import { useQuery } from '@/hooks/query';
-import { useState } from 'react';
+import { FilmsContext } from '@/context';
+import { useContext, useMemo } from 'react';
 
 const useRandomTitle = () => {
-  const [randomTitle, setRandomTitle] = useState<FilmData | null>(null);
-  const { initialFilmsList } = useFilmsContext();
+  const { films } = useContext(FilmsContext);
 
-  const { isFetching } = useQuery({
-    fn: fetchFilmIds,
-    onSuccess(data) {
-      const count = data.length;
-      const randomIndex = Math.floor(Math.random() * count);
+  const randomTitle = useMemo(() => {
+    if (!films.length) {
+      return null;
+    }
 
-      if (initialFilmsList) {
-        setRandomTitle(initialFilmsList[randomIndex]);
-      }
-    },
-  });
+    const count = films.length;
+    const randomIndex = Math.floor(Math.random() * count);
 
-  return { randomTitle, isTitleLoading: isFetching };
+    if (films[randomIndex]) {
+      const film = films[randomIndex];
+
+      const directors = film?.crew.find((item) => item.role === 'director');
+
+      const names = directors?.people.map((person) => person.name).join(', ');
+
+      return {
+        info: film,
+        directors: names,
+      };
+    }
+
+    return null;
+  }, [films]);
+
+  return randomTitle;
 };
 
 export { useRandomTitle };

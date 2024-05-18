@@ -17,24 +17,11 @@
   color: var(--main-color);
 }
 
-.icon {
-  display: flex;
-  justify-content: center;
-  width: 60px;
-  flex-shrink: 0;
-}
-
-.icon img {
-  height: 100%;
-  width: auto;
-}
-
 .nominations {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  font-size: 14px;
   width: 100%;
-  max-height: 100px;
+  max-height: 150px;
   overflow-y: auto;
 }

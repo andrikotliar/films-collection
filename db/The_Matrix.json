@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "The Wachowski Brothers"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "The Wachowski Brothers"
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Joel Silver"
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Don Davis"
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Bill Pope"
@@ -123,42 +123,58 @@
   "budget": 63000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
-        "Best Film Editing",
-        "Best Sound",
-        "Best Effects (Sound Effects Editing)",
-        "Best Effects (Visual Effects)"
+        {
+          "nominationId": "6aa195b9-f874-42d9-aa00-9675923b2125"
+        },
+        {
+          "nominationId": "5bc47561-63bd-455c-8c3d-9f9ced87e923"
+        },
+        {
+          "nominationId": "39fc2c0f-e6b0-4c24-a558-792a67b8536b"
+        },
+        {
+          "nominationId": "38a477dc-4708-46b2-a96f-c39f7ec9af0b"
+        }
       ]
     },
     {
-      "title": "Golden Globes",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
-        "Best Actress in a Leading Role",
-        "Best Actor in a Leading Role",
-        "Best Visual Effects"
+        {
+          "nominationId": "fc19047a-84fa-4ddc-ab69-d69aec8aba25"
+        },
+        {
+          "nominationId": "b6836a56-a68b-4b87-b609-71ebd8c50628"
+        }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Sound",
-        "Best Achievement in Special Visual Effects"
+        {
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5"
+        },
+        {
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"
+        }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
-        "Best Science Fiction Film",
-        "Best Director"
-      ]
-    },
-    {
-      "title": "MTV Movie Award",
-      "nominations": [
-        "Best Movie",
-        "Best Male Performance",
-        "Best Fight"
+        {
+          "nominationId": "125802e2-8240-480d-99b9-db1d4a922e45"
+        },
+        {
+          "nominationId": "d974522c-228d-4bd2-9c6f-db86d4c4acc2",
+          "nominee": "7543d97c-88d9-4319-8f10-1bc00f84b0e9"
+        },
+        {
+          "nominationId": "6f842add-0dec-488d-9a04-93e78aaddcc3",
+          "comment": "Keanu Reeves and Laurence Fishburne"
+        }
       ]
     }
   ],

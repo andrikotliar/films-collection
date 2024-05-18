@@ -1,19 +1,27 @@
-import { ChangeEvent, useCallback, useEffect, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { debounce } from '@/helpers';
-import { Search as SearchIcon } from 'lucide-react';
-
+import {
+  ChangeEvent,
+  FocusEventHandler,
+  useCallback,
+  useContext,
+  useEffect,
+  useRef,
+  useState,
+} from 'react';
+import classNames from 'classnames';
+import { debounce, searchFilm } from '@/helpers';
+import { Icons } from '@/components/icons/Icons';
+import { PopupMenu } from '@/components/popup-menu/PopupMenu';
+import { FilmsContext } from '@/context';
+import { FilmData } from '@/common/types';
 import styles from './Search.module.css';
+import { SearchMenuContent } from './components';
 
 const Search = () => {
-  const navigate = useNavigate();
+  const { films } = useContext(FilmsContext);
   const searchInputRef = useRef<HTMLInputElement>(null);
-
-  const runSearch = (searchValue: string) => {
-    if (searchValue.length) {
-      navigate(`/?search=${searchValue.toLowerCase()}`);
-    }
-  };
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isSearchPending, setIsSearchPending] = useState(false);
+  const [filteredFilms, setFilteredFilms] = useState<FilmData[]>([]);
 
   const focusSearch = (event: KeyboardEvent) => {
     if (event.key === 'F2' && searchInputRef.current) {
@@ -21,15 +29,51 @@ const Search = () => {
     }
   };
 
-  const handleSearch = useCallback((event: ChangeEvent<HTMLInputElement>) => {
-    runSearch(event.target.value);
+  const handleCloseSearchDropdown = () => {
+    setIsMenuOpen(false);
+  };
 
-    if (searchInputRef.current) {
-      searchInputRef.current.value = '';
+  const handleSearch = useCallback((event: ChangeEvent<HTMLInputElement>) => {
+    const searchValue = event.target.value;
+
+    if (searchValue.length) {
+      const foundFilms = searchFilm(searchValue, films);
+
+      setFilteredFilms(foundFilms);
+      setIsMenuOpen(true);
+      setIsSearchPending(false);
+
+      return;
     }
+
+    setIsSearchPending(false);
+    setIsMenuOpen(false);
   }, []);
 
   const debouncedSearch = debounce(handleSearch, 1000);
+
+  const handleIsPending = useCallback(() => {
+    if (!isSearchPending) {
+      setIsSearchPending(true);
+    }
+  }, [isSearchPending]);
+
+  const handleFocus: FocusEventHandler<HTMLInputElement> = (event) => {
+    if (!isMenuOpen && event.target.value.length) {
+      handleSearch(event);
+    }
+  };
+
+  const handleClearSearch = () => {
+    if (searchInputRef.current) {
+      searchInputRef.current.value = '';
+    }
+  };
+
+  const handleOpenFilmFinish = () => {
+    handleCloseSearchDropdown();
+    handleClearSearch();
+  };
 
   useEffect(() => {
     document.addEventListener('keydown', focusSearch);
@@ -40,15 +84,43 @@ const Search = () => {
   }, []);
 
   return (
-    <div className={styles.searchWrapper}>
-      <input
-        type="text"
-        className={styles.input}
-        placeholder="Search by title..."
-        onChange={debouncedSearch}
-        ref={searchInputRef}
-      />
-      <SearchIcon className={styles.searchIcon} />
+    <div className={styles.wrapper}>
+      <div className={styles.inputWrapper}>
+        <input
+          type="text"
+          className={styles.input}
+          placeholder="Search by title..."
+          onChange={(event) => {
+            handleIsPending();
+            debouncedSearch(event);
+          }}
+          onFocus={handleFocus}
+          ref={searchInputRef}
+        />
+        <Icons icon="search" className={styles.searchIcon} />
+        {isSearchPending && (
+          <div className={styles.loaderWrapper}>
+            <Icons
+              icon="loader"
+              className={classNames(styles.loaderIcon, 'spin')}
+            />
+          </div>
+        )}
+      </div>
+      <PopupMenu
+        isOpen={isMenuOpen}
+        onClose={handleCloseSearchDropdown}
+        triggerRef={searchInputRef}
+        menuMargin={3}
+        shouldAdjustToTriggerWidth
+        shouldFocusTriggerOnClose={false}
+        className={styles.menu}
+      >
+        <SearchMenuContent
+          films={filteredFilms}
+          onFilmOpen={handleOpenFilmFinish}
+        />
+      </PopupMenu>
     </div>
   );
 };

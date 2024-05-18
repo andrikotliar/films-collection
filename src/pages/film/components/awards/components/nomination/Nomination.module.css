@@ -1,0 +1,29 @@
+.nomination {
+  display: flex;
+  gap: 5px;
+  padding-right: 5px;
+}
+
+.nomination::before {
+  content: '—';
+  color: var(--yellow-gold);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.title {
+  font-size: 15px;
+}
+
+.actor {
+  font-size: 12px;
+}
+
+.comment {
+  color: var(--gray-dark);
+  font-size: 12px;
+}

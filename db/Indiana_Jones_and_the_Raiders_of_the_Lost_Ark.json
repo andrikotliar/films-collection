@@ -11,7 +11,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Steven Spielberg"
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Lawrence Kasdan"
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Frank Marshall"
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "John Williams"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Douglas Slocombe"
@@ -123,39 +123,72 @@
   "budget": 18000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
-        "Best Art Direction-Set Decoration",
-        "Best Sound",
-        "Best Film Editing",
-        "Best Effects",
-        "Visual Effects"
+        {
+          "nominationId": "17cc846a-59f4-475a-8f2f-3c8988cf2ad0"
+        },
+        {
+          "nominationId": "5bc47561-63bd-455c-8c3d-9f9ced87e923"
+        },
+        {
+          "nominationId": "6aa195b9-f874-42d9-aa00-9675923b2125"
+        },
+        {
+          "nominationId": "38a477dc-4708-46b2-a96f-c39f7ec9af0b"
+        }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
-        "Best Production Design/Art Direction"
+        {
+          "nominationId": "715d62df-b930-478d-8b3d-e9de89c1c94b"
+        }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best DVD Collection",
-        "Best Fantasy Film",
-        "Best Actor (Harrison Ford)",
-        "Best Actress (Karen Allen)",
-        "Best Director",
-        "Best Writing",
-        "Best Music",
-        "Best Special Effects"
+        {
+          "nominationId": "74ad3ee5-2619-4dd8-a034-d61cb277b764",
+          "comment": "\"The Adventures of Indiana Jones DVD Collection\""
+        },
+        {
+          "nominationId": "43447644-6efc-4969-b6f8-8cd2d7089fae"
+        },
+        {
+          "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
+          "nominee": "cb7f43c6-0555-423c-8baa-9abdd084ab80"
+        },
+        {
+          "nominationId": "66954688-228a-4288-b89a-af7fb4b3f890",
+          "nominee": "d9149d9e-56e7-45ce-8c03-5cb1adcdf699"
+        },
+        {
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"
+        },
+        {
+          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea"
+        },
+        {
+          "nominationId": "be35075e-d485-4f10-9869-f89d28592465"
+        },
+        {
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91"
+        }
       ]
     },
     {
-      "title": "Jupiter",
+      "awardId": "7ebe7513-34d1-4e11-8654-0f6390c2c290",
       "nominations": [
-        "Best International Actor",
-        "Best International Film"
+        {
+          "nominationId": "8f0cd2b0-fa7e-4898-8e97-1920c9b31616",
+          "nominee": "cb7f43c6-0555-423c-8baa-9abdd084ab80"
+        },
+        {
+          "nominationId": "67d69cb3-6401-46f7-8765-4bd74eaba0a0"
+        }
       ]
     }
   ],

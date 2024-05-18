@@ -1,10 +1,13 @@
-import { SyntheticEvent } from 'react';
+import { ReactEventHandler } from 'react';
 
-const handleImageError = (
-  event: SyntheticEvent<HTMLImageElement>,
-  image: string,
-) => {
-  event.currentTarget.src = image;
+type HandleImageError = (
+  imageSource: string,
+) => ReactEventHandler<HTMLImageElement>;
+
+const handleImageError: HandleImageError = (imageSource) => {
+  return (event) => {
+    event.currentTarget.src = imageSource;
+  };
 };
 
 export { handleImageError };

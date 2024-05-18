@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Created by",
+      "role": "series_creator",
       "people": [
         {
           "name": "Jon Favreau"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Dave Filoni",
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Jon Favreau",
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Jon Favreau"
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Ludwig Göransson"
@@ -121,7 +121,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Barry Baz Idoine"
@@ -227,22 +227,32 @@
   ],
   "awards": [
     {
-      "title": "Emmy",
+      "awardId": "bee25875-f12e-4dfe-9fc5-f25cdb5d836d",
       "nominations": [
-        "Outstanding Cinematography for a Single-Camera Series (Half-Hour)",
-        "Outstanding Music Composition for a Series (Original Dramatic Score)",
-        "Outstanding Production Design for a Narrative Program (Half-Hour)",
-        "Outstanding Stunt Coordination for a Drama Series Limited Series or Movie",
-        "Outstanding Sound Editing for a Comedy or Drama Series (Half-Hour) and Animation",
-        "Outstanding Sound Mixing for a Comedy or Drama Series (Half-Hour) and Animation",
-        "Outstanding Special Visual Effects"
+        {
+          "nominationId": "920a6e10-6f9e-42b0-af62-dfdb428770ee"
+        },
+        {
+          "nominationId": "8f66fb8c-3a48-453b-8b03-84d7716f3e73"
+        },
+        {
+          "nominationId": "1e2b2e1e-5c3c-4061-be3c-e717962b1c10"
+        },
+        {
+          "nominationId": "c13289eb-0fcc-4378-9a72-ee780cba0002"
+        },
+        {
+          "nominationId": "6e6b1254-beb5-48c7-915d-1b534268191d"
+        },
+        {
+          "nominationId": "e89a6b88-c703-4366-9b2e-a150e53c8252"
+        },
+        {
+          "nominationId": "798f775a-0eee-422d-8ceb-e32e6dc6a41b"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "Star Wars Universe",
-    "part": 9
-  },
   "year": [
     2019,
     2020

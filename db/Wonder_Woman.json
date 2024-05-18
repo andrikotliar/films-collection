@@ -11,7 +11,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Patty Jenkins"
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Allan Heinberg"
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Charles Roven"
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Rupert Gregson-Williams"
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Matthew Jensen"
@@ -142,15 +142,20 @@
   "budget": 120000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Actress"
+        {
+          "nominationId": "66954688-228a-4288-b89a-af7fb4b3f890",
+          "nominee": "cac99b67-2448-4b4f-ab99-e88b4e516940"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
-        "Best Action Movie"
+        {
+          "nominationId": "53f51093-e194-40d8-94b4-28908cb6a14c"
+        }
       ]
     }
   ],

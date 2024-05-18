@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Joe Johnston"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Greg Taylor"
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Scott Kroopf"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "James Horner"
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Thomas E. Ackerman"
@@ -140,9 +140,12 @@
   "budget": 65000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Supporting Actress"
+        {
+          "nominationId": "fe65a215-a19f-4382-a43e-c1dd27f8f27e",
+          "nominee": "9479f4b0-ea14-4538-a020-ce3c28467a95"
+        }
       ]
     }
   ],

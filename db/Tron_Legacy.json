@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Joseph Kosinski"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Edward Kitsis"
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Sean Bailey"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Daft Punk"
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Claudio Miranda"
@@ -132,10 +132,15 @@
   "budget": 170000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Production Design",
-        "Best Actor"
+        {
+          "nominationId": "038bfccf-c5b8-47c9-b285-219c4e5d1efd"
+        },
+        {
+          "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
+          "nominee": "2774a52a-465e-4a82-b1b0-a1412c82af7d"
+        }
       ]
     }
   ],

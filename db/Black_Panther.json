@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Ryan Coogler"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Ryan Coogler"
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Kevin Feige"
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Ludwig Gцransson"
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Rachel Morrison"
@@ -167,44 +167,84 @@
   "budget": 200000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
-        "Best Achievement in Music Written for Motion Pictures (Original Score)",
-        "Best Achievement in Costume Design",
-        "Best Achievement in Production Design"
+        {
+          "nominationId": "30d4820a-b28d-4b59-b182-3c7a28562168"
+        },
+        {
+          "nominationId": "0db53dc9-86d9-41f0-9a9b-7701c0ff5b49"
+        },
+        {
+          "nominationId": "34e5df6f-3fce-4311-9a31-9e710a9508c9"
+        }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
-        "Best Achievement in Special Visual Effects"
+        {
+          "nominationId": "b6836a56-a68b-4b87-b609-71ebd8c50628"
+        }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Comic-to-Film Motion Picture",
-        "Best Director",
-        "Best Supporting Actress",
-        "Best Production Design",
-        "Best Make-Up"
+        {
+          "nominationId": "f7a0a071-9da5-4baa-a192-931f60b7d2bf"
+        },
+        {
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"
+        },
+        {
+          "nominationId": "fe65a215-a19f-4382-a43e-c1dd27f8f27e",
+          "nominee": "6b7859db-227e-42c0-9fe5-09647e33ebc7",
+          "comment": "as Okoye"
+        },
+        {
+          "nominationId": "038bfccf-c5b8-47c9-b285-219c4e5d1efd"
+        },
+        {
+          "nominationId": "a3c2244b-8c42-49be-96f2-a7d2edf3b8a7"
+        }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
-        "Movie of the Year",
-        "Best Performance in a Movie",
-        "Best Hero",
-        "Best Villain"
+        {
+          "nominationId": "bfff0a2c-c6d7-4352-a306-620f8b610ab2"
+        },
+        {
+          "nominationId": "f287ee7c-5831-4d7d-ad28-f27db0a738a4",
+          "nominee": "6bb68e05-b7bc-4a8b-929f-3ba185a3e5f9",
+          "comment": "as Black Panther"
+        },
+        {
+          "nominationId": "9c04a0b5-a613-49ec-be5c-e6290b90911e",
+          "nominee": "6bb68e05-b7bc-4a8b-929f-3ba185a3e5f9",
+          "comment": "as Black Panther"
+        },
+        {
+          "nominationId": "d3bafbf4-f684-4f60-875a-5cbbe09c14e2",
+          "nominee": "f99f23e3-5ef3-437a-bf04-a67aa38f8697",
+          "comment": "as Erik Killmonger"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
-        "Best Visual Effects",
-        "Best Production Design",
-        "Best Costume Design"
+        {
+          "nominationId": "1dbbd79f-d824-4e8e-83c4-bda38adc45f9"
+        },
+        {
+          "nominationId": "f16da86c-96df-4e39-a8a6-0ece4422409a"
+        },
+        {
+          "nominationId": "4bcfc61a-78da-437b-a7e6-477060220c46"
+        }
       ]
     }
   ],

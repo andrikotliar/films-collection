@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "James Cameron"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "James Cameron"
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "James Cameron"
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "James Horner"
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Russell Carpenter"
@@ -119,27 +119,56 @@
   "budget": 200000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
-        "Best Picture",
-        "Best Director",
-        "Best Cinematography",
-        "Best Art Direction-Set Decoration",
-        "Best Costume Design",
-        "Best Sound",
-        "Best Film Editing",
-        "Best Sound Effects Editing",
-        "Best Visual Effects",
-        "Best Music (Original Song)",
-        "Best Music (Original Dramatic Score)"
+        {
+          "nominationId": "0bf39901-4ed1-48da-b081-97671bf08dd7"
+        },
+        {
+          "nominationId": "710da6af-dc6a-4619-9d70-587b6a18d5b8"
+        },
+        {
+          "nominationId": "12aa25ba-0a5b-4288-8bcc-8ed417b5b50f"
+        },
+        {
+          "nominationId": "17cc846a-59f4-475a-8f2f-3c8988cf2ad0"
+        },
+        {
+          "nominationId": "e228fed5-d3cc-4ba6-ac4a-e4bbcf4d17cb"
+        },
+        {
+          "nominationId": "5bc47561-63bd-455c-8c3d-9f9ced87e923"
+        },
+        {
+          "nominationId": "6aa195b9-f874-42d9-aa00-9675923b2125"
+        },
+        {
+          "nominationId": "be727846-3c6e-4539-8962-2c3539ea9ff1"
+        },
+        {
+          "nominationId": "c346a523-3bf3-4f58-98e3-599206560b12"
+        },
+        {
+          "nominationId": "862e14de-43a1-47f5-876d-6d2ea5970bee"
+        },
+        {
+          "nominationId": "c2ddefe1-8b1f-4222-bd82-95ef2460545c"
+        }
       ]
     },
     {
-      "title": "Golden Globe",
+      "awardId": "ae6f2bdf-42ac-4c5d-9744-881198ac1a1d",
       "nominations": [
-        "Best Director - Motion Picture",
-        "Best Original Score - Motion Picture",
-        "Best Original Song - Motion Picture"
+        {
+          "nominationId": "2654065c-16c7-426c-9dde-871e2e2be33a"
+        },
+        {
+          "nominationId": "67fd465d-1da6-4a38-9e7f-f6b4758e2b3a"
+        },
+        {
+          "nominationId": "100ca2e6-3187-4ef9-af81-7c4791455781",
+          "comment": "My Heart Will Go On"
+        }
       ]
     }
   ],

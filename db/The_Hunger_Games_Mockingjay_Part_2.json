@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Francis Lawrence"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Peter Craig"
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Nina Jacobson"
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "James Newton Howard"
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Jo Willems"
@@ -140,9 +140,12 @@
   "budget": 160000000,
   "awards": [
     {
-      "title": "MTV Movie Awards",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
-        "Best Hero (2015)"
+        {
+          "nominationId": "9c04a0b5-a613-49ec-be5c-e6290b90911e",
+          "nominee": "29b99567-4a10-4246-9bb2-26b55a9c1e63"
+        }
       ]
     }
   ],

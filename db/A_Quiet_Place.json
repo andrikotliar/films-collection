@@ -11,7 +11,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "John Krasinski"
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Bryan Woods"
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Michael Bay"
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Marco Beltrami"
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Charlotte Bruus Christensen"
@@ -112,16 +112,22 @@
   "budget": 17000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Horror Film",
-        "Best Writing"
+        {
+          "nominationId": "ce61910d-0236-4652-9562-4b71956b4d41"
+        },
+        {
+          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
-        "Best Sci-Fi/Horror Movie"
+        {
+          "nominationId": "e2b9afe6-c274-4cc0-8ca8-5738a3a6d46a"
+        }
       ]
     }
   ],

@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "George Lucas"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "George Lucas"
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Gary Kurtz"
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "John Williams"
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Gilbert Taylor"
@@ -140,49 +140,94 @@
   "budget": 11000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
-        "Best Art Direction-Set Decoration",
-        "Best Costume Design",
-        "Best Sound",
-        "Best Film Editing",
-        "Best Visual Effects"
+        {
+          "nominationId": "17cc846a-59f4-475a-8f2f-3c8988cf2ad0"
+        },
+        {
+          "nominationId": "e228fed5-d3cc-4ba6-ac4a-e4bbcf4d17cb"
+        },
+        {
+          "nominationId": "5bc47561-63bd-455c-8c3d-9f9ced87e923"
+        },
+        {
+          "nominationId": "6aa195b9-f874-42d9-aa00-9675923b2125"
+        },
+        {
+          "nominationId": "c346a523-3bf3-4f58-98e3-599206560b12"
+        }
       ]
     },
     {
-      "title": "Golden Globes",
+      "awardId": "ae6f2bdf-42ac-4c5d-9744-881198ac1a1d",
       "nominations": [
-        "Best Original Score - Motion Picture"
+        {
+          "nominationId": "67fd465d-1da6-4a38-9e7f-f6b4758e2b3a"
+        }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
-        "Best Sound"
+        {
+          "nominationId": "fc19047a-84fa-4ddc-ab69-d69aec8aba25"
+        }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best DVD Collection",
-        "Best Science Fiction Film",
-        "Best Supporting Actor",
-        "Best Director",
-        "Best Writing",
-        "Best Music",
-        "Best Costumes",
-        "Best Make-Up",
-        "Best Special Effects",
-        "Outstanding Editing",
-        "Outstanding Sound",
-        "Outstanding Art Direction",
-        "Outstanding Set Decoration"
+        {
+          "nominationId": "74ad3ee5-2619-4dd8-a034-d61cb277b764",
+          "comment": "As a part of \"Star Wars Trilogy\""
+        },
+        {
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5"
+        },
+        {
+          "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
+          "nominee": "d3493fa5-4de8-40fe-9d29-92cf16f7321c",
+          "comment": "as Moff Tarkin"
+        },
+        {
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"
+        },
+        {
+          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea"
+        },
+        {
+          "nominationId": "be35075e-d485-4f10-9869-f89d28592465"
+        },
+        {
+          "nominationId": "d35f98cd-6d5a-41c8-b511-9046a59d8828"
+        },
+        {
+          "nominationId": "a3c2244b-8c42-49be-96f2-a7d2edf3b8a7"
+        },
+        {
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91"
+        },
+        {
+          "nominationId": "39288fdb-88aa-4694-acb8-0bc4c533151f"
+        },
+        {
+          "nominationId": "51ee4c95-b7fb-43cc-9a36-c562591b94ba"
+        },
+        {
+          "nominationId": "7a57625c-92b7-4bf4-ba60-b2926608626f"
+        },
+        {
+          "nominationId": "85e948fb-27f5-4e3e-8882-54c72090be98"
+        }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
-        "Lifetime Achievement"
+        {
+          "nominationId": "35cc1f39-d016-478f-869d-c1a37cf9b086"
+        }
       ]
     }
   ],

@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Peter Winther"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "David Titcher"
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Phillip M. Goldfarb"
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Joseph LoDuca"
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Alan Caso"
@@ -136,7 +136,7 @@
   ],
   "collections": [
     {
-      "title": "Fantasy Worlds"
+      "title": "Mysteries of the Past"
     }
   ],
   "year": [

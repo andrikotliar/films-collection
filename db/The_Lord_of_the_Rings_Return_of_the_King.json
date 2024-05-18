@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Peter Jackson"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Fran Walsh"
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Peter Jackson"
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Howard Shore"
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Andrew Lesnie"
@@ -158,66 +158,138 @@
   "budget": 94000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
-        "Best Picture",
-        "Best Director",
-        "Best Writing (Adapted Screenplay)",
-        "Best Film Editing",
-        "Best Art Direction-Set Decoration",
-        "Best Costume Design",
-        "Best Makeup",
-        "Best Music (Original Score)",
-        "Best Music (Original Song)",
-        "Best Sound Mixing",
-        "Best Visual Effects"
+        {
+          "nominationId": "0bf39901-4ed1-48da-b081-97671bf08dd7"
+        },
+        {
+          "nominationId": "710da6af-dc6a-4619-9d70-587b6a18d5b8"
+        },
+        {
+          "nominationId": "06aa2817-8307-4d48-aa42-9fcb66be0fdb"
+        },
+        {
+          "nominationId": "6aa195b9-f874-42d9-aa00-9675923b2125"
+        },
+        {
+          "nominationId": "17cc846a-59f4-475a-8f2f-3c8988cf2ad0"
+        },
+        {
+          "nominationId": "e228fed5-d3cc-4ba6-ac4a-e4bbcf4d17cb"
+        },
+        {
+          "nominationId": "0c8ce350-1ddc-43e7-b423-3099e13284a0"
+        },
+        {
+          "nominationId": "23be7816-fd21-426d-8178-72ade1967b6a"
+        },
+        {
+          "nominationId": "862e14de-43a1-47f5-876d-6d2ea5970bee"
+        },
+        {
+          "nominationId": "62ffbd2c-4189-4aa6-83a8-3c42bd244c2d"
+        },
+        {
+          "nominationId": "c346a523-3bf3-4f58-98e3-599206560b12"
+        }
       ]
     },
     {
-      "title": "Golden Globes",
+      "awardId": "ae6f2bdf-42ac-4c5d-9744-881198ac1a1d",
       "nominations": [
-        "Best Director - Motion Picture",
-        "Best Original Score - Motion Picture",
-        "Best Original Song - Motion Picture",
-        "Best Motion Picture - Drama"
+        {
+          "nominationId": "2654065c-16c7-426c-9dde-871e2e2be33a"
+        },
+        {
+          "nominationId": "67fd465d-1da6-4a38-9e7f-f6b4758e2b3a"
+        },
+        {
+          "nominationId": "100ca2e6-3187-4ef9-af81-7c4791455781"
+        },
+        {
+          "nominationId": "1f4a5da9-689e-4ff5-8100-497bf998787f"
+        }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
-        "Best Film",
-        "Best Screenplay - Adapted",
-        "Best Cinematography",
-        "Best Achievement in Special Visual Effects"
+        {
+          "nominationId": "bc675d2e-557b-447d-b81f-690913a0d5aa"
+        },
+        {
+          "nominationId": "ed971f9e-203f-4eeb-b3bf-4757d0b88346"
+        },
+        {
+          "nominationId": "de9886fe-9742-411d-b14a-1c494f8408b0"
+        },
+        {
+          "nominationId": "b6836a56-a68b-4b87-b609-71ebd8c50628"
+        }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Fantasy Film",
-        "Best Actor",
-        "Best Supporting Actor",
-        "Best Director",
-        "Best Writing",
-        "Best Music",
-        "Best Make Up",
-        "Best Special Effects"
+        {
+          "nominationId": "90dce09b-0a64-49aa-8589-1fd1783ad0fe",
+          "comment": "Extended cut"
+        },
+        {
+          "nominationId": "43447644-6efc-4969-b6f8-8cd2d7089fae"
+        },
+        {
+          "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
+          "nominee": "5e154ae5-94f0-4d0e-9dfc-641120e4a219"
+        },
+        {
+          "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
+          "nominee": "9e55ad2e-faa1-4895-b232-d606d29438d7"
+        },
+        {
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"
+        },
+        {
+          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea"
+        },
+        {
+          "nominationId": "be35075e-d485-4f10-9869-f89d28592465"
+        },
+        {
+          "nominationId": "a3c2244b-8c42-49be-96f2-a7d2edf3b8a7"
+        },
+        {
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91"
+        }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
-        "Best Movie",
-        "Best Action Sequence"
+        {
+          "nominationId": "125802e2-8240-480d-99b9-db1d4a922e45"
+        },
+        {
+          "nominationId": "2f12b906-153f-4cd2-b719-e0e9d54527a0"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
-        "Best Picture",
-        "Best Acting Ensemble",
-        "Best Director",
-        "Best Composer"
+        {
+          "nominationId": "45736875-bb5d-429c-afbd-a60ada41c58b"
+        },
+        {
+          "nominationId": "522ed3e9-6c70-494a-b926-b5729a885dd8"
+        },
+        {
+          "nominationId": "180f76b8-bdb9-4536-91c0-0d8fe887b0b3"
+        },
+        {
+          "nominationId": "dfe3aaa5-4b86-49d4-b690-34ffbea590a0"
+        }
       ]
     }
   ],

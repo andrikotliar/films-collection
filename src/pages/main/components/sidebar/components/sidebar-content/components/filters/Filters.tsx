@@ -1,12 +1,11 @@
 import styles from './Filters.module.css';
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { filtersConfig } from '@/configs';
 import { useForm, FormProvider } from 'react-hook-form';
-import { Button, Tabs } from '@/components';
-import { useSidebarContext } from '@/pages/main/components/sidebar/context';
+import { Button, Icons, Tabs } from '@/components';
+import { SidebarContext } from '@/pages/main/components/sidebar/context';
 import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
-import { RotateCcw, Search, X } from 'lucide-react';
 import { useQueryFilter } from '@/hooks';
 
 const defaultValues = {
@@ -26,7 +25,7 @@ const Filters = () => {
 
   const filtersCount = countObjectKeys(filterParams, ['pageIndex']);
 
-  const { setIsFilterOpen, updateFiltersCount } = useSidebarContext();
+  const { setIsFilterOpen, updateFiltersCount } = useContext(SidebarContext);
 
   const methods = useForm({
     defaultValues,
@@ -78,7 +77,7 @@ const Filters = () => {
         <h2 className={styles.mobileHeader}>
           <span>Filters</span>
           <button onClick={() => setIsFilterOpen(false)}>
-            <X />
+            <Icons icon="close" />
           </button>
         </h2>
         <Tabs
@@ -107,13 +106,13 @@ const Filters = () => {
           ]}
         />
         <div className={styles.controls}>
-          <Button icon={<Search color="#fff" />} type="submit">
+          <Button icon={<Icons icon="search" />} type="submit">
             Search
           </Button>
           {filtersCount > 0 && (
             <Button
               onClick={handleReset}
-              icon={<RotateCcw />}
+              icon={<Icons icon="reset" />}
               variant="secondary"
             >
               Reset

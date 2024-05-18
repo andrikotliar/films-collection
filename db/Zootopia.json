@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Byron Howard"
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Jared Bush"
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Clark Spencer"
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Michael Giacchino"
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Nathan Warner"
@@ -148,21 +148,27 @@
   "budget": 150000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
-        "Best Animated Feature Film of the Year"
+        {
+          "nominationId": "5d1bb57f-cea1-4c41-81e7-fad3c6b9a7ea"
+        }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
-        "Best Feature Film"
+        {
+          "nominationId": "37d6c9f0-b11c-446f-92ee-e369d76910ee"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
-        "Best Animated Feature"
+        {
+          "nominationId": "492bd6f2-1108-41c7-9fa9-4fd7f634c408"
+        }
       ]
     }
   ],

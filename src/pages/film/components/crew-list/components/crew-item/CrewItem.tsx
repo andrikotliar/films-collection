@@ -1,22 +1,22 @@
 import { FC } from 'react';
-import { buildLink } from '@/helpers';
 import { Crew } from '@/common/types';
 import { DataRow, RouterLink } from '@/components';
-
 import styles from './CrewItem.module.css';
+import { buildQueryLink } from '@/helpers';
+import { personRoleToCrewTitle } from '@/common/maps';
 
-type Props = {
+type CrewItemProps = {
   crewItem: Crew;
 };
 
-const CrewItem: FC<Props> = ({ crewItem }) => {
+const CrewItem: FC<CrewItemProps> = ({ crewItem }) => {
   return (
-    <DataRow title={crewItem.role}>
+    <DataRow title={personRoleToCrewTitle[crewItem.role]}>
       <ul className={styles.list}>
         {crewItem.people.map((person, idx) => (
           <li className={styles.person} key={idx}>
             <RouterLink
-              to={buildLink('crew', {
+              to={buildQueryLink('crew', {
                 role: crewItem.role,
                 name: person.name,
               })}

@@ -11,7 +11,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Barry Sonnenfeld"
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Ed Solomon"
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Walter F. Parkes"
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Danny Elfman"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Don Peterman"
@@ -111,17 +111,26 @@
   "budget": 90000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
-        "Best Makeup"
+        {
+          "nominationId": "0c8ce350-1ddc-43e7-b423-3099e13284a0"
+        }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Science Fiction Film",
-        "Best Supporting Actor",
-        "Best Music"
+        {
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5"
+        },
+        {
+          "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
+          "nominee": "d39e216b-d069-4f40-b485-2be6eafa4d11"
+        },
+        {
+          "nominationId": "be35075e-d485-4f10-9869-f89d28592465"
+        }
       ]
     }
   ],

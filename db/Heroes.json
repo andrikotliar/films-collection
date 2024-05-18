@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Created by",
+      "role": "series_creator",
       "people": [
         {
           "name": "Tim Kring"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "David Semel",
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Tim Kring",
@@ -248,7 +248,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Lori Motyer"
@@ -256,7 +256,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Lisa Coleman"
@@ -267,7 +267,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Nathaniel Goodman"
@@ -444,15 +444,20 @@
   ],
   "awards": [
     {
-      "title": "Emmy",
+      "awardId": "bee25875-f12e-4dfe-9fc5-f25cdb5d836d",
       "nominations": [
-        "Outstanding Special Visual Effects for a Series"
+        {
+          "nominationId": "db88438e-db01-461c-b677-ff6bee46a6eb",
+          "comment": "\"The Second Coming\" and \"The Butterfly Effect\" episodes"
+        }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
-        "Best International"
+        {
+          "nominationId": "cc7ff5ce-dc99-4af9-b0c5-1948bd755ced"
+        }
       ]
     }
   ],

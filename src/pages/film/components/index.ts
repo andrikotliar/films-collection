@@ -10,5 +10,4 @@ export * from './description/Description';
 export * from './box-office/BoxOffice';
 export * from './season-select/SeasonSelect';
 export * from './summary/Summary';
-export * from './collapsible-section/CollapsibleSection';
 export * from './related/Related';

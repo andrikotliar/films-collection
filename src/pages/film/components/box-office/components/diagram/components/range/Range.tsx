@@ -3,11 +3,11 @@ import { FC, PropsWithChildren } from 'react';
 import { DisplayValue } from '../display-value/DisplayValue';
 import { FormattedValue } from '@/pages/film/components/box-office/helpers';
 
-type Props = {
+type RangeProps = {
   maxValue: FormattedValue;
 };
 
-const Range: FC<PropsWithChildren<Props>> = ({ maxValue, children }) => {
+const Range: FC<PropsWithChildren<RangeProps>> = ({ maxValue, children }) => {
   return (
     <div className={styles.range}>
       <span>$0</span>

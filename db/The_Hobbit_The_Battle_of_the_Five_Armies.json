@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Peter Jackson"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Fran Walsh"
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Carolynne Cunningham"
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Howard Shore"
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Andrew Lesnie"
@@ -254,16 +254,24 @@
   "budget": 250000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Supporting Actor",
-        "Best Fantasy Film"
+        {
+          "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
+          "nominee": "a1065b71-c84c-4d85-bad6-965dcaa026c0",
+          "comment": "Thorin"
+        },
+        {
+          "nominationId": "43447644-6efc-4969-b6f8-8cd2d7089fae"
+        }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
-        "Best Action Sequence"
+        {
+          "nominationId": "2f12b906-153f-4cd2-b719-e0e9d54527a0"
+        }
       ]
     }
   ],

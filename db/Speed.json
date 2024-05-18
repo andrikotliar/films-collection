@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Jan de Bont"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Graham Yost"
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Mark Gordon"
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Mark Mancina"
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Andrzej Bartkowiak"
@@ -123,29 +123,34 @@
   "budget": 30000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
-        "Best Sound",
-        "Best Sound Effects Editing"
+        {
+          "nominationId": "5bc47561-63bd-455c-8c3d-9f9ced87e923"
+        },
+        {
+          "nominationId": "be727846-3c6e-4539-8962-2c3539ea9ff1"
+        }
       ]
     },
     {
-      "title": "Golden Globes",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
-        "Best Director - Motion Picture"
+        {
+          "nominationId": "e52213d9-bc00-447b-aba9-0b7f7dc4e096"
+        },
+        {
+          "nominationId": "fc19047a-84fa-4ddc-ab69-d69aec8aba25"
+        }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Editing",
-        "Best Sound"
-      ]
-    },
-    {
-      "title": "Saturn",
-      "nominations": [
-        "Best Actress"
+        {
+          "nominationId": "66954688-228a-4288-b89a-af7fb4b3f890",
+          "nominee": "0b8f5d2b-7e66-43a7-92d3-0daff23056b0"
+        }
       ]
     }
   ],

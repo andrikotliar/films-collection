@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Bryan Singer"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "David Hayter"
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Lauren Shuler Donner"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "John Ottman"
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Newton Thomas Sigel"
@@ -173,15 +173,20 @@
   "budget": 110000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Science Fiction Film"
+        {
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5"
+        }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
-        "Breakthrough Male Performance (Shawn Ashmore)"
+        {
+          "nominationId": "85c641a4-a6dd-4300-a1d3-9e3fd250c1eb",
+          "nominee": "65899214-7886-452c-b7c9-721e5ba24e8f"
+        }
       ]
     }
   ],

@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Kari Skogland"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Malcolm Spellman",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Ariella Blejer"
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Henry Jackman"
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "P.J. Dillon"
@@ -89,7 +89,7 @@
     },
     {
       "character": {
-        "name": "James \"Bucky\" Barnes / Winter Soldier / White Wolf",
+        "name": "James \"Bucky\" Barnes / White Wolf",
         "imageUrl": ""
       },
       "actorId": "6efe0990-f8c2-479e-970a-f990a42f774a",
@@ -167,17 +167,19 @@
   ],
   "awards": [
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
-        "Best Hero",
-        "Best Duo"
+        {
+          "nominationId": "9c04a0b5-a613-49ec-be5c-e6290b90911e",
+          "nominee": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0"
+        },
+        {
+          "nominationId": "640e7bd1-716a-4d9d-9c89-a2bcb4f46794",
+          "comment": "Falcon and the Winter Soldier"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "Marvel Cinematic Universe",
-    "part": 25
-  },
   "year": [
     2021
   ],

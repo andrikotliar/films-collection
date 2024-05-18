@@ -1,16 +1,14 @@
+import { PersonRole } from '@/common/enums';
+import { RelatedFilms } from './related';
+
 type TypeVariants = 'Film' | 'Animation' | 'Series';
 
 type Crew = {
-  role: string;
+  role: PersonRole;
   people: {
     name: string;
     comment?: string;
   }[];
-};
-
-type ActorData = {
-  name: string;
-  photoUrl: string;
 };
 
 type CastType = {
@@ -19,16 +17,22 @@ type CastType = {
     name: string;
     imageUrl: string | null;
   };
-} & ActorData;
+};
 
 type Collection = {
   title: string;
   order?: number;
 };
 
+type Nomination = {
+  nominationId: string;
+  nominee?: string;
+  comment?: string;
+};
+
 type Award = {
-  title: string;
-  nominations: string[];
+  awardId: string;
+  nominations: Nomination[];
 };
 
 type Chapter = {
@@ -73,6 +77,11 @@ type FilmData = {
   series?: SeriesExtension;
   rating: number;
   relatedTitlesKey?: string;
+  related: RelatedFilms;
+};
+
+type FilmsList = {
+  [id: string]: FilmData;
 };
 
 export type {
@@ -80,11 +89,11 @@ export type {
   FilmData,
   Crew,
   CastType,
-  ActorData,
   Collection,
   Award,
   Chapter,
   SeriesExtension,
   SeasonType,
   MediaItem,
+  FilmsList,
 };

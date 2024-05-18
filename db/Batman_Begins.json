@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Christopher Nolan"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Christopher Nolan"
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Charles Roven"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Hans Zimmer"
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Wally Pfister"
@@ -176,17 +176,27 @@
   "budget": 150000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Fantasy Film",
-        "Best Actor",
-        "Best Writing"
+        {
+          "nominationId": "43447644-6efc-4969-b6f8-8cd2d7089fae"
+        },
+        {
+          "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
+          "nominee": "6900c450-d6ad-4f62-8af7-d8398a1b6f77"
+        },
+        {
+          "nominationId": "782745a7-8bff-4c54-993a-09e6187939ea"
+        }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
-        "Best Hero"
+        {
+          "nominationId": "9c04a0b5-a613-49ec-be5c-e6290b90911e",
+          "nominee": "6900c450-d6ad-4f62-8af7-d8398a1b6f77"
+        }
       ]
     }
   ],

@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Jonathan Frakes"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Marco Schnabel"
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Michael S. Murphey"
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Joseph LoDuca"
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Walt Lloyd"
@@ -136,14 +136,16 @@
   ],
   "collections": [
     {
-      "title": "Fantasy Worlds"
+      "title": "Mysteries of the Past"
     }
   ],
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Presentation on Television"
+        {
+          "nominationId": "642af5c7-bc7e-4e5e-874e-05977dc3fccc"
+        }
       ]
     }
   ],

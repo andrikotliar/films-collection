@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Kenneth Branagh"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Ashley Edward Miller"
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Kevin Feige"
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Patrick Doyle"
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Haris Zambarloukos"
@@ -146,9 +146,11 @@
   "budget": 150000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Costumes"
+        {
+          "nominationId": "d35f98cd-6d5a-41c8-b511-9046a59d8828"
+        }
       ]
     }
   ],

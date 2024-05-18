@@ -11,7 +11,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Steven Spielberg"
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Jeffrey Boam"
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Robert Watts"
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "John Williams"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Douglas Slocombe"
@@ -120,21 +120,29 @@
   "budget": 48000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
-        "Best Sound Effects Editing"
+        {
+          "nominationId": "be727846-3c6e-4539-8962-2c3539ea9ff1"
+        }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best DVD Collection"
+        {
+          "nominationId": "74ad3ee5-2619-4dd8-a034-d61cb277b764",
+          "comment": "\"The Adventures of Indiana Jones DVD Collection\""
+        }
       ]
     },
     {
-      "title": "Jupiter",
+      "awardId": "7ebe7513-34d1-4e11-8654-0f6390c2c290",
       "nominations": [
-        "Best International Actor"
+        {
+          "nominationId": "8f0cd2b0-fa7e-4898-8e97-1920c9b31616",
+          "nominee": "cb7f43c6-0555-423c-8baa-9abdd084ab80"
+        }
       ]
     }
   ],

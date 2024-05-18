@@ -1,1 +1,2 @@
-export * from './films-context';
+export { FilmsProvider } from './films-provider';
+export { FilmsContext } from './films-context';

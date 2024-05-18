@@ -2,11 +2,11 @@ import { FC, PropsWithChildren } from 'react';
 import styles from './DataArea.module.css';
 import classNames from 'classnames';
 
-type Props = PropsWithChildren<{
+type DataAreaProps = PropsWithChildren<{
   className?: string;
 }>;
 
-const DataArea: FC<Props> = ({ children, className }) => {
+const DataArea: FC<DataAreaProps> = ({ children, className }) => {
   return (
     <div className={classNames(styles.dataArea, className)}>{children}</div>
   );

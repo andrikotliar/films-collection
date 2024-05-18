@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Colin Trevorrow"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Rick Jaffa"
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Frank Marshall"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Michael Giacchino"
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "John Schwartzman"
@@ -175,15 +175,21 @@
   "budget": 150000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Performance by a Younger Actor (Ty Simpkins)"
+        {
+          "nominationId": "dedc1e3d-4b67-46dd-bfd5-480f7a05d7e6",
+          "nominee": "43829348-2d1a-4215-9d14-bbaa6f1a6802"
+        }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
-        "Best Action Performance"
+        {
+          "nominationId": "b7103e19-b161-49b5-847f-753c106ceb5f",
+          "nominee": "d37a1702-6d76-425e-a1ac-940961feb029"
+        }
       ]
     }
   ],

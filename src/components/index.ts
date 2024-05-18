@@ -1,3 +1,4 @@
+export * from './films-grid/FilmsGrid';
 export * from './button/Button';
 export * from './loader/Loader';
 export * from './app-wrapper/AppWrapper';
@@ -5,10 +6,11 @@ export * from './form-checkbox/FormCheckbox';
 export * from './scrollable/Scrollable';
 export * from './tabs/Tabs';
 export * from './modal/Modal';
-export * from './pagination/Pagination';
 export * from './data-area/DataArea';
 export * from './data-row/DataRow';
 export * from './data-grid/DataGrid';
 export * from './router-link/RouterLink';
 export * from './select/Select';
 export * from './popup-menu/PopupMenu';
+export * from './not-found/NotFound';
+export * from './icons/Icons';

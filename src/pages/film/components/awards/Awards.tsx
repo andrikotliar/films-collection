@@ -1,45 +1,53 @@
-import { FC } from 'react';
+import { FC, useContext, useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { awardIcons } from '@/configs';
+import { awardsConfig } from '@/configs';
 import { Award } from '@/common/types';
-import { buildLink } from '@/helpers';
-import { DataArea, DataGrid, Scrollable } from '@/components';
-
+import { FilmsContext } from '@/context';
+import { buildQueryLink } from '@/helpers';
+import { DataArea, DataGrid, Icons, Scrollable } from '@/components';
+import { Nomination } from './components';
 import styles from './Awards.module.css';
 
-type Props = {
+type AwardsProps = {
   awards: Award[];
 };
 
-const Awards: FC<Props> = ({ awards }) => {
-  const awardImage = (awardTitle: keyof typeof awardIcons) => {
-    return `/images/awards/${awardIcons[awardTitle]}`;
-  };
+const Awards: FC<AwardsProps> = ({ awards }) => {
+  const { actors } = useContext(FilmsContext);
+
+  const sortedAwards = useMemo(() => {
+    return awards.sort((a, b) => b.nominations.length - a.nominations.length);
+  }, [awards]);
 
   return (
     <DataGrid>
-      {awards.map((award) => (
-        <DataArea className={styles.award} key={award.title}>
+      {sortedAwards.map(({ awardId, nominations }) => (
+        <DataArea className={styles.award} key={awardId}>
           <div className={styles.header}>
-            <div className={styles.icon}>
-              <img
-                src={awardImage(award.title as keyof typeof awardIcons)}
-                alt=""
-              />
-            </div>
+            <Icons icon={awardsConfig[awardId].icon} size={60} />
             <div className={styles.main}>
               <h3 className={styles.title}>
-                <Link to={buildLink('awards', award.title)}>{award.title}</Link>
+                <Link to={buildQueryLink('awards', awardId)}>
+                  {awardsConfig[awardId].title}
+                </Link>
               </h3>
               <p>
-                {award.nominations.length} nomination
-                {award.nominations.length > 1 && 's'}
+                {nominations.length} nomination{nominations.length > 1 && 's'}
               </p>
             </div>
           </div>
           <Scrollable className={styles.nominations}>
-            {award.nominations.map((nomination) => (
-              <p key={nomination}>{nomination}</p>
+            {nominations.map(({ nominationId, nominee, comment }) => (
+              <Nomination
+                title={awardsConfig[awardId].nominations[nominationId]}
+                key={nominationId}
+                nominee={
+                  nominee && actors
+                    ? { id: nominee, name: actors[nominee].name }
+                    : null
+                }
+                comment={comment}
+              />
             ))}
           </Scrollable>
         </DataArea>

@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Created by",
+      "role": "series_creator",
       "people": [
         {
           "name": "Scott Frank"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Scott Frank"
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Scott Frank"
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Marcus Loges"
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Carlos Rafael Rivera"
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Steven Meizler"
@@ -149,17 +149,27 @@
   ],
   "awards": [
     {
-      "title": "Golden Globe",
+      "awardId": "ae6f2bdf-42ac-4c5d-9744-881198ac1a1d",
       "nominations": [
-        "Best Motion Picture Made for Television",
-        "Best Performance by an Actress in a Motion Picture Made for Television"
+        {
+          "nominationId": "d3f9ce2c-d7ee-46af-89a6-72cac4931b83"
+        },
+        {
+          "nominationId": "749bb15b-c750-4ba6-ae1e-3ca8d59d38bb",
+          "nominee": "0d18823d-a78f-46ea-b364-4b8450ef33bf"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
-        "Best Limited Series",
-        "Best Actress in a Limited Series or a Movie Made for Television"
+        {
+          "nominationId": "60849ea9-442f-4873-8ede-82d86114be48"
+        },
+        {
+          "nominationId": "6bd9defb-5179-43e3-be13-f02b2cb2ede0",
+          "nominee": "0d18823d-a78f-46ea-b364-4b8450ef33bf"
+        }
       ]
     }
   ],

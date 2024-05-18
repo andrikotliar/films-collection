@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Pete Docter"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Andrew Stanton"
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Darla K. Anderson"
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Randy Newman"
@@ -110,27 +110,20 @@
   "budget": 115000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
-        "Best Music (Original Song)"
+        {
+          "nominationId": "862e14de-43a1-47f5-876d-6d2ea5970bee",
+          "comment": "Song \"If I Didn't Have You\""
+        }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "c4127f39-85a6-440c-bdcc-8742beb6e2f7",
       "nominations": [
-        "Best Feature Film"
-      ]
-    },
-    {
-      "title": "Annie",
-      "nominations": [
-        "Outstanding Character Animation"
-      ]
-    },
-    {
-      "title": "Grammy",
-      "nominations": [
-        "Best Song Written for Visual Media"
+        {
+          "nominationId": "52ed9d07-eae4-4768-9862-1b57ad65ac2f"
+        }
       ]
     }
   ],

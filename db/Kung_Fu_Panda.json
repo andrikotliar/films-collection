@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Mark Osborne"
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Jonathan Aibel"
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Melissa Cobb"
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "John Powell"
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Yong Duk Jhun"
@@ -149,9 +149,33 @@
   "budget": 130000000,
   "awards": [
     {
-      "title": "Critics Choice Award",
+      "awardId": "c4127f39-85a6-440c-bdcc-8742beb6e2f7",
       "nominations": [
-        "Best Animated Feature"
+        {
+          "nominationId": "8e18c6b6-524b-467b-8139-dce657a6b352"
+        },
+        {
+          "nominationId": "5ace8a28-f78b-42ca-896d-32d3efb85f41"
+        },
+        {
+          "nominationId": "0fe4c462-5d45-4bfa-ac96-593996ea5080"
+        },
+        {
+          "nominationId": "dbdc7f25-9f96-4a83-9669-c7dea23946ae"
+        },
+        {
+          "nominationId": "0c9814a3-c628-4c6c-a17d-0f6e4aa83293"
+        },
+        {
+          "nominationId": "cfb0deca-2085-42cd-ab73-210816a9ddd3"
+        },
+        {
+          "nominationId": "6439d840-fca4-41b7-9455-85a1ebf56f45",
+          "nominee": "b15b62a8-412d-496f-83f8-2700b34f86eb"
+        },
+        {
+          "nominationId": "1c64a2ff-816d-4f13-8620-f43ea880ef1e"
+        }
       ]
     }
   ],

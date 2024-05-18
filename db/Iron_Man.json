@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Jon Favreau"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Mark Fergus"
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Avi Arad"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Ramin Djawadi"
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Matthew Libatique"
@@ -148,11 +148,18 @@
   "budget": 140000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Science Fiction Film",
-        "Best Actor",
-        "Best Director"
+        {
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5"
+        },
+        {
+          "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
+          "nominee": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e"
+        },
+        {
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"
+        }
       ]
     }
   ],
@@ -170,5 +177,10 @@
   "description": [
     "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
   ],
-  "relatedTitlesKey": "71a22d78-aaf0-4932-a476-938a0788c8ce"
+  "relatedTitlesKey": "71a22d78-aaf0-4932-a476-938a0788c8ce",
+  "meta": {
+    "watchCount": {
+      "approx": 5
+    }
+  }
 }

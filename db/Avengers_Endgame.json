@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Anthony Russo"
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Christopher Markus"
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Kevin Feige"
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Alan Silvestri"
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Trent Opaloch"
@@ -210,29 +210,56 @@
   "budget": 356000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Comic-to-Film Motion Picture",
-        "Best Actor (Robert Downey Jr.)",
-        "Best Production Design",
-        "Best Make-Up",
-        "Best Editing",
-        "Best Special Effects"
+        {
+          "nominationId": "f7a0a071-9da5-4baa-a192-931f60b7d2bf"
+        },
+        {
+          "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
+          "nominee": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e"
+        },
+        {
+          "nominationId": "038bfccf-c5b8-47c9-b285-219c4e5d1efd"
+        },
+        {
+          "nominationId": "a3c2244b-8c42-49be-96f2-a7d2edf3b8a7"
+        },
+        {
+          "nominationId": "4776a35c-732d-4ca9-a4ff-2d3312cf353f"
+        },
+        {
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91"
+        }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
-        "Best Movie",
-        "Best Hero (Robert Downey Jr. as Tony Stark)",
-        "Best Villain (Josh Brolin as Thanos)"
+        {
+          "nominationId": "125802e2-8240-480d-99b9-db1d4a922e45"
+        },
+        {
+          "nominationId": "9c04a0b5-a613-49ec-be5c-e6290b90911e",
+          "nominee": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e",
+          "comment": "as Tony Stark / Iron Man"
+        },
+        {
+          "nominationId": "d3bafbf4-f684-4f60-875a-5cbbe09c14e2",
+          "nominee": "02b35a55-aa39-45bf-b0df-6f82c5aa8f07",
+          "comment": "as Thanos"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
-        "Best Visual Effects",
-        "Best Action Movie"
+        {
+          "nominationId": "1dbbd79f-d824-4e8e-83c4-bda38adc45f9"
+        },
+        {
+          "nominationId": "53f51093-e194-40d8-94b4-28908cb6a14c"
+        }
       ]
     }
   ],

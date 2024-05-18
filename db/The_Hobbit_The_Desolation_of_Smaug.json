@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Peter Jackson"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Fran Walsh"
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Carolynne Cunningham"
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Howard Shore"
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Andrew Lesnie"
@@ -270,9 +270,11 @@
   "budget": 225000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Production Design"
+        {
+          "nominationId": "038bfccf-c5b8-47c9-b285-219c4e5d1efd"
+        }
       ]
     }
   ],

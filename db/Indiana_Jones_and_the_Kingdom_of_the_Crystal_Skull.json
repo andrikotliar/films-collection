@@ -11,7 +11,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Steven Spielberg"
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "David Koepp"
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Frank Marshall"
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "John Williams"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Janusz Kaminski"
@@ -120,9 +120,11 @@
   "budget": 185000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Costume"
+        {
+          "nominationId": "3da49678-fc01-4143-8b79-f4d8e32a2b44"
+        }
       ]
     }
   ],
@@ -140,5 +142,10 @@
   "description": [
     "In 1957, archaeologist and adventurer Dr. Henry \"Indiana\" Jones, Jr. is called back into action and becomes entangled in a Soviet plot to uncover the secret behind mysterious artifacts known as the Crystal Skulls."
   ],
-  "relatedTitlesKey": "e4abec89-df09-42e0-bfe6-dfb3696b0dcc"
+  "relatedTitlesKey": "e4abec89-df09-42e0-bfe6-dfb3696b0dcc",
+  "meta": {
+    "watchCount": {
+      "real": 1
+    }
+  }
 }

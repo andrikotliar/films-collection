@@ -1,7 +1,10 @@
-const debounce = (callback: (...args: any) => void, timeout: number) => {
+const debounce = <T extends (...args: any) => any>(
+  callback: T,
+  timeout: number,
+) => {
   let timer: number;
 
-  return (...args: any) => {
+  return (...args: Parameters<T>) => {
     clearTimeout(timer);
     timer = setTimeout(() => {
       callback(...args);

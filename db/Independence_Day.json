@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Roland Emmerich"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Dean Devlin"
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Dean Devlin"
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "David Arnold"
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Karl Walter Lindenlaub"
@@ -129,17 +129,25 @@
   "budget": 75000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
-        "Best Visual Effects"
+        {
+          "nominationId": "c346a523-3bf3-4f58-98e3-599206560b12"
+        }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Science Fiction Film",
-        "Best Director",
-        "Best Special Effects"
+        {
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5"
+        },
+        {
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"
+        },
+        {
+          "nominationId": "188d8d42-edd8-4d88-abc6-31d5806bff91"
+        }
       ]
     }
   ],
@@ -156,5 +164,10 @@
   "rating": 2,
   "description": [
     "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive."
-  ]
+  ],
+  "meta": {
+    "watchCount": {
+      "approx": 10
+    }
+  }
 }

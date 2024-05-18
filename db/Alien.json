@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Ridley Scott"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Dan O'Bannon"
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Gordon Carroll"
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Jerry Goldsmith"
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Derek Vanlint"
@@ -138,24 +138,40 @@
   "budget": 11000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
-        "Best Visual Effects"
+        {
+          "nominationId": "c346a523-3bf3-4f58-98e3-599206560b12"
+        }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
-        "Best Production Design",
-        "Best Sound Track"
+        {
+          "nominationId": "bb69a340-0754-4a75-943a-75dbeb2257fd"
+        },
+        {
+          "nominationId": "6e4269f9-99ad-4163-8910-6a96da2b2dd3"
+        }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Science Fiction Film",
-        "Best Supporting Actress",
-        "Best Director"
+        {
+          "nominationId": "74ad3ee5-2619-4dd8-a034-d61cb277b764"
+        },
+        {
+          "nominationId": "a09f029a-61c3-4398-b97d-03dd0ca499c5"
+        },
+        {
+          "nominationId": "fe65a215-a19f-4382-a43e-c1dd27f8f27e",
+          "nominee": "cee0fa43-ecb3-4afa-bce5-897a64c790c9"
+        },
+        {
+          "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"
+        }
       ]
     }
   ],

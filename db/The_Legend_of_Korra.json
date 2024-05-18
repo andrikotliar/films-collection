@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Created by",
+      "role": "series_creator",
       "people": [
         {
           "name": "Michael Dante DiMartino"
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Joaquim Dos Santos",
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Michael Dante DiMartino",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Tim Yoon"
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Jeremy Zuckerman"
@@ -270,17 +270,17 @@
   ],
   "awards": [
     {
-      "title": "Annie",
+      "awardId": "c4127f39-85a6-440c-bdcc-8742beb6e2f7",
       "nominations": [
-        "Outstanding Achievement in Storyboarding in an Animated TV/Broadcast Production",
-        "Outstanding Achievement in Production Design in an Animated TV/Broadcast Production"
+        {
+          "nominationId": "0753fcab-6b0b-459b-a8e5-71567d5e27bb"
+        },
+        {
+          "nominationId": "5319e99b-9464-40d9-91da-78e643f7ed13"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "The Last Airbender",
-    "part": 2
-  },
   "year": [
     2012,
     2013,
@@ -336,5 +336,6 @@
     "Korra faces new challenges as she delves into the spirit world and discovers the origins of bending. Civil unrest in Republic City and the appearance of dark spirits escalate the conflict. She must learn the ancient art of energybending and connect with her spiritual side.",
     "In the third season, Korra faces the Red Lotus, a dangerous anarchist group that seeks to end the Avatar cycle. As she confronts formidable adversaries, she must rebuild the Air Nation, rediscover herself, and make challenging decisions for the world's future.",
     "The final season follows Korra as she deals with the aftermath of her traumatic battles. She faces Kuvira, an Earth Empire military leader who seeks to unite the Earth Kingdom. As Korra grapples with physical and emotional scars, she strives to bring balance to the world."
-  ]
+  ],
+  "relatedTitlesKey": "383d9ffb-1f12-4af6-85b2-f423112488d8"
 }

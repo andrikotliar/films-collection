@@ -1,6 +1,6 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { MenuIcon } from 'lucide-react';
+import { Icons } from '@/components/icons/Icons';
 import classNames from 'classnames';
 import { mainMenu } from '@/configs';
 import { PopupMenu } from '@/components/popup-menu/PopupMenu';
@@ -26,13 +26,17 @@ const Header = () => {
     setIsMenuOpen(false);
   };
 
+  useEffect(() => {
+    handleCloseMenu();
+  }, [location]);
+
   return (
     <header className={styles.header}>
       <Container className={styles.headerContainer}>
         <Link
           to={{
             pathname: '/',
-            search: location.search,
+            search: location.pathname === '/' ? location.search : undefined,
           }}
           className={styles.logoWrapper}
         >
@@ -44,7 +48,7 @@ const Header = () => {
           onClick={handleOpenMenu}
           ref={menuButtonRef}
         >
-          <MenuIcon className={styles.menuIcon} />
+          <Icons icon="menu" className={styles.menuIcon} />
         </button>
         <PopupMenu
           onClose={handleCloseMenu}

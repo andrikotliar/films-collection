@@ -1,8 +1,8 @@
 import classNames from 'classnames';
-import { FC, KeyboardEvent, useMemo, useState } from 'react';
-import { ChevronDown } from 'lucide-react';
-
+import { FC, MouseEvent, useEffect, useMemo, useRef, useState } from 'react';
+import { PopupMenu } from '@/components/popup-menu/PopupMenu';
 import styles from './Select.module.css';
+import { Icons } from '@/components/icons/Icons';
 
 type Option = {
   label: string;
@@ -29,38 +29,41 @@ const Select: FC<SelectProps> = ({
   const [value, setValue] = useState<SelectedValue>(defaultValue);
   const [activeIndex, setActiveIndex] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
+  const [isTriggerFocused, setIsTriggerFocused] = useState(false);
+
+  const buttonRef = useRef<HTMLButtonElement>(null);
+  const wrapperRef = useRef<HTMLDivElement>(null);
 
   const handleSelectOption = (option: Option) => {
     setValue(option.value);
     onSelect && onSelect(option.value);
   };
 
-  const handleChange = (option: Option, index: number) => {
-    handleSelectOption(option);
-    setActiveIndex(index);
-    setIsOpen(false);
-  };
+  const handleChange =
+    (option: Option, index: number) => (e: MouseEvent<HTMLButtonElement>) => {
+      e.preventDefault();
 
-  const handleDropdown = () => {
+      handleSelectOption(option);
+      setActiveIndex(index);
+      setIsOpen(false);
+    };
+
+  const handleToggleDropdown = () => {
     setIsOpen((isOpen) => !isOpen);
   };
 
-  const handleDropdownOnKey = (e: KeyboardEvent<HTMLDivElement>) => {
-    switch (e.key) {
-      case ' ':
-        e.preventDefault();
-        handleDropdown();
-        handleSelectOption(options[activeIndex]);
-        break;
-      case 'Enter':
-        handleDropdown();
-        handleSelectOption(options[activeIndex]);
-        break;
-      case 'Escape':
-        setIsOpen(false);
-        break;
+  const handleCloseDropdown = () => {
+    setIsOpen(false);
+  };
+
+  const handleTriggerFocus = () => {
+    setIsTriggerFocused((isFocused) => !isFocused);
+  };
+
+  const handleDropdownOnKey = (event: KeyboardEvent) => {
+    switch (event.key) {
       case 'ArrowDown':
-        e.preventDefault();
+        event.preventDefault();
         setIsOpen(true);
         setActiveIndex((index) => {
           if (index >= 0 && index < options.length - 1) {
@@ -71,8 +74,7 @@ const Select: FC<SelectProps> = ({
         });
         break;
       case 'ArrowUp':
-        e.preventDefault();
-        setIsOpen(true);
+        event.preventDefault();
         setActiveIndex((index) => {
           if (index > 0) {
             return index - 1;
@@ -90,50 +92,73 @@ const Select: FC<SelectProps> = ({
     return options.find((option) => option.value === value);
   }, [value, options]);
 
+  useEffect(() => {
+    if (isOpen || isTriggerFocused) {
+      document.addEventListener('keydown', handleDropdownOnKey);
+
+      return () => {
+        document.removeEventListener('keydown', handleDropdownOnKey);
+      };
+    }
+  }, [isOpen, isTriggerFocused]);
+
+  useEffect(() => {
+    if (wrapperRef.current) {
+      const children = wrapperRef.current.children;
+
+      (children[activeIndex] as HTMLElement).focus();
+    }
+  }, [activeIndex, wrapperRef]);
+
   return (
     <div
-      className={classNames(styles.select, {
-        [styles.isDisabled]: isDisabled,
-      })}
-      tabIndex={0}
-      onClick={handleDropdown}
-      onKeyDown={handleDropdownOnKey}
-      onBlur={() => setIsOpen(false)}
       role="combobox"
       aria-expanded={isOpen}
+      className={classNames({
+        [styles.isDisabled]: isDisabled,
+      })}
     >
-      <div className={styles.value}>
+      <button
+        className={styles.value}
+        onClick={handleToggleDropdown}
+        ref={buttonRef}
+        onFocus={handleTriggerFocus}
+        onBlur={handleTriggerFocus}
+      >
         <span>{selectedOption ? selectedOption.label : placeholder}</span>
-        <ChevronDown
+        <Icons
+          icon="chevronDown"
           className={classNames(styles.expandIcon, {
             [styles.expanded]: isOpen,
           })}
+          size={20}
         />
-      </div>
-      <ul
-        className={classNames(styles.dropdown, {
-          [styles.visible]: isOpen,
-        })}
+      </button>
+      <PopupMenu
+        isOpen={isOpen}
+        className={styles.dropdown}
+        triggerRef={buttonRef}
         role="menu"
+        onClose={handleCloseDropdown}
+        menuMargin={5}
+        shouldAdjustToTriggerWidth
       >
-        {options.map((option, index) => (
-          <li
-            key={option.value}
-            onClick={(e) => {
-              e.stopPropagation();
-              handleChange(option, index);
-            }}
-            className={classNames(styles.option, {
-              [styles.selected]: option.value === selectedOption?.value,
-              [styles.highlighted]: activeIndex === index,
-            })}
-            role="menuitem"
-            onMouseEnter={() => setActiveIndex(index)}
-          >
-            {option.label}
-          </li>
-        ))}
-      </ul>
+        <div ref={wrapperRef}>
+          {options.map((option, index) => (
+            <button
+              key={option.value}
+              onClick={handleChange(option, index)}
+              className={classNames(styles.option, {
+                [styles.selected]: option.value === selectedOption?.value,
+              })}
+              role="menuitem"
+              data-index={index}
+            >
+              {option.label}
+            </button>
+          ))}
+        </div>
+      </PopupMenu>
     </div>
   );
 };

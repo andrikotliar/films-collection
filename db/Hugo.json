@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Martin Scorsese"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "John Logan"
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Graham King"
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Howard Shore"
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Robert Richardson"
@@ -105,32 +105,50 @@
   "budget": 150000000,
   "awards": [
     {
-      "title": "Oscar",
+      "awardId": "9d7f2aa9-d2c7-4cba-b868-5266c859b4c2",
       "nominations": [
-        "Best Achievement in Cinematography",
-        "Best Achievement in Sound Mixing",
-        "Best Achievement in Sound Editing",
-        "Best Achievement in Visual Effects",
-        "Best Achievement in Art Direction"
+        {
+          "nominationId": "d39a99f8-9730-4e7f-8da8-d61ce0af0858"
+        },
+        {
+          "nominationId": "34c7b8f1-0115-4099-99ec-1f13cfbe0fa3"
+        },
+        {
+          "nominationId": "ac85bc32-bfab-4362-9557-dd089f7a0ec5"
+        },
+        {
+          "nominationId": "a6b1a904-f461-4360-aecc-9cd91d7d537a"
+        },
+        {
+          "nominationId": "ca03f1f4-dade-4358-8dc6-0dd2493be0cc"
+        }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
-        "Best Production Design",
-        "Best Sound"
+        {
+          "nominationId": "bb69a340-0754-4a75-943a-75dbeb2257fd"
+        },
+        {
+          "nominationId": "fc19047a-84fa-4ddc-ab69-d69aec8aba25"
+        }
       ]
     },
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Production Design"
+        {
+          "nominationId": "038bfccf-c5b8-47c9-b285-219c4e5d1efd"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
-        "Best Art Direction"
+        {
+          "nominationId": "74b1f9bc-fb1b-4520-9611-c99c1b83d336"
+        }
       ]
     }
   ],
@@ -147,5 +165,10 @@
   "rating": 2,
   "description": [
     "In Paris in 1931, an orphan named Hugo Cabret, who lives in the walls of a train station, is wrapped up in a mystery involving his late father and an automaton"
-  ]
+  ],
+  "meta": {
+    "watchCount": {
+      "real": 1
+    }
+  }
 }

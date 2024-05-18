@@ -1,21 +1,21 @@
 import { FC } from 'react';
 import { handleImageError } from '@/helpers';
 import { CastType } from '@/common/types';
-import { IMAGE_FALLBACKS } from '@/common/constants';
+import { images } from '@/common/maps';
 
 import styles from './Character.module.css';
 
-type Props = {
+type CharacterProps = {
   character: CastType['character'];
 };
 
-const Character: FC<Props> = ({ character }) => {
+const Character: FC<CharacterProps> = ({ character }) => {
   return (
     <div className={styles.character}>
       <img
         src={character.imageUrl || ''}
         alt={character.name}
-        onError={(e) => handleImageError(e, IMAGE_FALLBACKS.noCharacterImage)}
+        onError={handleImageError(images.characterNotFound)}
       />
     </div>
   );

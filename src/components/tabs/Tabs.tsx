@@ -4,7 +4,7 @@ import { Scrollable } from '../scrollable/Scrollable';
 import styles from './Tabs.module.css';
 import classNames from 'classnames';
 
-type Props = {
+type TabsProps = {
   components: {
     label: string;
     content: ReactNode;
@@ -12,7 +12,7 @@ type Props = {
   defaultTabIndex?: number;
 };
 
-const Tabs: FC<Props> = ({ components, defaultTabIndex = 0 }) => {
+const Tabs: FC<TabsProps> = ({ components, defaultTabIndex = 0 }) => {
   const [activeIndex, setActiveIndex] = useState(defaultTabIndex);
 
   useEffect(() => {
@@ -28,10 +28,11 @@ const Tabs: FC<Props> = ({ components, defaultTabIndex = 0 }) => {
       <div className={styles.controls}>
         {components.map((component, index) => (
           <button
+            type="button"
             onClick={handleSelectTab(index)}
             key={component.label}
             className={classNames(styles.tab, {
-              [styles.active]: index === activeIndex
+              [styles.active]: index === activeIndex,
             })}
           >
             {component.label}

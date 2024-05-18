@@ -5,11 +5,11 @@ import { DataArea } from '@/components';
 
 import styles from './CrewList.module.css';
 
-type Props = {
+type CrewListProps = {
   crew: Crew[];
 };
 
-const CrewList: FC<Props> = ({ crew }) => {
+const CrewList: FC<CrewListProps> = ({ crew }) => {
   return (
     <DataArea className={styles.crewList}>
       {crew.map((crewItem) => (

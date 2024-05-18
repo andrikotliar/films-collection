@@ -11,7 +11,7 @@
   ],
   "crew": [
     {
-      "role": "Created by",
+      "role": "series_creator",
       "people": [
         {
           "name": "Michael Dante DiMartino"
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Michael Dante DiMartino",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Michael Dante DiMartino",
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Michael Dante DiMartino"
@@ -147,7 +147,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Benjamin Wynn"
@@ -294,27 +294,41 @@
   ],
   "awards": [
     {
-      "title": "Emmy",
+      "awardId": "bee25875-f12e-4dfe-9fc5-f25cdb5d836d",
       "nominations": [
-        "Outstanding Individual Achievement in Animation"
+        {
+          "nominationId": "90dc0862-e778-4aef-9a86-3adbd717291e"
+        }
       ]
     },
     {
-      "title": "Annie",
+      "awardId": "c4127f39-85a6-440c-bdcc-8742beb6e2f7",
       "nominations": [
-        "Best Animated Television Production Produced for Children",
-        "Best Directing in an Animated Television Production or Short Form",
-        "Best Character Animation in a Television Production",
-        "Best Directing in an Animated Television Production",
-        "Best Storyboarding in an Animated Television Production",
-        "Best Animated Television Production"
+        {
+          "nominationId": "c8f59cea-39f8-4d08-86fb-b2ae18175c3b"
+        },
+        {
+          "nominationId": "fbe7cd6e-c83f-4c33-b80f-d7ad0653c339",
+          "comment": "Joaquim Dos Santos. For episode \"Sozin's Comet: Part 3 - Into the Inferno\" (season 3, episode 20)"
+        },
+        {
+          "nominationId": "2aac359f-94d4-46aa-9695-6d69a80b460e",
+          "comment": "Jae-Myung Yoo. For episode \"The Blind Bandit\" (season 2 episode 6)"
+        },
+        {
+          "nominationId": "a1cc48e6-5d13-447e-b744-ac5b1e2ac47a",
+          "comment": "Giancarlo Volpe. For episode \"The Drill\" (season 2 episode 13)"
+        },
+        {
+          "nominationId": "3f4b2fea-01a1-45a8-863a-bb1edf801edb",
+          "comment": "Lauren MacMullan. For episode \"The Deserter\" (season 1 episode 16)"
+        },
+        {
+          "nominationId": "2fcb9191-7cae-43bd-ba04-76d0df98f953"
+        }
       ]
     }
   ],
-  "parts": {
-    "title": "The Last Airbender",
-    "part": 1
-  },
   "year": [
     2005,
     2006,
@@ -359,5 +373,6 @@
     "Follow the journey of Aang, the last Airbender and the Avatar, as he awakens from a century-long slumber to a world ravaged by war. With the help of new friends Katara and Sokka, he embarks on a quest to master the elements and bring balance to a world torn by the Fire Nation's aggression.",
     "Aang continues his training as the Avatar, facing new challenges and adventures. The group confronts the Earth Kingdom's struggles, uncovers the secrets of the spirit world, and Aang delves deeper into his connection with the Avatar State, all while the Fire Nation intensifies its pursuit.",
     "Aang and his friends prepare for the ultimate showdown with the Fire Nation and its tyrannical ruler, Fire Lord Ozai. The group faces personal dilemmas and tough choices, while the world holds its breath, waiting for the Avatar's triumph and the restoration of balance."
-  ]
+  ],
+  "relatedTitlesKey": "383d9ffb-1f12-4af6-85b2-f423112488d8"
 }

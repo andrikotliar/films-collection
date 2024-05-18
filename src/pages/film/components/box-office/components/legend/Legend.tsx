@@ -4,13 +4,13 @@ import { DiagramColorEnum } from '@/pages/film/components/box-office/common/enum
 
 import styles from './Legend.module.css';
 
-type Props = {
+type LegendProps = {
   hasBudget: boolean;
   hasBoxOffice: boolean;
   color: DiagramColorEnum;
 };
 
-const Legend: FC<Props> = ({ hasBudget, hasBoxOffice, color }) => {
+const Legend: FC<LegendProps> = ({ hasBudget, hasBoxOffice, color }) => {
   return (
     <div className={styles.legend}>
       {hasBudget && <LegendItem type="Budget" />}

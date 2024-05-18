@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Created by",
+      "role": "series_creator",
       "people": [
         {
           "name": "Craig Mazin"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Johan Renck"
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Craig Mazin"
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Sanne Wohlenberg"
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Hildur Guðnadóttir"
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Jakob Ihre"
@@ -139,35 +139,65 @@
   ],
   "awards": [
     {
-      "title": "Emmy",
+      "awardId": "bee25875-f12e-4dfe-9fc5-f25cdb5d836d",
       "nominations": [
-        "Outstanding Limited Series",
-        "Outstanding Directing for a Limited Series",
-        "Outstanding Writing for a Limited Series",
-        "Outstanding Cinematography for a Limited Series or Movie",
-        "Outstanding Production Design for a Narrative Period or Fantasy Program (One Hour or More)",
-        "Outstanding Music Composition for a Limited Series",
-        "Movie",
-        "or Special (Original Dramatic Score)",
-        "Outstanding Single-Camera Picture Editing for a Limited Series or Movie",
-        "Outstanding Sound Mixing for a Limited Series or Movie",
-        "Outstanding Sound Editing for a Limited Series",
-        "Movie or Special",
-        "Outstanding Special Visual Effects in a Supporting Role,"
+        {
+          "nominationId": "f6a19892-fa05-412d-af05-1b68e1f88955"
+        },
+        {
+          "nominationId": "5a0a1af9-4979-4ca7-897f-d79588f652c0"
+        },
+        {
+          "nominationId": "c679e169-b25b-425b-80f2-34e2125df54e"
+        },
+        {
+          "nominationId": "9c2055bb-e38a-4195-9ef2-aacbec910a17"
+        },
+        {
+          "nominationId": "73932212-c83c-4a4e-992d-57f603e25eb0"
+        },
+        {
+          "nominationId": "1c2f618c-4bd8-460b-b351-fb32353181bc"
+        },
+        {
+          "nominationId": "80f3bba3-c1c9-472f-b2f8-9caf6a82a96a"
+        },
+        {
+          "nominationId": "860855b4-cce6-43e3-b1af-2c3bd27212fe"
+        },
+        {
+          "nominationId": "d6801f6b-eefb-45e6-bb5d-9c9f717f2a4b"
+        },
+        {
+          "nominationId": "453d22b4-2cb1-4487-88a9-246086e7a735"
+        }
       ]
     },
     {
-      "title": "BAFTA",
+      "awardId": "59b42575-c175-4447-95fc-6ba79e2456c2",
       "nominations": [
-        "Leading Actor (Jared Harris)",
-        "Mini-Series",
-        "Supporting Actor (Stellan Skarsgård)"
+        {
+          "nominationId": "7f4509ac-d84c-4a24-9212-25deae15c217",
+          "nominee": "8c06c7a0-6407-41d4-82b9-8101e961ad03"
+        },
+        {
+          "nominationId": "2708284c-d135-4df4-acae-2172ef6e8b6b"
+        },
+        {
+          "nominationId": "f74102be-c077-4834-99da-c1d2787ea924",
+          "nominee": "1b41f903-5993-4f31-8306-afb18e261e96",
+          "comment": "as Boris Shcherbina"
+        }
       ]
     },
     {
-      "title": "Critics Choice Award",
+      "awardId": "676e9dff-a89d-48af-9063-009b246fff13",
       "nominations": [
-        "Best Supporting Actor in a Limited Series or Movie Made for Television (Stellan Skarsgård)"
+        {
+          "nominationId": "16e427a6-c3e9-40ba-9218-923d3e12e702",
+          "nominee": "1b41f903-5993-4f31-8306-afb18e261e96",
+          "comment": "as Boris Shcherbina"
+        }
       ]
     }
   ],
@@ -193,5 +223,10 @@
   "rating": 2,
   "description": [
     "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes."
-  ]
+  ],
+  "meta": {
+    "watchCount": {
+      "real": 2
+    }
+  }
 }

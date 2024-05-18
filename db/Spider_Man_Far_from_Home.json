@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Jon Watts"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Chris McKenna"
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Kevin Feige"
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Michael Giacchino"
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Matthew J. Lloyd"
@@ -122,10 +122,16 @@
   "budget": 160000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Supporting Actress",
-        "Best Performance by a Younger Actor"
+        {
+          "nominationId": "fe65a215-a19f-4382-a43e-c1dd27f8f27e",
+          "nominee": "c8eeb8d9-51c3-4833-a31d-ec18431eaf71"
+        },
+        {
+          "nominationId": "dedc1e3d-4b67-46dd-bfd5-480f7a05d7e6",
+          "nominee": "f70d14d5-2f1a-46a1-8462-bdf6fc18141a"
+        }
       ]
     }
   ],

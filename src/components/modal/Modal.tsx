@@ -4,12 +4,12 @@ import { ModalContent } from './components';
 
 import styles from './Modal.module.css';
 
-type Props = {
+type ModalProps = {
   isOpen: boolean;
   onClose: VoidFunction;
 } & ComponentProps<typeof ModalContent>;
 
-const Modal: FC<PropsWithChildren<Props>> = ({
+const Modal: FC<PropsWithChildren<ModalProps>> = ({
   isOpen = false,
   children,
   onClose,
@@ -27,4 +27,4 @@ const Modal: FC<PropsWithChildren<Props>> = ({
   );
 };
 
-export { Modal };
+export { Modal, type ModalProps };

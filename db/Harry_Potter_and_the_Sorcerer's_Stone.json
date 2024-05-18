@@ -10,7 +10,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Chris Columbus"
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Steve Kloves"
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "David Heyman"
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "John Williams"
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "John Seale"
@@ -132,13 +132,15 @@
   "budget": 125000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Costumes"
+        {
+          "nominationId": "d35f98cd-6d5a-41c8-b511-9046a59d8828"
+        }
       ]
     }
   ],
-  "boxOffice": 975000000000,
+  "boxOffice": 975000000,
   "year": [
     2001
   ],

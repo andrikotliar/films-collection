@@ -1,6 +1,7 @@
-import { useClickOutside, useFocusTrap } from '@/hooks';
+import { useClickOutside, useCloseOnEscape, useFocusTrap } from '@/hooks';
 import {
   FC,
+  HTMLAttributes,
   PropsWithChildren,
   RefObject,
   useEffect,
@@ -12,13 +13,16 @@ import { createPortal } from 'react-dom';
 import { PropsWithClassName } from '@/common/types';
 import classNames from 'classnames';
 
-type Props = PropsWithClassName<{
+type PopupMenuProps = PropsWithClassName<{
   isOpen: boolean;
   onClose: VoidFunction;
-  triggerRef: RefObject<HTMLButtonElement>;
+  triggerRef: RefObject<HTMLElement>;
   menuMargin?: number;
   positionMarker?: 'left' | 'right';
-}>;
+  shouldAdjustToTriggerWidth?: boolean;
+  shouldFocusTriggerOnClose?: boolean;
+}> &
+  HTMLAttributes<HTMLDivElement>;
 
 type Position = {
   left: number;
@@ -27,7 +31,7 @@ type Position = {
 
 const DEFAULT_MENU_MARGIN_PX = 10;
 
-const PopupMenu: FC<PropsWithChildren<Props>> = ({
+const PopupMenu: FC<PropsWithChildren<PopupMenuProps>> = ({
   isOpen,
   onClose,
   triggerRef,
@@ -35,15 +39,24 @@ const PopupMenu: FC<PropsWithChildren<Props>> = ({
   menuMargin = DEFAULT_MENU_MARGIN_PX,
   className,
   positionMarker = 'left',
+  shouldAdjustToTriggerWidth,
+  shouldFocusTriggerOnClose,
+  ...divProps
 }) => {
   const [position, setPosition] = useState<Position | null>(null);
+  const [menuWidth, setMenuWidth] = useState<number>();
   const menuRef = useRef<HTMLDivElement>(null);
 
+  const handleScrollClose = () => {
+    onClose();
+    triggerRef.current?.blur();
+  };
+
   useEffect(() => {
-    document.addEventListener('scroll', onClose);
+    document.addEventListener('scroll', handleScrollClose);
 
     return () => {
-      document.removeEventListener('scroll', onClose);
+      document.removeEventListener('scroll', handleScrollClose);
     };
   }, []);
 
@@ -51,14 +64,22 @@ const PopupMenu: FC<PropsWithChildren<Props>> = ({
     if (triggerRef.current && menuRef.current) {
       const { width } = menuRef.current.getBoundingClientRect();
 
-      const { left, bottom, right } =
-        triggerRef.current.getBoundingClientRect();
+      const {
+        left,
+        bottom,
+        right,
+        width: buttonWidth,
+      } = triggerRef.current.getBoundingClientRect();
 
       const leftPosition = positionMarker === 'left' ? left : right - width;
 
       setPosition({ left: leftPosition, top: bottom + menuMargin });
+
+      if (shouldAdjustToTriggerWidth) {
+        setMenuWidth(buttonWidth);
+      }
     }
-  }, [isOpen, triggerRef, menuRef]);
+  }, [isOpen, triggerRef, menuRef, shouldAdjustToTriggerWidth]);
 
   useClickOutside({
     isOpen,
@@ -67,10 +88,13 @@ const PopupMenu: FC<PropsWithChildren<Props>> = ({
     containerRef: menuRef,
   });
 
+  useCloseOnEscape(isOpen, onClose);
+
   useFocusTrap({
     container: menuRef.current,
     trigger: triggerRef.current,
     isOpen,
+    shouldFocusOnClose: shouldFocusTriggerOnClose,
   });
 
   if (!isOpen) {
@@ -81,7 +105,8 @@ const PopupMenu: FC<PropsWithChildren<Props>> = ({
     <div
       ref={menuRef}
       className={classNames(styles.popupMenu, className)}
-      style={position ?? {}}
+      style={{ ...position, width: menuWidth }}
+      {...divProps}
     >
       {children}
     </div>,

@@ -1,2 +1,2 @@
-export * from './films-grid/FilmsGrid';
+export * from './films-section/FilmsSection';
 export * from './sidebar/Sidebar';

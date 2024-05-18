@@ -11,7 +11,7 @@
   ],
   "crew": [
     {
-      "role": "Directed by",
+      "role": "director",
       "people": [
         {
           "name": "Marc Forster"
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "role": "Written by",
+      "role": "writer",
       "people": [
         {
           "name": "Matthew Michael Carnahan"
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "role": "Produced by",
+      "role": "producer",
       "people": [
         {
           "name": "Brad Pitt"
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "role": "Music by",
+      "role": "music",
       "people": [
         {
           "name": "Marco Beltrami"
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "role": "Cinematography by",
+      "role": "cinematography",
       "people": [
         {
           "name": "Ben Seresin"
@@ -118,15 +118,20 @@
   "budget": 190000000,
   "awards": [
     {
-      "title": "Saturn",
+      "awardId": "a50aca24-8229-41cf-a01a-b38741e73145",
       "nominations": [
-        "Best Thriller Film"
+        {
+          "nominationId": "c75dcda3-a68d-41c1-a07a-61ddc9c1064f"
+        }
       ]
     },
     {
-      "title": "MTV Movie Award",
+      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
       "nominations": [
-        "Best Scared-As-S**t Performance"
+        {
+          "nominationId": "197add55-ef2d-484e-b186-96ceeaccb9c2",
+          "nominee": "4d283681-5033-4240-a844-289f0fc4ab52"
+        }
       ]
     }
   ],
