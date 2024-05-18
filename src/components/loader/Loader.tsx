@@ -17,7 +17,7 @@ const Loader: FC<Props> = ({ isFullPage = false, iconClassName }) => {
     >
       <Icons
         icon="loader"
-        className={classNames(styles.loader, iconClassName)}
+        className={classNames(styles.loader, 'spin', iconClassName)}
       />
     </div>
   );

@@ -20,6 +20,7 @@ type Props = PropsWithClassName<{
   menuMargin?: number;
   positionMarker?: 'left' | 'right';
   shouldAdjustToTriggerWidth?: boolean;
+  shouldFocusTriggerOnClose?: boolean;
 }> &
   HTMLAttributes<HTMLDivElement>;
 
@@ -39,17 +40,23 @@ const PopupMenu: FC<PropsWithChildren<Props>> = ({
   className,
   positionMarker = 'left',
   shouldAdjustToTriggerWidth,
+  shouldFocusTriggerOnClose,
   ...divProps
 }) => {
   const [position, setPosition] = useState<Position | null>(null);
   const [menuWidth, setMenuWidth] = useState<number>();
   const menuRef = useRef<HTMLDivElement>(null);
 
+  const handleScrollClose = () => {
+    onClose();
+    triggerRef.current?.blur();
+  };
+
   useEffect(() => {
-    document.addEventListener('scroll', onClose);
+    document.addEventListener('scroll', handleScrollClose);
 
     return () => {
-      document.removeEventListener('scroll', onClose);
+      document.removeEventListener('scroll', handleScrollClose);
     };
   }, []);
 
@@ -87,6 +94,7 @@ const PopupMenu: FC<PropsWithChildren<Props>> = ({
     container: menuRef.current,
     trigger: triggerRef.current,
     isOpen,
+    shouldFocusOnClose: shouldFocusTriggerOnClose,
   });
 
   if (!isOpen) {

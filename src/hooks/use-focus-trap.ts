@@ -4,6 +4,7 @@ type Options = {
   container: HTMLElement | null;
   trigger: HTMLElement | null;
   isOpen: boolean;
+  shouldFocusOnClose?: boolean;
 };
 
 const queryFocusableElements = (container: HTMLElement) => {
@@ -14,7 +15,12 @@ const queryFocusableElements = (container: HTMLElement) => {
   return focusableElements;
 };
 
-const useFocusTrap = ({ container, trigger, isOpen }: Options) => {
+const useFocusTrap = ({
+  container,
+  trigger,
+  isOpen,
+  shouldFocusOnClose = true,
+}: Options) => {
   useEffect(() => {
     if (container && isOpen) {
       const elements = queryFocusableElements(container);
@@ -46,7 +52,9 @@ const useFocusTrap = ({ container, trigger, isOpen }: Options) => {
       document.addEventListener('keydown', controlFocusWithinContainer);
 
       return () => {
-        trigger?.focus();
+        if (shouldFocusOnClose) {
+          trigger?.focus();
+        }
         document.removeEventListener('keydown', controlFocusWithinContainer);
       };
     }
