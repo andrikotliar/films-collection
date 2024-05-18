@@ -24,10 +24,12 @@
 .description {
   font-size: 18px;
   font-weight: bold;
+  text-align: center;
 }
 
 .actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
@@ -38,6 +40,8 @@
   border-radius: var(--app-border-radius);
   text-transform: uppercase;
   transition: color 0.3s, background-color 0.3s;
+  text-align: center;
+  flex-grow: 1;
 }
 
 .link:hover {
