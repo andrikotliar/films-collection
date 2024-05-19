@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "generate:db": "node --no-warnings ./utils/generate-db",
-    "dev": "npm run generate:db && vite",
-    "build": "npm run generate:db && tsc && vite build",
+    "generate:dataset": "node --no-warnings ./utils/generate-dataset",
+    "dev": "npm run generate:dataset && vite",
+    "build": "npm run generate:dataset && tsc && vite build",
     "preview": "vite preview",
     "prettier": "prettier ./src/**/*.{tsx,ts} --write",
     "update:bulk": "node --no-warnings ./utils/bulk-update write"
