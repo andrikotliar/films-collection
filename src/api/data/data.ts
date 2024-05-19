@@ -8,7 +8,7 @@ type DataCollection = {
 
 const fetchData = () =>
   api<DataCollection>({
-    url: '/database/database.json',
+    url: '/dataset/dataset.json',
   });
 
 export { fetchData, type DataCollection };

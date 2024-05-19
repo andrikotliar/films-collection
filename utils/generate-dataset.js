@@ -3,10 +3,10 @@ import actorsData from './data/actors.json' assert { type: 'json' };
 import relatedFilmsData from './data/related.json' assert { type: 'json' };
 
 const generateDatabaseFiles = () => {
-  const files = fs.readdirSync('./db/');
+  const files = fs.readdirSync('./dataset/json');
 
-  const db = files.map((file) => {
-    const fileData = fs.readFileSync(`./db/${file}`, 'utf8');
+  const dataset = files.map((file) => {
+    const fileData = fs.readFileSync(`./dataset/json/${file}`, 'utf8');
     const film = JSON.parse(fileData);
 
     if (film.relatedTitlesKey) {
@@ -16,28 +16,28 @@ const generateDatabaseFiles = () => {
     return film;
   });
 
-  const sortedDb = db.sort((a, b) => (a.year < b.year ? 1 : -1));
+  const sortedDataset = dataset.sort((a, b) => (a.year < b.year ? 1 : -1));
 
   const result = {
-    films: sortedDb,
+    films: sortedDataset,
     actors: actorsData,
   };
 
   fs.writeFile(
-    './public/database/database.json',
+    './public/dataset/dataset.json',
     JSON.stringify(result),
     (error) => {
       if (error) {
         console.log(error);
         return;
       }
-      console.log('Database completed!');
+      console.log('Dataset completed!');
     },
   );
 };
 
 const createFolderForDB = () => {
-  fs.mkdir('./public/database', (error) => {
+  fs.mkdir('./public/dataset', (error) => {
     if (error) console.log(error);
     createDB();
   });
@@ -45,7 +45,7 @@ const createFolderForDB = () => {
 
 const init = () => {
   try {
-    if (fs.existsSync('./public/database')) {
+    if (fs.existsSync('./public/dataset')) {
       generateDatabaseFiles();
     } else {
       createFolderForDB();
