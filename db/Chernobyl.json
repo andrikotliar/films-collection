@@ -69,14 +69,6 @@
   "cast": [
     {
       "character": {
-        "name": "Lyudmilla Ignatenko",
-        "imageUrl": ""
-      },
-      "actorId": "ee7c306c-c255-4f94-bf24-8d843c2b352b",
-      "name": "Jessie Buckley"
-    },
-    {
-      "character": {
         "name": "Valery Legasov",
         "imageUrl": ""
       },
@@ -98,6 +90,14 @@
       },
       "actorId": "3b3db445-0873-4ca4-9f1c-6f0a23124470",
       "name": "Adam Nagaitis"
+    },
+    {
+      "character": {
+        "name": "Lyudmilla Ignatenko",
+        "imageUrl": ""
+      },
+      "actorId": "53b02037-fbf7-4030-a970-ea06170d49a8",
+      "name": "Jessie Buckley"
     },
     {
       "character": {
