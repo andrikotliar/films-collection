@@ -1,44 +1,21 @@
-import fs from 'node:fs';
-import path from 'node:path';
-import { modifier } from './modifier.js';
+import { processData } from './process-data.js';
+import { readData, writeData, readFolder } from './helpers/index.js';
+import { DATASET_FOLDER } from './constants/index.js';
 
-const DATA_FOLDER = './dataset/json';
-const files = fs.readdirSync(DATA_FOLDER);
 const shouldWriteData = process.argv[2] === 'write';
 
-const readData = (file) => {
-  try {
-    const fileData = fs.readFileSync(path.join(DATA_FOLDER, file), 'utf-8');
-    const parsedData = JSON.parse(fileData);
+const modifyData = async (shouldWriteData) => {
+  const files = await readFolder(DATASET_FOLDER);
 
-    return parsedData;
-  } catch (e) {
-    throw Error(e?.message);
-  }
-};
+  for (let fileName of files) {
+    const data = await readData({ folder: DATASET_FOLDER, fileName });
 
-const writeData = (file, data) => {
-  try {
-    fs.writeFileSync(
-      path.join(DATA_FOLDER, file),
-      JSON.stringify(data, undefined, 2),
-      'utf-8',
-    );
-  } catch (e) {
-    throw Error(e?.message);
-  }
-};
-
-const modifyData = (fileNames, shouldWriteData) => {
-  fileNames.forEach((fileName) => {
-    const data = readData(fileName);
-
-    const { film: modifiedData } = modifier(data);
+    const { film: modifiedData } = processData(data);
 
     if (shouldWriteData) {
-      writeData(fileName, modifiedData);
+      await writeData(fileName, modifiedData, 'expanded');
     }
-  });
+  }
 };
 
-modifyData(files, shouldWriteData);
+modifyData(shouldWriteData);

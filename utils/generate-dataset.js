@@ -1,13 +1,22 @@
-import fs from 'fs';
+import { mkdir, existsSync } from 'fs';
 import actorsData from './data/actors.json' assert { type: 'json' };
 import relatedFilmsData from './data/related.json' assert { type: 'json' };
+import { readData, readFolder, writeData } from './helpers/index.js';
+import {
+  DATASET_FOLDER,
+  PUBLIC_DATASET_JSON,
+  PUBLIC_DATASET_FOLDER,
+} from './constants/index.js';
 
-const generateDatabaseFiles = () => {
-  const files = fs.readdirSync('./dataset/json');
+const generateCombinedDataset = async () => {
+  const files = await readFolder(DATASET_FOLDER);
 
-  const dataset = files.map((file) => {
-    const fileData = fs.readFileSync(`./dataset/json/${file}`, 'utf8');
-    const film = JSON.parse(fileData);
+  const promises = files.map(async (fileName) => {
+    const film = await readData({ folder: DATASET_FOLDER, fileName });
+
+    if (!film) {
+      console.log('[ERROR]:', `Failed process ${fileName}`);
+    }
 
     if (film.relatedTitlesKey) {
       film.related = relatedFilmsData[film.relatedTitlesKey];
@@ -16,6 +25,8 @@ const generateDatabaseFiles = () => {
     return film;
   });
 
+  const dataset = await Promise.all(promises);
+
   const sortedDataset = dataset.sort((a, b) => (a.year < b.year ? 1 : -1));
 
   const result = {
@@ -23,35 +34,25 @@ const generateDatabaseFiles = () => {
     actors: actorsData,
   };
 
-  fs.writeFile(
-    './public/dataset/dataset.json',
-    JSON.stringify(result),
-    (error) => {
-      if (error) {
-        console.log(error);
-        return;
-      }
-      console.log('Dataset completed!');
-    },
-  );
+  await writeData(PUBLIC_DATASET_JSON, result);
 };
 
-const createFolderForDB = () => {
-  fs.mkdir('./public/dataset', (error) => {
+const createFolderForDB = async () => {
+  mkdir(PUBLIC_DATASET_FOLDER, async (error) => {
     if (error) console.log(error);
-    createDB();
+    await generateCombinedDataset();
   });
 };
 
-const init = () => {
+const init = async () => {
   try {
-    if (fs.existsSync('./public/dataset')) {
-      generateDatabaseFiles();
+    if (existsSync(PUBLIC_DATASET_FOLDER)) {
+      await generateCombinedDataset();
     } else {
-      createFolderForDB();
+      await createFolderForDB();
     }
   } catch (error) {
-    console.error(error);
+    console.error('[GENERATE ERROR]:', error?.message);
   }
 };
 
