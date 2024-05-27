@@ -95,22 +95,6 @@
     },
     {
       "character": {
-        "name": "Lana",
-        "imageUrl": ""
-      },
-      "actorId": "c43955ec-2f50-493a-8a07-2b0be231c142",
-      "name": "Kelly Hu"
-    },
-    {
-      "character": {
-        "name": "Rhodes",
-        "imageUrl": ""
-      },
-      "actorId": "979c25b0-31bd-44fb-88e4-e31bf1cf100d",
-      "name": "David Dayan Fisher"
-    },
-    {
-      "character": {
         "name": "Charlene",
         "imageUrl": ""
       },
@@ -124,14 +108,6 @@
       },
       "actorId": "3edb4170-5178-4fb8-aa43-27b2cafbe82a",
       "name": "Olympia Dukakis"
-    },
-    {
-      "character": {
-        "name": "Debra",
-        "imageUrl": ""
-      },
-      "actorId": "0aeb0252-6ba9-4897-a50d-589d6a3f50ad",
-      "name": "Lisa Brenner"
     }
   ],
   "collections": [

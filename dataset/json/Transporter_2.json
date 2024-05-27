@@ -106,22 +106,6 @@
     },
     {
       "character": {
-        "name": "Dimitri",
-        "imageUrl": ""
-      },
-      "actorId": "bebd0e6a-9671-4a95-ad7a-182b595e3d40",
-      "name": "Jason Flemyng"
-    },
-    {
-      "character": {
-        "name": "Stappleton",
-        "imageUrl": ""
-      },
-      "actorId": "11de0615-6faf-461b-9b3b-6e6662f084c0",
-      "name": "Keith David"
-    },
-    {
-      "character": {
         "name": "Jack Billings",
         "imageUrl": ""
       },

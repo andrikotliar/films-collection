@@ -93,27 +93,11 @@
     },
     {
       "character": {
-        "name": "Yoda",
-        "imageUrl": ""
-      },
-      "actorId": "11e3cf6a-7cbb-46ab-a58b-681d70c0d69c",
-      "name": "Frank Oz"
-    },
-    {
-      "character": {
         "name": "Palpatine",
         "imageUrl": ""
       },
       "actorId": "4280bdd8-33a0-4f2c-8024-7de0ead1924e",
       "name": "Ian McDiarmid"
-    },
-    {
-      "character": {
-        "name": "Bail Organa",
-        "imageUrl": ""
-      },
-      "actorId": "258788d4-04ea-41c0-b8f9-5e653892f72c",
-      "name": "Jimmy Smits"
     }
   ],
   "collections": [

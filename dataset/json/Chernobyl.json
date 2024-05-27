@@ -69,14 +69,6 @@
   "cast": [
     {
       "character": {
-        "name": "Lyudmilla Ignatenko",
-        "imageUrl": ""
-      },
-      "actorId": "ee7c306c-c255-4f94-bf24-8d843c2b352b",
-      "name": "Jessie Buckley"
-    },
-    {
-      "character": {
         "name": "Valery Legasov",
         "imageUrl": ""
       },
@@ -90,14 +82,6 @@
       },
       "actorId": "1b41f903-5993-4f31-8306-afb18e261e96",
       "name": "Stellan Skarsgard"
-    },
-    {
-      "character": {
-        "name": "Vasily Ignatenko",
-        "imageUrl": ""
-      },
-      "actorId": "3b3db445-0873-4ca4-9f1c-6f0a23124470",
-      "name": "Adam Nagaitis"
     },
     {
       "character": {

@@ -107,14 +107,6 @@
     },
     {
       "character": {
-        "name": "Bennet",
-        "imageUrl": ""
-      },
-      "actorId": "86a67f8b-f719-4839-ae18-1b02415d3895",
-      "name": "Omar Benson Miller"
-    },
-    {
-      "character": {
         "name": "Veronica",
         "imageUrl": ""
       },
@@ -128,14 +120,6 @@
       },
       "actorId": "44830702-1239-4c97-9185-b81759620725",
       "name": "Alice Krige"
-    },
-    {
-      "character": {
-        "name": "Young Dave",
-        "imageUrl": ""
-      },
-      "actorId": "40c7fc2e-8efe-4e28-a03c-23933e20bb99",
-      "name": "Jake Cherry"
     }
   ],
   "collections": [

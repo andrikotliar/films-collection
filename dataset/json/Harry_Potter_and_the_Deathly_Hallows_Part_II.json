@@ -99,14 +99,6 @@
     },
     {
       "character": {
-        "name": "Rubeus Hagrid",
-        "imageUrl": ""
-      },
-      "actorId": "4f8d4c6c-7c1e-467c-931e-3d44fd153542",
-      "name": "Robbie Coltrane"
-    },
-    {
-      "character": {
         "name": "Draco Malfoy",
         "imageUrl": ""
       },
@@ -120,14 +112,6 @@
       },
       "actorId": "6e8cb43d-6dc8-45fd-a9de-a20ba4ab4858",
       "name": "Alan Rickman"
-    },
-    {
-      "character": {
-        "name": "Bellatrix Lestrage",
-        "imageUrl": ""
-      },
-      "actorId": "cf40a9cd-4f18-4a84-93a8-6267385b2a87",
-      "name": "Helena Bonham Carter"
     }
   ],
   "collections": [

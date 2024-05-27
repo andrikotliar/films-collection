@@ -84,35 +84,11 @@
     },
     {
       "character": {
-        "name": "Capt. McMahon",
-        "imageUrl": ""
-      },
-      "actorId": "3bba759a-ae0f-46e9-92e7-0e11c3c1bacd",
-      "name": "Joe Morton"
-    },
-    {
-      "character": {
         "name": "Harry",
         "imageUrl": ""
       },
       "actorId": "2acdc01e-e8a7-4c67-a061-47ec8ed67d26",
       "name": "Jeff Daniels"
-    },
-    {
-      "character": {
-        "name": "Stephens",
-        "imageUrl": ""
-      },
-      "actorId": "03336f6d-5b06-4b5a-a870-6601b088065b",
-      "name": "Alan Ruck"
-    },
-    {
-      "character": {
-        "name": "Jaguar Owner",
-        "imageUrl": ""
-      },
-      "actorId": "963da96c-521a-4e6b-b448-97411eff77ae",
-      "name": "Glenn Plummer"
     }
   ],
   "collections": [

@@ -28,4 +28,5 @@ dist-ssr
 
 utils/modifier.js
 utils/get-data.js
-utils/lists.json
+utils/list.json
+utils/list.pending.json

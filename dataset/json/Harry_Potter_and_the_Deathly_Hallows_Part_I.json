@@ -99,22 +99,6 @@
     },
     {
       "character": {
-        "name": "Rubeus Hagrid",
-        "imageUrl": ""
-      },
-      "actorId": "4f8d4c6c-7c1e-467c-931e-3d44fd153542",
-      "name": "Robbie Coltrane"
-    },
-    {
-      "character": {
-        "name": "Draco Malfoy",
-        "imageUrl": ""
-      },
-      "actorId": "58889d31-faba-4da2-858d-b28261a42cea",
-      "name": "Tom Felton"
-    },
-    {
-      "character": {
         "name": "Severus Snape",
         "imageUrl": ""
       },
