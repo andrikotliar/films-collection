@@ -4,14 +4,9 @@ import related from './data/related.json' assert { type: 'json' };
 import { readData, readFolder } from './helpers/index.js';
 import { DATASET_FOLDER } from './constants/index.js';
 
-import modifier from './modifier.js';
+import { globalDataModifier } from './modifiers.js';
 
 const processData = async () => {
-  if (typeof modifier !== 'function') {
-    console.log('[ERROR]:', 'Modifier function must be defined!');
-    return;
-  }
-
   const files = await readFolder(DATASET_FOLDER);
   const filesData = files.map(async (fileName) => {
     const data = await readData({ folder: DATASET_FOLDER, fileName });
@@ -24,6 +19,8 @@ const processData = async () => {
   });
 
   const films = await Promise.all(filesData);
+
+  await globalDataModifier({ films, actors, related });
 };
 
 processData();

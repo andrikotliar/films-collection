@@ -26,6 +26,6 @@ dist-ssr
 
 # local data and scripts
 
-utils/modifier.js
+utils/modifiers.js
 utils/list.json
 utils/list.pending.json
