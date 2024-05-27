@@ -8,7 +8,8 @@
     "build": "npm run generate:dataset && tsc && vite build",
     "preview": "vite preview",
     "prettier": "prettier ./src/**/*.{tsx,ts} --write",
-    "update:bulk": "node --no-warnings ./utils/bulk-update write"
+    "update:json": "node --no-warnings ./utils/update-dataset-files write",
+    "update:global": "node --no-warnings ./utils/process-data"
   },
   "dependencies": {
     "axios": "^1.6.8",
