@@ -15,7 +15,7 @@ const processData = async () => {
       console.log('[ERROR]:', `Failed processing ${fileName}`);
     }
 
-    return data;
+    return { ...data, fileName };
   });
 
   const films = await Promise.all(filesData);
