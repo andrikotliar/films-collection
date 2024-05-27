@@ -104,22 +104,6 @@
       },
       "actorId": "4775a98f-0bd7-4506-a482-02c5c2fcd0e6",
       "name": "Michael Arden"
-    },
-    {
-      "character": {
-        "name": "Hazmi",
-        "imageUrl": ""
-      },
-      "actorId": "8078cd16-bbac-4014-9df5-0c8545213a6c",
-      "name": "Cas Anvar"
-    },
-    {
-      "character": {
-        "name": "Max Denoff",
-        "imageUrl": ""
-      },
-      "actorId": "bc8151bb-2528-4a02-94bc-022f77218420",
-      "name": "Russell Peters"
     }
   ],
   "collections": [

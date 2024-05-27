@@ -102,43 +102,11 @@
     },
     {
       "character": {
-        "name": "Caliban",
-        "imageUrl": ""
-      },
-      "actorId": "47d2c17c-94f4-47b8-b5eb-803eb79bc3f5",
-      "name": "Stephen Merchant"
-    },
-    {
-      "character": {
-        "name": "Gabriela",
-        "imageUrl": ""
-      },
-      "actorId": "2fa4a107-9d10-4ea8-9192-c0878f939695",
-      "name": "Elizabeth Rodriguez"
-    },
-    {
-      "character": {
         "name": "Dr. Rice",
         "imageUrl": ""
       },
       "actorId": "c87df396-657b-4c7b-9a59-63af0cac7886",
       "name": "Richard E. Grant"
-    },
-    {
-      "character": {
-        "name": "Will Munson",
-        "imageUrl": ""
-      },
-      "actorId": "b204b999-876b-4a62-8c4b-a35c2ea5a682",
-      "name": "Eriq La Salle"
-    },
-    {
-      "character": {
-        "name": "Kathryn Munson",
-        "imageUrl": ""
-      },
-      "actorId": "fcd1de6d-147f-4800-9ef7-d116ab590804",
-      "name": "Elise Neal"
     }
   ],
   "collections": [

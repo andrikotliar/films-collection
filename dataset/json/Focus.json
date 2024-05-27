@@ -113,22 +113,6 @@
       },
       "actorId": "98486615-e33a-430b-b038-935105096070",
       "name": "B.D. Wong"
-    },
-    {
-      "character": {
-        "name": "McEwen",
-        "imageUrl": ""
-      },
-      "actorId": "6a87e57a-37b1-4342-bbea-a0ced790ffb1",
-      "name": "Robert Taylor"
-    },
-    {
-      "character": {
-        "name": "Jared Mukulski",
-        "imageUrl": ""
-      },
-      "actorId": "e4d4cb52-c413-4947-a207-f91ccf4c33b5",
-      "name": "Dominic Fumusa"
     }
   ],
   "collections": [

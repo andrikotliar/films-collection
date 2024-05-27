@@ -110,43 +110,11 @@
     },
     {
       "character": {
-        "name": "Sam Wilson / Falcon",
-        "imageUrl": ""
-      },
-      "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0",
-      "name": "Anthony Mackie"
-    },
-    {
-      "character": {
-        "name": "Maggie Lang",
-        "imageUrl": ""
-      },
-      "actorId": "b999e11f-6bb6-4cfc-b668-ca5ee377a087",
-      "name": "Judy Greer"
-    },
-    {
-      "character": {
-        "name": "Cassie Lang",
-        "imageUrl": ""
-      },
-      "actorId": "b34fadf6-773e-44dc-9f06-e3919da95db9",
-      "name": "Abby Ryder Fortson"
-    },
-    {
-      "character": {
         "name": "Luis",
         "imageUrl": ""
       },
       "actorId": "1bffcd51-f602-47df-b924-f575be9234f1",
       "name": "Michael Pena"
-    },
-    {
-      "character": {
-        "name": "Kurt",
-        "imageUrl": ""
-      },
-      "actorId": "80863320-fecd-40ed-843c-d83ea21fb63b",
-      "name": "David Dastmalchian"
     }
   ],
   "collections": [

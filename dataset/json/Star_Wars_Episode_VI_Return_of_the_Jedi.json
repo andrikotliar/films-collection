@@ -112,22 +112,6 @@
     },
     {
       "character": {
-        "name": "Chewbacca",
-        "imageUrl": ""
-      },
-      "actorId": "b8f8ccea-b603-4414-8cf3-0d64cea77c19",
-      "name": "Peter Mayhew"
-    },
-    {
-      "character": {
-        "name": "R2-D2",
-        "imageUrl": ""
-      },
-      "actorId": "373e6326-e3e5-4084-86cf-b2eb743441e0",
-      "name": "Kenny Baker"
-    },
-    {
-      "character": {
         "name": "Yoda",
         "imageUrl": ""
       },

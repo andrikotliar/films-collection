@@ -93,35 +93,11 @@
     },
     {
       "character": {
-        "name": "Oracle",
-        "imageUrl": ""
-      },
-      "actorId": "833b0e41-00e8-4c9b-9d17-d4510f0b86ee",
-      "name": "Mary Alice"
-    },
-    {
-      "character": {
         "name": "Niobe",
         "imageUrl": ""
       },
       "actorId": "9e504ddc-91b4-45c1-a321-c5e7f40999d9",
       "name": "Jada Pinkett Smith"
-    },
-    {
-      "character": {
-        "name": "Lock",
-        "imageUrl": ""
-      },
-      "actorId": "2cca1667-07db-451b-a853-9c4f1bd28cf3",
-      "name": "Harry J. Lennix"
-    },
-    {
-      "character": {
-        "name": "Link",
-        "imageUrl": ""
-      },
-      "actorId": "85dcf65e-0034-4b73-9165-4813486e5f90",
-      "name": "Harold Perrineau"
     }
   ],
   "collections": [

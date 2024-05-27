@@ -100,22 +100,6 @@
       },
       "actorId": "a07a4f82-9579-40d3-97d8-9dd2d0904023",
       "name": "Ludacris"
-    },
-    {
-      "character": {
-        "name": "Agent Markham",
-        "imageUrl": ""
-      },
-      "actorId": "7c9d793a-2f26-4517-9d68-37f21dc42731",
-      "name": "James Remar"
-    },
-    {
-      "character": {
-        "name": "Suki",
-        "imageUrl": ""
-      },
-      "actorId": "d62cb22e-2e82-4140-bce7-1e5a15981d83",
-      "name": "Devon Aoki"
     }
   ],
   "collections": [

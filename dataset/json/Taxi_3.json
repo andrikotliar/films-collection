@@ -74,7 +74,7 @@
         "imageUrl": ""
       },
       "actorId": "fc8fa2d2-1e26-46e5-8efc-bb538a5843e4",
-      "name": "Frédéric Diefenthal"
+      "name": "Frederic Diefenthal"
     },
     {
       "character": {
@@ -94,22 +94,6 @@
     },
     {
       "character": {
-        "name": "Petra",
-        "imageUrl": ""
-      },
-      "actorId": "f359b905-058e-4a71-9aaa-e349ec43331a",
-      "name": "Emma Wiklund"
-    },
-    {
-      "character": {
-        "name": "Lilly Bertineau",
-        "imageUrl": ""
-      },
-      "actorId": "48f24be3-c558-4de3-b745-1b21538e4437",
-      "name": "Marion Cotillard"
-    },
-    {
-      "character": {
         "name": "Alain",
         "imageUrl": ""
       },
@@ -118,7 +102,7 @@
     },
     {
       "character": {
-        "name": "G'n'ral Edmond Bertineau",
+        "name": "General Edmond Bertineau",
         "imageUrl": ""
       },
       "actorId": "2d8da59e-b0ce-424b-b02e-bf9c1e8997a6",
