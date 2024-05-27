@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { modifier } from './modifier.js';
 
-const DATA_FOLDER = './db';
+const DATA_FOLDER = './dataset/json';
 const files = fs.readdirSync(DATA_FOLDER);
 const shouldWriteData = process.argv[2] === 'write';
 
@@ -33,7 +33,7 @@ const modifyData = (fileNames, shouldWriteData) => {
   fileNames.forEach((fileName) => {
     const data = readData(fileName);
 
-    const modifiedData = modifier(data);
+    const { film: modifiedData } = modifier(data);
 
     if (shouldWriteData) {
       writeData(fileName, modifiedData);
