@@ -26,7 +26,7 @@ type Collection = {
 
 type Nomination = {
   nominationId: string;
-  nominee?: string;
+  actorId?: string;
   comment?: string;
 };
 

@@ -67,7 +67,7 @@
         "name": "Spider-Man / Peter Parker",
         "imageUrl": ""
       },
-      "actorId": "deaf6b4d-ea83-4c45-ae61-4832bff20b5c",
+      "actorId": "65694e39d2799267ae4a2adf",
       "name": "Tobey Maguire"
     },
     {
@@ -75,7 +75,7 @@
         "name": "Doc Ock / Dr. Otto Octavius",
         "imageUrl": ""
       },
-      "actorId": "ee751154-7fa2-45b0-a86b-ca4ce229bb40",
+      "actorId": "c70aa327b237efbbee19c181",
       "name": "Alfred Molina"
     },
     {
@@ -83,7 +83,7 @@
         "name": "Mary Jane Watson",
         "imageUrl": ""
       },
-      "actorId": "35104a4f-627b-4c95-a2b5-09ab0b0a617b",
+      "actorId": "1a56afd931fe087b7c4de4c1",
       "name": "Kirsten Dunst"
     },
     {
@@ -91,7 +91,7 @@
         "name": "Harry Osborn",
         "imageUrl": ""
       },
-      "actorId": "05e8741b-e28e-4dce-8a03-0c33c2bc69c4",
+      "actorId": "03004ad337f0cc1d674180f4",
       "name": "James Franco"
     },
     {
@@ -99,7 +99,7 @@
         "name": "May Parker",
         "imageUrl": ""
       },
-      "actorId": "96a9dfd1-f01e-4d2c-b8b3-e273ccf3fe6c",
+      "actorId": "f6edab1f2bdab7e504be7dcc",
       "name": "Rosemary Harris"
     },
     {
@@ -107,7 +107,7 @@
         "name": "J. Jonah Jameson",
         "imageUrl": ""
       },
-      "actorId": "3034deb0-7b15-4310-b3c8-14a06daee243",
+      "actorId": "03293ef86c8bf352c9dd52f4",
       "name": "J.K. Simmons"
     }
   ],
@@ -134,7 +134,7 @@
         },
         {
           "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
-          "nominee": "deaf6b4d-ea83-4c45-ae61-4832bff20b5c"
+          "actorId": "65694e39d2799267ae4a2adf"
         },
         {
           "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"

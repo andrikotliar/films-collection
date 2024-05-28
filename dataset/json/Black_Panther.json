@@ -67,7 +67,7 @@
         "name": "T'Challa / Black Panther",
         "imageUrl": ""
       },
-      "actorId": "6bb68e05-b7bc-4a8b-929f-3ba185a3e5f9",
+      "actorId": "085fd1ea78f56539824d7714",
       "name": "Chadwick Boseman"
     },
     {
@@ -75,7 +75,7 @@
         "name": "Erik Killmonger",
         "imageUrl": ""
       },
-      "actorId": "f99f23e3-5ef3-437a-bf04-a67aa38f8697",
+      "actorId": "d278b95bbcdb159e239c7757",
       "name": "Michael B. Jordan"
     },
     {
@@ -83,7 +83,7 @@
         "name": "Nakia",
         "imageUrl": ""
       },
-      "actorId": "1c546317-ff4b-42d3-893b-7d59de3a35fc",
+      "actorId": "4df990e459cdd192712d9a9f",
       "name": "Lupita Nyung'o"
     },
     {
@@ -91,7 +91,7 @@
         "name": "Okoye",
         "imageUrl": ""
       },
-      "actorId": "6b7859db-227e-42c0-9fe5-09647e33ebc7",
+      "actorId": "213ec6c0ba4ad6d754456ff9",
       "name": "Danai Gurira"
     },
     {
@@ -99,7 +99,7 @@
         "name": "Everett K. Ross",
         "imageUrl": ""
       },
-      "actorId": "3ac110d8-83ac-40a6-b22f-7537190f750b",
+      "actorId": "706bad1f2278f02cd543a7a2",
       "name": "Martin Freeman"
     },
     {
@@ -107,7 +107,7 @@
         "name": "W'Kabi",
         "imageUrl": ""
       },
-      "actorId": "6f384706-a2fe-4cfb-8578-8d2634cd0de9",
+      "actorId": "09f81677668b6857a9b63d1e",
       "name": "Daniel Kaluuya"
     },
     {
@@ -115,7 +115,7 @@
         "name": "Shuri",
         "imageUrl": ""
       },
-      "actorId": "87cf439e-596e-4420-a7a4-85f07c35d15b",
+      "actorId": "06a5d24dd22d7ab9813f2aff",
       "name": "Letitia Wright"
     },
     {
@@ -123,7 +123,7 @@
         "name": "M'Baku",
         "imageUrl": ""
       },
-      "actorId": "1d3478f1-b89c-4441-b0d9-b8d196eeae09",
+      "actorId": "f3200b667f548526f4ca9885",
       "name": "Winston Duke"
     },
     {
@@ -131,7 +131,7 @@
         "name": "N'Jobu",
         "imageUrl": ""
       },
-      "actorId": "241c9b66-9a52-454b-887c-f81b070e85c4",
+      "actorId": "022ac8e2c1e117ab955ac8c8",
       "name": "Sterling K. Brown"
     },
     {
@@ -139,7 +139,7 @@
         "name": "Ramonda",
         "imageUrl": ""
       },
-      "actorId": "ab92f0ba-6256-45fa-ad66-f501d7700c67",
+      "actorId": "f1f774fa206392544965b787",
       "name": "Angela Bassett"
     },
     {
@@ -147,7 +147,7 @@
         "name": "Zuri",
         "imageUrl": ""
       },
-      "actorId": "d6966d68-0949-41c0-9414-00b9cecf1f5b",
+      "actorId": "12d4eae94b34820e9c78b4ca",
       "name": "Forest Whitaker"
     },
     {
@@ -155,7 +155,7 @@
         "name": "Ulysses Klaue",
         "imageUrl": ""
       },
-      "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135",
+      "actorId": "e5253cdc8c1fb87953720d64",
       "name": "Andy Serkis"
     }
   ],
@@ -199,8 +199,8 @@
         },
         {
           "nominationId": "fe65a215-a19f-4382-a43e-c1dd27f8f27e",
-          "nominee": "6b7859db-227e-42c0-9fe5-09647e33ebc7",
-          "comment": "as Okoye"
+          "comment": "as Okoye",
+          "actorId": "213ec6c0ba4ad6d754456ff9"
         },
         {
           "nominationId": "038bfccf-c5b8-47c9-b285-219c4e5d1efd"
@@ -218,18 +218,18 @@
         },
         {
           "nominationId": "f287ee7c-5831-4d7d-ad28-f27db0a738a4",
-          "nominee": "6bb68e05-b7bc-4a8b-929f-3ba185a3e5f9",
-          "comment": "as Black Panther"
+          "comment": "as Black Panther",
+          "actorId": "085fd1ea78f56539824d7714"
         },
         {
           "nominationId": "9c04a0b5-a613-49ec-be5c-e6290b90911e",
-          "nominee": "6bb68e05-b7bc-4a8b-929f-3ba185a3e5f9",
-          "comment": "as Black Panther"
+          "comment": "as Black Panther",
+          "actorId": "085fd1ea78f56539824d7714"
         },
         {
           "nominationId": "d3bafbf4-f684-4f60-875a-5cbbe09c14e2",
-          "nominee": "f99f23e3-5ef3-437a-bf04-a67aa38f8697",
-          "comment": "as Erik Killmonger"
+          "comment": "as Erik Killmonger",
+          "actorId": "d278b95bbcdb159e239c7757"
         }
       ]
     },

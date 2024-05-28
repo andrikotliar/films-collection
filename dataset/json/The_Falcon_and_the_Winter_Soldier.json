@@ -84,7 +84,7 @@
         "name": "Sam Wilson / Falcon / Captain America",
         "imageUrl": ""
       },
-      "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0",
+      "actorId": "b59e04d8cace91ce7b37a878",
       "name": "Anthony Mackie"
     },
     {
@@ -92,7 +92,7 @@
         "name": "James \"Bucky\" Barnes / White Wolf",
         "imageUrl": ""
       },
-      "actorId": "6efe0990-f8c2-479e-970a-f990a42f774a",
+      "actorId": "5f86048e81f0f2f8d811005f",
       "name": "Sebastian Stan"
     },
     {
@@ -100,7 +100,7 @@
         "name": "John Walker / Captain America / U.S. Agent",
         "imageUrl": ""
       },
-      "actorId": "7c1b3858-5d84-4392-b553-1d7ba3629a24",
+      "actorId": "9958a9d62a45d76bea422442",
       "name": "Wyatt Russell"
     },
     {
@@ -108,7 +108,7 @@
         "name": "Karli Morgenthau",
         "imageUrl": ""
       },
-      "actorId": "a64954db-d59b-406d-bf75-afa947dd864d",
+      "actorId": "986fddcb2ef5cf4a0bbdc240",
       "name": "Erin Kellyman"
     },
     {
@@ -116,7 +116,7 @@
         "name": "Sarah Wilson",
         "imageUrl": ""
       },
-      "actorId": "ae166564-1e38-4546-9f8a-fe1b78e15eac",
+      "actorId": "fabf0406d63c7e57042de8f2",
       "name": "Adepero Oduye"
     },
     {
@@ -124,7 +124,7 @@
         "name": "James \"Rhodey\" Rhodes",
         "imageUrl": ""
       },
-      "actorId": "64bde65d-0d41-434b-ab94-01aa4422b632",
+      "actorId": "84a7fc06c915c5463cc7ce32",
       "name": "Don Cheadle"
     },
     {
@@ -132,7 +132,7 @@
         "name": "Helmut Zemo",
         "imageUrl": ""
       },
-      "actorId": "d31d9f34-2e99-4163-85e2-c801d2cf41d9",
+      "actorId": "c7594955176a580a3357b7b5",
       "name": "Daniel Brühl"
     },
     {
@@ -140,7 +140,7 @@
         "name": "Sharon Carter / Power Broker",
         "imageUrl": ""
       },
-      "actorId": "b8cae279-8df0-4334-ab14-9682abbf1882",
+      "actorId": "8aa76aa5736b88573d5225ec",
       "name": "Emily VanCamp"
     },
     {
@@ -148,7 +148,7 @@
         "name": "Ayo",
         "imageUrl": ""
       },
-      "actorId": "dcbc2174-f30a-4be8-b21d-b2fccd31048a",
+      "actorId": "2b4fe26cf420ecd887899aa8",
       "name": "Florence Kasumba"
     },
     {
@@ -156,7 +156,7 @@
         "name": "Valentina Allegra de Fontaine",
         "imageUrl": ""
       },
-      "actorId": "283b7be0-47c7-4082-804b-1f184b0c3537",
+      "actorId": "ab787dcbbabb239d412b9bee",
       "name": "Julia Louis-Dreyfus"
     }
   ],
@@ -171,7 +171,7 @@
       "nominations": [
         {
           "nominationId": "9c04a0b5-a613-49ec-be5c-e6290b90911e",
-          "nominee": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0"
+          "actorId": "b59e04d8cace91ce7b37a878"
         },
         {
           "nominationId": "640e7bd1-716a-4d9d-9c89-a2bcb4f46794",

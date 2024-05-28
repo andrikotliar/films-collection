@@ -70,7 +70,7 @@
         "name": "Ripley",
         "imageUrl": ""
       },
-      "actorId": "2cf2b71a-2fe4-4ac9-a7a3-6ea1a9985770",
+      "actorId": "ca74e2b4d921daf8283f1f08",
       "name": "Sigourney Weaver"
     },
     {
@@ -78,7 +78,7 @@
         "name": "Dallas",
         "imageUrl": ""
       },
-      "actorId": "9773b74f-01b6-4f5c-947f-0000088199fa",
+      "actorId": "5173c305fe5f72483f5ca5ef",
       "name": "Tom Skerritt"
     },
     {
@@ -86,7 +86,7 @@
         "name": "Lambert",
         "imageUrl": ""
       },
-      "actorId": "cee0fa43-ecb3-4afa-bce5-897a64c790c9",
+      "actorId": "9dfc4b1c77cee089482ec245",
       "name": "Veronica Cartwright"
     },
     {
@@ -94,7 +94,7 @@
         "name": "Brett",
         "imageUrl": ""
       },
-      "actorId": "d1d46671-946d-454f-bf1a-ba58424c8f99",
+      "actorId": "42802b51f97bc9969b14993c",
       "name": "Harry Dean Stanton"
     },
     {
@@ -102,7 +102,7 @@
         "name": "Kane",
         "imageUrl": ""
       },
-      "actorId": "4da33978-90aa-4ef5-bcc8-246e1f6b2988",
+      "actorId": "e8a0a4dd975bb9aba822de75",
       "name": "John Hurt"
     },
     {
@@ -110,7 +110,7 @@
         "name": "Ash",
         "imageUrl": ""
       },
-      "actorId": "e9964030-afa3-42d4-ab91-9c1fd7c0f177",
+      "actorId": "7619a1dbce75b71bad02d766",
       "name": "Ian Holm"
     },
     {
@@ -118,7 +118,7 @@
         "name": "Parker",
         "imageUrl": ""
       },
-      "actorId": "c7e70e66-039f-4421-b2df-308f87379fda",
+      "actorId": "d7e1cfccf84de611b07ece73",
       "name": "Yaphet Kotto"
     },
     {
@@ -126,7 +126,7 @@
         "name": "Alien",
         "imageUrl": ""
       },
-      "actorId": "448f8862-8e2a-4082-942f-1cf2bfd9b77b",
+      "actorId": "73da3fc4ef4cd0dc8ab9d338",
       "name": "Bolaji Badejo"
     }
   ],
@@ -167,7 +167,7 @@
         },
         {
           "nominationId": "fe65a215-a19f-4382-a43e-c1dd27f8f27e",
-          "nominee": "cee0fa43-ecb3-4afa-bce5-897a64c790c9"
+          "actorId": "9dfc4b1c77cee089482ec245"
         },
         {
           "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"

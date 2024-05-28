@@ -70,7 +70,7 @@
         "name": "Tony Stark / Iron Man",
         "imageUrl": ""
       },
-      "actorId": "af0f82c6-6e73-40d9-bee7-7b7c18bc575e",
+      "actorId": "68eac2af31419390d7f727fd",
       "name": "Robert Downey Jr."
     },
     {
@@ -78,7 +78,7 @@
         "name": "Thor",
         "imageUrl": ""
       },
-      "actorId": "5a7b31cb-f62d-44ae-85b6-21ed4c144a2d",
+      "actorId": "9d6f7bec0a46789eaa403786",
       "name": "Chris Hemsworth"
     },
     {
@@ -86,7 +86,7 @@
         "name": "Bruce Banner / Hulk",
         "imageUrl": ""
       },
-      "actorId": "66103de9-bd6b-4732-8a3b-b59d9c88035a",
+      "actorId": "a65bc3f407cd83dd8b26db19",
       "name": "Mark Ruffalo"
     },
     {
@@ -94,7 +94,7 @@
         "name": "Steve Rogers / Captain America",
         "imageUrl": ""
       },
-      "actorId": "38541020-9829-440f-a21b-caf46d2d9428",
+      "actorId": "b3356695e90767defc7c4421",
       "name": "Chris Evans"
     },
     {
@@ -102,7 +102,7 @@
         "name": "Natasha Romanoff / Black Widow",
         "imageUrl": ""
       },
-      "actorId": "56501e25-8153-4a05-9aaa-43e683f72492",
+      "actorId": "64286f842f66cb88506271cc",
       "name": "Scarlett Johansson"
     },
     {
@@ -110,7 +110,7 @@
         "name": "James Rhodes / War Machine",
         "imageUrl": ""
       },
-      "actorId": "64bde65d-0d41-434b-ab94-01aa4422b632",
+      "actorId": "84a7fc06c915c5463cc7ce32",
       "name": "Don Cheadle"
     },
     {
@@ -118,7 +118,7 @@
         "name": "Doctor Strange",
         "imageUrl": ""
       },
-      "actorId": "b6c1e5b5-b534-438e-8ac1-a6bc0b901ac8",
+      "actorId": "5a86b2f23ea348e3a58775b6",
       "name": "Benedict Cumberbatch"
     },
     {
@@ -126,7 +126,7 @@
         "name": "Peter Parker / Spider-Man",
         "imageUrl": ""
       },
-      "actorId": "f70d14d5-2f1a-46a1-8462-bdf6fc18141a",
+      "actorId": "7724f9a2549d742da5d02985",
       "name": "Tom Holland"
     },
     {
@@ -134,7 +134,7 @@
         "name": "T'Challa / Black Panther",
         "imageUrl": ""
       },
-      "actorId": "6bb68e05-b7bc-4a8b-929f-3ba185a3e5f9",
+      "actorId": "085fd1ea78f56539824d7714",
       "name": "Chadwick Boseman"
     },
     {
@@ -142,7 +142,7 @@
         "name": "Gamora",
         "imageUrl": ""
       },
-      "actorId": "23e53bab-62a5-43a6-99a4-f61d68612d7d",
+      "actorId": "0f44c8581608c442261413e4",
       "name": "Zoe Saldana"
     },
     {
@@ -150,7 +150,7 @@
         "name": "Peter Quill / Star-Lord",
         "imageUrl": ""
       },
-      "actorId": "d37a1702-6d76-425e-a1ac-940961feb029",
+      "actorId": "81002d63c8ad158916752ee2",
       "name": "Chris Pratt"
     },
     {
@@ -158,7 +158,7 @@
         "name": "Nebula",
         "imageUrl": ""
       },
-      "actorId": "0e1ceaa6-d248-427b-b2bf-89480f17a7c3",
+      "actorId": "7b67d3adc189860cca3bbf5f",
       "name": "Karen Gillan"
     },
     {
@@ -166,7 +166,7 @@
         "name": "Loki",
         "imageUrl": ""
       },
-      "actorId": "3f48a450-bff9-4a01-a00a-bba10e5a1e0a",
+      "actorId": "1c93c03ba9a9870918b112fb",
       "name": "Tom Hiddleston"
     },
     {
@@ -174,7 +174,7 @@
         "name": "Vision",
         "imageUrl": ""
       },
-      "actorId": "7a77d424-0788-4e65-9596-e60d483cf264",
+      "actorId": "c20e24b955b094888df0ac50",
       "name": "Paul Bettany"
     },
     {
@@ -182,7 +182,7 @@
         "name": "Wanda Maximoff / Scarlett Witch",
         "imageUrl": ""
       },
-      "actorId": "f08bca90-8dc3-440a-a32a-4647bdf4d828",
+      "actorId": "f6de6e5bd473d73c2055ef99",
       "name": "Elizabeth Olsen"
     },
     {
@@ -190,7 +190,7 @@
         "name": "Sam Wilson / The Falcon",
         "imageUrl": ""
       },
-      "actorId": "d2c5f6df-c0a8-4807-96a4-b628eebd29d0",
+      "actorId": "b59e04d8cace91ce7b37a878",
       "name": "Anthony Mackie"
     },
     {
@@ -198,7 +198,7 @@
         "name": "Bucky Barnes / White Wolf",
         "imageUrl": ""
       },
-      "actorId": "6efe0990-f8c2-479e-970a-f990a42f774a",
+      "actorId": "5f86048e81f0f2f8d811005f",
       "name": "Sebastian Stan"
     },
     {
@@ -206,7 +206,7 @@
         "name": "Mantis",
         "imageUrl": ""
       },
-      "actorId": "8d6da9e7-1e45-46a6-ad6b-515674377935",
+      "actorId": "ea853e2289646fab62637582",
       "name": "Pom Klementieff"
     },
     {
@@ -214,7 +214,7 @@
         "name": "Drax",
         "imageUrl": ""
       },
-      "actorId": "991ea0a4-315d-42f4-8960-4b0c64be1ebd",
+      "actorId": "6e7815767f3afa70c3dc69c5",
       "name": "Dave Bautista"
     },
     {
@@ -222,7 +222,7 @@
         "name": "Groot",
         "imageUrl": ""
       },
-      "actorId": "81bac581-4158-4bcb-9920-60fd3a93bd6b",
+      "actorId": "8acb4ceb24e197fffd95c777",
       "name": "Vin Diesel"
     },
     {
@@ -230,7 +230,7 @@
         "name": "Rocket",
         "imageUrl": ""
       },
-      "actorId": "41614959-9380-45b5-98b7-bad8ea79da1d",
+      "actorId": "dc4912e5f14e4bfea9c78218",
       "name": "Bradley Cooper"
     },
     {
@@ -238,7 +238,7 @@
         "name": "Thanos",
         "imageUrl": ""
       },
-      "actorId": "02b35a55-aa39-45bf-b0df-6f82c5aa8f07",
+      "actorId": "bff8f185faaa1610320942aa",
       "name": "Josh Brolin"
     }
   ],
@@ -254,7 +254,7 @@
       "nominations": [
         {
           "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
-          "nominee": "02b35a55-aa39-45bf-b0df-6f82c5aa8f07"
+          "actorId": "bff8f185faaa1610320942aa"
         }
       ]
     }

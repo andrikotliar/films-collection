@@ -78,7 +78,7 @@
         "name": "Thomas",
         "imageUrl": ""
       },
-      "actorId": "c2e23382-b2ab-4810-b9c1-c08fe4dc2d9d",
+      "actorId": "8e204b8e5e38fbae1fe008a4",
       "name": "Dylan O'Brien"
     },
     {
@@ -86,7 +86,7 @@
         "name": "Teresa",
         "imageUrl": ""
       },
-      "actorId": "62bc0f11-59e0-47ed-8551-452e0aaf1940",
+      "actorId": "d89b2eaf6097bb037c6d8ca0",
       "name": "Kaya Scodelario"
     },
     {
@@ -94,7 +94,7 @@
         "name": "Alby",
         "imageUrl": ""
       },
-      "actorId": "0b08692c-2d9e-4f77-a9cf-96112227a79e",
+      "actorId": "1f5745e5d1b695d05ebc9a5a",
       "name": "Aml Ameen"
     },
     {
@@ -102,7 +102,7 @@
         "name": "Newt",
         "imageUrl": ""
       },
-      "actorId": "601f50c2-ddda-4c74-bf4e-a8950ba7cd75",
+      "actorId": "4ee52e26623792a1c498ac41",
       "name": "Thomas Brodie-Sangster"
     },
     {
@@ -110,7 +110,7 @@
         "name": "Minho",
         "imageUrl": ""
       },
-      "actorId": "eda948ee-e71d-4809-8dfe-6f756bbe80ed",
+      "actorId": "c4c83bf5a6e512ae8f39d75a",
       "name": "Ki Hong Lee"
     },
     {
@@ -118,7 +118,7 @@
         "name": "Gally",
         "imageUrl": ""
       },
-      "actorId": "a43f0d99-df17-4c1b-aee6-2fb6a0fa88b6",
+      "actorId": "f88ba806540e968863c214e3",
       "name": "Will Poulter"
     }
   ],
@@ -134,7 +134,7 @@
       "nominations": [
         {
           "nominationId": "939c9889-253e-4f2d-a2cd-13f2aba6da0f",
-          "nominee": "c2e23382-b2ab-4810-b9c1-c08fe4dc2d9d"
+          "actorId": "8e204b8e5e38fbae1fe008a4"
         },
         {
           "nominationId": "6f842add-0dec-488d-9a04-93e78aaddcc3",
@@ -142,8 +142,8 @@
         },
         {
           "nominationId": "9c04a0b5-a613-49ec-be5c-e6290b90911e",
-          "nominee": "c2e23382-b2ab-4810-b9c1-c08fe4dc2d9d",
-          "comment": "As Thomas"
+          "comment": "As Thomas",
+          "actorId": "8e204b8e5e38fbae1fe008a4"
         }
       ]
     }

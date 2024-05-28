@@ -69,7 +69,7 @@
         "name": "Katniss Everdeen",
         "imageUrl": ""
       },
-      "actorId": "29b99567-4a10-4246-9bb2-26b55a9c1e63",
+      "actorId": "c99e4f6dc0695561848dc5be",
       "name": "Jennifer Lawrence"
     },
     {
@@ -77,7 +77,7 @@
         "name": "Peeta Mellark",
         "imageUrl": ""
       },
-      "actorId": "1d56e82b-951f-4350-acb3-dca0d17311b1",
+      "actorId": "e87403fc0ddcab36a8107ef0",
       "name": "Josh Hutcherson"
     },
     {
@@ -85,7 +85,7 @@
         "name": "Gale Hawthorne",
         "imageUrl": ""
       },
-      "actorId": "81b174dd-c5ab-426e-83b8-d5ba3b75881e",
+      "actorId": "f1235dcc20310d42acc94ada",
       "name": "Liam Hemsworth"
     },
     {
@@ -93,7 +93,7 @@
         "name": "Haymitch Abernathy",
         "imageUrl": ""
       },
-      "actorId": "29fcbe6e-884b-4b15-894b-1bb691c26c36",
+      "actorId": "024affbe7a45ee9fc554bf76",
       "name": "Woody Harrelson"
     },
     {
@@ -101,7 +101,7 @@
         "name": "Effie Trinket",
         "imageUrl": ""
       },
-      "actorId": "0731af77-ccc4-4542-b7b8-063a23dfc03e",
+      "actorId": "1a8c1ba8704e691a5c41e81b",
       "name": "Elizabeth Banks"
     },
     {
@@ -109,7 +109,7 @@
         "name": "President Coriolanus Snow",
         "imageUrl": ""
       },
-      "actorId": "415a20c6-1d1f-4ede-b4d9-5b52bb3d6156",
+      "actorId": "caed9d8a8188d066bfcfcfa8",
       "name": "Donald Sutherland"
     }
   ],
@@ -128,11 +128,11 @@
         },
         {
           "nominationId": "d974522c-228d-4bd2-9c6f-db86d4c4acc2",
-          "nominee": "1d56e82b-951f-4350-acb3-dca0d17311b1"
+          "actorId": "e87403fc0ddcab36a8107ef0"
         },
         {
           "nominationId": "92dcf3b9-9639-4482-bc85-5ad7895b7b5b",
-          "nominee": "29b99567-4a10-4246-9bb2-26b55a9c1e63"
+          "actorId": "c99e4f6dc0695561848dc5be"
         }
       ]
     }

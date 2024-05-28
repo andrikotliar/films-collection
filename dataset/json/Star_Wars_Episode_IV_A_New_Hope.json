@@ -64,7 +64,7 @@
         "name": "Luke Skywalker",
         "imageUrl": ""
       },
-      "actorId": "4ff433ee-f363-4b38-8332-62b5ffece7dd",
+      "actorId": "ce132ddc9f8b5434251efcdb",
       "name": "Mark Hamill"
     },
     {
@@ -72,7 +72,7 @@
         "name": "Han Solo",
         "imageUrl": ""
       },
-      "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80",
+      "actorId": "90204450e3ebdb007d478280",
       "name": "Harrison Ford"
     },
     {
@@ -80,7 +80,7 @@
         "name": "Leia Organa",
         "imageUrl": ""
       },
-      "actorId": "3b974652-594d-4835-b73b-a497a2c849f9",
+      "actorId": "7d2b5a0e06b8a95e8c3f208f",
       "name": "Carrie Fisher"
     },
     {
@@ -88,7 +88,7 @@
         "name": "Moff Tarkin",
         "imageUrl": ""
       },
-      "actorId": "d3493fa5-4de8-40fe-9d29-92cf16f7321c",
+      "actorId": "5e72fa7016750d28c79b5339",
       "name": "Peter Cushing"
     },
     {
@@ -96,7 +96,7 @@
         "name": "Ben Obi-Wan Kenobi",
         "imageUrl": ""
       },
-      "actorId": "b6c0c5c7-7382-4b16-9ea9-8aff432e4622",
+      "actorId": "3a3a66696ed1793937e5f75b",
       "name": "Alec Guinness"
     },
     {
@@ -104,7 +104,7 @@
         "name": "C-3PO",
         "imageUrl": ""
       },
-      "actorId": "ee52d40c-12c0-417d-a413-491b049e76c3",
+      "actorId": "8495e822d070b57837e0bf6e",
       "name": "Anthony Daniels"
     },
     {
@@ -112,7 +112,7 @@
         "name": "R2-D2",
         "imageUrl": ""
       },
-      "actorId": "373e6326-e3e5-4084-86cf-b2eb743441e0",
+      "actorId": "f9b0821669e9ab485f13f6d1",
       "name": "Kenny Baker"
     },
     {
@@ -120,7 +120,7 @@
         "name": "Chewbacca",
         "imageUrl": ""
       },
-      "actorId": "b8f8ccea-b603-4414-8cf3-0d64cea77c19",
+      "actorId": "25d91c81e9e6d9044c52fa9b",
       "name": "Peter Mayhew"
     },
     {
@@ -128,7 +128,7 @@
         "name": "Darth Vader",
         "imageUrl": ""
       },
-      "actorId": "4e9f83a6-617f-441f-b2a8-d030470d53a1",
+      "actorId": "3dcb844bcfc2544762ec44c0",
       "name": "David Prowse"
     }
   ],
@@ -187,8 +187,8 @@
         },
         {
           "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
-          "nominee": "d3493fa5-4de8-40fe-9d29-92cf16f7321c",
-          "comment": "as Moff Tarkin"
+          "comment": "as Moff Tarkin",
+          "actorId": "5e72fa7016750d28c79b5339"
         },
         {
           "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"

@@ -74,7 +74,7 @@
         "name": "Gerry Lane",
         "imageUrl": ""
       },
-      "actorId": "4d283681-5033-4240-a844-289f0fc4ab52",
+      "actorId": "59689e0c8b7cf79f98fb2395",
       "name": "Brad Pitt"
     },
     {
@@ -82,7 +82,7 @@
         "name": "Karin Lane",
         "imageUrl": ""
       },
-      "actorId": "8f5a8c1a-d79b-48bf-852c-0fbe9f83b72a",
+      "actorId": "d1b15d6a0de5023428bcca5e",
       "name": "Mireille Enos"
     },
     {
@@ -90,7 +90,7 @@
         "name": "Segen",
         "imageUrl": ""
       },
-      "actorId": "d29a0b08-7442-4a32-a7ba-bb3c9ed0ba0b",
+      "actorId": "fb3bf0f7826e5270cea890a9",
       "name": "Daniella Kertesz"
     },
     {
@@ -98,7 +98,7 @@
         "name": "Captain Speke",
         "imageUrl": ""
       },
-      "actorId": "f2da2980-78fb-46b3-a149-13dadb4637b9",
+      "actorId": "5bbe4522188dfae241a49323",
       "name": "James Badge Dale"
     },
     {
@@ -106,7 +106,7 @@
         "name": "Jurgen Warmbrunn",
         "imageUrl": ""
       },
-      "actorId": "a080b48b-1838-45bd-be09-e597b55dd762",
+      "actorId": "de6dd183d81d208a02b16123",
       "name": "Ludi Boeken"
     }
   ],
@@ -130,7 +130,7 @@
       "nominations": [
         {
           "nominationId": "197add55-ef2d-484e-b186-96ceeaccb9c2",
-          "nominee": "4d283681-5033-4240-a844-289f0fc4ab52"
+          "actorId": "59689e0c8b7cf79f98fb2395"
         }
       ]
     }

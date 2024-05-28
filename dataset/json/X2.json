@@ -73,7 +73,7 @@
         "name": "Professor Charles Xavier",
         "imageUrl": ""
       },
-      "actorId": "76c48e8a-834b-4683-a406-f2b72f99a39b",
+      "actorId": "a1b52bbc28ac6c198e877b39",
       "name": "Patrick Stewart"
     },
     {
@@ -81,7 +81,7 @@
         "name": "Logan / Wolverine",
         "imageUrl": ""
       },
-      "actorId": "3e2db4d6-df90-4736-9425-c1fd062d8868",
+      "actorId": "544abb6ffddc8ddf4056b862",
       "name": "Hugh Jackman"
     },
     {
@@ -89,7 +89,7 @@
         "name": "Eric Lehnsherr / Magneto",
         "imageUrl": ""
       },
-      "actorId": "18b67364-14a8-461a-bf48-a12c4741d52f",
+      "actorId": "aa9b2474d8c4c51e34160de8",
       "name": "Ian McKellen"
     },
     {
@@ -97,7 +97,7 @@
         "name": "Ororo Munroe / Storm",
         "imageUrl": ""
       },
-      "actorId": "4551e8d8-1551-4a8e-926a-6b767938bdda",
+      "actorId": "bb3c268d0e1fceec2b8b8d58",
       "name": "Halle Berry"
     },
     {
@@ -105,7 +105,7 @@
         "name": "Jean Grey",
         "imageUrl": ""
       },
-      "actorId": "8c9ab14e-14f3-45bc-ac3f-6305a8d7aa11",
+      "actorId": "d5fc3f286280bd87817fbca7",
       "name": "Famke Janssen"
     },
     {
@@ -113,7 +113,7 @@
         "name": "Scott Summers / Cyclops",
         "imageUrl": ""
       },
-      "actorId": "33667252-70d3-4c36-a89d-a0fd68e7b131",
+      "actorId": "525beb4c90894e34b294cef6",
       "name": "James Marsden"
     },
     {
@@ -121,7 +121,7 @@
         "name": "Rogue",
         "imageUrl": ""
       },
-      "actorId": "0acad1f8-e388-42ee-a0bc-c8e1a5b335a0",
+      "actorId": "b3406982f9ef021d2d13e050",
       "name": "Anna Paquin"
     },
     {
@@ -129,7 +129,7 @@
         "name": "Raven Darkholme / Mystique",
         "imageUrl": ""
       },
-      "actorId": "4533b45c-3d80-475c-8254-b13660e2aa3e",
+      "actorId": "d3d49fa0c570c7084aace0d7",
       "name": "Rebecca Romijn"
     },
     {
@@ -137,7 +137,7 @@
         "name": "William Stryker",
         "imageUrl": ""
       },
-      "actorId": "aa35a63b-6ef6-40c4-aea9-d6878498a8d9",
+      "actorId": "6dd09effc1e0efff7f5bce67",
       "name": "Brian Cox"
     },
     {
@@ -145,7 +145,7 @@
         "name": "Kurt Wagner / Nightcrawler",
         "imageUrl": ""
       },
-      "actorId": "4047438d-dde5-4cda-b6c3-bdb03310f9c9",
+      "actorId": "f04283af69e0fa7ac78ac144",
       "name": "Alan Cumming"
     },
     {
@@ -153,7 +153,7 @@
         "name": "John Allerdyce / Pyro",
         "imageUrl": ""
       },
-      "actorId": "533d06f4-eb87-442b-bebb-56259ed0d876",
+      "actorId": "9e2681878ec550ab367669b9",
       "name": "Aaron Stanford"
     },
     {
@@ -161,7 +161,7 @@
         "name": "Bobby Drake / Ice Man",
         "imageUrl": ""
       },
-      "actorId": "65899214-7886-452c-b7c9-721e5ba24e8f",
+      "actorId": "f2089daf6d891ecc5cc339b5",
       "name": "Shawn Ashmore"
     }
   ],
@@ -185,7 +185,7 @@
       "nominations": [
         {
           "nominationId": "85c641a4-a6dd-4300-a1d3-9e3fd250c1eb",
-          "nominee": "65899214-7886-452c-b7c9-721e5ba24e8f"
+          "actorId": "f2089daf6d891ecc5cc339b5"
         }
       ]
     }
