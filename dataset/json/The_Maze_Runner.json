@@ -130,18 +130,18 @@
   "budget": 34000000,
   "awards": [
     {
-      "awardId": "6a2f1cda-5442-49d0-969c-ddb1a22a0e03",
+      "awardId": "539b7c0eaba8eec432e9e48e",
       "nominations": [
         {
-          "nominationId": "939c9889-253e-4f2d-a2cd-13f2aba6da0f",
+          "nominationId": "4afcea49d2c2e8ceeb6a255d",
           "actorId": "8e204b8e5e38fbae1fe008a4"
         },
         {
-          "nominationId": "6f842add-0dec-488d-9a04-93e78aaddcc3",
+          "nominationId": "9eafe48caab08956175c83a9",
           "comment": "Dylan O'Brien and Will Poulter"
         },
         {
-          "nominationId": "9c04a0b5-a613-49ec-be5c-e6290b90911e",
+          "nominationId": "56be8a980921154911b256df",
           "comment": "As Thomas",
           "actorId": "8e204b8e5e38fbae1fe008a4"
         }
