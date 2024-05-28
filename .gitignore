@@ -23,8 +23,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# Local node data
-
-utils/modifier.js
-utils/get-data.js

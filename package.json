@@ -3,30 +3,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "generate:db": "node --no-warnings ./utils/generate-db",
-    "dev": "npm run generate:db && vite",
-    "build": "npm run generate:db && tsc && vite build",
-    "preview": "vite preview",
-    "prettier": "prettier ./src/**/*.{tsx,ts} --write",
-    "update:bulk": "node --no-warnings ./utils/bulk-update write"
-  },
-  "dependencies": {
-    "axios": "^1.6.8",
-    "classnames": "^2.5.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-hook-form": "^7.51.4",
-    "react-router-dom": "^6.23.1",
-    "vite-plugin-svgr": "^4.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20.12.12",
-    "@types/react": "^18.3.2",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^2.2.0",
-    "typescript": "^5.4.5",
-    "vite": "^3.2.10",
-    "vite-tsconfig-paths": "^4.3.2"
+    "install:client": "cd ./client && pnpm install",
+    "install:server": "cd ./server && pnpm install",
+    "dev:client": "cd ./client && pnpm dev",
+    "dev:server": "cd ./server && pnpm dev",
+    "build:client": "cd ./client && pnpm build",
+    "build:server": "cd ./server && pnpm build",
+    "build": "pnpm build:server && pnpm build:client"
   },
   "author": "Andrii Kotliar",
   "repository": {
