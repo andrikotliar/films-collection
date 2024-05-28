@@ -294,37 +294,37 @@
   ],
   "awards": [
     {
-      "awardId": "bee25875-f12e-4dfe-9fc5-f25cdb5d836d",
+      "awardId": "1a2c1d3cd91f28f4a9a006c0",
       "nominations": [
         {
-          "nominationId": "90dc0862-e778-4aef-9a86-3adbd717291e"
+          "nominationId": "7939ed66dc64287e900e1e9b"
         }
       ]
     },
     {
-      "awardId": "c4127f39-85a6-440c-bdcc-8742beb6e2f7",
+      "awardId": "ec5ae1c2e4971f204bb68398",
       "nominations": [
         {
-          "nominationId": "c8f59cea-39f8-4d08-86fb-b2ae18175c3b"
+          "nominationId": "ad93ae19280ad3214f292797"
         },
         {
-          "nominationId": "fbe7cd6e-c83f-4c33-b80f-d7ad0653c339",
+          "nominationId": "4e2ee885e7cf3e5f4d542b74",
           "comment": "Joaquim Dos Santos. For episode \"Sozin's Comet: Part 3 - Into the Inferno\" (season 3, episode 20)"
         },
         {
-          "nominationId": "2aac359f-94d4-46aa-9695-6d69a80b460e",
+          "nominationId": "9b1f0211d22f7acb70e70ab7",
           "comment": "Jae-Myung Yoo. For episode \"The Blind Bandit\" (season 2 episode 6)"
         },
         {
-          "nominationId": "a1cc48e6-5d13-447e-b744-ac5b1e2ac47a",
+          "nominationId": "062ab38a1eebda0a6523f479",
           "comment": "Giancarlo Volpe. For episode \"The Drill\" (season 2 episode 13)"
         },
         {
-          "nominationId": "3f4b2fea-01a1-45a8-863a-bb1edf801edb",
+          "nominationId": "69f15e4b63396d57846793ca",
           "comment": "Lauren MacMullan. For episode \"The Deserter\" (season 1 episode 16)"
         },
         {
-          "nominationId": "2fcb9191-7cae-43bd-ba04-76d0df98f953"
+          "nominationId": "f14fd7b05410175b6a6fcfc2"
         }
       ]
     }
