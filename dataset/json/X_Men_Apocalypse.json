@@ -67,7 +67,7 @@
         "name": "Professor Charles Xavier",
         "imageUrl": ""
       },
-      "actorId": "8f4897bf-8957-47f7-9b1c-fe4616205de6",
+      "actorId": "1fbb6ff101ef506a0bf61497",
       "name": "James McAvoy"
     },
     {
@@ -75,7 +75,7 @@
         "name": "Erik Lehnsherr / Magneto",
         "imageUrl": ""
       },
-      "actorId": "5e9cb45b-f3f1-435b-9a3d-d0b2b3963899",
+      "actorId": "bec6ffd8479a9c7a4c2f3e56",
       "name": "Michael Fassbender"
     },
     {
@@ -83,7 +83,7 @@
         "name": "Raven / Mystique",
         "imageUrl": ""
       },
-      "actorId": "29b99567-4a10-4246-9bb2-26b55a9c1e63",
+      "actorId": "c99e4f6dc0695561848dc5be",
       "name": "Jennifer Lawrence"
     },
     {
@@ -91,7 +91,7 @@
         "name": "Hank McCoy / Beast",
         "imageUrl": ""
       },
-      "actorId": "e71b81b3-8c4f-447d-97a8-56d5a976750d",
+      "actorId": "f5742b02c88fb0465409276f",
       "name": "Nicholas Hoult"
     },
     {
@@ -99,7 +99,7 @@
         "name": "En Sabah Nur / Apocalypse",
         "imageUrl": ""
       },
-      "actorId": "6322247a-311c-414e-a2ce-e5f658811569",
+      "actorId": "8b0c59295bf19f18ccdebced",
       "name": "Oscar Isaac"
     },
     {
@@ -107,7 +107,7 @@
         "name": "Moira Mactaggert",
         "imageUrl": ""
       },
-      "actorId": "d13324bf-abf5-4e5c-85f0-b9f99e6127d5",
+      "actorId": "4672780c056f845c33a4110e",
       "name": "Rose Byrne"
     },
     {
@@ -115,7 +115,7 @@
         "name": "Peter Maximoff / Quicksilver",
         "imageUrl": ""
       },
-      "actorId": "f6b8c58c-dcea-4558-bf16-7eebf6146faf",
+      "actorId": "22c5f4431c465fad5fb3b185",
       "name": "Evan Peters"
     },
     {
@@ -123,7 +123,7 @@
         "name": "Col. William Stryker",
         "imageUrl": ""
       },
-      "actorId": "75efe03b-52d1-4a7d-ab0d-56c71daa7c02",
+      "actorId": "30c4d313530be2273fedd1dc",
       "name": "Josh Helman"
     },
     {
@@ -131,7 +131,7 @@
         "name": "Jean Grey",
         "imageUrl": ""
       },
-      "actorId": "612f44c9-8b67-47b0-9faf-e2df202c7842",
+      "actorId": "feba8bc96afaa9b4bd63c2b5",
       "name": "Sophie Turner"
     },
     {
@@ -139,7 +139,7 @@
         "name": "Scott Summers / Cyclops",
         "imageUrl": ""
       },
-      "actorId": "8ed4060f-04cd-4a2f-8006-6198159b22d0",
+      "actorId": "7fffb2c64199b3d7572f0b3c",
       "name": "Tye Sheridan"
     },
     {
@@ -147,7 +147,7 @@
         "name": "Alex Summers / Havok",
         "imageUrl": ""
       },
-      "actorId": "273890bf-eac3-4493-a7e6-4db9ebab017f",
+      "actorId": "6b14965495f175568fb12f8f",
       "name": "Lucas Till"
     },
     {
@@ -155,7 +155,7 @@
         "name": "Kurt Wagner / Nightcrawler",
         "imageUrl": ""
       },
-      "actorId": "852a50e9-5001-4823-a658-384d34594f37",
+      "actorId": "e7e7790e754b6bc047afa3ad",
       "name": "Kodi Smit-McPhee"
     }
   ],

@@ -10,7 +10,7 @@ const updateDatasetFiles = async () => {
 
     const { film: modifiedData } = filmModifier(data);
 
-    await writeData(fileName, modifiedData, 'expanded');
+    await writeData(`${DATASET_FOLDER}/${fileName}`, modifiedData, 'expanded');
   }
 };
 

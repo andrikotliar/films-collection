@@ -67,7 +67,7 @@
         "name": "Luke Skywalker",
         "imageUrl": ""
       },
-      "actorId": "4ff433ee-f363-4b38-8332-62b5ffece7dd",
+      "actorId": "ce132ddc9f8b5434251efcdb",
       "name": "Mark Hamill"
     },
     {
@@ -75,7 +75,7 @@
         "name": "Han Solo",
         "imageUrl": ""
       },
-      "actorId": "cb7f43c6-0555-423c-8baa-9abdd084ab80",
+      "actorId": "90204450e3ebdb007d478280",
       "name": "Harrison Ford"
     },
     {
@@ -83,7 +83,7 @@
         "name": "Leia",
         "imageUrl": ""
       },
-      "actorId": "3b974652-594d-4835-b73b-a497a2c849f9",
+      "actorId": "7d2b5a0e06b8a95e8c3f208f",
       "name": "Carrie Fisher"
     },
     {
@@ -91,7 +91,7 @@
         "name": "Lando Calrissian",
         "imageUrl": ""
       },
-      "actorId": "986b8275-a080-40bd-9ba8-afebee2973c8",
+      "actorId": "528c03b054894ba83b338296",
       "name": "Billy Dee Williams"
     },
     {
@@ -99,7 +99,7 @@
         "name": "C-3PO",
         "imageUrl": ""
       },
-      "actorId": "ee52d40c-12c0-417d-a413-491b049e76c3",
+      "actorId": "8495e822d070b57837e0bf6e",
       "name": "Anthony Daniels"
     },
     {
@@ -107,7 +107,7 @@
         "name": "Darth Vader",
         "imageUrl": ""
       },
-      "actorId": "4e9f83a6-617f-441f-b2a8-d030470d53a1",
+      "actorId": "3dcb844bcfc2544762ec44c0",
       "name": "David Prowse"
     },
     {
@@ -115,7 +115,7 @@
         "name": "Yoda",
         "imageUrl": ""
       },
-      "actorId": "11e3cf6a-7cbb-46ab-a58b-681d70c0d69c",
+      "actorId": "6fa14a3731b9660353c41487",
       "name": "Frank Oz"
     }
   ],
@@ -145,7 +145,7 @@
         },
         {
           "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
-          "nominee": "4ff433ee-f363-4b38-8332-62b5ffece7dd"
+          "actorId": "ce132ddc9f8b5434251efcdb"
         },
         {
           "nominationId": "d35f98cd-6d5a-41c8-b511-9046a59d8828"

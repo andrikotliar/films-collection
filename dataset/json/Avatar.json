@@ -67,7 +67,7 @@
         "name": "Jake Sully",
         "imageUrl": ""
       },
-      "actorId": "231acbe9-f5fd-46fb-84ad-0a0ea009f828",
+      "actorId": "ab25ed81fbee90d0a29d7c92",
       "name": "Sam Worthington"
     },
     {
@@ -75,7 +75,7 @@
         "name": "Neytiri",
         "imageUrl": ""
       },
-      "actorId": "23e53bab-62a5-43a6-99a4-f61d68612d7d",
+      "actorId": "0f44c8581608c442261413e4",
       "name": "Zoe Saldana"
     },
     {
@@ -83,7 +83,7 @@
         "name": "Grace Augustine",
         "imageUrl": ""
       },
-      "actorId": "2cf2b71a-2fe4-4ac9-a7a3-6ea1a9985770",
+      "actorId": "ca74e2b4d921daf8283f1f08",
       "name": "Sigourney Weaver"
     },
     {
@@ -91,7 +91,7 @@
         "name": "Miles Quaritch",
         "imageUrl": ""
       },
-      "actorId": "34a6cfdf-8d07-4ce7-b0fb-684b9cc105dc",
+      "actorId": "b0b4e07f3ddc197fc79b6d99",
       "name": "Stephen Lang"
     },
     {
@@ -99,7 +99,7 @@
         "name": "Trudy Chacon",
         "imageUrl": ""
       },
-      "actorId": "973356cd-2905-4327-aac6-e95b4a336869",
+      "actorId": "f19c147b933b4ed2c5574ef6",
       "name": "Michelle Rodriguez"
     },
     {
@@ -107,7 +107,7 @@
         "name": "Parker Selfridge",
         "imageUrl": ""
       },
-      "actorId": "3a868d62-fc90-46dd-97f1-2b6f59e87216",
+      "actorId": "71a9d3757a085d345032d89e",
       "name": "Giovanni Ribisi"
     },
     {
@@ -115,7 +115,7 @@
         "name": "Norm Spellman",
         "imageUrl": ""
       },
-      "actorId": "310ca9d3-c632-4a93-89f2-f7a539cad1bb",
+      "actorId": "cc1bd413915afb8a696bfff3",
       "name": "Joel David Moore"
     },
     {
@@ -123,7 +123,7 @@
         "name": "Eytukan",
         "imageUrl": ""
       },
-      "actorId": "f116ed0c-1afe-47b6-9fcc-dba0f2b13968",
+      "actorId": "eb10eabec8f10e75bd00fb81",
       "name": "Wes Studi"
     },
     {
@@ -131,7 +131,7 @@
         "name": "Tsu'tey",
         "imageUrl": ""
       },
-      "actorId": "600178b8-cd25-49fe-8270-07fa8496d076",
+      "actorId": "3b762e0e7c6cf942574547b6",
       "name": "Laz Alonso"
     }
   ],
@@ -183,19 +183,19 @@
         },
         {
           "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
-          "nominee": "231acbe9-f5fd-46fb-84ad-0a0ea009f828"
+          "actorId": "ab25ed81fbee90d0a29d7c92"
         },
         {
           "nominationId": "66954688-228a-4288-b89a-af7fb4b3f890",
-          "nominee": "23e53bab-62a5-43a6-99a4-f61d68612d7d"
+          "actorId": "0f44c8581608c442261413e4"
         },
         {
           "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
-          "nominee": "34a6cfdf-8d07-4ce7-b0fb-684b9cc105dc"
+          "actorId": "b0b4e07f3ddc197fc79b6d99"
         },
         {
           "nominationId": "fe65a215-a19f-4382-a43e-c1dd27f8f27e",
-          "nominee": "2cf2b71a-2fe4-4ac9-a7a3-6ea1a9985770"
+          "actorId": "ca74e2b4d921daf8283f1f08"
         },
         {
           "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"

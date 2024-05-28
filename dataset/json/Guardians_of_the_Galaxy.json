@@ -67,7 +67,7 @@
         "name": "Peter Quill / Star-Lord",
         "imageUrl": ""
       },
-      "actorId": "d37a1702-6d76-425e-a1ac-940961feb029",
+      "actorId": "81002d63c8ad158916752ee2",
       "name": "Chris Pratt"
     },
     {
@@ -75,7 +75,7 @@
         "name": "Gamora",
         "imageUrl": ""
       },
-      "actorId": "23e53bab-62a5-43a6-99a4-f61d68612d7d",
+      "actorId": "0f44c8581608c442261413e4",
       "name": "Zoe Saldana"
     },
     {
@@ -83,7 +83,7 @@
         "name": "Drax",
         "imageUrl": ""
       },
-      "actorId": "991ea0a4-315d-42f4-8960-4b0c64be1ebd",
+      "actorId": "6e7815767f3afa70c3dc69c5",
       "name": "Dave Bautista"
     },
     {
@@ -91,7 +91,7 @@
         "name": "Groot",
         "imageUrl": ""
       },
-      "actorId": "81bac581-4158-4bcb-9920-60fd3a93bd6b",
+      "actorId": "8acb4ceb24e197fffd95c777",
       "name": "Vin Diesel"
     },
     {
@@ -99,7 +99,7 @@
         "name": "Rocket",
         "imageUrl": ""
       },
-      "actorId": "41614959-9380-45b5-98b7-bad8ea79da1d",
+      "actorId": "dc4912e5f14e4bfea9c78218",
       "name": "Bradley Cooper"
     },
     {
@@ -107,7 +107,7 @@
         "name": "Ronan",
         "imageUrl": ""
       },
-      "actorId": "33d9cb34-b243-4115-8fc3-4e073d89206a",
+      "actorId": "5bee10a2e1b3001d59166ccd",
       "name": "Lee Pace"
     },
     {
@@ -115,7 +115,7 @@
         "name": "Yondu Udonta",
         "imageUrl": ""
       },
-      "actorId": "49943e49-03fd-41fd-99ae-7b37bb231079",
+      "actorId": "b99fd4cb12dd52764f91df15",
       "name": "Michael Rooker"
     },
     {
@@ -123,7 +123,7 @@
         "name": "Nebula",
         "imageUrl": ""
       },
-      "actorId": "0e1ceaa6-d248-427b-b2bf-89480f17a7c3",
+      "actorId": "7b67d3adc189860cca3bbf5f",
       "name": "Karen Gillan"
     },
     {
@@ -131,7 +131,7 @@
         "name": "Korath",
         "imageUrl": ""
       },
-      "actorId": "44677a98-c6e2-43c4-b7e2-3fe0a7f05703",
+      "actorId": "bdb2e64bab1a24a00031585c",
       "name": "Djimon Hounsou"
     },
     {
@@ -139,7 +139,7 @@
         "name": "Corpsman Dey",
         "imageUrl": ""
       },
-      "actorId": "afd07ed4-7fcb-4a43-b45e-34d6f5f2a7ca",
+      "actorId": "2e2c0e0194f9bbcd70ec70b3",
       "name": "John C. Reilly"
     },
     {
@@ -147,7 +147,7 @@
         "name": "Nova Prime",
         "imageUrl": ""
       },
-      "actorId": "5b7f76d5-8799-49fa-879d-ceddf6548e3c",
+      "actorId": "f48cb741c9a839e95ca035b0",
       "name": "Glenn Close"
     },
     {
@@ -155,7 +155,7 @@
         "name": "The Collector",
         "imageUrl": ""
       },
-      "actorId": "4fa32a1f-d2de-4d44-801f-2fcfb1ba6bde",
+      "actorId": "a2453026851bdfa9828b4891",
       "name": "Benicio Del Toro"
     }
   ],
@@ -171,7 +171,7 @@
       "nominations": [
         {
           "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
-          "nominee": "d37a1702-6d76-425e-a1ac-940961feb029"
+          "actorId": "81002d63c8ad158916752ee2"
         },
         {
           "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"

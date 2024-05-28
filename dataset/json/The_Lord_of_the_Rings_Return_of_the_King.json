@@ -79,7 +79,7 @@
         "name": "Frodo Baggins",
         "imageUrl": ""
       },
-      "actorId": "5e154ae5-94f0-4d0e-9dfc-641120e4a219",
+      "actorId": "afed96df0db76b317cb36711",
       "name": "Elijah Wood"
     },
     {
@@ -87,7 +87,7 @@
         "name": "Gandalf",
         "imageUrl": ""
       },
-      "actorId": "18b67364-14a8-461a-bf48-a12c4741d52f",
+      "actorId": "aa9b2474d8c4c51e34160de8",
       "name": "Ian McKellen"
     },
     {
@@ -95,7 +95,7 @@
         "name": "Samwise Gamgee",
         "imageUrl": ""
       },
-      "actorId": "9e55ad2e-faa1-4895-b232-d606d29438d7",
+      "actorId": "93637b8d05eb8514a37ff349",
       "name": "Sean Astin"
     },
     {
@@ -103,7 +103,7 @@
         "name": "Aragorn",
         "imageUrl": ""
       },
-      "actorId": "1806b00d-b0f7-4338-a721-10d3ce7c3586",
+      "actorId": "e1ff919254c44052867479fb",
       "name": "Viggo Mortensen"
     },
     {
@@ -111,7 +111,7 @@
         "name": "Gimli",
         "imageUrl": ""
       },
-      "actorId": "cacd3465-d009-4fea-8c86-4c4bc266b6e5",
+      "actorId": "2555ed16eef45d9015e8aa02",
       "name": "John Rhys-Davies"
     },
     {
@@ -119,7 +119,7 @@
         "name": "Legolas",
         "imageUrl": ""
       },
-      "actorId": "9477d178-9893-44f0-9553-10119753c95f",
+      "actorId": "450fa3d27820892d0f5afa0c",
       "name": "Orlando Bloom"
     },
     {
@@ -127,7 +127,7 @@
         "name": "Galadriel",
         "imageUrl": ""
       },
-      "actorId": "d7f81c80-afaa-4b4e-a3fa-49b85238c529",
+      "actorId": "7a354da5768fef2be29583f0",
       "name": "Cate Blanchett"
     },
     {
@@ -135,7 +135,7 @@
         "name": "Elrond",
         "imageUrl": ""
       },
-      "actorId": "eed09e7b-d753-426c-8600-e8486c8b2139",
+      "actorId": "9d72ccad0a0c60872b91d2d3",
       "name": "Hugo Weaving"
     },
     {
@@ -143,7 +143,7 @@
         "name": "Gollum",
         "imageUrl": ""
       },
-      "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135",
+      "actorId": "e5253cdc8c1fb87953720d64",
       "name": "Andy Serkis"
     }
   ],
@@ -241,11 +241,11 @@
         },
         {
           "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
-          "nominee": "5e154ae5-94f0-4d0e-9dfc-641120e4a219"
+          "actorId": "afed96df0db76b317cb36711"
         },
         {
           "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
-          "nominee": "9e55ad2e-faa1-4895-b232-d606d29438d7"
+          "actorId": "93637b8d05eb8514a37ff349"
         },
         {
           "nominationId": "3675ad3d-4694-458d-a396-1e49d7fbc9be"

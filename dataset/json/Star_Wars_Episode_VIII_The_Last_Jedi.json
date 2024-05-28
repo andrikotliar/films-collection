@@ -67,7 +67,7 @@
         "name": "Rey",
         "imageUrl": ""
       },
-      "actorId": "d38d79f6-63ce-4543-a2b4-b820fc7fbb60",
+      "actorId": "667605ab533f2f147e39370a",
       "name": "Daisy Ridley"
     },
     {
@@ -75,7 +75,7 @@
         "name": "Kylo Ren",
         "imageUrl": ""
       },
-      "actorId": "0aab5e43-79d6-4ffd-a921-bfd17a551394",
+      "actorId": "1b0689c35cd77c23205fd4a8",
       "name": "Adam Driver"
     },
     {
@@ -83,7 +83,7 @@
         "name": "Finn",
         "imageUrl": ""
       },
-      "actorId": "3f606ca0-e479-4cdb-9f7e-ed72d980f6f4",
+      "actorId": "ccf4b948c4953a8970e922d4",
       "name": "John Boyega"
     },
     {
@@ -91,7 +91,7 @@
         "name": "Luke Skywalker",
         "imageUrl": ""
       },
-      "actorId": "4ff433ee-f363-4b38-8332-62b5ffece7dd",
+      "actorId": "ce132ddc9f8b5434251efcdb",
       "name": "Mark Hamill"
     },
     {
@@ -99,7 +99,7 @@
         "name": "Leia",
         "imageUrl": ""
       },
-      "actorId": "3b974652-594d-4835-b73b-a497a2c849f9",
+      "actorId": "7d2b5a0e06b8a95e8c3f208f",
       "name": "Carrie Fisher"
     },
     {
@@ -107,7 +107,7 @@
         "name": "Poe Dameron",
         "imageUrl": ""
       },
-      "actorId": "6322247a-311c-414e-a2ce-e5f658811569",
+      "actorId": "8b0c59295bf19f18ccdebced",
       "name": "Oscar Isaac"
     },
     {
@@ -115,7 +115,7 @@
         "name": "Snoke",
         "imageUrl": ""
       },
-      "actorId": "06360bc2-eb75-4f37-ab81-cde1933e7135",
+      "actorId": "e5253cdc8c1fb87953720d64",
       "name": "Andy Serkis"
     },
     {
@@ -123,7 +123,7 @@
         "name": "Maz Kanata",
         "imageUrl": ""
       },
-      "actorId": "1c546317-ff4b-42d3-893b-7d59de3a35fc",
+      "actorId": "4df990e459cdd192712d9a9f",
       "name": "Lupita Nyung'o"
     },
     {
@@ -131,7 +131,7 @@
         "name": "Phasma",
         "imageUrl": ""
       },
-      "actorId": "a64e4407-72e4-44c3-889b-127f6750765a",
+      "actorId": "a834eb244fbdfc92bd0e5b4a",
       "name": "Gwendoline Christie"
     }
   ],
@@ -150,7 +150,7 @@
         },
         {
           "nominationId": "bf2b54f8-c631-484c-b4a5-3f784f2f7e45",
-          "nominee": "4ff433ee-f363-4b38-8332-62b5ffece7dd"
+          "actorId": "ce132ddc9f8b5434251efcdb"
         },
         {
           "nominationId": "4776a35c-732d-4ca9-a4ff-2d3312cf353f"

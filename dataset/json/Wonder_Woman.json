@@ -74,7 +74,7 @@
         "name": "Diana",
         "imageUrl": ""
       },
-      "actorId": "cac99b67-2448-4b4f-ab99-e88b4e516940",
+      "actorId": "689592fad487486ce5468f9f",
       "name": "Gal Gadot"
     },
     {
@@ -82,7 +82,7 @@
         "name": "Steve Trevor",
         "imageUrl": ""
       },
-      "actorId": "586e7657-8411-4540-a748-26e815d3fb92",
+      "actorId": "3acb4259a5ddd7988015fa82",
       "name": "Chris Pine"
     },
     {
@@ -90,7 +90,7 @@
         "name": "Hippolyta",
         "imageUrl": ""
       },
-      "actorId": "71f09ce7-e350-4148-a945-fbb6b96c786f",
+      "actorId": "4d5652537ad12d0b2754f438",
       "name": "Connie Nielsen"
     },
     {
@@ -98,7 +98,7 @@
         "name": "Antiope",
         "imageUrl": ""
       },
-      "actorId": "976753fb-6458-4f7a-9b23-ae4559873b72",
+      "actorId": "dfa09aeffb608e0483017ef2",
       "name": "Robin Wright"
     },
     {
@@ -106,7 +106,7 @@
         "name": "Ludendorff",
         "imageUrl": ""
       },
-      "actorId": "23d4382f-11e9-4c09-8d87-ea2599774bde",
+      "actorId": "9bfda7c213e843540df28a8e",
       "name": "Danny Huston"
     },
     {
@@ -114,7 +114,7 @@
         "name": "Sir Patrick",
         "imageUrl": ""
       },
-      "actorId": "663d908e-aa52-49f8-9578-075d8fa84478",
+      "actorId": "8220d1e507128ef20527db35",
       "name": "David Thewlis"
     },
     {
@@ -122,7 +122,7 @@
         "name": "Sameer",
         "imageUrl": ""
       },
-      "actorId": "4ccc3ca5-8e4c-482c-9317-64d5cd1bed60",
+      "actorId": "822e6b06d8f124fb8ea82fae",
       "name": "Sa'd Taghmaoui"
     },
     {
@@ -130,7 +130,7 @@
         "name": "Charlie",
         "imageUrl": ""
       },
-      "actorId": "6598f633-3ed7-4e51-abb8-66d698a65869",
+      "actorId": "6bab49cf88fd143cc4b06c15",
       "name": "Ewen Bremner"
     }
   ],
@@ -146,7 +146,7 @@
       "nominations": [
         {
           "nominationId": "66954688-228a-4288-b89a-af7fb4b3f890",
-          "nominee": "cac99b67-2448-4b4f-ab99-e88b4e516940"
+          "actorId": "689592fad487486ce5468f9f"
         }
       ]
     },

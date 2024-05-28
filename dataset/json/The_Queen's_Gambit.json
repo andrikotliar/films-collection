@@ -74,7 +74,7 @@
         "name": "Beth Harmon",
         "imageUrl": ""
       },
-      "actorId": "0d18823d-a78f-46ea-b364-4b8450ef33bf",
+      "actorId": "651784ae83f6d35d892d41ba",
       "name": "Anya Taylor-Joy"
     },
     {
@@ -82,7 +82,7 @@
         "name": "Mr. Shaibel",
         "imageUrl": ""
       },
-      "actorId": "53210443-6b2e-436d-8bb3-6524dc5db0fb",
+      "actorId": "34ea02395e75fc50c2d5daf1",
       "name": "Bill Camp"
     },
     {
@@ -90,7 +90,7 @@
         "name": "Vasily Borgov",
         "imageUrl": ""
       },
-      "actorId": "d00a6edb-a6b9-4d81-99e9-09dc8fa16b7d",
+      "actorId": "7d2580bf0aefa3579619e188",
       "name": "Marcin Dorocinski"
     },
     {
@@ -98,7 +98,7 @@
         "name": "Alma Wheatley",
         "imageUrl": ""
       },
-      "actorId": "a715a7f8-6fef-4523-8b85-70d9b8b01632",
+      "actorId": "6614b1681ccaaeb8392bb6f1",
       "name": "Marielle Heller"
     },
     {
@@ -106,7 +106,7 @@
         "name": "Benny Watts",
         "imageUrl": ""
       },
-      "actorId": "601f50c2-ddda-4c74-bf4e-a8950ba7cd75",
+      "actorId": "4ee52e26623792a1c498ac41",
       "name": "Thomas Brodie-Sangster"
     },
     {
@@ -114,7 +114,7 @@
         "name": "Jolene",
         "imageUrl": ""
       },
-      "actorId": "9cfe14d1-abee-4898-ab58-4a46b9d5349c",
+      "actorId": "aab9a7cc78460f54f54315af",
       "name": "Moses Ingram"
     },
     {
@@ -122,7 +122,7 @@
         "name": "Harry Beltik",
         "imageUrl": ""
       },
-      "actorId": "4884ad71-87ce-473e-be4c-32e5bc2fb671",
+      "actorId": "de29e31f27895b539dc44ec3",
       "name": "Harry Melling"
     },
     {
@@ -130,7 +130,7 @@
         "name": "Young Beth Harmon",
         "imageUrl": ""
       },
-      "actorId": "4adea2ce-6b1e-40ce-83f7-1d02b376c6f3",
+      "actorId": "0374d3e1ea0c4b46638c08e0",
       "name": "Isla Johnston"
     }
   ],
@@ -148,7 +148,7 @@
         },
         {
           "nominationId": "749bb15b-c750-4ba6-ae1e-3ca8d59d38bb",
-          "nominee": "0d18823d-a78f-46ea-b364-4b8450ef33bf"
+          "actorId": "651784ae83f6d35d892d41ba"
         }
       ]
     },
@@ -160,7 +160,7 @@
         },
         {
           "nominationId": "6bd9defb-5179-43e3-be13-f02b2cb2ede0",
-          "nominee": "0d18823d-a78f-46ea-b364-4b8450ef33bf"
+          "actorId": "651784ae83f6d35d892d41ba"
         }
       ]
     }

@@ -67,7 +67,7 @@
         "name": "T-800",
         "imageUrl": ""
       },
-      "actorId": "dfb2cc61-095f-4a4c-8c60-64b1de7458a4",
+      "actorId": "8062b68b19b6dacb76d14b75",
       "name": "Arnold Schwarzenegger"
     },
     {
@@ -75,7 +75,7 @@
         "name": "John Connor",
         "imageUrl": ""
       },
-      "actorId": "87d544e4-9c3a-4357-bced-3d5a55fff331",
+      "actorId": "2d3eb4c8394623727a17483b",
       "name": "Edward Furlong"
     },
     {
@@ -83,7 +83,7 @@
         "name": "Sarah Connor",
         "imageUrl": ""
       },
-      "actorId": "5567133f-edab-4200-bb7e-cd30a409abb2",
+      "actorId": "a5fd5103183480749784143b",
       "name": "Linda Hamilton"
     },
     {
@@ -91,7 +91,7 @@
         "name": "T-1000",
         "imageUrl": ""
       },
-      "actorId": "88e2c496-53e0-4ac6-98df-7851f4b76e65",
+      "actorId": "23dfc0a82cae9f6c4281898c",
       "name": "Robert Patrick"
     },
     {
@@ -99,7 +99,7 @@
         "name": "Miles Bennett Dyson",
         "imageUrl": ""
       },
-      "actorId": "3bba759a-ae0f-46e9-92e7-0e11c3c1bacd",
+      "actorId": "7c714de673355dff119b2c86",
       "name": "Joe Morton"
     }
   ],
@@ -142,7 +142,7 @@
         },
         {
           "nominationId": "dedc1e3d-4b67-46dd-bfd5-480f7a05d7e6",
-          "nominee": "87d544e4-9c3a-4357-bced-3d5a55fff331"
+          "actorId": "2d3eb4c8394623727a17483b"
         }
       ]
     },
@@ -165,19 +165,19 @@
         },
         {
           "nominationId": "92dcf3b9-9639-4482-bc85-5ad7895b7b5b",
-          "nominee": "5567133f-edab-4200-bb7e-cd30a409abb2"
+          "actorId": "a5fd5103183480749784143b"
         },
         {
           "nominationId": "d974522c-228d-4bd2-9c6f-db86d4c4acc2",
-          "nominee": "dfb2cc61-095f-4a4c-8c60-64b1de7458a4"
+          "actorId": "8062b68b19b6dacb76d14b75"
         },
         {
           "nominationId": "72bea454-1925-495e-8b13-abd8ec41ac4b",
-          "nominee": "87d544e4-9c3a-4357-bced-3d5a55fff331"
+          "actorId": "2d3eb4c8394623727a17483b"
         },
         {
           "nominationId": "7497b93f-14ea-4b38-aeb4-c85128012c2f",
-          "nominee": "5567133f-edab-4200-bb7e-cd30a409abb2"
+          "actorId": "a5fd5103183480749784143b"
         },
         {
           "nominationId": "2f12b906-153f-4cd2-b719-e0e9d54527a0",

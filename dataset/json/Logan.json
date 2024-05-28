@@ -73,7 +73,7 @@
         "name": "Logan / X-24",
         "imageUrl": ""
       },
-      "actorId": "3e2db4d6-df90-4736-9425-c1fd062d8868",
+      "actorId": "544abb6ffddc8ddf4056b862",
       "name": "Hugh Jackman"
     },
     {
@@ -81,7 +81,7 @@
         "name": "Charles",
         "imageUrl": ""
       },
-      "actorId": "76c48e8a-834b-4683-a406-f2b72f99a39b",
+      "actorId": "a1b52bbc28ac6c198e877b39",
       "name": "Patrick Stewart"
     },
     {
@@ -89,7 +89,7 @@
         "name": "Laura",
         "imageUrl": ""
       },
-      "actorId": "41541ca6-dc66-4991-b4b4-d6ee2c0396bd",
+      "actorId": "98ed0fd5c7e89b4a0429087c",
       "name": "Dafne Keen"
     },
     {
@@ -97,7 +97,7 @@
         "name": "Pierce",
         "imageUrl": ""
       },
-      "actorId": "9a6e8f54-0a81-4b00-a1c0-70aed9470f0f",
+      "actorId": "f6e92c1e10e873fd298fffa4",
       "name": "Boyd Holbrook"
     },
     {
@@ -105,7 +105,7 @@
         "name": "Dr. Rice",
         "imageUrl": ""
       },
-      "actorId": "c87df396-657b-4c7b-9a59-63af0cac7886",
+      "actorId": "a274851913f05ad2b83c945e",
       "name": "Richard E. Grant"
     }
   ],
@@ -121,7 +121,7 @@
       "nominations": [
         {
           "nominationId": "783f1222-1b58-4ebe-af1d-4fd018778af6",
-          "nominee": "76c48e8a-834b-4683-a406-f2b72f99a39b"
+          "actorId": "a1b52bbc28ac6c198e877b39"
         }
       ]
     },
