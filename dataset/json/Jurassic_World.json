@@ -120,14 +120,6 @@
     },
     {
       "character": {
-        "name": "Lowery",
-        "imageUrl": ""
-      },
-      "actorId": "3049f5769212420bfd2ba146",
-      "name": "Jake Johnson"
-    },
-    {
-      "character": {
         "name": "Barry",
         "imageUrl": ""
       },
@@ -144,27 +136,11 @@
     },
     {
       "character": {
-        "name": "Karen",
-        "imageUrl": ""
-      },
-      "actorId": "a7cfc2b76fb5d17a3ff9227e",
-      "name": "Judy Greer"
-    },
-    {
-      "character": {
         "name": "Vivian",
         "imageUrl": ""
       },
       "actorId": "cec4fcf38d7cd17aece458f2",
       "name": "Lauren Lapkus"
-    },
-    {
-      "character": {
-        "name": "Hamada",
-        "imageUrl": ""
-      },
-      "actorId": "691bd60bc65327e09cb0b781",
-      "name": "Brian Tee"
     }
   ],
   "collections": [

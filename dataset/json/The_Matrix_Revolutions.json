@@ -98,6 +98,30 @@
       },
       "actorId": "544db30160fa4bfa12603ee5",
       "name": "Jada Pinkett Smith"
+    },
+    {
+      "character": {
+        "name": "Lock",
+        "imageUrl": ""
+      },
+      "actorId": "b1094d5a4c3819d770b6cf30",
+      "name": "Harry J. Lennix"
+    },
+    {
+      "character": {
+        "name": "Link",
+        "imageUrl": ""
+      },
+      "actorId": "c56a9cf0a26401ad1c0194e8",
+      "name": "Harold Perrineau"
+    },
+    {
+      "character": {
+        "name": "Oracle",
+        "imageUrl": ""
+      },
+      "actorId": "15f466e2d733aa7909eefd90",
+      "name": "Mary Alice"
     }
   ],
   "collections": [

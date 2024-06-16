@@ -114,6 +114,22 @@
       },
       "actorId": "76050d7c37d6233c0432062f",
       "name": "Sam Troughton"
+    },
+    {
+      "character": {
+        "name": "Lyudmilla Ignatenko",
+        "imageUrl": ""
+      },
+      "actorId": "b1836ba76b680e5f338a2011",
+      "name": "Jessie Buckley"
+    },
+    {
+      "character": {
+        "name": "Vasily Ignatenko",
+        "imageUrl": ""
+      },
+      "actorId": "a34608b05c0bb3a0cce62eaf",
+      "name": "Adam Nagaitis"
     }
   ],
   "collections": [

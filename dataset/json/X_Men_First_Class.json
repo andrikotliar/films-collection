@@ -89,14 +89,6 @@
     },
     {
       "character": {
-        "name": "Young Erik",
-        "imageUrl": ""
-      },
-      "actorId": "009992db087dcf054bf76725",
-      "name": "Bill Milner"
-    },
-    {
-      "character": {
         "name": "Sebastian Shaw",
         "imageUrl": ""
       },
@@ -150,14 +142,6 @@
       },
       "actorId": "6b14965495f175568fb12f8f",
       "name": "Lucas Till"
-    },
-    {
-      "character": {
-        "name": "William Stryker",
-        "imageUrl": ""
-      },
-      "actorId": "2cc811b4e89dce206f211122",
-      "name": "Don Creech"
     }
   ],
   "collections": [

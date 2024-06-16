@@ -122,6 +122,14 @@
       },
       "actorId": "9433a6747c6cfc354fed7e65",
       "name": "Alan Rickman"
+    },
+    {
+      "character": {
+        "name": "Draco Malfoy",
+        "imageUrl": ""
+      },
+      "actorId": "aca6f583677ffb4c7f38d469",
+      "name": "Tom Felton"
     }
   ],
   "collections": [

@@ -144,30 +144,6 @@
       },
       "actorId": "5a86b2f23ea348e3a58775b6",
       "name": "Benedict Cumberbatch"
-    },
-    {
-      "character": {
-        "name": "Korg",
-        "imageUrl": ""
-      },
-      "actorId": "69e8920fd59dae4ebf93c60c",
-      "name": "Taika Waititi"
-    },
-    {
-      "character": {
-        "name": "Topaz",
-        "imageUrl": ""
-      },
-      "actorId": "91cdae26a61b1d21a9b42eac",
-      "name": "Rachel House"
-    },
-    {
-      "character": {
-        "name": "Surtur",
-        "imageUrl": ""
-      },
-      "actorId": "8e58705ae826aaa9554b17d6",
-      "name": "Clancy Brown"
     }
   ],
   "collections": [

@@ -107,6 +107,22 @@
       },
       "actorId": "89bf38a77867220d59546816",
       "name": "Jean-Christophe Bouvet"
+    },
+    {
+      "character": {
+        "name": "Petra",
+        "imageUrl": ""
+      },
+      "actorId": "69edd5228a1c567011c094fe",
+      "name": "Emma Wiklund"
+    },
+    {
+      "character": {
+        "name": "Lilly Bertineau",
+        "imageUrl": ""
+      },
+      "actorId": "6e287749f98b9217ea2ceb27",
+      "name": "Marion Cotillard"
     }
   ],
   "collections": [

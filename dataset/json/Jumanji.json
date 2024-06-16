@@ -77,11 +77,11 @@
     },
     {
       "character": {
-        "name": "Van Pelt / Sam Parrish",
+        "name": "Sarah Whittle",
         "imageUrl": ""
       },
-      "actorId": "d534ecf817056c7592bbd058",
-      "name": "Jonathan Hyde"
+      "actorId": "",
+      "name": "Bonnie Hunt"
     },
     {
       "character": {
@@ -101,35 +101,11 @@
     },
     {
       "character": {
-        "name": "Sarah Whittle",
+        "name": "Van Pelt",
         "imageUrl": ""
       },
-      "actorId": "c90c94e58f8dbde0ca35a253",
-      "name": "Bonnie Hunt"
-    },
-    {
-      "character": {
-        "name": "Nora Shepherd",
-        "imageUrl": ""
-      },
-      "actorId": "be6577687bfc2ff9b17bae81",
-      "name": "Bebe Neuwirth"
-    },
-    {
-      "character": {
-        "name": "Bentley",
-        "imageUrl": ""
-      },
-      "actorId": "85e3402c675b0458e7917b0d",
-      "name": "David Alan Grier"
-    },
-    {
-      "character": {
-        "name": "Carol Parrish",
-        "imageUrl": ""
-      },
-      "actorId": "595711382f59b56d8f35eb6f",
-      "name": "Patricia Clarkson"
+      "actorId": "d534ecf817056c7592bbd058",
+      "name": "Jonathan Hyde"
     }
   ],
   "collections": [

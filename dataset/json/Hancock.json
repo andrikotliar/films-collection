@@ -96,59 +96,11 @@
     },
     {
       "character": {
-        "name": "Aaron",
-        "imageUrl": ""
-      },
-      "actorId": "9c92499d02d0e58bb950e3d9",
-      "name": "Jae Head"
-    },
-    {
-      "character": {
-        "name": "Red",
+        "name": "Kenneth \"Red\" Parker",
         "imageUrl": ""
       },
       "actorId": "3aa02c5c103eb81507ea1152",
       "name": "Eddie Marsan"
-    },
-    {
-      "character": {
-        "name": "Man Mountain",
-        "imageUrl": ""
-      },
-      "actorId": "a135a02f08b0cf8765cd2936",
-      "name": "David Mattey"
-    },
-    {
-      "character": {
-        "name": "Matrix",
-        "imageUrl": ""
-      },
-      "actorId": "809d14709d6bcec76eae05bf",
-      "name": "Maetrix Fitten"
-    },
-    {
-      "character": {
-        "name": "Mike",
-        "imageUrl": ""
-      },
-      "actorId": "eeeffd68c7857f60ee3f094c",
-      "name": "Thomas Lennon"
-    },
-    {
-      "character": {
-        "name": "Jeremy",
-        "imageUrl": ""
-      },
-      "actorId": "b52ce25721eb9f4c0758ebd7",
-      "name": "Johnny Galecki"
-    },
-    {
-      "character": {
-        "name": "Hottie",
-        "imageUrl": ""
-      },
-      "actorId": "8bd25e17a9f9ace1def7f1b5",
-      "name": "Hayley Marie Norman"
     }
   ],
   "collections": [

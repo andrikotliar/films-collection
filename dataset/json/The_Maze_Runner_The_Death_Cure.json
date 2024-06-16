@@ -85,14 +85,6 @@
     },
     {
       "character": {
-        "name": "Harriet",
-        "imageUrl": ""
-      },
-      "actorId": "c7a61e281d1bedd029ca6dd3",
-      "name": "Nathalie Emmanuel"
-    },
-    {
-      "character": {
         "name": "Newt",
         "imageUrl": ""
       },
@@ -125,27 +117,11 @@
     },
     {
       "character": {
-        "name": "Sonya",
-        "imageUrl": ""
-      },
-      "actorId": "19db7fa84cd64f5b6e443588",
-      "name": "Katherine McNamara"
-    },
-    {
-      "character": {
         "name": "Brenda",
         "imageUrl": ""
       },
       "actorId": "faf06750d96e099e22deea05",
       "name": "Rosa Salazar"
-    },
-    {
-      "character": {
-        "name": "Lawrence",
-        "imageUrl": ""
-      },
-      "actorId": "a0b46a7f7c84ff2bc3230e07",
-      "name": "Walton Goggins"
     },
     {
       "character": {

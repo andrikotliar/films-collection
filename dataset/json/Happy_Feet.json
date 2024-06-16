@@ -114,30 +114,6 @@
       },
       "actorId": "9d72ccad0a0c60872b91d2d3",
       "name": "Hugo Weaving"
-    },
-    {
-      "character": {
-        "name": "Nestor",
-        "imageUrl": ""
-      },
-      "actorId": "56a24ac0e193c7b97e9f9198",
-      "name": "Carlos Alazraqui"
-    },
-    {
-      "character": {
-        "name": "Raul",
-        "imageUrl": ""
-      },
-      "actorId": "5fdb67a68a7fca9700d40aa7",
-      "name": "Lombardo Boyar"
-    },
-    {
-      "character": {
-        "name": "Ramon / Lovelace",
-        "imageUrl": ""
-      },
-      "actorId": "f5de152199c29694307ff207",
-      "name": "Robin Williams"
     }
   ],
   "collections": [
