@@ -93,30 +93,6 @@
       },
       "actorId": "4fda865b59819a0d26c09697",
       "name": "Rosario Dawson"
-    },
-    {
-      "character": {
-        "name": "Dewey",
-        "imageUrl": ""
-      },
-      "actorId": "1256a7de12e281b09ecc81be",
-      "name": "Ethan Suplee"
-    },
-    {
-      "character": {
-        "name": "Galvin",
-        "imageUrl": ""
-      },
-      "actorId": "3cb027ab876fdfdbc3f29fab",
-      "name": "Kevin Dunn"
-    },
-    {
-      "character": {
-        "name": "Inspector Werner",
-        "imageUrl": ""
-      },
-      "actorId": "d7951fa4d945b0b54e864f1e",
-      "name": "Kevin Corrigan"
     }
   ],
   "collections": [

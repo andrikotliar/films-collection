@@ -28,5 +28,4 @@ dist-ssr
 
 utils/modifiers.js
 utils/list.json
-utils/list.pending.json
 utils/temp-data

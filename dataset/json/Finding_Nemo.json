@@ -98,38 +98,6 @@
       },
       "actorId": "69443d6dcdd5ddbc0c51e534",
       "name": "Willem Dafoe"
-    },
-    {
-      "character": {
-        "name": "Bloat",
-        "imageUrl": ""
-      },
-      "actorId": "5a4db3cfddc3b6871d1d6d04",
-      "name": "Brad Garrett"
-    },
-    {
-      "character": {
-        "name": "Peach",
-        "imageUrl": ""
-      },
-      "actorId": "98ec4d73331cf787bbdd9e29",
-      "name": "Allison Janney"
-    },
-    {
-      "character": {
-        "name": "Gurgle",
-        "imageUrl": ""
-      },
-      "actorId": "ebe3a9ca69513baf8dc45d92",
-      "name": "Austin Pendleton"
-    },
-    {
-      "character": {
-        "name": "Bubbles",
-        "imageUrl": ""
-      },
-      "actorId": "3a91fcb3cf8f724303ce2f71",
-      "name": "Stephen Root"
     }
   ],
   "collections": [

@@ -112,14 +112,6 @@
     },
     {
       "character": {
-        "name": "Gordon Silberman",
-        "imageUrl": ""
-      },
-      "actorId": "6f523b3c7e12d389d6c3c95e",
-      "name": "Tom McCarthy"
-    },
-    {
-      "character": {
         "name": "Charlie Frost",
         "imageUrl": ""
       },
@@ -133,38 +125,6 @@
       },
       "actorId": "40e31d5ce0764fba8991ceb0",
       "name": "Danny Glover"
-    },
-    {
-      "character": {
-        "name": "Noah Curtis",
-        "imageUrl": ""
-      },
-      "actorId": "34bcb62ccf5c63306446685d",
-      "name": "Liam James"
-    },
-    {
-      "character": {
-        "name": "Lilly Curtis",
-        "imageUrl": ""
-      },
-      "actorId": "5069c586ed2fcf1f8dd4ee71",
-      "name": "Morgan Lily"
-    },
-    {
-      "character": {
-        "name": "Yuri Karpov",
-        "imageUrl": ""
-      },
-      "actorId": "d6a78b5308266699a4dfcc9f",
-      "name": "Zlatko Buric"
-    },
-    {
-      "character": {
-        "name": "Tamara",
-        "imageUrl": ""
-      },
-      "actorId": "63e6def8054688cc91d6c637",
-      "name": "Beatrice Rosen"
     }
   ],
   "collections": [

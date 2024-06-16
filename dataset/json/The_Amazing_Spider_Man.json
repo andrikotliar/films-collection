@@ -118,6 +118,22 @@
       },
       "actorId": "ceb5dcd09087654d7284d7c7",
       "name": "Sally Field"
+    },
+    {
+      "character": {
+        "name": "Richard Parker",
+        "imageUrl": ""
+      },
+      "actorId": "0d98ef8d1a55fdabad1c9b64",
+      "name": "Campbell Scott"
+    },
+    {
+      "character": {
+        "name": "Mary Parker",
+        "imageUrl": ""
+      },
+      "actorId": "63290f63f5d24c67caaca21f",
+      "name": "Embeth Davidtz"
     }
   ],
   "collections": [

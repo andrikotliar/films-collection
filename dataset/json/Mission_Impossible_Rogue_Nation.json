@@ -120,22 +120,6 @@
       },
       "actorId": "37e4ebf4fbaa8aab7d89a9c4",
       "name": "Sean Harris"
-    },
-    {
-      "character": {
-        "name": "Atlee",
-        "imageUrl": ""
-      },
-      "actorId": "0871473db212bab3a620d266",
-      "name": "Simon McBurney"
-    },
-    {
-      "character": {
-        "name": "Prime Minister",
-        "imageUrl": ""
-      },
-      "actorId": "bbaf8ea10b5f80e21292406d",
-      "name": "Tom  Hollander"
     }
   ],
   "collections": [

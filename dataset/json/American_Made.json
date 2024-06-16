@@ -93,6 +93,46 @@
       },
       "actorId": "6ad5d4c15f55fba9c91c0058",
       "name": "Sarah Wright"
+    },
+    {
+      "character": {
+        "name": "Sheriff Downing",
+        "imageUrl": ""
+      },
+      "actorId": "ef95c275705a492e63fc165b",
+      "name": "Jesse Plemons"
+    },
+    {
+      "character": {
+        "name": "JB",
+        "imageUrl": ""
+      },
+      "actorId": "555ccb293f45295069ba5e62",
+      "name": "Caleb Landry Jones"
+    },
+    {
+      "character": {
+        "name": "George W. Bush",
+        "imageUrl": ""
+      },
+      "actorId": "1cb12b05d9bf44d1131370d2",
+      "name": "Connor Trinneer"
+    },
+    {
+      "character": {
+        "name": "Pablo Escobar",
+        "imageUrl": ""
+      },
+      "actorId": "5b9102867a9e1b60a93b7c83",
+      "name": "Mauricio Mejía"
+    },
+    {
+      "character": {
+        "name": "Jorge Ochoa",
+        "imageUrl": ""
+      },
+      "actorId": "6a14af64fdb99d481493d393",
+      "name": "Alejandro Edda"
     }
   ],
   "collections": [

@@ -145,22 +145,6 @@
       },
       "actorId": "fe3a28c55f7885a6feb9f383",
       "name": "Tony Todd"
-    },
-    {
-      "character": {
-        "name": "Starscream",
-        "imageUrl": ""
-      },
-      "actorId": "7c75da9052faf46cbe5bf773",
-      "name": "Charlie Adler"
-    },
-    {
-      "character": {
-        "name": "Soundwave / Devastator",
-        "imageUrl": ""
-      },
-      "actorId": "7988aa9585789968149c1083",
-      "name": "Frank Welker"
     }
   ],
   "collections": [

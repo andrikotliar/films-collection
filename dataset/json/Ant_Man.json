@@ -115,6 +115,30 @@
       },
       "actorId": "5e3bafc74ed0a30df02c53af",
       "name": "Michael Pena"
+    },
+    {
+      "character": {
+        "name": "Sam Wilson / Falcon",
+        "imageUrl": ""
+      },
+      "actorId": "b59e04d8cace91ce7b37a878",
+      "name": "Anthony Mackie"
+    },
+    {
+      "character": {
+        "name": "Maggie Lang",
+        "imageUrl": ""
+      },
+      "actorId": "a7cfc2b76fb5d17a3ff9227e",
+      "name": "Judy Greer"
+    },
+    {
+      "character": {
+        "name": "Cassie Lang",
+        "imageUrl": ""
+      },
+      "actorId": "446bc02bc912344a78e54e2d",
+      "name": "Abby Ryder Fortson"
     }
   ],
   "collections": [

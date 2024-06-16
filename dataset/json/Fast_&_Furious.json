@@ -116,6 +116,14 @@
       },
       "actorId": "689592fad487486ce5468f9f",
       "name": "Gal Gadot"
+    },
+    {
+      "character": {
+        "name": "Han",
+        "imageUrl": ""
+      },
+      "actorId": "f64566657b4a65aaf1c8a875",
+      "name": "Sung Kang"
     }
   ],
   "collections": [

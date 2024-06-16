@@ -80,22 +80,6 @@
     },
     {
       "character": {
-        "name": "Valka ",
-        "imageUrl": ""
-      },
-      "actorId": "7a354da5768fef2be29583f0",
-      "name": "Cate Blanchett"
-    },
-    {
-      "character": {
-        "name": "Stoick ",
-        "imageUrl": ""
-      },
-      "actorId": "19691d0b10cb811590497ff2",
-      "name": "Gerard Butler"
-    },
-    {
-      "character": {
         "name": "Gobber ",
         "imageUrl": ""
       },
@@ -104,43 +88,11 @@
     },
     {
       "character": {
-        "name": "Snotlout ",
-        "imageUrl": ""
-      },
-      "actorId": "2fa3bcb3ceea55c7e211f2e7",
-      "name": "Jonah Hill"
-    },
-    {
-      "character": {
-        "name": "Fishlegs ",
-        "imageUrl": ""
-      },
-      "actorId": "10a99397a4be9fff8d032511",
-      "name": "Christopher Mintz-Plasse"
-    },
-    {
-      "character": {
-        "name": "Ruffnut ",
-        "imageUrl": ""
-      },
-      "actorId": "6a6653e7f44778448e9b8762",
-      "name": "Kristen Wiig"
-    },
-    {
-      "character": {
         "name": "Eret ",
         "imageUrl": ""
       },
       "actorId": "6aa92fa181848669babe20bb",
       "name": "Kit Harington"
-    },
-    {
-      "character": {
-        "name": "Tuffnut",
-        "imageUrl": ""
-      },
-      "actorId": "4cd4d48695e238ac71a922b9",
-      "name": "Justin Rupple"
     }
   ],
   "collections": [

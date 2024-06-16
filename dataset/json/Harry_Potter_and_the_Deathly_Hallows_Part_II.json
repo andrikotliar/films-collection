@@ -112,6 +112,14 @@
       },
       "actorId": "9433a6747c6cfc354fed7e65",
       "name": "Alan Rickman"
+    },
+    {
+      "character": {
+        "name": "Rubeus Hagrid",
+        "imageUrl": ""
+      },
+      "actorId": "5aea15b4e9912ad7b3a2241e",
+      "name": "Robbie Coltrane"
     }
   ],
   "collections": [

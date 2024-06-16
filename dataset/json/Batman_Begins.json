@@ -89,7 +89,7 @@
     },
     {
       "character": {
-        "name": "Ducard",
+        "name": "Anri Ducard / Ra's al Ghul",
         "imageUrl": ""
       },
       "actorId": "017e02072132c3a7ad26b56e",
@@ -142,22 +142,6 @@
       },
       "actorId": "327088b7b64f3ac9a97651b1",
       "name": "Ken Watanabe"
-    },
-    {
-      "character": {
-        "name": "Flass",
-        "imageUrl": ""
-      },
-      "actorId": "d6bd0c93062d7c9bed2d5242",
-      "name": "Mark Boone Junior"
-    },
-    {
-      "character": {
-        "name": "Thomas Wayne",
-        "imageUrl": ""
-      },
-      "actorId": "836cd80a62deb8dbe67f83f0",
-      "name": "Linus Roache"
     },
     {
       "character": {

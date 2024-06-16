@@ -104,6 +104,38 @@
       },
       "actorId": "cb3914bc88b72017ccd4d733",
       "name": "Donal Logue"
+    },
+    {
+      "character": {
+        "name": "Gressil",
+        "imageUrl": ""
+      },
+      "actorId": "5870a562478e2246f1f454fa",
+      "name": "Laurence Breuls"
+    },
+    {
+      "character": {
+        "name": "Wallow",
+        "imageUrl": ""
+      },
+      "actorId": "7eae893c800b769582c62d97v",
+      "name": "Daniel Frederiksen"
+    },
+    {
+      "character": {
+        "name": "Abigor",
+        "imageUrl": ""
+      },
+      "actorId": "1cbdd71b9def406f51a58b62",
+      "name": "Mathew Wilkinson"
+    },
+    {
+      "character": {
+        "name": "Barton Blaze",
+        "imageUrl": ""
+      },
+      "actorId": "d68661e62c37cc5eaefe65a8",
+      "name": "Brett Cullen"
     }
   ],
   "collections": [

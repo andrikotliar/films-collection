@@ -125,6 +125,14 @@
       },
       "actorId": "1c5eeaeb86ef47e50b94444b",
       "name": "Jim Broadbent"
+    },
+    {
+      "character": {
+        "name": "Draco Malfoy",
+        "imageUrl": ""
+      },
+      "actorId": "aca6f583677ffb4c7f38d469",
+      "name": "Tom Felton"
     }
   ],
   "collections": [
