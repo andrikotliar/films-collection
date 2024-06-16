@@ -2,8 +2,8 @@ import { useContext } from 'react';
 import classNames from 'classnames';
 import { SidebarContext } from '@/pages/main/components/sidebar/context';
 import { Filters } from './components';
-import { Icons } from '@/components';
 import styles from './SidebarContent.module.css';
+import { SlidersHorizontalIcon } from 'lucide-react';
 
 const SidebarContent = () => {
   const { isFilterOpen, toggleFilter, filtersCount } =
@@ -20,7 +20,7 @@ const SidebarContent = () => {
       </aside>
       <div className={classNames(styles.actionsWrapper)}>
         <button onClick={toggleFilter} className={styles.filterButton}>
-          <Icons icon="slider" />
+          <SlidersHorizontalIcon />
           <span>Filters</span>
           {filtersCount > 0 && (
             <span className={styles.filterButtonBadge}>{filtersCount}</span>
