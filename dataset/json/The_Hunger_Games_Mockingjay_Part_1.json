@@ -124,6 +124,48 @@
     },
     {
       "character": {
+        "name": "Boggs",
+        "imageUrl": ""
+      },
+      "actorId": "ab310cfb7b4905e59b363f7d"
+    },
+    {
+      "character": {
+        "name": "Caesar Flickerman",
+        "imageUrl": ""
+      },
+      "actorId": "a63daeaff1736e80ecb72103"
+    },
+    {
+      "character": {
+        "name": "Finnick Odair",
+        "imageUrl": ""
+      },
+      "actorId": "4cb3684475937f86644a6ce9"
+    },
+    {
+      "character": {
+        "name": "Cressida",
+        "imageUrl": ""
+      },
+      "actorId": "9dcff373f8aeb1857ceba71b"
+    },
+    {
+      "character": {
+        "name": "Pollux",
+        "imageUrl": ""
+      },
+      "actorId": "c1b6ae2fc63f69083d8b8d66"
+    },
+    {
+      "character": {
+        "name": "Beetee",
+        "imageUrl": ""
+      },
+      "actorId": "ad690658fc9a006e2b90daa0"
+    },
+    {
+      "character": {
         "name": "President Alma Coin",
         "imageUrl": ""
       },

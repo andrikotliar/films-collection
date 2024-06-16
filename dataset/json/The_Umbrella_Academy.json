@@ -297,6 +297,13 @@
       },
       "actorId": "fd5c19d2483bb0ad1d047592",
       "name": "Mary J. Blige"
+    },
+    {
+      "character": {
+        "name": "Pogo",
+        "imageUrl": ""
+      },
+      "actorId": "6262ddbf525d013aec6ab593"
     }
   ],
   "collections": [

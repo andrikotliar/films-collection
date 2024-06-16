@@ -104,6 +104,14 @@
     },
     {
       "character": {
+        "name": "Captain Smith",
+        "imageUrl": ""
+      },
+      "actorId": "9054c0064f19a48344d6d874",
+      "name": "Bernard Hill"
+    },
+    {
+      "character": {
         "name": "Old Rose",
         "imageUrl": ""
       },
