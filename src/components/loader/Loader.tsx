@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import styles from './Loader.module.css';
 import classNames from 'classnames';
-import { Icons } from '@/components/icons/Icons';
+import { LoaderCircle } from 'lucide-react';
 
 type LoaderProps = {
   isFullPage?: boolean;
@@ -15,8 +15,7 @@ const Loader: FC<LoaderProps> = ({ isFullPage = false, iconClassName }) => {
         [styles.fullPage]: isFullPage,
       })}
     >
-      <Icons
-        icon="loader"
+      <LoaderCircle
         className={classNames(styles.loader, 'spin', iconClassName)}
       />
     </div>

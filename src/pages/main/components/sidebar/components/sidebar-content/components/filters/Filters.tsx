@@ -2,11 +2,12 @@ import styles from './Filters.module.css';
 import { useContext, useEffect, useState } from 'react';
 import { filtersConfig } from '@/configs';
 import { useForm, FormProvider } from 'react-hook-form';
-import { Button, Icons, Tabs } from '@/components';
+import { Button, Tabs } from '@/components';
 import { SidebarContext } from '@/pages/main/components/sidebar/context';
 import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
 import { useQueryFilter } from '@/hooks';
+import { RefreshCcwIcon, SearchIcon, XIcon } from 'lucide-react';
 
 const defaultValues = {
   type: null,
@@ -77,7 +78,7 @@ const Filters = () => {
         <h2 className={styles.mobileHeader}>
           <span>Filters</span>
           <button onClick={() => setIsFilterOpen(false)}>
-            <Icons icon="close" />
+            <XIcon />
           </button>
         </h2>
         <Tabs
@@ -106,13 +107,13 @@ const Filters = () => {
           ]}
         />
         <div className={styles.controls}>
-          <Button icon={<Icons icon="search" />} type="submit">
+          <Button icon={<SearchIcon />} type="submit">
             Search
           </Button>
           {filtersCount > 0 && (
             <Button
               onClick={handleReset}
-              icon={<Icons icon="reset" />}
+              icon={<RefreshCcwIcon />}
               variant="secondary"
             >
               Reset

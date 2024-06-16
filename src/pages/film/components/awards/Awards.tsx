@@ -4,7 +4,7 @@ import { awardsConfig } from '@/configs';
 import { Award } from '@/common/types';
 import { FilmsContext } from '@/context';
 import { buildQueryLink } from '@/helpers';
-import { DataArea, DataGrid, Icons, Scrollable } from '@/components';
+import { DataArea, DataGrid, Icon, Scrollable } from '@/components';
 import { Nomination } from './components';
 import styles from './Awards.module.css';
 
@@ -24,7 +24,7 @@ const Awards: FC<AwardsProps> = ({ awards }) => {
       {sortedAwards.map(({ awardId, nominations }) => (
         <DataArea className={styles.award} key={awardId}>
           <div className={styles.header}>
-            <Icons icon={awardsConfig[awardId].icon} size={60} />
+            <Icon name={awardsConfig[awardId].icon} size={60} />
             <div className={styles.main}>
               <h3 className={styles.title}>
                 <Link to={buildQueryLink('awards', awardId)}>

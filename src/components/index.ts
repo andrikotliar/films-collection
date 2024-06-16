@@ -13,4 +13,4 @@ export * from './router-link/RouterLink';
 export * from './select/Select';
 export * from './popup-menu/PopupMenu';
 export * from './not-found/NotFound';
-export * from './icons/Icons';
+export * from './icon/Icon';

@@ -1,12 +1,12 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Icons } from '@/components/icons/Icons';
 import classNames from 'classnames';
 import { mainMenu } from '@/configs';
 import { PopupMenu } from '@/components/popup-menu/PopupMenu';
 import { Container } from '../container/Container';
 import { Search, Logo } from './components';
 import styles from './Header.module.css';
+import { MenuIcon } from 'lucide-react';
 
 const Header = () => {
   const menuButtonRef = useRef<HTMLButtonElement>(null);
@@ -48,7 +48,7 @@ const Header = () => {
           onClick={handleOpenMenu}
           ref={menuButtonRef}
         >
-          <Icons icon="menu" className={styles.menuIcon} />
+          <MenuIcon className={styles.menuIcon} />
         </button>
         <PopupMenu
           onClose={handleCloseMenu}

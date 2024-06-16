@@ -2,7 +2,7 @@ import classNames from 'classnames';
 import { FC, MouseEvent, useEffect, useMemo, useRef, useState } from 'react';
 import { PopupMenu } from '@/components/popup-menu/PopupMenu';
 import styles from './Select.module.css';
-import { Icons } from '@/components/icons/Icons';
+import { ChevronDownIcon } from 'lucide-react';
 
 type Option = {
   label: string;
@@ -126,8 +126,7 @@ const Select: FC<SelectProps> = ({
         onBlur={handleTriggerFocus}
       >
         <span>{selectedOption ? selectedOption.label : placeholder}</span>
-        <Icons
-          icon="chevronDown"
+        <ChevronDownIcon
           className={classNames(styles.expandIcon, {
             [styles.expanded]: isOpen,
           })}

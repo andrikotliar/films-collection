@@ -1,4 +1,4 @@
-import { IconNames } from '@/components/icons/types';
+import { IconNames } from '@/components/icon/types';
 
 type AwardsConfig = {
   [awardId: string]: {

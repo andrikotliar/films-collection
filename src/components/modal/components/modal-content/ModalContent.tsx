@@ -2,7 +2,7 @@ import classNames from 'classnames';
 import { FC, PropsWithChildren, useEffect } from 'react';
 
 import styles from './ModalContent.module.css';
-import { Icons } from '@/components/icons/Icons';
+import { XIcon } from 'lucide-react';
 
 type ModalContentProps = {
   contentClassName?: string;
@@ -31,7 +31,7 @@ const ModalContent: FC<PropsWithChildren<ModalContentProps>> = ({
     >
       {children}
       <button onClick={onClose} className={styles.closeButton}>
-        <Icons icon="close" size={15} />
+        <XIcon size={15} />
       </button>
     </div>
   );

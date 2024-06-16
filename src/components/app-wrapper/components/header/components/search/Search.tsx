@@ -9,12 +9,12 @@ import {
 } from 'react';
 import classNames from 'classnames';
 import { debounce, searchFilm } from '@/helpers';
-import { Icons } from '@/components/icons/Icons';
 import { PopupMenu } from '@/components/popup-menu/PopupMenu';
 import { FilmsContext } from '@/context';
 import { FilmData } from '@/common/types';
 import styles from './Search.module.css';
 import { SearchMenuContent } from './components';
+import { LoaderCircleIcon, SearchIcon } from 'lucide-react';
 
 const Search = () => {
   const { films } = useContext(FilmsContext);
@@ -97,11 +97,10 @@ const Search = () => {
           onFocus={handleFocus}
           ref={searchInputRef}
         />
-        <Icons icon="search" className={styles.searchIcon} />
+        <SearchIcon className={styles.searchIcon} />
         {isSearchPending && (
           <div className={styles.loaderWrapper}>
-            <Icons
-              icon="loader"
+            <LoaderCircleIcon
               className={classNames(styles.loaderIcon, 'spin')}
             />
           </div>
