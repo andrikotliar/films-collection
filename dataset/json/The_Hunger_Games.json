@@ -125,6 +125,13 @@
     },
     {
       "character": {
+        "name": "Seneca Crane",
+        "imageUrl": ""
+      },
+      "actorId": "f58457964f741e7cd096d744"
+    },
+    {
+      "character": {
         "name": "President Coriolanus Snow",
         "imageUrl": ""
       },
