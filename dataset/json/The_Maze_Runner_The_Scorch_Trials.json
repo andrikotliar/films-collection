@@ -68,60 +68,46 @@
   "duration": 131,
   "cast": [
     {
-      "character": {
-        "name": "Thomas",
-        "imageUrl": ""
-      },
       "actorId": "8e204b8e5e38fbae1fe008a4",
-      "name": "Dylan O'Brien"
+      "character": {
+        "name": "Thomas"
+      }
     },
     {
-      "character": {
-        "name": "Teresa",
-        "imageUrl": ""
-      },
       "actorId": "d89b2eaf6097bb037c6d8ca0",
-      "name": "Kaya Scodelario"
+      "character": {
+        "name": "Teresa"
+      }
     },
     {
-      "character": {
-        "name": "Newt",
-        "imageUrl": ""
-      },
       "actorId": "4ee52e26623792a1c498ac41",
-      "name": "Thomas Brodie-Sangster"
+      "character": {
+        "name": "Newt"
+      }
     },
     {
-      "character": {
-        "name": "Minho",
-        "imageUrl": ""
-      },
       "actorId": "c4c83bf5a6e512ae8f39d75a",
-      "name": "Ki Hong Lee"
+      "character": {
+        "name": "Minho"
+      }
     },
     {
-      "character": {
-        "name": "Janson",
-        "imageUrl": ""
-      },
       "actorId": "ab00e4478a98a3b3c576c834",
-      "name": "Aidan Gillen"
+      "character": {
+        "name": "Janson"
+      }
     },
     {
-      "character": {
-        "name": "Jorge",
-        "imageUrl": ""
-      },
       "actorId": "4460a7c81280abd897d97d32",
-      "name": "Giancarlo Esposito"
+      "character": {
+        "name": "Jorge"
+      }
     },
     {
-      "character": {
-        "name": "Brenda",
-        "imageUrl": ""
-      },
       "actorId": "faf06750d96e099e22deea05",
-      "name": "Rosa Salazar"
+      "character": {
+        "name": "Brenda"
+      }
     }
   ],
   "collections": [

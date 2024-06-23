@@ -68,132 +68,100 @@
   "duration": 114,
   "cast": [
     {
-      "character": {
-        "name": "Hercule Poirot",
-        "imageUrl": ""
-      },
       "actorId": "4d2df0dc49815c9c34e5b975",
-      "name": "Kenneth Branagh"
+      "character": {
+        "name": "Hercule Poirot"
+      }
     },
     {
-      "character": {
-        "name": "Pilar Estravados",
-        "imageUrl": ""
-      },
       "actorId": "b57c32d70ccd95563e06ca17",
-      "name": "Penelope Cruz"
+      "character": {
+        "name": "Pilar Estravados"
+      }
     },
     {
-      "character": {
-        "name": "Gerhard Hardman",
-        "imageUrl": ""
-      },
       "actorId": "69443d6dcdd5ddbc0c51e534",
-      "name": "Willem Dafoe"
+      "character": {
+        "name": "Gerhard Hardman"
+      }
     },
     {
-      "character": {
-        "name": "Princess Dragomiroff",
-        "imageUrl": ""
-      },
       "actorId": "bc58418600dc1689762c643e",
-      "name": "Judi Dench"
+      "character": {
+        "name": "Princess Dragomiroff"
+      }
     },
     {
-      "character": {
-        "name": "Edward Ratchett",
-        "imageUrl": ""
-      },
       "actorId": "22f4885dc5c22c8371ad2a3a",
-      "name": "Johnny Depp"
+      "character": {
+        "name": "Edward Ratchett"
+      }
     },
     {
-      "character": {
-        "name": "Hector MacQueen",
-        "imageUrl": ""
-      },
       "actorId": "d09453f9d0c74e9904471aa5",
-      "name": "Josh Gad"
+      "character": {
+        "name": "Hector MacQueen"
+      }
     },
     {
-      "character": {
-        "name": "Edward Henry Masterman",
-        "imageUrl": ""
-      },
       "actorId": "6f24b6463894b8d2f8d21f89",
-      "name": "Derek Jacobi"
+      "character": {
+        "name": "Edward Henry Masterman"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Arbuthnot",
-        "imageUrl": ""
-      },
       "actorId": "3f6e4f4acf06b7cb7769b445",
-      "name": "Leslie Odom Jr."
+      "character": {
+        "name": "Dr. Arbuthnot"
+      }
     },
     {
-      "character": {
-        "name": "Caroline Hubbard",
-        "imageUrl": ""
-      },
       "actorId": "4771750eb3cf3c71190e7c37",
-      "name": "Michelle Pfeiffer"
+      "character": {
+        "name": "Caroline Hubbard"
+      }
     },
     {
-      "character": {
-        "name": "Miss Mary Debenham",
-        "imageUrl": ""
-      },
       "actorId": "667605ab533f2f147e39370a",
-      "name": "Daisy Ridley"
+      "character": {
+        "name": "Miss Mary Debenham"
+      }
     },
     {
-      "character": {
-        "name": "Bouc",
-        "imageUrl": ""
-      },
       "actorId": "bf1cd567619cd6cadbdaafbc",
-      "name": "Tom Bateman"
+      "character": {
+        "name": "Bouc"
+      }
     },
     {
-      "character": {
-        "name": "Pierre Michel",
-        "imageUrl": ""
-      },
       "actorId": "f425b9c9f00064e9f53d4226",
-      "name": "Marwan Kenzari"
+      "character": {
+        "name": "Pierre Michel"
+      }
     },
     {
-      "character": {
-        "name": "Hildegarde Schmidt",
-        "imageUrl": ""
-      },
       "actorId": "fc06251840c6d7396852bc40",
-      "name": "Olivia Colman"
+      "character": {
+        "name": "Hildegarde Schmidt"
+      }
     },
     {
-      "character": {
-        "name": "Countess Elena Andrenyi",
-        "imageUrl": ""
-      },
       "actorId": "25c2111078b1412312cd2af7",
-      "name": "Lucy Boynton"
+      "character": {
+        "name": "Countess Elena Andrenyi"
+      }
     },
     {
-      "character": {
-        "name": "Biniamino Marquez",
-        "imageUrl": ""
-      },
       "actorId": "62009a604013c30d3ad16114",
-      "name": "Manuel Garcia-Rulfo"
+      "character": {
+        "name": "Biniamino Marquez"
+      }
     },
     {
-      "character": {
-        "name": "Count Rudolph Andrenyi",
-        "imageUrl": ""
-      },
       "actorId": "7f5e9714a99898047b88c8d0",
-      "name": "Sergei Polunin"
+      "character": {
+        "name": "Count Rudolph Andrenyi"
+      }
     }
   ],
   "collections": [

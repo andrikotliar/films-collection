@@ -63,60 +63,46 @@
   "duration": 107,
   "cast": [
     {
-      "character": {
-        "name": "Taki Tachibana",
-        "imageUrl": ""
-      },
       "actorId": "a01120edde44779f6ef8fd5f",
-      "name": "Ryunosuke Kamiki"
+      "character": {
+        "name": "Taki Tachibana"
+      }
     },
     {
-      "character": {
-        "name": "Mitsuha Miyamizu",
-        "imageUrl": ""
-      },
       "actorId": "423c44847502a3d1c8aa63b7",
-      "name": "Mone Kamishiraishi"
+      "character": {
+        "name": "Mitsuha Miyamizu"
+      }
     },
     {
-      "character": {
-        "name": "Katsuhiko Teshigawara",
-        "imageUrl": ""
-      },
       "actorId": "6a7c4e5532db6c1a826ad3b1",
-      "name": "Ryo Narita"
+      "character": {
+        "name": "Katsuhiko Teshigawara"
+      }
     },
     {
-      "character": {
-        "name": "Sayaka Natori",
-        "imageUrl": ""
-      },
       "actorId": "99b06144b31d161d21871321",
-      "name": "Aoi Yuki"
+      "character": {
+        "name": "Sayaka Natori"
+      }
     },
     {
-      "character": {
-        "name": "Tsukasa Fujii",
-        "imageUrl": ""
-      },
       "actorId": "47eb00d538e5c55eb9689aea",
-      "name": "Nobunaga Shimazaki"
+      "character": {
+        "name": "Tsukasa Fujii"
+      }
     },
     {
-      "character": {
-        "name": "Shinta Takagi",
-        "imageUrl": ""
-      },
       "actorId": "096e3de0f0e9d32be2ca2d23",
-      "name": "Kaito Ishikawa"
+      "character": {
+        "name": "Shinta Takagi"
+      }
     },
     {
-      "character": {
-        "name": "Yotsuha Miyamizu",
-        "imageUrl": ""
-      },
       "actorId": "50897c7de5181273e58f4086",
-      "name": "Kanon Tani"
+      "character": {
+        "name": "Yotsuha Miyamizu"
+      }
     }
   ],
   "collections": [

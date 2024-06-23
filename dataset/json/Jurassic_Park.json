@@ -66,52 +66,40 @@
   "duration": 127,
   "cast": [
     {
-      "character": {
-        "name": "Grant",
-        "imageUrl": ""
-      },
       "actorId": "2481ddc7d8be875f8b2be84e",
-      "name": "Sam Neill"
+      "character": {
+        "name": "Grant"
+      }
     },
     {
-      "character": {
-        "name": "Ellie",
-        "imageUrl": ""
-      },
       "actorId": "447021eba8815c4ef5979744",
-      "name": "Laura Dern"
+      "character": {
+        "name": "Ellie"
+      }
     },
     {
-      "character": {
-        "name": "Malcolm",
-        "imageUrl": ""
-      },
       "actorId": "ffe7655111ebb548aeea0a19",
-      "name": "Jeff Goldblum"
+      "character": {
+        "name": "Malcolm"
+      }
     },
     {
-      "character": {
-        "name": "Hammond",
-        "imageUrl": ""
-      },
       "actorId": "0c2791ec84298bfbf0113104",
-      "name": "Richard Attenborough"
+      "character": {
+        "name": "Hammond"
+      }
     },
     {
-      "character": {
-        "name": "Tim",
-        "imageUrl": ""
-      },
       "actorId": "28bffad188c4ad2e2f4c4407",
-      "name": "Joseph Mazzello"
+      "character": {
+        "name": "Tim"
+      }
     },
     {
-      "character": {
-        "name": "Lex",
-        "imageUrl": ""
-      },
       "actorId": "ffef45b0f3b1674f895123c3",
-      "name": "Ariana Richards"
+      "character": {
+        "name": "Lex"
+      }
     }
   ],
   "collections": [

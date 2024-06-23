@@ -60,68 +60,52 @@
   "duration": 129,
   "cast": [
     {
-      "character": {
-        "name": "Neo",
-        "imageUrl": ""
-      },
       "actorId": "064e80da8733b3e3692e9735",
-      "name": "Keanu Reeves"
+      "character": {
+        "name": "Neo"
+      }
     },
     {
-      "character": {
-        "name": "Morpheus",
-        "imageUrl": ""
-      },
       "actorId": "598ea6d5be8fe378787adde7",
-      "name": "Laurence Fishburne"
+      "character": {
+        "name": "Morpheus"
+      }
     },
     {
-      "character": {
-        "name": "Trinity",
-        "imageUrl": ""
-      },
       "actorId": "86bd70fb1e96e084b818b8d1",
-      "name": "Carrie-Anne Moss"
+      "character": {
+        "name": "Trinity"
+      }
     },
     {
-      "character": {
-        "name": "Agent Smith",
-        "imageUrl": ""
-      },
       "actorId": "9d72ccad0a0c60872b91d2d3",
-      "name": "Hugo Weaving"
+      "character": {
+        "name": "Agent Smith"
+      }
     },
     {
-      "character": {
-        "name": "Niobe",
-        "imageUrl": ""
-      },
       "actorId": "544db30160fa4bfa12603ee5",
-      "name": "Jada Pinkett Smith"
+      "character": {
+        "name": "Niobe"
+      }
     },
     {
-      "character": {
-        "name": "Lock",
-        "imageUrl": ""
-      },
       "actorId": "b1094d5a4c3819d770b6cf30",
-      "name": "Harry J. Lennix"
+      "character": {
+        "name": "Lock"
+      }
     },
     {
-      "character": {
-        "name": "Link",
-        "imageUrl": ""
-      },
       "actorId": "c56a9cf0a26401ad1c0194e8",
-      "name": "Harold Perrineau"
+      "character": {
+        "name": "Link"
+      }
     },
     {
-      "character": {
-        "name": "Oracle",
-        "imageUrl": ""
-      },
       "actorId": "15f466e2d733aa7909eefd90",
-      "name": "Mary Alice"
+      "character": {
+        "name": "Oracle"
+      }
     }
   ],
   "collections": [

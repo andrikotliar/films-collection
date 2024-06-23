@@ -65,36 +65,28 @@
   "duration": 126,
   "cast": [
     {
-      "character": {
-        "name": "Hugo Cabret",
-        "imageUrl": ""
-      },
       "actorId": "6d993dbef1d1e79ea49516fa",
-      "name": "Asa Butterfield"
+      "character": {
+        "name": "Hugo Cabret"
+      }
     },
     {
-      "character": {
-        "name": "Georges M'li's",
-        "imageUrl": ""
-      },
       "actorId": "9db2779191ae86290f56c21b",
-      "name": "Ben Kingsley"
+      "character": {
+        "name": "Georges M'li's"
+      }
     },
     {
-      "character": {
-        "name": "Station Inspector",
-        "imageUrl": ""
-      },
       "actorId": "305954b13aa2aaf70e71c864",
-      "name": "Sacha Baron Cohen"
+      "character": {
+        "name": "Station Inspector"
+      }
     },
     {
-      "character": {
-        "name": "Isabelle",
-        "imageUrl": ""
-      },
       "actorId": "6fddfed4c4ad097f4c724086",
-      "name": "Chloë Grace Moretz"
+      "character": {
+        "name": "Isabelle"
+      }
     }
   ],
   "collections": [

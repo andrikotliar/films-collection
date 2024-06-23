@@ -69,92 +69,70 @@
   "duration": 154,
   "cast": [
     {
-      "character": {
-        "name": "Sam Witwicky",
-        "imageUrl": ""
-      },
       "actorId": "24ad64557f5cc8cebf8194ae",
-      "name": "Shia LaBeouf"
+      "character": {
+        "name": "Sam Witwicky"
+      }
     },
     {
-      "character": {
-        "name": "Carly",
-        "imageUrl": ""
-      },
       "actorId": "50e72a2b7139609b018d343f",
-      "name": "Rosie Huntington-Whiteley"
+      "character": {
+        "name": "Carly"
+      }
     },
     {
-      "character": {
-        "name": "Lennox",
-        "imageUrl": ""
-      },
       "actorId": "34f40d0622d31ef4d6a23aa0",
-      "name": "Josh Duhamel"
+      "character": {
+        "name": "Lennox"
+      }
     },
     {
-      "character": {
-        "name": "Simmons",
-        "imageUrl": ""
-      },
       "actorId": "a830e599d126640fa1f7bb3b",
-      "name": "John Turturro"
+      "character": {
+        "name": "Simmons"
+      }
     },
     {
-      "character": {
-        "name": "Epps",
-        "imageUrl": ""
-      },
       "actorId": "643d66647de43eba364eb216",
-      "name": "Tyrese Gibson"
+      "character": {
+        "name": "Epps"
+      }
     },
     {
-      "character": {
-        "name": "Dylan",
-        "imageUrl": ""
-      },
       "actorId": "79143a7f34e9d2a0e246696a",
-      "name": "Patrick Dempsey"
+      "character": {
+        "name": "Dylan"
+      }
     },
     {
-      "character": {
-        "name": "Mearing",
-        "imageUrl": ""
-      },
       "actorId": "8880181107e794bf93aa83e4",
-      "name": "Frances McDormand"
+      "character": {
+        "name": "Mearing"
+      }
     },
     {
-      "character": {
-        "name": "Bruce Brazos",
-        "imageUrl": ""
-      },
       "actorId": "007deb7fbecb28035630c140",
-      "name": "John Malkovich"
+      "character": {
+        "name": "Bruce Brazos"
+      }
     },
     {
-      "character": {
-        "name": "Optimus Prime",
-        "imageUrl": ""
-      },
       "actorId": "c8535012fe7ed7ca107c0fe2",
-      "name": "Peter Cullen"
+      "character": {
+        "name": "Optimus Prime"
+      }
     },
     {
-      "character": {
-        "name": "Megatron",
-        "imageUrl": ""
-      },
       "actorId": "9d72ccad0a0c60872b91d2d3",
-      "name": "Hugo Weaving"
+      "character": {
+        "name": "Megatron"
+      }
     },
     {
-      "character": {
-        "name": "Sentinel Prime",
-        "imageUrl": ""
-      },
       "actorId": "f875b54ffaa4476a3545f977",
-      "name": "Leonard Nimoy"
+      "character": {
+        "name": "Sentinel Prime"
+      }
     }
   ],
   "collections": [

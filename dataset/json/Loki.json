@@ -103,76 +103,58 @@
   "duration": 300,
   "cast": [
     {
-      "character": {
-        "name": "Loki",
-        "imageUrl": ""
-      },
       "actorId": "1c93c03ba9a9870918b112fb",
-      "name": "Tom Hiddleston"
+      "character": {
+        "name": "Loki"
+      }
     },
     {
-      "character": {
-        "name": "Ravonna Renslayer",
-        "imageUrl": ""
-      },
       "actorId": "004ae97164ea5cbb5a4c7434",
-      "name": "Gugu Mbatha-Raw"
+      "character": {
+        "name": "Ravonna Renslayer"
+      }
     },
     {
-      "character": {
-        "name": "Sylvie",
-        "imageUrl": ""
-      },
       "actorId": "51f7729ef14080f9a2bdc468",
-      "name": "Sophia Di Martino"
+      "character": {
+        "name": "Sylvie"
+      }
     },
     {
-      "character": {
-        "name": "Mobius",
-        "imageUrl": ""
-      },
       "actorId": "2796dd0765ccb1b2224c5679",
-      "name": "Owen Wilson"
+      "character": {
+        "name": "Mobius"
+      }
     },
     {
-      "character": {
-        "name": "Hunter B-15",
-        "imageUrl": ""
-      },
       "actorId": "cbf38cf13f40908683817285",
-      "name": "Wunmi Mosaku"
+      "character": {
+        "name": "Hunter B-15"
+      }
     },
     {
-      "character": {
-        "name": "Miss Minutes",
-        "imageUrl": ""
-      },
       "actorId": "2bd143e081d26fcfc1e8fb37",
-      "name": "Lauren Revard"
+      "character": {
+        "name": "Miss Minutes"
+      }
     },
     {
-      "character": {
-        "name": "Classic Loki",
-        "imageUrl": ""
-      },
       "actorId": "a274851913f05ad2b83c945e",
-      "name": "Richard E. Grant"
+      "character": {
+        "name": "Classic Loki"
+      }
     },
     {
-      "character": {
-        "name": "Kid Loki",
-        "imageUrl": ""
-      },
       "actorId": "dd90459c43a0f15ebf987a9a",
-      "name": "Jack Veal"
+      "character": {
+        "name": "Kid Loki"
+      }
     },
     {
-      "character": {
-        "name": "He Who Remains",
-        "imageUrl": ""
-      },
       "actorId": "c8fa924fe9703ed4b3cab94c",
-      "name": "Jonathan Majors"
+      "character": {
+        "name": "He Who Remains"
+      }
     }
   ],
   "collections": [

@@ -69,82 +69,64 @@
   "duration": 92,
   "cast": [
     {
-      "character": {
-        "name": "Po",
-        "imageUrl": ""
-      },
       "actorId": "93e4580ac1906e427cabed5a",
-      "name": "Jack Black"
+      "character": {
+        "name": "Po"
+      }
     },
     {
-      "character": {
-        "name": "Shifu",
-        "imageUrl": ""
-      },
       "actorId": "9b4c82033e370d0e16c62974",
-      "name": "Dustin Hoffman"
+      "character": {
+        "name": "Shifu"
+      }
     },
     {
-      "character": {
-        "name": "Tigress",
-        "imageUrl": ""
-      },
       "actorId": "8ea09c057163d4f5c7e44d23",
-      "name": "Angelina Jolie"
+      "character": {
+        "name": "Tigress"
+      }
     },
     {
-      "character": {
-        "name": "Tai Lung",
-        "imageUrl": ""
-      },
       "actorId": "07fd6405b794906aa17de68f",
-      "name": "Ian McShane"
+      "character": {
+        "name": "Tai Lung"
+      }
     },
     {
-      "character": {
-        "name": "Monkey",
-        "imageUrl": ""
-      },
       "actorId": "9129cd77b72f6865ac51f2a7",
-      "name": "Jackie Chan"
+      "character": {
+        "name": "Monkey"
+      }
     },
     {
-      "character": {
-        "name": "Mantis",
-        "imageUrl": ""
-      },
       "actorId": "fc2aa00b24fac3bf3e2532b4",
-      "name": "Seth Rogen"
+      "character": {
+        "name": "Mantis"
+      }
     },
     {
-      "character": {
-        "name": "Viper",
-        "imageUrl": ""
-      },
       "actorId": "3e39acbba04928ae4e75b33c",
-      "name": "Lucy Liu"
+      "character": {
+        "name": "Viper"
+      }
     },
     {
-      "character": {
-        "name": "Crane",
-        "imageUrl": ""
-      },
       "actorId": "e3e9852e41647da469ca48ad",
-      "name": "David Cross"
-    },
-    {
       "character": {
-        "name": "Oogway",
-        "imageUrl": ""
-      },
-      "actorId": "ac0c86b4f56b6b569c2b37fb",
-      "name": "Randall Duk Kim"
+        "name": "Crane"
+      }
     },
     {
+      "actorId": "ac0c86b4f56b6b569c2b37fb",
+      "character": {
+        "name": "Oogway"
+      }
+    },
+    {
+      "actorId": "ba8c2781a07c02d7d6a45233",
       "character": {
         "name": "Mr. Ping"
-      },
-      "actorId": "ba8c2781a07c02d7d6a45233"
+      }
     }
   ],
   "collections": [

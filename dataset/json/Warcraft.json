@@ -75,108 +75,82 @@
   "duration": 123,
   "cast": [
     {
-      "character": {
-        "name": "Anduin Lothar",
-        "imageUrl": ""
-      },
       "actorId": "8232be67f06b20a3e5123568",
-      "name": "Travis Fimmel"
+      "character": {
+        "name": "Anduin Lothar"
+      }
     },
     {
-      "character": {
-        "name": "Garona",
-        "imageUrl": ""
-      },
       "actorId": "dbed75996832076f78882cf8",
-      "name": "Paula Patton"
+      "character": {
+        "name": "Garona"
+      }
     },
     {
-      "character": {
-        "name": "Medivh",
-        "imageUrl": ""
-      },
       "actorId": "6167199c9267be1358e9db47",
-      "name": "Ben Foster"
+      "character": {
+        "name": "Medivh"
+      }
     },
     {
-      "character": {
-        "name": "Llane Wrynn",
-        "imageUrl": ""
-      },
       "actorId": "f4cb72260e2b853fcfff42e7",
-      "name": "Dominic Cooper"
+      "character": {
+        "name": "Llane Wrynn"
+      }
     },
     {
-      "character": {
-        "name": "Durotan / Antonidas",
-        "imageUrl": ""
-      },
       "actorId": "c8901a2c3a9ece7d8f68aba1",
-      "name": "Toby Kebbell"
+      "character": {
+        "name": "Durotan / Antonidas"
+      }
     },
     {
-      "character": {
-        "name": "Khadgar",
-        "imageUrl": ""
-      },
       "actorId": "b7ebc35f0ea2423eb866e4ef",
-      "name": "Ben Schnetzer"
+      "character": {
+        "name": "Khadgar"
+      }
     },
     {
-      "character": {
-        "name": "Orgrim",
-        "imageUrl": ""
-      },
       "actorId": "cc6ab9ac2d6bf1eae11f5f1c",
-      "name": "Robert Kazinsky"
+      "character": {
+        "name": "Orgrim"
+      }
     },
     {
-      "character": {
-        "name": "Blackhand",
-        "imageUrl": ""
-      },
       "actorId": "8e58705ae826aaa9554b17d6",
-      "name": "Clancy Brown"
+      "character": {
+        "name": "Blackhand"
+      }
     },
     {
-      "character": {
-        "name": "Gul'dan",
-        "imageUrl": ""
-      },
       "actorId": "822c9ec9591c19a11e99bca5",
-      "name": "Daniel Wu"
+      "character": {
+        "name": "Gul'dan"
+      }
     },
     {
-      "character": {
-        "name": "Lady Taria",
-        "imageUrl": ""
-      },
       "actorId": "b1ac65c6e08030daaadc157e",
-      "name": "Ruth Negga"
+      "character": {
+        "name": "Lady Taria"
+      }
     },
     {
-      "character": {
-        "name": "Draka",
-        "imageUrl": ""
-      },
       "actorId": "b83c0645c73a15db94cadf2e",
-      "name": "Anna Galvin"
+      "character": {
+        "name": "Draka"
+      }
     },
     {
-      "character": {
-        "name": "Moroes",
-        "imageUrl": ""
-      },
       "actorId": "148109460275800447cd7f7c",
-      "name": "Callum Keith Rennie"
+      "character": {
+        "name": "Moroes"
+      }
     },
     {
-      "character": {
-        "name": "Callan",
-        "imageUrl": ""
-      },
       "actorId": "d6a69a4c2ab6da20f853043e",
-      "name": "Burkely Duffield"
+      "character": {
+        "name": "Callan"
+      }
     }
   ],
   "collections": [

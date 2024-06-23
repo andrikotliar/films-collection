@@ -68,44 +68,34 @@
   "duration": 92,
   "cast": [
     {
-      "character": {
-        "name": "Frank Martin",
-        "imageUrl": ""
-      },
       "actorId": "de0e3c154d6e85358e70d67b",
-      "name": "Jason Statham"
+      "character": {
+        "name": "Frank Martin"
+      }
     },
     {
-      "character": {
-        "name": "Lai",
-        "imageUrl": ""
-      },
       "actorId": "0e3195f166af871176d9342d",
-      "name": "Qi Shu"
+      "character": {
+        "name": "Lai"
+      }
     },
     {
-      "character": {
-        "name": "Wall Street",
-        "imageUrl": ""
-      },
       "actorId": "5dd235b43a3f52f2ab92f2dd",
-      "name": "Matt Schulze"
+      "character": {
+        "name": "Wall Street"
+      }
     },
     {
-      "character": {
-        "name": "Inspector Tarconi",
-        "imageUrl": ""
-      },
       "actorId": "27701bc9dbcd310c14d85191",
-      "name": "François Berléand"
+      "character": {
+        "name": "Inspector Tarconi"
+      }
     },
     {
-      "character": {
-        "name": "Mr. Kwai",
-        "imageUrl": ""
-      },
       "actorId": "83eaf5cba7d6f097b7c1f9a0",
-      "name": "Ric Young"
+      "character": {
+        "name": "Mr. Kwai"
+      }
     }
   ],
   "collections": [

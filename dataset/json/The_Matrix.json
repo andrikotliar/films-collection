@@ -60,52 +60,40 @@
   "duration": 136,
   "cast": [
     {
-      "character": {
-        "name": "Neo",
-        "imageUrl": ""
-      },
       "actorId": "064e80da8733b3e3692e9735",
-      "name": "Keanu Reeves"
+      "character": {
+        "name": "Neo"
+      }
     },
     {
-      "character": {
-        "name": "Morpheus",
-        "imageUrl": ""
-      },
       "actorId": "598ea6d5be8fe378787adde7",
-      "name": "Laurence Fishburne"
+      "character": {
+        "name": "Morpheus"
+      }
     },
     {
-      "character": {
-        "name": "Trinity",
-        "imageUrl": ""
-      },
       "actorId": "86bd70fb1e96e084b818b8d1",
-      "name": "Carrie-Anne Moss"
+      "character": {
+        "name": "Trinity"
+      }
     },
     {
-      "character": {
-        "name": "Agent Smith",
-        "imageUrl": ""
-      },
       "actorId": "9d72ccad0a0c60872b91d2d3",
-      "name": "Hugo Weaving"
+      "character": {
+        "name": "Agent Smith"
+      }
     },
     {
-      "character": {
-        "name": "Oracle",
-        "imageUrl": ""
-      },
       "actorId": "5ce3b37a34510b2a6acb942b",
-      "name": "Gloria Foster"
+      "character": {
+        "name": "Oracle"
+      }
     },
     {
-      "character": {
-        "name": "Cypher",
-        "imageUrl": ""
-      },
       "actorId": "6409bee986923999615ef8d5",
-      "name": "Joe Pantoliano"
+      "character": {
+        "name": "Cypher"
+      }
     }
   ],
   "collections": [

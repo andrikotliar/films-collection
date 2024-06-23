@@ -63,100 +63,76 @@
   "duration": 144,
   "cast": [
     {
-      "character": {
-        "name": "Professor Charles Xavier",
-        "imageUrl": ""
-      },
       "actorId": "1fbb6ff101ef506a0bf61497",
-      "name": "James McAvoy"
+      "character": {
+        "name": "Professor Charles Xavier"
+      }
     },
     {
-      "character": {
-        "name": "Erik Lehnsherr / Magneto",
-        "imageUrl": ""
-      },
       "actorId": "bec6ffd8479a9c7a4c2f3e56",
-      "name": "Michael Fassbender"
+      "character": {
+        "name": "Erik Lehnsherr / Magneto"
+      }
     },
     {
-      "character": {
-        "name": "Raven / Mystique",
-        "imageUrl": ""
-      },
       "actorId": "c99e4f6dc0695561848dc5be",
-      "name": "Jennifer Lawrence"
+      "character": {
+        "name": "Raven / Mystique"
+      }
     },
     {
-      "character": {
-        "name": "Hank McCoy / Beast",
-        "imageUrl": ""
-      },
       "actorId": "f5742b02c88fb0465409276f",
-      "name": "Nicholas Hoult"
+      "character": {
+        "name": "Hank McCoy / Beast"
+      }
     },
     {
-      "character": {
-        "name": "En Sabah Nur / Apocalypse",
-        "imageUrl": ""
-      },
       "actorId": "8b0c59295bf19f18ccdebced",
-      "name": "Oscar Isaac"
+      "character": {
+        "name": "En Sabah Nur / Apocalypse"
+      }
     },
     {
-      "character": {
-        "name": "Moira Mactaggert",
-        "imageUrl": ""
-      },
       "actorId": "4672780c056f845c33a4110e",
-      "name": "Rose Byrne"
+      "character": {
+        "name": "Moira Mactaggert"
+      }
     },
     {
-      "character": {
-        "name": "Peter Maximoff / Quicksilver",
-        "imageUrl": ""
-      },
       "actorId": "22c5f4431c465fad5fb3b185",
-      "name": "Evan Peters"
+      "character": {
+        "name": "Peter Maximoff / Quicksilver"
+      }
     },
     {
-      "character": {
-        "name": "Col. William Stryker",
-        "imageUrl": ""
-      },
       "actorId": "30c4d313530be2273fedd1dc",
-      "name": "Josh Helman"
+      "character": {
+        "name": "Col. William Stryker"
+      }
     },
     {
-      "character": {
-        "name": "Jean Grey",
-        "imageUrl": ""
-      },
       "actorId": "feba8bc96afaa9b4bd63c2b5",
-      "name": "Sophie Turner"
+      "character": {
+        "name": "Jean Grey"
+      }
     },
     {
-      "character": {
-        "name": "Scott Summers / Cyclops",
-        "imageUrl": ""
-      },
       "actorId": "7fffb2c64199b3d7572f0b3c",
-      "name": "Tye Sheridan"
+      "character": {
+        "name": "Scott Summers / Cyclops"
+      }
     },
     {
-      "character": {
-        "name": "Alex Summers / Havok",
-        "imageUrl": ""
-      },
       "actorId": "6b14965495f175568fb12f8f",
-      "name": "Lucas Till"
+      "character": {
+        "name": "Alex Summers / Havok"
+      }
     },
     {
-      "character": {
-        "name": "Kurt Wagner / Nightcrawler",
-        "imageUrl": ""
-      },
       "actorId": "e7e7790e754b6bc047afa3ad",
-      "name": "Kodi Smit-McPhee"
+      "character": {
+        "name": "Kurt Wagner / Nightcrawler"
+      }
     }
   ],
   "collections": [

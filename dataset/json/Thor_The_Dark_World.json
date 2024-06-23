@@ -66,98 +66,76 @@
   "duration": 112,
   "cast": [
     {
-      "character": {
-        "name": "Thor",
-        "imageUrl": ""
-      },
       "actorId": "9d6f7bec0a46789eaa403786",
-      "name": "Chris Hemsworth"
+      "character": {
+        "name": "Thor"
+      }
     },
     {
-      "character": {
-        "name": "Jane Foster",
-        "imageUrl": ""
-      },
       "actorId": "b3703e901df3a8c85c2f0949",
-      "name": "Natalie Portman"
+      "character": {
+        "name": "Jane Foster"
+      }
     },
     {
-      "character": {
-        "name": "Loki",
-        "imageUrl": ""
-      },
       "actorId": "1c93c03ba9a9870918b112fb",
-      "name": "Tom Hiddleston"
+      "character": {
+        "name": "Loki"
+      }
     },
     {
-      "character": {
-        "name": "Odin",
-        "imageUrl": ""
-      },
       "actorId": "da765b1b4b74c95d954ac411",
-      "name": "Anthony Hopkins"
+      "character": {
+        "name": "Odin"
+      }
     },
     {
-      "character": {
-        "name": "Malekith",
-        "imageUrl": ""
-      },
       "actorId": "5f76e5457eb86477b266c6f9",
-      "name": "Christopher Eccleston"
+      "character": {
+        "name": "Malekith"
+      }
     },
     {
-      "character": {
-        "name": "Sif",
-        "imageUrl": ""
-      },
       "actorId": "69d55a79906818a4d763880d",
-      "name": "Jaimie Alexander"
+      "character": {
+        "name": "Sif"
+      }
     },
     {
-      "character": {
-        "name": "Fandral",
-        "imageUrl": ""
-      },
       "actorId": "295c1eb00164975bc6a72ed0",
-      "name": "Zachary Levi"
+      "character": {
+        "name": "Fandral"
+      }
     },
     {
-      "character": {
-        "name": "Volstagg",
-        "imageUrl": ""
-      },
       "actorId": "e378f7dbbb04429f326bd269",
-      "name": "Ray Stevenson"
+      "character": {
+        "name": "Volstagg"
+      }
     },
     {
-      "character": {
-        "name": "Hogun",
-        "imageUrl": ""
-      },
       "actorId": "9ec78fa79210e5961b8c4753",
-      "name": "Tadanobu Asano"
+      "character": {
+        "name": "Hogun"
+      }
     },
     {
-      "character": {
-        "name": "Heimdall",
-        "imageUrl": ""
-      },
       "actorId": "ae8fde81451592bb39107acc",
-      "name": "Idris Elba"
-    },
-    {
       "character": {
-        "name": "Frigga",
-        "imageUrl": ""
-      },
-      "actorId": "0cc9f0ab8904d4ee9ff25d05",
-      "name": "Rene Russo"
+        "name": "Heimdall"
+      }
     },
     {
+      "actorId": "0cc9f0ab8904d4ee9ff25d05",
+      "character": {
+        "name": "Frigga"
+      }
+    },
+    {
+      "actorId": "aa2d93faf92b4c807a30a533",
       "character": {
         "name": "Darcy Lewis"
-      },
-      "actorId": "aa2d93faf92b4c807a30a533"
+      }
     }
   ],
   "collections": [

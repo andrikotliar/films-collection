@@ -72,52 +72,40 @@
   "duration": 133,
   "cast": [
     {
-      "character": {
-        "name": "Adrian Toomes / Vulture",
-        "imageUrl": ""
-      },
       "actorId": "b6c60930f5f74a488d2429ff",
-      "name": "Michael Keaton"
+      "character": {
+        "name": "Adrian Toomes / Vulture"
+      }
     },
     {
-      "character": {
-        "name": "Peter Parker / Spider-Man",
-        "imageUrl": ""
-      },
       "actorId": "7724f9a2549d742da5d02985",
-      "name": "Tom Holland"
+      "character": {
+        "name": "Peter Parker / Spider-Man"
+      }
     },
     {
-      "character": {
-        "name": "Tony Stark / Iron Man",
-        "imageUrl": ""
-      },
       "actorId": "68eac2af31419390d7f727fd",
-      "name": "Robert Downey Jr."
+      "character": {
+        "name": "Tony Stark / Iron Man"
+      }
     },
     {
-      "character": {
-        "name": "May Parker",
-        "imageUrl": ""
-      },
       "actorId": "0538ae4342160abcc02ecf33",
-      "name": "Marisa Tomei"
+      "character": {
+        "name": "May Parker"
+      }
     },
     {
-      "character": {
-        "name": "Michelle",
-        "imageUrl": ""
-      },
       "actorId": "107e7fb331c2103897a87ffa",
-      "name": "Zendaya"
+      "character": {
+        "name": "Michelle"
+      }
     },
     {
-      "character": {
-        "name": "Ned",
-        "imageUrl": ""
-      },
       "actorId": "398e1ca9ff4d050aac592111",
-      "name": "Jacob Batalon"
+      "character": {
+        "name": "Ned"
+      }
     }
   ],
   "collections": [

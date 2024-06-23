@@ -74,68 +74,52 @@
   "duration": 115,
   "cast": [
     {
-      "character": {
-        "name": "J. Daniel Atlas",
-        "imageUrl": ""
-      },
       "actorId": "23f19ef413bcb6efbff53967",
-      "name": "Jesse Eisenberg"
+      "character": {
+        "name": "J. Daniel Atlas"
+      }
     },
     {
-      "character": {
-        "name": "Dylan Rhodes",
-        "imageUrl": ""
-      },
       "actorId": "a65bc3f407cd83dd8b26db19",
-      "name": "Mark Ruffalo"
+      "character": {
+        "name": "Dylan Rhodes"
+      }
     },
     {
-      "character": {
-        "name": "Merritt McKinney",
-        "imageUrl": ""
-      },
       "actorId": "024affbe7a45ee9fc554bf76",
-      "name": "Woody Harrelson"
+      "character": {
+        "name": "Merritt McKinney"
+      }
     },
     {
-      "character": {
-        "name": "Henley Reeves",
-        "imageUrl": ""
-      },
       "actorId": "bb05ce01b3191a2e584b07d9",
-      "name": "Isla Fisher"
+      "character": {
+        "name": "Henley Reeves"
+      }
     },
     {
-      "character": {
-        "name": "Jack Wilder",
-        "imageUrl": ""
-      },
       "actorId": "a3a8f7f56df0143e3f0e2417",
-      "name": "Dave Franco"
+      "character": {
+        "name": "Jack Wilder"
+      }
     },
     {
-      "character": {
-        "name": "Alma Dray",
-        "imageUrl": ""
-      },
       "actorId": "b9358a872eff4743de75b937",
-      "name": "Mélanie Laurent"
+      "character": {
+        "name": "Alma Dray"
+      }
     },
     {
-      "character": {
-        "name": "Thaddeus Bradley",
-        "imageUrl": ""
-      },
       "actorId": "6baca3c5f3dcf4fb1271cb34",
-      "name": "Morgan Freeman"
+      "character": {
+        "name": "Thaddeus Bradley"
+      }
     },
     {
-      "character": {
-        "name": "Arthur Tressler",
-        "imageUrl": ""
-      },
       "actorId": "68a6bf55b5f042549fda0642",
-      "name": "Michael Caine"
+      "character": {
+        "name": "Arthur Tressler"
+      }
     }
   ],
   "collections": [

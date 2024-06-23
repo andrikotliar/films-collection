@@ -301,140 +301,106 @@
   "duration": 3465,
   "cast": [
     {
-      "character": {
-        "name": "Noah Bennet",
-        "imageUrl": ""
-      },
       "actorId": "107520f3c0ddbf1232fbdc65",
-      "name": "Jack Coleman"
+      "character": {
+        "name": "Noah Bennet"
+      }
     },
     {
-      "character": {
-        "name": "Claire Bennet",
-        "imageUrl": ""
-      },
       "actorId": "2a2e0ac2a50f09eae07b89ea",
-      "name": "Hayden Panettiere"
+      "character": {
+        "name": "Claire Bennet"
+      }
     },
     {
-      "character": {
-        "name": "Peter Petrelli",
-        "imageUrl": ""
-      },
       "actorId": "8aa238f394440d600c5a020b",
-      "name": "Milo Ventimiglia"
+      "character": {
+        "name": "Peter Petrelli"
+      }
     },
     {
-      "character": {
-        "name": "Hiro Nakamura",
-        "imageUrl": ""
-      },
       "actorId": "6851c9149920a922242ded88",
-      "name": "Masi Oka"
+      "character": {
+        "name": "Hiro Nakamura"
+      }
     },
     {
-      "character": {
-        "name": "Mohinder Suresh",
-        "imageUrl": ""
-      },
       "actorId": "51232ea9fde465105e055bf6",
-      "name": "Sendhil Ramamurthy"
+      "character": {
+        "name": "Mohinder Suresh"
+      }
     },
     {
-      "character": {
-        "name": "Matt Parkman",
-        "imageUrl": ""
-      },
       "actorId": "1df1a2ea8a1b758f6c9b8e0a",
-      "name": "Greg Grunberg"
+      "character": {
+        "name": "Matt Parkman"
+      }
     },
     {
-      "character": {
-        "name": "Ando Masahashi",
-        "imageUrl": ""
-      },
       "actorId": "c829a15a8a08d8d7718b7d49",
-      "name": "James Kyson Lee"
+      "character": {
+        "name": "Ando Masahashi"
+      }
     },
     {
-      "character": {
-        "name": "Nathan Petrelli",
-        "imageUrl": ""
-      },
       "actorId": "15646ff93766570a0feb13b4",
-      "name": "Adrian Pasdar"
+      "character": {
+        "name": "Nathan Petrelli"
+      }
     },
     {
-      "character": {
-        "name": "Sylar",
-        "imageUrl": ""
-      },
       "actorId": "6565f3834cdb77b3e044b64e",
-      "name": "Zachary Quinto"
+      "character": {
+        "name": "Sylar"
+      }
     },
     {
-      "character": {
-        "name": "Niki Sanders",
-        "imageUrl": ""
-      },
       "actorId": "ec042b5868c21ce6e7c19125",
-      "name": "Ali Larter"
+      "character": {
+        "name": "Niki Sanders"
+      }
     },
     {
-      "character": {
-        "name": "Angela Petrelli",
-        "imageUrl": ""
-      },
       "actorId": "3ef1f9268bf7bdc0c51929ef",
-      "name": "Cristine Rose"
+      "character": {
+        "name": "Angela Petrelli"
+      }
     },
     {
-      "character": {
-        "name": "Sandra Bennet",
-        "imageUrl": ""
-      },
       "actorId": "272bf3fdd4537c043b5f014d",
-      "name": "Ashley Crow"
+      "character": {
+        "name": "Sandra Bennet"
+      }
     },
     {
-      "character": {
-        "name": "Micah Sanders",
-        "imageUrl": ""
-      },
       "actorId": "d71e993e91bf4a557004e1b8",
-      "name": "Noah Gray-Cabey"
+      "character": {
+        "name": "Micah Sanders"
+      }
     },
     {
-      "character": {
-        "name": "Isaac Mendez",
-        "imageUrl": ""
-      },
       "actorId": "7d7d94e8c1e76c82029ff5a1",
-      "name": "Robert Knepper"
+      "character": {
+        "name": "Isaac Mendez"
+      }
     },
     {
-      "character": {
-        "name": "Adam Monroe",
-        "imageUrl": ""
-      },
       "actorId": "dca91e724253b1370be79b2d",
-      "name": "David Anders"
+      "character": {
+        "name": "Adam Monroe"
+      }
     },
     {
-      "character": {
-        "name": "Arthur Petrelli",
-        "imageUrl": ""
-      },
       "actorId": "afea778c4b979bb216bf11a9",
-      "name": "Robert Forster"
+      "character": {
+        "name": "Arthur Petrelli"
+      }
     },
     {
-      "character": {
-        "name": "Daniel Linderman",
-        "imageUrl": ""
-      },
       "actorId": "be5773f9405a69e0d97359e5",
-      "name": "Malcolm McDowell"
+      "character": {
+        "name": "Daniel Linderman"
+      }
     }
   ],
   "collections": [

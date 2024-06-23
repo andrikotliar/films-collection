@@ -68,76 +68,58 @@
   "duration": 113,
   "cast": [
     {
-      "character": {
-        "name": "Michael Pearson",
-        "imageUrl": ""
-      },
       "actorId": "25fddd7afb676f2eb2b4aa9f",
-      "name": "Matthew McConaughey"
+      "character": {
+        "name": "Michael Pearson"
+      }
     },
     {
-      "character": {
-        "name": "Ray",
-        "imageUrl": ""
-      },
       "actorId": "c652b62c969e915bf4644318",
-      "name": "Charlie Hunnam"
+      "character": {
+        "name": "Ray"
+      }
     },
     {
-      "character": {
-        "name": "Rosalind Pearson",
-        "imageUrl": ""
-      },
       "actorId": "94fb992bfb61a9fca53839ee",
-      "name": "Michelle Dockery"
+      "character": {
+        "name": "Rosalind Pearson"
+      }
     },
     {
-      "character": {
-        "name": "Matthew",
-        "imageUrl": ""
-      },
       "actorId": "897f525ebda55eb5df817ecc",
-      "name": "Jeremy Strong"
+      "character": {
+        "name": "Matthew"
+      }
     },
     {
-      "character": {
-        "name": "Jackie",
-        "imageUrl": ""
-      },
       "actorId": "5a4ad3cfbfc4f1269e19e8db",
-      "name": "Lyne Renée"
+      "character": {
+        "name": "Jackie"
+      }
     },
     {
-      "character": {
-        "name": "Coach",
-        "imageUrl": ""
-      },
       "actorId": "c167c7fe90734461de3cd4aa",
-      "name": "Colin Farrell"
+      "character": {
+        "name": "Coach"
+      }
     },
     {
-      "character": {
-        "name": "Dry Eye",
-        "imageUrl": ""
-      },
       "actorId": "e197153382691edae4a51a76",
-      "name": "Henry Golding"
+      "character": {
+        "name": "Dry Eye"
+      }
     },
     {
-      "character": {
-        "name": "Lord George",
-        "imageUrl": ""
-      },
       "actorId": "3a1c45aa5f21d126b950cba7",
-      "name": "Tom Wu"
+      "character": {
+        "name": "Lord George"
+      }
     },
     {
-      "character": {
-        "name": "Fletcher",
-        "imageUrl": ""
-      },
       "actorId": "52318943c79c3be8ac26dff4",
-      "name": "Hugh Grant"
+      "character": {
+        "name": "Fletcher"
+      }
     }
   ],
   "collections": [

@@ -77,108 +77,82 @@
   "duration": 155,
   "cast": [
     {
-      "character": {
-        "name": "Paul Atreides",
-        "imageUrl": ""
-      },
       "actorId": "a39934bc9a1473732fa33a45",
-      "name": "Timothee Chalamet"
+      "character": {
+        "name": "Paul Atreides"
+      }
     },
     {
-      "character": {
-        "name": "Lady Jessica",
-        "imageUrl": ""
-      },
       "actorId": "4a98bdee97707da082e29566",
-      "name": "Rebecca Ferguson"
+      "character": {
+        "name": "Lady Jessica"
+      }
     },
     {
-      "character": {
-        "name": "Duke Leto Atreides",
-        "imageUrl": ""
-      },
       "actorId": "8b0c59295bf19f18ccdebced",
-      "name": "Oscar Isaac"
+      "character": {
+        "name": "Duke Leto Atreides"
+      }
     },
     {
-      "character": {
-        "name": "Duncan Idaho",
-        "imageUrl": ""
-      },
       "actorId": "de9c977ac46c62b2c52d371c",
-      "name": "Jason Momoa"
+      "character": {
+        "name": "Duncan Idaho"
+      }
     },
     {
-      "character": {
-        "name": "Baron Vladimir Harkonnen",
-        "imageUrl": ""
-      },
       "actorId": "3090a68b40a7bfda7b1d93b8",
-      "name": "Stellan Skarsgard"
+      "character": {
+        "name": "Baron Vladimir Harkonnen"
+      }
     },
     {
-      "character": {
-        "name": "Piter De Vries",
-        "imageUrl": ""
-      },
       "actorId": "3ca05cc86df3635b3524727d",
-      "name": "David Dastmalchian"
+      "character": {
+        "name": "Piter De Vries"
+      }
     },
     {
-      "character": {
-        "name": "Chani",
-        "imageUrl": ""
-      },
       "actorId": "107e7fb331c2103897a87ffa",
-      "name": "Zendaya"
+      "character": {
+        "name": "Chani"
+      }
     },
     {
-      "character": {
-        "name": "Gurney Halleck",
-        "imageUrl": ""
-      },
       "actorId": "bff8f185faaa1610320942aa",
-      "name": "Josh Brolin"
+      "character": {
+        "name": "Gurney Halleck"
+      }
     },
     {
-      "character": {
-        "name": "Glossu 'Beast' Rabban",
-        "imageUrl": ""
-      },
       "actorId": "6e7815767f3afa70c3dc69c5",
-      "name": "Dave Bautista"
+      "character": {
+        "name": "Glossu 'Beast' Rabban"
+      }
     },
     {
-      "character": {
-        "name": "Thufir Hawat",
-        "imageUrl": ""
-      },
       "actorId": "d262d09e67f0730d00f4884a",
-      "name": "Stephen McKinley Henderson"
+      "character": {
+        "name": "Thufir Hawat"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Liet Kynes",
-        "imageUrl": ""
-      },
       "actorId": "671a403faa60c88d2a84b43a",
-      "name": "Sharon Duncan-Brewster"
+      "character": {
+        "name": "Dr. Liet Kynes"
+      }
     },
     {
-      "character": {
-        "name": "Stilgar",
-        "imageUrl": ""
-      },
       "actorId": "6910b37b472d8f088f680543",
-      "name": "Javier Bardem"
+      "character": {
+        "name": "Stilgar"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Wellington Yueh",
-        "imageUrl": ""
-      },
       "actorId": "b8790c12e9ba65be0a107540",
-      "name": "Chen Chang"
+      "character": {
+        "name": "Dr. Wellington Yueh"
+      }
     }
   ],
   "collections": [

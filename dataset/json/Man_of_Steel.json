@@ -69,90 +69,70 @@
   "duration": 143,
   "cast": [
     {
-      "character": {
-        "name": "Clark Kent / Kal-El",
-        "imageUrl": ""
-      },
       "actorId": "8b6677adf81a10fa756951ff",
-      "name": "Henry Cavill"
+      "character": {
+        "name": "Clark Kent / Kal-El"
+      }
     },
     {
-      "character": {
-        "name": "Lois Lane",
-        "imageUrl": ""
-      },
       "actorId": "8f9db7b562116db3822027d8",
-      "name": "Amy Adams"
+      "character": {
+        "name": "Lois Lane"
+      }
     },
     {
-      "character": {
-        "name": "General Zod",
-        "imageUrl": ""
-      },
       "actorId": "7b85c8710fe31c2a032298bc",
-      "name": "Michael Shannon"
+      "character": {
+        "name": "General Zod"
+      }
     },
     {
-      "character": {
-        "name": "Martha Kent",
-        "imageUrl": ""
-      },
       "actorId": "6cf53fe9fb98ea48cbd3641d",
-      "name": "Diane Lane"
+      "character": {
+        "name": "Martha Kent"
+      }
     },
     {
-      "character": {
-        "name": "Jor-El",
-        "imageUrl": ""
-      },
       "actorId": "ac61193e410ffd730add8d67",
-      "name": "Russell Crowe"
+      "character": {
+        "name": "Jor-El"
+      }
     },
     {
-      "character": {
-        "name": "Faora-Ul",
-        "imageUrl": ""
-      },
       "actorId": "f9a12b33356f3b0b3a7a3a7f",
-      "name": "Antje Traue"
+      "character": {
+        "name": "Faora-Ul"
+      }
     },
     {
-      "character": {
-        "name": "General Swanwick",
-        "imageUrl": ""
-      },
       "actorId": "b1094d5a4c3819d770b6cf30",
-      "name": "Harry J. Lennix"
+      "character": {
+        "name": "General Swanwick"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Emil Hamilton",
-        "imageUrl": ""
-      },
       "actorId": "1d4e68fce251c58b2f9f4d36",
-      "name": "Richard Schiff"
+      "character": {
+        "name": "Dr. Emil Hamilton"
+      }
     },
     {
-      "character": {
-        "name": "Colonel Nathan Hardy",
-        "imageUrl": ""
-      },
       "actorId": "b0f2e6ee63fbb21a89eff3c2",
-      "name": "Christopher Meloni"
-    },
-    {
       "character": {
-        "name": "Jonathan Kent",
-        "imageUrl": ""
-      },
-      "actorId": "725a8044192aa9f6bf196796",
-      "name": "Kevin Costner"
+        "name": "Colonel Nathan Hardy"
+      }
     },
     {
+      "actorId": "725a8044192aa9f6bf196796",
+      "character": {
+        "name": "Jonathan Kent"
+      }
+    },
+    {
+      "actorId": "598ea6d5be8fe378787adde7",
       "character": {
         "name": "Perry White"
-      },
-      "actorId": "598ea6d5be8fe378787adde7"
+      }
     }
   ],
   "collections": [

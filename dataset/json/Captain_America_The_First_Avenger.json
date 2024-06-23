@@ -63,84 +63,64 @@
   "duration": 124,
   "cast": [
     {
-      "character": {
-        "name": "Captain America / Steve Rogers",
-        "imageUrl": ""
-      },
       "actorId": "b3356695e90767defc7c4421",
-      "name": "Chris Evans"
+      "character": {
+        "name": "Captain America / Steve Rogers"
+      }
     },
     {
-      "character": {
-        "name": "Peggy Carter",
-        "imageUrl": ""
-      },
       "actorId": "94514db34be89be1d1e79dea",
-      "name": "Hayley Atwell"
+      "character": {
+        "name": "Peggy Carter"
+      }
     },
     {
-      "character": {
-        "name": "James Buchanan 'Bucky' Barnes",
-        "imageUrl": ""
-      },
       "actorId": "5f86048e81f0f2f8d811005f",
-      "name": "Sebastian Stan"
+      "character": {
+        "name": "James Buchanan 'Bucky' Barnes"
+      }
     },
     {
-      "character": {
-        "name": "Colonel Chester Phillips",
-        "imageUrl": ""
-      },
       "actorId": "585bc630dfa836dd72779c8d",
-      "name": "Tommy Lee Jones"
+      "character": {
+        "name": "Colonel Chester Phillips"
+      }
     },
     {
-      "character": {
-        "name": "Johann Schmidt / Red Skull",
-        "imageUrl": ""
-      },
       "actorId": "9d72ccad0a0c60872b91d2d3",
-      "name": "Hugo Weaving"
+      "character": {
+        "name": "Johann Schmidt / Red Skull"
+      }
     },
     {
-      "character": {
-        "name": "Howard Stark",
-        "imageUrl": ""
-      },
       "actorId": "f4cb72260e2b853fcfff42e7",
-      "name": "Dominic Cooper"
+      "character": {
+        "name": "Howard Stark"
+      }
     },
     {
-      "character": {
-        "name": "Heinz Kruger",
-        "imageUrl": ""
-      },
       "actorId": "41335f6bf9c6162d73c8cc49",
-      "name": "Richard Armitage"
+      "character": {
+        "name": "Heinz Kruger"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Abraham Erskine",
-        "imageUrl": ""
-      },
       "actorId": "a63daeaff1736e80ecb72103",
-      "name": "Stanley Tucci"
+      "character": {
+        "name": "Dr. Abraham Erskine"
+      }
     },
     {
-      "character": {
-        "name": "Nick Fury",
-        "imageUrl": ""
-      },
       "actorId": "b066e50c67b8ffebd4ea16ba",
-      "name": "Samuel L. Jackson"
+      "character": {
+        "name": "Nick Fury"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Arnim Zola",
-        "imageUrl": ""
-      },
       "actorId": "0c745814f1b5b36341674138",
-      "name": "Toby Jones"
+      "character": {
+        "name": "Dr. Arnim Zola"
+      }
     }
   ],
   "collections": [

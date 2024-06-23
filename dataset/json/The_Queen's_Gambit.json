@@ -70,68 +70,52 @@
   "duration": 395,
   "cast": [
     {
-      "character": {
-        "name": "Beth Harmon",
-        "imageUrl": ""
-      },
       "actorId": "651784ae83f6d35d892d41ba",
-      "name": "Anya Taylor-Joy"
+      "character": {
+        "name": "Beth Harmon"
+      }
     },
     {
-      "character": {
-        "name": "Mr. Shaibel",
-        "imageUrl": ""
-      },
       "actorId": "34ea02395e75fc50c2d5daf1",
-      "name": "Bill Camp"
+      "character": {
+        "name": "Mr. Shaibel"
+      }
     },
     {
-      "character": {
-        "name": "Vasily Borgov",
-        "imageUrl": ""
-      },
       "actorId": "7d2580bf0aefa3579619e188",
-      "name": "Marcin Dorocinski"
+      "character": {
+        "name": "Vasily Borgov"
+      }
     },
     {
-      "character": {
-        "name": "Alma Wheatley",
-        "imageUrl": ""
-      },
       "actorId": "6614b1681ccaaeb8392bb6f1",
-      "name": "Marielle Heller"
+      "character": {
+        "name": "Alma Wheatley"
+      }
     },
     {
-      "character": {
-        "name": "Benny Watts",
-        "imageUrl": ""
-      },
       "actorId": "4ee52e26623792a1c498ac41",
-      "name": "Thomas Brodie-Sangster"
+      "character": {
+        "name": "Benny Watts"
+      }
     },
     {
-      "character": {
-        "name": "Jolene",
-        "imageUrl": ""
-      },
       "actorId": "aab9a7cc78460f54f54315af",
-      "name": "Moses Ingram"
+      "character": {
+        "name": "Jolene"
+      }
     },
     {
-      "character": {
-        "name": "Harry Beltik",
-        "imageUrl": ""
-      },
       "actorId": "de29e31f27895b539dc44ec3",
-      "name": "Harry Melling"
+      "character": {
+        "name": "Harry Beltik"
+      }
     },
     {
-      "character": {
-        "name": "Young Beth Harmon",
-        "imageUrl": ""
-      },
       "actorId": "0374d3e1ea0c4b46638c08e0",
-      "name": "Isla Johnston"
+      "character": {
+        "name": "Young Beth Harmon"
+      }
     }
   ],
   "collections": [

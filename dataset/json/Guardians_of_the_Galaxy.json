@@ -63,100 +63,76 @@
   "duration": 122,
   "cast": [
     {
-      "character": {
-        "name": "Peter Quill / Star-Lord",
-        "imageUrl": ""
-      },
       "actorId": "81002d63c8ad158916752ee2",
-      "name": "Chris Pratt"
+      "character": {
+        "name": "Peter Quill / Star-Lord"
+      }
     },
     {
-      "character": {
-        "name": "Gamora",
-        "imageUrl": ""
-      },
       "actorId": "0f44c8581608c442261413e4",
-      "name": "Zoe Saldana"
+      "character": {
+        "name": "Gamora"
+      }
     },
     {
-      "character": {
-        "name": "Drax",
-        "imageUrl": ""
-      },
       "actorId": "6e7815767f3afa70c3dc69c5",
-      "name": "Dave Bautista"
+      "character": {
+        "name": "Drax"
+      }
     },
     {
-      "character": {
-        "name": "Groot",
-        "imageUrl": ""
-      },
       "actorId": "8acb4ceb24e197fffd95c777",
-      "name": "Vin Diesel"
+      "character": {
+        "name": "Groot"
+      }
     },
     {
-      "character": {
-        "name": "Rocket",
-        "imageUrl": ""
-      },
       "actorId": "dc4912e5f14e4bfea9c78218",
-      "name": "Bradley Cooper"
+      "character": {
+        "name": "Rocket"
+      }
     },
     {
-      "character": {
-        "name": "Ronan",
-        "imageUrl": ""
-      },
       "actorId": "5bee10a2e1b3001d59166ccd",
-      "name": "Lee Pace"
+      "character": {
+        "name": "Ronan"
+      }
     },
     {
-      "character": {
-        "name": "Yondu Udonta",
-        "imageUrl": ""
-      },
       "actorId": "b99fd4cb12dd52764f91df15",
-      "name": "Michael Rooker"
+      "character": {
+        "name": "Yondu Udonta"
+      }
     },
     {
-      "character": {
-        "name": "Nebula",
-        "imageUrl": ""
-      },
       "actorId": "7b67d3adc189860cca3bbf5f",
-      "name": "Karen Gillan"
+      "character": {
+        "name": "Nebula"
+      }
     },
     {
-      "character": {
-        "name": "Korath",
-        "imageUrl": ""
-      },
       "actorId": "bdb2e64bab1a24a00031585c",
-      "name": "Djimon Hounsou"
+      "character": {
+        "name": "Korath"
+      }
     },
     {
-      "character": {
-        "name": "Corpsman Dey",
-        "imageUrl": ""
-      },
       "actorId": "2e2c0e0194f9bbcd70ec70b3",
-      "name": "John C. Reilly"
+      "character": {
+        "name": "Corpsman Dey"
+      }
     },
     {
-      "character": {
-        "name": "Nova Prime",
-        "imageUrl": ""
-      },
       "actorId": "f48cb741c9a839e95ca035b0",
-      "name": "Glenn Close"
+      "character": {
+        "name": "Nova Prime"
+      }
     },
     {
-      "character": {
-        "name": "The Collector",
-        "imageUrl": ""
-      },
       "actorId": "a2453026851bdfa9828b4891",
-      "name": "Benicio Del Toro"
+      "character": {
+        "name": "The Collector"
+      }
     }
   ],
   "collections": [

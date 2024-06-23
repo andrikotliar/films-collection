@@ -63,76 +63,58 @@
   "duration": 148,
   "cast": [
     {
-      "character": {
-        "name": "Cobb",
-        "imageUrl": ""
-      },
       "actorId": "8382432eba031147d4d4eee4",
-      "name": "Leonardo DiCaprio"
+      "character": {
+        "name": "Cobb"
+      }
     },
     {
-      "character": {
-        "name": "Arthur",
-        "imageUrl": ""
-      },
       "actorId": "206c09f62d171c1b58cc6378",
-      "name": "Joseph Gordon-Levitt"
+      "character": {
+        "name": "Arthur"
+      }
     },
     {
-      "character": {
-        "name": "Ariadne",
-        "imageUrl": ""
-      },
       "actorId": "8c40238b64773c27425d940e",
-      "name": "Ellen Page"
+      "character": {
+        "name": "Ariadne"
+      }
     },
     {
-      "character": {
-        "name": "Eames",
-        "imageUrl": ""
-      },
       "actorId": "54f5e1d6744bd15409e841cf",
-      "name": "Tom Hardy"
+      "character": {
+        "name": "Eames"
+      }
     },
     {
-      "character": {
-        "name": "Saito",
-        "imageUrl": ""
-      },
       "actorId": "327088b7b64f3ac9a97651b1",
-      "name": "Ken Watanabe"
+      "character": {
+        "name": "Saito"
+      }
     },
     {
-      "character": {
-        "name": "Yusuf",
-        "imageUrl": ""
-      },
       "actorId": "eca1c45fd609c6882c249d51",
-      "name": "Dileep Rao"
+      "character": {
+        "name": "Yusuf"
+      }
     },
     {
-      "character": {
-        "name": "Robert Fischer",
-        "imageUrl": ""
-      },
       "actorId": "fe1abb15a45afafd3263a771",
-      "name": "Cillian Murphy"
+      "character": {
+        "name": "Robert Fischer"
+      }
     },
     {
-      "character": {
-        "name": "Mal",
-        "imageUrl": ""
-      },
       "actorId": "6e287749f98b9217ea2ceb27",
-      "name": "Marion Cotillard"
+      "character": {
+        "name": "Mal"
+      }
     },
     {
-      "character": {
-        "name": "Miles",
-        "imageUrl": ""
-      },
       "actorId": "68a6bf55b5f042549fda0642",
-      "name": "Michael Caine"
+      "character": {
+        "name": "Miles"
+      }
     }
   ],
   "collections": [

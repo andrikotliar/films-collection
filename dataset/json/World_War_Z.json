@@ -70,44 +70,34 @@
   "duration": 116,
   "cast": [
     {
-      "character": {
-        "name": "Gerry Lane",
-        "imageUrl": ""
-      },
       "actorId": "59689e0c8b7cf79f98fb2395",
-      "name": "Brad Pitt"
+      "character": {
+        "name": "Gerry Lane"
+      }
     },
     {
-      "character": {
-        "name": "Karin Lane",
-        "imageUrl": ""
-      },
       "actorId": "d1b15d6a0de5023428bcca5e",
-      "name": "Mireille Enos"
+      "character": {
+        "name": "Karin Lane"
+      }
     },
     {
-      "character": {
-        "name": "Segen",
-        "imageUrl": ""
-      },
       "actorId": "fb3bf0f7826e5270cea890a9",
-      "name": "Daniella Kertesz"
+      "character": {
+        "name": "Segen"
+      }
     },
     {
-      "character": {
-        "name": "Captain Speke",
-        "imageUrl": ""
-      },
       "actorId": "5bbe4522188dfae241a49323",
-      "name": "James Badge Dale"
+      "character": {
+        "name": "Captain Speke"
+      }
     },
     {
-      "character": {
-        "name": "Jurgen Warmbrunn",
-        "imageUrl": ""
-      },
       "actorId": "de6dd183d81d208a02b16123",
-      "name": "Ludi Boeken"
+      "character": {
+        "name": "Jurgen Warmbrunn"
+      }
     }
   ],
   "collections": [

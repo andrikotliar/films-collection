@@ -65,68 +65,52 @@
   "duration": 116,
   "cast": [
     {
-      "character": {
-        "name": "Dastan",
-        "imageUrl": ""
-      },
       "actorId": "644ca0c0a204f03134f45fbf",
-      "name": "Jake Gyllenhaal"
+      "character": {
+        "name": "Dastan"
+      }
     },
     {
-      "character": {
-        "name": "Tamina",
-        "imageUrl": ""
-      },
       "actorId": "f6e6c885cde54a7c8198150f",
-      "name": "Gemma Arterton"
+      "character": {
+        "name": "Tamina"
+      }
     },
     {
-      "character": {
-        "name": "Nizam",
-        "imageUrl": ""
-      },
       "actorId": "9db2779191ae86290f56c21b",
-      "name": "Ben Kingsley"
+      "character": {
+        "name": "Nizam"
+      }
     },
     {
-      "character": {
-        "name": "Sheik Amar",
-        "imageUrl": ""
-      },
       "actorId": "c70aa327b237efbbee19c181",
-      "name": "Alfred Molina"
+      "character": {
+        "name": "Sheik Amar"
+      }
     },
     {
-      "character": {
-        "name": "Seso",
-        "imageUrl": ""
-      },
       "actorId": "36d281cb71c45ba0739388a2",
-      "name": "Steve Toussaint"
+      "character": {
+        "name": "Seso"
+      }
     },
     {
-      "character": {
-        "name": "Garsiv",
-        "imageUrl": ""
-      },
       "actorId": "c8901a2c3a9ece7d8f68aba1",
-      "name": "Toby Kebbell"
+      "character": {
+        "name": "Garsiv"
+      }
     },
     {
-      "character": {
-        "name": "Tus",
-        "imageUrl": ""
-      },
       "actorId": "d716fa4b2d132b77e907bb8f",
-      "name": "Richard Coyle"
+      "character": {
+        "name": "Tus"
+      }
     },
     {
-      "character": {
-        "name": "Bis",
-        "imageUrl": ""
-      },
       "actorId": "fc950c38b9022c62d9d9eb1b",
-      "name": "Reece Ritchie"
+      "character": {
+        "name": "Bis"
+      }
     }
   ],
   "collections": [

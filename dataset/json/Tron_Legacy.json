@@ -68,60 +68,46 @@
   "duration": 125,
   "cast": [
     {
-      "character": {
-        "name": "Kevin Flynn / Clu",
-        "imageUrl": ""
-      },
       "actorId": "6db70d56d0080f919a21f353",
-      "name": "Jeff Bridges"
+      "character": {
+        "name": "Kevin Flynn / Clu"
+      }
     },
     {
-      "character": {
-        "name": "Sam Flynn",
-        "imageUrl": ""
-      },
       "actorId": "067c80de55068273c5b3029d",
-      "name": "Garrett Hedlund"
+      "character": {
+        "name": "Sam Flynn"
+      }
     },
     {
-      "character": {
-        "name": "Quorra",
-        "imageUrl": ""
-      },
       "actorId": "dd5f72e72f49b70f6c149b82",
-      "name": "Olivia Wilde"
+      "character": {
+        "name": "Quorra"
+      }
     },
     {
-      "character": {
-        "name": "Alan Bradley / Tron",
-        "imageUrl": ""
-      },
       "actorId": "7d9424297910a98d93f443c7",
-      "name": "Bruce Boxleitner"
+      "character": {
+        "name": "Alan Bradley / Tron"
+      }
     },
     {
-      "character": {
-        "name": "Jarvis",
-        "imageUrl": ""
-      },
       "actorId": "e9a889c2911616f3921e4cc3",
-      "name": "James Frain"
+      "character": {
+        "name": "Jarvis"
+      }
     },
     {
-      "character": {
-        "name": "Gem",
-        "imageUrl": ""
-      },
       "actorId": "f01666b14a9b826cb3daf954",
-      "name": "Beau Garrett"
+      "character": {
+        "name": "Gem"
+      }
     },
     {
-      "character": {
-        "name": "Castor / Zuse",
-        "imageUrl": ""
-      },
       "actorId": "ddc30904ea1df69f6f509783",
-      "name": "Michael Sheen"
+      "character": {
+        "name": "Castor / Zuse"
+      }
     }
   ],
   "collections": [

@@ -62,92 +62,70 @@
   "duration": 131,
   "cast": [
     {
-      "character": {
-        "name": "Dominic Toretto",
-        "imageUrl": ""
-      },
       "actorId": "8acb4ceb24e197fffd95c777",
-      "name": "Vin Diesel"
+      "character": {
+        "name": "Dominic Toretto"
+      }
     },
     {
-      "character": {
-        "name": "Brian O'Conner",
-        "imageUrl": ""
-      },
       "actorId": "61f64cb0f58dc3c12fc0c193",
-      "name": "Paul Walker"
+      "character": {
+        "name": "Brian O'Conner"
+      }
     },
     {
-      "character": {
-        "name": "Hobbs",
-        "imageUrl": ""
-      },
       "actorId": "ba034c3da56225c54e6b1545",
-      "name": "Dwayne Johnson"
+      "character": {
+        "name": "Hobbs"
+      }
     },
     {
-      "character": {
-        "name": "Mia",
-        "imageUrl": ""
-      },
       "actorId": "84fe0dd000d931d469570852",
-      "name": "Jordana Brewster"
+      "character": {
+        "name": "Mia"
+      }
     },
     {
-      "character": {
-        "name": "Letty",
-        "imageUrl": ""
-      },
       "actorId": "f19c147b933b4ed2c5574ef6",
-      "name": "Michelle Rodriguez"
+      "character": {
+        "name": "Letty"
+      }
     },
     {
-      "character": {
-        "name": "Roman",
-        "imageUrl": ""
-      },
       "actorId": "643d66647de43eba364eb216",
-      "name": "Tyrese Gibson"
+      "character": {
+        "name": "Roman"
+      }
     },
     {
-      "character": {
-        "name": "Han",
-        "imageUrl": ""
-      },
       "actorId": "f64566657b4a65aaf1c8a875",
-      "name": "Sung Kang"
+      "character": {
+        "name": "Han"
+      }
     },
     {
-      "character": {
-        "name": "Gisele",
-        "imageUrl": ""
-      },
       "actorId": "689592fad487486ce5468f9f",
-      "name": "Gal Gadot"
+      "character": {
+        "name": "Gisele"
+      }
     },
     {
-      "character": {
-        "name": "Tej",
-        "imageUrl": ""
-      },
       "actorId": "a461b95f153afa4d441b27b3",
-      "name": "Ludacris"
+      "character": {
+        "name": "Tej"
+      }
     },
     {
-      "character": {
-        "name": "Shaw",
-        "imageUrl": ""
-      },
       "actorId": "dabd34e2ff1c16f496c148e7",
-      "name": "Luke Evans"
+      "character": {
+        "name": "Shaw"
+      }
     },
     {
-      "character": {
-        "name": "Elena",
-        "imageUrl": ""
-      },
       "actorId": "e4d6603c9b5bcfacefc268dd",
-      "name": "Elsa Pataky"
+      "character": {
+        "name": "Elena"
+      }
     }
   ],
   "collections": [

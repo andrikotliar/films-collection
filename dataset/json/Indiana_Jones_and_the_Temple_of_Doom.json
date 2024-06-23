@@ -67,44 +67,34 @@
   "duration": 118,
   "cast": [
     {
-      "character": {
-        "name": "Dr. Henry «Indiana» Jones, Jr.",
-        "imageUrl": ""
-      },
       "actorId": "90204450e3ebdb007d478280",
-      "name": "Harrison Ford"
+      "character": {
+        "name": "Dr. Henry «Indiana» Jones, Jr."
+      }
     },
     {
-      "character": {
-        "name": "Willie Scott",
-        "imageUrl": ""
-      },
       "actorId": "2359c068d690ccd851b07cb1",
-      "name": "Kate Capshaw"
+      "character": {
+        "name": "Willie Scott"
+      }
     },
     {
-      "character": {
-        "name": "Short Round",
-        "imageUrl": ""
-      },
       "actorId": "f5a4d6a37358ec72b9d5d69b",
-      "name": "Ke Huy Quan"
+      "character": {
+        "name": "Short Round"
+      }
     },
     {
-      "character": {
-        "name": "Mola Ram",
-        "imageUrl": ""
-      },
       "actorId": "9df1449bb678673fa1a844a6",
-      "name": "Amrish Puri"
+      "character": {
+        "name": "Mola Ram"
+      }
     },
     {
-      "character": {
-        "name": "Chattar Lal",
-        "imageUrl": ""
-      },
       "actorId": "437245d8c3cdf39ad3dc3b7b",
-      "name": "Roshan Seth"
+      "character": {
+        "name": "Chattar Lal"
+      }
     }
   ],
   "collections": [

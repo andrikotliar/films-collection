@@ -62,44 +62,34 @@
   "duration": 108,
   "cast": [
     {
-      "character": {
-        "name": "Brian O'Conner",
-        "imageUrl": ""
-      },
       "actorId": "61f64cb0f58dc3c12fc0c193",
-      "name": "Paul Walker"
+      "character": {
+        "name": "Brian O'Conner"
+      }
     },
     {
-      "character": {
-        "name": "Roman Pearce",
-        "imageUrl": ""
-      },
       "actorId": "643d66647de43eba364eb216",
-      "name": "Tyrese Gibson"
+      "character": {
+        "name": "Roman Pearce"
+      }
     },
     {
-      "character": {
-        "name": "Monica Fuentes",
-        "imageUrl": ""
-      },
       "actorId": "0ede821f7322bc3b013ad22f",
-      "name": "Eva Mendes"
+      "character": {
+        "name": "Monica Fuentes"
+      }
     },
     {
-      "character": {
-        "name": "Carter Verone",
-        "imageUrl": ""
-      },
       "actorId": "02056a814fe2f6966ff7796f",
-      "name": "Cole Hauser"
+      "character": {
+        "name": "Carter Verone"
+      }
     },
     {
-      "character": {
-        "name": "Tej",
-        "imageUrl": ""
-      },
       "actorId": "a461b95f153afa4d441b27b3",
-      "name": "Ludacris"
+      "character": {
+        "name": "Tej"
+      }
     }
   ],
   "collections": [

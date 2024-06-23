@@ -78,156 +78,118 @@
   "duration": 169,
   "cast": [
     {
-      "character": {
-        "name": "Gendalf",
-        "imageUrl": ""
-      },
       "actorId": "aa9b2474d8c4c51e34160de8",
-      "name": "Ian McKellen"
+      "character": {
+        "name": "Gendalf"
+      }
     },
     {
-      "character": {
-        "name": "Bilbo",
-        "imageUrl": ""
-      },
       "actorId": "706bad1f2278f02cd543a7a2",
-      "name": "Martin Freeman"
+      "character": {
+        "name": "Bilbo"
+      }
     },
     {
-      "character": {
-        "name": "Thorin",
-        "imageUrl": ""
-      },
       "actorId": "41335f6bf9c6162d73c8cc49",
-      "name": "Richard Armitage"
+      "character": {
+        "name": "Thorin"
+      }
     },
     {
-      "character": {
-        "name": "Balin",
-        "imageUrl": ""
-      },
       "actorId": "cad2ddaf17bc24ce0614335d",
-      "name": "Ken Stott"
+      "character": {
+        "name": "Balin"
+      }
     },
     {
-      "character": {
-        "name": "Dwalin",
-        "imageUrl": ""
-      },
       "actorId": "5fd82a70adb4f3d540f1fdef",
-      "name": "Graham McTavish"
+      "character": {
+        "name": "Dwalin"
+      }
     },
     {
-      "character": {
-        "name": "Bifur",
-        "imageUrl": ""
-      },
       "actorId": "e8debedec931b52f4b2a8e44",
-      "name": "William Kircher"
+      "character": {
+        "name": "Bifur"
+      }
     },
     {
-      "character": {
-        "name": "Bofur",
-        "imageUrl": ""
-      },
       "actorId": "5f14ab66b2e34d699caadfe7",
-      "name": "James Nesbitt"
+      "character": {
+        "name": "Bofur"
+      }
     },
     {
-      "character": {
-        "name": "Bombur",
-        "imageUrl": ""
-      },
       "actorId": "a674fde7dbf59355cec8b945",
-      "name": "Stephen Hunter"
+      "character": {
+        "name": "Bombur"
+      }
     },
     {
-      "character": {
-        "name": "Fili",
-        "imageUrl": ""
-      },
       "actorId": "7fc88af85a7d3bc6756c362c",
-      "name": "Dean O'Gorman"
+      "character": {
+        "name": "Fili"
+      }
     },
     {
-      "character": {
-        "name": "Kili",
-        "imageUrl": ""
-      },
       "actorId": "7b939ca19c45260ee1a86d74",
-      "name": "Aidan Turner"
+      "character": {
+        "name": "Kili"
+      }
     },
     {
-      "character": {
-        "name": "Oin",
-        "imageUrl": ""
-      },
       "actorId": "471eafc1fcdff3b0afcae9fa",
-      "name": "John Callen"
+      "character": {
+        "name": "Oin"
+      }
     },
     {
-      "character": {
-        "name": "Gloin",
-        "imageUrl": ""
-      },
       "actorId": "5ad238cfbe4c1037f4f81bfa",
-      "name": "Peter Hambleton"
+      "character": {
+        "name": "Gloin"
+      }
     },
     {
-      "character": {
-        "name": "Nori",
-        "imageUrl": ""
-      },
       "actorId": "31d1765cf65f8f3e9ec8e93f",
-      "name": "Jed Brophy"
+      "character": {
+        "name": "Nori"
+      }
     },
     {
-      "character": {
-        "name": "Dori",
-        "imageUrl": ""
-      },
       "actorId": "e82498c3241515ca10b05975",
-      "name": "Mark Hadlow"
+      "character": {
+        "name": "Dori"
+      }
     },
     {
-      "character": {
-        "name": "Ori",
-        "imageUrl": ""
-      },
       "actorId": "e0a0deae15192ec7da6f2849",
-      "name": "Adam Brown"
+      "character": {
+        "name": "Ori"
+      }
     },
     {
-      "character": {
-        "name": "Old Bilbo",
-        "imageUrl": ""
-      },
       "actorId": "7619a1dbce75b71bad02d766",
-      "name": "Ian Holm"
+      "character": {
+        "name": "Old Bilbo"
+      }
     },
     {
-      "character": {
-        "name": "Elrond",
-        "imageUrl": ""
-      },
       "actorId": "9d72ccad0a0c60872b91d2d3",
-      "name": "Hugo Weaving"
+      "character": {
+        "name": "Elrond"
+      }
     },
     {
-      "character": {
-        "name": "Galadriel",
-        "imageUrl": ""
-      },
       "actorId": "7a354da5768fef2be29583f0",
-      "name": "Cate Blanchett"
+      "character": {
+        "name": "Galadriel"
+      }
     },
     {
-      "character": {
-        "name": "Gollum",
-        "imageUrl": ""
-      },
       "actorId": "e5253cdc8c1fb87953720d64",
-      "name": "Andy Serkis"
+      "character": {
+        "name": "Gollum"
+      }
     }
   ],
   "collections": [

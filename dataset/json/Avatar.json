@@ -63,82 +63,64 @@
   "duration": 162,
   "cast": [
     {
-      "character": {
-        "name": "Jake Sully",
-        "imageUrl": ""
-      },
       "actorId": "ab25ed81fbee90d0a29d7c92",
-      "name": "Sam Worthington"
+      "character": {
+        "name": "Jake Sully"
+      }
     },
     {
-      "character": {
-        "name": "Neytiri",
-        "imageUrl": ""
-      },
       "actorId": "0f44c8581608c442261413e4",
-      "name": "Zoe Saldana"
+      "character": {
+        "name": "Neytiri"
+      }
     },
     {
-      "character": {
-        "name": "Grace Augustine",
-        "imageUrl": ""
-      },
       "actorId": "ca74e2b4d921daf8283f1f08",
-      "name": "Sigourney Weaver"
+      "character": {
+        "name": "Grace Augustine"
+      }
     },
     {
-      "character": {
-        "name": "Miles Quaritch",
-        "imageUrl": ""
-      },
       "actorId": "b0b4e07f3ddc197fc79b6d99",
-      "name": "Stephen Lang"
+      "character": {
+        "name": "Miles Quaritch"
+      }
     },
     {
-      "character": {
-        "name": "Trudy Chacon",
-        "imageUrl": ""
-      },
       "actorId": "f19c147b933b4ed2c5574ef6",
-      "name": "Michelle Rodriguez"
+      "character": {
+        "name": "Trudy Chacon"
+      }
     },
     {
-      "character": {
-        "name": "Parker Selfridge",
-        "imageUrl": ""
-      },
       "actorId": "71a9d3757a085d345032d89e",
-      "name": "Giovanni Ribisi"
+      "character": {
+        "name": "Parker Selfridge"
+      }
     },
     {
-      "character": {
-        "name": "Norm Spellman",
-        "imageUrl": ""
-      },
       "actorId": "cc1bd413915afb8a696bfff3",
-      "name": "Joel David Moore"
+      "character": {
+        "name": "Norm Spellman"
+      }
     },
     {
-      "character": {
-        "name": "Eytukan",
-        "imageUrl": ""
-      },
       "actorId": "eb10eabec8f10e75bd00fb81",
-      "name": "Wes Studi"
-    },
-    {
       "character": {
-        "name": "Tsu'tey",
-        "imageUrl": ""
-      },
-      "actorId": "3b762e0e7c6cf942574547b6",
-      "name": "Laz Alonso"
+        "name": "Eytukan"
+      }
     },
     {
+      "actorId": "3b762e0e7c6cf942574547b6",
+      "character": {
+        "name": "Tsu'tey"
+      }
+    },
+    {
+      "actorId": "d386a741d1c9e62ed1894b81",
       "character": {
         "name": "Mo'at"
-      },
-      "actorId": "d386a741d1c9e62ed1894b81"
+      }
     }
   ],
   "collections": [

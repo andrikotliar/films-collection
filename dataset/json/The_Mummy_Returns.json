@@ -62,84 +62,64 @@
   "duration": 130,
   "cast": [
     {
-      "character": {
-        "name": "Rick O'Connell",
-        "imageUrl": ""
-      },
       "actorId": "5007865fcfa27f77a5caa971",
-      "name": "Brendan Fraser"
+      "character": {
+        "name": "Rick O'Connell"
+      }
     },
     {
-      "character": {
-        "name": "Evelyn Carnahan / Nefertiri",
-        "imageUrl": ""
-      },
       "actorId": "cac8a6d872c6bd724fce9824",
-      "name": "Rachel Weisz"
+      "character": {
+        "name": "Evelyn Carnahan / Nefertiri"
+      }
     },
     {
-      "character": {
-        "name": "Jonathan",
-        "imageUrl": ""
-      },
       "actorId": "182db493d2b81619d210955c",
-      "name": "John Hannah"
+      "character": {
+        "name": "Jonathan"
+      }
     },
     {
-      "character": {
-        "name": "Imhotep",
-        "imageUrl": ""
-      },
       "actorId": "a37d51d4e1ec3cb66c525e5a",
-      "name": "Arnold Vosloo"
+      "character": {
+        "name": "Imhotep"
+      }
     },
     {
-      "character": {
-        "name": "Ardeth Bay",
-        "imageUrl": ""
-      },
       "actorId": "b0f70d5f44ea97682c22fbbf",
-      "name": "Oded Fehr"
+      "character": {
+        "name": "Ardeth Bay"
+      }
     },
     {
-      "character": {
-        "name": "Meela / Anck-Su-Namun",
-        "imageUrl": ""
-      },
       "actorId": "f31eb6de5cd2b7be7303209f",
-      "name": "Patricia Velasquez"
+      "character": {
+        "name": "Meela / Anck-Su-Namun"
+      }
     },
     {
-      "character": {
-        "name": "Alex",
-        "imageUrl": ""
-      },
       "actorId": "7bfb71135279794f9896a025",
-      "name": "Freddie Boath"
+      "character": {
+        "name": "Alex"
+      }
     },
     {
-      "character": {
-        "name": "Mr. Hafez",
-        "imageUrl": ""
-      },
       "actorId": "800218022aa20fb2c200dd27",
-      "name": "Alun Armstrong"
+      "character": {
+        "name": "Mr. Hafez"
+      }
     },
     {
-      "character": {
-        "name": "The Scorpion King",
-        "imageUrl": ""
-      },
       "actorId": "ba034c3da56225c54e6b1545",
-      "name": "Dwayne Johnson"
+      "character": {
+        "name": "The Scorpion King"
+      }
     },
     {
-      "character": {
-        "name": "Izzy",
-        "imageUrl": ""
-      },
       "actorId": "103905282404d76164492cee",
-      "name": "Shaun Parkes"
+      "character": {
+        "name": "Izzy"
+      }
     }
   ],
   "collections": [

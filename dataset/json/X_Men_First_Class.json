@@ -72,76 +72,58 @@
   "duration": 132,
   "cast": [
     {
-      "character": {
-        "name": "Charles Xavier",
-        "imageUrl": ""
-      },
       "actorId": "1fbb6ff101ef506a0bf61497",
-      "name": "James McAvoy"
+      "character": {
+        "name": "Charles Xavier"
+      }
     },
     {
-      "character": {
-        "name": "Erik Lensherr",
-        "imageUrl": ""
-      },
       "actorId": "bec6ffd8479a9c7a4c2f3e56",
-      "name": "Michael Fassbender"
+      "character": {
+        "name": "Erik Lensherr"
+      }
     },
     {
-      "character": {
-        "name": "Sebastian Shaw",
-        "imageUrl": ""
-      },
       "actorId": "0912796b1b5a9ce13d2c7a58",
-      "name": "Kevin Bacon"
+      "character": {
+        "name": "Sebastian Shaw"
+      }
     },
     {
-      "character": {
-        "name": "Moira MacTaggert",
-        "imageUrl": ""
-      },
       "actorId": "4672780c056f845c33a4110e",
-      "name": "Rose Byrne"
+      "character": {
+        "name": "Moira MacTaggert"
+      }
     },
     {
-      "character": {
-        "name": "Raven / Mystique",
-        "imageUrl": ""
-      },
       "actorId": "c99e4f6dc0695561848dc5be",
-      "name": "Jennifer Lawrence"
+      "character": {
+        "name": "Raven / Mystique"
+      }
     },
     {
-      "character": {
-        "name": "Emma Frost",
-        "imageUrl": ""
-      },
       "actorId": "89fb95b302ae17c8b6749be1",
-      "name": "January Jones"
+      "character": {
+        "name": "Emma Frost"
+      }
     },
     {
-      "character": {
-        "name": "Hank / Beast",
-        "imageUrl": ""
-      },
       "actorId": "f5742b02c88fb0465409276f",
-      "name": "Nicholas Hoult"
+      "character": {
+        "name": "Hank / Beast"
+      }
     },
     {
-      "character": {
-        "name": "Cassidy / Banshee",
-        "imageUrl": ""
-      },
       "actorId": "555ccb293f45295069ba5e62",
-      "name": "Caleb Landry Jones"
+      "character": {
+        "name": "Cassidy / Banshee"
+      }
     },
     {
-      "character": {
-        "name": "Alex Summers / Havok",
-        "imageUrl": ""
-      },
       "actorId": "6b14965495f175568fb12f8f",
-      "name": "Lucas Till"
+      "character": {
+        "name": "Alex Summers / Havok"
+      }
     }
   ],
   "collections": [

@@ -60,92 +60,70 @@
   "duration": 137,
   "cast": [
     {
-      "character": {
-        "name": "Peter Quill / Star-Lord",
-        "imageUrl": ""
-      },
       "actorId": "81002d63c8ad158916752ee2",
-      "name": "Chris Pratt"
+      "character": {
+        "name": "Peter Quill / Star-Lord"
+      }
     },
     {
-      "character": {
-        "name": "Gamora",
-        "imageUrl": ""
-      },
       "actorId": "0f44c8581608c442261413e4",
-      "name": "Zoe Saldana"
+      "character": {
+        "name": "Gamora"
+      }
     },
     {
-      "character": {
-        "name": "Drax",
-        "imageUrl": ""
-      },
       "actorId": "6e7815767f3afa70c3dc69c5",
-      "name": "Dave Bautista"
+      "character": {
+        "name": "Drax"
+      }
     },
     {
-      "character": {
-        "name": "Baby Groot",
-        "imageUrl": ""
-      },
       "actorId": "8acb4ceb24e197fffd95c777",
-      "name": "Vin Diesel"
+      "character": {
+        "name": "Baby Groot"
+      }
     },
     {
-      "character": {
-        "name": "Rocket",
-        "imageUrl": ""
-      },
       "actorId": "dc4912e5f14e4bfea9c78218",
-      "name": "Bradley Cooper"
+      "character": {
+        "name": "Rocket"
+      }
     },
     {
-      "character": {
-        "name": "Yondu",
-        "imageUrl": ""
-      },
       "actorId": "b99fd4cb12dd52764f91df15",
-      "name": "Michael Rooker"
+      "character": {
+        "name": "Yondu"
+      }
     },
     {
-      "character": {
-        "name": "Nebula",
-        "imageUrl": ""
-      },
       "actorId": "7b67d3adc189860cca3bbf5f",
-      "name": "Karen Gillan"
+      "character": {
+        "name": "Nebula"
+      }
     },
     {
-      "character": {
-        "name": "Mantis",
-        "imageUrl": ""
-      },
       "actorId": "ea853e2289646fab62637582",
-      "name": "Pom Klementieff"
+      "character": {
+        "name": "Mantis"
+      }
     },
     {
-      "character": {
-        "name": "Stakar Ogord",
-        "imageUrl": ""
-      },
       "actorId": "b1c5bed21ae15891190096ed",
-      "name": "Sylvester Stallone"
+      "character": {
+        "name": "Stakar Ogord"
+      }
     },
     {
-      "character": {
-        "name": "Ego",
-        "imageUrl": ""
-      },
       "actorId": "aa95a96eaca156e9d7fdff51",
-      "name": "Kurt Russell"
+      "character": {
+        "name": "Ego"
+      }
     },
     {
-      "character": {
-        "name": "Ayesha",
-        "imageUrl": ""
-      },
       "actorId": "d346e8fbcf12e4d8761b6d8a",
-      "name": "Elizabeth Debicki"
+      "character": {
+        "name": "Ayesha"
+      }
     }
   ],
   "collections": [

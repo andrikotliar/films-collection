@@ -75,112 +75,94 @@
   "duration": 201,
   "cast": [
     {
-      "character": {
-        "name": "Frodo Baggins",
-        "imageUrl": ""
-      },
       "actorId": "afed96df0db76b317cb36711",
-      "name": "Elijah Wood"
+      "character": {
+        "name": "Frodo Baggins"
+      }
     },
     {
-      "character": {
-        "name": "Gandalf",
-        "imageUrl": ""
-      },
       "actorId": "aa9b2474d8c4c51e34160de8",
-      "name": "Ian McKellen"
+      "character": {
+        "name": "Gandalf"
+      }
     },
     {
-      "character": {
-        "name": "Samwise Gamgee",
-        "imageUrl": ""
-      },
       "actorId": "93637b8d05eb8514a37ff349",
-      "name": "Sean Astin"
+      "character": {
+        "name": "Samwise Gamgee"
+      }
     },
     {
-      "character": {
-        "name": "Aragorn",
-        "imageUrl": ""
-      },
       "actorId": "e1ff919254c44052867479fb",
-      "name": "Viggo Mortensen"
+      "character": {
+        "name": "Aragorn"
+      }
     },
     {
-      "character": {
-        "name": "Gimli",
-        "imageUrl": ""
-      },
       "actorId": "2555ed16eef45d9015e8aa02",
-      "name": "John Rhys-Davies"
+      "character": {
+        "name": "Gimli"
+      }
     },
     {
-      "character": {
-        "name": "Legolas",
-        "imageUrl": ""
-      },
       "actorId": "450fa3d27820892d0f5afa0c",
-      "name": "Orlando Bloom"
+      "character": {
+        "name": "Legolas"
+      }
     },
     {
-      "character": {
-        "name": "Galadriel",
-        "imageUrl": ""
-      },
       "actorId": "7a354da5768fef2be29583f0",
-      "name": "Cate Blanchett"
+      "character": {
+        "name": "Galadriel"
+      }
     },
     {
-      "character": {
-        "name": "Elrond",
-        "imageUrl": ""
-      },
       "actorId": "9d72ccad0a0c60872b91d2d3",
-      "name": "Hugo Weaving"
-    },
-    {
       "character": {
-        "name": "Gollum",
-        "imageUrl": ""
-      },
-      "actorId": "e5253cdc8c1fb87953720d64",
-      "name": "Andy Serkis"
+        "name": "Elrond"
+      }
     },
     {
+      "actorId": "e5253cdc8c1fb87953720d64",
+      "character": {
+        "name": "Gollum"
+      }
+    },
+    {
+      "actorId": "20efa4c64021c69982d7f5fd",
       "character": {
         "name": "Denethor"
-      },
-      "actorId": "20efa4c64021c69982d7f5fd"
+      }
     },
     {
+      "actorId": "ce9f35f697acd8a8d4ac4242",
       "character": {
         "name": "Pippin"
-      },
-      "actorId": "ce9f35f697acd8a8d4ac4242"
+      }
     },
     {
+      "actorId": "d981869f14315c851cdcb1dd",
       "character": {
         "name": "Merry"
-      },
-      "actorId": "d981869f14315c851cdcb1dd"
+      }
     },
     {
+      "actorId": "9054c0064f19a48344d6d874",
       "character": {
         "name": "Theoden"
-      },
-      "actorId": "9054c0064f19a48344d6d874"
+      }
     },
     {
+      "actorId": "efc61c81c4fdcdbf339820e8",
       "character": {
         "name": "Arwen"
-      },
-      "actorId": "efc61c81c4fdcdbf339820e8"
+      }
     },
     {
+      "actorId": "1e6f63ac26841c5c35756f43",
       "character": {
         "name": "Eowyn"
-      },
-      "actorId": "1e6f63ac26841c5c35756f43"
+      }
     }
   ],
   "collections": [

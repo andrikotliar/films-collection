@@ -69,60 +69,46 @@
   "duration": 150,
   "cast": [
     {
-      "character": {
-        "name": "Prince Caspian",
-        "imageUrl": ""
-      },
       "actorId": "36e7006646427085dce200e9",
-      "name": "Ben Barnes"
+      "character": {
+        "name": "Prince Caspian"
+      }
     },
     {
-      "character": {
-        "name": "Lucy Pevensie",
-        "imageUrl": ""
-      },
       "actorId": "6dd8a995cd5e87e690ecc3ac",
-      "name": "Georgie Henley"
+      "character": {
+        "name": "Lucy Pevensie"
+      }
     },
     {
-      "character": {
-        "name": "Edmund Pevensie",
-        "imageUrl": ""
-      },
       "actorId": "01194dbf406f3663fcba0c6e",
-      "name": "Skandar Keynes"
+      "character": {
+        "name": "Edmund Pevensie"
+      }
     },
     {
-      "character": {
-        "name": "Peter Pevensie",
-        "imageUrl": ""
-      },
       "actorId": "d47f16dc3be1dad91d3863a9",
-      "name": "William Moseley"
+      "character": {
+        "name": "Peter Pevensie"
+      }
     },
     {
-      "character": {
-        "name": "Susan Pevensie",
-        "imageUrl": ""
-      },
       "actorId": "88db173cc499403e6f33e746",
-      "name": "Anna Popplewell"
+      "character": {
+        "name": "Susan Pevensie"
+      }
     },
     {
-      "character": {
-        "name": "Miraz",
-        "imageUrl": ""
-      },
       "actorId": "bcec561876924781febcb664",
-      "name": "Sergio Castellitto"
+      "character": {
+        "name": "Miraz"
+      }
     },
     {
-      "character": {
-        "name": "Trumpkin",
-        "imageUrl": ""
-      },
       "actorId": "3e6f63e7baf413d7ab9e8d1b",
-      "name": "Peter Dinklage"
+      "character": {
+        "name": "Trumpkin"
+      }
     }
   ],
   "collections": [

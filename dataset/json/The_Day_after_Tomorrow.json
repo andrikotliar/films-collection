@@ -64,92 +64,70 @@
   "duration": 123,
   "cast": [
     {
-      "character": {
-        "name": "Jack Hall",
-        "imageUrl": ""
-      },
       "actorId": "7ac596d902e363a2a1a2f4d4",
-      "name": "Dennis Quaid"
+      "character": {
+        "name": "Jack Hall"
+      }
     },
     {
-      "character": {
-        "name": "Sam Hall",
-        "imageUrl": ""
-      },
       "actorId": "644ca0c0a204f03134f45fbf",
-      "name": "Jake Gyllenhaal"
+      "character": {
+        "name": "Sam Hall"
+      }
     },
     {
-      "character": {
-        "name": "Laura Chapman",
-        "imageUrl": ""
-      },
       "actorId": "5860149034330b0daf198a9c",
-      "name": "Emmy Rossum"
+      "character": {
+        "name": "Laura Chapman"
+      }
     },
     {
-      "character": {
-        "name": "Jason Evans",
-        "imageUrl": ""
-      },
       "actorId": "f5b0745727fa3699393b3e43",
-      "name": "Dash Mihok"
+      "character": {
+        "name": "Jason Evans"
+      }
     },
     {
-      "character": {
-        "name": "Frank Harris",
-        "imageUrl": ""
-      },
       "actorId": "6410f8802a49b3854a2dae3c",
-      "name": "Jay O. Sanders"
+      "character": {
+        "name": "Frank Harris"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Lucy Hall",
-        "imageUrl": ""
-      },
       "actorId": "fa8a78958da76d1f16b2e04a",
-      "name": "Sela Ward"
+      "character": {
+        "name": "Dr. Lucy Hall"
+      }
     },
     {
-      "character": {
-        "name": "J.D.",
-        "imageUrl": ""
-      },
       "actorId": "eacf0b0aa94604e8c79c30d3",
-      "name": "Austin Nichols"
+      "character": {
+        "name": "J.D."
+      }
     },
     {
-      "character": {
-        "name": "Brian Parks",
-        "imageUrl": ""
-      },
       "actorId": "127112187c675349489d97d9",
-      "name": "Arjay Smith"
+      "character": {
+        "name": "Brian Parks"
+      }
     },
     {
-      "character": {
-        "name": "Janet Tokada",
-        "imageUrl": ""
-      },
       "actorId": "d0b8dd370a1eca130be31245",
-      "name": "Tamlyn Tomita"
+      "character": {
+        "name": "Janet Tokada"
+      }
     },
     {
-      "character": {
-        "name": "Parker",
-        "imageUrl": ""
-      },
       "actorId": "c81fdd370ff55514d2b890e5",
-      "name": "Sasha Roiz"
+      "character": {
+        "name": "Parker"
+      }
     },
     {
-      "character": {
-        "name": "Terry Rapson",
-        "imageUrl": ""
-      },
       "actorId": "7619a1dbce75b71bad02d766",
-      "name": "Ian Holm"
+      "character": {
+        "name": "Terry Rapson"
+      }
     }
   ],
   "collections": [

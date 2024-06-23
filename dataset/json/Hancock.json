@@ -71,36 +71,28 @@
   "duration": 92,
   "cast": [
     {
-      "character": {
-        "name": "John Hancock",
-        "imageUrl": ""
-      },
       "actorId": "b59613245389fb066c309182",
-      "name": "Will Smith"
+      "character": {
+        "name": "John Hancock"
+      }
     },
     {
-      "character": {
-        "name": "Mary",
-        "imageUrl": ""
-      },
       "actorId": "37979239d681a41f120bef93",
-      "name": "Charlize Theron"
+      "character": {
+        "name": "Mary"
+      }
     },
     {
-      "character": {
-        "name": "Ray",
-        "imageUrl": ""
-      },
       "actorId": "163bbc2f0761bbbbb833b6d3",
-      "name": "Jason Bateman"
+      "character": {
+        "name": "Ray"
+      }
     },
     {
-      "character": {
-        "name": "Kenneth \"Red\" Parker",
-        "imageUrl": ""
-      },
       "actorId": "3aa02c5c103eb81507ea1152",
-      "name": "Eddie Marsan"
+      "character": {
+        "name": "Kenneth \"Red\" Parker"
+      }
     }
   ],
   "collections": [

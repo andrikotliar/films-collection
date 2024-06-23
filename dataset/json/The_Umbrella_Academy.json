@@ -195,115 +195,88 @@
   "duration": 1200,
   "cast": [
     {
-      "character": {
-        "name": "Luther Hargreeves",
-        "imageUrl": ""
-      },
       "actorId": "eebbf9192e962f80049539b6",
-      "name": "Tom Hopper"
+      "character": {
+        "name": "Luther Hargreeves"
+      }
     },
     {
-      "character": {
-        "name": "Diego Hargreeves",
-        "imageUrl": ""
-      },
       "actorId": "a47540ae74c5271635c7cd5f",
-      "name": "David Castañeda"
+      "character": {
+        "name": "Diego Hargreeves"
+      }
     },
     {
-      "character": {
-        "name": "Allison Hargreeves",
-        "imageUrl": ""
-      },
       "actorId": "5da043b2e36a46802bf43526",
-      "name": "Emmy Raver-Lampman"
+      "character": {
+        "name": "Allison Hargreeves"
+      }
     },
     {
-      "character": {
-        "name": "Klaus Hargreeves",
-        "imageUrl": ""
-      },
       "actorId": "7a1eb3dd5cf9489c99835410",
-      "name": "Robert Sheehan"
+      "character": {
+        "name": "Klaus Hargreeves"
+      }
     },
     {
-      "character": {
-        "name": "Number Five",
-        "imageUrl": ""
-      },
       "actorId": "c5b83d5624345ac4383c0895",
-      "name": "Aidan Gallagher"
+      "character": {
+        "name": "Number Five"
+      }
     },
     {
-      "character": {
-        "name": "Ben Hargreeves",
-        "imageUrl": ""
-      },
       "actorId": "c6ca5da3bb08256d70160b52",
-      "name": "Justin H. Min"
+      "character": {
+        "name": "Ben Hargreeves"
+      }
     },
     {
-      "character": {
-        "name": "Vanya Hargreeves",
-        "imageUrl": ""
-      },
       "actorId": "8c40238b64773c27425d940e",
-      "name": "Ellen Page"
+      "character": {
+        "name": "Vanya Hargreeves"
+      }
     },
     {
-      "character": {
-        "name": "Reginald Hargreeves",
-        "imageUrl": ""
-      },
       "actorId": "c80dd6b2debac54cc37a80dd",
-      "name": "Colm Feore"
+      "character": {
+        "name": "Reginald Hargreeves"
+      }
     },
     {
-      "character": {
-        "name": "Lila Pitts",
-        "imageUrl": ""
-      },
       "actorId": "34856949a9b9448c66632074",
-      "name": "Ritu Arya"
+      "character": {
+        "name": "Lila Pitts"
+      }
     },
     {
-      "character": {
-        "name": "Grace",
-        "imageUrl": ""
-      },
       "actorId": "ceda14ba9fde142da4e85193",
-      "name": "Jordan Claire Robbins"
+      "character": {
+        "name": "Grace"
+      }
     },
     {
-      "character": {
-        "name": "The Handler",
-        "imageUrl": ""
-      },
       "actorId": "f16c7e329b6cb3c67de971ea",
-      "name": "Kate Walsh"
+      "character": {
+        "name": "The Handler"
+      }
     },
     {
-      "character": {
-        "name": "Hazel",
-        "imageUrl": ""
-      },
       "actorId": "fc30f35646a6d3049eff07c1",
-      "name": "Cameron Britton"
+      "character": {
+        "name": "Hazel"
+      }
     },
     {
-      "character": {
-        "name": "Cha-Cha",
-        "imageUrl": ""
-      },
       "actorId": "fd5c19d2483bb0ad1d047592",
-      "name": "Mary J. Blige"
+      "character": {
+        "name": "Cha-Cha"
+      }
     },
     {
+      "actorId": "6262ddbf525d013aec6ab593",
       "character": {
-        "name": "Pogo",
-        "imageUrl": ""
-      },
-      "actorId": "6262ddbf525d013aec6ab593"
+        "name": "Pogo"
+      }
     }
   ],
   "collections": [

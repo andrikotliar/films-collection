@@ -74,52 +74,40 @@
   "duration": 131,
   "cast": [
     {
-      "character": {
-        "name": "Ethan Hunt",
-        "imageUrl": ""
-      },
       "actorId": "d1899eef1c53bc13798a897c",
-      "name": "Tom Cruise"
+      "character": {
+        "name": "Ethan Hunt"
+      }
     },
     {
-      "character": {
-        "name": "William Brandt",
-        "imageUrl": ""
-      },
       "actorId": "333fe7873ab5451125a195a7",
-      "name": "Jeremy Renner"
+      "character": {
+        "name": "William Brandt"
+      }
     },
     {
-      "character": {
-        "name": "Benji Dunn",
-        "imageUrl": ""
-      },
       "actorId": "2e7736bf7187e688395d7a2c",
-      "name": "Simon Pegg"
+      "character": {
+        "name": "Benji Dunn"
+      }
     },
     {
-      "character": {
-        "name": "Ilsa Faust",
-        "imageUrl": ""
-      },
       "actorId": "4a98bdee97707da082e29566",
-      "name": "Rebecca Ferguson"
+      "character": {
+        "name": "Ilsa Faust"
+      }
     },
     {
-      "character": {
-        "name": "Luther Stickell",
-        "imageUrl": ""
-      },
       "actorId": "4b4ebf97ca75b72088e2c948",
-      "name": "Ving Rhames"
+      "character": {
+        "name": "Luther Stickell"
+      }
     },
     {
-      "character": {
-        "name": "Lane",
-        "imageUrl": ""
-      },
       "actorId": "37e4ebf4fbaa8aab7d89a9c4",
-      "name": "Sean Harris"
+      "character": {
+        "name": "Lane"
+      }
     }
   ],
   "collections": [

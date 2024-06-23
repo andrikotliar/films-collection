@@ -59,60 +59,46 @@
   "duration": 134,
   "cast": [
     {
-      "character": {
-        "name": "Natasha Romanoff / Black Widow",
-        "imageUrl": ""
-      },
       "actorId": "64286f842f66cb88506271cc",
-      "name": "Scarlett Johansson"
+      "character": {
+        "name": "Natasha Romanoff / Black Widow"
+      }
     },
     {
-      "character": {
-        "name": "Yelena Belova / Black Widow",
-        "imageUrl": ""
-      },
       "actorId": "46f80ff2f064a6797fb228ee",
-      "name": "Florence Pugh"
+      "character": {
+        "name": "Yelena Belova / Black Widow"
+      }
     },
     {
-      "character": {
-        "name": "Melina Vostokoff / Black Widow",
-        "imageUrl": ""
-      },
       "actorId": "cac8a6d872c6bd724fce9824",
-      "name": "Rachel Weisz"
+      "character": {
+        "name": "Melina Vostokoff / Black Widow"
+      }
     },
     {
-      "character": {
-        "name": "Alexei Shostakov / Red Guardian",
-        "imageUrl": ""
-      },
       "actorId": "99e2f170a8daaceec4fbd744",
-      "name": "David Harbour"
+      "character": {
+        "name": "Alexei Shostakov / Red Guardian"
+      }
     },
     {
-      "character": {
-        "name": "Rick Mason",
-        "imageUrl": ""
-      },
       "actorId": "746052b74ff504df95e4d257",
-      "name": "O-T Fagbenle"
+      "character": {
+        "name": "Rick Mason"
+      }
     },
     {
-      "character": {
-        "name": "Antonia Dreykov / Taskmaster",
-        "imageUrl": ""
-      },
       "actorId": "b9175a2816503116bd2f93a9",
-      "name": "Olga Kurylenko"
+      "character": {
+        "name": "Antonia Dreykov / Taskmaster"
+      }
     },
     {
-      "character": {
-        "name": "Dreykov",
-        "imageUrl": ""
-      },
       "actorId": "0ec2e2683da5b8fcdff58d89",
-      "name": "Ray Winstone"
+      "character": {
+        "name": "Dreykov"
+      }
     }
   ],
   "collections": [

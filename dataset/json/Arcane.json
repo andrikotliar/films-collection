@@ -101,92 +101,70 @@
   "duration": 410,
   "cast": [
     {
-      "character": {
-        "name": "Vi",
-        "imageUrl": ""
-      },
       "actorId": "7e009e344b1d17321f88e62c",
-      "name": "Hailee Steinfeld"
+      "character": {
+        "name": "Vi"
+      }
     },
     {
-      "character": {
-        "name": "Jinx",
-        "imageUrl": ""
-      },
       "actorId": "fe6dafd9367a52a6060a4b8a",
-      "name": "Ella Purnell"
+      "character": {
+        "name": "Jinx"
+      }
     },
     {
-      "character": {
-        "name": "Jayce",
-        "imageUrl": ""
-      },
       "actorId": "a7af62b3403e31d5c6db8648",
-      "name": "Kevin Alejandro"
+      "character": {
+        "name": "Jayce"
+      }
     },
     {
-      "character": {
-        "name": "Silco",
-        "imageUrl": ""
-      },
       "actorId": "3160b4ddf40b96dda240f985",
-      "name": "Jason Spisak"
+      "character": {
+        "name": "Silco"
+      }
     },
     {
-      "character": {
-        "name": "Viktor",
-        "imageUrl": ""
-      },
       "actorId": "7c78916145e93dc6de49d74a",
-      "name": "Harry Lloyd"
+      "character": {
+        "name": "Viktor"
+      }
     },
     {
-      "character": {
-        "name": "Mel Medarda",
-        "imageUrl": ""
-      },
       "actorId": "101e36f1a5662c85c8668c5f",
-      "name": "Toks Olagundoye"
+      "character": {
+        "name": "Mel Medarda"
+      }
     },
     {
-      "character": {
-        "name": "Vander",
-        "imageUrl": ""
-      },
       "actorId": "edcee36f388eca4becb20e59",
-      "name": "JB Blanc"
+      "character": {
+        "name": "Vander"
+      }
     },
     {
-      "character": {
-        "name": "Marcus",
-        "imageUrl": ""
-      },
       "actorId": "9eb32f003eef46ba941bc074",
-      "name": "Remy Hii"
+      "character": {
+        "name": "Marcus"
+      }
     },
     {
-      "character": {
-        "name": "Caitlyn",
-        "imageUrl": ""
-      },
       "actorId": "9653453e3c9469d1296e9751",
-      "name": "Katie Leung"
+      "character": {
+        "name": "Caitlyn"
+      }
     },
     {
-      "character": {
-        "name": "Heimerdinger",
-        "imageUrl": ""
-      },
       "actorId": "63f2459a0d049e96a665f4aa",
-      "name": "Mick Wingert"
+      "character": {
+        "name": "Heimerdinger"
+      }
     },
     {
-      "character": {
-        "name": "Ekko",
-        "imageUrl": ""
-      },
       "actorId": "5ebd6bd81c77390df14203aa",
-      "name": "Reed Shannon"
+      "character": {
+        "name": "Ekko"
+      }
     }
   ],
   "collections": [

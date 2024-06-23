@@ -68,44 +68,34 @@
   "duration": 118,
   "cast": [
     {
-      "character": {
-        "name": "Hitch",
-        "imageUrl": ""
-      },
       "actorId": "b59613245389fb066c309182",
-      "name": "Will Smith"
+      "character": {
+        "name": "Hitch"
+      }
     },
     {
-      "character": {
-        "name": "Sara",
-        "imageUrl": ""
-      },
       "actorId": "0ede821f7322bc3b013ad22f",
-      "name": "Eva Mendes"
+      "character": {
+        "name": "Sara"
+      }
     },
     {
-      "character": {
-        "name": "Albert",
-        "imageUrl": ""
-      },
       "actorId": "a5516172d9530cff2bf90147",
-      "name": "Kevin James"
+      "character": {
+        "name": "Albert"
+      }
     },
     {
-      "character": {
-        "name": "Allegra",
-        "imageUrl": ""
-      },
       "actorId": "3799ff2d3b71025b401a6bb7",
-      "name": "Amber Valletta"
+      "character": {
+        "name": "Allegra"
+      }
     },
     {
-      "character": {
-        "name": "Casey",
-        "imageUrl": ""
-      },
       "actorId": "fe525846d4543f6f1daffb40",
-      "name": "Julie Ann Emery"
+      "character": {
+        "name": "Casey"
+      }
     }
   ],
   "collections": [

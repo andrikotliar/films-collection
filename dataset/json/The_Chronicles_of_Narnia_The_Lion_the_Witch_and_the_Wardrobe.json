@@ -72,68 +72,52 @@
   "duration": 145,
   "cast": [
     {
-      "character": {
-        "name": "Lucy Pevensie",
-        "imageUrl": ""
-      },
       "actorId": "6dd8a995cd5e87e690ecc3ac",
-      "name": "Georgie Henley"
+      "character": {
+        "name": "Lucy Pevensie"
+      }
     },
     {
-      "character": {
-        "name": "Edmund Pevensie",
-        "imageUrl": ""
-      },
       "actorId": "01194dbf406f3663fcba0c6e",
-      "name": "Skandar Keynes"
+      "character": {
+        "name": "Edmund Pevensie"
+      }
     },
     {
-      "character": {
-        "name": "Peter Pevensie",
-        "imageUrl": ""
-      },
       "actorId": "d47f16dc3be1dad91d3863a9",
-      "name": "William Moseley"
+      "character": {
+        "name": "Peter Pevensie"
+      }
     },
     {
-      "character": {
-        "name": "Susan Pevensie",
-        "imageUrl": ""
-      },
       "actorId": "88db173cc499403e6f33e746",
-      "name": "Anna Popplewell"
+      "character": {
+        "name": "Susan Pevensie"
+      }
     },
     {
-      "character": {
-        "name": "White Witch",
-        "imageUrl": ""
-      },
       "actorId": "f374f4f88b7457cf966ef58c",
-      "name": "Tilda Swinton"
+      "character": {
+        "name": "White Witch"
+      }
     },
     {
-      "character": {
-        "name": "Mr. Tumnus",
-        "imageUrl": ""
-      },
       "actorId": "1fbb6ff101ef506a0bf61497",
-      "name": "James McAvoy"
+      "character": {
+        "name": "Mr. Tumnus"
+      }
     },
     {
-      "character": {
-        "name": "Professor Kirke",
-        "imageUrl": ""
-      },
       "actorId": "1c5eeaeb86ef47e50b94444b",
-      "name": "Jim Broadbent"
+      "character": {
+        "name": "Professor Kirke"
+      }
     },
     {
-      "character": {
-        "name": "Aslan",
-        "imageUrl": ""
-      },
       "actorId": "017e02072132c3a7ad26b56e",
-      "name": "Liam Neeson"
+      "character": {
+        "name": "Aslan"
+      }
     }
   ],
   "collections": [

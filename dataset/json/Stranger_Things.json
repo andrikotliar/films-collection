@@ -155,114 +155,94 @@
   "duration": 1275,
   "cast": [
     {
-      "character": {
-        "name": "Joyce Byers",
-        "imageUrl": ""
-      },
       "actorId": "f49c1aa95b7c6f032daebb75",
-      "name": "Winona Ryder"
+      "character": {
+        "name": "Joyce Byers"
+      }
     },
     {
-      "character": {
-        "name": "Jim Hopper",
-        "imageUrl": ""
-      },
       "actorId": "99e2f170a8daaceec4fbd744",
-      "name": "David Harbour"
+      "character": {
+        "name": "Jim Hopper"
+      }
     },
     {
-      "character": {
-        "name": "Mike Wheeler",
-        "imageUrl": ""
-      },
       "actorId": "d019a63f76f47b47d27ef05a",
-      "name": "Finn Wolfhard"
+      "character": {
+        "name": "Mike Wheeler"
+      }
     },
     {
-      "character": {
-        "name": "Eleven",
-        "imageUrl": ""
-      },
       "actorId": "659e91d82995beb75589a6a1",
-      "name": "Millie Bobby Brown"
+      "character": {
+        "name": "Eleven"
+      }
     },
     {
-      "character": {
-        "name": "Dustin Henderson",
-        "imageUrl": ""
-      },
       "actorId": "64816fa45482db3b1be1dcf2",
-      "name": "Gaten Matarazzo"
+      "character": {
+        "name": "Dustin Henderson"
+      }
     },
     {
-      "character": {
-        "name": "Lucas Sinclair",
-        "imageUrl": ""
-      },
       "actorId": "364ebbb6042bc006926cf999",
-      "name": "Caleb McLaughlin"
+      "character": {
+        "name": "Lucas Sinclair"
+      }
     },
     {
-      "character": {
-        "name": "Nancy Wheeler",
-        "imageUrl": ""
-      },
       "actorId": "8ea74b1c9a04eff00385489f",
-      "name": "Natalia Dyer"
+      "character": {
+        "name": "Nancy Wheeler"
+      }
     },
     {
-      "character": {
-        "name": "Jonathan Byers",
-        "imageUrl": ""
-      },
       "actorId": "9beee3e1311dcffdfcc06263",
-      "name": "Charlie Heaton"
+      "character": {
+        "name": "Jonathan Byers"
+      }
     },
     {
-      "character": {
-        "name": "Steve Harrington",
-        "imageUrl": ""
-      },
       "actorId": "a58ffdce020ad237e2013ece",
-      "name": "Joe Keery"
-    },
-    {
       "character": {
-        "name": "Will Byers",
-        "imageUrl": ""
-      },
-      "actorId": "c5578f884df0cb8b46cd43b8",
-      "name": "Noah Schnapp"
+        "name": "Steve Harrington"
+      }
     },
     {
+      "actorId": "c5578f884df0cb8b46cd43b8",
+      "character": {
+        "name": "Will Byers"
+      }
+    },
+    {
+      "actorId": "ae59b91d424e2bfb80aa5ddb",
       "character": {
         "name": "Dr. Martin Brenner"
-      },
-      "actorId": "ae59b91d424e2bfb80aa5ddb"
+      }
     },
     {
+      "actorId": "b8abdc76173c8624a4ff5c8e",
       "character": {
         "name": "Max Mayfield"
-      },
-      "actorId": "b8abdc76173c8624a4ff5c8e"
+      }
     },
     {
+      "actorId": "17b454c32564b8ecc3eaeef8",
       "character": {
         "name": "Eddie Munson"
-      },
-      "actorId": "17b454c32564b8ecc3eaeef8"
+      }
     },
     {
+      "actorId": "28a97f2df4abf759d00511f3",
       "character": {
         "name": "Vecna"
-      },
-      "actorId": "28a97f2df4abf759d00511f3"
+      }
     },
     {
+      "actorId": "7d6b2c4c91b6daad7ababf0e",
       "character": {
         "name": "Billy Hargrove"
-      },
-      "actorId": "7d6b2c4c91b6daad7ababf0e"
+      }
     }
   ],
   "collections": [

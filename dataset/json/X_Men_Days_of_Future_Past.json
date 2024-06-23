@@ -63,108 +63,82 @@
   "duration": 131,
   "cast": [
     {
-      "character": {
-        "name": "Logan / Wolverine",
-        "imageUrl": ""
-      },
       "actorId": "544abb6ffddc8ddf4056b862",
-      "name": "Hugh Jackman"
+      "character": {
+        "name": "Logan / Wolverine"
+      }
     },
     {
-      "character": {
-        "name": "Charles Xavier",
-        "imageUrl": ""
-      },
       "actorId": "1fbb6ff101ef506a0bf61497",
-      "name": "James McAvoy"
+      "character": {
+        "name": "Charles Xavier"
+      }
     },
     {
-      "character": {
-        "name": "Erik Lehnsherr",
-        "imageUrl": ""
-      },
       "actorId": "bec6ffd8479a9c7a4c2f3e56",
-      "name": "Michael Fassbender"
+      "character": {
+        "name": "Erik Lehnsherr"
+      }
     },
     {
-      "character": {
-        "name": "Raven / Mystique",
-        "imageUrl": ""
-      },
       "actorId": "c99e4f6dc0695561848dc5be",
-      "name": "Jennifer Lawrence"
+      "character": {
+        "name": "Raven / Mystique"
+      }
     },
     {
-      "character": {
-        "name": "Storm",
-        "imageUrl": ""
-      },
       "actorId": "bb3c268d0e1fceec2b8b8d58",
-      "name": "Halle Berry"
+      "character": {
+        "name": "Storm"
+      }
     },
     {
-      "character": {
-        "name": "Hank / Beast",
-        "imageUrl": ""
-      },
       "actorId": "f5742b02c88fb0465409276f",
-      "name": "Nicholas Hoult"
+      "character": {
+        "name": "Hank / Beast"
+      }
     },
     {
-      "character": {
-        "name": "Rogue",
-        "imageUrl": ""
-      },
       "actorId": "b3406982f9ef021d2d13e050",
-      "name": "Anna Paquin"
+      "character": {
+        "name": "Rogue"
+      }
     },
     {
-      "character": {
-        "name": "Kitty Pryde",
-        "imageUrl": ""
-      },
       "actorId": "8c40238b64773c27425d940e",
-      "name": "Ellen Page"
+      "character": {
+        "name": "Kitty Pryde"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Bolivar Trask",
-        "imageUrl": ""
-      },
       "actorId": "3e6f63e7baf413d7ab9e8d1b",
-      "name": "Peter Dinklage"
+      "character": {
+        "name": "Dr. Bolivar Trask"
+      }
     },
     {
-      "character": {
-        "name": "Bobby / Iceman",
-        "imageUrl": ""
-      },
       "actorId": "f2089daf6d891ecc5cc339b5",
-      "name": "Shawn Ashmore"
+      "character": {
+        "name": "Bobby / Iceman"
+      }
     },
     {
-      "character": {
-        "name": "Peter / Quicksilver",
-        "imageUrl": ""
-      },
       "actorId": "22c5f4431c465fad5fb3b185",
-      "name": "Evan Peters"
+      "character": {
+        "name": "Peter / Quicksilver"
+      }
     },
     {
-      "character": {
-        "name": "Magneto",
-        "imageUrl": ""
-      },
       "actorId": "aa9b2474d8c4c51e34160de8",
-      "name": "Ian McKellen"
+      "character": {
+        "name": "Magneto"
+      }
     },
     {
-      "character": {
-        "name": "Professor X",
-        "imageUrl": ""
-      },
       "actorId": "a1b52bbc28ac6c198e877b39",
-      "name": "Patrick Stewart"
+      "character": {
+        "name": "Professor X"
+      }
     }
   ],
   "collections": [

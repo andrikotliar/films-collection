@@ -66,100 +66,76 @@
   "duration": 104,
   "cast": [
     {
-      "character": {
-        "name": "Logan / Wolverine",
-        "imageUrl": ""
-      },
       "actorId": "544abb6ffddc8ddf4056b862",
-      "name": "Hugh Jackman"
+      "character": {
+        "name": "Logan / Wolverine"
+      }
     },
     {
-      "character": {
-        "name": "Ororo Munroe / Storm",
-        "imageUrl": ""
-      },
       "actorId": "bb3c268d0e1fceec2b8b8d58",
-      "name": "Halle Berry"
+      "character": {
+        "name": "Ororo Munroe / Storm"
+      }
     },
     {
-      "character": {
-        "name": "Erik Lehnsherr / Magneto",
-        "imageUrl": ""
-      },
       "actorId": "aa9b2474d8c4c51e34160de8",
-      "name": "Ian McKellen"
+      "character": {
+        "name": "Erik Lehnsherr / Magneto"
+      }
     },
     {
-      "character": {
-        "name": "Charles Xavier / Professor X",
-        "imageUrl": ""
-      },
       "actorId": "a1b52bbc28ac6c198e877b39",
-      "name": "Patrick Stewart"
+      "character": {
+        "name": "Charles Xavier / Professor X"
+      }
     },
     {
-      "character": {
-        "name": "Jean Grey / Phoenix",
-        "imageUrl": ""
-      },
       "actorId": "d5fc3f286280bd87817fbca7",
-      "name": "Famke Janssen"
+      "character": {
+        "name": "Jean Grey / Phoenix"
+      }
     },
     {
-      "character": {
-        "name": "Marie / Rogue",
-        "imageUrl": ""
-      },
       "actorId": "b3406982f9ef021d2d13e050",
-      "name": "Anna Paquin"
+      "character": {
+        "name": "Marie / Rogue"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Henry 'Hank' McCoy / Beast",
-        "imageUrl": ""
-      },
       "actorId": "a342f51ae286f64c196db426",
-      "name": "Kelsey Grammer"
+      "character": {
+        "name": "Dr. Henry 'Hank' McCoy / Beast"
+      }
     },
     {
-      "character": {
-        "name": "Scott Summers / Cyclops",
-        "imageUrl": ""
-      },
       "actorId": "525beb4c90894e34b294cef6",
-      "name": "James Marsden"
+      "character": {
+        "name": "Scott Summers / Cyclops"
+      }
     },
     {
-      "character": {
-        "name": "Bobby Drake / Iceman",
-        "imageUrl": ""
-      },
       "actorId": "f2089daf6d891ecc5cc339b5",
-      "name": "Shawn Ashmore"
+      "character": {
+        "name": "Bobby Drake / Iceman"
+      }
     },
     {
-      "character": {
-        "name": "John Allerdyce / Pyro",
-        "imageUrl": ""
-      },
       "actorId": "9e2681878ec550ab367669b9",
-      "name": "Aaron Stanford"
+      "character": {
+        "name": "John Allerdyce / Pyro"
+      }
     },
     {
-      "character": {
-        "name": "Cain Marko / Juggernaut",
-        "imageUrl": ""
-      },
       "actorId": "f527c912cd72467f62bcd268",
-      "name": "Vinnie Jones"
+      "character": {
+        "name": "Cain Marko / Juggernaut"
+      }
     },
     {
-      "character": {
-        "name": "Kitty Pryde / Shadowcat",
-        "imageUrl": ""
-      },
       "actorId": "8c40238b64773c27425d940e",
-      "name": "Ellen Page"
+      "character": {
+        "name": "Kitty Pryde / Shadowcat"
+      }
     }
   ],
   "collections": [

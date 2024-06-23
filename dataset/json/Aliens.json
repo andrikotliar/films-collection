@@ -60,52 +60,40 @@
   "duration": 137,
   "cast": [
     {
-      "character": {
-        "name": "Ripley",
-        "imageUrl": ""
-      },
       "actorId": "ca74e2b4d921daf8283f1f08",
-      "name": "Sigourney Weaver"
+      "character": {
+        "name": "Ripley"
+      }
     },
     {
-      "character": {
-        "name": "Newt",
-        "imageUrl": ""
-      },
       "actorId": "e76f8d6303a283a38410a506",
-      "name": "Carrie Henn"
+      "character": {
+        "name": "Newt"
+      }
     },
     {
-      "character": {
-        "name": "Corporal Hicks",
-        "imageUrl": ""
-      },
       "actorId": "ddeef4fd51b50bcc160a21c5",
-      "name": "Michael Biehn"
+      "character": {
+        "name": "Corporal Hicks"
+      }
     },
     {
-      "character": {
-        "name": "Carter J. Burke",
-        "imageUrl": ""
-      },
       "actorId": "719eb3b64cfb07656d850861",
-      "name": "Paul Reiser"
+      "character": {
+        "name": "Carter J. Burke"
+      }
     },
     {
-      "character": {
-        "name": "Bishop",
-        "imageUrl": ""
-      },
       "actorId": "36f1bddb19c9e4030a07d6e3",
-      "name": "Lance Henriksen"
+      "character": {
+        "name": "Bishop"
+      }
     },
     {
-      "character": {
-        "name": "Private Hudson",
-        "imageUrl": ""
-      },
       "actorId": "2118f05852939b389e792478",
-      "name": "Bill Paxton"
+      "character": {
+        "name": "Private Hudson"
+      }
     }
   ],
   "collections": [

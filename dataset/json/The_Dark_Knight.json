@@ -72,68 +72,52 @@
   "duration": 152,
   "cast": [
     {
-      "character": {
-        "name": "Bruce Wayne",
-        "imageUrl": ""
-      },
       "actorId": "b794f150c4436f17ba9bd9f1",
-      "name": "Christian Bale"
+      "character": {
+        "name": "Bruce Wayne"
+      }
     },
     {
-      "character": {
-        "name": "Joker",
-        "imageUrl": ""
-      },
       "actorId": "38819b839dc85832482d016b",
-      "name": "Heath Ledger"
+      "character": {
+        "name": "Joker"
+      }
     },
     {
-      "character": {
-        "name": "Harvey Dent",
-        "imageUrl": ""
-      },
       "actorId": "42c91acbbc2b09bdffe6bf6a",
-      "name": "Aaron Eckhart"
+      "character": {
+        "name": "Harvey Dent"
+      }
     },
     {
-      "character": {
-        "name": "Alfred",
-        "imageUrl": ""
-      },
       "actorId": "68a6bf55b5f042549fda0642",
-      "name": "Michael Caine"
+      "character": {
+        "name": "Alfred"
+      }
     },
     {
-      "character": {
-        "name": "Rachel",
-        "imageUrl": ""
-      },
       "actorId": "0612a54ce0b08c66512a910e",
-      "name": "Maggie Gyllenhaal"
+      "character": {
+        "name": "Rachel"
+      }
     },
     {
-      "character": {
-        "name": "Gordon",
-        "imageUrl": ""
-      },
       "actorId": "a03a7c1a8a396d3211b9b317",
-      "name": "Gary Oldman"
+      "character": {
+        "name": "Gordon"
+      }
     },
     {
-      "character": {
-        "name": "Lucius Fox",
-        "imageUrl": ""
-      },
       "actorId": "6baca3c5f3dcf4fb1271cb34",
-      "name": "Morgan Freeman"
+      "character": {
+        "name": "Lucius Fox"
+      }
     },
     {
-      "character": {
-        "name": "Scarecrow",
-        "imageUrl": ""
-      },
       "actorId": "fe1abb15a45afafd3263a771",
-      "name": "Cillian Murphy"
+      "character": {
+        "name": "Scarecrow"
+      }
     }
   ],
   "collections": [

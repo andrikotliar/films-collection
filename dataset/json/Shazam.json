@@ -60,52 +60,40 @@
   "duration": 132,
   "cast": [
     {
-      "character": {
-        "name": "Shazam",
-        "imageUrl": ""
-      },
       "actorId": "295c1eb00164975bc6a72ed0",
-      "name": "Zachary Levi"
+      "character": {
+        "name": "Shazam"
+      }
     },
     {
-      "character": {
-        "name": "The Wizard",
-        "imageUrl": ""
-      },
       "actorId": "bdb2e64bab1a24a00031585c",
-      "name": "Djimon Hounsou"
+      "character": {
+        "name": "The Wizard"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Thaddeus Sivana",
-        "imageUrl": ""
-      },
       "actorId": "fa36e46669ac3b8ea37b8a8e",
-      "name": "Mark Strong"
+      "character": {
+        "name": "Dr. Thaddeus Sivana"
+      }
     },
     {
-      "character": {
-        "name": "Freddy Freeman",
-        "imageUrl": ""
-      },
       "actorId": "4dbb5b46ae36a3d7e267e50b",
-      "name": "Jack Dylan Grazer"
+      "character": {
+        "name": "Freddy Freeman"
+      }
     },
     {
-      "character": {
-        "name": "Darla Dudley",
-        "imageUrl": ""
-      },
       "actorId": "dd499f4497c37a491d1b7fcd",
-      "name": "Meagan Good"
+      "character": {
+        "name": "Darla Dudley"
+      }
     },
     {
-      "character": {
-        "name": "Billy Batson",
-        "imageUrl": ""
-      },
       "actorId": "2f6abd73449a0412ffb69cc9",
-      "name": "Asher Angel"
+      "character": {
+        "name": "Billy Batson"
+      }
     }
   ],
   "collections": [

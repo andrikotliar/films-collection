@@ -66,82 +66,64 @@
   "duration": 110,
   "cast": [
     {
-      "character": {
-        "name": "Johnny Blaze / Ghost Rider",
-        "imageUrl": ""
-      },
       "actorId": "6e9dd36e3b96af6f5483e7a2",
-      "name": "Nicolas Cage"
+      "character": {
+        "name": "Johnny Blaze / Ghost Rider"
+      }
     },
     {
-      "character": {
-        "name": "Roxanne Simpson",
-        "imageUrl": ""
-      },
       "actorId": "0ede821f7322bc3b013ad22f",
-      "name": "Eva Mendes"
+      "character": {
+        "name": "Roxanne Simpson"
+      }
     },
     {
-      "character": {
-        "name": "Mephistopheles",
-        "imageUrl": ""
-      },
       "actorId": "e822a938671441f7a97379b8",
-      "name": "Peter Fonda"
+      "character": {
+        "name": "Mephistopheles"
+      }
     },
     {
-      "character": {
-        "name": "Blackheart",
-        "imageUrl": ""
-      },
       "actorId": "f58457964f741e7cd096d744",
-      "name": "Wes Bentley"
+      "character": {
+        "name": "Blackheart"
+      }
     },
     {
-      "character": {
-        "name": "Mack",
-        "imageUrl": ""
-      },
       "actorId": "cb3914bc88b72017ccd4d733",
-      "name": "Donal Logue"
+      "character": {
+        "name": "Mack"
+      }
     },
     {
-      "character": {
-        "name": "Gressil",
-        "imageUrl": ""
-      },
       "actorId": "5870a562478e2246f1f454fa",
-      "name": "Laurence Breuls"
+      "character": {
+        "name": "Gressil"
+      }
     },
     {
-      "character": {
-        "name": "Wallow",
-        "imageUrl": ""
-      },
       "actorId": "7eae893c800b769582c62d97v",
-      "name": "Daniel Frederiksen"
+      "character": {
+        "name": "Wallow"
+      }
     },
     {
-      "character": {
-        "name": "Abigor",
-        "imageUrl": ""
-      },
       "actorId": "1cbdd71b9def406f51a58b62",
-      "name": "Mathew Wilkinson"
-    },
-    {
       "character": {
-        "name": "Barton Blaze",
-        "imageUrl": ""
-      },
-      "actorId": "d68661e62c37cc5eaefe65a8",
-      "name": "Brett Cullen"
+        "name": "Abigor"
+      }
     },
     {
+      "actorId": "d68661e62c37cc5eaefe65a8",
+      "character": {
+        "name": "Barton Blaze"
+      }
+    },
+    {
+      "actorId": "90080df72ecf3ca25ae0d24b",
       "character": {
         "name": "Caretaker"
-      },
-      "actorId": "90080df72ecf3ca25ae0d24b"
+      }
     }
   ],
   "collections": [

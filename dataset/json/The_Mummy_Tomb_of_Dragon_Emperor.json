@@ -65,68 +65,52 @@
   "duration": 112,
   "cast": [
     {
-      "character": {
-        "name": "Rick O'Connell",
-        "imageUrl": ""
-      },
       "actorId": "5007865fcfa27f77a5caa971",
-      "name": "Brendan Fraser"
+      "character": {
+        "name": "Rick O'Connell"
+      }
     },
     {
-      "character": {
-        "name": "Emperor",
-        "imageUrl": ""
-      },
       "actorId": "1e8aac5ce8af75bdfd3e33a6",
-      "name": "Jet Li"
+      "character": {
+        "name": "Emperor"
+      }
     },
     {
-      "character": {
-        "name": "Evelyn O'Connell",
-        "imageUrl": ""
-      },
       "actorId": "a80a3b7c665a551be82c408c",
-      "name": "Maria Bello"
+      "character": {
+        "name": "Evelyn O'Connell"
+      }
     },
     {
-      "character": {
-        "name": "Jonathan Carnahan",
-        "imageUrl": ""
-      },
       "actorId": "182db493d2b81619d210955c",
-      "name": "John Hannah"
+      "character": {
+        "name": "Jonathan Carnahan"
+      }
     },
     {
-      "character": {
-        "name": "Zi Yuan",
-        "imageUrl": ""
-      },
       "actorId": "df635dbc084250870e7144af",
-      "name": "Michelle Yeoh"
+      "character": {
+        "name": "Zi Yuan"
+      }
     },
     {
-      "character": {
-        "name": "Alex O'Connell",
-        "imageUrl": ""
-      },
       "actorId": "159706dc9289c91100ef83ad",
-      "name": "Luke Ford"
+      "character": {
+        "name": "Alex O'Connell"
+      }
     },
     {
-      "character": {
-        "name": "Lin",
-        "imageUrl": ""
-      },
       "actorId": "e44944e996abfd38138c2316",
-      "name": "Isabella Leong"
+      "character": {
+        "name": "Lin"
+      }
     },
     {
-      "character": {
-        "name": "Ming Guo",
-        "imageUrl": ""
-      },
       "actorId": "b43571ee465e85b03faa67f9",
-      "name": "Russell Wong"
+      "character": {
+        "name": "Ming Guo"
+      }
     }
   ],
   "collections": [

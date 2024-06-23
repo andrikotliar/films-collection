@@ -60,44 +60,34 @@
   "duration": 140,
   "cast": [
     {
-      "character": {
-        "name": "Obi-Wan Kenobi",
-        "imageUrl": ""
-      },
       "actorId": "d2746b12dd70b60c36a7edf0",
-      "name": "Ewan McGregor"
+      "character": {
+        "name": "Obi-Wan Kenobi"
+      }
     },
     {
-      "character": {
-        "name": "Padme",
-        "imageUrl": ""
-      },
       "actorId": "b3703e901df3a8c85c2f0949",
-      "name": "Natalie Portman"
+      "character": {
+        "name": "Padme"
+      }
     },
     {
-      "character": {
-        "name": "Anakin Skywalker",
-        "imageUrl": ""
-      },
       "actorId": "3320cd971079d393a451ce95",
-      "name": "Hayden Christensen"
+      "character": {
+        "name": "Anakin Skywalker"
+      }
     },
     {
-      "character": {
-        "name": "Mace Windu",
-        "imageUrl": ""
-      },
       "actorId": "b066e50c67b8ffebd4ea16ba",
-      "name": "Samuel L. Jackson"
+      "character": {
+        "name": "Mace Windu"
+      }
     },
     {
-      "character": {
-        "name": "Palpatine",
-        "imageUrl": ""
-      },
       "actorId": "6f8deae8b3c545936d5a285e",
-      "name": "Ian McDiarmid"
+      "character": {
+        "name": "Palpatine"
+      }
     }
   ],
   "collections": [

@@ -68,92 +68,70 @@
   "duration": 125,
   "cast": [
     {
-      "character": {
-        "name": "Ethan Hunt",
-        "imageUrl": ""
-      },
       "actorId": "d1899eef1c53bc13798a897c",
-      "name": "Tom Cruise"
+      "character": {
+        "name": "Ethan Hunt"
+      }
     },
     {
-      "character": {
-        "name": "Owen Davian",
-        "imageUrl": ""
-      },
       "actorId": "c610e4f42d9c286feb79406f",
-      "name": "Philip Seymour Hoffman"
+      "character": {
+        "name": "Owen Davian"
+      }
     },
     {
-      "character": {
-        "name": "Luther",
-        "imageUrl": ""
-      },
       "actorId": "4b4ebf97ca75b72088e2c948",
-      "name": "Ving Rhames"
+      "character": {
+        "name": "Luther"
+      }
     },
     {
-      "character": {
-        "name": "Musgrave",
-        "imageUrl": ""
-      },
       "actorId": "9c57739a346420f6559d37cc",
-      "name": "Billy Crudup"
+      "character": {
+        "name": "Musgrave"
+      }
     },
     {
-      "character": {
-        "name": "Julia",
-        "imageUrl": ""
-      },
       "actorId": "eed3fec56e5b7a0ad8aa447a",
-      "name": "Michelle Monaghan"
+      "character": {
+        "name": "Julia"
+      }
     },
     {
-      "character": {
-        "name": "Declan",
-        "imageUrl": ""
-      },
       "actorId": "874e82daab03d3285a584177",
-      "name": "Jonathan Rhys Meyers"
+      "character": {
+        "name": "Declan"
+      }
     },
     {
-      "character": {
-        "name": "Lindsey Farris",
-        "imageUrl": ""
-      },
       "actorId": "7d16e2be1c0a97fe0cf6bbfa",
-      "name": "Keri Russell"
+      "character": {
+        "name": "Lindsey Farris"
+      }
     },
     {
-      "character": {
-        "name": "Zhen",
-        "imageUrl": ""
-      },
       "actorId": "d325fd9673d40c35f38e6a4c",
-      "name": "Maggie Q"
+      "character": {
+        "name": "Zhen"
+      }
     },
     {
-      "character": {
-        "name": "Benji",
-        "imageUrl": ""
-      },
       "actorId": "2e7736bf7187e688395d7a2c",
-      "name": "Simon Pegg"
+      "character": {
+        "name": "Benji"
+      }
     },
     {
-      "character": {
-        "name": "Brownway",
-        "imageUrl": ""
-      },
       "actorId": "3aa02c5c103eb81507ea1152",
-      "name": "Eddie Marsan"
+      "character": {
+        "name": "Brownway"
+      }
     },
     {
-      "character": {
-        "name": "Theodore Brassel",
-        "imageUrl": ""
-      },
       "actorId": "598ea6d5be8fe378787adde7",
-      "name": "Laurence Fishburne"
+      "character": {
+        "name": "Theodore Brassel"
+      }
     }
   ],
   "collections": [

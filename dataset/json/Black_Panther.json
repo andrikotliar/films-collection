@@ -63,100 +63,76 @@
   "duration": 134,
   "cast": [
     {
-      "character": {
-        "name": "T'Challa / Black Panther",
-        "imageUrl": ""
-      },
       "actorId": "085fd1ea78f56539824d7714",
-      "name": "Chadwick Boseman"
+      "character": {
+        "name": "T'Challa / Black Panther"
+      }
     },
     {
-      "character": {
-        "name": "Erik Killmonger",
-        "imageUrl": ""
-      },
       "actorId": "d278b95bbcdb159e239c7757",
-      "name": "Michael B. Jordan"
+      "character": {
+        "name": "Erik Killmonger"
+      }
     },
     {
-      "character": {
-        "name": "Nakia",
-        "imageUrl": ""
-      },
       "actorId": "4df990e459cdd192712d9a9f",
-      "name": "Lupita Nyung'o"
+      "character": {
+        "name": "Nakia"
+      }
     },
     {
-      "character": {
-        "name": "Okoye",
-        "imageUrl": ""
-      },
       "actorId": "213ec6c0ba4ad6d754456ff9",
-      "name": "Danai Gurira"
+      "character": {
+        "name": "Okoye"
+      }
     },
     {
-      "character": {
-        "name": "Everett K. Ross",
-        "imageUrl": ""
-      },
       "actorId": "706bad1f2278f02cd543a7a2",
-      "name": "Martin Freeman"
+      "character": {
+        "name": "Everett K. Ross"
+      }
     },
     {
-      "character": {
-        "name": "W'Kabi",
-        "imageUrl": ""
-      },
       "actorId": "09f81677668b6857a9b63d1e",
-      "name": "Daniel Kaluuya"
+      "character": {
+        "name": "W'Kabi"
+      }
     },
     {
-      "character": {
-        "name": "Shuri",
-        "imageUrl": ""
-      },
       "actorId": "06a5d24dd22d7ab9813f2aff",
-      "name": "Letitia Wright"
+      "character": {
+        "name": "Shuri"
+      }
     },
     {
-      "character": {
-        "name": "M'Baku",
-        "imageUrl": ""
-      },
       "actorId": "f3200b667f548526f4ca9885",
-      "name": "Winston Duke"
+      "character": {
+        "name": "M'Baku"
+      }
     },
     {
-      "character": {
-        "name": "N'Jobu",
-        "imageUrl": ""
-      },
       "actorId": "022ac8e2c1e117ab955ac8c8",
-      "name": "Sterling K. Brown"
+      "character": {
+        "name": "N'Jobu"
+      }
     },
     {
-      "character": {
-        "name": "Ramonda",
-        "imageUrl": ""
-      },
       "actorId": "f1f774fa206392544965b787",
-      "name": "Angela Bassett"
+      "character": {
+        "name": "Ramonda"
+      }
     },
     {
-      "character": {
-        "name": "Zuri",
-        "imageUrl": ""
-      },
       "actorId": "12d4eae94b34820e9c78b4ca",
-      "name": "Forest Whitaker"
+      "character": {
+        "name": "Zuri"
+      }
     },
     {
-      "character": {
-        "name": "Ulysses Klaue",
-        "imageUrl": ""
-      },
       "actorId": "e5253cdc8c1fb87953720d64",
-      "name": "Andy Serkis"
+      "character": {
+        "name": "Ulysses Klaue"
+      }
     }
   ],
   "collections": [

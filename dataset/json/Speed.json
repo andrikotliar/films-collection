@@ -59,36 +59,28 @@
   "duration": 116,
   "cast": [
     {
-      "character": {
-        "name": "Jack Traven",
-        "imageUrl": ""
-      },
       "actorId": "064e80da8733b3e3692e9735",
-      "name": "Keanu Reeves"
+      "character": {
+        "name": "Jack Traven"
+      }
     },
     {
-      "character": {
-        "name": "Howard Payne",
-        "imageUrl": ""
-      },
       "actorId": "5ec57d724ac4f90a7edb2736",
-      "name": "Dennis Hopper"
+      "character": {
+        "name": "Howard Payne"
+      }
     },
     {
-      "character": {
-        "name": "Annie",
-        "imageUrl": ""
-      },
       "actorId": "d8e06c9280b3a91df4dadb08",
-      "name": "Sandra Bullock"
+      "character": {
+        "name": "Annie"
+      }
     },
     {
-      "character": {
-        "name": "Harry",
-        "imageUrl": ""
-      },
       "actorId": "0aeb4bc99c646bc834ac62f4",
-      "name": "Jeff Daniels"
+      "character": {
+        "name": "Harry"
+      }
     }
   ],
   "collections": [

@@ -63,132 +63,100 @@
   "duration": 141,
   "cast": [
     {
-      "character": {
-        "name": "Tony Stark / Iron Man",
-        "imageUrl": ""
-      },
       "actorId": "68eac2af31419390d7f727fd",
-      "name": "Robert Downey Jr."
+      "character": {
+        "name": "Tony Stark / Iron Man"
+      }
     },
     {
-      "character": {
-        "name": "Thor",
-        "imageUrl": ""
-      },
       "actorId": "9d6f7bec0a46789eaa403786",
-      "name": "Chris Hemsworth"
+      "character": {
+        "name": "Thor"
+      }
     },
     {
-      "character": {
-        "name": "Bruce Banner / Hulk",
-        "imageUrl": ""
-      },
       "actorId": "a65bc3f407cd83dd8b26db19",
-      "name": "Mark Ruffalo"
+      "character": {
+        "name": "Bruce Banner / Hulk"
+      }
     },
     {
-      "character": {
-        "name": "Steve Rogers / Captain America",
-        "imageUrl": ""
-      },
       "actorId": "b3356695e90767defc7c4421",
-      "name": "Chris Evans"
+      "character": {
+        "name": "Steve Rogers / Captain America"
+      }
     },
     {
-      "character": {
-        "name": "Natasha Romanoff / Black Widow",
-        "imageUrl": ""
-      },
       "actorId": "64286f842f66cb88506271cc",
-      "name": "Scarlett Johansson"
+      "character": {
+        "name": "Natasha Romanoff / Black Widow"
+      }
     },
     {
-      "character": {
-        "name": "Clint Barton / Hawkeye",
-        "imageUrl": ""
-      },
       "actorId": "333fe7873ab5451125a195a7",
-      "name": "Jeremy Renner"
+      "character": {
+        "name": "Clint Barton / Hawkeye"
+      }
     },
     {
-      "character": {
-        "name": "Ultron",
-        "imageUrl": ""
-      },
       "actorId": "3cbb04a002f2bdc8c9f38be2",
-      "name": "James Spader"
+      "character": {
+        "name": "Ultron"
+      }
     },
     {
-      "character": {
-        "name": "Nick Fury",
-        "imageUrl": ""
-      },
       "actorId": "b066e50c67b8ffebd4ea16ba",
-      "name": "Samuel L. Jackson"
+      "character": {
+        "name": "Nick Fury"
+      }
     },
     {
-      "character": {
-        "name": "James Rhodes",
-        "imageUrl": ""
-      },
       "actorId": "84a7fc06c915c5463cc7ce32",
-      "name": "Don Cheadle"
+      "character": {
+        "name": "James Rhodes"
+      }
     },
     {
-      "character": {
-        "name": "Pietro Maximoff",
-        "imageUrl": ""
-      },
       "actorId": "0435ad2e1b76988a2b5a6421",
-      "name": "Aaron Taylor-Johnson"
+      "character": {
+        "name": "Pietro Maximoff"
+      }
     },
     {
-      "character": {
-        "name": "Wanda Maximoff / Scarlett Witch",
-        "imageUrl": ""
-      },
       "actorId": "f6de6e5bd473d73c2055ef99",
-      "name": "Elizabeth Olsen"
+      "character": {
+        "name": "Wanda Maximoff / Scarlett Witch"
+      }
     },
     {
-      "character": {
-        "name": "Jarvis / Vision",
-        "imageUrl": ""
-      },
       "actorId": "c20e24b955b094888df0ac50",
-      "name": "Paul Bettany"
+      "character": {
+        "name": "Jarvis / Vision"
+      }
     },
     {
-      "character": {
-        "name": "Maria Hill",
-        "imageUrl": ""
-      },
       "actorId": "4b4f5bcff305c49b3fd3e179",
-      "name": "Cobie Smulders"
+      "character": {
+        "name": "Maria Hill"
+      }
     },
     {
-      "character": {
-        "name": "Sam Wilson",
-        "imageUrl": ""
-      },
       "actorId": "b59e04d8cace91ce7b37a878",
-      "name": "Anthony Mackie"
+      "character": {
+        "name": "Sam Wilson"
+      }
     },
     {
-      "character": {
-        "name": "Peggy Carter",
-        "imageUrl": ""
-      },
       "actorId": "94514db34be89be1d1e79dea",
-      "name": "Hayley Atwell"
+      "character": {
+        "name": "Peggy Carter"
+      }
     },
     {
-      "character": {
-        "name": "Heimdall",
-        "imageUrl": ""
-      },
       "actorId": "ae8fde81451592bb39107acc",
-      "name": "Idris Elba"
+      "character": {
+        "name": "Heimdall"
+      }
     }
   ],
   "collections": [

@@ -74,58 +74,46 @@
   "duration": 113,
   "cast": [
     {
-      "character": {
-        "name": "Thomas",
-        "imageUrl": ""
-      },
       "actorId": "8e204b8e5e38fbae1fe008a4",
-      "name": "Dylan O'Brien"
+      "character": {
+        "name": "Thomas"
+      }
     },
     {
-      "character": {
-        "name": "Teresa",
-        "imageUrl": ""
-      },
       "actorId": "d89b2eaf6097bb037c6d8ca0",
-      "name": "Kaya Scodelario"
+      "character": {
+        "name": "Teresa"
+      }
     },
     {
-      "character": {
-        "name": "Alby",
-        "imageUrl": ""
-      },
       "actorId": "1f5745e5d1b695d05ebc9a5a",
-      "name": "Aml Ameen"
+      "character": {
+        "name": "Alby"
+      }
     },
     {
-      "character": {
-        "name": "Newt",
-        "imageUrl": ""
-      },
       "actorId": "4ee52e26623792a1c498ac41",
-      "name": "Thomas Brodie-Sangster"
+      "character": {
+        "name": "Newt"
+      }
     },
     {
-      "character": {
-        "name": "Minho",
-        "imageUrl": ""
-      },
       "actorId": "c4c83bf5a6e512ae8f39d75a",
-      "name": "Ki Hong Lee"
-    },
-    {
       "character": {
-        "name": "Gally",
-        "imageUrl": ""
-      },
-      "actorId": "f88ba806540e968863c214e3",
-      "name": "Will Poulter"
+        "name": "Minho"
+      }
     },
     {
+      "actorId": "f88ba806540e968863c214e3",
+      "character": {
+        "name": "Gally"
+      }
+    },
+    {
+      "actorId": "595711382f59b56d8f35eb6f",
       "character": {
         "name": "Ava Paige"
-      },
-      "actorId": "595711382f59b56d8f35eb6f"
+      }
     }
   ],
   "collections": [

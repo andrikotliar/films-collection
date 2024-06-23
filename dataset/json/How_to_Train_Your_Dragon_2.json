@@ -51,52 +51,40 @@
   "duration": 102,
   "cast": [
     {
-      "character": {
-        "name": "Hiccup",
-        "imageUrl": ""
-      },
       "actorId": "a7d35039857e23987e0e044c",
-      "name": "Jay Baruchel"
+      "character": {
+        "name": "Hiccup"
+      }
     },
     {
-      "character": {
-        "name": "Valka",
-        "imageUrl": ""
-      },
       "actorId": "7a354da5768fef2be29583f0",
-      "name": "Cate Blanchett"
+      "character": {
+        "name": "Valka"
+      }
     },
     {
-      "character": {
-        "name": "Stoick",
-        "imageUrl": ""
-      },
       "actorId": "19691d0b10cb811590497ff2",
-      "name": "Gerard Butler"
+      "character": {
+        "name": "Stoick"
+      }
     },
     {
-      "character": {
-        "name": "Astrid",
-        "imageUrl": ""
-      },
       "actorId": "6c95d5ee7e91ad5d5e781165",
-      "name": "America Ferrera"
+      "character": {
+        "name": "Astrid"
+      }
     },
     {
-      "character": {
-        "name": "Drago Bludvist",
-        "imageUrl": ""
-      },
       "actorId": "bdb2e64bab1a24a00031585c",
-      "name": "Djimon Hounsou"
+      "character": {
+        "name": "Drago Bludvist"
+      }
     },
     {
-      "character": {
-        "name": "Eret",
-        "imageUrl": ""
-      },
       "actorId": "6aa92fa181848669babe20bb",
-      "name": "Kit Harington"
+      "character": {
+        "name": "Eret"
+      }
     }
   ],
   "collections": [

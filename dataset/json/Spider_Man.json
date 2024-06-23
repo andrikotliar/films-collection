@@ -63,60 +63,46 @@
   "duration": 121,
   "cast": [
     {
-      "character": {
-        "name": "Spider-Man / Peter Parker",
-        "imageUrl": ""
-      },
       "actorId": "65694e39d2799267ae4a2adf",
-      "name": "Tobey Maguire"
+      "character": {
+        "name": "Spider-Man / Peter Parker"
+      }
     },
     {
-      "character": {
-        "name": "Green Goblin / Norman Osborn",
-        "imageUrl": ""
-      },
       "actorId": "69443d6dcdd5ddbc0c51e534",
-      "name": "Willem Dafoe"
+      "character": {
+        "name": "Green Goblin / Norman Osborn"
+      }
     },
     {
-      "character": {
-        "name": "Mary Jane Watson",
-        "imageUrl": ""
-      },
       "actorId": "1a56afd931fe087b7c4de4c1",
-      "name": "Kirsten Dunst"
+      "character": {
+        "name": "Mary Jane Watson"
+      }
     },
     {
-      "character": {
-        "name": "Harry Osborn",
-        "imageUrl": ""
-      },
       "actorId": "03004ad337f0cc1d674180f4",
-      "name": "James Franco"
+      "character": {
+        "name": "Harry Osborn"
+      }
     },
     {
-      "character": {
-        "name": "Ben Parker",
-        "imageUrl": ""
-      },
       "actorId": "8702a555769edb9c651cfde1",
-      "name": "Cliff Robertson"
+      "character": {
+        "name": "Ben Parker"
+      }
     },
     {
-      "character": {
-        "name": "May Parker",
-        "imageUrl": ""
-      },
       "actorId": "f6edab1f2bdab7e504be7dcc",
-      "name": "Rosemary Harris"
+      "character": {
+        "name": "May Parker"
+      }
     },
     {
-      "character": {
-        "name": "J. Jonah Jameson",
-        "imageUrl": ""
-      },
       "actorId": "03293ef86c8bf352c9dd52f4",
-      "name": "J.K. Simmons"
+      "character": {
+        "name": "J. Jonah Jameson"
+      }
     }
   ],
   "collections": [

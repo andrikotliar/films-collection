@@ -66,68 +66,52 @@
   "duration": 143,
   "cast": [
     {
-      "character": {
-        "name": "Arthur Curry / Aquaman",
-        "imageUrl": ""
-      },
       "actorId": "de9c977ac46c62b2c52d371c",
-      "name": "Jason Momoa"
+      "character": {
+        "name": "Arthur Curry / Aquaman"
+      }
     },
     {
-      "character": {
-        "name": "Mera",
-        "imageUrl": ""
-      },
       "actorId": "81f489cc791f2cfbff218a60",
-      "name": "Amber Heard"
+      "character": {
+        "name": "Mera"
+      }
     },
     {
-      "character": {
-        "name": "Vulko",
-        "imageUrl": ""
-      },
       "actorId": "69443d6dcdd5ddbc0c51e534",
-      "name": "Willem Dafoe"
+      "character": {
+        "name": "Vulko"
+      }
     },
     {
-      "character": {
-        "name": "King Orm",
-        "imageUrl": ""
-      },
       "actorId": "b5a0066321ef092d273b09fe",
-      "name": "Patrick Wilson"
+      "character": {
+        "name": "King Orm"
+      }
     },
     {
-      "character": {
-        "name": "Queen Atlanna",
-        "imageUrl": ""
-      },
       "actorId": "e6459d81bab075fc3755cec2",
-      "name": "Nicole Kidman"
+      "character": {
+        "name": "Queen Atlanna"
+      }
     },
     {
-      "character": {
-        "name": "King Nereus",
-        "imageUrl": ""
-      },
       "actorId": "10f3188952a9237de86cd267",
-      "name": "Dolph Lundgren"
+      "character": {
+        "name": "King Nereus"
+      }
     },
     {
-      "character": {
-        "name": "Black Manta",
-        "imageUrl": ""
-      },
       "actorId": "a3f01a52553c626cecb90cf7",
-      "name": "Yahya Abdul-Mateen II"
+      "character": {
+        "name": "Black Manta"
+      }
     },
     {
-      "character": {
-        "name": "Tom Curry",
-        "imageUrl": ""
-      },
       "actorId": "36eb3476e54ce4b3ec95c273",
-      "name": "Temuera Morrison"
+      "character": {
+        "name": "Tom Curry"
+      }
     }
   ],
   "collections": [

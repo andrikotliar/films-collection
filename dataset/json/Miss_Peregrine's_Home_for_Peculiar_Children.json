@@ -66,76 +66,58 @@
   "duration": 127,
   "cast": [
     {
-      "character": {
-        "name": "Miss Peregrine",
-        "imageUrl": ""
-      },
       "actorId": "0df98bb53bcc1710be4174b5",
-      "name": "Eva Green"
+      "character": {
+        "name": "Miss Peregrine"
+      }
     },
     {
-      "character": {
-        "name": "Jake",
-        "imageUrl": ""
-      },
       "actorId": "6d993dbef1d1e79ea49516fa",
-      "name": "Asa Butterfield"
+      "character": {
+        "name": "Jake"
+      }
     },
     {
-      "character": {
-        "name": "Barron",
-        "imageUrl": ""
-      },
       "actorId": "b066e50c67b8ffebd4ea16ba",
-      "name": "Samuel L. Jackson"
+      "character": {
+        "name": "Barron"
+      }
     },
     {
-      "character": {
-        "name": "Emma",
-        "imageUrl": ""
-      },
       "actorId": "fe6dafd9367a52a6060a4b8a",
-      "name": "Ella Purnell"
+      "character": {
+        "name": "Emma"
+      }
     },
     {
-      "character": {
-        "name": "Miss Avocet",
-        "imageUrl": ""
-      },
       "actorId": "bc58418600dc1689762c643e",
-      "name": "Judi Dench"
+      "character": {
+        "name": "Miss Avocet"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Golan",
-        "imageUrl": ""
-      },
       "actorId": "98ec4d73331cf787bbdd9e29",
-      "name": "Allison Janney"
+      "character": {
+        "name": "Dr. Golan"
+      }
     },
     {
-      "character": {
-        "name": "Abe",
-        "imageUrl": ""
-      },
       "actorId": "b86637d2167eb20e13a98584",
-      "name": "Terence Stamp"
+      "character": {
+        "name": "Abe"
+      }
     },
     {
-      "character": {
-        "name": "Enoch",
-        "imageUrl": ""
-      },
       "actorId": "52dfaa29757683bd616f3f22",
-      "name": "Finlay MacMillan"
+      "character": {
+        "name": "Enoch"
+      }
     },
     {
-      "character": {
-        "name": "Olive",
-        "imageUrl": ""
-      },
       "actorId": "650b101ca761dc9f1462ce53",
-      "name": "Lauren McCrostie"
+      "character": {
+        "name": "Olive"
+      }
     }
   ],
   "collections": [

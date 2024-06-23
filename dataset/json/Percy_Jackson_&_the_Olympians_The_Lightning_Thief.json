@@ -71,92 +71,70 @@
   "duration": 95,
   "cast": [
     {
-      "character": {
-        "name": "Percy Jackson",
-        "imageUrl": ""
-      },
       "actorId": "65a7285259e82fade239e02a",
-      "name": "Logan Lerman"
+      "character": {
+        "name": "Percy Jackson"
+      }
     },
     {
-      "character": {
-        "name": "Grover",
-        "imageUrl": ""
-      },
       "actorId": "1f6f4cc406f4a3c6b9fffef7",
-      "name": "Brandon T. Jackson"
+      "character": {
+        "name": "Grover"
+      }
     },
     {
-      "character": {
-        "name": "Annabeth",
-        "imageUrl": ""
-      },
       "actorId": "27b095d2c63be488cc8937f5",
-      "name": "Alexandra Daddario"
+      "character": {
+        "name": "Annabeth"
+      }
     },
     {
-      "character": {
-        "name": "Luke",
-        "imageUrl": ""
-      },
       "actorId": "6a396fb1ed9393e27f3da440",
-      "name": "Jake Abel"
+      "character": {
+        "name": "Luke"
+      }
     },
     {
-      "character": {
-        "name": "Zeus",
-        "imageUrl": ""
-      },
       "actorId": "fbd425127f3664acfe49428a",
-      "name": "Sean Bean"
+      "character": {
+        "name": "Zeus"
+      }
     },
     {
-      "character": {
-        "name": "Mr. Brunner / Chiron",
-        "imageUrl": ""
-      },
       "actorId": "98ad2c2d1d3ff7d1e0f18120",
-      "name": "Pierce Brosnan"
+      "character": {
+        "name": "Mr. Brunner / Chiron"
+      }
     },
     {
-      "character": {
-        "name": "Hades",
-        "imageUrl": ""
-      },
       "actorId": "dfc49121ded927f36605488c",
-      "name": "Steve Coogan"
+      "character": {
+        "name": "Hades"
+      }
     },
     {
-      "character": {
-        "name": "Persephone",
-        "imageUrl": ""
-      },
       "actorId": "4fda865b59819a0d26c09697",
-      "name": "Rosario Dawson"
+      "character": {
+        "name": "Persephone"
+      }
     },
     {
-      "character": {
-        "name": "Athena",
-        "imageUrl": ""
-      },
       "actorId": "4f915bf5f6dc0a373560804d",
-      "name": "Melina Kanakaredes"
+      "character": {
+        "name": "Athena"
+      }
     },
     {
-      "character": {
-        "name": "Sally Jackson",
-        "imageUrl": ""
-      },
       "actorId": "51bddb00c78d08c2477234eb",
-      "name": "Catherine Keener"
+      "character": {
+        "name": "Sally Jackson"
+      }
     },
     {
-      "character": {
-        "name": "Poseidon",
-        "imageUrl": ""
-      },
       "actorId": "8cb9657d12b09881a40a1a76",
-      "name": "Kevin McKidd"
+      "character": {
+        "name": "Poseidon"
+      }
     }
   ],
   "collections": [

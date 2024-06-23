@@ -54,52 +54,40 @@
   "duration": 92,
   "cast": [
     {
-      "character": {
-        "name": "Sullivan",
-        "imageUrl": ""
-      },
       "actorId": "21f0a165913e9a2876a027c5",
-      "name": "John Goodman"
+      "character": {
+        "name": "Sullivan"
+      }
     },
     {
-      "character": {
-        "name": "Mike",
-        "imageUrl": ""
-      },
       "actorId": "941950fd8984681e1bfb7ec0",
-      "name": "Billy Crystal"
+      "character": {
+        "name": "Mike"
+      }
     },
     {
-      "character": {
-        "name": "Boo",
-        "imageUrl": ""
-      },
       "actorId": "7e406122c4fcbfa64b88db69",
-      "name": "Mary Gibbs"
+      "character": {
+        "name": "Boo"
+      }
     },
     {
-      "character": {
-        "name": "Randall",
-        "imageUrl": ""
-      },
       "actorId": "5c58d54c5785d9f88ee7578c",
-      "name": "Steve Buscemi"
+      "character": {
+        "name": "Randall"
+      }
     },
     {
-      "character": {
-        "name": "Waternoose",
-        "imageUrl": ""
-      },
       "actorId": "857c4c71c4dbba844fc41696",
-      "name": "James Coburn"
+      "character": {
+        "name": "Waternoose"
+      }
     },
     {
-      "character": {
-        "name": "Celia",
-        "imageUrl": ""
-      },
       "actorId": "ba3fbe03b8beb8d9c1096b7e",
-      "name": "Jennifer Tilly"
+      "character": {
+        "name": "Celia"
+      }
     }
   ],
   "collections": [

@@ -62,68 +62,52 @@
   "duration": 107,
   "cast": [
     {
-      "character": {
-        "name": "Dominic Toretto",
-        "imageUrl": ""
-      },
       "actorId": "8acb4ceb24e197fffd95c777",
-      "name": "Vin Diesel"
+      "character": {
+        "name": "Dominic Toretto"
+      }
     },
     {
-      "character": {
-        "name": "Brian O'Conner",
-        "imageUrl": ""
-      },
       "actorId": "61f64cb0f58dc3c12fc0c193",
-      "name": "Paul Walker"
+      "character": {
+        "name": "Brian O'Conner"
+      }
     },
     {
-      "character": {
-        "name": "Mia",
-        "imageUrl": ""
-      },
       "actorId": "84fe0dd000d931d469570852",
-      "name": "Jordana Brewster"
+      "character": {
+        "name": "Mia"
+      }
     },
     {
-      "character": {
-        "name": "Letty",
-        "imageUrl": ""
-      },
       "actorId": "f19c147b933b4ed2c5574ef6",
-      "name": "Michelle Rodriguez"
+      "character": {
+        "name": "Letty"
+      }
     },
     {
-      "character": {
-        "name": "Campos",
-        "imageUrl": ""
-      },
       "actorId": "8553c8c0a6f2626b7129e7c1",
-      "name": "John Ortiz"
+      "character": {
+        "name": "Campos"
+      }
     },
     {
-      "character": {
-        "name": "Fenix",
-        "imageUrl": ""
-      },
       "actorId": "3b762e0e7c6cf942574547b6",
-      "name": "Laz Alonso"
+      "character": {
+        "name": "Fenix"
+      }
     },
     {
-      "character": {
-        "name": "Gisele",
-        "imageUrl": ""
-      },
       "actorId": "689592fad487486ce5468f9f",
-      "name": "Gal Gadot"
+      "character": {
+        "name": "Gisele"
+      }
     },
     {
-      "character": {
-        "name": "Han",
-        "imageUrl": ""
-      },
       "actorId": "f64566657b4a65aaf1c8a875",
-      "name": "Sung Kang"
+      "character": {
+        "name": "Han"
+      }
     }
   ],
   "collections": [

@@ -63,86 +63,70 @@
   "duration": 89,
   "cast": [
     {
-      "character": {
-        "name": "Alex",
-        "imageUrl": ""
-      },
       "actorId": "30c03c6976ec24262f37bfc6",
-      "name": "Ben Stiller"
+      "character": {
+        "name": "Alex"
+      }
     },
     {
-      "character": {
-        "name": "Marty",
-        "imageUrl": ""
-      },
       "actorId": "ce3b1d5495190d8116dea108",
-      "name": "Chris Rock"
+      "character": {
+        "name": "Marty"
+      }
     },
     {
-      "character": {
-        "name": "Melman",
-        "imageUrl": ""
-      },
       "actorId": "a292c106f01b7650bbe0c49f",
-      "name": "David Schwimmer"
+      "character": {
+        "name": "Melman"
+      }
     },
     {
-      "character": {
-        "name": "Gloria",
-        "imageUrl": ""
-      },
       "actorId": "544db30160fa4bfa12603ee5",
-      "name": "Jada Pinkett Smith"
+      "character": {
+        "name": "Gloria"
+      }
     },
     {
-      "character": {
-        "name": "Julien",
-        "imageUrl": ""
-      },
       "actorId": "305954b13aa2aaf70e71c864",
-      "name": "Sacha Baron Cohen"
+      "character": {
+        "name": "Julien"
+      }
     },
     {
-      "character": {
-        "name": "Maurice",
-        "imageUrl": ""
-      },
       "actorId": "7febb850e2b27682a05354b2",
-      "name": "Cedric the Entertainer"
+      "character": {
+        "name": "Maurice"
+      }
     },
     {
-      "character": {
-        "name": "Zuba",
-        "imageUrl": ""
-      },
       "actorId": "d24df93c5b226c3d2d332ce2",
-      "name": "Bernie Mac"
-    },
-    {
       "character": {
-        "name": "Makunga",
-        "imageUrl": ""
-      },
-      "actorId": "f2dfaa3c7808ea9eddfc81c7",
-      "name": "Alec Baldwin"
+        "name": "Zuba"
+      }
     },
     {
+      "actorId": "f2dfaa3c7808ea9eddfc81c7",
+      "character": {
+        "name": "Makunga"
+      }
+    },
+    {
+      "actorId": "6b4e54a50e6bf4a96ecb2253",
       "character": {
         "name": "Nana"
-      },
-      "actorId": "6b4e54a50e6bf4a96ecb2253"
+      }
     },
     {
+      "actorId": "703b49e5d14fbe3506c1dd6b",
       "character": {
         "name": "Skipper"
-      },
-      "actorId": "703b49e5d14fbe3506c1dd6b"
+      }
     },
     {
+      "actorId": "0f306849f00b1e8c614e03e7",
       "character": {
         "name": "Mason"
-      },
-      "actorId": "0f306849f00b1e8c614e03e7"
+      }
     }
   ],
   "collections": [

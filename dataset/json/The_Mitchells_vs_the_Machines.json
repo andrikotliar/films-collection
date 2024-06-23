@@ -62,60 +62,46 @@
   "duration": 113,
   "cast": [
     {
-      "character": {
-        "name": "Katie Mitchell",
-        "imageUrl": ""
-      },
       "actorId": "108b2572a2af4f88f84630a0",
-      "name": "Abbi Jacobson"
+      "character": {
+        "name": "Katie Mitchell"
+      }
     },
     {
-      "character": {
-        "name": "Rick Mitchell",
-        "imageUrl": ""
-      },
       "actorId": "c444bbd7ed8bdaf40773ad70",
-      "name": "Danny McBride"
+      "character": {
+        "name": "Rick Mitchell"
+      }
     },
     {
-      "character": {
-        "name": "Linda Mitchell",
-        "imageUrl": ""
-      },
       "actorId": "655cd2f546bc47e60aed74f6",
-      "name": "Maya Rudolph"
+      "character": {
+        "name": "Linda Mitchell"
+      }
     },
     {
-      "character": {
-        "name": "Aaron Mitchell",
-        "imageUrl": ""
-      },
       "actorId": "3e35ddade59b3973c0e80d5f",
-      "name": "Michael Rianda"
+      "character": {
+        "name": "Aaron Mitchell"
+      }
     },
     {
-      "character": {
-        "name": "PAL",
-        "imageUrl": ""
-      },
       "actorId": "fc06251840c6d7396852bc40",
-      "name": "Olivia Colman"
+      "character": {
+        "name": "PAL"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Mark Bowman",
-        "imageUrl": ""
-      },
       "actorId": "3461ed4d01248fd1025b7f55",
-      "name": "Eric Andre"
+      "character": {
+        "name": "Dr. Mark Bowman"
+      }
     },
     {
-      "character": {
-        "name": "Deborahbot 5000",
-        "imageUrl": ""
-      },
       "actorId": "8d0985ead370e0071f779bf0",
-      "name": "Fred Armisen"
+      "character": {
+        "name": "Deborahbot 5000"
+      }
     }
   ],
   "collections": [

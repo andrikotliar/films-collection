@@ -62,68 +62,52 @@
   "duration": 125,
   "cast": [
     {
-      "character": {
-        "name": "Rick O'Connell",
-        "imageUrl": ""
-      },
       "actorId": "5007865fcfa27f77a5caa971",
-      "name": "Brendan Fraser"
+      "character": {
+        "name": "Rick O'Connell"
+      }
     },
     {
-      "character": {
-        "name": "Evelyn Carnahan",
-        "imageUrl": ""
-      },
       "actorId": "cac8a6d872c6bd724fce9824",
-      "name": "Rachel Weisz"
+      "character": {
+        "name": "Evelyn Carnahan"
+      }
     },
     {
-      "character": {
-        "name": "Jonathan Carnahan",
-        "imageUrl": ""
-      },
       "actorId": "182db493d2b81619d210955c",
-      "name": "John Hannah"
+      "character": {
+        "name": "Jonathan Carnahan"
+      }
     },
     {
-      "character": {
-        "name": "Imhotep",
-        "imageUrl": ""
-      },
       "actorId": "a37d51d4e1ec3cb66c525e5a",
-      "name": "Arnold Vosloo"
+      "character": {
+        "name": "Imhotep"
+      }
     },
     {
-      "character": {
-        "name": "Beni Gabor",
-        "imageUrl": ""
-      },
       "actorId": "f9283404f416424cfa430d0f",
-      "name": "Kevin J. O'Connor"
+      "character": {
+        "name": "Beni Gabor"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Allen Chamberlain",
-        "imageUrl": ""
-      },
       "actorId": "d534ecf817056c7592bbd058",
-      "name": "Jonathan Hyde"
+      "character": {
+        "name": "Dr. Allen Chamberlain"
+      }
     },
     {
-      "character": {
-        "name": "Ardeth Bay",
-        "imageUrl": ""
-      },
       "actorId": "b0f70d5f44ea97682c22fbbf",
-      "name": "Oded Fehr"
+      "character": {
+        "name": "Ardeth Bay"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Terrence Bey",
-        "imageUrl": ""
-      },
       "actorId": "3ba6b72ed4ed8ba89ca219e0",
-      "name": "Erick Avari"
+      "character": {
+        "name": "Dr. Terrence Bey"
+      }
     }
   ],
   "collections": [

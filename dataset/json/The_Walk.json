@@ -67,76 +67,58 @@
   "duration": 123,
   "cast": [
     {
-      "character": {
-        "name": "Philippe Petit",
-        "imageUrl": ""
-      },
       "actorId": "206c09f62d171c1b58cc6378",
-      "name": "Joseph Gordon-Levitt"
+      "character": {
+        "name": "Philippe Petit"
+      }
     },
     {
-      "character": {
-        "name": "Annie Allix",
-        "imageUrl": ""
-      },
       "actorId": "d52bb9bfe93a228f25f81f70",
-      "name": "Charlotte Le Bon"
+      "character": {
+        "name": "Annie Allix"
+      }
     },
     {
-      "character": {
-        "name": "Papa Rudy",
-        "imageUrl": ""
-      },
       "actorId": "9db2779191ae86290f56c21b",
-      "name": "Ben Kingsley"
+      "character": {
+        "name": "Papa Rudy"
+      }
     },
     {
-      "character": {
-        "name": "Jean-Louis",
-        "imageUrl": ""
-      },
       "actorId": "5232244821feae8b5a67c913",
-      "name": "Clément Sibony"
+      "character": {
+        "name": "Jean-Louis"
+      }
     },
     {
-      "character": {
-        "name": "Jean-Pierre",
-        "imageUrl": ""
-      },
       "actorId": "5bbe4522188dfae241a49323",
-      "name": "James Badge Dale"
+      "character": {
+        "name": "Jean-Pierre"
+      }
     },
     {
-      "character": {
-        "name": "Jeff",
-        "imageUrl": ""
-      },
       "actorId": "3f250a1017425e4a70c1d119",
-      "name": "César Domboy"
+      "character": {
+        "name": "Jeff"
+      }
     },
     {
-      "character": {
-        "name": "Albert",
-        "imageUrl": ""
-      },
       "actorId": "3628d6adc86ec01cecd73ba2",
-      "name": "Ben Schwartz"
+      "character": {
+        "name": "Albert"
+      }
     },
     {
-      "character": {
-        "name": "David",
-        "imageUrl": ""
-      },
       "actorId": "81f456f8332643286a6ab6fc",
-      "name": "Benedict Samuel"
+      "character": {
+        "name": "David"
+      }
     },
     {
-      "character": {
-        "name": "Barry Greenhouse",
-        "imageUrl": ""
-      },
       "actorId": "e2f43b45f44b2cb78af8d1db",
-      "name": "Steve Valentine"
+      "character": {
+        "name": "Barry Greenhouse"
+      }
     }
   ],
   "collections": [

@@ -61,68 +61,52 @@
   "duration": 106,
   "cast": [
     {
-      "character": {
-        "name": "Damien Tomaso",
-        "imageUrl": ""
-      },
       "actorId": "720b0e58c3535f3a56b9fe09",
-      "name": "Cyril Raffaelli"
+      "character": {
+        "name": "Damien Tomaso"
+      }
     },
     {
-      "character": {
-        "name": "Le'to",
-        "imageUrl": ""
-      },
       "actorId": "529d2217a4ce5871502401db",
-      "name": "David Belle"
+      "character": {
+        "name": "Le'to"
+      }
     },
     {
-      "character": {
-        "name": "Le pr'sident de la R'publique",
-        "imageUrl": ""
-      },
       "actorId": "2c9e571159816d9652eca888",
-      "name": "Philippe Torreton"
+      "character": {
+        "name": "Le pr'sident de la R'publique"
+      }
     },
     {
-      "character": {
-        "name": "Walter Gassman",
-        "imageUrl": ""
-      },
       "actorId": "efcc942f706bcdc23bc313bd",
-      "name": "Daniel Duval"
+      "character": {
+        "name": "Walter Gassman"
+      }
     },
     {
-      "character": {
-        "name": "Tao",
-        "imageUrl": ""
-      },
       "actorId": "4e3e841acae1dfd72ad61f89",
-      "name": "Elodie Yung"
+      "character": {
+        "name": "Tao"
+      }
     },
     {
-      "character": {
-        "name": "Molko",
-        "imageUrl": ""
-      },
       "actorId": "b94ea1cc1b8ea668b4a169fa",
-      "name": "MC Jean Gab'1"
+      "character": {
+        "name": "Molko"
+      }
     },
     {
-      "character": {
-        "name": "Karl le skin",
-        "imageUrl": ""
-      },
       "actorId": "eeac30dfeb1eef3bc3e8b33f",
-      "name": "James Deano"
+      "character": {
+        "name": "Karl le skin"
+      }
     },
     {
-      "character": {
-        "name": "Ali-K",
-        "imageUrl": ""
-      },
       "actorId": "ab90a6b0544a013a1528553e",
-      "name": "Laouni Mouhid"
+      "character": {
+        "name": "Ali-K"
+      }
     }
   ],
   "collections": [

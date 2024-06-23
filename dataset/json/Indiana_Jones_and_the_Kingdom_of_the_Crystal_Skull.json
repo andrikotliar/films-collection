@@ -64,52 +64,40 @@
   "duration": 127,
   "cast": [
     {
-      "character": {
-        "name": "Dr. Henry «Indiana» Jones, Jr.",
-        "imageUrl": ""
-      },
       "actorId": "90204450e3ebdb007d478280",
-      "name": "Harrison Ford"
+      "character": {
+        "name": "Dr. Henry «Indiana» Jones, Jr."
+      }
     },
     {
-      "character": {
-        "name": "Irina Spalko",
-        "imageUrl": ""
-      },
       "actorId": "7a354da5768fef2be29583f0",
-      "name": "Cate Blanchett"
+      "character": {
+        "name": "Irina Spalko"
+      }
     },
     {
-      "character": {
-        "name": "Marion Ravenwood",
-        "imageUrl": ""
-      },
       "actorId": "bd524c2789035cc0587cd149",
-      "name": "Karen Allen"
+      "character": {
+        "name": "Marion Ravenwood"
+      }
     },
     {
-      "character": {
-        "name": "Mutt Williams",
-        "imageUrl": ""
-      },
       "actorId": "24ad64557f5cc8cebf8194ae",
-      "name": "Shia LaBeouf"
+      "character": {
+        "name": "Mutt Williams"
+      }
     },
     {
-      "character": {
-        "name": "'Mac' George Michale",
-        "imageUrl": ""
-      },
       "actorId": "0ec2e2683da5b8fcdff58d89",
-      "name": "Ray Winstone"
+      "character": {
+        "name": "'Mac' George Michale"
+      }
     },
     {
-      "character": {
-        "name": "Professor Oxley",
-        "imageUrl": ""
-      },
       "actorId": "e8a0a4dd975bb9aba822de75",
-      "name": "John Hurt"
+      "character": {
+        "name": "Professor Oxley"
+      }
     }
   ],
   "collections": [

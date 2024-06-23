@@ -68,44 +68,34 @@
   "duration": 116,
   "cast": [
     {
-      "character": {
-        "name": "Aurora Lane",
-        "imageUrl": ""
-      },
       "actorId": "c99e4f6dc0695561848dc5be",
-      "name": "Jennifer Lawrence"
+      "character": {
+        "name": "Aurora Lane"
+      }
     },
     {
-      "character": {
-        "name": "Jim Preston",
-        "imageUrl": ""
-      },
       "actorId": "81002d63c8ad158916752ee2",
-      "name": "Chris Pratt"
+      "character": {
+        "name": "Jim Preston"
+      }
     },
     {
-      "character": {
-        "name": "Arthur",
-        "imageUrl": ""
-      },
       "actorId": "ddc30904ea1df69f6f509783",
-      "name": "Michael Sheen"
+      "character": {
+        "name": "Arthur"
+      }
     },
     {
-      "character": {
-        "name": "Gus Mancuso",
-        "imageUrl": ""
-      },
       "actorId": "598ea6d5be8fe378787adde7",
-      "name": "Laurence Fishburne"
+      "character": {
+        "name": "Gus Mancuso"
+      }
     },
     {
-      "character": {
-        "name": "Captain Norris",
-        "imageUrl": ""
-      },
       "actorId": "539fa2d4f61a2a9f805ee4f8",
-      "name": "Andy Garcia"
+      "character": {
+        "name": "Captain Norris"
+      }
     }
   ],
   "collections": [

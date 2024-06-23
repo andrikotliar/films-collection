@@ -63,76 +63,58 @@
   "duration": 123,
   "cast": [
     {
-      "character": {
-        "name": "Deadshot",
-        "imageUrl": ""
-      },
       "actorId": "b59613245389fb066c309182",
-      "name": "Will Smith"
+      "character": {
+        "name": "Deadshot"
+      }
     },
     {
-      "character": {
-        "name": "Harley Quinn",
-        "imageUrl": ""
-      },
       "actorId": "a4d0916f25c090bb758631dd",
-      "name": "Margot Robbie"
+      "character": {
+        "name": "Harley Quinn"
+      }
     },
     {
-      "character": {
-        "name": "Amanda Waller",
-        "imageUrl": ""
-      },
       "actorId": "ed4d4d91e091abd17b3ee6cc",
-      "name": "Viola Davis"
+      "character": {
+        "name": "Amanda Waller"
+      }
     },
     {
-      "character": {
-        "name": "The Joker",
-        "imageUrl": ""
-      },
       "actorId": "12e37e1d5008c5c1db94ec33",
-      "name": "Jared Leto"
+      "character": {
+        "name": "The Joker"
+      }
     },
     {
-      "character": {
-        "name": "George Harkness / Captain Boomerang",
-        "imageUrl": ""
-      },
       "actorId": "88abf608a4505bb4a212e2ba",
-      "name": "Jai Courtney"
+      "character": {
+        "name": "George Harkness / Captain Boomerang"
+      }
     },
     {
-      "character": {
-        "name": "Diablo",
-        "imageUrl": ""
-      },
       "actorId": "ad90429408b0f9cc24ca4d36",
-      "name": "Jay Hernandez"
+      "character": {
+        "name": "Diablo"
+      }
     },
     {
-      "character": {
-        "name": "Killer Croc",
-        "imageUrl": ""
-      },
       "actorId": "b2dad5c4c7660489fb7795e7",
-      "name": "Adewale Akinnuoye-Agbaje"
+      "character": {
+        "name": "Killer Croc"
+      }
     },
     {
-      "character": {
-        "name": "June Moone / Enchantress",
-        "imageUrl": ""
-      },
       "actorId": "1e9105db58adbed1e638d627",
-      "name": "Cara Delevingne"
+      "character": {
+        "name": "June Moone / Enchantress"
+      }
     },
     {
-      "character": {
-        "name": "Rick Flag",
-        "imageUrl": ""
-      },
       "actorId": "916020e239fb5fadbd4e7069",
-      "name": "Joel Kinnaman"
+      "character": {
+        "name": "Rick Flag"
+      }
     }
   ],
   "collections": [

@@ -72,68 +72,52 @@
   "duration": 136,
   "cast": [
     {
-      "character": {
-        "name": "Spider-Man / Peter Parker",
-        "imageUrl": ""
-      },
       "actorId": "4944de362b32c61551474862",
-      "name": "Andrew Garfield"
+      "character": {
+        "name": "Spider-Man / Peter Parker"
+      }
     },
     {
-      "character": {
-        "name": "Gwen Stacy",
-        "imageUrl": ""
-      },
       "actorId": "c01babb295ae6416292d0fd4",
-      "name": "Emma Stone"
+      "character": {
+        "name": "Gwen Stacy"
+      }
     },
     {
-      "character": {
-        "name": "The Lizard / Dr. Curt Connors",
-        "imageUrl": ""
-      },
       "actorId": "54976cd277ab4a63171411b7",
-      "name": "Rhys Ifans"
+      "character": {
+        "name": "The Lizard / Dr. Curt Connors"
+      }
     },
     {
-      "character": {
-        "name": "Captain Stacy",
-        "imageUrl": ""
-      },
       "actorId": "8e184aab53e75fde640c51ca",
-      "name": "Denis Leary"
+      "character": {
+        "name": "Captain Stacy"
+      }
     },
     {
-      "character": {
-        "name": "Uncle Ben",
-        "imageUrl": ""
-      },
       "actorId": "a120e6b4fb61fda262c27094",
-      "name": "Martin Sheen"
+      "character": {
+        "name": "Uncle Ben"
+      }
     },
     {
-      "character": {
-        "name": "Aunt May",
-        "imageUrl": ""
-      },
       "actorId": "ceb5dcd09087654d7284d7c7",
-      "name": "Sally Field"
+      "character": {
+        "name": "Aunt May"
+      }
     },
     {
-      "character": {
-        "name": "Richard Parker",
-        "imageUrl": ""
-      },
       "actorId": "0d98ef8d1a55fdabad1c9b64",
-      "name": "Campbell Scott"
+      "character": {
+        "name": "Richard Parker"
+      }
     },
     {
-      "character": {
-        "name": "Mary Parker",
-        "imageUrl": ""
-      },
       "actorId": "63290f63f5d24c67caaca21f",
-      "name": "Embeth Davidtz"
+      "character": {
+        "name": "Mary Parker"
+      }
     }
   ],
   "collections": [

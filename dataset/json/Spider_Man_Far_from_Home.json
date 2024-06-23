@@ -66,52 +66,40 @@
   "duration": 129,
   "cast": [
     {
-      "character": {
-        "name": "Peter Parker / Spider-Man",
-        "imageUrl": ""
-      },
       "actorId": "7724f9a2549d742da5d02985",
-      "name": "Tom Holland"
+      "character": {
+        "name": "Peter Parker / Spider-Man"
+      }
     },
     {
-      "character": {
-        "name": "Quentin Beck / Mysterio",
-        "imageUrl": ""
-      },
       "actorId": "644ca0c0a204f03134f45fbf",
-      "name": "Jake Gyllenhaal"
+      "character": {
+        "name": "Quentin Beck / Mysterio"
+      }
     },
     {
-      "character": {
-        "name": "Nick Fury",
-        "imageUrl": ""
-      },
       "actorId": "b066e50c67b8ffebd4ea16ba",
-      "name": "Samuel L. Jackson"
+      "character": {
+        "name": "Nick Fury"
+      }
     },
     {
-      "character": {
-        "name": "May Parker",
-        "imageUrl": ""
-      },
       "actorId": "0538ae4342160abcc02ecf33",
-      "name": "Marisa Tomei"
+      "character": {
+        "name": "May Parker"
+      }
     },
     {
-      "character": {
-        "name": "Happy Hogan",
-        "imageUrl": ""
-      },
       "actorId": "1d64586d1509495ad522cffe",
-      "name": "Jon Favreau"
+      "character": {
+        "name": "Happy Hogan"
+      }
     },
     {
-      "character": {
-        "name": "MJ",
-        "imageUrl": ""
-      },
       "actorId": "107e7fb331c2103897a87ffa",
-      "name": "Zendaya"
+      "character": {
+        "name": "MJ"
+      }
     }
   ],
   "collections": [

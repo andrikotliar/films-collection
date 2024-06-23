@@ -68,76 +68,58 @@
   "duration": 108,
   "cast": [
     {
-      "character": {
-        "name": "Octavia Spencer",
-        "imageUrl": ""
-      },
       "actorId": "649bf938997b111ed4016cfb",
-      "name": "Ginnifer Goodwin"
+      "character": {
+        "name": "Octavia Spencer"
+      }
     },
     {
-      "character": {
-        "name": "Judy Hopps",
-        "imageUrl": ""
-      },
       "actorId": "163bbc2f0761bbbbb833b6d3",
-      "name": "Jason Bateman"
+      "character": {
+        "name": "Judy Hopps"
+      }
     },
     {
-      "character": {
-        "name": "Nick Wilde",
-        "imageUrl": ""
-      },
       "actorId": "ae8fde81451592bb39107acc",
-      "name": "Idris Elba"
+      "character": {
+        "name": "Nick Wilde"
+      }
     },
     {
-      "character": {
-        "name": "Chief Bogo",
-        "imageUrl": ""
-      },
       "actorId": "c6db77fceebb2841a3cf06ab",
-      "name": "Jenny Slate"
+      "character": {
+        "name": "Chief Bogo"
+      }
     },
     {
-      "character": {
-        "name": "Bellwether",
-        "imageUrl": ""
-      },
       "actorId": "6f91fac14c27fde7e87fc681",
-      "name": "Nate Torrence"
+      "character": {
+        "name": "Bellwether"
+      }
     },
     {
-      "character": {
-        "name": "Clawhauser",
-        "imageUrl": ""
-      },
       "actorId": "c90c94e58f8dbde0ca35a253",
-      "name": "Bonnie Hunt"
+      "character": {
+        "name": "Clawhauser"
+      }
     },
     {
-      "character": {
-        "name": "Bonnie Hopps",
-        "imageUrl": ""
-      },
       "actorId": "e71fd83ba7020b3df2104739",
-      "name": "Don Lake"
+      "character": {
+        "name": "Bonnie Hopps"
+      }
     },
     {
-      "character": {
-        "name": "Stu Hopps",
-        "imageUrl": ""
-      },
       "actorId": "44a366e621aead6710910f93",
-      "name": "Tommy Chong"
+      "character": {
+        "name": "Stu Hopps"
+      }
     },
     {
-      "character": {
-        "name": "Yax",
-        "imageUrl": ""
-      },
       "actorId": "03293ef86c8bf352c9dd52f4",
-      "name": "J.K. Simmons"
+      "character": {
+        "name": "Yax"
+      }
     }
   ],
   "collections": [

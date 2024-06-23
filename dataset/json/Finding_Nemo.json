@@ -68,36 +68,28 @@
   "duration": 100,
   "cast": [
     {
-      "character": {
-        "name": "Nemo",
-        "imageUrl": ""
-      },
       "actorId": "61039ee13e2d8a16399ebb96",
-      "name": "Alexander Gould"
+      "character": {
+        "name": "Nemo"
+      }
     },
     {
-      "character": {
-        "name": "Marlin",
-        "imageUrl": ""
-      },
       "actorId": "2cc3990eeb99965e18d3f994",
-      "name": "Albert Brooks"
+      "character": {
+        "name": "Marlin"
+      }
     },
     {
-      "character": {
-        "name": "Dory",
-        "imageUrl": ""
-      },
       "actorId": "abfcb656438df17801fd9175",
-      "name": "Ellen DeGeneres"
+      "character": {
+        "name": "Dory"
+      }
     },
     {
-      "character": {
-        "name": "Gill",
-        "imageUrl": ""
-      },
       "actorId": "69443d6dcdd5ddbc0c51e534",
-      "name": "Willem Dafoe"
+      "character": {
+        "name": "Gill"
+      }
     }
   ],
   "collections": [

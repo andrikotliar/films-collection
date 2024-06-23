@@ -69,76 +69,58 @@
   "duration": 117,
   "cast": [
     {
-      "character": {
-        "name": "Scott Lang / Ant-Man",
-        "imageUrl": ""
-      },
       "actorId": "5d474df7bc79a3784ee0df3a",
-      "name": "Paul Rudd"
+      "character": {
+        "name": "Scott Lang / Ant-Man"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Hank Pym",
-        "imageUrl": ""
-      },
       "actorId": "b2ea2428b1a880a37e8855f5",
-      "name": "Michael Douglas"
+      "character": {
+        "name": "Dr. Hank Pym"
+      }
     },
     {
-      "character": {
-        "name": "Hope van Dyne",
-        "imageUrl": ""
-      },
       "actorId": "cbea23272f6d430dd37d2296",
-      "name": "Evangeline Lilly"
+      "character": {
+        "name": "Hope van Dyne"
+      }
     },
     {
-      "character": {
-        "name": "Darren Cross / Yellowjacket",
-        "imageUrl": ""
-      },
       "actorId": "c05edcaeec351b29c250a8ba",
-      "name": "Corey Stoll"
+      "character": {
+        "name": "Darren Cross / Yellowjacket"
+      }
     },
     {
-      "character": {
-        "name": "Paxton",
-        "imageUrl": ""
-      },
       "actorId": "4eae3a290425e38751fe0bbc",
-      "name": "Bobby Cannavale"
+      "character": {
+        "name": "Paxton"
+      }
     },
     {
-      "character": {
-        "name": "Luis",
-        "imageUrl": ""
-      },
       "actorId": "5e3bafc74ed0a30df02c53af",
-      "name": "Michael Pena"
+      "character": {
+        "name": "Luis"
+      }
     },
     {
-      "character": {
-        "name": "Sam Wilson / Falcon",
-        "imageUrl": ""
-      },
       "actorId": "b59e04d8cace91ce7b37a878",
-      "name": "Anthony Mackie"
+      "character": {
+        "name": "Sam Wilson / Falcon"
+      }
     },
     {
-      "character": {
-        "name": "Maggie Lang",
-        "imageUrl": ""
-      },
       "actorId": "a7cfc2b76fb5d17a3ff9227e",
-      "name": "Judy Greer"
+      "character": {
+        "name": "Maggie Lang"
+      }
     },
     {
-      "character": {
-        "name": "Cassie Lang",
-        "imageUrl": ""
-      },
       "actorId": "446bc02bc912344a78e54e2d",
-      "name": "Abby Ryder Fortson"
+      "character": {
+        "name": "Cassie Lang"
+      }
     }
   ],
   "collections": [

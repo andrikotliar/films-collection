@@ -70,68 +70,52 @@
   "duration": 141,
   "cast": [
     {
-      "character": {
-        "name": "Diana",
-        "imageUrl": ""
-      },
       "actorId": "689592fad487486ce5468f9f",
-      "name": "Gal Gadot"
+      "character": {
+        "name": "Diana"
+      }
     },
     {
-      "character": {
-        "name": "Steve Trevor",
-        "imageUrl": ""
-      },
       "actorId": "3acb4259a5ddd7988015fa82",
-      "name": "Chris Pine"
+      "character": {
+        "name": "Steve Trevor"
+      }
     },
     {
-      "character": {
-        "name": "Hippolyta",
-        "imageUrl": ""
-      },
       "actorId": "4d5652537ad12d0b2754f438",
-      "name": "Connie Nielsen"
+      "character": {
+        "name": "Hippolyta"
+      }
     },
     {
-      "character": {
-        "name": "Antiope",
-        "imageUrl": ""
-      },
       "actorId": "dfa09aeffb608e0483017ef2",
-      "name": "Robin Wright"
+      "character": {
+        "name": "Antiope"
+      }
     },
     {
-      "character": {
-        "name": "Ludendorff",
-        "imageUrl": ""
-      },
       "actorId": "9bfda7c213e843540df28a8e",
-      "name": "Danny Huston"
+      "character": {
+        "name": "Ludendorff"
+      }
     },
     {
-      "character": {
-        "name": "Sir Patrick",
-        "imageUrl": ""
-      },
       "actorId": "8220d1e507128ef20527db35",
-      "name": "David Thewlis"
+      "character": {
+        "name": "Sir Patrick"
+      }
     },
     {
-      "character": {
-        "name": "Sameer",
-        "imageUrl": ""
-      },
       "actorId": "822e6b06d8f124fb8ea82fae",
-      "name": "Sa'd Taghmaoui"
+      "character": {
+        "name": "Sameer"
+      }
     },
     {
-      "character": {
-        "name": "Charlie",
-        "imageUrl": ""
-      },
       "actorId": "6bab49cf88fd143cc4b06c15",
-      "name": "Ewen Bremner"
+      "character": {
+        "name": "Charlie"
+      }
     }
   ],
   "collections": [

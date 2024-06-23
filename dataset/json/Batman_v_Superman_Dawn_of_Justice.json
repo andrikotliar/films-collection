@@ -69,76 +69,58 @@
   "duration": 151,
   "cast": [
     {
-      "character": {
-        "name": "Bruce Wayne / Batman",
-        "imageUrl": ""
-      },
       "actorId": "118e96c459ae6809e814c6b5",
-      "name": "Ben Affleck"
+      "character": {
+        "name": "Bruce Wayne / Batman"
+      }
     },
     {
-      "character": {
-        "name": "Clark Kent / Superman",
-        "imageUrl": ""
-      },
       "actorId": "8b6677adf81a10fa756951ff",
-      "name": "Henry Cavill"
+      "character": {
+        "name": "Clark Kent / Superman"
+      }
     },
     {
-      "character": {
-        "name": "Lois Lane",
-        "imageUrl": ""
-      },
       "actorId": "8f9db7b562116db3822027d8",
-      "name": "Amy Adams"
+      "character": {
+        "name": "Lois Lane"
+      }
     },
     {
-      "character": {
-        "name": "Lex Luthor",
-        "imageUrl": ""
-      },
       "actorId": "23f19ef413bcb6efbff53967",
-      "name": "Jesse Eisenberg"
+      "character": {
+        "name": "Lex Luthor"
+      }
     },
     {
-      "character": {
-        "name": "Martha Kent",
-        "imageUrl": ""
-      },
       "actorId": "6cf53fe9fb98ea48cbd3641d",
-      "name": "Diane Lane"
+      "character": {
+        "name": "Martha Kent"
+      }
     },
     {
-      "character": {
-        "name": "Perry White",
-        "imageUrl": ""
-      },
       "actorId": "598ea6d5be8fe378787adde7",
-      "name": "Laurence Fishburne"
+      "character": {
+        "name": "Perry White"
+      }
     },
     {
-      "character": {
-        "name": "Alfred Pennyworth",
-        "imageUrl": ""
-      },
       "actorId": "45cf2c1a6045a2b007118352",
-      "name": "Jeremy Irons"
+      "character": {
+        "name": "Alfred Pennyworth"
+      }
     },
     {
-      "character": {
-        "name": "Senator Finch",
-        "imageUrl": ""
-      },
       "actorId": "afb7faa29ea36c9c71570d4f",
-      "name": "Holly Hunter"
+      "character": {
+        "name": "Senator Finch"
+      }
     },
     {
-      "character": {
-        "name": "Diana Prince / Wonder Woman",
-        "imageUrl": ""
-      },
       "actorId": "689592fad487486ce5468f9f",
-      "name": "Gal Gadot"
+      "character": {
+        "name": "Diana Prince / Wonder Woman"
+      }
     }
   ],
   "collections": [

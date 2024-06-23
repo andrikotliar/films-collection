@@ -73,36 +73,28 @@
   "duration": 90,
   "cast": [
     {
-      "character": {
-        "name": "Shrek",
-        "imageUrl": ""
-      },
       "actorId": "da1f33b9c84064852254d8aa",
-      "name": "Mike Myers"
+      "character": {
+        "name": "Shrek"
+      }
     },
     {
-      "character": {
-        "name": "Donkey",
-        "imageUrl": ""
-      },
       "actorId": "356f3d8d6debf47913fead0a",
-      "name": "Eddie Murphy"
+      "character": {
+        "name": "Donkey"
+      }
     },
     {
-      "character": {
-        "name": "Fiona",
-        "imageUrl": ""
-      },
       "actorId": "2f654330682e4a9dbb666cc0",
-      "name": "Cameron Diaz"
+      "character": {
+        "name": "Fiona"
+      }
     },
     {
-      "character": {
-        "name": "Lord Farquaad",
-        "imageUrl": ""
-      },
       "actorId": "b3e39cb52439fd6d9e379b3e",
-      "name": "John Lithgow"
+      "character": {
+        "name": "Lord Farquaad"
+      }
     }
   ],
   "collections": [

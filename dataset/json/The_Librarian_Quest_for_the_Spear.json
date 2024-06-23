@@ -62,52 +62,40 @@
   "duration": 90,
   "cast": [
     {
-      "character": {
-        "name": "Flynn Carsen",
-        "imageUrl": ""
-      },
       "actorId": "5682aa234be8275828a251fd",
-      "name": "Noah Wyle"
+      "character": {
+        "name": "Flynn Carsen"
+      }
     },
     {
-      "character": {
-        "name": "Nicole Noone",
-        "imageUrl": ""
-      },
       "actorId": "f3f5c26275f4fd662f3794eb",
-      "name": "Sonya Walger"
+      "character": {
+        "name": "Nicole Noone"
+      }
     },
     {
-      "character": {
-        "name": "Judson",
-        "imageUrl": ""
-      },
       "actorId": "c7d1e2a7bc4468f9de40f667",
-      "name": "Bob Newhart"
+      "character": {
+        "name": "Judson"
+      }
     },
     {
-      "character": {
-        "name": "Edward Wilde",
-        "imageUrl": ""
-      },
       "actorId": "08f79555a68e0b4d4c55d8dc",
-      "name": "Kyle MacLachlan"
+      "character": {
+        "name": "Edward Wilde"
+      }
     },
     {
-      "character": {
-        "name": "Charlene",
-        "imageUrl": ""
-      },
       "actorId": "ddef35144525bb2d00be1e2d",
-      "name": "Jane Curtin"
+      "character": {
+        "name": "Charlene"
+      }
     },
     {
-      "character": {
-        "name": "Margie Carsen",
-        "imageUrl": ""
-      },
       "actorId": "ba82d777d2d30d77f1ca0cc7",
-      "name": "Olympia Dukakis"
+      "character": {
+        "name": "Margie Carsen"
+      }
     }
   ],
   "collections": [

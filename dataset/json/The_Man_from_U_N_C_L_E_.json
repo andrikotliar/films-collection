@@ -72,52 +72,40 @@
   "duration": 116,
   "cast": [
     {
-      "character": {
-        "name": "Napoleon Solo",
-        "imageUrl": ""
-      },
       "actorId": "8b6677adf81a10fa756951ff",
-      "name": "Henry Cavill"
+      "character": {
+        "name": "Napoleon Solo"
+      }
     },
     {
-      "character": {
-        "name": "Illya Kuryakin",
-        "imageUrl": ""
-      },
       "actorId": "29585958fdc191b1e0a15f18",
-      "name": "Armie Hammer"
+      "character": {
+        "name": "Illya Kuryakin"
+      }
     },
     {
-      "character": {
-        "name": "Gaby",
-        "imageUrl": ""
-      },
       "actorId": "ab07a733e698ce2cf88b0eef",
-      "name": "Alicia Vikander"
+      "character": {
+        "name": "Gaby"
+      }
     },
     {
-      "character": {
-        "name": "Victoria",
-        "imageUrl": ""
-      },
       "actorId": "d346e8fbcf12e4d8761b6d8a",
-      "name": "Elizabeth Debicki"
+      "character": {
+        "name": "Victoria"
+      }
     },
     {
-      "character": {
-        "name": "Alexander",
-        "imageUrl": ""
-      },
       "actorId": "8e4359419c358b4949c41b27",
-      "name": "Luca Calvani"
+      "character": {
+        "name": "Alexander"
+      }
     },
     {
-      "character": {
-        "name": "Waverly",
-        "imageUrl": ""
-      },
       "actorId": "52318943c79c3be8ac26dff4",
-      "name": "Hugh Grant"
+      "character": {
+        "name": "Waverly"
+      }
     }
   ],
   "collections": [

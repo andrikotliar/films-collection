@@ -87,36 +87,28 @@
   "duration": 142,
   "cast": [
     {
-      "character": {
-        "name": "Spider-Man / Peter Parker",
-        "imageUrl": ""
-      },
       "actorId": "4944de362b32c61551474862",
-      "name": "Andrew Garfield"
+      "character": {
+        "name": "Spider-Man / Peter Parker"
+      }
     },
     {
-      "character": {
-        "name": "Gwen Stacy",
-        "imageUrl": ""
-      },
       "actorId": "c01babb295ae6416292d0fd4",
-      "name": "Emma Stone"
+      "character": {
+        "name": "Gwen Stacy"
+      }
     },
     {
-      "character": {
-        "name": "Electro / Max Dillon",
-        "imageUrl": ""
-      },
       "actorId": "ef83cde86ba14a39f3be9702",
-      "name": "Jamie Foxx"
+      "character": {
+        "name": "Electro / Max Dillon"
+      }
     },
     {
-      "character": {
-        "name": "Green Goblin / Harry Osborn",
-        "imageUrl": ""
-      },
       "actorId": "c202b52575090480ffc0e04d",
-      "name": "Dane DeHaan"
+      "character": {
+        "name": "Green Goblin / Harry Osborn"
+      }
     }
   ],
   "collections": [

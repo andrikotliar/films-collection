@@ -148,82 +148,64 @@
   "duration": 640,
   "cast": [
     {
-      "character": {
-        "name": "The Mandalorian",
-        "imageUrl": ""
-      },
       "actorId": "b5ff52d0995bec144e227184",
-      "name": "Pedro Pascal"
+      "character": {
+        "name": "The Mandalorian"
+      }
     },
     {
-      "character": {
-        "name": "Cara Dune",
-        "imageUrl": ""
-      },
       "actorId": "b0dc3ca86c281cc05693f1cd",
-      "name": "Gina Carano"
+      "character": {
+        "name": "Cara Dune"
+      }
     },
     {
-      "character": {
-        "name": "Moff Gideon",
-        "imageUrl": ""
-      },
       "actorId": "4460a7c81280abd897d97d32",
-      "name": "Giancarlo Esposito"
+      "character": {
+        "name": "Moff Gideon"
+      }
     },
     {
-      "character": {
-        "name": "Greef Karga",
-        "imageUrl": ""
-      },
       "actorId": "22204bd7fa1075c9a04b9659",
-      "name": "Carl Weathers"
+      "character": {
+        "name": "Greef Karga"
+      }
     },
     {
-      "character": {
-        "name": "Boba Fett",
-        "imageUrl": ""
-      },
       "actorId": "36eb3476e54ce4b3ec95c273",
-      "name": "Temuera Morrison"
+      "character": {
+        "name": "Boba Fett"
+      }
     },
     {
-      "character": {
-        "name": "Fennec Shand",
-        "imageUrl": ""
-      },
       "actorId": "f9b012b8e8d6724b5b9c1140",
-      "name": "Ming-Na Wen"
+      "character": {
+        "name": "Fennec Shand"
+      }
     },
     {
-      "character": {
-        "name": "Ahsoka Tano",
-        "imageUrl": ""
-      },
       "actorId": "4fda865b59819a0d26c09697",
-      "name": "Rosario Dawson"
+      "character": {
+        "name": "Ahsoka Tano"
+      }
     },
     {
-      "character": {
-        "name": "IG-11",
-        "imageUrl": ""
-      },
       "actorId": "69e8920fd59dae4ebf93c60c",
-      "name": "Taika Waititi"
-    },
-    {
       "character": {
-        "name": "Kuiil",
-        "imageUrl": ""
-      },
-      "actorId": "07d0f36cefa97ad89f2bcc13",
-      "name": "Nick Nolte"
+        "name": "IG-11"
+      }
     },
     {
+      "actorId": "07d0f36cefa97ad89f2bcc13",
+      "character": {
+        "name": "Kuiil"
+      }
+    },
+    {
+      "actorId": "0cdba35b7b82464350279a22",
       "character": {
         "name": "The Armorer"
-      },
-      "actorId": "0cdba35b7b82464350279a22"
+      }
     }
   ],
   "collections": [

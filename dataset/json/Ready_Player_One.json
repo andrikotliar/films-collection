@@ -66,84 +66,64 @@
   "duration": 140,
   "cast": [
     {
-      "character": {
-        "name": "Parzival / Wade",
-        "imageUrl": ""
-      },
       "actorId": "7fffb2c64199b3d7572f0b3c",
-      "name": "Tye Sheridan"
+      "character": {
+        "name": "Parzival / Wade"
+      }
     },
     {
-      "character": {
-        "name": "Art3mis / Samantha",
-        "imageUrl": ""
-      },
       "actorId": "d4e38766a48e4a04d41ffa96",
-      "name": "Olivia Cooke"
+      "character": {
+        "name": "Art3mis / Samantha"
+      }
     },
     {
-      "character": {
-        "name": "Sorrento",
-        "imageUrl": ""
-      },
       "actorId": "5e8de99fe5c4235fb362b719",
-      "name": "Ben Mendelsohn"
+      "character": {
+        "name": "Sorrento"
+      }
     },
     {
-      "character": {
-        "name": "Aech / Helen",
-        "imageUrl": ""
-      },
       "actorId": "b9705f3f7514b14ec7618664",
-      "name": "Lena Waithe"
+      "character": {
+        "name": "Aech / Helen"
+      }
     },
     {
-      "character": {
-        "name": "I-R0k",
-        "imageUrl": ""
-      },
       "actorId": "fc4c28142a16ef2d3841e868",
-      "name": "T.J. Miller"
+      "character": {
+        "name": "I-R0k"
+      }
     },
     {
-      "character": {
-        "name": "Curator / Ogden Morrow",
-        "imageUrl": ""
-      },
       "actorId": "2e7736bf7187e688395d7a2c",
-      "name": "Simon Pegg"
+      "character": {
+        "name": "Curator / Ogden Morrow"
+      }
     },
     {
-      "character": {
-        "name": "Anorak / Halliday",
-        "imageUrl": ""
-      },
       "actorId": "4c8f4c7fd3e50d88a5ce0a4b",
-      "name": "Mark Rylance"
+      "character": {
+        "name": "Anorak / Halliday"
+      }
     },
     {
-      "character": {
-        "name": "Sho",
-        "imageUrl": ""
-      },
       "actorId": "9f9fa840edf7edbf9b96762a",
-      "name": "Philip Zhao"
+      "character": {
+        "name": "Sho"
+      }
     },
     {
-      "character": {
-        "name": "Daito",
-        "imageUrl": ""
-      },
       "actorId": "2a7c6d485f473f6dc1518bc0",
-      "name": "Win Morisaki"
+      "character": {
+        "name": "Daito"
+      }
     },
     {
-      "character": {
-        "name": "F'Nale Zandor",
-        "imageUrl": ""
-      },
       "actorId": "ceed7f04919d7706e670c146",
-      "name": "Hannah John-Kamen"
+      "character": {
+        "name": "F'Nale Zandor"
+      }
     }
   ],
   "collections": [

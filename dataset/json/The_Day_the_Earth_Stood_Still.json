@@ -65,36 +65,28 @@
   "duration": 103,
   "cast": [
     {
-      "character": {
-        "name": "Klaatu",
-        "imageUrl": ""
-      },
       "actorId": "064e80da8733b3e3692e9735",
-      "name": "Keanu Reeves"
+      "character": {
+        "name": "Klaatu"
+      }
     },
     {
-      "character": {
-        "name": "Helen Benson",
-        "imageUrl": ""
-      },
       "actorId": "1cf0eb2682f7194956288319",
-      "name": "Jennifer Connelly"
+      "character": {
+        "name": "Helen Benson"
+      }
     },
     {
-      "character": {
-        "name": "Regina Jackson",
-        "imageUrl": ""
-      },
       "actorId": "2d50f3618492cf69f4338a96",
-      "name": "Kathy Bates"
+      "character": {
+        "name": "Regina Jackson"
+      }
     },
     {
-      "character": {
-        "name": "Jacob Benson",
-        "imageUrl": ""
-      },
       "actorId": "e5f8d050277450eaa51338f6",
-      "name": "Jaden Smith"
+      "character": {
+        "name": "Jacob Benson"
+      }
     }
   ],
   "collections": [

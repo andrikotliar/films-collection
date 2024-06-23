@@ -60,44 +60,34 @@
   "duration": 98,
   "cast": [
     {
-      "character": {
-        "name": "Hiccup",
-        "imageUrl": ""
-      },
       "actorId": "a7d35039857e23987e0e044c",
-      "name": "Jay Baruchel"
+      "character": {
+        "name": "Hiccup"
+      }
     },
     {
-      "character": {
-        "name": "Stoick ",
-        "imageUrl": ""
-      },
       "actorId": "19691d0b10cb811590497ff2",
-      "name": "Gerard Butler"
+      "character": {
+        "name": "Stoick "
+      }
     },
     {
-      "character": {
-        "name": "Gobber ",
-        "imageUrl": ""
-      },
       "actorId": "d547995ac733ce40226af91f",
-      "name": "Craig Ferguson"
+      "character": {
+        "name": "Gobber "
+      }
     },
     {
-      "character": {
-        "name": "Astrid ",
-        "imageUrl": ""
-      },
       "actorId": "6c95d5ee7e91ad5d5e781165",
-      "name": "America Ferrera"
+      "character": {
+        "name": "Astrid "
+      }
     },
     {
-      "character": {
-        "name": "Fishlegs ",
-        "imageUrl": ""
-      },
       "actorId": "10a99397a4be9fff8d032511",
-      "name": "Christopher Mintz-Plasse"
+      "character": {
+        "name": "Fishlegs "
+      }
     }
   ],
   "collections": [

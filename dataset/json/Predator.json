@@ -68,68 +68,52 @@
   "duration": 107,
   "cast": [
     {
-      "character": {
-        "name": "Dutch",
-        "imageUrl": ""
-      },
       "actorId": "8062b68b19b6dacb76d14b75",
-      "name": "Arnold Schwarzenegger"
+      "character": {
+        "name": "Dutch"
+      }
     },
     {
-      "character": {
-        "name": "Dillon",
-        "imageUrl": ""
-      },
       "actorId": "22204bd7fa1075c9a04b9659",
-      "name": "Carl Weathers"
+      "character": {
+        "name": "Dillon"
+      }
     },
     {
-      "character": {
-        "name": "Anna",
-        "imageUrl": ""
-      },
       "actorId": "e3f82dd554f7569e0158c29b",
-      "name": "Elpidia Carrillo"
+      "character": {
+        "name": "Anna"
+      }
     },
     {
-      "character": {
-        "name": "Mac",
-        "imageUrl": ""
-      },
       "actorId": "55cfdcae4bf0276a8f3aea79",
-      "name": "Bill Duke"
+      "character": {
+        "name": "Mac"
+      }
     },
     {
-      "character": {
-        "name": "Blain",
-        "imageUrl": ""
-      },
       "actorId": "22d954e2505297913c5cd4e9",
-      "name": "Jesse Ventura"
+      "character": {
+        "name": "Blain"
+      }
     },
     {
-      "character": {
-        "name": "Billy",
-        "imageUrl": ""
-      },
       "actorId": "628096da83b9a3886c8655ca",
-      "name": "Sonny Landham"
+      "character": {
+        "name": "Billy"
+      }
     },
     {
-      "character": {
-        "name": "Poncho",
-        "imageUrl": ""
-      },
       "actorId": "56baa579884f7cfe22ac0a4d",
-      "name": "Richard Chaves"
+      "character": {
+        "name": "Poncho"
+      }
     },
     {
-      "character": {
-        "name": "Predator",
-        "imageUrl": ""
-      },
       "actorId": "c504ec32a5e222cf07a1562c",
-      "name": "Kevin Peter Hall"
+      "character": {
+        "name": "Predator"
+      }
     }
   ],
   "collections": [

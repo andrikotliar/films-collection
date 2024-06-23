@@ -64,52 +64,40 @@
   "duration": 127,
   "cast": [
     {
-      "character": {
-        "name": "Dr. Henry «Indiana» Jones, Jr.",
-        "imageUrl": ""
-      },
       "actorId": "90204450e3ebdb007d478280",
-      "name": "Harrison Ford"
+      "character": {
+        "name": "Dr. Henry «Indiana» Jones, Jr."
+      }
     },
     {
-      "character": {
-        "name": "Professor Henry Jones",
-        "imageUrl": ""
-      },
       "actorId": "52e5e7e893ec68a15817dc22",
-      "name": "Sean Connery"
+      "character": {
+        "name": "Professor Henry Jones"
+      }
     },
     {
-      "character": {
-        "name": "Marcus Brody",
-        "imageUrl": ""
-      },
       "actorId": "1cb94f174646e5cd8d18c312",
-      "name": "Denholm Elliott"
+      "character": {
+        "name": "Marcus Brody"
+      }
     },
     {
-      "character": {
-        "name": "Elsa",
-        "imageUrl": ""
-      },
       "actorId": "aa4321ec61d799331b60221f",
-      "name": "Alison Doody"
+      "character": {
+        "name": "Elsa"
+      }
     },
     {
-      "character": {
-        "name": "Sallah",
-        "imageUrl": ""
-      },
       "actorId": "2555ed16eef45d9015e8aa02",
-      "name": "John Rhys-Davies"
+      "character": {
+        "name": "Sallah"
+      }
     },
     {
-      "character": {
-        "name": "Walter Donovan",
-        "imageUrl": ""
-      },
       "actorId": "088c8600bc5f55a443798e58",
-      "name": "Julian Glover"
+      "character": {
+        "name": "Walter Donovan"
+      }
     }
   ],
   "collections": [

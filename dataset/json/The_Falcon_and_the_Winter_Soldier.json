@@ -80,84 +80,64 @@
   "duration": 300,
   "cast": [
     {
-      "character": {
-        "name": "Sam Wilson / Falcon / Captain America",
-        "imageUrl": ""
-      },
       "actorId": "b59e04d8cace91ce7b37a878",
-      "name": "Anthony Mackie"
+      "character": {
+        "name": "Sam Wilson / Falcon / Captain America"
+      }
     },
     {
-      "character": {
-        "name": "James \"Bucky\" Barnes / White Wolf",
-        "imageUrl": ""
-      },
       "actorId": "5f86048e81f0f2f8d811005f",
-      "name": "Sebastian Stan"
+      "character": {
+        "name": "James \"Bucky\" Barnes / White Wolf"
+      }
     },
     {
-      "character": {
-        "name": "John Walker / Captain America / U.S. Agent",
-        "imageUrl": ""
-      },
       "actorId": "9958a9d62a45d76bea422442",
-      "name": "Wyatt Russell"
+      "character": {
+        "name": "John Walker / Captain America / U.S. Agent"
+      }
     },
     {
-      "character": {
-        "name": "Karli Morgenthau",
-        "imageUrl": ""
-      },
       "actorId": "986fddcb2ef5cf4a0bbdc240",
-      "name": "Erin Kellyman"
+      "character": {
+        "name": "Karli Morgenthau"
+      }
     },
     {
-      "character": {
-        "name": "Sarah Wilson",
-        "imageUrl": ""
-      },
       "actorId": "fabf0406d63c7e57042de8f2",
-      "name": "Adepero Oduye"
+      "character": {
+        "name": "Sarah Wilson"
+      }
     },
     {
-      "character": {
-        "name": "James \"Rhodey\" Rhodes",
-        "imageUrl": ""
-      },
       "actorId": "84a7fc06c915c5463cc7ce32",
-      "name": "Don Cheadle"
+      "character": {
+        "name": "James \"Rhodey\" Rhodes"
+      }
     },
     {
-      "character": {
-        "name": "Helmut Zemo",
-        "imageUrl": ""
-      },
       "actorId": "c7594955176a580a3357b7b5",
-      "name": "Daniel Brühl"
+      "character": {
+        "name": "Helmut Zemo"
+      }
     },
     {
-      "character": {
-        "name": "Sharon Carter / Power Broker",
-        "imageUrl": ""
-      },
       "actorId": "8aa76aa5736b88573d5225ec",
-      "name": "Emily VanCamp"
+      "character": {
+        "name": "Sharon Carter / Power Broker"
+      }
     },
     {
-      "character": {
-        "name": "Ayo",
-        "imageUrl": ""
-      },
       "actorId": "2b4fe26cf420ecd887899aa8",
-      "name": "Florence Kasumba"
+      "character": {
+        "name": "Ayo"
+      }
     },
     {
-      "character": {
-        "name": "Valentina Allegra de Fontaine",
-        "imageUrl": ""
-      },
       "actorId": "ab787dcbbabb239d412b9bee",
-      "name": "Julia Louis-Dreyfus"
+      "character": {
+        "name": "Valentina Allegra de Fontaine"
+      }
     }
   ],
   "collections": [

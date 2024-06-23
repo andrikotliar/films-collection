@@ -66,84 +66,64 @@
   "duration": 130,
   "cast": [
     {
-      "character": {
-        "name": "Thor",
-        "imageUrl": ""
-      },
       "actorId": "9d6f7bec0a46789eaa403786",
-      "name": "Chris Hemsworth"
+      "character": {
+        "name": "Thor"
+      }
     },
     {
-      "character": {
-        "name": "Loki",
-        "imageUrl": ""
-      },
       "actorId": "1c93c03ba9a9870918b112fb",
-      "name": "Tom Hiddleston"
+      "character": {
+        "name": "Loki"
+      }
     },
     {
-      "character": {
-        "name": "Hela",
-        "imageUrl": ""
-      },
       "actorId": "7a354da5768fef2be29583f0",
-      "name": "Cate Blanchett"
+      "character": {
+        "name": "Hela"
+      }
     },
     {
-      "character": {
-        "name": "Heimdall",
-        "imageUrl": ""
-      },
       "actorId": "ae8fde81451592bb39107acc",
-      "name": "Idris Elba"
+      "character": {
+        "name": "Heimdall"
+      }
     },
     {
-      "character": {
-        "name": "Grandmaster",
-        "imageUrl": ""
-      },
       "actorId": "ffe7655111ebb548aeea0a19",
-      "name": "Jeff Goldblum"
+      "character": {
+        "name": "Grandmaster"
+      }
     },
     {
-      "character": {
-        "name": "Valkyrie",
-        "imageUrl": ""
-      },
       "actorId": "2b02437ffc9ab9c0bddff0bc",
-      "name": "Tessa Thompson"
+      "character": {
+        "name": "Valkyrie"
+      }
     },
     {
-      "character": {
-        "name": "Skurge",
-        "imageUrl": ""
-      },
       "actorId": "073830510a0bae3dde5820c2",
-      "name": "Karl Urban"
+      "character": {
+        "name": "Skurge"
+      }
     },
     {
-      "character": {
-        "name": "Bruce Banner / Hulk",
-        "imageUrl": ""
-      },
       "actorId": "a65bc3f407cd83dd8b26db19",
-      "name": "Mark Ruffalo"
+      "character": {
+        "name": "Bruce Banner / Hulk"
+      }
     },
     {
-      "character": {
-        "name": "Odin",
-        "imageUrl": ""
-      },
       "actorId": "da765b1b4b74c95d954ac411",
-      "name": "Anthony Hopkins"
+      "character": {
+        "name": "Odin"
+      }
     },
     {
-      "character": {
-        "name": "Doctor Strange",
-        "imageUrl": ""
-      },
       "actorId": "5a86b2f23ea348e3a58775b6",
-      "name": "Benedict Cumberbatch"
+      "character": {
+        "name": "Doctor Strange"
+      }
     }
   ],
   "collections": [

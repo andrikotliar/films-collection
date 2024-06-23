@@ -66,60 +66,46 @@
   "duration": 109,
   "cast": [
     {
-      "character": {
-        "name": "Balthazar",
-        "imageUrl": ""
-      },
       "actorId": "6e9dd36e3b96af6f5483e7a2",
-      "name": "Nicolas Cage"
+      "character": {
+        "name": "Balthazar"
+      }
     },
     {
-      "character": {
-        "name": "Dave",
-        "imageUrl": ""
-      },
       "actorId": "a7d35039857e23987e0e044c",
-      "name": "Jay Baruchel"
+      "character": {
+        "name": "Dave"
+      }
     },
     {
-      "character": {
-        "name": "Horvath",
-        "imageUrl": ""
-      },
       "actorId": "c70aa327b237efbbee19c181",
-      "name": "Alfred Molina"
+      "character": {
+        "name": "Horvath"
+      }
     },
     {
-      "character": {
-        "name": "Becky",
-        "imageUrl": ""
-      },
       "actorId": "741f87451c18a11efa75fb58",
-      "name": "Teresa Palmer"
+      "character": {
+        "name": "Becky"
+      }
     },
     {
-      "character": {
-        "name": "Drake Stone",
-        "imageUrl": ""
-      },
       "actorId": "c8901a2c3a9ece7d8f68aba1",
-      "name": "Toby Kebbell"
+      "character": {
+        "name": "Drake Stone"
+      }
     },
     {
-      "character": {
-        "name": "Veronica",
-        "imageUrl": ""
-      },
       "actorId": "e08aee6b1c0c234b43ec840c",
-      "name": "Monica Bellucci"
+      "character": {
+        "name": "Veronica"
+      }
     },
     {
-      "character": {
-        "name": "Morgana",
-        "imageUrl": ""
-      },
       "actorId": "b4143ce0634b05299c460896",
-      "name": "Alice Krige"
+      "character": {
+        "name": "Morgana"
+      }
     }
   ],
   "collections": [
