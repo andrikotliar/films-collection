@@ -126,75 +126,58 @@
   "duration": 1020,
   "cast": [
     {
-      "character": {
-        "name": "Sherlock Holmes",
-        "imageUrl": ""
-      },
       "actorId": "5a86b2f23ea348e3a58775b6",
-      "name": "Benedict Cumberbatch"
+      "character": {
+        "name": "Sherlock Holmes"
+      }
     },
     {
-      "character": {
-        "name": "Dr. John Watson",
-        "imageUrl": ""
-      },
       "actorId": "706bad1f2278f02cd543a7a2",
-      "name": "Martin Freeman"
+      "character": {
+        "name": "Dr. John Watson"
+      }
     },
     {
-      "character": {
-        "name": "Mrs. Hudson",
-        "imageUrl": ""
-      },
       "actorId": "25dfb6ae898a6796c2935925",
-      "name": "Una Stubbs"
+      "character": {
+        "name": "Mrs. Hudson"
+      }
     },
     {
-      "character": {
-        "name": "DI Lestrade",
-        "imageUrl": ""
-      },
       "actorId": "46ae8cda3c9606ab4da5a86c",
-      "name": "Rupert Graves"
+      "character": {
+        "name": "DI Lestrade"
+      }
     },
     {
-      "character": {
-        "name": "Molly Hooper",
-        "imageUrl": ""
-      },
       "actorId": "a990c9638e7dcc14238a5782",
-      "name": "Louise Brealey"
+      "character": {
+        "name": "Molly Hooper"
+      }
     },
     {
-      "character": {
-        "name": "Mycroft Holmes",
-        "imageUrl": ""
-      },
       "actorId": "6ab71e4abb0db0a786236010",
-      "name": "Mark Gatiss"
+      "character": {
+        "name": "Mycroft Holmes"
+      }
     },
     {
-      "character": {
-        "name": "Jim Moriarty",
-        "imageUrl": ""
-      },
       "actorId": "44be8c9022471dcee514c1fc",
-      "name": "Andrew Scott"
+      "character": {
+        "name": "Jim Moriarty"
+      }
     },
     {
+      "actorId": "ffaf4b55d3720a86064b7030",
       "character": {
-        "name": "Lara Pulwer",
-        "imageUrl": ""
-      },
-      "actorId": "ffaf4b55d3720a86064b7030"
+        "name": "Lara Pulwer"
+      }
     },
     {
-      "character": {
-        "name": "Mary Watson",
-        "imageUrl": ""
-      },
       "actorId": "49204a2a5d6486cf9256eb69",
-      "name": "Amanda Abbington"
+      "character": {
+        "name": "Mary Watson"
+      }
     }
   ],
   "collections": [

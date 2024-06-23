@@ -63,52 +63,40 @@
   "duration": 127,
   "cast": [
     {
-      "character": {
-        "name": "Spider-Man / Peter Parker",
-        "imageUrl": ""
-      },
       "actorId": "65694e39d2799267ae4a2adf",
-      "name": "Tobey Maguire"
+      "character": {
+        "name": "Spider-Man / Peter Parker"
+      }
     },
     {
-      "character": {
-        "name": "Doc Ock / Dr. Otto Octavius",
-        "imageUrl": ""
-      },
       "actorId": "c70aa327b237efbbee19c181",
-      "name": "Alfred Molina"
+      "character": {
+        "name": "Doc Ock / Dr. Otto Octavius"
+      }
     },
     {
-      "character": {
-        "name": "Mary Jane Watson",
-        "imageUrl": ""
-      },
       "actorId": "1a56afd931fe087b7c4de4c1",
-      "name": "Kirsten Dunst"
+      "character": {
+        "name": "Mary Jane Watson"
+      }
     },
     {
-      "character": {
-        "name": "Harry Osborn",
-        "imageUrl": ""
-      },
       "actorId": "03004ad337f0cc1d674180f4",
-      "name": "James Franco"
+      "character": {
+        "name": "Harry Osborn"
+      }
     },
     {
-      "character": {
-        "name": "May Parker",
-        "imageUrl": ""
-      },
       "actorId": "f6edab1f2bdab7e504be7dcc",
-      "name": "Rosemary Harris"
+      "character": {
+        "name": "May Parker"
+      }
     },
     {
-      "character": {
-        "name": "J. Jonah Jameson",
-        "imageUrl": ""
-      },
       "actorId": "03293ef86c8bf352c9dd52f4",
-      "name": "J.K. Simmons"
+      "character": {
+        "name": "J. Jonah Jameson"
+      }
     }
   ],
   "collections": [

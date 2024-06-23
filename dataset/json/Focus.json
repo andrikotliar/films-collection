@@ -67,52 +67,40 @@
   "duration": 105,
   "cast": [
     {
-      "character": {
-        "name": "Nicky",
-        "imageUrl": ""
-      },
       "actorId": "b59613245389fb066c309182",
-      "name": "Will Smith"
+      "character": {
+        "name": "Nicky"
+      }
     },
     {
-      "character": {
-        "name": "Jess",
-        "imageUrl": ""
-      },
       "actorId": "a4d0916f25c090bb758631dd",
-      "name": "Margot Robbie"
+      "character": {
+        "name": "Jess"
+      }
     },
     {
-      "character": {
-        "name": "Farhad",
-        "imageUrl": ""
-      },
       "actorId": "d7c6a9e81b9dada9336a87c4",
-      "name": "Adrian Martinez"
+      "character": {
+        "name": "Farhad"
+      }
     },
     {
-      "character": {
-        "name": "Owens",
-        "imageUrl": ""
-      },
       "actorId": "1fdeb2d956f6c20e63b7bdb5",
-      "name": "Gerald McRaney"
+      "character": {
+        "name": "Owens"
+      }
     },
     {
-      "character": {
-        "name": "Rafael Garriga",
-        "imageUrl": ""
-      },
       "actorId": "316f274ae68a75f528bfd1ef",
-      "name": "Rodrigo Santoro"
+      "character": {
+        "name": "Rafael Garriga"
+      }
     },
     {
-      "character": {
-        "name": "Liyuan Tse",
-        "imageUrl": ""
-      },
       "actorId": "7b2b9ea826a7a8b85ec99e7f",
-      "name": "B.D. Wong"
+      "character": {
+        "name": "Liyuan Tse"
+      }
     }
   ],
   "collections": [

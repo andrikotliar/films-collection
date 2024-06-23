@@ -66,52 +66,40 @@
   "duration": 115,
   "cast": [
     {
-      "character": {
-        "name": "Dr. Stephen Strange",
-        "imageUrl": ""
-      },
       "actorId": "5a86b2f23ea348e3a58775b6",
-      "name": "Benedict Cumberbatch"
+      "character": {
+        "name": "Dr. Stephen Strange"
+      }
     },
     {
-      "character": {
-        "name": "Mordo",
-        "imageUrl": ""
-      },
       "actorId": "e5fca0c83deaa2448c413cfd",
-      "name": "Chiwetel Ejiofor"
+      "character": {
+        "name": "Mordo"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Christine Palmer",
-        "imageUrl": ""
-      },
       "actorId": "32b833b2581f63e17408e368",
-      "name": "Rachel McAdams"
+      "character": {
+        "name": "Dr. Christine Palmer"
+      }
     },
     {
-      "character": {
-        "name": "Wong",
-        "imageUrl": ""
-      },
       "actorId": "a775eca4841cce040addc4ca",
-      "name": "Benedict Wong"
+      "character": {
+        "name": "Wong"
+      }
     },
     {
-      "character": {
-        "name": "Kaecilius",
-        "imageUrl": ""
-      },
       "actorId": "e28338f3ae267cd8cab714fe",
-      "name": "Mads Mikkelsen"
+      "character": {
+        "name": "Kaecilius"
+      }
     },
     {
-      "character": {
-        "name": "The Ancient One",
-        "imageUrl": ""
-      },
       "actorId": "f374f4f88b7457cf966ef58c",
-      "name": "Tilda Swinton"
+      "character": {
+        "name": "The Ancient One"
+      }
     }
   ],
   "collections": [

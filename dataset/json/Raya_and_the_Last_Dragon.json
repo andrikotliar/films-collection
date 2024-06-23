@@ -65,52 +65,40 @@
   "duration": 107,
   "cast": [
     {
-      "character": {
-        "name": "Raya",
-        "imageUrl": ""
-      },
       "actorId": "730857c2f976c20b0136c5c1",
-      "name": "Kelly Marie Tran"
+      "character": {
+        "name": "Raya"
+      }
     },
     {
-      "character": {
-        "name": "Sisu",
-        "imageUrl": ""
-      },
       "actorId": "902d1a4d06fb8b0532302803",
-      "name": "Awkwafina"
+      "character": {
+        "name": "Sisu"
+      }
     },
     {
-      "character": {
-        "name": "Boun",
-        "imageUrl": ""
-      },
       "actorId": "9c9caba6aa54ff1a291c85bc",
-      "name": "Izaac Wang"
+      "character": {
+        "name": "Boun"
+      }
     },
     {
-      "character": {
-        "name": "Namaari",
-        "imageUrl": ""
-      },
       "actorId": "1b18bc88f980f0f3cc8dcd70",
-      "name": "Gemma Chan"
+      "character": {
+        "name": "Namaari"
+      }
     },
     {
-      "character": {
-        "name": "Benja",
-        "imageUrl": ""
-      },
       "actorId": "57c5a3b95582eafac775c24f",
-      "name": "Daniel Dae Kim"
+      "character": {
+        "name": "Benja"
+      }
     },
     {
-      "character": {
-        "name": "Tong",
-        "imageUrl": ""
-      },
       "actorId": "a775eca4841cce040addc4ca",
-      "name": "Benedict Wong"
+      "character": {
+        "name": "Tong"
+      }
     }
   ],
   "collections": [

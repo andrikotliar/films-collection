@@ -65,60 +65,46 @@
   "duration": 122,
   "cast": [
     {
-      "character": {
-        "name": "Alita",
-        "imageUrl": ""
-      },
       "actorId": "faf06750d96e099e22deea05",
-      "name": "Rosa Salazar"
+      "character": {
+        "name": "Alita"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Dyson Ido",
-        "imageUrl": ""
-      },
       "actorId": "e7dd7cfa7d6935d1911de298",
-      "name": "Christoph Waltz"
+      "character": {
+        "name": "Dr. Dyson Ido"
+      }
     },
     {
-      "character": {
-        "name": "Chiren",
-        "imageUrl": ""
-      },
       "actorId": "1cf0eb2682f7194956288319",
-      "name": "Jennifer Connelly"
+      "character": {
+        "name": "Chiren"
+      }
     },
     {
-      "character": {
-        "name": "Vector",
-        "imageUrl": ""
-      },
       "actorId": "ab310cfb7b4905e59b363f7d",
-      "name": "Mahershala Ali"
+      "character": {
+        "name": "Vector"
+      }
     },
     {
-      "character": {
-        "name": "Zapan",
-        "imageUrl": ""
-      },
       "actorId": "2c637c26333b0915173cece4",
-      "name": "Ed Skrein"
+      "character": {
+        "name": "Zapan"
+      }
     },
     {
-      "character": {
-        "name": "Grewishka",
-        "imageUrl": ""
-      },
       "actorId": "f0bf89fe1a47edd489b68472",
-      "name": "Jackie Earle Haley"
+      "character": {
+        "name": "Grewishka"
+      }
     },
     {
-      "character": {
-        "name": "Hugo",
-        "imageUrl": ""
-      },
       "actorId": "1c136e51fdd5d4943ed8218e",
-      "name": "Keean Johnson"
+      "character": {
+        "name": "Hugo"
+      }
     }
   ],
   "collections": [

@@ -66,44 +66,34 @@
   "duration": 93,
   "cast": [
     {
-      "character": {
-        "name": "Colter Stevens",
-        "imageUrl": ""
-      },
       "actorId": "644ca0c0a204f03134f45fbf",
-      "name": "Jake Gyllenhaal"
+      "character": {
+        "name": "Colter Stevens"
+      }
     },
     {
-      "character": {
-        "name": "Christina Warren",
-        "imageUrl": ""
-      },
       "actorId": "eed3fec56e5b7a0ad8aa447a",
-      "name": "Michelle Monaghan"
+      "character": {
+        "name": "Christina Warren"
+      }
     },
     {
-      "character": {
-        "name": "Colleen Goodwin",
-        "imageUrl": ""
-      },
       "actorId": "4d9ebb504814bd783fb0e707",
-      "name": "Vera Farmiga"
+      "character": {
+        "name": "Colleen Goodwin"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Rutledge",
-        "imageUrl": ""
-      },
       "actorId": "ad690658fc9a006e2b90daa0",
-      "name": "Jeffrey Wright"
+      "character": {
+        "name": "Dr. Rutledge"
+      }
     },
     {
-      "character": {
-        "name": "Derek Frost",
-        "imageUrl": ""
-      },
       "actorId": "004c8f819583d41ee2225a5d",
-      "name": "Michael Arden"
+      "character": {
+        "name": "Derek Frost"
+      }
     }
   ],
   "collections": [

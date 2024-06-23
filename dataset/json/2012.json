@@ -71,60 +71,46 @@
   "duration": 158,
   "cast": [
     {
-      "character": {
-        "name": "Jackson Curtis",
-        "imageUrl": ""
-      },
       "actorId": "97ee6d4fe5c8393b3a12dad9",
-      "name": "John Cusack"
+      "character": {
+        "name": "Jackson Curtis"
+      }
     },
     {
-      "character": {
-        "name": "Kate Curtis",
-        "imageUrl": ""
-      },
       "actorId": "d4ae0ee752c2dfb42b7cd3de",
-      "name": "Amanda Peet"
+      "character": {
+        "name": "Kate Curtis"
+      }
     },
     {
-      "character": {
-        "name": "Adrian Helmsley",
-        "imageUrl": ""
-      },
       "actorId": "e5fca0c83deaa2448c413cfd",
-      "name": "Chiwetel Ejiofor"
+      "character": {
+        "name": "Adrian Helmsley"
+      }
     },
     {
-      "name": "Thandie Newton",
+      "actorId": "e8de9cf95faeea0c9bde694c",
       "character": {
-        "name": "Laura Wilson",
-        "imageUrl": ""
-      },
-      "actorId": "e8de9cf95faeea0c9bde694c"
+        "name": "Laura Wilson"
+      }
     },
     {
-      "character": {
-        "name": "Carl Anheuser",
-        "imageUrl": ""
-      },
       "actorId": "9ff1b1591a793e5ebcb44c72",
-      "name": "Oliver Platt"
+      "character": {
+        "name": "Carl Anheuser"
+      }
     },
     {
-      "character": {
-        "name": "Charlie Frost",
-        "imageUrl": ""
-      },
       "actorId": "024affbe7a45ee9fc554bf76",
-      "name": "Woody Harrelson"
+      "character": {
+        "name": "Charlie Frost"
+      }
     },
     {
-      "character": {
-        "name": "President Thomas Wilson",
-        "imageUrl": ""
-      },
       "actorId": "40e31d5ce0764fba8991ceb0",
-      "name": "Danny Glover"
+      "character": {
+        "name": "President Thomas Wilson"
+      }
     }
   ],
   "collections": [

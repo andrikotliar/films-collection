@@ -72,84 +72,64 @@
   "duration": 139,
   "cast": [
     {
-      "character": {
-        "name": "Spider-Man / Peter Parker",
-        "imageUrl": ""
-      },
       "actorId": "65694e39d2799267ae4a2adf",
-      "name": "Tobey Maguire"
+      "character": {
+        "name": "Spider-Man / Peter Parker"
+      }
     },
     {
-      "character": {
-        "name": "Mary Jane Watson",
-        "imageUrl": ""
-      },
       "actorId": "1a56afd931fe087b7c4de4c1",
-      "name": "Kirsten Dunst"
+      "character": {
+        "name": "Mary Jane Watson"
+      }
     },
     {
-      "character": {
-        "name": "New Goblin / Harry Osborn",
-        "imageUrl": ""
-      },
       "actorId": "03004ad337f0cc1d674180f4",
-      "name": "James Franco"
+      "character": {
+        "name": "New Goblin / Harry Osborn"
+      }
     },
     {
-      "character": {
-        "name": "Sandman / Flint Marko",
-        "imageUrl": ""
-      },
       "actorId": "072a5ba54ea95c104cc80899",
-      "name": "Thomas Haden Church"
+      "character": {
+        "name": "Sandman / Flint Marko"
+      }
     },
     {
-      "character": {
-        "name": "Venom / Eddie Brock",
-        "imageUrl": ""
-      },
       "actorId": "6efffa0c13fb063700b2ee16",
-      "name": "Topher Grace"
+      "character": {
+        "name": "Venom / Eddie Brock"
+      }
     },
     {
-      "character": {
-        "name": "Gwen Stacy",
-        "imageUrl": ""
-      },
       "actorId": "5a9e20efcb26cd9589817c6d",
-      "name": "Bryce Dallas Howard"
+      "character": {
+        "name": "Gwen Stacy"
+      }
     },
     {
-      "character": {
-        "name": "May Parker",
-        "imageUrl": ""
-      },
       "actorId": "f6edab1f2bdab7e504be7dcc",
-      "name": "Rosemary Harris"
+      "character": {
+        "name": "May Parker"
+      }
     },
     {
-      "character": {
-        "name": "J. Jonah Jameson",
-        "imageUrl": ""
-      },
       "actorId": "03293ef86c8bf352c9dd52f4",
-      "name": "J.K. Simmons"
+      "character": {
+        "name": "J. Jonah Jameson"
+      }
     },
     {
-      "character": {
-        "name": "Captain Stacy",
-        "imageUrl": ""
-      },
       "actorId": "7d0b7886d84ec7044be466c2",
-      "name": "James Cromwell"
+      "character": {
+        "name": "Captain Stacy"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Curt Connors",
-        "imageUrl": ""
-      },
       "actorId": "a25eab3c05ba06d64053f7ca",
-      "name": "Dylan Baker"
+      "character": {
+        "name": "Dr. Curt Connors"
+      }
     }
   ],
   "collections": [

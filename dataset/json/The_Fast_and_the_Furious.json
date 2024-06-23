@@ -63,60 +63,46 @@
   "duration": 106,
   "cast": [
     {
-      "character": {
-        "name": "Brian O'Conner",
-        "imageUrl": ""
-      },
       "actorId": "61f64cb0f58dc3c12fc0c193",
-      "name": "Paul Walker"
+      "character": {
+        "name": "Brian O'Conner"
+      }
     },
     {
-      "character": {
-        "name": "Dominic Toretto",
-        "imageUrl": ""
-      },
       "actorId": "8acb4ceb24e197fffd95c777",
-      "name": "Vin Diesel"
+      "character": {
+        "name": "Dominic Toretto"
+      }
     },
     {
-      "character": {
-        "name": "Letty",
-        "imageUrl": ""
-      },
       "actorId": "f19c147b933b4ed2c5574ef6",
-      "name": "Michelle Rodriguez"
+      "character": {
+        "name": "Letty"
+      }
     },
     {
-      "character": {
-        "name": "Mia Toretto",
-        "imageUrl": ""
-      },
       "actorId": "84fe0dd000d931d469570852",
-      "name": "Jordana Brewster"
+      "character": {
+        "name": "Mia Toretto"
+      }
     },
     {
-      "character": {
-        "name": "Johnny Tran",
-        "imageUrl": ""
-      },
       "actorId": "e02657077905fd494aad17ec",
-      "name": "Rick Yune"
+      "character": {
+        "name": "Johnny Tran"
+      }
     },
     {
-      "character": {
-        "name": "Jesse",
-        "imageUrl": ""
-      },
       "actorId": "c5ef00853e8446dc327fef87",
-      "name": "Chad Lindberg"
+      "character": {
+        "name": "Jesse"
+      }
     },
     {
-      "character": {
-        "name": "Vince",
-        "imageUrl": ""
-      },
       "actorId": "5dd235b43a3f52f2ab92f2dd",
-      "name": "Matt Schulze"
+      "character": {
+        "name": "Vince"
+      }
     }
   ],
   "collections": [

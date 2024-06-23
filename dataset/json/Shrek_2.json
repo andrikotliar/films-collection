@@ -73,68 +73,52 @@
   "duration": 93,
   "cast": [
     {
-      "character": {
-        "name": "Shrek",
-        "imageUrl": ""
-      },
       "actorId": "da1f33b9c84064852254d8aa",
-      "name": "Mike Myers"
+      "character": {
+        "name": "Shrek"
+      }
     },
     {
-      "character": {
-        "name": "Donkey",
-        "imageUrl": ""
-      },
       "actorId": "356f3d8d6debf47913fead0a",
-      "name": "Eddie Murphy"
+      "character": {
+        "name": "Donkey"
+      }
     },
     {
-      "character": {
-        "name": "Fiona",
-        "imageUrl": ""
-      },
       "actorId": "2f654330682e4a9dbb666cc0",
-      "name": "Cameron Diaz"
+      "character": {
+        "name": "Fiona"
+      }
     },
     {
-      "character": {
-        "name": "Puss In Boots",
-        "imageUrl": ""
-      },
       "actorId": "d09e87569baf0ba6ffa2c42e",
-      "name": "Antonio Banderas"
+      "character": {
+        "name": "Puss In Boots"
+      }
     },
     {
-      "character": {
-        "name": "Queen",
-        "imageUrl": ""
-      },
       "actorId": "79302944314256f8837af530",
-      "name": "Julie Andrews"
+      "character": {
+        "name": "Queen"
+      }
     },
     {
-      "character": {
-        "name": "King",
-        "imageUrl": ""
-      },
       "actorId": "0f7e8cddcf6806c802d66fae",
-      "name": "John Cleese"
+      "character": {
+        "name": "King"
+      }
     },
     {
-      "character": {
-        "name": "Prince Charming",
-        "imageUrl": ""
-      },
       "actorId": "b337b83b16b62953ee64cfc4",
-      "name": "Rupert Everett"
+      "character": {
+        "name": "Prince Charming"
+      }
     },
     {
-      "character": {
-        "name": "Fairy Godmother",
-        "imageUrl": ""
-      },
       "actorId": "40f3282712b68cc8b6adda4f",
-      "name": "Jennifer Saunders"
+      "character": {
+        "name": "Fairy Godmother"
+      }
     }
   ],
   "collections": [

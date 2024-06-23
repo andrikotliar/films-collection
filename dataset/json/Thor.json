@@ -66,68 +66,52 @@
   "duration": 114,
   "cast": [
     {
-      "character": {
-        "name": "Thor",
-        "imageUrl": ""
-      },
       "actorId": "9d6f7bec0a46789eaa403786",
-      "name": "Chris Hemsworth"
+      "character": {
+        "name": "Thor"
+      }
     },
     {
-      "character": {
-        "name": "Jane Foster",
-        "imageUrl": ""
-      },
       "actorId": "b3703e901df3a8c85c2f0949",
-      "name": "Natalie Portman"
+      "character": {
+        "name": "Jane Foster"
+      }
     },
     {
-      "character": {
-        "name": "Loki",
-        "imageUrl": ""
-      },
       "actorId": "1c93c03ba9a9870918b112fb",
-      "name": "Tom Hiddleston"
+      "character": {
+        "name": "Loki"
+      }
     },
     {
-      "character": {
-        "name": "Odin",
-        "imageUrl": ""
-      },
       "actorId": "da765b1b4b74c95d954ac411",
-      "name": "Anthony Hopkins"
+      "character": {
+        "name": "Odin"
+      }
     },
     {
-      "character": {
-        "name": "Erik Selvig",
-        "imageUrl": ""
-      },
       "actorId": "3090a68b40a7bfda7b1d93b8",
-      "name": "Stellan Skarsgard"
+      "character": {
+        "name": "Erik Selvig"
+      }
     },
     {
-      "character": {
-        "name": "Darcy Lewis",
-        "imageUrl": ""
-      },
       "actorId": "aa2d93faf92b4c807a30a533",
-      "name": "Kat Dennings"
+      "character": {
+        "name": "Darcy Lewis"
+      }
     },
     {
-      "character": {
-        "name": "Agent Coulson",
-        "imageUrl": ""
-      },
       "actorId": "297abcfa1686135e139ec907",
-      "name": "Clark Gregg"
+      "character": {
+        "name": "Agent Coulson"
+      }
     },
     {
-      "character": {
-        "name": "Heimdall",
-        "imageUrl": ""
-      },
       "actorId": "ae8fde81451592bb39107acc",
-      "name": "Idris Elba"
+      "character": {
+        "name": "Heimdall"
+      }
     }
   ],
   "collections": [

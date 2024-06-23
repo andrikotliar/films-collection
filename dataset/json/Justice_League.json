@@ -64,164 +64,124 @@
   "duration": 242,
   "cast": [
     {
-      "character": {
-        "name": "Bruce Wayne / Batman",
-        "imageUrl": ""
-      },
       "actorId": "118e96c459ae6809e814c6b5",
-      "name": "Ben Affleck"
+      "character": {
+        "name": "Bruce Wayne / Batman"
+      }
     },
     {
-      "character": {
-        "name": "Clark Kent / Superman",
-        "imageUrl": ""
-      },
       "actorId": "8b6677adf81a10fa756951ff",
-      "name": "Henry Cavill"
+      "character": {
+        "name": "Clark Kent / Superman"
+      }
     },
     {
-      "character": {
-        "name": "Lois Lane",
-        "imageUrl": ""
-      },
       "actorId": "8f9db7b562116db3822027d8",
-      "name": "Amy Adams"
+      "character": {
+        "name": "Lois Lane"
+      }
     },
     {
-      "character": {
-        "name": "Diana Prince / Wonder Woman",
-        "imageUrl": ""
-      },
       "actorId": "689592fad487486ce5468f9f",
-      "name": "Gal Gadot"
+      "character": {
+        "name": "Diana Prince / Wonder Woman"
+      }
     },
     {
-      "character": {
-        "name": "Barry Allen / The Flash",
-        "imageUrl": ""
-      },
       "actorId": "375d86a17caf2ced031c134d",
-      "name": "Ezra Miller"
+      "character": {
+        "name": "Barry Allen / The Flash"
+      }
     },
     {
-      "character": {
-        "name": "Arthur Curry / Aquaman",
-        "imageUrl": ""
-      },
       "actorId": "de9c977ac46c62b2c52d371c",
-      "name": "Jason Momoa"
+      "character": {
+        "name": "Arthur Curry / Aquaman"
+      }
     },
     {
-      "character": {
-        "name": "Victor Stone / Cyborg",
-        "imageUrl": ""
-      },
       "actorId": "86fc034cc2f04ed634307aec",
-      "name": "Ray Fisher"
+      "character": {
+        "name": "Victor Stone / Cyborg"
+      }
     },
     {
-      "character": {
-        "name": "Alfred",
-        "imageUrl": ""
-      },
       "actorId": "45cf2c1a6045a2b007118352",
-      "name": "Jeremy Irons"
+      "character": {
+        "name": "Alfred"
+      }
     },
     {
-      "character": {
-        "name": "Martha Kent",
-        "imageUrl": ""
-      },
       "actorId": "6cf53fe9fb98ea48cbd3641d",
-      "name": "Diane Lane"
+      "character": {
+        "name": "Martha Kent"
+      }
     },
     {
-      "character": {
-        "name": "Queen Hippolyta",
-        "imageUrl": ""
-      },
       "actorId": "4d5652537ad12d0b2754f438",
-      "name": "Connie Nielsen"
+      "character": {
+        "name": "Queen Hippolyta"
+      }
     },
     {
-      "character": {
-        "name": "Commissioner Gordon",
-        "imageUrl": ""
-      },
       "actorId": "03293ef86c8bf352c9dd52f4",
-      "name": "J.K. Simmons"
+      "character": {
+        "name": "Commissioner Gordon"
+      }
     },
     {
-      "character": {
-        "name": "Steppenwolf",
-        "imageUrl": ""
-      },
       "actorId": "67f236e2e31dfdf8ce27fe3c",
-      "name": "Ciaran Hinds"
+      "character": {
+        "name": "Steppenwolf"
+      }
     },
     {
-      "character": {
-        "name": "Darkseid",
-        "imageUrl": ""
-      },
       "actorId": "08a0d88e9df07c14525a1dd1",
-      "name": "Ray Porter"
+      "character": {
+        "name": "Darkseid"
+      }
     },
     {
-      "character": {
-        "name": "Ryan Choi",
-        "imageUrl": ""
-      },
       "actorId": "bb6dc2348c7c920ff651fd2d",
-      "name": "Ryan Zheng"
+      "character": {
+        "name": "Ryan Choi"
+      }
     },
     {
-      "character": {
-        "name": "Mera",
-        "imageUrl": ""
-      },
       "actorId": "81f489cc791f2cfbff218a60",
-      "name": "Amber Heard"
+      "character": {
+        "name": "Mera"
+      }
     },
     {
-      "character": {
-        "name": "Silas Stone",
-        "imageUrl": ""
-      },
       "actorId": "7c714de673355dff119b2c86",
-      "name": "Joe Morton"
+      "character": {
+        "name": "Silas Stone"
+      }
     },
     {
-      "character": {
-        "name": "Deathstroke",
-        "imageUrl": ""
-      },
       "actorId": "babebeae5d94b820c645cfab",
-      "name": "Joe Manganiello"
+      "character": {
+        "name": "Deathstroke"
+      }
     },
     {
-      "character": {
-        "name": "Vulko",
-        "imageUrl": ""
-      },
       "actorId": "69443d6dcdd5ddbc0c51e534",
-      "name": "Willem Dafoe"
+      "character": {
+        "name": "Vulko"
+      }
     },
     {
-      "character": {
-        "name": "General Swanwick / Martian Manhunter",
-        "imageUrl": ""
-      },
       "actorId": "b1094d5a4c3819d770b6cf30",
-      "name": "Harry J. Lennix"
+      "character": {
+        "name": "General Swanwick / Martian Manhunter"
+      }
     },
     {
-      "character": {
-        "name": "DeSaad",
-        "imageUrl": ""
-      },
       "actorId": "7393a0d84bbc38796cb5e109",
-      "name": "Peter Guinness"
+      "character": {
+        "name": "DeSaad"
+      }
     }
   ],
   "collections": [

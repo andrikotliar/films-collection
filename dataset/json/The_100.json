@@ -397,276 +397,208 @@
   "duration": 4300,
   "cast": [
     {
-      "character": {
-        "name": "Clarke Griffin",
-        "imageUrl": ""
-      },
       "actorId": "99ddaf2818f54ff396bf07a8",
-      "name": "Eliza Taylor"
+      "character": {
+        "name": "Clarke Griffin"
+      }
     },
     {
-      "character": {
-        "name": "Octavia Blake",
-        "imageUrl": ""
-      },
       "actorId": "3b526a6b27274768e35196ee",
-      "name": "Marie Avgeropoulos"
+      "character": {
+        "name": "Octavia Blake"
+      }
     },
     {
-      "character": {
-        "name": "Bellamy Blake",
-        "imageUrl": ""
-      },
       "actorId": "c552434e3ff9bc52a78d0073",
-      "name": "Bob Morley"
+      "character": {
+        "name": "Bellamy Blake"
+      }
     },
     {
-      "character": {
-        "name": "Raven Reyes",
-        "imageUrl": ""
-      },
       "actorId": "4ab298d166ee8a9aff9b4e67",
-      "name": "Lindsey Morgan"
+      "character": {
+        "name": "Raven Reyes"
+      }
     },
     {
-      "character": {
-        "name": "John Murphy",
-        "imageUrl": ""
-      },
       "actorId": "ff453734a8c762e14f442e68",
-      "name": "Richard Harmon"
+      "character": {
+        "name": "John Murphy"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Abigail Griffin",
-        "imageUrl": ""
-      },
       "actorId": "f73ed590686df5de95a2c50b",
-      "name": "Paige Turco"
+      "character": {
+        "name": "Dr. Abigail Griffin"
+      }
     },
     {
-      "character": {
-        "name": "Marcus Kane",
-        "imageUrl": ""
-      },
       "actorId": "d377e98c6c78f3ee7880f74e",
-      "name": "Henry Ian Cusick"
+      "character": {
+        "name": "Marcus Kane"
+      }
     },
     {
-      "character": {
-        "name": "Monty Green",
-        "imageUrl": ""
-      },
       "actorId": "7718b0146212a14f4ab120b7",
-      "name": "Christopher Larkin"
+      "character": {
+        "name": "Monty Green"
+      }
     },
     {
-      "character": {
-        "name": "Nathan Miller",
-        "imageUrl": ""
-      },
       "actorId": "4b439783a27128db391420dc",
-      "name": "Jarod Joseph"
+      "character": {
+        "name": "Nathan Miller"
+      }
     },
     {
-      "character": {
-        "name": "Thelonious Jaha",
-        "imageUrl": ""
-      },
       "actorId": "c8d3f8da0dc5db797ea10953",
-      "name": "Isaiah Washington"
+      "character": {
+        "name": "Thelonious Jaha"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Eric Jackson",
-        "imageUrl": ""
-      },
       "actorId": "ea9321ab50965e05abae6ec8",
-      "name": "Sachin Sahel"
+      "character": {
+        "name": "Dr. Eric Jackson"
+      }
     },
     {
-      "character": {
-        "name": "Echo",
-        "imageUrl": ""
-      },
       "actorId": "053b652c3b38c87e2f1d4006",
-      "name": "Tasya Teles"
+      "character": {
+        "name": "Echo"
+      }
     },
     {
-      "character": {
-        "name": "Indra",
-        "imageUrl": ""
-      },
       "actorId": "e31a4ef08c11b8ed10234c2c",
-      "name": "Adina Porter"
+      "character": {
+        "name": "Indra"
+      }
     },
     {
-      "character": {
-        "name": "Emori",
-        "imageUrl": ""
-      },
       "actorId": "cac39d8b5f000503cdc10cbe",
-      "name": "Luisa d'Oliveira"
+      "character": {
+        "name": "Emori"
+      }
     },
     {
-      "character": {
-        "name": "Harper McIntyre",
-        "imageUrl": ""
-      },
       "actorId": "e2afeec5542c4c4124c28dc0",
-      "name": "Chelsey Reist"
+      "character": {
+        "name": "Harper McIntyre"
+      }
     },
     {
-      "character": {
-        "name": "Lincoln",
-        "imageUrl": ""
-      },
       "actorId": "439d8303d6c45143ace78a5c",
-      "name": "Ricky Whittle"
+      "character": {
+        "name": "Lincoln"
+      }
     },
     {
-      "character": {
-        "name": "Madi Griffin",
-        "imageUrl": ""
-      },
       "actorId": "5bf61f2a653c29633afc9db4",
-      "name": "Lola Flanery"
+      "character": {
+        "name": "Madi Griffin"
+      }
     },
     {
-      "character": {
-        "name": "Jordan Green",
-        "imageUrl": ""
-      },
       "actorId": "6394387acb832132d9f02cf1",
-      "name": "Shannon Kook"
+      "character": {
+        "name": "Jordan Green"
+      }
     },
     {
-      "character": {
-        "name": "Gaia",
-        "imageUrl": ""
-      },
       "actorId": "f882eb10d55b2bb3530923a7",
-      "name": "Tati Gabrielle"
+      "character": {
+        "name": "Gaia"
+      }
     },
     {
-      "character": {
-        "name": "Sheidheda",
-        "imageUrl": ""
-      },
       "actorId": "b89bf051d0ab9cfcccb85330",
-      "name": "JR Bourne"
+      "character": {
+        "name": "Sheidheda"
+      }
     },
     {
-      "character": {
-        "name": "Charmaine Diyoza",
-        "imageUrl": ""
-      },
       "actorId": "c3a58729dbd3100e9b5f15c0",
-      "name": "Ivana Milicevic"
+      "character": {
+        "name": "Charmaine Diyoza"
+      }
     },
     {
-      "character": {
-        "name": "Finn Collins",
-        "imageUrl": ""
-      },
       "actorId": "ecbef62cae6bd0cd39923439",
-      "name": "Thomas McDonell"
+      "character": {
+        "name": "Finn Collins"
+      }
     },
     {
-      "character": {
-        "name": "A.L.I.E. / Dr. Becca Franco",
-        "imageUrl": ""
-      },
       "actorId": "14428e78f70b9074d6284cc4",
-      "name": "Erica Cerra"
+      "character": {
+        "name": "A.L.I.E. / Dr. Becca Franco"
+      }
     },
     {
-      "character": {
-        "name": "Jacapo Sinclair",
-        "imageUrl": ""
-      },
       "actorId": "2acb7f96c7b6dce85cff5733",
-      "name": "Alessandro Juliani"
+      "character": {
+        "name": "Jacapo Sinclair"
+      }
     },
     {
-      "character": {
-        "name": "King Roan",
-        "imageUrl": ""
-      },
       "actorId": "34bb5e8f5bc7956d89b12535",
-      "name": "Zach McGowan"
+      "character": {
+        "name": "King Roan"
+      }
     },
     {
-      "character": {
-        "name": "Lexa",
-        "imageUrl": ""
-      },
       "actorId": "73cee044c6acfc925fee336c",
-      "name": "Alycia Debnam-Carey"
+      "character": {
+        "name": "Lexa"
+      }
     },
     {
-      "character": {
-        "name": "Charles Pike",
-        "imageUrl": ""
-      },
       "actorId": "e501da08c1a1e57e78a547c5",
-      "name": "Michael Beach"
+      "character": {
+        "name": "Charles Pike"
+      }
     },
     {
-      "character": {
-        "name": "Maya Vie",
-        "imageUrl": ""
-      },
       "actorId": "ee3b78ffc34d3d98079239cf",
-      "name": "Eve Harlow"
+      "character": {
+        "name": "Maya Vie"
+      }
     },
     {
-      "character": {
-        "name": "Russell Lightbourne",
-        "imageUrl": ""
-      },
       "actorId": "4b454ba11f048fb044593a89",
-      "name": "Sean Maguire"
+      "character": {
+        "name": "Russell Lightbourne"
+      }
     },
     {
-      "character": {
-        "name": "Bill Cadogan",
-        "imageUrl": ""
-      },
       "actorId": "d5290b18bae17f98ff156454",
-      "name": "John Pyper-Ferguson"
+      "character": {
+        "name": "Bill Cadogan"
+      }
     },
     {
-      "character": {
-        "name": "Josephine Lightbourne",
-        "imageUrl": ""
-      },
       "actorId": "d26f08328be3eceff207fe5b",
-      "name": "Sara Thompson"
+      "character": {
+        "name": "Josephine Lightbourne"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Gabriel Santiago",
-        "imageUrl": ""
-      },
       "actorId": "b7985fad989c9466078bb49f",
-      "name": "Ian Pala"
+      "character": {
+        "name": "Dr. Gabriel Santiago"
+      }
     },
     {
-      "character": {
-        "name": "Anders",
-        "imageUrl": ""
-      },
       "actorId": "fcbf7af414b38c0cbea1f4cd",
-      "name": "Neal McDonough"
+      "character": {
+        "name": "Anders"
+      }
     },
     {
-      "character": {
-        "name": "Levitt",
-        "imageUrl": ""
-      },
       "actorId": "1a73d1c5f773dd6eebe3647b",
-      "name": "Jason Diaz"
+      "character": {
+        "name": "Levitt"
+      }
     }
   ],
   "collections": [

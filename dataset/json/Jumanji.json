@@ -68,44 +68,34 @@
   "duration": 104,
   "cast": [
     {
-      "character": {
-        "name": "Alan Parrish",
-        "imageUrl": ""
-      },
       "actorId": "f5de152199c29694307ff207",
-      "name": "Robin Williams"
+      "character": {
+        "name": "Alan Parrish"
+      }
     },
     {
-      "character": {
-        "name": "Sarah Whittle",
-        "imageUrl": ""
-      },
       "actorId": "",
-      "name": "Bonnie Hunt"
+      "character": {
+        "name": "Sarah Whittle"
+      }
     },
     {
-      "character": {
-        "name": "Judy Shepherd",
-        "imageUrl": ""
-      },
       "actorId": "1a56afd931fe087b7c4de4c1",
-      "name": "Kirsten Dunst"
+      "character": {
+        "name": "Judy Shepherd"
+      }
     },
     {
-      "character": {
-        "name": "Peter Shepherd",
-        "imageUrl": ""
-      },
       "actorId": "e454e29c15128dc18d2edbd6",
-      "name": "Bradley Pierce"
+      "character": {
+        "name": "Peter Shepherd"
+      }
     },
     {
-      "character": {
-        "name": "Van Pelt",
-        "imageUrl": ""
-      },
       "actorId": "d534ecf817056c7592bbd058",
-      "name": "Jonathan Hyde"
+      "character": {
+        "name": "Van Pelt"
+      }
     }
   ],
   "collections": [

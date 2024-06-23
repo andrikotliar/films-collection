@@ -143,94 +143,76 @@
   "duration": 480,
   "cast": [
     {
-      "character": {
-        "name": "Geralt of Rivia",
-        "imageUrl": ""
-      },
       "actorId": "8b6677adf81a10fa756951ff",
-      "name": "Henry Cavill"
+      "character": {
+        "name": "Geralt of Rivia"
+      }
     },
     {
-      "character": {
-        "name": "Ciri",
-        "imageUrl": ""
-      },
       "actorId": "fdeaf41493c2666f0ed79a4c",
-      "name": "Freya Allan"
+      "character": {
+        "name": "Ciri"
+      }
     },
     {
-      "character": {
-        "name": "Yennefer",
-        "imageUrl": ""
-      },
       "actorId": "c919f5d268507ab36904ab8d",
-      "name": "Anya Chalotra"
+      "character": {
+        "name": "Yennefer"
+      }
     },
     {
-      "character": {
-        "name": "Tissaia",
-        "imageUrl": ""
-      },
       "actorId": "95ae35f0d5b00353aa57924b",
-      "name": "MyAnna Buring"
+      "character": {
+        "name": "Tissaia"
+      }
     },
     {
-      "character": {
-        "name": "Dara",
-        "imageUrl": ""
-      },
       "actorId": "ba5479f3e4dc93e8175bb922",
-      "name": "Wilson Radjou-Pujalte"
+      "character": {
+        "name": "Dara"
+      }
     },
     {
-      "character": {
-        "name": "Mousesack",
-        "imageUrl": ""
-      },
       "actorId": "e694787154dd6705fb8133bd",
-      "name": "Adam Levy"
+      "character": {
+        "name": "Mousesack"
+      }
     },
     {
-      "character": {
-        "name": "Stregobor",
-        "imageUrl": ""
-      },
       "actorId": "65ea9eae2b66d6cf898eea96",
-      "name": "Lars Mikkelsen"
+      "character": {
+        "name": "Stregobor"
+      }
     },
     {
-      "character": {
-        "name": "Istredd",
-        "imageUrl": ""
-      },
       "actorId": "8c8f21058355706d1a5fb875",
-      "name": "Royce Pierreson"
-    },
-    {
       "character": {
-        "name": "Queen Calanthe",
-        "imageUrl": ""
-      },
-      "actorId": "91b782dd50e7daac52080396",
-      "name": "Jodhi May"
+        "name": "Istredd"
+      }
     },
     {
+      "actorId": "91b782dd50e7daac52080396",
+      "character": {
+        "name": "Queen Calanthe"
+      }
+    },
+    {
+      "actorId": "27454ee592adde625c6dfaf4",
       "character": {
         "name": "Cahir"
-      },
-      "actorId": "27454ee592adde625c6dfaf4"
+      }
     },
     {
+      "actorId": "379a19913a9eb488c758dd9a",
       "character": {
         "name": "Jaskier"
-      },
-      "actorId": "379a19913a9eb488c758dd9a"
+      }
     },
     {
+      "actorId": "833612b7b70e68df78ece124",
       "character": {
         "name": "Vilgefortz"
-      },
-      "actorId": "833612b7b70e68df78ece124"
+      }
     }
   ],
   "collections": [

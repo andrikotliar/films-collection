@@ -65,36 +65,28 @@
   "duration": 109,
   "cast": [
     {
-      "character": {
-        "name": "Will Salas",
-        "imageUrl": ""
-      },
       "actorId": "4d17abf9b912a4f64b129f98",
-      "name": "Justin Timberlake"
+      "character": {
+        "name": "Will Salas"
+      }
     },
     {
-      "character": {
-        "name": "Rachel Salas",
-        "imageUrl": ""
-      },
       "actorId": "dd5f72e72f49b70f6c149b82",
-      "name": "Olivia Wilde"
+      "character": {
+        "name": "Rachel Salas"
+      }
     },
     {
-      "character": {
-        "name": "Maya",
-        "imageUrl": ""
-      },
       "actorId": "707daa90ceccdd76410a856d",
-      "name": "Shyloh Oostwald"
+      "character": {
+        "name": "Maya"
+      }
     },
     {
-      "character": {
-        "name": "Borel",
-        "imageUrl": ""
-      },
       "actorId": "b52ce25721eb9f4c0758ebd7",
-      "name": "Johnny Galecki"
+      "character": {
+        "name": "Borel"
+      }
     }
   ],
   "collections": [

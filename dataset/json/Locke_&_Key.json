@@ -180,75 +180,58 @@
   "duration": 1056,
   "cast": [
     {
-      "character": {
-        "name": "Nina Locke",
-        "imageUrl": ""
-      },
       "actorId": "2f3c3307ddadd5927b5a3704",
-      "name": "Darby Stanchfield"
+      "character": {
+        "name": "Nina Locke"
+      }
     },
     {
-      "character": {
-        "name": "Tyler Locke",
-        "imageUrl": ""
-      },
       "actorId": "6d44d68c4f796a1037b031cd",
-      "name": "Connor Jessup"
+      "character": {
+        "name": "Tyler Locke"
+      }
     },
     {
-      "character": {
-        "name": "Kinsey Locke",
-        "imageUrl": ""
-      },
       "actorId": "f977a1e8ea01ee3bd15db784",
-      "name": "Emilia Jones"
+      "character": {
+        "name": "Kinsey Locke"
+      }
     },
     {
-      "character": {
-        "name": "Bode Locke",
-        "imageUrl": ""
-      },
       "actorId": "259ba00989c962d075fabcea",
-      "name": "Jackson Robert Scott"
+      "character": {
+        "name": "Bode Locke"
+      }
     },
     {
-      "character": {
-        "name": "Scot Cavendish",
-        "imageUrl": ""
-      },
       "actorId": "9a3a8349c3891d5030d4e179",
-      "name": "Petrice Jones"
+      "character": {
+        "name": "Scot Cavendish"
+      }
     },
     {
-      "character": {
-        "name": "Ellie Whedon",
-        "imageUrl": ""
-      },
       "actorId": "45fbf3bbda493e7e046411a2",
-      "name": "Sherri Saum"
+      "character": {
+        "name": "Ellie Whedon"
+      }
     },
     {
-      "character": {
-        "name": "Jackie Veda",
-        "imageUrl": ""
-      },
       "actorId": "57bf1c43155c1498421643e1",
-      "name": "Genevieve Kang"
+      "character": {
+        "name": "Jackie Veda"
+      }
     },
     {
+      "actorId": "394aeea43c3582ba6cadb4f9",
       "character": {
-        "name": "Duncan Locke",
-        "imageUrl": ""
-      },
-      "actorId": "394aeea43c3582ba6cadb4f9"
+        "name": "Duncan Locke"
+      }
     },
     {
-      "character": {
-        "name": "Dodge",
-        "imageUrl": ""
-      },
       "actorId": "4acdaabd71b8e10c3c0eb0b7",
-      "name": "Laysla De Oliveira"
+      "character": {
+        "name": "Dodge"
+      }
     }
   ],
   "collections": [

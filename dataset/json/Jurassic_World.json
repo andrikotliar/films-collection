@@ -71,76 +71,58 @@
   "duration": 124,
   "cast": [
     {
-      "character": {
-        "name": "Owen",
-        "imageUrl": ""
-      },
       "actorId": "81002d63c8ad158916752ee2",
-      "name": "Chris Pratt"
+      "character": {
+        "name": "Owen"
+      }
     },
     {
-      "character": {
-        "name": "Claire",
-        "imageUrl": ""
-      },
       "actorId": "5a9e20efcb26cd9589817c6d",
-      "name": "Bryce Dallas Howard"
+      "character": {
+        "name": "Claire"
+      }
     },
     {
-      "character": {
-        "name": "Masrani",
-        "imageUrl": ""
-      },
       "actorId": "47b0c3687ba616c53c265485",
-      "name": "Irrfan Khan"
+      "character": {
+        "name": "Masrani"
+      }
     },
     {
-      "character": {
-        "name": "Hoskins",
-        "imageUrl": ""
-      },
       "actorId": "46281b634ba77b5a747dfaa0",
-      "name": "Vincent D'Onofrio"
+      "character": {
+        "name": "Hoskins"
+      }
     },
     {
-      "character": {
-        "name": "Gray",
-        "imageUrl": ""
-      },
       "actorId": "8958f6f83bd5845fda2bb169",
-      "name": "Ty Simpkins"
+      "character": {
+        "name": "Gray"
+      }
     },
     {
-      "character": {
-        "name": "Zach",
-        "imageUrl": ""
-      },
       "actorId": "7451e8d312b8c97b37b47144",
-      "name": "Nick Robinson"
+      "character": {
+        "name": "Zach"
+      }
     },
     {
-      "character": {
-        "name": "Barry",
-        "imageUrl": ""
-      },
       "actorId": "800064d873a4ee8f8cea356f",
-      "name": "Omar Sy"
+      "character": {
+        "name": "Barry"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Henry Wu",
-        "imageUrl": ""
-      },
       "actorId": "7b2b9ea826a7a8b85ec99e7f",
-      "name": "B.D. Wong"
+      "character": {
+        "name": "Dr. Henry Wu"
+      }
     },
     {
-      "character": {
-        "name": "Vivian",
-        "imageUrl": ""
-      },
       "actorId": "cec4fcf38d7cd17aece458f2",
-      "name": "Lauren Lapkus"
+      "character": {
+        "name": "Vivian"
+      }
     }
   ],
   "collections": [

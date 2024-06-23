@@ -71,28 +71,22 @@
   "duration": 98,
   "cast": [
     {
-      "character": {
-        "name": "Frank",
-        "imageUrl": ""
-      },
       "actorId": "e808814e06af237c43c31928",
-      "name": "Denzel Washington"
+      "character": {
+        "name": "Frank"
+      }
     },
     {
-      "character": {
-        "name": "Will",
-        "imageUrl": ""
-      },
       "actorId": "3acb4259a5ddd7988015fa82",
-      "name": "Chris Pine"
+      "character": {
+        "name": "Will"
+      }
     },
     {
-      "character": {
-        "name": "Connie",
-        "imageUrl": ""
-      },
       "actorId": "4fda865b59819a0d26c09697",
-      "name": "Rosario Dawson"
+      "character": {
+        "name": "Connie"
+      }
     }
   ],
   "collections": [

@@ -69,60 +69,46 @@
   "duration": 118,
   "cast": [
     {
-      "character": {
-        "name": "Scott Lang / Ant-Man",
-        "imageUrl": ""
-      },
       "actorId": "5d474df7bc79a3784ee0df3a",
-      "name": "Paul Rudd"
+      "character": {
+        "name": "Scott Lang / Ant-Man"
+      }
     },
     {
-      "character": {
-        "name": "Hope Van Dyne / New Wasp",
-        "imageUrl": ""
-      },
       "actorId": "cbea23272f6d430dd37d2296",
-      "name": "Evangeline Lilly"
+      "character": {
+        "name": "Hope Van Dyne / New Wasp"
+      }
     },
     {
-      "character": {
-        "name": "Luis",
-        "imageUrl": ""
-      },
       "actorId": "5e3bafc74ed0a30df02c53af",
-      "name": "Michael Pena"
+      "character": {
+        "name": "Luis"
+      }
     },
     {
-      "character": {
-        "name": "Ava / Ghost",
-        "imageUrl": ""
-      },
       "actorId": "ceed7f04919d7706e670c146",
-      "name": "Hannah John-Kamen"
+      "character": {
+        "name": "Ava / Ghost"
+      }
     },
     {
-      "character": {
-        "name": "Janet Van Dyne / First Wasp",
-        "imageUrl": ""
-      },
       "actorId": "4771750eb3cf3c71190e7c37",
-      "name": "Michelle Pfeiffer"
+      "character": {
+        "name": "Janet Van Dyne / First Wasp"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Bill Foster",
-        "imageUrl": ""
-      },
       "actorId": "598ea6d5be8fe378787adde7",
-      "name": "Laurence Fishburne"
+      "character": {
+        "name": "Dr. Bill Foster"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Hank Pym",
-        "imageUrl": ""
-      },
       "actorId": "b2ea2428b1a880a37e8855f5",
-      "name": "Michael Douglas"
+      "character": {
+        "name": "Dr. Hank Pym"
+      }
     }
   ],
   "collections": [

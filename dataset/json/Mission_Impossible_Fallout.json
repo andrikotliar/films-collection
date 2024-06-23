@@ -68,76 +68,58 @@
   "duration": 147,
   "cast": [
     {
-      "character": {
-        "name": "Ethan Hunt",
-        "imageUrl": ""
-      },
       "actorId": "d1899eef1c53bc13798a897c",
-      "name": "Tom Cruise"
+      "character": {
+        "name": "Ethan Hunt"
+      }
     },
     {
-      "character": {
-        "name": "August Walker",
-        "imageUrl": ""
-      },
       "actorId": "8b6677adf81a10fa756951ff",
-      "name": "Henry Cavill"
+      "character": {
+        "name": "August Walker"
+      }
     },
     {
-      "character": {
-        "name": "Luther Stickell",
-        "imageUrl": ""
-      },
       "actorId": "4b4ebf97ca75b72088e2c948",
-      "name": "Ving Rhames"
+      "character": {
+        "name": "Luther Stickell"
+      }
     },
     {
-      "character": {
-        "name": "Benji Dunn",
-        "imageUrl": ""
-      },
       "actorId": "2e7736bf7187e688395d7a2c",
-      "name": "Simon Pegg"
+      "character": {
+        "name": "Benji Dunn"
+      }
     },
     {
-      "character": {
-        "name": "Ilsa Faust",
-        "imageUrl": ""
-      },
       "actorId": "4a98bdee97707da082e29566",
-      "name": "Rebecca Ferguson"
+      "character": {
+        "name": "Ilsa Faust"
+      }
     },
     {
-      "character": {
-        "name": "Solomon Lane",
-        "imageUrl": ""
-      },
       "actorId": "37e4ebf4fbaa8aab7d89a9c4",
-      "name": "Sean Harris"
+      "character": {
+        "name": "Solomon Lane"
+      }
     },
     {
-      "character": {
-        "name": "Erika Sloane",
-        "imageUrl": ""
-      },
       "actorId": "f1f774fa206392544965b787",
-      "name": "Angela Bassett"
+      "character": {
+        "name": "Erika Sloane"
+      }
     },
     {
-      "character": {
-        "name": "The White Widow",
-        "imageUrl": ""
-      },
       "actorId": "64f474a04038b524dae074d6",
-      "name": "Vanessa Kirby"
+      "character": {
+        "name": "The White Widow"
+      }
     },
     {
-      "character": {
-        "name": "Julia",
-        "imageUrl": ""
-      },
       "actorId": "eed3fec56e5b7a0ad8aa447a",
-      "name": "Michelle Monaghan"
+      "character": {
+        "name": "Julia"
+      }
     }
   ],
   "collections": [

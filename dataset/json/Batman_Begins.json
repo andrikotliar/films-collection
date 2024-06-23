@@ -72,84 +72,64 @@
   "duration": 140,
   "cast": [
     {
-      "character": {
-        "name": "Bruce Wayne / Batman",
-        "imageUrl": ""
-      },
       "actorId": "b794f150c4436f17ba9bd9f1",
-      "name": "Christian Bale"
+      "character": {
+        "name": "Bruce Wayne / Batman"
+      }
     },
     {
-      "character": {
-        "name": "Alfred",
-        "imageUrl": ""
-      },
       "actorId": "68a6bf55b5f042549fda0642",
-      "name": "Michael Caine"
+      "character": {
+        "name": "Alfred"
+      }
     },
     {
-      "character": {
-        "name": "Anri Ducard / Ra's al Ghul",
-        "imageUrl": ""
-      },
       "actorId": "017e02072132c3a7ad26b56e",
-      "name": "Liam Neeson"
+      "character": {
+        "name": "Anri Ducard / Ra's al Ghul"
+      }
     },
     {
-      "character": {
-        "name": "Rachel Dawes",
-        "imageUrl": ""
-      },
       "actorId": "d868255b3a88ba5703bd526a",
-      "name": "Katie Holmes"
+      "character": {
+        "name": "Rachel Dawes"
+      }
     },
     {
-      "character": {
-        "name": "Jim Gordon",
-        "imageUrl": ""
-      },
       "actorId": "a03a7c1a8a396d3211b9b317",
-      "name": "Gary Oldman"
+      "character": {
+        "name": "Jim Gordon"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Jonathan Crane / The Scarecrow",
-        "imageUrl": ""
-      },
       "actorId": "fe1abb15a45afafd3263a771",
-      "name": "Cillian Murphy"
+      "character": {
+        "name": "Dr. Jonathan Crane / The Scarecrow"
+      }
     },
     {
-      "character": {
-        "name": "Carmine Falcone",
-        "imageUrl": ""
-      },
       "actorId": "050465e1990ba7d5eea1681d",
-      "name": "Tom Wilkinson"
+      "character": {
+        "name": "Carmine Falcone"
+      }
     },
     {
-      "character": {
-        "name": "Earle",
-        "imageUrl": ""
-      },
       "actorId": "21a931a7f55de1d5ddc6e68b",
-      "name": "Rutger Hauer"
+      "character": {
+        "name": "Earle"
+      }
     },
     {
-      "character": {
-        "name": "Ra's Al Ghul",
-        "imageUrl": ""
-      },
       "actorId": "327088b7b64f3ac9a97651b1",
-      "name": "Ken Watanabe"
+      "character": {
+        "name": "Ra's Al Ghul"
+      }
     },
     {
-      "character": {
-        "name": "Lucius Fox",
-        "imageUrl": ""
-      },
       "actorId": "6baca3c5f3dcf4fb1271cb34",
-      "name": "Morgan Freeman"
+      "character": {
+        "name": "Lucius Fox"
+      }
     }
   ],
   "collections": [

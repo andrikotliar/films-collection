@@ -67,52 +67,40 @@
   "duration": 119,
   "cast": [
     {
-      "character": {
-        "name": "John Garrity",
-        "imageUrl": ""
-      },
       "actorId": "19691d0b10cb811590497ff2",
-      "name": "Gerard Butler"
+      "character": {
+        "name": "John Garrity"
+      }
     },
     {
-      "character": {
-        "name": "Allison Garrity",
-        "imageUrl": ""
-      },
       "actorId": "77946df45d5b0eaec9d92193",
-      "name": "Morena Baccarin"
+      "character": {
+        "name": "Allison Garrity"
+      }
     },
     {
-      "character": {
-        "name": "Nathan Garrity",
-        "imageUrl": ""
-      },
       "actorId": "00562620ce3f9f74d5aa0155",
-      "name": "Roger Dale Floyd"
+      "character": {
+        "name": "Nathan Garrity"
+      }
     },
     {
-      "character": {
-        "name": "Dale",
-        "imageUrl": ""
-      },
       "actorId": "33959ac36509703adc45f97a",
-      "name": "Scott Glenn"
+      "character": {
+        "name": "Dale"
+      }
     },
     {
-      "character": {
-        "name": "Ralph Vento",
-        "imageUrl": ""
-      },
       "actorId": "7d0b6e40baadda50e2048436",
-      "name": "David Denman"
+      "character": {
+        "name": "Ralph Vento"
+      }
     },
     {
-      "character": {
-        "name": "Judy Vento",
-        "imageUrl": ""
-      },
       "actorId": "acc601949baf6d00d14233e0",
-      "name": "Hope Davis"
+      "character": {
+        "name": "Judy Vento"
+      }
     }
   ],
   "collections": [

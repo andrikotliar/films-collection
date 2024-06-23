@@ -65,60 +65,46 @@
   "duration": 87,
   "cast": [
     {
-      "character": {
-        "name": "Frank Martin",
-        "imageUrl": ""
-      },
       "actorId": "de0e3c154d6e85358e70d67b",
-      "name": "Jason Statham"
+      "character": {
+        "name": "Frank Martin"
+      }
     },
     {
-      "character": {
-        "name": "Gianni Chellini",
-        "imageUrl": ""
-      },
       "actorId": "0ff357a04f68f97521842691",
-      "name": "Alessandro Gassman"
+      "character": {
+        "name": "Gianni Chellini"
+      }
     },
     {
-      "character": {
-        "name": "Audrey Billings",
-        "imageUrl": ""
-      },
       "actorId": "3799ff2d3b71025b401a6bb7",
-      "name": "Amber Valletta"
+      "character": {
+        "name": "Audrey Billings"
+      }
     },
     {
-      "character": {
-        "name": "Lola",
-        "imageUrl": ""
-      },
       "actorId": "9b87b2c60f00630802539db8",
-      "name": "Kate Nauta"
+      "character": {
+        "name": "Lola"
+      }
     },
     {
-      "character": {
-        "name": "Jefferson Billings",
-        "imageUrl": ""
-      },
       "actorId": "ae59b91d424e2bfb80aa5ddb",
-      "name": "Matthew Modine"
+      "character": {
+        "name": "Jefferson Billings"
+      }
     },
     {
-      "character": {
-        "name": "Jack Billings",
-        "imageUrl": ""
-      },
       "actorId": "ed3c5600f8d2726f784336fa",
-      "name": "Hunter Clary"
+      "character": {
+        "name": "Jack Billings"
+      }
     },
     {
-      "character": {
-        "name": "Inspector Tarconi",
-        "imageUrl": ""
-      },
       "actorId": "27701bc9dbcd310c14d85191",
-      "name": "François Berléand"
+      "character": {
+        "name": "Inspector Tarconi"
+      }
     }
   ],
   "collections": [

@@ -76,44 +76,34 @@
   "duration": 108,
   "cast": [
     {
-      "character": {
-        "name": "Mumble",
-        "imageUrl": ""
-      },
       "actorId": "afed96df0db76b317cb36711",
-      "name": "Elijah Wood"
+      "character": {
+        "name": "Mumble"
+      }
     },
     {
-      "character": {
-        "name": "Gloria",
-        "imageUrl": ""
-      },
       "actorId": "46cb6620a73ad72d46726772",
-      "name": "Brittany Murphy"
+      "character": {
+        "name": "Gloria"
+      }
     },
     {
-      "character": {
-        "name": "Memphis",
-        "imageUrl": ""
-      },
       "actorId": "544abb6ffddc8ddf4056b862",
-      "name": "Hugh Jackman"
+      "character": {
+        "name": "Memphis"
+      }
     },
     {
-      "character": {
-        "name": "Norma Jean",
-        "imageUrl": ""
-      },
       "actorId": "e6459d81bab075fc3755cec2",
-      "name": "Nicole Kidman"
+      "character": {
+        "name": "Norma Jean"
+      }
     },
     {
-      "character": {
-        "name": "Noah the Elder",
-        "imageUrl": ""
-      },
       "actorId": "9d72ccad0a0c60872b91d2d3",
-      "name": "Hugo Weaving"
+      "character": {
+        "name": "Noah the Elder"
+      }
     }
   ],
   "collections": [

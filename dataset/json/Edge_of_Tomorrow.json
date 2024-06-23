@@ -71,92 +71,70 @@
   "duration": 113,
   "cast": [
     {
-      "character": {
-        "name": "Cage",
-        "imageUrl": ""
-      },
       "actorId": "d1899eef1c53bc13798a897c",
-      "name": "Tom Cruise"
+      "character": {
+        "name": "Cage"
+      }
     },
     {
-      "character": {
-        "name": "Rita",
-        "imageUrl": ""
-      },
       "actorId": "48bc6851537e5e5dc1bf99ca",
-      "name": "Emily Blunt"
+      "character": {
+        "name": "Rita"
+      }
     },
     {
-      "character": {
-        "name": "General Brigham",
-        "imageUrl": ""
-      },
       "actorId": "a0b80add73e1eaf43e9aebe5",
-      "name": "Brendan Gleeson"
+      "character": {
+        "name": "General Brigham"
+      }
     },
     {
-      "character": {
-        "name": "Master Sergeant Farell",
-        "imageUrl": ""
-      },
       "actorId": "2118f05852939b389e792478",
-      "name": "Bill Paxton"
+      "character": {
+        "name": "Master Sergeant Farell"
+      }
     },
     {
-      "character": {
-        "name": "Skinner",
-        "imageUrl": ""
-      },
       "actorId": "84c3f18ae2887de1926d8b3a",
-      "name": "Jonas Armstrong"
+      "character": {
+        "name": "Skinner"
+      }
     },
     {
-      "character": {
-        "name": "Kimmel",
-        "imageUrl": ""
-      },
       "actorId": "2c5991de67574697e5b349c3",
-      "name": "Tony Way"
+      "character": {
+        "name": "Kimmel"
+      }
     },
     {
-      "character": {
-        "name": "Griff",
-        "imageUrl": ""
-      },
       "actorId": "2160d121ebc4bd1dde1c81ab",
-      "name": "Kick Gurry"
+      "character": {
+        "name": "Griff"
+      }
     },
     {
-      "character": {
-        "name": "Ford",
-        "imageUrl": ""
-      },
       "actorId": "e63991f3f44f159e9f586dee",
-      "name": "Franz Drameh"
+      "character": {
+        "name": "Ford"
+      }
     },
     {
-      "character": {
-        "name": "Kuntz",
-        "imageUrl": ""
-      },
       "actorId": "bf32c73f51fd19dfca25c3ad",
-      "name": "Dragomir Mrsic"
+      "character": {
+        "name": "Kuntz"
+      }
     },
     {
-      "character": {
-        "name": "Nance",
-        "imageUrl": ""
-      },
       "actorId": "528621a0cb63e99b41c5c942",
-      "name": "Charlotte Riley"
+      "character": {
+        "name": "Nance"
+      }
     },
     {
-      "character": {
-        "name": "Takeda",
-        "imageUrl": ""
-      },
       "actorId": "e91cced07ee20afdab78725a",
-      "name": "Masayoshi Haneda"
+      "character": {
+        "name": "Takeda"
+      }
     }
   ],
   "collections": [

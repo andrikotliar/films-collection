@@ -68,68 +68,52 @@
   "duration": 330,
   "cast": [
     {
-      "character": {
-        "name": "Valery Legasov",
-        "imageUrl": ""
-      },
       "actorId": "64bedf38344e5978d2b55e18",
-      "name": "Jared Harris"
+      "character": {
+        "name": "Valery Legasov"
+      }
     },
     {
-      "character": {
-        "name": "Boris Shcherbina",
-        "imageUrl": ""
-      },
       "actorId": "3090a68b40a7bfda7b1d93b8",
-      "name": "Stellan Skarsgard"
+      "character": {
+        "name": "Boris Shcherbina"
+      }
     },
     {
-      "character": {
-        "name": "Ulana Khomyuk",
-        "imageUrl": ""
-      },
       "actorId": "4df98a4858eefaa203044db9",
-      "name": "Emily Watson"
+      "character": {
+        "name": "Ulana Khomyuk"
+      }
     },
     {
-      "character": {
-        "name": "Anatoly Dyatlov",
-        "imageUrl": ""
-      },
       "actorId": "b63f3434e1127a9315a1a9b0",
-      "name": "Paul Ritter"
+      "character": {
+        "name": "Anatoly Dyatlov"
+      }
     },
     {
-      "character": {
-        "name": "Leonid Toptunov",
-        "imageUrl": ""
-      },
       "actorId": "efddf25eb3b97778be53c763",
-      "name": "Robert Emms"
+      "character": {
+        "name": "Leonid Toptunov"
+      }
     },
     {
-      "character": {
-        "name": "Alexandr Akimov",
-        "imageUrl": ""
-      },
       "actorId": "76050d7c37d6233c0432062f",
-      "name": "Sam Troughton"
+      "character": {
+        "name": "Alexandr Akimov"
+      }
     },
     {
-      "character": {
-        "name": "Lyudmilla Ignatenko",
-        "imageUrl": ""
-      },
       "actorId": "b1836ba76b680e5f338a2011",
-      "name": "Jessie Buckley"
+      "character": {
+        "name": "Lyudmilla Ignatenko"
+      }
     },
     {
-      "character": {
-        "name": "Vasily Ignatenko",
-        "imageUrl": ""
-      },
       "actorId": "a34608b05c0bb3a0cce62eaf",
-      "name": "Adam Nagaitis"
+      "character": {
+        "name": "Vasily Ignatenko"
+      }
     }
   ],
   "collections": [

@@ -69,44 +69,34 @@
   "duration": 92,
   "cast": [
     {
-      "character": {
-        "name": "Dr. Alan Grant",
-        "imageUrl": ""
-      },
       "actorId": "2481ddc7d8be875f8b2be84e",
-      "name": "Sam Neill"
+      "character": {
+        "name": "Dr. Alan Grant"
+      }
     },
     {
-      "character": {
-        "name": "Paul Kirby",
-        "imageUrl": ""
-      },
       "actorId": "f567f450fcb21a0af4e30af3",
-      "name": "William H. Macy"
+      "character": {
+        "name": "Paul Kirby"
+      }
     },
     {
-      "character": {
-        "name": "Amanda Kirby",
-        "imageUrl": ""
-      },
       "actorId": "e25b290cc53a1cd06f04ca4d",
-      "name": "Téa Leoni"
+      "character": {
+        "name": "Amanda Kirby"
+      }
     },
     {
-      "character": {
-        "name": "Billy Brennan",
-        "imageUrl": ""
-      },
       "actorId": "7fe039a34239505e0f74e00e",
-      "name": "Alessandro Nivola"
+      "character": {
+        "name": "Billy Brennan"
+      }
     },
     {
-      "character": {
-        "name": "Eric Kirby",
-        "imageUrl": ""
-      },
       "actorId": "56b4f488b094f82b1ce5bf04",
-      "name": "Trevor Morgan"
+      "character": {
+        "name": "Eric Kirby"
+      }
     }
   ],
   "collections": [

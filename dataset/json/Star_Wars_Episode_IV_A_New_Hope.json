@@ -60,76 +60,58 @@
   "duration": 121,
   "cast": [
     {
-      "character": {
-        "name": "Luke Skywalker",
-        "imageUrl": ""
-      },
       "actorId": "ce132ddc9f8b5434251efcdb",
-      "name": "Mark Hamill"
+      "character": {
+        "name": "Luke Skywalker"
+      }
     },
     {
-      "character": {
-        "name": "Han Solo",
-        "imageUrl": ""
-      },
       "actorId": "90204450e3ebdb007d478280",
-      "name": "Harrison Ford"
+      "character": {
+        "name": "Han Solo"
+      }
     },
     {
-      "character": {
-        "name": "Leia Organa",
-        "imageUrl": ""
-      },
       "actorId": "7d2b5a0e06b8a95e8c3f208f",
-      "name": "Carrie Fisher"
+      "character": {
+        "name": "Leia Organa"
+      }
     },
     {
-      "character": {
-        "name": "Moff Tarkin",
-        "imageUrl": ""
-      },
       "actorId": "5e72fa7016750d28c79b5339",
-      "name": "Peter Cushing"
+      "character": {
+        "name": "Moff Tarkin"
+      }
     },
     {
-      "character": {
-        "name": "Ben Obi-Wan Kenobi",
-        "imageUrl": ""
-      },
       "actorId": "3a3a66696ed1793937e5f75b",
-      "name": "Alec Guinness"
+      "character": {
+        "name": "Ben Obi-Wan Kenobi"
+      }
     },
     {
-      "character": {
-        "name": "C-3PO",
-        "imageUrl": ""
-      },
       "actorId": "8495e822d070b57837e0bf6e",
-      "name": "Anthony Daniels"
+      "character": {
+        "name": "C-3PO"
+      }
     },
     {
-      "character": {
-        "name": "R2-D2",
-        "imageUrl": ""
-      },
       "actorId": "f9b0821669e9ab485f13f6d1",
-      "name": "Kenny Baker"
+      "character": {
+        "name": "R2-D2"
+      }
     },
     {
-      "character": {
-        "name": "Chewbacca",
-        "imageUrl": ""
-      },
       "actorId": "25d91c81e9e6d9044c52fa9b",
-      "name": "Peter Mayhew"
+      "character": {
+        "name": "Chewbacca"
+      }
     },
     {
-      "character": {
-        "name": "Darth Vader",
-        "imageUrl": ""
-      },
       "actorId": "3dcb844bcfc2544762ec44c0",
-      "name": "David Prowse"
+      "character": {
+        "name": "Darth Vader"
+      }
     }
   ],
   "collections": [

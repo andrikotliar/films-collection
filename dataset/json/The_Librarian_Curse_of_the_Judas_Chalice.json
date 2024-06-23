@@ -62,44 +62,34 @@
   "duration": 95,
   "cast": [
     {
-      "character": {
-        "name": "Flynn Carsen",
-        "imageUrl": ""
-      },
       "actorId": "5682aa234be8275828a251fd",
-      "name": "Noah Wyle"
+      "character": {
+        "name": "Flynn Carsen"
+      }
     },
     {
-      "character": {
-        "name": "Professor Lazlo / Vlad",
-        "imageUrl": ""
-      },
       "actorId": "6aaf070b072c871251091c91",
-      "name": "Bruce Davison"
+      "character": {
+        "name": "Professor Lazlo / Vlad"
+      }
     },
     {
-      "character": {
-        "name": "Simone Renoir",
-        "imageUrl": ""
-      },
       "actorId": "33df3600552e4b41f7c45e4f",
-      "name": "Stana Katic"
+      "character": {
+        "name": "Simone Renoir"
+      }
     },
     {
-      "character": {
-        "name": "Judson",
-        "imageUrl": ""
-      },
       "actorId": "c7d1e2a7bc4468f9de40f667",
-      "name": "Bob Newhart"
+      "character": {
+        "name": "Judson"
+      }
     },
     {
-      "character": {
-        "name": "Charlene",
-        "imageUrl": ""
-      },
       "actorId": "ddef35144525bb2d00be1e2d",
-      "name": "Jane Curtin"
+      "character": {
+        "name": "Charlene"
+      }
     }
   ],
   "collections": [

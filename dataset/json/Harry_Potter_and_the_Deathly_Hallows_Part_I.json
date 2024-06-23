@@ -66,80 +66,64 @@
   "duration": 146,
   "cast": [
     {
-      "character": {
-        "name": "Harry Potter",
-        "imageUrl": ""
-      },
       "actorId": "7cd730dd761c711d4467bce0",
-      "name": "Daniel Radcliffe"
+      "character": {
+        "name": "Harry Potter"
+      }
     },
     {
-      "character": {
-        "name": "Ron Weasley",
-        "imageUrl": ""
-      },
       "actorId": "076188ec6b66a2c4a62fdab1",
-      "name": "Rupert Grint"
+      "character": {
+        "name": "Ron Weasley"
+      }
     },
     {
-      "character": {
-        "name": "Hermione Granger",
-        "imageUrl": ""
-      },
       "actorId": "3f0004fa95271000de67d1f4",
-      "name": "Emma Watson"
+      "character": {
+        "name": "Hermione Granger"
+      }
     },
     {
-      "character": {
-        "name": "Lord Voldemort",
-        "imageUrl": ""
-      },
       "actorId": "25210612f77f5f5a4c51dc56",
-      "name": "Ralph Fiennes"
+      "character": {
+        "name": "Lord Voldemort"
+      }
     },
     {
-      "character": {
-        "name": "Severus Snape",
-        "imageUrl": ""
-      },
       "actorId": "9433a6747c6cfc354fed7e65",
-      "name": "Alan Rickman"
+      "character": {
+        "name": "Severus Snape"
+      }
     },
     {
-      "character": {
-        "name": "Bellatrix Lestrage",
-        "imageUrl": ""
-      },
       "actorId": "b5e7e795de1f87df92309e3a",
-      "name": "Helena Bonham Carter"
+      "character": {
+        "name": "Bellatrix Lestrage"
+      }
     },
     {
-      "character": {
-        "name": "Rubeus Hagrid",
-        "imageUrl": ""
-      },
       "actorId": "5aea15b4e9912ad7b3a2241e",
-      "name": "Robbie Coltrane"
-    },
-    {
       "character": {
-        "name": "Draco Malfoy",
-        "imageUrl": ""
-      },
-      "actorId": "aca6f583677ffb4c7f38d469",
-      "name": "Tom Felton"
+        "name": "Rubeus Hagrid"
+      }
     },
     {
+      "actorId": "aca6f583677ffb4c7f38d469",
+      "character": {
+        "name": "Draco Malfoy"
+      }
+    },
+    {
+      "actorId": "0c745814f1b5b36341674138",
       "character": {
         "name": "Dobby"
-      },
-      "actorId": "0c745814f1b5b36341674138"
+      }
     },
     {
+      "actorId": "54976cd277ab4a63171411b7",
       "character": {
         "name": "Xenophilius Lovegood"
-      },
-      "actorId": "54976cd277ab4a63171411b7"
+      }
     }
   ],
   "collections": [

@@ -74,98 +74,76 @@
   "duration": 117,
   "cast": [
     {
-      "character": {
-        "name": "Miles Morales",
-        "imageUrl": ""
-      },
       "actorId": "56cd353690befbf133dac66e",
-      "name": "Shameik Moore"
+      "character": {
+        "name": "Miles Morales"
+      }
     },
     {
-      "character": {
-        "name": "Peter B. Parker",
-        "imageUrl": ""
-      },
       "actorId": "3049f5769212420bfd2ba146",
-      "name": "Jake Johnson"
+      "character": {
+        "name": "Peter B. Parker"
+      }
     },
     {
-      "character": {
-        "name": "Gwen Stacy",
-        "imageUrl": ""
-      },
       "actorId": "7e009e344b1d17321f88e62c",
-      "name": "Hailee Steinfeld"
+      "character": {
+        "name": "Gwen Stacy"
+      }
     },
     {
-      "character": {
-        "name": "Uncle Aaron",
-        "imageUrl": ""
-      },
       "actorId": "ab310cfb7b4905e59b363f7d",
-      "name": "Mahershala Ali"
+      "character": {
+        "name": "Uncle Aaron"
+      }
     },
     {
-      "character": {
-        "name": "Jefferson Davis",
-        "imageUrl": ""
-      },
       "actorId": "52883929c1478b1d2b3df109",
-      "name": "Brian Tyree Henry"
+      "character": {
+        "name": "Jefferson Davis"
+      }
     },
     {
-      "character": {
-        "name": "Rio Morales",
-        "imageUrl": ""
-      },
       "actorId": "8747bb64c33af87ce029a475",
-      "name": "Luna Lauren Velez"
+      "character": {
+        "name": "Rio Morales"
+      }
     },
     {
-      "character": {
-        "name": "Mary Jane",
-        "imageUrl": ""
-      },
       "actorId": "3202df301918fc6467f6e12a",
-      "name": "Zoe Kravitz"
+      "character": {
+        "name": "Mary Jane"
+      }
     },
     {
-      "character": {
-        "name": "Spider-Ham",
-        "imageUrl": ""
-      },
       "actorId": "caef1169b14696404918613d",
-      "name": "John Mulaney"
+      "character": {
+        "name": "Spider-Ham"
+      }
     },
     {
-      "character": {
-        "name": "Peni Parker",
-        "imageUrl": ""
-      },
       "actorId": "6d5e16e716642f6508d31716",
-      "name": "Kimiko Glenn"
+      "character": {
+        "name": "Peni Parker"
+      }
     },
     {
-      "character": {
-        "name": "Spider-Man Noir",
-        "imageUrl": ""
-      },
       "actorId": "6e9dd36e3b96af6f5483e7a2",
-      "name": "Nicolas Cage"
-    },
-    {
       "character": {
-        "name": "Wilson Fisk",
-        "imageUrl": ""
-      },
-      "actorId": "847cefcbba651553301ec62e",
-      "name": "Liev Schreiber"
+        "name": "Spider-Man Noir"
+      }
     },
     {
+      "actorId": "847cefcbba651553301ec62e",
+      "character": {
+        "name": "Wilson Fisk"
+      }
+    },
+    {
+      "actorId": "bb56b08e5530d902cb75c719",
       "character": {
         "name": "Doc Ock"
-      },
-      "actorId": "bb56b08e5530d902cb75c719"
+      }
     }
   ],
   "collections": [

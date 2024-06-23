@@ -66,108 +66,82 @@
   "duration": 127,
   "cast": [
     {
-      "character": {
-        "name": "Kirk",
-        "imageUrl": ""
-      },
       "actorId": "3acb4259a5ddd7988015fa82",
-      "name": "Chris Pine"
+      "character": {
+        "name": "Kirk"
+      }
     },
     {
-      "character": {
-        "name": "Spock",
-        "imageUrl": ""
-      },
       "actorId": "6565f3834cdb77b3e044b64e",
-      "name": "Zachary Quinto"
+      "character": {
+        "name": "Spock"
+      }
     },
     {
-      "character": {
-        "name": "Spock Prime",
-        "imageUrl": ""
-      },
       "actorId": "f875b54ffaa4476a3545f977",
-      "name": "Leonard Nimoy"
+      "character": {
+        "name": "Spock Prime"
+      }
     },
     {
-      "character": {
-        "name": "Nero",
-        "imageUrl": ""
-      },
       "actorId": "c3547f7f2e3c4da01e256db1",
-      "name": "Eric Bana"
+      "character": {
+        "name": "Nero"
+      }
     },
     {
-      "character": {
-        "name": "Pike",
-        "imageUrl": ""
-      },
       "actorId": "c96b8477b5c3f80695fd2d0e",
-      "name": "Bruce Greenwood"
+      "character": {
+        "name": "Pike"
+      }
     },
     {
-      "character": {
-        "name": "Bones",
-        "imageUrl": ""
-      },
       "actorId": "073830510a0bae3dde5820c2",
-      "name": "Karl Urban"
+      "character": {
+        "name": "Bones"
+      }
     },
     {
-      "character": {
-        "name": "Uhura",
-        "imageUrl": ""
-      },
       "actorId": "0f44c8581608c442261413e4",
-      "name": "Zoe Saldana"
+      "character": {
+        "name": "Uhura"
+      }
     },
     {
-      "character": {
-        "name": "Scotty",
-        "imageUrl": ""
-      },
       "actorId": "2e7736bf7187e688395d7a2c",
-      "name": "Simon Pegg"
+      "character": {
+        "name": "Scotty"
+      }
     },
     {
-      "character": {
-        "name": "Sulu",
-        "imageUrl": ""
-      },
       "actorId": "ee843d8f40f25554b7057454",
-      "name": "John Cho"
+      "character": {
+        "name": "Sulu"
+      }
     },
     {
-      "character": {
-        "name": "Chekov",
-        "imageUrl": ""
-      },
       "actorId": "f03c91b058f5592f442fd2cd",
-      "name": "Anton Yelchin"
+      "character": {
+        "name": "Chekov"
+      }
     },
     {
-      "character": {
-        "name": "Sarek",
-        "imageUrl": ""
-      },
       "actorId": "6ed3ea8e7a106009d36a71b4",
-      "name": "Ben Cross"
+      "character": {
+        "name": "Sarek"
+      }
     },
     {
-      "character": {
-        "name": "Amanda Grayson",
-        "imageUrl": ""
-      },
       "actorId": "f49c1aa95b7c6f032daebb75",
-      "name": "Winona Ryder"
+      "character": {
+        "name": "Amanda Grayson"
+      }
     },
     {
-      "character": {
-        "name": "George Kirk",
-        "imageUrl": ""
-      },
       "actorId": "9d6f7bec0a46789eaa403786",
-      "name": "Chris Hemsworth"
+      "character": {
+        "name": "George Kirk"
+      }
     }
   ],
   "collections": [

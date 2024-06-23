@@ -67,60 +67,46 @@
   "duration": 150,
   "cast": [
     {
-      "character": {
-        "name": "Protagonist",
-        "imageUrl": ""
-      },
       "actorId": "1a303f13694e73dabc1c02b6",
-      "name": "John David Washington"
+      "character": {
+        "name": "Protagonist"
+      }
     },
     {
-      "character": {
-        "name": "Neil",
-        "imageUrl": ""
-      },
       "actorId": "be5a364626b5e5843ae62363",
-      "name": "Robert Pattinson"
+      "character": {
+        "name": "Neil"
+      }
     },
     {
-      "character": {
-        "name": "Katherine Barton",
-        "imageUrl": ""
-      },
       "actorId": "d346e8fbcf12e4d8761b6d8a",
-      "name": "Elizabeth Debicki"
+      "character": {
+        "name": "Katherine Barton"
+      }
     },
     {
-      "character": {
-        "name": "Priya",
-        "imageUrl": ""
-      },
       "actorId": "9be9ad46ec99b713dad3290f",
-      "name": "Dimple Kapadia"
+      "character": {
+        "name": "Priya"
+      }
     },
     {
-      "character": {
-        "name": "Fay",
-        "imageUrl": ""
-      },
       "actorId": "9aa1286b3ba72cd5eb04a3a8",
-      "name": "Martin Donovan"
+      "character": {
+        "name": "Fay"
+      }
     },
     {
-      "character": {
-        "name": "Wheeler",
-        "imageUrl": ""
-      },
       "actorId": "e5d14d5efc78e38b1c607d19",
-      "name": "Fiona Dourif"
+      "character": {
+        "name": "Wheeler"
+      }
     },
     {
-      "character": {
-        "name": "Andrei Sator",
-        "imageUrl": ""
-      },
       "actorId": "4d2df0dc49815c9c34e5b975",
-      "name": "Kenneth Branagh"
+      "character": {
+        "name": "Andrei Sator"
+      }
     }
   ],
   "collections": [

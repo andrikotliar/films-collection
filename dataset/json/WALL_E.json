@@ -66,52 +66,40 @@
   "duration": 97,
   "cast": [
     {
-      "character": {
-        "name": "WALL-E / M-O / AUTO",
-        "imageUrl": ""
-      },
       "actorId": "d5264ffaad866e0421f05d92",
-      "name": "Ben Burtt"
+      "character": {
+        "name": "WALL-E / M-O / AUTO"
+      }
     },
     {
-      "character": {
-        "name": "EVE",
-        "imageUrl": ""
-      },
       "actorId": "09bcd60575e3711555b6debd",
-      "name": "Elissa Knight"
+      "character": {
+        "name": "EVE"
+      }
     },
     {
-      "character": {
-        "name": "Captain",
-        "imageUrl": ""
-      },
       "actorId": "d717be436621af2098bc9200",
-      "name": "Jeff Garlin"
+      "character": {
+        "name": "Captain"
+      }
     },
     {
-      "character": {
-        "name": "Shelby Forthright",
-        "imageUrl": ""
-      },
       "actorId": "6597b9990c3f3bc299801972",
-      "name": "Fred Willard"
+      "character": {
+        "name": "Shelby Forthright"
+      }
     },
     {
-      "character": {
-        "name": "John",
-        "imageUrl": ""
-      },
       "actorId": "4afaa2de8d5fd40753ed46bf",
-      "name": "John Ratzenberger"
+      "character": {
+        "name": "John"
+      }
     },
     {
-      "character": {
-        "name": "Mary",
-        "imageUrl": ""
-      },
       "actorId": "5d63317983c6982cd259c2ed",
-      "name": "Kathy Najimy"
+      "character": {
+        "name": "Mary"
+      }
     }
   ],
   "collections": [

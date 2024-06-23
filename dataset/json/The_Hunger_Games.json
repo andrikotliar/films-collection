@@ -68,75 +68,58 @@
   "duration": 142,
   "cast": [
     {
-      "character": {
-        "name": "Katniss Everdeen",
-        "imageUrl": ""
-      },
       "actorId": "c99e4f6dc0695561848dc5be",
-      "name": "Jennifer Lawrence"
+      "character": {
+        "name": "Katniss Everdeen"
+      }
     },
     {
-      "character": {
-        "name": "Peeta Mellark",
-        "imageUrl": ""
-      },
       "actorId": "e87403fc0ddcab36a8107ef0",
-      "name": "Josh Hutcherson"
+      "character": {
+        "name": "Peeta Mellark"
+      }
     },
     {
-      "character": {
-        "name": "Gale Hawthorne",
-        "imageUrl": ""
-      },
       "actorId": "f1235dcc20310d42acc94ada",
-      "name": "Liam Hemsworth"
+      "character": {
+        "name": "Gale Hawthorne"
+      }
     },
     {
-      "character": {
-        "name": "Haymitch Abernathy",
-        "imageUrl": ""
-      },
       "actorId": "024affbe7a45ee9fc554bf76",
-      "name": "Woody Harrelson"
+      "character": {
+        "name": "Haymitch Abernathy"
+      }
     },
     {
-      "character": {
-        "name": "Effie Trinket",
-        "imageUrl": ""
-      },
       "actorId": "1a8c1ba8704e691a5c41e81b",
-      "name": "Elizabeth Banks"
+      "character": {
+        "name": "Effie Trinket"
+      }
     },
     {
-      "character": {
-        "name": "Cinna",
-        "imageUrl": ""
-      },
       "actorId": "0a85caa30a6c53a9cd428287",
-      "name": "Lenny Kravitz"
+      "character": {
+        "name": "Cinna"
+      }
     },
     {
-      "character": {
-        "name": "Caesar Flickerman",
-        "imageUrl": ""
-      },
       "actorId": "a63daeaff1736e80ecb72103",
-      "name": "Stanley Tucci"
+      "character": {
+        "name": "Caesar Flickerman"
+      }
     },
     {
+      "actorId": "f58457964f741e7cd096d744",
       "character": {
-        "name": "Seneca Crane",
-        "imageUrl": ""
-      },
-      "actorId": "f58457964f741e7cd096d744"
+        "name": "Seneca Crane"
+      }
     },
     {
-      "character": {
-        "name": "President Coriolanus Snow",
-        "imageUrl": ""
-      },
       "actorId": "caed9d8a8188d066bfcfcfa8",
-      "name": "Donald Sutherland"
+      "character": {
+        "name": "President Coriolanus Snow"
+      }
     }
   ],
   "collections": [

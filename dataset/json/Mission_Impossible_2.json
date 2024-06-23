@@ -62,68 +62,52 @@
   "duration": 123,
   "cast": [
     {
-      "character": {
-        "name": "Ethan Hunt",
-        "imageUrl": ""
-      },
       "actorId": "d1899eef1c53bc13798a897c",
-      "name": "Tom Cruise"
+      "character": {
+        "name": "Ethan Hunt"
+      }
     },
     {
-      "character": {
-        "name": "Sean Ambrose",
-        "imageUrl": ""
-      },
       "actorId": "2157cb729ec697f42b1a471c",
-      "name": "Dougray Scott"
+      "character": {
+        "name": "Sean Ambrose"
+      }
     },
     {
-      "name": "Thandie Newton",
+      "actorId": "e8de9cf95faeea0c9bde694c",
       "character": {
-        "name": "Nyah Hall",
-        "imageUrl": ""
-      },
-      "actorId": "e8de9cf95faeea0c9bde694c"
+        "name": "Nyah Hall"
+      }
     },
     {
-      "character": {
-        "name": "Luther Strickell",
-        "imageUrl": ""
-      },
       "actorId": "4b4ebf97ca75b72088e2c948",
-      "name": "Ving Rhames"
+      "character": {
+        "name": "Luther Strickell"
+      }
     },
     {
-      "character": {
-        "name": "Hugh Stamp",
-        "imageUrl": ""
-      },
       "actorId": "953ad71c05859a1a5ee1bd5f",
-      "name": "Richard Roxburgh"
+      "character": {
+        "name": "Hugh Stamp"
+      }
     },
     {
-      "character": {
-        "name": "Billy Baird",
-        "imageUrl": ""
-      },
       "actorId": "1b3b9c4e862d84845db13e3b",
-      "name": "John Polson"
+      "character": {
+        "name": "Billy Baird"
+      }
     },
     {
-      "character": {
-        "name": "McCloy",
-        "imageUrl": ""
-      },
       "actorId": "a0b80add73e1eaf43e9aebe5",
-      "name": "Brendan Gleeson"
+      "character": {
+        "name": "McCloy"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Nekhorvich",
-        "imageUrl": ""
-      },
       "actorId": "09cfe69b63c756861733fa82",
-      "name": "Rade Serbedzija"
+      "character": {
+        "name": "Dr. Nekhorvich"
+      }
     }
   ],
   "collections": [

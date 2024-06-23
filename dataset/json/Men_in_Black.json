@@ -63,44 +63,34 @@
   "duration": 98,
   "cast": [
     {
-      "character": {
-        "name": "Agent Kay",
-        "imageUrl": ""
-      },
       "actorId": "585bc630dfa836dd72779c8d",
-      "name": "Tommy Lee Jones"
+      "character": {
+        "name": "Agent Kay"
+      }
     },
     {
-      "character": {
-        "name": "Agent Jay",
-        "imageUrl": ""
-      },
       "actorId": "b59613245389fb066c309182",
-      "name": "Will Smith"
+      "character": {
+        "name": "Agent Jay"
+      }
     },
     {
-      "character": {
-        "name": "Laurel",
-        "imageUrl": ""
-      },
       "actorId": "c77c28e2e76d0e04c9466729",
-      "name": "Linda Fiorentino"
+      "character": {
+        "name": "Laurel"
+      }
     },
     {
-      "character": {
-        "name": "Edgar",
-        "imageUrl": ""
-      },
       "actorId": "46281b634ba77b5a747dfaa0",
-      "name": "Vincent D'Onofrio"
+      "character": {
+        "name": "Edgar"
+      }
     },
     {
-      "character": {
-        "name": "Z",
-        "imageUrl": ""
-      },
       "actorId": "c9bd0790a6a1140723691088",
-      "name": "Rip Torn"
+      "character": {
+        "name": "Z"
+      }
     }
   ],
   "collections": [

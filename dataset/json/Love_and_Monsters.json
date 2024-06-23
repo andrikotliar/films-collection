@@ -71,60 +71,46 @@
   "duration": 109,
   "cast": [
     {
-      "character": {
-        "name": "Joel",
-        "imageUrl": ""
-      },
       "actorId": "8e204b8e5e38fbae1fe008a4",
-      "name": "Dylan O'Brien"
+      "character": {
+        "name": "Joel"
+      }
     },
     {
-      "character": {
-        "name": "Aimee",
-        "imageUrl": ""
-      },
       "actorId": "b04589c1f3bc178e28d83b27",
-      "name": "Jessica Henwick"
+      "character": {
+        "name": "Aimee"
+      }
     },
     {
-      "character": {
-        "name": "Clyde",
-        "imageUrl": ""
-      },
       "actorId": "b99fd4cb12dd52764f91df15",
-      "name": "Michael Rooker"
+      "character": {
+        "name": "Clyde"
+      }
     },
     {
-      "character": {
-        "name": "Cap",
-        "imageUrl": ""
-      },
       "actorId": "6027e4ab6c747084e9b404ba",
-      "name": "Dan Ewing"
+      "character": {
+        "name": "Cap"
+      }
     },
     {
-      "character": {
-        "name": "Minnow",
-        "imageUrl": ""
-      },
       "actorId": "03127c3d0f77354e715d036c",
-      "name": "Ariana Greenblatt"
+      "character": {
+        "name": "Minnow"
+      }
     },
     {
-      "character": {
-        "name": "Dana",
-        "imageUrl": ""
-      },
       "actorId": "d054c999fea0e56ed2cfe678",
-      "name": "Ellen Hollman"
+      "character": {
+        "name": "Dana"
+      }
     },
     {
-      "character": {
-        "name": "Rocko",
-        "imageUrl": ""
-      },
       "actorId": "d071778f110d5dc4b6c77823",
-      "name": "Tre Hale"
+      "character": {
+        "name": "Rocko"
+      }
     }
   ],
   "collections": [

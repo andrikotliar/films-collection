@@ -72,36 +72,28 @@
   "duration": 90,
   "cast": [
     {
-      "character": {
-        "name": "Evelyn Abbott",
-        "imageUrl": ""
-      },
       "actorId": "48bc6851537e5e5dc1bf99ca",
-      "name": "Emily Blunt"
+      "character": {
+        "name": "Evelyn Abbott"
+      }
     },
     {
-      "character": {
-        "name": "Lee Abbott",
-        "imageUrl": ""
-      },
       "actorId": "363223be89ee678b9ac594d3",
-      "name": "John Krasinski"
+      "character": {
+        "name": "Lee Abbott"
+      }
     },
     {
-      "character": {
-        "name": "Regan Abbott",
-        "imageUrl": ""
-      },
       "actorId": "02739f3351eb701eaca4c00e",
-      "name": "Millicent Simmonds"
+      "character": {
+        "name": "Regan Abbott"
+      }
     },
     {
-      "character": {
-        "name": "Marcus Abbott",
-        "imageUrl": ""
-      },
       "actorId": "08f4518a7166226e5800cc1d",
-      "name": "Noah Jupe"
+      "character": {
+        "name": "Marcus Abbott"
+      }
     }
   ],
   "collections": [

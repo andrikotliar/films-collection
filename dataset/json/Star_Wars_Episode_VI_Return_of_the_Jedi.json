@@ -63,72 +63,58 @@
   "duration": 131,
   "cast": [
     {
-      "character": {
-        "name": "Luke Skywalker",
-        "imageUrl": ""
-      },
       "actorId": "ce132ddc9f8b5434251efcdb",
-      "name": "Mark Hamill"
+      "character": {
+        "name": "Luke Skywalker"
+      }
     },
     {
-      "character": {
-        "name": "Han Solo",
-        "imageUrl": ""
-      },
       "actorId": "90204450e3ebdb007d478280",
-      "name": "Harrison Ford"
+      "character": {
+        "name": "Han Solo"
+      }
     },
     {
-      "character": {
-        "name": "Leia",
-        "imageUrl": ""
-      },
       "actorId": "7d2b5a0e06b8a95e8c3f208f",
-      "name": "Carrie Fisher"
+      "character": {
+        "name": "Leia"
+      }
     },
     {
-      "character": {
-        "name": "Lando Calrissian",
-        "imageUrl": ""
-      },
       "actorId": "528c03b054894ba83b338296",
-      "name": "Billy Dee Williams"
+      "character": {
+        "name": "Lando Calrissian"
+      }
     },
     {
-      "character": {
-        "name": "C-3PO",
-        "imageUrl": ""
-      },
       "actorId": "8495e822d070b57837e0bf6e",
-      "name": "Anthony Daniels"
+      "character": {
+        "name": "C-3PO"
+      }
     },
     {
-      "character": {
-        "name": "Darth Vader",
-        "imageUrl": ""
-      },
       "actorId": "3dcb844bcfc2544762ec44c0",
-      "name": "David Prowse"
-    },
-    {
       "character": {
-        "name": "Yoda",
-        "imageUrl": ""
-      },
-      "actorId": "6fa14a3731b9660353c41487",
-      "name": "Frank Oz"
+        "name": "Darth Vader"
+      }
     },
     {
+      "actorId": "6fa14a3731b9660353c41487",
+      "character": {
+        "name": "Yoda"
+      }
+    },
+    {
+      "actorId": "cefae971d17a334057ad7c60",
       "character": {
         "name": "Boba Fett"
-      },
-      "actorId": "cefae971d17a334057ad7c60"
+      }
     },
     {
+      "actorId": "6f8deae8b3c545936d5a285e",
       "character": {
         "name": "The Emperor"
-      },
-      "actorId": "6f8deae8b3c545936d5a285e"
+      }
     }
   ],
   "collections": [

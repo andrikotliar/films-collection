@@ -65,60 +65,46 @@
   "duration": 127,
   "cast": [
     {
-      "character": {
-        "name": "Charlie Kenton",
-        "imageUrl": ""
-      },
       "actorId": "544abb6ffddc8ddf4056b862",
-      "name": "Hugh Jackman"
+      "character": {
+        "name": "Charlie Kenton"
+      }
     },
     {
-      "character": {
-        "name": "Max Kenton",
-        "imageUrl": ""
-      },
       "actorId": "83f7b35e9bbcbd0256126dc5",
-      "name": "Dakota Goyo"
+      "character": {
+        "name": "Max Kenton"
+      }
     },
     {
-      "character": {
-        "name": "Bailey Tallet",
-        "imageUrl": ""
-      },
       "actorId": "cbea23272f6d430dd37d2296",
-      "name": "Evangeline Lilly"
+      "character": {
+        "name": "Bailey Tallet"
+      }
     },
     {
-      "character": {
-        "name": "Finn",
-        "imageUrl": ""
-      },
       "actorId": "b59e04d8cace91ce7b37a878",
-      "name": "Anthony Mackie"
+      "character": {
+        "name": "Finn"
+      }
     },
     {
-      "character": {
-        "name": "Ricky",
-        "imageUrl": ""
-      },
       "actorId": "050608c1a30fde5f0cbc0265",
-      "name": "Kevin Durand"
+      "character": {
+        "name": "Ricky"
+      }
     },
     {
-      "character": {
-        "name": "Aunt Debra",
-        "imageUrl": ""
-      },
       "actorId": "acc601949baf6d00d14233e0",
-      "name": "Hope Davis"
+      "character": {
+        "name": "Aunt Debra"
+      }
     },
     {
-      "character": {
-        "name": "Marvin",
-        "imageUrl": ""
-      },
       "actorId": "9efc360a59fe63e805b16ba0",
-      "name": "James Rebhorn"
+      "character": {
+        "name": "Marvin"
+      }
     }
   ],
   "collections": [

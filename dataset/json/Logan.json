@@ -69,76 +69,58 @@
   "duration": 137,
   "cast": [
     {
-      "character": {
-        "name": "Logan / X-24",
-        "imageUrl": ""
-      },
       "actorId": "544abb6ffddc8ddf4056b862",
-      "name": "Hugh Jackman"
+      "character": {
+        "name": "Logan / X-24"
+      }
     },
     {
-      "character": {
-        "name": "Charles",
-        "imageUrl": ""
-      },
       "actorId": "a1b52bbc28ac6c198e877b39",
-      "name": "Patrick Stewart"
+      "character": {
+        "name": "Charles"
+      }
     },
     {
-      "character": {
-        "name": "Laura",
-        "imageUrl": ""
-      },
       "actorId": "98ed0fd5c7e89b4a0429087c",
-      "name": "Dafne Keen"
+      "character": {
+        "name": "Laura"
+      }
     },
     {
-      "character": {
-        "name": "Pierce",
-        "imageUrl": ""
-      },
       "actorId": "f6e92c1e10e873fd298fffa4",
-      "name": "Boyd Holbrook"
+      "character": {
+        "name": "Pierce"
+      }
     },
     {
-      "character": {
-        "name": "Caliban",
-        "imageUrl": ""
-      },
       "actorId": "03c223a4d5e220393d14d8a0",
-      "name": "Stephen Merchant"
+      "character": {
+        "name": "Caliban"
+      }
     },
     {
-      "character": {
-        "name": "Gabriela",
-        "imageUrl": ""
-      },
       "actorId": "73c3cb57af28d23bd2920ac5",
-      "name": "Elizabeth Rodriguez"
+      "character": {
+        "name": "Gabriela"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Rice",
-        "imageUrl": ""
-      },
       "actorId": "a274851913f05ad2b83c945e",
-      "name": "Richard E. Grant"
+      "character": {
+        "name": "Dr. Rice"
+      }
     },
     {
-      "character": {
-        "name": "Will Munson",
-        "imageUrl": ""
-      },
       "actorId": "b204b999-876b-4a62-8c4b-a35c2ea5a682",
-      "name": "Eriq La Salle"
+      "character": {
+        "name": "Will Munson"
+      }
     },
     {
-      "character": {
-        "name": "Kathryn Munson",
-        "imageUrl": ""
-      },
       "actorId": "fcd1de6d-147f-4800-9ef7-d116ab590804",
-      "name": "Elise Neal"
+      "character": {
+        "name": "Kathryn Munson"
+      }
     }
   ],
   "collections": [

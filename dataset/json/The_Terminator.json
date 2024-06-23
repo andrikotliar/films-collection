@@ -63,28 +63,22 @@
   "duration": 107,
   "cast": [
     {
-      "character": {
-        "name": "T-800",
-        "imageUrl": ""
-      },
       "actorId": "8062b68b19b6dacb76d14b75",
-      "name": "Arnold Schwarzenegger"
+      "character": {
+        "name": "T-800"
+      }
     },
     {
-      "character": {
-        "name": "Kyle Reese",
-        "imageUrl": ""
-      },
       "actorId": "ddeef4fd51b50bcc160a21c5",
-      "name": "Michael Biehn"
+      "character": {
+        "name": "Kyle Reese"
+      }
     },
     {
-      "character": {
-        "name": "Sarah Connor",
-        "imageUrl": ""
-      },
       "actorId": "a5fd5103183480749784143b",
-      "name": "Linda Hamilton"
+      "character": {
+        "name": "Sarah Connor"
+      }
     }
   ],
   "collections": [

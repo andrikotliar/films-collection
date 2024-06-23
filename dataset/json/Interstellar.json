@@ -69,44 +69,34 @@
   "duration": 169,
   "cast": [
     {
-      "character": {
-        "name": "Cooper",
-        "imageUrl": ""
-      },
       "actorId": "25fddd7afb676f2eb2b4aa9f",
-      "name": "Matthew McConaughey"
+      "character": {
+        "name": "Cooper"
+      }
     },
     {
-      "character": {
-        "name": "Murph",
-        "imageUrl": ""
-      },
       "actorId": "a46061cb2da09f5cf3772762",
-      "name": "Jessica Chastain"
+      "character": {
+        "name": "Murph"
+      }
     },
     {
-      "character": {
-        "name": "Brand",
-        "imageUrl": ""
-      },
       "actorId": "e368b232e6af9b5200fd411b",
-      "name": "Anne Hathaway"
+      "character": {
+        "name": "Brand"
+      }
     },
     {
-      "character": {
-        "name": "Professor Brand",
-        "imageUrl": ""
-      },
       "actorId": "68a6bf55b5f042549fda0642",
-      "name": "Michael Caine"
+      "character": {
+        "name": "Professor Brand"
+      }
     },
     {
-      "character": {
-        "name": "Mann",
-        "imageUrl": ""
-      },
       "actorId": "1e69164177ea3946ddbd349e",
-      "name": "Matt Damon"
+      "character": {
+        "name": "Mann"
+      }
     }
   ],
   "collections": [

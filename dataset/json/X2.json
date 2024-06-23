@@ -69,100 +69,76 @@
   "duration": 133,
   "cast": [
     {
-      "character": {
-        "name": "Professor Charles Xavier",
-        "imageUrl": ""
-      },
       "actorId": "a1b52bbc28ac6c198e877b39",
-      "name": "Patrick Stewart"
+      "character": {
+        "name": "Professor Charles Xavier"
+      }
     },
     {
-      "character": {
-        "name": "Logan / Wolverine",
-        "imageUrl": ""
-      },
       "actorId": "544abb6ffddc8ddf4056b862",
-      "name": "Hugh Jackman"
+      "character": {
+        "name": "Logan / Wolverine"
+      }
     },
     {
-      "character": {
-        "name": "Eric Lehnsherr / Magneto",
-        "imageUrl": ""
-      },
       "actorId": "aa9b2474d8c4c51e34160de8",
-      "name": "Ian McKellen"
+      "character": {
+        "name": "Eric Lehnsherr / Magneto"
+      }
     },
     {
-      "character": {
-        "name": "Ororo Munroe / Storm",
-        "imageUrl": ""
-      },
       "actorId": "bb3c268d0e1fceec2b8b8d58",
-      "name": "Halle Berry"
+      "character": {
+        "name": "Ororo Munroe / Storm"
+      }
     },
     {
-      "character": {
-        "name": "Jean Grey",
-        "imageUrl": ""
-      },
       "actorId": "d5fc3f286280bd87817fbca7",
-      "name": "Famke Janssen"
+      "character": {
+        "name": "Jean Grey"
+      }
     },
     {
-      "character": {
-        "name": "Scott Summers / Cyclops",
-        "imageUrl": ""
-      },
       "actorId": "525beb4c90894e34b294cef6",
-      "name": "James Marsden"
+      "character": {
+        "name": "Scott Summers / Cyclops"
+      }
     },
     {
-      "character": {
-        "name": "Rogue",
-        "imageUrl": ""
-      },
       "actorId": "b3406982f9ef021d2d13e050",
-      "name": "Anna Paquin"
+      "character": {
+        "name": "Rogue"
+      }
     },
     {
-      "character": {
-        "name": "Raven Darkholme / Mystique",
-        "imageUrl": ""
-      },
       "actorId": "d3d49fa0c570c7084aace0d7",
-      "name": "Rebecca Romijn"
+      "character": {
+        "name": "Raven Darkholme / Mystique"
+      }
     },
     {
-      "character": {
-        "name": "William Stryker",
-        "imageUrl": ""
-      },
       "actorId": "6dd09effc1e0efff7f5bce67",
-      "name": "Brian Cox"
+      "character": {
+        "name": "William Stryker"
+      }
     },
     {
-      "character": {
-        "name": "Kurt Wagner / Nightcrawler",
-        "imageUrl": ""
-      },
       "actorId": "f04283af69e0fa7ac78ac144",
-      "name": "Alan Cumming"
+      "character": {
+        "name": "Kurt Wagner / Nightcrawler"
+      }
     },
     {
-      "character": {
-        "name": "John Allerdyce / Pyro",
-        "imageUrl": ""
-      },
       "actorId": "9e2681878ec550ab367669b9",
-      "name": "Aaron Stanford"
+      "character": {
+        "name": "John Allerdyce / Pyro"
+      }
     },
     {
-      "character": {
-        "name": "Bobby Drake / Ice Man",
-        "imageUrl": ""
-      },
       "actorId": "f2089daf6d891ecc5cc339b5",
-      "name": "Shawn Ashmore"
+      "character": {
+        "name": "Bobby Drake / Ice Man"
+      }
     }
   ],
   "collections": [

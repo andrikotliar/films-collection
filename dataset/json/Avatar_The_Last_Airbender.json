@@ -167,124 +167,94 @@
   "duration": 1220,
   "cast": [
     {
-      "character": {
-        "name": "Aang",
-        "imageUrl": ""
-      },
       "actorId": "2ce21281528737b83dc6b40a",
-      "name": "Zach Tyler"
+      "character": {
+        "name": "Aang"
+      }
     },
     {
-      "character": {
-        "name": "Katara",
-        "imageUrl": ""
-      },
       "actorId": "28eb5fb40e094a445b3d4c67",
-      "name": "Mae Whitman"
+      "character": {
+        "name": "Katara"
+      }
     },
     {
-      "character": {
-        "name": "Sokka",
-        "imageUrl": ""
-      },
       "actorId": "932b44a9817a834e2d6b36b8",
-      "name": "Jack De Sena"
+      "character": {
+        "name": "Sokka"
+      }
     },
     {
-      "character": {
-        "name": "Zuko",
-        "imageUrl": ""
-      },
       "actorId": "9260ae3c9058216c1a4b736f",
-      "name": "Dante Basco"
+      "character": {
+        "name": "Zuko"
+      }
     },
     {
-      "character": {
-        "name": "Toph",
-        "imageUrl": ""
-      },
       "actorId": "76590bc2f0de58b4b6bd1602",
-      "name": "Michaela Jill Murphy"
+      "character": {
+        "name": "Toph"
+      }
     },
     {
-      "character": {
-        "name": "Airo",
-        "imageUrl": ""
-      },
       "actorId": "bc7466515df39324040ba83f",
-      "name": "Mako"
+      "character": {
+        "name": "Airo"
+      }
     },
     {
-      "character": {
-        "name": "Azula",
-        "imageUrl": ""
-      },
       "actorId": "206e0ae39ee3dbc6bc72b4de",
-      "name": "Grey Griffin"
+      "character": {
+        "name": "Azula"
+      }
     },
     {
-      "character": {
-        "name": "Hakoda",
-        "imageUrl": ""
-      },
       "actorId": "8f71b3144bc62e91c219fd52",
-      "name": "André Sogliuzzo"
+      "character": {
+        "name": "Hakoda"
+      }
     },
     {
-      "character": {
-        "name": "Mai",
-        "imageUrl": ""
-      },
       "actorId": "0de57155c7cf78ddaa7c504a",
-      "name": "Cricket Leigh"
+      "character": {
+        "name": "Mai"
+      }
     },
     {
-      "character": {
-        "name": "Ty Lee",
-        "imageUrl": ""
-      },
       "actorId": "d5f69adf4cc1cc4045d733c6",
-      "name": "Olivia Hack"
+      "character": {
+        "name": "Ty Lee"
+      }
     },
     {
-      "character": {
-        "name": "Roku",
-        "imageUrl": ""
-      },
       "actorId": "305c68f0f0bf1960f2b6b3a7",
-      "name": "James Garrett"
+      "character": {
+        "name": "Roku"
+      }
     },
     {
-      "character": {
-        "name": "Zhao",
-        "imageUrl": ""
-      },
       "actorId": "2180a26604a08b79e32855c0",
-      "name": "Jason Isaacs"
+      "character": {
+        "name": "Zhao"
+      }
     },
     {
-      "character": {
-        "name": "Long Feng",
-        "imageUrl": ""
-      },
       "actorId": "8e58705ae826aaa9554b17d6",
-      "name": "Clancy Brown"
+      "character": {
+        "name": "Long Feng"
+      }
     },
     {
-      "character": {
-        "name": "Princess Yue",
-        "imageUrl": ""
-      },
       "actorId": "f0dcc9127d28773db4a80347",
-      "name": "Johanna Braddy"
+      "character": {
+        "name": "Princess Yue"
+      }
     },
     {
-      "character": {
-        "name": "Suki",
-        "imageUrl": ""
-      },
       "actorId": "609f7850e7e75a980172088c",
-      "name": "Jennie Kwan"
+      "character": {
+        "name": "Suki"
+      }
     }
   ],
   "collections": [

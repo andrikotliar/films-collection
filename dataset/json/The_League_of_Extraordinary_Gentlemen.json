@@ -63,68 +63,52 @@
   "duration": 110,
   "cast": [
     {
-      "character": {
-        "name": "Allan Quatermain",
-        "imageUrl": ""
-      },
       "actorId": "52e5e7e893ec68a15817dc22",
-      "name": "Sean Connery"
+      "character": {
+        "name": "Allan Quatermain"
+      }
     },
     {
-      "character": {
-        "name": "Captain Nemo",
-        "imageUrl": ""
-      },
       "actorId": "6fd2df6ac710efacd011103e",
-      "name": "Naseeruddin Shah"
+      "character": {
+        "name": "Captain Nemo"
+      }
     },
     {
-      "character": {
-        "name": "Mina Harker",
-        "imageUrl": ""
-      },
       "actorId": "6cf7c8e7ba3ae618c5d6ce59",
-      "name": "Peta Wilson"
+      "character": {
+        "name": "Mina Harker"
+      }
     },
     {
-      "character": {
-        "name": "Rodney Skinner",
-        "imageUrl": ""
-      },
       "actorId": "3dfa1f2f3e8923ade058f01d",
-      "name": "Tony Curran"
+      "character": {
+        "name": "Rodney Skinner"
+      }
     },
     {
-      "character": {
-        "name": "Dorian Gray",
-        "imageUrl": ""
-      },
       "actorId": "8d2b8f984e9c569434298a4b",
-      "name": "Stuart Townsend"
+      "character": {
+        "name": "Dorian Gray"
+      }
     },
     {
-      "character": {
-        "name": "Tom Sawyer",
-        "imageUrl": ""
-      },
       "actorId": "f23198f412b489ca9abf001a",
-      "name": "Shane West"
+      "character": {
+        "name": "Tom Sawyer"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Henry Jekyll / Edward Hyde",
-        "imageUrl": ""
-      },
       "actorId": "8d34f6ffde757618a3f13712",
-      "name": "Jason Flemyng"
+      "character": {
+        "name": "Dr. Henry Jekyll / Edward Hyde"
+      }
     },
     {
-      "character": {
-        "name": "M",
-        "imageUrl": ""
-      },
       "actorId": "953ad71c05859a1a5ee1bd5f",
-      "name": "Richard Roxburgh"
+      "character": {
+        "name": "M"
+      }
     }
   ],
   "collections": [

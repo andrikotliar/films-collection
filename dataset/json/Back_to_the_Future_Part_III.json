@@ -62,36 +62,28 @@
   "duration": 118,
   "cast": [
     {
-      "character": {
-        "name": "Marty McFly",
-        "imageUrl": ""
-      },
       "actorId": "338322b79718106c345846de",
-      "name": "Michael J. Fox"
+      "character": {
+        "name": "Marty McFly"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Emmett Brown",
-        "imageUrl": ""
-      },
       "actorId": "90dcb449f7b8e7fff49994fb",
-      "name": "Christopher Lloyd"
+      "character": {
+        "name": "Dr. Emmett Brown"
+      }
     },
     {
-      "character": {
-        "name": "Clara Clayton",
-        "imageUrl": ""
-      },
       "actorId": "c08a0756a37cfb45c77529b1",
-      "name": "Mary Steenburgen"
+      "character": {
+        "name": "Clara Clayton"
+      }
     },
     {
-      "character": {
-        "name": "Biff Tannen / Griff Tannen",
-        "imageUrl": ""
-      },
       "actorId": "225c89c9183706f01526fe4d",
-      "name": "Thomas F. Wilson"
+      "character": {
+        "name": "Biff Tannen / Griff Tannen"
+      }
     }
   ],
   "collections": [

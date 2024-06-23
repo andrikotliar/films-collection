@@ -63,60 +63,46 @@
   "duration": 131,
   "cast": [
     {
-      "character": {
-        "name": "Tony Stark / Iron Man",
-        "imageUrl": ""
-      },
       "actorId": "68eac2af31419390d7f727fd",
-      "name": "Robert Downey Jr."
+      "character": {
+        "name": "Tony Stark / Iron Man"
+      }
     },
     {
-      "character": {
-        "name": "Pepper Potts",
-        "imageUrl": ""
-      },
       "actorId": "4c47f492bea41214abba1578",
-      "name": "Gwyneth Paltrow"
+      "character": {
+        "name": "Pepper Potts"
+      }
     },
     {
-      "character": {
-        "name": "Colonel James Rhodes",
-        "imageUrl": ""
-      },
       "actorId": "84a7fc06c915c5463cc7ce32",
-      "name": "Don Cheadle"
+      "character": {
+        "name": "Colonel James Rhodes"
+      }
     },
     {
-      "character": {
-        "name": "Aldrich Killian",
-        "imageUrl": ""
-      },
       "actorId": "f5b9de1f8440879383792d4b",
-      "name": "Guy Pearce"
+      "character": {
+        "name": "Aldrich Killian"
+      }
     },
     {
-      "character": {
-        "name": "Maya Hansen",
-        "imageUrl": ""
-      },
       "actorId": "e8c8bbaf2487d1556a9b332f",
-      "name": "Rebecca Hall"
+      "character": {
+        "name": "Maya Hansen"
+      }
     },
     {
-      "character": {
-        "name": "Happy Hogan",
-        "imageUrl": ""
-      },
       "actorId": "1d64586d1509495ad522cffe",
-      "name": "Jon Favreau"
+      "character": {
+        "name": "Happy Hogan"
+      }
     },
     {
-      "character": {
-        "name": "Trevor Slattery",
-        "imageUrl": ""
-      },
       "actorId": "9db2779191ae86290f56c21b",
-      "name": "Ben Kingsley"
+      "character": {
+        "name": "Trevor Slattery"
+      }
     }
   ],
   "collections": [

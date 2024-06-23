@@ -60,92 +60,70 @@
   "duration": 136,
   "cast": [
     {
-      "character": {
-        "name": "Qui-Gon Jinn",
-        "imageUrl": ""
-      },
       "actorId": "017e02072132c3a7ad26b56e",
-      "name": "Liam Neeson"
+      "character": {
+        "name": "Qui-Gon Jinn"
+      }
     },
     {
-      "character": {
-        "name": "Obi-Wan Kenobi",
-        "imageUrl": ""
-      },
       "actorId": "d2746b12dd70b60c36a7edf0",
-      "name": "Ewan McGregor"
+      "character": {
+        "name": "Obi-Wan Kenobi"
+      }
     },
     {
-      "character": {
-        "name": "Padme",
-        "imageUrl": ""
-      },
       "actorId": "b3703e901df3a8c85c2f0949",
-      "name": "Natalie Portman"
+      "character": {
+        "name": "Padme"
+      }
     },
     {
-      "character": {
-        "name": "Anakin Skywalker",
-        "imageUrl": ""
-      },
       "actorId": "9cd3db352e873924e72c13c0",
-      "name": "Jake Lloyd"
+      "character": {
+        "name": "Anakin Skywalker"
+      }
     },
     {
-      "character": {
-        "name": "Senator Palpatine",
-        "imageUrl": ""
-      },
       "actorId": "6f8deae8b3c545936d5a285e",
-      "name": "Ian McDiarmid"
+      "character": {
+        "name": "Senator Palpatine"
+      }
     },
     {
-      "character": {
-        "name": "Shmi Skywalker",
-        "imageUrl": ""
-      },
       "actorId": "eb2a7a271d9cb2383bedb834",
-      "name": "Pernilla August"
+      "character": {
+        "name": "Shmi Skywalker"
+      }
     },
     {
-      "character": {
-        "name": "Jar Jar Binks",
-        "imageUrl": ""
-      },
       "actorId": "fafab24b214fc42447e2b820",
-      "name": "Ahmed Best"
+      "character": {
+        "name": "Jar Jar Binks"
+      }
     },
     {
-      "character": {
-        "name": "C-3PO",
-        "imageUrl": ""
-      },
       "actorId": "8495e822d070b57837e0bf6e",
-      "name": "Anthony Daniels"
+      "character": {
+        "name": "C-3PO"
+      }
     },
     {
-      "character": {
-        "name": "R2-D2",
-        "imageUrl": ""
-      },
       "actorId": "f9b0821669e9ab485f13f6d1",
-      "name": "Kenny Baker"
+      "character": {
+        "name": "R2-D2"
+      }
     },
     {
-      "character": {
-        "name": "Yoda",
-        "imageUrl": ""
-      },
       "actorId": "6fa14a3731b9660353c41487",
-      "name": "Frank Oz"
+      "character": {
+        "name": "Yoda"
+      }
     },
     {
-      "character": {
-        "name": "Darth Maul",
-        "imageUrl": ""
-      },
       "actorId": "abaad933abd664bb6b32bef0",
-      "name": "Ray Park"
+      "character": {
+        "name": "Darth Maul"
+      }
     }
   ],
   "collections": [

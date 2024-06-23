@@ -103,164 +103,124 @@
   "duration": 1196,
   "cast": [
     {
-      "character": {
-        "name": "Korra",
-        "imageUrl": ""
-      },
       "actorId": "f141d903681afc605667e90b",
-      "name": "Janet Varney"
+      "character": {
+        "name": "Korra"
+      }
     },
     {
-      "character": {
-        "name": "Bolin",
-        "imageUrl": ""
-      },
       "actorId": "fa66afeeb27440dee15e5c76",
-      "name": "P.J. Byrne"
+      "character": {
+        "name": "Bolin"
+      }
     },
     {
-      "character": {
-        "name": "Mako",
-        "imageUrl": ""
-      },
       "actorId": "6ab864312ad85779feec8b6b",
-      "name": "David Faustino"
+      "character": {
+        "name": "Mako"
+      }
     },
     {
-      "character": {
-        "name": "Tenzin",
-        "imageUrl": ""
-      },
       "actorId": "03293ef86c8bf352c9dd52f4",
-      "name": "J.K. Simmons"
+      "character": {
+        "name": "Tenzin"
+      }
     },
     {
-      "character": {
-        "name": "Asami Sato",
-        "imageUrl": ""
-      },
       "actorId": "f52ca5fa17409e78addd6e31",
-      "name": "Seychelle Gabriel"
+      "character": {
+        "name": "Asami Sato"
+      }
     },
     {
-      "character": {
-        "name": "Lin Beifong",
-        "imageUrl": ""
-      },
       "actorId": "8e8e614e6069c0dd17beefb2",
-      "name": "Mindy Sterling"
+      "character": {
+        "name": "Lin Beifong"
+      }
     },
     {
-      "character": {
-        "name": "Meelo",
-        "imageUrl": ""
-      },
       "actorId": "c9df14c4610c90d7bc3dd89c",
-      "name": "Logan Wells"
+      "character": {
+        "name": "Meelo"
+      }
     },
     {
-      "character": {
-        "name": "Jinora",
-        "imageUrl": ""
-      },
       "actorId": "065b654c3848f322d56063ad",
-      "name": "Kiernan Shipka"
+      "character": {
+        "name": "Jinora"
+      }
     },
     {
-      "character": {
-        "name": "Varrick",
-        "imageUrl": ""
-      },
       "actorId": "cc5e6da11399a3902e09670e",
-      "name": "John Michael Higgins"
+      "character": {
+        "name": "Varrick"
+      }
     },
     {
-      "character": {
-        "name": "Ikki",
-        "imageUrl": ""
-      },
       "actorId": "cc1cea9cd63393a0e4ae729d",
-      "name": "Darcy Rose Byrnes"
+      "character": {
+        "name": "Ikki"
+      }
     },
     {
-      "character": {
-        "name": "Bumi",
-        "imageUrl": ""
-      },
       "actorId": "a9c2d3acceb693ffa6da6728",
-      "name": "Richard Riehle"
+      "character": {
+        "name": "Bumi"
+      }
     },
     {
-      "character": {
-        "name": "Tonraq",
-        "imageUrl": ""
-      },
       "actorId": "886705efe27900f9c7e27447",
-      "name": "James Remar"
+      "character": {
+        "name": "Tonraq"
+      }
     },
     {
-      "character": {
-        "name": "Unalaq",
-        "imageUrl": ""
-      },
       "actorId": "a5e25463aa7133ab833c71fe",
-      "name": "Adrian LaTourelle"
+      "character": {
+        "name": "Unalaq"
+      }
     },
     {
-      "character": {
-        "name": "Zaheer",
-        "imageUrl": ""
-      },
       "actorId": "548ff3dd03d5eae8da85b437",
-      "name": "Henry Rollins"
+      "character": {
+        "name": "Zaheer"
+      }
     },
     {
-      "character": {
-        "name": "Amon",
-        "imageUrl": ""
-      },
       "actorId": "10eb3a80ceafcb9135ef3290",
-      "name": "Steve Blum"
+      "character": {
+        "name": "Amon"
+      }
     },
     {
-      "character": {
-        "name": "Kuvira",
-        "imageUrl": ""
-      },
       "actorId": "2e396819ac07ea68100eacde",
-      "name": "Zelda Williams"
+      "character": {
+        "name": "Kuvira"
+      }
     },
     {
-      "character": {
-        "name": "Vaatu",
-        "imageUrl": ""
-      },
       "actorId": "47e429aecc25eededd9044e7",
-      "name": "Jonathan Adams"
+      "character": {
+        "name": "Vaatu"
+      }
     },
     {
-      "character": {
-        "name": "Raava",
-        "imageUrl": ""
-      },
       "actorId": "5c2a55fb020d9bfb3ad36823",
-      "name": "April Stewart"
+      "character": {
+        "name": "Raava"
+      }
     },
     {
-      "character": {
-        "name": "Aang",
-        "imageUrl": ""
-      },
       "actorId": "158f779e569433961193f113",
-      "name": "D.B. Sweeney"
+      "character": {
+        "name": "Aang"
+      }
     },
     {
-      "character": {
-        "name": "Katara",
-        "imageUrl": ""
-      },
       "actorId": "1000055d1e03066802dffcfd",
-      "name": "Eva Marie Saint"
+      "character": {
+        "name": "Katara"
+      }
     }
   ],
   "collections": [

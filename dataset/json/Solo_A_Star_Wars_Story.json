@@ -71,76 +71,58 @@
   "duration": 135,
   "cast": [
     {
-      "character": {
-        "name": "Han Solo",
-        "imageUrl": ""
-      },
       "actorId": "52cc509a6c9554c55c03bd30",
-      "name": "Alden Ehrenreich"
+      "character": {
+        "name": "Han Solo"
+      }
     },
     {
-      "character": {
-        "name": "Chewbacca",
-        "imageUrl": ""
-      },
       "actorId": "516c73ff5c3ea993f477be5d",
-      "name": "Joonas Suotamo"
+      "character": {
+        "name": "Chewbacca"
+      }
     },
     {
-      "character": {
-        "name": "Beckett",
-        "imageUrl": ""
-      },
       "actorId": "024affbe7a45ee9fc554bf76",
-      "name": "Woody Harrelson"
+      "character": {
+        "name": "Beckett"
+      }
     },
     {
-      "character": {
-        "name": "Qi'ra",
-        "imageUrl": ""
-      },
       "actorId": "e307bc66fc15746c172e86e6",
-      "name": "Emilia Clarke"
+      "character": {
+        "name": "Qi'ra"
+      }
     },
     {
-      "character": {
-        "name": "Lando Calrissian",
-        "imageUrl": ""
-      },
       "actorId": "1a15cd2acff9c1ac017f8ea8",
-      "name": "Donald Glover"
+      "character": {
+        "name": "Lando Calrissian"
+      }
     },
     {
-      "name": "Thandie Newton",
+      "actorId": "e8de9cf95faeea0c9bde694c",
       "character": {
-        "name": "Val",
-        "imageUrl": ""
-      },
-      "actorId": "e8de9cf95faeea0c9bde694c"
+        "name": "Val"
+      }
     },
     {
-      "character": {
-        "name": "L3-37",
-        "imageUrl": ""
-      },
       "actorId": "ce73d0bbe3d6b70ce10745c4",
-      "name": "Phoebe Waller-Bridge"
+      "character": {
+        "name": "L3-37"
+      }
     },
     {
-      "character": {
-        "name": "Dryden Vos",
-        "imageUrl": ""
-      },
       "actorId": "c20e24b955b094888df0ac50",
-      "name": "Paul Bettany"
+      "character": {
+        "name": "Dryden Vos"
+      }
     },
     {
-      "character": {
-        "name": "Rio Durant",
-        "imageUrl": ""
-      },
       "actorId": "1d64586d1509495ad522cffe",
-      "name": "Jon Favreau"
+      "character": {
+        "name": "Rio Durant"
+      }
     }
   ],
   "collections": [

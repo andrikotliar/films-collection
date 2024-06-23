@@ -63,28 +63,22 @@
   "duration": 100,
   "cast": [
     {
-      "character": {
-        "name": "John Thornton",
-        "imageUrl": ""
-      },
       "actorId": "90204450e3ebdb007d478280",
-      "name": "Harrison Ford"
+      "character": {
+        "name": "John Thornton"
+      }
     },
     {
-      "character": {
-        "name": "Perrault",
-        "imageUrl": ""
-      },
       "actorId": "800064d873a4ee8f8cea356f",
-      "name": "Omar Sy"
+      "character": {
+        "name": "Perrault"
+      }
     },
     {
-      "character": {
-        "name": "Hal",
-        "imageUrl": ""
-      },
       "actorId": "533372a3f1edbaf920720573",
-      "name": "Dan Stevens"
+      "character": {
+        "name": "Hal"
+      }
     }
   ],
   "collections": [

@@ -62,52 +62,40 @@
   "duration": 145,
   "cast": [
     {
-      "character": {
-        "name": "Capt. Steven Hiller",
-        "imageUrl": ""
-      },
       "actorId": "b59613245389fb066c309182",
-      "name": "Will Smith"
+      "character": {
+        "name": "Capt. Steven Hiller"
+      }
     },
     {
-      "character": {
-        "name": "President Thomas J. Whitmore",
-        "imageUrl": ""
-      },
       "actorId": "a5e63e44d084200a35aaca53",
-      "name": "Bill Pullman"
+      "character": {
+        "name": "President Thomas J. Whitmore"
+      }
     },
     {
-      "character": {
-        "name": "David Levinson",
-        "imageUrl": ""
-      },
       "actorId": "ffe7655111ebb548aeea0a19",
-      "name": "Jeff Goldblum"
+      "character": {
+        "name": "David Levinson"
+      }
     },
     {
-      "character": {
-        "name": "Julius Levinson",
-        "imageUrl": ""
-      },
       "actorId": "581d7c054a9cb4b7beea4e6e",
-      "name": "Judd Hirsch"
+      "character": {
+        "name": "Julius Levinson"
+      }
     },
     {
-      "character": {
-        "name": "General William Grey",
-        "imageUrl": ""
-      },
       "actorId": "0d21e203a6e8eeb212c61661",
-      "name": "Robert Loggia"
+      "character": {
+        "name": "General William Grey"
+      }
     },
     {
-      "character": {
-        "name": "Russell Casse",
-        "imageUrl": ""
-      },
       "actorId": "09b4cdaddb10befd1ef3826c",
-      "name": "Randy Quaid"
+      "character": {
+        "name": "Russell Casse"
+      }
     }
   ],
   "collections": [

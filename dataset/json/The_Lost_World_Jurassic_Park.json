@@ -63,36 +63,28 @@
   "duration": 129,
   "cast": [
     {
-      "character": {
-        "name": "Malcolm",
-        "imageUrl": ""
-      },
       "actorId": "ffe7655111ebb548aeea0a19",
-      "name": "Jeff Goldblum"
+      "character": {
+        "name": "Malcolm"
+      }
     },
     {
-      "character": {
-        "name": "Hammond",
-        "imageUrl": ""
-      },
       "actorId": "0c2791ec84298bfbf0113104",
-      "name": "Richard Attenborough"
+      "character": {
+        "name": "Hammond"
+      }
     },
     {
-      "character": {
-        "name": "Sarah Harding",
-        "imageUrl": ""
-      },
       "actorId": "d8b1bdb11b24e877a1c19436",
-      "name": "Julianne Moore"
+      "character": {
+        "name": "Sarah Harding"
+      }
     },
     {
-      "character": {
-        "name": "Peter Ludlow",
-        "imageUrl": ""
-      },
       "actorId": "33d8b38be58c1aa4ce2bcef0",
-      "name": "Arliss Howard"
+      "character": {
+        "name": "Peter Ludlow"
+      }
     }
   ],
   "collections": [

@@ -61,68 +61,52 @@
   "duration": 84,
   "cast": [
     {
-      "character": {
-        "name": "Daniel Morales",
-        "imageUrl": ""
-      },
       "actorId": "1562657477b61c61b09e2013",
-      "name": "Samy Naceri"
+      "character": {
+        "name": "Daniel Morales"
+      }
     },
     {
-      "character": {
-        "name": "Emilien Coutant-Kerbalec",
-        "imageUrl": ""
-      },
       "actorId": "2d4bdb7694904d6306f88c60",
-      "name": "Frederic Diefenthal"
+      "character": {
+        "name": "Emilien Coutant-Kerbalec"
+      }
     },
     {
-      "character": {
-        "name": "Commissaire Gibert",
-        "imageUrl": ""
-      },
       "actorId": "93c6ee912f305fb6262c4193",
-      "name": "Bernard Farcy"
+      "character": {
+        "name": "Commissaire Gibert"
+      }
     },
     {
-      "character": {
-        "name": "Qiu",
-        "imageUrl": ""
-      },
       "actorId": "62e3489f527b7ba77d0ac1df",
-      "name": "Bai Ling"
+      "character": {
+        "name": "Qiu"
+      }
     },
     {
-      "character": {
-        "name": "Alain",
-        "imageUrl": ""
-      },
       "actorId": "6c01bf2cd78f2e647db57ea3",
-      "name": "Edouard Montoute"
+      "character": {
+        "name": "Alain"
+      }
     },
     {
-      "character": {
-        "name": "General Edmond Bertineau",
-        "imageUrl": ""
-      },
       "actorId": "89bf38a77867220d59546816",
-      "name": "Jean-Christophe Bouvet"
+      "character": {
+        "name": "General Edmond Bertineau"
+      }
     },
     {
-      "character": {
-        "name": "Petra",
-        "imageUrl": ""
-      },
       "actorId": "69edd5228a1c567011c094fe",
-      "name": "Emma Wiklund"
+      "character": {
+        "name": "Petra"
+      }
     },
     {
-      "character": {
-        "name": "Lilly Bertineau",
-        "imageUrl": ""
-      },
       "actorId": "6e287749f98b9217ea2ceb27",
-      "name": "Marion Cotillard"
+      "character": {
+        "name": "Lilly Bertineau"
+      }
     }
   ],
   "collections": [

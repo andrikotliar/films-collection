@@ -66,74 +66,58 @@
   "duration": 130,
   "cast": [
     {
-      "character": {
-        "name": "Harry Potter",
-        "imageUrl": ""
-      },
       "actorId": "7cd730dd761c711d4467bce0",
-      "name": "Daniel Radcliffe"
+      "character": {
+        "name": "Harry Potter"
+      }
     },
     {
-      "character": {
-        "name": "Ron Weasley",
-        "imageUrl": ""
-      },
       "actorId": "076188ec6b66a2c4a62fdab1",
-      "name": "Rupert Grint"
+      "character": {
+        "name": "Ron Weasley"
+      }
     },
     {
-      "character": {
-        "name": "Hermione Granger",
-        "imageUrl": ""
-      },
       "actorId": "3f0004fa95271000de67d1f4",
-      "name": "Emma Watson"
+      "character": {
+        "name": "Hermione Granger"
+      }
     },
     {
-      "character": {
-        "name": "Lord Voldemort",
-        "imageUrl": ""
-      },
       "actorId": "25210612f77f5f5a4c51dc56",
-      "name": "Ralph Fiennes"
+      "character": {
+        "name": "Lord Voldemort"
+      }
     },
     {
-      "character": {
-        "name": "Draco Malfoy",
-        "imageUrl": ""
-      },
       "actorId": "aca6f583677ffb4c7f38d469",
-      "name": "Tom Felton"
+      "character": {
+        "name": "Draco Malfoy"
+      }
     },
     {
-      "character": {
-        "name": "Severus Snape",
-        "imageUrl": ""
-      },
       "actorId": "9433a6747c6cfc354fed7e65",
-      "name": "Alan Rickman"
+      "character": {
+        "name": "Severus Snape"
+      }
     },
     {
+      "actorId": "7c8f0b1de7ecf27f246a8ef9",
       "character": {
-        "name": "Professor Minerva McGonagall",
-        "imageUrl": ""
-      },
-      "actorId": "7c8f0b1de7ecf27f246a8ef9"
+        "name": "Professor Minerva McGonagall"
+      }
     },
     {
+      "actorId": "c48140776a00c66306d075b6",
       "character": {
-        "name": "Neville Longbottom",
-        "imageUrl": ""
-      },
-      "actorId": "c48140776a00c66306d075b6"
+        "name": "Neville Longbottom"
+      }
     },
     {
-      "character": {
-        "name": "Rubeus Hagrid",
-        "imageUrl": ""
-      },
       "actorId": "5aea15b4e9912ad7b3a2241e",
-      "name": "Robbie Coltrane"
+      "character": {
+        "name": "Rubeus Hagrid"
+      }
     }
   ],
   "collections": [

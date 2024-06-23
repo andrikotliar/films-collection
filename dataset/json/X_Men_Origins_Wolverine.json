@@ -69,76 +69,58 @@
   "duration": 107,
   "cast": [
     {
-      "character": {
-        "name": "Logan / Wolverine",
-        "imageUrl": ""
-      },
       "actorId": "544abb6ffddc8ddf4056b862",
-      "name": "Hugh Jackman"
+      "character": {
+        "name": "Logan / Wolverine"
+      }
     },
     {
-      "character": {
-        "name": "Victor Creed",
-        "imageUrl": ""
-      },
       "actorId": "847cefcbba651553301ec62e",
-      "name": "Liev Schreiber"
+      "character": {
+        "name": "Victor Creed"
+      }
     },
     {
-      "character": {
-        "name": "Stryker",
-        "imageUrl": ""
-      },
       "actorId": "9bfda7c213e843540df28a8e",
-      "name": "Danny Huston"
+      "character": {
+        "name": "Stryker"
+      }
     },
     {
-      "character": {
-        "name": "John Wraith",
-        "imageUrl": ""
-      },
       "actorId": "8f56386307460be3393852d3",
-      "name": "Will.i.am"
+      "character": {
+        "name": "John Wraith"
+      }
     },
     {
-      "character": {
-        "name": "Kayla Silverfox",
-        "imageUrl": ""
-      },
       "actorId": "b4e4054ab866f9fc267dc087",
-      "name": "Lynn Collins"
+      "character": {
+        "name": "Kayla Silverfox"
+      }
     },
     {
-      "character": {
-        "name": "Fred Dukes",
-        "imageUrl": ""
-      },
       "actorId": "050608c1a30fde5f0cbc0265",
-      "name": "Kevin Durand"
+      "character": {
+        "name": "Fred Dukes"
+      }
     },
     {
-      "character": {
-        "name": "Chris Bradley / Bolt",
-        "imageUrl": ""
-      },
       "actorId": "d981869f14315c851cdcb1dd",
-      "name": "Dominic Monaghan"
+      "character": {
+        "name": "Chris Bradley / Bolt"
+      }
     },
     {
-      "character": {
-        "name": "Remy LeBeau",
-        "imageUrl": ""
-      },
       "actorId": "943b37462204f8d008d83660",
-      "name": "Taylor Kitsch"
+      "character": {
+        "name": "Remy LeBeau"
+      }
     },
     {
-      "character": {
-        "name": "Wade Wilson",
-        "imageUrl": ""
-      },
       "actorId": "4aecb0c87152fe09ef9ba674",
-      "name": "Ryan Reynolds"
+      "character": {
+        "name": "Wade Wilson"
+      }
     }
   ],
   "collections": [

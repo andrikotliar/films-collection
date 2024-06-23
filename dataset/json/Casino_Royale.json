@@ -72,52 +72,40 @@
   "duration": 144,
   "cast": [
     {
-      "character": {
-        "name": "James Bond",
-        "imageUrl": ""
-      },
       "actorId": "bd9d1fa6627e29ced345bcac",
-      "name": "Daniel Craig"
+      "character": {
+        "name": "James Bond"
+      }
     },
     {
-      "character": {
-        "name": "Vesper Lynd",
-        "imageUrl": ""
-      },
       "actorId": "0df98bb53bcc1710be4174b5",
-      "name": "Eva Green"
+      "character": {
+        "name": "Vesper Lynd"
+      }
     },
     {
-      "character": {
-        "name": "Le Chiffre",
-        "imageUrl": ""
-      },
       "actorId": "e28338f3ae267cd8cab714fe",
-      "name": "Mads Mikkelsen"
+      "character": {
+        "name": "Le Chiffre"
+      }
     },
     {
-      "character": {
-        "name": "M",
-        "imageUrl": ""
-      },
       "actorId": "bc58418600dc1689762c643e",
-      "name": "Judi Dench"
+      "character": {
+        "name": "M"
+      }
     },
     {
-      "character": {
-        "name": "Felix Leiter",
-        "imageUrl": ""
-      },
       "actorId": "ad690658fc9a006e2b90daa0",
-      "name": "Jeffrey Wright"
+      "character": {
+        "name": "Felix Leiter"
+      }
     },
     {
-      "character": {
-        "name": "Rene Mathis",
-        "imageUrl": ""
-      },
       "actorId": "cc41b17168c13a0839835d5a",
-      "name": "Giancarlo Giannini"
+      "character": {
+        "name": "Rene Mathis"
+      }
     }
   ],
   "collections": [

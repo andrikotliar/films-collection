@@ -65,36 +65,28 @@
   "duration": 104,
   "cast": [
     {
-      "character": {
-        "name": "Frank Martin",
-        "imageUrl": ""
-      },
       "actorId": "de0e3c154d6e85358e70d67b",
-      "name": "Jason Statham"
+      "character": {
+        "name": "Frank Martin"
+      }
     },
     {
-      "character": {
-        "name": "Valentina",
-        "imageUrl": ""
-      },
       "actorId": "a0efd9e4f6b445956f3fcb0b",
-      "name": "Natalya Rudakova"
+      "character": {
+        "name": "Valentina"
+      }
     },
     {
-      "character": {
-        "name": "Tarconi",
-        "imageUrl": ""
-      },
       "actorId": "27701bc9dbcd310c14d85191",
-      "name": "François Berléand"
+      "character": {
+        "name": "Tarconi"
+      }
     },
     {
-      "character": {
-        "name": "Johnson",
-        "imageUrl": ""
-      },
       "actorId": "7d7d94e8c1e76c82029ff5a1",
-      "name": "Robert Knepper"
+      "character": {
+        "name": "Johnson"
+      }
     }
   ],
   "collections": [

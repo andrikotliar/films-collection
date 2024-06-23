@@ -63,60 +63,46 @@
   "duration": 194,
   "cast": [
     {
-      "character": {
-        "name": "Jack Dawson",
-        "imageUrl": ""
-      },
       "actorId": "8382432eba031147d4d4eee4",
-      "name": "Leonardo DiCaprio"
+      "character": {
+        "name": "Jack Dawson"
+      }
     },
     {
-      "character": {
-        "name": "Rose Dewitt Bukater",
-        "imageUrl": ""
-      },
       "actorId": "a0906571fbd382da1825be2a",
-      "name": "Kate Winslet"
+      "character": {
+        "name": "Rose Dewitt Bukater"
+      }
     },
     {
-      "character": {
-        "name": "Cal Hockley",
-        "imageUrl": ""
-      },
       "actorId": "be60bb7382dd90bacab7afee",
-      "name": "Billy Zane"
+      "character": {
+        "name": "Cal Hockley"
+      }
     },
     {
-      "character": {
-        "name": "Molly Brown",
-        "imageUrl": ""
-      },
       "actorId": "2d50f3618492cf69f4338a96",
-      "name": "Kathy Bates"
+      "character": {
+        "name": "Molly Brown"
+      }
     },
     {
-      "character": {
-        "name": "Ruth Dewitt Bukater",
-        "imageUrl": ""
-      },
       "actorId": "8b76fc064d5e01ab9c19f064",
-      "name": "Frances Fisher"
+      "character": {
+        "name": "Ruth Dewitt Bukater"
+      }
     },
     {
-      "character": {
-        "name": "Captain Smith",
-        "imageUrl": ""
-      },
       "actorId": "9054c0064f19a48344d6d874",
-      "name": "Bernard Hill"
+      "character": {
+        "name": "Captain Smith"
+      }
     },
     {
-      "character": {
-        "name": "Old Rose",
-        "imageUrl": ""
-      },
       "actorId": "2a1e03aa0280d87d5487b183",
-      "name": "Gloria Stuart"
+      "character": {
+        "name": "Old Rose"
+      }
     }
   ],
   "collections": [

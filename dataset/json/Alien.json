@@ -66,68 +66,52 @@
   "duration": 117,
   "cast": [
     {
-      "character": {
-        "name": "Ripley",
-        "imageUrl": ""
-      },
       "actorId": "ca74e2b4d921daf8283f1f08",
-      "name": "Sigourney Weaver"
+      "character": {
+        "name": "Ripley"
+      }
     },
     {
-      "character": {
-        "name": "Dallas",
-        "imageUrl": ""
-      },
       "actorId": "5173c305fe5f72483f5ca5ef",
-      "name": "Tom Skerritt"
+      "character": {
+        "name": "Dallas"
+      }
     },
     {
-      "character": {
-        "name": "Lambert",
-        "imageUrl": ""
-      },
       "actorId": "9dfc4b1c77cee089482ec245",
-      "name": "Veronica Cartwright"
+      "character": {
+        "name": "Lambert"
+      }
     },
     {
-      "character": {
-        "name": "Brett",
-        "imageUrl": ""
-      },
       "actorId": "42802b51f97bc9969b14993c",
-      "name": "Harry Dean Stanton"
+      "character": {
+        "name": "Brett"
+      }
     },
     {
-      "character": {
-        "name": "Kane",
-        "imageUrl": ""
-      },
       "actorId": "e8a0a4dd975bb9aba822de75",
-      "name": "John Hurt"
+      "character": {
+        "name": "Kane"
+      }
     },
     {
-      "character": {
-        "name": "Ash",
-        "imageUrl": ""
-      },
       "actorId": "7619a1dbce75b71bad02d766",
-      "name": "Ian Holm"
+      "character": {
+        "name": "Ash"
+      }
     },
     {
-      "character": {
-        "name": "Parker",
-        "imageUrl": ""
-      },
       "actorId": "d7e1cfccf84de611b07ece73",
-      "name": "Yaphet Kotto"
+      "character": {
+        "name": "Parker"
+      }
     },
     {
-      "character": {
-        "name": "Alien",
-        "imageUrl": ""
-      },
       "actorId": "73da3fc4ef4cd0dc8ab9d338",
-      "name": "Bolaji Badejo"
+      "character": {
+        "name": "Alien"
+      }
     }
   ],
   "collections": [

@@ -66,100 +66,76 @@
   "duration": 133,
   "cast": [
     {
-      "character": {
-        "name": "Kirk",
-        "imageUrl": ""
-      },
       "actorId": "3acb4259a5ddd7988015fa82",
-      "name": "Chris Pine"
+      "character": {
+        "name": "Kirk"
+      }
     },
     {
-      "character": {
-        "name": "Spock",
-        "imageUrl": ""
-      },
       "actorId": "6565f3834cdb77b3e044b64e",
-      "name": "Zachary Quinto"
+      "character": {
+        "name": "Spock"
+      }
     },
     {
-      "character": {
-        "name": "Uhura",
-        "imageUrl": ""
-      },
       "actorId": "0f44c8581608c442261413e4",
-      "name": "Zoe Saldana"
+      "character": {
+        "name": "Uhura"
+      }
     },
     {
-      "character": {
-        "name": "Bones",
-        "imageUrl": ""
-      },
       "actorId": "073830510a0bae3dde5820c2",
-      "name": "Karl Urban"
+      "character": {
+        "name": "Bones"
+      }
     },
     {
-      "character": {
-        "name": "Scotty",
-        "imageUrl": ""
-      },
       "actorId": "2e7736bf7187e688395d7a2c",
-      "name": "Simon Pegg"
+      "character": {
+        "name": "Scotty"
+      }
     },
     {
-      "character": {
-        "name": "Sulu",
-        "imageUrl": ""
-      },
       "actorId": "ee843d8f40f25554b7057454",
-      "name": "John Cho"
+      "character": {
+        "name": "Sulu"
+      }
     },
     {
-      "character": {
-        "name": "Khan",
-        "imageUrl": ""
-      },
       "actorId": "5a86b2f23ea348e3a58775b6",
-      "name": "Benedict Cumberbatch"
+      "character": {
+        "name": "Khan"
+      }
     },
     {
-      "character": {
-        "name": "Chekov",
-        "imageUrl": ""
-      },
       "actorId": "f03c91b058f5592f442fd2cd",
-      "name": "Anton Yelchin"
+      "character": {
+        "name": "Chekov"
+      }
     },
     {
-      "character": {
-        "name": "Pike",
-        "imageUrl": ""
-      },
       "actorId": "c96b8477b5c3f80695fd2d0e",
-      "name": "Bruce Greenwood"
+      "character": {
+        "name": "Pike"
+      }
     },
     {
-      "character": {
-        "name": "Marcus",
-        "imageUrl": ""
-      },
       "actorId": "63c24ec2a8f234b3ef633610",
-      "name": "Peter Weller"
+      "character": {
+        "name": "Marcus"
+      }
     },
     {
-      "character": {
-        "name": "Carol Marcus",
-        "imageUrl": ""
-      },
       "actorId": "6c0eb078ce826f334da4d5f0",
-      "name": "Alice Eve"
+      "character": {
+        "name": "Carol Marcus"
+      }
     },
     {
-      "character": {
-        "name": "Thomas Harewood",
-        "imageUrl": ""
-      },
       "actorId": "c31c914259cd59d74237ef07",
-      "name": "Noel Clarke"
+      "character": {
+        "name": "Thomas Harewood"
+      }
     }
   ],
   "collections": [

@@ -72,68 +72,52 @@
   "duration": 126,
   "cast": [
     {
-      "character": {
-        "name": "Tony Stark / Iron Man",
-        "imageUrl": ""
-      },
       "actorId": "68eac2af31419390d7f727fd",
-      "name": "Robert Downey Jr."
+      "character": {
+        "name": "Tony Stark / Iron Man"
+      }
     },
     {
-      "character": {
-        "name": "Obadiah Stane",
-        "imageUrl": ""
-      },
       "actorId": "6db70d56d0080f919a21f353",
-      "name": "Jeff Bridges"
+      "character": {
+        "name": "Obadiah Stane"
+      }
     },
     {
-      "character": {
-        "name": "Pepper Potts",
-        "imageUrl": ""
-      },
       "actorId": "4c47f492bea41214abba1578",
-      "name": "Gwyneth Paltrow"
+      "character": {
+        "name": "Pepper Potts"
+      }
     },
     {
-      "character": {
-        "name": "Rhodey",
-        "imageUrl": ""
-      },
       "actorId": "6db824d373bce636d6a7dda8",
-      "name": "Terrence Howard"
+      "character": {
+        "name": "Rhodey"
+      }
     },
     {
-      "character": {
-        "name": "Christine Everhart",
-        "imageUrl": ""
-      },
       "actorId": "1487651f3ade7e940c778444",
-      "name": "Leslie Bibb"
+      "character": {
+        "name": "Christine Everhart"
+      }
     },
     {
-      "character": {
-        "name": "Yinsen",
-        "imageUrl": ""
-      },
       "actorId": "db64003cbd6be1048c03d981",
-      "name": "Shaun Toub"
+      "character": {
+        "name": "Yinsen"
+      }
     },
     {
-      "character": {
-        "name": "Raza",
-        "imageUrl": ""
-      },
       "actorId": "75c2eab42226def31c1f29ef",
-      "name": "Faran Tahir"
+      "character": {
+        "name": "Raza"
+      }
     },
     {
-      "character": {
-        "name": "Agent Coulson",
-        "imageUrl": ""
-      },
       "actorId": "297abcfa1686135e139ec907",
-      "name": "Clark Gregg"
+      "character": {
+        "name": "Agent Coulson"
+      }
     }
   ],
   "collections": [

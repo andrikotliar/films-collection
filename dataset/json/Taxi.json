@@ -65,44 +65,34 @@
   "duration": 86,
   "cast": [
     {
-      "character": {
-        "name": "Daniel Morales",
-        "imageUrl": ""
-      },
       "actorId": "1562657477b61c61b09e2013",
-      "name": "Samy Naceri"
+      "character": {
+        "name": "Daniel Morales"
+      }
     },
     {
-      "character": {
-        "name": "Emilien Coutant-Kerbalec",
-        "imageUrl": ""
-      },
       "actorId": "2d4bdb7694904d6306f88c60",
-      "name": "Frédéric Diefenthal"
+      "character": {
+        "name": "Emilien Coutant-Kerbalec"
+      }
     },
     {
-      "character": {
-        "name": "Lilly Bertineau",
-        "imageUrl": ""
-      },
       "actorId": "6e287749f98b9217ea2ceb27",
-      "name": "Marion Cotillard"
+      "character": {
+        "name": "Lilly Bertineau"
+      }
     },
     {
-      "character": {
-        "name": "Petra",
-        "imageUrl": ""
-      },
       "actorId": "69edd5228a1c567011c094fe",
-      "name": "Emma Wiklund"
+      "character": {
+        "name": "Petra"
+      }
     },
     {
-      "character": {
-        "name": "Commissaire Gibert",
-        "imageUrl": ""
-      },
       "actorId": "93c6ee912f305fb6262c4193",
-      "name": "Bernard Farcy"
+      "character": {
+        "name": "Commissaire Gibert"
+      }
     }
   ],
   "collections": [

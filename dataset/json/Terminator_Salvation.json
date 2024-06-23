@@ -66,60 +66,46 @@
   "duration": 115,
   "cast": [
     {
-      "character": {
-        "name": "John Connor",
-        "imageUrl": ""
-      },
       "actorId": "b794f150c4436f17ba9bd9f1",
-      "name": "Christian Bale"
+      "character": {
+        "name": "John Connor"
+      }
     },
     {
-      "character": {
-        "name": "Marcus Wright",
-        "imageUrl": ""
-      },
       "actorId": "ab25ed81fbee90d0a29d7c92",
-      "name": "Sam Worthington"
+      "character": {
+        "name": "Marcus Wright"
+      }
     },
     {
-      "character": {
-        "name": "Blair Williams",
-        "imageUrl": ""
-      },
       "actorId": "d0b0f26c1f403a07ec81d884",
-      "name": "Moon Bloodgood"
+      "character": {
+        "name": "Blair Williams"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Serena Kogan",
-        "imageUrl": ""
-      },
       "actorId": "b5e7e795de1f87df92309e3a",
-      "name": "Helena Bonham Carter"
+      "character": {
+        "name": "Dr. Serena Kogan"
+      }
     },
     {
-      "character": {
-        "name": "Kyle Reese",
-        "imageUrl": ""
-      },
       "actorId": "f03c91b058f5592f442fd2cd",
-      "name": "Anton Yelchin"
+      "character": {
+        "name": "Kyle Reese"
+      }
     },
     {
-      "character": {
-        "name": "Star",
-        "imageUrl": ""
-      },
       "actorId": "46174a55c1f6d46f99b2f9c7",
-      "name": "Jadagrace"
+      "character": {
+        "name": "Star"
+      }
     },
     {
-      "character": {
-        "name": "Kate Connor",
-        "imageUrl": ""
-      },
       "actorId": "5a9e20efcb26cd9589817c6d",
-      "name": "Bryce Dallas Howard"
+      "character": {
+        "name": "Kate Connor"
+      }
     }
   ],
   "collections": [

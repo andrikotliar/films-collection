@@ -66,82 +66,64 @@
   "duration": 133,
   "cast": [
     {
-      "character": {
-        "name": "Jyn Erso",
-        "imageUrl": ""
-      },
       "actorId": "119a099661348f935a7b2c37",
-      "name": "Felicity Jones"
+      "character": {
+        "name": "Jyn Erso"
+      }
     },
     {
-      "character": {
-        "name": "Cassian Andor",
-        "imageUrl": ""
-      },
       "actorId": "241339bc59e6a77e1bd47050",
-      "name": "Diego Luna"
+      "character": {
+        "name": "Cassian Andor"
+      }
     },
     {
-      "character": {
-        "name": "K-2SO",
-        "imageUrl": ""
-      },
       "actorId": "a5c580aab49791a22e7f3b74",
-      "name": "Alan Tudyk"
+      "character": {
+        "name": "K-2SO"
+      }
     },
     {
-      "character": {
-        "name": "Chirrut Imwe",
-        "imageUrl": ""
-      },
       "actorId": "681aa7ecd9a953a47f397a64",
-      "name": "Donnie Yen"
+      "character": {
+        "name": "Chirrut Imwe"
+      }
     },
     {
-      "character": {
-        "name": "Baze Malbus",
-        "imageUrl": ""
-      },
       "actorId": "79e0ab7ae9957d6c7e82da90",
-      "name": "Wen Jiang"
+      "character": {
+        "name": "Baze Malbus"
+      }
     },
     {
-      "character": {
-        "name": "Orson Krennic",
-        "imageUrl": ""
-      },
       "actorId": "5e8de99fe5c4235fb362b719",
-      "name": "Ben Mendelsohn"
+      "character": {
+        "name": "Orson Krennic"
+      }
     },
     {
-      "character": {
-        "name": "Governor Tarkin",
-        "imageUrl": ""
-      },
       "actorId": "76c19790805c65030450c9ba",
-      "name": "Guy Henry"
+      "character": {
+        "name": "Governor Tarkin"
+      }
     },
     {
-      "character": {
-        "name": "Saw Gerrera",
-        "imageUrl": ""
-      },
       "actorId": "12d4eae94b34820e9c78b4ca",
-      "name": "Forest Whitaker"
-    },
-    {
       "character": {
-        "name": "Galen Erso",
-        "imageUrl": ""
-      },
-      "actorId": "e28338f3ae267cd8cab714fe",
-      "name": "Mads Mikkelsen"
+        "name": "Saw Gerrera"
+      }
     },
     {
+      "actorId": "e28338f3ae267cd8cab714fe",
+      "character": {
+        "name": "Galen Erso"
+      }
+    },
+    {
+      "actorId": "ff795ec712c7e62204b6c67b",
       "character": {
         "name": "Bodhi Rook"
-      },
-      "actorId": "ff795ec712c7e62204b6c67b"
+      }
     }
   ],
   "collections": [

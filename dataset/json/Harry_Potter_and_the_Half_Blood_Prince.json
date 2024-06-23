@@ -63,76 +63,58 @@
   "duration": 153,
   "cast": [
     {
-      "character": {
-        "name": "Harry Potter",
-        "imageUrl": ""
-      },
       "actorId": "7cd730dd761c711d4467bce0",
-      "name": "Daniel Radcliffe"
+      "character": {
+        "name": "Harry Potter"
+      }
     },
     {
-      "character": {
-        "name": "Ron Weasley",
-        "imageUrl": ""
-      },
       "actorId": "076188ec6b66a2c4a62fdab1",
-      "name": "Rupert Grint"
+      "character": {
+        "name": "Ron Weasley"
+      }
     },
     {
-      "character": {
-        "name": "Hermione Granger",
-        "imageUrl": ""
-      },
       "actorId": "3f0004fa95271000de67d1f4",
-      "name": "Emma Watson"
+      "character": {
+        "name": "Hermione Granger"
+      }
     },
     {
-      "character": {
-        "name": "Albus Dumbledore",
-        "imageUrl": ""
-      },
       "actorId": "5cd30ae8b35b8110d0a1bc75",
-      "name": "Richard Harris"
+      "character": {
+        "name": "Albus Dumbledore"
+      }
     },
     {
-      "character": {
-        "name": "Draco Malfoy",
-        "imageUrl": ""
-      },
       "actorId": "aca6f583677ffb4c7f38d469",
-      "name": "Tom Felton"
+      "character": {
+        "name": "Draco Malfoy"
+      }
     },
     {
-      "character": {
-        "name": "Severus Snape",
-        "imageUrl": ""
-      },
       "actorId": "9433a6747c6cfc354fed7e65",
-      "name": "Alan Rickman"
+      "character": {
+        "name": "Severus Snape"
+      }
     },
     {
-      "character": {
-        "name": "Bellatrix Lestrage",
-        "imageUrl": ""
-      },
       "actorId": "b5e7e795de1f87df92309e3a",
-      "name": "Helena Bonham Carter"
+      "character": {
+        "name": "Bellatrix Lestrage"
+      }
     },
     {
-      "character": {
-        "name": "Horace Slughorn",
-        "imageUrl": ""
-      },
       "actorId": "1c5eeaeb86ef47e50b94444b",
-      "name": "Jim Broadbent"
+      "character": {
+        "name": "Horace Slughorn"
+      }
     },
     {
-      "character": {
-        "name": "Draco Malfoy",
-        "imageUrl": ""
-      },
       "actorId": "aca6f583677ffb4c7f38d469",
-      "name": "Tom Felton"
+      "character": {
+        "name": "Draco Malfoy"
+      }
     }
   ],
   "collections": [

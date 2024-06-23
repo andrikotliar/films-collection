@@ -59,44 +59,34 @@
   "duration": 104,
   "cast": [
     {
-      "character": {
-        "name": "Sean Boswell",
-        "imageUrl": ""
-      },
       "actorId": "7e87e69b06923d36cfa10e9f",
-      "name": "Lucas Black"
+      "character": {
+        "name": "Sean Boswell"
+      }
     },
     {
-      "character": {
-        "name": "Neela",
-        "imageUrl": ""
-      },
       "actorId": "4f701c8c0076d3bc0b71ca11",
-      "name": "Nathalie Kelley"
+      "character": {
+        "name": "Neela"
+      }
     },
     {
-      "character": {
-        "name": "Han",
-        "imageUrl": ""
-      },
       "actorId": "f64566657b4a65aaf1c8a875",
-      "name": "Sung Kang"
+      "character": {
+        "name": "Han"
+      }
     },
     {
-      "character": {
-        "name": "Twinkie",
-        "imageUrl": ""
-      },
       "actorId": "691bd60bc65327e09cb0b781",
-      "name": "Brian Tee"
+      "character": {
+        "name": "Twinkie"
+      }
     },
     {
-      "character": {
-        "name": "Takashi",
-        "imageUrl": ""
-      },
       "actorId": "62de814b6ca48801c3b8fc82",
-      "name": "Bow Wow"
+      "character": {
+        "name": "Takashi"
+      }
     }
   ],
   "collections": [

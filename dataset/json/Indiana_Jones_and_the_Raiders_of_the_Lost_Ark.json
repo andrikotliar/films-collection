@@ -64,52 +64,40 @@
   "duration": 115,
   "cast": [
     {
-      "character": {
-        "name": "Dr. Henry «Indiana» Jones, Jr.",
-        "imageUrl": ""
-      },
       "actorId": "90204450e3ebdb007d478280",
-      "name": "Harrison Ford"
+      "character": {
+        "name": "Dr. Henry «Indiana» Jones, Jr."
+      }
     },
     {
-      "character": {
-        "name": "Marion",
-        "imageUrl": ""
-      },
       "actorId": "bd524c2789035cc0587cd149",
-      "name": "Karen Allen"
+      "character": {
+        "name": "Marion"
+      }
     },
     {
-      "character": {
-        "name": "Belloq",
-        "imageUrl": ""
-      },
       "actorId": "507838a0e6675bb5c9fbd2f2",
-      "name": "Paul Freeman"
+      "character": {
+        "name": "Belloq"
+      }
     },
     {
-      "character": {
-        "name": "Toht",
-        "imageUrl": ""
-      },
       "actorId": "62119b0307c540cb16d33aed",
-      "name": "Ronald Lacey"
+      "character": {
+        "name": "Toht"
+      }
     },
     {
-      "character": {
-        "name": "Sallah",
-        "imageUrl": ""
-      },
       "actorId": "2555ed16eef45d9015e8aa02",
-      "name": "John Rhys-Davies"
+      "character": {
+        "name": "Sallah"
+      }
     },
     {
-      "character": {
-        "name": "Brody",
-        "imageUrl": ""
-      },
       "actorId": "1cb94f174646e5cd8d18c312",
-      "name": "Denholm Elliott"
+      "character": {
+        "name": "Brody"
+      }
     }
   ],
   "collections": [

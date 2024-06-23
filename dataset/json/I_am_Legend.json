@@ -71,44 +71,34 @@
   "duration": 101,
   "cast": [
     {
-      "character": {
-        "name": "Robert Neville",
-        "imageUrl": ""
-      },
       "actorId": "b59613245389fb066c309182",
-      "name": "Will Smith"
+      "character": {
+        "name": "Robert Neville"
+      }
     },
     {
-      "character": {
-        "name": "Anna",
-        "imageUrl": ""
-      },
       "actorId": "226d790f00f2af72460c1cea",
-      "name": "Alice Braga"
+      "character": {
+        "name": "Anna"
+      }
     },
     {
-      "character": {
-        "name": "Ethan",
-        "imageUrl": ""
-      },
       "actorId": "282d5061728e5eccfc2607a6",
-      "name": "Charlie Tahan"
+      "character": {
+        "name": "Ethan"
+      }
     },
     {
-      "character": {
-        "name": "Zoe Neville",
-        "imageUrl": ""
-      },
       "actorId": "f58f37e70b380b952a04098d",
-      "name": "Salli Richardson-Whitfield"
+      "character": {
+        "name": "Zoe Neville"
+      }
     },
     {
-      "character": {
-        "name": "Marley Neville",
-        "imageUrl": ""
-      },
       "actorId": "9733da64d3cbf7c37f9c843f",
-      "name": "Willow Smith"
+      "character": {
+        "name": "Marley Neville"
+      }
     }
   ],
   "collections": [

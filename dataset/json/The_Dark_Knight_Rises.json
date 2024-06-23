@@ -69,108 +69,82 @@
   "duration": 165,
   "cast": [
     {
-      "character": {
-        "name": "Bruce Wayne",
-        "imageUrl": ""
-      },
       "actorId": "b794f150c4436f17ba9bd9f1",
-      "name": "Christian Bale"
+      "character": {
+        "name": "Bruce Wayne"
+      }
     },
     {
-      "character": {
-        "name": "Commissioner Gordon",
-        "imageUrl": ""
-      },
       "actorId": "a03a7c1a8a396d3211b9b317",
-      "name": "Gary Oldman"
+      "character": {
+        "name": "Commissioner Gordon"
+      }
     },
     {
-      "character": {
-        "name": "Bane",
-        "imageUrl": ""
-      },
       "actorId": "54f5e1d6744bd15409e841cf",
-      "name": "Tom Hardy"
+      "character": {
+        "name": "Bane"
+      }
     },
     {
-      "character": {
-        "name": "Blake",
-        "imageUrl": ""
-      },
       "actorId": "206c09f62d171c1b58cc6378",
-      "name": "Joseph Gordon-Levitt"
+      "character": {
+        "name": "Blake"
+      }
     },
     {
-      "character": {
-        "name": "Selina",
-        "imageUrl": ""
-      },
       "actorId": "e368b232e6af9b5200fd411b",
-      "name": "Anne Hathaway"
+      "character": {
+        "name": "Selina"
+      }
     },
     {
-      "character": {
-        "name": "Miranda",
-        "imageUrl": ""
-      },
       "actorId": "6e287749f98b9217ea2ceb27",
-      "name": "Marion Cotillard"
+      "character": {
+        "name": "Miranda"
+      }
     },
     {
-      "character": {
-        "name": "Fox",
-        "imageUrl": ""
-      },
       "actorId": "6baca3c5f3dcf4fb1271cb34",
-      "name": "Morgan Freeman"
+      "character": {
+        "name": "Fox"
+      }
     },
     {
-      "character": {
-        "name": "Alfred",
-        "imageUrl": ""
-      },
       "actorId": "68a6bf55b5f042549fda0642",
-      "name": "Michael Caine"
+      "character": {
+        "name": "Alfred"
+      }
     },
     {
-      "character": {
-        "name": "Foley",
-        "imageUrl": ""
-      },
       "actorId": "ae59b91d424e2bfb80aa5ddb",
-      "name": "Matthew Modine"
+      "character": {
+        "name": "Foley"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Pavel",
-        "imageUrl": ""
-      },
       "actorId": "fa738fcf88f03caa8027dbe4",
-      "name": "Alon Aboutboul"
+      "character": {
+        "name": "Dr. Pavel"
+      }
     },
     {
-      "character": {
-        "name": "Daggett",
-        "imageUrl": ""
-      },
       "actorId": "5e8de99fe5c4235fb362b719",
-      "name": "Ben Mendelsohn"
+      "character": {
+        "name": "Daggett"
+      }
     },
     {
-      "character": {
-        "name": "Stryver",
-        "imageUrl": ""
-      },
       "actorId": "2bc21f5ef07103af47d045c4",
-      "name": "Burn Gorman"
+      "character": {
+        "name": "Stryver"
+      }
     },
     {
-      "character": {
-        "name": "Captain Jones",
-        "imageUrl": ""
-      },
       "actorId": "9627e589b4b4bbdb49ba2a5b",
-      "name": "Daniel Sunjata"
+      "character": {
+        "name": "Captain Jones"
+      }
     }
   ],
   "collections": [

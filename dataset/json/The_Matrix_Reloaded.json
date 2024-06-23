@@ -60,84 +60,64 @@
   "duration": 138,
   "cast": [
     {
-      "character": {
-        "name": "Neo",
-        "imageUrl": ""
-      },
       "actorId": "064e80da8733b3e3692e9735",
-      "name": "Keanu Reeves"
+      "character": {
+        "name": "Neo"
+      }
     },
     {
-      "character": {
-        "name": "Morpheus",
-        "imageUrl": ""
-      },
       "actorId": "598ea6d5be8fe378787adde7",
-      "name": "Laurence Fishburne"
+      "character": {
+        "name": "Morpheus"
+      }
     },
     {
-      "character": {
-        "name": "Trinity",
-        "imageUrl": ""
-      },
       "actorId": "86bd70fb1e96e084b818b8d1",
-      "name": "Carrie-Anne Moss"
+      "character": {
+        "name": "Trinity"
+      }
     },
     {
-      "character": {
-        "name": "Agent Smith",
-        "imageUrl": ""
-      },
       "actorId": "9d72ccad0a0c60872b91d2d3",
-      "name": "Hugo Weaving"
+      "character": {
+        "name": "Agent Smith"
+      }
     },
     {
-      "character": {
-        "name": "Oracle",
-        "imageUrl": ""
-      },
       "actorId": "5ce3b37a34510b2a6acb942b",
-      "name": "Gloria Foster"
+      "character": {
+        "name": "Oracle"
+      }
     },
     {
-      "character": {
-        "name": "Niobe",
-        "imageUrl": ""
-      },
       "actorId": "544db30160fa4bfa12603ee5",
-      "name": "Jada Pinkett Smith"
+      "character": {
+        "name": "Niobe"
+      }
     },
     {
-      "character": {
-        "name": "Persephone",
-        "imageUrl": ""
-      },
       "actorId": "e08aee6b1c0c234b43ec840c",
-      "name": "Monica Bellucci"
+      "character": {
+        "name": "Persephone"
+      }
     },
     {
-      "character": {
-        "name": "The Merovaiingian",
-        "imageUrl": ""
-      },
       "actorId": "f4f9797ab0dbf75982b9e09f",
-      "name": "Lambert Wilson"
+      "character": {
+        "name": "The Merovaiingian"
+      }
     },
     {
-      "character": {
-        "name": "The Keymaker",
-        "imageUrl": ""
-      },
       "actorId": "ac0c86b4f56b6b569c2b37fb",
-      "name": "Randall Duk Kim"
+      "character": {
+        "name": "The Keymaker"
+      }
     },
     {
-      "character": {
-        "name": "The Architect",
-        "imageUrl": ""
-      },
       "actorId": "693cddd36401229c5f169c3f",
-      "name": "Helmut Bakaitis"
+      "character": {
+        "name": "The Architect"
+      }
     }
   ],
   "collections": [

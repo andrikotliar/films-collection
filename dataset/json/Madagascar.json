@@ -63,66 +63,52 @@
   "duration": 86,
   "cast": [
     {
-      "character": {
-        "name": "Alex",
-        "imageUrl": ""
-      },
       "actorId": "30c03c6976ec24262f37bfc6",
-      "name": "Ben Stiller"
+      "character": {
+        "name": "Alex"
+      }
     },
     {
-      "character": {
-        "name": "Marty",
-        "imageUrl": ""
-      },
       "actorId": "ce3b1d5495190d8116dea108",
-      "name": "Chris Rock"
+      "character": {
+        "name": "Marty"
+      }
     },
     {
-      "character": {
-        "name": "Melman",
-        "imageUrl": ""
-      },
       "actorId": "a292c106f01b7650bbe0c49f",
-      "name": "David Schwimmer"
+      "character": {
+        "name": "Melman"
+      }
     },
     {
-      "character": {
-        "name": "Gloria",
-        "imageUrl": ""
-      },
       "actorId": "544db30160fa4bfa12603ee5",
-      "name": "Jada Pinkett Smith"
+      "character": {
+        "name": "Gloria"
+      }
     },
     {
-      "character": {
-        "name": "Julien",
-        "imageUrl": ""
-      },
       "actorId": "305954b13aa2aaf70e71c864",
-      "name": "Sacha Baron Cohen"
+      "character": {
+        "name": "Julien"
+      }
     },
     {
-      "character": {
-        "name": "Skipper",
-        "imageUrl": ""
-      },
       "actorId": "703b49e5d14fbe3506c1dd6b",
-      "name": "Tom McGrath"
-    },
-    {
       "character": {
-        "name": "Kowalski",
-        "imageUrl": ""
-      },
-      "actorId": "7b7437d683e231f7f746d770",
-      "name": "Chris Miller"
+        "name": "Skipper"
+      }
     },
     {
+      "actorId": "7b7437d683e231f7f746d770",
+      "character": {
+        "name": "Kowalski"
+      }
+    },
+    {
+      "actorId": "6aa1512f81dda6fbd3d8f7ef",
       "character": {
         "name": "Maurice"
-      },
-      "actorId": "6aa1512f81dda6fbd3d8f7ef"
+      }
     }
   ],
   "collections": [

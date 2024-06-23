@@ -72,94 +72,76 @@
   "duration": 135,
   "cast": [
     {
-      "character": {
-        "name": "Rey",
-        "imageUrl": ""
-      },
       "actorId": "667605ab533f2f147e39370a",
-      "name": "Daisy Ridley"
+      "character": {
+        "name": "Rey"
+      }
     },
     {
-      "character": {
-        "name": "Kylo Ren",
-        "imageUrl": ""
-      },
       "actorId": "1b0689c35cd77c23205fd4a8",
-      "name": "Adam Driver"
+      "character": {
+        "name": "Kylo Ren"
+      }
     },
     {
-      "character": {
-        "name": "Finn",
-        "imageUrl": ""
-      },
       "actorId": "ccf4b948c4953a8970e922d4",
-      "name": "John Boyega"
+      "character": {
+        "name": "Finn"
+      }
     },
     {
-      "character": {
-        "name": "Han Solo",
-        "imageUrl": ""
-      },
       "actorId": "90204450e3ebdb007d478280",
-      "name": "Harrison Ford"
+      "character": {
+        "name": "Han Solo"
+      }
     },
     {
-      "character": {
-        "name": "Luke Skywalker",
-        "imageUrl": ""
-      },
       "actorId": "ce132ddc9f8b5434251efcdb",
-      "name": "Mark Hamill"
+      "character": {
+        "name": "Luke Skywalker"
+      }
     },
     {
-      "character": {
-        "name": "Leia",
-        "imageUrl": ""
-      },
       "actorId": "7d2b5a0e06b8a95e8c3f208f",
-      "name": "Carrie Fisher"
+      "character": {
+        "name": "Leia"
+      }
     },
     {
-      "character": {
-        "name": "Poe Dameron",
-        "imageUrl": ""
-      },
       "actorId": "8b0c59295bf19f18ccdebced",
-      "name": "Oscar Isaac"
+      "character": {
+        "name": "Poe Dameron"
+      }
     },
     {
-      "character": {
-        "name": "Snoke",
-        "imageUrl": ""
-      },
       "actorId": "e5253cdc8c1fb87953720d64",
-      "name": "Andy Serkis"
-    },
-    {
       "character": {
-        "name": "Chewbacca",
-        "imageUrl": ""
-      },
-      "actorId": "25d91c81e9e6d9044c52fa9b",
-      "name": "Peter Mayhew"
+        "name": "Snoke"
+      }
     },
     {
+      "actorId": "25d91c81e9e6d9044c52fa9b",
+      "character": {
+        "name": "Chewbacca"
+      }
+    },
+    {
+      "actorId": "a834eb244fbdfc92bd0e5b4a",
       "character": {
         "name": "Captain Phasma"
-      },
-      "actorId": "a834eb244fbdfc92bd0e5b4a"
+      }
     },
     {
+      "actorId": "ed556b2fb295cedc56c45779",
       "character": {
         "name": "General Hux"
-      },
-      "actorId": "ed556b2fb295cedc56c45779"
+      }
     },
     {
+      "actorId": "8495e822d070b57837e0bf6e",
       "character": {
         "name": "C-3PO"
-      },
-      "actorId": "8495e822d070b57837e0bf6e"
+      }
     }
   ],
   "collections": [

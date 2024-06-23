@@ -70,116 +70,88 @@
   "duration": 192,
   "cast": [
     {
-      "character": {
-        "name": "Jake Sully",
-        "imageUrl": ""
-      },
       "actorId": "ab25ed81fbee90d0a29d7c92",
-      "name": "Sam Worthington"
+      "character": {
+        "name": "Jake Sully"
+      }
     },
     {
-      "character": {
-        "name": "Neytiri",
-        "imageUrl": ""
-      },
       "actorId": "0f44c8581608c442261413e4",
-      "name": "Zoe Saldana"
+      "character": {
+        "name": "Neytiri"
+      }
     },
     {
-      "character": {
-        "name": "Kiri",
-        "imageUrl": ""
-      },
       "actorId": "ca74e2b4d921daf8283f1f08",
-      "name": "Sigourney Weaver"
+      "character": {
+        "name": "Kiri"
+      }
     },
     {
-      "character": {
-        "name": "Quaritch",
-        "imageUrl": ""
-      },
       "actorId": "b0b4e07f3ddc197fc79b6d99",
-      "name": "Stephen Lang"
+      "character": {
+        "name": "Quaritch"
+      }
     },
     {
-      "character": {
-        "name": "Ronal",
-        "imageUrl": ""
-      },
       "actorId": "a0906571fbd382da1825be2a",
-      "name": "Kate Winslet"
+      "character": {
+        "name": "Ronal"
+      }
     },
     {
-      "name": "Cliff Curtis",
+      "actorId": "677c083db78d6f6afc4bf2c1",
       "character": {
-        "name": "Tonowari",
-        "imageUrl": ""
-      },
-      "actorId": "677c083db78d6f6afc4bf2c1"
+        "name": "Tonowari"
+      }
     },
     {
-      "character": {
-        "name": "Norm",
-        "imageUrl": ""
-      },
       "actorId": "cc1bd413915afb8a696bfff3",
-      "name": "Joel David Moore"
+      "character": {
+        "name": "Norm"
+      }
     },
     {
-      "name": "Jamie Flatters",
+      "actorId": "3e151b5127b8be74b7f44adf",
       "character": {
-        "name": "Neteyam",
-        "imageUrl": ""
-      },
-      "actorId": "3e151b5127b8be74b7f44adf"
+        "name": "Neteyam"
+      }
     },
     {
-      "name": "Britain Dalton",
+      "actorId": "d372b94fc4de33d4432f8fc1",
       "character": {
-        "name": "Lo'Ak",
-        "imageUrl": ""
-      },
-      "actorId": "d372b94fc4de33d4432f8fc1"
+        "name": "Lo'Ak"
+      }
     },
     {
-      "name": "Trinity Jo-Li Bliss",
+      "actorId": "f73baf9f91b25a772477ec00",
       "character": {
-        "name": "Tuk",
-        "imageUrl": ""
-      },
-      "actorId": "f73baf9f91b25a772477ec00"
+        "name": "Tuk"
+      }
     },
     {
-      "name": "Jack Champion",
+      "actorId": "08a9d660bd495e832e8f4ecd",
       "character": {
-        "name": "Spider",
-        "imageUrl": ""
-      },
-      "actorId": "08a9d660bd495e832e8f4ecd"
+        "name": "Spider"
+      }
     },
     {
-      "name": "Bailey Bass",
+      "actorId": "a83297cb032460baa31b3cdd",
       "character": {
-        "name": "Tsireya",
-        "imageUrl": ""
-      },
-      "actorId": "a83297cb032460baa31b3cdd"
+        "name": "Tsireya"
+      }
     },
     {
-      "name": "Filip Gelijo",
+      "actorId": "b238ba581949303e85a376d1",
       "character": {
-        "name": "Aonung",
-        "imageUrl": ""
-      },
-      "actorId": "b238ba581949303e85a376d1"
+        "name": "Aonung"
+      }
     },
     {
-      "name": "Edie Falco",
+      "actorId": "4df6f5c36685e804aff22521",
       "character": {
-        "name": "General Ardmore",
-        "imageUrl": ""
-      },
-      "actorId": "4df6f5c36685e804aff22521"
+        "name": "General Ardmore"
+      }
     }
   ],
   "collections": [

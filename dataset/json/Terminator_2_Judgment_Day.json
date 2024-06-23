@@ -63,44 +63,34 @@
   "duration": 137,
   "cast": [
     {
-      "character": {
-        "name": "T-800",
-        "imageUrl": ""
-      },
       "actorId": "8062b68b19b6dacb76d14b75",
-      "name": "Arnold Schwarzenegger"
+      "character": {
+        "name": "T-800"
+      }
     },
     {
-      "character": {
-        "name": "John Connor",
-        "imageUrl": ""
-      },
       "actorId": "2d3eb4c8394623727a17483b",
-      "name": "Edward Furlong"
+      "character": {
+        "name": "John Connor"
+      }
     },
     {
-      "character": {
-        "name": "Sarah Connor",
-        "imageUrl": ""
-      },
       "actorId": "a5fd5103183480749784143b",
-      "name": "Linda Hamilton"
+      "character": {
+        "name": "Sarah Connor"
+      }
     },
     {
-      "character": {
-        "name": "T-1000",
-        "imageUrl": ""
-      },
       "actorId": "23dfc0a82cae9f6c4281898c",
-      "name": "Robert Patrick"
+      "character": {
+        "name": "T-1000"
+      }
     },
     {
-      "character": {
-        "name": "Miles Bennett Dyson",
-        "imageUrl": ""
-      },
       "actorId": "7c714de673355dff119b2c86",
-      "name": "Joe Morton"
+      "character": {
+        "name": "Miles Bennett Dyson"
+      }
     }
   ],
   "collections": [

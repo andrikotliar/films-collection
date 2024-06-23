@@ -62,60 +62,46 @@
   "duration": 95,
   "cast": [
     {
-      "character": {
-        "name": "Flynn Carsen",
-        "imageUrl": ""
-      },
       "actorId": "5682aa234be8275828a251fd",
-      "name": "Noah Wyle"
+      "character": {
+        "name": "Flynn Carsen"
+      }
     },
     {
-      "character": {
-        "name": "Emily Davenport",
-        "imageUrl": ""
-      },
       "actorId": "8d08c0636b2536d2af407514",
-      "name": "Gabrielle Anwar"
+      "character": {
+        "name": "Emily Davenport"
+      }
     },
     {
-      "character": {
-        "name": "Judson",
-        "imageUrl": ""
-      },
       "actorId": "c7d1e2a7bc4468f9de40f667",
-      "name": "Bob Newhart"
+      "character": {
+        "name": "Judson"
+      }
     },
     {
-      "character": {
-        "name": "Charlene",
-        "imageUrl": ""
-      },
       "actorId": "ddef35144525bb2d00be1e2d",
-      "name": "Jane Curtin"
+      "character": {
+        "name": "Charlene"
+      }
     },
     {
-      "character": {
-        "name": "General Samir",
-        "imageUrl": ""
-      },
       "actorId": "3ba6b72ed4ed8ba89ca219e0",
-      "name": "Erick Avari"
+      "character": {
+        "name": "General Samir"
+      }
     },
     {
-      "character": {
-        "name": "Jomo",
-        "imageUrl": ""
-      },
       "actorId": "86097f701d739edbb18eca3e",
-      "name": "Hakeem Kae-Kazim"
+      "character": {
+        "name": "Jomo"
+      }
     },
     {
-      "character": {
-        "name": "Tommy Yellow Hawk",
-        "imageUrl": ""
-      },
       "actorId": "59a5879997110526cddf0687",
-      "name": "Zahn McClarnon"
+      "character": {
+        "name": "Tommy Yellow Hawk"
+      }
     }
   ],
   "collections": [

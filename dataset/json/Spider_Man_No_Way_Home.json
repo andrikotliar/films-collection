@@ -58,92 +58,70 @@
   "duration": 100,
   "cast": [
     {
-      "character": {
-        "name": "Peter Parker / Spider-Man",
-        "imageUrl": ""
-      },
       "actorId": "7724f9a2549d742da5d02985",
-      "name": "Tom Holland"
+      "character": {
+        "name": "Peter Parker / Spider-Man"
+      }
     },
     {
-      "character": {
-        "name": "MJ",
-        "imageUrl": ""
-      },
       "actorId": "107e7fb331c2103897a87ffa",
-      "name": "Zendaya"
+      "character": {
+        "name": "MJ"
+      }
     },
     {
-      "character": {
-        "name": "Doctor Strange",
-        "imageUrl": ""
-      },
       "actorId": "5a86b2f23ea348e3a58775b6",
-      "name": "Benedict Cumberbatch"
+      "character": {
+        "name": "Doctor Strange"
+      }
     },
     {
-      "character": {
-        "name": "Happy Hogan",
-        "imageUrl": ""
-      },
       "actorId": "1d64586d1509495ad522cffe",
-      "name": "Jon Favreau"
+      "character": {
+        "name": "Happy Hogan"
+      }
     },
     {
-      "character": {
-        "name": "May Parker",
-        "imageUrl": ""
-      },
       "actorId": "0538ae4342160abcc02ecf33",
-      "name": "Marisa Tomei"
+      "character": {
+        "name": "May Parker"
+      }
     },
     {
-      "character": {
-        "name": "J. Jonah Jameson",
-        "imageUrl": ""
-      },
       "actorId": "03293ef86c8bf352c9dd52f4",
-      "name": "J.K. Simmons"
+      "character": {
+        "name": "J. Jonah Jameson"
+      }
     },
     {
-      "character": {
-        "name": "Norman Osborn / Green Goblin",
-        "imageUrl": ""
-      },
       "actorId": "69443d6dcdd5ddbc0c51e534",
-      "name": "Willem Dafoe"
+      "character": {
+        "name": "Norman Osborn / Green Goblin"
+      }
     },
     {
-      "character": {
-        "name": "Wong",
-        "imageUrl": ""
-      },
       "actorId": "a775eca4841cce040addc4ca",
-      "name": "Benedict Wong"
+      "character": {
+        "name": "Wong"
+      }
     },
     {
-      "character": {
-        "name": "Max Dillon / Electro",
-        "imageUrl": ""
-      },
       "actorId": "ef83cde86ba14a39f3be9702",
-      "name": "Jamie Foxx"
+      "character": {
+        "name": "Max Dillon / Electro"
+      }
     },
     {
-      "character": {
-        "name": "Otto Octavius / Doctor Octopus",
-        "imageUrl": ""
-      },
       "actorId": "c70aa327b237efbbee19c181",
-      "name": "Alfred Molina"
+      "character": {
+        "name": "Otto Octavius / Doctor Octopus"
+      }
     },
     {
-      "character": {
-        "name": "Ned Leeds",
-        "imageUrl": ""
-      },
       "actorId": "398e1ca9ff4d050aac592111",
-      "name": "Jacob Batalon"
+      "character": {
+        "name": "Ned Leeds"
+      }
     }
   ],
   "collections": [

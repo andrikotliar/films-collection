@@ -71,52 +71,40 @@
   "duration": 115,
   "cast": [
     {
-      "character": {
-        "name": "Del Spooner",
-        "imageUrl": ""
-      },
       "actorId": "b59613245389fb066c309182",
-      "name": "Will Smith"
+      "character": {
+        "name": "Del Spooner"
+      }
     },
     {
-      "character": {
-        "name": "Susan Calvin",
-        "imageUrl": ""
-      },
       "actorId": "86b08307a14686fa649c9ce7",
-      "name": "Bridget Moynahan"
+      "character": {
+        "name": "Susan Calvin"
+      }
     },
     {
-      "character": {
-        "name": "Sonny",
-        "imageUrl": ""
-      },
       "actorId": "a5c580aab49791a22e7f3b74",
-      "name": "Alan Tudyk"
+      "character": {
+        "name": "Sonny"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Alfred Lanning",
-        "imageUrl": ""
-      },
       "actorId": "7d0b7886d84ec7044be466c2",
-      "name": "James Cromwell"
+      "character": {
+        "name": "Dr. Alfred Lanning"
+      }
     },
     {
-      "character": {
-        "name": "Lawrence Robertson",
-        "imageUrl": ""
-      },
       "actorId": "c96b8477b5c3f80695fd2d0e",
-      "name": "Bruce Greenwood"
+      "character": {
+        "name": "Lawrence Robertson"
+      }
     },
     {
-      "character": {
-        "name": "V.I.K.I.",
-        "imageUrl": ""
-      },
       "actorId": "edad30aff236208021f6695b",
-      "name": "Fiona Hogan"
+      "character": {
+        "name": "V.I.K.I."
+      }
     }
   ],
   "collections": [

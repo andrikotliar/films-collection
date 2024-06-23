@@ -65,100 +65,76 @@
   "duration": 137,
   "cast": [
     {
-      "character": {
-        "name": "Dominic Toretto",
-        "imageUrl": ""
-      },
       "actorId": "8acb4ceb24e197fffd95c777",
-      "name": "Vin Diesel"
+      "character": {
+        "name": "Dominic Toretto"
+      }
     },
     {
-      "character": {
-        "name": "Brian O'Conner",
-        "imageUrl": ""
-      },
       "actorId": "61f64cb0f58dc3c12fc0c193",
-      "name": "Paul Walker"
+      "character": {
+        "name": "Brian O'Conner"
+      }
     },
     {
-      "character": {
-        "name": "Deckard Shaw",
-        "imageUrl": ""
-      },
       "actorId": "de0e3c154d6e85358e70d67b",
-      "name": "Jason Statham"
+      "character": {
+        "name": "Deckard Shaw"
+      }
     },
     {
-      "character": {
-        "name": "Letty",
-        "imageUrl": ""
-      },
       "actorId": "f19c147b933b4ed2c5574ef6",
-      "name": "Michelle Rodriguez"
+      "character": {
+        "name": "Letty"
+      }
     },
     {
-      "character": {
-        "name": "Mia",
-        "imageUrl": ""
-      },
       "actorId": "84fe0dd000d931d469570852",
-      "name": "Jordana Brewster"
+      "character": {
+        "name": "Mia"
+      }
     },
     {
-      "character": {
-        "name": "Roman",
-        "imageUrl": ""
-      },
       "actorId": "643d66647de43eba364eb216",
-      "name": "Tyrese Gibson"
+      "character": {
+        "name": "Roman"
+      }
     },
     {
-      "character": {
-        "name": "Tej ",
-        "imageUrl": ""
-      },
       "actorId": "a461b95f153afa4d441b27b3",
-      "name": "Ludacris"
+      "character": {
+        "name": "Tej "
+      }
     },
     {
-      "character": {
-        "name": "Hobbs",
-        "imageUrl": ""
-      },
       "actorId": "ba034c3da56225c54e6b1545",
-      "name": "Dwayne Johnson"
+      "character": {
+        "name": "Hobbs"
+      }
     },
     {
-      "character": {
-        "name": "Sean Boswell",
-        "imageUrl": ""
-      },
       "actorId": "7e87e69b06923d36cfa10e9f",
-      "name": "Lucas Black"
+      "character": {
+        "name": "Sean Boswell"
+      }
     },
     {
-      "character": {
-        "name": "Mr. Nobody",
-        "imageUrl": ""
-      },
       "actorId": "aa95a96eaca156e9d7fdff51",
-      "name": "Kurt Russell"
+      "character": {
+        "name": "Mr. Nobody"
+      }
     },
     {
-      "character": {
-        "name": "Ramsey",
-        "imageUrl": ""
-      },
       "actorId": "c7a61e281d1bedd029ca6dd3",
-      "name": "Nathalie Emmanuel"
+      "character": {
+        "name": "Ramsey"
+      }
     },
     {
-      "character": {
-        "name": "Elena",
-        "imageUrl": ""
-      },
       "actorId": "e4d6603c9b5bcfacefc268dd",
-      "name": "Elsa Pataky"
+      "character": {
+        "name": "Elena"
+      }
     }
   ],
   "collections": [

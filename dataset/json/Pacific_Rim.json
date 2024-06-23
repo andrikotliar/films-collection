@@ -72,68 +72,52 @@
   "duration": 132,
   "cast": [
     {
-      "character": {
-        "name": "Raleigh Becket",
-        "imageUrl": ""
-      },
       "actorId": "c652b62c969e915bf4644318",
-      "name": "Charlie Hunnam"
+      "character": {
+        "name": "Raleigh Becket"
+      }
     },
     {
-      "character": {
-        "name": "Stacker Pentecost",
-        "imageUrl": ""
-      },
       "actorId": "ae8fde81451592bb39107acc",
-      "name": "Idris Elba"
+      "character": {
+        "name": "Stacker Pentecost"
+      }
     },
     {
-      "character": {
-        "name": "Mako Mori",
-        "imageUrl": ""
-      },
       "actorId": "234efffcf96ac34bc42d0d42",
-      "name": "Rinko Kikuchi"
+      "character": {
+        "name": "Mako Mori"
+      }
     },
     {
-      "character": {
-        "name": "Dr. Newton Geiszler",
-        "imageUrl": ""
-      },
       "actorId": "5e8a8bbb54f2d5129781d2f0",
-      "name": "Charlie Day"
+      "character": {
+        "name": "Dr. Newton Geiszler"
+      }
     },
     {
-      "character": {
-        "name": "Herman Gottlieb",
-        "imageUrl": ""
-      },
       "actorId": "2bc21f5ef07103af47d045c4",
-      "name": "Burn Gorman"
+      "character": {
+        "name": "Herman Gottlieb"
+      }
     },
     {
-      "character": {
-        "name": "Herc Hansen",
-        "imageUrl": ""
-      },
       "actorId": "62c908c861f4166a2ba62aee",
-      "name": "Max Martini"
+      "character": {
+        "name": "Herc Hansen"
+      }
     },
     {
-      "character": {
-        "name": "Chuck Hansen",
-        "imageUrl": ""
-      },
       "actorId": "cc6ab9ac2d6bf1eae11f5f1c",
-      "name": "Robert Kazinsky"
+      "character": {
+        "name": "Chuck Hansen"
+      }
     },
     {
-      "character": {
-        "name": "Hannibal Chau",
-        "imageUrl": ""
-      },
       "actorId": "99a594ea30bfbb53eab240ea",
-      "name": "Ron Perlman"
+      "character": {
+        "name": "Hannibal Chau"
+      }
     }
   ],
   "collections": [

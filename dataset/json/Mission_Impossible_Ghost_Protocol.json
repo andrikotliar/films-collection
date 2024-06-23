@@ -68,44 +68,34 @@
   "duration": 133,
   "cast": [
     {
-      "character": {
-        "name": "Ethan Hunt",
-        "imageUrl": ""
-      },
       "actorId": "d1899eef1c53bc13798a897c",
-      "name": "Tom Cruise"
+      "character": {
+        "name": "Ethan Hunt"
+      }
     },
     {
-      "character": {
-        "name": "Jane",
-        "imageUrl": ""
-      },
       "actorId": "dbed75996832076f78882cf8",
-      "name": "Paula Patton"
+      "character": {
+        "name": "Jane"
+      }
     },
     {
-      "character": {
-        "name": "Benji",
-        "imageUrl": ""
-      },
       "actorId": "2e7736bf7187e688395d7a2c",
-      "name": "Simon Pegg"
+      "character": {
+        "name": "Benji"
+      }
     },
     {
-      "character": {
-        "name": "Brandt",
-        "imageUrl": ""
-      },
       "actorId": "333fe7873ab5451125a195a7",
-      "name": "Jeremy Renner"
+      "character": {
+        "name": "Brandt"
+      }
     },
     {
-      "character": {
-        "name": "Hendricks",
-        "imageUrl": ""
-      },
       "actorId": "c418b9e3237cdf8d4c085bbe",
-      "name": "Michael Nyqvist"
+      "character": {
+        "name": "Hendricks"
+      }
     }
   ],
   "collections": [

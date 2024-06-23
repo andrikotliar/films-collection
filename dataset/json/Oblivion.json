@@ -71,60 +71,46 @@
   "duration": 124,
   "cast": [
     {
-      "character": {
-        "name": "Jack",
-        "imageUrl": ""
-      },
       "actorId": "d1899eef1c53bc13798a897c",
-      "name": "Tom Cruise"
+      "character": {
+        "name": "Jack"
+      }
     },
     {
-      "character": {
-        "name": "Beech",
-        "imageUrl": ""
-      },
       "actorId": "6baca3c5f3dcf4fb1271cb34",
-      "name": "Morgan Freeman"
+      "character": {
+        "name": "Beech"
+      }
     },
     {
-      "character": {
-        "name": "Julia",
-        "imageUrl": ""
-      },
       "actorId": "b9175a2816503116bd2f93a9",
-      "name": "Olga Kurylenko"
+      "character": {
+        "name": "Julia"
+      }
     },
     {
-      "character": {
-        "name": "Victoria",
-        "imageUrl": ""
-      },
       "actorId": "1185a3db4eec857e88bed02c",
-      "name": "Andrea Riseborough"
+      "character": {
+        "name": "Victoria"
+      }
     },
     {
-      "character": {
-        "name": "Sykes",
-        "imageUrl": ""
-      },
       "actorId": "3af14321bca7132f3736dc1c",
-      "name": "Nikolaj Coster-Waldau"
+      "character": {
+        "name": "Sykes"
+      }
     },
     {
-      "character": {
-        "name": "Sally",
-        "imageUrl": ""
-      },
       "actorId": "28a62a24f002bf0e56db149d",
-      "name": "Melissa Leo"
+      "character": {
+        "name": "Sally"
+      }
     },
     {
-      "character": {
-        "name": "Kara",
-        "imageUrl": ""
-      },
       "actorId": "2e2185c1a6f85a0d516c3cbf",
-      "name": "Zoe Bell"
+      "character": {
+        "name": "Kara"
+      }
     }
   ],
   "collections": [

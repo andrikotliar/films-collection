@@ -60,118 +60,100 @@
   "duration": 157,
   "cast": [
     {
-      "character": {
-        "name": "Harry Potter",
-        "imageUrl": ""
-      },
       "actorId": "7cd730dd761c711d4467bce0",
-      "name": "Daniel Radcliffe"
+      "character": {
+        "name": "Harry Potter"
+      }
     },
     {
-      "character": {
-        "name": "Ron Weasley",
-        "imageUrl": ""
-      },
       "actorId": "076188ec6b66a2c4a62fdab1",
-      "name": "Rupert Grint"
+      "character": {
+        "name": "Ron Weasley"
+      }
     },
     {
-      "character": {
-        "name": "Hermione Granger",
-        "imageUrl": ""
-      },
       "actorId": "3f0004fa95271000de67d1f4",
-      "name": "Emma Watson"
+      "character": {
+        "name": "Hermione Granger"
+      }
     },
     {
-      "character": {
-        "name": "Cedric Diggory",
-        "imageUrl": ""
-      },
       "actorId": "be5a364626b5e5843ae62363",
-      "name": "Robert Pattinson"
+      "character": {
+        "name": "Cedric Diggory"
+      }
     },
     {
-      "character": {
-        "name": "Lord Voldemort",
-        "imageUrl": ""
-      },
       "actorId": "25210612f77f5f5a4c51dc56",
-      "name": "Ralph Fiennes"
+      "character": {
+        "name": "Lord Voldemort"
+      }
     },
     {
-      "character": {
-        "name": "Albus Dumbledore",
-        "imageUrl": ""
-      },
       "actorId": "5cd30ae8b35b8110d0a1bc75",
-      "name": "Richard Harris"
+      "character": {
+        "name": "Albus Dumbledore"
+      }
     },
     {
-      "character": {
-        "name": "Rubeus Hagrid",
-        "imageUrl": ""
-      },
       "actorId": "5aea15b4e9912ad7b3a2241e",
-      "name": "Robbie Coltrane"
+      "character": {
+        "name": "Rubeus Hagrid"
+      }
     },
     {
-      "character": {
-        "name": "Severus Snape",
-        "imageUrl": ""
-      },
       "actorId": "9433a6747c6cfc354fed7e65",
-      "name": "Alan Rickman"
-    },
-    {
       "character": {
-        "name": "Draco Malfoy",
-        "imageUrl": ""
-      },
-      "actorId": "aca6f583677ffb4c7f38d469",
-      "name": "Tom Felton"
+        "name": "Severus Snape"
+      }
     },
     {
+      "actorId": "aca6f583677ffb4c7f38d469",
+      "character": {
+        "name": "Draco Malfoy"
+      }
+    },
+    {
+      "actorId": "e71508eae9b74ef9ed9015d3",
       "character": {
         "name": "Barty Crouch Junior"
-      },
-      "actorId": "e71508eae9b74ef9ed9015d3"
+      }
     },
     {
+      "actorId": "4b5c21e9d471602b07a865a5",
       "character": {
         "name": "Fleur Delacour"
-      },
-      "actorId": "4b5c21e9d471602b07a865a5"
+      }
     },
     {
+      "actorId": "a0b80add73e1eaf43e9aebe5",
       "character": {
         "name": "Alastor Moody"
-      },
-      "actorId": "a0b80add73e1eaf43e9aebe5"
+      }
     },
     {
+      "actorId": "7c8f0b1de7ecf27f246a8ef9",
       "character": {
         "name": "Minerva McGonagall"
-      },
-      "actorId": "7c8f0b1de7ecf27f246a8ef9"
+      }
     },
     {
+      "actorId": "a1ac47d3d1eb0228b7b5830c",
       "character": {
         "name": "Karkaroff's Aide"
-      },
-      "actorId": "a1ac47d3d1eb0228b7b5830c"
+      }
     },
     {
+      "actorId": "a0b412a14e0e01cb984f4ea8",
       "character": {
         "name": "Barty Crouch"
-      },
-      "actorId": "a0b412a14e0e01cb984f4ea8"
+      }
     },
     {
+      "actorId": "81fab3af8fac371b8331dfd0",
       "character": {
         "name": "Madame Olympe Maxime"
-      },
-      "actorId": "81fab3af8fac371b8331dfd0"
+      }
     }
   ],
   "collections": [

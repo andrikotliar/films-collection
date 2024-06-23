@@ -72,108 +72,82 @@
   "duration": 122,
   "cast": [
     {
-      "character": {
-        "name": "Captain James T. Kirk",
-        "imageUrl": ""
-      },
       "actorId": "3acb4259a5ddd7988015fa82",
-      "name": "Chris Pine"
+      "character": {
+        "name": "Captain James T. Kirk"
+      }
     },
     {
-      "character": {
-        "name": "Commander Spock",
-        "imageUrl": ""
-      },
       "actorId": "6565f3834cdb77b3e044b64e",
-      "name": "Zachary Quinto"
+      "character": {
+        "name": "Commander Spock"
+      }
     },
     {
-      "character": {
-        "name": "Doctor 'Bones' McCoy",
-        "imageUrl": ""
-      },
       "actorId": "073830510a0bae3dde5820c2",
-      "name": "Karl Urban"
+      "character": {
+        "name": "Doctor 'Bones' McCoy"
+      }
     },
     {
-      "character": {
-        "name": "Uhura",
-        "imageUrl": ""
-      },
       "actorId": "0f44c8581608c442261413e4",
-      "name": "Zoe Saldana"
+      "character": {
+        "name": "Uhura"
+      }
     },
     {
-      "character": {
-        "name": "Montgomery 'Scotty' Scott",
-        "imageUrl": ""
-      },
       "actorId": "2e7736bf7187e688395d7a2c",
-      "name": "Simon Pegg"
+      "character": {
+        "name": "Montgomery 'Scotty' Scott"
+      }
     },
     {
-      "character": {
-        "name": "Sulu",
-        "imageUrl": ""
-      },
       "actorId": "ee843d8f40f25554b7057454",
-      "name": "John Cho"
+      "character": {
+        "name": "Sulu"
+      }
     },
     {
-      "character": {
-        "name": "Chekov",
-        "imageUrl": ""
-      },
       "actorId": "f03c91b058f5592f442fd2cd",
-      "name": "Anton Yelchin"
+      "character": {
+        "name": "Chekov"
+      }
     },
     {
-      "character": {
-        "name": "Krall",
-        "imageUrl": ""
-      },
       "actorId": "ae8fde81451592bb39107acc",
-      "name": "Idris Elba"
+      "character": {
+        "name": "Krall"
+      }
     },
     {
-      "character": {
-        "name": "Jaylah",
-        "imageUrl": ""
-      },
       "actorId": "7beedeb001d52023b91799f5",
-      "name": "Sofia Boutella"
+      "character": {
+        "name": "Jaylah"
+      }
     },
     {
-      "character": {
-        "name": "Manas",
-        "imageUrl": ""
-      },
       "actorId": "9c7cda6570eef38dfe1c80d4",
-      "name": "Joe Taslim"
+      "character": {
+        "name": "Manas"
+      }
     },
     {
-      "character": {
-        "name": "Kalara",
-        "imageUrl": ""
-      },
       "actorId": "b40c33ad3183aaf58e1842d4",
-      "name": "Lydia Wilson"
+      "character": {
+        "name": "Kalara"
+      }
     },
     {
-      "character": {
-        "name": "Keenser",
-        "imageUrl": ""
-      },
       "actorId": "b14f54f90f87252354d54452",
-      "name": "Deep Roy"
+      "character": {
+        "name": "Keenser"
+      }
     },
     {
-      "character": {
-        "name": "Ensign Syl",
-        "imageUrl": ""
-      },
       "actorId": "6206eecfbf96866c9f7ceec5",
-      "name": "Melissa Roxburgh"
+      "character": {
+        "name": "Ensign Syl"
+      }
     }
   ],
   "collections": [

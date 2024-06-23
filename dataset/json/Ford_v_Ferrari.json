@@ -75,44 +75,34 @@
   "duration": 152,
   "cast": [
     {
-      "character": {
-        "name": "Carroll Shelby",
-        "imageUrl": ""
-      },
       "actorId": "1e69164177ea3946ddbd349e",
-      "name": "Matt Damon"
+      "character": {
+        "name": "Carroll Shelby"
+      }
     },
     {
-      "character": {
-        "name": "Ken Miles",
-        "imageUrl": ""
-      },
       "actorId": "b794f150c4436f17ba9bd9f1",
-      "name": "Christian Bale"
+      "character": {
+        "name": "Ken Miles"
+      }
     },
     {
-      "character": {
-        "name": "Mollie Miles",
-        "imageUrl": ""
-      },
       "actorId": "4721d15c1bb7efad191e90e4",
-      "name": "Caitriona Balfe"
+      "character": {
+        "name": "Mollie Miles"
+      }
     },
     {
-      "character": {
-        "name": "Peter Miles",
-        "imageUrl": ""
-      },
       "actorId": "08f4518a7166226e5800cc1d",
-      "name": "Noah Jupe"
+      "character": {
+        "name": "Peter Miles"
+      }
     },
     {
-      "character": {
-        "name": "Henry Ford II",
-        "imageUrl": ""
-      },
       "actorId": "d3bbe9abc5ec09c77b09f725",
-      "name": "Tracy Letts"
+      "character": {
+        "name": "Henry Ford II"
+      }
     }
   ],
   "collections": [

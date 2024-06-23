@@ -75,76 +75,58 @@
   "duration": 150,
   "cast": [
     {
-      "character": {
-        "name": "Sam Witwicky",
-        "imageUrl": ""
-      },
       "actorId": "24ad64557f5cc8cebf8194ae",
-      "name": "Shia LaBeouf"
+      "character": {
+        "name": "Sam Witwicky"
+      }
     },
     {
-      "character": {
-        "name": "Mikaela Banes",
-        "imageUrl": ""
-      },
       "actorId": "2d02a57112e9771b788d7986",
-      "name": "Megan Fox"
+      "character": {
+        "name": "Mikaela Banes"
+      }
     },
     {
-      "character": {
-        "name": "Major Lennox",
-        "imageUrl": ""
-      },
       "actorId": "34f40d0622d31ef4d6a23aa0",
-      "name": "Josh Duhamel"
+      "character": {
+        "name": "Major Lennox"
+      }
     },
     {
-      "character": {
-        "name": "Simmons",
-        "imageUrl": ""
-      },
       "actorId": "a830e599d126640fa1f7bb3b",
-      "name": "John Turturro"
+      "character": {
+        "name": "Simmons"
+      }
     },
     {
-      "character": {
-        "name": "Leo Spitz",
-        "imageUrl": ""
-      },
       "actorId": "99401b304b915b960c5c6bc9",
-      "name": "Ramon Rodriguez"
+      "character": {
+        "name": "Leo Spitz"
+      }
     },
     {
-      "character": {
-        "name": "Optimus Prime",
-        "imageUrl": ""
-      },
       "actorId": "c8535012fe7ed7ca107c0fe2",
-      "name": "Peter Cullen"
+      "character": {
+        "name": "Optimus Prime"
+      }
     },
     {
-      "character": {
-        "name": "Jetfire",
-        "imageUrl": ""
-      },
       "actorId": "b4f3568b7522d6badf6b1deb",
-      "name": "Mark Ryan"
+      "character": {
+        "name": "Jetfire"
+      }
     },
     {
-      "character": {
-        "name": "Megatron",
-        "imageUrl": ""
-      },
       "actorId": "9d72ccad0a0c60872b91d2d3",
-      "name": "Hugo Weaving"
+      "character": {
+        "name": "Megatron"
+      }
     },
     {
-      "character": {
-        "name": "Fallen",
-        "imageUrl": ""
-      },
       "actorId": "fe3a28c55f7885a6feb9f383",
-      "name": "Tony Todd"
+      "character": {
+        "name": "Fallen"
+      }
     }
   ],
   "collections": [

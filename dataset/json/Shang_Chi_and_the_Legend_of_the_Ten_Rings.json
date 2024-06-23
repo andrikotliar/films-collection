@@ -69,76 +69,58 @@
   "duration": 132,
   "cast": [
     {
-      "character": {
-        "name": "Shang-Chi",
-        "imageUrl": ""
-      },
       "actorId": "e4564ad755822d054312856f",
-      "name": "Simu Liu"
+      "character": {
+        "name": "Shang-Chi"
+      }
     },
     {
-      "character": {
-        "name": "Wenwu / Mandarin",
-        "imageUrl": ""
-      },
       "actorId": "cfe556abf1c2bb01e4b732ae",
-      "name": "Tony Chiu-Wai Leung"
+      "character": {
+        "name": "Wenwu / Mandarin"
+      }
     },
     {
-      "character": {
-        "name": "Katy",
-        "imageUrl": ""
-      },
       "actorId": "902d1a4d06fb8b0532302803",
-      "name": "Awkwafina"
+      "character": {
+        "name": "Katy"
+      }
     },
     {
-      "character": {
-        "name": "Xialing",
-        "imageUrl": ""
-      },
       "actorId": "3c6480c6bfac97f402c5a7d3",
-      "name": "Menger Zhang"
+      "character": {
+        "name": "Xialing"
+      }
     },
     {
-      "character": {
-        "name": "Ying Nan",
-        "imageUrl": ""
-      },
       "actorId": "df635dbc084250870e7144af",
-      "name": "Michelle Yeoh"
+      "character": {
+        "name": "Ying Nan"
+      }
     },
     {
-      "character": {
-        "name": "Wong",
-        "imageUrl": ""
-      },
       "actorId": "a775eca4841cce040addc4ca",
-      "name": "Benedict Wong"
+      "character": {
+        "name": "Wong"
+      }
     },
     {
-      "character": {
-        "name": "Abomination / Emile Blonsky",
-        "imageUrl": ""
-      },
       "actorId": "f4d0182de6e1978b1c26f2d6",
-      "name": "Tim Roth"
+      "character": {
+        "name": "Abomination / Emile Blonsky"
+      }
     },
     {
-      "character": {
-        "name": "Trevor Slattery",
-        "imageUrl": ""
-      },
       "actorId": "9db2779191ae86290f56c21b",
-      "name": "Ben Kingsley"
+      "character": {
+        "name": "Trevor Slattery"
+      }
     },
     {
-      "character": {
-        "name": "Razor Fist",
-        "imageUrl": ""
-      },
       "actorId": "def576aa06a90bef48570196",
-      "name": "Florian Munteanu"
+      "character": {
+        "name": "Razor Fist"
+      }
     }
   ],
   "collections": [

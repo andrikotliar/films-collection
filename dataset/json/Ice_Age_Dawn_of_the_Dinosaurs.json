@@ -64,76 +64,58 @@
   "duration": 94,
   "cast": [
     {
-      "character": {
-        "name": "Manny",
-        "imageUrl": ""
-      },
       "actorId": "42f1a4ee385ffea7f18e5917",
-      "name": "Ray Romano"
+      "character": {
+        "name": "Manny"
+      }
     },
     {
-      "character": {
-        "name": "Ellie",
-        "imageUrl": ""
-      },
       "actorId": "f6fed02d9050214e85119019",
-      "name": "Queen Latifah"
+      "character": {
+        "name": "Ellie"
+      }
     },
     {
-      "character": {
-        "name": "Diego",
-        "imageUrl": ""
-      },
       "actorId": "8e184aab53e75fde640c51ca",
-      "name": "Denis Leary"
+      "character": {
+        "name": "Diego"
+      }
     },
     {
-      "character": {
-        "name": "Sid",
-        "imageUrl": ""
-      },
       "actorId": "2dd54fece5f12f390a8fdec5",
-      "name": "John Leguizamo"
+      "character": {
+        "name": "Sid"
+      }
     },
     {
-      "character": {
-        "name": "Eddie",
-        "imageUrl": ""
-      },
       "actorId": "bae84c9e2847c1afa440f5bd",
-      "name": "Josh Peck"
+      "character": {
+        "name": "Eddie"
+      }
     },
     {
-      "character": {
-        "name": "Buck",
-        "imageUrl": ""
-      },
       "actorId": "2e7736bf7187e688395d7a2c",
-      "name": "Simon Pegg"
+      "character": {
+        "name": "Buck"
+      }
     },
     {
-      "character": {
-        "name": "Crash",
-        "imageUrl": ""
-      },
       "actorId": "087a6eba06297581c1ec2cfa",
-      "name": "Seann William Scott"
+      "character": {
+        "name": "Crash"
+      }
     },
     {
-      "character": {
-        "name": "Scrat",
-        "imageUrl": ""
-      },
       "actorId": "c7855b45bf1d2e150b375c54",
-      "name": "Chris Wedge"
+      "character": {
+        "name": "Scrat"
+      }
     },
     {
-      "character": {
-        "name": "Scratte",
-        "imageUrl": ""
-      },
       "actorId": "81336d40353bc9c436c675fb",
-      "name": "Karen Disher"
+      "character": {
+        "name": "Scratte"
+      }
     }
   ],
   "collections": [

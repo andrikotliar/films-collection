@@ -73,36 +73,28 @@
   "duration": 112,
   "cast": [
     {
-      "character": {
-        "name": "Philippe",
-        "imageUrl": ""
-      },
       "actorId": "106223d6f5fd026380a0c899",
-      "name": "Francois Cluzet"
+      "character": {
+        "name": "Philippe"
+      }
     },
     {
-      "character": {
-        "name": "Driss",
-        "imageUrl": ""
-      },
       "actorId": "800064d873a4ee8f8cea356f",
-      "name": "Omar Sy"
+      "character": {
+        "name": "Driss"
+      }
     },
     {
-      "character": {
-        "name": "Yvonne",
-        "imageUrl": ""
-      },
       "actorId": "13296cd002f2c0d5a16b5b4a",
-      "name": "Anne Le Ny"
+      "character": {
+        "name": "Yvonne"
+      }
     },
     {
-      "character": {
-        "name": "Magalie",
-        "imageUrl": ""
-      },
       "actorId": "a5c6ecb7a7fb6e3cf871e047",
-      "name": "Audrey Fleurot"
+      "character": {
+        "name": "Magalie"
+      }
     }
   ],
   "collections": [
