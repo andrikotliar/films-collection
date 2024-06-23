@@ -152,6 +152,12 @@
       },
       "actorId": "0cc9f0ab8904d4ee9ff25d05",
       "name": "Rene Russo"
+    },
+    {
+      "character": {
+        "name": "Darcy Lewis"
+      },
+      "actorId": "aa2d93faf92b4c807a30a533"
     }
   ],
   "collections": [

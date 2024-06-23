@@ -125,6 +125,12 @@
       },
       "actorId": "6fa14a3731b9660353c41487",
       "name": "Frank Oz"
+    },
+    {
+      "character": {
+        "name": "Boba Fett"
+      },
+      "actorId": "cefae971d17a334057ad7c60"
     }
   ],
   "collections": [

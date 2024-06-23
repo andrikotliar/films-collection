@@ -213,6 +213,24 @@
       },
       "actorId": "91b782dd50e7daac52080396",
       "name": "Jodhi May"
+    },
+    {
+      "character": {
+        "name": "Cahir"
+      },
+      "actorId": "27454ee592adde625c6dfaf4"
+    },
+    {
+      "character": {
+        "name": "Jaskier"
+      },
+      "actorId": "379a19913a9eb488c758dd9a"
+    },
+    {
+      "character": {
+        "name": "Vilgefortz"
+      },
+      "actorId": "833612b7b70e68df78ece124"
     }
   ],
   "collections": [

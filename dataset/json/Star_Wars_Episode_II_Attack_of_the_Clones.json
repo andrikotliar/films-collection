@@ -133,6 +133,12 @@
       },
       "actorId": "1a1c9f99f576101bb3f0d63f",
       "name": "Jimmy Smits"
+    },
+    {
+      "character": {
+        "name": "C-3PO"
+      },
+      "actorId": "8495e822d070b57837e0bf6e"
     }
   ],
   "collections": [

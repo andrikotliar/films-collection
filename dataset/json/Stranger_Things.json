@@ -233,6 +233,36 @@
       },
       "actorId": "c5578f884df0cb8b46cd43b8",
       "name": "Noah Schnapp"
+    },
+    {
+      "character": {
+        "name": "Dr. Martin Brenner"
+      },
+      "actorId": "ae59b91d424e2bfb80aa5ddb"
+    },
+    {
+      "character": {
+        "name": "Max Mayfield"
+      },
+      "actorId": "b8abdc76173c8624a4ff5c8e"
+    },
+    {
+      "character": {
+        "name": "Eddie Munson"
+      },
+      "actorId": "17b454c32564b8ecc3eaeef8"
+    },
+    {
+      "character": {
+        "name": "Vecna"
+      },
+      "actorId": "28a97f2df4abf759d00511f3"
+    },
+    {
+      "character": {
+        "name": "Billy Hargrove"
+      },
+      "actorId": "7d6b2c4c91b6daad7ababf0e"
     }
   ],
   "collections": [

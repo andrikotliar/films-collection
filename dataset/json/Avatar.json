@@ -133,6 +133,12 @@
       },
       "actorId": "3b762e0e7c6cf942574547b6",
       "name": "Laz Alonso"
+    },
+    {
+      "character": {
+        "name": "Mo'at"
+      },
+      "actorId": "d386a741d1c9e62ed1894b81"
     }
   ],
   "collections": [

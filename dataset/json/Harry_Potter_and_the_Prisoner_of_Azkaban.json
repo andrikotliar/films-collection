@@ -136,6 +136,12 @@
       },
       "actorId": "8220d1e507128ef20527db35",
       "name": "David Thewlis"
+    },
+    {
+      "character": {
+        "name": "Peter Pettigrew"
+      },
+      "actorId": "5f9f55af5a7d7527299b7b92"
     }
   ],
   "collections": [

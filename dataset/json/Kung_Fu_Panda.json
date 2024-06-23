@@ -139,6 +139,12 @@
       },
       "actorId": "ac0c86b4f56b6b569c2b37fb",
       "name": "Randall Duk Kim"
+    },
+    {
+      "character": {
+        "name": "Mr. Ping"
+      },
+      "actorId": "ba8c2781a07c02d7d6a45233"
     }
   ],
   "collections": [

@@ -136,6 +136,12 @@
       },
       "actorId": "d68661e62c37cc5eaefe65a8",
       "name": "Brett Cullen"
+    },
+    {
+      "character": {
+        "name": "Caretaker"
+      },
+      "actorId": "90080df72ecf3ca25ae0d24b"
     }
   ],
   "collections": [

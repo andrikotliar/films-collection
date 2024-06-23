@@ -128,6 +128,18 @@
       },
       "actorId": "aca6f583677ffb4c7f38d469",
       "name": "Tom Felton"
+    },
+    {
+      "character": {
+        "name": "Dobby"
+      },
+      "actorId": "0c745814f1b5b36341674138"
+    },
+    {
+      "character": {
+        "name": "Xenophilius Lovegood"
+      },
+      "actorId": "54976cd277ab4a63171411b7"
     }
   ],
   "collections": [
