@@ -142,6 +142,24 @@
       },
       "actorId": "25d91c81e9e6d9044c52fa9b",
       "name": "Peter Mayhew"
+    },
+    {
+      "character": {
+        "name": "Captain Phasma"
+      },
+      "actorId": "a834eb244fbdfc92bd0e5b4a"
+    },
+    {
+      "character": {
+        "name": "General Hux"
+      },
+      "actorId": "ed556b2fb295cedc56c45779"
+    },
+    {
+      "character": {
+        "name": "C-3PO"
+      },
+      "actorId": "8495e822d070b57837e0bf6e"
     }
   ],
   "collections": [

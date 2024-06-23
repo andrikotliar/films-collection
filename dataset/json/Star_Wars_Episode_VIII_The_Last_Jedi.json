@@ -133,6 +133,18 @@
       },
       "actorId": "a834eb244fbdfc92bd0e5b4a",
       "name": "Gwendoline Christie"
+    },
+    {
+      "character": {
+        "name": "General Hux"
+      },
+      "actorId": "ed556b2fb295cedc56c45779"
+    },
+    {
+      "character": {
+        "name": "Vice Admiral Holdo"
+      },
+      "actorId": "447021eba8815c4ef5979744"
     }
   ],
   "collections": [

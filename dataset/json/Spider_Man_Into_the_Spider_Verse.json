@@ -160,6 +160,12 @@
       },
       "actorId": "847cefcbba651553301ec62e",
       "name": "Liev Schreiber"
+    },
+    {
+      "character": {
+        "name": "Doc Ock"
+      },
+      "actorId": "bb56b08e5530d902cb75c719"
     }
   ],
   "collections": [

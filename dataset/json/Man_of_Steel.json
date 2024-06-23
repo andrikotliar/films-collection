@@ -147,6 +147,12 @@
       },
       "actorId": "725a8044192aa9f6bf196796",
       "name": "Kevin Costner"
+    },
+    {
+      "character": {
+        "name": "Perry White"
+      },
+      "actorId": "598ea6d5be8fe378787adde7"
     }
   ],
   "collections": [

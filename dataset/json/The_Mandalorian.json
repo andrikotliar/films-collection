@@ -218,6 +218,12 @@
       },
       "actorId": "07d0f36cefa97ad89f2bcc13",
       "name": "Nick Nolte"
+    },
+    {
+      "character": {
+        "name": "The Armorer"
+      },
+      "actorId": "0cdba35b7b82464350279a22"
     }
   ],
   "collections": [

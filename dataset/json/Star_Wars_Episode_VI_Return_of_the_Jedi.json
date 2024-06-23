@@ -117,6 +117,18 @@
       },
       "actorId": "6fa14a3731b9660353c41487",
       "name": "Frank Oz"
+    },
+    {
+      "character": {
+        "name": "Boba Fett"
+      },
+      "actorId": "cefae971d17a334057ad7c60"
+    },
+    {
+      "character": {
+        "name": "The Emperor"
+      },
+      "actorId": "6f8deae8b3c545936d5a285e"
     }
   ],
   "collections": [

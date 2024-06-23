@@ -117,6 +117,12 @@
       },
       "actorId": "7b7437d683e231f7f746d770",
       "name": "Chris Miller"
+    },
+    {
+      "character": {
+        "name": "Maurice"
+      },
+      "actorId": "6aa1512f81dda6fbd3d8f7ef"
     }
   ],
   "collections": [

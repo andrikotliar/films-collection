@@ -130,6 +130,48 @@
       },
       "actorId": "aca6f583677ffb4c7f38d469",
       "name": "Tom Felton"
+    },
+    {
+      "character": {
+        "name": "Barty Crouch Junior"
+      },
+      "actorId": "e71508eae9b74ef9ed9015d3"
+    },
+    {
+      "character": {
+        "name": "Fleur Delacour"
+      },
+      "actorId": "4b5c21e9d471602b07a865a5"
+    },
+    {
+      "character": {
+        "name": "Alastor Moody"
+      },
+      "actorId": "a0b80add73e1eaf43e9aebe5"
+    },
+    {
+      "character": {
+        "name": "Minerva McGonagall"
+      },
+      "actorId": "7c8f0b1de7ecf27f246a8ef9"
+    },
+    {
+      "character": {
+        "name": "Karkaroff's Aide"
+      },
+      "actorId": "a1ac47d3d1eb0228b7b5830c"
+    },
+    {
+      "character": {
+        "name": "Barty Crouch"
+      },
+      "actorId": "a0b412a14e0e01cb984f4ea8"
+    },
+    {
+      "character": {
+        "name": "Madame Olympe Maxime"
+      },
+      "actorId": "81fab3af8fac371b8331dfd0"
     }
   ],
   "collections": [

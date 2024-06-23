@@ -138,6 +138,12 @@
       },
       "actorId": "37ad50188f4fc0eb900c920e",
       "name": "Garry Shandling"
+    },
+    {
+      "character": {
+        "name": "Happy Hogan"
+      },
+      "actorId": "1d64586d1509495ad522cffe"
     }
   ],
   "collections": [

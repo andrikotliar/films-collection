@@ -136,6 +136,12 @@
       },
       "actorId": "e28338f3ae267cd8cab714fe",
       "name": "Mads Mikkelsen"
+    },
+    {
+      "character": {
+        "name": "Bodhi Rook"
+      },
+      "actorId": "ff795ec712c7e62204b6c67b"
     }
   ],
   "collections": [

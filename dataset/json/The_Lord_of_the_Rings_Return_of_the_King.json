@@ -145,6 +145,42 @@
       },
       "actorId": "e5253cdc8c1fb87953720d64",
       "name": "Andy Serkis"
+    },
+    {
+      "character": {
+        "name": "Denethor"
+      },
+      "actorId": "20efa4c64021c69982d7f5fd"
+    },
+    {
+      "character": {
+        "name": "Pippin"
+      },
+      "actorId": "ce9f35f697acd8a8d4ac4242"
+    },
+    {
+      "character": {
+        "name": "Merry"
+      },
+      "actorId": "d981869f14315c851cdcb1dd"
+    },
+    {
+      "character": {
+        "name": "Theoden"
+      },
+      "actorId": "9054c0064f19a48344d6d874"
+    },
+    {
+      "character": {
+        "name": "Arwen"
+      },
+      "actorId": "efc61c81c4fdcdbf339820e8"
+    },
+    {
+      "character": {
+        "name": "Eowyn"
+      },
+      "actorId": "1e6f63ac26841c5c35756f43"
     }
   ],
   "collections": [

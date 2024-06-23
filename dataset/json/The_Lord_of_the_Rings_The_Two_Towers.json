@@ -150,6 +150,36 @@
       },
       "actorId": "e5253cdc8c1fb87953720d64",
       "name": "Andy Serkis"
+    },
+    {
+      "character": {
+        "name": "Eomer"
+      },
+      "actorId": "073830510a0bae3dde5820c2"
+    },
+    {
+      "character": {
+        "name": "Eowyn"
+      },
+      "actorId": "1e6f63ac26841c5c35756f43"
+    },
+    {
+      "character": {
+        "name": "Boromir"
+      },
+      "actorId": "fbd425127f3664acfe49428a"
+    },
+    {
+      "character": {
+        "name": "Pippin"
+      },
+      "actorId": "ce9f35f697acd8a8d4ac4242"
+    },
+    {
+      "character": {
+        "name": "Merry"
+      },
+      "actorId": "d981869f14315c851cdcb1dd"
     }
   ],
   "collections": [
