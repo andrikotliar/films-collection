@@ -115,6 +115,20 @@
     },
     {
       "character": {
+        "name": "Professor Minerva McGonagall",
+        "imageUrl": ""
+      },
+      "actorId": "7c8f0b1de7ecf27f246a8ef9"
+    },
+    {
+      "character": {
+        "name": "Neville Longbottom",
+        "imageUrl": ""
+      },
+      "actorId": "c48140776a00c66306d075b6"
+    },
+    {
+      "character": {
         "name": "Rubeus Hagrid",
         "imageUrl": ""
       },
