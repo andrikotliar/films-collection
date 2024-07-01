@@ -76,34 +76,60 @@
   "duration": 108,
   "cast": [
     {
+      "character": {
+        "name": "Mumble",
+        "imageUrl": ""
+      },
       "actorId": "afed96df0db76b317cb36711",
-      "character": {
-        "name": "Mumble"
-      }
+      "name": "Elijah Wood"
     },
     {
+      "character": {
+        "name": "Gloria",
+        "imageUrl": ""
+      },
       "actorId": "46cb6620a73ad72d46726772",
-      "character": {
-        "name": "Gloria"
-      }
+      "name": "Brittany Murphy"
     },
     {
+      "character": {
+        "name": "Memphis",
+        "imageUrl": ""
+      },
       "actorId": "544abb6ffddc8ddf4056b862",
-      "character": {
-        "name": "Memphis"
-      }
+      "name": "Hugh Jackman"
     },
     {
+      "character": {
+        "name": "Norma Jean",
+        "imageUrl": ""
+      },
       "actorId": "e6459d81bab075fc3755cec2",
-      "character": {
-        "name": "Norma Jean"
-      }
+      "name": "Nicole Kidman"
     },
     {
-      "actorId": "9d72ccad0a0c60872b91d2d3",
       "character": {
-        "name": "Noah the Elder"
-      }
+        "name": "Noah the Elder",
+        "imageUrl": ""
+      },
+      "actorId": "9d72ccad0a0c60872b91d2d3",
+      "name": "Hugo Weaving"
+    },
+    {
+      "character": {
+        "name": "Nestor",
+        "imageUrl": ""
+      },
+      "actorId": "56a24ac0e193c7b97e9f9198",
+      "name": "Carlos Alazraqui"
+    },
+    {
+      "character": {
+        "name": "Ramon / Lovelace",
+        "imageUrl": ""
+      },
+      "actorId": "f5de152199c29694307ff207",
+      "name": "Robin Williams"
     }
   ],
   "collections": [

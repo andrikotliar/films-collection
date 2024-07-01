@@ -99,6 +99,18 @@
       "character": {
         "name": "Mr. Ellingboe"
       }
+    },
+    {
+      "actorId": "16931bed1d04b87b0c89cdee",
+      "character": {
+        "name": "Mrs. Krum"
+      }
+    },
+    {
+      "actorId": "69f59ca7d9c8d6ab71058cae",
+      "character": {
+        "name": "Mogens"
+      }
     }
   ],
   "collections": [
