@@ -103,7 +103,8 @@
     {
       "actorId": "3090a68b40a7bfda7b1d93b8",
       "character": {
-        "name": "Baron Vladimir Harkonnen"
+        "name": "Baron Vladimir Harkonnen",
+        "imageUrl": "dune_baron_vladimir_harkonnen.webp"
       }
     },
     {

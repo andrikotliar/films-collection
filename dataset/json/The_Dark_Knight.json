@@ -74,13 +74,15 @@
     {
       "actorId": "b794f150c4436f17ba9bd9f1",
       "character": {
-        "name": "Bruce Wayne"
+        "name": "Bruce Wayne",
+        "imageUrl": "the_dark_knight_bruce_wayne.webp"
       }
     },
     {
       "actorId": "38819b839dc85832482d016b",
       "character": {
-        "name": "Joker"
+        "name": "Joker",
+        "imageUrl": "the_dark_knight_joker.webp"
       }
     },
     {

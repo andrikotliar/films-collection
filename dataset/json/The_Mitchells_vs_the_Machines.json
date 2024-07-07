@@ -64,43 +64,50 @@
     {
       "actorId": "108b2572a2af4f88f84630a0",
       "character": {
-        "name": "Katie Mitchell"
+        "name": "Katie Mitchell",
+        "imageUrl": "the_mitchells_vs_the_machines_katie_mitchell.webp"
       }
     },
     {
       "actorId": "c444bbd7ed8bdaf40773ad70",
       "character": {
-        "name": "Rick Mitchell"
+        "name": "Rick Mitchell",
+        "imageUrl": "the_mitchells_vs_the_machines_rick_mitchell.webp"
       }
     },
     {
       "actorId": "655cd2f546bc47e60aed74f6",
       "character": {
-        "name": "Linda Mitchell"
+        "name": "Linda Mitchell",
+        "imageUrl": "the_mitchells_vs_the_machines_linda_mitchell.webp"
       }
     },
     {
       "actorId": "3e35ddade59b3973c0e80d5f",
       "character": {
-        "name": "Aaron Mitchell"
+        "name": "Aaron Mitchell",
+        "imageUrl": "the_mitchells_vs_the_machines_aaron_mitchell.webp"
       }
     },
     {
       "actorId": "fc06251840c6d7396852bc40",
       "character": {
-        "name": "PAL"
+        "name": "PAL",
+        "imageUrl": "the_mitchells_vs_the_machines_pal.webp"
       }
     },
     {
       "actorId": "3461ed4d01248fd1025b7f55",
       "character": {
-        "name": "Dr. Mark Bowman"
+        "name": "Dr. Mark Bowman",
+        "imageUrl": "the_mitchells_vs_the_machines_dr_mark_bowman.webp"
       }
     },
     {
       "actorId": "8d0985ead370e0071f779bf0",
       "character": {
-        "name": "Deborahbot 5000"
+        "name": "Deborahbot 5000",
+        "imageUrl": "the_mitchells_vs_the_machines_deborahbot_5000.webp"
       }
     }
   ],

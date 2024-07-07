@@ -74,19 +74,22 @@
     {
       "actorId": "b6c60930f5f74a488d2429ff",
       "character": {
-        "name": "Adrian Toomes / Vulture"
+        "name": "Adrian Toomes / Vulture",
+        "imageUrl": "spider_man_homecoming_adrian_toomes.webp"
       }
     },
     {
       "actorId": "7724f9a2549d742da5d02985",
       "character": {
-        "name": "Peter Parker / Spider-Man"
+        "name": "Peter Parker / Spider-Man",
+        "imageUrl": "spider_man_homecoming_peter_parker.webp"
       }
     },
     {
       "actorId": "68eac2af31419390d7f727fd",
       "character": {
-        "name": "Tony Stark / Iron Man"
+        "name": "Tony Stark / Iron Man",
+        "imageUrl": "spider_man_homecoming_tony_stark.webp"
       }
     },
     {

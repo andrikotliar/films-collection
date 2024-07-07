@@ -74,7 +74,8 @@
     {
       "actorId": "4944de362b32c61551474862",
       "character": {
-        "name": "Spider-Man / Peter Parker"
+        "name": "Spider-Man / Peter Parker",
+        "imageUrl": "the_amazing_spider_man_spider-man.webp"
       }
     },
     {
@@ -86,7 +87,8 @@
     {
       "actorId": "54976cd277ab4a63171411b7",
       "character": {
-        "name": "The Lizard / Dr. Curt Connors"
+        "name": "The Lizard / Dr. Curt Connors",
+        "imageUrl": "the_amazing_spider_man_the_lizard.webp"
       }
     },
     {

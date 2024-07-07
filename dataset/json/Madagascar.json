@@ -65,49 +65,57 @@
     {
       "actorId": "30c03c6976ec24262f37bfc6",
       "character": {
-        "name": "Alex"
+        "name": "Alex",
+        "imageUrl": "madagascar_alex.webp"
       }
     },
     {
       "actorId": "ce3b1d5495190d8116dea108",
       "character": {
-        "name": "Marty"
+        "name": "Marty",
+        "imageUrl": "madagascar_marty.webp"
       }
     },
     {
       "actorId": "a292c106f01b7650bbe0c49f",
       "character": {
-        "name": "Melman"
+        "name": "Melman",
+        "imageUrl": "madagascar_melman.webp"
       }
     },
     {
       "actorId": "544db30160fa4bfa12603ee5",
       "character": {
-        "name": "Gloria"
+        "name": "Gloria",
+        "imageUrl": "madagascar_gloria.webp"
       }
     },
     {
       "actorId": "305954b13aa2aaf70e71c864",
       "character": {
-        "name": "Julien"
+        "name": "Julien",
+        "imageUrl": "madagascar_julien.webp"
       }
     },
     {
       "actorId": "703b49e5d14fbe3506c1dd6b",
       "character": {
-        "name": "Skipper"
+        "name": "Skipper",
+        "imageUrl": "madagascar_skipper.webp"
       }
     },
     {
       "actorId": "7b7437d683e231f7f746d770",
       "character": {
-        "name": "Kowalski"
+        "name": "Kowalski",
+        "imageUrl": "madagascar_kowalski.webp"
       }
     },
     {
       "actorId": "6aa1512f81dda6fbd3d8f7ef",
       "character": {
-        "name": "Maurice"
+        "name": "Maurice",
+        "imageUrl": "madagascar_maurice.webp"
       }
     }
   ],

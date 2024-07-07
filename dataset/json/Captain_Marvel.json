@@ -83,7 +83,8 @@
     {
       "actorId": "5e8de99fe5c4235fb362b719",
       "character": {
-        "name": "Talos / Keller"
+        "name": "Talos / Keller",
+        "imageUrl": "captain_marvel_talos.webp"
       }
     },
     {
@@ -113,13 +114,15 @@
     {
       "actorId": "00ad35eca0c1a04d476d2577",
       "character": {
-        "name": "Bron-Char"
+        "name": "Bron-Char",
+        "imageUrl": "captain_marvel_bron-char.webp"
       }
     },
     {
       "actorId": "1b18bc88f980f0f3cc8dcd70",
       "character": {
-        "name": "Minn-Erva"
+        "name": "Minn-Erva",
+        "imageUrl": "captain_marvel_minn-erva.webp"
       }
     },
     {

@@ -68,7 +68,8 @@
     {
       "actorId": "effff288934815f0bb627401",
       "character": {
-        "name": "Bruce Banner / Hulk"
+        "name": "Bruce Banner / Hulk",
+        "imageUrl": "the_incredible_hulk_bruce_banner.webp"
       }
     },
     {
@@ -80,7 +81,8 @@
     {
       "actorId": "f4d0182de6e1978b1c26f2d6",
       "character": {
-        "name": "Emil Blonsky / Abomination"
+        "name": "Emil Blonsky / Abomination",
+        "imageUrl": "the_incredible_hulk_emil_blonsky.webp"
       }
     },
     {

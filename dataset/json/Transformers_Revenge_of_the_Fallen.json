@@ -107,25 +107,29 @@
     {
       "actorId": "c8535012fe7ed7ca107c0fe2",
       "character": {
-        "name": "Optimus Prime"
+        "name": "Optimus Prime",
+        "imageUrl": "transformers_revenge_of_the_fallen_optimus_prime.webp"
       }
     },
     {
       "actorId": "b4f3568b7522d6badf6b1deb",
       "character": {
-        "name": "Jetfire"
+        "name": "Jetfire",
+        "imageUrl": "transformers_revenge_of_the_fallen_jetfire.webp"
       }
     },
     {
       "actorId": "9d72ccad0a0c60872b91d2d3",
       "character": {
-        "name": "Megatron"
+        "name": "Megatron",
+        "imageUrl": "transformers_revenge_of_the_fallen_megatron.webp"
       }
     },
     {
       "actorId": "fe3a28c55f7885a6feb9f383",
       "character": {
-        "name": "Fallen"
+        "name": "Fallen",
+        "imageUrl": "transformers_revenge_of_the_fallen_fallen.webp"
       }
     }
   ],

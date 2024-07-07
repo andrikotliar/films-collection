@@ -65,7 +65,8 @@
     {
       "actorId": "68eac2af31419390d7f727fd",
       "character": {
-        "name": "Tony Stark / Iron Man"
+        "name": "Tony Stark / Iron Man",
+        "imageUrl": "iron_man_3_tony_stark.webp"
       }
     },
     {
@@ -77,7 +78,8 @@
     {
       "actorId": "84a7fc06c915c5463cc7ce32",
       "character": {
-        "name": "Colonel James Rhodes"
+        "name": "Colonel James Rhodes",
+        "imageUrl": "iron_man_3_james_rhodes.webp"
       }
     },
     {

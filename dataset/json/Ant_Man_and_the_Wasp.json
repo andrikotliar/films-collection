@@ -71,13 +71,15 @@
     {
       "actorId": "5d474df7bc79a3784ee0df3a",
       "character": {
-        "name": "Scott Lang / Ant-Man"
+        "name": "Scott Lang / Ant-Man",
+        "imageUrl": "ant_man_and_the_wasp_scott_lang.webp"
       }
     },
     {
       "actorId": "cbea23272f6d430dd37d2296",
       "character": {
-        "name": "Hope Van Dyne / New Wasp"
+        "name": "Hope Van Dyne / New Wasp",
+        "imageUrl": "ant_man_and_the_wasp_hope_van_dyne.webp"
       }
     },
     {
@@ -89,7 +91,8 @@
     {
       "actorId": "ceed7f04919d7706e670c146",
       "character": {
-        "name": "Ava / Ghost"
+        "name": "Ava / Ghost",
+        "imageUrl": "ant_man_and_the_wasp_ava.webp"
       }
     },
     {

@@ -68,19 +68,22 @@
     {
       "actorId": "7cd730dd761c711d4467bce0",
       "character": {
-        "name": "Harry Potter"
+        "name": "Harry Potter",
+        "imageUrl": "harry_potter_and_the_deathly_hallows_part_i_harry_potter.webp"
       }
     },
     {
       "actorId": "076188ec6b66a2c4a62fdab1",
       "character": {
-        "name": "Ron Weasley"
+        "name": "Ron Weasley",
+        "imageUrl": "harry_potter_and_the_deathly_hallows_part_i_ron_weasley.webp"
       }
     },
     {
       "actorId": "3f0004fa95271000de67d1f4",
       "character": {
-        "name": "Hermione Granger"
+        "name": "Hermione Granger",
+        "imageUrl": "harry_potter_and_the_deathly_hallows_part_i_hermione_granger.webp"
       }
     },
     {
@@ -116,7 +119,8 @@
     {
       "actorId": "0c745814f1b5b36341674138",
       "character": {
-        "name": "Dobby"
+        "name": "Dobby",
+        "imageUrl": "harry_potter_and_the_deathly_hallows_part_i_dobby.webp"
       }
     },
     {

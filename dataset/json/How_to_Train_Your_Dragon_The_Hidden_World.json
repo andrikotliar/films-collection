@@ -57,31 +57,36 @@
     {
       "actorId": "a7d35039857e23987e0e044c",
       "character": {
-        "name": "Hiccup"
+        "name": "Hiccup",
+        "imageUrl": "how_to_train_your_dragon_the_hidden_world_hiccup.webp"
       }
     },
     {
       "actorId": "6c95d5ee7e91ad5d5e781165",
       "character": {
-        "name": "Astrid "
+        "name": "Astrid ",
+        "imageUrl": "how_to_train_your_dragon_the_hidden_world_astrid.webp"
       }
     },
     {
       "actorId": "220fe3aec36d9185f6ff5add",
       "character": {
-        "name": "Grimmel "
+        "name": "Grimmel ",
+        "imageUrl": "how_to_train_your_dragon_the_hidden_world_grimmel.webp"
       }
     },
     {
       "actorId": "d547995ac733ce40226af91f",
       "character": {
-        "name": "Gobber "
+        "name": "Gobber ",
+        "imageUrl": "how_to_train_your_dragon_the_hidden_world_gobber.webp"
       }
     },
     {
       "actorId": "6aa92fa181848669babe20bb",
       "character": {
-        "name": "Eret "
+        "name": "Eret ",
+        "imageUrl": "how_to_train_your_dragon_the_hidden_world_eret.webp"
       }
     }
   ],

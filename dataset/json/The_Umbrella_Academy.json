@@ -275,7 +275,8 @@
     {
       "actorId": "6262ddbf525d013aec6ab593",
       "character": {
-        "name": "Pogo"
+        "name": "Pogo",
+        "imageUrl": "the_umbrella_academy_pogo.webp"
       }
     }
   ],

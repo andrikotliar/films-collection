@@ -110,7 +110,8 @@
     {
       "actorId": "a65bc3f407cd83dd8b26db19",
       "character": {
-        "name": "Bruce Banner / Hulk"
+        "name": "Bruce Banner / Hulk",
+        "imageUrl": "thor_ragnarok_bruce_banner.webp"
       }
     },
     {

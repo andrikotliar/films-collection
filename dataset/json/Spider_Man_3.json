@@ -74,7 +74,8 @@
     {
       "actorId": "65694e39d2799267ae4a2adf",
       "character": {
-        "name": "Spider-Man / Peter Parker"
+        "name": "Spider-Man / Peter Parker",
+        "imageUrl": "spider_man_3_spider-man.webp"
       }
     },
     {
@@ -98,7 +99,8 @@
     {
       "actorId": "6efffa0c13fb063700b2ee16",
       "character": {
-        "name": "Venom / Eddie Brock"
+        "name": "Venom / Eddie Brock",
+        "imageUrl": "spider_man_3_venom.webp"
       }
     },
     {

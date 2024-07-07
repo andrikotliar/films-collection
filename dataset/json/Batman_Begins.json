@@ -74,7 +74,8 @@
     {
       "actorId": "b794f150c4436f17ba9bd9f1",
       "character": {
-        "name": "Bruce Wayne / Batman"
+        "name": "Bruce Wayne / Batman",
+        "imageUrl": "batman_begins_bruce_wayne.webp"
       }
     },
     {

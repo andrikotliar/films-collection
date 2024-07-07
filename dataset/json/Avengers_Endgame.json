@@ -68,13 +68,15 @@
     {
       "actorId": "68eac2af31419390d7f727fd",
       "character": {
-        "name": "Tony Stark / Iron Man"
+        "name": "Tony Stark / Iron Man",
+        "imageUrl": "avengers_endgame_tony_stark.webp"
       }
     },
     {
       "actorId": "b3356695e90767defc7c4421",
       "character": {
-        "name": "Steve Rogers / Captain America"
+        "name": "Steve Rogers / Captain America",
+        "imageUrl": "avengers_endgame_steve_rogers.webp"
       }
     },
     {
@@ -86,7 +88,8 @@
     {
       "actorId": "dc4912e5f14e4bfea9c78218",
       "character": {
-        "name": "Rocket"
+        "name": "Rocket",
+        "imageUrl": "avengers_endgame_rocket.webp"
       }
     },
     {
@@ -104,7 +107,8 @@
     {
       "actorId": "7b67d3adc189860cca3bbf5f",
       "character": {
-        "name": "Nebula"
+        "name": "Nebula",
+        "imageUrl": "avengers_endgame_nebula.webp"
       }
     },
     {
@@ -116,7 +120,8 @@
     {
       "actorId": "bff8f185faaa1610320942aa",
       "character": {
-        "name": "Thanos"
+        "name": "Thanos",
+        "imageUrl": "avengers_endgame_thanos.webp"
       }
     },
     {
@@ -134,7 +139,8 @@
     {
       "actorId": "5d474df7bc79a3784ee0df3a",
       "character": {
-        "name": "Scott Lang / Ant-Man"
+        "name": "Scott Lang / Ant-Man",
+        "imageUrl": "avengers_endgame_scott_lang.webp"
       }
     },
     {
@@ -158,13 +164,15 @@
     {
       "actorId": "a65bc3f407cd83dd8b26db19",
       "character": {
-        "name": "Bruce Banner / The Professor Hulk"
+        "name": "Bruce Banner / The Professor Hulk",
+        "imageUrl": "avengers_endgame_bruce_banner.webp"
       }
     },
     {
       "actorId": "84a7fc06c915c5463cc7ce32",
       "character": {
-        "name": "James Rhodes / The War Machine"
+        "name": "James Rhodes / The War Machine",
+        "imageUrl": "avengers_endgame_james_rhodes.webp"
       }
     }
   ],

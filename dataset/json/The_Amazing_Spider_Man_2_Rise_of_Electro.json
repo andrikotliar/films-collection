@@ -89,7 +89,8 @@
     {
       "actorId": "4944de362b32c61551474862",
       "character": {
-        "name": "Spider-Man / Peter Parker"
+        "name": "Spider-Man / Peter Parker",
+        "imageUrl": "the_amazing_spider_man_2_rise_of_electro_spider-man.webp"
       }
     },
     {
@@ -101,7 +102,8 @@
     {
       "actorId": "ef83cde86ba14a39f3be9702",
       "character": {
-        "name": "Electro / Max Dillon"
+        "name": "Electro / Max Dillon",
+        "imageUrl": "the_amazing_spider_man_2_rise_of_electro_electro.webp"
       }
     },
     {

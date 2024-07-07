@@ -119,19 +119,22 @@
     {
       "actorId": "c8535012fe7ed7ca107c0fe2",
       "character": {
-        "name": "Optimus Prime"
+        "name": "Optimus Prime",
+        "imageUrl": "transformers_dark_of_the_moon_optimus_prime.webp"
       }
     },
     {
       "actorId": "9d72ccad0a0c60872b91d2d3",
       "character": {
-        "name": "Megatron"
+        "name": "Megatron",
+        "imageUrl": "transformers_dark_of_the_moon_megatron.webp"
       }
     },
     {
       "actorId": "f875b54ffaa4476a3545f977",
       "character": {
-        "name": "Sentinel Prime"
+        "name": "Sentinel Prime",
+        "imageUrl": "transformers_dark_of_the_moon_sentinel_prime.webp"
       }
     }
   ],

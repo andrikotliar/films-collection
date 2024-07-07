@@ -62,19 +62,22 @@
     {
       "actorId": "7cd730dd761c711d4467bce0",
       "character": {
-        "name": "Harry Potter"
+        "name": "Harry Potter",
+        "imageUrl": "harry_potter_and_the_sorcerer_s_stone_harry_potter"
       }
     },
     {
       "actorId": "076188ec6b66a2c4a62fdab1",
       "character": {
-        "name": "Ron Weasley"
+        "name": "Ron Weasley",
+        "imageUrl": "harry_potter_and_the_sorcerer_s_stone_ron_weasley"
       }
     },
     {
       "actorId": "3f0004fa95271000de67d1f4",
       "character": {
-        "name": "Hermione Granger"
+        "name": "Hermione Granger",
+        "imageUrl": "harry_potter_and_the_sorcerer_s_stone_hermione_granger"
       }
     },
     {
@@ -98,7 +101,8 @@
     {
       "actorId": "aca6f583677ffb4c7f38d469",
       "character": {
-        "name": "Draco Malfoy"
+        "name": "Draco Malfoy",
+        "imageUrl": "harry_potter_and_the_sorcerer_s_stone_draco_malfoy"
       }
     },
     {

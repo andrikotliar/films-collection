@@ -79,37 +79,43 @@
     {
       "actorId": "2385c4df23b84c38033b379a",
       "character": {
-        "name": "Jesper"
+        "name": "Jesper",
+        "imageUrl": "klaus_jesper.webp"
       }
     },
     {
       "actorId": "03293ef86c8bf352c9dd52f4",
       "character": {
-        "name": "Klaus"
+        "name": "Klaus",
+        "imageUrl": "klaus_klaus.webp"
       }
     },
     {
       "actorId": "f32841f0a9dd367e763df1c3",
       "character": {
-        "name": "Alva"
+        "name": "Alva",
+        "imageUrl": "klaus_alva.webp"
       }
     },
     {
       "actorId": "a6b969e559971a01bb9ce611",
       "character": {
-        "name": "Mr. Ellingboe"
+        "name": "Mr. Ellingboe",
+        "imageUrl": "klaus_mr_ellingboe.webp"
       }
     },
     {
       "actorId": "16931bed1d04b87b0c89cdee",
       "character": {
-        "name": "Mrs. Krum"
+        "name": "Mrs. Krum",
+        "imageUrl": "klaus_mrs_krum.webp"
       }
     },
     {
       "actorId": "69f59ca7d9c8d6ab71058cae",
       "character": {
-        "name": "Mogens"
+        "name": "Mogens",
+        "imageUrl": "klaus_mogens.webp"
       }
     }
   ],

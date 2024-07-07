@@ -71,7 +71,8 @@
     {
       "actorId": "2d3eb4c8394623727a17483b",
       "character": {
-        "name": "John Connor"
+        "name": "John Connor",
+        "imageUrl": "terminator_2_judgment_day_john_connor.webp"
       }
     },
     {

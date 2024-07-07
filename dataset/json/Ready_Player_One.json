@@ -68,13 +68,15 @@
     {
       "actorId": "7fffb2c64199b3d7572f0b3c",
       "character": {
-        "name": "Parzival / Wade"
+        "name": "Parzival / Wade",
+        "imageUrl": "ready_player_one_parzival.webp"
       }
     },
     {
       "actorId": "d4e38766a48e4a04d41ffa96",
       "character": {
-        "name": "Art3mis / Samantha"
+        "name": "Art3mis / Samantha",
+        "imageUrl": "ready_player_one_art3mis.webp"
       }
     },
     {
@@ -86,37 +88,43 @@
     {
       "actorId": "b9705f3f7514b14ec7618664",
       "character": {
-        "name": "Aech / Helen"
+        "name": "Aech / Helen",
+        "imageUrl": "ready_player_one_aech.webp"
       }
     },
     {
       "actorId": "fc4c28142a16ef2d3841e868",
       "character": {
-        "name": "I-R0k"
+        "name": "I-R0k",
+        "imageUrl": "ready_player_one_i_r0k.webp"
       }
     },
     {
       "actorId": "2e7736bf7187e688395d7a2c",
       "character": {
-        "name": "Curator / Ogden Morrow"
+        "name": "Curator / Ogden Morrow",
+        "imageUrl": "ready_player_one_curator.webp"
       }
     },
     {
       "actorId": "4c8f4c7fd3e50d88a5ce0a4b",
       "character": {
-        "name": "Anorak / Halliday"
+        "name": "Anorak / Halliday",
+        "imageUrl": "ready_player_one_anorak.webp"
       }
     },
     {
       "actorId": "9f9fa840edf7edbf9b96762a",
       "character": {
-        "name": "Sho"
+        "name": "Sho",
+        "imageUrl": "ready_player_one_sho.webp"
       }
     },
     {
       "actorId": "2a7c6d485f473f6dc1518bc0",
       "character": {
-        "name": "Daito"
+        "name": "Daito",
+        "imageUrl": "ready_player_one_daito.webp"
       }
     },
     {

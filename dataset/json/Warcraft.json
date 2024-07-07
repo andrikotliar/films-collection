@@ -83,7 +83,8 @@
     {
       "actorId": "dbed75996832076f78882cf8",
       "character": {
-        "name": "Garona"
+        "name": "Garona",
+        "imageUrl": "warcraft_garona.webp"
       }
     },
     {
@@ -101,7 +102,8 @@
     {
       "actorId": "c8901a2c3a9ece7d8f68aba1",
       "character": {
-        "name": "Durotan / Antonidas"
+        "name": "Durotan / Antonidas",
+        "imageUrl": "warcraft_durotan.webp"
       }
     },
     {
@@ -113,13 +115,15 @@
     {
       "actorId": "cc6ab9ac2d6bf1eae11f5f1c",
       "character": {
-        "name": "Orgrim"
+        "name": "Orgrim",
+        "imageUrl": "warcraft_orgrim.webp"
       }
     },
     {
       "actorId": "8e58705ae826aaa9554b17d6",
       "character": {
-        "name": "Blackhand"
+        "name": "Blackhand",
+        "imageUrl": "warcraft_blackhand.webp"
       }
     },
     {
@@ -137,7 +141,8 @@
     {
       "actorId": "b83c0645c73a15db94cadf2e",
       "character": {
-        "name": "Draka"
+        "name": "Draka",
+        "imageUrl": "warcraft_draka.webp"
       }
     },
     {

@@ -62,7 +62,8 @@
     {
       "actorId": "68eac2af31419390d7f727fd",
       "character": {
-        "name": "Tony Stark / Iron Man"
+        "name": "Tony Stark / Iron Man",
+        "imageUrl": "iron_man_2_tony_stark.webp"
       }
     },
     {
@@ -74,7 +75,8 @@
     {
       "actorId": "84a7fc06c915c5463cc7ce32",
       "character": {
-        "name": "James Rhodes / War Machine"
+        "name": "James Rhodes / War Machine",
+        "imageUrl": "iron_man_2_james_rhodes.webp"
       }
     },
     {
@@ -92,7 +94,8 @@
     {
       "actorId": "74f7af9d991c72b3af7d5dbd",
       "character": {
-        "name": "Ivan Vanko"
+        "name": "Ivan Vanko",
+        "imageUrl": "iron_man_2_ivan_vanko.webp"
       }
     },
     {

@@ -65,13 +65,15 @@
     {
       "actorId": "65694e39d2799267ae4a2adf",
       "character": {
-        "name": "Spider-Man / Peter Parker"
+        "name": "Spider-Man / Peter Parker",
+        "imageUrl": "spider_man_spider-man.webp"
       }
     },
     {
       "actorId": "69443d6dcdd5ddbc0c51e534",
       "character": {
-        "name": "Green Goblin / Norman Osborn"
+        "name": "Green Goblin / Norman Osborn",
+        "imageUrl": "spider_man_green_goblin.webp"
       }
     },
     {

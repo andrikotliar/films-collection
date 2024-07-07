@@ -71,13 +71,15 @@
     {
       "actorId": "118e96c459ae6809e814c6b5",
       "character": {
-        "name": "Bruce Wayne / Batman"
+        "name": "Bruce Wayne / Batman",
+        "imageUrl": "batman_v_superman_dawn_of_justice_bruce_wayne.webp"
       }
     },
     {
       "actorId": "8b6677adf81a10fa756951ff",
       "character": {
-        "name": "Clark Kent / Superman"
+        "name": "Clark Kent / Superman",
+        "imageUrl": "batman_v_superman_dawn_of_justice_clark_kent.webp"
       }
     },
     {

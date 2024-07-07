@@ -68,31 +68,36 @@
     {
       "actorId": "68eac2af31419390d7f727fd",
       "character": {
-        "name": "Tony Stark / Iron Man"
+        "name": "Tony Stark / Iron Man",
+        "imageUrl": "the_avengers_infinity_war_tony_stark.webp"
       }
     },
     {
       "actorId": "9d6f7bec0a46789eaa403786",
       "character": {
-        "name": "Thor"
+        "name": "Thor",
+        "imageUrl": "the_avengers_infinity_war_thor.webp"
       }
     },
     {
       "actorId": "a65bc3f407cd83dd8b26db19",
       "character": {
-        "name": "Bruce Banner / Hulk"
+        "name": "Bruce Banner / Hulk",
+        "imageUrl": "the_avengers_infinity_war_bruce_banner.webp"
       }
     },
     {
       "actorId": "b3356695e90767defc7c4421",
       "character": {
-        "name": "Steve Rogers / Captain America"
+        "name": "Steve Rogers / Captain America",
+        "imageUrl": "the_avengers_infinity_war_steve_rogers.webp"
       }
     },
     {
       "actorId": "64286f842f66cb88506271cc",
       "character": {
-        "name": "Natasha Romanoff / Black Widow"
+        "name": "Natasha Romanoff / Black Widow",
+        "imageUrl": "the_avengers_infinity_war_natasha_romanoff.webp"
       }
     },
     {
@@ -104,13 +109,15 @@
     {
       "actorId": "5a86b2f23ea348e3a58775b6",
       "character": {
-        "name": "Doctor Strange"
+        "name": "Doctor Strange",
+        "imageUrl": "the_avengers_infinity_war_doctor_strange.webp"
       }
     },
     {
       "actorId": "7724f9a2549d742da5d02985",
       "character": {
-        "name": "Peter Parker / Spider-Man"
+        "name": "Peter Parker / Spider-Man",
+        "imageUrl": "the_avengers_infinity_war_peter_parker.webp"
       }
     },
     {
@@ -122,7 +129,8 @@
     {
       "actorId": "0f44c8581608c442261413e4",
       "character": {
-        "name": "Gamora"
+        "name": "Gamora",
+        "imageUrl": "the_avengers_infinity_war_gamora.webp"
       }
     },
     {
@@ -134,7 +142,8 @@
     {
       "actorId": "7b67d3adc189860cca3bbf5f",
       "character": {
-        "name": "Nebula"
+        "name": "Nebula",
+        "imageUrl": "the_avengers_infinity_war_nebula.webp"
       }
     },
     {
@@ -146,7 +155,8 @@
     {
       "actorId": "c20e24b955b094888df0ac50",
       "character": {
-        "name": "Vision"
+        "name": "Vision",
+        "imageUrl": "the_avengers_infinity_war_vision.webp"
       }
     },
     {
@@ -170,31 +180,36 @@
     {
       "actorId": "ea853e2289646fab62637582",
       "character": {
-        "name": "Mantis"
+        "name": "Mantis",
+        "imageUrl": "the_avengers_infinity_war_mantis.webp"
       }
     },
     {
       "actorId": "6e7815767f3afa70c3dc69c5",
       "character": {
-        "name": "Drax"
+        "name": "Drax",
+        "imageUrl": "the_avengers_infinity_war_drax.webp"
       }
     },
     {
       "actorId": "8acb4ceb24e197fffd95c777",
       "character": {
-        "name": "Groot"
+        "name": "Groot",
+        "imageUrl": "the_avengers_infinity_war_groot.webp"
       }
     },
     {
       "actorId": "dc4912e5f14e4bfea9c78218",
       "character": {
-        "name": "Rocket"
+        "name": "Rocket",
+        "imageUrl": "the_avengers_infinity_war_rocket.webp"
       }
     },
     {
       "actorId": "bff8f185faaa1610320942aa",
       "character": {
-        "name": "Thanos"
+        "name": "Thanos",
+        "imageUrl": "the_avengers_infinity_war_thanos.webp"
       }
     }
   ],

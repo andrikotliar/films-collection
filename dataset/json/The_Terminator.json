@@ -77,7 +77,8 @@
     {
       "actorId": "a5fd5103183480749784143b",
       "character": {
-        "name": "Sarah Connor"
+        "name": "Sarah Connor",
+        "imageUrl": "the_terminator_sarah_connor.webp"
       }
     }
   ],

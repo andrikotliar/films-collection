@@ -74,7 +74,8 @@
     {
       "actorId": "68eac2af31419390d7f727fd",
       "character": {
-        "name": "Tony Stark / Iron Man"
+        "name": "Tony Stark / Iron Man",
+        "imageUrl": "iron_man_tony_stark.webp"
       }
     },
     {

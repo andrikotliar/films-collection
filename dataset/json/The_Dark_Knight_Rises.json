@@ -71,7 +71,8 @@
     {
       "actorId": "b794f150c4436f17ba9bd9f1",
       "character": {
-        "name": "Bruce Wayne"
+        "name": "Bruce Wayne",
+        "imageUrl": "the_dark_knight_rises_bruce_wayne.webp"
       }
     },
     {

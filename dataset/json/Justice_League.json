@@ -66,13 +66,15 @@
     {
       "actorId": "118e96c459ae6809e814c6b5",
       "character": {
-        "name": "Bruce Wayne / Batman"
+        "name": "Bruce Wayne / Batman",
+        "imageUrl": "zack_snyder_s_justice_league_bruce_wayne"
       }
     },
     {
       "actorId": "8b6677adf81a10fa756951ff",
       "character": {
-        "name": "Clark Kent / Superman"
+        "name": "Clark Kent / Superman",
+        "imageUrl": "zack_snyder_s_justice_league_clark_kent"
       }
     },
     {
@@ -90,7 +92,8 @@
     {
       "actorId": "375d86a17caf2ced031c134d",
       "character": {
-        "name": "Barry Allen / The Flash"
+        "name": "Barry Allen / The Flash",
+        "imageUrl": "zack_snyder_s_justice_league_barry_allen"
       }
     },
     {
@@ -102,7 +105,8 @@
     {
       "actorId": "86fc034cc2f04ed634307aec",
       "character": {
-        "name": "Victor Stone / Cyborg"
+        "name": "Victor Stone / Cyborg",
+        "imageUrl": "zack_snyder_s_justice_league_victor_stone"
       }
     },
     {
@@ -132,13 +136,15 @@
     {
       "actorId": "67f236e2e31dfdf8ce27fe3c",
       "character": {
-        "name": "Steppenwolf"
+        "name": "Steppenwolf",
+        "imageUrl": "zack_snyder_s_justice_league_steppenwolf"
       }
     },
     {
       "actorId": "08a0d88e9df07c14525a1dd1",
       "character": {
-        "name": "Darkseid"
+        "name": "Darkseid",
+        "imageUrl": "zack_snyder_s_justice_league_darkseid"
       }
     },
     {
@@ -162,7 +168,8 @@
     {
       "actorId": "babebeae5d94b820c645cfab",
       "character": {
-        "name": "Deathstroke"
+        "name": "Deathstroke",
+        "imageUrl": "zack_snyder_s_justice_league_deathstroke"
       }
     },
     {
@@ -174,13 +181,15 @@
     {
       "actorId": "b1094d5a4c3819d770b6cf30",
       "character": {
-        "name": "General Swanwick / Martian Manhunter"
+        "name": "General Swanwick / Martian Manhunter",
+        "imageUrl": "zack_snyder_s_justice_league_general_swanwick"
       }
     },
     {
       "actorId": "7393a0d84bbc38796cb5e109",
       "character": {
-        "name": "DeSaad"
+        "name": "DeSaad",
+        "imageUrl": "zack_snyder_s_justice_league_desaad"
       }
     }
   ],

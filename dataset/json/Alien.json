@@ -110,7 +110,8 @@
     {
       "actorId": "73da3fc4ef4cd0dc8ab9d338",
       "character": {
-        "name": "Alien"
+        "name": "Alien",
+        "imageUrl": "alien_alien.webp"
       }
     }
   ],

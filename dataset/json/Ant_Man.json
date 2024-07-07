@@ -71,7 +71,8 @@
     {
       "actorId": "5d474df7bc79a3784ee0df3a",
       "character": {
-        "name": "Scott Lang / Ant-Man"
+        "name": "Scott Lang / Ant-Man",
+        "imageUrl": "ant_man_scott_lang.webp"
       }
     },
     {
@@ -89,7 +90,8 @@
     {
       "actorId": "c05edcaeec351b29c250a8ba",
       "character": {
-        "name": "Darren Cross / Yellowjacket"
+        "name": "Darren Cross / Yellowjacket",
+        "imageUrl": "ant_man_darren_cross.webp"
       }
     },
     {

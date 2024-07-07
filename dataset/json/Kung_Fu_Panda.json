@@ -71,61 +71,71 @@
     {
       "actorId": "93e4580ac1906e427cabed5a",
       "character": {
-        "name": "Po"
+        "name": "Po",
+        "imageUrl": "kung_fu_panda_po.webp"
       }
     },
     {
       "actorId": "9b4c82033e370d0e16c62974",
       "character": {
-        "name": "Shifu"
+        "name": "Shifu",
+        "imageUrl": "kung_fu_panda_shifu.webp"
       }
     },
     {
       "actorId": "8ea09c057163d4f5c7e44d23",
       "character": {
-        "name": "Tigress"
+        "name": "Tigress",
+        "imageUrl": "kung_fu_panda_tigress.webp"
       }
     },
     {
       "actorId": "07fd6405b794906aa17de68f",
       "character": {
-        "name": "Tai Lung"
+        "name": "Tai Lung",
+        "imageUrl": "kung_fu_panda_tai_lung.webp"
       }
     },
     {
       "actorId": "9129cd77b72f6865ac51f2a7",
       "character": {
-        "name": "Monkey"
+        "name": "Monkey",
+        "imageUrl": "kung_fu_panda_monkey.webp"
       }
     },
     {
       "actorId": "fc2aa00b24fac3bf3e2532b4",
       "character": {
-        "name": "Mantis"
+        "name": "Mantis",
+        "imageUrl": "kung_fu_panda_mantis.webp"
       }
     },
     {
       "actorId": "3e39acbba04928ae4e75b33c",
       "character": {
-        "name": "Viper"
+        "name": "Viper",
+        "imageUrl": "kung_fu_panda_viper.webp"
       }
     },
     {
       "actorId": "e3e9852e41647da469ca48ad",
       "character": {
-        "name": "Crane"
+        "name": "Crane",
+        "imageUrl": "kung_fu_panda_crane.webp"
       }
     },
     {
       "actorId": "ac0c86b4f56b6b569c2b37fb",
       "character": {
-        "name": "Oogway"
+        "name": "Oogway",
+        "imageUrl": "kung_fu_panda_oogway.webp"
       }
     },
     {
       "actorId": "ba8c2781a07c02d7d6a45233",
       "character": {
-        "name": "Mr. Ping"
+        "name": "Mr. Ping",
+        "imageUrl": "kung_fu_panda_mr_ping.webp"
       }
     }
   ],

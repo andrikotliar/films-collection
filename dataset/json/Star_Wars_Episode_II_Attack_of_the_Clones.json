@@ -95,7 +95,8 @@
     {
       "actorId": "6fa14a3731b9660353c41487",
       "character": {
-        "name": "Yoda"
+        "name": "Yoda",
+        "imageUrl": "star_wars_episode_ii_attack_of_the_clones_yoda.webp"
       }
     },
     {
@@ -107,7 +108,8 @@
     {
       "actorId": "36eb3476e54ce4b3ec95c273",
       "character": {
-        "name": "Jango Fett"
+        "name": "Jango Fett",
+        "imageUrl": "star_wars_episode_ii_attack_of_the_clones_jango_fett.webp"
       }
     },
     {
@@ -119,7 +121,8 @@
     {
       "actorId": "8495e822d070b57837e0bf6e",
       "character": {
-        "name": "C-3PO"
+        "name": "C-3PO",
+        "imageUrl": "star_wars_episode_ii_attack_of_the_clones_c-3po.webp"
       }
     }
   ],

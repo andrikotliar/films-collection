@@ -80,7 +80,8 @@
     {
       "actorId": "a5c580aab49791a22e7f3b74",
       "character": {
-        "name": "K-2SO"
+        "name": "K-2SO",
+        "imageUrl": "rogue_one_k_2so.webp"
       }
     },
     {

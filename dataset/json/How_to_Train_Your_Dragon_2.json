@@ -53,37 +53,43 @@
     {
       "actorId": "a7d35039857e23987e0e044c",
       "character": {
-        "name": "Hiccup"
+        "name": "Hiccup",
+        "imageUrl": "how_to_train_your_dragon_2_hiccup.webp"
       }
     },
     {
       "actorId": "7a354da5768fef2be29583f0",
       "character": {
-        "name": "Valka"
+        "name": "Valka",
+        "imageUrl": "how_to_train_your_dragon_2_valka.webp"
       }
     },
     {
       "actorId": "19691d0b10cb811590497ff2",
       "character": {
-        "name": "Stoick"
+        "name": "Stoick",
+        "imageUrl": "how_to_train_your_dragon_2_stoick.webp"
       }
     },
     {
       "actorId": "6c95d5ee7e91ad5d5e781165",
       "character": {
-        "name": "Astrid"
+        "name": "Astrid",
+        "imageUrl": "how_to_train_your_dragon_2_astrid.webp"
       }
     },
     {
       "actorId": "bdb2e64bab1a24a00031585c",
       "character": {
-        "name": "Drago Bludvist"
+        "name": "Drago Bludvist",
+        "imageUrl": "how_to_train_your_dragon_2_drago_bludvist.webp"
       }
     },
     {
       "actorId": "6aa92fa181848669babe20bb",
       "character": {
-        "name": "Eret"
+        "name": "Eret",
+        "imageUrl": "how_to_train_your_dragon_2_eret.webp"
       }
     }
   ],

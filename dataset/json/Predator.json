@@ -112,7 +112,8 @@
     {
       "actorId": "c504ec32a5e222cf07a1562c",
       "character": {
-        "name": "Predator"
+        "name": "Predator",
+        "imageUrl": "predator_predator.webp"
       }
     }
   ],

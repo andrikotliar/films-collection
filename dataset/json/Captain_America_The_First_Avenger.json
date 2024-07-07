@@ -65,7 +65,8 @@
     {
       "actorId": "b3356695e90767defc7c4421",
       "character": {
-        "name": "Captain America / Steve Rogers"
+        "name": "Captain America / Steve Rogers",
+        "imageUrl": "captain_america_the_first_avenger_captain_america.webp"
       }
     },
     {
@@ -89,7 +90,8 @@
     {
       "actorId": "9d72ccad0a0c60872b91d2d3",
       "character": {
-        "name": "Johann Schmidt / Red Skull"
+        "name": "Johann Schmidt / Red Skull",
+        "imageUrl": "captain_america_the_first_avenger_johann_schmidt.webp"
       }
     },
     {

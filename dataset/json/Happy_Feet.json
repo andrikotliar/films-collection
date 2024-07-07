@@ -78,7 +78,7 @@
     {
       "character": {
         "name": "Mumble",
-        "imageUrl": ""
+        "imageUrl": "happy_feet_mumble.webp"
       },
       "actorId": "afed96df0db76b317cb36711",
       "name": "Elijah Wood"
@@ -86,7 +86,7 @@
     {
       "character": {
         "name": "Gloria",
-        "imageUrl": ""
+        "imageUrl": "happy_feet_gloria.webp"
       },
       "actorId": "46cb6620a73ad72d46726772",
       "name": "Brittany Murphy"
@@ -94,7 +94,7 @@
     {
       "character": {
         "name": "Memphis",
-        "imageUrl": ""
+        "imageUrl": "happy_feet_memphis.webp"
       },
       "actorId": "544abb6ffddc8ddf4056b862",
       "name": "Hugh Jackman"
@@ -102,7 +102,7 @@
     {
       "character": {
         "name": "Norma Jean",
-        "imageUrl": ""
+        "imageUrl": "happy_feet_norma_jean.webp"
       },
       "actorId": "e6459d81bab075fc3755cec2",
       "name": "Nicole Kidman"
@@ -110,7 +110,7 @@
     {
       "character": {
         "name": "Noah the Elder",
-        "imageUrl": ""
+        "imageUrl": "happy_feet_noah_the_elder.webp"
       },
       "actorId": "9d72ccad0a0c60872b91d2d3",
       "name": "Hugo Weaving"
@@ -126,7 +126,7 @@
     {
       "character": {
         "name": "Ramon / Lovelace",
-        "imageUrl": ""
+        "imageUrl": "happy_feet_ramon.webp"
       },
       "actorId": "f5de152199c29694307ff207",
       "name": "Robin Williams"

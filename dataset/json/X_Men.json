@@ -119,7 +119,8 @@
     {
       "actorId": "d3d49fa0c570c7084aace0d7",
       "character": {
-        "name": "Mystique"
+        "name": "Mystique",
+        "imageUrl": "x_men_mystique.webp"
       }
     },
     {

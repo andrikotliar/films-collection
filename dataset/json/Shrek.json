@@ -75,25 +75,29 @@
     {
       "actorId": "da1f33b9c84064852254d8aa",
       "character": {
-        "name": "Shrek"
+        "name": "Shrek",
+        "imageUrl": "shrek_shrek.webp"
       }
     },
     {
       "actorId": "356f3d8d6debf47913fead0a",
       "character": {
-        "name": "Donkey"
+        "name": "Donkey",
+        "imageUrl": "shrek_donkey.webp"
       }
     },
     {
       "actorId": "2f654330682e4a9dbb666cc0",
       "character": {
-        "name": "Fiona"
+        "name": "Fiona",
+        "imageUrl": "shrek_fiona.webp"
       }
     },
     {
       "actorId": "b3e39cb52439fd6d9e379b3e",
       "character": {
-        "name": "Lord Farquaad"
+        "name": "Lord Farquaad",
+        "imageUrl": "shrek_lord_farquaad.webp"
       }
     }
   ],

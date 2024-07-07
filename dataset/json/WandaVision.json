@@ -104,7 +104,8 @@
     {
       "actorId": "c20e24b955b094888df0ac50",
       "character": {
-        "name": "Vision"
+        "name": "Vision",
+        "imageUrl": "wandavision_vision.webp"
       }
     },
     {

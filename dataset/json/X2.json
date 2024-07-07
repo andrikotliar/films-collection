@@ -113,7 +113,8 @@
     {
       "actorId": "d3d49fa0c570c7084aace0d7",
       "character": {
-        "name": "Raven Darkholme / Mystique"
+        "name": "Raven Darkholme / Mystique",
+        "imageUrl": "x2_mystique.webp"
       }
     },
     {
@@ -125,7 +126,8 @@
     {
       "actorId": "f04283af69e0fa7ac78ac144",
       "character": {
-        "name": "Kurt Wagner / Nightcrawler"
+        "name": "Kurt Wagner / Nightcrawler",
+        "imageUrl": "x2_kurt_wagner.webp"
       }
     },
     {

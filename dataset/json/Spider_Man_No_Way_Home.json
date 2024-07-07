@@ -60,19 +60,22 @@
     {
       "actorId": "7724f9a2549d742da5d02985",
       "character": {
-        "name": "Peter Parker / Spider-Man"
+        "name": "Peter Parker / Spider-Man",
+        "imageUrl": "spider_man_no_way_home_peter_parker.webp"
       }
     },
     {
       "actorId": "65694e39d2799267ae4a2adf",
       "character": {
-        "name": "Peter Parker / Spider-Man (Toby)"
+        "name": "Peter Parker / Spider-Man (Toby)",
+        "imageUrl": "spider_man_no_way_home_peter_parker_toby.webp"
       }
     },
     {
       "actorId": "4944de362b32c61551474862",
       "character": {
-        "name": "Peter Parker / Spider-Man (Andrew)"
+        "name": "Peter Parker / Spider-Man (Andrew)",
+        "imageUrl": "spider_man_no_way_home_peter_parker_andrew.webp"
       }
     },
     {
@@ -108,7 +111,8 @@
     {
       "actorId": "69443d6dcdd5ddbc0c51e534",
       "character": {
-        "name": "Norman Osborn / Green Goblin"
+        "name": "Norman Osborn / Green Goblin",
+        "imageUrl": "spider_man_no_way_home_norman_osborn.webp"
       }
     },
     {
@@ -120,13 +124,15 @@
     {
       "actorId": "ef83cde86ba14a39f3be9702",
       "character": {
-        "name": "Max Dillon / Electro"
+        "name": "Max Dillon / Electro",
+        "imageUrl": "spider_man_no_way_home_max_dillon.webp"
       }
     },
     {
       "actorId": "c70aa327b237efbbee19c181",
       "character": {
-        "name": "Otto Octavius / Doctor Octopus"
+        "name": "Otto Octavius / Doctor Octopus",
+        "imageUrl": "spider_man_no_way_home_otto_octavius.webp"
       }
     },
     {

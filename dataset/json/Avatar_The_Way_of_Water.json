@@ -72,37 +72,43 @@
     {
       "actorId": "ab25ed81fbee90d0a29d7c92",
       "character": {
-        "name": "Jake Sully"
+        "name": "Jake Sully",
+        "imageUrl": "avatar_the_way_of_water_jake_sully.webp"
       }
     },
     {
       "actorId": "0f44c8581608c442261413e4",
       "character": {
-        "name": "Neytiri"
+        "name": "Neytiri",
+        "imageUrl": "avatar_the_way_of_water_neytiri.webp"
       }
     },
     {
       "actorId": "ca74e2b4d921daf8283f1f08",
       "character": {
-        "name": "Kiri"
+        "name": "Kiri",
+        "imageUrl": "avatar_the_way_of_water_kiri.webp"
       }
     },
     {
       "actorId": "b0b4e07f3ddc197fc79b6d99",
       "character": {
-        "name": "Quaritch"
+        "name": "Quaritch",
+        "imageUrl": "avatar_the_way_of_water_quaritch.webp"
       }
     },
     {
       "actorId": "a0906571fbd382da1825be2a",
       "character": {
-        "name": "Ronal"
+        "name": "Ronal",
+        "imageUrl": "avatar_the_way_of_water_ronal.webp"
       }
     },
     {
       "actorId": "677c083db78d6f6afc4bf2c1",
       "character": {
-        "name": "Tonowari"
+        "name": "Tonowari",
+        "imageUrl": "avatar_the_way_of_water_tonowari.webp"
       }
     },
     {
@@ -114,7 +120,8 @@
     {
       "actorId": "3e151b5127b8be74b7f44adf",
       "character": {
-        "name": "Neteyam"
+        "name": "Neteyam",
+        "imageUrl": "avatar_the_way_of_water_neteyam.webp"
       }
     },
     {
@@ -126,7 +133,8 @@
     {
       "actorId": "f73baf9f91b25a772477ec00",
       "character": {
-        "name": "Tuk"
+        "name": "Tuk",
+        "imageUrl": "avatar_the_way_of_water_tuk.webp"
       }
     },
     {
@@ -138,13 +146,15 @@
     {
       "actorId": "a83297cb032460baa31b3cdd",
       "character": {
-        "name": "Tsireya"
+        "name": "Tsireya",
+        "imageUrl": "avatar_the_way_of_water_tsireya.webp"
       }
     },
     {
       "actorId": "b238ba581949303e85a376d1",
       "character": {
-        "name": "Aonung"
+        "name": "Aonung",
+        "imageUrl": "avatar_the_way_of_water_aonung.webp"
       }
     },
     {

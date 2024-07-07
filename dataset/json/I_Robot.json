@@ -85,7 +85,8 @@
     {
       "actorId": "a5c580aab49791a22e7f3b74",
       "character": {
-        "name": "Sonny"
+        "name": "Sonny",
+        "imageUrl": "i_robot_sonny.webp"
       }
     },
     {
@@ -103,7 +104,8 @@
     {
       "actorId": "edad30aff236208021f6695b",
       "character": {
-        "name": "V.I.K.I."
+        "name": "V.I.K.I.",
+        "imageUrl": "i_robot_viki.webp"
       }
     }
   ],

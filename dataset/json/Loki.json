@@ -135,7 +135,8 @@
     {
       "actorId": "2bd143e081d26fcfc1e8fb37",
       "character": {
-        "name": "Miss Minutes"
+        "name": "Miss Minutes",
+        "imageUrl": "loki_miss_minutes.webp"
       }
     },
     {

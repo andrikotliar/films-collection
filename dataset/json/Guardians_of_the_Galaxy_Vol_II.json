@@ -68,43 +68,50 @@
     {
       "actorId": "0f44c8581608c442261413e4",
       "character": {
-        "name": "Gamora"
+        "name": "Gamora",
+        "imageUrl": "guardians_of_the_galaxy_vol_2_gamora.webp"
       }
     },
     {
       "actorId": "6e7815767f3afa70c3dc69c5",
       "character": {
-        "name": "Drax"
+        "name": "Drax",
+        "imageUrl": "guardians_of_the_galaxy_vol_2_drax.webp"
       }
     },
     {
       "actorId": "8acb4ceb24e197fffd95c777",
       "character": {
-        "name": "Baby Groot"
+        "name": "Baby Groot",
+        "imageUrl": "guardians_of_the_galaxy_vol_2_baby_groot.webp"
       }
     },
     {
       "actorId": "dc4912e5f14e4bfea9c78218",
       "character": {
-        "name": "Rocket"
+        "name": "Rocket",
+        "imageUrl": "guardians_of_the_galaxy_vol_2_rocket.webp"
       }
     },
     {
       "actorId": "b99fd4cb12dd52764f91df15",
       "character": {
-        "name": "Yondu"
+        "name": "Yondu",
+        "imageUrl": "guardians_of_the_galaxy_vol_2_yondu.webp"
       }
     },
     {
       "actorId": "7b67d3adc189860cca3bbf5f",
       "character": {
-        "name": "Nebula"
+        "name": "Nebula",
+        "imageUrl": "guardians_of_the_galaxy_vol_2_nebula.webp"
       }
     },
     {
       "actorId": "ea853e2289646fab62637582",
       "character": {
-        "name": "Mantis"
+        "name": "Mantis",
+        "imageUrl": "guardians_of_the_galaxy_vol_2_mantis.webp"
       }
     },
     {

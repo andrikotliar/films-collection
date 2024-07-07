@@ -68,13 +68,15 @@
     {
       "actorId": "7724f9a2549d742da5d02985",
       "character": {
-        "name": "Peter Parker / Spider-Man"
+        "name": "Peter Parker / Spider-Man",
+        "imageUrl": "spider_man_far_from_home_peter_parker.webp"
       }
     },
     {
       "actorId": "644ca0c0a204f03134f45fbf",
       "character": {
-        "name": "Quentin Beck / Mysterio"
+        "name": "Quentin Beck / Mysterio",
+        "imageUrl": "spider_man_far_from_home_quentin_beck.webp"
       }
     },
     {

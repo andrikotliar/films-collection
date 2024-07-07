@@ -79,7 +79,8 @@
     {
       "actorId": "516c73ff5c3ea993f477be5d",
       "character": {
-        "name": "Chewbacca"
+        "name": "Chewbacca",
+        "imageUrl": "solo_a_star_wars_story_chewbacca.webp"
       }
     },
     {
@@ -109,7 +110,8 @@
     {
       "actorId": "ce73d0bbe3d6b70ce10745c4",
       "character": {
-        "name": "L3-37"
+        "name": "L3-37",
+        "imageUrl": "solo_a_star_wars_story_l3-37.webp"
       }
     },
     {

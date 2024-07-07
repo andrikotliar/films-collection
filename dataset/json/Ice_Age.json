@@ -60,25 +60,29 @@
     {
       "actorId": "42f1a4ee385ffea7f18e5917",
       "character": {
-        "name": "Manfred"
+        "name": "Manfred",
+        "imageUrl": "ice_age_manfred.webp"
       }
     },
     {
       "actorId": "2dd54fece5f12f390a8fdec5",
       "character": {
-        "name": "Sid"
+        "name": "Sid",
+        "imageUrl": "ice_age_sid.webp"
       }
     },
     {
       "actorId": "8e184aab53e75fde640c51ca",
       "character": {
-        "name": "Diego"
+        "name": "Diego",
+        "imageUrl": "ice_age_diego.webp"
       }
     },
     {
       "actorId": "c4f21ee1ad18b0b3ac799d2b",
       "character": {
-        "name": "Soto"
+        "name": "Soto",
+        "imageUrl": "ice_age_soto.webp"
       }
     }
   ],

@@ -122,31 +122,36 @@
     {
       "actorId": "c8535012fe7ed7ca107c0fe2",
       "character": {
-        "name": "Optimus Prime"
+        "name": "Optimus Prime",
+        "imageUrl": "transformers_optimus_prime.webp"
       }
     },
     {
       "actorId": "b4f3568b7522d6badf6b1deb",
       "character": {
-        "name": "Bumblebee"
+        "name": "Bumblebee",
+        "imageUrl": "transformers_bumblebee.webp"
       }
     },
     {
       "actorId": "9d72ccad0a0c60872b91d2d3",
       "character": {
-        "name": "Megatron"
+        "name": "Megatron",
+        "imageUrl": "transformers_megatron.webp"
       }
     },
     {
       "actorId": "03174db7449d0dd396695b2f",
       "character": {
-        "name": "Frenzy"
+        "name": "Frenzy",
+        "imageUrl": "transformers_frenzy.webp"
       }
     },
     {
       "actorId": "7c75da9052faf46cbe5bf773",
       "character": {
-        "name": "Starscream"
+        "name": "Starscream",
+        "imageUrl": "transformers_starscream.webp"
       }
     }
   ],

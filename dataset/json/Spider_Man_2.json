@@ -65,13 +65,15 @@
     {
       "actorId": "65694e39d2799267ae4a2adf",
       "character": {
-        "name": "Spider-Man / Peter Parker"
+        "name": "Spider-Man / Peter Parker",
+        "imageUrl": "spider_man_2_spider-man.webp"
       }
     },
     {
       "actorId": "c70aa327b237efbbee19c181",
       "character": {
-        "name": "Doc Ock / Dr. Otto Octavius"
+        "name": "Doc Ock / Dr. Otto Octavius",
+        "imageUrl": "spider_man_2_doc_ock.webp"
       }
     },
     {

@@ -67,37 +67,43 @@
     {
       "actorId": "730857c2f976c20b0136c5c1",
       "character": {
-        "name": "Raya"
+        "name": "Raya",
+        "imageUrl": "raya_and_the_last_dragon_raya.webp"
       }
     },
     {
       "actorId": "902d1a4d06fb8b0532302803",
       "character": {
-        "name": "Sisu"
+        "name": "Sisu",
+        "imageUrl": "raya_and_the_last_dragon_sisu.webp"
       }
     },
     {
       "actorId": "9c9caba6aa54ff1a291c85bc",
       "character": {
-        "name": "Boun"
+        "name": "Boun",
+        "imageUrl": "raya_and_the_last_dragon_boun.webp"
       }
     },
     {
       "actorId": "1b18bc88f980f0f3cc8dcd70",
       "character": {
-        "name": "Namaari"
+        "name": "Namaari",
+        "imageUrl": "raya_and_the_last_dragon_namaari.webp"
       }
     },
     {
       "actorId": "57c5a3b95582eafac775c24f",
       "character": {
-        "name": "Benja"
+        "name": "Benja",
+        "imageUrl": "raya_and_the_last_dragon_benja.webp"
       }
     },
     {
       "actorId": "a775eca4841cce040addc4ca",
       "character": {
-        "name": "Tong"
+        "name": "Tong",
+        "imageUrl": "raya_and_the_last_dragon_tong.webp"
       }
     }
   ],

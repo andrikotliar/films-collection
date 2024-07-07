@@ -65,19 +65,22 @@
     {
       "actorId": "ab25ed81fbee90d0a29d7c92",
       "character": {
-        "name": "Jake Sully"
+        "name": "Jake Sully",
+        "imageUrl": "avatar_jake_sully.webp"
       }
     },
     {
       "actorId": "0f44c8581608c442261413e4",
       "character": {
-        "name": "Neytiri"
+        "name": "Neytiri",
+        "imageUrl": "avatar_neytiri.webp"
       }
     },
     {
       "actorId": "ca74e2b4d921daf8283f1f08",
       "character": {
-        "name": "Grace Augustine"
+        "name": "Grace Augustine",
+        "imageUrl": "avatar_grace_augustine.webp"
       }
     },
     {
@@ -107,7 +110,8 @@
     {
       "actorId": "eb10eabec8f10e75bd00fb81",
       "character": {
-        "name": "Eytukan"
+        "name": "Eytukan",
+        "imageUrl": "avatar_eytukan.webp"
       }
     },
     {
