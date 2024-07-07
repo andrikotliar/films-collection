@@ -111,8 +111,7 @@
     {
       "actorId": "69443d6dcdd5ddbc0c51e534",
       "character": {
-        "name": "Norman Osborn / Green Goblin",
-        "imageUrl": "spider_man_no_way_home_norman_osborn.webp"
+        "name": "Norman Osborn / Green Goblin"
       }
     },
     {
@@ -124,15 +123,13 @@
     {
       "actorId": "ef83cde86ba14a39f3be9702",
       "character": {
-        "name": "Max Dillon / Electro",
-        "imageUrl": "spider_man_no_way_home_max_dillon.webp"
+        "name": "Max Dillon / Electro"
       }
     },
     {
       "actorId": "c70aa327b237efbbee19c181",
       "character": {
-        "name": "Otto Octavius / Doctor Octopus",
-        "imageUrl": "spider_man_no_way_home_otto_octavius.webp"
+        "name": "Otto Octavius / Doctor Octopus"
       }
     },
     {

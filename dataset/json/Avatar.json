@@ -73,7 +73,7 @@
       "actorId": "0f44c8581608c442261413e4",
       "character": {
         "name": "Neytiri",
-        "imageUrl": "avatar_neytiri.webp"
+        "imageUrl": "avatar_neitiri.webp"
       }
     },
     {
@@ -117,7 +117,8 @@
     {
       "actorId": "3b762e0e7c6cf942574547b6",
       "character": {
-        "name": "Tsu'tey"
+        "name": "Tsu'tey",
+        "imageUrl": "avatar_tsu_tey.webp"
       }
     },
     {
