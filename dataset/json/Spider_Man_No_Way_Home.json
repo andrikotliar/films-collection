@@ -64,6 +64,18 @@
       }
     },
     {
+      "actorId": "65694e39d2799267ae4a2adf",
+      "character": {
+        "name": "Peter Parker / Spider-Man (Toby)"
+      }
+    },
+    {
+      "actorId": "4944de362b32c61551474862",
+      "character": {
+        "name": "Peter Parker / Spider-Man (Andrew)"
+      }
+    },
+    {
       "actorId": "107e7fb331c2103897a87ffa",
       "character": {
         "name": "MJ"
