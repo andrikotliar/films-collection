@@ -1,8 +1,21 @@
-import { RelatedFilms } from '@/common/types';
-import { splitAt } from '@/helpers';
+import { RelatedFilms, RelatedItem } from '@/common/types';
+import { splitChapters } from '@/pages/film/components/related/helpers';
 import { useMemo } from 'react';
 
-const useRelated = (related: RelatedFilms, currentFilmId: string) => {
+enum ChaptersTab {
+  PREQUELS = 'prequels',
+  SEQUELS = 'sequels',
+  REMAKES = 'remakes',
+  ORIGINALS = 'originals',
+}
+
+type Tabs = {
+  id: ChaptersTab;
+  name: string;
+  content: RelatedItem[];
+};
+
+const useRelated = (related: RelatedFilms, currentFilmId: string): Tabs[] => {
   const data = useMemo(() => {
     const chaptersIndex = related.chapters.findIndex(
       (data) => data.id === currentFilmId,
@@ -15,16 +28,35 @@ const useRelated = (related: RelatedFilms, currentFilmId: string) => {
       }),
     );
 
-    const chapters = splitAt(chaptersIndex, chaptersFilledWithNumbers);
+    const chapters = splitChapters(chaptersIndex, chaptersFilledWithNumbers);
 
-    return {
-      chapters,
-      remakes: related.remakes,
-      originals: related.originals,
-    };
+    const values: Tabs[] = [
+      {
+        id: ChaptersTab.PREQUELS,
+        name: 'Prequels',
+        content: chapters.prequels,
+      },
+      {
+        id: ChaptersTab.SEQUELS,
+        name: 'Sequels',
+        content: chapters.sequels,
+      },
+      {
+        id: ChaptersTab.REMAKES,
+        name: 'Remakes',
+        content: related.remakes ?? [],
+      },
+      {
+        id: ChaptersTab.ORIGINALS,
+        name: 'Originals',
+        content: related.originals ?? [],
+      },
+    ];
+
+    return values.filter((tab) => tab.content.length);
   }, [related, currentFilmId]);
 
   return data;
 };
 
-export { useRelated };
+export { useRelated, ChaptersTab };

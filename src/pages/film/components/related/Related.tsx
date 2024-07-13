@@ -1,8 +1,9 @@
-import { FC } from 'react';
-import { Section } from '@/pages/film/components/related/components';
+import { FC, useState } from 'react';
+import { TabContent } from '@/pages/film/components/related/components';
 import { useRelated } from '@/pages/film/components/related/hooks';
 import { RelatedFilms } from '@/common/types';
 import styles from './Related.module.css';
+import classNames from 'classnames';
 
 type RelatedFilmsProps = {
   data: RelatedFilms;
@@ -10,14 +11,26 @@ type RelatedFilmsProps = {
 };
 
 const Related: FC<RelatedFilmsProps> = ({ data, filmId }) => {
-  const relatedFilms = useRelated(data, filmId);
+  const relatedFilmsTabs = useRelated(data, filmId);
+  const [activeTabIndex, setActiveTabIndex] = useState(0);
 
   return (
-    <div className={styles.wrapper}>
-      <Section title="Previous chapters" data={relatedFilms.chapters.left} />
-      <Section title="Next chapters" data={relatedFilms.chapters.right} />
-      <Section title="Remakes" data={relatedFilms.remakes} />
-      <Section title="Remake of" data={relatedFilms.originals} />
+    <div>
+      <div className={styles.tabs}>
+        {relatedFilmsTabs.map((tab, index) => (
+          <button
+            key={tab.id}
+            onClick={() => setActiveTabIndex(index)}
+            className={classNames(styles.tabButton, {
+              [styles.activeTabButton]:
+                tab.id === relatedFilmsTabs[activeTabIndex].id,
+            })}
+          >
+            {tab.name}
+          </button>
+        ))}
+      </div>
+      <TabContent data={relatedFilmsTabs[activeTabIndex].content} />
     </div>
   );
 };

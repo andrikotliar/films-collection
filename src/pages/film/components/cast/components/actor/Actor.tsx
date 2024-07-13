@@ -23,7 +23,7 @@ const Actor: FC<ActorProps> = ({ actor, externalData }) => {
   };
 
   return (
-    <div className={styles.actor}>
+    <div className={styles.actor} key={actor.actorId}>
       <div
         className={classNames(styles.container, {
           [styles.flippable]: Boolean(actor.character.imageUrl),
