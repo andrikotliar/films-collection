@@ -17,7 +17,7 @@ const Cast: FC<CastProps> = ({ cast }) => {
   }
 
   return (
-    <Scrollable className={styles.actors}>
+    <div className={styles.actors}>
       {cast.map((actor) => {
         const actorExternalData = actors[actor.actorId];
 
@@ -29,7 +29,7 @@ const Cast: FC<CastProps> = ({ cast }) => {
           />
         );
       })}
-    </Scrollable>
+    </div>
   );
 };
 
