@@ -80,56 +80,42 @@
         "name": "Mumble",
         "imageUrl": "happy_feet_mumble.webp"
       },
-      "actorId": "afed96df0db76b317cb36711",
-      "name": "Elijah Wood"
+      "actorId": "afed96df0db76b317cb36711"
     },
     {
       "character": {
         "name": "Gloria",
         "imageUrl": "happy_feet_gloria.webp"
       },
-      "actorId": "46cb6620a73ad72d46726772",
-      "name": "Brittany Murphy"
+      "actorId": "46cb6620a73ad72d46726772"
     },
     {
       "character": {
         "name": "Memphis",
         "imageUrl": "happy_feet_memphis.webp"
       },
-      "actorId": "544abb6ffddc8ddf4056b862",
-      "name": "Hugh Jackman"
+      "actorId": "544abb6ffddc8ddf4056b862"
     },
     {
       "character": {
         "name": "Norma Jean",
         "imageUrl": "happy_feet_norma_jean.webp"
       },
-      "actorId": "e6459d81bab075fc3755cec2",
-      "name": "Nicole Kidman"
+      "actorId": "e6459d81bab075fc3755cec2"
     },
     {
       "character": {
         "name": "Noah the Elder",
         "imageUrl": "happy_feet_noah_the_elder.webp"
       },
-      "actorId": "9d72ccad0a0c60872b91d2d3",
-      "name": "Hugo Weaving"
+      "actorId": "9d72ccad0a0c60872b91d2d3"
     },
     {
       "character": {
-        "name": "Nestor",
-        "imageUrl": ""
+        "name": "Lovelace",
+        "imageUrl": "happy_feet_lovelace.webp"
       },
-      "actorId": "56a24ac0e193c7b97e9f9198",
-      "name": "Carlos Alazraqui"
-    },
-    {
-      "character": {
-        "name": "Ramon / Lovelace",
-        "imageUrl": "happy_feet_ramon.webp"
-      },
-      "actorId": "f5de152199c29694307ff207",
-      "name": "Robin Williams"
+      "actorId": "f5de152199c29694307ff207"
     }
   ],
   "collections": [

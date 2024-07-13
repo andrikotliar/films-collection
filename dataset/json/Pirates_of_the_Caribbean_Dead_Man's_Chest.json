@@ -65,7 +65,8 @@
     {
       "actorId": "22f4885dc5c22c8371ad2a3a",
       "character": {
-        "name": "Captain Jack Sparrow"
+        "name": "Captain Jack Sparrow",
+        "imageUrl": "pirates_of_the_caribbean_dead_man_s_chest_captain_jack_sparrow.webp"
       }
     },
     {
@@ -89,7 +90,8 @@
     {
       "actorId": "8802990a47013f3cf0bd6332",
       "character": {
-        "name": "Davy Jones"
+        "name": "Davy Jones",
+        "imageUrl": "pirates_of_the_caribbean_dead_man_s_chest_davy_jones.webp"
       }
     },
     {

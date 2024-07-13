@@ -20,7 +20,7 @@ const Awards: FC<AwardsProps> = ({ awards }) => {
   }, [awards]);
 
   return (
-    <DataGrid>
+    <div className={styles.list}>
       {sortedAwards.map(({ awardId, nominations }) => (
         <DataArea className={styles.award} key={awardId}>
           <div className={styles.header}>
@@ -52,7 +52,7 @@ const Awards: FC<AwardsProps> = ({ awards }) => {
           </Scrollable>
         </DataArea>
       ))}
-    </DataGrid>
+    </div>
   );
 };
 

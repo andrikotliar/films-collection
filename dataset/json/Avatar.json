@@ -124,7 +124,8 @@
     {
       "actorId": "d386a741d1c9e62ed1894b81",
       "character": {
-        "name": "Mo'at"
+        "name": "Mo'at",
+        "imageUrl": "avatar_mo_at.webp"
       }
     }
   ],
