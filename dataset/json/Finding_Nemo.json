@@ -94,6 +94,69 @@
         "name": "Gill",
         "imageUrl": "finding_nemo_gill.webp"
       }
+    },
+    {
+      "actorId": "5a4db3cfddc3b6871d1d6d04",
+      "character": {
+        "name": "Bloat",
+        "imageUrl": "finding_nemo_bloat.webp"
+      }
+    },
+    {
+      "actorId": "98ec4d73331cf787bbdd9e29",
+      "character": {
+        "name": "Peach",
+        "imageUrl": "finding_nemo_peach.webp"
+      }
+    },
+    {
+      "actorId": "ebe3a9ca69513baf8dc45d92",
+      "character": {
+        "name": "Gurgle",
+        "imageUrl": "finding_nemo_gurgle.webp"
+      }
+    },
+    {
+      "actorId": "3a91fcb3cf8f724303ce2f71",
+      "character": {
+        "name": "Bubbles",
+        "imageUrl": "finding_nemo_bubbles.webp"
+      }
+    },
+    {
+      "actorId": "532d8f4921f52e28f4c1fac8",
+      "character": {
+        "name": "Deb",
+        "imageUrl": "finding_nemo_deb.webp"
+      }
+    },
+    {
+      "actorId": "8db2b33adbba9c70802f7feb",
+      "character": {
+        "name": "Jacques",
+        "imageUrl": "finding_nemo_jacques.webp"
+      }
+    },
+    {
+      "actorId": "506875a86231e077557d5523",
+      "character": {
+        "name": "Nigel",
+        "imageUrl": "finding_nemo_nigel.webp"
+      }
+    },
+    {
+      "actorId": "b625557c009d832a86d83197",
+      "character": {
+        "name": "Crush",
+        "imageUrl": "finding_nemo_crush.webp"
+      }
+    },
+    {
+      "actorId": "72c6cd55436dd636f717ccb8",
+      "character": {
+        "name": "Bruce",
+        "imageUrl": "finding_nemo_bruce.webp"
+      }
     }
   ],
   "collections": [

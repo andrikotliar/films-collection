@@ -125,7 +125,8 @@
     {
       "actorId": "e5253cdc8c1fb87953720d64",
       "character": {
-        "name": "Gollum"
+        "name": "Gollum",
+        "imageUrl": "the_lord_of_the_rings_return_of_the_king_gollum"
       }
     },
     {
