@@ -1,0 +1,142 @@
+{
+  "id": "5a88344046362b7d09bf1a63",
+  "type": [
+    "Film"
+  ],
+  "title": "World War Z",
+  "genres": [
+    "Action",
+    "Adventures",
+    "Horror"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Marc Forster"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Matthew Michael Carnahan"
+        },
+        {
+          "name": "Drew Goddard"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Brad Pitt"
+        },
+        {
+          "name": "Dede Gardner"
+        },
+        {
+          "name": "Jeremy Kleiner"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Marco Beltrami"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Ben Seresin"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Paramount Pictures",
+    "Skydance Productions"
+  ],
+  "duration": 116,
+  "cast": [
+    {
+      "actorId": "59689e0c8b7cf79f98fb2395",
+      "character": {
+        "name": "Gerry Lane"
+      }
+    },
+    {
+      "actorId": "d1b15d6a0de5023428bcca5e",
+      "character": {
+        "name": "Karin Lane"
+      }
+    },
+    {
+      "actorId": "fb3bf0f7826e5270cea890a9",
+      "character": {
+        "name": "Segen"
+      }
+    },
+    {
+      "actorId": "5bbe4522188dfae241a49323",
+      "character": {
+        "name": "Captain Speke"
+      }
+    },
+    {
+      "actorId": "de6dd183d81d208a02b16123",
+      "character": {
+        "name": "Jurgen Warmbrunn"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Future"
+    }
+  ],
+  "budget": 190000000,
+  "awards": [
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "2599d579fa06be944ecf2363"
+        }
+      ]
+    },
+    {
+      "awardId": "539b7c0eaba8eec432e9e48e",
+      "nominations": [
+        {
+          "nominationId": "72a0faef78adc41fccc2d4a7",
+          "actorId": "59689e0c8b7cf79f98fb2395"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 540000000,
+  "year": [
+    2013
+  ],
+  "media": [
+    {
+      "poster": "world_war_z.webp",
+      "trailer": "Md6Dvxdr0AQ"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Former United Nations employee Gerry Lane traverses the world in a race against time to stop the Zombie pandemic that is toppling armies and governments, and threatening to destroy humanity itself."
+  ]
+}

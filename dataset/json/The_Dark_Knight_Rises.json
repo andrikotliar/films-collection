@@ -1,0 +1,183 @@
+{
+  "id": "b304cc2b20c169744f83e9fa",
+  "type": [
+    "Film"
+  ],
+  "title": "The Dark Knight Rises",
+  "genres": [
+    "Action",
+    "Thriller"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Christopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Christopher Nolan"
+        },
+        {
+          "name": "Jonathan Nolan"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Charles Roven"
+        },
+        {
+          "name": "Emma Thomas"
+        },
+        {
+          "name": "Christopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Wally Pfister"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Warner Bros. Pictures",
+    "Legendary"
+  ],
+  "duration": 165,
+  "cast": [
+    {
+      "actorId": "b794f150c4436f17ba9bd9f1",
+      "character": {
+        "name": "Bruce Wayne",
+        "imageUrl": "the_dark_knight_rises_bruce_wayne.webp"
+      }
+    },
+    {
+      "actorId": "a03a7c1a8a396d3211b9b317",
+      "character": {
+        "name": "Commissioner Gordon"
+      }
+    },
+    {
+      "actorId": "54f5e1d6744bd15409e841cf",
+      "character": {
+        "name": "Bane"
+      }
+    },
+    {
+      "actorId": "206c09f62d171c1b58cc6378",
+      "character": {
+        "name": "Blake"
+      }
+    },
+    {
+      "actorId": "e368b232e6af9b5200fd411b",
+      "character": {
+        "name": "Selina"
+      }
+    },
+    {
+      "actorId": "6e287749f98b9217ea2ceb27",
+      "character": {
+        "name": "Miranda"
+      }
+    },
+    {
+      "actorId": "6baca3c5f3dcf4fb1271cb34",
+      "character": {
+        "name": "Fox"
+      }
+    },
+    {
+      "actorId": "68a6bf55b5f042549fda0642",
+      "character": {
+        "name": "Alfred"
+      }
+    },
+    {
+      "actorId": "ae59b91d424e2bfb80aa5ddb",
+      "character": {
+        "name": "Foley"
+      }
+    },
+    {
+      "actorId": "fa738fcf88f03caa8027dbe4",
+      "character": {
+        "name": "Dr. Pavel"
+      }
+    },
+    {
+      "actorId": "5e8de99fe5c4235fb362b719",
+      "character": {
+        "name": "Daggett"
+      }
+    },
+    {
+      "actorId": "2bc21f5ef07103af47d045c4",
+      "character": {
+        "name": "Stryver"
+      }
+    },
+    {
+      "actorId": "9627e589b4b4bbdb49ba2a5b",
+      "character": {
+        "name": "Captain Jones"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": 250000000,
+  "awards": [
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "83e32b8f54b88830a08e38eb",
+          "actorId": "e368b232e6af9b5200fd411b"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 1000000000,
+  "year": [
+    2012
+  ],
+  "media": [
+    {
+      "poster": "batman_3.webp",
+      "trailer": "GokKUqLcvD8"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City, now on the edge of total annihilation, from the brutal guerrilla terrorist Bane."
+  ],
+  "relatedTitlesKey": "c4d28635d7656ca68d38e43c"
+}

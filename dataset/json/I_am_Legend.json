@@ -1,0 +1,149 @@
+{
+  "id": "b1c949a7b4b25e409c4039e3",
+  "type": [
+    "Film"
+  ],
+  "title": "I am Legend",
+  "genres": [
+    "Sci-Fi"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Francis Lawrence"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Mark Protosevich"
+        },
+        {
+          "name": "Akiva Goldsman"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Akiva Goldsman"
+        },
+        {
+          "name": "James Lassiter"
+        },
+        {
+          "name": "David Heyman"
+        },
+        {
+          "name": "Neal H. Moritz"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "James Newton Howard"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Andrew Lesnie"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Warner Bros. Pictures",
+    "Village Roadshow Pictures"
+  ],
+  "duration": 101,
+  "cast": [
+    {
+      "actorId": "b59613245389fb066c309182",
+      "character": {
+        "name": "Robert Neville"
+      }
+    },
+    {
+      "actorId": "226d790f00f2af72460c1cea",
+      "character": {
+        "name": "Anna"
+      }
+    },
+    {
+      "actorId": "282d5061728e5eccfc2607a6",
+      "character": {
+        "name": "Ethan"
+      }
+    },
+    {
+      "actorId": "f58f37e70b380b952a04098d",
+      "character": {
+        "name": "Zoe Neville"
+      }
+    },
+    {
+      "actorId": "9733da64d3cbf7c37f9c843f",
+      "character": {
+        "name": "Marley Neville"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Robots"
+    }
+  ],
+  "budget": 150000000,
+  "awards": [
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "6e270264df618619fd4130b7",
+          "actorId": "b59613245389fb066c309182"
+        }
+      ]
+    },
+    {
+      "awardId": "539b7c0eaba8eec432e9e48e",
+      "nominations": [
+        {
+          "nominationId": "d64ff2b58f39570c045633a3",
+          "actorId": "b59613245389fb066c309182"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 585000000,
+  "year": [
+    2007
+  ],
+  "media": [
+    {
+      "poster": "i_am_legend.webp",
+      "trailer": "dtKMEAXyPkg"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure."
+  ],
+  "meta": {
+    "watchCount": {
+      "real": 3
+    }
+  }
+}

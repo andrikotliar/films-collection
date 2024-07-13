@@ -1,0 +1,160 @@
+{
+  "id": "3861d2f4038f01855477ad00",
+  "type": [
+    "Film"
+  ],
+  "title": "Indiana Jones and the Temple of Doom",
+  "genres": [
+    "Adventures",
+    "Fantasy",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Steven Spielberg"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Willard Huyck"
+        },
+        {
+          "name": "Gloria Katz"
+        },
+        {
+          "name": "George Lucas (story)"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Robert Watts"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Douglas Slocombe"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Paramount Pictures",
+    "Lucasfilm"
+  ],
+  "duration": 118,
+  "cast": [
+    {
+      "actorId": "90204450e3ebdb007d478280",
+      "character": {
+        "name": "Dr. Henry «Indiana» Jones, Jr."
+      }
+    },
+    {
+      "actorId": "2359c068d690ccd851b07cb1",
+      "character": {
+        "name": "Willie Scott"
+      }
+    },
+    {
+      "actorId": "f5a4d6a37358ec72b9d5d69b",
+      "character": {
+        "name": "Short Round"
+      }
+    },
+    {
+      "actorId": "9df1449bb678673fa1a844a6",
+      "character": {
+        "name": "Mola Ram"
+      }
+    },
+    {
+      "actorId": "437245d8c3cdf39ad3dc3b7b",
+      "character": {
+        "name": "Chattar Lal"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Mysteries of the Past"
+    }
+  ],
+  "budget": 28000000,
+  "awards": [
+    {
+      "awardId": "77f4fba8c4801f32a6bd8f39",
+      "nominations": [
+        {
+          "nominationId": "820d2a55172a2460be8ccdcf"
+        }
+      ]
+    },
+    {
+      "awardId": "f5ca20c5b015eafd0cb84b95",
+      "nominations": [
+        {
+          "nominationId": "a328339c31b1366a6d5983c7"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "578febce7942eff684e89336",
+          "comment": "\"The Adventures of Indiana Jones DVD Collection\""
+        }
+      ]
+    },
+    {
+      "awardId": "26769a9739cc8860c6c61e58",
+      "nominations": [
+        {
+          "nominationId": "75c418086169bb9bfad22742",
+          "actorId": "90204450e3ebdb007d478280"
+        },
+        {
+          "nominationId": "328bb2fb3f0f4d04fe349af9"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 333000000,
+  "year": [
+    1984
+  ],
+  "media": [
+    {
+      "poster": "indiana_jones_2.webp",
+      "trailer": "WBdyLyijZhU"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "In 1935, Indiana Jones arrives in India, still part of the British Empire, and is asked to find a mystical stone. He then stumbles upon a secret cult committing enslavement and human sacrifices in the catacombs of an ancient palace."
+  ],
+  "relatedTitlesKey": "b6df4d99b3eecf421590dd26"
+}

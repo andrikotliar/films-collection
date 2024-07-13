@@ -1,0 +1,162 @@
+{
+  "id": "b3ce366732f86d80bed2dbee",
+  "type": [
+    "Animation"
+  ],
+  "title": "WALL-E",
+  "genres": [
+    "Sci-Fi",
+    "Romance"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Andrew Stanton"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Andrew Stanton"
+        },
+        {
+          "name": "Jim Reardon"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Jim Morris"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Thomas Newman"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Jeremy Lasky"
+        },
+        {
+          "name": "Danielle Feinberg"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Pixar Animation"
+  ],
+  "duration": 97,
+  "cast": [
+    {
+      "actorId": "d5264ffaad866e0421f05d92",
+      "character": {
+        "name": "WALL-E / M-O / AUTO",
+        "imageUrl": "wall_e_wall-e.webp"
+      }
+    },
+    {
+      "actorId": "09bcd60575e3711555b6debd",
+      "character": {
+        "name": "EVE",
+        "imageUrl": "wall_e_eve.webp"
+      }
+    },
+    {
+      "actorId": "d717be436621af2098bc9200",
+      "character": {
+        "name": "Captain",
+        "imageUrl": "wall_e_captain.webp"
+      }
+    },
+    {
+      "actorId": "6597b9990c3f3bc299801972",
+      "character": {
+        "name": "Shelby Forthright"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Space"
+    },
+    {
+      "title": "Top 10",
+      "order": 9
+    }
+  ],
+  "budget": 180000000,
+  "awards": [
+    {
+      "awardId": "77f4fba8c4801f32a6bd8f39",
+      "nominations": [
+        {
+          "nominationId": "dc2f81356a5c43ad11366c9b"
+        }
+      ]
+    },
+    {
+      "awardId": "4fc6a2669b79482fb03b65c3",
+      "nominations": [
+        {
+          "nominationId": "3d45dce73d72aa4056ea90e6"
+        }
+      ]
+    },
+    {
+      "awardId": "f5ca20c5b015eafd0cb84b95",
+      "nominations": [
+        {
+          "nominationId": "a2a2ed5554b463917255a2db"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "6245de35a58473814d425660"
+        }
+      ]
+    },
+    {
+      "awardId": "083e0a9c6cad4b02c0d5772b",
+      "nominations": [
+        {
+          "nominationId": "733d6f320a77a4bc58ba2dbd"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 533000000,
+  "year": [
+    2008
+  ],
+  "media": [
+    {
+      "poster": "wall_e.webp",
+      "trailer": "alIq_wG9FNk"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind."
+  ]
+}

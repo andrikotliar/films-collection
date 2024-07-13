@@ -1,0 +1,363 @@
+{
+  "id": "82a806107aee71e4dea2804f",
+  "type": [
+    "Series",
+    "Animation"
+  ],
+  "title": "Avatar: The Last Airbender",
+  "genres": [
+    "Adventures",
+    "Fantasy"
+  ],
+  "crew": [
+    {
+      "role": "series_creator",
+      "people": [
+        {
+          "name": "Michael Dante DiMartino"
+        },
+        {
+          "name": "Bryan Konietzko"
+        }
+      ]
+    },
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Michael Dante DiMartino",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Giancarlo Volpe",
+          "comment": "19 episodes"
+        },
+        {
+          "name": "Dave Filoni",
+          "comment": "9 episodes"
+        },
+        {
+          "name": "Lauren MacMullan",
+          "comment": "11 episodes"
+        },
+        {
+          "name": "Anthony Lioi",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Ethan Spaulding",
+          "comment": "12 episodes"
+        },
+        {
+          "name": "Bryan Konietzko",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Joaquim Dos Santos",
+          "comment": "8 episodes"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Michael Dante DiMartino",
+          "comment": "14 episodes (written by)"
+        },
+        {
+          "name": "Bryan Konietzko",
+          "comment": "7 episodes (written by)"
+        },
+        {
+          "name": "John O'Bryan",
+          "comment": "12 episodes"
+        },
+        {
+          "name": "Aaron Ehasz",
+          "comment": "11 episodes"
+        },
+        {
+          "name": "James Eagan",
+          "comment": "5 episodes"
+        },
+        {
+          "name": "Ian Wilcox",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Tim Hedrick",
+          "comment": "10 episodes"
+        },
+        {
+          "name": "Elizabeth Welch Ehasz",
+          "comment": "8 episodes"
+        },
+        {
+          "name": "Joshua Hamilton",
+          "comment": "7 episodes"
+        },
+        {
+          "name": "Joann Estoesta",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Matt Hubbard",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Lisa Wahlander",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Andrew Huebner",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Gary Scheppke",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Katie Mattila",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Nick Malis",
+          "comment": "1 episode"
+        },
+        {
+          "name": "May Chan",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Giancarlo Volpe",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Michael Dante DiMartino"
+        },
+        {
+          "name": "Bryan Konietzko"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Benjamin Wynn"
+        },
+        {
+          "name": "Jeremy Zuckerman"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Nickelodeon Animation Studios"
+  ],
+  "duration": 1220,
+  "cast": [
+    {
+      "actorId": "2ce21281528737b83dc6b40a",
+      "character": {
+        "name": "Aang",
+        "imageUrl": "avatar_the_last_airbender_aang.webp"
+      }
+    },
+    {
+      "actorId": "28eb5fb40e094a445b3d4c67",
+      "character": {
+        "name": "Katara",
+        "imageUrl": "avatar_the_last_airbender_katara.webp"
+      }
+    },
+    {
+      "actorId": "932b44a9817a834e2d6b36b8",
+      "character": {
+        "name": "Sokka",
+        "imageUrl": "avatar_the_last_airbender_sokka.webp"
+      }
+    },
+    {
+      "actorId": "9260ae3c9058216c1a4b736f",
+      "character": {
+        "name": "Zuko",
+        "imageUrl": "avatar_the_last_airbender_zuko.webp"
+      }
+    },
+    {
+      "actorId": "76590bc2f0de58b4b6bd1602",
+      "character": {
+        "name": "Toph",
+        "imageUrl": "avatar_the_last_airbender_toph.webp"
+      }
+    },
+    {
+      "actorId": "bc7466515df39324040ba83f",
+      "character": {
+        "name": "Airo",
+        "imageUrl": "avatar_the_last_airbender_airo.webp"
+      }
+    },
+    {
+      "actorId": "206e0ae39ee3dbc6bc72b4de",
+      "character": {
+        "name": "Azula",
+        "imageUrl": "avatar_the_last_airbender_azula.webp"
+      }
+    },
+    {
+      "actorId": "8f71b3144bc62e91c219fd52",
+      "character": {
+        "name": "Hakoda",
+        "imageUrl": "avatar_the_last_airbender_hakoda.webp"
+      }
+    },
+    {
+      "actorId": "0de57155c7cf78ddaa7c504a",
+      "character": {
+        "name": "Mai",
+        "imageUrl": "avatar_the_last_airbender_mai.webp"
+      }
+    },
+    {
+      "actorId": "d5f69adf4cc1cc4045d733c6",
+      "character": {
+        "name": "Ty Lee",
+        "imageUrl": "avatar_the_last_airbender_ty_lee.webp"
+      }
+    },
+    {
+      "actorId": "305c68f0f0bf1960f2b6b3a7",
+      "character": {
+        "name": "Roku",
+        "imageUrl": "avatar_the_last_airbender_roku.webp"
+      }
+    },
+    {
+      "actorId": "2180a26604a08b79e32855c0",
+      "character": {
+        "name": "Zhao",
+        "imageUrl": "avatar_the_last_airbender_zhao.webp"
+      }
+    },
+    {
+      "actorId": "8e58705ae826aaa9554b17d6",
+      "character": {
+        "name": "Long Feng",
+        "imageUrl": "avatar_the_last_airbender_long_feng.webp"
+      }
+    },
+    {
+      "actorId": "f0dcc9127d28773db4a80347",
+      "character": {
+        "name": "Princess Yue",
+        "imageUrl": "avatar_the_last_airbender_princess_yue.webp"
+      }
+    },
+    {
+      "actorId": "609f7850e7e75a980172088c",
+      "character": {
+        "name": "Suki",
+        "imageUrl": "avatar_the_last_airbender_suki.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Fantasy Worlds"
+    }
+  ],
+  "awards": [
+    {
+      "awardId": "1a2c1d3cd91f28f4a9a006c0",
+      "nominations": [
+        {
+          "nominationId": "7939ed66dc64287e900e1e9b"
+        }
+      ]
+    },
+    {
+      "awardId": "ec5ae1c2e4971f204bb68398",
+      "nominations": [
+        {
+          "nominationId": "ad93ae19280ad3214f292797"
+        },
+        {
+          "nominationId": "4e2ee885e7cf3e5f4d542b74",
+          "comment": "Joaquim Dos Santos. For episode \"Sozin's Comet: Part 3 - Into the Inferno\" (season 3, episode 20)"
+        },
+        {
+          "nominationId": "9b1f0211d22f7acb70e70ab7",
+          "comment": "Jae-Myung Yoo. For episode \"The Blind Bandit\" (season 2 episode 6)"
+        },
+        {
+          "nominationId": "062ab38a1eebda0a6523f479",
+          "comment": "Giancarlo Volpe. For episode \"The Drill\" (season 2 episode 13)"
+        },
+        {
+          "nominationId": "69f15e4b63396d57846793ca",
+          "comment": "Lauren MacMullan. For episode \"The Deserter\" (season 1 episode 16)"
+        },
+        {
+          "nominationId": "f14fd7b05410175b6a6fcfc2"
+        }
+      ]
+    }
+  ],
+  "year": [
+    2005,
+    2006,
+    2007
+  ],
+  "series": {
+    "episodesTotal": 61,
+    "seasons": [
+      {
+        "title": "Book 1: Water",
+        "number": 1,
+        "episodesCount": 20
+      },
+      {
+        "title": "Book 2: Earth",
+        "number": 2,
+        "episodesCount": 20
+      },
+      {
+        "title": "Book 3: Fire",
+        "number": 3,
+        "episodesCount": 21
+      }
+    ]
+  },
+  "media": [
+    {
+      "poster": "last_airbender.webp",
+      "trailer": "ahPeclU9VW0"
+    },
+    {
+      "poster": "last_airbender_s2.webp",
+      "trailer": "ahPeclU9VW0"
+    },
+    {
+      "poster": "last_airbender_s3.webp",
+      "trailer": "ahPeclU9VW0"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "Follow the journey of Aang, the last Airbender and the Avatar, as he awakens from a century-long slumber to a world ravaged by war. With the help of new friends Katara and Sokka, he embarks on a quest to master the elements and bring balance to a world torn by the Fire Nation's aggression.",
+    "Aang continues his training as the Avatar, facing new challenges and adventures. The group confronts the Earth Kingdom's struggles, uncovers the secrets of the spirit world, and Aang delves deeper into his connection with the Avatar State, all while the Fire Nation intensifies its pursuit.",
+    "Aang and his friends prepare for the ultimate showdown with the Fire Nation and its tyrannical ruler, Fire Lord Ozai. The group faces personal dilemmas and tough choices, while the world holds its breath, waiting for the Avatar's triumph and the restoration of balance."
+  ],
+  "relatedTitlesKey": "e05da171ca037612acd11bcf"
+}

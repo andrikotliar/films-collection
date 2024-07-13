@@ -1,0 +1,104 @@
+{
+  "id": "8d426c6889afd565be724619",
+  "type": [
+    "Film"
+  ],
+  "title": "The Call of the Wild",
+  "genres": [
+    "Adventures",
+    "Drama"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Chris Sanders"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Michael Green"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "James Mangold"
+        },
+        {
+          "name": "Erwin Stoff"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "John Powell"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Janusz Kaminski"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "Canada",
+    "USA"
+  ],
+  "production": [
+    "20th Century Studios"
+  ],
+  "duration": 100,
+  "cast": [
+    {
+      "actorId": "90204450e3ebdb007d478280",
+      "character": {
+        "name": "John Thornton"
+      }
+    },
+    {
+      "actorId": "800064d873a4ee8f8cea356f",
+      "character": {
+        "name": "Perrault"
+      }
+    },
+    {
+      "actorId": "533372a3f1edbaf920720573",
+      "character": {
+        "name": "Hal"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Animals"
+    }
+  ],
+  "budget": 135000000,
+  "boxOffice": 110000000,
+  "year": [
+    2020
+  ],
+  "media": [
+    {
+      "poster": "the_call_of_the_wild.webp",
+      "trailer": "h1LG9So2ZBk"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "A sled dog struggles for survival in the wilds of the Yukon."
+  ]
+}

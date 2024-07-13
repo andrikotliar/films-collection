@@ -1,0 +1,144 @@
+{
+  "id": "c79f422e7a821a7c0dbc9a45",
+  "type": [
+    "Film"
+  ],
+  "title": "The Matrix Reloaded",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "The Wachowski Brothers"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "The Wachowski Brothers"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Joel Silver"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Don Davis"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Bill Pope"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA",
+    "Australia"
+  ],
+  "production": [
+    "Warner Bros. Pictures"
+  ],
+  "duration": 138,
+  "cast": [
+    {
+      "actorId": "064e80da8733b3e3692e9735",
+      "character": {
+        "name": "Neo"
+      }
+    },
+    {
+      "actorId": "598ea6d5be8fe378787adde7",
+      "character": {
+        "name": "Morpheus"
+      }
+    },
+    {
+      "actorId": "86bd70fb1e96e084b818b8d1",
+      "character": {
+        "name": "Trinity"
+      }
+    },
+    {
+      "actorId": "9d72ccad0a0c60872b91d2d3",
+      "character": {
+        "name": "Agent Smith"
+      }
+    },
+    {
+      "actorId": "5ce3b37a34510b2a6acb942b",
+      "character": {
+        "name": "Oracle"
+      }
+    },
+    {
+      "actorId": "544db30160fa4bfa12603ee5",
+      "character": {
+        "name": "Niobe"
+      }
+    },
+    {
+      "actorId": "e08aee6b1c0c234b43ec840c",
+      "character": {
+        "name": "Persephone"
+      }
+    },
+    {
+      "actorId": "f4f9797ab0dbf75982b9e09f",
+      "character": {
+        "name": "The Merovaiingian"
+      }
+    },
+    {
+      "actorId": "ac0c86b4f56b6b569c2b37fb",
+      "character": {
+        "name": "The Keymaker"
+      }
+    },
+    {
+      "actorId": "693cddd36401229c5f169c3f",
+      "character": {
+        "name": "The Architect"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Future"
+    }
+  ],
+  "budget": 127000000,
+  "boxOffice": 742000000,
+  "year": [
+    2003
+  ],
+  "media": [
+    {
+      "poster": "matrix_2.webp",
+      "trailer": "kYzz0FSgpSU"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "Neo and the rebel leaders estimate that they have 72 hours until 250,000 probes discover Zion and destroy it and its inhabitants. During this, Neo must decide how he can save Trinity from a dark fate in his dreams."
+  ],
+  "relatedTitlesKey": "a9cbfde563018e36f2bcf883"
+}

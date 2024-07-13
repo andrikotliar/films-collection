@@ -1,0 +1,257 @@
+{
+  "id": "25b399bb2b0a993b624cd427",
+  "type": [
+    "Series"
+  ],
+  "title": "The Witcher",
+  "genres": [
+    "Adventures",
+    "Fantasy"
+  ],
+  "crew": [
+    {
+      "role": "series_creator",
+      "people": [
+        {
+          "name": "Lauren Schmidt Hissrich"
+        }
+      ]
+    },
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Alik Sakharov",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Alex Garcia Lopez",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Charlotte Brändström",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Marc Jobst",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Stephen Surjik",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Sarah O'Gorman",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Ed Bazalgette",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Louise Hooper",
+          "comment": "2 episodes"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Lauren Schmidt Hissrich",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Jenny Klein",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Beau DeMayo",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Declan De Barra",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Sneha Koorse",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Haily Hall",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Mike Ostrowski",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Clare Higgins",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Matthew D'Ambrosio",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Mike Ostrowski"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Sonya Belousova"
+        },
+        {
+          "name": "Giona Ostinelli"
+        },
+        {
+          "name": "Joseph Trapanese"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Jean-Philippe Gossart"
+        },
+        {
+          "name": "Gavin Struthers"
+        },
+        {
+          "name": "Romain Lacourbas"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA",
+    "Poland",
+    "Hungary"
+  ],
+  "production": [
+    "Netflix"
+  ],
+  "duration": 480,
+  "cast": [
+    {
+      "actorId": "8b6677adf81a10fa756951ff",
+      "character": {
+        "name": "Geralt of Rivia"
+      }
+    },
+    {
+      "actorId": "fdeaf41493c2666f0ed79a4c",
+      "character": {
+        "name": "Ciri"
+      }
+    },
+    {
+      "actorId": "c919f5d268507ab36904ab8d",
+      "character": {
+        "name": "Yennefer"
+      }
+    },
+    {
+      "actorId": "95ae35f0d5b00353aa57924b",
+      "character": {
+        "name": "Tissaia"
+      }
+    },
+    {
+      "actorId": "ba5479f3e4dc93e8175bb922",
+      "character": {
+        "name": "Dara"
+      }
+    },
+    {
+      "actorId": "e694787154dd6705fb8133bd",
+      "character": {
+        "name": "Mousesack"
+      }
+    },
+    {
+      "actorId": "65ea9eae2b66d6cf898eea96",
+      "character": {
+        "name": "Stregobor"
+      }
+    },
+    {
+      "actorId": "8c8f21058355706d1a5fb875",
+      "character": {
+        "name": "Istredd"
+      }
+    },
+    {
+      "actorId": "91b782dd50e7daac52080396",
+      "character": {
+        "name": "Queen Calanthe"
+      }
+    },
+    {
+      "actorId": "27454ee592adde625c6dfaf4",
+      "character": {
+        "name": "Cahir"
+      }
+    },
+    {
+      "actorId": "379a19913a9eb488c758dd9a",
+      "character": {
+        "name": "Jaskier"
+      }
+    },
+    {
+      "actorId": "833612b7b70e68df78ece124",
+      "character": {
+        "name": "Vilgefortz"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Fantasy Worlds"
+    }
+  ],
+  "year": [
+    2019,
+    2021
+  ],
+  "series": {
+    "episodesTotal": 16,
+    "seasons": [
+      {
+        "title": "Season 1",
+        "number": 1,
+        "episodesCount": 8
+      },
+      {
+        "title": "Season 2",
+        "number": 2,
+        "episodesCount": 8
+      }
+    ]
+  },
+  "media": [
+    {
+      "poster": "witcher.webp",
+      "trailer": "ndl1W4ltcmg"
+    },
+    {
+      "poster": "witcher_s2.webp",
+      "trailer": "2aMVzFlApa0"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "In the first season, Geralt of Rivia, a monster hunter known as a Witcher, navigates a world filled with dangerous creatures and complex political intrigue. He crosses paths with Yennefer, a powerful sorceress, and Ciri, a young princess with a destiny tied to his own. The three destinies converge in a world where the line between good and evil is blurred.",
+    "Geralt embraces his destiny as he protects Ciri from the forces battling for control of the Continent — and from the mysterious power she possesses."
+  ]
+}

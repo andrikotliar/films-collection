@@ -1,0 +1,143 @@
+{
+  "id": "c09ee58b3b8e621674ab56c0",
+  "type": [
+    "Film"
+  ],
+  "title": "Miss Peregrine's Home for Peculiar Children",
+  "genres": [
+    "Fantasy",
+    "Adventures",
+    "Drama"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Tim Burton"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Jane Goldman"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Peter Chernin"
+        },
+        {
+          "name": "Jenno Topping"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Mike Higham"
+        },
+        {
+          "name": "Matthew Margeson"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Bruno Delbonnel"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "duration": 127,
+  "cast": [
+    {
+      "actorId": "0df98bb53bcc1710be4174b5",
+      "character": {
+        "name": "Miss Peregrine"
+      }
+    },
+    {
+      "actorId": "6d993dbef1d1e79ea49516fa",
+      "character": {
+        "name": "Jake"
+      }
+    },
+    {
+      "actorId": "b066e50c67b8ffebd4ea16ba",
+      "character": {
+        "name": "Barron"
+      }
+    },
+    {
+      "actorId": "fe6dafd9367a52a6060a4b8a",
+      "character": {
+        "name": "Emma"
+      }
+    },
+    {
+      "actorId": "bc58418600dc1689762c643e",
+      "character": {
+        "name": "Miss Avocet"
+      }
+    },
+    {
+      "actorId": "98ec4d73331cf787bbdd9e29",
+      "character": {
+        "name": "Dr. Golan"
+      }
+    },
+    {
+      "actorId": "b86637d2167eb20e13a98584",
+      "character": {
+        "name": "Abe"
+      }
+    },
+    {
+      "actorId": "52dfaa29757683bd616f3f22",
+      "character": {
+        "name": "Enoch"
+      }
+    },
+    {
+      "actorId": "650b101ca761dc9f1462ce53",
+      "character": {
+        "name": "Olive"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Fantasy Worlds"
+    }
+  ],
+  "budget": 110000000,
+  "boxOffice": 296000000,
+  "year": [
+    2016
+  ],
+  "media": [
+    {
+      "poster": "miss_peregrin.webp",
+      "trailer": "tV_IhWE4LP0"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "When Jacob discovers clues to a mystery that stretches across time, he finds Miss Peregrine's Home for Peculiar Children. But the danger deepens after he gets to know the residents and learns about their special powers."
+  ]
+}

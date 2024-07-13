@@ -1,0 +1,128 @@
+{
+  "id": "6db02a11ff84a81a007f8e01",
+  "type": [
+    "Film"
+  ],
+  "title": "A Quiet Place Part II",
+  "genres": [
+    "Sci-Fi",
+    "Horror"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "John Krasinski"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "John Krasinski"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Michael Bay"
+        },
+        {
+          "name": "Andrew Form"
+        },
+        {
+          "name": "Brad Fuller"
+        },
+        {
+          "name": "John Krasinski"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Marco Beltrami"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Polly Morgan"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Paramount Pictures"
+  ],
+  "duration": 97,
+  "cast": [
+    {
+      "actorId": "48bc6851537e5e5dc1bf99ca",
+      "character": {
+        "name": "Evelyn Abbott"
+      }
+    },
+    {
+      "actorId": "363223be89ee678b9ac594d3",
+      "character": {
+        "name": "Lee Abbott"
+      }
+    },
+    {
+      "actorId": "02739f3351eb701eaca4c00e",
+      "character": {
+        "name": "Regan Abbott"
+      }
+    },
+    {
+      "actorId": "08f4518a7166226e5800cc1d",
+      "character": {
+        "name": "Marcus Abbott"
+      }
+    },
+    {
+      "actorId": "fe1abb15a45afafd3263a771",
+      "character": {
+        "name": "Emmett"
+      }
+    },
+    {
+      "actorId": "bdb2e64bab1a24a00031585c",
+      "character": {
+        "name": "Man on Island"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Invasion"
+    }
+  ],
+  "budget": 160000000,
+  "boxOffice": 297000000,
+  "year": [
+    2021
+  ],
+  "media": [
+    {
+      "poster": "quiet_place_2.webp",
+      "trailer": "BpdDN9d9Jio"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize the creatures that hunt by sound are not the only threats lurking beyond the sand path."
+  ],
+  "relatedTitlesKey": "1c30dbe27f9fe9ce1656406b"
+}

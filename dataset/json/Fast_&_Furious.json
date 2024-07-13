@@ -1,0 +1,134 @@
+{
+  "id": "a57d6b193e0bee7729e88a85",
+  "type": [
+    "Film"
+  ],
+  "title": "Fast & Furious",
+  "genres": [
+    "Action",
+    "Crime"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Justin Lin"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Chris Morgan"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Neal H. Moritz"
+        },
+        {
+          "name": "Vin Diesel"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Brian Tyler"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Amir Mokri"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "duration": 107,
+  "cast": [
+    {
+      "actorId": "8acb4ceb24e197fffd95c777",
+      "character": {
+        "name": "Dominic Toretto"
+      }
+    },
+    {
+      "actorId": "61f64cb0f58dc3c12fc0c193",
+      "character": {
+        "name": "Brian O'Conner"
+      }
+    },
+    {
+      "actorId": "84fe0dd000d931d469570852",
+      "character": {
+        "name": "Mia"
+      }
+    },
+    {
+      "actorId": "f19c147b933b4ed2c5574ef6",
+      "character": {
+        "name": "Letty"
+      }
+    },
+    {
+      "actorId": "8553c8c0a6f2626b7129e7c1",
+      "character": {
+        "name": "Campos"
+      }
+    },
+    {
+      "actorId": "3b762e0e7c6cf942574547b6",
+      "character": {
+        "name": "Fenix"
+      }
+    },
+    {
+      "actorId": "689592fad487486ce5468f9f",
+      "character": {
+        "name": "Gisele"
+      }
+    },
+    {
+      "actorId": "f64566657b4a65aaf1c8a875",
+      "character": {
+        "name": "Han"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Cars"
+    }
+  ],
+  "budget": 85000000,
+  "boxOffice": 363000000,
+  "year": [
+    2009
+  ],
+  "media": [
+    {
+      "poster": "fast_and_furious_4.webp",
+      "trailer": "Gl-d_UIhdBw"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation."
+  ],
+  "relatedTitlesKey": "60e1ed9423ed8b0c24b751c1"
+}

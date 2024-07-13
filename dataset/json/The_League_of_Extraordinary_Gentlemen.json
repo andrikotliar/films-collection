@@ -1,0 +1,135 @@
+{
+  "id": "df0865341f4fd6c8b172e5d3",
+  "type": [
+    "Film"
+  ],
+  "title": "The League of Extraordinary Gentlemen",
+  "genres": [
+    "Adventures",
+    "Fantasy",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Stephen Norrington"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "James Robinson"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Don Murphy"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Trevor Jones"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Dan Laustsen"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA",
+    "Germany",
+    "Czech Republic",
+    "UK"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "duration": 110,
+  "cast": [
+    {
+      "actorId": "52e5e7e893ec68a15817dc22",
+      "character": {
+        "name": "Allan Quatermain"
+      }
+    },
+    {
+      "actorId": "6fd2df6ac710efacd011103e",
+      "character": {
+        "name": "Captain Nemo"
+      }
+    },
+    {
+      "actorId": "6cf7c8e7ba3ae618c5d6ce59",
+      "character": {
+        "name": "Mina Harker"
+      }
+    },
+    {
+      "actorId": "3dfa1f2f3e8923ade058f01d",
+      "character": {
+        "name": "Rodney Skinner"
+      }
+    },
+    {
+      "actorId": "8d2b8f984e9c569434298a4b",
+      "character": {
+        "name": "Dorian Gray"
+      }
+    },
+    {
+      "actorId": "f23198f412b489ca9abf001a",
+      "character": {
+        "name": "Tom Sawyer"
+      }
+    },
+    {
+      "actorId": "8d34f6ffde757618a3f13712",
+      "character": {
+        "name": "Dr. Henry Jekyll / Edward Hyde",
+        "imageUrl": "the_league_of_extraordinary_gentlemen_dr_henry_jekyll.webp"
+      }
+    },
+    {
+      "actorId": "953ad71c05859a1a5ee1bd5f",
+      "character": {
+        "name": "M"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": 78000000,
+  "boxOffice": 179000000,
+  "year": [
+    2003
+  ],
+  "media": [
+    {
+      "poster": "league_of_extraordinary_gentlemen.webp",
+      "trailer": "_WWIiTlGyYQ"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "In an alternate Victorian Age world, a group of famous contemporary fantasy, science fiction, and adventure characters team up on a secret mission."
+  ]
+}

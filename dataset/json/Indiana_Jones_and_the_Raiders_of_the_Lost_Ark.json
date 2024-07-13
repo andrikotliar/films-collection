@@ -1,0 +1,198 @@
+{
+  "id": "4692ec79984d235d51641d16",
+  "type": [
+    "Film"
+  ],
+  "title": "Indiana Jones and the Raiders of the Lost Ark",
+  "genres": [
+    "Adventures",
+    "Fantasy",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Steven Spielberg"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Lawrence Kasdan"
+        },
+        {
+          "name": "George Lucas (story)"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Frank Marshall"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Douglas Slocombe"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Paramount Pictures",
+    "Lucasfilm"
+  ],
+  "duration": 115,
+  "cast": [
+    {
+      "actorId": "90204450e3ebdb007d478280",
+      "character": {
+        "name": "Dr. Henry «Indiana» Jones, Jr."
+      }
+    },
+    {
+      "actorId": "bd524c2789035cc0587cd149",
+      "character": {
+        "name": "Marion"
+      }
+    },
+    {
+      "actorId": "507838a0e6675bb5c9fbd2f2",
+      "character": {
+        "name": "Belloq"
+      }
+    },
+    {
+      "actorId": "62119b0307c540cb16d33aed",
+      "character": {
+        "name": "Toht"
+      }
+    },
+    {
+      "actorId": "2555ed16eef45d9015e8aa02",
+      "character": {
+        "name": "Sallah"
+      }
+    },
+    {
+      "actorId": "1cb94f174646e5cd8d18c312",
+      "character": {
+        "name": "Brody"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Legends"
+    },
+    {
+      "title": "Mysteries of the Past"
+    }
+  ],
+  "budget": 18000000,
+  "awards": [
+    {
+      "awardId": "77f4fba8c4801f32a6bd8f39",
+      "nominations": [
+        {
+          "nominationId": "135b75443634451392a18894"
+        },
+        {
+          "nominationId": "218a422da0df0fa0f49d97a5"
+        },
+        {
+          "nominationId": "35200fe128bd097f8616d1ba"
+        },
+        {
+          "nominationId": "f7e4e2261fe9a2c134896f78"
+        }
+      ]
+    },
+    {
+      "awardId": "f5ca20c5b015eafd0cb84b95",
+      "nominations": [
+        {
+          "nominationId": "0cda107851c64c6f3cd4e63f"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "578febce7942eff684e89336",
+          "comment": "\"The Adventures of Indiana Jones DVD Collection\""
+        },
+        {
+          "nominationId": "4fd7ee01f8d451629aa882d4"
+        },
+        {
+          "nominationId": "6e270264df618619fd4130b7",
+          "actorId": "90204450e3ebdb007d478280"
+        },
+        {
+          "nominationId": "9689652dc356c3239dfa2d51",
+          "actorId": "bd524c2789035cc0587cd149"
+        },
+        {
+          "nominationId": "833a98ad422e5573235b6bb2"
+        },
+        {
+          "nominationId": "c96092433dd13c7cef968834"
+        },
+        {
+          "nominationId": "c730b8e47577f01574e9a302"
+        },
+        {
+          "nominationId": "16a4df15595684906961ec92"
+        }
+      ]
+    },
+    {
+      "awardId": "26769a9739cc8860c6c61e58",
+      "nominations": [
+        {
+          "nominationId": "75c418086169bb9bfad22742",
+          "actorId": "90204450e3ebdb007d478280"
+        },
+        {
+          "nominationId": "328bb2fb3f0f4d04fe349af9"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 390000000,
+  "year": [
+    1981
+  ],
+  "media": [
+    {
+      "poster": "indiana_jones_1.webp",
+      "trailer": "Rh_BJXG1-44"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers."
+  ],
+  "relatedTitlesKey": "b6df4d99b3eecf421590dd26"
+}

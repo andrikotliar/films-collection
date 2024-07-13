@@ -1,5 +1,28 @@
-.wrapper {
+.tabs {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.tabButton {
+  padding: 5px 15px;
+  border-radius: var(--app-border-radius);
+  border: var(--app-border);
+  transition: background-color 0.3s, border 0.3s;
+}
+
+.tabButton:hover {
+  background-color: var(--gray-light);
+}
+
+.activeTabButton,
+.activeTabButton:hover {
+  color: #fff;
+  border-color: var(--main-color);
+  background-color: var(--main-color);
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.4s;
 }

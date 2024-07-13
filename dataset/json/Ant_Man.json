@@ -1,0 +1,159 @@
+{
+  "id": "ea4d57216bd0044dd1d8049c",
+  "type": [
+    "Film"
+  ],
+  "title": "Ant-Man",
+  "genres": [
+    "Sci-Fi",
+    "Comedy"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Peyton Reed"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Edgar Wright"
+        },
+        {
+          "name": "Joe Cornish"
+        },
+        {
+          "name": "Adam McKay"
+        },
+        {
+          "name": "Paul Rudd"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Christophe Beck"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Russell Carpenter"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Marvel Studios"
+  ],
+  "duration": 117,
+  "cast": [
+    {
+      "actorId": "5d474df7bc79a3784ee0df3a",
+      "character": {
+        "name": "Scott Lang / Ant-Man",
+        "imageUrl": "ant_man_scott_lang.webp"
+      }
+    },
+    {
+      "actorId": "b2ea2428b1a880a37e8855f5",
+      "character": {
+        "name": "Dr. Hank Pym"
+      }
+    },
+    {
+      "actorId": "cbea23272f6d430dd37d2296",
+      "character": {
+        "name": "Hope van Dyne"
+      }
+    },
+    {
+      "actorId": "c05edcaeec351b29c250a8ba",
+      "character": {
+        "name": "Darren Cross / Yellowjacket",
+        "imageUrl": "ant_man_darren_cross.webp"
+      }
+    },
+    {
+      "actorId": "4eae3a290425e38751fe0bbc",
+      "character": {
+        "name": "Paxton"
+      }
+    },
+    {
+      "actorId": "5e3bafc74ed0a30df02c53af",
+      "character": {
+        "name": "Luis"
+      }
+    },
+    {
+      "actorId": "b59e04d8cace91ce7b37a878",
+      "character": {
+        "name": "Sam Wilson / Falcon"
+      }
+    },
+    {
+      "actorId": "a7cfc2b76fb5d17a3ff9227e",
+      "character": {
+        "name": "Maggie Lang"
+      }
+    },
+    {
+      "actorId": "446bc02bc912344a78e54e2d",
+      "character": {
+        "name": "Cassie Lang"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": 130000000,
+  "awards": [
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "49f9eaedda92c9e5d6d676b3"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 519000000,
+  "year": [
+    2015
+  ],
+  "media": [
+    {
+      "poster": "ant_man_1.webp",
+      "trailer": "pWdKf3MneyI"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world."
+  ],
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+}

@@ -1,0 +1,186 @@
+{
+  "id": "14bd48fe57193d49e689cf95",
+  "type": [
+    "Film"
+  ],
+  "title": "X2",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Bryan Singer"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "David Hayter"
+        },
+        {
+          "name": "Michael Dougherty"
+        },
+        {
+          "name": "Dan Harris"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Lauren Shuler Donner"
+        },
+        {
+          "name": "Ralph Winter"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "John Ottman"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Newton Thomas Sigel"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "20th Century FOX",
+    "Marvel Entertainment"
+  ],
+  "duration": 133,
+  "cast": [
+    {
+      "actorId": "a1b52bbc28ac6c198e877b39",
+      "character": {
+        "name": "Professor Charles Xavier"
+      }
+    },
+    {
+      "actorId": "544abb6ffddc8ddf4056b862",
+      "character": {
+        "name": "Logan / Wolverine"
+      }
+    },
+    {
+      "actorId": "aa9b2474d8c4c51e34160de8",
+      "character": {
+        "name": "Eric Lehnsherr / Magneto"
+      }
+    },
+    {
+      "actorId": "bb3c268d0e1fceec2b8b8d58",
+      "character": {
+        "name": "Ororo Munroe / Storm"
+      }
+    },
+    {
+      "actorId": "d5fc3f286280bd87817fbca7",
+      "character": {
+        "name": "Jean Grey"
+      }
+    },
+    {
+      "actorId": "525beb4c90894e34b294cef6",
+      "character": {
+        "name": "Scott Summers / Cyclops"
+      }
+    },
+    {
+      "actorId": "b3406982f9ef021d2d13e050",
+      "character": {
+        "name": "Rogue"
+      }
+    },
+    {
+      "actorId": "d3d49fa0c570c7084aace0d7",
+      "character": {
+        "name": "Raven Darkholme / Mystique",
+        "imageUrl": "x2_mystique.webp"
+      }
+    },
+    {
+      "actorId": "6dd09effc1e0efff7f5bce67",
+      "character": {
+        "name": "William Stryker"
+      }
+    },
+    {
+      "actorId": "f04283af69e0fa7ac78ac144",
+      "character": {
+        "name": "Kurt Wagner / Nightcrawler",
+        "imageUrl": "x2_kurt_wagner.webp"
+      }
+    },
+    {
+      "actorId": "9e2681878ec550ab367669b9",
+      "character": {
+        "name": "John Allerdyce / Pyro"
+      }
+    },
+    {
+      "actorId": "f2089daf6d891ecc5cc339b5",
+      "character": {
+        "name": "Bobby Drake / Ice Man"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": 110000000,
+  "awards": [
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "f31c4bc0fe743c5a0c8835c5"
+        }
+      ]
+    },
+    {
+      "awardId": "539b7c0eaba8eec432e9e48e",
+      "nominations": [
+        {
+          "nominationId": "c447f2859c4b201a5b9e0c1b",
+          "actorId": "f2089daf6d891ecc5cc339b5"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 408000000,
+  "year": [
+    2003
+  ],
+  "media": [
+    {
+      "poster": "x_men_2.webp",
+      "trailer": "luHcOYS1HxQ"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "When anti-mutant colonel William Stryker kidnaps Professor X and attacks his school, the X-Men must ally with their archenemy Magneto to stop him."
+  ],
+  "relatedTitlesKey": "39322de8cb5cb1b16fcafb89"
+}

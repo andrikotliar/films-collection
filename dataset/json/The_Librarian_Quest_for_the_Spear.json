@@ -1,0 +1,120 @@
+{
+  "id": "e08205009323de876bf416a9",
+  "type": [
+    "Film"
+  ],
+  "title": "The Librarian: Quest for the Spear",
+  "genres": [
+    "Adventures",
+    "Fantasy"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Peter Winther"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "David Titcher"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Phillip M. Goldfarb"
+        },
+        {
+          "name": "Gary Hamilton"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Joseph LoDuca"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Alan Caso"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "TNT"
+  ],
+  "duration": 90,
+  "cast": [
+    {
+      "actorId": "5682aa234be8275828a251fd",
+      "character": {
+        "name": "Flynn Carsen"
+      }
+    },
+    {
+      "actorId": "f3f5c26275f4fd662f3794eb",
+      "character": {
+        "name": "Nicole Noone"
+      }
+    },
+    {
+      "actorId": "c7d1e2a7bc4468f9de40f667",
+      "character": {
+        "name": "Judson"
+      }
+    },
+    {
+      "actorId": "08f79555a68e0b4d4c55d8dc",
+      "character": {
+        "name": "Edward Wilde"
+      }
+    },
+    {
+      "actorId": "ddef35144525bb2d00be1e2d",
+      "character": {
+        "name": "Charlene"
+      }
+    },
+    {
+      "actorId": "ba82d777d2d30d77f1ca0cc7",
+      "character": {
+        "name": "Margie Carsen"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Mysteries of the Past"
+    }
+  ],
+  "year": [
+    2004
+  ],
+  "media": [
+    {
+      "poster": "librarian_1.webp",
+      "trailer": "_LsPz8vCULE"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "A bookworm becomes the librarian. Same night a magical spear gets stolen and he's off to get some real life experience around the globe on his quest for the spear - starting with being thrown off a plane over Amazonas by his cute helper."
+  ],
+  "relatedTitlesKey": "4eeabb329f07f4eb238a45d8"
+}

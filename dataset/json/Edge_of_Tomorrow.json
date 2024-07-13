@@ -1,0 +1,179 @@
+{
+  "id": "dda510bd2661ed7df1427f7a",
+  "type": [
+    "Film"
+  ],
+  "title": "Edge of Tomorrow",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Doug Liman"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Christopher McQuarrie"
+        },
+        {
+          "name": "Jez Butterworth"
+        },
+        {
+          "name": "John-Henry Butterworth"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Erwin Stoff"
+        },
+        {
+          "name": "Tom Lassally"
+        },
+        {
+          "name": "Jeffrey Silver"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Christophe Beck"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Dion Beebe"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Warner Bros. Pictures"
+  ],
+  "duration": 113,
+  "cast": [
+    {
+      "actorId": "d1899eef1c53bc13798a897c",
+      "character": {
+        "name": "Cage"
+      }
+    },
+    {
+      "actorId": "48bc6851537e5e5dc1bf99ca",
+      "character": {
+        "name": "Rita"
+      }
+    },
+    {
+      "actorId": "a0b80add73e1eaf43e9aebe5",
+      "character": {
+        "name": "General Brigham"
+      }
+    },
+    {
+      "actorId": "2118f05852939b389e792478",
+      "character": {
+        "name": "Master Sergeant Farell"
+      }
+    },
+    {
+      "actorId": "84c3f18ae2887de1926d8b3a",
+      "character": {
+        "name": "Skinner"
+      }
+    },
+    {
+      "actorId": "2c5991de67574697e5b349c3",
+      "character": {
+        "name": "Kimmel"
+      }
+    },
+    {
+      "actorId": "2160d121ebc4bd1dde1c81ab",
+      "character": {
+        "name": "Griff"
+      }
+    },
+    {
+      "actorId": "e63991f3f44f159e9f586dee",
+      "character": {
+        "name": "Ford"
+      }
+    },
+    {
+      "actorId": "bf32c73f51fd19dfca25c3ad",
+      "character": {
+        "name": "Kuntz"
+      }
+    },
+    {
+      "actorId": "528621a0cb63e99b41c5c942",
+      "character": {
+        "name": "Nance"
+      }
+    },
+    {
+      "actorId": "e91cced07ee20afdab78725a",
+      "character": {
+        "name": "Takeda"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Invasion"
+    }
+  ],
+  "budget": 178000000,
+  "awards": [
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "ee99682a00dc62e83e34e50e"
+        }
+      ]
+    },
+    {
+      "awardId": "083e0a9c6cad4b02c0d5772b",
+      "nominations": [
+        {
+          "nominationId": "0e40fd4fa5ccfa2925a91bcf",
+          "actorId": "48bc6851537e5e5dc1bf99ca"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 370000000,
+  "year": [
+    2014
+  ],
+  "media": [
+    {
+      "poster": "edge_of_tomorow.webp",
+      "trailer": "vw61gCe2oqI"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "A soldier fighting aliens gets to relive the same day over and over again, the day restarting every time he dies."
+  ]
+}

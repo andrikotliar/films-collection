@@ -1,0 +1,145 @@
+{
+  "id": "33e11fcb3e302a68eb80c06e",
+  "type": [
+    "Film"
+  ],
+  "title": "The Gentlemen",
+  "genres": [
+    "Action",
+    "Comedy",
+    "Crime"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Guy Ritchie"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Guy Ritchie"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Ivan Atkinson"
+        },
+        {
+          "name": "Bill Block"
+        },
+        {
+          "name": "Guy Ritchie"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Christopher Benstead"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Alan Stewart"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "UK",
+    "USA"
+  ],
+  "production": [
+    "STX Films",
+    "Miramax"
+  ],
+  "duration": 113,
+  "cast": [
+    {
+      "actorId": "25fddd7afb676f2eb2b4aa9f",
+      "character": {
+        "name": "Michael Pearson"
+      }
+    },
+    {
+      "actorId": "c652b62c969e915bf4644318",
+      "character": {
+        "name": "Ray"
+      }
+    },
+    {
+      "actorId": "94fb992bfb61a9fca53839ee",
+      "character": {
+        "name": "Rosalind Pearson"
+      }
+    },
+    {
+      "actorId": "897f525ebda55eb5df817ecc",
+      "character": {
+        "name": "Matthew"
+      }
+    },
+    {
+      "actorId": "5a4ad3cfbfc4f1269e19e8db",
+      "character": {
+        "name": "Jackie"
+      }
+    },
+    {
+      "actorId": "c167c7fe90734461de3cd4aa",
+      "character": {
+        "name": "Coach"
+      }
+    },
+    {
+      "actorId": "e197153382691edae4a51a76",
+      "character": {
+        "name": "Dry Eye"
+      }
+    },
+    {
+      "actorId": "3a1c45aa5f21d126b950cba7",
+      "character": {
+        "name": "Lord George"
+      }
+    },
+    {
+      "actorId": "52318943c79c3be8ac26dff4",
+      "character": {
+        "name": "Fletcher"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Criminals"
+    }
+  ],
+  "budget": 22000000,
+  "boxOffice": 115000000,
+  "year": [
+    2019
+  ],
+  "media": [
+    {
+      "poster": "gentlemen.webp",
+      "trailer": "vaN8BtA8OJk"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him."
+  ]
+}

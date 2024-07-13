@@ -1,0 +1,144 @@
+{
+  "id": "f966417e46d3ea20a2664a1c",
+  "type": [
+    "Film"
+  ],
+  "title": "The Mummy",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Stephen Sommers"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Stephen Sommers"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "James Jacks"
+        },
+        {
+          "name": "Sean Daniel"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Jerry Goldsmith"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Adrian Biddle"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Universal Pictures"
+  ],
+  "duration": 125,
+  "cast": [
+    {
+      "actorId": "5007865fcfa27f77a5caa971",
+      "character": {
+        "name": "Rick O'Connell"
+      }
+    },
+    {
+      "actorId": "cac8a6d872c6bd724fce9824",
+      "character": {
+        "name": "Evelyn Carnahan"
+      }
+    },
+    {
+      "actorId": "182db493d2b81619d210955c",
+      "character": {
+        "name": "Jonathan Carnahan"
+      }
+    },
+    {
+      "actorId": "a37d51d4e1ec3cb66c525e5a",
+      "character": {
+        "name": "Imhotep"
+      }
+    },
+    {
+      "actorId": "f9283404f416424cfa430d0f",
+      "character": {
+        "name": "Beni Gabor"
+      }
+    },
+    {
+      "actorId": "d534ecf817056c7592bbd058",
+      "character": {
+        "name": "Dr. Allen Chamberlain"
+      }
+    },
+    {
+      "actorId": "b0f70d5f44ea97682c22fbbf",
+      "character": {
+        "name": "Ardeth Bay"
+      }
+    },
+    {
+      "actorId": "3ba6b72ed4ed8ba89ca219e0",
+      "character": {
+        "name": "Dr. Terrence Bey"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Mysteries of the Past"
+    }
+  ],
+  "budget": 80000000,
+  "awards": [
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "f0ab91bd2921e0bd31fb500b"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 416000000,
+  "year": [
+    1999
+  ],
+  "media": [
+    {
+      "poster": "mummy_1.webp",
+      "trailer": "h3ptPtxWJRs"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreck havoc as he searches for the reincarnation of his long-lost love."
+  ],
+  "relatedTitlesKey": "c898b2b52dfcdd0b5a0f636e"
+}

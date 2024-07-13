@@ -1,0 +1,136 @@
+{
+  "id": "86039d8a4fe37a2b306ebf8d",
+  "type": [
+    "Film"
+  ],
+  "title": "2012",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Roland Emmerich"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Harald Kloser"
+        },
+        {
+          "name": "Roland Emmerich"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Harald Kloser"
+        },
+        {
+          "name": "Mark Gordon"
+        },
+        {
+          "name": "Larry J. Franco"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Harald Kloser"
+        },
+        {
+          "name": "Thomas Wander"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Dean Semler"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Columbia Pictures"
+  ],
+  "duration": 158,
+  "cast": [
+    {
+      "actorId": "97ee6d4fe5c8393b3a12dad9",
+      "character": {
+        "name": "Jackson Curtis"
+      }
+    },
+    {
+      "actorId": "d4ae0ee752c2dfb42b7cd3de",
+      "character": {
+        "name": "Kate Curtis"
+      }
+    },
+    {
+      "actorId": "e5fca0c83deaa2448c413cfd",
+      "character": {
+        "name": "Adrian Helmsley"
+      }
+    },
+    {
+      "actorId": "e8de9cf95faeea0c9bde694c",
+      "character": {
+        "name": "Laura Wilson"
+      }
+    },
+    {
+      "actorId": "9ff1b1591a793e5ebcb44c72",
+      "character": {
+        "name": "Carl Anheuser"
+      }
+    },
+    {
+      "actorId": "024affbe7a45ee9fc554bf76",
+      "character": {
+        "name": "Charlie Frost"
+      }
+    },
+    {
+      "actorId": "40e31d5ce0764fba8991ceb0",
+      "character": {
+        "name": "President Thomas Wilson"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Disaster"
+    }
+  ],
+  "budget": 200000000,
+  "boxOffice": 770000000,
+  "year": [
+    2009
+  ],
+  "media": [
+    {
+      "poster": "twenty_twelve.webp",
+      "trailer": "ce0N3TEcFw0"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "A frustrated writer struggles to keep his family alive when a series of global catastrophes threatens to annihilate mankind."
+  ]
+}

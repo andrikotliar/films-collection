@@ -1,0 +1,497 @@
+{
+  "id": "1f3812a3b06f2ec2172ebe78",
+  "type": [
+    "Series"
+  ],
+  "title": "Heroes",
+  "genres": [
+    "Sci-Fi",
+    "Drama"
+  ],
+  "crew": [
+    {
+      "role": "series_creator",
+      "people": [
+        {
+          "name": "Tim Kring"
+        }
+      ]
+    },
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "David Semel",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Allan Arkush",
+          "comment": "11 episodes"
+        },
+        {
+          "name": "Greg Beeman",
+          "comment": "12 episodes"
+        },
+        {
+          "name": "Ernest R. Dickerson",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Paul Shapiro",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Donna Deitch",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Paul A. Edwards",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "John Badham",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Terrence O'Hara",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Jeannot Szwarc",
+          "comment": "6 episodes"
+        },
+        {
+          "name": "Roxann Dawson",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Kevin Bray",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Adam Kane",
+          "comment": "5 episodes"
+        },
+        {
+          "name": "Lesli Glatter",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Daniel Attias",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Greg Yaitanes",
+          "comment": "4 episodes"
+        },
+        {
+          "name": "Sergio Mimica-Gezzan",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "David Von Ancken",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Anthony Hemingway",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Holly Dale",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Seith Mann",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Eric Laneuville",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Jim Chory",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Ed Bianchi",
+          "comment": "1 episode"
+        },
+        {
+          "name": "David Straiton",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Christopher Misiano",
+          "comment": "1 episode"
+        },
+        {
+          "name": "S.J. Clarkson",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Tucker Gates",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Nate Goodman",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Bryan Spicer",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Kevin Dowling",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Ron Underwood",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Michael Nankin",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Tim Kring",
+          "comment": "17 episodes"
+        },
+        {
+          "name": "Jeph Loeb",
+          "comment": "4 episodes"
+        },
+        {
+          "name": "Bryan Fuller",
+          "comment": "4 episodes"
+        },
+        {
+          "name": "Michael Green",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Natalie Chaidez",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Jesse Alexander",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Adam Armus",
+          "comment": "9 episodes"
+        },
+        {
+          "name": "Kay Foster",
+          "comment": "9 episodes"
+        },
+        {
+          "name": "Aron Eli Coleite",
+          "comment": "7 episodes"
+        },
+        {
+          "name": "Joe Pokaski",
+          "comment": "8 episodes"
+        },
+        {
+          "name": "Christopher Zatta",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Chuck Kim",
+          "comment": "1 episode"
+        },
+        {
+          "name": "J.J. Philbin",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Joy Blake",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Melissa Blake",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Rob Fresco",
+          "comment": "6 episodes"
+        },
+        {
+          "name": "Mark Verheiden",
+          "comment": "4 episodes"
+        },
+        {
+          "name": "Oliver Grigsby",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Juan Carlos Coto",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Aury Wallington",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Misha Green",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Jim Martin",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Lori Motyer"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Lisa Coleman"
+        },
+        {
+          "name": "Wendy Melvoin"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Nathaniel Goodman"
+        },
+        {
+          "name": "Charlie Lieberman"
+        },
+        {
+          "name": "John B. Aronson"
+        },
+        {
+          "name": "Edward J. Pei"
+        },
+        {
+          "name": "Adam Kane"
+        },
+        {
+          "name": "John Newby"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Tailwind Productions",
+    "NBC Universal Television",
+    "Universal Media Studios"
+  ],
+  "duration": 3465,
+  "cast": [
+    {
+      "actorId": "107520f3c0ddbf1232fbdc65",
+      "character": {
+        "name": "Noah Bennet"
+      }
+    },
+    {
+      "actorId": "2a2e0ac2a50f09eae07b89ea",
+      "character": {
+        "name": "Claire Bennet"
+      }
+    },
+    {
+      "actorId": "8aa238f394440d600c5a020b",
+      "character": {
+        "name": "Peter Petrelli"
+      }
+    },
+    {
+      "actorId": "6851c9149920a922242ded88",
+      "character": {
+        "name": "Hiro Nakamura"
+      }
+    },
+    {
+      "actorId": "51232ea9fde465105e055bf6",
+      "character": {
+        "name": "Mohinder Suresh"
+      }
+    },
+    {
+      "actorId": "1df1a2ea8a1b758f6c9b8e0a",
+      "character": {
+        "name": "Matt Parkman"
+      }
+    },
+    {
+      "actorId": "c829a15a8a08d8d7718b7d49",
+      "character": {
+        "name": "Ando Masahashi"
+      }
+    },
+    {
+      "actorId": "15646ff93766570a0feb13b4",
+      "character": {
+        "name": "Nathan Petrelli"
+      }
+    },
+    {
+      "actorId": "6565f3834cdb77b3e044b64e",
+      "character": {
+        "name": "Sylar"
+      }
+    },
+    {
+      "actorId": "ec042b5868c21ce6e7c19125",
+      "character": {
+        "name": "Niki Sanders"
+      }
+    },
+    {
+      "actorId": "3ef1f9268bf7bdc0c51929ef",
+      "character": {
+        "name": "Angela Petrelli"
+      }
+    },
+    {
+      "actorId": "272bf3fdd4537c043b5f014d",
+      "character": {
+        "name": "Sandra Bennet"
+      }
+    },
+    {
+      "actorId": "d71e993e91bf4a557004e1b8",
+      "character": {
+        "name": "Micah Sanders"
+      }
+    },
+    {
+      "actorId": "7d7d94e8c1e76c82029ff5a1",
+      "character": {
+        "name": "Isaac Mendez"
+      }
+    },
+    {
+      "actorId": "dca91e724253b1370be79b2d",
+      "character": {
+        "name": "Adam Monroe"
+      }
+    },
+    {
+      "actorId": "afea778c4b979bb216bf11a9",
+      "character": {
+        "name": "Arthur Petrelli"
+      }
+    },
+    {
+      "actorId": "be5773f9405a69e0d97359e5",
+      "character": {
+        "name": "Daniel Linderman"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "awards": [
+    {
+      "awardId": "1a2c1d3cd91f28f4a9a006c0",
+      "nominations": [
+        {
+          "nominationId": "8b569ae460faf68f62c6e0de",
+          "comment": "\"The Second Coming\" and \"The Butterfly Effect\" episodes"
+        }
+      ]
+    },
+    {
+      "awardId": "f5ca20c5b015eafd0cb84b95",
+      "nominations": [
+        {
+          "nominationId": "fecfbeb568cf9006e67fe937"
+        }
+      ]
+    }
+  ],
+  "year": [
+    2006,
+    2007,
+    2008,
+    2009,
+    2009
+  ],
+  "series": {
+    "episodesTotal": 77,
+    "seasons": [
+      {
+        "title": "Volume 1: Genesis",
+        "number": 1,
+        "episodesCount": 23
+      },
+      {
+        "title": "Volume 2: Generations",
+        "number": 2,
+        "episodesCount": 11
+      },
+      {
+        "title": "Volume 3. Part 1: Villains",
+        "number": 3,
+        "episodesCount": 18
+      },
+      {
+        "title": "Volume 3. Part 2: Fugitives",
+        "number": 4,
+        "episodesCount": 13
+      },
+      {
+        "title": "Volume 4: Redemption",
+        "number": 5,
+        "episodesCount": 12
+      }
+    ]
+  },
+  "media": [
+    {
+      "poster": "heroes.webp",
+      "trailer": "9AX6aXFdTkc"
+    },
+    {
+      "poster": "heroes_s2.webp",
+      "trailer": "9mNGxXpAmHc"
+    },
+    {
+      "poster": "heroes_s3.1.webp",
+      "trailer": "i1VA_aWyrPI"
+    },
+    {
+      "poster": "heroes_s3.2.webp",
+      "trailer": "mTzPPIEUFEs"
+    },
+    {
+      "poster": "heroes_s4.webp",
+      "trailer": "mTzPPIEUFEs"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Ordinary people discover they possess extraordinary abilities. As they come to terms with their powers, they must navigate the mysteries surrounding their origins and the looming threat of a catastrophe that could change the world.",
+    "The characters continue to explore their powers while new individuals with abilities emerge. A global conspiracy and the hunt for a virus add to the intrigue as the heroes try to prevent a deadly outbreak.",
+    "The heroes face new challenges as they confront government scrutiny and a malevolent villain, Arthur Petrelli. The discovery of dangerous abilities and a divided group of heroes complicate their mission to save the world from powerful threats.",
+    "The heroes continue their journey, facing government forces and an ever-growing threat. A new organization, Building 26, seeks to control those with abilities, forcing the heroes into a fugitive lifestyle as they strive to protect themselves and others.",
+    "The heroes deals with the carnage caused by a carnival of people with abilities. They must unite to thwart the carnival's leader, Samuel Sullivan, and face their destinies in an epic showdown."
+  ]
+}

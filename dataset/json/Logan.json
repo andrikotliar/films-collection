@@ -1,0 +1,167 @@
+{
+  "id": "1d3aad64beba3094f0df4e5d",
+  "type": [
+    "Film"
+  ],
+  "title": "Logan",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "James Mangold"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Scott Frank"
+        },
+        {
+          "name": "James Mangold"
+        },
+        {
+          "name": "Michael Green"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Lauren Shuler Donner"
+        },
+        {
+          "name": "Simon Kinberg"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Marco Beltrami"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "John Mathieson"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "20th Century FOX",
+    "Marvel Entertainment"
+  ],
+  "duration": 137,
+  "cast": [
+    {
+      "actorId": "544abb6ffddc8ddf4056b862",
+      "character": {
+        "name": "Logan / X-24"
+      }
+    },
+    {
+      "actorId": "a1b52bbc28ac6c198e877b39",
+      "character": {
+        "name": "Charles"
+      }
+    },
+    {
+      "actorId": "98ed0fd5c7e89b4a0429087c",
+      "character": {
+        "name": "Laura"
+      }
+    },
+    {
+      "actorId": "f6e92c1e10e873fd298fffa4",
+      "character": {
+        "name": "Pierce"
+      }
+    },
+    {
+      "actorId": "03c223a4d5e220393d14d8a0",
+      "character": {
+        "name": "Caliban"
+      }
+    },
+    {
+      "actorId": "73c3cb57af28d23bd2920ac5",
+      "character": {
+        "name": "Gabriela"
+      }
+    },
+    {
+      "actorId": "a274851913f05ad2b83c945e",
+      "character": {
+        "name": "Dr. Rice"
+      }
+    },
+    {
+      "actorId": "32144ea4bdcf2c324a4fd893",
+      "character": {
+        "name": "Will Munson"
+      }
+    },
+    {
+      "actorId": "521a12f50fdc53cbc1142361",
+      "character": {
+        "name": "Kathryn Munson"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": 97000000,
+  "awards": [
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "3c0a856a745ad6ae83986a5c",
+          "actorId": "a1b52bbc28ac6c198e877b39"
+        }
+      ]
+    },
+    {
+      "awardId": "539b7c0eaba8eec432e9e48e",
+      "nominations": [
+        {
+          "nominationId": "226f592d3e4aa3aee884ac7a",
+          "comment": "Hugh Jackman and Dafne Keen"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 619000000,
+  "year": [
+    2017
+  ],
+  "media": [
+    {
+      "poster": "logan.webp",
+      "trailer": "Div0iP65aZo"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety."
+  ],
+  "relatedTitlesKey": "39322de8cb5cb1b16fcafb89"
+}

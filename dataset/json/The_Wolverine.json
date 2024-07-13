@@ -1,0 +1,121 @@
+{
+  "id": "fa26e49f50de43e1d94e5fe8",
+  "type": [
+    "Film"
+  ],
+  "title": "The Wolverine",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "James Mangold"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Mark Bomback"
+        },
+        {
+          "name": "Scott Frank"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Hutch Parker"
+        },
+        {
+          "name": "Lauren Shuler Donner"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Marco Beltrami"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Ross Emery"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA",
+    "UK"
+  ],
+  "production": [
+    "20th Century FOX",
+    "Marvel Entertainment"
+  ],
+  "duration": 126,
+  "cast": [
+    {
+      "actorId": "544abb6ffddc8ddf4056b862",
+      "character": {
+        "name": "Logan"
+      }
+    },
+    {
+      "actorId": "56b7ae98211d125abbedc71d",
+      "character": {
+        "name": "Mariko Yashida"
+      }
+    },
+    {
+      "actorId": "8eb0259bbb2844ba1103e0bd",
+      "character": {
+        "name": "Shingen Yashida"
+      }
+    },
+    {
+      "actorId": "2689f49ce18fe1b19f96b223",
+      "character": {
+        "name": "Yukio"
+      }
+    },
+    {
+      "actorId": "8a3b8628f312f47ba432f8a0",
+      "character": {
+        "name": "Dr. Green / Viper"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": 132000000,
+  "boxOffice": 415000000,
+  "year": [
+    2013
+  ],
+  "media": [
+    {
+      "poster": "wolverine.webp",
+      "trailer": "toLpchTUYk8"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Wolverine comes to Japan to meet an old friend whose life he saved years ago, and gets embroiled in a conspiracy involving yakuza and mutants."
+  ],
+  "relatedTitlesKey": "39322de8cb5cb1b16fcafb89"
+}

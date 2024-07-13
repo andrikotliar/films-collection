@@ -1,0 +1,183 @@
+{
+  "id": "aa8c788540a67be4d1727170",
+  "type": [
+    "Film"
+  ],
+  "title": "Titanic",
+  "genres": [
+    "Drama",
+    "Romance"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "James Cameron"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "James Cameron"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "James Cameron"
+        },
+        {
+          "name": "Jon Landau"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "James Horner"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Russell Carpenter"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "20th Century FOX",
+    "Paramount Pictures"
+  ],
+  "duration": 194,
+  "cast": [
+    {
+      "actorId": "8382432eba031147d4d4eee4",
+      "character": {
+        "name": "Jack Dawson"
+      }
+    },
+    {
+      "actorId": "a0906571fbd382da1825be2a",
+      "character": {
+        "name": "Rose Dewitt Bukater"
+      }
+    },
+    {
+      "actorId": "be60bb7382dd90bacab7afee",
+      "character": {
+        "name": "Cal Hockley"
+      }
+    },
+    {
+      "actorId": "2d50f3618492cf69f4338a96",
+      "character": {
+        "name": "Molly Brown"
+      }
+    },
+    {
+      "actorId": "8b76fc064d5e01ab9c19f064",
+      "character": {
+        "name": "Ruth Dewitt Bukater"
+      }
+    },
+    {
+      "actorId": "9054c0064f19a48344d6d874",
+      "character": {
+        "name": "Captain Smith"
+      }
+    },
+    {
+      "actorId": "2a1e03aa0280d87d5487b183",
+      "character": {
+        "name": "Old Rose"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Based on Real Events"
+    }
+  ],
+  "budget": 200000000,
+  "awards": [
+    {
+      "awardId": "77f4fba8c4801f32a6bd8f39",
+      "nominations": [
+        {
+          "nominationId": "272b67853b5f878162edda97"
+        },
+        {
+          "nominationId": "667131239c1127eb04f3d70f"
+        },
+        {
+          "nominationId": "fe5e85d8a9a72ff3def8044f"
+        },
+        {
+          "nominationId": "135b75443634451392a18894"
+        },
+        {
+          "nominationId": "029b03cb672efed569e3be36"
+        },
+        {
+          "nominationId": "218a422da0df0fa0f49d97a5"
+        },
+        {
+          "nominationId": "35200fe128bd097f8616d1ba"
+        },
+        {
+          "nominationId": "18860c1f61dea72c56e3fea2"
+        },
+        {
+          "nominationId": "820d2a55172a2460be8ccdcf"
+        },
+        {
+          "nominationId": "f11c24eac6e50088d1b4996d"
+        },
+        {
+          "nominationId": "b4aa06e1880d1778a788db69"
+        }
+      ]
+    },
+    {
+      "awardId": "4fc6a2669b79482fb03b65c3",
+      "nominations": [
+        {
+          "nominationId": "2295ee9a1529b80132b46a56"
+        },
+        {
+          "nominationId": "e36c09cade596bb9e2bcc9ce"
+        },
+        {
+          "nominationId": "7ec6cab5b05fc4c40f5c1f17",
+          "comment": "My Heart Will Go On"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 2400000000,
+  "year": [
+    1997
+  ],
+  "media": [
+    {
+      "poster": "titanic.webp",
+      "trailer": "kVrqfYjkTdQ"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
+  ]
+}

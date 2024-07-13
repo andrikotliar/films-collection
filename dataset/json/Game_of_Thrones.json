@@ -1,0 +1,571 @@
+{
+  "id": "0b99e985362bc0074ff3f89d",
+  "type": [
+    "Series"
+  ],
+  "title": "Game of Thrones",
+  "genres": [
+    "Adventures",
+    "Drama"
+  ],
+  "crew": [
+    {
+      "role": "series_creator",
+      "people": [
+        {
+          "name": "David Benioff"
+        },
+        {
+          "name": "D. B. Weiss"
+        }
+      ]
+    },
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Timothy Van Patten",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Brian Kirk",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Daniel Minahan",
+          "comment": "5 episodes"
+        },
+        {
+          "name": "Alan Taylor",
+          "comment": "7 episodes"
+        },
+        {
+          "name": "Alik Sakharov",
+          "comment": "4 episodes"
+        },
+        {
+          "name": "David Petrarca",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "David Nutter",
+          "comment": "9 episodes"
+        },
+        {
+          "name": "Neil Marshall",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "David Benioff",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Alex Graves",
+          "comment": "6 episodes"
+        },
+        {
+          "name": "Michelle MacLaren",
+          "comment": "4 episodes"
+        },
+        {
+          "name": "D. B. Weiss",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Michael Slovis",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Mark Mylod",
+          "comment": "6 episodes"
+        },
+        {
+          "name": "Jeremy Podeswa",
+          "comment": "6 episodes"
+        },
+        {
+          "name": "Miguel Sapochnik",
+          "comment": "6 episodes"
+        },
+        {
+          "name": "Daniel Sackheim",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Jack Bender",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Matt Shakman",
+          "comment": "2 episodes"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "George R. R. Martin",
+          "comment": "2 episodes (written by), author of the original book \"A Song of Ice and Fire\""
+        },
+        {
+          "name": "David Benioff",
+          "comment": "13 episodes"
+        },
+        {
+          "name": "D. B. Weiss",
+          "comment": "13 episodes"
+        },
+        {
+          "name": "Bryan Cogman",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Jane Espenson",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Vanessa Taylor",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Dave Hill",
+          "comment": "4 episodes"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Christopher Newman"
+        },
+        {
+          "name": "Greg Spence"
+        },
+        {
+          "name": "Lisa McAtackney"
+        },
+        {
+          "name": "Mark Huffam"
+        },
+        {
+          "name": "Jo Burn"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Ramin Djawadi"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Anette Haellmigk"
+        },
+        {
+          "name": "Jonathan Freeman"
+        },
+        {
+          "name": "Robert McLachlan"
+        },
+        {
+          "name": "Fabian Wagner"
+        },
+        {
+          "name": "David Franco"
+        },
+        {
+          "name": "Gregory Middleton"
+        },
+        {
+          "name": "P.J. Dillon"
+        },
+        {
+          "name": "Matthew Jensen"
+        },
+        {
+          "name": "Alik Sakharov"
+        },
+        {
+          "name": "Martin Kenzie"
+        },
+        {
+          "name": "Marco Pontecorvo"
+        },
+        {
+          "name": "Kramer Morgenthau"
+        },
+        {
+          "name": "Chris Seager"
+        },
+        {
+          "name": "Sam McCurdy"
+        },
+        {
+          "name": "David Katznelson"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA",
+    "UK"
+  ],
+  "production": [
+    "HBO"
+  ],
+  "duration": 4161,
+  "cast": [
+    {
+      "actorId": "3e6f63e7baf413d7ab9e8d1b",
+      "character": {
+        "name": "Tyrion Lannister"
+      }
+    },
+    {
+      "actorId": "d83e0c5977a610669633655b",
+      "character": {
+        "name": "Cersei Lannister"
+      }
+    },
+    {
+      "actorId": "e307bc66fc15746c172e86e6",
+      "character": {
+        "name": "Daenerys Targaryen"
+      }
+    },
+    {
+      "actorId": "6aa92fa181848669babe20bb",
+      "character": {
+        "name": "Jon Snow"
+      }
+    },
+    {
+      "actorId": "feba8bc96afaa9b4bd63c2b5",
+      "character": {
+        "name": "Sansa Stark"
+      }
+    },
+    {
+      "actorId": "3f988fedd0eea1b09256e1dc",
+      "character": {
+        "name": "Arya Stark"
+      }
+    },
+    {
+      "actorId": "3af14321bca7132f3736dc1c",
+      "character": {
+        "name": "Jaime Lannister"
+      }
+    },
+    {
+      "actorId": "2d36bf1a68c38e1470146e2c",
+      "character": {
+        "name": "Jorah Mormont"
+      }
+    },
+    {
+      "actorId": "961ac854c280f4e4704b9666",
+      "character": {
+        "name": "Samwell Tarly"
+      }
+    },
+    {
+      "actorId": "53187e9cf93212d9659927b5",
+      "character": {
+        "name": "Theon Greyjoy"
+      }
+    },
+    {
+      "actorId": "6435433a04c62a78e738fcb2",
+      "character": {
+        "name": "Lord Varys"
+      }
+    },
+    {
+      "actorId": "358b14914392e713ff6e8000",
+      "character": {
+        "name": "Davos Seaworth"
+      }
+    },
+    {
+      "actorId": "a834eb244fbdfc92bd0e5b4a",
+      "character": {
+        "name": "Brienne of Tarth"
+      }
+    },
+    {
+      "actorId": "ab00e4478a98a3b3c576c834",
+      "character": {
+        "name": "Petyr 'Littlefinger' Baelish"
+      }
+    },
+    {
+      "actorId": "cb6b1ee8a7b9a9ec5cd34830",
+      "character": {
+        "name": "Bran Stark"
+      }
+    },
+    {
+      "actorId": "dfbee742dd9ee037cfac87b9",
+      "character": {
+        "name": "Sandor 'The Hound' Clegane"
+      }
+    },
+    {
+      "actorId": "c7a61e281d1bedd029ca6dd3",
+      "character": {
+        "name": "Missandei"
+      }
+    },
+    {
+      "actorId": "f0c438e2a4dc5e0a6e43a7c9",
+      "character": {
+        "name": "Bronn"
+      }
+    },
+    {
+      "actorId": "70b4c8041cf4d7a0069da63a",
+      "character": {
+        "name": "Podrick Payne"
+      }
+    },
+    {
+      "actorId": "a75ebb2fc00bf913950480dd",
+      "character": {
+        "name": "Grey Worm"
+      }
+    },
+    {
+      "actorId": "513d5979fdaf101962c2cff4",
+      "character": {
+        "name": "Melisandre"
+      }
+    },
+    {
+      "actorId": "80268d6e4fc96e26c9278ec1",
+      "character": {
+        "name": "Tywin Lannister"
+      }
+    },
+    {
+      "actorId": "9dcff373f8aeb1857ceba71b",
+      "character": {
+        "name": "Margaery Tyrell"
+      }
+    },
+    {
+      "actorId": "81265f24ccd617241c5367cc",
+      "character": {
+        "name": "Joffrey Baratheon"
+      }
+    },
+    {
+      "actorId": "a9635e972a590b4d86d91c21",
+      "character": {
+        "name": "Catelyn Stark"
+      }
+    },
+    {
+      "actorId": "326150e7a4374acb8675c493",
+      "character": {
+        "name": "Stannis Baratheon"
+      }
+    },
+    {
+      "actorId": "8161a49828713036ab145ef7",
+      "character": {
+        "name": "Hodor"
+      }
+    },
+    {
+      "actorId": "8100450df4f97d2c4c84c598",
+      "character": {
+        "name": "Robb Stark"
+      }
+    },
+    {
+      "actorId": "5c97bcecf553fc7962caa762",
+      "character": {
+        "name": "Ramsay Bolton"
+      }
+    },
+    {
+      "actorId": "6a83fceff5a65a5c97703d9a",
+      "character": {
+        "name": "Euron Greyjoy"
+      }
+    },
+    {
+      "actorId": "2086fcc7a1d5b473ae4626a5",
+      "character": {
+        "name": "Olenna Tyrell"
+      }
+    },
+    {
+      "actorId": "4804eb53d5b477a04fb8845b",
+      "character": {
+        "name": "Tommen Baratheon"
+      }
+    },
+    {
+      "actorId": "5711cd441565e686b7fe0bb6",
+      "character": {
+        "name": "Yara Greyjoy"
+      }
+    },
+    {
+      "actorId": "1913681733bb1090e5b4881d",
+      "character": {
+        "name": "Rickon Stark"
+      }
+    },
+    {
+      "actorId": "fbd425127f3664acfe49428a",
+      "character": {
+        "name": "Eddard 'Ned' Stark"
+      }
+    },
+    {
+      "actorId": "b356e8b684a280b9a2421dc1",
+      "character": {
+        "name": "Robert Baratheon"
+      }
+    },
+    {
+      "actorId": "aa6c6926e26dabd458bfe518",
+      "character": {
+        "name": "The Night King"
+      }
+    },
+    {
+      "actorId": "47781d23c0d2a122c6df84d8",
+      "character": {
+        "name": "Ygritte"
+      }
+    },
+    {
+      "actorId": "1768b69d0da759b92300325c",
+      "character": {
+        "name": "Gilly"
+      }
+    },
+    {
+      "actorId": "5815431513cb012d72ad70c6",
+      "character": {
+        "name": "Tormund Giantsbane"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Fantasy Worlds"
+    }
+  ],
+  "year": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2019
+  ],
+  "series": {
+    "episodesTotal": 73,
+    "seasons": [
+      {
+        "title": "Season 1",
+        "number": 1,
+        "episodesCount": 10
+      },
+      {
+        "title": "Season 2",
+        "number": 2,
+        "episodesCount": 10
+      },
+      {
+        "title": "Season 3",
+        "number": 3,
+        "episodesCount": 10
+      },
+      {
+        "title": "Season 4",
+        "number": 4,
+        "episodesCount": 10
+      },
+      {
+        "title": "Season 5",
+        "number": 5,
+        "episodesCount": 10
+      },
+      {
+        "title": "Season 6",
+        "number": 6,
+        "episodesCount": 10
+      },
+      {
+        "title": "Season 7",
+        "number": 7,
+        "episodesCount": 7
+      },
+      {
+        "title": "Season 8",
+        "number": 8,
+        "episodesCount": 6
+      }
+    ]
+  },
+  "media": [
+    {
+      "poster": "got.webp",
+      "trailer": "gcTkNV5Vg1E"
+    },
+    {
+      "poster": "got_s2.webp",
+      "trailer": "AlhHGUfCYw4"
+    },
+    {
+      "poster": "got_s3.webp",
+      "trailer": "nblUgAMoOvU"
+    },
+    {
+      "poster": "got_s4.webp",
+      "trailer": "aj9x_Xea6cg"
+    },
+    {
+      "poster": "got_s5.webp",
+      "trailer": "F9Bo89m2f6g"
+    },
+    {
+      "poster": "got_s6.webp",
+      "trailer": "yu8eRaq1FUM"
+    },
+    {
+      "poster": "got_s7.webp",
+      "trailer": "giYeaKsXnsI"
+    },
+    {
+      "poster": "got_s8.webp",
+      "trailer": "rlR4PJn8b8I"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "The Seven Kingdoms of Westeros are in turmoil as noble families vie for the Iron Throne. Eddard Stark is appointed Hand of the King for his old friend Robert Baratheon. Meanwhile, Daenerys Targaryen seeks to reclaim her family's throne, and dark forces stir beyond the Wall in the North.",
+    "War rages across Westeros as five kings lay claim to the Iron Throne. Robb Stark seeks independence for the North, Stannis Baratheon battles for the throne, and Daenerys Targaryen seeks allies to reclaim her birthright. The shadow of an ancient threat looms larger in the North.",
+    "The struggle for power intensifies as chaos reigns in the Seven Kingdoms. Jon Snow explores beyond the Wall, while the Lannisters and Starks continue their deadly feud. Daenerys grows in strength and seeks an army to conquer Westeros, while a looming supernatural threat becomes more apparent.",
+    "The War of the Five Kings begins to wind down, but new threats emerge. Tyrion Lannister faces trial for his life, Jon Snow navigates leadership at the Wall, and Daenerys consolidates her rule in Slaver's Bay. Dark and powerful enemies continue to rise in Westeros.",
+    "Amidst the ongoing power struggles and machinations for the Iron Throne, Jon Snow becomes Lord Commander, Cersei faces her own challenges in King's Landing, and Daenerys contends with rebellion in Meereen. The White Walkers pose an increasingly dire threat to the realm.",
+    "The battle for control of the Seven Kingdoms escalates as Jon Snow and Sansa Stark seek allies, Daenerys sails for Westeros, and Cersei consolidates power in King's Landing. The threat of the White Walkers becomes a central concern, and prophecies and destinies are fulfilled.",
+    "The Great War looms as Daenerys and her allies set their sights on the Iron Throne. Jon Snow, now recognized as a Targaryen, must unite Westeros against the White Walker threat. Cersei Lannister retains her grip on King's Landing, creating a complex web of alliances and betrayals.",
+    "The battle for the Iron Throne reaches its climax as Daenerys, Jon Snow, and others confront their destinies. The White Walkers advance, and the living must unite against the impending doom. The fate of Westeros and its rulers is decided in a series of epic confrontations."
+  ]
+}

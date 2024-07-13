@@ -1,0 +1,147 @@
+{
+  "id": "38ea31b4b3368a6fa256e296",
+  "type": [
+    "Film"
+  ],
+  "title": "Tron: Legacy",
+  "genres": [
+    "Sci-Fi",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Joseph Kosinski"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Edward Kitsis"
+        },
+        {
+          "name": "Adam Horowitz"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Sean Bailey"
+        },
+        {
+          "name": "Steven Lisberger"
+        },
+        {
+          "name": "Jeffrey Silver"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Daft Punk"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Claudio Miranda"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Walt Disney Pictures"
+  ],
+  "duration": 125,
+  "cast": [
+    {
+      "actorId": "6db70d56d0080f919a21f353",
+      "character": {
+        "name": "Kevin Flynn / Clu"
+      }
+    },
+    {
+      "actorId": "067c80de55068273c5b3029d",
+      "character": {
+        "name": "Sam Flynn"
+      }
+    },
+    {
+      "actorId": "dd5f72e72f49b70f6c149b82",
+      "character": {
+        "name": "Quorra"
+      }
+    },
+    {
+      "actorId": "7d9424297910a98d93f443c7",
+      "character": {
+        "name": "Alan Bradley / Tron"
+      }
+    },
+    {
+      "actorId": "e9a889c2911616f3921e4cc3",
+      "character": {
+        "name": "Jarvis"
+      }
+    },
+    {
+      "actorId": "f01666b14a9b826cb3daf954",
+      "character": {
+        "name": "Gem"
+      }
+    },
+    {
+      "actorId": "ddc30904ea1df69f6f509783",
+      "character": {
+        "name": "Castor / Zuse"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Future"
+    }
+  ],
+  "budget": 170000000,
+  "awards": [
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "12ea16d32c5b60a1eaa2e6af"
+        },
+        {
+          "nominationId": "6e270264df618619fd4130b7",
+          "actorId": "6db70d56d0080f919a21f353"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 400000000,
+  "year": [
+    2010
+  ],
+  "media": [
+    {
+      "poster": "tron.webp",
+      "trailer": "L9szn1QQfas"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world."
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "24299d8288bd4af1f320ca19",
+  "type": [
+    "Film"
+  ],
+  "title": "The Hunger Games: Catching Fire",
+  "genres": [
+    "Sci-Fi",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Francis Lawrence"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Simon Beaufoy"
+        },
+        {
+          "name": "Michael Arndt"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Nina Jacobson"
+        },
+        {
+          "name": "Jon Kilik"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "James Newton Howard"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Jo Willems"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Lionsgate"
+  ],
+  "duration": 146,
+  "cast": [
+    {
+      "actorId": "c99e4f6dc0695561848dc5be",
+      "character": {
+        "name": "Katniss Everdeen"
+      }
+    },
+    {
+      "actorId": "e87403fc0ddcab36a8107ef0",
+      "character": {
+        "name": "Peeta Mellark"
+      }
+    },
+    {
+      "actorId": "f1235dcc20310d42acc94ada",
+      "character": {
+        "name": "Gale Hawthorne"
+      }
+    },
+    {
+      "actorId": "024affbe7a45ee9fc554bf76",
+      "character": {
+        "name": "Haymitch Abernathy"
+      }
+    },
+    {
+      "actorId": "1a8c1ba8704e691a5c41e81b",
+      "character": {
+        "name": "Effie Trinket"
+      }
+    },
+    {
+      "actorId": "caed9d8a8188d066bfcfcfa8",
+      "character": {
+        "name": "President Coriolanus Snow"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Dystopia"
+    }
+  ],
+  "budget": 130000000,
+  "awards": [
+    {
+      "awardId": "539b7c0eaba8eec432e9e48e",
+      "nominations": [
+        {
+          "nominationId": "53d156002961b98bd60f30d6"
+        },
+        {
+          "nominationId": "d64ff2b58f39570c045633a3",
+          "actorId": "e87403fc0ddcab36a8107ef0"
+        },
+        {
+          "nominationId": "2ad0546db7ed787dc5520cb7",
+          "actorId": "c99e4f6dc0695561848dc5be"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 865000000,
+  "year": [
+    2013
+  ],
+  "media": [
+    {
+      "poster": "hunger_games_2.webp",
+      "trailer": "EAzGXqJSDJ8"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem."
+  ],
+  "relatedTitlesKey": "ee0e6048d16760e2bc2c11d3"
+}

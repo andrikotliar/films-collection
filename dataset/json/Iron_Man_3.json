@@ -1,0 +1,154 @@
+{
+  "id": "fdcad6c4679d1120e4be0069",
+  "type": [
+    "Film"
+  ],
+  "title": "Iron Man 3",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Shane Black"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Shane Black"
+        },
+        {
+          "name": "Drew Pearce"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Brian Tyler"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "John Toll"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Marvel Studios"
+  ],
+  "duration": 131,
+  "cast": [
+    {
+      "actorId": "68eac2af31419390d7f727fd",
+      "character": {
+        "name": "Tony Stark / Iron Man",
+        "imageUrl": "iron_man_3_ironman.webp"
+      }
+    },
+    {
+      "actorId": "4c47f492bea41214abba1578",
+      "character": {
+        "name": "Pepper Potts"
+      }
+    },
+    {
+      "actorId": "84a7fc06c915c5463cc7ce32",
+      "character": {
+        "name": "Colonel James Rhodes",
+        "imageUrl": "iron_man_3_warmachine.webp"
+      }
+    },
+    {
+      "actorId": "f5b9de1f8440879383792d4b",
+      "character": {
+        "name": "Aldrich Killian"
+      }
+    },
+    {
+      "actorId": "e8c8bbaf2487d1556a9b332f",
+      "character": {
+        "name": "Maya Hansen"
+      }
+    },
+    {
+      "actorId": "1d64586d1509495ad522cffe",
+      "character": {
+        "name": "Happy Hogan"
+      }
+    },
+    {
+      "actorId": "9db2779191ae86290f56c21b",
+      "character": {
+        "name": "Trevor Slattery"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": 200000000,
+  "awards": [
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "49f9eaedda92c9e5d6d676b3"
+        },
+        {
+          "nominationId": "6e270264df618619fd4130b7",
+          "actorId": "68eac2af31419390d7f727fd"
+        },
+        {
+          "nominationId": "3c0a856a745ad6ae83986a5c",
+          "actorId": "9db2779191ae86290f56c21b"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 1200000000,
+  "year": [
+    2013
+  ],
+  "media": [
+    {
+      "poster": "iron_man_3.webp",
+      "trailer": "Ke1Y3P9D0Bc"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution."
+  ],
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "meta": {
+    "watchCount": {
+      "real": 2
+    }
+  }
+}

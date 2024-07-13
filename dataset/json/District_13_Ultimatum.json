@@ -1,0 +1,139 @@
+{
+  "id": "05d58cc72c15bb409aa15b33",
+  "type": [
+    "Film"
+  ],
+  "title": "District 13: Ultimatum",
+  "genres": [
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Patrick Alessandrin"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Luc Besson"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Luc Besson"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Damien Roques"
+        },
+        {
+          "name": "Trak Invasion"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Jean-François Hensgens"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "EuropaCorp"
+  ],
+  "duration": 106,
+  "cast": [
+    {
+      "actorId": "720b0e58c3535f3a56b9fe09",
+      "character": {
+        "name": "Damien Tomaso"
+      }
+    },
+    {
+      "actorId": "529d2217a4ce5871502401db",
+      "character": {
+        "name": "Le'to"
+      }
+    },
+    {
+      "actorId": "2c9e571159816d9652eca888",
+      "character": {
+        "name": "Le pr'sident de la R'publique"
+      }
+    },
+    {
+      "actorId": "efcc942f706bcdc23bc313bd",
+      "character": {
+        "name": "Walter Gassman"
+      }
+    },
+    {
+      "actorId": "4e3e841acae1dfd72ad61f89",
+      "character": {
+        "name": "Tao"
+      }
+    },
+    {
+      "actorId": "b94ea1cc1b8ea668b4a169fa",
+      "character": {
+        "name": "Molko"
+      }
+    },
+    {
+      "actorId": "eeac30dfeb1eef3bc3e8b33f",
+      "character": {
+        "name": "Karl le skin"
+      }
+    },
+    {
+      "actorId": "ab90a6b0544a013a1528553e",
+      "character": {
+        "name": "Ali-K"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Dystopia"
+    },
+    {
+      "title": "Criminals"
+    },
+    {
+      "title": "Martial Arts"
+    }
+  ],
+  "budget": 14000000,
+  "boxOffice": 14000000,
+  "year": [
+    2009
+  ],
+  "media": [
+    {
+      "poster": "d13_2.webp",
+      "trailer": "jDDFNpj9xBQ"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Damien and Leito return to District 13 on a mission to bring peace to the troubled sector that is controlled by five different gang bosses, before the city's secret services take drastic measures to solve the problem."
+  ],
+  "relatedTitlesKey": "009b92287c5919f2d6278e48"
+}

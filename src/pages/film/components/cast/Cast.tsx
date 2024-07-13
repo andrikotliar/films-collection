@@ -1,8 +1,9 @@
 import { FC, useContext } from 'react';
 import { CastType } from '@/common/types';
-import { DataGrid } from '@/components';
 import { Actor } from './components';
 import { FilmsContext } from '@/context';
+import styles from './Cast.module.css';
+import { Scrollable } from '@/components';
 
 type CastProps = {
   cast: CastType[];
@@ -16,7 +17,7 @@ const Cast: FC<CastProps> = ({ cast }) => {
   }
 
   return (
-    <DataGrid>
+    <div className={styles.actors}>
       {cast.map((actor) => {
         const actorExternalData = actors[actor.actorId];
 
@@ -28,7 +29,7 @@ const Cast: FC<CastProps> = ({ cast }) => {
           />
         );
       })}
-    </DataGrid>
+    </div>
   );
 };
 

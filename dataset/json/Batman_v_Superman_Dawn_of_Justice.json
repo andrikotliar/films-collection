@@ -1,0 +1,149 @@
+{
+  "id": "368c0d7e9d0c68ab67f099f6",
+  "type": [
+    "Film"
+  ],
+  "title": "Batman v Superman: Dawn of Justice",
+  "genres": [
+    "Action",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Zack Snyder"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Chris Terrio"
+        },
+        {
+          "name": "David S. Goyer"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Charles Roven"
+        },
+        {
+          "name": "Deborah Snyder"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        },
+        {
+          "name": "Junkie XL"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Larry Fong"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "DC Entertainment",
+    "Warner Bros. Pictures"
+  ],
+  "duration": 151,
+  "cast": [
+    {
+      "actorId": "118e96c459ae6809e814c6b5",
+      "character": {
+        "name": "Bruce Wayne / Batman",
+        "imageUrl": "batman_v_superman_dawn_of_justice_bruce_wayne.webp"
+      }
+    },
+    {
+      "actorId": "8b6677adf81a10fa756951ff",
+      "character": {
+        "name": "Clark Kent / Superman",
+        "imageUrl": "batman_v_superman_dawn_of_justice_clark_kent.webp"
+      }
+    },
+    {
+      "actorId": "8f9db7b562116db3822027d8",
+      "character": {
+        "name": "Lois Lane"
+      }
+    },
+    {
+      "actorId": "23f19ef413bcb6efbff53967",
+      "character": {
+        "name": "Lex Luthor"
+      }
+    },
+    {
+      "actorId": "6cf53fe9fb98ea48cbd3641d",
+      "character": {
+        "name": "Martha Kent"
+      }
+    },
+    {
+      "actorId": "598ea6d5be8fe378787adde7",
+      "character": {
+        "name": "Perry White"
+      }
+    },
+    {
+      "actorId": "45cf2c1a6045a2b007118352",
+      "character": {
+        "name": "Alfred Pennyworth"
+      }
+    },
+    {
+      "actorId": "afb7faa29ea36c9c71570d4f",
+      "character": {
+        "name": "Senator Finch"
+      }
+    },
+    {
+      "actorId": "689592fad487486ce5468f9f",
+      "character": {
+        "name": "Diana Prince / Wonder Woman"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "DC Extended Universe"
+    }
+  ],
+  "budget": 250000000,
+  "boxOffice": 874000000,
+  "year": [
+    2016
+  ],
+  "media": [
+    {
+      "poster": "batman_v_superman.webp",
+      "trailer": "bha24P9uw-E"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs."
+  ],
+  "relatedTitlesKey": "d923cc31cdf721e7ddeb1616"
+}

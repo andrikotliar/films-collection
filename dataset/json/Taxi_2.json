@@ -1,0 +1,124 @@
+{
+  "id": "7ce08f79aed677a275668a69",
+  "type": [
+    "Film"
+  ],
+  "title": "Taxi 2",
+  "genres": [
+    "Comedy"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Gérard Pirès"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Luc Besson"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Luc Besson"
+        },
+        {
+          "name": "Michele Petin"
+        },
+        {
+          "name": "Laurent Petin"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Olivier \"Akos\" Castelli"
+        },
+        {
+          "name": "Al Khemya"
+        },
+        {
+          "name": "One Shot"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Thierry Guilmaro"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "LionsGate Entertainment"
+  ],
+  "duration": 88,
+  "cast": [
+    {
+      "actorId": "1562657477b61c61b09e2013",
+      "character": {
+        "name": "Daniel Morales"
+      }
+    },
+    {
+      "actorId": "2d4bdb7694904d6306f88c60",
+      "character": {
+        "name": "Emilien Coutant-Kerbalec"
+      }
+    },
+    {
+      "actorId": "6e287749f98b9217ea2ceb27",
+      "character": {
+        "name": "Lilly Bertineau"
+      }
+    },
+    {
+      "actorId": "69edd5228a1c567011c094fe",
+      "character": {
+        "name": "Petra"
+      }
+    },
+    {
+      "actorId": "93c6ee912f305fb6262c4193",
+      "character": {
+        "name": "Commissaire Gibert"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Cars"
+    }
+  ],
+  "budget": 10000000,
+  "boxOffice": 64000000,
+  "year": [
+    2000
+  ],
+  "media": [
+    {
+      "poster": "taxi_2.webp",
+      "trailer": "XkMZ75BwhCg"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Police inspector Emilien and his taxi-driver pal Daniel are back, this time on the tail of a group of Japanese yakuza."
+  ],
+  "relatedTitlesKey": "e4250279694fbcf5a7ba81c4"
+}

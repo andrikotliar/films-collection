@@ -4,7 +4,6 @@ export { filterValues } from './filter-values';
 export { countObjectKeys } from './count-keys';
 export { buildMediaPath } from './build-media-path';
 export { debounce } from './debounce';
-export { splitAt } from './split-at';
 export { handleImageError } from './handle-image-error';
 export { buildRouterLink } from './build-router-link';
 export { searchFilm } from './search-film';

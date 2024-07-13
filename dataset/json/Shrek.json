@@ -1,0 +1,151 @@
+{
+  "id": "9b23d19ed2784ae69f4bb342",
+  "type": [
+    "Animation"
+  ],
+  "title": "Shrek",
+  "genres": [
+    "Adventures",
+    "Comedy"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Andrew Adamson"
+        },
+        {
+          "name": "Vicky Jenson"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Ted Elliott"
+        },
+        {
+          "name": "Terry Rossio"
+        },
+        {
+          "name": "Joe Stillman"
+        },
+        {
+          "name": "Roger S. H. Schulman"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Aron Warner"
+        },
+        {
+          "name": "John H. Williams"
+        },
+        {
+          "name": "Jeffrey Katzenberg"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Harry Gregson-Williams"
+        },
+        {
+          "name": "John Powell"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA",
+    "Japan"
+  ],
+  "production": [
+    "DreamWorks Animation"
+  ],
+  "duration": 90,
+  "cast": [
+    {
+      "actorId": "da1f33b9c84064852254d8aa",
+      "character": {
+        "name": "Shrek",
+        "imageUrl": "shrek_shrek.webp"
+      }
+    },
+    {
+      "actorId": "356f3d8d6debf47913fead0a",
+      "character": {
+        "name": "Donkey",
+        "imageUrl": "shrek_donkey.webp"
+      }
+    },
+    {
+      "actorId": "2f654330682e4a9dbb666cc0",
+      "character": {
+        "name": "Fiona",
+        "imageUrl": "shrek_fiona.webp"
+      }
+    },
+    {
+      "actorId": "b3e39cb52439fd6d9e379b3e",
+      "character": {
+        "name": "Lord Farquaad",
+        "imageUrl": "shrek_lord_farquaad.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Legends"
+    }
+  ],
+  "budget": 60000000,
+  "awards": [
+    {
+      "awardId": "77f4fba8c4801f32a6bd8f39",
+      "nominations": [
+        {
+          "nominationId": "dc2f81356a5c43ad11366c9b"
+        }
+      ]
+    },
+    {
+      "awardId": "f5ca20c5b015eafd0cb84b95",
+      "nominations": [
+        {
+          "nominationId": "fda51671f2403fb8fcae5bdf"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "b494656df6bbe28f74b4ae67"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 488000000,
+  "year": [
+    2001
+  ],
+  "media": [
+    {
+      "poster": "shrek_1.webp",
+      "trailer": "CwXOrWvPBPk"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back."
+  ],
+  "relatedTitlesKey": "a81b1654b30b06adb32ddf8d"
+}

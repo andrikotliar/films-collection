@@ -1,0 +1,140 @@
+{
+  "id": "03ed1147bd0103a829c2ed1d",
+  "type": [
+    "Film"
+  ],
+  "title": "Doctor Strange",
+  "genres": [
+    "Fantasy",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Scott Derrickson"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Jon Spaihts"
+        },
+        {
+          "name": "Scott Derrickson"
+        },
+        {
+          "name": "C. Robert Cargill"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Michael Giacchino"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Ben Davis"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Marvel Studios"
+  ],
+  "duration": 115,
+  "cast": [
+    {
+      "actorId": "5a86b2f23ea348e3a58775b6",
+      "character": {
+        "name": "Dr. Stephen Strange"
+      }
+    },
+    {
+      "actorId": "e5fca0c83deaa2448c413cfd",
+      "character": {
+        "name": "Mordo"
+      }
+    },
+    {
+      "actorId": "32b833b2581f63e17408e368",
+      "character": {
+        "name": "Dr. Christine Palmer"
+      }
+    },
+    {
+      "actorId": "a775eca4841cce040addc4ca",
+      "character": {
+        "name": "Wong"
+      }
+    },
+    {
+      "actorId": "e28338f3ae267cd8cab714fe",
+      "character": {
+        "name": "Kaecilius"
+      }
+    },
+    {
+      "actorId": "f374f4f88b7457cf966ef58c",
+      "character": {
+        "name": "The Ancient One"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": 165000000,
+  "awards": [
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "49f9eaedda92c9e5d6d676b3"
+        },
+        {
+          "nominationId": "83e32b8f54b88830a08e38eb",
+          "actorId": "f374f4f88b7457cf966ef58c"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 678000000,
+  "year": [
+    2016
+  ],
+  "media": [
+    {
+      "poster": "doctor_strange.webp",
+      "trailer": "HSzx-zryEgM"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts."
+  ],
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+}

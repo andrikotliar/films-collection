@@ -1,0 +1,172 @@
+{
+  "id": "c43b0eb6e9b3545e34bfdbc0",
+  "type": [
+    "Film"
+  ],
+  "title": "Interstellar",
+  "genres": [
+    "Sci-Fi",
+    "Drama"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Cristopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Jonathan Nolan"
+        },
+        {
+          "name": "Cristopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Cristopher Nolan"
+        },
+        {
+          "name": "Lynda Obst"
+        },
+        {
+          "name": "Emma Thomas"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Hoyte Van Hoytema"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Paramount Pictures",
+    "Warner Bros. Pictures"
+  ],
+  "duration": 169,
+  "cast": [
+    {
+      "actorId": "25fddd7afb676f2eb2b4aa9f",
+      "character": {
+        "name": "Cooper"
+      }
+    },
+    {
+      "actorId": "a46061cb2da09f5cf3772762",
+      "character": {
+        "name": "Murph"
+      }
+    },
+    {
+      "actorId": "e368b232e6af9b5200fd411b",
+      "character": {
+        "name": "Brand"
+      }
+    },
+    {
+      "actorId": "68a6bf55b5f042549fda0642",
+      "character": {
+        "name": "Professor Brand"
+      }
+    },
+    {
+      "actorId": "1e69164177ea3946ddbd349e",
+      "character": {
+        "name": "Mann"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Space"
+    }
+  ],
+  "budget": 165000000,
+  "awards": [
+    {
+      "awardId": "77f4fba8c4801f32a6bd8f39",
+      "nominations": [
+        {
+          "nominationId": "60c5a2ad60d50a27cbf6ca22"
+        }
+      ]
+    },
+    {
+      "awardId": "f5ca20c5b015eafd0cb84b95",
+      "nominations": [
+        {
+          "nominationId": "a328339c31b1366a6d5983c7"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "f31c4bc0fe743c5a0c8835c5"
+        },
+        {
+          "nominationId": "12ea16d32c5b60a1eaa2e6af"
+        },
+        {
+          "nominationId": "16a4df15595684906961ec92"
+        },
+        {
+          "nominationId": "a0d7861dc6301788c83c87e5",
+          "actorId": "894ee6951ac7d25e10c10922"
+        },
+        {
+          "nominationId": "c96092433dd13c7cef968834"
+        },
+        {
+          "nominationId": "c730b8e47577f01574e9a302"
+        }
+      ]
+    },
+    {
+      "awardId": "083e0a9c6cad4b02c0d5772b",
+      "nominations": [
+        {
+          "nominationId": "fd7d97fcca1ab42e58a26206"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 677000000,
+  "year": [
+    2014
+  ],
+  "media": [
+    {
+      "poster": "interstellar.webp",
+      "trailer": "zSWdZVtXT7E"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+  ]
+}

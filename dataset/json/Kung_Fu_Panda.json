@@ -1,0 +1,194 @@
+{
+  "id": "c8124a399431151d0541398e",
+  "type": [
+    "Animation"
+  ],
+  "title": "Kung Fu Panda",
+  "genres": [
+    "Action",
+    "Comedy"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Mark Osborne"
+        },
+        {
+          "name": "John Stevenson"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Jonathan Aibel"
+        },
+        {
+          "name": "Glenn Berger"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Melissa Cobb"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "John Powell"
+        },
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Yong Duk Jhun"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA",
+    "China"
+  ],
+  "production": [
+    "DreamWorks Animation"
+  ],
+  "duration": 92,
+  "cast": [
+    {
+      "actorId": "93e4580ac1906e427cabed5a",
+      "character": {
+        "name": "Po",
+        "imageUrl": "kung_fu_panda_po.webp"
+      }
+    },
+    {
+      "actorId": "9b4c82033e370d0e16c62974",
+      "character": {
+        "name": "Shifu",
+        "imageUrl": "kung_fu_panda_shifu.webp"
+      }
+    },
+    {
+      "actorId": "8ea09c057163d4f5c7e44d23",
+      "character": {
+        "name": "Tigress",
+        "imageUrl": "kung_fu_panda_tigress.webp"
+      }
+    },
+    {
+      "actorId": "07fd6405b794906aa17de68f",
+      "character": {
+        "name": "Tai Lung",
+        "imageUrl": "kung_fu_panda_tai_lung.webp"
+      }
+    },
+    {
+      "actorId": "9129cd77b72f6865ac51f2a7",
+      "character": {
+        "name": "Monkey",
+        "imageUrl": "kung_fu_panda_monkey.webp"
+      }
+    },
+    {
+      "actorId": "fc2aa00b24fac3bf3e2532b4",
+      "character": {
+        "name": "Mantis",
+        "imageUrl": "kung_fu_panda_mantis.webp"
+      }
+    },
+    {
+      "actorId": "3e39acbba04928ae4e75b33c",
+      "character": {
+        "name": "Viper",
+        "imageUrl": "kung_fu_panda_viper.webp"
+      }
+    },
+    {
+      "actorId": "e3e9852e41647da469ca48ad",
+      "character": {
+        "name": "Crane",
+        "imageUrl": "kung_fu_panda_crane.webp"
+      }
+    },
+    {
+      "actorId": "ac0c86b4f56b6b569c2b37fb",
+      "character": {
+        "name": "Oogway",
+        "imageUrl": "kung_fu_panda_oogway.webp"
+      }
+    },
+    {
+      "actorId": "ba8c2781a07c02d7d6a45233",
+      "character": {
+        "name": "Mr. Ping",
+        "imageUrl": "kung_fu_panda_mr_ping.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Martial Arts"
+    }
+  ],
+  "budget": 130000000,
+  "awards": [
+    {
+      "awardId": "ec5ae1c2e4971f204bb68398",
+      "nominations": [
+        {
+          "nominationId": "d320da0100870f69a84d68bf"
+        },
+        {
+          "nominationId": "a9037f3aa3a3d4ea5a8b15e3"
+        },
+        {
+          "nominationId": "f8285f6e40920df01a235428"
+        },
+        {
+          "nominationId": "60ce8a3c767c11ed4ac8d364"
+        },
+        {
+          "nominationId": "f1c105e3137d2910d680375e"
+        },
+        {
+          "nominationId": "5916dea5453e66e6e3cf6d04"
+        },
+        {
+          "nominationId": "753a6de081cfb61329857303",
+          "actorId": "9b4c82033e370d0e16c62974"
+        },
+        {
+          "nominationId": "71eae391c09ce0ff3a1b117a"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 632000000,
+  "year": [
+    2008
+  ],
+  "media": [
+    {
+      "poster": "kungfu_panda.webp",
+      "trailer": "NRc-ze7Wrxw"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance. However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a novice in martial arts."
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "id": "0817fbf3aa4d0ba9fe4be438",
+  "type": [
+    "Film"
+  ],
+  "title": "Hugo",
+  "genres": [
+    "Drama",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Martin Scorsese"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "John Logan"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Graham King"
+        },
+        {
+          "name": "Timothy Headington"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Howard Shore"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Robert Richardson"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "France",
+    "UK",
+    "USA"
+  ],
+  "production": [
+    "Metropolitan Filmexport",
+    "Paramount Pictures"
+  ],
+  "duration": 126,
+  "cast": [
+    {
+      "actorId": "6d993dbef1d1e79ea49516fa",
+      "character": {
+        "name": "Hugo Cabret"
+      }
+    },
+    {
+      "actorId": "9db2779191ae86290f56c21b",
+      "character": {
+        "name": "Georges M'li's"
+      }
+    },
+    {
+      "actorId": "305954b13aa2aaf70e71c864",
+      "character": {
+        "name": "Station Inspector"
+      }
+    },
+    {
+      "actorId": "6fddfed4c4ad097f4c724086",
+      "character": {
+        "name": "Isabelle"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Cinematograph"
+    }
+  ],
+  "budget": 150000000,
+  "awards": [
+    {
+      "awardId": "77f4fba8c4801f32a6bd8f39",
+      "nominations": [
+        {
+          "nominationId": "4c0ed0e55fb7a79725a3be4b"
+        },
+        {
+          "nominationId": "438ebcf46e8852fd98e00f8f"
+        },
+        {
+          "nominationId": "0f9e1d3ce01ffbc48478fc5c"
+        },
+        {
+          "nominationId": "60c5a2ad60d50a27cbf6ca22"
+        },
+        {
+          "nominationId": "7705106d5f396b3cd3737061"
+        }
+      ]
+    },
+    {
+      "awardId": "f5ca20c5b015eafd0cb84b95",
+      "nominations": [
+        {
+          "nominationId": "cdab47c288c2112567537e85"
+        },
+        {
+          "nominationId": "11854c22f8776316a60f53ce"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "12ea16d32c5b60a1eaa2e6af"
+        }
+      ]
+    },
+    {
+      "awardId": "083e0a9c6cad4b02c0d5772b",
+      "nominations": [
+        {
+          "nominationId": "e146225b030c650c74bc4b66"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 186000000,
+  "year": [
+    2011
+  ],
+  "media": [
+    {
+      "poster": "hugo.webp",
+      "trailer": "Hv3obL9HqyY"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "In Paris in 1931, an orphan named Hugo Cabret, who lives in the walls of a train station, is wrapped up in a mystery involving his late father and an automaton"
+  ],
+  "meta": {
+    "watchCount": {
+      "real": 1
+    }
+  }
+}

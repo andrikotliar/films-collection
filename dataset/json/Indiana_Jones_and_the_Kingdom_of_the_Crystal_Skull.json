@@ -1,0 +1,139 @@
+{
+  "id": "723c4498366bac596781249d",
+  "type": [
+    "Film"
+  ],
+  "title": "Indiana Jones and the Kingdom of the Crystal Skull",
+  "genres": [
+    "Adventures",
+    "Fantasy",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Steven Spielberg"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "David Koepp"
+        },
+        {
+          "name": "George Lucas (story)"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Frank Marshall"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Janusz Kaminski"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Paramount Pictures",
+    "Lucasfilm"
+  ],
+  "duration": 127,
+  "cast": [
+    {
+      "actorId": "90204450e3ebdb007d478280",
+      "character": {
+        "name": "Dr. Henry «Indiana» Jones, Jr."
+      }
+    },
+    {
+      "actorId": "7a354da5768fef2be29583f0",
+      "character": {
+        "name": "Irina Spalko"
+      }
+    },
+    {
+      "actorId": "bd524c2789035cc0587cd149",
+      "character": {
+        "name": "Marion Ravenwood"
+      }
+    },
+    {
+      "actorId": "24ad64557f5cc8cebf8194ae",
+      "character": {
+        "name": "Mutt Williams"
+      }
+    },
+    {
+      "actorId": "0ec2e2683da5b8fcdff58d89",
+      "character": {
+        "name": "'Mac' George Michale"
+      }
+    },
+    {
+      "actorId": "e8a0a4dd975bb9aba822de75",
+      "character": {
+        "name": "Professor Oxley"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Mysteries of the Past"
+    }
+  ],
+  "budget": 185000000,
+  "awards": [
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "c00b7ee9feab1e1e748a7f82"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 790000000,
+  "year": [
+    2008
+  ],
+  "media": [
+    {
+      "poster": "indiana_jones_4.webp",
+      "trailer": "WAdJf4wTC5Y"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "In 1957, archaeologist and adventurer Dr. Henry \"Indiana\" Jones, Jr. is called back into action and becomes entangled in a Soviet plot to uncover the secret behind mysterious artifacts known as the Crystal Skulls."
+  ],
+  "relatedTitlesKey": "b6df4d99b3eecf421590dd26",
+  "meta": {
+    "watchCount": {
+      "real": 1
+    }
+  }
+}

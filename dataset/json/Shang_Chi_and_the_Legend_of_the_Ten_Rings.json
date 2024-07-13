@@ -1,0 +1,147 @@
+{
+  "id": "9b4d881b47c21f66f119a22f",
+  "type": [
+    "Film"
+  ],
+  "title": "Shang-Chi and the Legend of the Ten Rings",
+  "genres": [
+    "Fantasy",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Destin Daniel Cretton"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Dave Callaham"
+        },
+        {
+          "name": "Destin Daniel Cretton"
+        },
+        {
+          "name": "Andrew Lanham"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        },
+        {
+          "name": "Jonathan Schwartz"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Joel P. West"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Bill Pope"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Marvel Studios"
+  ],
+  "duration": 132,
+  "cast": [
+    {
+      "actorId": "e4564ad755822d054312856f",
+      "character": {
+        "name": "Shang-Chi"
+      }
+    },
+    {
+      "actorId": "cfe556abf1c2bb01e4b732ae",
+      "character": {
+        "name": "Wenwu / Mandarin"
+      }
+    },
+    {
+      "actorId": "902d1a4d06fb8b0532302803",
+      "character": {
+        "name": "Katy"
+      }
+    },
+    {
+      "actorId": "3c6480c6bfac97f402c5a7d3",
+      "character": {
+        "name": "Xialing"
+      }
+    },
+    {
+      "actorId": "df635dbc084250870e7144af",
+      "character": {
+        "name": "Ying Nan"
+      }
+    },
+    {
+      "actorId": "a775eca4841cce040addc4ca",
+      "character": {
+        "name": "Wong"
+      }
+    },
+    {
+      "actorId": "f4d0182de6e1978b1c26f2d6",
+      "character": {
+        "name": "Abomination / Emile Blonsky"
+      }
+    },
+    {
+      "actorId": "9db2779191ae86290f56c21b",
+      "character": {
+        "name": "Trevor Slattery"
+      }
+    },
+    {
+      "actorId": "def576aa06a90bef48570196",
+      "character": {
+        "name": "Razor Fist"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": 150000000,
+  "boxOffice": 430000000,
+  "year": [
+    2021
+  ],
+  "media": [
+    {
+      "poster": "shang_chi.webp",
+      "trailer": "COGg-Vjauwo"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Shang-Chi, the master of unarmed weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization."
+  ],
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+}

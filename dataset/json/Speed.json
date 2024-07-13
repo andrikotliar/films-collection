@@ -1,0 +1,139 @@
+{
+  "id": "46263692035fd66ee89f425e",
+  "type": [
+    "Film"
+  ],
+  "title": "Speed",
+  "genres": [
+    "Action",
+    "Thriller"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Jan de Bont"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Graham Yost"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Mark Gordon"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Mark Mancina"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Andrzej Bartkowiak"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "duration": 116,
+  "cast": [
+    {
+      "actorId": "064e80da8733b3e3692e9735",
+      "character": {
+        "name": "Jack Traven"
+      }
+    },
+    {
+      "actorId": "5ec57d724ac4f90a7edb2736",
+      "character": {
+        "name": "Howard Payne"
+      }
+    },
+    {
+      "actorId": "d8e06c9280b3a91df4dadb08",
+      "character": {
+        "name": "Annie"
+      }
+    },
+    {
+      "actorId": "0aeb4bc99c646bc834ac62f4",
+      "character": {
+        "name": "Harry"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Cars"
+    }
+  ],
+  "budget": 30000000,
+  "awards": [
+    {
+      "awardId": "77f4fba8c4801f32a6bd8f39",
+      "nominations": [
+        {
+          "nominationId": "218a422da0df0fa0f49d97a5"
+        },
+        {
+          "nominationId": "18860c1f61dea72c56e3fea2"
+        }
+      ]
+    },
+    {
+      "awardId": "f5ca20c5b015eafd0cb84b95",
+      "nominations": [
+        {
+          "nominationId": "4676b6882b44f5636eb2f6d5"
+        },
+        {
+          "nominationId": "11854c22f8776316a60f53ce"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "9689652dc356c3239dfa2d51",
+          "actorId": "d8e06c9280b3a91df4dadb08"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 350000000,
+  "year": [
+    1994
+  ],
+  "media": [
+    {
+      "poster": "speed.webp",
+      "trailer": "8piqd2BWeGI"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph."
+  ]
+}

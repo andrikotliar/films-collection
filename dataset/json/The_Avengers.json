@@ -1,0 +1,201 @@
+{
+  "id": "6d77c2264324ac75dbfc4360",
+  "type": [
+    "Film"
+  ],
+  "title": "The Avengers",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Joss Whedon"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Joss Whedon"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Alan Silvestri"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Seamus McGarvey"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Marvel Studios"
+  ],
+  "duration": 143,
+  "cast": [
+    {
+      "actorId": "68eac2af31419390d7f727fd",
+      "character": {
+        "name": "Tony Stark / Iron Man",
+        "imageUrl": "the_avengers_tony_stark.webp"
+      }
+    },
+    {
+      "actorId": "b3356695e90767defc7c4421",
+      "character": {
+        "name": "Steve Rogers / Captain America",
+        "imageUrl": "the_avengers_steve_rogers.webp"
+      }
+    },
+    {
+      "actorId": "a65bc3f407cd83dd8b26db19",
+      "character": {
+        "name": "Bruce Banner / The Hulk",
+        "imageUrl": "the_avengers_bruce_banner.webp"
+      }
+    },
+    {
+      "actorId": "9d6f7bec0a46789eaa403786",
+      "character": {
+        "name": "Thor",
+        "imageUrl": "the_avengers_thor.webp"
+      }
+    },
+    {
+      "actorId": "64286f842f66cb88506271cc",
+      "character": {
+        "name": "Natasha Romanoff / Black Widow"
+      }
+    },
+    {
+      "actorId": "333fe7873ab5451125a195a7",
+      "character": {
+        "name": "Clint Barton / Hawkeye"
+      }
+    },
+    {
+      "actorId": "1c93c03ba9a9870918b112fb",
+      "character": {
+        "name": "Loki",
+        "imageUrl": "the_avengers_loki.webp"
+      }
+    },
+    {
+      "actorId": "297abcfa1686135e139ec907",
+      "character": {
+        "name": "Agent Phil Coulson"
+      }
+    },
+    {
+      "actorId": "4b4f5bcff305c49b3fd3e179",
+      "character": {
+        "name": "Agent Maria Hill"
+      }
+    },
+    {
+      "actorId": "3090a68b40a7bfda7b1d93b8",
+      "character": {
+        "name": "Selvig"
+      }
+    },
+    {
+      "actorId": "b066e50c67b8ffebd4ea16ba",
+      "character": {
+        "name": "Nick Fury"
+      }
+    },
+    {
+      "actorId": "4c47f492bea41214abba1578",
+      "character": {
+        "name": "Pepper Potts"
+      }
+    },
+    {
+      "actorId": "c20e24b955b094888df0ac50",
+      "character": {
+        "name": "Jarvis"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": 220000000,
+  "awards": [
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "f31c4bc0fe743c5a0c8835c5"
+        },
+        {
+          "nominationId": "3c0a856a745ad6ae83986a5c",
+          "actorId": "297abcfa1686135e139ec907"
+        },
+        {
+          "nominationId": "833a98ad422e5573235b6bb2"
+        },
+        {
+          "nominationId": "16a4df15595684906961ec92"
+        }
+      ]
+    },
+    {
+      "awardId": "539b7c0eaba8eec432e9e48e",
+      "nominations": [
+        {
+          "nominationId": "53d156002961b98bd60f30d6"
+        },
+        {
+          "nominationId": "ec57f6aed9ca57977e1e6d30"
+        },
+        {
+          "nominationId": "9eafe48caab08956175c83a9"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 1520000000,
+  "year": [
+    2012
+  ],
+  "media": [
+    {
+      "poster": "avengers_1.webp",
+      "trailer": "hIR8Ar-Z4hw"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
+  ],
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+}

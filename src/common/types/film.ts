@@ -15,7 +15,7 @@ type CastType = {
   actorId: string;
   character: {
     name: string;
-    imageUrl: string | null;
+    imageUrl?: string;
   };
 };
 
@@ -26,7 +26,7 @@ type Collection = {
 
 type Nomination = {
   nominationId: string;
-  nominee?: string;
+  actorId?: string;
   comment?: string;
 };
 

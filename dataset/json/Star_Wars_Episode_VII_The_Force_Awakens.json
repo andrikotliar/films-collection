@@ -1,0 +1,213 @@
+{
+  "id": "c26bebe862473aa8d01017e0",
+  "type": [
+    "Film"
+  ],
+  "title": "Star Wars Episode VII: The Force Awakens",
+  "genres": [
+    "SpaceOpera",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "J.J. Abrams"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Lawrence Kasdan"
+        },
+        {
+          "name": "J. J. Abrams"
+        },
+        {
+          "name": "Michael Arndt"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Kathleen Kennedy"
+        },
+        {
+          "name": "J. J. Abrams"
+        },
+        {
+          "name": "Bryan Burk"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Dan Mindel"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Lucasfilm"
+  ],
+  "duration": 135,
+  "cast": [
+    {
+      "actorId": "667605ab533f2f147e39370a",
+      "character": {
+        "name": "Rey"
+      }
+    },
+    {
+      "actorId": "1b0689c35cd77c23205fd4a8",
+      "character": {
+        "name": "Kylo Ren"
+      }
+    },
+    {
+      "actorId": "ccf4b948c4953a8970e922d4",
+      "character": {
+        "name": "Finn"
+      }
+    },
+    {
+      "actorId": "90204450e3ebdb007d478280",
+      "character": {
+        "name": "Han Solo"
+      }
+    },
+    {
+      "actorId": "ce132ddc9f8b5434251efcdb",
+      "character": {
+        "name": "Luke Skywalker"
+      }
+    },
+    {
+      "actorId": "7d2b5a0e06b8a95e8c3f208f",
+      "character": {
+        "name": "Leia"
+      }
+    },
+    {
+      "actorId": "8b0c59295bf19f18ccdebced",
+      "character": {
+        "name": "Poe Dameron"
+      }
+    },
+    {
+      "actorId": "e5253cdc8c1fb87953720d64",
+      "character": {
+        "name": "Snoke",
+        "imageUrl": "star_wars_episode_vii_the_force_awakens_snoke.webp"
+      }
+    },
+    {
+      "actorId": "25d91c81e9e6d9044c52fa9b",
+      "character": {
+        "name": "Chewbacca",
+        "imageUrl": "star_wars_episode_vii_the_force_awakens_chewbacca.webp"
+      }
+    },
+    {
+      "actorId": "a834eb244fbdfc92bd0e5b4a",
+      "character": {
+        "name": "Captain Phasma",
+        "imageUrl": "star_wars_episode_vii_the_force_awakens_captain_phasma.webp"
+      }
+    },
+    {
+      "actorId": "ed556b2fb295cedc56c45779",
+      "character": {
+        "name": "General Hux"
+      }
+    },
+    {
+      "actorId": "8495e822d070b57837e0bf6e",
+      "character": {
+        "name": "C-3PO",
+        "imageUrl": "star_wars_episode_vii_the_force_awakens_c-3po.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Star Wars Universe"
+    }
+  ],
+  "budget": 306000000,
+  "boxOffice": 2000000000,
+  "awards": [
+    {
+      "awardId": "f5ca20c5b015eafd0cb84b95",
+      "nominations": [
+        {
+          "nominationId": "bc0ac0796a867cf1708fef75"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "f31c4bc0fe743c5a0c8835c5"
+        },
+        {
+          "nominationId": "c96092433dd13c7cef968834"
+        },
+        {
+          "nominationId": "6e270264df618619fd4130b7",
+          "actorId": "90204450e3ebdb007d478280"
+        },
+        {
+          "nominationId": "3c0a856a745ad6ae83986a5c",
+          "actorId": "1b0689c35cd77c23205fd4a8"
+        },
+        {
+          "nominationId": "c730b8e47577f01574e9a302"
+        },
+        {
+          "nominationId": "ee99682a00dc62e83e34e50e"
+        },
+        {
+          "nominationId": "f0ab91bd2921e0bd31fb500b"
+        },
+        {
+          "nominationId": "16a4df15595684906961ec92"
+        }
+      ]
+    }
+  ],
+  "year": [
+    2015
+  ],
+  "media": [
+    {
+      "poster": "star_wars_episode_VII.webp",
+      "trailer": "sGbxmsDFVnE"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Three decades after the Empire's defeat, a new threat arises in the militant First Order. Stormtrooper defector Finn and the scavenger Rey are caught up in the Resistance's search for the missing Luke Skywalker."
+  ],
+  "relatedTitlesKey": "0de96c347aa9f64e14fb4a83"
+}

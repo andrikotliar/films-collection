@@ -1,0 +1,159 @@
+{
+  "id": "5a0d518cc4c8e8cc75a04c37",
+  "type": [
+    "Film"
+  ],
+  "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Gore Verbinski"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Ted Elliott"
+        },
+        {
+          "name": "Terry Rossio"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Jerry Bruckheimer"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Klaus Badelt"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Dariusz Wolski"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Jerry Bruckheimer Films"
+  ],
+  "duration": 143,
+  "cast": [
+    {
+      "actorId": "22f4885dc5c22c8371ad2a3a",
+      "character": {
+        "name": "Captain Jack Sparrow",
+        "imageUrl": "pirates_of_the_caribbean_the_curse_of_the_black_pearl_captain_jack_sparrow.webp"
+      }
+    },
+    {
+      "actorId": "506875a86231e077557d5523",
+      "character": {
+        "name": "Barbossa"
+      }
+    },
+    {
+      "actorId": "450fa3d27820892d0f5afa0c",
+      "character": {
+        "name": "Will Turner"
+      }
+    },
+    {
+      "actorId": "b824178140c71e44c378864f",
+      "character": {
+        "name": "Elizabeth Swann"
+      }
+    },
+    {
+      "actorId": "e6cbdb90f81bf47f47288818",
+      "character": {
+        "name": "Norrington"
+      }
+    },
+    {
+      "actorId": "b482300071bcd1f1f586e95e",
+      "character": {
+        "name": "Governor Weatherby Swann"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Fantasy Worlds"
+    }
+  ],
+  "budget": 140000000,
+  "awards": [
+    {
+      "awardId": "f5ca20c5b015eafd0cb84b95",
+      "nominations": [
+        {
+          "nominationId": "0ee59417763a7accdac33a14"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "9e2b1750e0ee636e7d28f4a8"
+        }
+      ]
+    },
+    {
+      "awardId": "539b7c0eaba8eec432e9e48e",
+      "nominations": [
+        {
+          "nominationId": "d64ff2b58f39570c045633a3",
+          "actorId": "22f4885dc5c22c8371ad2a3a"
+        }
+      ]
+    },
+    {
+      "awardId": "083e0a9c6cad4b02c0d5772b",
+      "nominations": [
+        {
+          "nominationId": "2adf3660a95c0369d0b55985"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 654000000,
+  "year": [
+    2003
+  ],
+  "media": [
+    {
+      "poster": "pirates_1.webp",
+      "trailer": "naQr0uTrH_s"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead."
+  ],
+  "relatedTitlesKey": "7d2478e857e3c4c85a85be7d"
+}

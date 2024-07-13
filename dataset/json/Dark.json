@@ -1,0 +1,314 @@
+{
+  "id": "6ab7e2aae49cd5db5baf8ca7",
+  "type": [
+    "Series"
+  ],
+  "title": "Dark",
+  "genres": [
+    "Fantasy",
+    "Drama"
+  ],
+  "crew": [
+    {
+      "role": "series_creator",
+      "people": [
+        {
+          "name": "Baran bo Odar"
+        },
+        {
+          "name": "Jantje Friese"
+        }
+      ]
+    },
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Baran bo Odar"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Jantje Friese",
+          "comment": "26 episodes"
+        },
+        {
+          "name": "Ronny Schalk",
+          "comment": "5 episodes"
+        },
+        {
+          "name": "Marc O. Seng",
+          "comment": "5 episodes"
+        },
+        {
+          "name": "Martin Behnke",
+          "comment": "5 episodes"
+        },
+        {
+          "name": "Daphne Ferraro",
+          "comment": "2 episodes"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Justyna Müsch"
+        },
+        {
+          "name": "Jantje Friese"
+        },
+        {
+          "name": "Quirin Berg"
+        },
+        {
+          "name": "Max Wiedemann"
+        },
+        {
+          "name": "Baran bo Odar"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Ben Frost"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Nikolaus Summerer"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "Germany",
+    "USA"
+  ],
+  "production": [
+    "Netflix"
+  ],
+  "duration": 1560,
+  "cast": [
+    {
+      "actorId": "a3f2c6bac605786f9f56d15a",
+      "character": {
+        "name": "Jonas Kahnwald"
+      }
+    },
+    {
+      "actorId": "11f56bea41f57d61ed145b2e",
+      "character": {
+        "name": "Charlotte Doppler"
+      }
+    },
+    {
+      "actorId": "7bbf6feffb45a33b6b2bf7d5",
+      "character": {
+        "name": "Martha Nielsen"
+      }
+    },
+    {
+      "actorId": "c4ac0f62af901e2cee1c369c",
+      "character": {
+        "name": "Hannah Kahnwald"
+      }
+    },
+    {
+      "actorId": "7d4a82bcad5626743c369438",
+      "character": {
+        "name": "Peter Doppler"
+      }
+    },
+    {
+      "actorId": "1e6a4f8cea3b72ef13f874fc",
+      "character": {
+        "name": "Katharina Nielsen"
+      }
+    },
+    {
+      "actorId": "e5df211ac90288be619590c7",
+      "character": {
+        "name": "The Stranger"
+      }
+    },
+    {
+      "actorId": "6f08cebab902c79481d9745d",
+      "character": {
+        "name": "Bartosz Tiedemann"
+      }
+    },
+    {
+      "actorId": "f1ef76c24854f9573746d5da",
+      "character": {
+        "name": "Magnus Nielsen"
+      }
+    },
+    {
+      "actorId": "e86ed2bb1b185d63c11131f9",
+      "character": {
+        "name": "Magnus Nielsen"
+      }
+    },
+    {
+      "actorId": "7fb734015d4a57f167a36e12",
+      "character": {
+        "name": "Ulrich Nielsen"
+      }
+    },
+    {
+      "actorId": "3e0e70ea5ced5aca29378acd",
+      "character": {
+        "name": "Aleksander Tiedemann"
+      }
+    },
+    {
+      "actorId": "9e5fc8f89185aa6620e8879f",
+      "character": {
+        "name": "Franziska Doppler"
+      }
+    },
+    {
+      "actorId": "4472200611dff9c9a317c23a",
+      "character": {
+        "name": "Regina Tiedemann"
+      }
+    },
+    {
+      "actorId": "627c7484f3578be0dec889e3",
+      "character": {
+        "name": "Claudia Tiedemann (1987)"
+      }
+    },
+    {
+      "actorId": "b4a68b730aa25ac0f234a824",
+      "character": {
+        "name": "Elisabeth Doppler"
+      }
+    },
+    {
+      "actorId": "172d6dc58d8c3ab75d714350",
+      "character": {
+        "name": "Adam"
+      }
+    },
+    {
+      "actorId": "0f0d55197b6457aa5418133f",
+      "character": {
+        "name": "Noah"
+      }
+    },
+    {
+      "actorId": "97733df96af7370787d645c3",
+      "character": {
+        "name": "Helge Doppler"
+      }
+    },
+    {
+      "actorId": "b47450c175e8f5f576c65246",
+      "character": {
+        "name": "Claudia Tiedemann"
+      }
+    },
+    {
+      "actorId": "4bfeaf2aa2b092e20709e6e9",
+      "character": {
+        "name": "Ines Kahnwald (1986)"
+      }
+    },
+    {
+      "actorId": "b67b8c18195188e95201a972",
+      "character": {
+        "name": "Tronte Nielsen"
+      }
+    },
+    {
+      "actorId": "9d5c2f131aa5661a241a1fb4",
+      "character": {
+        "name": "Regina Tiedemann (1986)"
+      }
+    },
+    {
+      "actorId": "ada00c1392bd5c4ea2b51401",
+      "character": {
+        "name": "Helge Doppler (1953)"
+      }
+    },
+    {
+      "actorId": "abab75e714e3d74f3281fea5",
+      "character": {
+        "name": "Young Noah"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Future"
+    }
+  ],
+  "awards": [
+    {
+      "awardId": "26769a9739cc8860c6c61e58",
+      "nominations": [
+        {
+          "nominationId": "33edd32baf739d5d22fd0194",
+          "actorId": "a3f2c6bac605786f9f56d15a"
+        }
+      ]
+    }
+  ],
+  "year": [
+    2017,
+    2019,
+    2020
+  ],
+  "series": {
+    "episodesTotal": 24,
+    "seasons": [
+      {
+        "title": "Season 1",
+        "number": 1,
+        "episodesCount": 8
+      },
+      {
+        "title": "Season 2",
+        "number": 2,
+        "episodesCount": 8
+      },
+      {
+        "title": "Season 3",
+        "number": 3,
+        "episodesCount": 8
+      }
+    ]
+  },
+  "media": [
+    {
+      "poster": "dark.webp",
+      "trailer": "rrwycJ08PSA"
+    },
+    {
+      "poster": "dark_s2.webp",
+      "trailer": "810CHvSdXOo"
+    },
+    {
+      "poster": "dark_s3.webp",
+      "trailer": "cq2iTHoLrt0"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "In the small town of Winden, a mysterious child disappearance reveals the existence of a time loop spanning over a century. Four interconnected families uncover their past secrets as they try to unravel the mysteries of time travel and the elusive concept of the 'origin.'",
+    "As the time loop's complexities deepen, the characters navigate multiple time periods while confronting the impending apocalypse. Tensions rise, family bonds are strained, and the intricate web of time travel's consequences becomes even more convoluted.",
+    "In the final season, Winden faces its ultimate fate, and the characters must confront the origin of the time loop. Time travel takes them to different dimensions, and they strive to break the cycle to save their world from annihilation, all while exploring the timeless questions of destiny, free will, and the eternal battle between light and shadow."
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "3f1b0a5efbbb8799d036d6ca",
+  "type": [
+    "Film"
+  ],
+  "title": "Solo: A Star Wars Story",
+  "genres": [
+    "Space Western"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Ron Howard"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Jonathan Kasdan"
+        },
+        {
+          "name": "Lawrence Kasdan"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Kathleen Kennedy"
+        },
+        {
+          "name": "Allison Shearmur"
+        },
+        {
+          "name": "Simon Emanuel"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "John Powell"
+        },
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Bradford Young"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Lucasfilm",
+    "Walt Disney Pictures"
+  ],
+  "duration": 135,
+  "cast": [
+    {
+      "actorId": "52cc509a6c9554c55c03bd30",
+      "character": {
+        "name": "Han Solo"
+      }
+    },
+    {
+      "actorId": "516c73ff5c3ea993f477be5d",
+      "character": {
+        "name": "Chewbacca",
+        "imageUrl": "solo_a_star_wars_story_chewbacca.webp"
+      }
+    },
+    {
+      "actorId": "024affbe7a45ee9fc554bf76",
+      "character": {
+        "name": "Beckett"
+      }
+    },
+    {
+      "actorId": "e307bc66fc15746c172e86e6",
+      "character": {
+        "name": "Qi'ra"
+      }
+    },
+    {
+      "actorId": "1a15cd2acff9c1ac017f8ea8",
+      "character": {
+        "name": "Lando Calrissian"
+      }
+    },
+    {
+      "actorId": "e8de9cf95faeea0c9bde694c",
+      "character": {
+        "name": "Val"
+      }
+    },
+    {
+      "actorId": "ce73d0bbe3d6b70ce10745c4",
+      "character": {
+        "name": "L3-37",
+        "imageUrl": "solo_a_star_wars_story_l3-37.webp"
+      }
+    },
+    {
+      "actorId": "c20e24b955b094888df0ac50",
+      "character": {
+        "name": "Dryden Vos"
+      }
+    },
+    {
+      "actorId": "1d64586d1509495ad522cffe",
+      "character": {
+        "name": "Rio Durant"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Star Wars Universe"
+    }
+  ],
+  "budget": 375000000,
+  "boxOffice": 393000000,
+  "year": [
+    2018
+  ],
+  "media": [
+    {
+      "poster": "solo.webp",
+      "trailer": "jPEYpryMp2s"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion."
+  ],
+  "relatedTitlesKey": "0de96c347aa9f64e14fb4a83"
+}

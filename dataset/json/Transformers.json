@@ -1,0 +1,200 @@
+{
+  "id": "1845882656e5e81309a5cc05",
+  "type": [
+    "Film"
+  ],
+  "title": "Transformers",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Michael Bay"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Roberto Orci"
+        },
+        {
+          "name": "Alex Kurtzman"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Lorenzo di Bonaventura"
+        },
+        {
+          "name": "Tom DeSanto"
+        },
+        {
+          "name": "Don Murphy"
+        },
+        {
+          "name": "Ian Bryce"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Steve Jablonsky"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Mitchell Amundsen"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "DreamWorks Pictures",
+    "Paramount Pictures"
+  ],
+  "duration": 143,
+  "cast": [
+    {
+      "actorId": "24ad64557f5cc8cebf8194ae",
+      "character": {
+        "name": "Sam Witwicky"
+      }
+    },
+    {
+      "actorId": "2d02a57112e9771b788d7986",
+      "character": {
+        "name": "Mikaela Banes"
+      }
+    },
+    {
+      "actorId": "34f40d0622d31ef4d6a23aa0",
+      "character": {
+        "name": "Captain Lennox"
+      }
+    },
+    {
+      "actorId": "643d66647de43eba364eb216",
+      "character": {
+        "name": "Epps"
+      }
+    },
+    {
+      "actorId": "c6ea2f74962fb0d8efc54c6c",
+      "character": {
+        "name": "Maggie Madsen"
+      }
+    },
+    {
+      "actorId": "f23671f83563e56b8596b493",
+      "character": {
+        "name": "Glen Whitmann"
+      }
+    },
+    {
+      "actorId": "4062c88e25a90d128bb324fa",
+      "character": {
+        "name": "John Keller"
+      }
+    },
+    {
+      "actorId": "a830e599d126640fa1f7bb3b",
+      "character": {
+        "name": "Agent Simmons"
+      }
+    },
+    {
+      "actorId": "c8535012fe7ed7ca107c0fe2",
+      "character": {
+        "name": "Optimus Prime",
+        "imageUrl": "transformers_optimus_prime.webp"
+      }
+    },
+    {
+      "actorId": "b4f3568b7522d6badf6b1deb",
+      "character": {
+        "name": "Bumblebee",
+        "imageUrl": "transformers_bumblebee.webp"
+      }
+    },
+    {
+      "actorId": "9d72ccad0a0c60872b91d2d3",
+      "character": {
+        "name": "Megatron",
+        "imageUrl": "transformers_megatron.webp"
+      }
+    },
+    {
+      "actorId": "03174db7449d0dd396695b2f",
+      "character": {
+        "name": "Frenzy",
+        "imageUrl": "transformers_frenzy.webp"
+      }
+    },
+    {
+      "actorId": "7c75da9052faf46cbe5bf773",
+      "character": {
+        "name": "Starscream",
+        "imageUrl": "transformers_starscream.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Robots"
+    }
+  ],
+  "budget": 150000000,
+  "awards": [
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "16a4df15595684906961ec92"
+        }
+      ]
+    },
+    {
+      "awardId": "539b7c0eaba8eec432e9e48e",
+      "nominations": [
+        {
+          "nominationId": "614cd93680e162a7cae6b394"
+        },
+        {
+          "nominationId": "da9059da21e5adb0eafc94b2"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 710000000,
+  "year": [
+    2007
+  ],
+  "media": [
+    {
+      "poster": "transformers_1.webp",
+      "trailer": "dxQxgAfNzyE"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager."
+  ],
+  "relatedTitlesKey": "12b3854c2936b95c086fdd68"
+}

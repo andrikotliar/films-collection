@@ -1,0 +1,179 @@
+{
+  "id": "5a860a3f7c79fcabd4deb8d3",
+  "type": [
+    "Series"
+  ],
+  "title": "Hawkeye",
+  "genres": [
+    "Action",
+    "Crime"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Rhys Thomas",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Bert",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Bertie",
+          "comment": "3 episodes"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Jonathan Igla",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Elisa Lomnitz Climent",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Katrina Mathewson",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Erin Cancino",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Jenna Noel Frazier",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Tanner Bean",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Heather Quinn",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        },
+        {
+          "name": "Trinh Tran"
+        },
+        {
+          "name": "Rhys Thomas"
+        },
+        {
+          "name": "Jonathan Igla"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Christophe Beck"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Eric Steelberg"
+        },
+        {
+          "name": "James Whitaker"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Marvel Studios"
+  ],
+  "duration": 360,
+  "cast": [
+    {
+      "actorId": "333fe7873ab5451125a195a7",
+      "character": {
+        "name": "Clint Barton / Hawkeye"
+      }
+    },
+    {
+      "actorId": "7e009e344b1d17321f88e62c",
+      "character": {
+        "name": "Kate Bishop"
+      }
+    },
+    {
+      "actorId": "4d9ebb504814bd783fb0e707",
+      "character": {
+        "name": " Eleanor Bishop"
+      }
+    },
+    {
+      "actorId": "59010c8a0e57080b6a621f11",
+      "character": {
+        "name": " Jack Duquesne"
+      }
+    },
+    {
+      "actorId": "f16348442673be82b658229e",
+      "character": {
+        "name": "Kazi"
+      }
+    },
+    {
+      "actorId": "b1aad48c9f2cf042b32a79ab",
+      "character": {
+        "name": "Maya Lopez / Echo"
+      }
+    },
+    {
+      "actorId": "46281b634ba77b5a747dfaa0",
+      "character": {
+        "name": "Kingpin"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "year": [
+    2021
+  ],
+  "series": {
+    "episodesTotal": 6,
+    "seasons": [
+      {
+        "title": "Season 1",
+        "number": 1,
+        "episodesCount": 6
+      }
+    ]
+  },
+  "media": [
+    {
+      "poster": "hawkeye.webp",
+      "trailer": "5VYb3B1ETlk"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate M. Bishop, who took on the role after the original Avenger, Clint Barton."
+  ],
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+}

@@ -3,12 +3,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "generate:db": "node --no-warnings ./utils/generate-db",
-    "dev": "npm run generate:db && vite",
-    "build": "npm run generate:db && tsc && vite build",
+    "dev": "npm run dataset:generate && vite",
+    "build": "npm run dataset:generate && tsc && vite build",
     "preview": "vite preview",
-    "prettier": "prettier ./src/**/*.{tsx,ts} --write",
-    "update:bulk": "node --no-warnings ./utils/bulk-update write"
+    "dataset:generate": "node --no-warnings ./utils/generate-dataset",
+    "dataset:update": "node --no-warnings ./utils/update-dataset",
+    "dataset:process": "node --no-warnings ./utils/process-data"
   },
   "dependencies": {
     "axios": "^1.6.8",

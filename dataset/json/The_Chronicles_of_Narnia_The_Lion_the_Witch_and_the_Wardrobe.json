@@ -1,0 +1,181 @@
+{
+  "id": "a2e635b184b4196ea5fe44f7",
+  "type": [
+    "Film"
+  ],
+  "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Andrew Adamson"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Ann Peacock"
+        },
+        {
+          "name": "Andrew Adamson"
+        },
+        {
+          "name": "Christopher Markus"
+        },
+        {
+          "name": "Stephen McFeely"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Mark Johnson"
+        },
+        {
+          "name": "Phillip Steuer"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Harry Gregson-Williams"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Donald McAlpine"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "UK",
+    "USA"
+  ],
+  "production": [
+    "Walt Disney Pictures"
+  ],
+  "duration": 145,
+  "cast": [
+    {
+      "actorId": "6dd8a995cd5e87e690ecc3ac",
+      "character": {
+        "name": "Lucy Pevensie"
+      }
+    },
+    {
+      "actorId": "01194dbf406f3663fcba0c6e",
+      "character": {
+        "name": "Edmund Pevensie"
+      }
+    },
+    {
+      "actorId": "d47f16dc3be1dad91d3863a9",
+      "character": {
+        "name": "Peter Pevensie"
+      }
+    },
+    {
+      "actorId": "88db173cc499403e6f33e746",
+      "character": {
+        "name": "Susan Pevensie"
+      }
+    },
+    {
+      "actorId": "f374f4f88b7457cf966ef58c",
+      "character": {
+        "name": "White Witch"
+      }
+    },
+    {
+      "actorId": "1fbb6ff101ef506a0bf61497",
+      "character": {
+        "name": "Mr. Tumnus"
+      }
+    },
+    {
+      "actorId": "1c5eeaeb86ef47e50b94444b",
+      "character": {
+        "name": "Professor Kirke"
+      }
+    },
+    {
+      "actorId": "017e02072132c3a7ad26b56e",
+      "character": {
+        "name": "Aslan"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Fantasy Worlds"
+    }
+  ],
+  "budget": 180000000,
+  "awards": [
+    {
+      "awardId": "77f4fba8c4801f32a6bd8f39",
+      "nominations": [
+        {
+          "nominationId": "7287c709ee7e31f93728502a"
+        }
+      ]
+    },
+    {
+      "awardId": "f5ca20c5b015eafd0cb84b95",
+      "nominations": [
+        {
+          "nominationId": "0ee59417763a7accdac33a14"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "c00b7ee9feab1e1e748a7f82"
+        },
+        {
+          "nominationId": "f0ab91bd2921e0bd31fb500b"
+        }
+      ]
+    },
+    {
+      "awardId": "083e0a9c6cad4b02c0d5772b",
+      "nominations": [
+        {
+          "nominationId": "2adf3660a95c0369d0b55985"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 745000000,
+  "year": [
+    2005
+  ],
+  "media": [
+    {
+      "poster": "narnia_1.webp",
+      "trailer": "lWKj41HZBzM"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion."
+  ],
+  "relatedTitlesKey": "2039379e6200a04af6a89124"
+}

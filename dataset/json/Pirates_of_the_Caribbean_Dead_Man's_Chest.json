@@ -1,0 +1,169 @@
+{
+  "id": "4614f68d59122fe5c05f9803",
+  "type": [
+    "Film"
+  ],
+  "title": "Pirates of the Caribbean: Dead Man's Chest",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Gore Verbinski"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Ted Elliott"
+        },
+        {
+          "name": "Terry Rossio"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Jerry Bruckheimer"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Dariusz Wolski"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Jerry Bruckheimer Films"
+  ],
+  "duration": 150,
+  "cast": [
+    {
+      "actorId": "22f4885dc5c22c8371ad2a3a",
+      "character": {
+        "name": "Captain Jack Sparrow",
+        "imageUrl": "pirates_of_the_caribbean_dead_man_s_chest_captain_jack_sparrow.webp"
+      }
+    },
+    {
+      "actorId": "450fa3d27820892d0f5afa0c",
+      "character": {
+        "name": "Will Turner"
+      }
+    },
+    {
+      "actorId": "b824178140c71e44c378864f",
+      "character": {
+        "name": "Elizabeth Swann"
+      }
+    },
+    {
+      "actorId": "e6cbdb90f81bf47f47288818",
+      "character": {
+        "name": "Norrington"
+      }
+    },
+    {
+      "actorId": "8802990a47013f3cf0bd6332",
+      "character": {
+        "name": "Davy Jones",
+        "imageUrl": "pirates_of_the_caribbean_dead_man_s_chest_davy_jones.webp"
+      }
+    },
+    {
+      "actorId": "bbaf8ea10b5f80e21292406d",
+      "character": {
+        "name": "Cutler Beckett"
+      }
+    },
+    {
+      "actorId": "b482300071bcd1f1f586e95e",
+      "character": {
+        "name": "Governor Weatherby Swann"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Fantasy Worlds"
+    }
+  ],
+  "budget": 225000000,
+  "awards": [
+    {
+      "awardId": "77f4fba8c4801f32a6bd8f39",
+      "nominations": [
+        {
+          "nominationId": "60c5a2ad60d50a27cbf6ca22"
+        }
+      ]
+    },
+    {
+      "awardId": "f5ca20c5b015eafd0cb84b95",
+      "nominations": [
+        {
+          "nominationId": "bc0ac0796a867cf1708fef75"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "16a4df15595684906961ec92"
+        }
+      ]
+    },
+    {
+      "awardId": "539b7c0eaba8eec432e9e48e",
+      "nominations": [
+        {
+          "nominationId": "614cd93680e162a7cae6b394"
+        },
+        {
+          "nominationId": "d72771fa15e0eb9b00b39634",
+          "actorId": "22f4885dc5c22c8371ad2a3a"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 1100000000,
+  "year": [
+    2006
+  ],
+  "media": [
+    {
+      "poster": "pirates_2.webp",
+      "trailer": "ozk0-RHXtFw"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well."
+  ],
+  "relatedTitlesKey": "7d2478e857e3c4c85a85be7d"
+}

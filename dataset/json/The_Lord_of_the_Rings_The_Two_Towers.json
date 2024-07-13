@@ -1,0 +1,262 @@
+{
+  "id": "572cc7cd3accc2f7d80adc3d",
+  "type": [
+    "Film"
+  ],
+  "title": "The Lord of the Rings: The Two Towers",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Peter Jackson"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Fran Walsh"
+        },
+        {
+          "name": "Philippa Boyens"
+        },
+        {
+          "name": "Peter Jackson"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Peter Jackson"
+        },
+        {
+          "name": "Fran Walsh"
+        },
+        {
+          "name": "Barrie M. Osborne"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Howard Shore"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Andrew Lesnie"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA",
+    "New Zealand"
+  ],
+  "production": [
+    "New Line Cinema"
+  ],
+  "duration": 179,
+  "cast": [
+    {
+      "actorId": "afed96df0db76b317cb36711",
+      "character": {
+        "name": "Frodo Baggins"
+      }
+    },
+    {
+      "actorId": "aa9b2474d8c4c51e34160de8",
+      "character": {
+        "name": "Gandalf"
+      }
+    },
+    {
+      "actorId": "93637b8d05eb8514a37ff349",
+      "character": {
+        "name": "Samwise Gamgee"
+      }
+    },
+    {
+      "actorId": "e1ff919254c44052867479fb",
+      "character": {
+        "name": "Aragorn"
+      }
+    },
+    {
+      "actorId": "2555ed16eef45d9015e8aa02",
+      "character": {
+        "name": "Gimli"
+      }
+    },
+    {
+      "actorId": "450fa3d27820892d0f5afa0c",
+      "character": {
+        "name": "Legolas"
+      }
+    },
+    {
+      "actorId": "7a354da5768fef2be29583f0",
+      "character": {
+        "name": "Galadriel"
+      }
+    },
+    {
+      "actorId": "2a43e11179268a30eac292b2",
+      "character": {
+        "name": "Saruman"
+      }
+    },
+    {
+      "actorId": "9d72ccad0a0c60872b91d2d3",
+      "character": {
+        "name": "Elrond"
+      }
+    },
+    {
+      "actorId": "e5253cdc8c1fb87953720d64",
+      "character": {
+        "name": "Gollum",
+        "imageUrl": "the_lord_of_the_rings_the_two_towers_gollum"
+      }
+    },
+    {
+      "actorId": "073830510a0bae3dde5820c2",
+      "character": {
+        "name": "Eomer"
+      }
+    },
+    {
+      "actorId": "1e6f63ac26841c5c35756f43",
+      "character": {
+        "name": "Eowyn"
+      }
+    },
+    {
+      "actorId": "fbd425127f3664acfe49428a",
+      "character": {
+        "name": "Boromir"
+      }
+    },
+    {
+      "actorId": "ce9f35f697acd8a8d4ac4242",
+      "character": {
+        "name": "Pippin"
+      }
+    },
+    {
+      "actorId": "d981869f14315c851cdcb1dd",
+      "character": {
+        "name": "Merry"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Middle-Earth Universe"
+    }
+  ],
+  "budget": 94000000,
+  "awards": [
+    {
+      "awardId": "77f4fba8c4801f32a6bd8f39",
+      "nominations": [
+        {
+          "nominationId": "9447427b8f2dc69e102c9eb2"
+        },
+        {
+          "nominationId": "820d2a55172a2460be8ccdcf"
+        }
+      ]
+    },
+    {
+      "awardId": "f5ca20c5b015eafd0cb84b95",
+      "nominations": [
+        {
+          "nominationId": "c589eec698f8b1ed198d0d38"
+        },
+        {
+          "nominationId": "bc0ac0796a867cf1708fef75"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "b494656df6bbe28f74b4ae67",
+          "comment": "Extended Edition"
+        },
+        {
+          "nominationId": "4fd7ee01f8d451629aa882d4"
+        },
+        {
+          "nominationId": "3c0a856a745ad6ae83986a5c",
+          "actorId": "e5253cdc8c1fb87953720d64"
+        },
+        {
+          "nominationId": "9e2b1750e0ee636e7d28f4a8"
+        },
+        {
+          "nominationId": "f0ab91bd2921e0bd31fb500b"
+        }
+      ]
+    },
+    {
+      "awardId": "539b7c0eaba8eec432e9e48e",
+      "nominations": [
+        {
+          "nominationId": "614cd93680e162a7cae6b394"
+        },
+        {
+          "nominationId": "25758210e1b61fdd265c55d7",
+          "comment": "Elijah Wood and Sean Astion"
+        },
+        {
+          "nominationId": "7cd6d22c66f01312b151073f",
+          "comment": "Gollum"
+        },
+        {
+          "nominationId": "acd9c13a712776ce89882310",
+          "comment": "The battle for Helms Deep"
+        }
+      ]
+    },
+    {
+      "awardId": "083e0a9c6cad4b02c0d5772b",
+      "nominations": [
+        {
+          "nominationId": "85e27dfc33eed4b9d24fb8f8",
+          "comment": "Gollum"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 926000000,
+  "year": [
+    2002
+  ],
+  "media": [
+    {
+      "poster": "middle_earth_5.webp",
+      "trailer": "LbfMDwc4azU"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
+  ],
+  "relatedTitlesKey": "148895975f95315e06a7cc17"
+}

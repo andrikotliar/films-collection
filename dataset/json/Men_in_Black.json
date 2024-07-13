@@ -1,0 +1,142 @@
+{
+  "id": "679872e08a319a16e8f0d2fb",
+  "type": [
+    "Film"
+  ],
+  "title": "Men in Black",
+  "genres": [
+    "Sci-Fi",
+    "Action",
+    "Comedy"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Barry Sonnenfeld"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Ed Solomon"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Walter F. Parkes"
+        },
+        {
+          "name": "Laurie MacDonald"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Danny Elfman"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Don Peterman"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Columbia Pictures"
+  ],
+  "duration": 98,
+  "cast": [
+    {
+      "actorId": "585bc630dfa836dd72779c8d",
+      "character": {
+        "name": "Agent Kay"
+      }
+    },
+    {
+      "actorId": "b59613245389fb066c309182",
+      "character": {
+        "name": "Agent Jay"
+      }
+    },
+    {
+      "actorId": "c77c28e2e76d0e04c9466729",
+      "character": {
+        "name": "Laurel"
+      }
+    },
+    {
+      "actorId": "46281b634ba77b5a747dfaa0",
+      "character": {
+        "name": "Edgar"
+      }
+    },
+    {
+      "actorId": "c9bd0790a6a1140723691088",
+      "character": {
+        "name": "Z"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Invasion"
+    }
+  ],
+  "budget": 90000000,
+  "awards": [
+    {
+      "awardId": "77f4fba8c4801f32a6bd8f39",
+      "nominations": [
+        {
+          "nominationId": "f4b44821da64dc4fbc66bce4"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "f31c4bc0fe743c5a0c8835c5"
+        },
+        {
+          "nominationId": "3c0a856a745ad6ae83986a5c",
+          "actorId": "46281b634ba77b5a747dfaa0"
+        },
+        {
+          "nominationId": "c730b8e47577f01574e9a302"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 589000000,
+  "year": [
+    1997
+  ],
+  "media": [
+    {
+      "poster": "mib_1.webp",
+      "trailer": "1Q4mhYF9aQQ"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth."
+  ],
+  "relatedTitlesKey": "821493c59c822fff3c691354"
+}

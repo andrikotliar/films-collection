@@ -1,0 +1,156 @@
+{
+  "id": "618d25a6605df91cb0d7fc83",
+  "type": [
+    "Film"
+  ],
+  "title": "Spider-Man 2",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Sam Raimi"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Alvin Sargent"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Avi Arad"
+        },
+        {
+          "name": "Laura Ziskin"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Danny Elfman"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Bill Pope"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Columbia Pictures",
+    "Marvel Enterprises"
+  ],
+  "duration": 127,
+  "cast": [
+    {
+      "actorId": "65694e39d2799267ae4a2adf",
+      "character": {
+        "name": "Spider-Man / Peter Parker",
+        "imageUrl": "spider_man_2_spider-man.webp"
+      }
+    },
+    {
+      "actorId": "c70aa327b237efbbee19c181",
+      "character": {
+        "name": "Doc Ock / Dr. Otto Octavius",
+        "imageUrl": "spider_man_2_doc_ock.webp"
+      }
+    },
+    {
+      "actorId": "1a56afd931fe087b7c4de4c1",
+      "character": {
+        "name": "Mary Jane Watson"
+      }
+    },
+    {
+      "actorId": "03004ad337f0cc1d674180f4",
+      "character": {
+        "name": "Harry Osborn"
+      }
+    },
+    {
+      "actorId": "f6edab1f2bdab7e504be7dcc",
+      "character": {
+        "name": "May Parker"
+      }
+    },
+    {
+      "actorId": "03293ef86c8bf352c9dd52f4",
+      "character": {
+        "name": "J. Jonah Jameson"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Superheroes"
+    }
+  ],
+  "budget": 200000000,
+  "awards": [
+    {
+      "awardId": "77f4fba8c4801f32a6bd8f39",
+      "nominations": [
+        {
+          "nominationId": "60c5a2ad60d50a27cbf6ca22"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "4fd7ee01f8d451629aa882d4"
+        },
+        {
+          "nominationId": "6e270264df618619fd4130b7",
+          "actorId": "65694e39d2799267ae4a2adf"
+        },
+        {
+          "nominationId": "833a98ad422e5573235b6bb2"
+        },
+        {
+          "nominationId": "db683c1cbeb67c83bd1425c2"
+        },
+        {
+          "nominationId": "16a4df15595684906961ec92"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 789000000,
+  "year": [
+    2004
+  ],
+  "media": [
+    {
+      "poster": "raimi_spider_man_2.webp",
+      "trailer": "1s9Yln0YwCw"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius."
+  ],
+  "relatedTitlesKey": "d1fa1cd43ac95f43d14d0650"
+}

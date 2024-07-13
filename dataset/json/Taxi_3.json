@@ -1,0 +1,133 @@
+{
+  "id": "1d3cf14152a8b8f7052564bf",
+  "type": [
+    "Film"
+  ],
+  "title": "Taxi 3",
+  "genres": [
+    "Comedy"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Gérard Krawczyk"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Luc Besson"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Luc Besson"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "DJ Kore"
+        },
+        {
+          "name": "DJ Skalp"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "G'rard Sterin"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "LionsGate Entertainment"
+  ],
+  "duration": 84,
+  "cast": [
+    {
+      "actorId": "1562657477b61c61b09e2013",
+      "character": {
+        "name": "Daniel Morales"
+      }
+    },
+    {
+      "actorId": "2d4bdb7694904d6306f88c60",
+      "character": {
+        "name": "Emilien Coutant-Kerbalec"
+      }
+    },
+    {
+      "actorId": "93c6ee912f305fb6262c4193",
+      "character": {
+        "name": "Commissaire Gibert"
+      }
+    },
+    {
+      "actorId": "62e3489f527b7ba77d0ac1df",
+      "character": {
+        "name": "Qiu"
+      }
+    },
+    {
+      "actorId": "6c01bf2cd78f2e647db57ea3",
+      "character": {
+        "name": "Alain"
+      }
+    },
+    {
+      "actorId": "89bf38a77867220d59546816",
+      "character": {
+        "name": "General Edmond Bertineau"
+      }
+    },
+    {
+      "actorId": "69edd5228a1c567011c094fe",
+      "character": {
+        "name": "Petra"
+      }
+    },
+    {
+      "actorId": "6e287749f98b9217ea2ceb27",
+      "character": {
+        "name": "Lilly Bertineau"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Cars"
+    }
+  ],
+  "budget": 14000000,
+  "boxOffice": 64000000,
+  "year": [
+    2003
+  ],
+  "media": [
+    {
+      "poster": "taxi_3.webp",
+      "trailer": "XLP-rf3dHOQ"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Out to stop a new gang disguised as Santa Claus, Emilien and Daniel must also handle major changes in their personal relationships."
+  ],
+  "relatedTitlesKey": "e4250279694fbcf5a7ba81c4"
+}

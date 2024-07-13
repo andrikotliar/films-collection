@@ -1,0 +1,243 @@
+{
+  "id": "d61a2a5f9f7fd7b09016eb52",
+  "type": [
+    "Film"
+  ],
+  "title": "Black Panther",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Ryan Coogler"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Ryan Coogler"
+        },
+        {
+          "name": "Joe Robert Cole"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Ludwig Gцransson"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Rachel Morrison"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Walt Disney Pictures",
+    "Marvel Studios"
+  ],
+  "duration": 134,
+  "cast": [
+    {
+      "actorId": "085fd1ea78f56539824d7714",
+      "character": {
+        "name": "T'Challa / Black Panther",
+        "imageUrl": "black_panther_t_challa"
+      }
+    },
+    {
+      "actorId": "d278b95bbcdb159e239c7757",
+      "character": {
+        "name": "Erik Killmonger"
+      }
+    },
+    {
+      "actorId": "4df990e459cdd192712d9a9f",
+      "character": {
+        "name": "Nakia"
+      }
+    },
+    {
+      "actorId": "213ec6c0ba4ad6d754456ff9",
+      "character": {
+        "name": "Okoye"
+      }
+    },
+    {
+      "actorId": "706bad1f2278f02cd543a7a2",
+      "character": {
+        "name": "Everett K. Ross"
+      }
+    },
+    {
+      "actorId": "09f81677668b6857a9b63d1e",
+      "character": {
+        "name": "W'Kabi"
+      }
+    },
+    {
+      "actorId": "06a5d24dd22d7ab9813f2aff",
+      "character": {
+        "name": "Shuri"
+      }
+    },
+    {
+      "actorId": "f3200b667f548526f4ca9885",
+      "character": {
+        "name": "M'Baku"
+      }
+    },
+    {
+      "actorId": "022ac8e2c1e117ab955ac8c8",
+      "character": {
+        "name": "N'Jobu"
+      }
+    },
+    {
+      "actorId": "f1f774fa206392544965b787",
+      "character": {
+        "name": "Ramonda"
+      }
+    },
+    {
+      "actorId": "12d4eae94b34820e9c78b4ca",
+      "character": {
+        "name": "Zuri"
+      }
+    },
+    {
+      "actorId": "e5253cdc8c1fb87953720d64",
+      "character": {
+        "name": "Ulysses Klaue"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Marvel Cinematic Universe"
+    }
+  ],
+  "budget": 200000000,
+  "awards": [
+    {
+      "awardId": "77f4fba8c4801f32a6bd8f39",
+      "nominations": [
+        {
+          "nominationId": "09de653daca9a5839638e20f"
+        },
+        {
+          "nominationId": "1424ab8531c3e4dd93c2fcda"
+        },
+        {
+          "nominationId": "bf90abbb366c97d246f21e91"
+        }
+      ]
+    },
+    {
+      "awardId": "f5ca20c5b015eafd0cb84b95",
+      "nominations": [
+        {
+          "nominationId": "bc0ac0796a867cf1708fef75"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "49f9eaedda92c9e5d6d676b3"
+        },
+        {
+          "nominationId": "833a98ad422e5573235b6bb2"
+        },
+        {
+          "nominationId": "83e32b8f54b88830a08e38eb",
+          "comment": "as Okoye",
+          "actorId": "213ec6c0ba4ad6d754456ff9"
+        },
+        {
+          "nominationId": "12ea16d32c5b60a1eaa2e6af"
+        },
+        {
+          "nominationId": "f0ab91bd2921e0bd31fb500b"
+        }
+      ]
+    },
+    {
+      "awardId": "539b7c0eaba8eec432e9e48e",
+      "nominations": [
+        {
+          "nominationId": "53d156002961b98bd60f30d6"
+        },
+        {
+          "nominationId": "c0aed387af4ee8e124ce1738",
+          "comment": "as Black Panther",
+          "actorId": "085fd1ea78f56539824d7714"
+        },
+        {
+          "nominationId": "56be8a980921154911b256df",
+          "comment": "as Black Panther",
+          "actorId": "085fd1ea78f56539824d7714"
+        },
+        {
+          "nominationId": "ec57f6aed9ca57977e1e6d30",
+          "comment": "as Erik Killmonger",
+          "actorId": "d278b95bbcdb159e239c7757"
+        }
+      ]
+    },
+    {
+      "awardId": "083e0a9c6cad4b02c0d5772b",
+      "nominations": [
+        {
+          "nominationId": "db1bd47a7280b6e1da42bc99"
+        },
+        {
+          "nominationId": "8cec7d33c8e39980b2c593ec"
+        },
+        {
+          "nominationId": "221feda7e314a781d979068c"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 1350000000,
+  "year": [
+    2018
+  ],
+  "media": [
+    {
+      "poster": "black_panther.webp",
+      "trailer": "xjDjIWPwcPU"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "After the death of his father, Prince T'Challa ascends to the throne of the small African country of Wakanda. T'Challa is also Black Panther, superhero. Now not only must he govern his country but defeat a dangerous adversary."
+  ],
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+}

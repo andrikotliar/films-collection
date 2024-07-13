@@ -1,0 +1,140 @@
+{
+  "id": "08dec0134ed88753b096d937",
+  "type": [
+    "Film"
+  ],
+  "title": "The Maze Runner: The Death Cure",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Wes Ball"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "T.S. Nowlin"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Marty Bowen"
+        },
+        {
+          "name": "Wyck Godfrey"
+        },
+        {
+          "name": "Ellen Goldsmith-Vein"
+        },
+        {
+          "name": "Lee Stollman"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "John Paesano"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Gyula Pados"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "duration": 143,
+  "cast": [
+    {
+      "actorId": "8e204b8e5e38fbae1fe008a4",
+      "character": {
+        "name": "Thomas"
+      }
+    },
+    {
+      "actorId": "d89b2eaf6097bb037c6d8ca0",
+      "character": {
+        "name": "Teresa"
+      }
+    },
+    {
+      "actorId": "4ee52e26623792a1c498ac41",
+      "character": {
+        "name": "Newt"
+      }
+    },
+    {
+      "actorId": "c4c83bf5a6e512ae8f39d75a",
+      "character": {
+        "name": "Minho"
+      }
+    },
+    {
+      "actorId": "ab00e4478a98a3b3c576c834",
+      "character": {
+        "name": "Janson"
+      }
+    },
+    {
+      "actorId": "4460a7c81280abd897d97d32",
+      "character": {
+        "name": "Jorge"
+      }
+    },
+    {
+      "actorId": "faf06750d96e099e22deea05",
+      "character": {
+        "name": "Brenda"
+      }
+    },
+    {
+      "actorId": "f88ba806540e968863c214e3",
+      "character": {
+        "name": "Gally"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Dystopia"
+    }
+  ],
+  "budget": 62000000,
+  "boxOffice": 288000000,
+  "year": [
+    2018
+  ],
+  "media": [
+    {
+      "poster": "maze_runner_3.webp",
+      "trailer": "4-BTxXm8KSg"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Young hero Thomas embarks on a mission to find a cure for a deadly disease known as \"The Flare\"."
+  ],
+  "relatedTitlesKey": "bc33d14754daed641df7a296"
+}

@@ -1,0 +1,136 @@
+{
+  "id": "e7b7424d35b7dc6401b9d37e",
+  "type": [
+    "Film"
+  ],
+  "title": "I, Robot",
+  "genres": [
+    "Sci-Fi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Alex Proyas"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Jeff Vintar"
+        },
+        {
+          "name": "Akiva Goldsman"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Laurence Mark"
+        },
+        {
+          "name": "John Davis"
+        },
+        {
+          "name": "Topher Dow"
+        },
+        {
+          "name": "Wyck Godfrey"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Marco Beltrami"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Simon Duggan"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "duration": 115,
+  "cast": [
+    {
+      "actorId": "b59613245389fb066c309182",
+      "character": {
+        "name": "Del Spooner"
+      }
+    },
+    {
+      "actorId": "86b08307a14686fa649c9ce7",
+      "character": {
+        "name": "Susan Calvin"
+      }
+    },
+    {
+      "actorId": "a5c580aab49791a22e7f3b74",
+      "character": {
+        "name": "Sonny",
+        "imageUrl": "i_robot_sonny.webp"
+      }
+    },
+    {
+      "actorId": "7d0b7886d84ec7044be466c2",
+      "character": {
+        "name": "Dr. Alfred Lanning"
+      }
+    },
+    {
+      "actorId": "c96b8477b5c3f80695fd2d0e",
+      "character": {
+        "name": "Lawrence Robertson"
+      }
+    },
+    {
+      "actorId": "edad30aff236208021f6695b",
+      "character": {
+        "name": "V.I.K.I.",
+        "imageUrl": "i_robot_viki.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Robots"
+    },
+    {
+      "title": "Top 10",
+      "order": 5
+    }
+  ],
+  "budget": 120000000,
+  "boxOffice": 347000000,
+  "year": [
+    2004
+  ],
+  "media": [
+    {
+      "poster": "i_robot.webp",
+      "trailer": "rL6RRIOZyCM"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity."
+  ]
+}

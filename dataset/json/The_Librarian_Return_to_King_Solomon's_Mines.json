@@ -1,0 +1,136 @@
+{
+  "id": "6a7a1682c8cbed48f1965ce1",
+  "type": [
+    "Film"
+  ],
+  "title": "The Librarian: Return to King Solomon's Mines",
+  "genres": [
+    "Adventures",
+    "Fantasy"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Jonathan Frakes"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Marco Schnabel"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Michael S. Murphey"
+        },
+        {
+          "name": "Noah Wyle"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Joseph LoDuca"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Walt Lloyd"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "TNT"
+  ],
+  "duration": 95,
+  "cast": [
+    {
+      "actorId": "5682aa234be8275828a251fd",
+      "character": {
+        "name": "Flynn Carsen"
+      }
+    },
+    {
+      "actorId": "8d08c0636b2536d2af407514",
+      "character": {
+        "name": "Emily Davenport"
+      }
+    },
+    {
+      "actorId": "c7d1e2a7bc4468f9de40f667",
+      "character": {
+        "name": "Judson"
+      }
+    },
+    {
+      "actorId": "ddef35144525bb2d00be1e2d",
+      "character": {
+        "name": "Charlene"
+      }
+    },
+    {
+      "actorId": "3ba6b72ed4ed8ba89ca219e0",
+      "character": {
+        "name": "General Samir"
+      }
+    },
+    {
+      "actorId": "86097f701d739edbb18eca3e",
+      "character": {
+        "name": "Jomo"
+      }
+    },
+    {
+      "actorId": "59a5879997110526cddf0687",
+      "character": {
+        "name": "Tommy Yellow Hawk"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Mysteries of the Past"
+    }
+  ],
+  "awards": [
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "74d359e81c5119158bd12c06"
+        }
+      ]
+    }
+  ],
+  "year": [
+    2006
+  ],
+  "media": [
+    {
+      "poster": "librarian_2.webp",
+      "trailer": "ansvc2Muxr0"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "Librarian-turned-adventurer Flynn Carsen endeavors to find King Solomon's mines."
+  ],
+  "relatedTitlesKey": "4eeabb329f07f4eb238a45d8"
+}

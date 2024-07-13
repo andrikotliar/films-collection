@@ -1,0 +1,114 @@
+{
+  "id": "d758d5cd47b08b64dbb5d553",
+  "type": [
+    "Animation"
+  ],
+  "title": "How to Train Your Dragon: The Hidden World",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Dean DeBlois"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Dean DeBlois"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Bonnie Amold"
+        },
+        {
+          "name": "Brad Lewis"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "John Powell"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "DreamWorks Animation",
+    "Universal Pictures"
+  ],
+  "duration": 104,
+  "cast": [
+    {
+      "actorId": "a7d35039857e23987e0e044c",
+      "character": {
+        "name": "Hiccup",
+        "imageUrl": "how_to_train_your_dragon_the_hidden_world_hiccup.webp"
+      }
+    },
+    {
+      "actorId": "6c95d5ee7e91ad5d5e781165",
+      "character": {
+        "name": "Astrid ",
+        "imageUrl": "how_to_train_your_dragon_the_hidden_world_astrid.webp"
+      }
+    },
+    {
+      "actorId": "220fe3aec36d9185f6ff5add",
+      "character": {
+        "name": "Grimmel ",
+        "imageUrl": "how_to_train_your_dragon_the_hidden_world_grimmel.webp"
+      }
+    },
+    {
+      "actorId": "d547995ac733ce40226af91f",
+      "character": {
+        "name": "Gobber ",
+        "imageUrl": "how_to_train_your_dragon_the_hidden_world_gobber.webp"
+      }
+    },
+    {
+      "actorId": "6aa92fa181848669babe20bb",
+      "character": {
+        "name": "Eret ",
+        "imageUrl": "how_to_train_your_dragon_the_hidden_world_eret.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Fantasy Worlds"
+    }
+  ],
+  "budget": 129000000,
+  "boxOffice": 443000000,
+  "year": [
+    2019
+  ],
+  "media": [
+    {
+      "poster": "how_to_train_your_dragon_3.webp",
+      "trailer": "SkcucKDrbOI"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "When Hiccup discovers Toothless isn't the only Night Fury, he must seek \"The Hidden World\", a secret Dragon Utopia before a hired tyrant named Grimmel finds it first."
+  ],
+  "relatedTitlesKey": "505ca8ef309447d9fcfc78d7"
+}

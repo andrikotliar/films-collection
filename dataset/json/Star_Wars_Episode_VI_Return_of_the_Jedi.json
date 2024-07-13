@@ -1,0 +1,180 @@
+{
+  "id": "582e2f41938a56e0d73b2b07",
+  "type": [
+    "Film"
+  ],
+  "title": "Star Wars Episode VI: Return of the Jedi",
+  "genres": [
+    "SpaceOpera",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Richard Marquand"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "George Lucas"
+        },
+        {
+          "name": "Lawrence Kasdan"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Howard Kazanjian"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Alan Hume"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "20th Century FOX",
+    "Lucasfilm"
+  ],
+  "duration": 131,
+  "cast": [
+    {
+      "actorId": "ce132ddc9f8b5434251efcdb",
+      "character": {
+        "name": "Luke Skywalker"
+      }
+    },
+    {
+      "actorId": "90204450e3ebdb007d478280",
+      "character": {
+        "name": "Han Solo"
+      }
+    },
+    {
+      "actorId": "7d2b5a0e06b8a95e8c3f208f",
+      "character": {
+        "name": "Leia"
+      }
+    },
+    {
+      "actorId": "528c03b054894ba83b338296",
+      "character": {
+        "name": "Lando Calrissian"
+      }
+    },
+    {
+      "actorId": "8495e822d070b57837e0bf6e",
+      "character": {
+        "name": "C-3PO",
+        "imageUrl": "star_wars_episode_vi_return_of_the_jedi_c-3po.webp"
+      }
+    },
+    {
+      "actorId": "3dcb844bcfc2544762ec44c0",
+      "character": {
+        "name": "Darth Vader",
+        "imageUrl": "star_wars_episode_vi_return_of_the_jedi_darth_vader.webp"
+      }
+    },
+    {
+      "actorId": "6fa14a3731b9660353c41487",
+      "character": {
+        "name": "Yoda",
+        "imageUrl": "star_wars_episode_vi_return_of_the_jedi_yoda.webp"
+      }
+    },
+    {
+      "actorId": "cefae971d17a334057ad7c60",
+      "character": {
+        "name": "Boba Fett",
+        "imageUrl": "star_wars_episode_vi_return_of_the_boba_fett.webp"
+      }
+    },
+    {
+      "actorId": "6f8deae8b3c545936d5a285e",
+      "character": {
+        "name": "The Emperor",
+        "imageUrl": "star_wars_episode_vi_return_of_the_jedi_the_emperor.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Star Wars Universe"
+    }
+  ],
+  "budget": 32000000,
+  "awards": [
+    {
+      "awardId": "f5ca20c5b015eafd0cb84b95",
+      "nominations": [
+        {
+          "nominationId": "a328339c31b1366a6d5983c7"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "578febce7942eff684e89336"
+        },
+        {
+          "nominationId": "f31c4bc0fe743c5a0c8835c5"
+        },
+        {
+          "nominationId": "6e270264df618619fd4130b7",
+          "actorId": "ce132ddc9f8b5434251efcdb"
+        },
+        {
+          "nominationId": "9e2b1750e0ee636e7d28f4a8"
+        },
+        {
+          "nominationId": "f0ab91bd2921e0bd31fb500b"
+        },
+        {
+          "nominationId": "16a4df15595684906961ec92"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 573000000,
+  "year": [
+    1983
+  ],
+  "media": [
+    {
+      "poster": "star_wars_episode_VI.webp",
+      "trailer": "5UfA_aKBGMc"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "After a daring mission to rescue Han Solo from Jabba the Hutt, the rebels dispatch to Endor to destroy a more powerful Death Star. Meanwhile, Luke struggles to help Vader back from the dark side without falling into the Emperor's trap."
+  ],
+  "relatedTitlesKey": "0de96c347aa9f64e14fb4a83"
+}

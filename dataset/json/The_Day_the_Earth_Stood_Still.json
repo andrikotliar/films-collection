@@ -1,0 +1,123 @@
+{
+  "id": "935d19e363448c63ae39ac6a",
+  "type": [
+    "Film"
+  ],
+  "title": "The Day the Earth Stood Still",
+  "genres": [
+    "Sci-Fi",
+    "Thriller"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Scott Derrickson"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "David Scarpa"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Paul Harris Boardman"
+        },
+        {
+          "name": "Gregory Goodman"
+        },
+        {
+          "name": "Erwin Stoff"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Tyler Bates"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "David Tattersall"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "duration": 103,
+  "cast": [
+    {
+      "actorId": "064e80da8733b3e3692e9735",
+      "character": {
+        "name": "Klaatu"
+      }
+    },
+    {
+      "actorId": "1cf0eb2682f7194956288319",
+      "character": {
+        "name": "Helen Benson"
+      }
+    },
+    {
+      "actorId": "2d50f3618492cf69f4338a96",
+      "character": {
+        "name": "Regina Jackson"
+      }
+    },
+    {
+      "actorId": "e5f8d050277450eaa51338f6",
+      "character": {
+        "name": "Jacob Benson"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Invasion"
+    }
+  ],
+  "budget": 80000000,
+  "awards": [
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "a0d7861dc6301788c83c87e5",
+          "actorId": "e5f8d050277450eaa51338f6"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 233000000,
+  "year": [
+    2008
+  ],
+  "media": [
+    {
+      "poster": "day_the_earth_stood_still.webp",
+      "trailer": "6QFcZohER3s"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "A remake of the 1951 classic science fiction film about an alien visitor and his giant robot counterpart who visit Earth."
+  ]
+}

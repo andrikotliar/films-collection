@@ -1,0 +1,179 @@
+{
+  "id": "94b1bf72352494d008567ea6",
+  "type": [
+    "Film"
+  ],
+  "title": "The Day after Tomorrow",
+  "genres": [
+    "Sci-Fi"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Roland Emmerich"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Roland Emmerich"
+        },
+        {
+          "name": "Jeffrey Nachmanoff"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Roland Emmerich"
+        },
+        {
+          "name": "Mark Gordon"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Harald Kloser"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Ueli Steiger"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "duration": 123,
+  "cast": [
+    {
+      "actorId": "7ac596d902e363a2a1a2f4d4",
+      "character": {
+        "name": "Jack Hall"
+      }
+    },
+    {
+      "actorId": "644ca0c0a204f03134f45fbf",
+      "character": {
+        "name": "Sam Hall"
+      }
+    },
+    {
+      "actorId": "5860149034330b0daf198a9c",
+      "character": {
+        "name": "Laura Chapman"
+      }
+    },
+    {
+      "actorId": "f5b0745727fa3699393b3e43",
+      "character": {
+        "name": "Jason Evans"
+      }
+    },
+    {
+      "actorId": "6410f8802a49b3854a2dae3c",
+      "character": {
+        "name": "Frank Harris"
+      }
+    },
+    {
+      "actorId": "fa8a78958da76d1f16b2e04a",
+      "character": {
+        "name": "Dr. Lucy Hall"
+      }
+    },
+    {
+      "actorId": "eacf0b0aa94604e8c79c30d3",
+      "character": {
+        "name": "J.D."
+      }
+    },
+    {
+      "actorId": "127112187c675349489d97d9",
+      "character": {
+        "name": "Brian Parks"
+      }
+    },
+    {
+      "actorId": "d0b8dd370a1eca130be31245",
+      "character": {
+        "name": "Janet Tokada"
+      }
+    },
+    {
+      "actorId": "c81fdd370ff55514d2b890e5",
+      "character": {
+        "name": "Parker"
+      }
+    },
+    {
+      "actorId": "7619a1dbce75b71bad02d766",
+      "character": {
+        "name": "Terry Rapson"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Disaster"
+    }
+  ],
+  "budget": 125000000,
+  "awards": [
+    {
+      "awardId": "f5ca20c5b015eafd0cb84b95",
+      "nominations": [
+        {
+          "nominationId": "bc0ac0796a867cf1708fef75"
+        }
+      ]
+    },
+    {
+      "awardId": "539b7c0eaba8eec432e9e48e",
+      "nominations": [
+        {
+          "nominationId": "acd9c13a712776ce89882310"
+        }
+      ]
+    },
+    {
+      "awardId": "26769a9739cc8860c6c61e58",
+      "nominations": [
+        {
+          "nominationId": "328bb2fb3f0f4d04fe349af9"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 544000000,
+  "year": [
+    2004
+  ],
+  "media": [
+    {
+      "poster": "day_after_tomorrow.webp",
+      "trailer": "Ku_IseK3xTc"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Jack Hall, paleoclimatologist, must make a daring trek from Washington, D.C. to New York City to reach his son, trapped in the cross-hairs of a sudden international storm which plunges the planet into a new Ice Age."
+  ]
+}

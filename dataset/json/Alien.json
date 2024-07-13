@@ -1,0 +1,178 @@
+{
+  "id": "12c6b8f72752eeaac7cf624f",
+  "type": [
+    "Film"
+  ],
+  "title": "Alien",
+  "genres": [
+    "Sci-Fi",
+    "Horror"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Ridley Scott"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Dan O'Bannon"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Gordon Carroll"
+        },
+        {
+          "name": "David Giler"
+        },
+        {
+          "name": "Walter Hill"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Jerry Goldsmith"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Derek Vanlint"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA",
+    "UK"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "duration": 117,
+  "cast": [
+    {
+      "actorId": "ca74e2b4d921daf8283f1f08",
+      "character": {
+        "name": "Ripley"
+      }
+    },
+    {
+      "actorId": "5173c305fe5f72483f5ca5ef",
+      "character": {
+        "name": "Dallas"
+      }
+    },
+    {
+      "actorId": "9dfc4b1c77cee089482ec245",
+      "character": {
+        "name": "Lambert"
+      }
+    },
+    {
+      "actorId": "42802b51f97bc9969b14993c",
+      "character": {
+        "name": "Brett"
+      }
+    },
+    {
+      "actorId": "e8a0a4dd975bb9aba822de75",
+      "character": {
+        "name": "Kane"
+      }
+    },
+    {
+      "actorId": "7619a1dbce75b71bad02d766",
+      "character": {
+        "name": "Ash"
+      }
+    },
+    {
+      "actorId": "d7e1cfccf84de611b07ece73",
+      "character": {
+        "name": "Parker"
+      }
+    },
+    {
+      "actorId": "73da3fc4ef4cd0dc8ab9d338",
+      "character": {
+        "name": "Alien",
+        "imageUrl": "alien_alien.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Space"
+    }
+  ],
+  "budget": 11000000,
+  "awards": [
+    {
+      "awardId": "77f4fba8c4801f32a6bd8f39",
+      "nominations": [
+        {
+          "nominationId": "820d2a55172a2460be8ccdcf"
+        }
+      ]
+    },
+    {
+      "awardId": "f5ca20c5b015eafd0cb84b95",
+      "nominations": [
+        {
+          "nominationId": "cdab47c288c2112567537e85"
+        },
+        {
+          "nominationId": "331d567d07f4232ec93f7e47"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "578febce7942eff684e89336"
+        },
+        {
+          "nominationId": "f31c4bc0fe743c5a0c8835c5"
+        },
+        {
+          "nominationId": "83e32b8f54b88830a08e38eb",
+          "actorId": "9dfc4b1c77cee089482ec245"
+        },
+        {
+          "nominationId": "833a98ad422e5573235b6bb2"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 106000000,
+  "year": [
+    1979
+  ],
+  "media": [
+    {
+      "poster": "alien_1.webp",
+      "trailer": "jQ5lPt9edzQ"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun."
+  ],
+  "relatedTitlesKey": "63306d5a4ad3381888cd3188"
+}

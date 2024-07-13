@@ -1,0 +1,178 @@
+{
+  "id": "630b8aef862e4ced32659eb4",
+  "type": [
+    "Film"
+  ],
+  "title": "Aliens",
+  "genres": [
+    "Sci-Fi",
+    "Horror"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "James Cameron"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "James Cameron"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Gale Anne Hurd"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "James Horner"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Adrian Biddle"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA",
+    "UK"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "duration": 137,
+  "cast": [
+    {
+      "actorId": "ca74e2b4d921daf8283f1f08",
+      "character": {
+        "name": "Ripley"
+      }
+    },
+    {
+      "actorId": "e76f8d6303a283a38410a506",
+      "character": {
+        "name": "Newt"
+      }
+    },
+    {
+      "actorId": "ddeef4fd51b50bcc160a21c5",
+      "character": {
+        "name": "Corporal Hicks"
+      }
+    },
+    {
+      "actorId": "719eb3b64cfb07656d850861",
+      "character": {
+        "name": "Carter J. Burke"
+      }
+    },
+    {
+      "actorId": "36f1bddb19c9e4030a07d6e3",
+      "character": {
+        "name": "Bishop"
+      }
+    },
+    {
+      "actorId": "2118f05852939b389e792478",
+      "character": {
+        "name": "Private Hudson"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Space"
+    }
+  ],
+  "budget": 18000000,
+  "awards": [
+    {
+      "awardId": "77f4fba8c4801f32a6bd8f39",
+      "nominations": [
+        {
+          "nominationId": "18860c1f61dea72c56e3fea2"
+        },
+        {
+          "nominationId": "f7e4e2261fe9a2c134896f78"
+        }
+      ]
+    },
+    {
+      "awardId": "f5ca20c5b015eafd0cb84b95",
+      "nominations": [
+        {
+          "nominationId": "a328339c31b1366a6d5983c7"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "578febce7942eff684e89336",
+          "comment": "As part of the \"Alien Anthology\""
+        },
+        {
+          "nominationId": "f31c4bc0fe743c5a0c8835c5"
+        },
+        {
+          "nominationId": "9689652dc356c3239dfa2d51",
+          "actorId": "ca74e2b4d921daf8283f1f08"
+        },
+        {
+          "nominationId": "3c0a856a745ad6ae83986a5c",
+          "actorId": "2118f05852939b389e792478"
+        },
+        {
+          "nominationId": "83e32b8f54b88830a08e38eb",
+          "comment": "Jenette Goldstein"
+        },
+        {
+          "nominationId": "a0d7861dc6301788c83c87e5",
+          "actorId": "e76f8d6303a283a38410a506"
+        },
+        {
+          "nominationId": "833a98ad422e5573235b6bb2"
+        },
+        {
+          "nominationId": "c96092433dd13c7cef968834"
+        },
+        {
+          "nominationId": "16a4df15595684906961ec92"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 131000000,
+  "year": [
+    1986
+  ],
+  "media": [
+    {
+      "poster": "alien_2.webp",
+      "trailer": "oSeQQlaCZgU"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators."
+  ],
+  "relatedTitlesKey": "63306d5a4ad3381888cd3188"
+}

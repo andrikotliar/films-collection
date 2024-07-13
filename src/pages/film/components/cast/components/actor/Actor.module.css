@@ -1,38 +1,84 @@
 .actor {
-  background-color: var(--gray-light);
+  width: 100%;
+  border: var(--app-border);
   border-radius: var(--app-border-radius);
+  padding: 10px;
 }
 
-.profile {
-  display: flex;
-  align-items: center;
+.container {
   position: relative;
+  width: 100%;
+  aspect-ratio: 9 / 12;
+  perspective: 800px;
 }
 
-.photo {
-  font-size: 0;
-  flex-shrink: 0;
-  width: 70px;
-  height: 100px;
-  overflow: hidden;
+.flippable {
+  cursor: pointer;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  user-select: none;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  object-fit: cover;
+  object-position: top;
   border-radius: 5px;
 }
 
-.photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.flipped {
+  transform: rotateY(180deg);
+}
+
+.characterSide {
+ transform: rotateY(180deg);
+}
+
+.imagesIconContainer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+
+.imagesIcon {
+  color: #fff;
+  width: 18px;
+  height: 18px;
+}
+
+.details {
+  margin-top: 10px;
 }
 
 .name {
+  color: var(--main-color);
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
   margin-bottom: 3px;
 }
 
 .name:hover {
-  color: var(--main-color);
   text-decoration: underline;
 }
 
-.details {
-  padding: 15px;
+.characterName {
+  font-size: 14px;
 }

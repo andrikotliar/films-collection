@@ -1,0 +1,181 @@
+{
+  "id": "aeed1ba8762f820c693c8d98",
+  "type": [
+    "Film"
+  ],
+  "title": "Jurassic Park",
+  "genres": [
+    "Sci-Fi",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Steven Spielberg"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Michael Crichton"
+        },
+        {
+          "name": "David Koepp"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Kathleen Kennedy"
+        },
+        {
+          "name": "Gerald R. Molen"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Dean Cundey"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "Universal Pictures",
+    "Amblin Entertainment"
+  ],
+  "duration": 127,
+  "cast": [
+    {
+      "actorId": "2481ddc7d8be875f8b2be84e",
+      "character": {
+        "name": "Grant"
+      }
+    },
+    {
+      "actorId": "447021eba8815c4ef5979744",
+      "character": {
+        "name": "Ellie"
+      }
+    },
+    {
+      "actorId": "ffe7655111ebb548aeea0a19",
+      "character": {
+        "name": "Malcolm"
+      }
+    },
+    {
+      "actorId": "0c2791ec84298bfbf0113104",
+      "character": {
+        "name": "Hammond"
+      }
+    },
+    {
+      "actorId": "28bffad188c4ad2e2f4c4407",
+      "character": {
+        "name": "Tim"
+      }
+    },
+    {
+      "actorId": "ffef45b0f3b1674f895123c3",
+      "character": {
+        "name": "Lex"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Legends"
+    },
+    {
+      "title": "Monsters"
+    }
+  ],
+  "budget": 63000000,
+  "awards": [
+    {
+      "awardId": "77f4fba8c4801f32a6bd8f39",
+      "nominations": [
+        {
+          "nominationId": "218a422da0df0fa0f49d97a5"
+        },
+        {
+          "nominationId": "18860c1f61dea72c56e3fea2"
+        },
+        {
+          "nominationId": "820d2a55172a2460be8ccdcf"
+        }
+      ]
+    },
+    {
+      "awardId": "f5ca20c5b015eafd0cb84b95",
+      "nominations": [
+        {
+          "nominationId": "13292889814ceb8a39da574f"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "f31c4bc0fe743c5a0c8835c5"
+        },
+        {
+          "nominationId": "833a98ad422e5573235b6bb2"
+        },
+        {
+          "nominationId": "c96092433dd13c7cef968834"
+        },
+        {
+          "nominationId": "16a4df15595684906961ec92"
+        }
+      ]
+    },
+    {
+      "awardId": "26769a9739cc8860c6c61e58",
+      "nominations": [
+        {
+          "nominationId": "328bb2fb3f0f4d04fe349af9"
+        },
+        {
+          "nominationId": "1d0cbd9bdf8d449dd9d3a049"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 1030000000,
+  "year": [
+    1993
+  ],
+  "media": [
+    {
+      "poster": "jurassic_park_1.webp",
+      "trailer": "QWBKEmWWL38"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose."
+  ],
+  "relatedTitlesKey": "49f8964ab8146674fa031483"
+}

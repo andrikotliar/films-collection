@@ -1,0 +1,195 @@
+{
+  "id": "1d33cd53bb0c10ac9fe28e1b",
+  "type": [
+    "Film"
+  ],
+  "title": "The Martian",
+  "genres": [
+    "Sci-Fi",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "Ridley Scott"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Drew Goddard"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Simon Kinberg"
+        },
+        {
+          "name": "Ridley Scott"
+        },
+        {
+          "name": "Michael Schaefer"
+        },
+        {
+          "name": "Aditya Sood"
+        },
+        {
+          "name": "Mark Huffam"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Harry Gregson-Williams"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Danusz Wolski"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA",
+    "UK"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "duration": 142,
+  "cast": [
+    {
+      "actorId": "1e69164177ea3946ddbd349e",
+      "character": {
+        "name": "Mark Watney"
+      }
+    },
+    {
+      "actorId": "a46061cb2da09f5cf3772762",
+      "character": {
+        "name": "Melissa Lewis"
+      }
+    },
+    {
+      "actorId": "6a6653e7f44778448e9b8762",
+      "character": {
+        "name": "Annie Montrose"
+      }
+    },
+    {
+      "actorId": "0aeb4bc99c646bc834ac62f4",
+      "character": {
+        "name": "Teddy Sanders"
+      }
+    },
+    {
+      "actorId": "5e3bafc74ed0a30df02c53af",
+      "character": {
+        "name": "Rick Martinez"
+      }
+    },
+    {
+      "actorId": "fbd425127f3664acfe49428a",
+      "character": {
+        "name": "Mitch Henderson"
+      }
+    },
+    {
+      "actorId": "6a960d559b84d97307068dc7",
+      "character": {
+        "name": "Beth Johanssen"
+      }
+    },
+    {
+      "actorId": "5f86048e81f0f2f8d811005f",
+      "character": {
+        "name": "Chris Beck"
+      }
+    },
+    {
+      "actorId": "ef8094aff424c39ecda69f5b",
+      "character": {
+        "name": "Alex Vogel"
+      }
+    },
+    {
+      "actorId": "e5fca0c83deaa2448c413cfd",
+      "character": {
+        "name": "Vincent Kapoor"
+      }
+    },
+    {
+      "actorId": "a775eca4841cce040addc4ca",
+      "character": {
+        "name": "Bruce Ng"
+      }
+    },
+    {
+      "actorId": "7648e3cafe0ccd1016bbc057",
+      "character": {
+        "name": "Mindy Park"
+      }
+    },
+    {
+      "actorId": "1a15cd2acff9c1ac017f8ea8",
+      "character": {
+        "name": "Rich Purnell"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Space"
+    }
+  ],
+  "budget": 108000000,
+  "awards": [
+    {
+      "awardId": "4fc6a2669b79482fb03b65c3",
+      "nominations": [
+        {
+          "nominationId": "ff318d2b927c72ba79458eb8"
+        },
+        {
+          "nominationId": "217117a5ddb4d9595d5802e3",
+          "actorId": "1e69164177ea3946ddbd349e"
+        }
+      ]
+    },
+    {
+      "awardId": "5ef6b36be7bea9fa5883103e",
+      "nominations": [
+        {
+          "nominationId": "833a98ad422e5573235b6bb2"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 630000000,
+  "year": [
+    2015
+  ],
+  "media": [
+    {
+      "poster": "martian.webp",
+      "trailer": "ej3ioOneTy8"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive."
+  ]
+}

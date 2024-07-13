@@ -1,0 +1,128 @@
+{
+  "id": "5244e38603352b6c1d468be8",
+  "type": [
+    "Film"
+  ],
+  "title": "Ford v Ferrari",
+  "genres": [
+    "Action",
+    "Drama",
+    "Biography"
+  ],
+  "crew": [
+    {
+      "role": "director",
+      "people": [
+        {
+          "name": "James Mangold"
+        }
+      ]
+    },
+    {
+      "role": "writer",
+      "people": [
+        {
+          "name": "Jez Butterworth"
+        },
+        {
+          "name": "John-Henry Butterworth"
+        },
+        {
+          "name": "Jason Keller"
+        }
+      ]
+    },
+    {
+      "role": "producer",
+      "people": [
+        {
+          "name": "Peter Chernin"
+        },
+        {
+          "name": "James Mangold"
+        },
+        {
+          "name": "Jenno Topping"
+        }
+      ]
+    },
+    {
+      "role": "music",
+      "people": [
+        {
+          "name": "Marco Beltrami"
+        },
+        {
+          "name": "Buck Sanders"
+        }
+      ]
+    },
+    {
+      "role": "cinematography",
+      "people": [
+        {
+          "name": "Phedon Papamichael"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "USA"
+  ],
+  "production": [
+    "20th Century FOX"
+  ],
+  "duration": 152,
+  "cast": [
+    {
+      "actorId": "1e69164177ea3946ddbd349e",
+      "character": {
+        "name": "Carroll Shelby"
+      }
+    },
+    {
+      "actorId": "b794f150c4436f17ba9bd9f1",
+      "character": {
+        "name": "Ken Miles"
+      }
+    },
+    {
+      "actorId": "4721d15c1bb7efad191e90e4",
+      "character": {
+        "name": "Mollie Miles"
+      }
+    },
+    {
+      "actorId": "08f4518a7166226e5800cc1d",
+      "character": {
+        "name": "Peter Miles"
+      }
+    },
+    {
+      "actorId": "d3bbe9abc5ec09c77b09f725",
+      "character": {
+        "name": "Henry Ford II"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "title": "Cars"
+    }
+  ],
+  "budget": 98000000,
+  "boxOffice": 226000000,
+  "year": [
+    2019
+  ],
+  "media": [
+    {
+      "poster": "fordvsferrari.webp",
+      "trailer": "zyYgDtY2AMY"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966."
+  ]
+}
