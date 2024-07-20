@@ -22,6 +22,7 @@ const useRandomTitle = () => {
       return {
         info: film,
         directors: names,
+        description: film.description[0],
       };
     }
 

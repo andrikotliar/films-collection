@@ -6,7 +6,7 @@
 .cover {
   position: relative;
   width: 100%;
-  aspect-ratio: 10/16;
+  aspect-ratio: 10 / 16;
   border-radius: var(--app-border-radius);
   overflow: hidden;
   background-color: #f2f2f2;

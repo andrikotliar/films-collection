@@ -14,7 +14,7 @@ const FilmLink = forwardRef<HTMLAnchorElement, FilmLinkProps>(
 
     return (
       <Link
-        className={styles.film}
+        className={styles.filmLink}
         to={buildRouterLink('film', data.id)}
         key={data.id}
         ref={ref}

@@ -2,8 +2,9 @@
   display: flex;
   align-items: flex-start;
   gap: 30px;
-  width: 100%;
-  padding: var(--main-padding) 0;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: var(--main-padding);
 }
 
 .content {
