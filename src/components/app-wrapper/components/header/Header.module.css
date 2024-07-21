@@ -28,11 +28,6 @@
   width: var(--icon-size);
 }
 
-.menuWrapper {
-  display: flex;
-  gap: 10px;
-}
-
 .menuButton {
   display: flex;
   justify-content: center;

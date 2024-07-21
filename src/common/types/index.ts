@@ -5,3 +5,4 @@ export * from './props-with-class-name';
 export * from './block-link';
 export * from './nav-link';
 export * from './related';
+export * from './menu-config-item';
