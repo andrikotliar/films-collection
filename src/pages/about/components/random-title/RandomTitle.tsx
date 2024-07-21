@@ -16,17 +16,19 @@ const RandomTitle = () => {
       className={styles.wrapper}
     >
       <h2 className={styles.title}>Random title</h2>
-      <div className={styles.poster}>
-        <img
-          src={buildMediaPath('posters', randomTitle.info.media[0].poster)}
-        />
-      </div>
-      <div className={styles.info}>
-        <h3 className={styles.movieTitle}>{randomTitle.info.title}</h3>
-        <p className={styles.summary}>
-          {randomTitle.info.year[0]} - {randomTitle.directors}
-        </p>
-        <p className={styles.description}>{randomTitle.description}</p>
+      <div className={styles.content}>
+        <div className={styles.poster}>
+          <img
+            src={buildMediaPath('posters', randomTitle.info.media[0].poster)}
+          />
+        </div>
+        <div className={styles.info}>
+          <h3 className={styles.movieTitle}>{randomTitle.info.title}</h3>
+          <p className={styles.summary}>
+            {randomTitle.info.year[0]} - {randomTitle.directors}
+          </p>
+          <p className={styles.description}>{randomTitle.description}</p>
+        </div>
       </div>
     </Link>
   );

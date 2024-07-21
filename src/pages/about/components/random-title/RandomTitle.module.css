@@ -9,6 +9,7 @@
   border: var(--app-border);
   border-radius: var(--app-border-radius);
   background-color: var(--gray-invisible);
+  overflow: hidden;
 }
 
 .title {
@@ -62,7 +63,18 @@
 }
 
 @media (max-width: 795px) {
+  .wrapper {
+    max-width: 100%;
+  }
+
+  .content {
+    display: flex;
+    border-top: var(--app-border);
+  }
+
   .poster {
+    width: 120px;
     height: auto;
+    flex-shrink: 0;
   }
 }
