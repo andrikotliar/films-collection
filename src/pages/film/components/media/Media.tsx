@@ -1,17 +1,18 @@
 import { FC } from 'react';
 import { MediaItem } from '@/common/types';
-import { PosterImage, TrailerButton } from './components';
+import { buildMediaPath } from '@/helpers';
 
 type MediaProps = {
   media: MediaItem;
 };
 
 const Media: FC<MediaProps> = ({ media }) => {
+  const posterUrl = buildMediaPath('posters', media.poster);
+
   return (
-    <>
-      <PosterImage src={media.poster} />
-      <TrailerButton trailer={media.trailer} />
-    </>
+    <button onClick={() => {}}>
+      <img src={posterUrl} />
+    </button>
   );
 };
 
