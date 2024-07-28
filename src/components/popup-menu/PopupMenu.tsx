@@ -39,7 +39,7 @@ const PopupMenu: FC<PropsWithChildren<PopupMenuProps>> = ({
   menuMargin = DEFAULT_MENU_MARGIN_PX,
   className,
   positionMarker = 'left',
-  shouldAdjustToTriggerWidth,
+  shouldAdjustToTriggerWidth = false,
   shouldFocusTriggerOnClose,
   ...divProps
 }) => {

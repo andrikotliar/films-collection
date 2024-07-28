@@ -1,5 +1,6 @@
 import {
   ChangeEvent,
+  CSSProperties,
   FocusEventHandler,
   useCallback,
   useContext,
@@ -22,6 +23,10 @@ const Search = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSearchPending, setIsSearchPending] = useState(false);
   const [filteredFilms, setFilteredFilms] = useState<FilmData[]>([]);
+  const [searchWrapperStyles, setSearchWrapperStyles] =
+    useState<CSSProperties>();
+
+  const isMobile = window.innerWidth <= 480;
 
   const focusSearch = (event: KeyboardEvent) => {
     if (event.key === 'F2' && searchInputRef.current) {
@@ -62,6 +67,22 @@ const Search = () => {
     if (!isMenuOpen && event.target.value.length) {
       handleSearch(event);
     }
+
+    if (isMobile) {
+      setSearchWrapperStyles({
+        position: 'absolute',
+        left: 0,
+        top: 0,
+        padding: 10,
+        background: 'white',
+      });
+    }
+  };
+
+  const clearStyles = () => {
+    if (isMobile && searchWrapperStyles) {
+      setSearchWrapperStyles(undefined);
+    }
   };
 
   const handleClearSearch = () => {
@@ -84,7 +105,7 @@ const Search = () => {
   }, []);
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} style={searchWrapperStyles}>
       <div className={styles.inputWrapper}>
         <input
           type="text"
@@ -95,6 +116,7 @@ const Search = () => {
             debouncedSearch(event);
           }}
           onFocus={handleFocus}
+          onBlur={clearStyles}
           ref={searchInputRef}
         />
         <SearchIcon className={styles.searchIcon} />

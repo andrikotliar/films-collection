@@ -25,11 +25,7 @@ const MenuContainer: FC<PropsWithChildren<MenuContainerProps>> = ({
   }
 
   return createPortal(
-    <div
-      className={classNames(styles.root, {
-        [styles.visibleRoot]: isOpen,
-      })}
-    >
+    <div className={styles.root}>
       <div className={styles.container}>{children}</div>
       <div className={styles.overlay} onClick={onClose} />
     </div>,
