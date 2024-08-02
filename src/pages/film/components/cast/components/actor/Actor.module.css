@@ -1,8 +1,5 @@
 .actor {
   width: 100%;
-  border: var(--app-border);
-  border-radius: var(--app-border-radius);
-  padding: 10px;
 }
 
 .container {
@@ -64,7 +61,7 @@
 }
 
 .details {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .name {
@@ -72,7 +69,6 @@
   display: block;
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 3px;
 }
 
 .name:hover {

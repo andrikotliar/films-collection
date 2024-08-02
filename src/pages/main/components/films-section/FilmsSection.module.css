@@ -1,7 +1,6 @@
 .filmsSection {
   position: relative;
   width: 100%;
-  padding: var(--main-padding);
 }
 
 @media (max-width: 785px) {

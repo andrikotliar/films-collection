@@ -3,7 +3,7 @@ import { CastType } from '@/common/types';
 import { Actor } from './components';
 import { FilmsContext } from '@/context';
 import styles from './Cast.module.css';
-import { Scrollable } from '@/components';
+import { DataArea, Scrollable } from '@/components';
 
 type CastProps = {
   cast: CastType[];
@@ -17,7 +17,7 @@ const Cast: FC<CastProps> = ({ cast }) => {
   }
 
   return (
-    <div className={styles.actors}>
+    <DataArea className={styles.actors}>
       {cast.map((actor) => {
         const actorExternalData = actors[actor.actorId];
 
@@ -29,7 +29,7 @@ const Cast: FC<CastProps> = ({ cast }) => {
           />
         );
       })}
-    </div>
+    </DataArea>
   );
 };
 

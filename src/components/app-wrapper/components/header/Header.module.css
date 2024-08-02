@@ -3,11 +3,12 @@
 
   position: sticky;
   top: 0;
-  width: 100%;
-  height: var(--header-height);
-  border-bottom: var(--app-border);
+  width: 100%;  
+  border-bottom-left-radius: var(--app-border-radius);
+  border-bottom-right-radius: var(--app-border-radius);
   background-color: #fff;
   z-index: 100;
+  padding-top: 20px;
 }
 
 .headerContainer {
@@ -17,10 +18,15 @@
   justify-content: space-between;
   gap: 20px;
   height: 100%;
+  padding: 0 15px;
+  height: var(--header-height);
+  border: var(--app-border);
+  border-radius: var(--app-border-radius);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .logoWrapper {
-  display: block;
+  display: flex;
   text-align: center;
 }
 

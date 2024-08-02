@@ -42,22 +42,7 @@ const FilmPage = () => {
         <Link to="/">Back to list</Link>
       </Section>
 
-      <Section>
-        <TitleRow>
-          <Title>{film.title}</Title>
-          <SeasonSelect
-            seasons={film.series?.seasons}
-            onChange={setActiveIndex}
-          />
-        </TitleRow>
-      </Section>
-
       <TopRow film={film} activeIndex={activeIndex} />
-
-      <Section>
-        <SectionTitle>Description</SectionTitle>
-        <Description>{film.description[activeIndex]}</Description>
-      </Section>
 
       <Section>
         <SectionTitle>Crew</SectionTitle>

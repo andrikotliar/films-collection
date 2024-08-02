@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { mainMenu } from '@/configs';
-import { Container } from '../container/Container';
 import { Search, Logo } from './components';
 import styles from './Header.module.css';
 import { MenuIcon } from 'lucide-react';
@@ -26,7 +25,7 @@ const Header = () => {
 
   return (
     <header className={styles.header}>
-      <Container className={styles.headerContainer}>
+      <div className={styles.headerContainer}>
         <Link
           to={{
             pathname: '/',
@@ -47,7 +46,7 @@ const Header = () => {
         <MenuContainer isOpen={isMenuOpen} onClose={handleCloseMenu}>
           <Menu config={mainMenu} />
         </MenuContainer>
-      </Container>
+      </div>
     </header>
   );
 };

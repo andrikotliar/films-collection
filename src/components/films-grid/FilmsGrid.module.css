@@ -14,7 +14,7 @@
 
 @media (max-width: 1920px) {
   .grid {
-    --cols: 9;
+    --cols: 8;
   }
 }
 

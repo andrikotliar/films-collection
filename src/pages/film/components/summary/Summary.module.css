@@ -7,33 +7,12 @@
   border-radius: 12px;
 }
 
-@media (min-width: 795px) {
-  .dataArea {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 20px;
-  }
-  
-  .dataRow:nth-child(2) {
-    padding-top: 0;
-  }
-  
-  .dataRow:nth-last-child(2) {
-    border-bottom: 0;
-    padding-bottom: 0;
-  }
-}
-
-.groupTitle {
-  font-size: 14px;
-  color: #373737;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  margin-left: 10px;
-}
-
 .detailsRow {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+}
+
+.descriptionRow {
+  margin-top: 20px;
 }

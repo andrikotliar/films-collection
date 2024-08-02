@@ -75,15 +75,6 @@ const Filters = () => {
         onSubmit={methods.handleSubmit(submitFilter)}
         className={styles.filters}
       >
-        <h2 className={styles.header}>
-          <div className={styles.headerTitle}>Filters</div>
-          <button
-            onClick={() => setIsFilterOpen(false)}
-            className={styles.headerButton}
-          >
-            <XIcon />
-          </button>
-        </h2>
         <Tabs
           defaultTabIndex={defaultTabIndex}
           components={[

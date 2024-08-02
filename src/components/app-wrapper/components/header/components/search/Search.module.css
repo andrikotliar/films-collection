@@ -17,7 +17,7 @@
   border: var(--app-border);
   border-radius: var(--app-border-radius);
   transition: 0.2s;
-  background-color: #fff;
+  background-color: var(--gray-light);
 }
 
 .input:focus {
@@ -25,7 +25,7 @@
 }
 
 .searchIcon {
-  color: #ddd;
+  color: var(--gray-dark);
   position: absolute;
   top: 50%;
   left: 10px;
