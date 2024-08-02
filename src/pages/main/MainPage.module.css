@@ -1,7 +1,7 @@
 .main {
   display: flex;
   gap: 20px;
-  padding: 20px 10px 0;
+  padding: 20px;
 }
 
 @media (max-width: 785px) {

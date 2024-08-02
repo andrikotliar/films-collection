@@ -16,8 +16,10 @@ import { FilmData } from '@/common/types';
 import styles from './Search.module.css';
 import { SearchMenuContent } from './components';
 import { LoaderCircleIcon, SearchIcon } from 'lucide-react';
+import { useLocation } from 'react-router-dom';
 
 const Search = () => {
+  const location = useLocation();
   const { films } = useContext(FilmsContext);
   const searchInputRef = useRef<HTMLInputElement>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -38,22 +40,25 @@ const Search = () => {
     setIsMenuOpen(false);
   };
 
-  const handleSearch = useCallback((event: ChangeEvent<HTMLInputElement>) => {
-    const searchValue = event.target.value;
+  const handleSearch = useCallback(
+    (event: ChangeEvent<HTMLInputElement>) => {
+      const searchValue = event.target.value;
 
-    if (searchValue.length) {
-      const foundFilms = searchFilm(searchValue, films);
+      if (searchValue.length) {
+        const foundFilms = searchFilm(searchValue, films, location.pathname);
 
-      setFilteredFilms(foundFilms);
-      setIsMenuOpen(true);
+        setFilteredFilms(foundFilms);
+        setIsMenuOpen(true);
+        setIsSearchPending(false);
+
+        return;
+      }
+
       setIsSearchPending(false);
-
-      return;
-    }
-
-    setIsSearchPending(false);
-    setIsMenuOpen(false);
-  }, []);
+      setIsMenuOpen(false);
+    },
+    [location.pathname],
+  );
 
   const debouncedSearch = debounce(handleSearch, 1000);
 

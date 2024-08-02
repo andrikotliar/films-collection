@@ -6,6 +6,7 @@ import styles from './Header.module.css';
 import { MenuIcon } from 'lucide-react';
 import { Menu } from '@/components/menu/Menu';
 import { MenuContainer } from '@/components/menu-container/MenuContainer';
+import { Container } from '../container/Container';
 
 const Header = () => {
   const menuButtonRef = useRef<HTMLButtonElement>(null);
@@ -25,7 +26,7 @@ const Header = () => {
 
   return (
     <header className={styles.header}>
-      <div className={styles.headerContainer}>
+      <Container className={styles.headerContainer}>
         <Link
           to={{
             pathname: '/',
@@ -46,7 +47,7 @@ const Header = () => {
         <MenuContainer isOpen={isMenuOpen} onClose={handleCloseMenu}>
           <Menu config={mainMenu} />
         </MenuContainer>
-      </div>
+      </Container>
     </header>
   );
 };

@@ -1,8 +1,8 @@
+import { FC } from 'react';
+import { Link } from 'react-router-dom';
 import { FilmData } from '@/common/types';
 import { buildMediaPath } from '@/helpers';
-import { FC } from 'react';
 import styles from './FoundFilm.module.css';
-import { useLocation, useNavigate } from 'react-router-dom';
 
 type FoundFilmProps = {
   film: FilmData;
@@ -10,22 +10,12 @@ type FoundFilmProps = {
 };
 
 const FoundFilm: FC<FoundFilmProps> = ({ film, onFilmOpen }) => {
-  const location = useLocation();
-  const navigate = useNavigate();
-
-  const isDisabled = location.pathname.includes(film.id);
-
-  const openFilmPage = () => {
-    navigate(`/film/${film.id}`);
-    onFilmOpen();
-  };
-
   return (
-    <button
+    <Link
+      to={`/film/${film.id}`}
       className={styles.film}
-      onClick={openFilmPage}
+      onClick={onFilmOpen}
       type="button"
-      disabled={isDisabled}
     >
       <div className={styles.posterContainer}>
         <img
@@ -39,7 +29,7 @@ const FoundFilm: FC<FoundFilmProps> = ({ film, onFilmOpen }) => {
         <p className={styles.description}>{film.description[0]}</p>
         <div className={styles.year}>{film.year[0]}</div>
       </div>
-    </button>
+    </Link>
   );
 };
 

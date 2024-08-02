@@ -1,9 +1,9 @@
 .sidebarContent {
   width: 300px;
-  height: var(--app-height);
+  height: calc(var(--app-height) - 40px);
   flex-shrink: 0;
   position: sticky;
-  top: calc(var(--header-height) + 40px);
+  top: calc(var(--header-height) + 20px);
 }
 
 .filterButton {
