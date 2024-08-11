@@ -1,0 +1,19 @@
+.appMenu {
+  position: fixed;
+  top: calc(var(--header-height) + 20px);
+  right: 20px;
+  min-width: 220px;
+  height: calc(var(--app-height) - 40px);
+  border: var(--app-border);
+  border-radius: var(--app-border-radius);
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  overflow: hidden;
+  transform: translateX(240px);
+  transition: transform 300ms, visibility 300ms;
+  visibility: hidden;
+}
+
+.openAppMenu {
+  transform: translateX(0);
+  visibility: visible;
+}
