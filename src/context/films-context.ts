@@ -1,4 +1,4 @@
-import { DataCollection } from '@/api';
+import { DataCollection } from '@/common/types';
 import { createContext } from 'react';
 
 type ContextValue = {

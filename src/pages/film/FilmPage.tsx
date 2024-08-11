@@ -15,7 +15,7 @@ import {
   Related,
   Section,
 } from './components';
-import { useCurrentFilm } from '@/pages/film/hooks';
+import { useCurrentFilm, useLastVisitedFilms } from '@/pages/film/hooks';
 import { TitleRow } from './components/title-row/TitleRow';
 import { Title } from './components/title/Title';
 
@@ -27,6 +27,7 @@ const FilmPage = () => {
 
   useScrollToTop([id]);
   useDocumentTitle(film?.title);
+  useLastVisitedFilms(id);
 
   if (film === undefined) {
     return <Loader isFullPage />;
