@@ -1,2 +1,2 @@
-export * from './search/Search';
-export * from './logo/Logo';
+export { Search } from './search/Search';
+export { Logo } from './logo/Logo';

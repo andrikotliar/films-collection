@@ -5,7 +5,6 @@ import { Search, Logo } from './components';
 import styles from './Header.module.css';
 import { MenuIcon } from 'lucide-react';
 import { Menu } from '@/components/menu/Menu';
-import { MenuContainer } from '@/components/menu-container/MenuContainer';
 import { Container } from '../container/Container';
 
 const Header = () => {
@@ -44,9 +43,6 @@ const Header = () => {
         >
           <MenuIcon className={styles.menuIcon} />
         </button>
-        <MenuContainer isOpen={isMenuOpen} onClose={handleCloseMenu}>
-          <Menu config={mainMenu} />
-        </MenuContainer>
       </Container>
     </header>
   );

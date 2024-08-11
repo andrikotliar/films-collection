@@ -11,7 +11,7 @@ import {
   BoxOffice,
   Wrapper,
   SeasonSelect,
-  TopRow,
+  SummarySection,
   Related,
   Section,
 } from './components';
@@ -42,7 +42,7 @@ const FilmPage = () => {
         <Link to="/">Back to list</Link>
       </Section>
 
-      <TopRow film={film} activeIndex={activeIndex} />
+      <SummarySection film={film} activeIndex={activeIndex} />
 
       <Section>
         <SectionTitle>Crew</SectionTitle>

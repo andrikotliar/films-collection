@@ -1,2 +1,2 @@
-export * from './legend/Legend';
-export * from './diagram/Diagram';
+export { Legend } from './legend/Legend';
+export { Diagram } from './diagram/Diagram';

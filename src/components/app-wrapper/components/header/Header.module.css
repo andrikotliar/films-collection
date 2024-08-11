@@ -45,31 +45,3 @@
 .menuIcon {
   pointer-events: none;
 }
-
-.menuWrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  padding: 10px;
-}
-
-.menuLink {
-  padding: 6px 10px;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-.menuLink:focus-visible {
-  outline-style: dashed;
-  outline-color: var(--main-color);
-}
-
-.menuLink:hover {
-  background-color: var(--gray-light);
-}
-
-.activeLink {
-  color: #fff;
-  background-color: var(--main-color);
-  pointer-events: none;
-}

@@ -1,1 +1,1 @@
-export * from './filter-options/FilterOptions';
+export { FilterOptions } from './filter-options/FilterOptions';

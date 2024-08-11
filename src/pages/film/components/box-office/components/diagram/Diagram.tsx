@@ -1,7 +1,7 @@
 import styles from './Diagram.module.css';
 import { FC, useMemo } from 'react';
 import classNames from 'classnames';
-import { DiagramColorEnum } from '@/pages/film/components/box-office/common/enums';
+import { DiagramColor } from '@/pages/film/components/box-office/common/enums';
 import {
   FormattedValue,
   getBoxOfficeTargetValue,
@@ -11,7 +11,7 @@ import { DisplayValue, Range } from './components';
 type DiagramProps = {
   budget: FormattedValue | null;
   boxOffice: FormattedValue | null;
-  color: DiagramColorEnum;
+  color: DiagramColor;
 };
 
 const Diagram: FC<DiagramProps> = ({ budget, boxOffice, color }) => {
@@ -32,9 +32,9 @@ const Diagram: FC<DiagramProps> = ({ budget, boxOffice, color }) => {
               title="Budget"
               className={classNames(styles.scale)}
               style={{
-                color: DiagramColorEnum.YELLOW,
+                color: DiagramColor.YELLOW,
                 width: `${calculatePercent(budget.value)}%`,
-                backgroundColor: DiagramColorEnum.YELLOW,
+                backgroundColor: DiagramColor.YELLOW,
                 zIndex: 2,
               }}
             >

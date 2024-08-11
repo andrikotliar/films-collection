@@ -1,2 +1,2 @@
-export * from './data-link/DataLink';
-export * from './data-content/DataContent';
+export { DataLink } from './data-link/DataLink';
+export { DataContent } from './data-content/DataContent';

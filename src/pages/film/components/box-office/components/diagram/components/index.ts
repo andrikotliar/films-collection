@@ -1,2 +1,2 @@
-export * from './display-value/DisplayValue';
-export * from './range/Range';
+export { DisplayValue } from './display-value/DisplayValue';
+export { Range } from './range/Range';

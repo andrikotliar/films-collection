@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { Diagram, Legend } from './components';
-import { DiagramColorEnum } from './common/enums';
+import { DiagramColor } from './common/enums';
 import { getFormattedValue, hasBoxOfficeBenefit } from './helpers';
 
 import styles from './BoxOffice.module.css';
@@ -14,8 +14,8 @@ const BoxOffice: FC<BoxOfficeProps> = ({ budget, boxOffice }) => {
   const isBoxOfficeHigher = hasBoxOfficeBenefit(budget, boxOffice);
 
   const boxOfficeColor = isBoxOfficeHigher
-    ? DiagramColorEnum.GREEN
-    : DiagramColorEnum.RED;
+    ? DiagramColor.GREEN
+    : DiagramColor.RED;
 
   return (
     <div className={styles.boxOffice}>

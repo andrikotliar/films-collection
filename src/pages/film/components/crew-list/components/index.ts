@@ -1,1 +1,1 @@
-export * from './crew-item/CrewItem';
+export { CrewItem } from './crew-item/CrewItem';

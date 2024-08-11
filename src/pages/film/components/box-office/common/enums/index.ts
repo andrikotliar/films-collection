@@ -1,1 +1,1 @@
-export * from './legend-color.enum';
+export { DiagramColor } from './legend-color';

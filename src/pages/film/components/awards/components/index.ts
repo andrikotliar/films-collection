@@ -1,1 +1,1 @@
-export * from './nomination/Nomination';
+export { Nomination } from './nomination/Nomination';

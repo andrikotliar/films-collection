@@ -1,13 +1,13 @@
 import { FC } from 'react';
 import { LegendItem } from './components';
-import { DiagramColorEnum } from '@/pages/film/components/box-office/common/enums';
+import { DiagramColor } from '@/pages/film/components/box-office/common/enums';
 
 import styles from './Legend.module.css';
 
 type LegendProps = {
   hasBudget: boolean;
   hasBoxOffice: boolean;
-  color: DiagramColorEnum;
+  color: DiagramColor;
 };
 
 const Legend: FC<LegendProps> = ({ hasBudget, hasBoxOffice, color }) => {

@@ -1,1 +1,1 @@
-export * from './data';
+export { fetchData } from './data/data-api';

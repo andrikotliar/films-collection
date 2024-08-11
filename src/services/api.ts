@@ -1,11 +1,5 @@
+import { HttpMethod } from '@/common/enums';
 import axios, { AxiosRequestConfig } from 'axios';
-
-enum HttpMethod {
-  GET = 'GET',
-  POST = 'POST',
-  PATCH = 'PATCH',
-  DELETE = 'DELETE',
-}
 
 const config = {
   baseUrl: '',
@@ -30,4 +24,4 @@ const api = async <T = unknown>(config: AxiosRequestConfig): Promise<T> => {
   }
 };
 
-export { api, HttpMethod };
+export { api };

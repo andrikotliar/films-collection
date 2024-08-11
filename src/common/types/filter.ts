@@ -2,7 +2,7 @@ import { FilmData } from '@/common/types';
 
 type FilterKeys = 'general' | 'collections';
 
-export type FilterItem = {
+type FilterItem = {
   title: string;
   property: keyof FilmData;
   options: (string | number)[];
@@ -12,6 +12,8 @@ export type FilterItem = {
   isGrid?: true;
 };
 
-export type Filters = {
+type Filters = {
   [key in FilterKeys]: FilterItem[];
 };
+
+export type { FilterItem, Filters };

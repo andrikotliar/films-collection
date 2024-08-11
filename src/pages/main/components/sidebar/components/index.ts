@@ -1,1 +1,1 @@
-export * from './sidebar-content/SidebarContent';
+export { SidebarContent } from './sidebar-content/SidebarContent';

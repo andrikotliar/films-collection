@@ -1,1 +1,1 @@
-export * from './legend-item/LegendItem';
+export { LegendItem } from './legend-item/LegendItem';

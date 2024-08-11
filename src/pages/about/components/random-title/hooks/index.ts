@@ -1,1 +1,1 @@
-export * from './use-random-title.hook';
+export { useRandomTitle } from './use-random-title';
