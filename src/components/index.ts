@@ -10,7 +10,7 @@ export { DataArea } from './data-area/DataArea';
 export { DataRow } from './data-row/DataRow';
 export { DataGrid } from './data-grid/DataGrid';
 export { RouterLink } from './router-link/RouterLink';
-export { Select } from './select/Select';
+export { Select, type Option } from './select/Select';
 export { PopupMenu } from './popup-menu/PopupMenu';
 export { NotFound } from './not-found/NotFound';
 export { Icon } from './icon/Icon';

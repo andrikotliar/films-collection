@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.backLink {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.backLink:hover {
+  color: var(--main-color);
+}
+
+.backLink:hover .backLinkIcon {
+  animation: 3s linear infinite bouncing;
+}
+
+@keyframes bouncing {
+  0%, 50%, 100% {
+    transform: translateX(0);
+  }
+	25% {
+    transform: translateX(-3px);
+  }
+	75% {
+    transform: translateX(3px);
+  }
+}

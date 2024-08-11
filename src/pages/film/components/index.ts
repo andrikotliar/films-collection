@@ -9,3 +9,4 @@ export { BoxOffice } from './box-office/BoxOffice';
 export { SeasonSelect } from './season-select/SeasonSelect';
 export { Section } from './section/Section';
 export { Related } from './related/Related';
+export { NavigationRow } from './navigation-row/NavigationRow';

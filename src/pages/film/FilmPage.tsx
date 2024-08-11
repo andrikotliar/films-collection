@@ -1,7 +1,8 @@
-import { useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { act, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import { Loader, NotFound } from '@/components';
 import { useDocumentTitle, useScrollToTop } from '@/hooks';
+import { useCurrentFilm, useLastVisitedFilms } from '@/pages/film/hooks';
 import {
   SectionTitle,
   Description,
@@ -10,14 +11,11 @@ import {
   CrewList,
   BoxOffice,
   Wrapper,
-  SeasonSelect,
   SummarySection,
   Related,
   Section,
+  NavigationRow,
 } from './components';
-import { useCurrentFilm, useLastVisitedFilms } from '@/pages/film/hooks';
-import { TitleRow } from './components/title-row/TitleRow';
-import { Title } from './components/title/Title';
 
 const FilmPage = () => {
   const { id } = useParams();
@@ -39,11 +37,22 @@ const FilmPage = () => {
 
   return (
     <Wrapper>
-      <Section>
-        <Link to="/">Back to list</Link>
-      </Section>
+      <NavigationRow
+        setActiveIndex={setActiveIndex}
+        seasons={film.series?.seasons}
+      />
 
       <SummarySection film={film} activeIndex={activeIndex} />
+
+      <Section>
+        <SectionTitle>
+          Description
+          {film.series?.seasons[activeIndex] && (
+            <span> ({film.series.seasons[activeIndex].title})</span>
+          )}
+        </SectionTitle>
+        <Description>{film.description[activeIndex]}</Description>
+      </Section>
 
       <Section>
         <SectionTitle>Crew</SectionTitle>
