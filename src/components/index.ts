@@ -14,3 +14,4 @@ export { Select, type Option } from './select/Select';
 export { PopupMenu } from './popup-menu/PopupMenu';
 export { NotFound } from './not-found/NotFound';
 export { Icon } from './icon/Icon';
+export { Image } from './image/Image';
