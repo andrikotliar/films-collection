@@ -1,13 +1,10 @@
 import { FC, PropsWithChildren } from 'react';
-import { fetchData } from '@/api';
 import { Loader, NotFound } from '@/components';
-import { useQuery } from '@/hooks/query';
 import { FilmsContext } from './films-context';
+import { useData } from '@/hooks';
 
 const FilmsProvider: FC<PropsWithChildren> = ({ children }) => {
-  const { data, isFetching } = useQuery({
-    fn: fetchData,
-  });
+  const { data, isFetching } = useData();
 
   if (isFetching) {
     return <Loader isFullPage />;

@@ -1,4 +1,4 @@
-import { act, useState } from 'react';
+import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Loader, NotFound } from '@/components';
 import { useDocumentTitle, useScrollToTop } from '@/hooks';
