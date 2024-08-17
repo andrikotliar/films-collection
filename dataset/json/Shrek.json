@@ -134,9 +134,6 @@
     }
   ],
   "boxOffice": 488000000,
-  "year": [
-    2001
-  ],
   "media": [
     {
       "poster": "shrek_1.webp",
@@ -147,5 +144,8 @@
   "description": [
     "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back."
   ],
-  "relatedTitlesKey": "a81b1654b30b06adb32ddf8d"
+  "relatedTitlesKey": "a81b1654b30b06adb32ddf8d",
+  "releaseDate": [
+    "05/18/2001"
+  ]
 }

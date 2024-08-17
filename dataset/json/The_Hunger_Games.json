@@ -158,9 +158,6 @@
     }
   ],
   "boxOffice": 694000000,
-  "year": [
-    2012
-  ],
   "media": [
     {
       "poster": "hunger_games_1.webp",
@@ -171,5 +168,8 @@
   "description": [
     "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death."
   ],
-  "relatedTitlesKey": "ee0e6048d16760e2bc2c11d3"
+  "relatedTitlesKey": "ee0e6048d16760e2bc2c11d3",
+  "releaseDate": [
+    "03/23/2012"
+  ]
 }

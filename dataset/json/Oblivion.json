@@ -120,9 +120,6 @@
   ],
   "budget": 160000000,
   "boxOffice": 286000000,
-  "year": [
-    2013
-  ],
   "media": [
     {
       "poster": "oblivion.webp",
@@ -132,5 +129,8 @@
   "rating": 1,
   "description": [
     "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself."
+  ],
+  "releaseDate": [
+    "04/19/2013"
   ]
 }

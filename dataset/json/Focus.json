@@ -110,9 +110,6 @@
   ],
   "budget": 50000000,
   "boxOffice": 159000000,
-  "year": [
-    2015
-  ],
   "media": [
     {
       "poster": "focus.webp",
@@ -122,5 +119,8 @@
   "rating": 1,
   "description": [
     "In the midst of veteran con man Nicky's latest scheme, a woman from his past - now an accomplished femme fatale - shows up and throws his plans for a loop."
+  ],
+  "releaseDate": [
+    "02/27/2015"
   ]
 }

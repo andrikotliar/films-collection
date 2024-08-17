@@ -119,9 +119,6 @@
   ],
   "budget": 78000000,
   "boxOffice": 179000000,
-  "year": [
-    2003
-  ],
   "media": [
     {
       "poster": "league_of_extraordinary_gentlemen.webp",
@@ -131,5 +128,8 @@
   "rating": 1,
   "description": [
     "In an alternate Victorian Age world, a group of famous contemporary fantasy, science fiction, and adventure characters team up on a secret mission."
+  ],
+  "releaseDate": [
+    "07/11/2003"
   ]
 }

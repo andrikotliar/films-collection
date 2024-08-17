@@ -122,9 +122,6 @@
     }
   ],
   "boxOffice": 580000000,
-  "year": [
-    2001
-  ],
   "media": [
     {
       "poster": "monsters_inc.webp",
@@ -134,5 +131,8 @@
   "rating": 2,
   "description": [
     "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, 2 monsters realize things may not be what they think."
+  ],
+  "releaseDate": [
+    "11/02/2001"
   ]
 }

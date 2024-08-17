@@ -105,9 +105,6 @@
   ],
   "budget": 21000000,
   "boxOffice": 44000000,
-  "year": [
-    2002
-  ],
   "media": [
     {
       "poster": "transporter_1.webp",
@@ -118,5 +115,8 @@
   "description": [
     "Frank is hired to \"transport\" packages for unknown clients and has made a very good living doing so. But when asked to move a package that begins moving, complications arise."
   ],
-  "relatedTitlesKey": "25c70902689af0504af43bea"
+  "relatedTitlesKey": "25c70902689af0504af43bea",
+  "releaseDate": [
+    "10/11/2002"
+  ]
 }

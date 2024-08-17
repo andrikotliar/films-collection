@@ -181,9 +181,6 @@
     }
   ],
   "boxOffice": 1150000000,
-  "year": [
-    2016
-  ],
   "media": [
     {
       "poster": "captain_america_3.webp",
@@ -194,5 +191,8 @@
   "description": [
     "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man."
   ],
-  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "05/06/2016"
+  ]
 }

@@ -117,9 +117,6 @@
   ],
   "budget": 150000000,
   "boxOffice": 683000000,
-  "year": [
-    2015
-  ],
   "media": [
     {
       "poster": "mi_5.webp",
@@ -130,5 +127,8 @@
   "description": [
     "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF."
   ],
-  "relatedTitlesKey": "7201769b07df74e644bc0b02"
+  "relatedTitlesKey": "7201769b07df74e644bc0b02",
+  "releaseDate": [
+    "07/31/2015"
+  ]
 }

@@ -164,9 +164,6 @@
     }
   ],
   "boxOffice": 658000000,
-  "year": [
-    2015
-  ],
   "media": [
     {
       "poster": "hunger_games_4.webp",
@@ -177,5 +174,8 @@
   "description": [
     "Katniss and a team of rebels from District 13 prepare for the final battle that will decide the fate of Panem."
   ],
-  "relatedTitlesKey": "ee0e6048d16760e2bc2c11d3"
+  "relatedTitlesKey": "ee0e6048d16760e2bc2c11d3",
+  "releaseDate": [
+    "11/20/2015"
+  ]
 }

@@ -134,9 +134,6 @@
   ],
   "budget": 375000000,
   "boxOffice": 393000000,
-  "year": [
-    2018
-  ],
   "media": [
     {
       "poster": "solo.webp",
@@ -147,5 +144,8 @@
   "description": [
     "During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion."
   ],
-  "relatedTitlesKey": "0de96c347aa9f64e14fb4a83"
+  "relatedTitlesKey": "0de96c347aa9f64e14fb4a83",
+  "releaseDate": [
+    "05/25/2018"
+  ]
 }

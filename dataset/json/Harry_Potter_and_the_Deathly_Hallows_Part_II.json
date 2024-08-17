@@ -149,9 +149,6 @@
     }
   ],
   "boxOffice": 1340000000,
-  "year": [
-    2011
-  ],
   "media": [
     {
       "poster": "harry_potter_8.webp",
@@ -162,5 +159,8 @@
   "description": [
     "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts."
   ],
-  "relatedTitlesKey": "21fe420121bd2018a3c76f32"
+  "relatedTitlesKey": "21fe420121bd2018a3c76f32",
+  "releaseDate": [
+    "07/15/2011"
+  ]
 }

@@ -126,9 +126,6 @@
   ],
   "budget": 80000000,
   "boxOffice": 458000000,
-  "year": [
-    1996
-  ],
   "media": [
     {
       "poster": "mi_1.webp",
@@ -139,5 +136,8 @@
   "description": [
     "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization."
   ],
-  "relatedTitlesKey": "7201769b07df74e644bc0b02"
+  "relatedTitlesKey": "7201769b07df74e644bc0b02",
+  "releaseDate": [
+    "05/22/1996"
+  ]
 }

@@ -142,9 +142,6 @@
     }
   ],
   "boxOffice": 747000000,
-  "year": [
-    2016
-  ],
   "media": [
     {
       "poster": "suicide_squad.webp",
@@ -155,5 +152,8 @@
   "description": [
     "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse."
   ],
-  "relatedTitlesKey": "d923cc31cdf721e7ddeb1616"
+  "relatedTitlesKey": "d923cc31cdf721e7ddeb1616",
+  "releaseDate": [
+    "08/05/2016"
+  ]
 }

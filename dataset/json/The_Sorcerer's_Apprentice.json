@@ -115,9 +115,6 @@
   ],
   "budget": 150000000,
   "boxOffice": 215000000,
-  "year": [
-    2010
-  ],
   "media": [
     {
       "poster": "sorcerers_apprentice.webp",
@@ -127,5 +124,8 @@
   "rating": 1,
   "description": [
     "Master sorcerer Balthazar Blake must find and train Merlin's descendant to defeat dark sorceress Morgana la Fée."
+  ],
+  "releaseDate": [
+    "07/14/2010"
   ]
 }

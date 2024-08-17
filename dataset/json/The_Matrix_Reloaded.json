@@ -127,9 +127,6 @@
   ],
   "budget": 127000000,
   "boxOffice": 742000000,
-  "year": [
-    2003
-  ],
   "media": [
     {
       "poster": "matrix_2.webp",
@@ -140,5 +137,8 @@
   "description": [
     "Neo and the rebel leaders estimate that they have 72 hours until 250,000 probes discover Zion and destroy it and its inhabitants. During this, Neo must decide how he can save Trinity from a dark fate in his dreams."
   ],
-  "relatedTitlesKey": "a9cbfde563018e36f2bcf883"
+  "relatedTitlesKey": "a9cbfde563018e36f2bcf883",
+  "releaseDate": [
+    "05/15/2003"
+  ]
 }

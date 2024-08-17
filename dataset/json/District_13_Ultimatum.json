@@ -122,9 +122,6 @@
   ],
   "budget": 14000000,
   "boxOffice": 14000000,
-  "year": [
-    2009
-  ],
   "media": [
     {
       "poster": "d13_2.webp",
@@ -135,5 +132,8 @@
   "description": [
     "Damien and Leito return to District 13 on a mission to bring peace to the troubled sector that is controlled by five different gang bosses, before the city's secret services take drastic measures to solve the problem."
   ],
-  "relatedTitlesKey": "009b92287c5919f2d6278e48"
+  "relatedTitlesKey": "009b92287c5919f2d6278e48",
+  "releaseDate": [
+    "02/18/2009"
+  ]
 }

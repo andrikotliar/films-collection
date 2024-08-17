@@ -145,9 +145,6 @@
   ],
   "budget": 153000000,
   "boxOffice": 645000000,
-  "year": [
-    2013
-  ],
   "media": [
     {
       "poster": "thor_2.webp",
@@ -158,5 +155,8 @@
   "description": [
     "When Dr. Jane Foster gets cursed with a powerful entity known as the Aether, Thor is heralded of the cosmic event known as the Convergence and the genocidal Dark Elves."
   ],
-  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "11/08/2013"
+  ]
 }

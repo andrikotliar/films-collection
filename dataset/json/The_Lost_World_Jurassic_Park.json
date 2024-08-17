@@ -94,9 +94,6 @@
   ],
   "budget": 73000000,
   "boxOffice": 619000000,
-  "year": [
-    1997
-  ],
   "media": [
     {
       "poster": "jurassic_park_2.webp",
@@ -107,5 +104,8 @@
   "description": [
     "A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda."
   ],
-  "relatedTitlesKey": "49f8964ab8146674fa031483"
+  "relatedTitlesKey": "49f8964ab8146674fa031483",
+  "releaseDate": [
+    "05/23/1997"
+  ]
 }

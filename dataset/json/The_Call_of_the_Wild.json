@@ -88,9 +88,6 @@
   ],
   "budget": 135000000,
   "boxOffice": 110000000,
-  "year": [
-    2020
-  ],
   "media": [
     {
       "poster": "the_call_of_the_wild.webp",
@@ -100,5 +97,8 @@
   "rating": 2,
   "description": [
     "A sled dog struggles for survival in the wilds of the Yukon."
+  ],
+  "releaseDate": [
+    "02/21/2020"
   ]
 }

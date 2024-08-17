@@ -616,15 +616,6 @@
       ]
     }
   ],
-  "year": [
-    2014,
-    2014,
-    2016,
-    2017,
-    2018,
-    2019,
-    2020
-  ],
   "series": {
     "episodesTotal": 100,
     "seasons": [
@@ -704,5 +695,14 @@
     "Season 5 picks up after a six-year time jump, as the survivors face new dangers on Earth, including a mysterious Eligius Corporation group and an overgrowing valley called the Shallow Valley. The conflicts between the various factions continue to test loyalties and survival skills.",
     "The sixth season explores a new world, as the characters discover a habitable planet named Sanctum. However, they soon realize that this new world holds its own mysteries and challenges, and the search for answers continues.",
     "In the final season, the characters face the ultimate test as they confront the aftermath of previous events and a powerful alien force. The stakes are higher than ever as they strive to save humanity and secure the future of their species."
+  ],
+  "releaseDate": [
+    "03/19/2014",
+    "10/22/2014",
+    "01/21/2016",
+    "02/01/2017",
+    "04/24/2018",
+    "04/30/2019",
+    "05/20/2020"
   ]
 }

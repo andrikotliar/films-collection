@@ -143,9 +143,6 @@
     }
   ],
   "boxOffice": 348000000,
-  "year": [
-    2014
-  ],
   "media": [
     {
       "poster": "maze_runner_1.webp",
@@ -156,5 +153,8 @@
   "description": [
     "Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow \"runners\" for a shot at escape."
   ],
-  "relatedTitlesKey": "bc33d14754daed641df7a296"
+  "relatedTitlesKey": "bc33d14754daed641df7a296",
+  "releaseDate": [
+    "09/19/2014"
+  ]
 }

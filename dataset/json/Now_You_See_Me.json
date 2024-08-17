@@ -129,9 +129,6 @@
   ],
   "budget": 75000000,
   "boxOffice": 352000000,
-  "year": [
-    2013
-  ],
   "media": [
     {
       "poster": "now_you_see_me.webp",
@@ -141,5 +138,8 @@
   "rating": 1,
   "description": [
     "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money."
+  ],
+  "releaseDate": [
+    "05/31/2013"
   ]
 }

@@ -139,9 +139,6 @@
     }
   ],
   "boxOffice": 791000000,
-  "year": [
-    2018
-  ],
   "media": [
     {
       "poster": "mi_6.webp",
@@ -152,5 +149,8 @@
   "description": [
     "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong."
   ],
-  "relatedTitlesKey": "7201769b07df74e644bc0b02"
+  "relatedTitlesKey": "7201769b07df74e644bc0b02",
+  "releaseDate": [
+    "07/27/2018"
+  ]
 }

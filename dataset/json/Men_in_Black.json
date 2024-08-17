@@ -125,9 +125,6 @@
     }
   ],
   "boxOffice": 589000000,
-  "year": [
-    1997
-  ],
   "media": [
     {
       "poster": "mib_1.webp",
@@ -138,5 +135,8 @@
   "description": [
     "A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth."
   ],
-  "relatedTitlesKey": "821493c59c822fff3c691354"
+  "relatedTitlesKey": "821493c59c822fff3c691354",
+  "releaseDate": [
+    "07/02/1997"
+  ]
 }

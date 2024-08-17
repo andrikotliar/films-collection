@@ -145,9 +145,6 @@
     }
   ],
   "boxOffice": 789000000,
-  "year": [
-    2013
-  ],
   "media": [
     {
       "poster": "fast_and_furious_6.webp",
@@ -158,5 +155,8 @@
   "description": [
     "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty."
   ],
-  "relatedTitlesKey": "60e1ed9423ed8b0c24b751c1"
+  "relatedTitlesKey": "60e1ed9423ed8b0c24b751c1",
+  "releaseDate": [
+    "05/24/2013"
+  ]
 }

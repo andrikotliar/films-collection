@@ -145,9 +145,6 @@
     }
   ],
   "boxOffice": 186000000,
-  "year": [
-    2011
-  ],
   "media": [
     {
       "poster": "hugo.webp",
@@ -162,5 +159,8 @@
     "watchCount": {
       "real": 1
     }
-  }
+  },
+  "releaseDate": [
+    "11/23/2011"
+  ]
 }

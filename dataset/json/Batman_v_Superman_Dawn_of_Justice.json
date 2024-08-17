@@ -132,9 +132,6 @@
   ],
   "budget": 250000000,
   "boxOffice": 874000000,
-  "year": [
-    2016
-  ],
   "media": [
     {
       "poster": "batman_v_superman.webp",
@@ -145,5 +142,8 @@
   "description": [
     "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs."
   ],
-  "relatedTitlesKey": "d923cc31cdf721e7ddeb1616"
+  "relatedTitlesKey": "d923cc31cdf721e7ddeb1616",
+  "releaseDate": [
+    "03/25/2016"
+  ]
 }

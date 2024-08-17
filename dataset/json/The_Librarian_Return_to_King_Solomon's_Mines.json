@@ -119,9 +119,6 @@
       ]
     }
   ],
-  "year": [
-    2006
-  ],
   "media": [
     {
       "poster": "librarian_2.webp",
@@ -132,5 +129,8 @@
   "description": [
     "Librarian-turned-adventurer Flynn Carsen endeavors to find King Solomon's mines."
   ],
-  "relatedTitlesKey": "4eeabb329f07f4eb238a45d8"
+  "relatedTitlesKey": "4eeabb329f07f4eb238a45d8",
+  "releaseDate": [
+    "12/03/2006"
+  ]
 }

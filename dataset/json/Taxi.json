@@ -102,9 +102,6 @@
   ],
   "budget": 9000000,
   "boxOffice": 44000000,
-  "year": [
-    1998
-  ],
   "media": [
     {
       "poster": "taxi_1.webp",
@@ -115,5 +112,8 @@
   "description": [
     "To work off his tarnished driving record, a hip taxi driver must chauffeur a loser police inspector on the trail of German bank robbers."
   ],
-  "relatedTitlesKey": "e4250279694fbcf5a7ba81c4"
+  "relatedTitlesKey": "e4250279694fbcf5a7ba81c4",
+  "releaseDate": [
+    "04/04/1998"
+  ]
 }

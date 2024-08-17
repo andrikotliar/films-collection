@@ -145,9 +145,6 @@
   ],
   "budget": 152000000,
   "boxOffice": 1130000000,
-  "year": [
-    2019
-  ],
   "media": [
     {
       "poster": "captain_marvel.webp",
@@ -158,5 +155,8 @@
   "description": [
     "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races."
   ],
-  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "03/08/2019"
+  ]
 }

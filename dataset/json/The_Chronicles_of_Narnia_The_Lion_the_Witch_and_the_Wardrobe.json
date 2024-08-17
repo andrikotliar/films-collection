@@ -164,9 +164,6 @@
     }
   ],
   "boxOffice": 745000000,
-  "year": [
-    2005
-  ],
   "media": [
     {
       "poster": "narnia_1.webp",
@@ -177,5 +174,8 @@
   "description": [
     "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion."
   ],
-  "relatedTitlesKey": "2039379e6200a04af6a89124"
+  "relatedTitlesKey": "2039379e6200a04af6a89124",
+  "releaseDate": [
+    "12/09/2005"
+  ]
 }

@@ -150,9 +150,6 @@
     }
   ],
   "boxOffice": 864000000,
-  "year": [
-    2017
-  ],
   "media": [
     {
       "poster": "guardians_of_the_galaxy_2.webp",
@@ -163,5 +160,8 @@
   "description": [
     "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage."
   ],
-  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "05/05/2017"
+  ]
 }

@@ -127,9 +127,6 @@
     }
   ],
   "boxOffice": 416000000,
-  "year": [
-    1999
-  ],
   "media": [
     {
       "poster": "mummy_1.webp",
@@ -140,5 +137,8 @@
   "description": [
     "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreck havoc as he searches for the reincarnation of his long-lost love."
   ],
-  "relatedTitlesKey": "c898b2b52dfcdd0b5a0f636e"
+  "relatedTitlesKey": "c898b2b52dfcdd0b5a0f636e",
+  "releaseDate": [
+    "05/07/1999"
+  ]
 }

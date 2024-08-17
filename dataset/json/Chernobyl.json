@@ -185,9 +185,6 @@
       ]
     }
   ],
-  "year": [
-    2019
-  ],
   "series": {
     "episodesTotal": 5,
     "seasons": [
@@ -212,5 +209,8 @@
     "watchCount": {
       "real": 2
     }
-  }
+  },
+  "releaseDate": [
+    "05/06/2019"
+  ]
 }

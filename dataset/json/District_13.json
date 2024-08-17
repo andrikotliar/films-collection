@@ -107,9 +107,6 @@
   ],
   "budget": 14000000,
   "boxOffice": 12000000,
-  "year": [
-    2004
-  ],
   "media": [
     {
       "poster": "d13_1.webp",
@@ -120,5 +117,8 @@
   "description": [
     "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb."
   ],
-  "relatedTitlesKey": "009b92287c5919f2d6278e48"
+  "relatedTitlesKey": "009b92287c5919f2d6278e48",
+  "releaseDate": [
+    "11/10/2004"
+  ]
 }

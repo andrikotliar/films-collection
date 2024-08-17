@@ -126,9 +126,6 @@
     }
   ],
   "boxOffice": 865000000,
-  "year": [
-    2013
-  ],
   "media": [
     {
       "poster": "hunger_games_2.webp",
@@ -139,5 +136,8 @@
   "description": [
     "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem."
   ],
-  "relatedTitlesKey": "ee0e6048d16760e2bc2c11d3"
+  "relatedTitlesKey": "ee0e6048d16760e2bc2c11d3",
+  "releaseDate": [
+    "11/22/2013"
+  ]
 }

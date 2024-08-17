@@ -163,9 +163,6 @@
     }
   ],
   "boxOffice": 370000000,
-  "year": [
-    2014
-  ],
   "media": [
     {
       "poster": "edge_of_tomorow.webp",
@@ -175,5 +172,8 @@
   "rating": 3,
   "description": [
     "A soldier fighting aliens gets to relive the same day over and over again, the day restarting every time he dies."
+  ],
+  "releaseDate": [
+    "06/06/2014"
   ]
 }

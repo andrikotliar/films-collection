@@ -313,9 +313,6 @@
     }
   ],
   "boxOffice": 1120000000,
-  "year": [
-    2003
-  ],
   "media": [
     {
       "poster": "middle_earth_6.webp",
@@ -326,5 +323,8 @@
   "description": [
     "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
   ],
-  "relatedTitlesKey": "148895975f95315e06a7cc17"
+  "relatedTitlesKey": "148895975f95315e06a7cc17",
+  "releaseDate": [
+    "12/17/2003"
+  ]
 }

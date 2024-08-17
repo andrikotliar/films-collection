@@ -132,9 +132,6 @@
   ],
   "budget": 140000000,
   "boxOffice": 371000000,
-  "year": [
-    2011
-  ],
   "media": [
     {
       "poster": "captain_america_1.webp",
@@ -145,5 +142,8 @@
   "description": [
     "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization."
   ],
-  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "07/22/2011"
+  ]
 }

@@ -234,9 +234,6 @@
     }
   ],
   "boxOffice": 956000000,
-  "year": [
-    2014
-  ],
   "media": [
     {
       "poster": "middle_earth_3.webp",
@@ -247,5 +244,8 @@
   "description": [
     "Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness."
   ],
-  "relatedTitlesKey": "148895975f95315e06a7cc17"
+  "relatedTitlesKey": "148895975f95315e06a7cc17",
+  "releaseDate": [
+    "12/17/2014"
+  ]
 }

@@ -179,9 +179,6 @@
     }
   ],
   "boxOffice": 630000000,
-  "year": [
-    2015
-  ],
   "media": [
     {
       "poster": "martian.webp",
@@ -191,5 +188,8 @@
   "rating": 2,
   "description": [
     "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive."
+  ],
+  "releaseDate": [
+    "10/02/2015"
   ]
 }

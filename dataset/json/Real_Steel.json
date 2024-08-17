@@ -114,9 +114,6 @@
   ],
   "budget": 110000000,
   "boxOffice": 300000000,
-  "year": [
-    2011
-  ],
   "media": [
     {
       "poster": "real_steel.webp",
@@ -126,5 +123,8 @@
   "rating": 3,
   "description": [
     "In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot."
+  ],
+  "releaseDate": [
+    "10/07/2011"
   ]
 }

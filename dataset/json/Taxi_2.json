@@ -107,9 +107,6 @@
   ],
   "budget": 10000000,
   "boxOffice": 64000000,
-  "year": [
-    2000
-  ],
   "media": [
     {
       "poster": "taxi_2.webp",
@@ -120,5 +117,8 @@
   "description": [
     "Police inspector Emilien and his taxi-driver pal Daniel are back, this time on the tail of a group of Japanese yakuza."
   ],
-  "relatedTitlesKey": "e4250279694fbcf5a7ba81c4"
+  "relatedTitlesKey": "e4250279694fbcf5a7ba81c4",
+  "releaseDate": [
+    "03/29/2000"
+  ]
 }

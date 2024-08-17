@@ -106,9 +106,6 @@
   ],
   "budget": 93000000,
   "boxOffice": 368000000,
-  "year": [
-    2001
-  ],
   "media": [
     {
       "poster": "jurassic_park_3.webp",
@@ -119,5 +116,8 @@
   "description": [
     "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants."
   ],
-  "relatedTitlesKey": "49f8964ab8146674fa031483"
+  "relatedTitlesKey": "49f8964ab8146674fa031483",
+  "releaseDate": [
+    "07/18/2001"
+  ]
 }

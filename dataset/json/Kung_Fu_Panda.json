@@ -178,9 +178,6 @@
     }
   ],
   "boxOffice": 632000000,
-  "year": [
-    2008
-  ],
   "media": [
     {
       "poster": "kungfu_panda.webp",
@@ -190,5 +187,8 @@
   "rating": 2,
   "description": [
     "The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance. However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a novice in martial arts."
+  ],
+  "releaseDate": [
+    "06/06/2008"
   ]
 }

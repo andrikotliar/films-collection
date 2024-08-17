@@ -184,9 +184,6 @@
     }
   ],
   "boxOffice": 1520000000,
-  "year": [
-    2012
-  ],
   "media": [
     {
       "poster": "avengers_1.webp",
@@ -197,5 +194,8 @@
   "description": [
     "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
   ],
-  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "05/04/2012"
+  ]
 }

@@ -220,10 +220,6 @@
       "title": "Fantasy Worlds"
     }
   ],
-  "year": [
-    2019,
-    2021
-  ],
   "series": {
     "episodesTotal": 16,
     "seasons": [
@@ -253,5 +249,9 @@
   "description": [
     "In the first season, Geralt of Rivia, a monster hunter known as a Witcher, navigates a world filled with dangerous creatures and complex political intrigue. He crosses paths with Yennefer, a powerful sorceress, and Ciri, a young princess with a destiny tied to his own. The three destinies converge in a world where the line between good and evil is blurred.",
     "Geralt embraces his destiny as he protects Ciri from the forces battling for control of the Continent — and from the mysterious power she possesses."
+  ],
+  "releaseDate": [
+    "12/20/2019",
+    "12/17/2021"
   ]
 }

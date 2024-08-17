@@ -129,9 +129,6 @@
     }
   ],
   "boxOffice": 975000000,
-  "year": [
-    2001
-  ],
   "media": [
     {
       "poster": "harry_potter_1.webp",
@@ -142,5 +139,8 @@
   "description": [
     "An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world."
   ],
-  "relatedTitlesKey": "21fe420121bd2018a3c76f32"
+  "relatedTitlesKey": "21fe420121bd2018a3c76f32",
+  "releaseDate": [
+    "11/16/2001"
+  ]
 }

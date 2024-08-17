@@ -135,9 +135,6 @@
     }
   ],
   "boxOffice": 474000000,
-  "year": [
-    1989
-  ],
   "media": [
     {
       "poster": "indiana_jones_3.webp",
@@ -148,5 +145,8 @@
   "description": [
     "In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Professor Henry \"Indiana\" Jones, Jr. finds himself up against Adolf Hitler's Nazis again to stop them from obtaining its powers."
   ],
-  "relatedTitlesKey": "b6df4d99b3eecf421590dd26"
+  "relatedTitlesKey": "b6df4d99b3eecf421590dd26",
+  "releaseDate": [
+    "05/24/1989"
+  ]
 }

@@ -132,9 +132,6 @@
     }
   ],
   "boxOffice": 1200000000,
-  "year": [
-    2013
-  ],
   "media": [
     {
       "poster": "iron_man_3.webp",
@@ -150,5 +147,8 @@
     "watchCount": {
       "real": 2
     }
-  }
+  },
+  "releaseDate": [
+    "05/03/2013"
+  ]
 }

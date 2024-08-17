@@ -182,9 +182,6 @@
     }
   ],
   "boxOffice": 1400000000,
-  "year": [
-    2015
-  ],
   "media": [
     {
       "poster": "avengers_2.webp",
@@ -195,5 +192,8 @@
   "description": [
     "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan."
   ],
-  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "05/01/2015"
+  ]
 }

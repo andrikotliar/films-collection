@@ -156,9 +156,6 @@
     }
   ],
   "boxOffice": 677000000,
-  "year": [
-    2014
-  ],
   "media": [
     {
       "poster": "interstellar.webp",
@@ -168,5 +165,8 @@
   "rating": 3,
   "description": [
     "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+  ],
+  "releaseDate": [
+    "11/07/2014"
   ]
 }

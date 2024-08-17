@@ -117,9 +117,6 @@
   ],
   "budget": 85000000,
   "boxOffice": 363000000,
-  "year": [
-    2009
-  ],
   "media": [
     {
       "poster": "fast_and_furious_4.webp",
@@ -130,5 +127,8 @@
   "description": [
     "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation."
   ],
-  "relatedTitlesKey": "60e1ed9423ed8b0c24b751c1"
+  "relatedTitlesKey": "60e1ed9423ed8b0c24b751c1",
+  "releaseDate": [
+    "04/03/2009"
+  ]
 }

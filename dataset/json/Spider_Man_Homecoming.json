@@ -129,9 +129,6 @@
     }
   ],
   "boxOffice": 880000000,
-  "year": [
-    2017
-  ],
   "media": [
     {
       "poster": "mcu_spider_man_1.webp",
@@ -142,5 +139,8 @@
   "description": [
     "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City."
   ],
-  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "07/07/2017"
+  ]
 }

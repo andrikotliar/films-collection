@@ -93,9 +93,6 @@
   ],
   "budget": 40000000,
   "boxOffice": 245000000,
-  "year": [
-    1990
-  ],
   "media": [
     {
       "poster": "back_to_the_future_3.webp",
@@ -106,5 +103,8 @@
   "description": [
     "Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about to be killed by Buford \"Mad Dog\"Tannen. Marty McFly travels back in time to save his friend."
   ],
-  "relatedTitlesKey": "cb583126d928731112ea5595"
+  "relatedTitlesKey": "cb583126d928731112ea5595",
+  "releaseDate": [
+    "05/25/1990"
+  ]
 }

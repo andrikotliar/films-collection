@@ -120,9 +120,6 @@
   ],
   "budget": 120000000,
   "boxOffice": 347000000,
-  "year": [
-    2004
-  ],
   "media": [
     {
       "poster": "i_robot.webp",
@@ -132,5 +129,8 @@
   "rating": 3,
   "description": [
     "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity."
+  ],
+  "releaseDate": [
+    "07/16/2004"
   ]
 }

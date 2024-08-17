@@ -161,9 +161,6 @@
     }
   ],
   "boxOffice": 131000000,
-  "year": [
-    1986
-  ],
   "media": [
     {
       "poster": "alien_2.webp",
@@ -174,5 +171,8 @@
   "description": [
     "Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators."
   ],
-  "relatedTitlesKey": "63306d5a4ad3381888cd3188"
+  "relatedTitlesKey": "63306d5a4ad3381888cd3188",
+  "releaseDate": [
+    "07/18/1986"
+  ]
 }

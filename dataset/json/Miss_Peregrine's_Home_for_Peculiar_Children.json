@@ -127,9 +127,6 @@
   ],
   "budget": 110000000,
   "boxOffice": 296000000,
-  "year": [
-    2016
-  ],
   "media": [
     {
       "poster": "miss_peregrin.webp",
@@ -139,5 +136,8 @@
   "rating": 2,
   "description": [
     "When Jacob discovers clues to a mystery that stretches across time, he finds Miss Peregrine's Home for Peculiar Children. But the danger deepens after he gets to know the residents and learns about their special powers."
+  ],
+  "releaseDate": [
+    "09/30/2016"
   ]
 }

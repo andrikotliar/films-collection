@@ -145,9 +145,6 @@
   ],
   "budget": 185000000,
   "boxOffice": 467000000,
-  "year": [
-    2013
-  ],
   "media": [
     {
       "poster": "star_trek_2.webp",
@@ -158,5 +155,8 @@
   "description": [
     "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction."
   ],
-  "relatedTitlesKey": "d7e37cea52e0bb90c216ad37"
+  "relatedTitlesKey": "d7e37cea52e0bb90c216ad37",
+  "releaseDate": [
+    "05/17/2013"
+  ]
 }

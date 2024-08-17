@@ -183,9 +183,6 @@
       "title": "Fantasy Worlds"
     }
   ],
-  "year": [
-    2021
-  ],
   "series": {
     "episodesTotal": 9,
     "seasons": [
@@ -205,5 +202,8 @@
   "rating": 2,
   "description": [
     "Set in utopian Piltover and the oppressed underground of Zaun, the story follows the origins of two iconic League champions-and the power that will tear them apart."
+  ],
+  "releaseDate": [
+    "11/06/2021"
   ]
 }

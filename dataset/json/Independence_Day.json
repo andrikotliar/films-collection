@@ -132,9 +132,6 @@
     }
   ],
   "boxOffice": 817000000,
-  "year": [
-    1996
-  ],
   "media": [
     {
       "poster": "independence_day.webp",
@@ -149,5 +146,8 @@
     "watchCount": {
       "approx": 10
     }
-  }
+  },
+  "releaseDate": [
+    "07/03/1996"
+  ]
 }

@@ -121,9 +121,6 @@
   ],
   "budget": 160000000,
   "boxOffice": 1150000000,
-  "year": [
-    2018
-  ],
   "media": [
     {
       "poster": "aquaman.webp",
@@ -134,5 +131,8 @@
   "description": [
     "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land."
   ],
-  "relatedTitlesKey": "d923cc31cdf721e7ddeb1616"
+  "relatedTitlesKey": "d923cc31cdf721e7ddeb1616",
+  "releaseDate": [
+    "12/21/2018"
+  ]
 }

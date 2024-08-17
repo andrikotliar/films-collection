@@ -149,9 +149,6 @@
     }
   ],
   "boxOffice": 585000000,
-  "year": [
-    2008
-  ],
   "media": [
     {
       "poster": "iron_man_1.webp",
@@ -167,5 +164,8 @@
     "watchCount": {
       "approx": 5
     }
-  }
+  },
+  "releaseDate": [
+    "05/02/2008"
+  ]
 }
