@@ -26,7 +26,7 @@ const getFilmSummaryConfig = (film: FilmData): LinkGroup[] => {
   return [
     ...seriesExtension,
     {
-      value: film.year[0],
+      value: film.releaseDate[0],
       property: 'year',
       title: !isSeries ? 'Release Year' : 'First season year',
     },

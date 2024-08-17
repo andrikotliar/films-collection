@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { FilmData } from '@/common/types';
-import { buildMediaPath } from '@/helpers';
+import { buildMediaPath, getYearFromDate } from '@/helpers';
 import styles from './FoundFilm.module.css';
 
 type FoundFilmProps = {
@@ -27,7 +27,9 @@ const FoundFilm: FC<FoundFilmProps> = ({ film, onFilmOpen }) => {
       <div className={styles.info}>
         <h3 className={styles.title}>{film.title}</h3>
         <p className={styles.description}>{film.description[0]}</p>
-        <div className={styles.year}>{film.year[0]}</div>
+        <div className={styles.year}>
+          {getYearFromDate(film.releaseDate[0])}
+        </div>
       </div>
     </Link>
   );

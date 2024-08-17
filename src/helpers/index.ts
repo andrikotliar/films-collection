@@ -7,3 +7,4 @@ export { debounce } from './debounce';
 export { handleImageError } from './handle-image-error';
 export { buildRouterLink } from './build-router-link';
 export { searchFilm } from './search-film';
+export { getYearFromDate } from './get-year-from-date';

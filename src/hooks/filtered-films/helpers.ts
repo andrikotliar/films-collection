@@ -2,6 +2,8 @@ import { PER_PAGE } from '@/common/constants';
 import { FilmData } from '@/common/types';
 import { countObjectKeys } from '@/helpers/count-keys';
 
+const PARAMS_TO_SKIP = ['endDate'];
+
 const filterFilms = (
   list: FilmData[],
   filterParams: { [key: string]: any },
@@ -13,6 +15,10 @@ const filterFilms = (
   try {
     const filteredFilms = list.filter((film) => {
       const match = Object.keys(filterParams).every((property) => {
+        if (PARAMS_TO_SKIP.includes(property)) {
+          return true;
+        }
+
         if (property === 'cast') {
           return film.cast.find((actor) => actor.actorId === filterParams.cast);
         }
@@ -56,6 +62,14 @@ const filterFilms = (
           return film[property]?.some(
             (item) => item.awardId === filterParams[property],
           );
+        }
+
+        if (property === 'startDate' && filterParams.endDate) {
+          const filmBaseDate = new Date(film.releaseDate[0]).getTime();
+          const startDate = new Date(filterParams.startDate).getTime();
+          const endDate = new Date(filterParams.endDate).getTime();
+
+          return filmBaseDate >= startDate && filmBaseDate <= endDate;
         }
 
         return (film as any)[property].some((value: string | number) => {

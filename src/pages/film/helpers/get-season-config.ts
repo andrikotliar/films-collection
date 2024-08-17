@@ -9,7 +9,7 @@ const getSeasonConfig = (film: FilmData, activeIndex: number) => {
 
   return [
     {
-      value: film.year[activeIndex],
+      value: film.releaseDate[activeIndex],
       property: 'seasonYear',
       title: 'Release year',
     },
