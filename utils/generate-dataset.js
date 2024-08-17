@@ -27,7 +27,11 @@ const generateCombinedDataset = async () => {
 
   const dataset = await Promise.all(promises);
 
-  const sortedDataset = dataset.sort((a, b) => (a.year < b.year ? 1 : -1));
+  const sortedDataset = dataset.sort(
+    (a, b) =>
+      new Date(b.releaseDate[0]).getTime() -
+      new Date(a.releaseDate[0]).getTime(),
+  );
 
   const result = {
     films: sortedDataset,
