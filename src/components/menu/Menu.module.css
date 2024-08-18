@@ -20,6 +20,6 @@
 
 .activeLink {
   color: #fff;
-  background-color: var(--main-color);
+  background-color: var(--blue-default);
   pointer-events: none;
 }

@@ -1,5 +1,5 @@
 .link {
-  color: var(--main-color);
+  color: var(--blue-default);
   text-decoration: underline;
   transition: color 0.3s;
 }

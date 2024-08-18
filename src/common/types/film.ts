@@ -78,6 +78,7 @@ type FilmData = {
   rating: number;
   relatedTitlesKey?: string;
   related: RelatedFilms;
+  watchCount?: number;
 };
 
 type FilmsList = {

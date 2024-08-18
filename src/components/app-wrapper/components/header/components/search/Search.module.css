@@ -9,7 +9,7 @@
 
 .input {
   font-size: 14px;
-  color: var(--main-color);
+  color: var(--blue-default);
   padding: 10px;
   width: 100%;
   padding-left: 40px;
@@ -21,7 +21,7 @@
 }
 
 .input:focus {
-  border-color: var(--main-color);
+  border-color: var(--blue-default);
 }
 
 .searchIcon {
@@ -52,7 +52,7 @@
 }
 
 .input:focus + .searchIcon {
-  color: var(--main-color);
+  color: var(--blue-default);
 }
 
 .menu {

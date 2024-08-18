@@ -1,11 +1,13 @@
 :root {
-  --main-color: #006db7;
-  --green: #00B5C6;
+  --blue-default: #006db7;
+  --blue-light: #328dad;
+  --blue-invisible: #c8f0fd;
 
-  --light-blue-background: #fbfeff;
-  --light-blue-accent: #328dad;
+  --green: #00B5C6;
+  --green-success: #4db6ac;
 
   --yellow-gold: #ffbf00;
+  --yellow-saturated: #ffb74d;
   --yellow-sand: #ffedd6;
 
   --gray: #ddd;
@@ -14,7 +16,9 @@
   --gray-light: #f2f2f2;
   --gray-dark: #777;
 
-  --main-gradient: linear-gradient(45deg, var(--main-color), var(--green));
+  --red: #d32f2f;
+
+  --main-gradient: linear-gradient(45deg, var(--blue-default), var(--green));
   --app-border: 1px solid var(--gray);
   --app-border-radius: 8px;
 

@@ -11,7 +11,7 @@
 }
 
 .primary {
-  background-color: var(--main-color);
+  background-color: var(--blue-default);
 }
 
 .secondary {
@@ -26,7 +26,7 @@
 }
 
 .active {
-  background-color: var(--main-color);
+  background-color: var(--blue-default);
 }
 
 .hidden {
@@ -56,7 +56,7 @@
   }
   
   .active:hover {
-    background-color: var(--main-color);
+    background-color: var(--blue-default);
   }
 
   .ghost:hover {

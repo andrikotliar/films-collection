@@ -1,20 +1,17 @@
-import { MediaItem } from '@/common/types';
 import { FC } from 'react';
 import styles from './Poster.module.css';
 import { buildMediaPath } from '@/helpers';
 
 type PosterProps = {
-  media: MediaItem;
+  posterUrl: string;
   title: string;
 };
 
-const Poster: FC<PosterProps> = ({ media, title }) => {
-  const posterUrl = buildMediaPath('posters', media.poster);
-
+const Poster: FC<PosterProps> = ({ posterUrl, title }) => {
   return (
     <div className={styles.poster}>
       <img
-        src={posterUrl}
+        src={buildMediaPath('posters', posterUrl)}
         alt={`Poster of "${title}"`}
         className={styles.image}
       />

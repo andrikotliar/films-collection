@@ -27,7 +27,7 @@
 }
 .formCheckbox input:checked + .iconWrapper {
   background-image: var(--main-gradient);
-  border-color: var(--main-color);
+  border-color: var(--blue-default);
 }
 .formCheckbox input:checked + .iconWrapper .icon {
   display: block;
@@ -38,5 +38,5 @@
   user-select: none;
 }
 .formCheckbox:hover .title {
-  color: var(--main-color);
+  color: var(--blue-default);
 }

@@ -30,7 +30,7 @@
 }
 
 .film:not(:disabled):hover .title {
-  color: var(--main-color);
+  color: var(--blue-default);
 }
 
 .info {

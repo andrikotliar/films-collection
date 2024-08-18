@@ -1,6 +1,5 @@
-import { PER_PAGE } from '@/common/constants';
 import { FilmData } from '@/common/types';
-import { countObjectKeys } from '@/helpers/count-keys';
+import { countObjectKeys } from '@/helpers';
 
 const PARAMS_TO_SKIP = ['endDate'];
 
@@ -72,6 +71,10 @@ const filterFilms = (
           return filmBaseDate >= startDate && filmBaseDate <= endDate;
         }
 
+        if (property === 'rating') {
+          return film.rating === Number(filterParams[property]);
+        }
+
         return (film as any)[property].some((value: string | number) => {
           return filterParams[property].includes(String(value));
         });
@@ -89,17 +92,4 @@ const filterFilms = (
   }
 };
 
-const paginateFilms = (films: FilmData[], pageIndex: number) => {
-  const sliceStart = PER_PAGE * pageIndex;
-  const sliceEnd = PER_PAGE * (pageIndex + 1);
-
-  const paginatedFilms = films.slice(sliceStart, sliceEnd);
-  const pagesCount = Math.ceil(films.length / PER_PAGE);
-
-  return {
-    paginatedFilms,
-    pagesCount,
-  };
-};
-
-export { paginateFilms, filterFilms };
+export { filterFilms };

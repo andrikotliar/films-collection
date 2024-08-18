@@ -45,6 +45,11 @@ const FilmPage = () => {
       <SummarySection film={film} activeIndex={activeIndex} />
 
       <Section>
+        <SectionTitle>Crew</SectionTitle>
+        <CrewList crew={film.crew} />
+      </Section>
+
+      <Section>
         <SectionTitle>
           Description
           {film.series?.seasons[activeIndex] && (
@@ -52,11 +57,6 @@ const FilmPage = () => {
           )}
         </SectionTitle>
         <Description>{film.description[activeIndex]}</Description>
-      </Section>
-
-      <Section>
-        <SectionTitle>Crew</SectionTitle>
-        <CrewList crew={film.crew} />
       </Section>
 
       <Section>

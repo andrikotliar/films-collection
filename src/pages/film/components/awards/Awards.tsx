@@ -27,7 +27,7 @@ const Awards: FC<AwardsProps> = ({ awards }) => {
             <Icon name={awardsConfig[awardId].icon} size={60} />
             <div className={styles.main}>
               <h3 className={styles.title}>
-                <Link to={buildQueryLink('awards', awardId)}>
+                <Link to={buildQueryLink({ awards: awardId })}>
                   {awardsConfig[awardId].title}
                 </Link>
               </h3>

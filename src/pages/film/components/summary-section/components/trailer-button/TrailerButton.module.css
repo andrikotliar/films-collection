@@ -1,0 +1,52 @@
+.playButton {
+  color: var(--blue-default);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.playButton:focus-visible {
+  border-color: var(--main-color);
+}
+
+.playButton:hover {
+  border-color: var(--gray);
+  background-color: var(--gray-invisible);
+}
+
+.playButtonIcon {
+  color: var(--blue-default);
+  width: 20px;
+  height: 20px;
+}
+
+.playButton span {
+  flex-shrink: 0;
+}
+
+.trailer {
+  width: 80%;
+}
+
+.videoWrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: var(--app-border-radius);
+}
+
+.videoWrapper iframe {
+  border: none;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+@media (max-width: 580px) {
+  .video {
+    width: 90%;
+  }
+}

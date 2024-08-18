@@ -1,9 +1,15 @@
 import { FilmData } from '@/common/types';
-import { Summary } from '@/pages/film/components/summary/Summary';
-import { FC } from 'react';
+import { FC, useMemo } from 'react';
 import styles from './SummarySection.module.css';
 import { Title } from '../title/Title';
-import { Poster } from './components';
+import {
+  Poster,
+  Rating,
+  Summary,
+  TrailerButton,
+  WatchCount,
+} from './components';
+import { getFilmSummaryConfig } from '../../helpers';
 
 type SummarySectionProps = {
   film: FilmData;
@@ -11,12 +17,21 @@ type SummarySectionProps = {
 };
 
 const SummarySection: FC<SummarySectionProps> = ({ film, activeIndex }) => {
+  const filmConfig = useMemo(() => {
+    return getFilmSummaryConfig(film, activeIndex);
+  }, [film, activeIndex]);
+
   return (
     <div className={styles.wrapper}>
-      <Poster media={film.media[activeIndex]} title={film.title} />
+      <Poster posterUrl={film.media[activeIndex].poster} title={film.title} />
       <div className={styles.rightColumn}>
         <Title>{film.title}</Title>
-        <Summary film={film} activeIndex={activeIndex} />
+        <Summary config={filmConfig} />
+        <div className={styles.footer}>
+          <TrailerButton trailer={film.media[activeIndex].trailer} />
+          <Rating value={film.rating} />
+          <WatchCount value={film.watchCount} />
+        </div>
       </div>
     </div>
   );

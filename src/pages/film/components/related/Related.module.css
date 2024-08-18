@@ -18,8 +18,8 @@
 .activeTabButton,
 .activeTabButton:hover {
   color: #fff;
-  border-color: var(--main-color);
-  background-color: var(--main-color);
+  border-color: var(--blue-default);
+  background-color: var(--blue-default);
 }
 
 .slider {

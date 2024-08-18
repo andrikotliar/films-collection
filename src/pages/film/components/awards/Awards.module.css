@@ -20,7 +20,7 @@
 }
 
 .title:hover {
-  color: var(--main-color);
+  color: var(--blue-default);
 }
 
 .nominations {

@@ -1,0 +1,18 @@
+.link {
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 4px;
+}
+
+.blue {
+  color: #fff;
+  background-color: var(--blue-default);
+}
+
+.sand {
+  background-color: var(--yellow-sand);
+}
+
+.gray {
+  background-color: var(--gray-light);
+}

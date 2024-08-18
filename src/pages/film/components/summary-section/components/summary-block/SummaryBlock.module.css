@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.label {
+  font-size: 12px;
+  text-transform: uppercase;
+  width: 135px;
+  flex-shrink: 0;
+}
+
+.content {
+  font-size: 14px;
+}
