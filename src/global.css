@@ -18,6 +18,8 @@
 
   --red: #d32f2f;
 
+  --purple-dark: #8f5bab;
+
   --main-gradient: linear-gradient(45deg, var(--blue-default), var(--green));
   --app-border: 1px solid var(--gray);
   --app-border-radius: 8px;

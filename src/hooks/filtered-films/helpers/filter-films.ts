@@ -2,6 +2,7 @@ import { FilmData } from '@/common/types';
 import { countObjectKeys } from '@/helpers';
 
 const PARAMS_TO_SKIP = ['endDate'];
+const NUMBER_PROPS = ['duration', 'rating', 'watchCount'];
 
 const filterFilms = (
   list: FilmData[],
@@ -33,8 +34,8 @@ const filterFilms = (
           );
         }
 
-        if (property === 'duration') {
-          return film.duration === Number(filterParams.duration);
+        if (NUMBER_PROPS.includes(property)) {
+          return (film as any)[property] === Number(filterParams[property]);
         }
 
         if (property === 'seasons') {
@@ -69,10 +70,6 @@ const filterFilms = (
           const endDate = new Date(filterParams.endDate).getTime();
 
           return filmBaseDate >= startDate && filmBaseDate <= endDate;
-        }
-
-        if (property === 'rating') {
-          return film.rating === Number(filterParams[property]);
         }
 
         return (film as any)[property].some((value: string | number) => {
