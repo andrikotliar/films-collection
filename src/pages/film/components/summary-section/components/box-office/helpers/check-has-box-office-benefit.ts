@@ -1,4 +1,4 @@
-const hasBoxOfficeBenefit = (
+const checkHasBoxOfficeBenefit = (
   budget: number = 0,
   boxOffice: number = 0,
 ) => {
@@ -9,4 +9,4 @@ const hasBoxOfficeBenefit = (
   return false;
 };
 
-export { hasBoxOfficeBenefit };
+export { checkHasBoxOfficeBenefit };

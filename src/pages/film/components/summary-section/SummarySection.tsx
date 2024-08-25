@@ -3,6 +3,7 @@ import { FC, useMemo } from 'react';
 import styles from './SummarySection.module.css';
 import { Title } from '../title/Title';
 import {
+  BoxOffice,
   Poster,
   Rating,
   Summary,
@@ -27,6 +28,9 @@ const SummarySection: FC<SummarySectionProps> = ({ film, activeIndex }) => {
       <div className={styles.rightColumn}>
         <Title>{film.title}</Title>
         <Summary config={filmConfig} />
+        {!film.type.includes('Series') && (
+          <BoxOffice budget={film.budget} boxOffice={film.boxOffice} />
+        )}
         <div className={styles.footer}>
           <TrailerButton trailer={film.media[activeIndex].trailer} />
           <Rating value={film.rating} />

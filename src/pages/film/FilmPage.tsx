@@ -9,7 +9,6 @@ import {
   Cast,
   Awards,
   CrewList,
-  BoxOffice,
   Wrapper,
   SummarySection,
   Related,
@@ -68,13 +67,6 @@ const FilmPage = () => {
         <Section>
           <SectionTitle>Awards</SectionTitle>
           <Awards awards={film.awards} />
-        </Section>
-      )}
-
-      {(film.budget || film.boxOffice) && (
-        <Section>
-          <SectionTitle>Box Office</SectionTitle>
-          <BoxOffice budget={film.budget} boxOffice={film.boxOffice} />
         </Section>
       )}
 
