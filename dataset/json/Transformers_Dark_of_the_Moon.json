@@ -145,9 +145,6 @@
   ],
   "budget": 195000000,
   "boxOffice": 1120000000,
-  "year": [
-    2011
-  ],
   "media": [
     {
       "poster": "transformers_3.webp",
@@ -158,5 +155,8 @@
   "description": [
     "The Autobots learn of a Cybertronian spacecraft hidden on the moon, and race against the Decepticons to reach it and to learn its secrets."
   ],
-  "relatedTitlesKey": "12b3854c2936b95c086fdd68"
+  "relatedTitlesKey": "12b3854c2936b95c086fdd68",
+  "releaseDate": [
+    "06/29/2011"
+  ]
 }

@@ -99,9 +99,6 @@
   ],
   "budget": 80000000,
   "boxOffice": 124000000,
-  "year": [
-    2002
-  ],
   "media": [
     {
       "poster": "time_machine.webp",
@@ -111,5 +108,8 @@
   "rating": 2,
   "description": [
     "Hoping to alter the events of the past, a 19th century inventor instead travels 800,000 years into the future, where he finds humankind divided into two warring races."
+  ],
+  "releaseDate": [
+    "03/08/2002"
   ]
 }

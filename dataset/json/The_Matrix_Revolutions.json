@@ -115,9 +115,6 @@
   ],
   "budget": 110000000,
   "boxOffice": 427000000,
-  "year": [
-    2003
-  ],
   "media": [
     {
       "poster": "matrix_3.webp",
@@ -128,5 +125,8 @@
   "description": [
     "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith."
   ],
-  "relatedTitlesKey": "a9cbfde563018e36f2bcf883"
+  "relatedTitlesKey": "a9cbfde563018e36f2bcf883",
+  "releaseDate": [
+    "11/05/2003"
+  ]
 }

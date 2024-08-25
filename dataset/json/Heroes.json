@@ -427,13 +427,6 @@
       ]
     }
   ],
-  "year": [
-    2006,
-    2007,
-    2008,
-    2009,
-    2009
-  ],
   "series": {
     "episodesTotal": 77,
     "seasons": [
@@ -493,5 +486,12 @@
     "The heroes face new challenges as they confront government scrutiny and a malevolent villain, Arthur Petrelli. The discovery of dangerous abilities and a divided group of heroes complicate their mission to save the world from powerful threats.",
     "The heroes continue their journey, facing government forces and an ever-growing threat. A new organization, Building 26, seeks to control those with abilities, forcing the heroes into a fugitive lifestyle as they strive to protect themselves and others.",
     "The heroes deals with the carnage caused by a carnival of people with abilities. They must unite to thwart the carnival's leader, Samuel Sullivan, and face their destinies in an epic showdown."
+  ],
+  "releaseDate": [
+    "09/25/2006",
+    "09/24/2007",
+    "09/22/2008",
+    "02/02/2009",
+    "09/21/2009"
   ]
 }

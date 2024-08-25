@@ -152,9 +152,6 @@
     }
   ],
   "boxOffice": 1670000000,
-  "year": [
-    2015
-  ],
   "media": [
     {
       "poster": "jurassic_world.webp",
@@ -165,5 +162,8 @@
   "description": [
     "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree."
   ],
-  "relatedTitlesKey": "49f8964ab8146674fa031483"
+  "relatedTitlesKey": "49f8964ab8146674fa031483",
+  "releaseDate": [
+    "06/12/2015"
+  ]
 }

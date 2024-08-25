@@ -16,20 +16,22 @@ const Related: FC<RelatedFilmsProps> = ({ data, filmId }) => {
 
   return (
     <div>
-      <div className={styles.tabs}>
-        {relatedFilmsTabs.map((tab, index) => (
-          <button
-            key={tab.id}
-            onClick={() => setActiveTabIndex(index)}
-            className={classNames(styles.tabButton, {
-              [styles.activeTabButton]:
-                tab.id === relatedFilmsTabs[activeTabIndex].id,
-            })}
-          >
-            {tab.name}
-          </button>
-        ))}
-      </div>
+      {relatedFilmsTabs.length > 1 && (
+        <div className={styles.tabs}>
+          {relatedFilmsTabs.map((tab, index) => (
+            <button
+              key={tab.id}
+              onClick={() => setActiveTabIndex(index)}
+              className={classNames(styles.tabButton, {
+                [styles.activeTabButton]:
+                  tab.id === relatedFilmsTabs[activeTabIndex].id,
+              })}
+            >
+              {tab.name}
+            </button>
+          ))}
+        </div>
+      )}
       <TabContent data={relatedFilmsTabs[activeTabIndex].content} />
     </div>
   );

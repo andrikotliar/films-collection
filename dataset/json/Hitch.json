@@ -116,9 +116,6 @@
     }
   ],
   "boxOffice": 368000000,
-  "year": [
-    2005
-  ],
   "media": [
     {
       "poster": "hitch.webp",
@@ -128,5 +125,8 @@
   "rating": 1,
   "description": [
     "While helping his latest client woo the fine lady of his dreams, a professional \"date doctor\" finds that his game doesn't quite work on the gossip columnist with whom he's smitten."
+  ],
+  "releaseDate": [
+    "02/11/2005"
   ]
 }

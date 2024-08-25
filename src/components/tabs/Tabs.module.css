@@ -26,9 +26,13 @@
   background-color: #fbfbfb;
 }
 
+.tab:last-child {
+  border-right: 0;
+}
+
 .active {
   font-weight: bold;
-  color: var(--main-color);
+  color: var(--blue-default);
   pointer-events: none;
 }
 

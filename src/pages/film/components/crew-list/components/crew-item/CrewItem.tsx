@@ -16,9 +16,11 @@ const CrewItem: FC<CrewItemProps> = ({ crewItem }) => {
         {crewItem.people.map((person, idx) => (
           <li className={styles.person} key={idx}>
             <RouterLink
-              to={buildQueryLink('crew', {
-                role: crewItem.role,
-                name: person.name,
+              to={buildQueryLink({
+                crew: {
+                  role: crewItem.role,
+                  name: person.name,
+                },
               })}
             >
               {person.name}

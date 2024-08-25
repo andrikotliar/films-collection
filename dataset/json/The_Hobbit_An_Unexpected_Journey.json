@@ -209,9 +209,6 @@
     }
   ],
   "boxOffice": 1020000000,
-  "year": [
-    2012
-  ],
   "media": [
     {
       "poster": "middle_earth_1.webp",
@@ -222,5 +219,8 @@
   "description": [
     "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug."
   ],
-  "relatedTitlesKey": "148895975f95315e06a7cc17"
+  "relatedTitlesKey": "148895975f95315e06a7cc17",
+  "releaseDate": [
+    "12/14/2012"
+  ]
 }

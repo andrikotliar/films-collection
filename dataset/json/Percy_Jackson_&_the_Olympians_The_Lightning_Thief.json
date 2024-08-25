@@ -144,9 +144,6 @@
   ],
   "budget": 95000000,
   "boxOffice": 226000000,
-  "year": [
-    2010
-  ],
   "media": [
     {
       "poster": "percy_jackson.webp",
@@ -156,5 +153,8 @@
   "rating": 2,
   "description": [
     "A teenager discovers he's the descendant of a Greek god and sets out on an adventure to settle an on-going battle between the gods."
+  ],
+  "releaseDate": [
+    "02/12/2010"
   ]
 }

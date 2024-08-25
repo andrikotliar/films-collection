@@ -124,9 +124,6 @@
   ],
   "budget": 15000000,
   "boxOffice": 98000000,
-  "year": [
-    1987
-  ],
   "media": [
     {
       "poster": "predator.webp",
@@ -136,5 +133,8 @@
   "rating": 1,
   "description": [
     "A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior."
+  ],
+  "releaseDate": [
+    "06/12/1987"
   ]
 }

@@ -93,9 +93,6 @@
   ],
   "budget": 59000000,
   "boxOffice": 383000000,
-  "year": [
-    2002
-  ],
   "media": [
     {
       "poster": "ice_age_1.webp",
@@ -106,5 +103,8 @@
   "description": [
     "Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe."
   ],
-  "relatedTitlesKey": "ea12ede29685f88edcb67453"
+  "relatedTitlesKey": "ea12ede29685f88edcb67453",
+  "releaseDate": [
+    "03/15/2002"
+  ]
 }

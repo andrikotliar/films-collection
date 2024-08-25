@@ -171,9 +171,6 @@
   ],
   "budget": 55000000,
   "boxOffice": 353000000,
-  "year": [
-    2017
-  ],
   "media": [
     {
       "poster": "murder_on_the_orient_express.webp",
@@ -183,5 +180,8 @@
   "rating": 2,
   "description": [
     "When a murder occurs on the train on which he's travelling, celebrated detective Hercule Poirot is recruited to solve the case."
+  ],
+  "releaseDate": [
+    "11/10/2017"
   ]
 }

@@ -1,5 +1,5 @@
 .wrapper {
-  max-width: 800px;
+  max-width: 920px;
   width: 100%;
 }
 
@@ -9,7 +9,7 @@
 
 .input {
   font-size: 14px;
-  color: var(--main-color);
+  color: var(--blue-default);
   padding: 10px;
   width: 100%;
   padding-left: 40px;
@@ -17,15 +17,15 @@
   border: var(--app-border);
   border-radius: var(--app-border-radius);
   transition: 0.2s;
-  background-color: #fff;
+  background-color: var(--gray-light);
 }
 
 .input:focus {
-  border-color: var(--main-color);
+  border-color: var(--blue-default);
 }
 
 .searchIcon {
-  color: #ddd;
+  color: var(--gray-dark);
   position: absolute;
   top: 50%;
   left: 10px;
@@ -52,7 +52,7 @@
 }
 
 .input:focus + .searchIcon {
-  color: var(--main-color);
+  color: var(--blue-default);
 }
 
 .menu {

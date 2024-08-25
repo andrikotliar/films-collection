@@ -104,9 +104,6 @@
   ],
   "budget": 132000000,
   "boxOffice": 415000000,
-  "year": [
-    2013
-  ],
   "media": [
     {
       "poster": "wolverine.webp",
@@ -117,5 +114,8 @@
   "description": [
     "Wolverine comes to Japan to meet an old friend whose life he saved years ago, and gets embroiled in a conspiracy involving yakuza and mutants."
   ],
-  "relatedTitlesKey": "39322de8cb5cb1b16fcafb89"
+  "relatedTitlesKey": "39322de8cb5cb1b16fcafb89",
+  "releaseDate": [
+    "07/26/2013"
+  ]
 }

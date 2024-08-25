@@ -1,0 +1,36 @@
+.appMenu {
+  position: fixed;
+  top: calc(var(--header-height) + 20px);
+  right: 20px;
+  width: 220px;
+  height: calc(var(--app-height) - 40px);
+  border: var(--app-border);
+  border-radius: var(--app-border-radius);
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  overflow: auto;
+  background-color: #fff;
+  transform: translateX(300px);
+  transition: transform 300ms, visibility 300ms;
+  visibility: hidden;
+}
+
+.openAppMenu {
+  transform: translateX(0);
+  visibility: visible;
+}
+
+.visitedFilmsWrapper {
+  padding: 20px 10px 10px;
+}
+
+.visitedFilmsTitle {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.visitedFilmsList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+}

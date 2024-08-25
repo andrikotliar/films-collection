@@ -7,6 +7,7 @@ export default defineConfig({
   server: {
     port: 3030,
     host: true,
+    open: true,
   },
   plugins: [react(), tsconfigPaths(), svgr()],
 });

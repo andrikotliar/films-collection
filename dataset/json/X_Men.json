@@ -164,9 +164,6 @@
     }
   ],
   "boxOffice": 296000000,
-  "year": [
-    2000
-  ],
   "media": [
     {
       "poster": "x_men_1.webp",
@@ -177,5 +174,8 @@
   "description": [
     "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men."
   ],
-  "relatedTitlesKey": "39322de8cb5cb1b16fcafb89"
+  "relatedTitlesKey": "39322de8cb5cb1b16fcafb89",
+  "releaseDate": [
+    "07/14/2000"
+  ]
 }

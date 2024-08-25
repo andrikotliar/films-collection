@@ -159,9 +159,6 @@
     }
   ],
   "boxOffice": 748000000,
-  "year": [
-    2014
-  ],
   "media": [
     {
       "poster": "x_men_6.webp",
@@ -172,5 +169,8 @@
   "description": [
     "The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants."
   ],
-  "relatedTitlesKey": "39322de8cb5cb1b16fcafb89"
+  "relatedTitlesKey": "39322de8cb5cb1b16fcafb89",
+  "releaseDate": [
+    "05/23/2014"
+  ]
 }

@@ -143,9 +143,6 @@
     }
   ],
   "boxOffice": 333000000,
-  "year": [
-    1984
-  ],
   "media": [
     {
       "poster": "indiana_jones_2.webp",
@@ -156,5 +153,8 @@
   "description": [
     "In 1935, Indiana Jones arrives in India, still part of the British Empire, and is asked to find a mystical stone. He then stumbles upon a secret cult committing enslavement and human sacrifices in the catacombs of an ancient palace."
   ],
-  "relatedTitlesKey": "b6df4d99b3eecf421590dd26"
+  "relatedTitlesKey": "b6df4d99b3eecf421590dd26",
+  "releaseDate": [
+    "05/23/1984"
+  ]
 }

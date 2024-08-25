@@ -106,9 +106,6 @@
   ],
   "budget": 165000000,
   "boxOffice": 496000000,
-  "year": [
-    2010
-  ],
   "media": [
     {
       "poster": "how_to_train_your_dragon_1.webp",
@@ -119,5 +116,8 @@
   "description": [
     "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed."
   ],
-  "relatedTitlesKey": "505ca8ef309447d9fcfc78d7"
+  "relatedTitlesKey": "505ca8ef309447d9fcfc78d7",
+  "releaseDate": [
+    "03/26/2010"
+  ]
 }

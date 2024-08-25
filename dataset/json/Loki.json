@@ -163,9 +163,6 @@
       "title": "Marvel Cinematic Universe"
     }
   ],
-  "year": [
-    2021
-  ],
   "series": {
     "episodesTotal": 6,
     "seasons": [
@@ -186,5 +183,8 @@
   "description": [
     "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of «Avengers: Endgame»."
   ],
-  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "06/09/2021"
+  ]
 }

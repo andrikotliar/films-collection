@@ -102,9 +102,6 @@
   ],
   "budget": 150000000,
   "boxOffice": 624000000,
-  "year": [
-    2008
-  ],
   "media": [
     {
       "poster": "hancock.webp",
@@ -114,5 +111,8 @@
   "rating": 2,
   "description": [
     "Hancock is a superhero whose ill considered behavior regularly causes damage in the millions. He changes when the person he saves helps him improve his public image."
+  ],
+  "releaseDate": [
+    "07/02/2008"
   ]
 }

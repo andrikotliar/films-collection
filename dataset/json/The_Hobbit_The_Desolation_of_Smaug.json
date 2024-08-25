@@ -233,9 +233,6 @@
     }
   ],
   "boxOffice": 960000000,
-  "year": [
-    2013
-  ],
   "media": [
     {
       "poster": "middle_earth_2.webp",
@@ -246,5 +243,8 @@
   "description": [
     "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring."
   ],
-  "relatedTitlesKey": "148895975f95315e06a7cc17"
+  "relatedTitlesKey": "148895975f95315e06a7cc17",
+  "releaseDate": [
+    "12/13/2013"
+  ]
 }

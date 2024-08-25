@@ -199,9 +199,6 @@
     }
   ],
   "budget": 300000000,
-  "year": [
-    2021
-  ],
   "media": [
     {
       "poster": "justice_league.webp",
@@ -212,5 +209,8 @@
   "description": [
     "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions."
   ],
-  "relatedTitlesKey": "d923cc31cdf721e7ddeb1616"
+  "relatedTitlesKey": "d923cc31cdf721e7ddeb1616",
+  "releaseDate": [
+    "03/18/2021"
+  ]
 }

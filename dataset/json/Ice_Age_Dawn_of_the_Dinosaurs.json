@@ -134,9 +134,6 @@
   ],
   "budget": 90000000,
   "boxOffice": 886000000,
-  "year": [
-    2009
-  ],
   "media": [
     {
       "poster": "ice_age_3.webp",
@@ -147,5 +144,8 @@
   "description": [
     "When Sid's attempt to adopt three dinosaur eggs gets him abducted by their real mother to an underground lost world, his friends attempt to rescue him."
   ],
-  "relatedTitlesKey": "ea12ede29685f88edcb67453"
+  "relatedTitlesKey": "ea12ede29685f88edcb67453",
+  "releaseDate": [
+    "07/01/2009"
+  ]
 }

@@ -7,13 +7,14 @@ import { SidebarContext } from '@/pages/main/components/sidebar/context';
 import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
 import { useQueryFilter } from '@/hooks';
-import { RefreshCcwIcon, SearchIcon, XIcon } from 'lucide-react';
+import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
 
 const defaultValues = {
   type: null,
   collections: null,
   genres: null,
-  year: null,
+  startDate: null,
+  endDate: null,
   country: null,
   studio: null,
 };
@@ -75,12 +76,6 @@ const Filters = () => {
         onSubmit={methods.handleSubmit(submitFilter)}
         className={styles.filters}
       >
-        <h2 className={styles.mobileHeader}>
-          <span>Filters</span>
-          <button onClick={() => setIsFilterOpen(false)}>
-            <XIcon />
-          </button>
-        </h2>
         <Tabs
           defaultTabIndex={defaultTabIndex}
           components={[

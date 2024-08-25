@@ -1,1 +1,1 @@
-export * from './use-related';
+export { useRelated } from './use-related';

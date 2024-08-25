@@ -116,9 +116,6 @@
   ],
   "budget": 177000000,
   "boxOffice": 714000000,
-  "year": [
-    2014
-  ],
   "media": [
     {
       "poster": "captain_america_2.webp",
@@ -129,5 +126,8 @@
   "description": [
     "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier."
   ],
-  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "04/04/2014"
+  ]
 }

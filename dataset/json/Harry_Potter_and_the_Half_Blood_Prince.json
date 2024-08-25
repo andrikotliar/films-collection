@@ -127,9 +127,6 @@
   ],
   "budget": 250000000,
   "boxOffice": 934000000,
-  "year": [
-    2009
-  ],
   "media": [
     {
       "poster": "harry_potter_6.webp",
@@ -140,5 +137,8 @@
   "description": [
     "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past."
   ],
-  "relatedTitlesKey": "21fe420121bd2018a3c76f32"
+  "relatedTitlesKey": "21fe420121bd2018a3c76f32",
+  "releaseDate": [
+    "07/15/2009"
+  ]
 }

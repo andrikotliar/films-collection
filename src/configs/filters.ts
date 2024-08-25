@@ -1,27 +1,19 @@
 import { Filters } from '@/common/types';
 
-const getYears = () => {
-  const startYear = 1977;
-  const currentYear = new Date().getFullYear();
-  const years: number[] = [];
-
-  for (let year = currentYear; year >= startYear; year--) {
-    years.push(year);
-  }
-
-  return years;
-};
-
 const filtersConfig: Filters = {
   general: [
     {
       title: 'Type',
       property: 'type',
+      type: 'checkmark',
       options: ['Film', 'Animation', 'Series'],
+      inputType: 'checkbox',
     },
     {
       title: 'Genres',
       property: 'genres',
+      type: 'checkmark',
+      inputType: 'checkbox',
       options: [
         'Sci-Fi',
         'Adventures',
@@ -35,21 +27,32 @@ const filtersConfig: Filters = {
       ],
     },
     {
-      title: 'Year',
-      property: 'year',
-      options: getYears(),
-      defaultOptionTitle: 'All years',
-      isScrollable: true,
-      isGrid: true,
+      title: 'Date Range',
+      inputs: {
+        start: {
+          label: 'Start Date',
+          property: 'startDate',
+        },
+        end: {
+          label: 'End Date',
+          property: 'endDate',
+        },
+      },
+      type: 'daterange',
+      minDate: '1977-01-01',
     },
     {
       title: 'Country',
       property: 'countries',
+      type: 'checkmark',
+      inputType: 'checkbox',
       options: ['USA', 'UK', 'Canada', 'France', 'Germany', 'Japan'],
     },
     {
       title: 'Studio',
       property: 'production',
+      type: 'checkmark',
+      inputType: 'checkbox',
       options: [
         'Walt Disney Pictures',
         'Disney Plus',
@@ -75,6 +78,8 @@ const filtersConfig: Filters = {
     {
       title: 'Main theme',
       property: 'collections',
+      type: 'checkmark',
+      inputType: 'radio',
       options: [
         'Any',
         'Space',
@@ -102,11 +107,12 @@ const filtersConfig: Filters = {
         'Skills',
         'Christmas',
       ],
-      isRadio: true,
     },
     {
       title: 'Cinematic Universes',
       property: 'collections',
+      type: 'checkmark',
+      inputType: 'radio',
       options: [
         'Marvel Cinematic Universe',
         'Star Wars Universe',
@@ -114,13 +120,13 @@ const filtersConfig: Filters = {
         'Harry Potter Universe',
         'Middle-Earth Universe',
       ],
-      isRadio: true,
     },
     {
       title: 'Tops',
       property: 'collections',
       options: ['Top 10'],
-      isRadio: true,
+      type: 'checkmark',
+      inputType: 'radio',
     },
   ],
 };

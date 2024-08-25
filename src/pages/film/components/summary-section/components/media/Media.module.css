@@ -1,0 +1,86 @@
+.wrapper {
+  position: relative;
+  width: 320px;
+  flex-shrink: 0;
+}
+
+.poster {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: var(--app-border);
+  border-radius: var(--app-border-radius);
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.playIconWrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.playButtonIcon {
+  color: #000;
+  fill: #000;
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s;
+}
+
+.playButton:hover .playButtonIcon {
+  transform: scale(1.3);
+}
+
+.trailer {
+  width: 80%;
+}
+
+.videoWrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: var(--app-border-radius);
+}
+
+.videoWrapper iframe {
+  border: none;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+@media (max-width: 980px) {
+  .wrapper {
+    width: 250px;
+  }
+}
+
+@media (max-width: 680px) {
+  .wrapper {
+    width: 100%;
+  }
+  .poster {
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .video {
+    width: 90%;
+  }
+}

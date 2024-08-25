@@ -169,9 +169,6 @@
     }
   ],
   "boxOffice": 408000000,
-  "year": [
-    2003
-  ],
   "media": [
     {
       "poster": "x_men_2.webp",
@@ -182,5 +179,8 @@
   "description": [
     "When anti-mutant colonel William Stryker kidnaps Professor X and attacks his school, the X-Men must ally with their archenemy Magneto to stop him."
   ],
-  "relatedTitlesKey": "39322de8cb5cb1b16fcafb89"
+  "relatedTitlesKey": "39322de8cb5cb1b16fcafb89",
+  "releaseDate": [
+    "05/02/2003"
+  ]
 }

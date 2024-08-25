@@ -123,9 +123,6 @@
   ],
   "budget": 62000000,
   "boxOffice": 288000000,
-  "year": [
-    2018
-  ],
   "media": [
     {
       "poster": "maze_runner_3.webp",
@@ -136,5 +133,8 @@
   "description": [
     "Young hero Thomas embarks on a mission to find a cure for a deadly disease known as \"The Flare\"."
   ],
-  "relatedTitlesKey": "bc33d14754daed641df7a296"
+  "relatedTitlesKey": "bc33d14754daed641df7a296",
+  "releaseDate": [
+    "01/26/2018"
+  ]
 }

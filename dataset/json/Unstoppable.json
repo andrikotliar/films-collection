@@ -96,9 +96,6 @@
   ],
   "budget": 100000000,
   "boxOffice": 167000000,
-  "year": [
-    2010
-  ],
   "media": [
     {
       "poster": "unstoppable.webp",
@@ -108,5 +105,8 @@
   "rating": 2,
   "description": [
     "With an unmanned, half-mile-long freight train barreling toward a city, a veteran engineer and a young conductor race against the clock to prevent a catastrophe."
+  ],
+  "releaseDate": [
+    "11/12/2010"
   ]
 }

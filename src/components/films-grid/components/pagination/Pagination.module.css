@@ -29,8 +29,8 @@
 
 .pageButton.active {
   color: #fff;
-  background-color: var(--main-color);
-  border-color: var(--main-color);
+  background-color: var(--blue-default);
+  border-color: var(--blue-default);
 }
 
 .stats {
@@ -38,5 +38,5 @@
 }
 
 .currentState {
-  color: var(--main-color);
+  color: var(--blue-default);
 }

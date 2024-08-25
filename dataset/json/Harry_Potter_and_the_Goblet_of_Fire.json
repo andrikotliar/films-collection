@@ -177,9 +177,6 @@
     }
   ],
   "boxOffice": 897000000,
-  "year": [
-    2005
-  ],
   "media": [
     {
       "poster": "harry_potter_4.webp",
@@ -190,5 +187,8 @@
   "description": [
     "A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares."
   ],
-  "relatedTitlesKey": "21fe420121bd2018a3c76f32"
+  "relatedTitlesKey": "21fe420121bd2018a3c76f32",
+  "releaseDate": [
+    "11/18/2005"
+  ]
 }

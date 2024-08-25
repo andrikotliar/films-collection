@@ -150,9 +150,6 @@
     }
   ],
   "boxOffice": 1060000000,
-  "year": [
-    2016
-  ],
   "media": [
     {
       "poster": "rogue_one.webp",
@@ -163,5 +160,8 @@
   "description": [
     "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans."
   ],
-  "relatedTitlesKey": "0de96c347aa9f64e14fb4a83"
+  "relatedTitlesKey": "0de96c347aa9f64e14fb4a83",
+  "releaseDate": [
+    "12/16/2016"
+  ]
 }

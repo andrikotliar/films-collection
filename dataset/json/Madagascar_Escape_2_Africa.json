@@ -147,9 +147,6 @@
   ],
   "budget": 150000000,
   "boxOffice": 604000000,
-  "year": [
-    2008
-  ],
   "media": [
     {
       "poster": "madagascar_2.webp",
@@ -160,5 +157,8 @@
   "description": [
     "The Madagascar animals fly back to New York City, but crash-land on an African nature reserve, where they meet others of their own kind, and Alex especially discovers his royal heritage as prince of a lion pride."
   ],
-  "relatedTitlesKey": "a4b10d26dd307a125bdccf81"
+  "relatedTitlesKey": "a4b10d26dd307a125bdccf81",
+  "releaseDate": [
+    "11/07/2008"
+  ]
 }

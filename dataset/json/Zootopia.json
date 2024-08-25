@@ -150,9 +150,6 @@
     }
   ],
   "boxOffice": 1020000000,
-  "year": [
-    2016
-  ],
   "media": [
     {
       "poster": "zootopia.webp",
@@ -162,5 +159,8 @@
   "rating": 3,
   "description": [
     "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy."
+  ],
+  "releaseDate": [
+    "03/04/2016"
   ]
 }

@@ -183,9 +183,6 @@
     }
   ],
   "boxOffice": 710000000,
-  "year": [
-    2007
-  ],
   "media": [
     {
       "poster": "transformers_1.webp",
@@ -196,5 +193,8 @@
   "description": [
     "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager."
   ],
-  "relatedTitlesKey": "12b3854c2936b95c086fdd68"
+  "relatedTitlesKey": "12b3854c2936b95c086fdd68",
+  "releaseDate": [
+    "07/03/2007"
+  ]
 }

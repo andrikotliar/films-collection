@@ -11,11 +11,11 @@ type CrewListProps = {
 
 const CrewList: FC<CrewListProps> = ({ crew }) => {
   return (
-    <DataArea className={styles.crewList}>
+    <div className={styles.crewList}>
       {crew.map((crewItem) => (
         <CrewItem crewItem={crewItem} key={crewItem.role} />
       ))}
-    </DataArea>
+    </div>
   );
 };
 

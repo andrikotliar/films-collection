@@ -134,9 +134,6 @@
   ],
   "budget": 180000000,
   "boxOffice": 854000000,
-  "year": [
-    2017
-  ],
   "media": [
     {
       "poster": "thor_3.webp",
@@ -147,5 +144,8 @@
   "description": [
     "Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarцk, the destruction of his world, at the hands of the powerful and ruthless villain Hela."
   ],
-  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "11/03/2017"
+  ]
 }

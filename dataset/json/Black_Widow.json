@@ -108,9 +108,6 @@
   ],
   "budget": 200000000,
   "boxOffice": 379000000,
-  "year": [
-    2021
-  ],
   "media": [
     {
       "poster": "black_widow.webp",
@@ -121,5 +118,8 @@
   "description": [
     "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises."
   ],
-  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "07/09/2021"
+  ]
 }

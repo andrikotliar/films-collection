@@ -96,9 +96,6 @@
   ],
   "budget": 85000000,
   "boxOffice": 158000000,
-  "year": [
-    2006
-  ],
   "media": [
     {
       "poster": "fast_and_furious_3.webp",
@@ -109,5 +106,8 @@
   "description": [
     "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America."
   ],
-  "relatedTitlesKey": "60e1ed9423ed8b0c24b751c1"
+  "relatedTitlesKey": "60e1ed9423ed8b0c24b751c1",
+  "releaseDate": [
+    "06/16/2006"
+  ]
 }

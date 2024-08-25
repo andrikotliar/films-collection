@@ -131,9 +131,6 @@
     }
   ],
   "boxOffice": 604000000,
-  "year": [
-    2005
-  ],
   "media": [
     {
       "poster": "war_of_the_worlds.webp",
@@ -143,5 +140,8 @@
   "rating": 3,
   "description": [
     "An alien invasion threatens the future of humanity. The catastrophic nightmare is depicted through the eyes of one American family fighting for survival."
+  ],
+  "releaseDate": [
+    "06/29/2005"
   ]
 }

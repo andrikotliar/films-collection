@@ -1,4 +1,4 @@
-export const getFilterParams = (searchParams: URLSearchParams) => {
+const getFilterParams = (searchParams: URLSearchParams) => {
   const filterParams: { [key: string]: any } = {};
   searchParams.forEach((value, key) => {
     if (filterParams[key]) {
@@ -13,3 +13,5 @@ export const getFilterParams = (searchParams: URLSearchParams) => {
   });
   return filterParams;
 };
+
+export { getFilterParams };

@@ -121,9 +121,6 @@
   ],
   "budget": 162000000,
   "boxOffice": 595000000,
-  "year": [
-    2018
-  ],
   "media": [
     {
       "poster": "ant_man_2.webp",
@@ -134,5 +131,8 @@
   "description": [
     "As Scott Lang balances being both a Super Hero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past."
   ],
-  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "07/06/2018"
+  ]
 }

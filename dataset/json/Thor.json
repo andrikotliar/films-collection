@@ -131,9 +131,6 @@
     }
   ],
   "boxOffice": 449000000,
-  "year": [
-    2011
-  ],
   "media": [
     {
       "poster": "thor_1.webp",
@@ -144,5 +141,8 @@
   "description": [
     "The powerful, but arrogant god Thor, is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders."
   ],
-  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "05/06/2011"
+  ]
 }

@@ -213,9 +213,6 @@
     }
   ],
   "boxOffice": 828000000,
-  "year": [
-    2010
-  ],
   "media": [
     {
       "poster": "inception.webp",
@@ -225,5 +222,8 @@
   "rating": 2,
   "description": [
     "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO."
+  ],
+  "releaseDate": [
+    "07/16/2010"
   ]
 }

@@ -1,2 +1,2 @@
-export * from './films-section/FilmsSection';
-export * from './sidebar/Sidebar';
+export { FilmsSection } from './films-section/FilmsSection';
+export { Sidebar } from './sidebar/Sidebar';

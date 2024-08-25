@@ -135,9 +135,6 @@
   ],
   "budget": 125000000,
   "boxOffice": 626000000,
-  "year": [
-    2011
-  ],
   "media": [
     {
       "poster": "fast_and_furious_5.webp",
@@ -148,5 +145,8 @@
   "description": [
     "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent."
   ],
-  "relatedTitlesKey": "60e1ed9423ed8b0c24b751c1"
+  "relatedTitlesKey": "60e1ed9423ed8b0c24b751c1",
+  "releaseDate": [
+    "04/29/2011"
+  ]
 }

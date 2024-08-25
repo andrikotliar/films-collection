@@ -21,7 +21,7 @@ const Nomination: FC<NominationProps> = ({ title, comment, nominee }) => {
         <div className={styles.title}>{title}</div>
         {nominee && (
           <RouterLink
-            to={buildQueryLink('cast', nominee.id)}
+            to={buildQueryLink({ cast: nominee.id })}
             className={styles.actor}
           >
             {nominee.name}

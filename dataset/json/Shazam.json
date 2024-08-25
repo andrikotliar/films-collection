@@ -103,9 +103,6 @@
   ],
   "budget": 80000000,
   "boxOffice": 356000000,
-  "year": [
-    2019
-  ],
   "media": [
     {
       "poster": "shazam.webp",
@@ -116,5 +113,8 @@
   "description": [
     "We all have a superhero inside us, it just takes a bit of magic to bring it out. In Billy Batson's case, by shouting out one word - SHAZAM! - this streetwise fourteen-year-old foster kid can turn into the adult superhero Shazam."
   ],
-  "relatedTitlesKey": "d923cc31cdf721e7ddeb1616"
+  "relatedTitlesKey": "d923cc31cdf721e7ddeb1616",
+  "releaseDate": [
+    "04/05/2019"
+  ]
 }

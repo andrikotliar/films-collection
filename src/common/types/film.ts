@@ -66,7 +66,7 @@ type FilmData = {
   crew: Crew[];
   description: string[];
   countries: string[];
-  year: number[];
+  releaseDate: string[];
   duration: number;
   cast: CastType[];
   collections: Collection[];
@@ -78,6 +78,7 @@ type FilmData = {
   rating: number;
   relatedTitlesKey?: string;
   related: RelatedFilms;
+  watchCount?: number;
 };
 
 type FilmsList = {

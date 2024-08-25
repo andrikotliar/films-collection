@@ -169,9 +169,6 @@
     }
   ],
   "boxOffice": 386000000,
-  "year": [
-    2009
-  ],
   "media": [
     {
       "poster": "star_trek_1.webp",
@@ -182,5 +179,8 @@
   "description": [
     "The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time."
   ],
-  "relatedTitlesKey": "d7e37cea52e0bb90c216ad37"
+  "relatedTitlesKey": "d7e37cea52e0bb90c216ad37",
+  "releaseDate": [
+    "05/08/2009"
+  ]
 }

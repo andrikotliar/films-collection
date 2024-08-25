@@ -10,7 +10,6 @@
 
 @media (max-width: 480px) {
   .content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 20px;
   }
 }

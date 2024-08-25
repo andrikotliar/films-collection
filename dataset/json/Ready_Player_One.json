@@ -151,9 +151,6 @@
     }
   ],
   "boxOffice": 582000000,
-  "year": [
-    2018
-  ],
   "media": [
     {
       "poster": "ready_player_one.webp",
@@ -163,5 +160,8 @@
   "rating": 2,
   "description": [
     "When the creator of a virtual reality world called the OASIS dies, he releases a video in which he challenges all OASIS users to find his Easter Egg, which will give the finder his fortune"
+  ],
+  "releaseDate": [
+    "03/29/2018"
   ]
 }

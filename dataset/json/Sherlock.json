@@ -222,12 +222,6 @@
       ]
     }
   ],
-  "year": [
-    2010,
-    2012,
-    2014,
-    2017
-  ],
   "series": {
     "episodesTotal": 12,
     "seasons": [
@@ -277,5 +271,11 @@
     "In the second season, Sherlock continues to astound with his deductive abilities, but he faces even more formidable adversaries. Moriarty, a brilliant and dangerous criminal mastermind, becomes his primary nemesis. The season is filled with high-stakes conflicts and intricate puzzles.",
     "Season 3 explores Sherlock's return from a two-year absence, during which he was believed to be dead. The dynamic between Sherlock and Watson is tested as they confront new mysteries, including a wedding, a case of a disappearing train, and a deadly adversary from the past.",
     "The fourth season delves deeper into Sherlock's complex personal life and his troubled past. It features an enigmatic new villain, Culverton Smith, and a series of cases that bring Sherlock to the brink of despair. Dark secrets and unexpected revelations surface, challenging the detective like never before."
+  ],
+  "releaseDate": [
+    "07/25/2010",
+    "01/01/2012",
+    "01/01/2014",
+    "01/01/2017"
   ]
 }

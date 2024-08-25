@@ -123,9 +123,6 @@
     }
   ],
   "boxOffice": 350000000,
-  "year": [
-    1994
-  ],
   "media": [
     {
       "poster": "speed.webp",
@@ -135,5 +132,8 @@
   "rating": 2,
   "description": [
     "A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph."
+  ],
+  "releaseDate": [
+    "06/10/1994"
   ]
 }

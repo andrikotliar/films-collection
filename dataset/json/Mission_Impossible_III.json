@@ -141,9 +141,6 @@
   ],
   "budget": 150000000,
   "boxOffice": 398000000,
-  "year": [
-    2006
-  ],
   "media": [
     {
       "poster": "mi_3.webp",
@@ -154,5 +151,8 @@
   "description": [
     "IMF Agent Ethan Hunt comes into conflict with a dangerous and sadistic arms dealer who threatens his life and his fiancée in response."
   ],
-  "relatedTitlesKey": "7201769b07df74e644bc0b02"
+  "relatedTitlesKey": "7201769b07df74e644bc0b02",
+  "releaseDate": [
+    "05/05/2006"
+  ]
 }

@@ -19,8 +19,8 @@
 }
 
 .value:focus-visible {
-  color: var(--main-color);
-  border-color: var(--main-color);
+  color: var(--blue-default);
+  border-color: var(--blue-default);
 }
 
 .isDisabled .value {
@@ -29,8 +29,8 @@
 }
 
 .select:focus .value {
-  color: var(--main-color);
-  border-color: var(--main-color);
+  color: var(--blue-default);
+  border-color: var(--blue-default);
 }
 
 .expandIcon {
@@ -70,7 +70,7 @@
 .selected,
 .selected:focus {
   color: #fff;
-  background-color: var(--main-color);
+  background-color: var(--blue-default);
 }
 
 .selected {

@@ -152,9 +152,6 @@
       "title": "Marvel Cinematic Universe"
     }
   ],
-  "year": [
-    2021
-  ],
   "series": {
     "episodesTotal": 6,
     "seasons": [
@@ -175,5 +172,8 @@
   "description": [
     "Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate M. Bishop, who took on the role after the original Avenger, Clint Barton."
   ],
-  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "11/24/2021"
+  ]
 }

@@ -185,9 +185,6 @@
       ]
     }
   ],
-  "year": [
-    2019
-  ],
   "series": {
     "episodesTotal": 5,
     "seasons": [
@@ -208,9 +205,8 @@
   "description": [
     "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes."
   ],
-  "meta": {
-    "watchCount": {
-      "real": 2
-    }
-  }
+  "watchCount": 2,
+  "releaseDate": [
+    "05/06/2019"
+  ]
 }

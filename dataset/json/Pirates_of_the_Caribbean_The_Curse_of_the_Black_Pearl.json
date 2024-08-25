@@ -142,9 +142,6 @@
     }
   ],
   "boxOffice": 654000000,
-  "year": [
-    2003
-  ],
   "media": [
     {
       "poster": "pirates_1.webp",
@@ -155,5 +152,8 @@
   "description": [
     "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead."
   ],
-  "relatedTitlesKey": "7d2478e857e3c4c85a85be7d"
+  "relatedTitlesKey": "7d2478e857e3c4c85a85be7d",
+  "releaseDate": [
+    "07/09/2003"
+  ]
 }

@@ -172,9 +172,6 @@
     }
   ],
   "boxOffice": 755000000,
-  "year": [
-    2014
-  ],
   "media": [
     {
       "poster": "hunger_games_3.webp",
@@ -185,5 +182,8 @@
   "description": [
     "Katniss Everdeen is in District 13 after she shatters the games forever. Under the leadership of President Coin and the advice of her trusted friends, Katniss spreads her wings as she fights to save Peeta and a nation moved by her courage."
   ],
-  "relatedTitlesKey": "ee0e6048d16760e2bc2c11d3"
+  "relatedTitlesKey": "ee0e6048d16760e2bc2c11d3",
+  "releaseDate": [
+    "11/21/2014"
+  ]
 }

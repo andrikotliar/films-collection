@@ -132,9 +132,6 @@
     }
   ],
   "boxOffice": 817000000,
-  "year": [
-    1996
-  ],
   "media": [
     {
       "poster": "independence_day.webp",
@@ -145,9 +142,8 @@
   "description": [
     "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive."
   ],
-  "meta": {
-    "watchCount": {
-      "approx": 10
-    }
-  }
+  "watchCount": 10,
+  "releaseDate": [
+    "07/03/1996"
+  ]
 }

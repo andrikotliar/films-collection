@@ -156,9 +156,6 @@
     }
   ],
   "boxOffice": 1330000000,
-  "year": [
-    2017
-  ],
   "media": [
     {
       "poster": "star_wars_episode_VIII.webp",
@@ -169,5 +166,8 @@
   "description": [
     "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order."
   ],
-  "relatedTitlesKey": "0de96c347aa9f64e14fb4a83"
+  "relatedTitlesKey": "0de96c347aa9f64e14fb4a83",
+  "releaseDate": [
+    "12/15/2017"
+  ]
 }

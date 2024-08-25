@@ -119,9 +119,6 @@
   ],
   "budget": 3480000,
   "boxOffice": 358000000,
-  "year": [
-    2016
-  ],
   "media": [
     {
       "poster": "your_name.webp",
@@ -131,5 +128,8 @@
   "rating": 2,
   "description": [
     "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?"
+  ],
+  "releaseDate": [
+    "08/26/2016"
   ]
 }

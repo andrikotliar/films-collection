@@ -149,9 +149,6 @@
     }
   ],
   "boxOffice": 585000000,
-  "year": [
-    2008
-  ],
   "media": [
     {
       "poster": "iron_man_1.webp",
@@ -163,9 +160,8 @@
     "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
   ],
   "relatedTitlesKey": "07bf3e15ce289b98963660c5",
-  "meta": {
-    "watchCount": {
-      "approx": 5
-    }
-  }
+  "watchCount": 5,
+  "releaseDate": [
+    "05/02/2008"
+  ]
 }

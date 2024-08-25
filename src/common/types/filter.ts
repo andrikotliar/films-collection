@@ -1,17 +1,33 @@
-import { FilmData } from '@/common/types';
-
 type FilterKeys = 'general' | 'collections';
 
-export type FilterItem = {
-  title: string;
-  property: keyof FilmData;
+type CheckboxFilter = {
+  type: 'checkmark';
   options: (string | number)[];
-  defaultOptionTitle?: string;
-  isRadio?: true;
-  isScrollable?: true;
-  isGrid?: true;
+  inputType: 'checkbox' | 'radio';
+  property: string;
 };
 
-export type Filters = {
+type DateFilterInput = {
+  label: string;
+  property: string;
+};
+
+type DateFilter = {
+  type: 'daterange';
+  inputs: {
+    start: DateFilterInput;
+    end: DateFilterInput;
+  };
+};
+
+type FilterTypes = CheckboxFilter | DateFilter;
+
+type FilterItem = {
+  title: string;
+} & FilterTypes;
+
+type Filters = {
   [key in FilterKeys]: FilterItem[];
 };
+
+export type { FilterItem, Filters, DateFilter };

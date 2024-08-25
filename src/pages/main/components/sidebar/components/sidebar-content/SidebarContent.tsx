@@ -11,22 +11,20 @@ const SidebarContent = () => {
 
   return (
     <>
-      <aside
+      <div
         className={classNames(styles.sidebarContent, {
           [styles.open]: isFilterOpen,
         })}
       >
         <Filters />
-      </aside>
-      <div className={classNames(styles.actionsWrapper)}>
-        <button onClick={toggleFilter} className={styles.filterButton}>
-          <SlidersHorizontalIcon />
-          <span>Filters</span>
-          {filtersCount > 0 && (
-            <span className={styles.filterButtonBadge}>{filtersCount}</span>
-          )}
-        </button>
       </div>
+      <button onClick={toggleFilter} className={styles.filterButton}>
+        <SlidersHorizontalIcon size={18} />
+        <span>Filters</span>
+        {filtersCount > 0 && (
+          <span className={styles.filterButtonBadge}>{filtersCount}</span>
+        )}
+      </button>
     </>
   );
 };

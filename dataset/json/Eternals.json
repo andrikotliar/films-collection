@@ -153,9 +153,6 @@
   ],
   "budget": 200000000,
   "boxOffice": 281000000,
-  "year": [
-    2021
-  ],
   "media": [
     {
       "poster": "eternals.webp",
@@ -166,5 +163,8 @@
   "description": [
     "The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations."
   ],
-  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "11/05/2021"
+  ]
 }

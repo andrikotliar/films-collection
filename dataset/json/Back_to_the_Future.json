@@ -121,9 +121,6 @@
     }
   ],
   "boxOffice": 381000000,
-  "year": [
-    1985
-  ],
   "media": [
     {
       "poster": "back_to_the_future_1.webp",
@@ -134,5 +131,8 @@
   "description": [
     "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown."
   ],
-  "relatedTitlesKey": "cb583126d928731112ea5595"
+  "relatedTitlesKey": "cb583126d928731112ea5595",
+  "releaseDate": [
+    "07/03/1985"
+  ]
 }

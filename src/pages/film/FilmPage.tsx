@@ -2,24 +2,19 @@ import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Loader, NotFound } from '@/components';
 import { useDocumentTitle, useScrollToTop } from '@/hooks';
+import { useCurrentFilm, useLastVisitedFilms } from '@/pages/film/hooks';
 import {
-  Title,
   SectionTitle,
   Description,
   Cast,
   Awards,
   CrewList,
-  BoxOffice,
-  Media,
   Wrapper,
-  Column,
-  Grid,
-  SeasonSelect,
-  TitleRow,
-  Summary,
+  SummarySection,
   Related,
+  Section,
+  NavigationRow,
 } from './components';
-import { useCurrentFilm } from '@/pages/film/hooks';
 
 const FilmPage = () => {
   const { id } = useParams();
@@ -29,6 +24,7 @@ const FilmPage = () => {
 
   useScrollToTop([id]);
   useDocumentTitle(film?.title);
+  useLastVisitedFilms(id);
 
   if (film === undefined) {
     return <Loader isFullPage />;
@@ -40,60 +36,46 @@ const FilmPage = () => {
 
   return (
     <Wrapper>
-      <TitleRow>
-        <Title>{film.title}</Title>
-        <SeasonSelect
-          seasons={film.series?.seasons}
-          onChange={setActiveIndex}
-        />
-      </TitleRow>
-      <Grid>
-        <Column>
-          <Media media={film.media[activeIndex]} />
-        </Column>
-        <Column>
-          <section>
-            <SectionTitle>Description</SectionTitle>
-            <Description>{film.description[activeIndex]}</Description>
-          </section>
+      <NavigationRow
+        setActiveIndex={setActiveIndex}
+        seasons={film.series?.seasons}
+      />
 
-          <section>
-            <SectionTitle>Summary</SectionTitle>
-            <Summary film={film} activeIndex={activeIndex} />
-          </section>
+      <SummarySection film={film} activeIndex={activeIndex} />
 
-          <section>
-            <SectionTitle>Crew</SectionTitle>
-            <CrewList crew={film.crew} />
-          </section>
+      <Section>
+        <SectionTitle>Crew</SectionTitle>
+        <CrewList crew={film.crew} />
+      </Section>
 
-          <section>
-            <SectionTitle>Cast and characters</SectionTitle>
-            <Cast cast={film.cast} />
-          </section>
-
-          {film.awards && (
-            <section>
-              <SectionTitle>Awards</SectionTitle>
-              <Awards awards={film.awards} />
-            </section>
+      <Section>
+        <SectionTitle>
+          Description
+          {film.series?.seasons[activeIndex] && (
+            <span> ({film.series.seasons[activeIndex].title})</span>
           )}
+        </SectionTitle>
+        <Description>{film.description[activeIndex]}</Description>
+      </Section>
 
-          {(film.budget || film.boxOffice) && (
-            <section>
-              <SectionTitle>Box Office</SectionTitle>
-              <BoxOffice budget={film.budget} boxOffice={film.boxOffice} />
-            </section>
-          )}
+      <Section>
+        <SectionTitle>Cast and characters</SectionTitle>
+        <Cast cast={film.cast} />
+      </Section>
 
-          {film.related && (
-            <section>
-              <SectionTitle>Chapters</SectionTitle>
-              <Related data={film.related} filmId={id} />
-            </section>
-          )}
-        </Column>
-      </Grid>
+      {film.awards && (
+        <Section>
+          <SectionTitle>Awards</SectionTitle>
+          <Awards awards={film.awards} />
+        </Section>
+      )}
+
+      {film.related && (
+        <Section>
+          <SectionTitle>Chapters</SectionTitle>
+          <Related data={film.related} filmId={id} />
+        </Section>
+      )}
     </Wrapper>
   );
 };

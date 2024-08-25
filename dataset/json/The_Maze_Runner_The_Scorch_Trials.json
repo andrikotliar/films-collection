@@ -117,9 +117,6 @@
   ],
   "budget": 61000000,
   "boxOffice": 312000000,
-  "year": [
-    2015
-  ],
   "media": [
     {
       "poster": "maze_runner_2.webp",
@@ -130,5 +127,8 @@
   "description": [
     "After having escaped the Maze, the Gladers now face a new set of challenges on the open roads of a desolate landscape filled with unimaginable obstacles."
   ],
-  "relatedTitlesKey": "bc33d14754daed641df7a296"
+  "relatedTitlesKey": "bc33d14754daed641df7a296",
+  "releaseDate": [
+    "09/18/2015"
+  ]
 }

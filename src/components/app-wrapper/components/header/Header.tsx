@@ -1,34 +1,28 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import classNames from 'classnames';
-import { mainMenu } from '@/configs';
-import { PopupMenu } from '@/components/popup-menu/PopupMenu';
-import { Container } from '../container/Container';
-import { Search, Logo } from './components';
-import styles from './Header.module.css';
 import { MenuIcon } from 'lucide-react';
+import { Search, Logo } from './components';
+import { Container } from '../container/Container';
+import styles from './Header.module.css';
+import { AppMenu } from '../app-menu/AppMenu';
 
 const Header = () => {
   const menuButtonRef = useRef<HTMLButtonElement>(null);
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isAppMenuOpen, setIsAppMenuOpen] = useState(false);
 
   const location = useLocation();
 
-  const checkActiveState = (currentLink: string) => {
-    return location.pathname === currentLink;
+  const handleToggleAppMenu = () => {
+    setIsAppMenuOpen((isOpen) => !isOpen);
   };
 
-  const handleOpenMenu = () => {
-    setIsMenuOpen((isOpen) => !isOpen);
-  };
-
-  const handleCloseMenu = () => {
-    setIsMenuOpen(false);
+  const handleCloseAppMenu = () => {
+    setIsAppMenuOpen(false);
   };
 
   useEffect(() => {
-    handleCloseMenu();
-  }, [location]);
+    handleCloseAppMenu();
+  }, [location.pathname]);
 
   return (
     <header className={styles.header}>
@@ -45,31 +39,16 @@ const Header = () => {
         <Search />
         <button
           className={styles.menuButton}
-          onClick={handleOpenMenu}
+          onClick={handleToggleAppMenu}
           ref={menuButtonRef}
         >
           <MenuIcon className={styles.menuIcon} />
         </button>
-        <PopupMenu
-          onClose={handleCloseMenu}
-          triggerRef={menuButtonRef}
-          isOpen={isMenuOpen}
-          positionMarker="right"
-        >
-          <div className={styles.menuWrapper}>
-            {mainMenu.map((item) => (
-              <Link
-                to={item.link}
-                className={classNames(styles.menuLink, {
-                  [styles.activeLink]: checkActiveState(item.link),
-                })}
-                key={item.link}
-              >
-                {item.title}
-              </Link>
-            ))}
-          </div>
-        </PopupMenu>
+        <AppMenu
+          isOpen={isAppMenuOpen}
+          onClose={handleCloseAppMenu}
+          menuButtonRef={menuButtonRef}
+        />
       </Container>
     </header>
   );

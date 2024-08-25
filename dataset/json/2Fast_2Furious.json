@@ -99,9 +99,6 @@
   ],
   "budget": 76000000,
   "boxOffice": 236000000,
-  "year": [
-    2003
-  ],
   "media": [
     {
       "poster": "fast_and_furious_2.webp",
@@ -112,5 +109,8 @@
   "description": [
     "Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself."
   ],
-  "relatedTitlesKey": "60e1ed9423ed8b0c24b751c1"
+  "relatedTitlesKey": "60e1ed9423ed8b0c24b751c1",
+  "releaseDate": [
+    "06/06/2003"
+  ]
 }

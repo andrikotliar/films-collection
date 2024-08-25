@@ -104,9 +104,6 @@
   ],
   "budget": 11000000,
   "boxOffice": 427000000,
-  "year": [
-    2011
-  ],
   "media": [
     {
       "poster": "intouchables.webp",
@@ -116,5 +113,8 @@
   "rating": 2,
   "description": [
     "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver."
+  ],
+  "releaseDate": [
+    "11/02/2011"
   ]
 }

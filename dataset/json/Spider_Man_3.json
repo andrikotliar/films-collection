@@ -141,9 +141,6 @@
   ],
   "budget": 258000000,
   "boxOffice": 895000000,
-  "year": [
-    2007
-  ],
   "media": [
     {
       "poster": "raimi_spider_man_3.webp",
@@ -154,5 +151,8 @@
   "description": [
     "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge."
   ],
-  "relatedTitlesKey": "d1fa1cd43ac95f43d14d0650"
+  "relatedTitlesKey": "d1fa1cd43ac95f43d14d0650",
+  "releaseDate": [
+    "05/04/2007"
+  ]
 }

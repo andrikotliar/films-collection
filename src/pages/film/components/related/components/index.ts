@@ -1,1 +1,1 @@
-export * from './tab-content/TabContent';
+export { TabContent } from './tab-content/TabContent';

@@ -166,9 +166,6 @@
     }
   ],
   "boxOffice": 375000000,
-  "year": [
-    2005
-  ],
   "media": [
     {
       "poster": "batman_1.webp",
@@ -179,5 +176,8 @@
   "description": [
     "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption."
   ],
-  "relatedTitlesKey": "c4d28635d7656ca68d38e43c"
+  "relatedTitlesKey": "c4d28635d7656ca68d38e43c",
+  "releaseDate": [
+    "06/15/2005"
+  ]
 }

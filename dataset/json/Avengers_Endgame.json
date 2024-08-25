@@ -238,9 +238,6 @@
     }
   ],
   "boxOffice": 2730000000,
-  "year": [
-    2019
-  ],
   "media": [
     {
       "poster": "avengers_4.webp",
@@ -251,5 +248,8 @@
   "description": [
     "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to undo Thanos' actions and restore order to the universe."
   ],
-  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "04/26/2019"
+  ]
 }

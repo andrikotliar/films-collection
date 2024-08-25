@@ -1,10 +1,18 @@
-const buildQueryLink = (parameter: string, value: string | number | object) => {
-  const formattedValue =
-    typeof value === 'object' ? JSON.stringify(value) : value;
+type Query = {
+  [param: string]: string | number | object;
+};
 
-  const link = `/?${parameter}=${formattedValue}`;
+const buildQueryLink = (query: Query) => {
+  const queryStrings = Object.entries(query).map(([param, value]) => {
+    const formattedValue =
+      typeof value === 'object' ? JSON.stringify(value) : value;
 
-  return link;
+    return `${param}=${formattedValue}`;
+  });
+
+  const queryLink = queryStrings.join('&');
+
+  return `/?${queryLink}`;
 };
 
 export { buildQueryLink };

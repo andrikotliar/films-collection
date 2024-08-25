@@ -107,9 +107,6 @@
   ],
   "budget": 80000000,
   "boxOffice": 661000000,
-  "year": [
-    2006
-  ],
   "media": [
     {
       "poster": "ice_age_2.webp",
@@ -120,5 +117,8 @@
   "description": [
     "Manny, Sid, and Diego discover that the ice age is coming to an end, and join everybody for a journey to higher ground. On the trip, they discover that Manny, in fact, is not the last of the woolly mammoths."
   ],
-  "relatedTitlesKey": "ea12ede29685f88edcb67453"
+  "relatedTitlesKey": "ea12ede29685f88edcb67453",
+  "releaseDate": [
+    "03/31/2006"
+  ]
 }

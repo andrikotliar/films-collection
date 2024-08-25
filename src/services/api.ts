@@ -1,33 +1,22 @@
-import axios, { AxiosRequestConfig } from 'axios';
+import { HttpMethod } from '@/common/enums';
 
-enum HttpMethod {
-  GET = 'GET',
-  POST = 'POST',
-  PATCH = 'PATCH',
-  DELETE = 'DELETE',
-}
-
-const config = {
-  baseUrl: '',
-};
-
-const instance = axios.create({
-  baseURL: config.baseUrl,
-});
-
-const api = async <T = unknown>(config: AxiosRequestConfig): Promise<T> => {
-  const requestConfig: AxiosRequestConfig = {
+const api = async <T = unknown>(
+  url: string,
+  config?: RequestInit,
+): Promise<T> => {
+  const requestConfig: RequestInit = {
     method: HttpMethod.GET,
     ...config,
   };
 
   try {
-    const response = await instance<T>(requestConfig);
+    const response = await fetch(url, requestConfig);
+    const data = await response.json();
 
-    return await response.data;
-  } catch (e: any) {
-    throw new Error(e);
+    return data;
+  } catch (error: any) {
+    throw new Error(error);
   }
 };
 
-export { api, HttpMethod };
+export { api };

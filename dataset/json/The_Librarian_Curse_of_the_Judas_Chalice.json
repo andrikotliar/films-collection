@@ -107,9 +107,6 @@
       ]
     }
   ],
-  "year": [
-    2008
-  ],
   "media": [
     {
       "poster": "librarian_3.webp",
@@ -120,5 +117,8 @@
   "description": [
     "Losing his girlfriend because he was at an auction dramatically getting the magical philosopher's stone instead of a date, he needs a vacation - New Orleans but finds himself busy saving Earth from the curse of the Judas chalice/vampires."
   ],
-  "relatedTitlesKey": "4eeabb329f07f4eb238a45d8"
+  "relatedTitlesKey": "4eeabb329f07f4eb238a45d8",
+  "releaseDate": [
+    "12/07/2008"
+  ]
 }

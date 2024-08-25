@@ -261,12 +261,6 @@
       ]
     }
   ],
-  "year": [
-    2012,
-    2013,
-    2014,
-    2014
-  ],
   "series": {
     "episodesTotal": 52,
     "seasons": [
@@ -317,5 +311,11 @@
     "In the third season, Korra faces the Red Lotus, a dangerous anarchist group that seeks to end the Avatar cycle. As she confronts formidable adversaries, she must rebuild the Air Nation, rediscover herself, and make challenging decisions for the world's future.",
     "The final season follows Korra as she deals with the aftermath of her traumatic battles. She faces Kuvira, an Earth Empire military leader who seeks to unite the Earth Kingdom. As Korra grapples with physical and emotional scars, she strives to bring balance to the world."
   ],
-  "relatedTitlesKey": "e05da171ca037612acd11bcf"
+  "relatedTitlesKey": "e05da171ca037612acd11bcf",
+  "releaseDate": [
+    "04/14/2012",
+    "09/13/2013",
+    "06/27/2014",
+    "10/03/2014"
+  ]
 }

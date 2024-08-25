@@ -124,9 +124,6 @@
     }
   ],
   "boxOffice": 341000000,
-  "year": [
-    2018
-  ],
   "media": [
     {
       "poster": "quiet_place.webp",
@@ -137,5 +134,8 @@
   "description": [
     "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing."
   ],
-  "relatedTitlesKey": "1c30dbe27f9fe9ce1656406b"
+  "relatedTitlesKey": "1c30dbe27f9fe9ce1656406b",
+  "releaseDate": [
+    "04/06/2018"
+  ]
 }

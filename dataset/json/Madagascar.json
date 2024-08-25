@@ -126,9 +126,6 @@
   ],
   "budget": 75000000,
   "boxOffice": 542000000,
-  "year": [
-    2005
-  ],
   "media": [
     {
       "poster": "madagascar.webp",
@@ -139,5 +136,8 @@
   "description": [
     "A group of animals who have spent all their life in a New York zoo end up in the jungles of Madagascar, and must adjust to living in the wild."
   ],
-  "relatedTitlesKey": "a4b10d26dd307a125bdccf81"
+  "relatedTitlesKey": "a4b10d26dd307a125bdccf81",
+  "releaseDate": [
+    "05/27/2005"
+  ]
 }

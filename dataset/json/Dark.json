@@ -266,11 +266,6 @@
       ]
     }
   ],
-  "year": [
-    2017,
-    2019,
-    2020
-  ],
   "series": {
     "episodesTotal": 24,
     "seasons": [
@@ -310,5 +305,10 @@
     "In the small town of Winden, a mysterious child disappearance reveals the existence of a time loop spanning over a century. Four interconnected families uncover their past secrets as they try to unravel the mysteries of time travel and the elusive concept of the 'origin.'",
     "As the time loop's complexities deepen, the characters navigate multiple time periods while confronting the impending apocalypse. Tensions rise, family bonds are strained, and the intricate web of time travel's consequences becomes even more convoluted.",
     "In the final season, Winden faces its ultimate fate, and the characters must confront the origin of the time loop. Time travel takes them to different dimensions, and they strive to break the cycle to save their world from annihilation, all while exploring the timeless questions of destiny, free will, and the eternal battle between light and shadow."
+  ],
+  "releaseDate": [
+    "12/01/2017",
+    "06/21/2019",
+    "06/27/2020"
   ]
 }

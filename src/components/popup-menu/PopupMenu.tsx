@@ -1,4 +1,9 @@
-import { useClickOutside, useCloseOnEscape, useFocusTrap } from '@/hooks';
+import {
+  useClickOutside,
+  useCloseOnEscape,
+  useCloseOnScroll,
+  useFocusTrap,
+} from '@/hooks';
 import {
   FC,
   HTMLAttributes,
@@ -39,7 +44,7 @@ const PopupMenu: FC<PropsWithChildren<PopupMenuProps>> = ({
   menuMargin = DEFAULT_MENU_MARGIN_PX,
   className,
   positionMarker = 'left',
-  shouldAdjustToTriggerWidth,
+  shouldAdjustToTriggerWidth = false,
   shouldFocusTriggerOnClose,
   ...divProps
 }) => {
@@ -47,18 +52,10 @@ const PopupMenu: FC<PropsWithChildren<PopupMenuProps>> = ({
   const [menuWidth, setMenuWidth] = useState<number>();
   const menuRef = useRef<HTMLDivElement>(null);
 
-  const handleScrollClose = () => {
+  useCloseOnScroll(() => {
     onClose();
     triggerRef.current?.blur();
-  };
-
-  useEffect(() => {
-    document.addEventListener('scroll', handleScrollClose);
-
-    return () => {
-      document.removeEventListener('scroll', handleScrollClose);
-    };
-  }, []);
+  });
 
   useEffect(() => {
     if (triggerRef.current && menuRef.current) {

@@ -149,9 +149,6 @@
       ]
     }
   ],
-  "year": [
-    2020
-  ],
   "series": {
     "episodesTotal": 7,
     "seasons": [
@@ -171,5 +168,8 @@
   "rating": 1,
   "description": [
     "Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s USA. But child stardom comes at a price."
+  ],
+  "releaseDate": [
+    "10/23/2020"
   ]
 }

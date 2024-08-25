@@ -110,9 +110,6 @@
   ],
   "budget": 35000000,
   "boxOffice": 52000000,
-  "year": [
-    2020
-  ],
   "media": [
     {
       "poster": "greenland.webp",
@@ -122,5 +119,8 @@
   "rating": 1,
   "description": [
     "A family struggles for survival in the face of a cataclysmic natural disaster."
+  ],
+  "releaseDate": [
+    "08/14/2020"
   ]
 }

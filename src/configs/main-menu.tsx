@@ -1,25 +1,31 @@
-import { NavLink } from '@/common/types';
+import { MenuConfigItem } from '@/common/types';
+import {
+  FolderCogIcon,
+  InfoIcon,
+  LibraryBigIcon,
+  PieChartIcon,
+} from 'lucide-react';
 
-const mainMenu: NavLink[] = [
+const mainMenu: MenuConfigItem[] = [
   {
-    id: 'films',
     title: 'Films',
-    link: '/',
+    route: '/',
+    icon: <LibraryBigIcon />,
   },
   {
-    id: 'stats',
     title: 'Statistic',
-    link: '/stats',
+    route: '/stats',
+    icon: <PieChartIcon />,
   },
   {
-    id: 'about',
     title: 'About',
-    link: '/about',
+    route: '/about',
+    icon: <InfoIcon />,
   },
   {
-    id: 'manager',
     title: 'Manager',
-    link: '/manager',
+    route: '/manager',
+    icon: <FolderCogIcon />,
   },
 ];
 

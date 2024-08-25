@@ -139,9 +139,6 @@
     }
   ],
   "boxOffice": 789000000,
-  "year": [
-    2004
-  ],
   "media": [
     {
       "poster": "raimi_spider_man_2.webp",
@@ -152,5 +149,8 @@
   "description": [
     "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius."
   ],
-  "relatedTitlesKey": "d1fa1cd43ac95f43d14d0650"
+  "relatedTitlesKey": "d1fa1cd43ac95f43d14d0650",
+  "releaseDate": [
+    "06/30/2004"
+  ]
 }

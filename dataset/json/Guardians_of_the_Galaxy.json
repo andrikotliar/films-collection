@@ -180,9 +180,6 @@
     }
   ],
   "boxOffice": 773000000,
-  "year": [
-    2014
-  ],
   "media": [
     {
       "poster": "guardians_of_the_galaxy.webp",
@@ -193,5 +190,8 @@
   "description": [
     "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe."
   ],
-  "relatedTitlesKey": "07bf3e15ce289b98963660c5"
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "08/01/2014"
+  ]
 }

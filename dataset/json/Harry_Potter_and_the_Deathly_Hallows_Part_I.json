@@ -137,9 +137,6 @@
   ],
   "budget": 250000000,
   "boxOffice": 960000000,
-  "year": [
-    2010
-  ],
   "media": [
     {
       "poster": "harry_potter_7.webp",
@@ -150,5 +147,8 @@
   "description": [
     "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows."
   ],
-  "relatedTitlesKey": "21fe420121bd2018a3c76f32"
+  "relatedTitlesKey": "21fe420121bd2018a3c76f32",
+  "releaseDate": [
+    "11/19/2010"
+  ]
 }

@@ -1,3 +1,2 @@
-export * from './get-film-summary-config';
-export * from './get-current-film';
-export * from './get-season-config';
+export { getFilmSummaryConfig } from './get-film-summary-config';
+export { getCurrentFilm } from './get-current-film';

@@ -129,9 +129,6 @@
   ],
   "budget": 98000000,
   "boxOffice": 433000000,
-  "year": [
-    2001
-  ],
   "media": [
     {
       "poster": "mummy_2.webp",
@@ -142,5 +139,8 @@
   "description": [
     "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror."
   ],
-  "relatedTitlesKey": "c898b2b52dfcdd0b5a0f636e"
+  "relatedTitlesKey": "c898b2b52dfcdd0b5a0f636e",
+  "releaseDate": [
+    "05/04/2001"
+  ]
 }

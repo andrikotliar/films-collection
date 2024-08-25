@@ -167,9 +167,6 @@
     }
   ],
   "boxOffice": 463000000,
-  "year": [
-    1999
-  ],
   "media": [
     {
       "poster": "matrix_1.webp",
@@ -180,5 +177,8 @@
   "description": [
     "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
   ],
-  "relatedTitlesKey": "a9cbfde563018e36f2bcf883"
+  "relatedTitlesKey": "a9cbfde563018e36f2bcf883",
+  "releaseDate": [
+    "03/31/1999"
+  ]
 }

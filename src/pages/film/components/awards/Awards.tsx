@@ -20,14 +20,14 @@ const Awards: FC<AwardsProps> = ({ awards }) => {
   }, [awards]);
 
   return (
-    <div className={styles.list}>
+    <DataGrid>
       {sortedAwards.map(({ awardId, nominations }) => (
         <DataArea className={styles.award} key={awardId}>
           <div className={styles.header}>
             <Icon name={awardsConfig[awardId].icon} size={60} />
             <div className={styles.main}>
               <h3 className={styles.title}>
-                <Link to={buildQueryLink('awards', awardId)}>
+                <Link to={buildQueryLink({ awards: awardId })}>
                   {awardsConfig[awardId].title}
                 </Link>
               </h3>
@@ -52,7 +52,7 @@ const Awards: FC<AwardsProps> = ({ awards }) => {
           </Scrollable>
         </DataArea>
       ))}
-    </div>
+    </DataGrid>
   );
 };
 

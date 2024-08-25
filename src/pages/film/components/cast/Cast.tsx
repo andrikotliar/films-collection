@@ -3,7 +3,7 @@ import { CastType } from '@/common/types';
 import { Actor } from './components';
 import { FilmsContext } from '@/context';
 import styles from './Cast.module.css';
-import { Scrollable } from '@/components';
+import { DataArea, Scrollable } from '@/components';
 
 type CastProps = {
   cast: CastType[];
