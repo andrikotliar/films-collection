@@ -10,6 +10,7 @@
   width: 180px;
   gap: 10px;
   flex-shrink: 0;
+  overflow: hidden;
 }
 
 .wrapper:first-child {
@@ -33,6 +34,10 @@
   --bg-color: var(--red-failure-light);
 }
 
+.icon {
+  flex-shrink: 0;
+}
+
 .label {
   font-size: 11px;
   text-transform: uppercase;
@@ -43,4 +48,19 @@
 .value {
   color: #000;
   font-weight: bold;
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    width: 50%;
+  }
+
+  .label {
+    font-size: 10px;
+  }
+
+  .value {
+    font-size: 14px;
+  }
 }

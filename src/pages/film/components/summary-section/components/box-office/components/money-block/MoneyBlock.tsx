@@ -23,7 +23,7 @@ const MoneyBlock: FC<MoneyBlockProps> = ({
         [styles.notProfitable]: isVariating && !isBeneficial,
       })}
     >
-      <CoinsIcon />
+      <CoinsIcon className={styles.icon} />
       <div className={styles.content}>
         <div className={styles.label}>{label}</div>
         <div className={styles.value}>${value ?? 'N/A'}</div>

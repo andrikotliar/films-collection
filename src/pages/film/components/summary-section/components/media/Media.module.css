@@ -75,6 +75,7 @@
     width: 100%;
   }
   .poster {
+    border: 0;
     border-radius: 0;
   }
 }
