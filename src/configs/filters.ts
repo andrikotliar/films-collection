@@ -39,7 +39,6 @@ const filtersConfig: Filters = {
         },
       },
       type: 'daterange',
-      minDate: '1977-01-01',
     },
     {
       title: 'Country',
