@@ -11,7 +11,7 @@
   flex-grow: 1;
 }
 
-.footer {
+.stats {
   display: flex;
   gap: 20px;
   margin-top: auto;

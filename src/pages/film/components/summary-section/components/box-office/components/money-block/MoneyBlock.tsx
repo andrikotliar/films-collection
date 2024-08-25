@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import styles from './MoneyBlock.module.css';
 import classNames from 'classnames';
-import { CircleDollarSignIcon } from 'lucide-react';
+import { CoinsIcon } from 'lucide-react';
 
 type MoneyBlockProps = {
   value: string | null;
@@ -23,10 +23,10 @@ const MoneyBlock: FC<MoneyBlockProps> = ({
         [styles.notProfitable]: isVariating && !isBeneficial,
       })}
     >
-      <CircleDollarSignIcon size={35} color="currentColor" />
+      <CoinsIcon />
       <div className={styles.content}>
         <div className={styles.label}>{label}</div>
-        <div className={styles.value}>{value ?? 'N/A'}</div>
+        <div className={styles.value}>${value ?? 'N/A'}</div>
       </div>
     </div>
   );

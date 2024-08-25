@@ -1,40 +1,16 @@
-import { FilmData, SeriesExtension } from '@/common/types';
-import { ReactNode } from 'react';
+import { FilmData } from '@/common/types';
 import { TagLink } from '../components/tag-link/TagLink';
 import { buildQueryLink } from '@/helpers';
 import { ReleaseDate } from '../components/release-date/ReleaseDate';
 import { TagLinksGroup } from '../components/tag-links-group/TagLinksGroup';
-
-// const getSeriesExtension = (series?: SeriesExtension): LinkGroup[] => {
-//   if (!series) return [];
-
-//   return [
-//     {
-//       value: series.seasons.length,
-//       id: 'seasons',
-//       title: 'Seasons count',
-//       suffix: `season${series.seasons.length > 1 ? 's' : ''}`,
-//     },
-//     {
-//       value: series.episodesTotal,
-//       id: 'episodes',
-//       title: 'All episodes count',
-//       suffix: `episode${series.episodesTotal > 1 ? 's' : ''}`,
-//     },
-//   ];
-// };
-
-type SummaryConfig = {
-  id: string;
-  title: string;
-  content: ReactNode;
-};
+import { SummaryConfig } from '../types';
+import { getSeriesSummaryConfig } from './get-series-summary-config';
 
 const getFilmSummaryConfig = (
   film: FilmData,
   activeIndex: number,
 ): SummaryConfig[] => {
-  const isSeries = film.type.includes('Series');
+  const seriesExtension = getSeriesSummaryConfig(film, activeIndex);
 
   return [
     {
@@ -81,6 +57,18 @@ const getFilmSummaryConfig = (
         />
       ),
     },
+    {
+      id: 'collections',
+      title: 'Collections',
+      content: (
+        <TagLinksGroup
+          basePath="collections"
+          items={film.collections.map((collection) => collection.title)}
+          variant="pink"
+        />
+      ),
+    },
+    ...seriesExtension,
   ];
 };
 
