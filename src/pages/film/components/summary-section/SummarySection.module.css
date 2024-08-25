@@ -4,7 +4,7 @@
   padding: 0 var(--main-padding);
 }
 
-.rightColumn {
+.summary {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -15,4 +15,15 @@
   display: flex;
   gap: 20px;
   margin-top: auto;
+}
+
+@media (max-width: 680px) {
+  .wrapper {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .summary {
+    padding: 0 var(--main-padding);
+  }
 }

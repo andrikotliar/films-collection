@@ -14,3 +14,10 @@
 .content {
   font-size: 14px;
 }
+
+@media (max-width: 580px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

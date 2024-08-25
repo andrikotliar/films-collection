@@ -18,7 +18,7 @@ const SummarySection: FC<SummarySectionProps> = ({ film, activeIndex }) => {
   return (
     <div className={styles.wrapper}>
       <Media data={film.media[activeIndex]} title={film.title} />
-      <div className={styles.rightColumn}>
+      <div className={styles.summary}>
         <Title>{film.title}</Title>
         <Summary config={filmConfig} />
         <div className={styles.stats}>
