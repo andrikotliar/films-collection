@@ -30,7 +30,7 @@ const FilmLink = forwardRef<HTMLAnchorElement, FilmLinkProps>(
         <p className={styles.year}>
           {data.releaseDate.length > 1
             ? `${getYearFromDate(data.releaseDate[0])} - ${getYearFromDate(
-                data.releaseDate[-1],
+                data.releaseDate.at(-1),
               )}`
             : getYearFromDate(data.releaseDate[0])}
         </p>
