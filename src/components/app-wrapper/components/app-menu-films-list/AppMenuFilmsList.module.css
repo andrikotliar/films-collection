@@ -1,0 +1,15 @@
+.filmsListWrapper {
+  padding: 20px 10px 10px;
+}
+
+.filmsListTitle {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.filmsListContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+}
