@@ -32,6 +32,8 @@ git clone git@github.com:andrikotliar/films-collection.git
 cd films-collection
 ```
 
+Create `.env` file at the root with content defined in the `.env.sample`. It includes three base URLs to image folders in the storage you have.
+
 Add films data files to the DB folder and then run commands:
 
 ```bash

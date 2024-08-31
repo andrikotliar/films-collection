@@ -1,7 +1,7 @@
 const filePaths = {
-  actors: 'https://res.cloudinary.com/dtyv9qerp/image/upload/actors/',
-  posters: 'https://res.cloudinary.com/dtyv9qerp/image/upload/posters/',
-  characters: 'https://res.cloudinary.com/dtyv9qerp/image/upload/characters/',
+  actors: import.meta.env.VITE_BASE_ACTOR_PHOTOS_URL,
+  posters: import.meta.env.VITE_BASE_POSTERS_URL,
+  characters: import.meta.env.VITE_BASE_CHARACTER_IMAGES_URL,
 };
 
 export { filePaths };
