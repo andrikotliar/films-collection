@@ -15,6 +15,14 @@
   object-fit: cover;
 }
 
+.disabled {
+  pointer-events: none;
+}
+
+.disabled img {
+  opacity: 0.5;
+}
+
 .chapter {
   position: absolute;
   top: 0;
