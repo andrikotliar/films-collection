@@ -9,6 +9,7 @@ import { FilmsContext } from '@/context';
 import { RouterLink } from '@/components/router-link/RouterLink';
 import { buildRouterLink } from '@/helpers';
 import { FilmData } from '@/common/types';
+import { AppMenuFilmsList } from '../app-menu-films-list/AppMenuFilmsList';
 
 type AppMenuProps = {
   isOpen: boolean;
@@ -50,6 +51,22 @@ const AppMenu: FC<AppMenuProps> = ({ isOpen, onClose, menuButtonRef }) => {
     return filteredFilms;
   }, [savedFilmIds, films]);
 
+  const todayReleasedMovies = useMemo(() => {
+    const today = new Date();
+    const todayDate = today.getDate();
+    const todayMonth = today.getMonth();
+
+    const filteredFilms = films.filter((film) => {
+      const filmReleasedDate = new Date(film.releaseDate[0]);
+      const date = filmReleasedDate.getDate();
+      const month = filmReleasedDate.getMonth();
+
+      return date === todayDate && todayMonth === month;
+    });
+
+    return filteredFilms;
+  }, []);
+
   return (
     <div
       className={classNames(styles.appMenu, {
@@ -59,16 +76,13 @@ const AppMenu: FC<AppMenuProps> = ({ isOpen, onClose, menuButtonRef }) => {
     >
       <Menu config={mainMenu} />
       {Boolean(lastVisitedFilms.length) && (
-        <div className={styles.visitedFilmsWrapper}>
-          <div className={styles.visitedFilmsTitle}>Last visited titles:</div>
-          <div className={styles.visitedFilmsList}>
-            {lastVisitedFilms.map((film) => (
-              <RouterLink to={buildRouterLink('film', film.id)} key={film.id}>
-                {film.title}
-              </RouterLink>
-            ))}
-          </div>
-        </div>
+        <AppMenuFilmsList list={lastVisitedFilms} title="Last visited titles" />
+      )}
+      {Boolean(todayReleasedMovies.length) && (
+        <AppMenuFilmsList
+          list={todayReleasedMovies}
+          title="Released in this date"
+        />
       )}
     </div>
   );

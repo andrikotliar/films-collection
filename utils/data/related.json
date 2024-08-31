@@ -574,6 +574,23 @@
         "title": "Spider-Man 3",
         "poster": "raimi_spider_man_3.webp"
       }
+    ],
+    "remakes": [
+      {
+        "id": "a9a22c7a2fd7f6abbbc009d1",
+        "title": "Spider-Man: Homecoming",
+        "poster": "mcu_spider_man_1.webp"
+      },
+      {
+        "id": "9453dd9a0c469571d5fd12ab",
+        "title": "Spider-Man: Far from Home",
+        "poster": "mcu_spider_man_2.webp"
+      },
+      {
+        "id": "a2911c516b6ef304aa6df62c",
+        "title": "Spider-Man: No Way Home",
+        "poster": "mcu_spider_man_3.webp"
+      }
     ]
   },
   "c4d28635d7656ca68d38e43c": {

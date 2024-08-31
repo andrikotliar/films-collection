@@ -15,6 +15,8 @@ const SummarySection: FC<SummarySectionProps> = ({ film, activeIndex }) => {
     return getFilmSummaryConfig(film, activeIndex);
   }, [film, activeIndex]);
 
+  const isBoxOfficeBlockVisible = !!film.budget || !!film.boxOffice;
+
   return (
     <div className={styles.wrapper}>
       <Media data={film.media[activeIndex]} title={film.title} />
@@ -25,7 +27,7 @@ const SummarySection: FC<SummarySectionProps> = ({ film, activeIndex }) => {
           <Rating value={film.rating} />
           <WatchCount value={film.watchCount} />
         </div>
-        {!film.type.includes('Series') && (
+        {!film.type.includes('Series') && isBoxOfficeBlockVisible && (
           <BoxOffice budget={film.budget} boxOffice={film.boxOffice} />
         )}
       </div>

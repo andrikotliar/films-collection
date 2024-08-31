@@ -18,19 +18,3 @@
   transform: translateX(0);
   visibility: visible;
 }
-
-.visitedFilmsWrapper {
-  padding: 20px 10px 10px;
-}
-
-.visitedFilmsTitle {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.visitedFilmsList {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  font-size: 14px;
-}

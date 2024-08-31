@@ -72,8 +72,7 @@ const FilmPage = () => {
 
       {film.related && (
         <Section>
-          <SectionTitle>Chapters</SectionTitle>
-          <Related data={film.related} filmId={id} />
+          <Related data={film.related} filmId={film.id} key={film.id} />
         </Section>
       )}
     </Wrapper>
