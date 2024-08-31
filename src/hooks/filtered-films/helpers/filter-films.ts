@@ -72,6 +72,18 @@ const filterFilms = (
           return filmBaseDate >= startDate && filmBaseDate <= endDate;
         }
 
+        if (property === 'extra') {
+          const filmsWithCreatedAt = list.filter((film) => film.createdAt);
+          const sortedList = filmsWithCreatedAt.sort(
+            (a, b) =>
+              new Date(b.createdAt!).getTime() -
+              new Date(a.createdAt!).getTime(),
+          );
+          const ids = sortedList.map(({ id }) => id).slice(0, 10);
+
+          return ids.includes(film.id);
+        }
+
         return (film as any)[property].some((value: string | number) => {
           return filterParams[property].includes(String(value));
         });
