@@ -72,6 +72,13 @@ const filtersConfig: Filters = {
         'Summit Entertainment',
       ],
     },
+    {
+      title: 'Extra filtes',
+      property: 'extra',
+      type: 'checkmark',
+      inputType: 'radio',
+      options: ['Latest Added'],
+    },
   ],
   collections: [
     {

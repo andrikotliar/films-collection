@@ -8,15 +8,28 @@ import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
 import { useQueryFilter } from '@/hooks';
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
+import { TypeVariants } from '@/common/types';
 
-const defaultValues = {
+type FormValues = {
+  type: TypeVariants[] | null;
+  collections: string[] | null;
+  genres: string[] | null;
+  startDate: string | null;
+  endDate: string | null;
+  countries: string[] | null;
+  production: string[] | null;
+  extra: string | null;
+};
+
+const defaultValues: FormValues = {
   type: null,
   collections: null,
   genres: null,
   startDate: null,
   endDate: null,
-  country: null,
-  studio: null,
+  countries: null,
+  production: null,
+  extra: null,
 };
 
 const COLLECTIONS_TAB_INDEX = 1;
@@ -33,7 +46,7 @@ const Filters = () => {
     defaultValues,
   });
 
-  const submitFilter = (data: any) => {
+  const submitFilter = (data: FormValues) => {
     const filledOptions = filterValues(data);
 
     if (filledOptions.collections === 'Any') {
