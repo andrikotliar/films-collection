@@ -1,0 +1,147 @@
+{
+  "_id": "ddc6478a9dfb56b77f7c651d",
+  "type": [
+    "Film"
+  ],
+  "title": "The Amazing Spider-Man",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Marc Webb"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "James Vanderbilt"
+        },
+        {
+          "name": "Alvin Sargent"
+        },
+        {
+          "name": "Steve Kloves"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Avi Arad"
+        },
+        {
+          "name": "Matt Tolmach"
+        },
+        {
+          "name": "Laura Ziskin"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "James Horner"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "John Schwartzman"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 136,
+  "cast": [
+    {
+      "actorId": "4944de362b32c61551474862",
+      "character": {
+        "name": "Spider-Man / Peter Parker",
+        "imageUrl": "the_amazing_spider_man_spider-man.webp"
+      }
+    },
+    {
+      "actorId": "c01babb295ae6416292d0fd4",
+      "character": {
+        "name": "Gwen Stacy"
+      }
+    },
+    {
+      "actorId": "54976cd277ab4a63171411b7",
+      "character": {
+        "name": "The Lizard / Dr. Curt Connors",
+        "imageUrl": "the_amazing_spider_man_the_lizard.webp"
+      }
+    },
+    {
+      "actorId": "8e184aab53e75fde640c51ca",
+      "character": {
+        "name": "Captain Stacy"
+      }
+    },
+    {
+      "actorId": "a120e6b4fb61fda262c27094",
+      "character": {
+        "name": "Uncle Ben"
+      }
+    },
+    {
+      "actorId": "ceb5dcd09087654d7284d7c7",
+      "character": {
+        "name": "Aunt May"
+      }
+    },
+    {
+      "actorId": "0d98ef8d1a55fdabad1c9b64",
+      "character": {
+        "name": "Richard Parker"
+      }
+    },
+    {
+      "actorId": "63290f63f5d24c67caaca21f",
+      "character": {
+        "name": "Mary Parker"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Superheroes"
+    }
+  ],
+  "budget": 230000000,
+  "boxOffice": 758000000,
+  "media": [
+    {
+      "poster": "amazing_spider_man_1.webp",
+      "trailer": "-tnxzJ0SSOw"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe."
+  ],
+  "relatedTitlesKey": "81148d562ca25a0cff08d571",
+  "releaseDate": [
+    "07/03/2012"
+  ],
+  "watchCount": 1,
+  "studios": [
+    "Columbia",
+    "MarvelEntertainment"
+  ]
+}

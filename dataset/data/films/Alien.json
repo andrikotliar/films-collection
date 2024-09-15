@@ -1,0 +1,179 @@
+{
+  "_id": "12c6b8f72752eeaac7cf624f",
+  "type": [
+    "Film"
+  ],
+  "title": "Alien",
+  "genres": [
+    "SciFi",
+    "Horror"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Ridley Scott"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Dan O'Bannon"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Gordon Carroll"
+        },
+        {
+          "name": "David Giler"
+        },
+        {
+          "name": "Walter Hill"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Jerry Goldsmith"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Derek Vanlint"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "UK"
+  ],
+  "duration": 117,
+  "cast": [
+    {
+      "actorId": "ca74e2b4d921daf8283f1f08",
+      "character": {
+        "name": "Ripley"
+      }
+    },
+    {
+      "actorId": "5173c305fe5f72483f5ca5ef",
+      "character": {
+        "name": "Dallas"
+      }
+    },
+    {
+      "actorId": "9dfc4b1c77cee089482ec245",
+      "character": {
+        "name": "Lambert"
+      }
+    },
+    {
+      "actorId": "42802b51f97bc9969b14993c",
+      "character": {
+        "name": "Brett"
+      }
+    },
+    {
+      "actorId": "e8a0a4dd975bb9aba822de75",
+      "character": {
+        "name": "Kane"
+      }
+    },
+    {
+      "actorId": "7619a1dbce75b71bad02d766",
+      "character": {
+        "name": "Ash"
+      }
+    },
+    {
+      "actorId": "d7e1cfccf84de611b07ece73",
+      "character": {
+        "name": "Parker"
+      }
+    },
+    {
+      "actorId": "73da3fc4ef4cd0dc8ab9d338",
+      "character": {
+        "name": "Alien",
+        "imageUrl": "alien_alien.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Space"
+    }
+  ],
+  "budget": 11000000,
+  "awards": [
+    {
+      "awardId": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardId": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Production Design"
+        },
+        {
+          "title": "Best Sound Track"
+        }
+      ]
+    },
+    {
+      "awardId": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best DVD Collection"
+        },
+        {
+          "title": "Best Science Fiction Film"
+        },
+        {
+          "title": "Best Supporting Actress",
+          "actorId": "9dfc4b1c77cee089482ec245"
+        },
+        {
+          "title": "Best Director"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 106000000,
+  "media": [
+    {
+      "poster": "alien_1.webp",
+      "trailer": "jQ5lPt9edzQ"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun."
+  ],
+  "relatedTitlesKey": "63306d5a4ad3381888cd3188",
+  "releaseDate": [
+    "05/25/1979"
+  ],
+  "watchCount": 3,
+  "studios": [
+    "20thCenturyFox"
+  ]
+}

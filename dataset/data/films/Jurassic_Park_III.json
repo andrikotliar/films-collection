@@ -1,0 +1,124 @@
+{
+  "_id": "541a317313d6b66c7cb2637b",
+  "type": [
+    "Film"
+  ],
+  "title": "Jurassic Park III",
+  "genres": [
+    "SciFi",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Joe Johnston"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Peter Buchman"
+        },
+        {
+          "name": "Alexander Payne"
+        },
+        {
+          "name": "Jim Taylor"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Larry Franco"
+        },
+        {
+          "name": "Kathleen Kennedy"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Don Davis"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Shelly Johnson"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 92,
+  "cast": [
+    {
+      "actorId": "2481ddc7d8be875f8b2be84e",
+      "character": {
+        "name": "Dr. Alan Grant"
+      }
+    },
+    {
+      "actorId": "f567f450fcb21a0af4e30af3",
+      "character": {
+        "name": "Paul Kirby"
+      }
+    },
+    {
+      "actorId": "e25b290cc53a1cd06f04ca4d",
+      "character": {
+        "name": "Amanda Kirby"
+      }
+    },
+    {
+      "actorId": "7fe039a34239505e0f74e00e",
+      "character": {
+        "name": "Billy Brennan"
+      }
+    },
+    {
+      "actorId": "56b4f488b094f82b1ce5bf04",
+      "character": {
+        "name": "Eric Kirby"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Monsters"
+    }
+  ],
+  "budget": 93000000,
+  "boxOffice": 368000000,
+  "media": [
+    {
+      "poster": "jurassic_park_3.webp",
+      "trailer": "gjIaV6CU0wA"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants."
+  ],
+  "relatedTitlesKey": "49f8964ab8146674fa031483",
+  "releaseDate": [
+    "07/18/2001"
+  ],
+  "watchCount": 1,
+  "studios": [
+    "Universal",
+    "Amblin"
+  ]
+}

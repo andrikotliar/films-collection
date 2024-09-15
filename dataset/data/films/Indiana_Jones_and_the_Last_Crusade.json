@@ -1,0 +1,153 @@
+{
+  "_id": "42cc024a7c859bb6c79544d1",
+  "type": [
+    "Film"
+  ],
+  "title": "Indiana Jones and the Last Crusade",
+  "genres": [
+    "Adventures",
+    "Fantasy",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Steven Spielberg"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Jeffrey Boam"
+        },
+        {
+          "name": "George Lucas (story)"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Robert Watts"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Douglas Slocombe"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 127,
+  "cast": [
+    {
+      "actorId": "90204450e3ebdb007d478280",
+      "character": {
+        "name": "Dr. Henry «Indiana» Jones, Jr."
+      }
+    },
+    {
+      "actorId": "52e5e7e893ec68a15817dc22",
+      "character": {
+        "name": "Professor Henry Jones"
+      }
+    },
+    {
+      "actorId": "1cb94f174646e5cd8d18c312",
+      "character": {
+        "name": "Marcus Brody"
+      }
+    },
+    {
+      "actorId": "aa4321ec61d799331b60221f",
+      "character": {
+        "name": "Elsa"
+      }
+    },
+    {
+      "actorId": "2555ed16eef45d9015e8aa02",
+      "character": {
+        "name": "Sallah"
+      }
+    },
+    {
+      "actorId": "088c8600bc5f55a443798e58",
+      "character": {
+        "name": "Walter Donovan"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Mysteries"
+    }
+  ],
+  "budget": 48000000,
+  "awards": [
+    {
+      "awardId": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Sound Effects Editing"
+        }
+      ]
+    },
+    {
+      "awardId": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best DVD Collection",
+          "comment": "\"The adventures of Indiana Jones DVD Collection\""
+        }
+      ]
+    },
+    {
+      "awardId": "JupiterAward",
+      "nominations": [
+        {
+          "title": "Best International Actor",
+          "actorId": "90204450e3ebdb007d478280"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 474000000,
+  "media": [
+    {
+      "poster": "indiana_jones_3.webp",
+      "trailer": "sagmdpkWUqc"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Professor Henry \"Indiana\" Jones, Jr. finds himself up against Adolf Hitler's Nazis again to stop them from obtaining its powers."
+  ],
+  "relatedTitlesKey": "b6df4d99b3eecf421590dd26",
+  "releaseDate": [
+    "05/24/1989"
+  ],
+  "watchCount": 1,
+  "studios": [
+    "Paramount",
+    "Lucasfilm"
+  ]
+}

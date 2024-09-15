@@ -1,0 +1,174 @@
+{
+  "_id": "6ec73fe94d5afd1f36cefe30",
+  "type": [
+    "Film"
+  ],
+  "title": "X-Men: The Last Stand",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Brett Ratner"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Simon Kinberg"
+        },
+        {
+          "name": "Zak Penn"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Lauren Shuler Donner"
+        },
+        {
+          "name": "Ralph Winter"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "John Powell"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Dante Spinotti"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 104,
+  "cast": [
+    {
+      "actorId": "544abb6ffddc8ddf4056b862",
+      "character": {
+        "name": "Logan / Wolverine"
+      }
+    },
+    {
+      "actorId": "bb3c268d0e1fceec2b8b8d58",
+      "character": {
+        "name": "Ororo Munroe / Storm"
+      }
+    },
+    {
+      "actorId": "aa9b2474d8c4c51e34160de8",
+      "character": {
+        "name": "Erik Lehnsherr / Magneto"
+      }
+    },
+    {
+      "actorId": "a1b52bbc28ac6c198e877b39",
+      "character": {
+        "name": "Charles Xavier / Professor X"
+      }
+    },
+    {
+      "actorId": "d5fc3f286280bd87817fbca7",
+      "character": {
+        "name": "Jean Grey / Phoenix"
+      }
+    },
+    {
+      "actorId": "b3406982f9ef021d2d13e050",
+      "character": {
+        "name": "Marie / Rogue"
+      }
+    },
+    {
+      "actorId": "a342f51ae286f64c196db426",
+      "character": {
+        "name": "Dr. Henry 'Hank' McCoy / Beast"
+      }
+    },
+    {
+      "actorId": "525beb4c90894e34b294cef6",
+      "character": {
+        "name": "Scott Summers / Cyclops"
+      }
+    },
+    {
+      "actorId": "f2089daf6d891ecc5cc339b5",
+      "character": {
+        "name": "Bobby Drake / Iceman"
+      }
+    },
+    {
+      "actorId": "9e2681878ec550ab367669b9",
+      "character": {
+        "name": "John Allerdyce / Pyro"
+      }
+    },
+    {
+      "actorId": "f527c912cd72467f62bcd268",
+      "character": {
+        "name": "Cain Marko / Juggernaut"
+      }
+    },
+    {
+      "actorId": "8c40238b64773c27425d940e",
+      "character": {
+        "name": "Kitty Pryde / Shadowcat"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Superheroes"
+    }
+  ],
+  "budget": 210000000,
+  "awards": [
+    {
+      "awardId": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Supporting Actress",
+          "actorId": "d5fc3f286280bd87817fbca7"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 459000000,
+  "media": [
+    {
+      "poster": "x_men_3.webp",
+      "trailer": "r8ZMvxzplwc"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "The human government develops a cure for mutations, and Jean Gray becomes a darker uncontrollable persona called the Phoenix who allies with Magneto, causing escalation into an all-out battle for the X-Men."
+  ],
+  "relatedTitlesKey": "39322de8cb5cb1b16fcafb89",
+  "releaseDate": [
+    "05/26/2006"
+  ],
+  "watchCount": 2,
+  "studios": [
+    "20thCenturyFox",
+    "MarvelEntertainment"
+  ]
+}

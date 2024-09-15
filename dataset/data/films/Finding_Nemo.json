@@ -1,0 +1,213 @@
+{
+  "_id": "3291eedd04766d916963aa84",
+  "type": [
+    "Animation"
+  ],
+  "title": "Finding Nemo",
+  "genres": [
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Andrew Stanton"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Andrew Stanton"
+        },
+        {
+          "name": "Bob Peterson"
+        },
+        {
+          "name": "David Reynolds"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Graham Walters"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Thomas Newman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Sharon Calahan"
+        },
+        {
+          "name": "Jeremy Lasky"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 100,
+  "cast": [
+    {
+      "actorId": "61039ee13e2d8a16399ebb96",
+      "character": {
+        "name": "Nemo",
+        "imageUrl": "finding_nemo_nemo.webp"
+      }
+    },
+    {
+      "actorId": "2cc3990eeb99965e18d3f994",
+      "character": {
+        "name": "Marlin",
+        "imageUrl": "finding_nemo_marlin.webp"
+      }
+    },
+    {
+      "actorId": "abfcb656438df17801fd9175",
+      "character": {
+        "name": "Dory",
+        "imageUrl": "finding_nemo_dory.webp"
+      }
+    },
+    {
+      "actorId": "69443d6dcdd5ddbc0c51e534",
+      "character": {
+        "name": "Gill",
+        "imageUrl": "finding_nemo_gill.webp"
+      }
+    },
+    {
+      "actorId": "5a4db3cfddc3b6871d1d6d04",
+      "character": {
+        "name": "Bloat",
+        "imageUrl": "finding_nemo_bloat.webp"
+      }
+    },
+    {
+      "actorId": "98ec4d73331cf787bbdd9e29",
+      "character": {
+        "name": "Peach",
+        "imageUrl": "finding_nemo_peach.webp"
+      }
+    },
+    {
+      "actorId": "ebe3a9ca69513baf8dc45d92",
+      "character": {
+        "name": "Gurgle",
+        "imageUrl": "finding_nemo_gurgle.webp"
+      }
+    },
+    {
+      "actorId": "3a91fcb3cf8f724303ce2f71",
+      "character": {
+        "name": "Bubbles",
+        "imageUrl": "finding_nemo_bubbles.webp"
+      }
+    },
+    {
+      "actorId": "532d8f4921f52e28f4c1fac8",
+      "character": {
+        "name": "Deb",
+        "imageUrl": "finding_nemo_deb.webp"
+      }
+    },
+    {
+      "actorId": "8db2b33adbba9c70802f7feb",
+      "character": {
+        "name": "Jacques",
+        "imageUrl": "finding_nemo_jacques.webp"
+      }
+    },
+    {
+      "actorId": "506875a86231e077557d5523",
+      "character": {
+        "name": "Nigel",
+        "imageUrl": "finding_nemo_nigel.webp"
+      }
+    },
+    {
+      "actorId": "b625557c009d832a86d83197",
+      "character": {
+        "name": "Crush",
+        "imageUrl": "finding_nemo_crush.webp"
+      }
+    },
+    {
+      "actorId": "72c6cd55436dd636f717ccb8",
+      "character": {
+        "name": "Bruce",
+        "imageUrl": "finding_nemo_bruce.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "FantasyWorlds"
+    }
+  ],
+  "budget": 94000000,
+  "awards": [
+    {
+      "awardId": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Animated Feature"
+        }
+      ]
+    },
+    {
+      "awardId": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Animated Film"
+        },
+        {
+          "title": "Best Supporting Actress",
+          "actorId": "abfcb656438df17801fd9175"
+        }
+      ]
+    },
+    {
+      "awardId": "CriticsChoiceAward",
+      "nominations": [
+        {
+          "title": "Best Animated Feature"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 940000000,
+  "media": [
+    {
+      "poster": "finding_nemo.webp",
+      "trailer": "wZdpNglLbt8"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home."
+  ],
+  "releaseDate": [
+    "05/30/2003"
+  ],
+  "watchCount": 5,
+  "studios": [
+    "WaltDisney",
+    "Pixar"
+  ]
+}

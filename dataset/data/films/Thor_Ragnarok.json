@@ -1,0 +1,153 @@
+{
+  "_id": "2e2c494c613a1eaf3d68b05c",
+  "type": [
+    "Film"
+  ],
+  "title": "Thor: Ragnarok",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Taika Waititi"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Eric Pearson"
+        },
+        {
+          "name": "Craig Kyle"
+        },
+        {
+          "name": "Christopher L. Yost"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Mark Mothersbaugh"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Javier Aguirresarobe"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 130,
+  "cast": [
+    {
+      "actorId": "9d6f7bec0a46789eaa403786",
+      "character": {
+        "name": "Thor"
+      }
+    },
+    {
+      "actorId": "1c93c03ba9a9870918b112fb",
+      "character": {
+        "name": "Loki"
+      }
+    },
+    {
+      "actorId": "7a354da5768fef2be29583f0",
+      "character": {
+        "name": "Hela"
+      }
+    },
+    {
+      "actorId": "ae8fde81451592bb39107acc",
+      "character": {
+        "name": "Heimdall"
+      }
+    },
+    {
+      "actorId": "ffe7655111ebb548aeea0a19",
+      "character": {
+        "name": "Grandmaster"
+      }
+    },
+    {
+      "actorId": "2b02437ffc9ab9c0bddff0bc",
+      "character": {
+        "name": "Valkyrie"
+      }
+    },
+    {
+      "actorId": "073830510a0bae3dde5820c2",
+      "character": {
+        "name": "Skurge"
+      }
+    },
+    {
+      "actorId": "a65bc3f407cd83dd8b26db19",
+      "character": {
+        "name": "Bruce Banner / Hulk",
+        "imageUrl": "thor_ragnarok_bruce_banner.webp"
+      }
+    },
+    {
+      "actorId": "da765b1b4b74c95d954ac411",
+      "character": {
+        "name": "Odin"
+      }
+    },
+    {
+      "actorId": "5a86b2f23ea348e3a58775b6",
+      "character": {
+        "name": "Doctor Strange"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "MCU"
+    }
+  ],
+  "budget": 180000000,
+  "boxOffice": 854000000,
+  "media": [
+    {
+      "poster": "thor_3.webp",
+      "trailer": "ue80QwXMRHg"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarцk, the destruction of his world, at the hands of the powerful and ruthless villain Hela."
+  ],
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "11/03/2017"
+  ],
+  "watchCount": 2,
+  "isWatchedInCinema": true,
+  "studios": [
+    "WaltDisney",
+    "MarvelStudios"
+  ]
+}

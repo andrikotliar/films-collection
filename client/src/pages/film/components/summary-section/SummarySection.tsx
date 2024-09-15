@@ -4,6 +4,7 @@ import styles from './SummarySection.module.css';
 import { Title } from '../title/Title';
 import { BoxOffice, Media, Rating, Summary, WatchCount } from './components';
 import { getFilmSummaryConfig } from '../../helpers';
+import { TitleType } from '@/enums';
 
 type SummarySectionProps = {
   film: FilmData;
@@ -27,7 +28,7 @@ const SummarySection: FC<SummarySectionProps> = ({ film, activeIndex }) => {
           <Rating value={film.rating} />
           <WatchCount value={film.watchCount} />
         </div>
-        {!film.type.includes('Series') && isBoxOfficeBlockVisible && (
+        {!film.type.includes(TitleType.SERIES) && isBoxOfficeBlockVisible && (
           <BoxOffice budget={film.budget} boxOffice={film.boxOffice} />
         )}
       </div>

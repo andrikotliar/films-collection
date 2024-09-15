@@ -1,0 +1,114 @@
+{
+  "_id": "9554299cf376486140f9bb6f",
+  "type": [
+    "Film"
+  ],
+  "title": "Fast and Furious: Tokyo Drift",
+  "genres": [
+    "Action",
+    "Crime"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Justin Lin"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Chris Morgan"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Neal H. Moritz"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Brian Tyler"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Stephen F. Windon"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 104,
+  "cast": [
+    {
+      "actorId": "7e87e69b06923d36cfa10e9f",
+      "character": {
+        "name": "Sean Boswell"
+      }
+    },
+    {
+      "actorId": "4f701c8c0076d3bc0b71ca11",
+      "character": {
+        "name": "Neela"
+      }
+    },
+    {
+      "actorId": "f64566657b4a65aaf1c8a875",
+      "character": {
+        "name": "Han"
+      }
+    },
+    {
+      "actorId": "691bd60bc65327e09cb0b781",
+      "character": {
+        "name": "Twinkie"
+      }
+    },
+    {
+      "actorId": "62de814b6ca48801c3b8fc82",
+      "character": {
+        "name": "Takashi"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Cars"
+    }
+  ],
+  "budget": 85000000,
+  "boxOffice": 158000000,
+  "media": [
+    {
+      "poster": "fast_and_furious_3.webp",
+      "trailer": "p8HQ2JLlc4E"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America."
+  ],
+  "relatedTitlesKey": "60e1ed9423ed8b0c24b751c1",
+  "releaseDate": [
+    "06/16/2006"
+  ],
+  "watchCount": 3,
+  "studios": [
+    "Universal"
+  ]
+}

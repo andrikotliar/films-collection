@@ -1,0 +1,160 @@
+{
+  "_id": "2b5cc498464d63e95ae6b049",
+  "type": [
+    "Animation"
+  ],
+  "title": "Happy Feet",
+  "genres": [
+    "Musical",
+    "Romance"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "George Miller"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Warren Coleman"
+        },
+        {
+          "name": "John Collee"
+        },
+        {
+          "name": "George Miller"
+        },
+        {
+          "name": "Judy Morris"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Bill Miller"
+        },
+        {
+          "name": "George Miller"
+        },
+        {
+          "name": "Doug Mitchell"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "John Powell"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "David Peers"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "AU"
+  ],
+  "duration": 108,
+  "cast": [
+    {
+      "character": {
+        "name": "Mumble",
+        "imageUrl": "happy_feet_mumble.webp"
+      },
+      "actorId": "afed96df0db76b317cb36711"
+    },
+    {
+      "character": {
+        "name": "Gloria",
+        "imageUrl": "happy_feet_gloria.webp"
+      },
+      "actorId": "46cb6620a73ad72d46726772"
+    },
+    {
+      "character": {
+        "name": "Memphis",
+        "imageUrl": "happy_feet_memphis.webp"
+      },
+      "actorId": "544abb6ffddc8ddf4056b862"
+    },
+    {
+      "character": {
+        "name": "Norma Jean",
+        "imageUrl": "happy_feet_norma_jean.webp"
+      },
+      "actorId": "e6459d81bab075fc3755cec2"
+    },
+    {
+      "character": {
+        "name": "Noah the Elder",
+        "imageUrl": "happy_feet_noah_the_elder.webp"
+      },
+      "actorId": "9d72ccad0a0c60872b91d2d3"
+    },
+    {
+      "character": {
+        "name": "Lovelace",
+        "imageUrl": "happy_feet_lovelace.webp"
+      },
+      "actorId": "f5de152199c29694307ff207"
+    }
+  ],
+  "collections": [
+    {
+      "key": "FantasyWorlds"
+    }
+  ],
+  "budget": 100000000,
+  "awards": [
+    {
+      "awardId": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Animated Feature"
+        }
+      ]
+    },
+    {
+      "awardId": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Animated Feature Film"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 384000000,
+  "media": [
+    {
+      "poster": "happy_feet.webp",
+      "trailer": "hFUC5adf8FE"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!"
+  ],
+  "releaseDate": [
+    "11/17/2006"
+  ],
+  "watchCount": 5,
+  "studios": [
+    "WarnerBros",
+    "VillageRoadshow"
+  ]
+}

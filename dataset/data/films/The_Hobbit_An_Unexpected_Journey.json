@@ -1,0 +1,227 @@
+{
+  "_id": "b119b8fe4b677d099061fa1a",
+  "type": [
+    "Film"
+  ],
+  "title": "The Hobbit: An Unexpected Journey",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Peter Jackson"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Fran Walsh"
+        },
+        {
+          "name": "Philippa Boyens"
+        },
+        {
+          "name": "Peter Jackson"
+        },
+        {
+          "name": "Guillermo del Toro"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Carolynne Cunningham"
+        },
+        {
+          "name": "Zane Weiner"
+        },
+        {
+          "name": "Fran Walsh"
+        },
+        {
+          "name": "Peter Jackson"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Howard Shore"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Andrew Lesnie"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "NZ"
+  ],
+  "duration": 169,
+  "cast": [
+    {
+      "actorId": "aa9b2474d8c4c51e34160de8",
+      "character": {
+        "name": "Gendalf"
+      }
+    },
+    {
+      "actorId": "706bad1f2278f02cd543a7a2",
+      "character": {
+        "name": "Bilbo"
+      }
+    },
+    {
+      "actorId": "41335f6bf9c6162d73c8cc49",
+      "character": {
+        "name": "Thorin"
+      }
+    },
+    {
+      "actorId": "cad2ddaf17bc24ce0614335d",
+      "character": {
+        "name": "Balin"
+      }
+    },
+    {
+      "actorId": "5fd82a70adb4f3d540f1fdef",
+      "character": {
+        "name": "Dwalin"
+      }
+    },
+    {
+      "actorId": "e8debedec931b52f4b2a8e44",
+      "character": {
+        "name": "Bifur"
+      }
+    },
+    {
+      "actorId": "5f14ab66b2e34d699caadfe7",
+      "character": {
+        "name": "Bofur"
+      }
+    },
+    {
+      "actorId": "a674fde7dbf59355cec8b945",
+      "character": {
+        "name": "Bombur"
+      }
+    },
+    {
+      "actorId": "7fc88af85a7d3bc6756c362c",
+      "character": {
+        "name": "Fili"
+      }
+    },
+    {
+      "actorId": "7b939ca19c45260ee1a86d74",
+      "character": {
+        "name": "Kili"
+      }
+    },
+    {
+      "actorId": "471eafc1fcdff3b0afcae9fa",
+      "character": {
+        "name": "Oin"
+      }
+    },
+    {
+      "actorId": "5ad238cfbe4c1037f4f81bfa",
+      "character": {
+        "name": "Gloin"
+      }
+    },
+    {
+      "actorId": "31d1765cf65f8f3e9ec8e93f",
+      "character": {
+        "name": "Nori"
+      }
+    },
+    {
+      "actorId": "e82498c3241515ca10b05975",
+      "character": {
+        "name": "Dori"
+      }
+    },
+    {
+      "actorId": "e0a0deae15192ec7da6f2849",
+      "character": {
+        "name": "Ori"
+      }
+    },
+    {
+      "actorId": "7619a1dbce75b71bad02d766",
+      "character": {
+        "name": "Old Bilbo"
+      }
+    },
+    {
+      "actorId": "9d72ccad0a0c60872b91d2d3",
+      "character": {
+        "name": "Elrond"
+      }
+    },
+    {
+      "actorId": "7a354da5768fef2be29583f0",
+      "character": {
+        "name": "Galadriel"
+      }
+    },
+    {
+      "actorId": "e5253cdc8c1fb87953720d64",
+      "character": {
+        "name": "Gollum"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "MEU"
+    }
+  ],
+  "budget": 200000000,
+  "awards": [
+    {
+      "awardId": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Production Design"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 1020000000,
+  "media": [
+    {
+      "poster": "middle_earth_1.webp",
+      "trailer": "JTSoD4BBCJc"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug."
+  ],
+  "relatedTitlesKey": "148895975f95315e06a7cc17",
+  "releaseDate": [
+    "12/14/2012"
+  ],
+  "watchCount": 1,
+  "studios": [
+    "NewLineCinema"
+  ]
+}

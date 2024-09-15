@@ -1,0 +1,168 @@
+{
+  "_id": "6816f4faa756ba78ae64b7d2",
+  "type": [
+    "Film"
+  ],
+  "title": "Rogue One",
+  "genres": [
+    "SpaceOpera",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Gareth Edwards"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Chris Weitz"
+        },
+        {
+          "name": "Tony Gilroy"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Simon Emanuel"
+        },
+        {
+          "name": "Allison Shearmur"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Michael Giacchino"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Greig Fraser"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 133,
+  "cast": [
+    {
+      "actorId": "119a099661348f935a7b2c37",
+      "character": {
+        "name": "Jyn Erso"
+      }
+    },
+    {
+      "actorId": "241339bc59e6a77e1bd47050",
+      "character": {
+        "name": "Cassian Andor"
+      }
+    },
+    {
+      "actorId": "a5c580aab49791a22e7f3b74",
+      "character": {
+        "name": "K-2SO",
+        "imageUrl": "rogue_one_k_2so.webp"
+      }
+    },
+    {
+      "actorId": "681aa7ecd9a953a47f397a64",
+      "character": {
+        "name": "Chirrut Imwe"
+      }
+    },
+    {
+      "actorId": "79e0ab7ae9957d6c7e82da90",
+      "character": {
+        "name": "Baze Malbus"
+      }
+    },
+    {
+      "actorId": "5e8de99fe5c4235fb362b719",
+      "character": {
+        "name": "Orson Krennic"
+      }
+    },
+    {
+      "actorId": "76c19790805c65030450c9ba",
+      "character": {
+        "name": "Governor Tarkin"
+      }
+    },
+    {
+      "actorId": "12d4eae94b34820e9c78b4ca",
+      "character": {
+        "name": "Saw Gerrera"
+      }
+    },
+    {
+      "actorId": "e28338f3ae267cd8cab714fe",
+      "character": {
+        "name": "Galen Erso"
+      }
+    },
+    {
+      "actorId": "ff795ec712c7e62204b6c67b",
+      "character": {
+        "name": "Bodhi Rook"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "SWU"
+    }
+  ],
+  "budget": 200000000,
+  "awards": [
+    {
+      "awardId": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film"
+        },
+        {
+          "title": "Best Director"
+        },
+        {
+          "title": "Best Special Effects"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 1060000000,
+  "media": [
+    {
+      "poster": "rogue_one.webp",
+      "trailer": "frdj1zb9sMY"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans."
+  ],
+  "relatedTitlesKey": "0de96c347aa9f64e14fb4a83",
+  "releaseDate": [
+    "12/16/2016"
+  ],
+  "watchCount": 2,
+  "studios": [
+    "Lucasfilm",
+    "WaltDisney"
+  ]
+}

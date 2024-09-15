@@ -1,0 +1,155 @@
+{
+  "_id": "eb4d91e9a4798cbed3d1040f",
+  "type": [
+    "Film"
+  ],
+  "title": "Harry Potter and the Deathly Hallows: Part I",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "David Yates"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Steve Kloves"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "David Heyman"
+        },
+        {
+          "name": "David Barron"
+        },
+        {
+          "name": "J.K.Rowling"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Alexandre Desplat"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Eduardo Serra"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "UK"
+  ],
+  "duration": 146,
+  "cast": [
+    {
+      "actorId": "7cd730dd761c711d4467bce0",
+      "character": {
+        "name": "Harry Potter",
+        "imageUrl": "harry_potter_and_the_deathly_hallows_part_i_harry_potter.webp"
+      }
+    },
+    {
+      "actorId": "076188ec6b66a2c4a62fdab1",
+      "character": {
+        "name": "Ron Weasley",
+        "imageUrl": "harry_potter_and_the_deathly_hallows_part_i_ron_weasley.webp"
+      }
+    },
+    {
+      "actorId": "3f0004fa95271000de67d1f4",
+      "character": {
+        "name": "Hermione Granger",
+        "imageUrl": "harry_potter_and_the_deathly_hallows_part_i_hermione_granger.webp"
+      }
+    },
+    {
+      "actorId": "25210612f77f5f5a4c51dc56",
+      "character": {
+        "name": "Lord Voldemort"
+      }
+    },
+    {
+      "actorId": "9433a6747c6cfc354fed7e65",
+      "character": {
+        "name": "Severus Snape"
+      }
+    },
+    {
+      "actorId": "b5e7e795de1f87df92309e3a",
+      "character": {
+        "name": "Bellatrix Lestrage"
+      }
+    },
+    {
+      "actorId": "5aea15b4e9912ad7b3a2241e",
+      "character": {
+        "name": "Rubeus Hagrid"
+      }
+    },
+    {
+      "actorId": "aca6f583677ffb4c7f38d469",
+      "character": {
+        "name": "Draco Malfoy"
+      }
+    },
+    {
+      "actorId": "0c745814f1b5b36341674138",
+      "character": {
+        "name": "Dobby",
+        "imageUrl": "harry_potter_and_the_deathly_hallows_part_i_dobby.webp"
+      }
+    },
+    {
+      "actorId": "54976cd277ab4a63171411b7",
+      "character": {
+        "name": "Xenophilius Lovegood"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "HPU"
+    }
+  ],
+  "budget": 250000000,
+  "boxOffice": 960000000,
+  "media": [
+    {
+      "poster": "harry_potter_7.webp",
+      "trailer": "MxqsmsA8y5k"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows."
+  ],
+  "relatedTitlesKey": "21fe420121bd2018a3c76f32",
+  "releaseDate": [
+    "11/19/2010"
+  ],
+  "watchCount": 4,
+  "studios": [
+    "WarnerBros"
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "_id": "4692ec79984d235d51641d16",
+  "type": [
+    "Film"
+  ],
+  "title": "Indiana Jones and the Raiders of the Lost Ark",
+  "genres": [
+    "Adventures",
+    "Fantasy",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Steven Spielberg"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Lawrence Kasdan"
+        },
+        {
+          "name": "George Lucas (story)"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Frank Marshall"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Douglas Slocombe"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 115,
+  "cast": [
+    {
+      "actorId": "90204450e3ebdb007d478280",
+      "character": {
+        "name": "Dr. Henry «Indiana» Jones, Jr."
+      }
+    },
+    {
+      "actorId": "bd524c2789035cc0587cd149",
+      "character": {
+        "name": "Marion"
+      }
+    },
+    {
+      "actorId": "507838a0e6675bb5c9fbd2f2",
+      "character": {
+        "name": "Belloq"
+      }
+    },
+    {
+      "actorId": "62119b0307c540cb16d33aed",
+      "character": {
+        "name": "Toht"
+      }
+    },
+    {
+      "actorId": "2555ed16eef45d9015e8aa02",
+      "character": {
+        "name": "Sallah"
+      }
+    },
+    {
+      "actorId": "1cb94f174646e5cd8d18c312",
+      "character": {
+        "name": "Brody"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Legends"
+    },
+    {
+      "key": "Mysteries"
+    }
+  ],
+  "budget": 18000000,
+  "awards": [
+    {
+      "awardId": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Art Direction-Set Decoration"
+        },
+        {
+          "title": "Best Sound"
+        },
+        {
+          "title": "Best Film Editing"
+        },
+        {
+          "title": "Best Effects, Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardId": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Production Design/Art Direction"
+        }
+      ]
+    },
+    {
+      "awardId": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best DVD Collection",
+          "comment": "\"The adventures of Indiana Jones DVD Collection\""
+        },
+        {
+          "title": "Best fantasy Film"
+        },
+        {
+          "title": "Best Actor",
+          "actorId": "90204450e3ebdb007d478280"
+        },
+        {
+          "title": "Best Actress",
+          "actorId": "bd524c2789035cc0587cd149"
+        },
+        {
+          "title": "Best Director"
+        },
+        {
+          "title": "Best Writing"
+        },
+        {
+          "title": "Best Music"
+        },
+        {
+          "title": "Best Special Effects"
+        }
+      ]
+    },
+    {
+      "awardId": "JupiterAward",
+      "nominations": [
+        {
+          "title": "Best International Actor",
+          "actorId": "90204450e3ebdb007d478280"
+        },
+        {
+          "title": "Best International Film"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 390000000,
+  "media": [
+    {
+      "poster": "indiana_jones_1.webp",
+      "trailer": "Rh_BJXG1-44"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers."
+  ],
+  "relatedTitlesKey": "b6df4d99b3eecf421590dd26",
+  "releaseDate": [
+    "06/12/1981"
+  ],
+  "watchCount": 1,
+  "studios": [
+    "Paramount",
+    "Lucasfilm"
+  ]
+}

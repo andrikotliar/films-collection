@@ -1,0 +1,154 @@
+{
+  "_id": "f7a754966af03ad955fdb360",
+  "type": [
+    "Animation"
+  ],
+  "title": "Shrek 2",
+  "genres": [
+    "Adventures",
+    "Comedy"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Andrew Adamson"
+        },
+        {
+          "name": "Kelly Asbury"
+        },
+        {
+          "name": "Conrad Vernon"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Ted Elliott"
+        },
+        {
+          "name": "Terry Rossio"
+        },
+        {
+          "name": "Joe Stillman"
+        },
+        {
+          "name": "Roger S. H. Schulman"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "David Lipman"
+        },
+        {
+          "name": "Aron Warner"
+        },
+        {
+          "name": "John H. Williams"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Harry Gregson-Williams"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "JP"
+  ],
+  "duration": 93,
+  "cast": [
+    {
+      "actorId": "da1f33b9c84064852254d8aa",
+      "character": {
+        "name": "Shrek",
+        "imageUrl": "shrek_2_shrek.webp"
+      }
+    },
+    {
+      "actorId": "356f3d8d6debf47913fead0a",
+      "character": {
+        "name": "Donkey",
+        "imageUrl": "shrek_2_donkey.webp"
+      }
+    },
+    {
+      "actorId": "2f654330682e4a9dbb666cc0",
+      "character": {
+        "name": "Fiona",
+        "imageUrl": "shrek_2_fiona.webp"
+      }
+    },
+    {
+      "actorId": "d09e87569baf0ba6ffa2c42e",
+      "character": {
+        "name": "Puss In Boots",
+        "imageUrl": "shrek_2_puss_in_boots.webp"
+      }
+    },
+    {
+      "actorId": "79302944314256f8837af530",
+      "character": {
+        "name": "Queen",
+        "imageUrl": "shrek_2_queen.webp"
+      }
+    },
+    {
+      "actorId": "0f7e8cddcf6806c802d66fae",
+      "character": {
+        "name": "King",
+        "imageUrl": "shrek_2_king.webp"
+      }
+    },
+    {
+      "actorId": "b337b83b16b62953ee64cfc4",
+      "character": {
+        "name": "Prince Charming",
+        "imageUrl": "shrek_2_prince_charming.webp"
+      }
+    },
+    {
+      "actorId": "40f3282712b68cc8b6adda4f",
+      "character": {
+        "name": "Fairy Godmother",
+        "imageUrl": "shrek_2_fairy_godmother.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "FantasyWorlds"
+    }
+  ],
+  "budget": 150000000,
+  "boxOffice": 920000000,
+  "media": [
+    {
+      "poster": "shrek_2.webp",
+      "trailer": "xBgSfhp5Fxo"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "Shrek and Fiona travel to the Kingdom of Far Far Away, where Fiona's parents are King and Queen, to celebrate their marriage. When they arrive, they find they are not as welcome as they thought they would be."
+  ],
+  "relatedTitlesKey": "a81b1654b30b06adb32ddf8d",
+  "releaseDate": [
+    "05/19/2004"
+  ],
+  "watchCount": 10,
+  "studios": [
+    "DreamWorksAnimation"
+  ]
+}

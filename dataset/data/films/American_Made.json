@@ -1,0 +1,143 @@
+{
+  "_id": "f23effa6fc6cd62da908584b",
+  "type": [
+    "Film"
+  ],
+  "title": "American Made",
+  "genres": [
+    "Comedy",
+    "Crime"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Doug Liman"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Gary Spinelli"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Ray Angelic"
+        },
+        {
+          "name": "Doug Davison"
+        },
+        {
+          "name": "Brian Oliver"
+        },
+        {
+          "name": "Kim Roth"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Christophe Beck"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "César Charlone"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "JP",
+    "CO"
+  ],
+  "duration": 115,
+  "cast": [
+    {
+      "actorId": "d1899eef1c53bc13798a897c",
+      "character": {
+        "name": "Barry Seal"
+      }
+    },
+    {
+      "actorId": "ed556b2fb295cedc56c45779",
+      "character": {
+        "name": "Monty 'Schafer'"
+      }
+    },
+    {
+      "actorId": "6ad5d4c15f55fba9c91c0058",
+      "character": {
+        "name": "Lucy Seal"
+      }
+    },
+    {
+      "actorId": "ef95c275705a492e63fc165b",
+      "character": {
+        "name": "Sheriff Downing"
+      }
+    },
+    {
+      "actorId": "555ccb293f45295069ba5e62",
+      "character": {
+        "name": "JB"
+      }
+    },
+    {
+      "actorId": "1cb12b05d9bf44d1131370d2",
+      "character": {
+        "name": "George W. Bush"
+      }
+    },
+    {
+      "actorId": "5b9102867a9e1b60a93b7c83",
+      "character": {
+        "name": "Pablo Escobar"
+      }
+    },
+    {
+      "actorId": "6a14af64fdb99d481493d393",
+      "character": {
+        "name": "Jorge Ochoa"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Criminals"
+    }
+  ],
+  "budget": 50000000,
+  "boxOffice": 135000000,
+  "media": [
+    {
+      "poster": "american_made.webp",
+      "trailer": "AEBIJRAkujM"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "The story of Barry Seal, an American pilot who became a drug-runner for the CIA in the 1980s in a clandestine operation that would be exposed as the Iran-Contra Affair."
+  ],
+  "releaseDate": [
+    "09/29/2017"
+  ],
+  "watchCount": 1,
+  "studios": [
+    "CrossCreek",
+    "Imagine"
+  ]
+}

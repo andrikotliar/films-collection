@@ -1,0 +1,149 @@
+{
+  "_id": "36206a95c7e2cdb0232e3b8d",
+  "type": [
+    "Film"
+  ],
+  "title": "Independence Day",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Roland Emmerich"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Dean Devlin"
+        },
+        {
+          "name": "Roland Emmerich"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Dean Devlin"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "David Arnold"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Karl Walter Lindenlaub"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 145,
+  "cast": [
+    {
+      "actorId": "b59613245389fb066c309182",
+      "character": {
+        "name": "Capt. Steven Hiller"
+      }
+    },
+    {
+      "actorId": "a5e63e44d084200a35aaca53",
+      "character": {
+        "name": "President Thomas J. Whitmore"
+      }
+    },
+    {
+      "actorId": "ffe7655111ebb548aeea0a19",
+      "character": {
+        "name": "David Levinson"
+      }
+    },
+    {
+      "actorId": "581d7c054a9cb4b7beea4e6e",
+      "character": {
+        "name": "Julius Levinson"
+      }
+    },
+    {
+      "actorId": "0d21e203a6e8eeb212c61661",
+      "character": {
+        "name": "General William Grey"
+      }
+    },
+    {
+      "actorId": "09b4cdaddb10befd1ef3826c",
+      "character": {
+        "name": "Russell Casse"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Invasion"
+    },
+    {
+      "key": "Disaster"
+    }
+  ],
+  "budget": 75000000,
+  "awards": [
+    {
+      "awardId": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardId": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film"
+        },
+        {
+          "title": "Best Director"
+        },
+        {
+          "title": "Best Special Effects"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 817000000,
+  "media": [
+    {
+      "poster": "independence_day.webp",
+      "trailer": "kA2WzBi2grE"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive."
+  ],
+  "watchCount": 10,
+  "releaseDate": [
+    "07/03/1996"
+  ],
+  "studios": [
+    "20thCenturyFox"
+  ]
+}

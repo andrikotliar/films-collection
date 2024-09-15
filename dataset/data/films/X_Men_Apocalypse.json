@@ -1,0 +1,164 @@
+{
+  "_id": "1243b13711321c7775a31ad0",
+  "type": [
+    "Film"
+  ],
+  "title": "X-Men: Apocalypse",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Bryan Singer"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Simon Kinberg"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Lauren Shuler Donner"
+        },
+        {
+          "name": "Bryan Singer"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "John Ottman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Newton Thomas Sigel"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 144,
+  "cast": [
+    {
+      "actorId": "1fbb6ff101ef506a0bf61497",
+      "character": {
+        "name": "Professor Charles Xavier"
+      }
+    },
+    {
+      "actorId": "bec6ffd8479a9c7a4c2f3e56",
+      "character": {
+        "name": "Erik Lehnsherr / Magneto"
+      }
+    },
+    {
+      "actorId": "c99e4f6dc0695561848dc5be",
+      "character": {
+        "name": "Raven / Mystique",
+        "imageUrl": "x_men_apocalypse_raven.webp"
+      }
+    },
+    {
+      "actorId": "f5742b02c88fb0465409276f",
+      "character": {
+        "name": "Hank McCoy / Beast",
+        "imageUrl": "x_men_apocalypse_hank_mccoy.webp"
+      }
+    },
+    {
+      "actorId": "8b0c59295bf19f18ccdebced",
+      "character": {
+        "name": "En Sabah Nur / Apocalypse",
+        "imageUrl": "x_men_apocalypse_en_sabah_nur.webp"
+      }
+    },
+    {
+      "actorId": "4672780c056f845c33a4110e",
+      "character": {
+        "name": "Moira Mactaggert"
+      }
+    },
+    {
+      "actorId": "22c5f4431c465fad5fb3b185",
+      "character": {
+        "name": "Peter Maximoff / Quicksilver"
+      }
+    },
+    {
+      "actorId": "30c4d313530be2273fedd1dc",
+      "character": {
+        "name": "Col. William Stryker"
+      }
+    },
+    {
+      "actorId": "feba8bc96afaa9b4bd63c2b5",
+      "character": {
+        "name": "Jean Grey"
+      }
+    },
+    {
+      "actorId": "7fffb2c64199b3d7572f0b3c",
+      "character": {
+        "name": "Scott Summers / Cyclops"
+      }
+    },
+    {
+      "actorId": "6b14965495f175568fb12f8f",
+      "character": {
+        "name": "Alex Summers / Havok"
+      }
+    },
+    {
+      "actorId": "e7e7790e754b6bc047afa3ad",
+      "character": {
+        "name": "Kurt Wagner / Nightcrawler",
+        "imageUrl": "x_men_apocalypse_kurt_wagner.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Superheroes"
+    }
+  ],
+  "budget": 178000000,
+  "boxOffice": 544000000,
+  "media": [
+    {
+      "poster": "x_men_7.webp",
+      "trailer": "Jer8XjMrUB4"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "In the 1980s the X-Men must defeat an ancient all-powerful mutant, En Sabah Nur, who intends to thrive through bringing destruction to the world."
+  ],
+  "relatedTitlesKey": "39322de8cb5cb1b16fcafb89",
+  "releaseDate": [
+    "05/27/2016"
+  ],
+  "watchCount": 1,
+  "studios": [
+    "20thCenturyFox",
+    "MarvelEntertainment"
+  ]
+}

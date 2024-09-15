@@ -1,0 +1,191 @@
+{
+  "_id": "61138ce033f4db5a918e1abb",
+  "type": [
+    "Series"
+  ],
+  "title": "Loki",
+  "genres": [
+    "Adventures",
+    "Fantasy"
+  ],
+  "crew": [
+    {
+      "role": "SeriesCreator",
+      "people": [
+        {
+          "name": "Michael Waldron"
+        }
+      ]
+    },
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Kate Herron",
+          "comment": "6 episodes"
+        },
+        {
+          "name": "Justin Benson",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Aaron Moorhead",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Michael Waldron",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Elissa Karasik",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Bisha K. Ali",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Eric Martin",
+          "comment": "8 episodes"
+        },
+        {
+          "name": "Tom Kauffman",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        },
+        {
+          "name": "Louis D'Esposito"
+        },
+        {
+          "name": "Victoria Alonso"
+        },
+        {
+          "name": "Stephen Broussard"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Natalie Holt"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Autumn Durald Arkapaw"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 300,
+  "cast": [
+    {
+      "actorId": "1c93c03ba9a9870918b112fb",
+      "character": {
+        "name": "Loki"
+      }
+    },
+    {
+      "actorId": "004ae97164ea5cbb5a4c7434",
+      "character": {
+        "name": "Ravonna Renslayer"
+      }
+    },
+    {
+      "actorId": "51f7729ef14080f9a2bdc468",
+      "character": {
+        "name": "Sylvie"
+      }
+    },
+    {
+      "actorId": "2796dd0765ccb1b2224c5679",
+      "character": {
+        "name": "Mobius"
+      }
+    },
+    {
+      "actorId": "cbf38cf13f40908683817285",
+      "character": {
+        "name": "Hunter B-15"
+      }
+    },
+    {
+      "actorId": "2bd143e081d26fcfc1e8fb37",
+      "character": {
+        "name": "Miss Minutes",
+        "imageUrl": "loki_miss_minutes.webp"
+      }
+    },
+    {
+      "actorId": "a274851913f05ad2b83c945e",
+      "character": {
+        "name": "Classic Loki"
+      }
+    },
+    {
+      "actorId": "dd90459c43a0f15ebf987a9a",
+      "character": {
+        "name": "Kid Loki"
+      }
+    },
+    {
+      "actorId": "c8fa924fe9703ed4b3cab94c",
+      "character": {
+        "name": "He Who Remains"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "MCU"
+    }
+  ],
+  "series": {
+    "episodesTotal": 6,
+    "seasons": [
+      {
+        "title": "Season 1",
+        "number": 1,
+        "episodesCount": 6
+      }
+    ]
+  },
+  "media": [
+    {
+      "poster": "loki.webp",
+      "trailer": "nW948Va-l10"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of «Avengers: Endgame»."
+  ],
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "06/09/2021"
+  ],
+  "watchCount": 1,
+  "studios": [
+    "DisneyPlus",
+    "MarvelStudios"
+  ]
+}

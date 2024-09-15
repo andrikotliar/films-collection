@@ -1,0 +1,158 @@
+{
+  "_id": "3bfb3cbf208e5dbd34d7fc14",
+  "type": [
+    "Film"
+  ],
+  "title": "Mission: Impossible 2",
+  "genres": [
+    "Action",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "John Wo"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Robert Towne"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Tom Cruise"
+        },
+        {
+          "name": "Paula Wagner"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Jeffrey L. Kimball"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 123,
+  "cast": [
+    {
+      "actorId": "d1899eef1c53bc13798a897c",
+      "character": {
+        "name": "Ethan Hunt"
+      }
+    },
+    {
+      "actorId": "2157cb729ec697f42b1a471c",
+      "character": {
+        "name": "Sean Ambrose"
+      }
+    },
+    {
+      "actorId": "e8de9cf95faeea0c9bde694c",
+      "character": {
+        "name": "Nyah Hall"
+      }
+    },
+    {
+      "actorId": "4b4ebf97ca75b72088e2c948",
+      "character": {
+        "name": "Luther Strickell"
+      }
+    },
+    {
+      "actorId": "953ad71c05859a1a5ee1bd5f",
+      "character": {
+        "name": "Hugh Stamp"
+      }
+    },
+    {
+      "actorId": "1b3b9c4e862d84845db13e3b",
+      "character": {
+        "name": "Billy Baird"
+      }
+    },
+    {
+      "actorId": "a0b80add73e1eaf43e9aebe5",
+      "character": {
+        "name": "McCloy"
+      }
+    },
+    {
+      "actorId": "09cfe69b63c756861733fa82",
+      "character": {
+        "name": "Dr. Nekhorvich"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "AgentsDetectives"
+    }
+  ],
+  "budget": 125000000,
+  "awards": [
+    {
+      "awardId": "CriticsChoiceAward",
+      "nominations": [
+        {
+          "title": "Best Score"
+        }
+      ]
+    },
+    {
+      "awardId": "MtvAward",
+      "nominations": [
+        {
+          "title": "Best Male Performance",
+          "actorId": "d1899eef1c53bc13798a897c"
+        },
+        {
+          "title": "Best action Sequence",
+          "comment": "The motorcycle chase."
+        }
+      ]
+    }
+  ],
+  "boxOffice": 546000000,
+  "media": [
+    {
+      "poster": "mi_2.webp",
+      "trailer": "Aqk78Z57LGg"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "IMF Agent Ethan Hunt is sent to Sydney, to find and destroy a genetically modified disease called \"Chimera\"."
+  ],
+  "relatedTitlesKey": "7201769b07df74e644bc0b02",
+  "releaseDate": [
+    "05/24/2000"
+  ],
+  "watchCount": 2,
+  "studios": [
+    "Paramount"
+  ]
+}

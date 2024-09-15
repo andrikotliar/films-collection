@@ -1,0 +1,322 @@
+{
+  "_id": "0ce57591be06fdd4c25e8129",
+  "type": [
+    "Series"
+  ],
+  "title": "The Legend of Korra",
+  "genres": [
+    "Adventures",
+    "Fantasy"
+  ],
+  "crew": [
+    {
+      "role": "SeriesCreator",
+      "people": [
+        {
+          "name": "Michael Dante DiMartino"
+        },
+        {
+          "name": "Bryan Konietzko"
+        }
+      ]
+    },
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Joaquim Dos Santos",
+          "comment": "12 episodes"
+        },
+        {
+          "name": "Ki Hyun Ryu",
+          "comment": "12 episodes"
+        },
+        {
+          "name": "Colin Heck",
+          "comment": "15 episodes"
+        },
+        {
+          "name": "Ian Graham",
+          "comment": "15 episodes"
+        },
+        {
+          "name": "Melchior Zwyer",
+          "comment": "9 episodes"
+        },
+        {
+          "name": "Michael Dante DiMartino",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Michael Dante DiMartino",
+          "comment": "22 episodes"
+        },
+        {
+          "name": "Bryan Konietzko",
+          "comment": "12 episodes"
+        },
+        {
+          "name": "Tim Hedrick",
+          "comment": "15 episodes"
+        },
+        {
+          "name": "Joshua Hamilton",
+          "comment": "15 episodes"
+        },
+        {
+          "name": "Katie Mattila",
+          "comment": "3 episodes"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Tim Yoon"
+        },
+        {
+          "name": "Karen Malach"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Jeremy Zuckerman"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 1196,
+  "cast": [
+    {
+      "actorId": "f141d903681afc605667e90b",
+      "character": {
+        "name": "Korra",
+        "imageUrl": "the_legend_of_korra_korra.webp"
+      }
+    },
+    {
+      "actorId": "fa66afeeb27440dee15e5c76",
+      "character": {
+        "name": "Bolin",
+        "imageUrl": "the_legend_of_korra_bolin.webp"
+      }
+    },
+    {
+      "actorId": "6ab864312ad85779feec8b6b",
+      "character": {
+        "name": "Mako",
+        "imageUrl": "the_legend_of_korra_mako.webp"
+      }
+    },
+    {
+      "actorId": "03293ef86c8bf352c9dd52f4",
+      "character": {
+        "name": "Tenzin",
+        "imageUrl": "the_legend_of_korra_tenzin.webp"
+      }
+    },
+    {
+      "actorId": "f52ca5fa17409e78addd6e31",
+      "character": {
+        "name": "Asami Sato",
+        "imageUrl": "the_legend_of_korra_asami_sato.webp"
+      }
+    },
+    {
+      "actorId": "8e8e614e6069c0dd17beefb2",
+      "character": {
+        "name": "Lin Beifong",
+        "imageUrl": "the_legend_of_korra_lin_beifong.webp"
+      }
+    },
+    {
+      "actorId": "c9df14c4610c90d7bc3dd89c",
+      "character": {
+        "name": "Meelo",
+        "imageUrl": "the_legend_of_korra_meelo.webp"
+      }
+    },
+    {
+      "actorId": "065b654c3848f322d56063ad",
+      "character": {
+        "name": "Jinora",
+        "imageUrl": "the_legend_of_korra_jinora.webp"
+      }
+    },
+    {
+      "actorId": "cc5e6da11399a3902e09670e",
+      "character": {
+        "name": "Varrick",
+        "imageUrl": "the_legend_of_korra_varrick.webp"
+      }
+    },
+    {
+      "actorId": "cc1cea9cd63393a0e4ae729d",
+      "character": {
+        "name": "Ikki",
+        "imageUrl": "the_legend_of_korra_ikki.webp"
+      }
+    },
+    {
+      "actorId": "a9c2d3acceb693ffa6da6728",
+      "character": {
+        "name": "Bumi",
+        "imageUrl": "the_legend_of_korra_bumi.webp"
+      }
+    },
+    {
+      "actorId": "886705efe27900f9c7e27447",
+      "character": {
+        "name": "Tonraq",
+        "imageUrl": "the_legend_of_korra_tonraq.webp"
+      }
+    },
+    {
+      "actorId": "a5e25463aa7133ab833c71fe",
+      "character": {
+        "name": "Unalaq",
+        "imageUrl": "the_legend_of_korra_unalaq.webp"
+      }
+    },
+    {
+      "actorId": "548ff3dd03d5eae8da85b437",
+      "character": {
+        "name": "Zaheer",
+        "imageUrl": "the_legend_of_korra_zaheer.webp"
+      }
+    },
+    {
+      "actorId": "10eb3a80ceafcb9135ef3290",
+      "character": {
+        "name": "Amon",
+        "imageUrl": "the_legend_of_korra_amon.webp"
+      }
+    },
+    {
+      "actorId": "2e396819ac07ea68100eacde",
+      "character": {
+        "name": "Kuvira",
+        "imageUrl": "the_legend_of_korra_kuvira.webp"
+      }
+    },
+    {
+      "actorId": "47e429aecc25eededd9044e7",
+      "character": {
+        "name": "Vaatu",
+        "imageUrl": "the_legend_of_korra_vaatu.webp"
+      }
+    },
+    {
+      "actorId": "5c2a55fb020d9bfb3ad36823",
+      "character": {
+        "name": "Raava",
+        "imageUrl": "the_legend_of_korra_raava.webp"
+      }
+    },
+    {
+      "actorId": "158f779e569433961193f113",
+      "character": {
+        "name": "Aang",
+        "imageUrl": "the_legend_of_korra_aang.webp"
+      }
+    },
+    {
+      "actorId": "1000055d1e03066802dffcfd",
+      "character": {
+        "name": "Katara",
+        "imageUrl": "the_legend_of_korra_katara.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "FantasyWorlds"
+    }
+  ],
+  "awards": [
+    {
+      "awardId": "AnnieAward",
+      "nominations": [
+        {
+          "title": "Outstanding Achievement in Storyboarding in an Animated TV/Broadcast Production"
+        },
+        {
+          "title": "Outstanding Achievement in Production Design in an Animated TV/Broadcast Production"
+        }
+      ]
+    }
+  ],
+  "series": {
+    "episodesTotal": 52,
+    "seasons": [
+      {
+        "title": "Book One: Air",
+        "number": 1,
+        "episodesCount": 12
+      },
+      {
+        "title": "Book Two: Spirits",
+        "number": 2,
+        "episodesCount": 14
+      },
+      {
+        "title": "Book Three: Change",
+        "number": 3,
+        "episodesCount": 13
+      },
+      {
+        "title": "Book Four: Balance",
+        "number": 4,
+        "episodesCount": 13
+      }
+    ]
+  },
+  "media": [
+    {
+      "poster": "legend_of_korra.webp",
+      "trailer": "NBNpGCIavwA"
+    },
+    {
+      "poster": "legend_of_korra_s2.webp",
+      "trailer": "NBNpGCIavwA"
+    },
+    {
+      "poster": "legend_of_korra_s3.webp",
+      "trailer": "NBNpGCIavwA"
+    },
+    {
+      "poster": "legend_of_korra_s4.webp",
+      "trailer": "NBNpGCIavwA"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Korra, the new Avatar, embarks on her journey to master airbending in Republic City. She faces the Equalists, a group led by Amon that seeks to rid the world of bending. As she learns more about the complexities of being the Avatar, she must restore balance and peace.",
+    "Korra faces new challenges as she delves into the spirit world and discovers the origins of bending. Civil unrest in Republic City and the appearance of dark spirits escalate the conflict. She must learn the ancient art of energybending and connect with her spiritual side.",
+    "In the third season, Korra faces the Red Lotus, a dangerous anarchist group that seeks to end the Avatar cycle. As she confronts formidable adversaries, she must rebuild the Air Nation, rediscover herself, and make challenging decisions for the world's future.",
+    "The final season follows Korra as she deals with the aftermath of her traumatic battles. She faces Kuvira, an Earth Empire military leader who seeks to unite the Earth Kingdom. As Korra grapples with physical and emotional scars, she strives to bring balance to the world."
+  ],
+  "relatedTitlesKey": "e05da171ca037612acd11bcf",
+  "releaseDate": [
+    "04/14/2012",
+    "09/13/2013",
+    "06/27/2014",
+    "10/03/2014"
+  ],
+  "watchCount": 2,
+  "studios": [
+    "Nickelodeon"
+  ]
+}

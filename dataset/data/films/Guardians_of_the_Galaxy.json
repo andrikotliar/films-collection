@@ -1,0 +1,198 @@
+{
+  "_id": "3c7ca546cad5d529e6ffd257",
+  "type": [
+    "Film"
+  ],
+  "title": "Guardians of the Galaxy",
+  "genres": [
+    "SciFi",
+    "Comedy"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "James Gunn"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "James Gunn"
+        },
+        {
+          "name": "Nicole Perlman"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Tyler Bates"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Ben Davis"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 122,
+  "cast": [
+    {
+      "actorId": "81002d63c8ad158916752ee2",
+      "character": {
+        "name": "Peter Quill / Star-Lord"
+      }
+    },
+    {
+      "actorId": "0f44c8581608c442261413e4",
+      "character": {
+        "name": "Gamora",
+        "imageUrl": "guardians_of_the_galaxy_gamora.webp"
+      }
+    },
+    {
+      "actorId": "6e7815767f3afa70c3dc69c5",
+      "character": {
+        "name": "Drax",
+        "imageUrl": "guardians_of_the_galaxy_drax.webp"
+      }
+    },
+    {
+      "actorId": "8acb4ceb24e197fffd95c777",
+      "character": {
+        "name": "Groot",
+        "imageUrl": "guardians_of_the_galaxy_groot.webp"
+      }
+    },
+    {
+      "actorId": "dc4912e5f14e4bfea9c78218",
+      "character": {
+        "name": "Rocket",
+        "imageUrl": "guardians_of_the_galaxy_rocket.webp"
+      }
+    },
+    {
+      "actorId": "5bee10a2e1b3001d59166ccd",
+      "character": {
+        "name": "Ronan",
+        "imageUrl": "guardians_of_the_galaxy_ronan.webp"
+      }
+    },
+    {
+      "actorId": "b99fd4cb12dd52764f91df15",
+      "character": {
+        "name": "Yondu Udonta",
+        "imageUrl": "guardians_of_the_galaxy_yondu_udonta.webp"
+      }
+    },
+    {
+      "actorId": "7b67d3adc189860cca3bbf5f",
+      "character": {
+        "name": "Nebula",
+        "imageUrl": "guardians_of_the_galaxy_nebula.webp"
+      }
+    },
+    {
+      "actorId": "bdb2e64bab1a24a00031585c",
+      "character": {
+        "name": "Korath"
+      }
+    },
+    {
+      "actorId": "2e2c0e0194f9bbcd70ec70b3",
+      "character": {
+        "name": "Corpsman Dey"
+      }
+    },
+    {
+      "actorId": "f48cb741c9a839e95ca035b0",
+      "character": {
+        "name": "Nova Prime"
+      }
+    },
+    {
+      "actorId": "a2453026851bdfa9828b4891",
+      "character": {
+        "name": "The Collector"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "MCU"
+    }
+  ],
+  "budget": 196000000,
+  "awards": [
+    {
+      "awardId": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Actor",
+          "actorId": "81002d63c8ad158916752ee2"
+        },
+        {
+          "title": "Best Director"
+        },
+        {
+          "title": "Best Make-up"
+        },
+        {
+          "title": "Best Comic-to-Film Motion Picture"
+        }
+      ]
+    },
+    {
+      "awardId": "CriticsChoiceAward",
+      "nominations": [
+        {
+          "title": "Best Hair & Makeup"
+        },
+        {
+          "title": "Best action Movie"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 773000000,
+  "media": [
+    {
+      "poster": "guardians_of_the_galaxy.webp",
+      "trailer": "d96cjJhvlMA"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe."
+  ],
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "08/01/2014"
+  ],
+  "watchCount": 3,
+  "studios": [
+    "WaltDisney",
+    "MarvelStudios"
+  ]
+}

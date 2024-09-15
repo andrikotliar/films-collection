@@ -1,0 +1,147 @@
+{
+  "_id": "68da0fae4ff7ad39cfc7cd75",
+  "type": [
+    "Film"
+  ],
+  "title": "The Mummy Returns",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Stephen Sommers"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Stephen Sommers"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "James Jacks"
+        },
+        {
+          "name": "Sean Daniel"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Alan Silvestri"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Adrian Biddle"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 130,
+  "cast": [
+    {
+      "actorId": "5007865fcfa27f77a5caa971",
+      "character": {
+        "name": "Rick O'Connell"
+      }
+    },
+    {
+      "actorId": "cac8a6d872c6bd724fce9824",
+      "character": {
+        "name": "Evelyn Carnahan / Nefertiri"
+      }
+    },
+    {
+      "actorId": "182db493d2b81619d210955c",
+      "character": {
+        "name": "Jonathan"
+      }
+    },
+    {
+      "actorId": "a37d51d4e1ec3cb66c525e5a",
+      "character": {
+        "name": "Imhotep"
+      }
+    },
+    {
+      "actorId": "b0f70d5f44ea97682c22fbbf",
+      "character": {
+        "name": "Ardeth Bay"
+      }
+    },
+    {
+      "actorId": "f31eb6de5cd2b7be7303209f",
+      "character": {
+        "name": "Meela / Anck-Su-Namun"
+      }
+    },
+    {
+      "actorId": "7bfb71135279794f9896a025",
+      "character": {
+        "name": "Alex"
+      }
+    },
+    {
+      "actorId": "800218022aa20fb2c200dd27",
+      "character": {
+        "name": "Mr. Hafez"
+      }
+    },
+    {
+      "actorId": "ba034c3da56225c54e6b1545",
+      "character": {
+        "name": "The Scorpion King"
+      }
+    },
+    {
+      "actorId": "103905282404d76164492cee",
+      "character": {
+        "name": "Izzy"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Mysteries"
+    }
+  ],
+  "budget": 98000000,
+  "boxOffice": 433000000,
+  "media": [
+    {
+      "poster": "mummy_2.webp",
+      "trailer": "3yXjs7BUKYc"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror."
+  ],
+  "relatedTitlesKey": "c898b2b52dfcdd0b5a0f636e",
+  "releaseDate": [
+    "05/04/2001"
+  ],
+  "watchCount": 10,
+  "studios": [
+    "Universal"
+  ]
+}

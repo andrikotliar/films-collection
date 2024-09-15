@@ -1,0 +1,180 @@
+{
+  "_id": "f621dd6f2a12326ad0def088",
+  "type": [
+    "Film"
+  ],
+  "title": "Dune",
+  "genres": [
+    "SciFi",
+    "Adventures",
+    "Drama"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Denis Villeneuve"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Jon Spaihts"
+        },
+        {
+          "name": "Denis Villeneuve"
+        },
+        {
+          "name": "Eric Roth"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Cale Boyter"
+        },
+        {
+          "name": "Joseph M. Caracciolo Jr."
+        },
+        {
+          "name": "Mary Parent"
+        },
+        {
+          "name": "Denis Villeneuve"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Greig Fraser"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "duration": 155,
+  "cast": [
+    {
+      "actorId": "a39934bc9a1473732fa33a45",
+      "character": {
+        "name": "Paul Atreides"
+      }
+    },
+    {
+      "actorId": "4a98bdee97707da082e29566",
+      "character": {
+        "name": "Lady Jessica"
+      }
+    },
+    {
+      "actorId": "8b0c59295bf19f18ccdebced",
+      "character": {
+        "name": "Duke Leto Atreides"
+      }
+    },
+    {
+      "actorId": "de9c977ac46c62b2c52d371c",
+      "character": {
+        "name": "Duncan Idaho"
+      }
+    },
+    {
+      "actorId": "3090a68b40a7bfda7b1d93b8",
+      "character": {
+        "name": "Baron Vladimir Harkonnen",
+        "imageUrl": "dune_baron_vladimir_harkonnen.webp"
+      }
+    },
+    {
+      "actorId": "3ca05cc86df3635b3524727d",
+      "character": {
+        "name": "Piter De Vries"
+      }
+    },
+    {
+      "actorId": "107e7fb331c2103897a87ffa",
+      "character": {
+        "name": "Chani"
+      }
+    },
+    {
+      "actorId": "bff8f185faaa1610320942aa",
+      "character": {
+        "name": "Gurney Halleck"
+      }
+    },
+    {
+      "actorId": "6e7815767f3afa70c3dc69c5",
+      "character": {
+        "name": "Glossu 'Beast' Rabban"
+      }
+    },
+    {
+      "actorId": "d262d09e67f0730d00f4884a",
+      "character": {
+        "name": "Thufir Hawat"
+      }
+    },
+    {
+      "actorId": "671a403faa60c88d2a84b43a",
+      "character": {
+        "name": "Dr. Liet Kynes"
+      }
+    },
+    {
+      "actorId": "6910b37b472d8f088f680543",
+      "character": {
+        "name": "Stilgar"
+      }
+    },
+    {
+      "actorId": "b8790c12e9ba65be0a107540",
+      "character": {
+        "name": "Dr. Wellington Yueh"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Space"
+    }
+  ],
+  "budget": 165000000,
+  "boxOffice": 398000000,
+  "media": [
+    {
+      "poster": "dune.webp",
+      "trailer": "w0HgHet0sxg"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy."
+  ],
+  "releaseDate": [
+    "10/22/2021"
+  ],
+  "watchCount": 1,
+  "studios": [
+    "WarnerBros",
+    "Legendary"
+  ]
+}

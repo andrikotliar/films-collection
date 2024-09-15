@@ -1,0 +1,217 @@
+{
+  "_id": "41d07214b22917de3bbd5871",
+  "type": [
+    "Film"
+  ],
+  "title": "Zack Snyder's Justice League",
+  "genres": [
+    "Action",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Zack Snyder"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Chris Terrio"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Charles Roven"
+        },
+        {
+          "name": "Deborah Snyder"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Junkie XL"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Fabian Wagner"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "UK"
+  ],
+  "duration": 242,
+  "cast": [
+    {
+      "actorId": "118e96c459ae6809e814c6b5",
+      "character": {
+        "name": "Bruce Wayne / Batman",
+        "imageUrl": "zack_snyder_s_justice_league_bruce_wayne"
+      }
+    },
+    {
+      "actorId": "8b6677adf81a10fa756951ff",
+      "character": {
+        "name": "Clark Kent / Superman",
+        "imageUrl": "zack_snyder_s_justice_league_clark_kent"
+      }
+    },
+    {
+      "actorId": "8f9db7b562116db3822027d8",
+      "character": {
+        "name": "Lois Lane"
+      }
+    },
+    {
+      "actorId": "689592fad487486ce5468f9f",
+      "character": {
+        "name": "Diana Prince / Wonder Woman"
+      }
+    },
+    {
+      "actorId": "375d86a17caf2ced031c134d",
+      "character": {
+        "name": "Barry Allen / The Flash",
+        "imageUrl": "zack_snyder_s_justice_league_barry_allen"
+      }
+    },
+    {
+      "actorId": "de9c977ac46c62b2c52d371c",
+      "character": {
+        "name": "Arthur Curry / Aquaman"
+      }
+    },
+    {
+      "actorId": "86fc034cc2f04ed634307aec",
+      "character": {
+        "name": "Victor Stone / Cyborg",
+        "imageUrl": "zack_snyder_s_justice_league_victor_stone"
+      }
+    },
+    {
+      "actorId": "45cf2c1a6045a2b007118352",
+      "character": {
+        "name": "Alfred"
+      }
+    },
+    {
+      "actorId": "6cf53fe9fb98ea48cbd3641d",
+      "character": {
+        "name": "Martha Kent"
+      }
+    },
+    {
+      "actorId": "4d5652537ad12d0b2754f438",
+      "character": {
+        "name": "Queen Hippolyta"
+      }
+    },
+    {
+      "actorId": "03293ef86c8bf352c9dd52f4",
+      "character": {
+        "name": "Commissioner Gordon"
+      }
+    },
+    {
+      "actorId": "67f236e2e31dfdf8ce27fe3c",
+      "character": {
+        "name": "Steppenwolf",
+        "imageUrl": "zack_snyder_s_justice_league_steppenwolf"
+      }
+    },
+    {
+      "actorId": "08a0d88e9df07c14525a1dd1",
+      "character": {
+        "name": "Darkseid",
+        "imageUrl": "zack_snyder_s_justice_league_darkseid"
+      }
+    },
+    {
+      "actorId": "bb6dc2348c7c920ff651fd2d",
+      "character": {
+        "name": "Ryan Choi"
+      }
+    },
+    {
+      "actorId": "81f489cc791f2cfbff218a60",
+      "character": {
+        "name": "Mera"
+      }
+    },
+    {
+      "actorId": "7c714de673355dff119b2c86",
+      "character": {
+        "name": "Silas Stone"
+      }
+    },
+    {
+      "actorId": "babebeae5d94b820c645cfab",
+      "character": {
+        "name": "Deathstroke",
+        "imageUrl": "zack_snyder_s_justice_league_deathstroke"
+      }
+    },
+    {
+      "actorId": "69443d6dcdd5ddbc0c51e534",
+      "character": {
+        "name": "Vulko"
+      }
+    },
+    {
+      "actorId": "b1094d5a4c3819d770b6cf30",
+      "character": {
+        "name": "General Swanwick / Martian Manhunter",
+        "imageUrl": "zack_snyder_s_justice_league_general_swanwick"
+      }
+    },
+    {
+      "actorId": "7393a0d84bbc38796cb5e109",
+      "character": {
+        "name": "DeSaad",
+        "imageUrl": "zack_snyder_s_justice_league_desaad"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "DEU"
+    }
+  ],
+  "budget": 300000000,
+  "media": [
+    {
+      "poster": "justice_league.webp",
+      "trailer": "ui37YKQ9AC4"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions."
+  ],
+  "relatedTitlesKey": "d923cc31cdf721e7ddeb1616",
+  "releaseDate": [
+    "03/18/2021"
+  ],
+  "watchCount": 1,
+  "studios": [
+    "HBOMax",
+    "WarnerBros"
+  ]
+}

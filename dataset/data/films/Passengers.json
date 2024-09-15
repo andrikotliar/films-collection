@@ -1,0 +1,122 @@
+{
+  "_id": "06c19623e14cff43a0788413",
+  "type": [
+    "Film"
+  ],
+  "title": "Passengers",
+  "genres": [
+    "SciFi",
+    "Romance"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Morten Tyldum"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Jon Spaihts"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Stephen Hamel"
+        },
+        {
+          "name": "Michael Maher"
+        },
+        {
+          "name": "Neal H. Moritz"
+        },
+        {
+          "name": "Ori Marmur"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Thomas Newman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Rodrigo Prieto"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 116,
+  "cast": [
+    {
+      "actorId": "c99e4f6dc0695561848dc5be",
+      "character": {
+        "name": "Aurora Lane"
+      }
+    },
+    {
+      "actorId": "81002d63c8ad158916752ee2",
+      "character": {
+        "name": "Jim Preston"
+      }
+    },
+    {
+      "actorId": "ddc30904ea1df69f6f509783",
+      "character": {
+        "name": "Arthur"
+      }
+    },
+    {
+      "actorId": "598ea6d5be8fe378787adde7",
+      "character": {
+        "name": "Gus Mancuso"
+      }
+    },
+    {
+      "actorId": "539fa2d4f61a2a9f805ee4f8",
+      "character": {
+        "name": "Captain Norris"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Space"
+    }
+  ],
+  "budget": 110000000,
+  "boxOffice": 303000000,
+  "media": [
+    {
+      "poster": "passengers.webp",
+      "trailer": "7BWWWQzTpNU"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early."
+  ],
+  "releaseDate": [
+    "12/21/2016"
+  ],
+  "watchCount": 5,
+  "studios": [
+    "Columbia"
+  ]
+}

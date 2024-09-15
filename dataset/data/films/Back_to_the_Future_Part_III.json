@@ -1,0 +1,111 @@
+{
+  "_id": "3c6d9bd2f83e0b7e86cc6551",
+  "type": [
+    "Film"
+  ],
+  "title": "Back to the future: Part III",
+  "genres": [
+    "SciFi",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Robert Zemeckis"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Bob Gale"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Bob Gale"
+        },
+        {
+          "name": "Neil Canton"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Alan Silvestri"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Dean Cundey"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 118,
+  "cast": [
+    {
+      "actorId": "338322b79718106c345846de",
+      "character": {
+        "name": "Marty McFly"
+      }
+    },
+    {
+      "actorId": "90dcb449f7b8e7fff49994fb",
+      "character": {
+        "name": "Dr. Emmett Brown"
+      }
+    },
+    {
+      "actorId": "c08a0756a37cfb45c77529b1",
+      "character": {
+        "name": "Clara Clayton"
+      }
+    },
+    {
+      "actorId": "225c89c9183706f01526fe4d",
+      "character": {
+        "name": "Biff Tannen / Griff Tannen"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Legends"
+    }
+  ],
+  "budget": 40000000,
+  "boxOffice": 245000000,
+  "media": [
+    {
+      "poster": "back_to_the_future_3.webp",
+      "trailer": "EYkguxpqsrg"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about to be killed by Buford \"Mad Dog\"Tannen. Marty McFly travels back in time to save his friend."
+  ],
+  "relatedTitlesKey": "cb583126d928731112ea5595",
+  "releaseDate": [
+    "05/25/1990"
+  ],
+  "watchCount": 10,
+  "studios": [
+    "Universal"
+  ]
+}

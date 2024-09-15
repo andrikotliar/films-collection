@@ -1,0 +1,133 @@
+{
+  "_id": "22a2d2fd6d48e4bb7538f2d2",
+  "type": [
+    "Film"
+  ],
+  "title": "Terminator: Salvation",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "McG"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "John Brancato"
+        },
+        {
+          "name": "Michael Ferris"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Derek Anderson"
+        },
+        {
+          "name": "Moritz Borman"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Danny Elfman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Shane Hurlbut"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 115,
+  "cast": [
+    {
+      "actorId": "b794f150c4436f17ba9bd9f1",
+      "character": {
+        "name": "John Connor"
+      }
+    },
+    {
+      "actorId": "ab25ed81fbee90d0a29d7c92",
+      "character": {
+        "name": "Marcus Wright"
+      }
+    },
+    {
+      "actorId": "d0b0f26c1f403a07ec81d884",
+      "character": {
+        "name": "Blair Williams"
+      }
+    },
+    {
+      "actorId": "b5e7e795de1f87df92309e3a",
+      "character": {
+        "name": "Dr. Serena Kogan"
+      }
+    },
+    {
+      "actorId": "f03c91b058f5592f442fd2cd",
+      "character": {
+        "name": "Kyle Reese"
+      }
+    },
+    {
+      "actorId": "46174a55c1f6d46f99b2f9c7",
+      "character": {
+        "name": "Star"
+      }
+    },
+    {
+      "actorId": "5a9e20efcb26cd9589817c6d",
+      "character": {
+        "name": "Kate Connor"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Robots"
+    }
+  ],
+  "budget": 200000000,
+  "boxOffice": 371000000,
+  "media": [
+    {
+      "poster": "terminator_4.webp",
+      "trailer": "-Czz-TcWCkA"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "In 2018, a mysterious new weapon in the war against the machines, half-human and half-machine, comes to John Connor on the eve of a resistance attack on Skynet. But whose side is he on, and can he be trusted?"
+  ],
+  "relatedTitlesKey": "d48af2b35df9b7fb521ab299",
+  "releaseDate": [
+    "05/21/2009"
+  ],
+  "watchCount": 3,
+  "studios": [
+    "Columbia",
+    "Halcyon"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "_id": "497517595e0585e2f90dd94a",
+  "type": [
+    "Film"
+  ],
+  "title": "Back to the future: Part II",
+  "genres": [
+    "SciFi",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Robert Zemeckis"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Bob Gale"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Bob Gale"
+        },
+        {
+          "name": "Neil Canton"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Alan Silvestri"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Dean Cundey"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 108,
+  "cast": [
+    {
+      "actorId": "338322b79718106c345846de",
+      "character": {
+        "name": "Marty McFly"
+      }
+    },
+    {
+      "actorId": "90dcb449f7b8e7fff49994fb",
+      "character": {
+        "name": "Dr. Emmett Brown"
+      }
+    },
+    {
+      "actorId": "cf57db4253b6c898d70ef74a",
+      "character": {
+        "name": "Lorraine Baines"
+      }
+    },
+    {
+      "actorId": "a99693b2af446e8804d80623",
+      "character": {
+        "name": "George McFly"
+      }
+    },
+    {
+      "actorId": "225c89c9183706f01526fe4d",
+      "character": {
+        "name": "Biff Tannen / Griff Tannen"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Legends"
+    }
+  ],
+  "budget": 40000000,
+  "awards": [
+    {
+      "awardId": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Special Effects"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 332000000,
+  "media": [
+    {
+      "poster": "back_to_the_future_2.webp",
+      "trailer": "MdENmefJRpw"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip."
+  ],
+  "relatedTitlesKey": "cb583126d928731112ea5595",
+  "releaseDate": [
+    "11/22/1989"
+  ],
+  "watchCount": 10,
+  "studios": [
+    "Universal"
+  ]
+}

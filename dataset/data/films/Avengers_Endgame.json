@@ -1,0 +1,256 @@
+{
+  "_id": "977d122c082756f92291e508",
+  "type": [
+    "Film"
+  ],
+  "title": "Avengers: Endgame",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Anthony Russo"
+        },
+        {
+          "name": "Joe Russo"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Christopher Markus"
+        },
+        {
+          "name": "Stephen McFeely"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Alan Silvestri"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Trent Opaloch"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 181,
+  "cast": [
+    {
+      "actorId": "68eac2af31419390d7f727fd",
+      "character": {
+        "name": "Tony Stark / Iron Man",
+        "imageUrl": "avengers_endgame_tony_stark.webp"
+      }
+    },
+    {
+      "actorId": "b3356695e90767defc7c4421",
+      "character": {
+        "name": "Steve Rogers / Captain America",
+        "imageUrl": "avengers_endgame_steve_rogers.webp"
+      }
+    },
+    {
+      "actorId": "3b669a1ec0b3227120e226ca",
+      "character": {
+        "name": "Carol Danvers / Captain Marvel"
+      }
+    },
+    {
+      "actorId": "dc4912e5f14e4bfea9c78218",
+      "character": {
+        "name": "Rocket",
+        "imageUrl": "avengers_endgame_rocket.webp"
+      }
+    },
+    {
+      "actorId": "64286f842f66cb88506271cc",
+      "character": {
+        "name": "Natasha Romanoff / Black Widow"
+      }
+    },
+    {
+      "actorId": "9d6f7bec0a46789eaa403786",
+      "character": {
+        "name": "Thor"
+      }
+    },
+    {
+      "actorId": "7b67d3adc189860cca3bbf5f",
+      "character": {
+        "name": "Nebula",
+        "imageUrl": "avengers_endgame_nebula.webp"
+      }
+    },
+    {
+      "actorId": "cbea23272f6d430dd37d2296",
+      "character": {
+        "name": "Hope van Dyne / The Wasp"
+      }
+    },
+    {
+      "actorId": "bff8f185faaa1610320942aa",
+      "character": {
+        "name": "Thanos",
+        "imageUrl": "avengers_endgame_thanos.webp"
+      }
+    },
+    {
+      "actorId": "f6de6e5bd473d73c2055ef99",
+      "character": {
+        "name": "Wanda Maximoff"
+      }
+    },
+    {
+      "actorId": "7724f9a2549d742da5d02985",
+      "character": {
+        "name": "Peter Parker / Spider-Man"
+      }
+    },
+    {
+      "actorId": "5d474df7bc79a3784ee0df3a",
+      "character": {
+        "name": "Scott Lang / Ant-Man",
+        "imageUrl": "avengers_endgame_scott_lang.webp"
+      }
+    },
+    {
+      "actorId": "5f86048e81f0f2f8d811005f",
+      "character": {
+        "name": "Bucky Barnes"
+      }
+    },
+    {
+      "actorId": "333fe7873ab5451125a195a7",
+      "character": {
+        "name": "Clint Barton / Hawkeye"
+      }
+    },
+    {
+      "actorId": "085fd1ea78f56539824d7714",
+      "character": {
+        "name": "T'Challa / Black Panther"
+      }
+    },
+    {
+      "actorId": "a65bc3f407cd83dd8b26db19",
+      "character": {
+        "name": "Bruce Banner / The Professor Hulk",
+        "imageUrl": "avengers_endgame_bruce_banner.webp"
+      }
+    },
+    {
+      "actorId": "84a7fc06c915c5463cc7ce32",
+      "character": {
+        "name": "James Rhodes / The War Machine",
+        "imageUrl": "avengers_endgame_james_rhodes.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "MCU"
+    }
+  ],
+  "budget": 356000000,
+  "awards": [
+    {
+      "awardId": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Comic-to-Film Motion Picture"
+        },
+        {
+          "title": "Best Actor",
+          "actorId": "68eac2af31419390d7f727fd"
+        },
+        {
+          "title": "Best Production Design"
+        },
+        {
+          "title": "Best Make-up"
+        },
+        {
+          "title": "Best Editing"
+        },
+        {
+          "title": "Best Special Effects"
+        }
+      ]
+    },
+    {
+      "awardId": "MtvAward",
+      "nominations": [
+        {
+          "title": "Best Movie"
+        },
+        {
+          "title": "Best Hero",
+          "comment": "as Tony Stark / Iron Man",
+          "actorId": "68eac2af31419390d7f727fd"
+        },
+        {
+          "title": "Best Villain",
+          "comment": "as Thanos",
+          "actorId": "bff8f185faaa1610320942aa"
+        }
+      ]
+    },
+    {
+      "awardId": "CriticsChoiceAward",
+      "nominations": [
+        {
+          "title": "Best Visual Effects"
+        },
+        {
+          "title": "Best action Movie"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 2730000000,
+  "media": [
+    {
+      "poster": "avengers_4.webp",
+      "trailer": "TcMBFSGVi1c"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to undo Thanos' actions and restore order to the universe."
+  ],
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "04/26/2019"
+  ],
+  "watchCount": 5,
+  "studios": [
+    "WaltDisney",
+    "MarvelStudios"
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "_id": "3d2c302cf22ae64bf4cc73e6",
+  "type": [
+    "Series"
+  ],
+  "title": "The Falcon and the Winter Soldier",
+  "genres": [
+    "Action",
+    "Drama"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Kari Skogland"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Malcolm Spellman",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Michael Kastelein",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Derek Kolstad",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Dalan Musson",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Josef Sawyer",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Ariella Blejer"
+        },
+        {
+          "name": "Dawn Kamoche"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Henry Jackman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "P.J. Dillon"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 300,
+  "cast": [
+    {
+      "actorId": "b59e04d8cace91ce7b37a878",
+      "character": {
+        "name": "Sam Wilson / Falcon / Captain America"
+      }
+    },
+    {
+      "actorId": "5f86048e81f0f2f8d811005f",
+      "character": {
+        "name": "James \"Bucky\" Barnes / White Wolf"
+      }
+    },
+    {
+      "actorId": "9958a9d62a45d76bea422442",
+      "character": {
+        "name": "John Walker / Captain America / U.S. Agent"
+      }
+    },
+    {
+      "actorId": "986fddcb2ef5cf4a0bbdc240",
+      "character": {
+        "name": "Karli Morgenthau"
+      }
+    },
+    {
+      "actorId": "fabf0406d63c7e57042de8f2",
+      "character": {
+        "name": "Sarah Wilson"
+      }
+    },
+    {
+      "actorId": "84a7fc06c915c5463cc7ce32",
+      "character": {
+        "name": "James \"Rhodey\" Rhodes"
+      }
+    },
+    {
+      "actorId": "c7594955176a580a3357b7b5",
+      "character": {
+        "name": "Helmut Zemo"
+      }
+    },
+    {
+      "actorId": "8aa76aa5736b88573d5225ec",
+      "character": {
+        "name": "Sharon Carter / Power Broker"
+      }
+    },
+    {
+      "actorId": "2b4fe26cf420ecd887899aa8",
+      "character": {
+        "name": "Ayo"
+      }
+    },
+    {
+      "actorId": "ab787dcbbabb239d412b9bee",
+      "character": {
+        "name": "Valentina Allegra de Fontaine"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "MCU"
+    }
+  ],
+  "awards": [
+    {
+      "awardId": "MtvAward",
+      "nominations": [
+        {
+          "title": "Best Hero",
+          "actorId": "b59e04d8cace91ce7b37a878"
+        },
+        {
+          "title": "Best Duo",
+          "comment": "Falcon and the Winter Soldier"
+        }
+      ]
+    }
+  ],
+  "series": {
+    "episodesTotal": 6,
+    "seasons": [
+      {
+        "title": "Season 1",
+        "number": 1,
+        "episodesCount": 6
+      }
+    ]
+  },
+  "media": [
+    {
+      "poster": "falcon_and_the_winter_soldier.webp",
+      "trailer": "IWBsDaFWyTE"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "Following the events of «Avengers: Endgame» Sam Wilson and Bucky Barnes team up in a global adventure that tests their abilities and their patience."
+  ],
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "03/19/2021"
+  ],
+  "watchCount": 1,
+  "studios": [
+    "DisneyPlus",
+    "MarvelStudios"
+  ]
+}

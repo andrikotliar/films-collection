@@ -1,0 +1,185 @@
+{
+  "_id": "a580fb51ebf8370092505ac5",
+  "type": [
+    "Film"
+  ],
+  "title": "The Matrix",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "The Wachowski Brothers"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "The Wachowski Brothers"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Joel Silver"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Don Davis"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Bill Pope"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "AU"
+  ],
+  "duration": 136,
+  "cast": [
+    {
+      "actorId": "064e80da8733b3e3692e9735",
+      "character": {
+        "name": "Neo"
+      }
+    },
+    {
+      "actorId": "598ea6d5be8fe378787adde7",
+      "character": {
+        "name": "Morpheus"
+      }
+    },
+    {
+      "actorId": "86bd70fb1e96e084b818b8d1",
+      "character": {
+        "name": "Trinity"
+      }
+    },
+    {
+      "actorId": "9d72ccad0a0c60872b91d2d3",
+      "character": {
+        "name": "Agent Smith"
+      }
+    },
+    {
+      "actorId": "5ce3b37a34510b2a6acb942b",
+      "character": {
+        "name": "Oracle"
+      }
+    },
+    {
+      "actorId": "6409bee986923999615ef8d5",
+      "character": {
+        "name": "Cypher"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Legends"
+    },
+    {
+      "key": "Future"
+    },
+    {
+      "key": "Top10",
+      "order": 8
+    }
+  ],
+  "budget": 63000000,
+  "awards": [
+    {
+      "awardId": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Film Editing"
+        },
+        {
+          "title": "Best Sound"
+        },
+        {
+          "title": "Best Effects, Sound Effects Editing"
+        },
+        {
+          "title": "Best Effects, Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardId": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Sound"
+        },
+        {
+          "title": "Best Achievement in Special Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardId": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film"
+        },
+        {
+          "title": "Best Director"
+        }
+      ]
+    },
+    {
+      "awardId": "MtvAward",
+      "nominations": [
+        {
+          "title": "Best Movie"
+        },
+        {
+          "title": "Best Male Performance",
+          "actorId": "064e80da8733b3e3692e9735"
+        },
+        {
+          "title": "Best Fight",
+          "comment": "Keanu Reeves and Laurence Fishburne"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 463000000,
+  "media": [
+    {
+      "poster": "matrix_1.webp",
+      "trailer": "m8e-FF8MsqU"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
+  ],
+  "relatedTitlesKey": "a9cbfde563018e36f2bcf883",
+  "releaseDate": [
+    "03/31/1999"
+  ],
+  "watchCount": 10,
+  "studios": [
+    "WarnerBros"
+  ]
+}

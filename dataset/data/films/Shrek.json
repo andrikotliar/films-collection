@@ -1,0 +1,152 @@
+{
+  "_id": "9b23d19ed2784ae69f4bb342",
+  "type": [
+    "Animation"
+  ],
+  "title": "Shrek",
+  "genres": [
+    "Adventures",
+    "Comedy"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Andrew Adamson"
+        },
+        {
+          "name": "Vicky Jenson"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Ted Elliott"
+        },
+        {
+          "name": "Terry Rossio"
+        },
+        {
+          "name": "Joe Stillman"
+        },
+        {
+          "name": "Roger S. H. Schulman"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Aron Warner"
+        },
+        {
+          "name": "John H. Williams"
+        },
+        {
+          "name": "Jeffrey Katzenberg"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Harry Gregson-Williams"
+        },
+        {
+          "name": "John Powell"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "JP"
+  ],
+  "duration": 90,
+  "cast": [
+    {
+      "actorId": "da1f33b9c84064852254d8aa",
+      "character": {
+        "name": "Shrek",
+        "imageUrl": "shrek_shrek.webp"
+      }
+    },
+    {
+      "actorId": "356f3d8d6debf47913fead0a",
+      "character": {
+        "name": "Donkey",
+        "imageUrl": "shrek_donkey.webp"
+      }
+    },
+    {
+      "actorId": "2f654330682e4a9dbb666cc0",
+      "character": {
+        "name": "Fiona",
+        "imageUrl": "shrek_fiona.webp"
+      }
+    },
+    {
+      "actorId": "b3e39cb52439fd6d9e379b3e",
+      "character": {
+        "name": "Lord Farquaad",
+        "imageUrl": "shrek_lord_farquaad.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Legends"
+    }
+  ],
+  "budget": 60000000,
+  "awards": [
+    {
+      "awardId": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Animated Feature"
+        }
+      ]
+    },
+    {
+      "awardId": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Screenplay - Adapted"
+        }
+      ]
+    },
+    {
+      "awardId": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best DVD Special Edition Release"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 488000000,
+  "media": [
+    {
+      "poster": "shrek_1.webp",
+      "trailer": "CwXOrWvPBPk"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back."
+  ],
+  "relatedTitlesKey": "a81b1654b30b06adb32ddf8d",
+  "releaseDate": [
+    "05/18/2001"
+  ],
+  "watchCount": 10,
+  "studios": [
+    "DreamWorksAnimation"
+  ]
+}

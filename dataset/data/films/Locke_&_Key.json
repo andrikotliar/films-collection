@@ -1,0 +1,288 @@
+{
+  "_id": "4f07fbf89cdad5040f477331",
+  "type": [
+    "Series"
+  ],
+  "title": "Locke & Key",
+  "genres": [
+    "Fantasy",
+    "Drama"
+  ],
+  "crew": [
+    {
+      "role": "SeriesCreator",
+      "people": [
+        {
+          "name": "Meredith Averill"
+        },
+        {
+          "name": "Carlton Cuse"
+        },
+        {
+          "name": "Aron Eli Coleite"
+        }
+      ]
+    },
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Michael Morris",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Tim Southam",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Dawn Wilkinson",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Vincenzo Natali",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Mark Tonderai",
+          "comment": "6 episodes"
+        },
+        {
+          "name": "Mairzee Almas",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Carlton Cuse",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Millicent Shelton",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Guy Ferland",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Edward Ornelas",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Marisol Adler",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Jeremy Webb",
+          "comment": "2 episodes"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Joe Hill",
+          "comment": "17 episodes"
+        },
+        {
+          "name": "Aron Eli Coleite",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Liz Phang",
+          "comment": "5 episodes"
+        },
+        {
+          "name": "Meredith Averill",
+          "comment": "5 episodes"
+        },
+        {
+          "name": "Mackenzie Dohr",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Andres Fischer-Centeno",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Brett Treacy",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Dan Woodward",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Michael D. Fuller",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Vanessa Rojas",
+          "comment": "4 episodes"
+        },
+        {
+          "name": "Carlton Cuse",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Kimi Lee",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Jordan Riggs",
+          "comment": "6 episodes"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Ra'uf Glasgow"
+        },
+        {
+          "name": "Kevin Lafferty"
+        },
+        {
+          "name": "Nishpeksh Mehra"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Torin Borrowdale"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Tico Poulakakis"
+        },
+        {
+          "name": "Dylan Macleod"
+        },
+        {
+          "name": "Colin Hoult"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "duration": 1056,
+  "cast": [
+    {
+      "actorId": "2f3c3307ddadd5927b5a3704",
+      "character": {
+        "name": "Nina Locke"
+      }
+    },
+    {
+      "actorId": "6d44d68c4f796a1037b031cd",
+      "character": {
+        "name": "Tyler Locke"
+      }
+    },
+    {
+      "actorId": "f977a1e8ea01ee3bd15db784",
+      "character": {
+        "name": "Kinsey Locke"
+      }
+    },
+    {
+      "actorId": "259ba00989c962d075fabcea",
+      "character": {
+        "name": "Bode Locke"
+      }
+    },
+    {
+      "actorId": "9a3a8349c3891d5030d4e179",
+      "character": {
+        "name": "Scot Cavendish"
+      }
+    },
+    {
+      "actorId": "45fbf3bbda493e7e046411a2",
+      "character": {
+        "name": "Ellie Whedon"
+      }
+    },
+    {
+      "actorId": "57bf1c43155c1498421643e1",
+      "character": {
+        "name": "Jackie Veda"
+      }
+    },
+    {
+      "actorId": "394aeea43c3582ba6cadb4f9",
+      "character": {
+        "name": "Duncan Locke"
+      }
+    },
+    {
+      "actorId": "4acdaabd71b8e10c3c0eb0b7",
+      "character": {
+        "name": "Dodge"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "FantasyWorlds"
+    }
+  ],
+  "series": {
+    "episodesTotal": 30,
+    "seasons": [
+      {
+        "title": "Season 1",
+        "number": 1,
+        "episodesCount": 10
+      },
+      {
+        "title": "Season 2",
+        "number": 2,
+        "episodesCount": 10
+      },
+      {
+        "title": "Season 3",
+        "number": 3,
+        "episodesCount": 10
+      }
+    ]
+  },
+  "media": [
+    {
+      "poster": "locke_key.webp",
+      "trailer": "_EonRi0yQOE"
+    },
+    {
+      "poster": "locke_key_s2.webp",
+      "trailer": "lxJdvbG2fPw"
+    },
+    {
+      "poster": "locke_key_s3.webp",
+      "trailer": "PX-t1wYNtBs"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "The Locke family relocates to their ancestral home, Keyhouse, after a tragic event. They discover mystical keys that unlock supernatural powers and dark secrets hidden within the mansion. As they use the keys, they unwittingly awaken a sinister force that threatens them and the world.",
+    "The Locke family continues to explore the magical keys and their origins, leading to new challenges and threats. They face off against ancient enemies and strive to protect their family and the world from dark forces unleashed by the keys.",
+    "In this season, the Locke family must confront new and old enemies while dealing with the consequences of their actions. The fate of Keyhouse and the world hangs in the balance as they unlock more mysteries of the keys."
+  ],
+  "releaseDate": [
+    "02/07/2020",
+    "10/22/2021",
+    "08/10/2022"
+  ],
+  "watchCount": 1,
+  "studios": [
+    "Netflix"
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "_id": "4ca1d03f96a43b764ca1f86f",
+  "type": [
+    "Series"
+  ],
+  "title": "The Queen's Gambit",
+  "genres": [
+    "Drama",
+    "Sport"
+  ],
+  "crew": [
+    {
+      "role": "SeriesCreator",
+      "people": [
+        {
+          "name": "Scott Frank"
+        }
+      ]
+    },
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Scott Frank"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Scott Frank"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Marcus Loges"
+        },
+        {
+          "name": "Mick Aniceto"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Carlos Rafael Rivera"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Steven Meizler"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 395,
+  "cast": [
+    {
+      "actorId": "651784ae83f6d35d892d41ba",
+      "character": {
+        "name": "Beth Harmon"
+      }
+    },
+    {
+      "actorId": "34ea02395e75fc50c2d5daf1",
+      "character": {
+        "name": "Mr. Shaibel"
+      }
+    },
+    {
+      "actorId": "7d2580bf0aefa3579619e188",
+      "character": {
+        "name": "Vasily Borgov"
+      }
+    },
+    {
+      "actorId": "6614b1681ccaaeb8392bb6f1",
+      "character": {
+        "name": "Alma Wheatley"
+      }
+    },
+    {
+      "actorId": "4ee52e26623792a1c498ac41",
+      "character": {
+        "name": "Benny Watts"
+      }
+    },
+    {
+      "actorId": "aab9a7cc78460f54f54315af",
+      "character": {
+        "name": "Jolene"
+      }
+    },
+    {
+      "actorId": "de29e31f27895b539dc44ec3",
+      "character": {
+        "name": "Harry Beltik"
+      }
+    },
+    {
+      "actorId": "0374d3e1ea0c4b46638c08e0",
+      "character": {
+        "name": "Young Beth Harmon"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Sport"
+    }
+  ],
+  "awards": [
+    {
+      "awardId": "GoldenGlobeAward",
+      "nominations": [
+        {
+          "title": "Best Television Limited Series, Anthology Series or Motion Picture Made for Television"
+        },
+        {
+          "title": "Best Performance by an Actress in a Limited Series, Anthology Series or a Motion Picture Made for Television",
+          "actorId": "651784ae83f6d35d892d41ba"
+        }
+      ]
+    },
+    {
+      "awardId": "CriticsChoiceAward",
+      "nominations": [
+        {
+          "title": "Best Limited Series"
+        },
+        {
+          "title": "Best Actress in a Limited Series or a Movie Made for Television",
+          "actorId": "651784ae83f6d35d892d41ba"
+        }
+      ]
+    }
+  ],
+  "series": {
+    "episodesTotal": 7,
+    "seasons": [
+      {
+        "title": "Season 1",
+        "number": 1,
+        "episodesCount": 7
+      }
+    ]
+  },
+  "media": [
+    {
+      "poster": "queens_gambit.webp",
+      "trailer": "oZn3qSgmLqI"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s US. But child stardom comes at a price."
+  ],
+  "releaseDate": [
+    "10/23/2020"
+  ],
+  "watchCount": 1,
+  "studios": [
+    "Netflix"
+  ]
+}

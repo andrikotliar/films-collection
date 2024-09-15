@@ -1,0 +1,152 @@
+{
+  "_id": "b786cd49d9f10cacecf6abe1",
+  "type": [
+    "Film"
+  ],
+  "title": "Harry Potter and the Order of the Phoenix",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "David Yates"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Michael Goldenberg"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "David Heyman"
+        },
+        {
+          "name": "David Barron"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Nicholas Hooper"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Slawomir Idziak"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "UK"
+  ],
+  "duration": 138,
+  "cast": [
+    {
+      "actorId": "7cd730dd761c711d4467bce0",
+      "character": {
+        "name": "Harry Potter",
+        "imageUrl": "harry_potter_and_the_order_of_the_phoenix_harry_potter.webp"
+      }
+    },
+    {
+      "actorId": "076188ec6b66a2c4a62fdab1",
+      "character": {
+        "name": "Ron Weasley",
+        "imageUrl": "harry_potter_and_the_order_of_the_phoenix_ron_weasley.webp"
+      }
+    },
+    {
+      "actorId": "3f0004fa95271000de67d1f4",
+      "character": {
+        "name": "Hermione Granger",
+        "imageUrl": "harry_potter_and_the_order_of_the_phoenix_hermione_granger.webp"
+      }
+    },
+    {
+      "actorId": "a03a7c1a8a396d3211b9b317",
+      "character": {
+        "name": "Sirius Black"
+      }
+    },
+    {
+      "actorId": "25210612f77f5f5a4c51dc56",
+      "character": {
+        "name": "Lord Voldemort",
+        "imageUrl": "harry_potter_and_the_order_of_the_phoenix_lord_voldemort.webp"
+      }
+    },
+    {
+      "actorId": "3b199225d30dcacad47776ab",
+      "character": {
+        "name": "Dolores Umbridge"
+      }
+    },
+    {
+      "actorId": "5cd30ae8b35b8110d0a1bc75",
+      "character": {
+        "name": "Albus Dumbledore"
+      }
+    },
+    {
+      "actorId": "5aea15b4e9912ad7b3a2241e",
+      "character": {
+        "name": "Rubeus Hagrid"
+      }
+    },
+    {
+      "actorId": "aca6f583677ffb4c7f38d469",
+      "character": {
+        "name": "Draco Malfoy"
+      }
+    },
+    {
+      "actorId": "9433a6747c6cfc354fed7e65",
+      "character": {
+        "name": "Severus Snape"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "HPU"
+    }
+  ],
+  "budget": 150000000,
+  "boxOffice": 940000000,
+  "media": [
+    {
+      "poster": "harry_potter_5.webp",
+      "trailer": "y6ZW7KXaXYk"
+    }
+  ],
+  "rating": 3,
+  "description": [
+    "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts."
+  ],
+  "relatedTitlesKey": "21fe420121bd2018a3c76f32",
+  "releaseDate": [
+    "07/11/2007"
+  ],
+  "watchCount": 4,
+  "studios": [
+    "WarnerBros"
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "_id": "76d9a5f4c283406f41d4553c",
+  "type": [
+    "Film"
+  ],
+  "title": "X-Men Origins: Wolverine",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Gavin Hood"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "David Benioff"
+        },
+        {
+          "name": "Skip Woods"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Lauren Shuler Donner"
+        },
+        {
+          "name": "Ralph Winter"
+        },
+        {
+          "name": "Hugh Jackman"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Harry Gregson-Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Donald McAlpine"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 107,
+  "cast": [
+    {
+      "actorId": "544abb6ffddc8ddf4056b862",
+      "character": {
+        "name": "Logan / Wolverine"
+      }
+    },
+    {
+      "actorId": "847cefcbba651553301ec62e",
+      "character": {
+        "name": "Victor Creed"
+      }
+    },
+    {
+      "actorId": "9bfda7c213e843540df28a8e",
+      "character": {
+        "name": "Stryker"
+      }
+    },
+    {
+      "actorId": "8f56386307460be3393852d3",
+      "character": {
+        "name": "John Wraith"
+      }
+    },
+    {
+      "actorId": "b4e4054ab866f9fc267dc087",
+      "character": {
+        "name": "Kayla Silverfox"
+      }
+    },
+    {
+      "actorId": "050608c1a30fde5f0cbc0265",
+      "character": {
+        "name": "Fred Dukes"
+      }
+    },
+    {
+      "actorId": "d981869f14315c851cdcb1dd",
+      "character": {
+        "name": "Chris Bradley / Bolt"
+      }
+    },
+    {
+      "actorId": "943b37462204f8d008d83660",
+      "character": {
+        "name": "Remy LeBeau"
+      }
+    },
+    {
+      "actorId": "4aecb0c87152fe09ef9ba674",
+      "character": {
+        "name": "Wade Wilson"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Superheroes"
+    }
+  ],
+  "budget": 150000000,
+  "boxOffice": 373000000,
+  "media": [
+    {
+      "poster": "x_men_4.webp",
+      "trailer": "QojV7s3UTu0"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "The early years of James Logan, featuring his rivalry with his brother Victor Creed, his service in the special forces team Weapon X, and his experimentation into the metal-lined mutant Wolverine."
+  ],
+  "relatedTitlesKey": "39322de8cb5cb1b16fcafb89",
+  "releaseDate": [
+    "05/01/2009"
+  ],
+  "watchCount": 3,
+  "studios": [
+    "20thCenturyFox",
+    "MarvelEntertainment"
+  ]
+}

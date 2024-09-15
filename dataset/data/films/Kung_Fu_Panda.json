@@ -1,0 +1,195 @@
+{
+  "_id": "c8124a399431151d0541398e",
+  "type": [
+    "Animation"
+  ],
+  "title": "Kung Fu Panda",
+  "genres": [
+    "Action",
+    "Comedy"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Mark Osborne"
+        },
+        {
+          "name": "John Stevenson"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Jonathan Aibel"
+        },
+        {
+          "name": "Glenn Berger"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Melissa Cobb"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "John Powell"
+        },
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Yong Duk Jhun"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "CH"
+  ],
+  "duration": 92,
+  "cast": [
+    {
+      "actorId": "93e4580ac1906e427cabed5a",
+      "character": {
+        "name": "Po",
+        "imageUrl": "kung_fu_panda_po.webp"
+      }
+    },
+    {
+      "actorId": "9b4c82033e370d0e16c62974",
+      "character": {
+        "name": "Shifu",
+        "imageUrl": "kung_fu_panda_shifu.webp"
+      }
+    },
+    {
+      "actorId": "8ea09c057163d4f5c7e44d23",
+      "character": {
+        "name": "Tigress",
+        "imageUrl": "kung_fu_panda_tigress.webp"
+      }
+    },
+    {
+      "actorId": "07fd6405b794906aa17de68f",
+      "character": {
+        "name": "Tai Lung",
+        "imageUrl": "kung_fu_panda_tai_lung.webp"
+      }
+    },
+    {
+      "actorId": "9129cd77b72f6865ac51f2a7",
+      "character": {
+        "name": "Monkey",
+        "imageUrl": "kung_fu_panda_monkey.webp"
+      }
+    },
+    {
+      "actorId": "fc2aa00b24fac3bf3e2532b4",
+      "character": {
+        "name": "Mantis",
+        "imageUrl": "kung_fu_panda_mantis.webp"
+      }
+    },
+    {
+      "actorId": "3e39acbba04928ae4e75b33c",
+      "character": {
+        "name": "Viper",
+        "imageUrl": "kung_fu_panda_viper.webp"
+      }
+    },
+    {
+      "actorId": "e3e9852e41647da469ca48ad",
+      "character": {
+        "name": "Crane",
+        "imageUrl": "kung_fu_panda_crane.webp"
+      }
+    },
+    {
+      "actorId": "ac0c86b4f56b6b569c2b37fb",
+      "character": {
+        "name": "Oogway",
+        "imageUrl": "kung_fu_panda_oogway.webp"
+      }
+    },
+    {
+      "actorId": "ba8c2781a07c02d7d6a45233",
+      "character": {
+        "name": "Mr. Ping",
+        "imageUrl": "kung_fu_panda_mr_ping.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "MartialArts"
+    }
+  ],
+  "budget": 130000000,
+  "awards": [
+    {
+      "awardId": "AnnieAward",
+      "nominations": [
+        {
+          "title": "Best Animated Feature"
+        },
+        {
+          "title": "Best Animated Effects"
+        },
+        {
+          "title": "Best Character Animation in a Feature Production"
+        },
+        {
+          "title": "Best Character Design in an Animated Feature Production"
+        },
+        {
+          "title": "Best Production Design in an Animated Feature Production"
+        },
+        {
+          "title": "Best Storyboarding in an Animated Feature Production"
+        },
+        {
+          "title": "Best Voice Acting in an Animated Feature Production",
+          "actorId": "9b4c82033e370d0e16c62974"
+        },
+        {
+          "title": "Best Writing in an Animated Feature Production"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 632000000,
+  "media": [
+    {
+      "poster": "kungfu_panda.webp",
+      "trailer": "NRc-ze7Wrxw"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance. However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a novice in martial arts."
+  ],
+  "releaseDate": [
+    "06/06/2008"
+  ],
+  "watchCount": 5,
+  "studios": [
+    "DreamWorksAnimation"
+  ]
+}

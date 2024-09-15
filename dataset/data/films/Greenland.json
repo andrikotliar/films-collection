@@ -1,0 +1,127 @@
+{
+  "_id": "16954c556b0efa221936eb4c",
+  "type": [
+    "Film"
+  ],
+  "title": "Greenland",
+  "genres": [
+    "Drama"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Ric Roman Waugh"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Chris Sparling"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Gerard Butler"
+        },
+        {
+          "name": "Sébastien Raybaud"
+        },
+        {
+          "name": "Alan Siegel"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "David Buckley"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Dana Gonzales"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "UK"
+  ],
+  "duration": 119,
+  "cast": [
+    {
+      "actorId": "19691d0b10cb811590497ff2",
+      "character": {
+        "name": "John Garrity"
+      }
+    },
+    {
+      "actorId": "77946df45d5b0eaec9d92193",
+      "character": {
+        "name": "Allison Garrity"
+      }
+    },
+    {
+      "actorId": "00562620ce3f9f74d5aa0155",
+      "character": {
+        "name": "Nathan Garrity"
+      }
+    },
+    {
+      "actorId": "33959ac36509703adc45f97a",
+      "character": {
+        "name": "Dale"
+      }
+    },
+    {
+      "actorId": "7d0b6e40baadda50e2048436",
+      "character": {
+        "name": "Ralph Vento"
+      }
+    },
+    {
+      "actorId": "acc601949baf6d00d14233e0",
+      "character": {
+        "name": "Judy Vento"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Disaster"
+    }
+  ],
+  "budget": 35000000,
+  "boxOffice": 52000000,
+  "media": [
+    {
+      "poster": "greenland.webp",
+      "trailer": "RTODtIQQRpA"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "A family struggles for survival in the face of a cataclysmic natural disaster."
+  ],
+  "releaseDate": [
+    "08/14/2020"
+  ],
+  "watchCount": 2,
+  "studios": [
+    "ThunderRoad",
+    "Anton",
+    "GBase"
+  ]
+}

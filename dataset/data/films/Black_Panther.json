@@ -1,0 +1,244 @@
+{
+  "_id": "d61a2a5f9f7fd7b09016eb52",
+  "type": [
+    "Film"
+  ],
+  "title": "Black Panther",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Ryan Coogler"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Ryan Coogler"
+        },
+        {
+          "name": "Joe Robert Cole"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Ludwig Gцransson"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Rachel Morrison"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 134,
+  "cast": [
+    {
+      "actorId": "085fd1ea78f56539824d7714",
+      "character": {
+        "name": "T'Challa / Black Panther",
+        "imageUrl": "black_panther_t_challa"
+      }
+    },
+    {
+      "actorId": "d278b95bbcdb159e239c7757",
+      "character": {
+        "name": "Erik Killmonger"
+      }
+    },
+    {
+      "actorId": "4df990e459cdd192712d9a9f",
+      "character": {
+        "name": "Nakia"
+      }
+    },
+    {
+      "actorId": "213ec6c0ba4ad6d754456ff9",
+      "character": {
+        "name": "Okoye"
+      }
+    },
+    {
+      "actorId": "706bad1f2278f02cd543a7a2",
+      "character": {
+        "name": "Everett K. Ross"
+      }
+    },
+    {
+      "actorId": "09f81677668b6857a9b63d1e",
+      "character": {
+        "name": "W'Kabi"
+      }
+    },
+    {
+      "actorId": "06a5d24dd22d7ab9813f2aff",
+      "character": {
+        "name": "Shuri"
+      }
+    },
+    {
+      "actorId": "f3200b667f548526f4ca9885",
+      "character": {
+        "name": "M'Baku"
+      }
+    },
+    {
+      "actorId": "022ac8e2c1e117ab955ac8c8",
+      "character": {
+        "name": "N'Jobu"
+      }
+    },
+    {
+      "actorId": "f1f774fa206392544965b787",
+      "character": {
+        "name": "Ramonda"
+      }
+    },
+    {
+      "actorId": "12d4eae94b34820e9c78b4ca",
+      "character": {
+        "name": "Zuri"
+      }
+    },
+    {
+      "actorId": "e5253cdc8c1fb87953720d64",
+      "character": {
+        "name": "Ulysses Klaue"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "MCU"
+    }
+  ],
+  "budget": 200000000,
+  "awards": [
+    {
+      "awardId": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Achievement in Music Written for Motion Pictures (Original Score)"
+        },
+        {
+          "title": "Best Achievement in Costume Design"
+        },
+        {
+          "title": "Best Achievement in Production Design"
+        }
+      ]
+    },
+    {
+      "awardId": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Achievement in Special Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardId": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Comic-to-Film Motion Picture"
+        },
+        {
+          "title": "Best Director"
+        },
+        {
+          "title": "Best Supporting Actress",
+          "comment": "as Okoye",
+          "actorId": "213ec6c0ba4ad6d754456ff9"
+        },
+        {
+          "title": "Best Production Design"
+        },
+        {
+          "title": "Best Make-up"
+        }
+      ]
+    },
+    {
+      "awardId": "MtvAward",
+      "nominations": [
+        {
+          "title": "Movie of the Year"
+        },
+        {
+          "title": "Best Performance in a Movie",
+          "comment": "as Black Panther",
+          "actorId": "085fd1ea78f56539824d7714"
+        },
+        {
+          "title": "Best Hero",
+          "comment": "as Black Panther",
+          "actorId": "085fd1ea78f56539824d7714"
+        },
+        {
+          "title": "Best Villain",
+          "comment": "as Erik Killmonger",
+          "actorId": "d278b95bbcdb159e239c7757"
+        }
+      ]
+    },
+    {
+      "awardId": "CriticsChoiceAward",
+      "nominations": [
+        {
+          "title": "Best Visual Effects"
+        },
+        {
+          "title": "Best Production Design"
+        },
+        {
+          "title": "Best Costume Design"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 1350000000,
+  "media": [
+    {
+      "poster": "black_panther.webp",
+      "trailer": "xjDjIWPwcPU"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "After the death of his father, Prince T'Challa ascends to the throne of the small African country of Wakanda. T'Challa is also Black Panther, superhero. Now not only must he govern his country but defeat a dangerous adversary."
+  ],
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "02/16/2018"
+  ],
+  "watchCount": 2,
+  "studios": [
+    "WaltDisney",
+    "MarvelStudios"
+  ]
+}

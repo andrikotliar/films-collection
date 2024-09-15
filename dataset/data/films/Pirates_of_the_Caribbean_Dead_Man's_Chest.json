@@ -1,0 +1,170 @@
+{
+  "_id": "4614f68d59122fe5c05f9803",
+  "type": [
+    "Film"
+  ],
+  "title": "Pirates of the Caribbean: Dead Man's Chest",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Gore Verbinski"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Ted Elliott"
+        },
+        {
+          "name": "Terry Rossio"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Jerry Bruckheimer"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Dariusz Wolski"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 150,
+  "cast": [
+    {
+      "actorId": "22f4885dc5c22c8371ad2a3a",
+      "character": {
+        "name": "Captain Jack Sparrow",
+        "imageUrl": "pirates_of_the_caribbean_dead_man_s_chest_captain_jack_sparrow.webp"
+      }
+    },
+    {
+      "actorId": "450fa3d27820892d0f5afa0c",
+      "character": {
+        "name": "Will Turner"
+      }
+    },
+    {
+      "actorId": "b824178140c71e44c378864f",
+      "character": {
+        "name": "Elizabeth Swann"
+      }
+    },
+    {
+      "actorId": "e6cbdb90f81bf47f47288818",
+      "character": {
+        "name": "Norrington"
+      }
+    },
+    {
+      "actorId": "8802990a47013f3cf0bd6332",
+      "character": {
+        "name": "Davy Jones",
+        "imageUrl": "pirates_of_the_caribbean_dead_man_s_chest_davy_jones.webp"
+      }
+    },
+    {
+      "actorId": "bbaf8ea10b5f80e21292406d",
+      "character": {
+        "name": "Cutler Beckett"
+      }
+    },
+    {
+      "actorId": "b482300071bcd1f1f586e95e",
+      "character": {
+        "name": "Governor Weatherby Swann"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "FantasyWorlds"
+    }
+  ],
+  "budget": 225000000,
+  "awards": [
+    {
+      "awardId": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Achievement in Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardId": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Achievement in Special Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardId": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Special Effects"
+        }
+      ]
+    },
+    {
+      "awardId": "MtvAward",
+      "nominations": [
+        {
+          "title": "Best Movie"
+        },
+        {
+          "title": "Best Performance",
+          "actorId": "22f4885dc5c22c8371ad2a3a"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 1100000000,
+  "media": [
+    {
+      "poster": "pirates_2.webp",
+      "trailer": "ozk0-RHXtFw"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well."
+  ],
+  "relatedTitlesKey": "7d2478e857e3c4c85a85be7d",
+  "releaseDate": [
+    "07/07/2006"
+  ],
+  "watchCount": 10,
+  "studios": [
+    "WaltDisney",
+    "JerryBruckheimerFilms"
+  ]
+}

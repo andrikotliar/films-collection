@@ -1,0 +1,187 @@
+{
+  "_id": "9c7ac96f451be709e0af0dc6",
+  "type": [
+    "Film"
+  ],
+  "title": "Star Trek",
+  "genres": [
+    "SciFi",
+    "SpaceOpera"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "J.J. Abrams"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Roberto Orci"
+        },
+        {
+          "name": "Alex Kurtzman"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "J.J. Abrams"
+        },
+        {
+          "name": "Deamon Lindelof"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Michael Giacchino"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Dan Mindel"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 127,
+  "cast": [
+    {
+      "actorId": "3acb4259a5ddd7988015fa82",
+      "character": {
+        "name": "Kirk"
+      }
+    },
+    {
+      "actorId": "6565f3834cdb77b3e044b64e",
+      "character": {
+        "name": "Spock"
+      }
+    },
+    {
+      "actorId": "f875b54ffaa4476a3545f977",
+      "character": {
+        "name": "Spock Prime"
+      }
+    },
+    {
+      "actorId": "c3547f7f2e3c4da01e256db1",
+      "character": {
+        "name": "Nero"
+      }
+    },
+    {
+      "actorId": "c96b8477b5c3f80695fd2d0e",
+      "character": {
+        "name": "Pike"
+      }
+    },
+    {
+      "actorId": "073830510a0bae3dde5820c2",
+      "character": {
+        "name": "Bones"
+      }
+    },
+    {
+      "actorId": "0f44c8581608c442261413e4",
+      "character": {
+        "name": "Uhura"
+      }
+    },
+    {
+      "actorId": "2e7736bf7187e688395d7a2c",
+      "character": {
+        "name": "Scotty"
+      }
+    },
+    {
+      "actorId": "ee843d8f40f25554b7057454",
+      "character": {
+        "name": "Sulu"
+      }
+    },
+    {
+      "actorId": "f03c91b058f5592f442fd2cd",
+      "character": {
+        "name": "Chekov"
+      }
+    },
+    {
+      "actorId": "6ed3ea8e7a106009d36a71b4",
+      "character": {
+        "name": "Sarek"
+      }
+    },
+    {
+      "actorId": "f49c1aa95b7c6f032daebb75",
+      "character": {
+        "name": "Amanda Grayson"
+      }
+    },
+    {
+      "actorId": "9d6f7bec0a46789eaa403786",
+      "character": {
+        "name": "George Kirk"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Space"
+    }
+  ],
+  "budget": 150000000,
+  "awards": [
+    {
+      "awardId": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Achievement in Makeup"
+        }
+      ]
+    },
+    {
+      "awardId": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Make-up"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 386000000,
+  "media": [
+    {
+      "poster": "star_trek_1.webp",
+      "trailer": "pKFUZ10Wmbw"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time."
+  ],
+  "relatedTitlesKey": "d7e37cea52e0bb90c216ad37",
+  "releaseDate": [
+    "05/08/2009"
+  ],
+  "watchCount": 3,
+  "studios": [
+    "Paramount",
+    "BadRobot"
+  ]
+}

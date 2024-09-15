@@ -1,0 +1,124 @@
+{
+  "_id": "935d19e363448c63ae39ac6a",
+  "type": [
+    "Film"
+  ],
+  "title": "The Day the Earth Stood Still",
+  "genres": [
+    "SciFi",
+    "Thriller"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Scott Derrickson"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "David Scarpa"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Paul Harris Boardman"
+        },
+        {
+          "name": "Gregory Goodman"
+        },
+        {
+          "name": "Erwin Stoff"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Tyler Bates"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "David Tattersall"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 103,
+  "cast": [
+    {
+      "actorId": "064e80da8733b3e3692e9735",
+      "character": {
+        "name": "Klaatu"
+      }
+    },
+    {
+      "actorId": "1cf0eb2682f7194956288319",
+      "character": {
+        "name": "Helen Benson"
+      }
+    },
+    {
+      "actorId": "2d50f3618492cf69f4338a96",
+      "character": {
+        "name": "Regina Jackson"
+      }
+    },
+    {
+      "actorId": "e5f8d050277450eaa51338f6",
+      "character": {
+        "name": "Jacob Benson"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Invasion"
+    }
+  ],
+  "budget": 80000000,
+  "awards": [
+    {
+      "awardId": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Performance by a Younger Actor",
+          "actorId": "e5f8d050277450eaa51338f6"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 233000000,
+  "media": [
+    {
+      "poster": "day_the_earth_stood_still.webp",
+      "trailer": "6QFcZohER3s"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "A remake of the 1951 classic science fiction film about an alien visitor and his giant robot counterpart who visit Earth."
+  ],
+  "releaseDate": [
+    "12/12/2008"
+  ],
+  "watchCount": 2,
+  "studios": [
+    "20thCenturyFox"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "_id": "d8d05bcfe994fe6ac42b030f",
+  "type": [
+    "Film"
+  ],
+  "title": "The Fast and the Furious",
+  "genres": [
+    "Action",
+    "Crime"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Rob Cohen"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Gary Scott Thompson"
+        },
+        {
+          "name": "Erik Bergq"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Neal H. Moritz"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "BT"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Ericson Core"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "DE"
+  ],
+  "duration": 106,
+  "cast": [
+    {
+      "actorId": "61f64cb0f58dc3c12fc0c193",
+      "character": {
+        "name": "Brian O'Conner"
+      }
+    },
+    {
+      "actorId": "8acb4ceb24e197fffd95c777",
+      "character": {
+        "name": "Dominic Toretto"
+      }
+    },
+    {
+      "actorId": "f19c147b933b4ed2c5574ef6",
+      "character": {
+        "name": "Letty"
+      }
+    },
+    {
+      "actorId": "84fe0dd000d931d469570852",
+      "character": {
+        "name": "Mia Toretto"
+      }
+    },
+    {
+      "actorId": "e02657077905fd494aad17ec",
+      "character": {
+        "name": "Johnny Tran"
+      }
+    },
+    {
+      "actorId": "c5ef00853e8446dc327fef87",
+      "character": {
+        "name": "Jesse"
+      }
+    },
+    {
+      "actorId": "5dd235b43a3f52f2ab92f2dd",
+      "character": {
+        "name": "Vince"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Cars"
+    }
+  ],
+  "budget": 38000000,
+  "awards": [
+    {
+      "awardId": "MtvAward",
+      "nominations": [
+        {
+          "title": "Best On-Screen Team",
+          "comment": "Dominic Toretto and Brian O'Conner"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 207000000,
+  "media": [
+    {
+      "poster": "fast_and_furious_1.webp",
+      "trailer": "2TAOizOnNPo"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Los Angeles police officer Brian O'Connor must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy."
+  ],
+  "relatedTitlesKey": "60e1ed9423ed8b0c24b751c1",
+  "releaseDate": [
+    "06/22/2001"
+  ],
+  "watchCount": 5,
+  "studios": [
+    "Universal"
+  ]
+}

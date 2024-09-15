@@ -1,0 +1,194 @@
+{
+  "_id": "9a43a59818d694a43695971d",
+  "type": [
+    "Film"
+  ],
+  "title": "Avatar: The Way of Water",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "James Cameron"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "James Cameron"
+        },
+        {
+          "name": "Rick Jaffa"
+        },
+        {
+          "name": "Amanda Silver"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "James Cameron"
+        },
+        {
+          "name": "Jon Landau"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Simon Franglen"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Russell Carpenter"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 192,
+  "cast": [
+    {
+      "actorId": "ab25ed81fbee90d0a29d7c92",
+      "character": {
+        "name": "Jake Sully",
+        "imageUrl": "avatar_the_way_of_water_jake_sully.webp"
+      }
+    },
+    {
+      "actorId": "0f44c8581608c442261413e4",
+      "character": {
+        "name": "Neytiri",
+        "imageUrl": "avatar_the_way_of_water_neytiri.webp"
+      }
+    },
+    {
+      "actorId": "ca74e2b4d921daf8283f1f08",
+      "character": {
+        "name": "Kiri",
+        "imageUrl": "avatar_the_way_of_water_kiri.webp"
+      }
+    },
+    {
+      "actorId": "b0b4e07f3ddc197fc79b6d99",
+      "character": {
+        "name": "Quaritch",
+        "imageUrl": "avatar_the_way_of_water_quaritch.webp"
+      }
+    },
+    {
+      "actorId": "a0906571fbd382da1825be2a",
+      "character": {
+        "name": "Ronal",
+        "imageUrl": "avatar_the_way_of_water_ronal.webp"
+      }
+    },
+    {
+      "actorId": "677c083db78d6f6afc4bf2c1",
+      "character": {
+        "name": "Tonowari",
+        "imageUrl": "avatar_the_way_of_water_tonowari.webp"
+      }
+    },
+    {
+      "actorId": "cc1bd413915afb8a696bfff3",
+      "character": {
+        "name": "Norm"
+      }
+    },
+    {
+      "actorId": "3e151b5127b8be74b7f44adf",
+      "character": {
+        "name": "Neteyam",
+        "imageUrl": "avatar_the_way_of_water_neteyam.webp"
+      }
+    },
+    {
+      "actorId": "d372b94fc4de33d4432f8fc1",
+      "character": {
+        "name": "Lo'Ak",
+        "imageUrl": "avatar_the_way_of_water_lo_ak"
+      }
+    },
+    {
+      "actorId": "f73baf9f91b25a772477ec00",
+      "character": {
+        "name": "Tuk",
+        "imageUrl": "avatar_the_way_of_water_tuk.webp"
+      }
+    },
+    {
+      "actorId": "08a9d660bd495e832e8f4ecd",
+      "character": {
+        "name": "Spider"
+      }
+    },
+    {
+      "actorId": "a83297cb032460baa31b3cdd",
+      "character": {
+        "name": "Tsireya",
+        "imageUrl": "avatar_the_way_of_water_tsireya.webp"
+      }
+    },
+    {
+      "actorId": "b238ba581949303e85a376d1",
+      "character": {
+        "name": "Aonung",
+        "imageUrl": "avatar_the_way_of_water_aonung.webp"
+      }
+    },
+    {
+      "actorId": "4df6f5c36685e804aff22521",
+      "character": {
+        "name": "General Ardmore"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Space"
+    },
+    {
+      "key": "Future"
+    }
+  ],
+  "budget": 350000000,
+  "boxOffice": 1400000000,
+  "media": [
+    {
+      "poster": "avatar_2.webp",
+      "trailer": "o5F8MOz_IDw"
+    }
+  ],
+  "rating": 2,
+  "description": [
+    "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home."
+  ],
+  "relatedTitlesKey": "120c1e209078af3a3b2da0d1",
+  "releaseDate": [
+    "12/16/2022"
+  ],
+  "watchCount": 2,
+  "isWatchedInCinema": true,
+  "studios": [
+    "20thCenturyStudio",
+    "Lightstorm",
+    "TSG"
+  ]
+}

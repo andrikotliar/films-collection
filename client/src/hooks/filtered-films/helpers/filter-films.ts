@@ -1,5 +1,6 @@
 import { FilmData } from '@/types';
 import { countObjectKeys } from '@/helpers';
+import { TitleType } from '@/enums';
 
 const PARAMS_TO_SKIP = ['endDate'];
 const NUMBER_PROPS = ['duration', 'rating', 'watchCount'];
@@ -40,14 +41,14 @@ const filterFilms = (
 
         if (property === 'seasons') {
           return (
-            film.type.includes('Series') &&
+            film.type.includes(TitleType.SERIES) &&
             film.series?.seasons.length === +filterParams[property]
           );
         }
 
         if (property === 'episodes') {
           return (
-            film.type.includes('Series') &&
+            film.type.includes(TitleType.SERIES) &&
             film.series?.episodesTotal === +filterParams[property]
           );
         }

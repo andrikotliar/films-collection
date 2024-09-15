@@ -1,0 +1,154 @@
+{
+  "_id": "c1621b927aeebd7d462ef40f",
+  "type": [
+    "Film"
+  ],
+  "title": "Iron Man 2",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Jon Favreau"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Justin Theroux"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "John Debney"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Matthew Libatique"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 125,
+  "cast": [
+    {
+      "actorId": "68eac2af31419390d7f727fd",
+      "character": {
+        "name": "Tony Stark / Iron Man",
+        "imageUrl": "iron_man_2_tony_stark.webp"
+      }
+    },
+    {
+      "actorId": "4c47f492bea41214abba1578",
+      "character": {
+        "name": "Pepper Potts"
+      }
+    },
+    {
+      "actorId": "84a7fc06c915c5463cc7ce32",
+      "character": {
+        "name": "James Rhodes / War Machine",
+        "imageUrl": "iron_man_2_james_rhodes.webp"
+      }
+    },
+    {
+      "actorId": "64286f842f66cb88506271cc",
+      "character": {
+        "name": "Natasha Romanoff / Black Whidow"
+      }
+    },
+    {
+      "actorId": "045da01d844a3e8c47c1d39e",
+      "character": {
+        "name": "Justin Hammer"
+      }
+    },
+    {
+      "actorId": "74f7af9d991c72b3af7d5dbd",
+      "character": {
+        "name": "Ivan Vanko",
+        "imageUrl": "iron_man_2_ivan_vanko.webp"
+      }
+    },
+    {
+      "actorId": "b066e50c67b8ffebd4ea16ba",
+      "character": {
+        "name": "Nick Fury"
+      }
+    },
+    {
+      "actorId": "297abcfa1686135e139ec907",
+      "character": {
+        "name": "Agent Coulson"
+      }
+    },
+    {
+      "actorId": "e88291df880df7cdf27ec303",
+      "character": {
+        "name": "Howard Stark"
+      }
+    },
+    {
+      "actorId": "37ad50188f4fc0eb900c920e",
+      "character": {
+        "name": "Senator Stern"
+      }
+    },
+    {
+      "actorId": "1d64586d1509495ad522cffe",
+      "character": {
+        "name": "Happy Hogan"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "MCU"
+    }
+  ],
+  "budget": 200000000,
+  "boxOffice": 624000000,
+  "media": [
+    {
+      "poster": "iron_man_2.webp",
+      "trailer": "BoohRoVA9WQ"
+    }
+  ],
+  "rating": 1,
+  "description": [
+    "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy."
+  ],
+  "relatedTitlesKey": "07bf3e15ce289b98963660c5",
+  "releaseDate": [
+    "05/07/2010"
+  ],
+  "watchCount": 2,
+  "studios": [
+    "MarvelStudios",
+    "Paramount"
+  ]
+}
