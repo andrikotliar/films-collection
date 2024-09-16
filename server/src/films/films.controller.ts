@@ -1,5 +1,5 @@
 import { FastifyRequest, FastifyReply } from 'fastify';
-import { FilmsService } from './film.service.js';
+import { FilmsService } from './films.service.js';
 import { FindAllQueries } from './types.js';
 
 class FilmsController {
