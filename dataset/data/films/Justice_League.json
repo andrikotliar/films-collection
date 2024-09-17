@@ -60,132 +60,132 @@
   "duration": 242,
   "cast": [
     {
-      "actorId": "118e96c459ae6809e814c6b5",
+      "actor": "118e96c459ae6809e814c6b5",
       "character": {
         "name": "Bruce Wayne / Batman",
-        "imageUrl": "zack_snyder_s_justice_league_bruce_wayne"
+        "image": "zack_snyder_s_justice_league_bruce_wayne"
       }
     },
     {
-      "actorId": "8b6677adf81a10fa756951ff",
+      "actor": "8b6677adf81a10fa756951ff",
       "character": {
         "name": "Clark Kent / Superman",
-        "imageUrl": "zack_snyder_s_justice_league_clark_kent"
+        "image": "zack_snyder_s_justice_league_clark_kent"
       }
     },
     {
-      "actorId": "8f9db7b562116db3822027d8",
+      "actor": "8f9db7b562116db3822027d8",
       "character": {
         "name": "Lois Lane"
       }
     },
     {
-      "actorId": "689592fad487486ce5468f9f",
+      "actor": "689592fad487486ce5468f9f",
       "character": {
         "name": "Diana Prince / Wonder Woman"
       }
     },
     {
-      "actorId": "375d86a17caf2ced031c134d",
+      "actor": "375d86a17caf2ced031c134d",
       "character": {
         "name": "Barry Allen / The Flash",
-        "imageUrl": "zack_snyder_s_justice_league_barry_allen"
+        "image": "zack_snyder_s_justice_league_barry_allen"
       }
     },
     {
-      "actorId": "de9c977ac46c62b2c52d371c",
+      "actor": "de9c977ac46c62b2c52d371c",
       "character": {
         "name": "Arthur Curry / Aquaman"
       }
     },
     {
-      "actorId": "86fc034cc2f04ed634307aec",
+      "actor": "86fc034cc2f04ed634307aec",
       "character": {
         "name": "Victor Stone / Cyborg",
-        "imageUrl": "zack_snyder_s_justice_league_victor_stone"
+        "image": "zack_snyder_s_justice_league_victor_stone"
       }
     },
     {
-      "actorId": "45cf2c1a6045a2b007118352",
+      "actor": "45cf2c1a6045a2b007118352",
       "character": {
         "name": "Alfred"
       }
     },
     {
-      "actorId": "6cf53fe9fb98ea48cbd3641d",
+      "actor": "6cf53fe9fb98ea48cbd3641d",
       "character": {
         "name": "Martha Kent"
       }
     },
     {
-      "actorId": "4d5652537ad12d0b2754f438",
+      "actor": "4d5652537ad12d0b2754f438",
       "character": {
         "name": "Queen Hippolyta"
       }
     },
     {
-      "actorId": "03293ef86c8bf352c9dd52f4",
+      "actor": "03293ef86c8bf352c9dd52f4",
       "character": {
         "name": "Commissioner Gordon"
       }
     },
     {
-      "actorId": "67f236e2e31dfdf8ce27fe3c",
+      "actor": "67f236e2e31dfdf8ce27fe3c",
       "character": {
         "name": "Steppenwolf",
-        "imageUrl": "zack_snyder_s_justice_league_steppenwolf"
+        "image": "zack_snyder_s_justice_league_steppenwolf"
       }
     },
     {
-      "actorId": "08a0d88e9df07c14525a1dd1",
+      "actor": "08a0d88e9df07c14525a1dd1",
       "character": {
         "name": "Darkseid",
-        "imageUrl": "zack_snyder_s_justice_league_darkseid"
+        "image": "zack_snyder_s_justice_league_darkseid"
       }
     },
     {
-      "actorId": "bb6dc2348c7c920ff651fd2d",
+      "actor": "bb6dc2348c7c920ff651fd2d",
       "character": {
         "name": "Ryan Choi"
       }
     },
     {
-      "actorId": "81f489cc791f2cfbff218a60",
+      "actor": "81f489cc791f2cfbff218a60",
       "character": {
         "name": "Mera"
       }
     },
     {
-      "actorId": "7c714de673355dff119b2c86",
+      "actor": "7c714de673355dff119b2c86",
       "character": {
         "name": "Silas Stone"
       }
     },
     {
-      "actorId": "babebeae5d94b820c645cfab",
+      "actor": "babebeae5d94b820c645cfab",
       "character": {
         "name": "Deathstroke",
-        "imageUrl": "zack_snyder_s_justice_league_deathstroke"
+        "image": "zack_snyder_s_justice_league_deathstroke"
       }
     },
     {
-      "actorId": "69443d6dcdd5ddbc0c51e534",
+      "actor": "69443d6dcdd5ddbc0c51e534",
       "character": {
         "name": "Vulko"
       }
     },
     {
-      "actorId": "b1094d5a4c3819d770b6cf30",
+      "actor": "b1094d5a4c3819d770b6cf30",
       "character": {
         "name": "General Swanwick / Martian Manhunter",
-        "imageUrl": "zack_snyder_s_justice_league_general_swanwick"
+        "image": "zack_snyder_s_justice_league_general_swanwick"
       }
     },
     {
-      "actorId": "7393a0d84bbc38796cb5e109",
+      "actor": "7393a0d84bbc38796cb5e109",
       "character": {
         "name": "DeSaad",
-        "imageUrl": "zack_snyder_s_justice_league_desaad"
+        "image": "zack_snyder_s_justice_league_desaad"
       }
     }
   ],

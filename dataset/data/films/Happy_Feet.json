@@ -74,44 +74,44 @@
     {
       "character": {
         "name": "Mumble",
-        "imageUrl": "happy_feet_mumble.webp"
+        "image": "happy_feet_mumble.webp"
       },
-      "actorId": "afed96df0db76b317cb36711"
+      "actor": "afed96df0db76b317cb36711"
     },
     {
       "character": {
         "name": "Gloria",
-        "imageUrl": "happy_feet_gloria.webp"
+        "image": "happy_feet_gloria.webp"
       },
-      "actorId": "46cb6620a73ad72d46726772"
+      "actor": "46cb6620a73ad72d46726772"
     },
     {
       "character": {
         "name": "Memphis",
-        "imageUrl": "happy_feet_memphis.webp"
+        "image": "happy_feet_memphis.webp"
       },
-      "actorId": "544abb6ffddc8ddf4056b862"
+      "actor": "544abb6ffddc8ddf4056b862"
     },
     {
       "character": {
         "name": "Norma Jean",
-        "imageUrl": "happy_feet_norma_jean.webp"
+        "image": "happy_feet_norma_jean.webp"
       },
-      "actorId": "e6459d81bab075fc3755cec2"
+      "actor": "e6459d81bab075fc3755cec2"
     },
     {
       "character": {
         "name": "Noah the Elder",
-        "imageUrl": "happy_feet_noah_the_elder.webp"
+        "image": "happy_feet_noah_the_elder.webp"
       },
-      "actorId": "9d72ccad0a0c60872b91d2d3"
+      "actor": "9d72ccad0a0c60872b91d2d3"
     },
     {
       "character": {
         "name": "Lovelace",
-        "imageUrl": "happy_feet_lovelace.webp"
+        "image": "happy_feet_lovelace.webp"
       },
-      "actorId": "f5de152199c29694307ff207"
+      "actor": "f5de152199c29694307ff207"
     }
   ],
   "collections": [

@@ -65,52 +65,52 @@
   "duration": 108,
   "cast": [
     {
-      "actorId": "649bf938997b111ed4016cfb",
+      "actor": "649bf938997b111ed4016cfb",
       "character": {
         "name": "Judy Hopps",
-        "imageUrl": "zootopia_judy_hopps.webp"
+        "image": "zootopia_judy_hopps.webp"
       }
     },
     {
-      "actorId": "163bbc2f0761bbbbb833b6d3",
+      "actor": "163bbc2f0761bbbbb833b6d3",
       "character": {
         "name": "Nick Wilde",
-        "imageUrl": "zootopia_nick_wilde.webp"
+        "image": "zootopia_nick_wilde.webp"
       }
     },
     {
-      "actorId": "ae8fde81451592bb39107acc",
+      "actor": "ae8fde81451592bb39107acc",
       "character": {
         "name": "Chief Bogo",
-        "imageUrl": "zootopia_chief_bogo.webp"
+        "image": "zootopia_chief_bogo.webp"
       }
     },
     {
-      "actorId": "c6db77fceebb2841a3cf06ab",
+      "actor": "c6db77fceebb2841a3cf06ab",
       "character": {
         "name": "Bellwether",
-        "imageUrl": "zootopia_bellwether.webp"
+        "image": "zootopia_bellwether.webp"
       }
     },
     {
-      "actorId": "6f91fac14c27fde7e87fc681",
+      "actor": "6f91fac14c27fde7e87fc681",
       "character": {
         "name": "Clawhauser",
-        "imageUrl": "zootopia_clawhauser.webp"
+        "image": "zootopia_clawhauser.webp"
       }
     },
     {
-      "actorId": "c90c94e58f8dbde0ca35a253",
+      "actor": "c90c94e58f8dbde0ca35a253",
       "character": {
         "name": "Bonnie Hopps",
-        "imageUrl": "zootopia_bonnie_hopps.webp"
+        "image": "zootopia_bonnie_hopps.webp"
       }
     },
     {
-      "actorId": "e71fd83ba7020b3df2104739",
+      "actor": "e71fd83ba7020b3df2104739",
       "character": {
         "name": "Stu Hopps",
-        "imageUrl": "zootopia_stu_hopps.webp"
+        "image": "zootopia_stu_hopps.webp"
       }
     }
   ],

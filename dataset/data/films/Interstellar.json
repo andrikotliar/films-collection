@@ -65,31 +65,31 @@
   "duration": 169,
   "cast": [
     {
-      "actorId": "25fddd7afb676f2eb2b4aa9f",
+      "actor": "25fddd7afb676f2eb2b4aa9f",
       "character": {
         "name": "Cooper"
       }
     },
     {
-      "actorId": "a46061cb2da09f5cf3772762",
+      "actor": "a46061cb2da09f5cf3772762",
       "character": {
         "name": "Murph"
       }
     },
     {
-      "actorId": "e368b232e6af9b5200fd411b",
+      "actor": "e368b232e6af9b5200fd411b",
       "character": {
         "name": "Brand"
       }
     },
     {
-      "actorId": "68a6bf55b5f042549fda0642",
+      "actor": "68a6bf55b5f042549fda0642",
       "character": {
         "name": "Professor Brand"
       }
     },
     {
-      "actorId": "1e69164177ea3946ddbd349e",
+      "actor": "1e69164177ea3946ddbd349e",
       "character": {
         "name": "Mann"
       }
@@ -132,7 +132,7 @@
         },
         {
           "title": "Best Performance by a Younger Actor",
-          "actorId": "894ee6951ac7d25e10c10922"
+          "actor": "894ee6951ac7d25e10c10922"
         },
         {
           "title": "Best Writing"

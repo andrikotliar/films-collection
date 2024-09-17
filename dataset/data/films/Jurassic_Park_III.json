@@ -65,31 +65,31 @@
   "duration": 92,
   "cast": [
     {
-      "actorId": "2481ddc7d8be875f8b2be84e",
+      "actor": "2481ddc7d8be875f8b2be84e",
       "character": {
         "name": "Dr. Alan Grant"
       }
     },
     {
-      "actorId": "f567f450fcb21a0af4e30af3",
+      "actor": "f567f450fcb21a0af4e30af3",
       "character": {
         "name": "Paul Kirby"
       }
     },
     {
-      "actorId": "e25b290cc53a1cd06f04ca4d",
+      "actor": "e25b290cc53a1cd06f04ca4d",
       "character": {
         "name": "Amanda Kirby"
       }
     },
     {
-      "actorId": "7fe039a34239505e0f74e00e",
+      "actor": "7fe039a34239505e0f74e00e",
       "character": {
         "name": "Billy Brennan"
       }
     },
     {
-      "actorId": "56b4f488b094f82b1ce5bf04",
+      "actor": "56b4f488b094f82b1ce5bf04",
       "character": {
         "name": "Eric Kirby"
       }

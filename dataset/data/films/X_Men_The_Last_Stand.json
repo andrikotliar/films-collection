@@ -62,73 +62,73 @@
   "duration": 104,
   "cast": [
     {
-      "actorId": "544abb6ffddc8ddf4056b862",
+      "actor": "544abb6ffddc8ddf4056b862",
       "character": {
         "name": "Logan / Wolverine"
       }
     },
     {
-      "actorId": "bb3c268d0e1fceec2b8b8d58",
+      "actor": "bb3c268d0e1fceec2b8b8d58",
       "character": {
         "name": "Ororo Munroe / Storm"
       }
     },
     {
-      "actorId": "aa9b2474d8c4c51e34160de8",
+      "actor": "aa9b2474d8c4c51e34160de8",
       "character": {
         "name": "Erik Lehnsherr / Magneto"
       }
     },
     {
-      "actorId": "a1b52bbc28ac6c198e877b39",
+      "actor": "a1b52bbc28ac6c198e877b39",
       "character": {
         "name": "Charles Xavier / Professor X"
       }
     },
     {
-      "actorId": "d5fc3f286280bd87817fbca7",
+      "actor": "d5fc3f286280bd87817fbca7",
       "character": {
         "name": "Jean Grey / Phoenix"
       }
     },
     {
-      "actorId": "b3406982f9ef021d2d13e050",
+      "actor": "b3406982f9ef021d2d13e050",
       "character": {
         "name": "Marie / Rogue"
       }
     },
     {
-      "actorId": "a342f51ae286f64c196db426",
+      "actor": "a342f51ae286f64c196db426",
       "character": {
         "name": "Dr. Henry 'Hank' McCoy / Beast"
       }
     },
     {
-      "actorId": "525beb4c90894e34b294cef6",
+      "actor": "525beb4c90894e34b294cef6",
       "character": {
         "name": "Scott Summers / Cyclops"
       }
     },
     {
-      "actorId": "f2089daf6d891ecc5cc339b5",
+      "actor": "f2089daf6d891ecc5cc339b5",
       "character": {
         "name": "Bobby Drake / Iceman"
       }
     },
     {
-      "actorId": "9e2681878ec550ab367669b9",
+      "actor": "9e2681878ec550ab367669b9",
       "character": {
         "name": "John Allerdyce / Pyro"
       }
     },
     {
-      "actorId": "f527c912cd72467f62bcd268",
+      "actor": "f527c912cd72467f62bcd268",
       "character": {
         "name": "Cain Marko / Juggernaut"
       }
     },
     {
-      "actorId": "8c40238b64773c27425d940e",
+      "actor": "8c40238b64773c27425d940e",
       "character": {
         "name": "Kitty Pryde / Shadowcat"
       }
@@ -146,7 +146,7 @@
       "nominations": [
         {
           "title": "Best Supporting Actress",
-          "actorId": "d5fc3f286280bd87817fbca7"
+          "actor": "d5fc3f286280bd87817fbca7"
         }
       ]
     }

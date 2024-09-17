@@ -62,62 +62,62 @@
   "duration": 133,
   "cast": [
     {
-      "actorId": "119a099661348f935a7b2c37",
+      "actor": "119a099661348f935a7b2c37",
       "character": {
         "name": "Jyn Erso"
       }
     },
     {
-      "actorId": "241339bc59e6a77e1bd47050",
+      "actor": "241339bc59e6a77e1bd47050",
       "character": {
         "name": "Cassian Andor"
       }
     },
     {
-      "actorId": "a5c580aab49791a22e7f3b74",
+      "actor": "a5c580aab49791a22e7f3b74",
       "character": {
         "name": "K-2SO",
-        "imageUrl": "rogue_one_k_2so.webp"
+        "image": "rogue_one_k_2so.webp"
       }
     },
     {
-      "actorId": "681aa7ecd9a953a47f397a64",
+      "actor": "681aa7ecd9a953a47f397a64",
       "character": {
         "name": "Chirrut Imwe"
       }
     },
     {
-      "actorId": "79e0ab7ae9957d6c7e82da90",
+      "actor": "79e0ab7ae9957d6c7e82da90",
       "character": {
         "name": "Baze Malbus"
       }
     },
     {
-      "actorId": "5e8de99fe5c4235fb362b719",
+      "actor": "5e8de99fe5c4235fb362b719",
       "character": {
         "name": "Orson Krennic"
       }
     },
     {
-      "actorId": "76c19790805c65030450c9ba",
+      "actor": "76c19790805c65030450c9ba",
       "character": {
         "name": "Governor Tarkin"
       }
     },
     {
-      "actorId": "12d4eae94b34820e9c78b4ca",
+      "actor": "12d4eae94b34820e9c78b4ca",
       "character": {
         "name": "Saw Gerrera"
       }
     },
     {
-      "actorId": "e28338f3ae267cd8cab714fe",
+      "actor": "e28338f3ae267cd8cab714fe",
       "character": {
         "name": "Galen Erso"
       }
     },
     {
-      "actorId": "ff795ec712c7e62204b6c67b",
+      "actor": "ff795ec712c7e62204b6c67b",
       "character": {
         "name": "Bodhi Rook"
       }

@@ -60,37 +60,37 @@
   "duration": 127,
   "cast": [
     {
-      "actorId": "90204450e3ebdb007d478280",
+      "actor": "90204450e3ebdb007d478280",
       "character": {
         "name": "Dr. Henry «Indiana» Jones, Jr."
       }
     },
     {
-      "actorId": "7a354da5768fef2be29583f0",
+      "actor": "7a354da5768fef2be29583f0",
       "character": {
         "name": "Irina Spalko"
       }
     },
     {
-      "actorId": "bd524c2789035cc0587cd149",
+      "actor": "bd524c2789035cc0587cd149",
       "character": {
         "name": "Marion Ravenwood"
       }
     },
     {
-      "actorId": "24ad64557f5cc8cebf8194ae",
+      "actor": "24ad64557f5cc8cebf8194ae",
       "character": {
         "name": "Mutt Williams"
       }
     },
     {
-      "actorId": "0ec2e2683da5b8fcdff58d89",
+      "actor": "0ec2e2683da5b8fcdff58d89",
       "character": {
         "name": "'Mac' George Michale"
       }
     },
     {
-      "actorId": "e8a0a4dd975bb9aba822de75",
+      "actor": "e8a0a4dd975bb9aba822de75",
       "character": {
         "name": "Professor Oxley"
       }

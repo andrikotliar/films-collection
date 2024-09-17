@@ -64,55 +64,55 @@
   "duration": 113,
   "cast": [
     {
-      "actorId": "25fddd7afb676f2eb2b4aa9f",
+      "actor": "25fddd7afb676f2eb2b4aa9f",
       "character": {
         "name": "Michael Pearson"
       }
     },
     {
-      "actorId": "c652b62c969e915bf4644318",
+      "actor": "c652b62c969e915bf4644318",
       "character": {
         "name": "Ray"
       }
     },
     {
-      "actorId": "94fb992bfb61a9fca53839ee",
+      "actor": "94fb992bfb61a9fca53839ee",
       "character": {
         "name": "Rosalind Pearson"
       }
     },
     {
-      "actorId": "897f525ebda55eb5df817ecc",
+      "actor": "897f525ebda55eb5df817ecc",
       "character": {
         "name": "Matthew"
       }
     },
     {
-      "actorId": "5a4ad3cfbfc4f1269e19e8db",
+      "actor": "5a4ad3cfbfc4f1269e19e8db",
       "character": {
         "name": "Jackie"
       }
     },
     {
-      "actorId": "c167c7fe90734461de3cd4aa",
+      "actor": "c167c7fe90734461de3cd4aa",
       "character": {
         "name": "Coach"
       }
     },
     {
-      "actorId": "e197153382691edae4a51a76",
+      "actor": "e197153382691edae4a51a76",
       "character": {
         "name": "Dry Eye"
       }
     },
     {
-      "actorId": "3a1c45aa5f21d126b950cba7",
+      "actor": "3a1c45aa5f21d126b950cba7",
       "character": {
         "name": "Lord George"
       }
     },
     {
-      "actorId": "52318943c79c3be8ac26dff4",
+      "actor": "52318943c79c3be8ac26dff4",
       "character": {
         "name": "Fletcher"
       }

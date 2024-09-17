@@ -63,43 +63,43 @@
   "duration": 150,
   "cast": [
     {
-      "actorId": "1a303f13694e73dabc1c02b6",
+      "actor": "1a303f13694e73dabc1c02b6",
       "character": {
         "name": "Protagonist"
       }
     },
     {
-      "actorId": "be5a364626b5e5843ae62363",
+      "actor": "be5a364626b5e5843ae62363",
       "character": {
         "name": "Neil"
       }
     },
     {
-      "actorId": "d346e8fbcf12e4d8761b6d8a",
+      "actor": "d346e8fbcf12e4d8761b6d8a",
       "character": {
         "name": "Katherine Barton"
       }
     },
     {
-      "actorId": "9be9ad46ec99b713dad3290f",
+      "actor": "9be9ad46ec99b713dad3290f",
       "character": {
         "name": "Priya"
       }
     },
     {
-      "actorId": "9aa1286b3ba72cd5eb04a3a8",
+      "actor": "9aa1286b3ba72cd5eb04a3a8",
       "character": {
         "name": "Fay"
       }
     },
     {
-      "actorId": "e5d14d5efc78e38b1c607d19",
+      "actor": "e5d14d5efc78e38b1c607d19",
       "character": {
         "name": "Wheeler"
       }
     },
     {
-      "actorId": "4d2df0dc49815c9c34e5b975",
+      "actor": "4d2df0dc49815c9c34e5b975",
       "character": {
         "name": "Andrei Sator"
       }
@@ -141,7 +141,7 @@
       "nominations": [
         {
           "title": "Best Actor",
-          "actorId": "1a303f13694e73dabc1c02b6"
+          "actor": "1a303f13694e73dabc1c02b6"
         }
       ]
     }

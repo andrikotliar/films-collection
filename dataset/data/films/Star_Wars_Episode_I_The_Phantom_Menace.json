@@ -56,74 +56,74 @@
   "duration": 136,
   "cast": [
     {
-      "actorId": "017e02072132c3a7ad26b56e",
+      "actor": "017e02072132c3a7ad26b56e",
       "character": {
         "name": "Qui-Gon Jinn"
       }
     },
     {
-      "actorId": "d2746b12dd70b60c36a7edf0",
+      "actor": "d2746b12dd70b60c36a7edf0",
       "character": {
         "name": "Obi-Wan Kenobi"
       }
     },
     {
-      "actorId": "b3703e901df3a8c85c2f0949",
+      "actor": "b3703e901df3a8c85c2f0949",
       "character": {
         "name": "Padme"
       }
     },
     {
-      "actorId": "9cd3db352e873924e72c13c0",
+      "actor": "9cd3db352e873924e72c13c0",
       "character": {
         "name": "Anakin Skywalker"
       }
     },
     {
-      "actorId": "6f8deae8b3c545936d5a285e",
+      "actor": "6f8deae8b3c545936d5a285e",
       "character": {
         "name": "Senator Palpatine"
       }
     },
     {
-      "actorId": "eb2a7a271d9cb2383bedb834",
+      "actor": "eb2a7a271d9cb2383bedb834",
       "character": {
         "name": "Shmi Skywalker"
       }
     },
     {
-      "actorId": "fafab24b214fc42447e2b820",
+      "actor": "fafab24b214fc42447e2b820",
       "character": {
         "name": "Jar Jar Binks",
-        "imageUrl": "star_wars_episode_i_the_phantom_menace_jar_jar_binks.webp"
+        "image": "star_wars_episode_i_the_phantom_menace_jar_jar_binks.webp"
       }
     },
     {
-      "actorId": "8495e822d070b57837e0bf6e",
+      "actor": "8495e822d070b57837e0bf6e",
       "character": {
         "name": "C-3PO",
-        "imageUrl": "star_wars_episode_i_the_phantom_menace_c3po"
+        "image": "star_wars_episode_i_the_phantom_menace_c3po"
       }
     },
     {
-      "actorId": "f9b0821669e9ab485f13f6d1",
+      "actor": "f9b0821669e9ab485f13f6d1",
       "character": {
         "name": "R2-D2",
-        "imageUrl": "star_wars_episode_i_the_phantom_menace_r2d2"
+        "image": "star_wars_episode_i_the_phantom_menace_r2d2"
       }
     },
     {
-      "actorId": "6fa14a3731b9660353c41487",
+      "actor": "6fa14a3731b9660353c41487",
       "character": {
         "name": "Yoda",
-        "imageUrl": "star_wars_episode_i_the_phantom_menace_yoda"
+        "image": "star_wars_episode_i_the_phantom_menace_yoda"
       }
     },
     {
-      "actorId": "abaad933abd664bb6b32bef0",
+      "actor": "abaad933abd664bb6b32bef0",
       "character": {
         "name": "Darth Maul",
-        "imageUrl": "star_wars_episode_i_the_phantom_menace_darth_maul.webp"
+        "image": "star_wars_episode_i_the_phantom_menace_darth_maul.webp"
       }
     }
   ],

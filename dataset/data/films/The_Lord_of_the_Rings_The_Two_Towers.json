@@ -69,92 +69,92 @@
   "duration": 179,
   "cast": [
     {
-      "actorId": "afed96df0db76b317cb36711",
+      "actor": "afed96df0db76b317cb36711",
       "character": {
         "name": "Frodo Baggins"
       }
     },
     {
-      "actorId": "aa9b2474d8c4c51e34160de8",
+      "actor": "aa9b2474d8c4c51e34160de8",
       "character": {
         "name": "Gandalf"
       }
     },
     {
-      "actorId": "93637b8d05eb8514a37ff349",
+      "actor": "93637b8d05eb8514a37ff349",
       "character": {
         "name": "Samwise Gamgee"
       }
     },
     {
-      "actorId": "e1ff919254c44052867479fb",
+      "actor": "e1ff919254c44052867479fb",
       "character": {
         "name": "Aragorn"
       }
     },
     {
-      "actorId": "2555ed16eef45d9015e8aa02",
+      "actor": "2555ed16eef45d9015e8aa02",
       "character": {
         "name": "Gimli"
       }
     },
     {
-      "actorId": "450fa3d27820892d0f5afa0c",
+      "actor": "450fa3d27820892d0f5afa0c",
       "character": {
         "name": "Legolas"
       }
     },
     {
-      "actorId": "7a354da5768fef2be29583f0",
+      "actor": "7a354da5768fef2be29583f0",
       "character": {
         "name": "Galadriel"
       }
     },
     {
-      "actorId": "2a43e11179268a30eac292b2",
+      "actor": "2a43e11179268a30eac292b2",
       "character": {
         "name": "Saruman"
       }
     },
     {
-      "actorId": "9d72ccad0a0c60872b91d2d3",
+      "actor": "9d72ccad0a0c60872b91d2d3",
       "character": {
         "name": "Elrond"
       }
     },
     {
-      "actorId": "e5253cdc8c1fb87953720d64",
+      "actor": "e5253cdc8c1fb87953720d64",
       "character": {
         "name": "Gollum",
-        "imageUrl": "the_lord_of_the_rings_the_two_towers_gollum"
+        "image": "the_lord_of_the_rings_the_two_towers_gollum"
       }
     },
     {
-      "actorId": "073830510a0bae3dde5820c2",
+      "actor": "073830510a0bae3dde5820c2",
       "character": {
         "name": "Eomer"
       }
     },
     {
-      "actorId": "1e6f63ac26841c5c35756f43",
+      "actor": "1e6f63ac26841c5c35756f43",
       "character": {
         "name": "Eowyn"
       }
     },
     {
-      "actorId": "fbd425127f3664acfe49428a",
+      "actor": "fbd425127f3664acfe49428a",
       "character": {
         "name": "Boromir"
       }
     },
     {
-      "actorId": "ce9f35f697acd8a8d4ac4242",
+      "actor": "ce9f35f697acd8a8d4ac4242",
       "character": {
         "name": "Pippin"
       }
     },
     {
-      "actorId": "d981869f14315c851cdcb1dd",
+      "actor": "d981869f14315c851cdcb1dd",
       "character": {
         "name": "Merry"
       }
@@ -201,7 +201,7 @@
         },
         {
           "title": "Best Supporting Actor",
-          "actorId": "e5253cdc8c1fb87953720d64"
+          "actor": "e5253cdc8c1fb87953720d64"
         },
         {
           "title": "Best Costumes"

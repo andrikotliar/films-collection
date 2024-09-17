@@ -60,37 +60,37 @@
   "duration": 127,
   "cast": [
     {
-      "actorId": "90204450e3ebdb007d478280",
+      "actor": "90204450e3ebdb007d478280",
       "character": {
         "name": "Dr. Henry «Indiana» Jones, Jr."
       }
     },
     {
-      "actorId": "52e5e7e893ec68a15817dc22",
+      "actor": "52e5e7e893ec68a15817dc22",
       "character": {
         "name": "Professor Henry Jones"
       }
     },
     {
-      "actorId": "1cb94f174646e5cd8d18c312",
+      "actor": "1cb94f174646e5cd8d18c312",
       "character": {
         "name": "Marcus Brody"
       }
     },
     {
-      "actorId": "aa4321ec61d799331b60221f",
+      "actor": "aa4321ec61d799331b60221f",
       "character": {
         "name": "Elsa"
       }
     },
     {
-      "actorId": "2555ed16eef45d9015e8aa02",
+      "actor": "2555ed16eef45d9015e8aa02",
       "character": {
         "name": "Sallah"
       }
     },
     {
-      "actorId": "088c8600bc5f55a443798e58",
+      "actor": "088c8600bc5f55a443798e58",
       "character": {
         "name": "Walter Donovan"
       }
@@ -125,7 +125,7 @@
       "nominations": [
         {
           "title": "Best International Actor",
-          "actorId": "90204450e3ebdb007d478280"
+          "actor": "90204450e3ebdb007d478280"
         }
       ]
     }

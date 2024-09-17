@@ -62,31 +62,31 @@
   "duration": 116,
   "cast": [
     {
-      "actorId": "d1899eef1c53bc13798a897c",
+      "actor": "d1899eef1c53bc13798a897c",
       "character": {
         "name": "Ray Ferrier"
       }
     },
     {
-      "actorId": "1fcaceb85a3ff8756b1b7bfa",
+      "actor": "1fcaceb85a3ff8756b1b7bfa",
       "character": {
         "name": "Rachel Ferrier"
       }
     },
     {
-      "actorId": "2ab1456dc392e1943623f837",
+      "actor": "2ab1456dc392e1943623f837",
       "character": {
         "name": "Robbie Ferrier"
       }
     },
     {
-      "actorId": "1e6f63ac26841c5c35756f43",
+      "actor": "1e6f63ac26841c5c35756f43",
       "character": {
         "name": "Mary-Ann"
       }
     },
     {
-      "actorId": "cae536d1c4e4a87333a3eed5",
+      "actor": "cae536d1c4e4a87333a3eed5",
       "character": {
         "name": "Harlan Ogilvy"
       }
@@ -111,7 +111,7 @@
       "nominations": [
         {
           "title": "Best Performance by a Younger Actor",
-          "actorId": "1fcaceb85a3ff8756b1b7bfa"
+          "actor": "1fcaceb85a3ff8756b1b7bfa"
         }
       ]
     },
@@ -120,7 +120,7 @@
       "nominations": [
         {
           "title": "Best Young Actress",
-          "actorId": "1fcaceb85a3ff8756b1b7bfa"
+          "actor": "1fcaceb85a3ff8756b1b7bfa"
         }
       ]
     }

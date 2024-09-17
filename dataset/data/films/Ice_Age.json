@@ -54,31 +54,31 @@
   "duration": 81,
   "cast": [
     {
-      "actorId": "42f1a4ee385ffea7f18e5917",
+      "actor": "42f1a4ee385ffea7f18e5917",
       "character": {
         "name": "Manfred",
-        "imageUrl": "ice_age_manfred.webp"
+        "image": "ice_age_manfred.webp"
       }
     },
     {
-      "actorId": "2dd54fece5f12f390a8fdec5",
+      "actor": "2dd54fece5f12f390a8fdec5",
       "character": {
         "name": "Sid",
-        "imageUrl": "ice_age_sid.webp"
+        "image": "ice_age_sid.webp"
       }
     },
     {
-      "actorId": "8e184aab53e75fde640c51ca",
+      "actor": "8e184aab53e75fde640c51ca",
       "character": {
         "name": "Diego",
-        "imageUrl": "ice_age_diego.webp"
+        "image": "ice_age_diego.webp"
       }
     },
     {
-      "actorId": "c4f21ee1ad18b0b3ac799d2b",
+      "actor": "c4f21ee1ad18b0b3ac799d2b",
       "character": {
         "name": "Soto",
-        "imageUrl": "ice_age_soto.webp"
+        "image": "ice_age_soto.webp"
       }
     }
   ],

@@ -59,31 +59,31 @@
   "duration": 95,
   "cast": [
     {
-      "actorId": "5682aa234be8275828a251fd",
+      "actor": "5682aa234be8275828a251fd",
       "character": {
         "name": "Flynn Carsen"
       }
     },
     {
-      "actorId": "6aaf070b072c871251091c91",
+      "actor": "6aaf070b072c871251091c91",
       "character": {
         "name": "Professor Lazlo / Vlad"
       }
     },
     {
-      "actorId": "33df3600552e4b41f7c45e4f",
+      "actor": "33df3600552e4b41f7c45e4f",
       "character": {
         "name": "Simone Renoir"
       }
     },
     {
-      "actorId": "c7d1e2a7bc4468f9de40f667",
+      "actor": "c7d1e2a7bc4468f9de40f667",
       "character": {
         "name": "Judson"
       }
     },
     {
-      "actorId": "ddef35144525bb2d00be1e2d",
+      "actor": "ddef35144525bb2d00be1e2d",
       "character": {
         "name": "Charlene"
       }

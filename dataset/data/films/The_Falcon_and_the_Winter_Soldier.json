@@ -76,61 +76,61 @@
   "duration": 300,
   "cast": [
     {
-      "actorId": "b59e04d8cace91ce7b37a878",
+      "actor": "b59e04d8cace91ce7b37a878",
       "character": {
         "name": "Sam Wilson / Falcon / Captain America"
       }
     },
     {
-      "actorId": "5f86048e81f0f2f8d811005f",
+      "actor": "5f86048e81f0f2f8d811005f",
       "character": {
         "name": "James \"Bucky\" Barnes / White Wolf"
       }
     },
     {
-      "actorId": "9958a9d62a45d76bea422442",
+      "actor": "9958a9d62a45d76bea422442",
       "character": {
         "name": "John Walker / Captain America / U.S. Agent"
       }
     },
     {
-      "actorId": "986fddcb2ef5cf4a0bbdc240",
+      "actor": "986fddcb2ef5cf4a0bbdc240",
       "character": {
         "name": "Karli Morgenthau"
       }
     },
     {
-      "actorId": "fabf0406d63c7e57042de8f2",
+      "actor": "fabf0406d63c7e57042de8f2",
       "character": {
         "name": "Sarah Wilson"
       }
     },
     {
-      "actorId": "84a7fc06c915c5463cc7ce32",
+      "actor": "84a7fc06c915c5463cc7ce32",
       "character": {
         "name": "James \"Rhodey\" Rhodes"
       }
     },
     {
-      "actorId": "c7594955176a580a3357b7b5",
+      "actor": "c7594955176a580a3357b7b5",
       "character": {
         "name": "Helmut Zemo"
       }
     },
     {
-      "actorId": "8aa76aa5736b88573d5225ec",
+      "actor": "8aa76aa5736b88573d5225ec",
       "character": {
         "name": "Sharon Carter / Power Broker"
       }
     },
     {
-      "actorId": "2b4fe26cf420ecd887899aa8",
+      "actor": "2b4fe26cf420ecd887899aa8",
       "character": {
         "name": "Ayo"
       }
     },
     {
-      "actorId": "ab787dcbbabb239d412b9bee",
+      "actor": "ab787dcbbabb239d412b9bee",
       "character": {
         "name": "Valentina Allegra de Fontaine"
       }
@@ -147,7 +147,7 @@
       "nominations": [
         {
           "title": "Best Hero",
-          "actorId": "b59e04d8cace91ce7b37a878"
+          "actor": "b59e04d8cace91ce7b37a878"
         },
         {
           "title": "Best Duo",

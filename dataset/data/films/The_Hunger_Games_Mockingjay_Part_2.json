@@ -65,79 +65,79 @@
   "duration": 137,
   "cast": [
     {
-      "actorId": "c99e4f6dc0695561848dc5be",
+      "actor": "c99e4f6dc0695561848dc5be",
       "character": {
         "name": "Katniss Everdeen"
       }
     },
     {
-      "actorId": "e87403fc0ddcab36a8107ef0",
+      "actor": "e87403fc0ddcab36a8107ef0",
       "character": {
         "name": "Peeta Mellark"
       }
     },
     {
-      "actorId": "f1235dcc20310d42acc94ada",
+      "actor": "f1235dcc20310d42acc94ada",
       "character": {
         "name": "Gale Hawthorne"
       }
     },
     {
-      "actorId": "024affbe7a45ee9fc554bf76",
+      "actor": "024affbe7a45ee9fc554bf76",
       "character": {
         "name": "Haymitch Abernathy"
       }
     },
     {
-      "actorId": "1a8c1ba8704e691a5c41e81b",
+      "actor": "1a8c1ba8704e691a5c41e81b",
       "character": {
         "name": "Effie Trinket"
       }
     },
     {
-      "actorId": "caed9d8a8188d066bfcfcfa8",
+      "actor": "caed9d8a8188d066bfcfcfa8",
       "character": {
         "name": "President Coriolanus Snow"
       }
     },
     {
-      "actorId": "c610e4f42d9c286feb79406f",
+      "actor": "c610e4f42d9c286feb79406f",
       "character": {
         "name": "Plutarch Heavensbee"
       }
     },
     {
-      "actorId": "ab310cfb7b4905e59b363f7d",
+      "actor": "ab310cfb7b4905e59b363f7d",
       "character": {
         "name": "Boggs"
       }
     },
     {
-      "actorId": "9dcff373f8aeb1857ceba71b",
+      "actor": "9dcff373f8aeb1857ceba71b",
       "character": {
         "name": "Cressida"
       }
     },
     {
-      "actorId": "c1b6ae2fc63f69083d8b8d66",
+      "actor": "c1b6ae2fc63f69083d8b8d66",
       "character": {
         "name": "Pollux"
       }
     },
     {
-      "actorId": "ad690658fc9a006e2b90daa0",
+      "actor": "ad690658fc9a006e2b90daa0",
       "character": {
         "name": "Beetee"
       }
     },
     {
-      "actorId": "a834eb244fbdfc92bd0e5b4a",
+      "actor": "a834eb244fbdfc92bd0e5b4a",
       "character": {
         "name": "Commander Lyme"
       }
     },
     {
-      "actorId": "d8b1bdb11b24e877a1c19436",
+      "actor": "d8b1bdb11b24e877a1c19436",
       "character": {
         "name": "President Alma Coin"
       }
@@ -155,7 +155,7 @@
       "nominations": [
         {
           "title": "Best Hero",
-          "actorId": "c99e4f6dc0695561848dc5be"
+          "actor": "c99e4f6dc0695561848dc5be"
         }
       ]
     }

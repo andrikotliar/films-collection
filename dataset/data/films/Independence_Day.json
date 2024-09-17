@@ -59,37 +59,37 @@
   "duration": 145,
   "cast": [
     {
-      "actorId": "b59613245389fb066c309182",
+      "actor": "b59613245389fb066c309182",
       "character": {
         "name": "Capt. Steven Hiller"
       }
     },
     {
-      "actorId": "a5e63e44d084200a35aaca53",
+      "actor": "a5e63e44d084200a35aaca53",
       "character": {
         "name": "President Thomas J. Whitmore"
       }
     },
     {
-      "actorId": "ffe7655111ebb548aeea0a19",
+      "actor": "ffe7655111ebb548aeea0a19",
       "character": {
         "name": "David Levinson"
       }
     },
     {
-      "actorId": "581d7c054a9cb4b7beea4e6e",
+      "actor": "581d7c054a9cb4b7beea4e6e",
       "character": {
         "name": "Julius Levinson"
       }
     },
     {
-      "actorId": "0d21e203a6e8eeb212c61661",
+      "actor": "0d21e203a6e8eeb212c61661",
       "character": {
         "name": "General William Grey"
       }
     },
     {
-      "actorId": "09b4cdaddb10befd1ef3826c",
+      "actor": "09b4cdaddb10befd1ef3826c",
       "character": {
         "name": "Russell Casse"
       }

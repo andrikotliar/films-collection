@@ -65,55 +65,55 @@
   "duration": 132,
   "cast": [
     {
-      "actorId": "e4564ad755822d054312856f",
+      "actor": "e4564ad755822d054312856f",
       "character": {
         "name": "Shang-Chi"
       }
     },
     {
-      "actorId": "cfe556abf1c2bb01e4b732ae",
+      "actor": "cfe556abf1c2bb01e4b732ae",
       "character": {
         "name": "Wenwu / Mandarin"
       }
     },
     {
-      "actorId": "902d1a4d06fb8b0532302803",
+      "actor": "902d1a4d06fb8b0532302803",
       "character": {
         "name": "Katy"
       }
     },
     {
-      "actorId": "3c6480c6bfac97f402c5a7d3",
+      "actor": "3c6480c6bfac97f402c5a7d3",
       "character": {
         "name": "Xialing"
       }
     },
     {
-      "actorId": "df635dbc084250870e7144af",
+      "actor": "df635dbc084250870e7144af",
       "character": {
         "name": "Ying Nan"
       }
     },
     {
-      "actorId": "a775eca4841cce040addc4ca",
+      "actor": "a775eca4841cce040addc4ca",
       "character": {
         "name": "Wong"
       }
     },
     {
-      "actorId": "f4d0182de6e1978b1c26f2d6",
+      "actor": "f4d0182de6e1978b1c26f2d6",
       "character": {
         "name": "Abomination / Emile Blonsky"
       }
     },
     {
-      "actorId": "9db2779191ae86290f56c21b",
+      "actor": "9db2779191ae86290f56c21b",
       "character": {
         "name": "Trevor Slattery"
       }
     },
     {
-      "actorId": "def576aa06a90bef48570196",
+      "actor": "def576aa06a90bef48570196",
       "character": {
         "name": "Razor Fist"
       }

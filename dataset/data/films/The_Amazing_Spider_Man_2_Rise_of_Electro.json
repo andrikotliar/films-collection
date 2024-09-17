@@ -83,27 +83,27 @@
   "duration": 142,
   "cast": [
     {
-      "actorId": "4944de362b32c61551474862",
+      "actor": "4944de362b32c61551474862",
       "character": {
         "name": "Spider-Man / Peter Parker",
-        "imageUrl": "the_amazing_spider_man_2_rise_of_electro_spider-man.webp"
+        "image": "the_amazing_spider_man_2_rise_of_electro_spider-man.webp"
       }
     },
     {
-      "actorId": "c01babb295ae6416292d0fd4",
+      "actor": "c01babb295ae6416292d0fd4",
       "character": {
         "name": "Gwen Stacy"
       }
     },
     {
-      "actorId": "ef83cde86ba14a39f3be9702",
+      "actor": "ef83cde86ba14a39f3be9702",
       "character": {
         "name": "Electro / Max Dillon",
-        "imageUrl": "the_amazing_spider_man_2_rise_of_electro_electro.webp"
+        "image": "the_amazing_spider_man_2_rise_of_electro_electro.webp"
       }
     },
     {
-      "actorId": "c202b52575090480ffc0e04d",
+      "actor": "c202b52575090480ffc0e04d",
       "character": {
         "name": "Green Goblin / Harry Osborn"
       }

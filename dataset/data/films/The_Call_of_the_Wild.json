@@ -60,19 +60,19 @@
   "duration": 100,
   "cast": [
     {
-      "actorId": "90204450e3ebdb007d478280",
+      "actor": "90204450e3ebdb007d478280",
       "character": {
         "name": "John Thornton"
       }
     },
     {
-      "actorId": "800064d873a4ee8f8cea356f",
+      "actor": "800064d873a4ee8f8cea356f",
       "character": {
         "name": "Perrault"
       }
     },
     {
-      "actorId": "533372a3f1edbaf920720573",
+      "actor": "533372a3f1edbaf920720573",
       "character": {
         "name": "Hal"
       }

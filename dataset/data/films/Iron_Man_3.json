@@ -59,45 +59,45 @@
   "duration": 131,
   "cast": [
     {
-      "actorId": "68eac2af31419390d7f727fd",
+      "actor": "68eac2af31419390d7f727fd",
       "character": {
         "name": "Tony Stark / Iron Man",
-        "imageUrl": "iron_man_3_ironman.webp"
+        "image": "iron_man_3_ironman.webp"
       }
     },
     {
-      "actorId": "4c47f492bea41214abba1578",
+      "actor": "4c47f492bea41214abba1578",
       "character": {
         "name": "Pepper Potts"
       }
     },
     {
-      "actorId": "84a7fc06c915c5463cc7ce32",
+      "actor": "84a7fc06c915c5463cc7ce32",
       "character": {
         "name": "Colonel James Rhodes",
-        "imageUrl": "iron_man_3_warmachine.webp"
+        "image": "iron_man_3_warmachine.webp"
       }
     },
     {
-      "actorId": "f5b9de1f8440879383792d4b",
+      "actor": "f5b9de1f8440879383792d4b",
       "character": {
         "name": "Aldrich Killian"
       }
     },
     {
-      "actorId": "e8c8bbaf2487d1556a9b332f",
+      "actor": "e8c8bbaf2487d1556a9b332f",
       "character": {
         "name": "Maya Hansen"
       }
     },
     {
-      "actorId": "1d64586d1509495ad522cffe",
+      "actor": "1d64586d1509495ad522cffe",
       "character": {
         "name": "Happy Hogan"
       }
     },
     {
-      "actorId": "9db2779191ae86290f56c21b",
+      "actor": "9db2779191ae86290f56c21b",
       "character": {
         "name": "Trevor Slattery"
       }
@@ -118,11 +118,11 @@
         },
         {
           "title": "Best Actor",
-          "actorId": "68eac2af31419390d7f727fd"
+          "actor": "68eac2af31419390d7f727fd"
         },
         {
           "title": "Best Supporting Actor",
-          "actorId": "9db2779191ae86290f56c21b"
+          "actor": "9db2779191ae86290f56c21b"
         }
       ]
     }

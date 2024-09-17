@@ -59,74 +59,74 @@
   "duration": 134,
   "cast": [
     {
-      "actorId": "085fd1ea78f56539824d7714",
+      "actor": "085fd1ea78f56539824d7714",
       "character": {
         "name": "T'Challa / Black Panther",
-        "imageUrl": "black_panther_t_challa"
+        "image": "black_panther_t_challa"
       }
     },
     {
-      "actorId": "d278b95bbcdb159e239c7757",
+      "actor": "d278b95bbcdb159e239c7757",
       "character": {
         "name": "Erik Killmonger"
       }
     },
     {
-      "actorId": "4df990e459cdd192712d9a9f",
+      "actor": "4df990e459cdd192712d9a9f",
       "character": {
         "name": "Nakia"
       }
     },
     {
-      "actorId": "213ec6c0ba4ad6d754456ff9",
+      "actor": "213ec6c0ba4ad6d754456ff9",
       "character": {
         "name": "Okoye"
       }
     },
     {
-      "actorId": "706bad1f2278f02cd543a7a2",
+      "actor": "706bad1f2278f02cd543a7a2",
       "character": {
         "name": "Everett K. Ross"
       }
     },
     {
-      "actorId": "09f81677668b6857a9b63d1e",
+      "actor": "09f81677668b6857a9b63d1e",
       "character": {
         "name": "W'Kabi"
       }
     },
     {
-      "actorId": "06a5d24dd22d7ab9813f2aff",
+      "actor": "06a5d24dd22d7ab9813f2aff",
       "character": {
         "name": "Shuri"
       }
     },
     {
-      "actorId": "f3200b667f548526f4ca9885",
+      "actor": "f3200b667f548526f4ca9885",
       "character": {
         "name": "M'Baku"
       }
     },
     {
-      "actorId": "022ac8e2c1e117ab955ac8c8",
+      "actor": "022ac8e2c1e117ab955ac8c8",
       "character": {
         "name": "N'Jobu"
       }
     },
     {
-      "actorId": "f1f774fa206392544965b787",
+      "actor": "f1f774fa206392544965b787",
       "character": {
         "name": "Ramonda"
       }
     },
     {
-      "actorId": "12d4eae94b34820e9c78b4ca",
+      "actor": "12d4eae94b34820e9c78b4ca",
       "character": {
         "name": "Zuri"
       }
     },
     {
-      "actorId": "e5253cdc8c1fb87953720d64",
+      "actor": "e5253cdc8c1fb87953720d64",
       "character": {
         "name": "Ulysses Klaue"
       }
@@ -173,7 +173,7 @@
         {
           "title": "Best Supporting Actress",
           "comment": "as Okoye",
-          "actorId": "213ec6c0ba4ad6d754456ff9"
+          "actor": "213ec6c0ba4ad6d754456ff9"
         },
         {
           "title": "Best Production Design"
@@ -192,17 +192,17 @@
         {
           "title": "Best Performance in a Movie",
           "comment": "as Black Panther",
-          "actorId": "085fd1ea78f56539824d7714"
+          "actor": "085fd1ea78f56539824d7714"
         },
         {
           "title": "Best Hero",
           "comment": "as Black Panther",
-          "actorId": "085fd1ea78f56539824d7714"
+          "actor": "085fd1ea78f56539824d7714"
         },
         {
           "title": "Best Villain",
           "comment": "as Erik Killmonger",
-          "actorId": "d278b95bbcdb159e239c7757"
+          "actor": "d278b95bbcdb159e239c7757"
         }
       ]
     },

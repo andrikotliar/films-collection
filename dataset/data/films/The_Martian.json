@@ -69,79 +69,79 @@
   "duration": 142,
   "cast": [
     {
-      "actorId": "1e69164177ea3946ddbd349e",
+      "actor": "1e69164177ea3946ddbd349e",
       "character": {
         "name": "Mark Watney"
       }
     },
     {
-      "actorId": "a46061cb2da09f5cf3772762",
+      "actor": "a46061cb2da09f5cf3772762",
       "character": {
         "name": "Melissa Lewis"
       }
     },
     {
-      "actorId": "6a6653e7f44778448e9b8762",
+      "actor": "6a6653e7f44778448e9b8762",
       "character": {
         "name": "Annie Montrose"
       }
     },
     {
-      "actorId": "0aeb4bc99c646bc834ac62f4",
+      "actor": "0aeb4bc99c646bc834ac62f4",
       "character": {
         "name": "Teddy Sanders"
       }
     },
     {
-      "actorId": "5e3bafc74ed0a30df02c53af",
+      "actor": "5e3bafc74ed0a30df02c53af",
       "character": {
         "name": "Rick Martinez"
       }
     },
     {
-      "actorId": "fbd425127f3664acfe49428a",
+      "actor": "fbd425127f3664acfe49428a",
       "character": {
         "name": "Mitch Henderson"
       }
     },
     {
-      "actorId": "6a960d559b84d97307068dc7",
+      "actor": "6a960d559b84d97307068dc7",
       "character": {
         "name": "Beth Johanssen"
       }
     },
     {
-      "actorId": "5f86048e81f0f2f8d811005f",
+      "actor": "5f86048e81f0f2f8d811005f",
       "character": {
         "name": "Chris Beck"
       }
     },
     {
-      "actorId": "ef8094aff424c39ecda69f5b",
+      "actor": "ef8094aff424c39ecda69f5b",
       "character": {
         "name": "Alex Vogel"
       }
     },
     {
-      "actorId": "e5fca0c83deaa2448c413cfd",
+      "actor": "e5fca0c83deaa2448c413cfd",
       "character": {
         "name": "Vincent Kapoor"
       }
     },
     {
-      "actorId": "a775eca4841cce040addc4ca",
+      "actor": "a775eca4841cce040addc4ca",
       "character": {
         "name": "Bruce Ng"
       }
     },
     {
-      "actorId": "7648e3cafe0ccd1016bbc057",
+      "actor": "7648e3cafe0ccd1016bbc057",
       "character": {
         "name": "Mindy Park"
       }
     },
     {
-      "actorId": "1a15cd2acff9c1ac017f8ea8",
+      "actor": "1a15cd2acff9c1ac017f8ea8",
       "character": {
         "name": "Rich Purnell"
       }
@@ -162,7 +162,7 @@
         },
         {
           "title": "Best Performance by an Actor in a Motion Picture - Comedy or Musical",
-          "actorId": "1e69164177ea3946ddbd349e"
+          "actor": "1e69164177ea3946ddbd349e"
         }
       ]
     },

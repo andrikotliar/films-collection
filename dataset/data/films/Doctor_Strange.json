@@ -62,37 +62,37 @@
   "duration": 115,
   "cast": [
     {
-      "actorId": "5a86b2f23ea348e3a58775b6",
+      "actor": "5a86b2f23ea348e3a58775b6",
       "character": {
         "name": "Dr. Stephen Strange"
       }
     },
     {
-      "actorId": "e5fca0c83deaa2448c413cfd",
+      "actor": "e5fca0c83deaa2448c413cfd",
       "character": {
         "name": "Mordo"
       }
     },
     {
-      "actorId": "32b833b2581f63e17408e368",
+      "actor": "32b833b2581f63e17408e368",
       "character": {
         "name": "Dr. Christine Palmer"
       }
     },
     {
-      "actorId": "a775eca4841cce040addc4ca",
+      "actor": "a775eca4841cce040addc4ca",
       "character": {
         "name": "Wong"
       }
     },
     {
-      "actorId": "e28338f3ae267cd8cab714fe",
+      "actor": "e28338f3ae267cd8cab714fe",
       "character": {
         "name": "Kaecilius"
       }
     },
     {
-      "actorId": "f374f4f88b7457cf966ef58c",
+      "actor": "f374f4f88b7457cf966ef58c",
       "character": {
         "name": "The Ancient One"
       }
@@ -113,7 +113,7 @@
         },
         {
           "title": "Best Supporting Actress",
-          "actorId": "f374f4f88b7457cf966ef58c"
+          "actor": "f374f4f88b7457cf966ef58c"
         }
       ]
     }

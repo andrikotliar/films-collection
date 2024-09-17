@@ -71,49 +71,49 @@
   "duration": 115,
   "cast": [
     {
-      "actorId": "23f19ef413bcb6efbff53967",
+      "actor": "23f19ef413bcb6efbff53967",
       "character": {
         "name": "J. Daniel Atlas"
       }
     },
     {
-      "actorId": "a65bc3f407cd83dd8b26db19",
+      "actor": "a65bc3f407cd83dd8b26db19",
       "character": {
         "name": "Dylan Rhodes"
       }
     },
     {
-      "actorId": "024affbe7a45ee9fc554bf76",
+      "actor": "024affbe7a45ee9fc554bf76",
       "character": {
         "name": "Merritt McKinney"
       }
     },
     {
-      "actorId": "bb05ce01b3191a2e584b07d9",
+      "actor": "bb05ce01b3191a2e584b07d9",
       "character": {
         "name": "Henley Reeves"
       }
     },
     {
-      "actorId": "a3a8f7f56df0143e3f0e2417",
+      "actor": "a3a8f7f56df0143e3f0e2417",
       "character": {
         "name": "Jack Wilder"
       }
     },
     {
-      "actorId": "b9358a872eff4743de75b937",
+      "actor": "b9358a872eff4743de75b937",
       "character": {
         "name": "Alma Dray"
       }
     },
     {
-      "actorId": "6baca3c5f3dcf4fb1271cb34",
+      "actor": "6baca3c5f3dcf4fb1271cb34",
       "character": {
         "name": "Thaddeus Bradley"
       }
     },
     {
-      "actorId": "68a6bf55b5f042549fda0642",
+      "actor": "68a6bf55b5f042549fda0642",
       "character": {
         "name": "Arthur Tressler"
       }

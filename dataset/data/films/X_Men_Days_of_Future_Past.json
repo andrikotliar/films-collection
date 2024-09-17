@@ -59,80 +59,80 @@
   "duration": 131,
   "cast": [
     {
-      "actorId": "544abb6ffddc8ddf4056b862",
+      "actor": "544abb6ffddc8ddf4056b862",
       "character": {
         "name": "Logan / Wolverine"
       }
     },
     {
-      "actorId": "1fbb6ff101ef506a0bf61497",
+      "actor": "1fbb6ff101ef506a0bf61497",
       "character": {
         "name": "Charles Xavier"
       }
     },
     {
-      "actorId": "bec6ffd8479a9c7a4c2f3e56",
+      "actor": "bec6ffd8479a9c7a4c2f3e56",
       "character": {
         "name": "Erik Lehnsherr"
       }
     },
     {
-      "actorId": "c99e4f6dc0695561848dc5be",
+      "actor": "c99e4f6dc0695561848dc5be",
       "character": {
         "name": "Raven / Mystique",
-        "imageUrl": "x_men_days_of_future_past_raven.webp"
+        "image": "x_men_days_of_future_past_raven.webp"
       }
     },
     {
-      "actorId": "bb3c268d0e1fceec2b8b8d58",
+      "actor": "bb3c268d0e1fceec2b8b8d58",
       "character": {
         "name": "Storm"
       }
     },
     {
-      "actorId": "f5742b02c88fb0465409276f",
+      "actor": "f5742b02c88fb0465409276f",
       "character": {
         "name": "Hank / Beast"
       }
     },
     {
-      "actorId": "b3406982f9ef021d2d13e050",
+      "actor": "b3406982f9ef021d2d13e050",
       "character": {
         "name": "Rogue"
       }
     },
     {
-      "actorId": "8c40238b64773c27425d940e",
+      "actor": "8c40238b64773c27425d940e",
       "character": {
         "name": "Kitty Pryde"
       }
     },
     {
-      "actorId": "3e6f63e7baf413d7ab9e8d1b",
+      "actor": "3e6f63e7baf413d7ab9e8d1b",
       "character": {
         "name": "Dr. Bolivar Trask"
       }
     },
     {
-      "actorId": "f2089daf6d891ecc5cc339b5",
+      "actor": "f2089daf6d891ecc5cc339b5",
       "character": {
         "name": "Bobby / Iceman"
       }
     },
     {
-      "actorId": "22c5f4431c465fad5fb3b185",
+      "actor": "22c5f4431c465fad5fb3b185",
       "character": {
         "name": "Peter / Quicksilver"
       }
     },
     {
-      "actorId": "aa9b2474d8c4c51e34160de8",
+      "actor": "aa9b2474d8c4c51e34160de8",
       "character": {
         "name": "Magneto"
       }
     },
     {
-      "actorId": "a1b52bbc28ac6c198e877b39",
+      "actor": "a1b52bbc28ac6c198e877b39",
       "character": {
         "name": "Professor X"
       }

@@ -63,31 +63,31 @@
   "duration": 93,
   "cast": [
     {
-      "actorId": "644ca0c0a204f03134f45fbf",
+      "actor": "644ca0c0a204f03134f45fbf",
       "character": {
         "name": "Colter Stevens"
       }
     },
     {
-      "actorId": "eed3fec56e5b7a0ad8aa447a",
+      "actor": "eed3fec56e5b7a0ad8aa447a",
       "character": {
         "name": "Christina Warren"
       }
     },
     {
-      "actorId": "4d9ebb504814bd783fb0e707",
+      "actor": "4d9ebb504814bd783fb0e707",
       "character": {
         "name": "Colleen Goodwin"
       }
     },
     {
-      "actorId": "ad690658fc9a006e2b90daa0",
+      "actor": "ad690658fc9a006e2b90daa0",
       "character": {
         "name": "Dr. Rutledge"
       }
     },
     {
-      "actorId": "004c8f819583d41ee2225a5d",
+      "actor": "004c8f819583d41ee2225a5d",
       "character": {
         "name": "Derek Frost"
       }

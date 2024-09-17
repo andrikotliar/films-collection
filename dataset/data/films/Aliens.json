@@ -57,37 +57,37 @@
   "duration": 137,
   "cast": [
     {
-      "actorId": "ca74e2b4d921daf8283f1f08",
+      "actor": "ca74e2b4d921daf8283f1f08",
       "character": {
         "name": "Ripley"
       }
     },
     {
-      "actorId": "e76f8d6303a283a38410a506",
+      "actor": "e76f8d6303a283a38410a506",
       "character": {
         "name": "Newt"
       }
     },
     {
-      "actorId": "ddeef4fd51b50bcc160a21c5",
+      "actor": "ddeef4fd51b50bcc160a21c5",
       "character": {
         "name": "Corporal Hicks"
       }
     },
     {
-      "actorId": "719eb3b64cfb07656d850861",
+      "actor": "719eb3b64cfb07656d850861",
       "character": {
         "name": "Carter J. Burke"
       }
     },
     {
-      "actorId": "36f1bddb19c9e4030a07d6e3",
+      "actor": "36f1bddb19c9e4030a07d6e3",
       "character": {
         "name": "Bishop"
       }
     },
     {
-      "actorId": "2118f05852939b389e792478",
+      "actor": "2118f05852939b389e792478",
       "character": {
         "name": "Private Hudson"
       }
@@ -131,11 +131,11 @@
         },
         {
           "title": "Best Actress",
-          "actorId": "ca74e2b4d921daf8283f1f08"
+          "actor": "ca74e2b4d921daf8283f1f08"
         },
         {
           "title": "Best Supporting Actor",
-          "actorId": "2118f05852939b389e792478"
+          "actor": "2118f05852939b389e792478"
         },
         {
           "title": "Best Supporting Actress",
@@ -143,7 +143,7 @@
         },
         {
           "title": "Best Performance by a Younger Actor",
-          "actorId": "e76f8d6303a283a38410a506"
+          "actor": "e76f8d6303a283a38410a506"
         },
         {
           "title": "Best Director"

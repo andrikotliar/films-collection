@@ -51,45 +51,45 @@
   "duration": 92,
   "cast": [
     {
-      "actorId": "21f0a165913e9a2876a027c5",
+      "actor": "21f0a165913e9a2876a027c5",
       "character": {
         "name": "Sullivan",
-        "imageUrl": "monsters_inc_sullivan.webp"
+        "image": "monsters_inc_sullivan.webp"
       }
     },
     {
-      "actorId": "941950fd8984681e1bfb7ec0",
+      "actor": "941950fd8984681e1bfb7ec0",
       "character": {
         "name": "Mike",
-        "imageUrl": "monsters_inc_mike.webp"
+        "image": "monsters_inc_mike.webp"
       }
     },
     {
-      "actorId": "7e406122c4fcbfa64b88db69",
+      "actor": "7e406122c4fcbfa64b88db69",
       "character": {
         "name": "Boo",
-        "imageUrl": "monsters_inc_boo.webp"
+        "image": "monsters_inc_boo.webp"
       }
     },
     {
-      "actorId": "5c58d54c5785d9f88ee7578c",
+      "actor": "5c58d54c5785d9f88ee7578c",
       "character": {
         "name": "Randall",
-        "imageUrl": "monsters_inc_randall.webp"
+        "image": "monsters_inc_randall.webp"
       }
     },
     {
-      "actorId": "857c4c71c4dbba844fc41696",
+      "actor": "857c4c71c4dbba844fc41696",
       "character": {
         "name": "Waternoose",
-        "imageUrl": "monsters_inc_waternoose.webp"
+        "image": "monsters_inc_waternoose.webp"
       }
     },
     {
-      "actorId": "ba3fbe03b8beb8d9c1096b7e",
+      "actor": "ba3fbe03b8beb8d9c1096b7e",
       "character": {
         "name": "Celia",
-        "imageUrl": "monsters_inc_celia.webp"
+        "image": "monsters_inc_celia.webp"
       }
     }
   ],

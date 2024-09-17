@@ -59,49 +59,49 @@
   "duration": 123,
   "cast": [
     {
-      "actorId": "d1899eef1c53bc13798a897c",
+      "actor": "d1899eef1c53bc13798a897c",
       "character": {
         "name": "Ethan Hunt"
       }
     },
     {
-      "actorId": "2157cb729ec697f42b1a471c",
+      "actor": "2157cb729ec697f42b1a471c",
       "character": {
         "name": "Sean Ambrose"
       }
     },
     {
-      "actorId": "e8de9cf95faeea0c9bde694c",
+      "actor": "e8de9cf95faeea0c9bde694c",
       "character": {
         "name": "Nyah Hall"
       }
     },
     {
-      "actorId": "4b4ebf97ca75b72088e2c948",
+      "actor": "4b4ebf97ca75b72088e2c948",
       "character": {
         "name": "Luther Strickell"
       }
     },
     {
-      "actorId": "953ad71c05859a1a5ee1bd5f",
+      "actor": "953ad71c05859a1a5ee1bd5f",
       "character": {
         "name": "Hugh Stamp"
       }
     },
     {
-      "actorId": "1b3b9c4e862d84845db13e3b",
+      "actor": "1b3b9c4e862d84845db13e3b",
       "character": {
         "name": "Billy Baird"
       }
     },
     {
-      "actorId": "a0b80add73e1eaf43e9aebe5",
+      "actor": "a0b80add73e1eaf43e9aebe5",
       "character": {
         "name": "McCloy"
       }
     },
     {
-      "actorId": "09cfe69b63c756861733fa82",
+      "actor": "09cfe69b63c756861733fa82",
       "character": {
         "name": "Dr. Nekhorvich"
       }
@@ -127,7 +127,7 @@
       "nominations": [
         {
           "title": "Best Male Performance",
-          "actorId": "d1899eef1c53bc13798a897c"
+          "actor": "d1899eef1c53bc13798a897c"
         },
         {
           "title": "Best action Sequence",

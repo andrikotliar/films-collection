@@ -62,62 +62,62 @@
   "duration": 110,
   "cast": [
     {
-      "actorId": "6e9dd36e3b96af6f5483e7a2",
+      "actor": "6e9dd36e3b96af6f5483e7a2",
       "character": {
         "name": "Johnny Blaze / Ghost Rider",
-        "imageUrl": "ghost_rider_johnny_blaze.webp"
+        "image": "ghost_rider_johnny_blaze.webp"
       }
     },
     {
-      "actorId": "0ede821f7322bc3b013ad22f",
+      "actor": "0ede821f7322bc3b013ad22f",
       "character": {
         "name": "Roxanne Simpson"
       }
     },
     {
-      "actorId": "e822a938671441f7a97379b8",
+      "actor": "e822a938671441f7a97379b8",
       "character": {
         "name": "Mephistopheles"
       }
     },
     {
-      "actorId": "f58457964f741e7cd096d744",
+      "actor": "f58457964f741e7cd096d744",
       "character": {
         "name": "Blackheart"
       }
     },
     {
-      "actorId": "cb3914bc88b72017ccd4d733",
+      "actor": "cb3914bc88b72017ccd4d733",
       "character": {
         "name": "Mack"
       }
     },
     {
-      "actorId": "5870a562478e2246f1f454fa",
+      "actor": "5870a562478e2246f1f454fa",
       "character": {
         "name": "Gressil"
       }
     },
     {
-      "actorId": "7eae893c800b769582c62d97",
+      "actor": "7eae893c800b769582c62d97",
       "character": {
         "name": "Wallow"
       }
     },
     {
-      "actorId": "1cbdd71b9def406f51a58b62",
+      "actor": "1cbdd71b9def406f51a58b62",
       "character": {
         "name": "Abigor"
       }
     },
     {
-      "actorId": "d68661e62c37cc5eaefe65a8",
+      "actor": "d68661e62c37cc5eaefe65a8",
       "character": {
         "name": "Barton Blaze"
       }
     },
     {
-      "actorId": "90080df72ecf3ca25ae0d24b",
+      "actor": "90080df72ecf3ca25ae0d24b",
       "character": {
         "name": "Caretaker"
       }

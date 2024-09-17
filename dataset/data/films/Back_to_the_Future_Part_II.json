@@ -59,31 +59,31 @@
   "duration": 108,
   "cast": [
     {
-      "actorId": "338322b79718106c345846de",
+      "actor": "338322b79718106c345846de",
       "character": {
         "name": "Marty McFly"
       }
     },
     {
-      "actorId": "90dcb449f7b8e7fff49994fb",
+      "actor": "90dcb449f7b8e7fff49994fb",
       "character": {
         "name": "Dr. Emmett Brown"
       }
     },
     {
-      "actorId": "cf57db4253b6c898d70ef74a",
+      "actor": "cf57db4253b6c898d70ef74a",
       "character": {
         "name": "Lorraine Baines"
       }
     },
     {
-      "actorId": "a99693b2af446e8804d80623",
+      "actor": "a99693b2af446e8804d80623",
       "character": {
         "name": "George McFly"
       }
     },
     {
-      "actorId": "225c89c9183706f01526fe4d",
+      "actor": "225c89c9183706f01526fe4d",
       "character": {
         "name": "Biff Tannen / Griff Tannen"
       }

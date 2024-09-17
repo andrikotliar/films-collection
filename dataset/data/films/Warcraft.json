@@ -71,84 +71,84 @@
   "duration": 123,
   "cast": [
     {
-      "actorId": "8232be67f06b20a3e5123568",
+      "actor": "8232be67f06b20a3e5123568",
       "character": {
         "name": "Anduin Lothar"
       }
     },
     {
-      "actorId": "dbed75996832076f78882cf8",
+      "actor": "dbed75996832076f78882cf8",
       "character": {
         "name": "Garona",
-        "imageUrl": "warcraft_garona.webp"
+        "image": "warcraft_garona.webp"
       }
     },
     {
-      "actorId": "6167199c9267be1358e9db47",
+      "actor": "6167199c9267be1358e9db47",
       "character": {
         "name": "Medivh"
       }
     },
     {
-      "actorId": "f4cb72260e2b853fcfff42e7",
+      "actor": "f4cb72260e2b853fcfff42e7",
       "character": {
         "name": "Llane Wrynn"
       }
     },
     {
-      "actorId": "c8901a2c3a9ece7d8f68aba1",
+      "actor": "c8901a2c3a9ece7d8f68aba1",
       "character": {
         "name": "Durotan / Antonidas",
-        "imageUrl": "warcraft_durotan.webp"
+        "image": "warcraft_durotan.webp"
       }
     },
     {
-      "actorId": "b7ebc35f0ea2423eb866e4ef",
+      "actor": "b7ebc35f0ea2423eb866e4ef",
       "character": {
         "name": "Khadgar"
       }
     },
     {
-      "actorId": "cc6ab9ac2d6bf1eae11f5f1c",
+      "actor": "cc6ab9ac2d6bf1eae11f5f1c",
       "character": {
         "name": "Orgrim",
-        "imageUrl": "warcraft_orgrim.webp"
+        "image": "warcraft_orgrim.webp"
       }
     },
     {
-      "actorId": "8e58705ae826aaa9554b17d6",
+      "actor": "8e58705ae826aaa9554b17d6",
       "character": {
         "name": "Blackhand",
-        "imageUrl": "warcraft_blackhand.webp"
+        "image": "warcraft_blackhand.webp"
       }
     },
     {
-      "actorId": "822c9ec9591c19a11e99bca5",
+      "actor": "822c9ec9591c19a11e99bca5",
       "character": {
         "name": "Gul'dan"
       }
     },
     {
-      "actorId": "b1ac65c6e08030daaadc157e",
+      "actor": "b1ac65c6e08030daaadc157e",
       "character": {
         "name": "Lady Taria"
       }
     },
     {
-      "actorId": "b83c0645c73a15db94cadf2e",
+      "actor": "b83c0645c73a15db94cadf2e",
       "character": {
         "name": "Draka",
-        "imageUrl": "warcraft_draka.webp"
+        "image": "warcraft_draka.webp"
       }
     },
     {
-      "actorId": "148109460275800447cd7f7c",
+      "actor": "148109460275800447cd7f7c",
       "character": {
         "name": "Moroes"
       }
     },
     {
-      "actorId": "d6a69a4c2ab6da20f853043e",
+      "actor": "d6a69a4c2ab6da20f853043e",
       "character": {
         "name": "Callan"
       }

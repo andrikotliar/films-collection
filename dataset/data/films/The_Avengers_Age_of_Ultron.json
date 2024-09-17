@@ -59,103 +59,103 @@
   "duration": 141,
   "cast": [
     {
-      "actorId": "68eac2af31419390d7f727fd",
+      "actor": "68eac2af31419390d7f727fd",
       "character": {
         "name": "Tony Stark / Iron Man",
-        "imageUrl": "the_avengers_age_of_ultron_tony_stark.webp"
+        "image": "the_avengers_age_of_ultron_tony_stark.webp"
       }
     },
     {
-      "actorId": "9d6f7bec0a46789eaa403786",
+      "actor": "9d6f7bec0a46789eaa403786",
       "character": {
         "name": "Thor",
-        "imageUrl": "the_avengers_age_of_ultron_thor.webp"
+        "image": "the_avengers_age_of_ultron_thor.webp"
       }
     },
     {
-      "actorId": "a65bc3f407cd83dd8b26db19",
+      "actor": "a65bc3f407cd83dd8b26db19",
       "character": {
         "name": "Bruce Banner / Hulk",
-        "imageUrl": "the_avengers_age_of_ultron_bruce_banner.webp"
+        "image": "the_avengers_age_of_ultron_bruce_banner.webp"
       }
     },
     {
-      "actorId": "b3356695e90767defc7c4421",
+      "actor": "b3356695e90767defc7c4421",
       "character": {
         "name": "Steve Rogers / Captain America",
-        "imageUrl": "the_avengers_age_of_ultron_steve_rogers.webp"
+        "image": "the_avengers_age_of_ultron_steve_rogers.webp"
       }
     },
     {
-      "actorId": "64286f842f66cb88506271cc",
+      "actor": "64286f842f66cb88506271cc",
       "character": {
         "name": "Natasha Romanoff / Black Widow"
       }
     },
     {
-      "actorId": "333fe7873ab5451125a195a7",
+      "actor": "333fe7873ab5451125a195a7",
       "character": {
         "name": "Clint Barton / Hawkeye"
       }
     },
     {
-      "actorId": "3cbb04a002f2bdc8c9f38be2",
+      "actor": "3cbb04a002f2bdc8c9f38be2",
       "character": {
         "name": "Ultron",
-        "imageUrl": "the_avengers_age_of_ultron_ultron.webp"
+        "image": "the_avengers_age_of_ultron_ultron.webp"
       }
     },
     {
-      "actorId": "b066e50c67b8ffebd4ea16ba",
+      "actor": "b066e50c67b8ffebd4ea16ba",
       "character": {
         "name": "Nick Fury"
       }
     },
     {
-      "actorId": "84a7fc06c915c5463cc7ce32",
+      "actor": "84a7fc06c915c5463cc7ce32",
       "character": {
         "name": "James Rhodes"
       }
     },
     {
-      "actorId": "0435ad2e1b76988a2b5a6421",
+      "actor": "0435ad2e1b76988a2b5a6421",
       "character": {
         "name": "Pietro Maximoff"
       }
     },
     {
-      "actorId": "f6de6e5bd473d73c2055ef99",
+      "actor": "f6de6e5bd473d73c2055ef99",
       "character": {
         "name": "Wanda Maximoff / Scarlett Witch"
       }
     },
     {
-      "actorId": "c20e24b955b094888df0ac50",
+      "actor": "c20e24b955b094888df0ac50",
       "character": {
         "name": "Jarvis / Vision",
-        "imageUrl": "the_avengers_age_of_ultron_jarvis.webp"
+        "image": "the_avengers_age_of_ultron_jarvis.webp"
       }
     },
     {
-      "actorId": "4b4f5bcff305c49b3fd3e179",
+      "actor": "4b4f5bcff305c49b3fd3e179",
       "character": {
         "name": "Maria Hill"
       }
     },
     {
-      "actorId": "b59e04d8cace91ce7b37a878",
+      "actor": "b59e04d8cace91ce7b37a878",
       "character": {
         "name": "Sam Wilson"
       }
     },
     {
-      "actorId": "94514db34be89be1d1e79dea",
+      "actor": "94514db34be89be1d1e79dea",
       "character": {
         "name": "Peggy Carter"
       }
     },
     {
-      "actorId": "ae8fde81451592bb39107acc",
+      "actor": "ae8fde81451592bb39107acc",
       "character": {
         "name": "Heimdall"
       }

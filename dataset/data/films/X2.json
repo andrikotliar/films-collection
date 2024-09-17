@@ -65,75 +65,75 @@
   "duration": 133,
   "cast": [
     {
-      "actorId": "a1b52bbc28ac6c198e877b39",
+      "actor": "a1b52bbc28ac6c198e877b39",
       "character": {
         "name": "Professor Charles Xavier"
       }
     },
     {
-      "actorId": "544abb6ffddc8ddf4056b862",
+      "actor": "544abb6ffddc8ddf4056b862",
       "character": {
         "name": "Logan / Wolverine"
       }
     },
     {
-      "actorId": "aa9b2474d8c4c51e34160de8",
+      "actor": "aa9b2474d8c4c51e34160de8",
       "character": {
         "name": "Eric Lehnsherr / Magneto"
       }
     },
     {
-      "actorId": "bb3c268d0e1fceec2b8b8d58",
+      "actor": "bb3c268d0e1fceec2b8b8d58",
       "character": {
         "name": "Ororo Munroe / Storm"
       }
     },
     {
-      "actorId": "d5fc3f286280bd87817fbca7",
+      "actor": "d5fc3f286280bd87817fbca7",
       "character": {
         "name": "Jean Grey"
       }
     },
     {
-      "actorId": "525beb4c90894e34b294cef6",
+      "actor": "525beb4c90894e34b294cef6",
       "character": {
         "name": "Scott Summers / Cyclops"
       }
     },
     {
-      "actorId": "b3406982f9ef021d2d13e050",
+      "actor": "b3406982f9ef021d2d13e050",
       "character": {
         "name": "Rogue"
       }
     },
     {
-      "actorId": "d3d49fa0c570c7084aace0d7",
+      "actor": "d3d49fa0c570c7084aace0d7",
       "character": {
         "name": "Raven Darkholme / Mystique",
-        "imageUrl": "x2_mystique.webp"
+        "image": "x2_mystique.webp"
       }
     },
     {
-      "actorId": "6dd09effc1e0efff7f5bce67",
+      "actor": "6dd09effc1e0efff7f5bce67",
       "character": {
         "name": "William Stryker"
       }
     },
     {
-      "actorId": "f04283af69e0fa7ac78ac144",
+      "actor": "f04283af69e0fa7ac78ac144",
       "character": {
         "name": "Kurt Wagner / Nightcrawler",
-        "imageUrl": "x2_kurt_wagner.webp"
+        "image": "x2_kurt_wagner.webp"
       }
     },
     {
-      "actorId": "9e2681878ec550ab367669b9",
+      "actor": "9e2681878ec550ab367669b9",
       "character": {
         "name": "John Allerdyce / Pyro"
       }
     },
     {
-      "actorId": "f2089daf6d891ecc5cc339b5",
+      "actor": "f2089daf6d891ecc5cc339b5",
       "character": {
         "name": "Bobby Drake / Ice Man"
       }
@@ -159,7 +159,7 @@
       "nominations": [
         {
           "title": "Breakthrough Male Performance",
-          "actorId": "f2089daf6d891ecc5cc339b5"
+          "actor": "f2089daf6d891ecc5cc339b5"
         }
       ]
     }

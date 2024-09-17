@@ -72,31 +72,31 @@
   "duration": 152,
   "cast": [
     {
-      "actorId": "1e69164177ea3946ddbd349e",
+      "actor": "1e69164177ea3946ddbd349e",
       "character": {
         "name": "Carroll Shelby"
       }
     },
     {
-      "actorId": "b794f150c4436f17ba9bd9f1",
+      "actor": "b794f150c4436f17ba9bd9f1",
       "character": {
         "name": "Ken Miles"
       }
     },
     {
-      "actorId": "4721d15c1bb7efad191e90e4",
+      "actor": "4721d15c1bb7efad191e90e4",
       "character": {
         "name": "Mollie Miles"
       }
     },
     {
-      "actorId": "08f4518a7166226e5800cc1d",
+      "actor": "08f4518a7166226e5800cc1d",
       "character": {
         "name": "Peter Miles"
       }
     },
     {
-      "actorId": "d3bbe9abc5ec09c77b09f725",
+      "actor": "d3bbe9abc5ec09c77b09f725",
       "character": {
         "name": "Henry Ford II"
       }

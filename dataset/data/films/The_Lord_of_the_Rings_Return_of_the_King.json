@@ -72,92 +72,92 @@
   "duration": 201,
   "cast": [
     {
-      "actorId": "afed96df0db76b317cb36711",
+      "actor": "afed96df0db76b317cb36711",
       "character": {
         "name": "Frodo Baggins"
       }
     },
     {
-      "actorId": "aa9b2474d8c4c51e34160de8",
+      "actor": "aa9b2474d8c4c51e34160de8",
       "character": {
         "name": "Gandalf"
       }
     },
     {
-      "actorId": "93637b8d05eb8514a37ff349",
+      "actor": "93637b8d05eb8514a37ff349",
       "character": {
         "name": "Samwise Gamgee"
       }
     },
     {
-      "actorId": "e1ff919254c44052867479fb",
+      "actor": "e1ff919254c44052867479fb",
       "character": {
         "name": "Aragorn"
       }
     },
     {
-      "actorId": "2555ed16eef45d9015e8aa02",
+      "actor": "2555ed16eef45d9015e8aa02",
       "character": {
         "name": "Gimli"
       }
     },
     {
-      "actorId": "450fa3d27820892d0f5afa0c",
+      "actor": "450fa3d27820892d0f5afa0c",
       "character": {
         "name": "Legolas"
       }
     },
     {
-      "actorId": "7a354da5768fef2be29583f0",
+      "actor": "7a354da5768fef2be29583f0",
       "character": {
         "name": "Galadriel"
       }
     },
     {
-      "actorId": "9d72ccad0a0c60872b91d2d3",
+      "actor": "9d72ccad0a0c60872b91d2d3",
       "character": {
         "name": "Elrond"
       }
     },
     {
-      "actorId": "e5253cdc8c1fb87953720d64",
+      "actor": "e5253cdc8c1fb87953720d64",
       "character": {
         "name": "Gollum",
-        "imageUrl": "the_lord_of_the_rings_return_of_the_king_gollum"
+        "image": "the_lord_of_the_rings_return_of_the_king_gollum"
       }
     },
     {
-      "actorId": "20efa4c64021c69982d7f5fd",
+      "actor": "20efa4c64021c69982d7f5fd",
       "character": {
         "name": "Denethor"
       }
     },
     {
-      "actorId": "ce9f35f697acd8a8d4ac4242",
+      "actor": "ce9f35f697acd8a8d4ac4242",
       "character": {
         "name": "Pippin"
       }
     },
     {
-      "actorId": "d981869f14315c851cdcb1dd",
+      "actor": "d981869f14315c851cdcb1dd",
       "character": {
         "name": "Merry"
       }
     },
     {
-      "actorId": "9054c0064f19a48344d6d874",
+      "actor": "9054c0064f19a48344d6d874",
       "character": {
         "name": "Theoden"
       }
     },
     {
-      "actorId": "efc61c81c4fdcdbf339820e8",
+      "actor": "efc61c81c4fdcdbf339820e8",
       "character": {
         "name": "Arwen"
       }
     },
     {
-      "actorId": "1e6f63ac26841c5c35756f43",
+      "actor": "1e6f63ac26841c5c35756f43",
       "character": {
         "name": "Eowyn"
       }
@@ -257,11 +257,11 @@
         },
         {
           "title": "Best Actor",
-          "actorId": "afed96df0db76b317cb36711"
+          "actor": "afed96df0db76b317cb36711"
         },
         {
           "title": "Best Supporting Actor",
-          "actorId": "93637b8d05eb8514a37ff349"
+          "actor": "93637b8d05eb8514a37ff349"
         },
         {
           "title": "Best Director"

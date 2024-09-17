@@ -62,28 +62,28 @@
   "duration": 97,
   "cast": [
     {
-      "actorId": "d5264ffaad866e0421f05d92",
+      "actor": "d5264ffaad866e0421f05d92",
       "character": {
         "name": "WALL-E / M-O / AUTO",
-        "imageUrl": "wall_e_wall-e.webp"
+        "image": "wall_e_wall-e.webp"
       }
     },
     {
-      "actorId": "09bcd60575e3711555b6debd",
+      "actor": "09bcd60575e3711555b6debd",
       "character": {
         "name": "EVE",
-        "imageUrl": "wall_e_eve.webp"
+        "image": "wall_e_eve.webp"
       }
     },
     {
-      "actorId": "d717be436621af2098bc9200",
+      "actor": "d717be436621af2098bc9200",
       "character": {
         "name": "Captain",
-        "imageUrl": "wall_e_captain.webp"
+        "image": "wall_e_captain.webp"
       }
     },
     {
-      "actorId": "6597b9990c3f3bc299801972",
+      "actor": "6597b9990c3f3bc299801972",
       "character": {
         "name": "Shelby Forthright"
       }

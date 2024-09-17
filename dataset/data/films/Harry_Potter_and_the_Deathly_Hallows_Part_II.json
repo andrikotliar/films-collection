@@ -63,59 +63,59 @@
   "duration": 130,
   "cast": [
     {
-      "actorId": "7cd730dd761c711d4467bce0",
+      "actor": "7cd730dd761c711d4467bce0",
       "character": {
         "name": "Harry Potter",
-        "imageUrl": "harry_potter_and_the_deathly_hallows_part_ii_harry_potter.webp"
+        "image": "harry_potter_and_the_deathly_hallows_part_ii_harry_potter.webp"
       }
     },
     {
-      "actorId": "076188ec6b66a2c4a62fdab1",
+      "actor": "076188ec6b66a2c4a62fdab1",
       "character": {
         "name": "Ron Weasley",
-        "imageUrl": "harry_potter_and_the_deathly_hallows_part_ii_ron_weasley.webp"
+        "image": "harry_potter_and_the_deathly_hallows_part_ii_ron_weasley.webp"
       }
     },
     {
-      "actorId": "3f0004fa95271000de67d1f4",
+      "actor": "3f0004fa95271000de67d1f4",
       "character": {
         "name": "Hermione Granger",
-        "imageUrl": "harry_potter_and_the_deathly_hallows_part_ii_hermione_granger.webp"
+        "image": "harry_potter_and_the_deathly_hallows_part_ii_hermione_granger.webp"
       }
     },
     {
-      "actorId": "25210612f77f5f5a4c51dc56",
+      "actor": "25210612f77f5f5a4c51dc56",
       "character": {
         "name": "Lord Voldemort",
-        "imageUrl": "harry_potter_and_the_deathly_hallows_part_ii_lord_voldemort.webp"
+        "image": "harry_potter_and_the_deathly_hallows_part_ii_lord_voldemort.webp"
       }
     },
     {
-      "actorId": "aca6f583677ffb4c7f38d469",
+      "actor": "aca6f583677ffb4c7f38d469",
       "character": {
         "name": "Draco Malfoy"
       }
     },
     {
-      "actorId": "9433a6747c6cfc354fed7e65",
+      "actor": "9433a6747c6cfc354fed7e65",
       "character": {
         "name": "Severus Snape"
       }
     },
     {
-      "actorId": "7c8f0b1de7ecf27f246a8ef9",
+      "actor": "7c8f0b1de7ecf27f246a8ef9",
       "character": {
         "name": "Professor Minerva McGonagall"
       }
     },
     {
-      "actorId": "c48140776a00c66306d075b6",
+      "actor": "c48140776a00c66306d075b6",
       "character": {
         "name": "Neville Longbottom"
       }
     },
     {
-      "actorId": "5aea15b4e9912ad7b3a2241e",
+      "actor": "5aea15b4e9912ad7b3a2241e",
       "character": {
         "name": "Rubeus Hagrid"
       }

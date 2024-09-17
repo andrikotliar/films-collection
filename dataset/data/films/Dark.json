@@ -97,151 +97,151 @@
   "duration": 1560,
   "cast": [
     {
-      "actorId": "a3f2c6bac605786f9f56d15a",
+      "actor": "a3f2c6bac605786f9f56d15a",
       "character": {
         "name": "Jonas Kahnwald"
       }
     },
     {
-      "actorId": "11f56bea41f57d61ed145b2e",
+      "actor": "11f56bea41f57d61ed145b2e",
       "character": {
         "name": "Charlotte Doppler"
       }
     },
     {
-      "actorId": "7bbf6feffb45a33b6b2bf7d5",
+      "actor": "7bbf6feffb45a33b6b2bf7d5",
       "character": {
         "name": "Martha Nielsen"
       }
     },
     {
-      "actorId": "c4ac0f62af901e2cee1c369c",
+      "actor": "c4ac0f62af901e2cee1c369c",
       "character": {
         "name": "Hannah Kahnwald"
       }
     },
     {
-      "actorId": "7d4a82bcad5626743c369438",
+      "actor": "7d4a82bcad5626743c369438",
       "character": {
         "name": "Peter Doppler"
       }
     },
     {
-      "actorId": "1e6a4f8cea3b72ef13f874fc",
+      "actor": "1e6a4f8cea3b72ef13f874fc",
       "character": {
         "name": "Katharina Nielsen"
       }
     },
     {
-      "actorId": "e5df211ac90288be619590c7",
+      "actor": "e5df211ac90288be619590c7",
       "character": {
         "name": "The Stranger"
       }
     },
     {
-      "actorId": "6f08cebab902c79481d9745d",
+      "actor": "6f08cebab902c79481d9745d",
       "character": {
         "name": "Bartosz Tiedemann"
       }
     },
     {
-      "actorId": "f1ef76c24854f9573746d5da",
+      "actor": "f1ef76c24854f9573746d5da",
       "character": {
         "name": "Magnus Nielsen"
       }
     },
     {
-      "actorId": "e86ed2bb1b185d63c11131f9",
+      "actor": "e86ed2bb1b185d63c11131f9",
       "character": {
         "name": "Magnus Nielsen"
       }
     },
     {
-      "actorId": "7fb734015d4a57f167a36e12",
+      "actor": "7fb734015d4a57f167a36e12",
       "character": {
         "name": "Ulrich Nielsen"
       }
     },
     {
-      "actorId": "3e0e70ea5ced5aca29378acd",
+      "actor": "3e0e70ea5ced5aca29378acd",
       "character": {
         "name": "Aleksander Tiedemann"
       }
     },
     {
-      "actorId": "9e5fc8f89185aa6620e8879f",
+      "actor": "9e5fc8f89185aa6620e8879f",
       "character": {
         "name": "Franziska Doppler"
       }
     },
     {
-      "actorId": "4472200611dff9c9a317c23a",
+      "actor": "4472200611dff9c9a317c23a",
       "character": {
         "name": "Regina Tiedemann"
       }
     },
     {
-      "actorId": "627c7484f3578be0dec889e3",
+      "actor": "627c7484f3578be0dec889e3",
       "character": {
         "name": "Claudia Tiedemann (1987)"
       }
     },
     {
-      "actorId": "b4a68b730aa25ac0f234a824",
+      "actor": "b4a68b730aa25ac0f234a824",
       "character": {
         "name": "Elisabeth Doppler"
       }
     },
     {
-      "actorId": "172d6dc58d8c3ab75d714350",
+      "actor": "172d6dc58d8c3ab75d714350",
       "character": {
         "name": "Adam"
       }
     },
     {
-      "actorId": "0f0d55197b6457aa5418133f",
+      "actor": "0f0d55197b6457aa5418133f",
       "character": {
         "name": "Noah"
       }
     },
     {
-      "actorId": "97733df96af7370787d645c3",
+      "actor": "97733df96af7370787d645c3",
       "character": {
         "name": "Helge Doppler"
       }
     },
     {
-      "actorId": "b47450c175e8f5f576c65246",
+      "actor": "b47450c175e8f5f576c65246",
       "character": {
         "name": "Claudia Tiedemann"
       }
     },
     {
-      "actorId": "4bfeaf2aa2b092e20709e6e9",
+      "actor": "4bfeaf2aa2b092e20709e6e9",
       "character": {
         "name": "Ines Kahnwald (1986)"
       }
     },
     {
-      "actorId": "b67b8c18195188e95201a972",
+      "actor": "b67b8c18195188e95201a972",
       "character": {
         "name": "Tronte Nielsen"
       }
     },
     {
-      "actorId": "9d5c2f131aa5661a241a1fb4",
+      "actor": "9d5c2f131aa5661a241a1fb4",
       "character": {
         "name": "Regina Tiedemann (1986)"
       }
     },
     {
-      "actorId": "ada00c1392bd5c4ea2b51401",
+      "actor": "ada00c1392bd5c4ea2b51401",
       "character": {
         "name": "Helge Doppler (1953)"
       }
     },
     {
-      "actorId": "abab75e714e3d74f3281fea5",
+      "actor": "abab75e714e3d74f3281fea5",
       "character": {
         "name": "Young Noah"
       }
@@ -258,7 +258,7 @@
       "nominations": [
         {
           "title": "Best German TV Actor",
-          "actorId": "a3f2c6bac605786f9f56d15a"
+          "actor": "a3f2c6bac605786f9f56d15a"
         }
       ]
     }

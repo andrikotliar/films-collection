@@ -60,59 +60,59 @@
   "duration": 86,
   "cast": [
     {
-      "actorId": "30c03c6976ec24262f37bfc6",
+      "actor": "30c03c6976ec24262f37bfc6",
       "character": {
         "name": "Alex",
-        "imageUrl": "madagascar_alex.webp"
+        "image": "madagascar_alex.webp"
       }
     },
     {
-      "actorId": "ce3b1d5495190d8116dea108",
+      "actor": "ce3b1d5495190d8116dea108",
       "character": {
         "name": "Marty",
-        "imageUrl": "madagascar_marty.webp"
+        "image": "madagascar_marty.webp"
       }
     },
     {
-      "actorId": "a292c106f01b7650bbe0c49f",
+      "actor": "a292c106f01b7650bbe0c49f",
       "character": {
         "name": "Melman",
-        "imageUrl": "madagascar_melman.webp"
+        "image": "madagascar_melman.webp"
       }
     },
     {
-      "actorId": "544db30160fa4bfa12603ee5",
+      "actor": "544db30160fa4bfa12603ee5",
       "character": {
         "name": "Gloria",
-        "imageUrl": "madagascar_gloria.webp"
+        "image": "madagascar_gloria.webp"
       }
     },
     {
-      "actorId": "305954b13aa2aaf70e71c864",
+      "actor": "305954b13aa2aaf70e71c864",
       "character": {
         "name": "Julien",
-        "imageUrl": "madagascar_julien.webp"
+        "image": "madagascar_julien.webp"
       }
     },
     {
-      "actorId": "703b49e5d14fbe3506c1dd6b",
+      "actor": "703b49e5d14fbe3506c1dd6b",
       "character": {
         "name": "Skipper",
-        "imageUrl": "madagascar_skipper.webp"
+        "image": "madagascar_skipper.webp"
       }
     },
     {
-      "actorId": "7b7437d683e231f7f746d770",
+      "actor": "7b7437d683e231f7f746d770",
       "character": {
         "name": "Kowalski",
-        "imageUrl": "madagascar_kowalski.webp"
+        "image": "madagascar_kowalski.webp"
       }
     },
     {
-      "actorId": "6aa1512f81dda6fbd3d8f7ef",
+      "actor": "6aa1512f81dda6fbd3d8f7ef",
       "character": {
         "name": "Maurice",
-        "imageUrl": "madagascar_maurice.webp"
+        "image": "madagascar_maurice.webp"
       }
     }
   ],

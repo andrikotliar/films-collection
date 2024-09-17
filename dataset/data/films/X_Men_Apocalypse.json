@@ -59,79 +59,79 @@
   "duration": 144,
   "cast": [
     {
-      "actorId": "1fbb6ff101ef506a0bf61497",
+      "actor": "1fbb6ff101ef506a0bf61497",
       "character": {
         "name": "Professor Charles Xavier"
       }
     },
     {
-      "actorId": "bec6ffd8479a9c7a4c2f3e56",
+      "actor": "bec6ffd8479a9c7a4c2f3e56",
       "character": {
         "name": "Erik Lehnsherr / Magneto"
       }
     },
     {
-      "actorId": "c99e4f6dc0695561848dc5be",
+      "actor": "c99e4f6dc0695561848dc5be",
       "character": {
         "name": "Raven / Mystique",
-        "imageUrl": "x_men_apocalypse_raven.webp"
+        "image": "x_men_apocalypse_raven.webp"
       }
     },
     {
-      "actorId": "f5742b02c88fb0465409276f",
+      "actor": "f5742b02c88fb0465409276f",
       "character": {
         "name": "Hank McCoy / Beast",
-        "imageUrl": "x_men_apocalypse_hank_mccoy.webp"
+        "image": "x_men_apocalypse_hank_mccoy.webp"
       }
     },
     {
-      "actorId": "8b0c59295bf19f18ccdebced",
+      "actor": "8b0c59295bf19f18ccdebced",
       "character": {
         "name": "En Sabah Nur / Apocalypse",
-        "imageUrl": "x_men_apocalypse_en_sabah_nur.webp"
+        "image": "x_men_apocalypse_en_sabah_nur.webp"
       }
     },
     {
-      "actorId": "4672780c056f845c33a4110e",
+      "actor": "4672780c056f845c33a4110e",
       "character": {
         "name": "Moira Mactaggert"
       }
     },
     {
-      "actorId": "22c5f4431c465fad5fb3b185",
+      "actor": "22c5f4431c465fad5fb3b185",
       "character": {
         "name": "Peter Maximoff / Quicksilver"
       }
     },
     {
-      "actorId": "30c4d313530be2273fedd1dc",
+      "actor": "30c4d313530be2273fedd1dc",
       "character": {
         "name": "Col. William Stryker"
       }
     },
     {
-      "actorId": "feba8bc96afaa9b4bd63c2b5",
+      "actor": "feba8bc96afaa9b4bd63c2b5",
       "character": {
         "name": "Jean Grey"
       }
     },
     {
-      "actorId": "7fffb2c64199b3d7572f0b3c",
+      "actor": "7fffb2c64199b3d7572f0b3c",
       "character": {
         "name": "Scott Summers / Cyclops"
       }
     },
     {
-      "actorId": "6b14965495f175568fb12f8f",
+      "actor": "6b14965495f175568fb12f8f",
       "character": {
         "name": "Alex Summers / Havok"
       }
     },
     {
-      "actorId": "e7e7790e754b6bc047afa3ad",
+      "actor": "e7e7790e754b6bc047afa3ad",
       "character": {
         "name": "Kurt Wagner / Nightcrawler",
-        "imageUrl": "x_men_apocalypse_kurt_wagner.webp"
+        "image": "x_men_apocalypse_kurt_wagner.webp"
       }
     }
   ],

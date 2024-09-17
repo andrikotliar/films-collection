@@ -65,46 +65,46 @@
   "duration": 118,
   "cast": [
     {
-      "actorId": "5d474df7bc79a3784ee0df3a",
+      "actor": "5d474df7bc79a3784ee0df3a",
       "character": {
         "name": "Scott Lang / Ant-Man",
-        "imageUrl": "ant_man_and_the_wasp_scott_lang.webp"
+        "image": "ant_man_and_the_wasp_scott_lang.webp"
       }
     },
     {
-      "actorId": "cbea23272f6d430dd37d2296",
+      "actor": "cbea23272f6d430dd37d2296",
       "character": {
         "name": "Hope Van Dyne / New Wasp",
-        "imageUrl": "ant_man_and_the_wasp_hope_van_dyne.webp"
+        "image": "ant_man_and_the_wasp_hope_van_dyne.webp"
       }
     },
     {
-      "actorId": "5e3bafc74ed0a30df02c53af",
+      "actor": "5e3bafc74ed0a30df02c53af",
       "character": {
         "name": "Luis"
       }
     },
     {
-      "actorId": "ceed7f04919d7706e670c146",
+      "actor": "ceed7f04919d7706e670c146",
       "character": {
         "name": "Ava / Ghost",
-        "imageUrl": "ant_man_and_the_wasp_ava.webp"
+        "image": "ant_man_and_the_wasp_ava.webp"
       }
     },
     {
-      "actorId": "4771750eb3cf3c71190e7c37",
+      "actor": "4771750eb3cf3c71190e7c37",
       "character": {
         "name": "Janet Van Dyne / First Wasp"
       }
     },
     {
-      "actorId": "598ea6d5be8fe378787adde7",
+      "actor": "598ea6d5be8fe378787adde7",
       "character": {
         "name": "Dr. Bill Foster"
       }
     },
     {
-      "actorId": "b2ea2428b1a880a37e8855f5",
+      "actor": "b2ea2428b1a880a37e8855f5",
       "character": {
         "name": "Dr. Hank Pym"
       }

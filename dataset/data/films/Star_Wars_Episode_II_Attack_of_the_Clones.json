@@ -59,66 +59,66 @@
   "duration": 142,
   "cast": [
     {
-      "actorId": "d2746b12dd70b60c36a7edf0",
+      "actor": "d2746b12dd70b60c36a7edf0",
       "character": {
         "name": "Obi-Wan Kenobi"
       }
     },
     {
-      "actorId": "b3703e901df3a8c85c2f0949",
+      "actor": "b3703e901df3a8c85c2f0949",
       "character": {
         "name": "Padme"
       }
     },
     {
-      "actorId": "3320cd971079d393a451ce95",
+      "actor": "3320cd971079d393a451ce95",
       "character": {
         "name": "Anakin Skywalker"
       }
     },
     {
-      "actorId": "2a43e11179268a30eac292b2",
+      "actor": "2a43e11179268a30eac292b2",
       "character": {
         "name": "Count Dooku"
       }
     },
     {
-      "actorId": "b066e50c67b8ffebd4ea16ba",
+      "actor": "b066e50c67b8ffebd4ea16ba",
       "character": {
         "name": "Mace Windu"
       }
     },
     {
-      "actorId": "6fa14a3731b9660353c41487",
+      "actor": "6fa14a3731b9660353c41487",
       "character": {
         "name": "Yoda",
-        "imageUrl": "star_wars_episode_ii_attack_of_the_clones_yoda.webp"
+        "image": "star_wars_episode_ii_attack_of_the_clones_yoda.webp"
       }
     },
     {
-      "actorId": "6f8deae8b3c545936d5a285e",
+      "actor": "6f8deae8b3c545936d5a285e",
       "character": {
         "name": "Palpatine"
       }
     },
     {
-      "actorId": "36eb3476e54ce4b3ec95c273",
+      "actor": "36eb3476e54ce4b3ec95c273",
       "character": {
         "name": "Jango Fett",
-        "imageUrl": "star_wars_episode_ii_attack_of_the_clones_jango_fett.webp"
+        "image": "star_wars_episode_ii_attack_of_the_clones_jango_fett.webp"
       }
     },
     {
-      "actorId": "1a1c9f99f576101bb3f0d63f",
+      "actor": "1a1c9f99f576101bb3f0d63f",
       "character": {
         "name": "Bail Organa"
       }
     },
     {
-      "actorId": "8495e822d070b57837e0bf6e",
+      "actor": "8495e822d070b57837e0bf6e",
       "character": {
         "name": "C-3PO",
-        "imageUrl": "star_wars_episode_ii_attack_of_the_clones_c-3po.webp"
+        "image": "star_wars_episode_ii_attack_of_the_clones_c-3po.webp"
       }
     }
   ],

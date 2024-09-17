@@ -68,56 +68,56 @@
   "duration": 132,
   "cast": [
     {
-      "actorId": "1fbb6ff101ef506a0bf61497",
+      "actor": "1fbb6ff101ef506a0bf61497",
       "character": {
         "name": "Charles Xavier"
       }
     },
     {
-      "actorId": "bec6ffd8479a9c7a4c2f3e56",
+      "actor": "bec6ffd8479a9c7a4c2f3e56",
       "character": {
         "name": "Erik Lensherr"
       }
     },
     {
-      "actorId": "0912796b1b5a9ce13d2c7a58",
+      "actor": "0912796b1b5a9ce13d2c7a58",
       "character": {
         "name": "Sebastian Shaw"
       }
     },
     {
-      "actorId": "4672780c056f845c33a4110e",
+      "actor": "4672780c056f845c33a4110e",
       "character": {
         "name": "Moira MacTaggert"
       }
     },
     {
-      "actorId": "c99e4f6dc0695561848dc5be",
+      "actor": "c99e4f6dc0695561848dc5be",
       "character": {
         "name": "Raven / Mystique",
-        "imageUrl": "x_men_first_class_raven.webp"
+        "image": "x_men_first_class_raven.webp"
       }
     },
     {
-      "actorId": "89fb95b302ae17c8b6749be1",
+      "actor": "89fb95b302ae17c8b6749be1",
       "character": {
         "name": "Emma Frost"
       }
     },
     {
-      "actorId": "f5742b02c88fb0465409276f",
+      "actor": "f5742b02c88fb0465409276f",
       "character": {
         "name": "Hank / Beast"
       }
     },
     {
-      "actorId": "555ccb293f45295069ba5e62",
+      "actor": "555ccb293f45295069ba5e62",
       "character": {
         "name": "Cassidy / Banshee"
       }
     },
     {
-      "actorId": "6b14965495f175568fb12f8f",
+      "actor": "6b14965495f175568fb12f8f",
       "character": {
         "name": "Alex Summers / Havok"
       }

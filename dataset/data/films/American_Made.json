@@ -67,49 +67,49 @@
   "duration": 115,
   "cast": [
     {
-      "actorId": "d1899eef1c53bc13798a897c",
+      "actor": "d1899eef1c53bc13798a897c",
       "character": {
         "name": "Barry Seal"
       }
     },
     {
-      "actorId": "ed556b2fb295cedc56c45779",
+      "actor": "ed556b2fb295cedc56c45779",
       "character": {
         "name": "Monty 'Schafer'"
       }
     },
     {
-      "actorId": "6ad5d4c15f55fba9c91c0058",
+      "actor": "6ad5d4c15f55fba9c91c0058",
       "character": {
         "name": "Lucy Seal"
       }
     },
     {
-      "actorId": "ef95c275705a492e63fc165b",
+      "actor": "ef95c275705a492e63fc165b",
       "character": {
         "name": "Sheriff Downing"
       }
     },
     {
-      "actorId": "555ccb293f45295069ba5e62",
+      "actor": "555ccb293f45295069ba5e62",
       "character": {
         "name": "JB"
       }
     },
     {
-      "actorId": "1cb12b05d9bf44d1131370d2",
+      "actor": "1cb12b05d9bf44d1131370d2",
       "character": {
         "name": "George W. Bush"
       }
     },
     {
-      "actorId": "5b9102867a9e1b60a93b7c83",
+      "actor": "5b9102867a9e1b60a93b7c83",
       "character": {
         "name": "Pablo Escobar"
       }
     },
     {
-      "actorId": "6a14af64fdb99d481493d393",
+      "actor": "6a14af64fdb99d481493d393",
       "character": {
         "name": "Jorge Ochoa"
       }

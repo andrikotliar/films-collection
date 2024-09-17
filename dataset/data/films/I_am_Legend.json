@@ -67,31 +67,31 @@
   "duration": 101,
   "cast": [
     {
-      "actorId": "b59613245389fb066c309182",
+      "actor": "b59613245389fb066c309182",
       "character": {
         "name": "Robert Neville"
       }
     },
     {
-      "actorId": "226d790f00f2af72460c1cea",
+      "actor": "226d790f00f2af72460c1cea",
       "character": {
         "name": "Anna"
       }
     },
     {
-      "actorId": "282d5061728e5eccfc2607a6",
+      "actor": "282d5061728e5eccfc2607a6",
       "character": {
         "name": "Ethan"
       }
     },
     {
-      "actorId": "f58f37e70b380b952a04098d",
+      "actor": "f58f37e70b380b952a04098d",
       "character": {
         "name": "Zoe Neville"
       }
     },
     {
-      "actorId": "9733da64d3cbf7c37f9c843f",
+      "actor": "9733da64d3cbf7c37f9c843f",
       "character": {
         "name": "Marley Neville"
       }
@@ -109,7 +109,7 @@
       "nominations": [
         {
           "title": "Best Actor",
-          "actorId": "b59613245389fb066c309182"
+          "actor": "b59613245389fb066c309182"
         }
       ]
     },
@@ -118,7 +118,7 @@
       "nominations": [
         {
           "title": "Best Male Performance",
-          "actorId": "b59613245389fb066c309182"
+          "actor": "b59613245389fb066c309182"
         }
       ]
     }

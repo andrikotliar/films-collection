@@ -62,25 +62,25 @@
   "duration": 104,
   "cast": [
     {
-      "actorId": "de0e3c154d6e85358e70d67b",
+      "actor": "de0e3c154d6e85358e70d67b",
       "character": {
         "name": "Frank Martin"
       }
     },
     {
-      "actorId": "a0efd9e4f6b445956f3fcb0b",
+      "actor": "a0efd9e4f6b445956f3fcb0b",
       "character": {
         "name": "Valentina"
       }
     },
     {
-      "actorId": "27701bc9dbcd310c14d85191",
+      "actor": "27701bc9dbcd310c14d85191",
       "character": {
         "name": "Tarconi"
       }
     },
     {
-      "actorId": "7d7d94e8c1e76c82029ff5a1",
+      "actor": "7d7d94e8c1e76c82029ff5a1",
       "character": {
         "name": "Johnson"
       }

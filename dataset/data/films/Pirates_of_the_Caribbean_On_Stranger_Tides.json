@@ -59,44 +59,44 @@
   "duration": 137,
   "cast": [
     {
-      "actorId": "22f4885dc5c22c8371ad2a3a",
+      "actor": "22f4885dc5c22c8371ad2a3a",
       "character": {
         "name": "Captain Jack Sparrow",
-        "imageUrl": "pirates_of_the_caribbean_on_stranger_tides_captain_jack_sparrow.webp"
+        "image": "pirates_of_the_caribbean_on_stranger_tides_captain_jack_sparrow.webp"
       }
     },
     {
-      "actorId": "b57c32d70ccd95563e06ca17",
+      "actor": "b57c32d70ccd95563e06ca17",
       "character": {
         "name": "Angelica"
       }
     },
     {
-      "actorId": "506875a86231e077557d5523",
+      "actor": "506875a86231e077557d5523",
       "character": {
         "name": "Barbossa"
       }
     },
     {
-      "actorId": "07fd6405b794906aa17de68f",
+      "actor": "07fd6405b794906aa17de68f",
       "character": {
         "name": "Blackbeard"
       }
     },
     {
-      "actorId": "46462378084ebd7c5ef47614",
+      "actor": "46462378084ebd7c5ef47614",
       "character": {
         "name": "Gibbs"
       }
     },
     {
-      "actorId": "4cb3684475937f86644a6ce9",
+      "actor": "4cb3684475937f86644a6ce9",
       "character": {
         "name": "Philip"
       }
     },
     {
-      "actorId": "e0fb3334576cbc6b93d22830",
+      "actor": "e0fb3334576cbc6b93d22830",
       "character": {
         "name": "Syrena"
       }

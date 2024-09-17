@@ -67,49 +67,49 @@
   "duration": 395,
   "cast": [
     {
-      "actorId": "651784ae83f6d35d892d41ba",
+      "actor": "651784ae83f6d35d892d41ba",
       "character": {
         "name": "Beth Harmon"
       }
     },
     {
-      "actorId": "34ea02395e75fc50c2d5daf1",
+      "actor": "34ea02395e75fc50c2d5daf1",
       "character": {
         "name": "Mr. Shaibel"
       }
     },
     {
-      "actorId": "7d2580bf0aefa3579619e188",
+      "actor": "7d2580bf0aefa3579619e188",
       "character": {
         "name": "Vasily Borgov"
       }
     },
     {
-      "actorId": "6614b1681ccaaeb8392bb6f1",
+      "actor": "6614b1681ccaaeb8392bb6f1",
       "character": {
         "name": "Alma Wheatley"
       }
     },
     {
-      "actorId": "4ee52e26623792a1c498ac41",
+      "actor": "4ee52e26623792a1c498ac41",
       "character": {
         "name": "Benny Watts"
       }
     },
     {
-      "actorId": "aab9a7cc78460f54f54315af",
+      "actor": "aab9a7cc78460f54f54315af",
       "character": {
         "name": "Jolene"
       }
     },
     {
-      "actorId": "de29e31f27895b539dc44ec3",
+      "actor": "de29e31f27895b539dc44ec3",
       "character": {
         "name": "Harry Beltik"
       }
     },
     {
-      "actorId": "0374d3e1ea0c4b46638c08e0",
+      "actor": "0374d3e1ea0c4b46638c08e0",
       "character": {
         "name": "Young Beth Harmon"
       }
@@ -129,7 +129,7 @@
         },
         {
           "title": "Best Performance by an Actress in a Limited Series, Anthology Series or a Motion Picture Made for Television",
-          "actorId": "651784ae83f6d35d892d41ba"
+          "actor": "651784ae83f6d35d892d41ba"
         }
       ]
     },
@@ -141,7 +141,7 @@
         },
         {
           "title": "Best Actress in a Limited Series or a Movie Made for Television",
-          "actorId": "651784ae83f6d35d892d41ba"
+          "actor": "651784ae83f6d35d892d41ba"
         }
       ]
     }

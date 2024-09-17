@@ -56,31 +56,31 @@
   "duration": 140,
   "cast": [
     {
-      "actorId": "d2746b12dd70b60c36a7edf0",
+      "actor": "d2746b12dd70b60c36a7edf0",
       "character": {
         "name": "Obi-Wan Kenobi"
       }
     },
     {
-      "actorId": "b3703e901df3a8c85c2f0949",
+      "actor": "b3703e901df3a8c85c2f0949",
       "character": {
         "name": "Padme"
       }
     },
     {
-      "actorId": "3320cd971079d393a451ce95",
+      "actor": "3320cd971079d393a451ce95",
       "character": {
         "name": "Anakin Skywalker"
       }
     },
     {
-      "actorId": "b066e50c67b8ffebd4ea16ba",
+      "actor": "b066e50c67b8ffebd4ea16ba",
       "character": {
         "name": "Mace Windu"
       }
     },
     {
-      "actorId": "6f8deae8b3c545936d5a285e",
+      "actor": "6f8deae8b3c545936d5a285e",
       "character": {
         "name": "Palpatine"
       }

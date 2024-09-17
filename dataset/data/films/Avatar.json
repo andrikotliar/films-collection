@@ -60,69 +60,69 @@
   "duration": 162,
   "cast": [
     {
-      "actorId": "ab25ed81fbee90d0a29d7c92",
+      "actor": "ab25ed81fbee90d0a29d7c92",
       "character": {
         "name": "Jake Sully",
-        "imageUrl": "avatar_jake_sully.webp"
+        "image": "avatar_jake_sully.webp"
       }
     },
     {
-      "actorId": "0f44c8581608c442261413e4",
+      "actor": "0f44c8581608c442261413e4",
       "character": {
         "name": "Neytiri",
-        "imageUrl": "avatar_neitiri.webp"
+        "image": "avatar_neitiri.webp"
       }
     },
     {
-      "actorId": "ca74e2b4d921daf8283f1f08",
+      "actor": "ca74e2b4d921daf8283f1f08",
       "character": {
         "name": "Grace Augustine",
-        "imageUrl": "avatar_grace_augustine.webp"
+        "image": "avatar_grace_augustine.webp"
       }
     },
     {
-      "actorId": "b0b4e07f3ddc197fc79b6d99",
+      "actor": "b0b4e07f3ddc197fc79b6d99",
       "character": {
         "name": "Miles Quaritch"
       }
     },
     {
-      "actorId": "f19c147b933b4ed2c5574ef6",
+      "actor": "f19c147b933b4ed2c5574ef6",
       "character": {
         "name": "Trudy Chacon"
       }
     },
     {
-      "actorId": "71a9d3757a085d345032d89e",
+      "actor": "71a9d3757a085d345032d89e",
       "character": {
         "name": "Parker Selfridge"
       }
     },
     {
-      "actorId": "cc1bd413915afb8a696bfff3",
+      "actor": "cc1bd413915afb8a696bfff3",
       "character": {
         "name": "Norm Spellman"
       }
     },
     {
-      "actorId": "eb10eabec8f10e75bd00fb81",
+      "actor": "eb10eabec8f10e75bd00fb81",
       "character": {
         "name": "Eytukan",
-        "imageUrl": "avatar_eytukan.webp"
+        "image": "avatar_eytukan.webp"
       }
     },
     {
-      "actorId": "3b762e0e7c6cf942574547b6",
+      "actor": "3b762e0e7c6cf942574547b6",
       "character": {
         "name": "Tsu'tey",
-        "imageUrl": "avatar_tsu_tey.webp"
+        "image": "avatar_tsu_tey.webp"
       }
     },
     {
-      "actorId": "d386a741d1c9e62ed1894b81",
+      "actor": "d386a741d1c9e62ed1894b81",
       "character": {
         "name": "Mo'at",
-        "imageUrl": "avatar_mo_at.webp"
+        "image": "avatar_mo_at.webp"
       }
     }
   ],
@@ -174,19 +174,19 @@
         },
         {
           "title": "Best Actor",
-          "actorId": "ab25ed81fbee90d0a29d7c92"
+          "actor": "ab25ed81fbee90d0a29d7c92"
         },
         {
           "title": "Best Actress",
-          "actorId": "0f44c8581608c442261413e4"
+          "actor": "0f44c8581608c442261413e4"
         },
         {
           "title": "Best Supporting Actor",
-          "actorId": "b0b4e07f3ddc197fc79b6d99"
+          "actor": "b0b4e07f3ddc197fc79b6d99"
         },
         {
           "title": "Best Supporting Actress",
-          "actorId": "ca74e2b4d921daf8283f1f08"
+          "actor": "ca74e2b4d921daf8283f1f08"
         },
         {
           "title": "Best Director"

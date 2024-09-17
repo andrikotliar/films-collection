@@ -69,49 +69,49 @@
   "duration": 145,
   "cast": [
     {
-      "actorId": "6dd8a995cd5e87e690ecc3ac",
+      "actor": "6dd8a995cd5e87e690ecc3ac",
       "character": {
         "name": "Lucy Pevensie"
       }
     },
     {
-      "actorId": "01194dbf406f3663fcba0c6e",
+      "actor": "01194dbf406f3663fcba0c6e",
       "character": {
         "name": "Edmund Pevensie"
       }
     },
     {
-      "actorId": "d47f16dc3be1dad91d3863a9",
+      "actor": "d47f16dc3be1dad91d3863a9",
       "character": {
         "name": "Peter Pevensie"
       }
     },
     {
-      "actorId": "88db173cc499403e6f33e746",
+      "actor": "88db173cc499403e6f33e746",
       "character": {
         "name": "Susan Pevensie"
       }
     },
     {
-      "actorId": "f374f4f88b7457cf966ef58c",
+      "actor": "f374f4f88b7457cf966ef58c",
       "character": {
         "name": "White Witch"
       }
     },
     {
-      "actorId": "1fbb6ff101ef506a0bf61497",
+      "actor": "1fbb6ff101ef506a0bf61497",
       "character": {
         "name": "Mr. Tumnus"
       }
     },
     {
-      "actorId": "1c5eeaeb86ef47e50b94444b",
+      "actor": "1c5eeaeb86ef47e50b94444b",
       "character": {
         "name": "Professor Kirke"
       }
     },
     {
-      "actorId": "017e02072132c3a7ad26b56e",
+      "actor": "017e02072132c3a7ad26b56e",
       "character": {
         "name": "Aslan"
       }

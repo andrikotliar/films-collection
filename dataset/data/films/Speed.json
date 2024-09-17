@@ -56,25 +56,25 @@
   "duration": 116,
   "cast": [
     {
-      "actorId": "064e80da8733b3e3692e9735",
+      "actor": "064e80da8733b3e3692e9735",
       "character": {
         "name": "Jack Traven"
       }
     },
     {
-      "actorId": "5ec57d724ac4f90a7edb2736",
+      "actor": "5ec57d724ac4f90a7edb2736",
       "character": {
         "name": "Howard Payne"
       }
     },
     {
-      "actorId": "d8e06c9280b3a91df4dadb08",
+      "actor": "d8e06c9280b3a91df4dadb08",
       "character": {
         "name": "Annie"
       }
     },
     {
-      "actorId": "0aeb4bc99c646bc834ac62f4",
+      "actor": "0aeb4bc99c646bc834ac62f4",
       "character": {
         "name": "Harry"
       }
@@ -114,7 +114,7 @@
       "nominations": [
         {
           "title": "Best Actress",
-          "actorId": "d8e06c9280b3a91df4dadb08"
+          "actor": "d8e06c9280b3a91df4dadb08"
         }
       ]
     }

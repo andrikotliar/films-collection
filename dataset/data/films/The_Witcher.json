@@ -140,73 +140,73 @@
   "duration": 480,
   "cast": [
     {
-      "actorId": "8b6677adf81a10fa756951ff",
+      "actor": "8b6677adf81a10fa756951ff",
       "character": {
         "name": "Geralt of Rivia"
       }
     },
     {
-      "actorId": "fdeaf41493c2666f0ed79a4c",
+      "actor": "fdeaf41493c2666f0ed79a4c",
       "character": {
         "name": "Ciri"
       }
     },
     {
-      "actorId": "c919f5d268507ab36904ab8d",
+      "actor": "c919f5d268507ab36904ab8d",
       "character": {
         "name": "Yennefer"
       }
     },
     {
-      "actorId": "95ae35f0d5b00353aa57924b",
+      "actor": "95ae35f0d5b00353aa57924b",
       "character": {
         "name": "Tissaia"
       }
     },
     {
-      "actorId": "ba5479f3e4dc93e8175bb922",
+      "actor": "ba5479f3e4dc93e8175bb922",
       "character": {
         "name": "Dara"
       }
     },
     {
-      "actorId": "e694787154dd6705fb8133bd",
+      "actor": "e694787154dd6705fb8133bd",
       "character": {
         "name": "Mousesack"
       }
     },
     {
-      "actorId": "65ea9eae2b66d6cf898eea96",
+      "actor": "65ea9eae2b66d6cf898eea96",
       "character": {
         "name": "Stregobor"
       }
     },
     {
-      "actorId": "8c8f21058355706d1a5fb875",
+      "actor": "8c8f21058355706d1a5fb875",
       "character": {
         "name": "Istredd"
       }
     },
     {
-      "actorId": "91b782dd50e7daac52080396",
+      "actor": "91b782dd50e7daac52080396",
       "character": {
         "name": "Queen Calanthe"
       }
     },
     {
-      "actorId": "27454ee592adde625c6dfaf4",
+      "actor": "27454ee592adde625c6dfaf4",
       "character": {
         "name": "Cahir"
       }
     },
     {
-      "actorId": "379a19913a9eb488c758dd9a",
+      "actor": "379a19913a9eb488c758dd9a",
       "character": {
         "name": "Jaskier"
       }
     },
     {
-      "actorId": "833612b7b70e68df78ece124",
+      "actor": "833612b7b70e68df78ece124",
       "character": {
         "name": "Vilgefortz"
       }

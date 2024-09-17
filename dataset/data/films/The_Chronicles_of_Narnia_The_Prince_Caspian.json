@@ -66,43 +66,43 @@
   "duration": 150,
   "cast": [
     {
-      "actorId": "36e7006646427085dce200e9",
+      "actor": "36e7006646427085dce200e9",
       "character": {
         "name": "Prince Caspian"
       }
     },
     {
-      "actorId": "6dd8a995cd5e87e690ecc3ac",
+      "actor": "6dd8a995cd5e87e690ecc3ac",
       "character": {
         "name": "Lucy Pevensie"
       }
     },
     {
-      "actorId": "01194dbf406f3663fcba0c6e",
+      "actor": "01194dbf406f3663fcba0c6e",
       "character": {
         "name": "Edmund Pevensie"
       }
     },
     {
-      "actorId": "d47f16dc3be1dad91d3863a9",
+      "actor": "d47f16dc3be1dad91d3863a9",
       "character": {
         "name": "Peter Pevensie"
       }
     },
     {
-      "actorId": "88db173cc499403e6f33e746",
+      "actor": "88db173cc499403e6f33e746",
       "character": {
         "name": "Susan Pevensie"
       }
     },
     {
-      "actorId": "bcec561876924781febcb664",
+      "actor": "bcec561876924781febcb664",
       "character": {
         "name": "Miraz"
       }
     },
     {
-      "actorId": "3e6f63e7baf413d7ab9e8d1b",
+      "actor": "3e6f63e7baf413d7ab9e8d1b",
       "character": {
         "name": "Trumpkin"
       }

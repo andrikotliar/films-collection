@@ -69,37 +69,37 @@
   "duration": 116,
   "cast": [
     {
-      "actorId": "8b6677adf81a10fa756951ff",
+      "actor": "8b6677adf81a10fa756951ff",
       "character": {
         "name": "Napoleon Solo"
       }
     },
     {
-      "actorId": "29585958fdc191b1e0a15f18",
+      "actor": "29585958fdc191b1e0a15f18",
       "character": {
         "name": "Illya Kuryakin"
       }
     },
     {
-      "actorId": "ab07a733e698ce2cf88b0eef",
+      "actor": "ab07a733e698ce2cf88b0eef",
       "character": {
         "name": "Gaby"
       }
     },
     {
-      "actorId": "d346e8fbcf12e4d8761b6d8a",
+      "actor": "d346e8fbcf12e4d8761b6d8a",
       "character": {
         "name": "Victoria"
       }
     },
     {
-      "actorId": "8e4359419c358b4949c41b27",
+      "actor": "8e4359419c358b4949c41b27",
       "character": {
         "name": "Alexander"
       }
     },
     {
-      "actorId": "52318943c79c3be8ac26dff4",
+      "actor": "52318943c79c3be8ac26dff4",
       "character": {
         "name": "Waverly"
       }

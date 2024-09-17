@@ -62,43 +62,43 @@
   "duration": 127,
   "cast": [
     {
-      "actorId": "544abb6ffddc8ddf4056b862",
+      "actor": "544abb6ffddc8ddf4056b862",
       "character": {
         "name": "Charlie Kenton"
       }
     },
     {
-      "actorId": "83f7b35e9bbcbd0256126dc5",
+      "actor": "83f7b35e9bbcbd0256126dc5",
       "character": {
         "name": "Max Kenton"
       }
     },
     {
-      "actorId": "cbea23272f6d430dd37d2296",
+      "actor": "cbea23272f6d430dd37d2296",
       "character": {
         "name": "Bailey Tallet"
       }
     },
     {
-      "actorId": "b59e04d8cace91ce7b37a878",
+      "actor": "b59e04d8cace91ce7b37a878",
       "character": {
         "name": "Finn"
       }
     },
     {
-      "actorId": "050608c1a30fde5f0cbc0265",
+      "actor": "050608c1a30fde5f0cbc0265",
       "character": {
         "name": "Ricky"
       }
     },
     {
-      "actorId": "acc601949baf6d00d14233e0",
+      "actor": "acc601949baf6d00d14233e0",
       "character": {
         "name": "Aunt Debra"
       }
     },
     {
-      "actorId": "9efc360a59fe63e805b16ba0",
+      "actor": "9efc360a59fe63e805b16ba0",
       "character": {
         "name": "Marvin"
       }

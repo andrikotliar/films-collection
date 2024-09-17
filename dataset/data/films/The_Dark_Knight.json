@@ -68,51 +68,51 @@
   "duration": 152,
   "cast": [
     {
-      "actorId": "b794f150c4436f17ba9bd9f1",
+      "actor": "b794f150c4436f17ba9bd9f1",
       "character": {
         "name": "Bruce Wayne",
-        "imageUrl": "the_dark_knight_bruce_wayne.webp"
+        "image": "the_dark_knight_bruce_wayne.webp"
       }
     },
     {
-      "actorId": "38819b839dc85832482d016b",
+      "actor": "38819b839dc85832482d016b",
       "character": {
         "name": "Joker",
-        "imageUrl": "the_dark_knight_joker.webp"
+        "image": "the_dark_knight_joker.webp"
       }
     },
     {
-      "actorId": "42c91acbbc2b09bdffe6bf6a",
+      "actor": "42c91acbbc2b09bdffe6bf6a",
       "character": {
         "name": "Harvey Dent"
       }
     },
     {
-      "actorId": "68a6bf55b5f042549fda0642",
+      "actor": "68a6bf55b5f042549fda0642",
       "character": {
         "name": "Alfred"
       }
     },
     {
-      "actorId": "0612a54ce0b08c66512a910e",
+      "actor": "0612a54ce0b08c66512a910e",
       "character": {
         "name": "Rachel"
       }
     },
     {
-      "actorId": "a03a7c1a8a396d3211b9b317",
+      "actor": "a03a7c1a8a396d3211b9b317",
       "character": {
         "name": "Gordon"
       }
     },
     {
-      "actorId": "6baca3c5f3dcf4fb1271cb34",
+      "actor": "6baca3c5f3dcf4fb1271cb34",
       "character": {
         "name": "Lucius Fox"
       }
     },
     {
-      "actorId": "fe1abb15a45afafd3263a771",
+      "actor": "fe1abb15a45afafd3263a771",
       "character": {
         "name": "Scarecrow"
       }
@@ -131,7 +131,7 @@
         {
           "title": "Best Performance by an Actor in a Supporting Role",
           "comment": "as Joker. Posthumously",
-          "actorId": "38819b839dc85832482d016b"
+          "actor": "38819b839dc85832482d016b"
         },
         {
           "title": "Best Achievement in Sound Editing"
@@ -144,7 +144,7 @@
         {
           "title": "Best Supporting Actor",
           "comment": "as Joker. Posthumously",
-          "actorId": "38819b839dc85832482d016b"
+          "actor": "38819b839dc85832482d016b"
         }
       ]
     },
@@ -157,7 +157,7 @@
         {
           "title": "Best Supporting Actor",
           "comment": "as Joker. Posthumously",
-          "actorId": "38819b839dc85832482d016b"
+          "actor": "38819b839dc85832482d016b"
         },
         {
           "title": "Best Writing"
@@ -176,7 +176,7 @@
         {
           "title": "Best Villain",
           "comment": "as Joker. Posthumously",
-          "actorId": "38819b839dc85832482d016b"
+          "actor": "38819b839dc85832482d016b"
         }
       ]
     },
@@ -186,7 +186,7 @@
         {
           "title": "Best Supporting Actor",
           "comment": "as Joker. Posthumously",
-          "actorId": "38819b839dc85832482d016b"
+          "actor": "38819b839dc85832482d016b"
         },
         {
           "title": "Best action Movie"

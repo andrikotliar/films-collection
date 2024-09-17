@@ -69,37 +69,37 @@
   "duration": 144,
   "cast": [
     {
-      "actorId": "bd9d1fa6627e29ced345bcac",
+      "actor": "bd9d1fa6627e29ced345bcac",
       "character": {
         "name": "James Bond"
       }
     },
     {
-      "actorId": "0df98bb53bcc1710be4174b5",
+      "actor": "0df98bb53bcc1710be4174b5",
       "character": {
         "name": "Vesper Lynd"
       }
     },
     {
-      "actorId": "e28338f3ae267cd8cab714fe",
+      "actor": "e28338f3ae267cd8cab714fe",
       "character": {
         "name": "Le Chiffre"
       }
     },
     {
-      "actorId": "bc58418600dc1689762c643e",
+      "actor": "bc58418600dc1689762c643e",
       "character": {
         "name": "M"
       }
     },
     {
-      "actorId": "ad690658fc9a006e2b90daa0",
+      "actor": "ad690658fc9a006e2b90daa0",
       "character": {
         "name": "Felix Leiter"
       }
     },
     {
-      "actorId": "cc41b17168c13a0839835d5a",
+      "actor": "cc41b17168c13a0839835d5a",
       "character": {
         "name": "Rene Mathis"
       }

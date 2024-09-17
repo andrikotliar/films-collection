@@ -61,25 +61,25 @@
   "duration": 126,
   "cast": [
     {
-      "actorId": "6d993dbef1d1e79ea49516fa",
+      "actor": "6d993dbef1d1e79ea49516fa",
       "character": {
         "name": "Hugo Cabret"
       }
     },
     {
-      "actorId": "9db2779191ae86290f56c21b",
+      "actor": "9db2779191ae86290f56c21b",
       "character": {
         "name": "Georges M'li's"
       }
     },
     {
-      "actorId": "305954b13aa2aaf70e71c864",
+      "actor": "305954b13aa2aaf70e71c864",
       "character": {
         "name": "Station Inspector"
       }
     },
     {
-      "actorId": "6fddfed4c4ad097f4c724086",
+      "actor": "6fddfed4c4ad097f4c724086",
       "character": {
         "name": "Isabelle"
       }

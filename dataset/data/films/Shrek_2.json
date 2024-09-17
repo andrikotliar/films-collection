@@ -70,59 +70,59 @@
   "duration": 93,
   "cast": [
     {
-      "actorId": "da1f33b9c84064852254d8aa",
+      "actor": "da1f33b9c84064852254d8aa",
       "character": {
         "name": "Shrek",
-        "imageUrl": "shrek_2_shrek.webp"
+        "image": "shrek_2_shrek.webp"
       }
     },
     {
-      "actorId": "356f3d8d6debf47913fead0a",
+      "actor": "356f3d8d6debf47913fead0a",
       "character": {
         "name": "Donkey",
-        "imageUrl": "shrek_2_donkey.webp"
+        "image": "shrek_2_donkey.webp"
       }
     },
     {
-      "actorId": "2f654330682e4a9dbb666cc0",
+      "actor": "2f654330682e4a9dbb666cc0",
       "character": {
         "name": "Fiona",
-        "imageUrl": "shrek_2_fiona.webp"
+        "image": "shrek_2_fiona.webp"
       }
     },
     {
-      "actorId": "d09e87569baf0ba6ffa2c42e",
+      "actor": "d09e87569baf0ba6ffa2c42e",
       "character": {
         "name": "Puss In Boots",
-        "imageUrl": "shrek_2_puss_in_boots.webp"
+        "image": "shrek_2_puss_in_boots.webp"
       }
     },
     {
-      "actorId": "79302944314256f8837af530",
+      "actor": "79302944314256f8837af530",
       "character": {
         "name": "Queen",
-        "imageUrl": "shrek_2_queen.webp"
+        "image": "shrek_2_queen.webp"
       }
     },
     {
-      "actorId": "0f7e8cddcf6806c802d66fae",
+      "actor": "0f7e8cddcf6806c802d66fae",
       "character": {
         "name": "King",
-        "imageUrl": "shrek_2_king.webp"
+        "image": "shrek_2_king.webp"
       }
     },
     {
-      "actorId": "b337b83b16b62953ee64cfc4",
+      "actor": "b337b83b16b62953ee64cfc4",
       "character": {
         "name": "Prince Charming",
-        "imageUrl": "shrek_2_prince_charming.webp"
+        "image": "shrek_2_prince_charming.webp"
       }
     },
     {
-      "actorId": "40f3282712b68cc8b6adda4f",
+      "actor": "40f3282712b68cc8b6adda4f",
       "character": {
         "name": "Fairy Godmother",
-        "imageUrl": "shrek_2_fairy_godmother.webp"
+        "image": "shrek_2_fairy_godmother.webp"
       }
     }
   ],

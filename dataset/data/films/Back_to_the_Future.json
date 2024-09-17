@@ -65,37 +65,37 @@
   "duration": 116,
   "cast": [
     {
-      "actorId": "338322b79718106c345846de",
+      "actor": "338322b79718106c345846de",
       "character": {
         "name": "Marty McFly"
       }
     },
     {
-      "actorId": "90dcb449f7b8e7fff49994fb",
+      "actor": "90dcb449f7b8e7fff49994fb",
       "character": {
         "name": "Dr. Emmett Brown"
       }
     },
     {
-      "actorId": "cf57db4253b6c898d70ef74a",
+      "actor": "cf57db4253b6c898d70ef74a",
       "character": {
         "name": "Lorraine Baines"
       }
     },
     {
-      "actorId": "fe38aeb218a3c28cad160632",
+      "actor": "fe38aeb218a3c28cad160632",
       "character": {
         "name": "George McFly"
       }
     },
     {
-      "actorId": "225c89c9183706f01526fe4d",
+      "actor": "225c89c9183706f01526fe4d",
       "character": {
         "name": "Biff Tannen"
       }
     },
     {
-      "actorId": "82da8f1619b160715575e767",
+      "actor": "82da8f1619b160715575e767",
       "character": {
         "name": "Jennifer Parker"
       }

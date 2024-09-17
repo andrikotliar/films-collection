@@ -62,25 +62,25 @@
   "duration": 109,
   "cast": [
     {
-      "actorId": "4d17abf9b912a4f64b129f98",
+      "actor": "4d17abf9b912a4f64b129f98",
       "character": {
         "name": "Will Salas"
       }
     },
     {
-      "actorId": "dd5f72e72f49b70f6c149b82",
+      "actor": "dd5f72e72f49b70f6c149b82",
       "character": {
         "name": "Rachel Salas"
       }
     },
     {
-      "actorId": "707daa90ceccdd76410a856d",
+      "actor": "707daa90ceccdd76410a856d",
       "character": {
         "name": "Maya"
       }
     },
     {
-      "actorId": "b52ce25721eb9f4c0758ebd7",
+      "actor": "b52ce25721eb9f4c0758ebd7",
       "character": {
         "name": "Borel"
       }

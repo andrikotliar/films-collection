@@ -65,43 +65,43 @@
   "duration": 125,
   "cast": [
     {
-      "actorId": "6db70d56d0080f919a21f353",
+      "actor": "6db70d56d0080f919a21f353",
       "character": {
         "name": "Kevin Flynn / Clu"
       }
     },
     {
-      "actorId": "067c80de55068273c5b3029d",
+      "actor": "067c80de55068273c5b3029d",
       "character": {
         "name": "Sam Flynn"
       }
     },
     {
-      "actorId": "dd5f72e72f49b70f6c149b82",
+      "actor": "dd5f72e72f49b70f6c149b82",
       "character": {
         "name": "Quorra"
       }
     },
     {
-      "actorId": "7d9424297910a98d93f443c7",
+      "actor": "7d9424297910a98d93f443c7",
       "character": {
         "name": "Alan Bradley / Tron"
       }
     },
     {
-      "actorId": "e9a889c2911616f3921e4cc3",
+      "actor": "e9a889c2911616f3921e4cc3",
       "character": {
         "name": "Jarvis"
       }
     },
     {
-      "actorId": "f01666b14a9b826cb3daf954",
+      "actor": "f01666b14a9b826cb3daf954",
       "character": {
         "name": "Gem"
       }
     },
     {
-      "actorId": "ddc30904ea1df69f6f509783",
+      "actor": "ddc30904ea1df69f6f509783",
       "character": {
         "name": "Castor / Zuse"
       }
@@ -122,7 +122,7 @@
         },
         {
           "title": "Best Actor",
-          "actorId": "6db70d56d0080f919a21f353"
+          "actor": "6db70d56d0080f919a21f353"
         }
       ]
     }

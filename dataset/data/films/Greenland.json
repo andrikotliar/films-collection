@@ -62,37 +62,37 @@
   "duration": 119,
   "cast": [
     {
-      "actorId": "19691d0b10cb811590497ff2",
+      "actor": "19691d0b10cb811590497ff2",
       "character": {
         "name": "John Garrity"
       }
     },
     {
-      "actorId": "77946df45d5b0eaec9d92193",
+      "actor": "77946df45d5b0eaec9d92193",
       "character": {
         "name": "Allison Garrity"
       }
     },
     {
-      "actorId": "00562620ce3f9f74d5aa0155",
+      "actor": "00562620ce3f9f74d5aa0155",
       "character": {
         "name": "Nathan Garrity"
       }
     },
     {
-      "actorId": "33959ac36509703adc45f97a",
+      "actor": "33959ac36509703adc45f97a",
       "character": {
         "name": "Dale"
       }
     },
     {
-      "actorId": "7d0b6e40baadda50e2048436",
+      "actor": "7d0b6e40baadda50e2048436",
       "character": {
         "name": "Ralph Vento"
       }
     },
     {
-      "actorId": "acc601949baf6d00d14233e0",
+      "actor": "acc601949baf6d00d14233e0",
       "character": {
         "name": "Judy Vento"
       }

@@ -51,38 +51,38 @@
   "duration": 104,
   "cast": [
     {
-      "actorId": "a7d35039857e23987e0e044c",
+      "actor": "a7d35039857e23987e0e044c",
       "character": {
         "name": "Hiccup",
-        "imageUrl": "how_to_train_your_dragon_the_hidden_world_hiccup.webp"
+        "image": "how_to_train_your_dragon_the_hidden_world_hiccup.webp"
       }
     },
     {
-      "actorId": "6c95d5ee7e91ad5d5e781165",
+      "actor": "6c95d5ee7e91ad5d5e781165",
       "character": {
         "name": "Astrid ",
-        "imageUrl": "how_to_train_your_dragon_the_hidden_world_astrid.webp"
+        "image": "how_to_train_your_dragon_the_hidden_world_astrid.webp"
       }
     },
     {
-      "actorId": "220fe3aec36d9185f6ff5add",
+      "actor": "220fe3aec36d9185f6ff5add",
       "character": {
         "name": "Grimmel ",
-        "imageUrl": "how_to_train_your_dragon_the_hidden_world_grimmel.webp"
+        "image": "how_to_train_your_dragon_the_hidden_world_grimmel.webp"
       }
     },
     {
-      "actorId": "d547995ac733ce40226af91f",
+      "actor": "d547995ac733ce40226af91f",
       "character": {
         "name": "Gobber ",
-        "imageUrl": "how_to_train_your_dragon_the_hidden_world_gobber.webp"
+        "image": "how_to_train_your_dragon_the_hidden_world_gobber.webp"
       }
     },
     {
-      "actorId": "6aa92fa181848669babe20bb",
+      "actor": "6aa92fa181848669babe20bb",
       "character": {
         "name": "Eret ",
-        "imageUrl": "how_to_train_your_dragon_the_hidden_world_eret.webp"
+        "image": "how_to_train_your_dragon_the_hidden_world_eret.webp"
       }
     }
   ],

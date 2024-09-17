@@ -59,49 +59,49 @@
   "duration": 125,
   "cast": [
     {
-      "actorId": "5007865fcfa27f77a5caa971",
+      "actor": "5007865fcfa27f77a5caa971",
       "character": {
         "name": "Rick O'Connell"
       }
     },
     {
-      "actorId": "cac8a6d872c6bd724fce9824",
+      "actor": "cac8a6d872c6bd724fce9824",
       "character": {
         "name": "Evelyn Carnahan"
       }
     },
     {
-      "actorId": "182db493d2b81619d210955c",
+      "actor": "182db493d2b81619d210955c",
       "character": {
         "name": "Jonathan Carnahan"
       }
     },
     {
-      "actorId": "a37d51d4e1ec3cb66c525e5a",
+      "actor": "a37d51d4e1ec3cb66c525e5a",
       "character": {
         "name": "Imhotep"
       }
     },
     {
-      "actorId": "f9283404f416424cfa430d0f",
+      "actor": "f9283404f416424cfa430d0f",
       "character": {
         "name": "Beni Gabor"
       }
     },
     {
-      "actorId": "d534ecf817056c7592bbd058",
+      "actor": "d534ecf817056c7592bbd058",
       "character": {
         "name": "Dr. Allen Chamberlain"
       }
     },
     {
-      "actorId": "b0f70d5f44ea97682c22fbbf",
+      "actor": "b0f70d5f44ea97682c22fbbf",
       "character": {
         "name": "Ardeth Bay"
       }
     },
     {
-      "actorId": "3ba6b72ed4ed8ba89ca219e0",
+      "actor": "3ba6b72ed4ed8ba89ca219e0",
       "character": {
         "name": "Dr. Terrence Bey"
       }

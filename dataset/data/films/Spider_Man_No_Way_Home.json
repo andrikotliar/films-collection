@@ -54,82 +54,82 @@
   "duration": 100,
   "cast": [
     {
-      "actorId": "7724f9a2549d742da5d02985",
+      "actor": "7724f9a2549d742da5d02985",
       "character": {
         "name": "Peter Parker / Spider-Man",
-        "imageUrl": "spider_man_no_way_home_peter_parker.webp"
+        "image": "spider_man_no_way_home_peter_parker.webp"
       }
     },
     {
-      "actorId": "65694e39d2799267ae4a2adf",
+      "actor": "65694e39d2799267ae4a2adf",
       "character": {
         "name": "Peter Parker / Spider-Man (Toby)",
-        "imageUrl": "spider_man_no_way_home_peter_parker_toby.webp"
+        "image": "spider_man_no_way_home_peter_parker_toby.webp"
       }
     },
     {
-      "actorId": "4944de362b32c61551474862",
+      "actor": "4944de362b32c61551474862",
       "character": {
         "name": "Peter Parker / Spider-Man (Andrew)",
-        "imageUrl": "spider_man_no_way_home_peter_parker_andrew.webp"
+        "image": "spider_man_no_way_home_peter_parker_andrew.webp"
       }
     },
     {
-      "actorId": "107e7fb331c2103897a87ffa",
+      "actor": "107e7fb331c2103897a87ffa",
       "character": {
         "name": "MJ"
       }
     },
     {
-      "actorId": "5a86b2f23ea348e3a58775b6",
+      "actor": "5a86b2f23ea348e3a58775b6",
       "character": {
         "name": "Doctor Strange"
       }
     },
     {
-      "actorId": "1d64586d1509495ad522cffe",
+      "actor": "1d64586d1509495ad522cffe",
       "character": {
         "name": "Happy Hogan"
       }
     },
     {
-      "actorId": "0538ae4342160abcc02ecf33",
+      "actor": "0538ae4342160abcc02ecf33",
       "character": {
         "name": "May Parker"
       }
     },
     {
-      "actorId": "03293ef86c8bf352c9dd52f4",
+      "actor": "03293ef86c8bf352c9dd52f4",
       "character": {
         "name": "J. Jonah Jameson"
       }
     },
     {
-      "actorId": "69443d6dcdd5ddbc0c51e534",
+      "actor": "69443d6dcdd5ddbc0c51e534",
       "character": {
         "name": "Norman Osborn / Green Goblin"
       }
     },
     {
-      "actorId": "a775eca4841cce040addc4ca",
+      "actor": "a775eca4841cce040addc4ca",
       "character": {
         "name": "Wong"
       }
     },
     {
-      "actorId": "ef83cde86ba14a39f3be9702",
+      "actor": "ef83cde86ba14a39f3be9702",
       "character": {
         "name": "Max Dillon / Electro"
       }
     },
     {
-      "actorId": "c70aa327b237efbbee19c181",
+      "actor": "c70aa327b237efbbee19c181",
       "character": {
         "name": "Otto Octavius / Doctor Octopus"
       }
     },
     {
-      "actorId": "398e1ca9ff4d050aac592111",
+      "actor": "398e1ca9ff4d050aac592111",
       "character": {
         "name": "Ned Leeds"
       }

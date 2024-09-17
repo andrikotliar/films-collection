@@ -192,88 +192,88 @@
   "duration": 1200,
   "cast": [
     {
-      "actorId": "eebbf9192e962f80049539b6",
+      "actor": "eebbf9192e962f80049539b6",
       "character": {
         "name": "Luther Hargreeves"
       }
     },
     {
-      "actorId": "a47540ae74c5271635c7cd5f",
+      "actor": "a47540ae74c5271635c7cd5f",
       "character": {
         "name": "Diego Hargreeves"
       }
     },
     {
-      "actorId": "5da043b2e36a46802bf43526",
+      "actor": "5da043b2e36a46802bf43526",
       "character": {
         "name": "Allison Hargreeves"
       }
     },
     {
-      "actorId": "7a1eb3dd5cf9489c99835410",
+      "actor": "7a1eb3dd5cf9489c99835410",
       "character": {
         "name": "Klaus Hargreeves"
       }
     },
     {
-      "actorId": "c5b83d5624345ac4383c0895",
+      "actor": "c5b83d5624345ac4383c0895",
       "character": {
         "name": "Number Five"
       }
     },
     {
-      "actorId": "c6ca5da3bb08256d70160b52",
+      "actor": "c6ca5da3bb08256d70160b52",
       "character": {
         "name": "Ben Hargreeves"
       }
     },
     {
-      "actorId": "8c40238b64773c27425d940e",
+      "actor": "8c40238b64773c27425d940e",
       "character": {
         "name": "Vanya Hargreeves"
       }
     },
     {
-      "actorId": "c80dd6b2debac54cc37a80dd",
+      "actor": "c80dd6b2debac54cc37a80dd",
       "character": {
         "name": "Reginald Hargreeves"
       }
     },
     {
-      "actorId": "34856949a9b9448c66632074",
+      "actor": "34856949a9b9448c66632074",
       "character": {
         "name": "Lila Pitts"
       }
     },
     {
-      "actorId": "ceda14ba9fde142da4e85193",
+      "actor": "ceda14ba9fde142da4e85193",
       "character": {
         "name": "Grace"
       }
     },
     {
-      "actorId": "f16c7e329b6cb3c67de971ea",
+      "actor": "f16c7e329b6cb3c67de971ea",
       "character": {
         "name": "The Handler"
       }
     },
     {
-      "actorId": "fc30f35646a6d3049eff07c1",
+      "actor": "fc30f35646a6d3049eff07c1",
       "character": {
         "name": "Hazel"
       }
     },
     {
-      "actorId": "fd5c19d2483bb0ad1d047592",
+      "actor": "fd5c19d2483bb0ad1d047592",
       "character": {
         "name": "Cha-Cha"
       }
     },
     {
-      "actorId": "6262ddbf525d013aec6ab593",
+      "actor": "6262ddbf525d013aec6ab593",
       "character": {
         "name": "Pogo",
-        "imageUrl": "the_umbrella_academy_pogo.webp"
+        "image": "the_umbrella_academy_pogo.webp"
       }
     }
   ],

@@ -69,43 +69,43 @@
   "duration": 158,
   "cast": [
     {
-      "actorId": "97ee6d4fe5c8393b3a12dad9",
+      "actor": "97ee6d4fe5c8393b3a12dad9",
       "character": {
         "name": "Jackson Curtis"
       }
     },
     {
-      "actorId": "d4ae0ee752c2dfb42b7cd3de",
+      "actor": "d4ae0ee752c2dfb42b7cd3de",
       "character": {
         "name": "Kate Curtis"
       }
     },
     {
-      "actorId": "e5fca0c83deaa2448c413cfd",
+      "actor": "e5fca0c83deaa2448c413cfd",
       "character": {
         "name": "Adrian Helmsley"
       }
     },
     {
-      "actorId": "e8de9cf95faeea0c9bde694c",
+      "actor": "e8de9cf95faeea0c9bde694c",
       "character": {
         "name": "Laura Wilson"
       }
     },
     {
-      "actorId": "9ff1b1591a793e5ebcb44c72",
+      "actor": "9ff1b1591a793e5ebcb44c72",
       "character": {
         "name": "Carl Anheuser"
       }
     },
     {
-      "actorId": "024affbe7a45ee9fc554bf76",
+      "actor": "024affbe7a45ee9fc554bf76",
       "character": {
         "name": "Charlie Frost"
       }
     },
     {
-      "actorId": "40e31d5ce0764fba8991ceb0",
+      "actor": "40e31d5ce0764fba8991ceb0",
       "character": {
         "name": "President Thomas Wilson"
       }

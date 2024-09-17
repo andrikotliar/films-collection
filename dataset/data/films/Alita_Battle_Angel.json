@@ -62,46 +62,46 @@
   "duration": 122,
   "cast": [
     {
-      "actorId": "faf06750d96e099e22deea05",
+      "actor": "faf06750d96e099e22deea05",
       "character": {
         "name": "Alita",
-        "imageUrl": "alita_battle_angel_alita.webp"
+        "image": "alita_battle_angel_alita.webp"
       }
     },
     {
-      "actorId": "e7dd7cfa7d6935d1911de298",
+      "actor": "e7dd7cfa7d6935d1911de298",
       "character": {
         "name": "Dr. Dyson Ido"
       }
     },
     {
-      "actorId": "1cf0eb2682f7194956288319",
+      "actor": "1cf0eb2682f7194956288319",
       "character": {
         "name": "Chiren"
       }
     },
     {
-      "actorId": "ab310cfb7b4905e59b363f7d",
+      "actor": "ab310cfb7b4905e59b363f7d",
       "character": {
         "name": "Vector"
       }
     },
     {
-      "actorId": "2c637c26333b0915173cece4",
+      "actor": "2c637c26333b0915173cece4",
       "character": {
         "name": "Zapan",
-        "imageUrl": "alita_battle_angel_zapan.webp"
+        "image": "alita_battle_angel_zapan.webp"
       }
     },
     {
-      "actorId": "f0bf89fe1a47edd489b68472",
+      "actor": "f0bf89fe1a47edd489b68472",
       "character": {
         "name": "Grewishka",
-        "imageUrl": "alita_battle_angel_grewishka.webp"
+        "image": "alita_battle_angel_grewishka.webp"
       }
     },
     {
-      "actorId": "1c136e51fdd5d4943ed8218e",
+      "actor": "1c136e51fdd5d4943ed8218e",
       "character": {
         "name": "Hugo"
       }

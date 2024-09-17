@@ -71,43 +71,43 @@
   "duration": 113,
   "cast": [
     {
-      "actorId": "8e204b8e5e38fbae1fe008a4",
+      "actor": "8e204b8e5e38fbae1fe008a4",
       "character": {
         "name": "Thomas"
       }
     },
     {
-      "actorId": "d89b2eaf6097bb037c6d8ca0",
+      "actor": "d89b2eaf6097bb037c6d8ca0",
       "character": {
         "name": "Teresa"
       }
     },
     {
-      "actorId": "1f5745e5d1b695d05ebc9a5a",
+      "actor": "1f5745e5d1b695d05ebc9a5a",
       "character": {
         "name": "Alby"
       }
     },
     {
-      "actorId": "4ee52e26623792a1c498ac41",
+      "actor": "4ee52e26623792a1c498ac41",
       "character": {
         "name": "Newt"
       }
     },
     {
-      "actorId": "c4c83bf5a6e512ae8f39d75a",
+      "actor": "c4c83bf5a6e512ae8f39d75a",
       "character": {
         "name": "Minho"
       }
     },
     {
-      "actorId": "f88ba806540e968863c214e3",
+      "actor": "f88ba806540e968863c214e3",
       "character": {
         "name": "Gally"
       }
     },
     {
-      "actorId": "595711382f59b56d8f35eb6f",
+      "actor": "595711382f59b56d8f35eb6f",
       "character": {
         "name": "Ava Paige"
       }
@@ -125,7 +125,7 @@
       "nominations": [
         {
           "title": "Breakthrough Performance",
-          "actorId": "8e204b8e5e38fbae1fe008a4"
+          "actor": "8e204b8e5e38fbae1fe008a4"
         },
         {
           "title": "Best Fight",
@@ -134,7 +134,7 @@
         {
           "title": "Best Hero",
           "comment": "As Thomas",
-          "actorId": "8e204b8e5e38fbae1fe008a4"
+          "actor": "8e204b8e5e38fbae1fe008a4"
         }
       ]
     }

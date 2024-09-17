@@ -60,37 +60,37 @@
   "duration": 115,
   "cast": [
     {
-      "actorId": "90204450e3ebdb007d478280",
+      "actor": "90204450e3ebdb007d478280",
       "character": {
         "name": "Dr. Henry «Indiana» Jones, Jr."
       }
     },
     {
-      "actorId": "bd524c2789035cc0587cd149",
+      "actor": "bd524c2789035cc0587cd149",
       "character": {
         "name": "Marion"
       }
     },
     {
-      "actorId": "507838a0e6675bb5c9fbd2f2",
+      "actor": "507838a0e6675bb5c9fbd2f2",
       "character": {
         "name": "Belloq"
       }
     },
     {
-      "actorId": "62119b0307c540cb16d33aed",
+      "actor": "62119b0307c540cb16d33aed",
       "character": {
         "name": "Toht"
       }
     },
     {
-      "actorId": "2555ed16eef45d9015e8aa02",
+      "actor": "2555ed16eef45d9015e8aa02",
       "character": {
         "name": "Sallah"
       }
     },
     {
-      "actorId": "1cb94f174646e5cd8d18c312",
+      "actor": "1cb94f174646e5cd8d18c312",
       "character": {
         "name": "Brody"
       }
@@ -143,11 +143,11 @@
         },
         {
           "title": "Best Actor",
-          "actorId": "90204450e3ebdb007d478280"
+          "actor": "90204450e3ebdb007d478280"
         },
         {
           "title": "Best Actress",
-          "actorId": "bd524c2789035cc0587cd149"
+          "actor": "bd524c2789035cc0587cd149"
         },
         {
           "title": "Best Director"
@@ -168,7 +168,7 @@
       "nominations": [
         {
           "title": "Best International Actor",
-          "actorId": "90204450e3ebdb007d478280"
+          "actor": "90204450e3ebdb007d478280"
         },
         {
           "title": "Best International Film"

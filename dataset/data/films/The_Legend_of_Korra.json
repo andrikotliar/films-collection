@@ -100,143 +100,143 @@
   "duration": 1196,
   "cast": [
     {
-      "actorId": "f141d903681afc605667e90b",
+      "actor": "f141d903681afc605667e90b",
       "character": {
         "name": "Korra",
-        "imageUrl": "the_legend_of_korra_korra.webp"
+        "image": "the_legend_of_korra_korra.webp"
       }
     },
     {
-      "actorId": "fa66afeeb27440dee15e5c76",
+      "actor": "fa66afeeb27440dee15e5c76",
       "character": {
         "name": "Bolin",
-        "imageUrl": "the_legend_of_korra_bolin.webp"
+        "image": "the_legend_of_korra_bolin.webp"
       }
     },
     {
-      "actorId": "6ab864312ad85779feec8b6b",
+      "actor": "6ab864312ad85779feec8b6b",
       "character": {
         "name": "Mako",
-        "imageUrl": "the_legend_of_korra_mako.webp"
+        "image": "the_legend_of_korra_mako.webp"
       }
     },
     {
-      "actorId": "03293ef86c8bf352c9dd52f4",
+      "actor": "03293ef86c8bf352c9dd52f4",
       "character": {
         "name": "Tenzin",
-        "imageUrl": "the_legend_of_korra_tenzin.webp"
+        "image": "the_legend_of_korra_tenzin.webp"
       }
     },
     {
-      "actorId": "f52ca5fa17409e78addd6e31",
+      "actor": "f52ca5fa17409e78addd6e31",
       "character": {
         "name": "Asami Sato",
-        "imageUrl": "the_legend_of_korra_asami_sato.webp"
+        "image": "the_legend_of_korra_asami_sato.webp"
       }
     },
     {
-      "actorId": "8e8e614e6069c0dd17beefb2",
+      "actor": "8e8e614e6069c0dd17beefb2",
       "character": {
         "name": "Lin Beifong",
-        "imageUrl": "the_legend_of_korra_lin_beifong.webp"
+        "image": "the_legend_of_korra_lin_beifong.webp"
       }
     },
     {
-      "actorId": "c9df14c4610c90d7bc3dd89c",
+      "actor": "c9df14c4610c90d7bc3dd89c",
       "character": {
         "name": "Meelo",
-        "imageUrl": "the_legend_of_korra_meelo.webp"
+        "image": "the_legend_of_korra_meelo.webp"
       }
     },
     {
-      "actorId": "065b654c3848f322d56063ad",
+      "actor": "065b654c3848f322d56063ad",
       "character": {
         "name": "Jinora",
-        "imageUrl": "the_legend_of_korra_jinora.webp"
+        "image": "the_legend_of_korra_jinora.webp"
       }
     },
     {
-      "actorId": "cc5e6da11399a3902e09670e",
+      "actor": "cc5e6da11399a3902e09670e",
       "character": {
         "name": "Varrick",
-        "imageUrl": "the_legend_of_korra_varrick.webp"
+        "image": "the_legend_of_korra_varrick.webp"
       }
     },
     {
-      "actorId": "cc1cea9cd63393a0e4ae729d",
+      "actor": "cc1cea9cd63393a0e4ae729d",
       "character": {
         "name": "Ikki",
-        "imageUrl": "the_legend_of_korra_ikki.webp"
+        "image": "the_legend_of_korra_ikki.webp"
       }
     },
     {
-      "actorId": "a9c2d3acceb693ffa6da6728",
+      "actor": "a9c2d3acceb693ffa6da6728",
       "character": {
         "name": "Bumi",
-        "imageUrl": "the_legend_of_korra_bumi.webp"
+        "image": "the_legend_of_korra_bumi.webp"
       }
     },
     {
-      "actorId": "886705efe27900f9c7e27447",
+      "actor": "886705efe27900f9c7e27447",
       "character": {
         "name": "Tonraq",
-        "imageUrl": "the_legend_of_korra_tonraq.webp"
+        "image": "the_legend_of_korra_tonraq.webp"
       }
     },
     {
-      "actorId": "a5e25463aa7133ab833c71fe",
+      "actor": "a5e25463aa7133ab833c71fe",
       "character": {
         "name": "Unalaq",
-        "imageUrl": "the_legend_of_korra_unalaq.webp"
+        "image": "the_legend_of_korra_unalaq.webp"
       }
     },
     {
-      "actorId": "548ff3dd03d5eae8da85b437",
+      "actor": "548ff3dd03d5eae8da85b437",
       "character": {
         "name": "Zaheer",
-        "imageUrl": "the_legend_of_korra_zaheer.webp"
+        "image": "the_legend_of_korra_zaheer.webp"
       }
     },
     {
-      "actorId": "10eb3a80ceafcb9135ef3290",
+      "actor": "10eb3a80ceafcb9135ef3290",
       "character": {
         "name": "Amon",
-        "imageUrl": "the_legend_of_korra_amon.webp"
+        "image": "the_legend_of_korra_amon.webp"
       }
     },
     {
-      "actorId": "2e396819ac07ea68100eacde",
+      "actor": "2e396819ac07ea68100eacde",
       "character": {
         "name": "Kuvira",
-        "imageUrl": "the_legend_of_korra_kuvira.webp"
+        "image": "the_legend_of_korra_kuvira.webp"
       }
     },
     {
-      "actorId": "47e429aecc25eededd9044e7",
+      "actor": "47e429aecc25eededd9044e7",
       "character": {
         "name": "Vaatu",
-        "imageUrl": "the_legend_of_korra_vaatu.webp"
+        "image": "the_legend_of_korra_vaatu.webp"
       }
     },
     {
-      "actorId": "5c2a55fb020d9bfb3ad36823",
+      "actor": "5c2a55fb020d9bfb3ad36823",
       "character": {
         "name": "Raava",
-        "imageUrl": "the_legend_of_korra_raava.webp"
+        "image": "the_legend_of_korra_raava.webp"
       }
     },
     {
-      "actorId": "158f779e569433961193f113",
+      "actor": "158f779e569433961193f113",
       "character": {
         "name": "Aang",
-        "imageUrl": "the_legend_of_korra_aang.webp"
+        "image": "the_legend_of_korra_aang.webp"
       }
     },
     {
-      "actorId": "1000055d1e03066802dffcfd",
+      "actor": "1000055d1e03066802dffcfd",
       "character": {
         "name": "Katara",
-        "imageUrl": "the_legend_of_korra_katara.webp"
+        "image": "the_legend_of_korra_katara.webp"
       }
     }
   ],

@@ -65,80 +65,80 @@
   "duration": 165,
   "cast": [
     {
-      "actorId": "b794f150c4436f17ba9bd9f1",
+      "actor": "b794f150c4436f17ba9bd9f1",
       "character": {
         "name": "Bruce Wayne",
-        "imageUrl": "the_dark_knight_rises_bruce_wayne.webp"
+        "image": "the_dark_knight_rises_bruce_wayne.webp"
       }
     },
     {
-      "actorId": "a03a7c1a8a396d3211b9b317",
+      "actor": "a03a7c1a8a396d3211b9b317",
       "character": {
         "name": "Commissioner Gordon"
       }
     },
     {
-      "actorId": "54f5e1d6744bd15409e841cf",
+      "actor": "54f5e1d6744bd15409e841cf",
       "character": {
         "name": "Bane"
       }
     },
     {
-      "actorId": "206c09f62d171c1b58cc6378",
+      "actor": "206c09f62d171c1b58cc6378",
       "character": {
         "name": "Blake"
       }
     },
     {
-      "actorId": "e368b232e6af9b5200fd411b",
+      "actor": "e368b232e6af9b5200fd411b",
       "character": {
         "name": "Selina"
       }
     },
     {
-      "actorId": "6e287749f98b9217ea2ceb27",
+      "actor": "6e287749f98b9217ea2ceb27",
       "character": {
         "name": "Miranda"
       }
     },
     {
-      "actorId": "6baca3c5f3dcf4fb1271cb34",
+      "actor": "6baca3c5f3dcf4fb1271cb34",
       "character": {
         "name": "Fox"
       }
     },
     {
-      "actorId": "68a6bf55b5f042549fda0642",
+      "actor": "68a6bf55b5f042549fda0642",
       "character": {
         "name": "Alfred"
       }
     },
     {
-      "actorId": "ae59b91d424e2bfb80aa5ddb",
+      "actor": "ae59b91d424e2bfb80aa5ddb",
       "character": {
         "name": "Foley"
       }
     },
     {
-      "actorId": "fa738fcf88f03caa8027dbe4",
+      "actor": "fa738fcf88f03caa8027dbe4",
       "character": {
         "name": "Dr. Pavel"
       }
     },
     {
-      "actorId": "5e8de99fe5c4235fb362b719",
+      "actor": "5e8de99fe5c4235fb362b719",
       "character": {
         "name": "Daggett"
       }
     },
     {
-      "actorId": "2bc21f5ef07103af47d045c4",
+      "actor": "2bc21f5ef07103af47d045c4",
       "character": {
         "name": "Stryver"
       }
     },
     {
-      "actorId": "9627e589b4b4bbdb49ba2a5b",
+      "actor": "9627e589b4b4bbdb49ba2a5b",
       "character": {
         "name": "Captain Jones"
       }
@@ -156,7 +156,7 @@
       "nominations": [
         {
           "title": "Best Supporting Actress",
-          "actorId": "e368b232e6af9b5200fd411b"
+          "actor": "e368b232e6af9b5200fd411b"
         }
       ]
     }

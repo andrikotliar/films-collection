@@ -59,22 +59,22 @@
   "duration": 107,
   "cast": [
     {
-      "actorId": "8062b68b19b6dacb76d14b75",
+      "actor": "8062b68b19b6dacb76d14b75",
       "character": {
         "name": "T-800"
       }
     },
     {
-      "actorId": "ddeef4fd51b50bcc160a21c5",
+      "actor": "ddeef4fd51b50bcc160a21c5",
       "character": {
         "name": "Kyle Reese"
       }
     },
     {
-      "actorId": "a5fd5103183480749784143b",
+      "actor": "a5fd5103183480749784143b",
       "character": {
         "name": "Sarah Connor",
-        "imageUrl": "the_terminator_sarah_connor.webp"
+        "image": "the_terminator_sarah_connor.webp"
       }
     }
   ],

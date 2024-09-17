@@ -59,59 +59,59 @@
   "duration": 124,
   "cast": [
     {
-      "actorId": "ce132ddc9f8b5434251efcdb",
+      "actor": "ce132ddc9f8b5434251efcdb",
       "character": {
         "name": "Luke Skywalker"
       }
     },
     {
-      "actorId": "90204450e3ebdb007d478280",
+      "actor": "90204450e3ebdb007d478280",
       "character": {
         "name": "Han Solo"
       }
     },
     {
-      "actorId": "7d2b5a0e06b8a95e8c3f208f",
+      "actor": "7d2b5a0e06b8a95e8c3f208f",
       "character": {
         "name": "Leia"
       }
     },
     {
-      "actorId": "528c03b054894ba83b338296",
+      "actor": "528c03b054894ba83b338296",
       "character": {
         "name": "Lando Calrissian"
       }
     },
     {
-      "actorId": "8495e822d070b57837e0bf6e",
+      "actor": "8495e822d070b57837e0bf6e",
       "character": {
         "name": "C-3PO",
-        "imageUrl": "star_wars_episode_v_the_empire_strikes_back_c-3po.webp"
+        "image": "star_wars_episode_v_the_empire_strikes_back_c-3po.webp"
       }
     },
     {
-      "actorId": "3dcb844bcfc2544762ec44c0",
+      "actor": "3dcb844bcfc2544762ec44c0",
       "character": {
         "name": "Darth Vader",
-        "imageUrl": "star_wars_episode_v_the_empire_strikes_back_darth_vader.webp"
+        "image": "star_wars_episode_v_the_empire_strikes_back_darth_vader.webp"
       }
     },
     {
-      "actorId": "25d91c81e9e6d9044c52fa9b",
+      "actor": "25d91c81e9e6d9044c52fa9b",
       "character": {
         "name": "Chewbacca",
-        "imageUrl": "star_wars_episode_v_the_empire_strikes_back_chewbacca.webp"
+        "image": "star_wars_episode_v_the_empire_strikes_back_chewbacca.webp"
       }
     },
     {
-      "actorId": "6fa14a3731b9660353c41487",
+      "actor": "6fa14a3731b9660353c41487",
       "character": {
         "name": "Yoda",
-        "imageUrl": "star_wars_episode_v_the_empire_strikes_back_yoda.webp"
+        "image": "star_wars_episode_v_the_empire_strikes_back_yoda.webp"
       }
     },
     {
-      "actorId": "cefae971d17a334057ad7c60",
+      "actor": "cefae971d17a334057ad7c60",
       "character": {
         "name": "Boba Fett"
       }
@@ -143,7 +143,7 @@
         },
         {
           "title": "Best Actor",
-          "actorId": "ce132ddc9f8b5434251efcdb"
+          "actor": "ce132ddc9f8b5434251efcdb"
         },
         {
           "title": "Best Director"

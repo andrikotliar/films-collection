@@ -63,31 +63,31 @@
   "duration": 118,
   "cast": [
     {
-      "actorId": "90204450e3ebdb007d478280",
+      "actor": "90204450e3ebdb007d478280",
       "character": {
         "name": "Dr. Henry «Indiana» Jones, Jr."
       }
     },
     {
-      "actorId": "2359c068d690ccd851b07cb1",
+      "actor": "2359c068d690ccd851b07cb1",
       "character": {
         "name": "Willie Scott"
       }
     },
     {
-      "actorId": "f5a4d6a37358ec72b9d5d69b",
+      "actor": "f5a4d6a37358ec72b9d5d69b",
       "character": {
         "name": "Short Round"
       }
     },
     {
-      "actorId": "9df1449bb678673fa1a844a6",
+      "actor": "9df1449bb678673fa1a844a6",
       "character": {
         "name": "Mola Ram"
       }
     },
     {
-      "actorId": "437245d8c3cdf39ad3dc3b7b",
+      "actor": "437245d8c3cdf39ad3dc3b7b",
       "character": {
         "name": "Chattar Lal"
       }
@@ -130,7 +130,7 @@
       "nominations": [
         {
           "title": "Best International Actor",
-          "actorId": "90204450e3ebdb007d478280"
+          "actor": "90204450e3ebdb007d478280"
         },
         {
           "title": "Best International Film"

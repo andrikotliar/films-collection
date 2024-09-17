@@ -62,150 +62,150 @@
   "duration": 149,
   "cast": [
     {
-      "actorId": "68eac2af31419390d7f727fd",
+      "actor": "68eac2af31419390d7f727fd",
       "character": {
         "name": "Tony Stark / Iron Man",
-        "imageUrl": "the_avengers_infinity_war_tony_stark.webp"
+        "image": "the_avengers_infinity_war_tony_stark.webp"
       }
     },
     {
-      "actorId": "9d6f7bec0a46789eaa403786",
+      "actor": "9d6f7bec0a46789eaa403786",
       "character": {
         "name": "Thor",
-        "imageUrl": "the_avengers_infinity_war_thor.webp"
+        "image": "the_avengers_infinity_war_thor.webp"
       }
     },
     {
-      "actorId": "a65bc3f407cd83dd8b26db19",
+      "actor": "a65bc3f407cd83dd8b26db19",
       "character": {
         "name": "Bruce Banner / Hulk",
-        "imageUrl": "the_avengers_infinity_war_bruce_banner.webp"
+        "image": "the_avengers_infinity_war_bruce_banner.webp"
       }
     },
     {
-      "actorId": "b3356695e90767defc7c4421",
+      "actor": "b3356695e90767defc7c4421",
       "character": {
         "name": "Steve Rogers / Captain America",
-        "imageUrl": "the_avengers_infinity_war_steve_rogers.webp"
+        "image": "the_avengers_infinity_war_steve_rogers.webp"
       }
     },
     {
-      "actorId": "64286f842f66cb88506271cc",
+      "actor": "64286f842f66cb88506271cc",
       "character": {
         "name": "Natasha Romanoff / Black Widow",
-        "imageUrl": "the_avengers_infinity_war_natasha_romanoff.webp"
+        "image": "the_avengers_infinity_war_natasha_romanoff.webp"
       }
     },
     {
-      "actorId": "84a7fc06c915c5463cc7ce32",
+      "actor": "84a7fc06c915c5463cc7ce32",
       "character": {
         "name": "James Rhodes / War Machine"
       }
     },
     {
-      "actorId": "5a86b2f23ea348e3a58775b6",
+      "actor": "5a86b2f23ea348e3a58775b6",
       "character": {
         "name": "Doctor Strange",
-        "imageUrl": "the_avengers_infinity_war_doctor_strange.webp"
+        "image": "the_avengers_infinity_war_doctor_strange.webp"
       }
     },
     {
-      "actorId": "7724f9a2549d742da5d02985",
+      "actor": "7724f9a2549d742da5d02985",
       "character": {
         "name": "Peter Parker / Spider-Man",
-        "imageUrl": "the_avengers_infinity_war_peter_parker.webp"
+        "image": "the_avengers_infinity_war_peter_parker.webp"
       }
     },
     {
-      "actorId": "085fd1ea78f56539824d7714",
+      "actor": "085fd1ea78f56539824d7714",
       "character": {
         "name": "T'Challa / Black Panther"
       }
     },
     {
-      "actorId": "0f44c8581608c442261413e4",
+      "actor": "0f44c8581608c442261413e4",
       "character": {
         "name": "Gamora",
-        "imageUrl": "the_avengers_infinity_war_gamora.webp"
+        "image": "the_avengers_infinity_war_gamora.webp"
       }
     },
     {
-      "actorId": "81002d63c8ad158916752ee2",
+      "actor": "81002d63c8ad158916752ee2",
       "character": {
         "name": "Peter Quill / Star-Lord"
       }
     },
     {
-      "actorId": "7b67d3adc189860cca3bbf5f",
+      "actor": "7b67d3adc189860cca3bbf5f",
       "character": {
         "name": "Nebula",
-        "imageUrl": "the_avengers_infinity_war_nebula.webp"
+        "image": "the_avengers_infinity_war_nebula.webp"
       }
     },
     {
-      "actorId": "1c93c03ba9a9870918b112fb",
+      "actor": "1c93c03ba9a9870918b112fb",
       "character": {
         "name": "Loki"
       }
     },
     {
-      "actorId": "c20e24b955b094888df0ac50",
+      "actor": "c20e24b955b094888df0ac50",
       "character": {
         "name": "Vision",
-        "imageUrl": "the_avengers_infinity_war_vision.webp"
+        "image": "the_avengers_infinity_war_vision.webp"
       }
     },
     {
-      "actorId": "f6de6e5bd473d73c2055ef99",
+      "actor": "f6de6e5bd473d73c2055ef99",
       "character": {
         "name": "Wanda Maximoff / Scarlett Witch"
       }
     },
     {
-      "actorId": "b59e04d8cace91ce7b37a878",
+      "actor": "b59e04d8cace91ce7b37a878",
       "character": {
         "name": "Sam Wilson / The Falcon"
       }
     },
     {
-      "actorId": "5f86048e81f0f2f8d811005f",
+      "actor": "5f86048e81f0f2f8d811005f",
       "character": {
         "name": "Bucky Barnes / White Wolf"
       }
     },
     {
-      "actorId": "ea853e2289646fab62637582",
+      "actor": "ea853e2289646fab62637582",
       "character": {
         "name": "Mantis",
-        "imageUrl": "the_avengers_infinity_war_mantis.webp"
+        "image": "the_avengers_infinity_war_mantis.webp"
       }
     },
     {
-      "actorId": "6e7815767f3afa70c3dc69c5",
+      "actor": "6e7815767f3afa70c3dc69c5",
       "character": {
         "name": "Drax",
-        "imageUrl": "the_avengers_infinity_war_drax.webp"
+        "image": "the_avengers_infinity_war_drax.webp"
       }
     },
     {
-      "actorId": "8acb4ceb24e197fffd95c777",
+      "actor": "8acb4ceb24e197fffd95c777",
       "character": {
         "name": "Groot",
-        "imageUrl": "the_avengers_infinity_war_groot.webp"
+        "image": "the_avengers_infinity_war_groot.webp"
       }
     },
     {
-      "actorId": "dc4912e5f14e4bfea9c78218",
+      "actor": "dc4912e5f14e4bfea9c78218",
       "character": {
         "name": "Rocket",
-        "imageUrl": "the_avengers_infinity_war_rocket.webp"
+        "image": "the_avengers_infinity_war_rocket.webp"
       }
     },
     {
-      "actorId": "bff8f185faaa1610320942aa",
+      "actor": "bff8f185faaa1610320942aa",
       "character": {
         "name": "Thanos",
-        "imageUrl": "the_avengers_infinity_war_thanos.webp"
+        "image": "the_avengers_infinity_war_thanos.webp"
       }
     }
   ],
@@ -221,7 +221,7 @@
       "nominations": [
         {
           "title": "Best Supporting Actor",
-          "actorId": "bff8f185faaa1610320942aa"
+          "actor": "bff8f185faaa1610320942aa"
         }
       ]
     }

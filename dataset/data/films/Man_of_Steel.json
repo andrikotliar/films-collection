@@ -65,67 +65,67 @@
   "duration": 143,
   "cast": [
     {
-      "actorId": "8b6677adf81a10fa756951ff",
+      "actor": "8b6677adf81a10fa756951ff",
       "character": {
         "name": "Clark Kent / Kal-El"
       }
     },
     {
-      "actorId": "8f9db7b562116db3822027d8",
+      "actor": "8f9db7b562116db3822027d8",
       "character": {
         "name": "Lois Lane"
       }
     },
     {
-      "actorId": "7b85c8710fe31c2a032298bc",
+      "actor": "7b85c8710fe31c2a032298bc",
       "character": {
         "name": "General Zod"
       }
     },
     {
-      "actorId": "6cf53fe9fb98ea48cbd3641d",
+      "actor": "6cf53fe9fb98ea48cbd3641d",
       "character": {
         "name": "Martha Kent"
       }
     },
     {
-      "actorId": "ac61193e410ffd730add8d67",
+      "actor": "ac61193e410ffd730add8d67",
       "character": {
         "name": "Jor-El"
       }
     },
     {
-      "actorId": "f9a12b33356f3b0b3a7a3a7f",
+      "actor": "f9a12b33356f3b0b3a7a3a7f",
       "character": {
         "name": "Faora-Ul"
       }
     },
     {
-      "actorId": "b1094d5a4c3819d770b6cf30",
+      "actor": "b1094d5a4c3819d770b6cf30",
       "character": {
         "name": "General Swanwick"
       }
     },
     {
-      "actorId": "1d4e68fce251c58b2f9f4d36",
+      "actor": "1d4e68fce251c58b2f9f4d36",
       "character": {
         "name": "Dr. Emil Hamilton"
       }
     },
     {
-      "actorId": "b0f2e6ee63fbb21a89eff3c2",
+      "actor": "b0f2e6ee63fbb21a89eff3c2",
       "character": {
         "name": "Colonel Nathan Hardy"
       }
     },
     {
-      "actorId": "725a8044192aa9f6bf196796",
+      "actor": "725a8044192aa9f6bf196796",
       "character": {
         "name": "Jonathan Kent"
       }
     },
     {
-      "actorId": "598ea6d5be8fe378787adde7",
+      "actor": "598ea6d5be8fe378787adde7",
       "character": {
         "name": "Perry White"
       }

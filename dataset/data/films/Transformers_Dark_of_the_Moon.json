@@ -65,72 +65,72 @@
   "duration": 154,
   "cast": [
     {
-      "actorId": "24ad64557f5cc8cebf8194ae",
+      "actor": "24ad64557f5cc8cebf8194ae",
       "character": {
         "name": "Sam Witwicky"
       }
     },
     {
-      "actorId": "50e72a2b7139609b018d343f",
+      "actor": "50e72a2b7139609b018d343f",
       "character": {
         "name": "Carly"
       }
     },
     {
-      "actorId": "34f40d0622d31ef4d6a23aa0",
+      "actor": "34f40d0622d31ef4d6a23aa0",
       "character": {
         "name": "Lennox"
       }
     },
     {
-      "actorId": "a830e599d126640fa1f7bb3b",
+      "actor": "a830e599d126640fa1f7bb3b",
       "character": {
         "name": "Simmons"
       }
     },
     {
-      "actorId": "643d66647de43eba364eb216",
+      "actor": "643d66647de43eba364eb216",
       "character": {
         "name": "Epps"
       }
     },
     {
-      "actorId": "79143a7f34e9d2a0e246696a",
+      "actor": "79143a7f34e9d2a0e246696a",
       "character": {
         "name": "Dylan"
       }
     },
     {
-      "actorId": "8880181107e794bf93aa83e4",
+      "actor": "8880181107e794bf93aa83e4",
       "character": {
         "name": "Mearing"
       }
     },
     {
-      "actorId": "007deb7fbecb28035630c140",
+      "actor": "007deb7fbecb28035630c140",
       "character": {
         "name": "Bruce Brazos"
       }
     },
     {
-      "actorId": "c8535012fe7ed7ca107c0fe2",
+      "actor": "c8535012fe7ed7ca107c0fe2",
       "character": {
         "name": "Optimus Prime",
-        "imageUrl": "transformers_dark_of_the_moon_optimus_prime.webp"
+        "image": "transformers_dark_of_the_moon_optimus_prime.webp"
       }
     },
     {
-      "actorId": "9d72ccad0a0c60872b91d2d3",
+      "actor": "9d72ccad0a0c60872b91d2d3",
       "character": {
         "name": "Megatron",
-        "imageUrl": "transformers_dark_of_the_moon_megatron.webp"
+        "image": "transformers_dark_of_the_moon_megatron.webp"
       }
     },
     {
-      "actorId": "f875b54ffaa4476a3545f977",
+      "actor": "f875b54ffaa4476a3545f977",
       "character": {
         "name": "Sentinel Prime",
-        "imageUrl": "transformers_dark_of_the_moon_sentinel_prime.webp"
+        "image": "transformers_dark_of_the_moon_sentinel_prime.webp"
       }
     }
   ],

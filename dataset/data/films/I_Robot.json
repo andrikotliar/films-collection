@@ -68,41 +68,41 @@
   "duration": 115,
   "cast": [
     {
-      "actorId": "b59613245389fb066c309182",
+      "actor": "b59613245389fb066c309182",
       "character": {
         "name": "Del Spooner"
       }
     },
     {
-      "actorId": "86b08307a14686fa649c9ce7",
+      "actor": "86b08307a14686fa649c9ce7",
       "character": {
         "name": "Susan Calvin"
       }
     },
     {
-      "actorId": "a5c580aab49791a22e7f3b74",
+      "actor": "a5c580aab49791a22e7f3b74",
       "character": {
         "name": "Sonny",
-        "imageUrl": "i_robot_sonny.webp"
+        "image": "i_robot_sonny.webp"
       }
     },
     {
-      "actorId": "7d0b7886d84ec7044be466c2",
+      "actor": "7d0b7886d84ec7044be466c2",
       "character": {
         "name": "Dr. Alfred Lanning"
       }
     },
     {
-      "actorId": "c96b8477b5c3f80695fd2d0e",
+      "actor": "c96b8477b5c3f80695fd2d0e",
       "character": {
         "name": "Lawrence Robertson"
       }
     },
     {
-      "actorId": "edad30aff236208021f6695b",
+      "actor": "edad30aff236208021f6695b",
       "character": {
         "name": "V.I.K.I.",
-        "imageUrl": "i_robot_viki.webp"
+        "image": "i_robot_viki.webp"
       }
     }
   ],

@@ -62,39 +62,39 @@
   "duration": 129,
   "cast": [
     {
-      "actorId": "7724f9a2549d742da5d02985",
+      "actor": "7724f9a2549d742da5d02985",
       "character": {
         "name": "Peter Parker / Spider-Man",
-        "imageUrl": "spider_man_far_from_home_peter_parker.webp"
+        "image": "spider_man_far_from_home_peter_parker.webp"
       }
     },
     {
-      "actorId": "644ca0c0a204f03134f45fbf",
+      "actor": "644ca0c0a204f03134f45fbf",
       "character": {
         "name": "Quentin Beck / Mysterio",
-        "imageUrl": "spider_man_far_from_home_quentin_beck.webp"
+        "image": "spider_man_far_from_home_quentin_beck.webp"
       }
     },
     {
-      "actorId": "b066e50c67b8ffebd4ea16ba",
+      "actor": "b066e50c67b8ffebd4ea16ba",
       "character": {
         "name": "Nick Fury"
       }
     },
     {
-      "actorId": "0538ae4342160abcc02ecf33",
+      "actor": "0538ae4342160abcc02ecf33",
       "character": {
         "name": "May Parker"
       }
     },
     {
-      "actorId": "1d64586d1509495ad522cffe",
+      "actor": "1d64586d1509495ad522cffe",
       "character": {
         "name": "Happy Hogan"
       }
     },
     {
-      "actorId": "107e7fb331c2103897a87ffa",
+      "actor": "107e7fb331c2103897a87ffa",
       "character": {
         "name": "MJ"
       }
@@ -112,11 +112,11 @@
       "nominations": [
         {
           "title": "Best Supporting Actress",
-          "actorId": "107e7fb331c2103897a87ffa"
+          "actor": "107e7fb331c2103897a87ffa"
         },
         {
           "title": "Best Performance by a Younger Actor",
-          "actorId": "7724f9a2549d742da5d02985"
+          "actor": "7724f9a2549d742da5d02985"
         }
       ]
     }

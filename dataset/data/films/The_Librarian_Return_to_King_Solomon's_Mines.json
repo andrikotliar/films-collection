@@ -59,43 +59,43 @@
   "duration": 95,
   "cast": [
     {
-      "actorId": "5682aa234be8275828a251fd",
+      "actor": "5682aa234be8275828a251fd",
       "character": {
         "name": "Flynn Carsen"
       }
     },
     {
-      "actorId": "8d08c0636b2536d2af407514",
+      "actor": "8d08c0636b2536d2af407514",
       "character": {
         "name": "Emily Davenport"
       }
     },
     {
-      "actorId": "c7d1e2a7bc4468f9de40f667",
+      "actor": "c7d1e2a7bc4468f9de40f667",
       "character": {
         "name": "Judson"
       }
     },
     {
-      "actorId": "ddef35144525bb2d00be1e2d",
+      "actor": "ddef35144525bb2d00be1e2d",
       "character": {
         "name": "Charlene"
       }
     },
     {
-      "actorId": "3ba6b72ed4ed8ba89ca219e0",
+      "actor": "3ba6b72ed4ed8ba89ca219e0",
       "character": {
         "name": "General Samir"
       }
     },
     {
-      "actorId": "86097f701d739edbb18eca3e",
+      "actor": "86097f701d739edbb18eca3e",
       "character": {
         "name": "Jomo"
       }
     },
     {
-      "actorId": "59a5879997110526cddf0687",
+      "actor": "59a5879997110526cddf0687",
       "character": {
         "name": "Tommy Yellow Hawk"
       }

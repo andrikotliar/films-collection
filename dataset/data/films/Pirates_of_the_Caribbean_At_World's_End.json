@@ -59,47 +59,47 @@
   "duration": 168,
   "cast": [
     {
-      "actorId": "22f4885dc5c22c8371ad2a3a",
+      "actor": "22f4885dc5c22c8371ad2a3a",
       "character": {
         "name": "Captain Jack Sparrow",
-        "imageUrl": "pirates_of_the_caribbean_at_world_s_end_captain_jack_sparrow"
+        "image": "pirates_of_the_caribbean_at_world_s_end_captain_jack_sparrow"
       }
     },
     {
-      "actorId": "506875a86231e077557d5523",
+      "actor": "506875a86231e077557d5523",
       "character": {
         "name": "Captain Hector Barbossa"
       }
     },
     {
-      "actorId": "450fa3d27820892d0f5afa0c",
+      "actor": "450fa3d27820892d0f5afa0c",
       "character": {
         "name": "Will Turner"
       }
     },
     {
-      "actorId": "b824178140c71e44c378864f",
+      "actor": "b824178140c71e44c378864f",
       "character": {
         "name": "Elizabeth Swann"
       }
     },
     {
-      "actorId": "e6cbdb90f81bf47f47288818",
+      "actor": "e6cbdb90f81bf47f47288818",
       "character": {
         "name": "Norrington"
       }
     },
     {
-      "actorId": "bbaf8ea10b5f80e21292406d",
+      "actor": "bbaf8ea10b5f80e21292406d",
       "character": {
         "name": "Cutler Beckett"
       }
     },
     {
-      "actorId": "8802990a47013f3cf0bd6332",
+      "actor": "8802990a47013f3cf0bd6332",
       "character": {
         "name": "Davy Jones",
-        "imageUrl": "pirates_of_the_caribbean_at_world_s_end_davy_jones"
+        "image": "pirates_of_the_caribbean_at_world_s_end_davy_jones"
       }
     }
   ],

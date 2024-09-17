@@ -60,31 +60,31 @@
   "duration": 98,
   "cast": [
     {
-      "actorId": "585bc630dfa836dd72779c8d",
+      "actor": "585bc630dfa836dd72779c8d",
       "character": {
         "name": "Agent Kay"
       }
     },
     {
-      "actorId": "b59613245389fb066c309182",
+      "actor": "b59613245389fb066c309182",
       "character": {
         "name": "Agent Jay"
       }
     },
     {
-      "actorId": "c77c28e2e76d0e04c9466729",
+      "actor": "c77c28e2e76d0e04c9466729",
       "character": {
         "name": "Laurel"
       }
     },
     {
-      "actorId": "46281b634ba77b5a747dfaa0",
+      "actor": "46281b634ba77b5a747dfaa0",
       "character": {
         "name": "Edgar"
       }
     },
     {
-      "actorId": "c9bd0790a6a1140723691088",
+      "actor": "c9bd0790a6a1140723691088",
       "character": {
         "name": "Z"
       }
@@ -113,7 +113,7 @@
         },
         {
           "title": "Best Supporting Actor",
-          "actorId": "46281b634ba77b5a747dfaa0"
+          "actor": "46281b634ba77b5a747dfaa0"
         },
         {
           "title": "Best Music"

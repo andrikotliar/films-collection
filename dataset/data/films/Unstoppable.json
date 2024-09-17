@@ -68,19 +68,19 @@
   "duration": 98,
   "cast": [
     {
-      "actorId": "e808814e06af237c43c31928",
+      "actor": "e808814e06af237c43c31928",
       "character": {
         "name": "Frank"
       }
     },
     {
-      "actorId": "3acb4259a5ddd7988015fa82",
+      "actor": "3acb4259a5ddd7988015fa82",
       "character": {
         "name": "Will"
       }
     },
     {
-      "actorId": "4fda865b59819a0d26c09697",
+      "actor": "4fda865b59819a0d26c09697",
       "character": {
         "name": "Connie"
       }

@@ -65,31 +65,31 @@
   "duration": 133,
   "cast": [
     {
-      "actorId": "d1899eef1c53bc13798a897c",
+      "actor": "d1899eef1c53bc13798a897c",
       "character": {
         "name": "Ethan Hunt"
       }
     },
     {
-      "actorId": "dbed75996832076f78882cf8",
+      "actor": "dbed75996832076f78882cf8",
       "character": {
         "name": "Jane"
       }
     },
     {
-      "actorId": "2e7736bf7187e688395d7a2c",
+      "actor": "2e7736bf7187e688395d7a2c",
       "character": {
         "name": "Benji"
       }
     },
     {
-      "actorId": "333fe7873ab5451125a195a7",
+      "actor": "333fe7873ab5451125a195a7",
       "character": {
         "name": "Brandt"
       }
     },
     {
-      "actorId": "c418b9e3237cdf8d4c085bbe",
+      "actor": "c418b9e3237cdf8d4c085bbe",
       "character": {
         "name": "Hendricks"
       }

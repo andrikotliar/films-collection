@@ -60,65 +60,65 @@
   "duration": 138,
   "cast": [
     {
-      "actorId": "7cd730dd761c711d4467bce0",
+      "actor": "7cd730dd761c711d4467bce0",
       "character": {
         "name": "Harry Potter",
-        "imageUrl": "harry_potter_and_the_order_of_the_phoenix_harry_potter.webp"
+        "image": "harry_potter_and_the_order_of_the_phoenix_harry_potter.webp"
       }
     },
     {
-      "actorId": "076188ec6b66a2c4a62fdab1",
+      "actor": "076188ec6b66a2c4a62fdab1",
       "character": {
         "name": "Ron Weasley",
-        "imageUrl": "harry_potter_and_the_order_of_the_phoenix_ron_weasley.webp"
+        "image": "harry_potter_and_the_order_of_the_phoenix_ron_weasley.webp"
       }
     },
     {
-      "actorId": "3f0004fa95271000de67d1f4",
+      "actor": "3f0004fa95271000de67d1f4",
       "character": {
         "name": "Hermione Granger",
-        "imageUrl": "harry_potter_and_the_order_of_the_phoenix_hermione_granger.webp"
+        "image": "harry_potter_and_the_order_of_the_phoenix_hermione_granger.webp"
       }
     },
     {
-      "actorId": "a03a7c1a8a396d3211b9b317",
+      "actor": "a03a7c1a8a396d3211b9b317",
       "character": {
         "name": "Sirius Black"
       }
     },
     {
-      "actorId": "25210612f77f5f5a4c51dc56",
+      "actor": "25210612f77f5f5a4c51dc56",
       "character": {
         "name": "Lord Voldemort",
-        "imageUrl": "harry_potter_and_the_order_of_the_phoenix_lord_voldemort.webp"
+        "image": "harry_potter_and_the_order_of_the_phoenix_lord_voldemort.webp"
       }
     },
     {
-      "actorId": "3b199225d30dcacad47776ab",
+      "actor": "3b199225d30dcacad47776ab",
       "character": {
         "name": "Dolores Umbridge"
       }
     },
     {
-      "actorId": "5cd30ae8b35b8110d0a1bc75",
+      "actor": "5cd30ae8b35b8110d0a1bc75",
       "character": {
         "name": "Albus Dumbledore"
       }
     },
     {
-      "actorId": "5aea15b4e9912ad7b3a2241e",
+      "actor": "5aea15b4e9912ad7b3a2241e",
       "character": {
         "name": "Rubeus Hagrid"
       }
     },
     {
-      "actorId": "aca6f583677ffb4c7f38d469",
+      "actor": "aca6f583677ffb4c7f38d469",
       "character": {
         "name": "Draco Malfoy"
       }
     },
     {
-      "actorId": "9433a6747c6cfc354fed7e65",
+      "actor": "9433a6747c6cfc354fed7e65",
       "character": {
         "name": "Severus Snape"
       }

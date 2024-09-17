@@ -152,91 +152,91 @@
   "duration": 1275,
   "cast": [
     {
-      "actorId": "f49c1aa95b7c6f032daebb75",
+      "actor": "f49c1aa95b7c6f032daebb75",
       "character": {
         "name": "Joyce Byers"
       }
     },
     {
-      "actorId": "99e2f170a8daaceec4fbd744",
+      "actor": "99e2f170a8daaceec4fbd744",
       "character": {
         "name": "Jim Hopper"
       }
     },
     {
-      "actorId": "d019a63f76f47b47d27ef05a",
+      "actor": "d019a63f76f47b47d27ef05a",
       "character": {
         "name": "Mike Wheeler"
       }
     },
     {
-      "actorId": "659e91d82995beb75589a6a1",
+      "actor": "659e91d82995beb75589a6a1",
       "character": {
         "name": "Eleven"
       }
     },
     {
-      "actorId": "64816fa45482db3b1be1dcf2",
+      "actor": "64816fa45482db3b1be1dcf2",
       "character": {
         "name": "Dustin Henderson"
       }
     },
     {
-      "actorId": "364ebbb6042bc006926cf999",
+      "actor": "364ebbb6042bc006926cf999",
       "character": {
         "name": "Lucas Sinclair"
       }
     },
     {
-      "actorId": "8ea74b1c9a04eff00385489f",
+      "actor": "8ea74b1c9a04eff00385489f",
       "character": {
         "name": "Nancy Wheeler"
       }
     },
     {
-      "actorId": "9beee3e1311dcffdfcc06263",
+      "actor": "9beee3e1311dcffdfcc06263",
       "character": {
         "name": "Jonathan Byers"
       }
     },
     {
-      "actorId": "a58ffdce020ad237e2013ece",
+      "actor": "a58ffdce020ad237e2013ece",
       "character": {
         "name": "Steve Harrington"
       }
     },
     {
-      "actorId": "c5578f884df0cb8b46cd43b8",
+      "actor": "c5578f884df0cb8b46cd43b8",
       "character": {
         "name": "Will Byers"
       }
     },
     {
-      "actorId": "ae59b91d424e2bfb80aa5ddb",
+      "actor": "ae59b91d424e2bfb80aa5ddb",
       "character": {
         "name": "Dr. Martin Brenner"
       }
     },
     {
-      "actorId": "b8abdc76173c8624a4ff5c8e",
+      "actor": "b8abdc76173c8624a4ff5c8e",
       "character": {
         "name": "Max Mayfield"
       }
     },
     {
-      "actorId": "17b454c32564b8ecc3eaeef8",
+      "actor": "17b454c32564b8ecc3eaeef8",
       "character": {
         "name": "Eddie Munson"
       }
     },
     {
-      "actorId": "28a97f2df4abf759d00511f3",
+      "actor": "28a97f2df4abf759d00511f3",
       "character": {
         "name": "Vecna"
       }
     },
     {
-      "actorId": "7d6b2c4c91b6daad7ababf0e",
+      "actor": "7d6b2c4c91b6daad7ababf0e",
       "character": {
         "name": "Billy Hargrove"
       }
@@ -257,11 +257,11 @@
       "nominations": [
         {
           "title": "Best Performance by a Younger Actor in a Television Series",
-          "actorId": "659e91d82995beb75589a6a1"
+          "actor": "659e91d82995beb75589a6a1"
         },
         {
           "title": "Best Supporting Actress in Streaming Presentation",
-          "actorId": "d019a63f76f47b47d27ef05a"
+          "actor": "d019a63f76f47b47d27ef05a"
         },
         {
           "title": "Best Streaming horror & thriller Series",
@@ -277,7 +277,7 @@
       "nominations": [
         {
           "title": "Best Supporting Actor in a drama Series",
-          "actorId": "99e2f170a8daaceec4fbd744"
+          "actor": "99e2f170a8daaceec4fbd744"
         }
       ]
     },

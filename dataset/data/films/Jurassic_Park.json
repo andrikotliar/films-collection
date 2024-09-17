@@ -62,37 +62,37 @@
   "duration": 127,
   "cast": [
     {
-      "actorId": "2481ddc7d8be875f8b2be84e",
+      "actor": "2481ddc7d8be875f8b2be84e",
       "character": {
         "name": "Grant"
       }
     },
     {
-      "actorId": "447021eba8815c4ef5979744",
+      "actor": "447021eba8815c4ef5979744",
       "character": {
         "name": "Ellie"
       }
     },
     {
-      "actorId": "ffe7655111ebb548aeea0a19",
+      "actor": "ffe7655111ebb548aeea0a19",
       "character": {
         "name": "Malcolm"
       }
     },
     {
-      "actorId": "0c2791ec84298bfbf0113104",
+      "actor": "0c2791ec84298bfbf0113104",
       "character": {
         "name": "Hammond"
       }
     },
     {
-      "actorId": "28bffad188c4ad2e2f4c4407",
+      "actor": "28bffad188c4ad2e2f4c4407",
       "character": {
         "name": "Tim"
       }
     },
     {
-      "actorId": "ffef45b0f3b1674f895123c3",
+      "actor": "ffef45b0f3b1674f895123c3",
       "character": {
         "name": "Lex"
       }

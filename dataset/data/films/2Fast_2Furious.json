@@ -59,31 +59,31 @@
   "duration": 108,
   "cast": [
     {
-      "actorId": "61f64cb0f58dc3c12fc0c193",
+      "actor": "61f64cb0f58dc3c12fc0c193",
       "character": {
         "name": "Brian O'Conner"
       }
     },
     {
-      "actorId": "643d66647de43eba364eb216",
+      "actor": "643d66647de43eba364eb216",
       "character": {
         "name": "Roman Pearce"
       }
     },
     {
-      "actorId": "0ede821f7322bc3b013ad22f",
+      "actor": "0ede821f7322bc3b013ad22f",
       "character": {
         "name": "Monica Fuentes"
       }
     },
     {
-      "actorId": "02056a814fe2f6966ff7796f",
+      "actor": "02056a814fe2f6966ff7796f",
       "character": {
         "name": "Carter Verone"
       }
     },
     {
-      "actorId": "a461b95f153afa4d441b27b3",
+      "actor": "a461b95f153afa4d441b27b3",
       "character": {
         "name": "Tej"
       }

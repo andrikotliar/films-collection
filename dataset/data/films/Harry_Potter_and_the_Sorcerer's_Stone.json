@@ -57,53 +57,53 @@
   "duration": 152,
   "cast": [
     {
-      "actorId": "7cd730dd761c711d4467bce0",
+      "actor": "7cd730dd761c711d4467bce0",
       "character": {
         "name": "Harry Potter",
-        "imageUrl": "harry_potter_and_the_sorcerer_s_stone_harry_potter"
+        "image": "harry_potter_and_the_sorcerer_s_stone_harry_potter"
       }
     },
     {
-      "actorId": "076188ec6b66a2c4a62fdab1",
+      "actor": "076188ec6b66a2c4a62fdab1",
       "character": {
         "name": "Ron Weasley",
-        "imageUrl": "harry_potter_and_the_sorcerer_s_stone_ron_weasley"
+        "image": "harry_potter_and_the_sorcerer_s_stone_ron_weasley"
       }
     },
     {
-      "actorId": "3f0004fa95271000de67d1f4",
+      "actor": "3f0004fa95271000de67d1f4",
       "character": {
         "name": "Hermione Granger",
-        "imageUrl": "harry_potter_and_the_sorcerer_s_stone_hermione_granger"
+        "image": "harry_potter_and_the_sorcerer_s_stone_hermione_granger"
       }
     },
     {
-      "actorId": "5cd30ae8b35b8110d0a1bc75",
+      "actor": "5cd30ae8b35b8110d0a1bc75",
       "character": {
         "name": "Albus Dumbledore"
       }
     },
     {
-      "actorId": "5aea15b4e9912ad7b3a2241e",
+      "actor": "5aea15b4e9912ad7b3a2241e",
       "character": {
         "name": "Rubeus Hagrid"
       }
     },
     {
-      "actorId": "f4f7443c387c2869cd0d3f56",
+      "actor": "f4f7443c387c2869cd0d3f56",
       "character": {
         "name": "Quirinus Quirrell"
       }
     },
     {
-      "actorId": "aca6f583677ffb4c7f38d469",
+      "actor": "aca6f583677ffb4c7f38d469",
       "character": {
         "name": "Draco Malfoy",
-        "imageUrl": "harry_potter_and_the_sorcerer_s_stone_draco_malfoy"
+        "image": "harry_potter_and_the_sorcerer_s_stone_draco_malfoy"
       }
     },
     {
-      "actorId": "9433a6747c6cfc354fed7e65",
+      "actor": "9433a6747c6cfc354fed7e65",
       "character": {
         "name": "Severus Snape"
       }

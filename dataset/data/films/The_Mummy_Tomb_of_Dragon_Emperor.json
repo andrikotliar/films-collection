@@ -62,49 +62,49 @@
   "duration": 112,
   "cast": [
     {
-      "actorId": "5007865fcfa27f77a5caa971",
+      "actor": "5007865fcfa27f77a5caa971",
       "character": {
         "name": "Rick O'Connell"
       }
     },
     {
-      "actorId": "1e8aac5ce8af75bdfd3e33a6",
+      "actor": "1e8aac5ce8af75bdfd3e33a6",
       "character": {
         "name": "Emperor"
       }
     },
     {
-      "actorId": "a80a3b7c665a551be82c408c",
+      "actor": "a80a3b7c665a551be82c408c",
       "character": {
         "name": "Evelyn O'Connell"
       }
     },
     {
-      "actorId": "182db493d2b81619d210955c",
+      "actor": "182db493d2b81619d210955c",
       "character": {
         "name": "Jonathan Carnahan"
       }
     },
     {
-      "actorId": "df635dbc084250870e7144af",
+      "actor": "df635dbc084250870e7144af",
       "character": {
         "name": "Zi Yuan"
       }
     },
     {
-      "actorId": "159706dc9289c91100ef83ad",
+      "actor": "159706dc9289c91100ef83ad",
       "character": {
         "name": "Alex O'Connell"
       }
     },
     {
-      "actorId": "e44944e996abfd38138c2316",
+      "actor": "e44944e996abfd38138c2316",
       "character": {
         "name": "Lin"
       }
     },
     {
-      "actorId": "b43571ee465e85b03faa67f9",
+      "actor": "b43571ee465e85b03faa67f9",
       "character": {
         "name": "Ming Guo"
       }

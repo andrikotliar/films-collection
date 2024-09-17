@@ -59,25 +59,25 @@
   "duration": 129,
   "cast": [
     {
-      "actorId": "ffe7655111ebb548aeea0a19",
+      "actor": "ffe7655111ebb548aeea0a19",
       "character": {
         "name": "Malcolm"
       }
     },
     {
-      "actorId": "0c2791ec84298bfbf0113104",
+      "actor": "0c2791ec84298bfbf0113104",
       "character": {
         "name": "Hammond"
       }
     },
     {
-      "actorId": "d8b1bdb11b24e877a1c19436",
+      "actor": "d8b1bdb11b24e877a1c19436",
       "character": {
         "name": "Sarah Harding"
       }
     },
     {
-      "actorId": "33d8b38be58c1aa4ce2bcef0",
+      "actor": "33d8b38be58c1aa4ce2bcef0",
       "character": {
         "name": "Peter Ludlow"
       }

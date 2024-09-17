@@ -68,62 +68,62 @@
   "duration": 140,
   "cast": [
     {
-      "actorId": "b794f150c4436f17ba9bd9f1",
+      "actor": "b794f150c4436f17ba9bd9f1",
       "character": {
         "name": "Bruce Wayne / Batman",
-        "imageUrl": "batman_begins_bruce_wayne.webp"
+        "image": "batman_begins_bruce_wayne.webp"
       }
     },
     {
-      "actorId": "68a6bf55b5f042549fda0642",
+      "actor": "68a6bf55b5f042549fda0642",
       "character": {
         "name": "Alfred"
       }
     },
     {
-      "actorId": "017e02072132c3a7ad26b56e",
+      "actor": "017e02072132c3a7ad26b56e",
       "character": {
         "name": "Anri Ducard / Ra's al Ghul"
       }
     },
     {
-      "actorId": "d868255b3a88ba5703bd526a",
+      "actor": "d868255b3a88ba5703bd526a",
       "character": {
         "name": "Rachel Dawes"
       }
     },
     {
-      "actorId": "a03a7c1a8a396d3211b9b317",
+      "actor": "a03a7c1a8a396d3211b9b317",
       "character": {
         "name": "Jim Gordon"
       }
     },
     {
-      "actorId": "fe1abb15a45afafd3263a771",
+      "actor": "fe1abb15a45afafd3263a771",
       "character": {
         "name": "Dr. Jonathan Crane / The Scarecrow"
       }
     },
     {
-      "actorId": "050465e1990ba7d5eea1681d",
+      "actor": "050465e1990ba7d5eea1681d",
       "character": {
         "name": "Carmine Falcone"
       }
     },
     {
-      "actorId": "21a931a7f55de1d5ddc6e68b",
+      "actor": "21a931a7f55de1d5ddc6e68b",
       "character": {
         "name": "Earle"
       }
     },
     {
-      "actorId": "327088b7b64f3ac9a97651b1",
+      "actor": "327088b7b64f3ac9a97651b1",
       "character": {
         "name": "Ra's Al Ghul"
       }
     },
     {
-      "actorId": "6baca3c5f3dcf4fb1271cb34",
+      "actor": "6baca3c5f3dcf4fb1271cb34",
       "character": {
         "name": "Lucius Fox"
       }
@@ -144,7 +144,7 @@
         },
         {
           "title": "Best Actor",
-          "actorId": "b794f150c4436f17ba9bd9f1"
+          "actor": "b794f150c4436f17ba9bd9f1"
         },
         {
           "title": "Best Writing"
@@ -156,7 +156,7 @@
       "nominations": [
         {
           "title": "Best Hero",
-          "actorId": "b794f150c4436f17ba9bd9f1"
+          "actor": "b794f150c4436f17ba9bd9f1"
         }
       ]
     }

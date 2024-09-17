@@ -65,49 +65,49 @@
   "duration": 330,
   "cast": [
     {
-      "actorId": "64bedf38344e5978d2b55e18",
+      "actor": "64bedf38344e5978d2b55e18",
       "character": {
         "name": "Valery Legasov"
       }
     },
     {
-      "actorId": "3090a68b40a7bfda7b1d93b8",
+      "actor": "3090a68b40a7bfda7b1d93b8",
       "character": {
         "name": "Boris Shcherbina"
       }
     },
     {
-      "actorId": "4df98a4858eefaa203044db9",
+      "actor": "4df98a4858eefaa203044db9",
       "character": {
         "name": "Ulana Khomyuk"
       }
     },
     {
-      "actorId": "b63f3434e1127a9315a1a9b0",
+      "actor": "b63f3434e1127a9315a1a9b0",
       "character": {
         "name": "Anatoly Dyatlov"
       }
     },
     {
-      "actorId": "efddf25eb3b97778be53c763",
+      "actor": "efddf25eb3b97778be53c763",
       "character": {
         "name": "Leonid Toptunov"
       }
     },
     {
-      "actorId": "76050d7c37d6233c0432062f",
+      "actor": "76050d7c37d6233c0432062f",
       "character": {
         "name": "Alexandr Akimov"
       }
     },
     {
-      "actorId": "b1836ba76b680e5f338a2011",
+      "actor": "b1836ba76b680e5f338a2011",
       "character": {
         "name": "Lyudmilla Ignatenko"
       }
     },
     {
-      "actorId": "a34608b05c0bb3a0cce62eaf",
+      "actor": "a34608b05c0bb3a0cce62eaf",
       "character": {
         "name": "Vasily Ignatenko"
       }
@@ -159,7 +159,7 @@
       "nominations": [
         {
           "title": "Leading Actor",
-          "actorId": "64bedf38344e5978d2b55e18"
+          "actor": "64bedf38344e5978d2b55e18"
         },
         {
           "title": "Mini-Series"
@@ -167,7 +167,7 @@
         {
           "title": "Supporting Actor",
           "comment": "as Boris Shcherbina",
-          "actorId": "3090a68b40a7bfda7b1d93b8"
+          "actor": "3090a68b40a7bfda7b1d93b8"
         }
       ]
     },
@@ -177,7 +177,7 @@
         {
           "title": "Best Supporting Actor in a Limited Series or Movie Made for Television",
           "comment": "as Boris Shcherbina",
-          "actorId": "3090a68b40a7bfda7b1d93b8"
+          "actor": "3090a68b40a7bfda7b1d93b8"
         }
       ]
     }

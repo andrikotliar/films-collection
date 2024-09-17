@@ -63,52 +63,52 @@
   "duration": 117,
   "cast": [
     {
-      "actorId": "ca74e2b4d921daf8283f1f08",
+      "actor": "ca74e2b4d921daf8283f1f08",
       "character": {
         "name": "Ripley"
       }
     },
     {
-      "actorId": "5173c305fe5f72483f5ca5ef",
+      "actor": "5173c305fe5f72483f5ca5ef",
       "character": {
         "name": "Dallas"
       }
     },
     {
-      "actorId": "9dfc4b1c77cee089482ec245",
+      "actor": "9dfc4b1c77cee089482ec245",
       "character": {
         "name": "Lambert"
       }
     },
     {
-      "actorId": "42802b51f97bc9969b14993c",
+      "actor": "42802b51f97bc9969b14993c",
       "character": {
         "name": "Brett"
       }
     },
     {
-      "actorId": "e8a0a4dd975bb9aba822de75",
+      "actor": "e8a0a4dd975bb9aba822de75",
       "character": {
         "name": "Kane"
       }
     },
     {
-      "actorId": "7619a1dbce75b71bad02d766",
+      "actor": "7619a1dbce75b71bad02d766",
       "character": {
         "name": "Ash"
       }
     },
     {
-      "actorId": "d7e1cfccf84de611b07ece73",
+      "actor": "d7e1cfccf84de611b07ece73",
       "character": {
         "name": "Parker"
       }
     },
     {
-      "actorId": "73da3fc4ef4cd0dc8ab9d338",
+      "actor": "73da3fc4ef4cd0dc8ab9d338",
       "character": {
         "name": "Alien",
-        "imageUrl": "alien_alien.webp"
+        "image": "alien_alien.webp"
       }
     }
   ],
@@ -149,7 +149,7 @@
         },
         {
           "title": "Best Supporting Actress",
-          "actorId": "9dfc4b1c77cee089482ec245"
+          "actor": "9dfc4b1c77cee089482ec245"
         },
         {
           "title": "Best Director"

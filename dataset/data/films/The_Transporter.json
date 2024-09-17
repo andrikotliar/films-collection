@@ -65,31 +65,31 @@
   "duration": 92,
   "cast": [
     {
-      "actorId": "de0e3c154d6e85358e70d67b",
+      "actor": "de0e3c154d6e85358e70d67b",
       "character": {
         "name": "Frank Martin"
       }
     },
     {
-      "actorId": "0e3195f166af871176d9342d",
+      "actor": "0e3195f166af871176d9342d",
       "character": {
         "name": "Lai"
       }
     },
     {
-      "actorId": "5dd235b43a3f52f2ab92f2dd",
+      "actor": "5dd235b43a3f52f2ab92f2dd",
       "character": {
         "name": "Wall Street"
       }
     },
     {
-      "actorId": "27701bc9dbcd310c14d85191",
+      "actor": "27701bc9dbcd310c14d85191",
       "character": {
         "name": "Inspector Tarconi"
       }
     },
     {
-      "actorId": "83eaf5cba7d6f097b7c1f9a0",
+      "actor": "83eaf5cba7d6f097b7c1f9a0",
       "character": {
         "name": "Mr. Kwai"
       }

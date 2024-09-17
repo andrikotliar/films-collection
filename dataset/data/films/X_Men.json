@@ -59,68 +59,68 @@
   "duration": 104,
   "cast": [
     {
-      "actorId": "544abb6ffddc8ddf4056b862",
+      "actor": "544abb6ffddc8ddf4056b862",
       "character": {
         "name": "Logan / Wolverine"
       }
     },
     {
-      "actorId": "a1b52bbc28ac6c198e877b39",
+      "actor": "a1b52bbc28ac6c198e877b39",
       "character": {
         "name": "Professor Charles Xavier"
       }
     },
     {
-      "actorId": "aa9b2474d8c4c51e34160de8",
+      "actor": "aa9b2474d8c4c51e34160de8",
       "character": {
         "name": "Eric Lensherr / Magneto"
       }
     },
     {
-      "actorId": "d5fc3f286280bd87817fbca7",
+      "actor": "d5fc3f286280bd87817fbca7",
       "character": {
         "name": "Jean Grey"
       }
     },
     {
-      "actorId": "525beb4c90894e34b294cef6",
+      "actor": "525beb4c90894e34b294cef6",
       "character": {
         "name": "Scott Summers / Cyclops"
       }
     },
     {
-      "actorId": "bb3c268d0e1fceec2b8b8d58",
+      "actor": "bb3c268d0e1fceec2b8b8d58",
       "character": {
         "name": "Ororo Munroe / Storm"
       }
     },
     {
-      "actorId": "b3406982f9ef021d2d13e050",
+      "actor": "b3406982f9ef021d2d13e050",
       "character": {
         "name": "Rogue"
       }
     },
     {
-      "actorId": "3fbabd868b2b97b87b46562b",
+      "actor": "3fbabd868b2b97b87b46562b",
       "character": {
         "name": "Sabretooth"
       }
     },
     {
-      "actorId": "abaad933abd664bb6b32bef0",
+      "actor": "abaad933abd664bb6b32bef0",
       "character": {
         "name": "Toad"
       }
     },
     {
-      "actorId": "d3d49fa0c570c7084aace0d7",
+      "actor": "d3d49fa0c570c7084aace0d7",
       "character": {
         "name": "Mystique",
-        "imageUrl": "x_men_mystique.webp"
+        "image": "x_men_mystique.webp"
       }
     },
     {
-      "actorId": "6aaf070b072c871251091c91",
+      "actor": "6aaf070b072c871251091c91",
       "character": {
         "name": "Senator Kelly"
       }
@@ -141,11 +141,11 @@
         },
         {
           "title": "Best Actor",
-          "actorId": "544abb6ffddc8ddf4056b862"
+          "actor": "544abb6ffddc8ddf4056b862"
         },
         {
           "title": "Best Supporting Actress",
-          "actorId": "d3d49fa0c570c7084aace0d7"
+          "actor": "d3d49fa0c570c7084aace0d7"
         },
         {
           "title": "Best Director"

@@ -63,31 +63,31 @@
   "duration": 126,
   "cast": [
     {
-      "actorId": "544abb6ffddc8ddf4056b862",
+      "actor": "544abb6ffddc8ddf4056b862",
       "character": {
         "name": "Logan"
       }
     },
     {
-      "actorId": "56b7ae98211d125abbedc71d",
+      "actor": "56b7ae98211d125abbedc71d",
       "character": {
         "name": "Mariko Yashida"
       }
     },
     {
-      "actorId": "8eb0259bbb2844ba1103e0bd",
+      "actor": "8eb0259bbb2844ba1103e0bd",
       "character": {
         "name": "Shingen Yashida"
       }
     },
     {
-      "actorId": "2689f49ce18fe1b19f96b223",
+      "actor": "2689f49ce18fe1b19f96b223",
       "character": {
         "name": "Yukio"
       }
     },
     {
-      "actorId": "8a3b8628f312f47ba432f8a0",
+      "actor": "8a3b8628f312f47ba432f8a0",
       "character": {
         "name": "Dr. Green / Viper"
       }

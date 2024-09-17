@@ -62,43 +62,43 @@
   "duration": 115,
   "cast": [
     {
-      "actorId": "b794f150c4436f17ba9bd9f1",
+      "actor": "b794f150c4436f17ba9bd9f1",
       "character": {
         "name": "John Connor"
       }
     },
     {
-      "actorId": "ab25ed81fbee90d0a29d7c92",
+      "actor": "ab25ed81fbee90d0a29d7c92",
       "character": {
         "name": "Marcus Wright"
       }
     },
     {
-      "actorId": "d0b0f26c1f403a07ec81d884",
+      "actor": "d0b0f26c1f403a07ec81d884",
       "character": {
         "name": "Blair Williams"
       }
     },
     {
-      "actorId": "b5e7e795de1f87df92309e3a",
+      "actor": "b5e7e795de1f87df92309e3a",
       "character": {
         "name": "Dr. Serena Kogan"
       }
     },
     {
-      "actorId": "f03c91b058f5592f442fd2cd",
+      "actor": "f03c91b058f5592f442fd2cd",
       "character": {
         "name": "Kyle Reese"
       }
     },
     {
-      "actorId": "46174a55c1f6d46f99b2f9c7",
+      "actor": "46174a55c1f6d46f99b2f9c7",
       "character": {
         "name": "Star"
       }
     },
     {
-      "actorId": "5a9e20efcb26cd9589817c6d",
+      "actor": "5a9e20efcb26cd9589817c6d",
       "character": {
         "name": "Kate Connor"
       }

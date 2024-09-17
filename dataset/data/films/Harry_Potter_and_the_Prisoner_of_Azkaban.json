@@ -63,64 +63,64 @@
   "duration": 142,
   "cast": [
     {
-      "actorId": "7cd730dd761c711d4467bce0",
+      "actor": "7cd730dd761c711d4467bce0",
       "character": {
         "name": "Harry Potter",
-        "imageUrl": "harry_potter_and_the_prisoner_of_azkaban_harry_potter.webp"
+        "image": "harry_potter_and_the_prisoner_of_azkaban_harry_potter.webp"
       }
     },
     {
-      "actorId": "076188ec6b66a2c4a62fdab1",
+      "actor": "076188ec6b66a2c4a62fdab1",
       "character": {
         "name": "Ron Weasley",
-        "imageUrl": "harry_potter_and_the_prisoner_of_azkaban_ron_weasley.webp"
+        "image": "harry_potter_and_the_prisoner_of_azkaban_ron_weasley.webp"
       }
     },
     {
-      "actorId": "3f0004fa95271000de67d1f4",
+      "actor": "3f0004fa95271000de67d1f4",
       "character": {
         "name": "Hermione Granger",
-        "imageUrl": "harry_potter_and_the_prisoner_of_azkaban_hermione_granger.webp"
+        "image": "harry_potter_and_the_prisoner_of_azkaban_hermione_granger.webp"
       }
     },
     {
-      "actorId": "a03a7c1a8a396d3211b9b317",
+      "actor": "a03a7c1a8a396d3211b9b317",
       "character": {
         "name": "Sirius Black"
       }
     },
     {
-      "actorId": "5cd30ae8b35b8110d0a1bc75",
+      "actor": "5cd30ae8b35b8110d0a1bc75",
       "character": {
         "name": "Albus Dumbledore"
       }
     },
     {
-      "actorId": "5aea15b4e9912ad7b3a2241e",
+      "actor": "5aea15b4e9912ad7b3a2241e",
       "character": {
         "name": "Rubeus Hagrid"
       }
     },
     {
-      "actorId": "aca6f583677ffb4c7f38d469",
+      "actor": "aca6f583677ffb4c7f38d469",
       "character": {
         "name": "Draco Malfoy"
       }
     },
     {
-      "actorId": "9433a6747c6cfc354fed7e65",
+      "actor": "9433a6747c6cfc354fed7e65",
       "character": {
         "name": "Severus Snape"
       }
     },
     {
-      "actorId": "8220d1e507128ef20527db35",
+      "actor": "8220d1e507128ef20527db35",
       "character": {
         "name": "Professor Lupin"
       }
     },
     {
-      "actorId": "5f9f55af5a7d7527299b7b92",
+      "actor": "5f9f55af5a7d7527299b7b92",
       "character": {
         "name": "Peter Pettigrew"
       }

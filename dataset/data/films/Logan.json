@@ -65,55 +65,55 @@
   "duration": 137,
   "cast": [
     {
-      "actorId": "544abb6ffddc8ddf4056b862",
+      "actor": "544abb6ffddc8ddf4056b862",
       "character": {
         "name": "Logan / X-24"
       }
     },
     {
-      "actorId": "a1b52bbc28ac6c198e877b39",
+      "actor": "a1b52bbc28ac6c198e877b39",
       "character": {
         "name": "Charles"
       }
     },
     {
-      "actorId": "98ed0fd5c7e89b4a0429087c",
+      "actor": "98ed0fd5c7e89b4a0429087c",
       "character": {
         "name": "Laura"
       }
     },
     {
-      "actorId": "f6e92c1e10e873fd298fffa4",
+      "actor": "f6e92c1e10e873fd298fffa4",
       "character": {
         "name": "Pierce"
       }
     },
     {
-      "actorId": "03c223a4d5e220393d14d8a0",
+      "actor": "03c223a4d5e220393d14d8a0",
       "character": {
         "name": "Caliban"
       }
     },
     {
-      "actorId": "73c3cb57af28d23bd2920ac5",
+      "actor": "73c3cb57af28d23bd2920ac5",
       "character": {
         "name": "Gabriela"
       }
     },
     {
-      "actorId": "a274851913f05ad2b83c945e",
+      "actor": "a274851913f05ad2b83c945e",
       "character": {
         "name": "Dr. Rice"
       }
     },
     {
-      "actorId": "32144ea4bdcf2c324a4fd893",
+      "actor": "32144ea4bdcf2c324a4fd893",
       "character": {
         "name": "Will Munson"
       }
     },
     {
-      "actorId": "521a12f50fdc53cbc1142361",
+      "actor": "521a12f50fdc53cbc1142361",
       "character": {
         "name": "Kathryn Munson"
       }
@@ -131,7 +131,7 @@
       "nominations": [
         {
           "title": "Best Supporting Actor",
-          "actorId": "a1b52bbc28ac6c198e877b39"
+          "actor": "a1b52bbc28ac6c198e877b39"
         }
       ]
     },

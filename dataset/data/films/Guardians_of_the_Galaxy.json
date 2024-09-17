@@ -59,80 +59,80 @@
   "duration": 122,
   "cast": [
     {
-      "actorId": "81002d63c8ad158916752ee2",
+      "actor": "81002d63c8ad158916752ee2",
       "character": {
         "name": "Peter Quill / Star-Lord"
       }
     },
     {
-      "actorId": "0f44c8581608c442261413e4",
+      "actor": "0f44c8581608c442261413e4",
       "character": {
         "name": "Gamora",
-        "imageUrl": "guardians_of_the_galaxy_gamora.webp"
+        "image": "guardians_of_the_galaxy_gamora.webp"
       }
     },
     {
-      "actorId": "6e7815767f3afa70c3dc69c5",
+      "actor": "6e7815767f3afa70c3dc69c5",
       "character": {
         "name": "Drax",
-        "imageUrl": "guardians_of_the_galaxy_drax.webp"
+        "image": "guardians_of_the_galaxy_drax.webp"
       }
     },
     {
-      "actorId": "8acb4ceb24e197fffd95c777",
+      "actor": "8acb4ceb24e197fffd95c777",
       "character": {
         "name": "Groot",
-        "imageUrl": "guardians_of_the_galaxy_groot.webp"
+        "image": "guardians_of_the_galaxy_groot.webp"
       }
     },
     {
-      "actorId": "dc4912e5f14e4bfea9c78218",
+      "actor": "dc4912e5f14e4bfea9c78218",
       "character": {
         "name": "Rocket",
-        "imageUrl": "guardians_of_the_galaxy_rocket.webp"
+        "image": "guardians_of_the_galaxy_rocket.webp"
       }
     },
     {
-      "actorId": "5bee10a2e1b3001d59166ccd",
+      "actor": "5bee10a2e1b3001d59166ccd",
       "character": {
         "name": "Ronan",
-        "imageUrl": "guardians_of_the_galaxy_ronan.webp"
+        "image": "guardians_of_the_galaxy_ronan.webp"
       }
     },
     {
-      "actorId": "b99fd4cb12dd52764f91df15",
+      "actor": "b99fd4cb12dd52764f91df15",
       "character": {
         "name": "Yondu Udonta",
-        "imageUrl": "guardians_of_the_galaxy_yondu_udonta.webp"
+        "image": "guardians_of_the_galaxy_yondu_udonta.webp"
       }
     },
     {
-      "actorId": "7b67d3adc189860cca3bbf5f",
+      "actor": "7b67d3adc189860cca3bbf5f",
       "character": {
         "name": "Nebula",
-        "imageUrl": "guardians_of_the_galaxy_nebula.webp"
+        "image": "guardians_of_the_galaxy_nebula.webp"
       }
     },
     {
-      "actorId": "bdb2e64bab1a24a00031585c",
+      "actor": "bdb2e64bab1a24a00031585c",
       "character": {
         "name": "Korath"
       }
     },
     {
-      "actorId": "2e2c0e0194f9bbcd70ec70b3",
+      "actor": "2e2c0e0194f9bbcd70ec70b3",
       "character": {
         "name": "Corpsman Dey"
       }
     },
     {
-      "actorId": "f48cb741c9a839e95ca035b0",
+      "actor": "f48cb741c9a839e95ca035b0",
       "character": {
         "name": "Nova Prime"
       }
     },
     {
-      "actorId": "a2453026851bdfa9828b4891",
+      "actor": "a2453026851bdfa9828b4891",
       "character": {
         "name": "The Collector"
       }
@@ -150,7 +150,7 @@
       "nominations": [
         {
           "title": "Best Actor",
-          "actorId": "81002d63c8ad158916752ee2"
+          "actor": "81002d63c8ad158916752ee2"
         },
         {
           "title": "Best Director"

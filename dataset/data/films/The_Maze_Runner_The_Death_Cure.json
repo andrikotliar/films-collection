@@ -65,49 +65,49 @@
   "duration": 143,
   "cast": [
     {
-      "actorId": "8e204b8e5e38fbae1fe008a4",
+      "actor": "8e204b8e5e38fbae1fe008a4",
       "character": {
         "name": "Thomas"
       }
     },
     {
-      "actorId": "d89b2eaf6097bb037c6d8ca0",
+      "actor": "d89b2eaf6097bb037c6d8ca0",
       "character": {
         "name": "Teresa"
       }
     },
     {
-      "actorId": "4ee52e26623792a1c498ac41",
+      "actor": "4ee52e26623792a1c498ac41",
       "character": {
         "name": "Newt"
       }
     },
     {
-      "actorId": "c4c83bf5a6e512ae8f39d75a",
+      "actor": "c4c83bf5a6e512ae8f39d75a",
       "character": {
         "name": "Minho"
       }
     },
     {
-      "actorId": "ab00e4478a98a3b3c576c834",
+      "actor": "ab00e4478a98a3b3c576c834",
       "character": {
         "name": "Janson"
       }
     },
     {
-      "actorId": "4460a7c81280abd897d97d32",
+      "actor": "4460a7c81280abd897d97d32",
       "character": {
         "name": "Jorge"
       }
     },
     {
-      "actorId": "faf06750d96e099e22deea05",
+      "actor": "faf06750d96e099e22deea05",
       "character": {
         "name": "Brenda"
       }
     },
     {
-      "actorId": "f88ba806540e968863c214e3",
+      "actor": "f88ba806540e968863c214e3",
       "character": {
         "name": "Gally"
       }

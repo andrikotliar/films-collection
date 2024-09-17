@@ -65,96 +65,96 @@
   "duration": 192,
   "cast": [
     {
-      "actorId": "ab25ed81fbee90d0a29d7c92",
+      "actor": "ab25ed81fbee90d0a29d7c92",
       "character": {
         "name": "Jake Sully",
-        "imageUrl": "avatar_the_way_of_water_jake_sully.webp"
+        "image": "avatar_the_way_of_water_jake_sully.webp"
       }
     },
     {
-      "actorId": "0f44c8581608c442261413e4",
+      "actor": "0f44c8581608c442261413e4",
       "character": {
         "name": "Neytiri",
-        "imageUrl": "avatar_the_way_of_water_neytiri.webp"
+        "image": "avatar_the_way_of_water_neytiri.webp"
       }
     },
     {
-      "actorId": "ca74e2b4d921daf8283f1f08",
+      "actor": "ca74e2b4d921daf8283f1f08",
       "character": {
         "name": "Kiri",
-        "imageUrl": "avatar_the_way_of_water_kiri.webp"
+        "image": "avatar_the_way_of_water_kiri.webp"
       }
     },
     {
-      "actorId": "b0b4e07f3ddc197fc79b6d99",
+      "actor": "b0b4e07f3ddc197fc79b6d99",
       "character": {
         "name": "Quaritch",
-        "imageUrl": "avatar_the_way_of_water_quaritch.webp"
+        "image": "avatar_the_way_of_water_quaritch.webp"
       }
     },
     {
-      "actorId": "a0906571fbd382da1825be2a",
+      "actor": "a0906571fbd382da1825be2a",
       "character": {
         "name": "Ronal",
-        "imageUrl": "avatar_the_way_of_water_ronal.webp"
+        "image": "avatar_the_way_of_water_ronal.webp"
       }
     },
     {
-      "actorId": "677c083db78d6f6afc4bf2c1",
+      "actor": "677c083db78d6f6afc4bf2c1",
       "character": {
         "name": "Tonowari",
-        "imageUrl": "avatar_the_way_of_water_tonowari.webp"
+        "image": "avatar_the_way_of_water_tonowari.webp"
       }
     },
     {
-      "actorId": "cc1bd413915afb8a696bfff3",
+      "actor": "cc1bd413915afb8a696bfff3",
       "character": {
         "name": "Norm"
       }
     },
     {
-      "actorId": "3e151b5127b8be74b7f44adf",
+      "actor": "3e151b5127b8be74b7f44adf",
       "character": {
         "name": "Neteyam",
-        "imageUrl": "avatar_the_way_of_water_neteyam.webp"
+        "image": "avatar_the_way_of_water_neteyam.webp"
       }
     },
     {
-      "actorId": "d372b94fc4de33d4432f8fc1",
+      "actor": "d372b94fc4de33d4432f8fc1",
       "character": {
         "name": "Lo'Ak",
-        "imageUrl": "avatar_the_way_of_water_lo_ak"
+        "image": "avatar_the_way_of_water_lo_ak"
       }
     },
     {
-      "actorId": "f73baf9f91b25a772477ec00",
+      "actor": "f73baf9f91b25a772477ec00",
       "character": {
         "name": "Tuk",
-        "imageUrl": "avatar_the_way_of_water_tuk.webp"
+        "image": "avatar_the_way_of_water_tuk.webp"
       }
     },
     {
-      "actorId": "08a9d660bd495e832e8f4ecd",
+      "actor": "08a9d660bd495e832e8f4ecd",
       "character": {
         "name": "Spider"
       }
     },
     {
-      "actorId": "a83297cb032460baa31b3cdd",
+      "actor": "a83297cb032460baa31b3cdd",
       "character": {
         "name": "Tsireya",
-        "imageUrl": "avatar_the_way_of_water_tsireya.webp"
+        "image": "avatar_the_way_of_water_tsireya.webp"
       }
     },
     {
-      "actorId": "b238ba581949303e85a376d1",
+      "actor": "b238ba581949303e85a376d1",
       "character": {
         "name": "Aonung",
-        "imageUrl": "avatar_the_way_of_water_aonung.webp"
+        "image": "avatar_the_way_of_water_aonung.webp"
       }
     },
     {
-      "actorId": "4df6f5c36685e804aff22521",
+      "actor": "4df6f5c36685e804aff22521",
       "character": {
         "name": "General Ardmore"
       }

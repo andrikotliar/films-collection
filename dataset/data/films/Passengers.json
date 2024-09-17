@@ -65,31 +65,31 @@
   "duration": 116,
   "cast": [
     {
-      "actorId": "c99e4f6dc0695561848dc5be",
+      "actor": "c99e4f6dc0695561848dc5be",
       "character": {
         "name": "Aurora Lane"
       }
     },
     {
-      "actorId": "81002d63c8ad158916752ee2",
+      "actor": "81002d63c8ad158916752ee2",
       "character": {
         "name": "Jim Preston"
       }
     },
     {
-      "actorId": "ddc30904ea1df69f6f509783",
+      "actor": "ddc30904ea1df69f6f509783",
       "character": {
         "name": "Arthur"
       }
     },
     {
-      "actorId": "598ea6d5be8fe378787adde7",
+      "actor": "598ea6d5be8fe378787adde7",
       "character": {
         "name": "Gus Mancuso"
       }
     },
     {
-      "actorId": "539fa2d4f61a2a9f805ee4f8",
+      "actor": "539fa2d4f61a2a9f805ee4f8",
       "character": {
         "name": "Captain Norris"
       }

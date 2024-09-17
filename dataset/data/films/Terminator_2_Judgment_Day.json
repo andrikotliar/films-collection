@@ -59,32 +59,32 @@
   "duration": 137,
   "cast": [
     {
-      "actorId": "8062b68b19b6dacb76d14b75",
+      "actor": "8062b68b19b6dacb76d14b75",
       "character": {
         "name": "T-800"
       }
     },
     {
-      "actorId": "2d3eb4c8394623727a17483b",
+      "actor": "2d3eb4c8394623727a17483b",
       "character": {
         "name": "John Connor",
-        "imageUrl": "terminator_2_judgment_day_john_connor.webp"
+        "image": "terminator_2_judgment_day_john_connor.webp"
       }
     },
     {
-      "actorId": "a5fd5103183480749784143b",
+      "actor": "a5fd5103183480749784143b",
       "character": {
         "name": "Sarah Connor"
       }
     },
     {
-      "actorId": "23dfc0a82cae9f6c4281898c",
+      "actor": "23dfc0a82cae9f6c4281898c",
       "character": {
         "name": "T-1000"
       }
     },
     {
-      "actorId": "7c714de673355dff119b2c86",
+      "actor": "7c714de673355dff119b2c86",
       "character": {
         "name": "Miles Bennett Dyson"
       }
@@ -129,7 +129,7 @@
         },
         {
           "title": "Best Performance by a Younger Actor",
-          "actorId": "2d3eb4c8394623727a17483b"
+          "actor": "2d3eb4c8394623727a17483b"
         }
       ]
     },
@@ -152,19 +152,19 @@
         },
         {
           "title": "Best Female Performance",
-          "actorId": "a5fd5103183480749784143b"
+          "actor": "a5fd5103183480749784143b"
         },
         {
           "title": "Best Male Performance",
-          "actorId": "8062b68b19b6dacb76d14b75"
+          "actor": "8062b68b19b6dacb76d14b75"
         },
         {
           "title": "Best Breakthrough Performance",
-          "actorId": "2d3eb4c8394623727a17483b"
+          "actor": "2d3eb4c8394623727a17483b"
         },
         {
           "title": "Most Desirable Female",
-          "actorId": "a5fd5103183480749784143b"
+          "actor": "a5fd5103183480749784143b"
         },
         {
           "title": "Best action Sequence",

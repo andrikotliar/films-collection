@@ -62,49 +62,49 @@
   "duration": 116,
   "cast": [
     {
-      "actorId": "644ca0c0a204f03134f45fbf",
+      "actor": "644ca0c0a204f03134f45fbf",
       "character": {
         "name": "Dastan"
       }
     },
     {
-      "actorId": "f6e6c885cde54a7c8198150f",
+      "actor": "f6e6c885cde54a7c8198150f",
       "character": {
         "name": "Tamina"
       }
     },
     {
-      "actorId": "9db2779191ae86290f56c21b",
+      "actor": "9db2779191ae86290f56c21b",
       "character": {
         "name": "Nizam"
       }
     },
     {
-      "actorId": "c70aa327b237efbbee19c181",
+      "actor": "c70aa327b237efbbee19c181",
       "character": {
         "name": "Sheik Amar"
       }
     },
     {
-      "actorId": "36d281cb71c45ba0739388a2",
+      "actor": "36d281cb71c45ba0739388a2",
       "character": {
         "name": "Seso"
       }
     },
     {
-      "actorId": "c8901a2c3a9ece7d8f68aba1",
+      "actor": "c8901a2c3a9ece7d8f68aba1",
       "character": {
         "name": "Garsiv"
       }
     },
     {
-      "actorId": "d716fa4b2d132b77e907bb8f",
+      "actor": "d716fa4b2d132b77e907bb8f",
       "character": {
         "name": "Tus"
       }
     },
     {
-      "actorId": "fc950c38b9022c62d9d9eb1b",
+      "actor": "fc950c38b9022c62d9d9eb1b",
       "character": {
         "name": "Bis"
       }

@@ -56,74 +56,74 @@
   "duration": 137,
   "cast": [
     {
-      "actorId": "81002d63c8ad158916752ee2",
+      "actor": "81002d63c8ad158916752ee2",
       "character": {
         "name": "Peter Quill / Star-Lord"
       }
     },
     {
-      "actorId": "0f44c8581608c442261413e4",
+      "actor": "0f44c8581608c442261413e4",
       "character": {
         "name": "Gamora",
-        "imageUrl": "guardians_of_the_galaxy_vol_2_gamora.webp"
+        "image": "guardians_of_the_galaxy_vol_2_gamora.webp"
       }
     },
     {
-      "actorId": "6e7815767f3afa70c3dc69c5",
+      "actor": "6e7815767f3afa70c3dc69c5",
       "character": {
         "name": "Drax",
-        "imageUrl": "guardians_of_the_galaxy_vol_2_drax.webp"
+        "image": "guardians_of_the_galaxy_vol_2_drax.webp"
       }
     },
     {
-      "actorId": "8acb4ceb24e197fffd95c777",
+      "actor": "8acb4ceb24e197fffd95c777",
       "character": {
         "name": "Baby Groot",
-        "imageUrl": "guardians_of_the_galaxy_vol_2_baby_groot.webp"
+        "image": "guardians_of_the_galaxy_vol_2_baby_groot.webp"
       }
     },
     {
-      "actorId": "dc4912e5f14e4bfea9c78218",
+      "actor": "dc4912e5f14e4bfea9c78218",
       "character": {
         "name": "Rocket",
-        "imageUrl": "guardians_of_the_galaxy_vol_2_rocket.webp"
+        "image": "guardians_of_the_galaxy_vol_2_rocket.webp"
       }
     },
     {
-      "actorId": "b99fd4cb12dd52764f91df15",
+      "actor": "b99fd4cb12dd52764f91df15",
       "character": {
         "name": "Yondu",
-        "imageUrl": "guardians_of_the_galaxy_vol_2_yondu.webp"
+        "image": "guardians_of_the_galaxy_vol_2_yondu.webp"
       }
     },
     {
-      "actorId": "7b67d3adc189860cca3bbf5f",
+      "actor": "7b67d3adc189860cca3bbf5f",
       "character": {
         "name": "Nebula",
-        "imageUrl": "guardians_of_the_galaxy_vol_2_nebula.webp"
+        "image": "guardians_of_the_galaxy_vol_2_nebula.webp"
       }
     },
     {
-      "actorId": "ea853e2289646fab62637582",
+      "actor": "ea853e2289646fab62637582",
       "character": {
         "name": "Mantis",
-        "imageUrl": "guardians_of_the_galaxy_vol_2_mantis.webp"
+        "image": "guardians_of_the_galaxy_vol_2_mantis.webp"
       }
     },
     {
-      "actorId": "b1c5bed21ae15891190096ed",
+      "actor": "b1c5bed21ae15891190096ed",
       "character": {
         "name": "Stakar Ogord"
       }
     },
     {
-      "actorId": "aa95a96eaca156e9d7fdff51",
+      "actor": "aa95a96eaca156e9d7fdff51",
       "character": {
         "name": "Ego"
       }
     },
     {
-      "actorId": "d346e8fbcf12e4d8761b6d8a",
+      "actor": "d346e8fbcf12e4d8761b6d8a",
       "character": {
         "name": "Ayesha"
       }

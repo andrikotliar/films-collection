@@ -68,49 +68,49 @@
   "duration": 132,
   "cast": [
     {
-      "actorId": "c652b62c969e915bf4644318",
+      "actor": "c652b62c969e915bf4644318",
       "character": {
         "name": "Raleigh Becket"
       }
     },
     {
-      "actorId": "ae8fde81451592bb39107acc",
+      "actor": "ae8fde81451592bb39107acc",
       "character": {
         "name": "Stacker Pentecost"
       }
     },
     {
-      "actorId": "234efffcf96ac34bc42d0d42",
+      "actor": "234efffcf96ac34bc42d0d42",
       "character": {
         "name": "Mako Mori"
       }
     },
     {
-      "actorId": "5e8a8bbb54f2d5129781d2f0",
+      "actor": "5e8a8bbb54f2d5129781d2f0",
       "character": {
         "name": "Dr. Newton Geiszler"
       }
     },
     {
-      "actorId": "2bc21f5ef07103af47d045c4",
+      "actor": "2bc21f5ef07103af47d045c4",
       "character": {
         "name": "Herman Gottlieb"
       }
     },
     {
-      "actorId": "62c908c861f4166a2ba62aee",
+      "actor": "62c908c861f4166a2ba62aee",
       "character": {
         "name": "Herc Hansen"
       }
     },
     {
-      "actorId": "cc6ab9ac2d6bf1eae11f5f1c",
+      "actor": "cc6ab9ac2d6bf1eae11f5f1c",
       "character": {
         "name": "Chuck Hansen"
       }
     },
     {
-      "actorId": "99a594ea30bfbb53eab240ea",
+      "actor": "99a594ea30bfbb53eab240ea",
       "character": {
         "name": "Hannibal Chau"
       }

@@ -57,37 +57,37 @@
   "duration": 136,
   "cast": [
     {
-      "actorId": "064e80da8733b3e3692e9735",
+      "actor": "064e80da8733b3e3692e9735",
       "character": {
         "name": "Neo"
       }
     },
     {
-      "actorId": "598ea6d5be8fe378787adde7",
+      "actor": "598ea6d5be8fe378787adde7",
       "character": {
         "name": "Morpheus"
       }
     },
     {
-      "actorId": "86bd70fb1e96e084b818b8d1",
+      "actor": "86bd70fb1e96e084b818b8d1",
       "character": {
         "name": "Trinity"
       }
     },
     {
-      "actorId": "9d72ccad0a0c60872b91d2d3",
+      "actor": "9d72ccad0a0c60872b91d2d3",
       "character": {
         "name": "Agent Smith"
       }
     },
     {
-      "actorId": "5ce3b37a34510b2a6acb942b",
+      "actor": "5ce3b37a34510b2a6acb942b",
       "character": {
         "name": "Oracle"
       }
     },
     {
-      "actorId": "6409bee986923999615ef8d5",
+      "actor": "6409bee986923999615ef8d5",
       "character": {
         "name": "Cypher"
       }
@@ -154,7 +154,7 @@
         },
         {
           "title": "Best Male Performance",
-          "actorId": "064e80da8733b3e3692e9735"
+          "actor": "064e80da8733b3e3692e9735"
         },
         {
           "title": "Best Fight",

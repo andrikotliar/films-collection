@@ -56,61 +56,61 @@
   "duration": 121,
   "cast": [
     {
-      "actorId": "ce132ddc9f8b5434251efcdb",
+      "actor": "ce132ddc9f8b5434251efcdb",
       "character": {
         "name": "Luke Skywalker"
       }
     },
     {
-      "actorId": "90204450e3ebdb007d478280",
+      "actor": "90204450e3ebdb007d478280",
       "character": {
         "name": "Han Solo"
       }
     },
     {
-      "actorId": "7d2b5a0e06b8a95e8c3f208f",
+      "actor": "7d2b5a0e06b8a95e8c3f208f",
       "character": {
         "name": "Leia Organa"
       }
     },
     {
-      "actorId": "5e72fa7016750d28c79b5339",
+      "actor": "5e72fa7016750d28c79b5339",
       "character": {
         "name": "Moff Tarkin"
       }
     },
     {
-      "actorId": "3a3a66696ed1793937e5f75b",
+      "actor": "3a3a66696ed1793937e5f75b",
       "character": {
         "name": "Ben Obi-Wan Kenobi"
       }
     },
     {
-      "actorId": "8495e822d070b57837e0bf6e",
+      "actor": "8495e822d070b57837e0bf6e",
       "character": {
         "name": "C-3PO",
-        "imageUrl": "star_wars_episode_iv_a_new_hope_c-3po.webp"
+        "image": "star_wars_episode_iv_a_new_hope_c-3po.webp"
       }
     },
     {
-      "actorId": "f9b0821669e9ab485f13f6d1",
+      "actor": "f9b0821669e9ab485f13f6d1",
       "character": {
         "name": "R2-D2",
-        "imageUrl": "star_wars_episode_iv_a_new_hope_r2-d2.webp"
+        "image": "star_wars_episode_iv_a_new_hope_r2-d2.webp"
       }
     },
     {
-      "actorId": "25d91c81e9e6d9044c52fa9b",
+      "actor": "25d91c81e9e6d9044c52fa9b",
       "character": {
         "name": "Chewbacca",
-        "imageUrl": "star_wars_episode_iv_a_new_hope_chewbacca.webp"
+        "image": "star_wars_episode_iv_a_new_hope_chewbacca.webp"
       }
     },
     {
-      "actorId": "3dcb844bcfc2544762ec44c0",
+      "actor": "3dcb844bcfc2544762ec44c0",
       "character": {
         "name": "Darth Vader",
-        "imageUrl": "star_wars_episode_iv_a_new_hope_darth_vader.webp"
+        "image": "star_wars_episode_iv_a_new_hope_darth_vader.webp"
       }
     }
   ],
@@ -170,7 +170,7 @@
         {
           "title": "Best Supporting Actor",
           "comment": "as Moff Tarkin",
-          "actorId": "5e72fa7016750d28c79b5339"
+          "actor": "5e72fa7016750d28c79b5339"
         },
         {
           "title": "Best Director"

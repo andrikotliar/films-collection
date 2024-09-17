@@ -97,80 +97,80 @@
   "duration": 410,
   "cast": [
     {
-      "actorId": "7e009e344b1d17321f88e62c",
+      "actor": "7e009e344b1d17321f88e62c",
       "character": {
         "name": "Vi",
-        "imageUrl": "arcane_vi.webp"
+        "image": "arcane_vi.webp"
       }
     },
     {
-      "actorId": "fe6dafd9367a52a6060a4b8a",
+      "actor": "fe6dafd9367a52a6060a4b8a",
       "character": {
         "name": "Jinx",
-        "imageUrl": "arcane_jinx.webp"
+        "image": "arcane_jinx.webp"
       }
     },
     {
-      "actorId": "a7af62b3403e31d5c6db8648",
+      "actor": "a7af62b3403e31d5c6db8648",
       "character": {
         "name": "Jayce",
-        "imageUrl": "arcane_jayce.webp"
+        "image": "arcane_jayce.webp"
       }
     },
     {
-      "actorId": "3160b4ddf40b96dda240f985",
+      "actor": "3160b4ddf40b96dda240f985",
       "character": {
         "name": "Silco",
-        "imageUrl": "arcane_silco.webp"
+        "image": "arcane_silco.webp"
       }
     },
     {
-      "actorId": "7c78916145e93dc6de49d74a",
+      "actor": "7c78916145e93dc6de49d74a",
       "character": {
         "name": "Viktor",
-        "imageUrl": "arcane_viktor.webp"
+        "image": "arcane_viktor.webp"
       }
     },
     {
-      "actorId": "101e36f1a5662c85c8668c5f",
+      "actor": "101e36f1a5662c85c8668c5f",
       "character": {
         "name": "Mel Medarda",
-        "imageUrl": "arcane_mel_medarda.webp"
+        "image": "arcane_mel_medarda.webp"
       }
     },
     {
-      "actorId": "edcee36f388eca4becb20e59",
+      "actor": "edcee36f388eca4becb20e59",
       "character": {
         "name": "Vander",
-        "imageUrl": "arcane_vander.webp"
+        "image": "arcane_vander.webp"
       }
     },
     {
-      "actorId": "9eb32f003eef46ba941bc074",
+      "actor": "9eb32f003eef46ba941bc074",
       "character": {
         "name": "Marcus",
-        "imageUrl": "arcane_marcus.webp"
+        "image": "arcane_marcus.webp"
       }
     },
     {
-      "actorId": "9653453e3c9469d1296e9751",
+      "actor": "9653453e3c9469d1296e9751",
       "character": {
         "name": "Caitlyn",
-        "imageUrl": "arcane_caitlyn.webp"
+        "image": "arcane_caitlyn.webp"
       }
     },
     {
-      "actorId": "63f2459a0d049e96a665f4aa",
+      "actor": "63f2459a0d049e96a665f4aa",
       "character": {
         "name": "Heimerdinger",
-        "imageUrl": "arcane_heimerdinger.webp"
+        "image": "arcane_heimerdinger.webp"
       }
     },
     {
-      "actorId": "5ebd6bd81c77390df14203aa",
+      "actor": "5ebd6bd81c77390df14203aa",
       "character": {
         "name": "Ekko",
-        "imageUrl": "arcane_ekko.webp"
+        "image": "arcane_ekko.webp"
       }
     }
   ],

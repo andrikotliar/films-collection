@@ -66,31 +66,31 @@
   "duration": 116,
   "cast": [
     {
-      "actorId": "59689e0c8b7cf79f98fb2395",
+      "actor": "59689e0c8b7cf79f98fb2395",
       "character": {
         "name": "Gerry Lane"
       }
     },
     {
-      "actorId": "d1b15d6a0de5023428bcca5e",
+      "actor": "d1b15d6a0de5023428bcca5e",
       "character": {
         "name": "Karin Lane"
       }
     },
     {
-      "actorId": "fb3bf0f7826e5270cea890a9",
+      "actor": "fb3bf0f7826e5270cea890a9",
       "character": {
         "name": "Segen"
       }
     },
     {
-      "actorId": "5bbe4522188dfae241a49323",
+      "actor": "5bbe4522188dfae241a49323",
       "character": {
         "name": "Captain Speke"
       }
     },
     {
-      "actorId": "de6dd183d81d208a02b16123",
+      "actor": "de6dd183d81d208a02b16123",
       "character": {
         "name": "Jurgen Warmbrunn"
       }
@@ -116,7 +116,7 @@
       "nominations": [
         {
           "title": "Best Scared-As-S**t Performance",
-          "actorId": "59689e0c8b7cf79f98fb2395"
+          "actor": "59689e0c8b7cf79f98fb2395"
         }
       ]
     }

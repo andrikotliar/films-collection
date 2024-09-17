@@ -59,43 +59,43 @@
   "duration": 194,
   "cast": [
     {
-      "actorId": "8382432eba031147d4d4eee4",
+      "actor": "8382432eba031147d4d4eee4",
       "character": {
         "name": "Jack Dawson"
       }
     },
     {
-      "actorId": "a0906571fbd382da1825be2a",
+      "actor": "a0906571fbd382da1825be2a",
       "character": {
         "name": "Rose Dewitt Bukater"
       }
     },
     {
-      "actorId": "be60bb7382dd90bacab7afee",
+      "actor": "be60bb7382dd90bacab7afee",
       "character": {
         "name": "Cal Hockley"
       }
     },
     {
-      "actorId": "2d50f3618492cf69f4338a96",
+      "actor": "2d50f3618492cf69f4338a96",
       "character": {
         "name": "Molly Brown"
       }
     },
     {
-      "actorId": "8b76fc064d5e01ab9c19f064",
+      "actor": "8b76fc064d5e01ab9c19f064",
       "character": {
         "name": "Ruth Dewitt Bukater"
       }
     },
     {
-      "actorId": "9054c0064f19a48344d6d874",
+      "actor": "9054c0064f19a48344d6d874",
       "character": {
         "name": "Captain Smith"
       }
     },
     {
-      "actorId": "2a1e03aa0280d87d5487b183",
+      "actor": "2a1e03aa0280d87d5487b183",
       "character": {
         "name": "Old Rose"
       }

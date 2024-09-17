@@ -68,55 +68,55 @@
   "duration": 124,
   "cast": [
     {
-      "actorId": "81002d63c8ad158916752ee2",
+      "actor": "81002d63c8ad158916752ee2",
       "character": {
         "name": "Owen"
       }
     },
     {
-      "actorId": "5a9e20efcb26cd9589817c6d",
+      "actor": "5a9e20efcb26cd9589817c6d",
       "character": {
         "name": "Claire"
       }
     },
     {
-      "actorId": "47b0c3687ba616c53c265485",
+      "actor": "47b0c3687ba616c53c265485",
       "character": {
         "name": "Masrani"
       }
     },
     {
-      "actorId": "46281b634ba77b5a747dfaa0",
+      "actor": "46281b634ba77b5a747dfaa0",
       "character": {
         "name": "Hoskins"
       }
     },
     {
-      "actorId": "8958f6f83bd5845fda2bb169",
+      "actor": "8958f6f83bd5845fda2bb169",
       "character": {
         "name": "Gray"
       }
     },
     {
-      "actorId": "7451e8d312b8c97b37b47144",
+      "actor": "7451e8d312b8c97b37b47144",
       "character": {
         "name": "Zach"
       }
     },
     {
-      "actorId": "800064d873a4ee8f8cea356f",
+      "actor": "800064d873a4ee8f8cea356f",
       "character": {
         "name": "Barry"
       }
     },
     {
-      "actorId": "7b2b9ea826a7a8b85ec99e7f",
+      "actor": "7b2b9ea826a7a8b85ec99e7f",
       "character": {
         "name": "Dr. Henry Wu"
       }
     },
     {
-      "actorId": "cec4fcf38d7cd17aece458f2",
+      "actor": "cec4fcf38d7cd17aece458f2",
       "character": {
         "name": "Vivian"
       }
@@ -134,7 +134,7 @@
       "nominations": [
         {
           "title": "Best Performance by a Younger Actor",
-          "actorId": "8958f6f83bd5845fda2bb169"
+          "actor": "8958f6f83bd5845fda2bb169"
         }
       ]
     },
@@ -143,7 +143,7 @@
       "nominations": [
         {
           "title": "Best action Performance",
-          "actorId": "81002d63c8ad158916752ee2"
+          "actor": "81002d63c8ad158916752ee2"
         }
       ]
     }

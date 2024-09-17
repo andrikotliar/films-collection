@@ -60,58 +60,58 @@
   "duration": 153,
   "cast": [
     {
-      "actorId": "7cd730dd761c711d4467bce0",
+      "actor": "7cd730dd761c711d4467bce0",
       "character": {
         "name": "Harry Potter",
-        "imageUrl": "harry_potter_and_the_half_blood_prince_harry_potter.webp"
+        "image": "harry_potter_and_the_half_blood_prince_harry_potter.webp"
       }
     },
     {
-      "actorId": "076188ec6b66a2c4a62fdab1",
+      "actor": "076188ec6b66a2c4a62fdab1",
       "character": {
         "name": "Ron Weasley",
-        "imageUrl": "harry_potter_and_the_half_blood_prince_ron_weasley.webp"
+        "image": "harry_potter_and_the_half_blood_prince_ron_weasley.webp"
       }
     },
     {
-      "actorId": "3f0004fa95271000de67d1f4",
+      "actor": "3f0004fa95271000de67d1f4",
       "character": {
         "name": "Hermione Granger",
-        "imageUrl": "harry_potter_and_the_half_blood_prince_hermione_granger.webp"
+        "image": "harry_potter_and_the_half_blood_prince_hermione_granger.webp"
       }
     },
     {
-      "actorId": "5cd30ae8b35b8110d0a1bc75",
+      "actor": "5cd30ae8b35b8110d0a1bc75",
       "character": {
         "name": "Albus Dumbledore"
       }
     },
     {
-      "actorId": "aca6f583677ffb4c7f38d469",
+      "actor": "aca6f583677ffb4c7f38d469",
       "character": {
         "name": "Draco Malfoy"
       }
     },
     {
-      "actorId": "9433a6747c6cfc354fed7e65",
+      "actor": "9433a6747c6cfc354fed7e65",
       "character": {
         "name": "Severus Snape"
       }
     },
     {
-      "actorId": "b5e7e795de1f87df92309e3a",
+      "actor": "b5e7e795de1f87df92309e3a",
       "character": {
         "name": "Bellatrix Lestrage"
       }
     },
     {
-      "actorId": "1c5eeaeb86ef47e50b94444b",
+      "actor": "1c5eeaeb86ef47e50b94444b",
       "character": {
         "name": "Horace Slughorn"
       }
     },
     {
-      "actorId": "aca6f583677ffb4c7f38d469",
+      "actor": "aca6f583677ffb4c7f38d469",
       "character": {
         "name": "Draco Malfoy"
       }

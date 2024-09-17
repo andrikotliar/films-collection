@@ -57,101 +57,101 @@
   "duration": 157,
   "cast": [
     {
-      "actorId": "7cd730dd761c711d4467bce0",
+      "actor": "7cd730dd761c711d4467bce0",
       "character": {
         "name": "Harry Potter",
-        "imageUrl": "harry_potter_and_the_goblet_of_fire_harry_potter.webp"
+        "image": "harry_potter_and_the_goblet_of_fire_harry_potter.webp"
       }
     },
     {
-      "actorId": "076188ec6b66a2c4a62fdab1",
+      "actor": "076188ec6b66a2c4a62fdab1",
       "character": {
         "name": "Ron Weasley",
-        "imageUrl": "harry_potter_and_the_goblet_of_fire_ron_weasley.webp"
+        "image": "harry_potter_and_the_goblet_of_fire_ron_weasley.webp"
       }
     },
     {
-      "actorId": "3f0004fa95271000de67d1f4",
+      "actor": "3f0004fa95271000de67d1f4",
       "character": {
         "name": "Hermione Granger",
-        "imageUrl": "harry_potter_and_the_goblet_of_fire_hermione_granger.webp"
+        "image": "harry_potter_and_the_goblet_of_fire_hermione_granger.webp"
       }
     },
     {
-      "actorId": "be5a364626b5e5843ae62363",
+      "actor": "be5a364626b5e5843ae62363",
       "character": {
         "name": "Cedric Diggory"
       }
     },
     {
-      "actorId": "25210612f77f5f5a4c51dc56",
+      "actor": "25210612f77f5f5a4c51dc56",
       "character": {
         "name": "Lord Voldemort",
-        "imageUrl": "harry_potter_and_the_goblet_of_fire_lord_voldemort.webp"
+        "image": "harry_potter_and_the_goblet_of_fire_lord_voldemort.webp"
       }
     },
     {
-      "actorId": "5cd30ae8b35b8110d0a1bc75",
+      "actor": "5cd30ae8b35b8110d0a1bc75",
       "character": {
         "name": "Albus Dumbledore"
       }
     },
     {
-      "actorId": "5aea15b4e9912ad7b3a2241e",
+      "actor": "5aea15b4e9912ad7b3a2241e",
       "character": {
         "name": "Rubeus Hagrid"
       }
     },
     {
-      "actorId": "9433a6747c6cfc354fed7e65",
+      "actor": "9433a6747c6cfc354fed7e65",
       "character": {
         "name": "Severus Snape"
       }
     },
     {
-      "actorId": "aca6f583677ffb4c7f38d469",
+      "actor": "aca6f583677ffb4c7f38d469",
       "character": {
         "name": "Draco Malfoy"
       }
     },
     {
-      "actorId": "e71508eae9b74ef9ed9015d3",
+      "actor": "e71508eae9b74ef9ed9015d3",
       "character": {
         "name": "Barty Crouch Junior"
       }
     },
     {
-      "actorId": "4b5c21e9d471602b07a865a5",
+      "actor": "4b5c21e9d471602b07a865a5",
       "character": {
         "name": "Fleur Delacour"
       }
     },
     {
-      "actorId": "a0b80add73e1eaf43e9aebe5",
+      "actor": "a0b80add73e1eaf43e9aebe5",
       "character": {
         "name": "Alastor Moody"
       }
     },
     {
-      "actorId": "7c8f0b1de7ecf27f246a8ef9",
+      "actor": "7c8f0b1de7ecf27f246a8ef9",
       "character": {
         "name": "Minerva McGonagall"
       }
     },
     {
-      "actorId": "a1ac47d3d1eb0228b7b5830c",
+      "actor": "a1ac47d3d1eb0228b7b5830c",
       "character": {
         "name": "Karkaroff's Aide"
       }
     },
     {
-      "actorId": "a0b412a14e0e01cb984f4ea8",
+      "actor": "a0b412a14e0e01cb984f4ea8",
       "character": {
         "name": "Barty Crouch"
       }
     },
     {
-      "actorId": "81fab3af8fac371b8331dfd0",
+      "actor": "81fab3af8fac371b8331dfd0",
       "character": {
         "name": "Madame Olympe Maxime"
       }

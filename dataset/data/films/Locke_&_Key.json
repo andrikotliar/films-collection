@@ -177,55 +177,55 @@
   "duration": 1056,
   "cast": [
     {
-      "actorId": "2f3c3307ddadd5927b5a3704",
+      "actor": "2f3c3307ddadd5927b5a3704",
       "character": {
         "name": "Nina Locke"
       }
     },
     {
-      "actorId": "6d44d68c4f796a1037b031cd",
+      "actor": "6d44d68c4f796a1037b031cd",
       "character": {
         "name": "Tyler Locke"
       }
     },
     {
-      "actorId": "f977a1e8ea01ee3bd15db784",
+      "actor": "f977a1e8ea01ee3bd15db784",
       "character": {
         "name": "Kinsey Locke"
       }
     },
     {
-      "actorId": "259ba00989c962d075fabcea",
+      "actor": "259ba00989c962d075fabcea",
       "character": {
         "name": "Bode Locke"
       }
     },
     {
-      "actorId": "9a3a8349c3891d5030d4e179",
+      "actor": "9a3a8349c3891d5030d4e179",
       "character": {
         "name": "Scot Cavendish"
       }
     },
     {
-      "actorId": "45fbf3bbda493e7e046411a2",
+      "actor": "45fbf3bbda493e7e046411a2",
       "character": {
         "name": "Ellie Whedon"
       }
     },
     {
-      "actorId": "57bf1c43155c1498421643e1",
+      "actor": "57bf1c43155c1498421643e1",
       "character": {
         "name": "Jackie Veda"
       }
     },
     {
-      "actorId": "394aeea43c3582ba6cadb4f9",
+      "actor": "394aeea43c3582ba6cadb4f9",
       "character": {
         "name": "Duncan Locke"
       }
     },
     {
-      "actorId": "4acdaabd71b8e10c3c0eb0b7",
+      "actor": "4acdaabd71b8e10c3c0eb0b7",
       "character": {
         "name": "Dodge"
       }

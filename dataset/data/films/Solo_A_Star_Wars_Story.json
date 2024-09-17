@@ -67,57 +67,57 @@
   "duration": 135,
   "cast": [
     {
-      "actorId": "52cc509a6c9554c55c03bd30",
+      "actor": "52cc509a6c9554c55c03bd30",
       "character": {
         "name": "Han Solo"
       }
     },
     {
-      "actorId": "516c73ff5c3ea993f477be5d",
+      "actor": "516c73ff5c3ea993f477be5d",
       "character": {
         "name": "Chewbacca",
-        "imageUrl": "solo_a_star_wars_story_chewbacca.webp"
+        "image": "solo_a_star_wars_story_chewbacca.webp"
       }
     },
     {
-      "actorId": "024affbe7a45ee9fc554bf76",
+      "actor": "024affbe7a45ee9fc554bf76",
       "character": {
         "name": "Beckett"
       }
     },
     {
-      "actorId": "e307bc66fc15746c172e86e6",
+      "actor": "e307bc66fc15746c172e86e6",
       "character": {
         "name": "Qi'ra"
       }
     },
     {
-      "actorId": "1a15cd2acff9c1ac017f8ea8",
+      "actor": "1a15cd2acff9c1ac017f8ea8",
       "character": {
         "name": "Lando Calrissian"
       }
     },
     {
-      "actorId": "e8de9cf95faeea0c9bde694c",
+      "actor": "e8de9cf95faeea0c9bde694c",
       "character": {
         "name": "Val"
       }
     },
     {
-      "actorId": "ce73d0bbe3d6b70ce10745c4",
+      "actor": "ce73d0bbe3d6b70ce10745c4",
       "character": {
         "name": "L3-37",
-        "imageUrl": "solo_a_star_wars_story_l3-37.webp"
+        "image": "solo_a_star_wars_story_l3-37.webp"
       }
     },
     {
-      "actorId": "c20e24b955b094888df0ac50",
+      "actor": "c20e24b955b094888df0ac50",
       "character": {
         "name": "Dryden Vos"
       }
     },
     {
-      "actorId": "1d64586d1509495ad522cffe",
+      "actor": "1d64586d1509495ad522cffe",
       "character": {
         "name": "Rio Durant"
       }

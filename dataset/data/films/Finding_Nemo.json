@@ -64,94 +64,94 @@
   "duration": 100,
   "cast": [
     {
-      "actorId": "61039ee13e2d8a16399ebb96",
+      "actor": "61039ee13e2d8a16399ebb96",
       "character": {
         "name": "Nemo",
-        "imageUrl": "finding_nemo_nemo.webp"
+        "image": "finding_nemo_nemo.webp"
       }
     },
     {
-      "actorId": "2cc3990eeb99965e18d3f994",
+      "actor": "2cc3990eeb99965e18d3f994",
       "character": {
         "name": "Marlin",
-        "imageUrl": "finding_nemo_marlin.webp"
+        "image": "finding_nemo_marlin.webp"
       }
     },
     {
-      "actorId": "abfcb656438df17801fd9175",
+      "actor": "abfcb656438df17801fd9175",
       "character": {
         "name": "Dory",
-        "imageUrl": "finding_nemo_dory.webp"
+        "image": "finding_nemo_dory.webp"
       }
     },
     {
-      "actorId": "69443d6dcdd5ddbc0c51e534",
+      "actor": "69443d6dcdd5ddbc0c51e534",
       "character": {
         "name": "Gill",
-        "imageUrl": "finding_nemo_gill.webp"
+        "image": "finding_nemo_gill.webp"
       }
     },
     {
-      "actorId": "5a4db3cfddc3b6871d1d6d04",
+      "actor": "5a4db3cfddc3b6871d1d6d04",
       "character": {
         "name": "Bloat",
-        "imageUrl": "finding_nemo_bloat.webp"
+        "image": "finding_nemo_bloat.webp"
       }
     },
     {
-      "actorId": "98ec4d73331cf787bbdd9e29",
+      "actor": "98ec4d73331cf787bbdd9e29",
       "character": {
         "name": "Peach",
-        "imageUrl": "finding_nemo_peach.webp"
+        "image": "finding_nemo_peach.webp"
       }
     },
     {
-      "actorId": "ebe3a9ca69513baf8dc45d92",
+      "actor": "ebe3a9ca69513baf8dc45d92",
       "character": {
         "name": "Gurgle",
-        "imageUrl": "finding_nemo_gurgle.webp"
+        "image": "finding_nemo_gurgle.webp"
       }
     },
     {
-      "actorId": "3a91fcb3cf8f724303ce2f71",
+      "actor": "3a91fcb3cf8f724303ce2f71",
       "character": {
         "name": "Bubbles",
-        "imageUrl": "finding_nemo_bubbles.webp"
+        "image": "finding_nemo_bubbles.webp"
       }
     },
     {
-      "actorId": "532d8f4921f52e28f4c1fac8",
+      "actor": "532d8f4921f52e28f4c1fac8",
       "character": {
         "name": "Deb",
-        "imageUrl": "finding_nemo_deb.webp"
+        "image": "finding_nemo_deb.webp"
       }
     },
     {
-      "actorId": "8db2b33adbba9c70802f7feb",
+      "actor": "8db2b33adbba9c70802f7feb",
       "character": {
         "name": "Jacques",
-        "imageUrl": "finding_nemo_jacques.webp"
+        "image": "finding_nemo_jacques.webp"
       }
     },
     {
-      "actorId": "506875a86231e077557d5523",
+      "actor": "506875a86231e077557d5523",
       "character": {
         "name": "Nigel",
-        "imageUrl": "finding_nemo_nigel.webp"
+        "image": "finding_nemo_nigel.webp"
       }
     },
     {
-      "actorId": "b625557c009d832a86d83197",
+      "actor": "b625557c009d832a86d83197",
       "character": {
         "name": "Crush",
-        "imageUrl": "finding_nemo_crush.webp"
+        "image": "finding_nemo_crush.webp"
       }
     },
     {
-      "actorId": "72c6cd55436dd636f717ccb8",
+      "actor": "72c6cd55436dd636f717ccb8",
       "character": {
         "name": "Bruce",
-        "imageUrl": "finding_nemo_bruce.webp"
+        "image": "finding_nemo_bruce.webp"
       }
     }
   ],
@@ -178,7 +178,7 @@
         },
         {
           "title": "Best Supporting Actress",
-          "actorId": "abfcb656438df17801fd9175"
+          "actor": "abfcb656438df17801fd9175"
         }
       ]
     },

@@ -59,39 +59,39 @@
   "duration": 127,
   "cast": [
     {
-      "actorId": "65694e39d2799267ae4a2adf",
+      "actor": "65694e39d2799267ae4a2adf",
       "character": {
         "name": "Spider-Man / Peter Parker",
-        "imageUrl": "spider_man_2_spider-man.webp"
+        "image": "spider_man_2_spider-man.webp"
       }
     },
     {
-      "actorId": "c70aa327b237efbbee19c181",
+      "actor": "c70aa327b237efbbee19c181",
       "character": {
         "name": "Doc Ock / Dr. Otto Octavius",
-        "imageUrl": "spider_man_2_doc_ock.webp"
+        "image": "spider_man_2_doc_ock.webp"
       }
     },
     {
-      "actorId": "1a56afd931fe087b7c4de4c1",
+      "actor": "1a56afd931fe087b7c4de4c1",
       "character": {
         "name": "Mary Jane Watson"
       }
     },
     {
-      "actorId": "03004ad337f0cc1d674180f4",
+      "actor": "03004ad337f0cc1d674180f4",
       "character": {
         "name": "Harry Osborn"
       }
     },
     {
-      "actorId": "f6edab1f2bdab7e504be7dcc",
+      "actor": "f6edab1f2bdab7e504be7dcc",
       "character": {
         "name": "May Parker"
       }
     },
     {
-      "actorId": "03293ef86c8bf352c9dd52f4",
+      "actor": "03293ef86c8bf352c9dd52f4",
       "character": {
         "name": "J. Jonah Jameson"
       }
@@ -120,7 +120,7 @@
         },
         {
           "title": "Best Actor",
-          "actorId": "65694e39d2799267ae4a2adf"
+          "actor": "65694e39d2799267ae4a2adf"
         },
         {
           "title": "Best Director"

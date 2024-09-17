@@ -68,43 +68,43 @@
   "duration": 109,
   "cast": [
     {
-      "actorId": "8e204b8e5e38fbae1fe008a4",
+      "actor": "8e204b8e5e38fbae1fe008a4",
       "character": {
         "name": "Joel"
       }
     },
     {
-      "actorId": "b04589c1f3bc178e28d83b27",
+      "actor": "b04589c1f3bc178e28d83b27",
       "character": {
         "name": "Aimee"
       }
     },
     {
-      "actorId": "b99fd4cb12dd52764f91df15",
+      "actor": "b99fd4cb12dd52764f91df15",
       "character": {
         "name": "Clyde"
       }
     },
     {
-      "actorId": "6027e4ab6c747084e9b404ba",
+      "actor": "6027e4ab6c747084e9b404ba",
       "character": {
         "name": "Cap"
       }
     },
     {
-      "actorId": "03127c3d0f77354e715d036c",
+      "actor": "03127c3d0f77354e715d036c",
       "character": {
         "name": "Minnow"
       }
     },
     {
-      "actorId": "d054c999fea0e56ed2cfe678",
+      "actor": "d054c999fea0e56ed2cfe678",
       "character": {
         "name": "Dana"
       }
     },
     {
-      "actorId": "d071778f110d5dc4b6c77823",
+      "actor": "d071778f110d5dc4b6c77823",
       "character": {
         "name": "Rocko"
       }

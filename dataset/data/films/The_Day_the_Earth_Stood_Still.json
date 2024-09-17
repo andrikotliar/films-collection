@@ -62,25 +62,25 @@
   "duration": 103,
   "cast": [
     {
-      "actorId": "064e80da8733b3e3692e9735",
+      "actor": "064e80da8733b3e3692e9735",
       "character": {
         "name": "Klaatu"
       }
     },
     {
-      "actorId": "1cf0eb2682f7194956288319",
+      "actor": "1cf0eb2682f7194956288319",
       "character": {
         "name": "Helen Benson"
       }
     },
     {
-      "actorId": "2d50f3618492cf69f4338a96",
+      "actor": "2d50f3618492cf69f4338a96",
       "character": {
         "name": "Regina Jackson"
       }
     },
     {
-      "actorId": "e5f8d050277450eaa51338f6",
+      "actor": "e5f8d050277450eaa51338f6",
       "character": {
         "name": "Jacob Benson"
       }
@@ -98,7 +98,7 @@
       "nominations": [
         {
           "title": "Best Performance by a Younger Actor",
-          "actorId": "e5f8d050277450eaa51338f6"
+          "actor": "e5f8d050277450eaa51338f6"
         }
       ]
     }
