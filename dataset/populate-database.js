@@ -1,4 +1,4 @@
-import { MongoClient } from 'mongodb';
+import { MongoClient, ObjectId } from 'mongodb';
 import { getEnvironmentVariables } from './helpers/get-environment-variables.js';
 import { getFileData } from './helpers/get-file-data.js';
 import { getFilesList } from './helpers/get-files-list.js';
@@ -13,9 +13,20 @@ const getData = async (path, dataType) => {
 
   const data = await getFileData(path);
 
+  const processData = data.map((item) => {
+    const { id, ...restItem } = item;
+
+    const objectId = ObjectId.createFromHexString(id);
+
+    return {
+      ...restItem,
+      _id: objectId,
+    };
+  });
+
   logger.finishProcess(`${dataType} data loaded:`, data.length);
 
-  return data;
+  return processData;
 };
 
 const loadFilms = async () => {
@@ -32,9 +43,15 @@ const loadFilms = async () => {
       throw new Error(`Failed process ${fileName}`);
     }
 
+    const { id, ...filmData } = film;
+
+    const objectId = ObjectId.createFromHexString(id);
+
     return {
-      ...film,
+      ...filmData,
+      _id: objectId,
       createdAt: now,
+      updatedAt: now,
     };
   });
 
