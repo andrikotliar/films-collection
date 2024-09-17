@@ -6,22 +6,24 @@ import {
   PersonRole,
   Studio,
   TitleType,
-  Collection as CollectionEnum,
+  CollectionEnum,
 } from '../enums';
+
+type Person = {
+  name: string;
+  comment: string | null;
+};
 
 type Crew = {
   role: PersonRole;
-  people: {
-    name: string;
-    comment?: string;
-  }[];
+  people: Person[];
 };
 
 type CastType = {
   actorId: string;
   character: {
     name: string;
-    imageUrl?: string;
+    imageUrl: string | null;
   };
 };
 
@@ -74,11 +76,23 @@ type FilmData = {
   budget: number;
   boxOffice: number;
   awards: AwardType[];
-  series: SeriesExtension | null;
+  seriesExtension: SeriesExtension | null;
   rating: number;
-  relatedTitlesKey?: string;
+  chaptersId?: string;
   watchCount: number;
-  createdAt: string;
+  createdAt: Date;
+  updatedAt: Date;
 };
 
-export type { FilmData };
+export type {
+  FilmData,
+  Crew,
+  CastType,
+  Collection as CollectionType,
+  AwardType,
+  SeriesExtension,
+  SeasonType,
+  MediaItem,
+  Person,
+  Nomination,
+};

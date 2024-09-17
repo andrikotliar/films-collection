@@ -31,4 +31,4 @@ enum Collection {
   ANIME = 'Anime',
 }
 
-export { Collection };
+export { Collection as CollectionEnum };
