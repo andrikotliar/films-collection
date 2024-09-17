@@ -146,7 +146,7 @@
   "budget": 196000000,
   "awards": [
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best Actor",
@@ -164,7 +164,7 @@
       ]
     },
     {
-      "awardId": "CriticsChoiceAward",
+      "awardKey": "CriticsChoiceAward",
       "nominations": [
         {
           "title": "Best Hair & Makeup"

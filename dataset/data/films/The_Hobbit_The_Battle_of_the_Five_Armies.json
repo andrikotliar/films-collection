@@ -209,7 +209,7 @@
   "budget": 250000000,
   "awards": [
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best Supporting Actor",
@@ -222,7 +222,7 @@
       ]
     },
     {
-      "awardId": "MtvAward",
+      "awardKey": "MtvAward",
       "nominations": [
         {
           "title": "Best action Sequence"

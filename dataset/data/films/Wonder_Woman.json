@@ -122,7 +122,7 @@
   "budget": 120000000,
   "awards": [
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best Actress",
@@ -131,7 +131,7 @@
       ]
     },
     {
-      "awardId": "CriticsChoiceAward",
+      "awardKey": "CriticsChoiceAward",
       "nominations": [
         {
           "title": "Best action Movie"

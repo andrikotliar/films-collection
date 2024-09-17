@@ -88,7 +88,7 @@
   "budget": 30000000,
   "awards": [
     {
-      "awardId": "OscarAward",
+      "awardKey": "OscarAward",
       "nominations": [
         {
           "title": "Best Sound"
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "awardId": "BaftaAward",
+      "awardKey": "BaftaAward",
       "nominations": [
         {
           "title": "Best Editing"
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best Actress",

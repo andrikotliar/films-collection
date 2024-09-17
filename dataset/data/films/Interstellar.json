@@ -103,7 +103,7 @@
   "budget": 165000000,
   "awards": [
     {
-      "awardId": "OscarAward",
+      "awardKey": "OscarAward",
       "nominations": [
         {
           "title": "Best Achievement in Visual Effects"
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "awardId": "BaftaAward",
+      "awardKey": "BaftaAward",
       "nominations": [
         {
           "title": "Best Special Visual Effects"
@@ -119,7 +119,7 @@
       ]
     },
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best Science Fiction Film"
@@ -143,7 +143,7 @@
       ]
     },
     {
-      "awardId": "CriticsChoiceAward",
+      "awardKey": "CriticsChoiceAward",
       "nominations": [
         {
           "title": "Best sci_fi/horror Movie"

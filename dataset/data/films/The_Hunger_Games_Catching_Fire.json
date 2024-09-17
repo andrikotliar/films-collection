@@ -106,7 +106,7 @@
   "budget": 130000000,
   "awards": [
     {
-      "awardId": "MtvAward",
+      "awardKey": "MtvAward",
       "nominations": [
         {
           "title": "Movie of the Year"

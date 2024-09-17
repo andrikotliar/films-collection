@@ -109,7 +109,7 @@
   "budget": 63000000,
   "awards": [
     {
-      "awardId": "OscarAward",
+      "awardKey": "OscarAward",
       "nominations": [
         {
           "title": "Best Sound"
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "awardId": "BaftaAward",
+      "awardKey": "BaftaAward",
       "nominations": [
         {
           "title": "Best Special Effects"
@@ -131,7 +131,7 @@
       ]
     },
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best Science Fiction Film"
@@ -148,7 +148,7 @@
       ]
     },
     {
-      "awardId": "JupiterAward",
+      "awardKey": "JupiterAward",
       "nominations": [
         {
           "title": "Best International Film"

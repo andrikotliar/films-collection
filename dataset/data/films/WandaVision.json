@@ -136,7 +136,7 @@
   ],
   "awards": [
     {
-      "awardId": "MtvAward",
+      "awardKey": "MtvAward",
       "nominations": [
         {
           "title": "Best Show"

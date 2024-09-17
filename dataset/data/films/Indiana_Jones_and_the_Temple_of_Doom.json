@@ -101,7 +101,7 @@
   "budget": 28000000,
   "awards": [
     {
-      "awardId": "OscarAward",
+      "awardKey": "OscarAward",
       "nominations": [
         {
           "title": "Best Visual Effects"
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "awardId": "BaftaAward",
+      "awardKey": "BaftaAward",
       "nominations": [
         {
           "title": "Best Special Visual Effects"
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best DVD Collection",
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "awardId": "JupiterAward",
+      "awardKey": "JupiterAward",
       "nominations": [
         {
           "title": "Best International Actor",

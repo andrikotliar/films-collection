@@ -120,7 +120,7 @@
   "budget": 11000000,
   "awards": [
     {
-      "awardId": "OscarAward",
+      "awardKey": "OscarAward",
       "nominations": [
         {
           "title": "Best Visual Effects"
@@ -128,7 +128,7 @@
       ]
     },
     {
-      "awardId": "BaftaAward",
+      "awardKey": "BaftaAward",
       "nominations": [
         {
           "title": "Best Production Design"
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best DVD Collection"

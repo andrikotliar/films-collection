@@ -120,7 +120,7 @@
   ],
   "awards": [
     {
-      "awardId": "EmmyAward",
+      "awardKey": "EmmyAward",
       "nominations": [
         {
           "title": "Outstanding Limited Series"
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "awardId": "BaftaAward",
+      "awardKey": "BaftaAward",
       "nominations": [
         {
           "title": "Leading Actor",
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "awardId": "CriticsChoiceAward",
+      "awardKey": "CriticsChoiceAward",
       "nominations": [
         {
           "title": "Best Supporting Actor in a Limited Series or Movie Made for Television",

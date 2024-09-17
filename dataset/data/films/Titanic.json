@@ -109,7 +109,7 @@
   "budget": 200000000,
   "awards": [
     {
-      "awardId": "OscarAward",
+      "awardKey": "OscarAward",
       "nominations": [
         {
           "title": "Best Picture"
@@ -147,7 +147,7 @@
       ]
     },
     {
-      "awardId": "GoldenGlobeAward",
+      "awardKey": "GoldenGlobeAward",
       "nominations": [
         {
           "title": "Best Director - Motion Picture"

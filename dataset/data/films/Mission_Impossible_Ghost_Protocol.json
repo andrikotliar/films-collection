@@ -103,7 +103,7 @@
   "budget": 145000000,
   "awards": [
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best action/Adventure Film"

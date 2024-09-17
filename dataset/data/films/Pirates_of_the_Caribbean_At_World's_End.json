@@ -111,7 +111,7 @@
   "budget": 300000000,
   "awards": [
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best Make-up"

@@ -146,7 +146,7 @@
   "budget": 200000000,
   "awards": [
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best DVD/Blu-Ray Special Edition Release"

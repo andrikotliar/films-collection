@@ -104,7 +104,7 @@
   "budget": 48000000,
   "awards": [
     {
-      "awardId": "OscarAward",
+      "awardKey": "OscarAward",
       "nominations": [
         {
           "title": "Best Sound Effects Editing"
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best DVD Collection",
@@ -121,7 +121,7 @@
       ]
     },
     {
-      "awardId": "JupiterAward",
+      "awardKey": "JupiterAward",
       "nominations": [
         {
           "title": "Best International Actor",

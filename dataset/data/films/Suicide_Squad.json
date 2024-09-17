@@ -121,7 +121,7 @@
   "budget": 175000000,
   "awards": [
     {
-      "awardId": "OscarAward",
+      "awardKey": "OscarAward",
       "nominations": [
         {
           "title": "Best Achievement in Makeup and Hairstyling"
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "awardId": "CriticsChoiceAward",
+      "awardKey": "CriticsChoiceAward",
       "nominations": [
         {
           "title": "Best Actress in an action Movie"

@@ -169,7 +169,7 @@
   "budget": 365000000,
   "awards": [
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best Costume Design"

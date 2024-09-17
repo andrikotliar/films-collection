@@ -110,7 +110,7 @@
   "budget": 38000000,
   "awards": [
     {
-      "awardId": "MtvAward",
+      "awardKey": "MtvAward",
       "nominations": [
         {
           "title": "Best On-Screen Team",

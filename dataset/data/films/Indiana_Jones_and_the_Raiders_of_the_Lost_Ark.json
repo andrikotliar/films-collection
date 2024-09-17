@@ -107,7 +107,7 @@
   "budget": 18000000,
   "awards": [
     {
-      "awardId": "OscarAward",
+      "awardKey": "OscarAward",
       "nominations": [
         {
           "title": "Best Art Direction-Set Decoration"
@@ -124,7 +124,7 @@
       ]
     },
     {
-      "awardId": "BaftaAward",
+      "awardKey": "BaftaAward",
       "nominations": [
         {
           "title": "Best Production Design/Art Direction"
@@ -132,7 +132,7 @@
       ]
     },
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best DVD Collection",
@@ -164,7 +164,7 @@
       ]
     },
     {
-      "awardId": "JupiterAward",
+      "awardKey": "JupiterAward",
       "nominations": [
         {
           "title": "Best International Actor",

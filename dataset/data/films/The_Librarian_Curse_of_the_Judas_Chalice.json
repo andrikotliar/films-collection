@@ -96,7 +96,7 @@
   ],
   "awards": [
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best Presentation on Television"

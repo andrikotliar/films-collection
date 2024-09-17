@@ -151,7 +151,7 @@
   "budget": 160000000,
   "awards": [
     {
-      "awardId": "MtvAward",
+      "awardKey": "MtvAward",
       "nominations": [
         {
           "title": "Best Hero",

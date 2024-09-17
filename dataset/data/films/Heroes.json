@@ -405,7 +405,7 @@
   ],
   "awards": [
     {
-      "awardId": "EmmyAward",
+      "awardKey": "EmmyAward",
       "nominations": [
         {
           "title": "Outstanding Special Visual Effects for a Series",
@@ -414,7 +414,7 @@
       ]
     },
     {
-      "awardId": "BaftaAward",
+      "awardKey": "BaftaAward",
       "nominations": [
         {
           "title": "Best International"

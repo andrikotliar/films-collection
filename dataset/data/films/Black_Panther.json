@@ -140,7 +140,7 @@
   "budget": 200000000,
   "awards": [
     {
-      "awardId": "OscarAward",
+      "awardKey": "OscarAward",
       "nominations": [
         {
           "title": "Best Achievement in Music Written for Motion Pictures (Original Score)"
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "awardId": "BaftaAward",
+      "awardKey": "BaftaAward",
       "nominations": [
         {
           "title": "Best Achievement in Special Visual Effects"
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best Comic-to-Film Motion Picture"
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "awardId": "MtvAward",
+      "awardKey": "MtvAward",
       "nominations": [
         {
           "title": "Movie of the Year"
@@ -207,7 +207,7 @@
       ]
     },
     {
-      "awardId": "CriticsChoiceAward",
+      "awardKey": "CriticsChoiceAward",
       "nominations": [
         {
           "title": "Best Visual Effects"

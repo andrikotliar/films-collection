@@ -121,7 +121,7 @@
   "budget": 34000000,
   "awards": [
     {
-      "awardId": "MtvAward",
+      "awardKey": "MtvAward",
       "nominations": [
         {
           "title": "Breakthrough Performance",

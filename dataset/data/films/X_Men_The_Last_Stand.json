@@ -142,7 +142,7 @@
   "budget": 210000000,
   "awards": [
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best Supporting Actress",

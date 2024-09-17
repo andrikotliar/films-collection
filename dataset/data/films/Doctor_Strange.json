@@ -106,7 +106,7 @@
   "budget": 165000000,
   "awards": [
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best Comic-to-Film Motion Picture"

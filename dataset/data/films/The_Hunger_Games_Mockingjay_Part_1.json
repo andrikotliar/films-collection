@@ -156,7 +156,7 @@
   "budget": 125000000,
   "awards": [
     {
-      "awardId": "MtvAward",
+      "awardKey": "MtvAward",
       "nominations": [
         {
           "title": "Best Musical Moment"

@@ -276,7 +276,7 @@
   ],
   "awards": [
     {
-      "awardId": "EmmyAward",
+      "awardKey": "EmmyAward",
       "nominations": [
         {
           "title": "Outstanding Individual Achievement in Animation"
@@ -284,7 +284,7 @@
       ]
     },
     {
-      "awardId": "AnnieAward",
+      "awardKey": "AnnieAward",
       "nominations": [
         {
           "title": "Best Animated Television Production Produced for Children"

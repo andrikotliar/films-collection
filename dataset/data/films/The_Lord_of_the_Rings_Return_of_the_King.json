@@ -174,7 +174,7 @@
   "budget": 94000000,
   "awards": [
     {
-      "awardId": "OscarAward",
+      "awardKey": "OscarAward",
       "nominations": [
         {
           "title": "Best Picture"
@@ -212,7 +212,7 @@
       ]
     },
     {
-      "awardId": "GoldenGlobeAward",
+      "awardKey": "GoldenGlobeAward",
       "nominations": [
         {
           "title": "Best Director - Motion Picture"
@@ -229,7 +229,7 @@
       ]
     },
     {
-      "awardId": "BaftaAward",
+      "awardKey": "BaftaAward",
       "nominations": [
         {
           "title": "Best Film"
@@ -246,7 +246,7 @@
       ]
     },
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best DVD Special Edition Release",
@@ -281,7 +281,7 @@
       ]
     },
     {
-      "awardId": "MtvAward",
+      "awardKey": "MtvAward",
       "nominations": [
         {
           "title": "Best Movie"
@@ -292,7 +292,7 @@
       ]
     },
     {
-      "awardId": "CriticsChoiceAward",
+      "awardKey": "CriticsChoiceAward",
       "nominations": [
         {
           "title": "Best Picture"

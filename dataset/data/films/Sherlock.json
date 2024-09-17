@@ -184,7 +184,7 @@
   ],
   "awards": [
     {
-      "awardId": "EmmyAward",
+      "awardKey": "EmmyAward",
       "nominations": [
         {
           "title": "Outstanding Television Movie"

@@ -103,7 +103,7 @@
   "budget": 70000000,
   "awards": [
     {
-      "awardId": "JupiterAward",
+      "awardKey": "JupiterAward",
       "nominations": [
         {
           "title": "Best International Actor",

@@ -216,7 +216,7 @@
   ],
   "awards": [
     {
-      "awardId": "EmmyAward",
+      "awardKey": "EmmyAward",
       "nominations": [
         {
           "title": "Outstanding Cinematography for a Single-Camera Series (Half-Hour)"

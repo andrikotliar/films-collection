@@ -115,7 +115,7 @@
   "budget": 175000000,
   "awards": [
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best Performance by a Younger Actor",

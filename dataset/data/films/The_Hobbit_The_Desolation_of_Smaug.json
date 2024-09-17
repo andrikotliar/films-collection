@@ -221,7 +221,7 @@
   "budget": 225000000,
   "awards": [
     {
-      "awardId": "SaturnAward",
+      "awardKey": "SaturnAward",
       "nominations": [
         {
           "title": "Best Production Design"

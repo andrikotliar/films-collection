@@ -247,7 +247,7 @@
   ],
   "awards": [
     {
-      "awardId": "AnnieAward",
+      "awardKey": "AnnieAward",
       "nominations": [
         {
           "title": "Outstanding Achievement in Storyboarding in an Animated TV/Broadcast Production"
