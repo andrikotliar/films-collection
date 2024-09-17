@@ -42,14 +42,14 @@ const filterFilms = (
         if (property === 'seasons') {
           return (
             film.type.includes(TitleType.SERIES) &&
-            film.series?.seasons.length === +filterParams[property]
+            film.seriesExtension?.seasons.length === +filterParams[property]
           );
         }
 
         if (property === 'episodes') {
           return (
             film.type.includes(TitleType.SERIES) &&
-            film.series?.episodesTotal === +filterParams[property]
+            film.seriesExtension?.episodesTotal === +filterParams[property]
           );
         }
 
@@ -80,9 +80,9 @@ const filterFilms = (
               new Date(b.createdAt!).getTime() -
               new Date(a.createdAt!).getTime(),
           );
-          const ids = sortedList.map(({ id }) => id).slice(0, 10);
+          const ids = sortedList.map(({ _id }) => _id).slice(0, 10);
 
-          return ids.includes(film.id);
+          return ids.includes(film._id);
         }
 
         return (film as any)[property].some((value: string | number) => {

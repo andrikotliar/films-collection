@@ -38,7 +38,7 @@ const FilmPage = () => {
     <Wrapper>
       <NavigationRow
         setActiveIndex={setActiveIndex}
-        seasons={film.series?.seasons}
+        seasons={film.seriesExtension?.seasons}
       />
 
       <SummarySection film={film} activeIndex={activeIndex} />
@@ -51,8 +51,8 @@ const FilmPage = () => {
       <Section>
         <SectionTitle>
           Description
-          {film.series?.seasons[activeIndex] && (
-            <span> ({film.series.seasons[activeIndex].title})</span>
+          {film.seriesExtension?.seasons[activeIndex] && (
+            <span> ({film.seriesExtension.seasons[activeIndex].title})</span>
           )}
         </SectionTitle>
         <Description>{film.description[activeIndex]}</Description>

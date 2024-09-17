@@ -71,7 +71,7 @@ type FilmData = {
   boxOffice?: number;
   awards?: AwardType[];
   ordered?: boolean;
-  series?: SeriesExtension;
+  seriesExtension?: SeriesExtension | null;
   rating: number;
   chapters: Pick<FilmData, '_id' | 'title' | 'media'>[];
   watchCount?: number;

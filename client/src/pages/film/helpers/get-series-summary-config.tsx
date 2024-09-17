@@ -7,13 +7,13 @@ const getSeriesSummaryConfig = (
   film: FilmData,
   activeIndex: number,
 ): SummaryConfig[] => {
-  if (!film.series) {
+  if (!film.seriesExtension) {
     return [];
   }
 
-  const seasonsCount = film.series.seasons.length;
-  const episodesCount = film.series.episodesTotal;
-  const activeSeason = film.series.seasons[activeIndex];
+  const seasonsCount = film.seriesExtension.seasons.length;
+  const episodesCount = film.seriesExtension.episodesTotal;
+  const activeSeason = film.seriesExtension.seasons[activeIndex];
 
   return [
     {
