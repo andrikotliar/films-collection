@@ -282,7 +282,7 @@
       "key": "Superheroes"
     }
   ],
-  "series": {
+  "seriesExtension": {
     "episodesTotal": 30,
     "seasons": [
       {

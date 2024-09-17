@@ -611,7 +611,7 @@
       ]
     }
   ],
-  "series": {
+  "seriesExtension": {
     "episodesTotal": 100,
     "seasons": [
       {
