@@ -1,5 +1,4 @@
 import { Award, PersonRole, TitleType } from '@/enums';
-import { RelatedFilms } from './related';
 
 type Crew = {
   role: PersonRole;
@@ -55,7 +54,7 @@ type MediaItem = {
 };
 
 type FilmData = {
-  id: string;
+  _id: string;
   type: TitleType[];
   media: MediaItem[];
   title: string;
@@ -74,8 +73,7 @@ type FilmData = {
   ordered?: boolean;
   series?: SeriesExtension;
   rating: number;
-  relatedTitlesKey?: string;
-  related: RelatedFilms;
+  chapters: Pick<FilmData, '_id' | 'title' | 'media'>[];
   watchCount?: number;
   createdAt?: string;
 };

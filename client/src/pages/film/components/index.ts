@@ -7,5 +7,5 @@ export { CrewList } from './crew-list/CrewList';
 export { Description } from './description/Description';
 export { SeasonSelect } from './season-select/SeasonSelect';
 export { Section } from './section/Section';
-export { Related } from './related/Related';
+export { Chapters } from './chapters/Chapters';
 export { NavigationRow } from './navigation-row/NavigationRow';

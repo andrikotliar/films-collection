@@ -48,15 +48,12 @@ const loadFilms = async () => {
 const loadLocalData = async () => {
   const films = await loadFilms();
   const actors = await getData('./data/supporting/actors.json', 'Actors');
-  const related = await getData(
-    './data/supporting/related-films.json',
-    'Related films',
-  );
+  const chapters = await getData('./data/supporting/chapters.json', 'Chapters');
 
   return {
     films,
     actors,
-    related,
+    chapters,
   };
 };
 
@@ -76,14 +73,14 @@ const init = async () => {
     const database = mongoClient.db(env.database.name);
 
     const actorsCollection = database.collection('actors');
-    const relatedCollection = database.collection('related');
+    const chaptersCollection = database.collection('chapters');
     const filmsCollection = database.collection('films');
 
-    const { films, actors, related } = await loadLocalData();
+    const { films, actors, chapters } = await loadLocalData();
 
     await insertDataIntoCollection(filmsCollection, films, 'Films');
     await insertDataIntoCollection(actorsCollection, actors, 'Actors');
-    await insertDataIntoCollection(relatedCollection, related, 'Related films');
+    await insertDataIntoCollection(chaptersCollection, chapters, 'Chapters');
 
     await mongoClient.close();
   } catch (error) {

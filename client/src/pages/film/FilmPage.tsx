@@ -11,7 +11,7 @@ import {
   CrewList,
   Wrapper,
   SummarySection,
-  Related,
+  Chapters,
   Section,
   NavigationRow,
 } from './components';
@@ -70,9 +70,9 @@ const FilmPage = () => {
         </Section>
       )}
 
-      {film.related && (
+      {film.chapters.length && (
         <Section>
-          <Related data={film.related} filmId={film.id} key={film.id} />
+          <Chapters data={film.chapters} filmId={film._id} key={film._id} />
         </Section>
       )}
     </Wrapper>

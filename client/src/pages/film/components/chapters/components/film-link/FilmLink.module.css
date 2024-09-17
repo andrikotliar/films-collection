@@ -1,8 +1,9 @@
 .link {
   font-size: 0;
   position: relative;
-  display: block;
-  width: 100%;
+  width: 130px;
+  height: 200px;
+  flex-shrink: 0;
   position: relative;
   border-radius: 5px;
   border: var(--app-border);
