@@ -19,7 +19,6 @@ import {
   TitleType,
 } from './common';
 import { ActorModel } from '../actors/actors.model';
-import { ChaptersModel } from '../chapters/chapters.model';
 
 const FilmMediaSchema = new Schema<MediaItem>({
   poster: {
@@ -68,7 +67,7 @@ const CollectionSchema = new Schema<CollectionType>({
 });
 
 const CastSchema = new Schema<CastType>({
-  actorId: {
+  actor: {
     type: String,
     required: true,
     ref: ActorModel,
@@ -90,10 +89,10 @@ const NominationSchema = new Schema<Nomination>({
     type: String,
     required: true,
   },
-  actorId: {
+  actor: {
     type: String,
     required: false,
-    ref: 'Actor',
+    ref: ActorModel,
   },
   comment: {
     type: String,
@@ -102,7 +101,7 @@ const NominationSchema = new Schema<Nomination>({
 });
 
 const AwardSchema = new Schema<AwardType>({
-  awardId: {
+  awardKey: {
     type: String,
     enum: Object.values(Award),
     required: true,
@@ -196,12 +195,12 @@ const FilmsSchema = new Schema<FilmData>({
   budget: {
     type: Number,
     required: false,
-    default: 0,
+    default: null,
   },
   boxOffice: {
     type: Number,
     required: false,
-    default: 0,
+    default: null,
   },
   awards: {
     type: [AwardSchema],
@@ -217,7 +216,6 @@ const FilmsSchema = new Schema<FilmData>({
   chaptersId: {
     type: String,
     required: false,
-    ref: ChaptersModel,
   },
   watchCount: {
     type: Number,

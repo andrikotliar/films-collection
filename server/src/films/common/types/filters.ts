@@ -14,4 +14,8 @@ type FindAllQueries = Partial<FindAllFilters> & {
   skip: number;
 };
 
-export type { FindAllQueries, FindAllFilters };
+type FindOneParams = {
+  id: string;
+};
+
+export type { FindAllQueries, FindAllFilters, FindOneParams };

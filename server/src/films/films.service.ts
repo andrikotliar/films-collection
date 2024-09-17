@@ -1,6 +1,7 @@
 import { RootFilterQuery } from 'mongoose';
 import { FilmsModel } from './films.model';
 import { FindAllFilters, FindAllQueries } from './common';
+import { ChaptersService } from '../chapters/chapters.service';
 
 class FilmsService {
   async getFilteredFilms(queries: FindAllQueries) {
@@ -15,6 +16,39 @@ class FilmsService {
     );
 
     return films;
+  }
+
+  async getOneFilm(id: string) {
+    const film = await FilmsModel.findById(id)
+      .populate(['cast.actor', 'awards.nominations.actor'])
+      .lean();
+
+    if (film?.chaptersId) {
+      const chapters = await this.#getFilmChapters(film.chaptersId);
+
+      return {
+        ...film,
+        chapters,
+      };
+    }
+
+    return film;
+  }
+
+  async #getFilmChapters(id: string) {
+    const chaptersService = new ChaptersService();
+    const chapters = await chaptersService.findChapters(id);
+
+    const chaptersList = await FilmsModel.find(
+      {
+        _id: {
+          $in: chapters?.list,
+        },
+      },
+      { _id: 1, title: 1, media: 1 },
+    );
+
+    return chaptersList;
   }
 
   #parseFilters(plainFilters: Partial<FindAllFilters>) {

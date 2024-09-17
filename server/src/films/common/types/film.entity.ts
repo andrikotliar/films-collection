@@ -20,7 +20,7 @@ type Crew = {
 };
 
 type CastType = {
-  actorId: string;
+  actor: string;
   character: {
     name: string;
     imageUrl: string | null;
@@ -34,12 +34,12 @@ type Collection = {
 
 type Nomination = {
   title: string;
-  actorId?: string;
+  actor?: string;
   comment?: string;
 };
 
 type AwardType = {
-  awardId: Award;
+  awardKey: Award;
   nominations: Nomination[];
 };
 
@@ -73,8 +73,8 @@ type FilmData = {
   duration: number;
   cast: CastType[];
   collections: Collection[];
-  budget: number;
-  boxOffice: number;
+  budget: number | null;
+  boxOffice: number | null;
   awards: AwardType[];
   seriesExtension: SeriesExtension | null;
   rating: number;

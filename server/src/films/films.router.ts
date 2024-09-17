@@ -11,6 +11,12 @@ const registerFilmsRouter = (app: FastifyInstance) => {
     handler: filmsController.findAll,
     schema: findAllSchema,
   });
+
+  app.route({
+    method: 'GET',
+    url: '/films/:id',
+    handler: filmsController.findOne,
+  });
 };
 
 export { registerFilmsRouter };

@@ -1,34 +1,35 @@
 import { Award, PersonRole, TitleType } from '@/enums';
+import { Actor } from './actor';
 
 type Crew = {
   role: PersonRole;
   people: {
     name: string;
-    comment?: string;
+    comment: string;
   }[];
 };
 
 type CastType = {
-  actorId: string;
+  actor: Actor;
   character: {
     name: string;
-    imageUrl?: string;
+    image: string | null;
   };
 };
 
 type Collection = {
   title: string;
-  order?: number;
+  order: number | null;
 };
 
 type Nomination = {
   title: string;
-  actorId?: string;
-  comment?: string;
+  actor: Actor | null;
+  comment: string | null;
 };
 
 type AwardType = {
-  awardId: Award;
+  awardKey: Award;
   nominations: Nomination[];
 };
 
@@ -67,20 +68,18 @@ type FilmData = {
   duration: number;
   cast: CastType[];
   collections: Collection[];
-  budget?: number;
-  boxOffice?: number;
-  awards?: AwardType[];
-  ordered?: boolean;
-  seriesExtension?: SeriesExtension | null;
+  budget: number | null;
+  boxOffice: number | null;
+  awards: AwardType[];
+  seriesExtension: SeriesExtension | null;
   rating: number;
   chapters: Pick<FilmData, '_id' | 'title' | 'media'>[];
-  watchCount?: number;
-  createdAt?: string;
+  watchCount: number;
+  createdAt: string;
+  updatedAt: string;
 };
 
-type FilmsList = {
-  [id: string]: FilmData;
-};
+type FilmsList = Pick<FilmData, '_id' | 'title' | 'media' | 'collections'>;
 
 export type {
   FilmData,
