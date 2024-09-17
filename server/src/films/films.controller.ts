@@ -1,21 +1,22 @@
 import { FastifyRequest, FastifyReply } from 'fastify';
-import { FilmsService } from './films.service.js';
-import { FindAllQueries } from './types.js';
+import { FilmsService } from './films.service';
+import { FindAllQueries } from './common';
+import { ResponseCode } from '../common';
 
 class FilmsController {
-  private filmsService: FilmsService;
+  #filmsService: FilmsService;
 
   constructor() {
-    this.filmsService = new FilmsService();
+    this.#filmsService = new FilmsService();
   }
 
   findAll = async (
     request: FastifyRequest<{ Querystring: FindAllQueries }>,
     reply: FastifyReply,
   ) => {
-    const films = await this.filmsService.getFilteredFilms(request.query);
+    const data = await this.#filmsService.getFilteredFilms(request.query);
 
-    return reply.code(200).send(films);
+    return reply.code(ResponseCode.OK).send(data);
   };
 }
 

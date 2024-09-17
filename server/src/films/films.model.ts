@@ -14,4 +14,4 @@ const FilmsSchema = new Schema<Film>({
 
 const FilmsModel = model<Film>('Films', FilmsSchema);
 
-export { FilmsModel };
+export { FilmsModel, type Film };
