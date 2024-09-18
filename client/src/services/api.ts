@@ -1,22 +1,125 @@
 import { HttpMethod } from '@/enums';
 
-const api = async <T = unknown>(
-  url: string,
-  config?: RequestInit,
-): Promise<T> => {
-  const requestConfig: RequestInit = {
-    method: HttpMethod.GET,
-    ...config,
+interface IFetchOptions extends RequestInit {
+  queryParams?: {
+    [key: string]: any;
   };
+}
 
-  try {
-    const response = await fetch(url, requestConfig);
-    const data = await response.json();
+class HttpError extends Error {
+  readonly status: number;
+  readonly message: string;
+  readonly response: any;
 
-    return data;
-  } catch (error: any) {
-    throw new Error(error);
+  constructor(status: number, message: string, response: any) {
+    super(message);
+
+    this.status = status;
+    this.message = message;
+    this.response = response;
   }
-};
+}
 
-export { api };
+class ApiClient {
+  #baseUrl: string;
+
+  constructor(baseUrl: string) {
+    this.#baseUrl = baseUrl;
+  }
+
+  async request<T = unknown>(
+    path: string,
+    options?: IFetchOptions,
+  ): Promise<T> {
+    try {
+      const internalOptions: IFetchOptions = {
+        ...options,
+        headers: {
+          ...options?.headers,
+          'Content-Type': 'application/json',
+        },
+        credentials: 'include',
+      };
+
+      const parsedPath = this.#parseQueryParams(
+        path,
+        internalOptions.queryParams,
+      );
+      const response = await fetch(
+        `${this.#baseUrl}/${parsedPath}`,
+        internalOptions,
+      );
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new HttpError(response.status, response.statusText, result);
+      }
+
+      return result as Promise<T>;
+    } catch (error: any) {
+      throw new Error(error);
+    }
+  }
+
+  async get(path: string, queryParams?: IFetchOptions['queryParams']) {
+    return await this.request(path, { method: HttpMethod.GET, queryParams });
+  }
+
+  async post(
+    path: string,
+    options?: Pick<IFetchOptions, 'body' | 'queryParams'>,
+  ) {
+    return await this.request(path, {
+      ...options,
+      method: HttpMethod.POST,
+      body: options?.body ? JSON.stringify(options.body) : undefined,
+    });
+  }
+
+  async patch(
+    path: string,
+    options?: Pick<IFetchOptions, 'body' | 'queryParams'>,
+  ) {
+    return await this.request(path, {
+      ...options,
+      method: HttpMethod.PATCH,
+      body: options?.body ? JSON.stringify(options.body) : undefined,
+    });
+  }
+
+  async put(
+    path: string,
+    options?: Pick<IFetchOptions, 'body' | 'queryParams'>,
+  ) {
+    return await this.request(path, {
+      ...options,
+      method: HttpMethod.PUT,
+      body: options?.body ? JSON.stringify(options.body) : undefined,
+    });
+  }
+
+  async delete(
+    path: string,
+    options?: Pick<IFetchOptions, 'body' | 'queryParams'>,
+  ) {
+    return await this.request(path, {
+      ...options,
+      method: HttpMethod.DELETE,
+      body: options?.body ? JSON.stringify(options.body) : undefined,
+    });
+  }
+
+  #parseQueryParams(path: string, queryParams: IFetchOptions['queryParams']) {
+    if (!queryParams) {
+      return path;
+    }
+
+    const queryString = new URLSearchParams(queryParams).toString();
+
+    return `${path}?${queryString}`;
+  }
+}
+
+const apiClient = new ApiClient(import.meta.env.VITE_API_BASE_URL);
+
+export { apiClient };
