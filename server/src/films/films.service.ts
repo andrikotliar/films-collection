@@ -15,7 +15,9 @@ class FilmsService {
       { limit, skip, sort: { 'releaseDate.0': -1 } },
     );
 
-    return films;
+    const total = await FilmsModel.countDocuments(parsedFilters);
+
+    return { films, total };
   }
 
   async getOneFilm(id: string) {
