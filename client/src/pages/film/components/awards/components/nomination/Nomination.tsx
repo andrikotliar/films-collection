@@ -2,16 +2,12 @@ import { FC } from 'react';
 import styles from './Nomination.module.css';
 import { buildQueryLink } from '@/helpers';
 import { RouterLink } from '@/components';
-
-type Nominee = {
-  id: string;
-  name: string;
-};
+import { Actor } from '@/types';
 
 type NominationProps = {
   title: string;
-  comment?: string;
-  nominee: Nominee | null;
+  comment: string | null;
+  nominee: Actor | null;
 };
 
 const Nomination: FC<NominationProps> = ({ title, comment, nominee }) => {
@@ -21,7 +17,7 @@ const Nomination: FC<NominationProps> = ({ title, comment, nominee }) => {
         <div className={styles.title}>{title}</div>
         {nominee && (
           <RouterLink
-            to={buildQueryLink({ cast: nominee.id })}
+            to={buildQueryLink({ cast: nominee._id })}
             className={styles.actor}
           >
             {nominee.name}

@@ -1,7 +1,6 @@
 import { FC, useContext, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { AwardType } from '@/types';
-import { FilmsContext } from '@/context';
 import { buildQueryLink } from '@/helpers';
 import { DataArea, DataGrid, Icon, Scrollable } from '@/components';
 import { Nomination } from './components';
@@ -13,22 +12,20 @@ type AwardsProps = {
 };
 
 const Awards: FC<AwardsProps> = ({ awards }) => {
-  const { actors } = useContext(FilmsContext);
-
   const sortedAwards = useMemo(() => {
     return awards.sort((a, b) => b.nominations.length - a.nominations.length);
   }, [awards]);
 
   return (
     <DataGrid>
-      {sortedAwards.map(({ awardId, nominations }) => (
-        <DataArea className={styles.award} key={awardId}>
+      {sortedAwards.map(({ awardKey, nominations }) => (
+        <DataArea className={styles.award} key={awardKey}>
           <div className={styles.header}>
-            <Icon name={awardId} size={60} />
+            <Icon name={awardKey} size={60} />
             <div className={styles.main}>
               <h3 className={styles.title}>
-                <Link to={buildQueryLink({ awards: awardId })}>
-                  {awardTitles[awardId]}
+                <Link to={buildQueryLink({ awards: awardKey })}>
+                  {awardTitles[awardKey]}
                 </Link>
               </h3>
               <p>
@@ -37,15 +34,11 @@ const Awards: FC<AwardsProps> = ({ awards }) => {
             </div>
           </div>
           <Scrollable className={styles.nominations}>
-            {nominations.map(({ title, actorId, comment }, index) => (
+            {nominations.map(({ title, actor, comment }, index) => (
               <Nomination
                 title={title}
                 key={index}
-                nominee={
-                  actorId && actors
-                    ? { id: actorId, name: actors[actorId].name }
-                    : null
-                }
+                nominee={actor}
                 comment={comment}
               />
             ))}

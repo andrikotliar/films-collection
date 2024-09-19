@@ -1,18 +1,20 @@
-import styles from './MainPage.module.css';
+import styles from './root.module.css';
 import { Sidebar, FilmsSection } from './components';
 import { useDocumentTitle } from '@/hooks';
-import { SidebarProvider } from './context';
+import { FilmsListProvider, SidebarProvider } from './context';
 
 const RootPage = () => {
   useDocumentTitle();
 
   return (
-    <div className={styles.main}>
-      <SidebarProvider>
-        <Sidebar />
-      </SidebarProvider>
-      <FilmsSection />
-    </div>
+    <FilmsListProvider>
+      <div className={styles.main}>
+        <SidebarProvider>
+          <Sidebar />
+        </SidebarProvider>
+        <FilmsSection />
+      </div>
+    </FilmsListProvider>
   );
 };
 

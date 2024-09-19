@@ -1,2 +1,4 @@
-export { SidebarContext } from './sidebar-context';
-export { SidebarProvider } from './sidebar-provider';
+export * from './sidebar-context';
+export * from './sidebar-provider';
+export * from './films-list-context';
+export * from './films-list-provider';

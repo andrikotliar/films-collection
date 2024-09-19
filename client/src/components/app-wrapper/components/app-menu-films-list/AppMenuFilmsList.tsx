@@ -6,7 +6,7 @@ import { RouterLink } from '@/components';
 
 type AppMenuFilmsListProps = {
   title: string;
-  list: FilmData[];
+  list: Pick<FilmData, '_id' | 'title'>[];
 };
 
 const AppMenuFilmsList: FC<AppMenuFilmsListProps> = ({ list, title }) => {
@@ -15,7 +15,7 @@ const AppMenuFilmsList: FC<AppMenuFilmsListProps> = ({ list, title }) => {
       <div className={styles.filmsListTitle}>{title}</div>
       <div className={styles.filmsListContainer}>
         {list.map((film) => (
-          <RouterLink to={buildRouterLink('film', film.id)} key={film.id}>
+          <RouterLink to={buildRouterLink('film', film._id)} key={film._id}>
             {film.title}
           </RouterLink>
         ))}

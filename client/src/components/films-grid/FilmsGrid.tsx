@@ -1,26 +1,18 @@
 import { FC } from 'react';
-import { FilmData } from '@/types';
-import { FilmLink, FilmsNotFound, Pagination } from './components';
+import { FilmsListItem } from '@/types';
+import { FilmLink } from './components';
 import styles from './FilmsGrid.module.css';
 
 type FilmsGridProps = {
-  films: FilmData[];
-  pagesCount: number;
+  films: FilmsListItem[];
 };
 
-const FilmsGrid: FC<FilmsGridProps> = ({ films, pagesCount }) => {
+const FilmsGrid: FC<FilmsGridProps> = ({ films }) => {
   return (
-    <div className={styles.wrapper}>
-      {films.length === 0 ? (
-        <FilmsNotFound />
-      ) : (
-        <div className={styles.grid}>
-          {films.map((film) => (
-            <FilmLink data={film} key={film.id} />
-          ))}
-        </div>
-      )}
-      {pagesCount > 1 && <Pagination count={pagesCount} />}
+    <div className={styles.grid}>
+      {films.map((film) => (
+        <FilmLink data={film} key={film._id} />
+      ))}
     </div>
   );
 };

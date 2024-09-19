@@ -123,6 +123,6 @@ class ApiClient {
   }
 }
 
-const apiClient = new ApiClient(import.meta.env.VITE_API_BASE_URL);
+const apiClient = new ApiClient('/api');
 
 export { apiClient };

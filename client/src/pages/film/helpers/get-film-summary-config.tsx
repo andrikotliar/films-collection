@@ -52,7 +52,7 @@ const getFilmSummaryConfig = (
       content: (
         <TagLinksGroup
           basePath="production"
-          items={film.production}
+          items={film.studios}
           variant="gray"
         />
       ),
@@ -63,7 +63,7 @@ const getFilmSummaryConfig = (
       content: (
         <TagLinksGroup
           basePath="collections"
-          items={film.collections.map((collection) => collection.title)}
+          items={film.collections.map((collection) => collection.key)}
           variant="pink"
         />
       ),

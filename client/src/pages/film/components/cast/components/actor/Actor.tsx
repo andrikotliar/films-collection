@@ -2,33 +2,32 @@ import { FC, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ImagesIcon } from 'lucide-react';
 import classNames from 'classnames';
-import { Actor as ActorType, CastType } from '@/types';
+import { CastType } from '@/types';
 import { buildMediaPath, buildQueryLink, handleImageError } from '@/helpers';
 import { images } from '@/assets/images';
 import styles from './Actor.module.css';
 
 type ActorProps = {
-  actor: CastType;
-  externalData: ActorType;
+  person: CastType;
 };
 
-const Actor: FC<ActorProps> = ({ actor, externalData }) => {
+const Actor: FC<ActorProps> = ({ person }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
-  const photoUrl = buildMediaPath('actors', externalData.photoUrl);
-  const actorLink = buildQueryLink({ cast: actor.actorId });
+  const photoUrl = buildMediaPath('actors', person.actor.image);
+  const actorLink = buildQueryLink({ cast: person.actor._id });
 
   const flipImage = () => {
     setIsFlipped((isFlipped) => !isFlipped);
   };
 
   return (
-    <div className={styles.actor} key={actor.actorId}>
+    <div className={styles.actor} key={person.actor._id}>
       <div
         className={classNames(styles.container, {
-          [styles.flippable]: Boolean(actor.character.imageUrl),
+          [styles.flippable]: Boolean(person.character.image),
         })}
-        onClick={actor.character.imageUrl ? flipImage : undefined}
+        onClick={person.character.image ? flipImage : undefined}
       >
         <div
           className={classNames(styles.card, {
@@ -37,20 +36,20 @@ const Actor: FC<ActorProps> = ({ actor, externalData }) => {
         >
           <img
             src={photoUrl}
-            alt={externalData.name}
+            alt={person.actor.name}
             onError={handleImageError(images.actorNotFound)}
             className={styles.image}
           />
-          {actor.character.imageUrl && (
+          {person.character.image && (
             <img
-              src={buildMediaPath('characters', actor.character.imageUrl)}
-              alt={actor.character.name}
+              src={buildMediaPath('characters', person.character.image)}
+              alt={person.character.name}
               onError={handleImageError(images.characterNotFound)}
               className={classNames(styles.image, styles.characterSide)}
             />
           )}
         </div>
-        {actor.character.imageUrl && (
+        {person.character.image && (
           <div className={styles.imagesIconContainer}>
             <ImagesIcon className={styles.imagesIcon} />
           </div>
@@ -58,9 +57,9 @@ const Actor: FC<ActorProps> = ({ actor, externalData }) => {
       </div>
       <div className={styles.details}>
         <Link to={actorLink} className={styles.name}>
-          {externalData.name}
+          {person.actor.name}
         </Link>
-        <p className={styles.characterName}>{actor.character.name}</p>
+        <p className={styles.characterName}>{person.character.name}</p>
       </div>
     </div>
   );

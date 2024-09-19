@@ -18,7 +18,7 @@ type CastType = {
 };
 
 type Collection = {
-  title: string;
+  key: string;
   order: number | null;
 };
 
@@ -79,8 +79,13 @@ type FilmData = {
   updatedAt: string;
 };
 
+type FilmsListItem = Pick<
+  FilmData,
+  '_id' | 'title' | 'media' | 'collections' | 'releaseDate'
+>;
+
 type FilmsListResponse = {
-  films: Pick<FilmData, '_id' | 'title' | 'media' | 'collections'>[];
+  films: FilmsListItem[];
   total: number;
 };
 
@@ -111,6 +116,7 @@ export type {
   SeriesExtension,
   SeasonType,
   MediaItem,
+  FilmsListItem,
   FilmsListResponse,
   FilmsListFilters,
 };

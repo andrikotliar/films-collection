@@ -9,9 +9,8 @@ import {
   useState,
 } from 'react';
 import classNames from 'classnames';
-import { debounce, searchFilm } from '@/helpers';
+import { debounce } from '@/helpers';
 import { PopupMenu } from '@/components/popup-menu/PopupMenu';
-import { FilmsContext } from '@/context';
 import { FilmData } from '@/types';
 import styles from './Search.module.css';
 import { SearchMenuContent } from './components';
@@ -20,7 +19,6 @@ import { useLocation } from 'react-router-dom';
 
 const Search = () => {
   const location = useLocation();
-  const { films } = useContext(FilmsContext);
   const searchInputRef = useRef<HTMLInputElement>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSearchPending, setIsSearchPending] = useState(false);
@@ -45,9 +43,7 @@ const Search = () => {
       const searchValue = event.target.value;
 
       if (searchValue.length) {
-        const foundFilms = searchFilm(searchValue, films, location.pathname);
-
-        setFilteredFilms(foundFilms);
+        setFilteredFilms([]);
         setIsMenuOpen(true);
         setIsSearchPending(false);
 

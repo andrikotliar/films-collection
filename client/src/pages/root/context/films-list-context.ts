@@ -1,7 +1,9 @@
+import { FilmsListResponse } from '@/types';
+import { UseQueryResult } from '@tanstack/react-query';
 import { createContext } from 'react';
 
-type FilmsListContextType = {};
-
-const FilmsListContext = createContext({} as FilmsListContextType);
+const FilmsListContext = createContext(
+  {} as UseQueryResult<FilmsListResponse, Error>,
+);
 
 export { FilmsListContext };

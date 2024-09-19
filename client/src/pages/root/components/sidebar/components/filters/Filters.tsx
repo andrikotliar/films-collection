@@ -1,5 +1,5 @@
 import styles from './Filters.module.css';
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useEffect } from 'react';
 import { filtersConfig } from '@/configs';
 import { useForm, FormProvider } from 'react-hook-form';
 import { Button, Tabs } from '@/components';
@@ -8,10 +8,10 @@ import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
 import { useQueryFilter } from '@/hooks';
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
-import { TypeVariants } from '@/types';
+import { TitleType } from '@/enums';
 
 type FormValues = {
-  type: TypeVariants[] | null;
+  type: TitleType[] | null;
   collections: string[] | null;
   genres: string[] | null;
   startDate: string | null;
@@ -32,11 +32,8 @@ const defaultValues: FormValues = {
   extra: null,
 };
 
-const COLLECTIONS_TAB_INDEX = 1;
-
 const Filters = () => {
   const { filterParams, updateFilter, resetFilter } = useQueryFilter();
-  const [defaultTabIndex, setDefaultTabIndex] = useState(0);
 
   const filtersCount = countObjectKeys(filterParams, ['pageIndex']);
 
@@ -55,7 +52,7 @@ const Filters = () => {
 
     updateFilter({
       ...filledOptions,
-      pageIndex: 0,
+      skip: 0,
     });
     setIsFilterOpen(false);
     window.scrollTo({
@@ -69,10 +66,6 @@ const Filters = () => {
       methods.reset(filterParams);
       updateFiltersCount(filtersCount);
     }
-
-    if (filterParams.collections) {
-      setDefaultTabIndex(COLLECTIONS_TAB_INDEX);
-    }
   }, [filterParams, filtersCount]);
 
   const handleReset = () => {
@@ -80,7 +73,6 @@ const Filters = () => {
     methods.reset(defaultValues);
     window.scrollTo(0, 0);
     updateFiltersCount(0);
-    setDefaultTabIndex(0);
   };
 
   return (
@@ -90,7 +82,7 @@ const Filters = () => {
         className={styles.filters}
       >
         <Tabs
-          defaultTabIndex={defaultTabIndex}
+          defaultTabIndex={0}
           components={[
             {
               label: 'General',

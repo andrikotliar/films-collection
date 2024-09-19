@@ -7,7 +7,7 @@ type FilterParams = { [key: string]: any };
 type HandleChangeParam = (param: string, value?: string | number) => void;
 
 type UseFilter = {
-  filterParams: FilterParams;
+  filterParams: any;
   setSearchParams: (params: FilterParams) => void;
   updateFilter: (params: FilterParams) => void;
   resetFilter: VoidFunction;

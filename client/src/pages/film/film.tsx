@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Loader, NotFound } from '@/components';
-import { useDocumentTitle, useScrollToTop } from '@/hooks';
-import { useCurrentFilm, useLastVisitedFilms } from '@/pages/film/hooks';
+import { useDocumentTitle, useOneFilm, useScrollToTop } from '@/hooks';
+import { useLastVisitedFilms } from '@/pages/film/hooks';
 import {
   SectionTitle,
   Description,
@@ -20,17 +20,17 @@ const FilmPage = () => {
   const { id } = useParams();
   const [activeIndex, setActiveIndex] = useState(0);
 
-  const film = useCurrentFilm(id);
+  const { data: film, isLoading } = useOneFilm(id);
 
   useScrollToTop([id]);
   useDocumentTitle(film?.title);
-  useLastVisitedFilms(id);
+  useLastVisitedFilms(film);
 
-  if (film === undefined) {
+  if (isLoading) {
     return <Loader isFullPage />;
   }
 
-  if (film === null || !id) {
+  if (!film || !id) {
     return <NotFound message="Film not found" />;
   }
 
@@ -70,8 +70,9 @@ const FilmPage = () => {
         </Section>
       )}
 
-      {film.chapters.length && (
+      {film.chapters?.length && (
         <Section>
+          <SectionTitle>Chapters</SectionTitle>
           <Chapters data={film.chapters} filmId={film._id} key={film._id} />
         </Section>
       )}

@@ -1,11 +1,11 @@
-import { FilmData } from '@/types';
+import { FilmsListItem } from '@/types';
 import { forwardRef } from 'react';
 import { Link } from 'react-router-dom';
 import { buildMediaPath, buildRouterLink, getYearFromDate } from '@/helpers';
 import styles from './FilmLink.module.css';
 
 type FilmLinkProps = {
-  data: FilmData;
+  data: FilmsListItem;
 };
 
 const FilmLink = forwardRef<HTMLAnchorElement, FilmLinkProps>(
@@ -15,13 +15,10 @@ const FilmLink = forwardRef<HTMLAnchorElement, FilmLinkProps>(
     return (
       <Link
         className={styles.filmLink}
-        to={buildRouterLink('film', data.id)}
-        key={data.id}
+        to={buildRouterLink('film', data._id)}
+        key={data._id}
         ref={ref}
       >
-        {data?.ordered && (
-          <div className={styles.order}>{data.collections[0].order}</div>
-        )}
         <div className={styles.cover}>
           <img src={posterUrl} alt={data.title} />
         </div>

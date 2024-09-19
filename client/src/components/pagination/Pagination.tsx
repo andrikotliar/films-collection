@@ -1,30 +1,34 @@
-import { FC, useContext, useMemo } from 'react';
+import { FC, useMemo } from 'react';
 import styles from './Pagination.module.css';
 import { useQueryFilter } from '@/hooks';
 import classNames from 'classnames';
-import { FilmsContext } from '@/context';
 import { PER_PAGE } from '@/constants';
 
 type PaginationProps = {
-  count: number;
+  total: number;
 };
 
-const Pagination: FC<PaginationProps> = ({ count }) => {
+const Pagination: FC<PaginationProps> = ({ total }) => {
   const { filterParams, setSearchParams } = useQueryFilter();
-  const { films } = useContext(FilmsContext);
 
   const activePage = useMemo(() => {
-    if (!filterParams.pageIndex) {
+    if (!filterParams.skip) {
       return 0;
     }
 
-    return Number(filterParams.pageIndex);
+    return Number(filterParams.skip);
   }, [filterParams]);
+
+  const pagesCount = Math.ceil(total / PER_PAGE);
+
+  if (!pagesCount) {
+    return;
+  }
 
   const handlePage = (pageIndex: number) => () => {
     setSearchParams({
       ...filterParams,
-      pageIndex,
+      skip: pageIndex,
     });
     window.scrollTo({
       top: 0,
@@ -35,7 +39,7 @@ const Pagination: FC<PaginationProps> = ({ count }) => {
   return (
     <div className={styles.pagination}>
       <div className={styles.pages}>
-        {Array.from({ length: count }, (_, index) => (
+        {Array.from({ length: Math.ceil(total / PER_PAGE) }, (_, index) => (
           <button
             className={classNames(styles.pageButton, {
               [styles.active]: activePage === index,
@@ -51,7 +55,7 @@ const Pagination: FC<PaginationProps> = ({ count }) => {
         <span className={styles.currentState}>
           {activePage * PER_PAGE + 1} - {(activePage + 1) * PER_PAGE}
         </span>{' '}
-        <span>/ {films?.length ?? 0} films</span>
+        <span>/ {total} films</span>
       </div>
     </div>
   );
