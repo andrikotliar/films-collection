@@ -61,48 +61,51 @@ class ApiClient {
     }
   }
 
-  async get(path: string, queryParams?: IFetchOptions['queryParams']) {
-    return await this.request(path, { method: HttpMethod.GET, queryParams });
+  async get<T = unknown>(
+    path: string,
+    queryParams?: IFetchOptions['queryParams'],
+  ) {
+    return await this.request<T>(path, { method: HttpMethod.GET, queryParams });
   }
 
-  async post(
+  async post<T = unknown>(
     path: string,
     options?: Pick<IFetchOptions, 'body' | 'queryParams'>,
   ) {
-    return await this.request(path, {
+    return await this.request<T>(path, {
       ...options,
       method: HttpMethod.POST,
       body: options?.body ? JSON.stringify(options.body) : undefined,
     });
   }
 
-  async patch(
+  async patch<T = unknown>(
     path: string,
     options?: Pick<IFetchOptions, 'body' | 'queryParams'>,
   ) {
-    return await this.request(path, {
+    return await this.request<T>(path, {
       ...options,
       method: HttpMethod.PATCH,
       body: options?.body ? JSON.stringify(options.body) : undefined,
     });
   }
 
-  async put(
+  async put<T = unknown>(
     path: string,
     options?: Pick<IFetchOptions, 'body' | 'queryParams'>,
   ) {
-    return await this.request(path, {
+    return await this.request<T>(path, {
       ...options,
       method: HttpMethod.PUT,
       body: options?.body ? JSON.stringify(options.body) : undefined,
     });
   }
 
-  async delete(
+  async delete<T = unknown>(
     path: string,
     options?: Pick<IFetchOptions, 'body' | 'queryParams'>,
   ) {
-    return await this.request(path, {
+    return await this.request<T>(path, {
       ...options,
       method: HttpMethod.DELETE,
       body: options?.body ? JSON.stringify(options.body) : undefined,

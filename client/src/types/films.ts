@@ -1,4 +1,4 @@
-import { Award, PersonRole, TitleType } from '@/enums';
+import { Award, Country, Genre, PersonRole, Studio, TitleType } from '@/enums';
 import { Actor } from './actor';
 
 type Crew = {
@@ -59,11 +59,11 @@ type FilmData = {
   type: TitleType[];
   media: MediaItem[];
   title: string;
-  genres: string[];
-  production: string[];
+  genres: Genre[];
+  studios: Studio[];
   crew: Crew[];
   description: string[];
-  countries: string[];
+  countries: Country[];
   releaseDate: string[];
   duration: number;
   cast: CastType[];
@@ -79,7 +79,27 @@ type FilmData = {
   updatedAt: string;
 };
 
-type FilmsList = Pick<FilmData, '_id' | 'title' | 'media' | 'collections'>;
+type FilmsListResponse = {
+  films: Pick<FilmData, '_id' | 'title' | 'media' | 'collections'>[];
+  total: number;
+};
+
+type FilmsListPagination = {
+  limit: number;
+  skip: number;
+};
+
+type FilmsListFilters = FilmsListPagination &
+  Partial<{
+    type: TitleType[];
+    genre: Genre[];
+    startDate: string;
+    endDate: string;
+    country: Country[];
+    studio: Studio[];
+    isLatestAdded: boolean;
+    collection: Collection[];
+  }>;
 
 export type {
   FilmData,
@@ -91,5 +111,6 @@ export type {
   SeriesExtension,
   SeasonType,
   MediaItem,
-  FilmsList,
+  FilmsListResponse,
+  FilmsListFilters,
 };

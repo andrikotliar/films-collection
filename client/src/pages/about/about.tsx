@@ -1,5 +1,5 @@
 import { useDocumentTitle, useScrollToTop } from '@/hooks';
-import styles from './AboutPage.module.css';
+import styles from './about.module.css';
 import { RandomFilms } from './components';
 
 const AboutPage = () => {

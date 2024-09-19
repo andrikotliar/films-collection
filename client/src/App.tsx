@@ -2,8 +2,8 @@ import { Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { AppWrapper, Loader } from './components';
 import {
+  RootPage,
   FilmPage,
-  MainPage,
   AboutPage,
   StatisticPage,
   NotFoundPage,
@@ -14,7 +14,7 @@ const App = () => {
     <AppWrapper>
       <Suspense fallback={<Loader isFullPage />}>
         <Routes>
-          <Route path="/" element={<MainPage />} />
+          <Route path="/" element={<RootPage />} />
           <Route path="/film/:id" element={<FilmPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/stats" element={<StatisticPage />} />

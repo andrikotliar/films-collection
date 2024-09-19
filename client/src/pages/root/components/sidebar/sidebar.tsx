@@ -1,11 +1,11 @@
 import { useContext } from 'react';
+import { SlidersHorizontalIcon } from 'lucide-react';
 import classNames from 'classnames';
-import { SidebarContext } from '@/pages/main/components/sidebar/context';
+import { SidebarContext } from '@/pages/root/context';
 import { Filters } from './components';
 import styles from './SidebarContent.module.css';
-import { SlidersHorizontalIcon } from 'lucide-react';
 
-const SidebarContent = () => {
+const Sidebar = () => {
   const { isFilterOpen, toggleFilter, filtersCount } =
     useContext(SidebarContext);
 
@@ -29,4 +29,4 @@ const SidebarContent = () => {
   );
 };
 
-export { SidebarContent };
+export { Sidebar };

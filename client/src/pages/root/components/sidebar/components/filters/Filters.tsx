@@ -3,7 +3,7 @@ import { useContext, useEffect, useState } from 'react';
 import { filtersConfig } from '@/configs';
 import { useForm, FormProvider } from 'react-hook-form';
 import { Button, Tabs } from '@/components';
-import { SidebarContext } from '@/pages/main/components/sidebar/context';
+import { SidebarContext } from '@/pages/root/context';
 import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
 import { useQueryFilter } from '@/hooks';
