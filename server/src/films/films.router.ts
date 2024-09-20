@@ -20,6 +20,12 @@ const registerFilmsRouter = (app: FastifyInstance) => {
 
   app.route({
     method: 'GET',
+    url: '/films/random',
+    handler: filmsController.findRandomFilms,
+  });
+
+  app.route({
+    method: 'GET',
     url: '/films/:id',
     handler: filmsController.findOne,
   });

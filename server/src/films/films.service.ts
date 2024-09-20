@@ -50,6 +50,23 @@ class FilmsService {
     return films;
   }
 
+  async getRandomFilms() {
+    return await FilmsModel.aggregate([
+      {
+        $sample: {
+          size: 10,
+        },
+      },
+      {
+        $project: {
+          _id: 1,
+          title: 1,
+          media: 1,
+        },
+      },
+    ]);
+  }
+
   #getFormattedDate(date: Date) {
     const year = date.getFullYear();
     const month = String(date.getMonth() + 1).padStart(2, '0');
@@ -61,6 +78,8 @@ class FilmsService {
   async #getFilmChapters(id: string) {
     const chaptersService = new ChaptersService();
     const chapters = await chaptersService.findChapters(id);
+
+    console.log({ chapters });
 
     const chaptersList = await FilmsModel.find(
       {

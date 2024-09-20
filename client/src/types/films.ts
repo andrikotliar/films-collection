@@ -96,6 +96,8 @@ type FilmsListPagination = {
   skip: number;
 };
 
+type RandomFilmsList = Pick<FilmData, '_id' | 'title' | 'media'>[];
+
 type FilmsListFilters = FilmsListPagination &
   Partial<{
     type: TitleType[];
@@ -122,4 +124,5 @@ export type {
   FilmsListResponse,
   FilmsListFilters,
   FilmLinkItem,
+  RandomFilmsList,
 };
