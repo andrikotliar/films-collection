@@ -84,6 +84,8 @@ type FilmsListItem = Pick<
   '_id' | 'title' | 'media' | 'collections' | 'releaseDate'
 >;
 
+type FilmLinkItem = Pick<FilmData, '_id' | 'title'>;
+
 type FilmsListResponse = {
   films: FilmsListItem[];
   total: number;
@@ -119,4 +121,5 @@ export type {
   FilmsListItem,
   FilmsListResponse,
   FilmsListFilters,
+  FilmLinkItem,
 };

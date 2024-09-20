@@ -1,5 +1,5 @@
 import { LocalStorageKey } from '@/enums';
-import { FilmData } from '@/types';
+import { FilmData, FilmLinkItem } from '@/types';
 import { useEffect } from 'react';
 
 const useLastVisitedFilms = (film?: FilmData | null) => {
@@ -20,8 +20,7 @@ const useLastVisitedFilms = (film?: FilmData | null) => {
       return;
     }
 
-    const films: Pick<FilmData, '_id' | 'title'>[] =
-      JSON.parse(lastVisitedFilms);
+    const films: FilmLinkItem[] = JSON.parse(lastVisitedFilms);
 
     const filteredFilms = films.filter(
       (localFilm) => localFilm._id !== film._id,

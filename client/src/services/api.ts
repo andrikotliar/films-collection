@@ -46,7 +46,7 @@ class ApiClient {
         internalOptions.queryParams,
       );
       const response = await fetch(
-        `${this.#baseUrl}/${parsedPath}`,
+        `${this.#baseUrl}${parsedPath}`,
         internalOptions,
       );
       const result = await response.json();

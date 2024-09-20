@@ -33,6 +33,12 @@ class FilmsController {
 
     return reply.code(ResponseCode.OK).send(data);
   };
+
+  findAnniversaries = async (_: FastifyRequest, reply: FastifyReply) => {
+    const data = await this.#filmsService.getAnniversaries();
+
+    return reply.code(ResponseCode.OK).send(data);
+  };
 }
 
 export { FilmsController };

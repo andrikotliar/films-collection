@@ -14,6 +14,12 @@ const registerFilmsRouter = (app: FastifyInstance) => {
 
   app.route({
     method: 'GET',
+    url: '/films/anniversaries',
+    handler: filmsController.findAnniversaries,
+  });
+
+  app.route({
+    method: 'GET',
     url: '/films/:id',
     handler: filmsController.findOne,
   });

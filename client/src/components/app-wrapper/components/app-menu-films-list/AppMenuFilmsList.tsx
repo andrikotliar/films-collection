@@ -1,12 +1,12 @@
 import { FC } from 'react';
 import styles from './AppMenuFilmsList.module.css';
-import { FilmData } from '@/types';
+import { FilmLinkItem } from '@/types';
 import { buildRouterLink } from '@/helpers';
 import { RouterLink } from '@/components';
 
 type AppMenuFilmsListProps = {
   title: string;
-  list: Pick<FilmData, '_id' | 'title'>[];
+  list: FilmLinkItem[];
 };
 
 const AppMenuFilmsList: FC<AppMenuFilmsListProps> = ({ list, title }) => {

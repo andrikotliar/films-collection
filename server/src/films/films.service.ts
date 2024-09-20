@@ -37,6 +37,27 @@ class FilmsService {
     return film;
   }
 
+  async getAnniversaries() {
+    const today = this.#getFormattedDate(new Date());
+
+    const films = await FilmsModel.find(
+      {
+        releaseDate: today,
+      },
+      { _id: 1, title: 1 },
+    );
+
+    return films;
+  }
+
+  #getFormattedDate(date: Date) {
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+
+    return `${year}-${month}-${day}`;
+  }
+
   async #getFilmChapters(id: string) {
     const chaptersService = new ChaptersService();
     const chapters = await chaptersService.findChapters(id);

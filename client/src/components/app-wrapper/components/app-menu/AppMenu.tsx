@@ -5,8 +5,10 @@ import classNames from 'classnames';
 import { FC, RefObject, useMemo, useRef } from 'react';
 import { useClickOutside, useCloseOnScroll } from '@/hooks';
 import { LocalStorageKey } from '@/enums';
-import { FilmData } from '@/types';
+import { FilmLinkItem } from '@/types';
 import { AppMenuFilmsList } from '../app-menu-films-list/AppMenuFilmsList';
+import { useQuery } from '@tanstack/react-query';
+import { apiClient } from '@/services';
 
 type AppMenuProps = {
   isOpen: boolean;
@@ -19,6 +21,10 @@ const AppMenu: FC<AppMenuProps> = ({ isOpen, onClose, menuButtonRef }) => {
   const lastVisitedFilmsStorage = localStorage.getItem(
     LocalStorageKey.LAST_VISITED_FILMS,
   );
+  const { data: anniversaryList } = useQuery({
+    queryKey: ['anniversary-list'],
+    queryFn: () => apiClient.get<FilmLinkItem[]>('/films/anniversaries'),
+  });
 
   useClickOutside({
     isOpen,
@@ -34,28 +40,10 @@ const AppMenu: FC<AppMenuProps> = ({ isOpen, onClose, menuButtonRef }) => {
       return [];
     }
 
-    const parsedFilms: Pick<FilmData, '_id' | 'title'>[] = JSON.parse(
-      lastVisitedFilmsStorage,
-    );
+    const parsedFilms: FilmLinkItem[] = JSON.parse(lastVisitedFilmsStorage);
 
     return parsedFilms;
   }, [lastVisitedFilmsStorage]);
-
-  const todayReleasedMovies = useMemo(() => {
-    const today = new Date();
-    const todayDate = today.getDate();
-    const todayMonth = today.getMonth();
-
-    // const filteredFilms = films.filter((film) => {
-    //   const filmReleasedDate = new Date(film.releaseDate[0]);
-    //   const date = filmReleasedDate.getDate();
-    //   const month = filmReleasedDate.getMonth();
-
-    //   return date === todayDate && todayMonth === month;
-    // });
-
-    return [];
-  }, []);
 
   return (
     <div
@@ -68,9 +56,9 @@ const AppMenu: FC<AppMenuProps> = ({ isOpen, onClose, menuButtonRef }) => {
       {Boolean(lastVisitedFilms.length) && (
         <AppMenuFilmsList list={lastVisitedFilms} title="Last visited titles" />
       )}
-      {Boolean(todayReleasedMovies.length) && (
+      {anniversaryList && anniversaryList.length !== 0 && (
         <AppMenuFilmsList
-          list={todayReleasedMovies}
+          list={anniversaryList}
           title="Released in this date"
         />
       )}
