@@ -1,6 +1,6 @@
 import { FastifyInstance } from 'fastify';
 import { FilmsController } from './films.controller.js';
-import { findAllSchema } from './common/index.js';
+import { findAllSchema, findBySearchStringSchema } from './common/index.js';
 
 const registerFilmsRouter = (app: FastifyInstance) => {
   const filmsController = new FilmsController();
@@ -22,6 +22,13 @@ const registerFilmsRouter = (app: FastifyInstance) => {
     method: 'GET',
     url: '/films/random',
     handler: filmsController.findRandomFilms,
+  });
+
+  app.route({
+    method: 'GET',
+    url: '/films/search',
+    handler: filmsController.findFilmsBySearchString,
+    schema: findBySearchStringSchema,
   });
 
   app.route({

@@ -48,6 +48,7 @@ const findAllSchema: FastifySchema = {
       },
     },
     required: ['limit', 'skip'],
+    additionalProperties: false,
   },
 };
 

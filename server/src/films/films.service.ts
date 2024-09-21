@@ -7,6 +7,8 @@ class FilmsService {
   async getFilteredFilms(queries: FindAllQueries) {
     const { limit, skip, ...filters } = queries;
 
+    console.log(filters);
+
     const parsedFilters = this.#parseFilters(filters);
 
     const films = await FilmsModel.find(
@@ -65,6 +67,18 @@ class FilmsService {
         },
       },
     ]);
+  }
+
+  async searchFilm(searchString: string) {
+    return await FilmsModel.find(
+      {
+        title: {
+          $regex: searchString,
+          $options: 'i',
+        },
+      },
+      { _id: 1, title: 1, media: 1, description: 1, releaseDate: 1 },
+    );
   }
 
   #getFormattedDate(date: Date) {

@@ -1,6 +1,10 @@
 import { FastifyRequest, FastifyReply } from 'fastify';
 import { FilmsService } from './films.service.js';
-import { FindAllQueries, FindOneParams } from './common/index.js';
+import {
+  FindAllQueries,
+  FindBySearchString,
+  FindOneParams,
+} from './common/index.js';
 import { ResponseCode } from '../common/index.js';
 
 class FilmsController {
@@ -42,6 +46,17 @@ class FilmsController {
 
   findRandomFilms = async (_: FastifyRequest, reply: FastifyReply) => {
     const data = await this.#filmsService.getRandomFilms();
+
+    return reply.code(ResponseCode.OK).send(data);
+  };
+
+  findFilmsBySearchString = async (
+    request: FastifyRequest<{ Querystring: FindBySearchString }>,
+    reply: FastifyReply,
+  ) => {
+    const { q } = request.query;
+
+    const data = await this.#filmsService.searchFilm(q);
 
     return reply.code(ResponseCode.OK).send(data);
   };

@@ -18,4 +18,13 @@ type FindOneParams = {
   id: string;
 };
 
-export type { FindAllQueries, FindAllFilters, FindOneParams };
+type FindBySearchString = {
+  q: string;
+};
+
+export type {
+  FindAllQueries,
+  FindAllFilters,
+  FindOneParams,
+  FindBySearchString,
+};
