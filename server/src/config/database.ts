@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
-import { env } from './env';
 import { FastifyInstance } from 'fastify';
+import { env } from './env.js';
 
 const connectDatabase = async (app: FastifyInstance) => {
   try {

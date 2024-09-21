@@ -1,6 +1,6 @@
 import { FastifyInstance } from 'fastify';
-import { FilmsController } from './films.controller';
-import { findAllSchema } from './common';
+import { FilmsController } from './films.controller.js';
+import { findAllSchema } from './common/index.js';
 
 const registerFilmsRouter = (app: FastifyInstance) => {
   const filmsController = new FilmsController();

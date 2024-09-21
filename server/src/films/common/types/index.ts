@@ -1,2 +1,2 @@
-export * from './film.entity';
-export * from './filters';
+export * from './film.entity.js';
+export * from './filters.js';

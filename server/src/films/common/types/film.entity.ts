@@ -7,7 +7,7 @@ import {
   Studio,
   TitleType,
   CollectionEnum,
-} from '../enums';
+} from '../enums/index.js';
 
 type Person = {
   name: string;

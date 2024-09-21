@@ -1,5 +1,5 @@
 import { model, Schema } from 'mongoose';
-import { Chapter } from './common';
+import { Chapter } from './common/index.js';
 
 const ChapterSchema = new Schema<Chapter>({
   list: [

@@ -1,7 +1,7 @@
 import { RootFilterQuery } from 'mongoose';
-import { FilmsModel } from './films.model';
-import { FindAllFilters, FindAllQueries } from './common';
-import { ChaptersService } from '../chapters/chapters.service';
+import { FilmsModel } from './films.model.js';
+import { FindAllFilters, FindAllQueries } from './common/index.js';
+import { ChaptersService } from '../chapters/chapters.service.js';
 
 class FilmsService {
   async getFilteredFilms(queries: FindAllQueries) {

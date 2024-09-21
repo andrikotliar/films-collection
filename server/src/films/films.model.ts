@@ -17,8 +17,8 @@ import {
   SeriesExtension,
   Studio,
   TitleType,
-} from './common';
-import { ActorModel } from '../actors/actors.model';
+} from './common/index.js';
+import { ActorModel } from '../actors/actors.model.js';
 
 const FilmMediaSchema = new Schema<MediaItem>({
   poster: {

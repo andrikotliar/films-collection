@@ -1,5 +1,5 @@
 import { model, Schema } from 'mongoose';
-import { ActorType } from './common';
+import { ActorType } from './common/index.js';
 
 const ActorSchema = new Schema<ActorType>({
   name: {

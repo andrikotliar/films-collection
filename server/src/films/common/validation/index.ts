@@ -1,1 +1,1 @@
-export * from './find-all.schema';
+export * from './find-all.schema.js';
