@@ -79,8 +79,6 @@ class FilmsService {
     const chaptersService = new ChaptersService();
     const chapters = await chaptersService.findChapters(id);
 
-    console.log({ chapters });
-
     const chaptersList = await FilmsModel.find(
       {
         _id: {
