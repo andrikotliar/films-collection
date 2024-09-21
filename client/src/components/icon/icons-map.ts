@@ -1,4 +1,4 @@
-import { IconsMap } from '../types';
+import { IconsMap } from './types';
 
 import OscarIcon from '@/assets/icons/awards/oscar.svg?react';
 import AnnieIcon from '@/assets/icons/awards/annie.svg?react';

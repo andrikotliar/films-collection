@@ -19,7 +19,7 @@ const getDivisor = (length: number) => {
   };
 };
 
-const getFormattedValue = (value?: number): string | null => {
+const getFormattedValue = (value: number | null): string | null => {
   if (!value) return null;
 
   const valueLength = value.toString().length;

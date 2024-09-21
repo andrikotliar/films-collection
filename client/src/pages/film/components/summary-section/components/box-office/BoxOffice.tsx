@@ -10,7 +10,10 @@ const BoxOffice: FC<BoxOfficeProps> = ({ budget, boxOffice }) => {
   const formattedBudget = getFormattedValue(budget);
   const formattedBoxOffice = getFormattedValue(boxOffice);
 
-  const hasBoxOfficeBenefit = checkHasBoxOfficeBenefit(budget, boxOffice);
+  const hasBoxOfficeBenefit = checkHasBoxOfficeBenefit(
+    budget ?? 0,
+    boxOffice ?? 0,
+  );
 
   return (
     <div className={styles.wrapper}>

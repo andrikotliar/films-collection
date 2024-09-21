@@ -1,7 +1,4 @@
-const checkHasBoxOfficeBenefit = (
-  budget: number = 0,
-  boxOffice: number = 0,
-) => {
+const checkHasBoxOfficeBenefit = (budget: number, boxOffice: number) => {
   if (boxOffice > budget) {
     return true;
   }

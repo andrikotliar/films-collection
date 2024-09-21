@@ -12,7 +12,7 @@ type FoundFilmProps = {
 const FoundFilm: FC<FoundFilmProps> = ({ film, onFilmOpen }) => {
   return (
     <Link
-      to={`/film/${film.id}`}
+      to={`/film/${film._id}`}
       className={styles.film}
       onClick={onFilmOpen}
       type="button"
