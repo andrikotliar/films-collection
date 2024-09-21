@@ -1,10 +1,10 @@
 import { FC, PropsWithChildren } from 'react';
 import styles from './SearchMenuContent.module.css';
-import { FilmData } from '@/types';
+import { FilmSearchResult } from '@/types';
 import { FoundFilm } from '../found-film/FoundFilm';
 
 type SearchMenuContentProps = {
-  films: FilmData[];
+  films: FilmSearchResult[];
   onFilmOpen: VoidFunction;
 };
 
@@ -14,17 +14,21 @@ const SearchMenuContent: FC<PropsWithChildren<SearchMenuContentProps>> = ({
 }) => {
   const isEmpty = films.length === 0;
 
+  if (isEmpty) {
+    return (
+      <div className={styles.wrapper}>
+        <div>Not found</div>
+      </div>
+    );
+  }
+
   return (
     <div className={styles.wrapper}>
-      {!isEmpty ? (
-        <div className={styles.content}>
-          {films.map((film) => (
-            <FoundFilm key={film._id} film={film} onFilmOpen={onFilmOpen} />
-          ))}
-        </div>
-      ) : (
-        <div>Not found</div>
-      )}
+      <div className={styles.content}>
+        {films.map((film) => (
+          <FoundFilm key={film._id} film={film} onFilmOpen={onFilmOpen} />
+        ))}
+      </div>
     </div>
   );
 };

@@ -86,6 +86,11 @@ type FilmsListItem = Pick<
 
 type FilmLinkItem = Pick<FilmData, '_id' | 'title'>;
 
+type FilmSearchResult = Pick<
+  FilmData,
+  '_id' | 'title' | 'description' | 'media' | 'releaseDate'
+>;
+
 type FilmsListResponse = {
   films: FilmsListItem[];
   total: number;
@@ -125,4 +130,5 @@ export type {
   FilmsListFilters,
   FilmLinkItem,
   RandomFilmsList,
+  FilmSearchResult,
 };

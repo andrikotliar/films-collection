@@ -3,7 +3,6 @@ import {
   CSSProperties,
   FocusEventHandler,
   useCallback,
-  useContext,
   useEffect,
   useRef,
   useState,
@@ -11,20 +10,29 @@ import {
 import classNames from 'classnames';
 import { debounce } from '@/helpers';
 import { PopupMenu } from '@/components/popup-menu/PopupMenu';
-import { FilmData } from '@/types';
 import styles from './Search.module.css';
 import { SearchMenuContent } from './components';
 import { LoaderCircleIcon, SearchIcon } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
+import { useQuery } from '@tanstack/react-query';
+import { apiClient } from '@/services';
+import { FilmSearchResult } from '@/types';
 
 const Search = () => {
   const location = useLocation();
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const [searchString, setSearchString] = useState<string | null>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isSearchPending, setIsSearchPending] = useState(false);
-  const [filteredFilms, setFilteredFilms] = useState<FilmData[]>([]);
   const [searchWrapperStyles, setSearchWrapperStyles] =
     useState<CSSProperties>();
+
+  const { data, isLoading } = useQuery({
+    queryKey: ['films-search', searchString],
+    queryFn: ({ queryKey }) =>
+      apiClient.get<FilmSearchResult[]>(`/films/search?q=${queryKey[1]}`),
+    enabled: Boolean(searchString),
+    retry: false,
+  });
 
   const isMobile = window.innerWidth <= 480;
 
@@ -43,26 +51,19 @@ const Search = () => {
       const searchValue = event.target.value;
 
       if (searchValue.length) {
-        setFilteredFilms([]);
+        setSearchString(searchValue);
         setIsMenuOpen(true);
-        setIsSearchPending(false);
 
         return;
       }
 
-      setIsSearchPending(false);
+      setSearchString(null);
       setIsMenuOpen(false);
     },
     [location.pathname],
   );
 
   const debouncedSearch = debounce(handleSearch, 1000);
-
-  const handleIsPending = useCallback(() => {
-    if (!isSearchPending) {
-      setIsSearchPending(true);
-    }
-  }, [isSearchPending]);
 
   const handleFocus: FocusEventHandler<HTMLInputElement> = (event) => {
     if (!isMenuOpen && event.target.value.length) {
@@ -112,16 +113,13 @@ const Search = () => {
           type="text"
           className={styles.input}
           placeholder="Search by title..."
-          onChange={(event) => {
-            handleIsPending();
-            debouncedSearch(event);
-          }}
+          onChange={debouncedSearch}
           onFocus={handleFocus}
           onBlur={clearStyles}
           ref={searchInputRef}
         />
         <SearchIcon className={styles.searchIcon} />
-        {isSearchPending && (
+        {isLoading && (
           <div className={styles.loaderWrapper}>
             <LoaderCircleIcon
               className={classNames(styles.loaderIcon, 'spin')}
@@ -130,7 +128,7 @@ const Search = () => {
         )}
       </div>
       <PopupMenu
-        isOpen={isMenuOpen}
+        isOpen={isMenuOpen && !isLoading}
         onClose={handleCloseSearchDropdown}
         triggerRef={searchInputRef}
         menuMargin={3}
@@ -139,7 +137,7 @@ const Search = () => {
         className={styles.menu}
       >
         <SearchMenuContent
-          films={filteredFilms}
+          films={data ?? []}
           onFilmOpen={handleOpenFilmFinish}
         />
       </PopupMenu>

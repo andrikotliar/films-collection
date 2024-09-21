@@ -1,11 +1,11 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import { FilmData } from '@/types';
+import { FilmSearchResult } from '@/types';
 import { buildMediaPath, getYearFromDate } from '@/helpers';
 import styles from './FoundFilm.module.css';
 
 type FoundFilmProps = {
-  film: FilmData;
+  film: FilmSearchResult;
   onFilmOpen: VoidFunction;
 };
 
