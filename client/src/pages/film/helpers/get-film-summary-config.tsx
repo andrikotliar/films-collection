@@ -5,6 +5,8 @@ import { ReleaseDate } from '../components/release-date/ReleaseDate';
 import { TagLinksGroup } from '../components/tag-links-group/TagLinksGroup';
 import { SummaryConfig } from '../types';
 import { getSeriesSummaryConfig } from './get-series-summary-config';
+import { genreTitles } from '@/titles/genre-titles';
+import { collectionTitles, countryTitles, studioTitles } from '@/titles';
 
 const getFilmSummaryConfig = (
   film: FilmData,
@@ -21,7 +23,13 @@ const getFilmSummaryConfig = (
     {
       id: 'genres',
       title: 'Genres',
-      content: <TagLinksGroup items={film.genres} basePath="genres" />,
+      content: (
+        <TagLinksGroup
+          items={film.genres}
+          basePath="genres"
+          titles={genreTitles}
+        />
+      ),
     },
     {
       id: 'duration',
@@ -43,6 +51,7 @@ const getFilmSummaryConfig = (
           basePath="countries"
           items={film.countries}
           variant="gray"
+          titles={countryTitles}
         />
       ),
     },
@@ -54,6 +63,7 @@ const getFilmSummaryConfig = (
           basePath="production"
           items={film.studios}
           variant="gray"
+          titles={studioTitles}
         />
       ),
     },
@@ -65,6 +75,7 @@ const getFilmSummaryConfig = (
           basePath="collections"
           items={film.collections.map((collection) => collection.key)}
           variant="pink"
+          titles={collectionTitles}
         />
       ),
     },
