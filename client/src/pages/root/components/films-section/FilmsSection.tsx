@@ -15,7 +15,7 @@ const FilmsSection = () => {
     );
   }
 
-  if (!data) {
+  if (!data?.films.length) {
     return (
       <div className={styles.filmsSection}>
         <FilmsNotFound />

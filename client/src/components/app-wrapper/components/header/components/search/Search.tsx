@@ -43,6 +43,7 @@ const Search = () => {
   };
 
   const handleCloseSearchDropdown = () => {
+    setSearchString(null);
     setIsMenuOpen(false);
   };
 

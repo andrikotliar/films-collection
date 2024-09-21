@@ -16,19 +16,19 @@ const findAllSchema: FastifySchema = {
           enum: ['Film', 'Animation', 'Series'],
         },
       },
-      genre: {
+      genres: {
         type: 'array',
         items: {
           type: 'string',
         },
       },
-      studio: {
+      studios: {
         type: 'array',
         items: {
           type: 'string',
         },
       },
-      country: {
+      countries: {
         type: 'array',
         items: {
           type: 'string',

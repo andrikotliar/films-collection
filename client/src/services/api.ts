@@ -117,7 +117,21 @@ class ApiClient {
       return path;
     }
 
-    const queryString = new URLSearchParams(queryParams).toString();
+    const params = new URLSearchParams();
+
+    Object.entries(queryParams).forEach(([key, value]) => {
+      if (Array.isArray(value)) {
+        value.forEach((item) => {
+          params.append(key, item);
+        });
+      } else {
+        params.append(key, String(value));
+      }
+    });
+
+    const queryString = params.toString();
+
+    console.log(queryString);
 
     return `${path}?${queryString}`;
   }

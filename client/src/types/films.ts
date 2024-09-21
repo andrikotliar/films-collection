@@ -1,4 +1,12 @@
-import { Award, Country, Genre, PersonRole, Studio, TitleType } from '@/enums';
+import {
+  Award,
+  Country,
+  Genre,
+  PersonRole,
+  Studio,
+  TitleType,
+  Collection as CollectionEnum,
+} from '@/enums';
 import { Actor } from './actor';
 
 type Crew = {
@@ -18,7 +26,7 @@ type CastType = {
 };
 
 type Collection = {
-  key: string;
+  key: CollectionEnum;
   order: number | null;
 };
 
