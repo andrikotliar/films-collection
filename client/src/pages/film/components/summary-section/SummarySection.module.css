@@ -1,7 +1,6 @@
 .wrapper {
   display: flex;
   gap: 20px;
-  padding: 0 var(--main-padding);
 }
 
 .summary {
@@ -21,10 +20,5 @@
 @media (max-width: 680px) {
   .wrapper {
     flex-direction: column;
-    padding: 0;
-  }
-
-  .summary {
-    padding: 0 var(--main-padding);
   }
 }

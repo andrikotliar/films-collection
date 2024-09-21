@@ -12,7 +12,6 @@ import {
   Wrapper,
   SummarySection,
   Chapters,
-  Section,
   NavigationRow,
 } from './components';
 
@@ -43,12 +42,12 @@ const FilmPage = () => {
 
       <SummarySection film={film} activeIndex={activeIndex} />
 
-      <Section>
+      <section>
         <SectionTitle>Crew</SectionTitle>
         <CrewList crew={film.crew} />
-      </Section>
+      </section>
 
-      <Section>
+      <section>
         <SectionTitle>
           Description
           {film.seriesExtension?.seasons[activeIndex] && (
@@ -56,25 +55,25 @@ const FilmPage = () => {
           )}
         </SectionTitle>
         <Description>{film.description[activeIndex]}</Description>
-      </Section>
+      </section>
 
-      <Section>
+      <section>
         <SectionTitle>Cast and characters</SectionTitle>
         <Cast cast={film.cast} />
-      </Section>
+      </section>
 
       {film.awards && (
-        <Section>
+        <section>
           <SectionTitle>Awards</SectionTitle>
           <Awards awards={film.awards} />
-        </Section>
+        </section>
       )}
 
       {film.chapters?.length && (
-        <Section>
+        <section>
           <SectionTitle>Chapters</SectionTitle>
           <Chapters data={film.chapters} filmId={film._id} key={film._id} />
-        </Section>
+        </section>
       )}
     </Wrapper>
   );

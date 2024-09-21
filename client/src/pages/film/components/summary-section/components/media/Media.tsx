@@ -15,18 +15,19 @@ const Media: FC<MediaProps> = ({ data, title }) => {
 
   return (
     <>
-      <button onClick={() => setIsTrailerOpen(true)} className={styles.wrapper}>
-        <div className={styles.playIconWrapper}>
+      <div className={styles.wrapper}>
+        <img
+          src={buildMediaPath('posters', data.poster)}
+          alt={`Media of "${title}"`}
+          className={styles.poster}
+        />
+        <button
+          onClick={() => setIsTrailerOpen(true)}
+          className={styles.playButton}
+        >
           <PlayIcon className={styles.playButtonIcon} />
-        </div>
-        <div className={styles.poster}>
-          <img
-            src={buildMediaPath('posters', data.poster)}
-            alt={`Media of "${title}"`}
-            className={styles.image}
-          />
-        </div>
-      </button>
+        </button>
+      </div>
       <Modal
         isOpen={isTrailerOpen}
         onClose={() => setIsTrailerOpen(false)}
