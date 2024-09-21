@@ -1,14 +1,13 @@
 import mongoose from 'mongoose';
-import { FastifyInstance } from 'fastify';
 import { env } from './env.js';
 
-const connectDatabase = async (app: FastifyInstance) => {
+const connectDatabase = async () => {
   try {
     await mongoose.connect(env.MONGODB_URI);
 
-    app.log.info('MongoDB is successfully connected');
+    console.log('MongoDB is successfully connected');
   } catch (error: any) {
-    app.log.error('[Database Connection Error]:', error?.message);
+    console.error('[Database Connection Error]:', error?.message);
     process.exit(1);
   }
 };
