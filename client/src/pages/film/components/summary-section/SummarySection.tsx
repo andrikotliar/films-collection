@@ -5,6 +5,7 @@ import { Title } from '../title/Title';
 import { BoxOffice, Poster, Rating, Summary, WatchCount } from './components';
 import { getFilmSummaryConfig } from '../../helpers';
 import { TitleType } from '@/enums';
+import { TrailerButton } from '../trailer-button/TrailerButton';
 
 type SummarySectionProps = {
   film: FilmData;
@@ -24,6 +25,11 @@ const SummarySection: FC<SummarySectionProps> = ({ film }) => {
         <Title>{film.title}</Title>
         <Summary config={filmConfig} />
         <div className={styles.stats}>
+          {film.trailer && (
+            <div className={styles.trailerBlock}>
+              <TrailerButton trailer={film.trailer} />
+            </div>
+          )}
           <Rating value={film.rating} />
           <WatchCount value={film.watchCount} />
         </div>

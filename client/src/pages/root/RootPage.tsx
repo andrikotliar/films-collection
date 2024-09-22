@@ -1,4 +1,4 @@
-import styles from './root.module.css';
+import styles from './RootPage.module.css';
 import { Sidebar, FilmsSection } from './components';
 import { useDocumentTitle } from '@/hooks';
 import { FilmsListProvider, SidebarProvider } from './context';

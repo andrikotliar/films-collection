@@ -1,3 +1,20 @@
+.playButton {
+  color: var(--blue-default);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.label {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
 .trailer {
   width: 80%;
 }
@@ -30,7 +47,19 @@
 }
 
 @media (max-width: 580px) {
-  .video {
-    width: 90%;
+  .trailer {
+    width: 100%;
+    top: initial;
+    bottom: 0;
+    left: 0;
+    transform: translate(0);
+  }
+
+  .videoWrapper {
+    border-radius: 0;
+  }
+
+  .closeButton {
+    right: 10px;
   }
 }

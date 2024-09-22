@@ -13,3 +13,10 @@
   object-fit: cover;
 }
 
+@media (max-width: 680px) {
+  .poster {
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+  }
+}

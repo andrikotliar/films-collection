@@ -16,12 +16,14 @@ const TrailerButton: FC<TrailerButtonProps> = ({ trailer }) => {
         onClick={() => setIsTrailerOpen(true)}
         className={styles.playButton}
       >
-        <PlayIcon className={styles.playButtonIcon} />
+        <PlayIcon className={styles.icon} />
+        <span className={styles.label}>Play trailer</span>
       </button>
       <Modal
         isOpen={isTrailerOpen}
         onClose={() => setIsTrailerOpen(false)}
         contentClassName={styles.trailer}
+        closeButtonClassName={styles.closeButton}
       >
         <div className={styles.videoWrapper}>
           <iframe

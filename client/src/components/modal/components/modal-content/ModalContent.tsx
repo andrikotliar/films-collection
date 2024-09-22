@@ -6,12 +6,14 @@ import { XIcon } from 'lucide-react';
 
 type ModalContentProps = {
   contentClassName?: string;
+  closeButtonClassName?: string;
   onClose: VoidFunction;
 };
 
 const ModalContent: FC<PropsWithChildren<ModalContentProps>> = ({
   children,
   contentClassName,
+  closeButtonClassName,
   onClose,
 }) => {
   useEffect(() => {
@@ -30,7 +32,10 @@ const ModalContent: FC<PropsWithChildren<ModalContentProps>> = ({
       onClick={(e) => e.stopPropagation()}
     >
       {children}
-      <button onClick={onClose} className={styles.closeButton}>
+      <button
+        onClick={onClose}
+        className={classNames(styles.closeButton, closeButtonClassName)}
+      >
         <XIcon size={15} />
       </button>
     </div>

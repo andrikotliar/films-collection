@@ -12,6 +12,7 @@ import {
   SummarySection,
   Chapters,
   NavigationRow,
+  Section,
 } from './components';
 
 const FilmPage = () => {
@@ -37,33 +38,33 @@ const FilmPage = () => {
 
       <SummarySection film={film} />
 
-      <section>
+      <Section>
         <SectionTitle>Crew</SectionTitle>
         <CrewList crew={film.crew} />
-      </section>
+      </Section>
 
-      <section>
+      <Section>
         <SectionTitle>Description</SectionTitle>
         <Description content={film.description} />
-      </section>
+      </Section>
 
-      <section>
+      <Section>
         <SectionTitle>Cast and characters</SectionTitle>
         <Cast cast={film.cast} />
-      </section>
+      </Section>
 
       {film.awards && (
-        <section>
+        <Section>
           <SectionTitle>Awards</SectionTitle>
           <Awards awards={film.awards} />
-        </section>
+        </Section>
       )}
 
       {film.chapters?.length && (
-        <section>
+        <Section>
           <SectionTitle>Chapters</SectionTitle>
           <Chapters data={film.chapters} filmId={film._id} key={film._id} />
-        </section>
+        </Section>
       )}
     </Wrapper>
   );
