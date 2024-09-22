@@ -9,7 +9,6 @@ import {
   Crew,
   FilmData,
   Genre,
-  MediaItem,
   Nomination,
   Person,
   PersonRole,
@@ -19,17 +18,6 @@ import {
   TitleType,
 } from './common/index.js';
 import { ActorModel } from '../actors/actors.model.js';
-
-const FilmMediaSchema = new Schema<MediaItem>({
-  poster: {
-    type: String,
-    required: true,
-  },
-  trailer: {
-    type: String,
-    required: true,
-  },
-});
 
 const FilmPersonSchema = new Schema<Person>({
   name: {
@@ -124,6 +112,14 @@ const SeasonSchema = new Schema<SeasonType>({
     required: true,
     min: 1,
   },
+  trailer: {
+    type: String,
+    required: true,
+  },
+  releaseDate: {
+    type: String,
+    required: true,
+  },
 });
 
 const SeriesExtensionSchema = new Schema<SeriesExtension>({
@@ -146,10 +142,6 @@ const FilmsSchema = new Schema<FilmData>({
   type: {
     type: [String],
     enum: Object.values(TitleType),
-    required: true,
-  },
-  media: {
-    type: [FilmMediaSchema],
     required: true,
   },
   genres: {
@@ -176,13 +168,21 @@ const FilmsSchema = new Schema<FilmData>({
     required: true,
   },
   releaseDate: {
-    type: [String],
+    type: String,
     required: true,
   },
   duration: {
     type: Number,
     required: true,
     default: 0,
+  },
+  poster: {
+    type: String,
+    required: true,
+  },
+  trailer: {
+    type: String,
+    required: false,
   },
   cast: {
     type: [CastSchema],

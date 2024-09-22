@@ -21,10 +21,6 @@ const Pagination: FC<PaginationProps> = ({ total }) => {
 
   const pagesCount = Math.ceil(total / PER_PAGE);
 
-  if (!pagesCount) {
-    return;
-  }
-
   const handlePage = (pageIndex: number) => () => {
     setSearchParams({
       ...filterParams,
@@ -38,19 +34,21 @@ const Pagination: FC<PaginationProps> = ({ total }) => {
 
   return (
     <div className={styles.pagination}>
-      <div className={styles.pages}>
-        {Array.from({ length: Math.ceil(total / PER_PAGE) }, (_, index) => (
-          <button
-            className={classNames(styles.pageButton, {
-              [styles.active]: activePage === index,
-            })}
-            key={index}
-            onClick={handlePage(index)}
-          >
-            {index + 1}
-          </button>
-        ))}
-      </div>
+      {pagesCount > 1 && (
+        <div className={styles.pages}>
+          {Array.from({ length: Math.ceil(total / PER_PAGE) }, (_, index) => (
+            <button
+              className={classNames(styles.pageButton, {
+                [styles.active]: activePage === index,
+              })}
+              key={index}
+              onClick={handlePage(index)}
+            >
+              {index + 1}
+            </button>
+          ))}
+        </div>
+      )}
       <div className={styles.stats}>
         <span className={styles.currentState}>
           {activePage * PER_PAGE + 1} - {(activePage + 1) * PER_PAGE}

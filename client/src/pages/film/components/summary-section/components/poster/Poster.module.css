@@ -1,0 +1,15 @@
+.poster {
+  width: 320px;
+  border: var(--app-border);
+  border-radius: var(--app-border-radius);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+

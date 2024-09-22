@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Loader, NotFound } from '@/components';
 import { useDocumentTitle, useOneFilm, useScrollToTop } from '@/hooks';
@@ -17,7 +16,6 @@ import {
 
 const FilmPage = () => {
   const { id } = useParams();
-  const [activeIndex, setActiveIndex] = useState(0);
 
   const { data: film, isLoading } = useOneFilm(id);
 
@@ -35,12 +33,9 @@ const FilmPage = () => {
 
   return (
     <Wrapper>
-      <NavigationRow
-        setActiveIndex={setActiveIndex}
-        seasons={film.seriesExtension?.seasons}
-      />
+      <NavigationRow />
 
-      <SummarySection film={film} activeIndex={activeIndex} />
+      <SummarySection film={film} />
 
       <section>
         <SectionTitle>Crew</SectionTitle>
@@ -48,13 +43,8 @@ const FilmPage = () => {
       </section>
 
       <section>
-        <SectionTitle>
-          Description
-          {film.seriesExtension?.seasons[activeIndex] && (
-            <span> ({film.seriesExtension.seasons[activeIndex].title})</span>
-          )}
-        </SectionTitle>
-        <Description>{film.description[activeIndex]}</Description>
+        <SectionTitle>Description</SectionTitle>
+        <Description content={film.description} />
       </section>
 
       <section>

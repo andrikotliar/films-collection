@@ -19,17 +19,15 @@ const FoundFilm: FC<FoundFilmProps> = ({ film, onFilmOpen }) => {
     >
       <div className={styles.posterContainer}>
         <img
-          src={buildMediaPath('posters', film.media[0].poster)}
-          alt=""
+          src={buildMediaPath('posters', film.poster)}
+          alt={`Poster of the "${film.title}"`}
           className={styles.poster}
         />
       </div>
       <div className={styles.info}>
         <h3 className={styles.title}>{film.title}</h3>
-        <p className={styles.description}>{film.description[0]}</p>
-        <div className={styles.year}>
-          {getYearFromDate(film.releaseDate[0])}
-        </div>
+        <p className={styles.genres}>{film.genres.join(', ')}</p>
+        <div className={styles.year}>{getYearFromDate(film.releaseDate)}</div>
       </div>
     </Link>
   );

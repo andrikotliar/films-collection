@@ -47,6 +47,8 @@ type SeasonType = {
   title: string;
   number: number;
   episodesCount: number;
+  trailer: string;
+  releaseDate: string;
 };
 
 type SeriesExtension = {
@@ -54,28 +56,24 @@ type SeriesExtension = {
   seasons: SeasonType[];
 };
 
-type MediaItem = {
-  poster: string;
-  trailer: string;
-};
-
 type FilmData = {
   _id: ObjectId;
   type: TitleType[];
-  media: MediaItem[];
   title: string;
   genres: Genre[];
   studios: Studio[];
   crew: Crew[];
   description: string[];
   countries: Country[];
-  releaseDate: string[];
+  releaseDate: string;
   duration: number;
   cast: CastType[];
   collections: Collection[];
   budget: number | null;
   boxOffice: number | null;
   awards: AwardType[];
+  poster: string;
+  trailer: string | null;
   seriesExtension: SeriesExtension | null;
   rating: number;
   chaptersId?: string;
@@ -92,7 +90,6 @@ export type {
   AwardType,
   SeriesExtension,
   SeasonType,
-  MediaItem,
   Person,
   Nomination,
 };

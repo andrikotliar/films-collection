@@ -35,6 +35,7 @@
 
 .stats {
   flex-shrink: 0;
+  margin-left: auto;
 }
 
 .currentState {

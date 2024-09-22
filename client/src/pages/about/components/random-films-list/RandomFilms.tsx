@@ -25,7 +25,7 @@ const RandomFilms = () => {
           className={styles.filmLink}
         >
           <Image
-            src={buildMediaPath('posters', film.media[0].poster)}
+            src={buildMediaPath('posters', film.poster)}
             className={styles.image}
           />
         </Link>

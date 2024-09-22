@@ -7,14 +7,12 @@ class FilmsService {
   async getFilteredFilms(queries: FindAllQueries) {
     const { limit, skip, ...filters } = queries;
 
-    console.log(filters);
-
     const parsedFilters = this.#parseFilters(filters);
 
     const films = await FilmsModel.find(
       parsedFilters,
-      { _id: 1, title: 1, media: 1, year: 1, collections: 1, releaseDate: 1 },
-      { limit, skip, sort: { 'releaseDate.0': -1 } },
+      { _id: 1, title: 1, poster: 1, year: 1, collections: 1, releaseDate: 1 },
+      { limit, skip, sort: { releaseDate: -1 } },
     );
 
     const total = await FilmsModel.countDocuments(parsedFilters);
@@ -63,7 +61,7 @@ class FilmsService {
         $project: {
           _id: 1,
           title: 1,
-          media: 1,
+          poster: 1,
         },
       },
     ]);
@@ -77,7 +75,7 @@ class FilmsService {
           $options: 'i',
         },
       },
-      { _id: 1, title: 1, media: 1, description: 1, releaseDate: 1 },
+      { _id: 1, title: 1, poster: 1, genres: 1, releaseDate: 1 },
     );
   }
 
@@ -99,7 +97,7 @@ class FilmsService {
           $in: chapters?.list,
         },
       },
-      { _id: 1, title: 1, media: 1 },
+      { _id: 1, title: 1, poster: 1 },
     );
 
     return chaptersList;
@@ -110,16 +108,16 @@ class FilmsService {
 
     for (const [key, value] of Object.entries(plainFilters)) {
       if (key === 'startDate' || key === 'endDate') {
-        if (!parsedFilters['releaseDate.0']) {
-          parsedFilters['releaseDate.0'] = {};
+        if (!parsedFilters.releaseDate) {
+          parsedFilters.releaseDate = {};
         }
 
         if (key === 'startDate' && typeof value === 'string') {
-          parsedFilters['releaseDate.0'].$gte = new Date(value);
+          parsedFilters.releaseDate.$gte = new Date(value);
         }
 
         if (key === 'endDate' && typeof value === 'string') {
-          parsedFilters['releaseDate.0'].$lte = new Date(value);
+          parsedFilters.releaseDate.$lte = new Date(value);
         }
 
         continue;

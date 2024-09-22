@@ -57,22 +57,21 @@ type SeriesExtension = {
   seasons: SeasonType[];
 };
 
-type MediaItem = {
-  poster: string;
-  trailer: string;
+type FilmDescription = {
+  title: string | null;
+  text: string;
 };
 
 type FilmData = {
   _id: string;
   type: TitleType[];
-  media: MediaItem[];
   title: string;
   genres: Genre[];
   studios: Studio[];
   crew: Crew[];
-  description: string[];
+  description: FilmDescription[];
   countries: Country[];
-  releaseDate: string[];
+  releaseDate: string;
   duration: number;
   cast: CastType[];
   collections: Collection[];
@@ -81,7 +80,9 @@ type FilmData = {
   awards: AwardType[];
   seriesExtension: SeriesExtension | null;
   rating: number;
-  chapters: Pick<FilmData, '_id' | 'title' | 'media'>[];
+  poster: string;
+  trailer?: string;
+  chapters: Pick<FilmData, '_id' | 'title' | 'poster'>[];
   watchCount: number;
   createdAt: string;
   updatedAt: string;
@@ -89,14 +90,14 @@ type FilmData = {
 
 type FilmsListItem = Pick<
   FilmData,
-  '_id' | 'title' | 'media' | 'collections' | 'releaseDate'
+  '_id' | 'title' | 'poster' | 'collections' | 'releaseDate'
 >;
 
 type FilmLinkItem = Pick<FilmData, '_id' | 'title'>;
 
 type FilmSearchResult = Pick<
   FilmData,
-  '_id' | 'title' | 'description' | 'media' | 'releaseDate'
+  '_id' | 'title' | 'genres' | 'poster' | 'releaseDate'
 >;
 
 type FilmsListResponse = {
@@ -109,7 +110,7 @@ type FilmsListPagination = {
   skip: number;
 };
 
-type RandomFilmsList = Pick<FilmData, '_id' | 'title' | 'media'>[];
+type RandomFilmsList = Pick<FilmData, '_id' | 'title' | 'poster'>[];
 
 type FilmsListFilters = FilmsListPagination &
   Partial<{
@@ -132,7 +133,7 @@ export type {
   Chapter,
   SeriesExtension,
   SeasonType,
-  MediaItem,
+  FilmDescription,
   FilmsListItem,
   FilmsListResponse,
   FilmsListFilters,

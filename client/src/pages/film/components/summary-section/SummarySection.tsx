@@ -1,26 +1,25 @@
 import { FilmData } from '@/types';
-import { act, FC, useMemo } from 'react';
+import { FC, useMemo } from 'react';
 import styles from './SummarySection.module.css';
 import { Title } from '../title/Title';
-import { BoxOffice, Media, Rating, Summary, WatchCount } from './components';
+import { BoxOffice, Poster, Rating, Summary, WatchCount } from './components';
 import { getFilmSummaryConfig } from '../../helpers';
 import { TitleType } from '@/enums';
 
 type SummarySectionProps = {
   film: FilmData;
-  activeIndex: number;
 };
 
-const SummarySection: FC<SummarySectionProps> = ({ film, activeIndex }) => {
+const SummarySection: FC<SummarySectionProps> = ({ film }) => {
   const filmConfig = useMemo(() => {
-    return getFilmSummaryConfig(film, activeIndex);
-  }, [film, activeIndex]);
+    return getFilmSummaryConfig(film);
+  }, [film]);
 
   const isBoxOfficeBlockVisible = !!film.budget || !!film.boxOffice;
 
   return (
     <div className={styles.wrapper}>
-      <Media data={film.media[activeIndex]} title={film.title} />
+      <Poster image={film.poster} title={film.title} />
       <div className={styles.summary}>
         <Title>{film.title}</Title>
         <Summary config={filmConfig} />

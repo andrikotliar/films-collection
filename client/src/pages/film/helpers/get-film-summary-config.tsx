@@ -4,21 +4,15 @@ import { buildQueryLink } from '@/helpers';
 import { ReleaseDate } from '../components/release-date/ReleaseDate';
 import { TagLinksGroup } from '../components/tag-links-group/TagLinksGroup';
 import { SummaryConfig } from '../types';
-import { getSeriesSummaryConfig } from './get-series-summary-config';
 import { genreTitles } from '@/titles/genre-titles';
 import { collectionTitles, countryTitles, studioTitles } from '@/titles';
 
-const getFilmSummaryConfig = (
-  film: FilmData,
-  activeIndex: number,
-): SummaryConfig[] => {
-  const seriesExtension = getSeriesSummaryConfig(film, activeIndex);
-
+const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
   return [
     {
       id: 'releaseDate',
       title: 'Release Date',
-      content: <ReleaseDate value={film.releaseDate[activeIndex]} />,
+      content: <ReleaseDate value={film.releaseDate} />,
     },
     {
       id: 'genres',
@@ -79,7 +73,6 @@ const getFilmSummaryConfig = (
         />
       ),
     },
-    ...seriesExtension,
   ];
 };
 

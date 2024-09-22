@@ -1,4 +1,4 @@
-export { Media } from './media/Media';
+export { Poster } from './poster/Poster';
 export { Summary } from './summary/Summary';
 export { Rating } from './rating/Rating';
 export { WatchCount } from './watch-count/WatchCount';

@@ -18,7 +18,7 @@ const Chapters: FC<ChaptersFilmsProps> = ({ data, filmId }) => {
           chapter={index + 1}
           isActive={film._id === filmId}
           id={film._id}
-          poster={film.media[0].poster}
+          poster={film.poster}
           title={film.title}
         />
       ))}
