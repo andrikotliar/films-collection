@@ -125,23 +125,20 @@
     }
   ],
   "boxOffice": 880000000,
-  "media": [
-    {
-      "poster": "mcu_spider_man_1.webp",
-      "trailer": "n9DwoQ7HWvI"
-    }
-  ],
   "rating": 2,
   "description": [
-    "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City."
+    {
+      "title": null,
+      "text": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City."
+    }
   ],
   "chaptersId": "07bf3e15ce289b98963660c5",
-  "releaseDate": [
-    "2017-07-07"
-  ],
+  "releaseDate": "2017-07-07",
   "watchCount": 1,
   "studios": [
     "WaltDisney",
     "MarvelStudios"
-  ]
+  ],
+  "trailer": "n9DwoQ7HWvI",
+  "poster": "mcu_spider_man_1.webp"
 }

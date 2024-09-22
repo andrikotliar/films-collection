@@ -141,23 +141,20 @@
   ],
   "budget": 185000000,
   "boxOffice": 467000000,
-  "media": [
-    {
-      "poster": "star_trek_2.webp",
-      "trailer": "jJMYAJ3_0uw"
-    }
-  ],
   "rating": 1,
   "description": [
-    "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction."
+    {
+      "title": null,
+      "text": "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction."
+    }
   ],
   "chaptersId": "d7e37cea52e0bb90c216ad37",
-  "releaseDate": [
-    "2013-05-17"
-  ],
+  "releaseDate": "2013-05-17",
   "watchCount": 1,
   "studios": [
     "Paramount",
     "BadRobot"
-  ]
+  ],
+  "trailer": "jJMYAJ3_0uw",
+  "poster": "star_trek_2.webp"
 }

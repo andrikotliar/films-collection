@@ -114,21 +114,18 @@
   ],
   "budget": 170000000,
   "boxOffice": 400000000,
-  "media": [
-    {
-      "poster": "alita.webp",
-      "trailer": "w7pYhpJaJW8"
-    }
-  ],
   "rating": 1,
   "description": [
-    "A deactivated female cyborg is revived, but cannot remember anything of her past life and goes on a quest to find out who she is."
+    {
+      "title": null,
+      "text": "A deactivated female cyborg is revived, but cannot remember anything of her past life and goes on a quest to find out who she is."
+    }
   ],
-  "releaseDate": [
-    "2019-02-14"
-  ],
+  "releaseDate": "2019-02-14",
   "watchCount": 2,
   "studios": [
     "20thCenturyFox"
-  ]
+  ],
+  "trailer": "w7pYhpJaJW8",
+  "poster": "alita.webp"
 }

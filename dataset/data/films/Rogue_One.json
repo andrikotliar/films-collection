@@ -146,23 +146,20 @@
     }
   ],
   "boxOffice": 1060000000,
-  "media": [
-    {
-      "poster": "rogue_one.webp",
-      "trailer": "frdj1zb9sMY"
-    }
-  ],
   "rating": 3,
   "description": [
-    "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans."
+    {
+      "title": null,
+      "text": "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans."
+    }
   ],
   "chaptersId": "0de96c347aa9f64e14fb4a83",
-  "releaseDate": [
-    "2016-12-16"
-  ],
+  "releaseDate": "2016-12-16",
   "watchCount": 2,
   "studios": [
     "Lucasfilm",
     "WaltDisney"
-  ]
+  ],
+  "trailer": "frdj1zb9sMY",
+  "poster": "rogue_one.webp"
 }

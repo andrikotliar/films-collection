@@ -223,36 +223,34 @@
       {
         "title": "Season 1",
         "number": 1,
-        "episodesCount": 8
+        "episodesCount": 8,
+        "releaseDate": "2019-12-20",
+        "trailer": "ndl1W4ltcmg"
       },
       {
         "title": "Season 2",
         "number": 2,
-        "episodesCount": 8
+        "episodesCount": 8,
+        "releaseDate": "2021-12-17",
+        "trailer": "2aMVzFlApa0"
       }
     ]
   },
-  "media": [
-    {
-      "poster": "witcher.webp",
-      "trailer": "ndl1W4ltcmg"
-    },
-    {
-      "poster": "witcher_s2.webp",
-      "trailer": "2aMVzFlApa0"
-    }
-  ],
   "rating": 2,
   "description": [
-    "In the first season, Geralt of Rivia, a monster hunter known as a Witcher, navigates a world filled with dangerous creatures and complex political intrigue. He crosses paths with Yennefer, a powerful sorceress, and Ciri, a young princess with a destiny tied to his own. The three destinies converge in a world where the line between good and evil is blurred.",
-    "Geralt embraces his destiny as he protects Ciri from the forces battling for control of the Continent — and from the mysterious power she possesses."
+    {
+      "title": "Season 1",
+      "text": "In the first season, Geralt of Rivia, a monster hunter known as a Witcher, navigates a world filled with dangerous creatures and complex political intrigue. He crosses paths with Yennefer, a powerful sorceress, and Ciri, a young princess with a destiny tied to his own. The three destinies converge in a world where the line between good and evil is blurred."
+    },
+    {
+      "title": "Season 2",
+      "text": "Geralt embraces his destiny as he protects Ciri from the forces battling for control of the Continent — and from the mysterious power she possesses."
+    }
   ],
-  "releaseDate": [
-    "2019-12-20",
-    "2021-12-17"
-  ],
+  "releaseDate": "2019-12-20",
   "watchCount": 1,
   "studios": [
     "Netflix"
-  ]
+  ],
+  "poster": "witcher.webp"
 }

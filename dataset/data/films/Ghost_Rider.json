@@ -130,22 +130,19 @@
   ],
   "budget": 110000000,
   "boxOffice": 228000000,
-  "media": [
-    {
-      "poster": "ghost_rider.webp",
-      "trailer": "8M0lLJfNPds"
-    }
-  ],
   "rating": 1,
   "description": [
-    "When motorcycle rider Johnny Blaze sells his soul to the Devil to save his father's life, he is transformed into the Ghost Rider, the Devil's own bounty hunter, and is sent to hunt down sinners."
+    {
+      "title": null,
+      "text": "When motorcycle rider Johnny Blaze sells his soul to the Devil to save his father's life, he is transformed into the Ghost Rider, the Devil's own bounty hunter, and is sent to hunt down sinners."
+    }
   ],
-  "releaseDate": [
-    "2007-02-16"
-  ],
+  "releaseDate": "2007-02-16",
   "watchCount": 4,
   "studios": [
     "Sony",
     "Columbia"
-  ]
+  ],
+  "trailer": "8M0lLJfNPds",
+  "poster": "ghost_rider.webp"
 }

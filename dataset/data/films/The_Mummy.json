@@ -124,22 +124,19 @@
     }
   ],
   "boxOffice": 416000000,
-  "media": [
-    {
-      "poster": "mummy_1.webp",
-      "trailer": "h3ptPtxWJRs"
-    }
-  ],
   "rating": 3,
   "description": [
-    "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreck havoc as he searches for the reincarnation of his long-lost love."
+    {
+      "title": null,
+      "text": "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreck havoc as he searches for the reincarnation of his long-lost love."
+    }
   ],
   "chaptersId": "c898b2b52dfcdd0b5a0f636e",
-  "releaseDate": [
-    "1999-05-07"
-  ],
+  "releaseDate": "1999-05-07",
   "watchCount": 10,
   "studios": [
     "Universal"
-  ]
+  ],
+  "trailer": "h3ptPtxWJRs",
+  "poster": "mummy_1.webp"
 }

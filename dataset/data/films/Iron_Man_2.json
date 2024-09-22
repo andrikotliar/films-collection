@@ -132,23 +132,20 @@
   ],
   "budget": 200000000,
   "boxOffice": 624000000,
-  "media": [
-    {
-      "poster": "iron_man_2.webp",
-      "trailer": "BoohRoVA9WQ"
-    }
-  ],
   "rating": 1,
   "description": [
-    "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy."
+    {
+      "title": null,
+      "text": "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy."
+    }
   ],
   "chaptersId": "07bf3e15ce289b98963660c5",
-  "releaseDate": [
-    "2010-05-07"
-  ],
+  "releaseDate": "2010-05-07",
   "watchCount": 2,
   "studios": [
     "MarvelStudios",
     "Paramount"
-  ]
+  ],
+  "trailer": "BoohRoVA9WQ",
+  "poster": "iron_man_2.webp"
 }

@@ -113,22 +113,19 @@
   ],
   "budget": 14000000,
   "boxOffice": 64000000,
-  "media": [
-    {
-      "poster": "taxi_3.webp",
-      "trailer": "XLP-rf3dHOQ"
-    }
-  ],
   "rating": 2,
   "description": [
-    "Out to stop a new gang disguised as Santa Claus, Emilien and Daniel must also handle major changes in their personal relationships."
+    {
+      "title": null,
+      "text": "Out to stop a new gang disguised as Santa Claus, Emilien and Daniel must also handle major changes in their personal relationships."
+    }
   ],
   "chaptersId": "e4250279694fbcf5a7ba81c4",
-  "releaseDate": [
-    "2003-01-29"
-  ],
+  "releaseDate": "2003-01-29",
   "watchCount": 10,
   "studios": [
     "Lionsgate"
-  ]
+  ],
+  "trailer": "XLP-rf3dHOQ",
+  "poster": "taxi_3.webp"
 }

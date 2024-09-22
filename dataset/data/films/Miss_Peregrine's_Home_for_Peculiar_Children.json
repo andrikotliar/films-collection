@@ -124,21 +124,18 @@
   ],
   "budget": 110000000,
   "boxOffice": 296000000,
-  "media": [
-    {
-      "poster": "miss_peregrin.webp",
-      "trailer": "tV_IhWE4LP0"
-    }
-  ],
   "rating": 2,
   "description": [
-    "When Jacob discovers clues to a mystery that stretches across time, he finds Miss Peregrine's Home for Peculiar Children. But the danger deepens after he gets to know the residents and learns about their special powers."
+    {
+      "title": null,
+      "text": "When Jacob discovers clues to a mystery that stretches across time, he finds Miss Peregrine's Home for Peculiar Children. But the danger deepens after he gets to know the residents and learns about their special powers."
+    }
   ],
-  "releaseDate": [
-    "2016-09-30"
-  ],
+  "releaseDate": "2016-09-30",
   "watchCount": 1,
   "studios": [
     "20thCenturyFox"
-  ]
+  ],
+  "trailer": "tV_IhWE4LP0",
+  "poster": "miss_peregrin.webp"
 }

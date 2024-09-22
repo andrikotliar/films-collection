@@ -155,26 +155,24 @@
       {
         "title": "Season 1",
         "number": 1,
-        "episodesCount": 6
+        "episodesCount": 6,
+        "releaseDate": "2021-11-24",
+        "trailer": "5VYb3B1ETlk"
       }
     ]
   },
-  "media": [
-    {
-      "poster": "hawkeye.webp",
-      "trailer": "5VYb3B1ETlk"
-    }
-  ],
   "rating": 1,
   "description": [
-    "Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate M. Bishop, who took on the role after the original Avenger, Clint Barton."
+    {
+      "title": "Season 1",
+      "text": "Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate M. Bishop, who took on the role after the original Avenger, Clint Barton."
+    }
   ],
   "chaptersId": "07bf3e15ce289b98963660c5",
-  "releaseDate": [
-    "2021-11-24"
-  ],
+  "releaseDate": "2021-11-24",
   "watchCount": 1,
   "studios": [
     "MarvelStudios"
-  ]
+  ],
+  "poster": "hawkeye.webp"
 }

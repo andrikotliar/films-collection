@@ -145,23 +145,20 @@
     }
   ],
   "boxOffice": 585000000,
-  "media": [
-    {
-      "poster": "iron_man_1.webp",
-      "trailer": "8hYlB38asDY"
-    }
-  ],
   "rating": 3,
   "description": [
-    "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
+    {
+      "title": null,
+      "text": "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
+    }
   ],
   "chaptersId": "07bf3e15ce289b98963660c5",
   "watchCount": 5,
-  "releaseDate": [
-    "2008-05-02"
-  ],
+  "releaseDate": "2008-05-02",
   "studios": [
     "MarvelStudios",
     "Paramount"
-  ]
+  ],
+  "trailer": "8hYlB38asDY",
+  "poster": "iron_man_1.webp"
 }

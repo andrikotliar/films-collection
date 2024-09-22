@@ -175,21 +175,18 @@
     }
   ],
   "boxOffice": 632000000,
-  "media": [
-    {
-      "poster": "kungfu_panda.webp",
-      "trailer": "NRc-ze7Wrxw"
-    }
-  ],
   "rating": 2,
   "description": [
-    "The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance. However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a novice in martial arts."
+    {
+      "title": null,
+      "text": "The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance. However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a novice in martial arts."
+    }
   ],
-  "releaseDate": [
-    "2008-06-06"
-  ],
+  "releaseDate": "2008-06-06",
   "watchCount": 5,
   "studios": [
     "DreamWorksAnimation"
-  ]
+  ],
+  "trailer": "NRc-ze7Wrxw",
+  "poster": "kungfu_panda.webp"
 }

@@ -177,23 +177,20 @@
     }
   ],
   "boxOffice": 1150000000,
-  "media": [
-    {
-      "poster": "captain_america_3.webp",
-      "trailer": "dKrVegVI0Us"
-    }
-  ],
   "rating": 3,
   "description": [
-    "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man."
+    {
+      "title": null,
+      "text": "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man."
+    }
   ],
   "chaptersId": "07bf3e15ce289b98963660c5",
-  "releaseDate": [
-    "2016-05-06"
-  ],
+  "releaseDate": "2016-05-06",
   "watchCount": 3,
   "studios": [
     "WaltDisney",
     "MarvelStudios"
-  ]
+  ],
+  "trailer": "dKrVegVI0Us",
+  "poster": "captain_america_3.webp"
 }

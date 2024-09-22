@@ -114,22 +114,19 @@
   ],
   "budget": 150000000,
   "boxOffice": 683000000,
-  "media": [
-    {
-      "poster": "mi_5.webp",
-      "trailer": "gOW_azQbOjw"
-    }
-  ],
   "rating": 2,
   "description": [
-    "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF."
+    {
+      "title": null,
+      "text": "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF."
+    }
   ],
   "chaptersId": "7201769b07df74e644bc0b02",
-  "releaseDate": [
-    "2015-07-31"
-  ],
+  "releaseDate": "2015-07-31",
   "watchCount": 1,
   "studios": [
     "Paramount"
-  ]
+  ],
+  "trailer": "gOW_azQbOjw",
+  "poster": "mi_5.webp"
 }

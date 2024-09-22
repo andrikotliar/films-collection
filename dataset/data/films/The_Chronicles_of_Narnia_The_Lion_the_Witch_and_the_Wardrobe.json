@@ -161,22 +161,19 @@
     }
   ],
   "boxOffice": 745000000,
-  "media": [
-    {
-      "poster": "narnia_1.webp",
-      "trailer": "lWKj41HZBzM"
-    }
-  ],
   "rating": 2,
   "description": [
-    "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion."
+    {
+      "title": null,
+      "text": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion."
+    }
   ],
   "chaptersId": "2039379e6200a04af6a89124",
-  "releaseDate": [
-    "2005-12-09"
-  ],
+  "releaseDate": "2005-12-09",
   "watchCount": 2,
   "studios": [
     "WaltDisney"
-  ]
+  ],
+  "trailer": "lWKj41HZBzM",
+  "poster": "narnia_1.webp"
 }

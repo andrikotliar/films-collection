@@ -106,22 +106,19 @@
   ],
   "budget": 140000000,
   "boxOffice": 442000000,
-  "media": [
-    {
-      "poster": "mib_2.webp",
-      "trailer": "p4NJHqoojOU"
-    }
-  ],
   "rating": 2,
   "description": [
-    "Agent J needs help so he is sent to find Agent K and restore his memory."
+    {
+      "title": null,
+      "text": "Agent J needs help so he is sent to find Agent K and restore his memory."
+    }
   ],
   "chaptersId": "821493c59c822fff3c691354",
-  "releaseDate": [
-    "2002-07-03"
-  ],
+  "releaseDate": "2002-07-03",
   "watchCount": 10,
   "studios": [
     "Columbia"
-  ]
+  ],
+  "trailer": "p4NJHqoojOU",
+  "poster": "mib_2.webp"
 }

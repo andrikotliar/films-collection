@@ -138,22 +138,19 @@
   ],
   "budget": 150000000,
   "boxOffice": 398000000,
-  "media": [
-    {
-      "poster": "mi_3.webp",
-      "trailer": "rl2bysiyltg"
-    }
-  ],
   "rating": 2,
   "description": [
-    "IMF Agent Ethan Hunt comes into conflict with a dangerous and sadistic arms dealer who threatens his life and his fiancée in response."
+    {
+      "title": null,
+      "text": "IMF Agent Ethan Hunt comes into conflict with a dangerous and sadistic arms dealer who threatens his life and his fiancée in response."
+    }
   ],
   "chaptersId": "7201769b07df74e644bc0b02",
-  "releaseDate": [
-    "2006-05-05"
-  ],
+  "releaseDate": "2006-05-05",
   "watchCount": 2,
   "studios": [
     "Paramount"
-  ]
+  ],
+  "trailer": "rl2bysiyltg",
+  "poster": "mi_3.webp"
 }

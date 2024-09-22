@@ -93,22 +93,19 @@
   ],
   "budget": 85000000,
   "boxOffice": 158000000,
-  "media": [
-    {
-      "poster": "fast_and_furious_3.webp",
-      "trailer": "p8HQ2JLlc4E"
-    }
-  ],
   "rating": 1,
   "description": [
-    "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America."
+    {
+      "title": null,
+      "text": "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America."
+    }
   ],
   "chaptersId": "60e1ed9423ed8b0c24b751c1",
-  "releaseDate": [
-    "2006-06-16"
-  ],
+  "releaseDate": "2006-06-16",
   "watchCount": 3,
   "studios": [
     "Universal"
-  ]
+  ],
+  "trailer": "p8HQ2JLlc4E",
+  "poster": "fast_and_furious_3.webp"
 }

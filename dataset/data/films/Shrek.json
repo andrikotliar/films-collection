@@ -131,22 +131,19 @@
     }
   ],
   "boxOffice": 488000000,
-  "media": [
-    {
-      "poster": "shrek_1.webp",
-      "trailer": "CwXOrWvPBPk"
-    }
-  ],
   "rating": 3,
   "description": [
-    "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back."
+    {
+      "title": null,
+      "text": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back."
+    }
   ],
   "chaptersId": "a81b1654b30b06adb32ddf8d",
-  "releaseDate": [
-    "2001-05-18"
-  ],
+  "releaseDate": "2001-05-18",
   "watchCount": 10,
   "studios": [
     "DreamWorksAnimation"
-  ]
+  ],
+  "trailer": "CwXOrWvPBPk",
+  "poster": "shrek_1.webp"
 }

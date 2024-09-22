@@ -111,23 +111,20 @@
   ],
   "budget": 200000000,
   "boxOffice": 371000000,
-  "media": [
-    {
-      "poster": "terminator_4.webp",
-      "trailer": "-Czz-TcWCkA"
-    }
-  ],
   "rating": 1,
   "description": [
-    "In 2018, a mysterious new weapon in the war against the machines, half-human and half-machine, comes to John Connor on the eve of a resistance attack on Skynet. But whose side is he on, and can he be trusted?"
+    {
+      "title": null,
+      "text": "In 2018, a mysterious new weapon in the war against the machines, half-human and half-machine, comes to John Connor on the eve of a resistance attack on Skynet. But whose side is he on, and can he be trusted?"
+    }
   ],
   "chaptersId": "d48af2b35df9b7fb521ab299",
-  "releaseDate": [
-    "2009-05-21"
-  ],
+  "releaseDate": "2009-05-21",
   "watchCount": 3,
   "studios": [
     "Columbia",
     "Halcyon"
-  ]
+  ],
+  "trailer": "-Czz-TcWCkA",
+  "poster": "terminator_4.webp"
 }

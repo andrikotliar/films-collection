@@ -116,21 +116,18 @@
   ],
   "budget": 78000000,
   "boxOffice": 179000000,
-  "media": [
-    {
-      "poster": "league_of_extraordinary_gentlemen.webp",
-      "trailer": "_WWIiTlGyYQ"
-    }
-  ],
   "rating": 1,
   "description": [
-    "In an alternate Victorian Age world, a group of famous contemporary fantasy, science fiction, and adventure characters team up on a secret mission."
+    {
+      "title": null,
+      "text": "In an alternate Victorian Age world, a group of famous contemporary fantasy, science fiction, and adventure characters team up on a secret mission."
+    }
   ],
-  "releaseDate": [
-    "2003-07-11"
-  ],
+  "releaseDate": "2003-07-11",
   "watchCount": 4,
   "studios": [
     "20thCenturyFox"
-  ]
+  ],
+  "trailer": "_WWIiTlGyYQ",
+  "poster": "league_of_extraordinary_gentlemen.webp"
 }

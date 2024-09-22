@@ -162,23 +162,20 @@
     }
   ],
   "boxOffice": 1000000000,
-  "media": [
-    {
-      "poster": "batman_3.webp",
-      "trailer": "GokKUqLcvD8"
-    }
-  ],
   "rating": 1,
   "description": [
-    "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City, now on the edge of total annihilation, from the brutal guerrilla terrorist Bane."
+    {
+      "title": null,
+      "text": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City, now on the edge of total annihilation, from the brutal guerrilla terrorist Bane."
+    }
   ],
   "chaptersId": "c4d28635d7656ca68d38e43c",
-  "releaseDate": [
-    "2012-07-20"
-  ],
+  "releaseDate": "2012-07-20",
   "watchCount": 1,
   "studios": [
     "WarnerBros",
     "Legendary"
-  ]
+  ],
+  "trailer": "GokKUqLcvD8",
+  "poster": "batman_3.webp"
 }

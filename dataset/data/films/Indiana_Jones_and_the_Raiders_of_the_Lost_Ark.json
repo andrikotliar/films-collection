@@ -177,23 +177,20 @@
     }
   ],
   "boxOffice": 390000000,
-  "media": [
-    {
-      "poster": "indiana_jones_1.webp",
-      "trailer": "Rh_BJXG1-44"
-    }
-  ],
   "rating": 1,
   "description": [
-    "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers."
+    {
+      "title": null,
+      "text": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers."
+    }
   ],
   "chaptersId": "b6df4d99b3eecf421590dd26",
-  "releaseDate": [
-    "1981-06-12"
-  ],
+  "releaseDate": "1981-06-12",
   "watchCount": 1,
   "studios": [
     "Paramount",
     "Lucasfilm"
-  ]
+  ],
+  "trailer": "Rh_BJXG1-44",
+  "poster": "indiana_jones_1.webp"
 }

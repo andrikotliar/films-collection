@@ -174,22 +174,19 @@
     }
   ],
   "boxOffice": 897000000,
-  "media": [
-    {
-      "poster": "harry_potter_4.webp",
-      "trailer": "3EGojp4Hh6I"
-    }
-  ],
   "rating": 3,
   "description": [
-    "A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares."
+    {
+      "title": null,
+      "text": "A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares."
+    }
   ],
   "chaptersId": "21fe420121bd2018a3c76f32",
-  "releaseDate": [
-    "2005-11-18"
-  ],
+  "releaseDate": "2005-11-18",
   "watchCount": 10,
   "studios": [
     "WarnerBros"
-  ]
+  ],
+  "trailer": "3EGojp4Hh6I",
+  "poster": "harry_potter_4.webp"
 }

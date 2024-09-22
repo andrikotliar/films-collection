@@ -138,23 +138,20 @@
     }
   ],
   "boxOffice": 654000000,
-  "media": [
-    {
-      "poster": "pirates_1.webp",
-      "trailer": "naQr0uTrH_s"
-    }
-  ],
   "rating": 3,
   "description": [
-    "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead."
+    {
+      "title": null,
+      "text": "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead."
+    }
   ],
   "chaptersId": "7d2478e857e3c4c85a85be7d",
-  "releaseDate": [
-    "2003-07-09"
-  ],
+  "releaseDate": "2003-07-09",
   "watchCount": 10,
   "studios": [
     "WaltDisney",
     "JerryBruckheimerFilms"
-  ]
+  ],
+  "trailer": "naQr0uTrH_s",
+  "poster": "pirates_1.webp"
 }

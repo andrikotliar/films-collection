@@ -131,22 +131,19 @@
   ],
   "budget": 150000000,
   "boxOffice": 940000000,
-  "media": [
-    {
-      "poster": "harry_potter_5.webp",
-      "trailer": "y6ZW7KXaXYk"
-    }
-  ],
   "rating": 3,
   "description": [
-    "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts."
+    {
+      "title": null,
+      "text": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts."
+    }
   ],
   "chaptersId": "21fe420121bd2018a3c76f32",
-  "releaseDate": [
-    "2007-07-11"
-  ],
+  "releaseDate": "2007-07-11",
   "watchCount": 4,
   "studios": [
     "WarnerBros"
-  ]
+  ],
+  "trailer": "y6ZW7KXaXYk",
+  "poster": "harry_potter_5.webp"
 }

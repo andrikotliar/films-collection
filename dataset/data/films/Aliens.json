@@ -158,22 +158,19 @@
     }
   ],
   "boxOffice": 131000000,
-  "media": [
-    {
-      "poster": "alien_2.webp",
-      "trailer": "oSeQQlaCZgU"
-    }
-  ],
   "rating": 2,
   "description": [
-    "Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators."
+    {
+      "title": null,
+      "text": "Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators."
+    }
   ],
   "chaptersId": "63306d5a4ad3381888cd3188",
-  "releaseDate": [
-    "1986-07-18"
-  ],
+  "releaseDate": "1986-07-18",
   "watchCount": 3,
   "studios": [
     "20thCenturyFox"
-  ]
+  ],
+  "trailer": "oSeQQlaCZgU",
+  "poster": "alien_2.webp"
 }

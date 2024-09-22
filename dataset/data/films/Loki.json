@@ -165,27 +165,25 @@
       {
         "title": "Season 1",
         "number": 1,
-        "episodesCount": 6
+        "episodesCount": 6,
+        "releaseDate": "2021-06-09",
+        "trailer": "nW948Va-l10"
       }
     ]
   },
-  "media": [
-    {
-      "poster": "loki.webp",
-      "trailer": "nW948Va-l10"
-    }
-  ],
   "rating": 2,
   "description": [
-    "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of «Avengers: Endgame»."
+    {
+      "title": "Season 1",
+      "text": "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of «Avengers: Endgame»."
+    }
   ],
   "chaptersId": "07bf3e15ce289b98963660c5",
-  "releaseDate": [
-    "2021-06-09"
-  ],
+  "releaseDate": "2021-06-09",
   "watchCount": 1,
   "studios": [
     "DisneyPlus",
     "MarvelStudios"
-  ]
+  ],
+  "poster": "loki.webp"
 }

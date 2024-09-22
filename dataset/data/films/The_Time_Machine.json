@@ -96,21 +96,18 @@
   ],
   "budget": 80000000,
   "boxOffice": 124000000,
-  "media": [
-    {
-      "poster": "time_machine.webp",
-      "trailer": "90T7iLuzFgg"
-    }
-  ],
   "rating": 2,
   "description": [
-    "Hoping to alter the events of the past, a 19th century inventor instead travels 800,000 years into the future, where he finds humankind divided into two warring races."
+    {
+      "title": null,
+      "text": "Hoping to alter the events of the past, a 19th century inventor instead travels 800,000 years into the future, where he finds humankind divided into two warring races."
+    }
   ],
-  "releaseDate": [
-    "2002-03-08"
-  ],
+  "releaseDate": "2002-03-08",
   "watchCount": 3,
   "studios": [
     "WarnerBros"
-  ]
+  ],
+  "trailer": "90T7iLuzFgg",
+  "poster": "time_machine.webp"
 }

@@ -142,22 +142,19 @@
     }
   ],
   "boxOffice": 533000000,
-  "media": [
-    {
-      "poster": "wall_e.webp",
-      "trailer": "alIq_wG9FNk"
-    }
-  ],
   "rating": 3,
   "description": [
-    "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind."
+    {
+      "title": null,
+      "text": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind."
+    }
   ],
-  "releaseDate": [
-    "2008-06-27"
-  ],
+  "releaseDate": "2008-06-27",
   "watchCount": 10,
   "studios": [
     "WaltDisney",
     "Pixar"
-  ]
+  ],
+  "trailer": "alIq_wG9FNk",
+  "poster": "wall_e.webp"
 }

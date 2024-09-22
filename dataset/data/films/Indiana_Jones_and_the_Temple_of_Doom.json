@@ -139,23 +139,20 @@
     }
   ],
   "boxOffice": 333000000,
-  "media": [
-    {
-      "poster": "indiana_jones_2.webp",
-      "trailer": "WBdyLyijZhU"
-    }
-  ],
   "rating": 1,
   "description": [
-    "In 1935, Indiana Jones arrives in India, still part of the British Empire, and is asked to find a mystical stone. He then stumbles upon a secret cult committing enslavement and human sacrifices in the catacombs of an ancient palace."
+    {
+      "title": null,
+      "text": "In 1935, Indiana Jones arrives in India, still part of the British Empire, and is asked to find a mystical stone. He then stumbles upon a secret cult committing enslavement and human sacrifices in the catacombs of an ancient palace."
+    }
   ],
   "chaptersId": "b6df4d99b3eecf421590dd26",
-  "releaseDate": [
-    "1984-05-23"
-  ],
+  "releaseDate": "1984-05-23",
   "watchCount": 1,
   "studios": [
     "Paramount",
     "Lucasfilm"
-  ]
+  ],
+  "trailer": "WBdyLyijZhU",
+  "poster": "indiana_jones_2.webp"
 }

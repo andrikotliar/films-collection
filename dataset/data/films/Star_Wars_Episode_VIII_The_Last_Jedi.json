@@ -152,24 +152,21 @@
     }
   ],
   "boxOffice": 1330000000,
-  "media": [
-    {
-      "poster": "star_wars_episode_VIII.webp",
-      "trailer": "Q0CbN8sfihY"
-    }
-  ],
   "rating": 2,
   "description": [
-    "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order."
+    {
+      "title": null,
+      "text": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order."
+    }
   ],
   "chaptersId": "0de96c347aa9f64e14fb4a83",
-  "releaseDate": [
-    "2017-12-15"
-  ],
+  "releaseDate": "2017-12-15",
   "watchCount": 1,
   "isWatchedInCinema": true,
   "studios": [
     "WaltDisney",
     "Lucasfilm"
-  ]
+  ],
+  "trailer": "Q0CbN8sfihY",
+  "poster": "star_wars_episode_VIII.webp"
 }

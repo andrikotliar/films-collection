@@ -230,22 +230,19 @@
     }
   ],
   "boxOffice": 871000000,
-  "media": [
-    {
-      "poster": "middle_earth_4.webp",
-      "trailer": "aStYWD25fAQ"
-    }
-  ],
   "rating": 3,
   "description": [
-    "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save The World of Middle-earth from the Dark Lord Sauron."
+    {
+      "title": null,
+      "text": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save The World of Middle-earth from the Dark Lord Sauron."
+    }
   ],
   "chaptersId": "148895975f95315e06a7cc17",
-  "releaseDate": [
-    "2001-12-19"
-  ],
+  "releaseDate": "2001-12-19",
   "watchCount": 10,
   "studios": [
     "NewLineCinema"
-  ]
+  ],
+  "trailer": "aStYWD25fAQ",
+  "poster": "middle_earth_4.webp"
 }

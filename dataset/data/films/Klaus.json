@@ -124,22 +124,19 @@
     }
   ],
   "budget": 40000000,
-  "media": [
-    {
-      "poster": "klaus.webp",
-      "trailer": "taE3PwurhYM"
-    }
-  ],
   "rating": 3,
   "description": [
-    "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions."
+    {
+      "title": null,
+      "text": "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions."
+    }
   ],
-  "releaseDate": [
-    "2019-11-08"
-  ],
+  "releaseDate": "2019-11-08",
   "watchCount": 4,
   "studios": [
     "SPA",
     "AtresmediaCine"
-  ]
+  ],
+  "trailer": "taE3PwurhYM",
+  "poster": "klaus.webp"
 }

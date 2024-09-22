@@ -111,21 +111,18 @@
   ],
   "budget": 100000000,
   "boxOffice": 130000000,
-  "media": [
-    {
-      "poster": "raya.webp",
-      "trailer": "1VIZ89FEjYI"
-    }
-  ],
   "rating": 2,
   "description": [
-    "In a realm known as Kumandra, a re-imagined Earth inhabited by an ancient civilization, a warrior named Raya is determined to find the last dragon."
+    {
+      "title": null,
+      "text": "In a realm known as Kumandra, a re-imagined Earth inhabited by an ancient civilization, a warrior named Raya is determined to find the last dragon."
+    }
   ],
-  "releaseDate": [
-    "2021-03-05"
-  ],
+  "releaseDate": "2021-03-05",
   "watchCount": 3,
   "studios": [
     "WaltDisney"
-  ]
+  ],
+  "trailer": "1VIZ89FEjYI",
+  "poster": "raya.webp"
 }

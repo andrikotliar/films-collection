@@ -162,27 +162,25 @@
       {
         "title": "Season 1",
         "number": 1,
-        "episodesCount": 6
+        "episodesCount": 6,
+        "releaseDate": "2021-03-19",
+        "trailer": "IWBsDaFWyTE"
       }
     ]
   },
-  "media": [
-    {
-      "poster": "falcon_and_the_winter_soldier.webp",
-      "trailer": "IWBsDaFWyTE"
-    }
-  ],
   "rating": 1,
   "description": [
-    "Following the events of «Avengers: Endgame» Sam Wilson and Bucky Barnes team up in a global adventure that tests their abilities and their patience."
+    {
+      "title": "Season 1",
+      "text": "Following the events of «Avengers: Endgame» Sam Wilson and Bucky Barnes team up in a global adventure that tests their abilities and their patience."
+    }
   ],
   "chaptersId": "07bf3e15ce289b98963660c5",
-  "releaseDate": [
-    "2021-03-19"
-  ],
+  "releaseDate": "2021-03-19",
   "watchCount": 1,
   "studios": [
     "DisneyPlus",
     "MarvelStudios"
-  ]
+  ],
+  "poster": "falcon_and_the_winter_soldier.webp"
 }

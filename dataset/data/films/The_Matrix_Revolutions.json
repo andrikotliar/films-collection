@@ -112,22 +112,19 @@
   ],
   "budget": 110000000,
   "boxOffice": 427000000,
-  "media": [
-    {
-      "poster": "matrix_3.webp",
-      "trailer": "hMbexEPAOQI"
-    }
-  ],
   "rating": 3,
   "description": [
-    "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith."
+    {
+      "title": null,
+      "text": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith."
+    }
   ],
   "chaptersId": "a9cbfde563018e36f2bcf883",
-  "releaseDate": [
-    "2003-11-05"
-  ],
+  "releaseDate": "2003-11-05",
   "watchCount": 10,
   "studios": [
     "WarnerBros"
-  ]
+  ],
+  "trailer": "hMbexEPAOQI",
+  "poster": "matrix_3.webp"
 }

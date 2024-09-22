@@ -104,22 +104,19 @@
   ],
   "budget": 14000000,
   "boxOffice": 12000000,
-  "media": [
-    {
-      "poster": "d13_1.webp",
-      "trailer": "Mcmkx1klOpE"
-    }
-  ],
   "rating": 2,
   "description": [
-    "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb."
+    {
+      "title": null,
+      "text": "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb."
+    }
   ],
   "chaptersId": "009b92287c5919f2d6278e48",
-  "releaseDate": [
-    "2004-11-10"
-  ],
+  "releaseDate": "2004-11-10",
   "watchCount": 3,
   "studios": [
     "EuropaCorp"
-  ]
+  ],
+  "trailer": "Mcmkx1klOpE",
+  "poster": "d13_1.webp"
 }

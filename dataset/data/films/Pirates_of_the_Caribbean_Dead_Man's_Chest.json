@@ -148,23 +148,20 @@
     }
   ],
   "boxOffice": 1100000000,
-  "media": [
-    {
-      "poster": "pirates_2.webp",
-      "trailer": "ozk0-RHXtFw"
-    }
-  ],
   "rating": 2,
   "description": [
-    "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well."
+    {
+      "title": null,
+      "text": "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well."
+    }
   ],
   "chaptersId": "7d2478e857e3c4c85a85be7d",
-  "releaseDate": [
-    "2006-07-07"
-  ],
+  "releaseDate": "2006-07-07",
   "watchCount": 10,
   "studios": [
     "WaltDisney",
     "JerryBruckheimerFilms"
-  ]
+  ],
+  "trailer": "ozk0-RHXtFw",
+  "poster": "pirates_2.webp"
 }

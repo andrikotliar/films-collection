@@ -126,23 +126,20 @@
     }
   ],
   "boxOffice": 604000000,
-  "media": [
-    {
-      "poster": "war_of_the_worlds.webp",
-      "trailer": "SM6aEEjc5hA"
-    }
-  ],
   "rating": 3,
   "description": [
-    "An alien invasion threatens the future of humanity. The catastrophic nightmare is depicted through the eyes of one American family fighting for survival."
+    {
+      "title": null,
+      "text": "An alien invasion threatens the future of humanity. The catastrophic nightmare is depicted through the eyes of one American family fighting for survival."
+    }
   ],
-  "releaseDate": [
-    "2005-06-29"
-  ],
+  "releaseDate": "2005-06-29",
   "watchCount": 5,
   "studios": [
     "Paramount",
     "DreamWorks",
     "Amblin"
-  ]
+  ],
+  "trailer": "SM6aEEjc5hA",
+  "poster": "war_of_the_worlds.webp"
 }

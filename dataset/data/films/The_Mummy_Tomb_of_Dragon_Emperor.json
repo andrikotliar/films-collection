@@ -120,22 +120,19 @@
   "year": [
     2008
   ],
-  "media": [
-    {
-      "poster": "mummy_3.webp",
-      "trailer": "5-4qSE2Ch0Y"
-    }
-  ],
   "rating": 1,
   "description": [
-    "In the Far East, Alex O'Connell, the son of famed mummy fighters Rick and Evy O'Connell, unearths the mummy of the first Emperor of Qin -- a shape-shifting entity cursed by a witch centuries ago."
+    {
+      "title": null,
+      "text": "In the Far East, Alex O'Connell, the son of famed mummy fighters Rick and Evy O'Connell, unearths the mummy of the first Emperor of Qin -- a shape-shifting entity cursed by a witch centuries ago."
+    }
   ],
   "chaptersId": "c898b2b52dfcdd0b5a0f636e",
-  "releaseDate": [
-    "2008-08-01"
-  ],
+  "releaseDate": "2008-08-01",
   "watchCount": 10,
   "studios": [
     "Universal"
-  ]
+  ],
+  "trailer": "5-4qSE2Ch0Y",
+  "poster": "mummy_3.webp"
 }

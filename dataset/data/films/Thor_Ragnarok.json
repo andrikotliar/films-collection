@@ -130,24 +130,21 @@
   ],
   "budget": 180000000,
   "boxOffice": 854000000,
-  "media": [
-    {
-      "poster": "thor_3.webp",
-      "trailer": "ue80QwXMRHg"
-    }
-  ],
   "rating": 2,
   "description": [
-    "Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarцk, the destruction of his world, at the hands of the powerful and ruthless villain Hela."
+    {
+      "title": null,
+      "text": "Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarцk, the destruction of his world, at the hands of the powerful and ruthless villain Hela."
+    }
   ],
   "chaptersId": "07bf3e15ce289b98963660c5",
-  "releaseDate": [
-    "2017-11-03"
-  ],
+  "releaseDate": "2017-11-03",
   "watchCount": 2,
   "isWatchedInCinema": true,
   "studios": [
     "WaltDisney",
     "MarvelStudios"
-  ]
+  ],
+  "trailer": "ue80QwXMRHg",
+  "poster": "thor_3.webp"
 }

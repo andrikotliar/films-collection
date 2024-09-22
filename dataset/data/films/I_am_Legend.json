@@ -124,22 +124,19 @@
     }
   ],
   "boxOffice": 585000000,
-  "media": [
-    {
-      "poster": "i_am_legend.webp",
-      "trailer": "dtKMEAXyPkg"
-    }
-  ],
   "rating": 1,
   "description": [
-    "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure."
+    {
+      "title": null,
+      "text": "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure."
+    }
   ],
   "watchCount": 3,
-  "releaseDate": [
-    "2008-04-03"
-  ],
+  "releaseDate": "2008-04-03",
   "studios": [
     "WarnerBros",
     "VillageRoadshow"
-  ]
+  ],
+  "trailer": "dtKMEAXyPkg",
+  "poster": "i_am_legend.webp"
 }

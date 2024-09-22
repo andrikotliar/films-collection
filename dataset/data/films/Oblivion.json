@@ -117,21 +117,18 @@
   ],
   "budget": 160000000,
   "boxOffice": 286000000,
-  "media": [
-    {
-      "poster": "oblivion.webp",
-      "trailer": "XmIIgE7eSak"
-    }
-  ],
   "rating": 1,
   "description": [
-    "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself."
+    {
+      "title": null,
+      "text": "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself."
+    }
   ],
-  "releaseDate": [
-    "2013-04-19"
-  ],
+  "releaseDate": "2013-04-19",
   "watchCount": 3,
   "studios": [
     "Universal"
-  ]
+  ],
+  "trailer": "XmIIgE7eSak",
+  "poster": "oblivion.webp"
 }

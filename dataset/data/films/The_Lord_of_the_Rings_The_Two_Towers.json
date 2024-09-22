@@ -242,22 +242,19 @@
     }
   ],
   "boxOffice": 926000000,
-  "media": [
-    {
-      "poster": "middle_earth_5.webp",
-      "trailer": "LbfMDwc4azU"
-    }
-  ],
   "rating": 3,
   "description": [
-    "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
+    {
+      "title": null,
+      "text": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
+    }
   ],
   "chaptersId": "148895975f95315e06a7cc17",
-  "releaseDate": [
-    "2002-12-18"
-  ],
+  "releaseDate": "2002-12-18",
   "watchCount": 10,
   "studios": [
     "NewLineCinema"
-  ]
+  ],
+  "trailer": "LbfMDwc4azU",
+  "poster": "middle_earth_5.webp"
 }

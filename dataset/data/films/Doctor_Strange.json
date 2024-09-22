@@ -119,23 +119,20 @@
     }
   ],
   "boxOffice": 678000000,
-  "media": [
-    {
-      "poster": "doctor_strange.webp",
-      "trailer": "HSzx-zryEgM"
-    }
-  ],
   "rating": 3,
   "description": [
-    "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts."
+    {
+      "title": null,
+      "text": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts."
+    }
   ],
   "chaptersId": "07bf3e15ce289b98963660c5",
-  "releaseDate": [
-    "2016-11-04"
-  ],
+  "releaseDate": "2016-11-04",
   "watchCount": 5,
   "studios": [
     "WaltDisney",
     "MarvelStudios"
-  ]
+  ],
+  "trailer": "HSzx-zryEgM",
+  "poster": "doctor_strange.webp"
 }

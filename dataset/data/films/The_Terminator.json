@@ -101,23 +101,20 @@
     }
   ],
   "boxOffice": 40000000,
-  "media": [
-    {
-      "poster": "terminator_1.webp",
-      "trailer": "k64P4l2Wmeg"
-    }
-  ],
   "rating": 2,
   "description": [
-    "A seemingly indestructible android is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs."
+    {
+      "title": null,
+      "text": "A seemingly indestructible android is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs."
+    }
   ],
   "chaptersId": "d48af2b35df9b7fb521ab299",
-  "releaseDate": [
-    "1984-10-26"
-  ],
+  "releaseDate": "1984-10-26",
   "watchCount": 3,
   "studios": [
     "Orion",
     "Cinema84"
-  ]
+  ],
+  "trailer": "k64P4l2Wmeg",
+  "poster": "terminator_1.webp"
 }

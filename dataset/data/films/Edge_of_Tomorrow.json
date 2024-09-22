@@ -160,21 +160,18 @@
     }
   ],
   "boxOffice": 370000000,
-  "media": [
-    {
-      "poster": "edge_of_tomorow.webp",
-      "trailer": "vw61gCe2oqI"
-    }
-  ],
   "rating": 3,
   "description": [
-    "A soldier fighting aliens gets to relive the same day over and over again, the day restarting every time he dies."
+    {
+      "title": null,
+      "text": "A soldier fighting aliens gets to relive the same day over and over again, the day restarting every time he dies."
+    }
   ],
-  "releaseDate": [
-    "2014-06-06"
-  ],
+  "releaseDate": "2014-06-06",
   "watchCount": 5,
   "studios": [
     "WarnerBros"
-  ]
+  ],
+  "trailer": "vw61gCe2oqI",
+  "poster": "edge_of_tomorow.webp"
 }

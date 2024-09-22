@@ -126,22 +126,19 @@
     }
   ],
   "boxOffice": 975000000,
-  "media": [
-    {
-      "poster": "harry_potter_1.webp",
-      "trailer": "VyHV0BRtdxo"
-    }
-  ],
   "rating": 3,
   "description": [
-    "An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world."
+    {
+      "title": null,
+      "text": "An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world."
+    }
   ],
   "chaptersId": "21fe420121bd2018a3c76f32",
-  "releaseDate": [
-    "2001-11-16"
-  ],
+  "releaseDate": "2001-11-16",
   "watchCount": 10,
   "studios": [
     "WarnerBros"
-  ]
+  ],
+  "trailer": "VyHV0BRtdxo",
+  "poster": "harry_potter_1.webp"
 }

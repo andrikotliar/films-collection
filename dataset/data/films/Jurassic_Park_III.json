@@ -102,23 +102,20 @@
   ],
   "budget": 93000000,
   "boxOffice": 368000000,
-  "media": [
-    {
-      "poster": "jurassic_park_3.webp",
-      "trailer": "gjIaV6CU0wA"
-    }
-  ],
   "rating": 1,
   "description": [
-    "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants."
+    {
+      "title": null,
+      "text": "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants."
+    }
   ],
   "chaptersId": "49f8964ab8146674fa031483",
-  "releaseDate": [
-    "2001-07-18"
-  ],
+  "releaseDate": "2001-07-18",
   "watchCount": 1,
   "studios": [
     "Universal",
     "Amblin"
-  ]
+  ],
+  "trailer": "gjIaV6CU0wA",
+  "poster": "jurassic_park_3.webp"
 }

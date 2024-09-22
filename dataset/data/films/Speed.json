@@ -120,21 +120,18 @@
     }
   ],
   "boxOffice": 350000000,
-  "media": [
-    {
-      "poster": "speed.webp",
-      "trailer": "8piqd2BWeGI"
-    }
-  ],
   "rating": 2,
   "description": [
-    "A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph."
+    {
+      "title": null,
+      "text": "A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph."
+    }
   ],
-  "releaseDate": [
-    "1994-06-10"
-  ],
+  "releaseDate": "1994-06-10",
   "watchCount": 5,
   "studios": [
     "20thCenturyFox"
-  ]
+  ],
+  "trailer": "8piqd2BWeGI",
+  "poster": "speed.webp"
 }

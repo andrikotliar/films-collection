@@ -90,22 +90,19 @@
   ],
   "budget": 40000000,
   "boxOffice": 245000000,
-  "media": [
-    {
-      "poster": "back_to_the_future_3.webp",
-      "trailer": "EYkguxpqsrg"
-    }
-  ],
   "rating": 3,
   "description": [
-    "Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about to be killed by Buford \"Mad Dog\"Tannen. Marty McFly travels back in time to save his friend."
+    {
+      "title": null,
+      "text": "Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about to be killed by Buford \"Mad Dog\"Tannen. Marty McFly travels back in time to save his friend."
+    }
   ],
   "chaptersId": "cb583126d928731112ea5595",
-  "releaseDate": [
-    "1990-05-25"
-  ],
+  "releaseDate": "1990-05-25",
   "watchCount": 10,
   "studios": [
     "Universal"
-  ]
+  ],
+  "trailer": "EYkguxpqsrg",
+  "poster": "back_to_the_future_3.webp"
 }

@@ -123,22 +123,19 @@
     }
   ],
   "boxOffice": 865000000,
-  "media": [
-    {
-      "poster": "hunger_games_2.webp",
-      "trailer": "EAzGXqJSDJ8"
-    }
-  ],
   "rating": 2,
   "description": [
-    "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem."
+    {
+      "title": null,
+      "text": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem."
+    }
   ],
   "chaptersId": "ee0e6048d16760e2bc2c11d3",
-  "releaseDate": [
-    "2013-11-22"
-  ],
+  "releaseDate": "2013-11-22",
   "watchCount": 2,
   "studios": [
     "Lionsgate"
-  ]
+  ],
+  "trailer": "EAzGXqJSDJ8",
+  "poster": "hunger_games_2.webp"
 }

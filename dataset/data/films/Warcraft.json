@@ -161,22 +161,19 @@
   ],
   "budget": 160000000,
   "boxOffice": 434000000,
-  "media": [
-    {
-      "poster": "warcraft.webp",
-      "trailer": "2Rxoz13Bthc"
-    }
-  ],
   "rating": 2,
   "description": [
-    "As an Orc horde invades the planet Azeroth using a magic portal, a few human heroes and dissenting Orcs must attempt to stop the true evil behind this war."
+    {
+      "title": null,
+      "text": "As an Orc horde invades the planet Azeroth using a magic portal, a few human heroes and dissenting Orcs must attempt to stop the true evil behind this war."
+    }
   ],
-  "releaseDate": [
-    "2016-06-10"
-  ],
+  "releaseDate": "2016-06-10",
   "watchCount": 1,
   "studios": [
     "Universal",
     "Legendary"
-  ]
+  ],
+  "trailer": "2Rxoz13Bthc",
+  "poster": "warcraft.webp"
 }

@@ -117,23 +117,20 @@
   ],
   "budget": 160000000,
   "boxOffice": 1150000000,
-  "media": [
-    {
-      "poster": "aquaman.webp",
-      "trailer": "WDkg3h8PCVU"
-    }
-  ],
   "rating": 1,
   "description": [
-    "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land."
+    {
+      "title": null,
+      "text": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land."
+    }
   ],
   "chaptersId": "d923cc31cdf721e7ddeb1616",
-  "releaseDate": [
-    "2018-12-21"
-  ],
+  "releaseDate": "2018-12-21",
   "watchCount": 2,
   "studios": [
     "DCEntertainment",
     "WarnerBros"
-  ]
+  ],
+  "trailer": "WDkg3h8PCVU",
+  "poster": "aquaman.webp"
 }

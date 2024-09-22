@@ -90,23 +90,20 @@
   ],
   "budget": 73000000,
   "boxOffice": 619000000,
-  "media": [
-    {
-      "poster": "jurassic_park_2.webp",
-      "trailer": "RxrvaneULkE"
-    }
-  ],
   "rating": 2,
   "description": [
-    "A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda."
+    {
+      "title": null,
+      "text": "A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda."
+    }
   ],
   "chaptersId": "49f8964ab8146674fa031483",
-  "releaseDate": [
-    "1997-05-23"
-  ],
+  "releaseDate": "1997-05-23",
   "watchCount": 2,
   "studios": [
     "Universal",
     "Amblin"
-  ]
+  ],
+  "trailer": "RxrvaneULkE",
+  "poster": "jurassic_park_2.webp"
 }

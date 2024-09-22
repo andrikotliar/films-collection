@@ -141,23 +141,20 @@
   ],
   "budget": 195000000,
   "boxOffice": 1120000000,
-  "media": [
-    {
-      "poster": "transformers_3.webp",
-      "trailer": "bTIrEZM-cFE"
-    }
-  ],
   "rating": 1,
   "description": [
-    "The Autobots learn of a Cybertronian spacecraft hidden on the moon, and race against the Decepticons to reach it and to learn its secrets."
+    {
+      "title": null,
+      "text": "The Autobots learn of a Cybertronian spacecraft hidden on the moon, and race against the Decepticons to reach it and to learn its secrets."
+    }
   ],
   "chaptersId": "12b3854c2936b95c086fdd68",
-  "releaseDate": [
-    "2011-06-29"
-  ],
+  "releaseDate": "2011-06-29",
   "watchCount": 5,
   "studios": [
     "DreamWorks",
     "Paramount"
-  ]
+  ],
+  "trailer": "bTIrEZM-cFE",
+  "poster": "transformers_3.webp"
 }

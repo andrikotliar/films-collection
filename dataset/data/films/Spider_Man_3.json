@@ -137,23 +137,20 @@
   ],
   "budget": 258000000,
   "boxOffice": 895000000,
-  "media": [
-    {
-      "poster": "raimi_spider_man_3.webp",
-      "trailer": "wPosLpgMtTY"
-    }
-  ],
   "rating": 1,
   "description": [
-    "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge."
+    {
+      "title": null,
+      "text": "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge."
+    }
   ],
   "chaptersId": "d1fa1cd43ac95f43d14d0650",
-  "releaseDate": [
-    "2007-05-04"
-  ],
+  "releaseDate": "2007-05-04",
   "watchCount": 5,
   "studios": [
     "Columbia",
     "MarvelEntertainment"
-  ]
+  ],
+  "trailer": "wPosLpgMtTY",
+  "poster": "raimi_spider_man_3.webp"
 }

@@ -126,21 +126,18 @@
   ],
   "budget": 75000000,
   "boxOffice": 352000000,
-  "media": [
-    {
-      "poster": "now_you_see_me.webp",
-      "trailer": "KzJNYYkkhzc"
-    }
-  ],
   "rating": 1,
   "description": [
-    "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money."
+    {
+      "title": null,
+      "text": "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money."
+    }
   ],
-  "releaseDate": [
-    "2013-05-31"
-  ],
+  "releaseDate": "2013-05-31",
   "watchCount": 2,
   "studios": [
     "Summit"
-  ]
+  ],
+  "trailer": "KzJNYYkkhzc",
+  "poster": "now_you_see_me.webp"
 }

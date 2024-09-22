@@ -128,21 +128,18 @@
     }
   ],
   "boxOffice": 400000000,
-  "media": [
-    {
-      "poster": "tron.webp",
-      "trailer": "L9szn1QQfas"
-    }
-  ],
   "rating": 2,
   "description": [
-    "The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world."
+    {
+      "title": null,
+      "text": "The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world."
+    }
   ],
-  "releaseDate": [
-    "2010-12-17"
-  ],
+  "releaseDate": "2010-12-17",
   "watchCount": 3,
   "studios": [
     "WaltDisney"
-  ]
+  ],
+  "trailer": "L9szn1QQfas",
+  "poster": "tron.webp"
 }

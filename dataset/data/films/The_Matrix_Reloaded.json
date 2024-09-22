@@ -124,22 +124,19 @@
   ],
   "budget": 127000000,
   "boxOffice": 742000000,
-  "media": [
-    {
-      "poster": "matrix_2.webp",
-      "trailer": "kYzz0FSgpSU"
-    }
-  ],
   "rating": 3,
   "description": [
-    "Neo and the rebel leaders estimate that they have 72 hours until 250,000 probes discover Zion and destroy it and its inhabitants. During this, Neo must decide how he can save Trinity from a dark fate in his dreams."
+    {
+      "title": null,
+      "text": "Neo and the rebel leaders estimate that they have 72 hours until 250,000 probes discover Zion and destroy it and its inhabitants. During this, Neo must decide how he can save Trinity from a dark fate in his dreams."
+    }
   ],
   "chaptersId": "a9cbfde563018e36f2bcf883",
-  "releaseDate": [
-    "2003-05-15"
-  ],
+  "releaseDate": "2003-05-15",
   "watchCount": 10,
   "studios": [
     "WarnerBros"
-  ]
+  ],
+  "trailer": "kYzz0FSgpSU",
+  "poster": "matrix_2.webp"
 }

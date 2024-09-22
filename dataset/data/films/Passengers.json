@@ -102,21 +102,18 @@
   ],
   "budget": 110000000,
   "boxOffice": 303000000,
-  "media": [
-    {
-      "poster": "passengers.webp",
-      "trailer": "7BWWWQzTpNU"
-    }
-  ],
   "rating": 3,
   "description": [
-    "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early."
+    {
+      "title": null,
+      "text": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early."
+    }
   ],
-  "releaseDate": [
-    "2016-12-21"
-  ],
+  "releaseDate": "2016-12-21",
   "watchCount": 5,
   "studios": [
     "Columbia"
-  ]
+  ],
+  "trailer": "7BWWWQzTpNU",
+  "poster": "passengers.webp"
 }

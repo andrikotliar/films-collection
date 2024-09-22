@@ -100,22 +100,19 @@
   ],
   "budget": 11000000,
   "boxOffice": 427000000,
-  "media": [
-    {
-      "poster": "intouchables.webp",
-      "trailer": "34WIbmXkewU"
-    }
-  ],
   "rating": 2,
   "description": [
-    "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver."
+    {
+      "title": null,
+      "text": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver."
+    }
   ],
-  "releaseDate": [
-    "2011-11-02"
-  ],
+  "releaseDate": "2011-11-02",
   "watchCount": 2,
   "studios": [
     "Gaumont",
     "TF1"
-  ]
+  ],
+  "trailer": "34WIbmXkewU",
+  "poster": "intouchables.webp"
 }

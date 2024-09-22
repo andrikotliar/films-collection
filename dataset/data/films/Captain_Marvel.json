@@ -141,23 +141,20 @@
   ],
   "budget": 152000000,
   "boxOffice": 1130000000,
-  "media": [
-    {
-      "poster": "captain_marvel.webp",
-      "trailer": "TcMBFSGVi1c"
-    }
-  ],
   "rating": 1,
   "description": [
-    "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races."
+    {
+      "title": null,
+      "text": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races."
+    }
   ],
   "chaptersId": "07bf3e15ce289b98963660c5",
-  "releaseDate": [
-    "2019-03-08"
-  ],
+  "releaseDate": "2019-03-08",
   "watchCount": 1,
   "studios": [
     "WaltDisney",
     "MarvelStudios"
-  ]
+  ],
+  "trailer": "TcMBFSGVi1c",
+  "poster": "captain_marvel.webp"
 }

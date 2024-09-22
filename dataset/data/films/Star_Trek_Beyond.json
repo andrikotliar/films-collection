@@ -163,23 +163,20 @@
     }
   ],
   "boxOffice": 343000000,
-  "media": [
-    {
-      "poster": "star_trek_3.webp",
-      "trailer": "XRVD32rnzOw"
-    }
-  ],
   "rating": 1,
   "description": [
-    "The crew of the USS Enterprise explores the furthest reaches of uncharted space, where they encounter a new ruthless enemy, who puts them, and everything the Federation stands for, to the test."
+    {
+      "title": null,
+      "text": "The crew of the USS Enterprise explores the furthest reaches of uncharted space, where they encounter a new ruthless enemy, who puts them, and everything the Federation stands for, to the test."
+    }
   ],
   "chaptersId": "d7e37cea52e0bb90c216ad37",
-  "releaseDate": [
-    "2016-07-22"
-  ],
+  "releaseDate": "2016-07-22",
   "watchCount": 1,
   "studios": [
     "Paramount",
     "BadRobot"
-  ]
+  ],
+  "trailer": "XRVD32rnzOw",
+  "poster": "star_trek_3.webp"
 }

@@ -152,22 +152,19 @@
     }
   ],
   "boxOffice": 677000000,
-  "media": [
-    {
-      "poster": "interstellar.webp",
-      "trailer": "zSWdZVtXT7E"
-    }
-  ],
   "rating": 3,
   "description": [
-    "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+    {
+      "title": null,
+      "text": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+    }
   ],
-  "releaseDate": [
-    "2014-11-07"
-  ],
+  "releaseDate": "2014-11-07",
   "watchCount": 3,
   "studios": [
     "Paramount",
     "WarnerBros"
-  ]
+  ],
+  "trailer": "zSWdZVtXT7E",
+  "poster": "interstellar.webp"
 }

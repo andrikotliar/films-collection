@@ -126,22 +126,19 @@
   ],
   "budget": 98000000,
   "boxOffice": 433000000,
-  "media": [
-    {
-      "poster": "mummy_2.webp",
-      "trailer": "3yXjs7BUKYc"
-    }
-  ],
   "rating": 3,
   "description": [
-    "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror."
+    {
+      "title": null,
+      "text": "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror."
+    }
   ],
   "chaptersId": "c898b2b52dfcdd0b5a0f636e",
-  "releaseDate": [
-    "2001-05-04"
-  ],
+  "releaseDate": "2001-05-04",
   "watchCount": 10,
   "studios": [
     "Universal"
-  ]
+  ],
+  "trailer": "3yXjs7BUKYc",
+  "poster": "mummy_2.webp"
 }

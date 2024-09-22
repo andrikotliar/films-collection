@@ -163,22 +163,19 @@
     }
   ],
   "boxOffice": 2400000000,
-  "media": [
-    {
-      "poster": "titanic.webp",
-      "trailer": "kVrqfYjkTdQ"
-    }
-  ],
   "rating": 2,
   "description": [
-    "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
+    {
+      "title": null,
+      "text": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
+    }
   ],
-  "releaseDate": [
-    "1997-12-19"
-  ],
+  "releaseDate": "1997-12-19",
   "watchCount": 5,
   "studios": [
     "20thCenturyFox",
     "Paramount"
-  ]
+  ],
+  "trailer": "kVrqfYjkTdQ",
+  "poster": "titanic.webp"
 }

@@ -120,23 +120,20 @@
     }
   ],
   "boxOffice": 963000000,
-  "media": [
-    {
-      "poster": "pirates_3.webp",
-      "trailer": "HKSZtp_OGHY"
-    }
-  ],
   "rating": 2,
   "description": [
-    "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle."
+    {
+      "title": null,
+      "text": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle."
+    }
   ],
   "chaptersId": "7d2478e857e3c4c85a85be7d",
-  "releaseDate": [
-    "2007-05-25"
-  ],
+  "releaseDate": "2007-05-25",
   "watchCount": 10,
   "studios": [
     "WaltDisney",
     "JerryBruckheimerFilms"
-  ]
+  ],
+  "trailer": "HKSZtp_OGHY",
+  "poster": "pirates_3.webp"
 }

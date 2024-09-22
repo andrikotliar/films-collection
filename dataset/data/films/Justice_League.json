@@ -195,23 +195,20 @@
     }
   ],
   "budget": 300000000,
-  "media": [
-    {
-      "poster": "justice_league.webp",
-      "trailer": "ui37YKQ9AC4"
-    }
-  ],
   "rating": 2,
   "description": [
-    "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions."
+    {
+      "title": null,
+      "text": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions."
+    }
   ],
   "chaptersId": "d923cc31cdf721e7ddeb1616",
-  "releaseDate": [
-    "2021-03-18"
-  ],
+  "releaseDate": "2021-03-18",
   "watchCount": 1,
   "studios": [
     "HBOMax",
     "WarnerBros"
-  ]
+  ],
+  "trailer": "ui37YKQ9AC4",
+  "poster": "justice_league.webp"
 }

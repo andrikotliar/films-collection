@@ -111,22 +111,19 @@
   ],
   "budget": 150000000,
   "boxOffice": 215000000,
-  "media": [
-    {
-      "poster": "sorcerers_apprentice.webp",
-      "trailer": "v2uV0_1C4UM"
-    }
-  ],
   "rating": 1,
   "description": [
-    "Master sorcerer Balthazar Blake must find and train Merlin's descendant to defeat dark sorceress Morgana la Fée."
+    {
+      "title": null,
+      "text": "Master sorcerer Balthazar Blake must find and train Merlin's descendant to defeat dark sorceress Morgana la Fée."
+    }
   ],
-  "releaseDate": [
-    "2010-07-14"
-  ],
+  "releaseDate": "2010-07-14",
   "watchCount": 2,
   "studios": [
     "WaltDisney",
     "JerryBruckheimerFilms"
-  ]
+  ],
+  "trailer": "v2uV0_1C4UM",
+  "poster": "sorcerers_apprentice.webp"
 }

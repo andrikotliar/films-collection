@@ -111,21 +111,18 @@
   ],
   "budget": 110000000,
   "boxOffice": 300000000,
-  "media": [
-    {
-      "poster": "real_steel.webp",
-      "trailer": "SwfmV3nn6QA"
-    }
-  ],
   "rating": 3,
   "description": [
-    "In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot."
+    {
+      "title": null,
+      "text": "In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot."
+    }
   ],
-  "releaseDate": [
-    "2011-10-07"
-  ],
+  "releaseDate": "2011-10-07",
   "watchCount": 5,
   "studios": [
     "DreamWorks"
-  ]
+  ],
+  "trailer": "SwfmV3nn6QA",
+  "poster": "real_steel.webp"
 }

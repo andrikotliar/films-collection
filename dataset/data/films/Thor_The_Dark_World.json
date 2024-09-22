@@ -141,23 +141,20 @@
   ],
   "budget": 153000000,
   "boxOffice": 645000000,
-  "media": [
-    {
-      "poster": "thor_2.webp",
-      "trailer": "npvJ9FTgZbM"
-    }
-  ],
   "rating": 1,
   "description": [
-    "When Dr. Jane Foster gets cursed with a powerful entity known as the Aether, Thor is heralded of the cosmic event known as the Convergence and the genocidal Dark Elves."
+    {
+      "title": null,
+      "text": "When Dr. Jane Foster gets cursed with a powerful entity known as the Aether, Thor is heralded of the cosmic event known as the Convergence and the genocidal Dark Elves."
+    }
   ],
   "chaptersId": "07bf3e15ce289b98963660c5",
-  "releaseDate": [
-    "2013-11-08"
-  ],
+  "releaseDate": "2013-11-08",
   "watchCount": 0,
   "studios": [
     "WaltDisney",
     "MarvelStudios"
-  ]
+  ],
+  "trailer": "npvJ9FTgZbM",
+  "poster": "thor_2.webp"
 }

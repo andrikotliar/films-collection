@@ -105,23 +105,20 @@
   ],
   "budget": 35000000,
   "boxOffice": 52000000,
-  "media": [
-    {
-      "poster": "greenland.webp",
-      "trailer": "RTODtIQQRpA"
-    }
-  ],
   "rating": 1,
   "description": [
-    "A family struggles for survival in the face of a cataclysmic natural disaster."
+    {
+      "title": null,
+      "text": "A family struggles for survival in the face of a cataclysmic natural disaster."
+    }
   ],
-  "releaseDate": [
-    "2020-08-14"
-  ],
+  "releaseDate": "2020-08-14",
   "watchCount": 2,
   "studios": [
     "ThunderRoad",
     "Anton",
     "GBase"
-  ]
+  ],
+  "trailer": "RTODtIQQRpA",
+  "poster": "greenland.webp"
 }

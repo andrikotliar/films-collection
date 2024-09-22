@@ -140,25 +140,22 @@
       "key": "MCU"
     }
   ],
-  "media": [
-    {
-      "poster": "mcu_spider_man_3.webp",
-      "trailer": "rt-2cxAiPJk"
-    }
-  ],
   "rating": 1,
   "description": [
-    "For the first time in the cinematic history of Spider-Man, our friendly neighborhood hero is unmasked and no longer able to separate his normal life from the high-stakes of being a Super Hero. When he asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man."
+    {
+      "title": null,
+      "text": "For the first time in the cinematic history of Spider-Man, our friendly neighborhood hero is unmasked and no longer able to separate his normal life from the high-stakes of being a Super Hero. When he asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man."
+    }
   ],
   "chaptersId": "07bf3e15ce289b98963660c5",
-  "releaseDate": [
-    "2021-12-17"
-  ],
+  "releaseDate": "2021-12-17",
   "watchCount": 2,
   "budget": 200000000,
   "boxOffice": 1926000000,
   "studios": [
     "MarvelStudios",
     "Sony"
-  ]
+  ],
+  "trailer": "rt-2cxAiPJk",
+  "poster": "mcu_spider_man_3.webp"
 }

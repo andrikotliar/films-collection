@@ -164,22 +164,19 @@
     }
   ],
   "boxOffice": 463000000,
-  "media": [
-    {
-      "poster": "matrix_1.webp",
-      "trailer": "m8e-FF8MsqU"
-    }
-  ],
   "rating": 3,
   "description": [
-    "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
+    {
+      "title": null,
+      "text": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
+    }
   ],
   "chaptersId": "a9cbfde563018e36f2bcf883",
-  "releaseDate": [
-    "1999-03-31"
-  ],
+  "releaseDate": "1999-03-31",
   "watchCount": 10,
   "studios": [
     "WarnerBros"
-  ]
+  ],
+  "trailer": "m8e-FF8MsqU",
+  "poster": "matrix_1.webp"
 }

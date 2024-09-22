@@ -137,22 +137,19 @@
     }
   ],
   "boxOffice": 546000000,
-  "media": [
-    {
-      "poster": "mi_2.webp",
-      "trailer": "Aqk78Z57LGg"
-    }
-  ],
   "rating": 1,
   "description": [
-    "IMF Agent Ethan Hunt is sent to Sydney, to find and destroy a genetically modified disease called \"Chimera\"."
+    {
+      "title": null,
+      "text": "IMF Agent Ethan Hunt is sent to Sydney, to find and destroy a genetically modified disease called \"Chimera\"."
+    }
   ],
   "chaptersId": "7201769b07df74e644bc0b02",
-  "releaseDate": [
-    "2000-05-24"
-  ],
+  "releaseDate": "2000-05-24",
   "watchCount": 2,
   "studios": [
     "Paramount"
-  ]
+  ],
+  "trailer": "Aqk78Z57LGg",
+  "poster": "mi_2.webp"
 }

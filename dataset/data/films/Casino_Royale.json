@@ -112,21 +112,18 @@
   ],
   "budget": 150000000,
   "boxOffice": 616000000,
-  "media": [
-    {
-      "poster": "casino_royale.webp",
-      "trailer": "36mnx8dBbGE"
-    }
-  ],
   "rating": 1,
   "description": [
-    "After earning 00 status and a licence to kill, secret agent James Bond sets out on his first mission as 007. Bond must defeat a private banker funding terrorists in a high-stakes game of poker at Casino Royale, Montenegro."
+    {
+      "title": null,
+      "text": "After earning 00 status and a licence to kill, secret agent James Bond sets out on his first mission as 007. Bond must defeat a private banker funding terrorists in a high-stakes game of poker at Casino Royale, Montenegro."
+    }
   ],
-  "releaseDate": [
-    "2006-11-17"
-  ],
+  "releaseDate": "2006-11-17",
   "watchCount": 1,
   "studios": [
     "Columbia"
-  ]
+  ],
+  "trailer": "36mnx8dBbGE",
+  "poster": "casino_royale.webp"
 }

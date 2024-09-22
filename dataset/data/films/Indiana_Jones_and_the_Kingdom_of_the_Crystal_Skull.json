@@ -113,23 +113,20 @@
     }
   ],
   "boxOffice": 790000000,
-  "media": [
-    {
-      "poster": "indiana_jones_4.webp",
-      "trailer": "WAdJf4wTC5Y"
-    }
-  ],
   "rating": 1,
   "description": [
-    "In 1957, archaeologist and adventurer Dr. Henry \"Indiana\" Jones, Jr. is called back into action and becomes entangled in a Soviet plot to uncover the secret behind mysterious artifacts known as the Crystal Skulls."
+    {
+      "title": null,
+      "text": "In 1957, archaeologist and adventurer Dr. Henry \"Indiana\" Jones, Jr. is called back into action and becomes entangled in a Soviet plot to uncover the secret behind mysterious artifacts known as the Crystal Skulls."
+    }
   ],
   "chaptersId": "b6df4d99b3eecf421590dd26",
   "watchCount": 1,
-  "releaseDate": [
-    "2008-05-22"
-  ],
+  "releaseDate": "2008-05-22",
   "studios": [
     "Paramount",
     "Lucasfilm"
-  ]
+  ],
+  "trailer": "WAdJf4wTC5Y",
+  "poster": "indiana_jones_4.webp"
 }

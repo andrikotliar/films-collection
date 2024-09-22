@@ -134,22 +134,19 @@
   ],
   "budget": 250000000,
   "boxOffice": 960000000,
-  "media": [
-    {
-      "poster": "harry_potter_7.webp",
-      "trailer": "MxqsmsA8y5k"
-    }
-  ],
   "rating": 3,
   "description": [
-    "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows."
+    {
+      "title": null,
+      "text": "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows."
+    }
   ],
   "chaptersId": "21fe420121bd2018a3c76f32",
-  "releaseDate": [
-    "2010-11-19"
-  ],
+  "releaseDate": "2010-11-19",
   "watchCount": 4,
   "studios": [
     "WarnerBros"
-  ]
+  ],
+  "trailer": "MxqsmsA8y5k",
+  "poster": "harry_potter_7.webp"
 }

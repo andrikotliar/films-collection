@@ -113,21 +113,18 @@
     }
   ],
   "boxOffice": 368000000,
-  "media": [
-    {
-      "poster": "hitch.webp",
-      "trailer": "pYrrEUgnT6s"
-    }
-  ],
   "rating": 1,
   "description": [
-    "While helping his latest client woo the fine lady of his dreams, a professional \"date doctor\" finds that his game doesn't quite work on the gossip columnist with whom he's smitten."
+    {
+      "title": null,
+      "text": "While helping his latest client woo the fine lady of his dreams, a professional \"date doctor\" finds that his game doesn't quite work on the gossip columnist with whom he's smitten."
+    }
   ],
-  "releaseDate": [
-    "2005-02-11"
-  ],
+  "releaseDate": "2005-02-11",
   "watchCount": 2,
   "studios": [
     "Columbia"
-  ]
+  ],
+  "trailer": "pYrrEUgnT6s",
+  "poster": "hitch.webp"
 }

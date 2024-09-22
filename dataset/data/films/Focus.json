@@ -107,21 +107,18 @@
   ],
   "budget": 50000000,
   "boxOffice": 159000000,
-  "media": [
-    {
-      "poster": "focus.webp",
-      "trailer": "MxCRgtdAuBo"
-    }
-  ],
   "rating": 1,
   "description": [
-    "In the midst of veteran con man Nicky's latest scheme, a woman from his past - now an accomplished femme fatale - shows up and throws his plans for a loop."
+    {
+      "title": null,
+      "text": "In the midst of veteran con man Nicky's latest scheme, a woman from his past - now an accomplished femme fatale - shows up and throws his plans for a loop."
+    }
   ],
-  "releaseDate": [
-    "2015-02-27"
-  ],
+  "releaseDate": "2015-02-27",
   "watchCount": 2,
   "studios": [
     "WarnerBros"
-  ]
+  ],
+  "trailer": "MxCRgtdAuBo",
+  "poster": "focus.webp"
 }

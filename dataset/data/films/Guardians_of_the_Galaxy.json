@@ -176,23 +176,20 @@
     }
   ],
   "boxOffice": 773000000,
-  "media": [
-    {
-      "poster": "guardians_of_the_galaxy.webp",
-      "trailer": "d96cjJhvlMA"
-    }
-  ],
   "rating": 2,
   "description": [
-    "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe."
+    {
+      "title": null,
+      "text": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe."
+    }
   ],
   "chaptersId": "07bf3e15ce289b98963660c5",
-  "releaseDate": [
-    "2014-08-01"
-  ],
+  "releaseDate": "2014-08-01",
   "watchCount": 3,
   "studios": [
     "WaltDisney",
     "MarvelStudios"
-  ]
+  ],
+  "trailer": "d96cjJhvlMA",
+  "poster": "guardians_of_the_galaxy.webp"
 }

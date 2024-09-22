@@ -128,23 +128,20 @@
   ],
   "budget": 140000000,
   "boxOffice": 371000000,
-  "media": [
-    {
-      "poster": "captain_america_1.webp",
-      "trailer": "JerVrbLldXw"
-    }
-  ],
   "rating": 1,
   "description": [
-    "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization."
+    {
+      "title": null,
+      "text": "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization."
+    }
   ],
   "chaptersId": "07bf3e15ce289b98963660c5",
-  "releaseDate": [
-    "2011-07-22"
-  ],
+  "releaseDate": "2011-07-22",
   "watchCount": 4,
   "studios": [
     "MarvelStudios",
     "Paramount"
-  ]
+  ],
+  "trailer": "JerVrbLldXw",
+  "poster": "captain_america_1.webp"
 }

@@ -135,23 +135,20 @@
     }
   ],
   "boxOffice": 789000000,
-  "media": [
-    {
-      "poster": "raimi_spider_man_2.webp",
-      "trailer": "1s9Yln0YwCw"
-    }
-  ],
   "rating": 2,
   "description": [
-    "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius."
+    {
+      "title": null,
+      "text": "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius."
+    }
   ],
   "chaptersId": "d1fa1cd43ac95f43d14d0650",
-  "releaseDate": [
-    "2004-06-30"
-  ],
+  "releaseDate": "2004-06-30",
   "watchCount": 5,
   "studios": [
     "Columbia",
     "MarvelEntertainment"
-  ]
+  ],
+  "trailer": "1s9Yln0YwCw",
+  "poster": "raimi_spider_man_2.webp"
 }

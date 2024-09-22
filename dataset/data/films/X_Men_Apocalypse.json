@@ -142,23 +142,20 @@
   ],
   "budget": 178000000,
   "boxOffice": 544000000,
-  "media": [
-    {
-      "poster": "x_men_7.webp",
-      "trailer": "Jer8XjMrUB4"
-    }
-  ],
   "rating": 1,
   "description": [
-    "In the 1980s the X-Men must defeat an ancient all-powerful mutant, En Sabah Nur, who intends to thrive through bringing destruction to the world."
+    {
+      "title": null,
+      "text": "In the 1980s the X-Men must defeat an ancient all-powerful mutant, En Sabah Nur, who intends to thrive through bringing destruction to the world."
+    }
   ],
   "chaptersId": "39322de8cb5cb1b16fcafb89",
-  "releaseDate": [
-    "2016-05-27"
-  ],
+  "releaseDate": "2016-05-27",
   "watchCount": 1,
   "studios": [
     "20thCenturyFox",
     "MarvelEntertainment"
-  ]
+  ],
+  "trailer": "Jer8XjMrUB4",
+  "poster": "x_men_7.webp"
 }

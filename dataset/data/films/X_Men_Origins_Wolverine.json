@@ -126,23 +126,20 @@
   ],
   "budget": 150000000,
   "boxOffice": 373000000,
-  "media": [
-    {
-      "poster": "x_men_4.webp",
-      "trailer": "QojV7s3UTu0"
-    }
-  ],
   "rating": 1,
   "description": [
-    "The early years of James Logan, featuring his rivalry with his brother Victor Creed, his service in the special forces team Weapon X, and his experimentation into the metal-lined mutant Wolverine."
+    {
+      "title": null,
+      "text": "The early years of James Logan, featuring his rivalry with his brother Victor Creed, his service in the special forces team Weapon X, and his experimentation into the metal-lined mutant Wolverine."
+    }
   ],
   "chaptersId": "39322de8cb5cb1b16fcafb89",
-  "releaseDate": [
-    "2009-05-01"
-  ],
+  "releaseDate": "2009-05-01",
   "watchCount": 3,
   "studios": [
     "20thCenturyFox",
     "MarvelEntertainment"
-  ]
+  ],
+  "trailer": "QojV7s3UTu0",
+  "poster": "x_men_4.webp"
 }

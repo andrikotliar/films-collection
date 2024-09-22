@@ -147,22 +147,19 @@
     }
   ],
   "boxOffice": 364000000,
-  "media": [
-    {
-      "poster": "tenet.webp",
-      "trailer": "AZGcmvrTX9M"
-    }
-  ],
   "rating": 1,
   "description": [
-    "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time."
+    {
+      "title": null,
+      "text": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time."
+    }
   ],
-  "releaseDate": [
-    "2020-08-26"
-  ],
+  "releaseDate": "2020-08-26",
   "watchCount": 1,
   "studios": [
     "WarnerBros",
     "Syncopy"
-  ]
+  ],
+  "trailer": "AZGcmvrTX9M",
+  "poster": "tenet.webp"
 }

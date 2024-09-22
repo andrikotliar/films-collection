@@ -121,22 +121,19 @@
     }
   ],
   "boxOffice": 341000000,
-  "media": [
-    {
-      "poster": "quiet_place.webp",
-      "trailer": "WR7cc5t7tv8"
-    }
-  ],
   "rating": 2,
   "description": [
-    "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing."
+    {
+      "title": null,
+      "text": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing."
+    }
   ],
   "chaptersId": "1c30dbe27f9fe9ce1656406b",
-  "releaseDate": [
-    "2018-04-06"
-  ],
+  "releaseDate": "2018-04-06",
   "watchCount": 1,
   "studios": [
     "Paramount"
-  ]
+  ],
+  "trailer": "WR7cc5t7tv8",
+  "poster": "quiet_place.webp"
 }

@@ -121,21 +121,18 @@
   ],
   "budget": 15000000,
   "boxOffice": 98000000,
-  "media": [
-    {
-      "poster": "predator.webp",
-      "trailer": "_1wDBNHYDv8"
-    }
-  ],
   "rating": 1,
   "description": [
-    "A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior."
+    {
+      "title": null,
+      "text": "A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior."
+    }
   ],
-  "releaseDate": [
-    "1987-06-12"
-  ],
+  "releaseDate": "1987-06-12",
   "watchCount": 2,
   "studios": [
     "20thCenturyFox"
-  ]
+  ],
+  "trailer": "_1wDBNHYDv8",
+  "poster": "predator.webp"
 }

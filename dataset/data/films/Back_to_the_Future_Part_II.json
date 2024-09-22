@@ -106,22 +106,19 @@
     }
   ],
   "boxOffice": 332000000,
-  "media": [
-    {
-      "poster": "back_to_the_future_2.webp",
-      "trailer": "MdENmefJRpw"
-    }
-  ],
   "rating": 3,
   "description": [
-    "After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip."
+    {
+      "title": null,
+      "text": "After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip."
+    }
   ],
   "chaptersId": "cb583126d928731112ea5595",
-  "releaseDate": [
-    "1989-11-22"
-  ],
+  "releaseDate": "1989-11-22",
   "watchCount": 10,
   "studios": [
     "Universal"
-  ]
+  ],
+  "trailer": "MdENmefJRpw",
+  "poster": "back_to_the_future_2.webp"
 }

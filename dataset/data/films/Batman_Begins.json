@@ -162,23 +162,20 @@
     }
   ],
   "boxOffice": 375000000,
-  "media": [
-    {
-      "poster": "batman_1.webp",
-      "trailer": "neY2xVmOfUM"
-    }
-  ],
   "rating": 2,
   "description": [
-    "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption."
+    {
+      "title": null,
+      "text": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption."
+    }
   ],
   "chaptersId": "c4d28635d7656ca68d38e43c",
-  "releaseDate": [
-    "2005-06-15"
-  ],
+  "releaseDate": "2005-06-15",
   "watchCount": 2,
   "studios": [
     "WarnerBros",
     "Legendary"
-  ]
+  ],
+  "trailer": "neY2xVmOfUM",
+  "poster": "batman_1.webp"
 }

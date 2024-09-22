@@ -93,21 +93,18 @@
   ],
   "budget": 100000000,
   "boxOffice": 167000000,
-  "media": [
-    {
-      "poster": "unstoppable.webp",
-      "trailer": "fyuoIqeL-bc"
-    }
-  ],
   "rating": 2,
   "description": [
-    "With an unmanned, half-mile-long freight train barreling toward a city, a veteran engineer and a young conductor race against the clock to prevent a catastrophe."
+    {
+      "title": null,
+      "text": "With an unmanned, half-mile-long freight train barreling toward a city, a veteran engineer and a young conductor race against the clock to prevent a catastrophe."
+    }
   ],
-  "releaseDate": [
-    "2010-11-12"
-  ],
+  "releaseDate": "2010-11-12",
   "watchCount": 1,
   "studios": [
     "20thCenturyFox"
-  ]
+  ],
+  "trailer": "fyuoIqeL-bc",
+  "poster": "unstoppable.webp"
 }

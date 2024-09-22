@@ -119,22 +119,19 @@
   ],
   "budget": 14000000,
   "boxOffice": 14000000,
-  "media": [
-    {
-      "poster": "d13_2.webp",
-      "trailer": "jDDFNpj9xBQ"
-    }
-  ],
   "rating": 2,
   "description": [
-    "Damien and Leito return to District 13 on a mission to bring peace to the troubled sector that is controlled by five different gang bosses, before the city's secret services take drastic measures to solve the problem."
+    {
+      "title": null,
+      "text": "Damien and Leito return to District 13 on a mission to bring peace to the troubled sector that is controlled by five different gang bosses, before the city's secret services take drastic measures to solve the problem."
+    }
   ],
   "chaptersId": "009b92287c5919f2d6278e48",
-  "releaseDate": [
-    "2009-02-18"
-  ],
+  "releaseDate": "2009-02-18",
   "watchCount": 3,
   "studios": [
     "EuropaCorp"
-  ]
+  ],
+  "trailer": "jDDFNpj9xBQ",
+  "poster": "d13_2.webp"
 }

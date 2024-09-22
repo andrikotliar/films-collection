@@ -140,23 +140,20 @@
     }
   ],
   "boxOffice": 822000000,
-  "media": [
-    {
-      "poster": "wonder_woman.webp",
-      "trailer": "1Q8fG0TtVAY"
-    }
-  ],
   "rating": 2,
   "description": [
-    "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny."
+    {
+      "title": null,
+      "text": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny."
+    }
   ],
   "chaptersId": "d923cc31cdf721e7ddeb1616",
-  "releaseDate": [
-    "2017-06-02"
-  ],
+  "releaseDate": "2017-06-02",
   "watchCount": 2,
   "studios": [
     "DCEntertainment",
     "WarnerBros"
-  ]
+  ],
+  "trailer": "1Q8fG0TtVAY",
+  "poster": "wonder_woman.webp"
 }

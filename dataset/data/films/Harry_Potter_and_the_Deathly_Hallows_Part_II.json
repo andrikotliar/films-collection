@@ -146,22 +146,19 @@
     }
   ],
   "boxOffice": 1340000000,
-  "media": [
-    {
-      "poster": "harry_potter_8.webp",
-      "trailer": "5NYt1qirBWg"
-    }
-  ],
   "rating": 3,
   "description": [
-    "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts."
+    {
+      "title": null,
+      "text": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts."
+    }
   ],
   "chaptersId": "21fe420121bd2018a3c76f32",
-  "releaseDate": [
-    "2011-07-15"
-  ],
+  "releaseDate": "2011-07-15",
   "watchCount": 4,
   "studios": [
     "WarnerBros"
-  ]
+  ],
+  "trailer": "5NYt1qirBWg",
+  "poster": "harry_potter_8.webp"
 }

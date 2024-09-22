@@ -113,21 +113,18 @@
     }
   ],
   "boxOffice": 263000000,
-  "media": [
-    {
-      "poster": "jumanji_1.webp",
-      "trailer": "5p18zqZmeiI"
-    }
-  ],
   "rating": 1,
   "description": [
-    "When two kids find and play a magical board game, they release a man trapped for decades in it and a host of dangers that can only be stopped by finishing the game."
+    {
+      "title": null,
+      "text": "When two kids find and play a magical board game, they release a man trapped for decades in it and a host of dangers that can only be stopped by finishing the game."
+    }
   ],
-  "releaseDate": [
-    "1995-12-15"
-  ],
+  "releaseDate": "1995-12-15",
   "watchCount": 5,
   "studios": [
     "Tristar"
-  ]
+  ],
+  "trailer": "5p18zqZmeiI",
+  "poster": "jumanji_1.webp"
 }

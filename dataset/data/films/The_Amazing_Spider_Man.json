@@ -125,23 +125,20 @@
   ],
   "budget": 230000000,
   "boxOffice": 758000000,
-  "media": [
-    {
-      "poster": "amazing_spider_man_1.webp",
-      "trailer": "-tnxzJ0SSOw"
-    }
-  ],
   "rating": 2,
   "description": [
-    "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe."
+    {
+      "title": null,
+      "text": "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe."
+    }
   ],
   "chaptersId": "81148d562ca25a0cff08d571",
-  "releaseDate": [
-    "2012-07-03"
-  ],
+  "releaseDate": "2012-07-03",
   "watchCount": 1,
   "studios": [
     "Columbia",
     "MarvelEntertainment"
-  ]
+  ],
+  "trailer": "-tnxzJ0SSOw",
+  "poster": "amazing_spider_man_1.webp"
 }

@@ -138,23 +138,20 @@
     }
   ],
   "boxOffice": 747000000,
-  "media": [
-    {
-      "poster": "suicide_squad.webp",
-      "trailer": "CmRih_VtVAs"
-    }
-  ],
   "rating": 1,
   "description": [
-    "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse."
+    {
+      "title": null,
+      "text": "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse."
+    }
   ],
   "chaptersId": "d923cc31cdf721e7ddeb1616",
-  "releaseDate": [
-    "2016-08-05"
-  ],
+  "releaseDate": "2016-08-05",
   "watchCount": 1,
   "studios": [
     "DCEntertainment",
     "WarnerBros"
-  ]
+  ],
+  "trailer": "CmRih_VtVAs",
+  "poster": "suicide_squad.webp"
 }

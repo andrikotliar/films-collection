@@ -117,21 +117,18 @@
   ],
   "budget": 120000000,
   "boxOffice": 347000000,
-  "media": [
-    {
-      "poster": "i_robot.webp",
-      "trailer": "rL6RRIOZyCM"
-    }
-  ],
   "rating": 3,
   "description": [
-    "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity."
+    {
+      "title": null,
+      "text": "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity."
+    }
   ],
-  "releaseDate": [
-    "2004-07-16"
-  ],
+  "releaseDate": "2004-07-16",
   "watchCount": 5,
   "studios": [
     "20thCenturyFox"
-  ]
+  ],
+  "trailer": "rL6RRIOZyCM",
+  "poster": "i_robot.webp"
 }

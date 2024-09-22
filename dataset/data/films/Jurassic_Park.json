@@ -160,23 +160,20 @@
     }
   ],
   "boxOffice": 1030000000,
-  "media": [
-    {
-      "poster": "jurassic_park_1.webp",
-      "trailer": "QWBKEmWWL38"
-    }
-  ],
   "rating": 2,
   "description": [
-    "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose."
+    {
+      "title": null,
+      "text": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose."
+    }
   ],
   "chaptersId": "49f8964ab8146674fa031483",
-  "releaseDate": [
-    "1993-06-11"
-  ],
+  "releaseDate": "1993-06-11",
   "watchCount": 3,
   "studios": [
     "Universal",
     "Amblin"
-  ]
+  ],
+  "trailer": "QWBKEmWWL38",
+  "poster": "jurassic_park_1.webp"
 }

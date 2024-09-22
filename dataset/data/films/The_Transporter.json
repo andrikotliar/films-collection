@@ -102,22 +102,19 @@
   ],
   "budget": 21000000,
   "boxOffice": 44000000,
-  "media": [
-    {
-      "poster": "transporter_1.webp",
-      "trailer": "0poXFSvX0_4"
-    }
-  ],
   "rating": 2,
   "description": [
-    "Frank is hired to \"transport\" packages for unknown clients and has made a very good living doing so. But when asked to move a package that begins moving, complications arise."
+    {
+      "title": null,
+      "text": "Frank is hired to \"transport\" packages for unknown clients and has made a very good living doing so. But when asked to move a package that begins moving, complications arise."
+    }
   ],
   "chaptersId": "25c70902689af0504af43bea",
-  "releaseDate": [
-    "2002-10-11"
-  ],
+  "releaseDate": "2002-10-11",
   "watchCount": 5,
   "studios": [
     "EuropaCorp"
-  ]
+  ],
+  "trailer": "0poXFSvX0_4",
+  "poster": "transporter_1.webp"
 }

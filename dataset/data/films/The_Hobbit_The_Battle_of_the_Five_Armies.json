@@ -231,22 +231,19 @@
     }
   ],
   "boxOffice": 956000000,
-  "media": [
-    {
-      "poster": "middle_earth_3.webp",
-      "trailer": "iVAgTiBrrDA"
-    }
-  ],
   "rating": 2,
   "description": [
-    "Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness."
+    {
+      "title": null,
+      "text": "Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness."
+    }
   ],
   "chaptersId": "148895975f95315e06a7cc17",
-  "releaseDate": [
-    "2014-12-17"
-  ],
+  "releaseDate": "2014-12-17",
   "watchCount": 1,
   "studios": [
     "NewLineCinema"
-  ]
+  ],
+  "trailer": "iVAgTiBrrDA",
+  "poster": "middle_earth_3.webp"
 }

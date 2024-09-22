@@ -129,21 +129,18 @@
   ],
   "budget": 306000000,
   "boxOffice": 284000000,
-  "media": [
-    {
-      "poster": "john_carter.webp",
-      "trailer": "nlvYKl1fjBI"
-    }
-  ],
   "rating": 1,
   "description": [
-    "Transported to Barsoom, a Civil War vet discovers a barren planet seemingly inhabited by 12-foot tall barbarians. Finding himself prisoner of these creatures, he escapes, only to encounter Woola and a princess in desperate need of a savior."
+    {
+      "title": null,
+      "text": "Transported to Barsoom, a Civil War vet discovers a barren planet seemingly inhabited by 12-foot tall barbarians. Finding himself prisoner of these creatures, he escapes, only to encounter Woola and a princess in desperate need of a savior."
+    }
   ],
-  "releaseDate": [
-    "2012-03-09"
-  ],
+  "releaseDate": "2012-03-09",
   "watchCount": 3,
   "studios": [
     "WaltDisney"
-  ]
+  ],
+  "trailer": "nlvYKl1fjBI",
+  "poster": "john_carter.webp"
 }

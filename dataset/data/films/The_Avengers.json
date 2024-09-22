@@ -180,23 +180,20 @@
     }
   ],
   "boxOffice": 1520000000,
-  "media": [
-    {
-      "poster": "avengers_1.webp",
-      "trailer": "hIR8Ar-Z4hw"
-    }
-  ],
   "rating": 2,
   "description": [
-    "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
+    {
+      "title": null,
+      "text": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
+    }
   ],
   "chaptersId": "07bf3e15ce289b98963660c5",
-  "releaseDate": [
-    "2012-05-04"
-  ],
+  "releaseDate": "2012-05-04",
   "watchCount": 5,
   "studios": [
     "WaltDisney",
     "MarvelStudios"
-  ]
+  ],
+  "trailer": "hIR8Ar-Z4hw",
+  "poster": "avengers_1.webp"
 }
