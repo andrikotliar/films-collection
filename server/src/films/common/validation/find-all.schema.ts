@@ -46,6 +46,15 @@ const findAllSchema: FastifySchema = {
       endDate: {
         type: 'string',
       },
+      duration: {
+        type: 'number',
+      },
+      watchCount: {
+        type: 'number',
+      },
+      rating: {
+        type: 'number',
+      },
     },
     required: ['limit', 'skip'],
     additionalProperties: false,

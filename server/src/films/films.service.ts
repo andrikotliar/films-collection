@@ -123,6 +123,11 @@ class FilmsService {
         continue;
       }
 
+      if (key === 'collections') {
+        parsedFilters['collections.key'] = value;
+        continue;
+      }
+
       if (Array.isArray(value)) {
         parsedFilters[key] = {
           $in: value,
