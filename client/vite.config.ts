@@ -8,12 +8,6 @@ export default defineConfig({
     port: 3030,
     host: true,
     open: true,
-    proxy: {
-      '/api': 'http://localhost:5000',
-    },
-  },
-  build: {
-    outDir: '../server/dist/public',
   },
   plugins: [react(), tsconfigPaths(), svgr()],
 });

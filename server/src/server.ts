@@ -1,8 +1,8 @@
 import fastify from 'fastify';
+import fastifyCors from '@fastify/cors';
 import { env } from './config/env.js';
 import { connectDatabase } from './config/database.js';
 import { initRoutes } from './init-routes.js';
-import { initStatic } from './init-static.js';
 
 const app = fastify({
   logger: env.NODE_ENV === 'development',
@@ -13,8 +13,12 @@ const app = fastify({
   },
 });
 
+app.register(fastifyCors, {
+  origin: env.FRONTEND_ORIGIN,
+  credentials: true,
+});
+
 initRoutes(app);
-initStatic(app);
 
 const startServer = async () => {
   try {
