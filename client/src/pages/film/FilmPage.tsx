@@ -68,7 +68,7 @@ const FilmPage = () => {
         </Section>
       )}
 
-      {film.chapters?.length && (
+      {film.chapters && film.chapters.length !== 0 && (
         <Section>
           <SectionTitle>Chapters</SectionTitle>
           <Chapters data={film.chapters} filmId={film._id} key={film._id} />

@@ -1,4 +1,4 @@
-import { RootFilterQuery } from 'mongoose';
+import { RootFilterQuery, Types } from 'mongoose';
 import { FilmsModel } from './films.model.js';
 import {
   DbQueryFilter,
@@ -95,6 +95,10 @@ class FilmsService {
     const chaptersService = new ChaptersService();
     const chapters = await chaptersService.findChapters(id);
 
+    if (!chapters) {
+      return [];
+    }
+
     const chaptersList = await FilmsModel.find(
       {
         _id: {
@@ -104,7 +108,11 @@ class FilmsService {
       { _id: 1, title: 1, poster: 1 },
     );
 
-    return chaptersList;
+    const orderedList = chapters.list.map((id) =>
+      chaptersList.find((chapter) => chapter._id.toString() === id),
+    );
+
+    return orderedList;
   }
 
   #parseFilters(plainFilters: Partial<FindAllFilters>) {

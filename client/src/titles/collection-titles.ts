@@ -39,8 +39,15 @@ const topsCollectionTitles = {
   [Collection.TOP_10]: 'Top 10',
 };
 
+const collectionTitles = {
+  ...generalCollectionTitles,
+  ...cinematicUniversesCollectionTitles,
+  ...topsCollectionTitles,
+};
+
 export {
   generalCollectionTitles,
   cinematicUniversesCollectionTitles,
   topsCollectionTitles,
+  collectionTitles,
 };
