@@ -131,8 +131,6 @@ class ApiClient {
 
     const queryString = params.toString();
 
-    console.log(queryString);
-
     return `${path}?${queryString}`;
   }
 }

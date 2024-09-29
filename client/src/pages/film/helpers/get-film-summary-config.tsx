@@ -50,11 +50,11 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
       ),
     },
     {
-      id: 'production',
+      id: 'studios',
       title: 'Production studios',
       content: (
         <TagLinksGroup
-          basePath="production"
+          basePath="studios"
           items={film.studios}
           variant="gray"
           titles={studioTitles}

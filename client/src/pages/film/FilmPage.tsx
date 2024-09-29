@@ -13,6 +13,7 @@ import {
   Chapters,
   NavigationRow,
   Section,
+  SeriesStatsSection,
 } from './components';
 
 const FilmPage = () => {
@@ -37,6 +38,13 @@ const FilmPage = () => {
       <NavigationRow />
 
       <SummarySection film={film} />
+
+      {film.seriesExtension && (
+        <Section>
+          <SectionTitle>Series Details</SectionTitle>
+          <SeriesStatsSection data={film.seriesExtension} />
+        </Section>
+      )}
 
       <Section>
         <SectionTitle>Crew</SectionTitle>

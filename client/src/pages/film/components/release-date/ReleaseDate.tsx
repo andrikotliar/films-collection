@@ -1,4 +1,4 @@
-import { buildQueryLink } from '@/helpers';
+import { buildQueryLink, getFormattedDate } from '@/helpers';
 import { FC } from 'react';
 import { TagLink } from '../tag-link/TagLink';
 
@@ -8,11 +8,7 @@ type ReleaseDateProps = {
 
 const ReleaseDate: FC<ReleaseDateProps> = ({ value }) => {
   const releaseDate = new Date(value);
-  const formattedDate = releaseDate.toLocaleString('en-US', {
-    month: 'long',
-    day: '2-digit',
-    year: 'numeric',
-  });
+  const formattedDate = getFormattedDate(releaseDate);
 
   const startDate = `${releaseDate.getFullYear()}-01-01`;
   const endDate = `${releaseDate.getFullYear()}-12-31`;

@@ -9,3 +9,4 @@ export { SeasonSelect } from './season-select/SeasonSelect';
 export { Chapters } from './chapters/Chapters';
 export { NavigationRow } from './navigation-row/NavigationRow';
 export { Section } from './section/Section';
+export { SeriesStatsSection } from './series-stats-section/SeriesStatsSection';

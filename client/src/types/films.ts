@@ -50,6 +50,8 @@ type SeasonType = {
   title: string;
   number: number;
   episodesCount: number;
+  releaseDate: string;
+  trailer: string;
 };
 
 type SeriesExtension = {
