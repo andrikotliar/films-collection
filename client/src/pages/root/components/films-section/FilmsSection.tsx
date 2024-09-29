@@ -26,7 +26,9 @@ const FilmsSection = () => {
   return (
     <div className={styles.filmsSection}>
       <FilmsGrid films={data.films} />
-      <Pagination total={data.total} />
+      <div className={styles.paginationWrapper}>
+        <Pagination total={data.total} />
+      </div>
     </div>
   );
 };

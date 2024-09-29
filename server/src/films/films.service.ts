@@ -1,4 +1,4 @@
-import { RootFilterQuery } from 'mongoose';
+import mongoose, { RootFilterQuery } from 'mongoose';
 import { FilmsModel } from './films.model.js';
 import { FindAllFilters, FindAllQueries } from './common/index.js';
 import { ChaptersService } from '../chapters/chapters.service.js';
@@ -8,6 +8,8 @@ class FilmsService {
     const { limit, skip, ...filters } = queries;
 
     const parsedFilters = this.#parseFilters(filters);
+
+    mongoose.set('debug', true);
 
     const films = await FilmsModel.find(
       parsedFilters,
@@ -113,11 +115,11 @@ class FilmsService {
         }
 
         if (key === 'startDate' && typeof value === 'string') {
-          parsedFilters.releaseDate.$gte = new Date(value);
+          parsedFilters.releaseDate.$gte = value;
         }
 
         if (key === 'endDate' && typeof value === 'string') {
-          parsedFilters.releaseDate.$lte = new Date(value);
+          parsedFilters.releaseDate.$lte = value;
         }
 
         continue;

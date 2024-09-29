@@ -6,6 +6,10 @@
   gap: 20px;
 }
 
+.paginationWrapper {
+  margin-top: auto;
+}
+
 @media (max-width: 785px) {
   .filmsSection {
     padding-bottom: 80px;
