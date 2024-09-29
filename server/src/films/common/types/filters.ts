@@ -1,12 +1,37 @@
 type FindAllFilters = {
   type: string[];
-  genre: string[];
+  genres: string[];
   startDate: string;
   endDate: string;
-  country: string[];
-  studio: string[];
+  countries: string[];
+  studios: string[];
   isLatestAdded: boolean;
-  collection: string[];
+  collections: string[];
+  episodesTotal: number;
+  watchCount?: number;
+  rating?: number;
+};
+
+type ArrayFilter<T = string> = {
+  $in: T[];
+};
+
+type DbQueryFilter = {
+  type?: ArrayFilter;
+  genres?: ArrayFilter;
+  releaseDate?: {
+    $gte?: string;
+    $lte?: string;
+  };
+  countries?: ArrayFilter;
+  studios?: ArrayFilter;
+  ['collections.key']?: ArrayFilter;
+  ['seriesExtension.episodesTotal']?: number;
+  ['seriesExtension.seasons']?: {
+    $size: number;
+  };
+  watchCount?: number;
+  rating?: number;
 };
 
 type FindAllQueries = Partial<FindAllFilters> & {
@@ -27,4 +52,5 @@ export type {
   FindAllFilters,
   FindOneParams,
   FindBySearchString,
+  DbQueryFilter,
 };

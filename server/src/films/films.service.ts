@@ -1,6 +1,10 @@
 import mongoose, { RootFilterQuery } from 'mongoose';
 import { FilmsModel } from './films.model.js';
-import { FindAllFilters, FindAllQueries } from './common/index.js';
+import {
+  DbQueryFilter,
+  FindAllFilters,
+  FindAllQueries,
+} from './common/index.js';
 import { ChaptersService } from '../chapters/chapters.service.js';
 
 class FilmsService {
@@ -106,42 +110,54 @@ class FilmsService {
   }
 
   #parseFilters(plainFilters: Partial<FindAllFilters>) {
-    const parsedFilters: RootFilterQuery<FindAllFilters> = {};
+    const filters: RootFilterQuery<DbQueryFilter> = {};
 
     for (const [key, value] of Object.entries(plainFilters)) {
       if (key === 'startDate' || key === 'endDate') {
-        if (!parsedFilters.releaseDate) {
-          parsedFilters.releaseDate = {};
+        if (!filters.releaseDate) {
+          filters.releaseDate = {};
         }
 
         if (key === 'startDate' && typeof value === 'string') {
-          parsedFilters.releaseDate.$gte = value;
+          filters.releaseDate.$gte = value;
         }
 
         if (key === 'endDate' && typeof value === 'string') {
-          parsedFilters.releaseDate.$lte = value;
+          filters.releaseDate.$lte = value;
         }
 
         continue;
       }
 
       if (key === 'collections') {
-        parsedFilters['collections.key'] = value;
+        filters['collections.key'] = value;
+        continue;
+      }
+
+      if (key === 'seasonsTotal') {
+        filters['seriesExtension.seasons'] = {
+          $size: value,
+        };
+        continue;
+      }
+
+      if (key === 'episodesTotal') {
+        filters['seriesExtension.episodesTotal'] = value;
         continue;
       }
 
       if (Array.isArray(value)) {
-        parsedFilters[key] = {
+        filters[key] = {
           $in: value,
         };
 
         continue;
       }
 
-      parsedFilters[key] = value;
+      filters[key] = value;
     }
 
-    return parsedFilters;
+    return filters;
   }
 }
 

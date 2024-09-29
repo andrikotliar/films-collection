@@ -17,19 +17,19 @@ const SeriesStatsSection: FC<SeriesStatsSectionProps> = ({ data }) => {
       <div className={styles.general}>
         <TagLink
           path={buildQueryLink({
-            seasonsCount: data.seasons.length,
+            seasonsTotal: data.seasons.length,
           })}
           variant="blue"
         >
-          Seasons Count: {data.seasons.length}
+          Seasons Total: {data.seasons.length}
         </TagLink>
         <TagLink
           path={buildQueryLink({
-            seasonsCount: data.seasons.length,
+            episodesTotal: data.episodesTotal,
           })}
           variant="blue"
         >
-          Episodes Count: {data.episodesTotal}
+          Episodes Total: {data.episodesTotal}
         </TagLink>
       </div>
       <Scrollable className={styles.seasons}>

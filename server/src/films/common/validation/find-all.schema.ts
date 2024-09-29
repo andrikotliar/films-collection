@@ -55,6 +55,12 @@ const findAllSchema: FastifySchema = {
       rating: {
         type: 'number',
       },
+      seasonsTotal: {
+        type: 'number',
+      },
+      episodesTotal: {
+        type: 'number',
+      },
     },
     required: ['limit', 'skip'],
     additionalProperties: false,
