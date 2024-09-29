@@ -25,13 +25,13 @@ type DbQueryFilter = {
   };
   countries?: ArrayFilter;
   studios?: ArrayFilter;
+  watchCount?: number;
+  rating?: number;
   ['collections.key']?: ArrayFilter;
   ['seriesExtension.episodesTotal']?: number;
   ['seriesExtension.seasons']?: {
     $size: number;
   };
-  watchCount?: number;
-  rating?: number;
 };
 
 type FindAllQueries = Partial<FindAllFilters> & {

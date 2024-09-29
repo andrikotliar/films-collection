@@ -16,7 +16,8 @@ const FilterOptions: FC<FilterOptionsProps> = ({ filter }) => {
           {filter.options.map((option, index) => (
             <FormCheckbox
               type={filter.inputType}
-              value={option}
+              label={option.title}
+              value={option.filter}
               name={filter.property}
               key={index}
             />

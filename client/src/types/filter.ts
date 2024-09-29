@@ -1,8 +1,13 @@
 type FilterKeys = 'general' | 'collections';
 
+type FilterOption = {
+  filter: string;
+  title: string;
+};
+
 type CheckboxFilter = {
   type: 'checkmark';
-  options: (string | number)[];
+  options: FilterOption[];
   inputType: 'checkbox' | 'radio';
   property: string;
 };
@@ -30,4 +35,4 @@ type Filters = {
   [key in FilterKeys]: FilterItem[];
 };
 
-export type { FilterItem, Filters, DateFilter };
+export type { FilterItem, Filters, DateFilter, FilterOption };

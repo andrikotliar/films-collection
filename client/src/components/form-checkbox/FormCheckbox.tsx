@@ -5,12 +5,14 @@ import { useFormContext } from 'react-hook-form';
 
 type FormCheckboxProps = {
   type: 'checkbox' | 'radio';
+  label: string;
   value: string | number;
   name: string;
 };
 
 const FormCheckbox: FC<FormCheckboxProps> = ({
   type = 'checkbox',
+  label,
   value,
   name,
 }) => {
@@ -22,7 +24,7 @@ const FormCheckbox: FC<FormCheckboxProps> = ({
       <div className={styles.iconWrapper}>
         <CheckIcon className={styles.icon} />
       </div>
-      <div className={styles.title}>{value}</div>
+      <div className={styles.title}>{label}</div>
     </label>
   );
 };

@@ -1,4 +1,4 @@
-import mongoose, { RootFilterQuery } from 'mongoose';
+import { RootFilterQuery } from 'mongoose';
 import { FilmsModel } from './films.model.js';
 import {
   DbQueryFilter,
@@ -12,8 +12,6 @@ class FilmsService {
     const { limit, skip, ...filters } = queries;
 
     const parsedFilters = this.#parseFilters(filters);
-
-    mongoose.set('debug', true);
 
     const films = await FilmsModel.find(
       parsedFilters,
