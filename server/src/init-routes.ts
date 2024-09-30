@@ -1,5 +1,5 @@
 import { FastifyInstance } from 'fastify';
-import { registerFilmsRouter } from './films/films.router.js';
+import { registerFilmsRouter } from './films/films.router';
 
 const initRoutes = (app: FastifyInstance) => {
   app.register(

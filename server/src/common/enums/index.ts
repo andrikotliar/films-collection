@@ -1,1 +1,1 @@
-export * from './response-code.js';
+export * from './response-code';

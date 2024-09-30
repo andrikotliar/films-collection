@@ -16,8 +16,8 @@ import {
   SeriesExtension,
   Studio,
   TitleType,
-} from './common/index.js';
-import { ActorModel } from '../actors/actors.model.js';
+} from './common';
+import { ActorModel } from '../actors/actors.model';
 
 const FilmPersonSchema = new Schema<Person>({
   name: {

@@ -1,8 +1,8 @@
 import fastify from 'fastify';
 import fastifyCors from '@fastify/cors';
-import { env } from './config/env.js';
-import { connectDatabase } from './config/database.js';
-import { initRoutes } from './init-routes.js';
+import { env } from './config/env';
+import { connectDatabase } from './config/database';
+import { initRoutes } from './init-routes';
 
 const app = fastify({
   logger: env.NODE_ENV === 'development',

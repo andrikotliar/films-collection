@@ -1,11 +1,7 @@
 import { FastifyRequest, FastifyReply } from 'fastify';
-import { FilmsService } from './films.service.js';
-import {
-  FindAllQueries,
-  FindBySearchString,
-  FindOneParams,
-} from './common/index.js';
-import { ResponseCode } from '../common/index.js';
+import { FilmsService } from './films.service';
+import { FindAllQueries, FindBySearchString, FindOneParams } from './common';
+import { ResponseCode } from '../common';
 
 class FilmsController {
   #filmsService: FilmsService;

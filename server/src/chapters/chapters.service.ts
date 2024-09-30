@@ -1,4 +1,4 @@
-import { ChaptersModel } from './chapters.model.js';
+import { ChaptersModel } from './chapters.model';
 
 class ChaptersService {
   async findChapters(chaptersId: string) {

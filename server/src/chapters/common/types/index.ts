@@ -1,1 +1,1 @@
-export * from './chapter.js';
+export * from './chapter';

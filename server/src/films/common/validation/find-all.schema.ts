@@ -1,5 +1,5 @@
 import { FastifySchema } from 'fastify';
-import { CollectionEnum, TitleType } from '../enums/index.js';
+import { CollectionEnum, TitleType } from '../enums';
 
 const findAllSchema: FastifySchema = {
   querystring: {

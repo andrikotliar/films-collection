@@ -1,2 +1,2 @@
-export * from './find-all.schema.js';
-export * from './find-by-search-string.schema.js';
+export * from './find-all.schema';
+export * from './find-by-search-string.schema';
