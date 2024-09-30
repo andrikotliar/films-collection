@@ -1,22 +1,24 @@
 import { model, Schema } from 'mongoose';
 import {
-  Award,
   AwardType,
   CastType,
-  CollectionEnum,
   CollectionType,
-  Country,
   Crew,
   FilmData,
-  Genre,
   Nomination,
   Person,
-  PersonRole,
   SeasonType,
   SeriesExtension,
+} from './types';
+import {
+  Award,
+  CollectionEnum,
+  Country,
+  Genre,
+  PersonRole,
   Studio,
   TitleType,
-} from './common';
+} from './enums';
 import { ActorModel } from '../actors/actors.model';
 
 const FilmPersonSchema = new Schema<Person>({

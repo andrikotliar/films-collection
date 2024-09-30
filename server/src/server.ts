@@ -1,7 +1,6 @@
 import fastify from 'fastify';
 import fastifyCors from '@fastify/cors';
-import { env } from './config/env';
-import { connectDatabase } from './config/database';
+import { env, connectDatabase } from './config';
 import { initRoutes } from './init-routes';
 
 const app = fastify({

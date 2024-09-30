@@ -1,5 +1,5 @@
 import { RootFilterQuery } from 'mongoose';
-import { DbQueryFilter, FindAllFilters } from '../common';
+import { DbQueryFilter, FindAllFilters } from '../types';
 
 const getArrayFilter = (values: string[]) => {
   return {

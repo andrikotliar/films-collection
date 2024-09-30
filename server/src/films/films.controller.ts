@@ -1,6 +1,6 @@
 import { FastifyRequest, FastifyReply } from 'fastify';
 import { FilmsService } from './films.service';
-import { FindAllQueries, FindBySearchString, FindOneParams } from './common';
+import { FindAllQueries, FindBySearchString, FindOneParams } from './types';
 import { ResponseCode } from '../common';
 
 class FilmsController {

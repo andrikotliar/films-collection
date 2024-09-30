@@ -1,6 +1,6 @@
 import { FastifyInstance } from 'fastify';
 import { FilmsController } from './films.controller';
-import { findAllSchema, findBySearchStringSchema } from './common';
+import { findAllSchema, findBySearchStringSchema } from './validation';
 
 const registerFilmsRouter = (app: FastifyInstance) => {
   const filmsController = new FilmsController();

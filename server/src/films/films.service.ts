@@ -1,9 +1,9 @@
 import { FilmsModel } from './films.model';
-import { FindAllQueries } from './common';
+import { FindAllQueries } from './types';
 import { ChaptersService } from '../chapters/chapters.service';
 import { mapFilters } from './helpers';
-import { ActorsService } from 'src/actors/actors.service';
-import { ActorType } from 'src/actors/common';
+import { ActorsService } from '../actors/actors.service';
+import { ActorType } from '../actors/types';
 
 class FilmsService {
   async getFilteredFilms(queries: FindAllQueries) {
