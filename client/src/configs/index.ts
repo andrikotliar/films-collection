@@ -1,3 +1,3 @@
-export { filtersConfig } from './filters';
-export { mainMenu } from './main-menu';
-export { filePaths } from './file-paths';
+export { filtersConfig } from './filters-config';
+export { mainMenu } from './main-menu-config';
+export { filePaths } from './file-paths-config';

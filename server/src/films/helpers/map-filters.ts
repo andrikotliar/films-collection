@@ -10,7 +10,7 @@ const getArrayFilter = (values: string[]) => {
 const mapFilters = (plainFilters: Partial<FindAllFilters>) => {
   const {
     genres,
-    collections,
+    collection,
     studios,
     countries,
     type,
@@ -51,8 +51,8 @@ const mapFilters = (plainFilters: Partial<FindAllFilters>) => {
     filters.countries = getArrayFilter(countries);
   }
 
-  if (collections) {
-    filters['collections.key'] = getArrayFilter(collections);
+  if (collection) {
+    filters['collections.key'] = collection;
   }
 
   if (watchCount) {

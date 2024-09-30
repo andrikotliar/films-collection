@@ -2,6 +2,8 @@ import { FilmsModel } from './films.model.js';
 import { FindAllQueries } from './common/index.js';
 import { ChaptersService } from '../chapters/chapters.service.js';
 import { mapFilters } from './helpers/index.js';
+import { ActorsService } from 'src/actors/actors.service';
+import { ActorType } from 'src/actors/common/index.js';
 
 class FilmsService {
   async getFilteredFilms(queries: FindAllQueries) {
@@ -17,7 +19,9 @@ class FilmsService {
 
     const total = await FilmsModel.countDocuments(parsedFilters);
 
-    return { films, total };
+    const additionalInfo = await this.#populateAdditionalData(queries);
+
+    return { films, total, additionalInfo };
   }
 
   async getOneFilm(id: string) {
@@ -77,6 +81,39 @@ class FilmsService {
       },
       { _id: 1, title: 1, poster: 1, genres: 1, releaseDate: 1 },
     );
+  }
+
+  async #populateAdditionalData(query: FindAllQueries) {
+    const { actorId, personName, personRole, collection } = query;
+
+    if (actorId) {
+      const actorsService = new ActorsService();
+      const actorData = await actorsService.getActorById(actorId).lean();
+
+      return {
+        type: 'actor',
+        data: actorData as ActorType,
+      };
+    }
+
+    if (personName && personRole) {
+      return {
+        type: 'crew',
+        data: {
+          role: personRole,
+          name: personName,
+        },
+      };
+    }
+
+    if (collection) {
+      return {
+        type: 'collection',
+        data: collection,
+      };
+    }
+
+    return null;
   }
 
   #getFormattedDate(date: Date) {

@@ -1,5 +1,5 @@
 import { FastifySchema } from 'fastify';
-import { TitleType } from '../enums';
+import { CollectionEnum, TitleType } from '../enums/index.js';
 
 const findAllSchema: FastifySchema = {
   querystring: {
@@ -35,11 +35,9 @@ const findAllSchema: FastifySchema = {
           type: 'string',
         },
       },
-      collections: {
-        type: 'array',
-        items: {
-          type: 'string',
-        },
+      collection: {
+        type: 'string',
+        enum: Object.values(CollectionEnum),
       },
       startDate: {
         type: 'string',

@@ -5,7 +5,7 @@ type FindAllFilters = {
   endDate: string;
   countries: string[];
   studios: string[];
-  collections: string[];
+  collection: string;
   seasonsTotal: number;
   episodesTotal: number;
   watchCount: number;

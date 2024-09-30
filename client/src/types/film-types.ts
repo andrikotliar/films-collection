@@ -102,9 +102,33 @@ type FilmSearchResult = Pick<
   '_id' | 'title' | 'genres' | 'poster' | 'releaseDate'
 >;
 
+type AdditionalActorData = {
+  type: 'actor';
+  data: Actor;
+};
+
+type AdditionalCrewInfo = {
+  type: 'crew';
+  data: {
+    role: PersonRole;
+    name: string;
+  };
+};
+
+type AdditionalCollectionInfo = {
+  type: 'collection';
+  data: CollectionEnum;
+};
+
+type AdditionalInfo =
+  | AdditionalActorData
+  | AdditionalCrewInfo
+  | AdditionalCollectionInfo;
+
 type FilmsListResponse = {
   films: FilmsListItem[];
   total: number;
+  additionalInfo: AdditionalInfo | null;
 };
 
 type FilmsListPagination = {
@@ -141,4 +165,5 @@ export type {
   FilmLinkItem,
   RandomFilmsList,
   FilmSearchResult,
+  AdditionalInfo,
 };
