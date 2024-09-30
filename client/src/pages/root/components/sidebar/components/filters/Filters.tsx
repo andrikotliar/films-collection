@@ -2,7 +2,7 @@ import styles from './Filters.module.css';
 import { useContext, useEffect } from 'react';
 import { filtersConfig } from '@/configs';
 import { useForm, FormProvider } from 'react-hook-form';
-import { Button, Tabs } from '@/components';
+import { Button, Scrollable } from '@/components';
 import { SidebarContext } from '@/pages/root/context';
 import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
@@ -46,10 +46,6 @@ const Filters = () => {
   const submitFilter = (data: FormValues) => {
     const filledOptions = filterValues(data);
 
-    if (filledOptions.collections === 'Any') {
-      delete filledOptions.collections;
-    }
-
     updateFilter({
       ...filledOptions,
       skip: 0,
@@ -81,31 +77,11 @@ const Filters = () => {
         onSubmit={methods.handleSubmit(submitFilter)}
         className={styles.filters}
       >
-        <Tabs
-          defaultTabIndex={0}
-          components={[
-            {
-              label: 'General',
-              content: (
-                <div className={styles.filterGroups}>
-                  {filtersConfig.general.map((filter) => (
-                    <FilterOptions filter={filter} key={filter.title} />
-                  ))}
-                </div>
-              ),
-            },
-            {
-              label: 'Collections',
-              content: (
-                <div className={styles.filterGroups}>
-                  {filtersConfig.collections.map((filter) => (
-                    <FilterOptions filter={filter} key={filter.title} />
-                  ))}
-                </div>
-              ),
-            },
-          ]}
-        />
+        <Scrollable className={styles.filterGroups}>
+          {filtersConfig.map((filter) => (
+            <FilterOptions filter={filter} key={filter.title} />
+          ))}
+        </Scrollable>
         <div className={styles.controls}>
           <Button icon={<SearchIcon />} type="submit">
             Search

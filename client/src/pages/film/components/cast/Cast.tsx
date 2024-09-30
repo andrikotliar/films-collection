@@ -1,4 +1,4 @@
-import { FC, useContext } from 'react';
+import { FC } from 'react';
 import { CastType } from '@/types';
 import { Actor } from './components';
 import styles from './Cast.module.css';

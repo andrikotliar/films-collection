@@ -4,7 +4,6 @@ export * from './loader/Loader';
 export * from './app-wrapper/AppWrapper';
 export * from './form-checkbox/FormCheckbox';
 export * from './scrollable/Scrollable';
-export * from './tabs/Tabs';
 export * from './modal/Modal';
 export * from './data-area/DataArea';
 export * from './data-row/DataRow';

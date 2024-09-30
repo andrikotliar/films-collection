@@ -1,4 +1,5 @@
 import { FastifySchema } from 'fastify';
+import { TitleType } from '../enums';
 
 const findAllSchema: FastifySchema = {
   querystring: {
@@ -13,7 +14,7 @@ const findAllSchema: FastifySchema = {
       type: {
         type: 'array',
         items: {
-          enum: ['Film', 'Animation', 'Series'],
+          enum: Object.values(TitleType),
         },
       },
       genres: {
@@ -60,6 +61,15 @@ const findAllSchema: FastifySchema = {
       },
       episodesTotal: {
         type: 'number',
+      },
+      personName: {
+        type: 'string',
+      },
+      personRole: {
+        type: 'string',
+      },
+      actorId: {
+        type: 'string',
       },
     },
     required: ['limit', 'skip'],

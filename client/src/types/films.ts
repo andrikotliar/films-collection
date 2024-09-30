@@ -122,7 +122,6 @@ type FilmsListFilters = FilmsListPagination &
     endDate: string;
     country: Country[];
     studio: Studio[];
-    isLatestAdded: boolean;
     collection: Collection[];
   }>;
 

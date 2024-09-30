@@ -1,17 +1,13 @@
-import { RootFilterQuery, Types } from 'mongoose';
 import { FilmsModel } from './films.model.js';
-import {
-  DbQueryFilter,
-  FindAllFilters,
-  FindAllQueries,
-} from './common/index.js';
+import { FindAllQueries } from './common/index.js';
 import { ChaptersService } from '../chapters/chapters.service.js';
+import { mapFilters } from './helpers/index.js';
 
 class FilmsService {
   async getFilteredFilms(queries: FindAllQueries) {
-    const { limit, skip, ...filters } = queries;
+    const { limit, skip } = queries;
 
-    const parsedFilters = this.#parseFilters(filters);
+    const parsedFilters = mapFilters(queries);
 
     const films = await FilmsModel.find(
       parsedFilters,
@@ -113,57 +109,6 @@ class FilmsService {
     );
 
     return orderedList;
-  }
-
-  #parseFilters(plainFilters: Partial<FindAllFilters>) {
-    const filters: RootFilterQuery<DbQueryFilter> = {};
-
-    for (const [key, value] of Object.entries(plainFilters)) {
-      if (key === 'startDate' || key === 'endDate') {
-        if (!filters.releaseDate) {
-          filters.releaseDate = {};
-        }
-
-        if (key === 'startDate' && typeof value === 'string') {
-          filters.releaseDate.$gte = value;
-        }
-
-        if (key === 'endDate' && typeof value === 'string') {
-          filters.releaseDate.$lte = value;
-        }
-
-        continue;
-      }
-
-      if (key === 'collections') {
-        filters['collections.key'] = value;
-        continue;
-      }
-
-      if (key === 'seasonsTotal') {
-        filters['seriesExtension.seasons'] = {
-          $size: value,
-        };
-        continue;
-      }
-
-      if (key === 'episodesTotal') {
-        filters['seriesExtension.episodesTotal'] = value;
-        continue;
-      }
-
-      if (Array.isArray(value)) {
-        filters[key] = {
-          $in: value,
-        };
-
-        continue;
-      }
-
-      filters[key] = value;
-    }
-
-    return filters;
   }
 }
 

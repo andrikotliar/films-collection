@@ -5,34 +5,41 @@ type FindAllFilters = {
   endDate: string;
   countries: string[];
   studios: string[];
-  isLatestAdded: boolean;
   collections: string[];
+  seasonsTotal: number;
   episodesTotal: number;
-  watchCount?: number;
-  rating?: number;
+  watchCount: number;
+  rating: number;
+  duration: number;
+  personName: string;
+  personRole: string;
+  actorId: string;
 };
 
 type ArrayFilter<T = string> = {
   $in: T[];
 };
 
-type DbQueryFilter = {
-  type?: ArrayFilter;
-  genres?: ArrayFilter;
-  releaseDate?: {
+type DbQueryFilter = Partial<{
+  type: ArrayFilter;
+  genres: ArrayFilter;
+  releaseDate: {
     $gte?: string;
     $lte?: string;
   };
-  countries?: ArrayFilter;
-  studios?: ArrayFilter;
-  watchCount?: number;
-  rating?: number;
-  ['collections.key']?: ArrayFilter;
-  ['seriesExtension.episodesTotal']?: number;
-  ['seriesExtension.seasons']?: {
+  countries: ArrayFilter;
+  studios: ArrayFilter;
+  watchCount: number;
+  rating: number;
+  ['collections.key']: ArrayFilter;
+  ['seriesExtension.episodesTotal']: number;
+  ['seriesExtension.seasons']: {
     $size: number;
   };
-};
+  ['crew.role']: string;
+  ['crew.people.name']: string;
+  ['cast.actor']: string;
+}>;
 
 type FindAllQueries = Partial<FindAllFilters> & {
   limit: number;

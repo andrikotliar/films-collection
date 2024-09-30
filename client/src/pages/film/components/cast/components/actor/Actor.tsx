@@ -15,7 +15,7 @@ const Actor: FC<ActorProps> = ({ person }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const photoUrl = buildMediaPath('actors', person.actor.image);
-  const actorLink = buildQueryLink({ cast: person.actor._id });
+  const actorLink = buildQueryLink({ actorId: person.actor._id });
 
   const flipImage = () => {
     setIsFlipped((isFlipped) => !isFlipped);

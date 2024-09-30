@@ -1,7 +1,6 @@
 import { FC } from 'react';
 import { Crew } from '@/types';
 import { CrewItem } from './components';
-import { DataArea } from '@/components';
 
 import styles from './CrewList.module.css';
 

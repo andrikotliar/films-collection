@@ -6,7 +6,7 @@ import { useFormContext } from 'react-hook-form';
 type FormCheckboxProps = {
   type: 'checkbox' | 'radio';
   label: string;
-  value: string | number;
+  value?: string | number;
   name: string;
 };
 

@@ -8,6 +8,7 @@ const useFilmsList = (params: FilmsListFilters) => {
     queryFn: ({ queryKey }) => {
       return apiClient.get<FilmsListResponse>('/films', queryKey[1]);
     },
+    retry: false,
   });
 };
 
