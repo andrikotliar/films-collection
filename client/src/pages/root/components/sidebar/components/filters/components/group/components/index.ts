@@ -1,1 +1,1 @@
-export { GroupHeader } from './group-header/GroupHeader';
+export * from './group-header/GroupHeader';

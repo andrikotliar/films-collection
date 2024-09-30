@@ -1,1 +1,1 @@
-export { SearchMenuContent } from './search-menu-content/SearchMenuContent';
+export * from './search-menu-content/SearchMenuContent';

@@ -1,1 +1,1 @@
-export { getFilmSummaryConfig } from './get-film-summary-config';
+export * from './get-film-summary-config';

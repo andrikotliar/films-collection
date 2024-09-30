@@ -1,1 +1,1 @@
-export { Actor } from './actor/Actor';
+export * from './actor/Actor';

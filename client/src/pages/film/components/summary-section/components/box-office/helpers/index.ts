@@ -1,2 +1,2 @@
-export { checkHasBoxOfficeBenefit } from './check-has-box-office-benefit';
-export { getFormattedValue } from './get-formatted-value';
+export * from './check-has-box-office-benefit';
+export * from './get-formatted-value';

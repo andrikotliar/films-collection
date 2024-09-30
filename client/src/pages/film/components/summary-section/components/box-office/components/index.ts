@@ -1,1 +1,1 @@
-export { MoneyBlock } from './money-block/MoneyBlock';
+export * from './money-block/MoneyBlock';
