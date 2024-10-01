@@ -1,10 +1,13 @@
 .list {
   display: flex;
-  flex-direction: column;
   gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
 }
 
 .award {
+  width: 320px;
+  flex-shrink: 0;
   overflow: hidden;
 }
 

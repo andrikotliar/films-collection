@@ -1,6 +1,6 @@
 .customScroll {
   scrollbar-width: thin;
-  scrollbar-color: var(--blue-default) #dbdbdb;
+  scrollbar-color: #dbdbdb;
 }
 .customScroll::-webkit-scrollbar {
   display: block;
