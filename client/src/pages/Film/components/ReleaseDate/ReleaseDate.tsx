@@ -1,6 +1,6 @@
 import { buildQueryLink, getFormattedDate } from '@/helpers';
 import { FC } from 'react';
-import { TagLink } from '../tag-link/TagLink';
+import { TagLink } from '../TagLink';
 
 type ReleaseDateProps = {
   value: string;

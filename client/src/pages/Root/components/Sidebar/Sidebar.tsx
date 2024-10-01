@@ -3,7 +3,7 @@ import { SlidersHorizontalIcon } from 'lucide-react';
 import classNames from 'classnames';
 import { SidebarContext } from '@/pages/Root/context';
 import { Filters } from './components';
-import styles from './sidebar.module.css';
+import styles from './Sidebar.module.css';
 
 const Sidebar = () => {
   const { isFilterOpen, toggleFilter, filtersCount } =

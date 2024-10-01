@@ -1,7 +1,7 @@
 import { DateFilter } from '@/types/filter';
 import { FC } from 'react';
-import { Group } from '../group/Group';
-import { FormDatePicker } from '@/components/form-datepicker/FormDatePicker';
+import { Group } from '../Group';
+import { FormDatePicker } from '@/components/FormDatePicker';
 import { useFormContext } from 'react-hook-form';
 import { MIN_DATE } from '@/constants';
 

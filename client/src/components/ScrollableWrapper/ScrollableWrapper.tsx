@@ -1,4 +1,4 @@
-import styles from './Scrollable.module.css';
+import styles from './ScrollableWrapper.module.css';
 import { PropsWithClassName } from '@/types';
 import { FC, PropsWithChildren } from 'react';
 import classNames from 'classnames';

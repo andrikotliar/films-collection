@@ -1,7 +1,7 @@
 import { FC, PropsWithChildren } from 'react';
 import styles from './SearchMenuContent.module.css';
 import { FilmSearchResult } from '@/types';
-import { FoundFilm } from '../found-film/FoundFilm';
+import { FoundFilm } from '../FoundFilm';
 
 type SearchMenuContentProps = {
   films: FilmSearchResult[];

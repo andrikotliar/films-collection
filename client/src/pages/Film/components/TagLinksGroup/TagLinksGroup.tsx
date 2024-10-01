@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import styles from './TagLinksGroup.module.css';
-import { TagLink, TagLinkProps } from '../tag-link/TagLink';
+import { TagLink, TagLinkProps } from '../TagLink';
 import { buildQueryLink } from '@/helpers';
 
 type TagLinksGroupProps = {
