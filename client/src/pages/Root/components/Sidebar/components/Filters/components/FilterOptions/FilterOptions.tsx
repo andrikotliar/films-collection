@@ -1,8 +1,8 @@
 import { FC } from 'react';
 import { FilterItem } from '@/types';
 import { FormCheckbox } from '@/components';
-import { Group } from '../group/Group';
-import { DateRange } from '../date-range/DateRange';
+import { Group } from '../Group';
+import { DateRange } from '../DateRange';
 
 type FilterOptionsProps = {
   filter: FilterItem;

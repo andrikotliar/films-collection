@@ -1,7 +1,7 @@
 import { buildMediaPath } from '@/helpers';
 import { AdditionalInfo } from '@/types';
 import { FC } from 'react';
-import { InfoBlock } from '../info-block/InfoBlock';
+import { InfoBlock } from '../InfoBlock';
 import { collectionTitles, personRoleTitles } from '@/titles';
 
 type AdditionalInfoProps = {
