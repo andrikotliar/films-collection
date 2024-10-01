@@ -2,8 +2,8 @@ import styles from './Filters.module.css';
 import { useContext, useEffect } from 'react';
 import { filtersConfig } from '@/configs';
 import { useForm, FormProvider } from 'react-hook-form';
-import { Button, Scrollable } from '@/components';
-import { SidebarContext } from '@/pages/root/context';
+import { Button, ScrollableWrapper } from '@/components';
+import { SidebarContext } from '@/pages/Root/context';
 import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
 import { useQueryFilter } from '@/hooks';
@@ -77,11 +77,11 @@ const Filters = () => {
         onSubmit={methods.handleSubmit(submitFilter)}
         className={styles.filters}
       >
-        <Scrollable className={styles.filterGroups}>
+        <ScrollableWrapper className={styles.filterGroups}>
           {filtersConfig.map((filter) => (
             <FilterOptions filter={filter} key={filter.title} />
           ))}
-        </Scrollable>
+        </ScrollableWrapper>
         <div className={styles.controls}>
           <Button icon={<SearchIcon />} type="submit">
             Search

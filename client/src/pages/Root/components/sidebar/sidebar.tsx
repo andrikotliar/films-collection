@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { SlidersHorizontalIcon } from 'lucide-react';
 import classNames from 'classnames';
-import { SidebarContext } from '@/pages/root/context';
+import { SidebarContext } from '@/pages/Root/context';
 import { Filters } from './components';
 import styles from './sidebar.module.css';
 

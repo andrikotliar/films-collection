@@ -1,4 +1,4 @@
-import styles from './statistic.module.css';
+import styles from './Statistic.module.css';
 
 const StatisticPage = () => {
   return (
@@ -9,4 +9,4 @@ const StatisticPage = () => {
   );
 };
 
-export default StatisticPage;
+export { StatisticPage };

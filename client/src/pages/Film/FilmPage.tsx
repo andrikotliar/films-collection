@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { Loader, NotFound } from '@/components';
 import { useDocumentTitle, useOneFilm, useScrollToTop } from '@/hooks';
-import { useLastVisitedFilms } from '@/pages/film/hooks';
+import { useLastVisitedFilms } from './hooks';
 import {
   SectionTitle,
   Description,
@@ -78,4 +78,4 @@ const FilmPage = () => {
   );
 };
 
-export default FilmPage;
+export { FilmPage };

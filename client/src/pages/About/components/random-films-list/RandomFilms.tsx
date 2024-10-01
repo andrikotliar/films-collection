@@ -1,4 +1,4 @@
-import { Image, Scrollable } from '@/components';
+import { Image, ScrollableWrapper } from '@/components';
 import styles from './RandomFilms.module.css';
 import { Link } from 'react-router-dom';
 import { buildMediaPath, buildRouterLink } from '@/helpers';
@@ -17,7 +17,7 @@ const RandomFilms = () => {
   }
 
   return (
-    <Scrollable className={styles.wrapper}>
+    <ScrollableWrapper className={styles.wrapper}>
       {data.map((film) => (
         <Link
           to={buildRouterLink('film', film._id)}
@@ -30,7 +30,7 @@ const RandomFilms = () => {
           />
         </Link>
       ))}
-    </Scrollable>
+    </ScrollableWrapper>
   );
 };
 

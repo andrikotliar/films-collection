@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { FilmData } from '@/types';
-import { Scrollable } from '@/components';
+import { ScrollableWrapper } from '@/components';
 import { FilmLink } from './components';
 import styles from './Chapters.module.css';
 
@@ -11,7 +11,7 @@ type ChaptersFilmsProps = {
 
 const Chapters: FC<ChaptersFilmsProps> = ({ data, filmId }) => {
   return (
-    <Scrollable className={styles.row}>
+    <ScrollableWrapper className={styles.row}>
       {data.map((film, index) => (
         <FilmLink
           key={film._id}
@@ -22,7 +22,7 @@ const Chapters: FC<ChaptersFilmsProps> = ({ data, filmId }) => {
           title={film.title}
         />
       ))}
-    </Scrollable>
+    </ScrollableWrapper>
   );
 };
 

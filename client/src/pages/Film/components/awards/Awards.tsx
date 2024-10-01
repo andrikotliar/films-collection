@@ -1,8 +1,8 @@
-import { FC, useContext, useMemo } from 'react';
+import { FC, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { AwardType } from '@/types';
 import { buildQueryLink } from '@/helpers';
-import { DataArea, DataGrid, Icon, Scrollable } from '@/components';
+import { DataArea, DataGrid, Icon, ScrollableWrapper } from '@/components';
 import { Nomination } from './components';
 import styles from './Awards.module.css';
 import { awardTitles } from '@/titles';
@@ -33,7 +33,7 @@ const Awards: FC<AwardsProps> = ({ awards }) => {
               </p>
             </div>
           </div>
-          <Scrollable className={styles.nominations}>
+          <ScrollableWrapper className={styles.nominations}>
             {nominations.map(({ title, actor, comment }, index) => (
               <Nomination
                 title={title}
@@ -42,7 +42,7 @@ const Awards: FC<AwardsProps> = ({ awards }) => {
                 comment={comment}
               />
             ))}
-          </Scrollable>
+          </ScrollableWrapper>
         </DataArea>
       ))}
     </DataGrid>

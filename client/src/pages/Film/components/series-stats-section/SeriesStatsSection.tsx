@@ -5,7 +5,7 @@ import styles from './SeriesStatsSection.module.css';
 import { TagLink } from '../tag-link/TagLink';
 import { buildQueryLink } from '@/helpers';
 import { Season } from './components';
-import { Scrollable } from '@/components';
+import { ScrollableWrapper } from '@/components';
 
 type SeriesStatsSectionProps = {
   data: SeriesExtension;
@@ -32,11 +32,11 @@ const SeriesStatsSection: FC<SeriesStatsSectionProps> = ({ data }) => {
           Episodes Total: {data.episodesTotal}
         </TagLink>
       </div>
-      <Scrollable className={styles.seasons}>
+      <ScrollableWrapper className={styles.seasons}>
         {data.seasons.map((season) => (
           <Season data={season} key={season.number} />
         ))}
-      </Scrollable>
+      </ScrollableWrapper>
     </div>
   );
 };
