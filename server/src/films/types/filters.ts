@@ -14,6 +14,7 @@ type FindAllFilters = {
   personName: string;
   personRole: string;
   actorId: string;
+  awards: string[];
 };
 
 type ArrayFilter<T = string> = {
@@ -39,6 +40,7 @@ type DbQueryFilter = Partial<{
   ['crew.role']: string;
   ['crew.people.name']: string;
   ['cast.actor']: string;
+  ['awards.awardKey']: ArrayFilter;
 }>;
 
 type FindAllQueries = Partial<FindAllFilters> & {

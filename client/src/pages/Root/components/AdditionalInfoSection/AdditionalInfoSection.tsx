@@ -2,7 +2,7 @@ import { buildMediaPath } from '@/helpers';
 import { AdditionalInfo } from '@/types';
 import { FC } from 'react';
 import { InfoBlock } from '../InfoBlock';
-import { collectionTitles, personRoleTitles } from '@/titles';
+import { awardTitles, collectionTitles, personRoleTitles } from '@/titles';
 
 type AdditionalInfoProps = {
   info: AdditionalInfo | null;
@@ -40,6 +40,12 @@ const AdditionalInfoSection: FC<AdditionalInfoProps> = ({ info }) => {
         label={personRoleTitles[info.data.role]}
       />
     );
+  }
+
+  if (info.type === 'awards') {
+    const awardsList = info.data.map((award) => awardTitles[award]).join(', ');
+
+    return <InfoBlock title={awardsList} label="Filtered by Awards" />;
   }
 
   return null;

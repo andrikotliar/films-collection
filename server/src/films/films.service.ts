@@ -84,7 +84,7 @@ class FilmsService {
   }
 
   async #populateAdditionalData(query: FindAllQueries) {
-    const { actorId, personName, personRole, collection } = query;
+    const { actorId, personName, personRole, collection, awards } = query;
 
     if (actorId) {
       const actorsService = new ActorsService();
@@ -110,6 +110,13 @@ class FilmsService {
       return {
         type: 'collection',
         data: collection,
+      };
+    }
+
+    if (awards) {
+      return {
+        type: 'awards',
+        data: awards,
       };
     }
 

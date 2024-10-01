@@ -120,10 +120,16 @@ type AdditionalCollectionInfo = {
   data: CollectionEnum;
 };
 
+type AdditionalAwardsInfo = {
+  type: 'awards';
+  data: Award[];
+};
+
 type AdditionalInfo =
   | AdditionalActorData
   | AdditionalCrewInfo
-  | AdditionalCollectionInfo;
+  | AdditionalCollectionInfo
+  | AdditionalAwardsInfo;
 
 type FilmsListResponse = {
   films: FilmsListItem[];

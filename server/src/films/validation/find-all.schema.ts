@@ -69,6 +69,12 @@ const findAllSchema: FastifySchema = {
       actorId: {
         type: 'string',
       },
+      awards: {
+        type: 'array',
+        items: {
+          type: 'string',
+        },
+      },
     },
     required: ['limit', 'skip'],
     additionalProperties: false,
