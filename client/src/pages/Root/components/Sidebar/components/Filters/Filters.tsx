@@ -35,7 +35,7 @@ const defaultValues: FormValues = {
 const Filters = () => {
   const { filterParams, updateFilter, resetFilter } = useQueryFilter();
 
-  const filtersCount = countObjectKeys(filterParams, ['pageIndex']);
+  const filtersCount = countObjectKeys(filterParams, ['skip', 'limit']);
 
   const { setIsFilterOpen, updateFiltersCount } = useContext(SidebarContext);
 

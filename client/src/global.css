@@ -26,6 +26,7 @@
   --pink-light: #ffb0ae;
 
   --purple-dark: #8f5bab;
+  --purple-light: #dccbf2;
 
   --main-gradient: linear-gradient(45deg, var(--blue-default), var(--green));
   --app-border: 1px solid var(--gray);

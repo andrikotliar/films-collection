@@ -6,7 +6,7 @@ import { SquareArrowOutUpRightIcon } from 'lucide-react';
 
 type TagLinkProps = {
   path: string;
-  variant?: 'blue' | 'sand' | 'gray' | 'pink' | 'mint';
+  variant?: 'blue' | 'sand' | 'gray' | 'pink' | 'mint' | 'purple';
   isDisabled?: boolean;
 };
 
