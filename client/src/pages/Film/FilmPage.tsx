@@ -13,7 +13,7 @@ import {
   Chapters,
   NavigationRow,
   Section,
-  SeriesStatsSection,
+  SeriesStats,
 } from './components';
 
 const FilmPage = () => {
@@ -42,7 +42,7 @@ const FilmPage = () => {
       {film.seriesExtension && (
         <Section>
           <SectionTitle>Series Details</SectionTitle>
-          <SeriesStatsSection data={film.seriesExtension} />
+          <SeriesStats data={film.seriesExtension} />
         </Section>
       )}
 

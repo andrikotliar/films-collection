@@ -1,8 +1,6 @@
 import { FilmData } from '@/types';
-import { TagLink } from '../components/tag-link/TagLink';
 import { buildQueryLink } from '@/helpers';
-import { ReleaseDate } from '../components/release-date/ReleaseDate';
-import { TagLinksGroup } from '../components/tag-links-group/TagLinksGroup';
+import { ReleaseDate, TagLink, TagLinksGroup } from '../components';
 import { SummaryConfig } from '../types';
 import { genreTitles } from '@/titles/genre-titles';
 import { collectionTitles, countryTitles, studioTitles } from '@/titles';
