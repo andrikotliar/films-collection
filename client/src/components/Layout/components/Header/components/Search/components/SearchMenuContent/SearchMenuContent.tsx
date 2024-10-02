@@ -16,14 +16,14 @@ const SearchMenuContent: FC<PropsWithChildren<SearchMenuContentProps>> = ({
 
   if (isEmpty) {
     return (
-      <div className={styles.wrapper}>
+      <div className={styles.menu}>
         <div>Not found</div>
       </div>
     );
   }
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.menu}>
       <div className={styles.content}>
         {films.map((film) => (
           <FoundFilm key={film._id} film={film} onFilmOpen={onFilmOpen} />

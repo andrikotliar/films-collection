@@ -108,7 +108,7 @@ const Search = () => {
   }, []);
 
   return (
-    <div className={styles.wrapper} style={searchWrapperStyles}>
+    <div className={styles.search} style={searchWrapperStyles}>
       <div className={styles.inputWrapper}>
         <input
           type="text"

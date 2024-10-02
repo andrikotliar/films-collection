@@ -8,13 +8,13 @@ import {
   Cast,
   Awards,
   CrewList,
-  Wrapper,
   SummarySection,
   Chapters,
   NavigationRow,
   Section,
   SeriesStats,
 } from './components';
+import styles from './FilmPage.module.css';
 
 const FilmPage = () => {
   const { id } = useParams();
@@ -34,7 +34,7 @@ const FilmPage = () => {
   }
 
   return (
-    <Wrapper>
+    <div className={styles.filmPage}>
       <NavigationRow />
 
       <SummarySection film={film} />
@@ -74,7 +74,7 @@ const FilmPage = () => {
           <Chapters data={film.chapters} filmId={film._id} key={film._id} />
         </Section>
       )}
-    </Wrapper>
+    </div>
   );
 };
 

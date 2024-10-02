@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FilmSearchResult } from '@/types';
 import { buildMediaPath, getYearFromDate } from '@/helpers';
 import styles from './FoundFilm.module.css';
+import { Image } from '@/components';
 
 type FoundFilmProps = {
   film: FilmSearchResult;
@@ -18,7 +19,7 @@ const FoundFilm: FC<FoundFilmProps> = ({ film, onFilmOpen }) => {
       type="button"
     >
       <div className={styles.posterContainer}>
-        <img
+        <Image
           src={buildMediaPath('posters', film.poster)}
           alt={`Poster of the "${film.title}"`}
           className={styles.poster}

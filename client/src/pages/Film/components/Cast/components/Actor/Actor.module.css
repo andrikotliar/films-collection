@@ -63,13 +63,9 @@
 
 .details {
   margin-top: 5px;
-  background-color: var(--gray-light);
-  padding: 5px 10px;
-  border-radius: 6px;
 }
 
 .name {
-  font-size: 14px;
   font-weight: bold;
   border-bottom: 2px dashed #000;
   transition: border 300ms;

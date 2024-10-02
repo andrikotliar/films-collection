@@ -18,7 +18,7 @@ const MoneyBlock: FC<MoneyBlockProps> = ({
 }) => {
   return (
     <div
-      className={classNames(styles.wrapper, {
+      className={classNames(styles.moneyBlock, {
         [styles.beneficial]: isVariating && isBeneficial,
         [styles.notProfitable]: isVariating && !isBeneficial,
       })}

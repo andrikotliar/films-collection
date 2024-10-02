@@ -11,7 +11,7 @@ type LoaderProps = {
 const Loader: FC<LoaderProps> = ({ isFullPage = false, iconClassName }) => {
   return (
     <div
-      className={classNames(styles.wrapper, {
+      className={classNames(styles.loaderContainer, {
         [styles.fullPage]: isFullPage,
       })}
     >

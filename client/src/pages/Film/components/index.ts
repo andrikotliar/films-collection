@@ -1,4 +1,3 @@
-export * from './Wrapper';
 export * from './SummarySection';
 export * from './SectionTitle';
 export * from './Awards';

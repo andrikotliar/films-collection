@@ -25,7 +25,7 @@ const InfoBlock: FC<InfoBlockProps> = ({
   };
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.infoBlock}>
       {imagePath && (
         <img src={imagePath} alt={imageAlt} className={styles.image} />
       )}

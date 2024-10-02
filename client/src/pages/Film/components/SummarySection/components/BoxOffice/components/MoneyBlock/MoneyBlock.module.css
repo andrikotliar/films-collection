@@ -1,4 +1,4 @@
-.wrapper {
+.moneyBlock {
   --main-color: var(--yellow-saturated);
   --bg-color: var(--yellow-sand-light);
   color: var(--main-color);
@@ -13,13 +13,13 @@
   overflow: hidden;
 }
 
-.wrapper:first-child {
+.moneyBlock:first-child {
   border-top-left-radius: var(--app-border-radius);
   border-bottom-left-radius: var(--app-border-radius);
   border-right: 0;
 }
 
-.wrapper:last-child {
+.moneyBlock:last-child {
   border-top-right-radius: var(--app-border-radius);
   border-bottom-right-radius: var(--app-border-radius);
 }
@@ -52,7 +52,7 @@
 }
 
 @media (max-width: 480px) {
-  .wrapper {
+  .moneyBlock {
     width: 50%;
   }
 

@@ -10,7 +10,7 @@ const SummaryBlock: FC<PropsWithChildren<SummaryBlockProps>> = ({
   children,
 }) => {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.summaryBlock}>
       {label && <div className={styles.label}>{label}:</div>}
       <div className={styles.content}>{children}</div>
     </div>

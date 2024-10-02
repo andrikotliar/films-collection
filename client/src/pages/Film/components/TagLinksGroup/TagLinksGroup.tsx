@@ -17,7 +17,7 @@ const TagLinksGroup: FC<TagLinksGroupProps> = ({
   titles,
 }) => {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.tagLinksGroup}>
       {items.map((item) => (
         <TagLink
           path={buildQueryLink({

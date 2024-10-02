@@ -16,7 +16,7 @@ const Menu: FC<MenuProps> = ({ config }) => {
   };
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.menu}>
       {config.map((configItem) => (
         <Link
           key={configItem.route}

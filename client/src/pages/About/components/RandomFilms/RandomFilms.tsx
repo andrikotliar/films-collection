@@ -17,7 +17,7 @@ const RandomFilms = () => {
   }
 
   return (
-    <ScrollableWrapper className={styles.wrapper}>
+    <ScrollableWrapper className={styles.randomFilms}>
       {data.map((film) => (
         <Link
           to={buildRouterLink('film', film._id)}

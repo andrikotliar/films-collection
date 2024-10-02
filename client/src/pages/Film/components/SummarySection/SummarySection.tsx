@@ -19,7 +19,7 @@ const SummarySection: FC<SummarySectionProps> = ({ film }) => {
   const isBoxOfficeBlockVisible = !!film.budget || !!film.boxOffice;
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.summaryLayout}>
       <Poster image={film.poster} title={film.title} />
       <div className={styles.summary}>
         <Title>{film.title}</Title>

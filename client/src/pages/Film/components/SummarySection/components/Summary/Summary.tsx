@@ -9,7 +9,7 @@ type SummaryProps = {
 
 const Summary: FC<SummaryProps> = ({ config }) => {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.summary}>
       {config.map((item) => (
         <SummaryBlock label={item.title} key={item.id}>
           {item.content}

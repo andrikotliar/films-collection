@@ -16,7 +16,7 @@ const BoxOffice: FC<BoxOfficeProps> = ({ budget, boxOffice }) => {
   );
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.boxOffice}>
       <MoneyBlock value={formattedBudget} label="Budget" />
       <MoneyBlock
         value={formattedBoxOffice}

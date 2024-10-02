@@ -14,7 +14,10 @@ const WatchCount: FC<WatchCountProps> = ({ value }) => {
   }
 
   return (
-    <Link to={buildQueryLink({ watchCount: value })} className={styles.wrapper}>
+    <Link
+      to={buildQueryLink({ watchCount: value })}
+      className={styles.watchCount}
+    >
       <EyeIcon className={styles.eyeIcon} />
       <div className={styles.label}>Watch Count</div>
       <div className={styles.value}>{value}</div>
