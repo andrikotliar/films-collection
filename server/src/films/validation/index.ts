@@ -1,2 +1,2 @@
-export * from './find-all.schema';
-export * from './find-by-search-string.schema';
+export * from './films.schema';
+export * from './search.schema';

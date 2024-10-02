@@ -1,7 +1,7 @@
 import { FastifySchema } from 'fastify';
 import { CollectionEnum, TitleType } from '../enums';
 
-const findAllSchema: FastifySchema = {
+const filmsSchema: FastifySchema = {
   querystring: {
     type: 'object',
     properties: {
@@ -81,4 +81,4 @@ const findAllSchema: FastifySchema = {
   },
 };
 
-export { findAllSchema };
+export { filmsSchema };

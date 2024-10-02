@@ -1,6 +1,6 @@
 import { FastifyInstance } from 'fastify';
 import { FilmsController } from './films.controller';
-import { findAllSchema, findBySearchStringSchema } from './validation';
+import { filmsSchema, searchSchema } from './validation';
 
 const registerFilmsRouter = (app: FastifyInstance) => {
   const filmsController = new FilmsController();
@@ -9,7 +9,7 @@ const registerFilmsRouter = (app: FastifyInstance) => {
     method: 'GET',
     url: '/films',
     handler: filmsController.findAll,
-    schema: findAllSchema,
+    schema: filmsSchema,
   });
 
   app.route({
@@ -28,7 +28,7 @@ const registerFilmsRouter = (app: FastifyInstance) => {
     method: 'GET',
     url: '/films/search',
     handler: filmsController.findFilmsBySearchString,
-    schema: findBySearchStringSchema,
+    schema: searchSchema,
   });
 
   app.route({

@@ -1,6 +1,6 @@
 import { FastifySchema } from 'fastify';
 
-const findBySearchStringSchema: FastifySchema = {
+const searchSchema: FastifySchema = {
   querystring: {
     type: 'object',
     properties: {
@@ -12,4 +12,4 @@ const findBySearchStringSchema: FastifySchema = {
   },
 };
 
-export { findBySearchStringSchema };
+export { searchSchema };
