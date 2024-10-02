@@ -6,6 +6,7 @@ const useOneFilm = (id?: string) => {
   return useQuery({
     queryKey: ['film', id],
     queryFn: ({ queryKey }) => apiClient.get<FilmData>(`/films/${queryKey[1]}`),
+    retry: false,
   });
 };
 

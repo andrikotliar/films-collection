@@ -1,7 +1,7 @@
 import { FastifyRequest, FastifyReply } from 'fastify';
 import { FilmsService } from './films.service';
 import { FindAllQueries, FindBySearchString, FindOneParams } from './types';
-import { ResponseCode } from '../common';
+import { getErrorResponse, ResponseCode } from '../common';
 
 class FilmsController {
   #filmsService: FilmsService;
@@ -28,7 +28,12 @@ class FilmsController {
     if (!data) {
       return reply
         .code(ResponseCode.NOT_FOUND)
-        .send({ error: `Film with the ${request.params.id} not found` });
+        .send(
+          getErrorResponse(
+            ResponseCode.NOT_FOUND,
+            `Film with the ${request.params.id} not found`,
+          ),
+        );
     }
 
     return reply.code(ResponseCode.OK).send(data);
