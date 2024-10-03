@@ -1,6 +1,5 @@
 .actor {
-  width: 150px;
-  flex-shrink: 0;
+  width: 100%;
 }
 
 .container {

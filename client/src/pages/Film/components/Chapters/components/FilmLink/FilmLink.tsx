@@ -4,6 +4,7 @@ import { buildMediaPath, buildRouterLink } from '@/helpers';
 
 import styles from './FilmLink.module.css';
 import classNames from 'classnames';
+import { Image } from '@/components';
 
 type FilmLinkProps = {
   id: string;
@@ -25,14 +26,14 @@ const FilmLink: FC<FilmLinkProps> = ({
   return (
     <Link
       to={buildRouterLink('film', id)}
-      className={classNames(styles.link, {
-        [styles.disabled]: isActive,
+      className={classNames(styles.filmLink, {
+        [styles.activeFilmLink]: isActive,
       })}
       id={id}
       title={title}
     >
-      <img src={posterUrl} alt={title} />
-      {chapter && <span className={styles.chapter}>{chapter}</span>}
+      <Image src={posterUrl} alt={title} />
+      {chapter && <span className={styles.chapterNumber}>{chapter}</span>}
     </Link>
   );
 };

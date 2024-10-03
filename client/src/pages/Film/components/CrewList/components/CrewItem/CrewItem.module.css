@@ -1,10 +1,12 @@
 .crewItem {
+  display: flex;
+  align-items: center;
   padding: 20px 0;
   border-bottom: 1px solid #e7e7e7;
 }
 
 .crewItem:first-child {
-  padding-top: 0;
+  padding-top: 10px;
 }
 
 .crewItem:last-child {
@@ -12,10 +14,13 @@
   padding-bottom: 0;
 }
 
-.title {
-  text-transform: uppercase;
+.crewItemTitle {
   font-size: 14px;
-  margin-bottom: 10px;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: uppercase;
+  width: 180px;
+  flex-shrink: 0;
 }
 
 .list {
@@ -34,6 +39,10 @@
   color: var(--green);
 }
 
+.personLink {
+  line-height: 1;
+}
+
 .person {
   display: flex;
   align-items: center;
@@ -44,3 +53,20 @@
   color: #777;
   font-size: 14px;
 }
+
+@media (max-width: 540px) {
+  .crewItem {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 0;
+  }
+
+  .crewItemTitle {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .personLink {
+    font-size: 14px;
+  }
+} 

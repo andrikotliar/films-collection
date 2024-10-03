@@ -1,7 +1,6 @@
 export * from './Button';
 export * from './DataArea';
 export * from './DataGrid';
-export * from './DataRow';
 export * from './FilmsGrid';
 export * from './FormCheckbox';
 export * from './Icon';

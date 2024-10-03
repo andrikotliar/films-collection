@@ -11,7 +11,7 @@ type ChaptersFilmsProps = {
 
 const Chapters: FC<ChaptersFilmsProps> = ({ data, filmId }) => {
   return (
-    <ScrollableWrapper className={styles.row}>
+    <ScrollableWrapper className={styles.chapters}>
       {data.map((film, index) => (
         <FilmLink
           key={film._id}

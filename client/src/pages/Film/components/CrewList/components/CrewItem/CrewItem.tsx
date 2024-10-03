@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { Crew } from '@/types';
-import { DataRow, RouterLink } from '@/components';
+import { RouterLink } from '@/components';
 import styles from './CrewItem.module.css';
 import { buildQueryLink } from '@/helpers';
 import { personRoleTitles } from '@/titles';
@@ -11,7 +11,10 @@ type CrewItemProps = {
 
 const CrewItem: FC<CrewItemProps> = ({ crewItem }) => {
   return (
-    <DataRow title={personRoleTitles[crewItem.role]}>
+    <div className={styles.crewItem}>
+      <h3 className={styles.crewItemTitle}>
+        {personRoleTitles[crewItem.role]}:
+      </h3>
       <ul className={styles.list}>
         {crewItem.people.map((person, idx) => (
           <li className={styles.person} key={idx}>
@@ -20,6 +23,7 @@ const CrewItem: FC<CrewItemProps> = ({ crewItem }) => {
                 personRole: crewItem.role,
                 personName: person.name,
               })}
+              className={styles.personLink}
             >
               {person.name}
             </RouterLink>
@@ -29,7 +33,7 @@ const CrewItem: FC<CrewItemProps> = ({ crewItem }) => {
           </li>
         ))}
       </ul>
-    </DataRow>
+    </div>
   );
 };
 
