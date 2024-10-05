@@ -2,9 +2,8 @@ import { FilmData } from '@/types';
 import { FC, useMemo } from 'react';
 import styles from './SummarySection.module.css';
 import { Title } from '../Title';
-import { BoxOffice, Poster, Rating, Summary, WatchCount } from './components';
+import { Poster, Rating, Summary, WatchCount } from './components';
 import { getFilmSummaryConfig } from '../../helpers';
-import { TitleType } from '@/enums';
 import { TrailerButton } from '../TrailerButton';
 
 type SummarySectionProps = {
@@ -15,8 +14,6 @@ const SummarySection: FC<SummarySectionProps> = ({ film }) => {
   const filmConfig = useMemo(() => {
     return getFilmSummaryConfig(film);
   }, [film]);
-
-  const isBoxOfficeBlockVisible = !!film.budget || !!film.boxOffice;
 
   return (
     <div className={styles.summaryLayout}>
@@ -33,9 +30,6 @@ const SummarySection: FC<SummarySectionProps> = ({ film }) => {
           <Rating value={film.rating} />
           <WatchCount value={film.watchCount} />
         </div>
-        {!film.type.includes(TitleType.SERIES) && isBoxOfficeBlockVisible && (
-          <BoxOffice budget={film.budget} boxOffice={film.boxOffice} />
-        )}
       </div>
     </div>
   );

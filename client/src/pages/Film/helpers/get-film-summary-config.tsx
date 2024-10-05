@@ -1,12 +1,19 @@
 import { FilmData } from '@/types';
 import { buildQueryLink } from '@/helpers';
-import { ReleaseDate, TagLink, TagLinksGroup } from '../components';
+import { MoneyValue, ReleaseDate, TagLink, TagLinksGroup } from '../components';
 import { SummaryConfig } from '../types';
 import { genreTitles } from '@/titles/genre-titles';
 import { collectionTitles, countryTitles, studioTitles } from '@/titles';
+import { TitleType } from '@/enums';
+import { checkHasBoxOfficeBenefit } from './check-box-office-has-benefit';
 
 const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
-  return [
+  const isBoxOfficeSuccessful = checkHasBoxOfficeBenefit(
+    film.budget ?? 0,
+    film.boxOffice ?? 0,
+  );
+
+  const values = [
     {
       id: 'releaseDate',
       title: 'Release Date',
@@ -71,7 +78,26 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
         />
       ),
     },
+    {
+      id: 'budget',
+      title: 'Budget',
+      content: <MoneyValue value={film.budget} />,
+      isHidden: film.type.includes(TitleType.SERIES),
+    },
+    {
+      id: 'boxOffice',
+      title: 'Box Office',
+      content: (
+        <MoneyValue
+          value={film.boxOffice}
+          status={isBoxOfficeSuccessful ? 'success' : 'failure'}
+        />
+      ),
+      isHidden: film.type.includes(TitleType.SERIES),
+    },
   ];
+
+  return values.filter((item) => !item.isHidden);
 };
 
 export { getFilmSummaryConfig, type SummaryConfig };

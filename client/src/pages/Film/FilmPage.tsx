@@ -53,7 +53,7 @@ const FilmPage = () => {
 
       <Section>
         <SectionTitle>Description</SectionTitle>
-        <Description content={film.description} />
+        <Description content={film.description} key={film._id} />
       </Section>
 
       <Section>
