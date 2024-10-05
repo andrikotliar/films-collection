@@ -1,0 +1,158 @@
+{
+  "id": "00f76f3481874ea24cab2db9",
+  "type": [
+    "Film"
+  ],
+  "title": "The Maze Runner",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Wes Ball"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Noah Oppenheim"
+        },
+        {
+          "name": "Grant Pierce Myers"
+        },
+        {
+          "name": "T.S. Nowlin"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Marty Bowen"
+        },
+        {
+          "name": "Wyck Godfrey"
+        },
+        {
+          "name": "Ellen Goldsmith-Vein"
+        },
+        {
+          "name": "Lee Stollman"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "John Paesano"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Enrique Chediak"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 113,
+  "cast": [
+    {
+      "actor": "8e204b8e5e38fbae1fe008a4",
+      "character": {
+        "name": "Thomas"
+      }
+    },
+    {
+      "actor": "d89b2eaf6097bb037c6d8ca0",
+      "character": {
+        "name": "Teresa"
+      }
+    },
+    {
+      "actor": "1f5745e5d1b695d05ebc9a5a",
+      "character": {
+        "name": "Alby"
+      }
+    },
+    {
+      "actor": "4ee52e26623792a1c498ac41",
+      "character": {
+        "name": "Newt"
+      }
+    },
+    {
+      "actor": "c4c83bf5a6e512ae8f39d75a",
+      "character": {
+        "name": "Minho"
+      }
+    },
+    {
+      "actor": "f88ba806540e968863c214e3",
+      "character": {
+        "name": "Gally"
+      }
+    },
+    {
+      "actor": "595711382f59b56d8f35eb6f",
+      "character": {
+        "name": "Ava Paige"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Dystopia"
+    }
+  ],
+  "budget": 34000000,
+  "awards": [
+    {
+      "awardKey": "MtvAward",
+      "nominations": [
+        {
+          "title": "Breakthrough Performance",
+          "actor": "8e204b8e5e38fbae1fe008a4"
+        },
+        {
+          "title": "Best Fight",
+          "comment": "Dylan O'Brien and Will Poulter"
+        },
+        {
+          "title": "Best Hero",
+          "comment": "As Thomas",
+          "actor": "8e204b8e5e38fbae1fe008a4"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 348000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow \"runners\" for a shot at escape."
+    }
+  ],
+  "chaptersId": "bc33d14754daed641df7a296",
+  "releaseDate": "2014-09-19",
+  "watchCount": 1,
+  "studios": [
+    "20thCenturyFox"
+  ],
+  "trailer": "AwwbhhjQ9Xk",
+  "poster": "maze_runner_1.webp"
+}

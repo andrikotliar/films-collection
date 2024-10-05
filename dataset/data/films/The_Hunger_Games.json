@@ -1,0 +1,173 @@
+{
+  "id": "312bb61bcac4b198078a5215",
+  "type": [
+    "Film"
+  ],
+  "title": "The Hunger Games",
+  "genres": [
+    "SciFi",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Gary Ross"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Gary Ross"
+        },
+        {
+          "name": "Suzanne Collins"
+        },
+        {
+          "name": "Billy Ray"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Nina Jacobson"
+        },
+        {
+          "name": "Jon Kilik"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "James Newton Howard"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Tom Stern"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 142,
+  "cast": [
+    {
+      "actor": "c99e4f6dc0695561848dc5be",
+      "character": {
+        "name": "Katniss Everdeen"
+      }
+    },
+    {
+      "actor": "e87403fc0ddcab36a8107ef0",
+      "character": {
+        "name": "Peeta Mellark"
+      }
+    },
+    {
+      "actor": "f1235dcc20310d42acc94ada",
+      "character": {
+        "name": "Gale Hawthorne"
+      }
+    },
+    {
+      "actor": "024affbe7a45ee9fc554bf76",
+      "character": {
+        "name": "Haymitch Abernathy"
+      }
+    },
+    {
+      "actor": "1a8c1ba8704e691a5c41e81b",
+      "character": {
+        "name": "Effie Trinket"
+      }
+    },
+    {
+      "actor": "0a85caa30a6c53a9cd428287",
+      "character": {
+        "name": "Cinna"
+      }
+    },
+    {
+      "actor": "a63daeaff1736e80ecb72103",
+      "character": {
+        "name": "Caesar Flickerman"
+      }
+    },
+    {
+      "actor": "f58457964f741e7cd096d744",
+      "character": {
+        "name": "Seneca Crane"
+      }
+    },
+    {
+      "actor": "caed9d8a8188d066bfcfcfa8",
+      "character": {
+        "name": "President Coriolanus Snow"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Dystopia"
+    }
+  ],
+  "budget": 78000000,
+  "awards": [
+    {
+      "awardKey": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Feature Film"
+        }
+      ]
+    },
+    {
+      "awardKey": "MtvAward",
+      "nominations": [
+        {
+          "title": "Best Male Performance",
+          "actor": "e87403fc0ddcab36a8107ef0"
+        },
+        {
+          "title": "Best Female Performance",
+          "actor": "c99e4f6dc0695561848dc5be"
+        },
+        {
+          "title": "Best On-Screen Transformation"
+        },
+        {
+          "title": "Best Fight"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 694000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death."
+    }
+  ],
+  "chaptersId": "ee0e6048d16760e2bc2c11d3",
+  "releaseDate": "2012-03-23",
+  "watchCount": 2,
+  "studios": [
+    "Lionsgate"
+  ],
+  "trailer": "mfmrPu43DF8",
+  "poster": "hunger_games_1.webp"
+}

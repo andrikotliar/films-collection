@@ -1,0 +1,176 @@
+{
+  "id": "630b8aef862e4ced32659eb4",
+  "type": [
+    "Film"
+  ],
+  "title": "Aliens",
+  "genres": [
+    "SciFi",
+    "Horror"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "James Cameron"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "James Cameron"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Gale Anne Hurd"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "James Horner"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Adrian Biddle"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "UK"
+  ],
+  "duration": 137,
+  "cast": [
+    {
+      "actor": "ca74e2b4d921daf8283f1f08",
+      "character": {
+        "name": "Ripley"
+      }
+    },
+    {
+      "actor": "e76f8d6303a283a38410a506",
+      "character": {
+        "name": "Newt"
+      }
+    },
+    {
+      "actor": "ddeef4fd51b50bcc160a21c5",
+      "character": {
+        "name": "Corporal Hicks"
+      }
+    },
+    {
+      "actor": "719eb3b64cfb07656d850861",
+      "character": {
+        "name": "Carter J. Burke"
+      }
+    },
+    {
+      "actor": "36f1bddb19c9e4030a07d6e3",
+      "character": {
+        "name": "Bishop"
+      }
+    },
+    {
+      "actor": "2118f05852939b389e792478",
+      "character": {
+        "name": "Private Hudson"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Space"
+    }
+  ],
+  "budget": 18000000,
+  "awards": [
+    {
+      "awardKey": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Sound Effects Editing"
+        },
+        {
+          "title": "Best Effects, Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardKey": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Special Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best DVD Collection",
+          "comment": "As part of the \"Alien Anthology\""
+        },
+        {
+          "title": "Best Science Fiction Film"
+        },
+        {
+          "title": "Best Actress",
+          "actor": "ca74e2b4d921daf8283f1f08"
+        },
+        {
+          "title": "Best Supporting Actor",
+          "actor": "2118f05852939b389e792478"
+        },
+        {
+          "title": "Best Supporting Actress",
+          "comment": "Jenette Goldstein"
+        },
+        {
+          "title": "Best Performance by a Younger Actor",
+          "actor": "e76f8d6303a283a38410a506"
+        },
+        {
+          "title": "Best Director"
+        },
+        {
+          "title": "Best Writing"
+        },
+        {
+          "title": "Best Special Effects"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 131000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators."
+    }
+  ],
+  "chaptersId": "63306d5a4ad3381888cd3188",
+  "releaseDate": "1986-07-18",
+  "watchCount": 3,
+  "studios": [
+    "20thCenturyFox"
+  ],
+  "trailer": "oSeQQlaCZgU",
+  "poster": "alien_2.webp"
+}

@@ -1,0 +1,160 @@
+{
+  "id": "fa3a0a9226d19f4b0021b698",
+  "type": [
+    "Film"
+  ],
+  "title": "Thor: The Dark World",
+  "genres": [
+    "Fantasy",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Alan Taylor"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Christopher Yost"
+        },
+        {
+          "name": "Stephen McFeely"
+        },
+        {
+          "name": "Christopher Markus"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Brian Tyler"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Kramer Morgenthau"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 112,
+  "cast": [
+    {
+      "actor": "9d6f7bec0a46789eaa403786",
+      "character": {
+        "name": "Thor"
+      }
+    },
+    {
+      "actor": "b3703e901df3a8c85c2f0949",
+      "character": {
+        "name": "Jane Foster"
+      }
+    },
+    {
+      "actor": "1c93c03ba9a9870918b112fb",
+      "character": {
+        "name": "Loki"
+      }
+    },
+    {
+      "actor": "da765b1b4b74c95d954ac411",
+      "character": {
+        "name": "Odin"
+      }
+    },
+    {
+      "actor": "5f76e5457eb86477b266c6f9",
+      "character": {
+        "name": "Malekith"
+      }
+    },
+    {
+      "actor": "69d55a79906818a4d763880d",
+      "character": {
+        "name": "Sif"
+      }
+    },
+    {
+      "actor": "295c1eb00164975bc6a72ed0",
+      "character": {
+        "name": "Fandral"
+      }
+    },
+    {
+      "actor": "e378f7dbbb04429f326bd269",
+      "character": {
+        "name": "Volstagg"
+      }
+    },
+    {
+      "actor": "9ec78fa79210e5961b8c4753",
+      "character": {
+        "name": "Hogun"
+      }
+    },
+    {
+      "actor": "ae8fde81451592bb39107acc",
+      "character": {
+        "name": "Heimdall"
+      }
+    },
+    {
+      "actor": "0cc9f0ab8904d4ee9ff25d05",
+      "character": {
+        "name": "Frigga"
+      }
+    },
+    {
+      "actor": "aa2d93faf92b4c807a30a533",
+      "character": {
+        "name": "Darcy Lewis"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "MCU"
+    }
+  ],
+  "budget": 153000000,
+  "boxOffice": 645000000,
+  "rating": 1,
+  "description": [
+    {
+      "title": null,
+      "text": "When Dr. Jane Foster gets cursed with a powerful entity known as the Aether, Thor is heralded of the cosmic event known as the Convergence and the genocidal Dark Elves."
+    }
+  ],
+  "chaptersId": "07bf3e15ce289b98963660c5",
+  "releaseDate": "2013-11-08",
+  "watchCount": 0,
+  "studios": [
+    "WaltDisney",
+    "MarvelStudios"
+  ],
+  "trailer": "npvJ9FTgZbM",
+  "poster": "thor_2.webp"
+}

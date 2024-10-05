@@ -1,0 +1,140 @@
+{
+  "id": "5a88344046362b7d09bf1a63",
+  "type": [
+    "Film"
+  ],
+  "title": "World War Z",
+  "genres": [
+    "Action",
+    "Adventures",
+    "Horror"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Marc Forster"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Matthew Michael Carnahan"
+        },
+        {
+          "name": "Drew Goddard"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Brad Pitt"
+        },
+        {
+          "name": "Dede Gardner"
+        },
+        {
+          "name": "Jeremy Kleiner"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Marco Beltrami"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Ben Seresin"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 116,
+  "cast": [
+    {
+      "actor": "59689e0c8b7cf79f98fb2395",
+      "character": {
+        "name": "Gerry Lane"
+      }
+    },
+    {
+      "actor": "d1b15d6a0de5023428bcca5e",
+      "character": {
+        "name": "Karin Lane"
+      }
+    },
+    {
+      "actor": "fb3bf0f7826e5270cea890a9",
+      "character": {
+        "name": "Segen"
+      }
+    },
+    {
+      "actor": "5bbe4522188dfae241a49323",
+      "character": {
+        "name": "Captain Speke"
+      }
+    },
+    {
+      "actor": "de6dd183d81d208a02b16123",
+      "character": {
+        "name": "Jurgen Warmbrunn"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Future"
+    }
+  ],
+  "budget": 190000000,
+  "awards": [
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best thriller Film"
+        }
+      ]
+    },
+    {
+      "awardKey": "MtvAward",
+      "nominations": [
+        {
+          "title": "Best Scared-As-S**t Performance",
+          "actor": "59689e0c8b7cf79f98fb2395"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 540000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "Former United Nations employee Gerry Lane traverses the world in a race against time to stop the Zombie pandemic that is toppling armies and governments, and threatening to destroy humanity itself."
+    }
+  ],
+  "releaseDate": "2013-06-21",
+  "watchCount": 1,
+  "studios": [
+    "Paramount",
+    "Skydance"
+  ],
+  "trailer": "Md6Dvxdr0AQ",
+  "poster": "world_war_z.webp"
+}

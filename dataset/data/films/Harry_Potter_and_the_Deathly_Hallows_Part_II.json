@@ -1,0 +1,164 @@
+{
+  "id": "89fbe54b80d84f5c98d10f7d",
+  "type": [
+    "Film"
+  ],
+  "title": "Harry Potter and the Deathly Hallows: Part II",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "David Yates"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Steve Kloves"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "David Heyman"
+        },
+        {
+          "name": "David Barron"
+        },
+        {
+          "name": "J.K.Rowling"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Alexandre Desplat"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Eduardo Serra"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "UK"
+  ],
+  "duration": 130,
+  "cast": [
+    {
+      "actor": "7cd730dd761c711d4467bce0",
+      "character": {
+        "name": "Harry Potter",
+        "image": "harry_potter_and_the_deathly_hallows_part_ii_harry_potter.webp"
+      }
+    },
+    {
+      "actor": "076188ec6b66a2c4a62fdab1",
+      "character": {
+        "name": "Ron Weasley",
+        "image": "harry_potter_and_the_deathly_hallows_part_ii_ron_weasley.webp"
+      }
+    },
+    {
+      "actor": "3f0004fa95271000de67d1f4",
+      "character": {
+        "name": "Hermione Granger",
+        "image": "harry_potter_and_the_deathly_hallows_part_ii_hermione_granger.webp"
+      }
+    },
+    {
+      "actor": "25210612f77f5f5a4c51dc56",
+      "character": {
+        "name": "Lord Voldemort",
+        "image": "harry_potter_and_the_deathly_hallows_part_ii_lord_voldemort.webp"
+      }
+    },
+    {
+      "actor": "aca6f583677ffb4c7f38d469",
+      "character": {
+        "name": "Draco Malfoy"
+      }
+    },
+    {
+      "actor": "9433a6747c6cfc354fed7e65",
+      "character": {
+        "name": "Severus Snape"
+      }
+    },
+    {
+      "actor": "7c8f0b1de7ecf27f246a8ef9",
+      "character": {
+        "name": "Professor Minerva McGonagall"
+      }
+    },
+    {
+      "actor": "c48140776a00c66306d075b6",
+      "character": {
+        "name": "Neville Longbottom"
+      }
+    },
+    {
+      "actor": "5aea15b4e9912ad7b3a2241e",
+      "character": {
+        "name": "Rubeus Hagrid"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "HPU"
+    }
+  ],
+  "budget": 250000000,
+  "awards": [
+    {
+      "awardKey": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Special Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best fantasy Film"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 1340000000,
+  "rating": 3,
+  "description": [
+    {
+      "title": null,
+      "text": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts."
+    }
+  ],
+  "chaptersId": "21fe420121bd2018a3c76f32",
+  "releaseDate": "2011-07-15",
+  "watchCount": 4,
+  "studios": [
+    "WarnerBros"
+  ],
+  "trailer": "5NYt1qirBWg",
+  "poster": "harry_potter_8.webp"
+}

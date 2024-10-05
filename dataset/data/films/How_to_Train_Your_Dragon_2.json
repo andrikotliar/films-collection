@@ -1,0 +1,115 @@
+{
+  "id": "7a0d24e045519802fea79556",
+  "type": [
+    "Animation"
+  ],
+  "title": "How to Train Your Dragon 2",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Dean DeBlois"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Dean DeBlois"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Bonnie Amold"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "John Powell"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 102,
+  "cast": [
+    {
+      "actor": "a7d35039857e23987e0e044c",
+      "character": {
+        "name": "Hiccup",
+        "image": "how_to_train_your_dragon_2_hiccup.webp"
+      }
+    },
+    {
+      "actor": "7a354da5768fef2be29583f0",
+      "character": {
+        "name": "Valka",
+        "image": "how_to_train_your_dragon_2_valka.webp"
+      }
+    },
+    {
+      "actor": "19691d0b10cb811590497ff2",
+      "character": {
+        "name": "Stoick",
+        "image": "how_to_train_your_dragon_2_stoick.webp"
+      }
+    },
+    {
+      "actor": "6c95d5ee7e91ad5d5e781165",
+      "character": {
+        "name": "Astrid",
+        "image": "how_to_train_your_dragon_2_astrid.webp"
+      }
+    },
+    {
+      "actor": "bdb2e64bab1a24a00031585c",
+      "character": {
+        "name": "Drago Bludvist",
+        "image": "how_to_train_your_dragon_2_drago_bludvist.webp"
+      }
+    },
+    {
+      "actor": "6aa92fa181848669babe20bb",
+      "character": {
+        "name": "Eret",
+        "image": "how_to_train_your_dragon_2_eret.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "FantasyWorlds"
+    }
+  ],
+  "budget": 145000000,
+  "boxOffice": 621000000,
+  "rating": 3,
+  "description": [
+    {
+      "title": null,
+      "text": "When Hiccup and Toothless discover an ice cave that is home to hundreds of new wild dragons and the mysterious Dragon Rider, the two friends find themselves at the center of a battle to protect the peace."
+    }
+  ],
+  "chaptersId": "505ca8ef309447d9fcfc78d7",
+  "releaseDate": "2014-06-13",
+  "watchCount": 5,
+  "studios": [
+    "DreamWorksAnimation"
+  ],
+  "trailer": "2BP38770KNo",
+  "poster": "how_to_train_your_dragon_2.webp"
+}

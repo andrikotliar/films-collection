@@ -1,0 +1,120 @@
+{
+  "id": "4b29a9f246c87a87cbcb6e5f",
+  "type": [
+    "Film"
+  ],
+  "title": "The Transporter",
+  "genres": [
+    "Action",
+    "Crime"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Louis Leterrier"
+        },
+        {
+          "name": "Corey Yuen"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Luc Besson"
+        },
+        {
+          "name": "Robert Mark Kamen"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Luc Besson"
+        },
+        {
+          "name": "Stephen Chasman"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Stenley Clark"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Pierre Morel"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "FR"
+  ],
+  "duration": 92,
+  "cast": [
+    {
+      "actor": "de0e3c154d6e85358e70d67b",
+      "character": {
+        "name": "Frank Martin"
+      }
+    },
+    {
+      "actor": "0e3195f166af871176d9342d",
+      "character": {
+        "name": "Lai"
+      }
+    },
+    {
+      "actor": "5dd235b43a3f52f2ab92f2dd",
+      "character": {
+        "name": "Wall Street"
+      }
+    },
+    {
+      "actor": "27701bc9dbcd310c14d85191",
+      "character": {
+        "name": "Inspector Tarconi"
+      }
+    },
+    {
+      "actor": "83eaf5cba7d6f097b7c1f9a0",
+      "character": {
+        "name": "Mr. Kwai"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Cars"
+    }
+  ],
+  "budget": 21000000,
+  "boxOffice": 44000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "Frank is hired to \"transport\" packages for unknown clients and has made a very good living doing so. But when asked to move a package that begins moving, complications arise."
+    }
+  ],
+  "chaptersId": "25c70902689af0504af43bea",
+  "releaseDate": "2002-10-11",
+  "watchCount": 5,
+  "studios": [
+    "EuropaCorp"
+  ],
+  "trailer": "0poXFSvX0_4",
+  "poster": "transporter_1.webp"
+}

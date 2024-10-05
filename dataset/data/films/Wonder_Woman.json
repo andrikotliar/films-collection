@@ -1,0 +1,159 @@
+{
+  "id": "2969c31024211d2a327fa7fa",
+  "type": [
+    "Film"
+  ],
+  "title": "Wonder Woman",
+  "genres": [
+    "Fantasy",
+    "Adventures",
+    "Drama"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Patty Jenkins"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Allan Heinberg"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Charles Roven"
+        },
+        {
+          "name": "Deborah Snyder"
+        },
+        {
+          "name": "Zack Snyder"
+        },
+        {
+          "name": "Richard Suckle"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Rupert Gregson-Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Matthew Jensen"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 141,
+  "cast": [
+    {
+      "actor": "689592fad487486ce5468f9f",
+      "character": {
+        "name": "Diana"
+      }
+    },
+    {
+      "actor": "3acb4259a5ddd7988015fa82",
+      "character": {
+        "name": "Steve Trevor"
+      }
+    },
+    {
+      "actor": "4d5652537ad12d0b2754f438",
+      "character": {
+        "name": "Hippolyta"
+      }
+    },
+    {
+      "actor": "dfa09aeffb608e0483017ef2",
+      "character": {
+        "name": "Antiope"
+      }
+    },
+    {
+      "actor": "9bfda7c213e843540df28a8e",
+      "character": {
+        "name": "Ludendorff"
+      }
+    },
+    {
+      "actor": "8220d1e507128ef20527db35",
+      "character": {
+        "name": "Sir Patrick"
+      }
+    },
+    {
+      "actor": "822e6b06d8f124fb8ea82fae",
+      "character": {
+        "name": "Sameer"
+      }
+    },
+    {
+      "actor": "6bab49cf88fd143cc4b06c15",
+      "character": {
+        "name": "Charlie"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "DEU"
+    }
+  ],
+  "budget": 120000000,
+  "awards": [
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Actress",
+          "actor": "689592fad487486ce5468f9f"
+        }
+      ]
+    },
+    {
+      "awardKey": "CriticsChoiceAward",
+      "nominations": [
+        {
+          "title": "Best action Movie"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 822000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny."
+    }
+  ],
+  "chaptersId": "d923cc31cdf721e7ddeb1616",
+  "releaseDate": "2017-06-02",
+  "watchCount": 2,
+  "studios": [
+    "DCEntertainment",
+    "WarnerBros"
+  ],
+  "trailer": "1Q8fG0TtVAY",
+  "poster": "wonder_woman.webp"
+}

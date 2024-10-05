@@ -1,0 +1,156 @@
+{
+  "id": "f027ada93008bd7c5a4db3ba",
+  "type": [
+    "Film"
+  ],
+  "title": "Mission: Impossible III",
+  "genres": [
+    "Action",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "J.J. Abrams"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Alex Kurtzman"
+        },
+        {
+          "name": "Roberto Orci"
+        },
+        {
+          "name": "J.J. Abrams"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Tom Cruise"
+        },
+        {
+          "name": "Paula Wagner"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Michael Giacchino"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Dan Mindel"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 125,
+  "cast": [
+    {
+      "actor": "d1899eef1c53bc13798a897c",
+      "character": {
+        "name": "Ethan Hunt"
+      }
+    },
+    {
+      "actor": "c610e4f42d9c286feb79406f",
+      "character": {
+        "name": "Owen Davian"
+      }
+    },
+    {
+      "actor": "4b4ebf97ca75b72088e2c948",
+      "character": {
+        "name": "Luther"
+      }
+    },
+    {
+      "actor": "9c57739a346420f6559d37cc",
+      "character": {
+        "name": "Musgrave"
+      }
+    },
+    {
+      "actor": "eed3fec56e5b7a0ad8aa447a",
+      "character": {
+        "name": "Julia"
+      }
+    },
+    {
+      "actor": "874e82daab03d3285a584177",
+      "character": {
+        "name": "Declan"
+      }
+    },
+    {
+      "actor": "7d16e2be1c0a97fe0cf6bbfa",
+      "character": {
+        "name": "Lindsey Farris"
+      }
+    },
+    {
+      "actor": "d325fd9673d40c35f38e6a4c",
+      "character": {
+        "name": "Zhen"
+      }
+    },
+    {
+      "actor": "2e7736bf7187e688395d7a2c",
+      "character": {
+        "name": "Benji"
+      }
+    },
+    {
+      "actor": "3aa02c5c103eb81507ea1152",
+      "character": {
+        "name": "Brownway"
+      }
+    },
+    {
+      "actor": "598ea6d5be8fe378787adde7",
+      "character": {
+        "name": "Theodore Brassel"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "AgentsDetectives"
+    }
+  ],
+  "budget": 150000000,
+  "boxOffice": 398000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "IMF Agent Ethan Hunt comes into conflict with a dangerous and sadistic arms dealer who threatens his life and his fiancée in response."
+    }
+  ],
+  "chaptersId": "7201769b07df74e644bc0b02",
+  "releaseDate": "2006-05-05",
+  "watchCount": 2,
+  "studios": [
+    "Paramount"
+  ],
+  "trailer": "rl2bysiyltg",
+  "poster": "mi_3.webp"
+}

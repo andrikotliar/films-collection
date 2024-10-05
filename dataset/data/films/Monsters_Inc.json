@@ -1,0 +1,139 @@
+{
+  "id": "f84e3104f7fc72838b308983",
+  "type": [
+    "Animation"
+  ],
+  "title": "Monsters, Inc.",
+  "genres": [
+    "Adventures",
+    "Comedy"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Pete Docter"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Andrew Stanton"
+        },
+        {
+          "name": "Daniel Gerson"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Darla K. Anderson"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Randy Newman"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 92,
+  "cast": [
+    {
+      "actor": "21f0a165913e9a2876a027c5",
+      "character": {
+        "name": "Sullivan",
+        "image": "monsters_inc_sullivan.webp"
+      }
+    },
+    {
+      "actor": "941950fd8984681e1bfb7ec0",
+      "character": {
+        "name": "Mike",
+        "image": "monsters_inc_mike.webp"
+      }
+    },
+    {
+      "actor": "7e406122c4fcbfa64b88db69",
+      "character": {
+        "name": "Boo",
+        "image": "monsters_inc_boo.webp"
+      }
+    },
+    {
+      "actor": "5c58d54c5785d9f88ee7578c",
+      "character": {
+        "name": "Randall",
+        "image": "monsters_inc_randall.webp"
+      }
+    },
+    {
+      "actor": "857c4c71c4dbba844fc41696",
+      "character": {
+        "name": "Waternoose",
+        "image": "monsters_inc_waternoose.webp"
+      }
+    },
+    {
+      "actor": "ba3fbe03b8beb8d9c1096b7e",
+      "character": {
+        "name": "Celia",
+        "image": "monsters_inc_celia.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "FantasyWorlds"
+    },
+    {
+      "key": "Monsters"
+    }
+  ],
+  "budget": 115000000,
+  "awards": [
+    {
+      "awardKey": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Music (Original Song)",
+          "comment": "Song \"If I Didn't Have You\""
+        }
+      ]
+    },
+    {
+      "awardKey": "AnnieAward",
+      "nominations": [
+        {
+          "title": "Outstanding Character Animation"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 580000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, 2 monsters realize things may not be what they think."
+    }
+  ],
+  "releaseDate": "2001-11-02",
+  "watchCount": 5,
+  "studios": [
+    "Pixar"
+  ],
+  "trailer": "6tCxnHCqqxg",
+  "poster": "monsters_inc.webp"
+}

@@ -1,0 +1,208 @@
+{
+  "id": "d23c335d28a6de652bba41d0",
+  "type": [
+    "Series",
+    "Animation"
+  ],
+  "title": "Arcane",
+  "genres": [
+    "Adventures",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Pascal Charrue"
+        },
+        {
+          "name": "Arnaud Delord"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Christian Linke",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Ash Brannon",
+          "comment": "1 episode"
+        },
+        {
+          "name": "David Dunne",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Amanda Overton",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Alex Yee",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Nick Luddington",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Ben St. John",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Mollie Bickley St. John",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Christian Linke"
+        },
+        {
+          "name": "Marc Merill"
+        },
+        {
+          "name": "Brandon Beck"
+        },
+        {
+          "name": "Jane Chung"
+        },
+        {
+          "name": "Thomas Vu"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Alex Seaver"
+        },
+        {
+          "name": "Alexander Temple"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "FR"
+  ],
+  "duration": 410,
+  "cast": [
+    {
+      "actor": "7e009e344b1d17321f88e62c",
+      "character": {
+        "name": "Vi",
+        "image": "arcane_vi.webp"
+      }
+    },
+    {
+      "actor": "fe6dafd9367a52a6060a4b8a",
+      "character": {
+        "name": "Jinx",
+        "image": "arcane_jinx.webp"
+      }
+    },
+    {
+      "actor": "a7af62b3403e31d5c6db8648",
+      "character": {
+        "name": "Jayce",
+        "image": "arcane_jayce.webp"
+      }
+    },
+    {
+      "actor": "3160b4ddf40b96dda240f985",
+      "character": {
+        "name": "Silco",
+        "image": "arcane_silco.webp"
+      }
+    },
+    {
+      "actor": "7c78916145e93dc6de49d74a",
+      "character": {
+        "name": "Viktor",
+        "image": "arcane_viktor.webp"
+      }
+    },
+    {
+      "actor": "101e36f1a5662c85c8668c5f",
+      "character": {
+        "name": "Mel Medarda",
+        "image": "arcane_mel_medarda.webp"
+      }
+    },
+    {
+      "actor": "edcee36f388eca4becb20e59",
+      "character": {
+        "name": "Vander",
+        "image": "arcane_vander.webp"
+      }
+    },
+    {
+      "actor": "9eb32f003eef46ba941bc074",
+      "character": {
+        "name": "Marcus",
+        "image": "arcane_marcus.webp"
+      }
+    },
+    {
+      "actor": "9653453e3c9469d1296e9751",
+      "character": {
+        "name": "Caitlyn",
+        "image": "arcane_caitlyn.webp"
+      }
+    },
+    {
+      "actor": "63f2459a0d049e96a665f4aa",
+      "character": {
+        "name": "Heimerdinger",
+        "image": "arcane_heimerdinger.webp"
+      }
+    },
+    {
+      "actor": "5ebd6bd81c77390df14203aa",
+      "character": {
+        "name": "Ekko",
+        "image": "arcane_ekko.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "FantasyWorlds"
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 9,
+    "seasons": [
+      {
+        "title": "Season 1",
+        "number": 1,
+        "episodesCount": 9,
+        "releaseDate": "2021-11-06",
+        "trailer": "3Svs_hl897c"
+      }
+    ]
+  },
+  "rating": 2,
+  "description": [
+    {
+      "title": "Season 1",
+      "text": "Set in utopian Piltover and the oppressed underground of Zaun, the story follows the origins of two iconic League champions-and the power that will tear them apart."
+    }
+  ],
+  "releaseDate": "2021-11-06",
+  "watchCount": 2,
+  "studios": [
+    "Netflix",
+    "RiotGames"
+  ],
+  "poster": "arcane.webp"
+}

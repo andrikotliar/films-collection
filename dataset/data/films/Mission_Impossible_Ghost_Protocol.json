@@ -1,0 +1,133 @@
+{
+  "id": "38f789e2895205a04271bb60",
+  "type": [
+    "Film"
+  ],
+  "title": "Mission: Impossible - Ghost Protocol",
+  "genres": [
+    "Action",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Brad Bird"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Josh Appelbaum"
+        },
+        {
+          "name": "Andre Nemec"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Tom Cruise"
+        },
+        {
+          "name": "Bryan Burk"
+        },
+        {
+          "name": "J.J. Abrams"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Michael Giacchino"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Robert Elswit"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 133,
+  "cast": [
+    {
+      "actor": "d1899eef1c53bc13798a897c",
+      "character": {
+        "name": "Ethan Hunt"
+      }
+    },
+    {
+      "actor": "dbed75996832076f78882cf8",
+      "character": {
+        "name": "Jane"
+      }
+    },
+    {
+      "actor": "2e7736bf7187e688395d7a2c",
+      "character": {
+        "name": "Benji"
+      }
+    },
+    {
+      "actor": "333fe7873ab5451125a195a7",
+      "character": {
+        "name": "Brandt"
+      }
+    },
+    {
+      "actor": "c418b9e3237cdf8d4c085bbe",
+      "character": {
+        "name": "Hendricks"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "AgentsDetectives"
+    }
+  ],
+  "budget": 145000000,
+  "awards": [
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best action/Adventure Film"
+        },
+        {
+          "title": "Best Editing"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 695000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name."
+    }
+  ],
+  "chaptersId": "7201769b07df74e644bc0b02",
+  "releaseDate": "2011-12-16",
+  "watchCount": 1,
+  "studios": [
+    "Paramount"
+  ],
+  "trailer": "EDGYVFZxsXQ",
+  "poster": "mi_4.webp"
+}

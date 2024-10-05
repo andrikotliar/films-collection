@@ -1,0 +1,114 @@
+{
+  "id": "94ea549619382a4055b132ee",
+  "type": [
+    "Film"
+  ],
+  "title": "In Time",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Andrew Niccol"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Andrew Niccol"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Andrew Niccol"
+        },
+        {
+          "name": "Marc Abraham"
+        },
+        {
+          "name": "Eric Newman"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Craig Armstrong"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Roger Deakins"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 109,
+  "cast": [
+    {
+      "actor": "4d17abf9b912a4f64b129f98",
+      "character": {
+        "name": "Will Salas"
+      }
+    },
+    {
+      "actor": "dd5f72e72f49b70f6c149b82",
+      "character": {
+        "name": "Rachel Salas"
+      }
+    },
+    {
+      "actor": "707daa90ceccdd76410a856d",
+      "character": {
+        "name": "Maya"
+      }
+    },
+    {
+      "actor": "b52ce25721eb9f4c0758ebd7",
+      "character": {
+        "name": "Borel"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Future"
+    },
+    {
+      "key": "Top10",
+      "order": 6
+    }
+  ],
+  "budget": 40000000,
+  "boxOffice": 174000000,
+  "rating": 3,
+  "description": [
+    {
+      "title": null,
+      "text": "In a future where people stop aging at 25, but are engineered to live only one more year, having the means to buy your way out of the situation is a shot at immortal youth. Here, Will Salas finds himself accused of murder and on the run with a hostage - a connection that becomes an important part of the way against the system."
+    }
+  ],
+  "releaseDate": "2011-10-28",
+  "watchCount": 5,
+  "studios": [
+    "20thCenturyFox"
+  ],
+  "trailer": "fdadZ_KrZVw",
+  "poster": "time.webp"
+}

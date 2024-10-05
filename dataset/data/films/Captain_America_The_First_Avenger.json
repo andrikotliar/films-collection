@@ -1,0 +1,147 @@
+{
+  "id": "71fef8ada43ee070d4ef51ec",
+  "type": [
+    "Film"
+  ],
+  "title": "Captain America: The First Avenger",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Joe Johnston"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Christopher Markus"
+        },
+        {
+          "name": "Stephen McFeely"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Alan Silvestri"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Shelly Johnson"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 124,
+  "cast": [
+    {
+      "actor": "b3356695e90767defc7c4421",
+      "character": {
+        "name": "Captain America / Steve Rogers",
+        "image": "captain_america_the_first_avenger_captain_america.webp"
+      }
+    },
+    {
+      "actor": "94514db34be89be1d1e79dea",
+      "character": {
+        "name": "Peggy Carter"
+      }
+    },
+    {
+      "actor": "5f86048e81f0f2f8d811005f",
+      "character": {
+        "name": "James Buchanan 'Bucky' Barnes"
+      }
+    },
+    {
+      "actor": "585bc630dfa836dd72779c8d",
+      "character": {
+        "name": "Colonel Chester Phillips"
+      }
+    },
+    {
+      "actor": "9d72ccad0a0c60872b91d2d3",
+      "character": {
+        "name": "Johann Schmidt / Red Skull",
+        "image": "captain_america_the_first_avenger_johann_schmidt.webp"
+      }
+    },
+    {
+      "actor": "f4cb72260e2b853fcfff42e7",
+      "character": {
+        "name": "Howard Stark"
+      }
+    },
+    {
+      "actor": "41335f6bf9c6162d73c8cc49",
+      "character": {
+        "name": "Heinz Kruger"
+      }
+    },
+    {
+      "actor": "a63daeaff1736e80ecb72103",
+      "character": {
+        "name": "Dr. Abraham Erskine"
+      }
+    },
+    {
+      "actor": "b066e50c67b8ffebd4ea16ba",
+      "character": {
+        "name": "Nick Fury"
+      }
+    },
+    {
+      "actor": "0c745814f1b5b36341674138",
+      "character": {
+        "name": "Dr. Arnim Zola"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "MCU"
+    }
+  ],
+  "budget": 140000000,
+  "boxOffice": 371000000,
+  "rating": 1,
+  "description": [
+    {
+      "title": null,
+      "text": "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization."
+    }
+  ],
+  "chaptersId": "07bf3e15ce289b98963660c5",
+  "releaseDate": "2011-07-22",
+  "watchCount": 4,
+  "studios": [
+    "MarvelStudios",
+    "Paramount"
+  ],
+  "trailer": "JerVrbLldXw",
+  "poster": "captain_america_1.webp"
+}

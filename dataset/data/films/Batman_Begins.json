@@ -1,0 +1,181 @@
+{
+  "id": "815b290090a31328072bf5be",
+  "type": [
+    "Film"
+  ],
+  "title": "Batman Begins",
+  "genres": [
+    "Action",
+    "Thriller"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Christopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Christopher Nolan"
+        },
+        {
+          "name": "David S. Goyer"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Charles Roven"
+        },
+        {
+          "name": "Emma Thomas"
+        },
+        {
+          "name": "Larry Franco"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        },
+        {
+          "name": "James Newton Howard"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Wally Pfister"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 140,
+  "cast": [
+    {
+      "actor": "b794f150c4436f17ba9bd9f1",
+      "character": {
+        "name": "Bruce Wayne / Batman",
+        "image": "batman_begins_bruce_wayne.webp"
+      }
+    },
+    {
+      "actor": "68a6bf55b5f042549fda0642",
+      "character": {
+        "name": "Alfred"
+      }
+    },
+    {
+      "actor": "017e02072132c3a7ad26b56e",
+      "character": {
+        "name": "Anri Ducard / Ra's al Ghul"
+      }
+    },
+    {
+      "actor": "d868255b3a88ba5703bd526a",
+      "character": {
+        "name": "Rachel Dawes"
+      }
+    },
+    {
+      "actor": "a03a7c1a8a396d3211b9b317",
+      "character": {
+        "name": "Jim Gordon"
+      }
+    },
+    {
+      "actor": "fe1abb15a45afafd3263a771",
+      "character": {
+        "name": "Dr. Jonathan Crane / The Scarecrow"
+      }
+    },
+    {
+      "actor": "050465e1990ba7d5eea1681d",
+      "character": {
+        "name": "Carmine Falcone"
+      }
+    },
+    {
+      "actor": "21a931a7f55de1d5ddc6e68b",
+      "character": {
+        "name": "Earle"
+      }
+    },
+    {
+      "actor": "327088b7b64f3ac9a97651b1",
+      "character": {
+        "name": "Ra's Al Ghul"
+      }
+    },
+    {
+      "actor": "6baca3c5f3dcf4fb1271cb34",
+      "character": {
+        "name": "Lucius Fox"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Superheroes"
+    }
+  ],
+  "budget": 150000000,
+  "awards": [
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best fantasy Film"
+        },
+        {
+          "title": "Best Actor",
+          "actor": "b794f150c4436f17ba9bd9f1"
+        },
+        {
+          "title": "Best Writing"
+        }
+      ]
+    },
+    {
+      "awardKey": "MtvAward",
+      "nominations": [
+        {
+          "title": "Best Hero",
+          "actor": "b794f150c4436f17ba9bd9f1"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 375000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption."
+    }
+  ],
+  "chaptersId": "c4d28635d7656ca68d38e43c",
+  "releaseDate": "2005-06-15",
+  "watchCount": 2,
+  "studios": [
+    "WarnerBros",
+    "Legendary"
+  ],
+  "trailer": "neY2xVmOfUM",
+  "poster": "batman_1.webp"
+}

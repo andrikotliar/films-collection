@@ -1,0 +1,146 @@
+{
+  "id": "b88304b2959fbc745c06d748",
+  "type": [
+    "Film"
+  ],
+  "title": "Thor",
+  "genres": [
+    "Fantasy",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Kenneth Branagh"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Ashley Edward Miller"
+        },
+        {
+          "name": "Zack Stentz"
+        },
+        {
+          "name": "Don Payne"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Patrick Doyle"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Haris Zambarloukos"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 114,
+  "cast": [
+    {
+      "actor": "9d6f7bec0a46789eaa403786",
+      "character": {
+        "name": "Thor"
+      }
+    },
+    {
+      "actor": "b3703e901df3a8c85c2f0949",
+      "character": {
+        "name": "Jane Foster"
+      }
+    },
+    {
+      "actor": "1c93c03ba9a9870918b112fb",
+      "character": {
+        "name": "Loki"
+      }
+    },
+    {
+      "actor": "da765b1b4b74c95d954ac411",
+      "character": {
+        "name": "Odin"
+      }
+    },
+    {
+      "actor": "3090a68b40a7bfda7b1d93b8",
+      "character": {
+        "name": "Erik Selvig"
+      }
+    },
+    {
+      "actor": "aa2d93faf92b4c807a30a533",
+      "character": {
+        "name": "Darcy Lewis"
+      }
+    },
+    {
+      "actor": "297abcfa1686135e139ec907",
+      "character": {
+        "name": "Agent Coulson"
+      }
+    },
+    {
+      "actor": "ae8fde81451592bb39107acc",
+      "character": {
+        "name": "Heimdall"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "MCU"
+    }
+  ],
+  "budget": 150000000,
+  "awards": [
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Costumes"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 449000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "The powerful, but arrogant god Thor, is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders."
+    }
+  ],
+  "chaptersId": "07bf3e15ce289b98963660c5",
+  "releaseDate": "2011-05-06",
+  "watchCount": 3,
+  "studios": [
+    "MarvelStudios",
+    "Paramount"
+  ],
+  "trailer": "JOddp-nlNvQ",
+  "poster": "thor_1.webp"
+}

@@ -1,0 +1,134 @@
+{
+  "id": "bfbf5d4c9430bdcfa9820642",
+  "type": [
+    "Film"
+  ],
+  "title": "Oblivion",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Joseph Kosinski"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Karl Gajdusek"
+        },
+        {
+          "name": "Michael deBruyn"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Peter Chernin"
+        },
+        {
+          "name": "Dylan Clark"
+        },
+        {
+          "name": "Duncan Henderson"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "M83"
+        },
+        {
+          "name": "Joseph Trapanese"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Claudio Miranda"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 124,
+  "cast": [
+    {
+      "actor": "d1899eef1c53bc13798a897c",
+      "character": {
+        "name": "Jack"
+      }
+    },
+    {
+      "actor": "6baca3c5f3dcf4fb1271cb34",
+      "character": {
+        "name": "Beech"
+      }
+    },
+    {
+      "actor": "b9175a2816503116bd2f93a9",
+      "character": {
+        "name": "Julia"
+      }
+    },
+    {
+      "actor": "1185a3db4eec857e88bed02c",
+      "character": {
+        "name": "Victoria"
+      }
+    },
+    {
+      "actor": "3af14321bca7132f3736dc1c",
+      "character": {
+        "name": "Sykes"
+      }
+    },
+    {
+      "actor": "28a62a24f002bf0e56db149d",
+      "character": {
+        "name": "Sally"
+      }
+    },
+    {
+      "actor": "2e2185c1a6f85a0d516c3cbf",
+      "character": {
+        "name": "Kara"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Invasion"
+    }
+  ],
+  "budget": 160000000,
+  "boxOffice": 286000000,
+  "rating": 1,
+  "description": [
+    {
+      "title": null,
+      "text": "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself."
+    }
+  ],
+  "releaseDate": "2013-04-19",
+  "watchCount": 3,
+  "studios": [
+    "Universal"
+  ],
+  "trailer": "XmIIgE7eSak",
+  "poster": "oblivion.webp"
+}

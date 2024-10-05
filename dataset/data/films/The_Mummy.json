@@ -1,0 +1,142 @@
+{
+  "id": "f966417e46d3ea20a2664a1c",
+  "type": [
+    "Film"
+  ],
+  "title": "The Mummy",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Stephen Sommers"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Stephen Sommers"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "James Jacks"
+        },
+        {
+          "name": "Sean Daniel"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Jerry Goldsmith"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Adrian Biddle"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 125,
+  "cast": [
+    {
+      "actor": "5007865fcfa27f77a5caa971",
+      "character": {
+        "name": "Rick O'Connell"
+      }
+    },
+    {
+      "actor": "cac8a6d872c6bd724fce9824",
+      "character": {
+        "name": "Evelyn Carnahan"
+      }
+    },
+    {
+      "actor": "182db493d2b81619d210955c",
+      "character": {
+        "name": "Jonathan Carnahan"
+      }
+    },
+    {
+      "actor": "a37d51d4e1ec3cb66c525e5a",
+      "character": {
+        "name": "Imhotep"
+      }
+    },
+    {
+      "actor": "f9283404f416424cfa430d0f",
+      "character": {
+        "name": "Beni Gabor"
+      }
+    },
+    {
+      "actor": "d534ecf817056c7592bbd058",
+      "character": {
+        "name": "Dr. Allen Chamberlain"
+      }
+    },
+    {
+      "actor": "b0f70d5f44ea97682c22fbbf",
+      "character": {
+        "name": "Ardeth Bay"
+      }
+    },
+    {
+      "actor": "3ba6b72ed4ed8ba89ca219e0",
+      "character": {
+        "name": "Dr. Terrence Bey"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Mysteries"
+    }
+  ],
+  "budget": 80000000,
+  "awards": [
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Make-up"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 416000000,
+  "rating": 3,
+  "description": [
+    {
+      "title": null,
+      "text": "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreck havoc as he searches for the reincarnation of his long-lost love."
+    }
+  ],
+  "chaptersId": "c898b2b52dfcdd0b5a0f636e",
+  "releaseDate": "1999-05-07",
+  "watchCount": 10,
+  "studios": [
+    "Universal"
+  ],
+  "trailer": "h3ptPtxWJRs",
+  "poster": "mummy_1.webp"
+}

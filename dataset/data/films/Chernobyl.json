@@ -1,0 +1,210 @@
+{
+  "id": "41a064b0c0d6727a2d11a563",
+  "type": [
+    "Series"
+  ],
+  "title": "Chernobyl",
+  "genres": [
+    "Drama",
+    "History"
+  ],
+  "crew": [
+    {
+      "role": "SeriesCreator",
+      "people": [
+        {
+          "name": "Craig Mazin"
+        }
+      ]
+    },
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Johan Renck"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Craig Mazin"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Sanne Wohlenberg"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Hildur Guðnadóttir"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Jakob Ihre"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "UK"
+  ],
+  "duration": 330,
+  "cast": [
+    {
+      "actor": "64bedf38344e5978d2b55e18",
+      "character": {
+        "name": "Valery Legasov"
+      }
+    },
+    {
+      "actor": "3090a68b40a7bfda7b1d93b8",
+      "character": {
+        "name": "Boris Shcherbina"
+      }
+    },
+    {
+      "actor": "4df98a4858eefaa203044db9",
+      "character": {
+        "name": "Ulana Khomyuk"
+      }
+    },
+    {
+      "actor": "b63f3434e1127a9315a1a9b0",
+      "character": {
+        "name": "Anatoly Dyatlov"
+      }
+    },
+    {
+      "actor": "efddf25eb3b97778be53c763",
+      "character": {
+        "name": "Leonid Toptunov"
+      }
+    },
+    {
+      "actor": "76050d7c37d6233c0432062f",
+      "character": {
+        "name": "Alexandr Akimov"
+      }
+    },
+    {
+      "actor": "b1836ba76b680e5f338a2011",
+      "character": {
+        "name": "Lyudmilla Ignatenko"
+      }
+    },
+    {
+      "actor": "a34608b05c0bb3a0cce62eaf",
+      "character": {
+        "name": "Vasily Ignatenko"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "HistoricalEvents"
+    }
+  ],
+  "awards": [
+    {
+      "awardKey": "EmmyAward",
+      "nominations": [
+        {
+          "title": "Outstanding Limited Series"
+        },
+        {
+          "title": "Outstanding Directing for a Limited Series"
+        },
+        {
+          "title": "Outstanding Writing for a Limited Series"
+        },
+        {
+          "title": "Outstanding Cinematography for a Limited Series or Movie"
+        },
+        {
+          "title": "Outstanding Production Design for a Narrative Period or fantasy Program (One Hour or More)"
+        },
+        {
+          "title": "Outstanding Music Composition for a Limited Series, Movie or Special (Original Dramatic Score)"
+        },
+        {
+          "title": "Outstanding Single-Camera Picture Editing for a Limited Series or Movie"
+        },
+        {
+          "title": "Outstanding Sound Mixing for a Limited Series or Movie"
+        },
+        {
+          "title": "Outstanding Sound Editing for a Limited Series, Movie or Special"
+        },
+        {
+          "title": "Outstanding Special Visual Effects in a Supporting Role,"
+        }
+      ]
+    },
+    {
+      "awardKey": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Leading Actor",
+          "actor": "64bedf38344e5978d2b55e18"
+        },
+        {
+          "title": "Mini-Series"
+        },
+        {
+          "title": "Supporting Actor",
+          "comment": "as Boris Shcherbina",
+          "actor": "3090a68b40a7bfda7b1d93b8"
+        }
+      ]
+    },
+    {
+      "awardKey": "CriticsChoiceAward",
+      "nominations": [
+        {
+          "title": "Best Supporting Actor in a Limited Series or Movie Made for Television",
+          "comment": "as Boris Shcherbina",
+          "actor": "3090a68b40a7bfda7b1d93b8"
+        }
+      ]
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 5,
+    "seasons": [
+      {
+        "title": "Season 1",
+        "number": 1,
+        "episodesCount": 5,
+        "releaseDate": "2019-05-06",
+        "trailer": "s9APLXM9Ei8"
+      }
+    ]
+  },
+  "rating": 2,
+  "description": [
+    {
+      "title": "Season 1",
+      "text": "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes."
+    }
+  ],
+  "watchCount": 2,
+  "releaseDate": "2019-05-06",
+  "studios": [
+    "HBO"
+  ],
+  "poster": "chernobyl.webp"
+}

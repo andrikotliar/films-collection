@@ -1,0 +1,120 @@
+{
+  "id": "9a430e3fec8044cab8b81aee",
+  "type": [
+    "Film"
+  ],
+  "title": "The Incredible Hulk",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Louis Leterrier"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Zak Penn"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Avi Arad"
+        },
+        {
+          "name": "Gale Anne Hurd"
+        },
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Craig Armstrong"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Peter Menzies Jr."
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 112,
+  "cast": [
+    {
+      "actor": "effff288934815f0bb627401",
+      "character": {
+        "name": "Bruce Banner / Hulk",
+        "image": "the_incredible_hulk_bruce_banner.webp"
+      }
+    },
+    {
+      "actor": "efc61c81c4fdcdbf339820e8",
+      "character": {
+        "name": "Betty Ross"
+      }
+    },
+    {
+      "actor": "f4d0182de6e1978b1c26f2d6",
+      "character": {
+        "name": "Emil Blonsky / Abomination",
+        "image": "the_incredible_hulk_emil_blonsky.webp"
+      }
+    },
+    {
+      "actor": "a61e0d5e236b6574bce48a0e",
+      "character": {
+        "name": "Thaddeus Ross"
+      }
+    },
+    {
+      "actor": "82570b9619608b9960d3ca8b",
+      "character": {
+        "name": "Samuel Sterns"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "MCU"
+    }
+  ],
+  "budget": 150000000,
+  "boxOffice": 263000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into, whenever he loses his temper."
+    }
+  ],
+  "chaptersId": "07bf3e15ce289b98963660c5",
+  "releaseDate": "2008-06-13",
+  "watchCount": 5,
+  "studios": [
+    "MarvelStudios",
+    "Universal"
+  ],
+  "trailer": "xbqNb2PFKKA",
+  "poster": "the_incredible_hulk.webp"
+}

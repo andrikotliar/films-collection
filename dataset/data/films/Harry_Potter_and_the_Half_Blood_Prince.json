@@ -1,0 +1,142 @@
+{
+  "id": "7ddfc16022f68ef15ae360fc",
+  "type": [
+    "Film"
+  ],
+  "title": "Harry Potter and the Half-Blood Prince",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "David Yates"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Steve Kloves"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "David Heyman"
+        },
+        {
+          "name": "David Barron"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Nicholas Hooper"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Bruno Delbonnel"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "UK"
+  ],
+  "duration": 153,
+  "cast": [
+    {
+      "actor": "7cd730dd761c711d4467bce0",
+      "character": {
+        "name": "Harry Potter",
+        "image": "harry_potter_and_the_half_blood_prince_harry_potter.webp"
+      }
+    },
+    {
+      "actor": "076188ec6b66a2c4a62fdab1",
+      "character": {
+        "name": "Ron Weasley",
+        "image": "harry_potter_and_the_half_blood_prince_ron_weasley.webp"
+      }
+    },
+    {
+      "actor": "3f0004fa95271000de67d1f4",
+      "character": {
+        "name": "Hermione Granger",
+        "image": "harry_potter_and_the_half_blood_prince_hermione_granger.webp"
+      }
+    },
+    {
+      "actor": "5cd30ae8b35b8110d0a1bc75",
+      "character": {
+        "name": "Albus Dumbledore"
+      }
+    },
+    {
+      "actor": "aca6f583677ffb4c7f38d469",
+      "character": {
+        "name": "Draco Malfoy"
+      }
+    },
+    {
+      "actor": "9433a6747c6cfc354fed7e65",
+      "character": {
+        "name": "Severus Snape"
+      }
+    },
+    {
+      "actor": "b5e7e795de1f87df92309e3a",
+      "character": {
+        "name": "Bellatrix Lestrage"
+      }
+    },
+    {
+      "actor": "1c5eeaeb86ef47e50b94444b",
+      "character": {
+        "name": "Horace Slughorn"
+      }
+    },
+    {
+      "actor": "aca6f583677ffb4c7f38d469",
+      "character": {
+        "name": "Draco Malfoy"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "HPU"
+    }
+  ],
+  "budget": 250000000,
+  "boxOffice": 934000000,
+  "rating": 3,
+  "description": [
+    {
+      "title": null,
+      "text": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past."
+    }
+  ],
+  "chaptersId": "21fe420121bd2018a3c76f32",
+  "releaseDate": "2009-07-15",
+  "watchCount": 4,
+  "studios": [
+    "WarnerBros"
+  ],
+  "trailer": "sg81Lts5kYY",
+  "poster": "harry_potter_6.webp"
+}

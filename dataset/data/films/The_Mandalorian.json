@@ -1,0 +1,283 @@
+{
+  "id": "87f1e8a6c271ca612cb26598",
+  "type": [
+    "Series"
+  ],
+  "title": "The Mandalorian",
+  "genres": [
+    "SciFi",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "SeriesCreator",
+      "people": [
+        {
+          "name": "Jon Favreau"
+        }
+      ]
+    },
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Dave Filoni",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Rick Famuyiwa",
+          "comment": "6 episodes"
+        },
+        {
+          "name": "Deborah Chow",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Bryce Dallas Howard",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Taika Waititi",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Jon Favreau",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Peyton Reed",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Carl Weathers",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Robert Rodriguez",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Lee Isaac Chung",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Rachel Morrison",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Peter Ramsey",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Jon Favreau",
+          "comment": "20 episodes"
+        },
+        {
+          "name": "Dave Filoni",
+          "comment": "4 episodes"
+        },
+        {
+          "name": "Christopher L. Yost",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Rick Famuyiwa",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Noah Kloor",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Jon Favreau"
+        },
+        {
+          "name": "Dave Filoni"
+        },
+        {
+          "name": "Kathleen Kennedy"
+        },
+        {
+          "name": "Colin Wilson"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Ludwig Göransson"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Barry Baz Idoine"
+        },
+        {
+          "name": "Greig Fraser"
+        },
+        {
+          "name": "Matthew Jensen"
+        },
+        {
+          "name": "David Klein"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 640,
+  "cast": [
+    {
+      "actor": "b5ff52d0995bec144e227184",
+      "character": {
+        "name": "The Mandalorian",
+        "image": "the_mandalorian_the_mandalorian.webp"
+      }
+    },
+    {
+      "actor": "b0dc3ca86c281cc05693f1cd",
+      "character": {
+        "name": "Cara Dune"
+      }
+    },
+    {
+      "actor": "4460a7c81280abd897d97d32",
+      "character": {
+        "name": "Moff Gideon"
+      }
+    },
+    {
+      "actor": "22204bd7fa1075c9a04b9659",
+      "character": {
+        "name": "Greef Karga"
+      }
+    },
+    {
+      "actor": "36eb3476e54ce4b3ec95c273",
+      "character": {
+        "name": "Boba Fett"
+      }
+    },
+    {
+      "actor": "f9b012b8e8d6724b5b9c1140",
+      "character": {
+        "name": "Fennec Shand"
+      }
+    },
+    {
+      "actor": "4fda865b59819a0d26c09697",
+      "character": {
+        "name": "Ahsoka Tano",
+        "image": "the_mandalorian_ahsoka_tano.webp"
+      }
+    },
+    {
+      "actor": "69e8920fd59dae4ebf93c60c",
+      "character": {
+        "name": "IG-11",
+        "image": "the_mandalorian_ig-11.webp"
+      }
+    },
+    {
+      "actor": "07d0f36cefa97ad89f2bcc13",
+      "character": {
+        "name": "Kuiil",
+        "image": "the_mandalorian_kuiil.webp"
+      }
+    },
+    {
+      "actor": "0cdba35b7b82464350279a22",
+      "character": {
+        "name": "The Armorer",
+        "image": "the_mandalorian_the_armorer.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "SWU"
+    }
+  ],
+  "awards": [
+    {
+      "awardKey": "EmmyAward",
+      "nominations": [
+        {
+          "title": "Outstanding Cinematography for a Single-Camera Series (Half-Hour)"
+        },
+        {
+          "title": "Outstanding Music Composition for a Series (Original Dramatic Score)"
+        },
+        {
+          "title": "Outstanding Production Design for a Narrative Program (Half-Hour)"
+        },
+        {
+          "title": "Outstanding Stunt Coordination for a drama Series Limited Series or Movie"
+        },
+        {
+          "title": "Outstanding Sound Editing for a comedy or drama Series (Half-Hour and Animation)"
+        },
+        {
+          "title": "Outstanding Sound Mixing for a comedy or drama Series (Half-Hour and Animation)"
+        },
+        {
+          "title": "Outstanding Special Visual Effects"
+        }
+      ]
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 16,
+    "seasons": [
+      {
+        "title": "Season 1",
+        "number": 1,
+        "episodesCount": 8,
+        "releaseDate": "2019-11-12",
+        "trailer": "OFlBh_eUsjA"
+      },
+      {
+        "title": "Season 2",
+        "number": 2,
+        "episodesCount": 8,
+        "releaseDate": "2020-10-30",
+        "trailer": "eW7Twd85m2g"
+      }
+    ]
+  },
+  "rating": 2,
+  "description": [
+    {
+      "title": "Season 1",
+      "text": "Set in the Star Wars universe, the first season follows a lone bounty hunter known as the Mandalorian. His quest to capture a mysterious and powerful child, referred to as \"The Child\" but commonly known as Baby Yoda, leads to a series of adventures across the galaxy. He must protect the child from various threats and uncover the secrets of its origins."
+    },
+    {
+      "title": "Season 2",
+      "text": "In the second season, the Mandalorian continues his journey with Baby Yoda, searching for other Mandalorians who can help him return the child to its people. Their quest leads them to encounters with familiar and new characters, as well as deeper involvement in the events of the broader Star Wars galaxy."
+    }
+  ],
+  "chaptersId": "0de96c347aa9f64e14fb4a83",
+  "releaseDate": "2019-11-12",
+  "watchCount": 1,
+  "studios": [
+    "DisneyPlus",
+    "Lucasfilm"
+  ],
+  "poster": "mandalorian.webp"
+}

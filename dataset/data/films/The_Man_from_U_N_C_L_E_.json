@@ -1,0 +1,129 @@
+{
+  "id": "441717f013e1881d34b6b704",
+  "type": [
+    "Film"
+  ],
+  "title": "The Man from U.N.C.L.E.",
+  "genres": [
+    "Action",
+    "Comedy"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Guy Ritchie"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Guy Ritchie"
+        },
+        {
+          "name": "Lionel Wigram"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Steve Clark-Hall"
+        },
+        {
+          "name": "John Davis"
+        },
+        {
+          "name": "Guy Ritchie"
+        },
+        {
+          "name": "Lionel Wigram"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Daniel Pemberton"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "John Mathieson"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "UK"
+  ],
+  "duration": 116,
+  "cast": [
+    {
+      "actor": "8b6677adf81a10fa756951ff",
+      "character": {
+        "name": "Napoleon Solo"
+      }
+    },
+    {
+      "actor": "29585958fdc191b1e0a15f18",
+      "character": {
+        "name": "Illya Kuryakin"
+      }
+    },
+    {
+      "actor": "ab07a733e698ce2cf88b0eef",
+      "character": {
+        "name": "Gaby"
+      }
+    },
+    {
+      "actor": "d346e8fbcf12e4d8761b6d8a",
+      "character": {
+        "name": "Victoria"
+      }
+    },
+    {
+      "actor": "8e4359419c358b4949c41b27",
+      "character": {
+        "name": "Alexander"
+      }
+    },
+    {
+      "actor": "52318943c79c3be8ac26dff4",
+      "character": {
+        "name": "Waverly"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "AgentsDetectives"
+    }
+  ],
+  "budget": 75000000,
+  "boxOffice": 107000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "In the early 1960s, CIA agent Napoleon Solo and KGB operative Illya Kuryakin participate in a joint mission against a mysterious criminal organization, which is working to proliferate nuclear weapons."
+    }
+  ],
+  "releaseDate": "2015-08-14",
+  "watchCount": 1,
+  "studios": [
+    "WarnerBros"
+  ],
+  "trailer": "CzYRlISYE8Y",
+  "poster": "the_man_from_uncle.webp"
+}

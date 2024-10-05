@@ -1,0 +1,136 @@
+{
+  "id": "235da6b681fea37b919a5417",
+  "type": [
+    "Film"
+  ],
+  "title": "Aquaman",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "James Wan"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "David Leslie Johnson-McGoldrick"
+        },
+        {
+          "name": "Will Beall"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Peter Safran"
+        },
+        {
+          "name": "Rob Cowan"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Rupert Gregson-Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Don Burgess"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 143,
+  "cast": [
+    {
+      "actor": "de9c977ac46c62b2c52d371c",
+      "character": {
+        "name": "Arthur Curry / Aquaman"
+      }
+    },
+    {
+      "actor": "81f489cc791f2cfbff218a60",
+      "character": {
+        "name": "Mera"
+      }
+    },
+    {
+      "actor": "69443d6dcdd5ddbc0c51e534",
+      "character": {
+        "name": "Vulko"
+      }
+    },
+    {
+      "actor": "b5a0066321ef092d273b09fe",
+      "character": {
+        "name": "King Orm"
+      }
+    },
+    {
+      "actor": "e6459d81bab075fc3755cec2",
+      "character": {
+        "name": "Queen Atlanna"
+      }
+    },
+    {
+      "actor": "10f3188952a9237de86cd267",
+      "character": {
+        "name": "King Nereus"
+      }
+    },
+    {
+      "actor": "a3f01a52553c626cecb90cf7",
+      "character": {
+        "name": "Black Manta"
+      }
+    },
+    {
+      "actor": "36eb3476e54ce4b3ec95c273",
+      "character": {
+        "name": "Tom Curry"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "DEU"
+    }
+  ],
+  "budget": 160000000,
+  "boxOffice": 1150000000,
+  "rating": 1,
+  "description": [
+    {
+      "title": null,
+      "text": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land."
+    }
+  ],
+  "chaptersId": "d923cc31cdf721e7ddeb1616",
+  "releaseDate": "2018-12-21",
+  "watchCount": 2,
+  "studios": [
+    "DCEntertainment",
+    "WarnerBros"
+  ],
+  "trailer": "WDkg3h8PCVU",
+  "poster": "aquaman.webp"
+}

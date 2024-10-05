@@ -1,0 +1,165 @@
+{
+  "id": "e71fb4f17862ff2320073508",
+  "type": [
+    "Film"
+  ],
+  "title": "TENET",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Christopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Christopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Christopher Nolan"
+        },
+        {
+          "name": "Emma Thomas"
+        },
+        {
+          "name": "Andy Thompson"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Ludwig Göransson"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Hoyte Van Hoytema"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "UK"
+  ],
+  "duration": 150,
+  "cast": [
+    {
+      "actor": "1a303f13694e73dabc1c02b6",
+      "character": {
+        "name": "Protagonist"
+      }
+    },
+    {
+      "actor": "be5a364626b5e5843ae62363",
+      "character": {
+        "name": "Neil"
+      }
+    },
+    {
+      "actor": "d346e8fbcf12e4d8761b6d8a",
+      "character": {
+        "name": "Katherine Barton"
+      }
+    },
+    {
+      "actor": "9be9ad46ec99b713dad3290f",
+      "character": {
+        "name": "Priya"
+      }
+    },
+    {
+      "actor": "9aa1286b3ba72cd5eb04a3a8",
+      "character": {
+        "name": "Fay"
+      }
+    },
+    {
+      "actor": "e5d14d5efc78e38b1c607d19",
+      "character": {
+        "name": "Wheeler"
+      }
+    },
+    {
+      "actor": "4d2df0dc49815c9c34e5b975",
+      "character": {
+        "name": "Andrei Sator"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Future"
+    }
+  ],
+  "budget": 205000000,
+  "awards": [
+    {
+      "awardKey": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Achievement in Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardKey": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Achievement in Special Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardKey": "CriticsChoiceAward",
+      "nominations": [
+        {
+          "title": "Best Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Actor",
+          "actor": "1a303f13694e73dabc1c02b6"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 364000000,
+  "rating": 1,
+  "description": [
+    {
+      "title": null,
+      "text": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time."
+    }
+  ],
+  "releaseDate": "2020-08-26",
+  "watchCount": 1,
+  "studios": [
+    "WarnerBros",
+    "Syncopy"
+  ],
+  "trailer": "AZGcmvrTX9M",
+  "poster": "tenet.webp"
+}

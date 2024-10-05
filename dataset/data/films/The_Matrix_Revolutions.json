@@ -1,0 +1,130 @@
+{
+  "id": "870dfe5cb76ca399da683ee0",
+  "type": [
+    "Film"
+  ],
+  "title": "The Matrix Revolutions",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "The Wachowski Brothers"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "The Wachowski Brothers"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Joel Silver"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Don Davis"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Bill Pope"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "AU"
+  ],
+  "duration": 129,
+  "cast": [
+    {
+      "actor": "064e80da8733b3e3692e9735",
+      "character": {
+        "name": "Neo"
+      }
+    },
+    {
+      "actor": "598ea6d5be8fe378787adde7",
+      "character": {
+        "name": "Morpheus"
+      }
+    },
+    {
+      "actor": "86bd70fb1e96e084b818b8d1",
+      "character": {
+        "name": "Trinity"
+      }
+    },
+    {
+      "actor": "9d72ccad0a0c60872b91d2d3",
+      "character": {
+        "name": "Agent Smith"
+      }
+    },
+    {
+      "actor": "544db30160fa4bfa12603ee5",
+      "character": {
+        "name": "Niobe"
+      }
+    },
+    {
+      "actor": "b1094d5a4c3819d770b6cf30",
+      "character": {
+        "name": "Lock"
+      }
+    },
+    {
+      "actor": "c56a9cf0a26401ad1c0194e8",
+      "character": {
+        "name": "Link"
+      }
+    },
+    {
+      "actor": "15f466e2d733aa7909eefd90",
+      "character": {
+        "name": "Oracle"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Future"
+    }
+  ],
+  "budget": 110000000,
+  "boxOffice": 427000000,
+  "rating": 3,
+  "description": [
+    {
+      "title": null,
+      "text": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith."
+    }
+  ],
+  "chaptersId": "a9cbfde563018e36f2bcf883",
+  "releaseDate": "2003-11-05",
+  "watchCount": 10,
+  "studios": [
+    "WarnerBros"
+  ],
+  "trailer": "hMbexEPAOQI",
+  "poster": "matrix_3.webp"
+}

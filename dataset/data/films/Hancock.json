@@ -1,0 +1,116 @@
+{
+  "id": "0a053412af58158e6841f488",
+  "type": [
+    "Film"
+  ],
+  "title": "Hancock",
+  "genres": [
+    "Action",
+    "Comedy"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Peter Berg"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Vince Gilligan"
+        },
+        {
+          "name": "Vincent Ngo"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Akiva Goldsman"
+        },
+        {
+          "name": "James Lassiter"
+        },
+        {
+          "name": "Michael Mann"
+        },
+        {
+          "name": "Will Smith"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "John Powell"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Tobias A. Schliessler"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 92,
+  "cast": [
+    {
+      "actor": "b59613245389fb066c309182",
+      "character": {
+        "name": "John Hancock"
+      }
+    },
+    {
+      "actor": "37979239d681a41f120bef93",
+      "character": {
+        "name": "Mary"
+      }
+    },
+    {
+      "actor": "163bbc2f0761bbbbb833b6d3",
+      "character": {
+        "name": "Ray"
+      }
+    },
+    {
+      "actor": "3aa02c5c103eb81507ea1152",
+      "character": {
+        "name": "Kenneth \"Red\" Parker"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Superheroes"
+    }
+  ],
+  "budget": 150000000,
+  "boxOffice": 624000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "Hancock is a superhero whose ill considered behavior regularly causes damage in the millions. He changes when the person he saves helps him improve his public image."
+    }
+  ],
+  "releaseDate": "2008-07-02",
+  "watchCount": 5,
+  "studios": [
+    "Columbia"
+  ],
+  "trailer": "SkX1VuXLRSc",
+  "poster": "hancock.webp"
+}

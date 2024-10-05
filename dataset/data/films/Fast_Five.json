@@ -1,0 +1,150 @@
+{
+  "id": "1f37a67baa88bb3e2734cd3e",
+  "type": [
+    "Film"
+  ],
+  "title": "Fast Five",
+  "genres": [
+    "Action",
+    "Crime"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Justin Lin"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Chris Morgan"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Neal H. Moritz"
+        },
+        {
+          "name": "Vin Diesel"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Brian Tyler"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Stephen F. Windon"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 130,
+  "cast": [
+    {
+      "actor": "8acb4ceb24e197fffd95c777",
+      "character": {
+        "name": "Dominic Toretto"
+      }
+    },
+    {
+      "actor": "61f64cb0f58dc3c12fc0c193",
+      "character": {
+        "name": "Brian O'Conner"
+      }
+    },
+    {
+      "actor": "84fe0dd000d931d469570852",
+      "character": {
+        "name": "Mia"
+      }
+    },
+    {
+      "actor": "643d66647de43eba364eb216",
+      "character": {
+        "name": "Roman"
+      }
+    },
+    {
+      "actor": "a461b95f153afa4d441b27b3",
+      "character": {
+        "name": "Tej"
+      }
+    },
+    {
+      "actor": "5dd235b43a3f52f2ab92f2dd",
+      "character": {
+        "name": "Vince"
+      }
+    },
+    {
+      "actor": "f64566657b4a65aaf1c8a875",
+      "character": {
+        "name": "Han"
+      }
+    },
+    {
+      "actor": "689592fad487486ce5468f9f",
+      "character": {
+        "name": "Gisele"
+      }
+    },
+    {
+      "actor": "9faeb2f9cb9ee9bdc304a2bb",
+      "character": {
+        "name": "Reyes"
+      }
+    },
+    {
+      "actor": "ba034c3da56225c54e6b1545",
+      "character": {
+        "name": "Hobbs"
+      }
+    },
+    {
+      "actor": "e4d6603c9b5bcfacefc268dd",
+      "character": {
+        "name": "Elena"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Cars"
+    }
+  ],
+  "budget": 125000000,
+  "boxOffice": 626000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent."
+    }
+  ],
+  "chaptersId": "60e1ed9423ed8b0c24b751c1",
+  "releaseDate": "2011-04-29",
+  "watchCount": 3,
+  "studios": [
+    "Universal"
+  ],
+  "trailer": "mw2AqdB5EVA",
+  "poster": "fast_and_furious_5.webp"
+}

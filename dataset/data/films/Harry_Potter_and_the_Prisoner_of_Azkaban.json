@@ -1,0 +1,151 @@
+{
+  "id": "4dd726f2271aad40f03d1368",
+  "type": [
+    "Film"
+  ],
+  "title": "Harry Potter and the Prisoner of Azkaban",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Alfonso Cuaron"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Steve Kloves"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "David Heyman"
+        },
+        {
+          "name": "Chris Columbus"
+        },
+        {
+          "name": "Mark Radcliffe"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Michael Seresin"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "UK"
+  ],
+  "duration": 142,
+  "cast": [
+    {
+      "actor": "7cd730dd761c711d4467bce0",
+      "character": {
+        "name": "Harry Potter",
+        "image": "harry_potter_and_the_prisoner_of_azkaban_harry_potter.webp"
+      }
+    },
+    {
+      "actor": "076188ec6b66a2c4a62fdab1",
+      "character": {
+        "name": "Ron Weasley",
+        "image": "harry_potter_and_the_prisoner_of_azkaban_ron_weasley.webp"
+      }
+    },
+    {
+      "actor": "3f0004fa95271000de67d1f4",
+      "character": {
+        "name": "Hermione Granger",
+        "image": "harry_potter_and_the_prisoner_of_azkaban_hermione_granger.webp"
+      }
+    },
+    {
+      "actor": "a03a7c1a8a396d3211b9b317",
+      "character": {
+        "name": "Sirius Black"
+      }
+    },
+    {
+      "actor": "5cd30ae8b35b8110d0a1bc75",
+      "character": {
+        "name": "Albus Dumbledore"
+      }
+    },
+    {
+      "actor": "5aea15b4e9912ad7b3a2241e",
+      "character": {
+        "name": "Rubeus Hagrid"
+      }
+    },
+    {
+      "actor": "aca6f583677ffb4c7f38d469",
+      "character": {
+        "name": "Draco Malfoy"
+      }
+    },
+    {
+      "actor": "9433a6747c6cfc354fed7e65",
+      "character": {
+        "name": "Severus Snape"
+      }
+    },
+    {
+      "actor": "8220d1e507128ef20527db35",
+      "character": {
+        "name": "Professor Lupin"
+      }
+    },
+    {
+      "actor": "5f9f55af5a7d7527299b7b92",
+      "character": {
+        "name": "Peter Pettigrew"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "HPU"
+    }
+  ],
+  "budget": 130000000,
+  "boxOffice": 797000000,
+  "rating": 3,
+  "description": [
+    {
+      "title": null,
+      "text": "It's Harry's third year at Hogwarts; not only does he have a new \"Defense Against the Dark Arts\" teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry."
+    }
+  ],
+  "chaptersId": "21fe420121bd2018a3c76f32",
+  "releaseDate": "2004-06-04",
+  "watchCount": 10,
+  "studios": [
+    "WarnerBros"
+  ],
+  "trailer": "lAxgztbYDbs",
+  "poster": "harry_potter_3.webp"
+}

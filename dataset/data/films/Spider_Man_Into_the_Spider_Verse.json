@@ -1,0 +1,205 @@
+{
+  "id": "983a53f09a0e24484385b8b8",
+  "type": [
+    "Animation"
+  ],
+  "title": "Spider-Man: Into the Spider-Verse",
+  "genres": [
+    "Action",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Bob Persichetti"
+        },
+        {
+          "name": "Peter Ramsey"
+        },
+        {
+          "name": "Rodney Rothman"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Phil Lord"
+        },
+        {
+          "name": "Rodney Rothman"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Avi Arad"
+        },
+        {
+          "name": "Amy Pascal"
+        },
+        {
+          "name": "Phil Lord"
+        },
+        {
+          "name": "Christopher Miller"
+        },
+        {
+          "name": "Christina Steinberg"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Daniel Pemberton"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 117,
+  "cast": [
+    {
+      "actor": "56cd353690befbf133dac66e",
+      "character": {
+        "name": "Miles Morales",
+        "image": "spider_man_into_the_spider_verse_miles_morales.webp"
+      }
+    },
+    {
+      "actor": "3049f5769212420bfd2ba146",
+      "character": {
+        "name": "Peter B. Parker",
+        "image": "spider_man_into_the_spider_verse_peter_b_parker.webp"
+      }
+    },
+    {
+      "actor": "7e009e344b1d17321f88e62c",
+      "character": {
+        "name": "Gwen Stacy",
+        "image": "spider_man_into_the_spider_verse_gwen_stacy.webp"
+      }
+    },
+    {
+      "actor": "ab310cfb7b4905e59b363f7d",
+      "character": {
+        "name": "Uncle Aaron",
+        "image": "spider_man_into_the_spider_verse_uncle_aaron.webp"
+      }
+    },
+    {
+      "actor": "52883929c1478b1d2b3df109",
+      "character": {
+        "name": "Jefferson Davis",
+        "image": "spider_man_into_the_spider_verse_jefferson_davis.webp"
+      }
+    },
+    {
+      "actor": "8747bb64c33af87ce029a475",
+      "character": {
+        "name": "Rio Morales",
+        "image": "spider_man_into_the_spider_verse_rio_morales.webp"
+      }
+    },
+    {
+      "actor": "3202df301918fc6467f6e12a",
+      "character": {
+        "name": "Mary Jane",
+        "image": "spider_man_into_the_spider_verse_mary_jane.webp"
+      }
+    },
+    {
+      "actor": "caef1169b14696404918613d",
+      "character": {
+        "name": "Spider-Ham",
+        "image": "spider_man_into_the_spider_verse_spider-ham.webp"
+      }
+    },
+    {
+      "actor": "6d5e16e716642f6508d31716",
+      "character": {
+        "name": "Peni Parker",
+        "image": "spider_man_into_the_spider_verse_peni_parker.webp"
+      }
+    },
+    {
+      "actor": "6e9dd36e3b96af6f5483e7a2",
+      "character": {
+        "name": "Spider-Man Noir",
+        "image": "spider_man_into_the_spider_verse_spider-man_noir.webp"
+      }
+    },
+    {
+      "actor": "847cefcbba651553301ec62e",
+      "character": {
+        "name": "Wilson Fisk",
+        "image": "spider_man_into_the_spider_verse_wilson_fisk.webp"
+      }
+    },
+    {
+      "actor": "bb56b08e5530d902cb75c719",
+      "character": {
+        "name": "Doc Ock",
+        "image": "spider_man_into_the_spider_verse_doc_ock.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Superheroes"
+    }
+  ],
+  "budget": 90000000,
+  "awards": [
+    {
+      "awardKey": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Animated Feature"
+        }
+      ]
+    },
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Animated Film"
+        }
+      ]
+    },
+    {
+      "awardKey": "CriticsChoiceAward",
+      "nominations": [
+        {
+          "title": "Best Animated Feature"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 371000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "Teen Miles Morales becomes Spider-Man of his reality, crossing his path with five counterparts from other dimensions to stop a threat for all realities."
+    }
+  ],
+  "releaseDate": "2018-12-14",
+  "watchCount": 1,
+  "studios": [
+    "SonyAnimation",
+    "Columbia",
+    "MarvelEntertainment"
+  ],
+  "trailer": "g4Hbz2jLxvQ",
+  "poster": "spiderman_intospiderverse.webp"
+}

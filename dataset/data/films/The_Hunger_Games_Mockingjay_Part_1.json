@@ -1,0 +1,187 @@
+{
+  "id": "a187e4be4d26e7231866e116",
+  "type": [
+    "Film"
+  ],
+  "title": "The Hunger Games: Mockingjay - Part 1",
+  "genres": [
+    "SciFi",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Francis Lawrence"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Peter Craig"
+        },
+        {
+          "name": "Danny Strong"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Nina Jacobson"
+        },
+        {
+          "name": "Jon Kilik"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "James Newton Howard"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Jo Willems"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "CA",
+    "FR"
+  ],
+  "duration": 123,
+  "cast": [
+    {
+      "actor": "c99e4f6dc0695561848dc5be",
+      "character": {
+        "name": "Katniss Everdeen"
+      }
+    },
+    {
+      "actor": "e87403fc0ddcab36a8107ef0",
+      "character": {
+        "name": "Peeta Mellark"
+      }
+    },
+    {
+      "actor": "f1235dcc20310d42acc94ada",
+      "character": {
+        "name": "Gale Hawthorne"
+      }
+    },
+    {
+      "actor": "024affbe7a45ee9fc554bf76",
+      "character": {
+        "name": "Haymitch Abernathy"
+      }
+    },
+    {
+      "actor": "1a8c1ba8704e691a5c41e81b",
+      "character": {
+        "name": "Effie Trinket"
+      }
+    },
+    {
+      "actor": "caed9d8a8188d066bfcfcfa8",
+      "character": {
+        "name": "President Coriolanus Snow"
+      }
+    },
+    {
+      "actor": "c610e4f42d9c286feb79406f",
+      "character": {
+        "name": "Plutarch Heavensbee"
+      }
+    },
+    {
+      "actor": "ab310cfb7b4905e59b363f7d",
+      "character": {
+        "name": "Boggs"
+      }
+    },
+    {
+      "actor": "a63daeaff1736e80ecb72103",
+      "character": {
+        "name": "Caesar Flickerman"
+      }
+    },
+    {
+      "actor": "4cb3684475937f86644a6ce9",
+      "character": {
+        "name": "Finnick Odair"
+      }
+    },
+    {
+      "actor": "9dcff373f8aeb1857ceba71b",
+      "character": {
+        "name": "Cressida"
+      }
+    },
+    {
+      "actor": "c1b6ae2fc63f69083d8b8d66",
+      "character": {
+        "name": "Pollux"
+      }
+    },
+    {
+      "actor": "ad690658fc9a006e2b90daa0",
+      "character": {
+        "name": "Beetee"
+      }
+    },
+    {
+      "actor": "d8b1bdb11b24e877a1c19436",
+      "character": {
+        "name": "President Alma Coin"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Dystopia"
+    }
+  ],
+  "budget": 125000000,
+  "awards": [
+    {
+      "awardKey": "MtvAward",
+      "nominations": [
+        {
+          "title": "Best Musical Moment"
+        },
+        {
+          "title": "Best On-Screen Transformation",
+          "actor": "1a8c1ba8704e691a5c41e81b"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 755000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "Katniss Everdeen is in District 13 after she shatters the games forever. Under the leadership of President Coin and the advice of her trusted friends, Katniss spreads her wings as she fights to save Peeta and a nation moved by her courage."
+    }
+  ],
+  "chaptersId": "ee0e6048d16760e2bc2c11d3",
+  "releaseDate": "2014-11-21",
+  "watchCount": 2,
+  "studios": [
+    "Lionsgate"
+  ],
+  "trailer": "3PkkHsuMrho",
+  "poster": "hunger_games_3.webp"
+}

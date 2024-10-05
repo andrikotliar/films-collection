@@ -1,0 +1,146 @@
+{
+  "id": "9f019050121574092b9e34c8",
+  "type": [
+    "Film"
+  ],
+  "title": "John Carter",
+  "genres": [
+    "SciFi",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Andrew Stanton"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Andrew Stanton"
+        },
+        {
+          "name": "Mark Andrews"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Jim Morris"
+        },
+        {
+          "name": "Colin Wilson"
+        },
+        {
+          "name": "Lindsey Collins"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Michael Giacchino"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Dan Mindel"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 132,
+  "cast": [
+    {
+      "actor": "943b37462204f8d008d83660",
+      "character": {
+        "name": "John Carter"
+      }
+    },
+    {
+      "actor": "b4e4054ab866f9fc267dc087",
+      "character": {
+        "name": "Dejah Thoris"
+      }
+    },
+    {
+      "actor": "23f6d1efe8123eba8eca397f",
+      "character": {
+        "name": "Sola",
+        "image": "john_carter_sola.webp"
+      }
+    },
+    {
+      "actor": "69443d6dcdd5ddbc0c51e534",
+      "character": {
+        "name": "Tars Tarkas",
+        "image": "john_carter_tars_tarkas.webp"
+      }
+    },
+    {
+      "actor": "072a5ba54ea95c104cc80899",
+      "character": {
+        "name": "Tal Hajus",
+        "image": "john_carter_tal_hajus.webp"
+      }
+    },
+    {
+      "actor": "fa36e46669ac3b8ea37b8a8e",
+      "character": {
+        "name": "Matai Shang"
+      }
+    },
+    {
+      "actor": "67f236e2e31dfdf8ce27fe3c",
+      "character": {
+        "name": "Tardos Mors"
+      }
+    },
+    {
+      "actor": "9e5d90bcd88ef2fa6a4b1baa",
+      "character": {
+        "name": "Sab Than"
+      }
+    },
+    {
+      "actor": "b2ef216599aa78248142e7d0",
+      "character": {
+        "name": "Kantos Kan"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Space"
+    }
+  ],
+  "budget": 306000000,
+  "boxOffice": 284000000,
+  "rating": 1,
+  "description": [
+    {
+      "title": null,
+      "text": "Transported to Barsoom, a Civil War vet discovers a barren planet seemingly inhabited by 12-foot tall barbarians. Finding himself prisoner of these creatures, he escapes, only to encounter Woola and a princess in desperate need of a savior."
+    }
+  ],
+  "releaseDate": "2012-03-09",
+  "watchCount": 3,
+  "studios": [
+    "WaltDisney"
+  ],
+  "trailer": "nlvYKl1fjBI",
+  "poster": "john_carter.webp"
+}

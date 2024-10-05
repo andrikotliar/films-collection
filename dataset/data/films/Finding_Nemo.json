@@ -1,0 +1,210 @@
+{
+  "id": "3291eedd04766d916963aa84",
+  "type": [
+    "Animation"
+  ],
+  "title": "Finding Nemo",
+  "genres": [
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Andrew Stanton"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Andrew Stanton"
+        },
+        {
+          "name": "Bob Peterson"
+        },
+        {
+          "name": "David Reynolds"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Graham Walters"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Thomas Newman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Sharon Calahan"
+        },
+        {
+          "name": "Jeremy Lasky"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 100,
+  "cast": [
+    {
+      "actor": "61039ee13e2d8a16399ebb96",
+      "character": {
+        "name": "Nemo",
+        "image": "finding_nemo_nemo.webp"
+      }
+    },
+    {
+      "actor": "2cc3990eeb99965e18d3f994",
+      "character": {
+        "name": "Marlin",
+        "image": "finding_nemo_marlin.webp"
+      }
+    },
+    {
+      "actor": "abfcb656438df17801fd9175",
+      "character": {
+        "name": "Dory",
+        "image": "finding_nemo_dory.webp"
+      }
+    },
+    {
+      "actor": "69443d6dcdd5ddbc0c51e534",
+      "character": {
+        "name": "Gill",
+        "image": "finding_nemo_gill.webp"
+      }
+    },
+    {
+      "actor": "5a4db3cfddc3b6871d1d6d04",
+      "character": {
+        "name": "Bloat",
+        "image": "finding_nemo_bloat.webp"
+      }
+    },
+    {
+      "actor": "98ec4d73331cf787bbdd9e29",
+      "character": {
+        "name": "Peach",
+        "image": "finding_nemo_peach.webp"
+      }
+    },
+    {
+      "actor": "ebe3a9ca69513baf8dc45d92",
+      "character": {
+        "name": "Gurgle",
+        "image": "finding_nemo_gurgle.webp"
+      }
+    },
+    {
+      "actor": "3a91fcb3cf8f724303ce2f71",
+      "character": {
+        "name": "Bubbles",
+        "image": "finding_nemo_bubbles.webp"
+      }
+    },
+    {
+      "actor": "532d8f4921f52e28f4c1fac8",
+      "character": {
+        "name": "Deb",
+        "image": "finding_nemo_deb.webp"
+      }
+    },
+    {
+      "actor": "8db2b33adbba9c70802f7feb",
+      "character": {
+        "name": "Jacques",
+        "image": "finding_nemo_jacques.webp"
+      }
+    },
+    {
+      "actor": "506875a86231e077557d5523",
+      "character": {
+        "name": "Nigel",
+        "image": "finding_nemo_nigel.webp"
+      }
+    },
+    {
+      "actor": "b625557c009d832a86d83197",
+      "character": {
+        "name": "Crush",
+        "image": "finding_nemo_crush.webp"
+      }
+    },
+    {
+      "actor": "72c6cd55436dd636f717ccb8",
+      "character": {
+        "name": "Bruce",
+        "image": "finding_nemo_bruce.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "FantasyWorlds"
+    }
+  ],
+  "budget": 94000000,
+  "awards": [
+    {
+      "awardKey": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Animated Feature"
+        }
+      ]
+    },
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Animated Film"
+        },
+        {
+          "title": "Best Supporting Actress",
+          "actor": "abfcb656438df17801fd9175"
+        }
+      ]
+    },
+    {
+      "awardKey": "CriticsChoiceAward",
+      "nominations": [
+        {
+          "title": "Best Animated Feature"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 940000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home."
+    }
+  ],
+  "releaseDate": "2003-05-30",
+  "watchCount": 5,
+  "studios": [
+    "WaltDisney",
+    "Pixar"
+  ],
+  "trailer": "wZdpNglLbt8",
+  "poster": "finding_nemo.webp"
+}

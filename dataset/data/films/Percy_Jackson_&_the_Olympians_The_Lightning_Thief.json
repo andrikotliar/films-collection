@@ -1,0 +1,158 @@
+{
+  "id": "c739d04579ea5ba7408a2379",
+  "type": [
+    "Film"
+  ],
+  "title": "Percy Jackson & the Olympians: The Lightning Thief",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Chris Columbus"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Craig Titley"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Karen Rosenfelt"
+        },
+        {
+          "name": "Chris Columbus"
+        },
+        {
+          "name": "Michael Barnathan"
+        },
+        {
+          "name": "Mark Redcliff"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Christophe Beck"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Stephen Goldblatt"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "UK",
+    "CA",
+    "AU"
+  ],
+  "duration": 95,
+  "cast": [
+    {
+      "actor": "65a7285259e82fade239e02a",
+      "character": {
+        "name": "Percy Jackson"
+      }
+    },
+    {
+      "actor": "1f6f4cc406f4a3c6b9fffef7",
+      "character": {
+        "name": "Grover"
+      }
+    },
+    {
+      "actor": "27b095d2c63be488cc8937f5",
+      "character": {
+        "name": "Annabeth"
+      }
+    },
+    {
+      "actor": "6a396fb1ed9393e27f3da440",
+      "character": {
+        "name": "Luke"
+      }
+    },
+    {
+      "actor": "fbd425127f3664acfe49428a",
+      "character": {
+        "name": "Zeus"
+      }
+    },
+    {
+      "actor": "98ad2c2d1d3ff7d1e0f18120",
+      "character": {
+        "name": "Mr. Brunner / Chiron"
+      }
+    },
+    {
+      "actor": "dfc49121ded927f36605488c",
+      "character": {
+        "name": "Hades"
+      }
+    },
+    {
+      "actor": "4fda865b59819a0d26c09697",
+      "character": {
+        "name": "Persephone"
+      }
+    },
+    {
+      "actor": "4f915bf5f6dc0a373560804d",
+      "character": {
+        "name": "Athena"
+      }
+    },
+    {
+      "actor": "51bddb00c78d08c2477234eb",
+      "character": {
+        "name": "Sally Jackson"
+      }
+    },
+    {
+      "actor": "8cb9657d12b09881a40a1a76",
+      "character": {
+        "name": "Poseidon"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "FantasyWorlds"
+    }
+  ],
+  "budget": 95000000,
+  "boxOffice": 226000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "A teenager discovers he's the descendant of a Greek god and sets out on an adventure to settle an on-going battle between the gods."
+    }
+  ],
+  "releaseDate": "2010-02-12",
+  "watchCount": 5,
+  "studios": [
+    "20thCenturyFox"
+  ],
+  "trailer": "xko1Mx5w4tg",
+  "poster": "percy_jackson.webp"
+}

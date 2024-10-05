@@ -1,0 +1,155 @@
+{
+  "id": "9bb5ec7c7a76b38810c633b1",
+  "type": [
+    "Film"
+  ],
+  "title": "Transformers: Revenge of the Fallen",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Michael Bay"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Roberto Orci"
+        },
+        {
+          "name": "Alex Kurtzman"
+        },
+        {
+          "name": "Ehren Kruger"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Lorenzo di Bonaventura"
+        },
+        {
+          "name": "Tom DeSanto"
+        },
+        {
+          "name": "Don Murphy"
+        },
+        {
+          "name": "Ian Bryce"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Steve Jablonsky"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Ben Seresin"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 150,
+  "cast": [
+    {
+      "actor": "24ad64557f5cc8cebf8194ae",
+      "character": {
+        "name": "Sam Witwicky"
+      }
+    },
+    {
+      "actor": "2d02a57112e9771b788d7986",
+      "character": {
+        "name": "Mikaela Banes"
+      }
+    },
+    {
+      "actor": "34f40d0622d31ef4d6a23aa0",
+      "character": {
+        "name": "Major Lennox"
+      }
+    },
+    {
+      "actor": "a830e599d126640fa1f7bb3b",
+      "character": {
+        "name": "Simmons"
+      }
+    },
+    {
+      "actor": "99401b304b915b960c5c6bc9",
+      "character": {
+        "name": "Leo Spitz"
+      }
+    },
+    {
+      "actor": "c8535012fe7ed7ca107c0fe2",
+      "character": {
+        "name": "Optimus Prime",
+        "image": "transformers_revenge_of_the_fallen_optimus_prime.webp"
+      }
+    },
+    {
+      "actor": "b4f3568b7522d6badf6b1deb",
+      "character": {
+        "name": "Jetfire",
+        "image": "transformers_revenge_of_the_fallen_jetfire.webp"
+      }
+    },
+    {
+      "actor": "9d72ccad0a0c60872b91d2d3",
+      "character": {
+        "name": "Megatron",
+        "image": "transformers_revenge_of_the_fallen_megatron.webp"
+      }
+    },
+    {
+      "actor": "fe3a28c55f7885a6feb9f383",
+      "character": {
+        "name": "Fallen",
+        "image": "transformers_revenge_of_the_fallen_fallen.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Robots"
+    }
+  ],
+  "budget": 200000000,
+  "boxOffice": 836000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "Sam Witwicky leaves the Autobots behind for a normal life. But when his mind is filled with cryptic symbols, the Decepticons target him and he is dragged back into the Transformers' war."
+    }
+  ],
+  "chaptersId": "12b3854c2936b95c086fdd68",
+  "releaseDate": "2009-06-24",
+  "watchCount": 5,
+  "studios": [
+    "DreamWorks",
+    "Paramount"
+  ],
+  "trailer": "fnXzKwUgDhg",
+  "poster": "transformers_2.webp"
+}

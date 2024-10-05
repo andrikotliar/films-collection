@@ -1,0 +1,280 @@
+{
+  "id": "1f0a853ad6e7c294dada3561",
+  "type": [
+    "Series"
+  ],
+  "title": "Sherlock",
+  "genres": [
+    "Crime",
+    "Drama",
+    "Thriller"
+  ],
+  "crew": [
+    {
+      "role": "SeriesCreator",
+      "people": [
+        {
+          "name": "Mark Gatiss"
+        },
+        {
+          "name": "Steven Moffat"
+        }
+      ]
+    },
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Paul McGuigan",
+          "comment": "4 episodes"
+        },
+        {
+          "name": "Euros Lyn",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Toby Haynes",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Jeremy Lovering",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Colm McCarthy",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Nick Hurran",
+          "comment": "2 episodes"
+        },
+        {
+          "name": "Rachel Talalay",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Benjamin Caron",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Coky Giedroyc",
+          "comment": "1 episode"
+        },
+        {
+          "name": "Douglas Mackinnon",
+          "comment": "1 episode"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Steven Moffat",
+          "comment": "9 episodes"
+        },
+        {
+          "name": "Stephen Thompson",
+          "comment": "3 episodes"
+        },
+        {
+          "name": "Mark Gatiss",
+          "comment": "8 episodes"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Sue Vertue"
+        },
+        {
+          "name": "Elaine Cameron"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "David Arnold"
+        },
+        {
+          "name": "Michael Price"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Fabian Wagner"
+        },
+        {
+          "name": "Steve Lawes"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "UK"
+  ],
+  "duration": 1020,
+  "cast": [
+    {
+      "actor": "5a86b2f23ea348e3a58775b6",
+      "character": {
+        "name": "Sherlock Holmes"
+      }
+    },
+    {
+      "actor": "706bad1f2278f02cd543a7a2",
+      "character": {
+        "name": "Dr. John Watson"
+      }
+    },
+    {
+      "actor": "25dfb6ae898a6796c2935925",
+      "character": {
+        "name": "Mrs. Hudson"
+      }
+    },
+    {
+      "actor": "46ae8cda3c9606ab4da5a86c",
+      "character": {
+        "name": "DI Lestrade"
+      }
+    },
+    {
+      "actor": "a990c9638e7dcc14238a5782",
+      "character": {
+        "name": "Molly Hooper"
+      }
+    },
+    {
+      "actor": "6ab71e4abb0db0a786236010",
+      "character": {
+        "name": "Mycroft Holmes"
+      }
+    },
+    {
+      "actor": "44be8c9022471dcee514c1fc",
+      "character": {
+        "name": "Jim Moriarty"
+      }
+    },
+    {
+      "actor": "ffaf4b55d3720a86064b7030",
+      "character": {
+        "name": "Lara Pulwer"
+      }
+    },
+    {
+      "actor": "49204a2a5d6486cf9256eb69",
+      "character": {
+        "name": "Mary Watson"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "AgentsDetectives"
+    }
+  ],
+  "awards": [
+    {
+      "awardKey": "EmmyAward",
+      "nominations": [
+        {
+          "title": "Outstanding Television Movie"
+        },
+        {
+          "title": "Outstanding Special Visual Effects in a Supporting Role",
+          "comment": "\"The Abominable Bride\" episode"
+        },
+        {
+          "title": "Outstanding Lead Actor in a Miniseries or a Movie",
+          "actor": "5a86b2f23ea348e3a58775b6"
+        },
+        {
+          "title": "Outstanding Supporting Actor in a Miniseries or a Movie",
+          "actor": "706bad1f2278f02cd543a7a2"
+        },
+        {
+          "title": "Outstanding Writing for a Miniseries or a Dramatic Special"
+        },
+        {
+          "title": "Outstanding Cinematography for a Miniseries or Movie"
+        },
+        {
+          "title": "Outstanding Music Composition for a Miniseries, Movie or a Special (Original Dramatic Score)"
+        },
+        {
+          "title": "Outstanding Single-Camera Picture Editing for a Miniseries or a Movie"
+        },
+        {
+          "title": "Outstanding Sound Editing for a Miniseries, Movie or a Special"
+        }
+      ]
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 12,
+    "seasons": [
+      {
+        "title": "Season 1",
+        "number": 1,
+        "episodesCount": 3,
+        "releaseDate": "2010-07-25",
+        "trailer": "xK7S9mrFWL4"
+      },
+      {
+        "title": "Season 2",
+        "number": 2,
+        "episodesCount": 3,
+        "releaseDate": "2012-01-01",
+        "trailer": "vydmN9pzDzg"
+      },
+      {
+        "title": "Season 3",
+        "number": 3,
+        "episodesCount": 3,
+        "releaseDate": "2014-01-01",
+        "trailer": "9UcR9iKArd0"
+      },
+      {
+        "title": "Season 4",
+        "number": 4,
+        "episodesCount": 3,
+        "releaseDate": "2017-01-01",
+        "trailer": "FOXZgRTfSUA"
+      }
+    ]
+  },
+  "rating": 2,
+  "description": [
+    {
+      "title": "Season 1",
+      "text": "In the debut season, viewers are introduced to Sherlock Holmes and Dr. John Watson, who become flatmates in modern-day London. Together, they tackle a series of perplexing cases, including a string of suicides that Sherlock believes are connected by a shadowy antagonist."
+    },
+    {
+      "title": "Season 2",
+      "text": "In the second season, Sherlock continues to astound with his deductive abilities, but he faces even more formidable adversaries. Moriarty, a brilliant and dangerous criminal mastermind, becomes his primary nemesis. The season is filled with high-stakes conflicts and intricate puzzles."
+    },
+    {
+      "title": "Season 3",
+      "text": "Season 3 explores Sherlock's return from a two-year absence, during which he was believed to be dead. The dynamic between Sherlock and Watson is tested as they confront new mysteries, including a wedding, a case of a disappearing train, and a deadly adversary from the past."
+    },
+    {
+      "title": "Season 4",
+      "text": "The fourth season delves deeper into Sherlock's complex personal life and his troubled past. It features an enigmatic new villain, Culverton Smith, and a series of cases that bring Sherlock to the brink of despair. Dark secrets and unexpected revelations surface, challenging the detective like never before."
+    }
+  ],
+  "releaseDate": "2010-07-25",
+  "watchCount": 2,
+  "studios": [
+    "BBCOne"
+  ],
+  "poster": "sherlock.webp"
+}

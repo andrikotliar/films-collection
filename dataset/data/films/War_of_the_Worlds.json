@@ -1,0 +1,145 @@
+{
+  "id": "a89279259bba06110ef97aeb",
+  "type": [
+    "Film"
+  ],
+  "title": "War of the Worlds",
+  "genres": [
+    "Action",
+    "SciFi"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Steven Spielberg"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Josh Friedman"
+        },
+        {
+          "name": "David Koepp"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Kathleen Kennedy"
+        },
+        {
+          "name": "Colin Wilson"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Janusz Kaminski"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 116,
+  "cast": [
+    {
+      "actor": "d1899eef1c53bc13798a897c",
+      "character": {
+        "name": "Ray Ferrier"
+      }
+    },
+    {
+      "actor": "1fcaceb85a3ff8756b1b7bfa",
+      "character": {
+        "name": "Rachel Ferrier"
+      }
+    },
+    {
+      "actor": "2ab1456dc392e1943623f837",
+      "character": {
+        "name": "Robbie Ferrier"
+      }
+    },
+    {
+      "actor": "1e6f63ac26841c5c35756f43",
+      "character": {
+        "name": "Mary-Ann"
+      }
+    },
+    {
+      "actor": "cae536d1c4e4a87333a3eed5",
+      "character": {
+        "name": "Harlan Ogilvy"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Invasion"
+    },
+    {
+      "key": "Disaster"
+    },
+    {
+      "key": "Top10",
+      "order": 7
+    }
+  ],
+  "budget": 132000000,
+  "awards": [
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Performance by a Younger Actor",
+          "actor": "1fcaceb85a3ff8756b1b7bfa"
+        }
+      ]
+    },
+    {
+      "awardKey": "CriticsChoiceAward",
+      "nominations": [
+        {
+          "title": "Best Young Actress",
+          "actor": "1fcaceb85a3ff8756b1b7bfa"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 604000000,
+  "rating": 3,
+  "description": [
+    {
+      "title": null,
+      "text": "An alien invasion threatens the future of humanity. The catastrophic nightmare is depicted through the eyes of one American family fighting for survival."
+    }
+  ],
+  "releaseDate": "2005-06-29",
+  "watchCount": 5,
+  "studios": [
+    "Paramount",
+    "DreamWorks",
+    "Amblin"
+  ],
+  "trailer": "SM6aEEjc5hA",
+  "poster": "war_of_the_worlds.webp"
+}

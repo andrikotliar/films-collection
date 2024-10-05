@@ -1,0 +1,129 @@
+{
+  "id": "2c52108787c795fbe17ee9a6",
+  "type": [
+    "Film"
+  ],
+  "title": "Spider-Man",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Sam Raimi"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "David Koepp"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Ian Bryce"
+        },
+        {
+          "name": "Laura Ziskin"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Danny Elfman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Don Burgess"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 121,
+  "cast": [
+    {
+      "actor": "65694e39d2799267ae4a2adf",
+      "character": {
+        "name": "Spider-Man / Peter Parker",
+        "image": "spider_man_spider-man.webp"
+      }
+    },
+    {
+      "actor": "69443d6dcdd5ddbc0c51e534",
+      "character": {
+        "name": "Green Goblin / Norman Osborn",
+        "image": "spider_man_green_goblin.webp"
+      }
+    },
+    {
+      "actor": "1a56afd931fe087b7c4de4c1",
+      "character": {
+        "name": "Mary Jane Watson"
+      }
+    },
+    {
+      "actor": "03004ad337f0cc1d674180f4",
+      "character": {
+        "name": "Harry Osborn"
+      }
+    },
+    {
+      "actor": "8702a555769edb9c651cfde1",
+      "character": {
+        "name": "Ben Parker"
+      }
+    },
+    {
+      "actor": "f6edab1f2bdab7e504be7dcc",
+      "character": {
+        "name": "May Parker"
+      }
+    },
+    {
+      "actor": "03293ef86c8bf352c9dd52f4",
+      "character": {
+        "name": "J. Jonah Jameson"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Superheroes"
+    }
+  ],
+  "budget": 139000000,
+  "boxOffice": 825000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family."
+    }
+  ],
+  "chaptersId": "d1fa1cd43ac95f43d14d0650",
+  "releaseDate": "2002-05-03",
+  "watchCount": 5,
+  "studios": [
+    "Columbia",
+    "MarvelEntertainment"
+  ],
+  "trailer": "_yhFofFZGcc",
+  "poster": "raimi_spider_man_1.webp"
+}

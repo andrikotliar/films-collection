@@ -1,0 +1,249 @@
+{
+  "id": "817c7b2d42abd35dbf6cf529",
+  "type": [
+    "Film"
+  ],
+  "title": "The Hobbit: The Battle of the Five Armies",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Peter Jackson"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Fran Walsh"
+        },
+        {
+          "name": "Philippa Boyens"
+        },
+        {
+          "name": "Peter Jackson"
+        },
+        {
+          "name": "Guillermo del Toro"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Carolynne Cunningham"
+        },
+        {
+          "name": "Zane Weiner"
+        },
+        {
+          "name": "Fran Walsh"
+        },
+        {
+          "name": "Peter Jackson"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Howard Shore"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Andrew Lesnie"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "NZ"
+  ],
+  "duration": 144,
+  "cast": [
+    {
+      "actor": "aa9b2474d8c4c51e34160de8",
+      "character": {
+        "name": "Gendalf"
+      }
+    },
+    {
+      "actor": "706bad1f2278f02cd543a7a2",
+      "character": {
+        "name": "Bilbo"
+      }
+    },
+    {
+      "actor": "41335f6bf9c6162d73c8cc49",
+      "character": {
+        "name": "Thorin"
+      }
+    },
+    {
+      "actor": "dabd34e2ff1c16f496c148e7",
+      "character": {
+        "name": "Bard"
+      }
+    },
+    {
+      "actor": "cbea23272f6d430dd37d2296",
+      "character": {
+        "name": "Tauriel"
+      }
+    },
+    {
+      "actor": "cad2ddaf17bc24ce0614335d",
+      "character": {
+        "name": "Balin"
+      }
+    },
+    {
+      "actor": "5fd82a70adb4f3d540f1fdef",
+      "character": {
+        "name": "Dwalin"
+      }
+    },
+    {
+      "actor": "e8debedec931b52f4b2a8e44",
+      "character": {
+        "name": "Bifur"
+      }
+    },
+    {
+      "actor": "5f14ab66b2e34d699caadfe7",
+      "character": {
+        "name": "Bofur"
+      }
+    },
+    {
+      "actor": "a674fde7dbf59355cec8b945",
+      "character": {
+        "name": "Bombur"
+      }
+    },
+    {
+      "actor": "7fc88af85a7d3bc6756c362c",
+      "character": {
+        "name": "Fili"
+      }
+    },
+    {
+      "actor": "7b939ca19c45260ee1a86d74",
+      "character": {
+        "name": "Kili"
+      }
+    },
+    {
+      "actor": "471eafc1fcdff3b0afcae9fa",
+      "character": {
+        "name": "Oin"
+      }
+    },
+    {
+      "actor": "5ad238cfbe4c1037f4f81bfa",
+      "character": {
+        "name": "Gloin"
+      }
+    },
+    {
+      "actor": "31d1765cf65f8f3e9ec8e93f",
+      "character": {
+        "name": "Nori"
+      }
+    },
+    {
+      "actor": "e82498c3241515ca10b05975",
+      "character": {
+        "name": "Dori"
+      }
+    },
+    {
+      "actor": "e0a0deae15192ec7da6f2849",
+      "character": {
+        "name": "Ori"
+      }
+    },
+    {
+      "actor": "7619a1dbce75b71bad02d766",
+      "character": {
+        "name": "Old Bilbo"
+      }
+    },
+    {
+      "actor": "9d72ccad0a0c60872b91d2d3",
+      "character": {
+        "name": "Elrond"
+      }
+    },
+    {
+      "actor": "7a354da5768fef2be29583f0",
+      "character": {
+        "name": "Galadriel"
+      }
+    },
+    {
+      "actor": "5bee10a2e1b3001d59166ccd",
+      "character": {
+        "name": "Thranduil"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "MEU"
+    }
+  ],
+  "budget": 250000000,
+  "awards": [
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Supporting Actor",
+          "comment": "Thorin",
+          "actor": "41335f6bf9c6162d73c8cc49"
+        },
+        {
+          "title": "Best fantasy Film"
+        }
+      ]
+    },
+    {
+      "awardKey": "MtvAward",
+      "nominations": [
+        {
+          "title": "Best action Sequence"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 956000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness."
+    }
+  ],
+  "chaptersId": "148895975f95315e06a7cc17",
+  "releaseDate": "2014-12-17",
+  "watchCount": 1,
+  "studios": [
+    "NewLineCinema"
+  ],
+  "trailer": "iVAgTiBrrDA",
+  "poster": "middle_earth_3.webp"
+}

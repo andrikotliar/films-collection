@@ -1,0 +1,192 @@
+{
+  "id": "c8124a399431151d0541398e",
+  "type": [
+    "Animation"
+  ],
+  "title": "Kung Fu Panda",
+  "genres": [
+    "Action",
+    "Comedy"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Mark Osborne"
+        },
+        {
+          "name": "John Stevenson"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Jonathan Aibel"
+        },
+        {
+          "name": "Glenn Berger"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Melissa Cobb"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "John Powell"
+        },
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Yong Duk Jhun"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "CH"
+  ],
+  "duration": 92,
+  "cast": [
+    {
+      "actor": "93e4580ac1906e427cabed5a",
+      "character": {
+        "name": "Po",
+        "image": "kung_fu_panda_po.webp"
+      }
+    },
+    {
+      "actor": "9b4c82033e370d0e16c62974",
+      "character": {
+        "name": "Shifu",
+        "image": "kung_fu_panda_shifu.webp"
+      }
+    },
+    {
+      "actor": "8ea09c057163d4f5c7e44d23",
+      "character": {
+        "name": "Tigress",
+        "image": "kung_fu_panda_tigress.webp"
+      }
+    },
+    {
+      "actor": "07fd6405b794906aa17de68f",
+      "character": {
+        "name": "Tai Lung",
+        "image": "kung_fu_panda_tai_lung.webp"
+      }
+    },
+    {
+      "actor": "9129cd77b72f6865ac51f2a7",
+      "character": {
+        "name": "Monkey",
+        "image": "kung_fu_panda_monkey.webp"
+      }
+    },
+    {
+      "actor": "fc2aa00b24fac3bf3e2532b4",
+      "character": {
+        "name": "Mantis",
+        "image": "kung_fu_panda_mantis.webp"
+      }
+    },
+    {
+      "actor": "3e39acbba04928ae4e75b33c",
+      "character": {
+        "name": "Viper",
+        "image": "kung_fu_panda_viper.webp"
+      }
+    },
+    {
+      "actor": "e3e9852e41647da469ca48ad",
+      "character": {
+        "name": "Crane",
+        "image": "kung_fu_panda_crane.webp"
+      }
+    },
+    {
+      "actor": "ac0c86b4f56b6b569c2b37fb",
+      "character": {
+        "name": "Oogway",
+        "image": "kung_fu_panda_oogway.webp"
+      }
+    },
+    {
+      "actor": "ba8c2781a07c02d7d6a45233",
+      "character": {
+        "name": "Mr. Ping",
+        "image": "kung_fu_panda_mr_ping.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "MartialArts"
+    }
+  ],
+  "budget": 130000000,
+  "awards": [
+    {
+      "awardKey": "AnnieAward",
+      "nominations": [
+        {
+          "title": "Best Animated Feature"
+        },
+        {
+          "title": "Best Animated Effects"
+        },
+        {
+          "title": "Best Character Animation in a Feature Production"
+        },
+        {
+          "title": "Best Character Design in an Animated Feature Production"
+        },
+        {
+          "title": "Best Production Design in an Animated Feature Production"
+        },
+        {
+          "title": "Best Storyboarding in an Animated Feature Production"
+        },
+        {
+          "title": "Best Voice Acting in an Animated Feature Production",
+          "actor": "9b4c82033e370d0e16c62974"
+        },
+        {
+          "title": "Best Writing in an Animated Feature Production"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 632000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance. However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a novice in martial arts."
+    }
+  ],
+  "releaseDate": "2008-06-06",
+  "watchCount": 5,
+  "studios": [
+    "DreamWorksAnimation"
+  ],
+  "trailer": "NRc-ze7Wrxw",
+  "poster": "kungfu_panda.webp"
+}

@@ -1,0 +1,140 @@
+{
+  "id": "679872e08a319a16e8f0d2fb",
+  "type": [
+    "Film"
+  ],
+  "title": "Men in Black",
+  "genres": [
+    "SciFi",
+    "Action",
+    "Comedy"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Barry Sonnenfeld"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Ed Solomon"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Walter F. Parkes"
+        },
+        {
+          "name": "Laurie MacDonald"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Danny Elfman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Don Peterman"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 98,
+  "cast": [
+    {
+      "actor": "585bc630dfa836dd72779c8d",
+      "character": {
+        "name": "Agent Kay"
+      }
+    },
+    {
+      "actor": "b59613245389fb066c309182",
+      "character": {
+        "name": "Agent Jay"
+      }
+    },
+    {
+      "actor": "c77c28e2e76d0e04c9466729",
+      "character": {
+        "name": "Laurel"
+      }
+    },
+    {
+      "actor": "46281b634ba77b5a747dfaa0",
+      "character": {
+        "name": "Edgar"
+      }
+    },
+    {
+      "actor": "c9bd0790a6a1140723691088",
+      "character": {
+        "name": "Z"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Invasion"
+    }
+  ],
+  "budget": 90000000,
+  "awards": [
+    {
+      "awardKey": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Make-up"
+        }
+      ]
+    },
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film"
+        },
+        {
+          "title": "Best Supporting Actor",
+          "actor": "46281b634ba77b5a747dfaa0"
+        },
+        {
+          "title": "Best Music"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 589000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth."
+    }
+  ],
+  "chaptersId": "821493c59c822fff3c691354",
+  "releaseDate": "1997-07-02",
+  "watchCount": 10,
+  "studios": [
+    "Columbia"
+  ],
+  "trailer": "1Q4mhYF9aQQ",
+  "poster": "mib_1.webp"
+}

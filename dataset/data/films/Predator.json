@@ -1,0 +1,138 @@
+{
+  "id": "35f0ff7983e6754133e55c2f",
+  "type": [
+    "Film"
+  ],
+  "title": "Predator",
+  "genres": [
+    "Action",
+    "Horror"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "John McTiernan"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Jim Thomas"
+        },
+        {
+          "name": "John Thomas"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "John Davis"
+        },
+        {
+          "name": "Lawrence Gordon"
+        },
+        {
+          "name": "Joel Silver"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Alan Silvestri"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Donald McAlpine"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 107,
+  "cast": [
+    {
+      "actor": "8062b68b19b6dacb76d14b75",
+      "character": {
+        "name": "Dutch"
+      }
+    },
+    {
+      "actor": "22204bd7fa1075c9a04b9659",
+      "character": {
+        "name": "Dillon"
+      }
+    },
+    {
+      "actor": "e3f82dd554f7569e0158c29b",
+      "character": {
+        "name": "Anna"
+      }
+    },
+    {
+      "actor": "55cfdcae4bf0276a8f3aea79",
+      "character": {
+        "name": "Mac"
+      }
+    },
+    {
+      "actor": "22d954e2505297913c5cd4e9",
+      "character": {
+        "name": "Blain"
+      }
+    },
+    {
+      "actor": "628096da83b9a3886c8655ca",
+      "character": {
+        "name": "Billy"
+      }
+    },
+    {
+      "actor": "56baa579884f7cfe22ac0a4d",
+      "character": {
+        "name": "Poncho"
+      }
+    },
+    {
+      "actor": "c504ec32a5e222cf07a1562c",
+      "character": {
+        "name": "Predator",
+        "image": "predator_predator.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Invasion"
+    }
+  ],
+  "budget": 15000000,
+  "boxOffice": 98000000,
+  "rating": 1,
+  "description": [
+    {
+      "title": null,
+      "text": "A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior."
+    }
+  ],
+  "releaseDate": "1987-06-12",
+  "watchCount": 2,
+  "studios": [
+    "20thCenturyFox"
+  ],
+  "trailer": "_1wDBNHYDv8",
+  "poster": "predator.webp"
+}

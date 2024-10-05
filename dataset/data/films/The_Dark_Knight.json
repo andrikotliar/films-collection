@@ -1,0 +1,214 @@
+{
+  "id": "0842844d614d8225c07c25ca",
+  "type": [
+    "Film"
+  ],
+  "title": "The Dark Knight",
+  "genres": [
+    "Action",
+    "Thriller"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Christopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Christopher Nolan"
+        },
+        {
+          "name": "Jonathan Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Charles Roven"
+        },
+        {
+          "name": "Emma Thomas"
+        },
+        {
+          "name": "Christopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        },
+        {
+          "name": "James Newton Howard"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Wally Pfister"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 152,
+  "cast": [
+    {
+      "actor": "b794f150c4436f17ba9bd9f1",
+      "character": {
+        "name": "Bruce Wayne",
+        "image": "the_dark_knight_bruce_wayne.webp"
+      }
+    },
+    {
+      "actor": "38819b839dc85832482d016b",
+      "character": {
+        "name": "Joker",
+        "image": "the_dark_knight_joker.webp"
+      }
+    },
+    {
+      "actor": "42c91acbbc2b09bdffe6bf6a",
+      "character": {
+        "name": "Harvey Dent"
+      }
+    },
+    {
+      "actor": "68a6bf55b5f042549fda0642",
+      "character": {
+        "name": "Alfred"
+      }
+    },
+    {
+      "actor": "0612a54ce0b08c66512a910e",
+      "character": {
+        "name": "Rachel"
+      }
+    },
+    {
+      "actor": "a03a7c1a8a396d3211b9b317",
+      "character": {
+        "name": "Gordon"
+      }
+    },
+    {
+      "actor": "6baca3c5f3dcf4fb1271cb34",
+      "character": {
+        "name": "Lucius Fox"
+      }
+    },
+    {
+      "actor": "fe1abb15a45afafd3263a771",
+      "character": {
+        "name": "Scarecrow"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Superheroes"
+    }
+  ],
+  "budget": 185000000,
+  "awards": [
+    {
+      "awardKey": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Performance by an Actor in a Supporting Role",
+          "comment": "as Joker. Posthumously",
+          "actor": "38819b839dc85832482d016b"
+        },
+        {
+          "title": "Best Achievement in Sound Editing"
+        }
+      ]
+    },
+    {
+      "awardKey": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Supporting Actor",
+          "comment": "as Joker. Posthumously",
+          "actor": "38819b839dc85832482d016b"
+        }
+      ]
+    },
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best action/Adventure/thriller Film"
+        },
+        {
+          "title": "Best Supporting Actor",
+          "comment": "as Joker. Posthumously",
+          "actor": "38819b839dc85832482d016b"
+        },
+        {
+          "title": "Best Writing"
+        },
+        {
+          "title": "Best Music"
+        },
+        {
+          "title": "Best Special Effects"
+        }
+      ]
+    },
+    {
+      "awardKey": "MtvAward",
+      "nominations": [
+        {
+          "title": "Best Villain",
+          "comment": "as Joker. Posthumously",
+          "actor": "38819b839dc85832482d016b"
+        }
+      ]
+    },
+    {
+      "awardKey": "CriticsChoiceAward",
+      "nominations": [
+        {
+          "title": "Best Supporting Actor",
+          "comment": "as Joker. Posthumously",
+          "actor": "38819b839dc85832482d016b"
+        },
+        {
+          "title": "Best action Movie"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 1000000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+    }
+  ],
+  "chaptersId": "c4d28635d7656ca68d38e43c",
+  "releaseDate": "2008-07-18",
+  "watchCount": 2,
+  "studios": [
+    "WarnerBros",
+    "Legendary"
+  ],
+  "trailer": "EXeTwQWrcwY",
+  "poster": "batman_2.webp"
+}

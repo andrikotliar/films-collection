@@ -1,0 +1,144 @@
+{
+  "id": "a9a22c7a2fd7f6abbbc009d1",
+  "type": [
+    "Film"
+  ],
+  "title": "Spider-Man: Homecoming",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Jon Watts"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Jonathan Goldstein"
+        },
+        {
+          "name": "John Francis Daley"
+        },
+        {
+          "name": "Jon Watts"
+        },
+        {
+          "name": "Christopher Ford"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Kevin Feige"
+        },
+        {
+          "name": "Amy Pascal"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Michael Giacchino"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Salvatore Totino"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 133,
+  "cast": [
+    {
+      "actor": "b6c60930f5f74a488d2429ff",
+      "character": {
+        "name": "Adrian Toomes / Vulture",
+        "image": "spider_man_homecoming_adrian_toomes.webp"
+      }
+    },
+    {
+      "actor": "7724f9a2549d742da5d02985",
+      "character": {
+        "name": "Peter Parker / Spider-Man",
+        "image": "spider_man_homecoming_peter_parker.webp"
+      }
+    },
+    {
+      "actor": "68eac2af31419390d7f727fd",
+      "character": {
+        "name": "Tony Stark / Iron Man",
+        "image": "spider_man_homecoming_tony_stark.webp"
+      }
+    },
+    {
+      "actor": "0538ae4342160abcc02ecf33",
+      "character": {
+        "name": "May Parker"
+      }
+    },
+    {
+      "actor": "107e7fb331c2103897a87ffa",
+      "character": {
+        "name": "Michelle"
+      }
+    },
+    {
+      "actor": "398e1ca9ff4d050aac592111",
+      "character": {
+        "name": "Ned"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "MCU"
+    }
+  ],
+  "budget": 175000000,
+  "awards": [
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Performance by a Younger Actor",
+          "actor": "7724f9a2549d742da5d02985"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 880000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City."
+    }
+  ],
+  "chaptersId": "07bf3e15ce289b98963660c5",
+  "releaseDate": "2017-07-07",
+  "watchCount": 1,
+  "studios": [
+    "WaltDisney",
+    "MarvelStudios"
+  ],
+  "trailer": "n9DwoQ7HWvI",
+  "poster": "mcu_spider_man_1.webp"
+}

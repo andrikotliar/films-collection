@@ -1,0 +1,179 @@
+{
+  "id": "aeed1ba8762f820c693c8d98",
+  "type": [
+    "Film"
+  ],
+  "title": "Jurassic Park",
+  "genres": [
+    "SciFi",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Steven Spielberg"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Michael Crichton"
+        },
+        {
+          "name": "David Koepp"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Kathleen Kennedy"
+        },
+        {
+          "name": "Gerald R. Molen"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Dean Cundey"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 127,
+  "cast": [
+    {
+      "actor": "2481ddc7d8be875f8b2be84e",
+      "character": {
+        "name": "Grant"
+      }
+    },
+    {
+      "actor": "447021eba8815c4ef5979744",
+      "character": {
+        "name": "Ellie"
+      }
+    },
+    {
+      "actor": "ffe7655111ebb548aeea0a19",
+      "character": {
+        "name": "Malcolm"
+      }
+    },
+    {
+      "actor": "0c2791ec84298bfbf0113104",
+      "character": {
+        "name": "Hammond"
+      }
+    },
+    {
+      "actor": "28bffad188c4ad2e2f4c4407",
+      "character": {
+        "name": "Tim"
+      }
+    },
+    {
+      "actor": "ffef45b0f3b1674f895123c3",
+      "character": {
+        "name": "Lex"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Legends"
+    },
+    {
+      "key": "Monsters"
+    }
+  ],
+  "budget": 63000000,
+  "awards": [
+    {
+      "awardKey": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Sound"
+        },
+        {
+          "title": "Best Sound Effects Editing"
+        },
+        {
+          "title": "Best Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardKey": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Special Effects"
+        }
+      ]
+    },
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film"
+        },
+        {
+          "title": "Best Director"
+        },
+        {
+          "title": "Best Writing"
+        },
+        {
+          "title": "Best Special Effects"
+        }
+      ]
+    },
+    {
+      "awardKey": "JupiterAward",
+      "nominations": [
+        {
+          "title": "Best International Film"
+        },
+        {
+          "title": "Best International Director"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 1030000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose."
+    }
+  ],
+  "chaptersId": "49f8964ab8146674fa031483",
+  "releaseDate": "1993-06-11",
+  "watchCount": 3,
+  "studios": [
+    "Universal",
+    "Amblin"
+  ],
+  "trailer": "QWBKEmWWL38",
+  "poster": "jurassic_park_1.webp"
+}

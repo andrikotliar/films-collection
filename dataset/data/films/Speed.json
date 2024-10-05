@@ -1,0 +1,137 @@
+{
+  "id": "46263692035fd66ee89f425e",
+  "type": [
+    "Film"
+  ],
+  "title": "Speed",
+  "genres": [
+    "Action",
+    "Thriller"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Jan DE Bont"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Graham Yost"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Mark Gordon"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Mark Mancina"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Andrzej Bartkowiak"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 116,
+  "cast": [
+    {
+      "actor": "064e80da8733b3e3692e9735",
+      "character": {
+        "name": "Jack Traven"
+      }
+    },
+    {
+      "actor": "5ec57d724ac4f90a7edb2736",
+      "character": {
+        "name": "Howard Payne"
+      }
+    },
+    {
+      "actor": "d8e06c9280b3a91df4dadb08",
+      "character": {
+        "name": "Annie"
+      }
+    },
+    {
+      "actor": "0aeb4bc99c646bc834ac62f4",
+      "character": {
+        "name": "Harry"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Cars"
+    }
+  ],
+  "budget": 30000000,
+  "awards": [
+    {
+      "awardKey": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Sound"
+        },
+        {
+          "title": "Best Sound Effects Editing"
+        }
+      ]
+    },
+    {
+      "awardKey": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Editing"
+        },
+        {
+          "title": "Best Sound"
+        }
+      ]
+    },
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Actress",
+          "actor": "d8e06c9280b3a91df4dadb08"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 350000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph."
+    }
+  ],
+  "releaseDate": "1994-06-10",
+  "watchCount": 5,
+  "studios": [
+    "20thCenturyFox"
+  ],
+  "trailer": "8piqd2BWeGI",
+  "poster": "speed.webp"
+}

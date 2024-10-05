@@ -1,0 +1,17 @@
+.filmsSection {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.paginationWrapper {
+  margin-top: auto;
+}
+
+@media (max-width: 785px) {
+  .filmsSection {
+    padding-bottom: 80px;
+  }
+}

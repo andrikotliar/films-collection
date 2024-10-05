@@ -3,31 +3,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "npm run dataset:generate && vite",
-    "build": "npm run dataset:generate && tsc && vite build",
-    "preview": "vite preview",
-    "dataset:generate": "node --no-warnings ./utils/generate-dataset",
-    "dataset:update": "node --no-warnings ./utils/update-dataset",
-    "dataset:process": "node --no-warnings ./utils/process-data"
-  },
-  "dependencies": {
-    "@tanstack/react-query": "^5.51.23",
-    "classnames": "^2.5.1",
-    "lucide-react": "^0.395.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-hook-form": "^7.51.4",
-    "react-router-dom": "^6.23.1",
-    "vite-plugin-svgr": "^4.2.0"
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "dev": "concurrently --names 'SERVER,CLIENT' --prefixColors 'cyan,green' \"npm run dev:server\" \"npm run dev:client\""
   },
   "devDependencies": {
-    "@types/node": "^20.12.12",
-    "@types/react": "^18.3.2",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^2.2.0",
-    "typescript": "^5.4.5",
-    "vite": "^3.2.10",
-    "vite-tsconfig-paths": "^4.3.2"
+    "concurrently": "^9.0.1"
   },
   "author": "Andrii Kotliar",
   "repository": {

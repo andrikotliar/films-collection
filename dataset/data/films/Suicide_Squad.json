@@ -1,0 +1,157 @@
+{
+  "id": "57eee71bb8a6511f6453de32",
+  "type": [
+    "Film"
+  ],
+  "title": "Suicide Squad",
+  "genres": [
+    "Action",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "David Ayer"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "David Ayer"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Charles Roven"
+        },
+        {
+          "name": "Richard Suckle"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Steven Price"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Roman Vasyanov"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 123,
+  "cast": [
+    {
+      "actor": "b59613245389fb066c309182",
+      "character": {
+        "name": "Deadshot"
+      }
+    },
+    {
+      "actor": "a4d0916f25c090bb758631dd",
+      "character": {
+        "name": "Harley Quinn"
+      }
+    },
+    {
+      "actor": "ed4d4d91e091abd17b3ee6cc",
+      "character": {
+        "name": "Amanda Waller"
+      }
+    },
+    {
+      "actor": "12e37e1d5008c5c1db94ec33",
+      "character": {
+        "name": "The Joker"
+      }
+    },
+    {
+      "actor": "88abf608a4505bb4a212e2ba",
+      "character": {
+        "name": "George Harkness / Captain Boomerang"
+      }
+    },
+    {
+      "actor": "ad90429408b0f9cc24ca4d36",
+      "character": {
+        "name": "Diablo"
+      }
+    },
+    {
+      "actor": "b2dad5c4c7660489fb7795e7",
+      "character": {
+        "name": "Killer Croc"
+      }
+    },
+    {
+      "actor": "1e9105db58adbed1e638d627",
+      "character": {
+        "name": "June Moone / Enchantress"
+      }
+    },
+    {
+      "actor": "916020e239fb5fadbd4e7069",
+      "character": {
+        "name": "Rick Flag"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "DEU"
+    }
+  ],
+  "budget": 175000000,
+  "awards": [
+    {
+      "awardKey": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Achievement in Makeup and Hairstyling"
+        }
+      ]
+    },
+    {
+      "awardKey": "CriticsChoiceAward",
+      "nominations": [
+        {
+          "title": "Best Actress in an action Movie"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 747000000,
+  "rating": 1,
+  "description": [
+    {
+      "title": null,
+      "text": "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse."
+    }
+  ],
+  "chaptersId": "d923cc31cdf721e7ddeb1616",
+  "releaseDate": "2016-08-05",
+  "watchCount": 1,
+  "studios": [
+    "DCEntertainment",
+    "WarnerBros"
+  ],
+  "trailer": "CmRih_VtVAs",
+  "poster": "suicide_squad.webp"
+}

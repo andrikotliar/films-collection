@@ -1,0 +1,141 @@
+{
+  "id": "26ea04901835bcc507e2cee6",
+  "type": [
+    "Animation"
+  ],
+  "title": "Madagascar",
+  "genres": [
+    "Adventures",
+    "Comedy"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Eric Darnell"
+        },
+        {
+          "name": "Tom McGrath"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Mark Burton"
+        },
+        {
+          "name": "Billy Frolick"
+        },
+        {
+          "name": "Eric Darnell"
+        },
+        {
+          "name": "Tom McGrath"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Mireille Soria"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 86,
+  "cast": [
+    {
+      "actor": "30c03c6976ec24262f37bfc6",
+      "character": {
+        "name": "Alex",
+        "image": "madagascar_alex.webp"
+      }
+    },
+    {
+      "actor": "ce3b1d5495190d8116dea108",
+      "character": {
+        "name": "Marty",
+        "image": "madagascar_marty.webp"
+      }
+    },
+    {
+      "actor": "a292c106f01b7650bbe0c49f",
+      "character": {
+        "name": "Melman",
+        "image": "madagascar_melman.webp"
+      }
+    },
+    {
+      "actor": "544db30160fa4bfa12603ee5",
+      "character": {
+        "name": "Gloria",
+        "image": "madagascar_gloria.webp"
+      }
+    },
+    {
+      "actor": "305954b13aa2aaf70e71c864",
+      "character": {
+        "name": "Julien",
+        "image": "madagascar_julien.webp"
+      }
+    },
+    {
+      "actor": "703b49e5d14fbe3506c1dd6b",
+      "character": {
+        "name": "Skipper",
+        "image": "madagascar_skipper.webp"
+      }
+    },
+    {
+      "actor": "7b7437d683e231f7f746d770",
+      "character": {
+        "name": "Kowalski",
+        "image": "madagascar_kowalski.webp"
+      }
+    },
+    {
+      "actor": "6aa1512f81dda6fbd3d8f7ef",
+      "character": {
+        "name": "Maurice",
+        "image": "madagascar_maurice.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "FantasyWorlds"
+    }
+  ],
+  "budget": 75000000,
+  "boxOffice": 542000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "A group of animals who have spent all their life in a New York zoo end up in the jungles of Madagascar, and must adjust to living in the wild."
+    }
+  ],
+  "chaptersId": "a4b10d26dd307a125bdccf81",
+  "releaseDate": "2005-05-27",
+  "watchCount": 5,
+  "studios": [
+    "DreamWorksAnimation"
+  ],
+  "trailer": "orAqhC-Hp_o",
+  "poster": "madagascar.webp"
+}

@@ -1,0 +1,262 @@
+{
+  "id": "15827bcc5ddd588cb7a5fd5e",
+  "type": [
+    "Film"
+  ],
+  "title": "Avatar",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "James Cameron"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "James Cameron"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "James Cameron"
+        },
+        {
+          "name": "Jon Landau"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "James Horner"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Mauro Fiore"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "UK"
+  ],
+  "duration": 162,
+  "cast": [
+    {
+      "actor": "ab25ed81fbee90d0a29d7c92",
+      "character": {
+        "name": "Jake Sully",
+        "image": "avatar_jake_sully.webp"
+      }
+    },
+    {
+      "actor": "0f44c8581608c442261413e4",
+      "character": {
+        "name": "Neytiri",
+        "image": "avatar_neitiri.webp"
+      }
+    },
+    {
+      "actor": "ca74e2b4d921daf8283f1f08",
+      "character": {
+        "name": "Grace Augustine",
+        "image": "avatar_grace_augustine.webp"
+      }
+    },
+    {
+      "actor": "b0b4e07f3ddc197fc79b6d99",
+      "character": {
+        "name": "Miles Quaritch"
+      }
+    },
+    {
+      "actor": "f19c147b933b4ed2c5574ef6",
+      "character": {
+        "name": "Trudy Chacon"
+      }
+    },
+    {
+      "actor": "71a9d3757a085d345032d89e",
+      "character": {
+        "name": "Parker Selfridge"
+      }
+    },
+    {
+      "actor": "cc1bd413915afb8a696bfff3",
+      "character": {
+        "name": "Norm Spellman"
+      }
+    },
+    {
+      "actor": "eb10eabec8f10e75bd00fb81",
+      "character": {
+        "name": "Eytukan",
+        "image": "avatar_eytukan.webp"
+      }
+    },
+    {
+      "actor": "3b762e0e7c6cf942574547b6",
+      "character": {
+        "name": "Tsu'tey",
+        "image": "avatar_tsu_tey.webp"
+      }
+    },
+    {
+      "actor": "d386a741d1c9e62ed1894b81",
+      "character": {
+        "name": "Mo'at",
+        "image": "avatar_mo_at.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Top10",
+      "order": 1
+    },
+    {
+      "key": "Space"
+    },
+    {
+      "key": "Future"
+    }
+  ],
+  "budget": 237000000,
+  "awards": [
+    {
+      "awardKey": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Achievement in Cinematography"
+        },
+        {
+          "title": "Best Achievement in Visual Effects"
+        },
+        {
+          "title": "Best Achievement in Art Direction"
+        }
+      ]
+    },
+    {
+      "awardKey": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Production Design"
+        },
+        {
+          "title": "Best Special Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best DVD Special Edition",
+          "comment": "The \"Extended Collector's Edition\" release."
+        },
+        {
+          "title": "Best Actor",
+          "actor": "ab25ed81fbee90d0a29d7c92"
+        },
+        {
+          "title": "Best Actress",
+          "actor": "0f44c8581608c442261413e4"
+        },
+        {
+          "title": "Best Supporting Actor",
+          "actor": "b0b4e07f3ddc197fc79b6d99"
+        },
+        {
+          "title": "Best Supporting Actress",
+          "actor": "ca74e2b4d921daf8283f1f08"
+        },
+        {
+          "title": "Best Director"
+        },
+        {
+          "title": "Best Writing"
+        },
+        {
+          "title": "Best Music"
+        },
+        {
+          "title": "Best Production Design"
+        },
+        {
+          "title": "Best Science Fiction Film"
+        },
+        {
+          "title": "Best Special Effects"
+        }
+      ]
+    },
+    {
+      "awardKey": "GoldenGlobeAward",
+      "nominations": [
+        {
+          "title": "Best Director - Motion Picture"
+        },
+        {
+          "title": "Best Motion Picture - drama"
+        }
+      ]
+    },
+    {
+      "awardKey": "CriticsChoiceAward",
+      "nominations": [
+        {
+          "title": "Best Cinematography"
+        },
+        {
+          "title": "Best Editing"
+        },
+        {
+          "title": "Best Art Direction"
+        },
+        {
+          "title": "Best Sound"
+        },
+        {
+          "title": "Best Visual Effects"
+        },
+        {
+          "title": "Best action Movie"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 2800000000,
+  "rating": 3,
+  "description": [
+    {
+      "title": null,
+      "text": "By the 22nd century, humanity had completely exhausted Earth's resources and ventured to mine a new rare resource, unobtanium, on Pandora—a moon of the planet Polyphemus in the Alpha Centauri star system. On the planet, humanity encountered the local intelligent race, the Na'vi—three-meter-tall, blue-skinned humanoids. The Na'vi live in complete harmony with nature and refused to cooperate with humans, who are only capable of destroying it. However, one of the Na'vi clans, the Omaticaya, lives on a large deposit of unobtanium. To resolve the situation with the natives peacefully, Earth's scientists developed the Avatar program. Avatars are artificially grown Na'vi bodies based on the DNA of their operators—humans who can transfer their consciousness into these bodies.One such Avatar was intended for the scientist Tom Sully, but he died shortly before the start of the new mission, so his twin brother, Jake Sully, was brought in as a replacement. Jake, a former Marine in a wheelchair, knows nothing about the Avatar program but is fully compatible with Tom's Avatar. Thus, Jake arrives on Pandora to join Grace Augustine's team, who currently leads the program and does not support the idea of bringing in someone unfamiliar with Pandora, unlike Colonel Miles Quaritch, who is ready to forcefully remove the Omaticaya. On his first day on Pandora in the Avatar body, Jake gets lost in the forest and encounters the local hunter Neytiri, who initially decides to kill him until he is surrounded by the seeds of the sacred Tree of Souls. Neytiri takes him to her home, where Jake asks to be accepted and taught to be Na'vi. Tsahìk, the spiritual leader, is against this, believing it is impossible to teach those who already know everything about them but refuse to listen. Jake, however, says that he knows nothing and is willing to learn. Thus, Jake becomes Neytiri's protégé. Quaritch likes that Jake has gained their trust and gives him the task of learning all the details about their home and its weaknesses. However, Jake begins to enjoy life on Pandora, falls in love with Neytiri, and gradually sides with the Omaticaya in their battle against the humans."
+    }
+  ],
+  "chaptersId": "120c1e209078af3a3b2da0d1",
+  "releaseDate": "2009-12-18",
+  "watchCount": 5,
+  "studios": [
+    "20thCenturyFox"
+  ],
+  "trailer": "CM79GTEm2ps",
+  "poster": "avatar.webp"
+}

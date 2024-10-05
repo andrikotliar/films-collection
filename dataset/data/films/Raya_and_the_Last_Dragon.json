@@ -1,0 +1,128 @@
+{
+  "id": "96eee3c7832ce97adbb317f3",
+  "type": [
+    "Animation"
+  ],
+  "title": "Raya and the Last Dragon",
+  "genres": [
+    "Adventures",
+    "Fantasy"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Don Hall"
+        },
+        {
+          "name": "Carlos López Estrada"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Qui Nguyen"
+        },
+        {
+          "name": "Adele Lim"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Peter Del Vecho"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "James Newton Howard"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Rob Dressel"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 107,
+  "cast": [
+    {
+      "actor": "730857c2f976c20b0136c5c1",
+      "character": {
+        "name": "Raya",
+        "image": "raya_and_the_last_dragon_raya.webp"
+      }
+    },
+    {
+      "actor": "902d1a4d06fb8b0532302803",
+      "character": {
+        "name": "Sisu",
+        "image": "raya_and_the_last_dragon_sisu.webp"
+      }
+    },
+    {
+      "actor": "9c9caba6aa54ff1a291c85bc",
+      "character": {
+        "name": "Boun",
+        "image": "raya_and_the_last_dragon_boun.webp"
+      }
+    },
+    {
+      "actor": "1b18bc88f980f0f3cc8dcd70",
+      "character": {
+        "name": "Namaari",
+        "image": "raya_and_the_last_dragon_namaari.webp"
+      }
+    },
+    {
+      "actor": "57c5a3b95582eafac775c24f",
+      "character": {
+        "name": "Benja",
+        "image": "raya_and_the_last_dragon_benja.webp"
+      }
+    },
+    {
+      "actor": "a775eca4841cce040addc4ca",
+      "character": {
+        "name": "Tong",
+        "image": "raya_and_the_last_dragon_tong.webp"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "FantasyWorlds"
+    }
+  ],
+  "budget": 100000000,
+  "boxOffice": 130000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "In a realm known as Kumandra, a re-imagined Earth inhabited by an ancient civilization, a warrior named Raya is determined to find the last dragon."
+    }
+  ],
+  "releaseDate": "2021-03-05",
+  "watchCount": 3,
+  "studios": [
+    "WaltDisney"
+  ],
+  "trailer": "1VIZ89FEjYI",
+  "poster": "raya.webp"
+}

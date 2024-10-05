@@ -1,0 +1,144 @@
+{
+  "id": "7797144694feb01e6e3e4932",
+  "type": [
+    "Film"
+  ],
+  "title": "Harry Potter and the Sorcerer's Stone",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Chris Columbus"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Steve Kloves"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "David Heyman"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "John Seale"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "UK"
+  ],
+  "duration": 152,
+  "cast": [
+    {
+      "actor": "7cd730dd761c711d4467bce0",
+      "character": {
+        "name": "Harry Potter",
+        "image": "harry_potter_and_the_sorcerer_s_stone_harry_potter"
+      }
+    },
+    {
+      "actor": "076188ec6b66a2c4a62fdab1",
+      "character": {
+        "name": "Ron Weasley",
+        "image": "harry_potter_and_the_sorcerer_s_stone_ron_weasley"
+      }
+    },
+    {
+      "actor": "3f0004fa95271000de67d1f4",
+      "character": {
+        "name": "Hermione Granger",
+        "image": "harry_potter_and_the_sorcerer_s_stone_hermione_granger"
+      }
+    },
+    {
+      "actor": "5cd30ae8b35b8110d0a1bc75",
+      "character": {
+        "name": "Albus Dumbledore"
+      }
+    },
+    {
+      "actor": "5aea15b4e9912ad7b3a2241e",
+      "character": {
+        "name": "Rubeus Hagrid"
+      }
+    },
+    {
+      "actor": "f4f7443c387c2869cd0d3f56",
+      "character": {
+        "name": "Quirinus Quirrell"
+      }
+    },
+    {
+      "actor": "aca6f583677ffb4c7f38d469",
+      "character": {
+        "name": "Draco Malfoy",
+        "image": "harry_potter_and_the_sorcerer_s_stone_draco_malfoy"
+      }
+    },
+    {
+      "actor": "9433a6747c6cfc354fed7e65",
+      "character": {
+        "name": "Severus Snape"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "HPU"
+    }
+  ],
+  "budget": 125000000,
+  "awards": [
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Costumes"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 975000000,
+  "rating": 3,
+  "description": [
+    {
+      "title": null,
+      "text": "An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world."
+    }
+  ],
+  "chaptersId": "21fe420121bd2018a3c76f32",
+  "releaseDate": "2001-11-16",
+  "watchCount": 10,
+  "studios": [
+    "WarnerBros"
+  ],
+  "trailer": "VyHV0BRtdxo",
+  "poster": "harry_potter_1.webp"
+}

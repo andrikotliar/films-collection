@@ -1,0 +1,109 @@
+{
+  "id": "9fcd7bb1322ae7a0f34436fc",
+  "type": [
+    "Film"
+  ],
+  "title": "The Lost World: Jurassic Park",
+  "genres": [
+    "SciFi",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Steven Spielberg"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "David Koepp"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Gerald R. Molen"
+        },
+        {
+          "name": "Colin Wilson"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Janusz Kaminski"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 129,
+  "cast": [
+    {
+      "actor": "ffe7655111ebb548aeea0a19",
+      "character": {
+        "name": "Malcolm"
+      }
+    },
+    {
+      "actor": "0c2791ec84298bfbf0113104",
+      "character": {
+        "name": "Hammond"
+      }
+    },
+    {
+      "actor": "d8b1bdb11b24e877a1c19436",
+      "character": {
+        "name": "Sarah Harding"
+      }
+    },
+    {
+      "actor": "33d8b38be58c1aa4ce2bcef0",
+      "character": {
+        "name": "Peter Ludlow"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Monsters"
+    }
+  ],
+  "budget": 73000000,
+  "boxOffice": 619000000,
+  "rating": 2,
+  "description": [
+    {
+      "title": null,
+      "text": "A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda."
+    }
+  ],
+  "chaptersId": "49f8964ab8146674fa031483",
+  "releaseDate": "1997-05-23",
+  "watchCount": 2,
+  "studios": [
+    "Universal",
+    "Amblin"
+  ],
+  "trailer": "RxrvaneULkE",
+  "poster": "jurassic_park_2.webp"
+}

@@ -1,0 +1,164 @@
+{
+  "id": "feee9de535a5b45167e223ef",
+  "type": [
+    "Film"
+  ],
+  "title": "Iron Man",
+  "genres": [
+    "SciFi",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Jon Favreau"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Mark Fergus"
+        },
+        {
+          "name": "Hawk Ostby"
+        },
+        {
+          "name": "Art Marcum"
+        },
+        {
+          "name": "Matt Holloway"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Avi Arad"
+        },
+        {
+          "name": "Kevin Feige"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Ramin Djawadi"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Matthew Libatique"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 126,
+  "cast": [
+    {
+      "actor": "68eac2af31419390d7f727fd",
+      "character": {
+        "name": "Tony Stark / Iron Man",
+        "image": "iron_man_tony_stark.webp"
+      }
+    },
+    {
+      "actor": "6db70d56d0080f919a21f353",
+      "character": {
+        "name": "Obadiah Stane"
+      }
+    },
+    {
+      "actor": "4c47f492bea41214abba1578",
+      "character": {
+        "name": "Pepper Potts"
+      }
+    },
+    {
+      "actor": "6db824d373bce636d6a7dda8",
+      "character": {
+        "name": "Rhodey"
+      }
+    },
+    {
+      "actor": "1487651f3ade7e940c778444",
+      "character": {
+        "name": "Christine Everhart"
+      }
+    },
+    {
+      "actor": "db64003cbd6be1048c03d981",
+      "character": {
+        "name": "Yinsen"
+      }
+    },
+    {
+      "actor": "75c2eab42226def31c1f29ef",
+      "character": {
+        "name": "Raza"
+      }
+    },
+    {
+      "actor": "297abcfa1686135e139ec907",
+      "character": {
+        "name": "Agent Coulson"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "MCU"
+    },
+    {
+      "key": "Top10",
+      "order": 3
+    }
+  ],
+  "budget": 140000000,
+  "awards": [
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film"
+        },
+        {
+          "title": "Best Actor",
+          "actor": "68eac2af31419390d7f727fd"
+        },
+        {
+          "title": "Best Director"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 585000000,
+  "rating": 3,
+  "description": [
+    {
+      "title": null,
+      "text": "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
+    }
+  ],
+  "chaptersId": "07bf3e15ce289b98963660c5",
+  "watchCount": 5,
+  "releaseDate": "2008-05-02",
+  "studios": [
+    "MarvelStudios",
+    "Paramount"
+  ],
+  "trailer": "8hYlB38asDY",
+  "poster": "iron_man_1.webp"
+}

@@ -1,0 +1,328 @@
+{
+  "id": "1029ace26991dec688a42cbd",
+  "type": [
+    "Film"
+  ],
+  "title": "The Lord of the Rings: Return of the King",
+  "genres": [
+    "Fantasy",
+    "Adventures"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Peter Jackson"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Fran Walsh"
+        },
+        {
+          "name": "Philippa Boyens"
+        },
+        {
+          "name": "Peter Jackson"
+        },
+        {
+          "name": "Stephen Sinclair"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Peter Jackson"
+        },
+        {
+          "name": "Fran Walsh"
+        },
+        {
+          "name": "Barrie M. Osborne"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Howard Shore"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Andrew Lesnie"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "NZ"
+  ],
+  "duration": 201,
+  "cast": [
+    {
+      "actor": "afed96df0db76b317cb36711",
+      "character": {
+        "name": "Frodo Baggins"
+      }
+    },
+    {
+      "actor": "aa9b2474d8c4c51e34160de8",
+      "character": {
+        "name": "Gandalf"
+      }
+    },
+    {
+      "actor": "93637b8d05eb8514a37ff349",
+      "character": {
+        "name": "Samwise Gamgee"
+      }
+    },
+    {
+      "actor": "e1ff919254c44052867479fb",
+      "character": {
+        "name": "Aragorn"
+      }
+    },
+    {
+      "actor": "2555ed16eef45d9015e8aa02",
+      "character": {
+        "name": "Gimli"
+      }
+    },
+    {
+      "actor": "450fa3d27820892d0f5afa0c",
+      "character": {
+        "name": "Legolas"
+      }
+    },
+    {
+      "actor": "7a354da5768fef2be29583f0",
+      "character": {
+        "name": "Galadriel"
+      }
+    },
+    {
+      "actor": "9d72ccad0a0c60872b91d2d3",
+      "character": {
+        "name": "Elrond"
+      }
+    },
+    {
+      "actor": "e5253cdc8c1fb87953720d64",
+      "character": {
+        "name": "Gollum",
+        "image": "the_lord_of_the_rings_return_of_the_king_gollum"
+      }
+    },
+    {
+      "actor": "20efa4c64021c69982d7f5fd",
+      "character": {
+        "name": "Denethor"
+      }
+    },
+    {
+      "actor": "ce9f35f697acd8a8d4ac4242",
+      "character": {
+        "name": "Pippin"
+      }
+    },
+    {
+      "actor": "d981869f14315c851cdcb1dd",
+      "character": {
+        "name": "Merry"
+      }
+    },
+    {
+      "actor": "9054c0064f19a48344d6d874",
+      "character": {
+        "name": "Theoden"
+      }
+    },
+    {
+      "actor": "efc61c81c4fdcdbf339820e8",
+      "character": {
+        "name": "Arwen"
+      }
+    },
+    {
+      "actor": "1e6f63ac26841c5c35756f43",
+      "character": {
+        "name": "Eowyn"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "MEU"
+    },
+    {
+      "key": "Legends"
+    }
+  ],
+  "budget": 94000000,
+  "awards": [
+    {
+      "awardKey": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Picture"
+        },
+        {
+          "title": "Best Director"
+        },
+        {
+          "title": "Best Writing, Adapted Screenplay"
+        },
+        {
+          "title": "Best Film Editing"
+        },
+        {
+          "title": "Best Art Direction-Set Decoration"
+        },
+        {
+          "title": "Best Costume Design"
+        },
+        {
+          "title": "Best Make-up"
+        },
+        {
+          "title": "Best Music (Original Score)"
+        },
+        {
+          "title": "Best Music (Original Song)"
+        },
+        {
+          "title": "Best Sound Mixing"
+        },
+        {
+          "title": "Best Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardKey": "GoldenGlobeAward",
+      "nominations": [
+        {
+          "title": "Best Director - Motion Picture"
+        },
+        {
+          "title": "Best Original Score - Motion Picture"
+        },
+        {
+          "title": "Best Original Song - Motion Picture"
+        },
+        {
+          "title": "Best Motion Picture - drama"
+        }
+      ]
+    },
+    {
+      "awardKey": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Film"
+        },
+        {
+          "title": "Best Screenplay - Adapted"
+        },
+        {
+          "title": "Best Cinematography"
+        },
+        {
+          "title": "Best Achievement in Special Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best DVD Special Edition Release",
+          "comment": "Extended cut"
+        },
+        {
+          "title": "Best fantasy Film"
+        },
+        {
+          "title": "Best Actor",
+          "actor": "afed96df0db76b317cb36711"
+        },
+        {
+          "title": "Best Supporting Actor",
+          "actor": "93637b8d05eb8514a37ff349"
+        },
+        {
+          "title": "Best Director"
+        },
+        {
+          "title": "Best Writing"
+        },
+        {
+          "title": "Best Music"
+        },
+        {
+          "title": "Best Make-up"
+        },
+        {
+          "title": "Best Special Effects"
+        }
+      ]
+    },
+    {
+      "awardKey": "MtvAward",
+      "nominations": [
+        {
+          "title": "Best Movie"
+        },
+        {
+          "title": "Best action Sequence"
+        }
+      ]
+    },
+    {
+      "awardKey": "CriticsChoiceAward",
+      "nominations": [
+        {
+          "title": "Best Picture"
+        },
+        {
+          "title": "Best Acting Ensemble"
+        },
+        {
+          "title": "Best Director"
+        },
+        {
+          "title": "Best Composer"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 1120000000,
+  "rating": 3,
+  "description": [
+    {
+      "title": null,
+      "text": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+    }
+  ],
+  "chaptersId": "148895975f95315e06a7cc17",
+  "releaseDate": "2003-12-17",
+  "watchCount": 10,
+  "studios": [
+    "NewLineCinema"
+  ],
+  "trailer": "y2rYRu8UW8M",
+  "poster": "middle_earth_6.webp"
+}

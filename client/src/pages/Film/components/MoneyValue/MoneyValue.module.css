@@ -1,0 +1,34 @@
+.moneyValue {
+  --main-color: var(--gray);
+
+  display: flex;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 2px solid var(--main-color);
+  width: 140px;
+}
+
+.currency {
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 10px;
+  background-color: var(--main-color);
+}
+
+.value {
+  color: var(--main-color);
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.default {
+  --main-color: var(--yellow-saturated);
+}
+
+.success {
+  --main-color: var(--green-success);
+}
+
+.failure {
+  --main-color: var(--red);
+}

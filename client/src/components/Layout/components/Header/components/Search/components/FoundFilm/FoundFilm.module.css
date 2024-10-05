@@ -1,0 +1,76 @@
+.film {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+  border: 1px solid transparent;
+  transition: border 0.3s, background-color 0.3s;
+  border-radius: var(--app-border-radius);
+}
+
+.film:not(:disabled):hover,
+.film:not(:disabled):focus-visible {
+  border-color: var(--gray);
+  background-color: var(--gray-light);
+}
+
+.film:disabled {
+  cursor: default;
+  opacity: 0.2;
+}
+
+.posterContainer {
+  width: 60px;
+  flex-shrink: 0;
+}
+
+.poster {
+  border-radius: 4px;
+}
+
+.film:not(:disabled):hover .title {
+  color: var(--blue-default);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.genres {
+  color: var(--gray-dark);
+}
+
+.year {
+  color: var(--green);
+  font-size: 14px;
+  margin-top: auto;
+}
+
+@media (max-width: 480px) {
+  .film {
+    padding: 0;
+    border: none;
+  }
+
+  .posterContainer {
+    display: none;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 12px;
+    margin: 5px 0;
+  }
+
+  .year {
+    font-size: 12px;
+  }
+}

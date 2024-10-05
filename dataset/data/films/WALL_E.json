@@ -1,0 +1,160 @@
+{
+  "id": "b3ce366732f86d80bed2dbee",
+  "type": [
+    "Animation"
+  ],
+  "title": "WALL-E",
+  "genres": [
+    "SciFi",
+    "Romance"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Andrew Stanton"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Andrew Stanton"
+        },
+        {
+          "name": "Jim Reardon"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Jim Morris"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Thomas Newman"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Jeremy Lasky"
+        },
+        {
+          "name": "Danielle Feinberg"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 97,
+  "cast": [
+    {
+      "actor": "d5264ffaad866e0421f05d92",
+      "character": {
+        "name": "WALL-E / M-O / AUTO",
+        "image": "wall_e_wall-e.webp"
+      }
+    },
+    {
+      "actor": "09bcd60575e3711555b6debd",
+      "character": {
+        "name": "EVE",
+        "image": "wall_e_eve.webp"
+      }
+    },
+    {
+      "actor": "d717be436621af2098bc9200",
+      "character": {
+        "name": "Captain",
+        "image": "wall_e_captain.webp"
+      }
+    },
+    {
+      "actor": "6597b9990c3f3bc299801972",
+      "character": {
+        "name": "Shelby Forthright"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Space"
+    },
+    {
+      "key": "Top10",
+      "order": 9
+    }
+  ],
+  "budget": 180000000,
+  "awards": [
+    {
+      "awardKey": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Animated Feature"
+        }
+      ]
+    },
+    {
+      "awardKey": "GoldenGlobeAward",
+      "nominations": [
+        {
+          "title": "Best Animated Film"
+        }
+      ]
+    },
+    {
+      "awardKey": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Animated Film"
+        }
+      ]
+    },
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Animated Film"
+        }
+      ]
+    },
+    {
+      "awardKey": "CriticsChoiceAward",
+      "nominations": [
+        {
+          "title": "Best Animated Feature"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 533000000,
+  "rating": 3,
+  "description": [
+    {
+      "title": null,
+      "text": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind."
+    }
+  ],
+  "releaseDate": "2008-06-27",
+  "watchCount": 10,
+  "studios": [
+    "WaltDisney",
+    "Pixar"
+  ],
+  "trailer": "alIq_wG9FNk",
+  "poster": "wall_e.webp"
+}

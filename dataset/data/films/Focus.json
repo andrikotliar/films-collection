@@ -1,0 +1,124 @@
+{
+  "id": "32ca6a93c1cf221bc0a20a80",
+  "type": [
+    "Film"
+  ],
+  "title": "Focus",
+  "genres": [
+    "Drama",
+    "Comedy",
+    "Crime"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Glenn Ficarra"
+        },
+        {
+          "name": "John Requa"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Glenn Ficarra"
+        },
+        {
+          "name": "John Requa"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Denise Di Novi"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Nick Urata"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Xavier Grobet"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US",
+    "AR"
+  ],
+  "duration": 105,
+  "cast": [
+    {
+      "actor": "b59613245389fb066c309182",
+      "character": {
+        "name": "Nicky"
+      }
+    },
+    {
+      "actor": "a4d0916f25c090bb758631dd",
+      "character": {
+        "name": "Jess"
+      }
+    },
+    {
+      "actor": "d7c6a9e81b9dada9336a87c4",
+      "character": {
+        "name": "Farhad"
+      }
+    },
+    {
+      "actor": "1fdeb2d956f6c20e63b7bdb5",
+      "character": {
+        "name": "Owens"
+      }
+    },
+    {
+      "actor": "316f274ae68a75f528bfd1ef",
+      "character": {
+        "name": "Rafael Garriga"
+      }
+    },
+    {
+      "actor": "7b2b9ea826a7a8b85ec99e7f",
+      "character": {
+        "name": "Liyuan Tse"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "AgentsDetectives"
+    }
+  ],
+  "budget": 50000000,
+  "boxOffice": 159000000,
+  "rating": 1,
+  "description": [
+    {
+      "title": null,
+      "text": "In the midst of veteran con man Nicky's latest scheme, a woman from his past - now an accomplished femme fatale - shows up and throws his plans for a loop."
+    }
+  ],
+  "releaseDate": "2015-02-27",
+  "watchCount": 2,
+  "studios": [
+    "WarnerBros"
+  ],
+  "trailer": "MxCRgtdAuBo",
+  "poster": "focus.webp"
+}

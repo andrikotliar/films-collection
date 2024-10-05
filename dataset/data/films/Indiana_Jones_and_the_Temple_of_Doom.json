@@ -1,0 +1,158 @@
+{
+  "id": "3861d2f4038f01855477ad00",
+  "type": [
+    "Film"
+  ],
+  "title": "Indiana Jones and the Temple of Doom",
+  "genres": [
+    "Adventures",
+    "Fantasy",
+    "Action"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Steven Spielberg"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Willard Huyck"
+        },
+        {
+          "name": "Gloria Katz"
+        },
+        {
+          "name": "George Lucas (story)"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Robert Watts"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "John Williams"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Douglas Slocombe"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 118,
+  "cast": [
+    {
+      "actor": "90204450e3ebdb007d478280",
+      "character": {
+        "name": "Dr. Henry «Indiana» Jones, Jr."
+      }
+    },
+    {
+      "actor": "2359c068d690ccd851b07cb1",
+      "character": {
+        "name": "Willie Scott"
+      }
+    },
+    {
+      "actor": "f5a4d6a37358ec72b9d5d69b",
+      "character": {
+        "name": "Short Round"
+      }
+    },
+    {
+      "actor": "9df1449bb678673fa1a844a6",
+      "character": {
+        "name": "Mola Ram"
+      }
+    },
+    {
+      "actor": "437245d8c3cdf39ad3dc3b7b",
+      "character": {
+        "name": "Chattar Lal"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Mysteries"
+    }
+  ],
+  "budget": 28000000,
+  "awards": [
+    {
+      "awardKey": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardKey": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Special Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best DVD Collection",
+          "comment": "\"The adventures of Indiana Jones DVD Collection\""
+        }
+      ]
+    },
+    {
+      "awardKey": "JupiterAward",
+      "nominations": [
+        {
+          "title": "Best International Actor",
+          "actor": "90204450e3ebdb007d478280"
+        },
+        {
+          "title": "Best International Film"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 333000000,
+  "rating": 1,
+  "description": [
+    {
+      "title": null,
+      "text": "In 1935, Indiana Jones arrives in India, still part of the British Empire, and is asked to find a mystical stone. He then stumbles upon a secret cult committing enslavement and human sacrifices in the catacombs of an ancient palace."
+    }
+  ],
+  "chaptersId": "b6df4d99b3eecf421590dd26",
+  "releaseDate": "1984-05-23",
+  "watchCount": 1,
+  "studios": [
+    "Paramount",
+    "Lucasfilm"
+  ],
+  "trailer": "WBdyLyijZhU",
+  "poster": "indiana_jones_2.webp"
+}

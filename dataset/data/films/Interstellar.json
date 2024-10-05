@@ -1,0 +1,170 @@
+{
+  "id": "c43b0eb6e9b3545e34bfdbc0",
+  "type": [
+    "Film"
+  ],
+  "title": "Interstellar",
+  "genres": [
+    "SciFi",
+    "Drama"
+  ],
+  "crew": [
+    {
+      "role": "Director",
+      "people": [
+        {
+          "name": "Cristopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Writer",
+      "people": [
+        {
+          "name": "Jonathan Nolan"
+        },
+        {
+          "name": "Cristopher Nolan"
+        }
+      ]
+    },
+    {
+      "role": "Producer",
+      "people": [
+        {
+          "name": "Cristopher Nolan"
+        },
+        {
+          "name": "Lynda Obst"
+        },
+        {
+          "name": "Emma Thomas"
+        }
+      ]
+    },
+    {
+      "role": "Music",
+      "people": [
+        {
+          "name": "Hans Zimmer"
+        }
+      ]
+    },
+    {
+      "role": "Cinematography",
+      "people": [
+        {
+          "name": "Hoyte Van Hoytema"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    "US"
+  ],
+  "duration": 169,
+  "cast": [
+    {
+      "actor": "25fddd7afb676f2eb2b4aa9f",
+      "character": {
+        "name": "Cooper"
+      }
+    },
+    {
+      "actor": "a46061cb2da09f5cf3772762",
+      "character": {
+        "name": "Murph"
+      }
+    },
+    {
+      "actor": "e368b232e6af9b5200fd411b",
+      "character": {
+        "name": "Brand"
+      }
+    },
+    {
+      "actor": "68a6bf55b5f042549fda0642",
+      "character": {
+        "name": "Professor Brand"
+      }
+    },
+    {
+      "actor": "1e69164177ea3946ddbd349e",
+      "character": {
+        "name": "Mann"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "key": "Space"
+    }
+  ],
+  "budget": 165000000,
+  "awards": [
+    {
+      "awardKey": "OscarAward",
+      "nominations": [
+        {
+          "title": "Best Achievement in Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardKey": "BaftaAward",
+      "nominations": [
+        {
+          "title": "Best Special Visual Effects"
+        }
+      ]
+    },
+    {
+      "awardKey": "SaturnAward",
+      "nominations": [
+        {
+          "title": "Best Science Fiction Film"
+        },
+        {
+          "title": "Best Production Design"
+        },
+        {
+          "title": "Best Special Effects"
+        },
+        {
+          "title": "Best Performance by a Younger Actor",
+          "actor": "894ee6951ac7d25e10c10922"
+        },
+        {
+          "title": "Best Writing"
+        },
+        {
+          "title": "Best Music"
+        }
+      ]
+    },
+    {
+      "awardKey": "CriticsChoiceAward",
+      "nominations": [
+        {
+          "title": "Best sci_fi/horror Movie"
+        }
+      ]
+    }
+  ],
+  "boxOffice": 677000000,
+  "rating": 3,
+  "description": [
+    {
+      "title": null,
+      "text": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+    }
+  ],
+  "releaseDate": "2014-11-07",
+  "watchCount": 3,
+  "studios": [
+    "Paramount",
+    "WarnerBros"
+  ],
+  "trailer": "zSWdZVtXT7E",
+  "poster": "interstellar.webp"
+}
