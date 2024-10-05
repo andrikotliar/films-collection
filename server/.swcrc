@@ -6,7 +6,7 @@
       "syntax": "typescript",
       "tsx": false
     },
-    "target": "es2020",
+    "target": "esnext",
     "baseUrl": "./src"
   },
   "module": {

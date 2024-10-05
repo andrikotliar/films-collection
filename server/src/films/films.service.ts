@@ -1,23 +1,30 @@
-import { FilmsModel } from './films.model';
-import { FindAllQueries } from './types';
-import { ChaptersService } from '../chapters/chapters.service';
-import { mapFilters } from './helpers';
-import { ActorsService } from '../actors/actors.service';
+import { AdditionalInfo, FilmsServiceDependencies, FindAllQueries, IFilmsService } from './types';
+import { getFormattedDate, mapFilters } from './helpers';
 import { ActorType } from '../actors/types';
 
-class FilmsService {
+class FilmsService implements IFilmsService {
+  private filmsModel;
+  private actorsService;
+  private chaptersService;
+
+  constructor({ filmsModel, actorsService, chaptersService }: FilmsServiceDependencies) {
+    this.filmsModel = filmsModel;
+    this.actorsService = actorsService;
+    this.chaptersService = chaptersService;
+  }
+
   async getFilteredFilms(queries: FindAllQueries) {
     const { limit, skip } = queries;
 
     const parsedFilters = mapFilters(queries);
 
-    const films = await FilmsModel.find(
+    const films = await this.filmsModel.find(
       parsedFilters,
-      { _id: 1, title: 1, poster: 1, year: 1, collections: 1, releaseDate: 1 },
+      { _id: 1, title: 1, poster: 1, collections: 1, releaseDate: 1 },
       { limit, skip, sort: { releaseDate: -1 } },
     );
 
-    const total = await FilmsModel.countDocuments(parsedFilters);
+    const total = await this.filmsModel.countDocuments(parsedFilters);
 
     const additionalInfo = await this.#populateAdditionalData(queries);
 
@@ -25,12 +32,12 @@ class FilmsService {
   }
 
   async getOneFilm(id: string) {
-    const film = await FilmsModel.findById(id)
+    const film = await this.filmsModel.findById(id)
       .populate(['cast.actor', 'awards.nominations.actor'])
       .lean();
 
     if (film?.chaptersId) {
-      const chapters = await this.#getFilmChapters(film.chaptersId);
+      const chapters = await this.getFilmChapters(film.chaptersId);
 
       return {
         ...film,
@@ -42,9 +49,9 @@ class FilmsService {
   }
 
   async getAnniversaries() {
-    const today = this.#getFormattedDate(new Date());
+    const today = getFormattedDate(new Date());
 
-    const films = await FilmsModel.find(
+    const films = await this.filmsModel.find(
       {
         releaseDate: today,
       },
@@ -55,7 +62,7 @@ class FilmsService {
   }
 
   async getRandomFilms() {
-    return await FilmsModel.aggregate([
+    return await this.filmsModel.aggregate([
       {
         $sample: {
           size: 10,
@@ -72,7 +79,7 @@ class FilmsService {
   }
 
   async searchFilm(searchString: string) {
-    return await FilmsModel.find(
+    return await this.filmsModel.find(
       {
         title: {
           $regex: searchString,
@@ -83,12 +90,36 @@ class FilmsService {
     );
   }
 
-  async #populateAdditionalData(query: FindAllQueries) {
+  async getFilmChapters(id: string) {
+    const chapters = await this.chaptersService.findChapters(id);
+
+    if (!chapters) {
+      return [];
+    }
+
+    const chaptersList = await this.filmsModel.find(
+      {
+        _id: {
+          $in: chapters?.list,
+        },
+      },
+      { _id: 1, title: 1, poster: 1 },
+    );
+
+    const orderedList = chapters.list.map((id) =>
+      chaptersList.find((chapter) => chapter._id.toString() === id),
+    );
+
+    const filteredList = orderedList.filter(film => film !== undefined);
+
+    return filteredList;
+  }
+
+  async #populateAdditionalData(query: FindAllQueries): Promise<AdditionalInfo | null> {
     const { actorId, personName, personRole, collection, awards } = query;
 
     if (actorId) {
-      const actorsService = new ActorsService();
-      const actorData = await actorsService.getActorById(actorId).lean();
+      const actorData = await this.actorsService.getActorById(actorId);
 
       return {
         type: 'actor',
@@ -121,38 +152,6 @@ class FilmsService {
     }
 
     return null;
-  }
-
-  #getFormattedDate(date: Date) {
-    const year = date.getFullYear();
-    const month = String(date.getMonth() + 1).padStart(2, '0');
-    const day = String(date.getDate()).padStart(2, '0');
-
-    return `${year}-${month}-${day}`;
-  }
-
-  async #getFilmChapters(id: string) {
-    const chaptersService = new ChaptersService();
-    const chapters = await chaptersService.findChapters(id);
-
-    if (!chapters) {
-      return [];
-    }
-
-    const chaptersList = await FilmsModel.find(
-      {
-        _id: {
-          $in: chapters?.list,
-        },
-      },
-      { _id: 1, title: 1, poster: 1 },
-    );
-
-    const orderedList = chapters.list.map((id) =>
-      chaptersList.find((chapter) => chapter._id.toString() === id),
-    );
-
-    return orderedList;
   }
 }
 
