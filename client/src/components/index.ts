@@ -14,3 +14,4 @@ export * from './PopupMenu';
 export * from './RouterLink';
 export * from './ScrollableWrapper';
 export * from './Select';
+export * from './LogoLoader';

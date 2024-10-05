@@ -1,7 +1,14 @@
+import { Suspense } from 'react';
 import { createBrowserRouter } from 'react-router-dom';
-import { Layout } from './components';
+import { Layout, LogoLoader } from './components';
 
-import { NotFoundPage, RootPage } from './pages';
+import {
+  NotFoundPage,
+  RootPage,
+  StatisticPage,
+  AboutPage,
+  FilmPage,
+} from './pages';
 
 const router = createBrowserRouter([
   {
@@ -11,31 +18,35 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <RootPage />,
+        element: (
+          <Suspense fallback={<LogoLoader />}>
+            <RootPage />
+          </Suspense>
+        ),
       },
       {
         path: 'film/:id',
-        lazy: async () => {
-          const { FilmPage } = await import('./pages/Film');
-
-          return { Component: FilmPage };
-        },
+        element: (
+          <Suspense fallback={<LogoLoader />}>
+            <FilmPage />
+          </Suspense>
+        ),
       },
       {
         path: 'about',
-        lazy: async () => {
-          const { AboutPage } = await import('./pages/About');
-
-          return { Component: AboutPage };
-        },
+        element: (
+          <Suspense fallback={<LogoLoader />}>
+            <AboutPage />
+          </Suspense>
+        ),
       },
       {
         path: 'stats',
-        lazy: async () => {
-          const { StatisticPage } = await import('./pages/Statistic');
-
-          return { Component: StatisticPage };
-        },
+        element: (
+          <Suspense fallback={<LogoLoader />}>
+            <StatisticPage />
+          </Suspense>
+        ),
       },
     ],
   },

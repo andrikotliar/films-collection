@@ -1,5 +1,5 @@
-import { PropsWithClassName } from '@/types';
 import { FC } from 'react';
+import { PropsWithClassName } from '@/types';
 
 const Logo: FC<PropsWithClassName> = ({ className }) => {
   return (

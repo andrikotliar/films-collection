@@ -1,9 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { MenuIcon } from 'lucide-react';
-import { Search, Logo } from './components';
+import { Search } from './components';
 import styles from './Header.module.css';
 import { AppMenu } from '../AppMenu';
+import { Logo } from '@/components/Logo';
 
 const Header = () => {
   const menuButtonRef = useRef<HTMLButtonElement>(null);

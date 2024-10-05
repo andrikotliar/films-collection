@@ -78,4 +78,4 @@ const FilmPage = () => {
   );
 };
 
-export { FilmPage };
+export default FilmPage;

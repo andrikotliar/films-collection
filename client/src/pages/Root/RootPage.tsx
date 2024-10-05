@@ -18,4 +18,4 @@ const RootPage = () => {
   );
 };
 
-export { RootPage };
+export default RootPage;
