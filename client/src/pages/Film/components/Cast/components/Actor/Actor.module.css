@@ -78,3 +78,13 @@
   font-size: 14px;
   margin-top: 6px;
 }
+
+@media (max-width: 580px) {
+  .name {
+    font-size: 14px;
+  }
+  
+  .characterName {
+    font-size: 12px;
+  }
+}
