@@ -1,4 +1,4 @@
-app = 'server-dark-dawn-5341'
+app = 'films-collection-server'
 primary_region = 'waw'
 
 [build]
