@@ -6,7 +6,6 @@ on:
       - main
     paths:
       - 'server/**'
-      - '.github/workflows/deploy.yml'
 
 jobs:
   deploy:
@@ -14,14 +13,13 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Deploy App
-          - uses: actions/checkout@v4
-          - uses: superfly/flyctl-actions/setup-flyctl@master
-          - run: flyctl deploy --remote-only
-          env:
-            FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+        uses: superfly/flyctl-actions/setup-flyctl@master
+        run: flyctl deploy --remote-only
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
 
       - name: Set secrets
         env:
