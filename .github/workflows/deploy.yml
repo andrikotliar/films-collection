@@ -17,9 +17,7 @@ jobs:
         uses: superfly/flyctl-actions/setup-flyctl@master
 
       - name: Authenticate Fly.io
-        env:
-          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
-        run: flyctl auth login --access-token $FLY_API_TOKEN
+        run: flyctl auth login --access-token $(flyctl tokens create deploy)
 
       - name: Set secrets
         env:
