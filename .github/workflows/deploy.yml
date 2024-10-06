@@ -16,10 +16,10 @@ jobs:
       - name: Set up Fly.io CLI
         uses: superfly/flyctl-actions/setup-flyctl@master
 
-      - name: Deploy to Fly.io
-        run: flyctl deploy --config server/fly.toml --remote-only
+      - name: Authenticate Fly.io
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+        run: flyctl auth login --access-token $FLY_API_TOKEN
 
       - name: Set secrets
         env:
@@ -29,3 +29,6 @@ jobs:
           FRONTEND_ORIGIN: ${{ secrets.FRONTEND_ORIGIN }}
         run: |
           flyctl secrets set PORT=$PORT HOST="$HOST" MONGODB_URI="$MONGODB_URI" FRONTEND_ORIGIN="$FRONTEND_ORIGIN" --app films-collection
+
+      - name: Deploy to Fly.io
+        run: flyctl deploy --config server/fly.toml --remote-only
