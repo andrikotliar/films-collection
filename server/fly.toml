@@ -2,6 +2,7 @@ app = 'films-collection-server'
 primary_region = 'waw'
 
 [build]
+  dockerfile = "Dockerfile"
 
 [http_service]
   internal_port = 5000
