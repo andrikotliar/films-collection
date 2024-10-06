@@ -17,9 +17,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+      
+      - name: Set up Flyctl
+        uses: superfly/flyctl-actions/setup-flyctl@master
 
       - name: Deploy to Fly
-        uses: superfly/flyctl-actions/setup-flyctl@master
         working-directory: ./server
         run: flyctl deploy --config server/fly.toml --remote-only
         env:
