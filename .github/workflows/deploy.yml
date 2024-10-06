@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'server/**'
 
 jobs:
   deploy:
@@ -15,9 +13,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Deploy App
+      - name: Set up Fly.io CLI
         uses: superfly/flyctl-actions/setup-flyctl@master
-        run: flyctl deploy --remote-only
+
+      - name: Deploy to Fly.io
+        run: flyctl deploy --config server/fly.toml --remote-only
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
 
