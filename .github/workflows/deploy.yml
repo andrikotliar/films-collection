@@ -28,7 +28,7 @@ jobs:
           MONGODB_URI: ${{ secrets.MONGODB_URI }}
           FRONTEND_ORIGIN: ${{ secrets.FRONTEND_ORIGIN }}
         run: |
-          flyctl secrets set PORT=$PORT HOST="$HOST" MONGODB_URI="$MONGODB_URI" FRONTEND_ORIGIN="$FRONTEND_ORIGIN" --app films-collection
+          flyctl secrets set PORT=$PORT HOST="$HOST" MONGODB_URI="$MONGODB_URI" FRONTEND_ORIGIN="$FRONTEND_ORIGIN" --app films-collection-server
 
       - name: Deploy to Fly.io
         run: flyctl deploy --config server/fly.toml --remote-only
