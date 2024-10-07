@@ -23,7 +23,7 @@ const startServer = async () => {
   try {
     await connectDatabase();
 
-    await app.listen({ port: env.PORT });
+    await app.listen({ port: env.PORT, host: env.HOST });
 
     console.log(`Server listening at http://localhost:${env.PORT}`);
   } catch (error) {

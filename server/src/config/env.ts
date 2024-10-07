@@ -2,7 +2,7 @@ import { config } from 'dotenv';
 
 config();
 
-const REQUIRED_VARIABLES = ['PORT', 'MONGODB_URI'];
+const REQUIRED_VARIABLES = ['PORT', 'HOST', 'MONGODB_URI'];
 
 const getEnvVariables = () => {
   const env = process.env;
@@ -15,6 +15,7 @@ const getEnvVariables = () => {
 
   return {
     PORT: Number(process.env.PORT),
+    HOST: process.env.HOST,
     MONGODB_URI: process.env.MONGODB_URI!,
     NODE_ENV: process.env.NODE_ENV,
     FRONTEND_ORIGIN: process.env.FRONTEND_ORIGIN,
