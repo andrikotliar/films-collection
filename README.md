@@ -4,46 +4,38 @@ The personal collection of favorite films.
 
 ## Tech Stack
 
+### Frontend
+
 - React
+- Vite
 - TypeScript
-- JSON
-- CSS Modules
+- *React Hook Form*
+- *React Query*
+- *Lucide Icons*
+- *React Router Dom v6*
 
-### Additional Libraries
+### Backend
 
-- React Hook Form
-- Axios
-- Lucide Icons 
+- Fastify
+- MongoDB
+- TypeScript
+- Docker
+- *SWC*
+- *Mongoose*
+- *tsx*
 
-## Data
+## Start development server
 
-Currently data is stored as plain JSON-files in the `db` folder.
+1. Go to the server folder and create `.env` file. Copy all required variables from the `env.sample.txt`.
+2. Repeat step 1 for the `client` folder.
+3. In the root of the project run the `npm run install:all` command. It will install dependencies in the client and server folders.
+4. In the root run the `npm run dev`. It will start both client and server via `concurrently`.
+5. Open `http://localhost:3030`
 
-When you run `npm start` or `npm run build` commands, the `utils/generate-db.js` script brings together all files from the `db` folder into the single `database.json` file. The app fetches this file on the initial load..
+To prepopulate the database with data, go to the `dataset` folder and follow instructions in the `README`.
 
-The `utils` folder contains several scripts that help to manage local data.
+## Build project
 
-## Build
+1. Run the `npm run build` in the root of the project. It will build code into `client/dist` and `server/dist`.
 
-To build your own version of the list, clone the project:
-
-```bash
-git clone git@github.com:andrikotliar/films-collection.git
-cd films-collection
-```
-
-Create `.env` file at the root with content defined in the `.env.sample`. It includes three base URLs to image folders in the storage you have.
-
-Add films data files to the DB folder and then run commands:
-
-```bash
-npm install
-npm start
-```
-
-Or run following commands to build project for the production:
-
-```bash
-npm install
-npm run build
-```
+In the `server` folder you can find production-ready `Dockerfile` to deploy the backend. 
