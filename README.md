@@ -2,6 +2,8 @@
 
 The personal collection of favorite films.
 
+![Films Collection Main Page Preview](./preview.jpg)
+
 ## Tech Stack
 
 ### Frontend
