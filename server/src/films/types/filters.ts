@@ -1,5 +1,6 @@
 type FindAllFilters = {
-  type: string[];
+  type: string;
+  style: string;
   genres: string[];
   startDate: string;
   endDate: string;
@@ -22,7 +23,8 @@ type ArrayFilter<T = string> = {
 };
 
 type DbQueryFilter = Partial<{
-  type: ArrayFilter;
+  type: string;
+  style: string;
   genres: ArrayFilter;
   releaseDate: {
     $gte?: string;

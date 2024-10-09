@@ -6,6 +6,7 @@ import {
   Studio,
   TitleType,
   Collection as CollectionEnum,
+  StyleType,
 } from '@/enums';
 import { Actor } from './actor';
 
@@ -66,7 +67,8 @@ type FilmDescription = {
 
 type FilmData = {
   _id: string;
-  type: TitleType[];
+  type: TitleType;
+  style: StyleType;
   title: string;
   genres: Genre[];
   studios: Studio[];

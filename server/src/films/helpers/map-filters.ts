@@ -25,6 +25,7 @@ const mapFilters = (plainFilters: Partial<FindAllFilters>) => {
     personRole,
     actorId,
     awards,
+    style,
   } = plainFilters;
 
   const filters: RootFilterQuery<DbQueryFilter> = {};
@@ -37,7 +38,11 @@ const mapFilters = (plainFilters: Partial<FindAllFilters>) => {
   }
 
   if (type) {
-    filters.type = getArrayFilter(type);
+    filters.type = type;
+  }
+
+  if (style) {
+    filters.style = style;
   }
 
   if (genres) {

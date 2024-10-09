@@ -85,7 +85,7 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
       id: 'budget',
       title: 'Budget',
       content: <MoneyValue value={film.budget} />,
-      isHidden: film.type.includes(TitleType.SERIES),
+      isHidden: film.type === TitleType.SERIES,
     },
     {
       id: 'boxOffice',
@@ -96,7 +96,7 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
           status={isBoxOfficeSuccessful ? 'success' : 'failure'}
         />
       ),
-      isHidden: film.type.includes(TitleType.SERIES),
+      isHidden: film.type === TitleType.SERIES,
     },
   ];
 

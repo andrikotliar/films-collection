@@ -4,6 +4,7 @@ import {
   countryTitles,
   generalCollectionTitles,
   studioTitles,
+  styleTypeTitles,
   titleTypeTitles,
   topsCollectionTitles,
 } from '@/titles';
@@ -16,7 +17,14 @@ const filtersConfig: FilterItem[] = [
     property: 'type',
     type: 'checkmark',
     options: buildFilterOptions(titleTypeTitles),
-    inputType: 'checkbox',
+    inputType: 'radio',
+  },
+  {
+    title: 'Style',
+    property: 'style',
+    type: 'checkmark',
+    options: buildFilterOptions(styleTypeTitles),
+    inputType: 'radio',
   },
   {
     title: 'Genres',

@@ -7,6 +7,7 @@ import {
   Studio,
   TitleType,
   CollectionEnum,
+  StyleType,
 } from '../enums';
 
 type Person = {
@@ -58,7 +59,8 @@ type SeriesExtension = {
 
 type FilmData = {
   _id: ObjectId;
-  type: TitleType[];
+  type: TitleType;
+  style: StyleType;
   title: string;
   genres: Genre[];
   studios: Studio[];
