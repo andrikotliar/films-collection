@@ -56,12 +56,14 @@ const FilmPage = () => {
         <Description content={film.description} key={film._id} />
       </Section>
 
-      <Section>
-        <SectionTitle>Cast and characters</SectionTitle>
-        <Cast cast={film.cast} />
-      </Section>
+      {film.cast.length !== 0 && (
+        <Section>
+          <SectionTitle>Cast and characters</SectionTitle>
+          <Cast cast={film.cast} />
+        </Section>
+      )}
 
-      {film.awards && (
+      {film.awards && film.awards.length !== 0 && (
         <Section>
           <SectionTitle>Awards</SectionTitle>
           <Awards awards={film.awards} />

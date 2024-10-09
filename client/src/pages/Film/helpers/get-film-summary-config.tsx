@@ -13,7 +13,7 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
     film.boxOffice ?? 0,
   );
 
-  const values = [
+  const values: SummaryConfig[] = [
     {
       id: 'releaseDate',
       title: 'Release Date',
@@ -53,6 +53,7 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
           titles={countryTitles}
         />
       ),
+      isHidden: film.countries.length === 0,
     },
     {
       id: 'studios',
@@ -65,6 +66,7 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
           titles={studioTitles}
         />
       ),
+      isHidden: film.studios.length === 0,
     },
     {
       id: 'collections',
@@ -77,6 +79,7 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
           titles={collectionTitles}
         />
       ),
+      isHidden: film.collections.length === 0,
     },
     {
       id: 'budget',

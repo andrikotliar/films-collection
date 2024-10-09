@@ -1,0 +1,342 @@
+{
+  "title": "Film",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique film identifier"
+    },
+    "type": {
+      "type": "string",
+      "description": "Current title type",
+      "enum": [
+        "Film",
+        "Series"
+      ],
+      "default": "Film"
+    },
+    "style": {
+      "type": "string",
+      "description": "Style of a title",
+      "enum": [
+        "Animation",
+        "LiveAction"
+      ],
+      "default": "LiveAction"
+    },
+    "genres": {
+      "type": "array",
+      "description": "List of genres, each genre name should be written in Pascal Case and defined in genres enum on the frontend and backend",
+      "examples": [
+        "SciFi",
+        "Adventures"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "crew": {
+      "type": "array",
+      "description": "List of crew roles",
+      "items": {
+        "type": "object",
+        "properties": {
+          "role": {
+            "type": "string",
+            "description": "Roles enum. Some roles can be omitted. For example usually series don't have Cinematography role but have Creator role instead or alongside Director role",
+            "enum": [
+              "Director",
+              "Writer",
+              "Producer",
+              "Music",
+              "Cinematography",
+              "Creator"
+            ]
+          },
+          "people": {
+            "type": "array",
+            "description": "List of full names",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "Person full name"
+                },
+                "comment": {
+                  "type": "string",
+                  "description": "Additional person details"
+                }
+              },
+              "required": [
+                "name"
+              ]
+            }
+          }
+        },
+        "required": [
+          "role",
+          "people"
+        ]
+      }
+    },
+    "countries": {
+      "type": "array",
+      "description": "List of two-letters ISO country codes",
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        "UK",
+        "US",
+        "GB"
+      ]
+    },
+    "duration": {
+      "type": "number",
+      "description": "Film runtime in minutes"
+    },
+    "cast": {
+      "type": "array",
+      "description": "List of actors",
+      "items": {
+        "type": "object",
+        "properties": {
+          "actor": {
+            "type": "string",
+            "description": "Reference to the actor object in the dataset/supporting/actor.json file"
+          },
+          "character": {
+            "type": "object",
+            "description": "Actor role details",
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "Character name"
+              },
+              "image": {
+                "type": "string",
+                "description": "File name and extension. If this property is present, than actor image will be flippable on the frontend. It will show actor photo and their role image."
+              }
+            },
+            "required": [
+              "name"
+            ]
+          }
+        },
+        "required": [
+          "actor",
+          "character"
+        ]
+      }
+    },
+    "collections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string",
+            "description": "Collections enum. A key should be written in Pascal Case. New collections should be listed in enums on the backend and frontend",
+            "examples": [
+              "FantasyWorlds",
+              "Top10"
+            ]
+          },
+          "order": {
+            "type": "number",
+            "description": "Sort order within the collection"
+          }
+        },
+        "required": [
+          "key"
+        ]
+      }
+    },
+    "budget": {
+      "type": "number",
+      "description": "Rounded film budget. Usually is empty for the Series type",
+      "examples": [
+        120000000
+      ]
+    },
+    "boxOffice": {
+      "type": "number",
+      "description": "Known rounded world gross",
+      "examples": [
+        1000000000
+      ]
+    },
+    "rating": {
+      "type": "number",
+      "description": "Film rating on a three-point scale. Where 3 is awesome and 1 is overall good",
+      "minimum": 1,
+      "maximum": 3
+    },
+    "awards": {
+      "type": "array",
+      "description": "Awards list the film won",
+      "items": {
+        "type": "object",
+        "properties": {
+          "awardKey": {
+            "type": "string",
+            "description": "Awards enum. Should be written in Pascal Case",
+            "examples": [
+              "OscarAward",
+              "SaturnAward"
+            ]
+          },
+          "nominations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "description": "Title of a nomination without constraints"
+                },
+                "comment": {
+                  "type": "string",
+                  "description": "Short additional details for a nomination",
+                  "examples": [
+                    "The \"Extended Collector's Edition\" release."
+                  ]
+                },
+                "actor": {
+                  "type": "string",
+                  "description": "Reference to an actor who won this nomination"
+                }
+              },
+              "required": [
+                "title"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "description": {
+      "type": "array",
+      "description": "Sections of film descriptions. Usually a film has only one section, but series can have multiple for each season.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Title of the section"
+          },
+          "text": {
+            "title": "string",
+            "description": "Section description"
+          }
+        },
+        "required": [
+          "text"
+        ]
+      }
+    },
+    "chaptersId": {
+      "type": "string",
+      "description": "Reference to chapters list. Chapters are defined in the dataset/data/supporting/chapters.json"
+    },
+    "releaseDate": {
+      "type": "string",
+      "description": "Release date in origin country. Defined in the format YYYY-MM-DD"
+    },
+    "watchCount": {
+      "type": "number",
+      "description": "Count the film was watched",
+      "minimum": 0
+    },
+    "studios": {
+      "type": "array",
+      "description": "List of production companies. Should be written in Pascal Case and defined in enums on the frontend and backend",
+      "items": {
+        "type": "string"
+      }
+    },
+    "trailer": {
+      "type": "string",
+      "description": "Youtube video slug"
+    },
+    "poster": {
+      "type": "string",
+      "description": "File name and extension",
+      "examples": [
+        "terminator.webp"
+      ]
+    },
+    "seriesExtension": {
+      "type": "object",
+      "description": "Additional information about seasons and episodes of a series",
+      "properties": {
+        "episodesTotal": {
+          "type": "number",
+          "description": "Total episodes in a series",
+          "minimum": 1
+        },
+        "seasons": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string",
+                "description": "Title of a season",
+                "examples": [
+                  "Season 1"
+                ]
+              },
+              "number": {
+                "type": "number",
+                "description": "Number of a season"
+              },
+              "episodesCount": {
+                "type": "number",
+                "description": "Total episodes in a season"
+              },
+              "releaseDate": {
+                "type": "string",
+                "description": "Season release date. Format: YYYY-MM-DD."
+              },
+              "trailer": {
+                "type": "string",
+                "description": "Youtube vide slug"
+              }
+            },
+            "required": [
+              "title",
+              "number",
+              "episodesCount",
+              "releaseDate",
+              "trailer"
+            ]
+          }
+        }
+      },
+      "required": [
+        "episodesTotal",
+        "seasons"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "style",
+    "genres",
+    "crew",
+    "countries",
+    "duration",
+    "cast",
+    "rating",
+    "description",
+    "releaseDate",
+    "watchCount",
+    "poster"
+  ]
+}
