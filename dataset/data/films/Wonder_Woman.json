@@ -1,8 +1,6 @@
 {
   "id": "2969c31024211d2a327fa7fa",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Wonder Woman",
   "genres": [
     "Fantasy",
@@ -155,5 +153,6 @@
     "WarnerBros"
   ],
   "trailer": "1Q8fG0TtVAY",
-  "poster": "wonder_woman.webp"
+  "poster": "wonder_woman.webp",
+  "style": "LiveAction"
 }

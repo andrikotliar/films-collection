@@ -1,8 +1,6 @@
 {
   "id": "870dfe5cb76ca399da683ee0",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Matrix Revolutions",
   "genres": [
     "SciFi",
@@ -126,5 +124,6 @@
     "WarnerBros"
   ],
   "trailer": "hMbexEPAOQI",
-  "poster": "matrix_3.webp"
+  "poster": "matrix_3.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "29b2d0ed2426d000b6fe6589",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Jurassic World",
   "genres": [
     "SciFi",
@@ -163,5 +161,6 @@
     "Universal"
   ],
   "trailer": "RFinNxS5KN4",
-  "poster": "jurassic_world.webp"
+  "poster": "jurassic_world.webp",
+  "style": "LiveAction"
 }

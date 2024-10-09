@@ -1,8 +1,6 @@
 {
   "id": "42cc024a7c859bb6c79544d1",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Indiana Jones and the Last Crusade",
   "genres": [
     "Adventures",
@@ -146,5 +144,6 @@
     "Lucasfilm"
   ],
   "trailer": "sagmdpkWUqc",
-  "poster": "indiana_jones_3.webp"
+  "poster": "indiana_jones_3.webp",
+  "style": "LiveAction"
 }

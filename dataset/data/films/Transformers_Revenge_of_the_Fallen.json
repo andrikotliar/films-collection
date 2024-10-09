@@ -1,8 +1,6 @@
 {
   "id": "9bb5ec7c7a76b38810c633b1",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Transformers: Revenge of the Fallen",
   "genres": [
     "SciFi",
@@ -151,5 +149,6 @@
     "Paramount"
   ],
   "trailer": "fnXzKwUgDhg",
-  "poster": "transformers_2.webp"
+  "poster": "transformers_2.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "f1a4f20f7c72f217ebffeae0",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Spider-Man 3",
   "genres": [
     "SciFi",
@@ -152,5 +150,6 @@
     "MarvelEntertainment"
   ],
   "trailer": "wPosLpgMtTY",
-  "poster": "raimi_spider_man_3.webp"
+  "poster": "raimi_spider_man_3.webp",
+  "style": "LiveAction"
 }

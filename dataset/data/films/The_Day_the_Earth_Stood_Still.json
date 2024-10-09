@@ -1,8 +1,6 @@
 {
   "id": "935d19e363448c63ae39ac6a",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Day the Earth Stood Still",
   "genres": [
     "SciFi",
@@ -117,5 +115,6 @@
     "20thCenturyFox"
   ],
   "trailer": "6QFcZohER3s",
-  "poster": "day_the_earth_stood_still.webp"
+  "poster": "day_the_earth_stood_still.webp",
+  "style": "LiveAction"
 }

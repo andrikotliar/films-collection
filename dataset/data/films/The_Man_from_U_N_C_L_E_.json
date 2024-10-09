@@ -1,8 +1,6 @@
 {
   "id": "441717f013e1881d34b6b704",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Man from U.N.C.L.E.",
   "genres": [
     "Action",
@@ -125,5 +123,6 @@
     "WarnerBros"
   ],
   "trailer": "CzYRlISYE8Y",
-  "poster": "the_man_from_uncle.webp"
+  "poster": "the_man_from_uncle.webp",
+  "style": "LiveAction"
 }

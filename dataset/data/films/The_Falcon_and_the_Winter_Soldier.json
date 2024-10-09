@@ -1,8 +1,6 @@
 {
   "id": "3d2c302cf22ae64bf4cc73e6",
-  "type": [
-    "Series"
-  ],
+  "type": "Series",
   "title": "The Falcon and the Winter Soldier",
   "genres": [
     "Action",
@@ -182,5 +180,6 @@
     "DisneyPlus",
     "MarvelStudios"
   ],
-  "poster": "falcon_and_the_winter_soldier.webp"
+  "poster": "falcon_and_the_winter_soldier.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "6816f4faa756ba78ae64b7d2",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Rogue One",
   "genres": [
     "SpaceOpera",
@@ -161,5 +159,6 @@
     "WaltDisney"
   ],
   "trailer": "frdj1zb9sMY",
-  "poster": "rogue_one.webp"
+  "poster": "rogue_one.webp",
+  "style": "LiveAction"
 }

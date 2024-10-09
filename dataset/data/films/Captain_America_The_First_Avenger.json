@@ -1,8 +1,6 @@
 {
   "id": "71fef8ada43ee070d4ef51ec",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Captain America: The First Avenger",
   "genres": [
     "SciFi",
@@ -143,5 +141,6 @@
     "Paramount"
   ],
   "trailer": "JerVrbLldXw",
-  "poster": "captain_america_1.webp"
+  "poster": "captain_america_1.webp",
+  "style": "LiveAction"
 }

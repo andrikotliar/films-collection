@@ -1,8 +1,6 @@
 {
   "id": "89fbe54b80d84f5c98d10f7d",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Harry Potter and the Deathly Hallows: Part II",
   "genres": [
     "Fantasy",
@@ -160,5 +158,6 @@
     "WarnerBros"
   ],
   "trailer": "5NYt1qirBWg",
-  "poster": "harry_potter_8.webp"
+  "poster": "harry_potter_8.webp",
+  "style": "LiveAction"
 }

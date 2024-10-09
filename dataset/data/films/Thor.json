@@ -1,8 +1,6 @@
 {
   "id": "b88304b2959fbc745c06d748",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Thor",
   "genres": [
     "Fantasy",
@@ -142,5 +140,6 @@
     "Paramount"
   ],
   "trailer": "JOddp-nlNvQ",
-  "poster": "thor_1.webp"
+  "poster": "thor_1.webp",
+  "style": "LiveAction"
 }

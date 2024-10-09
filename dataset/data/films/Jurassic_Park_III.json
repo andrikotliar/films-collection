@@ -1,8 +1,6 @@
 {
   "id": "541a317313d6b66c7cb2637b",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Jurassic Park III",
   "genres": [
     "SciFi",
@@ -117,5 +115,6 @@
     "Amblin"
   ],
   "trailer": "gjIaV6CU0wA",
-  "poster": "jurassic_park_3.webp"
+  "poster": "jurassic_park_3.webp",
+  "style": "LiveAction"
 }

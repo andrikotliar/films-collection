@@ -1,8 +1,6 @@
 {
   "id": "14bd48fe57193d49e689cf95",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "X2",
   "genres": [
     "SciFi",
@@ -180,5 +178,6 @@
     "MarvelEntertainment"
   ],
   "trailer": "luHcOYS1HxQ",
-  "poster": "x_men_2.webp"
+  "poster": "x_men_2.webp",
+  "style": "LiveAction"
 }

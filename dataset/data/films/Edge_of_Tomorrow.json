@@ -1,8 +1,6 @@
 {
   "id": "dda510bd2661ed7df1427f7a",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Edge of Tomorrow",
   "genres": [
     "SciFi",
@@ -173,5 +171,6 @@
     "WarnerBros"
   ],
   "trailer": "vw61gCe2oqI",
-  "poster": "edge_of_tomorow.webp"
+  "poster": "edge_of_tomorow.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "06c19623e14cff43a0788413",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Passengers",
   "genres": [
     "SciFi",
@@ -115,5 +113,6 @@
     "Columbia"
   ],
   "trailer": "7BWWWQzTpNU",
-  "poster": "passengers.webp"
+  "poster": "passengers.webp",
+  "style": "LiveAction"
 }

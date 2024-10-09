@@ -1,8 +1,6 @@
 {
   "id": "81fbc3afd9ff61beb6915d86",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Mission: Impossible - Fallout",
   "genres": [
     "Action",
@@ -150,5 +148,6 @@
     "Paramount"
   ],
   "trailer": "wb49-oV0F78",
-  "poster": "mi_6.webp"
+  "poster": "mi_6.webp",
+  "style": "LiveAction"
 }

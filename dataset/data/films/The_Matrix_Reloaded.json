@@ -1,8 +1,6 @@
 {
   "id": "c79f422e7a821a7c0dbc9a45",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Matrix Reloaded",
   "genres": [
     "SciFi",
@@ -138,5 +136,6 @@
     "WarnerBros"
   ],
   "trailer": "kYzz0FSgpSU",
-  "poster": "matrix_2.webp"
+  "poster": "matrix_2.webp",
+  "style": "LiveAction"
 }

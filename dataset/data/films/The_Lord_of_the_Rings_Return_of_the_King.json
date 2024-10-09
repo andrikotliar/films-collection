@@ -1,8 +1,6 @@
 {
   "id": "1029ace26991dec688a42cbd",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Lord of the Rings: Return of the King",
   "genres": [
     "Fantasy",
@@ -324,5 +322,6 @@
     "NewLineCinema"
   ],
   "trailer": "y2rYRu8UW8M",
-  "poster": "middle_earth_6.webp"
+  "poster": "middle_earth_6.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "977d122c082756f92291e508",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Avengers: Endgame",
   "genres": [
     "SciFi",
@@ -249,5 +247,6 @@
     "MarvelStudios"
   ],
   "trailer": "TcMBFSGVi1c",
-  "poster": "avengers_4.webp"
+  "poster": "avengers_4.webp",
+  "style": "LiveAction"
 }

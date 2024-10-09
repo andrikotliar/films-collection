@@ -1,8 +1,6 @@
 {
   "id": "0842844d614d8225c07c25ca",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Dark Knight",
   "genres": [
     "Action",
@@ -210,5 +208,6 @@
     "Legendary"
   ],
   "trailer": "EXeTwQWrcwY",
-  "poster": "batman_2.webp"
+  "poster": "batman_2.webp",
+  "style": "LiveAction"
 }

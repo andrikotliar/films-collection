@@ -1,8 +1,6 @@
 {
   "id": "312bb61bcac4b198078a5215",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Hunger Games",
   "genres": [
     "SciFi",
@@ -169,5 +167,6 @@
     "Lionsgate"
   ],
   "trailer": "mfmrPu43DF8",
-  "poster": "hunger_games_1.webp"
+  "poster": "hunger_games_1.webp",
+  "style": "LiveAction"
 }

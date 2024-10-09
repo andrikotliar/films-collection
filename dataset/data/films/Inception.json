@@ -1,8 +1,6 @@
 {
   "id": "4eca69af09bae2655c6b302d",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Inception",
   "genres": [
     "SciFi",
@@ -223,5 +221,6 @@
     "Legendary"
   ],
   "trailer": "YoHD9XEInc0",
-  "poster": "inception.webp"
+  "poster": "inception.webp",
+  "style": "LiveAction"
 }

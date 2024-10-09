@@ -1,8 +1,6 @@
 {
   "id": "a57d6b193e0bee7729e88a85",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Fast & Furious",
   "genres": [
     "Action",
@@ -128,5 +126,6 @@
     "Universal"
   ],
   "trailer": "Gl-d_UIhdBw",
-  "poster": "fast_and_furious_4.webp"
+  "poster": "fast_and_furious_4.webp",
+  "style": "LiveAction"
 }

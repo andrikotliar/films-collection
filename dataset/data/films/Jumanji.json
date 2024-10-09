@@ -1,8 +1,6 @@
 {
   "id": "ae37d4b1849fc2d3a9dcebb5",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Jumanji",
   "genres": [
     "Fantasy",
@@ -126,5 +124,6 @@
     "Tristar"
   ],
   "trailer": "5p18zqZmeiI",
-  "poster": "jumanji_1.webp"
+  "poster": "jumanji_1.webp",
+  "style": "LiveAction"
 }

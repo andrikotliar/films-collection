@@ -1,8 +1,6 @@
 {
   "id": "5617f6d5b949634f41cb159b",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Pacific Rim",
   "genres": [
     "SciFi",
@@ -137,5 +135,6 @@
     "Legendary"
   ],
   "trailer": "5guMumPFBag",
-  "poster": "pacific_rim_1.webp"
+  "poster": "pacific_rim_1.webp",
+  "style": "LiveAction"
 }

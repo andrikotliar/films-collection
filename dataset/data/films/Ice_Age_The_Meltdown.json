@@ -1,8 +1,6 @@
 {
   "id": "8bd8ed0b7a434592f8430819",
-  "type": [
-    "Animation"
-  ],
+  "type": "Film",
   "title": "Ice Age: The Meltdown",
   "genres": [
     "Adventures",
@@ -118,5 +116,6 @@
     "BlueSky"
   ],
   "trailer": "s4PWGVtIZWA",
-  "poster": "ice_age_2.webp"
+  "poster": "ice_age_2.webp",
+  "style": "Animation"
 }

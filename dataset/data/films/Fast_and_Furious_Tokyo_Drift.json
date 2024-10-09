@@ -1,8 +1,6 @@
 {
   "id": "9554299cf376486140f9bb6f",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Fast and Furious: Tokyo Drift",
   "genres": [
     "Action",
@@ -107,5 +105,6 @@
     "Universal"
   ],
   "trailer": "p8HQ2JLlc4E",
-  "poster": "fast_and_furious_3.webp"
+  "poster": "fast_and_furious_3.webp",
+  "style": "LiveAction"
 }

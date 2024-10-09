@@ -1,8 +1,6 @@
 {
   "id": "a89279259bba06110ef97aeb",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "War of the Worlds",
   "genres": [
     "Action",
@@ -141,5 +139,6 @@
     "Amblin"
   ],
   "trailer": "SM6aEEjc5hA",
-  "poster": "war_of_the_worlds.webp"
+  "poster": "war_of_the_worlds.webp",
+  "style": "LiveAction"
 }

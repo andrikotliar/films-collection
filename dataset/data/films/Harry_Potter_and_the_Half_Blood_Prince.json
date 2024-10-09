@@ -1,8 +1,6 @@
 {
   "id": "7ddfc16022f68ef15ae360fc",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Harry Potter and the Half-Blood Prince",
   "genres": [
     "Fantasy",
@@ -138,5 +136,6 @@
     "WarnerBros"
   ],
   "trailer": "sg81Lts5kYY",
-  "poster": "harry_potter_6.webp"
+  "poster": "harry_potter_6.webp",
+  "style": "LiveAction"
 }

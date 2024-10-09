@@ -1,8 +1,6 @@
 {
   "id": "67b42ef18e751e6e1d59a5c7",
-  "type": [
-    "Series"
-  ],
+  "type": "Series",
   "title": "The Umbrella Academy",
   "genres": [
     "Fantasy",
@@ -328,5 +326,6 @@
   "studios": [
     "Netflix"
   ],
-  "poster": "umbrella_academy.webp"
+  "poster": "umbrella_academy.webp",
+  "style": "LiveAction"
 }

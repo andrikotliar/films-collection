@@ -1,8 +1,6 @@
 {
   "id": "02758c76216ae19e4a97fddc",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Sorcerer's Apprentice",
   "genres": [
     "Fantasy",
@@ -125,5 +123,6 @@
     "JerryBruckheimerFilms"
   ],
   "trailer": "v2uV0_1C4UM",
-  "poster": "sorcerers_apprentice.webp"
+  "poster": "sorcerers_apprentice.webp",
+  "style": "LiveAction"
 }

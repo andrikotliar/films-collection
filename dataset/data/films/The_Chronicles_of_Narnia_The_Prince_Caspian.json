@@ -1,8 +1,6 @@
 {
   "id": "e58f201bb0927990310405c2",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Chronicles of Narnia: The Prince Caspian",
   "genres": [
     "Fantasy",
@@ -132,5 +130,6 @@
     "WaltDisney"
   ],
   "trailer": "9Q0Da4jlxBk",
-  "poster": "narnia_2.webp"
+  "poster": "narnia_2.webp",
+  "style": "LiveAction"
 }

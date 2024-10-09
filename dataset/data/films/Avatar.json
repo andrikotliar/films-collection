@@ -1,8 +1,6 @@
 {
   "id": "15827bcc5ddd588cb7a5fd5e",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Avatar",
   "genres": [
     "SciFi",
@@ -258,5 +256,6 @@
     "20thCenturyFox"
   ],
   "trailer": "CM79GTEm2ps",
-  "poster": "avatar.webp"
+  "poster": "avatar.webp",
+  "style": "LiveAction"
 }

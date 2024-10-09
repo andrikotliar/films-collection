@@ -1,8 +1,6 @@
 {
   "id": "1ab53a791f8b852f40298dfb",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Captain Marvel",
   "genres": [
     "SciFi",
@@ -156,5 +154,6 @@
     "MarvelStudios"
   ],
   "trailer": "TcMBFSGVi1c",
-  "poster": "captain_marvel.webp"
+  "poster": "captain_marvel.webp",
+  "style": "LiveAction"
 }

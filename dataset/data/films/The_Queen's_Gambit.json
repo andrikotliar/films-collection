@@ -1,8 +1,6 @@
 {
   "id": "4ca1d03f96a43b764ca1f86f",
-  "type": [
-    "Series"
-  ],
+  "type": "Series",
   "title": "The Queen's Gambit",
   "genres": [
     "Drama",
@@ -170,5 +168,6 @@
   "studios": [
     "Netflix"
   ],
-  "poster": "queens_gambit.webp"
+  "poster": "queens_gambit.webp",
+  "style": "LiveAction"
 }

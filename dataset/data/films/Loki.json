@@ -1,8 +1,6 @@
 {
   "id": "61138ce033f4db5a918e1abb",
-  "type": [
-    "Series"
-  ],
+  "type": "Series",
   "title": "Loki",
   "genres": [
     "Adventures",
@@ -185,5 +183,6 @@
     "DisneyPlus",
     "MarvelStudios"
   ],
-  "poster": "loki.webp"
+  "poster": "loki.webp",
+  "style": "LiveAction"
 }

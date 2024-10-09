@@ -1,8 +1,6 @@
 {
   "id": "38ea31b4b3368a6fa256e296",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Tron: Legacy",
   "genres": [
     "SciFi",
@@ -141,5 +139,6 @@
     "WaltDisney"
   ],
   "trailer": "L9szn1QQfas",
-  "poster": "tron.webp"
+  "poster": "tron.webp",
+  "style": "LiveAction"
 }

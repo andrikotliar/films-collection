@@ -1,8 +1,6 @@
 {
   "id": "ecceb12ba491ed274fa79c24",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Transporter 2",
   "genres": [
     "Action",
@@ -125,5 +123,6 @@
     "EuropaCorp"
   ],
   "trailer": "sYJ5LDoWRT4",
-  "poster": "transporter_2.webp"
+  "poster": "transporter_2.webp",
+  "style": "LiveAction"
 }

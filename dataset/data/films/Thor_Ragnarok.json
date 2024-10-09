@@ -1,8 +1,6 @@
 {
   "id": "2e2c494c613a1eaf3d68b05c",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Thor: Ragnarok",
   "genres": [
     "SciFi",
@@ -146,5 +144,6 @@
     "MarvelStudios"
   ],
   "trailer": "ue80QwXMRHg",
-  "poster": "thor_3.webp"
+  "poster": "thor_3.webp",
+  "style": "LiveAction"
 }

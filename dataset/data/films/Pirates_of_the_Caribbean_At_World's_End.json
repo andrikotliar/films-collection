@@ -1,8 +1,6 @@
 {
   "id": "af1f4f7cdaf6acb9d0eb2648",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Pirates of the Caribbean: At World's End",
   "genres": [
     "Fantasy",
@@ -135,5 +133,6 @@
     "JerryBruckheimerFilms"
   ],
   "trailer": "HKSZtp_OGHY",
-  "poster": "pirates_3.webp"
+  "poster": "pirates_3.webp",
+  "style": "LiveAction"
 }

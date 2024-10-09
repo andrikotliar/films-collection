@@ -1,8 +1,6 @@
 {
   "id": "2c52108787c795fbe17ee9a6",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Spider-Man",
   "genres": [
     "SciFi",
@@ -125,5 +123,6 @@
     "MarvelEntertainment"
   ],
   "trailer": "_yhFofFZGcc",
-  "poster": "raimi_spider_man_1.webp"
+  "poster": "raimi_spider_man_1.webp",
+  "style": "LiveAction"
 }

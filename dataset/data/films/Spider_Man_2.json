@@ -1,8 +1,6 @@
 {
   "id": "618d25a6605df91cb0d7fc83",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Spider-Man 2",
   "genres": [
     "SciFi",
@@ -150,5 +148,6 @@
     "MarvelEntertainment"
   ],
   "trailer": "1s9Yln0YwCw",
-  "poster": "raimi_spider_man_2.webp"
+  "poster": "raimi_spider_man_2.webp",
+  "style": "LiveAction"
 }

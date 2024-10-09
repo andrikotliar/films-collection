@@ -1,8 +1,6 @@
 {
   "id": "bfbf5d4c9430bdcfa9820642",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Oblivion",
   "genres": [
     "SciFi",
@@ -130,5 +128,6 @@
     "Universal"
   ],
   "trailer": "XmIIgE7eSak",
-  "poster": "oblivion.webp"
+  "poster": "oblivion.webp",
+  "style": "LiveAction"
 }

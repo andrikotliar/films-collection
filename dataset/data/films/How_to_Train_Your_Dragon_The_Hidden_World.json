@@ -1,8 +1,6 @@
 {
   "id": "d758d5cd47b08b64dbb5d553",
-  "type": [
-    "Animation"
-  ],
+  "type": "Film",
   "title": "How to Train Your Dragon: The Hidden World",
   "genres": [
     "Fantasy",
@@ -108,5 +106,6 @@
     "Universal"
   ],
   "trailer": "SkcucKDrbOI",
-  "poster": "how_to_train_your_dragon_3.webp"
+  "poster": "how_to_train_your_dragon_3.webp",
+  "style": "Animation"
 }

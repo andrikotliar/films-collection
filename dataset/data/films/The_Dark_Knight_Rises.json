@@ -1,8 +1,6 @@
 {
   "id": "b304cc2b20c169744f83e9fa",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Dark Knight Rises",
   "genres": [
     "Action",
@@ -177,5 +175,6 @@
     "Legendary"
   ],
   "trailer": "GokKUqLcvD8",
-  "poster": "batman_3.webp"
+  "poster": "batman_3.webp",
+  "style": "LiveAction"
 }

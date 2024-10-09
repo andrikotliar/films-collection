@@ -1,8 +1,6 @@
 {
   "id": "6db02a11ff84a81a007f8e01",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "A Quiet Place Part II",
   "genres": [
     "SciFi",
@@ -122,5 +120,6 @@
     "Paramount"
   ],
   "trailer": "BpdDN9d9Jio",
-  "poster": "quiet_place_2.webp"
+  "poster": "quiet_place_2.webp",
+  "style": "LiveAction"
 }

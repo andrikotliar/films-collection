@@ -1,8 +1,6 @@
 {
   "id": "0a7bc4e4691f79511d0909df",
-  "type": [
-    "Series"
-  ],
+  "type": "Series",
   "title": "Stranger Things",
   "genres": [
     "Fantasy",
@@ -379,5 +377,6 @@
   "studios": [
     "Netflix"
   ],
-  "poster": "stranger_things.webp"
+  "poster": "stranger_things.webp",
+  "style": "LiveAction"
 }

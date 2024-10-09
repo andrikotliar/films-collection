@@ -1,8 +1,6 @@
 {
   "id": "0b99e985362bc0074ff3f89d",
-  "type": [
-    "Series"
-  ],
+  "type": "Series",
   "title": "Game of Thrones",
   "genres": [
     "Adventures",
@@ -566,5 +564,6 @@
   "studios": [
     "HBO"
   ],
-  "poster": "got.webp"
+  "poster": "got.webp",
+  "style": "LiveAction"
 }

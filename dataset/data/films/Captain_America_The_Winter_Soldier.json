@@ -1,8 +1,6 @@
 {
   "id": "d72fa516ec9c012c8affd39f",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Captain America: The Winter Soldier",
   "genres": [
     "SciFi",
@@ -127,5 +125,6 @@
     "MarvelStudios"
   ],
   "trailer": "7SlILk2WMTI",
-  "poster": "captain_america_2.webp"
+  "poster": "captain_america_2.webp",
+  "style": "LiveAction"
 }

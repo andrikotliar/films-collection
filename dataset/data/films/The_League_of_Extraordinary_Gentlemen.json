@@ -1,8 +1,6 @@
 {
   "id": "df0865341f4fd6c8b172e5d3",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The League of Extraordinary Gentlemen",
   "genres": [
     "Adventures",
@@ -129,5 +127,6 @@
     "20thCenturyFox"
   ],
   "trailer": "_WWIiTlGyYQ",
-  "poster": "league_of_extraordinary_gentlemen.webp"
+  "poster": "league_of_extraordinary_gentlemen.webp",
+  "style": "LiveAction"
 }

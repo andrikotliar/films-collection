@@ -1,8 +1,6 @@
 {
   "id": "76d9a5f4c283406f41d4553c",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "X-Men Origins: Wolverine",
   "genres": [
     "SciFi",
@@ -141,5 +139,6 @@
     "MarvelEntertainment"
   ],
   "trailer": "QojV7s3UTu0",
-  "poster": "x_men_4.webp"
+  "poster": "x_men_4.webp",
+  "style": "LiveAction"
 }

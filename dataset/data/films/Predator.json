@@ -1,8 +1,6 @@
 {
   "id": "35f0ff7983e6754133e55c2f",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Predator",
   "genres": [
     "Action",
@@ -134,5 +132,6 @@
     "20thCenturyFox"
   ],
   "trailer": "_1wDBNHYDv8",
-  "poster": "predator.webp"
+  "poster": "predator.webp",
+  "style": "LiveAction"
 }

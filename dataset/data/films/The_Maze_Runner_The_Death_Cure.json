@@ -1,8 +1,6 @@
 {
   "id": "08dec0134ed88753b096d937",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Maze Runner: The Death Cure",
   "genres": [
     "SciFi",
@@ -134,5 +132,6 @@
     "20thCenturyFox"
   ],
   "trailer": "4-BTxXm8KSg",
-  "poster": "maze_runner_3.webp"
+  "poster": "maze_runner_3.webp",
+  "style": "LiveAction"
 }

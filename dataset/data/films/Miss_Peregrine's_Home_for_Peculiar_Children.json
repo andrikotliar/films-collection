@@ -1,8 +1,6 @@
 {
   "id": "c09ee58b3b8e621674ab56c0",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Miss Peregrine's Home for Peculiar Children",
   "genres": [
     "Fantasy",
@@ -137,5 +135,6 @@
     "20thCenturyFox"
   ],
   "trailer": "tV_IhWE4LP0",
-  "poster": "miss_peregrin.webp"
+  "poster": "miss_peregrin.webp",
+  "style": "LiveAction"
 }

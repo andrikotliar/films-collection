@@ -1,8 +1,6 @@
 {
   "id": "37cf316200c56c447f2b46bb",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Avengers: Age of Ultron",
   "genres": [
     "SciFi",
@@ -193,5 +191,6 @@
     "MarvelStudios"
   ],
   "trailer": "tmeOjFno6Do",
-  "poster": "avengers_2.webp"
+  "poster": "avengers_2.webp",
+  "style": "LiveAction"
 }

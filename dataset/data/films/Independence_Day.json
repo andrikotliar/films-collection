@@ -1,8 +1,6 @@
 {
   "id": "36206a95c7e2cdb0232e3b8d",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Independence Day",
   "genres": [
     "SciFi",
@@ -142,5 +140,6 @@
     "20thCenturyFox"
   ],
   "trailer": "kA2WzBi2grE",
-  "poster": "independence_day.webp"
+  "poster": "independence_day.webp",
+  "style": "LiveAction"
 }

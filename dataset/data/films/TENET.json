@@ -1,8 +1,6 @@
 {
   "id": "e71fb4f17862ff2320073508",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "TENET",
   "genres": [
     "SciFi",
@@ -161,5 +159,6 @@
     "Syncopy"
   ],
   "trailer": "AZGcmvrTX9M",
-  "poster": "tenet.webp"
+  "poster": "tenet.webp",
+  "style": "LiveAction"
 }

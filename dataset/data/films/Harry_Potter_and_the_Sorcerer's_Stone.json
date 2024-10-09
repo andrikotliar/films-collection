@@ -1,8 +1,6 @@
 {
   "id": "7797144694feb01e6e3e4932",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Harry Potter and the Sorcerer's Stone",
   "genres": [
     "Fantasy",
@@ -140,5 +138,6 @@
     "WarnerBros"
   ],
   "trailer": "VyHV0BRtdxo",
-  "poster": "harry_potter_1.webp"
+  "poster": "harry_potter_1.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "6d77c2264324ac75dbfc4360",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Avengers",
   "genres": [
     "SciFi",
@@ -195,5 +193,6 @@
     "MarvelStudios"
   ],
   "trailer": "hIR8Ar-Z4hw",
-  "poster": "avengers_1.webp"
+  "poster": "avengers_1.webp",
+  "style": "LiveAction"
 }

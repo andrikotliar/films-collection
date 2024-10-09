@@ -1,8 +1,6 @@
 {
   "id": "96eee3c7832ce97adbb317f3",
-  "type": [
-    "Animation"
-  ],
+  "type": "Film",
   "title": "Raya and the Last Dragon",
   "genres": [
     "Adventures",
@@ -124,5 +122,6 @@
     "WaltDisney"
   ],
   "trailer": "1VIZ89FEjYI",
-  "poster": "raya.webp"
+  "poster": "raya.webp",
+  "style": "Animation"
 }

@@ -1,8 +1,6 @@
 {
   "id": "d1062bf7d599fc6048203bfc",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Mummy: Tomb of Dragon Emperor",
   "genres": [
     "Fantasy",
@@ -134,5 +132,6 @@
     "Universal"
   ],
   "trailer": "5-4qSE2Ch0Y",
-  "poster": "mummy_3.webp"
+  "poster": "mummy_3.webp",
+  "style": "LiveAction"
 }

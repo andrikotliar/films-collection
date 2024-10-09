@@ -1,8 +1,6 @@
 {
   "id": "1276782e41d7393eac267e35",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Avengers: Infinity War",
   "genres": [
     "SciFi",
@@ -242,5 +240,6 @@
     "MarvelStudios"
   ],
   "trailer": "6ZfuNTqbHE8",
-  "poster": "avengers_3.webp"
+  "poster": "avengers_3.webp",
+  "style": "LiveAction"
 }

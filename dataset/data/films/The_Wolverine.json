@@ -1,8 +1,6 @@
 {
   "id": "fa26e49f50de43e1d94e5fe8",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Wolverine",
   "genres": [
     "SciFi",
@@ -115,5 +113,6 @@
     "MarvelEntertainment"
   ],
   "trailer": "toLpchTUYk8",
-  "poster": "wolverine.webp"
+  "poster": "wolverine.webp",
+  "style": "LiveAction"
 }

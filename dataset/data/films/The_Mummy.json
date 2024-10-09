@@ -1,8 +1,6 @@
 {
   "id": "f966417e46d3ea20a2664a1c",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Mummy",
   "genres": [
     "Fantasy",
@@ -138,5 +136,6 @@
     "Universal"
   ],
   "trailer": "h3ptPtxWJRs",
-  "poster": "mummy_1.webp"
+  "poster": "mummy_1.webp",
+  "style": "LiveAction"
 }

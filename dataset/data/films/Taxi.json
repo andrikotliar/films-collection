@@ -1,8 +1,6 @@
 {
   "id": "b2220be9044da9961f5bbe23",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Taxi",
   "genres": [
     "Comedy"
@@ -113,5 +111,6 @@
     "ArpSelectio"
   ],
   "trailer": "buQxF0eIeXI",
-  "poster": "taxi_1.webp"
+  "poster": "taxi_1.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "3bfb3cbf208e5dbd34d7fc14",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Mission: Impossible 2",
   "genres": [
     "Action",
@@ -151,5 +149,6 @@
     "Paramount"
   ],
   "trailer": "Aqk78Z57LGg",
-  "poster": "mi_2.webp"
+  "poster": "mi_2.webp",
+  "style": "LiveAction"
 }

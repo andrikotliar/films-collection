@@ -1,8 +1,6 @@
 {
   "id": "aeed1ba8762f820c693c8d98",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Jurassic Park",
   "genres": [
     "SciFi",
@@ -175,5 +173,6 @@
     "Amblin"
   ],
   "trailer": "QWBKEmWWL38",
-  "poster": "jurassic_park_1.webp"
+  "poster": "jurassic_park_1.webp",
+  "style": "LiveAction"
 }

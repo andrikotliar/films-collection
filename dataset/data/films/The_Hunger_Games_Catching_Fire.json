@@ -1,8 +1,6 @@
 {
   "id": "24299d8288bd4af1f320ca19",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Hunger Games: Catching Fire",
   "genres": [
     "SciFi",
@@ -137,5 +135,6 @@
     "Lionsgate"
   ],
   "trailer": "EAzGXqJSDJ8",
-  "poster": "hunger_games_2.webp"
+  "poster": "hunger_games_2.webp",
+  "style": "LiveAction"
 }

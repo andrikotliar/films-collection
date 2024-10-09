@@ -1,8 +1,6 @@
 {
   "id": "38f789e2895205a04271bb60",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Mission: Impossible - Ghost Protocol",
   "genres": [
     "Action",
@@ -129,5 +127,6 @@
     "Paramount"
   ],
   "trailer": "EDGYVFZxsXQ",
-  "poster": "mi_4.webp"
+  "poster": "mi_4.webp",
+  "style": "LiveAction"
 }

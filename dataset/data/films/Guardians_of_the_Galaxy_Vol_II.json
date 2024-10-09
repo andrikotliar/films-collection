@@ -1,8 +1,6 @@
 {
   "id": "fbf003c5a876698e6e9639a6",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Guardians of the Galaxy: Vol. II",
   "genres": [
     "SciFi",
@@ -161,5 +159,6 @@
     "MarvelStudios"
   ],
   "trailer": "wUn05hdkhjM",
-  "poster": "guardians_of_the_galaxy_2.webp"
+  "poster": "guardians_of_the_galaxy_2.webp",
+  "style": "LiveAction"
 }

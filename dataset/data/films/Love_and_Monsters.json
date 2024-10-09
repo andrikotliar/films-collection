@@ -1,8 +1,6 @@
 {
   "id": "b6b8ee098f867886fee98660",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Love and Monsters",
   "genres": [
     "Adventures",
@@ -130,5 +128,6 @@
     "Paramount"
   ],
   "trailer": "1dzGhJ5QGsQ",
-  "poster": "love_and_monsters.webp"
+  "poster": "love_and_monsters.webp",
+  "style": "LiveAction"
 }

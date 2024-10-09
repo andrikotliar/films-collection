@@ -1,8 +1,6 @@
 {
   "id": "4b29a9f246c87a87cbcb6e5f",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Transporter",
   "genres": [
     "Action",
@@ -116,5 +114,6 @@
     "EuropaCorp"
   ],
   "trailer": "0poXFSvX0_4",
-  "poster": "transporter_1.webp"
+  "poster": "transporter_1.webp",
+  "style": "LiveAction"
 }

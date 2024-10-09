@@ -1,8 +1,6 @@
 {
   "id": "94b5c8bc7656573a94d93f4f",
-  "type": [
-    "Animation"
-  ],
+  "type": "Film",
   "title": "Zootopia",
   "genres": [
     "Adventures",
@@ -160,5 +158,6 @@
     "WaltDisney"
   ],
   "trailer": "jWM0ct-OLsM",
-  "poster": "zootopia.webp"
+  "poster": "zootopia.webp",
+  "style": "Animation"
 }

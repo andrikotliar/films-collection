@@ -1,8 +1,6 @@
 {
   "id": "4f07fbf89cdad5040f477331",
-  "type": [
-    "Series"
-  ],
+  "type": "Series",
   "title": "Locke & Key",
   "genres": [
     "Fantasy",
@@ -282,5 +280,6 @@
   "studios": [
     "Netflix"
   ],
-  "poster": "locke_key.webp"
+  "poster": "locke_key.webp",
+  "style": "LiveAction"
 }

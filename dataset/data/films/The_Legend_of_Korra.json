@@ -1,8 +1,6 @@
 {
   "id": "0ce57591be06fdd4c25e8129",
-  "type": [
-    "Series"
-  ],
+  "type": "Series",
   "title": "The Legend of Korra",
   "genres": [
     "Adventures",
@@ -316,5 +314,6 @@
   "studios": [
     "Nickelodeon"
   ],
-  "poster": "legend_of_korra.webp"
+  "poster": "legend_of_korra.webp",
+  "style": "LiveAction"
 }

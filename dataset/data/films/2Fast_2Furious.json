@@ -1,8 +1,6 @@
 {
   "id": "403d216c94ce8c77a04e1716",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "2Fast 2Furious",
   "genres": [
     "Action",
@@ -110,5 +108,6 @@
     "Universal"
   ],
   "trailer": "F_VIM03DXWI",
-  "poster": "fast_and_furious_2.webp"
+  "poster": "fast_and_furious_2.webp",
+  "style": "LiveAction"
 }

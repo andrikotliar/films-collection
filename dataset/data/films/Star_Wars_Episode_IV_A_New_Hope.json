@@ -1,8 +1,6 @@
 {
   "id": "b0b6eb864a6b5350c3329e37",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Star Wars Episode IV: A New Hope",
   "genres": [
     "SpaceOpera",
@@ -229,5 +227,6 @@
     "Lucasfilm"
   ],
   "trailer": "vZ734NWnAHA",
-  "poster": "star_wars_episode_IV.webp"
+  "poster": "star_wars_episode_IV.webp",
+  "style": "LiveAction"
 }

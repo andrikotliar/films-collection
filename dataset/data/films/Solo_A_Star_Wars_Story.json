@@ -1,8 +1,6 @@
 {
   "id": "3f1b0a5efbbb8799d036d6ca",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Solo: A Star Wars Story",
   "genres": [
     "SpaceWestern"
@@ -145,5 +143,6 @@
     "WaltDisney"
   ],
   "trailer": "jPEYpryMp2s",
-  "poster": "solo.webp"
+  "poster": "solo.webp",
+  "style": "LiveAction"
 }

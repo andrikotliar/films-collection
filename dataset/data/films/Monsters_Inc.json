@@ -1,8 +1,6 @@
 {
   "id": "f84e3104f7fc72838b308983",
-  "type": [
-    "Animation"
-  ],
+  "type": "Film",
   "title": "Monsters, Inc.",
   "genres": [
     "Adventures",
@@ -135,5 +133,6 @@
     "Pixar"
   ],
   "trailer": "6tCxnHCqqxg",
-  "poster": "monsters_inc.webp"
+  "poster": "monsters_inc.webp",
+  "style": "Animation"
 }

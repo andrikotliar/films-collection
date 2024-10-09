@@ -1,8 +1,6 @@
 {
   "id": "0a9e516e43b00f21c32ca5a6",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Casino Royale",
   "genres": [
     "Action",
@@ -125,5 +123,6 @@
     "Columbia"
   ],
   "trailer": "36mnx8dBbGE",
-  "poster": "casino_royale.webp"
+  "poster": "casino_royale.webp",
+  "style": "LiveAction"
 }

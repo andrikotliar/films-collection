@@ -1,8 +1,6 @@
 {
   "id": "89e51001902a3814c3c04d22",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Furious Seven",
   "genres": [
     "Action",
@@ -174,5 +172,6 @@
     "Universal"
   ],
   "trailer": "Skpu5HaVkOc",
-  "poster": "fast_and_furious_7.webp"
+  "poster": "fast_and_furious_7.webp",
+  "style": "LiveAction"
 }

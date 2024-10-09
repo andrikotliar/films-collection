@@ -1,8 +1,6 @@
 {
   "id": "5a88344046362b7d09bf1a63",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "World War Z",
   "genres": [
     "Action",
@@ -136,5 +134,6 @@
     "Skydance"
   ],
   "trailer": "Md6Dvxdr0AQ",
-  "poster": "world_war_z.webp"
+  "poster": "world_war_z.webp",
+  "style": "LiveAction"
 }

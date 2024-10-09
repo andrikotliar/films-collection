@@ -1,8 +1,6 @@
 {
   "id": "dbc616d2439d77ef9f1720b7",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Mission: Impossible - Rogue Nation",
   "genres": [
     "Action",
@@ -128,5 +126,6 @@
     "Paramount"
   ],
   "trailer": "gOW_azQbOjw",
-  "poster": "mi_5.webp"
+  "poster": "mi_5.webp",
+  "style": "LiveAction"
 }

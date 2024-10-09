@@ -1,8 +1,6 @@
 {
   "id": "0db9519447ae4f555a15a7b9",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Shazam!",
   "genres": [
     "Adventures",
@@ -114,5 +112,6 @@
     "WarnerBros"
   ],
   "trailer": "go6GEIrcvFY",
-  "poster": "shazam.webp"
+  "poster": "shazam.webp",
+  "style": "LiveAction"
 }

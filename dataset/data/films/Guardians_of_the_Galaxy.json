@@ -1,8 +1,6 @@
 {
   "id": "3c7ca546cad5d529e6ffd257",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Guardians of the Galaxy",
   "genres": [
     "SciFi",
@@ -191,5 +189,6 @@
     "MarvelStudios"
   ],
   "trailer": "d96cjJhvlMA",
-  "poster": "guardians_of_the_galaxy.webp"
+  "poster": "guardians_of_the_galaxy.webp",
+  "style": "LiveAction"
 }

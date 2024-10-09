@@ -1,8 +1,6 @@
 {
   "id": "03ed1147bd0103a829c2ed1d",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Doctor Strange",
   "genres": [
     "Fantasy",
@@ -134,5 +132,6 @@
     "MarvelStudios"
   ],
   "trailer": "HSzx-zryEgM",
-  "poster": "doctor_strange.webp"
+  "poster": "doctor_strange.webp",
+  "style": "LiveAction"
 }

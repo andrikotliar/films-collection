@@ -1,8 +1,6 @@
 {
   "id": "1f0a853ad6e7c294dada3561",
-  "type": [
-    "Series"
-  ],
+  "type": "Series",
   "title": "Sherlock",
   "genres": [
     "Crime",
@@ -276,5 +274,6 @@
   "studios": [
     "BBCOne"
   ],
-  "poster": "sherlock.webp"
+  "poster": "sherlock.webp",
+  "style": "LiveAction"
 }

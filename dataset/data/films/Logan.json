@@ -1,8 +1,6 @@
 {
   "id": "1d3aad64beba3094f0df4e5d",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Logan",
   "genres": [
     "SciFi",
@@ -161,5 +159,6 @@
     "MarvelEntertainment"
   ],
   "trailer": "Div0iP65aZo",
-  "poster": "logan.webp"
+  "poster": "logan.webp",
+  "style": "LiveAction"
 }

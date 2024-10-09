@@ -1,8 +1,6 @@
 {
   "id": "a45171c170ed081923173a09",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Time Machine",
   "genres": [
     "SciFi",
@@ -109,5 +107,6 @@
     "WarnerBros"
   ],
   "trailer": "90T7iLuzFgg",
-  "poster": "time_machine.webp"
+  "poster": "time_machine.webp",
+  "style": "LiveAction"
 }

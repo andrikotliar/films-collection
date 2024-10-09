@@ -1,8 +1,6 @@
 {
   "id": "51e75e268177217bc0d2e64c",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Men in Black II",
   "genres": [
     "SciFi",
@@ -120,5 +118,6 @@
     "Columbia"
   ],
   "trailer": "p4NJHqoojOU",
-  "poster": "mib_2.webp"
+  "poster": "mib_2.webp",
+  "style": "LiveAction"
 }

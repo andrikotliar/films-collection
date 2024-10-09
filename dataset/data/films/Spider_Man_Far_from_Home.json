@@ -1,8 +1,6 @@
 {
   "id": "9453dd9a0c469571d5fd12ab",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Spider-Man: Far from Home",
   "genres": [
     "SciFi",
@@ -137,5 +135,6 @@
     "MarvelStudios"
   ],
   "trailer": "Nt9L1jCKGnE",
-  "poster": "mcu_spider_man_2.webp"
+  "poster": "mcu_spider_man_2.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "235da6b681fea37b919a5417",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Aquaman",
   "genres": [
     "Fantasy",
@@ -132,5 +130,6 @@
     "WarnerBros"
   ],
   "trailer": "WDkg3h8PCVU",
-  "poster": "aquaman.webp"
+  "poster": "aquaman.webp",
+  "style": "LiveAction"
 }

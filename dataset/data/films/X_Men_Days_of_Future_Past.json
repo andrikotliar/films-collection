@@ -1,8 +1,6 @@
 {
   "id": "4ece8dee91e4530c20f038d5",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "X-Men: Days of future Past",
   "genres": [
     "SciFi",
@@ -170,5 +168,6 @@
     "MarvelEntertainment"
   ],
   "trailer": "pK2zYHWDZKo",
-  "poster": "x_men_6.webp"
+  "poster": "x_men_6.webp",
+  "style": "LiveAction"
 }

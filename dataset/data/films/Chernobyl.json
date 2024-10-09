@@ -1,8 +1,6 @@
 {
   "id": "41a064b0c0d6727a2d11a563",
-  "type": [
-    "Series"
-  ],
+  "type": "Series",
   "title": "Chernobyl",
   "genres": [
     "Drama",
@@ -206,5 +204,6 @@
   "studios": [
     "HBO"
   ],
-  "poster": "chernobyl.webp"
+  "poster": "chernobyl.webp",
+  "style": "LiveAction"
 }

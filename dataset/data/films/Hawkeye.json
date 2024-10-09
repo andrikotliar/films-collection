@@ -1,8 +1,6 @@
 {
   "id": "5a860a3f7c79fcabd4deb8d3",
-  "type": [
-    "Series"
-  ],
+  "type": "Series",
   "title": "Hawkeye",
   "genres": [
     "Action",
@@ -174,5 +172,6 @@
   "studios": [
     "MarvelStudios"
   ],
-  "poster": "hawkeye.webp"
+  "poster": "hawkeye.webp",
+  "style": "LiveAction"
 }

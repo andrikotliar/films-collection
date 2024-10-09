@@ -1,8 +1,6 @@
 {
   "id": "9f019050121574092b9e34c8",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "John Carter",
   "genres": [
     "SciFi",
@@ -142,5 +140,6 @@
     "WaltDisney"
   ],
   "trailer": "nlvYKl1fjBI",
-  "poster": "john_carter.webp"
+  "poster": "john_carter.webp",
+  "style": "LiveAction"
 }

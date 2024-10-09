@@ -1,8 +1,6 @@
 {
   "id": "889f98ba6d7675d4b5ba3d9e",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Man of Steel",
   "genres": [
     "Action",
@@ -153,5 +151,6 @@
     "DCEntertainment"
   ],
   "trailer": "T6DJcgm3wNY",
-  "poster": "man_of_steel.webp"
+  "poster": "man_of_steel.webp",
+  "style": "LiveAction"
 }

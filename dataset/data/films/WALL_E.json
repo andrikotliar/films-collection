@@ -1,8 +1,6 @@
 {
   "id": "b3ce366732f86d80bed2dbee",
-  "type": [
-    "Animation"
-  ],
+  "type": "Film",
   "title": "WALL-E",
   "genres": [
     "SciFi",
@@ -156,5 +154,6 @@
     "Pixar"
   ],
   "trailer": "alIq_wG9FNk",
-  "poster": "wall_e.webp"
+  "poster": "wall_e.webp",
+  "style": "Animation"
 }

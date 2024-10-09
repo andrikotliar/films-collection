@@ -1,8 +1,6 @@
 {
   "id": "9efd52f5d645743edb8de14a",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Transporter 3",
   "genres": [
     "Action",
@@ -107,5 +105,6 @@
     "EuropaCorp"
   ],
   "trailer": "Pbh3CDBNIQA",
-  "poster": "transporter_3.webp"
+  "poster": "transporter_3.webp",
+  "style": "LiveAction"
 }

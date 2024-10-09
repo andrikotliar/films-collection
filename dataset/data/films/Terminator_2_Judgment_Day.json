@@ -1,8 +1,6 @@
 {
   "id": "6039e95904cbcc7f6f8865fb",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Terminator 2: Judgment Day",
   "genres": [
     "SciFi",
@@ -189,5 +187,6 @@
     "Carolco"
   ],
   "trailer": "-W8CegO_Ixw",
-  "poster": "terminator_2.webp"
+  "poster": "terminator_2.webp",
+  "style": "LiveAction"
 }

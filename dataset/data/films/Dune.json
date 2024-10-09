@@ -1,8 +1,6 @@
 {
   "id": "f621dd6f2a12326ad0def088",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Dune",
   "genres": [
     "SciFi",
@@ -173,5 +171,6 @@
     "Legendary"
   ],
   "trailer": "w0HgHet0sxg",
-  "poster": "dune.webp"
+  "poster": "dune.webp",
+  "style": "LiveAction"
 }

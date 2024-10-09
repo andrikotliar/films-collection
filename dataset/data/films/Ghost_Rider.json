@@ -1,8 +1,6 @@
 {
   "id": "510c543602253039ab9dcb1c",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Ghost Rider",
   "genres": [
     "Supernatural",
@@ -144,5 +142,6 @@
     "Columbia"
   ],
   "trailer": "8M0lLJfNPds",
-  "poster": "ghost_rider.webp"
+  "poster": "ghost_rider.webp",
+  "style": "LiveAction"
 }

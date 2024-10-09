@@ -1,8 +1,6 @@
 {
   "id": "16954c556b0efa221936eb4c",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Greenland",
   "genres": [
     "Drama"
@@ -120,5 +118,6 @@
     "GBase"
   ],
   "trailer": "RTODtIQQRpA",
-  "poster": "greenland.webp"
+  "poster": "greenland.webp",
+  "style": "LiveAction"
 }

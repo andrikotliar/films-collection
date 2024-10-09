@@ -1,8 +1,6 @@
 {
   "id": "723c4498366bac596781249d",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Indiana Jones and the Kingdom of the Crystal Skull",
   "genres": [
     "Adventures",
@@ -128,5 +126,6 @@
     "Lucasfilm"
   ],
   "trailer": "WAdJf4wTC5Y",
-  "poster": "indiana_jones_4.webp"
+  "poster": "indiana_jones_4.webp",
+  "style": "LiveAction"
 }

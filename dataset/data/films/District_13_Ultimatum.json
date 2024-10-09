@@ -1,8 +1,6 @@
 {
   "id": "05d58cc72c15bb409aa15b33",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "District 13: Ultimatum",
   "genres": [
     "Action"
@@ -133,5 +131,6 @@
     "EuropaCorp"
   ],
   "trailer": "jDDFNpj9xBQ",
-  "poster": "d13_2.webp"
+  "poster": "d13_2.webp",
+  "style": "LiveAction"
 }

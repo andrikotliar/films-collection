@@ -1,8 +1,6 @@
 {
   "id": "2ffbc21638057649803f4972",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Captain America: Civil War",
   "genres": [
     "SciFi",
@@ -192,5 +190,6 @@
     "MarvelStudios"
   ],
   "trailer": "dKrVegVI0Us",
-  "poster": "captain_america_3.webp"
+  "poster": "captain_america_3.webp",
+  "style": "LiveAction"
 }

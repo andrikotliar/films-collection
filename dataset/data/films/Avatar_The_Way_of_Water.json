@@ -1,8 +1,6 @@
 {
   "id": "9a43a59818d694a43695971d",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Avatar: The Way of Water",
   "genres": [
     "SciFi",
@@ -187,5 +185,6 @@
     "TSG"
   ],
   "trailer": "o5F8MOz_IDw",
-  "poster": "avatar_2.webp"
+  "poster": "avatar_2.webp",
+  "style": "LiveAction"
 }

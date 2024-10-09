@@ -1,8 +1,6 @@
 {
   "id": "6faaead009cc76bfdfa3108d",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Maze Runner: The Scorch Trials",
   "genres": [
     "SciFi",
@@ -128,5 +126,6 @@
     "20thCenturyFox"
   ],
   "trailer": "SDofO3P2HpE",
-  "poster": "maze_runner_2.webp"
+  "poster": "maze_runner_2.webp",
+  "style": "LiveAction"
 }

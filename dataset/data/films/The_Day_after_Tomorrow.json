@@ -1,8 +1,6 @@
 {
   "id": "94b1bf72352494d008567ea6",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Day after Tomorrow",
   "genres": [
     "Disaster"
@@ -176,5 +174,6 @@
     "20thCenturyFox"
   ],
   "trailer": "Ku_IseK3xTc",
-  "poster": "day_after_tomorrow.webp"
+  "poster": "day_after_tomorrow.webp",
+  "style": "LiveAction"
 }

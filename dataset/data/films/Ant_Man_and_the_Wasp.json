@@ -1,8 +1,6 @@
 {
   "id": "306f1027fe0f5bb6e304c933",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Ant-Man and the Wasp",
   "genres": [
     "SciFi",
@@ -132,5 +130,6 @@
     "MarvelStudios"
   ],
   "trailer": "UUkn-enk2RU",
-  "poster": "ant_man_2.webp"
+  "poster": "ant_man_2.webp",
+  "style": "LiveAction"
 }

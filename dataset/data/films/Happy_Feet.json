@@ -1,8 +1,6 @@
 {
   "id": "2b5cc498464d63e95ae6b049",
-  "type": [
-    "Animation"
-  ],
+  "type": "Film",
   "title": "Happy Feet",
   "genres": [
     "Musical",
@@ -153,5 +151,6 @@
     "VillageRoadshow"
   ],
   "trailer": "hFUC5adf8FE",
-  "poster": "happy_feet.webp"
+  "poster": "happy_feet.webp",
+  "style": "Animation"
 }

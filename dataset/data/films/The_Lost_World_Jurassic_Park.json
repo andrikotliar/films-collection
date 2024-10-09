@@ -1,8 +1,6 @@
 {
   "id": "9fcd7bb1322ae7a0f34436fc",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Lost World: Jurassic Park",
   "genres": [
     "SciFi",
@@ -105,5 +103,6 @@
     "Amblin"
   ],
   "trailer": "RxrvaneULkE",
-  "poster": "jurassic_park_2.webp"
+  "poster": "jurassic_park_2.webp",
+  "style": "LiveAction"
 }
