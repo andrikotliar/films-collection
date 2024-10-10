@@ -1,9 +1,8 @@
 import { useContext } from 'react';
 import { FilmsGrid, Loader, Pagination } from '@/components';
 import { FilmsListContext } from '../../context/films-list-context';
-import { FilmsNotFound } from './components';
+import { FilmsNotFound, AdditionalInfoSection } from './components';
 import styles from './FilmsSection.module.css';
-import { AdditionalInfoSection } from '../AdditionalInfoSection/AdditionalInfoSection';
 
 const FilmsSection = () => {
   const { data, isLoading } = useContext(FilmsListContext);
