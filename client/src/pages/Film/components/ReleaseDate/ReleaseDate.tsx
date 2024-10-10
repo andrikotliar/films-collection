@@ -19,7 +19,7 @@ const ReleaseDate: FC<ReleaseDateProps> = ({ value }) => {
   });
 
   return (
-    <TagLink path={path} variant="blue">
+    <TagLink path={path} variant="gray">
       {formattedDate}
     </TagLink>
   );

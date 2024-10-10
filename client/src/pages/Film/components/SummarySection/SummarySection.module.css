@@ -1,7 +1,6 @@
 .summaryLayout {
   display: flex;
   gap: 20px;
-  padding: 0 var(--main-padding);
 }
 
 .summary {
@@ -26,17 +25,5 @@
 @media (max-width: 680px) {
   .summaryLayout {
     flex-direction: column;
-    padding: 0;
-  }
-
-  .summary {
-    padding: 0 var(--main-padding);
-  }
-}
-
-@media (max-width: 580px) {
-  .trailerBlock {
-    width: 100%;
-    border-right: 0;
   }
 }
