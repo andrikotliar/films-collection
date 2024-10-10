@@ -1,5 +1,14 @@
 import { FastifySchema } from 'fastify';
-import { CollectionEnum, StyleType, TitleType } from '../enums';
+import {
+  Award,
+  CollectionEnum,
+  Country,
+  Genre,
+  PersonRole,
+  Studio,
+  StyleType,
+  TitleType,
+} from '../enums';
 
 const filmsSchema: FastifySchema = {
   querystring: {
@@ -23,18 +32,21 @@ const filmsSchema: FastifySchema = {
         type: 'array',
         items: {
           type: 'string',
+          enum: Object.values(Genre),
         },
       },
       studios: {
         type: 'array',
         items: {
           type: 'string',
+          enum: Object.values(Studio),
         },
       },
       countries: {
         type: 'array',
         items: {
           type: 'string',
+          enum: Object.values(Country),
         },
       },
       collection: {
@@ -67,6 +79,7 @@ const filmsSchema: FastifySchema = {
       },
       personRole: {
         type: 'string',
+        enum: Object.values(PersonRole),
       },
       actorId: {
         type: 'string',
@@ -75,6 +88,7 @@ const filmsSchema: FastifySchema = {
         type: 'array',
         items: {
           type: 'string',
+          enum: Object.values(Award),
         },
       },
     },

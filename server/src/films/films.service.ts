@@ -1,4 +1,9 @@
-import { AdditionalInfo, FilmsServiceDependencies, FindAllQueries, IFilmsService } from './types';
+import {
+  AdditionalInfo,
+  FilmsServiceDependencies,
+  FindAllQueries,
+  IFilmsService,
+} from './types';
 import { getFormattedDate, mapFilters } from './helpers';
 import { ActorType } from '../actors/types';
 
@@ -7,7 +12,11 @@ class FilmsService implements IFilmsService {
   private actorsService;
   private chaptersService;
 
-  constructor({ filmsModel, actorsService, chaptersService }: FilmsServiceDependencies) {
+  constructor({
+    filmsModel,
+    actorsService,
+    chaptersService,
+  }: FilmsServiceDependencies) {
     this.filmsModel = filmsModel;
     this.actorsService = actorsService;
     this.chaptersService = chaptersService;
@@ -32,7 +41,8 @@ class FilmsService implements IFilmsService {
   }
 
   async getOneFilm(id: string) {
-    const film = await this.filmsModel.findById(id)
+    const film = await this.filmsModel
+      .findById(id)
       .populate(['cast.actor', 'awards.nominations.actor'])
       .lean();
 
@@ -110,12 +120,14 @@ class FilmsService implements IFilmsService {
       chaptersList.find((chapter) => chapter._id.toString() === id),
     );
 
-    const filteredList = orderedList.filter(film => film !== undefined);
+    const filteredList = orderedList.filter((film) => film !== undefined);
 
     return filteredList;
   }
 
-  async #populateAdditionalData(query: FindAllQueries): Promise<AdditionalInfo | null> {
+  async #populateAdditionalData(
+    query: FindAllQueries,
+  ): Promise<AdditionalInfo | null> {
     const { actorId, personName, personRole, collection, awards } = query;
 
     if (actorId) {

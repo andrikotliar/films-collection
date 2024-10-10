@@ -61,6 +61,9 @@ const Filters = () => {
     if (filtersCount > 0) {
       methods.reset(filterParams);
       updateFiltersCount(filtersCount);
+    } else {
+      methods.reset(defaultValues);
+      updateFiltersCount(0);
     }
   }, [filterParams, filtersCount]);
 
