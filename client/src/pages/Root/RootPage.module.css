@@ -6,6 +6,8 @@
 
 @media (max-width: 785px) {
   .main {
+    min-height: var(--app-height);
     flex-direction: column;
+    justify-content: center;
   }
 }
