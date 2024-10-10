@@ -1,8 +1,6 @@
 {
   "id": "ddc6478a9dfb56b77f7c651d",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Amazing Spider-Man",
   "genres": [
     "SciFi",
@@ -140,5 +138,6 @@
     "MarvelEntertainment"
   ],
   "trailer": "-tnxzJ0SSOw",
-  "poster": "amazing_spider_man_1.webp"
+  "poster": "amazing_spider_man_1.webp",
+  "style": "LiveAction"
 }

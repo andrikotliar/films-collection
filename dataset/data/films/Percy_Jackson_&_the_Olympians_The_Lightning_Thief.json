@@ -1,8 +1,6 @@
 {
   "id": "c739d04579ea5ba7408a2379",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Percy Jackson & the Olympians: The Lightning Thief",
   "genres": [
     "Fantasy",
@@ -154,5 +152,6 @@
     "20thCenturyFox"
   ],
   "trailer": "xko1Mx5w4tg",
-  "poster": "percy_jackson.webp"
+  "poster": "percy_jackson.webp",
+  "style": "LiveAction"
 }

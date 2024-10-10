@@ -1,8 +1,6 @@
 {
   "id": "2b4eaba8ea0670ca2c441700",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Black Widow",
   "genres": [
     "Adventures",
@@ -120,5 +118,6 @@
     "MarvelStudios"
   ],
   "trailer": "ybji16u608U",
-  "poster": "black_widow.webp"
+  "poster": "black_widow.webp",
+  "style": "LiveAction"
 }

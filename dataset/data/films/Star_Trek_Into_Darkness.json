@@ -1,8 +1,6 @@
 {
   "id": "99783ee433b33fdfde682e39",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Star Trek: Into Darkness",
   "genres": [
     "SciFi",
@@ -156,5 +154,6 @@
     "BadRobot"
   ],
   "trailer": "jJMYAJ3_0uw",
-  "poster": "star_trek_2.webp"
+  "poster": "star_trek_2.webp",
+  "style": "LiveAction"
 }

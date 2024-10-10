@@ -1,8 +1,6 @@
 {
   "id": "fdc64ce733f5fadbcabf1266",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Hitch",
   "genres": [
     "Romance",
@@ -126,5 +124,6 @@
     "Columbia"
   ],
   "trailer": "pYrrEUgnT6s",
-  "poster": "hitch.webp"
+  "poster": "hitch.webp",
+  "style": "LiveAction"
 }

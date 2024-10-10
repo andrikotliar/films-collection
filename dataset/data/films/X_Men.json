@@ -1,8 +1,6 @@
 {
   "id": "153b6860f08b2eedb3f2e126",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "X-Men",
   "genres": [
     "SciFi",
@@ -175,5 +173,6 @@
     "MarvelEntertainment"
   ],
   "trailer": "VNxwlx6etXI",
-  "poster": "x_men_1.webp"
+  "poster": "x_men_1.webp",
+  "style": "LiveAction"
 }

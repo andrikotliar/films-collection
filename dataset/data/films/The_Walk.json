@@ -1,8 +1,6 @@
 {
   "id": "46fcbc5e8b39c613e789873d",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Walk",
   "genres": [
     "Adventures"
@@ -138,5 +136,6 @@
     "Sony"
   ],
   "trailer": "4W6byFcD5uE",
-  "poster": "walk.webp"
+  "poster": "walk.webp",
+  "style": "LiveAction"
 }

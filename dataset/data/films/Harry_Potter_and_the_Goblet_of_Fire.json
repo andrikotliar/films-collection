@@ -1,8 +1,6 @@
 {
   "id": "6404ee8fc6a0a3d5458e59f0",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Harry Potter and the Goblet of Fire",
   "genres": [
     "Fantasy",
@@ -188,5 +186,6 @@
     "WarnerBros"
   ],
   "trailer": "3EGojp4Hh6I",
-  "poster": "harry_potter_4.webp"
+  "poster": "harry_potter_4.webp",
+  "style": "LiveAction"
 }

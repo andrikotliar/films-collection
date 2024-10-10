@@ -1,8 +1,6 @@
 {
   "id": "2849cf53372d5db842fd1543",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Warcraft",
   "genres": [
     "Fantasy",
@@ -175,5 +173,6 @@
     "Legendary"
   ],
   "trailer": "2Rxoz13Bthc",
-  "poster": "warcraft.webp"
+  "poster": "warcraft.webp",
+  "style": "LiveAction"
 }

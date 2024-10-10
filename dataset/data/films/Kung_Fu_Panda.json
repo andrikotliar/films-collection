@@ -1,8 +1,6 @@
 {
   "id": "c8124a399431151d0541398e",
-  "type": [
-    "Animation"
-  ],
+  "type": "Film",
   "title": "Kung Fu Panda",
   "genres": [
     "Action",
@@ -188,5 +186,6 @@
     "DreamWorksAnimation"
   ],
   "trailer": "NRc-ze7Wrxw",
-  "poster": "kungfu_panda.webp"
+  "poster": "kungfu_panda.webp",
+  "style": "Animation"
 }

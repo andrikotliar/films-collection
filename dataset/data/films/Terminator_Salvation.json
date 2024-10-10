@@ -1,8 +1,6 @@
 {
   "id": "22a2d2fd6d48e4bb7538f2d2",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Terminator: Salvation",
   "genres": [
     "SciFi",
@@ -126,5 +124,6 @@
     "Halcyon"
   ],
   "trailer": "-Czz-TcWCkA",
-  "poster": "terminator_4.webp"
+  "poster": "terminator_4.webp",
+  "style": "LiveAction"
 }

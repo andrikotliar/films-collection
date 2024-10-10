@@ -1,8 +1,6 @@
 {
   "id": "32ca6a93c1cf221bc0a20a80",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Focus",
   "genres": [
     "Drama",
@@ -120,5 +118,6 @@
     "WarnerBros"
   ],
   "trailer": "MxCRgtdAuBo",
-  "poster": "focus.webp"
+  "poster": "focus.webp",
+  "style": "LiveAction"
 }

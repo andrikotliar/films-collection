@@ -1,9 +1,6 @@
 {
   "id": "d23c335d28a6de652bba41d0",
-  "type": [
-    "Series",
-    "Animation"
-  ],
+  "type": "Series",
   "title": "Arcane",
   "genres": [
     "Adventures",
@@ -204,5 +201,6 @@
     "Netflix",
     "RiotGames"
   ],
-  "poster": "arcane.webp"
+  "poster": "arcane.webp",
+  "style": "Animation"
 }

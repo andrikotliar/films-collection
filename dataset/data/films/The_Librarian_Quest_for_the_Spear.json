@@ -1,8 +1,6 @@
 {
   "id": "e08205009323de876bf416a9",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Librarian: Quest for the Spear",
   "genres": [
     "Adventures",
@@ -114,5 +112,6 @@
     "TNT"
   ],
   "trailer": "_LsPz8vCULE",
-  "poster": "librarian_1.webp"
+  "poster": "librarian_1.webp",
+  "style": "LiveAction"
 }

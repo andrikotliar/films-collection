@@ -1,8 +1,6 @@
 {
   "id": "3291eedd04766d916963aa84",
-  "type": [
-    "Animation"
-  ],
+  "type": "Film",
   "title": "Finding Nemo",
   "genres": [
     "Adventures"
@@ -206,5 +204,6 @@
     "Pixar"
   ],
   "trailer": "wZdpNglLbt8",
-  "poster": "finding_nemo.webp"
+  "poster": "finding_nemo.webp",
+  "style": "Animation"
 }

@@ -1,8 +1,6 @@
 {
   "id": "a2911c516b6ef304aa6df62c",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Spider-Man: No Way Home",
   "genres": [
     "Adventures",
@@ -157,5 +155,6 @@
     "Sony"
   ],
   "trailer": "rt-2cxAiPJk",
-  "poster": "mcu_spider_man_3.webp"
+  "poster": "mcu_spider_man_3.webp",
+  "style": "LiveAction"
 }

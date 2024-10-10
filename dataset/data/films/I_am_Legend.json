@@ -1,8 +1,6 @@
 {
   "id": "b1c949a7b4b25e409c4039e3",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "I am Legend",
   "genres": [
     "SciFi"
@@ -138,5 +136,6 @@
     "VillageRoadshow"
   ],
   "trailer": "dtKMEAXyPkg",
-  "poster": "i_am_legend.webp"
+  "poster": "i_am_legend.webp",
+  "style": "LiveAction"
 }

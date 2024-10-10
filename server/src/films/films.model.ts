@@ -142,7 +142,12 @@ const FilmsSchema = new Schema<FilmData>({
     required: true,
   },
   type: {
-    type: [String],
+    type: String,
+    enum: Object.values(TitleType),
+    required: true,
+  },
+  style: {
+    type: String,
     enum: Object.values(TitleType),
     required: true,
   },

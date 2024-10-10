@@ -1,8 +1,6 @@
 {
   "id": "9a430e3fec8044cab8b81aee",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Incredible Hulk",
   "genres": [
     "SciFi",
@@ -116,5 +114,6 @@
     "Universal"
   ],
   "trailer": "xbqNb2PFKKA",
-  "poster": "the_incredible_hulk.webp"
+  "poster": "the_incredible_hulk.webp",
+  "style": "LiveAction"
 }

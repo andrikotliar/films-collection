@@ -1,8 +1,6 @@
 {
   "id": "94ea549619382a4055b132ee",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "In Time",
   "genres": [
     "SciFi",
@@ -110,5 +108,6 @@
     "20thCenturyFox"
   ],
   "trailer": "fdadZ_KrZVw",
-  "poster": "time.webp"
+  "poster": "time.webp",
+  "style": "LiveAction"
 }

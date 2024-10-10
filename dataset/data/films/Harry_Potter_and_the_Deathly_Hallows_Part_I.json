@@ -1,8 +1,6 @@
 {
   "id": "eb4d91e9a4798cbed3d1040f",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Harry Potter and the Deathly Hallows: Part I",
   "genres": [
     "Fantasy",
@@ -148,5 +146,6 @@
     "WarnerBros"
   ],
   "trailer": "MxqsmsA8y5k",
-  "poster": "harry_potter_7.webp"
+  "poster": "harry_potter_7.webp",
+  "style": "LiveAction"
 }

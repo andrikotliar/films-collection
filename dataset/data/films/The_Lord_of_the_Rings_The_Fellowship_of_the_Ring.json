@@ -1,8 +1,6 @@
 {
   "id": "9cbcc0bbf70c74a3bd9512e8",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Lord of the Rings: The Fellowship of the Ring",
   "genres": [
     "Fantasy",
@@ -244,5 +242,6 @@
     "NewLineCinema"
   ],
   "trailer": "aStYWD25fAQ",
-  "poster": "middle_earth_4.webp"
+  "poster": "middle_earth_4.webp",
+  "style": "LiveAction"
 }

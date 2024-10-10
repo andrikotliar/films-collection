@@ -1,8 +1,6 @@
 {
   "id": "a580fb51ebf8370092505ac5",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Matrix",
   "genres": [
     "SciFi",
@@ -178,5 +176,6 @@
     "WarnerBros"
   ],
   "trailer": "m8e-FF8MsqU",
-  "poster": "matrix_1.webp"
+  "poster": "matrix_1.webp",
+  "style": "LiveAction"
 }

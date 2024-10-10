@@ -1,8 +1,6 @@
 {
   "id": "fb6342a506013c3e0a14f4a7",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Librarian: Curse of the Judas Chalice",
   "genres": [
     "Adventures",
@@ -118,5 +116,6 @@
     "TNT"
   ],
   "trailer": "SfONecwHgHY",
-  "poster": "librarian_3.webp"
+  "poster": "librarian_3.webp",
+  "style": "LiveAction"
 }

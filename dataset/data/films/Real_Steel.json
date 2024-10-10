@@ -1,8 +1,6 @@
 {
   "id": "db994e0eeb1a3d110dcabff7",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Real Steel",
   "genres": [
     "SciFi",
@@ -124,5 +122,6 @@
     "DreamWorks"
   ],
   "trailer": "SwfmV3nn6QA",
-  "poster": "real_steel.webp"
+  "poster": "real_steel.webp",
+  "style": "LiveAction"
 }

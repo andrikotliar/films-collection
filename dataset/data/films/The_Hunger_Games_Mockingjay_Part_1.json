@@ -1,8 +1,6 @@
 {
   "id": "a187e4be4d26e7231866e116",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Hunger Games: Mockingjay - Part 1",
   "genres": [
     "SciFi",
@@ -183,5 +181,6 @@
     "Lionsgate"
   ],
   "trailer": "3PkkHsuMrho",
-  "poster": "hunger_games_3.webp"
+  "poster": "hunger_games_3.webp",
+  "style": "LiveAction"
 }

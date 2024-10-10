@@ -1,8 +1,6 @@
 {
   "id": "b786cd49d9f10cacecf6abe1",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Harry Potter and the Order of the Phoenix",
   "genres": [
     "Fantasy",
@@ -145,5 +143,6 @@
     "WarnerBros"
   ],
   "trailer": "y6ZW7KXaXYk",
-  "poster": "harry_potter_5.webp"
+  "poster": "harry_potter_5.webp",
+  "style": "LiveAction"
 }

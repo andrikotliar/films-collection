@@ -1,8 +1,6 @@
 {
   "id": "d61a2a5f9f7fd7b09016eb52",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Black Panther",
   "genres": [
     "SciFi",
@@ -237,5 +235,6 @@
     "MarvelStudios"
   ],
   "trailer": "xjDjIWPwcPU",
-  "poster": "black_panther.webp"
+  "poster": "black_panther.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "1d33cd53bb0c10ac9fe28e1b",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Martian",
   "genres": [
     "SciFi",
@@ -189,5 +187,6 @@
     "20thCenturyFox"
   ],
   "trailer": "ej3ioOneTy8",
-  "poster": "martian.webp"
+  "poster": "martian.webp",
+  "style": "LiveAction"
 }

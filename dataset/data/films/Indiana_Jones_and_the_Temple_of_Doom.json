@@ -1,8 +1,6 @@
 {
   "id": "3861d2f4038f01855477ad00",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Indiana Jones and the Temple of Doom",
   "genres": [
     "Adventures",
@@ -154,5 +152,6 @@
     "Lucasfilm"
   ],
   "trailer": "WBdyLyijZhU",
-  "poster": "indiana_jones_2.webp"
+  "poster": "indiana_jones_2.webp",
+  "style": "LiveAction"
 }

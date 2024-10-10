@@ -1,8 +1,6 @@
 {
   "id": "6ec73fe94d5afd1f36cefe30",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "X-Men: The Last Stand",
   "genres": [
     "SciFi",
@@ -167,5 +165,6 @@
     "MarvelEntertainment"
   ],
   "trailer": "r8ZMvxzplwc",
-  "poster": "x_men_3.webp"
+  "poster": "x_men_3.webp",
+  "style": "LiveAction"
 }

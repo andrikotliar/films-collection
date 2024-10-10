@@ -1,8 +1,6 @@
 {
   "id": "9c7ac96f451be709e0af0dc6",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Star Trek",
   "genres": [
     "SciFi",
@@ -180,5 +178,6 @@
     "BadRobot"
   ],
   "trailer": "pKFUZ10Wmbw",
-  "poster": "star_trek_1.webp"
+  "poster": "star_trek_1.webp",
+  "style": "LiveAction"
 }

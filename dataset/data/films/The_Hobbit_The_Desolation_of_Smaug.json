@@ -1,8 +1,6 @@
 {
   "id": "6ca233b35d4e904a03b3e83f",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Hobbit: The Desolation of Smaug",
   "genres": [
     "Fantasy",
@@ -244,5 +242,6 @@
     "NewLineCinema"
   ],
   "trailer": "fnaojlfdUbs",
-  "poster": "middle_earth_2.webp"
+  "poster": "middle_earth_2.webp",
+  "style": "LiveAction"
 }

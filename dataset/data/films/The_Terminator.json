@@ -1,8 +1,6 @@
 {
   "id": "5599876b9fa294101cba26cf",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Terminator",
   "genres": [
     "SciFi",
@@ -116,5 +114,6 @@
     "Cinema84"
   ],
   "trailer": "k64P4l2Wmeg",
-  "poster": "terminator_1.webp"
+  "poster": "terminator_1.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "feee9de535a5b45167e223ef",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Iron Man",
   "genres": [
     "SciFi",
@@ -160,5 +158,6 @@
     "Paramount"
   ],
   "trailer": "8hYlB38asDY",
-  "poster": "iron_man_1.webp"
+  "poster": "iron_man_1.webp",
+  "style": "LiveAction"
 }

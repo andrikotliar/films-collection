@@ -1,8 +1,6 @@
 {
   "id": "aa8c788540a67be4d1727170",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Titanic",
   "genres": [
     "Drama",
@@ -177,5 +175,6 @@
     "Paramount"
   ],
   "trailer": "kVrqfYjkTdQ",
-  "poster": "titanic.webp"
+  "poster": "titanic.webp",
+  "style": "LiveAction"
 }

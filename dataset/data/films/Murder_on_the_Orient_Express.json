@@ -1,8 +1,6 @@
 {
   "id": "16bb81e5d0a112445c78112b",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Murder on the Orient Express",
   "genres": [
     "Crime",
@@ -181,5 +179,6 @@
     "20thCenturyFox"
   ],
   "trailer": "Mq4m3yAoW8E",
-  "poster": "murder_on_the_orient_express.webp"
+  "poster": "murder_on_the_orient_express.webp",
+  "style": "LiveAction"
 }

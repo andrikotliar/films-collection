@@ -1,8 +1,6 @@
 {
   "id": "327f930e9d2b365ea5694ba9",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Intouchables",
   "genres": [
     "Biography",
@@ -114,5 +112,6 @@
     "TF1"
   ],
   "trailer": "34WIbmXkewU",
-  "poster": "intouchables.webp"
+  "poster": "intouchables.webp",
+  "style": "LiveAction"
 }

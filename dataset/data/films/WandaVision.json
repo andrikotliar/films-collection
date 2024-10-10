@@ -1,8 +1,6 @@
 {
   "id": "fe3f48b424ff77bd99c3eb16",
-  "type": [
-    "Series"
-  ],
+  "type": "Series",
   "title": "WandaVision",
   "genres": [
     "Action",
@@ -181,5 +179,6 @@
     "DisneyPlus",
     "MarvelStudios"
   ],
-  "poster": "wandavision.webp"
+  "poster": "wandavision.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "d9d35b174b6099f836ea9944",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Star Trek: Beyond",
   "genres": [
     "SciFi",
@@ -178,5 +176,6 @@
     "BadRobot"
   ],
   "trailer": "XRVD32rnzOw",
-  "poster": "star_trek_3.webp"
+  "poster": "star_trek_3.webp",
+  "style": "LiveAction"
 }

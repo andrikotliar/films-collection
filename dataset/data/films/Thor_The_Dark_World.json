@@ -1,8 +1,6 @@
 {
   "id": "fa3a0a9226d19f4b0021b698",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Thor: The Dark World",
   "genres": [
     "Fantasy",
@@ -156,5 +154,6 @@
     "MarvelStudios"
   ],
   "trailer": "npvJ9FTgZbM",
-  "poster": "thor_2.webp"
+  "poster": "thor_2.webp",
+  "style": "LiveAction"
 }

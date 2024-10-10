@@ -1,8 +1,6 @@
 {
   "id": "df52373db63def1e0cf83d60",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Ready Player One",
   "genres": [
     "SciFi",
@@ -161,5 +159,6 @@
     "Amblin"
   ],
   "trailer": "cSp1dM2Vj48",
-  "poster": "ready_player_one.webp"
+  "poster": "ready_player_one.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "a9a22c7a2fd7f6abbbc009d1",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Spider-Man: Homecoming",
   "genres": [
     "SciFi",
@@ -140,5 +138,6 @@
     "MarvelStudios"
   ],
   "trailer": "n9DwoQ7HWvI",
-  "poster": "mcu_spider_man_1.webp"
+  "poster": "mcu_spider_man_1.webp",
+  "style": "LiveAction"
 }

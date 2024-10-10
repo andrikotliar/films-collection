@@ -1,8 +1,6 @@
 {
   "id": "5a0d518cc4c8e8cc75a04c37",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
   "genres": [
     "Fantasy",
@@ -153,5 +151,6 @@
     "JerryBruckheimerFilms"
   ],
   "trailer": "naQr0uTrH_s",
-  "poster": "pirates_1.webp"
+  "poster": "pirates_1.webp",
+  "style": "LiveAction"
 }

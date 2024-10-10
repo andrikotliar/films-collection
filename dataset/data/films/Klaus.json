@@ -1,8 +1,6 @@
 {
   "id": "dfd222ffa37a051e8aeba8ac",
-  "type": [
-    "Animation"
-  ],
+  "type": "Film",
   "title": "Klaus",
   "genres": [
     "Adventures",
@@ -138,5 +136,6 @@
     "AtresmediaCine"
   ],
   "trailer": "taE3PwurhYM",
-  "poster": "klaus.webp"
+  "poster": "klaus.webp",
+  "style": "Animation"
 }

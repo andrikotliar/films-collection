@@ -1,5 +1,5 @@
 import { FastifySchema } from 'fastify';
-import { CollectionEnum, TitleType } from '../enums';
+import { CollectionEnum, StyleType, TitleType } from '../enums';
 
 const filmsSchema: FastifySchema = {
   querystring: {
@@ -12,10 +12,12 @@ const filmsSchema: FastifySchema = {
         type: 'number',
       },
       type: {
-        type: 'array',
-        items: {
-          enum: Object.values(TitleType),
-        },
+        type: 'string',
+        enum: Object.values(TitleType),
+      },
+      style: {
+        type: 'string',
+        enum: Object.values(StyleType),
       },
       genres: {
         type: 'array',

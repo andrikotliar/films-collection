@@ -1,8 +1,6 @@
 {
   "id": "6931aa8d48fd31219874ee9b",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Your Name",
   "genres": [
     "Anime",
@@ -130,5 +128,6 @@
     "ComixWave"
   ],
   "trailer": "xU47nhruN-Q",
-  "poster": "your_name.webp"
+  "poster": "your_name.webp",
+  "style": "LiveAction"
 }

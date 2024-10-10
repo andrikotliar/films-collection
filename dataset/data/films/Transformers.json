@@ -1,8 +1,6 @@
 {
   "id": "1845882656e5e81309a5cc05",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Transformers",
   "genres": [
     "SciFi",
@@ -194,5 +192,6 @@
     "Paramount"
   ],
   "trailer": "dxQxgAfNzyE",
-  "poster": "transformers_1.webp"
+  "poster": "transformers_1.webp",
+  "style": "LiveAction"
 }

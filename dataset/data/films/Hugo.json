@@ -1,8 +1,6 @@
 {
   "id": "0817fbf3aa4d0ba9fe4be438",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Hugo",
   "genres": [
     "Drama",
@@ -155,5 +153,6 @@
     "Paramount"
   ],
   "trailer": "Hv3obL9HqyY",
-  "poster": "hugo.webp"
+  "poster": "hugo.webp",
+  "style": "LiveAction"
 }

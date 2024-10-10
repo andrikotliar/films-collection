@@ -1,8 +1,6 @@
 {
   "id": "68da0fae4ff7ad39cfc7cd75",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Mummy Returns",
   "genres": [
     "Fantasy",
@@ -140,5 +138,6 @@
     "Universal"
   ],
   "trailer": "3yXjs7BUKYc",
-  "poster": "mummy_2.webp"
+  "poster": "mummy_2.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "f027ada93008bd7c5a4db3ba",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Mission: Impossible III",
   "genres": [
     "Action",
@@ -152,5 +150,6 @@
     "Paramount"
   ],
   "trailer": "rl2bysiyltg",
-  "poster": "mi_3.webp"
+  "poster": "mi_3.webp",
+  "style": "LiveAction"
 }

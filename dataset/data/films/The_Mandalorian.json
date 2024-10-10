@@ -1,8 +1,6 @@
 {
   "id": "87f1e8a6c271ca612cb26598",
-  "type": [
-    "Series"
-  ],
+  "type": "Series",
   "title": "The Mandalorian",
   "genres": [
     "SciFi",
@@ -279,5 +277,6 @@
     "DisneyPlus",
     "Lucasfilm"
   ],
-  "poster": "mandalorian.webp"
+  "poster": "mandalorian.webp",
+  "style": "LiveAction"
 }

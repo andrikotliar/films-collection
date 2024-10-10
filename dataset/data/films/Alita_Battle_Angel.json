@@ -1,8 +1,6 @@
 {
   "id": "f6dd6288ba8e8bed21880fbb",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Alita: Battle Angel",
   "genres": [
     "Cyberpunk",
@@ -127,5 +125,6 @@
     "20thCenturyFox"
   ],
   "trailer": "w7pYhpJaJW8",
-  "poster": "alita.webp"
+  "poster": "alita.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "2774361ca770f47506d6f7f0",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "X-Men: First Class",
   "genres": [
     "SciFi",
@@ -155,5 +153,6 @@
     "MarvelEntertainment"
   ],
   "trailer": "kyQKi5-k0UU",
-  "poster": "x_men_5.webp"
+  "poster": "x_men_5.webp",
+  "style": "LiveAction"
 }

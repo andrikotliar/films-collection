@@ -1,8 +1,6 @@
 {
   "id": "5244e38603352b6c1d468be8",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Ford v Ferrari",
   "genres": [
     "Action",
@@ -122,5 +120,6 @@
     "20thCenturyFox"
   ],
   "trailer": "zyYgDtY2AMY",
-  "poster": "fordvsferrari.webp"
+  "poster": "fordvsferrari.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "368c0d7e9d0c68ab67f099f6",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Batman v Superman: Dawn of Justice",
   "genres": [
     "Action",
@@ -143,5 +141,6 @@
     "WarnerBros"
   ],
   "trailer": "bha24P9uw-E",
-  "poster": "batman_v_superman.webp"
+  "poster": "batman_v_superman.webp",
+  "style": "LiveAction"
 }

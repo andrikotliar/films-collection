@@ -1,8 +1,6 @@
 {
   "id": "57eee71bb8a6511f6453de32",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Suicide Squad",
   "genres": [
     "Action",
@@ -153,5 +151,6 @@
     "WarnerBros"
   ],
   "trailer": "CmRih_VtVAs",
-  "poster": "suicide_squad.webp"
+  "poster": "suicide_squad.webp",
+  "style": "LiveAction"
 }

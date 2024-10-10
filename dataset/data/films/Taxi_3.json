@@ -1,8 +1,6 @@
 {
   "id": "1d3cf14152a8b8f7052564bf",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Taxi 3",
   "genres": [
     "Comedy"
@@ -127,5 +125,6 @@
     "Lionsgate"
   ],
   "trailer": "XLP-rf3dHOQ",
-  "poster": "taxi_3.webp"
+  "poster": "taxi_3.webp",
+  "style": "LiveAction"
 }

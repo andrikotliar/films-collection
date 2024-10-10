@@ -1,8 +1,6 @@
 {
   "id": "8d426c6889afd565be724619",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Call of the Wild",
   "genres": [
     "Adventures",
@@ -98,5 +96,6 @@
     "20thCenturyStudio"
   ],
   "trailer": "h1LG9So2ZBk",
-  "poster": "the_call_of_the_wild.webp"
+  "poster": "the_call_of_the_wild.webp",
+  "style": "LiveAction"
 }

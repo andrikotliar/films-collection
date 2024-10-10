@@ -1,8 +1,6 @@
 {
   "id": "fdcad6c4679d1120e4be0069",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Iron Man 3",
   "genres": [
     "SciFi",
@@ -143,5 +141,6 @@
     "MarvelStudios"
   ],
   "trailer": "Ke1Y3P9D0Bc",
-  "poster": "iron_man_3.webp"
+  "poster": "iron_man_3.webp",
+  "style": "LiveAction"
 }

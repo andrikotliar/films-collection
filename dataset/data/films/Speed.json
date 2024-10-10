@@ -1,8 +1,6 @@
 {
   "id": "46263692035fd66ee89f425e",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Speed",
   "genres": [
     "Action",
@@ -133,5 +131,6 @@
     "20thCenturyFox"
   ],
   "trailer": "8piqd2BWeGI",
-  "poster": "speed.webp"
+  "poster": "speed.webp",
+  "style": "LiveAction"
 }

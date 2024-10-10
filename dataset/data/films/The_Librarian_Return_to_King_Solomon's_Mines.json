@@ -1,8 +1,6 @@
 {
   "id": "6a7a1682c8cbed48f1965ce1",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Librarian: Return to King Solomon's Mines",
   "genres": [
     "Adventures",
@@ -130,5 +128,6 @@
     "TNT"
   ],
   "trailer": "ansvc2Muxr0",
-  "poster": "librarian_2.webp"
+  "poster": "librarian_2.webp",
+  "style": "LiveAction"
 }

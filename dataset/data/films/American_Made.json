@@ -1,8 +1,6 @@
 {
   "id": "f23effa6fc6cd62da908584b",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "American Made",
   "genres": [
     "Comedy",
@@ -136,5 +134,6 @@
     "Imagine"
   ],
   "trailer": "AEBIJRAkujM",
-  "poster": "american_made.webp"
+  "poster": "american_made.webp",
+  "style": "LiveAction"
 }

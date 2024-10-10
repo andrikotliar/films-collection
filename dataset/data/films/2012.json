@@ -1,8 +1,6 @@
 {
   "id": "86039d8a4fe37a2b306ebf8d",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "2012",
   "genres": [
     "SciFi",
@@ -131,5 +129,6 @@
     "Columbia"
   ],
   "trailer": "ce0N3TEcFw0",
-  "poster": "twenty_twelve.webp"
+  "poster": "twenty_twelve.webp",
+  "style": "LiveAction"
 }

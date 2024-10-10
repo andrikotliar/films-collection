@@ -1,8 +1,6 @@
 {
   "id": "1243b13711321c7775a31ad0",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "X-Men: Apocalypse",
   "genres": [
     "SciFi",
@@ -157,5 +155,6 @@
     "MarvelEntertainment"
   ],
   "trailer": "Jer8XjMrUB4",
-  "poster": "x_men_7.webp"
+  "poster": "x_men_7.webp",
+  "style": "LiveAction"
 }

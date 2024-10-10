@@ -1,8 +1,6 @@
 {
   "id": "b119b8fe4b677d099061fa1a",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Hobbit: An Unexpected Journey",
   "genres": [
     "Fantasy",
@@ -220,5 +218,6 @@
     "NewLineCinema"
   ],
   "trailer": "JTSoD4BBCJc",
-  "poster": "middle_earth_1.webp"
+  "poster": "middle_earth_1.webp",
+  "style": "LiveAction"
 }

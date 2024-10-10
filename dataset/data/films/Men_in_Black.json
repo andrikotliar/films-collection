@@ -1,8 +1,6 @@
 {
   "id": "679872e08a319a16e8f0d2fb",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Men in Black",
   "genres": [
     "SciFi",
@@ -136,5 +134,6 @@
     "Columbia"
   ],
   "trailer": "1Q4mhYF9aQQ",
-  "poster": "mib_1.webp"
+  "poster": "mib_1.webp",
+  "style": "LiveAction"
 }

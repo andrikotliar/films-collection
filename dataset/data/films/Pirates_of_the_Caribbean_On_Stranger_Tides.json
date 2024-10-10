@@ -1,8 +1,6 @@
 {
   "id": "eb1ca2447e33cf7fc6a37bb4",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Pirates of the Caribbean: On Stranger Tides",
   "genres": [
     "Fantasy",
@@ -124,5 +122,6 @@
     "JerryBruckheimerFilms"
   ],
   "trailer": "t5AqJww06bw",
-  "poster": "pirates_4.webp"
+  "poster": "pirates_4.webp",
+  "style": "LiveAction"
 }

@@ -1,9 +1,6 @@
 {
   "id": "82a806107aee71e4dea2804f",
-  "type": [
-    "Series",
-    "Animation"
-  ],
+  "type": "Series",
   "title": "Avatar: The Last Airbender",
   "genres": [
     "Adventures",
@@ -358,5 +355,6 @@
   "studios": [
     "Nickelodeon"
   ],
-  "poster": "atla.webp"
+  "poster": "atla.webp",
+  "style": "Animation"
 }

@@ -1,8 +1,6 @@
 {
   "id": "0a053412af58158e6841f488",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Hancock",
   "genres": [
     "Action",
@@ -112,5 +110,6 @@
     "Columbia"
   ],
   "trailer": "SkX1VuXLRSc",
-  "poster": "hancock.webp"
+  "poster": "hancock.webp",
+  "style": "LiveAction"
 }

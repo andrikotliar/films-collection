@@ -1,8 +1,6 @@
 {
   "id": "7bb3ff4064679db227c19fb9",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Prince of Persia: The Sand of Time",
   "genres": [
     "Fantasy",
@@ -130,5 +128,6 @@
     "WaltDisney"
   ],
   "trailer": "bZ7Li5w2I-k",
-  "poster": "prince_of_persia.webp"
+  "poster": "prince_of_persia.webp",
+  "style": "LiveAction"
 }

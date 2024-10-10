@@ -1,8 +1,6 @@
 {
   "id": "d5b16bb7561d2c53907a0aa9",
-  "type": [
-    "Animation"
-  ],
+  "type": "Film",
   "title": "The Mitchells vs the Machines",
   "genres": [
     "Adventures",
@@ -126,5 +124,6 @@
     "Netflix"
   ],
   "trailer": "_ak5dFt8Ar0",
-  "poster": "mitchells.webp"
+  "poster": "mitchells.webp",
+  "style": "Animation"
 }

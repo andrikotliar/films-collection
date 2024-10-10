@@ -1,8 +1,6 @@
 {
   "id": "c1621b927aeebd7d462ef40f",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Iron Man 2",
   "genres": [
     "SciFi",
@@ -147,5 +145,6 @@
     "Paramount"
   ],
   "trailer": "BoohRoVA9WQ",
-  "poster": "iron_man_2.webp"
+  "poster": "iron_man_2.webp",
+  "style": "LiveAction"
 }

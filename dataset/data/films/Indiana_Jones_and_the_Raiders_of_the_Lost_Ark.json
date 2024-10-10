@@ -1,8 +1,6 @@
 {
   "id": "4692ec79984d235d51641d16",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Indiana Jones and the Raiders of the Lost Ark",
   "genres": [
     "Adventures",
@@ -192,5 +190,6 @@
     "Lucasfilm"
   ],
   "trailer": "Rh_BJXG1-44",
-  "poster": "indiana_jones_1.webp"
+  "poster": "indiana_jones_1.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "25b399bb2b0a993b624cd427",
-  "type": [
-    "Series"
-  ],
+  "type": "Series",
   "title": "The Witcher",
   "genres": [
     "Adventures",
@@ -252,5 +250,6 @@
   "studios": [
     "Netflix"
   ],
-  "poster": "witcher.webp"
+  "poster": "witcher.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "33e11fcb3e302a68eb80c06e",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Gentlemen",
   "genres": [
     "Action",
@@ -139,5 +137,6 @@
     "Miramax"
   ],
   "trailer": "vaN8BtA8OJk",
-  "poster": "gentlemen.webp"
+  "poster": "gentlemen.webp",
+  "style": "LiveAction"
 }

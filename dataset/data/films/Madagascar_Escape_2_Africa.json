@@ -1,8 +1,6 @@
 {
   "id": "bf5a9a65866d78d353e97dc6",
-  "type": [
-    "Animation"
-  ],
+  "type": "Film",
   "title": "Madagascar: Escape 2 Africa",
   "genres": [
     "Adventures",
@@ -158,5 +156,6 @@
     "DreamWorksAnimation"
   ],
   "trailer": "hLVjIhPYq7s",
-  "poster": "madagascar_2.webp"
+  "poster": "madagascar_2.webp",
+  "style": "Animation"
 }

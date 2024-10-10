@@ -1,8 +1,6 @@
 {
   "id": "36f4ac0799444361b06f8545",
-  "type": [
-    "Animation"
-  ],
+  "type": "Film",
   "title": "Ice Age",
   "genres": [
     "Adventures",
@@ -104,5 +102,6 @@
     "BlueSky"
   ],
   "trailer": "i4noiCRJRoE",
-  "poster": "ice_age_1.webp"
+  "poster": "ice_age_1.webp",
+  "style": "Animation"
 }

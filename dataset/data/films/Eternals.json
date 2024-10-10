@@ -1,8 +1,6 @@
 {
   "id": "e46bc7171839435181c68867",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Eternals",
   "genres": [
     "Adventures",
@@ -164,5 +162,6 @@
     "WaltDisney"
   ],
   "trailer": "x_me3xsvDgk",
-  "poster": "eternals.webp"
+  "poster": "eternals.webp",
+  "style": "LiveAction"
 }

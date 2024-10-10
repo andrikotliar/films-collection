@@ -1,8 +1,6 @@
 {
   "id": "ea4d57216bd0044dd1d8049c",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Ant-Man",
   "genres": [
     "SciFi",
@@ -153,5 +151,6 @@
     "MarvelStudios"
   ],
   "trailer": "pWdKf3MneyI",
-  "poster": "ant_man_1.webp"
+  "poster": "ant_man_1.webp",
+  "style": "LiveAction"
 }

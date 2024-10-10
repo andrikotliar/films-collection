@@ -1,8 +1,6 @@
 {
   "id": "416c6d6e1ab9d0b68632215d",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Source Code",
   "genres": [
     "SciFi",
@@ -113,5 +111,6 @@
     "Summit"
   ],
   "trailer": "mnJegNyAb1w",
-  "poster": "source_code.webp"
+  "poster": "source_code.webp",
+  "style": "LiveAction"
 }

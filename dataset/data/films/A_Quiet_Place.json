@@ -1,8 +1,6 @@
 {
   "id": "49487c60995eacfb890e2734",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "A Quiet Place",
   "genres": [
     "SciFi",
@@ -135,5 +133,6 @@
     "Paramount"
   ],
   "trailer": "WR7cc5t7tv8",
-  "poster": "quiet_place.webp"
+  "poster": "quiet_place.webp",
+  "style": "LiveAction"
 }

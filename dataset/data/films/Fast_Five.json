@@ -1,8 +1,6 @@
 {
   "id": "1f37a67baa88bb3e2734cd3e",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Fast Five",
   "genres": [
     "Action",
@@ -146,5 +144,6 @@
     "Universal"
   ],
   "trailer": "mw2AqdB5EVA",
-  "poster": "fast_and_furious_5.webp"
+  "poster": "fast_and_furious_5.webp",
+  "style": "LiveAction"
 }

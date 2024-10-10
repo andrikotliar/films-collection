@@ -1,8 +1,6 @@
 {
   "id": "4614f68d59122fe5c05f9803",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Pirates of the Caribbean: Dead Man's Chest",
   "genres": [
     "Fantasy",
@@ -163,5 +161,6 @@
     "JerryBruckheimerFilms"
   ],
   "trailer": "ozk0-RHXtFw",
-  "poster": "pirates_2.webp"
+  "poster": "pirates_2.webp",
+  "style": "LiveAction"
 }

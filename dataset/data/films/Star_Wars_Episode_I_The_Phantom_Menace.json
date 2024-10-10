@@ -1,8 +1,6 @@
 {
   "id": "c3ed9d473f4ffa0151b7ef37",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Star Wars Episode I: The Phantom Menace",
   "genres": [
     "SpaceOpera",
@@ -171,5 +169,6 @@
     "Lucasfilm"
   ],
   "trailer": "bD7bpG-zDJQ",
-  "poster": "star_wars_episode_I.webp"
+  "poster": "star_wars_episode_I.webp",
+  "style": "LiveAction"
 }

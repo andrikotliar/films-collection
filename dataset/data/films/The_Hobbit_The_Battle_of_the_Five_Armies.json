@@ -1,8 +1,6 @@
 {
   "id": "817c7b2d42abd35dbf6cf529",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Hobbit: The Battle of the Five Armies",
   "genres": [
     "Fantasy",
@@ -245,5 +243,6 @@
     "NewLineCinema"
   ],
   "trailer": "iVAgTiBrrDA",
-  "poster": "middle_earth_3.webp"
+  "poster": "middle_earth_3.webp",
+  "style": "LiveAction"
 }

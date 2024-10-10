@@ -1,8 +1,6 @@
 {
   "id": "815b290090a31328072bf5be",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Batman Begins",
   "genres": [
     "Action",
@@ -177,5 +175,6 @@
     "Legendary"
   ],
   "trailer": "neY2xVmOfUM",
-  "poster": "batman_1.webp"
+  "poster": "batman_1.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "4dd726f2271aad40f03d1368",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Harry Potter and the Prisoner of Azkaban",
   "genres": [
     "Fantasy",
@@ -147,5 +145,6 @@
     "WarnerBros"
   ],
   "trailer": "lAxgztbYDbs",
-  "poster": "harry_potter_3.webp"
+  "poster": "harry_potter_3.webp",
+  "style": "LiveAction"
 }

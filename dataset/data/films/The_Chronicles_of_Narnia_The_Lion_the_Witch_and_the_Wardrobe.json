@@ -1,8 +1,6 @@
 {
   "id": "a2e635b184b4196ea5fe44f7",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
   "genres": [
     "Fantasy",
@@ -175,5 +173,6 @@
     "WaltDisney"
   ],
   "trailer": "lWKj41HZBzM",
-  "poster": "narnia_1.webp"
+  "poster": "narnia_1.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "1f3812a3b06f2ec2172ebe78",
-  "type": [
-    "Series"
-  ],
+  "type": "Series",
   "title": "Heroes",
   "genres": [
     "SciFi",
@@ -492,5 +490,6 @@
     "NBCUniversalTV",
     "UniversalMedia"
   ],
-  "poster": "heroes.webp"
+  "poster": "heroes.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "26ea04901835bcc507e2cee6",
-  "type": [
-    "Animation"
-  ],
+  "type": "Film",
   "title": "Madagascar",
   "genres": [
     "Adventures",
@@ -137,5 +135,6 @@
     "DreamWorksAnimation"
   ],
   "trailer": "orAqhC-Hp_o",
-  "poster": "madagascar.webp"
+  "poster": "madagascar.webp",
+  "style": "Animation"
 }

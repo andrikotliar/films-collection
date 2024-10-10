@@ -1,8 +1,6 @@
 {
   "id": "7a0d24e045519802fea79556",
-  "type": [
-    "Animation"
-  ],
+  "type": "Film",
   "title": "How to Train Your Dragon 2",
   "genres": [
     "Fantasy",
@@ -111,5 +109,6 @@
     "DreamWorksAnimation"
   ],
   "trailer": "2BP38770KNo",
-  "poster": "how_to_train_your_dragon_2.webp"
+  "poster": "how_to_train_your_dragon_2.webp",
+  "style": "Animation"
 }

@@ -1,8 +1,6 @@
 {
   "id": "572cc7cd3accc2f7d80adc3d",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "The Lord of the Rings: The Two Towers",
   "genres": [
     "Fantasy",
@@ -256,5 +254,6 @@
     "NewLineCinema"
   ],
   "trailer": "LbfMDwc4azU",
-  "poster": "middle_earth_5.webp"
+  "poster": "middle_earth_5.webp",
+  "style": "LiveAction"
 }

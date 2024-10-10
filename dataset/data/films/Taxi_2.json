@@ -1,8 +1,6 @@
 {
   "id": "7ce08f79aed677a275668a69",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Taxi 2",
   "genres": [
     "Comedy"
@@ -118,5 +116,6 @@
     "Lionsgate"
   ],
   "trailer": "XkMZ75BwhCg",
-  "poster": "taxi_2.webp"
+  "poster": "taxi_2.webp",
+  "style": "LiveAction"
 }

@@ -1,8 +1,6 @@
 {
   "id": "e34f4dea693bcff25e4a0776",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "District 13",
   "genres": [
     "Action"
@@ -118,5 +116,6 @@
     "EuropaCorp"
   ],
   "trailer": "Mcmkx1klOpE",
-  "poster": "d13_1.webp"
+  "poster": "d13_1.webp",
+  "style": "LiveAction"
 }

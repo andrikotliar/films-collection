@@ -1,8 +1,6 @@
 {
   "id": "3c6d9bd2f83e0b7e86cc6551",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Back to the future: Part III",
   "genres": [
     "SciFi",
@@ -104,5 +102,6 @@
     "Universal"
   ],
   "trailer": "EYkguxpqsrg",
-  "poster": "back_to_the_future_3.webp"
+  "poster": "back_to_the_future_3.webp",
+  "style": "LiveAction"
 }

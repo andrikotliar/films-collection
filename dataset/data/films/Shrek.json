@@ -1,8 +1,6 @@
 {
   "id": "9b23d19ed2784ae69f4bb342",
-  "type": [
-    "Animation"
-  ],
+  "type": "Film",
   "title": "Shrek",
   "genres": [
     "Adventures",
@@ -145,5 +143,6 @@
     "DreamWorksAnimation"
   ],
   "trailer": "CwXOrWvPBPk",
-  "poster": "shrek_1.webp"
+  "poster": "shrek_1.webp",
+  "style": "Animation"
 }

@@ -1,8 +1,6 @@
 {
   "id": "b0e3418c09046fc8ff854ad9",
-  "type": [
-    "Series"
-  ],
+  "type": "Series",
   "title": "The 100",
   "genres": [
     "SciFi",
@@ -703,5 +701,6 @@
     "WarnerBrosTv",
     "CBS"
   ],
-  "poster": "hundred.webp"
+  "poster": "hundred.webp",
+  "style": "LiveAction"
 }

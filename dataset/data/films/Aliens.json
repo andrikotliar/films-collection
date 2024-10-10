@@ -1,8 +1,6 @@
 {
   "id": "630b8aef862e4ced32659eb4",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Aliens",
   "genres": [
     "SciFi",
@@ -172,5 +170,6 @@
     "20thCenturyFox"
   ],
   "trailer": "oSeQQlaCZgU",
-  "poster": "alien_2.webp"
+  "poster": "alien_2.webp",
+  "style": "LiveAction"
 }

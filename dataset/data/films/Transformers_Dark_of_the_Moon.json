@@ -1,8 +1,6 @@
 {
   "id": "9f7cff8bacf7cf079d5eb243",
-  "type": [
-    "Film"
-  ],
+  "type": "Film",
   "title": "Transformers: Dark of the Moon",
   "genres": [
     "SciFi",
@@ -156,5 +154,6 @@
     "Paramount"
   ],
   "trailer": "bTIrEZM-cFE",
-  "poster": "transformers_3.webp"
+  "poster": "transformers_3.webp",
+  "style": "LiveAction"
 }

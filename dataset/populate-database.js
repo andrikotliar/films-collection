@@ -6,6 +6,8 @@ import { logger } from './helpers/logger.js';
 
 const env = getEnvironmentVariables();
 
+console.log('Database to work with:', env.database.uri);
+
 const mongoClient = new MongoClient(env.database.uri);
 
 const getData = async (path, dataType) => {
