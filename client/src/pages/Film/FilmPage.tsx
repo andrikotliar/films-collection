@@ -11,7 +11,6 @@ import {
   SummarySection,
   Chapters,
   NavigationRow,
-  Section,
   SeriesStats,
 } from './components';
 import styles from './FilmPage.module.css';
@@ -37,45 +36,47 @@ const FilmPage = () => {
     <div className={styles.filmPage}>
       <NavigationRow />
 
-      <SummarySection film={film} />
+      <div className={styles.content}>
+        <SummarySection film={film} />
 
-      {film.seriesExtension && (
-        <Section>
-          <SectionTitle>Series Details</SectionTitle>
-          <SeriesStats data={film.seriesExtension} />
-        </Section>
-      )}
+        {film.seriesExtension && (
+          <section>
+            <SectionTitle>Series Details</SectionTitle>
+            <SeriesStats data={film.seriesExtension} />
+          </section>
+        )}
 
-      <Section>
-        <SectionTitle>Crew</SectionTitle>
-        <CrewList crew={film.crew} />
-      </Section>
+        <section>
+          <SectionTitle>Crew</SectionTitle>
+          <CrewList crew={film.crew} />
+        </section>
 
-      <Section>
-        <SectionTitle>Description</SectionTitle>
-        <Description content={film.description} key={film._id} />
-      </Section>
+        <section>
+          <SectionTitle>Description</SectionTitle>
+          <Description content={film.description} key={film._id} />
+        </section>
 
-      {film.cast.length !== 0 && (
-        <Section>
-          <SectionTitle>Cast and characters</SectionTitle>
-          <Cast cast={film.cast} />
-        </Section>
-      )}
+        {film.cast.length !== 0 && (
+          <section>
+            <SectionTitle>Cast and characters</SectionTitle>
+            <Cast cast={film.cast} />
+          </section>
+        )}
 
-      {film.awards && film.awards.length !== 0 && (
-        <Section>
-          <SectionTitle>Awards</SectionTitle>
-          <Awards awards={film.awards} />
-        </Section>
-      )}
+        {film.awards && film.awards.length !== 0 && (
+          <section>
+            <SectionTitle>Awards</SectionTitle>
+            <Awards awards={film.awards} />
+          </section>
+        )}
 
-      {film.chapters && film.chapters.length !== 0 && (
-        <Section>
-          <SectionTitle>Chapters</SectionTitle>
-          <Chapters data={film.chapters} filmId={film._id} key={film._id} />
-        </Section>
-      )}
+        {film.chapters && film.chapters.length !== 0 && (
+          <section>
+            <SectionTitle>Chapters</SectionTitle>
+            <Chapters data={film.chapters} filmId={film._id} key={film._id} />
+          </section>
+        )}
+      </div>
     </div>
   );
 };

@@ -15,11 +15,6 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
 
   const values: SummaryConfig[] = [
     {
-      id: 'releaseDate',
-      title: 'Release Date',
-      content: <ReleaseDate value={film.releaseDate} />,
-    },
-    {
       id: 'genres',
       title: 'Genres',
       content: (
@@ -30,6 +25,12 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
         />
       ),
     },
+    {
+      id: 'releaseDate',
+      title: 'Release Date',
+      content: <ReleaseDate value={film.releaseDate} />,
+    },
+
     {
       id: 'duration',
       title: 'Runtime',
@@ -75,7 +76,7 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
         <TagLinksGroup
           basePath="collections"
           items={film.collections.map((collection) => collection.key)}
-          variant="purple"
+          variant="pink"
           titles={collectionTitles}
         />
       ),

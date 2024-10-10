@@ -26,3 +26,9 @@
   background-color: var(--purple-dark);
   border-radius: 50px;
 }
+
+@media (max-width: 580px) {
+  .label {
+    display: none;
+  }
+}

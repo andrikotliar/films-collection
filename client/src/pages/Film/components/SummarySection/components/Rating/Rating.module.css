@@ -51,3 +51,13 @@
 .levelCompleted {
   background-color: var(--rating-color);
 }
+
+@media (max-width: 580px) {
+  .label {
+    display: none;
+  }
+
+  .level {
+    width: 20px;
+  }
+}
