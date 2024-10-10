@@ -1,9 +1,12 @@
 import { useContext } from 'react';
 import { FilmsGrid, Loader, Pagination } from '@/components';
 import { FilmsListContext } from '../../context/films-list-context';
-import { FilmsNotFound } from './components';
+import {
+  FilmsNotFound,
+  AdditionalInfoSection,
+  AppliedFilters,
+} from './components';
 import styles from './FilmsSection.module.css';
-import { AdditionalInfoSection } from '../AdditionalInfoSection/AdditionalInfoSection';
 
 const FilmsSection = () => {
   const { data, isLoading } = useContext(FilmsListContext);
@@ -19,6 +22,7 @@ const FilmsSection = () => {
   if (!data?.films.length) {
     return (
       <div className={styles.filmsSection}>
+        <AppliedFilters />
         <FilmsNotFound />
       </div>
     );
@@ -27,6 +31,7 @@ const FilmsSection = () => {
   return (
     <div className={styles.filmsSection}>
       <AdditionalInfoSection info={data.additionalInfo} />
+      <AppliedFilters />
       <FilmsGrid films={data.films} />
       <div className={styles.paginationWrapper}>
         <Pagination total={data.total} />

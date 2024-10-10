@@ -74,7 +74,7 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
       title: 'Collections',
       content: (
         <TagLinksGroup
-          basePath="collections"
+          basePath="collection"
           items={film.collections.map((collection) => collection.key)}
           variant="pink"
           titles={collectionTitles}
