@@ -38,6 +38,4 @@ To prepopulate the database with data, go to the `dataset` folder and follow ins
 
 ## Build project
 
-1. Run the `npm run build` in the root of the project. It will build code into `client/dist` and `server/dist`.
-
-In the `server` folder you can find production-ready `Dockerfile` to deploy the backend. 
+1. Run the `npm run build` in the root of the project. The command builds the code into `client/dist` and `server/dist`.
