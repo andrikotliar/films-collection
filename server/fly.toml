@@ -13,6 +13,6 @@ primary_region = 'waw'
   processes = ['app']
 
 [[vm]]
-  memory = '512mb'
+  memory = 256
   cpu_kind = 'shared'
   cpus = 1
