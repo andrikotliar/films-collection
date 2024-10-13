@@ -120,7 +120,7 @@
   ],
   "awards": [
     {
-      "awardKey": "GoldenGlobeAward",
+      "award": "6ab0cc73c333b43f78366442",
       "nominations": [
         {
           "title": "Best Television Limited Series, Anthology Series or Motion Picture Made for Television"
@@ -132,7 +132,7 @@
       ]
     },
     {
-      "awardKey": "CriticsChoiceAward",
+      "award": "c02117d39412aa3c073faec1",
       "nominations": [
         {
           "title": "Best Limited Series"

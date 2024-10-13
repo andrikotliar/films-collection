@@ -163,7 +163,7 @@
   "budget": 150000000,
   "awards": [
     {
-      "awardKey": "BaftaAward",
+      "award": "e0f771e50a68374fdf9051ff",
       "nominations": [
         {
           "title": "Best Production Design"

@@ -153,7 +153,7 @@
   "budget": 108000000,
   "awards": [
     {
-      "awardKey": "GoldenGlobeAward",
+      "award": "6ab0cc73c333b43f78366442",
       "nominations": [
         {
           "title": "Best Motion Picture - Comedy or Musical"
@@ -165,7 +165,7 @@
       ]
     },
     {
-      "awardKey": "SaturnAward",
+      "award": "69de08782a405ee5077f50cf",
       "nominations": [
         {
           "title": "Best Director"

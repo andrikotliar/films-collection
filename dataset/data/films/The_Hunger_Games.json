@@ -125,7 +125,7 @@
   "budget": 78000000,
   "awards": [
     {
-      "awardKey": "BaftaAward",
+      "award": "e0f771e50a68374fdf9051ff",
       "nominations": [
         {
           "title": "Best Feature Film"
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "awardKey": "MtvAward",
+      "award": "7c71ca26d552f1953a95365b",
       "nominations": [
         {
           "title": "Best Male Performance",

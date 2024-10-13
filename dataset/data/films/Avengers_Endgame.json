@@ -178,7 +178,7 @@
   "budget": 356000000,
   "awards": [
     {
-      "awardKey": "SaturnAward",
+      "award": "69de08782a405ee5077f50cf",
       "nominations": [
         {
           "title": "Best Comic-to-Film Motion Picture"
@@ -202,7 +202,7 @@
       ]
     },
     {
-      "awardKey": "MtvAward",
+      "award": "7c71ca26d552f1953a95365b",
       "nominations": [
         {
           "title": "Best Movie"
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "awardKey": "CriticsChoiceAward",
+      "award": "c02117d39412aa3c073faec1",
       "nominations": [
         {
           "title": "Best Visual Effects"

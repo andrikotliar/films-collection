@@ -145,7 +145,7 @@
   "budget": 220000000,
   "awards": [
     {
-      "awardKey": "SaturnAward",
+      "award": "69de08782a405ee5077f50cf",
       "nominations": [
         {
           "title": "Best Science Fiction Film"
@@ -163,7 +163,7 @@
       ]
     },
     {
-      "awardKey": "MtvAward",
+      "award": "7c71ca26d552f1953a95365b",
       "nominations": [
         {
           "title": "Movie of the Year"
