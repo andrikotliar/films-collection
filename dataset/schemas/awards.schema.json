@@ -1,0 +1,38 @@
+{
+  "title": "Awards",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Unique award identifier"
+      },
+      "title": {
+        "type": "string",
+        "description": "Award title"
+      },
+      "image": {
+        "type": "string",
+        "description": "Image filename with extension",
+        "examples": [
+          "oscar.svg"
+        ]
+      },
+      "nominations": {
+        "type": "array",
+        "description": "List of available nominations",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1
+      }
+    },
+    "required": [
+      "id",
+      "title",
+      "image",
+      "nominations"
+    ]
+  }
+}
