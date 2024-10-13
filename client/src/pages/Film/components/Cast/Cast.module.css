@@ -13,3 +13,9 @@
     --grid-min-width: 100px;
   }
 }
+
+@media (max-width: 480px) {
+  .actors {
+    --grid-min-width: 80px;
+  }
+}

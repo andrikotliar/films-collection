@@ -32,3 +32,10 @@
 .failure {
   --main-color: var(--red);
 }
+
+@media (max-width: 480px) {
+  .moneyValue {
+    font-size: 12px;
+    width: 120px;
+  }
+}
