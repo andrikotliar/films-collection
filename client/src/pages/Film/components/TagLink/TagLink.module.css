@@ -52,3 +52,9 @@
 .disabled .icon {
   display: none;
 }
+
+@media (max-width: 480px) {
+  .link {
+    font-size: 12px;
+  }
+}

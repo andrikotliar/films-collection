@@ -31,4 +31,10 @@
   .label {
     display: none;
   }
+
+  .value {
+    color: var(--purple-dark);
+    background-color: transparent;
+    width: auto;
+  }
 }

@@ -8,28 +8,28 @@ import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
 import { useQueryFilter } from '@/hooks';
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
-import { TitleType } from '@/enums';
+import { StyleType, TitleType } from '@/enums';
 
 type FormValues = {
-  type: TitleType[] | null;
+  type: TitleType | null;
+  style: StyleType | null;
   collections: string[] | null;
   genres: string[] | null;
   startDate: string | null;
   endDate: string | null;
   countries: string[] | null;
-  production: string[] | null;
-  extra: string | null;
+  studios: string[] | null;
 };
 
 const defaultValues: FormValues = {
   type: null,
+  style: null,
   collections: null,
   genres: null,
   startDate: null,
   endDate: null,
   countries: null,
-  production: null,
-  extra: null,
+  studios: null,
 };
 
 const Filters = () => {
