@@ -23,6 +23,7 @@ const Awards: FC<AwardsProps> = ({ awards }) => {
             <Image
               src={buildMediaPath('awards', award.image)}
               alt={award.title}
+              className={styles.awardImage}
             />
             <div className={styles.main}>
               <h3 className={styles.title}>
