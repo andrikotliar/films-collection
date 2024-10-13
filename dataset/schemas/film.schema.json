@@ -179,13 +179,9 @@
       "items": {
         "type": "object",
         "properties": {
-          "awardKey": {
+          "award": {
             "type": "string",
-            "description": "Awards enum. Should be written in Pascal Case",
-            "examples": [
-              "OscarAward",
-              "SaturnAward"
-            ]
+            "description": "Award ID reference"
           },
           "nominations": {
             "type": "array",
