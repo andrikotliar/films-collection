@@ -1,14 +1,13 @@
 import { FC, useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { AwardType } from '@/types';
-import { buildQueryLink } from '@/helpers';
-import { DataArea, DataGrid, Icon, ScrollableWrapper } from '@/components';
+import { FilmAward } from '@/types';
+import { buildMediaPath, buildQueryLink } from '@/helpers';
+import { DataArea, DataGrid, Image, ScrollableWrapper } from '@/components';
 import { Nomination } from './components';
 import styles from './Awards.module.css';
-import { awardTitles } from '@/titles';
 
 type AwardsProps = {
-  awards: AwardType[];
+  awards: FilmAward[];
 };
 
 const Awards: FC<AwardsProps> = ({ awards }) => {
@@ -18,14 +17,17 @@ const Awards: FC<AwardsProps> = ({ awards }) => {
 
   return (
     <DataGrid>
-      {sortedAwards.map(({ awardKey, nominations }) => (
-        <DataArea className={styles.award} key={awardKey}>
+      {sortedAwards.map(({ award, nominations }) => (
+        <DataArea className={styles.award} key={award._id}>
           <div className={styles.header}>
-            <Icon name={awardKey} size={60} />
+            <Image
+              src={buildMediaPath('awards', award.image)}
+              alt={award.title}
+            />
             <div className={styles.main}>
               <h3 className={styles.title}>
-                <Link to={buildQueryLink({ awards: awardKey })}>
-                  {awardTitles[awardKey]}
+                <Link to={buildQueryLink({ awards: award._id })}>
+                  {award.title}
                 </Link>
               </h3>
               <p>

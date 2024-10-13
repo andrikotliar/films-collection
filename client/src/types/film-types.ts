@@ -1,5 +1,4 @@
 import {
-  Award,
   Country,
   Genre,
   PersonRole,
@@ -9,6 +8,7 @@ import {
   StyleType,
 } from '@/enums';
 import { Actor } from './actor';
+import { AwardData } from './award';
 
 type Crew = {
   role: PersonRole;
@@ -37,8 +37,8 @@ type Nomination = {
   comment: string | null;
 };
 
-type AwardType = {
-  awardKey: Award;
+type FilmAward = {
+  award: Pick<AwardData, '_id' | 'title' | 'image'>;
   nominations: Nomination[];
 };
 
@@ -81,7 +81,7 @@ type FilmData = {
   collections: Collection[];
   budget: number | null;
   boxOffice: number | null;
-  awards: AwardType[];
+  awards: FilmAward[];
   seriesExtension: SeriesExtension | null;
   rating: number;
   poster: string;
@@ -124,7 +124,7 @@ type AdditionalCollectionInfo = {
 
 type AdditionalAwardsInfo = {
   type: 'awards';
-  data: Award[];
+  data: Omit<AwardData, 'nominations'>[];
 };
 
 type AdditionalInfo =
@@ -162,7 +162,7 @@ export type {
   Crew,
   CastType,
   Collection,
-  AwardType,
+  FilmAward,
   Chapter,
   SeriesExtension,
   SeasonType,
