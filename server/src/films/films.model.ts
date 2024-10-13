@@ -1,9 +1,9 @@
 import { model, Schema } from 'mongoose';
 import {
-  AwardType,
   CastType,
   CollectionType,
   Crew,
+  FilmAward,
   FilmData,
   Nomination,
   Person,
@@ -11,7 +11,6 @@ import {
   SeriesExtension,
 } from './types';
 import {
-  Award,
   CollectionEnum,
   Country,
   Genre,
@@ -20,6 +19,7 @@ import {
   TitleType,
 } from './enums';
 import { ActorModel } from '../actors/actors.model';
+import { AwardModel } from '../awards/awards.model';
 
 const FilmPersonSchema = new Schema<Person>({
   name: {
@@ -90,11 +90,11 @@ const NominationSchema = new Schema<Nomination>({
   },
 });
 
-const AwardSchema = new Schema<AwardType>({
-  awardKey: {
+const AwardSchema = new Schema<FilmAward>({
+  award: {
     type: String,
-    enum: Object.values(Award),
     required: true,
+    ref: AwardModel,
   },
   nominations: [NominationSchema],
 });

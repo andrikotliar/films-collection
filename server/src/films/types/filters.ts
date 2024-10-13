@@ -42,7 +42,7 @@ type DbQueryFilter = Partial<{
   ['crew.role']: string;
   ['crew.people.name']: string;
   ['cast.actor']: string;
-  ['awards.awardKey']: ArrayFilter;
+  ['awards.award']: ArrayFilter;
 }>;
 
 type FindAllQueries = Partial<FindAllFilters> & {

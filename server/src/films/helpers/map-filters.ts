@@ -93,7 +93,7 @@ const mapFilters = (plainFilters: Partial<FindAllFilters>) => {
   }
 
   if (awards) {
-    filters['awards.awardKey'] = getArrayFilter(awards);
+    filters['awards.award'] = getArrayFilter(awards);
   }
 
   return filters;
