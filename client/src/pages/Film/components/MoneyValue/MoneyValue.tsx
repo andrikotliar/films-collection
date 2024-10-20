@@ -11,10 +11,11 @@ type MoneyValueProps = {
 const MoneyValue: FC<MoneyValueProps> = ({ value, status = 'default' }) => {
   return (
     <div className={classNames(styles.moneyValue, styles[status])}>
-      <span className={styles.currency}>$</span>
-      <span className={styles.value}>
-        {value ? getFormattedValue(value) : 'N/A'}
-      </span>
+      {value ? (
+        getFormattedValue(value)
+      ) : (
+        <span className={styles.fallback}>N/A</span>
+      )}
     </div>
   );
 };

@@ -2,7 +2,6 @@ import { FC, PropsWithChildren } from 'react';
 import { Link } from 'react-router-dom';
 import styles from './TagLink.module.css';
 import classNames from 'classnames';
-import { SquareArrowOutUpRightIcon } from 'lucide-react';
 
 type TagLinkProps = {
   path: string;
@@ -24,7 +23,6 @@ const TagLink: FC<PropsWithChildren<TagLinkProps>> = ({
       })}
     >
       {children}
-      <SquareArrowOutUpRightIcon className={styles.icon} />
     </Link>
   );
 };

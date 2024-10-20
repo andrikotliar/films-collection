@@ -1,41 +1,21 @@
 .moneyValue {
-  --main-color: var(--gray);
-
-  display: flex;
+  color: var(--gray);
   font-size: 16px;
-  border-radius: 4px;
-  border: 2px solid var(--main-color);
-  width: 140px;
-}
-
-.currency {
-  color: #fff;
   font-weight: bold;
-  padding: 5px 10px;
-  background-color: var(--main-color);
-}
-
-.value {
-  color: var(--main-color);
-  font-weight: bold;
-  padding: 5px 10px;
 }
 
 .default {
-  --main-color: var(--yellow-saturated);
+  color: var(--black);
 }
 
 .success {
-  --main-color: var(--green-success);
+  color: var(--green-success);
 }
 
 .failure {
-  --main-color: var(--red);
+  color: var(--red);
 }
 
-@media (max-width: 480px) {
-  .moneyValue {
-    font-size: 12px;
-    width: 120px;
-  }
+.fallback {
+  color: var(--gray-dark);
 }

@@ -27,7 +27,7 @@ const getFormattedValue = (value: number | null): string | null => {
 
   const formattedValue = value / divisor.value;
 
-  return `${formattedValue} ${divisor.label}`;
+  return `$${formattedValue} ${divisor.label}`;
 };
 
 export { getFormattedValue };

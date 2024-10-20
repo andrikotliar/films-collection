@@ -14,10 +14,3 @@
 .content {
   font-size: 14px;
 }
-
-@media (max-width: 580px) {
-  .summaryBlock {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
