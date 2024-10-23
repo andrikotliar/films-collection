@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { FilmsGrid, Loader, Pagination } from '@/components';
-import { FilmsListContext } from '../../context/films-list-context';
+import { FilmsListContext } from '../../context';
 import {
   FilmsNotFound,
   AdditionalInfoSection,

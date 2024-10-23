@@ -1,2 +1,2 @@
-export * from './FilmsSection';
-export * from './Sidebar';
+export * from './FilmsSection/FilmsSection';
+export * from './Sidebar/Sidebar';

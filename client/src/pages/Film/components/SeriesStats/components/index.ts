@@ -1,1 +1,1 @@
-export * from './Season';
+export * from './Season/Season';

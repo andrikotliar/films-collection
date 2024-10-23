@@ -1,7 +1,7 @@
 import { SeriesExtension } from '@/types';
 import { FC } from 'react';
 import styles from './SeriesStats.module.css';
-import { TagLink } from '../TagLink';
+import { TagLink } from '../TagLink/TagLink';
 import { buildQueryLink } from '@/helpers';
 import { Season } from './components';
 import { ScrollableWrapper } from '@/components';

@@ -1,10 +1,10 @@
 import { FilmData } from '@/types';
 import { FC, useMemo } from 'react';
 import styles from './SummarySection.module.css';
-import { Title } from '../Title';
+import { Title } from '../Title/Title';
 import { Poster, Rating, Summary, WatchCount } from './components';
 import { getFilmSummaryConfig } from '../../helpers';
-import { TrailerButton } from '../TrailerButton';
+import { TrailerButton } from '../TrailerButton/TrailerButton';
 
 type SummarySectionProps = {
   film: FilmData;

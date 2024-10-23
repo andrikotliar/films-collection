@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { SummaryConfig } from '../../../../helpers';
-import { SummaryBlock } from './components';
+import { SummaryBlock } from '../SummaryBlock/SummaryBlock';
 import styles from './Summary.module.css';
 
 type SummaryProps = {
