@@ -76,9 +76,8 @@ const AboutPage = () => {
       <section>
         <h2>App infrastructure</h2>
         <p>
-          The app is built with React and Typescript. Currently it doesn't have
-          real backend. As a data storage I use plain JSON files, that are
-          collected into single JSON-file during the build process.
+          The Films Collection is a full-stack web application. The frontend
+          uses React, the backend uses Fastify. Both are build with TypeScript.
         </p>
         <p>
           If you are interested in the source code, investigate it on{' '}
@@ -89,6 +88,10 @@ const AboutPage = () => {
             GitHub
           </a>
           .
+        </p>
+        <p>
+          The repository has dataset folder where you can find all necessary
+          data if you'd like to create a copy of this app.
         </p>
       </section>
       <section>
@@ -110,7 +113,7 @@ const AboutPage = () => {
         </p>
       </section>
       <section>
-        <h2>Discover random films/animation</h2>
+        <h2>Discover random titles</h2>
         <RandomFilms />
       </section>
     </article>
