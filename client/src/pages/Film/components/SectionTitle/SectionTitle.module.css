@@ -1,6 +1,9 @@
 .sectionTitle {
-  color: var(--blue-default);
-  font-size: 28px;
+  font-size: 18px;
+  font-weight: normal;
   line-height: 1;
-  margin-bottom: 10px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  background-color: var(--gray-light);
+  padding: 10px;
 }

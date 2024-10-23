@@ -1,11 +1,12 @@
 .actor {
-  width: 100%;
+  flex-shrink: 0;
+  width: 130px;
 }
 
 .container {
   position: relative;
   width: 100%;
-  aspect-ratio: 9 / 12;
+  height: 200px;
   perspective: 800px;
 }
 

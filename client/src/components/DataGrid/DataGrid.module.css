@@ -1,5 +1,0 @@
-.dataGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, var(--default-column-width));
-  gap: 20px;
-}

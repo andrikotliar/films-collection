@@ -22,8 +22,14 @@
   padding-right: 20px;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 980px) {
   .summaryLayout {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .summary {
+    width: 100%;
   }
 }
+

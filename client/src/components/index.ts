@@ -1,6 +1,5 @@
 export * from './Button/Button';
 export * from './DataArea/DataArea';
-export * from './DataGrid/DataGrid';
 export * from './FilmsGrid/FilmsGrid';
 export * from './FormCheckbox/FormCheckbox';
 export * from './Image/Image';
@@ -14,3 +13,4 @@ export * from './RouterLink/RouterLink';
 export * from './ScrollableWrapper/ScrollableWrapper';
 export * from './LogoLoader/LogoLoader';
 export * from './FormDatePicker/FormDatePicker';
+export * from './ScrollableRow/ScrollableRow';

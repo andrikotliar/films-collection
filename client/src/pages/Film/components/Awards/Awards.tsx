@@ -2,7 +2,12 @@ import { FC, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { FilmAward } from '@/types';
 import { buildMediaPath, buildQueryLink } from '@/helpers';
-import { DataArea, DataGrid, Image, ScrollableWrapper } from '@/components';
+import {
+  DataArea,
+  Image,
+  ScrollableRow,
+  ScrollableWrapper,
+} from '@/components';
 import { Nomination } from './components';
 import styles from './Awards.module.css';
 
@@ -16,7 +21,7 @@ const Awards: FC<AwardsProps> = ({ awards }) => {
   }, [awards]);
 
   return (
-    <DataGrid>
+    <ScrollableRow>
       {sortedAwards.map(({ award, nominations }) => (
         <DataArea className={styles.award} key={award._id}>
           <div className={styles.header}>
@@ -48,7 +53,7 @@ const Awards: FC<AwardsProps> = ({ awards }) => {
           </ScrollableWrapper>
         </DataArea>
       ))}
-    </DataGrid>
+    </ScrollableRow>
   );
 };
 
