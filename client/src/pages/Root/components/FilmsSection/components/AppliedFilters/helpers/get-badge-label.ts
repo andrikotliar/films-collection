@@ -1,6 +1,6 @@
 import { combinedTitles } from '@/titles/combined-titles';
 import { AppliedFilter } from '../types';
-import { getFormattedDate } from '@/helpers';
+import { getFormattedDate, getFormattedMoneyValue } from '@/helpers';
 
 const getBadgeLabel = (filter: AppliedFilter) => {
   if (filter.key === 'duration') {
@@ -15,8 +15,24 @@ const getBadgeLabel = (filter: AppliedFilter) => {
     return `Date to: ${getFormattedDate(new Date(filter.value))}`;
   }
 
-  if (combinedTitles[filter.value]) {
-    return combinedTitles[filter.value];
+  if (filter.key === 'episodesTotal') {
+    return `Episodes Total: ${filter.value}`;
+  }
+
+  if (filter.key === 'seasonsTotal') {
+    return `Seasons Total: ${filter.value}`;
+  }
+
+  if (filter.key === 'budget') {
+    return `Budget: ${getFormattedMoneyValue(Number(filter.value))}`;
+  }
+
+  if (filter.key === 'boxOffice') {
+    return `Box Office: ${getFormattedMoneyValue(Number(filter.value))}`;
+  }
+
+  if (combinedTitles[filter.value as keyof typeof combinedTitles]) {
+    return combinedTitles[filter.value as keyof typeof combinedTitles];
   }
 
   return filter.value;

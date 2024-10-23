@@ -36,6 +36,16 @@
   background-color: var(--purple-light);
 }
 
+.red {
+  color: white;
+  background-color: var(--red);
+}
+
+.green {
+  color: white;
+  background-color: var(--green-dark);
+}
+
 .disabled {
   pointer-events: none;
   padding-right: 15px;

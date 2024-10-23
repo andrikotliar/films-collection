@@ -5,7 +5,15 @@ import classNames from 'classnames';
 
 type TagLinkProps = {
   path: string;
-  variant?: 'blue' | 'sand' | 'gray' | 'pink' | 'mint' | 'purple';
+  variant?:
+    | 'blue'
+    | 'sand'
+    | 'gray'
+    | 'pink'
+    | 'red'
+    | 'mint'
+    | 'purple'
+    | 'green';
   isDisabled?: boolean;
 };
 

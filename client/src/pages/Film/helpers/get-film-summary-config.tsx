@@ -1,6 +1,11 @@
 import { FilmData } from '@/types';
-import { buildQueryLink } from '@/helpers';
-import { MoneyValue, ReleaseDate, TagLink, TagLinksGroup } from '../components';
+import { buildQueryLink, getFormattedMoneyValue } from '@/helpers';
+import {
+  LinksGroupWrapper,
+  ReleaseDate,
+  TagLink,
+  TagLinksGroup,
+} from '../components';
 import { SummaryConfig } from '../types';
 import { genreTitles } from '@/titles/genre-titles';
 import { collectionTitles, countryTitles, studioTitles } from '@/titles';
@@ -85,19 +90,65 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
     {
       id: 'budget',
       title: 'Budget',
-      content: <MoneyValue value={film.budget} />,
+      content: (
+        <div>
+          {film.budget ? (
+            <TagLink
+              path={buildQueryLink({ budget: film.budget })}
+              variant="gray"
+            >
+              {getFormattedMoneyValue(film.budget)}
+            </TagLink>
+          ) : (
+            'N/A'
+          )}
+        </div>
+      ),
       isHidden: film.type === TitleType.SERIES,
     },
     {
       id: 'boxOffice',
       title: 'Box Office',
       content: (
-        <MoneyValue
-          value={film.boxOffice}
-          status={isBoxOfficeSuccessful ? 'success' : 'failure'}
-        />
+        <div>
+          {film.boxOffice ? (
+            <TagLink
+              path={buildQueryLink({ boxOffice: film.boxOffice })}
+              variant={isBoxOfficeSuccessful ? 'green' : 'red'}
+            >
+              {getFormattedMoneyValue(film.boxOffice)}
+            </TagLink>
+          ) : (
+            'N/A'
+          )}
+        </div>
       ),
       isHidden: film.type === TitleType.SERIES,
+    },
+    {
+      id: 'seriesExtensions',
+      title: 'Series Details',
+      content: (
+        <LinksGroupWrapper>
+          <TagLink
+            variant="mint"
+            path={buildQueryLink({
+              seasonsTotal: film.seriesExtension?.seasons.length ?? 1,
+            })}
+          >
+            Seasons Total: {film.seriesExtension?.seasons.length}
+          </TagLink>
+          <TagLink
+            variant="mint"
+            path={buildQueryLink({
+              seasonsTotal: film.seriesExtension?.episodesTotal ?? 1,
+            })}
+          >
+            Episodes Total: {film.seriesExtension?.episodesTotal}
+          </TagLink>
+        </LinksGroupWrapper>
+      ),
+      isHidden: film.type !== TitleType.SERIES,
     },
   ];
 

@@ -89,6 +89,12 @@ const filmsSchema: FastifySchema = {
           type: 'string',
         },
       },
+      boxOffice: {
+        type: 'number',
+      },
+      budget: {
+        type: 'number',
+      },
     },
     required: ['limit', 'skip'],
     additionalProperties: false,

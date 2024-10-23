@@ -11,4 +11,4 @@ export * from './SeriesStats/SeriesStats';
 export * from './ReleaseDate/ReleaseDate';
 export * from './TagLink/TagLink';
 export * from './TagLinksGroup/TagLinksGroup';
-export * from './MoneyValue/MoneyValue';
+export * from './LinksGroupWrapper/LinksGroupWrapper';
