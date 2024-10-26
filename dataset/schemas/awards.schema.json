@@ -26,13 +26,18 @@
           "type": "string"
         },
         "minItems": 1
+      },
+      "description": {
+        "type": "string",
+        "description": "Short information about the award"
       }
     },
     "required": [
       "id",
       "title",
       "image",
-      "nominations"
+      "nominations",
+      "description"
     ]
   }
 }

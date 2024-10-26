@@ -42,10 +42,14 @@ const AdditionalInfoSection: FC<AdditionalInfoProps> = ({ info }) => {
     );
   }
 
-  if (info.type === 'awards') {
-    const awardsList = info.data.map((award) => award.title).join(', ');
-
-    return <InfoBlock title={awardsList} label="Filtered by Awards" />;
+  if (info.type === 'awards' && info.data[0]) {
+    return (
+      <InfoBlock
+        title={info.data[0].title}
+        label="Filtered by Award"
+        description={info.data[0].description}
+      />
+    );
   }
 
   return null;
