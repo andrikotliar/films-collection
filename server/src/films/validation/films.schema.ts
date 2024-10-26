@@ -1,6 +1,5 @@
 import { FastifySchema } from 'fastify';
 import {
-  Award,
   CollectionEnum,
   Country,
   Genre,
@@ -88,8 +87,13 @@ const filmsSchema: FastifySchema = {
         type: 'array',
         items: {
           type: 'string',
-          enum: Object.values(Award),
         },
+      },
+      boxOffice: {
+        type: 'number',
+      },
+      budget: {
+        type: 'number',
       },
     },
     required: ['limit', 'skip'],

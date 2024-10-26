@@ -251,7 +251,7 @@
   ],
   "awards": [
     {
-      "awardKey": "SaturnAward",
+      "award": "69de08782a405ee5077f50cf",
       "nominations": [
         {
           "title": "Best Performance by a Younger Actor in a Television Series",
@@ -271,7 +271,7 @@
       ]
     },
     {
-      "awardKey": "CriticsChoiceAward",
+      "award": "c02117d39412aa3c073faec1",
       "nominations": [
         {
           "title": "Best Supporting Actor in a drama Series",
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "awardKey": "EmmyAward",
+      "award": "9e5a59b41e0e60b53e385016",
       "nominations": [
         {
           "title": "Outstanding Stunt Coordination for a drama Series, Limited of Anthology Series or Movie",

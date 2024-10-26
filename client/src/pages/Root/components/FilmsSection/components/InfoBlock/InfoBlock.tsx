@@ -32,7 +32,7 @@ const InfoBlock: FC<InfoBlockProps> = ({
       <div className={styles.data}>
         <div className={styles.label}>{label}</div>
         <h2 className={styles.title}>{title}</h2>
-        {description && <p>{description}</p>}
+        {description && <p className={styles.description}>{description}</p>}
       </div>
       <button className={styles.removeButton} onClick={handleClearFilter}>
         <XCircleIcon size={20} />

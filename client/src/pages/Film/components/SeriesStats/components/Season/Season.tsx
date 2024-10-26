@@ -1,6 +1,6 @@
 import { SeasonType } from '@/types';
 import { FC } from 'react';
-import { TrailerButton } from '../../../TrailerButton';
+import { TrailerButton } from '@/pages/Film/components/TrailerButton/TrailerButton';
 import styles from './Season.module.css';
 import { getFormattedDate } from '@/helpers';
 

@@ -1,7 +1,7 @@
 .link {
   position: relative;
-  display: inline-block;
-  padding: 8px 20px 8px 15px;
+  display: block;
+  padding: 6px 15px;
   border-radius: 4px;
   border: 1px solid transparent;
   transition: border-color 0.3s;
@@ -34,6 +34,16 @@
 
 .purple {
   background-color: var(--purple-light);
+}
+
+.red {
+  color: white;
+  background-color: var(--red);
+}
+
+.green {
+  color: white;
+  background-color: var(--green-dark);
 }
 
 .disabled {

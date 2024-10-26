@@ -11,15 +11,18 @@ class FilmsService implements IFilmsService {
   private filmsModel;
   private actorsService;
   private chaptersService;
+  private awardsService;
 
   constructor({
     filmsModel,
     actorsService,
     chaptersService,
+    awardsService,
   }: FilmsServiceDependencies) {
     this.filmsModel = filmsModel;
     this.actorsService = actorsService;
     this.chaptersService = chaptersService;
+    this.awardsService = awardsService;
   }
 
   async getFilteredFilms(queries: FindAllQueries) {
@@ -43,7 +46,20 @@ class FilmsService implements IFilmsService {
   async getOneFilm(id: string) {
     const film = await this.filmsModel
       .findById(id)
-      .populate(['cast.actor', 'awards.nominations.actor'])
+      .populate([
+        {
+          path: 'cast.actor',
+        },
+        {
+          path: 'awards.award',
+          select: {
+            nominations: 0,
+          },
+        },
+        {
+          path: 'awards.nominations.actor',
+        },
+      ])
       .lean();
 
     if (film?.chaptersId) {
@@ -157,9 +173,11 @@ class FilmsService implements IFilmsService {
     }
 
     if (awards) {
+      const awardsList = await this.awardsService.getAwardsBaseData(awards);
+
       return {
         type: 'awards',
-        data: awards,
+        data: awardsList,
       };
     }
 

@@ -6,12 +6,15 @@
   --green: #00B5C6;
   --green-success-light: #f2fffe;
   --green-success: #4db6ac;
-  --green-mint: #aefff3;
+  --green-mint: #c6f5ec;
+  --green-dark: #028090;
 
   --yellow-gold: #ffbf00;
   --yellow-saturated: #ffb74d;
   --yellow-sand: #ffedd6;
   --yellow-sand-light: #fffbf5;
+
+  --black: #232323;
 
   --gray: #ddd;
   --gray-invisible: #fdfdfd;

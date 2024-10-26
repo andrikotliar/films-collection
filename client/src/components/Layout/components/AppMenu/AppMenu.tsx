@@ -1,4 +1,4 @@
-import { Menu } from '@/components/Menu';
+import { Menu } from '@/components/Menu/Menu';
 import { mainMenu } from '@/configs';
 import styles from './AppMenu.module.css';
 import classNames from 'classnames';
@@ -6,7 +6,7 @@ import { FC, RefObject, useMemo, useRef } from 'react';
 import { useClickOutside, useCloseOnScroll } from '@/hooks';
 import { LocalStorageKey } from '@/enums';
 import { FilmLinkItem } from '@/types';
-import { AppMenuFilmsList } from '../AppMenuFilmsList';
+import { AppMenuFilmsList } from '../AppMenuFilmsList/AppMenuFilmsList';
 import { useQuery } from '@tanstack/react-query';
 import { apiClient } from '@/services';
 

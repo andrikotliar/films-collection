@@ -1,9 +1,25 @@
 import { RootFilterQuery } from 'mongoose';
 import { DbQueryFilter, FindAllFilters } from '../types';
 
+const MONEY_RANGE_MILLIONS = 10_000_000;
+
 const getArrayFilter = (values: string[]) => {
   return {
     $in: values,
+  };
+};
+
+const getMoneyRangeFilter = (value: number) => {
+  if (value < MONEY_RANGE_MILLIONS) {
+    return {
+      $lte: value + MONEY_RANGE_MILLIONS,
+      $gte: 0,
+    };
+  }
+
+  return {
+    $lte: value + MONEY_RANGE_MILLIONS,
+    $gte: value - MONEY_RANGE_MILLIONS,
   };
 };
 
@@ -26,6 +42,8 @@ const mapFilters = (plainFilters: Partial<FindAllFilters>) => {
     actorId,
     awards,
     style,
+    budget,
+    boxOffice,
   } = plainFilters;
 
   const filters: RootFilterQuery<DbQueryFilter> = {};
@@ -93,7 +111,15 @@ const mapFilters = (plainFilters: Partial<FindAllFilters>) => {
   }
 
   if (awards) {
-    filters['awards.awardKey'] = getArrayFilter(awards);
+    filters['awards.award'] = getArrayFilter(awards);
+  }
+
+  if (budget) {
+    filters.budget = getMoneyRangeFilter(budget);
+  }
+
+  if (boxOffice) {
+    filters.boxOffice = getMoneyRangeFilter(boxOffice);
   }
 
   return filters;

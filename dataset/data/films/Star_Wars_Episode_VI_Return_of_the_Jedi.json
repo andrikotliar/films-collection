@@ -124,7 +124,7 @@
   "budget": 32000000,
   "awards": [
     {
-      "awardKey": "BaftaAward",
+      "award": "e0f771e50a68374fdf9051ff",
       "nominations": [
         {
           "title": "Best Special Visual Effects"
@@ -132,7 +132,7 @@
       ]
     },
     {
-      "awardKey": "SaturnAward",
+      "award": "69de08782a405ee5077f50cf",
       "nominations": [
         {
           "title": "Best DVD Collection"

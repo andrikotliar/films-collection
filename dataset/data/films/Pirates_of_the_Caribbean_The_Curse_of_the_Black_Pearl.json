@@ -102,7 +102,7 @@
   "budget": 140000000,
   "awards": [
     {
-      "awardKey": "BaftaAward",
+      "award": "e0f771e50a68374fdf9051ff",
       "nominations": [
         {
           "title": "Best Make Up/Hair"
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "awardKey": "SaturnAward",
+      "award": "69de08782a405ee5077f50cf",
       "nominations": [
         {
           "title": "Best Costumes"
@@ -118,7 +118,7 @@
       ]
     },
     {
-      "awardKey": "MtvAward",
+      "award": "7c71ca26d552f1953a95365b",
       "nominations": [
         {
           "title": "Best Male Performance",
@@ -127,7 +127,7 @@
       ]
     },
     {
-      "awardKey": "CriticsChoiceAward",
+      "award": "c02117d39412aa3c073faec1",
       "nominations": [
         {
           "title": "Best Family Film - Live action"

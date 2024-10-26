@@ -2,7 +2,7 @@ import { FC } from 'react';
 import styles from './AppMenuFilmsList.module.css';
 import { FilmLinkItem } from '@/types';
 import { buildRouterLink } from '@/helpers';
-import { RouterLink } from '@/components';
+import { RouterLink } from '@/components/RouterLink/RouterLink';
 
 type AppMenuFilmsListProps = {
   title: string;

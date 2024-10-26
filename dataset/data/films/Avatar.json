@@ -139,7 +139,7 @@
   "budget": 237000000,
   "awards": [
     {
-      "awardKey": "OscarAward",
+      "award": "6b4e62d65b2610044f21d3fb",
       "nominations": [
         {
           "title": "Best Achievement in Cinematography"
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "awardKey": "BaftaAward",
+      "award": "e0f771e50a68374fdf9051ff",
       "nominations": [
         {
           "title": "Best Production Design"
@@ -164,7 +164,7 @@
       ]
     },
     {
-      "awardKey": "SaturnAward",
+      "award": "69de08782a405ee5077f50cf",
       "nominations": [
         {
           "title": "Best DVD Special Edition",
@@ -207,7 +207,7 @@
       ]
     },
     {
-      "awardKey": "GoldenGlobeAward",
+      "award": "6ab0cc73c333b43f78366442",
       "nominations": [
         {
           "title": "Best Director - Motion Picture"
@@ -218,7 +218,7 @@
       ]
     },
     {
-      "awardKey": "CriticsChoiceAward",
+      "award": "c02117d39412aa3c073faec1",
       "nominations": [
         {
           "title": "Best Cinematography"

@@ -1,13 +1,13 @@
 import { FC } from 'react';
-import styles from './TagLinksGroup.module.css';
-import { TagLink, TagLinkProps } from '../TagLink';
+import { TagLink, TagLinkProps } from '../TagLink/TagLink';
 import { buildQueryLink } from '@/helpers';
+import { LinksGroupWrapper } from '../LinksGroupWrapper/LinksGroupWrapper';
 
 type TagLinksGroupProps = {
   basePath: string;
   items: (string | number)[];
   variant?: TagLinkProps['variant'];
-  titles: any;
+  titles?: any;
 };
 
 const TagLinksGroup: FC<TagLinksGroupProps> = ({
@@ -17,7 +17,7 @@ const TagLinksGroup: FC<TagLinksGroupProps> = ({
   titles,
 }) => {
   return (
-    <div className={styles.tagLinksGroup}>
+    <LinksGroupWrapper>
       {items.map((item) => (
         <TagLink
           path={buildQueryLink({
@@ -29,7 +29,7 @@ const TagLinksGroup: FC<TagLinksGroupProps> = ({
           {titles[item]}
         </TagLink>
       ))}
-    </div>
+    </LinksGroupWrapper>
   );
 };
 

@@ -16,6 +16,8 @@ type FindAllFilters = {
   personRole: string;
   actorId: string;
   awards: string[];
+  budget: number;
+  boxOffice: number;
 };
 
 type ArrayFilter<T = string> = {
@@ -34,6 +36,14 @@ type DbQueryFilter = Partial<{
   studios: ArrayFilter;
   watchCount: number;
   rating: number;
+  budget: {
+    $gte: number;
+    $lte: number;
+  };
+  boxOffice: {
+    $gte: number;
+    $lte: number;
+  };
   ['collections.key']: ArrayFilter;
   ['seriesExtension.episodesTotal']: number;
   ['seriesExtension.seasons']: {
@@ -42,7 +52,7 @@ type DbQueryFilter = Partial<{
   ['crew.role']: string;
   ['crew.people.name']: string;
   ['cast.actor']: string;
-  ['awards.awardKey']: ArrayFilter;
+  ['awards.award']: ArrayFilter;
 }>;
 
 type FindAllQueries = Partial<FindAllFilters> & {

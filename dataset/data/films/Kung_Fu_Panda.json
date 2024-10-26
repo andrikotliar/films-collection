@@ -142,7 +142,7 @@
   "budget": 130000000,
   "awards": [
     {
-      "awardKey": "AnnieAward",
+      "award": "a22b427d64e4dc9d8fa36f0f",
       "nominations": [
         {
           "title": "Best Animated Feature"

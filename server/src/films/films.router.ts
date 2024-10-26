@@ -8,15 +8,19 @@ import { ActorModel } from 'src/actors/actors.model';
 import { ChaptersService } from 'src/chapters/chapters.service';
 import { ChaptersModel } from 'src/chapters/chapters.model';
 import { FindAllRequest, FindOneRequest, SearchRequest } from './types';
+import { AwardsService } from 'src/awards/awards.service';
+import { AwardModel } from 'src/awards/awards.model';
 
 const registerFilmsRouter = (app: FastifyInstance) => {
   const actorsService = new ActorsService(ActorModel);
   const chaptersService = new ChaptersService(ChaptersModel);
+  const awardsService = new AwardsService(AwardModel);
 
   const filmsService = new FilmsService({
     filmsModel: FilmsModel,
     actorsService,
     chaptersService,
+    awardsService,
   });
 
   const filmsController = new FilmsController(filmsService);

@@ -140,7 +140,7 @@
   "budget": 190000000,
   "awards": [
     {
-      "awardKey": "SaturnAward",
+      "award": "69de08782a405ee5077f50cf",
       "nominations": [
         {
           "title": "Best action/Adventure Film"
@@ -148,7 +148,7 @@
       ]
     },
     {
-      "awardKey": "CriticsChoiceAward",
+      "award": "c02117d39412aa3c073faec1",
       "nominations": [
         {
           "title": "Best Song",

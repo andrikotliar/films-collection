@@ -133,7 +133,7 @@
   "budget": 125000000,
   "awards": [
     {
-      "awardKey": "BaftaAward",
+      "award": "e0f771e50a68374fdf9051ff",
       "nominations": [
         {
           "title": "Best Achievement in Special Visual Effects"
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "awardKey": "MtvAward",
+      "award": "7c71ca26d552f1953a95365b",
       "nominations": [
         {
           "title": "Best action Sequence"
@@ -149,7 +149,7 @@
       ]
     },
     {
-      "awardKey": "JupiterAward",
+      "award": "057fc1040b66697bf81e41fa",
       "nominations": [
         {
           "title": "Best International Film"

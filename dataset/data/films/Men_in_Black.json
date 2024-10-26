@@ -96,7 +96,7 @@
   "budget": 90000000,
   "awards": [
     {
-      "awardKey": "OscarAward",
+      "award": "6b4e62d65b2610044f21d3fb",
       "nominations": [
         {
           "title": "Best Make-up"
@@ -104,7 +104,7 @@
       ]
     },
     {
-      "awardKey": "SaturnAward",
+      "award": "69de08782a405ee5077f50cf",
       "nominations": [
         {
           "title": "Best Science Fiction Film"

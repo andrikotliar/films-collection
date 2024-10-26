@@ -9,3 +9,4 @@ export * from './build-router-link';
 export * from './get-year-from-date';
 export * from './get-formatted-date';
 export * from './build-filter-options';
+export * from './get-formatted-money-value';

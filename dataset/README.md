@@ -4,13 +4,27 @@ To populate MongoDB database with predefined data, follow this three steps:
 
 2. Fill `.env` file with variables defined in the `env.sample.txt` file. Essentially it's MongoDB URI and your database name.
 
-3. Run the `npm run db` command to insert all required data into the database.
+3. Run the `node insert-all` command to insert all required data into the database.
 
-The script creates 3 collections in the database:
+The script creates 4 collections in the database:
 
 - **films**
 - **actors**
 - **chapters**
+- **awards**
+
+To populate a single collection, run the `insert-one` script with collection name as a parameter.
+
+```bash
+node insert-one COLLECTION_NAME
+```
+
+Available scripts:
+
+- insert-films
+- insert-actors
+- insert-chapters
+- insert-awards
 
 ## Data
 
@@ -39,6 +53,12 @@ All seeding data are in the `data` folder. Delete or add the data to fit your li
       "/dataset/data/supporting/chapters.json"
     ],
     "url": "./dataset/schemas/chapters.schema.json"
+  },
+  {
+    "fileMatch": [
+      "/dataset/data/supporting/awards.json"
+    ],
+    "url": "./dataset/schemas/awards.schema.json"
   }
 ]
 ```

@@ -37,10 +37,6 @@
 @media (max-width: 580px) {
   .trailer {
     width: 100%;
-    top: initial;
-    bottom: 0;
-    left: 0;
-    transform: translate(0);
   }
 
   .videoWrapper {

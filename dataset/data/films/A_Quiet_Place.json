@@ -99,7 +99,7 @@
   "budget": 17000000,
   "awards": [
     {
-      "awardKey": "SaturnAward",
+      "award": "69de08782a405ee5077f50cf",
       "nominations": [
         {
           "title": "Best horror Film"
@@ -110,10 +110,10 @@
       ]
     },
     {
-      "awardKey": "CriticsChoiceAward",
+      "award": "c02117d39412aa3c073faec1",
       "nominations": [
         {
-          "title": "Best sci_fi/horror Movie"
+          "title": "Best Sci-Fi/Horror Movie"
         }
       ]
     }

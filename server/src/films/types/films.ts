@@ -1,5 +1,6 @@
-import { ActorType } from 'src/actors/types';
+import { ActorType } from '../../actors/types';
 import { FilmData } from './film.entity';
+import { Award } from '../../awards/types';
 
 type FilmsListItem = Pick<
   FilmData,
@@ -26,7 +27,7 @@ type AdditionalCollectionInfo = {
 
 type AdditionalAwardsInfo = {
   type: 'awards';
-  data: string[];
+  data: Omit<Award, 'nominations'>[];
 };
 
 type AdditionalInfo =

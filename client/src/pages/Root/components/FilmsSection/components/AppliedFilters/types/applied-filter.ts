@@ -1,8 +1,6 @@
-import { combinedTitles } from '@/titles/combined-titles';
-
 type AppliedFilter = {
   key: string;
-  value: keyof typeof combinedTitles;
+  value: string | number;
 };
 
 export type { AppliedFilter };

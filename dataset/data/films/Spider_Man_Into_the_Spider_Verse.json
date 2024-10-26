@@ -159,7 +159,7 @@
   "budget": 90000000,
   "awards": [
     {
-      "awardKey": "OscarAward",
+      "award": "6b4e62d65b2610044f21d3fb",
       "nominations": [
         {
           "title": "Best Animated Feature"
@@ -167,7 +167,7 @@
       ]
     },
     {
-      "awardKey": "SaturnAward",
+      "award": "69de08782a405ee5077f50cf",
       "nominations": [
         {
           "title": "Best Animated Film"
@@ -175,7 +175,7 @@
       ]
     },
     {
-      "awardKey": "CriticsChoiceAward",
+      "award": "c02117d39412aa3c073faec1",
       "nominations": [
         {
           "title": "Best Animated Feature"

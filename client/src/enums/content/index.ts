@@ -1,4 +1,3 @@
-export * from './award';
 export * from './collection';
 export * from './country';
 export * from './genre';

@@ -2,11 +2,18 @@ import { FC, PropsWithChildren } from 'react';
 import { Link } from 'react-router-dom';
 import styles from './TagLink.module.css';
 import classNames from 'classnames';
-import { SquareArrowOutUpRightIcon } from 'lucide-react';
 
 type TagLinkProps = {
   path: string;
-  variant?: 'blue' | 'sand' | 'gray' | 'pink' | 'mint' | 'purple';
+  variant?:
+    | 'blue'
+    | 'sand'
+    | 'gray'
+    | 'pink'
+    | 'red'
+    | 'mint'
+    | 'purple'
+    | 'green';
   isDisabled?: boolean;
 };
 
@@ -24,7 +31,6 @@ const TagLink: FC<PropsWithChildren<TagLinkProps>> = ({
       })}
     >
       {children}
-      <SquareArrowOutUpRightIcon className={styles.icon} />
     </Link>
   );
 };

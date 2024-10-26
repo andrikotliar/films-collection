@@ -1,6 +1,5 @@
 import { ObjectId } from 'mongoose';
 import {
-  Award,
   Country,
   Genre,
   PersonRole,
@@ -39,8 +38,8 @@ type Nomination = {
   comment?: string;
 };
 
-type AwardType = {
-  awardKey: Award;
+type FilmAward = {
+  award: string;
   nominations: Nomination[];
 };
 
@@ -73,7 +72,7 @@ type FilmData = {
   collections: Collection[];
   budget: number | null;
   boxOffice: number | null;
-  awards: AwardType[];
+  awards: FilmAward[];
   poster: string;
   trailer: string | null;
   seriesExtension: SeriesExtension | null;
@@ -89,7 +88,7 @@ export type {
   Crew,
   CastType,
   Collection as CollectionType,
-  AwardType,
+  FilmAward,
   SeriesExtension,
   SeasonType,
   Person,

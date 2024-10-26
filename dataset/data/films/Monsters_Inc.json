@@ -102,7 +102,7 @@
   "budget": 115000000,
   "awards": [
     {
-      "awardKey": "OscarAward",
+      "award": "6b4e62d65b2610044f21d3fb",
       "nominations": [
         {
           "title": "Best Music (Original Song)",
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "awardKey": "AnnieAward",
+      "award": "a22b427d64e4dc9d8fa36f0f",
       "nominations": [
         {
           "title": "Outstanding Character Animation"
