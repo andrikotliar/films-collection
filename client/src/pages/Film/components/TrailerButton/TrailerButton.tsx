@@ -10,6 +10,10 @@ type TrailerButtonProps = {
 const TrailerButton: FC<TrailerButtonProps> = ({ trailer }) => {
   const [isTrailerOpen, setIsTrailerOpen] = useState(false);
 
+  const handleCloseTrailer = () => {
+    setIsTrailerOpen(false);
+  };
+
   return (
     <>
       <button
@@ -21,17 +25,22 @@ const TrailerButton: FC<TrailerButtonProps> = ({ trailer }) => {
       </button>
       <Modal
         isOpen={isTrailerOpen}
-        onClose={() => setIsTrailerOpen(false)}
-        contentClassName={styles.trailer}
-        closeButtonClassName={styles.closeButton}
+        onClose={handleCloseTrailer}
+        className={styles.trailerModal}
       >
-        <div className={styles.videoWrapper}>
-          <iframe
-            src={`https://www.youtube-nocookie.com/embed/${trailer}?rel=0&showinfo=0&autoplay=1`}
-            allow="autoplay"
-            allowFullScreen
+        <Modal.Content className={styles.trailerModalContent}>
+          <div className={styles.videoWrapper}>
+            <iframe
+              src={`https://www.youtube-nocookie.com/embed/${trailer}?rel=0&showinfo=0&autoplay=1`}
+              allow="autoplay"
+              allowFullScreen
+            />
+          </div>
+          <Modal.CloseButton
+            onClick={handleCloseTrailer}
+            className={styles.trailerCloseButton}
           />
-        </div>
+        </Modal.Content>
       </Modal>
     </>
   );

@@ -15,8 +15,20 @@
   height: 20px;
 }
 
-.trailer {
+.trailerModal {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.trailerModalContent {
   width: 80%;
+}
+
+.trailerCloseButton {
+  position: absolute;
+  top: -15px;
+  right: 10px;
+  background-color: white;
+  border-radius: 50%;
 }
 
 .videoWrapper {
@@ -35,15 +47,15 @@
 }
 
 @media (max-width: 580px) {
-  .trailer {
+  .trailerModal {
+    background-color: rgba(0, 0, 0, 0.95);
+  }
+
+  .trailerModalContent {
     width: 100%;
   }
 
   .videoWrapper {
     border-radius: 0;
-  }
-
-  .closeButton {
-    right: 10px;
   }
 }
