@@ -12,19 +12,13 @@ The script creates 4 collections in the database:
 - **actors**
 - **chapters**
 - **awards**
+- **lists**
 
 To populate a single collection, run the `insert-one` script with collection name as a parameter.
 
 ```bash
 node insert-one COLLECTION_NAME
 ```
-
-Available scripts:
-
-- insert-films
-- insert-actors
-- insert-chapters
-- insert-awards
 
 ## Data
 
@@ -59,6 +53,12 @@ All seeding data are in the `data` folder. Delete or add the data to fit your li
       "/dataset/data/supporting/awards.json"
     ],
     "url": "./dataset/schemas/awards.schema.json"
+  },
+  {
+    "fileMatch": [
+      "/dataset/data/supporting/lists.json"
+    ],
+    "url": "./dataset/schemas/lists.schema.json"
   }
 ]
 ```
