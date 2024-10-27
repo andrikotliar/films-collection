@@ -5,16 +5,3 @@
   transform: translate(-50%, -50%);
 }
 
-.closeButton {
-  position: absolute;
-  top: -15px;
-  right: -15px;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 50px;
-  padding: 0;
-}

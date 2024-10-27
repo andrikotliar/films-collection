@@ -1,36 +1,37 @@
-import { ComponentProps, FC, PropsWithChildren } from 'react';
+import { ReactNode } from 'react';
 import { createPortal } from 'react-dom';
-import { ModalContent } from './components';
-
 import styles from './Modal.module.css';
 import classNames from 'classnames';
+import { ModalContent, ModalCloseButton } from './components';
 
 type ModalProps = {
   isOpen: boolean;
   onClose: VoidFunction;
-  modalWrapperClassName?: string;
-} & ComponentProps<typeof ModalContent>;
+  className?: string;
+  children: ReactNode;
+};
 
-const Modal: FC<PropsWithChildren<ModalProps>> = ({
+const Modal = ({
   isOpen = false,
   children,
+  className,
   onClose,
-  modalWrapperClassName,
-  ...props
-}) => {
+}: ModalProps) => {
   if (!isOpen) return null;
 
   return createPortal(
     <div
-      className={classNames(styles.modal, modalWrapperClassName)}
+      className={classNames(styles.modal, className)}
       onClick={onClose}
+      aria-label="Close modal window"
     >
-      <ModalContent {...props} onClose={onClose}>
-        {children}
-      </ModalContent>
+      {children}
     </div>,
     document.body,
   );
 };
 
-export { Modal, type ModalProps };
+Modal.Content = ModalContent;
+Modal.CloseButton = ModalCloseButton;
+
+export { Modal };
