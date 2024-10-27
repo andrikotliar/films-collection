@@ -47,13 +47,13 @@ const FilmPage = () => {
         )}
 
         <section>
-          <SectionTitle>Crew</SectionTitle>
-          <CrewList crew={film.crew} />
+          <SectionTitle>Description</SectionTitle>
+          <Description content={film.description} key={film._id} />
         </section>
 
         <section>
-          <SectionTitle>Description</SectionTitle>
-          <Description content={film.description} key={film._id} />
+          <SectionTitle>Crew</SectionTitle>
+          <CrewList crew={film.crew} />
         </section>
 
         {film.cast.length !== 0 && (
