@@ -8,7 +8,7 @@ type ModalProps = {
   isOpen: boolean;
   onClose: VoidFunction;
   className?: string;
-  children: ReactNode;
+  children?: ReactNode;
 };
 
 const Modal = ({

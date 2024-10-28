@@ -3,6 +3,7 @@ import { FC } from 'react';
 import { TrailerButton } from '@/pages/Film/components/TrailerButton/TrailerButton';
 import styles from './Season.module.css';
 import { getFormattedDate } from '@/helpers';
+import { PlayIcon } from 'lucide-react';
 
 type SeasonProps = {
   data: SeasonType;
@@ -22,7 +23,13 @@ const Season: FC<SeasonProps> = ({ data }) => {
         </div>
       </div>
       <div className={styles.trailer}>
-        <TrailerButton trailer={data.trailer} />
+        <TrailerButton
+          trailer={data.trailer}
+          icon={<PlayIcon size={16} />}
+          className={styles.seasonTrailerButton}
+        >
+          Play trailer
+        </TrailerButton>
       </div>
     </div>
   );

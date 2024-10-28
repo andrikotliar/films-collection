@@ -31,6 +31,14 @@ const getBadgeLabel = (filter: AppliedFilter) => {
     return `Box Office: ${getFormattedMoneyValue(Number(filter.value))}`;
   }
 
+  if (filter.key === 'rating') {
+    return `Rating: ${filter.value}`;
+  }
+
+  if (filter.key === 'watchCount') {
+    return `Watch Count: ${filter.value}`;
+  }
+
   if (combinedTitles[filter.value as keyof typeof combinedTitles]) {
     return combinedTitles[filter.value as keyof typeof combinedTitles];
   }

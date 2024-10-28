@@ -1,13 +1,20 @@
 import { Modal } from '@/components';
-import { PlayIcon } from 'lucide-react';
-import { FC, useState } from 'react';
+import { FC, PropsWithChildren, ReactNode, useState } from 'react';
 import styles from './TrailerButton.module.css';
+import { PropsWithClassName } from '@/types';
+import classNames from 'classnames';
 
-type TrailerButtonProps = {
+type TrailerButtonProps = PropsWithClassName<{
   trailer: string;
-};
+  icon: ReactNode;
+}>;
 
-const TrailerButton: FC<TrailerButtonProps> = ({ trailer }) => {
+const TrailerButton: FC<PropsWithChildren<TrailerButtonProps>> = ({
+  trailer,
+  icon,
+  children,
+  className,
+}) => {
   const [isTrailerOpen, setIsTrailerOpen] = useState(false);
 
   const handleCloseTrailer = () => {
@@ -18,10 +25,10 @@ const TrailerButton: FC<TrailerButtonProps> = ({ trailer }) => {
     <>
       <button
         onClick={() => setIsTrailerOpen(true)}
-        className={styles.playButton}
+        className={classNames(styles.playButton, className)}
       >
-        <PlayIcon className={styles.icon} />
-        <span className={styles.label}>Play trailer</span>
+        <div className={styles.icon}>{icon}</div>
+        {children}
       </button>
       <Modal
         isOpen={isTrailerOpen}

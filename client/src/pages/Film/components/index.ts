@@ -1,3 +1,4 @@
+export * from './TitleRow/TitleRow';
 export * from './SummarySection/SummarySection';
 export * from './SectionTitle/SectionTitle';
 export * from './Awards/Awards';
@@ -12,3 +13,4 @@ export * from './ReleaseDate/ReleaseDate';
 export * from './TagLink/TagLink';
 export * from './TagLinksGroup/TagLinksGroup';
 export * from './LinksGroupWrapper/LinksGroupWrapper';
+export * from './TrailerButton/TrailerButton';
