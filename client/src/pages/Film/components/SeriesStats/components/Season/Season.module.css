@@ -1,13 +1,13 @@
 .season {
   flex-shrink: 0;
-  border: 1px solid var(--blue-default);
+  border: var(--app-border);
   border-radius: 4px;
   overflow: hidden;
 }
 
 .title {
-  color: white;
-  background-color: var(--blue-default);
+  border-bottom: var(--app-border);
+  background-color: var(--gray-extra-light);
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
@@ -33,4 +33,10 @@
 
 .trailer {
   padding: 0 8px 10px;
+}
+
+.seasonTrailerButton {
+  color: var(--blue-default);
+  font-size: 12px;
+  text-transform: uppercase;
 }

@@ -1,0 +1,24 @@
+.statisticItem {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--stat-item-color);
+  padding: 8px 12px;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.value {
+  font-weight: bold;
+}
