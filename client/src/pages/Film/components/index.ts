@@ -1,4 +1,3 @@
-export * from './TitleRow/TitleRow';
 export * from './SummarySection/SummarySection';
 export * from './SectionTitle/SectionTitle';
 export * from './Awards/Awards';

@@ -12,7 +12,6 @@ import {
   Chapters,
   NavigationRow,
   SeriesStats,
-  TitleRow,
 } from './components';
 import styles from './FilmPage.module.css';
 
@@ -38,8 +37,6 @@ const FilmPage = () => {
       <NavigationRow />
 
       <div className={styles.content}>
-        <TitleRow data={film} />
-
         <SummarySection film={film} />
 
         {film.seriesExtension && (

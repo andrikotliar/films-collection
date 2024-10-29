@@ -23,13 +23,7 @@ const Season: FC<SeasonProps> = ({ data }) => {
         </div>
       </div>
       <div className={styles.trailer}>
-        <TrailerButton
-          trailer={data.trailer}
-          icon={<PlayIcon size={16} />}
-          className={styles.seasonTrailerButton}
-        >
-          Play trailer
-        </TrailerButton>
+        <TrailerButton trailer={data.trailer} />
       </div>
     </div>
   );

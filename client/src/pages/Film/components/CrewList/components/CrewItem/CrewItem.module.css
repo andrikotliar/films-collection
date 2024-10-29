@@ -6,7 +6,7 @@
 }
 
 .crewItem:first-child {
-  padding-top: 10px;
+  padding-top: 0;
 }
 
 .crewItem:last-child {
@@ -69,4 +69,4 @@
   .personLink {
     font-size: 14px;
   }
-} 
+}

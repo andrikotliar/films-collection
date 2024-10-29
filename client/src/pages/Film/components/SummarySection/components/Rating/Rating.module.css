@@ -1,0 +1,53 @@
+.rating {
+  color: var(--rating-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.highRating {
+  --rating-color: var(--green-success);
+}
+
+.lowRating {
+  --rating-color: var(--yellow-saturated);
+}
+
+.trophyIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.label {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--blue-invisible);
+  border-radius: 50%;
+}
+
+.levels {
+  display: flex;
+  gap: 2px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.level {
+  width: 30px;
+  height: 15px;
+  background-color: var(--gray);
+}
+
+.levelCompleted {
+  background-color: var(--rating-color);
+}
