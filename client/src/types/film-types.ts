@@ -48,7 +48,6 @@ type Chapter = {
 };
 
 type SeasonType = {
-  title: string;
   number: number;
   episodesCount: number;
   releaseDate: string;

@@ -100,10 +100,6 @@ const AwardSchema = new Schema<FilmAward>({
 });
 
 const SeasonSchema = new Schema<SeasonType>({
-  title: {
-    type: String,
-    required: true,
-  },
   number: {
     type: Number,
     required: true,
