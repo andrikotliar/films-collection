@@ -3,8 +3,6 @@ import { FC, useMemo } from 'react';
 import styles from './SummarySection.module.css';
 import { Poster, Summary } from './components';
 import { getFilmSummaryConfig } from '../../helpers';
-import { TrailerButton } from '../TrailerButton/TrailerButton';
-import { PlayIcon } from 'lucide-react';
 
 type SummarySectionProps = {
   film: FilmData;

@@ -7,6 +7,7 @@ import classNames from 'classnames';
 type TrailerButtonProps = PropsWithClassName<{
   trailer: string;
   icon: ReactNode;
+  title?: string;
 }>;
 
 const TrailerButton: FC<PropsWithChildren<TrailerButtonProps>> = ({
@@ -26,6 +27,7 @@ const TrailerButton: FC<PropsWithChildren<TrailerButtonProps>> = ({
       <button
         onClick={() => setIsTrailerOpen(true)}
         className={classNames(styles.playButton, className)}
+        title="Play trailer"
       >
         <div className={styles.icon}>{icon}</div>
         {children}

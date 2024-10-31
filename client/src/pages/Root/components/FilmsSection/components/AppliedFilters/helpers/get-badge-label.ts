@@ -8,11 +8,11 @@ const getBadgeLabel = (filter: AppliedFilter) => {
   }
 
   if (filter.key === 'startDate') {
-    return `Date from: ${getFormattedDate(new Date(filter.value))}`;
+    return `Date from: ${getFormattedDate(filter.value as string)}`;
   }
 
   if (filter.key === 'endDate') {
-    return `Date to: ${getFormattedDate(new Date(filter.value))}`;
+    return `Date to: ${getFormattedDate(filter.value as string)}`;
   }
 
   if (filter.key === 'episodesTotal') {

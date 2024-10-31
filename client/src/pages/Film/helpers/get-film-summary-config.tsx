@@ -3,17 +3,15 @@ import { buildQueryLink, getFormattedMoneyValue } from '@/helpers';
 import {
   LinksGroupWrapper,
   ReleaseDate,
+  SeasonsRow,
   TagLink,
   TagLinksGroup,
-  TrailerButton,
 } from '../components';
 import { SummaryConfig } from '../types';
 import { genreTitles } from '@/titles/genre-titles';
 import { collectionTitles, countryTitles, studioTitles } from '@/titles';
 import { TitleType } from '@/enums';
 import { checkHasBoxOfficeBenefit } from './check-box-office-has-benefit';
-import { PlayIcon } from 'lucide-react';
-import styles from './styles.module.css';
 
 const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
   const isBoxOfficeSuccessful = checkHasBoxOfficeBenefit(
@@ -22,18 +20,6 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
   );
 
   const values: SummaryConfig[] = [
-    {
-      id: 'trailer',
-      title: 'Trailer',
-      content: (
-        <TrailerButton
-          trailer={film.trailer ?? ''}
-          icon={<PlayIcon size={18} className={styles.playIcon} />}
-          className={styles.trailerButton}
-        />
-      ),
-      isHidden: !film.trailer,
-    },
     {
       id: 'genres',
       title: 'Genres',
@@ -140,33 +126,34 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
       isHidden: film.type === TitleType.SERIES,
     },
     {
-      id: 'seasonsTotal',
-      title: 'Seasons total',
+      id: 'seriesStats',
+      title: 'Series Summary',
       content: (
-        <TagLink
-          variant="mint"
-          path={buildQueryLink({
-            seasonsTotal: film.seriesExtension?.seasons.length ?? 1,
-          })}
-        >
-          {film.seriesExtension?.seasons.length}
-        </TagLink>
+        <LinksGroupWrapper>
+          <TagLink
+            variant="mint"
+            path={buildQueryLink({
+              seasonsTotal: film.seriesExtension?.seasons.length ?? 1,
+            })}
+          >
+            Seasons Total: {film.seriesExtension?.seasons.length}
+          </TagLink>
+          <TagLink
+            variant="mint"
+            path={buildQueryLink({
+              episodesTotal: film.seriesExtension?.episodesTotal ?? 0,
+            })}
+          >
+            Episodes Total: {film.seriesExtension?.episodesTotal}
+          </TagLink>
+        </LinksGroupWrapper>
       ),
       isHidden: film.type !== TitleType.SERIES,
     },
     {
-      id: 'episodesTotal',
-      title: 'Episodes total',
-      content: (
-        <TagLink
-          variant="mint"
-          path={buildQueryLink({
-            episodesTotal: film.seriesExtension?.episodesTotal ?? 0,
-          })}
-        >
-          {film.seriesExtension?.episodesTotal}
-        </TagLink>
-      ),
+      id: 'seasonsDetails',
+      title: 'Seasons Details',
+      content: <SeasonsRow seasons={film.seriesExtension?.seasons ?? []} />,
       isHidden: film.type !== TitleType.SERIES,
     },
   ];

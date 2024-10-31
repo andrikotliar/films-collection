@@ -11,7 +11,6 @@ import {
   SummarySection,
   Chapters,
   NavigationRow,
-  SeriesStats,
   TitleRow,
 } from './components';
 import styles from './FilmPage.module.css';
@@ -41,13 +40,6 @@ const FilmPage = () => {
         <TitleRow data={film} />
 
         <SummarySection film={film} />
-
-        {film.seriesExtension && (
-          <section>
-            <SectionTitle>Series Details</SectionTitle>
-            <SeriesStats data={film.seriesExtension} />
-          </section>
-        )}
 
         <section>
           <SectionTitle>Description</SectionTitle>

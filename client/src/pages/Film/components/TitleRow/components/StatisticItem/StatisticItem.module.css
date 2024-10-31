@@ -4,8 +4,8 @@
   align-items: center;
   gap: 10px;
   background-color: var(--stat-item-color);
-  padding: 8px 12px;
-  border-radius: 5px;
+  padding: 5px 15px;
+  border-radius: 50px;
   flex-shrink: 0;
 }
 
@@ -20,5 +20,6 @@
 }
 
 .value {
+  font-size: 12px;
   font-weight: bold;
 }
