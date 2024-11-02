@@ -613,49 +613,42 @@
     "episodesTotal": 100,
     "seasons": [
       {
-        "title": "Season 1",
         "number": 1,
         "episodesCount": 13,
         "releaseDate": "2014-03-19",
         "trailer": "ia1Fbg96vL0"
       },
       {
-        "title": "Season 2",
         "number": 2,
         "episodesCount": 16,
         "releaseDate": "2014-10-22",
         "trailer": "IW7_ZzFZF-o"
       },
       {
-        "title": "Season 3",
         "number": 3,
         "episodesCount": 16,
         "releaseDate": "2016-01-21",
         "trailer": "uwxwHTu802M"
       },
       {
-        "title": "Season 4",
         "number": 4,
         "episodesCount": 13,
         "releaseDate": "2017-02-01",
         "trailer": "JQi2MAfpACI"
       },
       {
-        "title": "Season 5",
         "number": 5,
         "episodesCount": 13,
         "releaseDate": "2018-04-24",
         "trailer": "AGSfZ4xt4UY"
       },
       {
-        "title": "Season 6",
         "number": 6,
         "episodesCount": 13,
         "releaseDate": "2019-04-30",
         "trailer": "AVDyeT-GsX4"
       },
       {
-        "title": "Season 7",
         "number": 7,
         "episodesCount": 16,
         "releaseDate": "2020-05-20",

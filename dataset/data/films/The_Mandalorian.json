@@ -244,14 +244,12 @@
     "episodesTotal": 16,
     "seasons": [
       {
-        "title": "Season 1",
         "number": 1,
         "episodesCount": 8,
         "releaseDate": "2019-11-12",
         "trailer": "OFlBh_eUsjA"
       },
       {
-        "title": "Season 2",
         "number": 2,
         "episodesCount": 8,
         "releaseDate": "2020-10-30",

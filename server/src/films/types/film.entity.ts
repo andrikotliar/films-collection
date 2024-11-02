@@ -44,7 +44,6 @@ type FilmAward = {
 };
 
 type SeasonType = {
-  title: string;
   number: number;
   episodesCount: number;
   trailer: string;

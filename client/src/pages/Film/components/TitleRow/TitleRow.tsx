@@ -2,8 +2,9 @@ import { FC } from 'react';
 import { StatisticItem, Title } from './components';
 import { FilmData } from '@/types';
 import styles from './TitleRow.module.css';
-import { EyeIcon, StarIcon } from 'lucide-react';
+import { EyeIcon, PlayIcon, StarIcon } from 'lucide-react';
 import { buildQueryLink } from '@/helpers';
+import { TrailerButton } from '../TrailerButton/TrailerButton';
 
 type TitleRowProps = {
   data: FilmData;
@@ -14,6 +15,13 @@ const TitleRow: FC<TitleRowProps> = ({ data }) => {
     <div className={styles.titleRow}>
       <Title>{data.title}</Title>
       <div className={styles.stats}>
+        {data.trailer && (
+          <TrailerButton
+            trailer={data.trailer}
+            icon={<PlayIcon size={18} className={styles.playIcon} />}
+            className={styles.trailerButton}
+          />
+        )}
         <StatisticItem
           icon={<StarIcon />}
           value={`${data.rating} / 3`}

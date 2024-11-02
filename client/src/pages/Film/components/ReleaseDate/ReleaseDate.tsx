@@ -7,11 +7,12 @@ type ReleaseDateProps = {
 };
 
 const ReleaseDate: FC<ReleaseDateProps> = ({ value }) => {
-  const releaseDate = new Date(value);
-  const formattedDate = getFormattedDate(releaseDate);
+  const sourceDate = new Date(value);
 
-  const startDate = `${releaseDate.getFullYear()}-01-01`;
-  const endDate = `${releaseDate.getFullYear()}-12-31`;
+  const formattedDate = getFormattedDate(value);
+
+  const startDate = `${sourceDate.getFullYear()}-01-01`;
+  const endDate = `${sourceDate.getFullYear()}-12-31`;
 
   const path = buildQueryLink({
     startDate,

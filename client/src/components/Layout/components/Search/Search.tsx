@@ -112,6 +112,7 @@ const Search = () => {
       <div className={styles.inputWrapper}>
         <input
           type="text"
+          name="search"
           className={styles.input}
           placeholder="Search by title..."
           onChange={debouncedSearch}

@@ -280,13 +280,6 @@
           "items": {
             "type": "object",
             "properties": {
-              "title": {
-                "type": "string",
-                "description": "Title of a season",
-                "examples": [
-                  "Season 1"
-                ]
-              },
               "number": {
                 "type": "number",
                 "description": "Number of a season"
@@ -305,7 +298,6 @@
               }
             },
             "required": [
-              "title",
               "number",
               "episodesCount",
               "releaseDate",
