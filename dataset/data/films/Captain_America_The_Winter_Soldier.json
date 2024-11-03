@@ -124,7 +124,9 @@
     "WaltDisney",
     "MarvelStudios"
   ],
-  "trailer": "7SlILk2WMTI",
   "poster": "captain_america_2.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "7SlILk2WMTI"
+  ]
 }

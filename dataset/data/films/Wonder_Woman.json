@@ -152,7 +152,9 @@
     "DCEntertainment",
     "WarnerBros"
   ],
-  "trailer": "1Q8fG0TtVAY",
   "poster": "wonder_woman.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "1Q8fG0TtVAY"
+  ]
 }

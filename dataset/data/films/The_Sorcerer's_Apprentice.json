@@ -122,7 +122,9 @@
     "WaltDisney",
     "JerryBruckheimerFilms"
   ],
-  "trailer": "v2uV0_1C4UM",
   "poster": "sorcerers_apprentice.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "v2uV0_1C4UM"
+  ]
 }

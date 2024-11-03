@@ -217,7 +217,9 @@
   "studios": [
     "NewLineCinema"
   ],
-  "trailer": "JTSoD4BBCJc",
   "poster": "middle_earth_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "JTSoD4BBCJc"
+  ]
 }

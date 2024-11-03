@@ -121,7 +121,9 @@
   "studios": [
     "WaltDisney"
   ],
-  "trailer": "1VIZ89FEjYI",
   "poster": "raya.webp",
-  "style": "Animation"
+  "style": "Animation",
+  "trailers": [
+    "1VIZ89FEjYI"
+  ]
 }

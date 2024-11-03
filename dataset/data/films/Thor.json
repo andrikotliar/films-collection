@@ -139,7 +139,9 @@
     "MarvelStudios",
     "Paramount"
   ],
-  "trailer": "JOddp-nlNvQ",
   "poster": "thor_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "JOddp-nlNvQ"
+  ]
 }

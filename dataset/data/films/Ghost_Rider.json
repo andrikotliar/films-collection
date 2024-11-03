@@ -141,7 +141,9 @@
     "Sony",
     "Columbia"
   ],
-  "trailer": "8M0lLJfNPds",
   "poster": "ghost_rider.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "8M0lLJfNPds"
+  ]
 }

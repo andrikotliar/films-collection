@@ -150,7 +150,9 @@
     "WarnerBros",
     "VillageRoadshow"
   ],
-  "trailer": "hFUC5adf8FE",
   "poster": "happy_feet.webp",
-  "style": "Animation"
+  "style": "Animation",
+  "trailers": [
+    "hFUC5adf8FE"
+  ]
 }

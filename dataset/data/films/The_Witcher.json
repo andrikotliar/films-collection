@@ -249,5 +249,9 @@
     "Netflix"
   ],
   "poster": "witcher.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "ndl1W4ltcmg",
+    "2aMVzFlApa0"
+  ]
 }

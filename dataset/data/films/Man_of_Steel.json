@@ -150,7 +150,9 @@
     "WarnerBros",
     "DCEntertainment"
   ],
-  "trailer": "T6DJcgm3wNY",
   "poster": "man_of_steel.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "T6DJcgm3wNY"
+  ]
 }

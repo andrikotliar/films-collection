@@ -143,7 +143,9 @@
   "studios": [
     "Universal"
   ],
-  "trailer": "mw2AqdB5EVA",
   "poster": "fast_and_furious_5.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "mw2AqdB5EVA"
+  ]
 }

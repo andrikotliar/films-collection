@@ -207,7 +207,9 @@
     "HBOMax",
     "WarnerBros"
   ],
-  "trailer": "ui37YKQ9AC4",
   "poster": "justice_league.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "ui37YKQ9AC4"
+  ]
 }

@@ -186,7 +186,9 @@
   "studios": [
     "20thCenturyFox"
   ],
-  "trailer": "ej3ioOneTy8",
   "poster": "martian.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "ej3ioOneTy8"
+  ]
 }

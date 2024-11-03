@@ -157,7 +157,9 @@
     "MarvelStudios",
     "Paramount"
   ],
-  "trailer": "8hYlB38asDY",
   "poster": "iron_man_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "8hYlB38asDY"
+  ]
 }

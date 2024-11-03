@@ -153,7 +153,9 @@
     "WaltDisney",
     "MarvelStudios"
   ],
-  "trailer": "TcMBFSGVi1c",
   "poster": "captain_marvel.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "TcMBFSGVi1c"
+  ]
 }

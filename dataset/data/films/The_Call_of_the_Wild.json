@@ -95,7 +95,9 @@
   "studios": [
     "20thCenturyStudio"
   ],
-  "trailer": "h1LG9So2ZBk",
   "poster": "the_call_of_the_wild.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "h1LG9So2ZBk"
+  ]
 }

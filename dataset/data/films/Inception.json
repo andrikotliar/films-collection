@@ -220,7 +220,9 @@
     "WarnerBros",
     "Legendary"
   ],
-  "trailer": "YoHD9XEInc0",
   "poster": "inception.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "YoHD9XEInc0"
+  ]
 }

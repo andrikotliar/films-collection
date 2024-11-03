@@ -158,7 +158,9 @@
     "WarnerBros",
     "Amblin"
   ],
-  "trailer": "cSp1dM2Vj48",
   "poster": "ready_player_one.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "cSp1dM2Vj48"
+  ]
 }

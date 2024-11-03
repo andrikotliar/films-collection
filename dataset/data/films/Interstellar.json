@@ -163,7 +163,9 @@
     "Paramount",
     "WarnerBros"
   ],
-  "trailer": "zSWdZVtXT7E",
   "poster": "interstellar.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "zSWdZVtXT7E"
+  ]
 }

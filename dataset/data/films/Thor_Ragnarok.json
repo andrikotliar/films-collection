@@ -143,7 +143,9 @@
     "WaltDisney",
     "MarvelStudios"
   ],
-  "trailer": "ue80QwXMRHg",
   "poster": "thor_3.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "ue80QwXMRHg"
+  ]
 }

@@ -127,7 +127,9 @@
     "Toho",
     "ComixWave"
   ],
-  "trailer": "xU47nhruN-Q",
   "poster": "your_name.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "xU47nhruN-Q"
+  ]
 }

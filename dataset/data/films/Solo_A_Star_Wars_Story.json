@@ -142,7 +142,9 @@
     "Lucasfilm",
     "WaltDisney"
   ],
-  "trailer": "jPEYpryMp2s",
   "poster": "solo.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "jPEYpryMp2s"
+  ]
 }

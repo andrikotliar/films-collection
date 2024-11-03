@@ -117,7 +117,9 @@
   "studios": [
     "WarnerBros"
   ],
-  "trailer": "MxCRgtdAuBo",
   "poster": "focus.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "MxCRgtdAuBo"
+  ]
 }

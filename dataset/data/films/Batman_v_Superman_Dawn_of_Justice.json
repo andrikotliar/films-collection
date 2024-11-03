@@ -140,7 +140,9 @@
     "DCEntertainment",
     "WarnerBros"
   ],
-  "trailer": "bha24P9uw-E",
   "poster": "batman_v_superman.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "bha24P9uw-E"
+  ]
 }

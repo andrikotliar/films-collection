@@ -121,7 +121,9 @@
   "studios": [
     "DreamWorks"
   ],
-  "trailer": "SwfmV3nn6QA",
   "poster": "real_steel.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "SwfmV3nn6QA"
+  ]
 }

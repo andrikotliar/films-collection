@@ -131,7 +131,9 @@
   "studios": [
     "Universal"
   ],
-  "trailer": "5-4qSE2Ch0Y",
   "poster": "mummy_3.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "5-4qSE2Ch0Y"
+  ]
 }

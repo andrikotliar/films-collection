@@ -144,7 +144,9 @@
   "studios": [
     "WarnerBros"
   ],
-  "trailer": "lAxgztbYDbs",
   "poster": "harry_potter_3.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "lAxgztbYDbs"
+  ]
 }

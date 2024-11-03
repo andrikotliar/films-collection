@@ -185,7 +185,9 @@
   "studios": [
     "WarnerBros"
   ],
-  "trailer": "3EGojp4Hh6I",
   "poster": "harry_potter_4.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "3EGojp4Hh6I"
+  ]
 }

@@ -158,7 +158,9 @@
     "WaltDisney",
     "MarvelStudios"
   ],
-  "trailer": "wUn05hdkhjM",
   "poster": "guardians_of_the_galaxy_2.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "wUn05hdkhjM"
+  ]
 }

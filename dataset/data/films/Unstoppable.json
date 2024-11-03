@@ -103,7 +103,9 @@
   "studios": [
     "20thCenturyFox"
   ],
-  "trailer": "fyuoIqeL-bc",
   "poster": "unstoppable.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "fyuoIqeL-bc"
+  ]
 }

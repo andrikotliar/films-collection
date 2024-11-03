@@ -110,7 +110,9 @@
     "TF1",
     "ArpSelectio"
   ],
-  "trailer": "buQxF0eIeXI",
   "poster": "taxi_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "buQxF0eIeXI"
+  ]
 }

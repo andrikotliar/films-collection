@@ -131,7 +131,9 @@
   "studios": [
     "20thCenturyFox"
   ],
-  "trailer": "_1wDBNHYDv8",
   "poster": "predator.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "_1wDBNHYDv8"
+  ]
 }

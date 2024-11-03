@@ -132,7 +132,9 @@
   "studios": [
     "Paramount"
   ],
-  "trailer": "WR7cc5t7tv8",
   "poster": "quiet_place.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "WR7cc5t7tv8"
+  ]
 }

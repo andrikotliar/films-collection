@@ -129,7 +129,9 @@
     "DCEntertainment",
     "WarnerBros"
   ],
-  "trailer": "WDkg3h8PCVU",
   "poster": "aquaman.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "WDkg3h8PCVU"
+  ]
 }

@@ -158,7 +158,9 @@
     "20thCenturyFox",
     "MarvelEntertainment"
   ],
-  "trailer": "Div0iP65aZo",
   "poster": "logan.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "Div0iP65aZo"
+  ]
 }

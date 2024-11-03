@@ -134,7 +134,9 @@
   "studios": [
     "DreamWorksAnimation"
   ],
-  "trailer": "orAqhC-Hp_o",
   "poster": "madagascar.webp",
-  "style": "Animation"
+  "style": "Animation",
+  "trailers": [
+    "orAqhC-Hp_o"
+  ]
 }

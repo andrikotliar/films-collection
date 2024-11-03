@@ -115,7 +115,9 @@
   "studios": [
     "TNT"
   ],
-  "trailer": "SfONecwHgHY",
   "poster": "librarian_3.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "SfONecwHgHY"
+  ]
 }

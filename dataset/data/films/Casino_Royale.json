@@ -122,7 +122,9 @@
   "studios": [
     "Columbia"
   ],
-  "trailer": "36mnx8dBbGE",
   "poster": "casino_royale.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "36mnx8dBbGE"
+  ]
 }

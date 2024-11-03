@@ -154,7 +154,9 @@
     "20thCenturyFox",
     "MarvelEntertainment"
   ],
-  "trailer": "Jer8XjMrUB4",
   "poster": "x_men_7.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "Jer8XjMrUB4"
+  ]
 }

@@ -127,7 +127,9 @@
   "studios": [
     "WaltDisney"
   ],
-  "trailer": "bZ7Li5w2I-k",
   "poster": "prince_of_persia.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "bZ7Li5w2I-k"
+  ]
 }
