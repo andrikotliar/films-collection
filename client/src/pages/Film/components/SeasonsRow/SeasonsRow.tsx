@@ -2,6 +2,7 @@ import { ChangeEventHandler, FC, useState } from 'react';
 import { SeasonType } from '@/types';
 import styles from './SeasonsRow.module.css';
 import { getFormattedDate } from '@/helpers';
+import { ChevronDownIcon } from 'lucide-react';
 
 type SeasonRowProps = {
   seasons: SeasonType[];
@@ -16,24 +17,26 @@ const SeasonsRow: FC<SeasonRowProps> = ({ seasons }) => {
 
   return (
     <div className={styles.seasonsRow}>
-      <select
-        onChange={handleSelectSeason}
-        className={styles.seasonSelect}
-        disabled={seasons.length === 1}
-      >
-        {seasons.map((season, index) => (
-          <option value={index} key={season.number}>
-            Season {season.number}
-          </option>
-        ))}
-      </select>
+      <div className={styles.seasonSelectWrapper}>
+        <select
+          onChange={handleSelectSeason}
+          className={styles.seasonSelect}
+          disabled={seasons.length === 1}
+        >
+          {seasons.map((season, index) => (
+            <option value={index} key={season.number}>
+              Season {season.number}
+            </option>
+          ))}
+        </select>
+        <ChevronDownIcon className={styles.chevronDownIcon} size={18} />
+      </div>
       <div className={styles.dataRow}>
-        <span className={styles.dataRowLabel}>Episodes:</span>
-        <span>{seasons[activeIndex].episodesCount}</span>
+        {seasons[activeIndex].episodesCount} episodes
       </div>
       <div className={styles.dataRow}>
         <span className={styles.dataRowLabel}>Started At:</span>
-        <span>{getFormattedDate(seasons[activeIndex].releaseDate)}</span>
+        {getFormattedDate(seasons[activeIndex].releaseDate)}
       </div>
     </div>
   );

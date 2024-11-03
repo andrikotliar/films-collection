@@ -10,3 +10,4 @@ export * from './get-year-from-date';
 export * from './get-formatted-date';
 export * from './build-filter-options';
 export * from './get-formatted-money-value';
+export * from './get-plural-word';
