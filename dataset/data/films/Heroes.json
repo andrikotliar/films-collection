@@ -426,32 +426,27 @@
       {
         "number": 1,
         "episodesCount": 23,
-        "releaseDate": "2006-09-25",
-        "trailer": "9AX6aXFdTkc"
+        "releaseDate": "2006-09-25"
       },
       {
         "number": 2,
         "episodesCount": 11,
-        "releaseDate": "2007-09-24",
-        "trailer": "9mNGxXpAmHc"
+        "releaseDate": "2007-09-24"
       },
       {
         "number": 3,
         "episodesCount": 18,
-        "releaseDate": "2008-09-22",
-        "trailer": "i1VA_aWyrPI"
+        "releaseDate": "2008-09-22"
       },
       {
         "number": 4,
         "episodesCount": 13,
-        "releaseDate": "2009-02-02",
-        "trailer": "mTzPPIEUFEs"
+        "releaseDate": "2009-02-02"
       },
       {
         "number": 5,
         "episodesCount": 12,
-        "releaseDate": "2009-09-21",
-        "trailer": "mTzPPIEUFEs"
+        "releaseDate": "2009-09-21"
       }
     ]
   },
