@@ -294,17 +294,12 @@
               "releaseDate": {
                 "type": "string",
                 "description": "Season release date. Format: YYYY-MM-DD."
-              },
-              "trailer": {
-                "type": "string",
-                "description": "Youtube vide slug"
               }
             },
             "required": [
               "number",
               "episodesCount",
-              "releaseDate",
-              "trailer"
+              "releaseDate"
             ]
           }
         }
