@@ -160,8 +160,7 @@
       {
         "number": 1,
         "episodesCount": 6,
-        "releaseDate": "2021-03-19",
-        "trailer": "IWBsDaFWyTE"
+        "releaseDate": "2021-03-19"
       }
     ]
   },
@@ -180,5 +179,8 @@
     "MarvelStudios"
   ],
   "poster": "falcon_and_the_winter_soldier.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "IWBsDaFWyTE"
+  ]
 }

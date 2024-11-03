@@ -157,7 +157,9 @@
   "studios": [
     "WaltDisney"
   ],
-  "trailer": "jWM0ct-OLsM",
   "poster": "zootopia.webp",
-  "style": "Animation"
+  "style": "Animation",
+  "trailers": [
+    "jWM0ct-OLsM"
+  ]
 }

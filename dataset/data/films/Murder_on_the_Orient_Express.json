@@ -178,7 +178,9 @@
   "studios": [
     "20thCenturyFox"
   ],
-  "trailer": "Mq4m3yAoW8E",
   "poster": "murder_on_the_orient_express.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "Mq4m3yAoW8E"
+  ]
 }

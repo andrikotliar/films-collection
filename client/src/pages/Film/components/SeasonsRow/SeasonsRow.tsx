@@ -1,9 +1,8 @@
 import { ChangeEventHandler, FC, useState } from 'react';
-import { PlayIcon } from 'lucide-react';
 import { SeasonType } from '@/types';
-import { TrailerButton } from '../TrailerButton/TrailerButton';
 import styles from './SeasonsRow.module.css';
 import { getFormattedDate } from '@/helpers';
+import { ChevronDownIcon } from 'lucide-react';
 
 type SeasonRowProps = {
   seasons: SeasonType[];
@@ -18,27 +17,26 @@ const SeasonsRow: FC<SeasonRowProps> = ({ seasons }) => {
 
   return (
     <div className={styles.seasonsRow}>
-      <select
-        onChange={handleSelectSeason}
-        className={styles.seasonSelect}
-        disabled={seasons.length === 1}
-      >
-        {seasons.map((season, index) => (
-          <option value={index} key={season.number}>
-            Season {season.number}
-          </option>
-        ))}
-      </select>
-      <TrailerButton
-        trailer={seasons[activeIndex].trailer}
-        icon={<PlayIcon size={16} />}
-        className={styles.seasonTrailerButton}
-      >
+      <div className={styles.seasonSelectWrapper}>
+        <select
+          onChange={handleSelectSeason}
+          className={styles.seasonSelect}
+          disabled={seasons.length === 1}
+        >
+          {seasons.map((season, index) => (
+            <option value={index} key={season.number}>
+              Season {season.number}
+            </option>
+          ))}
+        </select>
+        <ChevronDownIcon className={styles.chevronDownIcon} size={18} />
+      </div>
+      <div className={styles.dataRow}>
         {seasons[activeIndex].episodesCount} episodes
-      </TrailerButton>
-      <div className={styles.startedAtDate}>
-        <span className={styles.startedAtDateLabel}>Started At:</span>
-        <span>{getFormattedDate(seasons[activeIndex].releaseDate)}</span>
+      </div>
+      <div className={styles.dataRow}>
+        <span className={styles.dataRowLabel}>Started At:</span>
+        {getFormattedDate(seasons[activeIndex].releaseDate)}
       </div>
     </div>
   );

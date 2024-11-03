@@ -326,26 +326,22 @@
       {
         "number": 1,
         "episodesCount": 8,
-        "releaseDate": "2016-07-15",
-        "trailer": "b9EkMc79ZSU"
+        "releaseDate": "2016-07-15"
       },
       {
         "number": 2,
         "episodesCount": 9,
-        "releaseDate": "2017-10-27",
-        "trailer": "R1ZXOOLMJ8s"
+        "releaseDate": "2017-10-27"
       },
       {
         "number": 3,
         "episodesCount": 8,
-        "releaseDate": "2019-07-04",
-        "trailer": "6Am4v0C_z8c"
+        "releaseDate": "2019-07-04"
       },
       {
         "number": 4,
         "episodesCount": 9,
-        "releaseDate": "2022-08-01",
-        "trailer": "a3thyAnShck"
+        "releaseDate": "2022-08-01"
       }
     ]
   },
@@ -374,5 +370,11 @@
     "Netflix"
   ],
   "poster": "stranger_things.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "b9EkMc79ZSU",
+    "R1ZXOOLMJ8s",
+    "6Am4v0C_z8c",
+    "a3thyAnShck"
+  ]
 }

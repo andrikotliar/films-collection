@@ -134,7 +134,9 @@
   "studios": [
     "20thCenturyFox"
   ],
-  "trailer": "tV_IhWE4LP0",
   "poster": "miss_peregrin.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "tV_IhWE4LP0"
+  ]
 }

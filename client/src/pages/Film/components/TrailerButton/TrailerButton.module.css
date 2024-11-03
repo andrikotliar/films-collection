@@ -2,55 +2,18 @@
   display: flex;
   align-items: center;
   gap: 5px;
+  color: var(--blue-default);
+  background-color: var(--blue-default);
+  border-radius: 50px;
+  padding: 5px 15px;
 }
 
-.icon {
+.iconWrapper {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.trailerModal {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.trailerModalContent {
-  width: 80%;
-}
-
-.trailerCloseButton {
-  position: absolute;
-  top: -15px;
-  right: 10px;
-  background-color: white;
-  border-radius: 50%;
-}
-
-.videoWrapper {
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  cursor: pointer;
-  overflow: hidden;
-  border-radius: var(--app-border-radius);
-}
-
-.videoWrapper iframe {
-  border: none;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-}
-
-@media (max-width: 580px) {
-  .trailerModal {
-    background-color: rgba(0, 0, 0, 0.95);
-  }
-
-  .trailerModalContent {
-    width: 100%;
-  }
-
-  .videoWrapper {
-    border-radius: 0;
-  }
+.playIcon {
+  fill: white;
 }

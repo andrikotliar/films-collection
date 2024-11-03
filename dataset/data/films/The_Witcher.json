@@ -221,14 +221,12 @@
       {
         "number": 1,
         "episodesCount": 8,
-        "releaseDate": "2019-12-20",
-        "trailer": "ndl1W4ltcmg"
+        "releaseDate": "2019-12-20"
       },
       {
         "number": 2,
         "episodesCount": 8,
-        "releaseDate": "2021-12-17",
-        "trailer": "2aMVzFlApa0"
+        "releaseDate": "2021-12-17"
       }
     ]
   },
@@ -249,5 +247,9 @@
     "Netflix"
   ],
   "poster": "witcher.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "ndl1W4ltcmg",
+    "2aMVzFlApa0"
+  ]
 }

@@ -111,7 +111,9 @@
     "Gaumont",
     "TF1"
   ],
-  "trailer": "34WIbmXkewU",
   "poster": "intouchables.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "34WIbmXkewU"
+  ]
 }

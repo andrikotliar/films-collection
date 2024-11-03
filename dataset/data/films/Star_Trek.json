@@ -177,7 +177,9 @@
     "Paramount",
     "BadRobot"
   ],
-  "trailer": "pKFUZ10Wmbw",
   "poster": "star_trek_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "pKFUZ10Wmbw"
+  ]
 }

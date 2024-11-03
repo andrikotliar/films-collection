@@ -142,7 +142,9 @@
   "studios": [
     "DreamWorksAnimation"
   ],
-  "trailer": "CwXOrWvPBPk",
   "poster": "shrek_1.webp",
-  "style": "Animation"
+  "style": "Animation",
+  "trailers": [
+    "CwXOrWvPBPk"
+  ]
 }

@@ -139,7 +139,9 @@
   "studios": [
     "WaltDisney"
   ],
-  "trailer": "nlvYKl1fjBI",
   "poster": "john_carter.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "nlvYKl1fjBI"
+  ]
 }

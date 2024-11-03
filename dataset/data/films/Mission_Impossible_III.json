@@ -149,7 +149,9 @@
   "studios": [
     "Paramount"
   ],
-  "trailer": "rl2bysiyltg",
   "poster": "mi_3.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "rl2bysiyltg"
+  ]
 }

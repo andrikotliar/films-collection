@@ -133,7 +133,9 @@
   "studios": [
     "Columbia"
   ],
-  "trailer": "1Q4mhYF9aQQ",
   "poster": "mib_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "1Q4mhYF9aQQ"
+  ]
 }

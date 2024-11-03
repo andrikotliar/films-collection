@@ -107,7 +107,9 @@
   "studios": [
     "20thCenturyFox"
   ],
-  "trailer": "fdadZ_KrZVw",
   "poster": "time.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "fdadZ_KrZVw"
+  ]
 }

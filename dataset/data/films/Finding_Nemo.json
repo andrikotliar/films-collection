@@ -203,7 +203,9 @@
     "WaltDisney",
     "Pixar"
   ],
-  "trailer": "wZdpNglLbt8",
   "poster": "finding_nemo.webp",
-  "style": "Animation"
+  "style": "Animation",
+  "trailers": [
+    "wZdpNglLbt8"
+  ]
 }

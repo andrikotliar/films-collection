@@ -132,7 +132,9 @@
   "studios": [
     "Pixar"
   ],
-  "trailer": "6tCxnHCqqxg",
   "poster": "monsters_inc.webp",
-  "style": "Animation"
+  "style": "Animation",
+  "trailers": [
+    "6tCxnHCqqxg"
+  ]
 }

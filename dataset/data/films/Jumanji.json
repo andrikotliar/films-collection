@@ -123,7 +123,9 @@
   "studios": [
     "Tristar"
   ],
-  "trailer": "5p18zqZmeiI",
   "poster": "jumanji_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "5p18zqZmeiI"
+  ]
 }

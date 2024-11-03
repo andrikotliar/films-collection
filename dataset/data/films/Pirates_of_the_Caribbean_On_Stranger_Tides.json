@@ -121,7 +121,9 @@
     "WaltDisney",
     "JerryBruckheimerFilms"
   ],
-  "trailer": "t5AqJww06bw",
   "poster": "pirates_4.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "t5AqJww06bw"
+  ]
 }

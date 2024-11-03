@@ -169,7 +169,9 @@
   "studios": [
     "20thCenturyFox"
   ],
-  "trailer": "jQ5lPt9edzQ",
   "poster": "alien_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "jQ5lPt9edzQ"
+  ]
 }

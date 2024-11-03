@@ -113,7 +113,9 @@
     "Orion",
     "Cinema84"
   ],
-  "trailer": "k64P4l2Wmeg",
   "poster": "terminator_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "k64P4l2Wmeg"
+  ]
 }

@@ -135,7 +135,9 @@
     "SPA",
     "AtresmediaCine"
   ],
-  "trailer": "taE3PwurhYM",
   "poster": "klaus.webp",
-  "style": "Animation"
+  "style": "Animation",
+  "trailers": [
+    "taE3PwurhYM"
+  ]
 }

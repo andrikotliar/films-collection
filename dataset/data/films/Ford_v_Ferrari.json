@@ -119,7 +119,9 @@
   "studios": [
     "20thCenturyFox"
   ],
-  "trailer": "zyYgDtY2AMY",
   "poster": "fordvsferrari.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "zyYgDtY2AMY"
+  ]
 }

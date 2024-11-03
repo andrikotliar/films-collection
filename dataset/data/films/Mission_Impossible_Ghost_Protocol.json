@@ -126,7 +126,9 @@
   "studios": [
     "Paramount"
   ],
-  "trailer": "EDGYVFZxsXQ",
   "poster": "mi_4.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "EDGYVFZxsXQ"
+  ]
 }

@@ -186,7 +186,9 @@
     "Tristar",
     "Carolco"
   ],
-  "trailer": "-W8CegO_Ixw",
   "poster": "terminator_2.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "-W8CegO_Ixw"
+  ]
 }

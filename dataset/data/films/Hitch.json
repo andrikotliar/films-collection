@@ -123,7 +123,9 @@
   "studios": [
     "Columbia"
   ],
-  "trailer": "pYrrEUgnT6s",
   "poster": "hitch.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "pYrrEUgnT6s"
+  ]
 }

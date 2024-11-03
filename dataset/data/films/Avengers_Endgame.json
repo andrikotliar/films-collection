@@ -246,7 +246,9 @@
     "WaltDisney",
     "MarvelStudios"
   ],
-  "trailer": "TcMBFSGVi1c",
   "poster": "avengers_4.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "TcMBFSGVi1c"
+  ]
 }

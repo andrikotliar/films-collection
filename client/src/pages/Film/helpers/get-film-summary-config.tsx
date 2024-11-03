@@ -1,5 +1,9 @@
 import { FilmData } from '@/types';
-import { buildQueryLink, getFormattedMoneyValue } from '@/helpers';
+import {
+  buildQueryLink,
+  getFormattedMoneyValue,
+  getPluralWord,
+} from '@/helpers';
 import {
   LinksGroupWrapper,
   ReleaseDate,
@@ -136,7 +140,8 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
               seasonsTotal: film.seriesExtension?.seasons.length ?? 1,
             })}
           >
-            Seasons Total: {film.seriesExtension?.seasons.length}
+            {film.seriesExtension?.seasons.length}{' '}
+            {getPluralWord('season', film.seriesExtension?.seasons.length)}
           </TagLink>
           <TagLink
             variant="mint"
@@ -144,7 +149,7 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
               episodesTotal: film.seriesExtension?.episodesTotal ?? 0,
             })}
           >
-            Episodes Total: {film.seriesExtension?.episodesTotal}
+            {film.seriesExtension?.episodesTotal} episodes
           </TagLink>
         </LinksGroupWrapper>
       ),

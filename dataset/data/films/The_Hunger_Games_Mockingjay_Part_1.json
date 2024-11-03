@@ -180,7 +180,9 @@
   "studios": [
     "Lionsgate"
   ],
-  "trailer": "3PkkHsuMrho",
   "poster": "hunger_games_3.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "3PkkHsuMrho"
+  ]
 }

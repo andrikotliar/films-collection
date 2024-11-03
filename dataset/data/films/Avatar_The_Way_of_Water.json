@@ -184,7 +184,9 @@
     "Lightstorm",
     "TSG"
   ],
-  "trailer": "o5F8MOz_IDw",
   "poster": "avatar_2.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "o5F8MOz_IDw"
+  ]
 }

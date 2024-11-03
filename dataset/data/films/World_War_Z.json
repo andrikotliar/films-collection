@@ -133,7 +133,9 @@
     "Paramount",
     "Skydance"
   ],
-  "trailer": "Md6Dvxdr0AQ",
   "poster": "world_war_z.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "Md6Dvxdr0AQ"
+  ]
 }

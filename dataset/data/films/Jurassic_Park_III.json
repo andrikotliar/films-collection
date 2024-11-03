@@ -114,7 +114,9 @@
     "Universal",
     "Amblin"
   ],
-  "trailer": "gjIaV6CU0wA",
   "poster": "jurassic_park_3.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "gjIaV6CU0wA"
+  ]
 }

@@ -130,7 +130,9 @@
   "studios": [
     "EuropaCorp"
   ],
-  "trailer": "jDDFNpj9xBQ",
   "poster": "d13_2.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "jDDFNpj9xBQ"
+  ]
 }

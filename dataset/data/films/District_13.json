@@ -115,7 +115,9 @@
   "studios": [
     "EuropaCorp"
   ],
-  "trailer": "Mcmkx1klOpE",
   "poster": "d13_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "Mcmkx1klOpE"
+  ]
 }

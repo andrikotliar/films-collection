@@ -102,7 +102,9 @@
     "Universal",
     "Amblin"
   ],
-  "trailer": "RxrvaneULkE",
   "poster": "jurassic_park_2.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "RxrvaneULkE"
+  ]
 }

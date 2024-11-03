@@ -152,7 +152,9 @@
     "MetropolitanFilmexport",
     "Paramount"
   ],
-  "trailer": "Hv3obL9HqyY",
   "poster": "hugo.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "Hv3obL9HqyY"
+  ]
 }

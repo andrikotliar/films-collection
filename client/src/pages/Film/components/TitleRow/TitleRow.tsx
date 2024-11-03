@@ -15,12 +15,8 @@ const TitleRow: FC<TitleRowProps> = ({ data }) => {
     <div className={styles.titleRow}>
       <Title>{data.title}</Title>
       <div className={styles.stats}>
-        {data.trailer && (
-          <TrailerButton
-            trailer={data.trailer}
-            icon={<PlayIcon size={18} className={styles.playIcon} />}
-            className={styles.trailerButton}
-          />
+        {data.trailers.length !== 0 && (
+          <TrailerButton trailers={data.trailers} title="Play Trailer" />
         )}
         <StatisticItem
           icon={<StarIcon />}

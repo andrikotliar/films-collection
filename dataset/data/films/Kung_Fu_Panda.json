@@ -185,7 +185,9 @@
   "studios": [
     "DreamWorksAnimation"
   ],
-  "trailer": "NRc-ze7Wrxw",
   "poster": "kungfu_panda.webp",
-  "style": "Animation"
+  "style": "Animation",
+  "trailers": [
+    "NRc-ze7Wrxw"
+  ]
 }

@@ -105,7 +105,9 @@
     "DreamWorksAnimation",
     "Universal"
   ],
-  "trailer": "SkcucKDrbOI",
   "poster": "how_to_train_your_dragon_3.webp",
-  "style": "Animation"
+  "style": "Animation",
+  "trailers": [
+    "SkcucKDrbOI"
+  ]
 }

@@ -174,7 +174,9 @@
     "20thCenturyFox",
     "Paramount"
   ],
-  "trailer": "kVrqfYjkTdQ",
   "poster": "titanic.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "kVrqfYjkTdQ"
+  ]
 }

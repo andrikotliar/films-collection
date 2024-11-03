@@ -151,7 +151,9 @@
   "studios": [
     "20thCenturyFox"
   ],
-  "trailer": "xko1Mx5w4tg",
   "poster": "percy_jackson.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "xko1Mx5w4tg"
+  ]
 }

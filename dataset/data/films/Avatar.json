@@ -255,7 +255,9 @@
   "studios": [
     "20thCenturyFox"
   ],
-  "trailer": "CM79GTEm2ps",
   "poster": "avatar.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "CM79GTEm2ps"
+  ]
 }

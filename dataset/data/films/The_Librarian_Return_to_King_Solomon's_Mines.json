@@ -127,7 +127,9 @@
   "studios": [
     "TNT"
   ],
-  "trailer": "ansvc2Muxr0",
   "poster": "librarian_2.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "ansvc2Muxr0"
+  ]
 }

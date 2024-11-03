@@ -314,20 +314,17 @@
       {
         "number": 1,
         "episodesCount": 20,
-        "releaseDate": "2005-02-21",
-        "trailer": "ahPeclU9VW0"
+        "releaseDate": "2005-02-21"
       },
       {
         "number": 2,
         "episodesCount": 20,
-        "releaseDate": "2006-03-17",
-        "trailer": "ahPeclU9VW0"
+        "releaseDate": "2006-03-17"
       },
       {
         "number": 3,
         "episodesCount": 21,
-        "releaseDate": "2007-09-21",
-        "trailer": "ahPeclU9VW0"
+        "releaseDate": "2007-09-21"
       }
     ]
   },
@@ -353,5 +350,10 @@
     "Nickelodeon"
   ],
   "poster": "atla.webp",
-  "style": "Animation"
+  "style": "Animation",
+  "trailers": [
+    "ahPeclU9VW0",
+    "ahPeclU9VW0",
+    "ahPeclU9VW0"
+  ]
 }

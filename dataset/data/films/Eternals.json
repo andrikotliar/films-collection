@@ -161,7 +161,9 @@
     "MarvelStudios",
     "WaltDisney"
   ],
-  "trailer": "x_me3xsvDgk",
   "poster": "eternals.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "x_me3xsvDgk"
+  ]
 }

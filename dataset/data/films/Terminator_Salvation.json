@@ -123,7 +123,9 @@
     "Columbia",
     "Halcyon"
   ],
-  "trailer": "-Czz-TcWCkA",
   "poster": "terminator_4.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "-Czz-TcWCkA"
+  ]
 }

@@ -140,7 +140,9 @@
     "MarvelStudios",
     "Paramount"
   ],
-  "trailer": "JerVrbLldXw",
   "poster": "captain_america_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "JerVrbLldXw"
+  ]
 }

@@ -110,10 +110,6 @@ const SeasonSchema = new Schema<SeasonType>({
     required: true,
     min: 1,
   },
-  trailer: {
-    type: String,
-    required: true,
-  },
   releaseDate: {
     type: String,
     required: true,
@@ -183,9 +179,9 @@ const FilmsSchema = new Schema<FilmData>({
     type: String,
     required: true,
   },
-  trailer: {
-    type: String,
-    required: false,
+  trailers: {
+    type: [String],
+    required: true,
   },
   cast: {
     type: [CastSchema],

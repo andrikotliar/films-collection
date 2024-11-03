@@ -101,7 +101,9 @@
     "20thCenturyFox",
     "BlueSky"
   ],
-  "trailer": "i4noiCRJRoE",
   "poster": "ice_age_1.webp",
-  "style": "Animation"
+  "style": "Animation",
+  "trailers": [
+    "i4noiCRJRoE"
+  ]
 }

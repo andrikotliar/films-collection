@@ -134,7 +134,9 @@
     "WarnerBros",
     "Legendary"
   ],
-  "trailer": "5guMumPFBag",
   "poster": "pacific_rim_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "5guMumPFBag"
+  ]
 }

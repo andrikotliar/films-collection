@@ -132,7 +132,9 @@
     "WaltDisney",
     "JerryBruckheimerFilms"
   ],
-  "trailer": "HKSZtp_OGHY",
   "poster": "pirates_3.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "HKSZtp_OGHY"
+  ]
 }

@@ -153,7 +153,9 @@
     "WaltDisney",
     "Pixar"
   ],
-  "trailer": "alIq_wG9FNk",
   "poster": "wall_e.webp",
-  "style": "Animation"
+  "style": "Animation",
+  "trailers": [
+    "alIq_wG9FNk"
+  ]
 }

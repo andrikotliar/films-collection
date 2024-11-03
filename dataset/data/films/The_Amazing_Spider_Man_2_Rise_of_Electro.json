@@ -128,7 +128,9 @@
     "Columbia",
     "MarvelEntertainment"
   ],
-  "trailer": "nbp3Ra3Yp74",
   "poster": "amazing_spider_man_2.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "nbp3Ra3Yp74"
+  ]
 }

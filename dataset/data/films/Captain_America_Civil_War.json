@@ -189,7 +189,9 @@
     "WaltDisney",
     "MarvelStudios"
   ],
-  "trailer": "dKrVegVI0Us",
   "poster": "captain_america_3.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "dKrVegVI0Us"
+  ]
 }

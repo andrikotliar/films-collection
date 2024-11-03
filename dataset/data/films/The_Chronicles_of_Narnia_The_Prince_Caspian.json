@@ -129,7 +129,9 @@
   "studios": [
     "WaltDisney"
   ],
-  "trailer": "9Q0Da4jlxBk",
   "poster": "narnia_2.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "9Q0Da4jlxBk"
+  ]
 }

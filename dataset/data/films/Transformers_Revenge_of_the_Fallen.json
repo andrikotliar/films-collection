@@ -148,7 +148,9 @@
     "DreamWorks",
     "Paramount"
   ],
-  "trailer": "fnXzKwUgDhg",
   "poster": "transformers_2.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "fnXzKwUgDhg"
+  ]
 }

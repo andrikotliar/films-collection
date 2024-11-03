@@ -114,7 +114,9 @@
   "studios": [
     "20thCenturyFox"
   ],
-  "trailer": "6QFcZohER3s",
   "poster": "day_the_earth_stood_still.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "6QFcZohER3s"
+  ]
 }

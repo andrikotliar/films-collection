@@ -127,7 +127,9 @@
   "studios": [
     "Paramount"
   ],
-  "trailer": "1dzGhJ5QGsQ",
   "poster": "love_and_monsters.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "1dzGhJ5QGsQ"
+  ]
 }

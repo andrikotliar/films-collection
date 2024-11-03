@@ -136,7 +136,9 @@
   "studios": [
     "Summit"
   ],
-  "trailer": "KzJNYYkkhzc",
   "poster": "now_you_see_me.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "KzJNYYkkhzc"
+  ]
 }

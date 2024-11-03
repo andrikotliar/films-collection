@@ -135,7 +135,9 @@
     "WarnerBros",
     "VillageRoadshow"
   ],
-  "trailer": "dtKMEAXyPkg",
   "poster": "i_am_legend.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "dtKMEAXyPkg"
+  ]
 }

@@ -154,7 +154,9 @@
     "MarvelStudios",
     "Sony"
   ],
-  "trailer": "rt-2cxAiPJk",
   "poster": "mcu_spider_man_3.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "rt-2cxAiPJk"
+  ]
 }

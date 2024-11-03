@@ -111,7 +111,9 @@
     "DCEntertainment",
     "WarnerBros"
   ],
-  "trailer": "go6GEIrcvFY",
   "poster": "shazam.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "go6GEIrcvFY"
+  ]
 }

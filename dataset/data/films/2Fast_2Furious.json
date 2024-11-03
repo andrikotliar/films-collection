@@ -107,7 +107,9 @@
   "studios": [
     "Universal"
   ],
-  "trailer": "F_VIM03DXWI",
   "poster": "fast_and_furious_2.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "F_VIM03DXWI"
+  ]
 }

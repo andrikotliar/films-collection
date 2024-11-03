@@ -134,7 +134,9 @@
   "studios": [
     "Paramount"
   ],
-  "trailer": "Ohws8y572KE",
   "poster": "mi_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "Ohws8y572KE"
+  ]
 }

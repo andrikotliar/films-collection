@@ -150,7 +150,9 @@
     "WaltDisney",
     "MarvelStudios"
   ],
-  "trailer": "pWdKf3MneyI",
   "poster": "ant_man_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "pWdKf3MneyI"
+  ]
 }

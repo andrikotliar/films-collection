@@ -153,8 +153,7 @@
       {
         "number": 1,
         "episodesCount": 6,
-        "releaseDate": "2021-11-24",
-        "trailer": "5VYb3B1ETlk"
+        "releaseDate": "2021-11-24"
       }
     ]
   },
@@ -172,5 +171,8 @@
     "MarvelStudios"
   ],
   "poster": "hawkeye.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "5VYb3B1ETlk"
+  ]
 }

@@ -122,7 +122,9 @@
   "studios": [
     "WarnerBros"
   ],
-  "trailer": "CzYRlISYE8Y",
   "poster": "the_man_from_uncle.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "CzYRlISYE8Y"
+  ]
 }

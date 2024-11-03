@@ -124,7 +124,9 @@
   "studios": [
     "20thCenturyFox"
   ],
-  "trailer": "w7pYhpJaJW8",
   "poster": "alita.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "w7pYhpJaJW8"
+  ]
 }

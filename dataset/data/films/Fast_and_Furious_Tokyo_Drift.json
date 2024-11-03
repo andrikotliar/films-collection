@@ -104,7 +104,9 @@
   "studios": [
     "Universal"
   ],
-  "trailer": "p8HQ2JLlc4E",
   "poster": "fast_and_furious_3.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "p8HQ2JLlc4E"
+  ]
 }

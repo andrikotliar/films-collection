@@ -114,7 +114,9 @@
   "studios": [
     "DreamWorksAnimation"
   ],
-  "trailer": "oKiYuIsPxYk",
   "poster": "how_to_train_your_dragon_1.webp",
-  "style": "Animation"
+  "style": "Animation",
+  "trailers": [
+    "oKiYuIsPxYk"
+  ]
 }

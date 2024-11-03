@@ -134,7 +134,9 @@
     "Sony",
     "MarvelStudios"
   ],
-  "trailer": "Nt9L1jCKGnE",
   "poster": "mcu_spider_man_2.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "Nt9L1jCKGnE"
+  ]
 }

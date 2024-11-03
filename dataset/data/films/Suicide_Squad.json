@@ -150,7 +150,9 @@
     "DCEntertainment",
     "WarnerBros"
   ],
-  "trailer": "CmRih_VtVAs",
   "poster": "suicide_squad.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "CmRih_VtVAs"
+  ]
 }
