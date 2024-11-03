@@ -10,17 +10,6 @@
   gap: 10px;
 }
 
-.trailerButton {
-  color: var(--blue-default);
-  background-color: var(--blue-default);
-  border-radius: 50px;
-  padding: 5px 15px;
-}
-
-.playIcon {
-  fill: white;
-}
-
 @media (max-width: 680px) {
   .titleRow {
     flex-direction: column;

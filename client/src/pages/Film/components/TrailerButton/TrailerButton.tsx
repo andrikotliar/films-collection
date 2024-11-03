@@ -1,22 +1,16 @@
 import { Modal } from '@/components';
-import { FC, PropsWithChildren, ReactNode, useState } from 'react';
+import { FC, useState } from 'react';
 import styles from './TrailerButton.module.css';
-import { PropsWithClassName } from '@/types';
-import classNames from 'classnames';
+import { PlayIcon } from 'lucide-react';
 
-type TrailerButtonProps = PropsWithClassName<{
-  trailer: string;
-  icon: ReactNode;
+type TrailerButtonProps = {
+  trailers: string[];
   title?: string;
-}>;
+};
 
-const TrailerButton: FC<PropsWithChildren<TrailerButtonProps>> = ({
-  trailer,
-  icon,
-  children,
-  className,
-}) => {
+const TrailerButton: FC<TrailerButtonProps> = ({ trailers }) => {
   const [isTrailerOpen, setIsTrailerOpen] = useState(false);
+  const [selectedTrailerIndex, setSelectedTrailerIndex] = useState(0);
 
   const handleCloseTrailer = () => {
     setIsTrailerOpen(false);
@@ -26,11 +20,12 @@ const TrailerButton: FC<PropsWithChildren<TrailerButtonProps>> = ({
     <>
       <button
         onClick={() => setIsTrailerOpen(true)}
-        className={classNames(styles.playButton, className)}
+        className={styles.playButton}
         title="Play trailer"
       >
-        <div className={styles.icon}>{icon}</div>
-        {children}
+        <div className={styles.iconWrapper}>
+          <PlayIcon size={18} className={styles.playIcon} />
+        </div>
       </button>
       <Modal
         isOpen={isTrailerOpen}
@@ -40,7 +35,7 @@ const TrailerButton: FC<PropsWithChildren<TrailerButtonProps>> = ({
         <Modal.Content className={styles.trailerModalContent}>
           <div className={styles.videoWrapper}>
             <iframe
-              src={`https://www.youtube-nocookie.com/embed/${trailer}?rel=0&showinfo=0&autoplay=1`}
+              src={`https://www.youtube-nocookie.com/embed/${trailers[selectedTrailerIndex]}?rel=0&showinfo=0&autoplay=1`}
               allow="autoplay"
               allowFullScreen
             />
