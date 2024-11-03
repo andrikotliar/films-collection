@@ -51,7 +51,6 @@ type SeasonType = {
   number: number;
   episodesCount: number;
   releaseDate: string;
-  trailer: string;
 };
 
 type SeriesExtension = {
@@ -84,7 +83,7 @@ type FilmData = {
   seriesExtension: SeriesExtension | null;
   rating: number;
   poster: string;
-  trailer?: string;
+  trailers: string[];
   chapters: Pick<FilmData, '_id' | 'title' | 'poster'>[];
   watchCount: number;
   createdAt: string;
