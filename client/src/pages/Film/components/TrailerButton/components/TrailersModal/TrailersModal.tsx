@@ -30,7 +30,10 @@ const TrailersModal: FC<TrailersModalProps> = ({
 
   const handleClose = () => {
     setSelectedTrailerIndex(0);
-    setAutoPlayMode(0);
+
+    if (trailers.length > 1) {
+      setAutoPlayMode(0);
+    }
 
     onClose();
   };
