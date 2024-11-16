@@ -1,7 +1,5 @@
 import { config } from 'dotenv';
-import chalk from 'chalk';
-
-config();
+import { logger } from './logger.js';
 
 const requiredVariables = ['MONGODB_URI', 'DATABASE_NAME'];
 
@@ -22,16 +20,25 @@ const validateVariables = (env) => {
 
       throw new Error(errorMessage);
     }
+
+    return env;
   } catch (error) {
-    console.log(chalk.red('[ERROR]:', error?.message));
-    process.exit();
+    logger.error(error?.message);
+    process.exit(0);
   }
 };
 
-const getEnvironmentVariables = () => {
-  validateVariables(process.env);
+const getEnvironmentVariables = (cliParams) => {
+  const { parsed: envVariables, error } = config({
+    path: cliParams.envFile,
+  });
 
-  const { MONGODB_URI, DATABASE_NAME } = process.env;
+  if (!envVariables) {
+    logger.error('Error parsing environment file', error);
+    process.exit(0);
+  }
+
+  const { MONGODB_URI, DATABASE_NAME } = validateVariables(envVariables);
 
   return {
     database: {

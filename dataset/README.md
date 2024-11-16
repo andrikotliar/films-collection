@@ -13,18 +13,19 @@ The script creates 4 collections in the database:
 - **chapters**
 - **awards**
 
-To populate a single collection, run the `insert-one` script with collection name as a parameter.
+To populate a single collection, run the `insert-one` script with the `--collection` parameter.
 
 ```bash
-node insert-one COLLECTION_NAME
+node insert-one --collection=films
 ```
 
-Available scripts:
+Both `insert-all` and `insert-one` files support specific environment variable files. To define the file, add the `--env` parameter to a command.
 
-- insert-films
-- insert-actors
-- insert-chapters
-- insert-awards
+```bash
+node insert-one --env=.env.prod
+```
+
+The file should be located in the root of the `dataset` folder. If the `--env` parameter is not defined, scripts will point to the `.env` file.
 
 ## Data
 
@@ -61,4 +62,18 @@ All seeding data are in the `data` folder. Delete or add the data to fit your li
     "url": "./dataset/schemas/awards.schema.json"
   }
 ]
+```
+
+## Additional CLI scripts
+
+To delete one or more collections from database, run the following command:
+
+```bash
+node delete-collections --list=COLLECTION_A,COLLECTION_B
+```
+
+To delete all collections from database, run the command:
+
+```bash
+node delete-collections --list=all
 ```
