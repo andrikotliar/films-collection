@@ -6,13 +6,14 @@ To populate MongoDB database with predefined data, follow this three steps:
 
 3. Run the `node insert-all` command to insert all required data into the database.
 
-The script creates 4 collections in the database:
+The script creates several collections in the database:
 
 - **films**
 - **actors**
 - **chapters**
 - **awards**
 - **lists**
+- **collections**
 
 To populate a single collection, run the `insert-one` script with the `--collection` parameter.
 

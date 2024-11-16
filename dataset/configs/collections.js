@@ -22,6 +22,10 @@ const collectionsConfig = [
     dbCollection: 'lists',
     loader: () => loadJsonData('./data/supporting/lists.json'),
   },
+  {
+    dbCollection: 'collections',
+    loader: () => loadJsonData('./data/supporting/collections.json'),
+  },
 ];
 
 export { collectionsConfig };
