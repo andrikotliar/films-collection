@@ -136,7 +136,9 @@
     "STX",
     "Miramax"
   ],
-  "trailer": "vaN8BtA8OJk",
   "poster": "gentlemen.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "vaN8BtA8OJk"
+  ]
 }

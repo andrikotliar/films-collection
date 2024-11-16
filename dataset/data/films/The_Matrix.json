@@ -175,7 +175,9 @@
   "studios": [
     "WarnerBros"
   ],
-  "trailer": "m8e-FF8MsqU",
   "poster": "matrix_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "m8e-FF8MsqU"
+  ]
 }

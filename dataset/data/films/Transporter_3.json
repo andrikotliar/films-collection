@@ -104,7 +104,9 @@
   "studios": [
     "EuropaCorp"
   ],
-  "trailer": "Pbh3CDBNIQA",
   "poster": "transporter_3.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "Pbh3CDBNIQA"
+  ]
 }

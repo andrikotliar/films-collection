@@ -157,7 +157,9 @@
   "studios": [
     "WarnerBros"
   ],
-  "trailer": "5NYt1qirBWg",
   "poster": "harry_potter_8.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "5NYt1qirBWg"
+  ]
 }

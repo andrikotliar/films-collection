@@ -1,20 +1,14 @@
-import { Modal } from '@/components';
-import { FC, PropsWithChildren, ReactNode, useState } from 'react';
+import { FC, useState } from 'react';
+import { PlayIcon } from 'lucide-react';
+import { TrailersModal } from './components';
 import styles from './TrailerButton.module.css';
-import { PropsWithClassName } from '@/types';
-import classNames from 'classnames';
 
-type TrailerButtonProps = PropsWithClassName<{
-  trailer: string;
-  icon: ReactNode;
-}>;
+type TrailerButtonProps = {
+  trailers: string[];
+  title?: string;
+};
 
-const TrailerButton: FC<PropsWithChildren<TrailerButtonProps>> = ({
-  trailer,
-  icon,
-  children,
-  className,
-}) => {
+const TrailerButton: FC<TrailerButtonProps> = ({ trailers }) => {
   const [isTrailerOpen, setIsTrailerOpen] = useState(false);
 
   const handleCloseTrailer = () => {
@@ -25,30 +19,18 @@ const TrailerButton: FC<PropsWithChildren<TrailerButtonProps>> = ({
     <>
       <button
         onClick={() => setIsTrailerOpen(true)}
-        className={classNames(styles.playButton, className)}
+        className={styles.playButton}
+        title="Play trailer"
       >
-        <div className={styles.icon}>{icon}</div>
-        {children}
+        <div className={styles.iconWrapper}>
+          <PlayIcon size={18} className={styles.playIcon} />
+        </div>
       </button>
-      <Modal
+      <TrailersModal
         isOpen={isTrailerOpen}
         onClose={handleCloseTrailer}
-        className={styles.trailerModal}
-      >
-        <Modal.Content className={styles.trailerModalContent}>
-          <div className={styles.videoWrapper}>
-            <iframe
-              src={`https://www.youtube-nocookie.com/embed/${trailer}?rel=0&showinfo=0&autoplay=1`}
-              allow="autoplay"
-              allowFullScreen
-            />
-          </div>
-          <Modal.CloseButton
-            onClick={handleCloseTrailer}
-            className={styles.trailerCloseButton}
-          />
-        </Modal.Content>
-      </Modal>
+        trailers={trailers}
+      />
     </>
   );
 };

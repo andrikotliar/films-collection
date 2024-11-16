@@ -158,7 +158,9 @@
     "Lucasfilm",
     "WaltDisney"
   ],
-  "trailer": "frdj1zb9sMY",
   "poster": "rogue_one.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "frdj1zb9sMY"
+  ]
 }

@@ -44,10 +44,8 @@ type FilmAward = {
 };
 
 type SeasonType = {
-  title: string;
   number: number;
   episodesCount: number;
-  trailer: string;
   releaseDate: string;
 };
 
@@ -74,7 +72,7 @@ type FilmData = {
   boxOffice: number | null;
   awards: FilmAward[];
   poster: string;
-  trailer: string | null;
+  trailers: string[];
   seriesExtension: SeriesExtension | null;
   rating: number;
   chaptersId?: string;

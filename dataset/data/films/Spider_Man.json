@@ -122,7 +122,9 @@
     "Columbia",
     "MarvelEntertainment"
   ],
-  "trailer": "_yhFofFZGcc",
   "poster": "raimi_spider_man_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "_yhFofFZGcc"
+  ]
 }

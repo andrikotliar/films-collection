@@ -1,5 +1,5 @@
-import { loadMultipleFilesData } from './helpers/load-multiple-files-data.js';
-import { loadJsonData } from './helpers/load-json-data.js';
+import { loadMultipleFilesData } from '../helpers/load-multiple-files-data.js';
+import { loadJsonData } from '../helpers/load-json-data.js';
 
 const collectionsConfig = [
   {

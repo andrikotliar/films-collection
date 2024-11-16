@@ -101,7 +101,9 @@
   "studios": [
     "Universal"
   ],
-  "trailer": "EYkguxpqsrg",
   "poster": "back_to_the_future_3.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "EYkguxpqsrg"
+  ]
 }

@@ -173,7 +173,9 @@
   "studios": [
     "20thCenturyFox"
   ],
-  "trailer": "Ku_IseK3xTc",
   "poster": "day_after_tomorrow.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "Ku_IseK3xTc"
+  ]
 }

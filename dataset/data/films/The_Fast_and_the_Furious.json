@@ -131,7 +131,9 @@
   "studios": [
     "Universal"
   ],
-  "trailer": "2TAOizOnNPo",
   "poster": "fast_and_furious_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "2TAOizOnNPo"
+  ]
 }

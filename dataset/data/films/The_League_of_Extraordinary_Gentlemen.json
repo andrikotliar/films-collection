@@ -126,7 +126,9 @@
   "studios": [
     "20thCenturyFox"
   ],
-  "trailer": "_WWIiTlGyYQ",
   "poster": "league_of_extraordinary_gentlemen.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "_WWIiTlGyYQ"
+  ]
 }

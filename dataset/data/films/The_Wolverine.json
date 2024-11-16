@@ -112,7 +112,9 @@
     "20thCenturyFox",
     "MarvelEntertainment"
   ],
-  "trailer": "toLpchTUYk8",
   "poster": "wolverine.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "toLpchTUYk8"
+  ]
 }

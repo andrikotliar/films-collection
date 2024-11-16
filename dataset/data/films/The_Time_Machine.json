@@ -106,7 +106,9 @@
   "studios": [
     "WarnerBros"
   ],
-  "trailer": "90T7iLuzFgg",
   "poster": "time_machine.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "90T7iLuzFgg"
+  ]
 }

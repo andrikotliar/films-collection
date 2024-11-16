@@ -166,7 +166,9 @@
   "studios": [
     "Lionsgate"
   ],
-  "trailer": "mfmrPu43DF8",
   "poster": "hunger_games_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "mfmrPu43DF8"
+  ]
 }

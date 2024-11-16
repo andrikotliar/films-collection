@@ -234,7 +234,9 @@
     "WaltDisney",
     "MarvelStudios"
   ],
-  "trailer": "xjDjIWPwcPU",
   "poster": "black_panther.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "xjDjIWPwcPU"
+  ]
 }

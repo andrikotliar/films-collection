@@ -135,7 +135,9 @@
   "studios": [
     "Sony"
   ],
-  "trailer": "4W6byFcD5uE",
   "poster": "walk.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "4W6byFcD5uE"
+  ]
 }

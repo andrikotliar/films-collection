@@ -60,7 +60,7 @@
     "US",
     "UK"
   ],
-  "duration": 330,
+  "duration": 60,
   "cast": [
     {
       "actor": "64bedf38344e5978d2b55e18",
@@ -184,11 +184,9 @@
     "episodesTotal": 5,
     "seasons": [
       {
-        "title": "Season 1",
         "number": 1,
         "episodesCount": 5,
-        "releaseDate": "2019-05-06",
-        "trailer": "s9APLXM9Ei8"
+        "releaseDate": "2019-05-06"
       }
     ]
   },
@@ -205,5 +203,8 @@
     "HBO"
   ],
   "poster": "chernobyl.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "s9APLXM9Ei8"
+  ]
 }

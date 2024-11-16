@@ -147,7 +147,7 @@
   "countries": [
     "US"
   ],
-  "duration": 1275,
+  "duration": 60,
   "cast": [
     {
       "actor": "f49c1aa95b7c6f032daebb75",
@@ -324,32 +324,24 @@
     "episodesTotal": 34,
     "seasons": [
       {
-        "title": "Season 1",
         "number": 1,
         "episodesCount": 8,
-        "releaseDate": "2016-07-15",
-        "trailer": "b9EkMc79ZSU"
+        "releaseDate": "2016-07-15"
       },
       {
-        "title": "Season 2",
         "number": 2,
         "episodesCount": 9,
-        "releaseDate": "2017-10-27",
-        "trailer": "R1ZXOOLMJ8s"
+        "releaseDate": "2017-10-27"
       },
       {
-        "title": "Season 3",
         "number": 3,
         "episodesCount": 8,
-        "releaseDate": "2019-07-04",
-        "trailer": "6Am4v0C_z8c"
+        "releaseDate": "2019-07-04"
       },
       {
-        "title": "Season 4",
         "number": 4,
         "episodesCount": 9,
-        "releaseDate": "2022-08-01",
-        "trailer": "a3thyAnShck"
+        "releaseDate": "2022-08-01"
       }
     ]
   },
@@ -378,5 +370,11 @@
     "Netflix"
   ],
   "poster": "stranger_things.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "b9EkMc79ZSU",
+    "R1ZXOOLMJ8s",
+    "6Am4v0C_z8c",
+    "a3thyAnShck"
+  ]
 }

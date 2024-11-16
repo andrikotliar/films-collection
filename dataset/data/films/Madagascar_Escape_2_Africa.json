@@ -155,7 +155,9 @@
   "studios": [
     "DreamWorksAnimation"
   ],
-  "trailer": "hLVjIhPYq7s",
   "poster": "madagascar_2.webp",
-  "style": "Animation"
+  "style": "Animation",
+  "trailers": [
+    "hLVjIhPYq7s"
+  ]
 }

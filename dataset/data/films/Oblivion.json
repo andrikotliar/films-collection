@@ -127,7 +127,9 @@
   "studios": [
     "Universal"
   ],
-  "trailer": "XmIIgE7eSak",
   "poster": "oblivion.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "XmIIgE7eSak"
+  ]
 }

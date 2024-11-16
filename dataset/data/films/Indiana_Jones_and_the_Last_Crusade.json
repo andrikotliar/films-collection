@@ -143,7 +143,9 @@
     "Paramount",
     "Lucasfilm"
   ],
-  "trailer": "sagmdpkWUqc",
   "poster": "indiana_jones_3.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "sagmdpkWUqc"
+  ]
 }

@@ -187,7 +187,7 @@
   "countries": [
     "US"
   ],
-  "duration": 1200,
+  "duration": 60,
   "cast": [
     {
       "actor": "eebbf9192e962f80049539b6",
@@ -284,25 +284,19 @@
     "episodesTotal": 30,
     "seasons": [
       {
-        "title": "Season 1",
         "number": 1,
         "episodesCount": 10,
-        "releaseDate": "2019-02-15",
-        "trailer": "0DAmWHxeoKw"
+        "releaseDate": "2019-02-15"
       },
       {
-        "title": "Season 2",
         "number": 2,
         "episodesCount": 10,
-        "releaseDate": "2020-07-31",
-        "trailer": "SGgXLbZnr1Y"
+        "releaseDate": "2020-07-31"
       },
       {
-        "title": "Season 3",
         "number": 3,
         "episodesCount": 10,
-        "releaseDate": "2022-06-22",
-        "trailer": "hs6alRuY1UU"
+        "releaseDate": "2022-06-22"
       }
     ]
   },
@@ -327,5 +321,10 @@
     "Netflix"
   ],
   "poster": "umbrella_academy.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "0DAmWHxeoKw",
+    "SGgXLbZnr1Y",
+    "hs6alRuY1UU"
+  ]
 }

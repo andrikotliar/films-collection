@@ -149,7 +149,9 @@
     "Columbia",
     "MarvelEntertainment"
   ],
-  "trailer": "wPosLpgMtTY",
   "poster": "raimi_spider_man_3.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "wPosLpgMtTY"
+  ]
 }

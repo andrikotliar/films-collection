@@ -140,7 +140,9 @@
     "WaltDisney",
     "MarvelStudios"
   ],
-  "trailer": "Ke1Y3P9D0Bc",
   "poster": "iron_man_3.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "Ke1Y3P9D0Bc"
+  ]
 }

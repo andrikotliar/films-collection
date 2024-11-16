@@ -112,7 +112,9 @@
   "studios": [
     "Columbia"
   ],
-  "trailer": "7BWWWQzTpNU",
   "poster": "passengers.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "7BWWWQzTpNU"
+  ]
 }

@@ -133,7 +133,9 @@
     "CrossCreek",
     "Imagine"
   ],
-  "trailer": "AEBIJRAkujM",
   "poster": "american_made.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "AEBIJRAkujM"
+  ]
 }

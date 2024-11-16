@@ -118,7 +118,7 @@
   "countries": [
     "UK"
   ],
-  "duration": 1020,
+  "duration": 90,
   "cast": [
     {
       "actor": "5a86b2f23ea348e3a58775b6",
@@ -221,32 +221,24 @@
     "episodesTotal": 12,
     "seasons": [
       {
-        "title": "Season 1",
         "number": 1,
         "episodesCount": 3,
-        "releaseDate": "2010-07-25",
-        "trailer": "xK7S9mrFWL4"
+        "releaseDate": "2010-07-25"
       },
       {
-        "title": "Season 2",
         "number": 2,
         "episodesCount": 3,
-        "releaseDate": "2012-01-01",
-        "trailer": "vydmN9pzDzg"
+        "releaseDate": "2012-01-01"
       },
       {
-        "title": "Season 3",
         "number": 3,
         "episodesCount": 3,
-        "releaseDate": "2014-01-01",
-        "trailer": "9UcR9iKArd0"
+        "releaseDate": "2014-01-01"
       },
       {
-        "title": "Season 4",
         "number": 4,
         "episodesCount": 3,
-        "releaseDate": "2017-01-01",
-        "trailer": "FOXZgRTfSUA"
+        "releaseDate": "2017-01-01"
       }
     ]
   },
@@ -275,5 +267,11 @@
     "BBCOne"
   ],
   "poster": "sherlock.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "xK7S9mrFWL4",
+    "vydmN9pzDzg",
+    "9UcR9iKArd0",
+    "FOXZgRTfSUA"
+  ]
 }

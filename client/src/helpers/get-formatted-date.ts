@@ -1,7 +1,13 @@
-const getFormattedDate = (value: Date) => {
-  const formattedDate = value.toLocaleString('en-US', {
+const getFormattedDate = (value?: string): string | null => {
+  if (!value) {
+    return null;
+  }
+
+  const date = new Date(value);
+
+  const formattedDate = date.toLocaleString('en-US', {
     month: 'long',
-    day: '2-digit',
+    day: 'numeric',
     year: 'numeric',
   });
 

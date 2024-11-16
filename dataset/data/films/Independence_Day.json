@@ -139,7 +139,9 @@
   "studios": [
     "20thCenturyFox"
   ],
-  "trailer": "kA2WzBi2grE",
   "poster": "independence_day.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "kA2WzBi2grE"
+  ]
 }

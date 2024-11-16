@@ -172,7 +172,9 @@
     "Universal",
     "Legendary"
   ],
-  "trailer": "2Rxoz13Bthc",
   "poster": "warcraft.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "2Rxoz13Bthc"
+  ]
 }

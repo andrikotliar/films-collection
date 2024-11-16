@@ -87,7 +87,7 @@
   "countries": [
     "US"
   ],
-  "duration": 350,
+  "duration": 39,
   "cast": [
     {
       "actor": "f6de6e5bd473d73c2055ef99",
@@ -157,11 +157,9 @@
     "episodesTotal": 9,
     "seasons": [
       {
-        "title": "Season 1",
         "number": 1,
         "episodesCount": 9,
-        "releaseDate": "2021-01-15",
-        "trailer": "sj9J2ecsSpo"
+        "releaseDate": "2021-01-15"
       }
     ]
   },
@@ -180,5 +178,8 @@
     "MarvelStudios"
   ],
   "poster": "wandavision.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "sj9J2ecsSpo"
+  ]
 }

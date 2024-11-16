@@ -239,7 +239,9 @@
     "WaltDisney",
     "MarvelStudios"
   ],
-  "trailer": "6ZfuNTqbHE8",
   "poster": "avengers_3.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "6ZfuNTqbHE8"
+  ]
 }

@@ -139,7 +139,7 @@
   "countries": [
     "US"
   ],
-  "duration": 640,
+  "duration": 40,
   "cast": [
     {
       "actor": "b5ff52d0995bec144e227184",
@@ -244,18 +244,14 @@
     "episodesTotal": 16,
     "seasons": [
       {
-        "title": "Season 1",
         "number": 1,
         "episodesCount": 8,
-        "releaseDate": "2019-11-12",
-        "trailer": "OFlBh_eUsjA"
+        "releaseDate": "2019-11-12"
       },
       {
-        "title": "Season 2",
         "number": 2,
         "episodesCount": 8,
-        "releaseDate": "2020-10-30",
-        "trailer": "eW7Twd85m2g"
+        "releaseDate": "2020-10-30"
       }
     ]
   },
@@ -278,5 +274,9 @@
     "Lucasfilm"
   ],
   "poster": "mandalorian.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "OFlBh_eUsjA",
+    "eW7Twd85m2g"
+  ]
 }

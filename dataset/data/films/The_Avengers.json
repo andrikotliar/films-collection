@@ -192,7 +192,9 @@
     "WaltDisney",
     "MarvelStudios"
   ],
-  "trailer": "hIR8Ar-Z4hw",
   "poster": "avengers_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "hIR8Ar-Z4hw"
+  ]
 }

@@ -158,7 +158,7 @@
   "countries": [
     "US"
   ],
-  "duration": 1220,
+  "duration": 23,
   "cast": [
     {
       "actor": "2ce21281528737b83dc6b40a",
@@ -312,25 +312,19 @@
     "episodesTotal": 61,
     "seasons": [
       {
-        "title": "Book 1: Water",
         "number": 1,
         "episodesCount": 20,
-        "releaseDate": "2005-02-21",
-        "trailer": "ahPeclU9VW0"
+        "releaseDate": "2005-02-21"
       },
       {
-        "title": "Book 2: Earth",
         "number": 2,
         "episodesCount": 20,
-        "releaseDate": "2006-03-17",
-        "trailer": "ahPeclU9VW0"
+        "releaseDate": "2006-03-17"
       },
       {
-        "title": "Book 3: Fire",
         "number": 3,
         "episodesCount": 21,
-        "releaseDate": "2007-09-21",
-        "trailer": "ahPeclU9VW0"
+        "releaseDate": "2007-09-21"
       }
     ]
   },
@@ -356,5 +350,10 @@
     "Nickelodeon"
   ],
   "poster": "atla.webp",
-  "style": "Animation"
+  "style": "Animation",
+  "trailers": [
+    "ahPeclU9VW0",
+    "ahPeclU9VW0",
+    "ahPeclU9VW0"
+  ]
 }

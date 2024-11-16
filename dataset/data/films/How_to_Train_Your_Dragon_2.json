@@ -108,7 +108,9 @@
   "studios": [
     "DreamWorksAnimation"
   ],
-  "trailer": "2BP38770KNo",
   "poster": "how_to_train_your_dragon_2.webp",
-  "style": "Animation"
+  "style": "Animation",
+  "trailers": [
+    "2BP38770KNo"
+  ]
 }

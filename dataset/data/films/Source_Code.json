@@ -110,7 +110,9 @@
   "studios": [
     "Summit"
   ],
-  "trailer": "mnJegNyAb1w",
   "poster": "source_code.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "mnJegNyAb1w"
+  ]
 }

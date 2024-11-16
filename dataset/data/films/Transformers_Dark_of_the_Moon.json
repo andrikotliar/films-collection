@@ -153,7 +153,9 @@
     "DreamWorks",
     "Paramount"
   ],
-  "trailer": "bTIrEZM-cFE",
   "poster": "transformers_3.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "bTIrEZM-cFE"
+  ]
 }

@@ -131,7 +131,9 @@
     "WaltDisney",
     "MarvelStudios"
   ],
-  "trailer": "HSzx-zryEgM",
   "poster": "doctor_strange.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "HSzx-zryEgM"
+  ]
 }

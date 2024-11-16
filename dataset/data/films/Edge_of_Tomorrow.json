@@ -170,7 +170,9 @@
   "studios": [
     "WarnerBros"
   ],
-  "trailer": "vw61gCe2oqI",
   "poster": "edge_of_tomorow.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "vw61gCe2oqI"
+  ]
 }

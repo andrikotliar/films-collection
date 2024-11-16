@@ -291,7 +291,7 @@
   "countries": [
     "US"
   ],
-  "duration": 3465,
+  "duration": 45,
   "cast": [
     {
       "actor": "107520f3c0ddbf1232fbdc65",
@@ -424,39 +424,29 @@
     "episodesTotal": 77,
     "seasons": [
       {
-        "title": "Volume 1: Genesis",
         "number": 1,
         "episodesCount": 23,
-        "releaseDate": "2006-09-25",
-        "trailer": "9AX6aXFdTkc"
+        "releaseDate": "2006-09-25"
       },
       {
-        "title": "Volume 2: Generations",
         "number": 2,
         "episodesCount": 11,
-        "releaseDate": "2007-09-24",
-        "trailer": "9mNGxXpAmHc"
+        "releaseDate": "2007-09-24"
       },
       {
-        "title": "Volume 3. Part 1: Villains",
         "number": 3,
         "episodesCount": 18,
-        "releaseDate": "2008-09-22",
-        "trailer": "i1VA_aWyrPI"
+        "releaseDate": "2008-09-22"
       },
       {
-        "title": "Volume 3. Part 2: Fugitives",
         "number": 4,
         "episodesCount": 13,
-        "releaseDate": "2009-02-02",
-        "trailer": "mTzPPIEUFEs"
+        "releaseDate": "2009-02-02"
       },
       {
-        "title": "Volume 4: Redemption",
         "number": 5,
         "episodesCount": 12,
-        "releaseDate": "2009-09-21",
-        "trailer": "mTzPPIEUFEs"
+        "releaseDate": "2009-09-21"
       }
     ]
   },
@@ -491,5 +481,12 @@
     "UniversalMedia"
   ],
   "poster": "heroes.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "9AX6aXFdTkc",
+    "9mNGxXpAmHc",
+    "i1VA_aWyrPI",
+    "mTzPPIEUFEs",
+    "mTzPPIEUFEs"
+  ]
 }

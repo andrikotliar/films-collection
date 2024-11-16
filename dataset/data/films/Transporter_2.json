@@ -122,7 +122,9 @@
   "studios": [
     "EuropaCorp"
   ],
-  "trailer": "sYJ5LDoWRT4",
   "poster": "transporter_2.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "sYJ5LDoWRT4"
+  ]
 }

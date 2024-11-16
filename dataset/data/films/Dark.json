@@ -92,7 +92,7 @@
     "DE",
     "US"
   ],
-  "duration": 1560,
+  "duration": 60,
   "cast": [
     {
       "actor": "a3f2c6bac605786f9f56d15a",
@@ -265,25 +265,19 @@
     "episodesTotal": 24,
     "seasons": [
       {
-        "title": "Season 1",
         "number": 1,
         "episodesCount": 8,
-        "releaseDate": "2017-12-01",
-        "trailer": "rrwycJ08PSA"
+        "releaseDate": "2017-12-01"
       },
       {
-        "title": "Season 2",
         "number": 2,
         "episodesCount": 8,
-        "releaseDate": "2019-06-21",
-        "trailer": "810CHvSdXOo"
+        "releaseDate": "2019-06-21"
       },
       {
-        "title": "Season 3",
         "number": 3,
         "episodesCount": 8,
-        "releaseDate": "2020-06-27",
-        "trailer": "cq2iTHoLrt0"
+        "releaseDate": "2020-06-27"
       }
     ]
   },
@@ -308,5 +302,10 @@
     "Netflix"
   ],
   "poster": "dark.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "rrwycJ08PSA",
+    "810CHvSdXOo",
+    "cq2iTHoLrt0"
+  ]
 }

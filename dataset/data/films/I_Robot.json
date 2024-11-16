@@ -127,7 +127,9 @@
   "studios": [
     "20thCenturyFox"
   ],
-  "trailer": "rL6RRIOZyCM",
   "poster": "i_robot.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "rL6RRIOZyCM"
+  ]
 }

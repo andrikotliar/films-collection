@@ -171,7 +171,9 @@
   "studios": [
     "Universal"
   ],
-  "trailer": "Skpu5HaVkOc",
   "poster": "fast_and_furious_7.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "Skpu5HaVkOc"
+  ]
 }

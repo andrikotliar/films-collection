@@ -142,7 +142,9 @@
   "studios": [
     "WarnerBros"
   ],
-  "trailer": "y6ZW7KXaXYk",
   "poster": "harry_potter_5.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "y6ZW7KXaXYk"
+  ]
 }

@@ -190,7 +190,9 @@
     "WaltDisney",
     "MarvelStudios"
   ],
-  "trailer": "tmeOjFno6Do",
   "poster": "avengers_2.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "tmeOjFno6Do"
+  ]
 }

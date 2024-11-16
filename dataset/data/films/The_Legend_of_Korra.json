@@ -95,7 +95,7 @@
   "countries": [
     "US"
   ],
-  "duration": 1196,
+  "duration": 23,
   "cast": [
     {
       "actor": "f141d903681afc605667e90b",
@@ -260,32 +260,24 @@
     "episodesTotal": 52,
     "seasons": [
       {
-        "title": "Book One: Air",
         "number": 1,
         "episodesCount": 12,
-        "releaseDate": "2012-04-14",
-        "trailer": "NBNpGCIavwA"
+        "releaseDate": "2012-04-14"
       },
       {
-        "title": "Book Two: Spirits",
         "number": 2,
         "episodesCount": 14,
-        "releaseDate": "2013-09-13",
-        "trailer": "NBNpGCIavwA"
+        "releaseDate": "2013-09-13"
       },
       {
-        "title": "Book Three: Change",
         "number": 3,
         "episodesCount": 13,
-        "releaseDate": "2014-06-27",
-        "trailer": "NBNpGCIavwA"
+        "releaseDate": "2014-06-27"
       },
       {
-        "title": "Book Four: Balance",
         "number": 4,
         "episodesCount": 13,
-        "releaseDate": "2014-10-03",
-        "trailer": "NBNpGCIavwA"
+        "releaseDate": "2014-10-03"
       }
     ]
   },
@@ -315,5 +307,11 @@
     "Nickelodeon"
   ],
   "poster": "legend_of_korra.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "NBNpGCIavwA",
+    "NBNpGCIavwA",
+    "NBNpGCIavwA",
+    "NBNpGCIavwA"
+  ]
 }

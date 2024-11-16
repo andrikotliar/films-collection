@@ -198,7 +198,9 @@
     "Columbia",
     "MarvelEntertainment"
   ],
-  "trailer": "g4Hbz2jLxvQ",
   "poster": "spiderman_intospiderverse.webp",
-  "style": "Animation"
+  "style": "Animation",
+  "trailers": [
+    "g4Hbz2jLxvQ"
+  ]
 }

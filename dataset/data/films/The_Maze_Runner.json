@@ -151,7 +151,9 @@
   "studios": [
     "20thCenturyFox"
   ],
-  "trailer": "AwwbhhjQ9Xk",
   "poster": "maze_runner_1.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "AwwbhhjQ9Xk"
+  ]
 }

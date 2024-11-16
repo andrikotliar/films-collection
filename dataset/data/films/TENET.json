@@ -158,7 +158,9 @@
     "WarnerBros",
     "Syncopy"
   ],
-  "trailer": "AZGcmvrTX9M",
   "poster": "tenet.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "AZGcmvrTX9M"
+  ]
 }

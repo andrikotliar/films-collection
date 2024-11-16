@@ -152,7 +152,9 @@
     "20thCenturyFox",
     "MarvelEntertainment"
   ],
-  "trailer": "kyQKi5-k0UU",
   "poster": "x_men_5.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "kyQKi5-k0UU"
+  ]
 }

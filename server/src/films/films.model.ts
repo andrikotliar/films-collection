@@ -100,10 +100,6 @@ const AwardSchema = new Schema<FilmAward>({
 });
 
 const SeasonSchema = new Schema<SeasonType>({
-  title: {
-    type: String,
-    required: true,
-  },
   number: {
     type: Number,
     required: true,
@@ -113,10 +109,6 @@ const SeasonSchema = new Schema<SeasonType>({
     type: Number,
     required: true,
     min: 1,
-  },
-  trailer: {
-    type: String,
-    required: true,
   },
   releaseDate: {
     type: String,
@@ -187,9 +179,9 @@ const FilmsSchema = new Schema<FilmData>({
     type: String,
     required: true,
   },
-  trailer: {
-    type: String,
-    required: false,
+  trailers: {
+    type: [String],
+    required: true,
   },
   cast: {
     type: [CastSchema],

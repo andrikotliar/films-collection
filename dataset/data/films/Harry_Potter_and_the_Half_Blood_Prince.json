@@ -135,7 +135,9 @@
   "studios": [
     "WarnerBros"
   ],
-  "trailer": "sg81Lts5kYY",
   "poster": "harry_potter_6.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "sg81Lts5kYY"
+  ]
 }

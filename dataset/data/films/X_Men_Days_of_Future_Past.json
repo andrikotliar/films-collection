@@ -167,7 +167,9 @@
     "20thCenturyFox",
     "MarvelEntertainment"
   ],
-  "trailer": "pK2zYHWDZKo",
   "poster": "x_men_6.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "pK2zYHWDZKo"
+  ]
 }

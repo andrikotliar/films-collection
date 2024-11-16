@@ -97,7 +97,7 @@
   "countries": [
     "US"
   ],
-  "duration": 360,
+  "duration": 57,
   "cast": [
     {
       "actor": "333fe7873ab5451125a195a7",
@@ -151,11 +151,9 @@
     "episodesTotal": 6,
     "seasons": [
       {
-        "title": "Season 1",
         "number": 1,
         "episodesCount": 6,
-        "releaseDate": "2021-11-24",
-        "trailer": "5VYb3B1ETlk"
+        "releaseDate": "2021-11-24"
       }
     ]
   },
@@ -173,5 +171,8 @@
     "MarvelStudios"
   ],
   "poster": "hawkeye.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "5VYb3B1ETlk"
+  ]
 }

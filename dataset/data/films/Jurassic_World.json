@@ -160,7 +160,9 @@
   "studios": [
     "Universal"
   ],
-  "trailer": "RFinNxS5KN4",
   "poster": "jurassic_world.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "RFinNxS5KN4"
+  ]
 }

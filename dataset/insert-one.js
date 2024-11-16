@@ -1,28 +1,25 @@
-import { MongoClient } from 'mongodb';
-import { getEnvironmentVariables } from './helpers/get-environment-variables.js';
 import { logger } from './helpers/logger.js';
 import { insertDataIntoCollection } from './helpers/insert-data.js';
-import { collectionsConfig } from './config.js';
+import { collectionsConfig } from './configs/collections.js';
+import { initApp } from './helpers/init-app.js';
 
-const env = getEnvironmentVariables();
-
-const mongoClient = new MongoClient(env.database.uri);
+const { mongoClient, database, cliParams } = initApp();
 
 const init = async () => {
   try {
-    const collectionName = process.argv[2];
+    if (!cliParams.collection) {
+      throw new Error(`--collection param is not specified`);
+    }
 
     const collectionToInsert = collectionsConfig.find(
-      (config) => config.dbCollection === collectionName,
+      (config) => config.dbCollection === cliParams.collection,
     );
 
     if (!collectionToInsert) {
       throw new Error(
-        `Collection ${collectionName} is not defined in the config`,
+        `Collection ${cliParams.collection} is not defined in the config`,
       );
     }
-
-    const database = mongoClient.db(env.database.name);
 
     const mongoDbCollection = database.collection(
       collectionToInsert.dbCollection,

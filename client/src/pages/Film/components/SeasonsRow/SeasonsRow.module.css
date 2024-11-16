@@ -1,0 +1,66 @@
+.seasonsRow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.seasonSelectWrapper {
+  position: relative;
+  z-index: 2;
+}
+
+.seasonSelect {
+  padding: 6px 30px 6px 10px;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  appearance: none;
+  height: 30px;
+}
+
+.seasonSelect:disabled {
+  cursor: default;
+}
+
+.chevronDownIcon {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  z-index: -1;
+  cursor: pointer;
+}
+
+.seasonSelect:disabled + .chevronDownIcon {
+  opacity: 0.5;
+}
+
+.dataRow {
+  color: var(--blue-light);
+  border: 1px solid var(--blue-light);
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.dataRowLabel {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+@media (max-width: 480px) {
+  .seasonSelectWrapper {
+    width: 100%;
+  }
+
+  .seasonSelect {
+    width: 100%;
+    text-align: center;
+  }
+
+  .dataRow {
+    font-size: 12px;
+    flex-grow: 1;
+    text-align: center;
+  }
+}

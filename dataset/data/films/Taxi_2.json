@@ -115,7 +115,9 @@
   "studios": [
     "Lionsgate"
   ],
-  "trailer": "XkMZ75BwhCg",
   "poster": "taxi_2.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "XkMZ75BwhCg"
+  ]
 }

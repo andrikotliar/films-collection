@@ -113,7 +113,9 @@
     "MarvelStudios",
     "Universal"
   ],
-  "trailer": "xbqNb2PFKKA",
   "poster": "the_incredible_hulk.webp",
-  "style": "LiveAction"
+  "style": "LiveAction",
+  "trailers": [
+    "xbqNb2PFKKA"
+  ]
 }
