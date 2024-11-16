@@ -7,14 +7,12 @@ type TagLinksGroupProps = {
   basePath: string;
   items: (string | number)[];
   variant?: TagLinkProps['variant'];
-  titles?: any;
 };
 
 const TagLinksGroup: FC<TagLinksGroupProps> = ({
   basePath,
   items,
   variant,
-  titles,
 }) => {
   return (
     <LinksGroupWrapper>
@@ -26,7 +24,7 @@ const TagLinksGroup: FC<TagLinksGroupProps> = ({
           key={item}
           variant={variant}
         >
-          {titles[item]}
+          {item}
         </TagLink>
       ))}
     </LinksGroupWrapper>

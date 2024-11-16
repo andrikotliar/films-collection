@@ -5,3 +5,5 @@ export * from './props-with-class-name';
 export * from './nav-link';
 export * from './menu-config-item';
 export * from './award';
+export * from './collection';
+export * from './list-option';

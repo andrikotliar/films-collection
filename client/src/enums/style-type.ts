@@ -1,5 +1,5 @@
 enum StyleType {
-  LIVE_ACTION = 'LiveAction',
+  LIVE_ACTION = 'Live-Action',
   ANIMATION = 'Animation',
 }
 

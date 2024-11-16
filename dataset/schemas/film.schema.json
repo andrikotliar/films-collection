@@ -20,15 +20,15 @@
       "description": "Style of a title",
       "enum": [
         "Animation",
-        "LiveAction"
+        "Live Action"
       ],
-      "default": "LiveAction"
+      "default": "Live Action"
     },
     "genres": {
       "type": "array",
       "description": "List of genres, each genre name should be written in Pascal Case and defined in genres enum on the frontend and backend",
       "examples": [
-        "SciFi",
+        "Sci-Fi",
         "Adventures"
       ],
       "items": {
@@ -48,9 +48,9 @@
               "Director",
               "Writer",
               "Producer",
-              "Music",
-              "Cinematography",
-              "SeriesCreator"
+              "Composer",
+              "Cameraman",
+              "Creator"
             ]
           },
           "people": {
@@ -135,13 +135,9 @@
       "items": {
         "type": "object",
         "properties": {
-          "key": {
+          "collection": {
             "type": "string",
-            "description": "Collections enum. A key should be written in Pascal Case. New collections should be listed in enums on the backend and frontend",
-            "examples": [
-              "FantasyWorlds",
-              "Top10"
-            ]
+            "description": "Reference to the collection. HEX string"
           },
           "order": {
             "type": "number",
@@ -181,7 +177,7 @@
         "properties": {
           "award": {
             "type": "string",
-            "description": "Award ID reference"
+            "description": "Award ID reference. HEX string"
           },
           "nominations": {
             "type": "array",

@@ -1,6 +1,6 @@
 import styles from './Filters.module.css';
 import { useContext, useEffect } from 'react';
-import { filtersConfig } from '@/configs';
+import { getFiltersConfig } from '@/configs';
 import { useForm, FormProvider } from 'react-hook-form';
 import { Button, ScrollableWrapper } from '@/components';
 import { SidebarContext } from '@/pages/Root/context';
@@ -32,6 +32,7 @@ const defaultValues: FormValues = {
   studios: null,
 };
 
+// TODO: get filter options data from the server response
 const Filters = () => {
   const { filterParams, updateFilter, resetFilter } = useQueryFilter();
 
@@ -81,9 +82,9 @@ const Filters = () => {
         className={styles.filters}
       >
         <ScrollableWrapper className={styles.filterGroups}>
-          {filtersConfig.map((filter) => (
+          {/* {filtersConfig.map((filter) => (
             <FilterOptions filter={filter} key={filter.title} />
-          ))}
+          ))} */}
         </ScrollableWrapper>
         <div className={styles.controls}>
           <Button icon={<SearchIcon />} type="submit">

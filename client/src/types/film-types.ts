@@ -1,14 +1,7 @@
-import {
-  Country,
-  Genre,
-  PersonRole,
-  Studio,
-  TitleType,
-  Collection as CollectionEnum,
-  StyleType,
-} from '@/enums';
+import { PersonRole, TitleType, StyleType } from '@/enums';
 import { Actor } from './actor';
 import { AwardData } from './award';
+import { Collection } from './collection';
 
 type Crew = {
   role: PersonRole;
@@ -24,11 +17,6 @@ type CastType = {
     name: string;
     image: string | null;
   };
-};
-
-type Collection = {
-  key: CollectionEnum;
-  order: number | null;
 };
 
 type Nomination = {
@@ -68,15 +56,15 @@ type FilmData = {
   type: TitleType;
   style: StyleType;
   title: string;
-  genres: Genre[];
-  studios: Studio[];
+  genres: string[];
+  studios: string[];
   crew: Crew[];
   description: FilmDescription[];
-  countries: Country[];
+  countries: string[];
   releaseDate: string;
   duration: number;
   cast: CastType[];
-  collections: Collection[];
+  collections: Pick<Collection, '_id' | 'title'>[];
   budget: number | null;
   boxOffice: number | null;
   awards: FilmAward[];
@@ -117,7 +105,7 @@ type AdditionalCrewInfo = {
 
 type AdditionalCollectionInfo = {
   type: 'collection';
-  data: CollectionEnum;
+  data: Collection;
 };
 
 type AdditionalAwardsInfo = {
@@ -147,12 +135,12 @@ type RandomFilmsList = Pick<FilmData, '_id' | 'title' | 'poster'>[];
 type FilmsListFilters = FilmsListPagination &
   Partial<{
     type: TitleType[];
-    genre: Genre[];
+    genre: string[];
     startDate: string;
     endDate: string;
-    country: Country[];
-    studio: Studio[];
-    collection: Collection[];
+    country: string[];
+    studio: string[];
+    collection: string[];
   }>;
 
 export type {

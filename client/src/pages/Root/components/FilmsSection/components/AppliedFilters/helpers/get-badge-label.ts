@@ -1,4 +1,3 @@
-import { combinedTitles } from '@/titles/combined-titles';
 import { AppliedFilter } from '../types';
 import { getFormattedDate, getFormattedMoneyValue } from '@/helpers';
 
@@ -37,10 +36,6 @@ const getBadgeLabel = (filter: AppliedFilter) => {
 
   if (filter.key === 'watchCount') {
     return `Watch Count: ${filter.value}`;
-  }
-
-  if (combinedTitles[filter.value as keyof typeof combinedTitles]) {
-    return combinedTitles[filter.value as keyof typeof combinedTitles];
   }
 
   return filter.value;

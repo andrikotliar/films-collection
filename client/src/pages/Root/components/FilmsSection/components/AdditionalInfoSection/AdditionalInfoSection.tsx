@@ -2,7 +2,6 @@ import { buildMediaPath } from '@/helpers';
 import { AdditionalInfo } from '@/types';
 import { FC } from 'react';
 import { InfoBlock } from '../InfoBlock/InfoBlock';
-import { collectionTitles, personRoleTitles } from '@/titles';
 
 type AdditionalInfoProps = {
   info: AdditionalInfo | null;
@@ -25,21 +24,11 @@ const AdditionalInfoSection: FC<AdditionalInfoProps> = ({ info }) => {
   }
 
   if (info.type === 'collection') {
-    return (
-      <InfoBlock
-        title={collectionTitles[info.data]}
-        label="Filtered by Collection"
-      />
-    );
+    return <InfoBlock title={info.data.title} label="Filtered by Collection" />;
   }
 
   if (info.type === 'crew') {
-    return (
-      <InfoBlock
-        title={info.data.name}
-        label={personRoleTitles[info.data.role]}
-      />
-    );
+    return <InfoBlock title={info.data.name} label={info.data.role} />;
   }
 
   if (info.type === 'awards' && info.data[0]) {

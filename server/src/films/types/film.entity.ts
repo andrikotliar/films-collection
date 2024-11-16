@@ -1,13 +1,5 @@
 import { ObjectId } from 'mongoose';
-import {
-  Country,
-  Genre,
-  PersonRole,
-  Studio,
-  TitleType,
-  CollectionEnum,
-  StyleType,
-} from '../enums';
+import { PersonRole, TitleType, StyleType } from '../enums';
 
 type Person = {
   name: string;
@@ -28,7 +20,7 @@ type CastType = {
 };
 
 type Collection = {
-  key: CollectionEnum;
+  id: string;
   order?: number;
 };
 
@@ -59,11 +51,11 @@ type FilmData = {
   type: TitleType;
   style: StyleType;
   title: string;
-  genres: Genre[];
-  studios: Studio[];
+  genres: string[];
+  studios: string[];
   crew: Crew[];
   description: string[];
-  countries: Country[];
+  countries: string[];
   releaseDate: string;
   duration: number;
   cast: CastType[];

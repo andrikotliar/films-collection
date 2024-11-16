@@ -1,7 +1,7 @@
 [
   {
     "id": "2793771ce443163ff9402648",
-    "type": "genres",
+    "type": "Genres",
     "values": [
       "Sci-Fi",
       "Fantasy",
@@ -27,7 +27,7 @@
   },
   {
     "id": "c6bc35c9aa5440cfdcea138d",
-    "type": "countries",
+    "type": "Countries",
     "values": [
       "USA",
       "UK",
@@ -50,7 +50,7 @@
   },
   {
     "id": "93aaf5d8fe2760eb1d0eb8ed",
-    "type": "studios",
+    "type": "Studios",
     "values": [
       "Walt Disney Pictures",
       "Disney+",
@@ -120,7 +120,7 @@
   },
   {
     "id": "8405893779ef49c9788cc9c5",
-    "type": "crewRoles",
+    "type": "CrewRoles",
     "values": [
       "Director",
       "Writer",
@@ -132,7 +132,7 @@
   },
   {
     "id": "b00bedff3071c08ca5123006",
-    "type": "titleTypes",
+    "type": "TitleTypes",
     "values": [
       "Film",
       "Series"
@@ -140,7 +140,7 @@
   },
   {
     "id": "51d03073b45a0de88cfa67f0",
-    "type": "styles",
+    "type": "Styles",
     "values": [
       "Live-Action",
       "Animation"

@@ -68,6 +68,12 @@ All seeding data are in the `data` folder. Delete or add the data to fit your li
       "/dataset/data/supporting/lists.json"
     ],
     "url": "./dataset/schemas/lists.schema.json"
+  },
+  {
+    "fileMatch": [
+      "/dataset/data/supporting/collections.json"
+    ],
+    "url": "./dataset/schemas/collections.schema.json"
   }
 ]
 ```

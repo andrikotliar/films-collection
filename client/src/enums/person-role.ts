@@ -2,9 +2,9 @@ enum PersonRole {
   DIRECTOR = 'Director',
   WRITER = 'Writer',
   PRODUCER = 'Producer',
-  MUSIC = 'Music',
-  CINEMATOGRAPHY = 'Cinematography',
-  SERIES_CREATOR = 'SeriesCreator',
+  COMPOSER = 'Composer',
+  CAMERAMAN = 'Cameraman',
+  CREATOR = 'Creator',
 }
 
 export { PersonRole };

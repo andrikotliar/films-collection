@@ -12,8 +12,6 @@ import {
   TagLinksGroup,
 } from '../components';
 import { SummaryConfig } from '../types';
-import { genreTitles } from '@/titles/genre-titles';
-import { collectionTitles, countryTitles, studioTitles } from '@/titles';
 import { TitleType } from '@/enums';
 import { checkHasBoxOfficeBenefit } from './check-box-office-has-benefit';
 
@@ -27,13 +25,7 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
     {
       id: 'genres',
       title: 'Genres',
-      content: (
-        <TagLinksGroup
-          items={film.genres}
-          basePath="genres"
-          titles={genreTitles}
-        />
-      ),
+      content: <TagLinksGroup items={film.genres} basePath="genres" />,
     },
     {
       id: 'releaseDate',
@@ -60,7 +52,6 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
           basePath="countries"
           items={film.countries}
           variant="gray"
-          titles={countryTitles}
         />
       ),
       isHidden: film.countries.length === 0,
@@ -69,12 +60,7 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
       id: 'studios',
       title: 'Production studios',
       content: (
-        <TagLinksGroup
-          basePath="studios"
-          items={film.studios}
-          variant="gray"
-          titles={studioTitles}
-        />
+        <TagLinksGroup basePath="studios" items={film.studios} variant="gray" />
       ),
       isHidden: film.studios.length === 0,
     },
@@ -84,9 +70,8 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
       content: (
         <TagLinksGroup
           basePath="collection"
-          items={film.collections.map((collection) => collection.key)}
+          items={film.collections.map((collection) => collection.title)}
           variant="pink"
-          titles={collectionTitles}
         />
       ),
       isHidden: film.collections.length === 0,
