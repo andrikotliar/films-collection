@@ -69,11 +69,11 @@ All seeding data are in the `data` folder. Delete or add the data to fit your li
 To delete one or more collections from database, run the following command:
 
 ```bash
-node delete-collections --list=COLLECTION_A,COLLECTION_B
+node delete-collections --collections=COLLECTION_A,COLLECTION_B
 ```
 
 To delete all collections from database, run the command:
 
 ```bash
-node delete-collections --list=all
+node delete-collections --collections=all
 ```
