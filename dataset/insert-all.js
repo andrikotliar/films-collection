@@ -1,17 +1,12 @@
-import { MongoClient } from 'mongodb';
-import { getEnvironmentVariables } from './helpers/get-environment-variables.js';
 import { logger } from './helpers/logger.js';
 import { insertDataIntoCollection } from './helpers/insert-data.js';
-import { collectionsConfig } from './config.js';
+import { collectionsConfig } from './configs/collections.js';
+import { initApp } from './helpers/init-app.js';
 
-const env = getEnvironmentVariables();
-
-const mongoClient = new MongoClient(env.database.uri);
+const { mongoClient, database } = initApp();
 
 const init = async () => {
   try {
-    const database = mongoClient.db(env.database.name);
-
     const promises = collectionsConfig.map(async (dataConfig) => {
       const mongoDbCollection = database.collection(dataConfig.dbCollection);
 
