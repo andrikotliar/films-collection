@@ -1,6 +1,6 @@
 enum CollectionType {
   GENERAL = 'General',
-  CINEMATIC_UNIVERSE = 'Cinematic Universe',
+  CINEMATIC_UNIVERSE = 'CinematicUniverse',
   TOP = 'Top',
 }
 

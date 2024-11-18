@@ -8,11 +8,11 @@ import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
 import { useQueryFilter } from '@/hooks';
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
-import { StyleType, TitleType } from '@/enums';
+import { TitleType } from '@/enums';
 
 type FormValues = {
   type: TitleType | null;
-  style: StyleType | null;
+  style: string | null;
   collections: string[] | null;
   genres: string[] | null;
   startDate: string | null;

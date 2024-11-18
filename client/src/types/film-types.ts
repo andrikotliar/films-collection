@@ -1,10 +1,10 @@
-import { PersonRole, TitleType, StyleType } from '@/enums';
+import { TitleType } from '@/enums';
 import { Actor } from './actor';
 import { AwardData } from './award';
 import { Collection } from './collection';
 
 type Crew = {
-  role: PersonRole;
+  role: string;
   people: {
     name: string;
     comment: string;
@@ -54,7 +54,7 @@ type FilmDescription = {
 type FilmData = {
   _id: string;
   type: TitleType;
-  style: StyleType;
+  style: string;
   title: string;
   genres: string[];
   studios: string[];
@@ -98,7 +98,7 @@ type AdditionalActorData = {
 type AdditionalCrewInfo = {
   type: 'crew';
   data: {
-    role: PersonRole;
+    role: string;
     name: string;
   };
 };
