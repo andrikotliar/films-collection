@@ -10,7 +10,6 @@ import {
   SeasonType,
   SeriesExtension,
 } from './types';
-import { PersonRole, TitleType, StyleType } from './enums';
 import { ActorModel } from '../actors/actors.model';
 import { AwardModel } from '../awards/awards.model';
 
@@ -29,7 +28,6 @@ const FilmPersonSchema = new Schema<Person>({
 const FilmCrewSchema = new Schema<Crew>({
   role: {
     type: String,
-    enum: Object.values(PersonRole),
     required: true,
   },
   people: {
@@ -127,12 +125,10 @@ const FilmsSchema = new Schema<FilmData>({
   },
   type: {
     type: String,
-    enum: Object.values(TitleType),
     required: true,
   },
   style: {
     type: String,
-    enum: Object.values(StyleType),
     required: true,
   },
   genres: {

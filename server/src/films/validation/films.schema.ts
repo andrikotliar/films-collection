@@ -1,5 +1,4 @@
 import { FastifySchema } from 'fastify';
-import { PersonRole, StyleType, TitleType } from '../enums';
 
 const filmsSchema: FastifySchema = {
   querystring: {
@@ -13,11 +12,9 @@ const filmsSchema: FastifySchema = {
       },
       type: {
         type: 'string',
-        enum: Object.values(TitleType),
       },
       style: {
         type: 'string',
-        enum: Object.values(StyleType),
       },
       genres: {
         type: 'array',
@@ -66,7 +63,6 @@ const filmsSchema: FastifySchema = {
       },
       personRole: {
         type: 'string',
-        enum: Object.values(PersonRole),
       },
       actorId: {
         type: 'string',

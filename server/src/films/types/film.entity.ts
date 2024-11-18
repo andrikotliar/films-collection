@@ -1,5 +1,4 @@
 import { ObjectId } from 'mongoose';
-import { PersonRole, TitleType, StyleType } from '../enums';
 
 type Person = {
   name: string;
@@ -7,7 +6,7 @@ type Person = {
 };
 
 type Crew = {
-  role: PersonRole;
+  role: string;
   people: Person[];
 };
 
@@ -48,8 +47,8 @@ type SeriesExtension = {
 
 type FilmData = {
   _id: ObjectId;
-  type: TitleType;
-  style: StyleType;
+  type: string;
+  style: string;
   title: string;
   genres: string[];
   studios: string[];
