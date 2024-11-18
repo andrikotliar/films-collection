@@ -12,7 +12,7 @@
         "type": "string",
         "enum": [
           "General",
-          "Cinematic Universe",
+          "CinematicUniverse",
           "Top"
         ]
       },
