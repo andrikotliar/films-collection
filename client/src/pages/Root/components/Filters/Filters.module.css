@@ -1,8 +1,6 @@
 .filters {
   display: flex;
   flex-direction: column;
-  border: var(--app-border);
-  border-radius: var(--app-border-radius);
   height: 100%;
   overflow: hidden;
 }

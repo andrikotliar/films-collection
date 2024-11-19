@@ -1,22 +1,23 @@
 import { CollectionType, ListType } from '@/enums';
-import { FilterItem } from '@/types';
+import { getFilterOptions } from '@/helpers';
+import { FilterItem, InitialData } from '@/types';
 
-const getFiltersConfig = (optionsMap: {
-  [key in ListType | CollectionType]: string[];
-}): FilterItem[] => {
+const getFiltersConfig = (initialData: InitialData): FilterItem[] => {
   return [
     {
       title: 'Type',
       property: 'type',
       type: 'checkmark',
-      options: optionsMap[ListType.TITLE_TYPES],
+      options: getFilterOptions(
+        initialData.filters.general[ListType.TITLE_TYPES],
+      ),
       inputType: 'radio',
     },
     {
       title: 'Style',
       property: 'style',
       type: 'checkmark',
-      options: optionsMap[ListType.STYLES],
+      options: getFilterOptions(initialData.filters.general[ListType.STYLES]),
       inputType: 'radio',
     },
     {
@@ -24,7 +25,7 @@ const getFiltersConfig = (optionsMap: {
       property: 'genres',
       type: 'checkmark',
       inputType: 'checkbox',
-      options: optionsMap[ListType.GENRES],
+      options: getFilterOptions(initialData.filters.general[ListType.GENRES]),
     },
     {
       title: 'Date Range',
@@ -45,33 +46,41 @@ const getFiltersConfig = (optionsMap: {
       property: 'countries',
       type: 'checkmark',
       inputType: 'checkbox',
-      options: optionsMap[ListType.COUNTRIES],
+      options: getFilterOptions(
+        initialData.filters.general[ListType.COUNTRIES],
+      ),
     },
     {
       title: 'Studio',
       property: 'studios',
       type: 'checkmark',
       inputType: 'checkbox',
-      options: optionsMap[ListType.STUDIOS],
+      options: getFilterOptions(initialData.filters.general[ListType.STUDIOS]),
     },
     {
       title: 'Main theme',
       property: 'collection',
       type: 'checkmark',
       inputType: 'radio',
-      options: optionsMap[CollectionType.GENERAL],
+      options: getFilterOptions(
+        initialData.filters.collections[CollectionType.GENERAL],
+      ),
     },
     {
       title: 'Cinematic Universes',
       property: 'collection',
       type: 'checkmark',
       inputType: 'radio',
-      options: optionsMap[CollectionType.CINEMATIC_UNIVERSE],
+      options: getFilterOptions(
+        initialData.filters.collections[CollectionType.CINEMATIC_UNIVERSE],
+      ),
     },
     {
       title: 'Tops',
       property: 'collection',
-      options: optionsMap[CollectionType.TOP],
+      options: getFilterOptions(
+        initialData.filters.collections[CollectionType.TOP],
+      ),
       type: 'checkmark',
       inputType: 'radio',
     },

@@ -1,11 +1,9 @@
+import { GroupedLists } from 'src/lists/types';
 import { GroupedCollections } from '../../collections/types';
-import { ListType } from '../../lists/enums';
 
 type InitialData = {
   filters: {
-    general: {
-      [key in ListType]: string[];
-    };
+    general: GroupedLists;
     collections: GroupedCollections;
   };
 };

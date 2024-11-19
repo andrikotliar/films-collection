@@ -3,7 +3,7 @@
   --blue-light: #328dad;
   --blue-invisible: #c8f0fd;
 
-  --green: #00B5C6;
+  --green: #00b5c6;
   --green-success-light: #f2fffe;
   --green-success: #4db6ac;
   --green-mint: #c6f5ec;
@@ -43,17 +43,19 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: url("/fonts/Roboto-Regular.woff2");
+  src: url('/fonts/Roboto-Regular.woff2');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("/fonts/Roboto-Bold.woff2");
+  src: url('/fonts/Roboto-Bold.woff2');
   font-weight: bold;
 }
 
-*, ::before, ::after {
+*,
+::before,
+::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;

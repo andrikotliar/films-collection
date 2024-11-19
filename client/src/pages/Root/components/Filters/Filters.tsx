@@ -1,6 +1,5 @@
 import styles from './Filters.module.css';
-import { useContext, useEffect } from 'react';
-import { getFiltersConfig } from '@/configs';
+import { FC, useContext, useEffect } from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
 import { Button, ScrollableWrapper } from '@/components';
 import { SidebarContext } from '@/pages/Root/context';
@@ -9,6 +8,11 @@ import { countObjectKeys, filterValues } from '@/helpers';
 import { useQueryFilter } from '@/hooks';
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
 import { TitleType } from '@/enums';
+import { FilterItem } from '@/types';
+
+type FiltersProps = {
+  config: FilterItem[];
+};
 
 type FormValues = {
   type: TitleType | null;
@@ -32,8 +36,7 @@ const defaultValues: FormValues = {
   studios: null,
 };
 
-// TODO: get filter options data from the server response
-const Filters = () => {
+const Filters: FC<FiltersProps> = ({ config }) => {
   const { filterParams, updateFilter, resetFilter } = useQueryFilter();
 
   const filtersCount = countObjectKeys(filterParams, ['skip', 'limit']);
@@ -82,9 +85,9 @@ const Filters = () => {
         className={styles.filters}
       >
         <ScrollableWrapper className={styles.filterGroups}>
-          {/* {filtersConfig.map((filter) => (
+          {config.map((filter) => (
             <FilterOptions filter={filter} key={filter.title} />
-          ))} */}
+          ))}
         </ScrollableWrapper>
         <div className={styles.controls}>
           <Button icon={<SearchIcon />} type="submit">

@@ -4,10 +4,23 @@
   flex-shrink: 0;
   position: sticky;
   top: calc(var(--header-height) + 20px);
+  border: var(--app-border);
+  border-radius: var(--app-border-radius);
 }
 
 .filterButton {
   display: none;
+}
+
+.missingFilters {
+  color: var(--gray-dark);
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  height: 100%;
 }
 
 @media (max-width: 785px) {
@@ -55,7 +68,8 @@
     transform: translateX(-50%) translateY(20px);
     transition: transform 200ms, opacity 100ms, visibility 100ms;
     padding: 0;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+      rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
   }
   .open {
     opacity: 1;
