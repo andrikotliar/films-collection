@@ -126,14 +126,14 @@
   ],
   "collections": [
     {
-      "key": "Top10",
+      "collection": "f4472bb26f56fcaab829b96a",
       "order": 1
     },
     {
-      "key": "Space"
+      "collection": "d3158d1bdcadb1a015c4bf29"
     },
     {
-      "key": "Future"
+      "collection": "cbb1f0944d6aeece5dc45266"
     }
   ],
   "budget": 237000000,

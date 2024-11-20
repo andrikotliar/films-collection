@@ -106,10 +106,10 @@
   ],
   "collections": [
     {
-      "key": "Robots"
+      "collection": "8a792cea73830d2268416ae2"
     },
     {
-      "key": "Top10",
+      "collection": "f4472bb26f56fcaab829b96a",
       "order": 5
     }
   ],
