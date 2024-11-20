@@ -51,6 +51,11 @@ type FilmDescription = {
   text: string;
 };
 
+type IncludedCollection = {
+  collection: Pick<Collection, '_id' | 'title'>;
+  order: number;
+};
+
 type FilmData = {
   _id: string;
   type: TitleType;
@@ -64,7 +69,7 @@ type FilmData = {
   releaseDate: string;
   duration: number;
   cast: CastType[];
-  collections: Pick<Collection, '_id' | 'title'>[];
+  collections: IncludedCollection[];
   budget: number | null;
   boxOffice: number | null;
   awards: FilmAward[];
@@ -78,10 +83,7 @@ type FilmData = {
   updatedAt: string;
 };
 
-type FilmsListItem = Pick<
-  FilmData,
-  '_id' | 'title' | 'poster' | 'collections' | 'releaseDate'
->;
+type FilmsListItem = Pick<FilmData, '_id' | 'title' | 'poster' | 'releaseDate'>;
 
 type FilmLinkItem = Pick<FilmData, '_id' | 'title'>;
 

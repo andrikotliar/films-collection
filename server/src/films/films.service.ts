@@ -32,7 +32,7 @@ class FilmsService implements IFilmsService {
 
     const films = await this.filmsModel.find(
       parsedFilters,
-      { _id: 1, title: 1, poster: 1, collections: 1, releaseDate: 1 },
+      { _id: 1, title: 1, poster: 1, releaseDate: 1 },
       { limit, skip, sort: { releaseDate: -1 } },
     );
 
@@ -58,6 +58,13 @@ class FilmsService implements IFilmsService {
         },
         {
           path: 'awards.nominations.actor',
+        },
+        {
+          path: 'collections.collection',
+          select: {
+            _id: 1,
+            title: 1,
+          },
         },
       ])
       .lean();

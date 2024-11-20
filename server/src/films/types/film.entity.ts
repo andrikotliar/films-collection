@@ -19,7 +19,7 @@ type CastType = {
 };
 
 type Collection = {
-  id: string;
+  collection: string;
   order?: number;
 };
 

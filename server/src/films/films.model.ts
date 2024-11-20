@@ -12,6 +12,7 @@ import {
 } from './types';
 import { ActorModel } from '../actors/actors.model';
 import { AwardModel } from '../awards/awards.model';
+import { CollectionModel } from '../collections/collections.model';
 
 const FilmPersonSchema = new Schema<Person>({
   name: {
@@ -37,8 +38,9 @@ const FilmCrewSchema = new Schema<Crew>({
 });
 
 const CollectionSchema = new Schema<CollectionType>({
-  id: {
+  collection: {
     type: String,
+    ref: CollectionModel,
   },
   order: {
     type: Number,

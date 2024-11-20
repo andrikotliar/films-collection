@@ -2,10 +2,7 @@ import { ActorType } from '../../actors/types';
 import { FilmData } from './film.entity';
 import { Award } from '../../awards/types';
 
-type FilmsListItem = Pick<
-  FilmData,
-  '_id' | 'title' | 'poster' | 'collections' | 'releaseDate'
->;
+type FilmsListItem = Pick<FilmData, '_id' | 'title' | 'poster' | 'releaseDate'>;
 
 type AdditionalActorData = {
   type: 'actor';
