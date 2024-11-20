@@ -92,7 +92,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 50,
   "cast": [
@@ -178,11 +178,11 @@
   "releaseDate": "2021-06-09",
   "watchCount": 1,
   "studios": [
-    "DisneyPlus",
-    "MarvelStudios"
+    "Disney+",
+    "Marvel Studios"
   ],
   "poster": "loki.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "nW948Va-l10"
   ]

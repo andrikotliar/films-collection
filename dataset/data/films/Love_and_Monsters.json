@@ -59,9 +59,9 @@
     }
   ],
   "countries": [
-    "CA",
-    "US",
-    "AU"
+    "Canada",
+    "USA",
+    "Australia"
   ],
   "duration": 109,
   "cast": [
@@ -125,10 +125,10 @@
   "releaseDate": "2020-10-16",
   "watchCount": 1,
   "studios": [
-    "Paramount"
+    "Paramount Pictures"
   ],
   "poster": "love_and_monsters.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "1dzGhJ5QGsQ"
   ]

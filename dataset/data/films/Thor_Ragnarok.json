@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 130,
   "cast": [
@@ -140,11 +140,11 @@
   "watchCount": 2,
   "isWatchedInCinema": true,
   "studios": [
-    "WaltDisney",
-    "MarvelStudios"
+    "Walt Disney Pictures",
+    "Marvel Studios"
   ],
   "poster": "thor_3.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "ue80QwXMRHg"
   ]

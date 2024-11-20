@@ -58,7 +58,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 124,
   "cast": [
@@ -150,11 +150,11 @@
   "releaseDate": "2019-03-08",
   "watchCount": 1,
   "studios": [
-    "WaltDisney",
-    "MarvelStudios"
+    "Walt Disney Pictures",
+    "Marvel Studios"
   ],
   "poster": "captain_marvel.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "TcMBFSGVi1c"
   ]

@@ -64,7 +64,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 150,
   "cast": [
@@ -145,11 +145,11 @@
   "releaseDate": "2009-06-24",
   "watchCount": 5,
   "studios": [
-    "DreamWorks",
-    "Paramount"
+    "DreamWorks Pictures",
+    "Paramount Pictures"
   ],
   "poster": "transformers_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "fnXzKwUgDhg"
   ]

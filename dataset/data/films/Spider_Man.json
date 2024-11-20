@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 121,
   "cast": [
@@ -119,11 +119,11 @@
   "releaseDate": "2002-05-03",
   "watchCount": 5,
   "studios": [
-    "Columbia",
-    "MarvelEntertainment"
+    "Columbia Pictures",
+    "Marvel Entertainment"
   ],
   "poster": "raimi_spider_man_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "_yhFofFZGcc"
   ]

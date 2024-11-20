@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK"
   ],
   "duration": 142,
@@ -142,10 +142,10 @@
   "releaseDate": "2004-06-04",
   "watchCount": 10,
   "studios": [
-    "WarnerBros"
+    "Warner Bros. Pictures"
   ],
   "poster": "harry_potter_3.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "lAxgztbYDbs"
   ]

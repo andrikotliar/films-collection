@@ -64,8 +64,8 @@
     }
   ],
   "countries": [
-    "US",
-    "NZ"
+    "USA",
+    "New Zealand"
   ],
   "duration": 201,
   "cast": [
@@ -319,10 +319,10 @@
   "releaseDate": "2003-12-17",
   "watchCount": 10,
   "studios": [
-    "NewLineCinema"
+    "New Line Cinema"
   ],
   "poster": "middle_earth_6.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "y2rYRu8UW8M"
   ]

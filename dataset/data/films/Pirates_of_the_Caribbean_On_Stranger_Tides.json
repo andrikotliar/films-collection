@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 137,
   "cast": [
@@ -118,11 +118,11 @@
   "releaseDate": "2011-05-20",
   "watchCount": 10,
   "studios": [
-    "WaltDisney",
-    "JerryBruckheimerFilms"
+    "Walt Disney Pictures",
+    "Jerry Bruckheimer Films"
   ],
   "poster": "pirates_4.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "t5AqJww06bw"
   ]

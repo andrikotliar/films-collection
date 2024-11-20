@@ -49,7 +49,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 137,
   "cast": [
@@ -155,11 +155,11 @@
   "releaseDate": "2017-05-05",
   "watchCount": 2,
   "studios": [
-    "WaltDisney",
-    "MarvelStudios"
+    "Walt Disney Pictures",
+    "Marvel Studios"
   ],
   "poster": "guardians_of_the_galaxy_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "wUn05hdkhjM"
   ]

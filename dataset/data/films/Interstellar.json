@@ -58,7 +58,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 169,
   "cast": [
@@ -160,11 +160,11 @@
   "releaseDate": "2014-11-07",
   "watchCount": 3,
   "studios": [
-    "Paramount",
-    "WarnerBros"
+    "Paramount Pictures",
+    "Warner Bros. Pictures"
   ],
   "poster": "interstellar.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "zSWdZVtXT7E"
   ]

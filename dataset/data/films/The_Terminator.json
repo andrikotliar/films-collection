@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 107,
   "cast": [
@@ -110,11 +110,11 @@
   "releaseDate": "1984-10-26",
   "watchCount": 3,
   "studios": [
-    "Orion",
-    "Cinema84"
+    "Orion Pictures",
+    "Cinema_84"
   ],
   "poster": "terminator_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "k64P4l2Wmeg"
   ]

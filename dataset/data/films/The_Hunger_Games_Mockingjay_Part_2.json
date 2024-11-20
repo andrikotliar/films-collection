@@ -55,10 +55,10 @@
     }
   ],
   "countries": [
-    "US",
-    "DE",
-    "CA",
-    "FR"
+    "USA",
+    "Germany",
+    "Canada",
+    "France"
   ],
   "duration": 137,
   "cast": [
@@ -173,7 +173,7 @@
     "Lionsgate"
   ],
   "poster": "hunger_games_4.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "n-7K_OjsDCQ"
   ]

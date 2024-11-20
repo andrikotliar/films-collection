@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 150,
   "cast": [
@@ -157,11 +157,11 @@
   "releaseDate": "2006-07-07",
   "watchCount": 10,
   "studios": [
-    "WaltDisney",
-    "JerryBruckheimerFilms"
+    "Walt Disney Pictures",
+    "Jerry Bruckheimer Films"
   ],
   "poster": "pirates_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "ozk0-RHXtFw"
   ]

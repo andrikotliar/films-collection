@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK"
   ],
   "duration": 162,
@@ -253,10 +253,10 @@
   "releaseDate": "2009-12-18",
   "watchCount": 5,
   "studios": [
-    "20thCenturyFox"
+    "20th Century FOX"
   ],
   "poster": "avatar.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "CM79GTEm2ps"
   ]

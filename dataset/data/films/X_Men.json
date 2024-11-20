@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 104,
   "cast": [
@@ -169,11 +169,11 @@
   "releaseDate": "2000-07-14",
   "watchCount": 5,
   "studios": [
-    "20thCenturyFox",
-    "MarvelEntertainment"
+    "20th Century FOX",
+    "Marvel Entertainment"
   ],
   "poster": "x_men_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "VNxwlx6etXI"
   ]

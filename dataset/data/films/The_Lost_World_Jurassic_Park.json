@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 129,
   "cast": [
@@ -99,11 +99,11 @@
   "releaseDate": "1997-05-23",
   "watchCount": 2,
   "studios": [
-    "Universal",
-    "Amblin"
+    "Universal Pictures",
+    "Amblin Entertainment"
   ],
   "poster": "jurassic_park_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "RxrvaneULkE"
   ]

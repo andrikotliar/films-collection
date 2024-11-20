@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 109,
   "cast": [
@@ -119,11 +119,11 @@
   "releaseDate": "2010-07-14",
   "watchCount": 2,
   "studios": [
-    "WaltDisney",
-    "JerryBruckheimerFilms"
+    "Walt Disney Pictures",
+    "Jerry Bruckheimer Films"
   ],
   "poster": "sorcerers_apprentice.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "v2uV0_1C4UM"
   ]

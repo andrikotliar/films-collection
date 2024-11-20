@@ -61,7 +61,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 122,
   "cast": [
@@ -172,11 +172,11 @@
   "releaseDate": "2016-07-22",
   "watchCount": 1,
   "studios": [
-    "Paramount",
-    "BadRobot"
+    "Paramount Pictures",
+    "Bad Robot Productions"
   ],
   "poster": "star_trek_3.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "XRVD32rnzOw"
   ]

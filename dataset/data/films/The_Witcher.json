@@ -131,9 +131,9 @@
     }
   ],
   "countries": [
-    "US",
-    "PL",
-    "HU"
+    "USA",
+    "Poland",
+    "Hungary"
   ],
   "duration": 60,
   "cast": [
@@ -247,7 +247,7 @@
     "Netflix"
   ],
   "poster": "witcher.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "ndl1W4ltcmg",
     "2aMVzFlApa0"

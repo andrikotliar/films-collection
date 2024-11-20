@@ -60,7 +60,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 101,
   "cast": [
@@ -132,11 +132,11 @@
   "watchCount": 3,
   "releaseDate": "2008-04-03",
   "studios": [
-    "WarnerBros",
-    "VillageRoadshow"
+    "Warner Bros. Pictures",
+    "Village Roadshow Pictures"
   ],
   "poster": "i_am_legend.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "dtKMEAXyPkg"
   ]

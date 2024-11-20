@@ -58,7 +58,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 192,
   "cast": [
@@ -180,12 +180,12 @@
   "watchCount": 2,
   "isWatchedInCinema": true,
   "studios": [
-    "20thCenturyStudio",
-    "Lightstorm",
-    "TSG"
+    "20th Century Studio",
+    "Lightstorm Entertainment",
+    "TSG Entertainment"
   ],
   "poster": "avatar_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "o5F8MOz_IDw"
   ]

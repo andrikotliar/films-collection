@@ -61,7 +61,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 126,
   "cast": [
@@ -154,11 +154,11 @@
   "watchCount": 5,
   "releaseDate": "2008-05-02",
   "studios": [
-    "MarvelStudios",
-    "Paramount"
+    "Marvel Studios",
+    "Paramount Pictures"
   ],
   "poster": "iron_man_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "8hYlB38asDY"
   ]

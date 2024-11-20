@@ -47,7 +47,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 100,
   "cast": [
@@ -151,11 +151,11 @@
   "budget": 200000000,
   "boxOffice": 1900000000,
   "studios": [
-    "MarvelStudios",
-    "Sony"
+    "Marvel Studios",
+    "Sony Pictures"
   ],
   "poster": "mcu_spider_man_3.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "rt-2cxAiPJk"
   ]

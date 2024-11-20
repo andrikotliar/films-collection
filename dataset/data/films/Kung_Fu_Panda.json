@@ -58,8 +58,7 @@
     }
   ],
   "countries": [
-    "US",
-    "CH"
+    "USA"
   ],
   "duration": 92,
   "cast": [
@@ -183,7 +182,7 @@
   "releaseDate": "2008-06-06",
   "watchCount": 5,
   "studios": [
-    "DreamWorksAnimation"
+    "DreamWorks Animation"
   ],
   "poster": "kungfu_panda.webp",
   "style": "Animation",

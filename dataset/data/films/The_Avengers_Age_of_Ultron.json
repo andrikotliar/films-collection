@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 141,
   "cast": [
@@ -187,11 +187,11 @@
   "releaseDate": "2015-05-01",
   "watchCount": 5,
   "studios": [
-    "WaltDisney",
-    "MarvelStudios"
+    "Walt Disney Pictures",
+    "Marvel Studios"
   ],
   "poster": "avengers_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "tmeOjFno6Do"
   ]

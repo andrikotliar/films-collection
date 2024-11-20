@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 127,
   "cast": [
@@ -144,11 +144,11 @@
   "releaseDate": "2004-06-30",
   "watchCount": 5,
   "studios": [
-    "Columbia",
-    "MarvelEntertainment"
+    "Columbia Pictures",
+    "Marvel Entertainment"
   ],
   "poster": "raimi_spider_man_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "1s9Yln0YwCw"
   ]

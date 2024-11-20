@@ -61,8 +61,8 @@
     }
   ],
   "countries": [
-    "US",
-    "NZ"
+    "USA",
+    "New Zealand"
   ],
   "duration": 179,
   "cast": [
@@ -251,10 +251,10 @@
   "releaseDate": "2002-12-18",
   "watchCount": 10,
   "studios": [
-    "NewLineCinema"
+    "New Line Cinema"
   ],
   "poster": "middle_earth_5.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "LbfMDwc4azU"
   ]

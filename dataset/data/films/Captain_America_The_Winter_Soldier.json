@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 136,
   "cast": [
@@ -121,11 +121,11 @@
   "releaseDate": "2014-04-04",
   "watchCount": 2,
   "studios": [
-    "WaltDisney",
-    "MarvelStudios"
+    "Walt Disney Pictures",
+    "Marvel Studios"
   ],
   "poster": "captain_america_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "7SlILk2WMTI"
   ]

@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 124,
   "cast": [
@@ -137,11 +137,11 @@
   "releaseDate": "2011-07-22",
   "watchCount": 4,
   "studios": [
-    "MarvelStudios",
-    "Paramount"
+    "Marvel Studios",
+    "Paramount Pictures"
   ],
   "poster": "captain_america_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "JerVrbLldXw"
   ]

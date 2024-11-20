@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 115,
   "cast": [
@@ -120,11 +120,11 @@
   "releaseDate": "2009-05-21",
   "watchCount": 3,
   "studios": [
-    "Columbia",
-    "Halcyon"
+    "Columbia Pictures",
+    "The Halcyon Company"
   ],
   "poster": "terminator_4.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "-Czz-TcWCkA"
   ]

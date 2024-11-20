@@ -52,8 +52,8 @@
     }
   ],
   "countries": [
-    "US",
-    "DE"
+    "USA",
+    "Germany"
   ],
   "duration": 106,
   "cast": [
@@ -129,10 +129,10 @@
   "releaseDate": "2001-06-22",
   "watchCount": 5,
   "studios": [
-    "Universal"
+    "Universal Pictures"
   ],
   "poster": "fast_and_furious_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "2TAOizOnNPo"
   ]

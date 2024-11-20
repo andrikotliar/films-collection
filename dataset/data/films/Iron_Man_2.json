@@ -49,7 +49,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 125,
   "cast": [
@@ -141,11 +141,11 @@
   "releaseDate": "2010-05-07",
   "watchCount": 2,
   "studios": [
-    "MarvelStudios",
-    "Paramount"
+    "Marvel Studios",
+    "Paramount Pictures"
   ],
   "poster": "iron_man_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "BoohRoVA9WQ"
   ]

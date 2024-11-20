@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 147,
   "cast": [
@@ -186,11 +186,11 @@
   "releaseDate": "2016-05-06",
   "watchCount": 3,
   "studios": [
-    "WaltDisney",
-    "MarvelStudios"
+    "Walt Disney Pictures",
+    "Marvel Studios"
   ],
   "poster": "captain_america_3.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "dKrVegVI0Us"
   ]

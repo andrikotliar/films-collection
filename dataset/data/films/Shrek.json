@@ -62,8 +62,8 @@
     }
   ],
   "countries": [
-    "US",
-    "JP"
+    "USA",
+    "Japan"
   ],
   "duration": 90,
   "cast": [
@@ -140,7 +140,7 @@
   "releaseDate": "2001-05-18",
   "watchCount": 10,
   "studios": [
-    "DreamWorksAnimation"
+    "DreamWorks Animation"
   ],
   "poster": "shrek_1.webp",
   "style": "Animation",

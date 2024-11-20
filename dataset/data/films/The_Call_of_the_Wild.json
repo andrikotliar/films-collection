@@ -52,8 +52,8 @@
     }
   ],
   "countries": [
-    "CA",
-    "US"
+    "Canada",
+    "USA"
   ],
   "duration": 100,
   "cast": [
@@ -93,10 +93,10 @@
   "releaseDate": "2020-02-21",
   "watchCount": 1,
   "studios": [
-    "20thCenturyStudio"
+    "20th Century Studio"
   ],
   "poster": "the_call_of_the_wild.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "h1LG9So2ZBk"
   ]

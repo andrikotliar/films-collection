@@ -88,8 +88,8 @@
     }
   ],
   "countries": [
-    "US",
-    "FR"
+    "USA",
+    "France"
   ],
   "duration": 40,
   "cast": [
@@ -197,7 +197,7 @@
   "watchCount": 2,
   "studios": [
     "Netflix",
-    "RiotGames"
+    "Riot Games"
   ],
   "poster": "arcane.webp",
   "style": "Animation",

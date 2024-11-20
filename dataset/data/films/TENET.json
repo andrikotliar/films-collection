@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK"
   ],
   "duration": 150,
@@ -155,11 +155,11 @@
   "releaseDate": "2020-08-26",
   "watchCount": 1,
   "studios": [
-    "WarnerBros",
+    "Warner Bros. Pictures",
     "Syncopy"
   ],
   "poster": "tenet.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "AZGcmvrTX9M"
   ]

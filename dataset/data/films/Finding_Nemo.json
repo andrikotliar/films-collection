@@ -57,7 +57,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 100,
   "cast": [
@@ -200,8 +200,8 @@
   "releaseDate": "2003-05-30",
   "watchCount": 5,
   "studios": [
-    "WaltDisney",
-    "Pixar"
+    "Walt Disney Pictures",
+    "Pixar Animation"
   ],
   "poster": "finding_nemo.webp",
   "style": "Animation",

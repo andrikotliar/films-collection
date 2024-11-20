@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 110,
   "cast": [
@@ -138,11 +138,11 @@
   "releaseDate": "2007-02-16",
   "watchCount": 4,
   "studios": [
-    "Sony",
-    "Columbia"
+    "Sony Pictures",
+    "Columbia Pictures"
   ],
   "poster": "ghost_rider.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "8M0lLJfNPds"
   ]

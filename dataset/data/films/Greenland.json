@@ -54,7 +54,7 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK"
   ],
   "duration": 119,
@@ -113,12 +113,12 @@
   "releaseDate": "2020-08-14",
   "watchCount": 2,
   "studios": [
-    "ThunderRoad",
+    "Thunder Road",
     "Anton",
-    "GBase"
+    "G-base"
   ],
   "poster": "greenland.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "RTODtIQQRpA"
   ]

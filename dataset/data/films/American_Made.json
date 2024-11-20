@@ -58,9 +58,9 @@
     }
   ],
   "countries": [
-    "US",
-    "JP",
-    "CO"
+    "USA",
+    "Japan",
+    "Colombia"
   ],
   "duration": 115,
   "cast": [
@@ -130,11 +130,11 @@
   "releaseDate": "2017-09-29",
   "watchCount": 1,
   "studios": [
-    "CrossCreek",
-    "Imagine"
+    "Cross Creek Pictures",
+    "Imagine Entertainment"
   ],
   "poster": "american_made.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "AEBIJRAkujM"
   ]

@@ -67,8 +67,8 @@
     }
   ],
   "countries": [
-    "US",
-    "NZ"
+    "USA",
+    "New Zealand"
   ],
   "duration": 144,
   "cast": [
@@ -240,10 +240,10 @@
   "releaseDate": "2014-12-17",
   "watchCount": 1,
   "studios": [
-    "NewLineCinema"
+    "New Line Cinema"
   ],
   "poster": "middle_earth_3.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "iVAgTiBrrDA"
   ]

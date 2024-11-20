@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 127,
   "cast": [
@@ -169,11 +169,11 @@
   "releaseDate": "1993-06-11",
   "watchCount": 3,
   "studios": [
-    "Universal",
-    "Amblin"
+    "Universal Pictures",
+    "Amblin Entertainment"
   ],
   "poster": "jurassic_park_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "QWBKEmWWL38"
   ]

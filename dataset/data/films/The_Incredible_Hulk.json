@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 112,
   "cast": [
@@ -110,11 +110,11 @@
   "releaseDate": "2008-06-13",
   "watchCount": 5,
   "studios": [
-    "MarvelStudios",
-    "Universal"
+    "Marvel Studios",
+    "Universal Pictures"
   ],
   "poster": "the_incredible_hulk.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "xbqNb2PFKKA"
   ]

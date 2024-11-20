@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 143,
   "cast": [
@@ -147,11 +147,11 @@
   "releaseDate": "2003-07-09",
   "watchCount": 10,
   "studios": [
-    "WaltDisney",
-    "JerryBruckheimerFilms"
+    "Walt Disney Pictures",
+    "Jerry Bruckheimer Films"
   ],
   "poster": "pirates_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "naQr0uTrH_s"
   ]

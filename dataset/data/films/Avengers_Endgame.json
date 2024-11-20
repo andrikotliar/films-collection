@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 181,
   "cast": [
@@ -243,11 +243,11 @@
   "releaseDate": "2019-04-26",
   "watchCount": 5,
   "studios": [
-    "WaltDisney",
-    "MarvelStudios"
+    "Walt Disney Pictures",
+    "Marvel Studios"
   ],
   "poster": "avengers_4.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "TcMBFSGVi1c"
   ]

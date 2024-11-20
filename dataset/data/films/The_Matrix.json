@@ -49,8 +49,8 @@
     }
   ],
   "countries": [
-    "US",
-    "AU"
+    "USA",
+    "Australia"
   ],
   "duration": 136,
   "cast": [
@@ -173,10 +173,10 @@
   "releaseDate": "1999-03-31",
   "watchCount": 10,
   "studios": [
-    "WarnerBros"
+    "Warner Bros. Pictures"
   ],
   "poster": "matrix_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "m8e-FF8MsqU"
   ]

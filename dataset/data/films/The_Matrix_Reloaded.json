@@ -49,8 +49,8 @@
     }
   ],
   "countries": [
-    "US",
-    "AU"
+    "USA",
+    "Australia"
   ],
   "duration": 138,
   "cast": [
@@ -133,10 +133,10 @@
   "releaseDate": "2003-05-15",
   "watchCount": 10,
   "studios": [
-    "WarnerBros"
+    "Warner Bros. Pictures"
   ],
   "poster": "matrix_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "kYzz0FSgpSU"
   ]

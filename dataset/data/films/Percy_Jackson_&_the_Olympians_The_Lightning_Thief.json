@@ -58,10 +58,10 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK",
-    "CA",
-    "AU"
+    "Canada",
+    "Australia"
   ],
   "duration": 95,
   "cast": [
@@ -149,10 +149,10 @@
   "releaseDate": "2010-02-12",
   "watchCount": 5,
   "studios": [
-    "20thCenturyFox"
+    "20th Century FOX"
   ],
   "poster": "percy_jackson.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "xko1Mx5w4tg"
   ]

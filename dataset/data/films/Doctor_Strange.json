@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 115,
   "cast": [
@@ -128,11 +128,11 @@
   "releaseDate": "2016-11-04",
   "watchCount": 5,
   "studios": [
-    "WaltDisney",
-    "MarvelStudios"
+    "Walt Disney Pictures",
+    "Marvel Studios"
   ],
   "poster": "doctor_strange.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "HSzx-zryEgM"
   ]

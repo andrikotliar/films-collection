@@ -50,9 +50,9 @@
     }
   ],
   "countries": [
-    "US",
-    "DE",
-    "CZ",
+    "USA",
+    "Germany",
+    "Czech Republic",
     "UK"
   ],
   "duration": 110,
@@ -124,10 +124,10 @@
   "releaseDate": "2003-07-11",
   "watchCount": 4,
   "studios": [
-    "20thCenturyFox"
+    "20th Century FOX"
   ],
   "poster": "league_of_extraordinary_gentlemen.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "_WWIiTlGyYQ"
   ]

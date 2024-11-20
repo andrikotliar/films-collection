@@ -58,7 +58,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 132,
   "cast": [
@@ -135,11 +135,11 @@
   "releaseDate": "2021-09-03",
   "watchCount": 1,
   "studios": [
-    "WaltDisney",
-    "MarvelStudios"
+    "Walt Disney Pictures",
+    "Marvel Studios"
   ],
   "poster": "shang_chi.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "COGg-Vjauwo"
   ]

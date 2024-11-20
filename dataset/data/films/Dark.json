@@ -89,8 +89,8 @@
     }
   ],
   "countries": [
-    "DE",
-    "US"
+    "Germany",
+    "USA"
   ],
   "duration": 60,
   "cast": [
@@ -302,7 +302,7 @@
     "Netflix"
   ],
   "poster": "dark.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "rrwycJ08PSA",
     "810CHvSdXOo",

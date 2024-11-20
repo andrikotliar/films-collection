@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 116,
   "cast": [
@@ -134,12 +134,12 @@
   "releaseDate": "2005-06-29",
   "watchCount": 5,
   "studios": [
-    "Paramount",
-    "DreamWorks",
-    "Amblin"
+    "Paramount Pictures",
+    "DreamWorks Pictures",
+    "Amblin Entertainment"
   ],
   "poster": "war_of_the_worlds.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "SM6aEEjc5hA"
   ]

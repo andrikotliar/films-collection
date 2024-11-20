@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 129,
   "cast": [
@@ -131,11 +131,11 @@
   "releaseDate": "2019-07-02",
   "watchCount": 1,
   "studios": [
-    "Sony",
-    "MarvelStudios"
+    "Sony Pictures",
+    "Marvel Studios"
   ],
   "poster": "mcu_spider_man_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "Nt9L1jCKGnE"
   ]

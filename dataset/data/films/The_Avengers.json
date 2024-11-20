@@ -49,7 +49,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 143,
   "cast": [
@@ -189,11 +189,11 @@
   "releaseDate": "2012-05-04",
   "watchCount": 5,
   "studios": [
-    "WaltDisney",
-    "MarvelStudios"
+    "Walt Disney Pictures",
+    "Marvel Studios"
   ],
   "poster": "avengers_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "hIR8Ar-Z4hw"
   ]

@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 122,
   "cast": [
@@ -185,11 +185,11 @@
   "releaseDate": "2014-08-01",
   "watchCount": 3,
   "studios": [
-    "WaltDisney",
-    "MarvelStudios"
+    "Walt Disney Pictures",
+    "Marvel Studios"
   ],
   "poster": "guardians_of_the_galaxy.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "d96cjJhvlMA"
   ]

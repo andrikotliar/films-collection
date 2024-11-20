@@ -58,7 +58,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 117,
   "cast": [
@@ -147,11 +147,11 @@
   "releaseDate": "2015-07-17",
   "watchCount": 2,
   "studios": [
-    "WaltDisney",
-    "MarvelStudios"
+    "Walt Disney Pictures",
+    "Marvel Studios"
   ],
   "poster": "ant_man_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "pWdKf3MneyI"
   ]

@@ -62,8 +62,8 @@
     }
   ],
   "countries": [
-    "US",
-    "JP"
+    "USA",
+    "Japan"
   ],
   "duration": 93,
   "cast": [
@@ -142,7 +142,7 @@
   "releaseDate": "2004-05-19",
   "watchCount": 10,
   "studios": [
-    "DreamWorksAnimation"
+    "DreamWorks Animation"
   ],
   "poster": "shrek_2.webp",
   "style": "Animation",

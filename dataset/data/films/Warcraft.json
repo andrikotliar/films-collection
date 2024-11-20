@@ -64,7 +64,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 123,
   "cast": [
@@ -169,11 +169,11 @@
   "releaseDate": "2016-06-10",
   "watchCount": 1,
   "studios": [
-    "Universal",
+    "Universal Pictures",
     "Legendary"
   ],
   "poster": "warcraft.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "2Rxoz13Bthc"
   ]

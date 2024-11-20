@@ -61,7 +61,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 133,
   "cast": [
@@ -134,11 +134,11 @@
   "releaseDate": "2017-07-07",
   "watchCount": 1,
   "studios": [
-    "WaltDisney",
-    "MarvelStudios"
+    "Walt Disney Pictures",
+    "Marvel Studios"
   ],
   "poster": "mcu_spider_man_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "n9DwoQ7HWvI"
   ]

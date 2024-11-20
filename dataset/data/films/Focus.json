@@ -56,8 +56,8 @@
     }
   ],
   "countries": [
-    "US",
-    "AR"
+    "USA",
+    "Argentina"
   ],
   "duration": 105,
   "cast": [
@@ -115,10 +115,10 @@
   "releaseDate": "2015-02-27",
   "watchCount": 2,
   "studios": [
-    "WarnerBros"
+    "Warner Bros. Pictures"
   ],
   "poster": "focus.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "MxCRgtdAuBo"
   ]
