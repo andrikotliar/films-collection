@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Real Steel",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Danny Elfman"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Mauro Fiore"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 127,
   "cast": [
@@ -104,7 +104,7 @@
   ],
   "collections": [
     {
-      "key": "Robots"
+      "collection": "8a792cea73830d2268416ae2"
     }
   ],
   "budget": 110000000,
@@ -119,10 +119,10 @@
   "releaseDate": "2011-10-07",
   "watchCount": 5,
   "studios": [
-    "DreamWorks"
+    "DreamWorks Pictures"
   ],
   "poster": "real_steel.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "SwfmV3nn6QA"
   ]

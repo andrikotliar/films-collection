@@ -41,7 +41,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "James Horner"
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Thomas E. Ackerman"
@@ -58,7 +58,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 104,
   "cast": [
@@ -95,7 +95,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "budget": 65000000,
@@ -124,7 +124,7 @@
     "Tristar"
   ],
   "poster": "jumanji_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "5p18zqZmeiI"
   ]

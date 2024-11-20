@@ -9,7 +9,7 @@
   ],
   "crew": [
     {
-      "role": "SeriesCreator",
+      "role": "Creator",
       "people": [
         {
           "name": "Mark Gatiss"
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "David Arnold"
@@ -104,7 +104,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Fabian Wagner"
@@ -177,7 +177,7 @@
   ],
   "collections": [
     {
-      "key": "AgentsDetectives"
+      "collection": "47a859c4e3db02afffd2569e"
     }
   ],
   "awards": [
@@ -264,10 +264,10 @@
   "releaseDate": "2010-07-25",
   "watchCount": 2,
   "studios": [
-    "BBCOne"
+    "BBC One"
   ],
   "poster": "sherlock.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "xK7S9mrFWL4",
     "vydmN9pzDzg",

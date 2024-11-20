@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "X-Men: Apocalypse",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "John Ottman"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Newton Thomas Sigel"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 144,
   "cast": [
@@ -135,7 +135,7 @@
   ],
   "collections": [
     {
-      "key": "Superheroes"
+      "collection": "6b0607b285f213362f2e0790"
     }
   ],
   "budget": 178000000,
@@ -151,11 +151,11 @@
   "releaseDate": "2016-05-27",
   "watchCount": 1,
   "studios": [
-    "20thCenturyFox",
-    "MarvelEntertainment"
+    "20th Century FOX",
+    "Marvel Entertainment"
   ],
   "poster": "x_men_7.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "Jer8XjMrUB4"
   ]

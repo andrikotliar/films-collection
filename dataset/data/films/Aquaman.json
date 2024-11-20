@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Rupert Gregson-Williams"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Don Burgess"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 143,
   "cast": [
@@ -110,7 +110,7 @@
   ],
   "collections": [
     {
-      "key": "DEU"
+      "collection": "5f41e4a109f2fdbce16b6466"
     }
   ],
   "budget": 160000000,
@@ -126,11 +126,11 @@
   "releaseDate": "2018-12-21",
   "watchCount": 2,
   "studios": [
-    "DCEntertainment",
-    "WarnerBros"
+    "DC Entertainment",
+    "Warner Bros. Pictures"
   ],
   "poster": "aquaman.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "WDkg3h8PCVU"
   ]

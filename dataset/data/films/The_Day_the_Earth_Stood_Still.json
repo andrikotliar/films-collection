@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "The Day the Earth Stood Still",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Thriller"
   ],
   "crew": [
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Tyler Bates"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "David Tattersall"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 103,
   "cast": [
@@ -86,7 +86,7 @@
   ],
   "collections": [
     {
-      "key": "Invasion"
+      "collection": "b08c9adc92ef96ff62957107"
     }
   ],
   "budget": 80000000,
@@ -112,10 +112,10 @@
   "releaseDate": "2008-12-12",
   "watchCount": 2,
   "studios": [
-    "20thCenturyFox"
+    "20th Century FOX"
   ],
   "poster": "day_the_earth_stood_still.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "6QFcZohER3s"
   ]

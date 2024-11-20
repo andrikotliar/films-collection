@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "WALL-E",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Romance"
   ],
   "crew": [
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Thomas Newman"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Jeremy Lasky"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 97,
   "cast": [
@@ -89,10 +89,10 @@
   ],
   "collections": [
     {
-      "key": "Space"
+      "collection": "d3158d1bdcadb1a015c4bf29"
     },
     {
-      "key": "Top10",
+      "collection": "f4472bb26f56fcaab829b96a",
       "order": 9
     }
   ],
@@ -150,8 +150,8 @@
   "releaseDate": "2008-06-27",
   "watchCount": 10,
   "studios": [
-    "WaltDisney",
-    "Pixar"
+    "Walt Disney Pictures",
+    "Pixar Animation"
   ],
   "poster": "wall_e.webp",
   "style": "Animation",

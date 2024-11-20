@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Alexandre Desplat"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Eduardo Serra"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK"
   ],
   "duration": 146,
@@ -127,7 +127,7 @@
   ],
   "collections": [
     {
-      "key": "HPU"
+      "collection": "ded2b175d20cde95f88bcac4"
     }
   ],
   "budget": 250000000,
@@ -143,10 +143,10 @@
   "releaseDate": "2010-11-19",
   "watchCount": 4,
   "studios": [
-    "WarnerBros"
+    "Warner Bros. Pictures"
   ],
   "poster": "harry_potter_7.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "MxqsmsA8y5k"
   ]

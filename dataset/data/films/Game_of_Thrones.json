@@ -8,7 +8,7 @@
   ],
   "crew": [
     {
-      "role": "SeriesCreator",
+      "role": "Creator",
       "people": [
         {
           "name": "David Benioff"
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Ramin Djawadi"
@@ -161,7 +161,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Anette Haellmigk"
@@ -212,7 +212,7 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK"
   ],
   "duration": 60,
@@ -460,7 +460,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "seriesExtension": {
@@ -549,7 +549,7 @@
     "HBO"
   ],
   "poster": "got.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "gcTkNV5Vg1E",
     "AlhHGUfCYw4",

@@ -3,8 +3,8 @@
   "type": "Film",
   "title": "Star Trek",
   "genres": [
-    "SciFi",
-    "SpaceOpera"
+    "Sci-Fi",
+    "Space Opera"
   ],
   "crew": [
     {
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Michael Giacchino"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Dan Mindel"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 127,
   "cast": [
@@ -140,7 +140,7 @@
   ],
   "collections": [
     {
-      "key": "Space"
+      "collection": "d3158d1bdcadb1a015c4bf29"
     }
   ],
   "budget": 150000000,
@@ -174,11 +174,11 @@
   "releaseDate": "2009-05-08",
   "watchCount": 3,
   "studios": [
-    "Paramount",
-    "BadRobot"
+    "Paramount Pictures",
+    "Bad Robot Productions"
   ],
   "poster": "star_trek_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "pKFUZ10Wmbw"
   ]

@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Edge of Tomorrow",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Christophe Beck"
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Dion Beebe"
@@ -61,7 +61,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 113,
   "cast": [
@@ -134,7 +134,7 @@
   ],
   "collections": [
     {
-      "key": "Invasion"
+      "collection": "b08c9adc92ef96ff62957107"
     }
   ],
   "budget": 178000000,
@@ -168,10 +168,10 @@
   "releaseDate": "2014-06-06",
   "watchCount": 5,
   "studios": [
-    "WarnerBros"
+    "Warner Bros. Pictures"
   ],
   "poster": "edge_of_tomorow.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "vw61gCe2oqI"
   ]

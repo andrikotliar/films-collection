@@ -3,12 +3,12 @@
   "type": "Series",
   "title": "The Mandalorian",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Adventures"
   ],
   "crew": [
     {
-      "role": "SeriesCreator",
+      "role": "Creator",
       "people": [
         {
           "name": "Jon Favreau"
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Ludwig Göransson"
@@ -119,7 +119,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Barry Baz Idoine"
@@ -137,7 +137,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 40,
   "cast": [
@@ -209,7 +209,7 @@
   ],
   "collections": [
     {
-      "key": "SWU"
+      "collection": "670cc41243391aa2676f5cc5"
     }
   ],
   "awards": [
@@ -270,11 +270,11 @@
   "releaseDate": "2019-11-12",
   "watchCount": 1,
   "studios": [
-    "DisneyPlus",
+    "Disney+",
     "Lucasfilm"
   ],
   "poster": "mandalorian.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "OFlBh_eUsjA",
     "eW7Twd85m2g"

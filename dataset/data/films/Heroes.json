@@ -3,12 +3,12 @@
   "type": "Series",
   "title": "Heroes",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Drama"
   ],
   "crew": [
     {
-      "role": "SeriesCreator",
+      "role": "Creator",
       "people": [
         {
           "name": "Tim Kring"
@@ -254,7 +254,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Lisa Coleman"
@@ -265,7 +265,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Nathaniel Goodman"
@@ -289,7 +289,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 45,
   "cast": [
@@ -398,7 +398,7 @@
   ],
   "collections": [
     {
-      "key": "Superheroes"
+      "collection": "6b0607b285f213362f2e0790"
     }
   ],
   "awards": [
@@ -476,12 +476,12 @@
   "releaseDate": "2006-09-25",
   "watchCount": 2,
   "studios": [
-    "Tailwind",
-    "NBCUniversalTV",
-    "UniversalMedia"
+    "Tailwind Productions",
+    "NBC Universal Television",
+    "Universal Media Studios"
   ],
   "poster": "heroes.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "9AX6aXFdTkc",
     "9mNGxXpAmHc",

@@ -56,7 +56,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Alfonso G. Aguilar"
@@ -65,7 +65,7 @@
     }
   ],
   "countries": [
-    "ES",
+    "Spain",
     "UK"
   ],
   "duration": 96,
@@ -115,10 +115,10 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     },
     {
-      "key": "Christmas"
+      "collection": "e939ace73ff40d198c4800a9"
     }
   ],
   "budget": 40000000,
@@ -132,8 +132,8 @@
   "releaseDate": "2019-11-08",
   "watchCount": 4,
   "studios": [
-    "SPA",
-    "AtresmediaCine"
+    "The SPA Studios",
+    "Atresmedia Cine"
   ],
   "poster": "klaus.webp",
   "style": "Animation",

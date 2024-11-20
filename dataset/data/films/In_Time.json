@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "In Time",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Craig Armstrong"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Roger Deakins"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 109,
   "cast": [
@@ -86,10 +86,10 @@
   ],
   "collections": [
     {
-      "key": "Future"
+      "collection": "cbb1f0944d6aeece5dc45266"
     },
     {
-      "key": "Top10",
+      "collection": "f4472bb26f56fcaab829b96a",
       "order": 6
     }
   ],
@@ -105,10 +105,10 @@
   "releaseDate": "2011-10-28",
   "watchCount": 5,
   "studios": [
-    "20thCenturyFox"
+    "20th Century FOX"
   ],
   "poster": "time.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "fdadZ_KrZVw"
   ]

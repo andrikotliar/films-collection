@@ -50,7 +50,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Harry Gregson-Williams"
@@ -62,8 +62,8 @@
     }
   ],
   "countries": [
-    "US",
-    "JP"
+    "USA",
+    "Japan"
   ],
   "duration": 90,
   "cast": [
@@ -98,7 +98,7 @@
   ],
   "collections": [
     {
-      "key": "Legends"
+      "collection": "c7261f26600af8cbfa133b12"
     }
   ],
   "budget": 60000000,
@@ -140,7 +140,7 @@
   "releaseDate": "2001-05-18",
   "watchCount": 10,
   "studios": [
-    "DreamWorksAnimation"
+    "DreamWorks Animation"
   ],
   "poster": "shrek_1.webp",
   "style": "Animation",

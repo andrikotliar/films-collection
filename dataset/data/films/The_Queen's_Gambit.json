@@ -8,7 +8,7 @@
   ],
   "crew": [
     {
-      "role": "SeriesCreator",
+      "role": "Creator",
       "people": [
         {
           "name": "Scott Frank"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Carlos Rafael Rivera"
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Steven Meizler"
@@ -60,7 +60,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 60,
   "cast": [
@@ -115,7 +115,7 @@
   ],
   "collections": [
     {
-      "key": "Sport"
+      "collection": "4ae141c8292fc05a61fb308e"
     }
   ],
   "awards": [
@@ -167,7 +167,7 @@
     "Netflix"
   ],
   "poster": "queens_gambit.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "oZn3qSgmLqI"
   ]

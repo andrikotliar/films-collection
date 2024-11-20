@@ -8,7 +8,7 @@
   ],
   "crew": [
     {
-      "role": "SeriesCreator",
+      "role": "Creator",
       "people": [
         {
           "name": "Lauren Schmidt Hissrich"
@@ -102,7 +102,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Sonya Belousova"
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Jean-Philippe Gossart"
@@ -131,9 +131,9 @@
     }
   ],
   "countries": [
-    "US",
-    "PL",
-    "HU"
+    "USA",
+    "Poland",
+    "Hungary"
   ],
   "duration": 60,
   "cast": [
@@ -212,7 +212,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "seriesExtension": {
@@ -247,7 +247,7 @@
     "Netflix"
   ],
   "poster": "witcher.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "ndl1W4ltcmg",
     "2aMVzFlApa0"

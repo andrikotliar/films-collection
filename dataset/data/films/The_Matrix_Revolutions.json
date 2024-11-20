@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "The Matrix Revolutions",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Don Davis"
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Bill Pope"
@@ -49,8 +49,8 @@
     }
   ],
   "countries": [
-    "US",
-    "AU"
+    "USA",
+    "Australia"
   ],
   "duration": 129,
   "cast": [
@@ -105,7 +105,7 @@
   ],
   "collections": [
     {
-      "key": "Future"
+      "collection": "cbb1f0944d6aeece5dc45266"
     }
   ],
   "budget": 110000000,
@@ -121,10 +121,10 @@
   "releaseDate": "2003-11-05",
   "watchCount": 10,
   "studios": [
-    "WarnerBros"
+    "Warner Bros. Pictures"
   ],
   "poster": "matrix_3.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "hMbexEPAOQI"
   ]

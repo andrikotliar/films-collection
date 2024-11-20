@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Patrick Doyle"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Haris Zambarloukos"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 114,
   "cast": [
@@ -110,7 +110,7 @@
   ],
   "collections": [
     {
-      "key": "MCU"
+      "collection": "084e68c00a421325955ce741"
     }
   ],
   "budget": 150000000,
@@ -136,11 +136,11 @@
   "releaseDate": "2011-05-06",
   "watchCount": 3,
   "studios": [
-    "MarvelStudios",
-    "Paramount"
+    "Marvel Studios",
+    "Paramount Pictures"
   ],
   "poster": "thor_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "JOddp-nlNvQ"
   ]

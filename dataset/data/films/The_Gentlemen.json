@@ -39,7 +39,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Christopher Benstead"
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Alan Stewart"
@@ -57,7 +57,7 @@
   ],
   "countries": [
     "UK",
-    "US"
+    "USA"
   ],
   "duration": 113,
   "cast": [
@@ -118,7 +118,7 @@
   ],
   "collections": [
     {
-      "key": "Criminals"
+      "collection": "b3ee9731581a5eb2cbe9c146"
     }
   ],
   "budget": 22000000,
@@ -133,11 +133,11 @@
   "releaseDate": "2020-01-24",
   "watchCount": 2,
   "studios": [
-    "STX",
-    "Miramax"
+    "STX Films",
+    "MIRAMAX"
   ],
   "poster": "gentlemen.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "vaN8BtA8OJk"
   ]

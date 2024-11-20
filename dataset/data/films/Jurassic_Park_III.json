@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Jurassic Park III",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Adventures"
   ],
   "crew": [
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Don Davis"
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Shelly Johnson"
@@ -58,7 +58,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 92,
   "cast": [
@@ -95,7 +95,7 @@
   ],
   "collections": [
     {
-      "key": "Monsters"
+      "collection": "a3383c5d98d25c75d0fe7ec0"
     }
   ],
   "budget": 93000000,
@@ -111,11 +111,11 @@
   "releaseDate": "2001-07-18",
   "watchCount": 1,
   "studios": [
-    "Universal",
-    "Amblin"
+    "Universal Pictures",
+    "Amblin Entertainment"
   ],
   "poster": "jurassic_park_3.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "gjIaV6CU0wA"
   ]

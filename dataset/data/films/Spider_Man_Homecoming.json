@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Spider-Man: Homecoming",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Michael Giacchino"
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Salvatore Totino"
@@ -61,7 +61,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 133,
   "cast": [
@@ -107,7 +107,7 @@
   ],
   "collections": [
     {
-      "key": "MCU"
+      "collection": "084e68c00a421325955ce741"
     }
   ],
   "budget": 175000000,
@@ -134,11 +134,11 @@
   "releaseDate": "2017-07-07",
   "watchCount": 1,
   "studios": [
-    "WaltDisney",
-    "MarvelStudios"
+    "Walt Disney Pictures",
+    "Marvel Studios"
   ],
   "poster": "mcu_spider_man_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "n9DwoQ7HWvI"
   ]

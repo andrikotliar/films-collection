@@ -8,6 +8,6 @@ export * from './handle-image-error';
 export * from './build-router-link';
 export * from './get-year-from-date';
 export * from './get-formatted-date';
-export * from './build-filter-options';
 export * from './get-formatted-money-value';
 export * from './get-plural-word';
+export * from './get-filter-options';

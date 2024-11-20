@@ -42,7 +42,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Rupert Gregson-Williams"
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Matthew Jensen"
@@ -59,7 +59,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 141,
   "cast": [
@@ -114,7 +114,7 @@
   ],
   "collections": [
     {
-      "key": "DEU"
+      "collection": "5f41e4a109f2fdbce16b6466"
     }
   ],
   "budget": 120000000,
@@ -149,11 +149,11 @@
   "releaseDate": "2017-06-02",
   "watchCount": 2,
   "studios": [
-    "DCEntertainment",
-    "WarnerBros"
+    "DC Entertainment",
+    "Warner Bros. Pictures"
   ],
   "poster": "wonder_woman.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "1Q8fG0TtVAY"
   ]

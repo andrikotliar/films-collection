@@ -39,7 +39,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Marco Beltrami"
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Lachlan Milne"
@@ -59,9 +59,9 @@
     }
   ],
   "countries": [
-    "CA",
-    "US",
-    "AU"
+    "Canada",
+    "USA",
+    "Australia"
   ],
   "duration": 109,
   "cast": [
@@ -110,7 +110,7 @@
   ],
   "collections": [
     {
-      "key": "Monsters"
+      "collection": "a3383c5d98d25c75d0fe7ec0"
     }
   ],
   "budget": 30000000,
@@ -125,10 +125,10 @@
   "releaseDate": "2020-10-16",
   "watchCount": 1,
   "studios": [
-    "Paramount"
+    "Paramount Pictures"
   ],
   "poster": "love_and_monsters.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "1dzGhJ5QGsQ"
   ]

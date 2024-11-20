@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Aliens",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Horror"
   ],
   "crew": [
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "James Horner"
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Adrian Biddle"
@@ -49,7 +49,7 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK"
   ],
   "duration": 137,
@@ -93,7 +93,7 @@
   ],
   "collections": [
     {
-      "key": "Space"
+      "collection": "d3158d1bdcadb1a015c4bf29"
     }
   ],
   "budget": 18000000,
@@ -167,10 +167,10 @@
   "releaseDate": "1986-07-18",
   "watchCount": 3,
   "studios": [
-    "20thCenturyFox"
+    "20th Century FOX"
   ],
   "poster": "alien_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "oSeQQlaCZgU"
   ]

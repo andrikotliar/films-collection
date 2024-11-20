@@ -52,7 +52,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Henry Jackman"
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "P.J. Dillon"
@@ -69,7 +69,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 50,
   "cast": [
@@ -136,7 +136,7 @@
   ],
   "collections": [
     {
-      "key": "MCU"
+      "collection": "084e68c00a421325955ce741"
     }
   ],
   "awards": [
@@ -175,11 +175,11 @@
   "releaseDate": "2021-03-19",
   "watchCount": 1,
   "studios": [
-    "DisneyPlus",
-    "MarvelStudios"
+    "Disney+",
+    "Marvel Studios"
   ],
   "poster": "falcon_and_the_winter_soldier.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "IWBsDaFWyTE"
   ]

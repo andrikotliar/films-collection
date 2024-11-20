@@ -40,7 +40,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Alan Silvestri"
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Dariusz Wolski"
@@ -57,7 +57,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 123,
   "cast": [
@@ -118,7 +118,7 @@
   ],
   "collections": [
     {
-      "key": "Skills"
+      "collection": "63d08dcff17e6c0c25ca0ce7"
     }
   ],
   "budget": 35000000,
@@ -133,10 +133,10 @@
   "releaseDate": "2015-10-09",
   "watchCount": 1,
   "studios": [
-    "Sony"
+    "Sony Pictures"
   ],
   "poster": "walk.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "4W6byFcD5uE"
   ]

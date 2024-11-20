@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Tron: Legacy",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Adventures"
   ],
   "crew": [
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Daft Punk"
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Claudio Miranda"
@@ -58,7 +58,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 125,
   "cast": [
@@ -107,7 +107,7 @@
   ],
   "collections": [
     {
-      "key": "Future"
+      "collection": "cbb1f0944d6aeece5dc45266"
     }
   ],
   "budget": 170000000,
@@ -136,10 +136,10 @@
   "releaseDate": "2010-12-17",
   "watchCount": 3,
   "studios": [
-    "WaltDisney"
+    "Walt Disney Pictures"
   ],
   "poster": "tron.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "L9szn1QQfas"
   ]

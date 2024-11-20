@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Alien",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Horror"
   ],
   "crew": [
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Jerry Goldsmith"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Derek Vanlint"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK"
   ],
   "duration": 117,
@@ -112,7 +112,7 @@
   ],
   "collections": [
     {
-      "key": "Space"
+      "collection": "d3158d1bdcadb1a015c4bf29"
     }
   ],
   "budget": 11000000,
@@ -167,10 +167,10 @@
   "releaseDate": "1979-05-25",
   "watchCount": 3,
   "studios": [
-    "20thCenturyFox"
+    "20th Century FOX"
   ],
   "poster": "alien_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "jQ5lPt9edzQ"
   ]

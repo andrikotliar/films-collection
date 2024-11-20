@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Hans Zimmer"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Dariusz Wolski"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 168,
   "cast": [
@@ -103,7 +103,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "budget": 300000000,
@@ -129,11 +129,11 @@
   "releaseDate": "2007-05-25",
   "watchCount": 10,
   "studios": [
-    "WaltDisney",
-    "JerryBruckheimerFilms"
+    "Walt Disney Pictures",
+    "Jerry Bruckheimer Films"
   ],
   "poster": "pirates_3.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "HKSZtp_OGHY"
   ]

@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "The Incredible Hulk",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Craig Armstrong"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Peter Menzies Jr."
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 112,
   "cast": [
@@ -94,7 +94,7 @@
   ],
   "collections": [
     {
-      "key": "MCU"
+      "collection": "084e68c00a421325955ce741"
     }
   ],
   "budget": 150000000,
@@ -110,11 +110,11 @@
   "releaseDate": "2008-06-13",
   "watchCount": 5,
   "studios": [
-    "MarvelStudios",
-    "Universal"
+    "Marvel Studios",
+    "Universal Pictures"
   ],
   "poster": "the_incredible_hulk.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "xbqNb2PFKKA"
   ]

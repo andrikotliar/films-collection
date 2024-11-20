@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Guardians of the Galaxy",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Comedy"
   ],
   "crew": [
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Tyler Bates"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Ben Davis"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 122,
   "cast": [
@@ -138,7 +138,7 @@
   ],
   "collections": [
     {
-      "key": "MCU"
+      "collection": "084e68c00a421325955ce741"
     }
   ],
   "budget": 196000000,
@@ -185,11 +185,11 @@
   "releaseDate": "2014-08-01",
   "watchCount": 3,
   "studios": [
-    "WaltDisney",
-    "MarvelStudios"
+    "Walt Disney Pictures",
+    "Marvel Studios"
   ],
   "poster": "guardians_of_the_galaxy.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "d96cjJhvlMA"
   ]

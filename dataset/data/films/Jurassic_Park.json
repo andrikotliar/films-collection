@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Jurassic Park",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Adventures"
   ],
   "crew": [
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "John Williams"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Dean Cundey"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 127,
   "cast": [
@@ -98,10 +98,10 @@
   ],
   "collections": [
     {
-      "key": "Legends"
+      "collection": "c7261f26600af8cbfa133b12"
     },
     {
-      "key": "Monsters"
+      "collection": "a3383c5d98d25c75d0fe7ec0"
     }
   ],
   "budget": 63000000,
@@ -169,11 +169,11 @@
   "releaseDate": "1993-06-11",
   "watchCount": 3,
   "studios": [
-    "Universal",
-    "Amblin"
+    "Universal Pictures",
+    "Amblin Entertainment"
   ],
   "poster": "jurassic_park_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "QWBKEmWWL38"
   ]

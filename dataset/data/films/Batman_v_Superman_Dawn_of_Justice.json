@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Hans Zimmer"
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Larry Fong"
@@ -58,7 +58,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 151,
   "cast": [
@@ -121,7 +121,7 @@
   ],
   "collections": [
     {
-      "key": "DEU"
+      "collection": "5f41e4a109f2fdbce16b6466"
     }
   ],
   "budget": 250000000,
@@ -137,11 +137,11 @@
   "releaseDate": "2016-03-25",
   "watchCount": 1,
   "studios": [
-    "DCEntertainment",
-    "WarnerBros"
+    "DC Entertainment",
+    "Warner Bros. Pictures"
   ],
   "poster": "batman_v_superman.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "bha24P9uw-E"
   ]

@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "I am Legend",
   "genres": [
-    "SciFi"
+    "Sci-Fi"
   ],
   "crew": [
     {
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "James Newton Howard"
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Andrew Lesnie"
@@ -60,7 +60,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 101,
   "cast": [
@@ -97,7 +97,7 @@
   ],
   "collections": [
     {
-      "key": "Robots"
+      "collection": "8a792cea73830d2268416ae2"
     }
   ],
   "budget": 150000000,
@@ -132,11 +132,11 @@
   "watchCount": 3,
   "releaseDate": "2008-04-03",
   "studios": [
-    "WarnerBros",
-    "VillageRoadshow"
+    "Warner Bros. Pictures",
+    "Village Roadshow Pictures"
   ],
   "poster": "i_am_legend.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "dtKMEAXyPkg"
   ]

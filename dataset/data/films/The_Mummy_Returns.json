@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Alan Silvestri"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Adrian Biddle"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 130,
   "cast": [
@@ -119,7 +119,7 @@
   ],
   "collections": [
     {
-      "key": "Mysteries"
+      "collection": "39dc3b0b88848b2e1245671c"
     }
   ],
   "budget": 98000000,
@@ -135,10 +135,10 @@
   "releaseDate": "2001-05-04",
   "watchCount": 10,
   "studios": [
-    "Universal"
+    "Universal Pictures"
   ],
   "poster": "mummy_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "3yXjs7BUKYc"
   ]

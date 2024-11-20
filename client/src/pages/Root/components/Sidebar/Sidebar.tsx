@@ -4,10 +4,30 @@ import classNames from 'classnames';
 import { SidebarContext } from '@/pages/Root/context';
 import { Filters } from '../Filters/Filters';
 import styles from './Sidebar.module.css';
+import { useInitialData } from '@/hooks';
+import { Loader } from '@/components';
 
 const Sidebar = () => {
   const { isFilterOpen, toggleFilter, filtersCount } =
     useContext(SidebarContext);
+
+  const { data, isLoading } = useInitialData();
+
+  if (isLoading) {
+    return (
+      <div className={styles.sidebarContent}>
+        <Loader />
+      </div>
+    );
+  }
+
+  if (!data) {
+    return (
+      <div className={styles.sidebarContent}>
+        <div className={styles.missingFilters}>Filters missing</div>
+      </div>
+    );
+  }
 
   return (
     <>
@@ -16,7 +36,7 @@ const Sidebar = () => {
           [styles.open]: isFilterOpen,
         })}
       >
-        <Filters />
+        <Filters config={data} />
       </div>
       <button onClick={toggleFilter} className={styles.filterButton}>
         <SlidersHorizontalIcon size={18} />

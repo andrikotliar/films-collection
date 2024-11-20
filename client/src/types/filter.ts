@@ -1,7 +1,6 @@
 type FilterOption = {
-  filter: string;
   title: string;
-  property?: string;
+  filter: string;
 };
 
 type CheckboxFilter = {

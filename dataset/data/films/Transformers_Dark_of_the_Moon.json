@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Transformers: Dark of the Moon",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Steve Jablonsky"
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Amir Mokri"
@@ -58,7 +58,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 154,
   "cast": [
@@ -134,7 +134,7 @@
   ],
   "collections": [
     {
-      "key": "Robots"
+      "collection": "8a792cea73830d2268416ae2"
     }
   ],
   "budget": 195000000,
@@ -150,11 +150,11 @@
   "releaseDate": "2011-06-29",
   "watchCount": 5,
   "studios": [
-    "DreamWorks",
-    "Paramount"
+    "DreamWorks Pictures",
+    "Paramount Pictures"
   ],
   "poster": "transformers_3.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "bTIrEZM-cFE"
   ]

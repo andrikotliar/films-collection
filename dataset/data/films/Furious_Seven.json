@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Brian Tyler"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Stephen F. Windon"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 137,
   "cast": [
@@ -134,7 +134,7 @@
   ],
   "collections": [
     {
-      "key": "Cars"
+      "collection": "37fefe4d5c15766d5188af9f"
     }
   ],
   "budget": 190000000,
@@ -169,10 +169,10 @@
   "releaseDate": "2015-04-03",
   "watchCount": 3,
   "studios": [
-    "Universal"
+    "Universal Pictures"
   ],
   "poster": "fast_and_furious_7.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "Skpu5HaVkOc"
   ]

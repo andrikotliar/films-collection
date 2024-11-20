@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Back to the future: Part III",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Adventures"
   ],
   "crew": [
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Alan Silvestri"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Dean Cundey"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 118,
   "cast": [
@@ -83,7 +83,7 @@
   ],
   "collections": [
     {
-      "key": "Legends"
+      "collection": "c7261f26600af8cbfa133b12"
     }
   ],
   "budget": 40000000,
@@ -99,10 +99,10 @@
   "releaseDate": "1990-05-25",
   "watchCount": 10,
   "studios": [
-    "Universal"
+    "Universal Pictures"
   ],
   "poster": "back_to_the_future_3.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "EYkguxpqsrg"
   ]

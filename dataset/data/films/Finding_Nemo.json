@@ -37,7 +37,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Thomas Newman"
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Sharon Calahan"
@@ -57,7 +57,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 100,
   "cast": [
@@ -155,7 +155,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "budget": 94000000,
@@ -200,8 +200,8 @@
   "releaseDate": "2003-05-30",
   "watchCount": 5,
   "studios": [
-    "WaltDisney",
-    "Pixar"
+    "Walt Disney Pictures",
+    "Pixar Animation"
   ],
   "poster": "finding_nemo.webp",
   "style": "Animation",

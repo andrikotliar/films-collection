@@ -50,7 +50,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Howard Shore"
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Andrew Lesnie"
@@ -67,8 +67,8 @@
     }
   ],
   "countries": [
-    "US",
-    "NZ"
+    "USA",
+    "New Zealand"
   ],
   "duration": 169,
   "cast": [
@@ -189,7 +189,7 @@
   ],
   "collections": [
     {
-      "key": "MEU"
+      "collection": "236fd0909f51d742acd4c4be"
     }
   ],
   "budget": 200000000,
@@ -215,10 +215,10 @@
   "releaseDate": "2012-12-14",
   "watchCount": 1,
   "studios": [
-    "NewLineCinema"
+    "New Line Cinema"
   ],
   "poster": "middle_earth_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "JTSoD4BBCJc"
   ]

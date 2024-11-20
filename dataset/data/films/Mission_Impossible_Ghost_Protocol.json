@@ -41,7 +41,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Michael Giacchino"
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Robert Elswit"
@@ -58,7 +58,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 133,
   "cast": [
@@ -95,7 +95,7 @@
   ],
   "collections": [
     {
-      "key": "AgentsDetectives"
+      "collection": "47a859c4e3db02afffd2569e"
     }
   ],
   "budget": 145000000,
@@ -124,10 +124,10 @@
   "releaseDate": "2011-12-16",
   "watchCount": 1,
   "studios": [
-    "Paramount"
+    "Paramount Pictures"
   ],
   "poster": "mi_4.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "EDGYVFZxsXQ"
   ]

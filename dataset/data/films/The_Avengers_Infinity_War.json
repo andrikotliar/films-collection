@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "The Avengers: Infinity War",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Alan Silvestri"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Trent Opaloch"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 149,
   "cast": [
@@ -209,7 +209,7 @@
   ],
   "collections": [
     {
-      "key": "MCU"
+      "collection": "084e68c00a421325955ce741"
     }
   ],
   "budget": 316000000,
@@ -236,11 +236,11 @@
   "releaseDate": "2018-04-27",
   "watchCount": 3,
   "studios": [
-    "WaltDisney",
-    "MarvelStudios"
+    "Walt Disney Pictures",
+    "Marvel Studios"
   ],
   "poster": "avengers_3.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "6ZfuNTqbHE8"
   ]

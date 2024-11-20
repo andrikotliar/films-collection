@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Joseph LoDuca"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Alan Caso"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 90,
   "cast": [
@@ -95,7 +95,7 @@
   ],
   "collections": [
     {
-      "key": "Mysteries"
+      "collection": "39dc3b0b88848b2e1245671c"
     }
   ],
   "rating": 1,
@@ -112,7 +112,7 @@
     "TNT"
   ],
   "poster": "librarian_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "_LsPz8vCULE"
   ]

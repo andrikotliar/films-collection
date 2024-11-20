@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Nicholas Hooper"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Bruno Delbonnel"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK"
   ],
   "duration": 153,
@@ -117,7 +117,7 @@
   ],
   "collections": [
     {
-      "key": "HPU"
+      "collection": "ded2b175d20cde95f88bcac4"
     }
   ],
   "budget": 250000000,
@@ -133,10 +133,10 @@
   "releaseDate": "2009-07-15",
   "watchCount": 4,
   "studios": [
-    "WarnerBros"
+    "Warner Bros. Pictures"
   ],
   "poster": "harry_potter_6.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "sg81Lts5kYY"
   ]

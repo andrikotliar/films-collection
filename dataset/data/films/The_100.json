@@ -3,7 +3,7 @@
   "type": "Series",
   "title": "The 100",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Drama"
   ],
   "crew": [
@@ -346,7 +346,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Tree Adams"
@@ -363,7 +363,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Michael C. Blundell"
@@ -384,8 +384,8 @@
     }
   ],
   "countries": [
-    "US",
-    "CA"
+    "USA",
+    "Canada"
   ],
   "duration": 43,
   "cast": [
@@ -596,7 +596,7 @@
   ],
   "collections": [
     {
-      "key": "Future"
+      "collection": "cbb1f0944d6aeece5dc45266"
     }
   ],
   "awards": [
@@ -683,12 +683,12 @@
   "releaseDate": "2014-03-19",
   "watchCount": 1,
   "studios": [
-    "CW",
-    "WarnerBrosTv",
-    "CBS"
+    "The CW",
+    "Warner Bros. Television",
+    "CBS Television Studios"
   ],
   "poster": "hundred.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "ia1Fbg96vL0",
     "IW7_ZzFZF-o",

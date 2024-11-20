@@ -1,0 +1,34 @@
+{
+  "title": "Collections",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "HEX string"
+      },
+      "type": {
+        "type": "string",
+        "enum": [
+          "General",
+          "CinematicUniverse",
+          "Top"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "description": "Title of the collection"
+      },
+      "description": {
+        "type": "string",
+        "description": "Short description of the collection purpose"
+      }
+    },
+    "required": [
+      "id",
+      "title",
+      "type"
+    ]
+  }
+}

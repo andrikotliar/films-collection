@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "The Lost World: Jurassic Park",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Adventures"
   ],
   "crew": [
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "John Williams"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Janusz Kaminski"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 129,
   "cast": [
@@ -83,7 +83,7 @@
   ],
   "collections": [
     {
-      "key": "Monsters"
+      "collection": "a3383c5d98d25c75d0fe7ec0"
     }
   ],
   "budget": 73000000,
@@ -99,11 +99,11 @@
   "releaseDate": "1997-05-23",
   "watchCount": 2,
   "studios": [
-    "Universal",
-    "Amblin"
+    "Universal Pictures",
+    "Amblin Entertainment"
   ],
   "poster": "jurassic_park_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "RxrvaneULkE"
   ]

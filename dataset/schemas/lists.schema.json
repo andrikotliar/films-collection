@@ -1,0 +1,33 @@
+{
+  "title": "Collection of predefined params",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Unique identifier"
+      },
+      "type": {
+        "type": "string",
+        "description": "List type",
+        "examples": [
+          "genres",
+          "countries"
+        ]
+      },
+      "values": {
+        "type": "array",
+        "description": "List of possible values",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "id",
+      "type",
+      "values"
+    ]
+  }
+}

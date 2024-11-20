@@ -18,6 +18,14 @@ const collectionsConfig = [
     dbCollection: 'awards',
     loader: () => loadJsonData('./data/supporting/awards.json'),
   },
+  {
+    dbCollection: 'lists',
+    loader: () => loadJsonData('./data/supporting/lists.json'),
+  },
+  {
+    dbCollection: 'collections',
+    loader: () => loadJsonData('./data/supporting/collections.json'),
+  },
 ];
 
 export { collectionsConfig };

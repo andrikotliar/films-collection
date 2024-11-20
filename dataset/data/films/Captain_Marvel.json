@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Captain Marvel",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Pinar Toprak"
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Ben Davis"
@@ -58,7 +58,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 124,
   "cast": [
@@ -134,7 +134,7 @@
   ],
   "collections": [
     {
-      "key": "MCU"
+      "collection": "084e68c00a421325955ce741"
     }
   ],
   "budget": 152000000,
@@ -150,11 +150,11 @@
   "releaseDate": "2019-03-08",
   "watchCount": 1,
   "studios": [
-    "WaltDisney",
-    "MarvelStudios"
+    "Walt Disney Pictures",
+    "Marvel Studios"
   ],
   "poster": "captain_marvel.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "TcMBFSGVi1c"
   ]

@@ -44,7 +44,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "John Powell"
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Tobias A. Schliessler"
@@ -61,7 +61,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 92,
   "cast": [
@@ -92,7 +92,7 @@
   ],
   "collections": [
     {
-      "key": "Superheroes"
+      "collection": "6b0607b285f213362f2e0790"
     }
   ],
   "budget": 150000000,
@@ -107,10 +107,10 @@
   "releaseDate": "2008-07-02",
   "watchCount": 5,
   "studios": [
-    "Columbia"
+    "Columbia Pictures"
   ],
   "poster": "hancock.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "SkX1VuXLRSc"
   ]

@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Interstellar",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Drama"
   ],
   "crew": [
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Hans Zimmer"
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Hoyte Van Hoytema"
@@ -58,7 +58,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 169,
   "cast": [
@@ -95,7 +95,7 @@
   ],
   "collections": [
     {
-      "key": "Space"
+      "collection": "d3158d1bdcadb1a015c4bf29"
     }
   ],
   "budget": 165000000,
@@ -160,11 +160,11 @@
   "releaseDate": "2014-11-07",
   "watchCount": 3,
   "studios": [
-    "Paramount",
-    "WarnerBros"
+    "Paramount Pictures",
+    "Warner Bros. Pictures"
   ],
   "poster": "interstellar.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "zSWdZVtXT7E"
   ]

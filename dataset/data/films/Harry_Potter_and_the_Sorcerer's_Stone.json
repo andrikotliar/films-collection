@@ -32,7 +32,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "John Williams"
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "John Seale"
@@ -49,7 +49,7 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK"
   ],
   "duration": 152,
@@ -109,7 +109,7 @@
   ],
   "collections": [
     {
-      "key": "HPU"
+      "collection": "ded2b175d20cde95f88bcac4"
     }
   ],
   "budget": 125000000,
@@ -135,10 +135,10 @@
   "releaseDate": "2001-11-16",
   "watchCount": 10,
   "studios": [
-    "WarnerBros"
+    "Warner Bros. Pictures"
   ],
   "poster": "harry_potter_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "VyHV0BRtdxo"
   ]

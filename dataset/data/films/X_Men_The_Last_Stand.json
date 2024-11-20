@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "X-Men: The Last Stand",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "John Powell"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Dante Spinotti"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 104,
   "cast": [
@@ -134,7 +134,7 @@
   ],
   "collections": [
     {
-      "key": "Superheroes"
+      "collection": "6b0607b285f213362f2e0790"
     }
   ],
   "budget": 210000000,
@@ -161,11 +161,11 @@
   "releaseDate": "2006-05-26",
   "watchCount": 2,
   "studios": [
-    "20thCenturyFox",
-    "MarvelEntertainment"
+    "20th Century FOX",
+    "Marvel Entertainment"
   ],
   "poster": "x_men_3.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "r8ZMvxzplwc"
   ]

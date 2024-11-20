@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "John Powell"
@@ -47,7 +47,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 91,
   "cast": [
@@ -96,7 +96,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "budget": 80000000,
@@ -112,8 +112,8 @@
   "releaseDate": "2006-03-31",
   "watchCount": 10,
   "studios": [
-    "20thCenturyFox",
-    "BlueSky"
+    "20th Century FOX",
+    "Blue Sky Studios"
   ],
   "poster": "ice_age_2.webp",
   "style": "Animation",

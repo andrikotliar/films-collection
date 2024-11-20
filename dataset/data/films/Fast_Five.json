@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Brian Tyler"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Stephen F. Windon"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 130,
   "cast": [
@@ -125,7 +125,7 @@
   ],
   "collections": [
     {
-      "key": "Cars"
+      "collection": "37fefe4d5c15766d5188af9f"
     }
   ],
   "budget": 125000000,
@@ -141,10 +141,10 @@
   "releaseDate": "2011-04-29",
   "watchCount": 3,
   "studios": [
-    "Universal"
+    "Universal Pictures"
   ],
   "poster": "fast_and_furious_5.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "mw2AqdB5EVA"
   ]

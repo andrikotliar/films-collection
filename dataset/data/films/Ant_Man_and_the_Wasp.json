@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Ant-Man and the Wasp",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Comedy"
   ],
   "crew": [
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Christophe Beck"
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Dante Spinotti"
@@ -58,7 +58,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 118,
   "cast": [
@@ -110,7 +110,7 @@
   ],
   "collections": [
     {
-      "key": "MCU"
+      "collection": "084e68c00a421325955ce741"
     }
   ],
   "budget": 162000000,
@@ -126,11 +126,11 @@
   "releaseDate": "2018-07-06",
   "watchCount": 1,
   "studios": [
-    "WaltDisney",
-    "MarvelStudios"
+    "Walt Disney Pictures",
+    "Marvel Studios"
   ],
   "poster": "ant_man_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "UUkn-enk2RU"
   ]

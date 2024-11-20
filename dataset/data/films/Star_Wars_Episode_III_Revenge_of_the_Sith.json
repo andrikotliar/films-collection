@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Star Wars Episode III: Revenge of the Sith",
   "genres": [
-    "SpaceOpera",
+    "Space Opera",
     "Adventures"
   ],
   "crew": [
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "John Williams"
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "David Tattersall"
@@ -49,7 +49,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 140,
   "cast": [
@@ -86,7 +86,7 @@
   ],
   "collections": [
     {
-      "key": "SWU"
+      "collection": "670cc41243391aa2676f5cc5"
     }
   ],
   "budget": 113000000,
@@ -115,11 +115,11 @@
   "releaseDate": "2005-05-19",
   "watchCount": 3,
   "studios": [
-    "20thCenturyFox",
+    "20th Century FOX",
     "Lucasfilm"
   ],
   "poster": "star_wars_episode_III.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "5UnjrG_N8hU"
   ]

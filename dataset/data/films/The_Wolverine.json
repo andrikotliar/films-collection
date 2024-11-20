@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "The Wolverine",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Marco Beltrami"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Ross Emery"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK"
   ],
   "duration": 126,
@@ -93,7 +93,7 @@
   ],
   "collections": [
     {
-      "key": "Superheroes"
+      "collection": "6b0607b285f213362f2e0790"
     }
   ],
   "budget": 132000000,
@@ -109,11 +109,11 @@
   "releaseDate": "2013-07-26",
   "watchCount": 1,
   "studios": [
-    "20thCenturyFox",
-    "MarvelEntertainment"
+    "20th Century FOX",
+    "Marvel Entertainment"
   ],
   "poster": "wolverine.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "toLpchTUYk8"
   ]

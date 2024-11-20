@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Source Code",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action",
     "Thriller"
   ],
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Chris Bacon"
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Don Burgess"
@@ -56,7 +56,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 93,
   "cast": [
@@ -93,7 +93,7 @@
   ],
   "collections": [
     {
-      "key": "Future"
+      "collection": "cbb1f0944d6aeece5dc45266"
     }
   ],
   "budget": 32000000,
@@ -108,10 +108,10 @@
   "releaseDate": "2011-04-01",
   "watchCount": 1,
   "studios": [
-    "Summit"
+    "Summit Entertainment"
   ],
   "poster": "source_code.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "mnJegNyAb1w"
   ]

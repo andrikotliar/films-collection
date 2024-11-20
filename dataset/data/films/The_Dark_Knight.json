@@ -41,7 +41,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Hans Zimmer"
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Wally Pfister"
@@ -61,7 +61,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 152,
   "cast": [
@@ -118,7 +118,7 @@
   ],
   "collections": [
     {
-      "key": "Superheroes"
+      "collection": "6b0607b285f213362f2e0790"
     }
   ],
   "budget": 185000000,
@@ -204,11 +204,11 @@
   "releaseDate": "2008-07-18",
   "watchCount": 2,
   "studios": [
-    "WarnerBros",
+    "Warner Bros. Pictures",
     "Legendary"
   ],
   "poster": "batman_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "EXeTwQWrcwY"
   ]

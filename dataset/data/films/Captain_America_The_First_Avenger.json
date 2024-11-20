@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Captain America: The First Avenger",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Alan Silvestri"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Shelly Johnson"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 124,
   "cast": [
@@ -121,7 +121,7 @@
   ],
   "collections": [
     {
-      "key": "MCU"
+      "collection": "084e68c00a421325955ce741"
     }
   ],
   "budget": 140000000,
@@ -137,11 +137,11 @@
   "releaseDate": "2011-07-22",
   "watchCount": 4,
   "studios": [
-    "MarvelStudios",
-    "Paramount"
+    "Marvel Studios",
+    "Paramount Pictures"
   ],
   "poster": "captain_america_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "JerVrbLldXw"
   ]

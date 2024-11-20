@@ -8,7 +8,7 @@
   ],
   "crew": [
     {
-      "role": "SeriesCreator",
+      "role": "Creator",
       "people": [
         {
           "name": "Meredith Averill"
@@ -146,7 +146,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Torin Borrowdale"
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Tico Poulakakis"
@@ -169,8 +169,8 @@
     }
   ],
   "countries": [
-    "US",
-    "CA"
+    "USA",
+    "Canada"
   ],
   "duration": 48,
   "cast": [
@@ -231,7 +231,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "seriesExtension": {
@@ -275,7 +275,7 @@
     "Netflix"
   ],
   "poster": "locke_key.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "_EonRi0yQOE",
     "lxJdvbG2fPw",

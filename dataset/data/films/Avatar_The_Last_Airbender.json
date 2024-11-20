@@ -8,7 +8,7 @@
   ],
   "crew": [
     {
-      "role": "SeriesCreator",
+      "role": "Creator",
       "people": [
         {
           "name": "Michael Dante DiMartino"
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Benjamin Wynn"
@@ -156,7 +156,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 23,
   "cast": [
@@ -268,7 +268,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "awards": [
@@ -347,7 +347,7 @@
   "releaseDate": "2005-02-21",
   "watchCount": 5,
   "studios": [
-    "Nickelodeon"
+    "Nickelodeon Animation Studios"
   ],
   "poster": "atla.webp",
   "style": "Animation",

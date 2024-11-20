@@ -44,7 +44,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Harry Gregson-Williams"
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Donald McAlpine"
@@ -62,7 +62,7 @@
   ],
   "countries": [
     "UK",
-    "US"
+    "USA"
   ],
   "duration": 145,
   "cast": [
@@ -117,7 +117,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "budget": 180000000,
@@ -170,10 +170,10 @@
   "releaseDate": "2005-12-09",
   "watchCount": 2,
   "studios": [
-    "WaltDisney"
+    "Walt Disney Pictures"
   ],
   "poster": "narnia_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "lWKj41HZBzM"
   ]

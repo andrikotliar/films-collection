@@ -47,7 +47,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Joe Kraemer"
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Robert Elswit"
@@ -64,7 +64,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 131,
   "cast": [
@@ -107,7 +107,7 @@
   ],
   "collections": [
     {
-      "key": "AgentsDetectives"
+      "collection": "47a859c4e3db02afffd2569e"
     }
   ],
   "budget": 150000000,
@@ -123,10 +123,10 @@
   "releaseDate": "2015-07-31",
   "watchCount": 1,
   "studios": [
-    "Paramount"
+    "Paramount Pictures"
   ],
   "poster": "mi_5.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "gOW_azQbOjw"
   ]

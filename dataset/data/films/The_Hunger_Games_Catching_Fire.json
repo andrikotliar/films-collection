@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "The Hunger Games: Catching Fire",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Adventures"
   ],
   "crew": [
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "James Newton Howard"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Jo Willems"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 146,
   "cast": [
@@ -98,7 +98,7 @@
   ],
   "collections": [
     {
-      "key": "Dystopia"
+      "collection": "1e70601b83e5673b2f0377a8"
     }
   ],
   "budget": 130000000,
@@ -135,7 +135,7 @@
     "Lionsgate"
   ],
   "poster": "hunger_games_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "EAzGXqJSDJ8"
   ]

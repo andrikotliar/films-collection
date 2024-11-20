@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Logan",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Marco Beltrami"
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "John Mathieson"
@@ -58,7 +58,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 137,
   "cast": [
@@ -119,7 +119,7 @@
   ],
   "collections": [
     {
-      "key": "Superheroes"
+      "collection": "6b0607b285f213362f2e0790"
     }
   ],
   "budget": 97000000,
@@ -155,11 +155,11 @@
   "releaseDate": "2017-03-03",
   "watchCount": 1,
   "studios": [
-    "20thCenturyFox",
-    "MarvelEntertainment"
+    "20th Century FOX",
+    "Marvel Entertainment"
   ],
   "poster": "logan.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "Div0iP65aZo"
   ]

@@ -3,8 +3,8 @@
   "type": "Film",
   "title": "Star Trek: Beyond",
   "genres": [
-    "SciFi",
-    "SpaceOpera"
+    "Sci-Fi",
+    "Space Opera"
   ],
   "crew": [
     {
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Michael Giacchino"
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Stephen F. Windon"
@@ -61,7 +61,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 122,
   "cast": [
@@ -146,7 +146,7 @@
   ],
   "collections": [
     {
-      "key": "Space"
+      "collection": "d3158d1bdcadb1a015c4bf29"
     }
   ],
   "budget": 185000000,
@@ -172,11 +172,11 @@
   "releaseDate": "2016-07-22",
   "watchCount": 1,
   "studios": [
-    "Paramount",
-    "BadRobot"
+    "Paramount Pictures",
+    "Bad Robot Productions"
   ],
   "poster": "star_trek_3.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "XRVD32rnzOw"
   ]

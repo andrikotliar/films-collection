@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Inception",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Hans Zimmer"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Wally Pfister"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 148,
   "cast": [
@@ -113,7 +113,7 @@
   ],
   "collections": [
     {
-      "key": "Future"
+      "collection": "cbb1f0944d6aeece5dc45266"
     }
   ],
   "budget": 160000000,
@@ -217,11 +217,11 @@
   "releaseDate": "2010-07-16",
   "watchCount": 2,
   "studios": [
-    "WarnerBros",
+    "Warner Bros. Pictures",
     "Legendary"
   ],
   "poster": "inception.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "YoHD9XEInc0"
   ]

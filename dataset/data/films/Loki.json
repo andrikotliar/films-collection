@@ -8,7 +8,7 @@
   ],
   "crew": [
     {
-      "role": "SeriesCreator",
+      "role": "Creator",
       "people": [
         {
           "name": "Michael Waldron"
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Natalie Holt"
@@ -83,7 +83,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Autumn Durald Arkapaw"
@@ -92,7 +92,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 50,
   "cast": [
@@ -154,7 +154,7 @@
   ],
   "collections": [
     {
-      "key": "MCU"
+      "collection": "084e68c00a421325955ce741"
     }
   ],
   "seriesExtension": {
@@ -178,11 +178,11 @@
   "releaseDate": "2021-06-09",
   "watchCount": 1,
   "studios": [
-    "DisneyPlus",
-    "MarvelStudios"
+    "Disney+",
+    "Marvel Studios"
   ],
   "poster": "loki.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "nW948Va-l10"
   ]

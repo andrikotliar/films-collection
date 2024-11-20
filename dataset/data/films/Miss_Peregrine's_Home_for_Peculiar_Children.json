@@ -36,7 +36,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Mike Higham"
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Bruno Delbonnel"
@@ -56,7 +56,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 127,
   "cast": [
@@ -117,7 +117,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "budget": 110000000,
@@ -132,10 +132,10 @@
   "releaseDate": "2016-09-30",
   "watchCount": 1,
   "studios": [
-    "20thCenturyFox"
+    "20th Century FOX"
   ],
   "poster": "miss_peregrin.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "tV_IhWE4LP0"
   ]

@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Star Wars Episode V: The Empire Strikes Back",
   "genres": [
-    "SpaceOpera",
+    "Space Opera",
     "Adventures"
   ],
   "crew": [
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "John Williams"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Peter Suschitzky"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 124,
   "cast": [
@@ -117,7 +117,7 @@
   ],
   "collections": [
     {
-      "key": "SWU"
+      "collection": "670cc41243391aa2676f5cc5"
     }
   ],
   "budget": 18000000,
@@ -164,11 +164,11 @@
   "releaseDate": "1980-05-21",
   "watchCount": 3,
   "studios": [
-    "20thCenturyFox",
+    "20th Century FOX",
     "Lucasfilm"
   ],
   "poster": "star_wars_episode_V.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "JNwNXF9Y6kY"
   ]

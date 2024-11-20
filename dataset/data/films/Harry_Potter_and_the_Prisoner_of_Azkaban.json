@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "John Williams"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Michael Seresin"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK"
   ],
   "duration": 142,
@@ -126,7 +126,7 @@
   ],
   "collections": [
     {
-      "key": "HPU"
+      "collection": "ded2b175d20cde95f88bcac4"
     }
   ],
   "budget": 130000000,
@@ -142,10 +142,10 @@
   "releaseDate": "2004-06-04",
   "watchCount": 10,
   "studios": [
-    "WarnerBros"
+    "Warner Bros. Pictures"
   ],
   "poster": "harry_potter_3.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "lAxgztbYDbs"
   ]

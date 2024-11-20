@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Randy Edelman"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Simon Duggan"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 112,
   "cast": [
@@ -110,7 +110,7 @@
   ],
   "collections": [
     {
-      "key": "Mysteries"
+      "collection": "39dc3b0b88848b2e1245671c"
     }
   ],
   "budget": 145000000,
@@ -129,10 +129,10 @@
   "releaseDate": "2008-08-01",
   "watchCount": 10,
   "studios": [
-    "Universal"
+    "Universal Pictures"
   ],
   "poster": "mummy_3.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "5-4qSE2Ch0Y"
   ]

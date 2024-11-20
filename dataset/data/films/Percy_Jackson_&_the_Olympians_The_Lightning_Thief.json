@@ -41,7 +41,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Christophe Beck"
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Stephen Goldblatt"
@@ -58,10 +58,10 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK",
-    "CA",
-    "AU"
+    "Canada",
+    "Australia"
   ],
   "duration": 95,
   "cast": [
@@ -134,7 +134,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "budget": 95000000,
@@ -149,10 +149,10 @@
   "releaseDate": "2010-02-12",
   "watchCount": 5,
   "studios": [
-    "20thCenturyFox"
+    "20th Century FOX"
   ],
   "poster": "percy_jackson.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "xko1Mx5w4tg"
   ]

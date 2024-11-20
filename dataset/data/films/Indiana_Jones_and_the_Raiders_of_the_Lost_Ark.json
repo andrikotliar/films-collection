@@ -36,7 +36,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "John Williams"
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Douglas Slocombe"
@@ -53,7 +53,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 115,
   "cast": [
@@ -96,10 +96,10 @@
   ],
   "collections": [
     {
-      "key": "Legends"
+      "collection": "c7261f26600af8cbfa133b12"
     },
     {
-      "key": "Mysteries"
+      "collection": "39dc3b0b88848b2e1245671c"
     }
   ],
   "budget": 18000000,
@@ -186,11 +186,11 @@
   "releaseDate": "1981-06-12",
   "watchCount": 1,
   "studios": [
-    "Paramount",
+    "Paramount Pictures",
     "Lucasfilm"
   ],
   "poster": "indiana_jones_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "Rh_BJXG1-44"
   ]

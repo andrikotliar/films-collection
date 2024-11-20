@@ -53,7 +53,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Harry Gregson-Williams"
@@ -62,8 +62,8 @@
     }
   ],
   "countries": [
-    "US",
-    "JP"
+    "USA",
+    "Japan"
   ],
   "duration": 93,
   "cast": [
@@ -126,7 +126,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "budget": 150000000,
@@ -142,7 +142,7 @@
   "releaseDate": "2004-05-19",
   "watchCount": 10,
   "studios": [
-    "DreamWorksAnimation"
+    "DreamWorks Animation"
   ],
   "poster": "shrek_2.webp",
   "style": "Animation",

@@ -1,17 +1,10 @@
-import {
-  Country,
-  Genre,
-  PersonRole,
-  Studio,
-  TitleType,
-  Collection as CollectionEnum,
-  StyleType,
-} from '@/enums';
+import { TitleType } from '@/enums';
 import { Actor } from './actor';
 import { AwardData } from './award';
+import { Collection } from './collection';
 
 type Crew = {
-  role: PersonRole;
+  role: string;
   people: {
     name: string;
     comment: string;
@@ -24,11 +17,6 @@ type CastType = {
     name: string;
     image: string | null;
   };
-};
-
-type Collection = {
-  key: CollectionEnum;
-  order: number | null;
 };
 
 type Nomination = {
@@ -63,20 +51,25 @@ type FilmDescription = {
   text: string;
 };
 
+type IncludedCollection = {
+  collection: Pick<Collection, '_id' | 'title'>;
+  order: number;
+};
+
 type FilmData = {
   _id: string;
   type: TitleType;
-  style: StyleType;
+  style: string;
   title: string;
-  genres: Genre[];
-  studios: Studio[];
+  genres: string[];
+  studios: string[];
   crew: Crew[];
   description: FilmDescription[];
-  countries: Country[];
+  countries: string[];
   releaseDate: string;
   duration: number;
   cast: CastType[];
-  collections: Collection[];
+  collections: IncludedCollection[];
   budget: number | null;
   boxOffice: number | null;
   awards: FilmAward[];
@@ -90,10 +83,7 @@ type FilmData = {
   updatedAt: string;
 };
 
-type FilmsListItem = Pick<
-  FilmData,
-  '_id' | 'title' | 'poster' | 'collections' | 'releaseDate'
->;
+type FilmsListItem = Pick<FilmData, '_id' | 'title' | 'poster' | 'releaseDate'>;
 
 type FilmLinkItem = Pick<FilmData, '_id' | 'title'>;
 
@@ -110,14 +100,14 @@ type AdditionalActorData = {
 type AdditionalCrewInfo = {
   type: 'crew';
   data: {
-    role: PersonRole;
+    role: string;
     name: string;
   };
 };
 
 type AdditionalCollectionInfo = {
   type: 'collection';
-  data: CollectionEnum;
+  data: Collection;
 };
 
 type AdditionalAwardsInfo = {
@@ -147,12 +137,12 @@ type RandomFilmsList = Pick<FilmData, '_id' | 'title' | 'poster'>[];
 type FilmsListFilters = FilmsListPagination &
   Partial<{
     type: TitleType[];
-    genre: Genre[];
+    genre: string[];
     startDate: string;
     endDate: string;
-    country: Country[];
-    studio: Studio[];
-    collection: Collection[];
+    country: string[];
+    studio: string[];
+    collection: string[];
   }>;
 
 export type {

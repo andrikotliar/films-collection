@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "John Powell"
@@ -44,7 +44,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 104,
   "cast": [
@@ -86,7 +86,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "budget": 129000000,
@@ -102,8 +102,8 @@
   "releaseDate": "2019-02-22",
   "watchCount": 5,
   "studios": [
-    "DreamWorksAnimation",
-    "Universal"
+    "DreamWorks Animation",
+    "Universal Pictures"
   ],
   "poster": "how_to_train_your_dragon_3.webp",
   "style": "Animation",

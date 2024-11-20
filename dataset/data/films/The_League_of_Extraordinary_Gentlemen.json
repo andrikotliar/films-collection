@@ -33,7 +33,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Trevor Jones"
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Dan Laustsen"
@@ -50,9 +50,9 @@
     }
   ],
   "countries": [
-    "US",
-    "DE",
-    "CZ",
+    "USA",
+    "Germany",
+    "Czech Republic",
     "UK"
   ],
   "duration": 110,
@@ -109,7 +109,7 @@
   ],
   "collections": [
     {
-      "key": "Superheroes"
+      "collection": "6b0607b285f213362f2e0790"
     }
   ],
   "budget": 78000000,
@@ -124,10 +124,10 @@
   "releaseDate": "2003-07-11",
   "watchCount": 4,
   "studios": [
-    "20thCenturyFox"
+    "20th Century FOX"
   ],
   "poster": "league_of_extraordinary_gentlemen.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "_WWIiTlGyYQ"
   ]

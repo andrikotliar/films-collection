@@ -44,7 +44,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Howard Shore"
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Andrew Lesnie"
@@ -61,8 +61,8 @@
     }
   ],
   "countries": [
-    "US",
-    "NZ"
+    "USA",
+    "New Zealand"
   ],
   "duration": 179,
   "cast": [
@@ -160,7 +160,7 @@
   ],
   "collections": [
     {
-      "key": "MEU"
+      "collection": "236fd0909f51d742acd4c4be"
     }
   ],
   "budget": 94000000,
@@ -251,10 +251,10 @@
   "releaseDate": "2002-12-18",
   "watchCount": 10,
   "studios": [
-    "NewLineCinema"
+    "New Line Cinema"
   ],
   "poster": "middle_earth_5.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "LbfMDwc4azU"
   ]

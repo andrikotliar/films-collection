@@ -3,8 +3,8 @@
   "type": "Film",
   "title": "Star Trek: Into Darkness",
   "genres": [
-    "SciFi",
-    "SpaceOpera"
+    "Sci-Fi",
+    "Space Opera"
   ],
   "crew": [
     {
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Michael Giacchino"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Dan Mindel"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 133,
   "cast": [
@@ -134,7 +134,7 @@
   ],
   "collections": [
     {
-      "key": "Space"
+      "collection": "d3158d1bdcadb1a015c4bf29"
     }
   ],
   "budget": 185000000,
@@ -150,11 +150,11 @@
   "releaseDate": "2013-05-17",
   "watchCount": 1,
   "studios": [
-    "Paramount",
-    "BadRobot"
+    "Paramount Pictures",
+    "Bad Robot Productions"
   ],
   "poster": "star_trek_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "jJMYAJ3_0uw"
   ]

@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Lucas Vidal"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Stephen F. Windon"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 131,
   "cast": [
@@ -125,7 +125,7 @@
   ],
   "collections": [
     {
-      "key": "Cars"
+      "collection": "37fefe4d5c15766d5188af9f"
     }
   ],
   "budget": 160000000,
@@ -151,10 +151,10 @@
   "releaseDate": "2013-05-24",
   "watchCount": 3,
   "studios": [
-    "Universal"
+    "Universal Pictures"
   ],
   "poster": "fast_and_furious_6.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "dKi5XoeTN0k"
   ]

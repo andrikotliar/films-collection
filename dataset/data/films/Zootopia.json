@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Michael Giacchino"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Nathan Warner"
@@ -58,7 +58,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 108,
   "cast": [
@@ -114,7 +114,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "budget": 150000000,
@@ -155,7 +155,7 @@
   "releaseDate": "2016-03-04",
   "watchCount": 5,
   "studios": [
-    "WaltDisney"
+    "Walt Disney Pictures"
   ],
   "poster": "zootopia.webp",
   "style": "Animation",

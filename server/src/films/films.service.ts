@@ -6,23 +6,27 @@ import {
 } from './types';
 import { getFormattedDate, mapFilters } from './helpers';
 import { ActorType } from '../actors/types';
+import { Collection } from 'src/collections/types';
 
 class FilmsService implements IFilmsService {
   private filmsModel;
   private actorsService;
   private chaptersService;
   private awardsService;
+  private collectionsService;
 
   constructor({
     filmsModel,
     actorsService,
     chaptersService,
     awardsService,
+    collectionsService,
   }: FilmsServiceDependencies) {
     this.filmsModel = filmsModel;
     this.actorsService = actorsService;
     this.chaptersService = chaptersService;
     this.awardsService = awardsService;
+    this.collectionsService = collectionsService;
   }
 
   async getFilteredFilms(queries: FindAllQueries) {
@@ -32,7 +36,7 @@ class FilmsService implements IFilmsService {
 
     const films = await this.filmsModel.find(
       parsedFilters,
-      { _id: 1, title: 1, poster: 1, collections: 1, releaseDate: 1 },
+      { _id: 1, title: 1, poster: 1, releaseDate: 1 },
       { limit, skip, sort: { releaseDate: -1 } },
     );
 
@@ -58,6 +62,13 @@ class FilmsService implements IFilmsService {
         },
         {
           path: 'awards.nominations.actor',
+        },
+        {
+          path: 'collections.collection',
+          select: {
+            _id: 1,
+            title: 1,
+          },
         },
       ])
       .lean();
@@ -166,9 +177,13 @@ class FilmsService implements IFilmsService {
     }
 
     if (collection) {
+      const collectionData = await this.collectionsService.getOneCollection(
+        collection,
+      );
+
       return {
         type: 'collection',
-        data: collection,
+        data: collectionData as Collection,
       };
     }
 

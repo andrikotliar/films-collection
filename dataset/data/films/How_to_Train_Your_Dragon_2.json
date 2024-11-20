@@ -32,7 +32,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "John Powell"
@@ -41,7 +41,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 102,
   "cast": [
@@ -90,7 +90,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "budget": 145000000,
@@ -106,7 +106,7 @@
   "releaseDate": "2014-06-13",
   "watchCount": 5,
   "studios": [
-    "DreamWorksAnimation"
+    "DreamWorks Animation"
   ],
   "poster": "how_to_train_your_dragon_2.webp",
   "style": "Animation",

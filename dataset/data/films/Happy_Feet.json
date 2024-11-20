@@ -47,7 +47,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "John Powell"
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "David Peers"
@@ -64,8 +64,8 @@
     }
   ],
   "countries": [
-    "US",
-    "AU"
+    "USA",
+    "Australia"
   ],
   "duration": 108,
   "cast": [
@@ -114,7 +114,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "budget": 100000000,
@@ -147,8 +147,8 @@
   "releaseDate": "2006-11-17",
   "watchCount": 5,
   "studios": [
-    "WarnerBros",
-    "VillageRoadshow"
+    "Warner Bros. Pictures",
+    "Village Roadshow Pictures"
   ],
   "poster": "happy_feet.webp",
   "style": "Animation",

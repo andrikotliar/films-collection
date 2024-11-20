@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "The Terminator",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Brad Fiedel"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Adam Greenberg"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 107,
   "cast": [
@@ -78,7 +78,7 @@
   ],
   "collections": [
     {
-      "key": "Robots"
+      "collection": "8a792cea73830d2268416ae2"
     }
   ],
   "budget": 6400000,
@@ -110,11 +110,11 @@
   "releaseDate": "1984-10-26",
   "watchCount": 3,
   "studios": [
-    "Orion",
-    "Cinema84"
+    "Orion Pictures",
+    "Cinema_84"
   ],
   "poster": "terminator_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "k64P4l2Wmeg"
   ]

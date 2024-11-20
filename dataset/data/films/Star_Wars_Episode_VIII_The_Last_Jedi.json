@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Star Wars Episode VIII: The Last Jedi",
   "genres": [
-    "SpaceOpera",
+    "Space Opera",
     "Adventures"
   ],
   "crew": [
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "John Williams"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Steve Yedlin"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 152,
   "cast": [
@@ -128,7 +128,7 @@
   ],
   "collections": [
     {
-      "key": "SWU"
+      "collection": "670cc41243391aa2676f5cc5"
     }
   ],
   "budget": 317000000,
@@ -162,11 +162,11 @@
   "watchCount": 1,
   "isWatchedInCinema": true,
   "studios": [
-    "WaltDisney",
+    "Walt Disney Pictures",
     "Lucasfilm"
   ],
   "poster": "star_wars_episode_VIII.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "Q0CbN8sfihY"
   ]

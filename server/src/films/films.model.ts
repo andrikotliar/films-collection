@@ -10,16 +10,9 @@ import {
   SeasonType,
   SeriesExtension,
 } from './types';
-import {
-  CollectionEnum,
-  Country,
-  Genre,
-  PersonRole,
-  Studio,
-  TitleType,
-} from './enums';
 import { ActorModel } from '../actors/actors.model';
 import { AwardModel } from '../awards/awards.model';
+import { CollectionModel } from '../collections/collections.model';
 
 const FilmPersonSchema = new Schema<Person>({
   name: {
@@ -36,7 +29,6 @@ const FilmPersonSchema = new Schema<Person>({
 const FilmCrewSchema = new Schema<Crew>({
   role: {
     type: String,
-    enum: Object.values(PersonRole),
     required: true,
   },
   people: {
@@ -46,9 +38,9 @@ const FilmCrewSchema = new Schema<Crew>({
 });
 
 const CollectionSchema = new Schema<CollectionType>({
-  key: {
+  collection: {
     type: String,
-    enum: Object.values(CollectionEnum),
+    ref: CollectionModel,
   },
   order: {
     type: Number,
@@ -135,27 +127,22 @@ const FilmsSchema = new Schema<FilmData>({
   },
   type: {
     type: String,
-    enum: Object.values(TitleType),
     required: true,
   },
   style: {
     type: String,
-    enum: Object.values(TitleType),
     required: true,
   },
   genres: {
     type: [String],
-    enum: Object.values(Genre),
     required: true,
   },
   studios: {
     type: [String],
-    enum: Object.values(Studio),
     required: true,
   },
   countries: {
     type: [String],
-    enum: Object.values(Country),
     required: true,
   },
   crew: {

@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Junkie XL"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Fabian Wagner"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK"
   ],
   "duration": 242,
@@ -189,7 +189,7 @@
   ],
   "collections": [
     {
-      "key": "DEU"
+      "collection": "5f41e4a109f2fdbce16b6466"
     }
   ],
   "budget": 300000000,
@@ -204,11 +204,11 @@
   "releaseDate": "2021-03-18",
   "watchCount": 1,
   "studios": [
-    "HBOMax",
-    "WarnerBros"
+    "HBO Max",
+    "Warner Bros. Pictures"
   ],
   "poster": "justice_league.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "ui37YKQ9AC4"
   ]

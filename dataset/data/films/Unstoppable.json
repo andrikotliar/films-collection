@@ -44,7 +44,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Harry Gregson-Williams"
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Ben Seresin"
@@ -61,7 +61,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 98,
   "cast": [
@@ -86,7 +86,7 @@
   ],
   "collections": [
     {
-      "key": "BasedOnTrue"
+      "collection": "68120b0dc6cb95ee6e9341ee"
     }
   ],
   "budget": 100000000,
@@ -101,10 +101,10 @@
   "releaseDate": "2010-11-12",
   "watchCount": 1,
   "studios": [
-    "20thCenturyFox"
+    "20th Century FOX"
   ],
   "poster": "unstoppable.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "fyuoIqeL-bc"
   ]

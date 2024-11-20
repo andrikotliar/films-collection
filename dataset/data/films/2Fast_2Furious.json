@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "David Arnold"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Matthew F. Leonetti"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 108,
   "cast": [
@@ -89,7 +89,7 @@
   ],
   "collections": [
     {
-      "key": "Cars"
+      "collection": "37fefe4d5c15766d5188af9f"
     }
   ],
   "budget": 76000000,
@@ -105,10 +105,10 @@
   "releaseDate": "2003-06-06",
   "watchCount": 5,
   "studios": [
-    "Universal"
+    "Universal Pictures"
   ],
   "poster": "fast_and_furious_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "F_VIM03DXWI"
   ]

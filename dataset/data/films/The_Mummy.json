@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Jerry Goldsmith"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Adrian Biddle"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 125,
   "cast": [
@@ -107,7 +107,7 @@
   ],
   "collections": [
     {
-      "key": "Mysteries"
+      "collection": "39dc3b0b88848b2e1245671c"
     }
   ],
   "budget": 80000000,
@@ -133,10 +133,10 @@
   "releaseDate": "1999-05-07",
   "watchCount": 10,
   "studios": [
-    "Universal"
+    "Universal Pictures"
   ],
   "poster": "mummy_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "h3ptPtxWJRs"
   ]

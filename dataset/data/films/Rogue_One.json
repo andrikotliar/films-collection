@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Rogue One",
   "genres": [
-    "SpaceOpera",
+    "Space Opera",
     "Adventures"
   ],
   "crew": [
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Michael Giacchino"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Greig Fraser"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 133,
   "cast": [
@@ -123,7 +123,7 @@
   ],
   "collections": [
     {
-      "key": "SWU"
+      "collection": "670cc41243391aa2676f5cc5"
     }
   ],
   "budget": 200000000,
@@ -156,10 +156,10 @@
   "watchCount": 2,
   "studios": [
     "Lucasfilm",
-    "WaltDisney"
+    "Walt Disney Pictures"
   ],
   "poster": "rogue_one.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "frdj1zb9sMY"
   ]

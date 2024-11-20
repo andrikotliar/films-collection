@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "The Martian",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Adventures"
   ],
   "crew": [
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Harry Gregson-Williams"
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Danusz Wolski"
@@ -61,7 +61,7 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK"
   ],
   "duration": 142,
@@ -147,7 +147,7 @@
   ],
   "collections": [
     {
-      "key": "Space"
+      "collection": "d3158d1bdcadb1a015c4bf29"
     }
   ],
   "budget": 108000000,
@@ -184,10 +184,10 @@
   "releaseDate": "2015-10-02",
   "watchCount": 1,
   "studios": [
-    "20thCenturyFox"
+    "20th Century FOX"
   ],
   "poster": "martian.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "ej3ioOneTy8"
   ]

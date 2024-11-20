@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Avatar",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "James Horner"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Mauro Fiore"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK"
   ],
   "duration": 162,
@@ -126,14 +126,14 @@
   ],
   "collections": [
     {
-      "key": "Top10",
+      "collection": "f4472bb26f56fcaab829b96a",
       "order": 1
     },
     {
-      "key": "Space"
+      "collection": "d3158d1bdcadb1a015c4bf29"
     },
     {
-      "key": "Future"
+      "collection": "cbb1f0944d6aeece5dc45266"
     }
   ],
   "budget": 237000000,
@@ -253,10 +253,10 @@
   "releaseDate": "2009-12-18",
   "watchCount": 5,
   "studios": [
-    "20thCenturyFox"
+    "20th Century FOX"
   ],
   "poster": "avatar.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "CM79GTEm2ps"
   ]

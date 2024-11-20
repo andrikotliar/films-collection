@@ -42,7 +42,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Marco Beltrami"
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Ben Seresin"
@@ -59,7 +59,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 116,
   "cast": [
@@ -96,7 +96,7 @@
   ],
   "collections": [
     {
-      "key": "Future"
+      "collection": "cbb1f0944d6aeece5dc45266"
     }
   ],
   "budget": 190000000,
@@ -130,11 +130,11 @@
   "releaseDate": "2013-06-21",
   "watchCount": 1,
   "studios": [
-    "Paramount",
-    "Skydance"
+    "Paramount Pictures",
+    "Skydance Productions"
   ],
   "poster": "world_war_z.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "Md6Dvxdr0AQ"
   ]

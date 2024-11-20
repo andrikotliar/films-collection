@@ -37,7 +37,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Olivier \"Akos\" Castelli"
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Thierry Guilmaro"
@@ -60,7 +60,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 88,
   "cast": [
@@ -97,7 +97,7 @@
   ],
   "collections": [
     {
-      "key": "Cars"
+      "collection": "37fefe4d5c15766d5188af9f"
     }
   ],
   "budget": 10000000,
@@ -116,7 +116,7 @@
     "Lionsgate"
   ],
   "poster": "taxi_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "XkMZ75BwhCg"
   ]

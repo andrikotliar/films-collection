@@ -41,7 +41,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Christophe Beck"
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "César Charlone"
@@ -58,9 +58,9 @@
     }
   ],
   "countries": [
-    "US",
-    "JP",
-    "CO"
+    "USA",
+    "Japan",
+    "Colombia"
   ],
   "duration": 115,
   "cast": [
@@ -115,7 +115,7 @@
   ],
   "collections": [
     {
-      "key": "Criminals"
+      "collection": "b3ee9731581a5eb2cbe9c146"
     }
   ],
   "budget": 50000000,
@@ -130,11 +130,11 @@
   "releaseDate": "2017-09-29",
   "watchCount": 1,
   "studios": [
-    "CrossCreek",
-    "Imagine"
+    "Cross Creek Pictures",
+    "Imagine Entertainment"
   ],
   "poster": "american_made.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "AEBIJRAkujM"
   ]

@@ -76,7 +76,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Alex Seaver"
@@ -88,8 +88,8 @@
     }
   ],
   "countries": [
-    "US",
-    "FR"
+    "USA",
+    "France"
   ],
   "duration": 40,
   "cast": [
@@ -173,7 +173,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "seriesExtension": {
@@ -197,7 +197,7 @@
   "watchCount": 2,
   "studios": [
     "Netflix",
-    "RiotGames"
+    "Riot Games"
   ],
   "poster": "arcane.webp",
   "style": "Animation",

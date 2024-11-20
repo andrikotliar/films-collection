@@ -41,7 +41,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Hans Zimmer"
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Amir Mokri"
@@ -58,7 +58,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 143,
   "cast": [
@@ -131,7 +131,7 @@
   ],
   "collections": [
     {
-      "key": "DEU"
+      "collection": "5f41e4a109f2fdbce16b6466"
     }
   ],
   "budget": 225000000,
@@ -147,11 +147,11 @@
   "releaseDate": "2013-06-14",
   "watchCount": 2,
   "studios": [
-    "WarnerBros",
-    "DCEntertainment"
+    "Warner Bros. Pictures",
+    "DC Entertainment"
   ],
   "poster": "man_of_steel.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "T6DJcgm3wNY"
   ]

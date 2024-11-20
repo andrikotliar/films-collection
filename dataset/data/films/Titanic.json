@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "James Horner"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Russell Carpenter"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 194,
   "cast": [
@@ -101,7 +101,7 @@
   ],
   "collections": [
     {
-      "key": "BasedOnTrue"
+      "collection": "68120b0dc6cb95ee6e9341ee"
     }
   ],
   "budget": 200000000,
@@ -171,11 +171,11 @@
   "releaseDate": "1997-12-19",
   "watchCount": 5,
   "studios": [
-    "20thCenturyFox",
-    "Paramount"
+    "20th Century FOX",
+    "Paramount Pictures"
   ],
   "poster": "titanic.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "kVrqfYjkTdQ"
   ]

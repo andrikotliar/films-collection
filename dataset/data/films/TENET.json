@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "TENET",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Ludwig Göransson"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Hoyte Van Hoytema"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK"
   ],
   "duration": 150,
@@ -105,7 +105,7 @@
   ],
   "collections": [
     {
-      "key": "Future"
+      "collection": "cbb1f0944d6aeece5dc45266"
     }
   ],
   "budget": 205000000,
@@ -155,11 +155,11 @@
   "releaseDate": "2020-08-26",
   "watchCount": 1,
   "studios": [
-    "WarnerBros",
+    "Warner Bros. Pictures",
     "Syncopy"
   ],
   "poster": "tenet.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "AZGcmvrTX9M"
   ]

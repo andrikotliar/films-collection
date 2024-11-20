@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Spider-Man: Far from Home",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Comedy"
   ],
   "crew": [
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Michael Giacchino"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Matthew J. Lloyd"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 129,
   "cast": [
@@ -100,7 +100,7 @@
   ],
   "collections": [
     {
-      "key": "MCU"
+      "collection": "084e68c00a421325955ce741"
     }
   ],
   "budget": 160000000,
@@ -131,11 +131,11 @@
   "releaseDate": "2019-07-02",
   "watchCount": 1,
   "studios": [
-    "Sony",
-    "MarvelStudios"
+    "Sony Pictures",
+    "Marvel Studios"
   ],
   "poster": "mcu_spider_man_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "Nt9L1jCKGnE"
   ]

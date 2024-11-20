@@ -47,7 +47,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Ramin Djawadi"
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Simon Duggan"
@@ -64,7 +64,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 123,
   "cast": [
@@ -154,7 +154,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "budget": 160000000,
@@ -169,11 +169,11 @@
   "releaseDate": "2016-06-10",
   "watchCount": 1,
   "studios": [
-    "Universal",
+    "Universal Pictures",
     "Legendary"
   ],
   "poster": "warcraft.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "2Rxoz13Bthc"
   ]

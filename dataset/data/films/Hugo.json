@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Howard Shore"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Robert Richardson"
@@ -52,9 +52,9 @@
     }
   ],
   "countries": [
-    "FR",
+    "France",
     "UK",
-    "US"
+    "USA"
   ],
   "duration": 126,
   "cast": [
@@ -85,7 +85,7 @@
   ],
   "collections": [
     {
-      "key": "Cinematograph"
+      "collection": "dcfccde6f4498f2fd2cf694e"
     }
   ],
   "budget": 150000000,
@@ -149,11 +149,11 @@
   "watchCount": 1,
   "releaseDate": "2011-11-23",
   "studios": [
-    "MetropolitanFilmexport",
-    "Paramount"
+    "Metropolitan Filmexport",
+    "Paramount Pictures"
   ],
   "poster": "hugo.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "Hv3obL9HqyY"
   ]

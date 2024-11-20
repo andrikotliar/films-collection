@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "John Powell"
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Yong Duk Jhun"
@@ -58,8 +58,7 @@
     }
   ],
   "countries": [
-    "US",
-    "CH"
+    "USA"
   ],
   "duration": 92,
   "cast": [
@@ -136,7 +135,7 @@
   ],
   "collections": [
     {
-      "key": "MartialArts"
+      "collection": "74d6466d07dac5d52a81e19a"
     }
   ],
   "budget": 130000000,
@@ -183,7 +182,7 @@
   "releaseDate": "2008-06-06",
   "watchCount": 5,
   "studios": [
-    "DreamWorksAnimation"
+    "DreamWorks Animation"
   ],
   "poster": "kungfu_panda.webp",
   "style": "Animation",

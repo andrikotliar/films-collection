@@ -37,7 +37,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "David Buckley"
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Dana Gonzales"
@@ -54,7 +54,7 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK"
   ],
   "duration": 119,
@@ -98,7 +98,7 @@
   ],
   "collections": [
     {
-      "key": "Disaster"
+      "collection": "68e24e7e148981503b661c07"
     }
   ],
   "budget": 35000000,
@@ -113,12 +113,12 @@
   "releaseDate": "2020-08-14",
   "watchCount": 2,
   "studios": [
-    "ThunderRoad",
+    "Thunder Road",
     "Anton",
-    "GBase"
+    "G-base"
   ],
   "poster": "greenland.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "RTODtIQQRpA"
   ]

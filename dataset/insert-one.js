@@ -8,7 +8,7 @@ const { mongoClient, database, cliParams } = initApp();
 const init = async () => {
   try {
     if (!cliParams.collection) {
-      throw new Error(`--collection param is not specified`);
+      throw new Error(`[--collection] parameter is not specified.`);
     }
 
     const collectionToInsert = collectionsConfig.find(
@@ -17,7 +17,7 @@ const init = async () => {
 
     if (!collectionToInsert) {
       throw new Error(
-        `Collection ${cliParams.collection} is not defined in the config`,
+        `Collection ${cliParams.collection} is not defined in the config.`,
       );
     }
 

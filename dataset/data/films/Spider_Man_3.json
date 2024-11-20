@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Spider-Man 3",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Christopher Young"
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Bill Pope"
@@ -61,7 +61,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 139,
   "cast": [
@@ -130,7 +130,7 @@
   ],
   "collections": [
     {
-      "key": "Superheroes"
+      "collection": "6b0607b285f213362f2e0790"
     }
   ],
   "budget": 258000000,
@@ -146,11 +146,11 @@
   "releaseDate": "2007-05-04",
   "watchCount": 5,
   "studios": [
-    "Columbia",
-    "MarvelEntertainment"
+    "Columbia Pictures",
+    "Marvel Entertainment"
   ],
   "poster": "raimi_spider_man_3.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "wPosLpgMtTY"
   ]

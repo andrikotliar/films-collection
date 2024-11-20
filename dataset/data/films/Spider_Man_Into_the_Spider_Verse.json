@@ -53,7 +53,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Daniel Pemberton"
@@ -62,7 +62,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 117,
   "cast": [
@@ -153,7 +153,7 @@
   ],
   "collections": [
     {
-      "key": "Superheroes"
+      "collection": "6b0607b285f213362f2e0790"
     }
   ],
   "budget": 90000000,
@@ -194,9 +194,9 @@
   "releaseDate": "2018-12-14",
   "watchCount": 1,
   "studios": [
-    "SonyAnimation",
-    "Columbia",
-    "MarvelEntertainment"
+    "Sony Pictures Animation",
+    "Columbia Pictures",
+    "Marvel Entertainment"
   ],
   "poster": "spiderman_intospiderverse.webp",
   "style": "Animation",

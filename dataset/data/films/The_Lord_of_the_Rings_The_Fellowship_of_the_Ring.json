@@ -47,7 +47,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Howard Shore"
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Andrew Lesnie"
@@ -64,8 +64,8 @@
     }
   ],
   "countries": [
-    "US",
-    "NZ"
+    "USA",
+    "New Zealand"
   ],
   "duration": 178,
   "cast": [
@@ -144,7 +144,7 @@
   ],
   "collections": [
     {
-      "key": "MEU"
+      "collection": "236fd0909f51d742acd4c4be"
     }
   ],
   "budget": 93000000,
@@ -239,10 +239,10 @@
   "releaseDate": "2001-12-19",
   "watchCount": 10,
   "studios": [
-    "NewLineCinema"
+    "New Line Cinema"
   ],
   "poster": "middle_earth_4.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "aStYWD25fAQ"
   ]

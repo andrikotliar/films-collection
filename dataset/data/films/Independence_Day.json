@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "Independence Day",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "David Arnold"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Karl Walter Lindenlaub"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 145,
   "cast": [
@@ -95,10 +95,10 @@
   ],
   "collections": [
     {
-      "key": "Invasion"
+      "collection": "b08c9adc92ef96ff62957107"
     },
     {
-      "key": "Disaster"
+      "collection": "68e24e7e148981503b661c07"
     }
   ],
   "budget": 75000000,
@@ -137,10 +137,10 @@
   "watchCount": 10,
   "releaseDate": "1996-07-03",
   "studios": [
-    "20thCenturyFox"
+    "20th Century FOX"
   ],
   "poster": "independence_day.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "kA2WzBi2grE"
   ]

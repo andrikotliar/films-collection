@@ -45,7 +45,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Ramin Djawadi"
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Ben Davis"
@@ -62,7 +62,7 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK"
   ],
   "duration": 100,
@@ -142,7 +142,7 @@
   ],
   "collections": [
     {
-      "key": "MCU"
+      "collection": "084e68c00a421325955ce741"
     }
   ],
   "budget": 200000000,
@@ -158,11 +158,11 @@
   "releaseDate": "2021-11-05",
   "watchCount": 1,
   "studios": [
-    "MarvelStudios",
-    "WaltDisney"
+    "Marvel Studios",
+    "Walt Disney Pictures"
   ],
   "poster": "eternals.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "x_me3xsvDgk"
   ]

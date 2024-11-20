@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Tom Holkenborg"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Bill Pope"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 122,
   "cast": [
@@ -107,7 +107,7 @@
   ],
   "collections": [
     {
-      "key": "Robots"
+      "collection": "8a792cea73830d2268416ae2"
     }
   ],
   "budget": 170000000,
@@ -122,10 +122,10 @@
   "releaseDate": "2019-02-14",
   "watchCount": 2,
   "studios": [
-    "20thCenturyFox"
+    "20th Century FOX"
   ],
   "poster": "alita.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "w7pYhpJaJW8"
   ]

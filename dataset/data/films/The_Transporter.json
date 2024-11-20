@@ -41,7 +41,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Stenley Clark"
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Pierre Morel"
@@ -58,7 +58,7 @@
     }
   ],
   "countries": [
-    "FR"
+    "France"
   ],
   "duration": 92,
   "cast": [
@@ -95,7 +95,7 @@
   ],
   "collections": [
     {
-      "key": "Cars"
+      "collection": "37fefe4d5c15766d5188af9f"
     }
   ],
   "budget": 21000000,
@@ -111,10 +111,10 @@
   "releaseDate": "2002-10-11",
   "watchCount": 5,
   "studios": [
-    "EuropaCorp"
+    "Europacorp"
   ],
   "poster": "transporter_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "0poXFSvX0_4"
   ]

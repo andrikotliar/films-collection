@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "A Quiet Place Part II",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Horror"
   ],
   "crew": [
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Marco Beltrami"
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Polly Morgan"
@@ -58,7 +58,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 97,
   "cast": [
@@ -101,7 +101,7 @@
   ],
   "collections": [
     {
-      "key": "Invasion"
+      "collection": "b08c9adc92ef96ff62957107"
     }
   ],
   "budget": 160000000,
@@ -117,10 +117,10 @@
   "releaseDate": "2021-05-28",
   "watchCount": 1,
   "studios": [
-    "Paramount"
+    "Paramount Pictures"
   ],
   "poster": "quiet_place_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "BpdDN9d9Jio"
   ]

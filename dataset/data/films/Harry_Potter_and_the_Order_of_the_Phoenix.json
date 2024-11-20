@@ -35,7 +35,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Nicholas Hooper"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Slawomir Idziak"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US",
+    "USA",
     "UK"
   ],
   "duration": 138,
@@ -124,7 +124,7 @@
   ],
   "collections": [
     {
-      "key": "HPU"
+      "collection": "ded2b175d20cde95f88bcac4"
     }
   ],
   "budget": 150000000,
@@ -140,10 +140,10 @@
   "releaseDate": "2007-07-11",
   "watchCount": 4,
   "studios": [
-    "WarnerBros"
+    "Warner Bros. Pictures"
   ],
   "poster": "harry_potter_5.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "y6ZW7KXaXYk"
   ]

@@ -32,7 +32,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Brian Tyler"
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Stephen F. Windon"
@@ -49,7 +49,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 104,
   "cast": [
@@ -86,7 +86,7 @@
   ],
   "collections": [
     {
-      "key": "Cars"
+      "collection": "37fefe4d5c15766d5188af9f"
     }
   ],
   "budget": 85000000,
@@ -102,10 +102,10 @@
   "releaseDate": "2006-06-16",
   "watchCount": 3,
   "studios": [
-    "Universal"
+    "Universal Pictures"
   ],
   "poster": "fast_and_furious_3.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "p8HQ2JLlc4E"
   ]

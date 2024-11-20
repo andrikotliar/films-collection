@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "The Hunger Games: Mockingjay - Part 1",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Adventures"
   ],
   "crew": [
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "James Newton Howard"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Jo Willems"
@@ -55,9 +55,9 @@
     }
   ],
   "countries": [
-    "US",
-    "CA",
-    "FR"
+    "USA",
+    "Canada",
+    "France"
   ],
   "duration": 123,
   "cast": [
@@ -148,7 +148,7 @@
   ],
   "collections": [
     {
-      "key": "Dystopia"
+      "collection": "1e70601b83e5673b2f0377a8"
     }
   ],
   "budget": 125000000,
@@ -181,7 +181,7 @@
     "Lionsgate"
   ],
   "poster": "hunger_games_3.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "3PkkHsuMrho"
   ]

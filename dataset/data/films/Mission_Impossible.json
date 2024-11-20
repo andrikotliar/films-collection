@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Danny Elfman"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Stephen H. Burum"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 110,
   "cast": [
@@ -116,7 +116,7 @@
   ],
   "collections": [
     {
-      "key": "AgentsDetectives"
+      "collection": "47a859c4e3db02afffd2569e"
     }
   ],
   "budget": 80000000,
@@ -132,10 +132,10 @@
   "releaseDate": "1996-05-22",
   "watchCount": 2,
   "studios": [
-    "Paramount"
+    "Paramount Pictures"
   ],
   "poster": "mi_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "Ohws8y572KE"
   ]

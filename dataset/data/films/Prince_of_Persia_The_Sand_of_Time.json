@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Harry Gregson-Williams"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "John Seale"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 116,
   "cast": [
@@ -110,7 +110,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "budget": 150000000,
@@ -125,10 +125,10 @@
   "releaseDate": "2010-05-10",
   "watchCount": 3,
   "studios": [
-    "WaltDisney"
+    "Walt Disney Pictures"
   ],
   "poster": "prince_of_persia.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "bZ7Li5w2I-k"
   ]

@@ -38,7 +38,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Trevor Rabin"
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Bojan Bazelli"
@@ -55,7 +55,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 109,
   "cast": [
@@ -104,7 +104,7 @@
   ],
   "collections": [
     {
-      "key": "FantasyWorlds"
+      "collection": "fc7990b24ef954ab02087cc8"
     }
   ],
   "budget": 150000000,
@@ -119,11 +119,11 @@
   "releaseDate": "2010-07-14",
   "watchCount": 2,
   "studios": [
-    "WaltDisney",
-    "JerryBruckheimerFilms"
+    "Walt Disney Pictures",
+    "Jerry Bruckheimer Films"
   ],
   "poster": "sorcerers_apprentice.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "v2uV0_1C4UM"
   ]

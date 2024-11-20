@@ -65,7 +65,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Christophe Beck"
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Jess Hall"
@@ -85,7 +85,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 39,
   "cast": [
@@ -129,7 +129,7 @@
   ],
   "collections": [
     {
-      "key": "MCU"
+      "collection": "084e68c00a421325955ce741"
     }
   ],
   "awards": [
@@ -174,11 +174,11 @@
   "releaseDate": "2021-01-15",
   "watchCount": 1,
   "studios": [
-    "DisneyPlus",
-    "MarvelStudios"
+    "Disney+",
+    "Marvel Studios"
   ],
   "poster": "wandavision.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "sj9J2ecsSpo"
   ]

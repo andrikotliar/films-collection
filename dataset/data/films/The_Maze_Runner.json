@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "The Maze Runner",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "John Paesano"
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Enrique Chediak"
@@ -64,7 +64,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 113,
   "cast": [
@@ -113,7 +113,7 @@
   ],
   "collections": [
     {
-      "key": "Dystopia"
+      "collection": "1e70601b83e5673b2f0377a8"
     }
   ],
   "budget": 34000000,
@@ -149,10 +149,10 @@
   "releaseDate": "2014-09-19",
   "watchCount": 1,
   "studios": [
-    "20thCenturyFox"
+    "20th Century FOX"
   ],
   "poster": "maze_runner_1.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "AwwbhhjQ9Xk"
   ]

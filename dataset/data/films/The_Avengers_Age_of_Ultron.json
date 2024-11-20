@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "The Avengers: Age of Ultron",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Brian Tyler"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Ben Davis"
@@ -52,7 +52,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 141,
   "cast": [
@@ -161,7 +161,7 @@
   ],
   "collections": [
     {
-      "key": "MCU"
+      "collection": "084e68c00a421325955ce741"
     }
   ],
   "budget": 365000000,
@@ -187,11 +187,11 @@
   "releaseDate": "2015-05-01",
   "watchCount": 5,
   "studios": [
-    "WaltDisney",
-    "MarvelStudios"
+    "Walt Disney Pictures",
+    "Marvel Studios"
   ],
   "poster": "avengers_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "tmeOjFno6Do"
   ]

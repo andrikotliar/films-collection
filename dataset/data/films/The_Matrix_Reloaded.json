@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "The Matrix Reloaded",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action"
   ],
   "crew": [
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Don Davis"
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Bill Pope"
@@ -49,8 +49,8 @@
     }
   ],
   "countries": [
-    "US",
-    "AU"
+    "USA",
+    "Australia"
   ],
   "duration": 138,
   "cast": [
@@ -117,7 +117,7 @@
   ],
   "collections": [
     {
-      "key": "Future"
+      "collection": "cbb1f0944d6aeece5dc45266"
     }
   ],
   "budget": 127000000,
@@ -133,10 +133,10 @@
   "releaseDate": "2003-05-15",
   "watchCount": 10,
   "studios": [
-    "WarnerBros"
+    "Warner Bros. Pictures"
   ],
   "poster": "matrix_2.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "kYzz0FSgpSU"
   ]

@@ -47,7 +47,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Howard Shore"
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Andrew Lesnie"
@@ -64,8 +64,8 @@
     }
   ],
   "countries": [
-    "US",
-    "NZ"
+    "USA",
+    "New Zealand"
   ],
   "duration": 201,
   "cast": [
@@ -163,10 +163,10 @@
   ],
   "collections": [
     {
-      "key": "MEU"
+      "collection": "236fd0909f51d742acd4c4be"
     },
     {
-      "key": "Legends"
+      "collection": "c7261f26600af8cbfa133b12"
     }
   ],
   "budget": 94000000,
@@ -319,10 +319,10 @@
   "releaseDate": "2003-12-17",
   "watchCount": 10,
   "studios": [
-    "NewLineCinema"
+    "New Line Cinema"
   ],
   "poster": "middle_earth_6.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "y2rYRu8UW8M"
   ]

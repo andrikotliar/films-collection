@@ -3,7 +3,7 @@
   "type": "Film",
   "title": "2012",
   "genres": [
-    "SciFi",
+    "Sci-Fi",
     "Action",
     "Disaster"
   ],
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Harald Kloser"
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Dean Semler"
@@ -62,7 +62,7 @@
     }
   ],
   "countries": [
-    "US"
+    "USA"
   ],
   "duration": 158,
   "cast": [
@@ -111,7 +111,7 @@
   ],
   "collections": [
     {
-      "key": "Disaster"
+      "collection": "68e24e7e148981503b661c07"
     }
   ],
   "budget": 200000000,
@@ -126,10 +126,10 @@
   "releaseDate": "2009-11-13",
   "watchCount": 3,
   "studios": [
-    "Columbia"
+    "Columbia Pictures"
   ],
   "poster": "twenty_twelve.webp",
-  "style": "LiveAction",
+  "style": "Live-Action",
   "trailers": [
     "ce0N3TEcFw0"
   ]
