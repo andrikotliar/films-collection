@@ -68,11 +68,19 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
       id: 'collections',
       title: 'Collections',
       content: (
-        <TagLinksGroup
-          basePath="collection"
-          items={film.collections.map((collection) => collection.title)}
-          variant="pink"
-        />
+        <LinksGroupWrapper>
+          {film.collections.map((item) => (
+            <TagLink
+              path={buildQueryLink({
+                collection: item.collection._id,
+              })}
+              key={item.collection._id}
+              variant="pink"
+            >
+              {item.collection.title}
+            </TagLink>
+          ))}
+        </LinksGroupWrapper>
       ),
       isHidden: film.collections.length === 0,
     },
