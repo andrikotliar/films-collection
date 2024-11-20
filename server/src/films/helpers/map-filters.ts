@@ -76,7 +76,7 @@ const mapFilters = (plainFilters: Partial<FindAllFilters>) => {
   }
 
   if (collection) {
-    filters['collections.key'] = collection;
+    filters['collections.collection'] = collection;
   }
 
   if (watchCount) {

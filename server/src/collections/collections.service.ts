@@ -8,6 +8,14 @@ class CollectionsService implements ICollectionsService {
     this.collectionsModel = collectionsModel;
   }
 
+  async getOneCollection(collectionId: string) {
+    const collection = await this.collectionsModel
+      .findById(collectionId)
+      .lean();
+
+    return collection;
+  }
+
   async getGroupedCollections() {
     const collections = await this.collectionsModel.find();
 

@@ -1,6 +1,7 @@
 import { ActorType } from '../../actors/types';
 import { FilmData } from './film.entity';
 import { Award } from '../../awards/types';
+import { Collection } from 'src/collections/types';
 
 type FilmsListItem = Pick<FilmData, '_id' | 'title' | 'poster' | 'releaseDate'>;
 
@@ -19,7 +20,7 @@ type AdditionalCrewInfo = {
 
 type AdditionalCollectionInfo = {
   type: 'collection';
-  data: string;
+  data: Collection;
 };
 
 type AdditionalAwardsInfo = {
