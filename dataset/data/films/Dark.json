@@ -8,7 +8,7 @@
   ],
   "crew": [
     {
-      "role": "SeriesCreator",
+      "role": "Creator",
       "people": [
         {
           "name": "Baran bo Odar"
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Ben Frost"
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Nikolaus Summerer"

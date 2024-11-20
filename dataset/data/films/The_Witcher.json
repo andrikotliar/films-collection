@@ -8,7 +8,7 @@
   ],
   "crew": [
     {
-      "role": "SeriesCreator",
+      "role": "Creator",
       "people": [
         {
           "name": "Lauren Schmidt Hissrich"
@@ -102,7 +102,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Sonya Belousova"
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Jean-Philippe Gossart"

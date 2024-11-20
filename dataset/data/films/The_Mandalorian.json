@@ -8,7 +8,7 @@
   ],
   "crew": [
     {
-      "role": "SeriesCreator",
+      "role": "Creator",
       "people": [
         {
           "name": "Jon Favreau"
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Ludwig Göransson"
@@ -119,7 +119,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Barry Baz Idoine"

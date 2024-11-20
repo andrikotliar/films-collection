@@ -9,7 +9,7 @@
   ],
   "crew": [
     {
-      "role": "SeriesCreator",
+      "role": "Creator",
       "people": [
         {
           "name": "Matt Duffer"
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Kyle Dixon"
@@ -127,7 +127,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Tim Ives"

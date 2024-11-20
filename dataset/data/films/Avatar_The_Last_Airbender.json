@@ -8,7 +8,7 @@
   ],
   "crew": [
     {
-      "role": "SeriesCreator",
+      "role": "Creator",
       "people": [
         {
           "name": "Michael Dante DiMartino"
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Benjamin Wynn"

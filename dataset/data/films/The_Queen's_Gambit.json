@@ -8,7 +8,7 @@
   ],
   "crew": [
     {
-      "role": "SeriesCreator",
+      "role": "Creator",
       "people": [
         {
           "name": "Scott Frank"
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "role": "Music",
+      "role": "Composer",
       "people": [
         {
           "name": "Carlos Rafael Rivera"
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "role": "Cinematography",
+      "role": "Cameraman",
       "people": [
         {
           "name": "Steven Meizler"
