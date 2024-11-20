@@ -4,7 +4,7 @@
   "properties": {
     "id": {
       "type": "string",
-      "description": "Unique film identifier"
+      "description": "Unique film identifier. HEX string"
     },
     "type": {
       "type": "string",
@@ -20,13 +20,13 @@
       "description": "Style of a title",
       "enum": [
         "Animation",
-        "Live Action"
+        "Live-Action"
       ],
-      "default": "Live Action"
+      "default": "Live-Action"
     },
     "genres": {
       "type": "array",
-      "description": "List of genres, each genre name should be written in Pascal Case and defined in genres enum on the frontend and backend",
+      "description": "List of genres",
       "examples": [
         "Sci-Fi",
         "Adventures"
@@ -43,7 +43,7 @@
         "properties": {
           "role": {
             "type": "string",
-            "description": "Roles enum. Some roles can be omitted. For example usually series don't have Cinematography role but have Creator role instead or alongside Director role",
+            "description": "Some roles can be omitted. For example usually series don't have Cameraman role but have a Creator role instead or alongside Director role",
             "enum": [
               "Director",
               "Writer",
@@ -82,15 +82,10 @@
     },
     "countries": {
       "type": "array",
-      "description": "List of two-letters ISO country codes",
+      "description": "List of origin countries",
       "items": {
         "type": "string"
-      },
-      "examples": [
-        "UK",
-        "US",
-        "GB"
-      ]
+      }
     },
     "duration": {
       "type": "number",
@@ -104,7 +99,7 @@
         "properties": {
           "actor": {
             "type": "string",
-            "description": "Reference to the actor object in the dataset/supporting/actor.json file"
+            "description": "Reference to the actor object in the dataset/supporting/actor.json file. HEX string"
           },
           "character": {
             "type": "object",
@@ -145,7 +140,7 @@
           }
         },
         "required": [
-          "key"
+          "collection"
         ]
       }
     },
@@ -246,7 +241,7 @@
     },
     "studios": {
       "type": "array",
-      "description": "List of production companies. Should be written in Pascal Case and defined in enums on the frontend and backend",
+      "description": "List of production companies",
       "items": {
         "type": "string"
       }
