@@ -20,6 +20,10 @@ class Logger {
   warning(...messages) {
     console.log(chalk.yellowBright(...messages));
   }
+
+  info(...messages) {
+    console.log(chalk.gray(...messages));
+  }
 }
 
 const logger = new Logger();

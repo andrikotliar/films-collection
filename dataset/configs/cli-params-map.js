@@ -1,7 +1,16 @@
 const cliParamsMap = {
-  '--env': 'envFile',
-  '--collection': 'collection',
-  '--collections': 'collections',
+  '--env-file': {
+    prop: 'envFile',
+    type: 'string',
+  },
+  '--collections': {
+    prop: 'collections',
+    type: 'array',
+  },
+  '--max-files': {
+    prop: 'maxFilesNumber',
+    type: 'number',
+  },
 };
 
 export { cliParamsMap };
