@@ -4,7 +4,7 @@ To populate MongoDB database with predefined data, follow this three steps:
 
 2. Fill `.env` file with variables defined in the `env.sample.txt` file. Essentially it's MongoDB URI and your database name.
 
-3. Run the `node insert-all` command to insert all required data into the database.
+3. Run the `node fc insert` command to insert all required data into the database.
 
 The script creates several collections in the database:
 
@@ -15,19 +15,24 @@ The script creates several collections in the database:
 - **lists**
 - **collections**
 
-To populate a single collection, run the `insert-one` script with the `--collection` parameter.
+To populate only specified collections, add the `--collections` parameter with comma-separated collection names after the equal sign:
 
 ```bash
-node insert-one --collection=films
+node fc insert --collections=films,chapters
 ```
 
-Both `insert-all` and `insert-one` files support specific environment variable files. To define the file, add the `--env` parameter to a command.
+To change an environment file, specify the `--env-file` parameter:
 
 ```bash
-node insert-one --env=.env.prod
+node fc insert --env-file=.env.prod
 ```
 
-The file should be located in the root of the `dataset` folder. If the `--env` parameter is not defined, scripts will point to the `.env` file.
+To delete collections replace the `insert` command with the `delete` one.
+
+```bash
+node fc delete --collections=films,actors --env-file=.env.test
+```
+If none of the parameters are specified, defaults will be used. For the environment file it's the `.env` and for collections all available.
 
 ## Data
 
@@ -76,18 +81,4 @@ All seeding data are in the `data` folder. Delete or add the data to fit your li
     "url": "./dataset/schemas/collections.schema.json"
   }
 ]
-```
-
-## Additional CLI scripts
-
-To delete one or more collections from database, run the following command:
-
-```bash
-node delete-collections --collections=COLLECTION_A,COLLECTION_B
-```
-
-To delete all collections from database, run the command:
-
-```bash
-node delete-collections --collections=all
 ```
