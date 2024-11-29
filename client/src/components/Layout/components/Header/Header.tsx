@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation } from '@tanstack/react-router';
 import { MenuIcon } from 'lucide-react';
 import { Search } from '../Search/Search';
 import styles from './Header.module.css';
@@ -28,10 +28,8 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.headerContainer}>
         <Link
-          to={{
-            pathname: '/',
-            search: location.pathname === '/' ? location.search : undefined,
-          }}
+          to="/"
+          search={location.pathname === '/' ? location.search : undefined}
           className={styles.logoWrapper}
         >
           <Logo className={styles.logo} />

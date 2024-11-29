@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import styles from './InfoBlock.module.css';
 import { XCircleIcon } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from '@tanstack/react-router';
 
 type InfoBlockProps = {
   imagePath?: string;
@@ -21,7 +21,7 @@ const InfoBlock: FC<InfoBlockProps> = ({
   const navigate = useNavigate();
 
   const handleClearFilter = () => {
-    navigate('/', { replace: true });
+    navigate({ to: '/', replace: true });
   };
 
   return (

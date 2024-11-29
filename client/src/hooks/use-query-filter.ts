@@ -1,5 +1,4 @@
-import { useMemo } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useMemo, useState } from 'react';
 import { getFilterParams } from '@/helpers';
 
 type FilterParams = { [key: string]: any };
@@ -8,7 +7,7 @@ type HandleChangeParam = (param: string, value?: string | number) => void;
 
 type UseFilter = {
   filterParams: any;
-  setSearchParams: (params: FilterParams) => void;
+  setSearchParams: (params: any) => void;
   updateFilter: (params: FilterParams) => void;
   resetFilter: VoidFunction;
   updateParam: HandleChangeParam;
@@ -16,7 +15,8 @@ type UseFilter = {
 };
 
 const useQueryFilter = (): UseFilter => {
-  const [searchParams, setSearchParams] = useSearchParams();
+  // TODO: use tanstack router search params instead of placeholder
+  const [searchParams, setSearchParams] = useState(new URLSearchParams());
 
   const filterParams = useMemo(() => {
     return getFilterParams(searchParams);
@@ -27,7 +27,7 @@ const useQueryFilter = (): UseFilter => {
   };
 
   const resetFilter = () => {
-    setSearchParams({});
+    setSearchParams(new URLSearchParams());
   };
 
   const deleteParam: HandleChangeParam = (param, value) => {

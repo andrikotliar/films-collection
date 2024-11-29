@@ -14,7 +14,7 @@ const mainMenu: MenuConfigItem[] = [
   },
   {
     title: 'Statistic',
-    route: '/stats',
+    route: '/statistic',
     icon: <PieChartIcon />,
   },
   {
@@ -23,8 +23,8 @@ const mainMenu: MenuConfigItem[] = [
     icon: <InfoIcon />,
   },
   {
-    title: 'Manager',
-    route: '/manager',
+    title: 'Console',
+    route: '/console',
     icon: <FolderCogIcon />,
   },
 ];

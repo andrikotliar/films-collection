@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useParams } from '@tanstack/react-router';
 import { Loader, NotFound } from '@/components';
 import { useDocumentTitle, useOneFilm, useScrollToTop } from '@/hooks';
 import { useLastVisitedFilms } from './hooks';
@@ -14,10 +14,13 @@ import {
   TitleRow,
 } from './components';
 import styles from './FilmPage.module.css';
+import { FC } from 'react';
 
-const FilmPage = () => {
-  const { id } = useParams();
+type FilmPageProps = {
+  id: string;
+};
 
+const FilmPage: FC<FilmPageProps> = ({ id }) => {
   const { data: film, isLoading } = useOneFilm(id);
 
   useScrollToTop([id]);
@@ -76,4 +79,4 @@ const FilmPage = () => {
   );
 };
 
-export default FilmPage;
+export { FilmPage };

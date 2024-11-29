@@ -9,4 +9,4 @@ const StatisticPage = () => {
   );
 };
 
-export default StatisticPage;
+export { StatisticPage };

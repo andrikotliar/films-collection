@@ -1,6 +1,6 @@
 import { CSSProperties, FC, ReactNode } from 'react';
 import styles from './StatisticItem.module.css';
-import { Link } from 'react-router-dom';
+import { Link } from '@tanstack/react-router';
 
 type StatisticItemProps = {
   linkPath: string;

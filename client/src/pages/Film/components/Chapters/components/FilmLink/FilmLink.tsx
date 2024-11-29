@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from '@tanstack/react-router';
 import { buildMediaPath, buildRouterLink } from '@/helpers';
 
 import styles from './FilmLink.module.css';

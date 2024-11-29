@@ -1,8 +1,8 @@
 import { FilmsListItem } from '@/types';
 import { forwardRef } from 'react';
-import { Link } from 'react-router-dom';
 import { buildMediaPath, buildRouterLink, getYearFromDate } from '@/helpers';
 import styles from './FilmLink.module.css';
+import { Link } from '@tanstack/react-router';
 
 type FilmLinkProps = {
   data: FilmsListItem;

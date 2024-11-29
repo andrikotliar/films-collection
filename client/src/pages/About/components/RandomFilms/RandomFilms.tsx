@@ -1,6 +1,6 @@
 import { Image, ScrollableWrapper } from '@/components';
 import styles from './RandomFilms.module.css';
-import { Link } from 'react-router-dom';
+import { Link } from '@tanstack/react-router';
 import { buildMediaPath, buildRouterLink } from '@/helpers';
 import { useQuery } from '@tanstack/react-query';
 import { apiClient } from '@/services';

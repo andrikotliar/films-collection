@@ -1,5 +1,5 @@
 import { FC, useMemo } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from '@tanstack/react-router';
 import { FilmAward } from '@/types';
 import { buildMediaPath, buildQueryLink } from '@/helpers';
 import { DataArea, DataGrid, Image, ScrollableWrapper } from '@/components';
