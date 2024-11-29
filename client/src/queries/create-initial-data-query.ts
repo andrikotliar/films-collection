@@ -1,10 +1,10 @@
 import { getFiltersConfig } from '@/configs';
 import { apiClient } from '@/services';
 import { InitialData } from '@/types';
-import { useQuery } from '@tanstack/react-query';
+import { queryOptions } from '@tanstack/react-query';
 
-const useInitialData = () => {
-  return useQuery({
+const createInitialDataQuery = () => {
+  return queryOptions({
     queryKey: ['initial-data'],
     queryFn: async () => {
       const data = await apiClient.get<InitialData>('/initial-data');
@@ -15,4 +15,4 @@ const useInitialData = () => {
   });
 };
 
-export { useInitialData };
+export { createInitialDataQuery };

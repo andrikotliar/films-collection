@@ -1,17 +1,18 @@
+import styles from './Sidebar.module.css';
 import { useContext } from 'react';
 import { SlidersHorizontalIcon } from 'lucide-react';
 import classNames from 'classnames';
-import { SidebarContext } from '@/pages/Root/context';
-import { Filters } from '../Filters/Filters';
-import styles from './Sidebar.module.css';
-import { useInitialData } from '@/hooks';
 import { Loader } from '@/components';
+import { useQuery } from '@tanstack/react-query';
+import { createInitialDataQuery } from '@/queries';
+import { Filters } from '../Filters/Filters';
+import { SidebarContext } from '../../context';
 
 const Sidebar = () => {
   const { isFilterOpen, toggleFilter, filtersCount } =
     useContext(SidebarContext);
 
-  const { data, isLoading } = useInitialData();
+  const { data, isLoading } = useQuery(createInitialDataQuery());
 
   if (isLoading) {
     return (

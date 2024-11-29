@@ -1,6 +1,5 @@
-import { useParams } from '@tanstack/react-router';
 import { Loader, NotFound } from '@/components';
-import { useDocumentTitle, useOneFilm, useScrollToTop } from '@/hooks';
+import { useDocumentTitle, useScrollToTop } from '@/hooks';
 import { useLastVisitedFilms } from './hooks';
 import {
   SectionTitle,
@@ -15,13 +14,15 @@ import {
 } from './components';
 import styles from './FilmPage.module.css';
 import { FC } from 'react';
+import { useQuery } from '@tanstack/react-query';
+import { createFilmQuery } from '@/queries';
 
 type FilmPageProps = {
   id: string;
 };
 
 const FilmPage: FC<FilmPageProps> = ({ id }) => {
-  const { data: film, isLoading } = useOneFilm(id);
+  const { data: film, isLoading } = useQuery(createFilmQuery(id));
 
   useScrollToTop([id]);
   useDocumentTitle(film?.title);

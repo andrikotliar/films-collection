@@ -1,8 +1,10 @@
 import { FC, PropsWithChildren, useMemo } from 'react';
 import { FilmsListContext } from './films-list-context';
-import { useFilmsList, useQueryFilter } from '@/hooks';
+import { useQueryFilter } from '@/hooks';
 import { PER_PAGE } from '@/constants';
 import { countObjectKeys } from '@/helpers';
+import { useQuery } from '@tanstack/react-query';
+import { createFilmsListQuery } from '@/queries';
 
 const FilmsListProvider: FC<PropsWithChildren> = ({ children }) => {
   const { filterParams } = useQueryFilter();
@@ -22,7 +24,7 @@ const FilmsListProvider: FC<PropsWithChildren> = ({ children }) => {
     };
   }, [filterParams]);
 
-  const data = useFilmsList(filters);
+  const data = useQuery(createFilmsListQuery(filters));
 
   return (
     <FilmsListContext.Provider value={data}>

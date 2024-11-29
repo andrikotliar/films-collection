@@ -1,9 +1,9 @@
 import { apiClient } from '@/services';
 import { FilmsListFilters, FilmsListResponse } from '@/types';
-import { useQuery } from '@tanstack/react-query';
+import { queryOptions } from '@tanstack/react-query';
 
-const useFilmsList = (params: FilmsListFilters) => {
-  return useQuery({
+const createFilmsListQuery = (params: FilmsListFilters) => {
+  return queryOptions({
     queryKey: ['films-collection-list', params] as const,
     queryFn: ({ queryKey }) => {
       return apiClient.get<FilmsListResponse>('/films', queryKey[1]);
@@ -12,4 +12,4 @@ const useFilmsList = (params: FilmsListFilters) => {
   });
 };
 
-export { useFilmsList };
+export { createFilmsListQuery };
