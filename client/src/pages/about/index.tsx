@@ -1,15 +1,15 @@
 import { useDocumentTitle, useScrollToTop } from '@/hooks';
-import styles from './AboutPage.module.css';
 import { RandomFilms } from './components';
+import { ArticleContent } from '@/components';
 
 const AboutPage = () => {
   useDocumentTitle('About');
   useScrollToTop([]);
 
   return (
-    <article className={styles.content}>
+    <ArticleContent>
       <section>
-        <h1 className={styles.title}>About</h1>
+        <h1>About</h1>
         <p>Hello, my name is Andrii 👋 </p>
         <p>
           I'm a big fan of films and TV shows and like to collect information
@@ -99,24 +99,23 @@ const AboutPage = () => {
         <p>I rate films in the collection by three-stars rating:</p>
         <p>⭐⭐⭐: My best favorites. I've watched them countless times.</p>
         <p>
-          ⭐⭐<span className={styles.starGray}>⭐</span>: Good titles I do
-          like. I've watched them less times than previous category, but always
-          excited to watch them one more time. Majority of titles in the
-          collection have this rating.
+          ⭐⭐<i>⭐</i>: Good titles I do like. I've watched them less times
+          than previous category, but always excited to watch them one more
+          time. Majority of titles in the collection have this rating.
         </p>
         <p>
-          ⭐<span className={styles.starGray}>⭐</span>
-          <span className={styles.starGray}>⭐</span>: Titles I still like but
-          they have some nuances or were added just to have in the collection.
-          I've watched them only a few times and usually choose to watch one
-          more time some titles from the previous categories.
+          ⭐<i>⭐</i>
+          <i>⭐</i>: Titles I still like but they have some nuances or were
+          added just to have in the collection. I've watched them only a few
+          times and usually choose to watch one more time some titles from the
+          previous categories.
         </p>
       </section>
       <section>
         <h2>Discover random titles</h2>
         <RandomFilms />
       </section>
-    </article>
+    </ArticleContent>
   );
 };
 

@@ -1,12 +1,14 @@
-import { FC, PropsWithChildren, useMemo } from 'react';
-import { FilmsListContext } from './films-list-context';
-import { useQueryFilter } from '@/hooks';
-import { PER_PAGE } from '@/constants';
+import { Sidebar, FilmsSection, RootPageLayout } from './components';
+import { useDocumentTitle, useQueryFilter } from '@/hooks';
+import { useMemo } from 'react';
 import { countObjectKeys } from '@/helpers';
+import { PER_PAGE } from '@/constants';
 import { useQuery } from '@tanstack/react-query';
 import { createFilmsListQuery } from '@/queries';
 
-const FilmsListProvider: FC<PropsWithChildren> = ({ children }) => {
+const RootPage = () => {
+  useDocumentTitle();
+
   const { filterParams } = useQueryFilter();
 
   const filters = useMemo(() => {
@@ -24,13 +26,14 @@ const FilmsListProvider: FC<PropsWithChildren> = ({ children }) => {
     };
   }, [filterParams]);
 
-  const data = useQuery(createFilmsListQuery(filters));
+  const { data, isLoading } = useQuery(createFilmsListQuery(filters));
 
   return (
-    <FilmsListContext.Provider value={data}>
-      {children}
-    </FilmsListContext.Provider>
+    <RootPageLayout>
+      <Sidebar />
+      <FilmsSection data={data} isLoading={isLoading} />
+    </RootPageLayout>
   );
 };
 
-export { FilmsListProvider };
+export { RootPage };

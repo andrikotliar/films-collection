@@ -1,9 +1,6 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { ConsolePage } from '@/pages';
+import { createFileRoute } from '@tanstack/react-router';
 
 export const Route = createFileRoute('/console/')({
-  component: RouteComponent,
-})
-
-function RouteComponent() {
-  return <div>Under development</div>
-}
+  component: () => <ConsolePage />,
+});

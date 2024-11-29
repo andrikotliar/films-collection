@@ -1,16 +1,19 @@
-import { useContext } from 'react';
+import styles from './FilmsSection.module.css';
+import { FC } from 'react';
 import { FilmsGrid, Loader, Pagination } from '@/components';
-import { FilmsListContext } from '../../context';
 import {
   FilmsNotFound,
   AdditionalInfoSection,
   AppliedFilters,
 } from './components';
-import styles from './FilmsSection.module.css';
+import { FilmsListResponse } from '@/types';
 
-const FilmsSection = () => {
-  const { data, isLoading } = useContext(FilmsListContext);
+type FilmsSectionProps = {
+  data?: FilmsListResponse;
+  isLoading: boolean;
+};
 
+const FilmsSection: FC<FilmsSectionProps> = ({ data, isLoading }) => {
   if (isLoading) {
     return (
       <div className={styles.filmsSection}>

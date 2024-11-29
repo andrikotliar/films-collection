@@ -11,8 +11,9 @@ import {
   Chapters,
   NavigationRow,
   TitleRow,
+  FilmPageLayout,
+  ContentLayout,
 } from './components';
-import styles from './FilmPage.module.css';
 import { FC } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { createFilmQuery } from '@/queries';
@@ -37,10 +38,10 @@ const FilmPage: FC<FilmPageProps> = ({ id }) => {
   }
 
   return (
-    <div className={styles.filmPage}>
+    <FilmPageLayout>
       <NavigationRow />
 
-      <div className={styles.content}>
+      <ContentLayout>
         <TitleRow data={film} />
 
         <SummarySection film={film} />
@@ -75,8 +76,8 @@ const FilmPage: FC<FilmPageProps> = ({ id }) => {
             <Chapters data={film.chapters} filmId={film._id} key={film._id} />
           </section>
         )}
-      </div>
-    </div>
+      </ContentLayout>
+    </FilmPageLayout>
   );
 };
 

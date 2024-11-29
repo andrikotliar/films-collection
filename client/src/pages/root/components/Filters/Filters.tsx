@@ -1,8 +1,7 @@
 import styles from './Filters.module.css';
-import { FC, useContext, useEffect } from 'react';
+import { Dispatch, FC, SetStateAction, useEffect } from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
 import { Button, ScrollableWrapper } from '@/components';
-import { SidebarContext } from '@/pages/Root/context';
 import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
 import { useQueryFilter } from '@/hooks';
@@ -12,6 +11,8 @@ import { FilterItem } from '@/types';
 
 type FiltersProps = {
   config: FilterItem[];
+  setIsFilterOpen: Dispatch<SetStateAction<boolean>>;
+  updateFiltersCount: (value: number) => void;
 };
 
 type FormValues = {
@@ -36,12 +37,14 @@ const defaultValues: FormValues = {
   studios: null,
 };
 
-const Filters: FC<FiltersProps> = ({ config }) => {
+const Filters: FC<FiltersProps> = ({
+  config,
+  setIsFilterOpen,
+  updateFiltersCount,
+}) => {
   const { filterParams, updateFilter, resetFilter } = useQueryFilter();
 
   const filtersCount = countObjectKeys(filterParams, ['skip', 'limit']);
-
-  const { setIsFilterOpen, updateFiltersCount } = useContext(SidebarContext);
 
   const methods = useForm({
     defaultValues,
