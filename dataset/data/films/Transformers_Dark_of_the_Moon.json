@@ -114,21 +114,21 @@
       "actor": "c8535012fe7ed7ca107c0fe2",
       "character": {
         "name": "Optimus Prime",
-        "image": "transformers_dark_of_the_moon_optimus_prime.webp"
+        "image": "characters/transformers_dark_of_the_moon_optimus_prime.webp"
       }
     },
     {
       "actor": "9d72ccad0a0c60872b91d2d3",
       "character": {
         "name": "Megatron",
-        "image": "transformers_dark_of_the_moon_megatron.webp"
+        "image": "characters/transformers_dark_of_the_moon_megatron.webp"
       }
     },
     {
       "actor": "f875b54ffaa4476a3545f977",
       "character": {
         "name": "Sentinel Prime",
-        "image": "transformers_dark_of_the_moon_sentinel_prime.webp"
+        "image": "characters/transformers_dark_of_the_moon_sentinel_prime.webp"
       }
     }
   ],
@@ -153,7 +153,7 @@
     "DreamWorks Pictures",
     "Paramount Pictures"
   ],
-  "poster": "transformers_3.webp",
+  "poster": "posters/transformers_3.webp",
   "style": "Live-Action",
   "trailers": [
     "bTIrEZM-cFE"

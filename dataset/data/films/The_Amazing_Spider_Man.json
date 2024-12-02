@@ -69,7 +69,7 @@
       "actor": "4944de362b32c61551474862",
       "character": {
         "name": "Spider-Man / Peter Parker",
-        "image": "the_amazing_spider_man_spider-man.webp"
+        "image": "characters/the_amazing_spider_man_spider-man.webp"
       }
     },
     {
@@ -82,7 +82,7 @@
       "actor": "54976cd277ab4a63171411b7",
       "character": {
         "name": "The Lizard / Dr. Curt Connors",
-        "image": "the_amazing_spider_man_the_lizard.webp"
+        "image": "characters/the_amazing_spider_man_the_lizard.webp"
       }
     },
     {
@@ -137,7 +137,7 @@
     "Columbia Pictures",
     "Marvel Entertainment"
   ],
-  "poster": "amazing_spider_man_1.webp",
+  "poster": "posters/amazing_spider_man_1.webp",
   "style": "Live-Action",
   "trailers": [
     "-tnxzJ0SSOw"

@@ -101,140 +101,140 @@
       "actor": "f141d903681afc605667e90b",
       "character": {
         "name": "Korra",
-        "image": "the_legend_of_korra_korra.webp"
+        "image": "characters/the_legend_of_korra_korra.webp"
       }
     },
     {
       "actor": "fa66afeeb27440dee15e5c76",
       "character": {
         "name": "Bolin",
-        "image": "the_legend_of_korra_bolin.webp"
+        "image": "characters/the_legend_of_korra_bolin.webp"
       }
     },
     {
       "actor": "6ab864312ad85779feec8b6b",
       "character": {
         "name": "Mako",
-        "image": "the_legend_of_korra_mako.webp"
+        "image": "characters/the_legend_of_korra_mako.webp"
       }
     },
     {
       "actor": "03293ef86c8bf352c9dd52f4",
       "character": {
         "name": "Tenzin",
-        "image": "the_legend_of_korra_tenzin.webp"
+        "image": "characters/the_legend_of_korra_tenzin.webp"
       }
     },
     {
       "actor": "f52ca5fa17409e78addd6e31",
       "character": {
         "name": "Asami Sato",
-        "image": "the_legend_of_korra_asami_sato.webp"
+        "image": "characters/the_legend_of_korra_asami_sato.webp"
       }
     },
     {
       "actor": "8e8e614e6069c0dd17beefb2",
       "character": {
         "name": "Lin Beifong",
-        "image": "the_legend_of_korra_lin_beifong.webp"
+        "image": "characters/the_legend_of_korra_lin_beifong.webp"
       }
     },
     {
       "actor": "c9df14c4610c90d7bc3dd89c",
       "character": {
         "name": "Meelo",
-        "image": "the_legend_of_korra_meelo.webp"
+        "image": "characters/the_legend_of_korra_meelo.webp"
       }
     },
     {
       "actor": "065b654c3848f322d56063ad",
       "character": {
         "name": "Jinora",
-        "image": "the_legend_of_korra_jinora.webp"
+        "image": "characters/the_legend_of_korra_jinora.webp"
       }
     },
     {
       "actor": "cc5e6da11399a3902e09670e",
       "character": {
         "name": "Varrick",
-        "image": "the_legend_of_korra_varrick.webp"
+        "image": "characters/the_legend_of_korra_varrick.webp"
       }
     },
     {
       "actor": "cc1cea9cd63393a0e4ae729d",
       "character": {
         "name": "Ikki",
-        "image": "the_legend_of_korra_ikki.webp"
+        "image": "characters/the_legend_of_korra_ikki.webp"
       }
     },
     {
       "actor": "a9c2d3acceb693ffa6da6728",
       "character": {
         "name": "Bumi",
-        "image": "the_legend_of_korra_bumi.webp"
+        "image": "characters/the_legend_of_korra_bumi.webp"
       }
     },
     {
       "actor": "886705efe27900f9c7e27447",
       "character": {
         "name": "Tonraq",
-        "image": "the_legend_of_korra_tonraq.webp"
+        "image": "characters/the_legend_of_korra_tonraq.webp"
       }
     },
     {
       "actor": "a5e25463aa7133ab833c71fe",
       "character": {
         "name": "Unalaq",
-        "image": "the_legend_of_korra_unalaq.webp"
+        "image": "characters/the_legend_of_korra_unalaq.webp"
       }
     },
     {
       "actor": "548ff3dd03d5eae8da85b437",
       "character": {
         "name": "Zaheer",
-        "image": "the_legend_of_korra_zaheer.webp"
+        "image": "characters/the_legend_of_korra_zaheer.webp"
       }
     },
     {
       "actor": "10eb3a80ceafcb9135ef3290",
       "character": {
         "name": "Amon",
-        "image": "the_legend_of_korra_amon.webp"
+        "image": "characters/the_legend_of_korra_amon.webp"
       }
     },
     {
       "actor": "2e396819ac07ea68100eacde",
       "character": {
         "name": "Kuvira",
-        "image": "the_legend_of_korra_kuvira.webp"
+        "image": "characters/the_legend_of_korra_kuvira.webp"
       }
     },
     {
       "actor": "47e429aecc25eededd9044e7",
       "character": {
         "name": "Vaatu",
-        "image": "the_legend_of_korra_vaatu.webp"
+        "image": "characters/the_legend_of_korra_vaatu.webp"
       }
     },
     {
       "actor": "5c2a55fb020d9bfb3ad36823",
       "character": {
         "name": "Raava",
-        "image": "the_legend_of_korra_raava.webp"
+        "image": "characters/the_legend_of_korra_raava.webp"
       }
     },
     {
       "actor": "158f779e569433961193f113",
       "character": {
         "name": "Aang",
-        "image": "the_legend_of_korra_aang.webp"
+        "image": "characters/the_legend_of_korra_aang.webp"
       }
     },
     {
       "actor": "1000055d1e03066802dffcfd",
       "character": {
         "name": "Katara",
-        "image": "the_legend_of_korra_katara.webp"
+        "image": "characters/the_legend_of_korra_katara.webp"
       }
     }
   ],
@@ -306,7 +306,7 @@
   "studios": [
     "Nickelodeon Animation Studios"
   ],
-  "poster": "legend_of_korra.webp",
+  "poster": "posters/legend_of_korra.webp",
   "style": "Live-Action",
   "trailers": [
     "NBNpGCIavwA",

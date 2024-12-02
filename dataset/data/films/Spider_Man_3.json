@@ -69,7 +69,7 @@
       "actor": "65694e39d2799267ae4a2adf",
       "character": {
         "name": "Spider-Man / Peter Parker",
-        "image": "spider_man_3_spider-man.webp"
+        "image": "characters/spider_man_3_spider-man.webp"
       }
     },
     {
@@ -94,7 +94,7 @@
       "actor": "6efffa0c13fb063700b2ee16",
       "character": {
         "name": "Venom / Eddie Brock",
-        "image": "spider_man_3_venom.webp"
+        "image": "characters/spider_man_3_venom.webp"
       }
     },
     {
@@ -149,7 +149,7 @@
     "Columbia Pictures",
     "Marvel Entertainment"
   ],
-  "poster": "raimi_spider_man_3.webp",
+  "poster": "posters/raimi_spider_man_3.webp",
   "style": "Live-Action",
   "trailers": [
     "wPosLpgMtTY"

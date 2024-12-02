@@ -114,7 +114,7 @@
       "actor": "d3d49fa0c570c7084aace0d7",
       "character": {
         "name": "Mystique",
-        "image": "x_men_mystique.webp"
+        "image": "characters/x_men_mystique.webp"
       }
     },
     {
@@ -172,7 +172,7 @@
     "20th Century FOX",
     "Marvel Entertainment"
   ],
-  "poster": "x_men_1.webp",
+  "poster": "posters/x_men_1.webp",
   "style": "Live-Action",
   "trailers": [
     "VNxwlx6etXI"

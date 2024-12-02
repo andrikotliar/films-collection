@@ -271,7 +271,7 @@
       "actor": "6262ddbf525d013aec6ab593",
       "character": {
         "name": "Pogo",
-        "image": "the_umbrella_academy_pogo.webp"
+        "image": "characters/the_umbrella_academy_pogo.webp"
       }
     }
   ],
@@ -320,7 +320,7 @@
   "studios": [
     "Netflix"
   ],
-  "poster": "umbrella_academy.webp",
+  "poster": "posters/umbrella_academy.webp",
   "style": "Live-Action",
   "trailers": [
     "0DAmWHxeoKw",

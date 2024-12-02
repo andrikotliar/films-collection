@@ -145,7 +145,7 @@
       "actor": "b5ff52d0995bec144e227184",
       "character": {
         "name": "The Mandalorian",
-        "image": "the_mandalorian_the_mandalorian.webp"
+        "image": "characters/the_mandalorian_the_mandalorian.webp"
       }
     },
     {
@@ -182,28 +182,28 @@
       "actor": "4fda865b59819a0d26c09697",
       "character": {
         "name": "Ahsoka Tano",
-        "image": "the_mandalorian_ahsoka_tano.webp"
+        "image": "characters/the_mandalorian_ahsoka_tano.webp"
       }
     },
     {
       "actor": "69e8920fd59dae4ebf93c60c",
       "character": {
         "name": "IG-11",
-        "image": "the_mandalorian_ig-11.webp"
+        "image": "characters/the_mandalorian_ig-11.webp"
       }
     },
     {
       "actor": "07d0f36cefa97ad89f2bcc13",
       "character": {
         "name": "Kuiil",
-        "image": "the_mandalorian_kuiil.webp"
+        "image": "characters/the_mandalorian_kuiil.webp"
       }
     },
     {
       "actor": "0cdba35b7b82464350279a22",
       "character": {
         "name": "The Armorer",
-        "image": "the_mandalorian_the_armorer.webp"
+        "image": "characters/the_mandalorian_the_armorer.webp"
       }
     }
   ],
@@ -273,7 +273,7 @@
     "Disney+",
     "Lucasfilm"
   ],
-  "poster": "mandalorian.webp",
+  "poster": "posters/mandalorian.webp",
   "style": "Live-Action",
   "trailers": [
     "OFlBh_eUsjA",

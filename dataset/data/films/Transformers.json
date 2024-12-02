@@ -117,35 +117,35 @@
       "actor": "c8535012fe7ed7ca107c0fe2",
       "character": {
         "name": "Optimus Prime",
-        "image": "transformers_optimus_prime.webp"
+        "image": "characters/transformers_optimus_prime.webp"
       }
     },
     {
       "actor": "b4f3568b7522d6badf6b1deb",
       "character": {
         "name": "Bumblebee",
-        "image": "transformers_bumblebee.webp"
+        "image": "characters/transformers_bumblebee.webp"
       }
     },
     {
       "actor": "9d72ccad0a0c60872b91d2d3",
       "character": {
         "name": "Megatron",
-        "image": "transformers_megatron.webp"
+        "image": "characters/transformers_megatron.webp"
       }
     },
     {
       "actor": "03174db7449d0dd396695b2f",
       "character": {
         "name": "Frenzy",
-        "image": "transformers_frenzy.webp"
+        "image": "characters/transformers_frenzy.webp"
       }
     },
     {
       "actor": "7c75da9052faf46cbe5bf773",
       "character": {
         "name": "Starscream",
-        "image": "transformers_starscream.webp"
+        "image": "characters/transformers_starscream.webp"
       }
     }
   ],
@@ -191,7 +191,7 @@
     "DreamWorks Pictures",
     "Paramount Pictures"
   ],
-  "poster": "transformers_1.webp",
+  "poster": "posters/transformers_1.webp",
   "style": "Live-Action",
   "trailers": [
     "dxQxgAfNzyE"

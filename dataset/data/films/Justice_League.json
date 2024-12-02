@@ -61,14 +61,14 @@
       "actor": "118e96c459ae6809e814c6b5",
       "character": {
         "name": "Bruce Wayne / Batman",
-        "image": "zack_snyder_s_justice_league_bruce_wayne"
+        "image": "characters/zack_snyder_s_justice_league_bruce_wayne"
       }
     },
     {
       "actor": "8b6677adf81a10fa756951ff",
       "character": {
         "name": "Clark Kent / Superman",
-        "image": "zack_snyder_s_justice_league_clark_kent"
+        "image": "characters/zack_snyder_s_justice_league_clark_kent"
       }
     },
     {
@@ -87,7 +87,7 @@
       "actor": "375d86a17caf2ced031c134d",
       "character": {
         "name": "Barry Allen / The Flash",
-        "image": "zack_snyder_s_justice_league_barry_allen"
+        "image": "characters/zack_snyder_s_justice_league_barry_allen"
       }
     },
     {
@@ -100,7 +100,7 @@
       "actor": "86fc034cc2f04ed634307aec",
       "character": {
         "name": "Victor Stone / Cyborg",
-        "image": "zack_snyder_s_justice_league_victor_stone"
+        "image": "characters/zack_snyder_s_justice_league_victor_stone"
       }
     },
     {
@@ -131,14 +131,14 @@
       "actor": "67f236e2e31dfdf8ce27fe3c",
       "character": {
         "name": "Steppenwolf",
-        "image": "zack_snyder_s_justice_league_steppenwolf"
+        "image": "characters/zack_snyder_s_justice_league_steppenwolf"
       }
     },
     {
       "actor": "08a0d88e9df07c14525a1dd1",
       "character": {
         "name": "Darkseid",
-        "image": "zack_snyder_s_justice_league_darkseid"
+        "image": "characters/zack_snyder_s_justice_league_darkseid"
       }
     },
     {
@@ -163,7 +163,7 @@
       "actor": "babebeae5d94b820c645cfab",
       "character": {
         "name": "Deathstroke",
-        "image": "zack_snyder_s_justice_league_deathstroke"
+        "image": "characters/zack_snyder_s_justice_league_deathstroke"
       }
     },
     {
@@ -176,14 +176,14 @@
       "actor": "b1094d5a4c3819d770b6cf30",
       "character": {
         "name": "General Swanwick / Martian Manhunter",
-        "image": "zack_snyder_s_justice_league_general_swanwick"
+        "image": "characters/zack_snyder_s_justice_league_general_swanwick"
       }
     },
     {
       "actor": "7393a0d84bbc38796cb5e109",
       "character": {
         "name": "DeSaad",
-        "image": "zack_snyder_s_justice_league_desaad"
+        "image": "characters/zack_snyder_s_justice_league_desaad"
       }
     }
   ],
@@ -207,7 +207,7 @@
     "HBO Max",
     "Warner Bros. Pictures"
   ],
-  "poster": "justice_league.webp",
+  "poster": "posters/justice_league.webp",
   "style": "Live-Action",
   "trailers": [
     "ui37YKQ9AC4"

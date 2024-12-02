@@ -63,35 +63,35 @@
       "actor": "68eac2af31419390d7f727fd",
       "character": {
         "name": "Tony Stark / Iron Man",
-        "image": "the_avengers_infinity_war_tony_stark.webp"
+        "image": "characters/the_avengers_infinity_war_tony_stark.webp"
       }
     },
     {
       "actor": "9d6f7bec0a46789eaa403786",
       "character": {
         "name": "Thor",
-        "image": "the_avengers_infinity_war_thor.webp"
+        "image": "characters/the_avengers_infinity_war_thor.webp"
       }
     },
     {
       "actor": "a65bc3f407cd83dd8b26db19",
       "character": {
         "name": "Bruce Banner / Hulk",
-        "image": "the_avengers_infinity_war_bruce_banner.webp"
+        "image": "characters/the_avengers_infinity_war_bruce_banner.webp"
       }
     },
     {
       "actor": "b3356695e90767defc7c4421",
       "character": {
         "name": "Steve Rogers / Captain America",
-        "image": "the_avengers_infinity_war_steve_rogers.webp"
+        "image": "characters/the_avengers_infinity_war_steve_rogers.webp"
       }
     },
     {
       "actor": "64286f842f66cb88506271cc",
       "character": {
         "name": "Natasha Romanoff / Black Widow",
-        "image": "the_avengers_infinity_war_natasha_romanoff.webp"
+        "image": "characters/the_avengers_infinity_war_natasha_romanoff.webp"
       }
     },
     {
@@ -104,14 +104,14 @@
       "actor": "5a86b2f23ea348e3a58775b6",
       "character": {
         "name": "Doctor Strange",
-        "image": "the_avengers_infinity_war_doctor_strange.webp"
+        "image": "characters/the_avengers_infinity_war_doctor_strange.webp"
       }
     },
     {
       "actor": "7724f9a2549d742da5d02985",
       "character": {
         "name": "Peter Parker / Spider-Man",
-        "image": "the_avengers_infinity_war_peter_parker.webp"
+        "image": "characters/the_avengers_infinity_war_peter_parker.webp"
       }
     },
     {
@@ -124,7 +124,7 @@
       "actor": "0f44c8581608c442261413e4",
       "character": {
         "name": "Gamora",
-        "image": "the_avengers_infinity_war_gamora.webp"
+        "image": "characters/the_avengers_infinity_war_gamora.webp"
       }
     },
     {
@@ -137,7 +137,7 @@
       "actor": "7b67d3adc189860cca3bbf5f",
       "character": {
         "name": "Nebula",
-        "image": "the_avengers_infinity_war_nebula.webp"
+        "image": "characters/the_avengers_infinity_war_nebula.webp"
       }
     },
     {
@@ -150,7 +150,7 @@
       "actor": "c20e24b955b094888df0ac50",
       "character": {
         "name": "Vision",
-        "image": "the_avengers_infinity_war_vision.webp"
+        "image": "characters/the_avengers_infinity_war_vision.webp"
       }
     },
     {
@@ -175,35 +175,35 @@
       "actor": "ea853e2289646fab62637582",
       "character": {
         "name": "Mantis",
-        "image": "the_avengers_infinity_war_mantis.webp"
+        "image": "characters/the_avengers_infinity_war_mantis.webp"
       }
     },
     {
       "actor": "6e7815767f3afa70c3dc69c5",
       "character": {
         "name": "Drax",
-        "image": "the_avengers_infinity_war_drax.webp"
+        "image": "characters/the_avengers_infinity_war_drax.webp"
       }
     },
     {
       "actor": "8acb4ceb24e197fffd95c777",
       "character": {
         "name": "Groot",
-        "image": "the_avengers_infinity_war_groot.webp"
+        "image": "characters/the_avengers_infinity_war_groot.webp"
       }
     },
     {
       "actor": "dc4912e5f14e4bfea9c78218",
       "character": {
         "name": "Rocket",
-        "image": "the_avengers_infinity_war_rocket.webp"
+        "image": "characters/the_avengers_infinity_war_rocket.webp"
       }
     },
     {
       "actor": "bff8f185faaa1610320942aa",
       "character": {
         "name": "Thanos",
-        "image": "the_avengers_infinity_war_thanos.webp"
+        "image": "characters/the_avengers_infinity_war_thanos.webp"
       }
     }
   ],
@@ -239,7 +239,7 @@
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "poster": "avengers_3.webp",
+  "poster": "posters/avengers_3.webp",
   "style": "Live-Action",
   "trailers": [
     "6ZfuNTqbHE8"

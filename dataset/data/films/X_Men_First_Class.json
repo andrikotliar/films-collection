@@ -93,7 +93,7 @@
       "actor": "c99e4f6dc0695561848dc5be",
       "character": {
         "name": "Raven / Mystique",
-        "image": "x_men_first_class_raven.webp"
+        "image": "characters/x_men_first_class_raven.webp"
       }
     },
     {
@@ -152,7 +152,7 @@
     "20th Century FOX",
     "Marvel Entertainment"
   ],
-  "poster": "x_men_5.webp",
+  "poster": "posters/x_men_5.webp",
   "style": "Live-Action",
   "trailers": [
     "kyQKi5-k0UU"

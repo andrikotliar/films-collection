@@ -60,14 +60,14 @@
       "actor": "65694e39d2799267ae4a2adf",
       "character": {
         "name": "Spider-Man / Peter Parker",
-        "image": "spider_man_spider-man.webp"
+        "image": "characters/spider_man_spider-man.webp"
       }
     },
     {
       "actor": "69443d6dcdd5ddbc0c51e534",
       "character": {
         "name": "Green Goblin / Norman Osborn",
-        "image": "spider_man_green_goblin.webp"
+        "image": "characters/spider_man_green_goblin.webp"
       }
     },
     {
@@ -122,7 +122,7 @@
     "Columbia Pictures",
     "Marvel Entertainment"
   ],
-  "poster": "raimi_spider_man_1.webp",
+  "poster": "posters/raimi_spider_man_1.webp",
   "style": "Live-Action",
   "trailers": [
     "_yhFofFZGcc"

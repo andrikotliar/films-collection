@@ -74,7 +74,7 @@
       "actor": "516c73ff5c3ea993f477be5d",
       "character": {
         "name": "Chewbacca",
-        "image": "solo_a_star_wars_story_chewbacca.webp"
+        "image": "characters/solo_a_star_wars_story_chewbacca.webp"
       }
     },
     {
@@ -105,7 +105,7 @@
       "actor": "ce73d0bbe3d6b70ce10745c4",
       "character": {
         "name": "L3-37",
-        "image": "solo_a_star_wars_story_l3-37.webp"
+        "image": "characters/solo_a_star_wars_story_l3-37.webp"
       }
     },
     {
@@ -142,7 +142,7 @@
     "Lucasfilm",
     "Walt Disney Pictures"
   ],
-  "poster": "solo.webp",
+  "poster": "posters/solo.webp",
   "style": "Live-Action",
   "trailers": [
     "jPEYpryMp2s"

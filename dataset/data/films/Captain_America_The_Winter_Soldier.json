@@ -63,7 +63,7 @@
       "actor": "b3356695e90767defc7c4421",
       "character": {
         "name": "Steve Rogers / Captain America",
-        "image": "captain_america_the_winter_captain_america.webp"
+        "image": "characters/captain_america_the_winter_captain_america.webp"
       }
     },
     {
@@ -124,7 +124,7 @@
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "poster": "captain_america_2.webp",
+  "poster": "posters/captain_america_2.webp",
   "style": "Live-Action",
   "trailers": [
     "7SlILk2WMTI"

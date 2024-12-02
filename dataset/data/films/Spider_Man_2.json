@@ -60,14 +60,14 @@
       "actor": "65694e39d2799267ae4a2adf",
       "character": {
         "name": "Spider-Man / Peter Parker",
-        "image": "spider_man_2_spider-man.webp"
+        "image": "characters/spider_man_2_spider-man.webp"
       }
     },
     {
       "actor": "c70aa327b237efbbee19c181",
       "character": {
         "name": "Doc Ock / Dr. Otto Octavius",
-        "image": "spider_man_2_doc_ock.webp"
+        "image": "characters/spider_man_2_doc_ock.webp"
       }
     },
     {
@@ -147,7 +147,7 @@
     "Columbia Pictures",
     "Marvel Entertainment"
   ],
-  "poster": "raimi_spider_man_2.webp",
+  "poster": "posters/raimi_spider_man_2.webp",
   "style": "Live-Action",
   "trailers": [
     "1s9Yln0YwCw"

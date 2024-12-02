@@ -69,7 +69,7 @@
       "actor": "b794f150c4436f17ba9bd9f1",
       "character": {
         "name": "Bruce Wayne / Batman",
-        "image": "batman_begins_bruce_wayne.webp"
+        "image": "characters/batman_begins_bruce_wayne.webp"
       }
     },
     {
@@ -174,7 +174,7 @@
     "Warner Bros. Pictures",
     "Legendary"
   ],
-  "poster": "batman_1.webp",
+  "poster": "posters/batman_1.webp",
   "style": "Live-Action",
   "trailers": [
     "neY2xVmOfUM"

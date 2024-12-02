@@ -63,49 +63,49 @@
       "actor": "0f44c8581608c442261413e4",
       "character": {
         "name": "Gamora",
-        "image": "guardians_of_the_galaxy_vol_2_gamora.webp"
+        "image": "characters/guardians_of_the_galaxy_vol_2_gamora.webp"
       }
     },
     {
       "actor": "6e7815767f3afa70c3dc69c5",
       "character": {
         "name": "Drax",
-        "image": "guardians_of_the_galaxy_vol_2_drax.webp"
+        "image": "characters/guardians_of_the_galaxy_vol_2_drax.webp"
       }
     },
     {
       "actor": "8acb4ceb24e197fffd95c777",
       "character": {
         "name": "Baby Groot",
-        "image": "guardians_of_the_galaxy_vol_2_baby_groot.webp"
+        "image": "characters/guardians_of_the_galaxy_vol_2_baby_groot.webp"
       }
     },
     {
       "actor": "dc4912e5f14e4bfea9c78218",
       "character": {
         "name": "Rocket",
-        "image": "guardians_of_the_galaxy_vol_2_rocket.webp"
+        "image": "characters/guardians_of_the_galaxy_vol_2_rocket.webp"
       }
     },
     {
       "actor": "b99fd4cb12dd52764f91df15",
       "character": {
         "name": "Yondu",
-        "image": "guardians_of_the_galaxy_vol_2_yondu.webp"
+        "image": "characters/guardians_of_the_galaxy_vol_2_yondu.webp"
       }
     },
     {
       "actor": "7b67d3adc189860cca3bbf5f",
       "character": {
         "name": "Nebula",
-        "image": "guardians_of_the_galaxy_vol_2_nebula.webp"
+        "image": "characters/guardians_of_the_galaxy_vol_2_nebula.webp"
       }
     },
     {
       "actor": "ea853e2289646fab62637582",
       "character": {
         "name": "Mantis",
-        "image": "guardians_of_the_galaxy_vol_2_mantis.webp"
+        "image": "characters/guardians_of_the_galaxy_vol_2_mantis.webp"
       }
     },
     {
@@ -158,7 +158,7 @@
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "poster": "guardians_of_the_galaxy_2.webp",
+  "poster": "posters/guardians_of_the_galaxy_2.webp",
   "style": "Live-Action",
   "trailers": [
     "wUn05hdkhjM"

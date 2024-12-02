@@ -61,77 +61,77 @@
       "actor": "30c03c6976ec24262f37bfc6",
       "character": {
         "name": "Alex",
-        "image": "madagascar_escape_2_africa_alex.webp"
+        "image": "characters/madagascar_escape_2_africa_alex.webp"
       }
     },
     {
       "actor": "ce3b1d5495190d8116dea108",
       "character": {
         "name": "Marty",
-        "image": "madagascar_escape_2_africa_marty.webp"
+        "image": "characters/madagascar_escape_2_africa_marty.webp"
       }
     },
     {
       "actor": "a292c106f01b7650bbe0c49f",
       "character": {
         "name": "Melman",
-        "image": "madagascar_escape_2_africa_melman.webp"
+        "image": "characters/madagascar_escape_2_africa_melman.webp"
       }
     },
     {
       "actor": "544db30160fa4bfa12603ee5",
       "character": {
         "name": "Gloria",
-        "image": "madagascar_escape_2_africa_gloria.webp"
+        "image": "characters/madagascar_escape_2_africa_gloria.webp"
       }
     },
     {
       "actor": "305954b13aa2aaf70e71c864",
       "character": {
         "name": "Julien",
-        "image": "madagascar_escape_2_africa_julien.webp"
+        "image": "characters/madagascar_escape_2_africa_julien.webp"
       }
     },
     {
       "actor": "7febb850e2b27682a05354b2",
       "character": {
         "name": "Maurice",
-        "image": "madagascar_escape_2_africa_maurice.webp"
+        "image": "characters/madagascar_escape_2_africa_maurice.webp"
       }
     },
     {
       "actor": "d24df93c5b226c3d2d332ce2",
       "character": {
         "name": "Zuba",
-        "image": "madagascar_escape_2_africa_zuba.webp"
+        "image": "characters/madagascar_escape_2_africa_zuba.webp"
       }
     },
     {
       "actor": "f2dfaa3c7808ea9eddfc81c7",
       "character": {
         "name": "Makunga",
-        "image": "madagascar_escape_2_africa_makunga.webp"
+        "image": "characters/madagascar_escape_2_africa_makunga.webp"
       }
     },
     {
       "actor": "6b4e54a50e6bf4a96ecb2253",
       "character": {
         "name": "Nana",
-        "image": "madagascar_escape_2_africa_nana.webp"
+        "image": "characters/madagascar_escape_2_africa_nana.webp"
       }
     },
     {
       "actor": "703b49e5d14fbe3506c1dd6b",
       "character": {
         "name": "Skipper",
-        "image": "madagascar_escape_2_africa_skipper.webp"
+        "image": "characters/madagascar_escape_2_africa_skipper.webp"
       }
     },
     {
       "actor": "0f306849f00b1e8c614e03e7",
       "character": {
         "name": "Mason",
-        "image": "madagascar_escape_2_africa_mason.webp"
+        "image": "characters/madagascar_escape_2_africa_mason.webp"
       }
     }
   ],
@@ -155,7 +155,7 @@
   "studios": [
     "DreamWorks Animation"
   ],
-  "poster": "madagascar_2.webp",
+  "poster": "posters/madagascar_2.webp",
   "style": "Animation",
   "trailers": [
     "hLVjIhPYq7s"

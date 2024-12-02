@@ -102,28 +102,28 @@
       "actor": "c8535012fe7ed7ca107c0fe2",
       "character": {
         "name": "Optimus Prime",
-        "image": "transformers_revenge_of_the_fallen_optimus_prime.webp"
+        "image": "characters/transformers_revenge_of_the_fallen_optimus_prime.webp"
       }
     },
     {
       "actor": "b4f3568b7522d6badf6b1deb",
       "character": {
         "name": "Jetfire",
-        "image": "transformers_revenge_of_the_fallen_jetfire.webp"
+        "image": "characters/transformers_revenge_of_the_fallen_jetfire.webp"
       }
     },
     {
       "actor": "9d72ccad0a0c60872b91d2d3",
       "character": {
         "name": "Megatron",
-        "image": "transformers_revenge_of_the_fallen_megatron.webp"
+        "image": "characters/transformers_revenge_of_the_fallen_megatron.webp"
       }
     },
     {
       "actor": "fe3a28c55f7885a6feb9f383",
       "character": {
         "name": "Fallen",
-        "image": "transformers_revenge_of_the_fallen_fallen.webp"
+        "image": "characters/transformers_revenge_of_the_fallen_fallen.webp"
       }
     }
   ],
@@ -148,7 +148,7 @@
     "DreamWorks Pictures",
     "Paramount Pictures"
   ],
-  "poster": "transformers_2.webp",
+  "poster": "posters/transformers_2.webp",
   "style": "Live-Action",
   "trailers": [
     "fnXzKwUgDhg"

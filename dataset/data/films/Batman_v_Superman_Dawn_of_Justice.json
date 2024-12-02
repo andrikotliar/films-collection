@@ -66,14 +66,14 @@
       "actor": "118e96c459ae6809e814c6b5",
       "character": {
         "name": "Bruce Wayne / Batman",
-        "image": "batman_v_superman_dawn_of_justice_bruce_wayne.webp"
+        "image": "characters/batman_v_superman_dawn_of_justice_bruce_wayne.webp"
       }
     },
     {
       "actor": "8b6677adf81a10fa756951ff",
       "character": {
         "name": "Clark Kent / Superman",
-        "image": "batman_v_superman_dawn_of_justice_clark_kent.webp"
+        "image": "characters/batman_v_superman_dawn_of_justice_clark_kent.webp"
       }
     },
     {
@@ -140,7 +140,7 @@
     "DC Entertainment",
     "Warner Bros. Pictures"
   ],
-  "poster": "batman_v_superman.webp",
+  "poster": "posters/batman_v_superman.webp",
   "style": "Live-Action",
   "trailers": [
     "bha24P9uw-E"

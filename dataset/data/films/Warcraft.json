@@ -78,7 +78,7 @@
       "actor": "dbed75996832076f78882cf8",
       "character": {
         "name": "Garona",
-        "image": "warcraft_garona.webp"
+        "image": "characters/warcraft_garona.webp"
       }
     },
     {
@@ -97,7 +97,7 @@
       "actor": "c8901a2c3a9ece7d8f68aba1",
       "character": {
         "name": "Durotan / Antonidas",
-        "image": "warcraft_durotan.webp"
+        "image": "characters/warcraft_durotan.webp"
       }
     },
     {
@@ -110,14 +110,14 @@
       "actor": "cc6ab9ac2d6bf1eae11f5f1c",
       "character": {
         "name": "Orgrim",
-        "image": "warcraft_orgrim.webp"
+        "image": "characters/warcraft_orgrim.webp"
       }
     },
     {
       "actor": "8e58705ae826aaa9554b17d6",
       "character": {
         "name": "Blackhand",
-        "image": "warcraft_blackhand.webp"
+        "image": "characters/warcraft_blackhand.webp"
       }
     },
     {
@@ -136,7 +136,7 @@
       "actor": "b83c0645c73a15db94cadf2e",
       "character": {
         "name": "Draka",
-        "image": "warcraft_draka.webp"
+        "image": "characters/warcraft_draka.webp"
       }
     },
     {
@@ -172,7 +172,7 @@
     "Universal Pictures",
     "Legendary"
   ],
-  "poster": "warcraft.webp",
+  "poster": "posters/warcraft.webp",
   "style": "Live-Action",
   "trailers": [
     "2Rxoz13Bthc"

@@ -69,14 +69,14 @@
       "actor": "b794f150c4436f17ba9bd9f1",
       "character": {
         "name": "Bruce Wayne",
-        "image": "the_dark_knight_bruce_wayne.webp"
+        "image": "characters/the_dark_knight_bruce_wayne.webp"
       }
     },
     {
       "actor": "38819b839dc85832482d016b",
       "character": {
         "name": "Joker",
-        "image": "the_dark_knight_joker.webp"
+        "image": "characters/the_dark_knight_joker.webp"
       }
     },
     {
@@ -207,7 +207,7 @@
     "Warner Bros. Pictures",
     "Legendary"
   ],
-  "poster": "batman_2.webp",
+  "poster": "posters/batman_2.webp",
   "style": "Live-Action",
   "trailers": [
     "EXeTwQWrcwY"

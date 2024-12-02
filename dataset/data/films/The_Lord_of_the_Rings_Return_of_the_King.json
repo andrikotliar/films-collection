@@ -121,7 +121,7 @@
       "actor": "e5253cdc8c1fb87953720d64",
       "character": {
         "name": "Gollum",
-        "image": "the_lord_of_the_rings_return_of_the_king_gollum"
+        "image": "characters/the_lord_of_the_rings_return_of_the_king_gollum"
       }
     },
     {
@@ -321,7 +321,7 @@
   "studios": [
     "New Line Cinema"
   ],
-  "poster": "middle_earth_6.webp",
+  "poster": "posters/middle_earth_6.webp",
   "style": "Live-Action",
   "trailers": [
     "y2rYRu8UW8M"

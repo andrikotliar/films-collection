@@ -66,49 +66,49 @@
       "actor": "649bf938997b111ed4016cfb",
       "character": {
         "name": "Judy Hopps",
-        "image": "zootopia_judy_hopps.webp"
+        "image": "characters/zootopia_judy_hopps.webp"
       }
     },
     {
       "actor": "163bbc2f0761bbbbb833b6d3",
       "character": {
         "name": "Nick Wilde",
-        "image": "zootopia_nick_wilde.webp"
+        "image": "characters/zootopia_nick_wilde.webp"
       }
     },
     {
       "actor": "ae8fde81451592bb39107acc",
       "character": {
         "name": "Chief Bogo",
-        "image": "zootopia_chief_bogo.webp"
+        "image": "characters/zootopia_chief_bogo.webp"
       }
     },
     {
       "actor": "c6db77fceebb2841a3cf06ab",
       "character": {
         "name": "Bellwether",
-        "image": "zootopia_bellwether.webp"
+        "image": "characters/zootopia_bellwether.webp"
       }
     },
     {
       "actor": "6f91fac14c27fde7e87fc681",
       "character": {
         "name": "Clawhauser",
-        "image": "zootopia_clawhauser.webp"
+        "image": "characters/zootopia_clawhauser.webp"
       }
     },
     {
       "actor": "c90c94e58f8dbde0ca35a253",
       "character": {
         "name": "Bonnie Hopps",
-        "image": "zootopia_bonnie_hopps.webp"
+        "image": "characters/zootopia_bonnie_hopps.webp"
       }
     },
     {
       "actor": "e71fd83ba7020b3df2104739",
       "character": {
         "name": "Stu Hopps",
-        "image": "zootopia_stu_hopps.webp"
+        "image": "characters/zootopia_stu_hopps.webp"
       }
     }
   ],
@@ -157,7 +157,7 @@
   "studios": [
     "Walt Disney Pictures"
   ],
-  "poster": "zootopia.webp",
+  "poster": "posters/zootopia.webp",
   "style": "Animation",
   "trailers": [
     "jWM0ct-OLsM"

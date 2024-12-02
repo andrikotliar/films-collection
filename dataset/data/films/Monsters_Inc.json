@@ -52,42 +52,42 @@
       "actor": "21f0a165913e9a2876a027c5",
       "character": {
         "name": "Sullivan",
-        "image": "monsters_inc_sullivan.webp"
+        "image": "characters/monsters_inc_sullivan.webp"
       }
     },
     {
       "actor": "941950fd8984681e1bfb7ec0",
       "character": {
         "name": "Mike",
-        "image": "monsters_inc_mike.webp"
+        "image": "characters/monsters_inc_mike.webp"
       }
     },
     {
       "actor": "7e406122c4fcbfa64b88db69",
       "character": {
         "name": "Boo",
-        "image": "monsters_inc_boo.webp"
+        "image": "characters/monsters_inc_boo.webp"
       }
     },
     {
       "actor": "5c58d54c5785d9f88ee7578c",
       "character": {
         "name": "Randall",
-        "image": "monsters_inc_randall.webp"
+        "image": "characters/monsters_inc_randall.webp"
       }
     },
     {
       "actor": "857c4c71c4dbba844fc41696",
       "character": {
         "name": "Waternoose",
-        "image": "monsters_inc_waternoose.webp"
+        "image": "characters/monsters_inc_waternoose.webp"
       }
     },
     {
       "actor": "ba3fbe03b8beb8d9c1096b7e",
       "character": {
         "name": "Celia",
-        "image": "monsters_inc_celia.webp"
+        "image": "characters/monsters_inc_celia.webp"
       }
     }
   ],
@@ -132,7 +132,7 @@
   "studios": [
     "Pixar Animation"
   ],
-  "poster": "monsters_inc.webp",
+  "poster": "posters/monsters_inc.webp",
   "style": "Animation",
   "trailers": [
     "6tCxnHCqqxg"

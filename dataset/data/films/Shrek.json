@@ -71,28 +71,28 @@
       "actor": "da1f33b9c84064852254d8aa",
       "character": {
         "name": "Shrek",
-        "image": "shrek_shrek.webp"
+        "image": "characters/shrek_shrek.webp"
       }
     },
     {
       "actor": "356f3d8d6debf47913fead0a",
       "character": {
         "name": "Donkey",
-        "image": "shrek_donkey.webp"
+        "image": "characters/shrek_donkey.webp"
       }
     },
     {
       "actor": "2f654330682e4a9dbb666cc0",
       "character": {
         "name": "Fiona",
-        "image": "shrek_fiona.webp"
+        "image": "characters/shrek_fiona.webp"
       }
     },
     {
       "actor": "b3e39cb52439fd6d9e379b3e",
       "character": {
         "name": "Lord Farquaad",
-        "image": "shrek_lord_farquaad.webp"
+        "image": "characters/shrek_lord_farquaad.webp"
       }
     }
   ],
@@ -142,7 +142,7 @@
   "studios": [
     "DreamWorks Animation"
   ],
-  "poster": "shrek_1.webp",
+  "poster": "posters/shrek_1.webp",
   "style": "Animation",
   "trailers": [
     "CwXOrWvPBPk"

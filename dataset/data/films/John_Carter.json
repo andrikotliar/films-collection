@@ -78,21 +78,21 @@
       "actor": "23f6d1efe8123eba8eca397f",
       "character": {
         "name": "Sola",
-        "image": "john_carter_sola.webp"
+        "image": "characters/john_carter_sola.webp"
       }
     },
     {
       "actor": "69443d6dcdd5ddbc0c51e534",
       "character": {
         "name": "Tars Tarkas",
-        "image": "john_carter_tars_tarkas.webp"
+        "image": "characters/john_carter_tars_tarkas.webp"
       }
     },
     {
       "actor": "072a5ba54ea95c104cc80899",
       "character": {
         "name": "Tal Hajus",
-        "image": "john_carter_tal_hajus.webp"
+        "image": "characters/john_carter_tal_hajus.webp"
       }
     },
     {
@@ -139,7 +139,7 @@
   "studios": [
     "Walt Disney Pictures"
   ],
-  "poster": "john_carter.webp",
+  "poster": "posters/john_carter.webp",
   "style": "Live-Action",
   "trailers": [
     "nlvYKl1fjBI"

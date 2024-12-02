@@ -60,7 +60,7 @@
       "actor": "b3356695e90767defc7c4421",
       "character": {
         "name": "Captain America / Steve Rogers",
-        "image": "captain_america_the_first_avenger_captain_america.webp"
+        "image": "characters/captain_america_the_first_avenger_captain_america.webp"
       }
     },
     {
@@ -85,7 +85,7 @@
       "actor": "9d72ccad0a0c60872b91d2d3",
       "character": {
         "name": "Johann Schmidt / Red Skull",
-        "image": "captain_america_the_first_avenger_johann_schmidt.webp"
+        "image": "characters/captain_america_the_first_avenger_johann_schmidt.webp"
       }
     },
     {
@@ -140,7 +140,7 @@
     "Marvel Studios",
     "Paramount Pictures"
   ],
-  "poster": "captain_america_1.webp",
+  "poster": "posters/captain_america_1.webp",
   "style": "Live-Action",
   "trailers": [
     "JerVrbLldXw"

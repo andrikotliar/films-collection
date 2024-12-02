@@ -96,21 +96,21 @@
       "actor": "e5253cdc8c1fb87953720d64",
       "character": {
         "name": "Snoke",
-        "image": "star_wars_episode_viii_the_last_jedi_snoke.webp"
+        "image": "characters/star_wars_episode_viii_the_last_jedi_snoke.webp"
       }
     },
     {
       "actor": "4df990e459cdd192712d9a9f",
       "character": {
         "name": "Maz Kanata",
-        "image": "star_wars_episode_viii_the_last_jedi_maz_kanata.webp"
+        "image": "characters/star_wars_episode_viii_the_last_jedi_maz_kanata.webp"
       }
     },
     {
       "actor": "a834eb244fbdfc92bd0e5b4a",
       "character": {
         "name": "Phasma",
-        "image": "star_wars_episode_viii_the_last_jedi_phasma.webp"
+        "image": "characters/star_wars_episode_viii_the_last_jedi_phasma.webp"
       }
     },
     {
@@ -165,7 +165,7 @@
     "Walt Disney Pictures",
     "Lucasfilm"
   ],
-  "poster": "star_wars_episode_VIII.webp",
+  "poster": "posters/star_wars_episode_VIII.webp",
   "style": "Live-Action",
   "trailers": [
     "Q0CbN8sfihY"

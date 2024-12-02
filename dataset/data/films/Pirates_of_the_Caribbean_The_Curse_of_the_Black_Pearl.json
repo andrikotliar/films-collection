@@ -60,7 +60,7 @@
       "actor": "22f4885dc5c22c8371ad2a3a",
       "character": {
         "name": "Captain Jack Sparrow",
-        "image": "pirates_of_the_caribbean_the_curse_of_the_black_pearl_captain_jack_sparrow.webp"
+        "image": "characters/pirates_of_the_caribbean_the_curse_of_the_black_pearl_captain_jack_sparrow.webp"
       }
     },
     {
@@ -150,7 +150,7 @@
     "Walt Disney Pictures",
     "Jerry Bruckheimer Films"
   ],
-  "poster": "pirates_1.webp",
+  "poster": "posters/pirates_1.webp",
   "style": "Live-Action",
   "trailers": [
     "naQr0uTrH_s"

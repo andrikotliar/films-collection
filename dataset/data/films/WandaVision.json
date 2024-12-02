@@ -99,7 +99,7 @@
       "actor": "c20e24b955b094888df0ac50",
       "character": {
         "name": "Vision",
-        "image": "wandavision_vision.webp"
+        "image": "characters/wandavision_vision.webp"
       }
     },
     {
@@ -177,7 +177,7 @@
     "Disney+",
     "Marvel Studios"
   ],
-  "poster": "wandavision.webp",
+  "poster": "posters/wandavision.webp",
   "style": "Live-Action",
   "trailers": [
     "sj9J2ecsSpo"

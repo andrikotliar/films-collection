@@ -57,28 +57,28 @@
       "actor": "68eac2af31419390d7f727fd",
       "character": {
         "name": "Tony Stark / Iron Man",
-        "image": "the_avengers_tony_stark.webp"
+        "image": "characters/the_avengers_tony_stark.webp"
       }
     },
     {
       "actor": "b3356695e90767defc7c4421",
       "character": {
         "name": "Steve Rogers / Captain America",
-        "image": "the_avengers_steve_rogers.webp"
+        "image": "characters/the_avengers_steve_rogers.webp"
       }
     },
     {
       "actor": "a65bc3f407cd83dd8b26db19",
       "character": {
         "name": "Bruce Banner / The Hulk",
-        "image": "the_avengers_bruce_banner.webp"
+        "image": "characters/the_avengers_bruce_banner.webp"
       }
     },
     {
       "actor": "9d6f7bec0a46789eaa403786",
       "character": {
         "name": "Thor",
-        "image": "the_avengers_thor.webp"
+        "image": "characters/the_avengers_thor.webp"
       }
     },
     {
@@ -97,7 +97,7 @@
       "actor": "1c93c03ba9a9870918b112fb",
       "character": {
         "name": "Loki",
-        "image": "the_avengers_loki.webp"
+        "image": "characters/the_avengers_loki.webp"
       }
     },
     {
@@ -192,7 +192,7 @@
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "poster": "avengers_1.webp",
+  "poster": "posters/avengers_1.webp",
   "style": "Live-Action",
   "trailers": [
     "hIR8Ar-Z4hw"

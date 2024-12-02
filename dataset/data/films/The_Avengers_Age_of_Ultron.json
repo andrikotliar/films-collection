@@ -60,28 +60,28 @@
       "actor": "68eac2af31419390d7f727fd",
       "character": {
         "name": "Tony Stark / Iron Man",
-        "image": "the_avengers_age_of_ultron_tony_stark.webp"
+        "image": "characters/the_avengers_age_of_ultron_tony_stark.webp"
       }
     },
     {
       "actor": "9d6f7bec0a46789eaa403786",
       "character": {
         "name": "Thor",
-        "image": "the_avengers_age_of_ultron_thor.webp"
+        "image": "characters/the_avengers_age_of_ultron_thor.webp"
       }
     },
     {
       "actor": "a65bc3f407cd83dd8b26db19",
       "character": {
         "name": "Bruce Banner / Hulk",
-        "image": "the_avengers_age_of_ultron_bruce_banner.webp"
+        "image": "characters/the_avengers_age_of_ultron_bruce_banner.webp"
       }
     },
     {
       "actor": "b3356695e90767defc7c4421",
       "character": {
         "name": "Steve Rogers / Captain America",
-        "image": "the_avengers_age_of_ultron_steve_rogers.webp"
+        "image": "characters/the_avengers_age_of_ultron_steve_rogers.webp"
       }
     },
     {
@@ -100,7 +100,7 @@
       "actor": "3cbb04a002f2bdc8c9f38be2",
       "character": {
         "name": "Ultron",
-        "image": "the_avengers_age_of_ultron_ultron.webp"
+        "image": "characters/the_avengers_age_of_ultron_ultron.webp"
       }
     },
     {
@@ -131,7 +131,7 @@
       "actor": "c20e24b955b094888df0ac50",
       "character": {
         "name": "Jarvis / Vision",
-        "image": "the_avengers_age_of_ultron_jarvis.webp"
+        "image": "characters/the_avengers_age_of_ultron_jarvis.webp"
       }
     },
     {
@@ -190,7 +190,7 @@
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "poster": "avengers_2.webp",
+  "poster": "posters/avengers_2.webp",
   "style": "Live-Action",
   "trailers": [
     "tmeOjFno6Do"

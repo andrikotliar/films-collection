@@ -78,7 +78,7 @@
       "actor": "5e8de99fe5c4235fb362b719",
       "character": {
         "name": "Talos / Keller",
-        "image": "captain_marvel_talos.webp"
+        "image": "characters/captain_marvel_talos.webp"
       }
     },
     {
@@ -109,14 +109,14 @@
       "actor": "00ad35eca0c1a04d476d2577",
       "character": {
         "name": "Bron-Char",
-        "image": "captain_marvel_bron-char.webp"
+        "image": "characters/captain_marvel_bron-char.webp"
       }
     },
     {
       "actor": "1b18bc88f980f0f3cc8dcd70",
       "character": {
         "name": "Minn-Erva",
-        "image": "captain_marvel_minn-erva.webp"
+        "image": "characters/captain_marvel_minn-erva.webp"
       }
     },
     {
@@ -153,7 +153,7 @@
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "poster": "captain_marvel.webp",
+  "poster": "posters/captain_marvel.webp",
   "style": "Live-Action",
   "trailers": [
     "TcMBFSGVi1c"

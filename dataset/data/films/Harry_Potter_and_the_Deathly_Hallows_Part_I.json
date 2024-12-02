@@ -64,21 +64,21 @@
       "actor": "7cd730dd761c711d4467bce0",
       "character": {
         "name": "Harry Potter",
-        "image": "harry_potter_and_the_deathly_hallows_part_i_harry_potter.webp"
+        "image": "characters/harry_potter_and_the_deathly_hallows_part_i_harry_potter.webp"
       }
     },
     {
       "actor": "076188ec6b66a2c4a62fdab1",
       "character": {
         "name": "Ron Weasley",
-        "image": "harry_potter_and_the_deathly_hallows_part_i_ron_weasley.webp"
+        "image": "characters/harry_potter_and_the_deathly_hallows_part_i_ron_weasley.webp"
       }
     },
     {
       "actor": "3f0004fa95271000de67d1f4",
       "character": {
         "name": "Hermione Granger",
-        "image": "harry_potter_and_the_deathly_hallows_part_i_hermione_granger.webp"
+        "image": "characters/harry_potter_and_the_deathly_hallows_part_i_hermione_granger.webp"
       }
     },
     {
@@ -115,7 +115,7 @@
       "actor": "0c745814f1b5b36341674138",
       "character": {
         "name": "Dobby",
-        "image": "harry_potter_and_the_deathly_hallows_part_i_dobby.webp"
+        "image": "characters/harry_potter_and_the_deathly_hallows_part_i_dobby.webp"
       }
     },
     {
@@ -145,7 +145,7 @@
   "studios": [
     "Warner Bros. Pictures"
   ],
-  "poster": "harry_potter_7.webp",
+  "poster": "posters/harry_potter_7.webp",
   "style": "Live-Action",
   "trailers": [
     "MxqsmsA8y5k"

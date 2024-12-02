@@ -81,7 +81,7 @@
       "actor": "a5c580aab49791a22e7f3b74",
       "character": {
         "name": "Sonny",
-        "image": "i_robot_sonny.webp"
+        "image": "characters/i_robot_sonny.webp"
       }
     },
     {
@@ -100,7 +100,7 @@
       "actor": "edad30aff236208021f6695b",
       "character": {
         "name": "V.I.K.I.",
-        "image": "i_robot_viki.webp"
+        "image": "characters/i_robot_viki.webp"
       }
     }
   ],
@@ -127,7 +127,7 @@
   "studios": [
     "20th Century FOX"
   ],
-  "poster": "i_robot.webp",
+  "poster": "posters/i_robot.webp",
   "style": "Live-Action",
   "trailers": [
     "rL6RRIOZyCM"

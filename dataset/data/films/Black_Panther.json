@@ -60,7 +60,7 @@
       "actor": "085fd1ea78f56539824d7714",
       "character": {
         "name": "T'Challa / Black Panther",
-        "image": "black_panther_t_challa"
+        "image": "characters/black_panther_t_challa"
       }
     },
     {
@@ -234,7 +234,7 @@
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "poster": "black_panther.webp",
+  "poster": "posters/black_panther.webp",
   "style": "Live-Action",
   "trailers": [
     "xjDjIWPwcPU"

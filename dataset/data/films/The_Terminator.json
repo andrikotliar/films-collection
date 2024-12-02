@@ -72,7 +72,7 @@
       "actor": "a5fd5103183480749784143b",
       "character": {
         "name": "Sarah Connor",
-        "image": "the_terminator_sarah_connor.webp"
+        "image": "characters/the_terminator_sarah_connor.webp"
       }
     }
   ],
@@ -113,7 +113,7 @@
     "Orion Pictures",
     "Cinema_84"
   ],
-  "poster": "terminator_1.webp",
+  "poster": "posters/terminator_1.webp",
   "style": "Live-Action",
   "trailers": [
     "k64P4l2Wmeg"

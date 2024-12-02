@@ -66,7 +66,7 @@
       "actor": "5d474df7bc79a3784ee0df3a",
       "character": {
         "name": "Scott Lang / Ant-Man",
-        "image": "ant_man_scott_lang.webp"
+        "image": "characters/ant_man_scott_lang.webp"
       }
     },
     {
@@ -85,7 +85,7 @@
       "actor": "c05edcaeec351b29c250a8ba",
       "character": {
         "name": "Darren Cross / Yellowjacket",
-        "image": "ant_man_darren_cross.webp"
+        "image": "characters/ant_man_darren_cross.webp"
       }
     },
     {
@@ -150,7 +150,7 @@
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "poster": "ant_man_1.webp",
+  "poster": "posters/ant_man_1.webp",
   "style": "Live-Action",
   "trailers": [
     "pWdKf3MneyI"

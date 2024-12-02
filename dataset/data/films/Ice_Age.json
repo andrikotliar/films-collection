@@ -55,28 +55,28 @@
       "actor": "42f1a4ee385ffea7f18e5917",
       "character": {
         "name": "Manfred",
-        "image": "ice_age_manfred.webp"
+        "image": "characters/ice_age_manfred.webp"
       }
     },
     {
       "actor": "2dd54fece5f12f390a8fdec5",
       "character": {
         "name": "Sid",
-        "image": "ice_age_sid.webp"
+        "image": "characters/ice_age_sid.webp"
       }
     },
     {
       "actor": "8e184aab53e75fde640c51ca",
       "character": {
         "name": "Diego",
-        "image": "ice_age_diego.webp"
+        "image": "characters/ice_age_diego.webp"
       }
     },
     {
       "actor": "c4f21ee1ad18b0b3ac799d2b",
       "character": {
         "name": "Soto",
-        "image": "ice_age_soto.webp"
+        "image": "characters/ice_age_soto.webp"
       }
     }
   ],
@@ -101,7 +101,7 @@
     "20th Century FOX",
     "Blue Sky Studios"
   ],
-  "poster": "ice_age_1.webp",
+  "poster": "posters/ice_age_1.webp",
   "style": "Animation",
   "trailers": [
     "i4noiCRJRoE"

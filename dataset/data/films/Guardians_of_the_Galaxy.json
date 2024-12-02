@@ -66,49 +66,49 @@
       "actor": "0f44c8581608c442261413e4",
       "character": {
         "name": "Gamora",
-        "image": "guardians_of_the_galaxy_gamora.webp"
+        "image": "characters/guardians_of_the_galaxy_gamora.webp"
       }
     },
     {
       "actor": "6e7815767f3afa70c3dc69c5",
       "character": {
         "name": "Drax",
-        "image": "guardians_of_the_galaxy_drax.webp"
+        "image": "characters/guardians_of_the_galaxy_drax.webp"
       }
     },
     {
       "actor": "8acb4ceb24e197fffd95c777",
       "character": {
         "name": "Groot",
-        "image": "guardians_of_the_galaxy_groot.webp"
+        "image": "characters/guardians_of_the_galaxy_groot.webp"
       }
     },
     {
       "actor": "dc4912e5f14e4bfea9c78218",
       "character": {
         "name": "Rocket",
-        "image": "guardians_of_the_galaxy_rocket.webp"
+        "image": "characters/guardians_of_the_galaxy_rocket.webp"
       }
     },
     {
       "actor": "5bee10a2e1b3001d59166ccd",
       "character": {
         "name": "Ronan",
-        "image": "guardians_of_the_galaxy_ronan.webp"
+        "image": "characters/guardians_of_the_galaxy_ronan.webp"
       }
     },
     {
       "actor": "b99fd4cb12dd52764f91df15",
       "character": {
         "name": "Yondu Udonta",
-        "image": "guardians_of_the_galaxy_yondu_udonta.webp"
+        "image": "characters/guardians_of_the_galaxy_yondu_udonta.webp"
       }
     },
     {
       "actor": "7b67d3adc189860cca3bbf5f",
       "character": {
         "name": "Nebula",
-        "image": "guardians_of_the_galaxy_nebula.webp"
+        "image": "characters/guardians_of_the_galaxy_nebula.webp"
       }
     },
     {
@@ -188,7 +188,7 @@
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "poster": "guardians_of_the_galaxy.webp",
+  "poster": "posters/guardians_of_the_galaxy.webp",
   "style": "Live-Action",
   "trailers": [
     "d96cjJhvlMA"
