@@ -1,9 +1,5 @@
-import { filePaths } from '@/configs';
-
-type PathParameters = keyof typeof filePaths;
-
-const buildMediaPath = (parameter: PathParameters, slug: string) => {
-  const fullPath = `${filePaths[parameter]}${slug}`;
+const buildMediaPath = (slug: string) => {
+  const fullPath = `${import.meta.env.VITE_BASE_MEDIA_URL}/${slug}`;
   return fullPath;
 };
 

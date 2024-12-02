@@ -21,7 +21,7 @@ const Awards: FC<AwardsProps> = ({ awards }) => {
         <DataArea className={styles.award} key={award._id}>
           <div className={styles.header}>
             <Image
-              src={buildMediaPath('awards', award.image)}
+              src={buildMediaPath(award.image)}
               alt={award.title}
               className={styles.awardImage}
             />

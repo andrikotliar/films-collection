@@ -14,7 +14,7 @@ type ActorProps = {
 const Actor: FC<ActorProps> = ({ person }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
-  const photoUrl = buildMediaPath('actors', person.actor.image);
+  const photoUrl = buildMediaPath(person.actor.image);
   const actorLink = buildQueryLink({ actorId: person.actor._id });
 
   const flipImage = () => {
@@ -42,7 +42,7 @@ const Actor: FC<ActorProps> = ({ person }) => {
           />
           {person.character.image && (
             <img
-              src={buildMediaPath('characters', person.character.image)}
+              src={buildMediaPath(person.character.image)}
               alt={person.character.name}
               onError={handleImageError(images.characterNotFound)}
               className={classNames(styles.image, styles.characterSide)}

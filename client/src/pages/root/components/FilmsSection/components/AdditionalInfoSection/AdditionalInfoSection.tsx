@@ -8,7 +8,7 @@ type AdditionalInfoProps = {
 };
 
 const AdditionalInfoSection: FC<AdditionalInfoProps> = ({ info }) => {
-  console.log(info)
+  console.log(info);
 
   if (!info) {
     return null;
@@ -17,7 +17,7 @@ const AdditionalInfoSection: FC<AdditionalInfoProps> = ({ info }) => {
   if (info.type === 'actor') {
     return (
       <InfoBlock
-        imagePath={buildMediaPath('actors', info.data.image)}
+        imagePath={buildMediaPath(info.data.image)}
         imageAlt={`Photo of ${info.data.name}`}
         title={info.data.name}
         label="Filtered by Actor"

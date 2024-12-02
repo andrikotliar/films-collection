@@ -21,7 +21,7 @@ const FilmLink: FC<FilmLinkProps> = ({
   chapter,
   isActive,
 }) => {
-  const posterUrl = buildMediaPath('posters', poster);
+  const posterUrl = buildMediaPath(poster);
 
   return (
     <Link

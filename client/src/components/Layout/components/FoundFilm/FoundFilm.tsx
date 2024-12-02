@@ -20,7 +20,7 @@ const FoundFilm: FC<FoundFilmProps> = ({ film, onFilmOpen }) => {
     >
       <div className={styles.posterContainer}>
         <Image
-          src={buildMediaPath('posters', film.poster)}
+          src={buildMediaPath(film.poster)}
           alt={`Poster of the "${film.title}"`}
           className={styles.poster}
         />
