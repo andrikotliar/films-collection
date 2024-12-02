@@ -1,3 +1,3 @@
-export * from './create-film-query';
-export * from './create-films-list-query';
-export * from './create-initial-data-query';
+export * from './fetch-film-query';
+export * from './fetch-films-list-query';
+export * from './fetch-initial-data-query';

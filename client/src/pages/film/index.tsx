@@ -1,4 +1,3 @@
-import { Loader, NotFound } from '@/components';
 import { useDocumentTitle, useScrollToTop } from '@/hooks';
 import { useLastVisitedFilms } from './hooks';
 import {
@@ -14,28 +13,19 @@ import {
   FilmPageLayout,
   ContentLayout,
 } from './components';
-import { FC } from 'react';
-import { useQuery } from '@tanstack/react-query';
-import { createFilmQuery } from '@/queries';
+import { useSuspenseQuery } from '@tanstack/react-query';
+import { fetchFilmQuery } from '@/queries';
+import { getRouteApi } from '@tanstack/react-router';
 
-type FilmPageProps = {
-  id: string;
-};
+const routeApi = getRouteApi('/film/$filmId');
 
-const FilmPage: FC<FilmPageProps> = ({ id }) => {
-  const { data: film, isLoading } = useQuery(createFilmQuery(id));
+const FilmPage = () => {
+  const { filmId: id } = routeApi.useParams();
+  const { data: film } = useSuspenseQuery(fetchFilmQuery(id));
 
   useScrollToTop([id]);
   useDocumentTitle(film?.title);
   useLastVisitedFilms(film);
-
-  if (isLoading) {
-    return <Loader isFullPage />;
-  }
-
-  if (!film || !id) {
-    return <NotFound message="Film not found" />;
-  }
 
   return (
     <FilmPageLayout>

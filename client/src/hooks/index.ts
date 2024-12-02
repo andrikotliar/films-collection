@@ -1,4 +1,3 @@
-export * from './use-query-filter';
 export * from './use-document-title';
 export * from './use-click-outside';
 export * from './use-focus-trap';

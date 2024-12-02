@@ -8,6 +8,8 @@ type AdditionalInfoProps = {
 };
 
 const AdditionalInfoSection: FC<AdditionalInfoProps> = ({ info }) => {
+  console.log(info)
+
   if (!info) {
     return null;
   }

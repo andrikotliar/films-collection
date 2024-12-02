@@ -4,10 +4,9 @@ import { useForm, FormProvider } from 'react-hook-form';
 import { Button, ScrollableWrapper } from '@/components';
 import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
-import { useQueryFilter } from '@/hooks';
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
-import { TitleType } from '@/enums';
-import { FilterItem } from '@/types';
+import { FilmsListFilters, FilterItem } from '@/types';
+import { getRouteApi } from '@tanstack/react-router';
 
 type FiltersProps = {
   config: FilterItem[];
@@ -15,21 +14,10 @@ type FiltersProps = {
   updateFiltersCount: (value: number) => void;
 };
 
-type FormValues = {
-  type: TitleType | null;
-  style: string | null;
-  collections: string[] | null;
-  genres: string[] | null;
-  startDate: string | null;
-  endDate: string | null;
-  countries: string[] | null;
-  studios: string[] | null;
-};
-
-const defaultValues: FormValues = {
+const defaultValues: FilmsListFilters = {
   type: null,
   style: null,
-  collections: null,
+  collection: null,
   genres: null,
   startDate: null,
   endDate: null,
@@ -37,48 +25,55 @@ const defaultValues: FormValues = {
   studios: null,
 };
 
+const routeApi = getRouteApi('/');
+
 const Filters: FC<FiltersProps> = ({
   config,
   setIsFilterOpen,
   updateFiltersCount,
 }) => {
-  const { filterParams, updateFilter, resetFilter } = useQueryFilter();
+  const navigate = routeApi.useNavigate();
+  const routeSearch = routeApi.useSearch();
 
-  const filtersCount = countObjectKeys(filterParams, ['skip', 'limit']);
+  const filtersCount = countObjectKeys(routeSearch, ['skip', 'limit']);
 
   const methods = useForm({
     defaultValues,
   });
 
-  const submitFilter = (data: FormValues) => {
+  const submitFilter = (data: FilmsListFilters) => {
     const filledOptions = filterValues(data);
 
-    updateFilter({
-      ...filledOptions,
-      skip: 0,
+    navigate({
+      search: filledOptions,
     });
-    setIsFilterOpen(false);
+
     window.scrollTo({
       top: 0,
       behavior: 'smooth',
     });
+
+    setIsFilterOpen(false);
   };
 
   useEffect(() => {
     if (filtersCount > 0) {
-      methods.reset(filterParams);
+      methods.reset(routeSearch);
       updateFiltersCount(filtersCount);
     } else {
       methods.reset(defaultValues);
       updateFiltersCount(0);
     }
-  }, [filterParams, filtersCount]);
+  }, [routeSearch, filtersCount]);
 
   const handleReset = () => {
-    resetFilter();
+    navigate({
+      to: '/',
+    });
     methods.reset(defaultValues);
     window.scrollTo(0, 0);
     updateFiltersCount(0);
+    setIsFilterOpen(false);
   };
 
   return (

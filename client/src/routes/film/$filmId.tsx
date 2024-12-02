@@ -1,14 +1,10 @@
-import { FilmPage } from '@/pages';
+import { fetchFilmQuery } from '@/queries';
 import { createFileRoute } from '@tanstack/react-router';
 
 const Route = createFileRoute('/film/$filmId')({
-  component: () => <FilmPageComponent />,
+  loader: async ({ context, params }) => {
+    return context.queryClient.ensureQueryData(fetchFilmQuery(params.filmId));
+  },
 });
-
-const FilmPageComponent = () => {
-  const { filmId } = Route.useParams();
-
-  return <FilmPage id={filmId} />;
-};
 
 export { Route };

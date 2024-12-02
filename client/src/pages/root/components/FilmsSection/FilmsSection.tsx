@@ -9,7 +9,7 @@ import {
 import { FilmsListResponse } from '@/types';
 
 type FilmsSectionProps = {
-  data?: FilmsListResponse;
+  data: FilmsListResponse;
   isLoading: boolean;
 };
 
@@ -22,9 +22,10 @@ const FilmsSection: FC<FilmsSectionProps> = ({ data, isLoading }) => {
     );
   }
 
-  if (!data?.films.length) {
+  if (!data.films.length) {
     return (
       <div className={styles.filmsSection}>
+        <AdditionalInfoSection info={data.additionalInfo} />
         <AppliedFilters />
         <FilmsNotFound />
       </div>

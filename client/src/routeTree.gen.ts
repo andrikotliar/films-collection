@@ -14,45 +14,47 @@ import { createFileRoute } from '@tanstack/react-router'
 
 import { Route as rootRoute } from './routes/__root'
 import { Route as IndexImport } from './routes/index'
-import { Route as ConsoleIndexImport } from './routes/console/index'
 import { Route as FilmFilmIdImport } from './routes/film/$filmId'
 
 // Create Virtual Routes
 
-const StatisticLazyImport = createFileRoute('/statistic')()
-const AboutLazyImport = createFileRoute('/about')()
+const StatisticRouteLazyImport = createFileRoute('/statistic')()
+const ConsoleRouteLazyImport = createFileRoute('/console')()
+const AboutRouteLazyImport = createFileRoute('/about')()
 
 // Create/Update Routes
 
-const StatisticLazyRoute = StatisticLazyImport.update({
+const StatisticRouteLazyRoute = StatisticRouteLazyImport.update({
   id: '/statistic',
   path: '/statistic',
   getParentRoute: () => rootRoute,
-} as any).lazy(() => import('./routes/statistic.lazy').then((d) => d.Route))
+} as any).lazy(() =>
+  import('./routes/statistic/route.lazy').then((d) => d.Route),
+)
 
-const AboutLazyRoute = AboutLazyImport.update({
+const ConsoleRouteLazyRoute = ConsoleRouteLazyImport.update({
+  id: '/console',
+  path: '/console',
+  getParentRoute: () => rootRoute,
+} as any).lazy(() => import('./routes/console/route.lazy').then((d) => d.Route))
+
+const AboutRouteLazyRoute = AboutRouteLazyImport.update({
   id: '/about',
   path: '/about',
   getParentRoute: () => rootRoute,
-} as any).lazy(() => import('./routes/about.lazy').then((d) => d.Route))
+} as any).lazy(() => import('./routes/about/route.lazy').then((d) => d.Route))
 
 const IndexRoute = IndexImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRoute,
-} as any)
-
-const ConsoleIndexRoute = ConsoleIndexImport.update({
-  id: '/console/',
-  path: '/console/',
-  getParentRoute: () => rootRoute,
-} as any)
+} as any).lazy(() => import('./routes/index.lazy').then((d) => d.Route))
 
 const FilmFilmIdRoute = FilmFilmIdImport.update({
   id: '/film/$filmId',
   path: '/film/$filmId',
   getParentRoute: () => rootRoute,
-} as any)
+} as any).lazy(() => import('./routes/film/$filmId.lazy').then((d) => d.Route))
 
 // Populate the FileRoutesByPath interface
 
@@ -69,14 +71,21 @@ declare module '@tanstack/react-router' {
       id: '/about'
       path: '/about'
       fullPath: '/about'
-      preLoaderRoute: typeof AboutLazyImport
+      preLoaderRoute: typeof AboutRouteLazyImport
+      parentRoute: typeof rootRoute
+    }
+    '/console': {
+      id: '/console'
+      path: '/console'
+      fullPath: '/console'
+      preLoaderRoute: typeof ConsoleRouteLazyImport
       parentRoute: typeof rootRoute
     }
     '/statistic': {
       id: '/statistic'
       path: '/statistic'
       fullPath: '/statistic'
-      preLoaderRoute: typeof StatisticLazyImport
+      preLoaderRoute: typeof StatisticRouteLazyImport
       parentRoute: typeof rootRoute
     }
     '/film/$filmId': {
@@ -86,13 +95,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof FilmFilmIdImport
       parentRoute: typeof rootRoute
     }
-    '/console/': {
-      id: '/console/'
-      path: '/console'
-      fullPath: '/console'
-      preLoaderRoute: typeof ConsoleIndexImport
-      parentRoute: typeof rootRoute
-    }
   }
 }
 
@@ -100,52 +102,52 @@ declare module '@tanstack/react-router' {
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/about': typeof AboutLazyRoute
-  '/statistic': typeof StatisticLazyRoute
+  '/about': typeof AboutRouteLazyRoute
+  '/console': typeof ConsoleRouteLazyRoute
+  '/statistic': typeof StatisticRouteLazyRoute
   '/film/$filmId': typeof FilmFilmIdRoute
-  '/console': typeof ConsoleIndexRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/about': typeof AboutLazyRoute
-  '/statistic': typeof StatisticLazyRoute
+  '/about': typeof AboutRouteLazyRoute
+  '/console': typeof ConsoleRouteLazyRoute
+  '/statistic': typeof StatisticRouteLazyRoute
   '/film/$filmId': typeof FilmFilmIdRoute
-  '/console': typeof ConsoleIndexRoute
 }
 
 export interface FileRoutesById {
   __root__: typeof rootRoute
   '/': typeof IndexRoute
-  '/about': typeof AboutLazyRoute
-  '/statistic': typeof StatisticLazyRoute
+  '/about': typeof AboutRouteLazyRoute
+  '/console': typeof ConsoleRouteLazyRoute
+  '/statistic': typeof StatisticRouteLazyRoute
   '/film/$filmId': typeof FilmFilmIdRoute
-  '/console/': typeof ConsoleIndexRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about' | '/statistic' | '/film/$filmId' | '/console'
+  fullPaths: '/' | '/about' | '/console' | '/statistic' | '/film/$filmId'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/statistic' | '/film/$filmId' | '/console'
-  id: '__root__' | '/' | '/about' | '/statistic' | '/film/$filmId' | '/console/'
+  to: '/' | '/about' | '/console' | '/statistic' | '/film/$filmId'
+  id: '__root__' | '/' | '/about' | '/console' | '/statistic' | '/film/$filmId'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  AboutLazyRoute: typeof AboutLazyRoute
-  StatisticLazyRoute: typeof StatisticLazyRoute
+  AboutRouteLazyRoute: typeof AboutRouteLazyRoute
+  ConsoleRouteLazyRoute: typeof ConsoleRouteLazyRoute
+  StatisticRouteLazyRoute: typeof StatisticRouteLazyRoute
   FilmFilmIdRoute: typeof FilmFilmIdRoute
-  ConsoleIndexRoute: typeof ConsoleIndexRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  AboutLazyRoute: AboutLazyRoute,
-  StatisticLazyRoute: StatisticLazyRoute,
+  AboutRouteLazyRoute: AboutRouteLazyRoute,
+  ConsoleRouteLazyRoute: ConsoleRouteLazyRoute,
+  StatisticRouteLazyRoute: StatisticRouteLazyRoute,
   FilmFilmIdRoute: FilmFilmIdRoute,
-  ConsoleIndexRoute: ConsoleIndexRoute,
 }
 
 export const routeTree = rootRoute
@@ -160,25 +162,25 @@ export const routeTree = rootRoute
       "children": [
         "/",
         "/about",
+        "/console",
         "/statistic",
-        "/film/$filmId",
-        "/console/"
+        "/film/$filmId"
       ]
     },
     "/": {
       "filePath": "index.tsx"
     },
     "/about": {
-      "filePath": "about.lazy.tsx"
+      "filePath": "about/route.lazy.tsx"
+    },
+    "/console": {
+      "filePath": "console/route.lazy.tsx"
     },
     "/statistic": {
-      "filePath": "statistic.lazy.tsx"
+      "filePath": "statistic/route.lazy.tsx"
     },
     "/film/$filmId": {
       "filePath": "film/$filmId.tsx"
-    },
-    "/console/": {
-      "filePath": "console/index.tsx"
     }
   }
 }

@@ -3,8 +3,8 @@ import { useState } from 'react';
 import { SlidersHorizontalIcon } from 'lucide-react';
 import classNames from 'classnames';
 import { Loader } from '@/components';
-import { useQuery } from '@tanstack/react-query';
-import { createInitialDataQuery } from '@/queries';
+import { useQuery, useSuspenseQuery } from '@tanstack/react-query';
+import { fetchInitialDataQuery } from '@/queries';
 import { Filters } from '../Filters/Filters';
 import { MOBILE_VIEW_BREAKPOINT_PX } from '@/constants';
 
@@ -22,20 +22,12 @@ const Sidebar = () => {
     setIsFilterOpen((isOpen) => !isOpen);
   };
 
-  const { data, isLoading } = useQuery(createInitialDataQuery());
+  const { data, isLoading } = useSuspenseQuery(fetchInitialDataQuery());
 
   if (isLoading) {
     return (
       <div className={styles.sidebarContent}>
         <Loader />
-      </div>
-    );
-  }
-
-  if (!data) {
-    return (
-      <div className={styles.sidebarContent}>
-        <div className={styles.missingFilters}>Filters missing</div>
       </div>
     );
   }

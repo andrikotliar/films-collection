@@ -1,9 +1,10 @@
-import { useQueryFilter } from '@/hooks';
+import styles from './AppliedFilters.module.css';
+import { getRouteApi } from '@tanstack/react-router';
 import { XIcon } from 'lucide-react';
 import { FC, useMemo } from 'react';
-import styles from './AppliedFilters.module.css';
 import { AppliedFilter } from './types';
 import { getBadgeLabel } from './helpers';
+import { FilmsListFilters } from '@/types';
 
 const EXCLUDE_FILTERS = [
   'skip',
@@ -15,11 +16,14 @@ const EXCLUDE_FILTERS = [
   'awards',
 ];
 
+const routeApi = getRouteApi('/');
+
 const AppliedFilters: FC = () => {
-  const { filterParams, deleteParam } = useQueryFilter();
+  const navigate = routeApi.useNavigate();
+  const routeSearch = routeApi.useSearch();
 
   const config = useMemo(() => {
-    return Object.entries(filterParams).reduce<AppliedFilter[]>(
+    return Object.entries(routeSearch).reduce<AppliedFilter[]>(
       (result, [key, value]) => {
         if (EXCLUDE_FILTERS.includes(key)) {
           return result;
@@ -40,10 +44,27 @@ const AppliedFilters: FC = () => {
       },
       [],
     );
-  }, [filterParams]);
+  }, [routeSearch]);
 
   const handleClearFilter = (configItem: AppliedFilter) => {
-    deleteParam(configItem.key, configItem.value);
+    const routeSearchCopy = { ...routeSearch };
+
+    const currentKey = configItem.key as keyof FilmsListFilters;
+
+    if (
+      Array.isArray(routeSearchCopy[currentKey]) &&
+      routeSearchCopy[currentKey].length > 1
+    ) {
+      (routeSearchCopy[currentKey] as string[]) = routeSearchCopy[
+        currentKey
+      ].filter((value) => value !== configItem.value);
+    } else {
+      delete routeSearchCopy[currentKey];
+    }
+
+    navigate({
+      search: routeSearchCopy,
+    });
   };
 
   if (!config.length) {

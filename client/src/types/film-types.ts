@@ -128,21 +128,22 @@ type FilmsListResponse = {
 };
 
 type FilmsListPagination = {
-  limit: number;
-  skip: number;
+  limit?: number;
+  skip?: number;
 };
 
 type RandomFilmsList = Pick<FilmData, '_id' | 'title' | 'poster'>[];
 
 type FilmsListFilters = FilmsListPagination &
   Partial<{
-    type: TitleType[];
-    genre: string[];
-    startDate: string;
-    endDate: string;
-    country: string[];
-    studio: string[];
-    collection: string[];
+    type: TitleType | null;
+    style: string | null;
+    genres: string[] | null;
+    startDate: string | null;
+    endDate: string | null;
+    countries: string[] | null;
+    studios: string[] | null;
+    collection: string | null;
   }>;
 
 export type {

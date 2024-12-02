@@ -17,7 +17,7 @@ const queryClient = new QueryClient({
 const router = createRouter({
   routeTree,
   defaultPendingComponent: () => <Loader isFullPage />,
-  context: queryClient,
+  context: { queryClient },
 });
 
 declare module '@tanstack/react-router' {
