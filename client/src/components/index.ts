@@ -14,3 +14,4 @@ export * from './RouterLink/RouterLink';
 export * from './ScrollableWrapper/ScrollableWrapper';
 export * from './LogoLoader/LogoLoader';
 export * from './FormDatePicker/FormDatePicker';
+export * from './ArticleContent/ArticleContent';

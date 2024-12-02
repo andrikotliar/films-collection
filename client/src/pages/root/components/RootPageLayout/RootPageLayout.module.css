@@ -1,0 +1,11 @@
+.rootPageLayout {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 785px) {
+  .rootPageLayout {
+    min-height: var(--app-height);
+  }
+}

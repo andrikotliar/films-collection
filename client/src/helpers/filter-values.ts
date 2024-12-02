@@ -1,5 +1,9 @@
-const filterValues = (values: { [key: string]: any }) => {
-  const filteredObject: { [key: string]: any } = {};
+type Values = {
+  [key: string]: any;
+};
+
+const filterValues = (values: Values) => {
+  const filteredObject: Values = {};
 
   for (const key in values) {
     if (values[key]) {

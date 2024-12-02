@@ -1,30 +1,36 @@
-import { FC, useMemo } from 'react';
 import styles from './Pagination.module.css';
-import { useQueryFilter } from '@/hooks';
+import { FC, useMemo } from 'react';
 import classNames from 'classnames';
 import { PER_PAGE } from '@/constants';
+import { getRouteApi } from '@tanstack/react-router';
 
 type PaginationProps = {
   total: number;
 };
 
+const routeApi = getRouteApi('/');
+
 const Pagination: FC<PaginationProps> = ({ total }) => {
-  const { filterParams, setSearchParams } = useQueryFilter();
+  const navigate = routeApi.useNavigate();
+  const routeSearch = routeApi.useSearch();
 
   const activePage = useMemo(() => {
-    if (!filterParams.skip) {
+    if (!routeSearch.skip) {
       return 0;
     }
 
-    return Number(filterParams.skip);
-  }, [filterParams]);
+    return Number(routeSearch.skip);
+  }, [routeSearch]);
 
   const pagesCount = Math.ceil(total / PER_PAGE);
 
   const handlePage = (pageIndex: number) => () => {
-    setSearchParams({
-      ...filterParams,
-      skip: pageIndex,
+    navigate({
+      to: '/',
+      search: (prev) => ({
+        ...prev,
+        skip: pageIndex,
+      }),
     });
     window.scrollTo({
       top: 0,

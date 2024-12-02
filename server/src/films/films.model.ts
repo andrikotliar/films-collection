@@ -37,16 +37,19 @@ const FilmCrewSchema = new Schema<Crew>({
   },
 });
 
-const CollectionSchema = new Schema<CollectionType>({
-  collection: {
-    type: String,
-    ref: CollectionModel,
+const CollectionSchema = new Schema<CollectionType>(
+  {
+    collection: {
+      type: String,
+      ref: CollectionModel,
+    },
+    order: {
+      type: Number,
+      required: false,
+    },
   },
-  order: {
-    type: Number,
-    required: false,
-  },
-});
+  { suppressReservedKeysWarning: true },
+);
 
 const CastSchema = new Schema<CastType>({
   actor: {

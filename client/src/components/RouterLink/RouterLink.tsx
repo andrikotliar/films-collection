@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import { ComponentProps, FC } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from '@tanstack/react-router';
 import styles from './RouterLink.module.css';
 
 type RouterLinkProps = ComponentProps<typeof Link>;

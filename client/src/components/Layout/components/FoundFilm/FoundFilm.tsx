@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from '@tanstack/react-router';
 import { FilmSearchResult } from '@/types';
 import { buildMediaPath, getYearFromDate } from '@/helpers';
 import styles from './FoundFilm.module.css';

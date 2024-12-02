@@ -13,7 +13,7 @@ import { PopupMenu } from '@/components/PopupMenu/PopupMenu';
 import styles from './Search.module.css';
 import { SearchMenuContent } from '../SearchMenuContent/SearchMenuContent';
 import { LoaderCircleIcon, SearchIcon } from 'lucide-react';
-import { useLocation } from 'react-router-dom';
+import { useLocation } from '@tanstack/react-router';
 import { useQuery } from '@tanstack/react-query';
 import { apiClient } from '@/services';
 import { FilmSearchResult } from '@/types';
