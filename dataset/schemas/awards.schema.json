@@ -14,9 +14,9 @@
       },
       "image": {
         "type": "string",
-        "description": "Image filename with extension",
+        "description": "Path to file without base URL",
         "examples": [
-          "oscar.svg"
+          "awards/oscar.svg"
         ]
       },
       "nominations": {
