@@ -84,7 +84,7 @@
       "actor": "4944de362b32c61551474862",
       "character": {
         "name": "Spider-Man / Peter Parker",
-        "image": "the_amazing_spider_man_2_rise_of_electro_spider-man.webp"
+        "image": "characters/the_amazing_spider_man_2_rise_of_electro_spider-man.webp"
       }
     },
     {
@@ -97,7 +97,7 @@
       "actor": "ef83cde86ba14a39f3be9702",
       "character": {
         "name": "Electro / Max Dillon",
-        "image": "the_amazing_spider_man_2_rise_of_electro_electro.webp"
+        "image": "characters/the_amazing_spider_man_2_rise_of_electro_electro.webp"
       }
     },
     {
@@ -128,7 +128,7 @@
     "Columbia Pictures",
     "Marvel Entertainment"
   ],
-  "poster": "amazing_spider_man_2.webp",
+  "poster": "posters/amazing_spider_man_2.webp",
   "style": "Live-Action",
   "trailers": [
     "nbp3Ra3Yp74"

@@ -15,7 +15,10 @@
       },
       "image": {
         "type": "string",
-        "description": "An actor's photo. It contains the file name and the file extension."
+        "description": "Path to the file without base URL",
+        "examples": [
+          "actors/actor.webp"
+        ]
       }
     },
     "required": [

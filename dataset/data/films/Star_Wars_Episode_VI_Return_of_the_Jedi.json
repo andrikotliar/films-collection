@@ -84,35 +84,35 @@
       "actor": "8495e822d070b57837e0bf6e",
       "character": {
         "name": "C-3PO",
-        "image": "star_wars_episode_vi_return_of_the_jedi_c-3po.webp"
+        "image": "characters/star_wars_episode_vi_return_of_the_jedi_c-3po.webp"
       }
     },
     {
       "actor": "3dcb844bcfc2544762ec44c0",
       "character": {
         "name": "Darth Vader",
-        "image": "star_wars_episode_vi_return_of_the_jedi_darth_vader.webp"
+        "image": "characters/star_wars_episode_vi_return_of_the_jedi_darth_vader.webp"
       }
     },
     {
       "actor": "6fa14a3731b9660353c41487",
       "character": {
         "name": "Yoda",
-        "image": "star_wars_episode_vi_return_of_the_jedi_yoda.webp"
+        "image": "characters/star_wars_episode_vi_return_of_the_jedi_yoda.webp"
       }
     },
     {
       "actor": "cefae971d17a334057ad7c60",
       "character": {
         "name": "Boba Fett",
-        "image": "star_wars_episode_vi_return_of_the_boba_fett.webp"
+        "image": "characters/star_wars_episode_vi_return_of_the_boba_fett.webp"
       }
     },
     {
       "actor": "6f8deae8b3c545936d5a285e",
       "character": {
         "name": "The Emperor",
-        "image": "star_wars_episode_vi_return_of_the_jedi_the_emperor.webp"
+        "image": "characters/star_wars_episode_vi_return_of_the_jedi_the_emperor.webp"
       }
     }
   ],
@@ -171,7 +171,7 @@
     "20th Century FOX",
     "Lucasfilm"
   ],
-  "poster": "star_wars_episode_VI.webp",
+  "poster": "posters/star_wars_episode_VI.webp",
   "style": "Live-Action",
   "trailers": [
     "5UfA_aKBGMc"

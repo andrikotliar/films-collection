@@ -63,14 +63,14 @@
       "actor": "b3356695e90767defc7c4421",
       "character": {
         "name": "Steve Rogers / Captain America",
-        "image": "captain_america_civil_war_steve_rogers.webp"
+        "image": "characters/captain_america_civil_war_steve_rogers.webp"
       }
     },
     {
       "actor": "68eac2af31419390d7f727fd",
       "character": {
         "name": "Tony Stark / Iron Man",
-        "image": "captain_america_civil_war_tony_stark.webp"
+        "image": "characters/captain_america_civil_war_tony_stark.webp"
       }
     },
     {
@@ -95,7 +95,7 @@
       "actor": "84a7fc06c915c5463cc7ce32",
       "character": {
         "name": "James Rhodes / War Machine",
-        "image": "captain_america_civil_war_james_rhodes.webp"
+        "image": "characters/captain_america_civil_war_james_rhodes.webp"
       }
     },
     {
@@ -114,7 +114,7 @@
       "actor": "c20e24b955b094888df0ac50",
       "character": {
         "name": "Vision",
-        "image": "captain_america_civil_war_vision.webp"
+        "image": "characters/captain_america_civil_war_vision.webp"
       }
     },
     {
@@ -127,7 +127,7 @@
       "actor": "5d474df7bc79a3784ee0df3a",
       "character": {
         "name": "Scott Lang / Ant-Man",
-        "image": "captain_america_civil_war_scott_lang.webp"
+        "image": "characters/captain_america_civil_war_scott_lang.webp"
       }
     },
     {
@@ -140,7 +140,7 @@
       "actor": "7724f9a2549d742da5d02985",
       "character": {
         "name": "Peter Parker / Spider-Man",
-        "image": "captain_america_civil_war_peter_parker.webp"
+        "image": "characters/captain_america_civil_war_peter_parker.webp"
       }
     },
     {
@@ -189,7 +189,7 @@
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "poster": "captain_america_3.webp",
+  "poster": "posters/captain_america_3.webp",
   "style": "Live-Action",
   "trailers": [
     "dKrVegVI0Us"

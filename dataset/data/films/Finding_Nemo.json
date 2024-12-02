@@ -65,91 +65,91 @@
       "actor": "61039ee13e2d8a16399ebb96",
       "character": {
         "name": "Nemo",
-        "image": "finding_nemo_nemo.webp"
+        "image": "characters/finding_nemo_nemo.webp"
       }
     },
     {
       "actor": "2cc3990eeb99965e18d3f994",
       "character": {
         "name": "Marlin",
-        "image": "finding_nemo_marlin.webp"
+        "image": "characters/finding_nemo_marlin.webp"
       }
     },
     {
       "actor": "abfcb656438df17801fd9175",
       "character": {
         "name": "Dory",
-        "image": "finding_nemo_dory.webp"
+        "image": "characters/finding_nemo_dory.webp"
       }
     },
     {
       "actor": "69443d6dcdd5ddbc0c51e534",
       "character": {
         "name": "Gill",
-        "image": "finding_nemo_gill.webp"
+        "image": "characters/finding_nemo_gill.webp"
       }
     },
     {
       "actor": "5a4db3cfddc3b6871d1d6d04",
       "character": {
         "name": "Bloat",
-        "image": "finding_nemo_bloat.webp"
+        "image": "characters/finding_nemo_bloat.webp"
       }
     },
     {
       "actor": "98ec4d73331cf787bbdd9e29",
       "character": {
         "name": "Peach",
-        "image": "finding_nemo_peach.webp"
+        "image": "characters/finding_nemo_peach.webp"
       }
     },
     {
       "actor": "ebe3a9ca69513baf8dc45d92",
       "character": {
         "name": "Gurgle",
-        "image": "finding_nemo_gurgle.webp"
+        "image": "characters/finding_nemo_gurgle.webp"
       }
     },
     {
       "actor": "3a91fcb3cf8f724303ce2f71",
       "character": {
         "name": "Bubbles",
-        "image": "finding_nemo_bubbles.webp"
+        "image": "characters/finding_nemo_bubbles.webp"
       }
     },
     {
       "actor": "532d8f4921f52e28f4c1fac8",
       "character": {
         "name": "Deb",
-        "image": "finding_nemo_deb.webp"
+        "image": "characters/finding_nemo_deb.webp"
       }
     },
     {
       "actor": "8db2b33adbba9c70802f7feb",
       "character": {
         "name": "Jacques",
-        "image": "finding_nemo_jacques.webp"
+        "image": "characters/finding_nemo_jacques.webp"
       }
     },
     {
       "actor": "506875a86231e077557d5523",
       "character": {
         "name": "Nigel",
-        "image": "finding_nemo_nigel.webp"
+        "image": "characters/finding_nemo_nigel.webp"
       }
     },
     {
       "actor": "b625557c009d832a86d83197",
       "character": {
         "name": "Crush",
-        "image": "finding_nemo_crush.webp"
+        "image": "characters/finding_nemo_crush.webp"
       }
     },
     {
       "actor": "72c6cd55436dd636f717ccb8",
       "character": {
         "name": "Bruce",
-        "image": "finding_nemo_bruce.webp"
+        "image": "characters/finding_nemo_bruce.webp"
       }
     }
   ],
@@ -203,7 +203,7 @@
     "Walt Disney Pictures",
     "Pixar Animation"
   ],
-  "poster": "finding_nemo.webp",
+  "poster": "posters/finding_nemo.webp",
   "style": "Animation",
   "trailers": [
     "wZdpNglLbt8"

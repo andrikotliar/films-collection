@@ -111,21 +111,21 @@
       "actor": "e5253cdc8c1fb87953720d64",
       "character": {
         "name": "Snoke",
-        "image": "star_wars_episode_vii_the_force_awakens_snoke.webp"
+        "image": "characters/star_wars_episode_vii_the_force_awakens_snoke.webp"
       }
     },
     {
       "actor": "25d91c81e9e6d9044c52fa9b",
       "character": {
         "name": "Chewbacca",
-        "image": "star_wars_episode_vii_the_force_awakens_chewbacca.webp"
+        "image": "characters/star_wars_episode_vii_the_force_awakens_chewbacca.webp"
       }
     },
     {
       "actor": "a834eb244fbdfc92bd0e5b4a",
       "character": {
         "name": "Captain Phasma",
-        "image": "star_wars_episode_vii_the_force_awakens_captain_phasma.webp"
+        "image": "characters/star_wars_episode_vii_the_force_awakens_captain_phasma.webp"
       }
     },
     {
@@ -138,7 +138,7 @@
       "actor": "8495e822d070b57837e0bf6e",
       "character": {
         "name": "C-3PO",
-        "image": "star_wars_episode_vii_the_force_awakens_c-3po.webp"
+        "image": "characters/star_wars_episode_vii_the_force_awakens_c-3po.webp"
       }
     }
   ],
@@ -204,7 +204,7 @@
     "Walt Disney Pictures",
     "Lucasfilm"
   ],
-  "poster": "star_wars_episode_VII.webp",
+  "poster": "posters/star_wars_episode_VII.webp",
   "style": "Live-Action",
   "trailers": [
     "sGbxmsDFVnE"

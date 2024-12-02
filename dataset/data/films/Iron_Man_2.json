@@ -57,7 +57,7 @@
       "actor": "68eac2af31419390d7f727fd",
       "character": {
         "name": "Tony Stark / Iron Man",
-        "image": "iron_man_2_tony_stark.webp"
+        "image": "characters/iron_man_2_tony_stark.webp"
       }
     },
     {
@@ -70,7 +70,7 @@
       "actor": "84a7fc06c915c5463cc7ce32",
       "character": {
         "name": "James Rhodes / War Machine",
-        "image": "iron_man_2_james_rhodes.webp"
+        "image": "characters/iron_man_2_james_rhodes.webp"
       }
     },
     {
@@ -89,7 +89,7 @@
       "actor": "74f7af9d991c72b3af7d5dbd",
       "character": {
         "name": "Ivan Vanko",
-        "image": "iron_man_2_ivan_vanko.webp"
+        "image": "characters/iron_man_2_ivan_vanko.webp"
       }
     },
     {
@@ -144,7 +144,7 @@
     "Marvel Studios",
     "Paramount Pictures"
   ],
-  "poster": "iron_man_2.webp",
+  "poster": "posters/iron_man_2.webp",
   "style": "Live-Action",
   "trailers": [
     "BoohRoVA9WQ"

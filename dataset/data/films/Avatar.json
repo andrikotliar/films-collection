@@ -61,21 +61,21 @@
       "actor": "ab25ed81fbee90d0a29d7c92",
       "character": {
         "name": "Jake Sully",
-        "image": "avatar_jake_sully.webp"
+        "image": "characters/avatar_jake_sully.webp"
       }
     },
     {
       "actor": "0f44c8581608c442261413e4",
       "character": {
         "name": "Neytiri",
-        "image": "avatar_neitiri.webp"
+        "image": "characters/avatar_neitiri.webp"
       }
     },
     {
       "actor": "ca74e2b4d921daf8283f1f08",
       "character": {
         "name": "Grace Augustine",
-        "image": "avatar_grace_augustine.webp"
+        "image": "characters/avatar_grace_augustine.webp"
       }
     },
     {
@@ -106,21 +106,21 @@
       "actor": "eb10eabec8f10e75bd00fb81",
       "character": {
         "name": "Eytukan",
-        "image": "avatar_eytukan.webp"
+        "image": "characters/avatar_eytukan.webp"
       }
     },
     {
       "actor": "3b762e0e7c6cf942574547b6",
       "character": {
         "name": "Tsu'tey",
-        "image": "avatar_tsu_tey.webp"
+        "image": "characters/avatar_tsu_tey.webp"
       }
     },
     {
       "actor": "d386a741d1c9e62ed1894b81",
       "character": {
         "name": "Mo'at",
-        "image": "avatar_mo_at.webp"
+        "image": "characters/avatar_mo_at.webp"
       }
     }
   ],
@@ -255,7 +255,7 @@
   "studios": [
     "20th Century FOX"
   ],
-  "poster": "avatar.webp",
+  "poster": "posters/avatar.webp",
   "style": "Live-Action",
   "trailers": [
     "CM79GTEm2ps"

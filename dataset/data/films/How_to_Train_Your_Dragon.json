@@ -58,35 +58,35 @@
       "actor": "a7d35039857e23987e0e044c",
       "character": {
         "name": "Hiccup",
-        "image": "how_to_train_your_dragon_hiccup.webp"
+        "image": "characters/how_to_train_your_dragon_hiccup.webp"
       }
     },
     {
       "actor": "19691d0b10cb811590497ff2",
       "character": {
         "name": "Stoick ",
-        "image": "how_to_train_your_dragon_stoick.webp"
+        "image": "characters/how_to_train_your_dragon_stoick.webp"
       }
     },
     {
       "actor": "d547995ac733ce40226af91f",
       "character": {
         "name": "Gobber ",
-        "image": "how_to_train_your_dragon_gobber.webp"
+        "image": "characters/how_to_train_your_dragon_gobber.webp"
       }
     },
     {
       "actor": "6c95d5ee7e91ad5d5e781165",
       "character": {
         "name": "Astrid ",
-        "image": "how_to_train_your_dragon_astrid.webp"
+        "image": "characters/how_to_train_your_dragon_astrid.webp"
       }
     },
     {
       "actor": "10a99397a4be9fff8d032511",
       "character": {
         "name": "Fishlegs ",
-        "image": "how_to_train_your_dragon_fishlegs.webp"
+        "image": "characters/how_to_train_your_dragon_fishlegs.webp"
       }
     }
   ],
@@ -114,7 +114,7 @@
   "studios": [
     "DreamWorks Animation"
   ],
-  "poster": "how_to_train_your_dragon_1.webp",
+  "poster": "posters/how_to_train_your_dragon_1.webp",
   "style": "Animation",
   "trailers": [
     "oKiYuIsPxYk"

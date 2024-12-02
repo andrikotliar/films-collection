@@ -74,42 +74,42 @@
       "actor": "2385c4df23b84c38033b379a",
       "character": {
         "name": "Jesper",
-        "image": "klaus_jesper.webp"
+        "image": "characters/klaus_jesper.webp"
       }
     },
     {
       "actor": "03293ef86c8bf352c9dd52f4",
       "character": {
         "name": "Klaus",
-        "image": "klaus_klaus.webp"
+        "image": "characters/klaus_klaus.webp"
       }
     },
     {
       "actor": "f32841f0a9dd367e763df1c3",
       "character": {
         "name": "Alva",
-        "image": "klaus_alva.webp"
+        "image": "characters/klaus_alva.webp"
       }
     },
     {
       "actor": "a6b969e559971a01bb9ce611",
       "character": {
         "name": "Mr. Ellingboe",
-        "image": "klaus_mr_ellingboe.webp"
+        "image": "characters/klaus_mr_ellingboe.webp"
       }
     },
     {
       "actor": "16931bed1d04b87b0c89cdee",
       "character": {
         "name": "Mrs. Krum",
-        "image": "klaus_mrs_krum.webp"
+        "image": "characters/klaus_mrs_krum.webp"
       }
     },
     {
       "actor": "69f59ca7d9c8d6ab71058cae",
       "character": {
         "name": "Mogens",
-        "image": "klaus_mogens.webp"
+        "image": "characters/klaus_mogens.webp"
       }
     }
   ],
@@ -135,7 +135,7 @@
     "The SPA Studios",
     "Atresmedia Cine"
   ],
-  "poster": "klaus.webp",
+  "poster": "posters/klaus.webp",
   "style": "Animation",
   "trailers": [
     "taE3PwurhYM"

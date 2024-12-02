@@ -63,14 +63,14 @@
       "actor": "7724f9a2549d742da5d02985",
       "character": {
         "name": "Peter Parker / Spider-Man",
-        "image": "spider_man_far_from_home_peter_parker.webp"
+        "image": "characters/spider_man_far_from_home_peter_parker.webp"
       }
     },
     {
       "actor": "644ca0c0a204f03134f45fbf",
       "character": {
         "name": "Quentin Beck / Mysterio",
-        "image": "spider_man_far_from_home_quentin_beck.webp"
+        "image": "characters/spider_man_far_from_home_quentin_beck.webp"
       }
     },
     {
@@ -134,7 +134,7 @@
     "Sony Pictures",
     "Marvel Studios"
   ],
-  "poster": "mcu_spider_man_2.webp",
+  "poster": "posters/mcu_spider_man_2.webp",
   "style": "Live-Action",
   "trailers": [
     "Nt9L1jCKGnE"

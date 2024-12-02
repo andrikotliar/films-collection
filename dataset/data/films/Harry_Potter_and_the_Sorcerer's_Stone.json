@@ -58,21 +58,21 @@
       "actor": "7cd730dd761c711d4467bce0",
       "character": {
         "name": "Harry Potter",
-        "image": "harry_potter_and_the_sorcerer_s_stone_harry_potter"
+        "image": "characters/harry_potter_and_the_sorcerer_s_stone_harry_potter"
       }
     },
     {
       "actor": "076188ec6b66a2c4a62fdab1",
       "character": {
         "name": "Ron Weasley",
-        "image": "harry_potter_and_the_sorcerer_s_stone_ron_weasley"
+        "image": "characters/harry_potter_and_the_sorcerer_s_stone_ron_weasley"
       }
     },
     {
       "actor": "3f0004fa95271000de67d1f4",
       "character": {
         "name": "Hermione Granger",
-        "image": "harry_potter_and_the_sorcerer_s_stone_hermione_granger"
+        "image": "characters/harry_potter_and_the_sorcerer_s_stone_hermione_granger"
       }
     },
     {
@@ -97,7 +97,7 @@
       "actor": "aca6f583677ffb4c7f38d469",
       "character": {
         "name": "Draco Malfoy",
-        "image": "harry_potter_and_the_sorcerer_s_stone_draco_malfoy"
+        "image": "characters/harry_potter_and_the_sorcerer_s_stone_draco_malfoy"
       }
     },
     {
@@ -137,7 +137,7 @@
   "studios": [
     "Warner Bros. Pictures"
   ],
-  "poster": "harry_potter_1.webp",
+  "poster": "posters/harry_potter_1.webp",
   "style": "Live-Action",
   "trailers": [
     "VyHV0BRtdxo"

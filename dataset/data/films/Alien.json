@@ -106,7 +106,7 @@
       "actor": "73da3fc4ef4cd0dc8ab9d338",
       "character": {
         "name": "Alien",
-        "image": "alien_alien.webp"
+        "image": "characters/alien_alien.webp"
       }
     }
   ],
@@ -169,7 +169,7 @@
   "studios": [
     "20th Century FOX"
   ],
-  "poster": "alien_1.webp",
+  "poster": "posters/alien_1.webp",
   "style": "Live-Action",
   "trailers": [
     "jQ5lPt9edzQ"

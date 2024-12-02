@@ -60,49 +60,49 @@
       "actor": "108b2572a2af4f88f84630a0",
       "character": {
         "name": "Katie Mitchell",
-        "image": "the_mitchells_vs_the_machines_katie_mitchell.webp"
+        "image": "characters/the_mitchells_vs_the_machines_katie_mitchell.webp"
       }
     },
     {
       "actor": "c444bbd7ed8bdaf40773ad70",
       "character": {
         "name": "Rick Mitchell",
-        "image": "the_mitchells_vs_the_machines_rick_mitchell.webp"
+        "image": "characters/the_mitchells_vs_the_machines_rick_mitchell.webp"
       }
     },
     {
       "actor": "655cd2f546bc47e60aed74f6",
       "character": {
         "name": "Linda Mitchell",
-        "image": "the_mitchells_vs_the_machines_linda_mitchell.webp"
+        "image": "characters/the_mitchells_vs_the_machines_linda_mitchell.webp"
       }
     },
     {
       "actor": "3e35ddade59b3973c0e80d5f",
       "character": {
         "name": "Aaron Mitchell",
-        "image": "the_mitchells_vs_the_machines_aaron_mitchell.webp"
+        "image": "characters/the_mitchells_vs_the_machines_aaron_mitchell.webp"
       }
     },
     {
       "actor": "fc06251840c6d7396852bc40",
       "character": {
         "name": "PAL",
-        "image": "the_mitchells_vs_the_machines_pal.webp"
+        "image": "characters/the_mitchells_vs_the_machines_pal.webp"
       }
     },
     {
       "actor": "3461ed4d01248fd1025b7f55",
       "character": {
         "name": "Dr. Mark Bowman",
-        "image": "the_mitchells_vs_the_machines_dr_mark_bowman.webp"
+        "image": "characters/the_mitchells_vs_the_machines_dr_mark_bowman.webp"
       }
     },
     {
       "actor": "8d0985ead370e0071f779bf0",
       "character": {
         "name": "Deborahbot 5000",
-        "image": "the_mitchells_vs_the_machines_deborahbot_5000.webp"
+        "image": "characters/the_mitchells_vs_the_machines_deborahbot_5000.webp"
       }
     }
   ],
@@ -123,7 +123,7 @@
   "studios": [
     "Netflix"
   ],
-  "poster": "mitchells.webp",
+  "poster": "posters/mitchells.webp",
   "style": "Animation",
   "trailers": [
     "_ak5dFt8Ar0"

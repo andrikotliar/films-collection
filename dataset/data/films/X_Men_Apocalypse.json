@@ -72,21 +72,21 @@
       "actor": "c99e4f6dc0695561848dc5be",
       "character": {
         "name": "Raven / Mystique",
-        "image": "x_men_apocalypse_raven.webp"
+        "image": "characters/x_men_apocalypse_raven.webp"
       }
     },
     {
       "actor": "f5742b02c88fb0465409276f",
       "character": {
         "name": "Hank McCoy / Beast",
-        "image": "x_men_apocalypse_hank_mccoy.webp"
+        "image": "characters/x_men_apocalypse_hank_mccoy.webp"
       }
     },
     {
       "actor": "8b0c59295bf19f18ccdebced",
       "character": {
         "name": "En Sabah Nur / Apocalypse",
-        "image": "x_men_apocalypse_en_sabah_nur.webp"
+        "image": "characters/x_men_apocalypse_en_sabah_nur.webp"
       }
     },
     {
@@ -129,7 +129,7 @@
       "actor": "e7e7790e754b6bc047afa3ad",
       "character": {
         "name": "Kurt Wagner / Nightcrawler",
-        "image": "x_men_apocalypse_kurt_wagner.webp"
+        "image": "characters/x_men_apocalypse_kurt_wagner.webp"
       }
     }
   ],
@@ -154,7 +154,7 @@
     "20th Century FOX",
     "Marvel Entertainment"
   ],
-  "poster": "x_men_7.webp",
+  "poster": "posters/x_men_7.webp",
   "style": "Live-Action",
   "trailers": [
     "Jer8XjMrUB4"

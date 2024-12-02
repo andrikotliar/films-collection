@@ -69,7 +69,7 @@
       "actor": "68eac2af31419390d7f727fd",
       "character": {
         "name": "Tony Stark / Iron Man",
-        "image": "iron_man_tony_stark.webp"
+        "image": "characters/iron_man_tony_stark.webp"
       }
     },
     {
@@ -157,7 +157,7 @@
     "Marvel Studios",
     "Paramount Pictures"
   ],
-  "poster": "iron_man_1.webp",
+  "poster": "posters/iron_man_1.webp",
   "style": "Live-Action",
   "trailers": [
     "8hYlB38asDY"

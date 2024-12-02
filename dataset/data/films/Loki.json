@@ -130,7 +130,7 @@
       "actor": "2bd143e081d26fcfc1e8fb37",
       "character": {
         "name": "Miss Minutes",
-        "image": "loki_miss_minutes.webp"
+        "image": "characters/loki_miss_minutes.webp"
       }
     },
     {
@@ -181,7 +181,7 @@
     "Disney+",
     "Marvel Studios"
   ],
-  "poster": "loki.webp",
+  "poster": "posters/loki.webp",
   "style": "Live-Action",
   "trailers": [
     "nW948Va-l10"

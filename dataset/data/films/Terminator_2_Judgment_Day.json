@@ -66,7 +66,7 @@
       "actor": "2d3eb4c8394623727a17483b",
       "character": {
         "name": "John Connor",
-        "image": "terminator_2_judgment_day_john_connor.webp"
+        "image": "characters/terminator_2_judgment_day_john_connor.webp"
       }
     },
     {
@@ -186,7 +186,7 @@
     "Tristar",
     "Carolco Pictures"
   ],
-  "poster": "terminator_2.webp",
+  "poster": "posters/terminator_2.webp",
   "style": "Live-Action",
   "trailers": [
     "-W8CegO_Ixw"

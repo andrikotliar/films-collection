@@ -90,7 +90,7 @@
       "actor": "6fa14a3731b9660353c41487",
       "character": {
         "name": "Yoda",
-        "image": "star_wars_episode_ii_attack_of_the_clones_yoda.webp"
+        "image": "characters/star_wars_episode_ii_attack_of_the_clones_yoda.webp"
       }
     },
     {
@@ -103,7 +103,7 @@
       "actor": "36eb3476e54ce4b3ec95c273",
       "character": {
         "name": "Jango Fett",
-        "image": "star_wars_episode_ii_attack_of_the_clones_jango_fett.webp"
+        "image": "characters/star_wars_episode_ii_attack_of_the_clones_jango_fett.webp"
       }
     },
     {
@@ -116,7 +116,7 @@
       "actor": "8495e822d070b57837e0bf6e",
       "character": {
         "name": "C-3PO",
-        "image": "star_wars_episode_ii_attack_of_the_clones_c-3po.webp"
+        "image": "characters/star_wars_episode_ii_attack_of_the_clones_c-3po.webp"
       }
     }
   ],
@@ -162,7 +162,7 @@
     "20th Century FOX",
     "Lucasfilm"
   ],
-  "poster": "star_wars_episode_II.webp",
+  "poster": "posters/star_wars_episode_II.webp",
   "style": "Live-Action",
   "trailers": [
     "gYbW1F_c9eM"

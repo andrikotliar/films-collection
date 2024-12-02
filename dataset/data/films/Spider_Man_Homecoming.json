@@ -69,21 +69,21 @@
       "actor": "b6c60930f5f74a488d2429ff",
       "character": {
         "name": "Adrian Toomes / Vulture",
-        "image": "spider_man_homecoming_adrian_toomes.webp"
+        "image": "characters/spider_man_homecoming_adrian_toomes.webp"
       }
     },
     {
       "actor": "7724f9a2549d742da5d02985",
       "character": {
         "name": "Peter Parker / Spider-Man",
-        "image": "spider_man_homecoming_peter_parker.webp"
+        "image": "characters/spider_man_homecoming_peter_parker.webp"
       }
     },
     {
       "actor": "68eac2af31419390d7f727fd",
       "character": {
         "name": "Tony Stark / Iron Man",
-        "image": "spider_man_homecoming_tony_stark.webp"
+        "image": "characters/spider_man_homecoming_tony_stark.webp"
       }
     },
     {
@@ -137,7 +137,7 @@
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "poster": "mcu_spider_man_1.webp",
+  "poster": "posters/mcu_spider_man_1.webp",
   "style": "Live-Action",
   "trailers": [
     "n9DwoQ7HWvI"

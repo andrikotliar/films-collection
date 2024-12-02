@@ -63,14 +63,14 @@
       "actor": "7fffb2c64199b3d7572f0b3c",
       "character": {
         "name": "Parzival / Wade",
-        "image": "ready_player_one_parzival.webp"
+        "image": "characters/ready_player_one_parzival.webp"
       }
     },
     {
       "actor": "d4e38766a48e4a04d41ffa96",
       "character": {
         "name": "Art3mis / Samantha",
-        "image": "ready_player_one_art3mis.webp"
+        "image": "characters/ready_player_one_art3mis.webp"
       }
     },
     {
@@ -83,42 +83,42 @@
       "actor": "b9705f3f7514b14ec7618664",
       "character": {
         "name": "Aech / Helen",
-        "image": "ready_player_one_aech.webp"
+        "image": "characters/ready_player_one_aech.webp"
       }
     },
     {
       "actor": "fc4c28142a16ef2d3841e868",
       "character": {
         "name": "I-R0k",
-        "image": "ready_player_one_i_r0k.webp"
+        "image": "characters/ready_player_one_i_r0k.webp"
       }
     },
     {
       "actor": "2e7736bf7187e688395d7a2c",
       "character": {
         "name": "Curator / Ogden Morrow",
-        "image": "ready_player_one_curator.webp"
+        "image": "characters/ready_player_one_curator.webp"
       }
     },
     {
       "actor": "4c8f4c7fd3e50d88a5ce0a4b",
       "character": {
         "name": "Anorak / Halliday",
-        "image": "ready_player_one_anorak.webp"
+        "image": "characters/ready_player_one_anorak.webp"
       }
     },
     {
       "actor": "9f9fa840edf7edbf9b96762a",
       "character": {
         "name": "Sho",
-        "image": "ready_player_one_sho.webp"
+        "image": "characters/ready_player_one_sho.webp"
       }
     },
     {
       "actor": "2a7c6d485f473f6dc1518bc0",
       "character": {
         "name": "Daito",
-        "image": "ready_player_one_daito.webp"
+        "image": "characters/ready_player_one_daito.webp"
       }
     },
     {
@@ -158,7 +158,7 @@
     "Warner Bros. Pictures",
     "Amblin Entertainment"
   ],
-  "poster": "ready_player_one.webp",
+  "poster": "posters/ready_player_one.webp",
   "style": "Live-Action",
   "trailers": [
     "cSp1dM2Vj48"

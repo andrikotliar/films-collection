@@ -97,77 +97,77 @@
       "actor": "7e009e344b1d17321f88e62c",
       "character": {
         "name": "Vi",
-        "image": "arcane_vi.webp"
+        "image": "characters/arcane_vi.webp"
       }
     },
     {
       "actor": "fe6dafd9367a52a6060a4b8a",
       "character": {
         "name": "Jinx",
-        "image": "arcane_jinx.webp"
+        "image": "characters/arcane_jinx.webp"
       }
     },
     {
       "actor": "a7af62b3403e31d5c6db8648",
       "character": {
         "name": "Jayce",
-        "image": "arcane_jayce.webp"
+        "image": "characters/arcane_jayce.webp"
       }
     },
     {
       "actor": "3160b4ddf40b96dda240f985",
       "character": {
         "name": "Silco",
-        "image": "arcane_silco.webp"
+        "image": "characters/arcane_silco.webp"
       }
     },
     {
       "actor": "7c78916145e93dc6de49d74a",
       "character": {
         "name": "Viktor",
-        "image": "arcane_viktor.webp"
+        "image": "characters/arcane_viktor.webp"
       }
     },
     {
       "actor": "101e36f1a5662c85c8668c5f",
       "character": {
         "name": "Mel Medarda",
-        "image": "arcane_mel_medarda.webp"
+        "image": "characters/arcane_mel_medarda.webp"
       }
     },
     {
       "actor": "edcee36f388eca4becb20e59",
       "character": {
         "name": "Vander",
-        "image": "arcane_vander.webp"
+        "image": "characters/arcane_vander.webp"
       }
     },
     {
       "actor": "9eb32f003eef46ba941bc074",
       "character": {
         "name": "Marcus",
-        "image": "arcane_marcus.webp"
+        "image": "characters/arcane_marcus.webp"
       }
     },
     {
       "actor": "9653453e3c9469d1296e9751",
       "character": {
         "name": "Caitlyn",
-        "image": "arcane_caitlyn.webp"
+        "image": "characters/arcane_caitlyn.webp"
       }
     },
     {
       "actor": "63f2459a0d049e96a665f4aa",
       "character": {
         "name": "Heimerdinger",
-        "image": "arcane_heimerdinger.webp"
+        "image": "characters/arcane_heimerdinger.webp"
       }
     },
     {
       "actor": "5ebd6bd81c77390df14203aa",
       "character": {
         "name": "Ekko",
-        "image": "arcane_ekko.webp"
+        "image": "characters/arcane_ekko.webp"
       }
     }
   ],
@@ -199,7 +199,7 @@
     "Netflix",
     "Riot Games"
   ],
-  "poster": "arcane.webp",
+  "poster": "posters/arcane.webp",
   "style": "Animation",
   "trailers": [
     "3Svs_hl897c"

@@ -63,7 +63,7 @@
       "actor": "6e9dd36e3b96af6f5483e7a2",
       "character": {
         "name": "Johnny Blaze / Ghost Rider",
-        "image": "ghost_rider_johnny_blaze.webp"
+        "image": "characters/ghost_rider_johnny_blaze.webp"
       }
     },
     {
@@ -141,7 +141,7 @@
     "Sony Pictures",
     "Columbia Pictures"
   ],
-  "poster": "ghost_rider.webp",
+  "poster": "posters/ghost_rider.webp",
   "style": "Live-Action",
   "trailers": [
     "8M0lLJfNPds"

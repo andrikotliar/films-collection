@@ -61,56 +61,56 @@
       "actor": "30c03c6976ec24262f37bfc6",
       "character": {
         "name": "Alex",
-        "image": "madagascar_alex.webp"
+        "image": "characters/madagascar_alex.webp"
       }
     },
     {
       "actor": "ce3b1d5495190d8116dea108",
       "character": {
         "name": "Marty",
-        "image": "madagascar_marty.webp"
+        "image": "characters/madagascar_marty.webp"
       }
     },
     {
       "actor": "a292c106f01b7650bbe0c49f",
       "character": {
         "name": "Melman",
-        "image": "madagascar_melman.webp"
+        "image": "characters/madagascar_melman.webp"
       }
     },
     {
       "actor": "544db30160fa4bfa12603ee5",
       "character": {
         "name": "Gloria",
-        "image": "madagascar_gloria.webp"
+        "image": "characters/madagascar_gloria.webp"
       }
     },
     {
       "actor": "305954b13aa2aaf70e71c864",
       "character": {
         "name": "Julien",
-        "image": "madagascar_julien.webp"
+        "image": "characters/madagascar_julien.webp"
       }
     },
     {
       "actor": "703b49e5d14fbe3506c1dd6b",
       "character": {
         "name": "Skipper",
-        "image": "madagascar_skipper.webp"
+        "image": "characters/madagascar_skipper.webp"
       }
     },
     {
       "actor": "7b7437d683e231f7f746d770",
       "character": {
         "name": "Kowalski",
-        "image": "madagascar_kowalski.webp"
+        "image": "characters/madagascar_kowalski.webp"
       }
     },
     {
       "actor": "6aa1512f81dda6fbd3d8f7ef",
       "character": {
         "name": "Maurice",
-        "image": "madagascar_maurice.webp"
+        "image": "characters/madagascar_maurice.webp"
       }
     }
   ],
@@ -134,7 +134,7 @@
   "studios": [
     "DreamWorks Animation"
   ],
-  "poster": "madagascar.webp",
+  "poster": "posters/madagascar.webp",
   "style": "Animation",
   "trailers": [
     "orAqhC-Hp_o"

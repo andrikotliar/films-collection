@@ -63,21 +63,21 @@
       "actor": "d5264ffaad866e0421f05d92",
       "character": {
         "name": "WALL-E / M-O / AUTO",
-        "image": "wall_e_wall-e.webp"
+        "image": "characters/wall_e_wall-e.webp"
       }
     },
     {
       "actor": "09bcd60575e3711555b6debd",
       "character": {
         "name": "EVE",
-        "image": "wall_e_eve.webp"
+        "image": "characters/wall_e_eve.webp"
       }
     },
     {
       "actor": "d717be436621af2098bc9200",
       "character": {
         "name": "Captain",
-        "image": "wall_e_captain.webp"
+        "image": "characters/wall_e_captain.webp"
       }
     },
     {
@@ -153,7 +153,7 @@
     "Walt Disney Pictures",
     "Pixar Animation"
   ],
-  "poster": "wall_e.webp",
+  "poster": "posters/wall_e.webp",
   "style": "Animation",
   "trailers": [
     "alIq_wG9FNk"

@@ -70,84 +70,84 @@
       "actor": "56cd353690befbf133dac66e",
       "character": {
         "name": "Miles Morales",
-        "image": "spider_man_into_the_spider_verse_miles_morales.webp"
+        "image": "characters/spider_man_into_the_spider_verse_miles_morales.webp"
       }
     },
     {
       "actor": "3049f5769212420bfd2ba146",
       "character": {
         "name": "Peter B. Parker",
-        "image": "spider_man_into_the_spider_verse_peter_b_parker.webp"
+        "image": "characters/spider_man_into_the_spider_verse_peter_b_parker.webp"
       }
     },
     {
       "actor": "7e009e344b1d17321f88e62c",
       "character": {
         "name": "Gwen Stacy",
-        "image": "spider_man_into_the_spider_verse_gwen_stacy.webp"
+        "image": "characters/spider_man_into_the_spider_verse_gwen_stacy.webp"
       }
     },
     {
       "actor": "ab310cfb7b4905e59b363f7d",
       "character": {
         "name": "Uncle Aaron",
-        "image": "spider_man_into_the_spider_verse_uncle_aaron.webp"
+        "image": "characters/spider_man_into_the_spider_verse_uncle_aaron.webp"
       }
     },
     {
       "actor": "52883929c1478b1d2b3df109",
       "character": {
         "name": "Jefferson Davis",
-        "image": "spider_man_into_the_spider_verse_jefferson_davis.webp"
+        "image": "characters/spider_man_into_the_spider_verse_jefferson_davis.webp"
       }
     },
     {
       "actor": "8747bb64c33af87ce029a475",
       "character": {
         "name": "Rio Morales",
-        "image": "spider_man_into_the_spider_verse_rio_morales.webp"
+        "image": "characters/spider_man_into_the_spider_verse_rio_morales.webp"
       }
     },
     {
       "actor": "3202df301918fc6467f6e12a",
       "character": {
         "name": "Mary Jane",
-        "image": "spider_man_into_the_spider_verse_mary_jane.webp"
+        "image": "characters/spider_man_into_the_spider_verse_mary_jane.webp"
       }
     },
     {
       "actor": "caef1169b14696404918613d",
       "character": {
         "name": "Spider-Ham",
-        "image": "spider_man_into_the_spider_verse_spider-ham.webp"
+        "image": "characters/spider_man_into_the_spider_verse_spider-ham.webp"
       }
     },
     {
       "actor": "6d5e16e716642f6508d31716",
       "character": {
         "name": "Peni Parker",
-        "image": "spider_man_into_the_spider_verse_peni_parker.webp"
+        "image": "characters/spider_man_into_the_spider_verse_peni_parker.webp"
       }
     },
     {
       "actor": "6e9dd36e3b96af6f5483e7a2",
       "character": {
         "name": "Spider-Man Noir",
-        "image": "spider_man_into_the_spider_verse_spider-man_noir.webp"
+        "image": "characters/spider_man_into_the_spider_verse_spider-man_noir.webp"
       }
     },
     {
       "actor": "847cefcbba651553301ec62e",
       "character": {
         "name": "Wilson Fisk",
-        "image": "spider_man_into_the_spider_verse_wilson_fisk.webp"
+        "image": "characters/spider_man_into_the_spider_verse_wilson_fisk.webp"
       }
     },
     {
       "actor": "bb56b08e5530d902cb75c719",
       "character": {
         "name": "Doc Ock",
-        "image": "spider_man_into_the_spider_verse_doc_ock.webp"
+        "image": "characters/spider_man_into_the_spider_verse_doc_ock.webp"
       }
     }
   ],
@@ -198,7 +198,7 @@
     "Columbia Pictures",
     "Marvel Entertainment"
   ],
-  "poster": "spiderman_intospiderverse.webp",
+  "poster": "posters/spiderman_intospiderverse.webp",
   "style": "Animation",
   "trailers": [
     "g4Hbz2jLxvQ"

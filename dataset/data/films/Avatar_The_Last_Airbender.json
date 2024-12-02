@@ -164,105 +164,105 @@
       "actor": "2ce21281528737b83dc6b40a",
       "character": {
         "name": "Aang",
-        "image": "avatar_the_last_airbender_aang.webp"
+        "image": "characters/avatar_the_last_airbender_aang.webp"
       }
     },
     {
       "actor": "28eb5fb40e094a445b3d4c67",
       "character": {
         "name": "Katara",
-        "image": "avatar_the_last_airbender_katara.webp"
+        "image": "characters/avatar_the_last_airbender_katara.webp"
       }
     },
     {
       "actor": "932b44a9817a834e2d6b36b8",
       "character": {
         "name": "Sokka",
-        "image": "avatar_the_last_airbender_sokka.webp"
+        "image": "characters/avatar_the_last_airbender_sokka.webp"
       }
     },
     {
       "actor": "9260ae3c9058216c1a4b736f",
       "character": {
         "name": "Zuko",
-        "image": "avatar_the_last_airbender_zuko.webp"
+        "image": "characters/avatar_the_last_airbender_zuko.webp"
       }
     },
     {
       "actor": "76590bc2f0de58b4b6bd1602",
       "character": {
         "name": "Toph",
-        "image": "avatar_the_last_airbender_toph.webp"
+        "image": "characters/avatar_the_last_airbender_toph.webp"
       }
     },
     {
       "actor": "bc7466515df39324040ba83f",
       "character": {
         "name": "Airo",
-        "image": "avatar_the_last_airbender_airo.webp"
+        "image": "characters/avatar_the_last_airbender_airo.webp"
       }
     },
     {
       "actor": "206e0ae39ee3dbc6bc72b4de",
       "character": {
         "name": "Azula",
-        "image": "avatar_the_last_airbender_azula.webp"
+        "image": "characters/avatar_the_last_airbender_azula.webp"
       }
     },
     {
       "actor": "8f71b3144bc62e91c219fd52",
       "character": {
         "name": "Hakoda",
-        "image": "avatar_the_last_airbender_hakoda.webp"
+        "image": "characters/avatar_the_last_airbender_hakoda.webp"
       }
     },
     {
       "actor": "0de57155c7cf78ddaa7c504a",
       "character": {
         "name": "Mai",
-        "image": "avatar_the_last_airbender_mai.webp"
+        "image": "characters/avatar_the_last_airbender_mai.webp"
       }
     },
     {
       "actor": "d5f69adf4cc1cc4045d733c6",
       "character": {
         "name": "Ty Lee",
-        "image": "avatar_the_last_airbender_ty_lee.webp"
+        "image": "characters/avatar_the_last_airbender_ty_lee.webp"
       }
     },
     {
       "actor": "305c68f0f0bf1960f2b6b3a7",
       "character": {
         "name": "Roku",
-        "image": "avatar_the_last_airbender_roku.webp"
+        "image": "characters/avatar_the_last_airbender_roku.webp"
       }
     },
     {
       "actor": "2180a26604a08b79e32855c0",
       "character": {
         "name": "Zhao",
-        "image": "avatar_the_last_airbender_zhao.webp"
+        "image": "characters/avatar_the_last_airbender_zhao.webp"
       }
     },
     {
       "actor": "8e58705ae826aaa9554b17d6",
       "character": {
         "name": "Long Feng",
-        "image": "avatar_the_last_airbender_long_feng.webp"
+        "image": "characters/avatar_the_last_airbender_long_feng.webp"
       }
     },
     {
       "actor": "f0dcc9127d28773db4a80347",
       "character": {
         "name": "Princess Yue",
-        "image": "avatar_the_last_airbender_princess_yue.webp"
+        "image": "characters/avatar_the_last_airbender_princess_yue.webp"
       }
     },
     {
       "actor": "609f7850e7e75a980172088c",
       "character": {
         "name": "Suki",
-        "image": "avatar_the_last_airbender_suki.webp"
+        "image": "characters/avatar_the_last_airbender_suki.webp"
       }
     }
   ],
@@ -349,7 +349,7 @@
   "studios": [
     "Nickelodeon Animation Studios"
   ],
-  "poster": "atla.webp",
+  "poster": "posters/atla.webp",
   "style": "Animation",
   "trailers": [
     "ahPeclU9VW0",

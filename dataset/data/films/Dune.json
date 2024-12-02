@@ -98,7 +98,7 @@
       "actor": "3090a68b40a7bfda7b1d93b8",
       "character": {
         "name": "Baron Vladimir Harkonnen",
-        "image": "dune_baron_vladimir_harkonnen.webp"
+        "image": "characters/dune_baron_vladimir_harkonnen.webp"
       }
     },
     {
@@ -170,7 +170,7 @@
     "Warner Bros. Pictures",
     "Legendary"
   ],
-  "poster": "dune.webp",
+  "poster": "posters/dune.webp",
   "style": "Live-Action",
   "trailers": [
     "w0HgHet0sxg"

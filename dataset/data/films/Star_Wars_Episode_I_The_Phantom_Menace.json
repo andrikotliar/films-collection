@@ -93,35 +93,35 @@
       "actor": "fafab24b214fc42447e2b820",
       "character": {
         "name": "Jar Jar Binks",
-        "image": "star_wars_episode_i_the_phantom_menace_jar_jar_binks.webp"
+        "image": "characters/star_wars_episode_i_the_phantom_menace_jar_jar_binks.webp"
       }
     },
     {
       "actor": "8495e822d070b57837e0bf6e",
       "character": {
         "name": "C-3PO",
-        "image": "star_wars_episode_i_the_phantom_menace_c3po"
+        "image": "characters/star_wars_episode_i_the_phantom_menace_c3po"
       }
     },
     {
       "actor": "f9b0821669e9ab485f13f6d1",
       "character": {
         "name": "R2-D2",
-        "image": "star_wars_episode_i_the_phantom_menace_r2d2"
+        "image": "characters/star_wars_episode_i_the_phantom_menace_r2d2"
       }
     },
     {
       "actor": "6fa14a3731b9660353c41487",
       "character": {
         "name": "Yoda",
-        "image": "star_wars_episode_i_the_phantom_menace_yoda"
+        "image": "characters/star_wars_episode_i_the_phantom_menace_yoda"
       }
     },
     {
       "actor": "abaad933abd664bb6b32bef0",
       "character": {
         "name": "Darth Maul",
-        "image": "star_wars_episode_i_the_phantom_menace_darth_maul.webp"
+        "image": "characters/star_wars_episode_i_the_phantom_menace_darth_maul.webp"
       }
     }
   ],
@@ -168,7 +168,7 @@
     "20th Century FOX",
     "Lucasfilm"
   ],
-  "poster": "star_wars_episode_I.webp",
+  "poster": "posters/star_wars_episode_I.webp",
   "style": "Live-Action",
   "trailers": [
     "bD7bpG-zDJQ"

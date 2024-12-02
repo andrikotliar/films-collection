@@ -58,21 +58,21 @@
       "actor": "7cd730dd761c711d4467bce0",
       "character": {
         "name": "Harry Potter",
-        "image": "harry_potter_and_the_goblet_of_fire_harry_potter.webp"
+        "image": "characters/harry_potter_and_the_goblet_of_fire_harry_potter.webp"
       }
     },
     {
       "actor": "076188ec6b66a2c4a62fdab1",
       "character": {
         "name": "Ron Weasley",
-        "image": "harry_potter_and_the_goblet_of_fire_ron_weasley.webp"
+        "image": "characters/harry_potter_and_the_goblet_of_fire_ron_weasley.webp"
       }
     },
     {
       "actor": "3f0004fa95271000de67d1f4",
       "character": {
         "name": "Hermione Granger",
-        "image": "harry_potter_and_the_goblet_of_fire_hermione_granger.webp"
+        "image": "characters/harry_potter_and_the_goblet_of_fire_hermione_granger.webp"
       }
     },
     {
@@ -85,7 +85,7 @@
       "actor": "25210612f77f5f5a4c51dc56",
       "character": {
         "name": "Lord Voldemort",
-        "image": "harry_potter_and_the_goblet_of_fire_lord_voldemort.webp"
+        "image": "characters/harry_potter_and_the_goblet_of_fire_lord_voldemort.webp"
       }
     },
     {
@@ -185,7 +185,7 @@
   "studios": [
     "Warner Bros. Pictures"
   ],
-  "poster": "harry_potter_4.webp",
+  "poster": "posters/harry_potter_4.webp",
   "style": "Live-Action",
   "trailers": [
     "3EGojp4Hh6I"

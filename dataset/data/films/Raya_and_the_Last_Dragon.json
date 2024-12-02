@@ -63,42 +63,42 @@
       "actor": "730857c2f976c20b0136c5c1",
       "character": {
         "name": "Raya",
-        "image": "raya_and_the_last_dragon_raya.webp"
+        "image": "characters/raya_and_the_last_dragon_raya.webp"
       }
     },
     {
       "actor": "902d1a4d06fb8b0532302803",
       "character": {
         "name": "Sisu",
-        "image": "raya_and_the_last_dragon_sisu.webp"
+        "image": "characters/raya_and_the_last_dragon_sisu.webp"
       }
     },
     {
       "actor": "9c9caba6aa54ff1a291c85bc",
       "character": {
         "name": "Boun",
-        "image": "raya_and_the_last_dragon_boun.webp"
+        "image": "characters/raya_and_the_last_dragon_boun.webp"
       }
     },
     {
       "actor": "1b18bc88f980f0f3cc8dcd70",
       "character": {
         "name": "Namaari",
-        "image": "raya_and_the_last_dragon_namaari.webp"
+        "image": "characters/raya_and_the_last_dragon_namaari.webp"
       }
     },
     {
       "actor": "57c5a3b95582eafac775c24f",
       "character": {
         "name": "Benja",
-        "image": "raya_and_the_last_dragon_benja.webp"
+        "image": "characters/raya_and_the_last_dragon_benja.webp"
       }
     },
     {
       "actor": "a775eca4841cce040addc4ca",
       "character": {
         "name": "Tong",
-        "image": "raya_and_the_last_dragon_tong.webp"
+        "image": "characters/raya_and_the_last_dragon_tong.webp"
       }
     }
   ],
@@ -121,7 +121,7 @@
   "studios": [
     "Walt Disney Pictures"
   ],
-  "poster": "raya.webp",
+  "poster": "posters/raya.webp",
   "style": "Animation",
   "trailers": [
     "1VIZ89FEjYI"

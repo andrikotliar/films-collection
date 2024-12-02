@@ -52,35 +52,35 @@
       "actor": "a7d35039857e23987e0e044c",
       "character": {
         "name": "Hiccup",
-        "image": "how_to_train_your_dragon_the_hidden_world_hiccup.webp"
+        "image": "characters/how_to_train_your_dragon_the_hidden_world_hiccup.webp"
       }
     },
     {
       "actor": "6c95d5ee7e91ad5d5e781165",
       "character": {
         "name": "Astrid ",
-        "image": "how_to_train_your_dragon_the_hidden_world_astrid.webp"
+        "image": "characters/how_to_train_your_dragon_the_hidden_world_astrid.webp"
       }
     },
     {
       "actor": "220fe3aec36d9185f6ff5add",
       "character": {
         "name": "Grimmel ",
-        "image": "how_to_train_your_dragon_the_hidden_world_grimmel.webp"
+        "image": "characters/how_to_train_your_dragon_the_hidden_world_grimmel.webp"
       }
     },
     {
       "actor": "d547995ac733ce40226af91f",
       "character": {
         "name": "Gobber ",
-        "image": "how_to_train_your_dragon_the_hidden_world_gobber.webp"
+        "image": "characters/how_to_train_your_dragon_the_hidden_world_gobber.webp"
       }
     },
     {
       "actor": "6aa92fa181848669babe20bb",
       "character": {
         "name": "Eret ",
-        "image": "how_to_train_your_dragon_the_hidden_world_eret.webp"
+        "image": "characters/how_to_train_your_dragon_the_hidden_world_eret.webp"
       }
     }
   ],
@@ -105,7 +105,7 @@
     "DreamWorks Animation",
     "Universal Pictures"
   ],
-  "poster": "how_to_train_your_dragon_3.webp",
+  "poster": "posters/how_to_train_your_dragon_3.webp",
   "style": "Animation",
   "trailers": [
     "SkcucKDrbOI"

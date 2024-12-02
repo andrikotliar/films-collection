@@ -66,42 +66,42 @@
       "actor": "ab25ed81fbee90d0a29d7c92",
       "character": {
         "name": "Jake Sully",
-        "image": "avatar_the_way_of_water_jake_sully.webp"
+        "image": "characters/avatar_the_way_of_water_jake_sully.webp"
       }
     },
     {
       "actor": "0f44c8581608c442261413e4",
       "character": {
         "name": "Neytiri",
-        "image": "avatar_the_way_of_water_neytiri.webp"
+        "image": "characters/avatar_the_way_of_water_neytiri.webp"
       }
     },
     {
       "actor": "ca74e2b4d921daf8283f1f08",
       "character": {
         "name": "Kiri",
-        "image": "avatar_the_way_of_water_kiri.webp"
+        "image": "characters/avatar_the_way_of_water_kiri.webp"
       }
     },
     {
       "actor": "b0b4e07f3ddc197fc79b6d99",
       "character": {
         "name": "Quaritch",
-        "image": "avatar_the_way_of_water_quaritch.webp"
+        "image": "characters/avatar_the_way_of_water_quaritch.webp"
       }
     },
     {
       "actor": "a0906571fbd382da1825be2a",
       "character": {
         "name": "Ronal",
-        "image": "avatar_the_way_of_water_ronal.webp"
+        "image": "characters/avatar_the_way_of_water_ronal.webp"
       }
     },
     {
       "actor": "677c083db78d6f6afc4bf2c1",
       "character": {
         "name": "Tonowari",
-        "image": "avatar_the_way_of_water_tonowari.webp"
+        "image": "characters/avatar_the_way_of_water_tonowari.webp"
       }
     },
     {
@@ -114,21 +114,21 @@
       "actor": "3e151b5127b8be74b7f44adf",
       "character": {
         "name": "Neteyam",
-        "image": "avatar_the_way_of_water_neteyam.webp"
+        "image": "characters/avatar_the_way_of_water_neteyam.webp"
       }
     },
     {
       "actor": "d372b94fc4de33d4432f8fc1",
       "character": {
         "name": "Lo'Ak",
-        "image": "avatar_the_way_of_water_lo_ak"
+        "image": "characters/avatar_the_way_of_water_lo_ak"
       }
     },
     {
       "actor": "f73baf9f91b25a772477ec00",
       "character": {
         "name": "Tuk",
-        "image": "avatar_the_way_of_water_tuk.webp"
+        "image": "characters/avatar_the_way_of_water_tuk.webp"
       }
     },
     {
@@ -141,14 +141,14 @@
       "actor": "a83297cb032460baa31b3cdd",
       "character": {
         "name": "Tsireya",
-        "image": "avatar_the_way_of_water_tsireya.webp"
+        "image": "characters/avatar_the_way_of_water_tsireya.webp"
       }
     },
     {
       "actor": "b238ba581949303e85a376d1",
       "character": {
         "name": "Aonung",
-        "image": "avatar_the_way_of_water_aonung.webp"
+        "image": "characters/avatar_the_way_of_water_aonung.webp"
       }
     },
     {
@@ -184,7 +184,7 @@
     "Lightstorm Entertainment",
     "TSG Entertainment"
   ],
-  "poster": "avatar_2.webp",
+  "poster": "posters/avatar_2.webp",
   "style": "Live-Action",
   "trailers": [
     "o5F8MOz_IDw"

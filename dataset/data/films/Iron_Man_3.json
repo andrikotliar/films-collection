@@ -60,7 +60,7 @@
       "actor": "68eac2af31419390d7f727fd",
       "character": {
         "name": "Tony Stark / Iron Man",
-        "image": "iron_man_3_ironman.webp"
+        "image": "characters/iron_man_3_ironman.webp"
       }
     },
     {
@@ -73,7 +73,7 @@
       "actor": "84a7fc06c915c5463cc7ce32",
       "character": {
         "name": "Colonel James Rhodes",
-        "image": "iron_man_3_warmachine.webp"
+        "image": "characters/iron_man_3_warmachine.webp"
       }
     },
     {
@@ -140,7 +140,7 @@
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "poster": "iron_man_3.webp",
+  "poster": "posters/iron_man_3.webp",
   "style": "Live-Action",
   "trailers": [
     "Ke1Y3P9D0Bc"

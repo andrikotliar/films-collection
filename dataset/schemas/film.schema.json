@@ -111,7 +111,10 @@
               },
               "image": {
                 "type": "string",
-                "description": "File name and extension. If this property is present, than actor image will be flippable on the frontend. It will show actor photo and their role image."
+                "description": "Path to the file without base URL. If this property is present, than actor image will be flippable on the frontend. It will show actor photo and their role image.",
+                "examples": [
+                  "characters/character.webp"
+                ]
               }
             },
             "required": [
@@ -255,9 +258,9 @@
     },
     "poster": {
       "type": "string",
-      "description": "File name and extension",
+      "description": "Path to the file without base URL",
       "examples": [
-        "terminator.webp"
+        "posters/terminator.webp"
       ]
     },
     "seriesExtension": {

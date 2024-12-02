@@ -66,14 +66,14 @@
       "actor": "5d474df7bc79a3784ee0df3a",
       "character": {
         "name": "Scott Lang / Ant-Man",
-        "image": "ant_man_and_the_wasp_scott_lang.webp"
+        "image": "characters/ant_man_and_the_wasp_scott_lang.webp"
       }
     },
     {
       "actor": "cbea23272f6d430dd37d2296",
       "character": {
         "name": "Hope Van Dyne / New Wasp",
-        "image": "ant_man_and_the_wasp_hope_van_dyne.webp"
+        "image": "characters/ant_man_and_the_wasp_hope_van_dyne.webp"
       }
     },
     {
@@ -86,7 +86,7 @@
       "actor": "ceed7f04919d7706e670c146",
       "character": {
         "name": "Ava / Ghost",
-        "image": "ant_man_and_the_wasp_ava.webp"
+        "image": "characters/ant_man_and_the_wasp_ava.webp"
       }
     },
     {
@@ -129,7 +129,7 @@
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "poster": "ant_man_2.webp",
+  "poster": "posters/ant_man_2.webp",
   "style": "Live-Action",
   "trailers": [
     "UUkn-enk2RU"

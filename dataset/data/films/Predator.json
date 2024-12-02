@@ -108,7 +108,7 @@
       "actor": "c504ec32a5e222cf07a1562c",
       "character": {
         "name": "Predator",
-        "image": "predator_predator.webp"
+        "image": "characters/predator_predator.webp"
       }
     }
   ],
@@ -131,7 +131,7 @@
   "studios": [
     "20th Century FOX"
   ],
-  "poster": "predator.webp",
+  "poster": "posters/predator.webp",
   "style": "Live-Action",
   "trailers": [
     "_1wDBNHYDv8"

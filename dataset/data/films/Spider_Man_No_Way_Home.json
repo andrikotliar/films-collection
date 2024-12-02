@@ -55,21 +55,21 @@
       "actor": "7724f9a2549d742da5d02985",
       "character": {
         "name": "Peter Parker / Spider-Man",
-        "image": "spider_man_no_way_home_peter_parker.webp"
+        "image": "characters/spider_man_no_way_home_peter_parker.webp"
       }
     },
     {
       "actor": "65694e39d2799267ae4a2adf",
       "character": {
         "name": "Peter Parker / Spider-Man (Toby)",
-        "image": "spider_man_no_way_home_peter_parker_toby.webp"
+        "image": "characters/spider_man_no_way_home_peter_parker_toby.webp"
       }
     },
     {
       "actor": "4944de362b32c61551474862",
       "character": {
         "name": "Peter Parker / Spider-Man (Andrew)",
-        "image": "spider_man_no_way_home_peter_parker_andrew.webp"
+        "image": "characters/spider_man_no_way_home_peter_parker_andrew.webp"
       }
     },
     {
@@ -154,7 +154,7 @@
     "Marvel Studios",
     "Sony Pictures"
   ],
-  "poster": "mcu_spider_man_3.webp",
+  "poster": "posters/mcu_spider_man_3.webp",
   "style": "Live-Action",
   "trailers": [
     "rt-2cxAiPJk"

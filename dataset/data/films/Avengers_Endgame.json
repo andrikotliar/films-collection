@@ -63,14 +63,14 @@
       "actor": "68eac2af31419390d7f727fd",
       "character": {
         "name": "Tony Stark / Iron Man",
-        "image": "avengers_endgame_tony_stark.webp"
+        "image": "characters/avengers_endgame_tony_stark.webp"
       }
     },
     {
       "actor": "b3356695e90767defc7c4421",
       "character": {
         "name": "Steve Rogers / Captain America",
-        "image": "avengers_endgame_steve_rogers.webp"
+        "image": "characters/avengers_endgame_steve_rogers.webp"
       }
     },
     {
@@ -83,7 +83,7 @@
       "actor": "dc4912e5f14e4bfea9c78218",
       "character": {
         "name": "Rocket",
-        "image": "avengers_endgame_rocket.webp"
+        "image": "characters/avengers_endgame_rocket.webp"
       }
     },
     {
@@ -102,7 +102,7 @@
       "actor": "7b67d3adc189860cca3bbf5f",
       "character": {
         "name": "Nebula",
-        "image": "avengers_endgame_nebula.webp"
+        "image": "characters/avengers_endgame_nebula.webp"
       }
     },
     {
@@ -115,7 +115,7 @@
       "actor": "bff8f185faaa1610320942aa",
       "character": {
         "name": "Thanos",
-        "image": "avengers_endgame_thanos.webp"
+        "image": "characters/avengers_endgame_thanos.webp"
       }
     },
     {
@@ -134,7 +134,7 @@
       "actor": "5d474df7bc79a3784ee0df3a",
       "character": {
         "name": "Scott Lang / Ant-Man",
-        "image": "avengers_endgame_scott_lang.webp"
+        "image": "characters/avengers_endgame_scott_lang.webp"
       }
     },
     {
@@ -159,14 +159,14 @@
       "actor": "a65bc3f407cd83dd8b26db19",
       "character": {
         "name": "Bruce Banner / The Professor Hulk",
-        "image": "avengers_endgame_bruce_banner.webp"
+        "image": "characters/avengers_endgame_bruce_banner.webp"
       }
     },
     {
       "actor": "84a7fc06c915c5463cc7ce32",
       "character": {
         "name": "James Rhodes / The War Machine",
-        "image": "avengers_endgame_james_rhodes.webp"
+        "image": "characters/avengers_endgame_james_rhodes.webp"
       }
     }
   ],
@@ -246,7 +246,7 @@
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "poster": "avengers_4.webp",
+  "poster": "posters/avengers_4.webp",
   "style": "Live-Action",
   "trailers": [
     "TcMBFSGVi1c"

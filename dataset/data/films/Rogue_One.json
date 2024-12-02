@@ -75,7 +75,7 @@
       "actor": "a5c580aab49791a22e7f3b74",
       "character": {
         "name": "K-2SO",
-        "image": "rogue_one_k_2so.webp"
+        "image": "characters/rogue_one_k_2so.webp"
       }
     },
     {
@@ -158,7 +158,7 @@
     "Lucasfilm",
     "Walt Disney Pictures"
   ],
-  "poster": "rogue_one.webp",
+  "poster": "posters/rogue_one.webp",
   "style": "Live-Action",
   "trailers": [
     "frdj1zb9sMY"

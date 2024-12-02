@@ -105,7 +105,7 @@
       "actor": "a65bc3f407cd83dd8b26db19",
       "character": {
         "name": "Bruce Banner / Hulk",
-        "image": "thor_ragnarok_bruce_banner.webp"
+        "image": "characters/thor_ragnarok_bruce_banner.webp"
       }
     },
     {
@@ -143,7 +143,7 @@
     "Walt Disney Pictures",
     "Marvel Studios"
   ],
-  "poster": "thor_3.webp",
+  "poster": "posters/thor_3.webp",
   "style": "Live-Action",
   "trailers": [
     "ue80QwXMRHg"

@@ -24,10 +24,7 @@ const RandomFilms = () => {
           key={film._id}
           className={styles.filmLink}
         >
-          <Image
-            src={buildMediaPath('posters', film.poster)}
-            className={styles.image}
-          />
+          <Image src={buildMediaPath(film.poster)} className={styles.image} />
         </Link>
       ))}
     </ScrollableWrapper>

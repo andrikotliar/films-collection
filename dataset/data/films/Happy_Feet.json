@@ -72,42 +72,42 @@
     {
       "character": {
         "name": "Mumble",
-        "image": "happy_feet_mumble.webp"
+        "image": "characters/happy_feet_mumble.webp"
       },
       "actor": "afed96df0db76b317cb36711"
     },
     {
       "character": {
         "name": "Gloria",
-        "image": "happy_feet_gloria.webp"
+        "image": "characters/happy_feet_gloria.webp"
       },
       "actor": "46cb6620a73ad72d46726772"
     },
     {
       "character": {
         "name": "Memphis",
-        "image": "happy_feet_memphis.webp"
+        "image": "characters/happy_feet_memphis.webp"
       },
       "actor": "544abb6ffddc8ddf4056b862"
     },
     {
       "character": {
         "name": "Norma Jean",
-        "image": "happy_feet_norma_jean.webp"
+        "image": "characters/happy_feet_norma_jean.webp"
       },
       "actor": "e6459d81bab075fc3755cec2"
     },
     {
       "character": {
         "name": "Noah the Elder",
-        "image": "happy_feet_noah_the_elder.webp"
+        "image": "characters/happy_feet_noah_the_elder.webp"
       },
       "actor": "9d72ccad0a0c60872b91d2d3"
     },
     {
       "character": {
         "name": "Lovelace",
-        "image": "happy_feet_lovelace.webp"
+        "image": "characters/happy_feet_lovelace.webp"
       },
       "actor": "f5de152199c29694307ff207"
     }
@@ -150,7 +150,7 @@
     "Warner Bros. Pictures",
     "Village Roadshow Pictures"
   ],
-  "poster": "happy_feet.webp",
+  "poster": "posters/happy_feet.webp",
   "style": "Animation",
   "trailers": [
     "hFUC5adf8FE"

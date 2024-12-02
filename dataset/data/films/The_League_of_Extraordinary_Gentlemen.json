@@ -97,7 +97,7 @@
       "actor": "8d34f6ffde757618a3f13712",
       "character": {
         "name": "Dr. Henry Jekyll / Edward Hyde",
-        "image": "the_league_of_extraordinary_gentlemen_dr_henry_jekyll.webp"
+        "image": "characters/the_league_of_extraordinary_gentlemen_dr_henry_jekyll.webp"
       }
     },
     {
@@ -126,7 +126,7 @@
   "studios": [
     "20th Century FOX"
   ],
-  "poster": "league_of_extraordinary_gentlemen.webp",
+  "poster": "posters/league_of_extraordinary_gentlemen.webp",
   "style": "Live-Action",
   "trailers": [
     "_WWIiTlGyYQ"
