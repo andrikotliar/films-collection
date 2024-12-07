@@ -40,7 +40,7 @@ class AuthService implements IAuthService {
 
   #createAccessToken(payload: AccessTokenPayload) {
     const token = this.jwtService.sign(payload, {
-      expiresIn: '5s',
+      expiresIn: '24h',
     });
 
     return token;

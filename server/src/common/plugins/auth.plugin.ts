@@ -37,6 +37,7 @@ const registerAuthPlugin = (fastify: FastifyInstance, env: EnvVariables) => {
         const token = request.cookies[CookieName.ACCESS_TOKEN];
 
         if (!token) {
+          reply.clearCookie(CookieName.ACCESS_TOKEN);
           return replyWithUnauthenticatedError(reply);
         }
 
@@ -51,6 +52,7 @@ const registerAuthPlugin = (fastify: FastifyInstance, env: EnvVariables) => {
         request.user = user;
       } catch (error: any) {
         request.log.error(`[AUTH MIDDLEWARE ERROR]: ${error?.message}`);
+        reply.clearCookie(CookieName.ACCESS_TOKEN);
 
         return replyWithUnauthenticatedError(reply);
       }
