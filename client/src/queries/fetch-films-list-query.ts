@@ -3,7 +3,7 @@ import { apiClient } from '@/services';
 import { FilmsListFilters, FilmsListResponse } from '@/types';
 import { queryOptions } from '@tanstack/react-query';
 
-const fetchFilmsListQuery = (params: FilmsListFilters) => {
+export const fetchFilmsListQuery = (params: FilmsListFilters) => {
   return queryOptions({
     queryKey: ['films-collection-list', params] as const,
     queryFn: ({ queryKey }) => {
@@ -18,5 +18,3 @@ const fetchFilmsListQuery = (params: FilmsListFilters) => {
     retry: false,
   });
 };
-
-export { fetchFilmsListQuery };

@@ -3,7 +3,7 @@ import { apiClient } from '@/services';
 import { InitialData } from '@/types';
 import { queryOptions } from '@tanstack/react-query';
 
-const fetchInitialDataQuery = () => {
+export const fetchInitialDataQuery = () => {
   return queryOptions({
     queryKey: ['initial-data'],
     queryFn: async () => {
@@ -14,5 +14,3 @@ const fetchInitialDataQuery = () => {
     staleTime: Infinity,
   });
 };
-
-export { fetchInitialDataQuery };
