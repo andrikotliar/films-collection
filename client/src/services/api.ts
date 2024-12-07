@@ -1,4 +1,5 @@
-import { HttpMethod } from '@/enums';
+import { HttpMethod, LocalStorageKey } from '@/enums';
+import { redirect } from '@tanstack/react-router';
 
 interface IFetchOptions extends RequestInit {
   queryParams?: {
@@ -60,6 +61,11 @@ class ApiClient {
 
       return result as Promise<T>;
     } catch (error: any) {
+      if (error?.response?.statusCode === 401) {
+        localStorage.removeItem(LocalStorageKey.IS_AUTHENTICATED);
+        throw redirect({ to: '/login' });
+      }
+
       throw error;
     }
   }
