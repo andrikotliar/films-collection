@@ -8,3 +8,4 @@ export * from './award';
 export * from './collection';
 export * from './list-option';
 export * from './initial-data';
+export * from './auth';

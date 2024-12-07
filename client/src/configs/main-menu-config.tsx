@@ -6,27 +6,29 @@ import {
   PieChartIcon,
 } from 'lucide-react';
 
-const mainMenu: MenuConfigItem[] = [
+export const mainMenu: MenuConfigItem[] = [
   {
+    id: 'root',
     title: 'Films',
     route: '/',
     icon: <LibraryBigIcon />,
   },
   {
+    id: 'stats',
     title: 'Statistic',
     route: '/statistic',
     icon: <PieChartIcon />,
   },
   {
+    id: 'about',
     title: 'About',
     route: '/about',
     icon: <InfoIcon />,
   },
   {
+    id: 'console',
     title: 'Console',
-    route: '/console',
+    route: '/console/pending',
     icon: <FolderCogIcon />,
   },
 ];
-
-export { mainMenu };

@@ -4,6 +4,9 @@ interface IFetchOptions extends RequestInit {
   queryParams?: {
     [key: string]: any;
   };
+  payload?: {
+    [key: string]: any;
+  };
 }
 
 class HttpError extends Error {
@@ -52,12 +55,13 @@ class ApiClient {
       const result = await response.json();
 
       if (!response.ok) {
+        console.log('Fire response');
         throw new HttpError(response.status, response.statusText, result);
       }
 
       return result as Promise<T>;
     } catch (error: any) {
-      throw new Error(error);
+      throw error;
     }
   }
 
@@ -70,45 +74,45 @@ class ApiClient {
 
   async post<T = unknown>(
     path: string,
-    options?: Pick<IFetchOptions, 'body' | 'queryParams'>,
+    options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
   ) {
     return await this.request<T>(path, {
       ...options,
       method: HttpMethod.POST,
-      body: options?.body ? JSON.stringify(options.body) : undefined,
+      body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
 
   async patch<T = unknown>(
     path: string,
-    options?: Pick<IFetchOptions, 'body' | 'queryParams'>,
+    options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
   ) {
     return await this.request<T>(path, {
       ...options,
       method: HttpMethod.PATCH,
-      body: options?.body ? JSON.stringify(options.body) : undefined,
+      body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
 
   async put<T = unknown>(
     path: string,
-    options?: Pick<IFetchOptions, 'body' | 'queryParams'>,
+    options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
   ) {
     return await this.request<T>(path, {
       ...options,
       method: HttpMethod.PUT,
-      body: options?.body ? JSON.stringify(options.body) : undefined,
+      body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
 
   async delete<T = unknown>(
     path: string,
-    options?: Pick<IFetchOptions, 'body' | 'queryParams'>,
+    options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
   ) {
     return await this.request<T>(path, {
       ...options,
       method: HttpMethod.DELETE,
-      body: options?.body ? JSON.stringify(options.body) : undefined,
+      body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
 
@@ -137,4 +141,4 @@ class ApiClient {
 
 const apiClient = new ApiClient(import.meta.env.VITE_SERVER_URL);
 
-export { apiClient };
+export { apiClient, HttpError };

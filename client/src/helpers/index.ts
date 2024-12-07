@@ -11,3 +11,4 @@ export * from './get-formatted-date';
 export * from './get-formatted-money-value';
 export * from './get-plural-word';
 export * from './get-filter-options';
+export * from './get-is-auth-state';

@@ -3,12 +3,12 @@ import { useState } from 'react';
 import { SlidersHorizontalIcon } from 'lucide-react';
 import classNames from 'classnames';
 import { Loader } from '@/components';
-import { useQuery, useSuspenseQuery } from '@tanstack/react-query';
+import { useSuspenseQuery } from '@tanstack/react-query';
 import { fetchInitialDataQuery } from '@/queries';
 import { Filters } from '../Filters/Filters';
 import { MOBILE_VIEW_BREAKPOINT_PX } from '@/constants';
 
-const Sidebar = () => {
+export const Sidebar = () => {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
   const [filtersCount, setFiltersCount] = useState(0);
 
@@ -55,5 +55,3 @@ const Sidebar = () => {
     </>
   );
 };
-
-export { Sidebar };

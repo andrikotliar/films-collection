@@ -15,3 +15,7 @@ export * from './ScrollableWrapper/ScrollableWrapper';
 export * from './LogoLoader/LogoLoader';
 export * from './FormDatePicker/FormDatePicker';
 export * from './ArticleContent/ArticleContent';
+export * from './FormTextInput/FormTextInput';
+export * from './FormTextInput/FormPasswordInput';
+export * from './ConsoleLayout/ConsoleLayout';
+export * from './ErrorMessage/ErrorMessage';
