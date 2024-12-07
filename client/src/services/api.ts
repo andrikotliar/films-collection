@@ -55,7 +55,6 @@ class ApiClient {
       const result = await response.json();
 
       if (!response.ok) {
-        console.log('Fire response');
         throw new HttpError(response.status, response.statusText, result);
       }
 

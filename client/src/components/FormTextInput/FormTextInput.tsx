@@ -18,8 +18,6 @@ export const FormTextInput: FC<FormInputProps> = ({
 
   const { errors } = formState;
 
-  console.log(errors);
-
   return (
     <label className={styles.inputWrapper}>
       {label && <span className={styles.label}>{label}</span>}
