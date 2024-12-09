@@ -153,7 +153,10 @@ class ApiClient {
 const apiClient = new ApiClient({
   baseUrl: import.meta.env.VITE_SERVER_URL,
   onErrorCallback: (error) => {
-    if (error?.response?.statusCode === 401) {
+    if (
+      !window.location.pathname.includes('login') &&
+      error?.response?.statusCode === 401
+    ) {
       localStorage.removeItem(LocalStorageKey.IS_AUTHENTICATED);
       throw redirect({ to: '/login' });
     }
