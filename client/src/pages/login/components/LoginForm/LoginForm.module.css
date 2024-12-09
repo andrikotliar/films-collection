@@ -1,0 +1,12 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-grow: 1;
+  max-width: 480px;
+}
+
+.loginLogo {
+  width: 120px;
+  margin: 0 auto;
+}

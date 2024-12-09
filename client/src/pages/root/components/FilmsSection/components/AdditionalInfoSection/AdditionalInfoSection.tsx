@@ -7,9 +7,7 @@ type AdditionalInfoProps = {
   info: AdditionalInfo | null;
 };
 
-const AdditionalInfoSection: FC<AdditionalInfoProps> = ({ info }) => {
-  console.log(info);
-
+export const AdditionalInfoSection: FC<AdditionalInfoProps> = ({ info }) => {
   if (!info) {
     return null;
   }
@@ -45,5 +43,3 @@ const AdditionalInfoSection: FC<AdditionalInfoProps> = ({ info }) => {
 
   return null;
 };
-
-export { AdditionalInfoSection };

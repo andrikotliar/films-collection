@@ -1,10 +1,19 @@
-import { HttpMethod } from '@/enums';
+import { HttpMethod, LocalStorageKey } from '@/enums';
+import { redirect } from '@tanstack/react-router';
 
 interface IFetchOptions extends RequestInit {
   queryParams?: {
     [key: string]: any;
   };
+  payload?: {
+    [key: string]: any;
+  };
 }
+
+type ApiClientOptions = {
+  baseUrl: string;
+  onErrorCallback?: (error: HttpError) => void;
+};
 
 class HttpError extends Error {
   readonly status: number;
@@ -22,9 +31,11 @@ class HttpError extends Error {
 
 class ApiClient {
   #baseUrl: string;
+  #onErrorCallback: ApiClientOptions['onErrorCallback'];
 
-  constructor(baseUrl: string) {
-    this.#baseUrl = baseUrl;
+  constructor(config: ApiClientOptions) {
+    this.#baseUrl = config.baseUrl;
+    this.#onErrorCallback = config.onErrorCallback;
   }
 
   async request<T = unknown>(
@@ -57,7 +68,11 @@ class ApiClient {
 
       return result as Promise<T>;
     } catch (error: any) {
-      throw new Error(error);
+      if (this.#onErrorCallback) {
+        this.#onErrorCallback(error);
+      }
+
+      throw error;
     }
   }
 
@@ -70,45 +85,45 @@ class ApiClient {
 
   async post<T = unknown>(
     path: string,
-    options?: Pick<IFetchOptions, 'body' | 'queryParams'>,
+    options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
   ) {
     return await this.request<T>(path, {
       ...options,
       method: HttpMethod.POST,
-      body: options?.body ? JSON.stringify(options.body) : undefined,
+      body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
 
   async patch<T = unknown>(
     path: string,
-    options?: Pick<IFetchOptions, 'body' | 'queryParams'>,
+    options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
   ) {
     return await this.request<T>(path, {
       ...options,
       method: HttpMethod.PATCH,
-      body: options?.body ? JSON.stringify(options.body) : undefined,
+      body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
 
   async put<T = unknown>(
     path: string,
-    options?: Pick<IFetchOptions, 'body' | 'queryParams'>,
+    options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
   ) {
     return await this.request<T>(path, {
       ...options,
       method: HttpMethod.PUT,
-      body: options?.body ? JSON.stringify(options.body) : undefined,
+      body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
 
   async delete<T = unknown>(
     path: string,
-    options?: Pick<IFetchOptions, 'body' | 'queryParams'>,
+    options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
   ) {
     return await this.request<T>(path, {
       ...options,
       method: HttpMethod.DELETE,
-      body: options?.body ? JSON.stringify(options.body) : undefined,
+      body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
 
@@ -135,6 +150,14 @@ class ApiClient {
   }
 }
 
-const apiClient = new ApiClient(import.meta.env.VITE_SERVER_URL);
+const apiClient = new ApiClient({
+  baseUrl: import.meta.env.VITE_SERVER_URL,
+  onErrorCallback: (error) => {
+    if (error?.response?.statusCode === 401) {
+      localStorage.removeItem(LocalStorageKey.IS_AUTHENTICATED);
+      throw redirect({ to: '/login' });
+    }
+  },
+});
 
-export { apiClient };
+export { apiClient, HttpError };

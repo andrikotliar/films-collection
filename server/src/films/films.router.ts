@@ -39,6 +39,16 @@ const registerFilmsRouter = (app: FastifyInstance) => {
   });
 
   app.route({
+    method: 'POST',
+    url: '/films',
+    preHandler: [app.authenticate],
+    handler: (request, reply) => {
+      console.log(request.cookies);
+      return 'Hello world';
+    },
+  });
+
+  app.route({
     method: 'GET',
     url: '/films/anniversaries',
     handler: (request, reply) => {

@@ -5,7 +5,6 @@ import { CollectionModel } from 'src/collections/collections.model';
 import { ListsService } from 'src/lists/lists.service';
 import { ListsModel } from 'src/lists/lists.model';
 import { InitialDataController } from './initial-data.controller';
-import { request } from 'http';
 
 const registerInitialDataRouter = (app: FastifyInstance) => {
   const collectionsService = new CollectionsService(CollectionModel);

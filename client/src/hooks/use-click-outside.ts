@@ -7,7 +7,7 @@ type Options = {
   closeHandler: VoidFunction;
 };
 
-const useClickOutside = ({
+export const useClickOutside = ({
   isOpen,
   triggerElementRef,
   containerRef,
@@ -35,5 +35,3 @@ const useClickOutside = ({
     };
   }, [isOpen]);
 };
-
-export { useClickOutside };

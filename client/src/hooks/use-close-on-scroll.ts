@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-const useCloseOnScroll = (closeHandler: VoidFunction) => {
+export const useCloseOnScroll = (closeHandler: VoidFunction) => {
   useEffect(() => {
     document.addEventListener('scroll', closeHandler);
 
@@ -9,5 +9,3 @@ const useCloseOnScroll = (closeHandler: VoidFunction) => {
     };
   }, []);
 };
-
-export { useCloseOnScroll };

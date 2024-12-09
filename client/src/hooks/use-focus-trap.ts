@@ -15,7 +15,7 @@ const queryFocusableElements = (container: HTMLElement) => {
   return focusableElements;
 };
 
-const useFocusTrap = ({
+export const useFocusTrap = ({
   container,
   trigger,
   isOpen,
@@ -60,5 +60,3 @@ const useFocusTrap = ({
     }
   }, [container, trigger, isOpen]);
 };
-
-export { useFocusTrap };
