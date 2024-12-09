@@ -4,13 +4,16 @@ import fastifyCookie from '@fastify/cookie';
 import { env, connectDatabase } from './config';
 import { initRoutes } from './init-routes';
 import { registerAuthPlugin } from './common';
+import ajvErrors from 'ajv-errors';
 
 const app = fastify({
   logger: env.NODE_ENV === 'development',
   ajv: {
     customOptions: {
       removeAdditional: 'all',
+      allErrors: true,
     },
+    plugins: [ajvErrors],
   },
 });
 
