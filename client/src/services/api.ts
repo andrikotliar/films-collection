@@ -10,6 +10,11 @@ interface IFetchOptions extends RequestInit {
   };
 }
 
+type ApiClientOptions = {
+  baseUrl: string;
+  onErrorCallback?: (error: HttpError) => void;
+};
+
 class HttpError extends Error {
   readonly status: number;
   readonly message: string;
@@ -26,9 +31,11 @@ class HttpError extends Error {
 
 class ApiClient {
   #baseUrl: string;
+  #onErrorCallback: ApiClientOptions['onErrorCallback'];
 
-  constructor(baseUrl: string) {
-    this.#baseUrl = baseUrl;
+  constructor(config: ApiClientOptions) {
+    this.#baseUrl = config.baseUrl;
+    this.#onErrorCallback = config.onErrorCallback;
   }
 
   async request<T = unknown>(
@@ -61,9 +68,8 @@ class ApiClient {
 
       return result as Promise<T>;
     } catch (error: any) {
-      if (error?.response?.statusCode === 401) {
-        localStorage.removeItem(LocalStorageKey.IS_AUTHENTICATED);
-        throw redirect({ to: '/login' });
+      if (this.#onErrorCallback) {
+        this.#onErrorCallback(error);
       }
 
       throw error;
@@ -144,6 +150,14 @@ class ApiClient {
   }
 }
 
-const apiClient = new ApiClient(import.meta.env.VITE_SERVER_URL);
+const apiClient = new ApiClient({
+  baseUrl: import.meta.env.VITE_SERVER_URL,
+  onErrorCallback: (error) => {
+    if (error?.response?.statusCode === 401) {
+      localStorage.removeItem(LocalStorageKey.IS_AUTHENTICATED);
+      throw redirect({ to: '/login' });
+    }
+  },
+});
 
 export { apiClient, HttpError };
