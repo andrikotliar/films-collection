@@ -1,6 +1,9 @@
 import { useEffect } from 'react';
 
-const useCloseOnEscape = (isOpen: boolean, closeHandler: VoidFunction) => {
+export const useCloseOnEscape = (
+  isOpen: boolean,
+  closeHandler: VoidFunction,
+) => {
   useEffect(() => {
     if (isOpen) {
       const closeOnEscKey = (event: KeyboardEvent) => {
@@ -17,5 +20,3 @@ const useCloseOnEscape = (isOpen: boolean, closeHandler: VoidFunction) => {
     }
   }, [isOpen]);
 };
-
-export { useCloseOnEscape };
