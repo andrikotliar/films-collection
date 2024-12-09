@@ -33,6 +33,7 @@ class AuthController implements IAuthController {
       httpOnly: true,
       secure: env.NODE_ENV !== 'development',
       path: '/',
+      sameSite: 'none',
     });
 
     return reply.status(ResponseCode.OK).send({ userId: result.userId });
