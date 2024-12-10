@@ -39,7 +39,9 @@
   border: 1px solid var(--blue-default);
   border-radius: var(--app-border-radius);
   text-transform: uppercase;
-  transition: color 0.3s, background-color 0.3s;
+  transition:
+    color 0.3s,
+    background-color 0.3s;
   text-align: center;
   flex-grow: 1;
 }
@@ -47,4 +49,10 @@
 .link:hover {
   color: #fff;
   background-color: var(--blue-default);
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 50px;
+  }
 }
