@@ -3,7 +3,6 @@ import {
   CalendarSyncIcon,
   ClapperboardIcon,
   Grid2X2PlusIcon,
-  TextSearchIcon,
 } from 'lucide-react';
 
 export const consoleMenuConfig: MenuConfigItem[] = [
@@ -14,15 +13,9 @@ export const consoleMenuConfig: MenuConfigItem[] = [
     icon: <CalendarSyncIcon />,
   },
   {
-    id: 'missing',
-    route: '/console/missing',
-    title: 'Missing fields',
-    icon: <TextSearchIcon />,
-  },
-  {
-    id: 'create',
-    route: '/console/create',
-    title: 'Create film',
+    id: 'manage',
+    route: '/console/manage',
+    title: 'Manage films',
     icon: <ClapperboardIcon />,
   },
   {
