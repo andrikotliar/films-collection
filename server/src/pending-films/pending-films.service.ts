@@ -1,5 +1,5 @@
 import { PendingFilmsModel } from './pending-films.model';
-import { IPendingFilmsService } from './types';
+import { IPendingFilmsService, PendingFilmEntity } from './types';
 
 export class PendingFilmsService implements IPendingFilmsService {
   private pendingFilmsModel: typeof PendingFilmsModel;
@@ -10,5 +10,11 @@ export class PendingFilmsService implements IPendingFilmsService {
 
   getList() {
     return this.pendingFilmsModel.find();
+  }
+
+  createPendingFilm(film: Pick<PendingFilmEntity, 'title' | 'priority'>) {
+    const pendingFilm = new this.pendingFilmsModel(film);
+
+    return pendingFilm.save();
   }
 }

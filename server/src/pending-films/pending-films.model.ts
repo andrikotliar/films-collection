@@ -11,6 +11,13 @@ const PendingFilmSchema = new Schema<PendingFilmEntity>({
     required: false,
     default: new Date(),
   },
+  priority: {
+    type: Number,
+    required: false,
+    default: 1,
+    min: 1,
+    max: 3,
+  },
 });
 
 const PendingFilmsModel = model<PendingFilmEntity>(

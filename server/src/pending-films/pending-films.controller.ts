@@ -1,8 +1,9 @@
 import { FastifyReply, FastifyRequest } from 'fastify';
 import { PendingFilmsService } from './pending-films.service';
 import { ResponseCode } from 'src/common';
+import { CreatePendingFilmRequest, IPendingFilmsController } from './types';
 
-export class PendingFilmsController {
+export class PendingFilmsController implements IPendingFilmsController {
   private pendingFilmsService: PendingFilmsService;
 
   constructor(pendingFilmsService: PendingFilmsService) {
@@ -12,6 +13,17 @@ export class PendingFilmsController {
   async getList(_: FastifyRequest, reply: FastifyReply) {
     const list = await this.pendingFilmsService.getList();
 
-    reply.code(ResponseCode.OK).send(list);
+    return reply.code(ResponseCode.OK).send(list);
+  }
+
+  async createPendingFilm(
+    request: CreatePendingFilmRequest,
+    reply: FastifyReply,
+  ): Promise<never> {
+    const createdPendingFilm = await this.pendingFilmsService.createPendingFilm(
+      request.body,
+    );
+
+    return reply.code(ResponseCode.CREATED).send(createdPendingFilm);
   }
 }
