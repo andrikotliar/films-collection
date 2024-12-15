@@ -1,24 +1,19 @@
-import fs from 'node:fs';
+import fs from 'node:fs/promises';
+import { logger } from './logger.js';
 
-const getFileData = async (path) => {
-  const promise = new Promise((resolve, reject) => {
-    fs.readFile(path, (error, data) => {
-      if (error) {
-        reject(error.message ?? `Failed processing file ${path}`);
-        return;
-      }
+/**
+ *
+ * @param {string} path
+ * @returns {Promise<{ [key: string]: unknown } | null>}
+ */
+export const getFileData = async (path) => {
+  try {
+    const data = await fs.readFile(path);
+    const parsedData = JSON.parse(data);
 
-      try {
-        const parsedData = JSON.parse(data);
-
-        resolve(parsedData);
-      } catch (error) {
-        reject(error?.message ?? `Error while processing file data in ${path}`);
-      }
-    });
-  });
-
-  return promise;
+    return parsedData;
+  } catch (error) {
+    logger.error('Error processing file', path, error?.message);
+    return null;
+  }
 };
-
-export { getFileData };

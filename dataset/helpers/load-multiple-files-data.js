@@ -1,14 +1,14 @@
+import fs from 'node:fs/promises';
 import { ObjectId } from 'mongodb';
 import { logger } from './logger.js';
-import { getFilesList } from './get-files-list.js';
 import { getFileData } from './get-file-data.js';
 
 /**
  * @param {string} folderPath
- * @returns {unknown[]}
+ * @returns {Promise<unknown[]>}
  */
-const loadMultipleFilesData = async (folderPath) => {
-  const filesList = await getFilesList(folderPath);
+export const loadMultipleFilesData = async (folderPath) => {
+  const filesList = await fs.readdir(folderPath);
   const now = new Date();
 
   logger.startProcess('Started loading files by path:', folderPath);
@@ -38,5 +38,3 @@ const loadMultipleFilesData = async (folderPath) => {
 
   return dataset;
 };
-
-export { loadMultipleFilesData };

@@ -1,63 +1,23 @@
 import { insertDataIntoCollection } from '../helpers/insert-data.js';
-import { logger } from '../helpers/logger.js';
+import { selectCollections } from '../helpers/select-collections.js';
 
-const selectCollections = (source, requestedCollections) => {
-  if (!requestedCollections.length) {
-    return {
-      toSkip: [],
-      toInsert: source,
-    };
-  }
-
-  return requestedCollections.reduce(
-    (result, currentCollection) => {
-      const config = source.find(
-        (config) => currentCollection === config.dbCollection,
-      );
-
-      if (!config) {
-        result.toSkip.push(currentCollection);
-        return result;
-      }
-
-      result.toInsert.push(config);
-
-      return result;
-    },
-    {
-      toSkip: [],
-      toInsert: [],
-    },
-  );
-};
-
-const insertCollections = async ({
+export const insertCollections = async ({
   cliParams,
   collectionsConfig,
   database,
 }) => {
-  const collectionsToInsert = selectCollections(
+  const collections = selectCollections(
     collectionsConfig,
     cliParams.collections,
   );
 
-  if (collectionsToInsert.toSkip.length) {
-    const collectionsListString = collectionsToInsert.toSkip.join(', ');
-
-    logger.warning(
-      `Unknown collections [${collectionsListString}] are skipped.`,
-    );
-  }
-
-  if (!collectionsToInsert.toInsert.length) {
+  if (!collections.length) {
     return;
   }
 
-  for (const config of collectionsToInsert.toInsert) {
+  for (const config of collections) {
     const mongoDbCollection = database.collection(config.dbCollection);
 
     await insertDataIntoCollection(mongoDbCollection, config.loader);
   }
 };
-
-export { insertCollections };

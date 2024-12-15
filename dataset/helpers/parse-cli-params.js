@@ -15,7 +15,7 @@ const getParsedValue = (value, type) => {
   return value;
 };
 
-const parseCliParams = () => {
+export const parseCliParams = () => {
   const terminalArgs = process.argv;
 
   if (
@@ -56,5 +56,3 @@ const parseCliParams = () => {
 
   return params;
 };
-
-export { parseCliParams };
