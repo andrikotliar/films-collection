@@ -1,7 +1,14 @@
 import { loadMultipleFilesData } from '../helpers/load-multiple-files-data.js';
 import { loadJsonData } from '../helpers/load-json-data.js';
 
-const collectionsConfig = [
+/**
+ * @typedef {Object} Config
+ * @property {string} dbCollection
+ * @property {(...args: any[]) => Promise<unknown[]>} loader
+ */
+
+/** @type {Config[]} */
+export const collectionsConfig = [
   {
     dbCollection: 'films',
     loader: () => loadMultipleFilesData('./data/films'),
@@ -27,5 +34,3 @@ const collectionsConfig = [
     loader: () => loadJsonData('./data/supporting/collections.json'),
   },
 ];
-
-export { collectionsConfig };

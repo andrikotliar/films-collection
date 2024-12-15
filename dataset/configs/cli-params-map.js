@@ -1,4 +1,4 @@
-const cliParamsMap = {
+export const cliParamsMap = {
   '--env-file': {
     prop: 'envFile',
     type: 'string',
@@ -12,5 +12,3 @@ const cliParamsMap = {
     type: 'number',
   },
 };
-
-export { cliParamsMap };

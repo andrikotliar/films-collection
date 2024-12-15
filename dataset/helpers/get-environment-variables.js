@@ -28,7 +28,7 @@ const validateVariables = (env) => {
   }
 };
 
-const getEnvironmentVariables = (cliParams) => {
+export const getEnvironmentVariables = (cliParams) => {
   const { parsed: envVariables, error } = config({
     path: cliParams.envFile,
   });
@@ -47,5 +47,3 @@ const getEnvironmentVariables = (cliParams) => {
     },
   };
 };
-
-export { getEnvironmentVariables };
