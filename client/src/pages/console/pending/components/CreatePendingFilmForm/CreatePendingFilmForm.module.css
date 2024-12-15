@@ -31,3 +31,15 @@
 .submitButton {
   background-color: var(--blue-default);
 }
+
+@media (max-width: 480px) {
+  .formContent {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .titleInput,
+  .prioritySelect {
+    width: 100%;
+  }
+}

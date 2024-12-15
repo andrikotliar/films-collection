@@ -28,3 +28,9 @@
 .createFilmButton:hover {
   background-color: var(--green-dark);
 }
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 14px;
+  }
+}
