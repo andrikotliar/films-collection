@@ -2,7 +2,7 @@ import { FastifyInstance } from 'fastify';
 import { PendingFilmsService } from './pending-films.service';
 import { PendingFilmsModel } from './pending-films.model';
 import { PendingFilmsController } from './pending-films.controller';
-import { CreatePendingFilmRequest } from './types';
+import { CreatePendingFilmRequest, GetPendingFilmRequest } from './types';
 
 export const registerPendingFilmsRouter = (app: FastifyInstance) => {
   const pendingFilmsService = new PendingFilmsService(PendingFilmsModel);
@@ -14,8 +14,8 @@ export const registerPendingFilmsRouter = (app: FastifyInstance) => {
     method: 'GET',
     url: '/pending-films',
     preHandler: [app.authenticate],
-    handler: (...attrs) => {
-      return pendingFilmsController.getList(...attrs);
+    handler: (request: GetPendingFilmRequest, reply) => {
+      return pendingFilmsController.getList(request, reply);
     },
   });
 

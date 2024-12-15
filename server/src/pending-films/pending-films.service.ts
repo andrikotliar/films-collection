@@ -1,5 +1,10 @@
 import { PendingFilmsModel } from './pending-films.model';
-import { IPendingFilmsService, PendingFilmEntity } from './types';
+import {
+  GetListQuery,
+  IPendingFilmsService,
+  PendingFilmEntity,
+  PendingFilmsFilter,
+} from './types';
 
 export class PendingFilmsService implements IPendingFilmsService {
   private pendingFilmsModel: typeof PendingFilmsModel;
@@ -8,13 +13,43 @@ export class PendingFilmsService implements IPendingFilmsService {
     this.pendingFilmsModel = pendingFilmsModel;
   }
 
-  getList() {
-    return this.pendingFilmsModel.find();
+  getList(queryFilters: GetListQuery) {
+    const { filters, options } = this.getListFilters(queryFilters);
+
+    return this.pendingFilmsModel.find(filters, null, options);
   }
 
   createPendingFilm(film: Pick<PendingFilmEntity, 'title' | 'priority'>) {
     const pendingFilm = new this.pendingFilmsModel(film);
 
     return pendingFilm.save();
+  }
+
+  private getListFilters(queryFilters: GetListQuery) {
+    const filters: PendingFilmsFilter = {};
+
+    if (queryFilters.q) {
+      filters.title = {
+        $regex: queryFilters.q,
+        $options: 'i',
+      };
+    }
+
+    if (queryFilters.priority) {
+      filters.priority = queryFilters.priority;
+    }
+
+    const sortingKey = queryFilters.sortingField ?? 'createdAt';
+
+    return {
+      filters,
+      options: {
+        limit: 30,
+        skip: queryFilters.skip ?? 0,
+        sort: {
+          [sortingKey]: queryFilters.sortingDirection ?? 'desc',
+        },
+      },
+    };
   }
 }

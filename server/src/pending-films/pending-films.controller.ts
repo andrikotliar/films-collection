@@ -1,7 +1,11 @@
 import { FastifyReply, FastifyRequest } from 'fastify';
 import { PendingFilmsService } from './pending-films.service';
 import { ResponseCode } from 'src/common';
-import { CreatePendingFilmRequest, IPendingFilmsController } from './types';
+import {
+  CreatePendingFilmRequest,
+  GetPendingFilmRequest,
+  IPendingFilmsController,
+} from './types';
 
 export class PendingFilmsController implements IPendingFilmsController {
   private pendingFilmsService: PendingFilmsService;
@@ -10,8 +14,8 @@ export class PendingFilmsController implements IPendingFilmsController {
     this.pendingFilmsService = pendingFilmsService;
   }
 
-  async getList(_: FastifyRequest, reply: FastifyReply) {
-    const list = await this.pendingFilmsService.getList();
+  async getList(request: GetPendingFilmRequest, reply: FastifyReply) {
+    const list = await this.pendingFilmsService.getList(request.query);
 
     return reply.code(ResponseCode.OK).send(list);
   }

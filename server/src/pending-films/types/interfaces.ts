@@ -1,9 +1,10 @@
 import { FastifyReply, FastifyRequest } from 'fastify';
 import { PendingFilmEntity } from './pending-film.entity';
 import { CreatePendingFilmRequest } from './requests';
+import { GetListQuery } from './get-list-query';
 
 export interface IPendingFilmsService {
-  getList(): Promise<PendingFilmEntity[]>;
+  getList(filters: Partial<GetListQuery>): Promise<PendingFilmEntity[]>;
   createPendingFilm(
     payload: Pick<PendingFilmEntity, 'title' | 'priority'>,
   ): Promise<PendingFilmEntity>;
