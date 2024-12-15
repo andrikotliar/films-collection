@@ -4,6 +4,7 @@ import { EyeIcon, EyeOffIcon } from 'lucide-react';
 import { FC, useState } from 'react';
 import { useFormContext } from 'react-hook-form';
 import { FieldError } from '../FieldError/FieldError';
+import { FormItemLabel } from '../FormItemLabel/FormItemLabel';
 
 type FormPasswordProps = {
   name: string;
@@ -35,7 +36,7 @@ export const FormPasswordInput: FC<FormPasswordProps> = ({
 
   return (
     <label className={styles.inputWrapper}>
-      {label && <span className={styles.label}>{label}</span>}
+      {label && <FormItemLabel>{label}</FormItemLabel>}
       <div className={styles.fieldWrapper}>
         <input
           type={inputType}

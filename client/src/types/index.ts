@@ -10,3 +10,4 @@ export * from './list-option';
 export * from './initial-data';
 export * from './auth';
 export * from './pending-film';
+export * from './select-option';

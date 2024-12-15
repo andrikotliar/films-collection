@@ -10,6 +10,7 @@
 
 .formContent {
   display: flex;
+  align-items: flex-start;
   gap: 20px;
 }
 
@@ -19,7 +20,12 @@
 }
 
 .titleInput {
-  width: 90%;
+  flex-grow: 1;
+}
+
+.prioritySelect {
+  width: 200px;
+  flex-shrink: 0;
 }
 
 .submitButton {

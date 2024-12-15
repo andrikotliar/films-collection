@@ -1,0 +1,30 @@
+.pendingFilmRow {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 10px;
+  border-bottom: var(--app-border);
+}
+
+.pendingFilmRow:last-child {
+  border-bottom: 0;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.createFilmButton {
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: var(--blue-default);
+  margin-left: auto;
+}
+
+.createFilmButton:hover {
+  background-color: var(--green-dark);
+}

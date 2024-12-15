@@ -1,11 +1,27 @@
 import styles from './CreatePendingFilmForm.module.css';
-import { Button, FormTextInput } from '@/components';
+import { Button, FormSelect, FormTextInput } from '@/components';
+import { Priority } from '@/enums';
 import { SaveIcon } from 'lucide-react';
 import { FC, FormEventHandler } from 'react';
 
 type CreatePendingFilmFormProps = {
   onSubmit: FormEventHandler;
 };
+
+const prioritySelectOptions = [
+  {
+    label: Priority.LOW,
+    value: 1,
+  },
+  {
+    label: Priority.MEDIUM,
+    value: 2,
+  },
+  {
+    label: Priority.HIGH,
+    value: 3,
+  },
+];
 
 export const CreatePendingFilmForm: FC<CreatePendingFilmFormProps> = ({
   onSubmit,
@@ -19,11 +35,11 @@ export const CreatePendingFilmForm: FC<CreatePendingFilmFormProps> = ({
           label="Title"
           className={styles.titleInput}
         />
-        <FormTextInput
+        <FormSelect
           name="priority"
           label="Priority"
-          type="number"
-          className={styles.priorityInput}
+          className={styles.prioritySelect}
+          options={prioritySelectOptions}
         />
       </div>
       <Button type="submit" icon={<SaveIcon />}>

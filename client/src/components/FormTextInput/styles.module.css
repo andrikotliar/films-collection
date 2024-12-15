@@ -10,20 +10,15 @@
   border-radius: var(--app-border-radius);
   border: var(--app-border);
   outline-color: var(--blue-default);
+  transition: border-color 300ms;
+}
+
+.textInput:hover {
+  border-color: var(--gray-dark);
 }
 
 .passwordInput {
   padding-right: 50px;
-}
-
-.label {
-  color: var(--gray-dark);
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.textInput:focus > .label {
-  color: var(--blue-default);
 }
 
 .fieldWrapper {
