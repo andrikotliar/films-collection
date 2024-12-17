@@ -6,6 +6,7 @@ type UserEntity = {
   username: string;
   password: string;
   role: UserRole;
+  refreshToken: string | null;
 };
 
 export type { UserEntity };
