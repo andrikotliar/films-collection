@@ -34,7 +34,7 @@ The personal collection of favorite films.
 4. In the root run the `npm run dev`. It will start both client and server via `concurrently`.
 5. Open `http://localhost:3030`
 
-To prepopulate the database with data, go to the `dataset` folder and follow instructions in the `README`.
+To seed the database with data, go to the `dataset` folder and follow instructions in the `README`.
 
 ## Build project
 
