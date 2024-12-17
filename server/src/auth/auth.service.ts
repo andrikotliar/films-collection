@@ -78,7 +78,7 @@ export class AuthService {
   }
 
   private createAuthTokens(userId: ObjectId) {
-    const accessToken = this.createToken({ id: userId }, '60s');
+    const accessToken = this.createToken({ id: userId }, '5s');
     const refreshToken = this.createToken({ id: userId }, '7d');
 
     return {
