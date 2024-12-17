@@ -2,13 +2,12 @@ import {
   AdditionalInfo,
   FilmsServiceDependencies,
   FindAllQueries,
-  IFilmsService,
 } from './types';
 import { getFormattedDate, mapFilters } from './helpers';
 import { ActorType } from '../actors/types';
 import { Collection } from 'src/collections/types';
 
-class FilmsService implements IFilmsService {
+class FilmsService {
   private filmsModel;
   private actorsService;
   private chaptersService;
@@ -42,7 +41,7 @@ class FilmsService implements IFilmsService {
 
     const total = await this.filmsModel.countDocuments(parsedFilters);
 
-    const additionalInfo = await this.#populateAdditionalData(queries);
+    const additionalInfo = await this.populateAdditionalData(queries);
 
     return { films, total, additionalInfo };
   }
@@ -152,7 +151,7 @@ class FilmsService implements IFilmsService {
     return filteredList;
   }
 
-  async #populateAdditionalData(
+  private async populateAdditionalData(
     query: FindAllQueries,
   ): Promise<AdditionalInfo | null> {
     const { actorId, personName, personRole, collection, awards } = query;

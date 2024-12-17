@@ -1,4 +1,4 @@
-import { HttpMethod, LocalStorageKey } from '@/enums';
+import { HttpMethod, LocalStorageKey, ServerErrorCode } from '@/enums';
 import { redirect } from '@tanstack/react-router';
 
 interface IFetchOptions extends RequestInit {
@@ -32,6 +32,7 @@ class HttpError extends Error {
 class ApiClient {
   #baseUrl: string;
   #onErrorCallback: ApiClientOptions['onErrorCallback'];
+  #refreshTokenPromise: Promise<void> | null = null;
 
   constructor(config: ApiClientOptions) {
     this.#baseUrl = config.baseUrl;
@@ -68,6 +69,20 @@ class ApiClient {
 
       return result as Promise<T>;
     } catch (error: any) {
+      if (error.response?.error === ServerErrorCode.FAST_JWT_EXPIRED) {
+        try {
+          await this.#refreshToken();
+
+          return this.request<T>(path, options);
+        } catch (refreshError: any) {
+          if (this.#onErrorCallback) {
+            this.#onErrorCallback(refreshError);
+          }
+
+          throw refreshError;
+        }
+      }
+
       if (this.#onErrorCallback) {
         this.#onErrorCallback(error);
       }
@@ -147,6 +162,33 @@ class ApiClient {
     const queryString = params.toString();
 
     return `${path}?${queryString}`;
+  }
+
+  async #refreshToken(): Promise<void> {
+    if (this.#refreshTokenPromise) {
+      return this.#refreshTokenPromise!;
+    }
+
+    this.#refreshTokenPromise = new Promise(async (resolve, reject) => {
+      try {
+        const response = await fetch(`${this.#baseUrl}/auth/refresh`, {
+          method: 'POST',
+          credentials: 'include',
+        });
+
+        if (!response.ok) {
+          throw new Error('Failed to refresh token');
+        }
+
+        resolve();
+      } catch (error) {
+        reject(error);
+      } finally {
+        this.#refreshTokenPromise;
+      }
+    });
+
+    return this.#refreshTokenPromise;
   }
 }
 

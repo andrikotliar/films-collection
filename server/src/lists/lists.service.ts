@@ -1,7 +1,7 @@
 import { ListsModel } from './lists.model';
-import { IListsService, GroupedLists } from './types';
+import { GroupedLists } from './types';
 
-class ListsService implements IListsService {
+class ListsService {
   private listsModel;
 
   constructor(listsModel: typeof ListsModel) {

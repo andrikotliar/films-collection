@@ -1,10 +1,6 @@
-import {
-  IInitialDataService,
-  InitialData,
-  InitialDataServiceDependencies,
-} from './types';
+import { InitialData, InitialDataServiceDependencies } from './types';
 
-class InitialDataService implements IInitialDataService {
+class InitialDataService {
   private collectionsService;
   private listsService;
 

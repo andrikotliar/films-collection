@@ -1,1 +1,1 @@
-export * from './get-error-response';
+export * from './send-error-response';

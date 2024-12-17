@@ -1,7 +1,6 @@
 import { ActorModel } from './actors.model';
-import { IActorsService } from './types';
 
-class ActorsService implements IActorsService {
+class ActorsService {
   private actorsModel;
 
   constructor(actorsModel: typeof ActorModel) {

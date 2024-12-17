@@ -3,4 +3,3 @@ export * from './filters';
 export * from './requests';
 export * from './dependencies';
 export * from './films';
-export * from './interfaces';

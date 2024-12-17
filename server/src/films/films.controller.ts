@@ -1,14 +1,9 @@
 import { FastifyRequest, FastifyReply } from 'fastify';
 import { FilmsService } from './films.service';
-import {
-  FindAllRequest,
-  FindOneRequest,
-  IFilmsController,
-  SearchRequest,
-} from './types';
-import { getErrorResponse, ResponseCode } from '../common';
+import { FindAllRequest, FindOneRequest, SearchRequest } from './types';
+import { sendErrorResponse, ResponseCode, ErrorCode } from '../common';
 
-class FilmsController implements IFilmsController {
+class FilmsController {
   filmsService: FilmsService;
 
   constructor(filmsService: FilmsService) {
@@ -25,14 +20,11 @@ class FilmsController implements IFilmsController {
     const data = await this.filmsService.getOneFilm(request.params.id);
 
     if (!data) {
-      return reply
-        .code(ResponseCode.NOT_FOUND)
-        .send(
-          getErrorResponse(
-            ResponseCode.NOT_FOUND,
-            `Film with the ${request.params.id} not found`,
-          ),
-        );
+      return sendErrorResponse(reply, {
+        statusCode: ResponseCode.NOT_FOUND,
+        message: `Film with the ${request.params.id} not found`,
+        error: ErrorCode.NOT_FOUND,
+      });
     }
 
     return reply.code(ResponseCode.OK).send(data);

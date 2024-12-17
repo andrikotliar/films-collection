@@ -1,7 +1,6 @@
 import { PendingFilmsModel } from './pending-films.model';
-import { IPendingFilmsService } from './types';
 
-export class PendingFilmsService implements IPendingFilmsService {
+export class PendingFilmsService {
   private pendingFilmsModel: typeof PendingFilmsModel;
 
   constructor(pendingFilmsModel: typeof PendingFilmsModel) {
