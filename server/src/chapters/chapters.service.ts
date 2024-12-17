@@ -1,6 +1,6 @@
 import { ChaptersModel } from './chapters.model';
 
-class ChaptersService {
+export class ChaptersService {
   private chaptersModel;
 
   constructor(chaptersModel: typeof ChaptersModel) {
@@ -13,5 +13,3 @@ class ChaptersService {
     return chaptersList;
   }
 }
-
-export { ChaptersService };

@@ -1,6 +1,6 @@
 import { FastifySchema } from 'fastify';
 
-const loginSchema: FastifySchema = {
+export const loginSchema: FastifySchema = {
   body: {
     type: 'object',
     properties: {
@@ -15,5 +15,3 @@ const loginSchema: FastifySchema = {
     additionalProperties: false,
   },
 };
-
-export { loginSchema };

@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import { env } from './env';
 import { FastifyInstance } from 'fastify';
 
-const connectDatabase = async (app: FastifyInstance) => {
+export const connectDatabase = async (app: FastifyInstance) => {
   try {
     await mongoose.connect(env.MONGODB_URI);
 
@@ -12,5 +12,3 @@ const connectDatabase = async (app: FastifyInstance) => {
     process.exit(1);
   }
 };
-
-export { connectDatabase };

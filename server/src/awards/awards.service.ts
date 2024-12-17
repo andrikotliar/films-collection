@@ -1,6 +1,6 @@
 import { AwardModel } from './awards.model';
 
-class AwardsService {
+export class AwardsService {
   private awardsModel;
 
   constructor(awardsModel: typeof AwardModel) {
@@ -20,5 +20,3 @@ class AwardsService {
       .lean();
   }
 }
-
-export { AwardsService };

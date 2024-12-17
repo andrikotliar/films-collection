@@ -7,7 +7,7 @@ import { getFormattedDate, mapFilters } from './helpers';
 import { ActorType } from '../actors/types';
 import { Collection } from 'src/collections/types';
 
-class FilmsService {
+export class FilmsService {
   private filmsModel;
   private actorsService;
   private chaptersService;
@@ -198,5 +198,3 @@ class FilmsService {
     return null;
   }
 }
-
-export { FilmsService };

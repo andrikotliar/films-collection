@@ -13,9 +13,7 @@ const PendingFilmSchema = new Schema<PendingFilmEntity>({
   },
 });
 
-const PendingFilmsModel = model<PendingFilmEntity>(
+export const PendingFilmsModel = model<PendingFilmEntity>(
   'PendingFilms',
   PendingFilmSchema,
 );
-
-export { PendingFilmsModel };

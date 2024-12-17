@@ -1,6 +1,6 @@
 import { ActorModel } from './actors.model';
 
-class ActorsService {
+export class ActorsService {
   private actorsModel;
 
   constructor(actorsModel: typeof ActorModel) {
@@ -13,5 +13,3 @@ class ActorsService {
     return actor;
   }
 }
-
-export { ActorsService };

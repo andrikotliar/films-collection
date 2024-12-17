@@ -1,6 +1,6 @@
 import { FastifySchema } from 'fastify';
 
-const searchSchema: FastifySchema = {
+export const searchSchema: FastifySchema = {
   querystring: {
     type: 'object',
     properties: {
@@ -11,5 +11,3 @@ const searchSchema: FastifySchema = {
     required: ['q'],
   },
 };
-
-export { searchSchema };

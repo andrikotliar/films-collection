@@ -2,7 +2,7 @@ import { FastifyRequest, FastifyReply } from 'fastify';
 import { InitialDataService } from './initial-data.service';
 import { ResponseCode } from 'src/common';
 
-class InitialDataController {
+export class InitialDataController {
   private initialDataService;
 
   constructor(initialDataService: InitialDataService) {
@@ -15,5 +15,3 @@ class InitialDataController {
     return reply.code(ResponseCode.OK).send(data);
   }
 }
-
-export { InitialDataController };

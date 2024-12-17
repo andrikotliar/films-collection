@@ -13,7 +13,7 @@ import { AwardModel } from 'src/awards/awards.model';
 import { CollectionsService } from 'src/collections/collections.service';
 import { CollectionModel } from 'src/collections/collections.model';
 
-const registerFilmsRouter = (app: FastifyInstance) => {
+export const registerFilmsRouter = (app: FastifyInstance) => {
   const actorsService = new ActorsService(ActorModel);
   const chaptersService = new ChaptersService(ChaptersModel);
   const awardsService = new AwardsService(AwardModel);
@@ -81,5 +81,3 @@ const registerFilmsRouter = (app: FastifyInstance) => {
     },
   });
 };
-
-export { registerFilmsRouter };

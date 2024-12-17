@@ -6,7 +6,7 @@ import { ListsService } from 'src/lists/lists.service';
 import { ListsModel } from 'src/lists/lists.model';
 import { InitialDataController } from './initial-data.controller';
 
-const registerInitialDataRouter = (app: FastifyInstance) => {
+export const registerInitialDataRouter = (app: FastifyInstance) => {
   const collectionsService = new CollectionsService(CollectionModel);
   const listsService = new ListsService(ListsModel);
 
@@ -25,5 +25,3 @@ const registerInitialDataRouter = (app: FastifyInstance) => {
     },
   });
 };
-
-export { registerInitialDataRouter };

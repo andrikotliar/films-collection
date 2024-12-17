@@ -3,7 +3,7 @@ import { FilmsService } from './films.service';
 import { FindAllRequest, FindOneRequest, SearchRequest } from './types';
 import { sendErrorResponse, ResponseCode, ErrorCode } from '../common';
 
-class FilmsController {
+export class FilmsController {
   filmsService: FilmsService;
 
   constructor(filmsService: FilmsService) {
@@ -50,5 +50,3 @@ class FilmsController {
     return reply.code(ResponseCode.OK).send(data);
   }
 }
-
-export { FilmsController };
