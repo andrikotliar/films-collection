@@ -1,7 +1,7 @@
 import { ListsModel } from './lists.model';
 import { GroupedLists } from './types';
 
-class ListsService {
+export class ListsService {
   private listsModel;
 
   constructor(listsModel: typeof ListsModel) {
@@ -18,5 +18,3 @@ class ListsService {
     }, {} as GroupedLists);
   }
 }
-
-export { ListsService };

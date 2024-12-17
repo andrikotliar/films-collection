@@ -4,7 +4,7 @@ import { registerInitialDataRouter } from './initial-data/initial-data.router';
 import { registerAuthRouter } from './auth/auth.router';
 import { registerPendingFilmsRouter } from './pending-films/pending-films.router';
 
-const initRoutes = (app: FastifyInstance) => {
+export const initRoutes = (app: FastifyInstance) => {
   app.register(
     (instance, _, done) => {
       registerAuthRouter(instance);
@@ -17,5 +17,3 @@ const initRoutes = (app: FastifyInstance) => {
     { prefix: '/api' },
   );
 };
-
-export { initRoutes };

@@ -14,6 +14,4 @@ const ListSchema = new Schema<List>({
   },
 });
 
-const ListsModel = model<List>('Lists', ListSchema);
-
-export { ListsModel };
+export const ListsModel = model<List>('Lists', ListSchema);

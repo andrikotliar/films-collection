@@ -7,8 +7,9 @@ type ErrorPayload = {
   message: string;
 };
 
-const sendErrorResponse = (reply: FastifyReply, payload: ErrorPayload) => {
+export const sendErrorResponse = (
+  reply: FastifyReply,
+  payload: ErrorPayload,
+) => {
   return reply.status(payload.statusCode).send(payload);
 };
-
-export { sendErrorResponse };

@@ -1,7 +1,7 @@
 import { CollectionModel } from './collections.model';
 import { GroupedCollections } from './types';
 
-class CollectionsService {
+export class CollectionsService {
   private collectionsModel;
 
   constructor(collectionsModel: typeof CollectionModel) {
@@ -37,5 +37,3 @@ class CollectionsService {
     }, {} as GroupedCollections);
   }
 }
-
-export { CollectionsService };

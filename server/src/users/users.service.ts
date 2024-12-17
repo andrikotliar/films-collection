@@ -5,7 +5,7 @@ import { UsersModel } from './users.model';
 import { hash } from 'bcrypt';
 import { ObjectId } from 'mongoose';
 
-class UsersService {
+export class UsersService {
   private usersModel: typeof UsersModel;
 
   constructor(usersModel: typeof UsersModel) {
@@ -49,5 +49,3 @@ class UsersService {
     return user;
   }
 }
-
-export { UsersService };

@@ -31,6 +31,4 @@ const getEnvVariables = (): EnvVariables => {
   };
 };
 
-const env = getEnvVariables();
-
-export { env };
+export const env = getEnvVariables();

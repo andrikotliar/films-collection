@@ -1,6 +1,6 @@
 import { InitialData, InitialDataServiceDependencies } from './types';
 
-class InitialDataService {
+export class InitialDataService {
   private collectionsService;
   private listsService;
 
@@ -21,5 +21,3 @@ class InitialDataService {
     };
   }
 }
-
-export { InitialDataService };

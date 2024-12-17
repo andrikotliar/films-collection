@@ -13,7 +13,10 @@ declare module 'fastify' {
   }
 }
 
-const registerAuthPlugin = (fastify: FastifyInstance, env: EnvVariables) => {
+export const registerAuthPlugin = (
+  fastify: FastifyInstance,
+  env: EnvVariables,
+) => {
   fastify.register(fastifyJwt, {
     secret: env.AUTH_SECRET,
     cookie: {
@@ -60,5 +63,3 @@ const registerAuthPlugin = (fastify: FastifyInstance, env: EnvVariables) => {
     },
   );
 };
-
-export { registerAuthPlugin };
