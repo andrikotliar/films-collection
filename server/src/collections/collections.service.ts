@@ -1,7 +1,7 @@
 import { CollectionModel } from './collections.model';
-import { GroupedCollections, ICollectionsService } from './types';
+import { GroupedCollections } from './types';
 
-class CollectionsService implements ICollectionsService {
+class CollectionsService {
   private collectionsModel;
 
   constructor(collectionsModel: typeof CollectionModel) {

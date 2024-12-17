@@ -1,14 +1,9 @@
 import { FastifyRequest, FastifyReply } from 'fastify';
 import { FilmsService } from './films.service';
-import {
-  FindAllRequest,
-  FindOneRequest,
-  IFilmsController,
-  SearchRequest,
-} from './types';
+import { FindAllRequest, FindOneRequest, SearchRequest } from './types';
 import { getErrorResponse, ResponseCode } from '../common';
 
-class FilmsController implements IFilmsController {
+class FilmsController {
   filmsService: FilmsService;
 
   constructor(filmsService: FilmsService) {

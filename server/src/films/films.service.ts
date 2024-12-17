@@ -2,13 +2,12 @@ import {
   AdditionalInfo,
   FilmsServiceDependencies,
   FindAllQueries,
-  IFilmsService,
 } from './types';
 import { getFormattedDate, mapFilters } from './helpers';
 import { ActorType } from '../actors/types';
 import { Collection } from 'src/collections/types';
 
-class FilmsService implements IFilmsService {
+class FilmsService {
   private filmsModel;
   private actorsService;
   private chaptersService;

@@ -1,9 +1,8 @@
 import { FastifyRequest, FastifyReply } from 'fastify';
 import { InitialDataService } from './initial-data.service';
-import { IInitialDataController } from './types';
 import { ResponseCode } from 'src/common';
 
-class InitialDataController implements IInitialDataController {
+class InitialDataController {
   private initialDataService;
 
   constructor(initialDataService: InitialDataService) {
