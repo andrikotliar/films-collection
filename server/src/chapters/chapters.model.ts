@@ -10,6 +10,4 @@ const ChapterSchema = new Schema<Chapter>({
   ],
 });
 
-const ChaptersModel = model<Chapter>('Chapters', ChapterSchema);
-
-export { ChaptersModel };
+export const ChaptersModel = model<Chapter>('Chapters', ChapterSchema);

@@ -12,6 +12,4 @@ const ActorSchema = new Schema<ActorType>({
   },
 });
 
-const ActorModel = model<ActorType>('Actors', ActorSchema);
-
-export { ActorModel };
+export const ActorModel = model<ActorType>('Actors', ActorSchema);

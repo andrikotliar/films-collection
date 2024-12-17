@@ -1,11 +1,11 @@
 import { fastifyJwt } from '@fastify/jwt';
 import { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
 import { EnvVariables } from '../types';
-import { CookieName, ResponseCode, UserRole } from '../enums';
-import { getErrorResponse } from '../helpers';
+import { CookieName, ErrorCode, ResponseCode, UserRole } from '../enums';
+import { sendErrorResponse } from '../helpers';
 import { UsersService } from 'src/users/users.service';
 import { UsersModel } from 'src/users/users.model';
-import { AccessTokenPayload } from 'src/auth/types';
+import { TokenPayload } from 'src/auth/types';
 
 declare module 'fastify' {
   export interface FastifyInstance {
@@ -13,13 +13,10 @@ declare module 'fastify' {
   }
 }
 
-const replyWithUnauthenticatedError = (reply: FastifyReply) => {
-  return reply
-    .status(ResponseCode.UNAUTHENTICATED)
-    .send(getErrorResponse(ResponseCode.UNAUTHENTICATED, 'Unauthenticated'));
-};
-
-const registerAuthPlugin = (fastify: FastifyInstance, env: EnvVariables) => {
+export const registerAuthPlugin = (
+  fastify: FastifyInstance,
+  env: EnvVariables,
+) => {
   fastify.register(fastifyJwt, {
     secret: env.AUTH_SECRET,
     cookie: {
@@ -37,27 +34,32 @@ const registerAuthPlugin = (fastify: FastifyInstance, env: EnvVariables) => {
         const token = request.cookies[CookieName.ACCESS_TOKEN];
 
         if (!token) {
-          reply.clearCookie(CookieName.ACCESS_TOKEN);
-          return replyWithUnauthenticatedError(reply);
+          throw new Error('Missing token in cookies');
         }
 
-        const decoded = fastify.jwt.verify<AccessTokenPayload>(token);
+        const decoded = fastify.jwt.verify<TokenPayload>(token);
 
         const user = await userService.getUser(decoded.id);
 
         if (!user || user.role !== UserRole.ADMIN) {
-          return replyWithUnauthenticatedError(reply);
+          throw new Error('User not found or not allowed to proceed');
         }
 
         request.user = user;
       } catch (error: any) {
         request.log.error(`[AUTH MIDDLEWARE ERROR]: ${error?.message}`);
+
         reply.clearCookie(CookieName.ACCESS_TOKEN);
 
-        return replyWithUnauthenticatedError(reply);
+        return sendErrorResponse(reply, {
+          statusCode: ResponseCode.UNAUTHENTICATED,
+          error:
+            error?.code === ErrorCode.FAST_JWT_EXPIRED
+              ? ErrorCode.FAST_JWT_EXPIRED
+              : ErrorCode.UNAUTHENTICATED,
+          message: 'Unauthenticated',
+        });
       }
     },
   );
 };
-
-export { registerAuthPlugin };

@@ -17,8 +17,11 @@ const UserSchema = new Schema<UserEntity>({
     enum: Object.values(UserRole),
     required: true,
   },
+  refreshToken: {
+    type: String,
+    required: false,
+    default: null,
+  },
 });
 
-const UsersModel = model('Users', UserSchema);
-
-export { UsersModel };
+export const UsersModel = model('Users', UserSchema);

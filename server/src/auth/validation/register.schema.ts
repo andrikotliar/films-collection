@@ -1,6 +1,6 @@
 import { FastifySchema } from 'fastify';
 
-const registerSchema: FastifySchema = {
+export const registerSchema: FastifySchema = {
   body: {
     type: 'object',
     properties: {
@@ -20,5 +20,3 @@ const registerSchema: FastifySchema = {
     additionalProperties: false,
   },
 };
-
-export { registerSchema };

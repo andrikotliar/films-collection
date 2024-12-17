@@ -1,7 +1,6 @@
 import { ChaptersModel } from './chapters.model';
-import { IChaptersService } from './types';
 
-class ChaptersService implements IChaptersService {
+export class ChaptersService {
   private chaptersModel;
 
   constructor(chaptersModel: typeof ChaptersModel) {
@@ -14,5 +13,3 @@ class ChaptersService implements IChaptersService {
     return chaptersList;
   }
 }
-
-export { ChaptersService };

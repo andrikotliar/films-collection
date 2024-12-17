@@ -6,7 +6,7 @@ import { AuthController } from './auth.controller';
 import { FastifyLoginRequest, FastifyRegisterRequest } from './types';
 import { loginSchema, registerSchema } from './validation';
 
-const registerAuthRouter = (app: FastifyInstance) => {
+export const registerAuthRouter = (app: FastifyInstance) => {
   const usersService = new UsersService(UsersModel);
   const authService = new AuthService(usersService, app.jwt);
 
@@ -29,6 +29,12 @@ const registerAuthRouter = (app: FastifyInstance) => {
       return authController.register(request, reply);
     },
   });
-};
 
-export { registerAuthRouter };
+  app.route({
+    method: 'POST',
+    url: '/auth/refresh',
+    handler: (...args) => {
+      return authController.refreshTokens(...args);
+    },
+  });
+};

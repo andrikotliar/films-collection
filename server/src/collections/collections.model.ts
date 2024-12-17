@@ -19,6 +19,7 @@ const CollectionSchema = new Schema<Collection>({
   },
 });
 
-const CollectionModel = model<Collection>('Collections', CollectionSchema);
-
-export { CollectionModel };
+export const CollectionModel = model<Collection>(
+  'Collections',
+  CollectionSchema,
+);

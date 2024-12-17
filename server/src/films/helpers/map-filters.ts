@@ -23,7 +23,7 @@ const getMoneyRangeFilter = (value: number) => {
   };
 };
 
-const mapFilters = (plainFilters: Partial<FindAllFilters>) => {
+export const mapFilters = (plainFilters: Partial<FindAllFilters>) => {
   const {
     genres,
     collection,
@@ -124,5 +124,3 @@ const mapFilters = (plainFilters: Partial<FindAllFilters>) => {
 
   return filters;
 };
-
-export { mapFilters };

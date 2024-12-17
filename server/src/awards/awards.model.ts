@@ -20,6 +20,4 @@ const AwardSchema = new Schema<Award>({
   },
 });
 
-const AwardModel = model<Award>('Awards', AwardSchema);
-
-export { AwardModel };
+export const AwardModel = model<Award>('Awards', AwardSchema);

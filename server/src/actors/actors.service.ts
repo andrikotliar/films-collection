@@ -1,7 +1,6 @@
 import { ActorModel } from './actors.model';
-import { IActorsService } from './types';
 
-class ActorsService implements IActorsService {
+export class ActorsService {
   private actorsModel;
 
   constructor(actorsModel: typeof ActorModel) {
@@ -14,5 +13,3 @@ class ActorsService implements IActorsService {
     return actor;
   }
 }
-
-export { ActorsService };

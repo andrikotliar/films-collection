@@ -1,10 +1,11 @@
 import { UsersService } from 'src/users/users.service';
-import { AccessTokenPayload, IAuthService, AuthCredentials } from './types';
+import { AuthCredentials, TokenPayload } from './types';
 import { compare } from 'bcrypt';
 import { UserRole } from 'src/common';
-import { JWT } from '@fastify/jwt';
+import { JWT, SignOptions } from '@fastify/jwt';
+import { ObjectId } from 'mongoose';
 
-class AuthService implements IAuthService {
+export class AuthService {
   private usersService: UsersService;
   private jwtService: JWT;
 
@@ -26,10 +27,48 @@ class AuthService implements IAuthService {
       return null;
     }
 
-    const accessToken = this.#createAccessToken({ id: user._id });
+    const { accessToken, refreshToken } = this.createAuthTokens(user._id);
+
+    await this.usersService.setRefreshToken(user._id, refreshToken);
 
     return {
       accessToken,
+      refreshToken,
+      userId: user._id,
+    };
+  }
+
+  async refreshTokens(refreshTokenCookie?: string) {
+    if (!refreshTokenCookie) {
+      return null;
+    }
+
+    const decodedToken =
+      this.jwtService.decode<TokenPayload>(refreshTokenCookie);
+
+    if (!decodedToken) {
+      return null;
+    }
+
+    const user = await this.usersService.getUser(decodedToken.id);
+
+    if (!user) {
+      return null;
+    }
+
+    const isTokensMatched = refreshTokenCookie === user.refreshToken;
+
+    if (!isTokensMatched) {
+      return null;
+    }
+
+    const { accessToken, refreshToken } = this.createAuthTokens(user._id);
+
+    await this.usersService.setRefreshToken(user._id, refreshToken);
+
+    return {
+      accessToken,
+      refreshToken,
       userId: user._id,
     };
   }
@@ -38,13 +77,24 @@ class AuthService implements IAuthService {
     return this.usersService.createUser(payload);
   }
 
-  #createAccessToken(payload: AccessTokenPayload) {
+  private createAuthTokens(userId: ObjectId) {
+    const accessToken = this.createToken({ id: userId }, '24h');
+    const refreshToken = this.createToken({ id: userId }, '7d');
+
+    return {
+      accessToken,
+      refreshToken,
+    };
+  }
+
+  private createToken(
+    payload: TokenPayload,
+    expiresIn: SignOptions['expiresIn'],
+  ) {
     const token = this.jwtService.sign(payload, {
-      expiresIn: '24h',
+      expiresIn,
     });
 
     return token;
   }
 }
-
-export { AuthService };

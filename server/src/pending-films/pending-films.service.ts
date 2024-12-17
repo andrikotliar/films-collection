@@ -1,12 +1,7 @@
 import { PendingFilmsModel } from './pending-films.model';
-import {
-  GetListQuery,
-  IPendingFilmsService,
-  PendingFilmEntity,
-  PendingFilmsFilter,
-} from './types';
+import { GetListQuery, PendingFilmEntity, PendingFilmsFilter } from './types';
 
-export class PendingFilmsService implements IPendingFilmsService {
+export class PendingFilmsService {
   private pendingFilmsModel: typeof PendingFilmsModel;
 
   constructor(pendingFilmsModel: typeof PendingFilmsModel) {

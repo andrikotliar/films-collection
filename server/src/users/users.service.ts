@@ -1,11 +1,11 @@
 import { UserRole } from 'src/common';
 import { HASH_SALT_ROUNDS } from './constants';
-import { IUsersService, UserEntity } from './types';
+import { UserEntity } from './types';
 import { UsersModel } from './users.model';
 import { hash } from 'bcrypt';
 import { ObjectId } from 'mongoose';
 
-class UsersService implements IUsersService {
+export class UsersService {
   private usersModel: typeof UsersModel;
 
   constructor(usersModel: typeof UsersModel) {
@@ -38,6 +38,14 @@ class UsersService implements IUsersService {
       username: user.username,
     };
   }
-}
 
-export { UsersService };
+  async setRefreshToken(userId: ObjectId, token: string) {
+    const user = await this.usersModel.findOneAndUpdate(
+      { _id: userId },
+      { refreshToken: token },
+      { new: true, fields: { _id: 1, refreshToken: 1 } },
+    );
+
+    return user;
+  }
+}

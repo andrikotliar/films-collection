@@ -1,3 +1,1 @@
-const availableCommands = ['insert', 'delete'];
-
-export { availableCommands };
+export const availableCommands = ['insert', 'delete', 'getid'];

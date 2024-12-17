@@ -1,14 +1,17 @@
-import { FastifyReply } from 'fastify';
+import { FastifyReply, FastifyRequest } from 'fastify';
 import { AuthService } from './auth.service';
+import { FastifyLoginRequest, FastifyRegisterRequest } from './types';
 import {
-  FastifyLoginRequest,
-  FastifyRegisterRequest,
-  IAuthController,
-} from './types';
-import { CookieName, getErrorResponse, ResponseCode } from 'src/common';
-import { env } from 'src/config';
+  CookieName,
+  ErrorCode,
+  MAX_AGE_24_HOURS,
+  MAX_AGE_7_DAYS,
+  ResponseCode,
+  sendErrorResponse,
+} from 'src/common';
+import { buildCookieParams } from './helpers';
 
-class AuthController implements IAuthController {
+export class AuthController {
   private authService: AuthService;
 
   constructor(authService: AuthService) {
@@ -19,22 +22,24 @@ class AuthController implements IAuthController {
     const result = await this.authService.login(request.body);
 
     if (!result) {
-      return reply
-        .status(ResponseCode.UNAUTHENTICATED)
-        .send(
-          getErrorResponse(
-            ResponseCode.UNAUTHENTICATED,
-            'Incorrect credentials',
-          ),
-        );
+      return sendErrorResponse(reply, {
+        statusCode: ResponseCode.UNAUTHENTICATED,
+        error: ErrorCode.INCORRECT_CREDENTIALS,
+        message: 'Incorrect credentials',
+      });
     }
 
-    reply.setCookie(CookieName.ACCESS_TOKEN, result.accessToken, {
-      httpOnly: true,
-      secure: env.NODE_ENV !== 'development',
-      path: '/',
-      sameSite: env.NODE_ENV ? undefined : 'none',
-    });
+    reply.setCookie(
+      CookieName.ACCESS_TOKEN,
+      result.accessToken,
+      buildCookieParams(MAX_AGE_24_HOURS),
+    );
+
+    reply.setCookie(
+      CookieName.REFRESH_TOKEN,
+      result.refreshToken,
+      buildCookieParams(MAX_AGE_7_DAYS),
+    );
 
     return reply.status(ResponseCode.OK).send({ userId: result.userId });
   }
@@ -44,6 +49,32 @@ class AuthController implements IAuthController {
 
     return reply.status(ResponseCode.CREATED).send(createdUser);
   }
-}
 
-export { AuthController };
+  async refreshTokens(request: FastifyRequest, reply: FastifyReply) {
+    const refreshTokenCookie = request.cookies[CookieName.REFRESH_TOKEN];
+
+    const result = await this.authService.refreshTokens(refreshTokenCookie);
+
+    if (!result) {
+      return sendErrorResponse(reply, {
+        statusCode: ResponseCode.UNAUTHENTICATED,
+        error: ErrorCode.INVALID_TOKEN,
+        message: 'Unauthenticated',
+      });
+    }
+
+    reply.setCookie(
+      CookieName.ACCESS_TOKEN,
+      result.accessToken,
+      buildCookieParams(MAX_AGE_24_HOURS),
+    );
+
+    reply.setCookie(
+      CookieName.REFRESH_TOKEN,
+      result.refreshToken,
+      buildCookieParams(MAX_AGE_7_DAYS),
+    );
+
+    return reply.status(ResponseCode.OK).send({ userId: result.userId });
+  }
+}

@@ -230,6 +230,4 @@ const FilmsSchema = new Schema<FilmData>({
   },
 });
 
-const FilmsModel = model<FilmData>('Films', FilmsSchema);
-
-export { FilmsModel };
+export const FilmsModel = model<FilmData>('Films', FilmsSchema);

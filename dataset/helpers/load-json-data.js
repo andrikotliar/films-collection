@@ -4,9 +4,9 @@ import { getFileData } from './get-file-data.js';
 
 /**
  * @param {string} path
- * @returns {unknown[]}
+ * @returns {Promise<unknown[]>}
  */
-const loadJsonData = async (path) => {
+export const loadJsonData = async (path) => {
   logger.startProcess('Started loading data from:', path);
 
   const data = await getFileData(path);
@@ -26,5 +26,3 @@ const loadJsonData = async (path) => {
 
   return processData;
 };
-
-export { loadJsonData };

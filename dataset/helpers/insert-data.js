@@ -7,7 +7,7 @@ import { logger } from './logger.js';
  * @param {() => Promise<any>} getData
  * @returns {Promise<import('mongodb').InsertManyResult>}
  */
-const insertDataIntoCollection = async (collection, getData) => {
+export const insertDataIntoCollection = async (collection, getData) => {
   const data = await getData();
   const result = await collection.insertMany(data);
 
@@ -20,5 +20,3 @@ const insertDataIntoCollection = async (collection, getData) => {
 
   return result;
 };
-
-export { insertDataIntoCollection };
