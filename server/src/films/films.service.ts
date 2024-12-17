@@ -41,7 +41,7 @@ class FilmsService {
 
     const total = await this.filmsModel.countDocuments(parsedFilters);
 
-    const additionalInfo = await this.#populateAdditionalData(queries);
+    const additionalInfo = await this.populateAdditionalData(queries);
 
     return { films, total, additionalInfo };
   }
@@ -151,7 +151,7 @@ class FilmsService {
     return filteredList;
   }
 
-  async #populateAdditionalData(
+  private async populateAdditionalData(
     query: FindAllQueries,
   ): Promise<AdditionalInfo | null> {
     const { actorId, personName, personRole, collection, awards } = query;
