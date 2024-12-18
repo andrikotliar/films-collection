@@ -1,4 +1,5 @@
 import { HttpMethod, LocalStorageKey, ServerErrorCode } from '@/enums';
+import { ApiEndpoint } from '@/types';
 import { redirect } from '@tanstack/react-router';
 
 interface IFetchOptions extends RequestInit {
@@ -15,7 +16,7 @@ type ApiClientOptions = {
 };
 
 type ErrorInterceptorOriginalRequest = {
-  path: string;
+  path: ApiEndpoint;
   options?: IFetchOptions;
   [key: string]: unknown;
 };
@@ -48,7 +49,7 @@ class ApiClient {
   }
 
   async request<T = unknown>(
-    path: string,
+    path: ApiEndpoint,
     options?: IFetchOptions,
   ): Promise<T> {
     try {
@@ -83,14 +84,14 @@ class ApiClient {
   }
 
   async get<T = unknown>(
-    path: string,
+    path: ApiEndpoint,
     queryParams?: IFetchOptions['queryParams'],
   ) {
     return await this.request<T>(path, { method: HttpMethod.GET, queryParams });
   }
 
   async post<T = unknown>(
-    path: string,
+    path: ApiEndpoint,
     options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
   ) {
     return await this.request<T>(path, {
@@ -104,7 +105,7 @@ class ApiClient {
   }
 
   async patch<T = unknown>(
-    path: string,
+    path: ApiEndpoint,
     options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
   ) {
     return await this.request<T>(path, {
@@ -118,7 +119,7 @@ class ApiClient {
   }
 
   async put<T = unknown>(
-    path: string,
+    path: ApiEndpoint,
     options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
   ) {
     return await this.request<T>(path, {
@@ -132,7 +133,7 @@ class ApiClient {
   }
 
   async delete<T = unknown>(
-    path: string,
+    path: ApiEndpoint,
     options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
   ) {
     return await this.request<T>(path, {
