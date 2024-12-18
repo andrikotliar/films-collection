@@ -1,7 +1,7 @@
 import styles from './AppliedFilters.module.css';
 import { getRouteApi } from '@tanstack/react-router';
 import { XIcon } from 'lucide-react';
-import { FC, useMemo } from 'react';
+import { useMemo } from 'react';
 import { AppliedFilter } from './types';
 import { getBadgeLabel } from './helpers';
 import { FilmsListFilters } from '@/types';
@@ -18,7 +18,7 @@ const EXCLUDE_FILTERS = [
 
 const routeApi = getRouteApi('/');
 
-const AppliedFilters: FC = () => {
+export const AppliedFilters = () => {
   const navigate = routeApi.useNavigate();
   const routeSearch = routeApi.useSearch();
 
@@ -86,5 +86,3 @@ const AppliedFilters: FC = () => {
     </div>
   );
 };
-
-export { AppliedFilters };

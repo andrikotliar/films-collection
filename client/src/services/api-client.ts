@@ -1,4 +1,5 @@
 import { HttpMethod, LocalStorageKey, ServerErrorCode } from '@/enums';
+import { ApiEndpoint } from '@/types';
 import { redirect } from '@tanstack/react-router';
 
 interface IFetchOptions extends RequestInit {
@@ -12,10 +13,20 @@ interface IFetchOptions extends RequestInit {
 
 type ApiClientOptions = {
   baseUrl: string;
-  onErrorCallback?: (error: HttpError) => void;
 };
 
-class HttpError extends Error {
+type ErrorInterceptorOriginalRequest = {
+  path: ApiEndpoint;
+  options?: IFetchOptions;
+  [key: string]: unknown;
+};
+
+type ErrorInterceptor = (
+  error: HttpError,
+  originalRequestParams: ErrorInterceptorOriginalRequest,
+) => Promise<ErrorInterceptorOriginalRequest>;
+
+export class HttpError extends Error {
   readonly status: number;
   readonly message: string;
   readonly response: any;
@@ -30,35 +41,30 @@ class HttpError extends Error {
 }
 
 class ApiClient {
-  #baseUrl: string;
-  #onErrorCallback: ApiClientOptions['onErrorCallback'];
-  #refreshTokenPromise: Promise<void> | null = null;
+  private baseUrl: string;
+  private errorInterceptor: ErrorInterceptor | null = null;
 
   constructor(config: ApiClientOptions) {
-    this.#baseUrl = config.baseUrl;
-    this.#onErrorCallback = config.onErrorCallback;
+    this.baseUrl = config.baseUrl;
   }
 
   async request<T = unknown>(
-    path: string,
+    path: ApiEndpoint,
     options?: IFetchOptions,
   ): Promise<T> {
     try {
       const internalOptions: IFetchOptions = {
         ...options,
-        headers: {
-          ...options?.headers,
-          'Content-Type': 'application/json',
-        },
+        headers: options?.headers,
         credentials: 'include',
       };
 
-      const parsedPath = this.#parseQueryParams(
+      const parsedPath = this.parseQueryParams(
         path,
         internalOptions.queryParams,
       );
       const response = await fetch(
-        `${this.#baseUrl}${parsedPath}`,
+        `${this.baseUrl}${parsedPath}`,
         internalOptions,
       );
       const result = await response.json();
@@ -69,22 +75,8 @@ class ApiClient {
 
       return result as Promise<T>;
     } catch (error: any) {
-      if (error.response?.error === ServerErrorCode.FAST_JWT_EXPIRED) {
-        try {
-          await this.#refreshToken();
-
-          return this.request<T>(path, options);
-        } catch (refreshError: any) {
-          if (this.#onErrorCallback) {
-            this.#onErrorCallback(refreshError);
-          }
-
-          throw refreshError;
-        }
-      }
-
-      if (this.#onErrorCallback) {
-        this.#onErrorCallback(error);
+      if (this.errorInterceptor) {
+        return this.errorInterceptor(error, { path, options }) as Promise<T>;
       }
 
       throw error;
@@ -92,57 +84,76 @@ class ApiClient {
   }
 
   async get<T = unknown>(
-    path: string,
+    path: ApiEndpoint,
     queryParams?: IFetchOptions['queryParams'],
   ) {
     return await this.request<T>(path, { method: HttpMethod.GET, queryParams });
   }
 
   async post<T = unknown>(
-    path: string,
+    path: ApiEndpoint,
     options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
   ) {
     return await this.request<T>(path, {
       ...options,
+      headers: {
+        'Content-Type': 'application/json',
+      },
       method: HttpMethod.POST,
       body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
 
   async patch<T = unknown>(
-    path: string,
+    path: ApiEndpoint,
     options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
   ) {
     return await this.request<T>(path, {
       ...options,
+      headers: {
+        'Content-Type': 'application/json',
+      },
       method: HttpMethod.PATCH,
       body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
 
   async put<T = unknown>(
-    path: string,
+    path: ApiEndpoint,
     options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
   ) {
     return await this.request<T>(path, {
       ...options,
       method: HttpMethod.PUT,
+      headers: {
+        'Content-Type': 'application/json',
+      },
       body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
 
   async delete<T = unknown>(
-    path: string,
+    path: ApiEndpoint,
     options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
   ) {
     return await this.request<T>(path, {
       ...options,
       method: HttpMethod.DELETE,
+      headers: {
+        'Content-Type': 'application/json',
+      },
       body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
 
-  #parseQueryParams(path: string, queryParams: IFetchOptions['queryParams']) {
+  setErrorInterceptor(interceptor: ErrorInterceptor) {
+    this.errorInterceptor = interceptor;
+  }
+
+  private parseQueryParams(
+    path: string,
+    queryParams: IFetchOptions['queryParams'],
+  ) {
     if (!queryParams) {
       return path;
     }
@@ -163,46 +174,36 @@ class ApiClient {
 
     return `${path}?${queryString}`;
   }
-
-  async #refreshToken(): Promise<void> {
-    if (this.#refreshTokenPromise) {
-      return this.#refreshTokenPromise!;
-    }
-
-    this.#refreshTokenPromise = new Promise(async (resolve, reject) => {
-      try {
-        const response = await fetch(`${this.#baseUrl}/auth/refresh`, {
-          method: 'POST',
-          credentials: 'include',
-        });
-
-        if (!response.ok) {
-          throw new Error('Failed to refresh token');
-        }
-
-        resolve();
-      } catch (error) {
-        reject(error);
-      } finally {
-        this.#refreshTokenPromise;
-      }
-    });
-
-    return this.#refreshTokenPromise;
-  }
 }
 
-const apiClient = new ApiClient({
+export const apiClient = new ApiClient({
   baseUrl: import.meta.env.VITE_SERVER_URL,
-  onErrorCallback: (error) => {
-    if (
-      !window.location.pathname.includes('login') &&
-      error?.response?.statusCode === 401
-    ) {
-      localStorage.removeItem(LocalStorageKey.IS_AUTHENTICATED);
-      throw redirect({ to: '/login' });
-    }
-  },
 });
 
-export { apiClient, HttpError };
+apiClient.setErrorInterceptor(async (error, originalRequestParams) => {
+  if (error.response.statusCode === 401 && !originalRequestParams._isRetried) {
+    originalRequestParams._isRetried = true;
+
+    try {
+      if (error.response?.code !== ServerErrorCode.JWT_EXPIRED) {
+        throw error;
+      }
+
+      await apiClient.request('/auth/refresh', {
+        method: 'POST',
+      });
+
+      return apiClient.request(
+        originalRequestParams.path,
+        originalRequestParams.options,
+      );
+    } catch (error) {
+      if (!window.location.pathname.includes('login')) {
+        localStorage.removeItem(LocalStorageKey.IS_AUTHENTICATED);
+        throw redirect({ to: '/login' });
+      }
+    }
+  }
+
+  throw error;
+});

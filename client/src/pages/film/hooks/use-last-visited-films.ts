@@ -2,7 +2,7 @@ import { LocalStorageKey } from '@/enums';
 import { FilmData, FilmLinkItem } from '@/types';
 import { useEffect } from 'react';
 
-const useLastVisitedFilms = (film?: FilmData | null) => {
+export const useLastVisitedFilms = (film?: FilmData | null) => {
   useEffect(() => {
     if (!film) {
       return;
@@ -33,5 +33,3 @@ const useLastVisitedFilms = (film?: FilmData | null) => {
     );
   }, [film]);
 };
-
-export { useLastVisitedFilms };

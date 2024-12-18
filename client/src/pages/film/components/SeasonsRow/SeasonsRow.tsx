@@ -8,7 +8,7 @@ type SeasonRowProps = {
   seasons: SeasonType[];
 };
 
-const SeasonsRow: FC<SeasonRowProps> = ({ seasons }) => {
+export const SeasonsRow: FC<SeasonRowProps> = ({ seasons }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleSelectSeason: ChangeEventHandler<HTMLSelectElement> = (event) => {
@@ -41,5 +41,3 @@ const SeasonsRow: FC<SeasonRowProps> = ({ seasons }) => {
     </div>
   );
 };
-
-export { SeasonsRow };

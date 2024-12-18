@@ -3,7 +3,7 @@ import { PropsWithClassName } from '@/types';
 import { FC, PropsWithChildren } from 'react';
 import classNames from 'classnames';
 
-const ScrollableWrapper: FC<PropsWithChildren<PropsWithClassName>> = ({
+export const ScrollableWrapper: FC<PropsWithChildren<PropsWithClassName>> = ({
   children,
   className,
 }) => {
@@ -11,5 +11,3 @@ const ScrollableWrapper: FC<PropsWithChildren<PropsWithClassName>> = ({
     <div className={classNames(styles.customScroll, className)}>{children}</div>
   );
 };
-
-export { ScrollableWrapper };

@@ -23,7 +23,7 @@ export class FilmsController {
       return sendErrorResponse(reply, {
         statusCode: ResponseCode.NOT_FOUND,
         message: `Film with the ${request.params.id} not found`,
-        error: ErrorCode.NOT_FOUND,
+        code: ErrorCode.NOT_FOUND,
       });
     }
 

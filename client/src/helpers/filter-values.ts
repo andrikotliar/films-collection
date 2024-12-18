@@ -2,7 +2,7 @@ type Values = {
   [key: string]: any;
 };
 
-const filterValues = (values: Values) => {
+export const filterValues = (values: Values) => {
   const filteredObject: Values = {};
 
   for (const key in values) {
@@ -13,5 +13,3 @@ const filterValues = (values: Values) => {
 
   return filteredObject;
 };
-
-export { filterValues };

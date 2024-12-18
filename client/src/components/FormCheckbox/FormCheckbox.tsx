@@ -10,7 +10,7 @@ type FormCheckboxProps = {
   name: string;
 };
 
-const FormCheckbox: FC<FormCheckboxProps> = ({
+export const FormCheckbox: FC<FormCheckboxProps> = ({
   type = 'checkbox',
   label,
   value,
@@ -28,5 +28,3 @@ const FormCheckbox: FC<FormCheckboxProps> = ({
     </label>
   );
 };
-
-export { FormCheckbox };

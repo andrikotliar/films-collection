@@ -9,7 +9,7 @@ const baseQueryParams = {
   skip: 0,
 };
 
-const buildQueryLink = (query: Query) => {
+export const buildQueryLink = (query: Query) => {
   const localQuery = { ...baseQueryParams, ...query };
 
   const queryStrings = Object.entries(localQuery).map(([param, value]) => {
@@ -23,5 +23,3 @@ const buildQueryLink = (query: Query) => {
 
   return `/?${queryLink}`;
 };
-
-export { buildQueryLink };

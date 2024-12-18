@@ -8,7 +8,11 @@ type VideoProps = {
   isFullSize?: boolean;
 };
 
-const Video: FC<VideoProps> = ({ trailerId, autoPlay, isFullSize = false }) => {
+export const Video: FC<VideoProps> = ({
+  trailerId,
+  autoPlay,
+  isFullSize = false,
+}) => {
   return (
     <div
       className={classNames(styles.video, {
@@ -23,5 +27,3 @@ const Video: FC<VideoProps> = ({ trailerId, autoPlay, isFullSize = false }) => {
     </div>
   );
 };
-
-export { Video };

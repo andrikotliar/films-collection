@@ -7,7 +7,7 @@ type FilmsGridProps = {
   films: FilmsListItem[];
 };
 
-const FilmsGrid: FC<FilmsGridProps> = ({ films }) => {
+export const FilmsGrid: FC<FilmsGridProps> = ({ films }) => {
   return (
     <div className={styles.grid}>
       {films.map((film) => (
@@ -16,5 +16,3 @@ const FilmsGrid: FC<FilmsGridProps> = ({ films }) => {
     </div>
   );
 };
-
-export { FilmsGrid };

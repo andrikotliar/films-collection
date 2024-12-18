@@ -1,4 +1,4 @@
-const getYearFromDate = (dateString?: string) => {
+export const getYearFromDate = (dateString?: string) => {
   if (!dateString) {
     return 'N/A';
   }
@@ -7,5 +7,3 @@ const getYearFromDate = (dateString?: string) => {
 
   return date.getFullYear();
 };
-
-export { getYearFromDate };

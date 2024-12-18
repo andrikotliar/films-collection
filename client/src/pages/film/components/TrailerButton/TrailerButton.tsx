@@ -8,7 +8,7 @@ type TrailerButtonProps = {
   title?: string;
 };
 
-const TrailerButton: FC<TrailerButtonProps> = ({ trailers }) => {
+export const TrailerButton: FC<TrailerButtonProps> = ({ trailers }) => {
   const [isTrailerOpen, setIsTrailerOpen] = useState(false);
 
   const handleCloseTrailer = () => {
@@ -34,5 +34,3 @@ const TrailerButton: FC<TrailerButtonProps> = ({ trailers }) => {
     </>
   );
 };
-
-export { TrailerButton };

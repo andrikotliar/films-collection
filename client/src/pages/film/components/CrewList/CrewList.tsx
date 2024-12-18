@@ -6,7 +6,7 @@ type CrewListProps = {
   crew: Crew[];
 };
 
-const CrewList: FC<CrewListProps> = ({ crew }) => {
+export const CrewList: FC<CrewListProps> = ({ crew }) => {
   return (
     <div>
       {crew.map((crewItem) => (
@@ -15,5 +15,3 @@ const CrewList: FC<CrewListProps> = ({ crew }) => {
     </div>
   );
 };
-
-export { CrewList };

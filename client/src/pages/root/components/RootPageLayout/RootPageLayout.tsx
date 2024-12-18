@@ -4,7 +4,7 @@ import { ComponentProps, FC, PropsWithChildren } from 'react';
 
 type RootPageLayoutProps = ComponentProps<'div'>;
 
-const RootPageLayout: FC<PropsWithChildren<RootPageLayoutProps>> = ({
+export const RootPageLayout: FC<PropsWithChildren<RootPageLayoutProps>> = ({
   children,
   className,
   ...rest
@@ -15,5 +15,3 @@ const RootPageLayout: FC<PropsWithChildren<RootPageLayoutProps>> = ({
     </div>
   );
 };
-
-export { RootPageLayout };

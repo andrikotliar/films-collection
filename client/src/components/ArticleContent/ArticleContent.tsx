@@ -4,7 +4,7 @@ import { ComponentProps, FC, PropsWithChildren } from 'react';
 
 type ArticleContentProps = ComponentProps<'article'>;
 
-const ArticleContent: FC<PropsWithChildren<ArticleContentProps>> = ({
+export const ArticleContent: FC<PropsWithChildren<ArticleContentProps>> = ({
   children,
   className,
 }) => {
@@ -14,5 +14,3 @@ const ArticleContent: FC<PropsWithChildren<ArticleContentProps>> = ({
     </article>
   );
 };
-
-export { ArticleContent };

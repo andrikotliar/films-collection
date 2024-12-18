@@ -10,7 +10,7 @@ type DateRangeProps = {
   title: string;
 };
 
-const DateRange: FC<DateRangeProps> = ({ inputs, title }) => {
+export const DateRange: FC<DateRangeProps> = ({ inputs, title }) => {
   const { getValues } = useFormContext();
   const formValues = getValues();
 
@@ -30,5 +30,3 @@ const DateRange: FC<DateRangeProps> = ({ inputs, title }) => {
     </Group>
   );
 };
-
-export { DateRange };

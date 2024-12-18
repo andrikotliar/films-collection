@@ -3,7 +3,7 @@ import { Header } from './components';
 
 import styles from './Layout.module.css';
 
-const Layout = () => {
+export const Layout = () => {
   return (
     <div className={styles.app}>
       <Header />
@@ -11,5 +11,3 @@ const Layout = () => {
     </div>
   );
 };
-
-export { Layout };

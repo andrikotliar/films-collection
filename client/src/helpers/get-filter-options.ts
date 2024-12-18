@@ -5,7 +5,9 @@ type Value = {
   id: string;
 };
 
-const getFilterOptions = (values: (Value | string)[]): FilterOption[] => {
+export const getFilterOptions = (
+  values: (Value | string)[],
+): FilterOption[] => {
   return values.map((value) => {
     if (typeof value === 'string') {
       return {
@@ -20,5 +22,3 @@ const getFilterOptions = (values: (Value | string)[]): FilterOption[] => {
     };
   });
 };
-
-export { getFilterOptions };

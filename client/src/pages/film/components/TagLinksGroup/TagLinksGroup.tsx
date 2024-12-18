@@ -9,7 +9,7 @@ type TagLinksGroupProps = {
   variant?: TagLinkProps['variant'];
 };
 
-const TagLinksGroup: FC<TagLinksGroupProps> = ({
+export const TagLinksGroup: FC<TagLinksGroupProps> = ({
   basePath,
   items,
   variant,
@@ -30,5 +30,3 @@ const TagLinksGroup: FC<TagLinksGroupProps> = ({
     </LinksGroupWrapper>
   );
 };
-
-export { TagLinksGroup };

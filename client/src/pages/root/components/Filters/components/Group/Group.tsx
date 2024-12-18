@@ -7,7 +7,10 @@ type GroupProps = {
   bodyClassName?: string;
 };
 
-const Group: FC<PropsWithChildren<GroupProps>> = ({ children, title }) => {
+export const Group: FC<PropsWithChildren<GroupProps>> = ({
+  children,
+  title,
+}) => {
   return (
     <div className={styles.group}>
       <GroupHeader>{title}</GroupHeader>
@@ -15,5 +18,3 @@ const Group: FC<PropsWithChildren<GroupProps>> = ({ children, title }) => {
     </div>
   );
 };
-
-export { Group };

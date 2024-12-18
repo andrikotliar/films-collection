@@ -6,7 +6,7 @@ import { useQuery } from '@tanstack/react-query';
 import { apiClient } from '@/services';
 import { RandomFilmsList } from '@/types';
 
-const RandomFilms = () => {
+export const RandomFilms = () => {
   const { data } = useQuery({
     queryKey: ['random-films'],
     queryFn: () => apiClient.get<RandomFilmsList>('/films/random'),
@@ -30,5 +30,3 @@ const RandomFilms = () => {
     </ScrollableWrapper>
   );
 };
-
-export { RandomFilms };
