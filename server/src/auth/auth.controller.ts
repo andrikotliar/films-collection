@@ -24,7 +24,7 @@ export class AuthController {
     if (!result) {
       return sendErrorResponse(reply, {
         statusCode: ResponseCode.UNAUTHENTICATED,
-        error: ErrorCode.INCORRECT_CREDENTIALS,
+        code: ErrorCode.INCORRECT_CREDENTIALS,
         message: 'Incorrect credentials',
       });
     }
@@ -58,7 +58,7 @@ export class AuthController {
     if (!result) {
       return sendErrorResponse(reply, {
         statusCode: ResponseCode.UNAUTHENTICATED,
-        error: ErrorCode.INVALID_TOKEN,
+        code: ErrorCode.INVALID_TOKEN,
         message: 'Unauthenticated',
       });
     }

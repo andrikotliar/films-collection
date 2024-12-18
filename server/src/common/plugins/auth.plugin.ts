@@ -53,9 +53,9 @@ export const registerAuthPlugin = (
 
         return sendErrorResponse(reply, {
           statusCode: ResponseCode.UNAUTHENTICATED,
-          error:
-            error?.code === ErrorCode.FAST_JWT_EXPIRED
-              ? ErrorCode.FAST_JWT_EXPIRED
+          code:
+            error?.code === 'FAST_JWT_EXPIRED'
+              ? ErrorCode.JWT_EXPIRED
               : ErrorCode.UNAUTHENTICATED,
           message: 'Unauthenticated',
         });
