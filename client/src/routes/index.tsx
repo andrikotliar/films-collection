@@ -17,7 +17,7 @@ const filmsListFilterSchema = yup.object().shape({
   collection: yup.string(),
 });
 
-const Route = createFileRoute('/')({
+export const Route = createFileRoute('/')({
   validateSearch: (
     search: Record<string, unknown>,
   ): Partial<FilmsListFilters> => {
@@ -31,5 +31,3 @@ const Route = createFileRoute('/')({
     await context.queryClient.ensureQueryData(fetchFilmsListQuery(deps.search));
   },
 });
-
-export { Route };

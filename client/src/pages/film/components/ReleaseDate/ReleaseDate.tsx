@@ -6,7 +6,7 @@ type ReleaseDateProps = {
   value: string;
 };
 
-const ReleaseDate: FC<ReleaseDateProps> = ({ value }) => {
+export const ReleaseDate: FC<ReleaseDateProps> = ({ value }) => {
   const sourceDate = new Date(value);
 
   const formattedDate = getFormattedDate(value);
@@ -25,5 +25,3 @@ const ReleaseDate: FC<ReleaseDateProps> = ({ value }) => {
     </TagLink>
   );
 };
-
-export { ReleaseDate };

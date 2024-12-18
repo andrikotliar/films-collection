@@ -19,7 +19,7 @@ const getDivisor = (length: number) => {
   };
 };
 
-const getFormattedMoneyValue = (value: number | null): string | null => {
+export const getFormattedMoneyValue = (value: number | null): string | null => {
   if (!value) return null;
 
   const valueLength = value.toString().length;
@@ -29,5 +29,3 @@ const getFormattedMoneyValue = (value: number | null): string | null => {
 
   return `$${formattedValue} ${divisor.label}`;
 };
-
-export { getFormattedMoneyValue };

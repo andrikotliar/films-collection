@@ -1,7 +1,7 @@
 import { AppliedFilter } from '../types';
 import { getFormattedDate, getFormattedMoneyValue } from '@/helpers';
 
-const getBadgeLabel = (filter: AppliedFilter) => {
+export const getBadgeLabel = (filter: AppliedFilter) => {
   if (filter.key === 'duration') {
     return `${filter.value} min`;
   }
@@ -40,5 +40,3 @@ const getBadgeLabel = (filter: AppliedFilter) => {
 
   return filter.value;
 };
-
-export { getBadgeLabel };

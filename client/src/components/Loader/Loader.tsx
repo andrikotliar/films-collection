@@ -3,12 +3,15 @@ import styles from './Loader.module.css';
 import classNames from 'classnames';
 import { LoaderCircle } from 'lucide-react';
 
-type LoaderProps = {
+export type LoaderProps = {
   isFullPage?: boolean;
   iconClassName?: string;
 };
 
-const Loader: FC<LoaderProps> = ({ isFullPage = false, iconClassName }) => {
+export const Loader: FC<LoaderProps> = ({
+  isFullPage = false,
+  iconClassName,
+}) => {
   return (
     <div
       className={classNames(styles.loaderContainer, {
@@ -21,5 +24,3 @@ const Loader: FC<LoaderProps> = ({ isFullPage = false, iconClassName }) => {
     </div>
   );
 };
-
-export { Loader, type LoaderProps };

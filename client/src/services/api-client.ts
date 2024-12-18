@@ -26,7 +26,7 @@ type ErrorInterceptor = (
   originalRequestParams: ErrorInterceptorOriginalRequest,
 ) => Promise<ErrorInterceptorOriginalRequest>;
 
-class HttpError extends Error {
+export class HttpError extends Error {
   readonly status: number;
   readonly message: string;
   readonly response: any;
@@ -176,7 +176,7 @@ class ApiClient {
   }
 }
 
-const apiClient = new ApiClient({
+export const apiClient = new ApiClient({
   baseUrl: import.meta.env.VITE_SERVER_URL,
 });
 
@@ -207,5 +207,3 @@ apiClient.setErrorInterceptor(async (error, originalRequestParams) => {
 
   throw error;
 });
-
-export { apiClient, HttpError };

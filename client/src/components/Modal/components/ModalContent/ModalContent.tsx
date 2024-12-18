@@ -3,7 +3,7 @@ import { FC, PropsWithChildren } from 'react';
 import styles from './ModalContent.module.css';
 import { PropsWithClassName } from '@/types';
 
-const ModalContent: FC<PropsWithChildren<PropsWithClassName>> = ({
+export const ModalContent: FC<PropsWithChildren<PropsWithClassName>> = ({
   children,
   className,
 }) => {
@@ -16,5 +16,3 @@ const ModalContent: FC<PropsWithChildren<PropsWithClassName>> = ({
     </div>
   );
 };
-
-export { ModalContent };

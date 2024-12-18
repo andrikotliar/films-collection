@@ -1,7 +1,5 @@
-const APP_TITLE = 'Films Collection';
+export const APP_TITLE = 'Films Collection';
 
-const PER_PAGE = 48;
-const MOBILE_VIEW_BREAKPOINT_PX = 785;
-const MIN_DATE = '01/01/1977';
-
-export { APP_TITLE, PER_PAGE, MOBILE_VIEW_BREAKPOINT_PX, MIN_DATE };
+export const PER_PAGE = 48;
+export const MOBILE_VIEW_BREAKPOINT_PX = 785;
+export const MIN_DATE = '01/01/1977';

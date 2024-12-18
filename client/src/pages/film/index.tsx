@@ -19,7 +19,7 @@ import { getRouteApi } from '@tanstack/react-router';
 
 const routeApi = getRouteApi('/film/$filmId');
 
-const FilmPage = () => {
+export const FilmPage = () => {
   const { filmId: id } = routeApi.useParams();
   const { data: film } = useSuspenseQuery(fetchFilmQuery(id));
 
@@ -70,5 +70,3 @@ const FilmPage = () => {
     </FilmPageLayout>
   );
 };
-
-export { FilmPage };

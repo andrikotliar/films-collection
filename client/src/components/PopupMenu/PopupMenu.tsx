@@ -36,7 +36,7 @@ type Position = {
 
 const DEFAULT_MENU_MARGIN_PX = 10;
 
-const PopupMenu: FC<PropsWithChildren<PopupMenuProps>> = ({
+export const PopupMenu: FC<PropsWithChildren<PopupMenuProps>> = ({
   isOpen,
   onClose,
   triggerRef,
@@ -110,5 +110,3 @@ const PopupMenu: FC<PropsWithChildren<PopupMenuProps>> = ({
     document.body,
   );
 };
-
-export { PopupMenu };

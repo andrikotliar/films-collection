@@ -1,4 +1,4 @@
-const getPluralWord = (
+export const getPluralWord = (
   singularWord: string,
   counter = 1,
   pluralVariant?: string,
@@ -13,5 +13,3 @@ const getPluralWord = (
 
   return `${singularWord}s`;
 };
-
-export { getPluralWord };

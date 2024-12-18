@@ -4,13 +4,13 @@ import classNames from 'classnames';
 import { PER_PAGE } from '@/constants';
 import { getRouteApi } from '@tanstack/react-router';
 
-type PaginationProps = {
+export type PaginationProps = {
   total: number;
 };
 
 const routeApi = getRouteApi('/');
 
-const Pagination: FC<PaginationProps> = ({ total }) => {
+export const Pagination: FC<PaginationProps> = ({ total }) => {
   const navigate = routeApi.useNavigate();
   const routeSearch = routeApi.useSearch();
 
@@ -64,5 +64,3 @@ const Pagination: FC<PaginationProps> = ({ total }) => {
     </div>
   );
 };
-
-export { Pagination, type PaginationProps };

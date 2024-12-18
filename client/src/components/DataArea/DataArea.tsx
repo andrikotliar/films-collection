@@ -5,10 +5,8 @@ import classNames from 'classnames';
 
 type DataAreaProps = PropsWithChildren<PropsWithClassName>;
 
-const DataArea: FC<DataAreaProps> = ({ children, className }) => {
+export const DataArea: FC<DataAreaProps> = ({ children, className }) => {
   return (
     <div className={classNames(styles.content, className)}>{children}</div>
   );
 };
-
-export { DataArea };

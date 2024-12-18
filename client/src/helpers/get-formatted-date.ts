@@ -1,4 +1,4 @@
-const getFormattedDate = (value?: string): string | null => {
+export const getFormattedDate = (value?: string): string | null => {
   if (!value) {
     return null;
   }
@@ -13,5 +13,3 @@ const getFormattedDate = (value?: string): string | null => {
 
   return formattedDate;
 };
-
-export { getFormattedDate };

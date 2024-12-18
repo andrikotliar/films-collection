@@ -10,7 +10,7 @@ type DescriptionProps = {
 
 const DEFAULT_HEIGHT = 88;
 
-const Description: FC<DescriptionProps> = ({ content }) => {
+export const Description: FC<DescriptionProps> = ({ content }) => {
   const textRef = useRef<HTMLParagraphElement>(null);
   const [height, setHeight] = useState<string | number>(() => {
     if (content.length === 1 && content[0].text.length < 1000) {
@@ -66,5 +66,3 @@ const Description: FC<DescriptionProps> = ({ content }) => {
     </div>
   );
 };
-
-export { Description };

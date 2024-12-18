@@ -7,7 +7,7 @@ type CastProps = {
   cast: CastType[];
 };
 
-const Cast: FC<CastProps> = ({ cast }) => {
+export const Cast: FC<CastProps> = ({ cast }) => {
   return (
     <div className={styles.actors}>
       {cast.map((person) => {
@@ -16,5 +16,3 @@ const Cast: FC<CastProps> = ({ cast }) => {
     </div>
   );
 };
-
-export { Cast };

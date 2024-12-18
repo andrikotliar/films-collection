@@ -5,7 +5,7 @@ type SummaryBlockProps = {
   label?: string;
 };
 
-const SummaryBlock: FC<PropsWithChildren<SummaryBlockProps>> = ({
+export const SummaryBlock: FC<PropsWithChildren<SummaryBlockProps>> = ({
   label,
   children,
 }) => {
@@ -16,5 +16,3 @@ const SummaryBlock: FC<PropsWithChildren<SummaryBlockProps>> = ({
     </div>
   );
 };
-
-export { SummaryBlock };

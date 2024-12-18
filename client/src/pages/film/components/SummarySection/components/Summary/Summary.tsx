@@ -1,13 +1,13 @@
 import { FC } from 'react';
-import { SummaryConfig } from '../../../../helpers';
 import { SummaryBlock } from '../SummaryBlock/SummaryBlock';
 import styles from './Summary.module.css';
+import { SummaryConfig } from '@/pages/film/types';
 
 type SummaryProps = {
   config: SummaryConfig[];
 };
 
-const Summary: FC<SummaryProps> = ({ config }) => {
+export const Summary: FC<SummaryProps> = ({ config }) => {
   return (
     <div className={styles.summary}>
       {config.map((item) => (
@@ -18,5 +18,3 @@ const Summary: FC<SummaryProps> = ({ config }) => {
     </div>
   );
 };
-
-export { Summary };

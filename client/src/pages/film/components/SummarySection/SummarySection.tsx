@@ -8,7 +8,7 @@ type SummarySectionProps = {
   film: FilmData;
 };
 
-const SummarySection: FC<SummarySectionProps> = ({ film }) => {
+export const SummarySection: FC<SummarySectionProps> = ({ film }) => {
   const filmConfig = useMemo(() => {
     return getFilmSummaryConfig(film);
   }, [film]);
@@ -20,5 +20,3 @@ const SummarySection: FC<SummarySectionProps> = ({ film }) => {
     </div>
   );
 };
-
-export { SummarySection };

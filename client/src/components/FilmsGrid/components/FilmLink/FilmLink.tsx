@@ -8,7 +8,7 @@ type FilmLinkProps = {
   data: FilmsListItem;
 };
 
-const FilmLink = forwardRef<HTMLAnchorElement, FilmLinkProps>(
+export const FilmLink = forwardRef<HTMLAnchorElement, FilmLinkProps>(
   ({ data }, ref) => {
     return (
       <Link
@@ -26,5 +26,3 @@ const FilmLink = forwardRef<HTMLAnchorElement, FilmLinkProps>(
     );
   },
 );
-
-export { FilmLink };

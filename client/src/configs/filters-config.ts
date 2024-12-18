@@ -2,7 +2,7 @@ import { CollectionType, ListType } from '@/enums';
 import { getFilterOptions } from '@/helpers';
 import { FilterItem, InitialData } from '@/types';
 
-const getFiltersConfig = (initialData: InitialData): FilterItem[] => {
+export const getFiltersConfig = (initialData: InitialData): FilterItem[] => {
   return [
     {
       title: 'Type',
@@ -86,5 +86,3 @@ const getFiltersConfig = (initialData: InitialData): FilterItem[] => {
     },
   ];
 };
-
-export { getFiltersConfig };

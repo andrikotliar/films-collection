@@ -11,7 +11,7 @@ type TrailersModalProps = {
   trailers: string[];
 };
 
-const TrailersModal: FC<TrailersModalProps> = ({
+export const TrailersModal: FC<TrailersModalProps> = ({
   isOpen,
   onClose,
   trailers,
@@ -80,5 +80,3 @@ const TrailersModal: FC<TrailersModalProps> = ({
     </Modal>
   );
 };
-
-export { TrailersModal };

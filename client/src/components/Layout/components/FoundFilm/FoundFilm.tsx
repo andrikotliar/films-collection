@@ -10,7 +10,7 @@ type FoundFilmProps = {
   onFilmOpen: VoidFunction;
 };
 
-const FoundFilm: FC<FoundFilmProps> = ({ film, onFilmOpen }) => {
+export const FoundFilm: FC<FoundFilmProps> = ({ film, onFilmOpen }) => {
   return (
     <Link
       to={`/film/${film._id}`}
@@ -33,5 +33,3 @@ const FoundFilm: FC<FoundFilmProps> = ({ film, onFilmOpen }) => {
     </Link>
   );
 };
-
-export { FoundFilm };

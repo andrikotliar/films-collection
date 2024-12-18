@@ -10,7 +10,7 @@ type PreviewProps = {
   isActive?: boolean;
 };
 
-const PreviewButton: FC<PropsWithChildren<PreviewProps>> = ({
+export const PreviewButton: FC<PropsWithChildren<PreviewProps>> = ({
   onClick,
   children,
   trailer,
@@ -33,5 +33,3 @@ const PreviewButton: FC<PropsWithChildren<PreviewProps>> = ({
     </button>
   );
 };
-
-export { PreviewButton };
