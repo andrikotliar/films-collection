@@ -10,7 +10,7 @@ type TitleRowProps = {
   data: FilmData;
 };
 
-const TitleRow: FC<TitleRowProps> = ({ data }) => {
+export const TitleRow: FC<TitleRowProps> = ({ data }) => {
   return (
     <div className={styles.titleRow}>
       <Title>{data.title}</Title>
@@ -36,5 +36,3 @@ const TitleRow: FC<TitleRowProps> = ({ data }) => {
     </div>
   );
 };
-
-export { TitleRow };

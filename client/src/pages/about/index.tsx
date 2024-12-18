@@ -2,7 +2,7 @@ import { useDocumentTitle, useScrollToTop } from '@/hooks';
 import { RandomFilms } from './components';
 import { ArticleContent } from '@/components';
 
-const AboutPage = () => {
+export const AboutPage = () => {
   useDocumentTitle('About');
   useScrollToTop([]);
 
@@ -118,5 +118,3 @@ const AboutPage = () => {
     </ArticleContent>
   );
 };
-
-export { AboutPage };

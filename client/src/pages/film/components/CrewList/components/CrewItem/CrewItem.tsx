@@ -8,7 +8,7 @@ type CrewItemProps = {
   crewItem: Crew;
 };
 
-const CrewItem: FC<CrewItemProps> = ({ crewItem }) => {
+export const CrewItem: FC<CrewItemProps> = ({ crewItem }) => {
   return (
     <div className={styles.crewItem}>
       <h3 className={styles.crewItemTitle}>{crewItem.role}:</h3>
@@ -33,5 +33,3 @@ const CrewItem: FC<CrewItemProps> = ({ crewItem }) => {
     </div>
   );
 };
-
-export { CrewItem };

@@ -16,7 +16,11 @@ type AppMenuProps = {
   menuButtonRef: RefObject<HTMLButtonElement>;
 };
 
-const AppMenu: FC<AppMenuProps> = ({ isOpen, onClose, menuButtonRef }) => {
+export const AppMenu: FC<AppMenuProps> = ({
+  isOpen,
+  onClose,
+  menuButtonRef,
+}) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const lastVisitedFilmsStorage = localStorage.getItem(
     LocalStorageKey.LAST_VISITED_FILMS,
@@ -65,5 +69,3 @@ const AppMenu: FC<AppMenuProps> = ({ isOpen, onClose, menuButtonRef }) => {
     </div>
   );
 };
-
-export { AppMenu };

@@ -14,7 +14,7 @@ type FilmLinkProps = {
   isActive: boolean;
 };
 
-const FilmLink: FC<FilmLinkProps> = ({
+export const FilmLink: FC<FilmLinkProps> = ({
   id,
   poster,
   title,
@@ -37,5 +37,3 @@ const FilmLink: FC<FilmLinkProps> = ({
     </Link>
   );
 };
-
-export { FilmLink };

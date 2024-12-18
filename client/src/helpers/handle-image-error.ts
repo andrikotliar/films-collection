@@ -4,10 +4,8 @@ type HandleImageError = (
   imageSource: string,
 ) => ReactEventHandler<HTMLImageElement>;
 
-const handleImageError: HandleImageError = (imageSource) => {
+export const handleImageError: HandleImageError = (imageSource) => {
   return (event) => {
     event.currentTarget.src = imageSource;
   };
 };
-
-export { handleImageError };

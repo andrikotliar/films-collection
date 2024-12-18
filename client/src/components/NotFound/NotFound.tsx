@@ -10,7 +10,7 @@ type NotFoundProps = {
 const DEFAULT_TITLE = '404';
 const DEFAULT_MESSAGE = "Page you're looking for doesn't exist.";
 
-const NotFound: FC<NotFoundProps> = ({
+export const NotFound: FC<NotFoundProps> = ({
   title = DEFAULT_TITLE,
   message = DEFAULT_MESSAGE,
 }) => {
@@ -33,5 +33,3 @@ const NotFound: FC<NotFoundProps> = ({
     </div>
   );
 };
-
-export { NotFound };

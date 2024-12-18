@@ -11,7 +11,7 @@ type ActorProps = {
   person: CastType;
 };
 
-const Actor: FC<ActorProps> = ({ person }) => {
+export const Actor: FC<ActorProps> = ({ person }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const photoUrl = buildMediaPath(person.actor.image);
@@ -64,5 +64,3 @@ const Actor: FC<ActorProps> = ({ person }) => {
     </div>
   );
 };
-
-export { Actor };

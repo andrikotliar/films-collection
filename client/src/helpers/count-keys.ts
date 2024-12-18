@@ -1,4 +1,4 @@
-const countObjectKeys = (
+export const countObjectKeys = (
   params: { [key: string]: any },
   filterKeys?: string[],
 ) => {
@@ -11,5 +11,3 @@ const countObjectKeys = (
 
   return keys.length;
 };
-
-export { countObjectKeys };

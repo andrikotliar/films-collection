@@ -8,10 +8,9 @@ type SearchMenuContentProps = {
   onFilmOpen: VoidFunction;
 };
 
-const SearchMenuContent: FC<PropsWithChildren<SearchMenuContentProps>> = ({
-  films,
-  onFilmOpen,
-}) => {
+export const SearchMenuContent: FC<
+  PropsWithChildren<SearchMenuContentProps>
+> = ({ films, onFilmOpen }) => {
   const isEmpty = films.length === 0;
 
   if (isEmpty) {
@@ -32,5 +31,3 @@ const SearchMenuContent: FC<PropsWithChildren<SearchMenuContentProps>> = ({
     </div>
   );
 };
-
-export { SearchMenuContent };

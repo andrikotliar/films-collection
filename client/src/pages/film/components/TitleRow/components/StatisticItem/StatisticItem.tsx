@@ -16,7 +16,7 @@ const colorVar = {
   purple: 'purple-dark',
 };
 
-const StatisticItem: FC<StatisticItemProps> = ({
+export const StatisticItem: FC<StatisticItemProps> = ({
   icon,
   value,
   color,
@@ -39,5 +39,3 @@ const StatisticItem: FC<StatisticItemProps> = ({
     </Link>
   );
 };
-
-export { StatisticItem };

@@ -11,7 +11,7 @@ type ModalProps = {
   children?: ReactNode;
 };
 
-const Modal = ({
+export const Modal = ({
   isOpen = false,
   children,
   className,
@@ -45,5 +45,3 @@ const Modal = ({
 
 Modal.Content = ModalContent;
 Modal.CloseButton = ModalCloseButton;
-
-export { Modal };

@@ -8,7 +8,7 @@ type FilterOptionsProps = {
   filter: FilterItem;
 };
 
-const FilterOptions: FC<FilterOptionsProps> = ({ filter }) => {
+export const FilterOptions: FC<FilterOptionsProps> = ({ filter }) => {
   switch (filter.type) {
     case 'checkmark':
       return (
@@ -32,5 +32,3 @@ const FilterOptions: FC<FilterOptionsProps> = ({ filter }) => {
       return null;
   }
 };
-
-export { FilterOptions };

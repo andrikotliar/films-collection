@@ -3,8 +3,6 @@ import styles from './LinksGroupWrapper.module.css';
 
 type LinksGroupWrapperProps = PropsWithChildren;
 
-const LinksGroupWrapper: FC<LinksGroupWrapperProps> = ({ children }) => {
+export const LinksGroupWrapper: FC<LinksGroupWrapperProps> = ({ children }) => {
   return <div className={styles.linksGroupWrapper}>{children}</div>;
 };
-
-export { LinksGroupWrapper };

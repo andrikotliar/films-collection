@@ -9,7 +9,7 @@ type ChaptersFilmsProps = {
   filmId: string;
 };
 
-const Chapters: FC<ChaptersFilmsProps> = ({ data, filmId }) => {
+export const Chapters: FC<ChaptersFilmsProps> = ({ data, filmId }) => {
   return (
     <ScrollableWrapper className={styles.chapters}>
       {data.map((film, index) => (
@@ -25,5 +25,3 @@ const Chapters: FC<ChaptersFilmsProps> = ({ data, filmId }) => {
     </ScrollableWrapper>
   );
 };
-
-export { Chapters };

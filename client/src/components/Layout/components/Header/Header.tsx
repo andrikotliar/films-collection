@@ -6,7 +6,7 @@ import styles from './Header.module.css';
 import { AppMenu } from '../AppMenu/AppMenu';
 import { Logo } from '@/components/Logo/Logo';
 
-const Header = () => {
+export const Header = () => {
   const menuButtonRef = useRef<HTMLButtonElement>(null);
   const [isAppMenuOpen, setIsAppMenuOpen] = useState(false);
 
@@ -51,5 +51,3 @@ const Header = () => {
     </header>
   );
 };
-
-export { Header };

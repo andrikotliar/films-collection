@@ -18,7 +18,7 @@ import { useQuery } from '@tanstack/react-query';
 import { apiClient } from '@/services';
 import { FilmSearchResult } from '@/types';
 
-const Search = () => {
+export const Search = () => {
   const location = useLocation();
   const searchInputRef = useRef<HTMLInputElement>(null);
   const [searchString, setSearchString] = useState<string | null>(null);
@@ -146,5 +146,3 @@ const Search = () => {
     </div>
   );
 };
-
-export { Search };

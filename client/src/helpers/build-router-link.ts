@@ -1,5 +1,3 @@
-const buildRouterLink = (...paths: (string | number)[]) => {
+export const buildRouterLink = (...paths: (string | number)[]) => {
   return '/' + paths.join('/');
 };
-
-export { buildRouterLink };

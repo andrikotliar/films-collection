@@ -15,7 +15,7 @@ import { SummaryConfig } from '../types';
 import { TitleType } from '@/enums';
 import { checkHasBoxOfficeBenefit } from './check-box-office-has-benefit';
 
-const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
+export const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
   const isBoxOfficeSuccessful = checkHasBoxOfficeBenefit(
     film.budget ?? 0,
     film.boxOffice ?? 0,
@@ -158,5 +158,3 @@ const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
 
   return values.filter((item) => !item.isHidden);
 };
-
-export { getFilmSummaryConfig, type SummaryConfig };

@@ -7,7 +7,7 @@ type MediaProps = {
   title: string;
 };
 
-const Poster: FC<MediaProps> = ({ image, title }) => {
+export const Poster: FC<MediaProps> = ({ image, title }) => {
   return (
     <div className={styles.poster}>
       <img
@@ -18,5 +18,3 @@ const Poster: FC<MediaProps> = ({ image, title }) => {
     </div>
   );
 };
-
-export { Poster };

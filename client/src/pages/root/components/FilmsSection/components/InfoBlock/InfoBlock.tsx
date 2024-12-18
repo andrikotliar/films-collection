@@ -11,7 +11,7 @@ type InfoBlockProps = {
   description?: string;
 };
 
-const InfoBlock: FC<InfoBlockProps> = ({
+export const InfoBlock: FC<InfoBlockProps> = ({
   imagePath,
   imageAlt,
   label,
@@ -40,5 +40,3 @@ const InfoBlock: FC<InfoBlockProps> = ({
     </div>
   );
 };
-
-export { InfoBlock };

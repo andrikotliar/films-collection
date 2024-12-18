@@ -10,7 +10,7 @@ type AwardsProps = {
   awards: FilmAward[];
 };
 
-const Awards: FC<AwardsProps> = ({ awards }) => {
+export const Awards: FC<AwardsProps> = ({ awards }) => {
   const sortedAwards = useMemo(() => {
     return awards.sort((a, b) => b.nominations.length - a.nominations.length);
   }, [awards]);
@@ -51,5 +51,3 @@ const Awards: FC<AwardsProps> = ({ awards }) => {
     </DataGrid>
   );
 };
-
-export { Awards };

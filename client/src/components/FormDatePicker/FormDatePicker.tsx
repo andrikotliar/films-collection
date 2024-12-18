@@ -9,7 +9,12 @@ type FormDatePickerProps = {
   max?: string;
 };
 
-const FormDatePicker: FC<FormDatePickerProps> = ({ label, name, min, max }) => {
+export const FormDatePicker: FC<FormDatePickerProps> = ({
+  label,
+  name,
+  min,
+  max,
+}) => {
   const { register, formState } = useFormContext();
 
   const { errors } = formState;
@@ -30,5 +35,3 @@ const FormDatePicker: FC<FormDatePickerProps> = ({ label, name, min, max }) => {
     </label>
   );
 };
-
-export { FormDatePicker };

@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { PropsWithClassName } from '@/types';
 
-const Logo: FC<PropsWithClassName> = ({ className }) => {
+export const Logo: FC<PropsWithClassName> = ({ className }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -34,5 +34,3 @@ const Logo: FC<PropsWithClassName> = ({ className }) => {
     </svg>
   );
 };
-
-export { Logo };

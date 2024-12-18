@@ -13,7 +13,7 @@ type FilmsSectionProps = {
   isLoading: boolean;
 };
 
-const FilmsSection: FC<FilmsSectionProps> = ({ data, isLoading }) => {
+export const FilmsSection: FC<FilmsSectionProps> = ({ data, isLoading }) => {
   if (isLoading) {
     return (
       <div className={styles.filmsSection}>
@@ -43,5 +43,3 @@ const FilmsSection: FC<FilmsSectionProps> = ({ data, isLoading }) => {
     </div>
   );
 };
-
-export { FilmsSection };

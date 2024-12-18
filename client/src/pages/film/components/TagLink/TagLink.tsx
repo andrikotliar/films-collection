@@ -3,7 +3,7 @@ import { Link } from '@tanstack/react-router';
 import styles from './TagLink.module.css';
 import classNames from 'classnames';
 
-type TagLinkProps = {
+export type TagLinkProps = {
   path: string;
   variant?:
     | 'blue'
@@ -17,7 +17,7 @@ type TagLinkProps = {
   isDisabled?: boolean;
 };
 
-const TagLink: FC<PropsWithChildren<TagLinkProps>> = ({
+export const TagLink: FC<PropsWithChildren<TagLinkProps>> = ({
   path,
   children,
   variant = 'sand',
@@ -34,5 +34,3 @@ const TagLink: FC<PropsWithChildren<TagLinkProps>> = ({
     </Link>
   );
 };
-
-export { TagLink, type TagLinkProps };

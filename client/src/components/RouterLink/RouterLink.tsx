@@ -5,12 +5,14 @@ import styles from './RouterLink.module.css';
 
 type RouterLinkProps = ComponentProps<typeof Link>;
 
-const RouterLink: FC<RouterLinkProps> = ({ children, className, ...props }) => {
+export const RouterLink: FC<RouterLinkProps> = ({
+  children,
+  className,
+  ...props
+}) => {
   return (
     <Link className={classNames(styles.link, className)} {...props}>
       {children}
     </Link>
   );
 };
-
-export { RouterLink };

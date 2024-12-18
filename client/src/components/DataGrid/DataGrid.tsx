@@ -6,10 +6,8 @@ type DataGridProps = PropsWithChildren<{
   className?: string;
 }>;
 
-const DataGrid: FC<DataGridProps> = ({ children, className }) => {
+export const DataGrid: FC<DataGridProps> = ({ children, className }) => {
   return (
     <div className={classNames(styles.dataGrid, className)}>{children}</div>
   );
 };
-
-export { DataGrid };

@@ -27,7 +27,7 @@ const defaultValues: FilmsListFilters = {
 
 const routeApi = getRouteApi('/');
 
-const Filters: FC<FiltersProps> = ({
+export const Filters: FC<FiltersProps> = ({
   config,
   setIsFilterOpen,
   updateFiltersCount,
@@ -105,5 +105,3 @@ const Filters: FC<FiltersProps> = ({
     </FormProvider>
   );
 };
-
-export { Filters };

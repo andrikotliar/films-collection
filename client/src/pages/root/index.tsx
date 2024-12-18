@@ -8,7 +8,7 @@ import { Loader } from '@/components';
 
 const routeApi = getRouteApi('/');
 
-const RootPage = () => {
+export const RootPage = () => {
   useDocumentTitle();
 
   const routeSearch = routeApi.useSearch();
@@ -26,5 +26,3 @@ const RootPage = () => {
     </RootPageLayout>
   );
 };
-
-export { RootPage };

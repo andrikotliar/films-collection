@@ -8,10 +8,9 @@ type ModalCloseButtonProps = {
   onClick: VoidFunction;
 };
 
-const ModalCloseButton: FC<PropsWithClassName<ModalCloseButtonProps>> = ({
-  onClick,
-  className,
-}) => {
+export const ModalCloseButton: FC<
+  PropsWithClassName<ModalCloseButtonProps>
+> = ({ onClick, className }) => {
   return (
     <button
       onClick={onClick}
@@ -21,5 +20,3 @@ const ModalCloseButton: FC<PropsWithClassName<ModalCloseButtonProps>> = ({
     </button>
   );
 };
-
-export { ModalCloseButton };

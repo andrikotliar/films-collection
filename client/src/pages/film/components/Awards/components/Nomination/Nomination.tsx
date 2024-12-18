@@ -10,7 +10,11 @@ type NominationProps = {
   nominee: Actor | null;
 };
 
-const Nomination: FC<NominationProps> = ({ title, comment, nominee }) => {
+export const Nomination: FC<NominationProps> = ({
+  title,
+  comment,
+  nominee,
+}) => {
   return (
     <div className={styles.nomination}>
       <div className={styles.container}>
@@ -28,5 +32,3 @@ const Nomination: FC<NominationProps> = ({ title, comment, nominee }) => {
     </div>
   );
 };
-
-export { Nomination };

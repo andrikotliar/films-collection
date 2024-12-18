@@ -1,4 +1,4 @@
-enum ListType {
+export enum ListType {
   GENRES = 'Genres',
   COUNTRIES = 'Countries',
   STUDIOS = 'Studios',
@@ -6,5 +6,3 @@ enum ListType {
   TITLE_TYPES = 'TitleTypes',
   STYLES = 'Styles',
 }
-
-export { ListType };

@@ -9,7 +9,10 @@ type AppMenuFilmsListProps = {
   list: FilmLinkItem[];
 };
 
-const AppMenuFilmsList: FC<AppMenuFilmsListProps> = ({ list, title }) => {
+export const AppMenuFilmsList: FC<AppMenuFilmsListProps> = ({
+  list,
+  title,
+}) => {
   return (
     <div className={styles.filmsListWrapper}>
       <div className={styles.filmsListTitle}>{title}</div>
@@ -23,5 +26,3 @@ const AppMenuFilmsList: FC<AppMenuFilmsListProps> = ({ list, title }) => {
     </div>
   );
 };
-
-export { AppMenuFilmsList };
