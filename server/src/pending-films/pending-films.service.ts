@@ -20,6 +20,12 @@ export class PendingFilmsService {
     return pendingFilm.save();
   }
 
+  deletePendingFilm(filmId: string) {
+    return this.pendingFilmsModel.deleteOne({
+      _id: filmId,
+    });
+  }
+
   private getListFilters(queryFilters: GetListQuery) {
     const filters: PendingFilmsFilter = {};
 

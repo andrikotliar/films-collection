@@ -9,3 +9,9 @@ export type CreatePendingFilmRequest = FastifyRequest<{
 export type GetPendingFilmRequest = FastifyRequest<{
   Querystring: GetListQuery;
 }>;
+
+export type DeletePendingFilmRequest = FastifyRequest<{
+  Params: {
+    filmId: string;
+  };
+}>;

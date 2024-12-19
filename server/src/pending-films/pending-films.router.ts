@@ -2,7 +2,6 @@ import { FastifyInstance } from 'fastify';
 import { PendingFilmsService } from './pending-films.service';
 import { PendingFilmsModel } from './pending-films.model';
 import { PendingFilmsController } from './pending-films.controller';
-import { CreatePendingFilmRequest, GetPendingFilmRequest } from './types';
 
 export const registerPendingFilmsRouter = (app: FastifyInstance) => {
   const pendingFilmsService = new PendingFilmsService(PendingFilmsModel);
@@ -14,17 +13,24 @@ export const registerPendingFilmsRouter = (app: FastifyInstance) => {
     method: 'GET',
     url: '/pending-films',
     preHandler: [app.authenticate],
-    handler: (request: GetPendingFilmRequest, reply) => {
-      return pendingFilmsController.getList(request, reply);
-    },
+    handler: pendingFilmsController.getList.bind(pendingFilmsController),
   });
 
   app.route({
     method: 'POST',
     url: '/pending-films',
     preHandler: [app.authenticate],
-    handler: (request: CreatePendingFilmRequest, reply) => {
-      return pendingFilmsController.createPendingFilm(request, reply);
-    },
+    handler: pendingFilmsController.createPendingFilm.bind(
+      pendingFilmsController,
+    ),
+  });
+
+  app.route({
+    method: 'DELETE',
+    url: '/pending-films/:filmId',
+    preHandler: [app.authenticate],
+    handler: pendingFilmsController.deletePendingFilm.bind(
+      pendingFilmsController,
+    ),
   });
 };

@@ -1,13 +1,13 @@
-import { FastifyReply, FastifyRequest } from 'fastify';
+import { FastifyReply } from 'fastify';
 import { PendingFilmsService } from './pending-films.service';
 import { ResponseCode } from 'src/common';
 import {
   CreatePendingFilmRequest,
+  DeletePendingFilmRequest,
   GetPendingFilmRequest,
-  IPendingFilmsController,
 } from './types';
 
-export class PendingFilmsController implements IPendingFilmsController {
+export class PendingFilmsController {
   private pendingFilmsService: PendingFilmsService;
 
   constructor(pendingFilmsService: PendingFilmsService) {
@@ -29,5 +29,13 @@ export class PendingFilmsController implements IPendingFilmsController {
     );
 
     return reply.code(ResponseCode.CREATED).send(createdPendingFilm);
+  }
+
+  async deletePendingFilm(
+    request: DeletePendingFilmRequest,
+    reply: FastifyReply,
+  ) {
+    await this.pendingFilmsService.deletePendingFilm(request.params.filmId);
+    return reply.code(ResponseCode.NO_CONTENT).send();
   }
 }
