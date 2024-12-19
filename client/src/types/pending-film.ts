@@ -4,3 +4,11 @@ export type PendingFilm = {
   priority: number;
   createdAt: string;
 };
+
+export type PendingFilmQueryFilters = Partial<{
+  q: string;
+  priority: number;
+  skip: number;
+  sortingField: string;
+  sortingDirection: string;
+}>;

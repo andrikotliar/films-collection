@@ -5,6 +5,7 @@ import { FC } from 'react';
 import { getPriorityTitle } from '@/helpers';
 import { Priority } from '@/enums';
 import { Status, StatusProps } from '@/components';
+import { PencilIcon, SquarePlusIcon, Trash2Icon } from 'lucide-react';
 
 type PendingFilmRowProps = {
   data: PendingFilm;
@@ -22,11 +23,23 @@ export const PendingFilmRow: FC<PendingFilmRowProps> = ({ data }) => {
 
   return (
     <div className={styles.pendingFilmRow}>
-      <Status color={priorityColor}>{rowPriority}</Status>
-      <div className={styles.title}>{data.title}</div>
-      <Link to="/console/manage" className={styles.createFilmButton}>
-        Create
-      </Link>
+      <div className={styles.leftColumn}>
+        <Status color={priorityColor}>{rowPriority}</Status>
+        <div className={styles.title}>{data.title}</div>
+      </div>
+      <div className={styles.rightColumn}>
+        <Link to="/console/manage" className={styles.createFilmButton}>
+          <SquarePlusIcon size={20} />
+        </Link>
+        <div className={styles.rowTools}>
+          <button className={styles.toolButton}>
+            <PencilIcon size={20} />
+          </button>
+          <button className={styles.toolButton}>
+            <Trash2Icon size={20} />
+          </button>
+        </div>
+      </div>
     </div>
   );
 };

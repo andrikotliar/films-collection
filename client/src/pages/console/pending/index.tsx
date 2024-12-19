@@ -10,10 +10,12 @@ import {
   ListWrapper,
   PendingFilmRow,
   PendingPageLayout,
+  Tools,
 } from './components';
 import { PendingFilm } from '@/types';
 import { ConsoleTitle } from '../components';
 import { Priority } from '@/enums';
+import { getRouteApi } from '@tanstack/react-router';
 
 const defaultFormValues: PendingFilmFormValues = {
   title: '',
@@ -23,8 +25,13 @@ const defaultFormValues: PendingFilmFormValues = {
   },
 };
 
+const routeApi = getRouteApi('/console/pending');
+
 export const ConsolePendingFilmsPage = () => {
-  const { data, refetch } = useSuspenseQuery(fetchPendingFilmsListQuery());
+  const searchParams = routeApi.useSearch();
+  const { data, refetch } = useSuspenseQuery(
+    fetchPendingFilmsListQuery(searchParams),
+  );
 
   const methods = useForm({
     defaultValues: defaultFormValues,
@@ -63,6 +70,7 @@ export const ConsolePendingFilmsPage = () => {
         <CreatePendingFilmForm
           onSubmit={methods.handleSubmit(handleCreatePendingFilm)}
         />
+        <Tools />
         <ListWrapper>
           {data.map((film) => (
             <PendingFilmRow key={film._id} data={film} />

@@ -1,0 +1,14 @@
+.toolsRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.search {
+  font-size: 14px;
+  width: 70%;
+  border: var(--app-border);
+  border-radius: 5px;
+  outline-color: var(--blue-default);
+  padding: 5px 10px;
+}

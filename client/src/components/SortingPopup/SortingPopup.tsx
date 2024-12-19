@@ -7,9 +7,9 @@ import { sortingDirectionOptions } from '@/configs';
 
 type SortingFieldOption = SelectOption;
 
-type SortingParams = {
-  sortingField: string | null;
-  sortingDirection: SortingDirection | null;
+export type SortingParams = {
+  sortingField: string;
+  sortingDirection: SortingDirection;
 };
 
 type InternalSortingState = {
