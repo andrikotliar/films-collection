@@ -1,0 +1,46 @@
+.sortingPopup {
+  padding: 15px;
+}
+
+.sortingPopupContainer {
+  margin-bottom: 20px;
+}
+
+.applyButton {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background-color: var(--blue-default);
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 5px;
+  transition: background-color 300ms;
+}
+
+.applyButton:hover {
+  background-color: var(--green);
+}
+
+.groupLabel {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.options {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: var(--app-border);
+}
+
+.options:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}

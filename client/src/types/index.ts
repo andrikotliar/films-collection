@@ -12,3 +12,4 @@ export * from './auth';
 export * from './pending-film';
 export * from './select-option';
 export * from './api-endpoint';
+export * from './sorting-direction';

@@ -1,0 +1,18 @@
+.sortingButton {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #fff;
+  border: var(--app-border);
+  border-radius: 6px;
+  padding: 5px 10px;
+  transition: background-color 300ms;
+}
+
+.sortingButton:hover {
+  background-color: var(--gray-ultra-light);
+}
+
+.label {
+  font-size: 14px;
+}
