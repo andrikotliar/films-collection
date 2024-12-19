@@ -5,6 +5,7 @@ import {
   CreatePendingFilmRequest,
   DeletePendingFilmRequest,
   GetPendingFilmRequest,
+  UpdatePendingFilmRequest,
 } from './types';
 
 export class PendingFilmsController {
@@ -37,5 +38,17 @@ export class PendingFilmsController {
   ) {
     await this.pendingFilmsService.deletePendingFilm(request.params.filmId);
     return reply.code(ResponseCode.NO_CONTENT).send();
+  }
+
+  async updatePendingFilm(
+    request: UpdatePendingFilmRequest,
+    reply: FastifyReply,
+  ) {
+    const result = await this.pendingFilmsService.updatePendingFilm(
+      request.params.filmId,
+      request.body,
+    );
+
+    return reply.code(ResponseCode.OK).send(result);
   }
 }

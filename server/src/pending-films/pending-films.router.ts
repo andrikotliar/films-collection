@@ -26,6 +26,15 @@ export const registerPendingFilmsRouter = (app: FastifyInstance) => {
   });
 
   app.route({
+    method: 'PATCH',
+    url: '/pending-films/:filmId',
+    preHandler: [app.authenticate],
+    handler: pendingFilmsController.updatePendingFilm.bind(
+      pendingFilmsController,
+    ),
+  });
+
+  app.route({
     method: 'DELETE',
     url: '/pending-films/:filmId',
     preHandler: [app.authenticate],

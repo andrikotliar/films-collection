@@ -1,5 +1,10 @@
 import { PendingFilmsModel } from './pending-films.model';
-import { GetListQuery, PendingFilmEntity, PendingFilmsFilter } from './types';
+import {
+  GetListQuery,
+  PendingFilmEntity,
+  PendingFilmsFilter,
+  UpdatePendingFilmPayload,
+} from './types';
 
 export class PendingFilmsService {
   private pendingFilmsModel: typeof PendingFilmsModel;
@@ -24,6 +29,18 @@ export class PendingFilmsService {
     return this.pendingFilmsModel.deleteOne({
       _id: filmId,
     });
+  }
+
+  updatePendingFilm(filmId: string, payload: UpdatePendingFilmPayload) {
+    return this.pendingFilmsModel.findOneAndUpdate(
+      {
+        _id: filmId,
+      },
+      payload,
+      {
+        new: true,
+      },
+    );
   }
 
   private getListFilters(queryFilters: GetListQuery) {
