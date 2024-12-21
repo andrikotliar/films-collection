@@ -36,8 +36,10 @@ export class PendingFilmsController {
     request: DeletePendingFilmRequest,
     reply: FastifyReply,
   ) {
-    await this.pendingFilmsService.deletePendingFilm(request.params.filmId);
-    return reply.code(ResponseCode.NO_CONTENT).send();
+    const result = await this.pendingFilmsService.deletePendingFilm(
+      request.params.filmId,
+    );
+    return reply.code(ResponseCode.OK).send(result);
   }
 
   async updatePendingFilm(

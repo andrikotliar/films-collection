@@ -10,7 +10,7 @@ const PendingFilmSchema = new Schema<PendingFilmEntity>({
   createdAt: {
     type: Date,
     required: false,
-    default: new Date(),
+    default: Date.now(),
   },
   priority: {
     type: Number,

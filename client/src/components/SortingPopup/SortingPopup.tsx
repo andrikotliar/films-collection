@@ -90,7 +90,7 @@ export const SortingPopup: FC<SortingPopupProps> = ({
   };
 
   return (
-    <div>
+    <div className={styles.wrapper}>
       <SortingButton onClick={handleToggle} ref={sortingPopupButton}>
         {isOpen ? 'Select sorting' : sorting.sortingField.label}
       </SortingButton>

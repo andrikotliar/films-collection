@@ -1,34 +1,23 @@
-import styles from './CreatePendingFilmForm.module.css';
+import { prioritySelectOptions } from '@/configs';
+import styles from './PendingFilmForm.module.css';
 import { Button, FormSelect, FormTextInput } from '@/components';
-import { Priority } from '@/enums';
-import { SaveIcon } from 'lucide-react';
+import { LoaderCircle, SaveIcon } from 'lucide-react';
 import { FC, FormEventHandler } from 'react';
 
-type CreatePendingFilmFormProps = {
+type PendingFilmFormProps = {
+  title: string;
   onSubmit: FormEventHandler;
+  isSaving: boolean;
 };
 
-const prioritySelectOptions = [
-  {
-    label: Priority.LOW,
-    value: 1,
-  },
-  {
-    label: Priority.MEDIUM,
-    value: 2,
-  },
-  {
-    label: Priority.HIGH,
-    value: 3,
-  },
-];
-
-export const CreatePendingFilmForm: FC<CreatePendingFilmFormProps> = ({
+export const PendingFilmForm: FC<PendingFilmFormProps> = ({
   onSubmit,
+  isSaving,
+  title,
 }) => {
   return (
     <form onSubmit={onSubmit} className={styles.formWrapper}>
-      <h2 className={styles.title}>Add pending film</h2>
+      <h2 className={styles.title}>{title}</h2>
       <div className={styles.formContent}>
         <FormTextInput
           name="title"
@@ -42,7 +31,10 @@ export const CreatePendingFilmForm: FC<CreatePendingFilmFormProps> = ({
           options={prioritySelectOptions}
         />
       </div>
-      <Button type="submit" icon={<SaveIcon />}>
+      <Button
+        type="submit"
+        icon={isSaving ? <LoaderCircle className="spin" /> : <SaveIcon />}
+      >
         Save
       </Button>
     </form>

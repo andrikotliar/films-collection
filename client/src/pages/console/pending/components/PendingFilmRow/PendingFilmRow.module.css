@@ -44,6 +44,11 @@
   display: flex;
 }
 
+.toolButton:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
 @media (max-width: 480px) {
   .title {
     font-size: 14px;

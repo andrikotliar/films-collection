@@ -1,3 +1,7 @@
+.wrapper {
+  flex-shrink: 0;
+}
+
 .sortingPopup {
   padding: 15px;
 }

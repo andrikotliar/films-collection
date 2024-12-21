@@ -9,6 +9,9 @@ import { PencilIcon, SquarePlusIcon, Trash2Icon } from 'lucide-react';
 
 type PendingFilmRowProps = {
   data: PendingFilm;
+  onDelete: VoidFunction;
+  onEdit: VoidFunction;
+  isDeleteInProgress: boolean;
 };
 
 const priorityToColor = {
@@ -17,7 +20,12 @@ const priorityToColor = {
   [Priority.LOW]: 'gray',
 };
 
-export const PendingFilmRow: FC<PendingFilmRowProps> = ({ data }) => {
+export const PendingFilmRow: FC<PendingFilmRowProps> = ({
+  data,
+  onDelete,
+  onEdit,
+  isDeleteInProgress,
+}) => {
   const rowPriority = getPriorityTitle(data.priority);
   const priorityColor = priorityToColor[rowPriority] as StatusProps['color'];
 
@@ -32,10 +40,14 @@ export const PendingFilmRow: FC<PendingFilmRowProps> = ({ data }) => {
           <SquarePlusIcon size={20} />
         </Link>
         <div className={styles.rowTools}>
-          <button className={styles.toolButton}>
+          <button className={styles.toolButton} onClick={onEdit}>
             <PencilIcon size={20} />
           </button>
-          <button className={styles.toolButton}>
+          <button
+            className={styles.toolButton}
+            onClick={onDelete}
+            disabled={isDeleteInProgress}
+          >
             <Trash2Icon size={20} />
           </button>
         </div>
