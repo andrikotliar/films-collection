@@ -7,38 +7,45 @@ export type PaginationProps = {
   currentPageIndex?: number;
   total: number;
   onPageChange: (pageIndex: number) => void;
+  perPageCounter: number;
 };
 
 export const Pagination: FC<PaginationProps> = ({
   total,
   onPageChange,
   currentPageIndex = 0,
+  perPageCounter,
 }) => {
-  const pagesCount = Math.ceil(total / PER_PAGE);
+  const pagesCount = Math.ceil(total / perPageCounter);
+  const currentRangeEnd =
+    total >= perPageCounter ? (currentPageIndex + 1) * perPageCounter : total;
 
   return (
     <div className={styles.pagination}>
       {pagesCount > 1 && (
         <div className={styles.pages}>
-          {Array.from({ length: Math.ceil(total / PER_PAGE) }, (_, index) => (
-            <button
-              className={classNames(styles.pageButton, {
-                [styles.active]: currentPageIndex === index,
-              })}
-              key={index}
-              onClick={() => onPageChange(index)}
-            >
-              {index + 1}
-            </button>
-          ))}
+          {Array.from(
+            { length: Math.ceil(total / perPageCounter) },
+            (_, index) => (
+              <button
+                className={classNames(styles.pageButton, {
+                  [styles.active]: currentPageIndex === index,
+                })}
+                key={index}
+                onClick={() => onPageChange(index)}
+              >
+                {index + 1}
+              </button>
+            ),
+          )}
         </div>
       )}
       <div className={styles.stats}>
         <span className={styles.currentState}>
-          {currentPageIndex * PER_PAGE + 1} -{' '}
-          {(currentPageIndex + 1) * PER_PAGE}
-        </span>{' '}
-        <span>/ {total} films</span>
+          {currentPageIndex * perPageCounter + 1} - {currentRangeEnd}
+        </span>
+        <span>/</span>
+        <span>{total} films</span>
       </div>
     </div>
   );

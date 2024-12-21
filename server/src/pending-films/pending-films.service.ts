@@ -13,10 +13,13 @@ export class PendingFilmsService {
     this.pendingFilmsModel = pendingFilmsModel;
   }
 
-  getList(queryFilters: GetListQuery) {
+  async getList(queryFilters: GetListQuery) {
     const { filters, options } = this.getListFilters(queryFilters);
 
-    return this.pendingFilmsModel.find(filters, null, options);
+    const list = await this.pendingFilmsModel.find(filters, null, options);
+    const total = await this.pendingFilmsModel.countDocuments(filters);
+
+    return { list, total };
   }
 
   createPendingFilm(film: Pick<PendingFilmEntity, 'title' | 'priority'>) {

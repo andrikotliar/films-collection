@@ -18,6 +18,8 @@ import { getRouteApi } from '@tanstack/react-router';
 import { PendingFilmsApi } from '@/api';
 import { useState } from 'react';
 import { PendingFilm } from '@/types';
+import { Pagination } from '@/components';
+import { PENDING_FILMS_PER_PAGE } from '@/constants';
 
 const defaultFormValues: PendingFilmFormValues = {
   title: '',
@@ -35,6 +37,8 @@ export const ConsolePendingFilmsPage = () => {
   );
 
   const searchParams = routeApi.useSearch();
+  const navigate = routeApi.useNavigate();
+
   const { data, refetch } = useSuspenseQuery(
     fetchPendingFilmsListQuery(searchParams),
   );
@@ -67,6 +71,15 @@ export const ConsolePendingFilmsPage = () => {
     });
   };
 
+  const handlePageChange = (pageIndex: number) => {
+    navigate({
+      search: (prev) => ({
+        ...prev,
+        pageIndex,
+      }),
+    });
+  };
+
   return (
     <PendingPageLayout>
       <ConsoleTitle>Pending Films</ConsoleTitle>
@@ -79,7 +92,7 @@ export const ConsolePendingFilmsPage = () => {
       </FormProvider>
       <Tools />
       <ListWrapper>
-        {data.map((film) => (
+        {data.list.map((film) => (
           <PendingFilmRow
             key={film._id}
             data={film}
@@ -89,6 +102,13 @@ export const ConsolePendingFilmsPage = () => {
           />
         ))}
       </ListWrapper>
+
+      <Pagination
+        currentPageIndex={searchParams.pageIndex}
+        total={data.total}
+        onPageChange={handlePageChange}
+        perPageCounter={PENDING_FILMS_PER_PAGE}
+      />
 
       <EditPendingFilmModal
         onClose={() => setEditModalContent(null)}

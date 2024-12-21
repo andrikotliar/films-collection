@@ -5,10 +5,21 @@ export type PendingFilm = {
   createdAt: string;
 };
 
-export type PendingFilmQueryFilters = Partial<{
+export type BasePendingFilmFilters = {
   q: string;
   priority: number;
-  skip: number;
   sortingField: string;
   sortingDirection: string;
-}>;
+};
+
+export type PendingFilmQueryFilters = Partial<
+  BasePendingFilmFilters & {
+    pageIndex: number;
+  }
+>;
+
+export type PendingFilmServerFilters = Partial<
+  BasePendingFilmFilters & {
+    skip: number;
+  }
+>;

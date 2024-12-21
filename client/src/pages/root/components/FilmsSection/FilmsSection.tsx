@@ -8,6 +8,7 @@ import {
 } from './components';
 import { FilmsListResponse } from '@/types';
 import { getRouteApi } from '@tanstack/react-router';
+import { PER_PAGE } from '@/constants';
 
 type FilmsSectionProps = {
   data: FilmsListResponse;
@@ -62,6 +63,7 @@ export const FilmsSection: FC<FilmsSectionProps> = ({ data, isLoading }) => {
           total={data.total}
           onPageChange={handlePageNavigation}
           currentPageIndex={searchParams.pageIndex}
+          perPageCounter={PER_PAGE}
         />
       </div>
     </div>

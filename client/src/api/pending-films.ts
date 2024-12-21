@@ -1,14 +1,19 @@
 import { apiClient } from '@/services';
-import { PendingFilm, PendingFilmQueryFilters } from '@/types';
+import { PendingFilm, PendingFilmServerFilters } from '@/types';
 
 type UpdatePendingFilmParams = {
   filmId: string;
   payload: Pick<PendingFilm, 'title' | 'priority'>;
 };
 
+type PendingFilmsListResponse = {
+  list: PendingFilm[];
+  total: number;
+};
+
 export const PendingFilmsApi = {
-  getPendingFilms(filters: PendingFilmQueryFilters) {
-    return apiClient.get<PendingFilm[]>('/pending-films', filters);
+  getPendingFilms(filters: PendingFilmServerFilters) {
+    return apiClient.get<PendingFilmsListResponse>('/pending-films', filters);
   },
 
   createPendingFilm(data: Pick<PendingFilm, 'title' | 'priority'>) {
