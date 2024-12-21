@@ -1,11 +1,10 @@
-import { apiClient } from '@/services';
-import { FilmData } from '@/types';
+import { FilmsApi } from '@/api';
 import { queryOptions } from '@tanstack/react-query';
 
 export const fetchFilmQuery = (filmId: string) => {
   return queryOptions({
     queryKey: ['film', filmId],
-    queryFn: ({ queryKey }) => apiClient.get<FilmData>(`/films/${queryKey[1]}`),
+    queryFn: ({ queryKey }) => FilmsApi.getFilm(queryKey[1]),
     retry: false,
   });
 };

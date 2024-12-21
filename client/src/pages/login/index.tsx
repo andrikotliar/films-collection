@@ -4,17 +4,13 @@ import { FormProvider, useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { LoginForm, LoginLayout } from './components';
 import { useMutation } from '@tanstack/react-query';
-import { apiClient, HttpError } from '@/services';
-import { AuthResponse } from '@/types';
+import { HttpError } from '@/services';
+import { AuthResponse, LoginPayload } from '@/types';
 import { ErrorMessage } from '@/components';
 import { loginFormSchema } from './validation';
+import { AuthenticationApi } from '@/api';
 
-type FormValues = {
-  username: string;
-  password: string;
-};
-
-const defaultLoginValues: FormValues = {
+const defaultLoginValues: LoginPayload = {
   username: '',
   password: '',
 };
@@ -22,12 +18,8 @@ const defaultLoginValues: FormValues = {
 export const LoginPage = () => {
   const navigate = useNavigate();
 
-  const { mutate, error } = useMutation<AuthResponse, HttpError, FormValues>({
-    mutationFn: (payload) => {
-      return apiClient.post('/auth/login', {
-        payload,
-      });
-    },
+  const { mutate, error } = useMutation<AuthResponse, HttpError, LoginPayload>({
+    mutationFn: AuthenticationApi.login,
     onSuccess: (result) => {
       if (result.userId) {
         localStorage.setItem(LocalStorageKey.IS_AUTHENTICATED, 'true');
@@ -37,12 +29,12 @@ export const LoginPage = () => {
     },
   });
 
-  const methods = useForm<FormValues>({
+  const methods = useForm<LoginPayload>({
     defaultValues: defaultLoginValues,
     resolver: yupResolver(loginFormSchema),
   });
 
-  const handleLogin = (values: FormValues) => {
+  const handleLogin = (values: LoginPayload) => {
     mutate(values);
   };
 

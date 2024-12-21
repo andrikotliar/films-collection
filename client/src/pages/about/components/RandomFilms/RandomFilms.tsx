@@ -3,13 +3,12 @@ import styles from './RandomFilms.module.css';
 import { Link } from '@tanstack/react-router';
 import { buildMediaPath, buildRouterLink } from '@/helpers';
 import { useQuery } from '@tanstack/react-query';
-import { apiClient } from '@/services';
-import { RandomFilmsList } from '@/types';
+import { FilmsApi } from '@/api';
 
 export const RandomFilms = () => {
   const { data } = useQuery({
     queryKey: ['random-films'],
-    queryFn: () => apiClient.get<RandomFilmsList>('/films/random'),
+    queryFn: FilmsApi.getRandomFilms,
   });
 
   if (!data) {

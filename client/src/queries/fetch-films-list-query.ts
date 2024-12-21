@@ -1,6 +1,6 @@
+import { FilmsApi } from '@/api';
 import { PER_PAGE } from '@/constants';
-import { apiClient } from '@/services';
-import { FilmsListFilters, FilmsListResponse } from '@/types';
+import { FilmsListFilters } from '@/types';
 import { queryOptions } from '@tanstack/react-query';
 
 export const fetchFilmsListQuery = (params: FilmsListFilters) => {
@@ -13,7 +13,7 @@ export const fetchFilmsListQuery = (params: FilmsListFilters) => {
         skip: queryKey[1].skip ? queryKey[1].skip * PER_PAGE : 0,
       };
 
-      return apiClient.get<FilmsListResponse>('/films', filters);
+      return FilmsApi.getList(filters);
     },
     retry: false,
   });
