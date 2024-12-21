@@ -6,7 +6,7 @@ import { number, object, string } from 'yup';
 const pendingFilmsFilterSchema = object().shape({
   q: string(),
   priority: number().min(1).max(3),
-  skip: number().min(0),
+  pageIndex: number().min(0),
   sortingField: string(),
   sortingDirection: string().oneOf(['asc', 'desc']),
 });

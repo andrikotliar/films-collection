@@ -1,12 +1,9 @@
-import { PER_PAGE } from '@/constants';
-
 type Query = {
   [param: string]: string | number | object;
 };
 
 const baseQueryParams = {
-  limit: PER_PAGE,
-  skip: 0,
+  pageIndex: 0,
 };
 
 export const buildQueryLink = (query: Query) => {

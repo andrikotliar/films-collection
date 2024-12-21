@@ -5,8 +5,7 @@ import { fetchFilmsListQuery, fetchInitialDataQuery } from '@/queries';
 import { FilmsListFilters } from '@/types';
 
 const filmsListFilterSchema = yup.object().shape({
-  limit: yup.number().min(0),
-  skip: yup.number().min(0),
+  pageIndex: yup.number().min(0),
   type: yup.string().oneOf(Object.values(TitleType)),
   style: yup.string(),
   genres: yup.array(yup.string().required()),

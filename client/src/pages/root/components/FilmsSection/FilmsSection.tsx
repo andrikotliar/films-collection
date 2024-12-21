@@ -7,13 +7,19 @@ import {
   AppliedFilters,
 } from './components';
 import { FilmsListResponse } from '@/types';
+import { getRouteApi } from '@tanstack/react-router';
 
 type FilmsSectionProps = {
   data: FilmsListResponse;
   isLoading: boolean;
 };
 
+const routeApi = getRouteApi('/');
+
 export const FilmsSection: FC<FilmsSectionProps> = ({ data, isLoading }) => {
+  const searchParams = routeApi.useSearch();
+  const navigate = routeApi.useNavigate();
+
   if (isLoading) {
     return (
       <div className={styles.filmsSection}>
@@ -32,13 +38,31 @@ export const FilmsSection: FC<FilmsSectionProps> = ({ data, isLoading }) => {
     );
   }
 
+  const handlePageNavigation = (pageIndex: number) => {
+    navigate({
+      to: '/',
+      search: (prev) => ({
+        ...prev,
+        pageIndex,
+      }),
+    });
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <div className={styles.filmsSection}>
       <AdditionalInfoSection info={data.additionalInfo} />
       <AppliedFilters />
       <FilmsGrid films={data.films} />
       <div className={styles.paginationWrapper}>
-        <Pagination total={data.total} />
+        <Pagination
+          total={data.total}
+          onPageChange={handlePageNavigation}
+          currentPageIndex={searchParams.pageIndex}
+        />
       </div>
     </div>
   );

@@ -7,10 +7,12 @@ export const fetchFilmsListQuery = (params: FilmsListFilters) => {
   return queryOptions({
     queryKey: ['films-collection-list', params] as const,
     queryFn: ({ queryKey }) => {
+      const { pageIndex, ...queries } = queryKey[1];
+
       const filters = {
-        ...queryKey[1],
-        limit: queryKey[1].limit ?? PER_PAGE,
-        skip: queryKey[1].skip ? queryKey[1].skip * PER_PAGE : 0,
+        ...queries,
+        limit: PER_PAGE,
+        skip: pageIndex ? pageIndex * PER_PAGE : 0,
       };
 
       return FilmsApi.getList(filters);

@@ -1,42 +1,20 @@
 import styles from './Pagination.module.css';
-import { FC, useMemo } from 'react';
+import { FC } from 'react';
 import classNames from 'classnames';
 import { PER_PAGE } from '@/constants';
-import { getRouteApi } from '@tanstack/react-router';
 
 export type PaginationProps = {
+  currentPageIndex?: number;
   total: number;
+  onPageChange: (pageIndex: number) => void;
 };
 
-const routeApi = getRouteApi('/');
-
-export const Pagination: FC<PaginationProps> = ({ total }) => {
-  const navigate = routeApi.useNavigate();
-  const routeSearch = routeApi.useSearch();
-
-  const activePage = useMemo(() => {
-    if (!routeSearch.skip) {
-      return 0;
-    }
-
-    return Number(routeSearch.skip);
-  }, [routeSearch]);
-
+export const Pagination: FC<PaginationProps> = ({
+  total,
+  onPageChange,
+  currentPageIndex = 0,
+}) => {
   const pagesCount = Math.ceil(total / PER_PAGE);
-
-  const handlePage = (pageIndex: number) => () => {
-    navigate({
-      to: '/',
-      search: (prev) => ({
-        ...prev,
-        skip: pageIndex,
-      }),
-    });
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  };
 
   return (
     <div className={styles.pagination}>
@@ -45,10 +23,10 @@ export const Pagination: FC<PaginationProps> = ({ total }) => {
           {Array.from({ length: Math.ceil(total / PER_PAGE) }, (_, index) => (
             <button
               className={classNames(styles.pageButton, {
-                [styles.active]: activePage === index,
+                [styles.active]: currentPageIndex === index,
               })}
               key={index}
-              onClick={handlePage(index)}
+              onClick={() => onPageChange(index)}
             >
               {index + 1}
             </button>
@@ -57,7 +35,8 @@ export const Pagination: FC<PaginationProps> = ({ total }) => {
       )}
       <div className={styles.stats}>
         <span className={styles.currentState}>
-          {activePage * PER_PAGE + 1} - {(activePage + 1) * PER_PAGE}
+          {currentPageIndex * PER_PAGE + 1} -{' '}
+          {(currentPageIndex + 1) * PER_PAGE}
         </span>{' '}
         <span>/ {total} films</span>
       </div>
