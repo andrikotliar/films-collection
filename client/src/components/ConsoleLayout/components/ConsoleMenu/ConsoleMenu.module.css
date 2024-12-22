@@ -24,5 +24,14 @@
     position: fixed;
     top: calc(var(--header-height) + var(--console-header-height));
     left: 0;
+    width: 200px;
+  }
+
+  .consoleMenu {
+    width: 200px;
+  }
+
+  .menuWrapperHidden {
+    width: 0;
   }
 }

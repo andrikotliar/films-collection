@@ -33,6 +33,14 @@
 }
 
 @media (max-width: 480px) {
+  .formWrapper {
+    padding: 12px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
   .formContent {
     flex-direction: column;
     gap: 10px;

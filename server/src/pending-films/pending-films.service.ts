@@ -70,7 +70,7 @@ export class PendingFilmsService {
         limit: 30,
         skip: queryFilters.skip ?? 0,
         sort: {
-          [sortingKey]: queryFilters.sortingDirection ?? 'desc',
+          [sortingKey]: queryFilters.sortingDirection === 'asc' ? 1 : -1,
         },
       },
     };

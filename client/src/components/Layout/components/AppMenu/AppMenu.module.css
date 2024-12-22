@@ -10,8 +10,11 @@
   overflow: auto;
   background-color: #fff;
   transform: translateX(300px);
-  transition: transform 300ms, visibility 300ms;
+  transition:
+    transform 300ms,
+    visibility 300ms;
   visibility: hidden;
+  z-index: 100;
 }
 
 .openAppMenu {

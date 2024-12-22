@@ -20,11 +20,9 @@ export const Modal = ({
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden';
-      document.body.style.height = '100vh';
     }
 
     return () => {
-      document.body.style.height = 'auto';
       document.body.style.overflow = '';
     };
   }, [isOpen]);
