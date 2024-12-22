@@ -1,14 +1,44 @@
 .toolsRow {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   gap: 20px;
 }
 
 .search {
-  font-size: 14px;
-  width: 70%;
+  font-size: 16px;
+  width: 50%;
   border: var(--app-border);
-  border-radius: 5px;
+  border-radius: 8px;
   outline-color: var(--blue-default);
-  padding: 5px 10px;
+  padding: 10px;
+}
+
+.prioritySelect {
+  flex-grow: 1;
+}
+
+@media (max-width: 680px) {
+  .toolsRow {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .search {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .toolsRow {
+    flex-direction: column;
+  }
+
+  .prioritySelect {
+    width: 100%;
+  }
+
+  .sortingWrapper {
+    width: 100%;
+  }
 }

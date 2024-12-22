@@ -39,7 +39,7 @@ export const ConsolePendingFilmsPage = () => {
   const searchParams = routeApi.useSearch();
   const navigate = routeApi.useNavigate();
 
-  const { data, refetch } = useSuspenseQuery(
+  const { data, refetch, isFetching } = useSuspenseQuery(
     fetchPendingFilmsListQuery(searchParams),
   );
 
@@ -91,7 +91,7 @@ export const ConsolePendingFilmsPage = () => {
         />
       </FormProvider>
       <Tools />
-      <ListWrapper>
+      <ListWrapper isLoading={isFetching}>
         {data.list.map((film) => (
           <PendingFilmRow
             key={film._id}

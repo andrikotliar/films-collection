@@ -22,6 +22,7 @@ type SortingPopupProps = {
   defaultSortingField?: string;
   defaultSortingDirection?: SortingDirection;
   onSorting: (params: SortingParams) => void;
+  buttonSize?: 'small' | 'large';
 };
 
 export const SortingPopup: FC<SortingPopupProps> = ({
@@ -29,6 +30,7 @@ export const SortingPopup: FC<SortingPopupProps> = ({
   onSorting,
   defaultSortingField,
   defaultSortingDirection = 'desc',
+  buttonSize = 'small',
 }) => {
   const sortingPopupButton = useRef<HTMLButtonElement>(null);
   const [isOpen, setIsOpen] = useState(false);
@@ -91,7 +93,11 @@ export const SortingPopup: FC<SortingPopupProps> = ({
 
   return (
     <div className={styles.wrapper}>
-      <SortingButton onClick={handleToggle} ref={sortingPopupButton}>
+      <SortingButton
+        onClick={handleToggle}
+        ref={sortingPopupButton}
+        size={buttonSize}
+      >
         {isOpen ? 'Select sorting' : sorting.sortingField.label}
       </SortingButton>
       <PopupMenu

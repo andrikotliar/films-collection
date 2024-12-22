@@ -3,5 +3,7 @@ export type PendingFilmsFilter = Partial<{
     $regex: string;
     $options: 'i';
   };
-  priority: number;
+  priority: {
+    $in: number[];
+  };
 }>;

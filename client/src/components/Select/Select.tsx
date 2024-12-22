@@ -12,7 +12,7 @@ export const Select: FC<SelectProps> = (props) => {
           ...baseStyles,
           borderColor: state.isFocused ? '#006db7' : '#ddd',
           borderRadius: 8,
-          height: 41,
+          minHeight: 41,
         }),
         container: (baseStyles, state) => ({
           ...baseStyles,

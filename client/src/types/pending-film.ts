@@ -7,7 +7,7 @@ export type PendingFilm = {
 
 export type BasePendingFilmFilters = {
   q: string;
-  priority: number;
+  priorities: number[];
   sortingField: string;
   sortingDirection: string;
 };

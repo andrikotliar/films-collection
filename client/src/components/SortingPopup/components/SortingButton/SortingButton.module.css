@@ -4,8 +4,7 @@
   gap: 5px;
   background-color: #fff;
   border: var(--app-border);
-  border-radius: 6px;
-  padding: 5px 10px;
+  width: 100%;
   transition: background-color 300ms;
 }
 
@@ -13,6 +12,20 @@
   background-color: var(--gray-ultra-light);
 }
 
-.label {
+.sortingButton.small {
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.sortingButton.large {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.sortingButton.large .label {
+  font-size: 16px;
+}
+
+.sortingButton.small .label {
   font-size: 14px;
 }

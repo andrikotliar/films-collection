@@ -6,6 +6,7 @@
   text-transform: uppercase;
   width: 60px;
   text-align: center;
+  user-select: none;
 }
 
 .status.red {

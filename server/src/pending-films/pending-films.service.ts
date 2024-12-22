@@ -56,8 +56,10 @@ export class PendingFilmsService {
       };
     }
 
-    if (queryFilters.priority) {
-      filters.priority = queryFilters.priority;
+    if (queryFilters.priorities?.length) {
+      filters.priority = {
+        $in: queryFilters.priorities,
+      };
     }
 
     const sortingKey = queryFilters.sortingField ?? 'createdAt';

@@ -6,18 +6,13 @@ import { getPriorityTitle } from '@/helpers';
 import { Priority } from '@/enums';
 import { Status, StatusProps } from '@/components';
 import { PencilIcon, SquarePlusIcon, Trash2Icon } from 'lucide-react';
+import { priorityToColor } from '@/configs';
 
 type PendingFilmRowProps = {
   data: PendingFilm;
   onDelete: VoidFunction;
   onEdit: VoidFunction;
   isDeleteInProgress: boolean;
-};
-
-const priorityToColor = {
-  [Priority.HIGH]: 'red',
-  [Priority.MEDIUM]: 'yellow',
-  [Priority.LOW]: 'gray',
 };
 
 export const PendingFilmRow: FC<PendingFilmRowProps> = ({

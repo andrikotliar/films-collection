@@ -7,8 +7,11 @@ export const getPendingFilmsSchema: FastifySchema = {
       q: {
         type: 'string',
       },
-      priority: {
-        type: 'number',
+      priorities: {
+        type: 'array',
+        items: {
+          type: 'number',
+        },
       },
       skip: {
         type: 'number',

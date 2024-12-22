@@ -1,12 +1,10 @@
 import { useState } from 'react';
 import { ConsoleHeader, ConsoleMenu } from './components';
 import styles from './ConsoleLayout.module.css';
-import { Outlet, useLocation } from '@tanstack/react-router';
+import { Outlet } from '@tanstack/react-router';
 import { MOBILE_VIEW_BREAKPOINT_PX } from '@/constants';
 
 export const ConsoleLayout = () => {
-  const location = useLocation();
-
   const [isMenuOpen, setIsMenuOpen] = useState(() => {
     if (document.documentElement.clientWidth <= MOBILE_VIEW_BREAKPOINT_PX) {
       return false;

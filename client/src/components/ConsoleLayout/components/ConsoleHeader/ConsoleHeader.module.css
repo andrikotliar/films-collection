@@ -9,23 +9,16 @@
 }
 
 .menuButton {
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: white;
   display: flex;
-  align-items: center;
-  gap: 5px;
-  background-color: var(--blue-default);
-  padding: 5px 10px;
-  border-radius: 6px;
 }
 
 .menuIcon {
+  color: var(--blue-default);
   transition: transform 300ms;
 }
 
 .menuIconCollapsed {
+  color: var(--black);
   transform: rotate(180deg);
 }
 
