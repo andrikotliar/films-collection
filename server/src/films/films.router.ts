@@ -7,7 +7,6 @@ import { ActorsService } from 'src/actors/actors.service';
 import { ActorModel } from 'src/actors/actors.model';
 import { ChaptersService } from 'src/chapters/chapters.service';
 import { ChaptersModel } from 'src/chapters/chapters.model';
-import { FindAllRequest, FindOneRequest, SearchRequest } from './types';
 import { AwardsService } from 'src/awards/awards.service';
 import { AwardModel } from 'src/awards/awards.model';
 import { CollectionsService } from 'src/collections/collections.service';
@@ -32,52 +31,32 @@ export const registerFilmsRouter = (app: FastifyInstance) => {
   app.route({
     method: 'GET',
     url: '/films',
-    handler: (request: FindAllRequest, reply) => {
-      return filmsController.findAll(request, reply);
-    },
+    handler: filmsController.findAll.bind(filmsController),
     schema: filmsSchema,
-  });
-
-  app.route({
-    method: 'POST',
-    url: '/films',
-    preHandler: [app.authenticate],
-    handler: (request, reply) => {
-      console.log(request.cookies);
-      return 'Hello world';
-    },
   });
 
   app.route({
     method: 'GET',
     url: '/films/anniversaries',
-    handler: (request, reply) => {
-      return filmsController.findAnniversaries(request, reply);
-    },
+    handler: filmsController.findAnniversaries.bind(filmsController),
   });
 
   app.route({
     method: 'GET',
     url: '/films/random',
-    handler: (request, reply) => {
-      return filmsController.findRandomFilms(request, reply);
-    },
+    handler: filmsController.findRandomFilms.bind(filmsController),
   });
 
   app.route({
     method: 'GET',
     url: '/films/search',
-    handler: (request: SearchRequest, reply) => {
-      return filmsController.findFilmsBySearchString(request, reply);
-    },
+    handler: filmsController.findFilmsBySearchString.bind(filmsController),
     schema: searchSchema,
   });
 
   app.route({
     method: 'GET',
     url: '/films/:id',
-    handler: (request: FindOneRequest, reply) => {
-      return filmsController.findOne(request, reply);
-    },
+    handler: filmsController.findOne.bind(filmsController),
   });
 };

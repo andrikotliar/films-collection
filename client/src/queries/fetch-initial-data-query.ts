@@ -1,13 +1,12 @@
+import { InitialDataApi } from '@/api';
 import { getFiltersConfig } from '@/configs';
-import { apiClient } from '@/services';
-import { InitialData } from '@/types';
 import { queryOptions } from '@tanstack/react-query';
 
 export const fetchInitialDataQuery = () => {
   return queryOptions({
     queryKey: ['initial-data'],
     queryFn: async () => {
-      const data = await apiClient.get<InitialData>('/initial-data');
+      const data = await InitialDataApi.getInitialData();
 
       return getFiltersConfig(data);
     },

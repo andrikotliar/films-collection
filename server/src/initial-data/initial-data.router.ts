@@ -20,8 +20,6 @@ export const registerInitialDataRouter = (app: FastifyInstance) => {
   app.route({
     method: 'GET',
     url: '/initial-data',
-    handler: (request, reply) => {
-      return initialDataController.getConfig(request, reply);
-    },
+    handler: initialDataController.getConfig.bind(initialDataController),
   });
 };

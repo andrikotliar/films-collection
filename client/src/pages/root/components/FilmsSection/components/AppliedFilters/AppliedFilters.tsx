@@ -7,8 +7,7 @@ import { getBadgeLabel } from './helpers';
 import { FilmsListFilters } from '@/types';
 
 const EXCLUDE_FILTERS = [
-  'skip',
-  'limit',
+  'pageIndex',
   'actorId',
   'personRole',
   'personName',

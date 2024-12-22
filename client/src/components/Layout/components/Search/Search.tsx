@@ -15,8 +15,7 @@ import { SearchMenuContent } from '../SearchMenuContent/SearchMenuContent';
 import { LoaderCircleIcon, SearchIcon } from 'lucide-react';
 import { useLocation } from '@tanstack/react-router';
 import { useQuery } from '@tanstack/react-query';
-import { apiClient } from '@/services';
-import { FilmSearchResult } from '@/types';
+import { FilmsApi } from '@/api';
 
 export const Search = () => {
   const location = useLocation();
@@ -28,8 +27,7 @@ export const Search = () => {
 
   const { data, isLoading } = useQuery({
     queryKey: ['films-search', searchString],
-    queryFn: ({ queryKey }) =>
-      apiClient.get<FilmSearchResult[]>(`/films/search?q=${queryKey[1]}`),
+    queryFn: ({ queryKey }) => FilmsApi.search(queryKey[1]),
     enabled: Boolean(searchString),
     retry: false,
   });

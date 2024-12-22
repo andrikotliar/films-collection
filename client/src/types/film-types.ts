@@ -128,8 +128,7 @@ type FilmsListResponse = {
 };
 
 type FilmsListPagination = {
-  limit?: number;
-  skip?: number;
+  pageIndex?: number;
 };
 
 type RandomFilmsList = Pick<FilmData, '_id' | 'title' | 'poster'>[];

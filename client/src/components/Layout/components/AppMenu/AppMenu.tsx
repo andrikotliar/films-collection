@@ -8,7 +8,7 @@ import { LocalStorageKey } from '@/enums';
 import { FilmLinkItem } from '@/types';
 import { AppMenuFilmsList } from '../AppMenuFilmsList/AppMenuFilmsList';
 import { useQuery } from '@tanstack/react-query';
-import { apiClient } from '@/services';
+import { FilmsApi } from '@/api';
 
 type AppMenuProps = {
   isOpen: boolean;
@@ -27,7 +27,7 @@ export const AppMenu: FC<AppMenuProps> = ({
   );
   const { data: anniversaryList } = useQuery({
     queryKey: ['anniversary-list'],
-    queryFn: () => apiClient.get<FilmLinkItem[]>('/films/anniversaries'),
+    queryFn: FilmsApi.getAnniversaries,
   });
 
   useClickOutside({

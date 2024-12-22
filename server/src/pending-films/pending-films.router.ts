@@ -13,8 +13,33 @@ export const registerPendingFilmsRouter = (app: FastifyInstance) => {
     method: 'GET',
     url: '/pending-films',
     preHandler: [app.authenticate],
-    handler: (...attrs) => {
-      return pendingFilmsController.getList(...attrs);
-    },
+    handler: pendingFilmsController.getList.bind(pendingFilmsController),
+  });
+
+  app.route({
+    method: 'POST',
+    url: '/pending-films',
+    preHandler: [app.authenticate],
+    handler: pendingFilmsController.createPendingFilm.bind(
+      pendingFilmsController,
+    ),
+  });
+
+  app.route({
+    method: 'PATCH',
+    url: '/pending-films/:filmId',
+    preHandler: [app.authenticate],
+    handler: pendingFilmsController.updatePendingFilm.bind(
+      pendingFilmsController,
+    ),
+  });
+
+  app.route({
+    method: 'DELETE',
+    url: '/pending-films/:filmId',
+    preHandler: [app.authenticate],
+    handler: pendingFilmsController.deletePendingFilm.bind(
+      pendingFilmsController,
+    ),
   });
 };

@@ -3,7 +3,6 @@ import { AuthService } from './auth.service';
 import { UsersService } from 'src/users/users.service';
 import { UsersModel } from 'src/users/users.model';
 import { AuthController } from './auth.controller';
-import { FastifyLoginRequest, FastifyRegisterRequest } from './types';
 import { loginSchema, registerSchema } from './validation';
 
 export const registerAuthRouter = (app: FastifyInstance) => {
@@ -16,25 +15,19 @@ export const registerAuthRouter = (app: FastifyInstance) => {
     method: 'POST',
     url: '/auth/login',
     schema: loginSchema,
-    handler: (request: FastifyLoginRequest, reply) => {
-      return authController.login(request, reply);
-    },
+    handler: authController.login.bind(authController),
   });
 
   app.route({
     method: 'POST',
     url: '/auth/register',
     schema: registerSchema,
-    handler: (request: FastifyRegisterRequest, reply) => {
-      return authController.register(request, reply);
-    },
+    handler: authController.register.bind(authController),
   });
 
   app.route({
     method: 'POST',
     url: '/auth/refresh',
-    handler: (...args) => {
-      return authController.refreshTokens(...args);
-    },
+    handler: authController.refreshTokens.bind(authController),
   });
 };

@@ -40,7 +40,7 @@ export class HttpError extends Error {
   }
 }
 
-class ApiClient {
+export class ApiClient {
   private baseUrl: string;
   private errorInterceptor: ErrorInterceptor | null = null;
 
@@ -139,9 +139,11 @@ class ApiClient {
     return await this.request<T>(path, {
       ...options,
       method: HttpMethod.DELETE,
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: options?.payload
+        ? {
+            'Content-Type': 'application/json',
+          }
+        : undefined,
       body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
