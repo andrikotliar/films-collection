@@ -8,7 +8,7 @@
   border-bottom: var(--app-border);
   background-color: white;
   height: var(--console-header-height);
-  z-index: 100;
+  z-index: 5;
 }
 
 .menuButton {
