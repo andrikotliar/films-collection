@@ -34,7 +34,11 @@ export const registerAuthPlugin = (
         const token = request.cookies[CookieName.ACCESS_TOKEN];
 
         if (!token) {
-          throw new Error('Missing token in cookies');
+          return sendErrorResponse(reply, {
+            statusCode: ResponseCode.UNAUTHENTICATED,
+            code: ErrorCode.JWT_EXPIRED,
+            message: 'Unauthenticated',
+          });
         }
 
         const decoded = fastify.jwt.verify<TokenPayload>(token);
