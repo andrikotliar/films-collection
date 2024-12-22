@@ -1,4 +1,6 @@
 .consoleHeader {
+  position: sticky;
+  top: var(--header-height);
   display: flex;
   align-items: center;
   gap: 20px;
@@ -6,6 +8,7 @@
   border-bottom: var(--app-border);
   background-color: white;
   height: var(--console-header-height);
+  z-index: 100;
 }
 
 .menuButton {
@@ -14,12 +17,10 @@
 
 .menuIcon {
   color: var(--blue-default);
-  transition: transform 300ms;
 }
 
 .menuIconCollapsed {
   color: var(--black);
-  transform: rotate(180deg);
 }
 
 .consoleHeaderTitle {

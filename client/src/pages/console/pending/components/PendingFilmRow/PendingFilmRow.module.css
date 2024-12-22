@@ -13,12 +13,16 @@
 
 .leftColumn {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 20px;
   flex-grow: 1;
 }
 
-.title {
+.priorityBadge {
+  flex-shrink: 0;
+}
+
+.pendingFilmTitle {
   font-size: 18px;
 }
 
@@ -51,7 +55,20 @@
 }
 
 @media (max-width: 480px) {
-  .title {
+  .pendingFilmRow {
+    gap: 12px;
+  }
+
+  .leftColumn {
+    gap: 12px;
+  }
+
+  .pendingFilmTitle {
     font-size: 14px;
+  }
+
+  .rowTools {
+    margin-left: 10px;
+    padding-left: 10px;
   }
 }
