@@ -29,6 +29,12 @@
   width: var(--icon-size);
 }
 
+.leftColumn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 .menuButton {
   display: flex;
   justify-content: center;

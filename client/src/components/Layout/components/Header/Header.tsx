@@ -5,6 +5,8 @@ import { Search } from '../Search/Search';
 import styles from './Header.module.css';
 import { AppMenu } from '../AppMenu/AppMenu';
 import { Logo } from '@/components/Logo/Logo';
+import { useLogoDecoration } from '@/hooks';
+import { LogoDecoration } from '../LogoDecoration/LogoDecoration';
 
 export const Header = () => {
   const menuButtonRef = useRef<HTMLButtonElement>(null);
@@ -24,16 +26,26 @@ export const Header = () => {
     handleCloseAppMenu();
   }, [location.pathname]);
 
+  const logoDecoration = useLogoDecoration();
+
   return (
     <header className={styles.header}>
       <div className={styles.headerContainer}>
-        <Link
-          to="/"
-          search={location.pathname === '/' ? location.search : undefined}
-          className={styles.logoWrapper}
-        >
-          <Logo className={styles.logo} />
-        </Link>
+        <div className={styles.leftColumn}>
+          <Link
+            to="/"
+            search={location.pathname === '/' ? location.search : undefined}
+            className={styles.logoWrapper}
+          >
+            <Logo className={styles.logo} />
+          </Link>
+          {logoDecoration !== null && (
+            <LogoDecoration
+              src={logoDecoration.image}
+              title={logoDecoration.title}
+            />
+          )}
+        </div>
         <Search />
         <button
           className={styles.menuButton}
