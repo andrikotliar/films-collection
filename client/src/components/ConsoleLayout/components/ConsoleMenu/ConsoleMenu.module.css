@@ -1,4 +1,6 @@
 .menuWrapper {
+  position: sticky;
+  top: var(--header-height);
   width: 300px;
   flex-shrink: 0;
   min-height: var(--app-height);

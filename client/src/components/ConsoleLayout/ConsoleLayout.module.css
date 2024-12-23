@@ -1,6 +1,7 @@
 .consoleLayout {
   --console-header-height: 55px;
   display: flex;
+  align-items: flex-start;
   background-color: var(--gray-extra-light);
 }
 

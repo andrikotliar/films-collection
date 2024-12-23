@@ -91,7 +91,7 @@ export const ConsolePendingFilmsPage = () => {
         />
       </FormProvider>
       <Tools />
-      <ListWrapper isLoading={isFetching}>
+      <ListWrapper>
         {data.list.map((film) => (
           <PendingFilmRow
             key={film._id}

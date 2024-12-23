@@ -1,3 +1,4 @@
+import { SortOrder } from 'mongoose';
 import { PendingFilmEntity } from './pending-film.entity';
 
 export type GetListQuery = Partial<{
@@ -5,5 +6,5 @@ export type GetListQuery = Partial<{
   priorities: number[];
   skip: number;
   sortingField: keyof PendingFilmEntity;
-  sortingDirection: 'asc' | 'desc';
+  sortingDirection: SortOrder;
 }>;
