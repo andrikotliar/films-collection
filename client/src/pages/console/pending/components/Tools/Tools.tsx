@@ -3,8 +3,8 @@ import styles from './Tools.module.css';
 import { debounce } from '@/helpers';
 import { getRouteApi } from '@tanstack/react-router';
 import { ChangeEvent, useCallback } from 'react';
-import { prioritySelectOptions } from '@/configs';
-import { SelectOption } from '@/types';
+import { priorityOptions } from '@/configs';
+import { ConfigOption } from '@/types';
 
 const routeApi = getRouteApi('/console/pending');
 
@@ -58,7 +58,7 @@ export const Tools = () => {
   };
 
   const handleApplyPriorityFilter = (values: unknown) => {
-    const priorities = (values as SelectOption<number>[]).map(
+    const priorities = (values as ConfigOption<number>[]).map(
       (option) => option.value,
     );
 
@@ -82,7 +82,7 @@ export const Tools = () => {
         placeholder="Search a film"
       />
       <Select
-        options={prioritySelectOptions}
+        options={priorityOptions}
         placeholder="Filter priority"
         className={styles.prioritySelect}
         onChange={handleApplyPriorityFilter}
