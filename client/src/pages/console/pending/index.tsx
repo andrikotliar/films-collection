@@ -13,7 +13,6 @@ import {
   Tools,
 } from './components';
 import { ConsoleTitle } from '../components';
-import { Priority } from '@/enums';
 import { getRouteApi } from '@tanstack/react-router';
 import { PendingFilmsApi } from '@/api';
 import { useState } from 'react';
@@ -23,10 +22,7 @@ import { PENDING_FILMS_PER_PAGE } from '@/constants';
 
 const defaultFormValues: PendingFilmFormValues = {
   title: '',
-  priority: {
-    label: Priority.LOW,
-    value: 1,
-  },
+  priority: '1',
 };
 
 const routeApi = getRouteApi('/console/pending');
@@ -39,7 +35,7 @@ export const ConsolePendingFilmsPage = () => {
   const searchParams = routeApi.useSearch();
   const navigate = routeApi.useNavigate();
 
-  const { data, refetch, isFetching } = useSuspenseQuery(
+  const { data, refetch } = useSuspenseQuery(
     fetchPendingFilmsListQuery(searchParams),
   );
 
@@ -67,7 +63,7 @@ export const ConsolePendingFilmsPage = () => {
   ) => {
     createPendingFilm({
       title: data.title,
-      priority: data.priority.value,
+      priority: Number(data.priority),
     });
   };
 

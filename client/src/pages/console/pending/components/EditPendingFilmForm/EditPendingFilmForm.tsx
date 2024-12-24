@@ -2,7 +2,6 @@ import { PendingFilm } from '@/types';
 import { FC } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
 import { PendingFilmForm } from '../PendingFilmForm/PendingFilmForm';
-import { prioritySelectOptions } from '@/configs';
 import { PendingFilmFormValues } from '../../types';
 import { useMutation } from '@tanstack/react-query';
 import { PendingFilmsApi } from '@/api';
@@ -21,14 +20,10 @@ export const EditPendingFilmForm: FC<EditPendingFilmFormProps> = ({
     onSuccess: onSubmitSuccess,
   });
 
-  const priorityValue = prioritySelectOptions.find(
-    (option) => option.value === defaultValues.priority,
-  );
-
   const form = useForm<PendingFilmFormValues>({
     defaultValues: {
       title: defaultValues.title,
-      priority: priorityValue ?? prioritySelectOptions[0],
+      priority: String(defaultValues.priority),
     },
   });
 
@@ -37,7 +32,7 @@ export const EditPendingFilmForm: FC<EditPendingFilmFormProps> = ({
       filmId: defaultValues._id,
       payload: {
         title: data.title,
-        priority: data.priority.value,
+        priority: Number(data.priority),
       },
     });
   };

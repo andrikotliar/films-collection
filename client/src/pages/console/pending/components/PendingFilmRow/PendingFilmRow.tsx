@@ -28,7 +28,7 @@ export const PendingFilmRow: FC<PendingFilmRowProps> = ({
     <div className={styles.pendingFilmRow}>
       <div className={styles.leftColumn}>
         <div className={styles.priorityBadge}>
-          <Status color={priorityColor}>{rowPriority}</Status>
+          <Status color={priorityColor} title={rowPriority} />
         </div>
         <div className={styles.pendingFilmTitle}>{data.title}</div>
       </div>

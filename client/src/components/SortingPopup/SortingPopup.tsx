@@ -1,11 +1,11 @@
 import { FC, useRef, useState } from 'react';
 import { PopupMenu } from '../PopupMenu/PopupMenu';
-import { SelectOption, SortingDirection } from '@/types';
+import { ConfigOption, SortingDirection } from '@/types';
 import { FilterOption, SortingButton } from './components';
 import styles from './SortingPopup.module.css';
 import { sortingDirectionOptions } from '@/configs';
 
-type SortingFieldOption = SelectOption;
+type SortingFieldOption = ConfigOption;
 
 export type SortingParams = {
   sortingField: string;
@@ -97,6 +97,7 @@ export const SortingPopup: FC<SortingPopupProps> = ({
         onClick={handleToggle}
         ref={sortingPopupButton}
         size={buttonSize}
+        sortingDirection={sorting.sortingDirection}
       >
         {isOpen ? 'Select sorting' : sorting.sortingField.label}
       </SortingButton>

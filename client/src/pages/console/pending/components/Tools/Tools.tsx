@@ -1,10 +1,17 @@
-import { Select, SortingParams, SortingPopup } from '@/components';
+import {
+  Select,
+  SortingParams,
+  SortingPopup,
+  StatusFilterButton,
+} from '@/components';
 import styles from './Tools.module.css';
 import { debounce } from '@/helpers';
 import { getRouteApi } from '@tanstack/react-router';
 import { ChangeEvent, useCallback } from 'react';
-import { prioritySelectOptions } from '@/configs';
-import { SelectOption } from '@/types';
+import { priorityOptions } from '@/configs';
+import { ConfigOption, StatusColor } from '@/types';
+import { FormItemLabel } from '@/components/FormItemLabel/FormItemLabel';
+import { setPriorities } from './helpers';
 
 const routeApi = getRouteApi('/console/pending');
 
@@ -57,43 +64,53 @@ export const Tools = () => {
     });
   };
 
-  const handleApplyPriorityFilter = (values: unknown) => {
-    const priorities = (values as SelectOption<number>[]).map(
-      (option) => option.value,
-    );
+  const handleApplyPriorityFilter = (event: ChangeEvent<HTMLInputElement>) => {
+    const value = Number(event.target.value);
 
     navigate({
       search: (params) => {
         return {
           ...params,
-          priorities,
+          priorities: setPriorities(value, params.priorities),
         };
       },
     });
   };
 
   return (
-    <div className={styles.toolsRow}>
-      <input
-        type="text"
-        onChange={debouncedSearch}
-        defaultValue={searchParams.q}
-        className={styles.search}
-        placeholder="Search a film"
-      />
-      <Select
-        options={prioritySelectOptions}
-        placeholder="Filter priority"
-        className={styles.prioritySelect}
-        onChange={handleApplyPriorityFilter}
-        isMulti
-      />
-      <div className={styles.sortingWrapper}>
-        <SortingPopup
-          fields={sortingFields}
-          onSorting={handleApplySorting}
-          buttonSize="large"
+    <div>
+      <div className={styles.toolsRow}>
+        <input
+          type="text"
+          onChange={debouncedSearch}
+          defaultValue={searchParams.q}
+          className={styles.search}
+          placeholder="Search a film"
         />
+        <div className={styles.sortingWrapper}>
+          <SortingPopup
+            fields={sortingFields}
+            onSorting={handleApplySorting}
+            buttonSize="large"
+          />
+        </div>
+      </div>
+      <div className={styles.prioritiesFilter}>
+        <FormItemLabel>Filter by priority</FormItemLabel>
+        <div className={styles.priorities}>
+          {priorityOptions.map((option) => (
+            <StatusFilterButton
+              key={option.value}
+              title={option.label}
+              value={String(option.value)}
+              color={option.color as StatusColor}
+              onChange={handleApplyPriorityFilter}
+              defaultChecked={searchParams.priorities?.includes(option.value)}
+              name="priorities"
+              isMultiple
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
