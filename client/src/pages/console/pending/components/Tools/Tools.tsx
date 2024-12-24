@@ -1,15 +1,10 @@
-import {
-  Select,
-  SortingParams,
-  SortingPopup,
-  StatusFilterButton,
-} from '@/components';
+import { SortingParams, SortingPopup, StatusFilterButton } from '@/components';
 import styles from './Tools.module.css';
 import { debounce } from '@/helpers';
 import { getRouteApi } from '@tanstack/react-router';
 import { ChangeEvent, useCallback } from 'react';
 import { priorityOptions } from '@/configs';
-import { ConfigOption, StatusColor } from '@/types';
+import { StatusColor } from '@/types';
 import { FormItemLabel } from '@/components/FormItemLabel/FormItemLabel';
 import { setPriorities } from './helpers';
 

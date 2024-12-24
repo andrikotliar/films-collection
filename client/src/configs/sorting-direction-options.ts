@@ -1,6 +1,6 @@
-import { SelectOption, SortingDirection } from '@/types';
+import { ConfigOption, SortingDirection } from '@/types';
 
-export type SortingDirectionOption = SelectOption<SortingDirection>;
+export type SortingDirectionOption = ConfigOption<SortingDirection>;
 
 export const sortingDirectionOptions: SortingDirectionOption[] = [
   {
