@@ -7,7 +7,7 @@ import { useFormContext } from 'react-hook-form';
 
 type FormStatusFilterButtonProps = {
   name: string;
-} & Omit<StatusFilterButtonProps, 'onChange' | 'onBlur'>;
+} & Omit<StatusFilterButtonProps, 'onChange' | 'onBlur' | 'name'>;
 
 export const FormStatusFilterButton: FC<FormStatusFilterButtonProps> = ({
   name,

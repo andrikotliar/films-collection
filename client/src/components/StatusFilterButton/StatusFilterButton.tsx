@@ -11,8 +11,10 @@ export type StatusFilterButtonProps = {
   value?: string;
   isMultiple?: boolean;
   error?: string | string[];
+  name?: string;
+  defaultChecked?: boolean;
   onChange: ChangeEventHandler<HTMLInputElement>;
-  onBlur: ChangeEventHandler<HTMLInputElement>;
+  onBlur?: ChangeEventHandler<HTMLInputElement>;
 };
 
 export const StatusFilterButton = forwardRef<
