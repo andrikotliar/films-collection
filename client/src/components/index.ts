@@ -20,7 +20,5 @@ export * from './FormTextInput/FormPasswordInput';
 export * from './ConsoleLayout/ConsoleLayout';
 export * from './ErrorMessage/ErrorMessage';
 export * from './Status/Status';
-export * from './Select/Select';
-export * from './FormSelect/FormSelect';
 export * from './SortingPopup/SortingPopup';
 export * from './StatusFilterButton';
