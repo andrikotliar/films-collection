@@ -11,7 +11,7 @@ export type ButtonProps = {
   isActive?: boolean;
   variant?: 'primary' | 'secondary' | 'ghost';
   activeClassName?: string;
-  disabled?: boolean;
+  isDisabled?: boolean;
 };
 
 export const Button: FC<PropsWithChildren<PropsWithClassName<ButtonProps>>> = ({
@@ -24,7 +24,7 @@ export const Button: FC<PropsWithChildren<PropsWithClassName<ButtonProps>>> = ({
   variant = 'primary',
   isActive = false,
   activeClassName = styles.active,
-  disabled,
+  isDisabled,
 }) => {
   return (
     <button
@@ -34,7 +34,7 @@ export const Button: FC<PropsWithChildren<PropsWithClassName<ButtonProps>>> = ({
         [styles.hidden]: isHidden,
         [activeClassName]: isActive,
       })}
-      disabled={disabled}
+      disabled={isDisabled}
     >
       {icon && <div className={styles.icon}>{icon}</div>}
       {children}
