@@ -40,13 +40,15 @@ export const Pagination: FC<PaginationProps> = ({
           )}
         </div>
       )}
-      <div className={styles.stats}>
-        <span className={styles.currentState}>
-          {currentPageIndex * perPageCounter + 1} - {currentRangeEnd}
-        </span>
-        <span>/</span>
-        <span>{total} films</span>
-      </div>
+      {total > 0 && (
+        <div className={styles.stats}>
+          <span className={styles.currentState}>
+            {currentPageIndex * perPageCounter + 1} - {currentRangeEnd}
+          </span>
+          <span>/</span>
+          <span>{total} films</span>
+        </div>
+      )}
     </div>
   );
 };
