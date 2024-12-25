@@ -1,24 +1,19 @@
-import { FC, useRef, useState } from 'react';
+import styles from './SortingPopup.module.css';
+import { FC, FormEvent, useRef, useState } from 'react';
 import { PopupMenu } from '../PopupMenu/PopupMenu';
 import { ConfigOption, SortingDirection } from '@/types';
-import { FilterOption, SortingButton } from './components';
-import styles from './SortingPopup.module.css';
+import { SortingButton } from './components';
 import { sortingDirectionOptions } from '@/configs';
-
-type SortingFieldOption = ConfigOption;
+import { BadgeCheckbox } from '../BadgeCheckbox/BadgeCheckbox';
+import { getDefaultSortingFieldLabel } from './helpers';
 
 export type SortingParams = {
   sortingField: string;
   sortingDirection: SortingDirection;
 };
 
-type InternalSortingState = {
-  sortingField: SortingFieldOption;
-  sortingDirection: SortingDirection;
-};
-
 type SortingPopupProps = {
-  fields: SortingFieldOption[];
+  fields: ConfigOption[];
   defaultSortingField?: string;
   defaultSortingDirection?: SortingDirection;
   onSorting: (params: SortingParams) => void;
@@ -35,27 +30,12 @@ export const SortingPopup: FC<SortingPopupProps> = ({
   const sortingPopupButton = useRef<HTMLButtonElement>(null);
   const [isOpen, setIsOpen] = useState(false);
 
-  const [sorting, setSorting] = useState<InternalSortingState>(() => {
-    if (!defaultSortingField) {
-      return {
-        sortingField: fields[0],
-        sortingDirection: 'desc',
-      };
-    }
-
-    const selectedField = fields.find(
-      (field) => field.label === defaultSortingField,
-    );
-
-    if (!selectedField) {
-      return {
-        sortingField: fields[0],
-        sortingDirection: 'desc',
-      };
-    }
-
+  const [selectedData, setSelectedData] = useState(() => {
     return {
-      sortingField: selectedField,
+      sortingFieldLabel: getDefaultSortingFieldLabel(
+        fields,
+        defaultSortingField,
+      ),
       sortingDirection: defaultSortingDirection,
     };
   });
@@ -68,56 +48,59 @@ export const SortingPopup: FC<SortingPopupProps> = ({
     setIsOpen((isOpen) => !isOpen);
   };
 
-  const applyFilters = (data: InternalSortingState) => {
+  const handleSubmitSorting = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
+    const form = event.target as HTMLFormElement;
+    const formData = new FormData(form);
+
+    const rawSortingFieldOption = formData.get('sortingField') as string;
+
+    const [sortingFieldLabel, sortingField] = rawSortingFieldOption.split(':');
+
+    const sortingDirection = formData.get(
+      'sortingDirection',
+    ) as SortingDirection;
+
+    setSelectedData({
+      sortingFieldLabel,
+      sortingDirection,
+    });
+
     onSorting({
-      sortingField: data.sortingField.value,
-      sortingDirection: data.sortingDirection,
+      sortingField,
+      sortingDirection,
     });
 
     handleClose();
   };
 
-  const handleSetSortingField = (field: SortingFieldOption) => {
-    setSorting((prev) => ({
-      ...prev,
-      sortingField: field,
-    }));
-  };
-
-  const handleSetSortingDirection = (direction: SortingDirection) => {
-    setSorting((prev) => ({
-      ...prev,
-      sortingDirection: direction,
-    }));
-  };
-
   return (
-    <div className={styles.wrapper}>
+    <>
       <SortingButton
         onClick={handleToggle}
         ref={sortingPopupButton}
         size={buttonSize}
-        sortingDirection={sorting.sortingDirection}
+        sortingDirection={selectedData.sortingDirection}
       >
-        {isOpen ? 'Select sorting' : sorting.sortingField.label}
+        {isOpen ? 'Select sorting' : selectedData.sortingFieldLabel}
       </SortingButton>
       <PopupMenu
         isOpen={isOpen}
         triggerRef={sortingPopupButton}
         onClose={handleClose}
         positionMarker="right"
-        className={styles.sortingPopup}
+        className={styles.sortingPopupWrapper}
       >
-        <div className={styles.sortingPopupContainer}>
+        <form onSubmit={handleSubmitSorting}>
           <div className={styles.groupLabel}>Sort By</div>
           <div className={styles.options}>
             {fields.map((field) => (
-              <FilterOption
+              <BadgeCheckbox
                 type="radio"
-                value={field.value}
+                value={`${field.label}:${field.value}`}
                 name="sortingField"
-                defaultChecked={field.value === sorting.sortingField.value}
-                onChange={() => handleSetSortingField(field)}
+                defaultChecked={field.value === defaultSortingField}
                 label={field.label}
                 key={field.value}
               />
@@ -126,26 +109,21 @@ export const SortingPopup: FC<SortingPopupProps> = ({
           <div className={styles.groupLabel}>Sort Order</div>
           <div className={styles.options}>
             {sortingDirectionOptions.map((direction) => (
-              <FilterOption
+              <BadgeCheckbox
                 type="radio"
                 value={direction.value}
                 name="sortingDirection"
-                defaultChecked={direction.value === sorting.sortingDirection}
-                onChange={() => handleSetSortingDirection(direction.value)}
+                defaultChecked={direction.value === defaultSortingDirection}
                 label={direction.label}
                 key={direction.value}
               />
             ))}
           </div>
-        </div>
-
-        <button
-          className={styles.applyButton}
-          onClick={() => applyFilters(sorting)}
-        >
-          Apply
-        </button>
+          <button className={styles.applyButton} type="submit">
+            Apply
+          </button>
+        </form>
       </PopupMenu>
-    </div>
+    </>
   );
 };

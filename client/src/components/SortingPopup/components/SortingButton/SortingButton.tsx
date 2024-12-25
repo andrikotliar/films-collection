@@ -1,6 +1,8 @@
 import {
+  ArrowDownAZIcon,
   ArrowDownNarrowWide,
   ArrowDownUpIcon,
+  ArrowUpAZIcon,
   ArrowUpNarrowWide,
 } from 'lucide-react';
 import { forwardRef, PropsWithChildren } from 'react';
@@ -22,12 +24,12 @@ export const SortingButton = forwardRef<HTMLButtonElement, SortingButtonProps>(
         onClick={onClick}
         className={classNames(styles.sortingButton, styles[size])}
       >
-        {sortingDirection === 'asc' ? (
-          <ArrowDownNarrowWide size={18} />
-        ) : (
-          <ArrowUpNarrowWide size={18} />
-        )}
         <span className={styles.label}>{children}</span>
+        {sortingDirection === 'asc' ? (
+          <ArrowDownAZIcon className={styles.icon} />
+        ) : (
+          <ArrowUpAZIcon className={styles.icon} />
+        )}
       </button>
     );
   },

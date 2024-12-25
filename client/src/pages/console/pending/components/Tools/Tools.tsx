@@ -86,6 +86,8 @@ export const Tools = () => {
           <SortingPopup
             fields={sortingFields}
             onSorting={handleApplySorting}
+            defaultSortingDirection={searchParams.sortingDirection}
+            defaultSortingField={searchParams.sortingField}
             buttonSize="large"
           />
         </div>
