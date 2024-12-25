@@ -1,9 +1,10 @@
 import { FC, PropsWithChildren } from 'react';
-import { PropsWithClassName } from '@/types';
 import styles from './DataArea.module.css';
 import classNames from 'classnames';
 
-type DataAreaProps = PropsWithChildren<PropsWithClassName>;
+type DataAreaProps = PropsWithChildren<{
+  className?: string;
+}>;
 
 export const DataArea: FC<DataAreaProps> = ({ children, className }) => {
   return (

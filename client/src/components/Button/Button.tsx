@@ -1,7 +1,6 @@
 import styles from './Button.module.css';
 import { FC, PropsWithChildren, ReactNode } from 'react';
 import classNames from 'classnames';
-import { PropsWithClassName } from '@/types';
 
 export type ButtonProps = {
   onClick?: VoidFunction;
@@ -12,9 +11,10 @@ export type ButtonProps = {
   variant?: 'primary' | 'secondary' | 'ghost';
   activeClassName?: string;
   isDisabled?: boolean;
+  className?: string;
 };
 
-export const Button: FC<PropsWithChildren<PropsWithClassName<ButtonProps>>> = ({
+export const Button: FC<PropsWithChildren<ButtonProps>> = ({
   children,
   icon,
   onClick,

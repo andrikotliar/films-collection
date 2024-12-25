@@ -1,9 +1,12 @@
 import classNames from 'classnames';
 import { FC, PropsWithChildren } from 'react';
 import styles from './ModalContent.module.css';
-import { PropsWithClassName } from '@/types';
 
-export const ModalContent: FC<PropsWithChildren<PropsWithClassName>> = ({
+type ModalContentProps = {
+  className?: string;
+};
+
+export const ModalContent: FC<PropsWithChildren<ModalContentProps>> = ({
   children,
   className,
 }) => {

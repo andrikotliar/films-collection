@@ -2,16 +2,16 @@ import { FC } from 'react';
 import styles from './styles.module.css';
 import { useFormContext } from 'react-hook-form';
 import { FieldError } from '../FieldError/FieldError';
-import { PropsWithClassName } from '@/types';
 import classNames from 'classnames';
 import { FormItemLabel } from '../FormItemLabel/FormItemLabel';
 
-type FormInputProps = PropsWithClassName<{
+type FormInputProps = {
   type?: 'text' | 'number';
   name: string;
   label?: string;
   placeholder?: string;
-}>;
+  className?: string;
+};
 
 export const FormTextInput: FC<FormInputProps> = ({
   name,
