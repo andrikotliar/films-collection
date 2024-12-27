@@ -1,13 +1,6 @@
-import { Collection } from 'mongodb';
 import { logger } from './logger.js';
 
-/**
- *
- * @param {Collection} collection
- * @param {() => Promise<any>} getData
- * @returns {Promise<import('mongodb').InsertManyResult>}
- */
-export const insertDataIntoCollection = async (collection, getData) => {
+export const insertDataIntoCollection = async ({ collection, getData }) => {
   const data = await getData();
   const result = await collection.insertMany(data);
 

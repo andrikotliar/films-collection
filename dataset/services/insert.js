@@ -1,5 +1,12 @@
 import { insertDataIntoCollection } from '../helpers/insert-data.js';
 import { selectCollections } from '../helpers/select-collections.js';
+import { loadJsonData } from '../helpers/load-json-data.js';
+import { loadMultipleFilesData } from '../helpers/load-multiple-files-data.js';
+
+const loadersMap = {
+  single: loadJsonData,
+  multiple: loadMultipleFilesData,
+};
 
 export const insertCollections = async ({
   cliParams,
@@ -18,6 +25,11 @@ export const insertCollections = async ({
   for (const config of collections) {
     const mongoDbCollection = database.collection(config.dbCollection);
 
-    await insertDataIntoCollection(mongoDbCollection, config.loader);
+    const dataLoader = loadersMap[config.mode];
+
+    await insertDataIntoCollection({
+      collection: mongoDbCollection,
+      getData: () => dataLoader(config.dataPath),
+    });
   }
 };

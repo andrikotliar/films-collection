@@ -11,4 +11,8 @@ export const cliParamsMap = {
     prop: 'maxFilesNumber',
     type: 'number',
   },
+  '--input-path': {
+    prop: 'inputPath',
+    type: 'string',
+  },
 };
