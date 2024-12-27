@@ -1,6 +1,5 @@
 import {
   ChangeEvent,
-  CSSProperties,
   FocusEventHandler,
   useCallback,
   useEffect,
@@ -15,24 +14,15 @@ import { SearchMenuContent } from '../SearchMenuContent/SearchMenuContent';
 import { LoaderCircleIcon, SearchIcon } from 'lucide-react';
 import { useLocation } from '@tanstack/react-router';
 import { useQuery } from '@tanstack/react-query';
-import { FilmsApi } from '@/api';
+import { searchFilmsQuery } from '@/queries';
 
 export const Search = () => {
   const location = useLocation();
   const searchInputRef = useRef<HTMLInputElement>(null);
   const [searchString, setSearchString] = useState<string | null>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [searchWrapperStyles, setSearchWrapperStyles] =
-    useState<CSSProperties>();
 
-  const { data, isLoading } = useQuery({
-    queryKey: ['films-search', searchString],
-    queryFn: ({ queryKey }) => FilmsApi.search(queryKey[1]),
-    enabled: Boolean(searchString),
-    retry: false,
-  });
-
-  const isMobile = window.innerWidth <= 480;
+  const { data, isLoading } = useQuery(searchFilmsQuery(searchString));
 
   const focusSearch = (event: KeyboardEvent) => {
     if (event.key === 'F2' && searchInputRef.current) {
@@ -68,22 +58,6 @@ export const Search = () => {
     if (!isMenuOpen && event.target.value.length) {
       handleSearch(event);
     }
-
-    if (isMobile) {
-      setSearchWrapperStyles({
-        position: 'absolute',
-        left: 0,
-        top: 0,
-        padding: 10,
-        background: 'white',
-      });
-    }
-  };
-
-  const clearStyles = () => {
-    if (isMobile && searchWrapperStyles) {
-      setSearchWrapperStyles(undefined);
-    }
   };
 
   const handleClearSearch = () => {
@@ -106,7 +80,7 @@ export const Search = () => {
   }, []);
 
   return (
-    <div className={styles.search} style={searchWrapperStyles}>
+    <div className={styles.search}>
       <div className={styles.inputWrapper}>
         <input
           type="text"
@@ -115,7 +89,6 @@ export const Search = () => {
           placeholder="Search by title..."
           onChange={debouncedSearch}
           onFocus={handleFocus}
-          onBlur={clearStyles}
           ref={searchInputRef}
         />
         <SearchIcon className={styles.searchIcon} />

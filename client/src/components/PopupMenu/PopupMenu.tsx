@@ -15,10 +15,9 @@ import {
 } from 'react';
 import styles from './PopupMenu.module.css';
 import { createPortal } from 'react-dom';
-import { PropsWithClassName } from '@/types';
 import classNames from 'classnames';
 
-type PopupMenuProps = PropsWithClassName<{
+type PopupMenuProps = {
   isOpen: boolean;
   onClose: VoidFunction;
   triggerRef: RefObject<HTMLElement>;
@@ -26,8 +25,7 @@ type PopupMenuProps = PropsWithClassName<{
   positionMarker?: 'left' | 'right';
   shouldAdjustToTriggerWidth?: boolean;
   shouldFocusTriggerOnClose?: boolean;
-}> &
-  HTMLAttributes<HTMLDivElement>;
+} & HTMLAttributes<HTMLDivElement>;
 
 type Position = {
   left: number;

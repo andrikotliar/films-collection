@@ -1,14 +1,5 @@
-.wrapper {
-  flex-shrink: 0;
-  width: 100%;
-}
-
-.sortingPopup {
+.sortingPopupWrapper {
   padding: 15px;
-}
-
-.sortingPopupContainer {
-  margin-bottom: 20px;
 }
 
 .applyButton {
@@ -39,13 +30,5 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  border-bottom: var(--app-border);
-}
-
-.options:last-child {
-  border-bottom: 0;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  margin-bottom: 20px;
 }

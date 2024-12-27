@@ -1,9 +1,13 @@
 import styles from './PendingFilmForm.module.css';
 import { priorityOptions } from '@/configs';
-import { Button, FormTextInput, FormStatusFilterButton } from '@/components';
+import {
+  Button,
+  FormTextInput,
+  FormStatusFilterButton,
+  FieldLabel,
+} from '@/components';
 import { LoaderCircle, SaveIcon } from 'lucide-react';
 import { FC, FormEventHandler } from 'react';
-import { FormItemLabel } from '@/components/FormItemLabel/FormItemLabel';
 import { StatusColor } from '@/types';
 
 type PendingFilmFormProps = {
@@ -22,7 +26,7 @@ export const PendingFilmForm: FC<PendingFilmFormProps> = ({
       <h2 className={styles.title}>{title}</h2>
       <FormTextInput name="title" label="Title" className={styles.titleInput} />
       <div>
-        <FormItemLabel>Priority</FormItemLabel>
+        <FieldLabel>Priority</FieldLabel>
         <div className={styles.priorities}>
           {priorityOptions.map((option) => (
             <FormStatusFilterButton

@@ -1,17 +1,15 @@
 import { FC } from 'react';
 import { Link, useLocation } from '@tanstack/react-router';
 import styles from './Menu.module.css';
-import { MenuConfigItem, PropsWithClassName } from '@/types';
+import { MenuConfigItem } from '@/types';
 import classNames from 'classnames';
 
 type MenuProps = {
   config: MenuConfigItem[];
+  className?: string;
 };
 
-export const Menu: FC<PropsWithClassName<MenuProps>> = ({
-  config,
-  className,
-}) => {
+export const Menu: FC<MenuProps> = ({ config, className }) => {
   const location = useLocation();
 
   const checkActiveState = (currentLink: string) => {

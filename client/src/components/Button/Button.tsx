@@ -1,7 +1,6 @@
 import styles from './Button.module.css';
 import { FC, PropsWithChildren, ReactNode } from 'react';
 import classNames from 'classnames';
-import { PropsWithClassName } from '@/types';
 
 export type ButtonProps = {
   onClick?: VoidFunction;
@@ -11,10 +10,11 @@ export type ButtonProps = {
   isActive?: boolean;
   variant?: 'primary' | 'secondary' | 'ghost';
   activeClassName?: string;
-  disabled?: boolean;
+  isDisabled?: boolean;
+  className?: string;
 };
 
-export const Button: FC<PropsWithChildren<PropsWithClassName<ButtonProps>>> = ({
+export const Button: FC<PropsWithChildren<ButtonProps>> = ({
   children,
   icon,
   onClick,
@@ -24,7 +24,7 @@ export const Button: FC<PropsWithChildren<PropsWithClassName<ButtonProps>>> = ({
   variant = 'primary',
   isActive = false,
   activeClassName = styles.active,
-  disabled,
+  isDisabled,
 }) => {
   return (
     <button
@@ -34,7 +34,7 @@ export const Button: FC<PropsWithChildren<PropsWithClassName<ButtonProps>>> = ({
         [styles.hidden]: isHidden,
         [activeClassName]: isActive,
       })}
-      disabled={disabled}
+      disabled={isDisabled}
     >
       {icon && <div className={styles.icon}>{icon}</div>}
       {children}

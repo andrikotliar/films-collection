@@ -8,11 +8,6 @@
 
 .search {
   flex-grow: 1;
-  font-size: 16px;
-  border: var(--app-border);
-  border-radius: 8px;
-  outline-color: var(--blue-default);
-  padding: 10px;
 }
 
 .prioritiesFilter {
@@ -28,19 +23,4 @@
 .priorities {
   display: flex;
   gap: 10px;
-}
-
-@media (max-width: 480px) {
-  .toolsRow {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .search {
-    width: 100%;
-  }
-
-  .sortingWrapper {
-    width: 100%;
-  }
 }

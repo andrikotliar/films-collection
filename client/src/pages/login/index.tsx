@@ -18,7 +18,11 @@ const defaultLoginValues: LoginPayload = {
 export const LoginPage = () => {
   const navigate = useNavigate();
 
-  const { mutate, error } = useMutation<AuthResponse, HttpError, LoginPayload>({
+  const { mutate, error, isPending } = useMutation<
+    AuthResponse,
+    HttpError,
+    LoginPayload
+  >({
     mutationFn: AuthenticationApi.login,
     onSuccess: (result) => {
       if (result.userId) {
@@ -41,7 +45,10 @@ export const LoginPage = () => {
   return (
     <FormProvider {...methods}>
       <LoginLayout>
-        <LoginForm onSubmit={methods.handleSubmit(handleLogin)} />
+        <LoginForm
+          onSubmit={methods.handleSubmit(handleLogin)}
+          isSaving={isPending}
+        />
       </LoginLayout>
       <ErrorMessage error={error} />
     </FormProvider>

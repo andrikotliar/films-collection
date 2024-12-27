@@ -1,9 +1,10 @@
 import styles from './ConsoleTitle.module.css';
-import { PropsWithClassName } from '@/types';
 import classNames from 'classnames';
 import { FC, PropsWithChildren } from 'react';
 
-type ConsoleTitleProps = PropsWithChildren<PropsWithClassName>;
+type ConsoleTitleProps = PropsWithChildren<{
+  className?: string;
+}>;
 
 export const ConsoleTitle: FC<ConsoleTitleProps> = ({
   children,

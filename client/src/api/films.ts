@@ -23,9 +23,7 @@ export const FilmsApi = {
 
   search(searchString: string | null) {
     return apiClient.get<FilmSearchResult[]>(`/films/search`, {
-      queryParams: {
-        q: searchString,
-      },
+      q: searchString,
     });
   },
 

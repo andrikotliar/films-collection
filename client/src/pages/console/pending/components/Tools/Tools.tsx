@@ -1,11 +1,16 @@
-import { SortingParams, SortingPopup, StatusFilterButton } from '@/components';
+import {
+  SortingParams,
+  SortingPopup,
+  StatusFilterButton,
+  FieldLabel,
+  TextInput,
+} from '@/components';
 import styles from './Tools.module.css';
 import { debounce } from '@/helpers';
 import { getRouteApi } from '@tanstack/react-router';
 import { ChangeEvent, useCallback } from 'react';
 import { priorityOptions } from '@/configs';
 import { StatusColor } from '@/types';
-import { FormItemLabel } from '@/components/FormItemLabel/FormItemLabel';
 import { setPriorities } from './helpers';
 
 const routeApi = getRouteApi('/console/pending');
@@ -75,7 +80,7 @@ export const Tools = () => {
   return (
     <div>
       <div className={styles.toolsRow}>
-        <input
+        <TextInput
           type="text"
           onChange={debouncedSearch}
           defaultValue={searchParams.q}
@@ -86,12 +91,14 @@ export const Tools = () => {
           <SortingPopup
             fields={sortingFields}
             onSorting={handleApplySorting}
+            defaultSortingDirection={searchParams.sortingDirection}
+            defaultSortingField={searchParams.sortingField}
             buttonSize="large"
           />
         </div>
       </div>
       <div className={styles.prioritiesFilter}>
-        <FormItemLabel>Filter by priority</FormItemLabel>
+        <FieldLabel>Filter by priority</FieldLabel>
         <div className={styles.priorities}>
           {priorityOptions.map((option) => (
             <StatusFilterButton

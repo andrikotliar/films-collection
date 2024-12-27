@@ -1,10 +1,10 @@
-.formCheckbox {
+.checkbox {
   display: flex;
   align-items: center;
   gap: 10px;
   cursor: pointer;
 }
-.formCheckbox input {
+.checkbox input {
   display: none;
 }
 .iconWrapper {
@@ -19,17 +19,17 @@
 .icon {
   display: none;
 }
-.formCheckbox input[type="checkbox"] + .iconWrapper {
+.checkbox input[type='checkbox'] + .iconWrapper {
   border-radius: 3px;
 }
-.formCheckbox input[type="radio"] + .iconWrapper {
+.checkbox input[type='radio'] + .iconWrapper {
   border-radius: 50px;
 }
-.formCheckbox input:checked + .iconWrapper {
+.checkbox input:checked + .iconWrapper {
   background-image: var(--main-gradient);
   border-color: var(--blue-default);
 }
-.formCheckbox input:checked + .iconWrapper .icon {
+.checkbox input:checked + .iconWrapper .icon {
   display: block;
   color: #fff;
 }
@@ -37,6 +37,6 @@
   font-size: 14px;
   user-select: none;
 }
-.formCheckbox:hover .title {
+.checkbox:hover .title {
   color: var(--blue-default);
 }
