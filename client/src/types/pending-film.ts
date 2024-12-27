@@ -11,7 +11,7 @@ export type BasePendingFilmFilters = {
   q: string;
   priorities: number[];
   sortingField: string;
-  sortingDirection: SortingDirection;
+  sortingDirection: string;
 };
 
 export type PendingFilmQueryFilters = Partial<

@@ -10,7 +10,7 @@ import { debounce } from '@/helpers';
 import { getRouteApi } from '@tanstack/react-router';
 import { ChangeEvent, useCallback } from 'react';
 import { priorityOptions } from '@/configs';
-import { StatusColor } from '@/types';
+import { SortingDirection, StatusColor } from '@/types';
 import { setPriorities } from './helpers';
 
 const routeApi = getRouteApi('/console/pending');
@@ -91,7 +91,9 @@ export const Tools = () => {
           <SortingPopup
             fields={sortingFields}
             onSorting={handleApplySorting}
-            defaultSortingDirection={searchParams.sortingDirection}
+            defaultSortingDirection={
+              searchParams.sortingDirection as SortingDirection
+            }
             defaultSortingField={searchParams.sortingField}
             buttonSize="large"
           />
