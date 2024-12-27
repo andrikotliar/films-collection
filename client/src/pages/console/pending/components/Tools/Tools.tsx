@@ -3,6 +3,7 @@ import {
   SortingPopup,
   StatusFilterButton,
   FieldLabel,
+  TextInput,
 } from '@/components';
 import styles from './Tools.module.css';
 import { debounce } from '@/helpers';
@@ -79,7 +80,7 @@ export const Tools = () => {
   return (
     <div>
       <div className={styles.toolsRow}>
-        <input
+        <TextInput
           type="text"
           onChange={debouncedSearch}
           defaultValue={searchParams.q}
