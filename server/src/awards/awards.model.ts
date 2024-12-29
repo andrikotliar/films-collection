@@ -18,6 +18,11 @@ const AwardSchema = new Schema<Award>({
     type: [String],
     required: true,
   },
+  createdAt: {
+    type: Date,
+    required: false,
+    default: () => Date.now(),
+  },
 });
 
 export const AwardModel = model<Award>('Awards', AwardSchema);

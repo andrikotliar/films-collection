@@ -12,6 +12,11 @@ const ListSchema = new Schema<List>({
     type: [String],
     required: true,
   },
+  createdAt: {
+    type: Date,
+    required: false,
+    default: () => Date.now(),
+  },
 });
 
 export const ListsModel = model<List>('Lists', ListSchema);

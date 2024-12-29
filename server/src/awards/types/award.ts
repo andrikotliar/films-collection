@@ -6,6 +6,7 @@ type Award = {
   image: string;
   description: string;
   nominations: string[];
+  createdAt: Date;
 };
 
 export type { Award };

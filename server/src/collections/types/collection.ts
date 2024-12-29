@@ -5,6 +5,7 @@ type Collection = {
   type: CollectionType;
   title: string;
   description?: string;
+  createdAt: Date;
 };
 
 export type { Collection };
