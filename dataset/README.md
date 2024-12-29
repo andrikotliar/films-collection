@@ -15,22 +15,22 @@ The script creates several collections in the database:
 - **lists**
 - **collections**
 
-To populate only specified collections, add the `--collections` parameter with comma-separated collection names after the equal sign:
+To populate only specified collections, add the `--collections` parameter with comma-separated collection names:
 
 ```bash
-node fc insert --collections=films,chapters
+node fc insert --collections "films, chapters"
 ```
 
-To change an environment file, specify the `--env-file` parameter:
+To change an environment file, specify the `--env` parameter:
 
 ```bash
-node fc insert --env-file=.env.prod
+node fc insert --env .env.prod
 ```
 
 To delete collections replace the `insert` command with the `delete` one.
 
 ```bash
-node fc delete --collections=films,actors --env-file=.env.test
+node fc delete --collections "films, actors" --env .env.test
 ```
 If none of the parameters are specified, defaults will be used. For the environment file it's the `.env` and for collections all available.
 
