@@ -6,11 +6,11 @@ import { logger } from './logger.js';
 
 /**
  * @param {Configs} source
- * @param {string[]} requestedCollections
+ * @param {string[]} [requestedCollections]
  * @returns {Configs}
  */
 export const selectCollections = (source, requestedCollections) => {
-  if (!requestedCollections.length) {
+  if (!requestedCollections?.length) {
     return source;
   }
 
