@@ -15,22 +15,22 @@ The script creates several collections in the database:
 - **lists**
 - **collections**
 
-To populate only specified collections, add the `--collections` parameter with comma-separated collection names after the equal sign:
+To populate only specified collections, add the `--collections` parameter with comma-separated collection names:
 
 ```bash
-node fc insert --collections=films,chapters
+node fc insert --collections "films, chapters"
 ```
 
-To change an environment file, specify the `--env-file` parameter:
+To change an environment file, specify the `--env` parameter:
 
 ```bash
-node fc insert --env-file=.env.prod
+node fc insert --env .env.prod
 ```
 
 To delete collections replace the `insert` command with the `delete` one.
 
 ```bash
-node fc delete --collections=films,actors --env-file=.env.test
+node fc delete --collections "films, actors" --env .env.test
 ```
 If none of the parameters are specified, defaults will be used. For the environment file it's the `.env` and for collections all available.
 
@@ -82,3 +82,31 @@ All seeding data are in the `data` folder. Delete or add the data to fit your li
   }
 ]
 ```
+
+## Export
+
+To export data from the database run the script:
+
+```bash
+node fc export --src-collection COLLECTION_NAME --output-folder DESTINATION_PATH --result-mode single
+```
+
+Available parameters:
+
+- `--src-collection` - required, defines source collection.
+- `--output-folder` - destination folder, where file(s) will be saved. Default `./exports` (relative folder to the `dataset`).
+- `--result-mode` - accepts one of values: `single` or `multiple`. Default `single`. The script writes data to a single or multiple files based on a mode value.
+
+Filters:
+
+- `--from-date` - filter by the `createdAt` field after or equal to the date.
+- `--to-date` - filter by the `createdAt` field before or equal to the date.
+- `--limit` - limit number of items. Default `0`.
+- `--skip` - skip number of items. Default `0`.
+- `--search` - filter items by a search string, case insensitive. It supports collections that have a `title` field.
+- `--id` - filter by the `_id` field.
+
+Sorting:
+
+- `--sort-by` - sorting field. Default `createdAt`.
+- `--sort-order` - order direction, accepts `asc` or `desc` values. Default `desc`.

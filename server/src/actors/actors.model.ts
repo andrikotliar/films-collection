@@ -10,6 +10,11 @@ const ActorSchema = new Schema<ActorType>({
     type: String,
     required: true,
   },
+  createdAt: {
+    type: Date,
+    required: false,
+    default: () => Date.now(),
+  },
 });
 
 export const ActorModel = model<ActorType>('Actors', ActorSchema);

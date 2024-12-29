@@ -3,5 +3,5 @@
  * @returns {string[]}
  */
 export const parseArrayParameter = (value) => {
-  return value.split(',');
+  return value.split(',').map((item) => item.trim());
 };

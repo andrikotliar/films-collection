@@ -8,6 +8,7 @@ import { getFileData } from './get-file-data.js';
  */
 export const loadJsonData = async (path) => {
   logger.startProcess('Started loading data from:', path);
+  const now = new Date();
 
   const data = await getFileData(path);
 
@@ -19,6 +20,7 @@ export const loadJsonData = async (path) => {
     return {
       ...restItem,
       _id: objectId,
+      createdAt: now,
     };
   });
 

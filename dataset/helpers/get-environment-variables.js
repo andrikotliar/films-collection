@@ -28,14 +28,17 @@ const validateVariables = (env) => {
   }
 };
 
-export const getEnvironmentVariables = (cliParams) => {
+export const getEnvironmentVariables = (envFilePath) => {
   const { parsed: envVariables, error } = config({
-    path: cliParams.envFile,
+    path: envFilePath,
   });
 
+  if (error) {
+    throw new Error(error?.message);
+  }
+
   if (!envVariables) {
-    logger.error('Error parsing environment file', error);
-    process.exit(0);
+    throw new Error('Variables not found');
   }
 
   const { MONGODB_URI, DATABASE_NAME } = validateVariables(envVariables);

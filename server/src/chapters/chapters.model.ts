@@ -8,6 +8,11 @@ const ChapterSchema = new Schema<Chapter>({
       required: true,
     },
   ],
+  createdAt: {
+    type: Date,
+    required: false,
+    default: () => Date.now(),
+  },
 });
 
 export const ChaptersModel = model<Chapter>('Chapters', ChapterSchema);

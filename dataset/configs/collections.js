@@ -1,36 +1,40 @@
-import { loadMultipleFilesData } from '../helpers/load-multiple-files-data.js';
-import { loadJsonData } from '../helpers/load-json-data.js';
-
 /**
  * @typedef {Object} Config
  * @property {string} dbCollection
- * @property {(...args: any[]) => Promise<unknown[]>} loader
+ * @property {string} dataPath
+ * @property {'single' | 'multiple'} mode
  */
 
 /** @type {Config[]} */
 export const collectionsConfig = [
   {
     dbCollection: 'films',
-    loader: () => loadMultipleFilesData('./data/films'),
+    dataPath: './data/films',
+    mode: 'multiple',
   },
   {
     dbCollection: 'actors',
-    loader: () => loadJsonData('./data/supporting/actors.json'),
+    dataPath: './data/supporting/actors.json',
+    mode: 'single',
   },
   {
     dbCollection: 'chapters',
-    loader: () => loadJsonData('./data/supporting/chapters.json'),
+    dataPath: './data/supporting/chapters.json',
+    mode: 'single',
   },
   {
     dbCollection: 'awards',
-    loader: () => loadJsonData('./data/supporting/awards.json'),
+    dataPath: './data/supporting/awards.json',
+    mode: 'single',
   },
   {
     dbCollection: 'lists',
-    loader: () => loadJsonData('./data/supporting/lists.json'),
+    dataPath: './data/supporting/lists.json',
+    mode: 'single',
   },
   {
     dbCollection: 'collections',
-    loader: () => loadJsonData('./data/supporting/collections.json'),
+    dataPath: './data/supporting/collections.json',
+    mode: 'single',
   },
 ];

@@ -17,6 +17,11 @@ const CollectionSchema = new Schema<Collection>({
     required: false,
     default: null,
   },
+  createdAt: {
+    type: Date,
+    required: false,
+    default: () => Date.now(),
+  },
 });
 
 export const CollectionModel = model<Collection>(
