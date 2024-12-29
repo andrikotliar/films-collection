@@ -82,3 +82,31 @@ All seeding data are in the `data` folder. Delete or add the data to fit your li
   }
 ]
 ```
+
+## Export
+
+To export data from the database run the script:
+
+```bash
+node fc export --src-collection COLLECTION_NAME --output-folder DESTINATION_PATH --result-mode single
+```
+
+Available parameters:
+
+- `--src-collection` - required, defines source collection.
+- `--output-folder` - destination folder, where file(s) will be saved. Default `./exports` (relative folder to the `dataset`).
+- `--result-mode` - accepts one of values: `single` or `multiple`. Default `single`. The script writes data to a single or multiple files based on a mode value.
+
+Filters:
+
+- `--from-date` - filter by the `createdAt` field after or equal to the date.
+- `--to-date` - filter by the `createdAt` field before or equal to the date.
+- `--limit` - limit number of items. Default `0`.
+- `--skip` - skip number of items. Default `0`.
+- `--search` - filter items by a search string, case insensitive. It supports collections that have a `title` field.
+- `--id` - filter by the `_id` field.
+
+Sorting:
+
+- `--sort-by` - sorting field. Default `createdAt`.
+- `--sort-order` - order direction, accepts `asc` or `desc` values. Default `desc`.
