@@ -10,7 +10,7 @@ export const writeMultipleFiles = async ({ data, path }) => {
   }
 
   for (const document of data) {
-    const { _id, ...entity } = document;
+    const { _id, createdAt, updatedAt, ...entity } = document;
 
     const stringifiedId = _id.toString();
     const formattedTitle = formatTitle(entity.title, stringifiedId);

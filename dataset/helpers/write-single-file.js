@@ -6,7 +6,7 @@ export const writeSingleFile = async ({ collectionName, data, path }) => {
   const fullPath = `${path}/${fileName}`;
 
   const transformedData = data.map((doc) => {
-    const { _id, ...entity } = doc;
+    const { _id, createdAt, updatedAt, ...entity } = doc;
 
     return {
       id: _id.toString(),
