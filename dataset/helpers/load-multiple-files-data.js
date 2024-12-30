@@ -28,7 +28,6 @@ export const loadMultipleFilesData = async (folderPath) => {
       ...plainData,
       _id: objectId,
       createdAt: now,
-      updatedAt: now,
     };
   });
 
