@@ -31,7 +31,7 @@ export const EditPendingFilmForm: FC<EditPendingFilmFormProps> = ({
     updatePendingFilm({
       filmId: defaultValues._id,
       payload: {
-        title: data.title,
+        title: data.title.trim(),
         priority: Number(data.priority),
       },
     });

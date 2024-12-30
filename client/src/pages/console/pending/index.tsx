@@ -62,7 +62,7 @@ export const ConsolePendingFilmsPage = () => {
     data,
   ) => {
     createPendingFilm({
-      title: data.title,
+      title: data.title.trim(),
       priority: Number(data.priority),
     });
   };
