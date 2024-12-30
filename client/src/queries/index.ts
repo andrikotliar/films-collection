@@ -3,3 +3,4 @@ export * from './fetch-films-list-query';
 export * from './fetch-initial-data-query';
 export * from './fetch-pending-films-list-query';
 export * from './search-films-query';
+export * from './fetch-admin-list-query';

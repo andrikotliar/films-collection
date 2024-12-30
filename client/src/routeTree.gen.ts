@@ -18,12 +18,12 @@ import { Route as ConsoleRouteImport } from './routes/console/route'
 import { Route as IndexImport } from './routes/index'
 import { Route as FilmFilmIdImport } from './routes/film/$filmId'
 import { Route as ConsolePendingRouteImport } from './routes/console/pending/route'
+import { Route as ConsoleManageRouteImport } from './routes/console/manage/route'
 
 // Create Virtual Routes
 
 const StatisticRouteLazyImport = createFileRoute('/statistic')()
 const AboutRouteLazyImport = createFileRoute('/about')()
-const ConsoleManageRouteLazyImport = createFileRoute('/console/manage')()
 const ConsoleAdditionalRouteLazyImport = createFileRoute(
   '/console/additional',
 )()
@@ -62,14 +62,6 @@ const IndexRoute = IndexImport.update({
   getParentRoute: () => rootRoute,
 } as any).lazy(() => import('./routes/index.lazy').then((d) => d.Route))
 
-const ConsoleManageRouteLazyRoute = ConsoleManageRouteLazyImport.update({
-  id: '/manage',
-  path: '/manage',
-  getParentRoute: () => ConsoleRouteRoute,
-} as any).lazy(() =>
-  import('./routes/console/manage/route.lazy').then((d) => d.Route),
-)
-
 const ConsoleAdditionalRouteLazyRoute = ConsoleAdditionalRouteLazyImport.update(
   {
     id: '/additional',
@@ -92,6 +84,14 @@ const ConsolePendingRouteRoute = ConsolePendingRouteImport.update({
   getParentRoute: () => ConsoleRouteRoute,
 } as any).lazy(() =>
   import('./routes/console/pending/route.lazy').then((d) => d.Route),
+)
+
+const ConsoleManageRouteRoute = ConsoleManageRouteImport.update({
+  id: '/manage',
+  path: '/manage',
+  getParentRoute: () => ConsoleRouteRoute,
+} as any).lazy(() =>
+  import('./routes/console/manage/route.lazy').then((d) => d.Route),
 )
 
 // Populate the FileRoutesByPath interface
@@ -133,6 +133,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof StatisticRouteLazyImport
       parentRoute: typeof rootRoute
     }
+    '/console/manage': {
+      id: '/console/manage'
+      path: '/manage'
+      fullPath: '/console/manage'
+      preLoaderRoute: typeof ConsoleManageRouteImport
+      parentRoute: typeof ConsoleRouteImport
+    }
     '/console/pending': {
       id: '/console/pending'
       path: '/pending'
@@ -154,28 +161,21 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ConsoleAdditionalRouteLazyImport
       parentRoute: typeof ConsoleRouteImport
     }
-    '/console/manage': {
-      id: '/console/manage'
-      path: '/manage'
-      fullPath: '/console/manage'
-      preLoaderRoute: typeof ConsoleManageRouteLazyImport
-      parentRoute: typeof ConsoleRouteImport
-    }
   }
 }
 
 // Create and export the route tree
 
 interface ConsoleRouteRouteChildren {
+  ConsoleManageRouteRoute: typeof ConsoleManageRouteRoute
   ConsolePendingRouteRoute: typeof ConsolePendingRouteRoute
   ConsoleAdditionalRouteLazyRoute: typeof ConsoleAdditionalRouteLazyRoute
-  ConsoleManageRouteLazyRoute: typeof ConsoleManageRouteLazyRoute
 }
 
 const ConsoleRouteRouteChildren: ConsoleRouteRouteChildren = {
+  ConsoleManageRouteRoute: ConsoleManageRouteRoute,
   ConsolePendingRouteRoute: ConsolePendingRouteRoute,
   ConsoleAdditionalRouteLazyRoute: ConsoleAdditionalRouteLazyRoute,
-  ConsoleManageRouteLazyRoute: ConsoleManageRouteLazyRoute,
 }
 
 const ConsoleRouteRouteWithChildren = ConsoleRouteRoute._addFileChildren(
@@ -188,10 +188,10 @@ export interface FileRoutesByFullPath {
   '/login': typeof LoginRouteRoute
   '/about': typeof AboutRouteLazyRoute
   '/statistic': typeof StatisticRouteLazyRoute
+  '/console/manage': typeof ConsoleManageRouteRoute
   '/console/pending': typeof ConsolePendingRouteRoute
   '/film/$filmId': typeof FilmFilmIdRoute
   '/console/additional': typeof ConsoleAdditionalRouteLazyRoute
-  '/console/manage': typeof ConsoleManageRouteLazyRoute
 }
 
 export interface FileRoutesByTo {
@@ -200,10 +200,10 @@ export interface FileRoutesByTo {
   '/login': typeof LoginRouteRoute
   '/about': typeof AboutRouteLazyRoute
   '/statistic': typeof StatisticRouteLazyRoute
+  '/console/manage': typeof ConsoleManageRouteRoute
   '/console/pending': typeof ConsolePendingRouteRoute
   '/film/$filmId': typeof FilmFilmIdRoute
   '/console/additional': typeof ConsoleAdditionalRouteLazyRoute
-  '/console/manage': typeof ConsoleManageRouteLazyRoute
 }
 
 export interface FileRoutesById {
@@ -213,10 +213,10 @@ export interface FileRoutesById {
   '/login': typeof LoginRouteRoute
   '/about': typeof AboutRouteLazyRoute
   '/statistic': typeof StatisticRouteLazyRoute
+  '/console/manage': typeof ConsoleManageRouteRoute
   '/console/pending': typeof ConsolePendingRouteRoute
   '/film/$filmId': typeof FilmFilmIdRoute
   '/console/additional': typeof ConsoleAdditionalRouteLazyRoute
-  '/console/manage': typeof ConsoleManageRouteLazyRoute
 }
 
 export interface FileRouteTypes {
@@ -227,10 +227,10 @@ export interface FileRouteTypes {
     | '/login'
     | '/about'
     | '/statistic'
+    | '/console/manage'
     | '/console/pending'
     | '/film/$filmId'
     | '/console/additional'
-    | '/console/manage'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -238,10 +238,10 @@ export interface FileRouteTypes {
     | '/login'
     | '/about'
     | '/statistic'
+    | '/console/manage'
     | '/console/pending'
     | '/film/$filmId'
     | '/console/additional'
-    | '/console/manage'
   id:
     | '__root__'
     | '/'
@@ -249,10 +249,10 @@ export interface FileRouteTypes {
     | '/login'
     | '/about'
     | '/statistic'
+    | '/console/manage'
     | '/console/pending'
     | '/film/$filmId'
     | '/console/additional'
-    | '/console/manage'
   fileRoutesById: FileRoutesById
 }
 
@@ -298,9 +298,9 @@ export const routeTree = rootRoute
     "/console": {
       "filePath": "console/route.tsx",
       "children": [
+        "/console/manage",
         "/console/pending",
-        "/console/additional",
-        "/console/manage"
+        "/console/additional"
       ]
     },
     "/login": {
@@ -312,6 +312,10 @@ export const routeTree = rootRoute
     "/statistic": {
       "filePath": "statistic/route.lazy.tsx"
     },
+    "/console/manage": {
+      "filePath": "console/manage/route.tsx",
+      "parent": "/console"
+    },
     "/console/pending": {
       "filePath": "console/pending/route.tsx",
       "parent": "/console"
@@ -321,10 +325,6 @@ export const routeTree = rootRoute
     },
     "/console/additional": {
       "filePath": "console/additional/route.lazy.tsx",
-      "parent": "/console"
-    },
-    "/console/manage": {
-      "filePath": "console/manage/route.lazy.tsx",
       "parent": "/console"
     }
   }

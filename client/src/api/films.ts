@@ -2,11 +2,13 @@ import { apiClient } from '@/services';
 import {
   FilmData,
   FilmLinkItem,
+  FilmsAdminListItem,
   FilmSearchResult,
   FilmsListFilters,
   FilmsListResponse,
   RandomFilmsList,
 } from '@/types';
+import { ManageFilmsServerFilters } from '@/types/manage-films-filters';
 
 export const FilmsApi = {
   getList(filters: FilmsListFilters) {
@@ -29,5 +31,9 @@ export const FilmsApi = {
 
   getRandomFilms() {
     return apiClient.get<RandomFilmsList>('/films/random');
+  },
+
+  getManageFilmsList(filters: ManageFilmsServerFilters) {
+    return apiClient.get<FilmsAdminListItem[]>('/films/admin/list', filters);
   },
 };

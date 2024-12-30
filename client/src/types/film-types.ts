@@ -2,6 +2,7 @@ import { TitleType } from '@/enums';
 import { Actor } from './actor';
 import { AwardData } from './award';
 import { Collection } from './collection';
+import { PublishStatus } from '@/enums/publish-status';
 
 export type Crew = {
   role: string;
@@ -81,6 +82,7 @@ export type FilmData = {
   watchCount: number;
   createdAt: string;
   updatedAt: string;
+  publishStatus: PublishStatus;
 };
 
 export type FilmsListItem = Pick<
@@ -147,3 +149,8 @@ export type FilmsListFilters = FilmsListPagination &
     studios: string[] | null;
     collection: string | null;
   }>;
+
+export type FilmsAdminListItem = Pick<
+  FilmData,
+  '_id' | 'title' | 'publishStatus'
+>;
