@@ -11,10 +11,10 @@ The personal collection of favorite films.
 - React
 - Vite
 - TypeScript
+- *TanStack Router*
+- *TanStack Query*
 - *React Hook Form*
-- *React Query*
 - *Lucide Icons*
-- *React Router Dom v6*
 
 ### Backend
 
