@@ -1,7 +1,7 @@
 {
   "id": "49de57861f5695e7bdee50a2",
   "type": "Film",
-  "title": "Back to the future",
+  "title": "Back to the Future",
   "genres": [
     "Sci-Fi",
     "Adventures"
@@ -133,5 +133,6 @@
   "style": "Live-Action",
   "trailers": [
     "qvsgGtivCgs"
-  ]
+  ],
+  "publishStatus": "Completed"
 }
