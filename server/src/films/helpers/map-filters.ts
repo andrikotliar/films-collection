@@ -1,5 +1,6 @@
 import { RootFilterQuery } from 'mongoose';
 import { DbQueryFilter, FindAllFilters } from '../types';
+import { PublishStatus } from '../enums';
 
 const MONEY_RANGE_MILLIONS = 10_000_000;
 
@@ -46,7 +47,11 @@ export const mapFilters = (plainFilters: Partial<FindAllFilters>) => {
     boxOffice,
   } = plainFilters;
 
-  const filters: RootFilterQuery<DbQueryFilter> = {};
+  const filters: RootFilterQuery<DbQueryFilter> = {
+    publishStatus: {
+      $ne: PublishStatus.DRAFT,
+    },
+  };
 
   if (startDate || endDate) {
     filters.releaseDate = {

@@ -1,4 +1,5 @@
 import { ObjectId } from 'mongoose';
+import { PublishStatus } from '../enums';
 
 export type Person = {
   name: string;
