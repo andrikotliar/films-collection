@@ -1,10 +1,8 @@
 import { FastifyRequest } from 'fastify';
 import { FindAllQueries, FindBySearchString, FindOneParams } from './filters';
 
-type FindAllRequest = FastifyRequest<{ Querystring: FindAllQueries }>;
+export type FindAllRequest = FastifyRequest<{ Querystring: FindAllQueries }>;
 
-type SearchRequest = FastifyRequest<{ Querystring: FindBySearchString }>;
+export type SearchRequest = FastifyRequest<{ Querystring: FindBySearchString }>;
 
-type FindOneRequest = FastifyRequest<{ Params: FindOneParams }>;
-
-export type { FindAllRequest, SearchRequest, FindOneRequest };
+export type FindOneRequest = FastifyRequest<{ Params: FindOneParams }>;

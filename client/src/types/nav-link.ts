@@ -1,10 +1,8 @@
 import { ReactNode } from 'react';
 
-type NavLink = {
+export type NavLink = {
   id: string;
   title: string;
   link: string;
   icon?: ReactNode;
 };
-
-export type { NavLink };

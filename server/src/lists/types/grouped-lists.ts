@@ -1,7 +1,5 @@
 import { ListType } from '../enums';
 
-type GroupedLists = {
+export type GroupedLists = {
   [key in ListType]: string[];
 };
-
-export type { GroupedLists };

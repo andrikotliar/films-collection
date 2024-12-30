@@ -1,10 +1,8 @@
 import { CollectionType } from '@/enums';
 
-type Collection = {
+export type Collection = {
   _id: string;
   type: CollectionType;
   title: string;
   description: string;
 };
-
-export type { Collection };
