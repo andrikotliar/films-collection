@@ -1,10 +1,10 @@
-import { SortOrder } from 'mongoose';
 import { PendingFilmEntity } from './pending-film.entity';
+import { SortingParams } from 'src/common';
 
-export type GetListQuery = Partial<{
-  q: string;
-  priorities: number[];
-  skip: number;
-  sortingField: keyof PendingFilmEntity;
-  sortingDirection: SortOrder;
-}>;
+export type GetListQuery = Partial<
+  {
+    q: string;
+    priorities: number[];
+    skip: number;
+  } & SortingParams<keyof PendingFilmEntity>
+>;

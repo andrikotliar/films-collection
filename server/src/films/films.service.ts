@@ -2,6 +2,8 @@ import {
   AdditionalInfo,
   FilmsServiceDependencies,
   FindAllQueries,
+  GetManageFilmsListQueries,
+  ManageFilmsFilters,
 } from './types';
 import { getFormattedDate, mapFilters } from './helpers';
 import { ActorType } from '../actors/types';
@@ -149,6 +151,30 @@ export class FilmsService {
     const filteredList = orderedList.filter((film) => film !== undefined);
 
     return filteredList;
+  }
+
+  async getManageFilmsList(queries: GetManageFilmsListQueries) {
+    const {
+      skip = 0,
+      q,
+      sortingField = 'createdAt',
+      sortingDirection = 'desc',
+    } = queries;
+
+    const filters: ManageFilmsFilters = {};
+
+    if (q) {
+      filters.title = {
+        $regex: q,
+        $options: 'i',
+      };
+    }
+
+    return this.filmsModel.find(
+      filters,
+      { _id: 1, title: 1, publishStatus: 1 },
+      { skip, limit: 20, sort: { [sortingField]: sortingDirection } },
+    );
   }
 
   private async populateAdditionalData(

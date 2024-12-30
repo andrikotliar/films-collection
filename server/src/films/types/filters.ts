@@ -1,3 +1,5 @@
+import { SortingParams } from 'src/common';
+
 export type FindAllFilters = {
   type: string;
   style: string;
@@ -67,3 +69,17 @@ export type FindOneParams = {
 export type FindBySearchString = {
   q: string;
 };
+
+export type GetManageFilmsListQueries = Partial<
+  {
+    skip: number;
+    q: string;
+  } & SortingParams
+>;
+
+export type ManageFilmsFilters = Partial<{
+  title: {
+    $regex: string;
+    $options: string;
+  };
+}>;

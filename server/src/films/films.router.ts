@@ -11,6 +11,7 @@ import { AwardsService } from 'src/awards/awards.service';
 import { AwardModel } from 'src/awards/awards.model';
 import { CollectionsService } from 'src/collections/collections.service';
 import { CollectionModel } from 'src/collections/collections.model';
+import { manageFilmsListSchema } from './validation/manage-films-list.schema';
 
 export const registerFilmsRouter = (app: FastifyInstance) => {
   const actorsService = new ActorsService(ActorModel);
@@ -52,6 +53,14 @@ export const registerFilmsRouter = (app: FastifyInstance) => {
     url: '/films/search',
     handler: filmsController.findFilmsBySearchString.bind(filmsController),
     schema: searchSchema,
+  });
+
+  app.route({
+    method: 'GET',
+    url: '/films/admin/list',
+    preHandler: [app.authenticate],
+    handler: filmsController.getManageFilmsList.bind(filmsController),
+    schema: manageFilmsListSchema,
   });
 
   app.route({

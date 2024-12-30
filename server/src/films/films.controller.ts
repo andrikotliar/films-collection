@@ -1,6 +1,11 @@
 import { FastifyRequest, FastifyReply } from 'fastify';
 import { FilmsService } from './films.service';
-import { FindAllRequest, FindOneRequest, SearchRequest } from './types';
+import {
+  FindAllRequest,
+  FindOneRequest,
+  GetManageFilmsListRequest,
+  SearchRequest,
+} from './types';
 import { sendErrorResponse, ResponseCode, ErrorCode } from '../common';
 
 export class FilmsController {
@@ -46,6 +51,15 @@ export class FilmsController {
     const { q } = request.query;
 
     const data = await this.filmsService.searchFilm(q);
+
+    return reply.code(ResponseCode.OK).send(data);
+  }
+
+  async getManageFilmsList(
+    request: GetManageFilmsListRequest,
+    reply: FastifyReply,
+  ) {
+    const data = await this.filmsService.getManageFilmsList(request.query);
 
     return reply.code(ResponseCode.OK).send(data);
   }
