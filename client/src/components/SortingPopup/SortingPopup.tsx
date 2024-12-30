@@ -23,7 +23,7 @@ type SortingPopupProps = {
 export const SortingPopup: FC<SortingPopupProps> = ({
   fields,
   onSorting,
-  defaultSortingField,
+  defaultSortingField = 'createdAt',
   defaultSortingDirection = 'desc',
   buttonSize = 'small',
 }) => {
