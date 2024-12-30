@@ -8,15 +8,13 @@ export class AwardsService {
   }
 
   getAwardsBaseData(id: string[]) {
-    return this.awardsModel
-      .find(
-        {
-          _id: {
-            $in: id,
-          },
+    return this.awardsModel.find(
+      {
+        _id: {
+          $in: id,
         },
-        { nominations: 0 },
-      )
-      .lean();
+      },
+      { nominations: 0 },
+    );
   }
 }

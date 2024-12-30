@@ -1,7 +1,7 @@
 {
   "id": "3c6d9bd2f83e0b7e86cc6551",
   "type": "Film",
-  "title": "Back to the future: Part III",
+  "title": "Back to the Future: Part III",
   "genres": [
     "Sci-Fi",
     "Adventures"
@@ -105,5 +105,6 @@
   "style": "Live-Action",
   "trailers": [
     "EYkguxpqsrg"
-  ]
+  ],
+  "publishStatus": "Completed"
 }

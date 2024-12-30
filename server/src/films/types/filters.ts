@@ -1,4 +1,4 @@
-type FindAllFilters = {
+export type FindAllFilters = {
   type: string;
   style: string;
   genres: string[];
@@ -20,11 +20,11 @@ type FindAllFilters = {
   boxOffice: number;
 };
 
-type ArrayFilter<T = string> = {
+export type ArrayFilter<T = string> = {
   $in: T[];
 };
 
-type DbQueryFilter = Partial<{
+export type DbQueryFilter = Partial<{
   type: string;
   style: string;
   genres: ArrayFilter;
@@ -55,23 +55,15 @@ type DbQueryFilter = Partial<{
   ['awards.award']: ArrayFilter;
 }>;
 
-type FindAllQueries = Partial<FindAllFilters> & {
+export type FindAllQueries = Partial<FindAllFilters> & {
   limit: number;
   skip: number;
 };
 
-type FindOneParams = {
+export type FindOneParams = {
   id: string;
 };
 
-type FindBySearchString = {
+export type FindBySearchString = {
   q: string;
-};
-
-export type {
-  FindAllQueries,
-  FindAllFilters,
-  FindOneParams,
-  FindBySearchString,
-  DbQueryFilter,
 };

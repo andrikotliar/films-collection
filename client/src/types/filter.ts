@@ -1,21 +1,21 @@
-type FilterOption = {
+export type FilterOption = {
   title: string;
   filter: string;
 };
 
-type CheckboxFilter = {
+export type CheckboxFilter = {
   type: 'checkmark';
   options: FilterOption[];
   inputType: 'checkbox' | 'radio';
   property: string;
 };
 
-type DateFilterInput = {
+export type DateFilterInput = {
   label: string;
   property: string;
 };
 
-type DateFilter = {
+export type DateFilter = {
   type: 'daterange';
   inputs: {
     start: DateFilterInput;
@@ -23,10 +23,8 @@ type DateFilter = {
   };
 };
 
-type FilterTypes = CheckboxFilter | DateFilter;
+export type FilterTypes = CheckboxFilter | DateFilter;
 
-type FilterItem = {
+export type FilterItem = {
   title: string;
 } & FilterTypes;
-
-export type { FilterItem, DateFilter, FilterOption };

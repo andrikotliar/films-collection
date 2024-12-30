@@ -1,7 +1,7 @@
 import { model, Schema } from 'mongoose';
 import {
   CastType,
-  CollectionType,
+  Collection,
   Crew,
   FilmAward,
   FilmData,
@@ -13,6 +13,7 @@ import {
 import { ActorModel } from '../actors/actors.model';
 import { AwardModel } from '../awards/awards.model';
 import { CollectionModel } from '../collections/collections.model';
+import { PublishStatus, TitleType } from './enums';
 
 const FilmPersonSchema = new Schema<Person>({
   name: {
@@ -37,7 +38,7 @@ const FilmCrewSchema = new Schema<Crew>({
   },
 });
 
-const CollectionSchema = new Schema<CollectionType>(
+const CollectionSchema = new Schema<Collection>(
   {
     collection: {
       type: String,
@@ -130,6 +131,7 @@ const FilmsSchema = new Schema<FilmData>({
   },
   type: {
     type: String,
+    enum: Object.values(TitleType),
     required: true,
   },
   style: {
@@ -227,6 +229,12 @@ const FilmsSchema = new Schema<FilmData>({
     required: false,
     immutable: true,
     default: () => Date.now(),
+  },
+  publishStatus: {
+    type: String,
+    enum: Object.values(PublishStatus),
+    required: true,
+    default: 'completed',
   },
 });
 

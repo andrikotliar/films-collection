@@ -1,10 +1,8 @@
 import { ReactNode } from 'react';
 
-type SummaryConfig = {
+export type SummaryConfig = {
   id: string;
   title: string;
   content: ReactNode;
   isHidden?: boolean;
 };
-
-export type { SummaryConfig };

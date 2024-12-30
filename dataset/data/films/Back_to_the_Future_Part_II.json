@@ -1,7 +1,7 @@
 {
   "id": "497517595e0585e2f90dd94a",
   "type": "Film",
-  "title": "Back to the future: Part II",
+  "title": "Back to the Future: Part II",
   "genres": [
     "Sci-Fi",
     "Adventures"
@@ -121,5 +121,6 @@
   "style": "Live-Action",
   "trailers": [
     "MdENmefJRpw"
-  ]
+  ],
+  "publishStatus": "Completed"
 }

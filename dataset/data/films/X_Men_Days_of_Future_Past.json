@@ -1,7 +1,7 @@
 {
   "id": "4ece8dee91e4530c20f038d5",
   "type": "Film",
-  "title": "X-Men: Days of future Past",
+  "title": "X-Men: Days of Future Past",
   "genres": [
     "Sci-Fi",
     "Action"
@@ -171,5 +171,6 @@
   "style": "Live-Action",
   "trailers": [
     "pK2zYHWDZKo"
-  ]
+  ],
+  "publishStatus": "Completed"
 }

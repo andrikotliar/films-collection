@@ -1,16 +1,17 @@
 import { ObjectId } from 'mongoose';
+import { PublishStatus } from '../enums';
 
-type Person = {
+export type Person = {
   name: string;
   comment: string | null;
 };
 
-type Crew = {
+export type Crew = {
   role: string;
   people: Person[];
 };
 
-type CastType = {
+export type CastType = {
   actor: string;
   character: {
     name: string;
@@ -18,34 +19,34 @@ type CastType = {
   };
 };
 
-type Collection = {
+export type Collection = {
   collection: string;
   order?: number;
 };
 
-type Nomination = {
+export type Nomination = {
   title: string;
   actor?: string;
   comment?: string;
 };
 
-type FilmAward = {
+export type FilmAward = {
   award: string;
   nominations: Nomination[];
 };
 
-type SeasonType = {
+export type SeasonType = {
   number: number;
   episodesCount: number;
   releaseDate: string;
 };
 
-type SeriesExtension = {
+export type SeriesExtension = {
   episodesTotal: number;
   seasons: SeasonType[];
 };
 
-type FilmData = {
+export type FilmData = {
   _id: ObjectId;
   type: string;
   style: string;
@@ -70,16 +71,5 @@ type FilmData = {
   watchCount: number;
   createdAt: Date;
   updatedAt: Date;
-};
-
-export type {
-  FilmData,
-  Crew,
-  CastType,
-  Collection as CollectionType,
-  FilmAward,
-  SeriesExtension,
-  SeasonType,
-  Person,
-  Nomination,
+  publishStatus: string;
 };

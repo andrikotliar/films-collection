@@ -1,6 +1,6 @@
 import { CollectionType, ListType } from '@/enums';
 
-type InitialData = {
+export type InitialData = {
   filters: {
     general: {
       [key in ListType]: string[];
@@ -13,5 +13,3 @@ type InitialData = {
     };
   };
 };
-
-export type { InitialData };

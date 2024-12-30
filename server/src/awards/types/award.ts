@@ -1,6 +1,6 @@
 import { ObjectId } from 'mongoose';
 
-type Award = {
+export type Award = {
   _id: ObjectId;
   title: string;
   image: string;
@@ -8,5 +8,3 @@ type Award = {
   nominations: string[];
   createdAt: Date;
 };
-
-export type { Award };

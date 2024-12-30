@@ -3,7 +3,7 @@ import { Actor } from './actor';
 import { AwardData } from './award';
 import { Collection } from './collection';
 
-type Crew = {
+export type Crew = {
   role: string;
   people: {
     name: string;
@@ -11,7 +11,7 @@ type Crew = {
   }[];
 };
 
-type CastType = {
+export type CastType = {
   actor: Actor;
   character: {
     name: string;
@@ -19,44 +19,44 @@ type CastType = {
   };
 };
 
-type Nomination = {
+export type Nomination = {
   title: string;
   actor: Actor | null;
   comment: string | null;
 };
 
-type FilmAward = {
+export type FilmAward = {
   award: Pick<AwardData, '_id' | 'title' | 'image'>;
   nominations: Nomination[];
 };
 
-type Chapter = {
+export type Chapter = {
   title: string;
   part: number;
 };
 
-type SeasonType = {
+export type SeasonType = {
   number: number;
   episodesCount: number;
   releaseDate: string;
 };
 
-type SeriesExtension = {
+export type SeriesExtension = {
   episodesTotal: number;
   seasons: SeasonType[];
 };
 
-type FilmDescription = {
+export type FilmDescription = {
   title: string | null;
   text: string;
 };
 
-type IncludedCollection = {
+export type IncludedCollection = {
   collection: Pick<Collection, '_id' | 'title'>;
   order: number;
 };
 
-type FilmData = {
+export type FilmData = {
   _id: string;
   type: TitleType;
   style: string;
@@ -83,21 +83,24 @@ type FilmData = {
   updatedAt: string;
 };
 
-type FilmsListItem = Pick<FilmData, '_id' | 'title' | 'poster' | 'releaseDate'>;
+export type FilmsListItem = Pick<
+  FilmData,
+  '_id' | 'title' | 'poster' | 'releaseDate'
+>;
 
-type FilmLinkItem = Pick<FilmData, '_id' | 'title'>;
+export type FilmLinkItem = Pick<FilmData, '_id' | 'title'>;
 
-type FilmSearchResult = Pick<
+export type FilmSearchResult = Pick<
   FilmData,
   '_id' | 'title' | 'genres' | 'poster' | 'releaseDate'
 >;
 
-type AdditionalActorData = {
+export type AdditionalActorData = {
   type: 'actor';
   data: Actor;
 };
 
-type AdditionalCrewInfo = {
+export type AdditionalCrewInfo = {
   type: 'crew';
   data: {
     role: string;
@@ -105,35 +108,35 @@ type AdditionalCrewInfo = {
   };
 };
 
-type AdditionalCollectionInfo = {
+export type AdditionalCollectionInfo = {
   type: 'collection';
   data: Collection;
 };
 
-type AdditionalAwardsInfo = {
+export type AdditionalAwardsInfo = {
   type: 'awards';
   data: Omit<AwardData, 'nominations'>[];
 };
 
-type AdditionalInfo =
+export type AdditionalInfo =
   | AdditionalActorData
   | AdditionalCrewInfo
   | AdditionalCollectionInfo
   | AdditionalAwardsInfo;
 
-type FilmsListResponse = {
+export type FilmsListResponse = {
   films: FilmsListItem[];
   total: number;
   additionalInfo: AdditionalInfo | null;
 };
 
-type FilmsListPagination = {
+export type FilmsListPagination = {
   pageIndex?: number;
 };
 
-type RandomFilmsList = Pick<FilmData, '_id' | 'title' | 'poster'>[];
+export type RandomFilmsList = Pick<FilmData, '_id' | 'title' | 'poster'>[];
 
-type FilmsListFilters = FilmsListPagination &
+export type FilmsListFilters = FilmsListPagination &
   Partial<{
     type: TitleType | null;
     style: string | null;
@@ -144,22 +147,3 @@ type FilmsListFilters = FilmsListPagination &
     studios: string[] | null;
     collection: string | null;
   }>;
-
-export type {
-  FilmData,
-  Crew,
-  CastType,
-  Collection,
-  FilmAward,
-  Chapter,
-  SeriesExtension,
-  SeasonType,
-  FilmDescription,
-  FilmsListItem,
-  FilmsListResponse,
-  FilmsListFilters,
-  FilmLinkItem,
-  RandomFilmsList,
-  FilmSearchResult,
-  AdditionalInfo,
-};

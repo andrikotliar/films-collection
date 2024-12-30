@@ -1,4 +1,4 @@
-type EnvVariables = {
+export type EnvVariables = {
   PORT: number;
   MONGODB_URI: string;
   AUTH_SECRET: string;
@@ -7,5 +7,3 @@ type EnvVariables = {
   NODE_ENV?: string;
   FRONTEND_ORIGIN?: string;
 };
-
-export type { EnvVariables };
