@@ -4,6 +4,7 @@ import {
   StatusFilterButton,
   FieldLabel,
   TextInput,
+  Island,
 } from '@/components';
 import styles from './Tools.module.css';
 import { debounce } from '@/helpers';
@@ -99,7 +100,7 @@ export const Tools = () => {
           />
         </div>
       </div>
-      <div className={styles.prioritiesFilter}>
+      <Island flexContainer>
         <FieldLabel>Filter by priority</FieldLabel>
         <div className={styles.priorities}>
           {priorityOptions.map((option) => (
@@ -115,7 +116,7 @@ export const Tools = () => {
             />
           ))}
         </div>
-      </div>
+      </Island>
     </div>
   );
 };

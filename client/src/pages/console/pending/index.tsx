@@ -7,17 +7,16 @@ import { PendingFilmFormValues } from './types';
 import {
   PendingFilmForm,
   EditPendingFilmModal,
-  ListWrapper,
   PendingFilmRow,
   PendingPageLayout,
   Tools,
 } from './components';
-import { ConsoleTitle } from '../components';
+import { ConsoleContentLayout, ConsoleTitle } from '../components';
 import { getRouteApi } from '@tanstack/react-router';
 import { PendingFilmsApi } from '@/api';
 import { useState } from 'react';
 import { PendingFilm } from '@/types';
-import { Pagination } from '@/components';
+import { Island, Pagination } from '@/components';
 import { PENDING_FILMS_PER_PAGE } from '@/constants';
 
 const defaultFormValues: PendingFilmFormValues = {
@@ -77,7 +76,7 @@ export const ConsolePendingFilmsPage = () => {
   };
 
   return (
-    <PendingPageLayout>
+    <ConsoleContentLayout>
       <ConsoleTitle>Pending Films</ConsoleTitle>
       <FormProvider {...form}>
         <PendingFilmForm
@@ -87,7 +86,7 @@ export const ConsolePendingFilmsPage = () => {
         />
       </FormProvider>
       <Tools />
-      <ListWrapper>
+      <Island displayPadding={false}>
         {data.list.map((film) => (
           <PendingFilmRow
             key={film._id}
@@ -97,7 +96,7 @@ export const ConsolePendingFilmsPage = () => {
             isDeleteInProgress={isDeleteInProgress}
           />
         ))}
-      </ListWrapper>
+      </Island>
 
       <Pagination
         currentPageIndex={searchParams.pageIndex}
@@ -111,6 +110,6 @@ export const ConsolePendingFilmsPage = () => {
         defaultValues={editModalContent}
         refetch={refetch}
       />
-    </PendingPageLayout>
+    </ConsoleContentLayout>
   );
 };

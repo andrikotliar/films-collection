@@ -1,1 +1,1 @@
-export * from './ManageFilmsLayout/ManageFilmsLayout';
+export * from './AdminFilm/AdminFilm';
