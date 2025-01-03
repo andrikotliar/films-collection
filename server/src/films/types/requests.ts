@@ -3,7 +3,7 @@ import {
   FindAllQueries,
   FindBySearchString,
   FindOneParams,
-  GetManageFilmsListQueries,
+  GetAdminFilmsListQueries,
 } from './filters';
 
 export type FindAllRequest = FastifyRequest<{ Querystring: FindAllQueries }>;
@@ -12,6 +12,6 @@ export type SearchRequest = FastifyRequest<{ Querystring: FindBySearchString }>;
 
 export type FindOneRequest = FastifyRequest<{ Params: FindOneParams }>;
 
-export type GetManageFilmsListRequest = FastifyRequest<{
-  Querystring: GetManageFilmsListQueries;
+export type GetAdminFilmsListRequest = FastifyRequest<{
+  Querystring: GetAdminFilmsListQueries;
 }>;

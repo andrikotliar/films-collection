@@ -1,14 +1,14 @@
 import { apiClient } from '@/services';
 import {
+  AdminFilmsListResponse,
   FilmData,
   FilmLinkItem,
-  FilmsAdminListItem,
   FilmSearchResult,
   FilmsListFilters,
   FilmsListResponse,
   RandomFilmsList,
 } from '@/types';
-import { ManageFilmsServerFilters } from '@/types/manage-films-filters';
+import { AdminFilmsServerFilters } from '@/types';
 
 export const FilmsApi = {
   getList(filters: FilmsListFilters) {
@@ -33,7 +33,7 @@ export const FilmsApi = {
     return apiClient.get<RandomFilmsList>('/films/random');
   },
 
-  getManageFilmsList(filters: ManageFilmsServerFilters) {
-    return apiClient.get<FilmsAdminListItem[]>('/films/admin/list', filters);
+  getAdminFilmsList(filters: AdminFilmsServerFilters) {
+    return apiClient.get<AdminFilmsListResponse>('/films/admin/list', filters);
   },
 };

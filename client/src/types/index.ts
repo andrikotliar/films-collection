@@ -14,3 +14,4 @@ export * from './api-endpoint';
 export * from './sorting-direction';
 export * from './login-payload';
 export * from './status-color';
+export * from './admin-films-filters';

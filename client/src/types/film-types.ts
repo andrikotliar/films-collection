@@ -154,3 +154,8 @@ export type FilmsAdminListItem = Pick<
   FilmData,
   '_id' | 'title' | 'publishStatus'
 >;
+
+export type AdminFilmsListResponse = {
+  films: FilmsAdminListItem[];
+  total: number;
+};

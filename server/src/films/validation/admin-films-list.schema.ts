@@ -1,7 +1,7 @@
 import { FastifySchema } from 'fastify';
 import { sortingParams } from 'src/common';
 
-export const manageFilmsListSchema: FastifySchema = {
+export const adminFilmsListSchema: FastifySchema = {
   querystring: {
     type: 'object',
     properties: {

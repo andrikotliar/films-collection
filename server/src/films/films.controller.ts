@@ -3,7 +3,7 @@ import { FilmsService } from './films.service';
 import {
   FindAllRequest,
   FindOneRequest,
-  GetManageFilmsListRequest,
+  GetAdminFilmsListRequest,
   SearchRequest,
 } from './types';
 import { sendErrorResponse, ResponseCode, ErrorCode } from '../common';
@@ -55,11 +55,11 @@ export class FilmsController {
     return reply.code(ResponseCode.OK).send(data);
   }
 
-  async getManageFilmsList(
-    request: GetManageFilmsListRequest,
+  async getAdminFilmsList(
+    request: GetAdminFilmsListRequest,
     reply: FastifyReply,
   ) {
-    const data = await this.filmsService.getManageFilmsList(request.query);
+    const data = await this.filmsService.getAdminFilmsList(request.query);
 
     return reply.code(ResponseCode.OK).send(data);
   }

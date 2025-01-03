@@ -1,6 +1,6 @@
 import { FastifyInstance } from 'fastify';
 import { FilmsController } from './films.controller';
-import { filmsSchema, searchSchema } from './validation';
+import { filmsSchema, searchSchema, adminFilmsListSchema } from './validation';
 import { FilmsService } from './films.service';
 import { FilmsModel } from './films.model';
 import { ActorsService } from 'src/actors/actors.service';
@@ -11,7 +11,6 @@ import { AwardsService } from 'src/awards/awards.service';
 import { AwardModel } from 'src/awards/awards.model';
 import { CollectionsService } from 'src/collections/collections.service';
 import { CollectionModel } from 'src/collections/collections.model';
-import { manageFilmsListSchema } from './validation/manage-films-list.schema';
 
 export const registerFilmsRouter = (app: FastifyInstance) => {
   const actorsService = new ActorsService(ActorModel);
@@ -59,8 +58,8 @@ export const registerFilmsRouter = (app: FastifyInstance) => {
     method: 'GET',
     url: '/films/admin/list',
     preHandler: [app.authenticate],
-    handler: filmsController.getManageFilmsList.bind(filmsController),
-    schema: manageFilmsListSchema,
+    handler: filmsController.getAdminFilmsList.bind(filmsController),
+    schema: adminFilmsListSchema,
   });
 
   app.route({

@@ -2,8 +2,8 @@ import {
   AdditionalInfo,
   FilmsServiceDependencies,
   FindAllQueries,
-  GetManageFilmsListQueries,
-  ManageFilmsFilters,
+  GetAdminFilmsListQueries,
+  AdminFilmsFilters,
 } from './types';
 import { getFormattedDate, mapFilters } from './helpers';
 import { ActorType } from '../actors/types';
@@ -153,7 +153,7 @@ export class FilmsService {
     return filteredList;
   }
 
-  async getManageFilmsList(queries: GetManageFilmsListQueries) {
+  async getAdminFilmsList(queries: GetAdminFilmsListQueries) {
     const {
       skip = 0,
       q,
@@ -161,7 +161,7 @@ export class FilmsService {
       sortingDirection = 'desc',
     } = queries;
 
-    const filters: ManageFilmsFilters = {};
+    const filters: AdminFilmsFilters = {};
 
     if (q) {
       filters.title = {
@@ -170,11 +170,17 @@ export class FilmsService {
       };
     }
 
-    return this.filmsModel.find(
+    const total = await this.filmsModel.countDocuments(filters);
+    const films = await this.filmsModel.find(
       filters,
       { _id: 1, title: 1, publishStatus: 1 },
       { skip, limit: 20, sort: { [sortingField]: sortingDirection } },
     );
+
+    return {
+      films,
+      total,
+    };
   }
 
   private async populateAdditionalData(

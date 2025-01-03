@@ -70,14 +70,14 @@ export type FindBySearchString = {
   q: string;
 };
 
-export type GetManageFilmsListQueries = Partial<
+export type GetAdminFilmsListQueries = Partial<
   {
     skip: number;
     q: string;
   } & SortingParams
 >;
 
-export type ManageFilmsFilters = Partial<{
+export type AdminFilmsFilters = Partial<{
   title: {
     $regex: string;
     $options: string;
