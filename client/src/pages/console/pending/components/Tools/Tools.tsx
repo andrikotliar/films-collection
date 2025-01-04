@@ -7,12 +7,12 @@ import {
   Island,
 } from '@/components';
 import styles from './Tools.module.css';
-import { debounce } from '@/helpers';
 import { getRouteApi } from '@tanstack/react-router';
-import { ChangeEvent, useCallback } from 'react';
+import { ChangeEvent } from 'react';
 import { priorityOptions } from '@/configs';
 import { SortingDirection, StatusColor } from '@/types';
 import { setPriorities } from './helpers';
+import { useDebouncedSearch } from '@/hooks';
 
 const routeApi = getRouteApi('/console/pending');
 
@@ -26,32 +26,16 @@ export const Tools = () => {
   const navigate = routeApi.useNavigate();
   const searchParams = routeApi.useSearch();
 
-  const handleSearch = useCallback((event: ChangeEvent<HTMLInputElement>) => {
-    const value = event.target.value;
-
-    if (value.length) {
-      navigate({
-        search: (params) => {
-          return {
-            ...params,
-            q: value,
-          };
-        },
-      });
-      return;
-    }
-
+  const handleSearch = useDebouncedSearch((value) => {
     navigate({
       search: (params) => {
         return {
           ...params,
-          q: undefined,
+          q: value,
         };
       },
     });
-  }, []);
-
-  const debouncedSearch = debounce(handleSearch, 1000);
+  });
 
   const handleApplySorting = (sortingParams: SortingParams) => {
     navigate({
@@ -83,7 +67,7 @@ export const Tools = () => {
       <div className={styles.toolsRow}>
         <TextInput
           type="text"
-          onChange={debouncedSearch}
+          onChange={handleSearch}
           defaultValue={searchParams.q}
           className={styles.search}
           placeholder="Search a film"

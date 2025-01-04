@@ -1,0 +1,9 @@
+.adminFilmsTools {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.searchInput {
+  flex-grow: 1;
+}

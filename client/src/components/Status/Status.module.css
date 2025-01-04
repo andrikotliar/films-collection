@@ -4,7 +4,7 @@
   border-radius: 4px;
   border: 1px solid transparent;
   text-transform: uppercase;
-  width: 60px;
+  min-width: 60px;
   text-align: center;
   user-select: none;
 }
@@ -24,4 +24,10 @@
 .status.gray {
   background-color: var(--gray);
   border-color: var(--gray-dark);
+}
+
+.status.green {
+  color: white;
+  background-color: var(--green-success);
+  border-color: var(--green-dark);
 }

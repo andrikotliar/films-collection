@@ -173,8 +173,8 @@ export class FilmsService {
     const total = await this.filmsModel.countDocuments(filters);
     const films = await this.filmsModel.find(
       filters,
-      { _id: 1, title: 1, publishStatus: 1 },
-      { skip, limit: 20, sort: { [sortingField]: sortingDirection } },
+      { _id: 1, title: 1, publishStatus: 1, watchCount: 1, rating: 1 },
+      { skip, limit: 30, sort: { [sortingField]: sortingDirection } },
     );
 
     return {

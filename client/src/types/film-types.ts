@@ -152,7 +152,7 @@ export type FilmsListFilters = FilmsListPagination &
 
 export type FilmsAdminListItem = Pick<
   FilmData,
-  '_id' | 'title' | 'publishStatus'
+  '_id' | 'title' | 'publishStatus' | 'rating' | 'watchCount'
 >;
 
 export type AdminFilmsListResponse = {

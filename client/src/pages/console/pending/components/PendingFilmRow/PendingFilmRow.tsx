@@ -3,10 +3,9 @@ import { PendingFilm } from '@/types';
 import { Link } from '@tanstack/react-router';
 import { FC } from 'react';
 import { getPriorityTitle } from '@/helpers';
-import { Priority } from '@/enums';
-import { Status, StatusProps } from '@/components';
+import { Status } from '@/components';
 import { PencilIcon, SquarePlusIcon, Trash2Icon } from 'lucide-react';
-import { priorityToColor } from '@/configs';
+import { priorityColor } from '@/configs';
 
 type PendingFilmRowProps = {
   data: PendingFilm;
@@ -22,13 +21,12 @@ export const PendingFilmRow: FC<PendingFilmRowProps> = ({
   isDeleteInProgress,
 }) => {
   const rowPriority = getPriorityTitle(data.priority);
-  const priorityColor = priorityToColor[rowPriority] as StatusProps['color'];
 
   return (
     <div className={styles.pendingFilmRow}>
       <div className={styles.leftColumn}>
         <div className={styles.priorityBadge}>
-          <Status color={priorityColor} title={rowPriority} />
+          <Status color={priorityColor[rowPriority]} title={rowPriority} />
         </div>
         <div className={styles.pendingFilmTitle}>{data.title}</div>
       </div>

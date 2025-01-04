@@ -1,1 +1,1 @@
-export type StatusColor = 'gray' | 'red' | 'yellow';
+export type StatusColor = 'gray' | 'red' | 'yellow' | 'green';
