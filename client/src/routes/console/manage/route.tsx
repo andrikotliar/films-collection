@@ -1,3 +1,4 @@
+import { ConsoleManageFilmsPage } from '@/pages/console/manage';
 import { fetchAdminListQuery } from '@/queries';
 import { AdminFilmsQueryFilters } from '@/types/admin-films-filters';
 import { createFileRoute } from '@tanstack/react-router';
@@ -22,4 +23,5 @@ export const Route = createFileRoute('/console/manage')({
       fetchAdminListQuery(deps.search),
     );
   },
+  component: ConsoleManageFilmsPage,
 });

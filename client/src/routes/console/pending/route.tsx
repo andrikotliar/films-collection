@@ -1,3 +1,4 @@
+import { ConsolePendingFilmsPage } from '@/pages';
 import { fetchPendingFilmsListQuery } from '@/queries';
 import { PendingFilmQueryFilters } from '@/types';
 import { createFileRoute } from '@tanstack/react-router';
@@ -23,4 +24,5 @@ export const Route = createFileRoute('/console/pending')({
       fetchPendingFilmsListQuery(deps.search),
     );
   },
+  component: ConsolePendingFilmsPage,
 });

@@ -1,4 +1,5 @@
 import { getIsAuthState } from '@/helpers';
+import { LoginPage } from '@/pages';
 import { createFileRoute, redirect } from '@tanstack/react-router';
 
 export const Route = createFileRoute('/login')({
@@ -9,4 +10,5 @@ export const Route = createFileRoute('/login')({
       throw redirect({ to: '/console/pending' });
     }
   },
+  component: LoginPage,
 });

@@ -3,6 +3,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { TitleType } from '@/enums';
 import { fetchFilmsListQuery, fetchInitialDataQuery } from '@/queries';
 import { FilmsListFilters } from '@/types';
+import { RootPage } from '@/pages';
 
 const filmsListFilterSchema = yup.object().shape({
   pageIndex: yup.number().min(0),
@@ -29,4 +30,5 @@ export const Route = createFileRoute('/')({
     await context.queryClient.ensureQueryData(fetchInitialDataQuery());
     await context.queryClient.ensureQueryData(fetchFilmsListQuery(deps.search));
   },
+  component: RootPage,
 });
