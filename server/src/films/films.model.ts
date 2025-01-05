@@ -5,6 +5,7 @@ import {
   Crew,
   FilmAward,
   FilmData,
+  FilmDescription,
   Nomination,
   Person,
   SeasonType,
@@ -124,6 +125,18 @@ const SeriesExtensionSchema = new Schema<SeriesExtension>({
   },
 });
 
+const FilmDescriptionSchema = new Schema<FilmDescription>({
+  title: {
+    type: String,
+    required: false,
+    default: null,
+  },
+  text: {
+    type: String,
+    required: true,
+  },
+});
+
 const FilmsSchema = new Schema<FilmData>({
   title: {
     type: String,
@@ -155,7 +168,7 @@ const FilmsSchema = new Schema<FilmData>({
     required: true,
   },
   description: {
-    type: [String],
+    type: [FilmDescriptionSchema],
     required: true,
   },
   releaseDate: {
@@ -169,7 +182,7 @@ const FilmsSchema = new Schema<FilmData>({
   },
   poster: {
     type: String,
-    required: true,
+    required: false,
   },
   trailers: {
     type: [String],
@@ -200,9 +213,10 @@ const FilmsSchema = new Schema<FilmData>({
   },
   rating: {
     type: Number,
-    required: true,
+    required: false,
     min: 1,
     max: 3,
+    default: 1,
   },
   chaptersId: {
     type: String,
@@ -233,7 +247,7 @@ const FilmsSchema = new Schema<FilmData>({
   publishStatus: {
     type: String,
     enum: Object.values(PublishStatus),
-    required: true,
+    required: false,
     default: 'completed',
   },
 });

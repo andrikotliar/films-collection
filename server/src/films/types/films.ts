@@ -55,3 +55,7 @@ export type SearchedFilm = Pick<
   FilmData,
   '_id' | 'title' | 'poster' | 'releaseDate' | 'genres'
 >;
+
+export type UpdateFilmPayload = Partial<
+  Omit<FilmData, '_id' | 'createdAt' | 'updatedAt'>
+>;

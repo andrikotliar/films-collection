@@ -4,6 +4,7 @@ import {
   FindAllQueries,
   GetAdminFilmsListQueries,
   AdminFilmsFilters,
+  UpdateFilmPayload,
 } from './types';
 import { getFormattedDate, mapFilters } from './helpers';
 import { ActorType } from '../actors/types';
@@ -185,6 +186,10 @@ export class FilmsService {
 
   async deleteFilm(id: string) {
     return this.filmsModel.deleteOne({ _id: id });
+  }
+
+  async updateFilm(id: string, payload: UpdateFilmPayload) {
+    return this.filmsModel.updateOne({ _id: id }, payload);
   }
 
   private async populateAdditionalData(

@@ -1,11 +1,12 @@
 import { FastifyRequest, FastifyReply } from 'fastify';
 import { FilmsService } from './films.service';
 import {
-  deleteFilmRequest,
+  DeleteFilmRequest,
   FindAllRequest,
   FindOneRequest,
   GetAdminFilmsListRequest,
   SearchRequest,
+  UpdateFilmRequest,
 } from './types';
 import { sendErrorResponse, ResponseCode, ErrorCode } from '../common';
 
@@ -65,8 +66,17 @@ export class FilmsController {
     return reply.code(ResponseCode.OK).send(data);
   }
 
-  async deleteFilm(request: deleteFilmRequest, reply: FastifyReply) {
+  async deleteFilm(request: DeleteFilmRequest, reply: FastifyReply) {
     const result = await this.filmsService.deleteFilm(request.params.id);
+
+    return reply.code(ResponseCode.OK).send(result);
+  }
+
+  async updateFilm(request: UpdateFilmRequest, reply: FastifyReply) {
+    const result = await this.filmsService.updateFilm(
+      request.params.id,
+      request.body,
+    );
 
     return reply.code(ResponseCode.OK).send(result);
   }

@@ -1,5 +1,4 @@
 import { ObjectId } from 'mongoose';
-import { PublishStatus } from '../enums';
 
 export type Person = {
   name: string;
@@ -46,30 +45,35 @@ export type SeriesExtension = {
   seasons: SeasonType[];
 };
 
+export type FilmDescription = {
+  title: string | null;
+  text: string;
+};
+
 export type FilmData = {
   _id: ObjectId;
   type: string;
   style: string;
   title: string;
-  genres: string[];
-  studios: string[];
-  crew: Crew[];
-  description: string[];
-  countries: string[];
+  poster: string;
   releaseDate: string;
+  publishStatus: string;
+  chaptersId: string | null;
   duration: number;
-  cast: CastType[];
-  collections: Collection[];
+  rating: number;
+  watchCount: number;
   budget: number | null;
   boxOffice: number | null;
-  awards: FilmAward[];
-  poster: string;
+  genres: string[];
+  studios: string[];
+  countries: string[];
   trailers: string[];
+  crew: Crew[];
+  description: FilmDescription[];
+  cast: CastType[];
+  collections: Collection[];
+  awards: FilmAward[];
   seriesExtension: SeriesExtension | null;
-  rating: number;
-  chaptersId?: string;
-  watchCount: number;
   createdAt: Date;
   updatedAt: Date;
-  publishStatus: string;
 };

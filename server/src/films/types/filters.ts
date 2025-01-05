@@ -62,7 +62,7 @@ export type FindAllQueries = Partial<FindAllFilters> & {
   skip: number;
 };
 
-export type FindOneParams = {
+export type IdParams = {
   id: string;
 };
 

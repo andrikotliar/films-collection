@@ -9,5 +9,6 @@ export const searchSchema: FastifySchema = {
       },
     },
     required: ['q'],
+    additionalProperties: false,
   },
 };
