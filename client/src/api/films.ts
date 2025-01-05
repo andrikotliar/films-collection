@@ -7,6 +7,7 @@ import {
   FilmsListFilters,
   FilmsListResponse,
   RandomFilmsList,
+  UpdateFilmPayload,
 } from '@/types';
 import { AdminFilmsServerFilters } from '@/types';
 
@@ -39,5 +40,11 @@ export const FilmsApi = {
 
   deleteFilm(id: string) {
     return apiClient.delete(`/films/admin/${id}`);
+  },
+
+  updateFilm(payload: UpdateFilmPayload) {
+    return apiClient.patch(`/films/admin/${payload.id}`, {
+      payload: payload.data,
+    });
   },
 };

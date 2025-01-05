@@ -159,3 +159,8 @@ export type AdminFilmsListResponse = {
   films: FilmsAdminListItem[];
   total: number;
 };
+
+export type UpdateFilmPayload = {
+  id: string;
+  data: Partial<Omit<FilmData, '_id' | 'createdAt' | 'updatedAt'>>;
+};

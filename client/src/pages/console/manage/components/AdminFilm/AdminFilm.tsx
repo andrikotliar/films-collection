@@ -1,4 +1,9 @@
-import { FilmsAdminListItem, StatusColor } from '@/types';
+import {
+  FilmData,
+  FilmsAdminListItem,
+  StatusColor,
+  UpdateFilmPayload,
+} from '@/types';
 import { FC } from 'react';
 import styles from './AdminFilm.module.css';
 import { Link } from '@tanstack/react-router';
@@ -10,7 +15,8 @@ import classNames from 'classnames';
 type AdminFilmProps = {
   film: FilmsAdminListItem;
   onDelete: (id: string, title: string) => void;
-  isDeleting: boolean;
+  onUpdate: (payload: UpdateFilmPayload) => void;
+  isDeleting?: boolean;
 };
 
 type PublishStatusColor = {
@@ -26,8 +32,18 @@ const publishStatusColor: PublishStatusColor = {
 export const AdminFilm: FC<AdminFilmProps> = ({
   film,
   onDelete,
-  isDeleting,
+  onUpdate,
+  isDeleting = false,
 }) => {
+  const handleUpdate = (prop: keyof FilmData) => (value: number) => {
+    onUpdate({
+      id: film._id,
+      data: {
+        [prop]: value,
+      },
+    });
+  };
+
   return (
     <div className={styles.filmRow}>
       <div className={styles.titleRow}>
@@ -57,11 +73,17 @@ export const AdminFilm: FC<AdminFilmProps> = ({
           </button>
         </div>
         <div className={styles.column}>
-          <Counter defaultValue={film.rating} maxValue={3} label="Rating" />
+          <Counter
+            defaultValue={film.rating}
+            maxValue={3}
+            label="Rating"
+            onChange={handleUpdate('rating')}
+          />
           <Counter
             defaultValue={film.watchCount}
             decrease={false}
             label="Watch count"
+            onChange={handleUpdate('watchCount')}
           />
         </div>
       </div>

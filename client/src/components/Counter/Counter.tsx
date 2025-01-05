@@ -4,11 +4,13 @@ import styles from './Counter.module.css';
 
 type CounterProps = {
   defaultValue?: number;
+  minValue?: number;
   maxValue?: number;
   onChange?: (value: number) => void;
   increase?: boolean;
   decrease?: boolean;
   label?: string;
+  isDisabled?: boolean;
 };
 
 export const Counter: FC<CounterProps> = ({
@@ -16,8 +18,10 @@ export const Counter: FC<CounterProps> = ({
   onChange,
   increase = true,
   decrease = true,
+  minValue = 0,
   maxValue,
   label,
+  isDisabled = false,
 }) => {
   const [value, setValue] = useState(defaultValue);
 
@@ -26,9 +30,9 @@ export const Counter: FC<CounterProps> = ({
     onChange?.(newValue);
   };
 
-  const isDecreaseDisabled = value === 0 || !decrease;
+  const isDecreaseDisabled = value === minValue || !decrease || isDisabled;
   const isIncreaseDisabled =
-    Boolean(maxValue && value === maxValue) || !increase;
+    Boolean(maxValue && value === maxValue) || !increase || isDisabled;
 
   return (
     <div className={styles.counterWrapper}>

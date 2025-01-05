@@ -41,6 +41,10 @@ export const ConsoleManageFilmsPage = () => {
     },
   });
 
+  const { mutate: updateFilm } = useMutation({
+    mutationFn: FilmsApi.updateFilm,
+  });
+
   const handlePageChange = (pageIndex: number) => {
     navigate({
       search: (params) => ({
@@ -70,6 +74,7 @@ export const ConsoleManageFilmsPage = () => {
             key={film._id}
             onDelete={handleOpenDeleteModal}
             isDeleting={isDeleting}
+            onUpdate={updateFilm}
           />
         ))}
       </Island>
