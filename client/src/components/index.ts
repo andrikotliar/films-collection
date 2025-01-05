@@ -23,3 +23,4 @@ export * from './SortingPopup/SortingPopup';
 export * from './StatusFilterButton';
 export * from './FieldLabel/FieldLabel';
 export * from './Island/Island';
+export * from './Counter/Counter';

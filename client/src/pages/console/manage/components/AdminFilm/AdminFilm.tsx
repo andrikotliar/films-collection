@@ -3,9 +3,8 @@ import { FC } from 'react';
 import styles from './AdminFilm.module.css';
 import { Link } from '@tanstack/react-router';
 import { EditIcon, SquareChartGanttIcon } from 'lucide-react';
-import { Status } from '@/components';
+import { Status, Counter } from '@/components';
 import { PublishStatus } from '@/enums/publish-status';
-import { Counter } from '../Counter/Counter';
 
 type AdminFilmProps = {
   film: FilmsAdminListItem;
