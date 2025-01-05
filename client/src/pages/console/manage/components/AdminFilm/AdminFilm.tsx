@@ -2,9 +2,10 @@ import { FilmsAdminListItem, StatusColor } from '@/types';
 import { FC } from 'react';
 import styles from './AdminFilm.module.css';
 import { Link } from '@tanstack/react-router';
-import { EditIcon, SquareChartGanttIcon } from 'lucide-react';
+import { EditIcon, SquareChartGanttIcon, TrashIcon } from 'lucide-react';
 import { Status, Counter } from '@/components';
 import { PublishStatus } from '@/enums/publish-status';
+import classNames from 'classnames';
 
 type AdminFilmProps = {
   film: FilmsAdminListItem;
@@ -31,7 +32,7 @@ export const AdminFilm: FC<AdminFilmProps> = ({ film }) => {
         <div className={styles.title}>{film.title}</div>
       </div>
       <div className={styles.tools}>
-        <div className={styles.column}>
+        <div className={classNames(styles.column, styles.toolsBlock)}>
           <Link to={`/film/${film._id}`} className={styles.toolLink}>
             <SquareChartGanttIcon size={16} />
             <span>Details</span>
@@ -39,6 +40,10 @@ export const AdminFilm: FC<AdminFilmProps> = ({ film }) => {
           <Link to="/console/manage" className={styles.toolLink}>
             <EditIcon size={14} />
             <span>Edit</span>
+          </Link>
+          <Link to="/console/manage" className={styles.toolLink}>
+            <TrashIcon size={14} />
+            <span>Delete</span>
           </Link>
         </div>
         <div className={styles.column}>
