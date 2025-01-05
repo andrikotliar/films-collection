@@ -2,4 +2,5 @@
   color: var(--gray-dark);
   font-size: 15px;
   font-weight: bold;
+  user-select: none;
 }

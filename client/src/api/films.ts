@@ -36,4 +36,8 @@ export const FilmsApi = {
   getAdminFilmsList(filters: AdminFilmsServerFilters) {
     return apiClient.get<AdminFilmsListResponse>('/films/admin/list', filters);
   },
+
+  deleteFilm(id: string) {
+    return apiClient.delete(`/films/admin/${id}`);
+  },
 };

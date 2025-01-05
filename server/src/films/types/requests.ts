@@ -15,3 +15,5 @@ export type FindOneRequest = FastifyRequest<{ Params: FindOneParams }>;
 export type GetAdminFilmsListRequest = FastifyRequest<{
   Querystring: GetAdminFilmsListQueries;
 }>;
+
+export type deleteFilmRequest = FastifyRequest<{ Params: { id: string } }>;

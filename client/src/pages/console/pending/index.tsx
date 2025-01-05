@@ -8,7 +8,6 @@ import {
   PendingFilmForm,
   EditPendingFilmModal,
   PendingFilmRow,
-  PendingPageLayout,
   Tools,
 } from './components';
 import { ConsoleContentLayout, ConsoleTitle } from '../components';

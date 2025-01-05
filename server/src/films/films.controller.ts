@@ -1,6 +1,7 @@
 import { FastifyRequest, FastifyReply } from 'fastify';
 import { FilmsService } from './films.service';
 import {
+  deleteFilmRequest,
   FindAllRequest,
   FindOneRequest,
   GetAdminFilmsListRequest,
@@ -62,5 +63,11 @@ export class FilmsController {
     const data = await this.filmsService.getAdminFilmsList(request.query);
 
     return reply.code(ResponseCode.OK).send(data);
+  }
+
+  async deleteFilm(request: deleteFilmRequest, reply: FastifyReply) {
+    const result = await this.filmsService.deleteFilm(request.params.id);
+
+    return reply.code(ResponseCode.OK).send(result);
   }
 }

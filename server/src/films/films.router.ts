@@ -67,4 +67,11 @@ export const registerFilmsRouter = (app: FastifyInstance) => {
     url: '/films/:id',
     handler: filmsController.findOne.bind(filmsController),
   });
+
+  app.route({
+    method: 'DELETE',
+    url: '/films/admin/:id',
+    preHandler: [app.authenticate],
+    handler: filmsController.deleteFilm.bind(filmsController),
+  });
 };

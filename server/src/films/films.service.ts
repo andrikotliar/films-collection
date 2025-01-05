@@ -183,6 +183,10 @@ export class FilmsService {
     };
   }
 
+  async deleteFilm(id: string) {
+    return this.filmsModel.deleteOne({ _id: id });
+  }
+
   private async populateAdditionalData(
     query: FindAllQueries,
   ): Promise<AdditionalInfo | null> {

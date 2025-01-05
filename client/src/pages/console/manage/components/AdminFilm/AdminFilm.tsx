@@ -9,6 +9,8 @@ import classNames from 'classnames';
 
 type AdminFilmProps = {
   film: FilmsAdminListItem;
+  onDelete: (id: string, title: string) => void;
+  isDeleting: boolean;
 };
 
 type PublishStatusColor = {
@@ -21,7 +23,11 @@ const publishStatusColor: PublishStatusColor = {
   [PublishStatus.DRAFT]: 'red',
 };
 
-export const AdminFilm: FC<AdminFilmProps> = ({ film }) => {
+export const AdminFilm: FC<AdminFilmProps> = ({
+  film,
+  onDelete,
+  isDeleting,
+}) => {
   return (
     <div className={styles.filmRow}>
       <div className={styles.titleRow}>
@@ -33,18 +39,22 @@ export const AdminFilm: FC<AdminFilmProps> = ({ film }) => {
       </div>
       <div className={styles.tools}>
         <div className={classNames(styles.column, styles.toolsBlock)}>
-          <Link to={`/film/${film._id}`} className={styles.toolLink}>
+          <Link to={`/film/${film._id}`} className={styles.tool}>
             <SquareChartGanttIcon size={16} />
             <span>Details</span>
           </Link>
-          <Link to="/console/manage" className={styles.toolLink}>
+          <Link to="/console/manage" className={styles.tool}>
             <EditIcon size={14} />
             <span>Edit</span>
           </Link>
-          <Link to="/console/manage" className={styles.toolLink}>
+          <button
+            className={styles.tool}
+            onClick={() => onDelete(film._id, film.title)}
+            disabled={isDeleting}
+          >
             <TrashIcon size={14} />
             <span>Delete</span>
-          </Link>
+          </button>
         </div>
         <div className={styles.column}>
           <Counter defaultValue={film.rating} maxValue={3} label="Rating" />

@@ -23,14 +23,20 @@
   font-weight: bold;
 }
 
-.toolLink {
+.tool {
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
-.toolLink:hover {
+.tool:hover {
   color: var(--blue-default);
+}
+
+.tool:disabled {
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none;
 }
 
 .tools {

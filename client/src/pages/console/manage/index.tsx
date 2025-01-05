@@ -1,17 +1,45 @@
-import { useSuspenseQuery } from '@tanstack/react-query';
+import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { ConsoleContentLayout, ConsoleTitle } from '../components';
 import { fetchAdminListQuery } from '@/queries';
-import { getRouteApi, Link } from '@tanstack/react-router';
+import { getRouteApi } from '@tanstack/react-router';
 import { Island, Pagination } from '@/components';
-import { AddFilmLink, AdminFilm, Tools } from './components';
+import {
+  AddFilmLink,
+  AdminFilm,
+  DeleteFilmConfirmation,
+  Tools,
+} from './components';
 import { FILMS_ADMIN_LIST_PER_PAGE } from '@/constants';
+import { useState } from 'react';
+import { FilmsApi } from '@/api';
+
+type DeleteModalDetails = {
+  id: string;
+  title: string;
+};
 
 const routeApi = getRouteApi('/console/manage');
+
+const defaultDeleteDetails = {
+  id: '',
+  title: '',
+};
 
 export const ConsoleManageFilmsPage = () => {
   const searchParams = routeApi.useSearch();
   const navigate = routeApi.useNavigate();
-  const { data } = useSuspenseQuery(fetchAdminListQuery(searchParams));
+  const { data, refetch } = useSuspenseQuery(fetchAdminListQuery(searchParams));
+
+  const [deleteFilmDetails, setDeleteFilmDetails] =
+    useState<DeleteModalDetails>(defaultDeleteDetails);
+
+  const { mutate: deleteFilm, isPending: isDeleting } = useMutation({
+    mutationFn: FilmsApi.deleteFilm,
+    onSuccess: () => {
+      setDeleteFilmDetails(defaultDeleteDetails);
+      refetch();
+    },
+  });
 
   const handlePageChange = (pageIndex: number) => {
     navigate({
@@ -26,6 +54,10 @@ export const ConsoleManageFilmsPage = () => {
     });
   };
 
+  const handleOpenDeleteModal = (id: string, title: string) => {
+    setDeleteFilmDetails({ id, title });
+  };
+
   return (
     <ConsoleContentLayout>
       <ConsoleTitle>Manage films</ConsoleTitle>
@@ -33,7 +65,12 @@ export const ConsoleManageFilmsPage = () => {
       <AddFilmLink />
       <Island displayPadding={false}>
         {data.films.map((film) => (
-          <AdminFilm film={film} key={film._id} />
+          <AdminFilm
+            film={film}
+            key={film._id}
+            onDelete={handleOpenDeleteModal}
+            isDeleting={isDeleting}
+          />
         ))}
       </Island>
       <Pagination
@@ -41,6 +78,12 @@ export const ConsoleManageFilmsPage = () => {
         perPageCounter={FILMS_ADMIN_LIST_PER_PAGE}
         onPageChange={handlePageChange}
         currentPageIndex={searchParams.pageIndex}
+      />
+      <DeleteFilmConfirmation
+        title={deleteFilmDetails.title}
+        isOpen={deleteFilmDetails.id.length !== 0}
+        onConfirm={() => deleteFilm(deleteFilmDetails.id)}
+        onClose={() => setDeleteFilmDetails(defaultDeleteDetails)}
       />
     </ConsoleContentLayout>
   );

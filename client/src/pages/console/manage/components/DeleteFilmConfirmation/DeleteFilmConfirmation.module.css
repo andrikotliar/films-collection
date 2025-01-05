@@ -1,0 +1,10 @@
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content {
+  background-color: white;
+  max-width: 600px;
+  border-radius: var(--app-border-radius);
+  padding: 20px;
+}
