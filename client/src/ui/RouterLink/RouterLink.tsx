@@ -1,9 +1,11 @@
 import classNames from 'classnames';
-import { ComponentProps, FC } from 'react';
-import { Link } from '@tanstack/react-router';
+import { FC } from 'react';
+import { Link, LinkProps } from '@tanstack/react-router';
 import styles from './RouterLink.module.css';
 
-type RouterLinkProps = ComponentProps<typeof Link>;
+type RouterLinkProps = LinkProps & {
+  className?: string;
+};
 
 export const RouterLink: FC<RouterLinkProps> = ({
   children,

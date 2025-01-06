@@ -1,9 +1,11 @@
 import { CSSProperties, FC, ReactNode } from 'react';
 import styles from './StatisticItem.module.css';
-import { Link } from '@tanstack/react-router';
+import { Link, LinkProps } from '@tanstack/react-router';
+import { FileRoutesByTo } from '@/routeTree.gen';
 
 type StatisticItemProps = {
-  linkPath: string;
+  route: keyof FileRoutesByTo;
+  searchParams: LinkProps['search'];
   icon: ReactNode;
   value: number | string;
   color: 'green' | 'yellow' | 'purple';
@@ -21,7 +23,8 @@ export const StatisticItem: FC<StatisticItemProps> = ({
   value,
   color,
   title,
-  linkPath,
+  route,
+  searchParams,
 }) => {
   const style = {
     '--stat-item-color': `var(--${colorVar[color]})`,
@@ -29,7 +32,8 @@ export const StatisticItem: FC<StatisticItemProps> = ({
 
   return (
     <Link
-      to={linkPath}
+      to={route}
+      search={searchParams}
       className={styles.statisticItem}
       style={style}
       title={title}

@@ -1,6 +1,5 @@
-import { FC } from 'react';
 import styles from './Nomination.module.css';
-import { buildQueryLink } from '@/helpers';
+import { FC } from 'react';
 import { RouterLink } from '@/ui';
 import { Actor } from '@/types';
 
@@ -21,7 +20,8 @@ export const Nomination: FC<NominationProps> = ({
         <div className={styles.title}>{title}</div>
         {nominee && (
           <RouterLink
-            to={buildQueryLink({ cast: nominee._id })}
+            to="/"
+            search={{ actorId: nominee._id }}
             className={styles.actor}
           >
             {nominee.name}

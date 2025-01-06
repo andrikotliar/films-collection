@@ -1,10 +1,12 @@
 import { FC, PropsWithChildren } from 'react';
-import { Link } from '@tanstack/react-router';
+import { Link, LinkProps } from '@tanstack/react-router';
 import styles from './TagLink.module.css';
 import classNames from 'classnames';
+import { FileRoutesByTo } from '@/routeTree.gen';
 
 export type TagLinkProps = {
-  path: string;
+  path: keyof FileRoutesByTo;
+  searchParams?: LinkProps['search'];
   variant?:
     | 'blue'
     | 'sand'
@@ -22,10 +24,12 @@ export const TagLink: FC<PropsWithChildren<TagLinkProps>> = ({
   children,
   variant = 'sand',
   isDisabled = false,
+  searchParams,
 }) => {
   return (
     <Link
       to={path}
+      search={searchParams}
       className={classNames(styles.link, styles[variant], {
         [styles.disabled]: isDisabled,
       })}

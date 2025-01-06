@@ -55,11 +55,19 @@ export const AdminFilm: FC<AdminFilmProps> = ({
       </div>
       <div className={styles.tools}>
         <div className={classNames(styles.column, styles.toolsBlock)}>
-          <Link to={`/film/${film._id}`} className={styles.tool}>
+          <Link
+            to="/film/$id"
+            params={{ id: film._id }}
+            className={styles.tool}
+          >
             <SquareChartGanttIcon size={16} />
             <span>Details</span>
           </Link>
-          <Link to="/console/manage" className={styles.tool}>
+          <Link
+            to="/console/manage/$id"
+            params={{ id: film._id }}
+            className={styles.tool}
+          >
             <EditIcon size={14} />
             <span>Edit</span>
           </Link>

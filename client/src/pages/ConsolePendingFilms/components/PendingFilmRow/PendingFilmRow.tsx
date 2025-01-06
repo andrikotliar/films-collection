@@ -6,6 +6,7 @@ import { getPriorityTitle } from '@/helpers';
 import { Status } from '@/ui';
 import { PencilIcon, SquarePlusIcon, Trash2Icon } from 'lucide-react';
 import { priorityColor } from '@/configs';
+import { NEW_FILM_ID } from '@/constants';
 
 type PendingFilmRowProps = {
   data: PendingFilm;
@@ -31,7 +32,12 @@ export const PendingFilmRow: FC<PendingFilmRowProps> = ({
         <div className={styles.pendingFilmTitle}>{data.title}</div>
       </div>
       <div className={styles.rightColumn}>
-        <Link to="/console/manage" className={styles.createFilmButton}>
+        <Link
+          to="/console/manage/$id"
+          params={{ id: NEW_FILM_ID }}
+          search={{ title: data.title }}
+          className={styles.createFilmButton}
+        >
           <SquarePlusIcon size={20} />
         </Link>
         <div className={styles.rowTools}>

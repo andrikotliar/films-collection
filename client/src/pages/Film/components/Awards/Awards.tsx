@@ -1,7 +1,7 @@
 import { FC, useMemo } from 'react';
 import { Link } from '@tanstack/react-router';
 import { FilmAward } from '@/types';
-import { buildMediaPath, buildQueryLink } from '@/helpers';
+import { buildMediaPath } from '@/helpers';
 import { DataArea, DataGrid, Image, ScrollableWrapper } from '@/ui';
 import { Nomination } from './components';
 import styles from './Awards.module.css';
@@ -27,7 +27,7 @@ export const Awards: FC<AwardsProps> = ({ awards }) => {
             />
             <div className={styles.main}>
               <h3 className={styles.title}>
-                <Link to={buildQueryLink({ awards: award._id })}>
+                <Link to="/" search={{ awards: award._id }}>
                   {award.title}
                 </Link>
               </h3>

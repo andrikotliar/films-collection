@@ -3,7 +3,7 @@ import { Link } from '@tanstack/react-router';
 import { ImagesIcon } from 'lucide-react';
 import classNames from 'classnames';
 import { CastType } from '@/types';
-import { buildMediaPath, buildQueryLink, handleImageError } from '@/helpers';
+import { buildMediaPath, handleImageError } from '@/helpers';
 import { images } from '@/assets/images';
 import styles from './Actor.module.css';
 
@@ -13,9 +13,6 @@ type ActorProps = {
 
 export const Actor: FC<ActorProps> = ({ person }) => {
   const [isFlipped, setIsFlipped] = useState(false);
-
-  const photoUrl = buildMediaPath(person.actor.image);
-  const actorLink = buildQueryLink({ actorId: person.actor._id });
 
   const flipImage = () => {
     setIsFlipped((isFlipped) => !isFlipped);
@@ -35,7 +32,7 @@ export const Actor: FC<ActorProps> = ({ person }) => {
           })}
         >
           <img
-            src={photoUrl}
+            src={buildMediaPath(person.actor.image)}
             alt={person.actor.name}
             onError={handleImageError(images.actorNotFound)}
             className={styles.image}
@@ -56,7 +53,11 @@ export const Actor: FC<ActorProps> = ({ person }) => {
         )}
       </div>
       <div className={styles.details}>
-        <Link to={actorLink} className={styles.name}>
+        <Link
+          to="/"
+          search={{ actorId: person.actor._id }}
+          className={styles.name}
+        >
           {person.actor.name}
         </Link>
         <p className={styles.characterName}>{person.character.name}</p>

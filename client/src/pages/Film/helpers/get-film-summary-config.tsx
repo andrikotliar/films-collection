@@ -1,9 +1,5 @@
 import { FilmData } from '@/types';
-import {
-  buildQueryLink,
-  getFormattedMoneyValue,
-  getPluralWord,
-} from '@/helpers';
+import { getFormattedMoneyValue, getPluralWord } from '@/helpers';
 import {
   LinksGroupWrapper,
   ReleaseDate,
@@ -25,7 +21,9 @@ export const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
     {
       id: 'genres',
       title: 'Genres',
-      content: <TagLinksGroup items={film.genres} basePath="genres" />,
+      content: (
+        <TagLinksGroup items={film.genres} route="/" queryKey="genres" />
+      ),
     },
     {
       id: 'releaseDate',
@@ -37,7 +35,8 @@ export const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
       title: 'Runtime',
       content: (
         <TagLink
-          path={buildQueryLink({ duration: film.duration })}
+          path="/"
+          searchParams={{ duration: film.duration }}
           variant="gray"
         >
           {film.duration} min
@@ -49,7 +48,8 @@ export const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
       title: 'Origin countries',
       content: (
         <TagLinksGroup
-          basePath="countries"
+          route="/"
+          queryKey="countries"
           items={film.countries}
           variant="gray"
         />
@@ -60,7 +60,12 @@ export const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
       id: 'studios',
       title: 'Production studios',
       content: (
-        <TagLinksGroup basePath="studios" items={film.studios} variant="gray" />
+        <TagLinksGroup
+          route="/"
+          queryKey="studios"
+          items={film.studios}
+          variant="gray"
+        />
       ),
       isHidden: film.studios.length === 0,
     },
@@ -71,9 +76,10 @@ export const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
         <LinksGroupWrapper>
           {film.collections.map((item) => (
             <TagLink
-              path={buildQueryLink({
+              path="/"
+              searchParams={{
                 collection: item.collection._id,
-              })}
+              }}
               key={item.collection._id}
               variant="pink"
             >
@@ -91,7 +97,8 @@ export const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
         <div>
           {film.budget ? (
             <TagLink
-              path={buildQueryLink({ budget: film.budget })}
+              path="/"
+              searchParams={{ budget: film.budget }}
               variant="gray"
             >
               {getFormattedMoneyValue(film.budget)}
@@ -110,7 +117,8 @@ export const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
         <div>
           {film.boxOffice ? (
             <TagLink
-              path={buildQueryLink({ boxOffice: film.boxOffice })}
+              path="/"
+              searchParams={{ boxOffice: film.boxOffice }}
               variant={isBoxOfficeSuccessful ? 'green' : 'red'}
             >
               {getFormattedMoneyValue(film.boxOffice)}
@@ -129,18 +137,20 @@ export const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
         <LinksGroupWrapper>
           <TagLink
             variant="mint"
-            path={buildQueryLink({
+            path="/"
+            searchParams={{
               seasonsTotal: film.seriesExtension?.seasons.length ?? 1,
-            })}
+            }}
           >
             {film.seriesExtension?.seasons.length}{' '}
             {getPluralWord('season', film.seriesExtension?.seasons.length)}
           </TagLink>
           <TagLink
             variant="mint"
-            path={buildQueryLink({
+            path="/"
+            searchParams={{
               episodesTotal: film.seriesExtension?.episodesTotal ?? 0,
-            })}
+            }}
           >
             {film.seriesExtension?.episodesTotal} episodes
           </TagLink>

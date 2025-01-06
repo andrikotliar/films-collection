@@ -1,16 +1,18 @@
 import { FC } from 'react';
 import { TagLink, TagLinkProps } from '../TagLink/TagLink';
-import { buildQueryLink } from '@/helpers';
 import { LinksGroupWrapper } from '../LinksGroupWrapper/LinksGroupWrapper';
+import { FileRoutesByTo } from '@/routeTree.gen';
 
 type TagLinksGroupProps = {
-  basePath: string;
+  route: keyof FileRoutesByTo;
+  queryKey: string;
   items: (string | number)[];
   variant?: TagLinkProps['variant'];
 };
 
 export const TagLinksGroup: FC<TagLinksGroupProps> = ({
-  basePath,
+  route,
+  queryKey,
   items,
   variant,
 }) => {
@@ -18,9 +20,10 @@ export const TagLinksGroup: FC<TagLinksGroupProps> = ({
     <LinksGroupWrapper>
       {items.map((item) => (
         <TagLink
-          path={buildQueryLink({
-            [basePath]: item,
-          })}
+          path={route}
+          searchParams={{
+            [queryKey]: [item],
+          }}
           key={item}
           variant={variant}
         >

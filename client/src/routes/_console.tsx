@@ -6,8 +6,6 @@ export const Route = createFileRoute('/_console')({
   beforeLoad: () => {
     const isAuth = getIsAuthState();
 
-    console.log({ isAuth });
-
     if (!isAuth) {
       throw redirect({ to: '/login' });
     }

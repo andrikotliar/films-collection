@@ -26,3 +26,4 @@ export * from './Island/Island';
 export * from './Counter/Counter';
 export * from './ConsoleContentLayout/ConsoleContentLayout';
 export * from './ConsoleTitle/ConsoleTitle';
+export * from './BackLink/BackLink';

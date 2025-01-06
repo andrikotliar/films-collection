@@ -148,6 +148,17 @@ export type FilmsListFilters = FilmsListPagination &
     countries: string[] | null;
     studios: string[] | null;
     collection: string | null;
+    awards: string | null;
+    actorId: string | null;
+    personName: string | null;
+    personRole: string | null;
+    duration: number | null;
+    boxOffice: number | null;
+    budget: number | null;
+    seasonsTotal: number | null;
+    episodesTotal: number | null;
+    watchCount: number | null;
+    rating: number | null;
   }>;
 
 export type FilmsAdminListItem = Pick<

@@ -2,7 +2,6 @@ import { FC } from 'react';
 import { Crew } from '@/types';
 import { RouterLink } from '@/ui';
 import styles from './CrewItem.module.css';
-import { buildQueryLink } from '@/helpers';
 
 type CrewItemProps = {
   crewItem: Crew;
@@ -16,10 +15,11 @@ export const CrewItem: FC<CrewItemProps> = ({ crewItem }) => {
         {crewItem.people.map((person, idx) => (
           <li className={styles.person} key={idx}>
             <RouterLink
-              to={buildQueryLink({
+              to="/"
+              search={{
                 personRole: crewItem.role,
                 personName: person.name,
-              })}
+              }}
               className={styles.personLink}
             >
               {person.name}
