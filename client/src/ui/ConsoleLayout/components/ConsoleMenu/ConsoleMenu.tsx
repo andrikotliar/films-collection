@@ -1,4 +1,4 @@
-import { Menu } from '@/components/Menu/Menu';
+import { Menu } from '@/ui/Menu/Menu';
 import styles from './ConsoleMenu.module.css';
 import { consoleMenuConfig } from '@/configs';
 import { FC } from 'react';

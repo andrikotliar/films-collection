@@ -1,4 +1,4 @@
-import { Button, TextInput } from '@/components';
+import { Button, TextInput } from '@/ui';
 import { FC, useState } from 'react';
 import styles from './ConfirmationModalContent.module.css';
 

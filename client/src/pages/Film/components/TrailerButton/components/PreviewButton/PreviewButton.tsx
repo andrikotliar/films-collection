@@ -1,5 +1,5 @@
 import { FC, PropsWithChildren } from 'react';
-import { Image } from '@/components';
+import { Image } from '@/ui';
 import styles from './PreviewButton.module.css';
 import { PlayIcon } from 'lucide-react';
 import classNames from 'classnames';

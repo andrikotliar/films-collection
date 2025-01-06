@@ -1,12 +1,7 @@
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { fetchAdminListQuery } from '@/queries';
 import { getRouteApi } from '@tanstack/react-router';
-import {
-  Island,
-  Pagination,
-  ConsoleContentLayout,
-  ConsoleTitle,
-} from '@/components';
+import { Island, Pagination, ConsoleContentLayout, ConsoleTitle } from '@/ui';
 import {
   AddFilmLink,
   AdminFilm,

@@ -1,4 +1,4 @@
-import { Image, ScrollableWrapper } from '@/components';
+import { Image, ScrollableWrapper } from '@/ui';
 import styles from './RandomFilms.module.css';
 import { Link } from '@tanstack/react-router';
 import { buildMediaPath, buildRouterLink } from '@/helpers';

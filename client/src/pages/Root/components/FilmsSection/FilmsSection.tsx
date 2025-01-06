@@ -1,6 +1,6 @@
 import styles from './FilmsSection.module.css';
 import { FC } from 'react';
-import { FilmsGrid, Loader, Pagination } from '@/components';
+import { FilmsGrid, Loader, Pagination } from '@/ui';
 import {
   FilmsNotFound,
   AdditionalInfoSection,

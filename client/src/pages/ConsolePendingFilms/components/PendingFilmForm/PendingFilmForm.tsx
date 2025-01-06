@@ -6,7 +6,7 @@ import {
   FormStatusFilterButton,
   FieldLabel,
   Island,
-} from '@/components';
+} from '@/ui';
 import { LoaderCircle, SaveIcon } from 'lucide-react';
 import { FC, FormEventHandler } from 'react';
 import { StatusColor } from '@/types';

@@ -3,7 +3,7 @@ import { Link } from '@tanstack/react-router';
 import { FilmSearchResult } from '@/types';
 import { buildMediaPath, getYearFromDate } from '@/helpers';
 import styles from './FoundFilm.module.css';
-import { Image } from '@/components/Image/Image';
+import { Image } from '@/ui/Image/Image';
 
 type FoundFilmProps = {
   film: FilmSearchResult;

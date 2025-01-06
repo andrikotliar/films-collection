@@ -8,7 +8,7 @@ import {
 } from 'react';
 import classNames from 'classnames';
 import { debounce } from '@/helpers';
-import { PopupMenu } from '@/components/PopupMenu/PopupMenu';
+import { PopupMenu } from '@/ui/PopupMenu/PopupMenu';
 import styles from './Search.module.css';
 import { SearchMenuContent } from '../SearchMenuContent/SearchMenuContent';
 import { LoaderCircleIcon, SearchIcon } from 'lucide-react';

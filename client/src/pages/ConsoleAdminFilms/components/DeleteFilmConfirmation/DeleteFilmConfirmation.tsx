@@ -1,6 +1,6 @@
 import styles from './DeleteFilmConfirmation.module.css';
 import { FC } from 'react';
-import { Modal } from '@/components';
+import { Modal } from '@/ui';
 import { ConfirmationModalContent } from './components';
 
 type DeleteFilmConfirmationProps = {

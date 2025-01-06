@@ -6,7 +6,7 @@ import { LoginForm, LoginLayout } from './components';
 import { useMutation } from '@tanstack/react-query';
 import { HttpError } from '@/services';
 import { AuthResponse, LoginPayload } from '@/types';
-import { ErrorMessage } from '@/components';
+import { ErrorMessage } from '@/ui';
 import { loginFormSchema } from './validation';
 import { AuthenticationApi } from '@/api';
 

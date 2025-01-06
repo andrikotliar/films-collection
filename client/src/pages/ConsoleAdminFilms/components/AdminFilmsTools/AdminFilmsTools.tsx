@@ -1,4 +1,4 @@
-import { SortingParams, SortingPopup, TextInput } from '@/components';
+import { SortingParams, SortingPopup, TextInput } from '@/ui';
 import { ConfigOption, SortingDirection } from '@/types';
 import styles from './AdminFilmsTools.module.css';
 import { useDebouncedSearch } from '@/hooks';

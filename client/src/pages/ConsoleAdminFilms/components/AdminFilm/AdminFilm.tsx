@@ -8,7 +8,7 @@ import { FC } from 'react';
 import styles from './AdminFilm.module.css';
 import { Link } from '@tanstack/react-router';
 import { EditIcon, SquareChartGanttIcon, TrashIcon } from 'lucide-react';
-import { Status, Counter } from '@/components';
+import { Status, Counter } from '@/ui';
 import { PublishStatus } from '@/enums/publish-status';
 import classNames from 'classnames';
 

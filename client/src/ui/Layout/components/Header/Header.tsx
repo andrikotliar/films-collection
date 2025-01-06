@@ -4,7 +4,7 @@ import { MenuIcon } from 'lucide-react';
 import { Search } from '../Search/Search';
 import styles from './Header.module.css';
 import { AppMenu } from '../AppMenu/AppMenu';
-import { Logo } from '@/components/Logo/Logo';
+import { Logo } from '@/ui/Logo/Logo';
 import { useLogoDecoration } from '@/hooks';
 import { LogoDecoration } from '../LogoDecoration/LogoDecoration';
 

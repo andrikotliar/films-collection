@@ -5,7 +5,7 @@ import {
   FieldLabel,
   TextInput,
   Island,
-} from '@/components';
+} from '@/ui';
 import styles from './Tools.module.css';
 import { getRouteApi } from '@tanstack/react-router';
 import { ChangeEvent } from 'react';

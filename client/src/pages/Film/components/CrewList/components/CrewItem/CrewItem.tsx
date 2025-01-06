@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { Crew } from '@/types';
-import { RouterLink } from '@/components';
+import { RouterLink } from '@/ui';
 import styles from './CrewItem.module.css';
 import { buildQueryLink } from '@/helpers';
 

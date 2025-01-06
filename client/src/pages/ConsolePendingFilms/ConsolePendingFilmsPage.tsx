@@ -14,12 +14,7 @@ import { getRouteApi } from '@tanstack/react-router';
 import { PendingFilmsApi } from '@/api';
 import { useState } from 'react';
 import { PendingFilm } from '@/types';
-import {
-  Island,
-  Pagination,
-  ConsoleContentLayout,
-  ConsoleTitle,
-} from '@/components';
+import { Island, Pagination, ConsoleContentLayout, ConsoleTitle } from '@/ui';
 import { PENDING_FILMS_PER_PAGE } from '@/constants';
 
 const defaultFormValues: PendingFilmFormValues = {

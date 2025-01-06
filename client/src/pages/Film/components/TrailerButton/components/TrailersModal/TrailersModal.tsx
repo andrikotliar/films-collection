@@ -1,4 +1,4 @@
-import { Modal, ScrollableWrapper } from '@/components';
+import { Modal, ScrollableWrapper } from '@/ui';
 import { FC, useState } from 'react';
 import { Video } from '../Video/Video';
 import styles from './TrailersModal.module.css';
