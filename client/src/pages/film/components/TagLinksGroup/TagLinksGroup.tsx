@@ -19,7 +19,7 @@ export const TagLinksGroup: FC<TagLinksGroupProps> = ({
       {items.map((item) => (
         <TagLink
           path={buildQueryLink({
-            [basePath]: item,
+            [basePath]: [item],
           })}
           key={item}
           variant={variant}
