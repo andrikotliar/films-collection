@@ -14,7 +14,7 @@ export class InitialDataService {
     const lists = await this.listsService.getGroupedLists();
 
     return {
-      filters: {
+      options: {
         general: lists,
         collections,
       },

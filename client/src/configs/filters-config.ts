@@ -9,7 +9,7 @@ export const getFiltersConfig = (initialData: InitialData): FilterItem[] => {
       property: 'type',
       type: 'checkmark',
       options: getFilterOptions(
-        initialData.filters.general[ListType.TITLE_TYPES],
+        initialData.options.general[ListType.TITLE_TYPES],
       ),
       inputType: 'radio',
     },
@@ -17,7 +17,7 @@ export const getFiltersConfig = (initialData: InitialData): FilterItem[] => {
       title: 'Style',
       property: 'style',
       type: 'checkmark',
-      options: getFilterOptions(initialData.filters.general[ListType.STYLES]),
+      options: getFilterOptions(initialData.options.general[ListType.STYLES]),
       inputType: 'radio',
     },
     {
@@ -25,7 +25,7 @@ export const getFiltersConfig = (initialData: InitialData): FilterItem[] => {
       property: 'genres',
       type: 'checkmark',
       inputType: 'checkbox',
-      options: getFilterOptions(initialData.filters.general[ListType.GENRES]),
+      options: getFilterOptions(initialData.options.general[ListType.GENRES]),
     },
     {
       title: 'Date Range',
@@ -47,7 +47,7 @@ export const getFiltersConfig = (initialData: InitialData): FilterItem[] => {
       type: 'checkmark',
       inputType: 'checkbox',
       options: getFilterOptions(
-        initialData.filters.general[ListType.COUNTRIES],
+        initialData.options.general[ListType.COUNTRIES],
       ),
     },
     {
@@ -55,7 +55,7 @@ export const getFiltersConfig = (initialData: InitialData): FilterItem[] => {
       property: 'studios',
       type: 'checkmark',
       inputType: 'checkbox',
-      options: getFilterOptions(initialData.filters.general[ListType.STUDIOS]),
+      options: getFilterOptions(initialData.options.general[ListType.STUDIOS]),
     },
     {
       title: 'Main theme',
@@ -63,7 +63,7 @@ export const getFiltersConfig = (initialData: InitialData): FilterItem[] => {
       type: 'checkmark',
       inputType: 'radio',
       options: getFilterOptions(
-        initialData.filters.collections[CollectionType.GENERAL],
+        initialData.options.collections[CollectionType.GENERAL],
       ),
     },
     {
@@ -72,14 +72,14 @@ export const getFiltersConfig = (initialData: InitialData): FilterItem[] => {
       type: 'checkmark',
       inputType: 'radio',
       options: getFilterOptions(
-        initialData.filters.collections[CollectionType.CINEMATIC_UNIVERSE],
+        initialData.options.collections[CollectionType.CINEMATIC_UNIVERSE],
       ),
     },
     {
       title: 'Tops',
       property: 'collection',
       options: getFilterOptions(
-        initialData.filters.collections[CollectionType.TOP],
+        initialData.options.collections[CollectionType.TOP],
       ),
       type: 'checkmark',
       inputType: 'radio',

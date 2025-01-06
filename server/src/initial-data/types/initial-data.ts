@@ -2,7 +2,7 @@ import { GroupedLists } from 'src/lists/types';
 import { GroupedCollections } from '../../collections/types';
 
 export type InitialData = {
-  filters: {
+  options: {
     general: GroupedLists;
     collections: GroupedCollections;
   };

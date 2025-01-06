@@ -1,0 +1,9 @@
+.group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.group:not(:first-child) {
+  margin-top: 10px;
+}
