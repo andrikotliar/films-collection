@@ -10,12 +10,16 @@ import {
   PendingFilmRow,
   Tools,
 } from './components';
-import { ConsoleContentLayout, ConsoleTitle } from '../components';
 import { getRouteApi } from '@tanstack/react-router';
 import { PendingFilmsApi } from '@/api';
 import { useState } from 'react';
 import { PendingFilm } from '@/types';
-import { Island, Pagination } from '@/components';
+import {
+  Island,
+  Pagination,
+  ConsoleContentLayout,
+  ConsoleTitle,
+} from '@/components';
 import { PENDING_FILMS_PER_PAGE } from '@/constants';
 
 const defaultFormValues: PendingFilmFormValues = {
@@ -23,7 +27,7 @@ const defaultFormValues: PendingFilmFormValues = {
   priority: '1',
 };
 
-const routeApi = getRouteApi('/console/pending');
+const routeApi = getRouteApi('/_console/console/pending');
 
 export const ConsolePendingFilmsPage = () => {
   const [editModalContent, setEditModalContent] = useState<PendingFilm | null>(

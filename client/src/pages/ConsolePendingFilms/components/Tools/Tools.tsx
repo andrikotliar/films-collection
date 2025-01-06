@@ -14,7 +14,7 @@ import { SortingDirection, StatusColor } from '@/types';
 import { setPriorities } from './helpers';
 import { useDebouncedSearch } from '@/hooks';
 
-const routeApi = getRouteApi('/console/pending');
+const routeApi = getRouteApi('/_console/console/pending');
 
 const sortingFields = [
   { label: 'Created At', value: 'createdAt' },

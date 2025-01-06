@@ -1,6 +1,6 @@
 import { SortingParams, SortingPopup, TextInput } from '@/components';
 import { ConfigOption, SortingDirection } from '@/types';
-import styles from './Tools.module.css';
+import styles from './AdminFilmsTools.module.css';
 import { useDebouncedSearch } from '@/hooks';
 import { getRouteApi } from '@tanstack/react-router';
 
@@ -19,9 +19,9 @@ const sortingFields: ConfigOption[] = [
   },
 ];
 
-const routeApi = getRouteApi('/console/manage');
+const routeApi = getRouteApi('/_console/console/manage');
 
-export const Tools = () => {
+export const AdminFilmsTools = () => {
   const navigate = routeApi.useNavigate();
   const searchParams = routeApi.useSearch();
 

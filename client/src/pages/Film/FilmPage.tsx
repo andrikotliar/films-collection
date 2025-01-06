@@ -17,10 +17,10 @@ import { useSuspenseQuery } from '@tanstack/react-query';
 import { fetchFilmQuery } from '@/queries';
 import { getRouteApi } from '@tanstack/react-router';
 
-const routeApi = getRouteApi('/film/$filmId');
+const routeApi = getRouteApi('/film/$id');
 
 export const FilmPage = () => {
-  const { filmId: id } = routeApi.useParams();
+  const { id } = routeApi.useParams();
   const { data: film } = useSuspenseQuery(fetchFilmQuery(id));
 
   useScrollToTop([id]);

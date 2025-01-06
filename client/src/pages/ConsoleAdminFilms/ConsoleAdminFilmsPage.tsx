@@ -1,13 +1,17 @@
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
-import { ConsoleContentLayout, ConsoleTitle } from '../components';
 import { fetchAdminListQuery } from '@/queries';
 import { getRouteApi } from '@tanstack/react-router';
-import { Island, Pagination } from '@/components';
+import {
+  Island,
+  Pagination,
+  ConsoleContentLayout,
+  ConsoleTitle,
+} from '@/components';
 import {
   AddFilmLink,
   AdminFilm,
   DeleteFilmConfirmation,
-  Tools,
+  AdminFilmsTools,
 } from './components';
 import { FILMS_ADMIN_LIST_PER_PAGE } from '@/constants';
 import { useState } from 'react';
@@ -18,14 +22,14 @@ type DeleteModalDetails = {
   title: string;
 };
 
-const routeApi = getRouteApi('/console/manage');
+const routeApi = getRouteApi('/_console/console/manage');
 
 const defaultDeleteDetails = {
   id: '',
   title: '',
 };
 
-export const ConsoleManageFilmsPage = () => {
+export const ConsoleAdminFilmsPage = () => {
   const searchParams = routeApi.useSearch();
   const navigate = routeApi.useNavigate();
   const { data, refetch } = useSuspenseQuery(fetchAdminListQuery(searchParams));
@@ -65,7 +69,7 @@ export const ConsoleManageFilmsPage = () => {
   return (
     <ConsoleContentLayout>
       <ConsoleTitle>Manage films</ConsoleTitle>
-      <Tools />
+      <AdminFilmsTools />
       <AddFilmLink />
       <Island displayPadding={false}>
         {data.films.map((film) => (
