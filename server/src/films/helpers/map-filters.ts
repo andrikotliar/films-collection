@@ -1,4 +1,3 @@
-import { RootFilterQuery } from 'mongoose';
 import { DbQueryFilter, FindAllFilters } from '../types';
 import { PublishStatus } from '../enums';
 
@@ -47,7 +46,7 @@ export const mapFilters = (plainFilters: Partial<FindAllFilters>) => {
     boxOffice,
   } = plainFilters;
 
-  const filters: RootFilterQuery<DbQueryFilter> = {
+  const filters: DbQueryFilter = {
     publishStatus: {
       $ne: PublishStatus.DRAFT,
     },
@@ -107,8 +106,16 @@ export const mapFilters = (plainFilters: Partial<FindAllFilters>) => {
   }
 
   if (personRole && personName) {
-    filters['crew.role'] = personRole;
-    filters['crew.people.name'] = personName;
+    filters.crew = {
+      $elemMatch: {
+        role: personRole,
+        people: {
+          $elemMatch: {
+            name: personName,
+          },
+        },
+      },
+    };
   }
 
   if (actorId) {

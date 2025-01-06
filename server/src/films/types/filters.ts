@@ -1,4 +1,5 @@
 import { SortingParams } from 'src/common';
+import { PublishStatus } from '../enums';
 
 export type FindAllFilters = {
   type: string;
@@ -29,15 +30,18 @@ export type ArrayFilter<T = string> = {
 export type DbQueryFilter = Partial<{
   type: string;
   style: string;
+  watchCount: number;
+  rating: number;
+  duration: number;
   genres: ArrayFilter;
+  countries: ArrayFilter;
+  studios: ArrayFilter;
+  ['collections.collection']: string;
+  ['seriesExtension.episodesTotal']: number;
   releaseDate: {
     $gte?: string;
     $lte?: string;
   };
-  countries: ArrayFilter;
-  studios: ArrayFilter;
-  watchCount: number;
-  rating: number;
   budget: {
     $gte: number;
     $lte: number;
@@ -46,13 +50,22 @@ export type DbQueryFilter = Partial<{
     $gte: number;
     $lte: number;
   };
-  ['collections.key']: ArrayFilter;
-  ['seriesExtension.episodesTotal']: number;
+  publishStatus: {
+    $ne: PublishStatus;
+  };
+  crew: {
+    $elemMatch: {
+      role: string;
+      people: {
+        $elemMatch: {
+          name: string;
+        };
+      };
+    };
+  };
   ['seriesExtension.seasons']: {
     $size: number;
   };
-  ['crew.role']: string;
-  ['crew.people.name']: string;
   ['cast.actor']: string;
   ['awards.award']: ArrayFilter;
 }>;
