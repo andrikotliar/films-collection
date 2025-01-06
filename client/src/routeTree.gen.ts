@@ -11,39 +11,39 @@
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
-import { Route as StatisticRouteImport } from './routes/statistic/route'
-import { Route as LoginRouteImport } from './routes/login/route'
-import { Route as ConsoleRouteImport } from './routes/console/route'
-import { Route as AboutRouteImport } from './routes/about/route'
+import { Route as StatisticImport } from './routes/statistic'
+import { Route as LoginImport } from './routes/login'
+import { Route as AboutImport } from './routes/about'
+import { Route as ConsoleImport } from './routes/_console'
 import { Route as IndexImport } from './routes/index'
-import { Route as FilmFilmIdImport } from './routes/film/$filmId'
-import { Route as ConsolePendingRouteImport } from './routes/console/pending/route'
-import { Route as ConsoleManageRouteImport } from './routes/console/manage/route'
-import { Route as ConsoleAdditionalRouteImport } from './routes/console/additional/route'
+import { Route as FilmIdImport } from './routes/film.$id'
+import { Route as ConsoleConsolePendingImport } from './routes/_console/console.pending'
+import { Route as ConsoleConsoleManageImport } from './routes/_console/console.manage'
+import { Route as ConsoleConsoleAdditionalImport } from './routes/_console/console.additional'
+import { Route as ConsoleConsoleManageIdImport } from './routes/_console/console.manage_.$id'
 
 // Create/Update Routes
 
-const StatisticRouteRoute = StatisticRouteImport.update({
+const StatisticRoute = StatisticImport.update({
   id: '/statistic',
   path: '/statistic',
   getParentRoute: () => rootRoute,
 } as any)
 
-const LoginRouteRoute = LoginRouteImport.update({
+const LoginRoute = LoginImport.update({
   id: '/login',
   path: '/login',
   getParentRoute: () => rootRoute,
 } as any)
 
-const ConsoleRouteRoute = ConsoleRouteImport.update({
-  id: '/console',
-  path: '/console',
+const AboutRoute = AboutImport.update({
+  id: '/about',
+  path: '/about',
   getParentRoute: () => rootRoute,
 } as any)
 
-const AboutRouteRoute = AboutRouteImport.update({
-  id: '/about',
-  path: '/about',
+const ConsoleRoute = ConsoleImport.update({
+  id: '/_console',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -53,28 +53,34 @@ const IndexRoute = IndexImport.update({
   getParentRoute: () => rootRoute,
 } as any)
 
-const FilmFilmIdRoute = FilmFilmIdImport.update({
-  id: '/film/$filmId',
-  path: '/film/$filmId',
+const FilmIdRoute = FilmIdImport.update({
+  id: '/film/$id',
+  path: '/film/$id',
   getParentRoute: () => rootRoute,
 } as any)
 
-const ConsolePendingRouteRoute = ConsolePendingRouteImport.update({
-  id: '/pending',
-  path: '/pending',
-  getParentRoute: () => ConsoleRouteRoute,
+const ConsoleConsolePendingRoute = ConsoleConsolePendingImport.update({
+  id: '/console/pending',
+  path: '/console/pending',
+  getParentRoute: () => ConsoleRoute,
 } as any)
 
-const ConsoleManageRouteRoute = ConsoleManageRouteImport.update({
-  id: '/manage',
-  path: '/manage',
-  getParentRoute: () => ConsoleRouteRoute,
+const ConsoleConsoleManageRoute = ConsoleConsoleManageImport.update({
+  id: '/console/manage',
+  path: '/console/manage',
+  getParentRoute: () => ConsoleRoute,
 } as any)
 
-const ConsoleAdditionalRouteRoute = ConsoleAdditionalRouteImport.update({
-  id: '/additional',
-  path: '/additional',
-  getParentRoute: () => ConsoleRouteRoute,
+const ConsoleConsoleAdditionalRoute = ConsoleConsoleAdditionalImport.update({
+  id: '/console/additional',
+  path: '/console/additional',
+  getParentRoute: () => ConsoleRoute,
+} as any)
+
+const ConsoleConsoleManageIdRoute = ConsoleConsoleManageIdImport.update({
+  id: '/console/manage_/$id',
+  path: '/console/manage/$id',
+  getParentRoute: () => ConsoleRoute,
 } as any)
 
 // Populate the FileRoutesByPath interface
@@ -88,173 +94,187 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexImport
       parentRoute: typeof rootRoute
     }
+    '/_console': {
+      id: '/_console'
+      path: ''
+      fullPath: ''
+      preLoaderRoute: typeof ConsoleImport
+      parentRoute: typeof rootRoute
+    }
     '/about': {
       id: '/about'
       path: '/about'
       fullPath: '/about'
-      preLoaderRoute: typeof AboutRouteImport
-      parentRoute: typeof rootRoute
-    }
-    '/console': {
-      id: '/console'
-      path: '/console'
-      fullPath: '/console'
-      preLoaderRoute: typeof ConsoleRouteImport
+      preLoaderRoute: typeof AboutImport
       parentRoute: typeof rootRoute
     }
     '/login': {
       id: '/login'
       path: '/login'
       fullPath: '/login'
-      preLoaderRoute: typeof LoginRouteImport
+      preLoaderRoute: typeof LoginImport
       parentRoute: typeof rootRoute
     }
     '/statistic': {
       id: '/statistic'
       path: '/statistic'
       fullPath: '/statistic'
-      preLoaderRoute: typeof StatisticRouteImport
+      preLoaderRoute: typeof StatisticImport
       parentRoute: typeof rootRoute
     }
-    '/console/additional': {
-      id: '/console/additional'
-      path: '/additional'
+    '/film/$id': {
+      id: '/film/$id'
+      path: '/film/$id'
+      fullPath: '/film/$id'
+      preLoaderRoute: typeof FilmIdImport
+      parentRoute: typeof rootRoute
+    }
+    '/_console/console/additional': {
+      id: '/_console/console/additional'
+      path: '/console/additional'
       fullPath: '/console/additional'
-      preLoaderRoute: typeof ConsoleAdditionalRouteImport
-      parentRoute: typeof ConsoleRouteImport
+      preLoaderRoute: typeof ConsoleConsoleAdditionalImport
+      parentRoute: typeof ConsoleImport
     }
-    '/console/manage': {
-      id: '/console/manage'
-      path: '/manage'
+    '/_console/console/manage': {
+      id: '/_console/console/manage'
+      path: '/console/manage'
       fullPath: '/console/manage'
-      preLoaderRoute: typeof ConsoleManageRouteImport
-      parentRoute: typeof ConsoleRouteImport
+      preLoaderRoute: typeof ConsoleConsoleManageImport
+      parentRoute: typeof ConsoleImport
     }
-    '/console/pending': {
-      id: '/console/pending'
-      path: '/pending'
+    '/_console/console/pending': {
+      id: '/_console/console/pending'
+      path: '/console/pending'
       fullPath: '/console/pending'
-      preLoaderRoute: typeof ConsolePendingRouteImport
-      parentRoute: typeof ConsoleRouteImport
+      preLoaderRoute: typeof ConsoleConsolePendingImport
+      parentRoute: typeof ConsoleImport
     }
-    '/film/$filmId': {
-      id: '/film/$filmId'
-      path: '/film/$filmId'
-      fullPath: '/film/$filmId'
-      preLoaderRoute: typeof FilmFilmIdImport
-      parentRoute: typeof rootRoute
+    '/_console/console/manage_/$id': {
+      id: '/_console/console/manage_/$id'
+      path: '/console/manage/$id'
+      fullPath: '/console/manage/$id'
+      preLoaderRoute: typeof ConsoleConsoleManageIdImport
+      parentRoute: typeof ConsoleImport
     }
   }
 }
 
 // Create and export the route tree
 
-interface ConsoleRouteRouteChildren {
-  ConsoleAdditionalRouteRoute: typeof ConsoleAdditionalRouteRoute
-  ConsoleManageRouteRoute: typeof ConsoleManageRouteRoute
-  ConsolePendingRouteRoute: typeof ConsolePendingRouteRoute
+interface ConsoleRouteChildren {
+  ConsoleConsoleAdditionalRoute: typeof ConsoleConsoleAdditionalRoute
+  ConsoleConsoleManageRoute: typeof ConsoleConsoleManageRoute
+  ConsoleConsolePendingRoute: typeof ConsoleConsolePendingRoute
+  ConsoleConsoleManageIdRoute: typeof ConsoleConsoleManageIdRoute
 }
 
-const ConsoleRouteRouteChildren: ConsoleRouteRouteChildren = {
-  ConsoleAdditionalRouteRoute: ConsoleAdditionalRouteRoute,
-  ConsoleManageRouteRoute: ConsoleManageRouteRoute,
-  ConsolePendingRouteRoute: ConsolePendingRouteRoute,
+const ConsoleRouteChildren: ConsoleRouteChildren = {
+  ConsoleConsoleAdditionalRoute: ConsoleConsoleAdditionalRoute,
+  ConsoleConsoleManageRoute: ConsoleConsoleManageRoute,
+  ConsoleConsolePendingRoute: ConsoleConsolePendingRoute,
+  ConsoleConsoleManageIdRoute: ConsoleConsoleManageIdRoute,
 }
 
-const ConsoleRouteRouteWithChildren = ConsoleRouteRoute._addFileChildren(
-  ConsoleRouteRouteChildren,
-)
+const ConsoleRouteWithChildren =
+  ConsoleRoute._addFileChildren(ConsoleRouteChildren)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/about': typeof AboutRouteRoute
-  '/console': typeof ConsoleRouteRouteWithChildren
-  '/login': typeof LoginRouteRoute
-  '/statistic': typeof StatisticRouteRoute
-  '/console/additional': typeof ConsoleAdditionalRouteRoute
-  '/console/manage': typeof ConsoleManageRouteRoute
-  '/console/pending': typeof ConsolePendingRouteRoute
-  '/film/$filmId': typeof FilmFilmIdRoute
+  '': typeof ConsoleRouteWithChildren
+  '/about': typeof AboutRoute
+  '/login': typeof LoginRoute
+  '/statistic': typeof StatisticRoute
+  '/film/$id': typeof FilmIdRoute
+  '/console/additional': typeof ConsoleConsoleAdditionalRoute
+  '/console/manage': typeof ConsoleConsoleManageRoute
+  '/console/pending': typeof ConsoleConsolePendingRoute
+  '/console/manage/$id': typeof ConsoleConsoleManageIdRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/about': typeof AboutRouteRoute
-  '/console': typeof ConsoleRouteRouteWithChildren
-  '/login': typeof LoginRouteRoute
-  '/statistic': typeof StatisticRouteRoute
-  '/console/additional': typeof ConsoleAdditionalRouteRoute
-  '/console/manage': typeof ConsoleManageRouteRoute
-  '/console/pending': typeof ConsolePendingRouteRoute
-  '/film/$filmId': typeof FilmFilmIdRoute
+  '': typeof ConsoleRouteWithChildren
+  '/about': typeof AboutRoute
+  '/login': typeof LoginRoute
+  '/statistic': typeof StatisticRoute
+  '/film/$id': typeof FilmIdRoute
+  '/console/additional': typeof ConsoleConsoleAdditionalRoute
+  '/console/manage': typeof ConsoleConsoleManageRoute
+  '/console/pending': typeof ConsoleConsolePendingRoute
+  '/console/manage/$id': typeof ConsoleConsoleManageIdRoute
 }
 
 export interface FileRoutesById {
   __root__: typeof rootRoute
   '/': typeof IndexRoute
-  '/about': typeof AboutRouteRoute
-  '/console': typeof ConsoleRouteRouteWithChildren
-  '/login': typeof LoginRouteRoute
-  '/statistic': typeof StatisticRouteRoute
-  '/console/additional': typeof ConsoleAdditionalRouteRoute
-  '/console/manage': typeof ConsoleManageRouteRoute
-  '/console/pending': typeof ConsolePendingRouteRoute
-  '/film/$filmId': typeof FilmFilmIdRoute
+  '/_console': typeof ConsoleRouteWithChildren
+  '/about': typeof AboutRoute
+  '/login': typeof LoginRoute
+  '/statistic': typeof StatisticRoute
+  '/film/$id': typeof FilmIdRoute
+  '/_console/console/additional': typeof ConsoleConsoleAdditionalRoute
+  '/_console/console/manage': typeof ConsoleConsoleManageRoute
+  '/_console/console/pending': typeof ConsoleConsolePendingRoute
+  '/_console/console/manage_/$id': typeof ConsoleConsoleManageIdRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | ''
     | '/about'
-    | '/console'
     | '/login'
     | '/statistic'
+    | '/film/$id'
     | '/console/additional'
     | '/console/manage'
     | '/console/pending'
-    | '/film/$filmId'
+    | '/console/manage/$id'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | ''
     | '/about'
-    | '/console'
     | '/login'
     | '/statistic'
+    | '/film/$id'
     | '/console/additional'
     | '/console/manage'
     | '/console/pending'
-    | '/film/$filmId'
+    | '/console/manage/$id'
   id:
     | '__root__'
     | '/'
+    | '/_console'
     | '/about'
-    | '/console'
     | '/login'
     | '/statistic'
-    | '/console/additional'
-    | '/console/manage'
-    | '/console/pending'
-    | '/film/$filmId'
+    | '/film/$id'
+    | '/_console/console/additional'
+    | '/_console/console/manage'
+    | '/_console/console/pending'
+    | '/_console/console/manage_/$id'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  AboutRouteRoute: typeof AboutRouteRoute
-  ConsoleRouteRoute: typeof ConsoleRouteRouteWithChildren
-  LoginRouteRoute: typeof LoginRouteRoute
-  StatisticRouteRoute: typeof StatisticRouteRoute
-  FilmFilmIdRoute: typeof FilmFilmIdRoute
+  ConsoleRoute: typeof ConsoleRouteWithChildren
+  AboutRoute: typeof AboutRoute
+  LoginRoute: typeof LoginRoute
+  StatisticRoute: typeof StatisticRoute
+  FilmIdRoute: typeof FilmIdRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  AboutRouteRoute: AboutRouteRoute,
-  ConsoleRouteRoute: ConsoleRouteRouteWithChildren,
-  LoginRouteRoute: LoginRouteRoute,
-  StatisticRouteRoute: StatisticRouteRoute,
-  FilmFilmIdRoute: FilmFilmIdRoute,
+  ConsoleRoute: ConsoleRouteWithChildren,
+  AboutRoute: AboutRoute,
+  LoginRoute: LoginRoute,
+  StatisticRoute: StatisticRoute,
+  FilmIdRoute: FilmIdRoute,
 }
 
 export const routeTree = rootRoute
@@ -268,47 +288,52 @@ export const routeTree = rootRoute
       "filePath": "__root.tsx",
       "children": [
         "/",
+        "/_console",
         "/about",
-        "/console",
         "/login",
         "/statistic",
-        "/film/$filmId"
+        "/film/$id"
       ]
     },
     "/": {
       "filePath": "index.tsx"
     },
-    "/about": {
-      "filePath": "about/route.tsx"
-    },
-    "/console": {
-      "filePath": "console/route.tsx",
+    "/_console": {
+      "filePath": "_console.tsx",
       "children": [
-        "/console/additional",
-        "/console/manage",
-        "/console/pending"
+        "/_console/console/additional",
+        "/_console/console/manage",
+        "/_console/console/pending",
+        "/_console/console/manage_/$id"
       ]
     },
+    "/about": {
+      "filePath": "about.tsx"
+    },
     "/login": {
-      "filePath": "login/route.tsx"
+      "filePath": "login.tsx"
     },
     "/statistic": {
-      "filePath": "statistic/route.tsx"
+      "filePath": "statistic.tsx"
     },
-    "/console/additional": {
-      "filePath": "console/additional/route.tsx",
-      "parent": "/console"
+    "/film/$id": {
+      "filePath": "film.$id.tsx"
     },
-    "/console/manage": {
-      "filePath": "console/manage/route.tsx",
-      "parent": "/console"
+    "/_console/console/additional": {
+      "filePath": "_console/console.additional.tsx",
+      "parent": "/_console"
     },
-    "/console/pending": {
-      "filePath": "console/pending/route.tsx",
-      "parent": "/console"
+    "/_console/console/manage": {
+      "filePath": "_console/console.manage.tsx",
+      "parent": "/_console"
     },
-    "/film/$filmId": {
-      "filePath": "film/$filmId.tsx"
+    "/_console/console/pending": {
+      "filePath": "_console/console.pending.tsx",
+      "parent": "/_console"
+    },
+    "/_console/console/manage_/$id": {
+      "filePath": "_console/console.manage_.$id.tsx",
+      "parent": "/_console"
     }
   }
 }

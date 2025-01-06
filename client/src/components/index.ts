@@ -24,3 +24,5 @@ export * from './StatusFilterButton';
 export * from './FieldLabel/FieldLabel';
 export * from './Island/Island';
 export * from './Counter/Counter';
+export * from './ConsoleContentLayout/ConsoleContentLayout';
+export * from './ConsoleTitle/ConsoleTitle';

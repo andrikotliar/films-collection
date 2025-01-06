@@ -1,8 +1,8 @@
-import { ConsolePendingFilmsPage } from '@/pages';
-import { fetchPendingFilmsListQuery } from '@/queries';
-import { PendingFilmQueryFilters } from '@/types';
-import { createFileRoute } from '@tanstack/react-router';
-import { number, object, string } from 'yup';
+import { ConsolePendingFilmsPage } from '@/pages'
+import { fetchPendingFilmsListQuery } from '@/queries'
+import { PendingFilmQueryFilters } from '@/types'
+import { createFileRoute } from '@tanstack/react-router'
+import { number, object, string } from 'yup'
 
 const pendingFilmsFilterSchema = object().shape({
   q: string(),
@@ -10,11 +10,11 @@ const pendingFilmsFilterSchema = object().shape({
   pageIndex: number().min(0),
   sortingField: string(),
   sortingDirection: string().oneOf(['asc', 'desc']),
-});
+})
 
-export const Route = createFileRoute('/console/pending')({
+export const Route = createFileRoute('/_console/console/pending')({
   validateSearch: (search): PendingFilmQueryFilters => {
-    return pendingFilmsFilterSchema.validateSync(search);
+    return pendingFilmsFilterSchema.validateSync(search)
   },
   loaderDeps: ({ search }) => ({
     search,
@@ -22,7 +22,7 @@ export const Route = createFileRoute('/console/pending')({
   loader: ({ context, deps }) => {
     return context.queryClient.ensureQueryData(
       fetchPendingFilmsListQuery(deps.search),
-    );
+    )
   },
   component: ConsolePendingFilmsPage,
-});
+})

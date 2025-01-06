@@ -1,4 +1,4 @@
-import { ConsoleManageFilmsPage } from '@/pages/console/manage';
+import { ConsoleAdminFilmsPage } from '@/pages';
 import { fetchAdminListQuery } from '@/queries';
 import { AdminFilmsQueryFilters } from '@/types/admin-films-filters';
 import { createFileRoute } from '@tanstack/react-router';
@@ -11,7 +11,7 @@ const adminFilmsFilterSchema = object().shape({
   sortingDirection: string().oneOf(['asc', 'desc']),
 });
 
-export const Route = createFileRoute('/console/manage')({
+export const Route = createFileRoute('/_console/console/manage')({
   validateSearch: (search): AdminFilmsQueryFilters => {
     return adminFilmsFilterSchema.validateSync(search);
   },
@@ -23,5 +23,5 @@ export const Route = createFileRoute('/console/manage')({
       fetchAdminListQuery(deps.search),
     );
   },
-  component: ConsoleManageFilmsPage,
+  component: ConsoleAdminFilmsPage,
 });

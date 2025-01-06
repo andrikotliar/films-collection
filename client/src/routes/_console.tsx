@@ -2,9 +2,11 @@ import { ConsoleLayout } from '@/components';
 import { getIsAuthState } from '@/helpers';
 import { createFileRoute, redirect } from '@tanstack/react-router';
 
-export const Route = createFileRoute('/console')({
+export const Route = createFileRoute('/_console')({
   beforeLoad: () => {
     const isAuth = getIsAuthState();
+
+    console.log({ isAuth });
 
     if (!isAuth) {
       throw redirect({ to: '/login' });
