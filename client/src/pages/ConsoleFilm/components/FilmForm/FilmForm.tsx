@@ -35,18 +35,20 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit }) => {
           type="radio"
         />
       </FormRow>
-      <FormUrlInput
-        name="poster"
-        baseUrl={import.meta.env.VITE_BASE_MEDIA_URL}
-        type="image"
-        label="Poster"
-      />
-      <FormUrlInput
-        name="trailer"
-        baseUrl="https://www.youtube-nocookie.com/embed/"
-        type="video"
-        label="Trailer"
-      />
+      <FormRow gap={40}>
+        <FormUrlInput
+          name="poster"
+          baseUrl={import.meta.env.VITE_BASE_MEDIA_URL}
+          type="image"
+          label="Poster"
+        />
+        <FormUrlInput
+          name="trailer"
+          baseUrl="https://www.youtube-nocookie.com/embed/"
+          type="video"
+          label="Trailer"
+        />
+      </FormRow>
       <FormRow>
         <Button type="submit">Create</Button>
       </FormRow>
