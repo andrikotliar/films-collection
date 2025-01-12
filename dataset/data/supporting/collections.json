@@ -178,5 +178,11 @@
     "type": "General",
     "title": "Invasion",
     "description": ""
+  },
+  {
+    "id": "64b7f5c0e4b0b222334f1d12",
+    "type": "CinematicUniverse",
+    "title": "Avatar Universe",
+    "description": ""
   }
 ]
