@@ -1,6 +1,6 @@
 import { FilmsListItem } from '@/types';
 import { forwardRef } from 'react';
-import { buildMediaPath, buildRouterLink, getYearFromDate } from '@/helpers';
+import { buildMediaPath, getYearFromDate } from '@/helpers';
 import styles from './FilmLink.module.css';
 import { Link } from '@tanstack/react-router';
 
@@ -13,7 +13,8 @@ export const FilmLink = forwardRef<HTMLAnchorElement, FilmLinkProps>(
     return (
       <Link
         className={styles.filmLink}
-        to={buildRouterLink('film', data._id)}
+        to="/film/$filmId"
+        params={{ filmId: data._id }}
         key={data._id}
         ref={ref}
       >

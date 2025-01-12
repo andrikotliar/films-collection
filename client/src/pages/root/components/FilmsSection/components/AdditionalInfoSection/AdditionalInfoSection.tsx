@@ -24,7 +24,13 @@ export const AdditionalInfoSection: FC<AdditionalInfoProps> = ({ info }) => {
   }
 
   if (info.type === 'collection') {
-    return <InfoBlock title={info.data.title} label="Filtered by Collection" />;
+    return (
+      <InfoBlock
+        title={info.data.title}
+        label="Filtered by Collection"
+        description={info.data.description}
+      />
+    );
   }
 
   if (info.type === 'crew') {

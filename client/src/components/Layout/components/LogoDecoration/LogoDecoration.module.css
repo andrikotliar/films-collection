@@ -11,8 +11,8 @@
 
 .title {
   position: absolute;
-  top: 5px;
-  left: calc(100% + 10px);
+  bottom: -40px;
+  left: 0;
   opacity: 0;
   visibility: hidden;
   text-wrap: nowrap;

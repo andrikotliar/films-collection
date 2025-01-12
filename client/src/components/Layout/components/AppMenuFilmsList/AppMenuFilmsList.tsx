@@ -1,28 +1,18 @@
-import { FC } from 'react';
+import { FC, PropsWithChildren } from 'react';
 import styles from './AppMenuFilmsList.module.css';
-import { FilmLinkItem } from '@/types';
-import { buildRouterLink } from '@/helpers';
-import { RouterLink } from '@/components/RouterLink/RouterLink';
 
-type AppMenuFilmsListProps = {
+type AppMenuFilmsListProps = PropsWithChildren<{
   title: string;
-  list: FilmLinkItem[];
-};
+}>;
 
 export const AppMenuFilmsList: FC<AppMenuFilmsListProps> = ({
-  list,
   title,
+  children,
 }) => {
   return (
     <div className={styles.filmsListWrapper}>
       <div className={styles.filmsListTitle}>{title}</div>
-      <div className={styles.filmsListContainer}>
-        {list.map((film) => (
-          <RouterLink to={buildRouterLink('film', film._id)} key={film._id}>
-            {film.title}
-          </RouterLink>
-        ))}
-      </div>
+      <div className={styles.filmsListContainer}>{children}</div>
     </div>
   );
 };

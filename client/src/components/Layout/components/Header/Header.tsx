@@ -43,6 +43,7 @@ export const Header = () => {
             <LogoDecoration
               src={logoDecoration.image}
               title={logoDecoration.title}
+              collectionId={logoDecoration.collectionId}
             />
           )}
         </div>

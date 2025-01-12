@@ -9,6 +9,7 @@ import { FilmLinkItem } from '@/types';
 import { AppMenuFilmsList } from '../AppMenuFilmsList/AppMenuFilmsList';
 import { useQuery } from '@tanstack/react-query';
 import { FilmsApi } from '@/api';
+import { RouterLink } from '@/components';
 
 type AppMenuProps = {
   isOpen: boolean;
@@ -25,7 +26,7 @@ export const AppMenu: FC<AppMenuProps> = ({
   const lastVisitedFilmsStorage = localStorage.getItem(
     LocalStorageKey.LAST_VISITED_FILMS,
   );
-  const { data: anniversaryList } = useQuery({
+  const { data: anniversaryList = [] } = useQuery({
     queryKey: ['anniversary-list'],
     queryFn: FilmsApi.getAnniversaries,
   });
@@ -58,13 +59,22 @@ export const AppMenu: FC<AppMenuProps> = ({
     >
       <Menu config={mainMenu} />
       {Boolean(lastVisitedFilms.length) && (
-        <AppMenuFilmsList list={lastVisitedFilms} title="Last visited titles" />
+        <AppMenuFilmsList title="Last visited titles">
+          {lastVisitedFilms.map((film) => (
+            <RouterLink to={`/film/${film._id}`} key={film._id}>
+              {film.title}
+            </RouterLink>
+          ))}
+        </AppMenuFilmsList>
       )}
-      {anniversaryList && anniversaryList.length !== 0 && (
-        <AppMenuFilmsList
-          list={anniversaryList}
-          title="Released in this date"
-        />
+      {Boolean(anniversaryList.length) && (
+        <AppMenuFilmsList title="Released Today">
+          {anniversaryList.map((film) => (
+            <RouterLink to={`/film/${film._id}`} key={film._id}>
+              {film.title} - ({film.diff} years)
+            </RouterLink>
+          ))}
+        </AppMenuFilmsList>
       )}
     </div>
   );

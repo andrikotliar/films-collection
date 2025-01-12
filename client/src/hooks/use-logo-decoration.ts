@@ -5,6 +5,7 @@ import { buildMediaPath } from '@/helpers';
 type DecorationEvent = {
   image: string;
   title: string;
+  collectionId: string;
 };
 
 const convertDateToNumber = ([month, day]: LogoDecorationDate) => {
@@ -51,6 +52,7 @@ export const useLogoDecoration = () => {
         decorationEvent = {
           image: buildMediaPath(event.image),
           title: event.title,
+          collectionId: event.collectionId,
         };
         break;
       }

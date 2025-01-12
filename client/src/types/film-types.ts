@@ -147,3 +147,7 @@ export type FilmsListFilters = FilmsListPagination &
     studios: string[] | null;
     collection: string | null;
   }>;
+
+export type FilmAnniversary = FilmLinkItem & {
+  diff: number;
+};
