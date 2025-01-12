@@ -85,16 +85,33 @@ export class FilmsService {
   }
 
   async getAnniversaries() {
-    const today = getFormattedDate(new Date());
+    const currentDate = new Date();
+    const month = String(currentDate.getMonth() + 1).padStart(2, '0');
+    const day = String(currentDate.getDate()).padStart(2, '0');
+    const currentYear = currentDate.getFullYear();
 
     const films = await this.filmsModel.find(
       {
-        releaseDate: today,
+        releaseDate: {
+          $regex: `${month}-${day}$`,
+        },
       },
-      { _id: 1, title: 1 },
+      { _id: 1, title: 1, releaseDate: 1 },
     );
 
-    return films;
+    const mappedData = films.map((film) => {
+      const releaseDate = new Date(film.releaseDate);
+      const releaseYear = releaseDate.getFullYear();
+      const releaseDiff = currentYear - releaseYear;
+
+      return {
+        _id: film._id,
+        title: film.title,
+        diff: releaseDiff,
+      };
+    });
+
+    return mappedData;
   }
 
   async getRandomFilms() {

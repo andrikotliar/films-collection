@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { Link } from '@tanstack/react-router';
-import { buildMediaPath, buildRouterLink } from '@/helpers';
+import { buildMediaPath } from '@/helpers';
 
 import styles from './FilmLink.module.css';
 import classNames from 'classnames';
@@ -25,7 +25,8 @@ export const FilmLink: FC<FilmLinkProps> = ({
 
   return (
     <Link
-      to={buildRouterLink('film', id)}
+      to="/film/$filmId"
+      params={{ filmId: id }}
       className={classNames(styles.filmLink, {
         [styles.activeFilmLink]: isActive,
       })}
