@@ -16,6 +16,7 @@ export * from './LogoLoader/LogoLoader';
 export * from './DatePicker';
 export * from './ArticleContent/ArticleContent';
 export * from './TextInput';
+export * from './PasswordInput';
 export * from './ConsoleLayout/ConsoleLayout';
 export * from './ErrorMessage/ErrorMessage';
 export * from './Status/Status';

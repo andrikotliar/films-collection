@@ -5,6 +5,10 @@
   width: 100%;
 }
 
+.fieldWrapper {
+  position: relative;
+}
+
 .textInput {
   width: 100%;
   padding: 10px;
@@ -18,26 +22,6 @@
   border-color: var(--gray-dark);
 }
 
-.passwordInput {
+.textInput.withIcon {
   padding-right: 50px;
-}
-
-.fieldWrapper {
-  position: relative;
-}
-
-.showPasswordButton {
-  display: flex;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 15px;
-}
-
-.eyeIcon {
-  transition: color 300ms;
-}
-
-.showPasswordButton:hover .eyeIcon {
-  color: var(--blue-default);
 }
