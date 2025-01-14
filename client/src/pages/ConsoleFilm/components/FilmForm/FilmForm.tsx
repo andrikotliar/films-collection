@@ -1,5 +1,11 @@
 import styles from './FilmForm.module.css';
-import { Button, FormCheckboxesGroup, FormTextInput, FormUrlInput } from '@/ui';
+import {
+  Button,
+  FormCheckboxesGroup,
+  FormTextInput,
+  FormUrlInput,
+  FormSelect,
+} from '@/ui';
 import { FC } from 'react';
 import { FormRow } from '../FormRow/FormRow';
 import { useQueryClient } from '@tanstack/react-query';
@@ -60,6 +66,15 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit }) => {
           />
         )}
       </FormRow>
+      <FormSelect
+        label="Genres"
+        options={data.options.general[ListType.GENRES].map((option) => ({
+          label: option,
+          value: option,
+        }))}
+        name="genres"
+        isMulti
+      />
       <FormTextInput
         name="runtime"
         type="number"
