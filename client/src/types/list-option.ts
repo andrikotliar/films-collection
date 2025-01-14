@@ -1,6 +1,5 @@
-import { ListType } from '@/enums';
-
-export type ListOption = {
-  type: ListType;
-  values: string[];
+export type ListOption<V = string, L = string> = {
+  label: L;
+  value: V;
+  [key: string]: unknown;
 };
