@@ -6,6 +6,9 @@ import { useQueryClient } from '@tanstack/react-query';
 import { InitialData } from '@/types';
 import { ListType, TitleType } from '@/enums';
 import { useFormContext } from 'react-hook-form';
+import { FormValues } from '../../types';
+import { VIDEO_SOURCE_BASE_URL } from '@/constants';
+import { Description } from '../Description/Description';
 
 type FilmFormProps = {
   onSubmit: VoidFunction;
@@ -14,7 +17,7 @@ type FilmFormProps = {
 export const FilmForm: FC<FilmFormProps> = ({ onSubmit }) => {
   const queryClient = useQueryClient();
   const data = queryClient.getQueryData<InitialData>(['initial-data']);
-  const { watch } = useFormContext();
+  const { watch } = useFormContext<FormValues>();
 
   if (!data) {
     return <div>Form options doesn't exist, reload the page.</div>;
@@ -51,7 +54,7 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit }) => {
         {titleType === TitleType.FILM && (
           <FormUrlInput
             name="trailer"
-            baseUrl="https://www.youtube-nocookie.com/embed/"
+            baseUrl={VIDEO_SOURCE_BASE_URL}
             type="video"
             label="Trailer"
           />
@@ -93,6 +96,7 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit }) => {
           max="1000"
         />
       </FormRow>
+      <Description />
       <FormRow align="center" gap={20}>
         <Button type="submit">Create</Button>
       </FormRow>

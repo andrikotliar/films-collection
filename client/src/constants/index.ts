@@ -6,3 +6,5 @@ export const PENDING_FILMS_PER_PAGE = 30;
 export const FILMS_ADMIN_LIST_PER_PAGE = 30;
 export const MOBILE_VIEW_BREAKPOINT_PX = 785;
 export const MIN_DATE = '01/01/1977';
+
+export const VIDEO_SOURCE_BASE_URL = 'https://www.youtube-nocookie.com/embed/';
