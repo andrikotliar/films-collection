@@ -29,3 +29,4 @@ export * from './ConsoleTitle/ConsoleTitle';
 export * from './BackLink/BackLink';
 export * from './FormCheckboxesGroup/FormCheckboxesGroup';
 export * from './UrlInput';
+export * from './TextArea';
