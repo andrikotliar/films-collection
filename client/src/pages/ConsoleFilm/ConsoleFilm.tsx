@@ -1,5 +1,5 @@
 import { NEW_FILM_ID } from '@/constants';
-import { BackLink, ConsoleContentLayout, ConsoleTitle } from '@/ui';
+import { BackLink, ConsoleContentLayout, ConsoleTitle, Island } from '@/ui';
 import { getRouteApi } from '@tanstack/react-router';
 import { useMemo } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
@@ -36,9 +36,11 @@ export const ConsoleFilm = () => {
     <ConsoleContentLayout>
       <BackLink path="/console/manage">Back to list</BackLink>
       <ConsoleTitle>{pageTitle}</ConsoleTitle>
-      <FormProvider {...form}>
-        <FilmForm onSubmit={form.handleSubmit(handleSubmit)} />
-      </FormProvider>
+      <Island>
+        <FormProvider {...form}>
+          <FilmForm onSubmit={form.handleSubmit(handleSubmit)} />
+        </FormProvider>
+      </Island>
     </ConsoleContentLayout>
   );
 };
