@@ -10,10 +10,22 @@ export type TextInputProps = {
   label?: string;
   error?: string | string[];
   icon?: ReactNode;
+  visiblePlaceholder?: boolean;
 } & Omit<ComponentProps<'input'>, 'type' | 'name'>;
 
 export const TextInput = forwardRef<HTMLInputElement, TextInputProps>(
-  ({ label, type = 'text', className, error, icon, ...props }, ref) => {
+  (
+    {
+      label,
+      type = 'text',
+      className,
+      error,
+      icon,
+      visiblePlaceholder,
+      ...props
+    },
+    ref,
+  ) => {
     return (
       <label className={classNames(styles.inputWrapper, className)}>
         {label && <FieldLabel>{label}</FieldLabel>}
@@ -23,6 +35,7 @@ export const TextInput = forwardRef<HTMLInputElement, TextInputProps>(
             type={type}
             className={classNames(styles.textInput, {
               [styles.withIcon]: icon !== undefined,
+              [styles.withVisiblePlaceholder]: visiblePlaceholder,
             })}
             {...props}
           />
