@@ -1,7 +1,7 @@
-import { ConfigOption } from '@/types';
+import { ListOption } from '@/types';
 
 export const getDefaultSortingFieldLabel = (
-  fields: ConfigOption[],
+  fields: ListOption[],
   selectedSortingField?: string,
 ) => {
   if (!selectedSortingField) {

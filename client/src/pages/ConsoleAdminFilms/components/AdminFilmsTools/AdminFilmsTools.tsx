@@ -1,10 +1,10 @@
 import { SortingParams, SortingPopup, TextInput } from '@/ui';
-import { ConfigOption, SortingDirection } from '@/types';
+import { ListOption, SortingDirection } from '@/types';
 import styles from './AdminFilmsTools.module.css';
 import { useDebouncedSearch } from '@/hooks';
 import { getRouteApi } from '@tanstack/react-router';
 
-const sortingFields: ConfigOption[] = [
+const sortingFields: ListOption[] = [
   {
     label: 'Created At',
     value: 'createdAt',
