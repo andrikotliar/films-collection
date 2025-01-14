@@ -43,7 +43,7 @@ export const PopupMenu: FC<PropsWithChildren<PopupMenuProps>> = ({
   className,
   positionMarker = 'left',
   shouldAdjustToTriggerWidth = false,
-  shouldFocusTriggerOnClose,
+  shouldFocusTriggerOnClose = false,
   ...divProps
 }) => {
   const [position, setPosition] = useState<Position | null>(null);
