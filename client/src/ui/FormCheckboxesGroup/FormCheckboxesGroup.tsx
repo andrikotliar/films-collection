@@ -38,7 +38,7 @@ export const FormCheckboxesGroup: FC<FormCheckboxesGroupProps> = ({
           />
         ))}
       </div>
-      {errors[name] && <FieldError error={errors[name].message as string} />}
+      <FieldError error={errors[name]?.message as string | undefined} />
     </div>
   );
 };
