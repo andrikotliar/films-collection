@@ -11,6 +11,7 @@ import {
   PendingFilmRow,
   PendingPageLayout,
   Tools,
+  ConfirmDeleteModal,
 } from './components';
 import { ConsoleTitle } from '../components';
 import { getRouteApi } from '@tanstack/react-router';
@@ -31,6 +32,7 @@ export const ConsolePendingFilmsPage = () => {
   const [editModalContent, setEditModalContent] = useState<PendingFilm | null>(
     null,
   );
+  const [deleteFilmId, setDeleteFilmId] = useState<string | null>(null);
 
   const searchParams = routeApi.useSearch();
   const navigate = routeApi.useNavigate();
@@ -55,7 +57,10 @@ export const ConsolePendingFilmsPage = () => {
   const { mutate: deletePendingFilm, isPending: isDeleteInProgress } =
     useMutation({
       mutationFn: PendingFilmsApi.deletePendingFilm,
-      onSuccess: () => refetch(),
+      onSuccess: () => {
+        refetch();
+        setDeleteFilmId(null);
+      },
     });
 
   const handleCreatePendingFilm: SubmitHandler<PendingFilmFormValues> = (
@@ -76,6 +81,12 @@ export const ConsolePendingFilmsPage = () => {
     });
   };
 
+  const handleDeletePendingFilm = (id: string | null) => {
+    if (id) {
+      deletePendingFilm(id);
+    }
+  };
+
   return (
     <PendingPageLayout>
       <ConsoleTitle>Pending Films</ConsoleTitle>
@@ -92,7 +103,7 @@ export const ConsolePendingFilmsPage = () => {
           <PendingFilmRow
             key={film._id}
             data={film}
-            onDelete={() => deletePendingFilm(film._id)}
+            onDelete={() => setDeleteFilmId(film._id)}
             onEdit={() => setEditModalContent(film)}
             isDeleteInProgress={isDeleteInProgress}
           />
@@ -110,6 +121,12 @@ export const ConsolePendingFilmsPage = () => {
         onClose={() => setEditModalContent(null)}
         defaultValues={editModalContent}
         refetch={refetch}
+      />
+
+      <ConfirmDeleteModal
+        isOpen={deleteFilmId !== null}
+        onClose={() => setDeleteFilmId(null)}
+        onConfirm={() => handleDeletePendingFilm(deleteFilmId)}
       />
     </PendingPageLayout>
   );

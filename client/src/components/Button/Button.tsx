@@ -8,7 +8,7 @@ export type ButtonProps = {
   icon?: ReactNode;
   isHidden?: boolean;
   isActive?: boolean;
-  variant?: 'primary' | 'secondary' | 'ghost';
+  variant?: 'primary' | 'secondary' | 'ghost' | 'danger';
   activeClassName?: string;
   isDisabled?: boolean;
   className?: string;

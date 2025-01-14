@@ -6,7 +6,9 @@
   color: #fff;
   padding: 10px;
   border-radius: var(--app-border-radius);
-  transition: background-color 0.3s, color 0.2s;
+  transition:
+    background-color 0.3s,
+    color 0.2s;
   flex-shrink: 0;
 }
 
@@ -23,6 +25,11 @@
   color: #222;
   background-color: transparent;
   border-radius: 0;
+}
+
+.danger {
+  color: white;
+  background-color: var(--red);
 }
 
 .active {
@@ -54,7 +61,7 @@
   .button:hover {
     background-color: var(--green);
   }
-  
+
   .active:hover {
     background-color: var(--blue-default);
   }
