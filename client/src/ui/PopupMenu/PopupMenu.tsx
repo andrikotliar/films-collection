@@ -50,10 +50,7 @@ export const PopupMenu: FC<PropsWithChildren<PopupMenuProps>> = ({
   const [menuWidth, setMenuWidth] = useState<number>();
   const menuRef = useRef<HTMLDivElement>(null);
 
-  useCloseOnScroll(() => {
-    onClose();
-    triggerRef.current?.blur();
-  });
+  useCloseOnScroll(onClose);
 
   useEffect(() => {
     if (triggerRef.current && menuRef.current) {
