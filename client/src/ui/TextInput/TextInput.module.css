@@ -26,10 +26,6 @@
   padding-right: 50px;
 }
 
-.textInput.withVisiblePlaceholder::placeholder {
-  color: var(--black);
-}
-
 .textInput:disabled {
   border-color: var(--gray);
   pointer-events: none;
