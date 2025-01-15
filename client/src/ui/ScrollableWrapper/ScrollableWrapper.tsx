@@ -1,15 +1,16 @@
 import styles from './ScrollableWrapper.module.css';
-import { FC, PropsWithChildren } from 'react';
+import { ComponentProps, forwardRef } from 'react';
 import classNames from 'classnames';
 
-type ScrollableWrapperProps = {
-  className?: string;
-};
+type ScrollableWrapperProps = ComponentProps<'div'>;
 
-export const ScrollableWrapper: FC<
-  PropsWithChildren<ScrollableWrapperProps>
-> = ({ children, className }) => {
+export const ScrollableWrapper = forwardRef<
+  HTMLDivElement,
+  ScrollableWrapperProps
+>(({ children, className }, ref) => {
   return (
-    <div className={classNames(styles.customScroll, className)}>{children}</div>
+    <div ref={ref} className={classNames(styles.customScroll, className)}>
+      {children}
+    </div>
   );
-};
+});
