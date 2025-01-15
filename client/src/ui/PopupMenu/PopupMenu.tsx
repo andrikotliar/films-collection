@@ -53,19 +53,32 @@ export const PopupMenu: FC<PropsWithChildren<PopupMenuProps>> = ({
   useCloseOnScroll(onClose);
 
   useEffect(() => {
-    if (triggerRef.current && menuRef.current) {
-      const { width } = menuRef.current.getBoundingClientRect();
+    if (isOpen && triggerRef.current && menuRef.current) {
+      const { width, height: menuHeight } =
+        menuRef.current.getBoundingClientRect();
 
       const {
         left,
         bottom,
         right,
+        top,
         width: buttonWidth,
       } = triggerRef.current.getBoundingClientRect();
 
-      const leftPosition = positionMarker === 'left' ? left : right - width;
+      const isOverflowBottom = bottom + menuHeight >= window.innerHeight;
+      const isOverflowTop = top - menuHeight <= 0;
 
-      setPosition({ left: leftPosition, top: bottom + menuMargin });
+      const horizontalPosition =
+        positionMarker === 'left' ? left : right - width;
+
+      if (isOverflowBottom && !isOverflowTop) {
+        setPosition({
+          left: horizontalPosition,
+          top: top - menuHeight - menuMargin,
+        });
+      } else {
+        setPosition({ left: horizontalPosition, top: bottom + menuMargin });
+      }
 
       if (shouldAdjustToTriggerWidth) {
         setMenuWidth(buttonWidth);
@@ -88,6 +101,12 @@ export const PopupMenu: FC<PropsWithChildren<PopupMenuProps>> = ({
     isOpen,
     shouldFocusOnClose: shouldFocusTriggerOnClose,
   });
+
+  useEffect(() => {
+    if (!isOpen && position) {
+      setPosition(null);
+    }
+  }, [position, isOpen]);
 
   if (!isOpen) {
     return null;
