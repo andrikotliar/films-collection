@@ -1,0 +1,21 @@
+# fly.toml app configuration file generated for films-collection-server on 2025-01-15T16:37:16+02:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'films-collection-server'
+primary_region = 'waw'
+
+[build]
+  dockerfile = 'Dockerfile'
+
+[http_service]
+  internal_port = 5000
+  force_https = true
+  min_machines_running = 1
+
+[[vm]]
+  size = 'shared-cpu-1x'
+  memory = '256'
+  cpu_kind = 'shared'
+  cpus = 1
