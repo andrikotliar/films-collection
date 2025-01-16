@@ -1,7 +1,15 @@
-import { ChangeEvent, FC, useMemo, useRef, useState } from 'react';
+import styles from './Select.module.css';
+import {
+  ChangeEvent,
+  FC,
+  useMemo,
+  useRef,
+  useState,
+  KeyboardEvent,
+  useEffect,
+} from 'react';
 import { CheckIcon, ChevronDown } from 'lucide-react';
 import { ListOption } from '@/types';
-import styles from './Select.module.css';
 import { PopupMenu } from '../PopupMenu/PopupMenu';
 import { parseSelectState } from './helpers';
 import { TextInput } from '../TextInput';
@@ -33,6 +41,7 @@ export const Select: FC<SelectProps> = ({
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+  const optionsRef = useRef<HTMLInputElement[]>([]);
   const [filteredOptions, setFilteredOptions] = useState(options);
   const [internalValue, setInternalValue] = useState<InternalValue>(() => {
     if (!defaultValue) {
@@ -66,21 +75,26 @@ export const Select: FC<SelectProps> = ({
     return randomId;
   }, []);
 
-  const internalPlaceholder = useMemo(() => {
-    const selectedValues = parseSelectState(internalValue);
+  useEffect(() => {
+    if (!isOpen && inputRef.current) {
+      const selectedValues = parseSelectState(internalValue);
 
-    if (selectedValues.length === 0) {
-      return placeholder;
+      if (!selectedValues.length) {
+        return;
+      }
+
+      if (selectedValues.length > 1) {
+        inputRef.current.value = `${selectedValues.length} selected`;
+        return;
+      }
+
+      const option = options.find(
+        (option) => option.value === selectedValues[0],
+      );
+
+      inputRef.current.value = option?.label ?? '';
     }
-
-    if (selectedValues.length > 1) {
-      return `${selectedValues.length} selected`;
-    }
-
-    const option = options.find((option) => option.value === selectedValues[0]);
-
-    return option?.label ?? placeholder;
-  }, [internalValue, isMulti, placeholder, options]);
+  }, [isOpen, internalValue, inputRef]);
 
   const handleChange = (
     event: ChangeEvent<HTMLInputElement>,
@@ -112,6 +126,13 @@ export const Select: FC<SelectProps> = ({
     onSelect?.(selectedValues);
   };
 
+  const handleClearInput = () => {
+    if (inputRef.current?.value.length) {
+      inputRef.current.value = '';
+      setFilteredOptions(options);
+    }
+  };
+
   const handleSearch = useDebouncedSearch((value) => {
     if (value?.length) {
       const filtered = options.filter((option) =>
@@ -126,28 +147,97 @@ export const Select: FC<SelectProps> = ({
     setFilteredOptions(options);
   });
 
+  const toggleMenu = () => {
+    setIsOpen((isOpen) => !isOpen);
+    handleClearInput();
+  };
+
+  const handleKeyboard = (event: KeyboardEvent) => {
+    switch (event.key) {
+      case 'Enter':
+        event.preventDefault();
+        toggleMenu();
+        break;
+
+      case 'ArrowDown': {
+        event.preventDefault();
+
+        if (optionsRef.current?.length) {
+          optionsRef.current[0].focus();
+        }
+
+        break;
+      }
+
+      case 'ArrowUp': {
+        event.preventDefault();
+
+        if (optionsRef.current?.length) {
+          optionsRef.current[optionsRef.current.length - 1].focus();
+        }
+
+        break;
+      }
+
+      default:
+        if (!isOpen) {
+          setIsOpen(true);
+        }
+        break;
+    }
+  };
+
+  const handleClose = () => {
+    setIsOpen(false);
+    handleClearInput();
+  };
+
+  const handleOptionKeyDown = (event: KeyboardEvent, index: number) => {
+    switch (event.key) {
+      case 'ArrowDown': {
+        event.preventDefault();
+
+        const nextIndex = (index + 1) % optionsRef.current.length;
+        optionsRef.current[nextIndex].focus();
+
+        break;
+      }
+      case 'ArrowUp': {
+        event.preventDefault();
+
+        const prevIndex =
+          (index - 1 + optionsRef.current.length) % optionsRef.current.length;
+
+        optionsRef.current[prevIndex].focus();
+        break;
+      }
+      default:
+        break;
+    }
+  };
+
   return (
-    <div aria-expanded={isOpen} className={styles.wrapper} role="combobox">
+    <div className={styles.wrapper}>
       <TextInput
-        onFocus={() => setIsOpen(true)}
+        onClick={toggleMenu}
         onChange={handleSearch}
         label={label}
         disabled={isDisabled}
-        placeholder={internalPlaceholder}
+        placeholder={placeholder}
         ref={inputRef}
         icon={<ChevronDown className={styles.expandIcon} />}
-        visiblePlaceholder
+        onKeyDown={handleKeyboard}
       />
       <PopupMenu
         isOpen={isOpen}
-        onClose={() => setIsOpen(false)}
+        onClose={handleClose}
         triggerRef={inputRef}
         shouldAdjustToTriggerWidth
         role="menu"
         menuMargin={5}
       >
         <ScrollableWrapper className={styles.menu}>
-          {filteredOptions.map((option) => (
+          {filteredOptions.map((option, index) => (
             <label key={option.value} className={styles.option}>
               <span>{option.label}</span>
               <input
@@ -157,6 +247,8 @@ export const Select: FC<SelectProps> = ({
                 className={styles.input}
                 value={option.value}
                 onChange={(event) => handleChange(event, internalValue)}
+                ref={(input) => (optionsRef.current[index] = input!)}
+                onKeyDown={(e) => handleOptionKeyDown(e, index)}
               />
               <CheckIcon className={styles.check} />
             </label>

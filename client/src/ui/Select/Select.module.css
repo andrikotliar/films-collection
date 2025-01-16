@@ -81,6 +81,11 @@
 
 .option:has(.input:focus) {
   background-color: var(--gray-light);
+  box-shadow: 0 0 0 1px var(--gray);
+}
+
+.option:has(.input:checked) {
+  background-color: var(--blue-invisible);
 }
 
 .menuPlaceholder {
