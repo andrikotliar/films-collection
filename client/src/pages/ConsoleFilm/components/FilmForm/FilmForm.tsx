@@ -15,6 +15,7 @@ import { useFormContext } from 'react-hook-form';
 import { FormValues } from '../../types';
 import { VIDEO_SOURCE_BASE_URL } from '@/constants';
 import { Description } from '../Description/Description';
+import { getListOptions } from '@/helpers';
 
 type FilmFormProps = {
   onSubmit: VoidFunction;
@@ -38,13 +39,13 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit }) => {
         <FormCheckboxesGroup
           label="Type"
           name="type"
-          options={data.options.general[ListType.TITLE_TYPES]}
+          options={getListOptions(data.options.general[ListType.TITLE_TYPES])}
           type="radio"
         />
         <FormCheckboxesGroup
           label="Styles"
           name="style"
-          options={data.options.general[ListType.STYLES]}
+          options={getListOptions(data.options.general[ListType.STYLES])}
           type="radio"
         />
       </FormRow>
@@ -73,6 +74,15 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit }) => {
           value: option,
         }))}
         name="genres"
+        isMulti
+      />
+      <FormSelect
+        label="Countries"
+        options={data.options.general[ListType.COUNTRIES].map((option) => ({
+          label: option,
+          value: option,
+        }))}
+        name="countries"
         isMulti
       />
       <FormTextInput

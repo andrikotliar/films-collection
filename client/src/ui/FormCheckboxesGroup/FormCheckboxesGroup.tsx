@@ -5,11 +5,12 @@ import styles from './FormCheckboxesGroup.module.css';
 import { FieldLabel } from '../FieldLabel/FieldLabel';
 import { FieldError } from '../FieldError/FieldError';
 import { useFormContext } from 'react-hook-form';
+import { ListOption } from '@/types';
 
 type FormCheckboxesGroupProps = {
   label?: string;
   name: string;
-  options: string[];
+  options: ListOption[];
   type: CheckboxProps['type'];
   error?: string | string[];
 };
@@ -30,11 +31,11 @@ export const FormCheckboxesGroup: FC<FormCheckboxesGroupProps> = ({
       <div className={styles.group}>
         {options.map((option) => (
           <FormCheckbox
-            key={option}
-            label={option}
+            key={option.value}
+            label={option.label}
             name={name}
             type={type}
-            value={option}
+            value={option.value}
           />
         ))}
       </div>

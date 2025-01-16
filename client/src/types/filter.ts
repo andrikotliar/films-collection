@@ -1,11 +1,8 @@
-export type FilterOption = {
-  title: string;
-  filter: string;
-};
+import { ListOption } from './list-option';
 
 export type CheckboxFilter = {
   type: 'checkmark';
-  options: FilterOption[];
+  options: ListOption[];
   inputType: 'checkbox' | 'radio';
   property: string;
 };
