@@ -69,12 +69,6 @@ export const Select: FC<SelectProps> = ({
 
   const inputType = isMulti ? 'checkbox' : 'radio';
 
-  const optionsId = useMemo(() => {
-    const randomId = Math.ceil(Math.random() * 1000);
-
-    return randomId;
-  }, []);
-
   useEffect(() => {
     if (!isOpen && inputRef.current) {
       const selectedValues = parseSelectState(internalValue);
@@ -147,16 +141,20 @@ export const Select: FC<SelectProps> = ({
     setFilteredOptions(options);
   });
 
-  const toggleMenu = () => {
-    setIsOpen((isOpen) => !isOpen);
+  const handleOpen = () => {
+    setIsOpen(true);
     handleClearInput();
+  };
+
+  const handleClose = () => {
+    setIsOpen(false);
   };
 
   const handleKeyboard = (event: KeyboardEvent) => {
     switch (event.key) {
       case 'Enter':
         event.preventDefault();
-        toggleMenu();
+        handleOpen();
         break;
 
       case 'ArrowDown': {
@@ -187,11 +185,6 @@ export const Select: FC<SelectProps> = ({
     }
   };
 
-  const handleClose = () => {
-    setIsOpen(false);
-    handleClearInput();
-  };
-
   const handleOptionKeyDown = (event: KeyboardEvent, index: number) => {
     switch (event.key) {
       case 'ArrowDown': {
@@ -219,7 +212,7 @@ export const Select: FC<SelectProps> = ({
   return (
     <div className={styles.wrapper}>
       <TextInput
-        onClick={toggleMenu}
+        onClick={handleOpen}
         onChange={handleSearch}
         label={label}
         disabled={isDisabled}
@@ -241,7 +234,7 @@ export const Select: FC<SelectProps> = ({
             <label key={option.value} className={styles.option}>
               <span>{option.label}</span>
               <input
-                name={`_select_option_${optionsId}`}
+                name="_select_option"
                 type={inputType}
                 checked={internalValue[option.value] ?? false}
                 className={styles.input}
