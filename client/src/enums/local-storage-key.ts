@@ -1,4 +1,4 @@
 export enum LocalStorageKey {
-  LAST_VISITED_FILMS = 'lastVisitedFilms',
-  IS_AUTHENTICATED = 'isAuthenticated',
+  LAST_VISITED_FILMS = 'last_visited_films',
+  IS_AUTHENTICATED = 'is_authenticated',
 }

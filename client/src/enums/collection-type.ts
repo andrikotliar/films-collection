@@ -1,5 +1,5 @@
 export enum CollectionType {
-  GENERAL = 'General',
-  CINEMATIC_UNIVERSE = 'CinematicUniverse',
-  TOP = 'Top',
+  GENERAL = 'general',
+  CINEMATIC_UNIVERSE = 'cinematic_universe',
+  TOP = 'top',
 }

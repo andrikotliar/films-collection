@@ -1,7 +1,7 @@
 import styles from './SortingPopup.module.css';
 import { FC, FormEvent, useRef, useState } from 'react';
 import { PopupMenu } from '../PopupMenu/PopupMenu';
-import { ConfigOption, SortingDirection } from '@/types';
+import { ListOption, SortingDirection } from '@/types';
 import { SortingButton } from './components';
 import { sortingDirectionOptions } from '@/configs';
 import { BadgeCheckbox } from '../BadgeCheckbox/BadgeCheckbox';
@@ -13,7 +13,7 @@ export type SortingParams = {
 };
 
 type SortingPopupProps = {
-  fields: ConfigOption[];
+  fields: ListOption[];
   defaultSortingField?: string;
   defaultSortingDirection?: SortingDirection;
   onSorting: (params: SortingParams) => void;
