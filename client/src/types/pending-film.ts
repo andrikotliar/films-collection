@@ -1,5 +1,3 @@
-import { SortingDirection } from './sorting-direction';
-
 export type PendingFilm = {
   _id: string;
   title: string;

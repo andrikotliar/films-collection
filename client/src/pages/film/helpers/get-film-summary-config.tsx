@@ -12,7 +12,6 @@ import {
   TagLinksGroup,
 } from '../components';
 import { SummaryConfig } from '../types';
-import { TitleType } from '@/enums';
 import { checkHasBoxOfficeBenefit } from './check-box-office-has-benefit';
 
 export const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
@@ -101,7 +100,7 @@ export const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
           )}
         </div>
       ),
-      isHidden: film.type === TitleType.SERIES,
+      isHidden: film.type === 'SERIES',
     },
     {
       id: 'boxOffice',
@@ -120,7 +119,7 @@ export const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
           )}
         </div>
       ),
-      isHidden: film.type === TitleType.SERIES,
+      isHidden: film.type === 'SERIES',
     },
     {
       id: 'seriesStats',
@@ -146,13 +145,13 @@ export const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
           </TagLink>
         </LinksGroupWrapper>
       ),
-      isHidden: film.type !== TitleType.SERIES,
+      isHidden: film.type !== 'SERIES',
     },
     {
       id: 'seasonsDetails',
       title: 'Seasons Details',
       content: <SeasonsRow seasons={film.seriesExtension?.seasons ?? []} />,
-      isHidden: film.type !== TitleType.SERIES,
+      isHidden: film.type !== 'SERIES',
     },
   ];
 

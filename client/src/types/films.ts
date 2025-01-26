@@ -1,10 +1,18 @@
-import { TitleType } from '@/enums';
 import { Actor } from './actor';
 import { AwardData } from './award';
 import { Collection } from './collection';
 
+export type TitleType = 'FILM' | 'SERIES';
+export type TitleStyle = 'ANIMATION' | 'LIVE_ACTION';
+export type CrewPosition =
+  | 'DIRECTOR'
+  | 'WRITER'
+  | 'COMPOSER'
+  | 'CAMERAMAN'
+  | 'CREATOR';
+
 export type Crew = {
-  role: string;
+  role: CrewPosition;
   people: {
     name: string;
     comment: string;
@@ -59,7 +67,7 @@ export type IncludedCollection = {
 export type FilmData = {
   _id: string;
   type: TitleType;
-  style: string;
+  style: TitleStyle;
   title: string;
   genres: string[];
   studios: string[];

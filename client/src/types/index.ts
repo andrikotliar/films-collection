@@ -1,5 +1,5 @@
 export * from './actor';
-export * from './film-types';
+export * from './films';
 export * from './filter';
 export * from './nav-link';
 export * from './menu-config-item';

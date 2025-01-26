@@ -1,4 +1,4 @@
-import { HttpMethod, LocalStorageKey, ServerErrorCode } from '@/enums';
+import { LocalStorageKey } from '@/enums';
 import { ApiEndpoint } from '@/types';
 import { redirect } from '@tanstack/react-router';
 
@@ -25,6 +25,8 @@ type ErrorInterceptor = (
   error: HttpError,
   originalRequestParams: ErrorInterceptorOriginalRequest,
 ) => Promise<ErrorInterceptorOriginalRequest>;
+
+const TOKEN_ERRORS = ['TOKEN_EXPIRED', 'TOKEN_MISSED'];
 
 export class HttpError extends Error {
   readonly status: number;
@@ -87,7 +89,7 @@ export class ApiClient {
     path: ApiEndpoint,
     queryParams?: IFetchOptions['queryParams'],
   ) {
-    return await this.request<T>(path, { method: HttpMethod.GET, queryParams });
+    return await this.request<T>(path, { method: 'GET', queryParams });
   }
 
   async post<T = unknown>(
@@ -99,7 +101,7 @@ export class ApiClient {
       headers: {
         'Content-Type': 'application/json',
       },
-      method: HttpMethod.POST,
+      method: 'POST',
       body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
@@ -113,7 +115,7 @@ export class ApiClient {
       headers: {
         'Content-Type': 'application/json',
       },
-      method: HttpMethod.PATCH,
+      method: 'PATCH',
       body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
@@ -124,7 +126,7 @@ export class ApiClient {
   ) {
     return await this.request<T>(path, {
       ...options,
-      method: HttpMethod.PUT,
+      method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
       },
@@ -138,7 +140,7 @@ export class ApiClient {
   ) {
     return await this.request<T>(path, {
       ...options,
-      method: HttpMethod.DELETE,
+      method: 'DELETE',
       headers: options?.payload
         ? {
             'Content-Type': 'application/json',
@@ -187,7 +189,7 @@ apiClient.setErrorInterceptor(async (error, originalRequestParams) => {
     originalRequestParams._isRetried = true;
 
     try {
-      if (error.response?.code !== ServerErrorCode.JWT_EXPIRED) {
+      if (!TOKEN_ERRORS.includes(error.response?.code)) {
         throw error;
       }
 
