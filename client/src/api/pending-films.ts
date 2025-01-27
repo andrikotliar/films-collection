@@ -13,7 +13,9 @@ type PendingFilmsListResponse = {
 
 export const PendingFilmsApi = {
   getPendingFilms(filters: PendingFilmServerFilters) {
-    return apiClient.get<PendingFilmsListResponse>('/pending-films', filters);
+    return apiClient.get<PendingFilmsListResponse>('/pending-films', {
+      queryParams: filters,
+    });
   },
 
   createPendingFilm(data: Pick<PendingFilm, 'title' | 'priority'>) {
@@ -23,11 +25,13 @@ export const PendingFilmsApi = {
   },
 
   deletePendingFilm(id: string) {
-    return apiClient.delete(`/pending-films/${id}`);
+    return apiClient.delete('/pending-films/:filmId', {
+      params: { filmId: id },
+    });
   },
 
   updatePendingFilm(params: UpdatePendingFilmParams) {
-    return apiClient.patch(`/pending-films/${params.filmId}`, {
+    return apiClient.patch('/pending-films/:filmId', {
       payload: params.payload,
     });
   },

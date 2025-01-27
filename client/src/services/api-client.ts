@@ -3,12 +3,9 @@ import { ApiEndpoint } from '@/types';
 import { redirect } from '@tanstack/react-router';
 
 interface IFetchOptions extends RequestInit {
-  queryParams?: {
-    [key: string]: any;
-  };
-  payload?: {
-    [key: string]: any;
-  };
+  queryParams?: Record<string, any>;
+  payload?: Record<string, any>;
+  params?: Record<string, string | number>;
 }
 
 type ApiClientOptions = {
@@ -61,10 +58,16 @@ export class ApiClient {
         credentials: 'include',
       };
 
-      const parsedPath = this.parseQueryParams(
+      const pathWithParams = this.parseRouteParams(
         path,
+        internalOptions.params,
+      );
+
+      const parsedPath = this.parseQueryParams(
+        pathWithParams,
         internalOptions.queryParams,
       );
+
       const response = await fetch(
         `${this.baseUrl}${parsedPath}`,
         internalOptions,
@@ -87,14 +90,14 @@ export class ApiClient {
 
   async get<T = unknown>(
     path: ApiEndpoint,
-    queryParams?: IFetchOptions['queryParams'],
+    options?: Pick<IFetchOptions, 'queryParams' | 'params'>,
   ) {
-    return await this.request<T>(path, { method: 'GET', queryParams });
+    return await this.request<T>(path, { method: 'GET', ...options });
   }
 
   async post<T = unknown>(
     path: ApiEndpoint,
-    options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
+    options?: Pick<IFetchOptions, 'payload' | 'queryParams' | 'params'>,
   ) {
     return await this.request<T>(path, {
       ...options,
@@ -108,7 +111,7 @@ export class ApiClient {
 
   async patch<T = unknown>(
     path: ApiEndpoint,
-    options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
+    options?: Pick<IFetchOptions, 'payload' | 'queryParams' | 'params'>,
   ) {
     return await this.request<T>(path, {
       ...options,
@@ -122,7 +125,7 @@ export class ApiClient {
 
   async put<T = unknown>(
     path: ApiEndpoint,
-    options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
+    options?: Pick<IFetchOptions, 'payload' | 'queryParams' | 'params'>,
   ) {
     return await this.request<T>(path, {
       ...options,
@@ -136,7 +139,7 @@ export class ApiClient {
 
   async delete<T = unknown>(
     path: ApiEndpoint,
-    options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
+    options?: Pick<IFetchOptions, 'payload' | 'queryParams' | 'params'>,
   ) {
     return await this.request<T>(path, {
       ...options,
@@ -177,6 +180,20 @@ export class ApiClient {
     const queryString = params.toString();
 
     return `${path}?${queryString}`;
+  }
+
+  private parseRouteParams(path: string, params: IFetchOptions['params']) {
+    if (!params) {
+      return path;
+    }
+
+    return path.replace(/:([a-zA-Z]+)/g, (_, key) => {
+      if (key in params) {
+        return params[key].toString();
+      }
+
+      throw new Error(`Missing value for parameter: ${key}`);
+    });
   }
 }
 
