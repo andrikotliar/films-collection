@@ -1,39 +1,29 @@
 import fastify from 'fastify';
-import fastifyCors from '@fastify/cors';
-import fastifyCookie from '@fastify/cookie';
-import { env, connectDatabase } from './config';
-import { initRoutes } from './init-routes';
-import { registerAuthPlugin } from './common';
-import ajvErrors from 'ajv-errors';
+import { PrismaClient } from '@prisma/client';
+import { env, loggerOptions, validatorOptions } from './configs';
+import { AppServices } from './common';
+import { registerModules } from './register-modules';
+import { registerPlugins } from './register-plugins';
+
+declare module 'fastify' {
+  export interface FastifyInstance extends AppServices {
+    authenticate: any;
+    database: PrismaClient;
+  }
+}
 
 const app = fastify({
-  logger: env.NODE_ENV === 'development',
-  ajv: {
-    customOptions: {
-      removeAdditional: 'all',
-      allErrors: true,
-    },
-    plugins: [ajvErrors],
-  },
+  logger: loggerOptions,
+  ajv: validatorOptions,
 });
 
-app.register(fastifyCors, {
-  origin: env.FRONTEND_ORIGIN,
-  credentials: true,
-});
+registerPlugins(app);
+registerModules(app);
 
-registerAuthPlugin(app, env);
-
-app.register(fastifyCookie, {
-  secret: env.COOKIE_SECRET,
-});
-
-initRoutes(app);
+app
 
 const startServer = async () => {
   try {
-    await connectDatabase(app);
-
     await app.listen({ port: env.PORT, host: env.HOST });
   } catch (error: any) {
     app.log.error(error?.message);
