@@ -3,7 +3,6 @@ export type ApiEndpoint =
   | '/films/:filmId'
   | '/films/anniversaries'
   | '/films/search'
-  | '/films/random'
   | '/initial-data'
   | '/pending-films'
   | '/pending-films/:filmId'
