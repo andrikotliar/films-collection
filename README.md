@@ -4,6 +4,8 @@ The personal collection of favorite films.
 
 ![Films Collection Main Page Preview](./preview.jpg)
 
+> ❗ DISCLAIMER: All media files, videos, and information are the intellectual property of its authors. All data was taken from open sources and used for informational purposes. Data was gathered manually without using scrappers or third-party APIs.
+
 ## Tech Stack
 
 ### Frontend
@@ -34,7 +36,7 @@ The personal collection of favorite films.
 4. In the root run the `npm run dev`. It will start both client and server via `concurrently`.
 5. Open `http://localhost:3030`
 
-To seed the database with data, go to the `dataset` folder and follow instructions in the `README`.
+The `dataset` folder contains data that can be used to populate database.
 
 ## Build project
 

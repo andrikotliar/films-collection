@@ -45,3 +45,10 @@
   all: unset;
   filter: grayscale(1);
 }
+
+.content blockquote {
+  margin-bottom: 20px;
+  background-color: var(--blue-light);
+  padding: 20px;
+  border-left: 4px solid var(--blue-default);
+}
