@@ -43,12 +43,6 @@ export const registerFilmsRouter = (app: FastifyInstance) => {
 
   app.route({
     method: 'GET',
-    url: '/films/random',
-    handler: filmsController.findRandomFilms.bind(filmsController),
-  });
-
-  app.route({
-    method: 'GET',
     url: '/films/search',
     handler: filmsController.findFilmsBySearchString.bind(filmsController),
     schema: searchSchema,

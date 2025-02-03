@@ -1,5 +1,4 @@
 import { useDocumentTitle, useScrollToTop } from '@/hooks';
-import { RandomFilms } from './components';
 import { ArticleContent } from '@/components';
 
 export const AboutPage = () => {
@@ -110,10 +109,6 @@ export const AboutPage = () => {
           times and usually choose to watch one more time some titles from the
           previous categories.
         </p>
-      </section>
-      <section>
-        <h2>Discover random titles</h2>
-        <RandomFilms />
       </section>
     </ArticleContent>
   );

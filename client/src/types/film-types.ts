@@ -134,8 +134,6 @@ export type FilmsListPagination = {
   pageIndex?: number;
 };
 
-export type RandomFilmsList = Pick<FilmData, '_id' | 'title' | 'poster'>[];
-
 export type FilmsListFilters = FilmsListPagination &
   Partial<{
     type: TitleType | null;

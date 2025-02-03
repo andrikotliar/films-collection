@@ -114,23 +114,6 @@ export class FilmsService {
     return mappedData;
   }
 
-  async getRandomFilms() {
-    return await this.filmsModel.aggregate([
-      {
-        $sample: {
-          size: 10,
-        },
-      },
-      {
-        $project: {
-          _id: 1,
-          title: 1,
-          poster: 1,
-        },
-      },
-    ]);
-  }
-
   async searchFilm(searchString: string) {
     return await this.filmsModel.find(
       {

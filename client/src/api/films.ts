@@ -2,11 +2,9 @@ import { apiClient } from '@/services';
 import {
   FilmAnniversary,
   FilmData,
-  FilmLinkItem,
   FilmSearchResult,
   FilmsListFilters,
   FilmsListResponse,
-  RandomFilmsList,
 } from '@/types';
 
 export const FilmsApi = {
@@ -26,9 +24,5 @@ export const FilmsApi = {
     return apiClient.get<FilmSearchResult[]>(`/films/search`, {
       q: searchString,
     });
-  },
-
-  getRandomFilms() {
-    return apiClient.get<RandomFilmsList>('/films/random');
   },
 };
