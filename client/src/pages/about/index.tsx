@@ -1,5 +1,4 @@
 import { useDocumentTitle, useScrollToTop } from '@/hooks';
-import { RandomFilms } from './components';
 import { ArticleContent } from '@/components';
 
 export const AboutPage = () => {
@@ -75,6 +74,12 @@ export const AboutPage = () => {
       </section>
       <section>
         <h2>App infrastructure</h2>
+        <blockquote>
+          <b>DISCLAIMER</b>: All media files, videos, and information are the
+          intellectual property of its authors. All data was taken from open
+          sources and used for informational purposes. Data was gathered
+          manually without using scrappers or third-party APIs.
+        </blockquote>
         <p>
           The Films Collection is a full-stack web application. The frontend
           uses React, the backend uses Fastify. Both are build with TypeScript.
@@ -110,10 +115,6 @@ export const AboutPage = () => {
           times and usually choose to watch one more time some titles from the
           previous categories.
         </p>
-      </section>
-      <section>
-        <h2>Discover random titles</h2>
-        <RandomFilms />
       </section>
     </ArticleContent>
   );

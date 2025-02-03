@@ -36,12 +36,6 @@ export class FilmsController {
     return reply.code(ResponseCode.OK).send(data);
   }
 
-  async findRandomFilms(_: FastifyRequest, reply: FastifyReply) {
-    const data = await this.filmsService.getRandomFilms();
-
-    return reply.code(ResponseCode.OK).send(data);
-  }
-
   async findFilmsBySearchString(request: SearchRequest, reply: FastifyReply) {
     const { q } = request.query;
 
