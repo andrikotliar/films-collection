@@ -34,9 +34,5 @@ export const getBadgeLabel = (filter: AppliedFilter) => {
     return `Rating: ${filter.value}`;
   }
 
-  if (filter.key === 'watchCount') {
-    return `Watch Count: ${filter.value}`;
-  }
-
   return filter.value;
 };

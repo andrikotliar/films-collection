@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { StatisticItem, Title } from './components';
 import { FilmData } from '@/types';
 import styles from './TitleRow.module.css';
-import { EyeIcon, PlayIcon, StarIcon } from 'lucide-react';
+import { StarIcon } from 'lucide-react';
 import { buildQueryLink } from '@/helpers';
 import { TrailerButton } from '../TrailerButton/TrailerButton';
 
@@ -24,13 +24,6 @@ export const TitleRow: FC<TitleRowProps> = ({ data }) => {
           color={data.rating > 1 ? 'green' : 'yellow'}
           title="Rating"
           linkPath={buildQueryLink({ rating: data.rating })}
-        />
-        <StatisticItem
-          icon={<EyeIcon />}
-          value={data.watchCount}
-          color="purple"
-          title="Watch count"
-          linkPath={buildQueryLink({ watchCount: data.watchCount })}
         />
       </div>
     </div>

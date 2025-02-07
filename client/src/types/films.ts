@@ -86,7 +86,6 @@ export type FilmData = {
   poster: string;
   trailers: string[];
   chapters: Pick<FilmData, '_id' | 'title' | 'poster'>[];
-  watchCount: number;
   createdAt: string;
   updatedAt: string;
 };
