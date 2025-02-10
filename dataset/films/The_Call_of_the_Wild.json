@@ -1,0 +1,16 @@
+{
+  "id": 164,
+  "title": "The Call of the Wild",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2020-02-21T00:00:00.000Z",
+  "duration": 100,
+  "poster": "posters/the_call_of_the_wild.webp",
+  "youtubeTrailerId": "h1LG9So2ZBk",
+  "budget": 135000000,
+  "boxOffice": 110000000,
+  "rating": 2,
+  "description": "A sled dog struggles for survival in the wilds of the Yukon.",
+  "chapterKey": null,
+  "chapterOrder": null
+}

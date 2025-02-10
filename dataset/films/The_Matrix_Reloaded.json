@@ -1,0 +1,16 @@
+{
+  "id": 195,
+  "title": "The Matrix Reloaded",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2003-05-15T00:00:00.000Z",
+  "duration": 138,
+  "poster": "posters/matrix_2.webp",
+  "youtubeTrailerId": "kYzz0FSgpSU",
+  "budget": 127000000,
+  "boxOffice": 742000000,
+  "rating": 3,
+  "description": "Neo and the rebel leaders estimate that they have 72 hours until 250,000 probes discover Zion and destroy it and its inhabitants. During this, Neo must decide how he can save Trinity from a dark fate in his dreams.",
+  "chapterKey": "matrix",
+  "chapterOrder": 2
+}

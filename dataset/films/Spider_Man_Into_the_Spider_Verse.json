@@ -1,0 +1,16 @@
+{
+  "id": 138,
+  "title": "Spider-Man: Into the Spider-Verse",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2018-12-14T00:00:00.000Z",
+  "duration": 117,
+  "poster": "posters/spiderman_intospiderverse.webp",
+  "youtubeTrailerId": "g4Hbz2jLxvQ",
+  "budget": 90000000,
+  "boxOffice": 371000000,
+  "rating": 2,
+  "description": "Teen Miles Morales becomes Spider-Man of his reality, crossing his path with five counterparts from other dimensions to stop a threat for all realities.",
+  "chapterKey": null,
+  "chapterOrder": null
+}

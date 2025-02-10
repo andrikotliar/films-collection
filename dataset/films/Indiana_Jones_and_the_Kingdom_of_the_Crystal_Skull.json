@@ -1,0 +1,16 @@
+{
+  "id": 78,
+  "title": "Indiana Jones and the Kingdom of the Crystal Skull",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2008-05-22T00:00:00.000Z",
+  "duration": 127,
+  "poster": "posters/indiana_jones_4.webp",
+  "youtubeTrailerId": "WAdJf4wTC5Y",
+  "budget": 185000000,
+  "boxOffice": 790000000,
+  "rating": 1,
+  "description": "In 1957, archaeologist and adventurer Dr. Henry \"Indiana\" Jones, Jr. is called back into action and becomes entangled in a Soviet plot to uncover the secret behind mysterious artifacts known as the Crystal Skulls.",
+  "chapterKey": "indiana-jones",
+  "chapterOrder": 4
+}

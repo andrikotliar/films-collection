@@ -1,0 +1,14 @@
+{
+  "id": 63,
+  "title": "Hawkeye",
+  "type": "SERIES",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2021-11-24T00:00:00.000Z",
+  "duration": 57,
+  "poster": "posters/hawkeye.webp",
+  "youtubeTrailerId": "5VYb3B1ETlk",
+  "rating": 1,
+  "description": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 31
+}

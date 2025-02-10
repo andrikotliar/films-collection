@@ -1,0 +1,16 @@
+{
+  "id": 196,
+  "title": "The Matrix Revolutions",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2003-11-05T00:00:00.000Z",
+  "duration": 129,
+  "poster": "posters/matrix_3.webp",
+  "youtubeTrailerId": "hMbexEPAOQI",
+  "budget": 110000000,
+  "boxOffice": 427000000,
+  "rating": 3,
+  "description": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith.",
+  "chapterKey": "matrix",
+  "chapterOrder": 3
+}

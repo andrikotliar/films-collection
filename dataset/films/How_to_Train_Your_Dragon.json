@@ -1,0 +1,16 @@
+{
+  "id": 66,
+  "title": "How to Train Your Dragon",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2010-03-26T00:00:00.000Z",
+  "duration": 98,
+  "poster": "posters/how_to_train_your_dragon_1.webp",
+  "youtubeTrailerId": "oKiYuIsPxYk",
+  "budget": 165000000,
+  "boxOffice": 496000000,
+  "rating": 3,
+  "description": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
+  "chapterKey": "how-to-train-your-dragon",
+  "chapterOrder": 1
+}

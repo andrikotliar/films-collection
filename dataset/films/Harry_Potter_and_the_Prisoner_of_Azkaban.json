@@ -1,0 +1,16 @@
+{
+  "id": 61,
+  "title": "Harry Potter and the Prisoner of Azkaban",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2004-06-04T00:00:00.000Z",
+  "duration": 142,
+  "poster": "posters/harry_potter_3.webp",
+  "youtubeTrailerId": "lAxgztbYDbs",
+  "budget": 130000000,
+  "boxOffice": 797000000,
+  "rating": 3,
+  "description": "It's Harry's third year at Hogwarts; not only does he have a new \"Defense Against the Dark Arts\" teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry.",
+  "chapterKey": "harry-potter",
+  "chapterOrder": 3
+}

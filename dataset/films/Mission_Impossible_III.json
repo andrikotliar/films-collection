@@ -1,0 +1,16 @@
+{
+  "id": 106,
+  "title": "Mission: Impossible III",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2006-05-05T00:00:00.000Z",
+  "duration": 125,
+  "poster": "posters/mi_3.webp",
+  "youtubeTrailerId": "rl2bysiyltg",
+  "budget": 150000000,
+  "boxOffice": 398000000,
+  "rating": 2,
+  "description": "IMF Agent Ethan Hunt comes into conflict with a dangerous and sadistic arms dealer who threatens his life and his fiancée in response.",
+  "chapterKey": "missin-impossible",
+  "chapterOrder": 3
+}

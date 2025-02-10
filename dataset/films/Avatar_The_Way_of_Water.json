@@ -1,0 +1,16 @@
+{
+  "id": 18,
+  "title": "Avatar: The Way of Water",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2022-12-16T00:00:00.000Z",
+  "duration": 192,
+  "poster": "posters/avatar_2.webp",
+  "youtubeTrailerId": "o5F8MOz_IDw",
+  "budget": 350000000,
+  "boxOffice": 1400000000,
+  "rating": 2,
+  "description": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
+  "chapterKey": "avatar",
+  "chapterOrder": 2
+}

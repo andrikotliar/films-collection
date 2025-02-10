@@ -1,0 +1,16 @@
+{
+  "id": 163,
+  "title": "The Avengers: Infinity War",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2018-04-27T00:00:00.000Z",
+  "duration": 149,
+  "poster": "posters/avengers_3.webp",
+  "youtubeTrailerId": "6ZfuNTqbHE8",
+  "budget": 316000000,
+  "boxOffice": 2052000000,
+  "rating": 2,
+  "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+  "chapterKey": "mcu",
+  "chapterOrder": 22
+}

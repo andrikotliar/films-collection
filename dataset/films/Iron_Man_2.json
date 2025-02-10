@@ -1,0 +1,16 @@
+{
+  "id": 83,
+  "title": "Iron Man 2",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2010-05-07T00:00:00.000Z",
+  "duration": 125,
+  "poster": "posters/iron_man_2.webp",
+  "youtubeTrailerId": "BoohRoVA9WQ",
+  "budget": 200000000,
+  "boxOffice": 624000000,
+  "rating": 1,
+  "description": "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.",
+  "chapterKey": "mcu",
+  "chapterOrder": 4
+}

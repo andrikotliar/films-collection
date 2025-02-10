@@ -1,0 +1,16 @@
+{
+  "id": 202,
+  "title": "The Mummy Returns",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2001-05-04T00:00:00.000Z",
+  "duration": 130,
+  "poster": "posters/mummy_2.webp",
+  "youtubeTrailerId": "3yXjs7BUKYc",
+  "budget": 98000000,
+  "boxOffice": 433000000,
+  "rating": 3,
+  "description": "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror.",
+  "chapterKey": "mummy",
+  "chapterOrder": 2
+}

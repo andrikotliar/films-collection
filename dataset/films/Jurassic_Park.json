@@ -1,0 +1,16 @@
+{
+  "id": 87,
+  "title": "Jurassic Park",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1993-06-11T00:00:00.000Z",
+  "duration": 127,
+  "poster": "posters/jurassic_park_1.webp",
+  "youtubeTrailerId": "QWBKEmWWL38",
+  "budget": 63000000,
+  "boxOffice": 1030000000,
+  "rating": 2,
+  "description": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
+  "chapterKey": "jurassic-park",
+  "chapterOrder": 1
+}

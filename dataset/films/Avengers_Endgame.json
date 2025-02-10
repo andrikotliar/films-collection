@@ -1,0 +1,16 @@
+{
+  "id": 19,
+  "title": "Avengers: Endgame",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2019-04-26T00:00:00.000Z",
+  "duration": 181,
+  "poster": "posters/avengers_4.webp",
+  "youtubeTrailerId": "TcMBFSGVi1c",
+  "budget": 356000000,
+  "boxOffice": 2730000000,
+  "rating": 3,
+  "description": "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to undo Thanos' actions and restore order to the universe.",
+  "chapterKey": "mcu",
+  "chapterOrder": 23
+}

@@ -1,0 +1,16 @@
+{
+  "id": 73,
+  "title": "Ice Age: Dawn of the Dinosaurs",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2009-07-01T00:00:00.000Z",
+  "duration": 94,
+  "poster": "posters/ice_age_3.webp",
+  "youtubeTrailerId": "Y_nSwh2WjAM",
+  "budget": 90000000,
+  "boxOffice": 886000000,
+  "rating": 1,
+  "description": "When Sid's attempt to adopt three dinosaur eggs gets him abducted by their real mother to an underground lost world, his friends attempt to rescue him.",
+  "chapterKey": "ice-age",
+  "chapterOrder": 3
+}

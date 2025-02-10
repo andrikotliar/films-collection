@@ -1,0 +1,14 @@
+{
+  "id": 225,
+  "title": "WandaVision",
+  "type": "SERIES",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2021-01-15T00:00:00.000Z",
+  "duration": 39,
+  "poster": "posters/wandavision.webp",
+  "youtubeTrailerId": "sj9J2ecsSpo",
+  "rating": 2,
+  "description": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 27
+}

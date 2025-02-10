@@ -1,0 +1,16 @@
+{
+  "id": 233,
+  "title": "X-Men: Days of Future Past",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2014-05-23T00:00:00.000Z",
+  "duration": 131,
+  "poster": "posters/x_men_6.webp",
+  "youtubeTrailerId": "pK2zYHWDZKo",
+  "budget": 200000000,
+  "boxOffice": 748000000,
+  "rating": 2,
+  "description": "The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.",
+  "chapterKey": "x-men",
+  "chapterOrder": 2
+}

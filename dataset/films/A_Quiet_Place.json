@@ -1,0 +1,16 @@
+{
+  "id": 7,
+  "title": "A Quiet Place",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2018-04-06T00:00:00.000Z",
+  "duration": 90,
+  "poster": "posters/quiet_place.webp",
+  "youtubeTrailerId": "WR7cc5t7tv8",
+  "budget": 17000000,
+  "boxOffice": 341000000,
+  "rating": 2,
+  "description": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing.",
+  "chapterKey": "quiet-place",
+  "chapterOrder": 1
+}

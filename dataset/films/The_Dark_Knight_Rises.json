@@ -1,0 +1,16 @@
+{
+  "id": 168,
+  "title": "The Dark Knight Rises",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2012-07-20T00:00:00.000Z",
+  "duration": 165,
+  "poster": "posters/batman_3.webp",
+  "youtubeTrailerId": "GokKUqLcvD8",
+  "budget": 250000000,
+  "boxOffice": 1000000000,
+  "rating": 1,
+  "description": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City, now on the edge of total annihilation, from the brutal guerrilla terrorist Bane.",
+  "chapterKey": "dark-knight",
+  "chapterOrder": 3
+}

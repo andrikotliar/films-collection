@@ -1,0 +1,16 @@
+{
+  "id": 51,
+  "title": "Guardians of the Galaxy",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2014-08-01T00:00:00.000Z",
+  "duration": 122,
+  "poster": "posters/guardians_of_the_galaxy.webp",
+  "youtubeTrailerId": "d96cjJhvlMA",
+  "budget": 196000000,
+  "boxOffice": 773000000,
+  "rating": 2,
+  "description": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.",
+  "chapterKey": "mcu",
+  "chapterOrder": 11
+}

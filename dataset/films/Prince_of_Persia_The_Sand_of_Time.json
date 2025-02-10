@@ -1,0 +1,16 @@
+{
+  "id": 120,
+  "title": "Prince of Persia: The Sand of Time",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2010-05-10T00:00:00.000Z",
+  "duration": 116,
+  "poster": "posters/prince_of_persia.webp",
+  "youtubeTrailerId": "bZ7Li5w2I-k",
+  "budget": 150000000,
+  "boxOffice": 336000000,
+  "rating": 2,
+  "description": "A young fugitive Prince and Princess must stop a villain who unknowingly threatens to destroy the world with a special dagger that enables the magic sand inside to reverse time.",
+  "chapterKey": null,
+  "chapterOrder": null
+}

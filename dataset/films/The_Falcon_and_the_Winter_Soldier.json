@@ -1,0 +1,14 @@
+{
+  "id": 171,
+  "title": "The Falcon and the Winter Soldier",
+  "type": "SERIES",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2021-03-19T00:00:00.000Z",
+  "duration": 50,
+  "poster": "posters/falcon_and_the_winter_soldier.webp",
+  "youtubeTrailerId": "IWBsDaFWyTE",
+  "rating": 1,
+  "description": null,
+  "chapterKey": "mcu",
+  "chapterOrder": 28
+}

@@ -1,0 +1,14 @@
+{
+  "id": 17,
+  "title": "Avatar: The Last Airbender",
+  "type": "SERIES",
+  "style": "ANIMATION",
+  "releaseDate": "2005-02-21T00:00:00.000Z",
+  "duration": 23,
+  "poster": "posters/atla.webp",
+  "youtubeTrailerId": "ahPeclU9VW0",
+  "rating": 3,
+  "description": null,
+  "chapterKey": "last-airbender",
+  "chapterOrder": 1
+}

@@ -1,0 +1,16 @@
+{
+  "id": 27,
+  "title": "Captain America: Civil War",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2016-05-06T00:00:00.000Z",
+  "duration": 147,
+  "poster": "posters/captain_america_3.webp",
+  "youtubeTrailerId": "dKrVegVI0Us",
+  "budget": 250000000,
+  "boxOffice": 1150000000,
+  "rating": 3,
+  "description": "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man.",
+  "chapterKey": "mcu",
+  "chapterOrder": 15
+}

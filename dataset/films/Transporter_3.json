@@ -1,0 +1,16 @@
+{
+  "id": 221,
+  "title": "Transporter 3",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2008-11-26T00:00:00.000Z",
+  "duration": 104,
+  "poster": "posters/transporter_3.webp",
+  "youtubeTrailerId": "Pbh3CDBNIQA",
+  "budget": 40000000,
+  "boxOffice": 109000000,
+  "rating": 1,
+  "description": "Frank Martin puts the driving gloves on to deliver Valentina, the kidnapped daughter of a Ukrainian government official, from Marseilles to Odessa on the Black Sea. En route, he has to contend with thugs who want to intercept Valentina's safe delivery and not let his personal feelings get in the way of his dangerous objective.",
+  "chapterKey": "transporter",
+  "chapterOrder": 3
+}

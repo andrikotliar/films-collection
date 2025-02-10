@@ -1,0 +1,16 @@
+{
+  "id": 198,
+  "title": "The Maze Runner: The Death Cure",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2018-01-26T00:00:00.000Z",
+  "duration": 143,
+  "poster": "posters/maze_runner_3.webp",
+  "youtubeTrailerId": "4-BTxXm8KSg",
+  "budget": 62000000,
+  "boxOffice": 288000000,
+  "rating": 2,
+  "description": "Young hero Thomas embarks on a mission to find a cure for a deadly disease known as \"The Flare\".",
+  "chapterKey": "maze-runner",
+  "chapterOrder": 3
+}

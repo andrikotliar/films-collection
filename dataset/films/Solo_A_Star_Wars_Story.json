@@ -1,0 +1,16 @@
+{
+  "id": 130,
+  "title": "Solo: A Star Wars Story",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2018-05-25T00:00:00.000Z",
+  "duration": 135,
+  "poster": "posters/solo.webp",
+  "youtubeTrailerId": "jPEYpryMp2s",
+  "budget": 375000000,
+  "boxOffice": 393000000,
+  "rating": 1,
+  "description": "During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion.",
+  "chapterKey": "star-wars",
+  "chapterOrder": 4
+}

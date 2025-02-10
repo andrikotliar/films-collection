@@ -1,0 +1,16 @@
+{
+  "id": 110,
+  "title": "Now You See Me",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2013-05-31T00:00:00.000Z",
+  "duration": 115,
+  "poster": "posters/now_you_see_me.webp",
+  "youtubeTrailerId": "KzJNYYkkhzc",
+  "budget": 75000000,
+  "boxOffice": 352000000,
+  "rating": 1,
+  "description": "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money.",
+  "chapterKey": null,
+  "chapterOrder": null
+}

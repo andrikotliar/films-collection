@@ -1,0 +1,16 @@
+{
+  "id": 205,
+  "title": "The Sorcerer's Apprentice",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2010-07-14T00:00:00.000Z",
+  "duration": 109,
+  "poster": "posters/sorcerers_apprentice.webp",
+  "youtubeTrailerId": "v2uV0_1C4UM",
+  "budget": 150000000,
+  "boxOffice": 215000000,
+  "rating": 1,
+  "description": "Master sorcerer Balthazar Blake must find and train Merlin's descendant to defeat dark sorceress Morgana la Fée.",
+  "chapterKey": null,
+  "chapterOrder": null
+}

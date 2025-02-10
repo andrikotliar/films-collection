@@ -1,0 +1,16 @@
+{
+  "id": 214,
+  "title": "Thor: Ragnarok",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2017-11-03T00:00:00.000Z",
+  "duration": 130,
+  "poster": "posters/thor_3.webp",
+  "youtubeTrailerId": "ue80QwXMRHg",
+  "budget": 180000000,
+  "boxOffice": 854000000,
+  "rating": 2,
+  "description": "Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarцk, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
+  "chapterKey": "mcu",
+  "chapterOrder": 20
+}

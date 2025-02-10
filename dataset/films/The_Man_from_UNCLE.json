@@ -1,0 +1,16 @@
+{
+  "id": 192,
+  "title": "The Man from U.N.C.L.E.",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2015-08-14T00:00:00.000Z",
+  "duration": 116,
+  "poster": "posters/the_man_from_uncle.webp",
+  "youtubeTrailerId": "CzYRlISYE8Y",
+  "budget": 75000000,
+  "boxOffice": 107000000,
+  "rating": 2,
+  "description": "In the early 1960s, CIA agent Napoleon Solo and KGB operative Illya Kuryakin participate in a joint mission against a mysterious criminal organization, which is working to proliferate nuclear weapons.",
+  "chapterKey": null,
+  "chapterOrder": null
+}

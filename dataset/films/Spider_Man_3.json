@@ -1,0 +1,16 @@
+{
+  "id": 135,
+  "title": "Spider-Man 3",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2007-05-04T00:00:00.000Z",
+  "duration": 139,
+  "poster": "posters/raimi_spider_man_3.webp",
+  "youtubeTrailerId": "wPosLpgMtTY",
+  "budget": 258000000,
+  "boxOffice": 895000000,
+  "rating": 1,
+  "description": "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge.",
+  "chapterKey": "spider-man",
+  "chapterOrder": 3
+}

@@ -1,0 +1,16 @@
+{
+  "id": 203,
+  "title": "The Mummy: Tomb of Dragon Emperor",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2008-08-01T00:00:00.000Z",
+  "duration": 112,
+  "poster": "posters/mummy_3.webp",
+  "youtubeTrailerId": "5-4qSE2Ch0Y",
+  "budget": 145000000,
+  "boxOffice": 401000000,
+  "rating": 1,
+  "description": "In the Far East, Alex O'Connell, the son of famed mummy fighters Rick and Evy O'Connell, unearths the mummy of the first Emperor of Qin -- a shape-shifting entity cursed by a witch centuries ago.",
+  "chapterKey": "mummy",
+  "chapterOrder": 3
+}

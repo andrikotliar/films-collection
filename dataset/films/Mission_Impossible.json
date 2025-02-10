@@ -1,0 +1,16 @@
+{
+  "id": 102,
+  "title": "Mission: Impossible",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1996-05-22T00:00:00.000Z",
+  "duration": 110,
+  "poster": "posters/mi_1.webp",
+  "youtubeTrailerId": "Ohws8y572KE",
+  "budget": 80000000,
+  "boxOffice": 458000000,
+  "rating": 2,
+  "description": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization.",
+  "chapterKey": "missin-impossible",
+  "chapterOrder": 1
+}

@@ -1,0 +1,16 @@
+{
+  "id": 105,
+  "title": "Mission: Impossible - Ghost Protocol",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2011-12-16T00:00:00.000Z",
+  "duration": 133,
+  "poster": "posters/mi_4.webp",
+  "youtubeTrailerId": "EDGYVFZxsXQ",
+  "budget": 145000000,
+  "boxOffice": 695000000,
+  "rating": 2,
+  "description": "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.",
+  "chapterKey": "missin-impossible",
+  "chapterOrder": 4
+}

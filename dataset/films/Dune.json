@@ -1,0 +1,16 @@
+{
+  "id": 37,
+  "title": "Dune",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2021-10-22T00:00:00.000Z",
+  "duration": 155,
+  "poster": "posters/dune.webp",
+  "youtubeTrailerId": "w0HgHet0sxg",
+  "budget": 165000000,
+  "boxOffice": 398000000,
+  "rating": 2,
+  "description": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
+  "chapterKey": null,
+  "chapterOrder": null
+}

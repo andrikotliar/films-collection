@@ -1,0 +1,16 @@
+{
+  "id": 188,
+  "title": "The Lord of the Rings: Return of the King",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2003-12-17T00:00:00.000Z",
+  "duration": 201,
+  "poster": "posters/middle_earth_6.webp",
+  "youtubeTrailerId": "y2rYRu8UW8M",
+  "budget": 94000000,
+  "boxOffice": 1120000000,
+  "rating": 3,
+  "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+  "chapterKey": "middle-earth",
+  "chapterOrder": 6
+}

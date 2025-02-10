@@ -1,0 +1,16 @@
+{
+  "id": 57,
+  "title": "Harry Potter and the Deathly Hallows: Part II",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2011-07-15T00:00:00.000Z",
+  "duration": 130,
+  "poster": "posters/harry_potter_8.webp",
+  "youtubeTrailerId": "5NYt1qirBWg",
+  "budget": 250000000,
+  "boxOffice": 1340000000,
+  "rating": 3,
+  "description": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
+  "chapterKey": "harry-potter",
+  "chapterOrder": 8
+}

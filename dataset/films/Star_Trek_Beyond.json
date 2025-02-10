@@ -1,0 +1,16 @@
+{
+  "id": 141,
+  "title": "Star Trek: Beyond",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2016-07-22T00:00:00.000Z",
+  "duration": 122,
+  "poster": "posters/star_trek_3.webp",
+  "youtubeTrailerId": "XRVD32rnzOw",
+  "budget": 185000000,
+  "boxOffice": 343000000,
+  "rating": 1,
+  "description": "The crew of the USS Enterprise explores the furthest reaches of uncharted space, where they encounter a new ruthless enemy, who puts them, and everything the Federation stands for, to the test.",
+  "chapterKey": "star-trek",
+  "chapterOrder": 3
+}

@@ -1,0 +1,16 @@
+{
+  "id": 56,
+  "title": "Harry Potter and the Deathly Hallows: Part I",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2010-11-19T00:00:00.000Z",
+  "duration": 146,
+  "poster": "posters/harry_potter_7.webp",
+  "youtubeTrailerId": "MxqsmsA8y5k",
+  "budget": 250000000,
+  "boxOffice": 960000000,
+  "rating": 3,
+  "description": "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows.",
+  "chapterKey": "harry-potter",
+  "chapterOrder": 7
+}

@@ -1,0 +1,16 @@
+{
+  "id": 115,
+  "title": "Pirates of the Caribbean: At World's End",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2007-05-25T00:00:00.000Z",
+  "duration": 168,
+  "poster": "posters/pirates_3.webp",
+  "youtubeTrailerId": "HKSZtp_OGHY",
+  "budget": 300000000,
+  "boxOffice": 963000000,
+  "rating": 2,
+  "description": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.",
+  "chapterKey": "pirates-of-the-caribbean",
+  "chapterOrder": 3
+}

@@ -1,0 +1,16 @@
+{
+  "id": 111,
+  "title": "Oblivion",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2013-04-19T00:00:00.000Z",
+  "duration": 124,
+  "poster": "posters/oblivion.webp",
+  "youtubeTrailerId": "XmIIgE7eSak",
+  "budget": 160000000,
+  "boxOffice": 286000000,
+  "rating": 1,
+  "description": "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.",
+  "chapterKey": null,
+  "chapterOrder": null
+}

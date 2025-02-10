@@ -1,0 +1,16 @@
+{
+  "id": 128,
+  "title": "Shrek",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2001-05-18T00:00:00.000Z",
+  "duration": 90,
+  "poster": "posters/shrek_1.webp",
+  "youtubeTrailerId": "CwXOrWvPBPk",
+  "budget": 60000000,
+  "boxOffice": 488000000,
+  "rating": 3,
+  "description": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.",
+  "chapterKey": "shrek",
+  "chapterOrder": 1
+}

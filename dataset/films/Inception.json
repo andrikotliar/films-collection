@@ -1,0 +1,16 @@
+{
+  "id": 76,
+  "title": "Inception",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2010-07-16T00:00:00.000Z",
+  "duration": 148,
+  "poster": "posters/inception.webp",
+  "youtubeTrailerId": "YoHD9XEInc0",
+  "budget": 160000000,
+  "boxOffice": 828000000,
+  "rating": 2,
+  "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+  "chapterKey": null,
+  "chapterOrder": null
+}

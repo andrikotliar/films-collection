@@ -1,0 +1,15 @@
+{
+  "id": 90,
+  "title": "Klaus",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2019-11-08T00:00:00.000Z",
+  "duration": 96,
+  "poster": "posters/klaus.webp",
+  "youtubeTrailerId": "taE3PwurhYM",
+  "budget": 40000000,
+  "rating": 3,
+  "description": "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions.",
+  "chapterKey": null,
+  "chapterOrder": null
+}

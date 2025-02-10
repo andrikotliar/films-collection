@@ -1,0 +1,16 @@
+{
+  "id": 232,
+  "title": "X-Men: Apocalypse",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2016-05-27T00:00:00.000Z",
+  "duration": 144,
+  "poster": "posters/x_men_7.webp",
+  "youtubeTrailerId": "Jer8XjMrUB4",
+  "budget": 178000000,
+  "boxOffice": 544000000,
+  "rating": 1,
+  "description": "In the 1980s the X-Men must defeat an ancient all-powerful mutant, En Sabah Nur, who intends to thrive through bringing destruction to the world.",
+  "chapterKey": "x-men",
+  "chapterOrder": 4
+}

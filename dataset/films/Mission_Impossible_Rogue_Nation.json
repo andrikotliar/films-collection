@@ -1,0 +1,16 @@
+{
+  "id": 107,
+  "title": "Mission: Impossible - Rogue Nation",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2015-07-31T00:00:00.000Z",
+  "duration": 131,
+  "poster": "posters/mi_5.webp",
+  "youtubeTrailerId": "gOW_azQbOjw",
+  "budget": 150000000,
+  "boxOffice": 683000000,
+  "rating": 2,
+  "description": "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF.",
+  "chapterKey": "missin-impossible",
+  "chapterOrder": 5
+}

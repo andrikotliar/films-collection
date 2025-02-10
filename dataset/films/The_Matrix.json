@@ -1,0 +1,16 @@
+{
+  "id": 4,
+  "title": "The Matrix",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1999-03-31T00:00:00.000Z",
+  "duration": 136,
+  "poster": "posters/matrix_1.webp",
+  "youtubeTrailerId": "m8e-FF8MsqU",
+  "budget": 63000000,
+  "boxOffice": 463000000,
+  "rating": 3,
+  "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+  "chapterKey": "matrix",
+  "chapterOrder": 1
+}
