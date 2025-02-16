@@ -1,6 +1,6 @@
 export type EnvVariables = {
   PORT: number;
-  MONGODB_URI: string;
+  DATABASE_URL: string;
   AUTH_SECRET: string;
   COOKIE_SECRET: string;
   HOST?: string;

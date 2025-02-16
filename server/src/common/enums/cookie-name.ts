@@ -1,4 +1,4 @@
-export enum CookieName {
-  ACCESS_TOKEN = 'accessToken',
-  REFRESH_TOKEN = 'refreshToken',
-}
+export const CookieName = {
+  FC_ACCESS_TOKEN: 'fc_access_token',
+  FC_REFRESH_TOKEN: 'fc_refresh_token',
+} as const;
