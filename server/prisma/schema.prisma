@@ -14,7 +14,7 @@ model Film {
   style            TitleStyle            @default(LIVE_ACTION)
   releaseDate      DateTime              @map("release_date") @db.Date
   duration         Int                   @default(0)
-  description      String?
+  description      String
   poster           String?
   youtubeTrailerId String?               @map("youtube_trailer_id")
   budget           BigInt                @default(0)

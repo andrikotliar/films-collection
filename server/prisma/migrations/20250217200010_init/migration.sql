@@ -18,7 +18,7 @@ CREATE TABLE "films" (
     "style" "title_style" NOT NULL DEFAULT 'LIVE_ACTION',
     "release_date" DATE NOT NULL,
     "duration" INTEGER NOT NULL DEFAULT 0,
-    "description" TEXT,
+    "description" TEXT NOT NULL,
     "poster" TEXT,
     "youtube_trailer_id" TEXT,
     "budget" BIGINT NOT NULL DEFAULT 0,
