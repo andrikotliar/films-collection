@@ -66,6 +66,7 @@ export class FilmsRepository {
         crew: {
           select: {
             position: true,
+            comment: true,
             person: {
               select: {
                 id: true,

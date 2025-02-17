@@ -2,6 +2,7 @@ import {
   Award,
   CrewPosition,
   FilmAwardNomination,
+  FilmCrew,
   Nomination,
   Person,
   Prisma,
@@ -44,6 +45,7 @@ export type FilmWithRelations = Prisma.FilmGetPayload<{
     crew: {
       select: {
         position: true;
+        comment: true;
         person: {
           select: {
             id: true;
@@ -101,10 +103,12 @@ export type FilmWithRelations = Prisma.FilmGetPayload<{
   };
 }>;
 
+type GropedCrewPerson = Pick<Person, 'id' | 'name'> & Pick<FilmCrew, 'comment'>;
+
 export type GroupedCrew = {
   [position in CrewPosition]: {
     position: CrewPosition;
-    people: Pick<Person, 'id' | 'name'>[];
+    people: GropedCrewPerson[];
   };
 };
 

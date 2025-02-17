@@ -151,7 +151,10 @@ export const FilmsMapper = {
         result[person.position] = { position: person.position, people: [] };
       }
 
-      result[person.position].people.push(person.person);
+      result[person.position].people.push({
+        ...person.person,
+        comment: person.comment,
+      });
 
       return result;
     }, {} as GroupedCrew);
