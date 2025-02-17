@@ -20,6 +20,7 @@ export type FilmWithRelations = Prisma.FilmGetPayload<{
     boxOffice: true;
     rating: true;
     chapterKey: true;
+    type: true;
     genres: {
       select: {
         genre: true;

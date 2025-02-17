@@ -42,6 +42,7 @@ export class FilmsRepository {
         boxOffice: true,
         rating: true,
         chapterKey: true,
+        type: true,
         genres: {
           select: {
             genre: true,
