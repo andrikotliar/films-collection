@@ -33,6 +33,7 @@ export class FilmsRepository {
       select: {
         id: true,
         title: true,
+        poster: true,
         releaseDate: true,
         description: true,
         duration: true,
@@ -83,6 +84,7 @@ export class FilmsRepository {
               select: {
                 id: true,
                 name: true,
+                image: true,
               },
             },
           },

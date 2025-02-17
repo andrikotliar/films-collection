@@ -50,6 +50,7 @@ export type FilmWithRelations = Prisma.FilmGetPayload<{
           select: {
             id: true;
             name: true;
+            image: true;
           };
         };
       };
