@@ -64,7 +64,7 @@ export const FilmsMapper = {
       filters.studios = {
         some: {
           studioId: {
-            in: genreIds,
+            in: studioIds,
           },
         },
       };
@@ -74,7 +74,7 @@ export const FilmsMapper = {
       filters.countries = {
         some: {
           countryId: {
-            in: genreIds,
+            in: countryIds,
           },
         },
       };
@@ -83,7 +83,7 @@ export const FilmsMapper = {
     if (collectionId) {
       filters.collections = {
         some: {
-          collectionId: collectionId,
+          collectionId,
         },
       };
     }
@@ -115,8 +115,6 @@ export const FilmsMapper = {
     }
 
     if (actorId) {
-      console.log(typeof actorId);
-
       filters.cast = {
         some: {
           personId: actorId,
