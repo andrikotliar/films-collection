@@ -33,7 +33,7 @@ export class PendingFilmsController {
     reply: FastifyReply,
   ) {
     const result = await this.pendingFilmsService.deletePendingFilm(
-      request.params.filmId,
+      request.params.id,
     );
     return reply.code(ResponseCode.OK).send(result);
   }
@@ -43,7 +43,7 @@ export class PendingFilmsController {
     reply: FastifyReply,
   ) {
     const result = await this.pendingFilmsService.updatePendingFilm(
-      request.params.filmId,
+      request.params.id,
       request.body,
     );
 

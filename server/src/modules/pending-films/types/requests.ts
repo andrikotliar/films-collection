@@ -12,13 +12,13 @@ export type GetPendingFilmRequest = FastifyRequest<{
 
 export type DeletePendingFilmRequest = FastifyRequest<{
   Params: {
-    filmId: number;
+    id: number;
   };
 }>;
 
 export type UpdatePendingFilmRequest = FastifyRequest<{
   Body: UpdatePendingFilmInput;
   Params: {
-    filmId: number;
+    id: number;
   };
 }>;

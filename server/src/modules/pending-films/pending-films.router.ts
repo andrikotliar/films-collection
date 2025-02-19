@@ -1,8 +1,8 @@
-import { FastifyInstance } from 'fastify';
 import { RouterCreator } from 'src/common';
 import { PendingFilmsController } from 'src/modules/pending-films/pending-films.controller';
 import {
   pendingFilmsCreateSchema,
+  pendingFilmsDeleteSchema,
   pendingFilmsGetListSchema,
   pendingFilmsUpdateSchema,
 } from 'src/modules/pending-films/schemas';
@@ -29,7 +29,7 @@ export const createPendingFilmsRouter: RouterCreator<PendingFilmsController> = (
 
     pendingFilmsModule.route({
       method: 'PATCH',
-      url: '/:filmId',
+      url: '/:id',
       preHandler: [pendingFilmsModule.authenticate],
       schema: pendingFilmsUpdateSchema,
       handler: controller.updatePendingFilm.bind(controller),
@@ -37,8 +37,9 @@ export const createPendingFilmsRouter: RouterCreator<PendingFilmsController> = (
 
     pendingFilmsModule.route({
       method: 'DELETE',
-      url: '/:filmId',
+      url: '/:id',
       preHandler: [pendingFilmsModule.authenticate],
+      schema: pendingFilmsDeleteSchema,
       handler: controller.deletePendingFilm.bind(controller),
     });
   };
