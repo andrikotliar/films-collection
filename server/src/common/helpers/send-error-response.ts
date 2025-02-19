@@ -13,10 +13,13 @@ export const sendErrorResponse = (
   reply: FastifyReply,
   payload: ErrorPayload,
 ) => {
+  const { status, ...errorPayload } = payload;
+
   const statusCode = ResponseCode[payload.status];
 
   return reply.status(statusCode).send({
-    ...payload,
+    ...errorPayload,
     error: STATUS_CODES[statusCode] ?? 'Bad Request',
+    statusCode,
   });
 };

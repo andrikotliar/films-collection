@@ -15,7 +15,7 @@ const authDecorator = async (app: FastifyInstance) => {
           return sendErrorResponse(reply, {
             status: 'UNAUTHENTICATED',
             code: 'TOKEN_MISSED',
-            message: 'Unauthenticated',
+            message: 'Malformed credentials',
           });
         }
 
