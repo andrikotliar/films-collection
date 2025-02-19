@@ -16,10 +16,10 @@ export const pendingFilmsGetListSchema: FastifySchema = {
       skip: {
         type: 'number',
       },
-      sortingField: {
+      orderKey: {
         type: 'string',
       },
-      sortingDirection: {
+      order: {
         type: 'string',
         enum: ['asc', 'desc'],
       },
