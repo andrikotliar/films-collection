@@ -1,5 +1,5 @@
-export * from './actor';
-export * from './films';
+export * from './person';
+export * from './film';
 export * from './filter';
 export * from './nav-link';
 export * from './menu-config-item';
@@ -10,6 +10,6 @@ export * from './auth';
 export * from './pending-film';
 export * from './list-option';
 export * from './api-endpoint';
-export * from './sorting-direction';
+export * from './sorting-order';
 export * from './login-payload';
 export * from './status-color';

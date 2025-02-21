@@ -1,10 +1,10 @@
 import { FC, useMemo } from 'react';
 import { Link } from '@tanstack/react-router';
 import { FilmAward } from '@/types';
-import { buildMediaPath, buildQueryLink } from '@/helpers';
-import { DataArea, DataGrid, Image, ScrollableWrapper } from '@/components';
+import { DataArea, Image, ScrollableWrapper } from '@/components';
 import { Nomination } from './components';
 import styles from './Awards.module.css';
+import classNames from 'classnames';
 
 type AwardsProps = {
   awards: FilmAward[];
@@ -16,38 +16,42 @@ export const Awards: FC<AwardsProps> = ({ awards }) => {
   }, [awards]);
 
   return (
-    <DataGrid>
+    <div>
       {sortedAwards.map(({ award, nominations }) => (
-        <DataArea className={styles.award} key={award._id}>
-          <div className={styles.header}>
-            <Image
-              src={buildMediaPath(award.image)}
-              alt={award.title}
-              className={styles.awardImage}
-            />
-            <div className={styles.main}>
-              <h3 className={styles.title}>
-                <Link to={buildQueryLink({ awards: award._id })}>
-                  {award.title}
-                </Link>
-              </h3>
-              <p>
-                {nominations.length} nomination{nominations.length > 1 && 's'}
-              </p>
+        <div key={award.id} className={styles.row}>
+          <div className={classNames(styles.cell, styles.awardCell)}>
+            <div className={styles.header}>
+              <Image
+                src={award.image}
+                alt={award.title}
+                className={styles.awardImage}
+                external
+              />
+              <div className={styles.main}>
+                <h3 className={styles.title}>
+                  <Link to="/" search={{ awardId: String(award.id) }}>
+                    {award.title}
+                  </Link>
+                </h3>
+                <p>
+                  {nominations.length} nomination
+                  {nominations.length > 1 && 's'}
+                </p>
+              </div>
             </div>
           </div>
-          <ScrollableWrapper className={styles.nominations}>
-            {nominations.map(({ title, actor, comment }, index) => (
+          <div className={classNames(styles.cell, styles.nominations)}>
+            {nominations.map(({ title, person, comment }, index) => (
               <Nomination
                 title={title}
                 key={index}
-                nominee={actor}
+                nominee={person}
                 comment={comment}
               />
             ))}
-          </ScrollableWrapper>
-        </DataArea>
+          </div>
+        </div>
       ))}
-    </DataGrid>
+    </div>
   );
 };

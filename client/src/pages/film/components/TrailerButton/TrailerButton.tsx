@@ -4,11 +4,10 @@ import { TrailersModal } from './components';
 import styles from './TrailerButton.module.css';
 
 type TrailerButtonProps = {
-  trailers: string[];
-  title?: string;
+  trailerId: string;
 };
 
-export const TrailerButton: FC<TrailerButtonProps> = ({ trailers }) => {
+export const TrailerButton: FC<TrailerButtonProps> = ({ trailerId }) => {
   const [isTrailerOpen, setIsTrailerOpen] = useState(false);
 
   const handleCloseTrailer = () => {
@@ -22,14 +21,13 @@ export const TrailerButton: FC<TrailerButtonProps> = ({ trailers }) => {
         className={styles.playButton}
         title="Play trailer"
       >
-        <div className={styles.iconWrapper}>
-          <PlayIcon size={18} className={styles.playIcon} />
-        </div>
+        <PlayIcon size={16} />
+        <span>Play trailer</span>
       </button>
       <TrailersModal
         isOpen={isTrailerOpen}
         onClose={handleCloseTrailer}
-        trailers={trailers}
+        trailerId={trailerId}
       />
     </>
   );

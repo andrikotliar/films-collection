@@ -1,3 +1,4 @@
+import { env } from '@/configs';
 import { LocalStorageKey } from '@/enums';
 import { ApiEndpoint } from '@/types';
 import { redirect } from '@tanstack/react-router';
@@ -198,7 +199,7 @@ export class ApiClient {
 }
 
 export const apiClient = new ApiClient({
-  baseUrl: import.meta.env.VITE_SERVER_URL,
+  baseUrl: env.apiBaseUrl,
 });
 
 apiClient.setErrorInterceptor(async (error, originalRequestParams) => {

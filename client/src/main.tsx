@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client';
 import { createRouter, RouterProvider } from '@tanstack/react-router';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { routeTree } from './routeTree.gen';
-import { Loader, NotFound } from './components';
+import { ErrorFallback, Loader, NotFound } from './components';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -18,6 +18,9 @@ const router = createRouter({
   routeTree,
   defaultPendingComponent: () => <Loader isFullPage />,
   defaultNotFoundComponent: () => <NotFound />,
+  defaultErrorComponent: ({ error }) => {
+    return <ErrorFallback message={error.message} />;
+  },
   context: { queryClient },
 });
 

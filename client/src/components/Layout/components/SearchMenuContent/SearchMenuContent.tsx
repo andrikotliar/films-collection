@@ -25,7 +25,7 @@ export const SearchMenuContent: FC<
     <div className={styles.menu}>
       <div className={styles.content}>
         {films.map((film) => (
-          <FoundFilm key={film._id} film={film} onFilmOpen={onFilmOpen} />
+          <FoundFilm key={film.id} film={film} onFilmOpen={onFilmOpen} />
         ))}
       </div>
     </div>

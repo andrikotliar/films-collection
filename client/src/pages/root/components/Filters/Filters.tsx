@@ -17,12 +17,12 @@ type FiltersProps = {
 const defaultValues: FilmsListFilters = {
   type: null,
   style: null,
-  collection: null,
-  genres: null,
+  collectionId: null,
+  genreIds: null,
   startDate: null,
   endDate: null,
-  countries: null,
-  studios: null,
+  countryIds: null,
+  studioIds: null,
 };
 
 const routeApi = getRouteApi('/');

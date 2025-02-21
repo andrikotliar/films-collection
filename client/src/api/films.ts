@@ -1,7 +1,6 @@
 import { apiClient } from '@/services';
 import {
-  FilmAnniversary,
-  FilmData,
+  FilmDetails,
   FilmSearchResult,
   FilmsListFilters,
   FilmsListResponse,
@@ -13,13 +12,9 @@ export const FilmsApi = {
   },
 
   getFilm(id: string) {
-    return apiClient.get<FilmData>('/films/:filmId', {
+    return apiClient.get<FilmDetails>('/films/:filmId', {
       params: { filmId: id },
     });
-  },
-
-  getAnniversaries() {
-    return apiClient.get<FilmAnniversary[]>('/films/anniversaries');
   },
 
   search(searchString: string | null) {

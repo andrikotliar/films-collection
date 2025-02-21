@@ -5,3 +5,4 @@ export * from './sorting-direction-options';
 export * from './priority-options';
 export * from './priority-to-color';
 export * from './logo-decoration-config';
+export * from './env';

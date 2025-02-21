@@ -1,1 +1,1 @@
-export * from './get-default-sorting-field-label';
+export * from './get-default-label';

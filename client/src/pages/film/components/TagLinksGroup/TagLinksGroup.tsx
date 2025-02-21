@@ -5,7 +5,7 @@ import { LinksGroupWrapper } from '../LinksGroupWrapper/LinksGroupWrapper';
 
 type TagLinksGroupProps = {
   basePath: string;
-  items: (string | number)[];
+  items: { id: number; title: string }[];
   variant?: TagLinkProps['variant'];
 };
 
@@ -19,12 +19,12 @@ export const TagLinksGroup: FC<TagLinksGroupProps> = ({
       {items.map((item) => (
         <TagLink
           path={buildQueryLink({
-            [basePath]: [item],
+            [basePath]: [item.id],
           })}
-          key={item}
+          key={item.id}
           variant={variant}
         >
-          {item}
+          {item.title}
         </TagLink>
       ))}
     </LinksGroupWrapper>

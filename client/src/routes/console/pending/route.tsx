@@ -7,8 +7,8 @@ const pendingFilmsFilterSchema = object().shape({
   q: string(),
   priority: number().min(1).max(3),
   pageIndex: number().min(0),
-  sortingField: string(),
-  sortingDirection: string().oneOf(['asc', 'desc']),
+  orderKey: string(),
+  order: string().oneOf(['asc', 'desc']),
 });
 
 export const Route = createFileRoute('/console/pending')({

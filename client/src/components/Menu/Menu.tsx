@@ -7,9 +7,14 @@ import classNames from 'classnames';
 type MenuProps = {
   config: MenuConfigItem[];
   className?: string;
+  standalone?: boolean;
 };
 
-export const Menu: FC<MenuProps> = ({ config, className }) => {
+export const Menu: FC<MenuProps> = ({
+  config,
+  className,
+  standalone = false,
+}) => {
   const location = useLocation();
 
   const checkActiveState = (currentLink: string) => {
@@ -24,6 +29,7 @@ export const Menu: FC<MenuProps> = ({ config, className }) => {
           to={configItem.route}
           className={classNames(styles.link, {
             [styles.activeLink]: checkActiveState(configItem.route),
+            [styles.standaloneMenu]: standalone,
           })}
         >
           {configItem.icon} <span>{configItem.title}</span>

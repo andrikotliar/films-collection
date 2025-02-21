@@ -22,3 +22,4 @@ export * from './Status/Status';
 export * from './SortingPopup/SortingPopup';
 export * from './StatusFilterButton';
 export * from './FieldLabel/FieldLabel';
+export * from './ErrorFallback/ErrorFallback';

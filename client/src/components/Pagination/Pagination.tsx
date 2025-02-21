@@ -1,7 +1,6 @@
 import styles from './Pagination.module.css';
 import { FC } from 'react';
 import classNames from 'classnames';
-import { PER_PAGE } from '@/constants';
 
 export type PaginationProps = {
   currentPageIndex?: number;

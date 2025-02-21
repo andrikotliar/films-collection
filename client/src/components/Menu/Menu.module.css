@@ -23,3 +23,7 @@
   background-color: var(--blue-default);
   pointer-events: none;
 }
+
+.standalone:last-child {
+  border-bottom: 0;
+}

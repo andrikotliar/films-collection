@@ -11,7 +11,7 @@ export const FilmsGrid: FC<FilmsGridProps> = ({ films }) => {
   return (
     <div className={styles.grid}>
       {films.map((film) => (
-        <FilmLink data={film} key={film._id} />
+        <FilmLink data={film} key={film.id} />
       ))}
     </div>
   );

@@ -1,12 +1,12 @@
 import { FC } from 'react';
-import { FilmData } from '@/types';
+import { Chapter } from '@/types';
 import { ScrollableWrapper } from '@/components';
 import { FilmLink } from './components';
 import styles from './Chapters.module.css';
 
 type ChaptersFilmsProps = {
-  data: FilmData['chapters'];
-  filmId: string;
+  data: Chapter[];
+  filmId: number;
 };
 
 export const Chapters: FC<ChaptersFilmsProps> = ({ data, filmId }) => {
@@ -14,10 +14,10 @@ export const Chapters: FC<ChaptersFilmsProps> = ({ data, filmId }) => {
     <ScrollableWrapper className={styles.chapters}>
       {data.map((film, index) => (
         <FilmLink
-          key={film._id}
+          key={film.id}
           chapter={index + 1}
-          isActive={film._id === filmId}
-          id={film._id}
+          isActive={film.id === filmId}
+          id={film.id}
           poster={film.poster}
           title={film.title}
         />

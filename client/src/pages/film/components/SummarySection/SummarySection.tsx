@@ -1,11 +1,11 @@
-import { FilmData } from '@/types';
+import { FilmDetails } from '@/types';
 import { FC, useMemo } from 'react';
 import styles from './SummarySection.module.css';
 import { Poster, Summary } from './components';
 import { getFilmSummaryConfig } from '../../helpers';
 
 type SummarySectionProps = {
-  film: FilmData;
+  film: FilmDetails;
 };
 
 export const SummarySection: FC<SummarySectionProps> = ({ film }) => {

@@ -1,13 +1,12 @@
 import { FC } from 'react';
 import { Link } from '@tanstack/react-router';
-import { buildMediaPath } from '@/helpers';
 
 import styles from './FilmLink.module.css';
 import classNames from 'classnames';
 import { Image } from '@/components';
 
 type FilmLinkProps = {
-  id: string;
+  id: number;
   poster: string;
   title: string;
   chapter: number | null;
@@ -21,19 +20,16 @@ export const FilmLink: FC<FilmLinkProps> = ({
   chapter,
   isActive,
 }) => {
-  const posterUrl = buildMediaPath(poster);
-
   return (
     <Link
       to="/film/$filmId"
-      params={{ filmId: id }}
+      params={{ filmId: String(id) }}
       className={classNames(styles.filmLink, {
         [styles.activeFilmLink]: isActive,
       })}
-      id={id}
       title={title}
     >
-      <Image src={posterUrl} alt={title} />
+      <Image src={poster} alt={title} external />
       {chapter && <span className={styles.chapterNumber}>{chapter}</span>}
     </Link>
   );

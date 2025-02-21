@@ -12,23 +12,3 @@
   width: 100%;
   height: 100%;
 }
-
-.fullSizeVideo iframe {
-  aspect-ratio: 16 / 9;
-}
-
-@media (max-width: 780px) {
-  .video iframe {
-    aspect-ratio: 16 / 9;
-  }
-
-  .video:not(.fullSizeVideo) {
-    border-radius: 4px 4px 0 0;
-  }
-}
-
-@media (max-width: 580px) {
-  .video {
-    border-radius: 0;
-  }
-}

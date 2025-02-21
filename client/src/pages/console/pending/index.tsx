@@ -32,7 +32,7 @@ export const ConsolePendingFilmsPage = () => {
   const [editModalContent, setEditModalContent] = useState<PendingFilm | null>(
     null,
   );
-  const [deleteFilmId, setDeleteFilmId] = useState<string | null>(null);
+  const [deleteFilmId, setDeleteFilmId] = useState<number | null>(null);
 
   const searchParams = routeApi.useSearch();
   const navigate = routeApi.useNavigate();
@@ -81,7 +81,7 @@ export const ConsolePendingFilmsPage = () => {
     });
   };
 
-  const handleDeletePendingFilm = (id: string | null) => {
+  const handleDeletePendingFilm = (id: number | null) => {
     if (id) {
       deletePendingFilm(id);
     }
@@ -101,9 +101,9 @@ export const ConsolePendingFilmsPage = () => {
       <ListWrapper>
         {data.list.map((film) => (
           <PendingFilmRow
-            key={film._id}
+            key={film.id}
             data={film}
-            onDelete={() => setDeleteFilmId(film._id)}
+            onDelete={() => setDeleteFilmId(film.id)}
             onEdit={() => setEditModalContent(film)}
             isDeleteInProgress={isDeleteInProgress}
           />

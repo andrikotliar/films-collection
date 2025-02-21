@@ -1,4 +1,4 @@
-import { FilmData } from '@/types';
+import { FilmDetails } from '@/types';
 import {
   buildQueryLink,
   getFormattedMoneyValue,
@@ -7,24 +7,23 @@ import {
 import {
   LinksGroupWrapper,
   ReleaseDate,
-  SeasonsRow,
   TagLink,
   TagLinksGroup,
 } from '../components';
 import { SummaryConfig } from '../types';
 import { checkHasBoxOfficeBenefit } from './check-box-office-has-benefit';
 
-export const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
+export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
   const isBoxOfficeSuccessful = checkHasBoxOfficeBenefit(
-    film.budget ?? 0,
-    film.boxOffice ?? 0,
+    film.budget ? Number(film.budget) : 0,
+    film.boxOffice ? Number(film.boxOffice) : 0,
   );
 
   const values: SummaryConfig[] = [
     {
       id: 'genres',
       title: 'Genres',
-      content: <TagLinksGroup items={film.genres} basePath="genres" />,
+      content: <TagLinksGroup items={film.genres} basePath="genreIds" />,
     },
     {
       id: 'releaseDate',
@@ -48,7 +47,7 @@ export const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
       title: 'Origin countries',
       content: (
         <TagLinksGroup
-          basePath="countries"
+          basePath="countryIds"
           items={film.countries}
           variant="gray"
         />
@@ -59,7 +58,11 @@ export const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
       id: 'studios',
       title: 'Production studios',
       content: (
-        <TagLinksGroup basePath="studios" items={film.studios} variant="gray" />
+        <TagLinksGroup
+          basePath="studioIds"
+          items={film.studios}
+          variant="gray"
+        />
       ),
       isHidden: film.studios.length === 0,
     },
@@ -71,12 +74,12 @@ export const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
           {film.collections.map((item) => (
             <TagLink
               path={buildQueryLink({
-                collection: item.collection._id,
+                collectionId: item.id,
               })}
-              key={item.collection._id}
+              key={item.id}
               variant="pink"
             >
-              {item.collection.title}
+              {item.title}
             </TagLink>
           ))}
         </LinksGroupWrapper>
@@ -129,11 +132,11 @@ export const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
           <TagLink
             variant="mint"
             path={buildQueryLink({
-              seasonsTotal: film.seriesExtension?.seasons.length ?? 1,
+              seasonsTotal: film.seriesExtension?.seasonsTotal ?? 1,
             })}
           >
-            {film.seriesExtension?.seasons.length}{' '}
-            {getPluralWord('season', film.seriesExtension?.seasons.length)}
+            {film.seriesExtension?.seasonsTotal}{' '}
+            {getPluralWord('season', film.seriesExtension?.seasonsTotal)}
           </TagLink>
           <TagLink
             variant="mint"
@@ -145,12 +148,6 @@ export const getFilmSummaryConfig = (film: FilmData): SummaryConfig[] => {
           </TagLink>
         </LinksGroupWrapper>
       ),
-      isHidden: film.type !== 'SERIES',
-    },
-    {
-      id: 'seasonsDetails',
-      title: 'Seasons Details',
-      content: <SeasonsRow seasons={film.seriesExtension?.seasons ?? []} />,
       isHidden: film.type !== 'SERIES',
     },
   ];

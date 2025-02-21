@@ -1,6 +1,6 @@
 export type Collection = {
-  _id: string;
+  id: number;
   type: string;
   title: string;
-  description: string;
+  description: string | null;
 };

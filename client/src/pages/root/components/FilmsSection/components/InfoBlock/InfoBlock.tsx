@@ -2,13 +2,14 @@ import { FC } from 'react';
 import styles from './InfoBlock.module.css';
 import { XCircleIcon } from 'lucide-react';
 import { useNavigate } from '@tanstack/react-router';
+import { Image } from '@/components';
 
 type InfoBlockProps = {
-  imagePath?: string;
+  imagePath?: string | null;
   imageAlt?: string;
   label: string;
   title: string;
-  description?: string;
+  description?: string | null;
 };
 
 export const InfoBlock: FC<InfoBlockProps> = ({
@@ -27,7 +28,12 @@ export const InfoBlock: FC<InfoBlockProps> = ({
   return (
     <div className={styles.infoBlock}>
       {imagePath && (
-        <img src={imagePath} alt={imageAlt} className={styles.image} />
+        <Image
+          src={imagePath}
+          alt={imageAlt}
+          className={styles.image}
+          external
+        />
       )}
       <div className={styles.data}>
         <div className={styles.label}>{label}</div>

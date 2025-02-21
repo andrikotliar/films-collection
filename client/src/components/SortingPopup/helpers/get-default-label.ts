@@ -1,6 +1,6 @@
 import { ListOption } from '@/types';
 
-export const getDefaultSortingFieldLabel = (
+export const getDefaultLabel = (
   fields: ListOption[],
   selectedSortingField?: string,
 ) => {

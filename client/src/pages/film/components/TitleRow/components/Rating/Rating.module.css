@@ -1,12 +1,16 @@
-.statisticItem {
+.rating {
   color: white;
   display: flex;
   align-items: center;
   gap: 10px;
-  background-color: var(--stat-item-color);
+  background-color: var(--yellow-saturated);
   padding: 5px 15px;
   border-radius: 50px;
   flex-shrink: 0;
+}
+
+.highestRating {
+  background-color: var(--green-success);
 }
 
 .icon {
@@ -20,6 +24,5 @@
 }
 
 .value {
-  font-size: 12px;
   font-weight: bold;
 }

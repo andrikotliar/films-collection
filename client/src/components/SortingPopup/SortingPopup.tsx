@@ -1,21 +1,21 @@
-import styles from './SortingPopup.module.css';
 import { FC, FormEvent, useRef, useState } from 'react';
 import { PopupMenu } from '../PopupMenu/PopupMenu';
-import { ListOption, SortingDirection } from '@/types';
+import { ListOption, SortingOrder } from '@/types';
 import { SortingButton } from './components';
 import { sortingDirectionOptions } from '@/configs';
 import { BadgeCheckbox } from '../BadgeCheckbox/BadgeCheckbox';
-import { getDefaultSortingFieldLabel } from './helpers';
+import { getDefaultLabel } from './helpers';
+import styles from './SortingPopup.module.css';
 
 export type SortingParams = {
-  sortingField: string;
-  sortingDirection: SortingDirection;
+  orderKey: string;
+  order: SortingOrder;
 };
 
 type SortingPopupProps = {
   fields: ListOption[];
-  defaultSortingField?: string;
-  defaultSortingDirection?: SortingDirection;
+  defaultOrderKey?: string;
+  defaultOrder?: SortingOrder;
   onSorting: (params: SortingParams) => void;
   buttonSize?: 'small' | 'large';
 };
@@ -23,8 +23,8 @@ type SortingPopupProps = {
 export const SortingPopup: FC<SortingPopupProps> = ({
   fields,
   onSorting,
-  defaultSortingField = 'createdAt',
-  defaultSortingDirection = 'desc',
+  defaultOrderKey = 'createdAt',
+  defaultOrder = 'desc',
   buttonSize = 'small',
 }) => {
   const sortingPopupButton = useRef<HTMLButtonElement>(null);
@@ -32,11 +32,8 @@ export const SortingPopup: FC<SortingPopupProps> = ({
 
   const [selectedData, setSelectedData] = useState(() => {
     return {
-      sortingFieldLabel: getDefaultSortingFieldLabel(
-        fields,
-        defaultSortingField,
-      ),
-      sortingDirection: defaultSortingDirection,
+      label: getDefaultLabel(fields, defaultOrderKey),
+      order: defaultOrder,
     };
   });
 
@@ -54,23 +51,13 @@ export const SortingPopup: FC<SortingPopupProps> = ({
     const form = event.target as HTMLFormElement;
     const formData = new FormData(form);
 
-    const rawSortingFieldOption = formData.get('sortingField') as string;
+    const rawSortingFieldOption = formData.get('orderKey') as string;
+    const order = formData.get('order') as SortingOrder;
 
-    const [sortingFieldLabel, sortingField] = rawSortingFieldOption.split(':');
+    const [label, orderKey] = rawSortingFieldOption.split(':');
 
-    const sortingDirection = formData.get(
-      'sortingDirection',
-    ) as SortingDirection;
-
-    setSelectedData({
-      sortingFieldLabel,
-      sortingDirection,
-    });
-
-    onSorting({
-      sortingField,
-      sortingDirection,
-    });
+    setSelectedData({ label, order });
+    onSorting({ orderKey, order });
 
     handleClose();
   };
@@ -81,9 +68,9 @@ export const SortingPopup: FC<SortingPopupProps> = ({
         onClick={handleToggle}
         ref={sortingPopupButton}
         size={buttonSize}
-        sortingDirection={selectedData.sortingDirection}
+        order={selectedData.order}
       >
-        {isOpen ? 'Select sorting' : selectedData.sortingFieldLabel}
+        {isOpen ? 'Select sorting' : selectedData.label}
       </SortingButton>
       <PopupMenu
         isOpen={isOpen}
@@ -99,8 +86,8 @@ export const SortingPopup: FC<SortingPopupProps> = ({
               <BadgeCheckbox
                 type="radio"
                 value={`${field.label}:${field.value}`}
-                name="sortingField"
-                defaultChecked={field.value === defaultSortingField}
+                name="orderKey"
+                defaultChecked={field.value === defaultOrderKey}
                 label={field.label}
                 key={field.value}
               />
@@ -112,8 +99,8 @@ export const SortingPopup: FC<SortingPopupProps> = ({
               <BadgeCheckbox
                 type="radio"
                 value={direction.value}
-                name="sortingDirection"
-                defaultChecked={direction.value === defaultSortingDirection}
+                name="order"
+                defaultChecked={direction.value === defaultOrder}
                 label={direction.label}
                 key={direction.value}
               />

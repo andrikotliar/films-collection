@@ -7,7 +7,7 @@ export type LogoDecorationItem = {
     from: LogoDecorationDate;
     to: LogoDecorationDate;
   };
-  collectionId: string;
+  collectionId: number;
 };
 
 export const logoDecorationConfig: LogoDecorationItem[] = [

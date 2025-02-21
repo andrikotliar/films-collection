@@ -1,2 +1,2 @@
 export * from './Title/Title';
-export * from './StatisticItem/StatisticItem';
+export * from './Rating/Rating';

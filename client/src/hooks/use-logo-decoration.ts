@@ -1,11 +1,10 @@
 import { useMemo } from 'react';
 import { logoDecorationConfig, LogoDecorationDate } from '@/configs';
-import { buildMediaPath } from '@/helpers';
 
 type DecorationEvent = {
   image: string;
   title: string;
-  collectionId: string;
+  collectionId: number;
 };
 
 const convertDateToNumber = ([month, day]: LogoDecorationDate) => {
@@ -50,7 +49,7 @@ export const useLogoDecoration = () => {
 
       if (isDateBetween) {
         decorationEvent = {
-          image: buildMediaPath(event.image),
+          image: event.image,
           title: event.title,
           collectionId: event.collectionId,
         };

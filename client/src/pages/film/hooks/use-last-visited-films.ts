@@ -1,35 +1,30 @@
 import { LocalStorageKey } from '@/enums';
-import { FilmData, FilmLinkItem } from '@/types';
 import { useEffect } from 'react';
 
-export const useLastVisitedFilms = (film?: FilmData | null) => {
+export const useLastVisitedFilms = (filmId: number | null) => {
   useEffect(() => {
-    if (!film) {
-      return;
-    }
+    if (filmId) {
+      const lastVisitedFilms = localStorage.getItem(
+        LocalStorageKey.LAST_VISITED_FILMS,
+      );
 
-    const lastVisitedFilms = localStorage.getItem(
-      LocalStorageKey.LAST_VISITED_FILMS,
-    );
+      if (!lastVisitedFilms) {
+        localStorage.setItem(
+          LocalStorageKey.LAST_VISITED_FILMS,
+          JSON.stringify([filmId]),
+        );
+        return;
+      }
 
-    if (!lastVisitedFilms) {
+      const filmIds: number[] = JSON.parse(lastVisitedFilms);
+
+      const filteredFilms = filmIds.filter((id) => id !== filmId);
+      const slicedFilms = filteredFilms.slice(0, 9);
+
       localStorage.setItem(
         LocalStorageKey.LAST_VISITED_FILMS,
-        JSON.stringify([{ _id: film._id, title: film.title }]),
+        JSON.stringify([filmId, ...slicedFilms]),
       );
-      return;
     }
-
-    const films: FilmLinkItem[] = JSON.parse(lastVisitedFilms);
-
-    const filteredFilms = films.filter(
-      (localFilm) => localFilm._id !== film._id,
-    );
-    const slicedFilms = filteredFilms.slice(0, 9);
-
-    localStorage.setItem(
-      LocalStorageKey.LAST_VISITED_FILMS,
-      JSON.stringify([{ _id: film._id, title: film.title }, ...slicedFilms]),
-    );
-  }, [film]);
+  }, [filmId]);
 };

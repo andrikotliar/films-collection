@@ -1,7 +1,11 @@
-export type AwardData = {
-  _id: string;
+export type Award = {
+  id: number;
   title: string;
   image: string;
   description: string;
-  nominations: string[];
+};
+
+export type Nomination = {
+  id: number;
+  title: string;
 };
