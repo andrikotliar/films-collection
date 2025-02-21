@@ -68,11 +68,8 @@ export const filmsGetListSchema: FastifySchema = {
       actorId: {
         type: 'number',
       },
-      awardIds: {
-        type: 'array',
-        items: {
-          type: 'number',
-        },
+      awardId: {
+        type: 'number',
       },
       boxOffice: {
         type: 'number',

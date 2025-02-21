@@ -68,13 +68,8 @@ export class FilmsService {
   }
 
   private async populateAdditionalData(query: FindAllQueries) {
-    const {
-      actorId,
-      crewMemberId,
-      crewMemberPosition,
-      collectionId,
-      awardIds,
-    } = query;
+    const { actorId, crewMemberId, crewMemberPosition, collectionId, awardId } =
+      query;
 
     if (actorId) {
       const actorData = await this.peopleService.getPersonById(actorId);
@@ -120,12 +115,16 @@ export class FilmsService {
       };
     }
 
-    if (awardIds) {
-      const awards = await this.awardsService.getListBaseData(awardIds);
+    if (awardId) {
+      const award = await this.awardsService.getAwardById(awardId);
+
+      if (!award) {
+        return null;
+      }
 
       return {
-        type: 'awards',
-        data: awards,
+        type: 'award',
+        data: award,
       };
     }
 

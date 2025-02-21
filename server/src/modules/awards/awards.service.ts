@@ -6,4 +6,8 @@ export class AwardsService {
   getListBaseData(ids: number[]) {
     return this.awardsRepository.getBaseDataList(ids);
   }
+
+  getAwardById(id: number) {
+    return this.awardsRepository.getById(id);
+  }
 }

@@ -25,7 +25,7 @@ export const FilmsMapper = {
       crewMemberId,
       crewMemberPosition,
       actorId,
-      awardIds,
+      awardId,
       style,
       budget,
       boxOffice,
@@ -122,12 +122,10 @@ export const FilmsMapper = {
       };
     }
 
-    if (awardIds) {
+    if (awardId) {
       filters.awards = {
         some: {
-          awardId: {
-            in: awardIds,
-          },
+          awardId,
         },
       };
     }

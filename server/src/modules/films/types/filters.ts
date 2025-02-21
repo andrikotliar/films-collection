@@ -18,7 +18,7 @@ export type FindAllFilters = {
   genreIds: number[];
   countryIds: number[];
   studioIds: number[];
-  awardIds: number[];
+  awardId: number;
   searchAnniversaries: boolean;
   ids: number[];
 };
