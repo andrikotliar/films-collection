@@ -2,7 +2,7 @@ import styles from './Sidebar.module.css';
 import { useState } from 'react';
 import { SlidersHorizontalIcon } from 'lucide-react';
 import classNames from 'classnames';
-import { Loader } from '@/components';
+import { Loader } from '@/ui';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { fetchInitialDataQuery } from '@/queries';
 import { Filters } from '../Filters/Filters';

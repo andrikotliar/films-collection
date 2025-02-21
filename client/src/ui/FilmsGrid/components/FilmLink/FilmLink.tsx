@@ -3,7 +3,7 @@ import { forwardRef } from 'react';
 import { getYearFromDate } from '@/helpers';
 import styles from './FilmLink.module.css';
 import { Link } from '@tanstack/react-router';
-import { Image } from '@/components/Image/Image';
+import { Image } from '@/ui/Image/Image';
 
 type FilmLinkProps = {
   data: FilmsListItem;

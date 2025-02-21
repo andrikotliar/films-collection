@@ -1,4 +1,4 @@
-import { Modal } from '@/components';
+import { Modal } from '@/ui';
 import { FC } from 'react';
 import { Video } from '../Video/Video';
 import styles from './TrailersModal.module.css';

@@ -1,7 +1,7 @@
 import styles from './Filters.module.css';
 import { Dispatch, FC, SetStateAction, useEffect } from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
-import { Button, ScrollableWrapper } from '@/components';
+import { Button, ScrollableWrapper } from '@/ui';
 import { FilterOptions } from './components';
 import { countObjectKeys, filterValues } from '@/helpers';
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';

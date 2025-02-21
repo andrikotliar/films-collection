@@ -3,7 +3,7 @@ import { Link } from '@tanstack/react-router';
 import { FilmCast } from '@/types';
 import { images } from '@/assets/images';
 import styles from './Actor.module.css';
-import { Image } from '@/components';
+import { Image } from '@/ui';
 
 type ActorProps = {
   data: FilmCast;

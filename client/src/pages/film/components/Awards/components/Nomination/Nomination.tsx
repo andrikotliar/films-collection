@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import styles from './Nomination.module.css';
 import { buildQueryLink } from '@/helpers';
-import { RouterLink } from '@/components';
+import { RouterLink } from '@/ui';
 import { Person } from '@/types';
 
 type NominationProps = {

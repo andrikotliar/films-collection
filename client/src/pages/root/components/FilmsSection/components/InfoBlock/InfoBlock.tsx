@@ -2,7 +2,7 @@ import { FC } from 'react';
 import styles from './InfoBlock.module.css';
 import { XCircleIcon } from 'lucide-react';
 import { useNavigate } from '@tanstack/react-router';
-import { Image } from '@/components';
+import { Image } from '@/ui';
 
 type InfoBlockProps = {
   imagePath?: string | null;

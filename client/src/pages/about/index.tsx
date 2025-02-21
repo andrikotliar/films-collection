@@ -1,5 +1,5 @@
 import { useDocumentTitle, useScrollToTop } from '@/hooks';
-import { ArticleContent } from '@/components';
+import { ArticleContent } from '@/ui';
 
 export const AboutPage = () => {
   useDocumentTitle('About');

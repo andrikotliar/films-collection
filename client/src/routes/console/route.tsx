@@ -1,4 +1,4 @@
-import { ConsoleLayout } from '@/components';
+import { ConsoleLayout } from '@/ui';
 import { getIsAuthState } from '@/helpers';
 import { createFileRoute, redirect } from '@tanstack/react-router';
 

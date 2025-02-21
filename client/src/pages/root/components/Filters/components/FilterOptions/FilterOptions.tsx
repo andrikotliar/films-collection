@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { FilterItem } from '@/types';
-import { FormCheckbox } from '@/components';
+import { FormCheckbox } from '@/ui';
 import { Group } from '../Group/Group';
 import { DateRange } from '../DateRange/DateRange';
 

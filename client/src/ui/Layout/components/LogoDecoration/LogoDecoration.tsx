@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import styles from './LogoDecoration.module.css';
 import { Link } from '@tanstack/react-router';
-import { Image } from '@/components/Image/Image';
+import { Image } from '@/ui/Image/Image';
 
 type LogoDecorationProps = {
   src: string;

@@ -1,5 +1,5 @@
 import styles from './ConfirmDeleteModal.module.css';
-import { Button, Modal } from '@/components';
+import { Button, Modal } from '@/ui';
 import { FC } from 'react';
 
 type ConfirmDeleteModalProps = {

@@ -1,7 +1,7 @@
 import { FC, useMemo } from 'react';
 import { Link } from '@tanstack/react-router';
 import { FilmAward } from '@/types';
-import { DataArea, Image, ScrollableWrapper } from '@/components';
+import { DataArea, Image, ScrollableWrapper } from '@/ui';
 import { Nomination } from './components';
 import styles from './Awards.module.css';
 import classNames from 'classnames';

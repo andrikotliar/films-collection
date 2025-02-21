@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { Chapter } from '@/types';
-import { ScrollableWrapper } from '@/components';
+import { ScrollableWrapper } from '@/ui';
 import { FilmLink } from './components';
 import styles from './Chapters.module.css';
 

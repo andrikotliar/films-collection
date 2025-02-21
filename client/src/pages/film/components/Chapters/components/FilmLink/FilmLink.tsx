@@ -3,7 +3,7 @@ import { Link } from '@tanstack/react-router';
 
 import styles from './FilmLink.module.css';
 import classNames from 'classnames';
-import { Image } from '@/components';
+import { Image } from '@/ui';
 
 type FilmLinkProps = {
   id: number;
