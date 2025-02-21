@@ -1,3 +1,3 @@
-export * from './films-list';
-export * from './films-search';
-export * from './film-details';
+export * from './films-list.schema';
+export * from './films-search.schema';
+export * from './film-details.schema';
