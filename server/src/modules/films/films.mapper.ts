@@ -29,11 +29,18 @@ export const FilmsMapper = {
       style,
       budget,
       boxOffice,
+      ids,
     } = plainFilters;
 
     const filters: Prisma.FilmWhereInput = {
       draft: false,
     };
+
+    if (ids) {
+      filters.id = {
+        in: ids,
+      };
+    }
 
     if (startDate || endDate) {
       filters.releaseDate = {

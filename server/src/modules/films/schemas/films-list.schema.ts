@@ -80,6 +80,12 @@ export const filmsGetListSchema: FastifySchema = {
       searchAnniversaries: {
         type: 'boolean',
       },
+      ids: {
+        type: 'array',
+        items: {
+          type: 'number',
+        },
+      },
     },
     required: ['limit', 'skip'],
     additionalProperties: false,

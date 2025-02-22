@@ -1,24 +1,25 @@
 import { FilterItem, InitialData } from '@/types';
+import { CalendarIcon, HistoryIcon } from 'lucide-react';
 
 export const getFiltersConfig = (initialData: InitialData): FilterItem[] => {
   return [
     {
       title: 'Type',
-      property: 'type',
+      id: 'type',
       type: 'checkmark',
       options: initialData.options.types,
       inputType: 'radio',
     },
     {
       title: 'Style',
-      property: 'style',
+      id: 'style',
       type: 'checkmark',
       options: initialData.options.styles,
       inputType: 'radio',
     },
     {
       title: 'Genres',
-      property: 'genreIds',
+      id: 'genreIds',
       type: 'checkmark',
       inputType: 'checkbox',
       options: initialData.options.genres,
@@ -28,35 +29,52 @@ export const getFiltersConfig = (initialData: InitialData): FilterItem[] => {
       inputs: {
         start: {
           label: 'Start Date',
-          property: 'startDate',
+          id: 'startDate',
         },
         end: {
           label: 'End Date',
-          property: 'endDate',
+          id: 'endDate',
         },
       },
       type: 'daterange',
     },
     {
       title: 'Country',
-      property: 'countryIds',
+      id: 'countryIds',
       type: 'checkmark',
       inputType: 'checkbox',
       options: initialData.options.countries,
     },
     {
       title: 'Studio',
-      property: 'studioIds',
+      id: 'studioIds',
       type: 'checkmark',
       inputType: 'checkbox',
       options: initialData.options.studios,
     },
     {
       title: 'Collections',
-      property: 'collectionId',
+      id: 'collectionId',
       type: 'checkmark',
       inputType: 'radio',
       options: initialData.options.collections,
+    },
+    {
+      id: 'additional',
+      title: 'Additional',
+      type: 'nested',
+      options: [
+        {
+          label: 'Anniversaries',
+          id: 'searchAnniversaries',
+          icon: <CalendarIcon size={18} />,
+        },
+        {
+          label: 'Last visited films',
+          id: 'searchLastVisitedFilms',
+          icon: <HistoryIcon size={18} />,
+        },
+      ],
     },
   ];
 };

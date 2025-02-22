@@ -18,6 +18,8 @@ const filmsListFilterSchema = yup.object().shape({
   crewMemberId: yup.string(),
   crewMemberPosition: yup.string(),
   rating: yup.string(),
+  searchAnniversaries: yup.boolean(),
+  ids: yup.array(yup.number().required()),
 });
 
 export const Route = createFileRoute('/')({

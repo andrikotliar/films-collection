@@ -1,8 +1,7 @@
-import { LocalStorageKey } from '@/enums';
+import { LocalStorage } from '@/services';
 
 export const getIsAuthState = () => {
-  const isAuthenticated =
-    localStorage.getItem(LocalStorageKey.IS_AUTHENTICATED) === 'true';
+  const isAuthenticated = LocalStorage.getItem<boolean>('IS_AUTHENTICATED');
 
   return isAuthenticated;
 };

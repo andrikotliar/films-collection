@@ -13,13 +13,13 @@ export const FilterOptions: FC<FilterOptionsProps> = ({ filter }) => {
     case 'checkmark':
       return (
         <Group title={filter.title}>
-          {filter.options.map((option, index) => (
+          {filter.options.map((option) => (
             <FormCheckbox
               type={filter.inputType}
               label={option.label}
               value={option.value}
-              name={filter.property}
-              key={index}
+              name={filter.id}
+              key={option.value}
             />
           ))}
         </Group>
@@ -27,6 +27,21 @@ export const FilterOptions: FC<FilterOptionsProps> = ({ filter }) => {
 
     case 'daterange':
       return <DateRange title={filter.title} inputs={filter.inputs} />;
+
+    case 'nested':
+      return (
+        <Group title={filter.title}>
+          {filter.options.map((option) => (
+            <FormCheckbox
+              type="checkbox"
+              label={option.label}
+              name={option.id}
+              key={option.id}
+              rightIcon={option.icon}
+            />
+          ))}
+        </Group>
+      );
 
     default:
       return null;

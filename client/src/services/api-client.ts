@@ -1,5 +1,5 @@
 import { env } from '@/configs';
-import { LocalStorageKey } from '@/enums';
+import { LocalStorage } from '@/services';
 import { ApiEndpoint } from '@/types';
 import { redirect } from '@tanstack/react-router';
 
@@ -221,7 +221,7 @@ apiClient.setErrorInterceptor(async (error, originalRequestParams) => {
       );
     } catch (error) {
       if (!window.location.pathname.includes('login')) {
-        localStorage.removeItem(LocalStorageKey.IS_AUTHENTICATED);
+        LocalStorage.removeItem('IS_AUTHENTICATED');
         throw redirect({ to: '/login' });
       }
     }

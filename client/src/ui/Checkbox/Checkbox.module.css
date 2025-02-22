@@ -34,6 +34,11 @@
   color: #fff;
 }
 .title {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 10px;
+  justify-content: space-between;
   font-size: 14px;
   user-select: none;
 }

@@ -7,6 +7,7 @@ import { countObjectKeys, filterValues } from '@/helpers';
 import { RefreshCcwIcon, SearchIcon } from 'lucide-react';
 import { FilmsListFilters, FilterItem } from '@/types';
 import { getRouteApi } from '@tanstack/react-router';
+import { LocalStorage } from '@/services';
 
 type FiltersProps = {
   config: FilterItem[];
@@ -23,6 +24,9 @@ const defaultValues: FilmsListFilters = {
   endDate: null,
   countryIds: null,
   studioIds: null,
+  searchAnniversaries: false,
+  searchLastVisitedFilms: false,
+  ids: null,
 };
 
 const routeApi = getRouteApi('/');
@@ -43,9 +47,18 @@ export const Filters: FC<FiltersProps> = ({
 
   const submitFilter = (data: FilmsListFilters) => {
     const filledOptions = filterValues(data);
+    const { searchLastVisitedFilms, ...search } = filledOptions;
+
+    if (searchLastVisitedFilms) {
+      const ids = LocalStorage.getItem<number[]>('LAST_VISITED_FILMS');
+
+      if (ids) {
+        search.ids = ids;
+      }
+    }
 
     navigate({
-      search: filledOptions,
+      search,
     });
 
     window.scrollTo({

@@ -17,14 +17,14 @@ export const DateRange: FC<DateRangeProps> = ({ inputs, title }) => {
   return (
     <Group title={title}>
       <FormDatePicker
-        name={inputs.start.property}
+        name={inputs.start.id}
         min={MIN_DATE}
-        max={formValues[inputs.end.property] ?? undefined}
+        max={formValues[inputs.end.id] ?? undefined}
         label={inputs.start.label}
       />
       <FormDatePicker
-        name={inputs.end.property}
-        min={formValues[inputs.start.property] ?? MIN_DATE}
+        name={inputs.end.id}
+        min={formValues[inputs.start.id] ?? MIN_DATE}
         label={inputs.end.label}
       />
     </Group>
