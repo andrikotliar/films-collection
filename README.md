@@ -4,6 +4,8 @@ A personal list of films with manually collected data. The app mainly focuses on
 
 ![Films Collection Main Page Preview](./preview.jpg)
 
+> ❗ DISCLAIMER: All media files, videos, and information are the intellectual property of its authors. All data was taken from open sources and used for informational purposes. Data was gathered manually without using scrappers or third-party APIs.
+
 ## Tech Stack
 
 ### Frontend
