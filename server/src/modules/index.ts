@@ -9,3 +9,4 @@ export * from './initial-data/initial-data.module';
 export * from './pending-films/pending-films.module';
 export * from './people/people.module';
 export * from './studios/studios.module';
+export * from './collection-events/collection-events.module';

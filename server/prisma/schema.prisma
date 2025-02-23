@@ -136,6 +136,7 @@ model Collection {
   description String?
   category    CollectionCategory @default(GENERAL)
   films       FilmCollection[]
+  events      CollectionEvent[]
 
   @@map("collections")
 }
@@ -232,6 +233,18 @@ model PendingFilm {
   updatedAt DateTime @updatedAt @map("updated_at")
 
   @@map("pending_films")
+}
+
+model CollectionEvent {
+  id            Int        @id @default(autoincrement())
+  title         String
+  image         String
+  collection    Collection @relation(fields: [collectionId], references: [id])
+  collectionId  Int        @map("collection_id")
+  startDateCode Int        @map("start_date_code")
+  endDateCode   Int        @map("end_date_code")
+
+  @@map("collection_events")
 }
 
 enum TitleType {

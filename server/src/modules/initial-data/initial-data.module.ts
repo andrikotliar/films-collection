@@ -9,6 +9,7 @@ export const InitialDataModule = async (app: FastifyInstance) => {
     genresService: app.genresService,
     countriesService: app.countriesService,
     studiosService: app.studiosService,
+    collectionEventsService: app.collectionEventsService,
   });
 
   const initialDataController = new InitialDataController(initialDataService);

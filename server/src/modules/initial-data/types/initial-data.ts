@@ -1,4 +1,5 @@
 import { ListOption } from 'src/common';
+import { GetEventQueryResult } from 'src/modules/collection-events/types';
 
 export type InitialData = {
   options: {
@@ -9,4 +10,5 @@ export type InitialData = {
     types: ListOption<string>[];
     styles: ListOption<string>[];
   };
+  event: GetEventQueryResult | null;
 };

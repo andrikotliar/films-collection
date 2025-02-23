@@ -2,6 +2,7 @@ import { FastifyInstance } from 'fastify';
 import {
   AuthModule,
   AwardsModule,
+  CollectionEventsModule,
   CollectionsModule,
   CountriesModule,
   FilmsModule,
@@ -23,6 +24,7 @@ export const AppModule = async (app: FastifyInstance) => {
   app.register(CollectionsModule);
   app.register(PeopleModule);
   app.register(FilmsModule);
+  app.register(CollectionEventsModule);
   app.register(InitialDataModule);
   app.register(PendingFilmsModule);
 };

@@ -7,12 +7,14 @@ export class InitialDataService {
   private genresService;
   private countriesService;
   private studiosService;
+  private collectionEventsService;
 
   constructor(dependencies: InitialDataServiceDependencies) {
     this.collectionsService = dependencies.collectionsService;
     this.genresService = dependencies.genresService;
     this.countriesService = dependencies.countriesService;
     this.studiosService = dependencies.studiosService;
+    this.collectionEventsService = dependencies.collectionEventsService;
   }
 
   async getOptions(): Promise<InitialData> {
@@ -26,6 +28,8 @@ export class InitialDataService {
     const types = this.convertEnumValuesToOption(TitleType);
     const styles = this.convertEnumValuesToOption(TitleStyle);
 
+    const todayEvent = await this.collectionEventsService.findTodayEvent();
+
     return {
       options: {
         collections,
@@ -35,6 +39,7 @@ export class InitialDataService {
         types,
         styles,
       },
+      event: todayEvent.event,
     };
   }
 

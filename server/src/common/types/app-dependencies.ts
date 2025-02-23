@@ -1,6 +1,5 @@
-import { AuthController } from 'src/modules/auth/auth.controller';
-import { AuthService } from 'src/modules/auth/auth.service';
 import { AwardsService } from 'src/modules/awards/awards.service';
+import { CollectionEventsService } from 'src/modules/collection-events/collection-events.service';
 import { CollectionsService } from 'src/modules/collections/collections.service';
 import { CountriesService } from 'src/modules/countries/countries.service';
 import { GenresService } from 'src/modules/genres/genres.service';
@@ -16,4 +15,5 @@ export type AppDependencies = {
   countriesService: CountriesService;
   studiosService: StudiosService;
   peopleService: PeopleService;
+  collectionEventsService: CollectionEventsService;
 };
