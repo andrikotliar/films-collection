@@ -5,6 +5,7 @@ import {
   FormTextInput,
   FormStatusFilterButton,
   FieldLabel,
+  FormTitle,
 } from '@/ui';
 import { LoaderCircle, SaveIcon } from 'lucide-react';
 import { FC, FormEventHandler } from 'react';
@@ -23,7 +24,7 @@ export const PendingFilmForm: FC<PendingFilmFormProps> = ({
 }) => {
   return (
     <form onSubmit={onSubmit} className={styles.formWrapper}>
-      <h2 className={styles.title}>{title}</h2>
+      <FormTitle>{title}</FormTitle>
       <FormTextInput name="title" label="Title" className={styles.titleInput} />
       <div>
         <FieldLabel>Priority</FieldLabel>

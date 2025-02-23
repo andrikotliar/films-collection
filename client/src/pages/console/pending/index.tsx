@@ -9,16 +9,14 @@ import {
   EditPendingFilmModal,
   ListWrapper,
   PendingFilmRow,
-  PendingPageLayout,
   Tools,
   ConfirmDeleteModal,
 } from './components';
-import { ConsoleTitle } from '../components';
 import { getRouteApi } from '@tanstack/react-router';
 import { PendingFilmsApi } from '@/api';
 import { useState } from 'react';
 import { PendingFilm } from '@/types';
-import { Pagination } from '@/ui';
+import { ConsoleContentLayout, Pagination, ConsoleTitle } from '@/ui';
 import { PENDING_FILMS_PER_PAGE } from '@/constants';
 
 const defaultFormValues: PendingFilmFormValues = {
@@ -88,7 +86,7 @@ export const ConsolePendingFilmsPage = () => {
   };
 
   return (
-    <PendingPageLayout>
+    <ConsoleContentLayout>
       <ConsoleTitle>Pending Films</ConsoleTitle>
       <FormProvider {...form}>
         <PendingFilmForm
@@ -128,6 +126,6 @@ export const ConsolePendingFilmsPage = () => {
         onClose={() => setDeleteFilmId(null)}
         onConfirm={() => handleDeletePendingFilm(deleteFilmId)}
       />
-    </PendingPageLayout>
+    </ConsoleContentLayout>
   );
 };

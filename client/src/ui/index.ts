@@ -23,3 +23,6 @@ export * from './SortingPopup/SortingPopup';
 export * from './StatusFilterButton';
 export * from './FieldLabel/FieldLabel';
 export * from './ErrorFallback/ErrorFallback';
+export * from './ConsoleContentLayout/ConsoleContentLayout';
+export * from './ConsoleTitle/ConsoleTitle';
+export * from './FormTitle/FormTitle';
