@@ -1,62 +1,12 @@
-import { useMemo } from 'react';
-import { logoDecorationConfig, LogoDecorationDate } from '@/configs';
-
-type DecorationEvent = {
-  image: string;
-  title: string;
-  collectionId: number;
-};
-
-const convertDateToNumber = ([month, day]: LogoDecorationDate) => {
-  return month * 100 + day;
-};
-
-const getIsDateBetween = (
-  currentDate: number,
-  startDate: number,
-  endDate: number,
-) => {
-  if (startDate <= endDate) {
-    return currentDate >= startDate && currentDate <= endDate;
-  }
-
-  return currentDate >= startDate || currentDate <= endDate;
-};
+import { fetchInitialDataQuery } from '@/queries';
+import { useQuery } from '@tanstack/react-query';
 
 export const useLogoDecoration = () => {
-  return useMemo(() => {
-    const now = new Date();
-    const date = now.getDate();
-    const month = now.getMonth() + 1;
+  const { data } = useQuery(fetchInitialDataQuery());
 
-    const events = logoDecorationConfig.filter((event) => {
-      return event.date.from[0] === month || event.date.to[0] === month;
-    });
+  if (!data) {
+    return null;
+  }
 
-    if (!events.length) {
-      return null;
-    }
-
-    let decorationEvent: DecorationEvent | null = null;
-
-    const currentDate = convertDateToNumber([month, date]);
-
-    for (const event of events) {
-      const startDate = convertDateToNumber(event.date.from);
-      const endDate = convertDateToNumber(event.date.to);
-
-      const isDateBetween = getIsDateBetween(currentDate, startDate, endDate);
-
-      if (isDateBetween) {
-        decorationEvent = {
-          image: event.image,
-          title: event.title,
-          collectionId: event.collectionId,
-        };
-        break;
-      }
-    }
-
-    return decorationEvent;
-  }, []);
+  return data.event;
 };

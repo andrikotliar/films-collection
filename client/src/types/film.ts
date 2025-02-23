@@ -1,5 +1,5 @@
 import { Person } from './person';
-import { Award } from './award';
+import { Award, Nomination } from './award';
 import { Collection } from './collection';
 
 export type TitleType = 'FILM' | 'SERIES';
@@ -24,12 +24,6 @@ export type FilmCast = {
   person: Person;
   characterName: string;
   characterImage: string | null;
-};
-
-export type Nomination = {
-  title: string;
-  person: Person | null;
-  comment: string | null;
 };
 
 export type FilmAward = {

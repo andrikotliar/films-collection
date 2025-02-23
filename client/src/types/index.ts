@@ -13,3 +13,4 @@ export * from './api-endpoint';
 export * from './sorting-order';
 export * from './login-payload';
 export * from './status-color';
+export * from './collection-event';
