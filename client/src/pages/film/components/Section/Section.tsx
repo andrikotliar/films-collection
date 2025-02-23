@@ -5,19 +5,21 @@ import { MinusIcon, PlusIcon } from 'lucide-react';
 
 type SectionProps = PropsWithChildren<{
   title: string;
-  collapsable?: boolean;
-  collapsedByDefault?: boolean;
-  noInnerPadding?: boolean;
+  isCollapsable?: boolean;
+  isCollapsedDefault?: boolean;
+  shouldHidePaddings?: boolean;
 }>;
 
 export const Section: FC<SectionProps> = ({
   children,
   title,
-  collapsable = false,
-  collapsedByDefault = false,
-  noInnerPadding = false,
+  isCollapsable = false,
+  isCollapsedDefault = false,
+  shouldHidePaddings = false,
 }) => {
-  const [isCollapsed, setIsCollapsed] = useState(collapsedByDefault);
+  const [isCollapsed, setIsCollapsed] = useState(
+    isCollapsable && isCollapsedDefault,
+  );
 
   const handleCollapseSection = () => {
     setIsCollapsed((isCollapsed) => !isCollapsed);
@@ -27,12 +29,12 @@ export const Section: FC<SectionProps> = ({
     <div
       className={classNames(styles.section, {
         [styles.collapsed]: isCollapsed,
-        [styles.noInnerPadding]: noInnerPadding,
+        [styles.noInnerPadding]: shouldHidePaddings,
       })}
     >
       <h2 className={styles.title}>
         <span>{title}</span>
-        {collapsable && (
+        {isCollapsable && (
           <button
             onClick={handleCollapseSection}
             className={styles.collapseButton}

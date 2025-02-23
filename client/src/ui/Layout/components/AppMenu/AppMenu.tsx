@@ -34,7 +34,7 @@ export const AppMenu: FC<AppMenuProps> = ({
       })}
       ref={containerRef}
     >
-      <Menu config={mainMenu} standalone />
+      <Menu config={mainMenu} isStandalone />
     </div>
   );
 };

@@ -8,22 +8,22 @@ import { env } from '@/configs';
 type ImageProps = {
   src?: string | null;
   errorSource?: string;
-  external?: boolean;
+  isExternal?: boolean;
 } & Omit<ComponentProps<'img'>, 'onError' | 'src'>;
 
 export const Image: FC<ImageProps> = ({
   src,
   className,
-  external = false,
+  isExternal = false,
   errorSource = images.characterNotFound,
   ...props
 }) => {
   const getImageSource = () => {
-    if ((external && !env.baseMediaUrl) || !src) {
+    if ((isExternal && !env.baseMediaUrl) || !src) {
       return errorSource;
     }
 
-    if (external) {
+    if (isExternal) {
       return `${env.baseMediaUrl}/${src}`;
     }
 

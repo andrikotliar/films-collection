@@ -35,7 +35,7 @@ export const FilmPage = () => {
       <ContentLayout>
         <SummarySection film={film} />
 
-        <Section title="Description" collapsable>
+        <Section title="Description" isCollapsable>
           <Description
             text={film.description}
             trailerId={film.youtubeTrailerId}
@@ -49,13 +49,13 @@ export const FilmPage = () => {
         </Section>
 
         {film.cast.length !== 0 && (
-          <Section title="Cast and Characters" collapsable noInnerPadding>
+          <Section title="Cast and Characters" isCollapsable shouldHidePaddings>
             <Cast cast={film.cast} />
           </Section>
         )}
 
         {film.awards && film.awards.length !== 0 && (
-          <Section title="Awards" noInnerPadding>
+          <Section title="Awards" shouldHidePaddings>
             <Awards awards={film.awards} />
           </Section>
         )}

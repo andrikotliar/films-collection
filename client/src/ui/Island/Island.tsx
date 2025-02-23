@@ -3,21 +3,21 @@ import { FC, PropsWithChildren } from 'react';
 import styles from './Island.module.css';
 
 type IslandProps = PropsWithChildren<{
-  displayPadding?: boolean;
-  flexContainer?: boolean;
+  hasPaddings?: boolean;
+  isFlexContainer?: boolean;
   className?: string;
 }>;
 
 export const Island: FC<IslandProps> = ({
   children,
-  displayPadding = true,
-  flexContainer = false,
+  hasPaddings = true,
+  isFlexContainer = false,
 }) => {
   return (
     <div
       className={classNames(styles.island, {
-        [styles.islandWithPadding]: displayPadding,
-        [styles.flexContainer]: flexContainer,
+        [styles.islandWithPadding]: hasPaddings,
+        [styles.flexContainer]: isFlexContainer,
       })}
     >
       {children}
