@@ -11,7 +11,7 @@ export const Poster: FC<MediaProps> = ({ image, title }) => {
   return (
     <div className={styles.poster}>
       <Image
-        external
+        isExternal
         src={image}
         alt={`Poster of "${title}"`}
         className={styles.image}

@@ -19,7 +19,7 @@ export const Actor: FC<ActorProps> = ({ data }) => {
     >
       <div className={styles.profile}>
         <div className={styles.imageWrapper}>
-          <Image src={data.person.image} alt={data.person.name} external />
+          <Image src={data.person.image} alt={data.person.name} isExternal />
         </div>
         <div className={styles.info}>
           <h3 className={styles.name}>{data.person.name}</h3>
@@ -32,7 +32,7 @@ export const Actor: FC<ActorProps> = ({ data }) => {
             src={data.characterImage}
             alt={data.characterName}
             errorSource={images.characterNotFound}
-            external
+            isExternal
           />
         </div>
       )}

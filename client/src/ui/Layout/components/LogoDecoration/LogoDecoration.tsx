@@ -20,7 +20,7 @@ export const LogoDecoration: FC<LogoDecorationProps> = ({
       search={{ collectionId: String(collectionId) }}
       className={styles.wrapper}
     >
-      <Image src={src} className={styles.decorationImage} external />
+      <Image src={src} className={styles.decorationImage} isExternal />
       <div className={styles.title}>{title}</div>
     </Link>
   );

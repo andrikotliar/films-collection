@@ -32,7 +32,7 @@ export const InfoBlock: FC<InfoBlockProps> = ({
           src={imagePath}
           alt={imageAlt}
           className={styles.image}
-          external
+          isExternal
         />
       )}
       <div className={styles.data}>

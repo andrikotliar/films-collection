@@ -29,7 +29,7 @@ export const FilmLink: FC<FilmLinkProps> = ({
       })}
       title={title}
     >
-      <Image src={poster} alt={title} external />
+      <Image src={poster} alt={title} isExternal />
       {chapter && <span className={styles.chapterNumber}>{chapter}</span>}
     </Link>
   );

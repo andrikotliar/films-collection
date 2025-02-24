@@ -25,7 +25,7 @@ export const Awards: FC<AwardsProps> = ({ awards }) => {
                 src={award.image}
                 alt={award.title}
                 className={styles.awardImage}
-                external
+                isExternal
               />
               <div className={styles.main}>
                 <h3 className={styles.title}>

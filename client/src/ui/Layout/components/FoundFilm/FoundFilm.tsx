@@ -25,7 +25,7 @@ export const FoundFilm: FC<FoundFilmProps> = ({ film, onFilmOpen }) => {
           src={film.poster}
           alt={`Poster of the "${film.title}"`}
           className={styles.poster}
-          external
+          isExternal
         />
       </div>
       <div className={styles.info}>

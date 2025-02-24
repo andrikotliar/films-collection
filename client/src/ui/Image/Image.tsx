@@ -9,6 +9,7 @@ type ImageProps = {
   src?: string | null;
   errorSource?: string;
   isExternal?: boolean;
+  shouldFitContainer?: boolean;
 } & Omit<ComponentProps<'img'>, 'onError' | 'src'>;
 
 export const Image: FC<ImageProps> = ({
@@ -16,6 +17,7 @@ export const Image: FC<ImageProps> = ({
   className,
   isExternal = false,
   errorSource = images.characterNotFound,
+  shouldFitContainer = false,
   ...props
 }) => {
   const getImageSource = () => {
@@ -33,7 +35,9 @@ export const Image: FC<ImageProps> = ({
   return (
     <img
       src={getImageSource()}
-      className={classNames(styles.image, className)}
+      className={classNames(styles.image, className, {
+        [styles.fitContainer]: shouldFitContainer,
+      })}
       onError={handleImageError(errorSource)}
       {...props}
     />
