@@ -25,6 +25,10 @@
   position: relative;
 }
 
+.textInput.withIcon {
+  padding-right: 50px;
+}
+
 .showPasswordButton {
   display: flex;
   position: absolute;
