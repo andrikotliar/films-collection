@@ -77,8 +77,8 @@ export type Film = {
   duration: number;
   cast: FilmCast[];
   collections: FilmBaseData<'collection'>[];
-  budget: string | null;
-  boxOffice: string | null;
+  budget: number | null;
+  boxOffice: number | null;
   awards: FilmAward[];
   seriesExtension: SeriesExtension | null;
   rating: number;

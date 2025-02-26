@@ -181,6 +181,8 @@ export const FilmsMapper = {
 
     return {
       ...film,
+      budget: film.budget ? Number(film.budget) : null,
+      boxOffice: film.boxOffice ? Number(film.boxOffice) : null,
       genres: this.mapNestedRelations(film.genres, 'genre'),
       countries: this.mapNestedRelations(film.countries, 'country'),
       studios: this.mapNestedRelations(film.studios, 'studio'),

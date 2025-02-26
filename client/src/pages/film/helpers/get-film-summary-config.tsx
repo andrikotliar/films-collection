@@ -15,8 +15,8 @@ import { checkHasBoxOfficeBenefit } from './check-box-office-has-benefit';
 
 export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
   const isBoxOfficeSuccessful = checkHasBoxOfficeBenefit(
-    film.budget ? Number(film.budget) : 0,
-    film.boxOffice ? Number(film.boxOffice) : 0,
+    film.budget ?? 0,
+    film.boxOffice ?? 0,
   );
 
   const values: SummaryConfig[] = [

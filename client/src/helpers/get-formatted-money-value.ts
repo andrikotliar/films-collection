@@ -19,10 +19,10 @@ const getDivisor = (length: number) => {
   };
 };
 
-export const getFormattedMoneyValue = (value: string | null): string | null => {
+export const getFormattedMoneyValue = (value: number | null): string | null => {
   if (!value) return null;
 
-  const valueLength = value.length;
+  const valueLength = value.toString().length;
   const divisor = getDivisor(valueLength);
 
   const formattedValue = Number(value) / divisor.value;

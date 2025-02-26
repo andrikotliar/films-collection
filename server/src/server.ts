@@ -8,12 +8,6 @@ import { AppModule } from './app.module';
 import { AppDependencies, CookieName } from './common';
 import { env, loggerOptions, validatorOptions } from './configs';
 
-declare global {
-  interface BigInt {
-    toJSON(): string;
-  }
-}
-
 declare module 'fastify' {
   export interface FastifyInstance extends AppDependencies {
     authenticate: any;
@@ -47,10 +41,6 @@ app.register(PrismaPlugin);
 app.register(AuthPlugin);
 
 app.register(AppModule, { prefix: '/api' });
-
-BigInt.prototype.toJSON = function () {
-  return this.toString();
-};
 
 const startServer = async () => {
   try {
