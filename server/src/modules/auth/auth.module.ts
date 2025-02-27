@@ -1,13 +1,17 @@
 import { FastifyInstance } from 'fastify';
+import fastifyPlugin from 'fastify-plugin';
 import { AuthService } from './auth.service';
 import { AuthController } from './auth.controller';
-import { createAuthRouter } from 'src/modules/auth/auth.router';
+import { AuthRouter } from 'src/modules/auth/auth.router';
 
-export const AuthModule = async (app: FastifyInstance) => {
-  const authService = new AuthService(app.usersService, app.jwt);
-  const authController = new AuthController(authService);
+export const AuthModule = fastifyPlugin(
+  async (app: FastifyInstance) => {
+    app.decorate('authService', new AuthService(app.usersService, app.jwt));
+    app.decorate('authController', new AuthController());
 
-  app.register(createAuthRouter(authController), {
-    prefix: '/auth',
-  });
-};
+    app.register(AuthRouter, {
+      prefix: '/auth',
+    });
+  },
+  { name: 'authModule' },
+);

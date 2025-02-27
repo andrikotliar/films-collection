@@ -1,44 +1,49 @@
-import { RouterCreator } from 'src/common';
-import { CollectionEventsController } from 'src/modules/collection-events/collection-events.controller';
+import { FastifyInstance } from 'fastify';
 import {
-  collectionEventsCreateSchema,
-  collectionEventsDeleteSchema,
-  collectionEventsUpdateSchema,
+  CollectionEventsCreateSchema,
+  CollectionEventsDeleteParamsSchema,
+  CollectionEventsUpdateParamsSchema,
+  CollectionEventsUpdateBodySchema,
 } from 'src/modules/collection-events/schemas';
 
-export const createCollectionEventRouter: RouterCreator<
-  CollectionEventsController
-> = (controller) => {
-  return async (collectionEventModule) => {
-    collectionEventModule.route({
-      method: 'POST',
-      url: '/',
-      preHandler: [collectionEventModule.authenticate],
-      schema: collectionEventsCreateSchema,
-      handler: controller.createEvent.bind(controller),
-    });
+export const CollectionEventRouter = async (
+  collectionEventModule: FastifyInstance,
+) => {
+  collectionEventModule.route({
+    method: 'POST',
+    url: '/',
+    preHandler: [collectionEventModule.authenticate],
+    schema: {
+      body: CollectionEventsCreateSchema,
+    },
+    handler: collectionEventModule.collectionEventsController.createEvent,
+  });
 
-    collectionEventModule.route({
-      method: 'GET',
-      url: '/admin/list',
-      preHandler: [collectionEventModule.authenticate],
-      handler: controller.getAllEvents.bind(controller),
-    });
+  collectionEventModule.route({
+    method: 'GET',
+    url: '/admin/list',
+    preHandler: [collectionEventModule.authenticate],
+    handler: collectionEventModule.collectionEventsController.getAllEvents,
+  });
 
-    collectionEventModule.route({
-      method: 'PATCH',
-      url: '/:id',
-      preHandler: [collectionEventModule.authenticate],
-      schema: collectionEventsUpdateSchema,
-      handler: controller.updateEvent.bind(controller),
-    });
+  collectionEventModule.route({
+    method: 'PATCH',
+    url: '/:id',
+    preHandler: [collectionEventModule.authenticate],
+    schema: {
+      params: CollectionEventsUpdateParamsSchema,
+      body: CollectionEventsUpdateBodySchema,
+    },
+    handler: collectionEventModule.collectionEventsController.updateEvent,
+  });
 
-    collectionEventModule.route({
-      method: 'DELETE',
-      url: '/:id',
-      preHandler: [collectionEventModule.authenticate],
-      schema: collectionEventsDeleteSchema,
-      handler: controller.deleteEvent.bind(controller),
-    });
-  };
+  collectionEventModule.route({
+    method: 'DELETE',
+    url: '/:id',
+    preHandler: [collectionEventModule.authenticate],
+    schema: {
+      params: CollectionEventsDeleteParamsSchema,
+    },
+    handler: collectionEventModule.collectionEventsController.deleteEvent,
+  });
 };

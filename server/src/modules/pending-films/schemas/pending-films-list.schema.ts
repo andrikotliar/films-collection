@@ -1,29 +1,16 @@
-import { FastifySchema } from 'fastify';
+import { Static, Type } from '@sinclair/typebox';
 
-export const pendingFilmsGetListSchema: FastifySchema = {
-  querystring: {
-    type: 'object',
-    properties: {
-      q: {
-        type: 'string',
-      },
-      priorities: {
-        type: 'array',
-        items: {
-          type: 'number',
-        },
-      },
-      skip: {
-        type: 'number',
-      },
-      orderKey: {
-        type: 'string',
-      },
-      order: {
-        type: 'string',
-        enum: ['asc', 'desc'],
-      },
-    },
-    additionalProperties: false,
+export const PendingFilmsQuerySchema = Type.Object(
+  {
+    q: Type.Optional(Type.String()),
+    skip: Type.Optional(Type.Number()),
+    orderKey: Type.Optional(Type.String()),
+    order: Type.Optional(Type.String()),
+    priorities: Type.Optional(
+      Type.Array(Type.Number({ minimum: 1, maximum: 3 })),
+    ),
   },
-};
+  { additionalProperties: false },
+);
+
+export type PendingFilmsQuery = Static<typeof PendingFilmsQuerySchema>;

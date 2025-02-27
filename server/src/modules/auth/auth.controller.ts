@@ -1,6 +1,5 @@
-import { FastifyReply, FastifyRequest } from 'fastify';
+import { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
 import { AuthService } from './auth.service';
-import { FastifyLoginRequest, FastifyRegisterRequest } from './types';
 import {
   CookieName,
   MAX_AGE_24_HOURS,
@@ -8,11 +7,18 @@ import {
   ResponseCode,
   sendErrorResponse,
 } from 'src/common';
+import {
+  AuthLoginPayload,
+  AuthRegisterPayload,
+} from 'src/modules/auth/schemas';
 
 export class AuthController {
-  constructor(private authService: AuthService) {}
+  authService!: AuthService;
 
-  async login(request: FastifyLoginRequest, reply: FastifyReply) {
+  async login(
+    request: FastifyRequest<{ Body: AuthLoginPayload }>,
+    reply: FastifyReply,
+  ) {
     const result = await this.authService.login(request.body);
 
     if (!result) {
@@ -38,7 +44,10 @@ export class AuthController {
     return reply.status(ResponseCode.OK).send({ userId: result.userId });
   }
 
-  async register(request: FastifyRegisterRequest, reply: FastifyReply) {
+  async register(
+    request: FastifyRequest<{ Body: AuthRegisterPayload }>,
+    reply: FastifyReply,
+  ) {
     const createdUser = await this.authService.register(request.body);
 
     return reply.status(ResponseCode.CREATED).send(createdUser);

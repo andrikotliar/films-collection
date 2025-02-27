@@ -1,13 +1,12 @@
-import { FastifySchema } from 'fastify';
+import { Static, Type } from '@sinclair/typebox';
 
-export const collectionEventsDeleteSchema: FastifySchema = {
-  params: {
-    type: 'object',
-    properties: {
-      id: {
-        type: 'number',
-      },
-    },
-    required: ['id'],
+export const CollectionEventsDeleteParamsSchema = Type.Object(
+  {
+    id: Type.Number(),
   },
-};
+  { additionalProperties: false },
+);
+
+export type CollectionEventsDeleteParams = Static<
+  typeof CollectionEventsDeleteParamsSchema
+>;

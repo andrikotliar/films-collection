@@ -1,13 +1,9 @@
-import { FastifySchema } from 'fastify';
+import { Static, Type } from '@sinclair/typebox';
 
-export const pendingFilmsDeleteSchema: FastifySchema = {
-  params: {
-    type: 'object',
-    properties: {
-      id: {
-        type: 'number',
-      },
-    },
-    required: ['id'],
-  },
-};
+export const PendingFilmsDeleteParamsSchema = Type.Object({
+  id: Type.Number(),
+});
+
+export type PendingFilmsDeleteParams = Static<
+  typeof PendingFilmsDeleteParamsSchema
+>;

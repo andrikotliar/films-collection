@@ -1,15 +1,15 @@
 import { Prisma } from '@prisma/client';
-import {
-  CreatePendingFilmInput,
-  GetListQuery,
-  UpdatePendingFilmInput,
-} from './types';
 import { PendingFilmsRepository } from './pending-films.repository';
+import {
+  PendingFilmsCreatePayload,
+  PendingFilmsQuery,
+  PendingFilmsUpdatePayload,
+} from 'src/modules/pending-films/schemas';
 
 export class PendingFilmsService {
   constructor(private pendingFilmsRepository: PendingFilmsRepository) {}
 
-  async getList(queryFilters: GetListQuery) {
+  async getList(queryFilters: PendingFilmsQuery) {
     const { filters, options } = this.getListFilters(queryFilters);
 
     return this.pendingFilmsRepository.getListAndCount({
@@ -18,19 +18,19 @@ export class PendingFilmsService {
     });
   }
 
-  createPendingFilm(pendingFilmInput: CreatePendingFilmInput) {
-    return this.pendingFilmsRepository.create(pendingFilmInput);
+  createPendingFilm(payload: PendingFilmsCreatePayload) {
+    return this.pendingFilmsRepository.create(payload);
   }
 
   deletePendingFilm(id: number) {
     return this.pendingFilmsRepository.deleteById(id);
   }
 
-  updatePendingFilm(id: number, data: UpdatePendingFilmInput) {
-    return this.pendingFilmsRepository.updateById(id, data);
+  updatePendingFilm(id: number, payload: PendingFilmsUpdatePayload) {
+    return this.pendingFilmsRepository.updateById(id, payload);
   }
 
-  private getListFilters(queryFilters: GetListQuery) {
+  private getListFilters(queryFilters: PendingFilmsQuery) {
     const filters: Prisma.PendingFilmWhereInput = {};
 
     if (queryFilters.q) {

@@ -3,7 +3,7 @@ import { InitialDataService } from './initial-data.service';
 import { ResponseCode } from 'src/common';
 
 export class InitialDataController {
-  constructor(private initialDataService: InitialDataService) {}
+  initialDataService!: InitialDataService;
 
   async getConfig(_: FastifyRequest, reply: FastifyReply): Promise<never> {
     const data = await this.initialDataService.getOptions();

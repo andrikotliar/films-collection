@@ -1,51 +1,37 @@
-import { FastifySchema } from 'fastify';
+import { Static, Type } from '@sinclair/typebox';
 
-export const collectionEventsUpdateSchema: FastifySchema = {
-  params: {
-    type: 'object',
-    properties: {
-      id: {
-        type: 'number',
-      },
-    },
-    required: ['id'],
+export const CollectionEventsUpdateParamsSchema = Type.Object(
+  {
+    id: Type.Number(),
   },
-  body: {
-    type: 'object',
-    properties: {
-      title: {
-        type: 'string',
-      },
-      image: {
-        type: 'string',
-      },
-      collectionId: {
-        type: 'number',
-      },
-      startDate: {
-        type: 'object',
-        properties: {
-          month: {
-            type: 'number',
-          },
-          date: {
-            type: 'number',
-          },
-        },
-        required: ['month', 'date'],
-      },
-      endDate: {
-        type: 'object',
-        properties: {
-          month: {
-            type: 'number',
-          },
-          date: {
-            type: 'number',
-          },
-        },
-        required: ['month', 'date'],
-      },
-    },
+  { additionalProperties: false },
+);
+
+export type CollectionEventsUpdateParams = Static<
+  typeof CollectionEventsUpdateParamsSchema
+>;
+
+export const CollectionEventsUpdateBodySchema = Type.Object(
+  {
+    title: Type.Optional(Type.String()),
+    image: Type.Optional(Type.String()),
+    collectionId: Type.Optional(Type.Number()),
+    startDate: Type.Optional(
+      Type.Object({
+        month: Type.Number(),
+        date: Type.Number(),
+      }),
+    ),
+    endDate: Type.Optional(
+      Type.Object({
+        month: Type.Number(),
+        date: Type.Number(),
+      }),
+    ),
   },
-};
+  { additionalProperties: false },
+);
+
+export type CollectionEventsUpdatePayload = Static<
+  typeof CollectionEventsUpdateBodySchema
+>;

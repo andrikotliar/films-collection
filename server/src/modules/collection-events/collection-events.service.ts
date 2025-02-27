@@ -1,5 +1,14 @@
-import { EventInput, EventDate, UpdateEventInput } from './types';
+import { CollectionEvent } from '@prisma/client';
 import { CollectionEventsRepository } from './collection-events.repository';
+import {
+  CollectionEventsCreatePayload,
+  CollectionEventsUpdatePayload,
+} from './schemas';
+
+type EventDate = {
+  month: number;
+  date: number;
+};
 
 export class CollectionEventsService {
   constructor(private collectionEventsRepository: CollectionEventsRepository) {}
@@ -20,7 +29,7 @@ export class CollectionEventsService {
     };
   }
 
-  createEvent(input: EventInput) {
+  createEvent(input: CollectionEventsCreatePayload) {
     const { startDate, endDate, ...data } = input;
 
     const startDateCode = this.convertDateToCode(startDate);
@@ -37,10 +46,10 @@ export class CollectionEventsService {
     return this.collectionEventsRepository.deleteEvent(id);
   }
 
-  updateEvent(id: number, input: Partial<EventInput>) {
+  updateEvent(id: number, input: CollectionEventsUpdatePayload) {
     const { startDate, endDate, ...data } = input;
 
-    const payload: UpdateEventInput = { ...data };
+    const payload: Partial<Omit<CollectionEvent, 'id'>> = { ...data };
 
     if (startDate) {
       payload.startDateCode = this.convertDateToCode(startDate);

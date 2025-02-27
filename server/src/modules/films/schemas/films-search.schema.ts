@@ -1,13 +1,7 @@
-import { FastifySchema } from 'fastify';
+import { Static, Type } from '@sinclair/typebox';
 
-export const filmsSearchSchema: FastifySchema = {
-  querystring: {
-    type: 'object',
-    properties: {
-      q: {
-        type: 'string',
-      },
-    },
-    required: ['q'],
-  },
-};
+export const FilmsSearchQuerySchema = Type.Object({
+  q: Type.String(),
+});
+
+export type FilmsSearchQuery = Static<typeof FilmsSearchQuerySchema>;

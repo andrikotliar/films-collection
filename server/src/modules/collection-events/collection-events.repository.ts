@@ -1,5 +1,5 @@
 import { CollectionEvent, PrismaClient } from '@prisma/client';
-import { GetEventQueryResult, UpdateEventInput } from './types';
+import { GetEventQueryResult } from './types';
 
 export class CollectionEventsRepository {
   constructor(private prismaClient: PrismaClient) {}
@@ -48,7 +48,7 @@ export class CollectionEventsRepository {
     });
   }
 
-  updateEvent(id: number, data: UpdateEventInput) {
+  updateEvent(id: number, data: Partial<Omit<CollectionEvent, 'id'>>) {
     return this.prismaClient.collectionEvent.update({
       data,
       where: {

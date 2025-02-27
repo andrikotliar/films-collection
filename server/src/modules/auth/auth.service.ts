@@ -3,12 +3,16 @@ import { CookieSerializeOptions } from '@fastify/cookie';
 import { compare } from 'bcrypt';
 import { UsersService } from 'src/modules/users/users.service';
 import { env } from 'src/configs';
-import { AuthCredentials, TokenPayload } from './types';
+import {
+  AuthLoginPayload,
+  AuthRegisterPayload,
+} from 'src/modules/auth/schemas';
+import { AuthTokenPayload } from './types';
 
 export class AuthService {
   constructor(private usersService: UsersService, private jwtService: JWT) {}
 
-  async login({ username, password }: AuthCredentials) {
+  async login({ username, password }: AuthLoginPayload) {
     const user = await this.usersService.getUserByUsername(username);
 
     if (!user) {
@@ -38,7 +42,7 @@ export class AuthService {
     }
 
     const decodedToken =
-      this.jwtService.decode<TokenPayload>(refreshTokenCookie);
+      this.jwtService.decode<AuthTokenPayload>(refreshTokenCookie);
 
     if (!decodedToken) {
       return null;
@@ -67,11 +71,11 @@ export class AuthService {
     };
   }
 
-  register(payload: AuthCredentials) {
+  register(payload: AuthRegisterPayload) {
     return this.usersService.createUser(payload);
   }
 
-  createToken(payload: TokenPayload, expTime: string) {
+  createToken(payload: AuthTokenPayload, expTime: string) {
     return this.jwtService.sign(payload, { expiresIn: expTime });
   }
 

@@ -1,24 +1,28 @@
-import { FastifyReply } from 'fastify';
+import { FastifyReply, FastifyRequest } from 'fastify';
 import { PendingFilmsService } from './pending-films.service';
 import { ResponseCode } from 'src/common';
 import {
-  CreatePendingFilmRequest,
-  DeletePendingFilmRequest,
-  GetPendingFilmRequest,
-  UpdatePendingFilmRequest,
-} from './types';
+  PendingFilmsCreatePayload,
+  PendingFilmsDeleteParams,
+  PendingFilmsQuery,
+  PendingFilmsUpdateParams,
+  PendingFilmsUpdatePayload,
+} from './schemas';
 
 export class PendingFilmsController {
-  constructor(private pendingFilmsService: PendingFilmsService) {}
+  pendingFilmsService!: PendingFilmsService;
 
-  async getList(request: GetPendingFilmRequest, reply: FastifyReply) {
+  async getList(
+    request: FastifyRequest<{ Querystring: PendingFilmsQuery }>,
+    reply: FastifyReply,
+  ) {
     const list = await this.pendingFilmsService.getList(request.query);
 
     return reply.code(ResponseCode.OK).send(list);
   }
 
   async createPendingFilm(
-    request: CreatePendingFilmRequest,
+    request: FastifyRequest<{ Body: PendingFilmsCreatePayload }>,
     reply: FastifyReply,
   ): Promise<never> {
     const createdPendingFilm = await this.pendingFilmsService.createPendingFilm(
@@ -29,7 +33,7 @@ export class PendingFilmsController {
   }
 
   async deletePendingFilm(
-    request: DeletePendingFilmRequest,
+    request: FastifyRequest<{ Params: PendingFilmsDeleteParams }>,
     reply: FastifyReply,
   ) {
     const result = await this.pendingFilmsService.deletePendingFilm(
@@ -39,7 +43,10 @@ export class PendingFilmsController {
   }
 
   async updatePendingFilm(
-    request: UpdatePendingFilmRequest,
+    request: FastifyRequest<{
+      Params: PendingFilmsUpdateParams;
+      Body: PendingFilmsUpdatePayload;
+    }>,
     reply: FastifyReply,
   ) {
     const result = await this.pendingFilmsService.updatePendingFilm(

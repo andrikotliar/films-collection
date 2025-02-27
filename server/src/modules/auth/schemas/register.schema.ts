@@ -1,22 +1,13 @@
-import { FastifySchema } from 'fastify';
+import { Static, Type } from '@sinclair/typebox';
 
-export const authRegisterSchema: FastifySchema = {
-  body: {
-    type: 'object',
-    properties: {
-      username: {
-        type: 'string',
-      },
-      password: {
-        type: 'string',
-        pattern: `^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$`,
-        errorMessage: {
-          pattern:
-            'Password should be at least 8 characters long and contain letters in upper- and lowercase, numbers, and special symbols.',
-        },
-      },
-    },
-    required: ['username', 'password'],
-    additionalProperties: false,
+export const AuthRegisterSchema = Type.Object(
+  {
+    username: Type.String(),
+    password: Type.String({
+      pattern: '^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$',
+    }),
   },
-};
+  { additionalProperties: false },
+);
+
+export type AuthRegisterPayload = Static<typeof AuthRegisterSchema>;

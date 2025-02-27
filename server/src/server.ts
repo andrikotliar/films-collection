@@ -3,10 +3,11 @@ import { PrismaClient } from '@prisma/client';
 import CorsPlugin from '@fastify/cors';
 import CookiePlugin from '@fastify/cookie';
 import JwtPlugin from '@fastify/jwt';
+import { TypeBoxTypeProvider } from '@fastify/type-provider-typebox';
 import { AuthPlugin, PrismaPlugin } from 'src/plugins';
 import { AppModule } from './app.module';
 import { AppDependencies, CookieName } from './common';
-import { env, loggerOptions, validatorOptions } from './configs';
+import { env } from './configs';
 
 declare module 'fastify' {
   export interface FastifyInstance extends AppDependencies {
@@ -16,9 +17,13 @@ declare module 'fastify' {
 }
 
 const app = fastify({
-  logger: loggerOptions,
-  ajv: validatorOptions,
-});
+  logger: {
+    enabled: env.NODE_ENV === 'development',
+    transport: {
+      target: '@fastify/one-line-logger',
+    },
+  },
+}).withTypeProvider<TypeBoxTypeProvider>();
 
 app.register(CorsPlugin, {
   origin: env.FRONTEND_ORIGIN,

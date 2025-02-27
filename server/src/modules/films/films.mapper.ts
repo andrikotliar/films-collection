@@ -1,15 +1,11 @@
 import { Prisma } from '@prisma/client';
-import {
-  FilmWithRelations,
-  FindAllFilters,
-  GroupedAwards,
-  GroupedCrew,
-} from 'src/modules/films/types';
+import { FilmWithRelations, GroupedAwards, GroupedCrew } from './types';
+import { FilmsQuery } from './schemas';
 
 const MONEY_RANGE_MILLIONS = 10_000_000;
 
 export const FilmsMapper = {
-  mapListFilters(plainFilters: Partial<FindAllFilters>) {
+  mapListFilters(plainFilters: FilmsQuery) {
     const {
       genreIds,
       collectionId,

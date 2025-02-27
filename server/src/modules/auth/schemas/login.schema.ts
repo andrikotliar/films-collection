@@ -1,17 +1,11 @@
-import { FastifySchema } from 'fastify';
+import { Static, Type } from '@sinclair/typebox';
 
-export const authLoginSchema: FastifySchema = {
-  body: {
-    type: 'object',
-    properties: {
-      username: {
-        type: 'string',
-      },
-      password: {
-        type: 'string',
-      },
-    },
-    required: ['username', 'password'],
-    additionalProperties: false,
+export const AuthLoginSchema = Type.Object(
+  {
+    username: Type.String(),
+    password: Type.String(),
   },
-};
+  { additionalProperties: false },
+);
+
+export type AuthLoginPayload = Static<typeof AuthLoginSchema>;

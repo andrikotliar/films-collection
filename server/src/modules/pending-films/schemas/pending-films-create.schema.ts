@@ -1,17 +1,13 @@
-import { FastifySchema } from 'fastify';
+import { Static, Type } from '@sinclair/typebox';
 
-export const pendingFilmsCreateSchema: FastifySchema = {
-  body: {
-    type: 'object',
-    properties: {
-      title: {
-        type: 'string',
-      },
-      priority: {
-        type: 'number',
-      },
-    },
-    required: ['title'],
-    additionalProperties: false,
+export const PendingFilmsCreateBodySchema = Type.Object(
+  {
+    title: Type.String(),
+    priority: Type.Number({ minimum: 1, maximum: 3 }),
   },
-};
+  { additionalProperties: false },
+);
+
+export type PendingFilmsCreatePayload = Static<
+  typeof PendingFilmsCreateBodySchema
+>;

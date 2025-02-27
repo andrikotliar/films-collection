@@ -1,7 +1,8 @@
 import { convertEnumValueToLabel } from 'src/common';
-import { FilmsServiceDependencies, FindAllQueries } from './types';
+import { FilmsServiceDependencies } from './types';
 import { FilmsRepository } from './films.repository';
-import { FilmsMapper } from 'src/modules/films/films.mapper';
+import { FilmsMapper } from './films.mapper';
+import { FilmsQuery } from './schemas';
 
 export class FilmsService {
   private peopleService: FilmsServiceDependencies['peopleService'];
@@ -17,7 +18,7 @@ export class FilmsService {
     this.collectionsService = dependencies.collectionsService;
   }
 
-  async getFilteredFilms(queries: FindAllQueries) {
+  async getFilteredFilms(queries: FilmsQuery) {
     const { limit, skip } = queries;
 
     const parsedFilters = FilmsMapper.mapListFilters(queries);
@@ -67,7 +68,7 @@ export class FilmsService {
     return this.filmsRepository.searchByTitle(searchString);
   }
 
-  private async populateAdditionalData(query: FindAllQueries) {
+  private async populateAdditionalData(query: FilmsQuery) {
     const { actorId, crewMemberId, crewMemberPosition, collectionId, awardId } =
       query;
 

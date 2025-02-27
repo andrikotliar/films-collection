@@ -1,18 +1,28 @@
-import { FastifyReply } from 'fastify';
-import { FindAllRequest, FindOneRequest, SearchRequest } from './types';
+import { FastifyReply, FastifyRequest } from 'fastify';
 import { sendErrorResponse, ResponseCode } from '../../common';
 import { FilmsService } from './films.service';
+import {
+  FilmsGetParams,
+  FilmsQuery,
+  FilmsSearchQuery,
+} from 'src/modules/films/schemas';
 
 export class FilmsController {
-  constructor(private filmsService: FilmsService) {}
+  filmsService!: FilmsService;
 
-  async findAll(request: FindAllRequest, reply: FastifyReply) {
+  async findAll(
+    request: FastifyRequest<{ Querystring: FilmsQuery }>,
+    reply: FastifyReply,
+  ) {
     const data = await this.filmsService.getFilteredFilms(request.query);
 
     return reply.code(ResponseCode.OK).send(data);
   }
 
-  async findOne(request: FindOneRequest, reply: FastifyReply) {
+  async findOne(
+    request: FastifyRequest<{ Params: FilmsGetParams }>,
+    reply: FastifyReply,
+  ) {
     const data = await this.filmsService.getFilmDetails(request.params.id);
 
     if (!data) {
@@ -26,7 +36,10 @@ export class FilmsController {
     return reply.code(ResponseCode.OK).send(data);
   }
 
-  async findFilmsBySearchString(request: SearchRequest, reply: FastifyReply) {
+  async findFilmsBySearchString(
+    request: FastifyRequest<{ Querystring: FilmsSearchQuery }>,
+    reply: FastifyReply,
+  ) {
     const { q } = request.query;
 
     const data = await this.filmsService.searchFilm(q);

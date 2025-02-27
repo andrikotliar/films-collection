@@ -1,93 +1,32 @@
 import { CrewPosition, TitleStyle, TitleType } from '@prisma/client';
-import { FastifySchema } from 'fastify';
+import { Static, Type } from '@sinclair/typebox';
 
-export const filmsGetListSchema: FastifySchema = {
-  querystring: {
-    type: 'object',
-    properties: {
-      limit: {
-        type: 'number',
-      },
-      skip: {
-        type: 'number',
-      },
-      type: {
-        type: 'string',
-        enum: Object.values(TitleType),
-      },
-      style: {
-        type: 'string',
-        enum: Object.values(TitleStyle),
-      },
-      genreIds: {
-        type: 'array',
-        items: {
-          type: 'number',
-        },
-      },
-      studioIds: {
-        type: 'array',
-        items: {
-          type: 'number',
-        },
-      },
-      countryIds: {
-        type: 'array',
-        items: {
-          type: 'number',
-        },
-      },
-      collectionId: {
-        type: 'number',
-      },
-      startDate: {
-        type: 'string',
-      },
-      endDate: {
-        type: 'string',
-      },
-      duration: {
-        type: 'number',
-      },
-      rating: {
-        type: 'number',
-      },
-      seasonsTotal: {
-        type: 'number',
-      },
-      episodesTotal: {
-        type: 'number',
-      },
-      crewMemberId: {
-        type: 'number',
-      },
-      crewMemberPosition: {
-        type: 'string',
-        enum: Object.values(CrewPosition),
-      },
-      actorId: {
-        type: 'number',
-      },
-      awardId: {
-        type: 'number',
-      },
-      boxOffice: {
-        type: 'number',
-      },
-      budget: {
-        type: 'number',
-      },
-      searchAnniversaries: {
-        type: 'boolean',
-      },
-      ids: {
-        type: 'array',
-        items: {
-          type: 'number',
-        },
-      },
-    },
-    required: ['limit', 'skip'],
-    additionalProperties: false,
+export const FilmsQuerySchema = Type.Object(
+  {
+    limit: Type.Number(),
+    skip: Type.Number(),
+    startDate: Type.Optional(Type.String()),
+    endDate: Type.Optional(Type.String()),
+    collectionId: Type.Optional(Type.Number()),
+    duration: Type.Optional(Type.Number()),
+    rating: Type.Optional(Type.Number()),
+    seasonsTotal: Type.Optional(Type.Number()),
+    episodesTotal: Type.Optional(Type.Number()),
+    crewMemberId: Type.Optional(Type.Number()),
+    actorId: Type.Optional(Type.Number()),
+    awardId: Type.Optional(Type.Number()),
+    budget: Type.Optional(Type.Number()),
+    boxOffice: Type.Optional(Type.Number()),
+    searchAnniversaries: Type.Optional(Type.Boolean()),
+    type: Type.Optional(Type.Enum(TitleType)),
+    style: Type.Optional(Type.Enum(TitleStyle)),
+    crewMemberPosition: Type.Optional(Type.Enum(CrewPosition)),
+    genreIds: Type.Optional(Type.Array(Type.Number())),
+    studioIds: Type.Optional(Type.Array(Type.Number())),
+    countryIds: Type.Optional(Type.Array(Type.Number())),
+    ids: Type.Optional(Type.Array(Type.Number())),
   },
-};
+  { additionalProperties: false },
+);
+
+export type FilmsQuery = Static<typeof FilmsQuerySchema>;

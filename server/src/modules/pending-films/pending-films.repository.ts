@@ -1,5 +1,4 @@
 import { PendingFilm, Prisma, PrismaClient } from '@prisma/client';
-import { CreatePendingFilmInput } from './types';
 
 export class PendingFilmsRepository {
   constructor(private prismaClient: PrismaClient) {}
@@ -12,7 +11,7 @@ export class PendingFilmsRepository {
     return { list, total };
   }
 
-  create(data: CreatePendingFilmInput) {
+  create(data: Pick<PendingFilm, 'title' | 'priority'>) {
     return this.prismaClient.pendingFilm.create({ data });
   }
 

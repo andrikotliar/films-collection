@@ -1,14 +1,10 @@
-import { FastifySchema } from 'fastify';
+import { Static, Type } from '@sinclair/typebox';
 
-export const filmDetailsSchema: FastifySchema = {
-  params: {
-    type: 'object',
-    properties: {
-      id: {
-        type: 'number',
-      },
-    },
-    required: ['id'],
-    additionalProperties: false,
+export const FilmsGetParamsSchema = Type.Object(
+  {
+    id: Type.Number(),
   },
-};
+  { additionalProperties: false },
+);
+
+export type FilmsGetParams = Static<typeof FilmsGetParamsSchema>;

@@ -1,25 +1,27 @@
 import { FastifyInstance } from 'fastify';
 import fastifyPlugin from 'fastify-plugin';
-import { CollectionEventsController } from 'src/modules/collection-events/collection-events.controller';
-import { CollectionEventsRepository } from 'src/modules/collection-events/collection-events.repository';
-import { createCollectionEventRouter } from 'src/modules/collection-events/collection-events.router';
-import { CollectionEventsService } from 'src/modules/collection-events/collection-events.service';
+import { CollectionEventsController } from './collection-events.controller';
+import { CollectionEventsRepository } from './collection-events.repository';
+import { CollectionEventRouter } from './collection-events.router';
+import { CollectionEventsService } from './collection-events.service';
 
 export const CollectionEventsModule = fastifyPlugin(
   async (app: FastifyInstance) => {
     const collectionEventsRepository = new CollectionEventsRepository(
       app.database,
     );
-    const collectionEventsService = new CollectionEventsService(
-      collectionEventsRepository,
-    );
-    const collectionEventsController = new CollectionEventsController(
-      collectionEventsService,
+
+    app.decorate(
+      'collectionEventsService',
+      new CollectionEventsService(collectionEventsRepository),
     );
 
-    app.decorate('collectionEventsService', collectionEventsService);
+    app.decorate(
+      'collectionEventsController',
+      new CollectionEventsController(),
+    );
 
-    app.register(createCollectionEventRouter(collectionEventsController), {
+    app.register(CollectionEventRouter, {
       prefix: '/collection-events',
     });
   },

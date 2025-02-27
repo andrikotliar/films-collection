@@ -1,27 +1,28 @@
-import { RouterCreator } from 'src/common';
-import { AuthController } from 'src/modules/auth/auth.controller';
-import { authLoginSchema, authRegisterSchema } from 'src/modules/auth/schemas';
+import { FastifyInstance } from 'fastify';
+import { AuthLoginSchema, AuthRegisterSchema } from 'src/modules/auth/schemas';
 
-export const createAuthRouter: RouterCreator<AuthController> = (controller) => {
-  return async (authModule) => {
-    authModule.route({
-      method: 'POST',
-      url: '/login',
-      schema: authLoginSchema,
-      handler: controller.login.bind(controller),
-    });
+export const AuthRouter = async (authModule: FastifyInstance) => {
+  authModule.route({
+    method: 'POST',
+    url: '/login',
+    schema: {
+      body: AuthLoginSchema,
+    },
+    handler: authModule.authController.login,
+  });
 
-    authModule.route({
-      method: 'POST',
-      url: '/register',
-      schema: authRegisterSchema,
-      handler: controller.register.bind(controller),
-    });
+  authModule.route({
+    method: 'POST',
+    url: '/register',
+    schema: {
+      body: AuthRegisterSchema,
+    },
+    handler: authModule.authController.register,
+  });
 
-    authModule.route({
-      method: 'POST',
-      url: '/refresh',
-      handler: controller.refreshTokens.bind(controller),
-    });
-  };
+  authModule.route({
+    method: 'POST',
+    url: '/refresh',
+    handler: authModule.authController.refreshTokens,
+  });
 };

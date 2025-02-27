@@ -1,34 +1,33 @@
-import { RouterCreator } from 'src/common';
-import { FilmsController } from 'src/modules/films/films.controller';
+import { FastifyInstance } from 'fastify';
 import {
-  filmDetailsSchema,
-  filmsGetListSchema,
-  filmsSearchSchema,
-} from 'src/modules/films/schemas';
+  FilmsGetParamsSchema,
+  FilmsQuerySchema,
+  FilmsSearchQuerySchema,
+} from './schemas';
 
-export const createFilmsRouter: RouterCreator<FilmsController> = (
-  controller,
-) => {
-  return async (filmsModule) => {
-    filmsModule.route({
-      method: 'GET',
-      url: '/',
-      handler: controller.findAll.bind(controller),
-      schema: filmsGetListSchema,
-    });
+export const FilmsRouter = async (filmsModule: FastifyInstance) => {
+  filmsModule.route({
+    method: 'GET',
+    url: '/',
+    handler: filmsModule.filmsController.findAll,
+    schema: {
+      querystring: FilmsQuerySchema,
+    },
+  });
 
-    filmsModule.route({
-      method: 'GET',
-      url: '/search',
-      handler: controller.findFilmsBySearchString.bind(controller),
-      schema: filmsSearchSchema,
-    });
+  filmsModule.route({
+    method: 'GET',
+    url: '/search',
+    handler: filmsModule.filmsController.findFilmsBySearchString,
+    schema: {
+      querystring: FilmsSearchQuerySchema,
+    },
+  });
 
-    filmsModule.route({
-      method: 'GET',
-      url: '/:id',
-      schema: filmDetailsSchema,
-      handler: controller.findOne.bind(controller),
-    });
-  };
+  filmsModule.route({
+    method: 'GET',
+    url: '/:id',
+    schema: { params: FilmsGetParamsSchema },
+    handler: filmsModule.filmsController.findOne,
+  });
 };

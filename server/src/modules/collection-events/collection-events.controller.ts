@@ -2,15 +2,19 @@ import { FastifyReply, FastifyRequest } from 'fastify';
 import { ResponseCode } from 'src/common';
 import { CollectionEventsService } from './collection-events.service';
 import {
-  CreateEventRequest,
-  DeleteEventRequest,
-  UpdateEventRequest,
-} from './types';
+  CollectionEventsCreatePayload,
+  CollectionEventsDeleteParams,
+  CollectionEventsUpdateParams,
+  CollectionEventsUpdatePayload,
+} from './schemas';
 
 export class CollectionEventsController {
-  constructor(private collectionEventsService: CollectionEventsService) {}
+  collectionEventsService!: CollectionEventsService;
 
-  async createEvent(request: CreateEventRequest, reply: FastifyReply) {
+  async createEvent(
+    request: FastifyRequest<{ Body: CollectionEventsCreatePayload }>,
+    reply: FastifyReply,
+  ) {
     const createdEvent = await this.collectionEventsService.createEvent(
       request.body,
     );
@@ -24,7 +28,10 @@ export class CollectionEventsController {
     return reply.code(ResponseCode.OK).send(events);
   }
 
-  async deleteEvent(request: DeleteEventRequest, reply: FastifyReply) {
+  async deleteEvent(
+    request: FastifyRequest<{ Params: CollectionEventsDeleteParams }>,
+    reply: FastifyReply,
+  ) {
     const result = await this.collectionEventsService.deleteEvent(
       request.params.id,
     );
@@ -32,7 +39,13 @@ export class CollectionEventsController {
     return reply.code(ResponseCode.OK).send(result);
   }
 
-  async updateEvent(request: UpdateEventRequest, reply: FastifyReply) {
+  async updateEvent(
+    request: FastifyRequest<{
+      Params: CollectionEventsUpdateParams;
+      Body: CollectionEventsUpdatePayload;
+    }>,
+    reply: FastifyReply,
+  ) {
     const result = await this.collectionEventsService.updateEvent(
       request.params.id,
       request.body,
