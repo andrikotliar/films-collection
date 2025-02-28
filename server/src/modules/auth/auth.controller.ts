@@ -1,4 +1,4 @@
-import { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
+import { FastifyReply, FastifyRequest } from 'fastify';
 import { AuthService } from './auth.service';
 import {
   CookieName,
@@ -6,6 +6,7 @@ import {
   MAX_AGE_7_DAYS,
   ResponseCode,
   sendErrorResponse,
+  setCookies,
 } from 'src/common';
 import {
   AuthLoginPayload,
@@ -29,17 +30,18 @@ export class AuthController {
       });
     }
 
-    reply.setCookie(
-      CookieName.FC_ACCESS_TOKEN,
-      result.accessToken,
-      this.authService.buildCookieParams(MAX_AGE_24_HOURS),
-    );
-
-    reply.setCookie(
-      CookieName.FC_REFRESH_TOKEN,
-      result.refreshToken,
-      this.authService.buildCookieParams(MAX_AGE_7_DAYS),
-    );
+    setCookies(reply, [
+      {
+        cookieId: 'FC_ACCESS_TOKEN',
+        value: result.accessToken,
+        maxAge: MAX_AGE_24_HOURS,
+      },
+      {
+        cookieId: 'FC_REFRESH_TOKEN',
+        value: result.refreshToken,
+        maxAge: MAX_AGE_7_DAYS,
+      },
+    ]);
 
     return reply.status(ResponseCode.OK).send({ userId: result.userId });
   }
@@ -67,17 +69,18 @@ export class AuthController {
       });
     }
 
-    reply.setCookie(
-      CookieName.FC_ACCESS_TOKEN,
-      result.accessToken,
-      this.authService.buildCookieParams(MAX_AGE_24_HOURS),
-    );
-
-    reply.setCookie(
-      CookieName.FC_REFRESH_TOKEN,
-      result.refreshToken,
-      this.authService.buildCookieParams(MAX_AGE_7_DAYS),
-    );
+    setCookies(reply, [
+      {
+        cookieId: 'FC_ACCESS_TOKEN',
+        value: result.accessToken,
+        maxAge: MAX_AGE_24_HOURS,
+      },
+      {
+        cookieId: 'FC_REFRESH_TOKEN',
+        value: result.refreshToken,
+        maxAge: MAX_AGE_7_DAYS,
+      },
+    ]);
 
     return reply.status(ResponseCode.OK).send({ userId: result.userId });
   }

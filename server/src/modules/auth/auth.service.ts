@@ -1,8 +1,6 @@
 import { JWT } from '@fastify/jwt';
-import { CookieSerializeOptions } from '@fastify/cookie';
 import { compare } from 'bcrypt';
 import { UsersService } from 'src/modules/users/users.service';
-import { env } from 'src/configs';
 import {
   AuthLoginPayload,
   AuthRegisterPayload,
@@ -86,16 +84,6 @@ export class AuthService {
     return {
       accessToken,
       refreshToken,
-    };
-  }
-
-  buildCookieParams(cookieMaxAge: number): CookieSerializeOptions {
-    return {
-      httpOnly: true,
-      secure: env.NODE_ENV !== 'development',
-      path: '/',
-      sameSite: env.NODE_ENV === 'development' ? undefined : 'none',
-      maxAge: cookieMaxAge,
     };
   }
 }

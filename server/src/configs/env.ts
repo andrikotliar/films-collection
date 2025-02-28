@@ -1,7 +1,16 @@
 import { config } from 'dotenv';
-import { EnvVariables } from 'src/common';
 
 config();
+
+type EnvVariables = {
+  PORT: number;
+  DATABASE_URL: string;
+  AUTH_SECRET: string;
+  COOKIE_SECRET: string;
+  HOST?: string;
+  NODE_ENV?: string;
+  FRONTEND_ORIGIN?: string;
+};
 
 const REQUIRED_VARIABLES = [
   'PORT',
