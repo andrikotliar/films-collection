@@ -16,10 +16,11 @@ export const CrewItem: FC<CrewItemProps> = ({ crewItem }) => {
         {crewItem.people.map((person, idx) => (
           <li className={styles.person} key={idx}>
             <RouterLink
-              to={buildQueryLink({
+              to="/"
+              search={{
                 crewMemberPosition: crewItem.position,
-                crewMemberId: person.id,
-              })}
+                crewMemberId: person.id.toString(),
+              }}
               className={styles.personLink}
             >
               {person.name}
