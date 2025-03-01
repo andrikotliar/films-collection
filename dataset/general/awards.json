@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Oscar Awards",
+    "image": "awards/oscar.svg",
+    "description": "The Academy Awards, commonly known as the Oscars, are awards for artistic and technical merit for the film industry. They are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) in the United States in recognition of excellence in cinematic achievements as assessed by the Academy's voting membership. The Oscars are widely considered to be the most prestigious awards in the film industry."
+  },
+  {
+    "id": 2,
+    "title": "Saturn Awards",
+    "image": "awards/saturn.svg",
+    "description": "The Saturn Awards are American awards presented annually by the Academy of Science Fiction, Fantasy and Horror Films. The awards were created to honor science fiction, fantasy, and horror in film, but have since grown to reward other films belonging to genre fiction, as well as television and home media releases. The Saturn Awards were created in 1973 and were originally referred to as Golden Scrolls."
+  },
+  {
+    "id": 3,
+    "title": "Critics Choice Movie Awards",
+    "image": "awards/critics-choice.svg",
+    "description": "The Critics' Choice Awards is an awards show presented annually by the American-Canadian Critics Choice Association (CCA) to honor the finest in cinematic achievement. Written ballots are submitted during a week-long nominating period, and the resulting nominees are announced in December. The winners chosen by subsequent voting are revealed at the annual Critics' Choice Movie Awards ceremony in January. Additionally, special awards are given out at the discretion of the BFCA Board of Directors."
+  },
+  {
+    "id": 4,
+    "title": "BAFTA Award",
+    "image": "awards/bafta.svg",
+    "description": "The British Academy Film Awards, more commonly known as the BAFTA Awards, is an annual award show hosted by the British Academy of Film and Television Arts (BAFTA) to honour the best British and international contributions to film. "
+  },
+  {
+    "id": 5,
+    "title": "Golden Globe Awards",
+    "image": "awards/golden-globe.svg",
+    "description": "The Golden Globe Awards are accolades bestowed for excellence in both international film and television. It is an annual award ceremony held since 1944 to honor artists and professionals and their work. The ceremony is normally held every January, and has been a major part of the film industry's awards season, which culminates each year in the Academy Awards."
+  },
+  {
+    "id": 6,
+    "title": "Emmy Awards",
+    "image": "awards/emmy.svg",
+    "description": "The Emmy Awards, or Emmys, are an extensive range of awards for artistic and technical merit for the worldwide television industry. A number of annual Emmy Award ceremonies are held throughout the year, each with their own set of rules and award categories. The two events that receive the most media coverage are the Primetime Emmy Awards and the Daytime Emmy Awards, which recognize outstanding work in American primetime and daytime entertainment programming, respectively. "
+  },
+  {
+    "id": 7,
+    "title": "Annie Awards",
+    "image": "awards/annie.svg",
+    "description": "The Annie Awards are accolades which the Los Angeles branch of the International Animated Film Association, ASIFA-Hollywood, has presented each year since 1972 to recognize excellence in animation shown in American cinema and television. Originally designed to celebrate lifetime or career contributions to animation, the award has been given to individual works since 1992."
+  },
+  {
+    "id": 8,
+    "title": "MTV Movie & TV Awards",
+    "image": "awards/mtv.svg",
+    "description": "The MTV Movie & TV Awards is a film and television awards show presented annually on MTV. It began as the MTV Movie Awards in 1992, when its first edition was held, and adopted its current name in 2017, beginning with its 26th edition."
+  },
+  {
+    "id": 9,
+    "title": "Jupiter Award",
+    "image": "awards/jupiter.svg",
+    "description": "The Jupiter Award is a German annual cinema award. It is Germany's biggest audience award for cinema and TV and is awarded annually by Cinema magazine and TV Spielfilm in eleven categories. The Jupiter awards began in 1979."
+  }
+]

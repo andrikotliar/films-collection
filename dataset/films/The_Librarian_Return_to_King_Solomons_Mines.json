@@ -1,136 +1,14 @@
 {
-  "id": "6a7a1682c8cbed48f1965ce1",
-  "type": "Film",
+  "id": 187,
   "title": "The Librarian: Return to King Solomon's Mines",
-  "genres": [
-    "Adventures",
-    "Fantasy"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Jonathan Frakes"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Marco Schnabel"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Michael S. Murphey"
-        },
-        {
-          "name": "Noah Wyle"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Joseph LoDuca"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Walt Lloyd"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2006-12-03T00:00:00.000Z",
   "duration": 95,
-  "cast": [
-    {
-      "actor": "5682aa234be8275828a251fd",
-      "character": {
-        "name": "Flynn Carsen"
-      }
-    },
-    {
-      "actor": "8d08c0636b2536d2af407514",
-      "character": {
-        "name": "Emily Davenport"
-      }
-    },
-    {
-      "actor": "c7d1e2a7bc4468f9de40f667",
-      "character": {
-        "name": "Judson"
-      }
-    },
-    {
-      "actor": "ddef35144525bb2d00be1e2d",
-      "character": {
-        "name": "Charlene"
-      }
-    },
-    {
-      "actor": "3ba6b72ed4ed8ba89ca219e0",
-      "character": {
-        "name": "General Samir"
-      }
-    },
-    {
-      "actor": "86097f701d739edbb18eca3e",
-      "character": {
-        "name": "Jomo"
-      }
-    },
-    {
-      "actor": "59a5879997110526cddf0687",
-      "character": {
-        "name": "Tommy Yellow Hawk"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "39dc3b0b88848b2e1245671c"
-    }
-  ],
-  "awards": [
-    {
-      "award": "69de08782a405ee5077f50cf",
-      "nominations": [
-        {
-          "title": "Best Presentation on Television"
-        }
-      ]
-    }
-  ],
-  "rating": 1,
-  "description": [
-    {
-      "title": null,
-      "text": "Librarian-turned-adventurer Flynn Carsen endeavors to find King Solomon's mines."
-    }
-  ],
-  "chaptersId": "4eeabb329f07f4eb238a45d8",
-  "releaseDate": "2006-12-03",
-  "watchCount": 5,
-  "studios": [
-    "TNT"
-  ],
   "poster": "posters/librarian_2.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "ansvc2Muxr0"
-  ],
-  "publishStatus": "Partial"
+  "youtubeTrailerId": "ansvc2Muxr0",
+  "rating": 1,
+  "description": "Librarian-turned-adventurer Flynn Carsen endeavors to find King Solomon's mines.",
+  "chapterKey": "librarian",
+  "chapterOrder": 2
 }

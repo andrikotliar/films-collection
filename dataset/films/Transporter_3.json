@@ -1,113 +1,16 @@
 {
-  "id": "9efd52f5d645743edb8de14a",
-  "type": "Film",
+  "id": 221,
   "title": "Transporter 3",
-  "genres": [
-    "Action",
-    "Crime"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Oliver Megaton"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Luc Besson"
-        },
-        {
-          "name": "Robert Mark Kamen"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Luc Besson"
-        },
-        {
-          "name": "Stephen Chasman"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Alexandre Azaria"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Giovanni Fiore Coltellacci"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2008-11-26T00:00:00.000Z",
   "duration": 104,
-  "cast": [
-    {
-      "actor": "de0e3c154d6e85358e70d67b",
-      "character": {
-        "name": "Frank Martin"
-      }
-    },
-    {
-      "actor": "a0efd9e4f6b445956f3fcb0b",
-      "character": {
-        "name": "Valentina"
-      }
-    },
-    {
-      "actor": "27701bc9dbcd310c14d85191",
-      "character": {
-        "name": "Tarconi"
-      }
-    },
-    {
-      "actor": "7d7d94e8c1e76c82029ff5a1",
-      "character": {
-        "name": "Johnson"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "37fefe4d5c15766d5188af9f"
-    }
-  ],
+  "poster": "posters/transporter_3.webp",
+  "youtubeTrailerId": "Pbh3CDBNIQA",
   "budget": 40000000,
   "boxOffice": 109000000,
   "rating": 1,
-  "description": [
-    {
-      "title": null,
-      "text": "Frank Martin puts the driving gloves on to deliver Valentina, the kidnapped daughter of a Ukrainian government official, from Marseilles to Odessa on the Black Sea. En route, he has to contend with thugs who want to intercept Valentina's safe delivery and not let his personal feelings get in the way of his dangerous objective."
-    }
-  ],
-  "chaptersId": "25c70902689af0504af43bea",
-  "releaseDate": "2008-11-26",
-  "watchCount": 3,
-  "studios": [
-    "Europacorp"
-  ],
-  "poster": "posters/transporter_3.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "Pbh3CDBNIQA"
-  ],
-  "publishStatus": "Completed"
+  "description": "Frank Martin puts the driving gloves on to deliver Valentina, the kidnapped daughter of a Ukrainian government official, from Marseilles to Odessa on the Black Sea. En route, he has to contend with thugs who want to intercept Valentina's safe delivery and not let his personal feelings get in the way of his dangerous objective.",
+  "chapterKey": "transporter",
+  "chapterOrder": 3
 }

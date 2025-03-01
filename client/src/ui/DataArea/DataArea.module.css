@@ -1,0 +1,7 @@
+.content {
+  border: var(--app-border);
+  border-radius: 4px;
+  background-color: var(--gray-invisible);
+  width: 100%;
+  padding: 20px;
+}

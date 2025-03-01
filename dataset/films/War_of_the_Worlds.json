@@ -1,147 +1,16 @@
 {
-  "id": "a89279259bba06110ef97aeb",
-  "type": "Film",
+  "id": 226,
   "title": "War of the Worlds",
-  "genres": [
-    "Action",
-    "Sci-Fi"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Steven Spielberg"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Josh Friedman"
-        },
-        {
-          "name": "David Koepp"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Kathleen Kennedy"
-        },
-        {
-          "name": "Colin Wilson"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "John Williams"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Janusz Kaminski"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2005-06-29T00:00:00.000Z",
   "duration": 116,
-  "cast": [
-    {
-      "actor": "d1899eef1c53bc13798a897c",
-      "character": {
-        "name": "Ray Ferrier"
-      }
-    },
-    {
-      "actor": "1fcaceb85a3ff8756b1b7bfa",
-      "character": {
-        "name": "Rachel Ferrier"
-      }
-    },
-    {
-      "actor": "2ab1456dc392e1943623f837",
-      "character": {
-        "name": "Robbie Ferrier"
-      }
-    },
-    {
-      "actor": "1e6f63ac26841c5c35756f43",
-      "character": {
-        "name": "Mary-Ann"
-      }
-    },
-    {
-      "actor": "cae536d1c4e4a87333a3eed5",
-      "character": {
-        "name": "Harlan Ogilvy"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "b08c9adc92ef96ff62957107"
-    },
-    {
-      "collection": "68e24e7e148981503b661c07"
-    },
-    {
-      "collection": "f4472bb26f56fcaab829b96a",
-      "order": 7
-    }
-  ],
+  "poster": "posters/war_of_the_worlds.webp",
+  "youtubeTrailerId": "SM6aEEjc5hA",
   "budget": 132000000,
-  "awards": [
-    {
-      "award": "69de08782a405ee5077f50cf",
-      "nominations": [
-        {
-          "title": "Best Performance by a Younger Actor",
-          "actor": "1fcaceb85a3ff8756b1b7bfa"
-        }
-      ]
-    },
-    {
-      "award": "c02117d39412aa3c073faec1",
-      "nominations": [
-        {
-          "title": "Best Young Actress",
-          "actor": "1fcaceb85a3ff8756b1b7bfa"
-        }
-      ]
-    }
-  ],
   "boxOffice": 604000000,
   "rating": 3,
-  "description": [
-    {
-      "title": null,
-      "text": "An alien invasion threatens the future of humanity. The catastrophic nightmare is depicted through the eyes of one American family fighting for survival."
-    }
-  ],
-  "releaseDate": "2005-06-29",
-  "watchCount": 5,
-  "studios": [
-    "Paramount Pictures",
-    "DreamWorks Pictures",
-    "Amblin Entertainment"
-  ],
-  "poster": "posters/war_of_the_worlds.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "SM6aEEjc5hA"
-  ],
-  "publishStatus": "Completed"
+  "description": "An alien invasion threatens the future of humanity. The catastrophic nightmare is depicted through the eyes of one American family fighting for survival.",
+  "chapterKey": null,
+  "chapterOrder": null
 }

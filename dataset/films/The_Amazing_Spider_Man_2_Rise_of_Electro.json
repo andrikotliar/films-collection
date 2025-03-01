@@ -1,137 +1,16 @@
 {
-  "id": "7f7c09418a8504ca489e0149",
-  "type": "Film",
+  "id": 160,
   "title": "The Amazing Spider-Man 2: Rise of Electro",
-  "genres": [
-    "Sci-Fi",
-    "Action"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Marc Webb"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Alex Kurtzman"
-        },
-        {
-          "name": "Roberto Orci"
-        },
-        {
-          "name": "Jeff Pinkner"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Avi Arad"
-        },
-        {
-          "name": "Matt Tolmach"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Hans Zimmer"
-        },
-        {
-          "name": "Pharrell Williams"
-        },
-        {
-          "name": "Johnny Marr"
-        },
-        {
-          "name": "Mike Einziger"
-        },
-        {
-          "name": "Junkie XL"
-        },
-        {
-          "name": "Steve Mazzaro"
-        },
-        {
-          "name": "Andrew Kawczynski"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Dan Mindel"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2014-05-02T00:00:00.000Z",
   "duration": 142,
-  "cast": [
-    {
-      "actor": "4944de362b32c61551474862",
-      "character": {
-        "name": "Spider-Man / Peter Parker",
-        "image": "characters/the_amazing_spider_man_2_rise_of_electro_spider-man.webp"
-      }
-    },
-    {
-      "actor": "c01babb295ae6416292d0fd4",
-      "character": {
-        "name": "Gwen Stacy"
-      }
-    },
-    {
-      "actor": "ef83cde86ba14a39f3be9702",
-      "character": {
-        "name": "Electro / Max Dillon",
-        "image": "characters/the_amazing_spider_man_2_rise_of_electro_electro.webp"
-      }
-    },
-    {
-      "actor": "c202b52575090480ffc0e04d",
-      "character": {
-        "name": "Green Goblin / Harry Osborn"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "6b0607b285f213362f2e0790"
-    }
-  ],
+  "poster": "posters/amazing_spider_man_2.webp",
+  "youtubeTrailerId": "nbp3Ra3Yp74",
   "budget": 200000000,
   "boxOffice": 709000000,
   "rating": 2,
-  "description": [
-    {
-      "title": null,
-      "text": "When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones."
-    }
-  ],
-  "chaptersId": "81148d562ca25a0cff08d571",
-  "releaseDate": "2014-05-02",
-  "watchCount": 1,
-  "studios": [
-    "Columbia Pictures",
-    "Marvel Entertainment"
-  ],
-  "poster": "posters/amazing_spider_man_2.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "nbp3Ra3Yp74"
-  ],
-  "publishStatus": "Completed"
+  "description": "When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones.",
+  "chapterKey": "amazing-spider-man",
+  "chapterOrder": 2
 }

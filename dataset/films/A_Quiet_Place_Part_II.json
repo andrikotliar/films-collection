@@ -1,128 +1,16 @@
 {
-  "id": "6db02a11ff84a81a007f8e01",
-  "type": "Film",
+  "id": 8,
   "title": "A Quiet Place Part II",
-  "genres": [
-    "Sci-Fi",
-    "Horror"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "John Krasinski"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "John Krasinski"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Michael Bay"
-        },
-        {
-          "name": "Andrew Form"
-        },
-        {
-          "name": "Brad Fuller"
-        },
-        {
-          "name": "John Krasinski"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Marco Beltrami"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Polly Morgan"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2021-05-28T00:00:00.000Z",
   "duration": 97,
-  "cast": [
-    {
-      "actor": "48bc6851537e5e5dc1bf99ca",
-      "character": {
-        "name": "Evelyn Abbott"
-      }
-    },
-    {
-      "actor": "363223be89ee678b9ac594d3",
-      "character": {
-        "name": "Lee Abbott"
-      }
-    },
-    {
-      "actor": "02739f3351eb701eaca4c00e",
-      "character": {
-        "name": "Regan Abbott"
-      }
-    },
-    {
-      "actor": "08f4518a7166226e5800cc1d",
-      "character": {
-        "name": "Marcus Abbott"
-      }
-    },
-    {
-      "actor": "fe1abb15a45afafd3263a771",
-      "character": {
-        "name": "Emmett"
-      }
-    },
-    {
-      "actor": "bdb2e64bab1a24a00031585c",
-      "character": {
-        "name": "Man on Island"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "b08c9adc92ef96ff62957107"
-    }
-  ],
+  "poster": "posters/quiet_place_2.webp",
+  "youtubeTrailerId": "BpdDN9d9Jio",
   "budget": 160000000,
   "boxOffice": 297000000,
   "rating": 2,
-  "description": [
-    {
-      "title": null,
-      "text": "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize the creatures that hunt by sound are not the only threats lurking beyond the sand path."
-    }
-  ],
-  "chaptersId": "1c30dbe27f9fe9ce1656406b",
-  "releaseDate": "2021-05-28",
-  "watchCount": 1,
-  "studios": [
-    "Paramount Pictures"
-  ],
-  "poster": "posters/quiet_place_2.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "BpdDN9d9Jio"
-  ],
-  "publishStatus": "Completed"
+  "description": "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize the creatures that hunt by sound are not the only threats lurking beyond the sand path.",
+  "chapterKey": "quiet-place",
+  "chapterOrder": 2
 }

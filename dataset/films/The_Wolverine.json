@@ -1,121 +1,16 @@
 {
-  "id": "fa26e49f50de43e1d94e5fe8",
-  "type": "Film",
+  "id": 212,
   "title": "The Wolverine",
-  "genres": [
-    "Sci-Fi",
-    "Action"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "James Mangold"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Mark Bomback"
-        },
-        {
-          "name": "Scott Frank"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Hutch Parker"
-        },
-        {
-          "name": "Lauren Shuler Donner"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Marco Beltrami"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Ross Emery"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA",
-    "UK"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2013-07-26T00:00:00.000Z",
   "duration": 126,
-  "cast": [
-    {
-      "actor": "544abb6ffddc8ddf4056b862",
-      "character": {
-        "name": "Logan"
-      }
-    },
-    {
-      "actor": "56b7ae98211d125abbedc71d",
-      "character": {
-        "name": "Mariko Yashida"
-      }
-    },
-    {
-      "actor": "8eb0259bbb2844ba1103e0bd",
-      "character": {
-        "name": "Shingen Yashida"
-      }
-    },
-    {
-      "actor": "2689f49ce18fe1b19f96b223",
-      "character": {
-        "name": "Yukio"
-      }
-    },
-    {
-      "actor": "8a3b8628f312f47ba432f8a0",
-      "character": {
-        "name": "Dr. Green / Viper"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "6b0607b285f213362f2e0790"
-    }
-  ],
+  "poster": "posters/wolverine.webp",
+  "youtubeTrailerId": "toLpchTUYk8",
   "budget": 132000000,
   "boxOffice": 415000000,
   "rating": 2,
-  "description": [
-    {
-      "title": null,
-      "text": "Wolverine comes to Japan to meet an old friend whose life he saved years ago, and gets embroiled in a conspiracy involving yakuza and mutants."
-    }
-  ],
-  "chaptersId": "39322de8cb5cb1b16fcafb89",
-  "releaseDate": "2013-07-26",
-  "watchCount": 1,
-  "studios": [
-    "20th Century FOX",
-    "Marvel Entertainment"
-  ],
-  "poster": "posters/wolverine.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "toLpchTUYk8"
-  ],
-  "publishStatus": "Completed"
+  "description": "Wolverine comes to Japan to meet an old friend whose life he saved years ago, and gets embroiled in a conspiracy involving yakuza and mutants.",
+  "chapterKey": "x-men",
+  "chapterOrder": 8
 }

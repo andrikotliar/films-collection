@@ -2,7 +2,6 @@ export * from './FilmPageLayout/FilmPageLayout';
 export * from './ContentLayout/ContentLayout';
 export * from './TitleRow/TitleRow';
 export * from './SummarySection/SummarySection';
-export * from './SectionTitle/SectionTitle';
 export * from './Awards/Awards';
 export * from './Cast/Cast';
 export * from './CrewList/CrewList';

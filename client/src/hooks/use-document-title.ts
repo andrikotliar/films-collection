@@ -1,11 +1,10 @@
+import { env } from '@/configs';
 import { APP_TITLE } from '@/constants';
 import { useEffect } from 'react';
 
 export const getTitle = (pageTitle?: string) => {
-  const prefix = import.meta.env.VITE_APP_TITLE_PREFIX;
-
-  if (import.meta.env.VITE_APP_TITLE_PREFIX) {
-    return `${prefix} - ${APP_TITLE}`;
+  if (env.titlePrefix) {
+    return `${env.titlePrefix} - ${APP_TITLE}`;
   }
 
   if (pageTitle) {

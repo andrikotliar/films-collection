@@ -1,132 +1,16 @@
 {
-  "id": "ae37d4b1849fc2d3a9dcebb5",
-  "type": "Film",
+  "id": 86,
   "title": "Jumanji",
-  "genres": [
-    "Fantasy",
-    "Adventures"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Joe Johnston"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Greg Taylor"
-        },
-        {
-          "name": "Jonathan Hensleigh"
-        },
-        {
-          "name": "Jim Strain"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Scott Kroopf"
-        },
-        {
-          "name": "William Teitler"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "James Horner"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Thomas E. Ackerman"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1995-12-15T00:00:00.000Z",
   "duration": 104,
-  "cast": [
-    {
-      "actor": "f5de152199c29694307ff207",
-      "character": {
-        "name": "Alan Parrish"
-      }
-    },
-    {
-      "actor": "c90c94e58f8dbde0ca35a253",
-      "character": {
-        "name": "Sarah Whittle"
-      }
-    },
-    {
-      "actor": "1a56afd931fe087b7c4de4c1",
-      "character": {
-        "name": "Judy Shepherd"
-      }
-    },
-    {
-      "actor": "e454e29c15128dc18d2edbd6",
-      "character": {
-        "name": "Peter Shepherd"
-      }
-    },
-    {
-      "actor": "d534ecf817056c7592bbd058",
-      "character": {
-        "name": "Van Pelt"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "fc7990b24ef954ab02087cc8"
-    }
-  ],
+  "poster": "posters/jumanji_1.webp",
+  "youtubeTrailerId": "5p18zqZmeiI",
   "budget": 65000000,
-  "awards": [
-    {
-      "award": "69de08782a405ee5077f50cf",
-      "nominations": [
-        {
-          "title": "Best Supporting Actress",
-          "actor": "c90c94e58f8dbde0ca35a253"
-        }
-      ]
-    }
-  ],
   "boxOffice": 263000000,
   "rating": 1,
-  "description": [
-    {
-      "title": null,
-      "text": "When two kids find and play a magical board game, they release a man trapped for decades in it and a host of dangers that can only be stopped by finishing the game."
-    }
-  ],
-  "releaseDate": "1995-12-15",
-  "watchCount": 5,
-  "studios": [
-    "Tristar"
-  ],
-  "poster": "posters/jumanji_1.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "5p18zqZmeiI"
-  ],
-  "publishStatus": "Completed"
+  "description": "When two kids find and play a magical board game, they release a man trapped for decades in it and a host of dangers that can only be stopped by finishing the game.",
+  "chapterKey": null,
+  "chapterOrder": null
 }

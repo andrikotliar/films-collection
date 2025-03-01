@@ -1,143 +1,16 @@
 {
-  "id": "7d3ebf4854b1aace2c138889",
-  "type": "Film",
+  "id": 102,
   "title": "Mission: Impossible",
-  "genres": [
-    "Action",
-    "Adventures"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Brian De Palma"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "David Koepp"
-        },
-        {
-          "name": "Robert Towne"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Tom Cruise"
-        },
-        {
-          "name": "Paula Wagner"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Danny Elfman"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Stephen H. Burum"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1996-05-22T00:00:00.000Z",
   "duration": 110,
-  "cast": [
-    {
-      "actor": "d1899eef1c53bc13798a897c",
-      "character": {
-        "name": "Ethan Hunt"
-      }
-    },
-    {
-      "actor": "4062c88e25a90d128bb324fa",
-      "character": {
-        "name": "Jim Phelps"
-      }
-    },
-    {
-      "actor": "7a01dfc0fa21e042fee39c52",
-      "character": {
-        "name": "Claire"
-      }
-    },
-    {
-      "actor": "d2adf6bb114c93c2a3e24aa3",
-      "character": {
-        "name": "Kittridge"
-      }
-    },
-    {
-      "actor": "baaa87472cc6850cbd68ed41",
-      "character": {
-        "name": "Krieger"
-      }
-    },
-    {
-      "actor": "4b4ebf97ca75b72088e2c948",
-      "character": {
-        "name": "Luther"
-      }
-    },
-    {
-      "actor": "8674ee6f0823d3570a1c72b2",
-      "character": {
-        "name": "Sarah Davies"
-      }
-    },
-    {
-      "actor": "05b15fac044a11dd5d31d0ad",
-      "character": {
-        "name": "Max"
-      }
-    },
-    {
-      "actor": "f9eebe09c0ccba9ba1b36fbd",
-      "character": {
-        "name": "Hannah"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "47a859c4e3db02afffd2569e"
-    }
-  ],
+  "poster": "posters/mi_1.webp",
+  "youtubeTrailerId": "Ohws8y572KE",
   "budget": 80000000,
   "boxOffice": 458000000,
   "rating": 2,
-  "description": [
-    {
-      "title": null,
-      "text": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization."
-    }
-  ],
-  "chaptersId": "7201769b07df74e644bc0b02",
-  "releaseDate": "1996-05-22",
-  "watchCount": 2,
-  "studios": [
-    "Paramount Pictures"
-  ],
-  "poster": "posters/mi_1.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "Ohws8y572KE"
-  ],
-  "publishStatus": "Completed"
+  "description": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization.",
+  "chapterKey": "missin-impossible",
+  "chapterOrder": 1
 }

@@ -25,7 +25,7 @@ export const getFormattedMoneyValue = (value: number | null): string | null => {
   const valueLength = value.toString().length;
   const divisor = getDivisor(valueLength);
 
-  const formattedValue = value / divisor.value;
+  const formattedValue = Number(value) / divisor.value;
 
   return `$${formattedValue} ${divisor.label}`;
 };

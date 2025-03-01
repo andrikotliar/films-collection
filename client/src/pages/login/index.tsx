@@ -1,12 +1,11 @@
-import { LocalStorageKey } from '@/enums';
 import { useNavigate } from '@tanstack/react-router';
 import { FormProvider, useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { LoginForm, LoginLayout } from './components';
 import { useMutation } from '@tanstack/react-query';
-import { HttpError } from '@/services';
+import { HttpError, LocalStorage } from '@/services';
 import { AuthResponse, LoginPayload } from '@/types';
-import { ErrorMessage } from '@/components';
+import { ErrorMessage } from '@/ui';
 import { loginFormSchema } from './validation';
 import { AuthenticationApi } from '@/api';
 
@@ -26,7 +25,7 @@ export const LoginPage = () => {
     mutationFn: AuthenticationApi.login,
     onSuccess: (result) => {
       if (result.userId) {
-        localStorage.setItem(LocalStorageKey.IS_AUTHENTICATED, 'true');
+        LocalStorage.setItem('IS_AUTHENTICATED', true);
 
         navigate({ to: '/console/pending' });
       }

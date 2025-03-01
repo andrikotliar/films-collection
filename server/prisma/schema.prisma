@@ -1,0 +1,281 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Film {
+  id               Int                   @id @default(autoincrement())
+  title            String
+  type             TitleType             @default(FILM)
+  style            TitleStyle            @default(LIVE_ACTION)
+  releaseDate      DateTime              @map("release_date") @db.Date
+  duration         Int                   @default(0)
+  description      String
+  poster           String?
+  youtubeTrailerId String?               @map("youtube_trailer_id")
+  budget           BigInt                @default(0)
+  boxOffice        BigInt                @default(0) @map("box_office")
+  rating           Int                   @default(1)
+  chapterKey       String?               @map("chapter_key")
+  chapterOrder     Int?                  @map("chapter_order")
+  createdAt        DateTime              @default(now()) @map("created_at")
+  updatedAt        DateTime              @updatedAt @map("updated_at")
+  draft            Boolean               @default(false)
+  crew             FilmCrew[]
+  cast             FilmCast[]
+  genres           FilmGenre[]
+  countries        FilmCountry[]
+  studios          FilmStudio[]
+  collections      FilmCollection[]
+  awards           FilmAwardNomination[]
+  seriesExtension  SeriesExtension?
+
+  @@index([title])
+  @@map("films")
+}
+
+model Person {
+  id          Int                   @id @default(autoincrement())
+  name        String
+  image       String?
+  filmsMember FilmCrew[]
+  starredIn   FilmCast[]
+  awards      FilmAwardNomination[]
+
+  @@map("people")
+}
+
+model FilmCrew {
+  id       Int          @id @default(autoincrement())
+  person   Person       @relation(fields: [personId], references: [id])
+  personId Int          @map("person_id")
+  film     Film         @relation(fields: [filmId], references: [id])
+  filmId   Int          @map("film_id")
+  position CrewPosition
+  comment  String?
+
+  @@map("film_crew")
+}
+
+model FilmCast {
+  id             Int     @id @default(autoincrement())
+  person         Person  @relation(fields: [personId], references: [id])
+  personId       Int     @map("person_id")
+  film           Film    @relation(fields: [filmId], references: [id])
+  filmId         Int     @map("film_id")
+  characterName  String  @map("character_name")
+  characterImage String? @map("character_image")
+
+  @@map("film_cast")
+}
+
+model Genre {
+  id    Int         @id @default(autoincrement())
+  title String      @unique
+  films FilmGenre[]
+
+  @@map("genres")
+}
+
+model FilmGenre {
+  id      Int   @id @default(autoincrement())
+  filmId  Int   @map("film_id")
+  film    Film  @relation(fields: [filmId], references: [id])
+  genreId Int   @map("genre_id")
+  genre   Genre @relation(fields: [genreId], references: [id])
+
+  @@unique([filmId, genreId])
+  @@map("films_genres")
+}
+
+model Country {
+  id    Int           @id @default(autoincrement())
+  title String        @unique
+  films FilmCountry[]
+
+  @@map("countries")
+}
+
+model FilmCountry {
+  id        Int     @id @default(autoincrement())
+  filmId    Int     @map("film_id")
+  film      Film    @relation(fields: [filmId], references: [id])
+  countryId Int     @map("country_id")
+  country   Country @relation(fields: [countryId], references: [id])
+
+  @@unique([filmId, countryId])
+  @@map("films_countries")
+}
+
+model Studio {
+  id    Int          @id @default(autoincrement())
+  title String       @unique
+  films FilmStudio[]
+
+  @@map("studios")
+}
+
+model FilmStudio {
+  id       Int    @id @default(autoincrement())
+  filmId   Int    @map("film_id")
+  film     Film   @relation(fields: [filmId], references: [id])
+  studioId Int    @map("studio_id")
+  studio   Studio @relation(fields: [studioId], references: [id])
+
+  @@unique([filmId, studioId])
+  @@map("films_studios")
+}
+
+model Collection {
+  id          Int                @id @default(autoincrement())
+  title       String             @unique
+  description String?
+  category    CollectionCategory @default(GENERAL)
+  films       FilmCollection[]
+  events      CollectionEvent[]
+
+  @@map("collections")
+}
+
+model FilmCollection {
+  id           Int        @id @default(autoincrement())
+  filmId       Int        @map("film_id")
+  film         Film       @relation(fields: [filmId], references: [id])
+  collectionId Int        @map("collection_id")
+  collection   Collection @relation(fields: [collectionId], references: [id])
+  order        Int?
+
+  @@unique([filmId, collectionId])
+  @@map("films_collections")
+}
+
+model Award {
+  id          Int                   @id @default(autoincrement())
+  title       String                @unique
+  description String?
+  image       String
+  nominations Nomination[]
+  films       FilmAwardNomination[]
+
+  @@map("awards")
+}
+
+model Nomination {
+  id      Int                   @id @default(autoincrement())
+  title   String
+  award   Award                 @relation(fields: [awardId], references: [id])
+  awardId Int                   @map("award_id")
+  films   FilmAwardNomination[]
+
+  @@map("nominations")
+}
+
+model FilmAwardNomination {
+  id           Int        @id @default(autoincrement())
+  awardId      Int        @map("award_id")
+  award        Award      @relation(fields: [awardId], references: [id])
+  nomination   Nomination @relation(fields: [nominationId], references: [id])
+  nominationId Int        @map("nomination_id")
+  film         Film       @relation(fields: [filmId], references: [id])
+  filmId       Int        @map("film_id")
+  comment      String?
+  actorId      Int?       @map("actor_id")
+  person       Person?    @relation(fields: [actorId], references: [id])
+
+  @@unique([awardId, filmId, nominationId])
+  @@map("film_award_nominations")
+}
+
+model SeriesExtension {
+  id            Int            @id @default(autoincrement())
+  episodesTotal Int            @default(1) @map("episodes_total")
+  seasonsTotal  Int            @default(1) @map("seasons_total")
+  seasons       SeriesSeason[]
+  filmId        Int            @unique @map("film_id")
+  film          Film?          @relation(fields: [filmId], references: [id])
+
+  @@map("series_extensions")
+}
+
+model SeriesSeason {
+  id                Int             @id @default(autoincrement())
+  number            Int
+  title             String?
+  description       String
+  episodesCount     Int             @default(1) @map("episodes_count")
+  releaseDate       DateTime        @map("release_date") @db.Date
+  youtubeTrailerId  String?         @map("youtube_trailer_id")
+  seriesExtension   SeriesExtension @relation(fields: [seriesExtensionId], references: [id])
+  seriesExtensionId Int             @map("series_extension_id")
+
+  @@map("series_seasons")
+}
+
+model User {
+  id           Int      @id @default(autoincrement())
+  username     String   @unique
+  password     String
+  refreshToken String?  @map("refresh_token")
+  verified     Boolean? @default(false)
+
+  @@map("users")
+}
+
+model PendingFilm {
+  id        Int      @id @default(autoincrement())
+  title     String
+  priority  Int      @default(1)
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("pending_films")
+}
+
+model CollectionEvent {
+  id            Int        @id @default(autoincrement())
+  title         String
+  image         String
+  collection    Collection @relation(fields: [collectionId], references: [id])
+  collectionId  Int        @map("collection_id")
+  startDateCode Int        @map("start_date_code")
+  endDateCode   Int        @map("end_date_code")
+
+  @@map("collection_events")
+}
+
+enum TitleType {
+  FILM
+  SERIES
+
+  @@map("title_type")
+}
+
+enum TitleStyle {
+  LIVE_ACTION
+  ANIMATION
+
+  @@map("title_style")
+}
+
+enum CollectionCategory {
+  GENERAL
+  CINEMATIC_UNIVERSE
+  TOP
+
+  @@map("collection_category")
+}
+
+enum CrewPosition {
+  DIRECTOR
+  WRITER
+  PRODUCER
+  COMPOSER
+  CAMERAMAN
+  CREATOR
+
+  @@map("crew_position")
+}

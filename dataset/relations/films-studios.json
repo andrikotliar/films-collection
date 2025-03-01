@@ -1,0 +1,1450 @@
+[
+  {
+    "filmId": 5,
+    "studioId": 12
+  },
+  {
+    "filmId": 6,
+    "studioId": 13
+  },
+  {
+    "filmId": 7,
+    "studioId": 14
+  },
+  {
+    "filmId": 8,
+    "studioId": 14
+  },
+  {
+    "filmId": 9,
+    "studioId": 6
+  },
+  {
+    "filmId": 10,
+    "studioId": 6
+  },
+  {
+    "filmId": 11,
+    "studioId": 6
+  },
+  {
+    "filmId": 12,
+    "studioId": 19
+  },
+  {
+    "filmId": 12,
+    "studioId": 20
+  },
+  {
+    "filmId": 13,
+    "studioId": 1
+  },
+  {
+    "filmId": 13,
+    "studioId": 4
+  },
+  {
+    "filmId": 14,
+    "studioId": 1
+  },
+  {
+    "filmId": 14,
+    "studioId": 4
+  },
+  {
+    "filmId": 15,
+    "studioId": 18
+  },
+  {
+    "filmId": 15,
+    "studioId": 8
+  },
+  {
+    "filmId": 16,
+    "studioId": 17
+  },
+  {
+    "filmId": 16,
+    "studioId": 21
+  },
+  {
+    "filmId": 2,
+    "studioId": 6
+  },
+  {
+    "filmId": 17,
+    "studioId": 22
+  },
+  {
+    "filmId": 18,
+    "studioId": 7
+  },
+  {
+    "filmId": 18,
+    "studioId": 23
+  },
+  {
+    "filmId": 18,
+    "studioId": 24
+  },
+  {
+    "filmId": 19,
+    "studioId": 1
+  },
+  {
+    "filmId": 19,
+    "studioId": 4
+  },
+  {
+    "filmId": 20,
+    "studioId": 13
+  },
+  {
+    "filmId": 21,
+    "studioId": 13
+  },
+  {
+    "filmId": 22,
+    "studioId": 13
+  },
+  {
+    "filmId": 23,
+    "studioId": 8
+  },
+  {
+    "filmId": 23,
+    "studioId": 25
+  },
+  {
+    "filmId": 24,
+    "studioId": 18
+  },
+  {
+    "filmId": 24,
+    "studioId": 8
+  },
+  {
+    "filmId": 25,
+    "studioId": 1
+  },
+  {
+    "filmId": 25,
+    "studioId": 4
+  },
+  {
+    "filmId": 26,
+    "studioId": 4
+  },
+  {
+    "filmId": 27,
+    "studioId": 1
+  },
+  {
+    "filmId": 27,
+    "studioId": 4
+  },
+  {
+    "filmId": 28,
+    "studioId": 4
+  },
+  {
+    "filmId": 28,
+    "studioId": 14
+  },
+  {
+    "filmId": 29,
+    "studioId": 1
+  },
+  {
+    "filmId": 29,
+    "studioId": 4
+  },
+  {
+    "filmId": 30,
+    "studioId": 1
+  },
+  {
+    "filmId": 30,
+    "studioId": 4
+  },
+  {
+    "filmId": 31,
+    "studioId": 12
+  },
+  {
+    "filmId": 32,
+    "studioId": 26
+  },
+  {
+    "filmId": 33,
+    "studioId": 17
+  },
+  {
+    "filmId": 34,
+    "studioId": 27
+  },
+  {
+    "filmId": 35,
+    "studioId": 27
+  },
+  {
+    "filmId": 36,
+    "studioId": 1
+  },
+  {
+    "filmId": 36,
+    "studioId": 4
+  },
+  {
+    "filmId": 37,
+    "studioId": 8
+  },
+  {
+    "filmId": 37,
+    "studioId": 25
+  },
+  {
+    "filmId": 38,
+    "studioId": 8
+  },
+  {
+    "filmId": 39,
+    "studioId": 4
+  },
+  {
+    "filmId": 39,
+    "studioId": 1
+  },
+  {
+    "filmId": 40,
+    "studioId": 13
+  },
+  {
+    "filmId": 41,
+    "studioId": 13
+  },
+  {
+    "filmId": 42,
+    "studioId": 13
+  },
+  {
+    "filmId": 43,
+    "studioId": 1
+  },
+  {
+    "filmId": 43,
+    "studioId": 3
+  },
+  {
+    "filmId": 44,
+    "studioId": 8
+  },
+  {
+    "filmId": 45,
+    "studioId": 6
+  },
+  {
+    "filmId": 46,
+    "studioId": 13
+  },
+  {
+    "filmId": 47,
+    "studioId": 13
+  },
+  {
+    "filmId": 48,
+    "studioId": 26
+  },
+  {
+    "filmId": 49,
+    "studioId": 10
+  },
+  {
+    "filmId": 49,
+    "studioId": 12
+  },
+  {
+    "filmId": 50,
+    "studioId": 28
+  },
+  {
+    "filmId": 50,
+    "studioId": 29
+  },
+  {
+    "filmId": 50,
+    "studioId": 30
+  },
+  {
+    "filmId": 51,
+    "studioId": 1
+  },
+  {
+    "filmId": 51,
+    "studioId": 4
+  },
+  {
+    "filmId": 52,
+    "studioId": 1
+  },
+  {
+    "filmId": 52,
+    "studioId": 4
+  },
+  {
+    "filmId": 53,
+    "studioId": 12
+  },
+  {
+    "filmId": 54,
+    "studioId": 8
+  },
+  {
+    "filmId": 54,
+    "studioId": 31
+  },
+  {
+    "filmId": 55,
+    "studioId": 8
+  },
+  {
+    "filmId": 56,
+    "studioId": 8
+  },
+  {
+    "filmId": 57,
+    "studioId": 8
+  },
+  {
+    "filmId": 58,
+    "studioId": 8
+  },
+  {
+    "filmId": 59,
+    "studioId": 8
+  },
+  {
+    "filmId": 60,
+    "studioId": 8
+  },
+  {
+    "filmId": 61,
+    "studioId": 8
+  },
+  {
+    "filmId": 62,
+    "studioId": 8
+  },
+  {
+    "filmId": 63,
+    "studioId": 4
+  },
+  {
+    "filmId": 64,
+    "studioId": 32
+  },
+  {
+    "filmId": 64,
+    "studioId": 33
+  },
+  {
+    "filmId": 64,
+    "studioId": 34
+  },
+  {
+    "filmId": 65,
+    "studioId": 12
+  },
+  {
+    "filmId": 66,
+    "studioId": 16
+  },
+  {
+    "filmId": 67,
+    "studioId": 16
+  },
+  {
+    "filmId": 68,
+    "studioId": 16
+  },
+  {
+    "filmId": 68,
+    "studioId": 13
+  },
+  {
+    "filmId": 69,
+    "studioId": 35
+  },
+  {
+    "filmId": 69,
+    "studioId": 14
+  },
+  {
+    "filmId": 70,
+    "studioId": 6
+  },
+  {
+    "filmId": 71,
+    "studioId": 8
+  },
+  {
+    "filmId": 71,
+    "studioId": 31
+  },
+  {
+    "filmId": 72,
+    "studioId": 6
+  },
+  {
+    "filmId": 72,
+    "studioId": 36
+  },
+  {
+    "filmId": 73,
+    "studioId": 6
+  },
+  {
+    "filmId": 73,
+    "studioId": 36
+  },
+  {
+    "filmId": 74,
+    "studioId": 6
+  },
+  {
+    "filmId": 74,
+    "studioId": 36
+  },
+  {
+    "filmId": 75,
+    "studioId": 6
+  },
+  {
+    "filmId": 76,
+    "studioId": 8
+  },
+  {
+    "filmId": 76,
+    "studioId": 25
+  },
+  {
+    "filmId": 77,
+    "studioId": 6
+  },
+  {
+    "filmId": 78,
+    "studioId": 14
+  },
+  {
+    "filmId": 78,
+    "studioId": 37
+  },
+  {
+    "filmId": 79,
+    "studioId": 14
+  },
+  {
+    "filmId": 79,
+    "studioId": 37
+  },
+  {
+    "filmId": 80,
+    "studioId": 14
+  },
+  {
+    "filmId": 80,
+    "studioId": 37
+  },
+  {
+    "filmId": 81,
+    "studioId": 14
+  },
+  {
+    "filmId": 81,
+    "studioId": 37
+  },
+  {
+    "filmId": 82,
+    "studioId": 14
+  },
+  {
+    "filmId": 82,
+    "studioId": 8
+  },
+  {
+    "filmId": 3,
+    "studioId": 4
+  },
+  {
+    "filmId": 3,
+    "studioId": 14
+  },
+  {
+    "filmId": 83,
+    "studioId": 4
+  },
+  {
+    "filmId": 83,
+    "studioId": 14
+  },
+  {
+    "filmId": 84,
+    "studioId": 1
+  },
+  {
+    "filmId": 84,
+    "studioId": 4
+  },
+  {
+    "filmId": 85,
+    "studioId": 1
+  },
+  {
+    "filmId": 86,
+    "studioId": 38
+  },
+  {
+    "filmId": 87,
+    "studioId": 13
+  },
+  {
+    "filmId": 87,
+    "studioId": 39
+  },
+  {
+    "filmId": 88,
+    "studioId": 13
+  },
+  {
+    "filmId": 88,
+    "studioId": 39
+  },
+  {
+    "filmId": 89,
+    "studioId": 13
+  },
+  {
+    "filmId": 90,
+    "studioId": 41
+  },
+  {
+    "filmId": 90,
+    "studioId": 42
+  },
+  {
+    "filmId": 91,
+    "studioId": 16
+  },
+  {
+    "filmId": 92,
+    "studioId": 17
+  },
+  {
+    "filmId": 93,
+    "studioId": 6
+  },
+  {
+    "filmId": 93,
+    "studioId": 5
+  },
+  {
+    "filmId": 94,
+    "studioId": 2
+  },
+  {
+    "filmId": 94,
+    "studioId": 4
+  },
+  {
+    "filmId": 95,
+    "studioId": 14
+  },
+  {
+    "filmId": 96,
+    "studioId": 16
+  },
+  {
+    "filmId": 97,
+    "studioId": 16
+  },
+  {
+    "filmId": 98,
+    "studioId": 8
+  },
+  {
+    "filmId": 98,
+    "studioId": 18
+  },
+  {
+    "filmId": 99,
+    "studioId": 12
+  },
+  {
+    "filmId": 100,
+    "studioId": 12
+  },
+  {
+    "filmId": 101,
+    "studioId": 6
+  },
+  {
+    "filmId": 102,
+    "studioId": 14
+  },
+  {
+    "filmId": 103,
+    "studioId": 14
+  },
+  {
+    "filmId": 104,
+    "studioId": 14
+  },
+  {
+    "filmId": 105,
+    "studioId": 14
+  },
+  {
+    "filmId": 106,
+    "studioId": 14
+  },
+  {
+    "filmId": 107,
+    "studioId": 14
+  },
+  {
+    "filmId": 108,
+    "studioId": 3
+  },
+  {
+    "filmId": 109,
+    "studioId": 6
+  },
+  {
+    "filmId": 110,
+    "studioId": 43
+  },
+  {
+    "filmId": 111,
+    "studioId": 13
+  },
+  {
+    "filmId": 112,
+    "studioId": 8
+  },
+  {
+    "filmId": 112,
+    "studioId": 25
+  },
+  {
+    "filmId": 113,
+    "studioId": 12
+  },
+  {
+    "filmId": 114,
+    "studioId": 6
+  },
+  {
+    "filmId": 115,
+    "studioId": 1
+  },
+  {
+    "filmId": 115,
+    "studioId": 44
+  },
+  {
+    "filmId": 116,
+    "studioId": 1
+  },
+  {
+    "filmId": 116,
+    "studioId": 44
+  },
+  {
+    "filmId": 117,
+    "studioId": 1
+  },
+  {
+    "filmId": 117,
+    "studioId": 44
+  },
+  {
+    "filmId": 118,
+    "studioId": 1
+  },
+  {
+    "filmId": 118,
+    "studioId": 44
+  },
+  {
+    "filmId": 119,
+    "studioId": 6
+  },
+  {
+    "filmId": 120,
+    "studioId": 1
+  },
+  {
+    "filmId": 121,
+    "studioId": 1
+  },
+  {
+    "filmId": 122,
+    "studioId": 8
+  },
+  {
+    "filmId": 122,
+    "studioId": 39
+  },
+  {
+    "filmId": 123,
+    "studioId": 15
+  },
+  {
+    "filmId": 124,
+    "studioId": 37
+  },
+  {
+    "filmId": 124,
+    "studioId": 1
+  },
+  {
+    "filmId": 125,
+    "studioId": 1
+  },
+  {
+    "filmId": 125,
+    "studioId": 4
+  },
+  {
+    "filmId": 126,
+    "studioId": 18
+  },
+  {
+    "filmId": 126,
+    "studioId": 8
+  },
+  {
+    "filmId": 127,
+    "studioId": 45
+  },
+  {
+    "filmId": 128,
+    "studioId": 16
+  },
+  {
+    "filmId": 129,
+    "studioId": 16
+  },
+  {
+    "filmId": 130,
+    "studioId": 37
+  },
+  {
+    "filmId": 130,
+    "studioId": 1
+  },
+  {
+    "filmId": 131,
+    "studioId": 43
+  },
+  {
+    "filmId": 132,
+    "studioId": 6
+  },
+  {
+    "filmId": 133,
+    "studioId": 12
+  },
+  {
+    "filmId": 133,
+    "studioId": 5
+  },
+  {
+    "filmId": 134,
+    "studioId": 12
+  },
+  {
+    "filmId": 134,
+    "studioId": 5
+  },
+  {
+    "filmId": 135,
+    "studioId": 12
+  },
+  {
+    "filmId": 135,
+    "studioId": 5
+  },
+  {
+    "filmId": 136,
+    "studioId": 10
+  },
+  {
+    "filmId": 136,
+    "studioId": 4
+  },
+  {
+    "filmId": 137,
+    "studioId": 1
+  },
+  {
+    "filmId": 137,
+    "studioId": 4
+  },
+  {
+    "filmId": 138,
+    "studioId": 11
+  },
+  {
+    "filmId": 138,
+    "studioId": 12
+  },
+  {
+    "filmId": 138,
+    "studioId": 5
+  },
+  {
+    "filmId": 139,
+    "studioId": 4
+  },
+  {
+    "filmId": 139,
+    "studioId": 10
+  },
+  {
+    "filmId": 140,
+    "studioId": 14
+  },
+  {
+    "filmId": 140,
+    "studioId": 46
+  },
+  {
+    "filmId": 141,
+    "studioId": 14
+  },
+  {
+    "filmId": 141,
+    "studioId": 46
+  },
+  {
+    "filmId": 142,
+    "studioId": 14
+  },
+  {
+    "filmId": 142,
+    "studioId": 46
+  },
+  {
+    "filmId": 143,
+    "studioId": 6
+  },
+  {
+    "filmId": 143,
+    "studioId": 37
+  },
+  {
+    "filmId": 144,
+    "studioId": 6
+  },
+  {
+    "filmId": 144,
+    "studioId": 37
+  },
+  {
+    "filmId": 145,
+    "studioId": 6
+  },
+  {
+    "filmId": 145,
+    "studioId": 37
+  },
+  {
+    "filmId": 146,
+    "studioId": 6
+  },
+  {
+    "filmId": 146,
+    "studioId": 37
+  },
+  {
+    "filmId": 147,
+    "studioId": 1
+  },
+  {
+    "filmId": 147,
+    "studioId": 37
+  },
+  {
+    "filmId": 148,
+    "studioId": 1
+  },
+  {
+    "filmId": 148,
+    "studioId": 37
+  },
+  {
+    "filmId": 149,
+    "studioId": 6
+  },
+  {
+    "filmId": 149,
+    "studioId": 37
+  },
+  {
+    "filmId": 150,
+    "studioId": 6
+  },
+  {
+    "filmId": 150,
+    "studioId": 37
+  },
+  {
+    "filmId": 151,
+    "studioId": 17
+  },
+  {
+    "filmId": 152,
+    "studioId": 18
+  },
+  {
+    "filmId": 152,
+    "studioId": 8
+  },
+  {
+    "filmId": 153,
+    "studioId": 8
+  },
+  {
+    "filmId": 153,
+    "studioId": 47
+  },
+  {
+    "filmId": 154,
+    "studioId": 48
+  },
+  {
+    "filmId": 154,
+    "studioId": 49
+  },
+  {
+    "filmId": 155,
+    "studioId": 57
+  },
+  {
+    "filmId": 156,
+    "studioId": 57
+  },
+  {
+    "filmId": 1,
+    "studioId": 38
+  },
+  {
+    "filmId": 1,
+    "studioId": 50
+  },
+  {
+    "filmId": 157,
+    "studioId": 12
+  },
+  {
+    "filmId": 157,
+    "studioId": 51
+  },
+  {
+    "filmId": 158,
+    "studioId": 52
+  },
+  {
+    "filmId": 158,
+    "studioId": 9
+  },
+  {
+    "filmId": 158,
+    "studioId": 53
+  },
+  {
+    "filmId": 159,
+    "studioId": 12
+  },
+  {
+    "filmId": 159,
+    "studioId": 5
+  },
+  {
+    "filmId": 160,
+    "studioId": 12
+  },
+  {
+    "filmId": 160,
+    "studioId": 5
+  },
+  {
+    "filmId": 161,
+    "studioId": 1
+  },
+  {
+    "filmId": 161,
+    "studioId": 4
+  },
+  {
+    "filmId": 162,
+    "studioId": 1
+  },
+  {
+    "filmId": 162,
+    "studioId": 4
+  },
+  {
+    "filmId": 163,
+    "studioId": 1
+  },
+  {
+    "filmId": 163,
+    "studioId": 4
+  },
+  {
+    "filmId": 164,
+    "studioId": 7
+  },
+  {
+    "filmId": 165,
+    "studioId": 1
+  },
+  {
+    "filmId": 166,
+    "studioId": 1
+  },
+  {
+    "filmId": 167,
+    "studioId": 8
+  },
+  {
+    "filmId": 167,
+    "studioId": 25
+  },
+  {
+    "filmId": 168,
+    "studioId": 8
+  },
+  {
+    "filmId": 168,
+    "studioId": 25
+  },
+  {
+    "filmId": 169,
+    "studioId": 6
+  },
+  {
+    "filmId": 170,
+    "studioId": 6
+  },
+  {
+    "filmId": 171,
+    "studioId": 2
+  },
+  {
+    "filmId": 171,
+    "studioId": 4
+  },
+  {
+    "filmId": 172,
+    "studioId": 13
+  },
+  {
+    "filmId": 173,
+    "studioId": 54
+  },
+  {
+    "filmId": 173,
+    "studioId": 55
+  },
+  {
+    "filmId": 174,
+    "studioId": 56
+  },
+  {
+    "filmId": 175,
+    "studioId": 56
+  },
+  {
+    "filmId": 176,
+    "studioId": 56
+  },
+  {
+    "filmId": 177,
+    "studioId": 57
+  },
+  {
+    "filmId": 178,
+    "studioId": 57
+  },
+  {
+    "filmId": 179,
+    "studioId": 57
+  },
+  {
+    "filmId": 180,
+    "studioId": 57
+  },
+  {
+    "filmId": 181,
+    "studioId": 4
+  },
+  {
+    "filmId": 181,
+    "studioId": 13
+  },
+  {
+    "filmId": 182,
+    "studioId": 58
+  },
+  {
+    "filmId": 182,
+    "studioId": 48
+  },
+  {
+    "filmId": 183,
+    "studioId": 6
+  },
+  {
+    "filmId": 184,
+    "studioId": 22
+  },
+  {
+    "filmId": 185,
+    "studioId": 59
+  },
+  {
+    "filmId": 186,
+    "studioId": 59
+  },
+  {
+    "filmId": 187,
+    "studioId": 59
+  },
+  {
+    "filmId": 188,
+    "studioId": 56
+  },
+  {
+    "filmId": 189,
+    "studioId": 56
+  },
+  {
+    "filmId": 190,
+    "studioId": 56
+  },
+  {
+    "filmId": 191,
+    "studioId": 13
+  },
+  {
+    "filmId": 191,
+    "studioId": 39
+  },
+  {
+    "filmId": 192,
+    "studioId": 8
+  },
+  {
+    "filmId": 193,
+    "studioId": 2
+  },
+  {
+    "filmId": 193,
+    "studioId": 37
+  },
+  {
+    "filmId": 194,
+    "studioId": 6
+  },
+  {
+    "filmId": 4,
+    "studioId": 8
+  },
+  {
+    "filmId": 195,
+    "studioId": 8
+  },
+  {
+    "filmId": 196,
+    "studioId": 8
+  },
+  {
+    "filmId": 197,
+    "studioId": 6
+  },
+  {
+    "filmId": 198,
+    "studioId": 6
+  },
+  {
+    "filmId": 199,
+    "studioId": 6
+  },
+  {
+    "filmId": 200,
+    "studioId": 17
+  },
+  {
+    "filmId": 201,
+    "studioId": 13
+  },
+  {
+    "filmId": 202,
+    "studioId": 13
+  },
+  {
+    "filmId": 203,
+    "studioId": 13
+  },
+  {
+    "filmId": 204,
+    "studioId": 17
+  },
+  {
+    "filmId": 205,
+    "studioId": 1
+  },
+  {
+    "filmId": 205,
+    "studioId": 44
+  },
+  {
+    "filmId": 206,
+    "studioId": 60
+  },
+  {
+    "filmId": 206,
+    "studioId": 61
+  },
+  {
+    "filmId": 207,
+    "studioId": 8
+  },
+  {
+    "filmId": 208,
+    "studioId": 27
+  },
+  {
+    "filmId": 209,
+    "studioId": 17
+  },
+  {
+    "filmId": 210,
+    "studioId": 10
+  },
+  {
+    "filmId": 211,
+    "studioId": 17
+  },
+  {
+    "filmId": 212,
+    "studioId": 6
+  },
+  {
+    "filmId": 212,
+    "studioId": 5
+  },
+  {
+    "filmId": 213,
+    "studioId": 4
+  },
+  {
+    "filmId": 213,
+    "studioId": 14
+  },
+  {
+    "filmId": 214,
+    "studioId": 1
+  },
+  {
+    "filmId": 214,
+    "studioId": 4
+  },
+  {
+    "filmId": 215,
+    "studioId": 1
+  },
+  {
+    "filmId": 215,
+    "studioId": 4
+  },
+  {
+    "filmId": 216,
+    "studioId": 6
+  },
+  {
+    "filmId": 216,
+    "studioId": 14
+  },
+  {
+    "filmId": 217,
+    "studioId": 15
+  },
+  {
+    "filmId": 217,
+    "studioId": 14
+  },
+  {
+    "filmId": 218,
+    "studioId": 15
+  },
+  {
+    "filmId": 218,
+    "studioId": 14
+  },
+  {
+    "filmId": 219,
+    "studioId": 15
+  },
+  {
+    "filmId": 219,
+    "studioId": 14
+  },
+  {
+    "filmId": 220,
+    "studioId": 27
+  },
+  {
+    "filmId": 221,
+    "studioId": 27
+  },
+  {
+    "filmId": 222,
+    "studioId": 1
+  },
+  {
+    "filmId": 223,
+    "studioId": 6
+  },
+  {
+    "filmId": 224,
+    "studioId": 1
+  },
+  {
+    "filmId": 224,
+    "studioId": 3
+  },
+  {
+    "filmId": 225,
+    "studioId": 2
+  },
+  {
+    "filmId": 225,
+    "studioId": 4
+  },
+  {
+    "filmId": 226,
+    "studioId": 14
+  },
+  {
+    "filmId": 226,
+    "studioId": 15
+  },
+  {
+    "filmId": 226,
+    "studioId": 39
+  },
+  {
+    "filmId": 227,
+    "studioId": 13
+  },
+  {
+    "filmId": 227,
+    "studioId": 25
+  },
+  {
+    "filmId": 228,
+    "studioId": 18
+  },
+  {
+    "filmId": 228,
+    "studioId": 8
+  },
+  {
+    "filmId": 229,
+    "studioId": 14
+  },
+  {
+    "filmId": 229,
+    "studioId": 62
+  },
+  {
+    "filmId": 230,
+    "studioId": 6
+  },
+  {
+    "filmId": 230,
+    "studioId": 5
+  },
+  {
+    "filmId": 231,
+    "studioId": 6
+  },
+  {
+    "filmId": 231,
+    "studioId": 5
+  },
+  {
+    "filmId": 232,
+    "studioId": 6
+  },
+  {
+    "filmId": 232,
+    "studioId": 5
+  },
+  {
+    "filmId": 233,
+    "studioId": 6
+  },
+  {
+    "filmId": 233,
+    "studioId": 5
+  },
+  {
+    "filmId": 234,
+    "studioId": 6
+  },
+  {
+    "filmId": 234,
+    "studioId": 5
+  },
+  {
+    "filmId": 235,
+    "studioId": 6
+  },
+  {
+    "filmId": 235,
+    "studioId": 5
+  },
+  {
+    "filmId": 236,
+    "studioId": 6
+  },
+  {
+    "filmId": 236,
+    "studioId": 5
+  },
+  {
+    "filmId": 237,
+    "studioId": 63
+  },
+  {
+    "filmId": 237,
+    "studioId": 64
+  },
+  {
+    "filmId": 238,
+    "studioId": 40
+  },
+  {
+    "filmId": 238,
+    "studioId": 8
+  },
+  {
+    "filmId": 239,
+    "studioId": 1
+  }
+]

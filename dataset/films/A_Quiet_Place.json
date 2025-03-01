@@ -1,141 +1,16 @@
 {
-  "id": "49487c60995eacfb890e2734",
-  "type": "Film",
+  "id": 7,
   "title": "A Quiet Place",
-  "genres": [
-    "Sci-Fi",
-    "Drama",
-    "Horror"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "John Krasinski"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Bryan Woods"
-        },
-        {
-          "name": "Scott Beck"
-        },
-        {
-          "name": "John Krasinski"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Michael Bay"
-        },
-        {
-          "name": "Andrew Form"
-        },
-        {
-          "name": "Brad Fuller"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Marco Beltrami"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Charlotte Bruus Christensen"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2018-04-06T00:00:00.000Z",
   "duration": 90,
-  "cast": [
-    {
-      "actor": "48bc6851537e5e5dc1bf99ca",
-      "character": {
-        "name": "Evelyn Abbott"
-      }
-    },
-    {
-      "actor": "363223be89ee678b9ac594d3",
-      "character": {
-        "name": "Lee Abbott"
-      }
-    },
-    {
-      "actor": "02739f3351eb701eaca4c00e",
-      "character": {
-        "name": "Regan Abbott"
-      }
-    },
-    {
-      "actor": "08f4518a7166226e5800cc1d",
-      "character": {
-        "name": "Marcus Abbott"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "b08c9adc92ef96ff62957107"
-    }
-  ],
+  "poster": "posters/quiet_place.webp",
+  "youtubeTrailerId": "WR7cc5t7tv8",
   "budget": 17000000,
-  "awards": [
-    {
-      "award": "69de08782a405ee5077f50cf",
-      "nominations": [
-        {
-          "title": "Best horror Film"
-        },
-        {
-          "title": "Best Writing"
-        }
-      ]
-    },
-    {
-      "award": "c02117d39412aa3c073faec1",
-      "nominations": [
-        {
-          "title": "Best Sci-Fi/Horror Movie"
-        }
-      ]
-    }
-  ],
   "boxOffice": 341000000,
   "rating": 2,
-  "description": [
-    {
-      "title": null,
-      "text": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing."
-    }
-  ],
-  "chaptersId": "1c30dbe27f9fe9ce1656406b",
-  "releaseDate": "2018-04-06",
-  "watchCount": 1,
-  "studios": [
-    "Paramount Pictures"
-  ],
-  "poster": "posters/quiet_place.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "WR7cc5t7tv8"
-  ],
-  "publishStatus": "Completed"
+  "description": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing.",
+  "chapterKey": "quiet-place",
+  "chapterOrder": 1
 }

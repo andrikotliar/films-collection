@@ -1,104 +1,16 @@
 {
-  "id": "8d426c6889afd565be724619",
-  "type": "Film",
+  "id": 164,
   "title": "The Call of the Wild",
-  "genres": [
-    "Adventures",
-    "Drama"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Chris Sanders"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Michael Green"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "James Mangold"
-        },
-        {
-          "name": "Erwin Stoff"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "John Powell"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Janusz Kaminski"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "Canada",
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2020-02-21T00:00:00.000Z",
   "duration": 100,
-  "cast": [
-    {
-      "actor": "90204450e3ebdb007d478280",
-      "character": {
-        "name": "John Thornton"
-      }
-    },
-    {
-      "actor": "800064d873a4ee8f8cea356f",
-      "character": {
-        "name": "Perrault"
-      }
-    },
-    {
-      "actor": "533372a3f1edbaf920720573",
-      "character": {
-        "name": "Hal"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "474979448daabdc6de8c1505"
-    }
-  ],
+  "poster": "posters/the_call_of_the_wild.webp",
+  "youtubeTrailerId": "h1LG9So2ZBk",
   "budget": 135000000,
   "boxOffice": 110000000,
   "rating": 2,
-  "description": [
-    {
-      "title": null,
-      "text": "A sled dog struggles for survival in the wilds of the Yukon."
-    }
-  ],
-  "releaseDate": "2020-02-21",
-  "watchCount": 1,
-  "studios": [
-    "20th Century Studio"
-  ],
-  "poster": "posters/the_call_of_the_wild.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "h1LG9So2ZBk"
-  ],
-  "publishStatus": "Completed"
+  "description": "A sled dog struggles for survival in the wilds of the Yukon.",
+  "chapterKey": null,
+  "chapterOrder": null
 }

@@ -1,123 +1,16 @@
 {
-  "id": "d187f512bf531db0ee1d8129",
-  "type": "Film",
+  "id": 66,
   "title": "How to Train Your Dragon",
-  "genres": [
-    "Fantasy",
-    "Adventures"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Chris Sanders"
-        },
-        {
-          "name": "Dean DeBlois"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Will Davies"
-        },
-        {
-          "name": "Dean DeBlois"
-        },
-        {
-          "name": "Chris Sanders"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Bonnie Amold"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "John Powell"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2010-03-26T00:00:00.000Z",
   "duration": 98,
-  "cast": [
-    {
-      "actor": "a7d35039857e23987e0e044c",
-      "character": {
-        "name": "Hiccup",
-        "image": "characters/how_to_train_your_dragon_hiccup.webp"
-      }
-    },
-    {
-      "actor": "19691d0b10cb811590497ff2",
-      "character": {
-        "name": "Stoick ",
-        "image": "characters/how_to_train_your_dragon_stoick.webp"
-      }
-    },
-    {
-      "actor": "d547995ac733ce40226af91f",
-      "character": {
-        "name": "Gobber ",
-        "image": "characters/how_to_train_your_dragon_gobber.webp"
-      }
-    },
-    {
-      "actor": "6c95d5ee7e91ad5d5e781165",
-      "character": {
-        "name": "Astrid ",
-        "image": "characters/how_to_train_your_dragon_astrid.webp"
-      }
-    },
-    {
-      "actor": "10a99397a4be9fff8d032511",
-      "character": {
-        "name": "Fishlegs ",
-        "image": "characters/how_to_train_your_dragon_fishlegs.webp"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "fc7990b24ef954ab02087cc8"
-    },
-    {
-      "collection": "f4472bb26f56fcaab829b96a",
-      "order": 4
-    }
-  ],
+  "poster": "posters/how_to_train_your_dragon_1.webp",
+  "youtubeTrailerId": "oKiYuIsPxYk",
   "budget": 165000000,
   "boxOffice": 496000000,
   "rating": 3,
-  "description": [
-    {
-      "title": null,
-      "text": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed."
-    }
-  ],
-  "chaptersId": "505ca8ef309447d9fcfc78d7",
-  "releaseDate": "2010-03-26",
-  "watchCount": 5,
-  "studios": [
-    "DreamWorks Animation"
-  ],
-  "poster": "posters/how_to_train_your_dragon_1.webp",
-  "style": "Animation",
-  "trailers": [
-    "oKiYuIsPxYk"
-  ],
-  "publishStatus": "Completed"
+  "description": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
+  "chapterKey": "how-to-train-your-dragon",
+  "chapterOrder": 1
 }

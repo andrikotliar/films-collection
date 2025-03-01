@@ -3,7 +3,7 @@ import { PendingFilm } from '@/types';
 import { Link } from '@tanstack/react-router';
 import { FC } from 'react';
 import { getPriorityTitle } from '@/helpers';
-import { Status, StatusProps } from '@/components';
+import { Status, StatusProps } from '@/ui';
 import { PencilIcon, SquarePlusIcon, Trash2Icon } from 'lucide-react';
 import { priorityToColor } from '@/configs';
 

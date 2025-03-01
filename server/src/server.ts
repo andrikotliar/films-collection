@@ -1,39 +1,54 @@
 import fastify from 'fastify';
-import fastifyCors from '@fastify/cors';
-import fastifyCookie from '@fastify/cookie';
-import { env, connectDatabase } from './config';
-import { initRoutes } from './init-routes';
-import { registerAuthPlugin } from './common';
-import ajvErrors from 'ajv-errors';
+import { PrismaClient } from '@prisma/client';
+import CorsPlugin from '@fastify/cors';
+import CookiePlugin from '@fastify/cookie';
+import JwtPlugin from '@fastify/jwt';
+import { TypeBoxTypeProvider } from '@fastify/type-provider-typebox';
+import { AuthPlugin, PrismaPlugin } from 'src/plugins';
+import { AppModule } from './app.module';
+import { AppDependencies, CookieName } from './common';
+import { env } from './configs';
+
+declare module 'fastify' {
+  export interface FastifyInstance extends AppDependencies {
+    authenticate: any;
+    database: PrismaClient;
+  }
+}
 
 const app = fastify({
-  logger: env.NODE_ENV === 'development',
-  ajv: {
-    customOptions: {
-      removeAdditional: 'all',
-      allErrors: true,
+  logger: {
+    enabled: env.NODE_ENV === 'development',
+    transport: {
+      target: '@fastify/one-line-logger',
     },
-    plugins: [ajvErrors],
   },
-});
+}).withTypeProvider<TypeBoxTypeProvider>();
 
-app.register(fastifyCors, {
+app.register(CorsPlugin, {
   origin: env.FRONTEND_ORIGIN,
   credentials: true,
 });
 
-registerAuthPlugin(app, env);
-
-app.register(fastifyCookie, {
+app.register(CookiePlugin, {
   secret: env.COOKIE_SECRET,
 });
 
-initRoutes(app);
+app.register(JwtPlugin, {
+  secret: env.AUTH_SECRET,
+  cookie: {
+    cookieName: CookieName.FC_ACCESS_TOKEN,
+    signed: true,
+  },
+});
+
+app.register(PrismaPlugin);
+app.register(AuthPlugin);
+
+app.register(AppModule, { prefix: '/api' });
 
 const startServer = async () => {
   try {
-    await connectDatabase(app);
-
     await app.listen({ port: env.PORT, host: env.HOST });
   } catch (error: any) {
     app.log.error(error?.message);

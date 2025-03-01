@@ -1,4 +1,4 @@
-import { Layout } from '@/components';
+import { Layout } from '@/ui';
 import { QueryClient } from '@tanstack/react-query';
 import { createRootRouteWithContext } from '@tanstack/react-router';
 

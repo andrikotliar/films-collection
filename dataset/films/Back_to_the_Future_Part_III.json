@@ -1,110 +1,16 @@
 {
-  "id": "3c6d9bd2f83e0b7e86cc6551",
-  "type": "Film",
+  "id": 22,
   "title": "Back to the Future: Part III",
-  "genres": [
-    "Sci-Fi",
-    "Adventures"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Robert Zemeckis"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Bob Gale"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Bob Gale"
-        },
-        {
-          "name": "Neil Canton"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Alan Silvestri"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Dean Cundey"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1990-05-25T00:00:00.000Z",
   "duration": 118,
-  "cast": [
-    {
-      "actor": "338322b79718106c345846de",
-      "character": {
-        "name": "Marty McFly"
-      }
-    },
-    {
-      "actor": "90dcb449f7b8e7fff49994fb",
-      "character": {
-        "name": "Dr. Emmett Brown"
-      }
-    },
-    {
-      "actor": "c08a0756a37cfb45c77529b1",
-      "character": {
-        "name": "Clara Clayton"
-      }
-    },
-    {
-      "actor": "225c89c9183706f01526fe4d",
-      "character": {
-        "name": "Biff Tannen / Griff Tannen"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "c7261f26600af8cbfa133b12"
-    }
-  ],
+  "poster": "posters/back_to_the_future_3.webp",
+  "youtubeTrailerId": "EYkguxpqsrg",
   "budget": 40000000,
   "boxOffice": 245000000,
   "rating": 3,
-  "description": [
-    {
-      "title": null,
-      "text": "Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about to be killed by Buford \"Mad Dog\"Tannen. Marty McFly travels back in time to save his friend."
-    }
-  ],
-  "chaptersId": "cb583126d928731112ea5595",
-  "releaseDate": "1990-05-25",
-  "watchCount": 10,
-  "studios": [
-    "Universal Pictures"
-  ],
-  "poster": "posters/back_to_the_future_3.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "EYkguxpqsrg"
-  ],
-  "publishStatus": "Completed"
+  "description": "Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about to be killed by Buford \"Mad Dog\"Tannen. Marty McFly travels back in time to save his friend.",
+  "chapterKey": "back-to-the-future",
+  "chapterOrder": 3
 }

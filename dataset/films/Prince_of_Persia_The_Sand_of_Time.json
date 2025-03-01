@@ -1,136 +1,16 @@
 {
-  "id": "7bb3ff4064679db227c19fb9",
-  "type": "Film",
+  "id": 120,
   "title": "Prince of Persia: The Sand of Time",
-  "genres": [
-    "Fantasy",
-    "Action"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Mike Newell"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Boaz Yakin"
-        },
-        {
-          "name": "Doug Miro"
-        },
-        {
-          "name": "Carlo Bernard"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Jerry Bruckheimer"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Harry Gregson-Williams"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "John Seale"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2010-05-10T00:00:00.000Z",
   "duration": 116,
-  "cast": [
-    {
-      "actor": "644ca0c0a204f03134f45fbf",
-      "character": {
-        "name": "Dastan"
-      }
-    },
-    {
-      "actor": "f6e6c885cde54a7c8198150f",
-      "character": {
-        "name": "Tamina"
-      }
-    },
-    {
-      "actor": "9db2779191ae86290f56c21b",
-      "character": {
-        "name": "Nizam"
-      }
-    },
-    {
-      "actor": "c70aa327b237efbbee19c181",
-      "character": {
-        "name": "Sheik Amar"
-      }
-    },
-    {
-      "actor": "36d281cb71c45ba0739388a2",
-      "character": {
-        "name": "Seso"
-      }
-    },
-    {
-      "actor": "c8901a2c3a9ece7d8f68aba1",
-      "character": {
-        "name": "Garsiv"
-      }
-    },
-    {
-      "actor": "d716fa4b2d132b77e907bb8f",
-      "character": {
-        "name": "Tus"
-      }
-    },
-    {
-      "actor": "fc950c38b9022c62d9d9eb1b",
-      "character": {
-        "name": "Bis"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "fc7990b24ef954ab02087cc8"
-    }
-  ],
+  "poster": "posters/prince_of_persia.webp",
+  "youtubeTrailerId": "bZ7Li5w2I-k",
   "budget": 150000000,
   "boxOffice": 336000000,
   "rating": 2,
-  "description": [
-    {
-      "title": null,
-      "text": "A young fugitive Prince and Princess must stop a villain who unknowingly threatens to destroy the world with a special dagger that enables the magic sand inside to reverse time."
-    }
-  ],
-  "releaseDate": "2010-05-10",
-  "watchCount": 3,
-  "studios": [
-    "Walt Disney Pictures"
-  ],
-  "poster": "posters/prince_of_persia.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "bZ7Li5w2I-k"
-  ],
-  "publishStatus": "Completed"
+  "description": "A young fugitive Prince and Princess must stop a villain who unknowingly threatens to destroy the world with a special dagger that enables the magic sand inside to reverse time.",
+  "chapterKey": null,
+  "chapterOrder": null
 }

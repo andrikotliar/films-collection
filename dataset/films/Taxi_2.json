@@ -1,124 +1,16 @@
 {
-  "id": "7ce08f79aed677a275668a69",
-  "type": "Film",
+  "id": 155,
   "title": "Taxi 2",
-  "genres": [
-    "Comedy"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Gérard Pirès"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Luc Besson"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Luc Besson"
-        },
-        {
-          "name": "Michele Petin"
-        },
-        {
-          "name": "Laurent Petin"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Olivier \"Akos\" Castelli"
-        },
-        {
-          "name": "Al Khemya"
-        },
-        {
-          "name": "One Shot"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Thierry Guilmaro"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2000-03-29T00:00:00.000Z",
   "duration": 88,
-  "cast": [
-    {
-      "actor": "1562657477b61c61b09e2013",
-      "character": {
-        "name": "Daniel Morales"
-      }
-    },
-    {
-      "actor": "2d4bdb7694904d6306f88c60",
-      "character": {
-        "name": "Emilien Coutant-Kerbalec"
-      }
-    },
-    {
-      "actor": "6e287749f98b9217ea2ceb27",
-      "character": {
-        "name": "Lilly Bertineau"
-      }
-    },
-    {
-      "actor": "69edd5228a1c567011c094fe",
-      "character": {
-        "name": "Petra"
-      }
-    },
-    {
-      "actor": "93c6ee912f305fb6262c4193",
-      "character": {
-        "name": "Commissaire Gibert"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "37fefe4d5c15766d5188af9f"
-    }
-  ],
+  "poster": "posters/taxi_2.webp",
+  "youtubeTrailerId": "XkMZ75BwhCg",
   "budget": 10000000,
   "boxOffice": 64000000,
   "rating": 2,
-  "description": [
-    {
-      "title": null,
-      "text": "Police inspector Emilien and his taxi-driver pal Daniel are back, this time on the tail of a group of Japanese yakuza."
-    }
-  ],
-  "chaptersId": "e4250279694fbcf5a7ba81c4",
-  "releaseDate": "2000-03-29",
-  "watchCount": 10,
-  "studios": [
-    "Lionsgate"
-  ],
-  "poster": "posters/taxi_2.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "XkMZ75BwhCg"
-  ],
-  "publishStatus": "Completed"
+  "description": "Police inspector Emilien and his taxi-driver pal Daniel are back, this time on the tail of a group of Japanese yakuza.",
+  "chapterKey": "taxi",
+  "chapterOrder": 2
 }

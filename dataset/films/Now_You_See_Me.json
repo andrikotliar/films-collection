@@ -1,145 +1,16 @@
 {
-  "id": "6341cd0c73bae4faf7696cf9",
-  "type": "Film",
+  "id": 110,
   "title": "Now You See Me",
-  "genres": [
-    "Crime",
-    "Thriller"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Louis Leterrier"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Ed Solomon"
-        },
-        {
-          "name": "Boaz Yakin"
-        },
-        {
-          "name": "Edward Ricourt"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Bobby Cohen"
-        },
-        {
-          "name": "Alex Kurtzman"
-        },
-        {
-          "name": "Roberto Orci"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Brian Tyler"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Mitchell Amundsen"
-        },
-        {
-          "name": "Larry Fong"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2013-05-31T00:00:00.000Z",
   "duration": 115,
-  "cast": [
-    {
-      "actor": "23f19ef413bcb6efbff53967",
-      "character": {
-        "name": "J. Daniel Atlas"
-      }
-    },
-    {
-      "actor": "a65bc3f407cd83dd8b26db19",
-      "character": {
-        "name": "Dylan Rhodes"
-      }
-    },
-    {
-      "actor": "024affbe7a45ee9fc554bf76",
-      "character": {
-        "name": "Merritt McKinney"
-      }
-    },
-    {
-      "actor": "bb05ce01b3191a2e584b07d9",
-      "character": {
-        "name": "Henley Reeves"
-      }
-    },
-    {
-      "actor": "a3a8f7f56df0143e3f0e2417",
-      "character": {
-        "name": "Jack Wilder"
-      }
-    },
-    {
-      "actor": "b9358a872eff4743de75b937",
-      "character": {
-        "name": "Alma Dray"
-      }
-    },
-    {
-      "actor": "6baca3c5f3dcf4fb1271cb34",
-      "character": {
-        "name": "Thaddeus Bradley"
-      }
-    },
-    {
-      "actor": "68a6bf55b5f042549fda0642",
-      "character": {
-        "name": "Arthur Tressler"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "47a859c4e3db02afffd2569e"
-    }
-  ],
+  "poster": "posters/now_you_see_me.webp",
+  "youtubeTrailerId": "KzJNYYkkhzc",
   "budget": 75000000,
   "boxOffice": 352000000,
   "rating": 1,
-  "description": [
-    {
-      "title": null,
-      "text": "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money."
-    }
-  ],
-  "releaseDate": "2013-05-31",
-  "watchCount": 2,
-  "studios": [
-    "Summit Entertainment"
-  ],
-  "poster": "posters/now_you_see_me.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "KzJNYYkkhzc"
-  ],
-  "publishStatus": "Completed"
+  "description": "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money.",
+  "chapterKey": null,
+  "chapterOrder": null
 }

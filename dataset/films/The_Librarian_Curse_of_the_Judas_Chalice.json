@@ -1,124 +1,14 @@
 {
-  "id": "fb6342a506013c3e0a14f4a7",
-  "type": "Film",
+  "id": 185,
   "title": "The Librarian: Curse of the Judas Chalice",
-  "genres": [
-    "Adventures",
-    "Fantasy"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Jonathan Frakes"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Marco Schnabel"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Phillip M. Goldfarb"
-        },
-        {
-          "name": "Noah Wyle"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Joseph LoDuca"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "David Connell"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2008-12-07T00:00:00.000Z",
   "duration": 95,
-  "cast": [
-    {
-      "actor": "5682aa234be8275828a251fd",
-      "character": {
-        "name": "Flynn Carsen"
-      }
-    },
-    {
-      "actor": "6aaf070b072c871251091c91",
-      "character": {
-        "name": "Professor Lazlo / Vlad"
-      }
-    },
-    {
-      "actor": "33df3600552e4b41f7c45e4f",
-      "character": {
-        "name": "Simone Renoir"
-      }
-    },
-    {
-      "actor": "c7d1e2a7bc4468f9de40f667",
-      "character": {
-        "name": "Judson"
-      }
-    },
-    {
-      "actor": "ddef35144525bb2d00be1e2d",
-      "character": {
-        "name": "Charlene"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "39dc3b0b88848b2e1245671c"
-    }
-  ],
-  "awards": [
-    {
-      "award": "69de08782a405ee5077f50cf",
-      "nominations": [
-        {
-          "title": "Best Presentation on Television"
-        }
-      ]
-    }
-  ],
-  "rating": 1,
-  "description": [
-    {
-      "title": null,
-      "text": "Losing his girlfriend because he was at an auction dramatically getting the magical philosopher's stone instead of a date, he needs a vacation - New Orleans but finds himself busy saving Earth from the curse of the Judas chalice/vampires."
-    }
-  ],
-  "chaptersId": "4eeabb329f07f4eb238a45d8",
-  "releaseDate": "2008-12-07",
-  "watchCount": 5,
-  "studios": [
-    "TNT"
-  ],
   "poster": "posters/librarian_3.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "SfONecwHgHY"
-  ],
-  "publishStatus": "Partial"
+  "youtubeTrailerId": "SfONecwHgHY",
+  "rating": 1,
+  "description": "Losing his girlfriend because he was at an auction dramatically getting the magical philosopher's stone instead of a date, he needs a vacation - New Orleans but finds himself busy saving Earth from the curse of the Judas chalice/vampires.",
+  "chapterKey": "librarian",
+  "chapterOrder": 3
 }

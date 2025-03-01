@@ -1,148 +1,16 @@
 {
-  "id": "36206a95c7e2cdb0232e3b8d",
-  "type": "Film",
+  "id": 77,
   "title": "Independence Day",
-  "genres": [
-    "Sci-Fi",
-    "Action"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Roland Emmerich"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Dean Devlin"
-        },
-        {
-          "name": "Roland Emmerich"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Dean Devlin"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "David Arnold"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Karl Walter Lindenlaub"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1996-07-03T00:00:00.000Z",
   "duration": 145,
-  "cast": [
-    {
-      "actor": "b59613245389fb066c309182",
-      "character": {
-        "name": "Capt. Steven Hiller"
-      }
-    },
-    {
-      "actor": "a5e63e44d084200a35aaca53",
-      "character": {
-        "name": "President Thomas J. Whitmore"
-      }
-    },
-    {
-      "actor": "ffe7655111ebb548aeea0a19",
-      "character": {
-        "name": "David Levinson"
-      }
-    },
-    {
-      "actor": "581d7c054a9cb4b7beea4e6e",
-      "character": {
-        "name": "Julius Levinson"
-      }
-    },
-    {
-      "actor": "0d21e203a6e8eeb212c61661",
-      "character": {
-        "name": "General William Grey"
-      }
-    },
-    {
-      "actor": "09b4cdaddb10befd1ef3826c",
-      "character": {
-        "name": "Russell Casse"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "b08c9adc92ef96ff62957107"
-    },
-    {
-      "collection": "68e24e7e148981503b661c07"
-    }
-  ],
+  "poster": "posters/independence_day.webp",
+  "youtubeTrailerId": "kA2WzBi2grE",
   "budget": 75000000,
-  "awards": [
-    {
-      "award": "6b4e62d65b2610044f21d3fb",
-      "nominations": [
-        {
-          "title": "Best Visual Effects"
-        }
-      ]
-    },
-    {
-      "award": "69de08782a405ee5077f50cf",
-      "nominations": [
-        {
-          "title": "Best Science Fiction Film"
-        },
-        {
-          "title": "Best Director"
-        },
-        {
-          "title": "Best Special Effects"
-        }
-      ]
-    }
-  ],
   "boxOffice": 817000000,
   "rating": 2,
-  "description": [
-    {
-      "title": null,
-      "text": "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive."
-    }
-  ],
-  "watchCount": 10,
-  "releaseDate": "1996-07-03",
-  "studios": [
-    "20th Century FOX"
-  ],
-  "poster": "posters/independence_day.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "kA2WzBi2grE"
-  ],
-  "publishStatus": "Completed"
+  "description": "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive.",
+  "chapterKey": null,
+  "chapterOrder": null
 }

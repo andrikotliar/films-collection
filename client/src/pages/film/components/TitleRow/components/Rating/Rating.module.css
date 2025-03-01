@@ -1,0 +1,28 @@
+.rating {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--yellow-saturated);
+  padding: 5px 15px;
+  border-radius: 50px;
+  flex-shrink: 0;
+}
+
+.highestRating {
+  background-color: var(--green-success);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.value {
+  font-weight: bold;
+}

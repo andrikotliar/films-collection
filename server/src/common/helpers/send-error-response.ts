@@ -1,9 +1,10 @@
 import { STATUS_CODES } from 'http';
-import { ErrorCode, ResponseCode } from '../enums';
+import { ErrorCode } from '../types';
 import { FastifyReply } from 'fastify';
+import { ResponseCode, ResponseStatus } from '../enums';
 
 type ErrorPayload = {
-  statusCode: ResponseCode;
+  status: ResponseStatus;
   code: ErrorCode;
   message: string;
 };
@@ -12,8 +13,13 @@ export const sendErrorResponse = (
   reply: FastifyReply,
   payload: ErrorPayload,
 ) => {
-  return reply.status(payload.statusCode).send({
-    ...payload,
-    error: STATUS_CODES[payload.statusCode] ?? 'Bad Request',
+  const { status, ...errorPayload } = payload;
+
+  const statusCode = ResponseCode[payload.status];
+
+  return reply.status(statusCode).send({
+    ...errorPayload,
+    error: STATUS_CODES[statusCode] ?? 'Bad Request',
+    statusCode,
   });
 };

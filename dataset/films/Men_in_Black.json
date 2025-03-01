@@ -1,142 +1,16 @@
 {
-  "id": "679872e08a319a16e8f0d2fb",
-  "type": "Film",
+  "id": 99,
   "title": "Men in Black",
-  "genres": [
-    "Sci-Fi",
-    "Action",
-    "Comedy"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Barry Sonnenfeld"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Ed Solomon"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Walter F. Parkes"
-        },
-        {
-          "name": "Laurie MacDonald"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Danny Elfman"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Don Peterman"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1997-07-02T00:00:00.000Z",
   "duration": 98,
-  "cast": [
-    {
-      "actor": "585bc630dfa836dd72779c8d",
-      "character": {
-        "name": "Agent Kay"
-      }
-    },
-    {
-      "actor": "b59613245389fb066c309182",
-      "character": {
-        "name": "Agent Jay"
-      }
-    },
-    {
-      "actor": "c77c28e2e76d0e04c9466729",
-      "character": {
-        "name": "Laurel"
-      }
-    },
-    {
-      "actor": "46281b634ba77b5a747dfaa0",
-      "character": {
-        "name": "Edgar"
-      }
-    },
-    {
-      "actor": "c9bd0790a6a1140723691088",
-      "character": {
-        "name": "Z"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "b08c9adc92ef96ff62957107"
-    }
-  ],
+  "poster": "posters/mib_1.webp",
+  "youtubeTrailerId": "1Q4mhYF9aQQ",
   "budget": 90000000,
-  "awards": [
-    {
-      "award": "6b4e62d65b2610044f21d3fb",
-      "nominations": [
-        {
-          "title": "Best Make-up"
-        }
-      ]
-    },
-    {
-      "award": "69de08782a405ee5077f50cf",
-      "nominations": [
-        {
-          "title": "Best Science Fiction Film"
-        },
-        {
-          "title": "Best Supporting Actor",
-          "actor": "46281b634ba77b5a747dfaa0"
-        },
-        {
-          "title": "Best Music"
-        }
-      ]
-    }
-  ],
   "boxOffice": 589000000,
   "rating": 2,
-  "description": [
-    {
-      "title": null,
-      "text": "A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth."
-    }
-  ],
-  "chaptersId": "821493c59c822fff3c691354",
-  "releaseDate": "1997-07-02",
-  "watchCount": 10,
-  "studios": [
-    "Columbia Pictures"
-  ],
-  "poster": "posters/mib_1.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "1Q4mhYF9aQQ"
-  ],
-  "publishStatus": "Completed"
+  "description": "A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth.",
+  "chapterKey": "mib",
+  "chapterOrder": 1
 }

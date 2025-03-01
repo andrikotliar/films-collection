@@ -1,5 +1,6 @@
 import { MenuConfigItem } from '@/types';
 import {
+  CalendarIcon,
   CalendarSyncIcon,
   ClapperboardIcon,
   Grid2X2PlusIcon,
@@ -23,5 +24,11 @@ export const consoleMenuConfig: MenuConfigItem[] = [
     route: '/console/additional',
     title: 'Additional data',
     icon: <Grid2X2PlusIcon />,
+  },
+  {
+    id: 'collection-events',
+    route: '/console/collection-events',
+    title: 'Collection Events',
+    icon: <CalendarIcon />,
   },
 ];

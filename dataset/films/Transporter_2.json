@@ -1,131 +1,16 @@
 {
-  "id": "ecceb12ba491ed274fa79c24",
-  "type": "Film",
+  "id": 220,
   "title": "Transporter 2",
-  "genres": [
-    "Action",
-    "Crime"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Louis Leterrier"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Luc Besson"
-        },
-        {
-          "name": "Robert Mark Kamen"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Luc Besson"
-        },
-        {
-          "name": "Stephen Chasman"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Alexandre Azaria"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Mitchell Amundsen"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2005-09-02T00:00:00.000Z",
   "duration": 87,
-  "cast": [
-    {
-      "actor": "de0e3c154d6e85358e70d67b",
-      "character": {
-        "name": "Frank Martin"
-      }
-    },
-    {
-      "actor": "0ff357a04f68f97521842691",
-      "character": {
-        "name": "Gianni Chellini"
-      }
-    },
-    {
-      "actor": "3799ff2d3b71025b401a6bb7",
-      "character": {
-        "name": "Audrey Billings"
-      }
-    },
-    {
-      "actor": "9b87b2c60f00630802539db8",
-      "character": {
-        "name": "Lola"
-      }
-    },
-    {
-      "actor": "ae59b91d424e2bfb80aa5ddb",
-      "character": {
-        "name": "Jefferson Billings"
-      }
-    },
-    {
-      "actor": "ed3c5600f8d2726f784336fa",
-      "character": {
-        "name": "Jack Billings"
-      }
-    },
-    {
-      "actor": "27701bc9dbcd310c14d85191",
-      "character": {
-        "name": "Inspector Tarconi"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "37fefe4d5c15766d5188af9f"
-    }
-  ],
+  "poster": "posters/transporter_2.webp",
+  "youtubeTrailerId": "sYJ5LDoWRT4",
   "budget": 32000000,
   "boxOffice": 85000000,
   "rating": 2,
-  "description": [
-    {
-      "title": null,
-      "text": "Mercenary Frank Martin, who specializes moving goods of all kinds, surfaces again this time in Miami, Florida when he's implicated in the kidnapping of the young son of a powerful USA official."
-    }
-  ],
-  "chaptersId": "25c70902689af0504af43bea",
-  "releaseDate": "2005-09-02",
-  "watchCount": 3,
-  "studios": [
-    "Europacorp"
-  ],
-  "poster": "posters/transporter_2.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "sYJ5LDoWRT4"
-  ],
-  "publishStatus": "Completed"
+  "description": "Mercenary Frank Martin, who specializes moving goods of all kinds, surfaces again this time in Miami, Florida when he's implicated in the kidnapping of the young son of a powerful USA official.",
+  "chapterKey": "transporter",
+  "chapterOrder": 2
 }

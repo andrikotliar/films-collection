@@ -1,16 +1,16 @@
 import { FC } from 'react';
-import { Crew } from '@/types';
+import { FilmCrew } from '@/types';
 import { CrewItem } from './components';
 
 type CrewListProps = {
-  crew: Crew[];
+  crew: FilmCrew[];
 };
 
 export const CrewList: FC<CrewListProps> = ({ crew }) => {
   return (
     <div>
       {crew.map((crewItem) => (
-        <CrewItem crewItem={crewItem} key={crewItem.role} />
+        <CrewItem crewItem={crewItem} key={crewItem.position} />
       ))}
     </div>
   );

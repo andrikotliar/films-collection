@@ -1,14 +1,12 @@
-import { HttpMethod, LocalStorageKey, ServerErrorCode } from '@/enums';
+import { env } from '@/configs';
+import { LocalStorage } from '@/services';
 import { ApiEndpoint } from '@/types';
 import { redirect } from '@tanstack/react-router';
 
 interface IFetchOptions extends RequestInit {
-  queryParams?: {
-    [key: string]: any;
-  };
-  payload?: {
-    [key: string]: any;
-  };
+  queryParams?: Record<string, any>;
+  payload?: Record<string, any>;
+  params?: Record<string, string | number>;
 }
 
 type ApiClientOptions = {
@@ -25,6 +23,8 @@ type ErrorInterceptor = (
   error: HttpError,
   originalRequestParams: ErrorInterceptorOriginalRequest,
 ) => Promise<ErrorInterceptorOriginalRequest>;
+
+const TOKEN_ERRORS = ['TOKEN_EXPIRED', 'TOKEN_MISSED'];
 
 export class HttpError extends Error {
   readonly status: number;
@@ -59,10 +59,16 @@ export class ApiClient {
         credentials: 'include',
       };
 
-      const parsedPath = this.parseQueryParams(
+      const pathWithParams = this.parseRouteParams(
         path,
+        internalOptions.params,
+      );
+
+      const parsedPath = this.parseQueryParams(
+        pathWithParams,
         internalOptions.queryParams,
       );
+
       const response = await fetch(
         `${this.baseUrl}${parsedPath}`,
         internalOptions,
@@ -85,46 +91,46 @@ export class ApiClient {
 
   async get<T = unknown>(
     path: ApiEndpoint,
-    queryParams?: IFetchOptions['queryParams'],
+    options?: Pick<IFetchOptions, 'queryParams' | 'params'>,
   ) {
-    return await this.request<T>(path, { method: HttpMethod.GET, queryParams });
+    return await this.request<T>(path, { method: 'GET', ...options });
   }
 
   async post<T = unknown>(
     path: ApiEndpoint,
-    options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
+    options?: Pick<IFetchOptions, 'payload' | 'queryParams' | 'params'>,
   ) {
     return await this.request<T>(path, {
       ...options,
       headers: {
         'Content-Type': 'application/json',
       },
-      method: HttpMethod.POST,
+      method: 'POST',
       body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
 
   async patch<T = unknown>(
     path: ApiEndpoint,
-    options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
+    options?: Pick<IFetchOptions, 'payload' | 'queryParams' | 'params'>,
   ) {
     return await this.request<T>(path, {
       ...options,
       headers: {
         'Content-Type': 'application/json',
       },
-      method: HttpMethod.PATCH,
+      method: 'PATCH',
       body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
 
   async put<T = unknown>(
     path: ApiEndpoint,
-    options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
+    options?: Pick<IFetchOptions, 'payload' | 'queryParams' | 'params'>,
   ) {
     return await this.request<T>(path, {
       ...options,
-      method: HttpMethod.PUT,
+      method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
       },
@@ -134,11 +140,11 @@ export class ApiClient {
 
   async delete<T = unknown>(
     path: ApiEndpoint,
-    options?: Pick<IFetchOptions, 'payload' | 'queryParams'>,
+    options?: Pick<IFetchOptions, 'payload' | 'queryParams' | 'params'>,
   ) {
     return await this.request<T>(path, {
       ...options,
-      method: HttpMethod.DELETE,
+      method: 'DELETE',
       headers: options?.payload
         ? {
             'Content-Type': 'application/json',
@@ -176,10 +182,24 @@ export class ApiClient {
 
     return `${path}?${queryString}`;
   }
+
+  private parseRouteParams(path: string, params: IFetchOptions['params']) {
+    if (!params) {
+      return path;
+    }
+
+    return path.replace(/:([a-zA-Z]+)/g, (_, key) => {
+      if (key in params) {
+        return params[key].toString();
+      }
+
+      throw new Error(`Missing value for parameter: ${key}`);
+    });
+  }
 }
 
 export const apiClient = new ApiClient({
-  baseUrl: import.meta.env.VITE_SERVER_URL,
+  baseUrl: env.apiBaseUrl,
 });
 
 apiClient.setErrorInterceptor(async (error, originalRequestParams) => {
@@ -187,7 +207,7 @@ apiClient.setErrorInterceptor(async (error, originalRequestParams) => {
     originalRequestParams._isRetried = true;
 
     try {
-      if (error.response?.code !== ServerErrorCode.JWT_EXPIRED) {
+      if (!TOKEN_ERRORS.includes(error.response?.code)) {
         throw error;
       }
 
@@ -201,7 +221,7 @@ apiClient.setErrorInterceptor(async (error, originalRequestParams) => {
       );
     } catch (error) {
       if (!window.location.pathname.includes('login')) {
-        localStorage.removeItem(LocalStorageKey.IS_AUTHENTICATED);
+        LocalStorage.removeItem('IS_AUTHENTICATED');
         throw redirect({ to: '/login' });
       }
     }

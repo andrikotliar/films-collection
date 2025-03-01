@@ -1,154 +1,16 @@
 {
-  "id": "eb4d91e9a4798cbed3d1040f",
-  "type": "Film",
+  "id": 56,
   "title": "Harry Potter and the Deathly Hallows: Part I",
-  "genres": [
-    "Fantasy",
-    "Adventures"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "David Yates"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Steve Kloves"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "David Heyman"
-        },
-        {
-          "name": "David Barron"
-        },
-        {
-          "name": "J.K.Rowling"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Alexandre Desplat"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Eduardo Serra"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA",
-    "UK"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2010-11-19T00:00:00.000Z",
   "duration": 146,
-  "cast": [
-    {
-      "actor": "7cd730dd761c711d4467bce0",
-      "character": {
-        "name": "Harry Potter",
-        "image": "characters/harry_potter_and_the_deathly_hallows_part_i_harry_potter.webp"
-      }
-    },
-    {
-      "actor": "076188ec6b66a2c4a62fdab1",
-      "character": {
-        "name": "Ron Weasley",
-        "image": "characters/harry_potter_and_the_deathly_hallows_part_i_ron_weasley.webp"
-      }
-    },
-    {
-      "actor": "3f0004fa95271000de67d1f4",
-      "character": {
-        "name": "Hermione Granger",
-        "image": "characters/harry_potter_and_the_deathly_hallows_part_i_hermione_granger.webp"
-      }
-    },
-    {
-      "actor": "25210612f77f5f5a4c51dc56",
-      "character": {
-        "name": "Lord Voldemort"
-      }
-    },
-    {
-      "actor": "9433a6747c6cfc354fed7e65",
-      "character": {
-        "name": "Severus Snape"
-      }
-    },
-    {
-      "actor": "b5e7e795de1f87df92309e3a",
-      "character": {
-        "name": "Bellatrix Lestrage"
-      }
-    },
-    {
-      "actor": "5aea15b4e9912ad7b3a2241e",
-      "character": {
-        "name": "Rubeus Hagrid"
-      }
-    },
-    {
-      "actor": "aca6f583677ffb4c7f38d469",
-      "character": {
-        "name": "Draco Malfoy"
-      }
-    },
-    {
-      "actor": "0c745814f1b5b36341674138",
-      "character": {
-        "name": "Dobby",
-        "image": "characters/harry_potter_and_the_deathly_hallows_part_i_dobby.webp"
-      }
-    },
-    {
-      "actor": "54976cd277ab4a63171411b7",
-      "character": {
-        "name": "Xenophilius Lovegood"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "ded2b175d20cde95f88bcac4"
-    }
-  ],
+  "poster": "posters/harry_potter_7.webp",
+  "youtubeTrailerId": "MxqsmsA8y5k",
   "budget": 250000000,
   "boxOffice": 960000000,
   "rating": 3,
-  "description": [
-    {
-      "title": null,
-      "text": "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows."
-    }
-  ],
-  "chaptersId": "21fe420121bd2018a3c76f32",
-  "releaseDate": "2010-11-19",
-  "watchCount": 4,
-  "studios": [
-    "Warner Bros. Pictures"
-  ],
-  "poster": "posters/harry_potter_7.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "MxqsmsA8y5k"
-  ],
-  "publishStatus": "Completed"
+  "description": "As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows.",
+  "chapterKey": "harry-potter",
+  "chapterOrder": 7
 }

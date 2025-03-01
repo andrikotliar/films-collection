@@ -1,12 +1,13 @@
 import styles from './Sidebar.module.css';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { SlidersHorizontalIcon } from 'lucide-react';
 import classNames from 'classnames';
-import { Loader } from '@/components';
+import { Loader } from '@/ui';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { fetchInitialDataQuery } from '@/queries';
 import { Filters } from '../Filters/Filters';
 import { MOBILE_VIEW_BREAKPOINT_PX } from '@/constants';
+import { getFiltersConfig } from '@/configs';
 
 export const Sidebar = () => {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
@@ -24,6 +25,14 @@ export const Sidebar = () => {
 
   const { data, isLoading } = useSuspenseQuery(fetchInitialDataQuery());
 
+  const filtersConfig = useMemo(() => {
+    if (!data) {
+      return [];
+    }
+
+    return getFiltersConfig(data);
+  }, [data]);
+
   if (isLoading) {
     return (
       <div className={styles.sidebarContent}>
@@ -40,7 +49,7 @@ export const Sidebar = () => {
         })}
       >
         <Filters
-          config={data}
+          config={filtersConfig}
           setIsFilterOpen={setIsFilterOpen}
           updateFiltersCount={updateFiltersCount}
         />

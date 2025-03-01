@@ -1,8 +1,12 @@
 export type ApiEndpoint =
   | '/films'
-  | `/films/${string}`
+  | '/films/:filmId'
+  | '/films/search'
   | '/initial-data'
   | '/pending-films'
-  | `/pending-films/${string}`
+  | '/pending-films/:filmId'
   | '/auth/login'
-  | '/auth/refresh';
+  | '/auth/refresh'
+  | '/collection-events'
+  | '/collection-events/:eventId'
+  | '/collection-events/admin/list';

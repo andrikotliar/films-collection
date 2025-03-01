@@ -1,12 +1,10 @@
-.textWrapper {
-  position: relative;
-  overflow: hidden;
-  transition: height 0.3s;
-  margin-bottom: 5px;
-}
-
 .text {
   line-height: 1.8;
+  margin-bottom: 8px;
+}
+
+.text:last-child {
+  margin-bottom: 0;
 }
 
 .text span {
@@ -14,36 +12,9 @@
   margin-right: 5px;
 }
 
-.collapsedText::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 20px;
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.50) 100%);
-
-}
-
-.fullTextButton {
+.seasons {
   display: flex;
-  align-items: center;
-  gap: 2px;
-  color: var(--blue-default);
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase;
-  transition: color 0.3s;
-}
-
-.fullTextButton:hover {
-  color: var(--green);
-}
-
-.chevronIcon {
-  transition: transform 0.3s;
-}
-
-.fullTextButtonClose .chevronIcon {
-  transform: rotate(180deg);
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
 }

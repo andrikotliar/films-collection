@@ -1,134 +1,16 @@
 {
-  "id": "dbc616d2439d77ef9f1720b7",
-  "type": "Film",
+  "id": 107,
   "title": "Mission: Impossible - Rogue Nation",
-  "genres": [
-    "Action",
-    "Adventures"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Christopher McQuarrie"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Christopher McQuarrie"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Tom Cruise"
-        },
-        {
-          "name": "Bryan Burk"
-        },
-        {
-          "name": "J.J. Abrams"
-        },
-        {
-          "name": "David Ellison"
-        },
-        {
-          "name": "Dana Goldberg"
-        },
-        {
-          "name": "Don Granger"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Joe Kraemer"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Robert Elswit"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2015-07-31T00:00:00.000Z",
   "duration": 131,
-  "cast": [
-    {
-      "actor": "d1899eef1c53bc13798a897c",
-      "character": {
-        "name": "Ethan Hunt"
-      }
-    },
-    {
-      "actor": "333fe7873ab5451125a195a7",
-      "character": {
-        "name": "William Brandt"
-      }
-    },
-    {
-      "actor": "2e7736bf7187e688395d7a2c",
-      "character": {
-        "name": "Benji Dunn"
-      }
-    },
-    {
-      "actor": "4a98bdee97707da082e29566",
-      "character": {
-        "name": "Ilsa Faust"
-      }
-    },
-    {
-      "actor": "4b4ebf97ca75b72088e2c948",
-      "character": {
-        "name": "Luther Stickell"
-      }
-    },
-    {
-      "actor": "37e4ebf4fbaa8aab7d89a9c4",
-      "character": {
-        "name": "Lane"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "47a859c4e3db02afffd2569e"
-    }
-  ],
+  "poster": "posters/mi_5.webp",
+  "youtubeTrailerId": "gOW_azQbOjw",
   "budget": 150000000,
   "boxOffice": 683000000,
   "rating": 2,
-  "description": [
-    {
-      "title": null,
-      "text": "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF."
-    }
-  ],
-  "chaptersId": "7201769b07df74e644bc0b02",
-  "releaseDate": "2015-07-31",
-  "watchCount": 1,
-  "studios": [
-    "Paramount Pictures"
-  ],
-  "poster": "posters/mi_5.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "gOW_azQbOjw"
-  ],
-  "publishStatus": "Completed"
+  "description": "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF.",
+  "chapterKey": "missin-impossible",
+  "chapterOrder": 5
 }

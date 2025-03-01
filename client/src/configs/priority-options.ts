@@ -1,20 +1,20 @@
 import { Priority } from '@/enums';
-import { ConfigOption } from '@/types';
+import { ListOption } from '@/types';
 import { priorityToColor } from './priority-to-color';
 
-export const priorityOptions: ConfigOption<number, Priority>[] = [
+export const priorityOptions: ListOption<number>[] = [
   {
-    label: Priority.LOW,
+    label: 'Low',
     value: 1,
     color: priorityToColor[Priority.LOW],
   },
   {
-    label: Priority.MEDIUM,
+    label: 'Medium',
     value: 2,
     color: priorityToColor[Priority.MEDIUM],
   },
   {
-    label: Priority.HIGH,
+    label: 'High',
     value: 3,
     color: priorityToColor[Priority.HIGH],
   },

@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "episodesTotal": 9,
+    "seasonsTotal": 1,
+    "filmId": 16
+  },
+  {
+    "id": 2,
+    "episodesTotal": 61,
+    "seasonsTotal": 3,
+    "filmId": 17
+  },
+  {
+    "id": 3,
+    "episodesTotal": 5,
+    "seasonsTotal": 1,
+    "filmId": 32
+  },
+  {
+    "id": 4,
+    "episodesTotal": 24,
+    "seasonsTotal": 3,
+    "filmId": 33
+  },
+  {
+    "id": 5,
+    "episodesTotal": 73,
+    "seasonsTotal": 8,
+    "filmId": 48
+  },
+  {
+    "id": 6,
+    "episodesTotal": 6,
+    "seasonsTotal": 1,
+    "filmId": 63
+  },
+  {
+    "id": 7,
+    "episodesTotal": 77,
+    "seasonsTotal": 5,
+    "filmId": 64
+  },
+  {
+    "id": 8,
+    "episodesTotal": 30,
+    "seasonsTotal": 3,
+    "filmId": 92
+  },
+  {
+    "id": 9,
+    "episodesTotal": 6,
+    "seasonsTotal": 1,
+    "filmId": 94
+  },
+  {
+    "id": 10,
+    "episodesTotal": 12,
+    "seasonsTotal": 4,
+    "filmId": 127
+  },
+  {
+    "id": 11,
+    "episodesTotal": 34,
+    "seasonsTotal": 4,
+    "filmId": 151
+  },
+  {
+    "id": 12,
+    "episodesTotal": 100,
+    "seasonsTotal": 7,
+    "filmId": 158
+  },
+  {
+    "id": 13,
+    "episodesTotal": 6,
+    "seasonsTotal": 1,
+    "filmId": 171
+  },
+  {
+    "id": 14,
+    "episodesTotal": 52,
+    "seasonsTotal": 4,
+    "filmId": 184
+  },
+  {
+    "id": 15,
+    "episodesTotal": 16,
+    "seasonsTotal": 2,
+    "filmId": 193
+  },
+  {
+    "id": 16,
+    "episodesTotal": 7,
+    "seasonsTotal": 1,
+    "filmId": 204
+  },
+  {
+    "id": 17,
+    "episodesTotal": 30,
+    "seasonsTotal": 3,
+    "filmId": 209
+  },
+  {
+    "id": 18,
+    "episodesTotal": 16,
+    "seasonsTotal": 2,
+    "filmId": 211
+  },
+  {
+    "id": 19,
+    "episodesTotal": 9,
+    "seasonsTotal": 1,
+    "filmId": 225
+  }
+]

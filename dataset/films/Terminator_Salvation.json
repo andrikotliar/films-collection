@@ -1,132 +1,16 @@
 {
-  "id": "22a2d2fd6d48e4bb7538f2d2",
-  "type": "Film",
+  "id": 157,
   "title": "Terminator: Salvation",
-  "genres": [
-    "Sci-Fi",
-    "Action"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "McG"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "John Brancato"
-        },
-        {
-          "name": "Michael Ferris"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Derek Anderson"
-        },
-        {
-          "name": "Moritz Borman"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Danny Elfman"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Shane Hurlbut"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2009-05-21T00:00:00.000Z",
   "duration": 115,
-  "cast": [
-    {
-      "actor": "b794f150c4436f17ba9bd9f1",
-      "character": {
-        "name": "John Connor"
-      }
-    },
-    {
-      "actor": "ab25ed81fbee90d0a29d7c92",
-      "character": {
-        "name": "Marcus Wright"
-      }
-    },
-    {
-      "actor": "d0b0f26c1f403a07ec81d884",
-      "character": {
-        "name": "Blair Williams"
-      }
-    },
-    {
-      "actor": "b5e7e795de1f87df92309e3a",
-      "character": {
-        "name": "Dr. Serena Kogan"
-      }
-    },
-    {
-      "actor": "f03c91b058f5592f442fd2cd",
-      "character": {
-        "name": "Kyle Reese"
-      }
-    },
-    {
-      "actor": "46174a55c1f6d46f99b2f9c7",
-      "character": {
-        "name": "Star"
-      }
-    },
-    {
-      "actor": "5a9e20efcb26cd9589817c6d",
-      "character": {
-        "name": "Kate Connor"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "8a792cea73830d2268416ae2"
-    }
-  ],
+  "poster": "posters/terminator_4.webp",
+  "youtubeTrailerId": "-Czz-TcWCkA",
   "budget": 200000000,
   "boxOffice": 371000000,
   "rating": 1,
-  "description": [
-    {
-      "title": null,
-      "text": "In 2018, a mysterious new weapon in the war against the machines, half-human and half-machine, comes to John Connor on the eve of a resistance attack on Skynet. But whose side is he on, and can he be trusted?"
-    }
-  ],
-  "chaptersId": "d48af2b35df9b7fb521ab299",
-  "releaseDate": "2009-05-21",
-  "watchCount": 3,
-  "studios": [
-    "Columbia Pictures",
-    "The Halcyon Company"
-  ],
-  "poster": "posters/terminator_4.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "-Czz-TcWCkA"
-  ],
-  "publishStatus": "Completed"
+  "description": "In 2018, a mysterious new weapon in the war against the machines, half-human and half-machine, comes to John Connor on the eve of a resistance attack on Skynet. But whose side is he on, and can he be trusted?",
+  "chapterKey": "terminator",
+  "chapterOrder": 3
 }

@@ -1,145 +1,16 @@
 {
-  "id": "33e11fcb3e302a68eb80c06e",
-  "type": "Film",
+  "id": 173,
   "title": "The Gentlemen",
-  "genres": [
-    "Action",
-    "Comedy",
-    "Crime"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Guy Ritchie"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Guy Ritchie"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Ivan Atkinson"
-        },
-        {
-          "name": "Bill Block"
-        },
-        {
-          "name": "Guy Ritchie"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Christopher Benstead"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Alan Stewart"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "UK",
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2020-01-24T00:00:00.000Z",
   "duration": 113,
-  "cast": [
-    {
-      "actor": "25fddd7afb676f2eb2b4aa9f",
-      "character": {
-        "name": "Michael Pearson"
-      }
-    },
-    {
-      "actor": "c652b62c969e915bf4644318",
-      "character": {
-        "name": "Ray"
-      }
-    },
-    {
-      "actor": "94fb992bfb61a9fca53839ee",
-      "character": {
-        "name": "Rosalind Pearson"
-      }
-    },
-    {
-      "actor": "897f525ebda55eb5df817ecc",
-      "character": {
-        "name": "Matthew"
-      }
-    },
-    {
-      "actor": "5a4ad3cfbfc4f1269e19e8db",
-      "character": {
-        "name": "Jackie"
-      }
-    },
-    {
-      "actor": "c167c7fe90734461de3cd4aa",
-      "character": {
-        "name": "Coach"
-      }
-    },
-    {
-      "actor": "e197153382691edae4a51a76",
-      "character": {
-        "name": "Dry Eye"
-      }
-    },
-    {
-      "actor": "3a1c45aa5f21d126b950cba7",
-      "character": {
-        "name": "Lord George"
-      }
-    },
-    {
-      "actor": "52318943c79c3be8ac26dff4",
-      "character": {
-        "name": "Fletcher"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "b3ee9731581a5eb2cbe9c146"
-    }
-  ],
+  "poster": "posters/gentlemen.webp",
+  "youtubeTrailerId": "vaN8BtA8OJk",
   "budget": 22000000,
   "boxOffice": 115000000,
   "rating": 2,
-  "description": [
-    {
-      "title": null,
-      "text": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him."
-    }
-  ],
-  "releaseDate": "2020-01-24",
-  "watchCount": 2,
-  "studios": [
-    "STX Films",
-    "MIRAMAX"
-  ],
-  "poster": "posters/gentlemen.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "vaN8BtA8OJk"
-  ],
-  "publishStatus": "Completed"
+  "description": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
+  "chapterKey": null,
+  "chapterOrder": null
 }

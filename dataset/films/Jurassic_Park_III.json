@@ -1,123 +1,16 @@
 {
-  "id": "541a317313d6b66c7cb2637b",
-  "type": "Film",
+  "id": 88,
   "title": "Jurassic Park III",
-  "genres": [
-    "Sci-Fi",
-    "Adventures"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Joe Johnston"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Peter Buchman"
-        },
-        {
-          "name": "Alexander Payne"
-        },
-        {
-          "name": "Jim Taylor"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Larry Franco"
-        },
-        {
-          "name": "Kathleen Kennedy"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Don Davis"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Shelly Johnson"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2001-07-18T00:00:00.000Z",
   "duration": 92,
-  "cast": [
-    {
-      "actor": "2481ddc7d8be875f8b2be84e",
-      "character": {
-        "name": "Dr. Alan Grant"
-      }
-    },
-    {
-      "actor": "f567f450fcb21a0af4e30af3",
-      "character": {
-        "name": "Paul Kirby"
-      }
-    },
-    {
-      "actor": "e25b290cc53a1cd06f04ca4d",
-      "character": {
-        "name": "Amanda Kirby"
-      }
-    },
-    {
-      "actor": "7fe039a34239505e0f74e00e",
-      "character": {
-        "name": "Billy Brennan"
-      }
-    },
-    {
-      "actor": "56b4f488b094f82b1ce5bf04",
-      "character": {
-        "name": "Eric Kirby"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "a3383c5d98d25c75d0fe7ec0"
-    }
-  ],
+  "poster": "posters/jurassic_park_3.webp",
+  "youtubeTrailerId": "gjIaV6CU0wA",
   "budget": 93000000,
   "boxOffice": 368000000,
   "rating": 1,
-  "description": [
-    {
-      "title": null,
-      "text": "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants."
-    }
-  ],
-  "chaptersId": "49f8964ab8146674fa031483",
-  "releaseDate": "2001-07-18",
-  "watchCount": 1,
-  "studios": [
-    "Universal Pictures",
-    "Amblin Entertainment"
-  ],
-  "poster": "posters/jurassic_park_3.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "gjIaV6CU0wA"
-  ],
-  "publishStatus": "Completed"
+  "description": "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants.",
+  "chapterKey": "jurassic-park",
+  "chapterOrder": 3
 }

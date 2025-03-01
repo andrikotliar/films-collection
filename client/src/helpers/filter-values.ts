@@ -1,9 +1,5 @@
-type Values = {
-  [key: string]: any;
-};
-
-export const filterValues = (values: Values) => {
-  const filteredObject: Values = {};
+export const filterValues = <T extends Record<string, any>>(values: T) => {
+  const filteredObject: Partial<T> = {};
 
   for (const key in values) {
     if (values[key]) {

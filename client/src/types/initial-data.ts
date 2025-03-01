@@ -1,15 +1,14 @@
-import { CollectionType, ListType } from '@/enums';
+import { BaseCollectionEvent } from '@/types/collection-event';
+import { ListOption } from './list-option';
 
 export type InitialData = {
-  filters: {
-    general: {
-      [key in ListType]: string[];
-    };
-    collections: {
-      [key in CollectionType]: {
-        id: string;
-        title: string;
-      }[];
-    };
+  options: {
+    genres: ListOption[];
+    collections: ListOption[];
+    countries: ListOption[];
+    studios: ListOption[];
+    types: ListOption<string>[];
+    styles: ListOption<string>[];
   };
+  event: BaseCollectionEvent | null;
 };

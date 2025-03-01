@@ -1,120 +1,16 @@
 {
-  "id": "0db9519447ae4f555a15a7b9",
-  "type": "Film",
+  "id": 126,
   "title": "Shazam!",
-  "genres": [
-    "Adventures",
-    "Comedy"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "David F. Sandberg"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Henry Gayden"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Peter Safran"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Benjamin Wallfisch"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Maxime Alexandre"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2019-04-05T00:00:00.000Z",
   "duration": 132,
-  "cast": [
-    {
-      "actor": "295c1eb00164975bc6a72ed0",
-      "character": {
-        "name": "Shazam"
-      }
-    },
-    {
-      "actor": "bdb2e64bab1a24a00031585c",
-      "character": {
-        "name": "The Wizard"
-      }
-    },
-    {
-      "actor": "fa36e46669ac3b8ea37b8a8e",
-      "character": {
-        "name": "Dr. Thaddeus Sivana"
-      }
-    },
-    {
-      "actor": "4dbb5b46ae36a3d7e267e50b",
-      "character": {
-        "name": "Freddy Freeman"
-      }
-    },
-    {
-      "actor": "dd499f4497c37a491d1b7fcd",
-      "character": {
-        "name": "Darla Dudley"
-      }
-    },
-    {
-      "actor": "2f6abd73449a0412ffb69cc9",
-      "character": {
-        "name": "Billy Batson"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "5f41e4a109f2fdbce16b6466"
-    }
-  ],
+  "poster": "posters/shazam.webp",
+  "youtubeTrailerId": "go6GEIrcvFY",
   "budget": 80000000,
   "boxOffice": 356000000,
   "rating": 1,
-  "description": [
-    {
-      "title": null,
-      "text": "We all have a superhero inside US, it just takes a bit of magic to bring it out. In Billy Batson's case, by shouting out one word - SHAZAM! - this streetwise fourteen-year-old foster kid can turn into the adult superhero Shazam."
-    }
-  ],
-  "chaptersId": "d923cc31cdf721e7ddeb1616",
-  "releaseDate": "2019-04-05",
-  "watchCount": 1,
-  "studios": [
-    "DC Entertainment",
-    "Warner Bros. Pictures"
-  ],
-  "poster": "posters/shazam.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "go6GEIrcvFY"
-  ],
-  "publishStatus": "Completed"
+  "description": "We all have a superhero inside US, it just takes a bit of magic to bring it out. In Billy Batson's case, by shouting out one word - SHAZAM! - this streetwise fourteen-year-old foster kid can turn into the adult superhero Shazam.",
+  "chapterKey": "dceu",
+  "chapterOrder": 7
 }

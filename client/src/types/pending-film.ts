@@ -1,7 +1,5 @@
-import { SortingDirection } from './sorting-direction';
-
 export type PendingFilm = {
-  _id: string;
+  id: number;
   title: string;
   priority: number;
   createdAt: string;
@@ -10,8 +8,8 @@ export type PendingFilm = {
 export type BasePendingFilmFilters = {
   q: string;
   priorities: number[];
-  sortingField: string;
-  sortingDirection: string;
+  orderKey: string;
+  order: string;
 };
 
 export type PendingFilmQueryFilters = Partial<

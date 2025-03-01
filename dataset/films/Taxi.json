@@ -1,119 +1,16 @@
 {
-  "id": "b2220be9044da9961f5bbe23",
-  "type": "Film",
+  "id": 154,
   "title": "Taxi",
-  "genres": [
-    "Comedy"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Gérard Pirès"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Luc Besson"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Luc Besson"
-        },
-        {
-          "name": "Michele Petin"
-        },
-        {
-          "name": "Laurent Petin"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Akhenaton"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Jean-Pierre Sauvaire"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1998-04-04T00:00:00.000Z",
   "duration": 86,
-  "cast": [
-    {
-      "actor": "1562657477b61c61b09e2013",
-      "character": {
-        "name": "Daniel Morales"
-      }
-    },
-    {
-      "actor": "2d4bdb7694904d6306f88c60",
-      "character": {
-        "name": "Emilien Coutant-Kerbalec"
-      }
-    },
-    {
-      "actor": "6e287749f98b9217ea2ceb27",
-      "character": {
-        "name": "Lilly Bertineau"
-      }
-    },
-    {
-      "actor": "69edd5228a1c567011c094fe",
-      "character": {
-        "name": "Petra"
-      }
-    },
-    {
-      "actor": "93c6ee912f305fb6262c4193",
-      "character": {
-        "name": "Commissaire Gibert"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "37fefe4d5c15766d5188af9f"
-    }
-  ],
+  "poster": "posters/taxi_1.webp",
+  "youtubeTrailerId": "buQxF0eIeXI",
   "budget": 9000000,
   "boxOffice": 44000000,
   "rating": 2,
-  "description": [
-    {
-      "title": null,
-      "text": "To work off his tarnished driving record, a hip taxi driver must chauffeur a loser police inspector on the trail of German bank robbers."
-    }
-  ],
-  "chaptersId": "e4250279694fbcf5a7ba81c4",
-  "releaseDate": "1998-04-04",
-  "watchCount": 10,
-  "studios": [
-    "TF1 Films Productions",
-    "ARP Selectio"
-  ],
-  "poster": "posters/taxi_1.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "buQxF0eIeXI"
-  ],
-  "publishStatus": "Completed"
+  "description": "To work off his tarnished driving record, a hip taxi driver must chauffeur a loser police inspector on the trail of German bank robbers.",
+  "chapterKey": "taxi",
+  "chapterOrder": 1
 }

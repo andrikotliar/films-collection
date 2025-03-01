@@ -1,122 +1,16 @@
 {
-  "id": "5599876b9fa294101cba26cf",
-  "type": "Film",
+  "id": 206,
   "title": "The Terminator",
-  "genres": [
-    "Sci-Fi",
-    "Action"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "James Cameron"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "James Cameron"
-        },
-        {
-          "name": "Gale Ann Hurd"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Gale Ann Hurd"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Brad Fiedel"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Adam Greenberg"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1984-10-26T00:00:00.000Z",
   "duration": 107,
-  "cast": [
-    {
-      "actor": "8062b68b19b6dacb76d14b75",
-      "character": {
-        "name": "T-800"
-      }
-    },
-    {
-      "actor": "ddeef4fd51b50bcc160a21c5",
-      "character": {
-        "name": "Kyle Reese"
-      }
-    },
-    {
-      "actor": "a5fd5103183480749784143b",
-      "character": {
-        "name": "Sarah Connor",
-        "image": "characters/the_terminator_sarah_connor.webp"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "8a792cea73830d2268416ae2"
-    }
-  ],
+  "poster": "posters/terminator_1.webp",
+  "youtubeTrailerId": "k64P4l2Wmeg",
   "budget": 6400000,
-  "awards": [
-    {
-      "award": "69de08782a405ee5077f50cf",
-      "nominations": [
-        {
-          "title": "Best Science Fiction Film"
-        },
-        {
-          "title": "Best Writing"
-        },
-        {
-          "title": "Best Make-up"
-        }
-      ]
-    }
-  ],
   "boxOffice": 40000000,
   "rating": 2,
-  "description": [
-    {
-      "title": null,
-      "text": "A seemingly indestructible android is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs."
-    }
-  ],
-  "chaptersId": "d48af2b35df9b7fb521ab299",
-  "releaseDate": "1984-10-26",
-  "watchCount": 3,
-  "studios": [
-    "Orion Pictures",
-    "Cinema_84"
-  ],
-  "poster": "posters/terminator_1.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "k64P4l2Wmeg"
-  ],
-  "publishStatus": "Completed"
+  "description": "A seemingly indestructible android is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs.",
+  "chapterKey": "transporter",
+  "chapterOrder": 1
 }

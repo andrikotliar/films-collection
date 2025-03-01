@@ -1,137 +1,16 @@
 {
-  "id": "86039d8a4fe37a2b306ebf8d",
-  "type": "Film",
+  "id": 5,
   "title": "2012",
-  "genres": [
-    "Sci-Fi",
-    "Action",
-    "Disaster"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Roland Emmerich"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Harald Kloser"
-        },
-        {
-          "name": "Roland Emmerich"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Harald Kloser"
-        },
-        {
-          "name": "Mark Gordon"
-        },
-        {
-          "name": "Larry J. Franco"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Harald Kloser"
-        },
-        {
-          "name": "Thomas Wander"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Dean Semler"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2009-11-13T00:00:00.000Z",
   "duration": 158,
-  "cast": [
-    {
-      "actor": "97ee6d4fe5c8393b3a12dad9",
-      "character": {
-        "name": "Jackson Curtis"
-      }
-    },
-    {
-      "actor": "d4ae0ee752c2dfb42b7cd3de",
-      "character": {
-        "name": "Kate Curtis"
-      }
-    },
-    {
-      "actor": "e5fca0c83deaa2448c413cfd",
-      "character": {
-        "name": "Adrian Helmsley"
-      }
-    },
-    {
-      "actor": "e8de9cf95faeea0c9bde694c",
-      "character": {
-        "name": "Laura Wilson"
-      }
-    },
-    {
-      "actor": "9ff1b1591a793e5ebcb44c72",
-      "character": {
-        "name": "Carl Anheuser"
-      }
-    },
-    {
-      "actor": "024affbe7a45ee9fc554bf76",
-      "character": {
-        "name": "Charlie Frost"
-      }
-    },
-    {
-      "actor": "40e31d5ce0764fba8991ceb0",
-      "character": {
-        "name": "President Thomas Wilson"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "68e24e7e148981503b661c07"
-    }
-  ],
+  "poster": "posters/twenty_twelve.webp",
+  "youtubeTrailerId": "ce0N3TEcFw0",
   "budget": 200000000,
   "boxOffice": 770000000,
   "rating": 2,
-  "description": [
-    {
-      "title": null,
-      "text": "A frustrated writer struggles to keep his family alive when a series of global catastrophes threatens to annihilate mankind."
-    }
-  ],
-  "releaseDate": "2009-11-13",
-  "watchCount": 3,
-  "studios": [
-    "Columbia Pictures"
-  ],
-  "poster": "posters/twenty_twelve.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "ce0N3TEcFw0"
-  ],
-  "publishStatus": "Completed"
+  "description": "A frustrated writer struggles to keep his family alive when a series of global catastrophes threatens to annihilate mankind.",
+  "chapterKey": null,
+  "chapterOrder": null
 }

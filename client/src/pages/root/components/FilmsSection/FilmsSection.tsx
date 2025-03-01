@@ -1,11 +1,7 @@
 import styles from './FilmsSection.module.css';
 import { FC } from 'react';
-import { FilmsGrid, Loader, Pagination } from '@/components';
-import {
-  FilmsNotFound,
-  AdditionalInfoSection,
-  AppliedFilters,
-} from './components';
+import { FilmsGrid, Loader, Pagination } from '@/ui';
+import { FilmsNotFound, AdditionalInfoSection } from './components';
 import { FilmsListResponse } from '@/types';
 import { getRouteApi } from '@tanstack/react-router';
 import { PER_PAGE } from '@/constants';
@@ -33,7 +29,6 @@ export const FilmsSection: FC<FilmsSectionProps> = ({ data, isLoading }) => {
     return (
       <div className={styles.filmsSection}>
         <AdditionalInfoSection info={data.additionalInfo} />
-        <AppliedFilters />
         <FilmsNotFound />
       </div>
     );
@@ -56,7 +51,6 @@ export const FilmsSection: FC<FilmsSectionProps> = ({ data, isLoading }) => {
   return (
     <div className={styles.filmsSection}>
       <AdditionalInfoSection info={data.additionalInfo} />
-      <AppliedFilters />
       <FilmsGrid films={data.films} />
       <div className={styles.paginationWrapper}>
         <Pagination

@@ -1,138 +1,16 @@
 {
-  "id": "306f1027fe0f5bb6e304c933",
-  "type": "Film",
+  "id": 14,
   "title": "Ant-Man and the Wasp",
-  "genres": [
-    "Sci-Fi",
-    "Comedy"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Peyton Reed"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Chris McKenna"
-        },
-        {
-          "name": "Erik Sommers"
-        },
-        {
-          "name": "Paul Rudd"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Kevin Feige"
-        },
-        {
-          "name": "Stephen Broussard"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Christophe Beck"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Dante Spinotti"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2018-07-06T00:00:00.000Z",
   "duration": 118,
-  "cast": [
-    {
-      "actor": "5d474df7bc79a3784ee0df3a",
-      "character": {
-        "name": "Scott Lang / Ant-Man",
-        "image": "characters/ant_man_and_the_wasp_scott_lang.webp"
-      }
-    },
-    {
-      "actor": "cbea23272f6d430dd37d2296",
-      "character": {
-        "name": "Hope Van Dyne / New Wasp",
-        "image": "characters/ant_man_and_the_wasp_hope_van_dyne.webp"
-      }
-    },
-    {
-      "actor": "5e3bafc74ed0a30df02c53af",
-      "character": {
-        "name": "Luis"
-      }
-    },
-    {
-      "actor": "ceed7f04919d7706e670c146",
-      "character": {
-        "name": "Ava / Ghost",
-        "image": "characters/ant_man_and_the_wasp_ava.webp"
-      }
-    },
-    {
-      "actor": "4771750eb3cf3c71190e7c37",
-      "character": {
-        "name": "Janet Van Dyne / First Wasp"
-      }
-    },
-    {
-      "actor": "598ea6d5be8fe378787adde7",
-      "character": {
-        "name": "Dr. Bill Foster"
-      }
-    },
-    {
-      "actor": "b2ea2428b1a880a37e8855f5",
-      "character": {
-        "name": "Dr. Hank Pym"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "084e68c00a421325955ce741"
-    }
-  ],
+  "poster": "posters/ant_man_2.webp",
+  "youtubeTrailerId": "UUkn-enk2RU",
   "budget": 162000000,
   "boxOffice": 595000000,
   "rating": 1,
-  "description": [
-    {
-      "title": null,
-      "text": "As Scott Lang balances being both a Super Hero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past."
-    }
-  ],
-  "chaptersId": "07bf3e15ce289b98963660c5",
-  "releaseDate": "2018-07-06",
-  "watchCount": 1,
-  "studios": [
-    "Walt Disney Pictures",
-    "Marvel Studios"
-  ],
-  "poster": "posters/ant_man_2.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "UUkn-enk2RU"
-  ],
-  "publishStatus": "Completed"
+  "description": "As Scott Lang balances being both a Super Hero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
+  "chapterKey": "mcu",
+  "chapterOrder": 21
 }

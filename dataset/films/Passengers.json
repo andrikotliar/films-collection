@@ -1,121 +1,16 @@
 {
-  "id": "06c19623e14cff43a0788413",
-  "type": "Film",
+  "id": 113,
   "title": "Passengers",
-  "genres": [
-    "Sci-Fi",
-    "Romance"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Morten Tyldum"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Jon Spaihts"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Stephen Hamel"
-        },
-        {
-          "name": "Michael Maher"
-        },
-        {
-          "name": "Neal H. Moritz"
-        },
-        {
-          "name": "Ori Marmur"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Thomas Newman"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Rodrigo Prieto"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2016-12-21T00:00:00.000Z",
   "duration": 116,
-  "cast": [
-    {
-      "actor": "c99e4f6dc0695561848dc5be",
-      "character": {
-        "name": "Aurora Lane"
-      }
-    },
-    {
-      "actor": "81002d63c8ad158916752ee2",
-      "character": {
-        "name": "Jim Preston"
-      }
-    },
-    {
-      "actor": "ddc30904ea1df69f6f509783",
-      "character": {
-        "name": "Arthur"
-      }
-    },
-    {
-      "actor": "598ea6d5be8fe378787adde7",
-      "character": {
-        "name": "Gus Mancuso"
-      }
-    },
-    {
-      "actor": "539fa2d4f61a2a9f805ee4f8",
-      "character": {
-        "name": "Captain Norris"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "d3158d1bdcadb1a015c4bf29"
-    }
-  ],
+  "poster": "posters/passengers.webp",
+  "youtubeTrailerId": "7BWWWQzTpNU",
   "budget": 110000000,
   "boxOffice": 303000000,
   "rating": 3,
-  "description": [
-    {
-      "title": null,
-      "text": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early."
-    }
-  ],
-  "releaseDate": "2016-12-21",
-  "watchCount": 5,
-  "studios": [
-    "Columbia Pictures"
-  ],
-  "poster": "posters/passengers.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "7BWWWQzTpNU"
-  ],
-  "publishStatus": "Completed"
+  "description": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early.",
+  "chapterKey": null,
+  "chapterOrder": null
 }

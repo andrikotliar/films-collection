@@ -1,126 +1,16 @@
 {
-  "id": "2b4eaba8ea0670ca2c441700",
-  "type": "Film",
+  "id": 26,
   "title": "Black Widow",
-  "genres": [
-    "Adventures",
-    "Action"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Cate Shortland"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "Eric Pearson"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Kevin Feige"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Lorne Balfe"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Gabriel Beristain"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2021-07-09T00:00:00.000Z",
   "duration": 134,
-  "cast": [
-    {
-      "actor": "64286f842f66cb88506271cc",
-      "character": {
-        "name": "Natasha Romanoff / Black Widow"
-      }
-    },
-    {
-      "actor": "46f80ff2f064a6797fb228ee",
-      "character": {
-        "name": "Yelena Belova / Black Widow"
-      }
-    },
-    {
-      "actor": "cac8a6d872c6bd724fce9824",
-      "character": {
-        "name": "Melina Vostokoff / Black Widow"
-      }
-    },
-    {
-      "actor": "99e2f170a8daaceec4fbd744",
-      "character": {
-        "name": "Alexei Shostakov / Red Guardian"
-      }
-    },
-    {
-      "actor": "746052b74ff504df95e4d257",
-      "character": {
-        "name": "Rick Mason"
-      }
-    },
-    {
-      "actor": "b9175a2816503116bd2f93a9",
-      "character": {
-        "name": "Antonia Dreykov / Taskmaster"
-      }
-    },
-    {
-      "actor": "0ec2e2683da5b8fcdff58d89",
-      "character": {
-        "name": "Dreykov"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "084e68c00a421325955ce741"
-    }
-  ],
+  "poster": "posters/black_widow.webp",
+  "youtubeTrailerId": "ybji16u608U",
   "budget": 200000000,
   "boxOffice": 379000000,
   "rating": 1,
-  "description": [
-    {
-      "title": null,
-      "text": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises."
-    }
-  ],
-  "chaptersId": "07bf3e15ce289b98963660c5",
-  "releaseDate": "2021-07-09",
-  "watchCount": 1,
-  "isWatchedInCinema": true,
-  "studios": [
-    "Marvel Studios"
-  ],
-  "poster": "posters/black_widow.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "ybji16u608U"
-  ],
-  "publishStatus": "Completed"
+  "description": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises.",
+  "chapterKey": "mcu",
+  "chapterOrder": 16
 }

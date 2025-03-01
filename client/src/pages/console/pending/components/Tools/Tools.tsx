@@ -4,13 +4,13 @@ import {
   StatusFilterButton,
   FieldLabel,
   TextInput,
-} from '@/components';
+} from '@/ui';
 import styles from './Tools.module.css';
 import { debounce } from '@/helpers';
 import { getRouteApi } from '@tanstack/react-router';
 import { ChangeEvent, useCallback } from 'react';
 import { priorityOptions } from '@/configs';
-import { SortingDirection, StatusColor } from '@/types';
+import { SortingOrder, StatusColor } from '@/types';
 import { setPriorities } from './helpers';
 
 const routeApi = getRouteApi('/console/pending');
@@ -57,8 +57,8 @@ export const Tools = () => {
       search: (params) => {
         return {
           ...params,
-          sortingField: sortingParams.sortingField,
-          sortingDirection: sortingParams.sortingDirection,
+          orderKey: sortingParams.orderKey,
+          order: sortingParams.order,
         };
       },
     });
@@ -91,10 +91,8 @@ export const Tools = () => {
           <SortingPopup
             fields={sortingFields}
             onSorting={handleApplySorting}
-            defaultSortingDirection={
-              searchParams.sortingDirection as SortingDirection
-            }
-            defaultSortingField={searchParams.sortingField}
+            defaultOrder={searchParams.order as SortingOrder}
+            defaultOrderKey={searchParams.orderKey}
             buttonSize="large"
           />
         </div>

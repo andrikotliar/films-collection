@@ -1,8 +1,6 @@
-import { CollectionType } from '@/enums';
-
 export type Collection = {
-  _id: string;
-  type: CollectionType;
+  id: number;
+  type: string;
   title: string;
-  description: string;
+  description: string | null;
 };

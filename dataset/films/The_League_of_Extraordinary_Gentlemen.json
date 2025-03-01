@@ -1,135 +1,16 @@
 {
-  "id": "df0865341f4fd6c8b172e5d3",
-  "type": "Film",
+  "id": 183,
   "title": "The League of Extraordinary Gentlemen",
-  "genres": [
-    "Adventures",
-    "Fantasy",
-    "Action"
-  ],
-  "crew": [
-    {
-      "role": "Director",
-      "people": [
-        {
-          "name": "Stephen Norrington"
-        }
-      ]
-    },
-    {
-      "role": "Writer",
-      "people": [
-        {
-          "name": "James Robinson"
-        }
-      ]
-    },
-    {
-      "role": "Producer",
-      "people": [
-        {
-          "name": "Don Murphy"
-        }
-      ]
-    },
-    {
-      "role": "Composer",
-      "people": [
-        {
-          "name": "Trevor Jones"
-        }
-      ]
-    },
-    {
-      "role": "Cameraman",
-      "people": [
-        {
-          "name": "Dan Laustsen"
-        }
-      ]
-    }
-  ],
-  "countries": [
-    "USA",
-    "Germany",
-    "Czech Republic",
-    "UK"
-  ],
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2003-07-11T00:00:00.000Z",
   "duration": 110,
-  "cast": [
-    {
-      "actor": "52e5e7e893ec68a15817dc22",
-      "character": {
-        "name": "Allan Quatermain"
-      }
-    },
-    {
-      "actor": "6fd2df6ac710efacd011103e",
-      "character": {
-        "name": "Captain Nemo"
-      }
-    },
-    {
-      "actor": "6cf7c8e7ba3ae618c5d6ce59",
-      "character": {
-        "name": "Mina Harker"
-      }
-    },
-    {
-      "actor": "3dfa1f2f3e8923ade058f01d",
-      "character": {
-        "name": "Rodney Skinner"
-      }
-    },
-    {
-      "actor": "8d2b8f984e9c569434298a4b",
-      "character": {
-        "name": "Dorian Gray"
-      }
-    },
-    {
-      "actor": "f23198f412b489ca9abf001a",
-      "character": {
-        "name": "Tom Sawyer"
-      }
-    },
-    {
-      "actor": "8d34f6ffde757618a3f13712",
-      "character": {
-        "name": "Dr. Henry Jekyll / Edward Hyde",
-        "image": "characters/the_league_of_extraordinary_gentlemen_dr_henry_jekyll.webp"
-      }
-    },
-    {
-      "actor": "953ad71c05859a1a5ee1bd5f",
-      "character": {
-        "name": "M"
-      }
-    }
-  ],
-  "collections": [
-    {
-      "collection": "6b0607b285f213362f2e0790"
-    }
-  ],
+  "poster": "posters/league_of_extraordinary_gentlemen.webp",
+  "youtubeTrailerId": "_WWIiTlGyYQ",
   "budget": 78000000,
   "boxOffice": 179000000,
   "rating": 1,
-  "description": [
-    {
-      "title": null,
-      "text": "In an alternate Victorian Age world, a group of famous contemporary fantasy, science fiction, and adventure characters team up on a secret mission."
-    }
-  ],
-  "releaseDate": "2003-07-11",
-  "watchCount": 4,
-  "studios": [
-    "20th Century FOX"
-  ],
-  "poster": "posters/league_of_extraordinary_gentlemen.webp",
-  "style": "Live-Action",
-  "trailers": [
-    "_WWIiTlGyYQ"
-  ],
-  "publishStatus": "Completed"
+  "description": "In an alternate Victorian Age world, a group of famous contemporary fantasy, science fiction, and adventure characters team up on a secret mission.",
+  "chapterKey": null,
+  "chapterOrder": null
 }

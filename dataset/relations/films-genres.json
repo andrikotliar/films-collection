@@ -1,0 +1,1962 @@
+[
+  {
+    "filmId": 5,
+    "genreId": 1
+  },
+  {
+    "filmId": 5,
+    "genreId": 4
+  },
+  {
+    "filmId": 5,
+    "genreId": 11
+  },
+  {
+    "filmId": 6,
+    "genreId": 4
+  },
+  {
+    "filmId": 6,
+    "genreId": 7
+  },
+  {
+    "filmId": 7,
+    "genreId": 1
+  },
+  {
+    "filmId": 7,
+    "genreId": 5
+  },
+  {
+    "filmId": 7,
+    "genreId": 10
+  },
+  {
+    "filmId": 8,
+    "genreId": 1
+  },
+  {
+    "filmId": 8,
+    "genreId": 10
+  },
+  {
+    "filmId": 9,
+    "genreId": 1
+  },
+  {
+    "filmId": 9,
+    "genreId": 10
+  },
+  {
+    "filmId": 10,
+    "genreId": 1
+  },
+  {
+    "filmId": 10,
+    "genreId": 10
+  },
+  {
+    "filmId": 11,
+    "genreId": 19
+  },
+  {
+    "filmId": 11,
+    "genreId": 4
+  },
+  {
+    "filmId": 12,
+    "genreId": 6
+  },
+  {
+    "filmId": 12,
+    "genreId": 7
+  },
+  {
+    "filmId": 13,
+    "genreId": 1
+  },
+  {
+    "filmId": 13,
+    "genreId": 6
+  },
+  {
+    "filmId": 14,
+    "genreId": 1
+  },
+  {
+    "filmId": 14,
+    "genreId": 6
+  },
+  {
+    "filmId": 15,
+    "genreId": 2
+  },
+  {
+    "filmId": 15,
+    "genreId": 3
+  },
+  {
+    "filmId": 16,
+    "genreId": 3
+  },
+  {
+    "filmId": 16,
+    "genreId": 4
+  },
+  {
+    "filmId": 2,
+    "genreId": 1
+  },
+  {
+    "filmId": 2,
+    "genreId": 4
+  },
+  {
+    "filmId": 17,
+    "genreId": 3
+  },
+  {
+    "filmId": 17,
+    "genreId": 2
+  },
+  {
+    "filmId": 18,
+    "genreId": 1
+  },
+  {
+    "filmId": 18,
+    "genreId": 4
+  },
+  {
+    "filmId": 19,
+    "genreId": 1
+  },
+  {
+    "filmId": 19,
+    "genreId": 4
+  },
+  {
+    "filmId": 20,
+    "genreId": 1
+  },
+  {
+    "filmId": 20,
+    "genreId": 3
+  },
+  {
+    "filmId": 21,
+    "genreId": 1
+  },
+  {
+    "filmId": 21,
+    "genreId": 3
+  },
+  {
+    "filmId": 22,
+    "genreId": 1
+  },
+  {
+    "filmId": 22,
+    "genreId": 3
+  },
+  {
+    "filmId": 23,
+    "genreId": 4
+  },
+  {
+    "filmId": 23,
+    "genreId": 9
+  },
+  {
+    "filmId": 24,
+    "genreId": 4
+  },
+  {
+    "filmId": 24,
+    "genreId": 3
+  },
+  {
+    "filmId": 25,
+    "genreId": 1
+  },
+  {
+    "filmId": 25,
+    "genreId": 4
+  },
+  {
+    "filmId": 26,
+    "genreId": 3
+  },
+  {
+    "filmId": 26,
+    "genreId": 4
+  },
+  {
+    "filmId": 27,
+    "genreId": 1
+  },
+  {
+    "filmId": 27,
+    "genreId": 4
+  },
+  {
+    "filmId": 28,
+    "genreId": 1
+  },
+  {
+    "filmId": 28,
+    "genreId": 4
+  },
+  {
+    "filmId": 29,
+    "genreId": 1
+  },
+  {
+    "filmId": 29,
+    "genreId": 4
+  },
+  {
+    "filmId": 30,
+    "genreId": 1
+  },
+  {
+    "filmId": 30,
+    "genreId": 4
+  },
+  {
+    "filmId": 31,
+    "genreId": 4
+  },
+  {
+    "filmId": 31,
+    "genreId": 9
+  },
+  {
+    "filmId": 32,
+    "genreId": 5
+  },
+  {
+    "filmId": 32,
+    "genreId": 12
+  },
+  {
+    "filmId": 33,
+    "genreId": 2
+  },
+  {
+    "filmId": 33,
+    "genreId": 5
+  },
+  {
+    "filmId": 34,
+    "genreId": 4
+  },
+  {
+    "filmId": 35,
+    "genreId": 4
+  },
+  {
+    "filmId": 36,
+    "genreId": 2
+  },
+  {
+    "filmId": 36,
+    "genreId": 4
+  },
+  {
+    "filmId": 37,
+    "genreId": 1
+  },
+  {
+    "filmId": 37,
+    "genreId": 3
+  },
+  {
+    "filmId": 37,
+    "genreId": 5
+  },
+  {
+    "filmId": 38,
+    "genreId": 1
+  },
+  {
+    "filmId": 38,
+    "genreId": 4
+  },
+  {
+    "filmId": 39,
+    "genreId": 3
+  },
+  {
+    "filmId": 39,
+    "genreId": 4
+  },
+  {
+    "filmId": 39,
+    "genreId": 5
+  },
+  {
+    "filmId": 40,
+    "genreId": 4
+  },
+  {
+    "filmId": 40,
+    "genreId": 7
+  },
+  {
+    "filmId": 41,
+    "genreId": 4
+  },
+  {
+    "filmId": 41,
+    "genreId": 7
+  },
+  {
+    "filmId": 42,
+    "genreId": 4
+  },
+  {
+    "filmId": 42,
+    "genreId": 7
+  },
+  {
+    "filmId": 43,
+    "genreId": 3
+  },
+  {
+    "filmId": 44,
+    "genreId": 5
+  },
+  {
+    "filmId": 44,
+    "genreId": 6
+  },
+  {
+    "filmId": 44,
+    "genreId": 7
+  },
+  {
+    "filmId": 45,
+    "genreId": 4
+  },
+  {
+    "filmId": 45,
+    "genreId": 5
+  },
+  {
+    "filmId": 45,
+    "genreId": 13
+  },
+  {
+    "filmId": 46,
+    "genreId": 4
+  },
+  {
+    "filmId": 46,
+    "genreId": 7
+  },
+  {
+    "filmId": 47,
+    "genreId": 4
+  },
+  {
+    "filmId": 47,
+    "genreId": 7
+  },
+  {
+    "filmId": 48,
+    "genreId": 3
+  },
+  {
+    "filmId": 48,
+    "genreId": 5
+  },
+  {
+    "filmId": 49,
+    "genreId": 14
+  },
+  {
+    "filmId": 49,
+    "genreId": 4
+  },
+  {
+    "filmId": 50,
+    "genreId": 5
+  },
+  {
+    "filmId": 51,
+    "genreId": 1
+  },
+  {
+    "filmId": 51,
+    "genreId": 6
+  },
+  {
+    "filmId": 52,
+    "genreId": 1
+  },
+  {
+    "filmId": 52,
+    "genreId": 6
+  },
+  {
+    "filmId": 53,
+    "genreId": 4
+  },
+  {
+    "filmId": 53,
+    "genreId": 6
+  },
+  {
+    "filmId": 54,
+    "genreId": 15
+  },
+  {
+    "filmId": 54,
+    "genreId": 8
+  },
+  {
+    "filmId": 55,
+    "genreId": 2
+  },
+  {
+    "filmId": 55,
+    "genreId": 3
+  },
+  {
+    "filmId": 56,
+    "genreId": 2
+  },
+  {
+    "filmId": 56,
+    "genreId": 3
+  },
+  {
+    "filmId": 57,
+    "genreId": 2
+  },
+  {
+    "filmId": 57,
+    "genreId": 3
+  },
+  {
+    "filmId": 58,
+    "genreId": 2
+  },
+  {
+    "filmId": 58,
+    "genreId": 3
+  },
+  {
+    "filmId": 59,
+    "genreId": 2
+  },
+  {
+    "filmId": 59,
+    "genreId": 3
+  },
+  {
+    "filmId": 60,
+    "genreId": 2
+  },
+  {
+    "filmId": 60,
+    "genreId": 3
+  },
+  {
+    "filmId": 61,
+    "genreId": 2
+  },
+  {
+    "filmId": 61,
+    "genreId": 3
+  },
+  {
+    "filmId": 62,
+    "genreId": 2
+  },
+  {
+    "filmId": 62,
+    "genreId": 3
+  },
+  {
+    "filmId": 63,
+    "genreId": 4
+  },
+  {
+    "filmId": 63,
+    "genreId": 7
+  },
+  {
+    "filmId": 64,
+    "genreId": 1
+  },
+  {
+    "filmId": 64,
+    "genreId": 5
+  },
+  {
+    "filmId": 65,
+    "genreId": 8
+  },
+  {
+    "filmId": 65,
+    "genreId": 6
+  },
+  {
+    "filmId": 66,
+    "genreId": 2
+  },
+  {
+    "filmId": 66,
+    "genreId": 3
+  },
+  {
+    "filmId": 67,
+    "genreId": 2
+  },
+  {
+    "filmId": 67,
+    "genreId": 3
+  },
+  {
+    "filmId": 68,
+    "genreId": 2
+  },
+  {
+    "filmId": 68,
+    "genreId": 3
+  },
+  {
+    "filmId": 69,
+    "genreId": 5
+  },
+  {
+    "filmId": 69,
+    "genreId": 3
+  },
+  {
+    "filmId": 70,
+    "genreId": 1
+  },
+  {
+    "filmId": 70,
+    "genreId": 4
+  },
+  {
+    "filmId": 71,
+    "genreId": 1
+  },
+  {
+    "filmId": 72,
+    "genreId": 3
+  },
+  {
+    "filmId": 72,
+    "genreId": 6
+  },
+  {
+    "filmId": 73,
+    "genreId": 3
+  },
+  {
+    "filmId": 73,
+    "genreId": 6
+  },
+  {
+    "filmId": 74,
+    "genreId": 3
+  },
+  {
+    "filmId": 74,
+    "genreId": 6
+  },
+  {
+    "filmId": 75,
+    "genreId": 1
+  },
+  {
+    "filmId": 75,
+    "genreId": 4
+  },
+  {
+    "filmId": 76,
+    "genreId": 1
+  },
+  {
+    "filmId": 76,
+    "genreId": 4
+  },
+  {
+    "filmId": 77,
+    "genreId": 1
+  },
+  {
+    "filmId": 77,
+    "genreId": 4
+  },
+  {
+    "filmId": 78,
+    "genreId": 3
+  },
+  {
+    "filmId": 78,
+    "genreId": 2
+  },
+  {
+    "filmId": 78,
+    "genreId": 4
+  },
+  {
+    "filmId": 79,
+    "genreId": 3
+  },
+  {
+    "filmId": 79,
+    "genreId": 2
+  },
+  {
+    "filmId": 79,
+    "genreId": 4
+  },
+  {
+    "filmId": 80,
+    "genreId": 3
+  },
+  {
+    "filmId": 80,
+    "genreId": 2
+  },
+  {
+    "filmId": 80,
+    "genreId": 4
+  },
+  {
+    "filmId": 81,
+    "genreId": 3
+  },
+  {
+    "filmId": 81,
+    "genreId": 2
+  },
+  {
+    "filmId": 81,
+    "genreId": 4
+  },
+  {
+    "filmId": 82,
+    "genreId": 1
+  },
+  {
+    "filmId": 82,
+    "genreId": 5
+  },
+  {
+    "filmId": 3,
+    "genreId": 1
+  },
+  {
+    "filmId": 3,
+    "genreId": 4
+  },
+  {
+    "filmId": 83,
+    "genreId": 1
+  },
+  {
+    "filmId": 83,
+    "genreId": 4
+  },
+  {
+    "filmId": 84,
+    "genreId": 1
+  },
+  {
+    "filmId": 84,
+    "genreId": 4
+  },
+  {
+    "filmId": 85,
+    "genreId": 1
+  },
+  {
+    "filmId": 85,
+    "genreId": 3
+  },
+  {
+    "filmId": 86,
+    "genreId": 2
+  },
+  {
+    "filmId": 86,
+    "genreId": 3
+  },
+  {
+    "filmId": 87,
+    "genreId": 1
+  },
+  {
+    "filmId": 87,
+    "genreId": 3
+  },
+  {
+    "filmId": 88,
+    "genreId": 1
+  },
+  {
+    "filmId": 88,
+    "genreId": 3
+  },
+  {
+    "filmId": 89,
+    "genreId": 1
+  },
+  {
+    "filmId": 89,
+    "genreId": 3
+  },
+  {
+    "filmId": 90,
+    "genreId": 3
+  },
+  {
+    "filmId": 90,
+    "genreId": 6
+  },
+  {
+    "filmId": 91,
+    "genreId": 4
+  },
+  {
+    "filmId": 91,
+    "genreId": 6
+  },
+  {
+    "filmId": 92,
+    "genreId": 2
+  },
+  {
+    "filmId": 92,
+    "genreId": 5
+  },
+  {
+    "filmId": 93,
+    "genreId": 1
+  },
+  {
+    "filmId": 93,
+    "genreId": 4
+  },
+  {
+    "filmId": 94,
+    "genreId": 3
+  },
+  {
+    "filmId": 94,
+    "genreId": 2
+  },
+  {
+    "filmId": 95,
+    "genreId": 3
+  },
+  {
+    "filmId": 95,
+    "genreId": 4
+  },
+  {
+    "filmId": 95,
+    "genreId": 6
+  },
+  {
+    "filmId": 96,
+    "genreId": 3
+  },
+  {
+    "filmId": 96,
+    "genreId": 6
+  },
+  {
+    "filmId": 97,
+    "genreId": 3
+  },
+  {
+    "filmId": 97,
+    "genreId": 6
+  },
+  {
+    "filmId": 98,
+    "genreId": 4
+  },
+  {
+    "filmId": 98,
+    "genreId": 3
+  },
+  {
+    "filmId": 99,
+    "genreId": 1
+  },
+  {
+    "filmId": 99,
+    "genreId": 4
+  },
+  {
+    "filmId": 99,
+    "genreId": 6
+  },
+  {
+    "filmId": 100,
+    "genreId": 1
+  },
+  {
+    "filmId": 100,
+    "genreId": 4
+  },
+  {
+    "filmId": 100,
+    "genreId": 6
+  },
+  {
+    "filmId": 101,
+    "genreId": 2
+  },
+  {
+    "filmId": 101,
+    "genreId": 3
+  },
+  {
+    "filmId": 101,
+    "genreId": 5
+  },
+  {
+    "filmId": 102,
+    "genreId": 4
+  },
+  {
+    "filmId": 102,
+    "genreId": 3
+  },
+  {
+    "filmId": 103,
+    "genreId": 4
+  },
+  {
+    "filmId": 103,
+    "genreId": 3
+  },
+  {
+    "filmId": 104,
+    "genreId": 4
+  },
+  {
+    "filmId": 104,
+    "genreId": 3
+  },
+  {
+    "filmId": 105,
+    "genreId": 4
+  },
+  {
+    "filmId": 105,
+    "genreId": 3
+  },
+  {
+    "filmId": 106,
+    "genreId": 4
+  },
+  {
+    "filmId": 106,
+    "genreId": 3
+  },
+  {
+    "filmId": 107,
+    "genreId": 4
+  },
+  {
+    "filmId": 107,
+    "genreId": 3
+  },
+  {
+    "filmId": 108,
+    "genreId": 3
+  },
+  {
+    "filmId": 108,
+    "genreId": 6
+  },
+  {
+    "filmId": 109,
+    "genreId": 7
+  },
+  {
+    "filmId": 109,
+    "genreId": 5
+  },
+  {
+    "filmId": 110,
+    "genreId": 7
+  },
+  {
+    "filmId": 110,
+    "genreId": 9
+  },
+  {
+    "filmId": 111,
+    "genreId": 1
+  },
+  {
+    "filmId": 111,
+    "genreId": 4
+  },
+  {
+    "filmId": 112,
+    "genreId": 1
+  },
+  {
+    "filmId": 112,
+    "genreId": 4
+  },
+  {
+    "filmId": 113,
+    "genreId": 1
+  },
+  {
+    "filmId": 113,
+    "genreId": 8
+  },
+  {
+    "filmId": 114,
+    "genreId": 2
+  },
+  {
+    "filmId": 114,
+    "genreId": 3
+  },
+  {
+    "filmId": 115,
+    "genreId": 2
+  },
+  {
+    "filmId": 115,
+    "genreId": 3
+  },
+  {
+    "filmId": 116,
+    "genreId": 2
+  },
+  {
+    "filmId": 116,
+    "genreId": 3
+  },
+  {
+    "filmId": 117,
+    "genreId": 2
+  },
+  {
+    "filmId": 117,
+    "genreId": 3
+  },
+  {
+    "filmId": 118,
+    "genreId": 2
+  },
+  {
+    "filmId": 118,
+    "genreId": 3
+  },
+  {
+    "filmId": 119,
+    "genreId": 4
+  },
+  {
+    "filmId": 119,
+    "genreId": 10
+  },
+  {
+    "filmId": 120,
+    "genreId": 2
+  },
+  {
+    "filmId": 120,
+    "genreId": 4
+  },
+  {
+    "filmId": 121,
+    "genreId": 3
+  },
+  {
+    "filmId": 121,
+    "genreId": 2
+  },
+  {
+    "filmId": 122,
+    "genreId": 1
+  },
+  {
+    "filmId": 122,
+    "genreId": 3
+  },
+  {
+    "filmId": 123,
+    "genreId": 1
+  },
+  {
+    "filmId": 123,
+    "genreId": 4
+  },
+  {
+    "filmId": 124,
+    "genreId": 16
+  },
+  {
+    "filmId": 124,
+    "genreId": 3
+  },
+  {
+    "filmId": 125,
+    "genreId": 2
+  },
+  {
+    "filmId": 125,
+    "genreId": 4
+  },
+  {
+    "filmId": 126,
+    "genreId": 3
+  },
+  {
+    "filmId": 126,
+    "genreId": 6
+  },
+  {
+    "filmId": 127,
+    "genreId": 7
+  },
+  {
+    "filmId": 127,
+    "genreId": 5
+  },
+  {
+    "filmId": 127,
+    "genreId": 9
+  },
+  {
+    "filmId": 128,
+    "genreId": 3
+  },
+  {
+    "filmId": 128,
+    "genreId": 6
+  },
+  {
+    "filmId": 129,
+    "genreId": 3
+  },
+  {
+    "filmId": 129,
+    "genreId": 6
+  },
+  {
+    "filmId": 130,
+    "genreId": 17
+  },
+  {
+    "filmId": 131,
+    "genreId": 1
+  },
+  {
+    "filmId": 131,
+    "genreId": 4
+  },
+  {
+    "filmId": 131,
+    "genreId": 9
+  },
+  {
+    "filmId": 132,
+    "genreId": 4
+  },
+  {
+    "filmId": 132,
+    "genreId": 9
+  },
+  {
+    "filmId": 133,
+    "genreId": 1
+  },
+  {
+    "filmId": 133,
+    "genreId": 4
+  },
+  {
+    "filmId": 134,
+    "genreId": 1
+  },
+  {
+    "filmId": 134,
+    "genreId": 4
+  },
+  {
+    "filmId": 135,
+    "genreId": 1
+  },
+  {
+    "filmId": 135,
+    "genreId": 4
+  },
+  {
+    "filmId": 136,
+    "genreId": 1
+  },
+  {
+    "filmId": 136,
+    "genreId": 6
+  },
+  {
+    "filmId": 137,
+    "genreId": 1
+  },
+  {
+    "filmId": 137,
+    "genreId": 4
+  },
+  {
+    "filmId": 138,
+    "genreId": 4
+  },
+  {
+    "filmId": 138,
+    "genreId": 3
+  },
+  {
+    "filmId": 139,
+    "genreId": 3
+  },
+  {
+    "filmId": 139,
+    "genreId": 4
+  },
+  {
+    "filmId": 140,
+    "genreId": 1
+  },
+  {
+    "filmId": 140,
+    "genreId": 16
+  },
+  {
+    "filmId": 141,
+    "genreId": 1
+  },
+  {
+    "filmId": 141,
+    "genreId": 16
+  },
+  {
+    "filmId": 142,
+    "genreId": 1
+  },
+  {
+    "filmId": 142,
+    "genreId": 16
+  },
+  {
+    "filmId": 143,
+    "genreId": 16
+  },
+  {
+    "filmId": 143,
+    "genreId": 3
+  },
+  {
+    "filmId": 144,
+    "genreId": 16
+  },
+  {
+    "filmId": 144,
+    "genreId": 3
+  },
+  {
+    "filmId": 145,
+    "genreId": 16
+  },
+  {
+    "filmId": 145,
+    "genreId": 3
+  },
+  {
+    "filmId": 146,
+    "genreId": 16
+  },
+  {
+    "filmId": 146,
+    "genreId": 3
+  },
+  {
+    "filmId": 147,
+    "genreId": 16
+  },
+  {
+    "filmId": 147,
+    "genreId": 3
+  },
+  {
+    "filmId": 148,
+    "genreId": 16
+  },
+  {
+    "filmId": 148,
+    "genreId": 3
+  },
+  {
+    "filmId": 149,
+    "genreId": 16
+  },
+  {
+    "filmId": 149,
+    "genreId": 3
+  },
+  {
+    "filmId": 150,
+    "genreId": 16
+  },
+  {
+    "filmId": 150,
+    "genreId": 3
+  },
+  {
+    "filmId": 151,
+    "genreId": 2
+  },
+  {
+    "filmId": 151,
+    "genreId": 5
+  },
+  {
+    "filmId": 151,
+    "genreId": 10
+  },
+  {
+    "filmId": 152,
+    "genreId": 4
+  },
+  {
+    "filmId": 152,
+    "genreId": 3
+  },
+  {
+    "filmId": 153,
+    "genreId": 1
+  },
+  {
+    "filmId": 153,
+    "genreId": 4
+  },
+  {
+    "filmId": 154,
+    "genreId": 6
+  },
+  {
+    "filmId": 155,
+    "genreId": 6
+  },
+  {
+    "filmId": 156,
+    "genreId": 6
+  },
+  {
+    "filmId": 1,
+    "genreId": 1
+  },
+  {
+    "filmId": 1,
+    "genreId": 4
+  },
+  {
+    "filmId": 157,
+    "genreId": 1
+  },
+  {
+    "filmId": 157,
+    "genreId": 4
+  },
+  {
+    "filmId": 158,
+    "genreId": 1
+  },
+  {
+    "filmId": 158,
+    "genreId": 5
+  },
+  {
+    "filmId": 159,
+    "genreId": 1
+  },
+  {
+    "filmId": 159,
+    "genreId": 4
+  },
+  {
+    "filmId": 160,
+    "genreId": 1
+  },
+  {
+    "filmId": 160,
+    "genreId": 4
+  },
+  {
+    "filmId": 161,
+    "genreId": 1
+  },
+  {
+    "filmId": 161,
+    "genreId": 4
+  },
+  {
+    "filmId": 162,
+    "genreId": 1
+  },
+  {
+    "filmId": 162,
+    "genreId": 4
+  },
+  {
+    "filmId": 163,
+    "genreId": 1
+  },
+  {
+    "filmId": 163,
+    "genreId": 4
+  },
+  {
+    "filmId": 164,
+    "genreId": 3
+  },
+  {
+    "filmId": 164,
+    "genreId": 5
+  },
+  {
+    "filmId": 165,
+    "genreId": 2
+  },
+  {
+    "filmId": 165,
+    "genreId": 3
+  },
+  {
+    "filmId": 166,
+    "genreId": 2
+  },
+  {
+    "filmId": 166,
+    "genreId": 3
+  },
+  {
+    "filmId": 167,
+    "genreId": 4
+  },
+  {
+    "filmId": 167,
+    "genreId": 9
+  },
+  {
+    "filmId": 168,
+    "genreId": 4
+  },
+  {
+    "filmId": 168,
+    "genreId": 9
+  },
+  {
+    "filmId": 169,
+    "genreId": 11
+  },
+  {
+    "filmId": 170,
+    "genreId": 1
+  },
+  {
+    "filmId": 170,
+    "genreId": 9
+  },
+  {
+    "filmId": 171,
+    "genreId": 4
+  },
+  {
+    "filmId": 171,
+    "genreId": 5
+  },
+  {
+    "filmId": 172,
+    "genreId": 4
+  },
+  {
+    "filmId": 172,
+    "genreId": 7
+  },
+  {
+    "filmId": 173,
+    "genreId": 4
+  },
+  {
+    "filmId": 173,
+    "genreId": 6
+  },
+  {
+    "filmId": 173,
+    "genreId": 7
+  },
+  {
+    "filmId": 174,
+    "genreId": 2
+  },
+  {
+    "filmId": 174,
+    "genreId": 3
+  },
+  {
+    "filmId": 175,
+    "genreId": 2
+  },
+  {
+    "filmId": 175,
+    "genreId": 3
+  },
+  {
+    "filmId": 176,
+    "genreId": 2
+  },
+  {
+    "filmId": 176,
+    "genreId": 3
+  },
+  {
+    "filmId": 177,
+    "genreId": 1
+  },
+  {
+    "filmId": 177,
+    "genreId": 3
+  },
+  {
+    "filmId": 178,
+    "genreId": 1
+  },
+  {
+    "filmId": 178,
+    "genreId": 3
+  },
+  {
+    "filmId": 179,
+    "genreId": 1
+  },
+  {
+    "filmId": 179,
+    "genreId": 3
+  },
+  {
+    "filmId": 180,
+    "genreId": 1
+  },
+  {
+    "filmId": 180,
+    "genreId": 3
+  },
+  {
+    "filmId": 181,
+    "genreId": 1
+  },
+  {
+    "filmId": 181,
+    "genreId": 4
+  },
+  {
+    "filmId": 182,
+    "genreId": 13
+  },
+  {
+    "filmId": 182,
+    "genreId": 6
+  },
+  {
+    "filmId": 182,
+    "genreId": 5
+  },
+  {
+    "filmId": 183,
+    "genreId": 3
+  },
+  {
+    "filmId": 183,
+    "genreId": 2
+  },
+  {
+    "filmId": 183,
+    "genreId": 4
+  },
+  {
+    "filmId": 184,
+    "genreId": 3
+  },
+  {
+    "filmId": 184,
+    "genreId": 2
+  },
+  {
+    "filmId": 185,
+    "genreId": 3
+  },
+  {
+    "filmId": 185,
+    "genreId": 2
+  },
+  {
+    "filmId": 186,
+    "genreId": 3
+  },
+  {
+    "filmId": 186,
+    "genreId": 2
+  },
+  {
+    "filmId": 187,
+    "genreId": 3
+  },
+  {
+    "filmId": 187,
+    "genreId": 2
+  },
+  {
+    "filmId": 188,
+    "genreId": 2
+  },
+  {
+    "filmId": 188,
+    "genreId": 3
+  },
+  {
+    "filmId": 189,
+    "genreId": 2
+  },
+  {
+    "filmId": 189,
+    "genreId": 3
+  },
+  {
+    "filmId": 190,
+    "genreId": 2
+  },
+  {
+    "filmId": 190,
+    "genreId": 3
+  },
+  {
+    "filmId": 191,
+    "genreId": 1
+  },
+  {
+    "filmId": 191,
+    "genreId": 3
+  },
+  {
+    "filmId": 192,
+    "genreId": 4
+  },
+  {
+    "filmId": 192,
+    "genreId": 6
+  },
+  {
+    "filmId": 193,
+    "genreId": 1
+  },
+  {
+    "filmId": 193,
+    "genreId": 3
+  },
+  {
+    "filmId": 194,
+    "genreId": 1
+  },
+  {
+    "filmId": 194,
+    "genreId": 3
+  },
+  {
+    "filmId": 4,
+    "genreId": 1
+  },
+  {
+    "filmId": 4,
+    "genreId": 4
+  },
+  {
+    "filmId": 195,
+    "genreId": 1
+  },
+  {
+    "filmId": 195,
+    "genreId": 4
+  },
+  {
+    "filmId": 196,
+    "genreId": 1
+  },
+  {
+    "filmId": 196,
+    "genreId": 4
+  },
+  {
+    "filmId": 197,
+    "genreId": 1
+  },
+  {
+    "filmId": 197,
+    "genreId": 4
+  },
+  {
+    "filmId": 198,
+    "genreId": 1
+  },
+  {
+    "filmId": 198,
+    "genreId": 4
+  },
+  {
+    "filmId": 199,
+    "genreId": 1
+  },
+  {
+    "filmId": 199,
+    "genreId": 4
+  },
+  {
+    "filmId": 200,
+    "genreId": 3
+  },
+  {
+    "filmId": 200,
+    "genreId": 6
+  },
+  {
+    "filmId": 201,
+    "genreId": 2
+  },
+  {
+    "filmId": 201,
+    "genreId": 3
+  },
+  {
+    "filmId": 202,
+    "genreId": 2
+  },
+  {
+    "filmId": 202,
+    "genreId": 3
+  },
+  {
+    "filmId": 203,
+    "genreId": 2
+  },
+  {
+    "filmId": 203,
+    "genreId": 3
+  },
+  {
+    "filmId": 204,
+    "genreId": 5
+  },
+  {
+    "filmId": 204,
+    "genreId": 18
+  },
+  {
+    "filmId": 205,
+    "genreId": 2
+  },
+  {
+    "filmId": 205,
+    "genreId": 3
+  },
+  {
+    "filmId": 206,
+    "genreId": 1
+  },
+  {
+    "filmId": 206,
+    "genreId": 4
+  },
+  {
+    "filmId": 207,
+    "genreId": 1
+  },
+  {
+    "filmId": 207,
+    "genreId": 3
+  },
+  {
+    "filmId": 208,
+    "genreId": 4
+  },
+  {
+    "filmId": 208,
+    "genreId": 7
+  },
+  {
+    "filmId": 209,
+    "genreId": 2
+  },
+  {
+    "filmId": 209,
+    "genreId": 6
+  },
+  {
+    "filmId": 210,
+    "genreId": 3
+  },
+  {
+    "filmId": 211,
+    "genreId": 3
+  },
+  {
+    "filmId": 211,
+    "genreId": 2
+  },
+  {
+    "filmId": 212,
+    "genreId": 1
+  },
+  {
+    "filmId": 212,
+    "genreId": 4
+  },
+  {
+    "filmId": 213,
+    "genreId": 2
+  },
+  {
+    "filmId": 213,
+    "genreId": 4
+  },
+  {
+    "filmId": 214,
+    "genreId": 1
+  },
+  {
+    "filmId": 214,
+    "genreId": 4
+  },
+  {
+    "filmId": 215,
+    "genreId": 2
+  },
+  {
+    "filmId": 215,
+    "genreId": 4
+  },
+  {
+    "filmId": 216,
+    "genreId": 5
+  },
+  {
+    "filmId": 216,
+    "genreId": 8
+  },
+  {
+    "filmId": 217,
+    "genreId": 1
+  },
+  {
+    "filmId": 217,
+    "genreId": 4
+  },
+  {
+    "filmId": 218,
+    "genreId": 1
+  },
+  {
+    "filmId": 218,
+    "genreId": 4
+  },
+  {
+    "filmId": 219,
+    "genreId": 1
+  },
+  {
+    "filmId": 219,
+    "genreId": 4
+  },
+  {
+    "filmId": 220,
+    "genreId": 4
+  },
+  {
+    "filmId": 220,
+    "genreId": 7
+  },
+  {
+    "filmId": 221,
+    "genreId": 4
+  },
+  {
+    "filmId": 221,
+    "genreId": 7
+  },
+  {
+    "filmId": 222,
+    "genreId": 1
+  },
+  {
+    "filmId": 222,
+    "genreId": 3
+  },
+  {
+    "filmId": 223,
+    "genreId": 4
+  },
+  {
+    "filmId": 223,
+    "genreId": 9
+  },
+  {
+    "filmId": 224,
+    "genreId": 1
+  },
+  {
+    "filmId": 224,
+    "genreId": 8
+  },
+  {
+    "filmId": 225,
+    "genreId": 4
+  },
+  {
+    "filmId": 225,
+    "genreId": 5
+  },
+  {
+    "filmId": 226,
+    "genreId": 4
+  },
+  {
+    "filmId": 226,
+    "genreId": 1
+  },
+  {
+    "filmId": 227,
+    "genreId": 2
+  },
+  {
+    "filmId": 227,
+    "genreId": 4
+  },
+  {
+    "filmId": 228,
+    "genreId": 2
+  },
+  {
+    "filmId": 228,
+    "genreId": 3
+  },
+  {
+    "filmId": 228,
+    "genreId": 5
+  },
+  {
+    "filmId": 229,
+    "genreId": 4
+  },
+  {
+    "filmId": 229,
+    "genreId": 3
+  },
+  {
+    "filmId": 229,
+    "genreId": 10
+  },
+  {
+    "filmId": 230,
+    "genreId": 1
+  },
+  {
+    "filmId": 230,
+    "genreId": 4
+  },
+  {
+    "filmId": 231,
+    "genreId": 1
+  },
+  {
+    "filmId": 231,
+    "genreId": 4
+  },
+  {
+    "filmId": 232,
+    "genreId": 1
+  },
+  {
+    "filmId": 232,
+    "genreId": 4
+  },
+  {
+    "filmId": 233,
+    "genreId": 1
+  },
+  {
+    "filmId": 233,
+    "genreId": 4
+  },
+  {
+    "filmId": 234,
+    "genreId": 1
+  },
+  {
+    "filmId": 234,
+    "genreId": 4
+  },
+  {
+    "filmId": 235,
+    "genreId": 1
+  },
+  {
+    "filmId": 235,
+    "genreId": 4
+  },
+  {
+    "filmId": 236,
+    "genreId": 1
+  },
+  {
+    "filmId": 236,
+    "genreId": 4
+  },
+  {
+    "filmId": 237,
+    "genreId": 20
+  },
+  {
+    "filmId": 237,
+    "genreId": 5
+  },
+  {
+    "filmId": 237,
+    "genreId": 2
+  },
+  {
+    "filmId": 238,
+    "genreId": 4
+  },
+  {
+    "filmId": 238,
+    "genreId": 3
+  },
+  {
+    "filmId": 239,
+    "genreId": 3
+  },
+  {
+    "filmId": 239,
+    "genreId": 6
+  }
+]

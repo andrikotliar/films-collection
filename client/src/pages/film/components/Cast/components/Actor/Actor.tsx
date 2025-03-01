@@ -1,66 +1,41 @@
-import { FC, useState } from 'react';
+import { FC } from 'react';
 import { Link } from '@tanstack/react-router';
-import { ImagesIcon } from 'lucide-react';
-import classNames from 'classnames';
-import { CastType } from '@/types';
-import { buildMediaPath, buildQueryLink, handleImageError } from '@/helpers';
+import { FilmCast } from '@/types';
 import { images } from '@/assets/images';
 import styles from './Actor.module.css';
+import { Image } from '@/ui';
 
 type ActorProps = {
-  person: CastType;
+  data: FilmCast;
 };
 
-export const Actor: FC<ActorProps> = ({ person }) => {
-  const [isFlipped, setIsFlipped] = useState(false);
-
-  const photoUrl = buildMediaPath(person.actor.image);
-  const actorLink = buildQueryLink({ actorId: person.actor._id });
-
-  const flipImage = () => {
-    setIsFlipped((isFlipped) => !isFlipped);
-  };
-
+export const Actor: FC<ActorProps> = ({ data }) => {
   return (
-    <div className={styles.actor} key={person.actor._id}>
-      <div
-        className={classNames(styles.container, {
-          [styles.flippable]: Boolean(person.character.image),
-        })}
-        onClick={person.character.image ? flipImage : undefined}
-      >
-        <div
-          className={classNames(styles.card, {
-            [styles.flipped]: isFlipped,
-          })}
-        >
-          <img
-            src={photoUrl}
-            alt={person.actor.name}
-            onError={handleImageError(images.actorNotFound)}
-            className={styles.image}
-          />
-          {person.character.image && (
-            <img
-              src={buildMediaPath(person.character.image)}
-              alt={person.character.name}
-              onError={handleImageError(images.characterNotFound)}
-              className={classNames(styles.image, styles.characterSide)}
-            />
-          )}
+    <Link
+      to="/"
+      search={{ actorId: data.person.id.toString() }}
+      className={styles.actor}
+      key={data.person.id}
+    >
+      <div className={styles.profile}>
+        <div className={styles.imageWrapper}>
+          <Image src={data.person.image} alt={data.person.name} isExternal />
         </div>
-        {person.character.image && (
-          <div className={styles.imagesIconContainer}>
-            <ImagesIcon className={styles.imagesIcon} />
-          </div>
-        )}
+        <div className={styles.info}>
+          <h3 className={styles.name}>{data.person.name}</h3>
+          <p className={styles.role}>as {data.characterName}</p>
+        </div>
       </div>
-      <div className={styles.details}>
-        <Link to={actorLink} className={styles.name}>
-          {person.actor.name}
-        </Link>
-        <p className={styles.characterName}>{person.character.name}</p>
-      </div>
-    </div>
+      {data.characterImage && (
+        <div className={styles.imageWrapper}>
+          <Image
+            src={data.characterImage}
+            alt={data.characterName}
+            errorImageSrc={images.characterNotFound}
+            isExternal
+          />
+        </div>
+      )}
+    </Link>
   );
 };

@@ -1,7 +1,6 @@
 import { useDocumentTitle, useScrollToTop } from '@/hooks';
 import { useLastVisitedFilms } from './hooks';
 import {
-  SectionTitle,
   Description,
   Cast,
   Awards,
@@ -12,6 +11,7 @@ import {
   TitleRow,
   FilmPageLayout,
   ContentLayout,
+  Section,
 } from './components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { fetchFilmQuery } from '@/queries';
@@ -25,46 +25,45 @@ export const FilmPage = () => {
 
   useScrollToTop([id]);
   useDocumentTitle(film?.title);
-  useLastVisitedFilms(film);
+  useLastVisitedFilms(film?.id);
 
   return (
     <FilmPageLayout>
       <NavigationRow />
+      <TitleRow data={film} />
 
       <ContentLayout>
-        <TitleRow data={film} />
-
         <SummarySection film={film} />
 
-        <section>
-          <SectionTitle>Description</SectionTitle>
-          <Description content={film.description} key={film._id} />
-        </section>
+        <Section title="Description" isCollapsable>
+          <Description
+            text={film.description}
+            trailerId={film.youtubeTrailerId}
+            seasons={film.seriesExtension?.seasons}
+            key={film.id}
+          />
+        </Section>
 
-        <section>
-          <SectionTitle>Crew</SectionTitle>
+        <Section title="Crew">
           <CrewList crew={film.crew} />
-        </section>
+        </Section>
 
         {film.cast.length !== 0 && (
-          <section>
-            <SectionTitle>Cast and characters</SectionTitle>
+          <Section title="Cast and Characters" isCollapsable shouldHidePaddings>
             <Cast cast={film.cast} />
-          </section>
+          </Section>
         )}
 
         {film.awards && film.awards.length !== 0 && (
-          <section>
-            <SectionTitle>Awards</SectionTitle>
+          <Section title="Awards" shouldHidePaddings>
             <Awards awards={film.awards} />
-          </section>
+          </Section>
         )}
 
         {film.chapters && film.chapters.length !== 0 && (
-          <section>
-            <SectionTitle>Chapters</SectionTitle>
-            <Chapters data={film.chapters} filmId={film._id} key={film._id} />
-          </section>
+          <Section title="Chapters">
+            <Chapters data={film.chapters} filmId={film.id} key={film.id} />
+          </Section>
         )}
       </ContentLayout>
     </FilmPageLayout>
