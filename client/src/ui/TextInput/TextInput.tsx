@@ -7,7 +7,7 @@ import { FieldLabel } from '../FieldLabel/FieldLabel';
 export type TextInputProps = {
   type?: 'text' | 'number';
   label?: string;
-  error?: string | string[];
+  error?: string | string[] | null;
   icon?: ReactNode;
 } & Omit<ComponentProps<'input'>, 'type' | 'name'>;
 

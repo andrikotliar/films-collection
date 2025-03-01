@@ -25,6 +25,7 @@
   color: #222;
   background-color: transparent;
   border-radius: 0;
+  padding: 0;
 }
 
 .danger {
@@ -67,7 +68,8 @@
   }
 
   .ghost:hover {
-    background-color: currentColor;
+    color: var(--blue-default);
+    background-color: transparent;
   }
 }
 @media (max-width: 735px) {

@@ -1,11 +1,11 @@
 import { ChangeEventHandler, FC, useState } from 'react';
-import { SeasonType } from '@/types';
+import { Season } from '@/types';
 import styles from './SeasonsRow.module.css';
 import { getFormattedDate } from '@/helpers';
 import { ChevronDownIcon } from 'lucide-react';
 
 type SeasonRowProps = {
-  seasons: SeasonType[];
+  seasons: Season[];
 };
 
 export const SeasonsRow: FC<SeasonRowProps> = ({ seasons }) => {

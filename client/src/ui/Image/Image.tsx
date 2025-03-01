@@ -1,4 +1,4 @@
-import { ComponentProps, FC } from 'react';
+import { ComponentProps, forwardRef } from 'react';
 import styles from './Image.module.css';
 import classNames from 'classnames';
 import { handleImageError } from './helpers';
@@ -7,39 +7,45 @@ import { env } from '@/configs';
 
 type ImageProps = {
   src?: string | null;
-  errorSource?: string;
+  errorImageSrc?: string;
   isExternal?: boolean;
   shouldFitContainer?: boolean;
 } & Omit<ComponentProps<'img'>, 'onError' | 'src'>;
 
-export const Image: FC<ImageProps> = ({
-  src,
-  className,
-  isExternal = false,
-  errorSource = images.characterNotFound,
-  shouldFitContainer = false,
-  ...props
-}) => {
-  const getImageSource = () => {
-    if ((isExternal && !env.baseMediaUrl) || !src) {
-      return errorSource;
-    }
+export const Image = forwardRef<HTMLImageElement, ImageProps>(
+  (
+    {
+      src,
+      className,
+      isExternal = false,
+      errorImageSrc = images.characterNotFound,
+      shouldFitContainer = false,
+      ...props
+    },
+    ref,
+  ) => {
+    const getImageSource = () => {
+      if ((isExternal && !env.baseMediaUrl) || !src) {
+        return errorImageSrc;
+      }
 
-    if (isExternal) {
-      return `${env.baseMediaUrl}/${src}`;
-    }
+      if (isExternal) {
+        return `${env.baseMediaUrl}/${src}`;
+      }
 
-    return src;
-  };
+      return src;
+    };
 
-  return (
-    <img
-      src={getImageSource()}
-      className={classNames(styles.image, className, {
-        [styles.fitContainer]: shouldFitContainer,
-      })}
-      onError={handleImageError(errorSource)}
-      {...props}
-    />
-  );
-};
+    return (
+      <img
+        ref={ref}
+        src={getImageSource()}
+        className={classNames(styles.image, className, {
+          [styles.fitContainer]: shouldFitContainer,
+        })}
+        onError={handleImageError(errorImageSrc)}
+        {...props}
+      />
+    );
+  },
+);

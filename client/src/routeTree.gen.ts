@@ -18,6 +18,7 @@ import { Route as ConsoleRouteImport } from './routes/console/route'
 import { Route as IndexImport } from './routes/index'
 import { Route as FilmFilmIdImport } from './routes/film/$filmId'
 import { Route as ConsolePendingRouteImport } from './routes/console/pending/route'
+import { Route as ConsoleCollectionEventsRouteImport } from './routes/console/collection-events/route'
 
 // Create Virtual Routes
 
@@ -94,6 +95,17 @@ const ConsolePendingRouteRoute = ConsolePendingRouteImport.update({
   import('./routes/console/pending/route.lazy').then((d) => d.Route),
 )
 
+const ConsoleCollectionEventsRouteRoute =
+  ConsoleCollectionEventsRouteImport.update({
+    id: '/collection-events',
+    path: '/collection-events',
+    getParentRoute: () => ConsoleRouteRoute,
+  } as any).lazy(() =>
+    import('./routes/console/collection-events/route.lazy').then(
+      (d) => d.Route,
+    ),
+  )
+
 // Populate the FileRoutesByPath interface
 
 declare module '@tanstack/react-router' {
@@ -133,6 +145,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof StatisticRouteLazyImport
       parentRoute: typeof rootRoute
     }
+    '/console/collection-events': {
+      id: '/console/collection-events'
+      path: '/collection-events'
+      fullPath: '/console/collection-events'
+      preLoaderRoute: typeof ConsoleCollectionEventsRouteImport
+      parentRoute: typeof ConsoleRouteImport
+    }
     '/console/pending': {
       id: '/console/pending'
       path: '/pending'
@@ -167,12 +186,14 @@ declare module '@tanstack/react-router' {
 // Create and export the route tree
 
 interface ConsoleRouteRouteChildren {
+  ConsoleCollectionEventsRouteRoute: typeof ConsoleCollectionEventsRouteRoute
   ConsolePendingRouteRoute: typeof ConsolePendingRouteRoute
   ConsoleAdditionalRouteLazyRoute: typeof ConsoleAdditionalRouteLazyRoute
   ConsoleManageRouteLazyRoute: typeof ConsoleManageRouteLazyRoute
 }
 
 const ConsoleRouteRouteChildren: ConsoleRouteRouteChildren = {
+  ConsoleCollectionEventsRouteRoute: ConsoleCollectionEventsRouteRoute,
   ConsolePendingRouteRoute: ConsolePendingRouteRoute,
   ConsoleAdditionalRouteLazyRoute: ConsoleAdditionalRouteLazyRoute,
   ConsoleManageRouteLazyRoute: ConsoleManageRouteLazyRoute,
@@ -188,6 +209,7 @@ export interface FileRoutesByFullPath {
   '/login': typeof LoginRouteRoute
   '/about': typeof AboutRouteLazyRoute
   '/statistic': typeof StatisticRouteLazyRoute
+  '/console/collection-events': typeof ConsoleCollectionEventsRouteRoute
   '/console/pending': typeof ConsolePendingRouteRoute
   '/film/$filmId': typeof FilmFilmIdRoute
   '/console/additional': typeof ConsoleAdditionalRouteLazyRoute
@@ -200,6 +222,7 @@ export interface FileRoutesByTo {
   '/login': typeof LoginRouteRoute
   '/about': typeof AboutRouteLazyRoute
   '/statistic': typeof StatisticRouteLazyRoute
+  '/console/collection-events': typeof ConsoleCollectionEventsRouteRoute
   '/console/pending': typeof ConsolePendingRouteRoute
   '/film/$filmId': typeof FilmFilmIdRoute
   '/console/additional': typeof ConsoleAdditionalRouteLazyRoute
@@ -213,6 +236,7 @@ export interface FileRoutesById {
   '/login': typeof LoginRouteRoute
   '/about': typeof AboutRouteLazyRoute
   '/statistic': typeof StatisticRouteLazyRoute
+  '/console/collection-events': typeof ConsoleCollectionEventsRouteRoute
   '/console/pending': typeof ConsolePendingRouteRoute
   '/film/$filmId': typeof FilmFilmIdRoute
   '/console/additional': typeof ConsoleAdditionalRouteLazyRoute
@@ -227,6 +251,7 @@ export interface FileRouteTypes {
     | '/login'
     | '/about'
     | '/statistic'
+    | '/console/collection-events'
     | '/console/pending'
     | '/film/$filmId'
     | '/console/additional'
@@ -238,6 +263,7 @@ export interface FileRouteTypes {
     | '/login'
     | '/about'
     | '/statistic'
+    | '/console/collection-events'
     | '/console/pending'
     | '/film/$filmId'
     | '/console/additional'
@@ -249,6 +275,7 @@ export interface FileRouteTypes {
     | '/login'
     | '/about'
     | '/statistic'
+    | '/console/collection-events'
     | '/console/pending'
     | '/film/$filmId'
     | '/console/additional'
@@ -298,6 +325,7 @@ export const routeTree = rootRoute
     "/console": {
       "filePath": "console/route.tsx",
       "children": [
+        "/console/collection-events",
         "/console/pending",
         "/console/additional",
         "/console/manage"
@@ -311,6 +339,10 @@ export const routeTree = rootRoute
     },
     "/statistic": {
       "filePath": "statistic/route.lazy.tsx"
+    },
+    "/console/collection-events": {
+      "filePath": "console/collection-events/route.tsx",
+      "parent": "/console"
     },
     "/console/pending": {
       "filePath": "console/pending/route.tsx",

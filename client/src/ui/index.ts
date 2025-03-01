@@ -26,3 +26,6 @@ export * from './ErrorFallback/ErrorFallback';
 export * from './ConsoleContentLayout/ConsoleContentLayout';
 export * from './ConsoleTitle/ConsoleTitle';
 export * from './FormTitle/FormTitle';
+export * from './ImageInput';
+export * from './Select';
+export * from './ConfirmModal/ConfirmModal';

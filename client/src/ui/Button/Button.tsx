@@ -2,13 +2,15 @@ import styles from './Button.module.css';
 import { FC, PropsWithChildren, ReactNode } from 'react';
 import classNames from 'classnames';
 
+export type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'danger';
+
 export type ButtonProps = {
   onClick?: VoidFunction;
   type?: 'button' | 'submit';
   icon?: ReactNode;
   isHidden?: boolean;
   isActive?: boolean;
-  variant?: 'primary' | 'secondary' | 'ghost' | 'danger';
+  variant?: ButtonVariant;
   activeClassName?: string;
   isDisabled?: boolean;
   className?: string;

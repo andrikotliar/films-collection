@@ -6,4 +6,7 @@ export type ApiEndpoint =
   | '/pending-films'
   | '/pending-films/:filmId'
   | '/auth/login'
-  | '/auth/refresh';
+  | '/auth/refresh'
+  | '/collection-events'
+  | '/collection-events/:eventId'
+  | '/collection-events/admin/list';

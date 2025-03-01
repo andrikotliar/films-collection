@@ -8,5 +8,11 @@ export default defineConfig({
     port: 8080,
     host: true,
   },
-  plugins: [TanStackRouterVite(), react(), tsconfigPaths()],
+  plugins: [
+    TanStackRouterVite({
+      routeFileIgnorePrefix: '-',
+    }),
+    react(),
+    tsconfigPaths(),
+  ],
 });

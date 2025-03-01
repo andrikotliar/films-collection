@@ -2,7 +2,6 @@ import styles from './Select.module.css';
 import {
   ChangeEvent,
   FC,
-  useMemo,
   useRef,
   useState,
   KeyboardEvent,
@@ -83,12 +82,18 @@ export const Select: FC<SelectProps> = ({
       }
 
       const option = options.find(
-        (option) => option.value === selectedValues[0],
+        (option) => option.value.toString() === selectedValues[0],
       );
 
       inputRef.current.value = option?.label ?? '';
     }
   }, [isOpen, internalValue, inputRef]);
+
+  useEffect(() => {
+    if (!defaultValue) {
+      setInternalValue({});
+    }
+  }, [defaultValue]);
 
   const handleChange = (
     event: ChangeEvent<HTMLInputElement>,
@@ -104,7 +109,9 @@ export const Select: FC<SelectProps> = ({
       };
 
       setInternalValue(result);
+      setIsOpen(false);
       onSelect?.(value);
+      setFilteredOptions(options);
 
       return;
     }
@@ -118,6 +125,7 @@ export const Select: FC<SelectProps> = ({
 
     setInternalValue(result);
     onSelect?.(selectedValues);
+    setFilteredOptions(options);
   };
 
   const handleClearInput = () => {
@@ -160,6 +168,11 @@ export const Select: FC<SelectProps> = ({
       case 'ArrowDown': {
         event.preventDefault();
 
+        if (!isOpen) {
+          setIsOpen(true);
+          return;
+        }
+
         if (optionsRef.current?.length) {
           optionsRef.current[0].focus();
         }
@@ -170,12 +183,20 @@ export const Select: FC<SelectProps> = ({
       case 'ArrowUp': {
         event.preventDefault();
 
+        if (!isOpen) {
+          setIsOpen(true);
+          return;
+        }
+
         if (optionsRef.current?.length) {
           optionsRef.current[optionsRef.current.length - 1].focus();
         }
 
         break;
       }
+
+      case 'Tab':
+        break;
 
       default:
         if (!isOpen) {
@@ -187,7 +208,8 @@ export const Select: FC<SelectProps> = ({
 
   const handleOptionKeyDown = (event: KeyboardEvent, index: number) => {
     switch (event.key) {
-      case 'ArrowDown': {
+      case 'ArrowDown':
+      case 'Tab': {
         event.preventDefault();
 
         const nextIndex = (index + 1) % optionsRef.current.length;

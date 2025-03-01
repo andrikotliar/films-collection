@@ -10,13 +10,17 @@ import {
   ListWrapper,
   PendingFilmRow,
   Tools,
-  ConfirmDeleteModal,
 } from './components';
 import { getRouteApi } from '@tanstack/react-router';
 import { PendingFilmsApi } from '@/api';
 import { useState } from 'react';
 import { PendingFilm } from '@/types';
-import { ConsoleContentLayout, Pagination, ConsoleTitle } from '@/ui';
+import {
+  ConsoleContentLayout,
+  Pagination,
+  ConsoleTitle,
+  ConfirmModal,
+} from '@/ui';
 import { PENDING_FILMS_PER_PAGE } from '@/constants';
 
 const defaultFormValues: PendingFilmFormValues = {
@@ -30,7 +34,7 @@ export const ConsolePendingFilmsPage = () => {
   const [editModalContent, setEditModalContent] = useState<PendingFilm | null>(
     null,
   );
-  const [deleteFilmId, setDeleteFilmId] = useState<number | null>(null);
+  const [filmToDelete, setFilmToDelete] = useState<PendingFilm | null>(null);
 
   const searchParams = routeApi.useSearch();
   const navigate = routeApi.useNavigate();
@@ -57,7 +61,7 @@ export const ConsolePendingFilmsPage = () => {
       mutationFn: PendingFilmsApi.deletePendingFilm,
       onSuccess: () => {
         refetch();
-        setDeleteFilmId(null);
+        setFilmToDelete(null);
       },
     });
 
@@ -79,10 +83,8 @@ export const ConsolePendingFilmsPage = () => {
     });
   };
 
-  const handleDeletePendingFilm = (id: number | null) => {
-    if (id) {
-      deletePendingFilm(id);
-    }
+  const handleDeletePendingFilm = (film: PendingFilm) => {
+    deletePendingFilm(film.id);
   };
 
   return (
@@ -101,7 +103,7 @@ export const ConsolePendingFilmsPage = () => {
           <PendingFilmRow
             key={film.id}
             data={film}
-            onDelete={() => setDeleteFilmId(film.id)}
+            onDelete={() => setFilmToDelete(film)}
             onEdit={() => setEditModalContent(film)}
             isDeleteInProgress={isDeleteInProgress}
           />
@@ -121,10 +123,13 @@ export const ConsolePendingFilmsPage = () => {
         refetch={refetch}
       />
 
-      <ConfirmDeleteModal
-        isOpen={deleteFilmId !== null}
-        onClose={() => setDeleteFilmId(null)}
-        onConfirm={() => handleDeletePendingFilm(deleteFilmId)}
+      <ConfirmModal
+        title={`Confirm deleting ${filmToDelete?.title}`}
+        data={filmToDelete}
+        onClose={() => setFilmToDelete(null)}
+        onConfirm={handleDeletePendingFilm}
+        confirmButtonTitle="Delete"
+        confirmButtonVariant="danger"
       />
     </ConsoleContentLayout>
   );

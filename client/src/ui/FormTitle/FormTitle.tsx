@@ -3,8 +3,6 @@ import styles from './FormTitle.module.css';
 
 type FormTitleProps = PropsWithChildren;
 
-const FormTitle: FC<FormTitleProps> = ({ children }) => {
+export const FormTitle: FC<FormTitleProps> = ({ children }) => {
   return <h2 className={styles.title}>{children}</h2>;
 };
-
-export { FormTitle };

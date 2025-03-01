@@ -31,7 +31,7 @@ export const Actor: FC<ActorProps> = ({ data }) => {
           <Image
             src={data.characterImage}
             alt={data.characterName}
-            errorSource={images.characterNotFound}
+            errorImageSrc={images.characterNotFound}
             isExternal
           />
         </div>

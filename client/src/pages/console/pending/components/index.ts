@@ -3,4 +3,3 @@ export * from './ListWrapper/ListWrapper';
 export * from './PendingFilmRow/PendingFilmRow';
 export * from './Tools/Tools';
 export * from './EditPendingFilmModal/EditPendingFilmModal';
-export * from './ConfirmDeleteModal/ConfirmDeleteModal';

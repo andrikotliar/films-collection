@@ -3,7 +3,7 @@
   "private": "true",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/server.ts",
+    "dev": "tsx watch --clear-screen=false src/server.ts",
     "build": "swc src -d dist",
     "start": "node dist/src/server.js",
     "db:generate": "prisma generate",

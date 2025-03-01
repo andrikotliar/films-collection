@@ -2,7 +2,7 @@ import styles from './FieldError.module.css';
 import { FC } from 'react';
 
 type FieldErrorProps = {
-  error?: string | string[];
+  error?: string | string[] | null;
 };
 
 export const FieldError: FC<FieldErrorProps> = ({ error }) => {
