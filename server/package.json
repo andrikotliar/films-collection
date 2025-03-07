@@ -1,0 +1,44 @@
+{
+  "name": "films-collection-server",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --clear-screen=false src/server.ts",
+    "build": "swc src -d dist",
+    "start": "node dist/src/server.js",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:deploy": "prisma migrate deploy",
+    "db:seed": "prisma db seed"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^11.0.1",
+    "@fastify/cors": "^10.0.1",
+    "@fastify/jwt": "^9.0.1",
+    "@fastify/one-line-logger": "^2.0.2",
+    "@fastify/type-provider-typebox": "^5.1.0",
+    "@prisma/client": "^6.2.1",
+    "@sinclair/typebox": "^0.34.28",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.0.0",
+    "fastify-plugin": "^5.0.1"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.4.1-nightly.20240914",
+    "@swc/core": "^1.7.26",
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "^22.13.1",
+    "prisma": "^6.2.1",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  },
+  "author": "Andrii Kotliar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrikotliar/films-collection/tree/main/server"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  }
+}
