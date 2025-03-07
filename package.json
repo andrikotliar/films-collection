@@ -1,0 +1,24 @@
+{
+  "name": "films-collection",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install:client": "cd client && npm install",
+    "install:server": "cd server && npm install",
+    "install:all": "npm run install:server && npm run install:client",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "dev": "concurrently --names 'SERVER,CLIENT' --prefixColors 'cyan,green' \"npm run dev:server\" \"npm run dev:client\"",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build",
+    "build": "npm run build:server && npm run build:client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  },
+  "author": "Andrii Kotliar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrikotliar/films-collection"
+  }
+}
