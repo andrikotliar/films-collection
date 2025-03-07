@@ -1,0 +1,17 @@
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.loader {
+  color: var(--blue-default);
+  width: 60px;
+  height: 60px;
+}
+
+.fullPage {
+  height: var(--app-height);
+}

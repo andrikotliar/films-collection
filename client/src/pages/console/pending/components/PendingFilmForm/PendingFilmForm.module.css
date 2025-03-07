@@ -1,0 +1,40 @@
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: var(--app-border-radius);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.formContent {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.priorities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.submitButton {
+  background-color: var(--blue-default);
+}
+
+.formSectionTitle {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 480px) {
+  .formWrapper {
+    padding: 12px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+}

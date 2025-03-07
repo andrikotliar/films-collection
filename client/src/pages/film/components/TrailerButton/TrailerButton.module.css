@@ -1,0 +1,21 @@
+.playButton {
+  --border-width: 1px;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--blue-default);
+  box-shadow: 0 0 0 var(--border-width) var(--blue-default);
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: box-shadow 300ms;
+}
+
+.playButton span {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.playButton:hover {
+  --border-width: 3px;
+}

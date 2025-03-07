@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.imageContainer {
+  overflow: hidden;
+  border-radius: 8px;
+}

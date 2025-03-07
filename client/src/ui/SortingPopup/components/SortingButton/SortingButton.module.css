@@ -1,0 +1,40 @@
+.sortingButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff;
+  border: var(--app-border);
+  width: 100%;
+  transition: background-color 300ms;
+  min-width: 140px;
+  flex-shrink: 0;
+}
+
+.sortingButton:hover {
+  background-color: var(--gray-ultra-light);
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.sortingButton.small {
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.sortingButton.large {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.sortingButton.large .label {
+  font-size: 14px;
+}
+
+.sortingButton.small .label {
+  font-size: 12px;
+}

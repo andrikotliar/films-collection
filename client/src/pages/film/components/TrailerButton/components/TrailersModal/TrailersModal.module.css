@@ -1,0 +1,23 @@
+.trailersModal {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.trailersModalContent {
+  width: 80%;
+  aspect-ratio: 16 / 9;
+}
+
+.trailerCloseButton {
+  position: absolute;
+  top: -15px;
+  right: 10px;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+@media (max-width: 1360px) {
+  .trailersModalContent {
+    width: 95%;
+  }
+}

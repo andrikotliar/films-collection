@@ -1,0 +1,44 @@
+.row {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border-bottom: 1px dashed var(--gray);
+}
+
+.row:last-child {
+  border-bottom: 0;
+}
+
+.cell {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.awardImage {
+  width: 60px;
+  height: 60px;
+}
+
+.title:hover {
+  color: var(--blue-default);
+}
+
+.nominations {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 480px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+
+  .awardCell {
+    padding-bottom: 0;
+  }
+}

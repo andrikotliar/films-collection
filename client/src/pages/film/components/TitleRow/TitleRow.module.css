@@ -1,0 +1,13 @@
+.titleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+@media (max-width: 680px) {
+  .titleRow {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

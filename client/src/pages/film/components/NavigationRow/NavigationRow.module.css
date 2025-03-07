@@ -1,0 +1,24 @@
+.navigationRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.backLink {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.backLink:hover {
+  color: var(--blue-default);
+}
+
+@media (max-width: 680px) {
+  .navigationRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

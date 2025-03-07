@@ -1,0 +1,11 @@
+.summaryLayout {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 980px) {
+  .summaryLayout {
+    flex-direction: column;
+    align-items: center;
+  }
+}

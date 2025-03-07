@@ -1,0 +1,79 @@
+.sidebarContent {
+  width: 300px;
+  height: calc(var(--app-height) - 40px);
+  flex-shrink: 0;
+  position: sticky;
+  top: calc(var(--header-height) + 20px);
+  border: var(--app-border);
+  border-radius: var(--app-border-radius);
+}
+
+.filterButton {
+  display: none;
+}
+
+.missingFilters {
+  color: var(--gray-dark);
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  height: 100%;
+}
+
+@media (max-width: 785px) {
+  .filterButton {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--blue-default);
+    border-radius: var(--app-border-radius);
+    padding: 10px 20px;
+    z-index: 50;
+  }
+
+  .filterButtonBadge {
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    font-size: 14px;
+  }
+
+  .sidebarContent {
+    position: fixed;
+    width: 80%;
+    height: 60%;
+    left: 50%;
+    top: initial;
+    bottom: 70px;
+    background-color: #fff;
+    z-index: 100;
+    border-radius: var(--app-border-radius);
+    border: none;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-50%) translateY(20px);
+    transition: transform 200ms, opacity 100ms, visibility 100ms;
+    padding: 0;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+      rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  }
+  .open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+  }
+}

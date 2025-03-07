@@ -1,0 +1,10 @@
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  border: var(--app-border);
+  background-color: var(--gray-invisible);
+  border-radius: 10px;
+}

@@ -1,0 +1,107 @@
+:root {
+  --blue-default: #006db7;
+  --blue-light: #e8f8fc;
+  --blue-invisible: #c8f0fd;
+
+  --green: #00b5c6;
+  --green-success-light: #f2fffe;
+  --green-success: #4db6ac;
+  --green-mint: #c6f5ec;
+  --green-dark: #028090;
+
+  --yellow-gold: #ffbf00;
+  --yellow-saturated: #ffb74d;
+  --yellow-sand: #ffedd6;
+  --yellow-sand-light: #fffbf5;
+
+  --orange: #ff711f;
+
+  --black: #232323;
+
+  --gray: #ddd;
+  --gray-invisible: #fdfdfd;
+  --gray-extra-light: #fbfbfb;
+  --gray-light: #f2f2f2;
+  --gray-dark: #777;
+  --gray-extra-dark: #454545;
+
+  --red: #d32f2f;
+  --red-failure: #fe6c6c;
+  --red-failure-light: #fff3f3;
+
+  --pink-light: #ffece8;
+
+  --purple-dark: #8f5bab;
+  --purple-light: #dccbf2;
+
+  --main-gradient: linear-gradient(45deg, var(--blue-default), var(--green));
+  --app-border: 1px solid var(--gray);
+  --app-border-radius: 8px;
+
+  --main-padding: 20px;
+  --header-height: 60px;
+  --app-height: calc(100vh - var(--header-height));
+  --default-column-width: minmax(260px, 1fr);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Regular.woff2');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Bold.woff2');
+  font-weight: bold;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.spin {
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

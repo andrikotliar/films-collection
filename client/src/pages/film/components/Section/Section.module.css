@@ -1,0 +1,51 @@
+.section {
+  border-radius: 6px;
+  border: var(--app-border);
+  width: 100%;
+  overflow: hidden;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+  padding: 15px 20px;
+  border-bottom: var(--app-border);
+  background-color: var(--gray-extra-light);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.collapseButton {
+  display: flex;
+  padding: 0;
+}
+
+.content {
+  padding: 20px;
+}
+
+.collapsed .content {
+  display: none;
+}
+
+.collapsed .title {
+  border-bottom: 0;
+}
+
+.noInnerPadding .content {
+  padding: 0;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .content {
+    padding: 10px;
+  }
+}

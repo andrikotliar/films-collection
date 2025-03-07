@@ -1,0 +1,46 @@
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.textInput {
+  width: 100%;
+  padding: 10px;
+  border-radius: var(--app-border-radius);
+  border: var(--app-border);
+  outline-color: var(--blue-default);
+  transition: border-color 300ms;
+}
+
+.textInput:hover {
+  border-color: var(--gray-dark);
+}
+
+.passwordInput {
+  padding-right: 50px;
+}
+
+.fieldWrapper {
+  position: relative;
+}
+
+.textInput.withIcon {
+  padding-right: 50px;
+}
+
+.showPasswordButton {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+}
+
+.eyeIcon {
+  transition: color 300ms;
+}
+
+.showPasswordButton:hover .eyeIcon {
+  color: var(--blue-default);
+}

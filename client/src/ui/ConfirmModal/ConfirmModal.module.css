@@ -1,0 +1,25 @@
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 8px;
+  min-width: 300px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.title {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: normal;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 15px;
+  gap: 10px;
+}
