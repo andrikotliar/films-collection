@@ -1,0 +1,149 @@
+{
+  "$schema": "_schema.json",
+  "id": 89,
+  "title": "Jurassic World",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2015-06-12T00:00:00.000Z",
+  "duration": 124,
+  "poster": "posters/jurassic_world.webp",
+  "youtubeTrailerId": "RFinNxS5KN4",
+  "budget": 150000000,
+  "boxOffice": 1670000000,
+  "rating": 2,
+  "description": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree.",
+  "chapterKey": "jurassic-park",
+  "chapterOrder": 4,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 40,
+      "actorId": 1153,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 190,
+      "actorId": 199,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 199,
+      "characterName": "Owen",
+      "characterImage": null
+    },
+    {
+      "personId": 157,
+      "characterName": "Claire",
+      "characterImage": null
+    },
+    {
+      "personId": 466,
+      "characterName": "Masrani",
+      "characterImage": null
+    },
+    {
+      "personId": 1165,
+      "characterName": "Hoskins",
+      "characterImage": null
+    },
+    {
+      "personId": 1153,
+      "characterName": "Gray",
+      "characterImage": null
+    },
+    {
+      "personId": 872,
+      "characterName": "Zach",
+      "characterImage": null
+    },
+    {
+      "personId": 893,
+      "characterName": "Barry",
+      "characterImage": null
+    },
+    {
+      "personId": 98,
+      "characterName": "Dr. Henry Wu",
+      "characterImage": null
+    },
+    {
+      "personId": 702,
+      "characterName": "Vivian",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 9,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1744,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1364,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1365,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1745,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1744,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1704,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1746,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1442,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1747,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 13
+    }
+  ]
+}

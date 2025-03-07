@@ -1,0 +1,134 @@
+{
+  "$schema": "_schema.json",
+  "id": 159,
+  "title": "The Amazing Spider-Man",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2012-07-03T00:00:00.000Z",
+  "duration": 136,
+  "poster": "posters/amazing_spider_man_1.webp",
+  "youtubeTrailerId": "-tnxzJ0SSOw",
+  "budget": 230000000,
+  "boxOffice": 758000000,
+  "rating": 2,
+  "description": "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe.",
+  "chapterKey": "amazing-spider-man",
+  "chapterOrder": 1,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 57,
+      "characterName": "Spider-Man / Peter Parker",
+      "characterImage": "characters/the_amazing_spider_man_spider-man.webp"
+    },
+    {
+      "personId": 344,
+      "characterName": "Gwen Stacy",
+      "characterImage": null
+    },
+    {
+      "personId": 962,
+      "characterName": "The Lizard / Dr. Curt Connors",
+      "characterImage": "characters/the_amazing_spider_man_the_lizard.webp"
+    },
+    {
+      "personId": 284,
+      "characterName": "Captain Stacy",
+      "characterImage": null
+    },
+    {
+      "personId": 793,
+      "characterName": "Uncle Ben",
+      "characterImage": null
+    },
+    {
+      "personId": 1028,
+      "characterName": "Aunt May",
+      "characterImage": null
+    },
+    {
+      "personId": 165,
+      "characterName": "Richard Parker",
+      "characterImage": null
+    },
+    {
+      "personId": 338,
+      "characterName": "Mary Parker",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 16,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2132,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2133,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1973,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1561,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1530,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2134,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1972,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1290,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1747,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 12
+    },
+    {
+      "studioId": 5
+    }
+  ]
+}

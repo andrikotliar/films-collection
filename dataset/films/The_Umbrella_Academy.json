@@ -1,0 +1,339 @@
+{
+  "$schema": "_schema.json",
+  "id": 209,
+  "title": "The Umbrella Academy",
+  "type": "SERIES",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2019-02-15T00:00:00.000Z",
+  "duration": 60,
+  "poster": "posters/umbrella_academy.webp",
+  "youtubeTrailerId": null,
+  "rating": 2,
+  "description": "Eccentric millionaire Reginald Hargreeves finds several children with superpowers. He adopts them to grow as superheroes.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1134,
+      "characterName": "Luther Hargreeves",
+      "characterImage": null
+    },
+    {
+      "personId": 268,
+      "characterName": "Diego Hargreeves",
+      "characterImage": null
+    },
+    {
+      "personId": 348,
+      "characterName": "Allison Hargreeves",
+      "characterImage": null
+    },
+    {
+      "personId": 992,
+      "characterName": "Klaus Hargreeves",
+      "characterImage": null
+    },
+    {
+      "personId": 17,
+      "characterName": "Number Five",
+      "characterImage": null
+    },
+    {
+      "personId": 632,
+      "characterName": "Ben Hargreeves",
+      "characterImage": null
+    },
+    {
+      "personId": 334,
+      "characterName": "Vanya Hargreeves",
+      "characterImage": null
+    },
+    {
+      "personId": 224,
+      "characterName": "Reginald Hargreeves",
+      "characterImage": null
+    },
+    {
+      "personId": 980,
+      "characterName": "Lila Pitts",
+      "characterImage": null
+    },
+    {
+      "personId": 612,
+      "characterName": "Grace",
+      "characterImage": null
+    },
+    {
+      "personId": 647,
+      "characterName": "The Handler",
+      "characterImage": null
+    },
+    {
+      "personId": 163,
+      "characterName": "Hazel",
+      "characterImage": null
+    },
+    {
+      "personId": 797,
+      "characterName": "Cha-Cha",
+      "characterImage": null
+    },
+    {
+      "personId": 1231,
+      "characterName": "Pogo",
+      "characterImage": "characters/the_umbrella_academy_pogo.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 16,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2265,
+      "position": "CREATOR",
+      "comment": null
+    },
+    {
+      "personId": 2266,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2267,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2268,
+      "position": "DIRECTOR",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 2269,
+      "position": "DIRECTOR",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 1777,
+      "position": "DIRECTOR",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 2270,
+      "position": "DIRECTOR",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 2271,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2272,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2273,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2274,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2275,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2276,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2265,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2277,
+      "position": "WRITER",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 2278,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2279,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2280,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2281,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2282,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2283,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2284,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2285,
+      "position": "WRITER",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 2286,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2287,
+      "position": "WRITER",
+      "comment": "5 episodes"
+    },
+    {
+      "personId": 2288,
+      "position": "WRITER",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 2289,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2290,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2291,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2292,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1789,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2282,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2293,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2294,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2295,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2296,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2297,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2298,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 2299,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 6
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 17
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 30,
+    "seasonsTotal": 3,
+    "seasons": [
+      {
+        "number": 1,
+        "episodesCount": 10,
+        "releaseDate": "2019-02-15T00:00:00.000Z",
+        "youtubeTrailerId": "0DAmWHxeoKw",
+        "title": null,
+        "description": "A dysfunctional family of adopted super-powered siblings reunites after the mysterious death of their adoptive father. They must work together to solve the mystery and prevent an impending global apocalypse while dealing with their own complex relationships and personal issues."
+      },
+      {
+        "number": 2,
+        "episodesCount": 10,
+        "releaseDate": "2020-07-31T00:00:00.000Z",
+        "youtubeTrailerId": "SGgXLbZnr1Y",
+        "title": null,
+        "description": "The second season sees the siblings time-travel to the 1960s, where they must once again prevent a doomsday event. Each sibling faces new challenges and adventures in a different era, all while trying to reunite and make sense of the temporal chaos they find themselves in."
+      },
+      {
+        "number": 3,
+        "episodesCount": 10,
+        "releaseDate": "2022-06-22T00:00:00.000Z",
+        "youtubeTrailerId": "SGgXLbZnr1Y",
+        "title": null,
+        "description": "Back at the Academy, the Umbrellas clash with a new squad of Hargreeves siblings as a mysterious force begins to wreak havoc on the city."
+      }
+    ]
+  }
+}

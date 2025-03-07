@@ -1,0 +1,136 @@
+{
+  "$schema": "_schema.json",
+  "id": 52,
+  "title": "Guardians of the Galaxy: Vol. II",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2017-05-05T00:00:00.000Z",
+  "duration": 137,
+  "poster": "posters/guardians_of_the_galaxy_2.webp",
+  "youtubeTrailerId": "wUn05hdkhjM",
+  "budget": 200000000,
+  "boxOffice": 864000000,
+  "rating": 2,
+  "description": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
+  "chapterKey": "mcu",
+  "chapterOrder": 12,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 41,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 199,
+      "characterName": "Peter Quill / Star-Lord",
+      "characterImage": null
+    },
+    {
+      "personId": 1205,
+      "characterName": "Gamora",
+      "characterImage": "characters/guardians_of_the_galaxy_vol_2_gamora.webp"
+    },
+    {
+      "personId": 263,
+      "characterName": "Drax",
+      "characterImage": "characters/guardians_of_the_galaxy_vol_2_drax.webp"
+    },
+    {
+      "personId": 1164,
+      "characterName": "Baby Groot",
+      "characterImage": "characters/guardians_of_the_galaxy_vol_2_baby_groot.webp"
+    },
+    {
+      "personId": 141,
+      "characterName": "Rocket",
+      "characterImage": "characters/guardians_of_the_galaxy_vol_2_rocket.webp"
+    },
+    {
+      "personId": 830,
+      "characterName": "Yondu",
+      "characterImage": "characters/guardians_of_the_galaxy_vol_2_yondu.webp"
+    },
+    {
+      "personId": 640,
+      "characterName": "Nebula",
+      "characterImage": "characters/guardians_of_the_galaxy_vol_2_nebula.webp"
+    },
+    {
+      "personId": 934,
+      "characterName": "Mantis",
+      "characterImage": "characters/guardians_of_the_galaxy_vol_2_mantis.webp"
+    },
+    {
+      "personId": 1098,
+      "characterName": "Stakar Ogord",
+      "characterImage": null
+    },
+    {
+      "personId": 692,
+      "characterName": "Ego",
+      "characterImage": null
+    },
+    {
+      "personId": 328,
+      "characterName": "Ayesha",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 25,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1541,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1541,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1309,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1543,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1544,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 6
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    },
+    {
+      "studioId": 4
+    }
+  ]
+}

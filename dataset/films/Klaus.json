@@ -1,0 +1,145 @@
+{
+  "$schema": "_schema.json",
+  "id": 90,
+  "title": "Klaus",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2019-11-08T00:00:00.000Z",
+  "duration": 96,
+  "poster": "posters/klaus.webp",
+  "youtubeTrailerId": "taE3PwurhYM",
+  "budget": 40000000,
+  "rating": 3,
+  "description": "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 529,
+      "characterName": "Jesper",
+      "characterImage": "characters/klaus_jesper.webp"
+    },
+    {
+      "personId": 475,
+      "characterName": "Klaus",
+      "characterImage": "characters/klaus_klaus.webp"
+    },
+    {
+      "personId": 947,
+      "characterName": "Alva",
+      "characterImage": "characters/klaus_alva.webp"
+    },
+    {
+      "personId": 1177,
+      "characterName": "Mr. Ellingboe",
+      "characterImage": "characters/klaus_mr_ellingboe.webp"
+    },
+    {
+      "personId": 1254,
+      "characterName": "Mrs. Krum",
+      "characterImage": "characters/klaus_mrs_krum.webp"
+    },
+    {
+      "personId": 1255,
+      "characterName": "Mogens",
+      "characterImage": "characters/klaus_mogens.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    },
+    {
+      "collectionId": 10,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 13
+    },
+    {
+      "countryId": 2
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1748,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1749,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1748,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1750,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1751,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1752,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1753,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1754,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1755,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1756,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1757,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1758,
+      "position": "COMPOSER",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 6
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 41
+    },
+    {
+      "studioId": 42
+    }
+  ]
+}

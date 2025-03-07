@@ -1,0 +1,135 @@
+{
+  "$schema": "_schema.json",
+  "id": 77,
+  "title": "Independence Day",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1996-07-03T00:00:00.000Z",
+  "duration": 145,
+  "poster": "posters/independence_day.webp",
+  "youtubeTrailerId": "kA2WzBi2grE",
+  "budget": 75000000,
+  "boxOffice": 817000000,
+  "rating": 2,
+  "description": "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 1,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 35,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 23,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 41,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 1178,
+      "characterName": "Capt. Steven Hiller",
+      "characterImage": null
+    },
+    {
+      "personId": 126,
+      "characterName": "President Thomas J. Whitmore",
+      "characterImage": null
+    },
+    {
+      "personId": 542,
+      "characterName": "David Levinson",
+      "characterImage": null
+    },
+    {
+      "personId": 622,
+      "characterName": "Julius Levinson",
+      "characterImage": null
+    },
+    {
+      "personId": 988,
+      "characterName": "General William Grey",
+      "characterImage": null
+    },
+    {
+      "personId": 946,
+      "characterName": "Russell Casse",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 30,
+      "order": null
+    },
+    {
+      "collectionId": 18,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1261,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1700,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1261,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1700,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1271,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1701,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    }
+  ]
+}

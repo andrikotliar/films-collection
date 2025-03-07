@@ -1,0 +1,226 @@
+{
+  "$schema": "_schema.json",
+  "id": 176,
+  "title": "The Hobbit: The Desolation of Smaug",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2013-12-13T00:00:00.000Z",
+  "duration": 161,
+  "poster": "posters/middle_earth_2.webp",
+  "youtubeTrailerId": "fnaojlfdUbs",
+  "budget": 225000000,
+  "boxOffice": 960000000,
+  "rating": 2,
+  "description": "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring.",
+  "chapterKey": "middle-earth",
+  "chapterOrder": 2,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 46,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 460,
+      "characterName": "Gendalf",
+      "characterImage": null
+    },
+    {
+      "personId": 792,
+      "characterName": "Bilbo",
+      "characterImage": null
+    },
+    {
+      "personId": 750,
+      "characterName": "Bard",
+      "characterImage": null
+    },
+    {
+      "personId": 114,
+      "characterName": "Smaug",
+      "characterImage": null
+    },
+    {
+      "personId": 964,
+      "characterName": "Thorin",
+      "characterImage": null
+    },
+    {
+      "personId": 361,
+      "characterName": "Tauriel",
+      "characterImage": null
+    },
+    {
+      "personId": 664,
+      "characterName": "Balin",
+      "characterImage": null
+    },
+    {
+      "personId": 416,
+      "characterName": "Dwalin",
+      "characterImage": null
+    },
+    {
+      "personId": 1183,
+      "characterName": "Bifur",
+      "characterImage": null
+    },
+    {
+      "personId": 512,
+      "characterName": "Bofur",
+      "characterImage": null
+    },
+    {
+      "personId": 1083,
+      "characterName": "Bombur",
+      "characterImage": null
+    },
+    {
+      "personId": 279,
+      "characterName": "Fili",
+      "characterImage": null
+    },
+    {
+      "personId": 19,
+      "characterName": "Kili",
+      "characterImage": null
+    },
+    {
+      "personId": 577,
+      "characterName": "Oin",
+      "characterImage": null
+    },
+    {
+      "personId": 923,
+      "characterName": "Gloin",
+      "characterImage": null
+    },
+    {
+      "personId": 538,
+      "characterName": "Nori",
+      "characterImage": null
+    },
+    {
+      "personId": 784,
+      "characterName": "Dori",
+      "characterImage": null
+    },
+    {
+      "personId": 6,
+      "characterName": "Ori",
+      "characterImage": null
+    },
+    {
+      "personId": 458,
+      "characterName": "Old Bilbo",
+      "characterImage": null
+    },
+    {
+      "personId": 454,
+      "characterName": "Elrond",
+      "characterImage": null
+    },
+    {
+      "personId": 175,
+      "characterName": "Galadriel",
+      "characterImage": null
+    },
+    {
+      "personId": 894,
+      "characterName": "Legolas",
+      "characterImage": null
+    },
+    {
+      "personId": 711,
+      "characterName": "Thranduil",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 19,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 15
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2169,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2170,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2171,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2169,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1875,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2172,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2173,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2170,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2169,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1671,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1682,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 56
+    }
+  ]
+}

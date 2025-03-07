@@ -1,0 +1,123 @@
+{
+  "$schema": "_schema.json",
+  "id": 20,
+  "title": "Back to the Future",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1985-07-03T00:00:00.000Z",
+  "duration": 116,
+  "poster": "posters/back_to_the_future_1.webp",
+  "youtubeTrailerId": "qvsgGtivCgs",
+  "budget": 19000000,
+  "boxOffice": 381000000,
+  "rating": 3,
+  "description": "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+  "chapterKey": "back-to-the-future",
+  "chapterOrder": 1,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 2,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 824,
+      "characterName": "Marty McFly",
+      "characterImage": null
+    },
+    {
+      "personId": 210,
+      "characterName": "Dr. Emmett Brown",
+      "characterImage": null
+    },
+    {
+      "personId": 710,
+      "characterName": "Lorraine Baines",
+      "characterImage": null
+    },
+    {
+      "personId": 232,
+      "characterName": "George McFly",
+      "characterImage": null
+    },
+    {
+      "personId": 1114,
+      "characterName": "Biff Tannen",
+      "characterImage": null
+    },
+    {
+      "personId": 217,
+      "characterName": "Jennifer Parker",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 1,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1373,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1373,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1374,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1375,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1374,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1376,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1371,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1377,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 13
+    }
+  ]
+}

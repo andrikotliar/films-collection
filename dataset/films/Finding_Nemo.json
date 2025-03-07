@@ -1,0 +1,176 @@
+{
+  "$schema": "_schema.json",
+  "id": 43,
+  "title": "Finding Nemo",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2003-05-30T00:00:00.000Z",
+  "duration": 100,
+  "poster": "posters/finding_nemo.webp",
+  "youtubeTrailerId": "wZdpNglLbt8",
+  "budget": 94000000,
+  "boxOffice": 940000000,
+  "rating": 2,
+  "description": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 10,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 50,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 36,
+      "actorId": 332,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 10,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 33,
+      "characterName": "Nemo",
+      "characterImage": "characters/finding_nemo_nemo.webp"
+    },
+    {
+      "personId": 25,
+      "characterName": "Marlin",
+      "characterImage": "characters/finding_nemo_marlin.webp"
+    },
+    {
+      "personId": 332,
+      "characterName": "Dory",
+      "characterImage": "characters/finding_nemo_dory.webp"
+    },
+    {
+      "personId": 1180,
+      "characterName": "Gill",
+      "characterImage": "characters/finding_nemo_gill.webp"
+    },
+    {
+      "personId": 139,
+      "characterName": "Bloat",
+      "characterImage": "characters/finding_nemo_bloat.webp"
+    },
+    {
+      "personId": 43,
+      "characterName": "Peach",
+      "characterImage": "characters/finding_nemo_peach.webp"
+    },
+    {
+      "personId": 96,
+      "characterName": "Gurgle",
+      "characterImage": "characters/finding_nemo_gurgle.webp"
+    },
+    {
+      "personId": 1087,
+      "characterName": "Bubbles",
+      "characterImage": "characters/finding_nemo_bubbles.webp"
+    },
+    {
+      "personId": 1256,
+      "characterName": "Deb",
+      "characterImage": "characters/finding_nemo_deb.webp"
+    },
+    {
+      "personId": 1257,
+      "characterName": "Jacques",
+      "characterImage": "characters/finding_nemo_jacques.webp"
+    },
+    {
+      "personId": 401,
+      "characterName": "Nigel",
+      "characterImage": "characters/finding_nemo_nigel.webp"
+    },
+    {
+      "personId": 1258,
+      "characterName": "Crush",
+      "characterImage": "characters/finding_nemo_crush.webp"
+    },
+    {
+      "personId": 1259,
+      "characterName": "Bruce",
+      "characterImage": "characters/finding_nemo_bruce.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1258,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1258,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1467,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1468,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1469,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1470,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1471,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1472,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    },
+    {
+      "studioId": 3
+    }
+  ]
+}

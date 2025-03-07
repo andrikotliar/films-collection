@@ -1,0 +1,166 @@
+{
+  "$schema": "_schema.json",
+  "id": 141,
+  "title": "Star Trek: Beyond",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2016-07-22T00:00:00.000Z",
+  "duration": 122,
+  "poster": "posters/star_trek_3.webp",
+  "youtubeTrailerId": "XRVD32rnzOw",
+  "budget": 185000000,
+  "boxOffice": 343000000,
+  "rating": 1,
+  "description": "The crew of the USS Enterprise explores the furthest reaches of uncharted space, where they encounter a new ruthless enemy, who puts them, and everything the Federation stands for, to the test.",
+  "chapterKey": "star-trek",
+  "chapterOrder": 3,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 16,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 198,
+      "characterName": "Captain James T. Kirk",
+      "characterImage": null
+    },
+    {
+      "personId": 1198,
+      "characterName": "Commander Spock",
+      "characterImage": null
+    },
+    {
+      "personId": 641,
+      "characterName": "Doctor 'Bones' McCoy",
+      "characterImage": null
+    },
+    {
+      "personId": 1205,
+      "characterName": "Uhura",
+      "characterImage": null
+    },
+    {
+      "personId": 1070,
+      "characterName": "Montgomery 'Scotty' Scott",
+      "characterImage": null
+    },
+    {
+      "personId": 578,
+      "characterName": "Sulu",
+      "characterImage": null
+    },
+    {
+      "personId": 76,
+      "characterName": "Chekov",
+      "characterImage": null
+    },
+    {
+      "personId": 463,
+      "characterName": "Krall",
+      "characterImage": null
+    },
+    {
+      "personId": 1073,
+      "characterName": "Jaylah",
+      "characterImage": null
+    },
+    {
+      "personId": 570,
+      "characterName": "Manas",
+      "characterImage": null
+    },
+    {
+      "personId": 755,
+      "characterName": "Kalara",
+      "characterImage": null
+    },
+    {
+      "personId": 282,
+      "characterName": "Keenser",
+      "characterImage": null
+    },
+    {
+      "personId": 815,
+      "characterName": "Ensign Syl",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 29,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1462,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1070,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1991,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1843,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1852,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1992,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1462,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1442,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1466,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 16
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 14
+    },
+    {
+      "studioId": 46
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "_schema.json",
+  "id": 42,
+  "title": "Fast and Furious: Tokyo Drift",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2006-06-16T00:00:00.000Z",
+  "duration": 104,
+  "poster": "posters/fast_and_furious_3.webp",
+  "youtubeTrailerId": "p8HQ2JLlc4E",
+  "budget": 85000000,
+  "boxOffice": 158000000,
+  "rating": 1,
+  "description": "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America.",
+  "chapterKey": "fast-and-furious",
+  "chapterOrder": 6,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 742,
+      "characterName": "Sean Boswell",
+      "characterImage": null
+    },
+    {
+      "personId": 868,
+      "characterName": "Neela",
+      "characterImage": null
+    },
+    {
+      "personId": 1095,
+      "characterName": "Han",
+      "characterImage": null
+    },
+    {
+      "personId": 148,
+      "characterName": "Twinkie",
+      "characterImage": null
+    },
+    {
+      "personId": 137,
+      "characterName": "Takashi",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 13,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1462,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1463,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1270,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1464,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1466,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 7
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 13
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "$schema": "_schema.json",
+  "id": 184,
+  "title": "The Legend of Korra",
+  "type": "SERIES",
+  "style": "ANIMATION",
+  "releaseDate": "2012-04-14T00:00:00.000Z",
+  "duration": 23,
+  "poster": "posters/legend_of_korra.webp",
+  "youtubeTrailerId": null,
+  "rating": 2,
+  "description": "Korra is the new Avatar. She knows well three elements. Together with Tenzin, the son of Aang, she trains to learn airbending and protect the balance of power in the world.",
+  "chapterKey": "last-airbender",
+  "chapterOrder": 2,
+  "awards": [
+    {
+      "awardId": 7,
+      "nominationId": 180,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 7,
+      "nominationId": 181,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 519,
+      "characterName": "Korra",
+      "characterImage": "characters/the_legend_of_korra_korra.webp"
+    },
+    {
+      "personId": 898,
+      "characterName": "Bolin",
+      "characterImage": "characters/the_legend_of_korra_bolin.webp"
+    },
+    {
+      "personId": 273,
+      "characterName": "Mako",
+      "characterImage": "characters/the_legend_of_korra_mako.webp"
+    },
+    {
+      "personId": 475,
+      "characterName": "Tenzin",
+      "characterImage": "characters/the_legend_of_korra_tenzin.webp"
+    },
+    {
+      "personId": 1056,
+      "characterName": "Asami Sato",
+      "characterImage": "characters/the_legend_of_korra_asami_sato.webp"
+    },
+    {
+      "personId": 846,
+      "characterName": "Lin Beifong",
+      "characterImage": "characters/the_legend_of_korra_lin_beifong.webp"
+    },
+    {
+      "personId": 736,
+      "characterName": "Meelo",
+      "characterImage": "characters/the_legend_of_korra_meelo.webp"
+    },
+    {
+      "personId": 682,
+      "characterName": "Jinora",
+      "characterImage": "characters/the_legend_of_korra_jinora.webp"
+    },
+    {
+      "personId": 589,
+      "characterName": "Varrick",
+      "characterImage": "characters/the_legend_of_korra_varrick.webp"
+    },
+    {
+      "personId": 261,
+      "characterName": "Ikki",
+      "characterImage": "characters/the_legend_of_korra_ikki.webp"
+    },
+    {
+      "personId": 972,
+      "characterName": "Bumi",
+      "characterImage": "characters/the_legend_of_korra_bumi.webp"
+    },
+    {
+      "personId": 515,
+      "characterName": "Tonraq",
+      "characterImage": "characters/the_legend_of_korra_tonraq.webp"
+    },
+    {
+      "personId": 13,
+      "characterName": "Unalaq",
+      "characterImage": "characters/the_legend_of_korra_unalaq.webp"
+    },
+    {
+      "personId": 447,
+      "characterName": "Zaheer",
+      "characterImage": "characters/the_legend_of_korra_zaheer.webp"
+    },
+    {
+      "personId": 1089,
+      "characterName": "Amon",
+      "characterImage": "characters/the_legend_of_korra_amon.webp"
+    },
+    {
+      "personId": 1200,
+      "characterName": "Kuvira",
+      "characterImage": "characters/the_legend_of_korra_kuvira.webp"
+    },
+    {
+      "personId": 606,
+      "characterName": "Vaatu",
+      "characterImage": "characters/the_legend_of_korra_vaatu.webp"
+    },
+    {
+      "personId": 81,
+      "characterName": "Raava",
+      "characterImage": "characters/the_legend_of_korra_raava.webp"
+    },
+    {
+      "personId": 236,
+      "characterName": "Aang",
+      "characterImage": "characters/the_legend_of_korra_aang.webp"
+    },
+    {
+      "personId": 358,
+      "characterName": "Katara",
+      "characterImage": "characters/the_legend_of_korra_katara.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1339,
+      "position": "CREATOR",
+      "comment": null
+    },
+    {
+      "personId": 1340,
+      "position": "CREATOR",
+      "comment": null
+    },
+    {
+      "personId": 1346,
+      "position": "DIRECTOR",
+      "comment": "12 episodes"
+    },
+    {
+      "personId": 2197,
+      "position": "DIRECTOR",
+      "comment": "12 episodes"
+    },
+    {
+      "personId": 2198,
+      "position": "DIRECTOR",
+      "comment": "15 episodes"
+    },
+    {
+      "personId": 2199,
+      "position": "DIRECTOR",
+      "comment": "15 episodes"
+    },
+    {
+      "personId": 2200,
+      "position": "DIRECTOR",
+      "comment": "9 episodes"
+    },
+    {
+      "personId": 1339,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1339,
+      "position": "WRITER",
+      "comment": "22 episodes"
+    },
+    {
+      "personId": 1340,
+      "position": "WRITER",
+      "comment": "12 episodes"
+    },
+    {
+      "personId": 1351,
+      "position": "WRITER",
+      "comment": "15 episodes"
+    },
+    {
+      "personId": 1353,
+      "position": "WRITER",
+      "comment": "15 episodes"
+    },
+    {
+      "personId": 1359,
+      "position": "WRITER",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 2201,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2202,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1363,
+      "position": "COMPOSER",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 2
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 22
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 52,
+    "seasonsTotal": 4,
+    "seasons": [
+      {
+        "number": 1,
+        "episodesCount": 12,
+        "releaseDate": "2012-04-14T00:00:00.000Z",
+        "youtubeTrailerId": "NBNpGCIavwA",
+        "title": "Book One: Air",
+        "description": "Kora embarks on her journey to master airbending in Republic City. She faces the Equalists, a group led by Amon that seeks to rid the world of bending. As she learns more about the complexities of being the Avatar, she must restore balance and peace."
+      },
+      {
+        "number": 2,
+        "episodesCount": 14,
+        "releaseDate": "2013-09-13T00:00:00.000Z",
+        "youtubeTrailerId": "NBNpGCIavwA",
+        "title": "Book Two: Spirits",
+        "description": "Korra faces new challenges as she delves into the spirit world and discovers the origins of bending. Civil unrest in Republic City and the appearance of dark spirits escalate the conflict. She must learn the ancient art of energybending and connect with her spiritual side."
+      },
+      {
+        "number": 3,
+        "episodesCount": 13,
+        "releaseDate": "2014-06-27T00:00:00.000Z",
+        "youtubeTrailerId": "NBNpGCIavwA",
+        "title": "Book Three: Change",
+        "description": "Korra faces the Red Lotus, a dangerous anarchist group that seeks to end the Avatar cycle. As she confronts formidable adversaries, she must rebuild the Air Nation, rediscover herself, and make challenging decisions for the world's future."
+      },
+      {
+        "number": 4,
+        "episodesCount": 13,
+        "releaseDate": "2014-10-03T00:00:00.000Z",
+        "youtubeTrailerId": "NBNpGCIavwA",
+        "title": "Book Four: Balance",
+        "description": "The final season follows Korra as she deals with the aftermath of her traumatic battles. She faces Kuvira, an Earth Empire military leader who seeks to unite the Earth Kingdom. As Korra grapples with physical and emotional scars, she strives to bring balance to the world."
+      }
+    ]
+  }
+}

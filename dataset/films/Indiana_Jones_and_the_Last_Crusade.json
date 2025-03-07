@@ -1,0 +1,131 @@
+{
+  "$schema": "_schema.json",
+  "id": 79,
+  "title": "Indiana Jones and the Last Crusade",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1989-05-24T00:00:00.000Z",
+  "duration": 127,
+  "poster": "posters/indiana_jones_3.webp",
+  "youtubeTrailerId": "sagmdpkWUqc",
+  "budget": 48000000,
+  "boxOffice": 474000000,
+  "rating": 1,
+  "description": "In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Professor Henry \"Indiana\" Jones, Jr. finds himself up against Adolf Hitler's Nazis again to stop them from obtaining its powers.",
+  "chapterKey": "indiana-jones",
+  "chapterOrder": 3,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 2,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 34,
+      "actorId": null,
+      "comment": "\"The adventures of Indiana Jones DVD Collection\""
+    },
+    {
+      "awardId": 9,
+      "nominationId": 209,
+      "actorId": 431,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 431,
+      "characterName": "Dr. Henry «Indiana» Jones, Jr.",
+      "characterImage": null
+    },
+    {
+      "personId": 1046,
+      "characterName": "Professor Henry Jones",
+      "characterImage": null
+    },
+    {
+      "personId": 283,
+      "characterName": "Marcus Brody",
+      "characterImage": null
+    },
+    {
+      "personId": 42,
+      "characterName": "Elsa",
+      "characterImage": null
+    },
+    {
+      "personId": 595,
+      "characterName": "Sallah",
+      "characterImage": null
+    },
+    {
+      "personId": 627,
+      "characterName": "Walter Donovan",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 27,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1375,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1706,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1703,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1707,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1563,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1708,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 14
+    },
+    {
+      "studioId": 37
+    }
+  ]
+}

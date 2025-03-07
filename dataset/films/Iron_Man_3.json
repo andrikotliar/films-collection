@@ -1,0 +1,133 @@
+{
+  "$schema": "_schema.json",
+  "id": 84,
+  "title": "Iron Man 3",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2013-05-03T00:00:00.000Z",
+  "duration": 131,
+  "poster": "posters/iron_man_3.webp",
+  "youtubeTrailerId": "Ke1Y3P9D0Bc",
+  "budget": 200000000,
+  "boxOffice": 1200000000,
+  "rating": 2,
+  "description": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
+  "chapterKey": "mcu",
+  "chapterOrder": 9,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 42,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 44,
+      "actorId": 982,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 39,
+      "actorId": 109,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 982,
+      "characterName": "Tony Stark / Iron Man",
+      "characterImage": "characters/iron_man_3_ironman.webp"
+    },
+    {
+      "personId": 423,
+      "characterName": "Pepper Potts",
+      "characterImage": null
+    },
+    {
+      "personId": 304,
+      "characterName": "Colonel James Rhodes",
+      "characterImage": "characters/iron_man_3_warmachine.webp"
+    },
+    {
+      "personId": 421,
+      "characterName": "Aldrich Killian",
+      "characterImage": null
+    },
+    {
+      "personId": 955,
+      "characterName": "Maya Hansen",
+      "characterImage": null
+    },
+    {
+      "personId": 601,
+      "characterName": "Happy Hogan",
+      "characterImage": null
+    },
+    {
+      "personId": 109,
+      "characterName": "Trevor Slattery",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 25,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1723,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1723,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1724,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1309,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1464,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1725,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    },
+    {
+      "studioId": 4
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "$schema": "_schema.json",
+  "id": 139,
+  "title": "Spider-Man: No Way Home",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2021-12-17T00:00:00.000Z",
+  "duration": 100,
+  "poster": "posters/mcu_spider_man_3.webp",
+  "youtubeTrailerId": "rt-2cxAiPJk",
+  "budget": 200000000,
+  "boxOffice": 1900000000,
+  "rating": 1,
+  "description": "For the first time in the cinematic history of Spider-Man, our friendly neighborhood hero is unmasked and no longer able to separate his normal life from the high-stakes of being a Super Hero. When he asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+  "chapterKey": "mcu",
+  "chapterOrder": 25,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1133,
+      "characterName": "Peter Parker / Spider-Man",
+      "characterImage": "characters/spider_man_no_way_home_peter_parker.webp"
+    },
+    {
+      "personId": 1122,
+      "characterName": "Peter Parker / Spider-Man (Toby)",
+      "characterImage": "characters/spider_man_no_way_home_peter_parker_toby.webp"
+    },
+    {
+      "personId": 57,
+      "characterName": "Peter Parker / Spider-Man (Andrew)",
+      "characterImage": "characters/spider_man_no_way_home_peter_parker_andrew.webp"
+    },
+    {
+      "personId": 1201,
+      "characterName": "MJ",
+      "characterImage": null
+    },
+    {
+      "personId": 114,
+      "characterName": "Doctor Strange",
+      "characterImage": null
+    },
+    {
+      "personId": 601,
+      "characterName": "Happy Hogan",
+      "characterImage": null
+    },
+    {
+      "personId": 780,
+      "characterName": "May Parker",
+      "characterImage": null
+    },
+    {
+      "personId": 475,
+      "characterName": "J. Jonah Jameson",
+      "characterImage": null
+    },
+    {
+      "personId": 1180,
+      "characterName": "Norman Osborn / Green Goblin",
+      "characterImage": null
+    },
+    {
+      "personId": 116,
+      "characterName": "Wong",
+      "characterImage": null
+    },
+    {
+      "personId": 517,
+      "characterName": "Max Dillon / Electro",
+      "characterImage": null
+    },
+    {
+      "personId": 36,
+      "characterName": "Otto Octavius / Doctor Octopus",
+      "characterImage": null
+    },
+    {
+      "personId": 489,
+      "characterName": "Ned Leeds",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 25,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1976,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1311,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1312,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1309,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1977,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1442,
+      "position": "COMPOSER",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 4
+    },
+    {
+      "studioId": 10
+    }
+  ]
+}

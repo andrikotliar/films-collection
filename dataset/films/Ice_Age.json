@@ -1,0 +1,103 @@
+{
+  "$schema": "_schema.json",
+  "id": 72,
+  "title": "Ice Age",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2002-03-15T00:00:00.000Z",
+  "duration": 81,
+  "poster": "posters/ice_age_1.webp",
+  "youtubeTrailerId": "i4noiCRJRoE",
+  "budget": 59000000,
+  "boxOffice": 383000000,
+  "rating": 3,
+  "description": "Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe.",
+  "chapterKey": "ice-age",
+  "chapterOrder": 1,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 951,
+      "characterName": "Manfred",
+      "characterImage": "characters/ice_age_manfred.webp"
+    },
+    {
+      "personId": 586,
+      "characterName": "Sid",
+      "characterImage": "characters/ice_age_sid.webp"
+    },
+    {
+      "personId": 284,
+      "characterName": "Diego",
+      "characterImage": "characters/ice_age_diego.webp"
+    },
+    {
+      "personId": 415,
+      "characterName": "Soto",
+      "characterImage": "characters/ice_age_soto.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    },
+    {
+      "collectionId": 10,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 202,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1683,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1684,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1685,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1686,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1687,
+      "position": "COMPOSER",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 6
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    },
+    {
+      "studioId": 36
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "$schema": "_schema.json",
+  "id": 211,
+  "title": "The Witcher",
+  "type": "SERIES",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2019-12-20T00:00:00.000Z",
+  "duration": 60,
+  "poster": "posters/witcher.webp",
+  "youtubeTrailerId": null,
+  "rating": 2,
+  "description": "Geralt of Rivia, a monster hunter known as a Witcher, navigates a world filled with dangerous creatures and complex political intrigue.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 443,
+      "characterName": "Geralt of Rivia",
+      "characterImage": null
+    },
+    {
+      "personId": 389,
+      "characterName": "Ciri",
+      "characterImage": null
+    },
+    {
+      "personId": 78,
+      "characterName": "Yennefer",
+      "characterImage": null
+    },
+    {
+      "personId": 858,
+      "characterName": "Tissaia",
+      "characterImage": null
+    },
+    {
+      "personId": 1186,
+      "characterName": "Dara",
+      "characterImage": null
+    },
+    {
+      "personId": 8,
+      "characterName": "Mousesack",
+      "characterImage": null
+    },
+    {
+      "personId": 699,
+      "characterName": "Stregobor",
+      "characterImage": null
+    },
+    {
+      "personId": 1010,
+      "characterName": "Istredd",
+      "characterImage": null
+    },
+    {
+      "personId": 565,
+      "characterName": "Queen Calanthe",
+      "characterImage": null
+    },
+    {
+      "personId": 1234,
+      "characterName": "Cahir",
+      "characterImage": null
+    },
+    {
+      "personId": 1235,
+      "characterName": "Jaskier",
+      "characterImage": null
+    },
+    {
+      "personId": 1236,
+      "characterName": "Vilgefortz",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 7
+    },
+    {
+      "countryId": 17
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2280,
+      "position": "CREATOR",
+      "comment": null
+    },
+    {
+      "personId": 1492,
+      "position": "DIRECTOR",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 2303,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2304,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2305,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2269,
+      "position": "DIRECTOR",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 2306,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2307,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2308,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2280,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2309,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2310,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2311,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2282,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2312,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2313,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2314,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2315,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2313,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2316,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2317,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1873,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2318,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 2319,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 2320,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 2
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 17
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 16,
+    "seasonsTotal": 2,
+    "seasons": [
+      {
+        "number": 1,
+        "episodesCount": 8,
+        "releaseDate": "2019-12-20T00:00:00.000Z",
+        "youtubeTrailerId": "ndl1W4ltcmg",
+        "title": null,
+        "description": "Geralt crosses paths with Yennefer, a powerful sorceress, and Ciri, a young princess with a destiny tied to his own. The three destinies converge in a world where the line between good and evil is blurred."
+      },
+      {
+        "number": 2,
+        "episodesCount": 8,
+        "releaseDate": "2021-12-17T00:00:00.000Z",
+        "youtubeTrailerId": "2aMVzFlApa0",
+        "title": null,
+        "description": "Geralt embraces his destiny as he protects Ciri from the forces battling for control of the Continent — and from the mysterious power she possesses."
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "_schema.json",
+  "id": 207,
+  "title": "The Time Machine",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2002-03-08T00:00:00.000Z",
+  "duration": 96,
+  "poster": "posters/time_machine.webp",
+  "youtubeTrailerId": "90T7iLuzFgg",
+  "budget": 80000000,
+  "boxOffice": 124000000,
+  "rating": 2,
+  "description": "Hoping to alter the events of the past, a 19th century inventor instead travels 800,000 years into the future, where he finds humankind divided into two warring races.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 421,
+      "characterName": "Alexander Hartdegen",
+      "characterImage": null
+    },
+    {
+      "personId": 781,
+      "characterName": "David Philby",
+      "characterImage": null
+    },
+    {
+      "personId": 1067,
+      "characterName": "Emma",
+      "characterImage": null
+    },
+    {
+      "personId": 1225,
+      "characterName": "Mara",
+      "characterImage": null
+    },
+    {
+      "personId": 895,
+      "characterName": "Vox",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 14,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2259,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1668,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1826,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2260,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1896,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1902,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 8
+    }
+  ]
+}

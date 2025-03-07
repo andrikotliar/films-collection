@@ -1,0 +1,116 @@
+{
+  "$schema": "_schema.json",
+  "id": 123,
+  "title": "Real Steel",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2011-10-07T00:00:00.000Z",
+  "duration": 127,
+  "poster": "posters/real_steel.webp",
+  "youtubeTrailerId": "SwfmV3nn6QA",
+  "budget": 110000000,
+  "boxOffice": 300000000,
+  "rating": 3,
+  "description": "In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 453,
+      "characterName": "Charlie Kenton",
+      "characterImage": null
+    },
+    {
+      "personId": 239,
+      "characterName": "Max Kenton",
+      "characterImage": null
+    },
+    {
+      "personId": 361,
+      "characterName": "Bailey Tallet",
+      "characterImage": null
+    },
+    {
+      "personId": 74,
+      "characterName": "Finn",
+      "characterImage": null
+    },
+    {
+      "personId": 674,
+      "characterName": "Ricky",
+      "characterImage": null
+    },
+    {
+      "personId": 451,
+      "characterName": "Aunt Debra",
+      "characterImage": null
+    },
+    {
+      "personId": 514,
+      "characterName": "Marvin",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 7,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1815,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1916,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1815,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1917,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1918,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1828,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1338,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 15
+    }
+  ]
+}

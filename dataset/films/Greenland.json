@@ -1,0 +1,117 @@
+{
+  "$schema": "_schema.json",
+  "id": 50,
+  "title": "Greenland",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2020-08-14T00:00:00.000Z",
+  "duration": 119,
+  "poster": "posters/greenland.webp",
+  "youtubeTrailerId": "RTODtIQQRpA",
+  "budget": 35000000,
+  "boxOffice": 52000000,
+  "rating": 1,
+  "description": "A family struggles for survival in the face of a cataclysmic natural disaster.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 404,
+      "characterName": "John Garrity",
+      "characterImage": null
+    },
+    {
+      "personId": 853,
+      "characterName": "Allison Garrity",
+      "characterImage": null
+    },
+    {
+      "personId": 998,
+      "characterName": "Nathan Garrity",
+      "characterImage": null
+    },
+    {
+      "personId": 1043,
+      "characterName": "Dale",
+      "characterImage": null
+    },
+    {
+      "personId": 272,
+      "characterName": "Ralph Vento",
+      "characterImage": null
+    },
+    {
+      "personId": 451,
+      "characterName": "Judy Vento",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 18,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 2
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1535,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1536,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 404,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1537,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1538,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1539,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1540,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 5
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 28
+    },
+    {
+      "studioId": 29
+    },
+    {
+      "studioId": 30
+    }
+  ]
+}

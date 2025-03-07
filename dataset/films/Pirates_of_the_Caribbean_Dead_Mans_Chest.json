@@ -1,0 +1,145 @@
+{
+  "$schema": "_schema.json",
+  "id": 116,
+  "title": "Pirates of the Caribbean: Dead Man's Chest",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2006-07-07T00:00:00.000Z",
+  "duration": 150,
+  "poster": "posters/pirates_2.webp",
+  "youtubeTrailerId": "ozk0-RHXtFw",
+  "budget": 225000000,
+  "boxOffice": 1100000000,
+  "rating": 2,
+  "description": "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well.",
+  "chapterKey": "pirates-of-the-caribbean",
+  "chapterOrder": 2,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 5,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 101,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 41,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 182,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 193,
+      "actorId": 598,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 598,
+      "characterName": "Captain Jack Sparrow",
+      "characterImage": "characters/pirates_of_the_caribbean_dead_man_s_chest_captain_jack_sparrow.webp"
+    },
+    {
+      "personId": 894,
+      "characterName": "Will Turner",
+      "characterImage": null
+    },
+    {
+      "personId": 659,
+      "characterName": "Elizabeth Swann",
+      "characterImage": null
+    },
+    {
+      "personId": 480,
+      "characterName": "Norrington",
+      "characterImage": null
+    },
+    {
+      "personId": 124,
+      "characterName": "Davy Jones",
+      "characterImage": "characters/pirates_of_the_caribbean_dead_man_s_chest_davy_jones.webp"
+    },
+    {
+      "personId": 1126,
+      "characterName": "Cutler Beckett",
+      "characterImage": null
+    },
+    {
+      "personId": 609,
+      "characterName": "Governor Weatherby Swann",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1890,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1891,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1892,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1893,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1383,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1894,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    },
+    {
+      "studioId": 44
+    }
+  ]
+}

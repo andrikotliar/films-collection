@@ -1,0 +1,122 @@
+{
+  "$schema": "_schema.json",
+  "id": 132,
+  "title": "Speed",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1994-06-10T00:00:00.000Z",
+  "duration": 116,
+  "poster": "posters/speed.webp",
+  "youtubeTrailerId": "8piqd2BWeGI",
+  "budget": 30000000,
+  "boxOffice": 350000000,
+  "rating": 2,
+  "description": "A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 14,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 2,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 48,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 14,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 38,
+      "actorId": 1038,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 657,
+      "characterName": "Jack Traven",
+      "characterImage": null
+    },
+    {
+      "personId": 285,
+      "characterName": "Howard Payne",
+      "characterImage": null
+    },
+    {
+      "personId": 1038,
+      "characterName": "Annie",
+      "characterImage": null
+    },
+    {
+      "personId": 540,
+      "characterName": "Harry",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 13,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1966,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1967,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1263,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1968,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1969,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 9
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    }
+  ]
+}

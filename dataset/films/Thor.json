@@ -1,0 +1,131 @@
+{
+  "$schema": "_schema.json",
+  "id": 213,
+  "title": "Thor",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2011-05-06T00:00:00.000Z",
+  "duration": 114,
+  "poster": "posters/thor_1.webp",
+  "youtubeTrailerId": "JOddp-nlNvQ",
+  "budget": 150000000,
+  "boxOffice": 449000000,
+  "rating": 2,
+  "description": "The powerful, but arrogant god Thor, is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
+  "chapterKey": "mcu",
+  "chapterOrder": 6,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 52,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 195,
+      "characterName": "Thor",
+      "characterImage": null
+    },
+    {
+      "personId": 864,
+      "characterName": "Jane Foster",
+      "characterImage": null
+    },
+    {
+      "personId": 1132,
+      "characterName": "Loki",
+      "characterImage": null
+    },
+    {
+      "personId": 73,
+      "characterName": "Odin",
+      "characterImage": null
+    },
+    {
+      "personId": 1080,
+      "characterName": "Erik Selvig",
+      "characterImage": null
+    },
+    {
+      "personId": 643,
+      "characterName": "Darcy Lewis",
+      "characterImage": null
+    },
+    {
+      "personId": 216,
+      "characterName": "Agent Coulson",
+      "characterImage": null
+    },
+    {
+      "personId": 463,
+      "characterName": "Heimdall",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 25,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 666,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2324,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2325,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2326,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1309,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1571,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1861,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 4
+    },
+    {
+      "studioId": 14
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "_schema.json",
+  "id": 195,
+  "title": "The Matrix Reloaded",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2003-05-15T00:00:00.000Z",
+  "duration": 138,
+  "poster": "posters/matrix_2.webp",
+  "youtubeTrailerId": "kYzz0FSgpSU",
+  "budget": 127000000,
+  "boxOffice": 742000000,
+  "rating": 3,
+  "description": "Neo and the rebel leaders estimate that they have 72 hours until 250,000 probes discover Zion and destroy it and its inhabitants. During this, Neo must decide how he can save Trinity from a dark fate in his dreams.",
+  "chapterKey": "matrix",
+  "chapterOrder": 2,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 657,
+      "characterName": "Neo",
+      "characterImage": null
+    },
+    {
+      "personId": 707,
+      "characterName": "Morpheus",
+      "characterImage": null
+    },
+    {
+      "personId": 173,
+      "characterName": "Trinity",
+      "characterImage": null
+    },
+    {
+      "personId": 454,
+      "characterName": "Agent Smith",
+      "characterImage": null
+    },
+    {
+      "personId": 413,
+      "characterName": "Oracle",
+      "characterImage": null
+    },
+    {
+      "personId": 490,
+      "characterName": "Niobe",
+      "characterImage": null
+    },
+    {
+      "personId": 850,
+      "characterName": "Persephone",
+      "characterImage": null
+    },
+    {
+      "personId": 695,
+      "characterName": "The Merovaiingian",
+      "characterImage": null
+    },
+    {
+      "personId": 944,
+      "characterName": "The Keymaker",
+      "characterImage": null
+    },
+    {
+      "personId": 442,
+      "characterName": "The Architect",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 14,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 12
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2230,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2230,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1901,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1743,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1296,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 8
+    }
+  ]
+}

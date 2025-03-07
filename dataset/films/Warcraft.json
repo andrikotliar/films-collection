@@ -1,0 +1,164 @@
+{
+  "$schema": "_schema.json",
+  "id": 227,
+  "title": "Warcraft",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2016-06-10T00:00:00.000Z",
+  "duration": 123,
+  "poster": "posters/warcraft.webp",
+  "youtubeTrailerId": "2Rxoz13Bthc",
+  "budget": 160000000,
+  "boxOffice": 434000000,
+  "rating": 2,
+  "description": "As an Orc horde invades the planet Azeroth using a magic portal, a few human heroes and dissenting Orcs must attempt to stop the true evil behind this war.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1150,
+      "characterName": "Anduin Lothar",
+      "characterImage": null
+    },
+    {
+      "personId": 912,
+      "characterName": "Garona",
+      "characterImage": "characters/warcraft_garona.webp"
+    },
+    {
+      "personId": 108,
+      "characterName": "Medivh",
+      "characterImage": null
+    },
+    {
+      "personId": 300,
+      "characterName": "Llane Wrynn",
+      "characterImage": null
+    },
+    {
+      "personId": 1124,
+      "characterName": "Durotan / Antonidas",
+      "characterImage": "characters/warcraft_durotan.webp"
+    },
+    {
+      "personId": 111,
+      "characterName": "Khadgar",
+      "characterImage": null
+    },
+    {
+      "personId": 986,
+      "characterName": "Orgrim",
+      "characterImage": "characters/warcraft_orgrim.webp"
+    },
+    {
+      "personId": 215,
+      "characterName": "Blackhand",
+      "characterImage": "characters/warcraft_blackhand.webp"
+    },
+    {
+      "personId": 253,
+      "characterName": "Gul'dan",
+      "characterImage": null
+    },
+    {
+      "personId": 1019,
+      "characterName": "Lady Taria",
+      "characterImage": null
+    },
+    {
+      "personId": 65,
+      "characterName": "Draka",
+      "characterImage": "characters/warcraft_draka.webp"
+    },
+    {
+      "personId": 162,
+      "characterName": "Moroes",
+      "characterImage": null
+    },
+    {
+      "personId": 1220,
+      "characterName": "Callan",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1961,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2361,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1961,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1380,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2362,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1877,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1878,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2363,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1461,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1679,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 13
+    },
+    {
+      "studioId": 25
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "$schema": "_schema.json",
+  "id": 232,
+  "title": "X-Men: Apocalypse",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2016-05-27T00:00:00.000Z",
+  "duration": 144,
+  "poster": "posters/x_men_7.webp",
+  "youtubeTrailerId": "Jer8XjMrUB4",
+  "budget": 178000000,
+  "boxOffice": 544000000,
+  "rating": 1,
+  "description": "In the 1980s the X-Men must defeat an ancient all-powerful mutant, En Sabah Nur, who intends to thrive through bringing destruction to the world.",
+  "chapterKey": "x-men",
+  "chapterOrder": 4,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 511,
+      "characterName": "Professor Charles Xavier",
+      "characterImage": null
+    },
+    {
+      "personId": 823,
+      "characterName": "Erik Lehnsherr / Magneto",
+      "characterImage": null
+    },
+    {
+      "personId": 547,
+      "characterName": "Raven / Mystique",
+      "characterImage": "characters/x_men_apocalypse_raven.webp"
+    },
+    {
+      "personId": 870,
+      "characterName": "Hank McCoy / Beast",
+      "characterImage": "characters/x_men_apocalypse_hank_mccoy.webp"
+    },
+    {
+      "personId": 896,
+      "characterName": "En Sabah Nur / Apocalypse",
+      "characterImage": "characters/x_men_apocalypse_en_sabah_nur.webp"
+    },
+    {
+      "personId": 1005,
+      "characterName": "Moira Mactaggert",
+      "characterImage": null
+    },
+    {
+      "personId": 360,
+      "characterName": "Peter Maximoff / Quicksilver",
+      "characterImage": null
+    },
+    {
+      "personId": 619,
+      "characterName": "Col. William Stryker",
+      "characterImage": null
+    },
+    {
+      "personId": 1077,
+      "characterName": "Jean Grey",
+      "characterImage": null
+    },
+    {
+      "personId": 1154,
+      "characterName": "Scott Summers / Cyclops",
+      "characterImage": null
+    },
+    {
+      "personId": 743,
+      "characterName": "Alex Summers / Havok",
+      "characterImage": null
+    },
+    {
+      "personId": 686,
+      "characterName": "Kurt Wagner / Nightcrawler",
+      "characterImage": "characters/x_men_apocalypse_kurt_wagner.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 16,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2370,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1797,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1796,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2370,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2375,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2376,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    },
+    {
+      "studioId": 5
+    }
+  ]
+}

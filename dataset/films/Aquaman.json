@@ -1,0 +1,124 @@
+{
+  "$schema": "_schema.json",
+  "id": 15,
+  "title": "Aquaman",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2018-12-21T00:00:00.000Z",
+  "duration": 143,
+  "poster": "posters/aquaman.webp",
+  "youtubeTrailerId": "WDkg3h8PCVU",
+  "budget": 160000000,
+  "boxOffice": 1150000000,
+  "rating": 1,
+  "description": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
+  "chapterKey": "dceu",
+  "chapterOrder": 6,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 528,
+      "characterName": "Arthur Curry / Aquaman",
+      "characterImage": null
+    },
+    {
+      "personId": 49,
+      "characterName": "Mera",
+      "characterImage": null
+    },
+    {
+      "personId": 1180,
+      "characterName": "Vulko",
+      "characterImage": null
+    },
+    {
+      "personId": 904,
+      "characterName": "King Orm",
+      "characterImage": null
+    },
+    {
+      "personId": 874,
+      "characterName": "Queen Atlanna",
+      "characterImage": null
+    },
+    {
+      "personId": 298,
+      "characterName": "King Nereus",
+      "characterImage": null
+    },
+    {
+      "personId": 1193,
+      "characterName": "Black Manta",
+      "characterImage": null
+    },
+    {
+      "personId": 1107,
+      "characterName": "Tom Curry",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 11,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1315,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1316,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1317,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1318,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1319,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1320,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1321,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 18
+    },
+    {
+      "studioId": 8
+    }
+  ]
+}

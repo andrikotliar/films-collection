@@ -1,0 +1,197 @@
+{
+  "$schema": "_schema.json",
+  "id": 1,
+  "title": "Terminator 2: Judgment Day",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1991-07-03T00:00:00.000Z",
+  "duration": 137,
+  "poster": "posters/terminator_2.webp",
+  "youtubeTrailerId": "-W8CegO_Ixw",
+  "budget": 94000000,
+  "boxOffice": 521000000,
+  "rating": 3,
+  "description": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her teenage son, John Connor, from a more advanced and powerful cyborg.",
+  "chapterKey": "terminator",
+  "chapterOrder": 2,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 14,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 2,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 1,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 16,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 35,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 40,
+      "actorId": 321,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 14,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 99,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 182,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 196,
+      "actorId": 728,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 187,
+      "actorId": 87,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 197,
+      "actorId": 321,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 198,
+      "actorId": 728,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 192,
+      "actorId": null,
+      "comment": "L.A. Freeway Scene"
+    }
+  ],
+  "cast": [
+    {
+      "personId": 87,
+      "characterName": "T-800",
+      "characterImage": null
+    },
+    {
+      "personId": 321,
+      "characterName": "John Connor",
+      "characterImage": "characters/terminator_2_judgment_day_john_connor.webp"
+    },
+    {
+      "personId": 728,
+      "characterName": "Sarah Connor",
+      "characterImage": null
+    },
+    {
+      "personId": 989,
+      "characterName": "T-1000",
+      "characterImage": null
+    },
+    {
+      "personId": 568,
+      "characterName": "Miles Bennett Dyson",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 1,
+      "order": null
+    },
+    {
+      "collectionId": 7,
+      "order": null
+    },
+    {
+      "collectionId": 21,
+      "order": 2
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1288,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1288,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2049,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1288,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2050,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2051,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 38
+    },
+    {
+      "studioId": 50
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "$schema": "_schema.json",
+  "id": 208,
+  "title": "The Transporter",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2002-10-11T00:00:00.000Z",
+  "duration": 92,
+  "poster": "posters/transporter_1.webp",
+  "youtubeTrailerId": "0poXFSvX0_4",
+  "budget": 21000000,
+  "boxOffice": 44000000,
+  "rating": 2,
+  "description": "Frank is hired to \"transport\" packages for unknown clients and has made a very good living doing so. But when asked to move a package that begins moving, complications arise.",
+  "chapterKey": "transformers",
+  "chapterOrder": 1,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 531,
+      "characterName": "Frank Martin",
+      "characterImage": null
+    },
+    {
+      "personId": 935,
+      "characterName": "Lai",
+      "characterImage": null
+    },
+    {
+      "personId": 804,
+      "characterName": "Wall Street",
+      "characterImage": null
+    },
+    {
+      "personId": 385,
+      "characterName": "Inspector Tarconi",
+      "characterImage": null
+    },
+    {
+      "personId": 963,
+      "characterName": "Mr. Kwai",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 13,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 4
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1862,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2261,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1431,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2262,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1431,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2263,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2264,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1430,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 7
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 27
+    }
+  ]
+}

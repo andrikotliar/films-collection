@@ -1,0 +1,144 @@
+{
+  "$schema": "_schema.json",
+  "id": 129,
+  "title": "Shrek 2",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2004-05-19T00:00:00.000Z",
+  "duration": 93,
+  "poster": "posters/shrek_2.webp",
+  "youtubeTrailerId": "xBgSfhp5Fxo",
+  "budget": 150000000,
+  "boxOffice": 920000000,
+  "rating": 3,
+  "description": "Shrek and Fiona travel to the Kingdom of Far Far Away, where Fiona's parents are King and Queen, to celebrate their marriage. When they arrive, they find they are not as welcome as they thought they would be.",
+  "chapterKey": "shrek",
+  "chapterOrder": 2,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 842,
+      "characterName": "Shrek",
+      "characterImage": "characters/shrek_2_shrek.webp"
+    },
+    {
+      "personId": 319,
+      "characterName": "Donkey",
+      "characterImage": "characters/shrek_2_donkey.webp"
+    },
+    {
+      "personId": 164,
+      "characterName": "Fiona",
+      "characterImage": "characters/shrek_2_fiona.webp"
+    },
+    {
+      "personId": 77,
+      "characterName": "Puss In Boots",
+      "characterImage": "characters/shrek_2_puss_in_boots.webp"
+    },
+    {
+      "personId": 629,
+      "characterName": "Queen",
+      "characterImage": "characters/shrek_2_queen.webp"
+    },
+    {
+      "personId": 579,
+      "characterName": "King",
+      "characterImage": "characters/shrek_2_king.webp"
+    },
+    {
+      "personId": 1012,
+      "characterName": "Prince Charming",
+      "characterImage": "characters/shrek_2_prince_charming.webp"
+    },
+    {
+      "personId": 548,
+      "characterName": "Fairy Godmother",
+      "characterImage": "characters/shrek_2_fairy_godmother.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 6
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1949,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1956,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1233,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1891,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1892,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1951,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1952,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1957,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1953,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1954,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1905,
+      "position": "COMPOSER",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 6
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 16
+    }
+  ]
+}

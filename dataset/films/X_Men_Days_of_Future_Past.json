@@ -1,0 +1,151 @@
+{
+  "$schema": "_schema.json",
+  "id": 233,
+  "title": "X-Men: Days of Future Past",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2014-05-23T00:00:00.000Z",
+  "duration": 131,
+  "poster": "posters/x_men_6.webp",
+  "youtubeTrailerId": "pK2zYHWDZKo",
+  "budget": 200000000,
+  "boxOffice": 748000000,
+  "rating": 2,
+  "description": "The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.",
+  "chapterKey": "x-men",
+  "chapterOrder": 2,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 69,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 453,
+      "characterName": "Logan / Wolverine",
+      "characterImage": null
+    },
+    {
+      "personId": 511,
+      "characterName": "Charles Xavier",
+      "characterImage": null
+    },
+    {
+      "personId": 823,
+      "characterName": "Erik Lehnsherr",
+      "characterImage": null
+    },
+    {
+      "personId": 547,
+      "characterName": "Raven / Mystique",
+      "characterImage": "characters/x_men_days_of_future_past_raven.webp"
+    },
+    {
+      "personId": 426,
+      "characterName": "Storm",
+      "characterImage": null
+    },
+    {
+      "personId": 870,
+      "characterName": "Hank / Beast",
+      "characterImage": null
+    },
+    {
+      "personId": 66,
+      "characterName": "Rogue",
+      "characterImage": null
+    },
+    {
+      "personId": 334,
+      "characterName": "Kitty Pryde",
+      "characterImage": null
+    },
+    {
+      "personId": 920,
+      "characterName": "Dr. Bolivar Trask",
+      "characterImage": null
+    },
+    {
+      "personId": 1063,
+      "characterName": "Bobby / Iceman",
+      "characterImage": null
+    },
+    {
+      "personId": 360,
+      "characterName": "Peter / Quicksilver",
+      "characterImage": null
+    },
+    {
+      "personId": 460,
+      "characterName": "Magneto",
+      "characterImage": null
+    },
+    {
+      "personId": 903,
+      "characterName": "Professor X",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 16,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2370,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1797,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1796,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2370,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2375,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2376,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    },
+    {
+      "studioId": 5
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "$schema": "_schema.json",
+  "id": 199,
+  "title": "The Maze Runner: The Scorch Trials",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2015-09-18T00:00:00.000Z",
+  "duration": 131,
+  "poster": "posters/maze_runner_2.webp",
+  "youtubeTrailerId": "SDofO3P2HpE",
+  "budget": 61000000,
+  "boxOffice": 312000000,
+  "rating": 2,
+  "description": "After having escaped the Maze, the Gladers now face a new set of challenges on the open roads of a desolate landscape filled with unimaginable obstacles.",
+  "chapterKey": "maze-runner",
+  "chapterOrder": 2,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 316,
+      "characterName": "Thomas",
+      "characterImage": null
+    },
+    {
+      "personId": 655,
+      "characterName": "Teresa",
+      "characterImage": null
+    },
+    {
+      "personId": 1113,
+      "characterName": "Newt",
+      "characterImage": null
+    },
+    {
+      "personId": 680,
+      "characterName": "Minho",
+      "characterImage": null
+    },
+    {
+      "personId": 18,
+      "characterName": "Janson",
+      "characterImage": null
+    },
+    {
+      "personId": 405,
+      "characterName": "Jorge",
+      "characterImage": null
+    },
+    {
+      "personId": 1003,
+      "characterName": "Brenda",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 12,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2231,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2234,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2235,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1678,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2236,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2237,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2238,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2240,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "$schema": "_schema.json",
+  "id": 168,
+  "title": "The Dark Knight Rises",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2012-07-20T00:00:00.000Z",
+  "duration": 165,
+  "poster": "posters/batman_3.webp",
+  "youtubeTrailerId": "GokKUqLcvD8",
+  "budget": 250000000,
+  "boxOffice": 1000000000,
+  "rating": 1,
+  "description": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City, now on the edge of total annihilation, from the brutal guerrilla terrorist Bane.",
+  "chapterKey": "dark-knight",
+  "chapterOrder": 3,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 36,
+      "actorId": 64,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 203,
+      "characterName": "Bruce Wayne",
+      "characterImage": "characters/the_dark_knight_rises_bruce_wayne.webp"
+    },
+    {
+      "personId": 395,
+      "characterName": "Commissioner Gordon",
+      "characterImage": null
+    },
+    {
+      "personId": 1131,
+      "characterName": "Bane",
+      "characterImage": null
+    },
+    {
+      "personId": 614,
+      "characterName": "Blake",
+      "characterImage": null
+    },
+    {
+      "personId": 64,
+      "characterName": "Selina",
+      "characterImage": null
+    },
+    {
+      "personId": 779,
+      "characterName": "Miranda",
+      "characterImage": null
+    },
+    {
+      "personId": 854,
+      "characterName": "Fox",
+      "characterImage": null
+    },
+    {
+      "personId": 821,
+      "characterName": "Alfred",
+      "characterImage": null
+    },
+    {
+      "personId": 806,
+      "characterName": "Foley",
+      "characterImage": null
+    },
+    {
+      "personId": 44,
+      "characterName": "Dr. Pavel",
+      "characterImage": null
+    },
+    {
+      "personId": 110,
+      "characterName": "Daggett",
+      "characterImage": null
+    },
+    {
+      "personId": 158,
+      "characterName": "Stryver",
+      "characterImage": null
+    },
+    {
+      "personId": 252,
+      "characterName": "Captain Jones",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 16,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1378,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1378,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1713,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1380,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1381,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1378,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1383,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1385,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 9
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 8
+    },
+    {
+      "studioId": 25
+    }
+  ]
+}

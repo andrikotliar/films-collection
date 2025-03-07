@@ -1,0 +1,201 @@
+{
+  "$schema": "_schema.json",
+  "id": 163,
+  "title": "The Avengers: Infinity War",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2018-04-27T00:00:00.000Z",
+  "duration": 149,
+  "poster": "posters/avengers_3.webp",
+  "youtubeTrailerId": "6ZfuNTqbHE8",
+  "budget": 316000000,
+  "boxOffice": 2052000000,
+  "rating": 2,
+  "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+  "chapterKey": "mcu",
+  "chapterOrder": 22,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 39,
+      "actorId": 616,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 982,
+      "characterName": "Tony Stark / Iron Man",
+      "characterImage": "characters/the_avengers_infinity_war_tony_stark.webp"
+    },
+    {
+      "personId": 195,
+      "characterName": "Thor",
+      "characterImage": "characters/the_avengers_infinity_war_thor.webp"
+    },
+    {
+      "personId": 786,
+      "characterName": "Bruce Banner / Hulk",
+      "characterImage": "characters/the_avengers_infinity_war_bruce_banner.webp"
+    },
+    {
+      "personId": 194,
+      "characterName": "Steve Rogers / Captain America",
+      "characterImage": "characters/the_avengers_infinity_war_steve_rogers.webp"
+    },
+    {
+      "personId": 1042,
+      "characterName": "Natasha Romanoff / Black Widow",
+      "characterImage": "characters/the_avengers_infinity_war_natasha_romanoff.webp"
+    },
+    {
+      "personId": 304,
+      "characterName": "James Rhodes / War Machine",
+      "characterImage": null
+    },
+    {
+      "personId": 114,
+      "characterName": "Doctor Strange",
+      "characterImage": "characters/the_avengers_infinity_war_doctor_strange.webp"
+    },
+    {
+      "personId": 1133,
+      "characterName": "Peter Parker / Spider-Man",
+      "characterImage": "characters/the_avengers_infinity_war_peter_parker.webp"
+    },
+    {
+      "personId": 179,
+      "characterName": "T'Challa / Black Panther",
+      "characterImage": null
+    },
+    {
+      "personId": 1205,
+      "characterName": "Gamora",
+      "characterImage": "characters/the_avengers_infinity_war_gamora.webp"
+    },
+    {
+      "personId": 199,
+      "characterName": "Peter Quill / Star-Lord",
+      "characterImage": null
+    },
+    {
+      "personId": 640,
+      "characterName": "Nebula",
+      "characterImage": "characters/the_avengers_infinity_war_nebula.webp"
+    },
+    {
+      "personId": 1132,
+      "characterName": "Loki",
+      "characterImage": null
+    },
+    {
+      "personId": 905,
+      "characterName": "Vision",
+      "characterImage": "characters/the_avengers_infinity_war_vision.webp"
+    },
+    {
+      "personId": 329,
+      "characterName": "Wanda Maximoff / Scarlett Witch",
+      "characterImage": null
+    },
+    {
+      "personId": 74,
+      "characterName": "Sam Wilson / The Falcon",
+      "characterImage": null
+    },
+    {
+      "personId": 1050,
+      "characterName": "Bucky Barnes / White Wolf",
+      "characterImage": null
+    },
+    {
+      "personId": 934,
+      "characterName": "Mantis",
+      "characterImage": "characters/the_avengers_infinity_war_mantis.webp"
+    },
+    {
+      "personId": 263,
+      "characterName": "Drax",
+      "characterImage": "characters/the_avengers_infinity_war_drax.webp"
+    },
+    {
+      "personId": 1164,
+      "characterName": "Groot",
+      "characterImage": "characters/the_avengers_infinity_war_groot.webp"
+    },
+    {
+      "personId": 141,
+      "characterName": "Rocket",
+      "characterImage": "characters/the_avengers_infinity_war_rocket.webp"
+    },
+    {
+      "personId": 616,
+      "characterName": "Thanos",
+      "characterImage": "characters/the_avengers_infinity_war_thanos.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 25,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1367,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1368,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1369,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1370,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1309,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1371,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1372,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    },
+    {
+      "studioId": 4
+    }
+  ]
+}

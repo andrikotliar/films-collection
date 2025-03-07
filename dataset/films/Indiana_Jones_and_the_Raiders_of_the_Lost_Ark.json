@@ -1,0 +1,207 @@
+{
+  "$schema": "_schema.json",
+  "id": 80,
+  "title": "Indiana Jones and the Raiders of the Lost Ark",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1981-06-12T00:00:00.000Z",
+  "duration": 115,
+  "poster": "posters/indiana_jones_1.webp",
+  "youtubeTrailerId": "Rh_BJXG1-44",
+  "budget": 18000000,
+  "boxOffice": 390000000,
+  "rating": 1,
+  "description": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers.",
+  "chapterKey": "indiana-jones",
+  "chapterOrder": 1,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 13,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 14,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 15,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 3,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 108,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 34,
+      "actorId": null,
+      "comment": "\"The adventures of Indiana Jones DVD Collection\""
+    },
+    {
+      "awardId": 2,
+      "nominationId": 49,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 44,
+      "actorId": 431,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 38,
+      "actorId": 638,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 23,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 33,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 28,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 41,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 9,
+      "nominationId": 209,
+      "actorId": 431,
+      "comment": null
+    },
+    {
+      "awardId": 9,
+      "nominationId": 210,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 431,
+      "characterName": "Dr. Henry «Indiana» Jones, Jr.",
+      "characterImage": null
+    },
+    {
+      "personId": 638,
+      "characterName": "Marion",
+      "characterImage": null
+    },
+    {
+      "personId": 906,
+      "characterName": "Belloq",
+      "characterImage": null
+    },
+    {
+      "personId": 1000,
+      "characterName": "Toht",
+      "characterImage": null
+    },
+    {
+      "personId": 595,
+      "characterName": "Sallah",
+      "characterImage": null
+    },
+    {
+      "personId": 283,
+      "characterName": "Brody",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 1,
+      "order": null
+    },
+    {
+      "collectionId": 27,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1375,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1709,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1703,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1704,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1563,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1708,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 14
+    },
+    {
+      "studioId": 37
+    }
+  ]
+}

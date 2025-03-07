@@ -1,0 +1,145 @@
+{
+  "$schema": "_schema.json",
+  "id": 54,
+  "title": "Happy Feet",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2006-11-17T00:00:00.000Z",
+  "duration": 108,
+  "poster": "posters/happy_feet.webp",
+  "youtubeTrailerId": "hFUC5adf8FE",
+  "budget": 100000000,
+  "boxOffice": 384000000,
+  "rating": 2,
+  "description": "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 10,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 105,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 323,
+      "characterName": "Mumble",
+      "characterImage": "characters/happy_feet_mumble.webp"
+    },
+    {
+      "personId": 152,
+      "characterName": "Gloria",
+      "characterImage": "characters/happy_feet_gloria.webp"
+    },
+    {
+      "personId": 453,
+      "characterName": "Memphis",
+      "characterImage": "characters/happy_feet_memphis.webp"
+    },
+    {
+      "personId": 874,
+      "characterName": "Norma Jean",
+      "characterImage": "characters/happy_feet_norma_jean.webp"
+    },
+    {
+      "personId": 454,
+      "characterName": "Noah the Elder",
+      "characterImage": "characters/happy_feet_noah_the_elder.webp"
+    },
+    {
+      "personId": 995,
+      "characterName": "Lovelace",
+      "characterImage": "characters/happy_feet_lovelace.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 12
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1553,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1554,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1555,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1553,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1556,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1557,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1553,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1558,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1551,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1559,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 15
+    },
+    {
+      "genreId": 8
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 8
+    },
+    {
+      "studioId": 31
+    }
+  ]
+}

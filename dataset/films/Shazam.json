@@ -1,0 +1,104 @@
+{
+  "$schema": "_schema.json",
+  "id": 126,
+  "title": "Shazam!",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2019-04-05T00:00:00.000Z",
+  "duration": 132,
+  "poster": "posters/shazam.webp",
+  "youtubeTrailerId": "go6GEIrcvFY",
+  "budget": 80000000,
+  "boxOffice": 356000000,
+  "rating": 1,
+  "description": "We all have a superhero inside US, it just takes a bit of magic to bring it out. In Billy Batson's case, by shouting out one word - SHAZAM! - this streetwise fourteen-year-old foster kid can turn into the adult superhero Shazam.",
+  "chapterKey": "dceu",
+  "chapterOrder": 7,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1197,
+      "characterName": "Shazam",
+      "characterImage": null
+    },
+    {
+      "personId": 297,
+      "characterName": "The Wizard",
+      "characterImage": null
+    },
+    {
+      "personId": 789,
+      "characterName": "Dr. Thaddeus Sivana",
+      "characterImage": null
+    },
+    {
+      "personId": 482,
+      "characterName": "Freddy Freeman",
+      "characterImage": null
+    },
+    {
+      "personId": 811,
+      "characterName": "Darla Dudley",
+      "characterImage": null
+    },
+    {
+      "personId": 91,
+      "characterName": "Billy Batson",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 11,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1929,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1930,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1318,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1931,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1932,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 6
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 18
+    },
+    {
+      "studioId": 8
+    }
+  ]
+}

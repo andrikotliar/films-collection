@@ -1,0 +1,167 @@
+{
+  "$schema": "_schema.json",
+  "id": 149,
+  "title": "Star Wars Episode VI: Return of the Jedi",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1983-05-25T00:00:00.000Z",
+  "duration": 131,
+  "poster": "posters/star_wars_episode_VI.webp",
+  "youtubeTrailerId": "5UfA_aKBGMc",
+  "budget": 32000000,
+  "boxOffice": 573000000,
+  "rating": 2,
+  "description": "After a daring mission to rescue Han Solo from Jabba the Hutt, the rebels dispatch to Endor to destroy a more powerful Death Star. Meanwhile, Luke struggles to help Vader back from the dark side without falling into the Emperor's trap.",
+  "chapterKey": "star-wars",
+  "chapterOrder": 8,
+  "awards": [
+    {
+      "awardId": 4,
+      "nominationId": 99,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 34,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 35,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 44,
+      "actorId": 785,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 52,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 16,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 41,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 785,
+      "characterName": "Luke Skywalker",
+      "characterImage": null
+    },
+    {
+      "personId": 431,
+      "characterName": "Han Solo",
+      "characterImage": null
+    },
+    {
+      "personId": 171,
+      "characterName": "Leia",
+      "characterImage": null
+    },
+    {
+      "personId": 130,
+      "characterName": "Lando Calrissian",
+      "characterImage": null
+    },
+    {
+      "personId": 72,
+      "characterName": "C-3PO",
+      "characterImage": "characters/star_wars_episode_vi_return_of_the_jedi_c-3po.webp"
+    },
+    {
+      "personId": 276,
+      "characterName": "Darth Vader",
+      "characterImage": "characters/star_wars_episode_vi_return_of_the_jedi_darth_vader.webp"
+    },
+    {
+      "personId": 382,
+      "characterName": "Yoda",
+      "characterImage": "characters/star_wars_episode_vi_return_of_the_jedi_yoda.webp"
+    },
+    {
+      "personId": 1249,
+      "characterName": "Boba Fett",
+      "characterImage": "characters/star_wars_episode_vi_return_of_the_boba_fett.webp"
+    },
+    {
+      "personId": 459,
+      "characterName": "The Emperor",
+      "characterImage": "characters/star_wars_episode_vi_return_of_the_jedi_the_emperor.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 22,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2004,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1993,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1709,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2005,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1563,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2006,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 16
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    },
+    {
+      "studioId": 37
+    }
+  ]
+}

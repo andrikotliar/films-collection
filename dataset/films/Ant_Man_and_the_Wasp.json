@@ -1,0 +1,124 @@
+{
+  "$schema": "_schema.json",
+  "id": 14,
+  "title": "Ant-Man and the Wasp",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2018-07-06T00:00:00.000Z",
+  "duration": 118,
+  "poster": "posters/ant_man_2.webp",
+  "youtubeTrailerId": "UUkn-enk2RU",
+  "budget": 162000000,
+  "boxOffice": 595000000,
+  "rating": 1,
+  "description": "As Scott Lang balances being both a Super Hero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
+  "chapterKey": "mcu",
+  "chapterOrder": 21,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 910,
+      "characterName": "Scott Lang / Ant-Man",
+      "characterImage": "characters/ant_man_and_the_wasp_scott_lang.webp"
+    },
+    {
+      "personId": 361,
+      "characterName": "Hope Van Dyne / New Wasp",
+      "characterImage": "characters/ant_man_and_the_wasp_hope_van_dyne.webp"
+    },
+    {
+      "personId": 828,
+      "characterName": "Luis",
+      "characterImage": null
+    },
+    {
+      "personId": 427,
+      "characterName": "Ava / Ghost",
+      "characterImage": "characters/ant_man_and_the_wasp_ava.webp"
+    },
+    {
+      "personId": 837,
+      "characterName": "Janet Van Dyne / First Wasp",
+      "characterImage": null
+    },
+    {
+      "personId": 707,
+      "characterName": "Dr. Bill Foster",
+      "characterImage": null
+    },
+    {
+      "personId": 822,
+      "characterName": "Dr. Hank Pym",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 25,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1305,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1311,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1312,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 910,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1309,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1313,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1303,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1314,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 6
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    },
+    {
+      "studioId": 4
+    }
+  ]
+}

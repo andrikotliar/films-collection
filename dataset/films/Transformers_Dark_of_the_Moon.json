@@ -1,0 +1,144 @@
+{
+  "$schema": "_schema.json",
+  "id": 218,
+  "title": "Transformers: Dark of the Moon",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2011-06-29T00:00:00.000Z",
+  "duration": 154,
+  "poster": "posters/transformers_3.webp",
+  "youtubeTrailerId": "bTIrEZM-cFE",
+  "budget": 195000000,
+  "boxOffice": 1120000000,
+  "rating": 1,
+  "description": "The Autobots learn of a Cybertronian spacecraft hidden on the moon, and race against the Decepticons to reach it and to learn its secrets.",
+  "chapterKey": "transformers",
+  "chapterOrder": 3,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1065,
+      "characterName": "Sam Witwicky",
+      "characterImage": null
+    },
+    {
+      "personId": 1009,
+      "characterName": "Carly",
+      "characterImage": null
+    },
+    {
+      "personId": 617,
+      "characterName": "Lennox",
+      "characterImage": null
+    },
+    {
+      "personId": 597,
+      "characterName": "Simmons",
+      "characterImage": null
+    },
+    {
+      "personId": 1156,
+      "characterName": "Epps",
+      "characterImage": null
+    },
+    {
+      "personId": 902,
+      "characterName": "Dylan",
+      "characterImage": null
+    },
+    {
+      "personId": 379,
+      "characterName": "Mearing",
+      "characterImage": null
+    },
+    {
+      "personId": 588,
+      "characterName": "Bruce Brazos",
+      "characterImage": null
+    },
+    {
+      "personId": 918,
+      "characterName": "Optimus Prime",
+      "characterImage": "characters/transformers_dark_of_the_moon_optimus_prime.webp"
+    },
+    {
+      "personId": 454,
+      "characterName": "Megatron",
+      "characterImage": "characters/transformers_dark_of_the_moon_megatron.webp"
+    },
+    {
+      "personId": 715,
+      "characterName": "Sentinel Prime",
+      "characterImage": "characters/transformers_dark_of_the_moon_sentinel_prime.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 7,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1275,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2333,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2330,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2331,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1918,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1971,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2332,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1465,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 15
+    },
+    {
+      "studioId": 14
+    }
+  ]
+}

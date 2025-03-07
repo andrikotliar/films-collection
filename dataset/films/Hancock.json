@@ -1,0 +1,111 @@
+{
+  "$schema": "_schema.json",
+  "id": 53,
+  "title": "Hancock",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2008-07-02T00:00:00.000Z",
+  "duration": 92,
+  "poster": "posters/hancock.webp",
+  "youtubeTrailerId": "SkX1VuXLRSc",
+  "budget": 150000000,
+  "boxOffice": 624000000,
+  "rating": 2,
+  "description": "Hancock is a superhero whose ill considered behavior regularly causes damage in the millions. He changes when the person he saves helps him improve his public image.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1178,
+      "characterName": "John Hancock",
+      "characterImage": null
+    },
+    {
+      "personId": 186,
+      "characterName": "Mary",
+      "characterImage": null
+    },
+    {
+      "personId": 524,
+      "characterName": "Ray",
+      "characterImage": null
+    },
+    {
+      "personId": 318,
+      "characterName": "Kenneth \"Red\" Parker",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 16,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1545,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1546,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1547,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1548,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1549,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1550,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1178,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1551,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1552,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 6
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 12
+    }
+  ]
+}

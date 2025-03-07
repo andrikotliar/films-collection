@@ -1,0 +1,113 @@
+{
+  "$schema": "_schema.json",
+  "id": 206,
+  "title": "The Terminator",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1984-10-26T00:00:00.000Z",
+  "duration": 107,
+  "poster": "posters/terminator_1.webp",
+  "youtubeTrailerId": "k64P4l2Wmeg",
+  "budget": 6400000,
+  "boxOffice": 40000000,
+  "rating": 2,
+  "description": "A seemingly indestructible android is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs.",
+  "chapterKey": "transporter",
+  "chapterOrder": 1,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 35,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 33,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 16,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 87,
+      "characterName": "T-800",
+      "characterImage": null
+    },
+    {
+      "personId": 820,
+      "characterName": "Kyle Reese",
+      "characterImage": null
+    },
+    {
+      "personId": 728,
+      "characterName": "Sarah Connor",
+      "characterImage": "characters/the_terminator_sarah_connor.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 7,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1288,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1288,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2258,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2258,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2050,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2051,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 60
+    },
+    {
+      "studioId": 61
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "$schema": "_schema.json",
+  "id": 147,
+  "title": "Star Wars Episode VIII: The Last Jedi",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2017-12-15T00:00:00.000Z",
+  "duration": 152,
+  "poster": "posters/star_wars_episode_VIII.webp",
+  "youtubeTrailerId": "Q0CbN8sfihY",
+  "budget": 317000000,
+  "boxOffice": 1330000000,
+  "rating": 2,
+  "description": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.",
+  "chapterKey": "star-wars",
+  "chapterOrder": 11,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 33,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 44,
+      "actorId": 785,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 48,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 238,
+      "characterName": "Rey",
+      "characterImage": null
+    },
+    {
+      "personId": 7,
+      "characterName": "Kylo Ren",
+      "characterImage": null
+    },
+    {
+      "personId": 574,
+      "characterName": "Finn",
+      "characterImage": null
+    },
+    {
+      "personId": 785,
+      "characterName": "Luke Skywalker",
+      "characterImage": null
+    },
+    {
+      "personId": 171,
+      "characterName": "Leia",
+      "characterImage": null
+    },
+    {
+      "personId": 896,
+      "characterName": "Poe Dameron",
+      "characterImage": null
+    },
+    {
+      "personId": 61,
+      "characterName": "Snoke",
+      "characterImage": "characters/star_wars_episode_viii_the_last_jedi_snoke.webp"
+    },
+    {
+      "personId": 753,
+      "characterName": "Maz Kanata",
+      "characterImage": "characters/star_wars_episode_viii_the_last_jedi_maz_kanata.webp"
+    },
+    {
+      "personId": 422,
+      "characterName": "Phasma",
+      "characterImage": "characters/star_wars_episode_viii_the_last_jedi_phasma.webp"
+    },
+    {
+      "personId": 299,
+      "characterName": "General Hux",
+      "characterImage": null
+    },
+    {
+      "personId": 701,
+      "characterName": "Vice Admiral Holdo",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 22,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1999,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1999,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1738,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2000,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1563,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2001,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 16
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    },
+    {
+      "studioId": 37
+    }
+  ]
+}

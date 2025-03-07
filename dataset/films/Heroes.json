@@ -1,0 +1,519 @@
+{
+  "$schema": "_schema.json",
+  "id": 64,
+  "title": "Heroes",
+  "type": "SERIES",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2006-09-25T00:00:00.000Z",
+  "duration": 45,
+  "poster": "posters/heroes.webp",
+  "youtubeTrailerId": null,
+  "rating": 2,
+  "description": "Ordinary people discover they possess extraordinary abilities. As they come to terms with their powers, they must navigate the mysteries surrounding their origins and the looming threat of a catastrophe that could change the world.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 6,
+      "nominationId": 138,
+      "actorId": null,
+      "comment": "\"The Second Coming\" and \"The Butterfly Effect\" episodes"
+    },
+    {
+      "awardId": 4,
+      "nominationId": 106,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 479,
+      "characterName": "Noah Bennet",
+      "characterImage": null
+    },
+    {
+      "personId": 437,
+      "characterName": "Claire Bennet",
+      "characterImage": null
+    },
+    {
+      "personId": 845,
+      "characterName": "Peter Petrelli",
+      "characterImage": null
+    },
+    {
+      "personId": 801,
+      "characterName": "Hiro Nakamura",
+      "characterImage": null
+    },
+    {
+      "personId": 1052,
+      "characterName": "Mohinder Suresh",
+      "characterImage": null
+    },
+    {
+      "personId": 417,
+      "characterName": "Matt Parkman",
+      "characterImage": null
+    },
+    {
+      "personId": 509,
+      "characterName": "Ando Masahashi",
+      "characterImage": null
+    },
+    {
+      "personId": 15,
+      "characterName": "Nathan Petrelli",
+      "characterImage": null
+    },
+    {
+      "personId": 1198,
+      "characterName": "Sylar",
+      "characterImage": null
+    },
+    {
+      "personId": 37,
+      "characterName": "Niki Sanders",
+      "characterImage": null
+    },
+    {
+      "personId": 233,
+      "characterName": "Angela Petrelli",
+      "characterImage": null
+    },
+    {
+      "personId": 92,
+      "characterName": "Sandra Bennet",
+      "characterImage": null
+    },
+    {
+      "personId": 876,
+      "characterName": "Micah Sanders",
+      "characterImage": null
+    },
+    {
+      "personId": 987,
+      "characterName": "Isaac Mendez",
+      "characterImage": null
+    },
+    {
+      "personId": 266,
+      "characterName": "Adam Monroe",
+      "characterImage": null
+    },
+    {
+      "personId": 984,
+      "characterName": "Arthur Petrelli",
+      "characterImage": null
+    },
+    {
+      "personId": 771,
+      "characterName": "Daniel Linderman",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 16,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1593,
+      "position": "CREATOR",
+      "comment": null
+    },
+    {
+      "personId": 1594,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1595,
+      "position": "DIRECTOR",
+      "comment": "11 episodes"
+    },
+    {
+      "personId": 1596,
+      "position": "DIRECTOR",
+      "comment": "12 episodes"
+    },
+    {
+      "personId": 1597,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1598,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1599,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1600,
+      "position": "DIRECTOR",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 1601,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1602,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1603,
+      "position": "DIRECTOR",
+      "comment": "6 episodes"
+    },
+    {
+      "personId": 1604,
+      "position": "DIRECTOR",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 1605,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1606,
+      "position": "DIRECTOR",
+      "comment": "5 episodes"
+    },
+    {
+      "personId": 1607,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1608,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1609,
+      "position": "DIRECTOR",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 1610,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1611,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1612,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1613,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1614,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1615,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1616,
+      "position": "DIRECTOR",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 1617,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1618,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1619,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1620,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1621,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1622,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1623,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1624,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1625,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1626,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1593,
+      "position": "WRITER",
+      "comment": "17 episodes"
+    },
+    {
+      "personId": 1627,
+      "position": "WRITER",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 1628,
+      "position": "WRITER",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 1629,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1630,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1631,
+      "position": "WRITER",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 1632,
+      "position": "WRITER",
+      "comment": "9 episodes"
+    },
+    {
+      "personId": 1633,
+      "position": "WRITER",
+      "comment": "9 episodes"
+    },
+    {
+      "personId": 1634,
+      "position": "WRITER",
+      "comment": "7 episodes"
+    },
+    {
+      "personId": 1635,
+      "position": "WRITER",
+      "comment": "8 episodes"
+    },
+    {
+      "personId": 1636,
+      "position": "WRITER",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 1637,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1638,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1639,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1640,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1641,
+      "position": "WRITER",
+      "comment": "6 episodes"
+    },
+    {
+      "personId": 1642,
+      "position": "WRITER",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 1643,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1644,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1645,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1646,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1647,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1648,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1649,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1650,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1651,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1652,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1653,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1654,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1606,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1655,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 5
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 32
+    },
+    {
+      "studioId": 33
+    },
+    {
+      "studioId": 34
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 77,
+    "seasonsTotal": 5,
+    "seasons": [
+      {
+        "number": 1,
+        "episodesCount": 23,
+        "releaseDate": "2006-09-25T00:00:00.000Z",
+        "youtubeTrailerId": "9AX6aXFdTkc",
+        "title": "Volume 1: Genesis",
+        "description": "Mohinder Suresh, a research geneticist, continues his late father's research into the biological source of the powers, while Noah Bennet represents, and is a lead agent for, a secret organization known only as \"the Company\" that wants to control, and if necessary, terminate those who are gifted. After only having a short time to come to terms with their new abilities, each of the heroes is drawn into the final showdown. They must each do their part to stop the destruction of the world that starts with an impending explosion at Kirby Plaza in New York City."
+      },
+      {
+        "number": 2,
+        "episodesCount": 11,
+        "releaseDate": "2007-09-24T00:00:00.000Z",
+        "youtubeTrailerId": "9mNGxXpAmHc",
+        "title": "Volume 2: Generations",
+        "description": "The characters continue to explore their powers while new individuals with abilities emerge. A global conspiracy and the hunt for a virus add to the intrigue as the heroes try to prevent a deadly outbreak."
+      },
+      {
+        "number": 3,
+        "episodesCount": 18,
+        "releaseDate": "2008-09-22T00:00:00.000Z",
+        "youtubeTrailerId": "i1VA_aWyrPI",
+        "title": "Volume 3. Part 1: Villains",
+        "description": "The heroes face new challenges as they confront government scrutiny and a malevolent villain, Arthur Petrelli. The discovery of dangerous abilities and a divided group of heroes complicate their mission to save the world from powerful threats."
+      },
+      {
+        "number": 4,
+        "episodesCount": 13,
+        "releaseDate": "2009-02-02T00:00:00.000Z",
+        "youtubeTrailerId": "mTzPPIEUFEs",
+        "title": "Volume 3. Part 2: Fugitives",
+        "description": "The heroes continue their journey, facing government forces and an ever-growing threat. A new organization, Building 26, seeks to control those with abilities, forcing the heroes into a fugitive lifestyle as they strive to protect themselves and others."
+      },
+      {
+        "number": 5,
+        "episodesCount": 12,
+        "releaseDate": "2009-09-21T00:00:00.000Z",
+        "youtubeTrailerId": "mTzPPIEUFEs",
+        "title": "Volume 4: Redemption",
+        "description": "The heroes deals with the carnage caused by a carnival of people with abilities. They must unite to thwart the carnival's leader, Samuel Sullivan, and face their destinies in an epic showdown."
+      }
+    ]
+  }
+}

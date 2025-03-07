@@ -1,0 +1,153 @@
+{
+  "$schema": "_schema.json",
+  "id": 124,
+  "title": "Rogue One",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2016-12-16T00:00:00.000Z",
+  "duration": 133,
+  "poster": "posters/rogue_one.webp",
+  "youtubeTrailerId": "frdj1zb9sMY",
+  "budget": 200000000,
+  "boxOffice": 1060000000,
+  "rating": 3,
+  "description": "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans.",
+  "chapterKey": "star-wars",
+  "chapterOrder": 5,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 35,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 23,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 41,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 369,
+      "characterName": "Jyn Erso",
+      "characterImage": null
+    },
+    {
+      "personId": 293,
+      "characterName": "Cassian Andor",
+      "characterImage": null
+    },
+    {
+      "personId": 24,
+      "characterName": "K-2SO",
+      "characterImage": "characters/rogue_one_k_2so.webp"
+    },
+    {
+      "personId": 310,
+      "characterName": "Chirrut Imwe",
+      "characterImage": null
+    },
+    {
+      "personId": 1173,
+      "characterName": "Baze Malbus",
+      "characterImage": null
+    },
+    {
+      "personId": 110,
+      "characterName": "Orson Krennic",
+      "characterImage": null
+    },
+    {
+      "personId": 420,
+      "characterName": "Governor Tarkin",
+      "characterImage": null
+    },
+    {
+      "personId": 377,
+      "characterName": "Saw Gerrera",
+      "characterImage": null
+    },
+    {
+      "personId": 762,
+      "characterName": "Galen Erso",
+      "characterImage": null
+    },
+    {
+      "personId": 1238,
+      "characterName": "Bodhi Rook",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 22,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1919,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1920,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1921,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1922,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1923,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1442,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1448,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 16
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 37
+    },
+    {
+      "studioId": 1
+    }
+  ]
+}

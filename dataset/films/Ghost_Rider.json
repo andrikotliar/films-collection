@@ -1,0 +1,134 @@
+{
+  "$schema": "_schema.json",
+  "id": 49,
+  "title": "Ghost Rider",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2007-02-16T00:00:00.000Z",
+  "duration": 110,
+  "poster": "posters/ghost_rider.webp",
+  "youtubeTrailerId": "8M0lLJfNPds",
+  "budget": 110000000,
+  "boxOffice": 228000000,
+  "rating": 1,
+  "description": "When motorcycle rider Johnny Blaze sells his soul to the Devil to save his father's life, he is transformed into the Ghost Rider, the Devil's own bounty hunter, and is sent to hunt down sinners.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 873,
+      "characterName": "Johnny Blaze / Ghost Rider",
+      "characterImage": "characters/ghost_rider_johnny_blaze.webp"
+    },
+    {
+      "personId": 359,
+      "characterName": "Roxanne Simpson",
+      "characterImage": null
+    },
+    {
+      "personId": 921,
+      "characterName": "Mephistopheles",
+      "characterImage": null
+    },
+    {
+      "personId": 1174,
+      "characterName": "Blackheart",
+      "characterImage": null
+    },
+    {
+      "personId": 307,
+      "characterName": "Mack",
+      "characterImage": null
+    },
+    {
+      "personId": 706,
+      "characterName": "Gressil",
+      "characterImage": null
+    },
+    {
+      "personId": 248,
+      "characterName": "Wallow",
+      "characterImage": null
+    },
+    {
+      "personId": 802,
+      "characterName": "Abigor",
+      "characterImage": null
+    },
+    {
+      "personId": 146,
+      "characterName": "Barton Blaze",
+      "characterImage": null
+    },
+    {
+      "personId": 1240,
+      "characterName": "Caretaker",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 16,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1529,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1529,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1530,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1531,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1532,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1533,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1534,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 14
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 10
+    },
+    {
+      "studioId": 12
+    }
+  ]
+}

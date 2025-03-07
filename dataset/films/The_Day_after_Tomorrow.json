@@ -1,0 +1,152 @@
+{
+  "$schema": "_schema.json",
+  "id": 169,
+  "title": "The Day after Tomorrow",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2004-05-24T00:00:00.000Z",
+  "duration": 123,
+  "poster": "posters/day_after_tomorrow.webp",
+  "youtubeTrailerId": "Ku_IseK3xTc",
+  "budget": 125000000,
+  "boxOffice": 544000000,
+  "rating": 2,
+  "description": "Jack Hall, paleoclimatologist, must make a daring trek from Washington, D.C. to New York City to reach his son, trapped in the cross-hairs of a sudden international storm which plunges the planet into a new Ice Age.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 4,
+      "nominationId": 101,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 192,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 9,
+      "nominationId": 210,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 286,
+      "characterName": "Jack Hall",
+      "characterImage": null
+    },
+    {
+      "personId": 498,
+      "characterName": "Sam Hall",
+      "characterImage": null
+    },
+    {
+      "personId": 349,
+      "characterName": "Laura Chapman",
+      "characterImage": null
+    },
+    {
+      "personId": 262,
+      "characterName": "Jason Evans",
+      "characterImage": null
+    },
+    {
+      "personId": 535,
+      "characterName": "Frank Harris",
+      "characterImage": null
+    },
+    {
+      "personId": 1051,
+      "characterName": "Dr. Lucy Hall",
+      "characterImage": null
+    },
+    {
+      "personId": 95,
+      "characterName": "J.D.",
+      "characterImage": null
+    },
+    {
+      "personId": 84,
+      "characterName": "Brian Parks",
+      "characterImage": null
+    },
+    {
+      "personId": 1102,
+      "characterName": "Janet Tokada",
+      "characterImage": null
+    },
+    {
+      "personId": 1041,
+      "characterName": "Parker",
+      "characterImage": null
+    },
+    {
+      "personId": 458,
+      "characterName": "Terry Rapson",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 18,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1261,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1261,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2146,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1261,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1263,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1262,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2147,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 11
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    }
+  ]
+}

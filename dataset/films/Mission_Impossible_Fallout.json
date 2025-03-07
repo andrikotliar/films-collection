@@ -1,0 +1,138 @@
+{
+  "$schema": "_schema.json",
+  "id": 104,
+  "title": "Mission: Impossible - Fallout",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2018-07-27T00:00:00.000Z",
+  "duration": 147,
+  "poster": "posters/mi_6.webp",
+  "youtubeTrailerId": "wb49-oV0F78",
+  "budget": 178000000,
+  "boxOffice": 791000000,
+  "rating": 2,
+  "description": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.",
+  "chapterKey": "missin-impossible",
+  "chapterOrder": 6,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 51,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 1129,
+      "characterName": "Ethan Hunt",
+      "characterImage": null
+    },
+    {
+      "personId": 443,
+      "characterName": "August Walker",
+      "characterImage": null
+    },
+    {
+      "personId": 1166,
+      "characterName": "Luther Stickell",
+      "characterImage": null
+    },
+    {
+      "personId": 1070,
+      "characterName": "Benji Dunn",
+      "characterImage": null
+    },
+    {
+      "personId": 954,
+      "characterName": "Ilsa Faust",
+      "characterImage": null
+    },
+    {
+      "personId": 1047,
+      "characterName": "Solomon Lane",
+      "characterImage": null
+    },
+    {
+      "personId": 62,
+      "characterName": "Erika Sloane",
+      "characterImage": null
+    },
+    {
+      "personId": 1159,
+      "characterName": "The White Widow",
+      "characterImage": null
+    },
+    {
+      "personId": 836,
+      "characterName": "Julia",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 6,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1449,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1449,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1129,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1843,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1449,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1844,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1397,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1845,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 14
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "$schema": "_schema.json",
+  "id": 36,
+  "title": "Doctor Strange",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2016-11-04T00:00:00.000Z",
+  "duration": 115,
+  "poster": "posters/doctor_strange.webp",
+  "youtubeTrailerId": "HSzx-zryEgM",
+  "budget": 165000000,
+  "boxOffice": 678000000,
+  "rating": 3,
+  "description": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
+  "chapterKey": "mcu",
+  "chapterOrder": 19,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 42,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 36,
+      "actorId": 1118,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 114,
+      "characterName": "Dr. Stephen Strange",
+      "characterImage": null
+    },
+    {
+      "personId": 191,
+      "characterName": "Mordo",
+      "characterImage": null
+    },
+    {
+      "personId": 939,
+      "characterName": "Dr. Christine Palmer",
+      "characterImage": null
+    },
+    {
+      "personId": 116,
+      "characterName": "Wong",
+      "characterImage": null
+    },
+    {
+      "personId": 762,
+      "characterName": "Kaecilius",
+      "characterImage": null
+    },
+    {
+      "personId": 1118,
+      "characterName": "The Ancient One",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 25,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1439,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1440,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1439,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1441,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1309,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1442,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1406,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    },
+    {
+      "studioId": 4
+    }
+  ]
+}

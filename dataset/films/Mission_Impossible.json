@@ -1,0 +1,126 @@
+{
+  "$schema": "_schema.json",
+  "id": 102,
+  "title": "Mission: Impossible",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1996-05-22T00:00:00.000Z",
+  "duration": 110,
+  "poster": "posters/mi_1.webp",
+  "youtubeTrailerId": "Ohws8y572KE",
+  "budget": 80000000,
+  "boxOffice": 458000000,
+  "rating": 2,
+  "description": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization.",
+  "chapterKey": "missin-impossible",
+  "chapterOrder": 1,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1129,
+      "characterName": "Ethan Hunt",
+      "characterImage": null
+    },
+    {
+      "personId": 603,
+      "characterName": "Jim Phelps",
+      "characterImage": null
+    },
+    {
+      "personId": 347,
+      "characterName": "Claire",
+      "characterImage": null
+    },
+    {
+      "personId": 444,
+      "characterName": "Kittridge",
+      "characterImage": null
+    },
+    {
+      "personId": 536,
+      "characterName": "Krieger",
+      "characterImage": null
+    },
+    {
+      "personId": 1166,
+      "characterName": "Luther",
+      "characterImage": null
+    },
+    {
+      "personId": 689,
+      "characterName": "Sarah Davies",
+      "characterImage": null
+    },
+    {
+      "personId": 1160,
+      "characterName": "Max",
+      "characterImage": null
+    },
+    {
+      "personId": 465,
+      "characterName": "Hannah",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 6,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1837,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1702,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1838,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1129,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1839,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1828,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1840,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 14
+    }
+  ]
+}

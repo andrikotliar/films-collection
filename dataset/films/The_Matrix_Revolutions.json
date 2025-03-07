@@ -1,0 +1,114 @@
+{
+  "$schema": "_schema.json",
+  "id": 196,
+  "title": "The Matrix Revolutions",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2003-11-05T00:00:00.000Z",
+  "duration": 129,
+  "poster": "posters/matrix_3.webp",
+  "youtubeTrailerId": "hMbexEPAOQI",
+  "budget": 110000000,
+  "boxOffice": 427000000,
+  "rating": 3,
+  "description": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith.",
+  "chapterKey": "matrix",
+  "chapterOrder": 3,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 657,
+      "characterName": "Neo",
+      "characterImage": null
+    },
+    {
+      "personId": 707,
+      "characterName": "Morpheus",
+      "characterImage": null
+    },
+    {
+      "personId": 173,
+      "characterName": "Trinity",
+      "characterImage": null
+    },
+    {
+      "personId": 454,
+      "characterName": "Agent Smith",
+      "characterImage": null
+    },
+    {
+      "personId": 490,
+      "characterName": "Niobe",
+      "characterImage": null
+    },
+    {
+      "personId": 433,
+      "characterName": "Lock",
+      "characterImage": null
+    },
+    {
+      "personId": 430,
+      "characterName": "Link",
+      "characterImage": null
+    },
+    {
+      "personId": 795,
+      "characterName": "Oracle",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 14,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 12
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2230,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2230,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1901,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1743,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1296,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 8
+    }
+  ]
+}

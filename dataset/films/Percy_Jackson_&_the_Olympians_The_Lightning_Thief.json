@@ -1,0 +1,150 @@
+{
+  "$schema": "_schema.json",
+  "id": 114,
+  "title": "Percy Jackson & the Olympians: The Lightning Thief",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2010-02-12T00:00:00.000Z",
+  "duration": 95,
+  "poster": "posters/percy_jackson.webp",
+  "youtubeTrailerId": "xko1Mx5w4tg",
+  "budget": 95000000,
+  "boxOffice": 226000000,
+  "rating": 2,
+  "description": "A teenager discovers he's the descendant of a Greek god and sets out on an adventure to settle an on-going battle between the gods.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 735,
+      "characterName": "Percy Jackson",
+      "characterImage": null
+    },
+    {
+      "personId": 143,
+      "characterName": "Grover",
+      "characterImage": null
+    },
+    {
+      "personId": 34,
+      "characterName": "Annabeth",
+      "characterImage": null
+    },
+    {
+      "personId": 496,
+      "characterName": "Luke",
+      "characterImage": null
+    },
+    {
+      "personId": 1045,
+      "characterName": "Zeus",
+      "characterImage": null
+    },
+    {
+      "personId": 932,
+      "characterName": "Mr. Brunner / Chiron",
+      "characterImage": null
+    },
+    {
+      "personId": 1091,
+      "characterName": "Hades",
+      "characterImage": null
+    },
+    {
+      "personId": 1004,
+      "characterName": "Persephone",
+      "characterImage": null
+    },
+    {
+      "personId": 813,
+      "characterName": "Athena",
+      "characterImage": null
+    },
+    {
+      "personId": 176,
+      "characterName": "Sally Jackson",
+      "characterImage": null
+    },
+    {
+      "personId": 677,
+      "characterName": "Poseidon",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 2
+    },
+    {
+      "countryId": 3
+    },
+    {
+      "countryId": 12
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1560,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1885,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1886,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1560,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1887,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1888,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1303,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1889,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    }
+  ]
+}

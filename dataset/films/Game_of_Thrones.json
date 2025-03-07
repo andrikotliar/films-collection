@@ -1,0 +1,562 @@
+{
+  "$schema": "_schema.json",
+  "id": 48,
+  "title": "Game of Thrones",
+  "type": "SERIES",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2011-04-17T00:00:00.000Z",
+  "duration": 60,
+  "poster": "posters/got.webp",
+  "youtubeTrailerId": null,
+  "rating": 2,
+  "description": "Game of Thrones is an epic fantasy series set in the fictional continents of Westeros and Essos, where noble families vie for control of the Iron Throne and the Seven Kingdoms. As political intrigue, betrayal, and war unfold, an ancient threat emerges beyond the Wall—the White Walkers, an undead army led by the Night King. Meanwhile, Daenerys Targaryen, the last heir of a deposed dynasty, rises with dragons to reclaim her birthright. Jon Snow, a bastard raised in the North, discovers his true lineage and plays a crucial role in the battle between the living and the dead. As alliances shift and power struggles escalate, the fate of Westeros is ultimately decided in a brutal and unpredictable conclusion.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 920,
+      "characterName": "Tyrion Lannister",
+      "characterImage": null
+    },
+    {
+      "personId": 712,
+      "characterName": "Cersei Lannister",
+      "characterImage": null
+    },
+    {
+      "personId": 339,
+      "characterName": "Daenerys Targaryen",
+      "characterImage": null
+    },
+    {
+      "personId": 685,
+      "characterName": "Jon Snow",
+      "characterImage": null
+    },
+    {
+      "personId": 1077,
+      "characterName": "Sansa Stark",
+      "characterImage": null
+    },
+    {
+      "personId": 768,
+      "characterName": "Arya Stark",
+      "characterImage": null
+    },
+    {
+      "personId": 875,
+      "characterName": "Jaime Lannister",
+      "characterImage": null
+    },
+    {
+      "personId": 456,
+      "characterName": "Jorah Mormont",
+      "characterImage": null
+    },
+    {
+      "personId": 575,
+      "characterName": "Samwell Tarly",
+      "characterImage": null
+    },
+    {
+      "personId": 35,
+      "characterName": "Theon Greyjoy",
+      "characterImage": null
+    },
+    {
+      "personId": 225,
+      "characterName": "Lord Varys",
+      "characterImage": null
+    },
+    {
+      "personId": 721,
+      "characterName": "Davos Seaworth",
+      "characterImage": null
+    },
+    {
+      "personId": 422,
+      "characterName": "Brienne of Tarth",
+      "characterImage": null
+    },
+    {
+      "personId": 18,
+      "characterName": "Petyr 'Littlefinger' Baelish",
+      "characterImage": null
+    },
+    {
+      "personId": 467,
+      "characterName": "Bran Stark",
+      "characterImage": null
+    },
+    {
+      "personId": 1002,
+      "characterName": "Sandor 'The Hound' Clegane",
+      "characterImage": null
+    },
+    {
+      "personId": 867,
+      "characterName": "Missandei",
+      "characterImage": null
+    },
+    {
+      "personId": 554,
+      "characterName": "Bronn",
+      "characterImage": null
+    },
+    {
+      "personId": 250,
+      "characterName": "Podrick Payne",
+      "characterImage": null
+    },
+    {
+      "personId": 488,
+      "characterName": "Grey Worm",
+      "characterImage": null
+    },
+    {
+      "personId": 167,
+      "characterName": "Melisandre",
+      "characterImage": null
+    },
+    {
+      "personId": 180,
+      "characterName": "Tywin Lannister",
+      "characterImage": null
+    },
+    {
+      "personId": 863,
+      "characterName": "Margaery Tyrell",
+      "characterImage": null
+    },
+    {
+      "personId": 483,
+      "characterName": "Joffrey Baratheon",
+      "characterImage": null
+    },
+    {
+      "personId": 835,
+      "characterName": "Catelyn Stark",
+      "characterImage": null
+    },
+    {
+      "personId": 1082,
+      "characterName": "Stannis Baratheon",
+      "characterImage": null
+    },
+    {
+      "personId": 688,
+      "characterName": "Hodor",
+      "characterImage": null
+    },
+    {
+      "personId": 971,
+      "characterName": "Robb Stark",
+      "characterImage": null
+    },
+    {
+      "personId": 473,
+      "characterName": "Ramsay Bolton",
+      "characterImage": null
+    },
+    {
+      "personId": 933,
+      "characterName": "Euron Greyjoy",
+      "characterImage": null
+    },
+    {
+      "personId": 290,
+      "characterName": "Olenna Tyrell",
+      "characterImage": null
+    },
+    {
+      "personId": 280,
+      "characterName": "Tommen Baratheon",
+      "characterImage": null
+    },
+    {
+      "personId": 399,
+      "characterName": "Yara Greyjoy",
+      "characterImage": null
+    },
+    {
+      "personId": 89,
+      "characterName": "Rickon Stark",
+      "characterImage": null
+    },
+    {
+      "personId": 1045,
+      "characterName": "Eddard 'Ned' Stark",
+      "characterImage": null
+    },
+    {
+      "personId": 781,
+      "characterName": "Robert Baratheon",
+      "characterImage": null
+    },
+    {
+      "personId": 1169,
+      "characterName": "The Night King",
+      "characterImage": null
+    },
+    {
+      "personId": 1006,
+      "characterName": "Ygritte",
+      "characterImage": null
+    },
+    {
+      "personId": 428,
+      "characterName": "Gilly",
+      "characterImage": null
+    },
+    {
+      "personId": 690,
+      "characterName": "Tormund Giantsbane",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 2
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1486,
+      "position": "CREATOR",
+      "comment": null
+    },
+    {
+      "personId": 1487,
+      "position": "CREATOR",
+      "comment": null
+    },
+    {
+      "personId": 1488,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1489,
+      "position": "DIRECTOR",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 1490,
+      "position": "DIRECTOR",
+      "comment": "5 episodes"
+    },
+    {
+      "personId": 1491,
+      "position": "DIRECTOR",
+      "comment": "7 episodes"
+    },
+    {
+      "personId": 1492,
+      "position": "DIRECTOR",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 1493,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1494,
+      "position": "DIRECTOR",
+      "comment": "9 episodes"
+    },
+    {
+      "personId": 1495,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1486,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1496,
+      "position": "DIRECTOR",
+      "comment": "6 episodes"
+    },
+    {
+      "personId": 1497,
+      "position": "DIRECTOR",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 1487,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1498,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1499,
+      "position": "DIRECTOR",
+      "comment": "6 episodes"
+    },
+    {
+      "personId": 1500,
+      "position": "DIRECTOR",
+      "comment": "6 episodes"
+    },
+    {
+      "personId": 1501,
+      "position": "DIRECTOR",
+      "comment": "6 episodes"
+    },
+    {
+      "personId": 1502,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1503,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1504,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1505,
+      "position": "WRITER",
+      "comment": "2 episodes (written by), author of the original book \"A Song of Ice and Fire\""
+    },
+    {
+      "personId": 1486,
+      "position": "WRITER",
+      "comment": "13 episodes"
+    },
+    {
+      "personId": 1487,
+      "position": "WRITER",
+      "comment": "13 episodes"
+    },
+    {
+      "personId": 1506,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1507,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1508,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1509,
+      "position": "WRITER",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 1510,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1511,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1512,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1513,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1514,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1461,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1515,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1516,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1517,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1518,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1519,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1520,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1521,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1522,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1492,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1523,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1524,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1525,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1526,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1527,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1528,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 5
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 26
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 73,
+    "seasonsTotal": 8,
+    "seasons": [
+      {
+        "number": 1,
+        "episodesCount": 10,
+        "releaseDate": "2011-04-17T00:00:00.000Z",
+        "youtubeTrailerId": "gcTkNV5Vg1E",
+        "title": null,
+        "description": "The action begins in the unified Seven Kingdoms of Westeros as the long summer ends and winter draws near. Lord Eddard Stark is asked by his old friend, King Robert Baratheon, to serve as the Hand of the King following the death of the previous incumbent, Eddard's mentor Jon Arryn. Eddard is reluctant but receives intelligence suggesting that Jon was murdered. Eddard accepts Robert's offer, planning to use his position and authority to investigate the alleged murder. Meanwhile, on the eastern continent of Essos, the exiled children of House Targaryen, which Robert destroyed to claim the throne, are plotting to return to Westeros and unseat the 'usurper'. To this end, Viserys Targaryen arranges the marriage of his sister Daenerys to Khal Drogo, the leader of 40,000 Dothraki warriors, in return for the use of his warriors in invading Westeros. For her part, Daenerys just wants to find a safe refuge far away from King Robert's assassins and her brother's scheming ambition."
+      },
+      {
+        "number": 2,
+        "episodesCount": 10,
+        "releaseDate": "2012-04-01T00:00:00.000Z",
+        "youtubeTrailerId": "AlhHGUfCYw4",
+        "title": null,
+        "description": "War rages across Westeros as five kings lay claim to the Iron Throne. Robb Stark seeks independence for the North, Stannis Baratheon battles for the throne, and Daenerys Targaryen seeks allies to reclaim her birthright. The shadow of an ancient threat looms larger in the North."
+      },
+      {
+        "number": 3,
+        "episodesCount": 10,
+        "releaseDate": "2013-03-31T00:00:00.000Z",
+        "youtubeTrailerId": "nblUgAMoOvU",
+        "title": null,
+        "description": "The struggle for power intensifies as chaos reigns in the Seven Kingdoms. Jon Snow explores beyond the Wall, while the Lannisters and Starks continue their deadly feud. Daenerys grows in strength and seeks an army to conquer Westeros, while a looming supernatural threat becomes more apparent."
+      },
+      {
+        "number": 4,
+        "episodesCount": 10,
+        "releaseDate": "2014-04-06T00:00:00.000Z",
+        "youtubeTrailerId": "aj9x_Xea6cg",
+        "title": null,
+        "description": "The War of the Five Kings begins to wind down, but new threats emerge. Tyrion Lannister faces trial for his life, Jon Snow navigates leadership at the Wall, and Daenerys consolidates her rule in Slaver's Bay. Dark and powerful enemies continue to rise in Westeros."
+      },
+      {
+        "number": 5,
+        "episodesCount": 10,
+        "releaseDate": "2015-04-12T00:00:00.000Z",
+        "youtubeTrailerId": "F9Bo89m2f6g",
+        "title": null,
+        "description": "Amidst the ongoing power struggles and machinations for the Iron Throne, Jon Snow becomes Lord Commander, Cersei faces her own challenges in King's Landing, and Daenerys contends with rebellion in Meereen. The White Walkers pose an increasingly dire threat to the realm."
+      },
+      {
+        "number": 6,
+        "episodesCount": 10,
+        "releaseDate": "2016-04-24T00:00:00.000Z",
+        "youtubeTrailerId": "yu8eRaq1FUM",
+        "title": null,
+        "description": "The battle for control of the Seven Kingdoms escalates as Jon Snow and Sansa Stark seek allies, Daenerys sails for Westeros, and Cersei consolidates power in King's Landing. The threat of the White Walkers becomes a central concern, and prophecies and destinies are fulfilled."
+      },
+      {
+        "number": 7,
+        "episodesCount": 7,
+        "releaseDate": "2017-07-16T00:00:00.000Z",
+        "youtubeTrailerId": "giYeaKsXnsI",
+        "title": null,
+        "description": "The Great War looms as Daenerys and her allies set their sights on the Iron Throne. Jon Snow, now recognized as a Targaryen, must unite Westeros against the White Walker threat. Cersei Lannister retains her grip on King's Landing, creating a complex web of alliances and betrayals."
+      },
+      {
+        "number": 8,
+        "episodesCount": 6,
+        "releaseDate": "2019-04-14T00:00:00.000Z",
+        "youtubeTrailerId": "rlR4PJn8b8I",
+        "title": null,
+        "description": "The battle for the Iron Throne reaches its climax as Daenerys, Jon Snow, and others confront their destinies. The White Walkers advance, and the living must unite against the impending doom. The fate of Westeros and its rulers is decided in a series of epic confrontations."
+      }
+    ]
+  }
+}

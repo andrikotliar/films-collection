@@ -1,0 +1,148 @@
+{
+  "$schema": "_schema.json",
+  "id": 146,
+  "title": "Star Wars Episode I: The Phantom Menace",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1999-05-19T00:00:00.000Z",
+  "duration": 136,
+  "poster": "posters/star_wars_episode_I.webp",
+  "youtubeTrailerId": "bD7bpG-zDJQ",
+  "budget": 115000000,
+  "boxOffice": 1020000000,
+  "rating": 2,
+  "description": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their old glory.",
+  "chapterKey": "star-wars",
+  "chapterOrder": 1,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 52,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 41,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 192,
+      "actorId": null,
+      "comment": "The pod race"
+    }
+  ],
+  "cast": [
+    {
+      "personId": 724,
+      "characterName": "Qui-Gon Jinn",
+      "characterImage": null
+    },
+    {
+      "personId": 363,
+      "characterName": "Obi-Wan Kenobi",
+      "characterImage": null
+    },
+    {
+      "personId": 864,
+      "characterName": "Padme",
+      "characterImage": null
+    },
+    {
+      "personId": 500,
+      "characterName": "Anakin Skywalker",
+      "characterImage": null
+    },
+    {
+      "personId": 459,
+      "characterName": "Senator Palpatine",
+      "characterImage": null
+    },
+    {
+      "personId": 915,
+      "characterName": "Shmi Skywalker",
+      "characterImage": null
+    },
+    {
+      "personId": 16,
+      "characterName": "Jar Jar Binks",
+      "characterImage": "characters/star_wars_episode_i_the_phantom_menace_jar_jar_binks.webp"
+    },
+    {
+      "personId": 72,
+      "characterName": "C-3PO",
+      "characterImage": "characters/star_wars_episode_i_the_phantom_menace_c3po"
+    },
+    {
+      "personId": 667,
+      "characterName": "R2-D2",
+      "characterImage": "characters/star_wars_episode_i_the_phantom_menace_r2d2"
+    },
+    {
+      "personId": 382,
+      "characterName": "Yoda",
+      "characterImage": "characters/star_wars_episode_i_the_phantom_menace_yoda"
+    },
+    {
+      "personId": 949,
+      "characterName": "Darth Maul",
+      "characterImage": "characters/star_wars_episode_i_the_phantom_menace_darth_maul.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 22,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1993,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1993,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1994,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1563,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1995,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 16
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    },
+    {
+      "studioId": 37
+    }
+  ]
+}

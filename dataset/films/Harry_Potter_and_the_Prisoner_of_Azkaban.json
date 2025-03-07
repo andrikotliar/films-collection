@@ -1,0 +1,134 @@
+{
+  "$schema": "_schema.json",
+  "id": 61,
+  "title": "Harry Potter and the Prisoner of Azkaban",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2004-06-04T00:00:00.000Z",
+  "duration": 142,
+  "poster": "posters/harry_potter_3.webp",
+  "youtubeTrailerId": "lAxgztbYDbs",
+  "budget": 130000000,
+  "boxOffice": 797000000,
+  "rating": 3,
+  "description": "It's Harry's third year at Hogwarts; not only does he have a new \"Defense Against the Dark Arts\" teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry.",
+  "chapterKey": "harry-potter",
+  "chapterOrder": 3,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 251,
+      "characterName": "Harry Potter",
+      "characterImage": "characters/harry_potter_and_the_prisoner_of_azkaban_harry_potter.webp"
+    },
+    {
+      "personId": 1014,
+      "characterName": "Ron Weasley",
+      "characterImage": "characters/harry_potter_and_the_prisoner_of_azkaban_ron_weasley.webp"
+    },
+    {
+      "personId": 345,
+      "characterName": "Hermione Granger",
+      "characterImage": "characters/harry_potter_and_the_prisoner_of_azkaban_hermione_granger.webp"
+    },
+    {
+      "personId": 395,
+      "characterName": "Sirius Black",
+      "characterImage": null
+    },
+    {
+      "personId": 970,
+      "characterName": "Albus Dumbledore",
+      "characterImage": null
+    },
+    {
+      "personId": 981,
+      "characterName": "Rubeus Hagrid",
+      "characterImage": null
+    },
+    {
+      "personId": 1130,
+      "characterName": "Draco Malfoy",
+      "characterImage": null
+    },
+    {
+      "personId": 22,
+      "characterName": "Severus Snape",
+      "characterImage": null
+    },
+    {
+      "personId": 278,
+      "characterName": "Professor Lupin",
+      "characterImage": null
+    },
+    {
+      "personId": 1246,
+      "characterName": "Peter Pettigrew",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 2,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 2
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1576,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1561,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1562,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1560,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1577,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1563,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1578,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 8
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "$schema": "_schema.json",
+  "id": 88,
+  "title": "Jurassic Park III",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2001-07-18T00:00:00.000Z",
+  "duration": 92,
+  "poster": "posters/jurassic_park_3.webp",
+  "youtubeTrailerId": "gjIaV6CU0wA",
+  "budget": 93000000,
+  "boxOffice": 368000000,
+  "rating": 1,
+  "description": "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants.",
+  "chapterKey": "jurassic-park",
+  "chapterOrder": 3,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1031,
+      "characterName": "Dr. Alan Grant",
+      "characterImage": null
+    },
+    {
+      "personId": 1181,
+      "characterName": "Paul Kirby",
+      "characterImage": null
+    },
+    {
+      "personId": 1157,
+      "characterName": "Amanda Kirby",
+      "characterImage": null
+    },
+    {
+      "personId": 32,
+      "characterName": "Billy Brennan",
+      "characterImage": null
+    },
+    {
+      "personId": 1152,
+      "characterName": "Eric Kirby",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 9,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1400,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1740,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1741,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1742,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1382,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1738,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1743,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1401,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 13
+    },
+    {
+      "studioId": 39
+    }
+  ]
+}

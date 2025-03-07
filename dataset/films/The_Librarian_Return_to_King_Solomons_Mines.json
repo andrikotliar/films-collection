@@ -1,0 +1,116 @@
+{
+  "$schema": "_schema.json",
+  "id": 187,
+  "title": "The Librarian: Return to King Solomon's Mines",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2006-12-03T00:00:00.000Z",
+  "duration": 95,
+  "poster": "posters/librarian_2.webp",
+  "youtubeTrailerId": "ansvc2Muxr0",
+  "rating": 1,
+  "description": "Librarian-turned-adventurer Flynn Carsen endeavors to find King Solomon's mines.",
+  "chapterKey": "librarian",
+  "chapterOrder": 2,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 67,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 879,
+      "characterName": "Flynn Carsen",
+      "characterImage": null
+    },
+    {
+      "personId": 391,
+      "characterName": "Emily Davenport",
+      "characterImage": null
+    },
+    {
+      "personId": 133,
+      "characterName": "Judson",
+      "characterImage": null
+    },
+    {
+      "personId": 518,
+      "characterName": "Charlene",
+      "characterImage": null
+    },
+    {
+      "personId": 353,
+      "characterName": "General Samir",
+      "characterImage": null
+    },
+    {
+      "personId": 425,
+      "characterName": "Jomo",
+      "characterImage": null
+    },
+    {
+      "personId": 1199,
+      "characterName": "Tommy Yellow Hawk",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 27,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2203,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2204,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2212,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 879,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2206,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2213,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 2
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 59
+    }
+  ]
+}

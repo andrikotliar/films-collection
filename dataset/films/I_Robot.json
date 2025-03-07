@@ -1,0 +1,125 @@
+{
+  "$schema": "_schema.json",
+  "id": 70,
+  "title": "I, Robot",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2004-07-16T00:00:00.000Z",
+  "duration": 115,
+  "poster": "posters/i_robot.webp",
+  "youtubeTrailerId": "rL6RRIOZyCM",
+  "budget": 120000000,
+  "boxOffice": 347000000,
+  "rating": 3,
+  "description": "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1178,
+      "characterName": "Del Spooner",
+      "characterImage": null
+    },
+    {
+      "personId": 150,
+      "characterName": "Susan Calvin",
+      "characterImage": null
+    },
+    {
+      "personId": 24,
+      "characterName": "Sonny",
+      "characterImage": "characters/i_robot_sonny.webp"
+    },
+    {
+      "personId": 503,
+      "characterName": "Dr. Alfred Lanning",
+      "characterImage": null
+    },
+    {
+      "personId": 155,
+      "characterName": "Lawrence Robertson",
+      "characterImage": null
+    },
+    {
+      "personId": 373,
+      "characterName": "V.I.K.I.",
+      "characterImage": "characters/i_robot_viki.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 7,
+      "order": null
+    },
+    {
+      "collectionId": 21,
+      "order": 5
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1673,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1674,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1548,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1675,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1676,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1677,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1678,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1278,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1679,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "$schema": "_schema.json",
+  "id": 160,
+  "title": "The Amazing Spider-Man 2: Rise of Electro",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2014-05-02T00:00:00.000Z",
+  "duration": 142,
+  "poster": "posters/amazing_spider_man_2.webp",
+  "youtubeTrailerId": "nbp3Ra3Yp74",
+  "budget": 200000000,
+  "boxOffice": 709000000,
+  "rating": 2,
+  "description": "When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones.",
+  "chapterKey": "amazing-spider-man",
+  "chapterOrder": 2,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 57,
+      "characterName": "Spider-Man / Peter Parker",
+      "characterImage": "characters/the_amazing_spider_man_2_rise_of_electro_spider-man.webp"
+    },
+    {
+      "personId": 344,
+      "characterName": "Gwen Stacy",
+      "characterImage": null
+    },
+    {
+      "personId": 517,
+      "characterName": "Electro / Max Dillon",
+      "characterImage": "characters/the_amazing_spider_man_2_rise_of_electro_electro.webp"
+    },
+    {
+      "personId": 243,
+      "characterName": "Green Goblin / Harry Osborn",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 16,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2132,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1851,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1852,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2135,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1530,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2134,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1383,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2136,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2137,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2138,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1389,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2139,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2140,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1730,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 12
+    },
+    {
+      "studioId": 5
+    }
+  ]
+}

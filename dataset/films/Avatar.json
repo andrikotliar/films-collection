@@ -1,0 +1,286 @@
+{
+  "$schema": "_schema.json",
+  "id": 2,
+  "title": "Avatar",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2009-12-18T00:00:00.000Z",
+  "duration": 162,
+  "poster": "posters/avatar.webp",
+  "youtubeTrailerId": "CM79GTEm2ps",
+  "budget": 237000000,
+  "boxOffice": 2800000000,
+  "rating": 3,
+  "description": "By the 22nd century, humanity had completely exhausted Earth's resources and ventured to mine a new rare resource, unobtanium, on Pandora—a moon of the planet Polyphemus in the Alpha Centauri star system. On the planet, humanity encountered the local intelligent race, the Na'vi—three-meter-tall, blue-skinned humanoids. The Na'vi live in complete harmony with nature and refused to cooperate with humans, who are only capable of destroying it. However, one of the Na'vi clans, the Omaticaya, lives on a large deposit of unobtanium. To resolve the situation with the natives peacefully, Earth's scientists developed the Avatar program. Avatars are artificially grown Na'vi bodies based on the DNA of their operators—humans who can transfer their consciousness into these bodies.One such Avatar was intended for the scientist Tom Sully, but he died shortly before the start of the new mission, so his twin brother, Jake Sully, was brought in as a replacement. Jake, a former Marine in a wheelchair, knows nothing about the Avatar program but is fully compatible with Tom's Avatar. Thus, Jake arrives on Pandora to join Grace Augustine's team, who currently leads the program and does not support the idea of bringing in someone unfamiliar with Pandora, unlike Colonel Miles Quaritch, who is ready to forcefully remove the Omaticaya. On his first day on Pandora in the Avatar body, Jake gets lost in the forest and encounters the local hunter Neytiri, who initially decides to kill him until he is surrounded by the seeds of the sacred Tree of Souls. Neytiri takes him to her home, where Jake asks to be accepted and taught to be Na'vi. Tsahìk, the spiritual leader, is against this, believing it is impossible to teach those who already know everything about them but refuse to listen. Jake, however, says that he knows nothing and is willing to learn. Thus, Jake becomes Neytiri's protégé. Quaritch likes that Jake has gained their trust and gives him the task of learning all the details about their home and its weaknesses. However, Jake begins to enjoy life on Pandora, falls in love with Neytiri, and gradually sides with the Omaticaya in their battle against the humans.",
+  "chapterKey": "avatar",
+  "chapterOrder": 1,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 4,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 5,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 6,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 46,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 99,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 43,
+      "actorId": null,
+      "comment": "The \"Extended Collector's Edition\" release."
+    },
+    {
+      "awardId": 2,
+      "nominationId": 44,
+      "actorId": 1034,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 38,
+      "actorId": 1205,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 39,
+      "actorId": 1084,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 36,
+      "actorId": 1068,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 23,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 33,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 28,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 46,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 35,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 41,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 5,
+      "nominationId": 118,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 5,
+      "nominationId": 119,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 27,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 48,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 73,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 14,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 1,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 76,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 1034,
+      "characterName": "Jake Sully",
+      "characterImage": "characters/avatar_jake_sully.webp"
+    },
+    {
+      "personId": 1205,
+      "characterName": "Neytiri",
+      "characterImage": "characters/avatar_neitiri.webp"
+    },
+    {
+      "personId": 1068,
+      "characterName": "Grace Augustine",
+      "characterImage": "characters/avatar_grace_augustine.webp"
+    },
+    {
+      "personId": 1084,
+      "characterName": "Miles Quaritch",
+      "characterImage": null
+    },
+    {
+      "personId": 838,
+      "characterName": "Trudy Chacon",
+      "characterImage": null
+    },
+    {
+      "personId": 410,
+      "characterName": "Parker Selfridge",
+      "characterImage": null
+    },
+    {
+      "personId": 571,
+      "characterName": "Norm Spellman",
+      "characterImage": null
+    },
+    {
+      "personId": 1175,
+      "characterName": "Eytukan",
+      "characterImage": "characters/avatar_eytukan.webp"
+    },
+    {
+      "personId": 709,
+      "characterName": "Tsu'tey",
+      "characterImage": "characters/avatar_tsu_tey.webp"
+    },
+    {
+      "personId": 1239,
+      "characterName": "Mo'at",
+      "characterImage": "characters/avatar_mo_at.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 21,
+      "order": 1
+    },
+    {
+      "collectionId": 29,
+      "order": null
+    },
+    {
+      "collectionId": 14,
+      "order": null
+    },
+    {
+      "collectionId": 31,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 2
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1288,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1288,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1288,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1294,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1290,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1338,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    }
+  ]
+}

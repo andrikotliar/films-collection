@@ -1,0 +1,141 @@
+{
+  "$schema": "_schema.json",
+  "id": 106,
+  "title": "Mission: Impossible III",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2006-05-05T00:00:00.000Z",
+  "duration": 125,
+  "poster": "posters/mi_3.webp",
+  "youtubeTrailerId": "rl2bysiyltg",
+  "budget": 150000000,
+  "boxOffice": 398000000,
+  "rating": 2,
+  "description": "IMF Agent Ethan Hunt comes into conflict with a dangerous and sadistic arms dealer who threatens his life and his fiancée in response.",
+  "chapterKey": "missin-impossible",
+  "chapterOrder": 3,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1129,
+      "characterName": "Ethan Hunt",
+      "characterImage": null
+    },
+    {
+      "personId": 927,
+      "characterName": "Owen Davian",
+      "characterImage": null
+    },
+    {
+      "personId": 1166,
+      "characterName": "Luther",
+      "characterImage": null
+    },
+    {
+      "personId": 128,
+      "characterName": "Musgrave",
+      "characterImage": null
+    },
+    {
+      "personId": 836,
+      "characterName": "Julia",
+      "characterImage": null
+    },
+    {
+      "personId": 610,
+      "characterName": "Declan",
+      "characterImage": null
+    },
+    {
+      "personId": 668,
+      "characterName": "Lindsey Farris",
+      "characterImage": null
+    },
+    {
+      "personId": 766,
+      "characterName": "Zhen",
+      "characterImage": null
+    },
+    {
+      "personId": 1070,
+      "characterName": "Benji",
+      "characterImage": null
+    },
+    {
+      "personId": 318,
+      "characterName": "Brownway",
+      "characterImage": null
+    },
+    {
+      "personId": 707,
+      "characterName": "Theodore Brassel",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 6,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1843,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1851,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1852,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1843,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1129,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1839,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1442,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1730,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 14
+    }
+  ]
+}

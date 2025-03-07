@@ -1,0 +1,126 @@
+{
+  "$schema": "_schema.json",
+  "id": 119,
+  "title": "Predator",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1987-06-12T00:00:00.000Z",
+  "duration": 107,
+  "poster": "posters/predator.webp",
+  "youtubeTrailerId": "_1wDBNHYDv8",
+  "budget": 15000000,
+  "boxOffice": 98000000,
+  "rating": 1,
+  "description": "A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 87,
+      "characterName": "Dutch",
+      "characterImage": null
+    },
+    {
+      "personId": 168,
+      "characterName": "Dillon",
+      "characterImage": null
+    },
+    {
+      "personId": 336,
+      "characterName": "Anna",
+      "characterImage": null
+    },
+    {
+      "personId": 122,
+      "characterName": "Mac",
+      "characterImage": null
+    },
+    {
+      "personId": 557,
+      "characterName": "Blain",
+      "characterImage": null
+    },
+    {
+      "personId": 1074,
+      "characterName": "Billy",
+      "characterImage": null
+    },
+    {
+      "personId": 966,
+      "characterName": "Poncho",
+      "characterImage": null
+    },
+    {
+      "personId": 679,
+      "characterName": "Predator",
+      "characterImage": "characters/predator_predator.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 30,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1897,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1898,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1899,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1676,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1900,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1901,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1371,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1902,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 10
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    }
+  ]
+}

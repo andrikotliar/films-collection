@@ -1,0 +1,134 @@
+{
+  "$schema": "_schema.json",
+  "id": 235,
+  "title": "X-Men Origins: Wolverine",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2009-05-01T00:00:00.000Z",
+  "duration": 107,
+  "poster": "posters/x_men_4.webp",
+  "youtubeTrailerId": "QojV7s3UTu0",
+  "budget": 150000000,
+  "boxOffice": 373000000,
+  "rating": 1,
+  "description": "The early years of James Logan, featuring his rivalry with his brother Victor Creed, his service in the special forces team Weapon X, and his experimentation into the metal-lined mutant Wolverine.",
+  "chapterKey": "x-men",
+  "chapterOrder": 3,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 453,
+      "characterName": "Logan / Wolverine",
+      "characterImage": null
+    },
+    {
+      "personId": 725,
+      "characterName": "Victor Creed",
+      "characterImage": null
+    },
+    {
+      "personId": 256,
+      "characterName": "Stryker",
+      "characterImage": null
+    },
+    {
+      "personId": 1179,
+      "characterName": "John Wraith",
+      "characterImage": null
+    },
+    {
+      "personId": 757,
+      "characterName": "Kayla Silverfox",
+      "characterImage": null
+    },
+    {
+      "personId": 674,
+      "characterName": "Fred Dukes",
+      "characterImage": null
+    },
+    {
+      "personId": 302,
+      "characterName": "Chris Bradley / Bolt",
+      "characterImage": null
+    },
+    {
+      "personId": 1106,
+      "characterName": "Remy LeBeau",
+      "characterImage": null
+    },
+    {
+      "personId": 1020,
+      "characterName": "Wade Wilson",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 16,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2379,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1486,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2380,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1796,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2374,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 453,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1905,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1902,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    },
+    {
+      "studioId": 5
+    }
+  ]
+}

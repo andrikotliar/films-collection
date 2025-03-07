@@ -1,0 +1,134 @@
+{
+  "$schema": "_schema.json",
+  "id": 222,
+  "title": "Tron: Legacy",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2010-12-17T00:00:00.000Z",
+  "duration": 125,
+  "poster": "posters/tron.webp",
+  "youtubeTrailerId": "L9szn1QQfas",
+  "budget": 170000000,
+  "boxOffice": 400000000,
+  "rating": 2,
+  "description": "The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 46,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 44,
+      "actorId": 539,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 539,
+      "characterName": "Kevin Flynn / Clu",
+      "characterImage": null
+    },
+    {
+      "personId": 393,
+      "characterName": "Sam Flynn",
+      "characterImage": null
+    },
+    {
+      "personId": 890,
+      "characterName": "Quorra",
+      "characterImage": null
+    },
+    {
+      "personId": 153,
+      "characterName": "Alan Bradley / Tron",
+      "characterImage": null
+    },
+    {
+      "personId": 505,
+      "characterName": "Jarvis",
+      "characterImage": null
+    },
+    {
+      "personId": 102,
+      "characterName": "Gem",
+      "characterImage": null
+    },
+    {
+      "personId": 832,
+      "characterName": "Castor / Zuse",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 14,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1867,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2338,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2339,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2340,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2341,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1454,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2342,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1874,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    }
+  ]
+}

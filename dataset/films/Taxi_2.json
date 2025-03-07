@@ -1,0 +1,113 @@
+{
+  "$schema": "_schema.json",
+  "id": 155,
+  "title": "Taxi 2",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2000-03-29T00:00:00.000Z",
+  "duration": 88,
+  "poster": "posters/taxi_2.webp",
+  "youtubeTrailerId": "XkMZ75BwhCg",
+  "budget": 10000000,
+  "boxOffice": 64000000,
+  "rating": 2,
+  "description": "Police inspector Emilien and his taxi-driver pal Daniel are back, this time on the tail of a group of Japanese yakuza.",
+  "chapterKey": "taxi",
+  "chapterOrder": 2,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1037,
+      "characterName": "Daniel Morales",
+      "characterImage": null
+    },
+    {
+      "personId": 390,
+      "characterName": "Emilien Coutant-Kerbalec",
+      "characterImage": null
+    },
+    {
+      "personId": 779,
+      "characterName": "Lilly Bertineau",
+      "characterImage": null
+    },
+    {
+      "personId": 346,
+      "characterName": "Petra",
+      "characterImage": null
+    },
+    {
+      "personId": 118,
+      "characterName": "Commissaire Gibert",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 13,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2036,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1431,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1431,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2037,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2038,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2041,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2042,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2043,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2044,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 6
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 57
+    }
+  ]
+}

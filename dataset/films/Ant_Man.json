@@ -1,0 +1,141 @@
+{
+  "$schema": "_schema.json",
+  "id": 13,
+  "title": "Ant-Man",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2015-07-17T00:00:00.000Z",
+  "duration": 117,
+  "poster": "posters/ant_man_1.webp",
+  "youtubeTrailerId": "pWdKf3MneyI",
+  "budget": 130000000,
+  "boxOffice": 519000000,
+  "rating": 2,
+  "description": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world.",
+  "chapterKey": "mcu",
+  "chapterOrder": 14,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 42,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 910,
+      "characterName": "Scott Lang / Ant-Man",
+      "characterImage": "characters/ant_man_scott_lang.webp"
+    },
+    {
+      "personId": 822,
+      "characterName": "Dr. Hank Pym",
+      "characterImage": null
+    },
+    {
+      "personId": 361,
+      "characterName": "Hope van Dyne",
+      "characterImage": null
+    },
+    {
+      "personId": 229,
+      "characterName": "Darren Cross / Yellowjacket",
+      "characterImage": "characters/ant_man_darren_cross.webp"
+    },
+    {
+      "personId": 134,
+      "characterName": "Paxton",
+      "characterImage": null
+    },
+    {
+      "personId": 828,
+      "characterName": "Luis",
+      "characterImage": null
+    },
+    {
+      "personId": 74,
+      "characterName": "Sam Wilson / Falcon",
+      "characterImage": null
+    },
+    {
+      "personId": 625,
+      "characterName": "Maggie Lang",
+      "characterImage": null
+    },
+    {
+      "personId": 5,
+      "characterName": "Cassie Lang",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 25,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1305,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1306,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1307,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1308,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 910,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1309,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1303,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1310,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 6
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    },
+    {
+      "studioId": 4
+    }
+  ]
+}

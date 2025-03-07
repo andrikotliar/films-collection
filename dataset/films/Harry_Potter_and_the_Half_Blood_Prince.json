@@ -1,0 +1,124 @@
+{
+  "$schema": "_schema.json",
+  "id": 59,
+  "title": "Harry Potter and the Half-Blood Prince",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2009-07-15T00:00:00.000Z",
+  "duration": 153,
+  "poster": "posters/harry_potter_6.webp",
+  "youtubeTrailerId": "sg81Lts5kYY",
+  "budget": 250000000,
+  "boxOffice": 934000000,
+  "rating": 3,
+  "description": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past.",
+  "chapterKey": "harry-potter",
+  "chapterOrder": 6,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 251,
+      "characterName": "Harry Potter",
+      "characterImage": "characters/harry_potter_and_the_half_blood_prince_harry_potter.webp"
+    },
+    {
+      "personId": 1014,
+      "characterName": "Ron Weasley",
+      "characterImage": "characters/harry_potter_and_the_half_blood_prince_ron_weasley.webp"
+    },
+    {
+      "personId": 345,
+      "characterName": "Hermione Granger",
+      "characterImage": "characters/harry_potter_and_the_half_blood_prince_hermione_granger.webp"
+    },
+    {
+      "personId": 970,
+      "characterName": "Albus Dumbledore",
+      "characterImage": null
+    },
+    {
+      "personId": 1130,
+      "characterName": "Draco Malfoy",
+      "characterImage": null
+    },
+    {
+      "personId": 22,
+      "characterName": "Severus Snape",
+      "characterImage": null
+    },
+    {
+      "personId": 441,
+      "characterName": "Bellatrix Lestrage",
+      "characterImage": null
+    },
+    {
+      "personId": 562,
+      "characterName": "Horace Slughorn",
+      "characterImage": null
+    },
+    {
+      "personId": 1130,
+      "characterName": "Draco Malfoy",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 2,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 2
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1565,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1561,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1562,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1566,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1572,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1573,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 8
+    }
+  ]
+}

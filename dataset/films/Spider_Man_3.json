@@ -1,0 +1,144 @@
+{
+  "$schema": "_schema.json",
+  "id": 135,
+  "title": "Spider-Man 3",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2007-05-04T00:00:00.000Z",
+  "duration": 139,
+  "poster": "posters/raimi_spider_man_3.webp",
+  "youtubeTrailerId": "wPosLpgMtTY",
+  "budget": 258000000,
+  "boxOffice": 895000000,
+  "rating": 1,
+  "description": "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge.",
+  "chapterKey": "spider-man",
+  "chapterOrder": 3,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1122,
+      "characterName": "Spider-Man / Peter Parker",
+      "characterImage": "characters/spider_man_3_spider-man.webp"
+    },
+    {
+      "personId": 684,
+      "characterName": "Mary Jane Watson",
+      "characterImage": null
+    },
+    {
+      "personId": 506,
+      "characterName": "New Goblin / Harry Osborn",
+      "characterImage": null
+    },
+    {
+      "personId": 1115,
+      "characterName": "Sandman / Flint Marko",
+      "characterImage": null
+    },
+    {
+      "personId": 1148,
+      "characterName": "Venom / Eddie Brock",
+      "characterImage": "characters/spider_man_3_venom.webp"
+    },
+    {
+      "personId": 157,
+      "characterName": "Gwen Stacy",
+      "characterImage": null
+    },
+    {
+      "personId": 1007,
+      "characterName": "May Parker",
+      "characterImage": null
+    },
+    {
+      "personId": 475,
+      "characterName": "J. Jonah Jameson",
+      "characterImage": null
+    },
+    {
+      "personId": 503,
+      "characterName": "Captain Stacy",
+      "characterImage": null
+    },
+    {
+      "personId": 315,
+      "characterName": "Dr. Curt Connors",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 16,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1970,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1970,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1974,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1973,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1530,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1972,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1975,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1533,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1296,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 12
+    },
+    {
+      "studioId": 5
+    }
+  ]
+}

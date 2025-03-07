@@ -1,0 +1,169 @@
+{
+  "$schema": "_schema.json",
+  "id": 82,
+  "title": "Interstellar",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2014-11-07T00:00:00.000Z",
+  "duration": 169,
+  "poster": "posters/interstellar.webp",
+  "youtubeTrailerId": "zSWdZVtXT7E",
+  "budget": 165000000,
+  "boxOffice": 677000000,
+  "rating": 3,
+  "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 5,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 99,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 35,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 46,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 41,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 40,
+      "actorId": 761,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 33,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 28,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 70,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 805,
+      "characterName": "Cooper",
+      "characterImage": null
+    },
+    {
+      "personId": 558,
+      "characterName": "Murph",
+      "characterImage": null
+    },
+    {
+      "personId": 64,
+      "characterName": "Brand",
+      "characterImage": null
+    },
+    {
+      "personId": 821,
+      "characterName": "Professor Brand",
+      "characterImage": null
+    },
+    {
+      "personId": 803,
+      "characterName": "Mann",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 29,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1712,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1713,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1712,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1712,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1714,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1381,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1383,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1715,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 5
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 14
+    },
+    {
+      "studioId": 8
+    }
+  ]
+}

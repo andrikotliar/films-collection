@@ -1,0 +1,117 @@
+{
+  "$schema": "_schema.json",
+  "id": 182,
+  "title": "The Intouchables",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2011-11-02T00:00:00.000Z",
+  "duration": 112,
+  "poster": "posters/intouchables.webp",
+  "youtubeTrailerId": "34WIbmXkewU",
+  "budget": 11000000,
+  "boxOffice": 427000000,
+  "rating": 2,
+  "description": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 380,
+      "characterName": "Philippe",
+      "characterImage": null
+    },
+    {
+      "personId": 893,
+      "characterName": "Driss",
+      "characterImage": null
+    },
+    {
+      "personId": 68,
+      "characterName": "Yvonne",
+      "characterImage": null
+    },
+    {
+      "personId": 94,
+      "characterName": "Magalie",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 3,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 4
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2185,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2186,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2187,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2186,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2188,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2189,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2190,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2191,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2192,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 13
+    },
+    {
+      "genreId": 6
+    },
+    {
+      "genreId": 5
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 58
+    },
+    {
+      "studioId": 48
+    }
+  ]
+}

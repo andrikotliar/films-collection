@@ -1,0 +1,161 @@
+{
+  "$schema": "_schema.json",
+  "id": 150,
+  "title": "Star Wars Episode V: The Empire Strikes Back",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1980-05-21T00:00:00.000Z",
+  "duration": 124,
+  "poster": "posters/star_wars_episode_V.webp",
+  "youtubeTrailerId": "JNwNXF9Y6kY",
+  "budget": 18000000,
+  "boxOffice": 248000000,
+  "rating": 2,
+  "description": "After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.",
+  "chapterKey": "star-wars",
+  "chapterOrder": 7,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 14,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 34,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 35,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 44,
+      "actorId": 785,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 23,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 41,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 785,
+      "characterName": "Luke Skywalker",
+      "characterImage": null
+    },
+    {
+      "personId": 431,
+      "characterName": "Han Solo",
+      "characterImage": null
+    },
+    {
+      "personId": 171,
+      "characterName": "Leia",
+      "characterImage": null
+    },
+    {
+      "personId": 130,
+      "characterName": "Lando Calrissian",
+      "characterImage": null
+    },
+    {
+      "personId": 72,
+      "characterName": "C-3PO",
+      "characterImage": "characters/star_wars_episode_v_the_empire_strikes_back_c-3po.webp"
+    },
+    {
+      "personId": 276,
+      "characterName": "Darth Vader",
+      "characterImage": "characters/star_wars_episode_v_the_empire_strikes_back_darth_vader.webp"
+    },
+    {
+      "personId": 924,
+      "characterName": "Chewbacca",
+      "characterImage": "characters/star_wars_episode_v_the_empire_strikes_back_chewbacca.webp"
+    },
+    {
+      "personId": 382,
+      "characterName": "Yoda",
+      "characterImage": "characters/star_wars_episode_v_the_empire_strikes_back_yoda.webp"
+    },
+    {
+      "personId": 1249,
+      "characterName": "Boba Fett",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 22,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2007,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2008,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1709,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1997,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1563,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2009,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 16
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    },
+    {
+      "studioId": 37
+    }
+  ]
+}

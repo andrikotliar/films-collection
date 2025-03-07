@@ -1,0 +1,181 @@
+{
+  "$schema": "_schema.json",
+  "id": 238,
+  "title": "Zack Snyder's Justice League",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2021-03-18T00:00:00.000Z",
+  "duration": 242,
+  "poster": "posters/justice_league.webp",
+  "youtubeTrailerId": "ui37YKQ9AC4",
+  "budget": 300000000,
+  "rating": 2,
+  "description": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.",
+  "chapterKey": "dceu",
+  "chapterOrder": 5,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 104,
+      "characterName": "Bruce Wayne / Batman",
+      "characterImage": "characters/zack_snyder_s_justice_league_bruce_wayne"
+    },
+    {
+      "personId": 443,
+      "characterName": "Clark Kent / Superman",
+      "characterImage": "characters/zack_snyder_s_justice_league_clark_kent"
+    },
+    {
+      "personId": 54,
+      "characterName": "Lois Lane",
+      "characterImage": null
+    },
+    {
+      "personId": 392,
+      "characterName": "Diana Prince / Wonder Woman",
+      "characterImage": null
+    },
+    {
+      "personId": 365,
+      "characterName": "Barry Allen / The Flash",
+      "characterImage": "characters/zack_snyder_s_justice_league_barry_allen"
+    },
+    {
+      "personId": 528,
+      "characterName": "Arthur Curry / Aquaman",
+      "characterImage": null
+    },
+    {
+      "personId": 948,
+      "characterName": "Victor Stone / Cyborg",
+      "characterImage": "characters/zack_snyder_s_justice_league_victor_stone"
+    },
+    {
+      "personId": 551,
+      "characterName": "Alfred",
+      "characterImage": null
+    },
+    {
+      "personId": 291,
+      "characterName": "Martha Kent",
+      "characterImage": null
+    },
+    {
+      "personId": 226,
+      "characterName": "Queen Hippolyta",
+      "characterImage": null
+    },
+    {
+      "personId": 475,
+      "characterName": "Commissioner Gordon",
+      "characterImage": null
+    },
+    {
+      "personId": 213,
+      "characterName": "Steppenwolf",
+      "characterImage": "characters/zack_snyder_s_justice_league_steppenwolf"
+    },
+    {
+      "personId": 950,
+      "characterName": "Darkseid",
+      "characterImage": "characters/zack_snyder_s_justice_league_darkseid"
+    },
+    {
+      "personId": 1021,
+      "characterName": "Ryan Choi",
+      "characterImage": null
+    },
+    {
+      "personId": 49,
+      "characterName": "Mera",
+      "characterImage": null
+    },
+    {
+      "personId": 568,
+      "characterName": "Silas Stone",
+      "characterImage": null
+    },
+    {
+      "personId": 567,
+      "characterName": "Deathstroke",
+      "characterImage": "characters/zack_snyder_s_justice_league_deathstroke"
+    },
+    {
+      "personId": 1180,
+      "characterName": "Vulko",
+      "characterImage": null
+    },
+    {
+      "personId": 433,
+      "characterName": "General Swanwick / Martian Manhunter",
+      "characterImage": "characters/zack_snyder_s_justice_league_general_swanwick"
+    },
+    {
+      "personId": 922,
+      "characterName": "DeSaad",
+      "characterImage": "characters/zack_snyder_s_justice_league_desaad"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 11,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 2
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1386,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1387,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1380,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1388,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1389,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1518,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 40
+    },
+    {
+      "studioId": 8
+    }
+  ]
+}

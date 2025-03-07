@@ -1,0 +1,124 @@
+{
+  "$schema": "_schema.json",
+  "id": 45,
+  "title": "Ford v Ferrari",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2019-11-15T00:00:00.000Z",
+  "duration": 152,
+  "poster": "posters/fordvsferrari.webp",
+  "youtubeTrailerId": "zyYgDtY2AMY",
+  "budget": 98000000,
+  "boxOffice": 226000000,
+  "rating": 1,
+  "description": "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 803,
+      "characterName": "Carroll Shelby",
+      "characterImage": null
+    },
+    {
+      "personId": 203,
+      "characterName": "Ken Miles",
+      "characterImage": null
+    },
+    {
+      "personId": 159,
+      "characterName": "Mollie Miles",
+      "characterImage": null
+    },
+    {
+      "personId": 877,
+      "characterName": "Peter Miles",
+      "characterImage": null
+    },
+    {
+      "personId": 1149,
+      "characterName": "Henry Ford II",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 13,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1478,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1450,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1451,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1479,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1480,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1478,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1481,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1278,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1482,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1483,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 5
+    },
+    {
+      "genreId": 13
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    }
+  ]
+}

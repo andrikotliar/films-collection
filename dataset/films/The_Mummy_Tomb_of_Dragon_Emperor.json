@@ -1,0 +1,121 @@
+{
+  "$schema": "_schema.json",
+  "id": 203,
+  "title": "The Mummy: Tomb of Dragon Emperor",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2008-08-01T00:00:00.000Z",
+  "duration": 112,
+  "poster": "posters/mummy_3.webp",
+  "youtubeTrailerId": "5-4qSE2Ch0Y",
+  "budget": 145000000,
+  "boxOffice": 401000000,
+  "rating": 1,
+  "description": "In the Far East, Alex O'Connell, the son of famed mummy fighters Rick and Evy O'Connell, unearths the mummy of the first Emperor of Qin -- a shape-shifting entity cursed by a witch centuries ago.",
+  "chapterKey": "mummy",
+  "chapterOrder": 3,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 144,
+      "characterName": "Rick O'Connell",
+      "characterImage": null
+    },
+    {
+      "personId": 561,
+      "characterName": "Emperor",
+      "characterImage": null
+    },
+    {
+      "personId": 776,
+      "characterName": "Evelyn O'Connell",
+      "characterImage": null
+    },
+    {
+      "personId": 583,
+      "characterName": "Jonathan Carnahan",
+      "characterImage": null
+    },
+    {
+      "personId": 839,
+      "characterName": "Zi Yuan",
+      "characterImage": null
+    },
+    {
+      "personId": 751,
+      "characterName": "Alex O'Connell",
+      "characterImage": null
+    },
+    {
+      "personId": 468,
+      "characterName": "Lin",
+      "characterImage": null
+    },
+    {
+      "personId": 1017,
+      "characterName": "Ming Guo",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 27,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2159,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2247,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2248,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2244,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2246,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2249,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1679,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 13
+    }
+  ]
+}

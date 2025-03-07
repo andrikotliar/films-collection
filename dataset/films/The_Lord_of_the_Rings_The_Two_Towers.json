@@ -1,0 +1,254 @@
+{
+  "$schema": "_schema.json",
+  "id": 190,
+  "title": "The Lord of the Rings: The Two Towers",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2002-12-18T00:00:00.000Z",
+  "duration": 179,
+  "poster": "posters/middle_earth_5.webp",
+  "youtubeTrailerId": "LbfMDwc4azU",
+  "budget": 94000000,
+  "boxOffice": 926000000,
+  "rating": 3,
+  "description": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+  "chapterKey": "middle-earth",
+  "chapterOrder": 5,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 29,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 1,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 19,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 101,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 54,
+      "actorId": null,
+      "comment": "Extended Edition"
+    },
+    {
+      "awardId": 2,
+      "nominationId": 49,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 39,
+      "actorId": 61,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 52,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 16,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 182,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 199,
+      "actorId": null,
+      "comment": "Elijah Wood and Sean Astion"
+    },
+    {
+      "awardId": 8,
+      "nominationId": 202,
+      "actorId": null,
+      "comment": "Gollum"
+    },
+    {
+      "awardId": 8,
+      "nominationId": 192,
+      "actorId": null,
+      "comment": "The battle for Helms Deep"
+    },
+    {
+      "awardId": 3,
+      "nominationId": 93,
+      "actorId": null,
+      "comment": "Gollum"
+    }
+  ],
+  "cast": [
+    {
+      "personId": 323,
+      "characterName": "Frodo Baggins",
+      "characterImage": null
+    },
+    {
+      "personId": 460,
+      "characterName": "Gandalf",
+      "characterImage": null
+    },
+    {
+      "personId": 1044,
+      "characterName": "Samwise Gamgee",
+      "characterImage": null
+    },
+    {
+      "personId": 1163,
+      "characterName": "Aragorn",
+      "characterImage": null
+    },
+    {
+      "personId": 595,
+      "characterName": "Gimli",
+      "characterImage": null
+    },
+    {
+      "personId": 894,
+      "characterName": "Legolas",
+      "characterImage": null
+    },
+    {
+      "personId": 175,
+      "characterName": "Galadriel",
+      "characterImage": null
+    },
+    {
+      "personId": 209,
+      "characterName": "Saruman",
+      "characterImage": null
+    },
+    {
+      "personId": 454,
+      "characterName": "Elrond",
+      "characterImage": null
+    },
+    {
+      "personId": 61,
+      "characterName": "Gollum",
+      "characterImage": "characters/the_lord_of_the_rings_the_two_towers_gollum"
+    },
+    {
+      "personId": 641,
+      "characterName": "Eomer",
+      "characterImage": null
+    },
+    {
+      "personId": 1218,
+      "characterName": "Eowyn",
+      "characterImage": null
+    },
+    {
+      "personId": 1045,
+      "characterName": "Boromir",
+      "characterImage": null
+    },
+    {
+      "personId": 127,
+      "characterName": "Pippin",
+      "characterImage": null
+    },
+    {
+      "personId": 302,
+      "characterName": "Merry",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 19,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 15
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2169,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2170,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2171,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2169,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2169,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2170,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2215,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1671,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1682,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 56
+    }
+  ]
+}

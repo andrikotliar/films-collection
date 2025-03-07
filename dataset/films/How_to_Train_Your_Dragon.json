@@ -1,0 +1,110 @@
+{
+  "$schema": "_schema.json",
+  "id": 66,
+  "title": "How to Train Your Dragon",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2010-03-26T00:00:00.000Z",
+  "duration": 98,
+  "poster": "posters/how_to_train_your_dragon_1.webp",
+  "youtubeTrailerId": "oKiYuIsPxYk",
+  "budget": 165000000,
+  "boxOffice": 496000000,
+  "rating": 3,
+  "description": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
+  "chapterKey": "how-to-train-your-dragon",
+  "chapterOrder": 1,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 533,
+      "characterName": "Hiccup",
+      "characterImage": "characters/how_to_train_your_dragon_hiccup.webp"
+    },
+    {
+      "personId": 404,
+      "characterName": "Stoick ",
+      "characterImage": "characters/how_to_train_your_dragon_stoick.webp"
+    },
+    {
+      "personId": 230,
+      "characterName": "Gobber ",
+      "characterImage": "characters/how_to_train_your_dragon_gobber.webp"
+    },
+    {
+      "personId": 51,
+      "characterName": "Astrid ",
+      "characterImage": "characters/how_to_train_your_dragon_astrid.webp"
+    },
+    {
+      "personId": 212,
+      "characterName": "Fishlegs ",
+      "characterImage": "characters/how_to_train_your_dragon_fishlegs.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    },
+    {
+      "collectionId": 21,
+      "order": 4
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1662,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1663,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1664,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1663,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1662,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1665,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1551,
+      "position": "COMPOSER",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 16
+    }
+  ]
+}

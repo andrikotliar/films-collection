@@ -1,0 +1,136 @@
+{
+  "$schema": "_schema.json",
+  "id": 110,
+  "title": "Now You See Me",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2013-05-31T00:00:00.000Z",
+  "duration": 115,
+  "poster": "posters/now_you_see_me.webp",
+  "youtubeTrailerId": "KzJNYYkkhzc",
+  "budget": 75000000,
+  "boxOffice": 352000000,
+  "rating": 1,
+  "description": "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 555,
+      "characterName": "J. Daniel Atlas",
+      "characterImage": null
+    },
+    {
+      "personId": 786,
+      "characterName": "Dylan Rhodes",
+      "characterImage": null
+    },
+    {
+      "personId": 1190,
+      "characterName": "Merritt McKinney",
+      "characterImage": null
+    },
+    {
+      "personId": 470,
+      "characterName": "Henley Reeves",
+      "characterImage": null
+    },
+    {
+      "personId": 264,
+      "characterName": "Jack Wilder",
+      "characterImage": null
+    },
+    {
+      "personId": 860,
+      "characterName": "Alma Dray",
+      "characterImage": null
+    },
+    {
+      "personId": 854,
+      "characterName": "Thaddeus Bradley",
+      "characterImage": null
+    },
+    {
+      "personId": 821,
+      "characterName": "Arthur Tressler",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 6,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1862,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1825,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1863,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1864,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1865,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1851,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1852,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1464,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1866,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1390,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 7
+    },
+    {
+      "genreId": 9
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 43
+    }
+  ]
+}

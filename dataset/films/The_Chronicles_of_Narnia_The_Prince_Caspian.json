@@ -1,0 +1,124 @@
+{
+  "$schema": "_schema.json",
+  "id": 166,
+  "title": "The Chronicles of Narnia: The Prince Caspian",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2008-05-15T00:00:00.000Z",
+  "duration": 150,
+  "poster": "posters/narnia_2.webp",
+  "youtubeTrailerId": "9Q0Da4jlxBk",
+  "budget": 225000000,
+  "boxOffice": 420000000,
+  "rating": 2,
+  "description": "The Pevensie siblings return to Narnia, where they are enlisted to once again help ward off an evil king and restore the rightful heir to the land's throne, Prince Caspian.",
+  "chapterKey": "chronicles-of-narnia",
+  "chapterOrder": 2,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 105,
+      "characterName": "Prince Caspian",
+      "characterImage": null
+    },
+    {
+      "personId": 402,
+      "characterName": "Lucy Pevensie",
+      "characterImage": null
+    },
+    {
+      "personId": 1072,
+      "characterName": "Edmund Pevensie",
+      "characterImage": null
+    },
+    {
+      "personId": 1184,
+      "characterName": "Peter Pevensie",
+      "characterImage": null
+    },
+    {
+      "personId": 67,
+      "characterName": "Susan Pevensie",
+      "characterImage": null
+    },
+    {
+      "personId": 1054,
+      "characterName": "Miraz",
+      "characterImage": null
+    },
+    {
+      "personId": 920,
+      "characterName": "Trumpkin",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 2
+    },
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1949,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1949,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1369,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1370,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2144,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2145,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1905,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1701,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    }
+  ]
+}

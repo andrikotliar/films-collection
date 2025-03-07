@@ -1,0 +1,119 @@
+{
+  "$schema": "_schema.json",
+  "id": 205,
+  "title": "The Sorcerer's Apprentice",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2010-07-14T00:00:00.000Z",
+  "duration": 109,
+  "poster": "posters/sorcerers_apprentice.webp",
+  "youtubeTrailerId": "v2uV0_1C4UM",
+  "budget": 150000000,
+  "boxOffice": 215000000,
+  "rating": 1,
+  "description": "Master sorcerer Balthazar Blake must find and train Merlin's descendant to defeat dark sorceress Morgana la Fée.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 873,
+      "characterName": "Balthazar",
+      "characterImage": null
+    },
+    {
+      "personId": 533,
+      "characterName": "Dave",
+      "characterImage": null
+    },
+    {
+      "personId": 36,
+      "characterName": "Horvath",
+      "characterImage": null
+    },
+    {
+      "personId": 1109,
+      "characterName": "Becky",
+      "characterImage": null
+    },
+    {
+      "personId": 1124,
+      "characterName": "Drake Stone",
+      "characterImage": null
+    },
+    {
+      "personId": 850,
+      "characterName": "Veronica",
+      "characterImage": null
+    },
+    {
+      "personId": 40,
+      "characterName": "Morgana",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2254,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1903,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1904,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2255,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1893,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2256,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2257,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    },
+    {
+      "studioId": 44
+    }
+  ]
+}

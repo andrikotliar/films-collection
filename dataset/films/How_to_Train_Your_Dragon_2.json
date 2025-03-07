@@ -1,0 +1,96 @@
+{
+  "$schema": "_schema.json",
+  "id": 67,
+  "title": "How to Train Your Dragon 2",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2014-06-13T00:00:00.000Z",
+  "duration": 102,
+  "poster": "posters/how_to_train_your_dragon_2.webp",
+  "youtubeTrailerId": "2BP38770KNo",
+  "budget": 145000000,
+  "boxOffice": 621000000,
+  "rating": 3,
+  "description": "When Hiccup and Toothless discover an ice cave that is home to hundreds of new wild dragons and the mysterious Dragon Rider, the two friends find themselves at the center of a battle to protect the peace.",
+  "chapterKey": "how-to-train-your-dragon",
+  "chapterOrder": 2,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 533,
+      "characterName": "Hiccup",
+      "characterImage": "characters/how_to_train_your_dragon_2_hiccup.webp"
+    },
+    {
+      "personId": 175,
+      "characterName": "Valka",
+      "characterImage": "characters/how_to_train_your_dragon_2_valka.webp"
+    },
+    {
+      "personId": 404,
+      "characterName": "Stoick",
+      "characterImage": "characters/how_to_train_your_dragon_2_stoick.webp"
+    },
+    {
+      "personId": 51,
+      "characterName": "Astrid",
+      "characterImage": "characters/how_to_train_your_dragon_2_astrid.webp"
+    },
+    {
+      "personId": 297,
+      "characterName": "Drago Bludvist",
+      "characterImage": "characters/how_to_train_your_dragon_2_drago_bludvist.webp"
+    },
+    {
+      "personId": 685,
+      "characterName": "Eret",
+      "characterImage": "characters/how_to_train_your_dragon_2_eret.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1663,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1663,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1665,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1551,
+      "position": "COMPOSER",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 16
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "$schema": "_schema.json",
+  "id": 183,
+  "title": "The League of Extraordinary Gentlemen",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2003-07-11T00:00:00.000Z",
+  "duration": 110,
+  "poster": "posters/league_of_extraordinary_gentlemen.webp",
+  "youtubeTrailerId": "_WWIiTlGyYQ",
+  "budget": 78000000,
+  "boxOffice": 179000000,
+  "rating": 1,
+  "description": "In an alternate Victorian Age world, a group of famous contemporary fantasy, science fiction, and adventure characters team up on a secret mission.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1046,
+      "characterName": "Allan Quatermain",
+      "characterImage": null
+    },
+    {
+      "personId": 861,
+      "characterName": "Captain Nemo",
+      "characterImage": null
+    },
+    {
+      "personId": 916,
+      "characterName": "Mina Harker",
+      "characterImage": null
+    },
+    {
+      "personId": 1144,
+      "characterName": "Rodney Skinner",
+      "characterImage": null
+    },
+    {
+      "personId": 1094,
+      "characterName": "Dorian Gray",
+      "characterImage": null
+    },
+    {
+      "personId": 1058,
+      "characterName": "Tom Sawyer",
+      "characterImage": null
+    },
+    {
+      "personId": 526,
+      "characterName": "Dr. Henry Jekyll / Edward Hyde",
+      "characterImage": "characters/the_league_of_extraordinary_gentlemen_dr_henry_jekyll.webp"
+    },
+    {
+      "personId": 973,
+      "characterName": "M",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 16,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 5
+    },
+    {
+      "countryId": 9
+    },
+    {
+      "countryId": 2
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2193,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2194,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1918,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2195,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2196,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    }
+  ]
+}

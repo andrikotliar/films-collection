@@ -1,0 +1,96 @@
+{
+  "$schema": "_schema.json",
+  "id": 22,
+  "title": "Back to the Future: Part III",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1990-05-25T00:00:00.000Z",
+  "duration": 118,
+  "poster": "posters/back_to_the_future_3.webp",
+  "youtubeTrailerId": "EYkguxpqsrg",
+  "budget": 40000000,
+  "boxOffice": 245000000,
+  "rating": 3,
+  "description": "Enjoying a peaceable existence in 1885, Doctor Emmet Brown is about to be killed by Buford \"Mad Dog\"Tannen. Marty McFly travels back in time to save his friend.",
+  "chapterKey": "back-to-the-future",
+  "chapterOrder": 3,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 824,
+      "characterName": "Marty McFly",
+      "characterImage": null
+    },
+    {
+      "personId": 210,
+      "characterName": "Dr. Emmett Brown",
+      "characterImage": null
+    },
+    {
+      "personId": 799,
+      "characterName": "Clara Clayton",
+      "characterImage": null
+    },
+    {
+      "personId": 1114,
+      "characterName": "Biff Tannen / Griff Tannen",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 1,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1373,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1374,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1374,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1376,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1371,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1377,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 13
+    }
+  ]
+}

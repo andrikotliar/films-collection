@@ -1,0 +1,131 @@
+{
+  "$schema": "_schema.json",
+  "id": 137,
+  "title": "Spider-Man: Homecoming",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2017-07-07T00:00:00.000Z",
+  "duration": 133,
+  "poster": "posters/mcu_spider_man_1.webp",
+  "youtubeTrailerId": "n9DwoQ7HWvI",
+  "budget": 175000000,
+  "boxOffice": 880000000,
+  "rating": 2,
+  "description": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
+  "chapterKey": "mcu",
+  "chapterOrder": 18,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 40,
+      "actorId": 1133,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 825,
+      "characterName": "Adrian Toomes / Vulture",
+      "characterImage": "characters/spider_man_homecoming_adrian_toomes.webp"
+    },
+    {
+      "personId": 1133,
+      "characterName": "Peter Parker / Spider-Man",
+      "characterImage": "characters/spider_man_homecoming_peter_parker.webp"
+    },
+    {
+      "personId": 982,
+      "characterName": "Tony Stark / Iron Man",
+      "characterImage": "characters/spider_man_homecoming_tony_stark.webp"
+    },
+    {
+      "personId": 780,
+      "characterName": "May Parker",
+      "characterImage": null
+    },
+    {
+      "personId": 1201,
+      "characterName": "Michelle",
+      "characterImage": null
+    },
+    {
+      "personId": 489,
+      "characterName": "Ned",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 25,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1976,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1979,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1980,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1976,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1981,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1309,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1977,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1442,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1982,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    },
+    {
+      "studioId": 4
+    }
+  ]
+}

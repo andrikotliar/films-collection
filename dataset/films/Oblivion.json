@@ -1,0 +1,126 @@
+{
+  "$schema": "_schema.json",
+  "id": 111,
+  "title": "Oblivion",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2013-04-19T00:00:00.000Z",
+  "duration": 124,
+  "poster": "posters/oblivion.webp",
+  "youtubeTrailerId": "XmIIgE7eSak",
+  "budget": 160000000,
+  "boxOffice": 286000000,
+  "rating": 1,
+  "description": "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1129,
+      "characterName": "Jack",
+      "characterImage": null
+    },
+    {
+      "personId": 854,
+      "characterName": "Beech",
+      "characterImage": null
+    },
+    {
+      "personId": 884,
+      "characterName": "Julia",
+      "characterImage": null
+    },
+    {
+      "personId": 55,
+      "characterName": "Victoria",
+      "characterImage": null
+    },
+    {
+      "personId": 875,
+      "characterName": "Sykes",
+      "characterImage": null
+    },
+    {
+      "personId": 814,
+      "characterName": "Sally",
+      "characterImage": null
+    },
+    {
+      "personId": 1203,
+      "characterName": "Kara",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 30,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1867,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1868,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1869,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1480,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1870,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1871,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1872,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1873,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1874,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 13
+    }
+  ]
+}

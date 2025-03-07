@@ -1,0 +1,139 @@
+{
+  "$schema": "_schema.json",
+  "id": 224,
+  "title": "WALL-E",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2008-06-27T00:00:00.000Z",
+  "duration": 97,
+  "poster": "posters/wall_e.webp",
+  "youtubeTrailerId": "alIq_wG9FNk",
+  "budget": 180000000,
+  "boxOffice": 533000000,
+  "rating": 3,
+  "description": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 10,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 5,
+      "nominationId": 50,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 50,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 50,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 10,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 106,
+      "characterName": "WALL-E / M-O / AUTO",
+      "characterImage": "characters/wall_e_wall-e.webp"
+    },
+    {
+      "personId": 325,
+      "characterName": "EVE",
+      "characterImage": "characters/wall_e_eve.webp"
+    },
+    {
+      "personId": 541,
+      "characterName": "Captain",
+      "characterImage": "characters/wall_e_captain.webp"
+    },
+    {
+      "personId": 387,
+      "characterName": "Shelby Forthright",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 29,
+      "order": null
+    },
+    {
+      "collectionId": 21,
+      "order": 9
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1258,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1258,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2348,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1727,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1470,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1472,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 2349,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 8
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    },
+    {
+      "studioId": 3
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "$schema": "_schema.json",
+  "id": 202,
+  "title": "The Mummy Returns",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2001-05-04T00:00:00.000Z",
+  "duration": 130,
+  "poster": "posters/mummy_2.webp",
+  "youtubeTrailerId": "3yXjs7BUKYc",
+  "budget": 98000000,
+  "boxOffice": 433000000,
+  "rating": 3,
+  "description": "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror.",
+  "chapterKey": "mummy",
+  "chapterOrder": 2,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 144,
+      "characterName": "Rick O'Connell",
+      "characterImage": null
+    },
+    {
+      "personId": 940,
+      "characterName": "Evelyn Carnahan / Nefertiri",
+      "characterImage": null
+    },
+    {
+      "personId": 583,
+      "characterName": "Jonathan",
+      "characterImage": null
+    },
+    {
+      "personId": 88,
+      "characterName": "Imhotep",
+      "characterImage": null
+    },
+    {
+      "personId": 883,
+      "characterName": "Ardeth Bay",
+      "characterImage": null
+    },
+    {
+      "personId": 901,
+      "characterName": "Meela / Anck-Su-Namun",
+      "characterImage": null
+    },
+    {
+      "personId": 388,
+      "characterName": "Alex",
+      "characterImage": null
+    },
+    {
+      "personId": 45,
+      "characterName": "Mr. Hafez",
+      "characterImage": null
+    },
+    {
+      "personId": 314,
+      "characterName": "The Scorpion King",
+      "characterImage": null
+    },
+    {
+      "personId": 1061,
+      "characterName": "Izzy",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 27,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2244,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2244,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2245,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2246,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1371,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1291,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 13
+    }
+  ]
+}

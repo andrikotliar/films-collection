@@ -1,0 +1,126 @@
+{
+  "$schema": "_schema.json",
+  "id": 198,
+  "title": "The Maze Runner: The Death Cure",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2018-01-26T00:00:00.000Z",
+  "duration": 143,
+  "poster": "posters/maze_runner_3.webp",
+  "youtubeTrailerId": "4-BTxXm8KSg",
+  "budget": 62000000,
+  "boxOffice": 288000000,
+  "rating": 2,
+  "description": "Young hero Thomas embarks on a mission to find a cure for a deadly disease known as \"The Flare\".",
+  "chapterKey": "maze-runner",
+  "chapterOrder": 3,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 316,
+      "characterName": "Thomas",
+      "characterImage": null
+    },
+    {
+      "personId": 655,
+      "characterName": "Teresa",
+      "characterImage": null
+    },
+    {
+      "personId": 1113,
+      "characterName": "Newt",
+      "characterImage": null
+    },
+    {
+      "personId": 680,
+      "characterName": "Minho",
+      "characterImage": null
+    },
+    {
+      "personId": 18,
+      "characterName": "Janson",
+      "characterImage": null
+    },
+    {
+      "personId": 405,
+      "characterName": "Jorge",
+      "characterImage": null
+    },
+    {
+      "personId": 1003,
+      "characterName": "Brenda",
+      "characterImage": null
+    },
+    {
+      "personId": 1176,
+      "characterName": "Gally",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 12,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2231,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2234,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2235,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1678,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2236,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2237,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2238,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2240,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "$schema": "_schema.json",
+  "id": 17,
+  "title": "Avatar: The Last Airbender",
+  "type": "SERIES",
+  "style": "ANIMATION",
+  "releaseDate": "2005-02-21T00:00:00.000Z",
+  "duration": 23,
+  "poster": "posters/atla.webp",
+  "youtubeTrailerId": null,
+  "rating": 3,
+  "description": "Follow the journey of Aang, the last Airbender and the Avatar, as he awakens from a century-long slumber to a world ravaged by war. With the help of new friends Katara and Sokka, he embarks on a quest to master the elements and bring balance to a world torn by the Fire Nation's aggression.",
+  "chapterKey": "last-airbender",
+  "chapterOrder": 1,
+  "awards": [
+    {
+      "awardId": 6,
+      "nominationId": 127,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 7,
+      "nominationId": 165,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 7,
+      "nominationId": 166,
+      "actorId": null,
+      "comment": "Joaquim Dos Santos. For episode \"Sozin's Comet: Part 3 - Into the Inferno\" (season 3, episode 20)"
+    },
+    {
+      "awardId": 7,
+      "nominationId": 167,
+      "actorId": null,
+      "comment": "Jae-Myung Yoo. For episode \"The Blind Bandit\" (season 2 episode 6)"
+    },
+    {
+      "awardId": 7,
+      "nominationId": 168,
+      "actorId": null,
+      "comment": "Giancarlo Volpe. For episode \"The Drill\" (season 2 episode 13)"
+    },
+    {
+      "awardId": 7,
+      "nominationId": 169,
+      "actorId": null,
+      "comment": "Lauren MacMullan. For episode \"The Deserter\" (season 1 episode 16)"
+    },
+    {
+      "awardId": 7,
+      "nominationId": 170,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 1196,
+      "characterName": "Aang",
+      "characterImage": "characters/avatar_the_last_airbender_aang.webp"
+    },
+    {
+      "personId": 763,
+      "characterName": "Katara",
+      "characterImage": "characters/avatar_the_last_airbender_katara.webp"
+    },
+    {
+      "personId": 481,
+      "characterName": "Sokka",
+      "characterImage": "characters/avatar_the_last_airbender_sokka.webp"
+    },
+    {
+      "personId": 258,
+      "characterName": "Zuko",
+      "characterImage": "characters/avatar_the_last_airbender_zuko.webp"
+    },
+    {
+      "personId": 833,
+      "characterName": "Toph",
+      "characterImage": "characters/avatar_the_last_airbender_toph.webp"
+    },
+    {
+      "personId": 770,
+      "characterName": "Airo",
+      "characterImage": "characters/avatar_the_last_airbender_airo.webp"
+    },
+    {
+      "personId": 418,
+      "characterName": "Azula",
+      "characterImage": "characters/avatar_the_last_airbender_azula.webp"
+    },
+    {
+      "personId": 59,
+      "characterName": "Hakoda",
+      "characterImage": "characters/avatar_the_last_airbender_hakoda.webp"
+    },
+    {
+      "personId": 231,
+      "characterName": "Mai",
+      "characterImage": "characters/avatar_the_last_airbender_mai.webp"
+    },
+    {
+      "personId": 889,
+      "characterName": "Ty Lee",
+      "characterImage": "characters/avatar_the_last_airbender_ty_lee.webp"
+    },
+    {
+      "personId": 507,
+      "characterName": "Roku",
+      "characterImage": "characters/avatar_the_last_airbender_roku.webp"
+    },
+    {
+      "personId": 527,
+      "characterName": "Zhao",
+      "characterImage": "characters/avatar_the_last_airbender_zhao.webp"
+    },
+    {
+      "personId": 215,
+      "characterName": "Long Feng",
+      "characterImage": "characters/avatar_the_last_airbender_long_feng.webp"
+    },
+    {
+      "personId": 573,
+      "characterName": "Princess Yue",
+      "characterImage": "characters/avatar_the_last_airbender_princess_yue.webp"
+    },
+    {
+      "personId": 545,
+      "characterName": "Suki",
+      "characterImage": "characters/avatar_the_last_airbender_suki.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1339,
+      "position": "CREATOR",
+      "comment": null
+    },
+    {
+      "personId": 1340,
+      "position": "CREATOR",
+      "comment": null
+    },
+    {
+      "personId": 1339,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1341,
+      "position": "DIRECTOR",
+      "comment": "19 episodes"
+    },
+    {
+      "personId": 1342,
+      "position": "DIRECTOR",
+      "comment": "9 episodes"
+    },
+    {
+      "personId": 1343,
+      "position": "DIRECTOR",
+      "comment": "11 episodes"
+    },
+    {
+      "personId": 1344,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1345,
+      "position": "DIRECTOR",
+      "comment": "12 episodes"
+    },
+    {
+      "personId": 1340,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1346,
+      "position": "DIRECTOR",
+      "comment": "8 episodes"
+    },
+    {
+      "personId": 1339,
+      "position": "WRITER",
+      "comment": "14 episodes (written by)"
+    },
+    {
+      "personId": 1340,
+      "position": "WRITER",
+      "comment": "7 episodes (written by)"
+    },
+    {
+      "personId": 1347,
+      "position": "WRITER",
+      "comment": "12 episodes"
+    },
+    {
+      "personId": 1348,
+      "position": "WRITER",
+      "comment": "11 episodes"
+    },
+    {
+      "personId": 1349,
+      "position": "WRITER",
+      "comment": "5 episodes"
+    },
+    {
+      "personId": 1350,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1351,
+      "position": "WRITER",
+      "comment": "10 episodes"
+    },
+    {
+      "personId": 1352,
+      "position": "WRITER",
+      "comment": "8 episodes"
+    },
+    {
+      "personId": 1353,
+      "position": "WRITER",
+      "comment": "7 episodes"
+    },
+    {
+      "personId": 1354,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1355,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1356,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1357,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1358,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1359,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1360,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1361,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1341,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1339,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1340,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1362,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1363,
+      "position": "COMPOSER",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 2
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 22
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 61,
+    "seasonsTotal": 3,
+    "seasons": [
+      {
+        "number": 1,
+        "episodesCount": 20,
+        "releaseDate": "2005-02-21T00:00:00.000Z",
+        "youtubeTrailerId": "ahPeclU9VW0",
+        "title": "Book 1: Water",
+        "description": "Aang travels with his new friends across the Earh Kingdom in order to reach the North Water Pole to find a Master of the Waterbending."
+      },
+      {
+        "number": 2,
+        "episodesCount": 20,
+        "releaseDate": "2006-03-17T00:00:00.000Z",
+        "youtubeTrailerId": "ahPeclU9VW0",
+        "title": "Book 2: Earth",
+        "description": "Aang continues his training as the Avatar, facing new challenges and adventures. The group confronts the Earth Kingdom's struggles, uncovers the secrets of the spirit world, and Aang delves deeper into his connection with the Avatar State, all while the Fire Nation intensifies its pursuit."
+      },
+      {
+        "number": 3,
+        "episodesCount": 21,
+        "releaseDate": "2007-09-21T00:00:00.000Z",
+        "youtubeTrailerId": "ahPeclU9VW0",
+        "title": "Book 3: Fire",
+        "description": "Aang and his friends prepare for the ultimate showdown with the Fire Nation and its tyrannical ruler, Fire Lord Ozai. The group faces personal dilemmas and tough choices, while the world holds its breath, waiting for the Avatar's triumph and the restoration of balance."
+      }
+    ]
+  }
+}

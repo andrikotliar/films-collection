@@ -1,0 +1,134 @@
+{
+  "$schema": "_schema.json",
+  "id": 73,
+  "title": "Ice Age: Dawn of the Dinosaurs",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2009-07-01T00:00:00.000Z",
+  "duration": 94,
+  "poster": "posters/ice_age_3.webp",
+  "youtubeTrailerId": "Y_nSwh2WjAM",
+  "budget": 90000000,
+  "boxOffice": 886000000,
+  "rating": 1,
+  "description": "When Sid's attempt to adopt three dinosaur eggs gets him abducted by their real mother to an underground lost world, his friends attempt to rescue him.",
+  "chapterKey": "ice-age",
+  "chapterOrder": 3,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 951,
+      "characterName": "Manny",
+      "characterImage": "characters/ice_age_dawn_of_the_dinosaurs_manny.webp"
+    },
+    {
+      "personId": 936,
+      "characterName": "Ellie",
+      "characterImage": "characters/ice_age_dawn_of_the_dinosaurs_ellie.webp"
+    },
+    {
+      "personId": 284,
+      "characterName": "Diego",
+      "characterImage": "characters/ice_age_dawn_of_the_dinosaurs_diego.webp"
+    },
+    {
+      "personId": 586,
+      "characterName": "Sid",
+      "characterImage": "characters/ice_age_dawn_of_the_dinosaurs_sid.webp"
+    },
+    {
+      "personId": 621,
+      "characterName": "Eddie",
+      "characterImage": "characters/ice_age_dawn_of_the_dinosaurs_eddie.webp"
+    },
+    {
+      "personId": 1070,
+      "characterName": "Buck",
+      "characterImage": "characters/ice_age_dawn_of_the_dinosaurs_buck.webp"
+    },
+    {
+      "personId": 1049,
+      "characterName": "Crash",
+      "characterImage": "characters/ice_age_dawn_of_the_dinosaurs_crash.webp"
+    },
+    {
+      "personId": 202,
+      "characterName": "Scrat",
+      "characterImage": "characters/ice_age_dawn_of_the_dinosaurs_scrat.webp"
+    },
+    {
+      "personId": 639,
+      "characterName": "Scratte",
+      "characterImage": "characters/ice_age_dawn_of_the_dinosaurs_scratte.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1688,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1683,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1685,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1689,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1690,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1686,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1691,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1551,
+      "position": "COMPOSER",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 6
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    },
+    {
+      "studioId": 36
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "$schema": "_schema.json",
+  "id": 239,
+  "title": "Zootopia",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2016-03-04T00:00:00.000Z",
+  "duration": 108,
+  "poster": "posters/zootopia.webp",
+  "youtubeTrailerId": "jWM0ct-OLsM",
+  "budget": 150000000,
+  "boxOffice": 1020000000,
+  "rating": 3,
+  "description": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 10,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 113,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 10,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 409,
+      "characterName": "Judy Hopps",
+      "characterImage": "characters/zootopia_judy_hopps.webp"
+    },
+    {
+      "personId": 524,
+      "characterName": "Nick Wilde",
+      "characterImage": "characters/zootopia_nick_wilde.webp"
+    },
+    {
+      "personId": 463,
+      "characterName": "Chief Bogo",
+      "characterImage": "characters/zootopia_chief_bogo.webp"
+    },
+    {
+      "personId": 550,
+      "characterName": "Bellwether",
+      "characterImage": "characters/zootopia_bellwether.webp"
+    },
+    {
+      "personId": 866,
+      "characterName": "Clawhauser",
+      "characterImage": "characters/zootopia_clawhauser.webp"
+    },
+    {
+      "personId": 136,
+      "characterName": "Bonnie Hopps",
+      "characterImage": "characters/zootopia_bonnie_hopps.webp"
+    },
+    {
+      "personId": 306,
+      "characterName": "Stu Hopps",
+      "characterImage": "characters/zootopia_stu_hopps.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2386,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2387,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2388,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2389,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2390,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1442,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2391,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 2392,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 6
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    }
+  ]
+}

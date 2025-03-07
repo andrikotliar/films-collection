@@ -1,0 +1,144 @@
+{
+  "$schema": "_schema.json",
+  "id": 98,
+  "title": "Man of Steel",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2013-06-14T00:00:00.000Z",
+  "duration": 143,
+  "poster": "posters/man_of_steel.webp",
+  "youtubeTrailerId": "T6DJcgm3wNY",
+  "budget": 225000000,
+  "boxOffice": 668000000,
+  "rating": 2,
+  "description": "Clark Kent is an alien who as a child was evacuated from his dying world and came to Earth, living as a normal human. But when survivors of his alien home invade Earth, he must reveal himself to the world.",
+  "chapterKey": "dceu",
+  "chapterOrder": 1,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 443,
+      "characterName": "Clark Kent / Kal-El",
+      "characterImage": null
+    },
+    {
+      "personId": 54,
+      "characterName": "Lois Lane",
+      "characterImage": null
+    },
+    {
+      "personId": 831,
+      "characterName": "General Zod",
+      "characterImage": null
+    },
+    {
+      "personId": 291,
+      "characterName": "Martha Kent",
+      "characterImage": null
+    },
+    {
+      "personId": 1015,
+      "characterName": "Jor-El",
+      "characterImage": null
+    },
+    {
+      "personId": 75,
+      "characterName": "Faora-Ul",
+      "characterImage": null
+    },
+    {
+      "personId": 433,
+      "characterName": "General Swanwick",
+      "characterImage": null
+    },
+    {
+      "personId": 974,
+      "characterName": "Dr. Emil Hamilton",
+      "characterImage": null
+    },
+    {
+      "personId": 211,
+      "characterName": "Colonel Nathan Hardy",
+      "characterImage": null
+    },
+    {
+      "personId": 672,
+      "characterName": "Jonathan Kent",
+      "characterImage": null
+    },
+    {
+      "personId": 707,
+      "characterName": "Perry White",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 11,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1386,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1379,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1378,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1380,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1381,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1388,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1383,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1465,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 8
+    },
+    {
+      "studioId": 18
+    }
+  ]
+}

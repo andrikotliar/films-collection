@@ -1,0 +1,130 @@
+{
+  "$schema": "_schema.json",
+  "id": 178,
+  "title": "The Hunger Games: Catching Fire",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2013-11-22T00:00:00.000Z",
+  "duration": 146,
+  "poster": "posters/hunger_games_2.webp",
+  "youtubeTrailerId": "EAzGXqJSDJ8",
+  "budget": 130000000,
+  "boxOffice": 865000000,
+  "rating": 2,
+  "description": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem.",
+  "chapterKey": "hunger-games",
+  "chapterOrder": 2,
+  "awards": [
+    {
+      "awardId": 8,
+      "nominationId": 185,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 187,
+      "actorId": 620,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 196,
+      "actorId": 547,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 547,
+      "characterName": "Katniss Everdeen",
+      "characterImage": null
+    },
+    {
+      "personId": 620,
+      "characterName": "Peeta Mellark",
+      "characterImage": null
+    },
+    {
+      "personId": 722,
+      "characterName": "Gale Hawthorne",
+      "characterImage": null
+    },
+    {
+      "personId": 1190,
+      "characterName": "Haymitch Abernathy",
+      "characterImage": null
+    },
+    {
+      "personId": 327,
+      "characterName": "Effie Trinket",
+      "characterImage": null
+    },
+    {
+      "personId": 309,
+      "characterName": "President Coriolanus Snow",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 12,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1680,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2180,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2003,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2177,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2178,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1384,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2181,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 57
+    }
+  ]
+}

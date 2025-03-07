@@ -1,0 +1,352 @@
+{
+  "title": "Film",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Unique identifier for the film."
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the film."
+    },
+    "type": {
+      "type": "string",
+      "description": "Type of title.",
+      "enum": [
+        "FILM",
+        "SERIES"
+      ],
+      "default": "FILM"
+    },
+    "style": {
+      "type": "string",
+      "description": "Style of the title.",
+      "enum": [
+        "ANIMATION",
+        "LIVE_ACTION"
+      ],
+      "default": "LIVE_ACTION"
+    },
+    "poster": {
+      "type": "string",
+      "description": "Path to the file without base URL",
+      "examples": [
+        "posters/terminator.webp"
+      ]
+    },
+    "youtubeTrailerId": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "ID of a YouTube video. Usually NULL for a SERIES, as series trailers are found in the seriesExtension field.",
+      "examples": [
+        "CM79GTEm2ps"
+      ]
+    },
+    "releaseDate": {
+      "type": "string",
+      "description": "ISO date string. Typically the release date in the country of origin."
+    },
+    "description": {
+      "type": "string",
+      "description": "Short description of the film. For a SERIES, it is a summary of the entire series."
+    },
+    "duration": {
+      "type": "number",
+      "description": "Runtime of the film in minutes."
+    },
+    "budget": {
+      "type": "number",
+      "description": "Estimated film budget. Usually empty for a SERIES.",
+      "examples": [
+        120000000
+      ]
+    },
+    "boxOffice": {
+      "type": "number",
+      "description": "Known rounded worldwide gross revenue.",
+      "examples": [
+        1000000000
+      ]
+    },
+    "rating": {
+      "type": "number",
+      "description": "Film rating on a three-point scale. Where 3 is awesome and 1 is overall good",
+      "minimum": 1,
+      "maximum": 3
+    },
+    "chapterKey": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Key representing a chapter group. For example, the key 'terminator' indicates that all films with this key belong to the same series."
+    },
+    "chapterOrder": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "Order of the film within the chapter group."
+    },
+    "genres": {
+      "type": "array",
+      "description": "List of genre references. All available genres can be found in dataset/general/genres.json.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "genreId": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "genreId"
+        ]
+      }
+    },
+    "countries": {
+      "type": "array",
+      "description": "List of country references. All available countries can be found in dataset/general/countries.json.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "countryId": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "countryId"
+        ]
+      }
+    },
+    "collections": {
+      "type": "array",
+      "description": "List of collection references. All available collections can be found in dataset/general/collections.json.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "collectionId": {
+            "type": "number"
+          },
+          "order": {
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "collectionId",
+          "order"
+        ]
+      }
+    },
+    "studios": {
+      "type": "array",
+      "description": "List of references to production companies. All available studios can be found in dataset/general/studios.json.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "studioId": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "studioId"
+        ]
+      }
+    },
+    "crew": {
+      "type": "array",
+      "description": "List of main crew members",
+      "items": {
+        "type": "object",
+        "properties": {
+          "personId": {
+            "type": "number",
+            "description": "Reference to a person in the people table. All available people are in the dataset/general/people.json."
+          },
+          "position": {
+            "type": "string",
+            "description": "Crew member role.",
+            "enum": [
+              "DIRECTOR",
+              "WRITER",
+              "COMPOSER",
+              "CAMERAMAN",
+              "PRODUCER",
+              "CREATOR"
+            ]
+          },
+          "comment": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Additional information about a crew member."
+          }
+        },
+        "required": [
+          "personId",
+          "position",
+          "comment"
+        ]
+      }
+    },
+    "cast": {
+      "type": "array",
+      "description": "List of actors",
+      "items": {
+        "type": "object",
+        "properties": {
+          "personId": {
+            "type": "number",
+            "description": "Reference to a person in the people table. All available people are in the dataset/general/people.json"
+          },
+          "characterName": {
+            "type": "string",
+            "description": "Actor's role"
+          },
+          "characterImage": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Path to the file without base URL. Shows how actor looks in the movie or which character they voiced in the ANIMATION. It's NULL if an actor in the movie is recognizable without additional image."
+          }
+        },
+        "required": [
+          "personId",
+          "characterName",
+          "characterImage"
+        ]
+      }
+    },
+    "awards": {
+      "type": "array",
+      "description": "List of awards and nominations.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "awardId": {
+            "type": "number",
+            "description": "Reference to an award. All available awards are in the dataset/general/awards.json"
+          },
+          "nominationId": {
+            "type": "number",
+            "description": "Reference to a nomination. All available nominations are in the dataset/general/nominations.json"
+          },
+          "actorId": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "This refers to a person on the people table in case an actor was a nominee for an award."
+          },
+          "comment": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Additional information about a nomination."
+          }
+        },
+        "required": [
+          "awardId",
+          "nominationId",
+          "actorId",
+          "comment"
+        ]
+      }
+    },
+    "seriesExtension": {
+      "type": "object",
+      "description": "Additional details about seasons and episodes for a series. This field is only present for the SERIES type.",
+      "properties": {
+        "seasonsTotal": {
+          "type": "number",
+          "description": "Total seasons in a series",
+          "minimum": 1
+        },
+        "episodesTotal": {
+          "type": "number",
+          "description": "Total episodes in a series",
+          "minimum": 1
+        },
+        "seasons": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "number": {
+                "type": "number",
+                "description": "Number of a season"
+              },
+              "episodesCount": {
+                "type": "number",
+                "description": "Total episodes in a season"
+              },
+              "releaseDate": {
+                "type": "string",
+                "description": "ISO date string"
+              },
+              "youtubeTrailerId": {
+                "type": "string",
+                "description": "ID of a YouTube video."
+              },
+              "title": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Additional title of a season.",
+                "examples": [
+                  "Book 1. Water"
+                ]
+              },
+              "description": {
+                "type": "string",
+                "description": "Short description of a season"
+              }
+            },
+            "required": [
+              "number",
+              "episodesCount",
+              "releaseDate",
+              "youtubeTrailerId",
+              "title"
+            ]
+          }
+        }
+      },
+      "required": [
+        "seasonsTotal",
+        "episodesTotal",
+        "seasons"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "type",
+    "style",
+    "releaseDate",
+    "duration",
+    "poster",
+    "youtubeTrailerId",
+    "rating",
+    "description",
+    "chapterKey",
+    "chapterOrder",
+    "awards",
+    "cast",
+    "collections",
+    "countries",
+    "crew",
+    "genres",
+    "studios"
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "$schema": "_schema.json",
+  "id": 81,
+  "title": "Indiana Jones and the Temple of Doom",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1984-05-23T00:00:00.000Z",
+  "duration": 118,
+  "poster": "posters/indiana_jones_2.webp",
+  "youtubeTrailerId": "WBdyLyijZhU",
+  "budget": 28000000,
+  "boxOffice": 333000000,
+  "rating": 1,
+  "description": "In 1935, Indiana Jones arrives in India, still part of the British Empire, and is asked to find a mystical stone. He then stumbles upon a secret cult committing enslavement and human sacrifices in the catacombs of an ancient palace.",
+  "chapterKey": "indiana-jones",
+  "chapterOrder": 2,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 1,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 99,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 34,
+      "actorId": null,
+      "comment": "\"The adventures of Indiana Jones DVD Collection\""
+    },
+    {
+      "awardId": 9,
+      "nominationId": 209,
+      "actorId": 431,
+      "comment": null
+    },
+    {
+      "awardId": 9,
+      "nominationId": 210,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 431,
+      "characterName": "Dr. Henry «Indiana» Jones, Jr.",
+      "characterImage": null
+    },
+    {
+      "personId": 644,
+      "characterName": "Willie Scott",
+      "characterImage": null
+    },
+    {
+      "personId": 656,
+      "characterName": "Short Round",
+      "characterImage": null
+    },
+    {
+      "personId": 53,
+      "characterName": "Mola Ram",
+      "characterImage": null
+    },
+    {
+      "personId": 1008,
+      "characterName": "Chattar Lal",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 27,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1375,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1710,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1711,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1703,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1707,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1563,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1708,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 14
+    },
+    {
+      "studioId": 37
+    }
+  ]
+}

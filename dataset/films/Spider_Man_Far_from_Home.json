@@ -1,0 +1,127 @@
+{
+  "$schema": "_schema.json",
+  "id": 136,
+  "title": "Spider-Man: Far from Home",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2019-07-02T00:00:00.000Z",
+  "duration": 129,
+  "poster": "posters/mcu_spider_man_2.webp",
+  "youtubeTrailerId": "Nt9L1jCKGnE",
+  "budget": 160000000,
+  "boxOffice": 1130000000,
+  "rating": 2,
+  "description": "Following the events of Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
+  "chapterKey": "mcu",
+  "chapterOrder": 24,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 36,
+      "actorId": 1201,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 40,
+      "actorId": 1133,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 1133,
+      "characterName": "Peter Parker / Spider-Man",
+      "characterImage": "characters/spider_man_far_from_home_peter_parker.webp"
+    },
+    {
+      "personId": 498,
+      "characterName": "Quentin Beck / Mysterio",
+      "characterImage": "characters/spider_man_far_from_home_quentin_beck.webp"
+    },
+    {
+      "personId": 1036,
+      "characterName": "Nick Fury",
+      "characterImage": null
+    },
+    {
+      "personId": 780,
+      "characterName": "May Parker",
+      "characterImage": null
+    },
+    {
+      "personId": 601,
+      "characterName": "Happy Hogan",
+      "characterImage": null
+    },
+    {
+      "personId": 1201,
+      "characterName": "MJ",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 25,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1976,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1311,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1312,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1309,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1977,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1442,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1978,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 6
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 10
+    },
+    {
+      "studioId": 4
+    }
+  ]
+}

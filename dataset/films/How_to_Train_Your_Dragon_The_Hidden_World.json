@@ -1,0 +1,99 @@
+{
+  "$schema": "_schema.json",
+  "id": 68,
+  "title": "How to Train Your Dragon: The Hidden World",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2019-02-22T00:00:00.000Z",
+  "duration": 104,
+  "poster": "posters/how_to_train_your_dragon_3.webp",
+  "youtubeTrailerId": "SkcucKDrbOI",
+  "budget": 129000000,
+  "boxOffice": 443000000,
+  "rating": 3,
+  "description": "When Hiccup discovers Toothless isn't the only Night Fury, he must seek \"The Hidden World\", a secret Dragon Utopia before a hired tyrant named Grimmel finds it first.",
+  "chapterKey": "how-to-train-your-dragon",
+  "chapterOrder": 3,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 533,
+      "characterName": "Hiccup",
+      "characterImage": "characters/how_to_train_your_dragon_the_hidden_world_hiccup.webp"
+    },
+    {
+      "personId": 51,
+      "characterName": "Astrid ",
+      "characterImage": "characters/how_to_train_your_dragon_the_hidden_world_astrid.webp"
+    },
+    {
+      "personId": 366,
+      "characterName": "Grimmel ",
+      "characterImage": "characters/how_to_train_your_dragon_the_hidden_world_grimmel.webp"
+    },
+    {
+      "personId": 230,
+      "characterName": "Gobber ",
+      "characterImage": "characters/how_to_train_your_dragon_the_hidden_world_gobber.webp"
+    },
+    {
+      "personId": 685,
+      "characterName": "Eret ",
+      "characterImage": "characters/how_to_train_your_dragon_the_hidden_world_eret.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1663,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1663,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1665,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1666,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1551,
+      "position": "COMPOSER",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 16
+    },
+    {
+      "studioId": 13
+    }
+  ]
+}

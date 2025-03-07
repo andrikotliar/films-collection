@@ -1,0 +1,1057 @@
+[
+  {
+    "id": 1,
+    "title": "Best Visual Effects",
+    "awardId": 1
+  },
+  {
+    "id": 2,
+    "title": "Best Sound Effects Editing",
+    "awardId": 1
+  },
+  {
+    "id": 3,
+    "title": "Best Effects, Visual Effects",
+    "awardId": 1
+  },
+  {
+    "id": 4,
+    "title": "Best Achievement in Cinematography",
+    "awardId": 1
+  },
+  {
+    "id": 5,
+    "title": "Best Achievement in Visual Effects",
+    "awardId": 1
+  },
+  {
+    "id": 6,
+    "title": "Best Achievement in Art Direction",
+    "awardId": 1
+  },
+  {
+    "id": 7,
+    "title": "Best Achievement in Music Written for Motion Pictures (Original Score)",
+    "awardId": 1
+  },
+  {
+    "id": 8,
+    "title": "Best Achievement in Costume Design",
+    "awardId": 1
+  },
+  {
+    "id": 9,
+    "title": "Best Achievement in Production Design",
+    "awardId": 1
+  },
+  {
+    "id": 10,
+    "title": "Best Animated Feature",
+    "awardId": 1
+  },
+  {
+    "id": 11,
+    "title": "Best Achievement in Sound Mixing",
+    "awardId": 1
+  },
+  {
+    "id": 12,
+    "title": "Best Achievement in Sound Editing",
+    "awardId": 1
+  },
+  {
+    "id": 13,
+    "title": "Best Art Direction-Set Decoration",
+    "awardId": 1
+  },
+  {
+    "id": 14,
+    "title": "Best Sound",
+    "awardId": 1
+  },
+  {
+    "id": 15,
+    "title": "Best Film Editing",
+    "awardId": 1
+  },
+  {
+    "id": 16,
+    "title": "Best Make-up",
+    "awardId": 1
+  },
+  {
+    "id": 17,
+    "title": "Best Music (Original Song)",
+    "awardId": 1
+  },
+  {
+    "id": 18,
+    "title": "Best Achievement in Makeup",
+    "awardId": 1
+  },
+  {
+    "id": 19,
+    "title": "Best Costume Design",
+    "awardId": 1
+  },
+  {
+    "id": 20,
+    "title": "Best Achievement in Makeup and Hairstyling",
+    "awardId": 1
+  },
+  {
+    "id": 21,
+    "title": "Best Performance by an Actor in a Supporting Role",
+    "awardId": 1
+  },
+  {
+    "id": 22,
+    "title": "Best Picture",
+    "awardId": 1
+  },
+  {
+    "id": 23,
+    "title": "Best Director",
+    "awardId": 1
+  },
+  {
+    "id": 24,
+    "title": "Best Writing, Adapted Screenplay",
+    "awardId": 1
+  },
+  {
+    "id": 25,
+    "title": "Best Music (Original Score)",
+    "awardId": 1
+  },
+  {
+    "id": 26,
+    "title": "Best Sound Mixing",
+    "awardId": 1
+  },
+  {
+    "id": 27,
+    "title": "Best Cinematography",
+    "awardId": 1
+  },
+  {
+    "id": 28,
+    "title": "Best Music",
+    "awardId": 1
+  },
+  {
+    "id": 29,
+    "title": "Best Sound Editing",
+    "awardId": 1
+  },
+  {
+    "id": 30,
+    "title": "Best Effects, Sound Effects Editing",
+    "awardId": 1
+  },
+  {
+    "id": 31,
+    "title": "Best Music (Original Dramatic Score)",
+    "awardId": 1
+  },
+  {
+    "id": 32,
+    "title": "Best horror Film",
+    "awardId": 2
+  },
+  {
+    "id": 33,
+    "title": "Best Writing",
+    "awardId": 2
+  },
+  {
+    "id": 34,
+    "title": "Best DVD Collection",
+    "awardId": 2
+  },
+  {
+    "id": 35,
+    "title": "Best Science Fiction Film",
+    "awardId": 2
+  },
+  {
+    "id": 36,
+    "title": "Best Supporting Actress",
+    "awardId": 2
+  },
+  {
+    "id": 37,
+    "title": "Best Director",
+    "awardId": 2
+  },
+  {
+    "id": 38,
+    "title": "Best Actress",
+    "awardId": 2
+  },
+  {
+    "id": 39,
+    "title": "Best Supporting Actor",
+    "awardId": 2
+  },
+  {
+    "id": 40,
+    "title": "Best Performance by a Younger Actor",
+    "awardId": 2
+  },
+  {
+    "id": 41,
+    "title": "Best Special Effects",
+    "awardId": 2
+  },
+  {
+    "id": 42,
+    "title": "Best Comic-to-Film Motion Picture",
+    "awardId": 2
+  },
+  {
+    "id": 43,
+    "title": "Best DVD Special Edition",
+    "awardId": 2
+  },
+  {
+    "id": 44,
+    "title": "Best Actor",
+    "awardId": 2
+  },
+  {
+    "id": 45,
+    "title": "Best Music",
+    "awardId": 2
+  },
+  {
+    "id": 46,
+    "title": "Best Production Design",
+    "awardId": 2
+  },
+  {
+    "id": 47,
+    "title": "Best Make-up",
+    "awardId": 2
+  },
+  {
+    "id": 48,
+    "title": "Best Editing",
+    "awardId": 2
+  },
+  {
+    "id": 49,
+    "title": "Best fantasy Film",
+    "awardId": 2
+  },
+  {
+    "id": 50,
+    "title": "Best Animated Film",
+    "awardId": 2
+  },
+  {
+    "id": 51,
+    "title": "Best action/Adventure Film",
+    "awardId": 2
+  },
+  {
+    "id": 52,
+    "title": "Best Costumes",
+    "awardId": 2
+  },
+  {
+    "id": 53,
+    "title": "Best Costume",
+    "awardId": 2
+  },
+  {
+    "id": 54,
+    "title": "Best DVD Special Edition Release",
+    "awardId": 2
+  },
+  {
+    "id": 55,
+    "title": "Best Writer",
+    "awardId": 2
+  },
+  {
+    "id": 56,
+    "title": "Outstanding Editing",
+    "awardId": 2
+  },
+  {
+    "id": 57,
+    "title": "Outstanding Sound",
+    "awardId": 2
+  },
+  {
+    "id": 58,
+    "title": "Outstanding Art Direction",
+    "awardId": 2
+  },
+  {
+    "id": 59,
+    "title": "Outstanding Set Decoration",
+    "awardId": 2
+  },
+  {
+    "id": 60,
+    "title": "Best Performance by a Younger Actor in a Television Series",
+    "awardId": 2
+  },
+  {
+    "id": 61,
+    "title": "Best Supporting Actress in Streaming Presentation",
+    "awardId": 2
+  },
+  {
+    "id": 62,
+    "title": "Best Streaming horror & thriller Series",
+    "awardId": 2
+  },
+  {
+    "id": 63,
+    "title": "Best New Media Television Series",
+    "awardId": 2
+  },
+  {
+    "id": 64,
+    "title": "Best Youth-Oriented Series on Television",
+    "awardId": 2
+  },
+  {
+    "id": 65,
+    "title": "Best Costume Design",
+    "awardId": 2
+  },
+  {
+    "id": 66,
+    "title": "Best action/Adventure/thriller Film",
+    "awardId": 2
+  },
+  {
+    "id": 67,
+    "title": "Best Presentation on Television",
+    "awardId": 2
+  },
+  {
+    "id": 68,
+    "title": "Best thriller Film",
+    "awardId": 2
+  },
+  {
+    "id": 69,
+    "title": "Best DVD/Blu-Ray Special Edition Release",
+    "awardId": 2
+  },
+  {
+    "id": 70,
+    "title": "Best Sci-Fi/Horror Movie",
+    "awardId": 3
+  },
+  {
+    "id": 71,
+    "title": "Best Cinematography",
+    "awardId": 3
+  },
+  {
+    "id": 72,
+    "title": "Best Editing",
+    "awardId": 3
+  },
+  {
+    "id": 73,
+    "title": "Best Art Direction",
+    "awardId": 3
+  },
+  {
+    "id": 74,
+    "title": "Best Sound",
+    "awardId": 3
+  },
+  {
+    "id": 75,
+    "title": "Best Visual Effects",
+    "awardId": 3
+  },
+  {
+    "id": 76,
+    "title": "Best action Movie",
+    "awardId": 3
+  },
+  {
+    "id": 77,
+    "title": "Best Production Design",
+    "awardId": 3
+  },
+  {
+    "id": 78,
+    "title": "Best Costume Design",
+    "awardId": 3
+  },
+  {
+    "id": 79,
+    "title": "Best Supporting Actor in a Limited Series or Movie Made for Television",
+    "awardId": 3
+  },
+  {
+    "id": 80,
+    "title": "Best Actress in an action Movie",
+    "awardId": 3
+  },
+  {
+    "id": 81,
+    "title": "Best Animated Feature",
+    "awardId": 3
+  },
+  {
+    "id": 82,
+    "title": "Best Song",
+    "awardId": 3
+  },
+  {
+    "id": 83,
+    "title": "Best Hair & Makeup",
+    "awardId": 3
+  },
+  {
+    "id": 84,
+    "title": "Best Score",
+    "awardId": 3
+  },
+  {
+    "id": 85,
+    "title": "Best Family Film - Live action",
+    "awardId": 3
+  },
+  {
+    "id": 86,
+    "title": "Best Supporting Actor in a drama Series",
+    "awardId": 3
+  },
+  {
+    "id": 87,
+    "title": "Best Supporting Actor",
+    "awardId": 3
+  },
+  {
+    "id": 88,
+    "title": "Best Picture",
+    "awardId": 3
+  },
+  {
+    "id": 89,
+    "title": "Best Acting Ensemble",
+    "awardId": 3
+  },
+  {
+    "id": 90,
+    "title": "Best Director",
+    "awardId": 3
+  },
+  {
+    "id": 91,
+    "title": "Best Composer",
+    "awardId": 3
+  },
+  {
+    "id": 92,
+    "title": "Favorite Film Franchise",
+    "awardId": 3
+  },
+  {
+    "id": 93,
+    "title": "Best Digital Acting Performance",
+    "awardId": 3
+  },
+  {
+    "id": 94,
+    "title": "Best Limited Series",
+    "awardId": 3
+  },
+  {
+    "id": 95,
+    "title": "Best Actress in a Limited Series or a Movie Made for Television",
+    "awardId": 3
+  },
+  {
+    "id": 96,
+    "title": "Best Young Actress",
+    "awardId": 3
+  },
+  {
+    "id": 97,
+    "title": "Best Production Design",
+    "awardId": 4
+  },
+  {
+    "id": 98,
+    "title": "Best Sound Track",
+    "awardId": 4
+  },
+  {
+    "id": 99,
+    "title": "Best Special Visual Effects",
+    "awardId": 4
+  },
+  {
+    "id": 100,
+    "title": "Best Special Effects",
+    "awardId": 4
+  },
+  {
+    "id": 101,
+    "title": "Best Achievement in Special Visual Effects",
+    "awardId": 4
+  },
+  {
+    "id": 102,
+    "title": "Leading Actor",
+    "awardId": 4
+  },
+  {
+    "id": 103,
+    "title": "Mini-Series",
+    "awardId": 4
+  },
+  {
+    "id": 104,
+    "title": "Supporting Actor",
+    "awardId": 4
+  },
+  {
+    "id": 105,
+    "title": "Best Animated Feature Film",
+    "awardId": 4
+  },
+  {
+    "id": 106,
+    "title": "Best International",
+    "awardId": 4
+  },
+  {
+    "id": 107,
+    "title": "Best Sound",
+    "awardId": 4
+  },
+  {
+    "id": 108,
+    "title": "Best Production Design/Art Direction",
+    "awardId": 4
+  },
+  {
+    "id": 109,
+    "title": "Best Make Up/Hair",
+    "awardId": 4
+  },
+  {
+    "id": 110,
+    "title": "Best Screenplay - Adapted",
+    "awardId": 4
+  },
+  {
+    "id": 111,
+    "title": "Best Editing",
+    "awardId": 4
+  },
+  {
+    "id": 112,
+    "title": "Best Supporting Actor",
+    "awardId": 4
+  },
+  {
+    "id": 113,
+    "title": "Best Feature Film",
+    "awardId": 4
+  },
+  {
+    "id": 114,
+    "title": "Best Film",
+    "awardId": 4
+  },
+  {
+    "id": 115,
+    "title": "Best Cinematography",
+    "awardId": 4
+  },
+  {
+    "id": 116,
+    "title": "Best Costume Design",
+    "awardId": 4
+  },
+  {
+    "id": 117,
+    "title": "Best Animated Film",
+    "awardId": 4
+  },
+  {
+    "id": 118,
+    "title": "Best Director - Motion Picture",
+    "awardId": 5
+  },
+  {
+    "id": 119,
+    "title": "Best Motion Picture - drama",
+    "awardId": 5
+  },
+  {
+    "id": 120,
+    "title": "Best Original Score - Motion Picture",
+    "awardId": 5
+  },
+  {
+    "id": 121,
+    "title": "Best Original Song - Motion Picture",
+    "awardId": 5
+  },
+  {
+    "id": 122,
+    "title": "Best Motion Picture - Comedy or Musical",
+    "awardId": 5
+  },
+  {
+    "id": 123,
+    "title": "Best Performance by an Actor in a Motion Picture - Comedy or Musical",
+    "awardId": 5
+  },
+  {
+    "id": 124,
+    "title": "Best Television Limited Series, Anthology Series or Motion Picture Made for Television",
+    "awardId": 5
+  },
+  {
+    "id": 125,
+    "title": "Best Performance by an Actress in a Limited Series, Anthology Series or a Motion Picture Made for Television",
+    "awardId": 5
+  },
+  {
+    "id": 126,
+    "title": "Best Animated Film",
+    "awardId": 5
+  },
+  {
+    "id": 127,
+    "title": "Outstanding Individual Achievement in Animation",
+    "awardId": 6
+  },
+  {
+    "id": 128,
+    "title": "Outstanding Limited Series",
+    "awardId": 6
+  },
+  {
+    "id": 129,
+    "title": "Outstanding Directing for a Limited Series",
+    "awardId": 6
+  },
+  {
+    "id": 130,
+    "title": "Outstanding Writing for a Limited Series",
+    "awardId": 6
+  },
+  {
+    "id": 131,
+    "title": "Outstanding Cinematography for a Limited Series or Movie",
+    "awardId": 6
+  },
+  {
+    "id": 132,
+    "title": "Outstanding Production Design for a Narrative Period or fantasy Program (One Hour or More)",
+    "awardId": 6
+  },
+  {
+    "id": 133,
+    "title": "Outstanding Music Composition for a Limited Series, Movie or Special (Original Dramatic Score)",
+    "awardId": 6
+  },
+  {
+    "id": 134,
+    "title": "Outstanding Single-Camera Picture Editing for a Limited Series or Movie",
+    "awardId": 6
+  },
+  {
+    "id": 135,
+    "title": "Outstanding Sound Mixing for a Limited Series or Movie",
+    "awardId": 6
+  },
+  {
+    "id": 136,
+    "title": "Outstanding Sound Editing for a Limited Series, Movie or Special",
+    "awardId": 6
+  },
+  {
+    "id": 137,
+    "title": "Outstanding Special Visual Effects in a Supporting Role,",
+    "awardId": 6
+  },
+  {
+    "id": 138,
+    "title": "Outstanding Special Visual Effects for a Series",
+    "awardId": 6
+  },
+  {
+    "id": 139,
+    "title": "Outstanding Television Movie",
+    "awardId": 6
+  },
+  {
+    "id": 140,
+    "title": "Outstanding Special Visual Effects in a Supporting Role",
+    "awardId": 6
+  },
+  {
+    "id": 141,
+    "title": "Outstanding Lead Actor in a Miniseries or a Movie",
+    "awardId": 6
+  },
+  {
+    "id": 142,
+    "title": "Outstanding Supporting Actor in a Miniseries or a Movie",
+    "awardId": 6
+  },
+  {
+    "id": 143,
+    "title": "Outstanding Writing for a Miniseries or a Dramatic Special",
+    "awardId": 6
+  },
+  {
+    "id": 144,
+    "title": "Outstanding Cinematography for a Miniseries or Movie",
+    "awardId": 6
+  },
+  {
+    "id": 145,
+    "title": "Outstanding Music Composition for a Miniseries, Movie or a Special (Original Dramatic Score)",
+    "awardId": 6
+  },
+  {
+    "id": 146,
+    "title": "Outstanding Single-Camera Picture Editing for a Miniseries or a Movie",
+    "awardId": 6
+  },
+  {
+    "id": 147,
+    "title": "Outstanding Sound Editing for a Miniseries, Movie or a Special",
+    "awardId": 6
+  },
+  {
+    "id": 148,
+    "title": "Outstanding Stunt Coordination for a drama Series, Limited of Anthology Series or Movie",
+    "awardId": 6
+  },
+  {
+    "id": 149,
+    "title": "Outstanding Sound Editing for a comedy or drama Series (One Hour)",
+    "awardId": 6
+  },
+  {
+    "id": 150,
+    "title": "Outstanding Sound Mixing for a comedy or drama Series (One Hour)",
+    "awardId": 6
+  },
+  {
+    "id": 151,
+    "title": "Outstanding Music Supervision",
+    "awardId": 6
+  },
+  {
+    "id": 152,
+    "title": "Outstanding Prosthetic Makeup",
+    "awardId": 6
+  },
+  {
+    "id": 153,
+    "title": "Outstanding Main Title Design",
+    "awardId": 6
+  },
+  {
+    "id": 154,
+    "title": "Outstanding Original Main Title Theme Music",
+    "awardId": 6
+  },
+  {
+    "id": 155,
+    "title": "Outstanding Casting for a drama Series",
+    "awardId": 6
+  },
+  {
+    "id": 156,
+    "title": "Outstanding Single-Camera Picture Editing for a drama Series",
+    "awardId": 6
+  },
+  {
+    "id": 157,
+    "title": "Outstanding Sound Editing for a Series",
+    "awardId": 6
+  },
+  {
+    "id": 158,
+    "title": "Outstanding Cinematography for a Single-Camera Series (Half-Hour)",
+    "awardId": 6
+  },
+  {
+    "id": 159,
+    "title": "Outstanding Music Composition for a Series (Original Dramatic Score)",
+    "awardId": 6
+  },
+  {
+    "id": 160,
+    "title": "Outstanding Production Design for a Narrative Program (Half-Hour)",
+    "awardId": 6
+  },
+  {
+    "id": 161,
+    "title": "Outstanding Stunt Coordination for a drama Series Limited Series or Movie",
+    "awardId": 6
+  },
+  {
+    "id": 162,
+    "title": "Outstanding Sound Editing for a comedy or drama Series (Half-Hour and Animation)",
+    "awardId": 6
+  },
+  {
+    "id": 163,
+    "title": "Outstanding Sound Mixing for a comedy or drama Series (Half-Hour and Animation)",
+    "awardId": 6
+  },
+  {
+    "id": 164,
+    "title": "Outstanding Special Visual Effects",
+    "awardId": 6
+  },
+  {
+    "id": 165,
+    "title": "Best Animated Television Production Produced for Children",
+    "awardId": 7
+  },
+  {
+    "id": 166,
+    "title": "Best Directing in an Animated Television Production or Short Form",
+    "awardId": 7
+  },
+  {
+    "id": 167,
+    "title": "Best Character Animation in a Television Production",
+    "awardId": 7
+  },
+  {
+    "id": 168,
+    "title": "Best Directing in an Animated Television Production",
+    "awardId": 7
+  },
+  {
+    "id": 169,
+    "title": "Best Storyboarding in an Animated Television Production",
+    "awardId": 7
+  },
+  {
+    "id": 170,
+    "title": "Best Animated Television Production",
+    "awardId": 7
+  },
+  {
+    "id": 171,
+    "title": "Best Animated Feature",
+    "awardId": 7
+  },
+  {
+    "id": 172,
+    "title": "Best Animated Effects",
+    "awardId": 7
+  },
+  {
+    "id": 173,
+    "title": "Best Character Animation in a Feature Production",
+    "awardId": 7
+  },
+  {
+    "id": 174,
+    "title": "Best Character Design in an Animated Feature Production",
+    "awardId": 7
+  },
+  {
+    "id": 175,
+    "title": "Best Production Design in an Animated Feature Production",
+    "awardId": 7
+  },
+  {
+    "id": 176,
+    "title": "Best Storyboarding in an Animated Feature Production",
+    "awardId": 7
+  },
+  {
+    "id": 177,
+    "title": "Best Voice Acting in an Animated Feature Production",
+    "awardId": 7
+  },
+  {
+    "id": 178,
+    "title": "Best Writing in an Animated Feature Production",
+    "awardId": 7
+  },
+  {
+    "id": 179,
+    "title": "Outstanding Character Animation",
+    "awardId": 7
+  },
+  {
+    "id": 180,
+    "title": "Outstanding Achievement in Storyboarding in an Animated TV/Broadcast Production",
+    "awardId": 7
+  },
+  {
+    "id": 181,
+    "title": "Outstanding Achievement in Production Design in an Animated TV/Broadcast Production",
+    "awardId": 7
+  },
+  {
+    "id": 182,
+    "title": "Best Movie",
+    "awardId": 8
+  },
+  {
+    "id": 183,
+    "title": "Best Hero",
+    "awardId": 8
+  },
+  {
+    "id": 184,
+    "title": "Best Villain",
+    "awardId": 8
+  },
+  {
+    "id": 185,
+    "title": "Movie of the Year",
+    "awardId": 8
+  },
+  {
+    "id": 186,
+    "title": "Best Performance in a Movie",
+    "awardId": 8
+  },
+  {
+    "id": 187,
+    "title": "Best Male Performance",
+    "awardId": 8
+  },
+  {
+    "id": 188,
+    "title": "Best Scared-As-Shit Performance",
+    "awardId": 8
+  },
+  {
+    "id": 189,
+    "title": "Breakthrough Male Performance",
+    "awardId": 8
+  },
+  {
+    "id": 190,
+    "title": "Best action Performance",
+    "awardId": 8
+  },
+  {
+    "id": 191,
+    "title": "Best Duo",
+    "awardId": 8
+  },
+  {
+    "id": 192,
+    "title": "Best action Sequence",
+    "awardId": 8
+  },
+  {
+    "id": 193,
+    "title": "Best Performance",
+    "awardId": 8
+  },
+  {
+    "id": 194,
+    "title": "Best Fight",
+    "awardId": 8
+  },
+  {
+    "id": 195,
+    "title": "Lifetime Achievement",
+    "awardId": 8
+  },
+  {
+    "id": 196,
+    "title": "Best Female Performance",
+    "awardId": 8
+  },
+  {
+    "id": 197,
+    "title": "Best Breakthrough Performance",
+    "awardId": 8
+  },
+  {
+    "id": 198,
+    "title": "Most Desirable Female",
+    "awardId": 8
+  },
+  {
+    "id": 199,
+    "title": "Best On-Screen Team",
+    "awardId": 8
+  },
+  {
+    "id": 200,
+    "title": "Best On-Screen Transformation",
+    "awardId": 8
+  },
+  {
+    "id": 201,
+    "title": "Best Musical Moment",
+    "awardId": 8
+  },
+  {
+    "id": 202,
+    "title": "Best Virtual Performance",
+    "awardId": 8
+  },
+  {
+    "id": 203,
+    "title": "Breakthrough Performance",
+    "awardId": 8
+  },
+  {
+    "id": 204,
+    "title": "Best Summer Movie You Haven't Seen Yet",
+    "awardId": 8
+  },
+  {
+    "id": 205,
+    "title": "Best Show",
+    "awardId": 8
+  },
+  {
+    "id": 206,
+    "title": "Best Performance in a Show",
+    "awardId": 8
+  },
+  {
+    "id": 207,
+    "title": "Best Scared-As-S**t Performance",
+    "awardId": 8
+  },
+  {
+    "id": 208,
+    "title": "Best German TV Actor",
+    "awardId": 9
+  },
+  {
+    "id": 209,
+    "title": "Best International Actor",
+    "awardId": 9
+  },
+  {
+    "id": 210,
+    "title": "Best International Film",
+    "awardId": 9
+  },
+  {
+    "id": 211,
+    "title": "Best International Director",
+    "awardId": 9
+  }
+]

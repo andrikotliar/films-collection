@@ -1,0 +1,125 @@
+{
+  "$schema": "_schema.json",
+  "id": 62,
+  "title": "Harry Potter and the Sorcerer's Stone",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2001-11-16T00:00:00.000Z",
+  "duration": 152,
+  "poster": "posters/harry_potter_1.webp",
+  "youtubeTrailerId": "VyHV0BRtdxo",
+  "budget": 125000000,
+  "boxOffice": 975000000,
+  "rating": 3,
+  "description": "An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
+  "chapterKey": "harry-potter",
+  "chapterOrder": 1,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 52,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 251,
+      "characterName": "Harry Potter",
+      "characterImage": "characters/harry_potter_and_the_sorcerer_s_stone_harry_potter"
+    },
+    {
+      "personId": 1014,
+      "characterName": "Ron Weasley",
+      "characterImage": "characters/harry_potter_and_the_sorcerer_s_stone_ron_weasley"
+    },
+    {
+      "personId": 345,
+      "characterName": "Hermione Granger",
+      "characterImage": "characters/harry_potter_and_the_sorcerer_s_stone_hermione_granger"
+    },
+    {
+      "personId": 970,
+      "characterName": "Albus Dumbledore",
+      "characterImage": null
+    },
+    {
+      "personId": 981,
+      "characterName": "Rubeus Hagrid",
+      "characterImage": null
+    },
+    {
+      "personId": 457,
+      "characterName": "Quirinus Quirrell",
+      "characterImage": null
+    },
+    {
+      "personId": 1130,
+      "characterName": "Draco Malfoy",
+      "characterImage": "characters/harry_potter_and_the_sorcerer_s_stone_draco_malfoy"
+    },
+    {
+      "personId": 22,
+      "characterName": "Severus Snape",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 2,
+      "order": null
+    },
+    {
+      "collectionId": 10,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 2
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1560,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1561,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1562,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1563,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1579,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 8
+    }
+  ]
+}

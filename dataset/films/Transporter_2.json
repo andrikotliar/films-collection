@@ -1,0 +1,116 @@
+{
+  "$schema": "_schema.json",
+  "id": 220,
+  "title": "Transporter 2",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2005-09-02T00:00:00.000Z",
+  "duration": 87,
+  "poster": "posters/transporter_2.webp",
+  "youtubeTrailerId": "sYJ5LDoWRT4",
+  "budget": 32000000,
+  "boxOffice": 85000000,
+  "rating": 2,
+  "description": "Mercenary Frank Martin, who specializes moving goods of all kinds, surfaces again this time in Miami, Florida when he's implicated in the kidnapping of the young son of a powerful USA official.",
+  "chapterKey": "transporter",
+  "chapterOrder": 2,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 531,
+      "characterName": "Frank Martin",
+      "characterImage": null
+    },
+    {
+      "personId": 30,
+      "characterName": "Gianni Chellini",
+      "characterImage": null
+    },
+    {
+      "personId": 50,
+      "characterName": "Audrey Billings",
+      "characterImage": null
+    },
+    {
+      "personId": 646,
+      "characterName": "Lola",
+      "characterImage": null
+    },
+    {
+      "personId": 806,
+      "characterName": "Jefferson Billings",
+      "characterImage": null
+    },
+    {
+      "personId": 455,
+      "characterName": "Jack Billings",
+      "characterImage": null
+    },
+    {
+      "personId": 385,
+      "characterName": "Inspector Tarconi",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 13,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1862,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1431,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2262,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1431,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2263,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2335,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1866,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 7
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 27
+    }
+  ]
+}

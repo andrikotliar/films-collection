@@ -1,0 +1,290 @@
+{
+  "$schema": "_schema.json",
+  "id": 127,
+  "title": "Sherlock",
+  "type": "SERIES",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2010-07-25T00:00:00.000Z",
+  "duration": 90,
+  "poster": "posters/sherlock.webp",
+  "youtubeTrailerId": null,
+  "rating": 2,
+  "description": "Sherlock Holmes with his new friend Dr. Watson face various mysterious events in the modern London.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 6,
+      "nominationId": 139,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 140,
+      "actorId": null,
+      "comment": "\"The Abominable Bride\" episode"
+    },
+    {
+      "awardId": 6,
+      "nominationId": 141,
+      "actorId": 114,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 142,
+      "actorId": 792,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 143,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 144,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 145,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 146,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 147,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 114,
+      "characterName": "Sherlock Holmes",
+      "characterImage": null
+    },
+    {
+      "personId": 792,
+      "characterName": "Dr. John Watson",
+      "characterImage": null
+    },
+    {
+      "personId": 1158,
+      "characterName": "Mrs. Hudson",
+      "characterImage": null
+    },
+    {
+      "personId": 1013,
+      "characterName": "DI Lestrade",
+      "characterImage": null
+    },
+    {
+      "personId": 740,
+      "characterName": "Molly Hooper",
+      "characterImage": null
+    },
+    {
+      "personId": 783,
+      "characterName": "Mycroft Holmes",
+      "characterImage": null
+    },
+    {
+      "personId": 58,
+      "characterName": "Jim Moriarty",
+      "characterImage": null
+    },
+    {
+      "personId": 1230,
+      "characterName": "Lara Pulwer",
+      "characterImage": null
+    },
+    {
+      "personId": 47,
+      "characterName": "Mary Watson",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 6,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 2
+    }
+  ],
+  "crew": [
+    {
+      "personId": 783,
+      "position": "CREATOR",
+      "comment": null
+    },
+    {
+      "personId": 1933,
+      "position": "CREATOR",
+      "comment": null
+    },
+    {
+      "personId": 1934,
+      "position": "DIRECTOR",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 1935,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1936,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1937,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1938,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1939,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1940,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1941,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1942,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1943,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1933,
+      "position": "WRITER",
+      "comment": "9 episodes"
+    },
+    {
+      "personId": 1944,
+      "position": "WRITER",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 783,
+      "position": "WRITER",
+      "comment": "8 episodes"
+    },
+    {
+      "personId": 1945,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1946,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1271,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1947,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1518,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1948,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 7
+    },
+    {
+      "genreId": 5
+    },
+    {
+      "genreId": 9
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 45
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 12,
+    "seasonsTotal": 4,
+    "seasons": [
+      {
+        "number": 1,
+        "episodesCount": 3,
+        "releaseDate": "2010-07-25T00:00:00.000Z",
+        "youtubeTrailerId": "xK7S9mrFWL4",
+        "title": null,
+        "description": "Sherlock Holmes and Dr. John Watson become flatmates. Together, they tackle a series of perplexing cases, including a string of suicides that Sherlock believes are connected by a shadowy antagonist."
+      },
+      {
+        "number": 2,
+        "episodesCount": 3,
+        "releaseDate": "2012-01-01T00:00:00.000Z",
+        "youtubeTrailerId": "vydmN9pzDzg",
+        "title": null,
+        "description": "In the second season, Sherlock continues to astound with his deductive abilities, but he faces even more formidable adversaries. Moriarty, a brilliant and dangerous criminal mastermind, becomes his primary nemesis. The season is filled with high-stakes conflicts and intricate puzzles."
+      },
+      {
+        "number": 3,
+        "episodesCount": 3,
+        "releaseDate": "2014-01-01T00:00:00.000Z",
+        "youtubeTrailerId": "9UcR9iKArd0",
+        "title": null,
+        "description": "Season 3 explores Sherlock's return from a two-year absence, during which he was believed to be dead. The dynamic between Sherlock and Watson is tested as they confront new mysteries, including a wedding, a case of a disappearing train, and a deadly adversary from the past."
+      },
+      {
+        "number": 4,
+        "episodesCount": 3,
+        "releaseDate": "2017-01-01T00:00:00.000Z",
+        "youtubeTrailerId": "FOXZgRTfSUA",
+        "title": null,
+        "description": "The fourth season delves deeper into Sherlock's complex personal life and his troubled past. It features an enigmatic new villain, Culverton Smith, and a series of cases that bring Sherlock to the brink of despair. Dark secrets and unexpected revelations surface, challenging the detective like never before."
+      }
+    ]
+  }
+}

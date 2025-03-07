@@ -1,0 +1,126 @@
+{
+  "$schema": "_schema.json",
+  "id": 96,
+  "title": "Madagascar",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2005-05-27T00:00:00.000Z",
+  "duration": 86,
+  "poster": "posters/madagascar.webp",
+  "youtubeTrailerId": "orAqhC-Hp_o",
+  "budget": 75000000,
+  "boxOffice": 542000000,
+  "rating": 2,
+  "description": "A group of animals who have spent all their life in a New York zoo end up in the jungles of Madagascar, and must adjust to living in the wild.",
+  "chapterKey": "madagascar",
+  "chapterOrder": 1,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 113,
+      "characterName": "Alex",
+      "characterImage": "characters/madagascar_alex.webp"
+    },
+    {
+      "personId": 200,
+      "characterName": "Marty",
+      "characterImage": "characters/madagascar_marty.webp"
+    },
+    {
+      "personId": 277,
+      "characterName": "Melman",
+      "characterImage": "characters/madagascar_melman.webp"
+    },
+    {
+      "personId": 490,
+      "characterName": "Gloria",
+      "characterImage": "characters/madagascar_gloria.webp"
+    },
+    {
+      "personId": 1025,
+      "characterName": "Julien",
+      "characterImage": "characters/madagascar_julien.webp"
+    },
+    {
+      "personId": 1136,
+      "characterName": "Skipper",
+      "characterImage": "characters/madagascar_skipper.webp"
+    },
+    {
+      "personId": 196,
+      "characterName": "Kowalski",
+      "characterImage": "characters/madagascar_kowalski.webp"
+    },
+    {
+      "personId": 1260,
+      "characterName": "Maurice",
+      "characterImage": "characters/madagascar_maurice.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1818,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1136,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1819,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1820,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1818,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1136,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1821,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1383,
+      "position": "COMPOSER",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 6
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 16
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "$schema": "_schema.json",
+  "id": 10,
+  "title": "Aliens",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1986-07-18T00:00:00.000Z",
+  "duration": 137,
+  "poster": "posters/alien_2.webp",
+  "youtubeTrailerId": "oSeQQlaCZgU",
+  "budget": 18000000,
+  "boxOffice": 131000000,
+  "rating": 2,
+  "description": "Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators.",
+  "chapterKey": "alien",
+  "chapterOrder": 2,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 2,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 3,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 99,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 34,
+      "actorId": null,
+      "comment": "As part of the \"Alien Anthology\""
+    },
+    {
+      "awardId": 2,
+      "nominationId": 35,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 38,
+      "actorId": 1068,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 39,
+      "actorId": 125,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 36,
+      "actorId": null,
+      "comment": "Jenette Goldstein"
+    },
+    {
+      "awardId": 2,
+      "nominationId": 40,
+      "actorId": 172,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 23,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 33,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 41,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 1068,
+      "characterName": "Ripley",
+      "characterImage": null
+    },
+    {
+      "personId": 172,
+      "characterName": "Newt",
+      "characterImage": null
+    },
+    {
+      "personId": 820,
+      "characterName": "Corporal Hicks",
+      "characterImage": null
+    },
+    {
+      "personId": 908,
+      "characterName": "Carter J. Burke",
+      "characterImage": null
+    },
+    {
+      "personId": 696,
+      "characterName": "Bishop",
+      "characterImage": null
+    },
+    {
+      "personId": 125,
+      "characterName": "Private Hudson",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 29,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 2
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1288,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1288,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1289,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1290,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1291,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 10
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    }
+  ]
+}

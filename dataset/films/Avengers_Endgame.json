@@ -1,0 +1,236 @@
+{
+  "$schema": "_schema.json",
+  "id": 19,
+  "title": "Avengers: Endgame",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2019-04-26T00:00:00.000Z",
+  "duration": 181,
+  "poster": "posters/avengers_4.webp",
+  "youtubeTrailerId": "TcMBFSGVi1c",
+  "budget": 356000000,
+  "boxOffice": 2730000000,
+  "rating": 3,
+  "description": "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to undo Thanos' actions and restore order to the universe.",
+  "chapterKey": "mcu",
+  "chapterOrder": 23,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 42,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 44,
+      "actorId": 982,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 46,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 16,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 48,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 41,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 182,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 183,
+      "actorId": 982,
+      "comment": "as Tony Stark / Iron Man"
+    },
+    {
+      "awardId": 8,
+      "nominationId": 184,
+      "actorId": 616,
+      "comment": "as Thanos"
+    },
+    {
+      "awardId": 3,
+      "nominationId": 1,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 76,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 982,
+      "characterName": "Tony Stark / Iron Man",
+      "characterImage": "characters/avengers_endgame_tony_stark.webp"
+    },
+    {
+      "personId": 194,
+      "characterName": "Steve Rogers / Captain America",
+      "characterImage": "characters/avengers_endgame_steve_rogers.webp"
+    },
+    {
+      "personId": 151,
+      "characterName": "Carol Danvers / Captain Marvel",
+      "characterImage": null
+    },
+    {
+      "personId": 141,
+      "characterName": "Rocket",
+      "characterImage": "characters/avengers_endgame_rocket.webp"
+    },
+    {
+      "personId": 1042,
+      "characterName": "Natasha Romanoff / Black Widow",
+      "characterImage": null
+    },
+    {
+      "personId": 195,
+      "characterName": "Thor",
+      "characterImage": null
+    },
+    {
+      "personId": 640,
+      "characterName": "Nebula",
+      "characterImage": "characters/avengers_endgame_nebula.webp"
+    },
+    {
+      "personId": 361,
+      "characterName": "Hope van Dyne / The Wasp",
+      "characterImage": null
+    },
+    {
+      "personId": 616,
+      "characterName": "Thanos",
+      "characterImage": "characters/avengers_endgame_thanos.webp"
+    },
+    {
+      "personId": 329,
+      "characterName": "Wanda Maximoff",
+      "characterImage": null
+    },
+    {
+      "personId": 1133,
+      "characterName": "Peter Parker / Spider-Man",
+      "characterImage": null
+    },
+    {
+      "personId": 910,
+      "characterName": "Scott Lang / Ant-Man",
+      "characterImage": "characters/avengers_endgame_scott_lang.webp"
+    },
+    {
+      "personId": 1050,
+      "characterName": "Bucky Barnes",
+      "characterImage": null
+    },
+    {
+      "personId": 552,
+      "characterName": "Clint Barton / Hawkeye",
+      "characterImage": null
+    },
+    {
+      "personId": 179,
+      "characterName": "T'Challa / Black Panther",
+      "characterImage": null
+    },
+    {
+      "personId": 786,
+      "characterName": "Bruce Banner / The Professor Hulk",
+      "characterImage": "characters/avengers_endgame_bruce_banner.webp"
+    },
+    {
+      "personId": 304,
+      "characterName": "James Rhodes / The War Machine",
+      "characterImage": "characters/avengers_endgame_james_rhodes.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 25,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1367,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1368,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1369,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1370,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1309,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1371,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1372,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    },
+    {
+      "studioId": 4
+    }
+  ]
+}

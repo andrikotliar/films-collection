@@ -1,0 +1,116 @@
+{
+  "$schema": "_schema.json",
+  "id": 11,
+  "title": "Alita: Battle Angel",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2019-02-14T00:00:00.000Z",
+  "duration": 122,
+  "poster": "posters/alita.webp",
+  "youtubeTrailerId": "w7pYhpJaJW8",
+  "budget": 170000000,
+  "boxOffice": 400000000,
+  "rating": 1,
+  "description": "A deactivated female cyborg is revived, but cannot remember anything of her past life and goes on a quest to find out who she is.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1003,
+      "characterName": "Alita",
+      "characterImage": "characters/alita_battle_angel_alita.webp"
+    },
+    {
+      "personId": 206,
+      "characterName": "Dr. Dyson Ido",
+      "characterImage": null
+    },
+    {
+      "personId": 546,
+      "characterName": "Chiren",
+      "characterImage": null
+    },
+    {
+      "personId": 767,
+      "characterName": "Vector",
+      "characterImage": null
+    },
+    {
+      "personId": 317,
+      "characterName": "Zapan",
+      "characterImage": "characters/alita_battle_angel_zapan.webp"
+    },
+    {
+      "personId": 486,
+      "characterName": "Grewishka",
+      "characterImage": "characters/alita_battle_angel_grewishka.webp"
+    },
+    {
+      "personId": 658,
+      "characterName": "Hugo",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 7,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1292,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1288,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1293,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1288,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1294,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1295,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1296,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 19
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    }
+  ]
+}

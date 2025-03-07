@@ -1,0 +1,121 @@
+{
+  "$schema": "_schema.json",
+  "id": 115,
+  "title": "Pirates of the Caribbean: At World's End",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2007-05-25T00:00:00.000Z",
+  "duration": 168,
+  "poster": "posters/pirates_3.webp",
+  "youtubeTrailerId": "HKSZtp_OGHY",
+  "budget": 300000000,
+  "boxOffice": 963000000,
+  "rating": 2,
+  "description": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.",
+  "chapterKey": "pirates-of-the-caribbean",
+  "chapterOrder": 3,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 16,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 598,
+      "characterName": "Captain Jack Sparrow",
+      "characterImage": "characters/pirates_of_the_caribbean_at_world_s_end_captain_jack_sparrow"
+    },
+    {
+      "personId": 401,
+      "characterName": "Captain Hector Barbossa",
+      "characterImage": null
+    },
+    {
+      "personId": 894,
+      "characterName": "Will Turner",
+      "characterImage": null
+    },
+    {
+      "personId": 659,
+      "characterName": "Elizabeth Swann",
+      "characterImage": null
+    },
+    {
+      "personId": 480,
+      "characterName": "Norrington",
+      "characterImage": null
+    },
+    {
+      "personId": 1126,
+      "characterName": "Cutler Beckett",
+      "characterImage": null
+    },
+    {
+      "personId": 124,
+      "characterName": "Davy Jones",
+      "characterImage": "characters/pirates_of_the_caribbean_at_world_s_end_davy_jones"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1890,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1891,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1892,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1893,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1383,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1894,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    },
+    {
+      "studioId": 44
+    }
+  ]
+}

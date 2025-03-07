@@ -1,0 +1,142 @@
+{
+  "$schema": "_schema.json",
+  "id": 57,
+  "title": "Harry Potter and the Deathly Hallows: Part II",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2011-07-15T00:00:00.000Z",
+  "duration": 130,
+  "poster": "posters/harry_potter_8.webp",
+  "youtubeTrailerId": "5NYt1qirBWg",
+  "budget": 250000000,
+  "boxOffice": 1340000000,
+  "rating": 3,
+  "description": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
+  "chapterKey": "harry-potter",
+  "chapterOrder": 8,
+  "awards": [
+    {
+      "awardId": 4,
+      "nominationId": 99,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 49,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 251,
+      "characterName": "Harry Potter",
+      "characterImage": "characters/harry_potter_and_the_deathly_hallows_part_ii_harry_potter.webp"
+    },
+    {
+      "personId": 1014,
+      "characterName": "Ron Weasley",
+      "characterImage": "characters/harry_potter_and_the_deathly_hallows_part_ii_ron_weasley.webp"
+    },
+    {
+      "personId": 345,
+      "characterName": "Hermione Granger",
+      "characterImage": "characters/harry_potter_and_the_deathly_hallows_part_ii_hermione_granger.webp"
+    },
+    {
+      "personId": 942,
+      "characterName": "Lord Voldemort",
+      "characterImage": "characters/harry_potter_and_the_deathly_hallows_part_ii_lord_voldemort.webp"
+    },
+    {
+      "personId": 1130,
+      "characterName": "Draco Malfoy",
+      "characterImage": null
+    },
+    {
+      "personId": 22,
+      "characterName": "Severus Snape",
+      "characterImage": null
+    },
+    {
+      "personId": 1228,
+      "characterName": "Professor Minerva McGonagall",
+      "characterImage": null
+    },
+    {
+      "personId": 1229,
+      "characterName": "Neville Longbottom",
+      "characterImage": null
+    },
+    {
+      "personId": 981,
+      "characterName": "Rubeus Hagrid",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 2,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 2
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1565,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1561,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1562,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1566,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1567,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1568,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1569,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 8
+    }
+  ]
+}

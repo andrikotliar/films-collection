@@ -1,0 +1,116 @@
+{
+  "$schema": "_schema.json",
+  "id": 40,
+  "title": "Fast & Furious",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2009-04-03T00:00:00.000Z",
+  "duration": 107,
+  "poster": "posters/fast_and_furious_4.webp",
+  "youtubeTrailerId": "Gl-d_UIhdBw",
+  "budget": 85000000,
+  "boxOffice": 363000000,
+  "rating": 2,
+  "description": "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation.",
+  "chapterKey": "fast-and-furious",
+  "chapterOrder": 3,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1164,
+      "characterName": "Dominic Toretto",
+      "characterImage": null
+    },
+    {
+      "personId": 911,
+      "characterName": "Brian O'Conner",
+      "characterImage": null
+    },
+    {
+      "personId": 613,
+      "characterName": "Mia",
+      "characterImage": null
+    },
+    {
+      "personId": 838,
+      "characterName": "Letty",
+      "characterImage": null
+    },
+    {
+      "personId": 591,
+      "characterName": "Campos",
+      "characterImage": null
+    },
+    {
+      "personId": 709,
+      "characterName": "Fenix",
+      "characterImage": null
+    },
+    {
+      "personId": 392,
+      "characterName": "Gisele",
+      "characterImage": null
+    },
+    {
+      "personId": 1095,
+      "characterName": "Han",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 13,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1462,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1463,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1270,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1164,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1464,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1465,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 7
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 13
+    }
+  ]
+}

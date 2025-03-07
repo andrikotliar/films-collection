@@ -1,0 +1,119 @@
+{
+  "$schema": "_schema.json",
+  "id": 78,
+  "title": "Indiana Jones and the Kingdom of the Crystal Skull",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2008-05-22T00:00:00.000Z",
+  "duration": 127,
+  "poster": "posters/indiana_jones_4.webp",
+  "youtubeTrailerId": "WAdJf4wTC5Y",
+  "budget": 185000000,
+  "boxOffice": 790000000,
+  "rating": 1,
+  "description": "In 1957, archaeologist and adventurer Dr. Henry \"Indiana\" Jones, Jr. is called back into action and becomes entangled in a Soviet plot to uncover the secret behind mysterious artifacts known as the Crystal Skulls.",
+  "chapterKey": "indiana-jones",
+  "chapterOrder": 4,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 53,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 431,
+      "characterName": "Dr. Henry «Indiana» Jones, Jr.",
+      "characterImage": null
+    },
+    {
+      "personId": 175,
+      "characterName": "Irina Spalko",
+      "characterImage": null
+    },
+    {
+      "personId": 638,
+      "characterName": "Marion Ravenwood",
+      "characterImage": null
+    },
+    {
+      "personId": 1065,
+      "characterName": "Mutt Williams",
+      "characterImage": null
+    },
+    {
+      "personId": 953,
+      "characterName": "'Mac' George Michale",
+      "characterImage": null
+    },
+    {
+      "personId": 584,
+      "characterName": "Professor Oxley",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 27,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1375,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1702,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1703,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1704,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1563,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1705,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 14
+    },
+    {
+      "studioId": 37
+    }
+  ]
+}

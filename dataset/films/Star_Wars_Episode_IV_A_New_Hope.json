@@ -1,0 +1,246 @@
+{
+  "$schema": "_schema.json",
+  "id": 145,
+  "title": "Star Wars Episode IV: A New Hope",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1977-05-25T00:00:00.000Z",
+  "duration": 121,
+  "poster": "posters/star_wars_episode_IV.webp",
+  "youtubeTrailerId": "vZ734NWnAHA",
+  "budget": 11000000,
+  "boxOffice": 775000000,
+  "rating": 2,
+  "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the evil Darth Vader.",
+  "chapterKey": "star-wars",
+  "chapterOrder": 6,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 13,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 19,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 14,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 15,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 1,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 5,
+      "nominationId": 120,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 14,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 34,
+      "actorId": null,
+      "comment": "As a part of \"Star Wars Trilogy\""
+    },
+    {
+      "awardId": 2,
+      "nominationId": 35,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 39,
+      "actorId": 919,
+      "comment": "as Moff Tarkin"
+    },
+    {
+      "awardId": 2,
+      "nominationId": 23,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 33,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 28,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 52,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 16,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 41,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 56,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 57,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 58,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 59,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 195,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 785,
+      "characterName": "Luke Skywalker",
+      "characterImage": null
+    },
+    {
+      "personId": 431,
+      "characterName": "Han Solo",
+      "characterImage": null
+    },
+    {
+      "personId": 171,
+      "characterName": "Leia Organa",
+      "characterImage": null
+    },
+    {
+      "personId": 919,
+      "characterName": "Moff Tarkin",
+      "characterImage": null
+    },
+    {
+      "personId": 28,
+      "characterName": "Ben Obi-Wan Kenobi",
+      "characterImage": null
+    },
+    {
+      "personId": 72,
+      "characterName": "C-3PO",
+      "characterImage": "characters/star_wars_episode_iv_a_new_hope_c-3po.webp"
+    },
+    {
+      "personId": 667,
+      "characterName": "R2-D2",
+      "characterImage": "characters/star_wars_episode_iv_a_new_hope_r2-d2.webp"
+    },
+    {
+      "personId": 924,
+      "characterName": "Chewbacca",
+      "characterImage": "characters/star_wars_episode_iv_a_new_hope_chewbacca.webp"
+    },
+    {
+      "personId": 276,
+      "characterName": "Darth Vader",
+      "characterImage": "characters/star_wars_episode_iv_a_new_hope_darth_vader.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 22,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1993,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1993,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1997,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1563,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1998,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 16
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    },
+    {
+      "studioId": 37
+    }
+  ]
+}

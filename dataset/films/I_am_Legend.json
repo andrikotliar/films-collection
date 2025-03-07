@@ -1,0 +1,129 @@
+{
+  "$schema": "_schema.json",
+  "id": 71,
+  "title": "I am Legend",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2008-04-03T00:00:00.000Z",
+  "duration": 101,
+  "poster": "posters/i_am_legend.webp",
+  "youtubeTrailerId": "dtKMEAXyPkg",
+  "budget": 150000000,
+  "boxOffice": 585000000,
+  "rating": 1,
+  "description": "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 44,
+      "actorId": 1178,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 187,
+      "actorId": 1178,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 1178,
+      "characterName": "Robert Neville",
+      "characterImage": null
+    },
+    {
+      "personId": 38,
+      "characterName": "Anna",
+      "characterImage": null
+    },
+    {
+      "personId": 185,
+      "characterName": "Ethan",
+      "characterImage": null
+    },
+    {
+      "personId": 1027,
+      "characterName": "Zoe Neville",
+      "characterImage": null
+    },
+    {
+      "personId": 1185,
+      "characterName": "Marley Neville",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 7,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1680,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1681,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1548,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1548,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1549,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1562,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1270,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1384,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1682,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 8
+    },
+    {
+      "studioId": 31
+    }
+  ]
+}

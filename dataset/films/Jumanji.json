@@ -1,0 +1,118 @@
+{
+  "$schema": "_schema.json",
+  "id": 86,
+  "title": "Jumanji",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1995-12-15T00:00:00.000Z",
+  "duration": 104,
+  "poster": "posters/jumanji_1.webp",
+  "youtubeTrailerId": "5p18zqZmeiI",
+  "budget": 65000000,
+  "boxOffice": 263000000,
+  "rating": 1,
+  "description": "When two kids find and play a magical board game, they release a man trapped for decades in it and a host of dangers that can only be stopped by finishing the game.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 36,
+      "actorId": 136,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 995,
+      "characterName": "Alan Parrish",
+      "characterImage": null
+    },
+    {
+      "personId": 136,
+      "characterName": "Sarah Whittle",
+      "characterImage": null
+    },
+    {
+      "personId": 684,
+      "characterName": "Judy Shepherd",
+      "characterImage": null
+    },
+    {
+      "personId": 142,
+      "characterName": "Peter Shepherd",
+      "characterImage": null
+    },
+    {
+      "personId": 607,
+      "characterName": "Van Pelt",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1400,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1731,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1732,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1733,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1734,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1735,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1290,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1736,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 38
+    }
+  ]
+}

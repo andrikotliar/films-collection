@@ -1,0 +1,162 @@
+{
+  "$schema": "_schema.json",
+  "id": 230,
+  "title": "X2",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2003-05-02T00:00:00.000Z",
+  "duration": 133,
+  "poster": "posters/x_men_2.webp",
+  "youtubeTrailerId": "luHcOYS1HxQ",
+  "budget": 110000000,
+  "boxOffice": 408000000,
+  "rating": 3,
+  "description": "When anti-mutant colonel William Stryker kidnaps Professor X and attacks his school, the X-Men must ally with their archenemy Magneto to stop him.",
+  "chapterKey": "x-men",
+  "chapterOrder": 6,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 35,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 189,
+      "actorId": 1063,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 903,
+      "characterName": "Professor Charles Xavier",
+      "characterImage": null
+    },
+    {
+      "personId": 453,
+      "characterName": "Logan / Wolverine",
+      "characterImage": null
+    },
+    {
+      "personId": 460,
+      "characterName": "Eric Lehnsherr / Magneto",
+      "characterImage": null
+    },
+    {
+      "personId": 426,
+      "characterName": "Ororo Munroe / Storm",
+      "characterImage": null
+    },
+    {
+      "personId": 367,
+      "characterName": "Jean Grey",
+      "characterImage": null
+    },
+    {
+      "personId": 510,
+      "characterName": "Scott Summers / Cyclops",
+      "characterImage": null
+    },
+    {
+      "personId": 66,
+      "characterName": "Rogue",
+      "characterImage": null
+    },
+    {
+      "personId": 956,
+      "characterName": "Raven Darkholme / Mystique",
+      "characterImage": "characters/x2_mystique.webp"
+    },
+    {
+      "personId": 147,
+      "characterName": "William Stryker",
+      "characterImage": null
+    },
+    {
+      "personId": 21,
+      "characterName": "Kurt Wagner / Nightcrawler",
+      "characterImage": "characters/x2_kurt_wagner.webp"
+    },
+    {
+      "personId": 2,
+      "characterName": "John Allerdyce / Pyro",
+      "characterImage": null
+    },
+    {
+      "personId": 1063,
+      "characterName": "Bobby Drake / Ice Man",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 16,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2370,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2371,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2372,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2373,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1796,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2374,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2375,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2376,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    },
+    {
+      "studioId": 5
+    }
+  ]
+}

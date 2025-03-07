@@ -1,0 +1,216 @@
+{
+  "$schema": "_schema.json",
+  "id": 32,
+  "title": "Chernobyl",
+  "type": "SERIES",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2019-05-06T00:00:00.000Z",
+  "duration": 60,
+  "poster": "posters/chernobyl.webp",
+  "youtubeTrailerId": null,
+  "rating": 2,
+  "description": "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 6,
+      "nominationId": 128,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 129,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 130,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 131,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 132,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 133,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 134,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 135,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 136,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 137,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 102,
+      "actorId": 521,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 103,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 104,
+      "actorId": 1080,
+      "comment": "as Boris Shcherbina"
+    },
+    {
+      "awardId": 3,
+      "nominationId": 79,
+      "actorId": 1080,
+      "comment": "as Boris Shcherbina"
+    }
+  ],
+  "cast": [
+    {
+      "personId": 521,
+      "characterName": "Valery Legasov",
+      "characterImage": null
+    },
+    {
+      "personId": 1080,
+      "characterName": "Boris Shcherbina",
+      "characterImage": null
+    },
+    {
+      "personId": 343,
+      "characterName": "Ulana Khomyuk",
+      "characterImage": null
+    },
+    {
+      "personId": 909,
+      "characterName": "Anatoly Dyatlov",
+      "characterImage": null
+    },
+    {
+      "personId": 983,
+      "characterName": "Leonid Toptunov",
+      "characterImage": null
+    },
+    {
+      "personId": 1033,
+      "characterName": "Alexandr Akimov",
+      "characterImage": null
+    },
+    {
+      "personId": 560,
+      "characterName": "Lyudmilla Ignatenko",
+      "characterImage": null
+    },
+    {
+      "personId": 9,
+      "characterName": "Vasily Ignatenko",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 17,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 2
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1414,
+      "position": "CREATOR",
+      "comment": null
+    },
+    {
+      "personId": 1415,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1414,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1416,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1417,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1418,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 5
+    },
+    {
+      "genreId": 12
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 26
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 5,
+    "seasonsTotal": 1,
+    "seasons": [
+      {
+        "number": 1,
+        "episodesCount": 5,
+        "releaseDate": "2019-05-06T00:00:00.000Z",
+        "youtubeTrailerId": "s9APLXM9Ei8",
+        "title": null,
+        "description": "The series tells the story of several people that were involved into the result of the catastrophe and their attempts to reduce consequences and find a reason of the explosion."
+      }
+    ]
+  }
+}

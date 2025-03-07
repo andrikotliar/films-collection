@@ -1,0 +1,181 @@
+{
+  "$schema": "_schema.json",
+  "id": 94,
+  "title": "Loki",
+  "type": "SERIES",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2021-06-09T00:00:00.000Z",
+  "duration": 50,
+  "poster": "posters/loki.webp",
+  "youtubeTrailerId": null,
+  "rating": 2,
+  "description": "An alternate version of Loki escapes from custody using the Tesseract but is captured by TVA. The TVA plans to erase him, but one of the agents recruits him to capture another dangerous version of Loki.",
+  "chapterKey": "mcu",
+  "chapterOrder": 26,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1132,
+      "characterName": "Loki",
+      "characterImage": null
+    },
+    {
+      "personId": 419,
+      "characterName": "Ravonna Renslayer",
+      "characterImage": null
+    },
+    {
+      "personId": 1076,
+      "characterName": "Sylvie",
+      "characterImage": null
+    },
+    {
+      "personId": 897,
+      "characterName": "Mobius",
+      "characterImage": null
+    },
+    {
+      "personId": 1191,
+      "characterName": "Hunter B-15",
+      "characterImage": null
+    },
+    {
+      "personId": 704,
+      "characterName": "Miss Minutes",
+      "characterImage": "characters/loki_miss_minutes.webp"
+    },
+    {
+      "personId": 968,
+      "characterName": "Classic Loki",
+      "characterImage": null
+    },
+    {
+      "personId": 484,
+      "characterName": "Kid Loki",
+      "characterImage": null
+    },
+    {
+      "personId": 608,
+      "characterName": "He Who Remains",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 25,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1799,
+      "position": "CREATOR",
+      "comment": null
+    },
+    {
+      "personId": 1800,
+      "position": "DIRECTOR",
+      "comment": "6 episodes"
+    },
+    {
+      "personId": 1801,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1802,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1799,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1803,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1804,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1805,
+      "position": "WRITER",
+      "comment": "8 episodes"
+    },
+    {
+      "personId": 1806,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1309,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1807,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1808,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1313,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1809,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1810,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 2
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 2
+    },
+    {
+      "studioId": 4
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 6,
+    "seasonsTotal": 1,
+    "seasons": [
+      {
+        "number": 1,
+        "episodesCount": 6,
+        "releaseDate": "2021-06-09T00:00:00.000Z",
+        "youtubeTrailerId": "nW948Va-l10",
+        "title": null,
+        "description": "Loki with Morbius jumps across universes in order to capture Sylvie. Sylvia tries to destroy TVA to prevent vanishing timelines other than Scared Timeline."
+      }
+    ]
+  }
+}

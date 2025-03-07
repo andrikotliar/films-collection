@@ -1,0 +1,185 @@
+{
+  "$schema": "_schema.json",
+  "id": 91,
+  "title": "Kung Fu Panda",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2008-06-06T00:00:00.000Z",
+  "duration": 92,
+  "poster": "posters/kungfu_panda.webp",
+  "youtubeTrailerId": "NRc-ze7Wrxw",
+  "budget": 130000000,
+  "boxOffice": 632000000,
+  "rating": 2,
+  "description": "The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance. However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a novice in martial arts.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 7,
+      "nominationId": 10,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 7,
+      "nominationId": 172,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 7,
+      "nominationId": 173,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 7,
+      "nominationId": 174,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 7,
+      "nominationId": 175,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 7,
+      "nominationId": 176,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 7,
+      "nominationId": 177,
+      "actorId": 313,
+      "comment": null
+    },
+    {
+      "awardId": 7,
+      "nominationId": 178,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 478,
+      "characterName": "Po",
+      "characterImage": "characters/kung_fu_panda_po.webp"
+    },
+    {
+      "personId": 313,
+      "characterName": "Shifu",
+      "characterImage": "characters/kung_fu_panda_shifu.webp"
+    },
+    {
+      "personId": 63,
+      "characterName": "Tigress",
+      "characterImage": "characters/kung_fu_panda_tigress.webp"
+    },
+    {
+      "personId": 461,
+      "characterName": "Tai Lung",
+      "characterImage": "characters/kung_fu_panda_tai_lung.webp"
+    },
+    {
+      "personId": 485,
+      "characterName": "Monkey",
+      "characterImage": "characters/kung_fu_panda_monkey.webp"
+    },
+    {
+      "personId": 1055,
+      "characterName": "Mantis",
+      "characterImage": "characters/kung_fu_panda_mantis.webp"
+    },
+    {
+      "personId": 745,
+      "characterName": "Viper",
+      "characterImage": "characters/kung_fu_panda_viper.webp"
+    },
+    {
+      "personId": 269,
+      "characterName": "Crane",
+      "characterImage": "characters/kung_fu_panda_crane.webp"
+    },
+    {
+      "personId": 944,
+      "characterName": "Oogway",
+      "characterImage": "characters/kung_fu_panda_oogway.webp"
+    },
+    {
+      "personId": 508,
+      "characterName": "Mr. Ping",
+      "characterImage": "characters/kung_fu_panda_mr_ping.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 23,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1759,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1760,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1761,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1762,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1763,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1551,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1383,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1764,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 6
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 16
+    }
+  ]
+}

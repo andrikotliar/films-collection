@@ -1,0 +1,129 @@
+{
+  "$schema": "_schema.json",
+  "id": 5,
+  "title": "2012",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2009-11-13T00:00:00.000Z",
+  "duration": 158,
+  "poster": "posters/twenty_twelve.webp",
+  "youtubeTrailerId": "ce0N3TEcFw0",
+  "budget": 200000000,
+  "boxOffice": 770000000,
+  "rating": 2,
+  "description": "A frustrated writer struggles to keep his family alive when a series of global catastrophes threatens to annihilate mankind.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 580,
+      "characterName": "Jackson Curtis",
+      "characterImage": null
+    },
+    {
+      "personId": 48,
+      "characterName": "Kate Curtis",
+      "characterImage": null
+    },
+    {
+      "personId": 191,
+      "characterName": "Adrian Helmsley",
+      "characterImage": null
+    },
+    {
+      "personId": 1206,
+      "characterName": "Laura Wilson",
+      "characterImage": null
+    },
+    {
+      "personId": 886,
+      "characterName": "Carl Anheuser",
+      "characterImage": null
+    },
+    {
+      "personId": 1190,
+      "characterName": "Charlie Frost",
+      "characterImage": null
+    },
+    {
+      "personId": 255,
+      "characterName": "President Thomas Wilson",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 18,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1261,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1262,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1261,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1262,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1263,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1264,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1262,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1265,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1266,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 11
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 12
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "$schema": "_schema.json",
+  "id": 171,
+  "title": "The Falcon and the Winter Soldier",
+  "type": "SERIES",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2021-03-19T00:00:00.000Z",
+  "duration": 50,
+  "poster": "posters/falcon_and_the_winter_soldier.webp",
+  "youtubeTrailerId": null,
+  "rating": 1,
+  "description": "After Captain America transfers his shield to Sam Wilson, Sam tries reach the level of previous Captain America. But he must face problems with the US government and team up with the Winter Soldier to prevent a war",
+  "chapterKey": "mcu",
+  "chapterOrder": 28,
+  "awards": [
+    {
+      "awardId": 8,
+      "nominationId": 183,
+      "actorId": 74,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 191,
+      "actorId": null,
+      "comment": "Falcon and the Winter Soldier"
+    }
+  ],
+  "cast": [
+    {
+      "personId": 74,
+      "characterName": "Sam Wilson / Falcon / Captain America",
+      "characterImage": null
+    },
+    {
+      "personId": 1050,
+      "characterName": "James \"Bucky\" Barnes / White Wolf",
+      "characterImage": null
+    },
+    {
+      "personId": 1192,
+      "characterName": "John Walker / Captain America / U.S. Agent",
+      "characterImage": null
+    },
+    {
+      "personId": 354,
+      "characterName": "Karli Morgenthau",
+      "characterImage": null
+    },
+    {
+      "personId": 10,
+      "characterName": "Sarah Wilson",
+      "characterImage": null
+    },
+    {
+      "personId": 304,
+      "characterName": "James \"Rhodey\" Rhodes",
+      "characterImage": null
+    },
+    {
+      "personId": 244,
+      "characterName": "Helmut Zemo",
+      "characterImage": null
+    },
+    {
+      "personId": 342,
+      "characterName": "Sharon Carter / Power Broker",
+      "characterImage": null
+    },
+    {
+      "personId": 374,
+      "characterName": "Ayo",
+      "characterImage": null
+    },
+    {
+      "personId": 626,
+      "characterName": "Valentina Allegra de Fontaine",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 25,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2151,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2152,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2153,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2154,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2155,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2156,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2157,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2158,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1399,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1521,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 5
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 2
+    },
+    {
+      "studioId": 4
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 6,
+    "seasonsTotal": 1,
+    "seasons": [
+      {
+        "number": 1,
+        "episodesCount": 6,
+        "releaseDate": "2021-03-19T00:00:00.000Z",
+        "youtubeTrailerId": "IWBsDaFWyTE",
+        "title": null,
+        "description": "The Flag Smashers, an anti-patriot group, believes the world was better during the Blip and is fighting for open national borders. The Falcon and the Winter Soldier try to stop them and protect the piece."
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "$schema": "_schema.json",
+  "id": 44,
+  "title": "Focus",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2015-02-27T00:00:00.000Z",
+  "duration": 105,
+  "poster": "posters/focus.webp",
+  "youtubeTrailerId": "MxCRgtdAuBo",
+  "budget": 50000000,
+  "boxOffice": 159000000,
+  "rating": 1,
+  "description": "In the midst of veteran con man Nicky's latest scheme, a woman from his past - now an accomplished femme fatale - shows up and throws his plans for a loop.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1178,
+      "characterName": "Nicky",
+      "characterImage": null
+    },
+    {
+      "personId": 775,
+      "characterName": "Jess",
+      "characterImage": null
+    },
+    {
+      "personId": 14,
+      "characterName": "Farhad",
+      "characterImage": null
+    },
+    {
+      "personId": 403,
+      "characterName": "Owens",
+      "characterImage": null
+    },
+    {
+      "personId": 997,
+      "characterName": "Rafael Garriga",
+      "characterImage": null
+    },
+    {
+      "personId": 98,
+      "characterName": "Liyuan Tse",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 6,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 11
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1473,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1474,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1473,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1474,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1475,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1476,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1477,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 5
+    },
+    {
+      "genreId": 6
+    },
+    {
+      "genreId": 7
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 8
+    }
+  ]
+}

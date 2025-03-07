@@ -1,0 +1,134 @@
+{
+  "$schema": "_schema.json",
+  "id": 112,
+  "title": "Pacific Rim",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2013-07-12T00:00:00.000Z",
+  "duration": 132,
+  "poster": "posters/pacific_rim_1.webp",
+  "youtubeTrailerId": "5guMumPFBag",
+  "budget": 180000000,
+  "boxOffice": 411000000,
+  "rating": 2,
+  "description": "As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 184,
+      "characterName": "Raleigh Becket",
+      "characterImage": null
+    },
+    {
+      "personId": 463,
+      "characterName": "Stacker Pentecost",
+      "characterImage": null
+    },
+    {
+      "personId": 978,
+      "characterName": "Mako Mori",
+      "characterImage": null
+    },
+    {
+      "personId": 182,
+      "characterName": "Dr. Newton Geiszler",
+      "characterImage": null
+    },
+    {
+      "personId": 158,
+      "characterName": "Herman Gottlieb",
+      "characterImage": null
+    },
+    {
+      "personId": 808,
+      "characterName": "Herc Hansen",
+      "characterImage": null
+    },
+    {
+      "personId": 986,
+      "characterName": "Chuck Hansen",
+      "characterImage": null
+    },
+    {
+      "personId": 999,
+      "characterName": "Hannibal Chau",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 7,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1875,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1876,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1875,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1875,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1877,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1878,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1447,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1461,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1879,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 8
+    },
+    {
+      "studioId": 25
+    }
+  ]
+}

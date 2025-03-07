@@ -1,0 +1,170 @@
+{
+  "$schema": "_schema.json",
+  "id": 179,
+  "title": "The Hunger Games: Mockingjay - Part 1",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2014-11-21T00:00:00.000Z",
+  "duration": 123,
+  "poster": "posters/hunger_games_3.webp",
+  "youtubeTrailerId": "3PkkHsuMrho",
+  "budget": 125000000,
+  "boxOffice": 755000000,
+  "rating": 2,
+  "description": "Katniss Everdeen is in District 13 after she shatters the games forever. Under the leadership of President Coin and the advice of her trusted friends, Katniss spreads her wings as she fights to save Peeta and a nation moved by her courage.",
+  "chapterKey": "hunger-games",
+  "chapterOrder": 3,
+  "awards": [
+    {
+      "awardId": 8,
+      "nominationId": 201,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 200,
+      "actorId": 327,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 547,
+      "characterName": "Katniss Everdeen",
+      "characterImage": null
+    },
+    {
+      "personId": 620,
+      "characterName": "Peeta Mellark",
+      "characterImage": null
+    },
+    {
+      "personId": 722,
+      "characterName": "Gale Hawthorne",
+      "characterImage": null
+    },
+    {
+      "personId": 1190,
+      "characterName": "Haymitch Abernathy",
+      "characterImage": null
+    },
+    {
+      "personId": 327,
+      "characterName": "Effie Trinket",
+      "characterImage": null
+    },
+    {
+      "personId": 309,
+      "characterName": "President Coriolanus Snow",
+      "characterImage": null
+    },
+    {
+      "personId": 927,
+      "characterName": "Plutarch Heavensbee",
+      "characterImage": null
+    },
+    {
+      "personId": 767,
+      "characterName": "Boggs",
+      "characterImage": null
+    },
+    {
+      "personId": 1079,
+      "characterName": "Caesar Flickerman",
+      "characterImage": null
+    },
+    {
+      "personId": 1030,
+      "characterName": "Finnick Odair",
+      "characterImage": null
+    },
+    {
+      "personId": 863,
+      "characterName": "Cressida",
+      "characterImage": null
+    },
+    {
+      "personId": 1226,
+      "characterName": "Pollux",
+      "characterImage": null
+    },
+    {
+      "personId": 544,
+      "characterName": "Beetee",
+      "characterImage": null
+    },
+    {
+      "personId": 628,
+      "characterName": "President Alma Coin",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 12,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 3
+    },
+    {
+      "countryId": 4
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1680,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2182,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2183,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2177,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2178,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1384,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2181,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 57
+    }
+  ]
+}

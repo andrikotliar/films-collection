@@ -1,0 +1,121 @@
+{
+  "$schema": "_schema.json",
+  "id": 35,
+  "title": "District 13: Ultimatum",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2009-02-18T00:00:00.000Z",
+  "duration": 106,
+  "poster": "posters/d13_2.webp",
+  "youtubeTrailerId": "jDDFNpj9xBQ",
+  "budget": 14000000,
+  "boxOffice": 14000000,
+  "rating": 2,
+  "description": "Damien and Leito return to District 13 on a mission to bring peace to the troubled sector that is controlled by five different gang bosses, before the city's secret services take drastic measures to solve the problem.",
+  "chapterKey": "b13",
+  "chapterOrder": 2,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 234,
+      "characterName": "Damien Tomaso",
+      "characterImage": null
+    },
+    {
+      "personId": 267,
+      "characterName": "Leito",
+      "characterImage": null
+    },
+    {
+      "personId": 929,
+      "characterName": "The President",
+      "characterImage": null
+    },
+    {
+      "personId": 247,
+      "characterName": "Walter Gassman",
+      "characterImage": null
+    },
+    {
+      "personId": 335,
+      "characterName": "Tao",
+      "characterImage": null
+    },
+    {
+      "personId": 758,
+      "characterName": "Molko",
+      "characterImage": null
+    },
+    {
+      "personId": 504,
+      "characterName": "Karl le skin",
+      "characterImage": null
+    },
+    {
+      "personId": 697,
+      "characterName": "Ali-K",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 12,
+      "order": null
+    },
+    {
+      "collectionId": 5,
+      "order": null
+    },
+    {
+      "collectionId": 23,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1436,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1431,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1431,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1434,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1437,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1438,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 27
+    }
+  ]
+}

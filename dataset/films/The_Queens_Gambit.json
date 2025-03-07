@@ -1,0 +1,158 @@
+{
+  "$schema": "_schema.json",
+  "id": 204,
+  "title": "The Queen's Gambit",
+  "type": "SERIES",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2020-10-23T00:00:00.000Z",
+  "duration": 60,
+  "poster": "posters/queens_gambit.webp",
+  "youtubeTrailerId": null,
+  "rating": 1,
+  "description": "Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s US",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 5,
+      "nominationId": 124,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 5,
+      "nominationId": 125,
+      "actorId": 79,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 94,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 95,
+      "actorId": 79,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 79,
+      "characterName": "Beth Harmon",
+      "characterImage": null
+    },
+    {
+      "personId": 121,
+      "characterName": "Mr. Shaibel",
+      "characterImage": null
+    },
+    {
+      "personId": 774,
+      "characterName": "Vasily Borgov",
+      "characterImage": null
+    },
+    {
+      "personId": 778,
+      "characterName": "Alma Wheatley",
+      "characterImage": null
+    },
+    {
+      "personId": 1113,
+      "characterName": "Benny Watts",
+      "characterImage": null
+    },
+    {
+      "personId": 857,
+      "characterName": "Jolene",
+      "characterImage": null
+    },
+    {
+      "personId": 435,
+      "characterName": "Harry Beltik",
+      "characterImage": null
+    },
+    {
+      "personId": 471,
+      "characterName": "Young Beth Harmon",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 8,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1795,
+      "position": "CREATOR",
+      "comment": null
+    },
+    {
+      "personId": 1795,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1795,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2250,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2251,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2252,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2253,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 5
+    },
+    {
+      "genreId": 18
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 17
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 7,
+    "seasonsTotal": 1,
+    "seasons": [
+      {
+        "number": 1,
+        "episodesCount": 7,
+        "releaseDate": "2020-10-23T00:00:00.000Z",
+        "youtubeTrailerId": "oZn3qSgmLqI",
+        "title": null,
+        "description": "As Beth grows older, she rises through the ranks of the competitive chess world, defeating top players while battling personal struggles, addiction, and loneliness. Her journey takes her to international tournaments, culminating in a high-stakes match against the Soviet champion, Vasily Borgov. Along the way, she finds friendship and support, ultimately proving herself as one of the greatest players in the world."
+      }
+    ]
+  }
+}

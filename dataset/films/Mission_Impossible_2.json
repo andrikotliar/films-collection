@@ -1,0 +1,135 @@
+{
+  "$schema": "_schema.json",
+  "id": 103,
+  "title": "Mission: Impossible 2",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2000-05-24T00:00:00.000Z",
+  "duration": 123,
+  "poster": "posters/mi_2.webp",
+  "youtubeTrailerId": "Aqk78Z57LGg",
+  "budget": 125000000,
+  "boxOffice": 546000000,
+  "rating": 1,
+  "description": "IMF Agent Ethan Hunt is sent to Sydney, to find and destroy a genetically modified disease called \"Chimera\".",
+  "chapterKey": "mission-impossible",
+  "chapterOrder": 2,
+  "awards": [
+    {
+      "awardId": 3,
+      "nominationId": 84,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 187,
+      "actorId": 1129,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 192,
+      "actorId": null,
+      "comment": "The motorcycle chase."
+    }
+  ],
+  "cast": [
+    {
+      "personId": 1129,
+      "characterName": "Ethan Hunt",
+      "characterImage": null
+    },
+    {
+      "personId": 311,
+      "characterName": "Sean Ambrose",
+      "characterImage": null
+    },
+    {
+      "personId": 1206,
+      "characterName": "Nyah Hall",
+      "characterImage": null
+    },
+    {
+      "personId": 1166,
+      "characterName": "Luther Strickell",
+      "characterImage": null
+    },
+    {
+      "personId": 973,
+      "characterName": "Hugh Stamp",
+      "characterImage": null
+    },
+    {
+      "personId": 592,
+      "characterName": "Billy Baird",
+      "characterImage": null
+    },
+    {
+      "personId": 145,
+      "characterName": "McCloy",
+      "characterImage": null
+    },
+    {
+      "personId": 941,
+      "characterName": "Dr. Nekhorvich",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 6,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1841,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1838,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1129,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1839,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1383,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1842,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 14
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "$schema": "_schema.json",
+  "id": 63,
+  "title": "Hawkeye",
+  "type": "SERIES",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2021-11-24T00:00:00.000Z",
+  "duration": 57,
+  "poster": "posters/hawkeye.webp",
+  "youtubeTrailerId": null,
+  "rating": 1,
+  "description": "A year after Avengers defeated Thanos, Clint Barton must face enemies from his past as the Ronin to get back to his family in time for Christmas.",
+  "chapterKey": "mcu",
+  "chapterOrder": 31,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 552,
+      "characterName": "Clint Barton / Hawkeye",
+      "characterImage": null
+    },
+    {
+      "personId": 424,
+      "characterName": "Kate Bishop",
+      "characterImage": null
+    },
+    {
+      "personId": 1161,
+      "characterName": " Eleanor Bishop",
+      "characterImage": null
+    },
+    {
+      "personId": 1221,
+      "characterName": " Jack Duquesne",
+      "characterImage": null
+    },
+    {
+      "personId": 1222,
+      "characterName": "Kazi",
+      "characterImage": null
+    },
+    {
+      "personId": 1223,
+      "characterName": "Maya Lopez / Echo",
+      "characterImage": null
+    },
+    {
+      "personId": 1165,
+      "characterName": "Kingpin",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 25,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1580,
+      "position": "DIRECTOR",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 1581,
+      "position": "DIRECTOR",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 1582,
+      "position": "DIRECTOR",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 1583,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1584,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1585,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1586,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1587,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1588,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1589,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1309,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1590,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1580,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1583,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1303,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1591,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1592,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 7
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 4
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 6,
+    "seasonsTotal": 1,
+    "seasons": [
+      {
+        "number": 1,
+        "episodesCount": 6,
+        "releaseDate": "2021-11-24T00:00:00.000Z",
+        "youtubeTrailerId": "5VYb3B1ETlk",
+        "title": null,
+        "description": "Clint meets new partner Kate Bishop who wants to became a hero like Hawkeye and start following him to find out truth about her family and help Clint to resolve his problems."
+      }
+    ]
+  }
+}

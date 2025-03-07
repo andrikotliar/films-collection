@@ -1,0 +1,201 @@
+{
+  "$schema": "_schema.json",
+  "id": 167,
+  "title": "The Dark Knight",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2008-07-18T00:00:00.000Z",
+  "duration": 152,
+  "poster": "posters/batman_2.webp",
+  "youtubeTrailerId": "EXeTwQWrcwY",
+  "budget": 185000000,
+  "boxOffice": 1000000000,
+  "rating": 2,
+  "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+  "chapterKey": "dark-knight",
+  "chapterOrder": 2,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 21,
+      "actorId": 440,
+      "comment": "as Joker. Posthumously"
+    },
+    {
+      "awardId": 1,
+      "nominationId": 12,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 39,
+      "actorId": 440,
+      "comment": "as Joker. Posthumously"
+    },
+    {
+      "awardId": 2,
+      "nominationId": 66,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 39,
+      "actorId": 440,
+      "comment": "as Joker. Posthumously"
+    },
+    {
+      "awardId": 2,
+      "nominationId": 33,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 28,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 41,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 184,
+      "actorId": 440,
+      "comment": "as Joker. Posthumously"
+    },
+    {
+      "awardId": 3,
+      "nominationId": 39,
+      "actorId": 440,
+      "comment": "as Joker. Posthumously"
+    },
+    {
+      "awardId": 3,
+      "nominationId": 76,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 203,
+      "characterName": "Bruce Wayne",
+      "characterImage": "characters/the_dark_knight_bruce_wayne.webp"
+    },
+    {
+      "personId": 440,
+      "characterName": "Joker",
+      "characterImage": "characters/the_dark_knight_joker.webp"
+    },
+    {
+      "personId": 1,
+      "characterName": "Harvey Dent",
+      "characterImage": null
+    },
+    {
+      "personId": 821,
+      "characterName": "Alfred",
+      "characterImage": null
+    },
+    {
+      "personId": 765,
+      "characterName": "Rachel",
+      "characterImage": null
+    },
+    {
+      "personId": 395,
+      "characterName": "Gordon",
+      "characterImage": null
+    },
+    {
+      "personId": 854,
+      "characterName": "Lucius Fox",
+      "characterImage": null
+    },
+    {
+      "personId": 214,
+      "characterName": "Scarecrow",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 16,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1378,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1378,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1713,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1380,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1381,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1378,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1383,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1384,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1385,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 9
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 8
+    },
+    {
+      "studioId": 25
+    }
+  ]
+}

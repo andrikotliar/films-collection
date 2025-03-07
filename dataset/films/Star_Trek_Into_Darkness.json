@@ -1,0 +1,144 @@
+{
+  "$schema": "_schema.json",
+  "id": 142,
+  "title": "Star Trek: Into Darkness",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2013-05-17T00:00:00.000Z",
+  "duration": 133,
+  "poster": "posters/star_trek_2.webp",
+  "youtubeTrailerId": "jJMYAJ3_0uw",
+  "budget": 185000000,
+  "boxOffice": 467000000,
+  "rating": 1,
+  "description": "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction.",
+  "chapterKey": "star-trek",
+  "chapterOrder": 2,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 198,
+      "characterName": "Kirk",
+      "characterImage": null
+    },
+    {
+      "personId": 1198,
+      "characterName": "Spock",
+      "characterImage": null
+    },
+    {
+      "personId": 1205,
+      "characterName": "Uhura",
+      "characterImage": null
+    },
+    {
+      "personId": 641,
+      "characterName": "Bones",
+      "characterImage": null
+    },
+    {
+      "personId": 1070,
+      "characterName": "Scotty",
+      "characterImage": null
+    },
+    {
+      "personId": 578,
+      "characterName": "Sulu",
+      "characterImage": null
+    },
+    {
+      "personId": 114,
+      "characterName": "Khan",
+      "characterImage": null
+    },
+    {
+      "personId": 76,
+      "characterName": "Chekov",
+      "characterImage": null
+    },
+    {
+      "personId": 155,
+      "characterName": "Pike",
+      "characterImage": null
+    },
+    {
+      "personId": 925,
+      "characterName": "Marcus",
+      "characterImage": null
+    },
+    {
+      "personId": 39,
+      "characterName": "Carol Marcus",
+      "characterImage": null
+    },
+    {
+      "personId": 881,
+      "characterName": "Thomas Harewood",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 29,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1843,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1852,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1851,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1843,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1990,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1442,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1730,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 16
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 14
+    },
+    {
+      "studioId": 46
+    }
+  ]
+}

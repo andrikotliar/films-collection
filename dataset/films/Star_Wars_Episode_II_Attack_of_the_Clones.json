@@ -1,0 +1,148 @@
+{
+  "$schema": "_schema.json",
+  "id": 144,
+  "title": "Star Wars Episode II: Attack of the Clones",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2002-05-16T00:00:00.000Z",
+  "duration": 142,
+  "poster": "posters/star_wars_episode_II.webp",
+  "youtubeTrailerId": "gYbW1F_c9eM",
+  "budget": 115000000,
+  "boxOffice": 649000000,
+  "rating": 2,
+  "description": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi.",
+  "chapterKey": "star-wars",
+  "chapterOrder": 2,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 52,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 41,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 194,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 363,
+      "characterName": "Obi-Wan Kenobi",
+      "characterImage": null
+    },
+    {
+      "personId": 864,
+      "characterName": "Padme",
+      "characterImage": null
+    },
+    {
+      "personId": 436,
+      "characterName": "Anakin Skywalker",
+      "characterImage": null
+    },
+    {
+      "personId": 209,
+      "characterName": "Count Dooku",
+      "characterImage": null
+    },
+    {
+      "personId": 1036,
+      "characterName": "Mace Windu",
+      "characterImage": null
+    },
+    {
+      "personId": 382,
+      "characterName": "Yoda",
+      "characterImage": "characters/star_wars_episode_ii_attack_of_the_clones_yoda.webp"
+    },
+    {
+      "personId": 459,
+      "characterName": "Palpatine",
+      "characterImage": null
+    },
+    {
+      "personId": 1107,
+      "characterName": "Jango Fett",
+      "characterImage": "characters/star_wars_episode_ii_attack_of_the_clones_jango_fett.webp"
+    },
+    {
+      "personId": 563,
+      "characterName": "Bail Organa",
+      "characterImage": null
+    },
+    {
+      "personId": 72,
+      "characterName": "C-3PO",
+      "characterImage": "characters/star_wars_episode_ii_attack_of_the_clones_c-3po.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 22,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1993,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1993,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1996,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1994,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1563,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1995,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 16
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    },
+    {
+      "studioId": 37
+    }
+  ]
+}

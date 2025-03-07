@@ -1,0 +1,111 @@
+{
+  "$schema": "_schema.json",
+  "id": 113,
+  "title": "Passengers",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2016-12-21T00:00:00.000Z",
+  "duration": 116,
+  "poster": "posters/passengers.webp",
+  "youtubeTrailerId": "7BWWWQzTpNU",
+  "budget": 110000000,
+  "boxOffice": 303000000,
+  "rating": 3,
+  "description": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 547,
+      "characterName": "Aurora Lane",
+      "characterImage": null
+    },
+    {
+      "personId": 199,
+      "characterName": "Jim Preston",
+      "characterImage": null
+    },
+    {
+      "personId": 832,
+      "characterName": "Arthur",
+      "characterImage": null
+    },
+    {
+      "personId": 707,
+      "characterName": "Gus Mancuso",
+      "characterImage": null
+    },
+    {
+      "personId": 60,
+      "characterName": "Captain Norris",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 29,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1880,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1440,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1881,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1882,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1270,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1883,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1470,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1884,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 8
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 12
+    }
+  ]
+}

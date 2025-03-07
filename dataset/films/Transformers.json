@@ -1,0 +1,178 @@
+{
+  "$schema": "_schema.json",
+  "id": 217,
+  "title": "Transformers",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2007-07-03T00:00:00.000Z",
+  "duration": 143,
+  "poster": "posters/transformers_1.webp",
+  "youtubeTrailerId": "dxQxgAfNzyE",
+  "budget": 150000000,
+  "boxOffice": 710000000,
+  "rating": 3,
+  "description": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
+  "chapterKey": "transformers",
+  "chapterOrder": 1,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 41,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 182,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 204,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 1065,
+      "characterName": "Sam Witwicky",
+      "characterImage": null
+    },
+    {
+      "personId": 812,
+      "characterName": "Mikaela Banes",
+      "characterImage": null
+    },
+    {
+      "personId": 617,
+      "characterName": "Captain Lennox",
+      "characterImage": null
+    },
+    {
+      "personId": 1156,
+      "characterName": "Epps",
+      "characterImage": null
+    },
+    {
+      "personId": 937,
+      "characterName": "Maggie Madsen",
+      "characterImage": null
+    },
+    {
+      "personId": 71,
+      "characterName": "Glen Whitmann",
+      "characterImage": null
+    },
+    {
+      "personId": 603,
+      "characterName": "John Keller",
+      "characterImage": null
+    },
+    {
+      "personId": 597,
+      "characterName": "Agent Simmons",
+      "characterImage": null
+    },
+    {
+      "personId": 918,
+      "characterName": "Optimus Prime",
+      "characterImage": "characters/transformers_optimus_prime.webp"
+    },
+    {
+      "personId": 787,
+      "characterName": "Bumblebee",
+      "characterImage": "characters/transformers_bumblebee.webp"
+    },
+    {
+      "personId": 454,
+      "characterName": "Megatron",
+      "characterImage": "characters/transformers_megatron.webp"
+    },
+    {
+      "personId": 961,
+      "characterName": "Frenzy",
+      "characterImage": "characters/transformers_frenzy.webp"
+    },
+    {
+      "personId": 181,
+      "characterName": "Starscream",
+      "characterImage": "characters/transformers_starscream.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 7,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1275,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1852,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1851,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2330,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2331,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1918,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1971,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2332,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1866,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 15
+    },
+    {
+      "studioId": 14
+    }
+  ]
+}

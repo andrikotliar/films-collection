@@ -1,0 +1,147 @@
+{
+  "$schema": "_schema.json",
+  "id": 153,
+  "title": "TENET",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2020-08-26T00:00:00.000Z",
+  "duration": 150,
+  "poster": "posters/tenet.webp",
+  "youtubeTrailerId": "AZGcmvrTX9M",
+  "budget": 205000000,
+  "boxOffice": 364000000,
+  "rating": 1,
+  "description": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 5,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 101,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 1,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 44,
+      "actorId": 581,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 581,
+      "characterName": "Protagonist",
+      "characterImage": null
+    },
+    {
+      "personId": 990,
+      "characterName": "Neil",
+      "characterImage": null
+    },
+    {
+      "personId": 328,
+      "characterName": "Katherine Barton",
+      "characterImage": null
+    },
+    {
+      "personId": 296,
+      "characterName": "Priya",
+      "characterImage": null
+    },
+    {
+      "personId": 791,
+      "characterName": "Fay",
+      "characterImage": null
+    },
+    {
+      "personId": 372,
+      "characterName": "Wheeler",
+      "characterImage": null
+    },
+    {
+      "personId": 666,
+      "characterName": "Andrei Sator",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 14,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 2
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1378,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1378,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1378,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1381,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2034,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2035,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1715,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 8
+    },
+    {
+      "studioId": 47
+    }
+  ]
+}

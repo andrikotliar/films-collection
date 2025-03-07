@@ -1,0 +1,170 @@
+{
+  "$schema": "_schema.json",
+  "id": 18,
+  "title": "Avatar: The Way of Water",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2022-12-16T00:00:00.000Z",
+  "duration": 192,
+  "poster": "posters/avatar_2.webp",
+  "youtubeTrailerId": "o5F8MOz_IDw",
+  "budget": 350000000,
+  "boxOffice": 1400000000,
+  "rating": 2,
+  "description": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
+  "chapterKey": "avatar",
+  "chapterOrder": 2,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1034,
+      "characterName": "Jake Sully",
+      "characterImage": "characters/avatar_the_way_of_water_jake_sully.webp"
+    },
+    {
+      "personId": 1205,
+      "characterName": "Neytiri",
+      "characterImage": "characters/avatar_the_way_of_water_neytiri.webp"
+    },
+    {
+      "personId": 1068,
+      "characterName": "Kiri",
+      "characterImage": "characters/avatar_the_way_of_water_kiri.webp"
+    },
+    {
+      "personId": 1084,
+      "characterName": "Quaritch",
+      "characterImage": "characters/avatar_the_way_of_water_quaritch.webp"
+    },
+    {
+      "personId": 648,
+      "characterName": "Ronal",
+      "characterImage": "characters/avatar_the_way_of_water_ronal.webp"
+    },
+    {
+      "personId": 1207,
+      "characterName": "Tonowari",
+      "characterImage": "characters/avatar_the_way_of_water_tonowari.webp"
+    },
+    {
+      "personId": 571,
+      "characterName": "Norm",
+      "characterImage": null
+    },
+    {
+      "personId": 1208,
+      "characterName": "Neteyam",
+      "characterImage": "characters/avatar_the_way_of_water_neteyam.webp"
+    },
+    {
+      "personId": 1209,
+      "characterName": "Lo'Ak",
+      "characterImage": "characters/avatar_the_way_of_water_lo_ak"
+    },
+    {
+      "personId": 1210,
+      "characterName": "Tuk",
+      "characterImage": "characters/avatar_the_way_of_water_tuk.webp"
+    },
+    {
+      "personId": 1211,
+      "characterName": "Spider",
+      "characterImage": null
+    },
+    {
+      "personId": 1212,
+      "characterName": "Tsireya",
+      "characterImage": "characters/avatar_the_way_of_water_tsireya.webp"
+    },
+    {
+      "personId": 1213,
+      "characterName": "Aonung",
+      "characterImage": "characters/avatar_the_way_of_water_aonung.webp"
+    },
+    {
+      "personId": 1215,
+      "characterName": "General Ardmore",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 29,
+      "order": null
+    },
+    {
+      "collectionId": 14,
+      "order": null
+    },
+    {
+      "collectionId": 31,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1288,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1288,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1364,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1365,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1288,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1294,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1366,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1310,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 7
+    },
+    {
+      "studioId": 23
+    },
+    {
+      "studioId": 24
+    }
+  ]
+}

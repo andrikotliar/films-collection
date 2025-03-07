@@ -1,0 +1,757 @@
+{
+  "$schema": "_schema.json",
+  "id": 158,
+  "title": "The 100",
+  "type": "SERIES",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2014-03-19T00:00:00.000Z",
+  "duration": 43,
+  "poster": "posters/hundred.webp",
+  "youtubeTrailerId": null,
+  "rating": 2,
+  "description": "Ninety-seven years after a devastating nuclear apocalypse wipes out most human life on Earth, thousands of people now live in a space station orbiting Earth, which they call the Ark. Three generations have been born in space, but when life-support systems on the Ark begin to fail, one hundred juvenile detainees are sent to Earth in a last attempt to determine whether it is habitable, or at least save resources for the remaining residents of the Ark.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 64,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 326,
+      "characterName": "Clarke Griffin",
+      "characterImage": null
+    },
+    {
+      "personId": 777,
+      "characterName": "Octavia Blake",
+      "characterImage": null
+    },
+    {
+      "personId": 132,
+      "characterName": "Bellamy Blake",
+      "characterImage": null
+    },
+    {
+      "personId": 729,
+      "characterName": "Raven Reyes",
+      "characterImage": null
+    },
+    {
+      "personId": 969,
+      "characterName": "John Murphy",
+      "characterImage": null
+    },
+    {
+      "personId": 899,
+      "characterName": "Dr. Abigail Griffin",
+      "characterImage": null
+    },
+    {
+      "personId": 446,
+      "characterName": "Marcus Kane",
+      "characterImage": null
+    },
+    {
+      "personId": 208,
+      "characterName": "Monty Green",
+      "characterImage": null
+    },
+    {
+      "personId": 523,
+      "characterName": "Nathan Miller",
+      "characterImage": null
+    },
+    {
+      "personId": 469,
+      "characterName": "Thelonious Jaha",
+      "characterImage": null
+    },
+    {
+      "personId": 1026,
+      "characterName": "Dr. Eric Jackson",
+      "characterImage": null
+    },
+    {
+      "personId": 1104,
+      "characterName": "Echo",
+      "characterImage": null
+    },
+    {
+      "personId": 12,
+      "characterName": "Indra",
+      "characterImage": null
+    },
+    {
+      "personId": 749,
+      "characterName": "Emori",
+      "characterImage": null
+    },
+    {
+      "personId": 189,
+      "characterName": "Harper McIntyre",
+      "characterImage": null
+    },
+    {
+      "personId": 976,
+      "characterName": "Lincoln",
+      "characterImage": null
+    },
+    {
+      "personId": 737,
+      "characterName": "Madi Griffin",
+      "characterImage": null
+    },
+    {
+      "personId": 1059,
+      "characterName": "Jordan Green",
+      "characterImage": null
+    },
+    {
+      "personId": 1105,
+      "characterName": "Gaia",
+      "characterImage": null
+    },
+    {
+      "personId": 477,
+      "characterName": "Sheidheda",
+      "characterImage": null
+    },
+    {
+      "personId": 472,
+      "characterName": "Charmaine Diyoza",
+      "characterImage": null
+    },
+    {
+      "personId": 1117,
+      "characterName": "Finn Collins",
+      "characterImage": null
+    },
+    {
+      "personId": 352,
+      "characterName": "A.L.I.E. / Dr. Becca Franco",
+      "characterImage": null
+    },
+    {
+      "personId": 31,
+      "characterName": "Jacapo Sinclair",
+      "characterImage": null
+    },
+    {
+      "personId": 1195,
+      "characterName": "King Roan",
+      "characterImage": null
+    },
+    {
+      "personId": 46,
+      "characterName": "Lexa",
+      "characterImage": null
+    },
+    {
+      "personId": 819,
+      "characterName": "Charles Pike",
+      "characterImage": null
+    },
+    {
+      "personId": 362,
+      "characterName": "Maya Vie",
+      "characterImage": null
+    },
+    {
+      "personId": 1048,
+      "characterName": "Russell Lightbourne",
+      "characterImage": null
+    },
+    {
+      "personId": 593,
+      "characterName": "Bill Cadogan",
+      "characterImage": null
+    },
+    {
+      "personId": 1039,
+      "characterName": "Josephine Lightbourne",
+      "characterImage": null
+    },
+    {
+      "personId": 462,
+      "characterName": "Dr. Gabriel Santiago",
+      "characterImage": null
+    },
+    {
+      "personId": 869,
+      "characterName": "Anders",
+      "characterImage": null
+    },
+    {
+      "personId": 525,
+      "characterName": "Levitt",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 14,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 3
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2058,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2059,
+      "position": "DIRECTOR",
+      "comment": "24 episodes"
+    },
+    {
+      "personId": 2060,
+      "position": "DIRECTOR",
+      "comment": "9 episodes"
+    },
+    {
+      "personId": 2061,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2062,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2063,
+      "position": "DIRECTOR",
+      "comment": "5 episodes"
+    },
+    {
+      "personId": 2064,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2065,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2066,
+      "position": "DIRECTOR",
+      "comment": "5 episodes"
+    },
+    {
+      "personId": 1772,
+      "position": "DIRECTOR",
+      "comment": "5 episodes"
+    },
+    {
+      "personId": 2067,
+      "position": "DIRECTOR",
+      "comment": "9 episodes"
+    },
+    {
+      "personId": 2068,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2069,
+      "position": "DIRECTOR",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 2013,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2070,
+      "position": "DIRECTOR",
+      "comment": "5 episodes"
+    },
+    {
+      "personId": 2071,
+      "position": "DIRECTOR",
+      "comment": "5 episodes"
+    },
+    {
+      "personId": 446,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2072,
+      "position": "DIRECTOR",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 2073,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2074,
+      "position": "DIRECTOR",
+      "comment": "9 episodes"
+    },
+    {
+      "personId": 2075,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2076,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2077,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 132,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2078,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 729,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2079,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2080,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2081,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2082,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2083,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2084,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2085,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2085,
+      "position": "WRITER",
+      "comment": "15 episodes"
+    },
+    {
+      "personId": 2086,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2087,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2088,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2089,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2090,
+      "position": "WRITER",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 2091,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2092,
+      "position": "WRITER",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 2093,
+      "position": "WRITER",
+      "comment": "10 episodes"
+    },
+    {
+      "personId": 2094,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2095,
+      "position": "WRITER",
+      "comment": "8 episodes"
+    },
+    {
+      "personId": 2096,
+      "position": "WRITER",
+      "comment": "8 episodes"
+    },
+    {
+      "personId": 2097,
+      "position": "WRITER",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 2098,
+      "position": "WRITER",
+      "comment": "5 episodes"
+    },
+    {
+      "personId": 2099,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2100,
+      "position": "WRITER",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 2101,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2102,
+      "position": "WRITER",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 2103,
+      "position": "WRITER",
+      "comment": "5 episodes"
+    },
+    {
+      "personId": 2104,
+      "position": "WRITER",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 2105,
+      "position": "WRITER",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 2106,
+      "position": "WRITER",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 2107,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2108,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2109,
+      "position": "WRITER",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 2110,
+      "position": "WRITER",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 2111,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2112,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2113,
+      "position": "WRITER",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 2114,
+      "position": "WRITER",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 2115,
+      "position": "WRITER",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 2116,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2117,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2118,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2119,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2120,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2121,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2122,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2123,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2070,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2095,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2096,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2088,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2089,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2098,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2093,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2102,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2110,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2117,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2116,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2124,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2125,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2126,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2127,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2128,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2073,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 2129,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 2130,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 2131,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1651,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 5
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 52
+    },
+    {
+      "studioId": 9
+    },
+    {
+      "studioId": 53
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 100,
+    "seasonsTotal": 7,
+    "seasons": [
+      {
+        "number": 1,
+        "episodesCount": 13,
+        "releaseDate": "2014-03-19T00:00:00.000Z",
+        "youtubeTrailerId": "ia1Fbg96vL0",
+        "title": null,
+        "description": "After arrival on Earth, young people discover that some humans survived the apocalypse: the Grounders, who live in clans locked in a power struggle; the Reapers, another group of grounders who have been turned into cannibals by the Mountain Men; and the Mountain Men, who live in Mount Weather, descended from those who locked themselves away before the apocalypse. Under the leadership of Clarke and Bellamy, the juveniles attempt to survive the harsh surface conditions, battle hostile grounders and establish communication with the Ark."
+      },
+      {
+        "number": 2,
+        "episodesCount": 16,
+        "releaseDate": "2014-10-22T00:00:00.000Z",
+        "youtubeTrailerId": "IW7_ZzFZF-o",
+        "title": null,
+        "description": "The survivors of the previous season continue to explore the Earth, but they face new threats, including warring factions, an artificial intelligence known as A.L.I.E., and a mysterious underground society known as the Grounders. Their fight for survival intensifies as they discover the truth about the Ark's survival on Earth."
+      },
+      {
+        "number": 3,
+        "episodesCount": 16,
+        "releaseDate": "2016-01-21T00:00:00.000Z",
+        "youtubeTrailerId": "uwxwHTu802M",
+        "title": null,
+        "description": "The conflict between the Arkers and the Grounders escalates as the threat of the AI A.L.I.E. becomes more pronounced. The group must navigate political intrigue and ethical dilemmas as they strive to save humanity from a looming apocalypse."
+      },
+      {
+        "number": 4,
+        "episodesCount": 13,
+        "releaseDate": "2017-02-01T00:00:00.000Z",
+        "youtubeTrailerId": "JQi2MAfpACI",
+        "title": null,
+        "description": "With the impending nuclear apocalypse threatening to wipe out all life on Earth, the characters must work together to find a solution. Tensions rise as the group faces difficult choices and scientific challenges in a race against time."
+      },
+      {
+        "number": 5,
+        "episodesCount": 13,
+        "releaseDate": "2018-04-24T00:00:00.000Z",
+        "youtubeTrailerId": "AGSfZ4xt4UY",
+        "title": null,
+        "description": "Six-year after, survivors face new dangers on Earth, including a mysterious Eligius Corporation group and an overgrowing valley called the Shallow Valley. The conflicts between the various factions continue to test loyalties and survival skills."
+      },
+      {
+        "number": 6,
+        "episodesCount": 13,
+        "releaseDate": "2019-04-30T00:00:00.000Z",
+        "youtubeTrailerId": "AVDyeT-GsX4",
+        "title": null,
+        "description": "Survivors discover a habitable planet named Sanctum. However, they soon realize that this new world holds its own mysteries and challenges, and the search for answers continues."
+      },
+      {
+        "number": 7,
+        "episodesCount": 16,
+        "releaseDate": "2020-05-20T00:00:00.000Z",
+        "youtubeTrailerId": "VQaFKClCUpo",
+        "title": null,
+        "description": "The characters face the ultimate test as they confront the aftermath of previous events and a powerful alien force. The stakes are higher than ever as they strive to save humanity and secure the future of their species."
+      }
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "$schema": "_schema.json",
+  "id": 24,
+  "title": "Batman v Superman: Dawn of Justice",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2016-03-25T00:00:00.000Z",
+  "duration": 151,
+  "poster": "posters/batman_v_superman.webp",
+  "youtubeTrailerId": "bha24P9uw-E",
+  "budget": 250000000,
+  "boxOffice": 874000000,
+  "rating": 1,
+  "description": "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs.",
+  "chapterKey": "dceu",
+  "chapterOrder": 2,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 104,
+      "characterName": "Bruce Wayne / Batman",
+      "characterImage": "characters/batman_v_superman_dawn_of_justice_bruce_wayne.webp"
+    },
+    {
+      "personId": 443,
+      "characterName": "Clark Kent / Superman",
+      "characterImage": "characters/batman_v_superman_dawn_of_justice_clark_kent.webp"
+    },
+    {
+      "personId": 54,
+      "characterName": "Lois Lane",
+      "characterImage": null
+    },
+    {
+      "personId": 555,
+      "characterName": "Lex Luthor",
+      "characterImage": null
+    },
+    {
+      "personId": 291,
+      "characterName": "Martha Kent",
+      "characterImage": null
+    },
+    {
+      "personId": 707,
+      "characterName": "Perry White",
+      "characterImage": null
+    },
+    {
+      "personId": 551,
+      "characterName": "Alfred Pennyworth",
+      "characterImage": null
+    },
+    {
+      "personId": 450,
+      "characterName": "Senator Finch",
+      "characterImage": null
+    },
+    {
+      "personId": 392,
+      "characterName": "Diana Prince / Wonder Woman",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 11,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1386,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1387,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1379,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1380,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1388,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1383,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1389,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1390,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 18
+    },
+    {
+      "studioId": 8
+    }
+  ]
+}

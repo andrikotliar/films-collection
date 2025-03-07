@@ -1,0 +1,236 @@
+{
+  "$schema": "_schema.json",
+  "id": 25,
+  "title": "Black Panther",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2018-02-16T00:00:00.000Z",
+  "duration": 134,
+  "poster": "posters/black_panther.webp",
+  "youtubeTrailerId": "xjDjIWPwcPU",
+  "budget": 200000000,
+  "boxOffice": 1350000000,
+  "rating": 2,
+  "description": "After the death of his father, Prince T'Challa ascends to the throne of the small African country of Wakanda. T'Challa is also Black Panther, superhero. Now not only must he govern his country but defeat a dangerous adversary.",
+  "chapterKey": "mcu",
+  "chapterOrder": 17,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 7,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 8,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 9,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 101,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 42,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 23,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 36,
+      "actorId": 242,
+      "comment": "as Okoye"
+    },
+    {
+      "awardId": 2,
+      "nominationId": 46,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 16,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 185,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 186,
+      "actorId": 179,
+      "comment": "as Black Panther"
+    },
+    {
+      "awardId": 8,
+      "nominationId": 183,
+      "actorId": 179,
+      "comment": "as Black Panther"
+    },
+    {
+      "awardId": 8,
+      "nominationId": 184,
+      "actorId": 818,
+      "comment": "as Erik Killmonger"
+    },
+    {
+      "awardId": 3,
+      "nominationId": 1,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 46,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 19,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 179,
+      "characterName": "T'Challa / Black Panther",
+      "characterImage": "characters/black_panther_t_challa"
+    },
+    {
+      "personId": 818,
+      "characterName": "Erik Killmonger",
+      "characterImage": null
+    },
+    {
+      "personId": 753,
+      "characterName": "Nakia",
+      "characterImage": null
+    },
+    {
+      "personId": 242,
+      "characterName": "Okoye",
+      "characterImage": null
+    },
+    {
+      "personId": 792,
+      "characterName": "Everett K. Ross",
+      "characterImage": null
+    },
+    {
+      "personId": 249,
+      "characterName": "W'Kabi",
+      "characterImage": null
+    },
+    {
+      "personId": 719,
+      "characterName": "Shuri",
+      "characterImage": null
+    },
+    {
+      "personId": 1189,
+      "characterName": "M'Baku",
+      "characterImage": null
+    },
+    {
+      "personId": 1088,
+      "characterName": "N'Jobu",
+      "characterImage": null
+    },
+    {
+      "personId": 62,
+      "characterName": "Ramonda",
+      "characterImage": null
+    },
+    {
+      "personId": 377,
+      "characterName": "Zuri",
+      "characterImage": null
+    },
+    {
+      "personId": 61,
+      "characterName": "Ulysses Klaue",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 25,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1391,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1391,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1392,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1309,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1393,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1394,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    },
+    {
+      "studioId": 4
+    }
+  ]
+}

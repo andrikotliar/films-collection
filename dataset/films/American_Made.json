@@ -1,0 +1,135 @@
+{
+  "$schema": "_schema.json",
+  "id": 12,
+  "title": "American Made",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2017-09-29T00:00:00.000Z",
+  "duration": 115,
+  "poster": "posters/american_made.webp",
+  "youtubeTrailerId": "AEBIJRAkujM",
+  "budget": 50000000,
+  "boxOffice": 135000000,
+  "rating": 2,
+  "description": "The story of Barry Seal, an American pilot who became a drug-runner for the CIA in the 1980s in a clandestine operation that would be exposed as the Iran-Contra Affair.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1129,
+      "characterName": "Barry Seal",
+      "characterImage": null
+    },
+    {
+      "personId": 299,
+      "characterName": "Monty 'Schafer'",
+      "characterImage": null
+    },
+    {
+      "personId": 1040,
+      "characterName": "Lucy Seal",
+      "characterImage": null
+    },
+    {
+      "personId": 556,
+      "characterName": "Sheriff Downing",
+      "characterImage": null
+    },
+    {
+      "personId": 160,
+      "characterName": "JB",
+      "characterImage": null
+    },
+    {
+      "personId": 228,
+      "characterName": "George W. Bush",
+      "characterImage": null
+    },
+    {
+      "personId": 807,
+      "characterName": "Pablo Escobar",
+      "characterImage": null
+    },
+    {
+      "personId": 29,
+      "characterName": "Jorge Ochoa",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 5,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 6
+    },
+    {
+      "countryId": 8
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1297,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1298,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1299,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1300,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1301,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1302,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1303,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1304,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 6
+    },
+    {
+      "genreId": 7
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 19
+    },
+    {
+      "studioId": 20
+    }
+  ]
+}

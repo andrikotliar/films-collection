@@ -1,0 +1,161 @@
+{
+  "$schema": "_schema.json",
+  "id": 58,
+  "title": "Harry Potter and the Goblet of Fire",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2005-11-18T00:00:00.000Z",
+  "duration": 157,
+  "poster": "posters/harry_potter_4.webp",
+  "youtubeTrailerId": "3EGojp4Hh6I",
+  "budget": 150000000,
+  "boxOffice": 897000000,
+  "rating": 3,
+  "description": "A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
+  "chapterKey": "harry-potter",
+  "chapterOrder": 4,
+  "awards": [
+    {
+      "awardId": 4,
+      "nominationId": 46,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 251,
+      "characterName": "Harry Potter",
+      "characterImage": "characters/harry_potter_and_the_goblet_of_fire_harry_potter.webp"
+    },
+    {
+      "personId": 1014,
+      "characterName": "Ron Weasley",
+      "characterImage": "characters/harry_potter_and_the_goblet_of_fire_ron_weasley.webp"
+    },
+    {
+      "personId": 345,
+      "characterName": "Hermione Granger",
+      "characterImage": "characters/harry_potter_and_the_goblet_of_fire_hermione_granger.webp"
+    },
+    {
+      "personId": 990,
+      "characterName": "Cedric Diggory",
+      "characterImage": null
+    },
+    {
+      "personId": 942,
+      "characterName": "Lord Voldemort",
+      "characterImage": "characters/harry_potter_and_the_goblet_of_fire_lord_voldemort.webp"
+    },
+    {
+      "personId": 970,
+      "characterName": "Albus Dumbledore",
+      "characterImage": null
+    },
+    {
+      "personId": 981,
+      "characterName": "Rubeus Hagrid",
+      "characterImage": null
+    },
+    {
+      "personId": 22,
+      "characterName": "Severus Snape",
+      "characterImage": null
+    },
+    {
+      "personId": 1130,
+      "characterName": "Draco Malfoy",
+      "characterImage": null
+    },
+    {
+      "personId": 1241,
+      "characterName": "Barty Crouch Junior",
+      "characterImage": null
+    },
+    {
+      "personId": 1242,
+      "characterName": "Fleur Delacour",
+      "characterImage": null
+    },
+    {
+      "personId": 145,
+      "characterName": "Alastor Moody",
+      "characterImage": null
+    },
+    {
+      "personId": 1228,
+      "characterName": "Minerva McGonagall",
+      "characterImage": null
+    },
+    {
+      "personId": 1243,
+      "characterName": "Karkaroff's Aide",
+      "characterImage": null
+    },
+    {
+      "personId": 1244,
+      "characterName": "Barty Crouch",
+      "characterImage": null
+    },
+    {
+      "personId": 1245,
+      "characterName": "Madame Olympe Maxime",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 2,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 2
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1570,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1561,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1562,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1571,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1564,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 8
+    }
+  ]
+}

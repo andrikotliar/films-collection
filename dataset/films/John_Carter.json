@@ -1,0 +1,131 @@
+{
+  "$schema": "_schema.json",
+  "id": 85,
+  "title": "John Carter",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2012-03-09T00:00:00.000Z",
+  "duration": 132,
+  "poster": "posters/john_carter.webp",
+  "youtubeTrailerId": "nlvYKl1fjBI",
+  "budget": 306000000,
+  "boxOffice": 284000000,
+  "rating": 1,
+  "description": "Transported to Barsoom, a Civil War vet discovers a barren planet seemingly inhabited by 12-foot tall barbarians. Finding himself prisoner of these creatures, he escapes, only to encounter Woola and a princess in desperate need of a savior.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1106,
+      "characterName": "John Carter",
+      "characterImage": null
+    },
+    {
+      "personId": 757,
+      "characterName": "Dejah Thoris",
+      "characterImage": null
+    },
+    {
+      "personId": 1035,
+      "characterName": "Sola",
+      "characterImage": "characters/john_carter_sola.webp"
+    },
+    {
+      "personId": 1180,
+      "characterName": "Tars Tarkas",
+      "characterImage": "characters/john_carter_tars_tarkas.webp"
+    },
+    {
+      "personId": 1115,
+      "characterName": "Tal Hajus",
+      "characterImage": "characters/john_carter_tal_hajus.webp"
+    },
+    {
+      "personId": 789,
+      "characterName": "Matai Shang",
+      "characterImage": null
+    },
+    {
+      "personId": 213,
+      "characterName": "Tardos Mors",
+      "characterImage": null
+    },
+    {
+      "personId": 303,
+      "characterName": "Sab Than",
+      "characterImage": null
+    },
+    {
+      "personId": 513,
+      "characterName": "Kantos Kan",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 29,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1258,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1258,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1726,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1727,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1728,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1729,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1442,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1730,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    }
+  ]
+}

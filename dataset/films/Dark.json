@@ -1,0 +1,284 @@
+{
+  "$schema": "_schema.json",
+  "id": 33,
+  "title": "Dark",
+  "type": "SERIES",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2017-12-01T00:00:00.000Z",
+  "duration": 60,
+  "poster": "posters/dark.webp",
+  "youtubeTrailerId": null,
+  "rating": 2,
+  "description": "In the small town of Winden, a mysterious child disappearance reveals the existence of a time loop spanning over a century. Four interconnected families uncover their past secrets as they try to unravel the mysteries of time travel and the elusive concept of the 'origin.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 9,
+      "nominationId": 208,
+      "actorId": 739,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 739,
+      "characterName": "Jonas Kahnwald",
+      "characterImage": null
+    },
+    {
+      "personId": 642,
+      "characterName": "Charlotte Doppler",
+      "characterImage": null
+    },
+    {
+      "personId": 733,
+      "characterName": "Martha Nielsen",
+      "characterImage": null
+    },
+    {
+      "personId": 769,
+      "characterName": "Hannah Kahnwald",
+      "characterImage": null
+    },
+    {
+      "personId": 1081,
+      "characterName": "Peter Doppler",
+      "characterImage": null
+    },
+    {
+      "personId": 635,
+      "characterName": "Katharina Nielsen",
+      "characterImage": null
+    },
+    {
+      "personId": 56,
+      "characterName": "The Stranger",
+      "characterImage": null
+    },
+    {
+      "personId": 907,
+      "characterName": "Bartosz Tiedemann",
+      "characterImage": null
+    },
+    {
+      "personId": 856,
+      "characterName": "Magnus Nielsen",
+      "characterImage": null
+    },
+    {
+      "personId": 205,
+      "characterName": "Magnus Nielsen",
+      "characterImage": null
+    },
+    {
+      "personId": 885,
+      "characterName": "Ulrich Nielsen",
+      "characterImage": null
+    },
+    {
+      "personId": 917,
+      "characterName": "Aleksander Tiedemann",
+      "characterImage": null
+    },
+    {
+      "personId": 408,
+      "characterName": "Franziska Doppler",
+      "characterImage": null
+    },
+    {
+      "personId": 281,
+      "characterName": "Regina Tiedemann",
+      "characterImage": null
+    },
+    {
+      "personId": 631,
+      "characterName": "Claudia Tiedemann (1987)",
+      "characterImage": null
+    },
+    {
+      "personId": 170,
+      "characterName": "Elisabeth Doppler",
+      "characterImage": null
+    },
+    {
+      "personId": 294,
+      "characterName": "Adam",
+      "characterImage": null
+    },
+    {
+      "personId": 790,
+      "characterName": "Noah",
+      "characterImage": null
+    },
+    {
+      "personId": 448,
+      "characterName": "Helge Doppler",
+      "characterImage": null
+    },
+    {
+      "personId": 732,
+      "characterName": "Claudia Tiedemann",
+      "characterImage": null
+    },
+    {
+      "personId": 69,
+      "characterName": "Ines Kahnwald (1986)",
+      "characterImage": null
+    },
+    {
+      "personId": 1170,
+      "characterName": "Tronte Nielsen",
+      "characterImage": null
+    },
+    {
+      "personId": 754,
+      "characterName": "Regina Tiedemann (1986)",
+      "characterImage": null
+    },
+    {
+      "personId": 1137,
+      "characterName": "Helge Doppler (1953)",
+      "characterImage": null
+    },
+    {
+      "personId": 809,
+      "characterName": "Young Noah",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 14,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 5
+    },
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1419,
+      "position": "CREATOR",
+      "comment": null
+    },
+    {
+      "personId": 1420,
+      "position": "CREATOR",
+      "comment": null
+    },
+    {
+      "personId": 1419,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1420,
+      "position": "WRITER",
+      "comment": "26 episodes"
+    },
+    {
+      "personId": 1421,
+      "position": "WRITER",
+      "comment": "5 episodes"
+    },
+    {
+      "personId": 1422,
+      "position": "WRITER",
+      "comment": "5 episodes"
+    },
+    {
+      "personId": 1423,
+      "position": "WRITER",
+      "comment": "5 episodes"
+    },
+    {
+      "personId": 1424,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1425,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1420,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1426,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1427,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1419,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1428,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1429,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 5
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 17
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 24,
+    "seasonsTotal": 3,
+    "seasons": [
+      {
+        "number": 1,
+        "episodesCount": 8,
+        "releaseDate": "2017-12-01T00:00:00.000Z",
+        "youtubeTrailerId": "rrwycJ08PSA",
+        "title": null,
+        "description": "As four families—Nielsen, Doppler, Tiedemann, and Kahnwald—struggle with personal conflicts, they soon realize that their lives are intertwined through a time loop connecting 1953, 1986, and 2019. Jonas Kahnwald, a troubled teenager, discovers the existence of a hidden wormhole in the town's caves, revealing a sinister cycle of events that repeat every 33 years. As he delves deeper, he uncovers shocking truths about his own family, Winden’s past, and a secret society called Sic Mundus, which manipulates time for its own agenda."
+      },
+      {
+        "number": 2,
+        "episodesCount": 8,
+        "releaseDate": "2019-06-21T00:00:00.000Z",
+        "youtubeTrailerId": "810CHvSdXOo",
+        "title": null,
+        "description": "As the time loop's complexities deepen, the characters navigate multiple time periods while confronting the impending apocalypse. Tensions rise, family bonds are strained, and the intricate web of time travel's consequences becomes even more convoluted."
+      },
+      {
+        "number": 3,
+        "episodesCount": 8,
+        "releaseDate": "2020-06-27T00:00:00.000Z",
+        "youtubeTrailerId": "cq2iTHoLrt0",
+        "title": null,
+        "description": "In the final season, Winden faces its ultimate fate, and the characters must confront the origin of the time loop. Time travel takes them to different dimensions, and they strive to break the cycle to save their world from annihilation, all while exploring the timeless questions of destiny, free will, and the eternal battle between light and shadow."
+      }
+    ]
+  }
+}

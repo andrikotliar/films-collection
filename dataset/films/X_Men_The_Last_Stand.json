@@ -1,0 +1,151 @@
+{
+  "$schema": "_schema.json",
+  "id": 236,
+  "title": "X-Men: The Last Stand",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2006-05-26T00:00:00.000Z",
+  "duration": 104,
+  "poster": "posters/x_men_3.webp",
+  "youtubeTrailerId": "r8ZMvxzplwc",
+  "budget": 210000000,
+  "boxOffice": 459000000,
+  "rating": 1,
+  "description": "The human government develops a cure for mutations, and Jean Gray becomes a darker uncontrollable persona called the Phoenix who allies with Magneto, causing escalation into an all-out battle for the X-Men.",
+  "chapterKey": "x-men",
+  "chapterOrder": 7,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 36,
+      "actorId": 367,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 453,
+      "characterName": "Logan / Wolverine",
+      "characterImage": null
+    },
+    {
+      "personId": 426,
+      "characterName": "Ororo Munroe / Storm",
+      "characterImage": null
+    },
+    {
+      "personId": 460,
+      "characterName": "Erik Lehnsherr / Magneto",
+      "characterImage": null
+    },
+    {
+      "personId": 903,
+      "characterName": "Charles Xavier / Professor X",
+      "characterImage": null
+    },
+    {
+      "personId": 367,
+      "characterName": "Jean Grey / Phoenix",
+      "characterImage": null
+    },
+    {
+      "personId": 66,
+      "characterName": "Marie / Rogue",
+      "characterImage": null
+    },
+    {
+      "personId": 663,
+      "characterName": "Dr. Henry 'Hank' McCoy / Beast",
+      "characterImage": null
+    },
+    {
+      "personId": 510,
+      "characterName": "Scott Summers / Cyclops",
+      "characterImage": null
+    },
+    {
+      "personId": 1063,
+      "characterName": "Bobby Drake / Iceman",
+      "characterImage": null
+    },
+    {
+      "personId": 2,
+      "characterName": "John Allerdyce / Pyro",
+      "characterImage": null
+    },
+    {
+      "personId": 1167,
+      "characterName": "Cain Marko / Juggernaut",
+      "characterImage": null
+    },
+    {
+      "personId": 334,
+      "characterName": "Kitty Pryde / Shadowcat",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 16,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2381,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1797,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1912,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1796,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2374,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1551,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1314,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    },
+    {
+      "studioId": 5
+    }
+  ]
+}

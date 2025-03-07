@@ -1,0 +1,166 @@
+{
+  "$schema": "_schema.json",
+  "id": 162,
+  "title": "The Avengers: Age of Ultron",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2015-05-01T00:00:00.000Z",
+  "duration": 141,
+  "poster": "posters/avengers_2.webp",
+  "youtubeTrailerId": "tmeOjFno6Do",
+  "budget": 365000000,
+  "boxOffice": 1400000000,
+  "rating": 2,
+  "description": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.",
+  "chapterKey": "mcu",
+  "chapterOrder": 13,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 19,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 982,
+      "characterName": "Tony Stark / Iron Man",
+      "characterImage": "characters/the_avengers_age_of_ultron_tony_stark.webp"
+    },
+    {
+      "personId": 195,
+      "characterName": "Thor",
+      "characterImage": "characters/the_avengers_age_of_ultron_thor.webp"
+    },
+    {
+      "personId": 786,
+      "characterName": "Bruce Banner / Hulk",
+      "characterImage": "characters/the_avengers_age_of_ultron_bruce_banner.webp"
+    },
+    {
+      "personId": 194,
+      "characterName": "Steve Rogers / Captain America",
+      "characterImage": "characters/the_avengers_age_of_ultron_steve_rogers.webp"
+    },
+    {
+      "personId": 1042,
+      "characterName": "Natasha Romanoff / Black Widow",
+      "characterImage": null
+    },
+    {
+      "personId": 552,
+      "characterName": "Clint Barton / Hawkeye",
+      "characterImage": null
+    },
+    {
+      "personId": 516,
+      "characterName": "Ultron",
+      "characterImage": "characters/the_avengers_age_of_ultron_ultron.webp"
+    },
+    {
+      "personId": 1036,
+      "characterName": "Nick Fury",
+      "characterImage": null
+    },
+    {
+      "personId": 304,
+      "characterName": "James Rhodes",
+      "characterImage": null
+    },
+    {
+      "personId": 3,
+      "characterName": "Pietro Maximoff",
+      "characterImage": null
+    },
+    {
+      "personId": 329,
+      "characterName": "Wanda Maximoff / Scarlett Witch",
+      "characterImage": null
+    },
+    {
+      "personId": 905,
+      "characterName": "Jarvis / Vision",
+      "characterImage": "characters/the_avengers_age_of_ultron_jarvis.webp"
+    },
+    {
+      "personId": 221,
+      "characterName": "Maria Hill",
+      "characterImage": null
+    },
+    {
+      "personId": 74,
+      "characterName": "Sam Wilson",
+      "characterImage": null
+    },
+    {
+      "personId": 438,
+      "characterName": "Peggy Carter",
+      "characterImage": null
+    },
+    {
+      "personId": 463,
+      "characterName": "Heimdall",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 25,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2141,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2141,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1309,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1464,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1828,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1406,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    },
+    {
+      "studioId": 4
+    }
+  ]
+}

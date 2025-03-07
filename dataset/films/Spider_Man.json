@@ -1,0 +1,114 @@
+{
+  "$schema": "_schema.json",
+  "id": 133,
+  "title": "Spider-Man",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2002-05-03T00:00:00.000Z",
+  "duration": 121,
+  "poster": "posters/raimi_spider_man_1.webp",
+  "youtubeTrailerId": "_yhFofFZGcc",
+  "budget": 139000000,
+  "boxOffice": 825000000,
+  "rating": 2,
+  "description": "When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family.",
+  "chapterKey": "spider-man",
+  "chapterOrder": 1,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1122,
+      "characterName": "Spider-Man / Peter Parker",
+      "characterImage": "characters/spider_man_spider-man.webp"
+    },
+    {
+      "personId": 1180,
+      "characterName": "Green Goblin / Norman Osborn",
+      "characterImage": "characters/spider_man_green_goblin.webp"
+    },
+    {
+      "personId": 684,
+      "characterName": "Mary Jane Watson",
+      "characterImage": null
+    },
+    {
+      "personId": 506,
+      "characterName": "Harry Osborn",
+      "characterImage": null
+    },
+    {
+      "personId": 218,
+      "characterName": "Ben Parker",
+      "characterImage": null
+    },
+    {
+      "personId": 1007,
+      "characterName": "May Parker",
+      "characterImage": null
+    },
+    {
+      "personId": 475,
+      "characterName": "J. Jonah Jameson",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 16,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1970,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1702,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1971,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1972,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1828,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1321,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 12
+    },
+    {
+      "studioId": 5
+    }
+  ]
+}

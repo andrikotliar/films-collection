@@ -1,0 +1,128 @@
+{
+  "$schema": "_schema.json",
+  "id": 31,
+  "title": "Casino Royale",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2006-11-17T00:00:00.000Z",
+  "duration": 144,
+  "poster": "posters/casino_royale.webp",
+  "youtubeTrailerId": "36mnx8dBbGE",
+  "budget": 150000000,
+  "boxOffice": 616000000,
+  "rating": 1,
+  "description": "After earning 00 status and a licence to kill, secret agent James Bond sets out on his first mission as 007. Bond must defeat a private banker funding terrorists in a high-stakes game of poker at Casino Royale, Montenegro.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 245,
+      "characterName": "James Bond",
+      "characterImage": null
+    },
+    {
+      "personId": 357,
+      "characterName": "Vesper Lynd",
+      "characterImage": null
+    },
+    {
+      "personId": 762,
+      "characterName": "Le Chiffre",
+      "characterImage": null
+    },
+    {
+      "personId": 624,
+      "characterName": "M",
+      "characterImage": null
+    },
+    {
+      "personId": 544,
+      "characterName": "Felix Leiter",
+      "characterImage": null
+    },
+    {
+      "personId": 406,
+      "characterName": "Rene Mathis",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 6,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 2
+    },
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 9
+    },
+    {
+      "countryId": 5
+    },
+    {
+      "countryId": 10
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1407,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1408,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1409,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1410,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1411,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1412,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1271,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1413,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 9
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 12
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "$schema": "_schema.json",
+  "id": 118,
+  "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2003-07-09T00:00:00.000Z",
+  "duration": 143,
+  "poster": "posters/pirates_1.webp",
+  "youtubeTrailerId": "naQr0uTrH_s",
+  "budget": 140000000,
+  "boxOffice": 654000000,
+  "rating": 3,
+  "description": "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
+  "chapterKey": "pirates-of-the-caribbean",
+  "chapterOrder": 1,
+  "awards": [
+    {
+      "awardId": 4,
+      "nominationId": 109,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 52,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 187,
+      "actorId": 598,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 85,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 598,
+      "characterName": "Captain Jack Sparrow",
+      "characterImage": "characters/pirates_of_the_caribbean_the_curse_of_the_black_pearl_captain_jack_sparrow.webp"
+    },
+    {
+      "personId": 401,
+      "characterName": "Barbossa",
+      "characterImage": null
+    },
+    {
+      "personId": 894,
+      "characterName": "Will Turner",
+      "characterImage": null
+    },
+    {
+      "personId": 659,
+      "characterName": "Elizabeth Swann",
+      "characterImage": null
+    },
+    {
+      "personId": 480,
+      "characterName": "Norrington",
+      "characterImage": null
+    },
+    {
+      "personId": 609,
+      "characterName": "Governor Weatherby Swann",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1890,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1891,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1892,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1893,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1896,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1894,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    },
+    {
+      "studioId": 44
+    }
+  ]
+}

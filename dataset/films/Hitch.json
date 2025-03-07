@@ -1,0 +1,118 @@
+{
+  "$schema": "_schema.json",
+  "id": 65,
+  "title": "Hitch",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2005-02-11T00:00:00.000Z",
+  "duration": 118,
+  "poster": "posters/hitch.webp",
+  "youtubeTrailerId": "pYrrEUgnT6s",
+  "budget": 70000000,
+  "boxOffice": 368000000,
+  "rating": 1,
+  "description": "While helping his latest client woo the fine lady of his dreams, a professional \"date doctor\" finds that his game doesn't quite work on the gossip columnist with whom he's smitten.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 9,
+      "nominationId": 209,
+      "actorId": 1178,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 1178,
+      "characterName": "Hitch",
+      "characterImage": null
+    },
+    {
+      "personId": 359,
+      "characterName": "Sara",
+      "characterImage": null
+    },
+    {
+      "personId": 676,
+      "characterName": "Albert",
+      "characterImage": null
+    },
+    {
+      "personId": 50,
+      "characterName": "Allegra",
+      "characterImage": null
+    },
+    {
+      "personId": 630,
+      "characterName": "Casey",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 24,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1656,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1657,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1178,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1549,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1658,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1659,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1660,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1661,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 8
+    },
+    {
+      "genreId": 6
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 12
+    }
+  ]
+}

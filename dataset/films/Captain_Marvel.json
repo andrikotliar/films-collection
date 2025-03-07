@@ -1,0 +1,144 @@
+{
+  "$schema": "_schema.json",
+  "id": 30,
+  "title": "Captain Marvel",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2019-03-08T00:00:00.000Z",
+  "duration": 124,
+  "poster": "posters/captain_marvel.webp",
+  "youtubeTrailerId": "TcMBFSGVi1c",
+  "budget": 152000000,
+  "boxOffice": 1130000000,
+  "rating": 1,
+  "description": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
+  "chapterKey": "mcu",
+  "chapterOrder": 2,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 151,
+      "characterName": "Carol Danvers / Captain Marvel",
+      "characterImage": null
+    },
+    {
+      "personId": 1036,
+      "characterName": "Nick Fury",
+      "characterImage": null
+    },
+    {
+      "personId": 110,
+      "characterName": "Talos / Keller",
+      "characterImage": "characters/captain_marvel_talos.webp"
+    },
+    {
+      "personId": 623,
+      "characterName": "Yon-Rogg",
+      "characterImage": null
+    },
+    {
+      "personId": 70,
+      "characterName": "Supreme Intelligence / Dr. Wendy Lawson",
+      "characterImage": null
+    },
+    {
+      "personId": 700,
+      "characterName": "Maria Rambeau",
+      "characterImage": null
+    },
+    {
+      "personId": 216,
+      "characterName": "Agent Coulson",
+      "characterImage": null
+    },
+    {
+      "personId": 1011,
+      "characterName": "Bron-Char",
+      "characterImage": "characters/captain_marvel_bron-char.webp"
+    },
+    {
+      "personId": 398,
+      "characterName": "Minn-Erva",
+      "characterImage": "characters/captain_marvel_minn-erva.webp"
+    },
+    {
+      "personId": 297,
+      "characterName": "Korath",
+      "characterImage": null
+    },
+    {
+      "personId": 711,
+      "characterName": "Ronan",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 25,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1402,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1403,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1402,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1403,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1404,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1309,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1405,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1406,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    },
+    {
+      "studioId": 4
+    }
+  ]
+}

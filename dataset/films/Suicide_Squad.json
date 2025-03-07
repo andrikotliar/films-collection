@@ -1,0 +1,137 @@
+{
+  "$schema": "_schema.json",
+  "id": 152,
+  "title": "Suicide Squad",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2016-08-05T00:00:00.000Z",
+  "duration": 123,
+  "poster": "posters/suicide_squad.webp",
+  "youtubeTrailerId": "CmRih_VtVAs",
+  "budget": 175000000,
+  "boxOffice": 747000000,
+  "rating": 1,
+  "description": "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse.",
+  "chapterKey": "dceu",
+  "chapterOrder": 3,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 20,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 80,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 1178,
+      "characterName": "Deadshot",
+      "characterImage": null
+    },
+    {
+      "personId": 775,
+      "characterName": "Harley Quinn",
+      "characterImage": null
+    },
+    {
+      "personId": 1168,
+      "characterName": "Amanda Waller",
+      "characterImage": null
+    },
+    {
+      "personId": 522,
+      "characterName": "The Joker",
+      "characterImage": null
+    },
+    {
+      "personId": 494,
+      "characterName": "George Harkness / Captain Boomerang",
+      "characterImage": null
+    },
+    {
+      "personId": 534,
+      "characterName": "Diablo",
+      "characterImage": null
+    },
+    {
+      "personId": 11,
+      "characterName": "Killer Croc",
+      "characterImage": null
+    },
+    {
+      "personId": 166,
+      "characterName": "June Moone / Enchantress",
+      "characterImage": null
+    },
+    {
+      "personId": 572,
+      "characterName": "Rick Flag",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 11,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2030,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2030,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1380,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2031,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2032,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2033,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 18
+    },
+    {
+      "studioId": 8
+    }
+  ]
+}

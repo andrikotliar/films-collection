@@ -1,0 +1,108 @@
+{
+  "$schema": "_schema.json",
+  "id": 170,
+  "title": "The Day the Earth Stood Still",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2008-12-12T00:00:00.000Z",
+  "duration": 103,
+  "poster": "posters/day_the_earth_stood_still.webp",
+  "youtubeTrailerId": "6QFcZohER3s",
+  "budget": 80000000,
+  "boxOffice": 233000000,
+  "rating": 2,
+  "description": "A remake of the 1951 classic science fiction film about an alien visitor and his giant robot counterpart who visit Earth.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 40,
+      "actorId": 492,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 657,
+      "characterName": "Klaatu",
+      "characterImage": null
+    },
+    {
+      "personId": 546,
+      "characterName": "Helen Benson",
+      "characterImage": null
+    },
+    {
+      "personId": 651,
+      "characterName": "Regina Jackson",
+      "characterImage": null
+    },
+    {
+      "personId": 492,
+      "characterName": "Jacob Benson",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 30,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1439,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2148,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2149,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2150,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1452,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1543,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1995,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 9
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    }
+  ]
+}

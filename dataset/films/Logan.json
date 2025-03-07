@@ -1,0 +1,147 @@
+{
+  "$schema": "_schema.json",
+  "id": 93,
+  "title": "Logan",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2017-03-03T00:00:00.000Z",
+  "duration": 137,
+  "poster": "posters/logan.webp",
+  "youtubeTrailerId": "Div0iP65aZo",
+  "budget": 97000000,
+  "boxOffice": 619000000,
+  "rating": 2,
+  "description": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
+  "chapterKey": "x-men",
+  "chapterOrder": 9,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 39,
+      "actorId": 903,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 191,
+      "actorId": null,
+      "comment": "Hugh Jackman and Dafne Keen"
+    }
+  ],
+  "cast": [
+    {
+      "personId": 453,
+      "characterName": "Logan / X-24",
+      "characterImage": null
+    },
+    {
+      "personId": 903,
+      "characterName": "Charles",
+      "characterImage": null
+    },
+    {
+      "personId": 237,
+      "characterName": "Laura",
+      "characterImage": null
+    },
+    {
+      "personId": 138,
+      "characterName": "Pierce",
+      "characterImage": null
+    },
+    {
+      "personId": 1086,
+      "characterName": "Caliban",
+      "characterImage": null
+    },
+    {
+      "personId": 330,
+      "characterName": "Gabriela",
+      "characterImage": null
+    },
+    {
+      "personId": 968,
+      "characterName": "Dr. Rice",
+      "characterImage": null
+    },
+    {
+      "personId": 355,
+      "characterName": "Will Munson",
+      "characterImage": null
+    },
+    {
+      "personId": 324,
+      "characterName": "Kathryn Munson",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 16,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1478,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1795,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1478,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1629,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1796,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1797,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1278,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1798,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    },
+    {
+      "studioId": 5
+    }
+  ]
+}

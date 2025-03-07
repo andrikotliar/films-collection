@@ -1,0 +1,297 @@
+{
+  "$schema": "_schema.json",
+  "id": 193,
+  "title": "The Mandalorian",
+  "type": "SERIES",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2019-11-12T00:00:00.000Z",
+  "duration": 40,
+  "poster": "posters/mandalorian.webp",
+  "youtubeTrailerId": null,
+  "rating": 2,
+  "description": "The Mandalorian travels across the Galaxy as a bounty hunter. He searches for Beskar to enhance his armor. One of his mission changes whole his life. He found a The Child, mysterious small being and now must protect him from enemies.",
+  "chapterKey": "star-wars",
+  "chapterOrder": 9,
+  "awards": [
+    {
+      "awardId": 6,
+      "nominationId": 158,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 159,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 160,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 161,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 162,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 163,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 164,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 913,
+      "characterName": "The Mandalorian",
+      "characterImage": "characters/the_mandalorian_the_mandalorian.webp"
+    },
+    {
+      "personId": 407,
+      "characterName": "Cara Dune",
+      "characterImage": null
+    },
+    {
+      "personId": 405,
+      "characterName": "Moff Gideon",
+      "characterImage": null
+    },
+    {
+      "personId": 168,
+      "characterName": "Greef Karga",
+      "characterImage": null
+    },
+    {
+      "personId": 1107,
+      "characterName": "Boba Fett",
+      "characterImage": null
+    },
+    {
+      "personId": 847,
+      "characterName": "Fennec Shand",
+      "characterImage": null
+    },
+    {
+      "personId": 1004,
+      "characterName": "Ahsoka Tano",
+      "characterImage": "characters/the_mandalorian_ahsoka_tano.webp"
+    },
+    {
+      "personId": 1101,
+      "characterName": "IG-11",
+      "characterImage": "characters/the_mandalorian_ig-11.webp"
+    },
+    {
+      "personId": 871,
+      "characterName": "Kuiil",
+      "characterImage": "characters/the_mandalorian_kuiil.webp"
+    },
+    {
+      "personId": 1237,
+      "characterName": "The Armorer",
+      "characterImage": "characters/the_mandalorian_the_armorer.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 22,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 601,
+      "position": "CREATOR",
+      "comment": null
+    },
+    {
+      "personId": 1342,
+      "position": "DIRECTOR",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 2219,
+      "position": "DIRECTOR",
+      "comment": "6 episodes"
+    },
+    {
+      "personId": 2220,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 157,
+      "position": "DIRECTOR",
+      "comment": "3 episodes"
+    },
+    {
+      "personId": 1101,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 601,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1305,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 168,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 1292,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2221,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1394,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 1984,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 601,
+      "position": "WRITER",
+      "comment": "20 episodes"
+    },
+    {
+      "personId": 1342,
+      "position": "WRITER",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 2222,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2219,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2223,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 601,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1342,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1738,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1728,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2035,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2224,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1448,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1522,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 2225,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 2
+    },
+    {
+      "studioId": 37
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 16,
+    "seasonsTotal": 2,
+    "seasons": [
+      {
+        "number": 1,
+        "episodesCount": 8,
+        "releaseDate": "2019-11-12T00:00:00.000Z",
+        "youtubeTrailerId": "OFlBh_eUsjA",
+        "title": null,
+        "description": "Din Djarin, a lone Mandalorian bounty hunter, as he takes on various jobs across the galaxy. His life changes when he is tasked with capturing a mysterious child, later known as Grogu. Instead of handing the child over to the remnants of the Empire, Din chooses to protect him, making himself a target. Throughout the season, he battles bounty hunters, Imperial forces, and other enemies while forming alliances with characters like Cara Dune, Greef Karga, and Kuiil. The season ends with Moff Gideon revealing the Darksaber, setting up future conflicts."
+      },
+      {
+        "number": 2,
+        "episodesCount": 8,
+        "releaseDate": "2020-10-30T00:00:00.000Z",
+        "youtubeTrailerId": "eW7Twd85m2g",
+        "title": null,
+        "description": "The Mandalorian continues his journey with Grogu, searching for other Mandalorians who can help him return the child to its people. Their quest leads them to encounters with familiar and new characters, as well as deeper involvement in the events of the broader Star Wars galaxy."
+      }
+    ]
+  }
+}

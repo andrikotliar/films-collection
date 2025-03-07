@@ -1,0 +1,199 @@
+{
+  "$schema": "_schema.json",
+  "id": 216,
+  "title": "Titanic",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1997-12-19T00:00:00.000Z",
+  "duration": 194,
+  "poster": "posters/titanic.webp",
+  "youtubeTrailerId": "kVrqfYjkTdQ",
+  "budget": 200000000,
+  "boxOffice": 2400000000,
+  "rating": 2,
+  "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 22,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 23,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 27,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 13,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 19,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 14,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 15,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 2,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 1,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 17,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 31,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 5,
+      "nominationId": 118,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 5,
+      "nominationId": 120,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 5,
+      "nominationId": 121,
+      "actorId": null,
+      "comment": "My Heart Will Go On"
+    }
+  ],
+  "cast": [
+    {
+      "personId": 716,
+      "characterName": "Jack Dawson",
+      "characterImage": null
+    },
+    {
+      "personId": 648,
+      "characterName": "Rose Dewitt Bukater",
+      "characterImage": null
+    },
+    {
+      "personId": 131,
+      "characterName": "Cal Hockley",
+      "characterImage": null
+    },
+    {
+      "personId": 651,
+      "characterName": "Molly Brown",
+      "characterImage": null
+    },
+    {
+      "personId": 378,
+      "characterName": "Ruth Dewitt Bukater",
+      "characterImage": null
+    },
+    {
+      "personId": 1224,
+      "characterName": "Captain Smith",
+      "characterImage": null
+    },
+    {
+      "personId": 414,
+      "characterName": "Old Rose",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 3,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1288,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1288,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1288,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1294,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1290,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1310,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 5
+    },
+    {
+      "genreId": 8
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    },
+    {
+      "studioId": 14
+    }
+  ]
+}

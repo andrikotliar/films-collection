@@ -1,0 +1,105 @@
+{
+  "$schema": "_schema.json",
+  "id": 75,
+  "title": "In Time",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2011-10-28T00:00:00.000Z",
+  "duration": 109,
+  "poster": "posters/time.webp",
+  "youtubeTrailerId": "fdadZ_KrZVw",
+  "budget": 40000000,
+  "boxOffice": 174000000,
+  "rating": 3,
+  "description": "In a future where people stop aging at 25, but are engineered to live only one more year, having the means to buy your way out of the situation is a shot at immortal youth. Here, Will Salas finds himself accused of murder and on the run with a hostage - a connection that becomes an important part of the way against the system.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 634,
+      "characterName": "Will Salas",
+      "characterImage": null
+    },
+    {
+      "personId": 890,
+      "characterName": "Rachel Salas",
+      "characterImage": null
+    },
+    {
+      "personId": 1066,
+      "characterName": "Maya",
+      "characterImage": null
+    },
+    {
+      "personId": 599,
+      "characterName": "Borel",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 14,
+      "order": null
+    },
+    {
+      "collectionId": 21,
+      "order": 6
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1695,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1695,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1695,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1696,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1697,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1698,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1699,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 6
+    }
+  ]
+}

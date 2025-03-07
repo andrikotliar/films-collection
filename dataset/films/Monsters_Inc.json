@@ -1,0 +1,118 @@
+{
+  "$schema": "_schema.json",
+  "id": 108,
+  "title": "Monsters, Inc.",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2001-11-02T00:00:00.000Z",
+  "duration": 92,
+  "poster": "posters/monsters_inc.webp",
+  "youtubeTrailerId": "6tCxnHCqqxg",
+  "budget": 115000000,
+  "boxOffice": 580000000,
+  "rating": 2,
+  "description": "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, 2 monsters realize things may not be what they think.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 17,
+      "actorId": null,
+      "comment": "Song \"If I Didn't Have You\""
+    },
+    {
+      "awardId": 7,
+      "nominationId": 179,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 582,
+      "characterName": "Sullivan",
+      "characterImage": "characters/monsters_inc_sullivan.webp"
+    },
+    {
+      "personId": 129,
+      "characterName": "Mike",
+      "characterImage": "characters/monsters_inc_mike.webp"
+    },
+    {
+      "personId": 796,
+      "characterName": "Boo",
+      "characterImage": "characters/monsters_inc_boo.webp"
+    },
+    {
+      "personId": 1090,
+      "characterName": "Randall",
+      "characterImage": "characters/monsters_inc_randall.webp"
+    },
+    {
+      "personId": 502,
+      "characterName": "Waternoose",
+      "characterImage": "characters/monsters_inc_waternoose.webp"
+    },
+    {
+      "personId": 549,
+      "characterName": "Celia",
+      "characterImage": "characters/monsters_inc_celia.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    },
+    {
+      "collectionId": 9,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1857,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1258,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1858,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1859,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1860,
+      "position": "COMPOSER",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 6
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 3
+    }
+  ]
+}

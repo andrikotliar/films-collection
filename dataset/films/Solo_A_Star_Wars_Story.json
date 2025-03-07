@@ -1,0 +1,136 @@
+{
+  "$schema": "_schema.json",
+  "id": 130,
+  "title": "Solo: A Star Wars Story",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2018-05-25T00:00:00.000Z",
+  "duration": 135,
+  "poster": "posters/solo.webp",
+  "youtubeTrailerId": "jPEYpryMp2s",
+  "budget": 375000000,
+  "boxOffice": 393000000,
+  "rating": 1,
+  "description": "During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion.",
+  "chapterKey": "star-wars",
+  "chapterOrder": 4,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 26,
+      "characterName": "Han Solo",
+      "characterImage": null
+    },
+    {
+      "personId": 611,
+      "characterName": "Chewbacca",
+      "characterImage": "characters/solo_a_star_wars_story_chewbacca.webp"
+    },
+    {
+      "personId": 1190,
+      "characterName": "Beckett",
+      "characterImage": null
+    },
+    {
+      "personId": 339,
+      "characterName": "Qi'ra",
+      "characterImage": null
+    },
+    {
+      "personId": 308,
+      "characterName": "Lando Calrissian",
+      "characterImage": null
+    },
+    {
+      "personId": 1206,
+      "characterName": "Val",
+      "characterImage": null
+    },
+    {
+      "personId": 930,
+      "characterName": "L3-37",
+      "characterImage": "characters/solo_a_star_wars_story_l3-37.webp"
+    },
+    {
+      "personId": 905,
+      "characterName": "Dryden Vos",
+      "characterImage": null
+    },
+    {
+      "personId": 601,
+      "characterName": "Rio Durant",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 22,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1958,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1959,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1709,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1738,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1923,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1922,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1551,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1563,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1960,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 17
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 37
+    },
+    {
+      "studioId": 1
+    }
+  ]
+}

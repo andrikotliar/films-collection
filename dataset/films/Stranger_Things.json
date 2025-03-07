@@ -1,0 +1,400 @@
+{
+  "$schema": "_schema.json",
+  "id": 151,
+  "title": "Stranger Things",
+  "type": "SERIES",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2016-07-15T00:00:00.000Z",
+  "duration": 60,
+  "poster": "posters/stranger_things.webp",
+  "youtubeTrailerId": null,
+  "rating": 3,
+  "description": "A group of boys discovers the existence of a dark parallel world and monsters that came from there. Together with a mysterious girl with psychokinetic abilities powers, they must protect the town of Hawkins from evil.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 60,
+      "actorId": 844,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 61,
+      "actorId": 371,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 62,
+      "actorId": null,
+      "comment": "In 2019 and 2022 years"
+    },
+    {
+      "awardId": 2,
+      "nominationId": 63,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 86,
+      "actorId": 274,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 148,
+      "actorId": null,
+      "comment": "Hiro Koda - stunt coordinator"
+    },
+    {
+      "awardId": 6,
+      "nominationId": 149,
+      "actorId": null,
+      "comment": "2022 (episode: The Massacre at Hawkins Lab), 2020 (episode: The Battle of Starcourt), 2018 (episode: The Ming Flayer)"
+    },
+    {
+      "awardId": 6,
+      "nominationId": 150,
+      "actorId": null,
+      "comment": "\"The Massacre at Hawkins Lab\" episode"
+    },
+    {
+      "awardId": 6,
+      "nominationId": 151,
+      "actorId": null,
+      "comment": "\"Dear Billy\" episode"
+    },
+    {
+      "awardId": 6,
+      "nominationId": 152,
+      "actorId": null,
+      "comment": "\"Dear Billy\" episode"
+    },
+    {
+      "awardId": 6,
+      "nominationId": 153,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 154,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 155,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 156,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 6,
+      "nominationId": 157,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 1188,
+      "characterName": "Joyce Byers",
+      "characterImage": null
+    },
+    {
+      "personId": 274,
+      "characterName": "Jim Hopper",
+      "characterImage": null
+    },
+    {
+      "personId": 371,
+      "characterName": "Mike Wheeler",
+      "characterImage": null
+    },
+    {
+      "personId": 844,
+      "characterName": "Eleven",
+      "characterImage": null
+    },
+    {
+      "personId": 396,
+      "characterName": "Dustin Henderson",
+      "characterImage": null
+    },
+    {
+      "personId": 161,
+      "characterName": "Lucas Sinclair",
+      "characterImage": null
+    },
+    {
+      "personId": 862,
+      "characterName": "Nancy Wheeler",
+      "characterImage": null
+    },
+    {
+      "personId": 183,
+      "characterName": "Jonathan Byers",
+      "characterImage": null
+    },
+    {
+      "personId": 566,
+      "characterName": "Steve Harrington",
+      "characterImage": null
+    },
+    {
+      "personId": 878,
+      "characterName": "Will Byers",
+      "characterImage": null
+    },
+    {
+      "personId": 806,
+      "characterName": "Dr. Martin Brenner",
+      "characterImage": null
+    },
+    {
+      "personId": 1250,
+      "characterName": "Max Mayfield",
+      "characterImage": null
+    },
+    {
+      "personId": 1251,
+      "characterName": "Eddie Munson",
+      "characterImage": null
+    },
+    {
+      "personId": 1252,
+      "characterName": "Vecna",
+      "characterImage": null
+    },
+    {
+      "personId": 1253,
+      "characterName": "Billy Hargrove",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    },
+    {
+      "collectionId": 21,
+      "order": 10
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2010,
+      "position": "CREATOR",
+      "comment": null
+    },
+    {
+      "personId": 2011,
+      "position": "CREATOR",
+      "comment": null
+    },
+    {
+      "personId": 2010,
+      "position": "DIRECTOR",
+      "comment": "23 episodes"
+    },
+    {
+      "personId": 2011,
+      "position": "DIRECTOR",
+      "comment": "23 episodes"
+    },
+    {
+      "personId": 1815,
+      "position": "DIRECTOR",
+      "comment": "10 episodes"
+    },
+    {
+      "personId": 1258,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2012,
+      "position": "DIRECTOR",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2013,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2014,
+      "position": "DIRECTOR",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2010,
+      "position": "WRITER",
+      "comment": "11 episodes"
+    },
+    {
+      "personId": 2011,
+      "position": "WRITER",
+      "comment": "11 episodes"
+    },
+    {
+      "personId": 2015,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2016,
+      "position": "WRITER",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 2017,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2018,
+      "position": "WRITER",
+      "comment": "2 episodes"
+    },
+    {
+      "personId": 2019,
+      "position": "WRITER",
+      "comment": "4 episodes"
+    },
+    {
+      "personId": 2020,
+      "position": "WRITER",
+      "comment": "18 episodes"
+    },
+    {
+      "personId": 2021,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2022,
+      "position": "WRITER",
+      "comment": "1 episode"
+    },
+    {
+      "personId": 2023,
+      "position": "WRITER",
+      "comment": "9 episodes"
+    },
+    {
+      "personId": 2024,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2016,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2025,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2026,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2027,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2028,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 2029,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1817,
+      "position": "CAMERAMAN",
+      "comment": null
+    },
+    {
+      "personId": 1519,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 5
+    },
+    {
+      "genreId": 10
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 17
+    }
+  ],
+  "seriesExtension": {
+    "episodesTotal": 34,
+    "seasonsTotal": 4,
+    "seasons": [
+      {
+        "number": 1,
+        "episodesCount": 8,
+        "releaseDate": "2016-07-15T00:00:00.000Z",
+        "youtubeTrailerId": "b9EkMc79ZSU",
+        "title": null,
+        "description": "In the 1980s, a young boy named Will disappears in Hawkins, Indiana. His friends Mike, Dustin, Lucas, Will's mother Joyce, and Sherif Jim Hopper embark on a quest to find him while uncovering supernatural mysteries. The arrival of a sinister force known as the Demogorgon leads to a parallel dimension known as the Upside Down."
+      },
+      {
+        "number": 2,
+        "episodesCount": 9,
+        "releaseDate": "2017-10-27T00:00:00.000Z",
+        "youtubeTrailerId": "R1ZXOOLMJ8s",
+        "title": null,
+        "description": "In the second season, a year after the events of the first season, Hawkins faces a new supernatural threat. The group of friends reunites to confront a shadowy entity that threatens the town, and they learn more about the Upside Down. Eleven, the psychokinetic girl, seeks her past and abilities."
+      },
+      {
+        "number": 3,
+        "episodesCount": 8,
+        "releaseDate": "2019-07-04T00:00:00.000Z",
+        "youtubeTrailerId": "6Am4v0C_z8c",
+        "title": null,
+        "description": "Set during the summer of 1985, Season 3 follows the group of friends as they face new challenges, both supernatural and personal. The town's new mall hides a dark secret, and the Russians play a significant role in the unfolding mysteries. The Mind Flayer returns, and Hawkins is once again in grave danger."
+      },
+      {
+        "number": 4,
+        "episodesCount": 9,
+        "releaseDate": "2022-08-01T00:00:00.000Z",
+        "youtubeTrailerId": "a3thyAnShck",
+        "title": null,
+        "description": "Darkness returns to Hawkins just in time for spring break, igniting fresh terror, disturbing memories — and an ominous new threat."
+      }
+    ]
+  }
+}

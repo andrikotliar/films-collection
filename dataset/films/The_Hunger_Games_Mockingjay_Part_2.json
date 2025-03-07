@@ -1,0 +1,162 @@
+{
+  "$schema": "_schema.json",
+  "id": 180,
+  "title": "The Hunger Games: Mockingjay - Part 2",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2015-11-20T00:00:00.000Z",
+  "duration": 137,
+  "poster": "posters/hunger_games_4.webp",
+  "youtubeTrailerId": "n-7K_OjsDCQ",
+  "budget": 160000000,
+  "boxOffice": 658000000,
+  "rating": 2,
+  "description": "Katniss and a team of rebels from District 13 prepare for the final battle that will decide the fate of Panem.",
+  "chapterKey": "hunger-games",
+  "chapterOrder": 4,
+  "awards": [
+    {
+      "awardId": 8,
+      "nominationId": 183,
+      "actorId": 547,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 547,
+      "characterName": "Katniss Everdeen",
+      "characterImage": null
+    },
+    {
+      "personId": 620,
+      "characterName": "Peeta Mellark",
+      "characterImage": null
+    },
+    {
+      "personId": 722,
+      "characterName": "Gale Hawthorne",
+      "characterImage": null
+    },
+    {
+      "personId": 1190,
+      "characterName": "Haymitch Abernathy",
+      "characterImage": null
+    },
+    {
+      "personId": 327,
+      "characterName": "Effie Trinket",
+      "characterImage": null
+    },
+    {
+      "personId": 309,
+      "characterName": "President Coriolanus Snow",
+      "characterImage": null
+    },
+    {
+      "personId": 927,
+      "characterName": "Plutarch Heavensbee",
+      "characterImage": null
+    },
+    {
+      "personId": 767,
+      "characterName": "Boggs",
+      "characterImage": null
+    },
+    {
+      "personId": 863,
+      "characterName": "Cressida",
+      "characterImage": null
+    },
+    {
+      "personId": 1226,
+      "characterName": "Pollux",
+      "characterImage": null
+    },
+    {
+      "personId": 544,
+      "characterName": "Beetee",
+      "characterImage": null
+    },
+    {
+      "personId": 422,
+      "characterName": "Commander Lyme",
+      "characterImage": null
+    },
+    {
+      "personId": 628,
+      "characterName": "President Alma Coin",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 12,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 5
+    },
+    {
+      "countryId": 3
+    },
+    {
+      "countryId": 4
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1680,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2182,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2183,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2177,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2178,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1384,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2181,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 57
+    }
+  ]
+}

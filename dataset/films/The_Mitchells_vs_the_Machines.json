@@ -1,0 +1,120 @@
+{
+  "$schema": "_schema.json",
+  "id": 200,
+  "title": "The Mitchells vs the Machines",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2021-04-23T00:00:00.000Z",
+  "duration": 113,
+  "poster": "posters/mitchells.webp",
+  "youtubeTrailerId": "_ak5dFt8Ar0",
+  "rating": 2,
+  "description": "A quirky, dysfunctional family's road trip is upended when they find themselves in the middle of the robot apocalypse and suddenly become humanity's unlikeliest last hope.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 4,
+      "characterName": "Katie Mitchell",
+      "characterImage": "characters/the_mitchells_vs_the_machines_katie_mitchell.webp"
+    },
+    {
+      "personId": 257,
+      "characterName": "Rick Mitchell",
+      "characterImage": "characters/the_mitchells_vs_the_machines_rick_mitchell.webp"
+    },
+    {
+      "personId": 810,
+      "characterName": "Linda Mitchell",
+      "characterImage": "characters/the_mitchells_vs_the_machines_linda_mitchell.webp"
+    },
+    {
+      "personId": 829,
+      "characterName": "Aaron Mitchell",
+      "characterImage": "characters/the_mitchells_vs_the_machines_aaron_mitchell.webp"
+    },
+    {
+      "personId": 887,
+      "characterName": "PAL",
+      "characterImage": "characters/the_mitchells_vs_the_machines_pal.webp"
+    },
+    {
+      "personId": 350,
+      "characterName": "Dr. Mark Bowman",
+      "characterImage": "characters/the_mitchells_vs_the_machines_dr_mark_bowman.webp"
+    },
+    {
+      "personId": 386,
+      "characterName": "Deborahbot 5000",
+      "characterImage": "characters/the_mitchells_vs_the_machines_deborahbot_5000.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 7,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 3
+    },
+    {
+      "countryId": 16
+    }
+  ],
+  "crew": [
+    {
+      "personId": 829,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 829,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2241,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1986,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1987,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2242,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2243,
+      "position": "COMPOSER",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 6
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 17
+    }
+  ]
+}

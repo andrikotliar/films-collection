@@ -1,0 +1,109 @@
+{
+  "$schema": "_schema.json",
+  "id": 131,
+  "title": "Source Code",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2011-04-01T00:00:00.000Z",
+  "duration": 93,
+  "poster": "posters/source_code.webp",
+  "youtubeTrailerId": "mnJegNyAb1w",
+  "budget": 32000000,
+  "boxOffice": 147000000,
+  "rating": 1,
+  "description": "A soldier wakes up in someone else's body and discovers he's part of an experimental government program to find the bomber of a commuter train. A mission he has only 8 minutes to complete.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 498,
+      "characterName": "Colter Stevens",
+      "characterImage": null
+    },
+    {
+      "personId": 836,
+      "characterName": "Christina Warren",
+      "characterImage": null
+    },
+    {
+      "personId": 1161,
+      "characterName": "Colleen Goodwin",
+      "characterImage": null
+    },
+    {
+      "personId": 544,
+      "characterName": "Dr. Rutledge",
+      "characterImage": null
+    },
+    {
+      "personId": 817,
+      "characterName": "Derek Frost",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 14,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1961,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1962,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1263,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1963,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1964,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1965,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1321,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    },
+    {
+      "genreId": 9
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 43
+    }
+  ]
+}

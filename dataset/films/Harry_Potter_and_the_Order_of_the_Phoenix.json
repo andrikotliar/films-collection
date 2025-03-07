@@ -1,0 +1,129 @@
+{
+  "$schema": "_schema.json",
+  "id": 60,
+  "title": "Harry Potter and the Order of the Phoenix",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2007-07-11T00:00:00.000Z",
+  "duration": 138,
+  "poster": "posters/harry_potter_5.webp",
+  "youtubeTrailerId": "y6ZW7KXaXYk",
+  "budget": 150000000,
+  "boxOffice": 940000000,
+  "rating": 3,
+  "description": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.",
+  "chapterKey": "harry-potter",
+  "chapterOrder": 5,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 251,
+      "characterName": "Harry Potter",
+      "characterImage": "characters/harry_potter_and_the_order_of_the_phoenix_harry_potter.webp"
+    },
+    {
+      "personId": 1014,
+      "characterName": "Ron Weasley",
+      "characterImage": "characters/harry_potter_and_the_order_of_the_phoenix_ron_weasley.webp"
+    },
+    {
+      "personId": 345,
+      "characterName": "Hermione Granger",
+      "characterImage": "characters/harry_potter_and_the_order_of_the_phoenix_hermione_granger.webp"
+    },
+    {
+      "personId": 395,
+      "characterName": "Sirius Black",
+      "characterImage": null
+    },
+    {
+      "personId": 942,
+      "characterName": "Lord Voldemort",
+      "characterImage": "characters/harry_potter_and_the_order_of_the_phoenix_lord_voldemort.webp"
+    },
+    {
+      "personId": 464,
+      "characterName": "Dolores Umbridge",
+      "characterImage": null
+    },
+    {
+      "personId": 970,
+      "characterName": "Albus Dumbledore",
+      "characterImage": null
+    },
+    {
+      "personId": 981,
+      "characterName": "Rubeus Hagrid",
+      "characterImage": null
+    },
+    {
+      "personId": 1130,
+      "characterName": "Draco Malfoy",
+      "characterImage": null
+    },
+    {
+      "personId": 22,
+      "characterName": "Severus Snape",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 2,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 2
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1565,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1574,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1562,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1566,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1572,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1575,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 8
+    }
+  ]
+}

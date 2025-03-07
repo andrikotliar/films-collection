@@ -1,0 +1,256 @@
+{
+  "$schema": "_schema.json",
+  "id": 189,
+  "title": "The Lord of the Rings: The Fellowship of the Ring",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2001-12-19T00:00:00.000Z",
+  "duration": 178,
+  "poster": "posters/middle_earth_4.webp",
+  "youtubeTrailerId": "aStYWD25fAQ",
+  "budget": 93000000,
+  "boxOffice": 871000000,
+  "rating": 3,
+  "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save The World of Middle-earth from the Dark Lord Sauron.",
+  "chapterKey": "middle-earth",
+  "chapterOrder": 4,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 27,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 16,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 28,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 1,
+      "nominationId": 1,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 114,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 101,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 109,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 54,
+      "actorId": null,
+      "comment": "Extended Version"
+    },
+    {
+      "awardId": 2,
+      "nominationId": 49,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 39,
+      "actorId": 460,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 23,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 182,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 8,
+      "nominationId": 189,
+      "actorId": 894,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 92,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 3,
+      "nominationId": 82,
+      "actorId": null,
+      "comment": "Song \"May It Be\""
+    },
+    {
+      "awardId": 3,
+      "nominationId": 91,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 323,
+      "characterName": "Frodo Baggins",
+      "characterImage": null
+    },
+    {
+      "personId": 460,
+      "characterName": "Gandalf",
+      "characterImage": null
+    },
+    {
+      "personId": 1044,
+      "characterName": "Samwise Gamgee",
+      "characterImage": null
+    },
+    {
+      "personId": 1163,
+      "characterName": "Aragorn",
+      "characterImage": null
+    },
+    {
+      "personId": 127,
+      "characterName": "Pereggrin",
+      "characterImage": null
+    },
+    {
+      "personId": 302,
+      "characterName": "Meriadoc",
+      "characterImage": null
+    },
+    {
+      "personId": 595,
+      "characterName": "Gimli",
+      "characterImage": null
+    },
+    {
+      "personId": 894,
+      "characterName": "Legolas",
+      "characterImage": null
+    },
+    {
+      "personId": 1045,
+      "characterName": "Boromir",
+      "characterImage": null
+    },
+    {
+      "personId": 458,
+      "characterName": "Bilbo Baggins",
+      "characterImage": null
+    },
+    {
+      "personId": 209,
+      "characterName": "Saruman",
+      "characterImage": null
+    },
+    {
+      "personId": 454,
+      "characterName": "Elrond",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 19,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 15
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2169,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2170,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2171,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2169,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2169,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2216,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2170,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2215,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1671,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1682,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 56
+    }
+  ]
+}

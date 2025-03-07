@@ -1,0 +1,123 @@
+{
+  "$schema": "_schema.json",
+  "id": 201,
+  "title": "The Mummy",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "1999-05-07T00:00:00.000Z",
+  "duration": 125,
+  "poster": "posters/mummy_1.webp",
+  "youtubeTrailerId": "h3ptPtxWJRs",
+  "budget": 80000000,
+  "boxOffice": 416000000,
+  "rating": 3,
+  "description": "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreck havoc as he searches for the reincarnation of his long-lost love.",
+  "chapterKey": "mummy",
+  "chapterOrder": 1,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 16,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 144,
+      "characterName": "Rick O'Connell",
+      "characterImage": null
+    },
+    {
+      "personId": 940,
+      "characterName": "Evelyn Carnahan",
+      "characterImage": null
+    },
+    {
+      "personId": 583,
+      "characterName": "Jonathan Carnahan",
+      "characterImage": null
+    },
+    {
+      "personId": 88,
+      "characterName": "Imhotep",
+      "characterImage": null
+    },
+    {
+      "personId": 675,
+      "characterName": "Beni Gabor",
+      "characterImage": null
+    },
+    {
+      "personId": 607,
+      "characterName": "Dr. Allen Chamberlain",
+      "characterImage": null
+    },
+    {
+      "personId": 883,
+      "characterName": "Ardeth Bay",
+      "characterImage": null
+    },
+    {
+      "personId": 353,
+      "characterName": "Dr. Terrence Bey",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 27,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2244,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2244,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2245,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2246,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1286,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1291,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 3
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 13
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "_schema.json",
+  "id": 26,
+  "title": "Black Widow",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2021-07-09T00:00:00.000Z",
+  "duration": 134,
+  "poster": "posters/black_widow.webp",
+  "youtubeTrailerId": "ybji16u608U",
+  "budget": 200000000,
+  "boxOffice": 379000000,
+  "rating": 1,
+  "description": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises.",
+  "chapterKey": "mcu",
+  "chapterOrder": 16,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 1042,
+      "characterName": "Natasha Romanoff / Black Widow",
+      "characterImage": null
+    },
+    {
+      "personId": 375,
+      "characterName": "Yelena Belova / Black Widow",
+      "characterImage": null
+    },
+    {
+      "personId": 940,
+      "characterName": "Melina Vostokoff / Black Widow",
+      "characterImage": null
+    },
+    {
+      "personId": 274,
+      "characterName": "Alexei Shostakov / Red Guardian",
+      "characterImage": null
+    },
+    {
+      "personId": 882,
+      "characterName": "Rick Mason",
+      "characterImage": null
+    },
+    {
+      "personId": 884,
+      "characterName": "Antonia Dreykov / Taskmaster",
+      "characterImage": null
+    },
+    {
+      "personId": 953,
+      "characterName": "Dreykov",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 25,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1395,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1396,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1309,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1397,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1398,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 4
+    }
+  ]
+}

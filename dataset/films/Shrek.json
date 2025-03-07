@@ -1,0 +1,143 @@
+{
+  "$schema": "_schema.json",
+  "id": 128,
+  "title": "Shrek",
+  "type": "FILM",
+  "style": "ANIMATION",
+  "releaseDate": "2001-05-18T00:00:00.000Z",
+  "duration": 90,
+  "poster": "posters/shrek_1.webp",
+  "youtubeTrailerId": "CwXOrWvPBPk",
+  "budget": 60000000,
+  "boxOffice": 488000000,
+  "rating": 3,
+  "description": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.",
+  "chapterKey": "shrek",
+  "chapterOrder": 1,
+  "awards": [
+    {
+      "awardId": 1,
+      "nominationId": 10,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 4,
+      "nominationId": 110,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 54,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 842,
+      "characterName": "Shrek",
+      "characterImage": "characters/shrek_shrek.webp"
+    },
+    {
+      "personId": 319,
+      "characterName": "Donkey",
+      "characterImage": "characters/shrek_donkey.webp"
+    },
+    {
+      "personId": 164,
+      "characterName": "Fiona",
+      "characterImage": "characters/shrek_fiona.webp"
+    },
+    {
+      "personId": 587,
+      "characterName": "Lord Farquaad",
+      "characterImage": "characters/shrek_lord_farquaad.webp"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 1,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    },
+    {
+      "countryId": 6
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1949,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1950,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1891,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1892,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1951,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1952,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1953,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1954,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1955,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1905,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1551,
+      "position": "COMPOSER",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 3
+    },
+    {
+      "genreId": 6
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 16
+    }
+  ]
+}

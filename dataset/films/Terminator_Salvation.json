@@ -1,0 +1,119 @@
+{
+  "$schema": "_schema.json",
+  "id": 157,
+  "title": "Terminator: Salvation",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2009-05-21T00:00:00.000Z",
+  "duration": 115,
+  "poster": "posters/terminator_4.webp",
+  "youtubeTrailerId": "-Czz-TcWCkA",
+  "budget": 200000000,
+  "boxOffice": 371000000,
+  "rating": 1,
+  "description": "In 2018, a mysterious new weapon in the war against the machines, half-human and half-machine, comes to John Connor on the eve of a resistance attack on Skynet. But whose side is he on, and can he be trusted?",
+  "chapterKey": "terminator",
+  "chapterOrder": 3,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 203,
+      "characterName": "John Connor",
+      "characterImage": null
+    },
+    {
+      "personId": 1034,
+      "characterName": "Marcus Wright",
+      "characterImage": null
+    },
+    {
+      "personId": 852,
+      "characterName": "Blair Williams",
+      "characterImage": null
+    },
+    {
+      "personId": 441,
+      "characterName": "Dr. Serena Kogan",
+      "characterImage": null
+    },
+    {
+      "personId": 76,
+      "characterName": "Kyle Reese",
+      "characterImage": null
+    },
+    {
+      "personId": 491,
+      "characterName": "Star",
+      "characterImage": null
+    },
+    {
+      "personId": 157,
+      "characterName": "Kate Connor",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 7,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 2052,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 2053,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2054,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 2055,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 2056,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1828,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 2057,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 12
+    },
+    {
+      "studioId": 51
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "$schema": "_schema.json",
+  "id": 3,
+  "title": "Iron Man",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2008-05-02T00:00:00.000Z",
+  "duration": 126,
+  "poster": "posters/iron_man_1.webp",
+  "youtubeTrailerId": "8hYlB38asDY",
+  "budget": 140000000,
+  "boxOffice": 585000000,
+  "rating": 3,
+  "description": "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+  "chapterKey": "mcu",
+  "chapterOrder": 3,
+  "awards": [
+    {
+      "awardId": 2,
+      "nominationId": 35,
+      "actorId": null,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 44,
+      "actorId": 982,
+      "comment": null
+    },
+    {
+      "awardId": 2,
+      "nominationId": 23,
+      "actorId": null,
+      "comment": null
+    }
+  ],
+  "cast": [
+    {
+      "personId": 982,
+      "characterName": "Tony Stark / Iron Man",
+      "characterImage": "characters/iron_man_tony_stark.webp"
+    },
+    {
+      "personId": 539,
+      "characterName": "Obadiah Stane",
+      "characterImage": null
+    },
+    {
+      "personId": 423,
+      "characterName": "Pepper Potts",
+      "characterImage": null
+    },
+    {
+      "personId": 1110,
+      "characterName": "Rhodey",
+      "characterImage": null
+    },
+    {
+      "personId": 717,
+      "characterName": "Christine Everhart",
+      "characterImage": null
+    },
+    {
+      "personId": 1062,
+      "characterName": "Yinsen",
+      "characterImage": null
+    },
+    {
+      "personId": 368,
+      "characterName": "Raza",
+      "characterImage": null
+    },
+    {
+      "personId": 216,
+      "characterName": "Agent Coulson",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 25,
+      "order": null
+    },
+    {
+      "collectionId": 21,
+      "order": 3
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 601,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1716,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1717,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1718,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1719,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1530,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1309,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1461,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1720,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 1
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 4
+    },
+    {
+      "studioId": 14
+    }
+  ]
+}

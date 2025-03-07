@@ -1,0 +1,121 @@
+{
+  "$schema": "_schema.json",
+  "id": 120,
+  "title": "Prince of Persia: The Sand of Time",
+  "type": "FILM",
+  "style": "LIVE_ACTION",
+  "releaseDate": "2010-05-10T00:00:00.000Z",
+  "duration": 116,
+  "poster": "posters/prince_of_persia.webp",
+  "youtubeTrailerId": "bZ7Li5w2I-k",
+  "budget": 150000000,
+  "boxOffice": 336000000,
+  "rating": 2,
+  "description": "A young fugitive Prince and Princess must stop a villain who unknowingly threatens to destroy the world with a special dagger that enables the magic sand inside to reverse time.",
+  "chapterKey": null,
+  "chapterOrder": null,
+  "awards": [],
+  "cast": [
+    {
+      "personId": 498,
+      "characterName": "Dastan",
+      "characterImage": null
+    },
+    {
+      "personId": 397,
+      "characterName": "Tamina",
+      "characterImage": null
+    },
+    {
+      "personId": 109,
+      "characterName": "Nizam",
+      "characterImage": null
+    },
+    {
+      "personId": 36,
+      "characterName": "Sheik Amar",
+      "characterImage": null
+    },
+    {
+      "personId": 1092,
+      "characterName": "Seso",
+      "characterImage": null
+    },
+    {
+      "personId": 1124,
+      "characterName": "Garsiv",
+      "characterImage": null
+    },
+    {
+      "personId": 967,
+      "characterName": "Tus",
+      "characterImage": null
+    },
+    {
+      "personId": 957,
+      "characterName": "Bis",
+      "characterImage": null
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 28,
+      "order": null
+    }
+  ],
+  "countries": [
+    {
+      "countryId": 1
+    }
+  ],
+  "crew": [
+    {
+      "personId": 1570,
+      "position": "DIRECTOR",
+      "comment": null
+    },
+    {
+      "personId": 1863,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1903,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1904,
+      "position": "WRITER",
+      "comment": null
+    },
+    {
+      "personId": 1893,
+      "position": "PRODUCER",
+      "comment": null
+    },
+    {
+      "personId": 1905,
+      "position": "COMPOSER",
+      "comment": null
+    },
+    {
+      "personId": 1579,
+      "position": "CAMERAMAN",
+      "comment": null
+    }
+  ],
+  "genres": [
+    {
+      "genreId": 2
+    },
+    {
+      "genreId": 4
+    }
+  ],
+  "studios": [
+    {
+      "studioId": 1
+    }
+  ]
+}
