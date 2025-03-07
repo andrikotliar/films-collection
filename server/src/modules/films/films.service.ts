@@ -2,7 +2,7 @@ import { convertEnumValueToLabel } from 'src/common';
 import { FilmsServiceDependencies } from './types';
 import { FilmsRepository } from './films.repository';
 import { FilmsMapper } from './films.mapper';
-import { FilmsQuery } from './schemas';
+import { FilmsAdminQuery, FilmsQuery } from './schemas';
 
 export class FilmsService {
   private peopleService: FilmsServiceDependencies['peopleService'];
@@ -66,6 +66,18 @@ export class FilmsService {
 
   searchFilm(searchString: string) {
     return this.filmsRepository.searchByTitle(searchString);
+  }
+
+  getAdminList(query: FilmsAdminQuery) {
+    const { skip = 0, order = 'createdAt', orderKey = 'desc' } = query;
+
+    const filters = FilmsMapper.mapAdminListFilters(query);
+
+    return this.filmsRepository.findAndCountAdmin(filters, {
+      skip,
+      limit: 30,
+      orderBy: { [orderKey]: order },
+    });
   }
 
   private async populateAdditionalData(query: FilmsQuery) {

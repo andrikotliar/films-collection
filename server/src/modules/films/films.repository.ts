@@ -3,6 +3,10 @@ import { Film, Prisma, PrismaClient } from '@prisma/client';
 export class FilmsRepository {
   constructor(private prismaClient: PrismaClient) {}
 
+  async count(filters: Prisma.FilmWhereInput) {
+    return this.prismaClient.film.count({ where: filters });
+  }
+
   async findAndCount(
     filters: Prisma.FilmWhereInput,
     limit: number,
@@ -23,7 +27,7 @@ export class FilmsRepository {
       },
     });
 
-    const total = await this.prismaClient.film.count({ where: filters });
+    const total = await this.count(filters);
 
     return { list, total };
   }
@@ -174,5 +178,30 @@ export class FilmsRepository {
         title: true,
       },
     });
+  }
+
+  async findAndCountAdmin(
+    filters: Prisma.FilmWhereInput,
+    options: {
+      limit: number;
+      skip: number;
+      orderBy: Prisma.FilmOrderByWithRelationInput;
+    },
+  ) {
+    const total = await this.count(filters);
+    const films = await this.prismaClient.film.findMany({
+      select: {
+        id: true,
+        title: true,
+        draft: true,
+        rating: true,
+      },
+      where: filters,
+      take: options.limit,
+      skip: options.skip,
+      orderBy: options.orderBy,
+    });
+
+    return { films, total };
   }
 }

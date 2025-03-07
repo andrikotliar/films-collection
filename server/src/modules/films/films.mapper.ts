@@ -1,6 +1,6 @@
 import { Prisma } from '@prisma/client';
 import { FilmWithRelations, GroupedAwards, GroupedCrew } from './types';
-import { FilmsQuery } from './schemas';
+import { FilmsAdminQuery, FilmsQuery } from './schemas';
 
 const MONEY_RANGE_MILLIONS = 10_000_000;
 
@@ -207,5 +207,18 @@ export const FilmsMapper = {
       lte: value + MONEY_RANGE_MILLIONS,
       gte: value - MONEY_RANGE_MILLIONS,
     };
+  },
+
+  mapAdminListFilters(plainFilters: FilmsAdminQuery) {
+    const filters: Prisma.FilmWhereInput = {};
+
+    if (plainFilters.q) {
+      filters.title = {
+        contains: plainFilters.q,
+        mode: 'insensitive',
+      };
+    }
+
+    return filters;
   },
 };

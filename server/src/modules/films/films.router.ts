@@ -1,5 +1,6 @@
 import { FastifyInstance } from 'fastify';
 import {
+  FilmsAdminGetListQuerySchema,
   FilmsGetParamsSchema,
   FilmsQuerySchema,
   FilmsSearchQuerySchema,
@@ -22,6 +23,16 @@ export const FilmsRouter = async (filmsModule: FastifyInstance) => {
     schema: {
       querystring: FilmsSearchQuerySchema,
     },
+  });
+
+  filmsModule.route({
+    method: 'GET',
+    url: '/admin',
+    preHandler: [filmsModule.authenticate],
+    schema: {
+      querystring: FilmsAdminGetListQuerySchema,
+    },
+    handler: filmsModule.filmsController.getAdminList,
   });
 
   filmsModule.route({

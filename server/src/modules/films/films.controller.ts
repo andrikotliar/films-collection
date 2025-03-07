@@ -2,6 +2,7 @@ import { FastifyReply, FastifyRequest } from 'fastify';
 import { sendErrorResponse, ResponseCode } from '../../common';
 import { FilmsService } from './films.service';
 import {
+  FilmsAdminQuery,
   FilmsGetParams,
   FilmsQuery,
   FilmsSearchQuery,
@@ -43,6 +44,15 @@ export class FilmsController {
     const { q } = request.query;
 
     const data = await this.filmsService.searchFilm(q);
+
+    return reply.code(ResponseCode.OK).send(data);
+  }
+
+  async getAdminList(
+    request: FastifyRequest<{ Querystring: FilmsAdminQuery }>,
+    reply: FastifyReply,
+  ) {
+    const data = await this.filmsService.getAdminList(request.query);
 
     return reply.code(ResponseCode.OK).send(data);
   }
