@@ -1,11 +1,11 @@
-import styles from './styles.module.css';
+import styles from './TextInput.module.css';
 import classNames from 'classnames';
 import { ComponentProps, forwardRef, ReactNode } from 'react';
 import { FieldError } from '../FieldError/FieldError';
 import { FieldLabel } from '../FieldLabel/FieldLabel';
 
 export type TextInputProps = {
-  type?: 'text' | 'number';
+  type?: 'text' | 'number' | 'password';
   label?: string;
   error?: string | string[] | null;
   icon?: ReactNode;
@@ -21,7 +21,7 @@ export const TextInput = forwardRef<HTMLInputElement, TextInputProps>(
             ref={ref}
             type={type}
             className={classNames(styles.textInput, {
-              [styles.withInput]: icon !== undefined,
+              [styles.withIcon]: icon !== undefined,
             })}
             {...props}
           />
