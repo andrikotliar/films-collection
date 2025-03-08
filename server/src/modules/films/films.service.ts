@@ -69,7 +69,7 @@ export class FilmsService {
   }
 
   getAdminList(query: FilmsAdminQuery) {
-    const { skip = 0, order = 'createdAt', orderKey = 'desc' } = query;
+    const { skip = 0, order = 'desc', orderKey = 'createdAt' } = query;
 
     const filters = FilmsMapper.mapAdminListFilters(query);
 
