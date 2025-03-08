@@ -2,9 +2,11 @@ import { FC, PropsWithChildren } from 'react';
 import { Link } from '@tanstack/react-router';
 import styles from './TagLink.module.css';
 import classNames from 'classnames';
+import { FileRoutesByTo } from '@/routeTree.gen';
 
 export type TagLinkProps = {
-  path: string;
+  basePath: keyof FileRoutesByTo;
+  query: { [key: string]: unknown };
   variant?:
     | 'blue'
     | 'sand'
@@ -18,17 +20,19 @@ export type TagLinkProps = {
 };
 
 export const TagLink: FC<PropsWithChildren<TagLinkProps>> = ({
-  path,
+  basePath,
   children,
   variant = 'sand',
   isDisabled = false,
+  query,
 }) => {
   return (
     <Link
-      to={path}
+      to={basePath}
       className={classNames(styles.link, styles[variant], {
         [styles.disabled]: isDisabled,
       })}
+      search={query}
     >
       {children}
     </Link>

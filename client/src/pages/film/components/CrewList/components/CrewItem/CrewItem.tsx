@@ -2,7 +2,6 @@ import { FC } from 'react';
 import { FilmCrew } from '@/types';
 import { RouterLink } from '@/ui';
 import styles from './CrewItem.module.css';
-import { buildQueryLink } from '@/helpers';
 
 type CrewItemProps = {
   crewItem: FilmCrew;

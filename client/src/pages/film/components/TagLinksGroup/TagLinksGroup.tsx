@@ -1,6 +1,5 @@
 import { FC } from 'react';
 import { TagLink, TagLinkProps } from '../TagLink/TagLink';
-import { buildQueryLink } from '@/helpers';
 import { LinksGroupWrapper } from '../LinksGroupWrapper/LinksGroupWrapper';
 
 type TagLinksGroupProps = {
@@ -18,9 +17,10 @@ export const TagLinksGroup: FC<TagLinksGroupProps> = ({
     <LinksGroupWrapper>
       {items.map((item) => (
         <TagLink
-          path={buildQueryLink({
+          basePath="/"
+          query={{
             [basePath]: [item.id],
-          })}
+          }}
           key={item.id}
           variant={variant}
         >

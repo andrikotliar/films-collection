@@ -1,9 +1,5 @@
 import { FilmDetails } from '@/types';
-import {
-  buildQueryLink,
-  getFormattedMoneyValue,
-  getPluralWord,
-} from '@/helpers';
+import { getFormattedMoneyValue, getPluralWord } from '@/helpers';
 import {
   LinksGroupWrapper,
   ReleaseDate,
@@ -35,7 +31,8 @@ export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
       title: 'Runtime',
       content: (
         <TagLink
-          path={buildQueryLink({ duration: film.duration })}
+          basePath="/"
+          query={{ duration: film.duration }}
           variant="gray"
         >
           {film.duration} min
@@ -73,9 +70,10 @@ export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
         <LinksGroupWrapper>
           {film.collections.map((item) => (
             <TagLink
-              path={buildQueryLink({
+              basePath="/"
+              query={{
                 collectionId: item.id,
-              })}
+              }}
               key={item.id}
               variant="pink"
             >
@@ -93,7 +91,8 @@ export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
         <div>
           {film.budget ? (
             <TagLink
-              path={buildQueryLink({ budget: film.budget })}
+              basePath="/"
+              query={{ budget: film.budget }}
               variant="gray"
             >
               {getFormattedMoneyValue(film.budget)}
@@ -112,7 +111,8 @@ export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
         <div>
           {film.boxOffice ? (
             <TagLink
-              path={buildQueryLink({ boxOffice: film.boxOffice })}
+              basePath="/"
+              query={{ boxOffice: film.boxOffice }}
               variant={isBoxOfficeSuccessful ? 'green' : 'red'}
             >
               {getFormattedMoneyValue(film.boxOffice)}
@@ -131,18 +131,20 @@ export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
         <LinksGroupWrapper>
           <TagLink
             variant="mint"
-            path={buildQueryLink({
+            basePath="/"
+            query={{
               seasonsTotal: film.seriesExtension?.seasonsTotal ?? 1,
-            })}
+            }}
           >
             {film.seriesExtension?.seasonsTotal}{' '}
             {getPluralWord('season', film.seriesExtension?.seasonsTotal)}
           </TagLink>
           <TagLink
+            basePath="/"
             variant="mint"
-            path={buildQueryLink({
+            query={{
               episodesTotal: film.seriesExtension?.episodesTotal ?? 0,
-            })}
+            }}
           >
             {film.seriesExtension?.episodesTotal} episodes
           </TagLink>
