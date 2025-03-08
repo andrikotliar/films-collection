@@ -3,6 +3,7 @@ import { ConsoleHeader, ConsoleMenu } from './components';
 import styles from './ConsoleLayout.module.css';
 import { Outlet } from '@tanstack/react-router';
 import { MOBILE_VIEW_BREAKPOINT_PX } from '@/constants';
+import { LocalStorage } from '@/services';
 
 export const ConsoleLayout = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(() => {
@@ -10,10 +11,19 @@ export const ConsoleLayout = () => {
       return false;
     }
 
-    return true;
+    const isConsoleMenuOpen = LocalStorage.getItem<boolean>(
+      'IS_CONSOLE_MENU_OPEN',
+    );
+
+    return isConsoleMenuOpen ?? true;
   });
 
   const handleMenuOpen = () => {
+    const isConsoleMenuOpen =
+      LocalStorage.getItem<boolean>('IS_CONSOLE_MENU_OPEN') ?? true;
+
+    LocalStorage.setItem('IS_CONSOLE_MENU_OPEN', !isConsoleMenuOpen);
+
     setIsMenuOpen((isOpen) => !isOpen);
   };
 
