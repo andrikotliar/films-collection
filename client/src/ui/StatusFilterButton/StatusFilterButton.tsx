@@ -38,7 +38,7 @@ export const StatusFilterButton = forwardRef<
         </div>
         <div className={styles.title}>{title}</div>
       </div>
-      {error && <FieldError error={error} />}
+      <FieldError error={error} />
     </label>
   );
 });

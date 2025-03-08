@@ -19,7 +19,7 @@ export const BadgeCheckbox = forwardRef<HTMLInputElement, BadgeCheckboxProps>(
           {...inputProps}
         />
         <span className={styles.label}>{label}</span>
-        {error && <FieldError error={error} />}
+        <FieldError error={error} />
       </label>
     );
   },
