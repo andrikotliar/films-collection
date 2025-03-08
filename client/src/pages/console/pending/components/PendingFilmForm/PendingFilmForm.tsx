@@ -6,6 +6,7 @@ import {
   FormStatusFilterButton,
   FieldLabel,
   FormTitle,
+  Island,
 } from '@/ui';
 import { LoaderCircle, SaveIcon } from 'lucide-react';
 import { FC, FormEventHandler } from 'react';
@@ -23,29 +24,35 @@ export const PendingFilmForm: FC<PendingFilmFormProps> = ({
   title,
 }) => {
   return (
-    <form onSubmit={onSubmit} className={styles.formWrapper}>
-      <FormTitle>{title}</FormTitle>
-      <FormTextInput name="title" label="Title" className={styles.titleInput} />
-      <div>
-        <FieldLabel>Priority</FieldLabel>
-        <div className={styles.priorities}>
-          {priorityOptions.map((option) => (
-            <FormStatusFilterButton
-              name="priority"
-              title={option.label}
-              value={String(option.value)}
-              key={option.value}
-              color={option.color as StatusColor}
-            />
-          ))}
+    <Island>
+      <form onSubmit={onSubmit} className={styles.formWrapper}>
+        <FormTitle>{title}</FormTitle>
+        <FormTextInput
+          name="title"
+          label="Title"
+          className={styles.titleInput}
+        />
+        <div>
+          <FieldLabel>Priority</FieldLabel>
+          <div className={styles.priorities}>
+            {priorityOptions.map((option) => (
+              <FormStatusFilterButton
+                name="priority"
+                title={option.label}
+                value={String(option.value)}
+                key={option.value}
+                color={option.color as StatusColor}
+              />
+            ))}
+          </div>
         </div>
-      </div>
-      <Button
-        type="submit"
-        icon={isSaving ? <LoaderCircle className="spin" /> : <SaveIcon />}
-      >
-        Save
-      </Button>
-    </form>
+        <Button
+          type="submit"
+          icon={isSaving ? <LoaderCircle className="spin" /> : <SaveIcon />}
+        >
+          Save
+        </Button>
+      </form>
+    </Island>
   );
 };

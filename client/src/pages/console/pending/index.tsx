@@ -7,7 +7,6 @@ import { PendingFilmFormValues } from './types';
 import {
   PendingFilmForm,
   EditPendingFilmModal,
-  ListWrapper,
   PendingFilmRow,
   Tools,
 } from './components';
@@ -20,6 +19,7 @@ import {
   Pagination,
   ConsoleTitle,
   ConfirmModal,
+  Island,
 } from '@/ui';
 import { PENDING_FILMS_PER_PAGE } from '@/constants';
 
@@ -98,7 +98,7 @@ export const ConsolePendingFilmsPage = () => {
         />
       </FormProvider>
       <Tools />
-      <ListWrapper>
+      <Island hasPaddings={false}>
         {data.list.map((film) => (
           <PendingFilmRow
             key={film.id}
@@ -108,7 +108,7 @@ export const ConsolePendingFilmsPage = () => {
             isDeleteInProgress={isDeleteInProgress}
           />
         ))}
-      </ListWrapper>
+      </Island>
 
       <Pagination
         currentPageIndex={searchParams.pageIndex}
