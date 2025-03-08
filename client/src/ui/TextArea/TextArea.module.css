@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.textArea {
+  font-size: inherit;
+  font-family: inherit;
+  padding: 10px;
+  border-radius: var(--app-border-radius);
+  border: var(--app-border);
+  outline-color: var(--blue-default);
+  transition: border-color 300ms;
+}
+
+.textArea:hover {
+  border-color: var(--gray-dark);
+}

@@ -1,0 +1,18 @@
+export const filmDefaultFormValues = {
+  title: null,
+  type: 'FILM',
+  style: 'LIVE_ACTION',
+  poster: null,
+  trailer: null,
+  watchCount: 1,
+  rating: 1,
+  isDraft: false,
+  budget: 0,
+  boxOffice: 0,
+  runtime: 0,
+  releaseDate: null,
+  genres: [],
+  studios: [],
+  collections: [],
+  countries: [],
+};

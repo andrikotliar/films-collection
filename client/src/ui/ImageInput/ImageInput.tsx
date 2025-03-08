@@ -1,16 +1,9 @@
 import styles from './ImageInput.module.css';
-import {
-  ComponentProps,
-  CSSProperties,
-  FocusEventHandler,
-  forwardRef,
-  useEffect,
-  useRef,
-  useState,
-} from 'react';
+import { ComponentProps, CSSProperties, forwardRef } from 'react';
 import { TextInput } from '../TextInput';
 import { Image } from '@/ui/Image/Image';
 import { images } from '@/assets/images';
+import { useUrlInput } from '@/hooks';
 
 export type ImageInputProps = {
   label?: string;
@@ -38,33 +31,15 @@ export const ImageInput = forwardRef<HTMLInputElement, ImageInputProps>(
     },
     ref,
   ) => {
-    const previewImageRef = useRef<HTMLImageElement>(null);
-    const [previewUrl, setPreviewUrl] = useState(externalWatchedValue ?? '');
-    const [internalError, setInternalError] = useState<string | null>(null);
-
-    const handleBlur: FocusEventHandler<HTMLInputElement> = (event) => {
-      onBlur?.(event);
-
-      const value = event.target.value;
-      const isPathValid = value.length ? filePathRegex.test(value) : true;
-
-      if (!isPathValid) {
-        setInternalError(errorMessage);
-        return;
-      }
-
-      if (internalError) {
-        setInternalError(null);
-      }
-
-      setPreviewUrl(value);
-    };
-
-    useEffect(() => {
-      if (typeof externalWatchedValue !== 'string' && previewUrl.length) {
-        setPreviewUrl('');
-      }
-    }, [externalWatchedValue, previewUrl]);
+    const { handleBlur, internalError, previewPath, previewImageRef } =
+      useUrlInput({
+        validation: {
+          regex: filePathRegex,
+          errorMessage,
+        },
+        onBlur,
+        externalWatchedValue,
+      });
 
     return (
       <div className={styles.wrapper}>
@@ -79,7 +54,7 @@ export const ImageInput = forwardRef<HTMLInputElement, ImageInputProps>(
           className={styles.imageContainer}
         >
           <Image
-            src={previewUrl}
+            src={previewPath}
             errorImageSrc={images.noImagePreview}
             isExternal
             shouldFitContainer={shouldFitPreviewToContainer}

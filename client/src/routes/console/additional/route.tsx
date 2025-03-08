@@ -1,8 +1,8 @@
-import { NotFound } from '@/ui';
-import { createLazyFileRoute } from '@tanstack/react-router';
+import { NotFound } from '@/ui'
+import { createFileRoute } from '@tanstack/react-router'
 
-export const Route = createLazyFileRoute('/console/additional')({
+export const Route = createFileRoute('/console/additional')({
   component: () => (
     <NotFound title="Lists" message="Page is under construction" />
   ),
-});
+})

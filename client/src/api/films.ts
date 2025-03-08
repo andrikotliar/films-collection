@@ -4,7 +4,7 @@ import {
   FilmSearchResult,
   FilmsListFilters,
   FilmsListResponse,
-  FilmsAdminListItem,
+  FilmsAdminListResponse,
 } from '@/types';
 import { AdminFilmsServerFilters } from '@/types';
 
@@ -28,7 +28,7 @@ export const FilmsApi = {
   },
 
   getAdminFilmsList(filters: AdminFilmsServerFilters) {
-    return apiClient.get<FilmsAdminListItem[]>('/films/admin', {
+    return apiClient.get<FilmsAdminListResponse>('/films/admin', {
       queryParams: filters,
     });
   },

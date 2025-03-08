@@ -85,6 +85,7 @@ export type Film = {
   poster: string;
   youtubeTrailerId: string | null;
   chapters: Chapter[] | null;
+  draft?: boolean;
 };
 
 export type FilmDetails = Omit<
@@ -165,3 +166,10 @@ export type FilmsListFilters = FilmsListPagination &
     searchLastVisitedFilms: boolean | null;
     ids: number[] | null;
   }>;
+
+export type FilmsAdminListItem = Pick<Film, 'id' | 'title' | 'draft'>;
+
+export type FilmsAdminListResponse = {
+  films: FilmsAdminListItem[];
+  total: number;
+};

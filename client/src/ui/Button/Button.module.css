@@ -67,6 +67,7 @@
   .ghost:hover {
     color: var(--blue-default);
     background-color: transparent;
+    box-shadow: none !important;
   }
 }
 @media (max-width: 735px) {
