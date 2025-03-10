@@ -21,6 +21,8 @@ const router = createRouter({
   defaultErrorComponent: ({ error }) => {
     return <ErrorFallback message={error.message} />;
   },
+  defaultPendingMs: 0,
+  defaultPendingMinMs: 0,
   context: { queryClient },
 });
 
