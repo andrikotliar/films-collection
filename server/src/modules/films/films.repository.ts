@@ -172,6 +172,10 @@ export class FilmsRepository {
         id: true,
         poster: true,
         title: true,
+        chapterOrder: true,
+      },
+      orderBy: {
+        chapterOrder: 'asc',
       },
     });
   }
