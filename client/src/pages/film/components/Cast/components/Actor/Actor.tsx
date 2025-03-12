@@ -23,7 +23,7 @@ export const Actor: FC<ActorProps> = ({ data }) => {
         </div>
         <div className={styles.info}>
           <h3 className={styles.name}>{data.person.name}</h3>
-          <p className={styles.role}>as {data.characterName}</p>
+          <p className={styles.role}>{data.characterName}</p>
         </div>
       </div>
       {data.characterImage && (

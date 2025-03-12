@@ -1,17 +1,5 @@
 .crewItem {
   display: flex;
-  gap: 10px;
-  padding: 20px 0;
-  border-bottom: 1px solid #e7e7e7;
-}
-
-.crewItem:first-child {
-  padding-top: 0;
-}
-
-.crewItem:last-child {
-  border-bottom: 0;
-  padding-bottom: 0;
 }
 
 .crewItemTitle {
@@ -57,8 +45,8 @@
 @media (max-width: 540px) {
   .crewItem {
     flex-direction: column;
+    gap: 8px;
     align-items: flex-start;
-    padding: 15px 0;
   }
 
   .crewItemTitle {
