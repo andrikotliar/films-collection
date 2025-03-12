@@ -27,3 +27,4 @@ export * from './FormTitle/FormTitle';
 export * from './ImageInput';
 export * from './Select';
 export * from './ConfirmModal/ConfirmModal';
+export * from './DataRow/DataRow';
