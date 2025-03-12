@@ -7,10 +7,6 @@
   transition: border-color 0.3s;
 }
 
-.link:not(.disabled):hover {
-  border-color: #000;
-}
-
 .blue {
   color: #fff;
   background-color: var(--blue-default);
@@ -44,23 +40,6 @@
 .green {
   color: white;
   background-color: var(--green-dark);
-}
-
-.disabled {
-  pointer-events: none;
-  padding-right: 15px;
-}
-
-.icon {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  width: 10px;
-  height: 10px;
-}
-
-.disabled .icon {
-  display: none;
 }
 
 @media (max-width: 480px) {

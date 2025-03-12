@@ -13,4 +13,3 @@ export * from './ReleaseDate/ReleaseDate';
 export * from './TagLink/TagLink';
 export * from './TagLinksGroup/TagLinksGroup';
 export * from './LinksGroupWrapper/LinksGroupWrapper';
-export * from './TrailerButton/TrailerButton';

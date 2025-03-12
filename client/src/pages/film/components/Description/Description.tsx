@@ -1,38 +1,27 @@
 import { FC } from 'react';
 import styles from './Description.module.css';
 import { Season } from '@/types';
-import { Section, TrailerButton } from '@/pages/film/components';
+import { getFormattedDate } from '@/helpers';
 
 type DescriptionProps = {
-  trailerId: string | null;
   text: string;
   seasons?: Season[];
 };
 
-export const Description: FC<DescriptionProps> = ({
-  text,
-  seasons,
-  trailerId,
-}) => {
+export const Description: FC<DescriptionProps> = ({ text, seasons = [] }) => {
   return (
-    <div>
-      <div>
-        <p className={styles.text}>{text}</p>
-        {trailerId && <TrailerButton trailerId={trailerId} />}
-      </div>
-      {seasons && (
-        <div className={styles.seasons}>
-          {seasons.map((season) => (
-            <Section
-              title={season.title ?? `Season ${season.number}`}
-              key={season.id}
-            >
-              <p className={styles.text}>{season.description}</p>
-              <TrailerButton trailerId={season.youtubeTrailerId} />
-            </Section>
-          ))}
+    <div className={styles.descriptions}>
+      <p className={styles.text}>{text}</p>
+      {seasons.map((season) => (
+        <div key={season.id} className={styles.season}>
+          <h3>{season.title ?? `Season ${season.number}`}</h3>
+          <div className={styles.seasonDetails}>
+            {season.episodesCount} episodes | Started{' '}
+            {getFormattedDate(season.releaseDate)}
+          </div>
+          <p className={styles.text}>{season.description}</p>
         </div>
-      )}
+      ))}
     </div>
   );
 };

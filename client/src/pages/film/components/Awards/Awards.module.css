@@ -1,21 +1,12 @@
 .row {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  border-bottom: 1px dashed var(--gray);
 }
 
-.row:last-child {
-  border-bottom: 0;
-}
-
-.cell {
-  padding: 20px;
-}
-
-.header {
+.award {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 5px;
 }
 
 .awardImage {
@@ -38,7 +29,7 @@
     grid-template-columns: 1fr;
   }
 
-  .awardCell {
-    padding-bottom: 0;
+  .award {
+    margin-bottom: 10px;
   }
 }

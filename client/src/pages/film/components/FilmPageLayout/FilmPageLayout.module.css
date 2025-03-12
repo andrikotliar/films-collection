@@ -1,5 +1,5 @@
 .filmPageLayout {
-  padding: var(--main-padding);
+  padding: var(--main-padding) 0;
   min-height: var(--app-height);
   max-width: 1280px;
   margin: 0 auto;

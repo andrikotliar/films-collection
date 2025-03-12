@@ -4,7 +4,6 @@
 
 .trailersModalContent {
   width: 80%;
-  aspect-ratio: 16 / 9;
 }
 
 .trailerCloseButton {
@@ -18,6 +17,6 @@
 
 @media (max-width: 1360px) {
   .trailersModalContent {
-    width: 95%;
+    width: 98%;
   }
 }
