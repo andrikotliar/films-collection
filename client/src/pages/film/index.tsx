@@ -8,7 +8,6 @@ import {
   SummarySection,
   Chapters,
   NavigationRow,
-  TitleRow,
   FilmPageLayout,
   ContentLayout,
   Section,
@@ -30,15 +29,13 @@ export const FilmPage = () => {
   return (
     <FilmPageLayout>
       <NavigationRow />
-      <TitleRow data={film} />
 
       <ContentLayout>
         <SummarySection film={film} />
 
-        <Section title="Description" isCollapsable>
+        <Section title="Description">
           <Description
             text={film.description}
-            trailerId={film.youtubeTrailerId}
             seasons={film.seriesExtension?.seasons}
             key={film.id}
           />
@@ -49,13 +46,13 @@ export const FilmPage = () => {
         </Section>
 
         {film.cast.length !== 0 && (
-          <Section title="Cast and Characters" isCollapsable shouldHidePaddings>
+          <Section title="Cast">
             <Cast cast={film.cast} />
           </Section>
         )}
 
         {film.awards && film.awards.length !== 0 && (
-          <Section title="Awards" shouldHidePaddings>
+          <Section title="Awards">
             <Awards awards={film.awards} />
           </Section>
         )}
