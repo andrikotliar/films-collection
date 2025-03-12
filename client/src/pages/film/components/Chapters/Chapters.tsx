@@ -12,10 +12,10 @@ type ChaptersFilmsProps = {
 export const Chapters: FC<ChaptersFilmsProps> = ({ data, filmId }) => {
   return (
     <ScrollableWrapper className={styles.chapters}>
-      {data.map((film, index) => (
+      {data.map((film) => (
         <FilmLink
           key={film.id}
-          chapter={index + 1}
+          chapter={film.chapterOrder}
           isActive={film.id === filmId}
           id={film.id}
           poster={film.poster}
