@@ -18,7 +18,7 @@ const REQUIRED_VARIABLES = [
   'DATABASE_URL',
   'AUTH_SECRET',
   'COOKIE_SECRET',
-];
+] as const;
 
 const getEnvVariables = (): EnvVariables => {
   const env = process.env;
@@ -30,13 +30,13 @@ const getEnvVariables = (): EnvVariables => {
   }
 
   return {
-    PORT: Number(process.env.PORT),
-    HOST: process.env.HOST,
-    DATABASE_URL: process.env.DATABASE_URL!,
-    NODE_ENV: process.env.NODE_ENV,
-    FRONTEND_ORIGIN: process.env.FRONTEND_ORIGIN,
-    AUTH_SECRET: process.env.AUTH_SECRET!,
-    COOKIE_SECRET: process.env.COOKIE_SECRET!,
+    PORT: Number(env.PORT),
+    HOST: env.HOST,
+    DATABASE_URL: env.DATABASE_URL!,
+    NODE_ENV: env.NODE_ENV,
+    FRONTEND_ORIGIN: env.FRONTEND_ORIGIN,
+    AUTH_SECRET: env.AUTH_SECRET!,
+    COOKIE_SECRET: env.COOKIE_SECRET!,
   };
 };
 
