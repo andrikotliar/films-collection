@@ -1,5 +1,5 @@
 import { FastifyInstance } from 'fastify';
-import { AuthLoginSchema, AuthRegisterSchema } from 'src/modules/auth/schemas';
+import { AuthLoginSchema, AuthRegisterSchema } from './schemas';
 
 export const AuthRouter = async (authModule: FastifyInstance) => {
   authModule.route({

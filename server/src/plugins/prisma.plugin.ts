@@ -10,7 +10,6 @@ declare module 'fastify' {
 
 const prisma = new PrismaClient({
   log: ['info'],
-  errorFormat: 'minimal',
 });
 
 const prismaDecorator = async (app: FastifyInstance) => {
