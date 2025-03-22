@@ -26,10 +26,7 @@ export const SummarySection: FC<SummarySectionProps> = ({ film }) => {
         <TitleRow data={film} />
         <Summary config={filmConfig} />
       </div>
-      <Trailers
-        trailerId={film.youtubeTrailerId}
-        seasons={film.seriesExtension?.seasons}
-      />
+      <Trailers data={film.trailers} type={film.type} />
     </div>
   );
 };

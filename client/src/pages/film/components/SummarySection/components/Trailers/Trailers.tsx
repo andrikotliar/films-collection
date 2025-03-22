@@ -1,18 +1,18 @@
-import { Season } from '@/types';
+import { Film, FilmTrailer } from '@/types';
 import { FC, useState } from 'react';
 import { TrailersModal } from './components';
 import styles from './Trailers.module.css';
 import { PlayIcon } from 'lucide-react';
 
 type TrailersProps = {
-  trailerId: string | null;
-  seasons?: Season[];
+  data: FilmTrailer[];
+  type: Film['type'];
 };
 
-export const Trailers: FC<TrailersProps> = ({ trailerId, seasons }) => {
+export const Trailers: FC<TrailersProps> = ({ data, type }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  if (!trailerId && !seasons?.length) {
+  if (!data.length) {
     return null;
   }
 
@@ -24,13 +24,15 @@ export const Trailers: FC<TrailersProps> = ({ trailerId, seasons }) => {
         onClick={() => setIsModalOpen(true)}
       >
         <PlayIcon className={styles.playIcon} />
-        <span className={styles.label}>Play trailer</span>
+        <span className={styles.label}>
+          Play trailer{data.length > 1 && 's'}
+        </span>
       </button>
       <TrailersModal
         isOpen={isModalOpen}
-        trailerId={trailerId}
-        seasons={seasons ?? []}
+        trailers={data}
         onClose={() => setIsModalOpen(false)}
+        type={type}
       />
     </div>
   );

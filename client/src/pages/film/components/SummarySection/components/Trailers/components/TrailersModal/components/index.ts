@@ -1,1 +1,1 @@
-export * from './Trailers/Trailers';
+export * from './Playlist/Playlist';
