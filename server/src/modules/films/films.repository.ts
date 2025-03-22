@@ -41,7 +41,6 @@ export class FilmsRepository {
         releaseDate: true,
         description: true,
         duration: true,
-        youtubeTrailerId: true,
         budget: true,
         boxOffice: true,
         rating: true,
@@ -128,6 +127,11 @@ export class FilmsRepository {
             },
           },
         },
+        trailers: {
+          orderBy: {
+            order: 'asc',
+          },
+        },
       },
       where: {
         id,
@@ -176,6 +180,10 @@ export class FilmsRepository {
         id: true,
         poster: true,
         title: true,
+        chapterOrder: true,
+      },
+      orderBy: {
+        chapterOrder: 'asc',
       },
     });
   }

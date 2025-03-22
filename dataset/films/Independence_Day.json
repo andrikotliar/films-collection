@@ -7,11 +7,10 @@
   "releaseDate": "1996-07-03T00:00:00.000Z",
   "duration": 145,
   "poster": "posters/independence_day.webp",
-  "youtubeTrailerId": "kA2WzBi2grE",
   "budget": 75000000,
   "boxOffice": 817000000,
   "rating": 2,
-  "description": "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive.",
+  "description": "<p>The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -130,6 +129,12 @@
   "studios": [
     {
       "studioId": 6
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "kA2WzBi2grE",
+      "order": 1
     }
   ]
 }

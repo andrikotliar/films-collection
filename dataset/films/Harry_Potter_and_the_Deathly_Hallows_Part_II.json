@@ -7,11 +7,10 @@
   "releaseDate": "2011-07-15T00:00:00.000Z",
   "duration": 130,
   "poster": "posters/harry_potter_8.webp",
-  "youtubeTrailerId": "5NYt1qirBWg",
   "budget": 250000000,
   "boxOffice": 1340000000,
   "rating": 3,
-  "description": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
+  "description": "<p>Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.</p>",
   "chapterKey": "harry-potter",
   "chapterOrder": 8,
   "awards": [
@@ -137,6 +136,12 @@
   "studios": [
     {
       "studioId": 8
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "5NYt1qirBWg",
+      "order": 1
     }
   ]
 }

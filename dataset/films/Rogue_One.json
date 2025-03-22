@@ -7,11 +7,10 @@
   "releaseDate": "2016-12-16T00:00:00.000Z",
   "duration": 133,
   "poster": "posters/rogue_one.webp",
-  "youtubeTrailerId": "frdj1zb9sMY",
   "budget": 200000000,
   "boxOffice": 1060000000,
   "rating": 3,
-  "description": "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans.",
+  "description": "<p>The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans.</p>",
   "chapterKey": "star-wars",
   "chapterOrder": 5,
   "awards": [
@@ -148,6 +147,12 @@
     },
     {
       "studioId": 1
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "frdj1zb9sMY",
+      "order": 1
     }
   ]
 }

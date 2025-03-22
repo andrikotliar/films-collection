@@ -7,11 +7,10 @@
   "releaseDate": "2002-10-11T00:00:00.000Z",
   "duration": 92,
   "poster": "posters/transporter_1.webp",
-  "youtubeTrailerId": "0poXFSvX0_4",
   "budget": 21000000,
   "boxOffice": 44000000,
   "rating": 2,
-  "description": "Frank is hired to \"transport\" packages for unknown clients and has made a very good living doing so. But when asked to move a package that begins moving, complications arise.",
+  "description": "<p>Frank is hired to \"transport\" packages for unknown clients and has made a very good living doing so. But when asked to move a package that begins moving, complications arise.</p>",
   "chapterKey": "transformers",
   "chapterOrder": 1,
   "awards": [],
@@ -106,6 +105,12 @@
   "studios": [
     {
       "studioId": 27
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "0poXFSvX0_4",
+      "order": 1
     }
   ]
 }

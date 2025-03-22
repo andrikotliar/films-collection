@@ -7,11 +7,10 @@
   "releaseDate": "2015-11-20T00:00:00.000Z",
   "duration": 137,
   "poster": "posters/hunger_games_4.webp",
-  "youtubeTrailerId": "n-7K_OjsDCQ",
   "budget": 160000000,
   "boxOffice": 658000000,
   "rating": 2,
-  "description": "Katniss and a team of rebels from District 13 prepare for the final battle that will decide the fate of Panem.",
+  "description": "<p>Katniss and a team of rebels from District 13 prepare for the final battle that will decide the fate of Panem.</p>",
   "chapterKey": "hunger-games",
   "chapterOrder": 4,
   "awards": [
@@ -157,6 +156,12 @@
   "studios": [
     {
       "studioId": 57
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "n-7K_OjsDCQ",
+      "order": 1
     }
   ]
 }

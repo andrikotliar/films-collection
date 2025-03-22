@@ -7,11 +7,10 @@
   "releaseDate": "2006-03-31T00:00:00.000Z",
   "duration": 91,
   "poster": "posters/ice_age_2.webp",
-  "youtubeTrailerId": "s4PWGVtIZWA",
   "budget": 80000000,
   "boxOffice": 661000000,
   "rating": 3,
-  "description": "Manny, Sid, and Diego discover that the ice age is coming to an end, and join everybody for a journey to higher ground. On the trip, they discover that Manny, in fact, is not the last of the woolly mammoths.",
+  "description": "<p>Manny, Sid, and Diego discover that the ice age is coming to an end, and join everybody for a journey to higher ground. On the trip, they discover that Manny, in fact, is not the last of the woolly mammoths.</p>",
   "chapterKey": "ice-age",
   "chapterOrder": 2,
   "awards": [],
@@ -108,6 +107,12 @@
     },
     {
       "studioId": 36
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "s4PWGVtIZWA",
+      "order": 1
     }
   ]
 }

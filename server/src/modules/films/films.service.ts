@@ -1,8 +1,8 @@
 import { convertEnumValueToLabel } from 'src/common';
 import { FilmsServiceDependencies } from './types';
 import { FilmsRepository } from './films.repository';
-import { FilmsMapper } from './films.mapper';
 import { FilmsAdminQuery, FilmsQuery } from './schemas';
+import { mapFilmDetails, mapListFilters } from './helpers';
 
 export class FilmsService {
   private peopleService: FilmsServiceDependencies['peopleService'];
@@ -21,7 +21,7 @@ export class FilmsService {
   async getFilteredFilms(queries: FilmsQuery) {
     const { limit, skip } = queries;
 
-    const parsedFilters = FilmsMapper.mapListFilters(queries);
+    const parsedFilters = mapListFilters(queries);
 
     if (queries.searchAnniversaries && !parsedFilters.id) {
       const films = await this.filmsRepository.findAnniversariesIdsRaw();
@@ -50,7 +50,7 @@ export class FilmsService {
       return null;
     }
 
-    const mappedFilm = FilmsMapper.mapFilmDetails(film);
+    const mappedFilm = mapFilmDetails(film);
 
     if (film.chapterKey) {
       const chapters = await this.filmsRepository.findChapters(film.chapterKey);
@@ -71,7 +71,7 @@ export class FilmsService {
   getAdminList(query: FilmsAdminQuery) {
     const { skip = 0, order = 'desc', orderKey = 'createdAt' } = query;
 
-    const filters = FilmsMapper.mapAdminListFilters(query);
+    const filters = mapAdminListFilters(query);
 
     return this.filmsRepository.findAndCountAdmin(filters, {
       skip,

@@ -7,11 +7,10 @@
   "releaseDate": "2008-04-03T00:00:00.000Z",
   "duration": 101,
   "poster": "posters/i_am_legend.webp",
-  "youtubeTrailerId": "dtKMEAXyPkg",
   "budget": 150000000,
   "boxOffice": 585000000,
   "rating": 1,
-  "description": "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure.",
+  "description": "<p>Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -124,6 +123,12 @@
     },
     {
       "studioId": 31
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "dtKMEAXyPkg",
+      "order": 1
     }
   ]
 }

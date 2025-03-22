@@ -35,16 +35,6 @@
         "posters/terminator.webp"
       ]
     },
-    "youtubeTrailerId": {
-      "type": [
-        "string",
-        "null"
-      ],
-      "description": "ID of a YouTube video. Usually NULL for a SERIES, as series trailers are found in the seriesExtension field.",
-      "examples": [
-        "CM79GTEm2ps"
-      ]
-    },
     "releaseDate": {
       "type": "string",
       "description": "ISO date string. Typically the release date in the country of origin."
@@ -291,32 +281,12 @@
               "releaseDate": {
                 "type": "string",
                 "description": "ISO date string"
-              },
-              "youtubeTrailerId": {
-                "type": "string",
-                "description": "ID of a YouTube video."
-              },
-              "title": {
-                "type": [
-                  "string",
-                  "null"
-                ],
-                "description": "Additional title of a season.",
-                "examples": [
-                  "Book 1. Water"
-                ]
-              },
-              "description": {
-                "type": "string",
-                "description": "Short description of a season"
               }
             },
             "required": [
               "number",
               "episodesCount",
-              "releaseDate",
-              "youtubeTrailerId",
-              "title"
+              "releaseDate"
             ]
           }
         }
@@ -326,6 +296,26 @@
         "episodesTotal",
         "seasons"
       ]
+    },
+    "trailers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "videoId": {
+            "type": "string",
+            "description": "ID of a YouTube video."
+          },
+          "order": {
+            "type": "number",
+            "description": "The order the tailer should be show on the UI."
+          }
+        },
+        "required": [
+          "videoId",
+          "order"
+        ]
+      }
     }
   },
   "required": [
@@ -336,7 +326,6 @@
     "releaseDate",
     "duration",
     "poster",
-    "youtubeTrailerId",
     "rating",
     "description",
     "chapterKey",
@@ -347,6 +336,7 @@
     "countries",
     "crew",
     "genres",
-    "studios"
+    "studios",
+    "trailers"
   ]
 }

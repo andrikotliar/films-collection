@@ -7,11 +7,10 @@
   "releaseDate": "2020-08-26T00:00:00.000Z",
   "duration": 150,
   "poster": "posters/tenet.webp",
-  "youtubeTrailerId": "AZGcmvrTX9M",
   "budget": 205000000,
   "boxOffice": 364000000,
   "rating": 1,
-  "description": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+  "description": "<p>Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -142,6 +141,12 @@
     },
     {
       "studioId": 47
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "AZGcmvrTX9M",
+      "order": 1
     }
   ]
 }

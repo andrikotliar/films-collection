@@ -8,10 +8,10 @@ import {
   SummarySection,
   Chapters,
   NavigationRow,
-  TitleRow,
   FilmPageLayout,
   ContentLayout,
   Section,
+  SeasonsSummary,
 } from './components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { fetchFilmQuery } from '@/queries';
@@ -30,18 +30,18 @@ export const FilmPage = () => {
   return (
     <FilmPageLayout>
       <NavigationRow />
-      <TitleRow data={film} />
 
       <ContentLayout>
         <SummarySection film={film} />
 
-        <Section title="Description" isCollapsable>
-          <Description
-            text={film.description}
-            trailerId={film.youtubeTrailerId}
-            seasons={film.seriesExtension?.seasons}
-            key={film.id}
-          />
+        {film.seriesExtension && (
+          <Section title="Seasons summary">
+            <SeasonsSummary seasons={film.seriesExtension.seasons} />
+          </Section>
+        )}
+
+        <Section title="Description">
+          <Description rawHtml={film.description} />
         </Section>
 
         <Section title="Crew">
@@ -49,13 +49,13 @@ export const FilmPage = () => {
         </Section>
 
         {film.cast.length !== 0 && (
-          <Section title="Cast and Characters" isCollapsable shouldHidePaddings>
+          <Section title="Cast">
             <Cast cast={film.cast} />
           </Section>
         )}
 
         {film.awards && film.awards.length !== 0 && (
-          <Section title="Awards" shouldHidePaddings>
+          <Section title="Awards">
             <Awards awards={film.awards} />
           </Section>
         )}

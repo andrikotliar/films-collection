@@ -7,11 +7,10 @@
   "releaseDate": "2019-04-05T00:00:00.000Z",
   "duration": 132,
   "poster": "posters/shazam.webp",
-  "youtubeTrailerId": "go6GEIrcvFY",
   "budget": 80000000,
   "boxOffice": 356000000,
   "rating": 1,
-  "description": "We all have a superhero inside US, it just takes a bit of magic to bring it out. In Billy Batson's case, by shouting out one word - SHAZAM! - this streetwise fourteen-year-old foster kid can turn into the adult superhero Shazam.",
+  "description": "<p>We all have a superhero inside US, it just takes a bit of magic to bring it out. In Billy Batson's case, by shouting out one word - SHAZAM! - this streetwise fourteen-year-old foster kid can turn into the adult superhero Shazam.</p>",
   "chapterKey": "dceu",
   "chapterOrder": 7,
   "awards": [],
@@ -99,6 +98,12 @@
     },
     {
       "studioId": 8
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "go6GEIrcvFY",
+      "order": 1
     }
   ]
 }

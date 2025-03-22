@@ -7,9 +7,8 @@
   "releaseDate": "2005-02-21T00:00:00.000Z",
   "duration": 23,
   "poster": "posters/atla.webp",
-  "youtubeTrailerId": null,
   "rating": 3,
-  "description": "Follow the journey of Aang, the last Airbender and the Avatar, as he awakens from a century-long slumber to a world ravaged by war. With the help of new friends Katara and Sokka, he embarks on a quest to master the elements and bring balance to a world torn by the Fire Nation's aggression.",
+  "description": "<p><b>Book 1: Water</b>. Follow the journey of Aang, the last Airbender and the Avatar, as he awakens from a century-long slumber to a world ravaged by war. With the help of new friends Katara and Sokka, he embarks on a quest to master the elements and bring balance to a world torn by the Fire Nation's aggression.</p><p><b>Book 2: Earth</b>. Aang continues his training as the Avatar, facing new challenges and adventures. The group confronts the Earth Kingdom's struggles, uncovers the secrets of the spirit world, and Aang delves deeper into his connection with the Avatar State, all while the Fire Nation intensifies its pursuit.</p><p><b>Book 3: Fire</b>. Aang and his friends prepare for the ultimate showdown with the Fire Nation and its tyrannical ruler, Fire Lord Ozai. The group faces personal dilemmas and tough choices, while the world holds its breath, waiting for the Avatar's triumph and the restoration of balance.</p>",
   "chapterKey": "last-airbender",
   "chapterOrder": 1,
   "awards": [
@@ -326,27 +325,24 @@
       {
         "number": 1,
         "episodesCount": 20,
-        "releaseDate": "2005-02-21T00:00:00.000Z",
-        "youtubeTrailerId": "ahPeclU9VW0",
-        "title": "Book 1: Water",
-        "description": "Aang travels with his new friends across the Earh Kingdom in order to reach the North Water Pole to find a Master of the Waterbending."
+        "releaseDate": "2005-02-21T00:00:00.000Z"
       },
       {
         "number": 2,
         "episodesCount": 20,
-        "releaseDate": "2006-03-17T00:00:00.000Z",
-        "youtubeTrailerId": "ahPeclU9VW0",
-        "title": "Book 2: Earth",
-        "description": "Aang continues his training as the Avatar, facing new challenges and adventures. The group confronts the Earth Kingdom's struggles, uncovers the secrets of the spirit world, and Aang delves deeper into his connection with the Avatar State, all while the Fire Nation intensifies its pursuit."
+        "releaseDate": "2006-03-17T00:00:00.000Z"
       },
       {
         "number": 3,
         "episodesCount": 21,
-        "releaseDate": "2007-09-21T00:00:00.000Z",
-        "youtubeTrailerId": "ahPeclU9VW0",
-        "title": "Book 3: Fire",
-        "description": "Aang and his friends prepare for the ultimate showdown with the Fire Nation and its tyrannical ruler, Fire Lord Ozai. The group faces personal dilemmas and tough choices, while the world holds its breath, waiting for the Avatar's triumph and the restoration of balance."
+        "releaseDate": "2007-09-21T00:00:00.000Z"
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "videoId": "ahPeclU9VW0",
+      "order": 1
+    }
+  ]
 }

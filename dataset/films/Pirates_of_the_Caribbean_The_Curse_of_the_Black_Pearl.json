@@ -7,11 +7,10 @@
   "releaseDate": "2003-07-09T00:00:00.000Z",
   "duration": 143,
   "poster": "posters/pirates_1.webp",
-  "youtubeTrailerId": "naQr0uTrH_s",
   "budget": 140000000,
   "boxOffice": 654000000,
   "rating": 3,
-  "description": "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
+  "description": "<p>Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.</p>",
   "chapterKey": "pirates-of-the-caribbean",
   "chapterOrder": 1,
   "awards": [
@@ -129,6 +128,12 @@
     },
     {
       "studioId": 44
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "naQr0uTrH_s",
+      "order": 1
     }
   ]
 }

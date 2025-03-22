@@ -7,11 +7,10 @@
   "releaseDate": "1997-05-23T00:00:00.000Z",
   "duration": 129,
   "poster": "posters/jurassic_park_2.webp",
-  "youtubeTrailerId": "RxrvaneULkE",
   "budget": 73000000,
   "boxOffice": 619000000,
   "rating": 2,
-  "description": "A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda.",
+  "description": "<p>A research team is sent to the Jurassic Park Site B island to study the dinosaurs there, while an InGen team approaches with another agenda.</p>",
   "chapterKey": "jurassic-park",
   "chapterOrder": 2,
   "awards": [],
@@ -94,6 +93,12 @@
     },
     {
       "studioId": 39
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "RxrvaneULkE",
+      "order": 1
     }
   ]
 }

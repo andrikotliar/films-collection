@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { FilmCrew } from '@/types';
-import { RouterLink } from '@/ui';
+import { DataRow, RouterLink } from '@/ui';
 import styles from './CrewItem.module.css';
 
 type CrewItemProps = {
@@ -9,7 +9,7 @@ type CrewItemProps = {
 
 export const CrewItem: FC<CrewItemProps> = ({ crewItem }) => {
   return (
-    <div className={styles.crewItem}>
+    <DataRow className={styles.crewItem}>
       <h3 className={styles.crewItemTitle}>{crewItem.position}:</h3>
       <ul className={styles.list}>
         {crewItem.people.map((person, idx) => (
@@ -30,6 +30,6 @@ export const CrewItem: FC<CrewItemProps> = ({ crewItem }) => {
           </li>
         ))}
       </ul>
-    </div>
+    </DataRow>
   );
 };

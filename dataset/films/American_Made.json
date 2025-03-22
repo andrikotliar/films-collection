@@ -7,11 +7,10 @@
   "releaseDate": "2017-09-29T00:00:00.000Z",
   "duration": 115,
   "poster": "posters/american_made.webp",
-  "youtubeTrailerId": "AEBIJRAkujM",
   "budget": 50000000,
   "boxOffice": 135000000,
   "rating": 2,
-  "description": "The story of Barry Seal, an American pilot who became a drug-runner for the CIA in the 1980s in a clandestine operation that would be exposed as the Iran-Contra Affair.",
+  "description": "<p>The story of Barry Seal, an American pilot who became a drug-runner for the CIA in the 1980s in a clandestine operation that would be exposed as the Iran-Contra Affair.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -130,6 +129,12 @@
     },
     {
       "studioId": 20
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "AEBIJRAkujM",
+      "order": 1
     }
   ]
 }

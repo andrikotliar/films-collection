@@ -7,11 +7,10 @@
   "releaseDate": "2002-07-03T00:00:00.000Z",
   "duration": 88,
   "poster": "posters/mib_2.webp",
-  "youtubeTrailerId": "p4NJHqoojOU",
   "budget": 140000000,
   "boxOffice": 442000000,
   "rating": 2,
-  "description": "Agent J needs help so he is sent to find Agent K and restore his memory.",
+  "description": "<p>Agent J needs help so he is sent to find Agent K and restore his memory.</p>",
   "chapterKey": "mib",
   "chapterOrder": 2,
   "awards": [],
@@ -109,6 +108,12 @@
   "studios": [
     {
       "studioId": 12
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "p4NJHqoojOU",
+      "order": 1
     }
   ]
 }

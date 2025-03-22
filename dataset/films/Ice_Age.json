@@ -7,11 +7,10 @@
   "releaseDate": "2002-03-15T00:00:00.000Z",
   "duration": 81,
   "poster": "posters/ice_age_1.webp",
-  "youtubeTrailerId": "i4noiCRJRoE",
   "budget": 59000000,
   "boxOffice": 383000000,
   "rating": 3,
-  "description": "Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe.",
+  "description": "<p>Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe.</p>",
   "chapterKey": "ice-age",
   "chapterOrder": 1,
   "awards": [],
@@ -98,6 +97,12 @@
     },
     {
       "studioId": 36
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "i4noiCRJRoE",
+      "order": 1
     }
   ]
 }

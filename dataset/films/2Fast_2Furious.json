@@ -7,11 +7,10 @@
   "releaseDate": "2003-06-06T00:00:00.000Z",
   "duration": 108,
   "poster": "posters/fast_and_furious_2.webp",
-  "youtubeTrailerId": "F_VIM03DXWI",
   "budget": 76000000,
   "boxOffice": 236000000,
   "rating": 1,
-  "description": "Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself.",
+  "description": "<p>Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself.</p>",
   "chapterKey": "fast-and-furious",
   "chapterOrder": 2,
   "awards": [],
@@ -96,6 +95,12 @@
   "studios": [
     {
       "studioId": 13
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "F_VIM03DXWI",
+      "order": 1
     }
   ]
 }

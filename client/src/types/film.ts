@@ -31,14 +31,17 @@ export type FilmAward = {
   nominations: Nomination[];
 };
 
+export type FilmTrailer = {
+  id: number;
+  videoId: string;
+  order: number;
+};
+
 export type Season = {
   id: number;
   number: number;
   episodesCount: number;
   releaseDate: string;
-  title: string | null;
-  youtubeTrailerId: string;
-  description: string;
 };
 
 export type SeriesExtension = {
@@ -61,7 +64,7 @@ export type FilmBaseData<K extends string> = {
   [key in K]: FilmBaseDataItem;
 };
 
-export type Chapter = Pick<Film, 'id' | 'title' | 'poster'>;
+export type Chapter = Pick<Film, 'id' | 'title' | 'poster' | 'chapterOrder'>;
 
 export type Film = {
   id: number;
@@ -83,8 +86,9 @@ export type Film = {
   seriesExtension: SeriesExtension | null;
   rating: number;
   poster: string;
-  youtubeTrailerId: string | null;
+  trailers: FilmTrailer[];
   chapters: Chapter[] | null;
+  chapterOrder: number | null;
   draft?: boolean;
 };
 

@@ -7,11 +7,10 @@
   "releaseDate": "2013-07-26T00:00:00.000Z",
   "duration": 126,
   "poster": "posters/wolverine.webp",
-  "youtubeTrailerId": "toLpchTUYk8",
   "budget": 132000000,
   "boxOffice": 415000000,
   "rating": 2,
-  "description": "Wolverine comes to Japan to meet an old friend whose life he saved years ago, and gets embroiled in a conspiracy involving yakuza and mutants.",
+  "description": "<p>Wolverine comes to Japan to meet an old friend whose life he saved years ago, and gets embroiled in a conspiracy involving yakuza and mutants.</p>",
   "chapterKey": "x-men",
   "chapterOrder": 8,
   "awards": [],
@@ -107,6 +106,12 @@
     },
     {
       "studioId": 5
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "toLpchTUYk8",
+      "order": 1
     }
   ]
 }

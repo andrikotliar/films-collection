@@ -7,11 +7,10 @@
   "releaseDate": "1999-05-07T00:00:00.000Z",
   "duration": 125,
   "poster": "posters/mummy_1.webp",
-  "youtubeTrailerId": "h3ptPtxWJRs",
   "budget": 80000000,
   "boxOffice": 416000000,
   "rating": 3,
-  "description": "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreck havoc as he searches for the reincarnation of his long-lost love.",
+  "description": "<p>At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreck havoc as he searches for the reincarnation of his long-lost love.</p>",
   "chapterKey": "mummy",
   "chapterOrder": 1,
   "awards": [
@@ -118,6 +117,12 @@
   "studios": [
     {
       "studioId": 13
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "h3ptPtxWJRs",
+      "order": 1
     }
   ]
 }

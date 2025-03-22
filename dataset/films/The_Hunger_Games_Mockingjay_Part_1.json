@@ -7,11 +7,10 @@
   "releaseDate": "2014-11-21T00:00:00.000Z",
   "duration": 123,
   "poster": "posters/hunger_games_3.webp",
-  "youtubeTrailerId": "3PkkHsuMrho",
   "budget": 125000000,
   "boxOffice": 755000000,
   "rating": 2,
-  "description": "Katniss Everdeen is in District 13 after she shatters the games forever. Under the leadership of President Coin and the advice of her trusted friends, Katniss spreads her wings as she fights to save Peeta and a nation moved by her courage.",
+  "description": "<p>Katniss Everdeen is in District 13 after she shatters the games forever. Under the leadership of President Coin and the advice of her trusted friends, Katniss spreads her wings as she fights to save Peeta and a nation moved by her courage.</p>",
   "chapterKey": "hunger-games",
   "chapterOrder": 3,
   "awards": [
@@ -165,6 +164,12 @@
   "studios": [
     {
       "studioId": 57
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "3PkkHsuMrho",
+      "order": 1
     }
   ]
 }

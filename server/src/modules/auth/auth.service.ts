@@ -1,11 +1,8 @@
 import { JWT } from '@fastify/jwt';
 import { compare } from 'bcrypt';
+import { AuthTokenPayload } from 'src/common';
 import { UsersService } from 'src/modules/users/users.service';
-import {
-  AuthLoginPayload,
-  AuthRegisterPayload,
-} from 'src/modules/auth/schemas';
-import { AuthTokenPayload } from './types';
+import { AuthLoginPayload, AuthRegisterPayload } from './schemas';
 
 export class AuthService {
   constructor(private usersService: UsersService, private jwtService: JWT) {}
@@ -34,13 +31,8 @@ export class AuthService {
     };
   }
 
-  async refreshTokens(refreshTokenCookie: string | null) {
-    if (!refreshTokenCookie) {
-      return null;
-    }
-
-    const decodedToken =
-      this.jwtService.decode<AuthTokenPayload>(refreshTokenCookie);
+  async refreshTokens(token: string) {
+    const decodedToken = this.jwtService.decode<AuthTokenPayload>(token);
 
     if (!decodedToken) {
       return null;
@@ -52,7 +44,7 @@ export class AuthService {
       return null;
     }
 
-    const isTokensMatched = refreshTokenCookie === user.refreshToken;
+    const isTokensMatched = token === user.refreshToken;
 
     if (!isTokensMatched) {
       return null;

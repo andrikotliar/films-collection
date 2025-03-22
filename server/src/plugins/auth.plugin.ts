@@ -1,51 +1,46 @@
 import fastifyPlugin from 'fastify-plugin';
 import { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
-import { CookieName } from 'src/common/enums';
-import { sendErrorResponse } from 'src/common/helpers';
-import { TokenPayload } from 'src/modules/auth/types';
+import {
+  CookieName,
+  AuthTokenPayload,
+  getCookie,
+  UnauthorizedException,
+} from 'src/common';
 
 const authDecorator = async (app: FastifyInstance) => {
   app.decorate(
     'authenticate',
     async function (request: FastifyRequest, reply: FastifyReply) {
+      const token = getCookie(request, 'ACCESS_TOKEN');
+
+      if (!token) {
+        throw new UnauthorizedException({
+          code: 'TOKEN_MISSED',
+          message: 'Malformed credentials',
+        });
+      }
+
+      let payload: AuthTokenPayload;
+
       try {
-        const token = request.cookies[CookieName.FC_ACCESS_TOKEN];
-
-        if (!token) {
-          return sendErrorResponse(reply, {
-            status: 'UNAUTHENTICATED',
-            code: 'TOKEN_MISSED',
-            message: 'Malformed credentials',
-          });
-        }
-
-        const decoded = this.jwt.verify<TokenPayload>(token);
-
-        const user = await this.usersService.getUser(decoded.id);
-
-        if (!user) {
-          return sendErrorResponse(reply, {
-            status: 'UNAUTHENTICATED',
-            code: 'UNAUTHENTICATED',
-            message: 'User not found or not allowed to proceed',
-          });
-        }
-
-        request.user = {
-          id: user.id,
-        };
+        payload = this.jwt.verify<AuthTokenPayload>(token);
       } catch (error: any) {
-        request.log.error(`[AUTH MIDDLEWARE ERROR]: ${error?.message}`);
+        if (error?.code === 'FAST_JWT_EXPIRED') {
+          reply.clearCookie(CookieName.ACCESS_TOKEN);
 
-        reply.clearCookie(CookieName.FC_ACCESS_TOKEN);
+          throw new UnauthorizedException({
+            code: 'TOKEN_EXPIRED',
+          });
+        }
 
-        return sendErrorResponse(reply, {
-          status: 'UNAUTHENTICATED',
-          code:
-            error?.code === 'FAST_JWT_EXPIRED'
-              ? 'TOKEN_EXPIRED'
-              : 'UNAUTHENTICATED',
-          message: 'Unauthenticated',
+        throw new UnauthorizedException();
+      }
+
+      const user = await this.usersService.getUser(payload.id);
+
+      if (!user) {
+        throw new UnauthorizedException({
+          message: 'User not found or not allowed to proceed',
         });
       }
     },

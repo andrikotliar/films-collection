@@ -7,11 +7,10 @@
   "releaseDate": "2002-05-03T00:00:00.000Z",
   "duration": 121,
   "poster": "posters/raimi_spider_man_1.webp",
-  "youtubeTrailerId": "_yhFofFZGcc",
   "budget": 139000000,
   "boxOffice": 825000000,
   "rating": 2,
-  "description": "When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family.",
+  "description": "<p>When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family.</p>",
   "chapterKey": "spider-man",
   "chapterOrder": 1,
   "awards": [],
@@ -109,6 +108,12 @@
     },
     {
       "studioId": 5
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "_yhFofFZGcc",
+      "order": 1
     }
   ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "2013-06-21T00:00:00.000Z",
   "duration": 116,
   "poster": "posters/world_war_z.webp",
-  "youtubeTrailerId": "Md6Dvxdr0AQ",
   "budget": 190000000,
   "boxOffice": 540000000,
   "rating": 2,
-  "description": "Former United Nations employee Gerry Lane traverses the world in a race against time to stop the Zombie pandemic that is toppling armies and governments, and threatening to destroy humanity itself.",
+  "description": "<p>Former United Nations employee Gerry Lane traverses the world in a race against time to stop the Zombie pandemic that is toppling armies and governments, and threatening to destroy humanity itself.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -125,6 +124,12 @@
     },
     {
       "studioId": 62
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "Md6Dvxdr0AQ",
+      "order": 1
     }
   ]
 }

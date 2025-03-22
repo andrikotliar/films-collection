@@ -7,11 +7,10 @@
   "releaseDate": "2000-07-14T00:00:00.000Z",
   "duration": 104,
   "poster": "posters/x_men_1.webp",
-  "youtubeTrailerId": "VNxwlx6etXI",
   "budget": 75000000,
   "boxOffice": 296000000,
   "rating": 2,
-  "description": "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men.",
+  "description": "<p>In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men.</p>",
   "chapterKey": "x-men",
   "chapterOrder": 5,
   "awards": [
@@ -166,6 +165,12 @@
     },
     {
       "studioId": 5
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "VNxwlx6etXI",
+      "order": 1
     }
   ]
 }

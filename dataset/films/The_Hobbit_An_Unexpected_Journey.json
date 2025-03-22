@@ -7,11 +7,10 @@
   "releaseDate": "2012-12-14T00:00:00.000Z",
   "duration": 169,
   "poster": "posters/middle_earth_1.webp",
-  "youtubeTrailerId": "JTSoD4BBCJc",
   "budget": 200000000,
   "boxOffice": 1020000000,
   "rating": 2,
-  "description": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug.",
+  "description": "<p>A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug.</p>",
   "chapterKey": "middle-earth",
   "chapterOrder": 1,
   "awards": [
@@ -201,6 +200,12 @@
   "studios": [
     {
       "studioId": 56
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "JTSoD4BBCJc",
+      "order": 1
     }
   ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "2013-05-03T00:00:00.000Z",
   "duration": 131,
   "poster": "posters/iron_man_3.webp",
-  "youtubeTrailerId": "Ke1Y3P9D0Bc",
   "budget": 200000000,
   "boxOffice": 1200000000,
   "rating": 2,
-  "description": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
+  "description": "<p>When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.</p>",
   "chapterKey": "mcu",
   "chapterOrder": 9,
   "awards": [
@@ -128,6 +127,12 @@
     },
     {
       "studioId": 4
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "Ke1Y3P9D0Bc",
+      "order": 1
     }
   ]
 }

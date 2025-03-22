@@ -1,17 +1,14 @@
 import { FastifyReply, FastifyRequest } from 'fastify';
 import { AuthService } from './auth.service';
 import {
-  CookieName,
+  getCookie,
   MAX_AGE_24_HOURS,
   MAX_AGE_7_DAYS,
   ResponseCode,
-  sendErrorResponse,
   setCookies,
+  UnauthorizedException,
 } from 'src/common';
-import {
-  AuthLoginPayload,
-  AuthRegisterPayload,
-} from 'src/modules/auth/schemas';
+import { AuthLoginPayload, AuthRegisterPayload } from './schemas';
 
 export class AuthController {
   authService!: AuthService;
@@ -23,8 +20,7 @@ export class AuthController {
     const result = await this.authService.login(request.body);
 
     if (!result) {
-      return sendErrorResponse(reply, {
-        status: 'UNAUTHENTICATED',
+      throw new UnauthorizedException({
         code: 'INCORRECT_CREDENTIALS',
         message: 'Incorrect credentials',
       });
@@ -32,12 +28,12 @@ export class AuthController {
 
     setCookies(reply, [
       {
-        cookieId: 'FC_ACCESS_TOKEN',
+        name: 'ACCESS_TOKEN',
         value: result.accessToken,
         maxAge: MAX_AGE_24_HOURS,
       },
       {
-        cookieId: 'FC_REFRESH_TOKEN',
+        name: 'REFRESH_TOKEN',
         value: result.refreshToken,
         maxAge: MAX_AGE_7_DAYS,
       },
@@ -56,27 +52,28 @@ export class AuthController {
   }
 
   async refreshTokens(request: FastifyRequest, reply: FastifyReply) {
-    const refreshTokenCookie =
-      request.cookies[CookieName.FC_REFRESH_TOKEN] ?? null;
+    const token = getCookie(request, 'REFRESH_TOKEN');
 
-    const result = await this.authService.refreshTokens(refreshTokenCookie);
+    if (!token) {
+      throw new UnauthorizedException();
+    }
+
+    const result = await this.authService.refreshTokens(token);
 
     if (!result) {
-      return sendErrorResponse(reply, {
-        status: 'UNAUTHENTICATED',
+      throw new UnauthorizedException({
         code: 'INVALID_TOKEN',
-        message: 'Unauthenticated',
       });
     }
 
     setCookies(reply, [
       {
-        cookieId: 'FC_ACCESS_TOKEN',
+        name: 'ACCESS_TOKEN',
         value: result.accessToken,
         maxAge: MAX_AGE_24_HOURS,
       },
       {
-        cookieId: 'FC_REFRESH_TOKEN',
+        name: 'REFRESH_TOKEN',
         value: result.refreshToken,
         maxAge: MAX_AGE_7_DAYS,
       },

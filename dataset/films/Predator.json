@@ -7,11 +7,10 @@
   "releaseDate": "1987-06-12T00:00:00.000Z",
   "duration": 107,
   "poster": "posters/predator.webp",
-  "youtubeTrailerId": "_1wDBNHYDv8",
   "budget": 15000000,
   "boxOffice": 98000000,
   "rating": 1,
-  "description": "A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior.",
+  "description": "<p>A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -121,6 +120,12 @@
   "studios": [
     {
       "studioId": 6
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "_1wDBNHYDv8",
+      "order": 1
     }
   ]
 }

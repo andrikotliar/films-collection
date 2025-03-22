@@ -7,11 +7,10 @@
   "releaseDate": "2014-05-02T00:00:00.000Z",
   "duration": 142,
   "poster": "posters/amazing_spider_man_2.webp",
-  "youtubeTrailerId": "nbp3Ra3Yp74",
   "budget": 200000000,
   "boxOffice": 709000000,
   "rating": 2,
-  "description": "When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones.",
+  "description": "<p>When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones.</p>",
   "chapterKey": "amazing-spider-man",
   "chapterOrder": 2,
   "awards": [],
@@ -134,6 +133,12 @@
     },
     {
       "studioId": 5
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "nbp3Ra3Yp74",
+      "order": 1
     }
   ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "2014-08-01T00:00:00.000Z",
   "duration": 122,
   "poster": "posters/guardians_of_the_galaxy.webp",
-  "youtubeTrailerId": "d96cjJhvlMA",
   "budget": 196000000,
   "boxOffice": 773000000,
   "rating": 2,
-  "description": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.",
+  "description": "<p>A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.</p>",
   "chapterKey": "mcu",
   "chapterOrder": 11,
   "awards": [
@@ -171,6 +170,12 @@
     },
     {
       "studioId": 4
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "d96cjJhvlMA",
+      "order": 1
     }
   ]
 }

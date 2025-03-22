@@ -1,23 +1,28 @@
 import { Modal } from '@/ui';
 import { FC } from 'react';
-import { Video } from '../Video/Video';
 import styles from './TrailersModal.module.css';
+import { Film, FilmTrailer } from '@/types';
+import { Playlist } from './components';
 
 type TrailersModalProps = {
-  isOpen: boolean;
   onClose: VoidFunction;
-  trailerId: string;
+  isOpen: boolean;
+  trailers: FilmTrailer[];
+  type: Film['type'];
 };
 
 export const TrailersModal: FC<TrailersModalProps> = ({
-  isOpen,
   onClose,
-  trailerId,
+  isOpen,
+  trailers,
+  type,
 }) => {
+  const previewLabel = type === 'SERIES' ? 'Season' : 'Trailer #';
+
   return (
     <Modal isOpen={isOpen} onClose={onClose} className={styles.trailersModal}>
       <Modal.Content className={styles.trailersModalContent}>
-        <Video trailerId={trailerId} />
+        <Playlist trailers={trailers} previewLabel={previewLabel} />
         <Modal.CloseButton
           onClick={onClose}
           className={styles.trailerCloseButton}

@@ -7,11 +7,10 @@
   "releaseDate": "2014-06-13T00:00:00.000Z",
   "duration": 102,
   "poster": "posters/how_to_train_your_dragon_2.webp",
-  "youtubeTrailerId": "2BP38770KNo",
   "budget": 145000000,
   "boxOffice": 621000000,
   "rating": 3,
-  "description": "When Hiccup and Toothless discover an ice cave that is home to hundreds of new wild dragons and the mysterious Dragon Rider, the two friends find themselves at the center of a battle to protect the peace.",
+  "description": "<p>When Hiccup and Toothless discover an ice cave that is home to hundreds of new wild dragons and the mysterious Dragon Rider, the two friends find themselves at the center of a battle to protect the peace.</p>",
   "chapterKey": "how-to-train-your-dragon",
   "chapterOrder": 2,
   "awards": [],
@@ -91,6 +90,12 @@
   "studios": [
     {
       "studioId": 16
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "2BP38770KNo",
+      "order": 1
     }
   ]
 }

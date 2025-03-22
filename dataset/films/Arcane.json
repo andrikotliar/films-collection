@@ -7,9 +7,8 @@
   "releaseDate": "2021-11-06T00:00:00.000Z",
   "duration": 40,
   "poster": "posters/arcane.webp",
-  "youtubeTrailerId": null,
   "rating": 2,
-  "description": "Set in utopian Piltover and the oppressed underground of Zaun, the story follows the origins of two sisters from Zaun - Vi and Powder.",
+  "description": "<p>Set in utopian Piltover and the oppressed underground of Zaun, the story follows the origins of two sisters from Zaun - Vi and Powder.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -194,11 +193,14 @@
       {
         "number": 1,
         "episodesCount": 9,
-        "releaseDate": "2021-11-06T00:00:00.000Z",
-        "youtubeTrailerId": "3Svs_hl897c",
-        "title": null,
-        "description": "Two sisters Vi and Powder became separated by the new upcoming war between Zaun and Piltover. They must find their new path and choose a side."
+        "releaseDate": "2021-11-06T00:00:00.000Z"
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "videoId": "3Svs_hl897c",
+      "order": 1
+    }
+  ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "2017-03-03T00:00:00.000Z",
   "duration": 137,
   "poster": "posters/logan.webp",
-  "youtubeTrailerId": "Div0iP65aZo",
   "budget": 97000000,
   "boxOffice": 619000000,
   "rating": 2,
-  "description": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
+  "description": "<p>In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.</p>",
   "chapterKey": "x-men",
   "chapterOrder": 9,
   "awards": [
@@ -142,6 +141,12 @@
     },
     {
       "studioId": 5
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "Div0iP65aZo",
+      "order": 1
     }
   ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "2009-07-01T00:00:00.000Z",
   "duration": 94,
   "poster": "posters/ice_age_3.webp",
-  "youtubeTrailerId": "Y_nSwh2WjAM",
   "budget": 90000000,
   "boxOffice": 886000000,
   "rating": 1,
-  "description": "When Sid's attempt to adopt three dinosaur eggs gets him abducted by their real mother to an underground lost world, his friends attempt to rescue him.",
+  "description": "<p>When Sid's attempt to adopt three dinosaur eggs gets him abducted by their real mother to an underground lost world, his friends attempt to rescue him.</p>",
   "chapterKey": "ice-age",
   "chapterOrder": 3,
   "awards": [],
@@ -129,6 +128,12 @@
     },
     {
       "studioId": 36
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "Y_nSwh2WjAM",
+      "order": 1
     }
   ]
 }

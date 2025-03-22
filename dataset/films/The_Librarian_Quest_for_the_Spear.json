@@ -7,9 +7,8 @@
   "releaseDate": "2004-12-05T00:00:00.000Z",
   "duration": 90,
   "poster": "posters/librarian_1.webp",
-  "youtubeTrailerId": "_LsPz8vCULE",
   "rating": 1,
-  "description": "A bookworm becomes the librarian. Same night a magical spear gets stolen and he's off to get some real life experience around the globe on his quest for the spear - starting with being thrown off a plane over Amazonas by his cute helper.",
+  "description": "<p>A bookworm becomes the librarian. Same night a magical spear gets stolen and he's off to get some real life experience around the globe on his quest for the spear - starting with being thrown off a plane over Amazonas by his cute helper.</p>",
   "chapterKey": "librarian",
   "chapterOrder": 1,
   "awards": [],
@@ -99,6 +98,12 @@
   "studios": [
     {
       "studioId": 59
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "_LsPz8vCULE",
+      "order": 1
     }
   ]
 }

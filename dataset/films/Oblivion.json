@@ -7,11 +7,10 @@
   "releaseDate": "2013-04-19T00:00:00.000Z",
   "duration": 124,
   "poster": "posters/oblivion.webp",
-  "youtubeTrailerId": "XmIIgE7eSak",
   "budget": 160000000,
   "boxOffice": 286000000,
   "rating": 1,
-  "description": "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.",
+  "description": "<p>A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -121,6 +120,12 @@
   "studios": [
     {
       "studioId": 13
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "XmIIgE7eSak",
+      "order": 1
     }
   ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "1997-07-02T00:00:00.000Z",
   "duration": 98,
   "poster": "posters/mib_1.webp",
-  "youtubeTrailerId": "1Q4mhYF9aQQ",
   "budget": 90000000,
   "boxOffice": 589000000,
   "rating": 2,
-  "description": "A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth.",
+  "description": "<p>A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth.</p>",
   "chapterKey": "mib",
   "chapterOrder": 1,
   "awards": [
@@ -124,6 +123,12 @@
   "studios": [
     {
       "studioId": 12
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "1Q4mhYF9aQQ",
+      "order": 1
     }
   ]
 }

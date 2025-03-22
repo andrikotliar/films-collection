@@ -7,11 +7,10 @@
   "releaseDate": "2013-11-22T00:00:00.000Z",
   "duration": 146,
   "poster": "posters/hunger_games_2.webp",
-  "youtubeTrailerId": "EAzGXqJSDJ8",
   "budget": 130000000,
   "boxOffice": 865000000,
   "rating": 2,
-  "description": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem.",
+  "description": "<p>Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem.</p>",
   "chapterKey": "hunger-games",
   "chapterOrder": 2,
   "awards": [
@@ -125,6 +124,12 @@
   "studios": [
     {
       "studioId": 57
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "EAzGXqJSDJ8",
+      "order": 1
     }
   ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "2008-06-13T00:00:00.000Z",
   "duration": 112,
   "poster": "posters/the_incredible_hulk.webp",
-  "youtubeTrailerId": "xbqNb2PFKKA",
   "budget": 150000000,
   "boxOffice": 263000000,
   "rating": 2,
-  "description": "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into, whenever he loses his temper.",
+  "description": "<p>Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into, whenever he loses his temper.</p>",
   "chapterKey": "mcu",
   "chapterOrder": 5,
   "awards": [],
@@ -104,6 +103,12 @@
     },
     {
       "studioId": 13
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "xbqNb2PFKKA",
+      "order": 1
     }
   ]
 }

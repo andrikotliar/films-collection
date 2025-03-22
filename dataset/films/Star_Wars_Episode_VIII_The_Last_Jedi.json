@@ -7,11 +7,10 @@
   "releaseDate": "2017-12-15T00:00:00.000Z",
   "duration": 152,
   "poster": "posters/star_wars_episode_VIII.webp",
-  "youtubeTrailerId": "Q0CbN8sfihY",
   "budget": 317000000,
   "boxOffice": 1330000000,
   "rating": 2,
-  "description": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.",
+  "description": "<p>Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.</p>",
   "chapterKey": "star-wars",
   "chapterOrder": 11,
   "awards": [
@@ -148,6 +147,12 @@
     },
     {
       "studioId": 37
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "Q0CbN8sfihY",
+      "order": 1
     }
   ]
 }

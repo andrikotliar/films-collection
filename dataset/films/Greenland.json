@@ -7,11 +7,10 @@
   "releaseDate": "2020-08-14T00:00:00.000Z",
   "duration": 119,
   "poster": "posters/greenland.webp",
-  "youtubeTrailerId": "RTODtIQQRpA",
   "budget": 35000000,
   "boxOffice": 52000000,
   "rating": 1,
-  "description": "A family struggles for survival in the face of a cataclysmic natural disaster.",
+  "description": "<p>A family struggles for survival in the face of a cataclysmic natural disaster.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -112,6 +111,12 @@
     },
     {
       "studioId": 30
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "RTODtIQQRpA",
+      "order": 1
     }
   ]
 }

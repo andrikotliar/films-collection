@@ -1,30 +1,18 @@
-.text {
-  line-height: 1.8;
-  margin-bottom: 8px;
+.description {
+  padding-top: 20px;
+  line-height: 1.5;
 }
 
-.text:last-child {
+.description p {
+  margin-bottom: 10px;
+}
+
+.description p:last-child {
   margin-bottom: 0;
 }
 
-.text span {
-  font-weight: bold;
-  margin-right: 5px;
-}
-
-.seasons {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  margin-top: 30px;
-}
-
 @media (max-width: 480px) {
-  .text {
+  .description {
     font-size: 14px;
-  }
-
-  .seasons {
-    margin-top: 10px;
   }
 }

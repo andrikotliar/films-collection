@@ -7,11 +7,10 @@
   "releaseDate": "2011-07-22T00:00:00.000Z",
   "duration": 124,
   "poster": "posters/captain_america_1.webp",
-  "youtubeTrailerId": "JerVrbLldXw",
   "budget": 140000000,
   "boxOffice": 371000000,
   "rating": 1,
-  "description": "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
+  "description": "<p>Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</p>",
   "chapterKey": "mcu",
   "chapterOrder": 1,
   "awards": [],
@@ -124,6 +123,12 @@
     },
     {
       "studioId": 14
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "JerVrbLldXw",
+      "order": 1
     }
   ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "2004-06-30T00:00:00.000Z",
   "duration": 127,
   "poster": "posters/raimi_spider_man_2.webp",
-  "youtubeTrailerId": "1s9Yln0YwCw",
   "budget": 200000000,
   "boxOffice": 789000000,
   "rating": 2,
-  "description": "Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius.",
+  "description": "<p>Peter Parker is beset with troubles in his failing personal life as he battles a brilliant scientist named Doctor Otto Octavius.</p>",
   "chapterKey": "spider-man",
   "chapterOrder": 2,
   "awards": [
@@ -141,6 +140,12 @@
     },
     {
       "studioId": 5
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "1s9Yln0YwCw",
+      "order": 1
     }
   ]
 }

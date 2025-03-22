@@ -7,11 +7,10 @@
   "releaseDate": "2011-05-20T00:00:00.000Z",
   "duration": 137,
   "poster": "posters/pirates_4.webp",
-  "youtubeTrailerId": "t5AqJww06bw",
   "budget": 250000000,
   "boxOffice": 1050000000,
   "rating": 2,
-  "description": "Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too.",
+  "description": "<p>Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too.</p>",
   "chapterKey": "pirates-of-the-caribbean",
   "chapterOrder": 4,
   "awards": [],
@@ -109,6 +108,12 @@
     },
     {
       "studioId": 44
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "t5AqJww06bw",
+      "order": 1
     }
   ]
 }

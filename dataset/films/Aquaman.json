@@ -7,11 +7,10 @@
   "releaseDate": "2018-12-21T00:00:00.000Z",
   "duration": 143,
   "poster": "posters/aquaman.webp",
-  "youtubeTrailerId": "WDkg3h8PCVU",
   "budget": 160000000,
   "boxOffice": 1150000000,
   "rating": 1,
-  "description": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
+  "description": "<p>Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.</p>",
   "chapterKey": "dceu",
   "chapterOrder": 6,
   "awards": [],
@@ -119,6 +118,12 @@
     },
     {
       "studioId": 8
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "WDkg3h8PCVU",
+      "order": 1
     }
   ]
 }

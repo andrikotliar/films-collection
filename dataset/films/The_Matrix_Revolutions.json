@@ -7,11 +7,10 @@
   "releaseDate": "2003-11-05T00:00:00.000Z",
   "duration": 129,
   "poster": "posters/matrix_3.webp",
-  "youtubeTrailerId": "hMbexEPAOQI",
   "budget": 110000000,
   "boxOffice": 427000000,
   "rating": 3,
-  "description": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith.",
+  "description": "<p>The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith.</p>",
   "chapterKey": "matrix",
   "chapterOrder": 3,
   "awards": [],
@@ -109,6 +108,12 @@
   "studios": [
     {
       "studioId": 8
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "hMbexEPAOQI",
+      "order": 1
     }
   ]
 }

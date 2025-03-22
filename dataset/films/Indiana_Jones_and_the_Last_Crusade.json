@@ -7,11 +7,10 @@
   "releaseDate": "1989-05-24T00:00:00.000Z",
   "duration": 127,
   "poster": "posters/indiana_jones_3.webp",
-  "youtubeTrailerId": "sagmdpkWUqc",
   "budget": 48000000,
   "boxOffice": 474000000,
   "rating": 1,
-  "description": "In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Professor Henry \"Indiana\" Jones, Jr. finds himself up against Adolf Hitler's Nazis again to stop them from obtaining its powers.",
+  "description": "<p>In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Professor Henry \"Indiana\" Jones, Jr. finds himself up against Adolf Hitler's Nazis again to stop them from obtaining its powers.</p>",
   "chapterKey": "indiana-jones",
   "chapterOrder": 3,
   "awards": [
@@ -126,6 +125,12 @@
     },
     {
       "studioId": 37
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "sagmdpkWUqc",
+      "order": 1
     }
   ]
 }

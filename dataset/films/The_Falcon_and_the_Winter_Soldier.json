@@ -7,9 +7,8 @@
   "releaseDate": "2021-03-19T00:00:00.000Z",
   "duration": 50,
   "poster": "posters/falcon_and_the_winter_soldier.webp",
-  "youtubeTrailerId": null,
   "rating": 1,
-  "description": "After Captain America transfers his shield to Sam Wilson, Sam tries reach the level of previous Captain America. But he must face problems with the US government and team up with the Winter Soldier to prevent a war",
+  "description": "<p>After Captain America transfers his shield to Sam Wilson, Sam tries reach the level of previous Captain America. But he must face problems with the US government and team up with the Winter Soldier to prevent a war.</p>",
   "chapterKey": "mcu",
   "chapterOrder": 28,
   "awards": [
@@ -164,11 +163,14 @@
       {
         "number": 1,
         "episodesCount": 6,
-        "releaseDate": "2021-03-19T00:00:00.000Z",
-        "youtubeTrailerId": "IWBsDaFWyTE",
-        "title": null,
-        "description": "The Flag Smashers, an anti-patriot group, believes the world was better during the Blip and is fighting for open national borders. The Falcon and the Winter Soldier try to stop them and protect the piece."
+        "releaseDate": "2021-03-19T00:00:00.000Z"
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "videoId": "IWBsDaFWyTE",
+      "order": 1
+    }
+  ]
 }

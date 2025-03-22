@@ -2,17 +2,7 @@
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  padding: 20px;
-  border-bottom: var(--app-border);
   transition: background-color 300ms;
-}
-
-.actor:hover {
-  background-color: var(--gray-extra-light);
-}
-
-.actor:last-child {
-  border-bottom: 0;
 }
 
 .profile {
@@ -41,10 +31,6 @@
 }
 
 @media (max-width: 480px) {
-  .actor {
-    padding: 10px;
-  }
-
   .imageWrapper {
     width: 70px;
     height: 100px;

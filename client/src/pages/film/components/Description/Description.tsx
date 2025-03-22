@@ -1,38 +1,37 @@
 import { FC } from 'react';
 import styles from './Description.module.css';
-import { Season } from '@/types';
-import { Section, TrailerButton } from '@/pages/film/components';
+import sanitizeHtml from 'sanitize-html';
 
 type DescriptionProps = {
-  trailerId: string | null;
-  text: string;
-  seasons?: Season[];
+  rawHtml: string;
 };
 
-export const Description: FC<DescriptionProps> = ({
-  text,
-  seasons,
-  trailerId,
-}) => {
+const ALLOWED_DESCRIPTION_TAGS = [
+  'div',
+  'p',
+  'b',
+  'strong',
+  'h1',
+  'h2',
+  'h3',
+  'h4',
+  'h5',
+  'h6',
+  'i',
+  'ul',
+  'ol',
+  'i',
+];
+
+export const Description: FC<DescriptionProps> = ({ rawHtml }) => {
+  const content = sanitizeHtml(rawHtml, {
+    allowedTags: ALLOWED_DESCRIPTION_TAGS,
+  });
+
   return (
-    <div>
-      <div>
-        <p className={styles.text}>{text}</p>
-        {trailerId && <TrailerButton trailerId={trailerId} />}
-      </div>
-      {seasons && (
-        <div className={styles.seasons}>
-          {seasons.map((season) => (
-            <Section
-              title={season.title ?? `Season ${season.number}`}
-              key={season.id}
-            >
-              <p className={styles.text}>{season.description}</p>
-              <TrailerButton trailerId={season.youtubeTrailerId} />
-            </Section>
-          ))}
-        </div>
-      )}
-    </div>
+    <div
+      className={styles.description}
+      dangerouslySetInnerHTML={{ __html: content }}
+    />
   );
 };

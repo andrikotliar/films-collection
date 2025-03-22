@@ -7,11 +7,10 @@
   "releaseDate": "2013-05-31T00:00:00.000Z",
   "duration": 115,
   "poster": "posters/now_you_see_me.webp",
-  "youtubeTrailerId": "KzJNYYkkhzc",
   "budget": 75000000,
   "boxOffice": 352000000,
   "rating": 1,
-  "description": "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money.",
+  "description": "<p>An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -131,6 +130,12 @@
   "studios": [
     {
       "studioId": 43
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "KzJNYYkkhzc",
+      "order": 1
     }
   ]
 }

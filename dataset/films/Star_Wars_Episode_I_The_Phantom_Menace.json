@@ -7,11 +7,10 @@
   "releaseDate": "1999-05-19T00:00:00.000Z",
   "duration": 136,
   "poster": "posters/star_wars_episode_I.webp",
-  "youtubeTrailerId": "bD7bpG-zDJQ",
   "budget": 115000000,
   "boxOffice": 1020000000,
   "rating": 2,
-  "description": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their old glory.",
+  "description": "<p>Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their old glory.</p>",
   "chapterKey": "star-wars",
   "chapterOrder": 1,
   "awards": [
@@ -143,6 +142,12 @@
     },
     {
       "studioId": 37
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "bD7bpG-zDJQ",
+      "order": 1
     }
   ]
 }

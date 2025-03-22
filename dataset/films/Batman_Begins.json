@@ -7,11 +7,10 @@
   "releaseDate": "2005-06-15T00:00:00.000Z",
   "duration": 140,
   "poster": "posters/batman_1.webp",
-  "youtubeTrailerId": "neY2xVmOfUM",
   "budget": 150000000,
   "boxOffice": 375000000,
   "rating": 2,
-  "description": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
+  "description": "<p>After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.</p>",
   "chapterKey": "dark-knight",
   "chapterOrder": 1,
   "awards": [
@@ -164,6 +163,12 @@
     },
     {
       "studioId": 25
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "neY2xVmOfUM",
+      "order": 1
     }
   ]
 }

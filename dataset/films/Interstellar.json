@@ -7,11 +7,10 @@
   "releaseDate": "2014-11-07T00:00:00.000Z",
   "duration": 169,
   "poster": "posters/interstellar.webp",
-  "youtubeTrailerId": "zSWdZVtXT7E",
   "budget": 165000000,
   "boxOffice": 677000000,
   "rating": 3,
-  "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+  "description": "<p>A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -164,6 +163,12 @@
     },
     {
       "studioId": 8
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "zSWdZVtXT7E",
+      "order": 1
     }
   ]
 }

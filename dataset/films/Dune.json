@@ -7,11 +7,10 @@
   "releaseDate": "2021-10-22T00:00:00.000Z",
   "duration": 155,
   "poster": "posters/dune.webp",
-  "youtubeTrailerId": "w0HgHet0sxg",
   "budget": 165000000,
   "boxOffice": 398000000,
   "rating": 2,
-  "description": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
+  "description": "<p>Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -165,6 +164,12 @@
     },
     {
       "studioId": 25
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "w0HgHet0sxg",
+      "order": 1
     }
   ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "2005-09-02T00:00:00.000Z",
   "duration": 87,
   "poster": "posters/transporter_2.webp",
-  "youtubeTrailerId": "sYJ5LDoWRT4",
   "budget": 32000000,
   "boxOffice": 85000000,
   "rating": 2,
-  "description": "Mercenary Frank Martin, who specializes moving goods of all kinds, surfaces again this time in Miami, Florida when he's implicated in the kidnapping of the young son of a powerful USA official.",
+  "description": "<p>Mercenary Frank Martin, who specializes moving goods of all kinds, surfaces again this time in Miami, Florida when he's implicated in the kidnapping of the young son of a powerful USA official.</p>",
   "chapterKey": "transporter",
   "chapterOrder": 2,
   "awards": [],
@@ -111,6 +110,12 @@
   "studios": [
     {
       "studioId": 27
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "sYJ5LDoWRT4",
+      "order": 1
     }
   ]
 }

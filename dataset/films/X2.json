@@ -7,11 +7,10 @@
   "releaseDate": "2003-05-02T00:00:00.000Z",
   "duration": 133,
   "poster": "posters/x_men_2.webp",
-  "youtubeTrailerId": "luHcOYS1HxQ",
   "budget": 110000000,
   "boxOffice": 408000000,
   "rating": 3,
-  "description": "When anti-mutant colonel William Stryker kidnaps Professor X and attacks his school, the X-Men must ally with their archenemy Magneto to stop him.",
+  "description": "<p>When anti-mutant colonel William Stryker kidnaps Professor X and attacks his school, the X-Men must ally with their archenemy Magneto to stop him.</p>",
   "chapterKey": "x-men",
   "chapterOrder": 6,
   "awards": [
@@ -157,6 +156,12 @@
     },
     {
       "studioId": 5
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "luHcOYS1HxQ",
+      "order": 1
     }
   ]
 }

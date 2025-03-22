@@ -7,11 +7,10 @@
   "releaseDate": "2010-11-12T00:00:00.000Z",
   "duration": 98,
   "poster": "posters/unstoppable.webp",
-  "youtubeTrailerId": "fyuoIqeL-bc",
   "budget": 100000000,
   "boxOffice": 167000000,
   "rating": 2,
-  "description": "With an unmanned, half-mile-long freight train barreling toward a city, a veteran engineer and a young conductor race against the clock to prevent a catastrophe.",
+  "description": "<p>With an unmanned, half-mile-long freight train barreling toward a city, a veteran engineer and a young conductor race against the clock to prevent a catastrophe.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -101,6 +100,12 @@
   "studios": [
     {
       "studioId": 6
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "fyuoIqeL-bc",
+      "order": 1
     }
   ]
 }

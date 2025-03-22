@@ -7,11 +7,10 @@
   "releaseDate": "1998-04-04T00:00:00.000Z",
   "duration": 86,
   "poster": "posters/taxi_1.webp",
-  "youtubeTrailerId": "buQxF0eIeXI",
   "budget": 9000000,
   "boxOffice": 44000000,
   "rating": 2,
-  "description": "To work off his tarnished driving record, a hip taxi driver must chauffeur a loser police inspector on the trail of German bank robbers.",
+  "description": "<p>To work off his tarnished driving record, a hip taxi driver must chauffeur a loser police inspector on the trail of German bank robbers.</p>",
   "chapterKey": "taxi",
   "chapterOrder": 1,
   "awards": [],
@@ -101,6 +100,12 @@
     },
     {
       "studioId": 49
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "buQxF0eIeXI",
+      "order": 1
     }
   ]
 }

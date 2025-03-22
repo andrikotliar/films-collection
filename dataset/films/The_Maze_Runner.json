@@ -7,11 +7,10 @@
   "releaseDate": "2014-09-19T00:00:00.000Z",
   "duration": 113,
   "poster": "posters/maze_runner_1.webp",
-  "youtubeTrailerId": "AwwbhhjQ9Xk",
   "budget": 34000000,
   "boxOffice": 348000000,
   "rating": 2,
-  "description": "Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow \"runners\" for a shot at escape.",
+  "description": "<p>Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow \"runners\" for a shot at escape.</p>",
   "chapterKey": "maze-runner",
   "chapterOrder": 1,
   "awards": [
@@ -145,6 +144,12 @@
   "studios": [
     {
       "studioId": 6
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "AwwbhhjQ9Xk",
+      "order": 1
     }
   ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "2010-12-17T00:00:00.000Z",
   "duration": 125,
   "poster": "posters/tron.webp",
-  "youtubeTrailerId": "L9szn1QQfas",
   "budget": 170000000,
   "boxOffice": 400000000,
   "rating": 2,
-  "description": "The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world.",
+  "description": "<p>The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -129,6 +128,12 @@
   "studios": [
     {
       "studioId": 1
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "L9szn1QQfas",
+      "order": 1
     }
   ]
 }

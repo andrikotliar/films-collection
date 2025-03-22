@@ -6,8 +6,7 @@ import JwtPlugin from '@fastify/jwt';
 import { TypeBoxTypeProvider } from '@fastify/type-provider-typebox';
 import { AuthPlugin, PrismaPlugin } from 'src/plugins';
 import { AppModule } from './app.module';
-import { AppDependencies, CookieName } from './common';
-import { env } from './configs';
+import { AppDependencies, CookieName, env, errorHandler } from './common';
 
 declare module 'fastify' {
   export interface FastifyInstance extends AppDependencies {
@@ -37,7 +36,7 @@ app.register(CookiePlugin, {
 app.register(JwtPlugin, {
   secret: env.AUTH_SECRET,
   cookie: {
-    cookieName: CookieName.FC_ACCESS_TOKEN,
+    cookieName: CookieName.ACCESS_TOKEN,
     signed: true,
   },
 });
@@ -46,6 +45,8 @@ app.register(PrismaPlugin);
 app.register(AuthPlugin);
 
 app.register(AppModule, { prefix: '/api' });
+
+app.setErrorHandler(errorHandler);
 
 const startServer = async () => {
   try {

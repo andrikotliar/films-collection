@@ -7,11 +7,10 @@
   "releaseDate": "1999-03-31T00:00:00.000Z",
   "duration": 136,
   "poster": "posters/matrix_1.webp",
-  "youtubeTrailerId": "m8e-FF8MsqU",
   "budget": 63000000,
   "boxOffice": 463000000,
   "rating": 3,
-  "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+  "description": "<p>A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.</p>",
   "chapterKey": "matrix",
   "chapterOrder": 1,
   "awards": [
@@ -174,6 +173,12 @@
   "studios": [
     {
       "studioId": 8
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "m8e-FF8MsqU",
+      "order": 1
     }
   ]
 }

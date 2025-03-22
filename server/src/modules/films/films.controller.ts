@@ -1,5 +1,5 @@
 import { FastifyReply, FastifyRequest } from 'fastify';
-import { sendErrorResponse, ResponseCode } from '../../common';
+import { NotFoundException, ResponseCode } from '../../common';
 import { FilmsService } from './films.service';
 import {
   FilmsAdminQuery,
@@ -27,9 +27,7 @@ export class FilmsController {
     const data = await this.filmsService.getFilmDetails(request.params.id);
 
     if (!data) {
-      return sendErrorResponse(reply, {
-        status: 'NOT_FOUND',
-        code: 'NOT_FOUND',
+      throw new NotFoundException({
         message: `Film with the ${request.params.id} not found`,
       });
     }

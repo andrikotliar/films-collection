@@ -7,11 +7,10 @@
   "releaseDate": "2016-03-25T00:00:00.000Z",
   "duration": 151,
   "poster": "posters/batman_v_superman.webp",
-  "youtubeTrailerId": "bha24P9uw-E",
   "budget": 250000000,
   "boxOffice": 874000000,
   "rating": 1,
-  "description": "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs.",
+  "description": "<p>Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs.</p>",
   "chapterKey": "dceu",
   "chapterOrder": 2,
   "awards": [],
@@ -129,6 +128,12 @@
     },
     {
       "studioId": 8
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "bha24P9uw-E",
+      "order": 1
     }
   ]
 }
