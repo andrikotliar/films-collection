@@ -7,11 +7,10 @@
   "releaseDate": "2018-05-25T00:00:00.000Z",
   "duration": 135,
   "poster": "posters/solo.webp",
-  "youtubeTrailerId": "jPEYpryMp2s",
   "budget": 375000000,
   "boxOffice": 393000000,
   "rating": 1,
-  "description": "During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion.",
+  "description": "<p>During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion.</p>",
   "chapterKey": "star-wars",
   "chapterOrder": 4,
   "awards": [],
@@ -131,6 +130,12 @@
     },
     {
       "studioId": 1
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "jPEYpryMp2s",
+      "order": 1
     }
   ]
 }

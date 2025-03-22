@@ -7,11 +7,10 @@
   "releaseDate": "2008-06-27T00:00:00.000Z",
   "duration": 97,
   "poster": "posters/wall_e.webp",
-  "youtubeTrailerId": "alIq_wG9FNk",
   "budget": 180000000,
   "boxOffice": 533000000,
   "rating": 3,
-  "description": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+  "description": "<p>In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -134,6 +133,12 @@
     },
     {
       "studioId": 3
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "alIq_wG9FNk",
+      "order": 1
     }
   ]
 }

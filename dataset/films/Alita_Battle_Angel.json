@@ -7,11 +7,10 @@
   "releaseDate": "2019-02-14T00:00:00.000Z",
   "duration": 122,
   "poster": "posters/alita.webp",
-  "youtubeTrailerId": "w7pYhpJaJW8",
   "budget": 170000000,
   "boxOffice": 400000000,
   "rating": 1,
-  "description": "A deactivated female cyborg is revived, but cannot remember anything of her past life and goes on a quest to find out who she is.",
+  "description": "<p>A deactivated female cyborg is revived, but cannot remember anything of her past life and goes on a quest to find out who she is.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -111,6 +110,12 @@
   "studios": [
     {
       "studioId": 6
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "w7pYhpJaJW8",
+      "order": 1
     }
   ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "2008-06-06T00:00:00.000Z",
   "duration": 92,
   "poster": "posters/kungfu_panda.webp",
-  "youtubeTrailerId": "NRc-ze7Wrxw",
   "budget": 130000000,
   "boxOffice": 632000000,
   "rating": 2,
-  "description": "The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance. However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a novice in martial arts.",
+  "description": "<p>The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance. However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a novice in martial arts.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -180,6 +179,12 @@
   "studios": [
     {
       "studioId": 16
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "NRc-ze7Wrxw",
+      "order": 1
     }
   ]
 }

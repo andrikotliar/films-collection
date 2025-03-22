@@ -7,11 +7,10 @@
   "releaseDate": "2001-11-16T00:00:00.000Z",
   "duration": 152,
   "poster": "posters/harry_potter_1.webp",
-  "youtubeTrailerId": "VyHV0BRtdxo",
   "budget": 125000000,
   "boxOffice": 975000000,
   "rating": 3,
-  "description": "An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
+  "description": "<p>An orphaned boy enrolled in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.</p>",
   "chapterKey": "harry-potter",
   "chapterOrder": 1,
   "awards": [
@@ -120,6 +119,12 @@
   "studios": [
     {
       "studioId": 8
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "VyHV0BRtdxo",
+      "order": 1
     }
   ]
 }

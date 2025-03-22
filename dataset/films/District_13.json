@@ -7,11 +7,10 @@
   "releaseDate": "2004-11-10T00:00:00.000Z",
   "duration": 86,
   "poster": "posters/d13_1.webp",
-  "youtubeTrailerId": "Mcmkx1klOpE",
   "budget": 14000000,
   "boxOffice": 12000000,
   "rating": 2,
-  "description": "Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb.",
+  "description": "<p>Set in the ghettos of Paris in 2010, an undercover cop and ex-thug try to infiltrate a gang in order to defuse a neutron bomb.</p>",
   "chapterKey": "b13",
   "chapterOrder": 1,
   "awards": [],
@@ -106,6 +105,12 @@
   "studios": [
     {
       "studioId": 27
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "Mcmkx1klOpE",
+      "order": 1
     }
   ]
 }

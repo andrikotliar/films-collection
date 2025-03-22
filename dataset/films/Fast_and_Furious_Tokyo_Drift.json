@@ -7,11 +7,10 @@
   "releaseDate": "2006-06-16T00:00:00.000Z",
   "duration": 104,
   "poster": "posters/fast_and_furious_3.webp",
-  "youtubeTrailerId": "p8HQ2JLlc4E",
   "budget": 85000000,
   "boxOffice": 158000000,
   "rating": 1,
-  "description": "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America.",
+  "description": "<p>A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America.</p>",
   "chapterKey": "fast-and-furious",
   "chapterOrder": 6,
   "awards": [],
@@ -91,6 +90,12 @@
   "studios": [
     {
       "studioId": 13
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "p8HQ2JLlc4E",
+      "order": 1
     }
   ]
 }

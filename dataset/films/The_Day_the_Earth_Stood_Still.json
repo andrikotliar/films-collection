@@ -7,11 +7,10 @@
   "releaseDate": "2008-12-12T00:00:00.000Z",
   "duration": 103,
   "poster": "posters/day_the_earth_stood_still.webp",
-  "youtubeTrailerId": "6QFcZohER3s",
   "budget": 80000000,
   "boxOffice": 233000000,
   "rating": 2,
-  "description": "A remake of the 1951 classic science fiction film about an alien visitor and his giant robot counterpart who visit Earth.",
+  "description": "<p>A remake of the 1951 classic science fiction film about an alien visitor and his giant robot counterpart who visit Earth.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -103,6 +102,12 @@
   "studios": [
     {
       "studioId": 6
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "6QFcZohER3s",
+      "order": 1
     }
   ]
 }

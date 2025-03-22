@@ -7,9 +7,8 @@
   "releaseDate": "2021-01-15T00:00:00.000Z",
   "duration": 39,
   "poster": "posters/wandavision.webp",
-  "youtubeTrailerId": null,
   "rating": 2,
-  "description": "Wanda Maximoff is broken after the death of Vision in the battle with Thanos. She creates a virtual dimension and enslaves residents of a town to build her utopian world where Vision is still alive.",
+  "description": "<p>A woman and a male robot who are superheroes live together in a small town. When unexplained phenomena are happening around town. They do their best to investigate what is truly the cause of all the strange things that are happening. They also team with some familiar allies.</p>",
   "chapterKey": "mcu",
   "chapterOrder": 27,
   "awards": [
@@ -176,11 +175,14 @@
       {
         "number": 1,
         "episodesCount": 9,
-        "releaseDate": "2021-01-15T00:00:00.000Z",
-        "youtubeTrailerId": "sj9J2ecsSpo",
-        "title": null,
-        "description": "The mysterious woman sneaks into Wanda's virtual world in pursuit of her power. Also, Monica Rambeau, a member of S.W.O.R.D. tries to save people inside a strange dimension."
+        "releaseDate": "2021-01-15T00:00:00.000Z"
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "videoId": "sj9J2ecsSpo",
+      "order": 1
+    }
+  ]
 }

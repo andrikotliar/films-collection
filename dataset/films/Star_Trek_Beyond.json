@@ -7,11 +7,10 @@
   "releaseDate": "2016-07-22T00:00:00.000Z",
   "duration": 122,
   "poster": "posters/star_trek_3.webp",
-  "youtubeTrailerId": "XRVD32rnzOw",
   "budget": 185000000,
   "boxOffice": 343000000,
   "rating": 1,
-  "description": "The crew of the USS Enterprise explores the furthest reaches of uncharted space, where they encounter a new ruthless enemy, who puts them, and everything the Federation stands for, to the test.",
+  "description": "<p>The crew of the USS Enterprise explores the furthest reaches of uncharted space, where they encounter a new ruthless enemy, who puts them, and everything the Federation stands for, to the test.</p>",
   "chapterKey": "star-trek",
   "chapterOrder": 3,
   "awards": [
@@ -161,6 +160,12 @@
     },
     {
       "studioId": 46
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "XRVD32rnzOw",
+      "order": 1
     }
   ]
 }

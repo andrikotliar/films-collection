@@ -7,11 +7,10 @@
   "releaseDate": "2011-10-07T00:00:00.000Z",
   "duration": 127,
   "poster": "posters/real_steel.webp",
-  "youtubeTrailerId": "SwfmV3nn6QA",
   "budget": 110000000,
   "boxOffice": 300000000,
   "rating": 3,
-  "description": "In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot.",
+  "description": "<p>In the near future, robot boxing is a top sport. A struggling promoter feels he's found a champion in a discarded robot.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -111,6 +110,12 @@
   "studios": [
     {
       "studioId": 15
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "SwfmV3nn6QA",
+      "order": 1
     }
   ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "2009-06-24T00:00:00.000Z",
   "duration": 150,
   "poster": "posters/transformers_2.webp",
-  "youtubeTrailerId": "fnXzKwUgDhg",
   "budget": 200000000,
   "boxOffice": 836000000,
   "rating": 2,
-  "description": "Sam Witwicky leaves the Autobots behind for a normal life. But when his mind is filled with cryptic symbols, the Decepticons target him and he is dragged back into the Transformers' war.",
+  "description": "<p>Sam Witwicky leaves the Autobots behind for a normal life. But when his mind is filled with cryptic symbols, the Decepticons target him and he is dragged back into the Transformers' war.</p>",
   "chapterKey": "transformers",
   "chapterOrder": 2,
   "awards": [],
@@ -139,6 +138,12 @@
     },
     {
       "studioId": 14
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "fnXzKwUgDhg",
+      "order": 1
     }
   ]
 }

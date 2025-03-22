@@ -7,9 +7,8 @@
   "releaseDate": "2019-11-12T00:00:00.000Z",
   "duration": 40,
   "poster": "posters/mandalorian.webp",
-  "youtubeTrailerId": null,
   "rating": 2,
-  "description": "The Mandalorian travels across the Galaxy as a bounty hunter. He searches for Beskar to enhance his armor. One of his mission changes whole his life. He found a The Child, mysterious small being and now must protect him from enemies.",
+  "description": "<p><b>Season 1</b>. Din Djarin, a lone Mandalorian bounty hunter, as he takes on various jobs across the galaxy. His life changes when he is tasked with capturing a mysterious child, later known as Grogu. Instead of handing the child over to the remnants of the Empire, Din chooses to protect him, making himself a target. Throughout the season, he battles bounty hunters, Imperial forces, and other enemies while forming alliances with characters like Cara Dune, Greef Karga, and Kuiil. The season ends with Moff Gideon revealing the Darksaber, setting up future conflicts.</p><p><b>Season 2</b>. The Mandalorian continues his journey with Grogu, searching for other Mandalorians who can help him return the child to its people. Their quest leads them to encounters with familiar and new characters, as well as deeper involvement in the events of the broader Star Wars galaxy.</p>",
   "chapterKey": "star-wars",
   "chapterOrder": 9,
   "awards": [
@@ -279,19 +278,23 @@
       {
         "number": 1,
         "episodesCount": 8,
-        "releaseDate": "2019-11-12T00:00:00.000Z",
-        "youtubeTrailerId": "OFlBh_eUsjA",
-        "title": null,
-        "description": "Din Djarin, a lone Mandalorian bounty hunter, as he takes on various jobs across the galaxy. His life changes when he is tasked with capturing a mysterious child, later known as Grogu. Instead of handing the child over to the remnants of the Empire, Din chooses to protect him, making himself a target. Throughout the season, he battles bounty hunters, Imperial forces, and other enemies while forming alliances with characters like Cara Dune, Greef Karga, and Kuiil. The season ends with Moff Gideon revealing the Darksaber, setting up future conflicts."
+        "releaseDate": "2019-11-12T00:00:00.000Z"
       },
       {
         "number": 2,
         "episodesCount": 8,
-        "releaseDate": "2020-10-30T00:00:00.000Z",
-        "youtubeTrailerId": "eW7Twd85m2g",
-        "title": null,
-        "description": "The Mandalorian continues his journey with Grogu, searching for other Mandalorians who can help him return the child to its people. Their quest leads them to encounters with familiar and new characters, as well as deeper involvement in the events of the broader Star Wars galaxy."
+        "releaseDate": "2020-10-30T00:00:00.000Z"
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "videoId": "OFlBh_eUsjA",
+      "order": 1
+    },
+    {
+      "videoId": "eW7Twd85m2g",
+      "order": 2
+    }
+  ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "2005-02-11T00:00:00.000Z",
   "duration": 118,
   "poster": "posters/hitch.webp",
-  "youtubeTrailerId": "pYrrEUgnT6s",
   "budget": 70000000,
   "boxOffice": 368000000,
   "rating": 1,
-  "description": "While helping his latest client woo the fine lady of his dreams, a professional \"date doctor\" finds that his game doesn't quite work on the gossip columnist with whom he's smitten.",
+  "description": "<p>While helping his latest client woo the fine lady of his dreams, a professional \"date doctor\" finds that his game doesn't quite work on the gossip columnist with whom he's smitten.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -113,6 +112,12 @@
   "studios": [
     {
       "studioId": 12
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "pYrrEUgnT6s",
+      "order": 1
     }
   ]
 }

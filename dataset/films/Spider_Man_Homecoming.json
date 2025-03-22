@@ -7,11 +7,10 @@
   "releaseDate": "2017-07-07T00:00:00.000Z",
   "duration": 133,
   "poster": "posters/mcu_spider_man_1.webp",
-  "youtubeTrailerId": "n9DwoQ7HWvI",
   "budget": 175000000,
   "boxOffice": 880000000,
   "rating": 2,
-  "description": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
+  "description": "<p>Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.</p>",
   "chapterKey": "mcu",
   "chapterOrder": 18,
   "awards": [
@@ -126,6 +125,12 @@
     },
     {
       "studioId": 4
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "n9DwoQ7HWvI",
+      "order": 1
     }
   ]
 }

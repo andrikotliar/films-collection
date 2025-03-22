@@ -7,11 +7,10 @@
   "releaseDate": "2007-07-03T00:00:00.000Z",
   "duration": 143,
   "poster": "posters/transformers_1.webp",
-  "youtubeTrailerId": "dxQxgAfNzyE",
   "budget": 150000000,
   "boxOffice": 710000000,
   "rating": 3,
-  "description": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
+  "description": "<p>An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.</p>",
   "chapterKey": "transformers",
   "chapterOrder": 1,
   "awards": [
@@ -173,6 +172,12 @@
     },
     {
       "studioId": 14
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "dxQxgAfNzyE",
+      "order": 1
     }
   ]
 }

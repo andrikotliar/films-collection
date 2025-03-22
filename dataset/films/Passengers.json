@@ -7,11 +7,10 @@
   "releaseDate": "2016-12-21T00:00:00.000Z",
   "duration": 116,
   "poster": "posters/passengers.webp",
-  "youtubeTrailerId": "7BWWWQzTpNU",
   "budget": 110000000,
   "boxOffice": 303000000,
   "rating": 3,
-  "description": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early.",
+  "description": "<p>A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -106,6 +105,12 @@
   "studios": [
     {
       "studioId": 12
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "7BWWWQzTpNU",
+      "order": 1
     }
   ]
 }

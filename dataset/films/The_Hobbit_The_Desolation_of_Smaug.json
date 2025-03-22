@@ -7,11 +7,10 @@
   "releaseDate": "2013-12-13T00:00:00.000Z",
   "duration": 161,
   "poster": "posters/middle_earth_2.webp",
-  "youtubeTrailerId": "fnaojlfdUbs",
   "budget": 225000000,
   "boxOffice": 960000000,
   "rating": 2,
-  "description": "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring.",
+  "description": "<p>The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring.</p>",
   "chapterKey": "middle-earth",
   "chapterOrder": 2,
   "awards": [
@@ -221,6 +220,12 @@
   "studios": [
     {
       "studioId": 56
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "fnaojlfdUbs",
+      "order": 1
     }
   ]
 }

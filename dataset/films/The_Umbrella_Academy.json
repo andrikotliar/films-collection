@@ -7,9 +7,8 @@
   "releaseDate": "2019-02-15T00:00:00.000Z",
   "duration": 60,
   "poster": "posters/umbrella_academy.webp",
-  "youtubeTrailerId": null,
   "rating": 2,
-  "description": "Eccentric millionaire Reginald Hargreeves finds several children with superpowers. He adopts them to grow as superheroes.",
+  "description": "<p><b>Season 1</b>. On the same day in October 1989, forty-three infants are inexplicably born to random, unconnected women who showed no signs of pregnancy the day before. Seven are adopted by Sir Reginald Hargreeves, who creates The Umbrella Academy and prepares his \"children\" to save the world. But not everything went according to plan. In their teenage years, the family fractured and the team disbanded. Now almost thirty years old, the six surviving members reunite upon the news of Hargreeves' passing. Luther, Diego, Allison, Klaus, Vanya and Number Five work together to solve a mystery surrounding their father's death. But the estranged family once again begins to come apart due to their divergent personalities and abilities, not to mention the imminent threat of a global apocalypse.</p><p><b>Season 2</b>. The second season sees the siblings time-travel to the 1960s, where they must once again prevent a doomsday event. Each sibling faces new challenges and adventures in a different era, all while trying to reunite and make sense of the temporal chaos they find themselves in.</p><p><b>Season 3</b>. Back at the Academy, the Umbrellas clash with a new squad of Hargreeves siblings as a mysterious force begins to wreak havoc on the city.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -313,27 +312,32 @@
       {
         "number": 1,
         "episodesCount": 10,
-        "releaseDate": "2019-02-15T00:00:00.000Z",
-        "youtubeTrailerId": "0DAmWHxeoKw",
-        "title": null,
-        "description": "A dysfunctional family of adopted super-powered siblings reunites after the mysterious death of their adoptive father. They must work together to solve the mystery and prevent an impending global apocalypse while dealing with their own complex relationships and personal issues."
+        "releaseDate": "2019-02-15T00:00:00.000Z"
       },
       {
         "number": 2,
         "episodesCount": 10,
-        "releaseDate": "2020-07-31T00:00:00.000Z",
-        "youtubeTrailerId": "SGgXLbZnr1Y",
-        "title": null,
-        "description": "The second season sees the siblings time-travel to the 1960s, where they must once again prevent a doomsday event. Each sibling faces new challenges and adventures in a different era, all while trying to reunite and make sense of the temporal chaos they find themselves in."
+        "releaseDate": "2020-07-31T00:00:00.000Z"
       },
       {
         "number": 3,
         "episodesCount": 10,
-        "releaseDate": "2022-06-22T00:00:00.000Z",
-        "youtubeTrailerId": "SGgXLbZnr1Y",
-        "title": null,
-        "description": "Back at the Academy, the Umbrellas clash with a new squad of Hargreeves siblings as a mysterious force begins to wreak havoc on the city."
+        "releaseDate": "2022-06-22T00:00:00.000Z"
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "videoId": "0DAmWHxeoKw",
+      "order": 1
+    },
+    {
+      "videoId": "SGgXLbZnr1Y",
+      "order": 2
+    },
+    {
+      "videoId": "04Wns6ZHh6g",
+      "order": 3
+    }
+  ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "2004-05-24T00:00:00.000Z",
   "duration": 123,
   "poster": "posters/day_after_tomorrow.webp",
-  "youtubeTrailerId": "Ku_IseK3xTc",
   "budget": 125000000,
   "boxOffice": 544000000,
   "rating": 2,
-  "description": "Jack Hall, paleoclimatologist, must make a daring trek from Washington, D.C. to New York City to reach his son, trapped in the cross-hairs of a sudden international storm which plunges the planet into a new Ice Age.",
+  "description": "<p>Jack Hall, paleoclimatologist, must make a daring trek from Washington, D.C. to New York City to reach his son, trapped in the cross-hairs of a sudden international storm which plunges the planet into a new Ice Age.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -147,6 +146,12 @@
   "studios": [
     {
       "studioId": 6
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "Ku_IseK3xTc",
+      "order": 1
     }
   ]
 }

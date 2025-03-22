@@ -7,11 +7,10 @@
   "releaseDate": "2007-07-11T00:00:00.000Z",
   "duration": 138,
   "poster": "posters/harry_potter_5.webp",
-  "youtubeTrailerId": "y6ZW7KXaXYk",
   "budget": 150000000,
   "boxOffice": 940000000,
   "rating": 3,
-  "description": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.",
+  "description": "<p>With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.</p>",
   "chapterKey": "harry-potter",
   "chapterOrder": 5,
   "awards": [],
@@ -124,6 +123,12 @@
   "studios": [
     {
       "studioId": 8
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "y6ZW7KXaXYk",
+      "order": 1
     }
   ]
 }

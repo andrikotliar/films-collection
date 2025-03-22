@@ -7,11 +7,10 @@
   "releaseDate": "2015-04-03T00:00:00.000Z",
   "duration": 137,
   "poster": "posters/fast_and_furious_7.webp",
-  "youtubeTrailerId": "Skpu5HaVkOc",
   "budget": 190000000,
   "boxOffice": 1520000000,
   "rating": 2,
-  "description": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.",
+  "description": "<p>Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.</p>",
   "chapterKey": "fast-and-furious",
   "chapterOrder": 7,
   "awards": [
@@ -149,6 +148,12 @@
   "studios": [
     {
       "studioId": 13
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "Skpu5HaVkOc",
+      "order": 1
     }
   ]
 }

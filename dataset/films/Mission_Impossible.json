@@ -7,11 +7,10 @@
   "releaseDate": "1996-05-22T00:00:00.000Z",
   "duration": 110,
   "poster": "posters/mi_1.webp",
-  "youtubeTrailerId": "Ohws8y572KE",
   "budget": 80000000,
   "boxOffice": 458000000,
   "rating": 2,
-  "description": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization.",
+  "description": "<p>An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization.</p>",
   "chapterKey": "missin-impossible",
   "chapterOrder": 1,
   "awards": [],
@@ -121,6 +120,12 @@
   "studios": [
     {
       "studioId": 14
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "Ohws8y572KE",
+      "order": 1
     }
   ]
 }

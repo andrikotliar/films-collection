@@ -7,11 +7,10 @@
   "releaseDate": "2015-10-02T00:00:00.000Z",
   "duration": 142,
   "poster": "posters/martian.webp",
-  "youtubeTrailerId": "ej3ioOneTy8",
   "budget": 108000000,
   "boxOffice": 630000000,
   "rating": 2,
-  "description": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.",
+  "description": "<p>An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -173,6 +172,12 @@
   "studios": [
     {
       "studioId": 6
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "ej3ioOneTy8",
+      "order": 1
     }
   ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "2011-06-03T00:00:00.000Z",
   "duration": 132,
   "poster": "posters/x_men_5.webp",
-  "youtubeTrailerId": "kyQKi5-k0UU",
   "budget": 140000000,
   "boxOffice": 354000000,
   "rating": 3,
-  "description": "In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them.",
+  "description": "<p>In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them.</p>",
   "chapterKey": "x-men",
   "chapterOrder": 1,
   "awards": [
@@ -141,6 +140,12 @@
     },
     {
       "studioId": 5
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "kyQKi5-k0UU",
+      "order": 1
     }
   ]
 }

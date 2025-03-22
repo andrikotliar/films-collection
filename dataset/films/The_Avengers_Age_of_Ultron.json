@@ -7,11 +7,10 @@
   "releaseDate": "2015-05-01T00:00:00.000Z",
   "duration": 141,
   "poster": "posters/avengers_2.webp",
-  "youtubeTrailerId": "tmeOjFno6Do",
   "budget": 365000000,
   "boxOffice": 1400000000,
   "rating": 2,
-  "description": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.",
+  "description": "<p>When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.</p>",
   "chapterKey": "mcu",
   "chapterOrder": 13,
   "awards": [
@@ -161,6 +160,12 @@
     },
     {
       "studioId": 4
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "tmeOjFno6Do",
+      "order": 1
     }
   ]
 }

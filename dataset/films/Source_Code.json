@@ -7,11 +7,10 @@
   "releaseDate": "2011-04-01T00:00:00.000Z",
   "duration": 93,
   "poster": "posters/source_code.webp",
-  "youtubeTrailerId": "mnJegNyAb1w",
   "budget": 32000000,
   "boxOffice": 147000000,
   "rating": 1,
-  "description": "A soldier wakes up in someone else's body and discovers he's part of an experimental government program to find the bomber of a commuter train. A mission he has only 8 minutes to complete.",
+  "description": "<p>A soldier wakes up in someone else's body and discovers he's part of an experimental government program to find the bomber of a commuter train. A mission he has only 8 minutes to complete.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -104,6 +103,12 @@
   "studios": [
     {
       "studioId": 43
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "mnJegNyAb1w",
+      "order": 1
     }
   ]
 }

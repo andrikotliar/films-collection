@@ -7,11 +7,10 @@
   "releaseDate": "2001-05-04T00:00:00.000Z",
   "duration": 130,
   "poster": "posters/mummy_2.webp",
-  "youtubeTrailerId": "3yXjs7BUKYc",
   "budget": 98000000,
   "boxOffice": 433000000,
   "rating": 3,
-  "description": "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror.",
+  "description": "<p>The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror.</p>",
   "chapterKey": "mummy",
   "chapterOrder": 2,
   "awards": [],
@@ -121,6 +120,12 @@
   "studios": [
     {
       "studioId": 13
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "3yXjs7BUKYc",
+      "order": 1
     }
   ]
 }

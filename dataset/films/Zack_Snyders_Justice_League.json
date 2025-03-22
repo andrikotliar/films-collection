@@ -7,10 +7,9 @@
   "releaseDate": "2021-03-18T00:00:00.000Z",
   "duration": 242,
   "poster": "posters/justice_league.webp",
-  "youtubeTrailerId": "ui37YKQ9AC4",
   "budget": 300000000,
   "rating": 2,
-  "description": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.",
+  "description": "<p>Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.</p>",
   "chapterKey": "dceu",
   "chapterOrder": 5,
   "awards": [],
@@ -176,6 +175,12 @@
     },
     {
       "studioId": 8
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "ui37YKQ9AC4",
+      "order": 1
     }
   ]
 }

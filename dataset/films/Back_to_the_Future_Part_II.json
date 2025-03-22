@@ -7,11 +7,10 @@
   "releaseDate": "1989-11-22T00:00:00.000Z",
   "duration": 108,
   "poster": "posters/back_to_the_future_2.webp",
-  "youtubeTrailerId": "MdENmefJRpw",
   "budget": 40000000,
   "boxOffice": 332000000,
   "rating": 3,
-  "description": "After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip.",
+  "description": "<p>After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip.</p>",
   "chapterKey": "back-to-the-future",
   "chapterOrder": 2,
   "awards": [
@@ -103,6 +102,12 @@
   "studios": [
     {
       "studioId": 13
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "MdENmefJRpw",
+      "order": 1
     }
   ]
 }

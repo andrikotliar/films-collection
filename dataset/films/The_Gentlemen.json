@@ -7,11 +7,10 @@
   "releaseDate": "2020-01-24T00:00:00.000Z",
   "duration": 113,
   "poster": "posters/gentlemen.webp",
-  "youtubeTrailerId": "vaN8BtA8OJk",
   "budget": 22000000,
   "boxOffice": 115000000,
   "rating": 2,
-  "description": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
+  "description": "<p>An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -130,6 +129,12 @@
     },
     {
       "studioId": 55
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "vaN8BtA8OJk",
+      "order": 1
     }
   ]
 }

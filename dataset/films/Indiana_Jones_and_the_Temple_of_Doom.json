@@ -7,11 +7,10 @@
   "releaseDate": "1984-05-23T00:00:00.000Z",
   "duration": 118,
   "poster": "posters/indiana_jones_2.webp",
-  "youtubeTrailerId": "WBdyLyijZhU",
   "budget": 28000000,
   "boxOffice": 333000000,
   "rating": 1,
-  "description": "In 1935, Indiana Jones arrives in India, still part of the British Empire, and is asked to find a mystical stone. He then stumbles upon a secret cult committing enslavement and human sacrifices in the catacombs of an ancient palace.",
+  "description": "<p>In 1935, Indiana Jones arrives in India, still part of the British Empire, and is asked to find a mystical stone. He then stumbles upon a secret cult committing enslavement and human sacrifices in the catacombs of an ancient palace.</p>",
   "chapterKey": "indiana-jones",
   "chapterOrder": 2,
   "awards": [
@@ -138,6 +137,12 @@
     },
     {
       "studioId": 37
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "WBdyLyijZhU",
+      "order": 1
     }
   ]
 }

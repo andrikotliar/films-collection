@@ -7,11 +7,10 @@
   "releaseDate": "2003-05-30T00:00:00.000Z",
   "duration": 100,
   "poster": "posters/finding_nemo.webp",
-  "youtubeTrailerId": "wZdpNglLbt8",
   "budget": 94000000,
   "boxOffice": 940000000,
   "rating": 2,
-  "description": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+  "description": "<p>After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -171,6 +170,12 @@
     },
     {
       "studioId": 3
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "wZdpNglLbt8",
+      "order": 1
     }
   ]
 }

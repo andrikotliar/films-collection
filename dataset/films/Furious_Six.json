@@ -7,11 +7,10 @@
   "releaseDate": "2013-05-24T00:00:00.000Z",
   "duration": 131,
   "poster": "posters/fast_and_furious_6.webp",
-  "youtubeTrailerId": "dKi5XoeTN0k",
   "budget": 160000000,
   "boxOffice": 789000000,
   "rating": 2,
-  "description": "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty.",
+  "description": "<p>Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty.</p>",
   "chapterKey": "fast-and-furious",
   "chapterOrder": 5,
   "awards": [
@@ -133,6 +132,12 @@
   "studios": [
     {
       "studioId": 13
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "dKi5XoeTN0k",
+      "order": 1
     }
   ]
 }

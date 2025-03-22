@@ -7,11 +7,10 @@
   "releaseDate": "2009-05-21T00:00:00.000Z",
   "duration": 115,
   "poster": "posters/terminator_4.webp",
-  "youtubeTrailerId": "-Czz-TcWCkA",
   "budget": 200000000,
   "boxOffice": 371000000,
   "rating": 1,
-  "description": "In 2018, a mysterious new weapon in the war against the machines, half-human and half-machine, comes to John Connor on the eve of a resistance attack on Skynet. But whose side is he on, and can he be trusted?",
+  "description": "<p>In 2018, a mysterious new weapon in the war against the machines, half-human and half-machine, comes to John Connor on the eve of a resistance attack on Skynet. But whose side is he on, and can he be trusted?</p>",
   "chapterKey": "terminator",
   "chapterOrder": 3,
   "awards": [],
@@ -114,6 +113,12 @@
     },
     {
       "studioId": 51
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "-Czz-TcWCkA",
+      "order": 1
     }
   ]
 }

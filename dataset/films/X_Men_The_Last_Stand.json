@@ -7,11 +7,10 @@
   "releaseDate": "2006-05-26T00:00:00.000Z",
   "duration": 104,
   "poster": "posters/x_men_3.webp",
-  "youtubeTrailerId": "r8ZMvxzplwc",
   "budget": 210000000,
   "boxOffice": 459000000,
   "rating": 1,
-  "description": "The human government develops a cure for mutations, and Jean Gray becomes a darker uncontrollable persona called the Phoenix who allies with Magneto, causing escalation into an all-out battle for the X-Men.",
+  "description": "<p>The human government develops a cure for mutations, and Jean Gray becomes a darker uncontrollable persona called the Phoenix who allies with Magneto, causing escalation into an all-out battle for the X-Men.</p>",
   "chapterKey": "x-men",
   "chapterOrder": 7,
   "awards": [
@@ -146,6 +145,12 @@
     },
     {
       "studioId": 5
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "r8ZMvxzplwc",
+      "order": 1
     }
   ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "2012-07-03T00:00:00.000Z",
   "duration": 136,
   "poster": "posters/amazing_spider_man_1.webp",
-  "youtubeTrailerId": "-tnxzJ0SSOw",
   "budget": 230000000,
   "boxOffice": 758000000,
   "rating": 2,
-  "description": "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe.",
+  "description": "<p>After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe.</p>",
   "chapterKey": "amazing-spider-man",
   "chapterOrder": 1,
   "awards": [],
@@ -129,6 +128,12 @@
     },
     {
       "studioId": 5
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "-tnxzJ0SSOw",
+      "order": 1
     }
   ]
 }

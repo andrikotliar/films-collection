@@ -7,9 +7,8 @@
   "releaseDate": "2017-12-01T00:00:00.000Z",
   "duration": 60,
   "poster": "posters/dark.webp",
-  "youtubeTrailerId": null,
   "rating": 2,
-  "description": "In the small town of Winden, a mysterious child disappearance reveals the existence of a time loop spanning over a century. Four interconnected families uncover their past secrets as they try to unravel the mysteries of time travel and the elusive concept of the 'origin.",
+  "description": "<p><b>Season 1</b>. In the small town of Winden, a mysterious child disappearance reveals the existence of a time loop spanning over a century. Four families — Nielsen, Doppler, Tiedemann, and Kahnwald — struggle with personal conflicts, they soon realize that their lives are intertwined through a time loop connecting 1953, 1986, and 2019. Jonas Kahnwald, a troubled teenager, discovers the existence of a hidden wormhole in the town's caves, revealing a sinister cycle of events that repeat every 33 years. As he delves deeper, he uncovers shocking truths about his own family, Winden’s past, and a secret society called Sic Mundus, which manipulates time for its own agenda.</p><p><b>Season 2</b>. As the time loop's complexities deepen, the characters navigate multiple time periods while confronting the impending apocalypse. Tensions rise, family bonds are strained, and the intricate web of time travel's consequences becomes even more convoluted.</p><p><b>Season 3</b>. In the final season, Winden faces its ultimate fate, and the characters must confront the origin of the time loop. Time travel takes them to different dimensions, and they strive to break the cycle to save their world from annihilation, all while exploring the timeless questions of destiny, free will, and the eternal battle between light and shadow.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -258,27 +257,32 @@
       {
         "number": 1,
         "episodesCount": 8,
-        "releaseDate": "2017-12-01T00:00:00.000Z",
-        "youtubeTrailerId": "rrwycJ08PSA",
-        "title": null,
-        "description": "As four families—Nielsen, Doppler, Tiedemann, and Kahnwald—struggle with personal conflicts, they soon realize that their lives are intertwined through a time loop connecting 1953, 1986, and 2019. Jonas Kahnwald, a troubled teenager, discovers the existence of a hidden wormhole in the town's caves, revealing a sinister cycle of events that repeat every 33 years. As he delves deeper, he uncovers shocking truths about his own family, Winden’s past, and a secret society called Sic Mundus, which manipulates time for its own agenda."
+        "releaseDate": "2017-12-01T00:00:00.000Z"
       },
       {
         "number": 2,
         "episodesCount": 8,
-        "releaseDate": "2019-06-21T00:00:00.000Z",
-        "youtubeTrailerId": "810CHvSdXOo",
-        "title": null,
-        "description": "As the time loop's complexities deepen, the characters navigate multiple time periods while confronting the impending apocalypse. Tensions rise, family bonds are strained, and the intricate web of time travel's consequences becomes even more convoluted."
+        "releaseDate": "2019-06-21T00:00:00.000Z"
       },
       {
         "number": 3,
         "episodesCount": 8,
-        "releaseDate": "2020-06-27T00:00:00.000Z",
-        "youtubeTrailerId": "cq2iTHoLrt0",
-        "title": null,
-        "description": "In the final season, Winden faces its ultimate fate, and the characters must confront the origin of the time loop. Time travel takes them to different dimensions, and they strive to break the cycle to save their world from annihilation, all while exploring the timeless questions of destiny, free will, and the eternal battle between light and shadow."
+        "releaseDate": "2020-06-27T00:00:00.000Z"
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "videoId": "rrwycJ08PSA",
+      "order": 1
+    },
+    {
+      "videoId": "810CHvSdXOo",
+      "order": 2
+    },
+    {
+      "videoId": "cq2iTHoLrt0",
+      "order": 3
+    }
+  ]
 }

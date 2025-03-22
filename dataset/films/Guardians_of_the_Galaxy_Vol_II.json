@@ -7,11 +7,10 @@
   "releaseDate": "2017-05-05T00:00:00.000Z",
   "duration": 137,
   "poster": "posters/guardians_of_the_galaxy_2.webp",
-  "youtubeTrailerId": "wUn05hdkhjM",
   "budget": 200000000,
   "boxOffice": 864000000,
   "rating": 2,
-  "description": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
+  "description": "<p>The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.</p>",
   "chapterKey": "mcu",
   "chapterOrder": 12,
   "awards": [
@@ -131,6 +130,12 @@
     },
     {
       "studioId": 4
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "wUn05hdkhjM",
+      "order": 1
     }
   ]
 }

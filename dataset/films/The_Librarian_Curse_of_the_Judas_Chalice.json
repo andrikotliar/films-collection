@@ -7,9 +7,8 @@
   "releaseDate": "2008-12-07T00:00:00.000Z",
   "duration": 95,
   "poster": "posters/librarian_3.webp",
-  "youtubeTrailerId": "SfONecwHgHY",
   "rating": 1,
-  "description": "Losing his girlfriend because he was at an auction dramatically getting the magical philosopher's stone instead of a date, he needs a vacation - New Orleans but finds himself busy saving Earth from the curse of the Judas chalice/vampires.",
+  "description": "<p>Losing his girlfriend because he was at an auction dramatically getting the magical philosopher's stone instead of a date, he needs a vacation - New Orleans but finds himself busy saving Earth from the curse of the Judas chalice/vampires.</p>",
   "chapterKey": "librarian",
   "chapterOrder": 3,
   "awards": [
@@ -101,6 +100,12 @@
   "studios": [
     {
       "studioId": 59
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "SfONecwHgHY",
+      "order": 1
     }
   ]
 }

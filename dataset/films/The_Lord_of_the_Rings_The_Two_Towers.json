@@ -7,11 +7,10 @@
   "releaseDate": "2002-12-18T00:00:00.000Z",
   "duration": 179,
   "poster": "posters/middle_earth_5.webp",
-  "youtubeTrailerId": "LbfMDwc4azU",
   "budget": 94000000,
   "boxOffice": 926000000,
   "rating": 3,
-  "description": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+  "description": "<p>While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.</p>",
   "chapterKey": "middle-earth",
   "chapterOrder": 5,
   "awards": [
@@ -249,6 +248,12 @@
   "studios": [
     {
       "studioId": 56
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "LbfMDwc4azU",
+      "order": 1
     }
   ]
 }

@@ -7,9 +7,8 @@
   "releaseDate": "2020-10-23T00:00:00.000Z",
   "duration": 60,
   "poster": "posters/queens_gambit.webp",
-  "youtubeTrailerId": null,
   "rating": 1,
-  "description": "Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s US",
+  "description": "<p>Nine year-old orphan Beth Harmon is quiet, sullen, and by all appearances unremarkable. That is, until she plays her first game of chess. Her senses grow sharper, her thinking clearer, and for the first time in her life she feels herself fully in control. By the age of sixteen, she's competing for the U.S. Open championship. But as Beth hones her skills on the professional circuit, the stakes get higher, her isolation grows more frightening, and the thought of escape becomes all the more tempting.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -148,11 +147,14 @@
       {
         "number": 1,
         "episodesCount": 7,
-        "releaseDate": "2020-10-23T00:00:00.000Z",
-        "youtubeTrailerId": "oZn3qSgmLqI",
-        "title": null,
-        "description": "As Beth grows older, she rises through the ranks of the competitive chess world, defeating top players while battling personal struggles, addiction, and loneliness. Her journey takes her to international tournaments, culminating in a high-stakes match against the Soviet champion, Vasily Borgov. Along the way, she finds friendship and support, ultimately proving herself as one of the greatest players in the world."
+        "releaseDate": "2020-10-23T00:00:00.000Z"
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "videoId": "oZn3qSgmLqI",
+      "order": 1
+    }
+  ]
 }

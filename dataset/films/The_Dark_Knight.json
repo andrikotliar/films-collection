@@ -7,11 +7,10 @@
   "releaseDate": "2008-07-18T00:00:00.000Z",
   "duration": 152,
   "poster": "posters/batman_2.webp",
-  "youtubeTrailerId": "EXeTwQWrcwY",
   "budget": 185000000,
   "boxOffice": 1000000000,
   "rating": 2,
-  "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+  "description": "<p>When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.</p>",
   "chapterKey": "dark-knight",
   "chapterOrder": 2,
   "awards": [
@@ -196,6 +195,12 @@
     },
     {
       "studioId": 25
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "EXeTwQWrcwY",
+      "order": 1
     }
   ]
 }
