@@ -2,7 +2,7 @@ import { convertEnumValueToLabel } from 'src/common';
 import { FilmsServiceDependencies } from './types';
 import { FilmsRepository } from './films.repository';
 import { FilmsAdminQuery, FilmsQuery } from './schemas';
-import { mapFilmDetails, mapListFilters } from './helpers';
+import { mapAdminListFilters, mapFilmDetails, mapListFilters } from './helpers';
 
 export class FilmsService {
   private peopleService: FilmsServiceDependencies['peopleService'];
