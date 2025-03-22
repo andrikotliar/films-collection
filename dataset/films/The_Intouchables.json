@@ -7,11 +7,10 @@
   "releaseDate": "2011-11-02T00:00:00.000Z",
   "duration": 112,
   "poster": "posters/intouchables.webp",
-  "youtubeTrailerId": "34WIbmXkewU",
   "budget": 11000000,
   "boxOffice": 427000000,
   "rating": 2,
-  "description": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+  "description": "<p>After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -112,6 +111,12 @@
     },
     {
       "studioId": 48
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "34WIbmXkewU",
+      "order": 1
     }
   ]
 }

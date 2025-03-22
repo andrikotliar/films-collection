@@ -7,11 +7,10 @@
   "releaseDate": "2001-12-19T00:00:00.000Z",
   "duration": 178,
   "poster": "posters/middle_earth_4.webp",
-  "youtubeTrailerId": "aStYWD25fAQ",
   "budget": 93000000,
   "boxOffice": 871000000,
   "rating": 3,
-  "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save The World of Middle-earth from the Dark Lord Sauron.",
+  "description": "<p>A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save The World of Middle-earth from the Dark Lord Sauron.</p>",
   "chapterKey": "middle-earth",
   "chapterOrder": 4,
   "awards": [
@@ -251,6 +250,12 @@
   "studios": [
     {
       "studioId": 56
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "aStYWD25fAQ",
+      "order": 1
     }
   ]
 }

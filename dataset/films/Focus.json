@@ -7,11 +7,10 @@
   "releaseDate": "2015-02-27T00:00:00.000Z",
   "duration": 105,
   "poster": "posters/focus.webp",
-  "youtubeTrailerId": "MxCRgtdAuBo",
   "budget": 50000000,
   "boxOffice": 159000000,
   "rating": 1,
-  "description": "In the midst of veteran con man Nicky's latest scheme, a woman from his past - now an accomplished femme fatale - shows up and throws his plans for a loop.",
+  "description": "<p>In the midst of veteran con man Nicky's latest scheme, a woman from his past - now an accomplished femme fatale - shows up and throws his plans for a loop.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -112,6 +111,12 @@
   "studios": [
     {
       "studioId": 8
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "MxCRgtdAuBo",
+      "order": 1
     }
   ]
 }

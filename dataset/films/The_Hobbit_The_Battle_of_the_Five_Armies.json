@@ -7,11 +7,10 @@
   "releaseDate": "2014-12-17T00:00:00.000Z",
   "duration": 144,
   "poster": "posters/middle_earth_3.webp",
-  "youtubeTrailerId": "iVAgTiBrrDA",
   "budget": 250000000,
   "boxOffice": 956000000,
   "rating": 2,
-  "description": "Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness.",
+  "description": "<p>Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness.</p>",
   "chapterKey": "middle-earth",
   "chapterOrder": 3,
   "awards": [
@@ -223,6 +222,12 @@
   "studios": [
     {
       "studioId": 56
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "iVAgTiBrrDA",
+      "order": 1
     }
   ]
 }

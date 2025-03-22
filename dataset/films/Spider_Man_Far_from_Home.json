@@ -7,11 +7,10 @@
   "releaseDate": "2019-07-02T00:00:00.000Z",
   "duration": 129,
   "poster": "posters/mcu_spider_man_2.webp",
-  "youtubeTrailerId": "Nt9L1jCKGnE",
   "budget": 160000000,
   "boxOffice": 1130000000,
   "rating": 2,
-  "description": "Following the events of Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
+  "description": "<p>Following the events of Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.</p>",
   "chapterKey": "mcu",
   "chapterOrder": 24,
   "awards": [
@@ -122,6 +121,12 @@
     },
     {
       "studioId": 4
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "Nt9L1jCKGnE",
+      "order": 1
     }
   ]
 }

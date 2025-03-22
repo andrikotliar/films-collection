@@ -7,11 +7,10 @@
   "releaseDate": "1977-05-25T00:00:00.000Z",
   "duration": 121,
   "poster": "posters/star_wars_episode_IV.webp",
-  "youtubeTrailerId": "vZ734NWnAHA",
   "budget": 11000000,
   "boxOffice": 775000000,
   "rating": 2,
-  "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the evil Darth Vader.",
+  "description": "<p>Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the evil Darth Vader.</p>",
   "chapterKey": "star-wars",
   "chapterOrder": 6,
   "awards": [
@@ -241,6 +240,12 @@
     },
     {
       "studioId": 37
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "vZ734NWnAHA",
+      "order": 1
     }
   ]
 }

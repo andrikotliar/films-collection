@@ -7,11 +7,10 @@
   "releaseDate": "1985-07-03T00:00:00.000Z",
   "duration": 116,
   "poster": "posters/back_to_the_future_1.webp",
-  "youtubeTrailerId": "qvsgGtivCgs",
   "budget": 19000000,
   "boxOffice": 381000000,
   "rating": 3,
-  "description": "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+  "description": "<p>Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.</p>",
   "chapterKey": "back-to-the-future",
   "chapterOrder": 1,
   "awards": [
@@ -118,6 +117,12 @@
   "studios": [
     {
       "studioId": 13
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "qvsgGtivCgs",
+      "order": 1
     }
   ]
 }

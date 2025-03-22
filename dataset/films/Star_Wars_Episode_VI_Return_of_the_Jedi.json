@@ -7,11 +7,10 @@
   "releaseDate": "1983-05-25T00:00:00.000Z",
   "duration": 131,
   "poster": "posters/star_wars_episode_VI.webp",
-  "youtubeTrailerId": "5UfA_aKBGMc",
   "budget": 32000000,
   "boxOffice": 573000000,
   "rating": 2,
-  "description": "After a daring mission to rescue Han Solo from Jabba the Hutt, the rebels dispatch to Endor to destroy a more powerful Death Star. Meanwhile, Luke struggles to help Vader back from the dark side without falling into the Emperor's trap.",
+  "description": "<p>After a daring mission to rescue Han Solo from Jabba the Hutt, the rebels dispatch to Endor to destroy a more powerful Death Star. Meanwhile, Luke struggles to help Vader back from the dark side without falling into the Emperor's trap.</p>",
   "chapterKey": "star-wars",
   "chapterOrder": 8,
   "awards": [
@@ -162,6 +161,12 @@
     },
     {
       "studioId": 37
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "5UfA_aKBGMc",
+      "order": 1
     }
   ]
 }

@@ -1,27 +1,37 @@
 import { FC } from 'react';
 import styles from './Description.module.css';
-import { Season } from '@/types';
-import { getFormattedDate } from '@/helpers';
+import sanitizeHtml from 'sanitize-html';
 
 type DescriptionProps = {
-  text: string;
-  seasons?: Season[];
+  rawHtml: string;
 };
 
-export const Description: FC<DescriptionProps> = ({ text, seasons = [] }) => {
+const ALLOWED_DESCRIPTION_TAGS = [
+  'div',
+  'p',
+  'b',
+  'strong',
+  'h1',
+  'h2',
+  'h3',
+  'h4',
+  'h5',
+  'h6',
+  'i',
+  'ul',
+  'ol',
+  'i',
+];
+
+export const Description: FC<DescriptionProps> = ({ rawHtml }) => {
+  const content = sanitizeHtml(rawHtml, {
+    allowedTags: ALLOWED_DESCRIPTION_TAGS,
+  });
+
   return (
-    <div className={styles.descriptions}>
-      <p className={styles.text}>{text}</p>
-      {seasons.map((season) => (
-        <div key={season.id} className={styles.season}>
-          <h3>{season.title ?? `Season ${season.number}`}</h3>
-          <div className={styles.seasonDetails}>
-            {season.episodesCount} episodes | Started{' '}
-            {getFormattedDate(season.releaseDate)}
-          </div>
-          <p className={styles.text}>{season.description}</p>
-        </div>
-      ))}
-    </div>
+    <div
+      className={styles.description}
+      dangerouslySetInnerHTML={{ __html: content }}
+    />
   );
 };

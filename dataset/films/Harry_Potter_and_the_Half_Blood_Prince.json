@@ -7,11 +7,10 @@
   "releaseDate": "2009-07-15T00:00:00.000Z",
   "duration": 153,
   "poster": "posters/harry_potter_6.webp",
-  "youtubeTrailerId": "sg81Lts5kYY",
   "budget": 250000000,
   "boxOffice": 934000000,
   "rating": 3,
-  "description": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past.",
+  "description": "<p>As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past.</p>",
   "chapterKey": "harry-potter",
   "chapterOrder": 6,
   "awards": [],
@@ -119,6 +118,12 @@
   "studios": [
     {
       "studioId": 8
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "sg81Lts5kYY",
+      "order": 1
     }
   ]
 }

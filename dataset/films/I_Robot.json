@@ -7,11 +7,10 @@
   "releaseDate": "2004-07-16T00:00:00.000Z",
   "duration": 115,
   "poster": "posters/i_robot.webp",
-  "youtubeTrailerId": "rL6RRIOZyCM",
   "budget": 120000000,
   "boxOffice": 347000000,
   "rating": 3,
-  "description": "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity.",
+  "description": "<p>In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -120,6 +119,12 @@
   "studios": [
     {
       "studioId": 6
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "rL6RRIOZyCM",
+      "order": 1
     }
   ]
 }

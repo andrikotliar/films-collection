@@ -7,11 +7,10 @@
   "releaseDate": "1995-12-15T00:00:00.000Z",
   "duration": 104,
   "poster": "posters/jumanji_1.webp",
-  "youtubeTrailerId": "5p18zqZmeiI",
   "budget": 65000000,
   "boxOffice": 263000000,
   "rating": 1,
-  "description": "When two kids find and play a magical board game, they release a man trapped for decades in it and a host of dangers that can only be stopped by finishing the game.",
+  "description": "<p>When two kids find and play a magical board game, they release a man trapped for decades in it and a host of dangers that can only be stopped by finishing the game.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -113,6 +112,12 @@
   "studios": [
     {
       "studioId": 38
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "5p18zqZmeiI",
+      "order": 1
     }
   ]
 }

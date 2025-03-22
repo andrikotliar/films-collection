@@ -7,11 +7,10 @@
   "releaseDate": "2005-06-29T00:00:00.000Z",
   "duration": 116,
   "poster": "posters/war_of_the_worlds.webp",
-  "youtubeTrailerId": "SM6aEEjc5hA",
   "budget": 132000000,
   "boxOffice": 604000000,
   "rating": 3,
-  "description": "An alien invasion threatens the future of humanity. The catastrophic nightmare is depicted through the eyes of one American family fighting for survival.",
+  "description": "<p>An alien invasion threatens the future of humanity. The catastrophic nightmare is depicted through the eyes of one American family fighting for survival.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -128,6 +127,12 @@
     },
     {
       "studioId": 39
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "SM6aEEjc5hA",
+      "order": 1
     }
   ]
 }

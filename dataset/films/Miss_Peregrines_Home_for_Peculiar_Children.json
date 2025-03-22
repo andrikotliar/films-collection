@@ -7,11 +7,10 @@
   "releaseDate": "2016-09-30T00:00:00.000Z",
   "duration": 127,
   "poster": "posters/miss_peregrin.webp",
-  "youtubeTrailerId": "tV_IhWE4LP0",
   "budget": 110000000,
   "boxOffice": 296000000,
   "rating": 2,
-  "description": "When Jacob discovers clues to a mystery that stretches across time, he finds Miss Peregrine's Home for Peculiar Children. But the danger deepens after he gets to know the residents and learns about their special powers.",
+  "description": "<p>When Jacob discovers clues to a mystery that stretches across time, he finds Miss Peregrine's Home for Peculiar Children. But the danger deepens after he gets to know the residents and learns about their special powers.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -124,6 +123,12 @@
   "studios": [
     {
       "studioId": 6
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "tV_IhWE4LP0",
+      "order": 1
     }
   ]
 }

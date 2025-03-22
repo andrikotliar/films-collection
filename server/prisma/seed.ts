@@ -11,6 +11,7 @@ import {
   FilmStudio,
   SeriesExtension,
   SeriesSeason,
+  FilmTrailer,
 } from '@prisma/client';
 import { readdir, readFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
@@ -19,15 +20,19 @@ import { fileURLToPath } from 'node:url';
 type FilmBaseData = Omit<Film, 'createdAt' | 'updatedAt' | 'draft'> & {
   $schema: string;
 };
+
+type FilmRelationOmitFields = 'id' | 'filmId';
+
 type FilmRelations = {
-  awards: Omit<FilmAwardNomination, 'id' | 'filmId'>[];
-  cast: Omit<FilmCast, 'id' | 'filmId'>[];
-  collections: Omit<FilmCollection, 'id' | 'filmId'>[];
-  countries: Omit<FilmCountry, 'id' | 'filmId'>[];
-  crew: Omit<FilmCrew, 'id' | 'filmId'>[];
-  genres: Omit<FilmGenre, 'id' | 'filmId'>[];
-  studios: Omit<FilmStudio, 'id' | 'filmId'>[];
-  seriesExtension?: Omit<SeriesExtension, 'id' | 'filmId'> & {
+  awards: Omit<FilmAwardNomination, FilmRelationOmitFields>[];
+  cast: Omit<FilmCast, FilmRelationOmitFields>[];
+  collections: Omit<FilmCollection, FilmRelationOmitFields>[];
+  countries: Omit<FilmCountry, FilmRelationOmitFields>[];
+  crew: Omit<FilmCrew, FilmRelationOmitFields>[];
+  genres: Omit<FilmGenre, FilmRelationOmitFields>[];
+  studios: Omit<FilmStudio, FilmRelationOmitFields>[];
+  trailers: Omit<FilmTrailer, FilmRelationOmitFields>[];
+  seriesExtension?: Omit<SeriesExtension, FilmRelationOmitFields> & {
     seasons: Omit<SeriesSeason, 'id' | 'seriesExtensionId'>[];
   };
 };
@@ -96,6 +101,7 @@ const mapFilmDataToPrismaStructure = (
     studios,
     cast,
     crew,
+    trailers,
     seriesExtension,
     ...baseFilmData
   } = film.data;
@@ -141,6 +147,12 @@ const mapFilmDataToPrismaStructure = (
   if (crew.length) {
     filmRelations.crew = {
       create: crew,
+    };
+  }
+
+  if (trailers.length) {
+    filmRelations.trailers = {
+      create: trailers,
     };
   }
 

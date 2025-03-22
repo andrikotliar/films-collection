@@ -7,11 +7,10 @@
   "releaseDate": "2005-11-18T00:00:00.000Z",
   "duration": 157,
   "poster": "posters/harry_potter_4.webp",
-  "youtubeTrailerId": "3EGojp4Hh6I",
   "budget": 150000000,
   "boxOffice": 897000000,
   "rating": 3,
-  "description": "A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
+  "description": "<p>A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.</p>",
   "chapterKey": "harry-potter",
   "chapterOrder": 4,
   "awards": [
@@ -156,6 +155,12 @@
   "studios": [
     {
       "studioId": 8
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "3EGojp4Hh6I",
+      "order": 1
     }
   ]
 }

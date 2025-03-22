@@ -7,11 +7,10 @@
   "releaseDate": "1993-06-11T00:00:00.000Z",
   "duration": 127,
   "poster": "posters/jurassic_park_1.webp",
-  "youtubeTrailerId": "QWBKEmWWL38",
   "budget": 63000000,
   "boxOffice": 1030000000,
   "rating": 2,
-  "description": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
+  "description": "<p>A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.</p>",
   "chapterKey": "jurassic-park",
   "chapterOrder": 1,
   "awards": [
@@ -174,6 +173,12 @@
     },
     {
       "studioId": 39
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "QWBKEmWWL38",
+      "order": 1
     }
   ]
 }

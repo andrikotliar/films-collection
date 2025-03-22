@@ -7,11 +7,10 @@
   "releaseDate": "2016-08-26T00:00:00.000Z",
   "duration": 107,
   "poster": "posters/your_name.webp",
-  "youtubeTrailerId": "xU47nhruN-Q",
   "budget": 3480000,
   "boxOffice": 358000000,
   "rating": 2,
-  "description": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?",
+  "description": "<p>Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -112,6 +111,12 @@
     },
     {
       "studioId": 64
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "xU47nhruN-Q",
+      "order": 1
     }
   ]
 }

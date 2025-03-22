@@ -7,9 +7,8 @@
   "releaseDate": "2021-04-23T00:00:00.000Z",
   "duration": 113,
   "poster": "posters/mitchells.webp",
-  "youtubeTrailerId": "_ak5dFt8Ar0",
   "rating": 2,
-  "description": "A quirky, dysfunctional family's road trip is upended when they find themselves in the middle of the robot apocalypse and suddenly become humanity's unlikeliest last hope.",
+  "description": "<p>A quirky, dysfunctional family's road trip is upended when they find themselves in the middle of the robot apocalypse and suddenly become humanity's unlikeliest last hope.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -115,6 +114,12 @@
   "studios": [
     {
       "studioId": 17
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "_ak5dFt8Ar0",
+      "order": 1
     }
   ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "1979-05-25T00:00:00.000Z",
   "duration": 117,
   "poster": "posters/alien_1.webp",
-  "youtubeTrailerId": "jQ5lPt9edzQ",
   "budget": 11000000,
   "boxOffice": 106000000,
   "rating": 2,
-  "description": "After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun.",
+  "description": "<p>After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun.</p>",
   "chapterKey": "alien",
   "chapterOrder": 1,
   "awards": [
@@ -162,6 +161,12 @@
   "studios": [
     {
       "studioId": 6
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "jQ5lPt9edzQ",
+      "order": 1
     }
   ]
 }

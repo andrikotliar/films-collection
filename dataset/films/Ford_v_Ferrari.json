@@ -7,11 +7,10 @@
   "releaseDate": "2019-11-15T00:00:00.000Z",
   "duration": 152,
   "poster": "posters/fordvsferrari.webp",
-  "youtubeTrailerId": "zyYgDtY2AMY",
   "budget": 98000000,
   "boxOffice": 226000000,
   "rating": 1,
-  "description": "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.",
+  "description": "<p>American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -119,6 +118,12 @@
   "studios": [
     {
       "studioId": 6
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "zyYgDtY2AMY",
+      "order": 1
     }
   ]
 }

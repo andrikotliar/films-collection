@@ -7,11 +7,10 @@
   "releaseDate": "2008-07-02T00:00:00.000Z",
   "duration": 92,
   "poster": "posters/hancock.webp",
-  "youtubeTrailerId": "SkX1VuXLRSc",
   "budget": 150000000,
   "boxOffice": 624000000,
   "rating": 2,
-  "description": "Hancock is a superhero whose ill considered behavior regularly causes damage in the millions. He changes when the person he saves helps him improve his public image.",
+  "description": "<p>Hancock is a superhero whose ill considered behavior regularly causes damage in the millions. He changes when the person he saves helps him improve his public image.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -106,6 +105,12 @@
   "studios": [
     {
       "studioId": 12
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "SkX1VuXLRSc",
+      "order": 1
     }
   ]
 }

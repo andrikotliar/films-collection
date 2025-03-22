@@ -7,11 +7,10 @@
   "releaseDate": "2018-07-27T00:00:00.000Z",
   "duration": 147,
   "poster": "posters/mi_6.webp",
-  "youtubeTrailerId": "wb49-oV0F78",
   "budget": 178000000,
   "boxOffice": 791000000,
   "rating": 2,
-  "description": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.",
+  "description": "<p>Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.</p>",
   "chapterKey": "missin-impossible",
   "chapterOrder": 6,
   "awards": [
@@ -133,6 +132,12 @@
   "studios": [
     {
       "studioId": 14
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "wb49-oV0F78",
+      "order": 1
     }
   ]
 }

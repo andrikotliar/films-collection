@@ -7,11 +7,10 @@
   "releaseDate": "2020-10-16T00:00:00.000Z",
   "duration": 109,
   "poster": "posters/love_and_monsters.webp",
-  "youtubeTrailerId": "1dzGhJ5QGsQ",
   "budget": 30000000,
   "boxOffice": 1000000,
   "rating": 2,
-  "description": "Seven years after he survived the monster apocalypse, lovably hapless Joel leaves his cozy underground bunker behind on a quest to reunite with his ex.",
+  "description": "<p>Seven years after he survived the monster apocalypse, lovably hapless Joel leaves his cozy underground bunker behind on a quest to reunite with his ex.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -125,6 +124,12 @@
   "studios": [
     {
       "studioId": 14
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "1dzGhJ5QGsQ",
+      "order": 1
     }
   ]
 }

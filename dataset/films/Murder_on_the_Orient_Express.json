@@ -7,11 +7,10 @@
   "releaseDate": "2017-11-10T00:00:00.000Z",
   "duration": 114,
   "poster": "posters/murder_on_the_orient_express.webp",
-  "youtubeTrailerId": "Mq4m3yAoW8E",
   "budget": 55000000,
   "boxOffice": 353000000,
   "rating": 2,
-  "description": "When a murder occurs on the train on which he's travelling, celebrated detective Hercule Poirot is recruited to solve the case.",
+  "description": "<p>When a murder occurs on the train on which he's travelling, celebrated detective Hercule Poirot is recruited to solve the case.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -161,6 +160,12 @@
   "studios": [
     {
       "studioId": 6
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "Mq4m3yAoW8E",
+      "order": 1
     }
   ]
 }

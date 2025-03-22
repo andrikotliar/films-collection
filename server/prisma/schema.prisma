@@ -8,31 +8,31 @@ datasource db {
 }
 
 model Film {
-  id               Int                   @id @default(autoincrement())
-  title            String
-  type             TitleType             @default(FILM)
-  style            TitleStyle            @default(LIVE_ACTION)
-  releaseDate      DateTime              @map("release_date") @db.Date
-  duration         Int                   @default(0)
-  description      String
-  poster           String?
-  youtubeTrailerId String?               @map("youtube_trailer_id")
-  budget           BigInt                @default(0)
-  boxOffice        BigInt                @default(0) @map("box_office")
-  rating           Int                   @default(1)
-  chapterKey       String?               @map("chapter_key")
-  chapterOrder     Int?                  @map("chapter_order")
-  createdAt        DateTime              @default(now()) @map("created_at")
-  updatedAt        DateTime              @updatedAt @map("updated_at")
-  draft            Boolean               @default(false)
-  crew             FilmCrew[]
-  cast             FilmCast[]
-  genres           FilmGenre[]
-  countries        FilmCountry[]
-  studios          FilmStudio[]
-  collections      FilmCollection[]
-  awards           FilmAwardNomination[]
-  seriesExtension  SeriesExtension?
+  id              Int                   @id @default(autoincrement())
+  title           String
+  type            TitleType             @default(FILM)
+  style           TitleStyle            @default(LIVE_ACTION)
+  releaseDate     DateTime              @map("release_date") @db.Date
+  duration        Int                   @default(0)
+  description     String
+  poster          String
+  budget          BigInt                @default(0)
+  boxOffice       BigInt                @default(0) @map("box_office")
+  rating          Int                   @default(1)
+  chapterKey      String?               @map("chapter_key")
+  chapterOrder    Int?                  @map("chapter_order")
+  createdAt       DateTime              @default(now()) @map("created_at")
+  updatedAt       DateTime              @updatedAt @map("updated_at")
+  draft           Boolean               @default(false)
+  crew            FilmCrew[]
+  cast            FilmCast[]
+  genres          FilmGenre[]
+  countries       FilmCountry[]
+  studios         FilmStudio[]
+  collections     FilmCollection[]
+  awards          FilmAwardNomination[]
+  trailers        FilmTrailer[]
+  seriesExtension SeriesExtension?
 
   @@index([title])
   @@map("films")
@@ -190,6 +190,17 @@ model FilmAwardNomination {
   @@map("film_award_nominations")
 }
 
+model FilmTrailer {
+  id      Int    @id @default(autoincrement())
+  videoId String @map("video_id")
+  order   Int
+  filmId  Int    @map("film_id")
+  film    Film   @relation(fields: [filmId], references: [id])
+
+  @@unique([filmId, videoId])
+  @@map("film_trailers")
+}
+
 model SeriesExtension {
   id            Int            @id @default(autoincrement())
   episodesTotal Int            @default(1) @map("episodes_total")
@@ -204,11 +215,8 @@ model SeriesExtension {
 model SeriesSeason {
   id                Int             @id @default(autoincrement())
   number            Int
-  title             String?
-  description       String
   episodesCount     Int             @default(1) @map("episodes_count")
   releaseDate       DateTime        @map("release_date") @db.Date
-  youtubeTrailerId  String?         @map("youtube_trailer_id")
   seriesExtension   SeriesExtension @relation(fields: [seriesExtensionId], references: [id])
   seriesExtensionId Int             @map("series_extension_id")
 

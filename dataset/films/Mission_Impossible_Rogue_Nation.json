@@ -7,11 +7,10 @@
   "releaseDate": "2015-07-31T00:00:00.000Z",
   "duration": 131,
   "poster": "posters/mi_5.webp",
-  "youtubeTrailerId": "gOW_azQbOjw",
   "budget": 150000000,
   "boxOffice": 683000000,
   "rating": 2,
-  "description": "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF.",
+  "description": "<p>Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF.</p>",
   "chapterKey": "missin-impossible",
   "chapterOrder": 5,
   "awards": [],
@@ -121,6 +120,12 @@
   "studios": [
     {
       "studioId": 14
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "gOW_azQbOjw",
+      "order": 1
     }
   ]
 }

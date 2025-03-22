@@ -7,11 +7,10 @@
   "releaseDate": "2002-05-16T00:00:00.000Z",
   "duration": 142,
   "poster": "posters/star_wars_episode_II.webp",
-  "youtubeTrailerId": "gYbW1F_c9eM",
   "budget": 115000000,
   "boxOffice": 649000000,
   "rating": 2,
-  "description": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi.",
+  "description": "<p>Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi.</p>",
   "chapterKey": "star-wars",
   "chapterOrder": 2,
   "awards": [
@@ -143,6 +142,12 @@
     },
     {
       "studioId": 37
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "gYbW1F_c9eM",
+      "order": 1
     }
   ]
 }

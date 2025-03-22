@@ -7,11 +7,10 @@
   "releaseDate": "2013-05-17T00:00:00.000Z",
   "duration": 133,
   "poster": "posters/star_trek_2.webp",
-  "youtubeTrailerId": "jJMYAJ3_0uw",
   "budget": 185000000,
   "boxOffice": 467000000,
   "rating": 1,
-  "description": "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction.",
+  "description": "<p>After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction.</p>",
   "chapterKey": "star-trek",
   "chapterOrder": 2,
   "awards": [],
@@ -139,6 +138,12 @@
     },
     {
       "studioId": 46
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "jJMYAJ3_0uw",
+      "order": 1
     }
   ]
 }

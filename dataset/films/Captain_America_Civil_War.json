@@ -7,11 +7,10 @@
   "releaseDate": "2016-05-06T00:00:00.000Z",
   "duration": 147,
   "poster": "posters/captain_america_3.webp",
-  "youtubeTrailerId": "dKrVegVI0Us",
   "budget": 250000000,
   "boxOffice": 1150000000,
   "rating": 3,
-  "description": "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man.",
+  "description": "<p>Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man.</p>",
   "chapterKey": "mcu",
   "chapterOrder": 15,
   "awards": [
@@ -161,6 +160,12 @@
     },
     {
       "studioId": 4
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "dKrVegVI0Us",
+      "order": 1
     }
   ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "2006-11-17T00:00:00.000Z",
   "duration": 108,
   "poster": "posters/happy_feet.webp",
-  "youtubeTrailerId": "hFUC5adf8FE",
   "budget": 100000000,
   "boxOffice": 384000000,
   "rating": 2,
-  "description": "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!",
+  "description": "<p>Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -140,6 +139,12 @@
     },
     {
       "studioId": 31
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "hFUC5adf8FE",
+      "order": 1
     }
   ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "2012-05-04T00:00:00.000Z",
   "duration": 143,
   "poster": "posters/avengers_1.webp",
-  "youtubeTrailerId": "hIR8Ar-Z4hw",
   "budget": 220000000,
   "boxOffice": 1520000000,
   "rating": 2,
-  "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+  "description": "<p>Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.</p>",
   "chapterKey": "mcu",
   "chapterOrder": 7,
   "awards": [
@@ -177,6 +176,12 @@
     },
     {
       "studioId": 4
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "hIR8Ar-Z4hw",
+      "order": 1
     }
   ]
 }

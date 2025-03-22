@@ -7,11 +7,10 @@
   "releaseDate": "2014-04-04T00:00:00.000Z",
   "duration": 136,
   "poster": "posters/captain_america_2.webp",
-  "youtubeTrailerId": "7SlILk2WMTI",
   "budget": 177000000,
   "boxOffice": 714000000,
   "rating": 2,
-  "description": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
+  "description": "<p>As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.</p>",
   "chapterKey": "mcu",
   "chapterOrder": 10,
   "awards": [],
@@ -114,6 +113,12 @@
     },
     {
       "studioId": 4
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "7SlILk2WMTI",
+      "order": 1
     }
   ]
 }

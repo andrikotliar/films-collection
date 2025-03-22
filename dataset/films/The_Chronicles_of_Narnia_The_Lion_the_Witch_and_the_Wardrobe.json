@@ -7,11 +7,10 @@
   "releaseDate": "2005-12-09T00:00:00.000Z",
   "duration": 145,
   "poster": "posters/narnia_1.webp",
-  "youtubeTrailerId": "lWKj41HZBzM",
   "budget": 180000000,
   "boxOffice": 745000000,
   "rating": 2,
-  "description": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion.",
+  "description": "<p>Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion.</p>",
   "chapterKey": "chronicles-of-narnia",
   "chapterOrder": 1,
   "awards": [
@@ -160,6 +159,12 @@
   "studios": [
     {
       "studioId": 1
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "lWKj41HZBzM",
+      "order": 1
     }
   ]
 }

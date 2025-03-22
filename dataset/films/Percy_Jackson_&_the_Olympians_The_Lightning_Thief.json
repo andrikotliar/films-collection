@@ -7,11 +7,10 @@
   "releaseDate": "2010-02-12T00:00:00.000Z",
   "duration": 95,
   "poster": "posters/percy_jackson.webp",
-  "youtubeTrailerId": "xko1Mx5w4tg",
   "budget": 95000000,
   "boxOffice": 226000000,
   "rating": 2,
-  "description": "A teenager discovers he's the descendant of a Greek god and sets out on an adventure to settle an on-going battle between the gods.",
+  "description": "<p>A teenager discovers he's the descendant of a Greek god and sets out on an adventure to settle an on-going battle between the gods.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -145,6 +144,12 @@
   "studios": [
     {
       "studioId": 6
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "xko1Mx5w4tg",
+      "order": 1
     }
   ]
 }

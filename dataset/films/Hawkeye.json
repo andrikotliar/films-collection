@@ -7,9 +7,8 @@
   "releaseDate": "2021-11-24T00:00:00.000Z",
   "duration": 57,
   "poster": "posters/hawkeye.webp",
-  "youtubeTrailerId": null,
   "rating": 1,
-  "description": "A year after Avengers defeated Thanos, Clint Barton must face enemies from his past as the Ronin to get back to his family in time for Christmas.",
+  "description": "<p>Clint Barton aka Hawkeye has the mission to get back to his family for Christmas. But when a threat from his past shows up, Hawkeye reluctantly teams up with Kate Bishop, a skilled archer and his biggest fan, to unravel a conspiracy.</p>",
   "chapterKey": "mcu",
   "chapterOrder": 31,
   "awards": [],
@@ -168,11 +167,14 @@
       {
         "number": 1,
         "episodesCount": 6,
-        "releaseDate": "2021-11-24T00:00:00.000Z",
-        "youtubeTrailerId": "5VYb3B1ETlk",
-        "title": null,
-        "description": "Clint meets new partner Kate Bishop who wants to became a hero like Hawkeye and start following him to find out truth about her family and help Clint to resolve his problems."
+        "releaseDate": "2021-11-24T00:00:00.000Z"
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "videoId": "5VYb3B1ETlk",
+      "order": 1
+    }
+  ]
 }

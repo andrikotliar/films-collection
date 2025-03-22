@@ -1,36 +1,18 @@
-.descriptions {
+.description {
   padding-top: 20px;
+  line-height: 1.5;
 }
 
-.text {
-  line-height: 1.8;
+.description p {
   margin-bottom: 10px;
 }
 
-.text:last-child {
+.description p:last-child {
   margin-bottom: 0;
-}
-
-.season {
-  margin-bottom: 15px;
-}
-
-.season:last-child {
-  margin-bottom: 0;
-}
-
-.seasonDetails {
-  font-size: 14px;
-  color: var(--gray-dark);
-  margin: 5px 0;
 }
 
 @media (max-width: 480px) {
-  .text {
+  .description {
     font-size: 14px;
-  }
-
-  .seasons {
-    margin-top: 10px;
   }
 }

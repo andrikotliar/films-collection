@@ -7,9 +7,8 @@
   "releaseDate": "2006-09-25T00:00:00.000Z",
   "duration": 45,
   "poster": "posters/heroes.webp",
-  "youtubeTrailerId": null,
   "rating": 2,
-  "description": "Ordinary people discover they possess extraordinary abilities. As they come to terms with their powers, they must navigate the mysteries surrounding their origins and the looming threat of a catastrophe that could change the world.",
+  "description": "<p><b>Volume 1: Genesis</b>. Ordinary people discover they possess extraordinary abilities. As they come to terms with their powers, they must navigate the mysteries surrounding their origins and the looming threat of a catastrophe that could change the world. Mohinder Suresh, a research geneticist, continues his late father's research into the biological source of the powers, while Noah Bennet represents, and is a lead agent for, a secret organization known only as \"the Company\" that wants to control, and if necessary, terminate those who are gifted. After only having a short time to come to terms with their new abilities, each of the heroes is drawn into the final showdown. They must each do their part to stop the destruction of the world that starts with an impending explosion at Kirby Plaza in New York City.</p><p><b>Volume 2: Generations</b>. The characters continue to explore their powers while new individuals with abilities emerge. A global conspiracy and the hunt for a virus add to the intrigue as the heroes try to prevent a deadly outbreak.</p><p><b>Volume 3. Part 1: Villains</b>. The heroes face new challenges as they confront government scrutiny and a malevolent villain, Arthur Petrelli. The discovery of dangerous abilities and a divided group of heroes complicate their mission to save the world from powerful threats.</p><p><b>Volume 3. Part 2: Fugitives</b>. The heroes continue their journey, facing government forces and an ever-growing threat. A new organization, Building 26, seeks to control those with abilities, forcing the heroes into a fugitive lifestyle as they strive to protect themselves and others.</p><p><b>Volume 4: Redemption</b>. The heroes deals with the carnage caused by a carnival of people with abilities. They must unite to thwart the carnival's leader, Samuel Sullivan, and face their destinies in an epic showdown.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -477,43 +476,46 @@
       {
         "number": 1,
         "episodesCount": 23,
-        "releaseDate": "2006-09-25T00:00:00.000Z",
-        "youtubeTrailerId": "9AX6aXFdTkc",
-        "title": "Volume 1: Genesis",
-        "description": "Mohinder Suresh, a research geneticist, continues his late father's research into the biological source of the powers, while Noah Bennet represents, and is a lead agent for, a secret organization known only as \"the Company\" that wants to control, and if necessary, terminate those who are gifted. After only having a short time to come to terms with their new abilities, each of the heroes is drawn into the final showdown. They must each do their part to stop the destruction of the world that starts with an impending explosion at Kirby Plaza in New York City."
+        "releaseDate": "2006-09-25T00:00:00.000Z"
       },
       {
         "number": 2,
         "episodesCount": 11,
-        "releaseDate": "2007-09-24T00:00:00.000Z",
-        "youtubeTrailerId": "9mNGxXpAmHc",
-        "title": "Volume 2: Generations",
-        "description": "The characters continue to explore their powers while new individuals with abilities emerge. A global conspiracy and the hunt for a virus add to the intrigue as the heroes try to prevent a deadly outbreak."
+        "releaseDate": "2007-09-24T00:00:00.000Z"
       },
       {
         "number": 3,
         "episodesCount": 18,
-        "releaseDate": "2008-09-22T00:00:00.000Z",
-        "youtubeTrailerId": "i1VA_aWyrPI",
-        "title": "Volume 3. Part 1: Villains",
-        "description": "The heroes face new challenges as they confront government scrutiny and a malevolent villain, Arthur Petrelli. The discovery of dangerous abilities and a divided group of heroes complicate their mission to save the world from powerful threats."
+        "releaseDate": "2008-09-22T00:00:00.000Z"
       },
       {
         "number": 4,
         "episodesCount": 13,
-        "releaseDate": "2009-02-02T00:00:00.000Z",
-        "youtubeTrailerId": "mTzPPIEUFEs",
-        "title": "Volume 3. Part 2: Fugitives",
-        "description": "The heroes continue their journey, facing government forces and an ever-growing threat. A new organization, Building 26, seeks to control those with abilities, forcing the heroes into a fugitive lifestyle as they strive to protect themselves and others."
+        "releaseDate": "2009-02-02T00:00:00.000Z"
       },
       {
         "number": 5,
         "episodesCount": 12,
-        "releaseDate": "2009-09-21T00:00:00.000Z",
-        "youtubeTrailerId": "mTzPPIEUFEs",
-        "title": "Volume 4: Redemption",
-        "description": "The heroes deals with the carnage caused by a carnival of people with abilities. They must unite to thwart the carnival's leader, Samuel Sullivan, and face their destinies in an epic showdown."
+        "releaseDate": "2009-09-21T00:00:00.000Z"
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "videoId": "9AX6aXFdTkc",
+      "order": 1
+    },
+    {
+      "videoId": "9mNGxXpAmHc",
+      "order": 2
+    },
+    {
+      "videoId": "i1VA_aWyrPI",
+      "order": 3
+    },
+    {
+      "videoId": "mTzPPIEUFEs",
+      "order": 4
+    }
+  ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "2004-05-19T00:00:00.000Z",
   "duration": 93,
   "poster": "posters/shrek_2.webp",
-  "youtubeTrailerId": "xBgSfhp5Fxo",
   "budget": 150000000,
   "boxOffice": 920000000,
   "rating": 3,
-  "description": "Shrek and Fiona travel to the Kingdom of Far Far Away, where Fiona's parents are King and Queen, to celebrate their marriage. When they arrive, they find they are not as welcome as they thought they would be.",
+  "description": "<p>Shrek and Fiona travel to the Kingdom of Far Far Away, where Fiona's parents are King and Queen, to celebrate their marriage. When they arrive, they find they are not as welcome as they thought they would be.</p>",
   "chapterKey": "shrek",
   "chapterOrder": 2,
   "awards": [],
@@ -139,6 +138,12 @@
   "studios": [
     {
       "studioId": 16
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "xBgSfhp5Fxo",
+      "order": 1
     }
   ]
 }

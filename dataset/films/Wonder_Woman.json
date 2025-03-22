@@ -7,11 +7,10 @@
   "releaseDate": "2017-06-02T00:00:00.000Z",
   "duration": 141,
   "poster": "posters/wonder_woman.webp",
-  "youtubeTrailerId": "1Q8fG0TtVAY",
   "budget": 120000000,
   "boxOffice": 822000000,
   "rating": 2,
-  "description": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
+  "description": "<p>When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.</p>",
   "chapterKey": "dceu",
   "chapterOrder": 4,
   "awards": [
@@ -140,6 +139,12 @@
     },
     {
       "studioId": 8
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "1Q8fG0TtVAY",
+      "order": 1
     }
   ]
 }

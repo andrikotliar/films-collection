@@ -7,11 +7,10 @@
   "releaseDate": "2011-11-23T00:00:00.000Z",
   "duration": 126,
   "poster": "posters/hugo.webp",
-  "youtubeTrailerId": "Hv3obL9HqyY",
   "budget": 150000000,
   "boxOffice": 186000000,
   "rating": 2,
-  "description": "In Paris in 1931, an orphan named Hugo Cabret, who lives in the walls of a train station, is wrapped up in a mystery involving his late father and an automaton",
+  "description": "<p>In Paris in 1931, an orphan named Hugo Cabret, who lives in the walls of a train station, is wrapped up in a mystery involving his late father and an automaton</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -155,6 +154,12 @@
     },
     {
       "studioId": 14
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "Hv3obL9HqyY",
+      "order": 1
     }
   ]
 }

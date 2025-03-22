@@ -7,11 +7,10 @@
   "releaseDate": "2012-03-23T00:00:00.000Z",
   "duration": 142,
   "poster": "posters/hunger_games_1.webp",
-  "youtubeTrailerId": "mfmrPu43DF8",
   "budget": 78000000,
   "boxOffice": 694000000,
   "rating": 2,
-  "description": "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death.",
+  "description": "<p>Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death.</p>",
   "chapterKey": "hunger-games",
   "chapterOrder": 1,
   "awards": [
@@ -157,6 +156,12 @@
   "studios": [
     {
       "studioId": 57
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "mfmrPu43DF8",
+      "order": 1
     }
   ]
 }

@@ -15,7 +15,6 @@ export type FilmWithRelations = Prisma.FilmGetPayload<{
     releaseDate: true;
     description: true;
     duration: true;
-    youtubeTrailerId: true;
     budget: true;
     boxOffice: true;
     rating: true;
@@ -102,6 +101,7 @@ export type FilmWithRelations = Prisma.FilmGetPayload<{
         };
       };
     };
+    trailers: true;
   };
 }>;
 

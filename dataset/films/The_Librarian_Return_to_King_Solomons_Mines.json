@@ -7,9 +7,8 @@
   "releaseDate": "2006-12-03T00:00:00.000Z",
   "duration": 95,
   "poster": "posters/librarian_2.webp",
-  "youtubeTrailerId": "ansvc2Muxr0",
   "rating": 1,
-  "description": "Librarian-turned-adventurer Flynn Carsen endeavors to find King Solomon's mines.",
+  "description": "<p>Librarian-turned-adventurer Flynn Carsen endeavors to find King Solomon's mines.</p>",
   "chapterKey": "librarian",
   "chapterOrder": 2,
   "awards": [
@@ -111,6 +110,12 @@
   "studios": [
     {
       "studioId": 59
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "ansvc2Muxr0",
+      "order": 1
     }
   ]
 }

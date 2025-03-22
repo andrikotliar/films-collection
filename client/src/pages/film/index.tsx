@@ -11,6 +11,7 @@ import {
   FilmPageLayout,
   ContentLayout,
   Section,
+  SeasonsSummary,
 } from './components';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { fetchFilmQuery } from '@/queries';
@@ -33,12 +34,14 @@ export const FilmPage = () => {
       <ContentLayout>
         <SummarySection film={film} />
 
+        {film.seriesExtension && (
+          <Section title="Seasons summary">
+            <SeasonsSummary seasons={film.seriesExtension.seasons} />
+          </Section>
+        )}
+
         <Section title="Description">
-          <Description
-            text={film.description}
-            seasons={film.seriesExtension?.seasons}
-            key={film.id}
-          />
+          <Description rawHtml={film.description} />
         </Section>
 
         <Section title="Crew">

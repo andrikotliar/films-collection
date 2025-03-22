@@ -7,9 +7,8 @@
   "releaseDate": "2019-05-06T00:00:00.000Z",
   "duration": 60,
   "poster": "posters/chernobyl.webp",
-  "youtubeTrailerId": null,
   "rating": 2,
-  "description": "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes.",
+  "description": "<p>In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -206,11 +205,14 @@
       {
         "number": 1,
         "episodesCount": 5,
-        "releaseDate": "2019-05-06T00:00:00.000Z",
-        "youtubeTrailerId": "s9APLXM9Ei8",
-        "title": null,
-        "description": "The series tells the story of several people that were involved into the result of the catastrophe and their attempts to reduce consequences and find a reason of the explosion."
+        "releaseDate": "2019-05-06T00:00:00.000Z"
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "videoId": "s9APLXM9Ei8",
+      "order": 1
+    }
+  ]
 }

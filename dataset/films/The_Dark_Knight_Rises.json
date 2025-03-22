@@ -7,11 +7,10 @@
   "releaseDate": "2012-07-20T00:00:00.000Z",
   "duration": 165,
   "poster": "posters/batman_3.webp",
-  "youtubeTrailerId": "GokKUqLcvD8",
   "budget": 250000000,
   "boxOffice": 1000000000,
   "rating": 1,
-  "description": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City, now on the edge of total annihilation, from the brutal guerrilla terrorist Bane.",
+  "description": "<p>Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City, now on the edge of total annihilation, from the brutal guerrilla terrorist Bane.</p>",
   "chapterKey": "dark-knight",
   "chapterOrder": 3,
   "awards": [
@@ -156,6 +155,12 @@
     },
     {
       "studioId": 25
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "GokKUqLcvD8",
+      "order": 1
     }
   ]
 }

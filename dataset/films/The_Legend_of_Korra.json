@@ -7,9 +7,8 @@
   "releaseDate": "2012-04-14T00:00:00.000Z",
   "duration": 23,
   "poster": "posters/legend_of_korra.webp",
-  "youtubeTrailerId": null,
   "rating": 2,
-  "description": "Korra is the new Avatar. She knows well three elements. Together with Tenzin, the son of Aang, she trains to learn airbending and protect the balance of power in the world.",
+  "description": "<p><b>Book One: Air</b>. Korra is the new Avatar. She knows well water, fire and earthbendings. Korra arrives in Republic City to learn airbending in Tenzin, the son of Aang. Here she faces the Equalists, a group led by Amon that seeks to rid the world of bending. As she learns more about the complexities of being the Avatar, she must restore balance and peace.</p><p><b>Book Two: Spirits</b>. Korra faces new challenges as she delves into the spirit world and discovers the origins of bending. Civil unrest in Republic City and the appearance of dark spirits escalate the conflict. She must learn the ancient art of energybending and connect with her spiritual side.</p><p><b>Book Three: Change</b>. Korra faces the Red Lotus, a dangerous anarchist group that seeks to end the Avatar cycle. As she confronts formidable adversaries, she must rebuild the Air Nation, rediscover herself, and make challenging decisions for the world's future.</p><p><b>Book Four: Balance</b>. The final season follows Korra as she deals with the aftermath of her traumatic battles. She faces Kuvira, an Earth Empire military leader who seeks to unite the Earth Kingdom. As Korra grapples with physical and emotional scars, she strives to bring balance to the world.</p>",
   "chapterKey": "last-airbender",
   "chapterOrder": 2,
   "awards": [
@@ -241,35 +240,29 @@
       {
         "number": 1,
         "episodesCount": 12,
-        "releaseDate": "2012-04-14T00:00:00.000Z",
-        "youtubeTrailerId": "NBNpGCIavwA",
-        "title": "Book One: Air",
-        "description": "Kora embarks on her journey to master airbending in Republic City. She faces the Equalists, a group led by Amon that seeks to rid the world of bending. As she learns more about the complexities of being the Avatar, she must restore balance and peace."
+        "releaseDate": "2012-04-14T00:00:00.000Z"
       },
       {
         "number": 2,
         "episodesCount": 14,
-        "releaseDate": "2013-09-13T00:00:00.000Z",
-        "youtubeTrailerId": "NBNpGCIavwA",
-        "title": "Book Two: Spirits",
-        "description": "Korra faces new challenges as she delves into the spirit world and discovers the origins of bending. Civil unrest in Republic City and the appearance of dark spirits escalate the conflict. She must learn the ancient art of energybending and connect with her spiritual side."
+        "releaseDate": "2013-09-13T00:00:00.000Z"
       },
       {
         "number": 3,
         "episodesCount": 13,
-        "releaseDate": "2014-06-27T00:00:00.000Z",
-        "youtubeTrailerId": "NBNpGCIavwA",
-        "title": "Book Three: Change",
-        "description": "Korra faces the Red Lotus, a dangerous anarchist group that seeks to end the Avatar cycle. As she confronts formidable adversaries, she must rebuild the Air Nation, rediscover herself, and make challenging decisions for the world's future."
+        "releaseDate": "2014-06-27T00:00:00.000Z"
       },
       {
         "number": 4,
         "episodesCount": 13,
-        "releaseDate": "2014-10-03T00:00:00.000Z",
-        "youtubeTrailerId": "NBNpGCIavwA",
-        "title": "Book Four: Balance",
-        "description": "The final season follows Korra as she deals with the aftermath of her traumatic battles. She faces Kuvira, an Earth Empire military leader who seeks to unite the Earth Kingdom. As Korra grapples with physical and emotional scars, she strives to bring balance to the world."
+        "releaseDate": "2014-10-03T00:00:00.000Z"
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "videoId": "NBNpGCIavwA",
+      "order": 1
+    }
+  ]
 }

@@ -7,11 +7,10 @@
   "releaseDate": "2015-12-18T00:00:00.000Z",
   "duration": 135,
   "poster": "posters/star_wars_episode_VII.webp",
-  "youtubeTrailerId": "sGbxmsDFVnE",
   "budget": 306000000,
   "boxOffice": 2000000000,
   "rating": 2,
-  "description": "Three decades after the Empire's defeat, a new threat arises in the militant First Order. Stormtrooper defector Finn and the scavenger Rey are caught up in the Resistance's search for the missing Luke Skywalker.",
+  "description": "<p>Three decades after the Empire's defeat, a new threat arises in the militant First Order. Stormtrooper defector Finn and the scavenger Rey are caught up in the Resistance's search for the missing Luke Skywalker.</p>",
   "chapterKey": "star-wars",
   "chapterOrder": 10,
   "awards": [
@@ -204,6 +203,12 @@
     },
     {
       "studioId": 37
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "sGbxmsDFVnE",
+      "order": 1
     }
   ]
 }

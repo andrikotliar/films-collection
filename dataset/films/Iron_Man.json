@@ -7,11 +7,10 @@
   "releaseDate": "2008-05-02T00:00:00.000Z",
   "duration": 126,
   "poster": "posters/iron_man_1.webp",
-  "youtubeTrailerId": "8hYlB38asDY",
   "budget": 140000000,
   "boxOffice": 585000000,
   "rating": 3,
-  "description": "After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+  "description": "<p>After being held captive in an Afghan cave, baire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.</p>",
   "chapterKey": "mcu",
   "chapterOrder": 3,
   "awards": [
@@ -152,6 +151,12 @@
     },
     {
       "studioId": 14
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "8hYlB38asDY",
+      "order": 1
     }
   ]
 }

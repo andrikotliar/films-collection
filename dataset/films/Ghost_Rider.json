@@ -7,11 +7,10 @@
   "releaseDate": "2007-02-16T00:00:00.000Z",
   "duration": 110,
   "poster": "posters/ghost_rider.webp",
-  "youtubeTrailerId": "8M0lLJfNPds",
   "budget": 110000000,
   "boxOffice": 228000000,
   "rating": 1,
-  "description": "When motorcycle rider Johnny Blaze sells his soul to the Devil to save his father's life, he is transformed into the Ghost Rider, the Devil's own bounty hunter, and is sent to hunt down sinners.",
+  "description": "<p>When motorcycle rider Johnny Blaze sells his soul to the Devil to save his father's life, he is transformed into the Ghost Rider, the Devil's own bounty hunter, and is sent to hunt down sinners.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -129,6 +128,12 @@
     },
     {
       "studioId": 12
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "8M0lLJfNPds",
+      "order": 1
     }
   ]
 }

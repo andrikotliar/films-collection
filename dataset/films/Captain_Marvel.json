@@ -7,11 +7,10 @@
   "releaseDate": "2019-03-08T00:00:00.000Z",
   "duration": 124,
   "poster": "posters/captain_marvel.webp",
-  "youtubeTrailerId": "TcMBFSGVi1c",
   "budget": 152000000,
   "boxOffice": 1130000000,
   "rating": 1,
-  "description": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
+  "description": "<p>Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.</p>",
   "chapterKey": "mcu",
   "chapterOrder": 2,
   "awards": [],
@@ -139,6 +138,12 @@
     },
     {
       "studioId": 4
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "TcMBFSGVi1c",
+      "order": 1
     }
   ]
 }

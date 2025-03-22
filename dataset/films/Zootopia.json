@@ -7,11 +7,10 @@
   "releaseDate": "2016-03-04T00:00:00.000Z",
   "duration": 108,
   "poster": "posters/zootopia.webp",
-  "youtubeTrailerId": "jWM0ct-OLsM",
   "budget": 150000000,
   "boxOffice": 1020000000,
   "rating": 3,
-  "description": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
+  "description": "<p>In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -135,6 +134,12 @@
   "studios": [
     {
       "studioId": 1
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "jWM0ct-OLsM",
+      "order": 1
     }
   ]
 }

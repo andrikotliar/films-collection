@@ -7,11 +7,10 @@
   "releaseDate": "2001-07-18T00:00:00.000Z",
   "duration": 92,
   "poster": "posters/jurassic_park_3.webp",
-  "youtubeTrailerId": "gjIaV6CU0wA",
   "budget": 93000000,
   "boxOffice": 368000000,
   "rating": 1,
-  "description": "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants.",
+  "description": "<p>A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants.</p>",
   "chapterKey": "jurassic-park",
   "chapterOrder": 3,
   "awards": [],
@@ -109,6 +108,12 @@
     },
     {
       "studioId": 39
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "gjIaV6CU0wA",
+      "order": 1
     }
   ]
 }

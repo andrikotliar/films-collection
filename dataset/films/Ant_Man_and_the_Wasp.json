@@ -7,11 +7,10 @@
   "releaseDate": "2018-07-06T00:00:00.000Z",
   "duration": 118,
   "poster": "posters/ant_man_2.webp",
-  "youtubeTrailerId": "UUkn-enk2RU",
   "budget": 162000000,
   "boxOffice": 595000000,
   "rating": 1,
-  "description": "As Scott Lang balances being both a Super Hero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
+  "description": "<p>As Scott Lang balances being both a Super Hero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.</p>",
   "chapterKey": "mcu",
   "chapterOrder": 21,
   "awards": [],
@@ -119,6 +118,12 @@
     },
     {
       "studioId": 4
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "UUkn-enk2RU",
+      "order": 1
     }
   ]
 }

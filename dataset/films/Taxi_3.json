@@ -7,11 +7,10 @@
   "releaseDate": "2003-01-29T00:00:00.000Z",
   "duration": 84,
   "poster": "posters/taxi_3.webp",
-  "youtubeTrailerId": "XLP-rf3dHOQ",
   "budget": 14000000,
   "boxOffice": 64000000,
   "rating": 2,
-  "description": "Out to stop a new gang disguised as Santa Claus, Emilien and Daniel must also handle major changes in their personal relationships.",
+  "description": "<p>Out to stop a new gang disguised as Santa Claus, Emilien and Daniel must also handle major changes in their personal relationships.</p>",
   "chapterKey": "taxi",
   "chapterOrder": 3,
   "awards": [],
@@ -108,6 +107,12 @@
   "studios": [
     {
       "studioId": 57
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "XLP-rf3dHOQ",
+      "order": 1
     }
   ]
 }

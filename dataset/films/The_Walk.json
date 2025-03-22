@@ -7,11 +7,10 @@
   "releaseDate": "2015-10-09T00:00:00.000Z",
   "duration": 123,
   "poster": "posters/walk.webp",
-  "youtubeTrailerId": "4W6byFcD5uE",
   "budget": 35000000,
   "boxOffice": 61000000,
   "rating": 2,
-  "description": "In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream: to walk the immense void between the World Trade Center towers.",
+  "description": "<p>In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream: to walk the immense void between the World Trade Center towers.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -123,6 +122,12 @@
   "studios": [
     {
       "studioId": 10
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "4W6byFcD5uE",
+      "order": 1
     }
   ]
 }

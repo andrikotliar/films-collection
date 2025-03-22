@@ -7,9 +7,8 @@
   "releaseDate": "2016-07-15T00:00:00.000Z",
   "duration": 60,
   "poster": "posters/stranger_things.webp",
-  "youtubeTrailerId": null,
   "rating": 3,
-  "description": "A group of boys discovers the existence of a dark parallel world and monsters that came from there. Together with a mysterious girl with psychokinetic abilities powers, they must protect the town of Hawkins from evil.",
+  "description": "<p><b>Season 1</b>. In the 1980s, a young boy named Will disappears in Hawkins, Indiana. His friends Mike, Dustin, Lucas, Will's mother Joyce, and Sherif Jim Hopper embark on a quest to find him while uncovering supernatural mysteries. The arrival of a sinister force known as the Demogorgon leads to a parallel dimension known as the Upside Down.</p><p><b>Season 2</b>. In the second season, a year after the events of the first season, Hawkins faces a new supernatural threat. The group of friends reunites to confront a shadowy entity that threatens the town, and they learn more about the Upside Down. Eleven, the psychokinetic girl, seeks her past and abilities.</p><p><b>Season 3</b>. Set during the summer of 1985, Season 3 follows the group of friends as they face new challenges, both supernatural and personal. The town's new mall hides a dark secret, and the Russians play a significant role in the unfolding mysteries. The Mind Flayer returns, and Hawkins is once again in grave danger.</p><p><b>Season 4</b>. Darkness returns to Hawkins just in time for spring break, igniting fresh terror, disturbing memories — and an ominous new threat.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -366,35 +365,41 @@
       {
         "number": 1,
         "episodesCount": 8,
-        "releaseDate": "2016-07-15T00:00:00.000Z",
-        "youtubeTrailerId": "b9EkMc79ZSU",
-        "title": null,
-        "description": "In the 1980s, a young boy named Will disappears in Hawkins, Indiana. His friends Mike, Dustin, Lucas, Will's mother Joyce, and Sherif Jim Hopper embark on a quest to find him while uncovering supernatural mysteries. The arrival of a sinister force known as the Demogorgon leads to a parallel dimension known as the Upside Down."
+        "releaseDate": "2016-07-15T00:00:00.000Z"
       },
       {
         "number": 2,
         "episodesCount": 9,
-        "releaseDate": "2017-10-27T00:00:00.000Z",
-        "youtubeTrailerId": "R1ZXOOLMJ8s",
-        "title": null,
-        "description": "In the second season, a year after the events of the first season, Hawkins faces a new supernatural threat. The group of friends reunites to confront a shadowy entity that threatens the town, and they learn more about the Upside Down. Eleven, the psychokinetic girl, seeks her past and abilities."
+        "releaseDate": "2017-10-27T00:00:00.000Z"
       },
       {
         "number": 3,
         "episodesCount": 8,
-        "releaseDate": "2019-07-04T00:00:00.000Z",
-        "youtubeTrailerId": "6Am4v0C_z8c",
-        "title": null,
-        "description": "Set during the summer of 1985, Season 3 follows the group of friends as they face new challenges, both supernatural and personal. The town's new mall hides a dark secret, and the Russians play a significant role in the unfolding mysteries. The Mind Flayer returns, and Hawkins is once again in grave danger."
+        "releaseDate": "2019-07-04T00:00:00.000Z"
       },
       {
         "number": 4,
         "episodesCount": 9,
-        "releaseDate": "2022-08-01T00:00:00.000Z",
-        "youtubeTrailerId": "a3thyAnShck",
-        "title": null,
-        "description": "Darkness returns to Hawkins just in time for spring break, igniting fresh terror, disturbing memories — and an ominous new threat."
+        "releaseDate": "2022-08-01T00:00:00.000Z"
       }
     ]
-  }
+  },
+  "trailers": [
+    {
+      "videoId": "b9EkMc79ZSU",
+      "order": 1
+    },
+    {
+      "videoId": "R1ZXOOLMJ8s",
+      "order": 2
+    },
+    {
+      "videoId": "6Am4v0C_z8c",
+      "order": 3
+    },
+    {
+      "videoId": "a3thyAnShck",
+      "order": 4
+    }
+  ]
 }

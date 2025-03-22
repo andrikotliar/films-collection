@@ -7,11 +7,10 @@
   "releaseDate": "2012-03-09T00:00:00.000Z",
   "duration": 132,
   "poster": "posters/john_carter.webp",
-  "youtubeTrailerId": "nlvYKl1fjBI",
   "budget": 306000000,
   "boxOffice": 284000000,
   "rating": 1,
-  "description": "Transported to Barsoom, a Civil War vet discovers a barren planet seemingly inhabited by 12-foot tall barbarians. Finding himself prisoner of these creatures, he escapes, only to encounter Woola and a princess in desperate need of a savior.",
+  "description": "<p>Transported to Barsoom, a Civil War vet discovers a barren planet seemingly inhabited by 12-foot tall barbarians. Finding himself prisoner of these creatures, he escapes, only to encounter Woola and a princess in desperate need of a savior.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -126,6 +125,12 @@
   "studios": [
     {
       "studioId": 1
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "nlvYKl1fjBI",
+      "order": 1
     }
   ]
 }

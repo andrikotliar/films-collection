@@ -7,11 +7,10 @@
   "releaseDate": "2001-11-02T00:00:00.000Z",
   "duration": 92,
   "poster": "posters/monsters_inc.webp",
-  "youtubeTrailerId": "6tCxnHCqqxg",
   "budget": 115000000,
   "boxOffice": 580000000,
   "rating": 2,
-  "description": "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, 2 monsters realize things may not be what they think.",
+  "description": "<p>In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, 2 monsters realize things may not be what they think.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -113,6 +112,12 @@
   "studios": [
     {
       "studioId": 3
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "6tCxnHCqqxg",
+      "order": 1
     }
   ]
 }

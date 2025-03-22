@@ -7,11 +7,10 @@
   "releaseDate": "2021-09-03T00:00:00.000Z",
   "duration": 132,
   "poster": "posters/shang_chi.webp",
-  "youtubeTrailerId": "COGg-Vjauwo",
   "budget": 150000000,
   "boxOffice": 430000000,
   "rating": 2,
-  "description": "Shang-Chi, the master of unarmed weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization.",
+  "description": "<p>Shang-Chi, the master of unarmed weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization.</p>",
   "chapterKey": "mcu",
   "chapterOrder": 29,
   "awards": [],
@@ -129,6 +128,12 @@
     },
     {
       "studioId": 4
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "COGg-Vjauwo",
+      "order": 1
     }
   ]
 }

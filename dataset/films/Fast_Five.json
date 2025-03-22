@@ -7,11 +7,10 @@
   "releaseDate": "2011-04-29T00:00:00.000Z",
   "duration": 130,
   "poster": "posters/fast_and_furious_5.webp",
-  "youtubeTrailerId": "mw2AqdB5EVA",
   "budget": 125000000,
   "boxOffice": 626000000,
   "rating": 2,
-  "description": "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent.",
+  "description": "<p>Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent.</p>",
   "chapterKey": "fast-and-furious",
   "chapterOrder": 4,
   "awards": [],
@@ -126,6 +125,12 @@
   "studios": [
     {
       "studioId": 13
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "mw2AqdB5EVA",
+      "order": 1
     }
   ]
 }

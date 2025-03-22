@@ -7,11 +7,10 @@
   "releaseDate": "2005-05-19T00:00:00.000Z",
   "duration": 140,
   "poster": "posters/star_wars_episode_III.webp",
-  "youtubeTrailerId": "5UnjrG_N8hU",
   "budget": 113000000,
   "boxOffice": 849000000,
   "rating": 2,
-  "description": "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy.",
+  "description": "<p>Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy.</p>",
   "chapterKey": "star-wars",
   "chapterOrder": 3,
   "awards": [
@@ -107,6 +106,12 @@
     },
     {
       "studioId": 37
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "5UnjrG_N8hU",
+      "order": 1
     }
   ]
 }

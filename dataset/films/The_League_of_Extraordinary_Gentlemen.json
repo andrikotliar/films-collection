@@ -7,11 +7,10 @@
   "releaseDate": "2003-07-11T00:00:00.000Z",
   "duration": 110,
   "poster": "posters/league_of_extraordinary_gentlemen.webp",
-  "youtubeTrailerId": "_WWIiTlGyYQ",
   "budget": 78000000,
   "boxOffice": 179000000,
   "rating": 1,
-  "description": "In an alternate Victorian Age world, a group of famous contemporary fantasy, science fiction, and adventure characters team up on a secret mission.",
+  "description": "<p>In an alternate Victorian Age world, a group of famous contemporary fantasy, science fiction, and adventure characters team up on a secret mission.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [],
@@ -118,6 +117,12 @@
   "studios": [
     {
       "studioId": 6
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "_WWIiTlGyYQ",
+      "order": 1
     }
   ]
 }

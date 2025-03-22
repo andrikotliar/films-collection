@@ -7,11 +7,10 @@
   "releaseDate": "2015-07-17T00:00:00.000Z",
   "duration": 117,
   "poster": "posters/ant_man_1.webp",
-  "youtubeTrailerId": "pWdKf3MneyI",
   "budget": 130000000,
   "boxOffice": 519000000,
   "rating": 2,
-  "description": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world.",
+  "description": "<p>Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world.</p>",
   "chapterKey": "mcu",
   "chapterOrder": 14,
   "awards": [
@@ -136,6 +135,12 @@
     },
     {
       "studioId": 4
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "pWdKf3MneyI",
+      "order": 1
     }
   ]
 }

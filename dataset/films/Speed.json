@@ -7,11 +7,10 @@
   "releaseDate": "1994-06-10T00:00:00.000Z",
   "duration": 116,
   "poster": "posters/speed.webp",
-  "youtubeTrailerId": "8piqd2BWeGI",
   "budget": 30000000,
   "boxOffice": 350000000,
   "rating": 2,
-  "description": "A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph.",
+  "description": "<p>A young police officer must prevent a bomb exploding aboard a city bus by keeping its speed above 50 mph.</p>",
   "chapterKey": null,
   "chapterOrder": null,
   "awards": [
@@ -117,6 +116,12 @@
   "studios": [
     {
       "studioId": 6
+    }
+  ],
+  "trailers": [
+    {
+      "videoId": "8piqd2BWeGI",
+      "order": 1
     }
   ]
 }
