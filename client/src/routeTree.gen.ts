@@ -46,7 +46,7 @@ const LoginRouteRoute = LoginRouteImport.update({
   id: '/login',
   path: '/login',
   getParentRoute: () => rootRoute,
-} as any).lazy(() => import('./routes/login/route.lazy').then((d) => d.Route))
+} as any)
 
 const ConsoleRouteRoute = ConsoleRouteImport.update({
   id: '/console',
@@ -64,7 +64,7 @@ const FilmFilmIdRoute = FilmFilmIdImport.update({
   id: '/film/$filmId',
   path: '/film/$filmId',
   getParentRoute: () => rootRoute,
-} as any).lazy(() => import('./routes/film/$filmId.lazy').then((d) => d.Route))
+} as any)
 
 const ConsolePendingRouteRoute = ConsolePendingRouteImport.update({
   id: '/pending',
