@@ -2,7 +2,7 @@ import { FilmDetails } from '@/types';
 import { CSSProperties, FC, useMemo } from 'react';
 import styles from './SummarySection.module.css';
 import { Poster, Summary, Trailers } from './components';
-import { getFilmSummaryConfig } from '../../helpers';
+import { getFilmSummaryConfig } from '../../-helpers';
 import { TitleRow } from '../TitleRow/TitleRow';
 import { env } from '@/configs';
 

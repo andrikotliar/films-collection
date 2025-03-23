@@ -6,8 +6,8 @@ import {
   DataLink,
   LinksGroup,
   BoxOfficeValue,
-} from '../components';
-import { SummaryConfig } from '../types';
+} from '../-components';
+import { SummaryConfig } from '../-types';
 
 export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
   const values: SummaryConfig[] = [

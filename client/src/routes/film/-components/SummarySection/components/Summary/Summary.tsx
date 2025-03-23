@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { SummaryBlock } from '../SummaryBlock/SummaryBlock';
 import styles from './Summary.module.css';
-import { SummaryConfig } from '@/pages/film/types';
+import { SummaryConfig } from '@/routes/film/-types';
 
 type SummaryProps = {
   config: SummaryConfig[];
