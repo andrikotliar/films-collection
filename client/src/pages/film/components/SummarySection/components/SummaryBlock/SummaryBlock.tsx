@@ -12,7 +12,7 @@ export const SummaryBlock: FC<PropsWithChildren<SummaryBlockProps>> = ({
   return (
     <div className={styles.summaryBlock}>
       {label && <div className={styles.label}>{label}:</div>}
-      <div className={styles.content}>{children}</div>
+      <div>{children}</div>
     </div>
   );
 };
