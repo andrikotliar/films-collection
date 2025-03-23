@@ -1,0 +1,23 @@
+.link {
+  color: white;
+  position: relative;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.link::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  bottom: -2px;
+  background-color: white;
+  transition:
+    height 300ms,
+    bottom 300ms;
+}
+
+.link:hover::before {
+  height: 2px;
+}

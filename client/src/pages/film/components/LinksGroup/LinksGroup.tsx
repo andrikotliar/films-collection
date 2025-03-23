@@ -1,31 +1,25 @@
 import { FC } from 'react';
-import { TagLink, TagLinkProps } from '../TagLink/TagLink';
+import { DataLink, DataLinkProps } from '../DataLink/DataLink';
+import { buildQueryLink } from '@/helpers';
 import { LinksGroupWrapper } from '../LinksGroupWrapper/LinksGroupWrapper';
 
-type TagLinksGroupProps = {
+type LinksGroupProps = {
   basePath: string;
   items: { id: number; title: string }[];
-  variant?: TagLinkProps['variant'];
 };
 
-export const TagLinksGroup: FC<TagLinksGroupProps> = ({
-  basePath,
-  items,
-  variant,
-}) => {
+export const LinksGroup: FC<LinksGroupProps> = ({ basePath, items }) => {
   return (
     <LinksGroupWrapper>
       {items.map((item) => (
-        <TagLink
-          basePath="/"
-          query={{
+        <DataLink
+          path={buildQueryLink({
             [basePath]: [item.id],
-          }}
+          })}
           key={item.id}
-          variant={variant}
         >
           {item.title}
-        </TagLink>
+        </DataLink>
       ))}
     </LinksGroupWrapper>
   );

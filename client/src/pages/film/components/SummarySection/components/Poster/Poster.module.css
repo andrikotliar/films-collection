@@ -1,5 +1,5 @@
 .poster {
-  width: 280px;
+  width: 300px;
   border: var(--app-border);
   border-radius: var(--app-border-radius);
   overflow: hidden;

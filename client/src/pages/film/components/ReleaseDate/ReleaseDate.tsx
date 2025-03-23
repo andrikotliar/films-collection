@@ -1,6 +1,6 @@
 import { getFormattedDate } from '@/helpers';
 import { FC } from 'react';
-import { TagLink } from '../TagLink/TagLink';
+import { DataLink } from '../DataLink/DataLink';
 
 type ReleaseDateProps = {
   value: string;
@@ -14,9 +14,10 @@ export const ReleaseDate: FC<ReleaseDateProps> = ({ value }) => {
   const startDate = `${sourceDate.getFullYear()}-01-01`;
   const endDate = `${sourceDate.getFullYear()}-12-31`;
 
-  return (
-    <TagLink basePath="/" variant="gray" query={{ startDate, endDate }}>
-      {formattedDate}
-    </TagLink>
-  );
+  const path = buildQueryLink({
+    startDate,
+    endDate,
+  });
+
+  return <DataLink path={path}>{formattedDate}</DataLink>;
 };
