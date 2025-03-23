@@ -85,7 +85,7 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit }) => {
         />
       </FormRow>
       <FormRow align="center" gap={20}>
-        <Button type="submit">Create</Button>
+        {/* <Button type="submit">Create</Button> */}
       </FormRow>
     </form>
   );
