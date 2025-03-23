@@ -6,7 +6,12 @@ import { ConsoleContentLayout, ConsoleTitle, Island, Pagination } from '@/ui';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { number, object, string } from 'yup';
-import { AddFilmLink, AdminFilm, AdminFilmsTools } from './-components';
+import {
+  AddFilmLink,
+  AdminFilm,
+  AdminFilmsGrid,
+  AdminFilmsTools,
+} from './-components';
 
 const adminFilmsFilterSchema = object().shape({
   q: string(),
@@ -54,12 +59,12 @@ function PageContainer() {
     <ConsoleContentLayout>
       <ConsoleTitle>Manage films</ConsoleTitle>
       <AdminFilmsTools />
-      <AddFilmLink />
-      <Island hasPaddings={false}>
+      {/* <AddFilmLink /> */}
+      <AdminFilmsGrid>
         {data.films.map((film) => (
           <AdminFilm film={film} key={film.id} />
         ))}
-      </Island>
+      </AdminFilmsGrid>
       <Pagination
         total={data.total}
         perPageCounter={FILMS_ADMIN_LIST_PER_PAGE}

@@ -1,57 +1,16 @@
-.filmRow {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-  padding: 12px 10px;
-  border-bottom: var(--app-border);
-}
-
-.filmRow:last-child {
-  border-bottom: 0;
-}
-
-.filmRow:hover {
-  background-color: var(--gray-light);
-}
-
-.filmRowDraft {
-  background-color: var(--yellow-sand-light);
-}
-
-.filmRowDraft:hover {
-  background-color: var(--yellow-sand);
-}
-
-.titleRow {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
+.poster {
+  aspect-ratio: 9 / 14;
+  overflow: hidden;
+  border-radius: 8px;
 }
 
 .title {
-  font-size: 16px;
-  font-weight: bold;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 1.2;
 }
 
-.tools {
-  display: flex;
-  gap: 12px;
-}
-
-.tool {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.tool:hover {
+.title:hover {
   color: var(--blue-default);
-}
-
-.draftMark {
-  font-size: 10px;
-  text-transform: uppercase;
-  border: 1px solid black;
-  padding: 3px 10px;
-  border-radius: 5px;
 }

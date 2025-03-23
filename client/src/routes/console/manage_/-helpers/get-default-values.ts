@@ -1,5 +1,5 @@
-import { filmDefaultFormValues } from '../configs';
-import { FormMode } from '../enums';
+import { filmDefaultFormValues } from '../-configs';
+import { FormMode } from '../-enums';
 
 type Params = {
   isEdit: boolean;

@@ -1,9 +1,9 @@
-import { FilmsAdminListItem } from '@/types';
 import { FC } from 'react';
-import styles from './AdminFilm.module.css';
+import { LinkIcon } from 'lucide-react';
+import { FilmsAdminListItem } from '@/types';
 import { Link } from '@tanstack/react-router';
-import { EditIcon, SquareChartGanttIcon } from 'lucide-react';
-import classNames from 'classnames';
+import { Image } from '@/ui';
+import styles from './AdminFilm.module.css';
 
 type AdminFilmProps = {
   film: FilmsAdminListItem;
@@ -11,33 +11,17 @@ type AdminFilmProps = {
 
 export const AdminFilm: FC<AdminFilmProps> = ({ film }) => {
   return (
-    <div
-      className={classNames(styles.filmRow, {
-        [styles.filmRowDraft]: film.draft,
-      })}
-    >
-      <div className={styles.titleRow}>
-        <div className={styles.title}>{film.title}</div>
-        {film.draft && <div className={styles.draftMark}>Draft</div>}
+    <div className={styles.film}>
+      <div className={styles.poster}>
+        <Image src={film.poster} isExternal />
       </div>
-      <div className={styles.tools}>
-        <Link
-          to="/film/$filmId"
-          params={{ filmId: String(film.id) }}
-          className={styles.tool}
-        >
-          <SquareChartGanttIcon size={16} />
-          <span>Details</span>
-        </Link>
-        {/* <Link
-          to="/console/manage/$id"
-          params={{ id: String(film.id) }}
-          className={styles.tool}
-        >
-          <EditIcon size={14} />
-          <span>Edit</span>
-        </Link> */}
-      </div>
+      <Link
+        to="/film/$filmId"
+        params={{ filmId: film.id.toString() }}
+        className={styles.title}
+      >
+        <LinkIcon size={12} /> {film.title}
+      </Link>
     </div>
   );
 };
