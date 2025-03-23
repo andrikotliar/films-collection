@@ -14,10 +14,15 @@ export const ReleaseDate: FC<ReleaseDateProps> = ({ value }) => {
   const startDate = `${sourceDate.getFullYear()}-01-01`;
   const endDate = `${sourceDate.getFullYear()}-12-31`;
 
-  const path = buildQueryLink({
-    startDate,
-    endDate,
-  });
-
-  return <DataLink path={path}>{formattedDate}</DataLink>;
+  return (
+    <DataLink
+      basePath="/"
+      query={{
+        startDate,
+        endDate,
+      }}
+    >
+      {formattedDate}
+    </DataLink>
+  );
 };

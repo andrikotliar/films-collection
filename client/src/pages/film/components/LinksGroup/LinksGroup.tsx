@@ -1,6 +1,5 @@
 import { FC } from 'react';
-import { DataLink, DataLinkProps } from '../DataLink/DataLink';
-import { buildQueryLink } from '@/helpers';
+import { DataLink } from '../DataLink/DataLink';
 import { LinksGroupWrapper } from '../LinksGroupWrapper/LinksGroupWrapper';
 
 type LinksGroupProps = {
@@ -13,9 +12,10 @@ export const LinksGroup: FC<LinksGroupProps> = ({ basePath, items }) => {
     <LinksGroupWrapper>
       {items.map((item) => (
         <DataLink
-          path={buildQueryLink({
+          basePath="/"
+          query={{
             [basePath]: [item.id],
-          })}
+          }}
           key={item.id}
         >
           {item.title}

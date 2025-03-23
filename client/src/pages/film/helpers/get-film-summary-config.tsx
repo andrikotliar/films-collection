@@ -25,7 +25,7 @@ export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
       id: 'duration',
       title: 'Runtime',
       content: (
-        <DataLink path={buildQueryLink({ duration: film.duration })}>
+        <DataLink basePath="/" query={{ duration: film.duration }}>
           {film.duration} min
         </DataLink>
       ),
@@ -49,9 +49,10 @@ export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
         <LinksGroupWrapper>
           {film.collections.map((item) => (
             <DataLink
-              path={buildQueryLink({
+              basePath="/"
+              query={{
                 collectionId: item.id,
-              })}
+              }}
               key={item.id}
             >
               {item.title}
@@ -67,7 +68,7 @@ export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
       content: (
         <div>
           {film.budget ? (
-            <DataLink path={buildQueryLink({ budget: film.budget })}>
+            <DataLink basePath="/" query={{ budget: film.budget }}>
               {getFormattedMoneyValue(film.budget)}
             </DataLink>
           ) : (
@@ -97,17 +98,19 @@ export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
       content: (
         <LinksGroupWrapper>
           <DataLink
-            path={buildQueryLink({
+            basePath="/"
+            query={{
               seasonsTotal: film.seriesExtension?.seasonsTotal ?? 1,
-            })}
+            }}
           >
             {film.seriesExtension?.seasonsTotal}{' '}
             {getPluralWord('season', film.seriesExtension?.seasonsTotal)}
           </DataLink>
           <DataLink
-            path={buildQueryLink({
+            basePath="/"
+            query={{
               episodesTotal: film.seriesExtension?.episodesTotal ?? 0,
-            })}
+            }}
           >
             {film.seriesExtension?.episodesTotal} episodes
           </DataLink>

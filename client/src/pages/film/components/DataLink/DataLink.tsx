@@ -1,17 +1,20 @@
 import { FC, PropsWithChildren } from 'react';
 import { Link } from '@tanstack/react-router';
+import { FileRoutesByTo } from '@/routeTree.gen';
 import styles from './DataLink.module.css';
 
 export type DataLinkProps = {
-  path: string;
+  basePath: keyof FileRoutesByTo;
+  query: { [key: string]: unknown };
 };
 
 export const DataLink: FC<PropsWithChildren<DataLinkProps>> = ({
-  path,
+  basePath,
+  query,
   children,
 }) => {
   return (
-    <Link to={path} className={styles.link}>
+    <Link to={basePath} search={query} className={styles.link}>
       {children}
     </Link>
   );

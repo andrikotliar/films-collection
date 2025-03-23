@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { buildQueryLink, getFormattedMoneyValue } from '@/helpers';
+import { getFormattedMoneyValue } from '@/helpers';
 import { checkHasBoxOfficeBenefit } from './helpers';
 import { TrendingDownIcon, TrendingUpIcon } from 'lucide-react';
 import styles from './BoxOfficeValue.module.css';
@@ -18,7 +18,7 @@ export const BoxOfficeValue: FC<BoxOfficeValueProps> = ({
 
   return (
     <div className={styles.boxOffice}>
-      <DataLink path={buildQueryLink({ budget: boxOffice })}>
+      <DataLink basePath="/" query={{ boxOffice }}>
         {getFormattedMoneyValue(boxOffice)}
       </DataLink>
       {isBoxOfficeSuccessful ? (
