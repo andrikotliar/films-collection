@@ -2,7 +2,7 @@ import { PendingFilm } from '@/types';
 import { FC } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
 import { PendingFilmForm } from '../PendingFilmForm/PendingFilmForm';
-import { PendingFilmFormValues } from '../../types';
+import { PendingFilmFormValues } from '../../-types';
 import { useMutation } from '@tanstack/react-query';
 import { PendingFilmsApi } from '@/api';
 
