@@ -1,0 +1,16 @@
+.poster {
+  aspect-ratio: 9 / 14;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.title {
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 1.2;
+}
+
+.title:hover {
+  color: var(--blue-default);
+}

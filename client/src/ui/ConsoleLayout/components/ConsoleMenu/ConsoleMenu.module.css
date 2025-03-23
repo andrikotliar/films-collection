@@ -8,7 +8,7 @@
   background-color: white;
   transition: width 300ms;
   overflow: hidden;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 12px 29px 0px;
   z-index: 9999;
 }
 

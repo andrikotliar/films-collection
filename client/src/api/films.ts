@@ -4,7 +4,9 @@ import {
   FilmSearchResult,
   FilmsListFilters,
   FilmsListResponse,
+  FilmsAdminListResponse,
 } from '@/types';
+import { AdminFilmsServerFilters } from '@/types';
 
 export const FilmsApi = {
   getList(filters: FilmsListFilters) {
@@ -22,6 +24,12 @@ export const FilmsApi = {
       queryParams: {
         q: searchString,
       },
+    });
+  },
+
+  getAdminFilmsList(filters: AdminFilmsServerFilters) {
+    return apiClient.get<FilmsAdminListResponse>('/films/admin', {
+      queryParams: filters,
     });
   },
 };

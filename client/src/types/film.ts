@@ -89,6 +89,7 @@ export type Film = {
   trailers: FilmTrailer[];
   chapters: Chapter[] | null;
   chapterOrder: number | null;
+  draft?: boolean;
 };
 
 export type FilmDetails = Omit<
@@ -169,3 +170,13 @@ export type FilmsListFilters = FilmsListPagination &
     searchLastVisitedFilms: boolean | null;
     ids: number[] | null;
   }>;
+
+export type FilmsAdminListItem = Pick<
+  Film,
+  'id' | 'title' | 'poster' | 'draft'
+>;
+
+export type FilmsAdminListResponse = {
+  films: FilmsAdminListItem[];
+  total: number;
+};
