@@ -18,7 +18,7 @@ export const BoxOfficeValue: FC<BoxOfficeValueProps> = ({
 
   return (
     <div className={styles.boxOffice}>
-      <DataLink path={buildQueryLink({ budget: boxOffice })}>
+      <DataLink path={buildQueryLink({ boxOffice })}>
         {getFormattedMoneyValue(boxOffice)}
       </DataLink>
       {isBoxOfficeSuccessful ? (
