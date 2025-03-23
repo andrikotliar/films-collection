@@ -29,14 +29,14 @@ export const AdminFilm: FC<AdminFilmProps> = ({ film }) => {
           <SquareChartGanttIcon size={16} />
           <span>Details</span>
         </Link>
-        <Link
+        {/* <Link
           to="/console/manage/$id"
           params={{ id: String(film.id) }}
           className={styles.tool}
         >
           <EditIcon size={14} />
           <span>Edit</span>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
