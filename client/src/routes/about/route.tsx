@@ -1,7 +1,8 @@
 import { useDocumentTitle, useScrollToTop } from '@/hooks';
 import { ArticleContent } from '@/ui';
+import { createFileRoute } from '@tanstack/react-router';
 
-export const AboutPage = () => {
+const AboutPageContainer = () => {
   useDocumentTitle('About');
   useScrollToTop([]);
 
@@ -119,3 +120,7 @@ export const AboutPage = () => {
     </ArticleContent>
   );
 };
+
+export const Route = createFileRoute('/about')({
+  component: AboutPageContainer,
+});
