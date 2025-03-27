@@ -1,11 +1,11 @@
 .summaryBlock {
+  color: white;
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
 .label {
-  color: white;
   font-size: 12px;
   text-transform: uppercase;
   width: 135px;

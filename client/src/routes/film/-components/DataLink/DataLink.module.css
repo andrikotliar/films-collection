@@ -1,5 +1,4 @@
 .link {
-  color: white;
   position: relative;
   font-size: 18px;
   font-weight: bold;
@@ -20,4 +19,10 @@
 
 .link:hover::before {
   height: 2px;
+}
+
+@media (max-width: 480px) {
+  .link {
+    font-size: 16px;
+  }
 }
