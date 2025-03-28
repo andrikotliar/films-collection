@@ -11,7 +11,9 @@ export class PendingFilmsRepository {
     return { list, total };
   }
 
-  create(data: Pick<PendingFilm, 'title' | 'priority'>) {
+  create(
+    data: Pick<PendingFilm, 'title' | 'priority' | 'collectionId' | 'rating'>,
+  ) {
     return this.prismaClient.pendingFilm.create({ data });
   }
 
