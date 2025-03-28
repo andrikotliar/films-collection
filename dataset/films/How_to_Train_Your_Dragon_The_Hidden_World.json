@@ -22,28 +22,32 @@
     },
     {
       "personId": 51,
-      "characterName": "Astrid ",
+      "characterName": "Astrid",
       "characterImage": "characters/how_to_train_your_dragon_the_hidden_world_astrid.webp"
     },
     {
       "personId": 366,
-      "characterName": "Grimmel ",
+      "characterName": "Grimmel",
       "characterImage": "characters/how_to_train_your_dragon_the_hidden_world_grimmel.webp"
     },
     {
       "personId": 230,
-      "characterName": "Gobber ",
+      "characterName": "Gobber",
       "characterImage": "characters/how_to_train_your_dragon_the_hidden_world_gobber.webp"
     },
     {
       "personId": 685,
-      "characterName": "Eret ",
+      "characterName": "Eret",
       "characterImage": "characters/how_to_train_your_dragon_the_hidden_world_eret.webp"
     }
   ],
   "collections": [
     {
       "collectionId": 28,
+      "order": null
+    },
+    {
+      "collectionId": 32,
       "order": null
     }
   ],
