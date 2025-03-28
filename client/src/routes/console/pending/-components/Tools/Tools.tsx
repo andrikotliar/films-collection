@@ -4,6 +4,7 @@ import {
   StatusFilterButton,
   FieldLabel,
   TextInput,
+  Checkbox,
 } from '@/ui';
 import styles from './Tools.module.css';
 import { debounce } from '@/helpers';
@@ -78,7 +79,7 @@ export const Tools = () => {
   };
 
   return (
-    <div>
+    <div className={styles.tools}>
       <div className={styles.toolsRow}>
         <TextInput
           type="text"
@@ -98,18 +99,16 @@ export const Tools = () => {
         </div>
       </div>
       <div className={styles.prioritiesFilter}>
-        <FieldLabel>Filter by priority</FieldLabel>
+        <FieldLabel>Filter by Priority:</FieldLabel>
         <div className={styles.priorities}>
           {priorityOptions.map((option) => (
-            <StatusFilterButton
-              key={option.value}
-              title={option.label}
+            <Checkbox
+              key={option.label}
+              type="checkbox"
+              label={option.label}
               value={String(option.value)}
-              color={option.color as StatusColor}
               onChange={handleApplyPriorityFilter}
               defaultChecked={searchParams.priorities?.includes(option.value)}
-              name="priorities"
-              isMultiple
             />
           ))}
         </div>

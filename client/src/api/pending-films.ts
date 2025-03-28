@@ -3,7 +3,7 @@ import { PendingFilm, PendingFilmServerFilters } from '@/types';
 
 type UpdatePendingFilmParams = {
   filmId: number;
-  payload: Pick<PendingFilm, 'title' | 'priority'>;
+  payload: Omit<PendingFilm, 'id' | 'createdAt'>;
 };
 
 type PendingFilmsListResponse = {
@@ -18,7 +18,7 @@ export const PendingFilmsApi = {
     });
   },
 
-  createPendingFilm(data: Pick<PendingFilm, 'title' | 'priority'>) {
+  createPendingFilm(data: Omit<PendingFilm, 'id' | 'createdAt'>) {
     return apiClient.post<PendingFilm>('/pending-films', {
       payload: data,
     });

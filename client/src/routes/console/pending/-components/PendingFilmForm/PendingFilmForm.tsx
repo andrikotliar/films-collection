@@ -7,10 +7,14 @@ import {
   FieldLabel,
   FormTitle,
   Island,
+  FormSelect,
+  FormRatingInput,
 } from '@/ui';
 import { LoaderCircle, SaveIcon } from 'lucide-react';
 import { FC, FormEventHandler } from 'react';
 import { StatusColor } from '@/types';
+import { useQuery } from '@tanstack/react-query';
+import { fetchInitialDataQuery } from '@/queries';
 
 type PendingFilmFormProps = {
   title: string;
@@ -23,6 +27,8 @@ export const PendingFilmForm: FC<PendingFilmFormProps> = ({
   isSaving,
   title,
 }) => {
+  const { data } = useQuery(fetchInitialDataQuery());
+
   return (
     <Island>
       <form onSubmit={onSubmit} className={styles.formWrapper}>
@@ -46,6 +52,14 @@ export const PendingFilmForm: FC<PendingFilmFormProps> = ({
             ))}
           </div>
         </div>
+        {data && (
+          <FormSelect
+            name="collectionId"
+            options={data.options.collections}
+            label="Collection"
+          />
+        )}
+        <FormRatingInput name="rating" size={3} label="Rating" />
         <Button
           type="submit"
           icon={isSaving ? <LoaderCircle className="spin" /> : <SaveIcon />}

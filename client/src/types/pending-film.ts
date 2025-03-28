@@ -2,6 +2,8 @@ export type PendingFilm = {
   id: number;
   title: string;
   priority: number;
+  rating: number | null;
+  collectionId: number | null;
   createdAt: string;
 };
 
