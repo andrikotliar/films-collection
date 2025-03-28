@@ -35,3 +35,4 @@ export * from './FormCheckboxesGroup/FormCheckboxesGroup';
 export * from './VideoInput';
 export * from './TextArea';
 export * from './DataRow/DataRow';
+export * from './RatingInput';
