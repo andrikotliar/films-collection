@@ -14,7 +14,7 @@
     transform 200ms,
     visibility 200ms;
   visibility: hidden;
-  z-index: 100;
+  z-index: 300;
 }
 
 .openAppMenu {

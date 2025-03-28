@@ -9,6 +9,7 @@ import {
   HTMLAttributes,
   PropsWithChildren,
   RefObject,
+  useCallback,
   useEffect,
   useRef,
   useState,
@@ -52,10 +53,9 @@ export const PopupMenu: FC<PropsWithChildren<PopupMenuProps>> = ({
 
   useCloseOnScroll(onClose);
 
-  useEffect(() => {
-    if (isOpen && triggerRef.current && menuRef.current) {
-      const { width, height: menuHeight } =
-        menuRef.current.getBoundingClientRect();
+  const updateMenuPosition = useCallback(
+    (menuElement: HTMLDivElement, triggerElement: HTMLElement) => {
+      const { width, height: menuHeight } = menuElement.getBoundingClientRect();
 
       const {
         left,
@@ -63,7 +63,7 @@ export const PopupMenu: FC<PropsWithChildren<PopupMenuProps>> = ({
         right,
         top,
         width: buttonWidth,
-      } = triggerRef.current.getBoundingClientRect();
+      } = triggerElement.getBoundingClientRect();
 
       const isOverflowBottom = bottom + menuHeight >= window.innerHeight;
       const isOverflowTop = top - menuHeight <= 0;
@@ -83,8 +83,29 @@ export const PopupMenu: FC<PropsWithChildren<PopupMenuProps>> = ({
       if (shouldAdjustToTriggerWidth) {
         setMenuWidth(buttonWidth);
       }
+    },
+    [positionMarker, shouldAdjustToTriggerWidth, menuMargin],
+  );
+
+  useEffect(() => {
+    if (isOpen && triggerRef.current && menuRef.current) {
+      updateMenuPosition(menuRef.current, triggerRef.current);
     }
-  }, [isOpen, triggerRef, menuRef, shouldAdjustToTriggerWidth]);
+  }, [isOpen, triggerRef, menuRef, updateMenuPosition]);
+
+  useEffect(() => {
+    const observer = new ResizeObserver(() => {
+      if (triggerRef.current && menuRef.current) {
+        updateMenuPosition(menuRef.current, triggerRef.current);
+      }
+    });
+
+    observer.observe(document.body);
+
+    return () => {
+      observer.disconnect();
+    };
+  }, [triggerRef, menuRef, updateMenuPosition]);
 
   useClickOutside({
     isOpen,
