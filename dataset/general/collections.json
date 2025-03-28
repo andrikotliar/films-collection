@@ -153,5 +153,40 @@
     "id": 31,
     "title": "Avatar Universe",
     "category": "CINEMATIC_UNIVERSE"
+  },
+  {
+    "id": 32,
+    "title": "Dragons",
+    "category": "GENERAL"
+  },
+  {
+    "id": 33,
+    "title": "Aliens",
+    "category": "GENERAL"
+  },
+  {
+    "id": 34,
+    "title": "Spaceships",
+    "category": "GENERAL"
+  },
+  {
+    "id": 35,
+    "title": "Magic",
+    "category": "GENERAL"
+  },
+  {
+    "id": 36,
+    "title": "Time Manipulation",
+    "category": "GENERAL"
+  },
+  {
+    "id": 37,
+    "title": "Journey",
+    "category": "GENERAL"
+  },
+  {
+    "id": 38,
+    "title": "Little-known Pearls",
+    "category": "GENERAL"
   }
 ]

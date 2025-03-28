@@ -24,6 +24,8 @@ export const EditPendingFilmForm: FC<EditPendingFilmFormProps> = ({
     defaultValues: {
       title: defaultValues.title,
       priority: String(defaultValues.priority),
+      rating: defaultValues.rating,
+      collectionId: String(defaultValues.collectionId),
     },
   });
 
@@ -33,6 +35,8 @@ export const EditPendingFilmForm: FC<EditPendingFilmFormProps> = ({
       payload: {
         title: data.title.trim(),
         priority: Number(data.priority),
+        rating: data.rating,
+        collectionId: Number(defaultValues.collectionId),
       },
     });
   };

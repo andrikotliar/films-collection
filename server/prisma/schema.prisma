@@ -131,12 +131,13 @@ model FilmStudio {
 }
 
 model Collection {
-  id          Int                @id @default(autoincrement())
-  title       String             @unique
-  description String?
-  category    CollectionCategory @default(GENERAL)
-  films       FilmCollection[]
-  events      CollectionEvent[]
+  id           Int                @id @default(autoincrement())
+  title        String             @unique
+  description  String?
+  category     CollectionCategory @default(GENERAL)
+  films        FilmCollection[]
+  events       CollectionEvent[]
+  pendingFilms PendingFilm[]
 
   @@map("collections")
 }
@@ -234,11 +235,14 @@ model User {
 }
 
 model PendingFilm {
-  id        Int      @id @default(autoincrement())
-  title     String
-  priority  Int      @default(1)
-  createdAt DateTime @default(now()) @map("created_at")
-  updatedAt DateTime @updatedAt @map("updated_at")
+  id           Int         @id @default(autoincrement())
+  title        String
+  priority     Int         @default(1)
+  rating       Int?
+  collectionId Int?
+  collection   Collection? @relation(fields: [collectionId], references: [id])
+  createdAt    DateTime    @default(now()) @map("created_at")
+  updatedAt    DateTime    @updatedAt @map("updated_at")
 
   @@map("pending_films")
 }

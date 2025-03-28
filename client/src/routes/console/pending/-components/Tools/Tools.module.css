@@ -1,3 +1,7 @@
+.tools {
+  margin: 10px 0;
+}
+
 .toolsRow {
   display: flex;
   justify-content: space-between;
@@ -12,12 +16,9 @@
 
 .prioritiesFilter {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
-  padding: 20px;
-  background-color: white;
-  border-radius: var(--app-border-radius);
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .priorities {

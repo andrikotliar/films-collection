@@ -27,11 +27,11 @@ export const useClickOutside = ({
 
   useEffect(() => {
     if (isOpen) {
-      document.addEventListener('click', closeMenuHandler);
+      document.body.addEventListener('click', closeMenuHandler);
     }
 
     return () => {
-      document.removeEventListener('click', closeMenuHandler);
+      document.body.removeEventListener('click', closeMenuHandler);
     };
   }, [isOpen]);
 };

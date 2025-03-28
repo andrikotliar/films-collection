@@ -35,6 +35,8 @@ const pendingFilmsFilterSchema = object().shape({
 const defaultFormValues: PendingFilmFormValues = {
   title: '',
   priority: '1',
+  collectionId: null,
+  rating: null,
 };
 
 export const Route = createFileRoute('/console/pending')({
@@ -93,6 +95,8 @@ function PageContainer() {
     createPendingFilm({
       title: data.title.trim(),
       priority: Number(data.priority),
+      collectionId: data.collectionId ? Number(data.collectionId) : null,
+      rating: data.rating,
     });
   };
 

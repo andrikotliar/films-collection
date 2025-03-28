@@ -12,6 +12,8 @@ export const PendingFilmsUpdateBodySchema = Type.Object(
   {
     title: Type.Optional(Type.String()),
     priority: Type.Optional(Type.Number({ minimum: 1, maximum: 3 })),
+    collectionId: Type.Optional(Type.Number()),
+    rating: Type.Optional(Type.Number({ minimum: 1, maximum: 3 })),
   },
   { additionalProperties: false },
 );
