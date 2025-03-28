@@ -3,3 +3,4 @@ export * from './convert-enum-value-to-label';
 export * from './set-cookies';
 export * from './get-cookie';
 export * from './error-handler';
+export * from './clear-cookies';
