@@ -13,10 +13,6 @@ const sortingFields: ListOption[] = [
     label: 'Title',
     value: 'title',
   },
-  {
-    label: 'Status',
-    value: 'publishStatus',
-  },
 ];
 
 const routeApi = getRouteApi('/console/manage');

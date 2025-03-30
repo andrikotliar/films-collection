@@ -2,16 +2,11 @@ import { FILMS_ADMIN_LIST_PER_PAGE } from '@/constants';
 import { useDocumentTitle } from '@/hooks';
 import { fetchAdminListQuery } from '@/queries';
 import { AdminFilmsQueryFilters } from '@/types';
-import { ConsoleContentLayout, ConsoleTitle, Island, Pagination } from '@/ui';
+import { ConsoleContent, ConsoleTitle, Island, Pagination } from '@/ui';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
 import { number, object, string } from 'yup';
-import {
-  AddFilmLink,
-  AdminFilm,
-  AdminFilmsGrid,
-  AdminFilmsTools,
-} from './-components';
+import { AdminFilm, AdminFilmsGrid, AdminFilmsTools } from './-components';
 
 const adminFilmsFilterSchema = object().shape({
   q: string(),
@@ -56,21 +51,23 @@ function PageContainer() {
   };
 
   return (
-    <ConsoleContentLayout>
+    <ConsoleContent>
       <ConsoleTitle>Manage films</ConsoleTitle>
       <AdminFilmsTools />
       {/* <AddFilmLink /> */}
-      <AdminFilmsGrid>
-        {data.films.map((film) => (
-          <AdminFilm film={film} key={film.id} />
-        ))}
-      </AdminFilmsGrid>
+      <Island>
+        <AdminFilmsGrid>
+          {data.films.map((film) => (
+            <AdminFilm film={film} key={film.id} />
+          ))}
+        </AdminFilmsGrid>
+      </Island>
       <Pagination
         total={data.total}
         perPageCounter={FILMS_ADMIN_LIST_PER_PAGE}
         onPageChange={handlePageChange}
         currentPageIndex={searchParams.pageIndex}
       />
-    </ConsoleContentLayout>
+    </ConsoleContent>
   );
 }

@@ -7,4 +7,8 @@ export const AuthenticationApi = {
       payload,
     });
   },
+
+  logout() {
+    return apiClient.post('/auth/logout');
+  },
 };

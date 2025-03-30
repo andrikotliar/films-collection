@@ -75,7 +75,7 @@ export class FilmsService {
 
     return this.filmsRepository.findAndCountAdmin(filters, {
       skip,
-      limit: 30,
+      limit: 32,
       orderBy: { [orderKey]: order },
     });
   }

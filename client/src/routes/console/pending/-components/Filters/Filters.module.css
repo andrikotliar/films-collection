@@ -1,13 +1,13 @@
-.tools {
-  margin: 10px 0;
+.filters {
+  margin-top: 20px;
 }
 
-.toolsRow {
+.filtersRow {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .search {

@@ -102,9 +102,7 @@ export class ApiClient {
   ) {
     return await this.request<T>(path, {
       ...options,
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: this.setHeaders(options),
       method: 'POST',
       body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
@@ -116,9 +114,7 @@ export class ApiClient {
   ) {
     return await this.request<T>(path, {
       ...options,
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: this.setHeaders(options),
       method: 'PATCH',
       body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
@@ -131,9 +127,7 @@ export class ApiClient {
     return await this.request<T>(path, {
       ...options,
       method: 'PUT',
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: this.setHeaders(options),
       body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
@@ -145,11 +139,7 @@ export class ApiClient {
     return await this.request<T>(path, {
       ...options,
       method: 'DELETE',
-      headers: options?.payload
-        ? {
-            'Content-Type': 'application/json',
-          }
-        : undefined,
+      headers: this.setHeaders(options),
       body: options?.payload ? JSON.stringify(options.payload) : undefined,
     });
   }
@@ -195,6 +185,18 @@ export class ApiClient {
 
       throw new Error(`Missing value for parameter: ${key}`);
     });
+  }
+
+  private setHeaders(
+    options?: Pick<IFetchOptions, 'payload' | 'queryParams' | 'params'>,
+  ) {
+    if (!options?.payload) {
+      return undefined;
+    }
+
+    return {
+      'Content-Type': 'application/json',
+    };
   }
 }
 

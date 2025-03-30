@@ -24,9 +24,18 @@
 }
 
 .consoleHeaderTitle {
+  font-size: 14px;
   color: var(--gray-dark);
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.logoutButton {
+  margin-left: auto;
+}
+
+.logoutButton:hover {
+  color: var(--blue-default);
 }
 
 @media (max-width: 785px) {

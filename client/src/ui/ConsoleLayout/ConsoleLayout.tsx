@@ -29,9 +29,9 @@ export const ConsoleLayout = () => {
 
   return (
     <div className={styles.consoleLayout}>
-      <ConsoleMenu isMenuOpen={isMenuOpen} />
+      <ConsoleHeader isMenuOpen={isMenuOpen} onMenuOpen={handleMenuOpen} />
       <div className={styles.consolePage}>
-        <ConsoleHeader isMenuOpen={isMenuOpen} onMenuOpen={handleMenuOpen} />
+        <ConsoleMenu isMenuOpen={isMenuOpen} />
         <div className={styles.consoleWorkingArea}>
           <Outlet />
         </div>
