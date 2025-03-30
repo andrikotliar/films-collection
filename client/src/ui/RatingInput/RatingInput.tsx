@@ -1,5 +1,5 @@
 import { StarIcon } from 'lucide-react';
-import { FC, Fragment } from 'react';
+import { FC } from 'react';
 import styles from './RatingInput.module.css';
 import { FieldLabel } from '../FieldLabel/FieldLabel';
 
@@ -30,8 +30,7 @@ export const RatingInput: FC<RatingInputProps> = ({
                 type="radio"
                 className={styles.input}
                 name={name}
-                value={value}
-                defaultChecked={value === defaultValue}
+                checked={value === defaultValue}
                 onChange={() => onChange(value)}
               />
               <StarIcon className={styles.starIcon} />

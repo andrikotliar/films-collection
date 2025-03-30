@@ -29,7 +29,7 @@ export class UsersService {
     };
   }
 
-  async setRefreshToken(userId: number, token: string) {
+  async setRefreshToken(userId: number, token: string | null) {
     return this.usersRepository.updateById(userId, {
       refreshToken: token,
     });

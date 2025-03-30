@@ -1,6 +1,7 @@
 import { FastifyReply, FastifyRequest } from 'fastify';
 import { AuthService } from './auth.service';
 import {
+  clearCookies,
   getCookie,
   MAX_AGE_24_HOURS,
   MAX_AGE_7_DAYS,
@@ -80,5 +81,17 @@ export class AuthController {
     ]);
 
     return reply.status(ResponseCode.OK).send({ userId: result.userId });
+  }
+
+  async logout(request: FastifyRequest, reply: FastifyReply) {
+    const accessToken = getCookie(request, 'ACCESS_TOKEN');
+
+    if (accessToken) {
+      await this.authService.logout(accessToken);
+    }
+
+    clearCookies(reply, ['ACCESS_TOKEN', 'REFRESH_TOKEN']);
+
+    return reply.status(ResponseCode.OK).send({ status: 'ok' });
   }
 }

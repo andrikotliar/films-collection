@@ -65,6 +65,16 @@ export class AuthService {
     return this.usersService.createUser(payload);
   }
 
+  logout(token: string) {
+    const decodedToken = this.jwtService.decode<AuthTokenPayload>(token);
+
+    if (!decodedToken) {
+      return null;
+    }
+
+    return this.usersService.setRefreshToken(decodedToken.id, null);
+  }
+
   createToken(payload: AuthTokenPayload, expTime: string) {
     return this.jwtService.sign(payload, { expiresIn: expTime });
   }

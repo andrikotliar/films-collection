@@ -8,6 +8,7 @@ export type ApiEndpoint =
   | '/pending-films/:filmId'
   | '/auth/login'
   | '/auth/refresh'
+  | '/auth/logout'
   | '/collection-events'
   | '/collection-events/:eventId'
   | '/collection-events/admin/list';

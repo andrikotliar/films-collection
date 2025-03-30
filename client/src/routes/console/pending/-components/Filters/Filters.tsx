@@ -1,17 +1,16 @@
 import {
   SortingParams,
   SortingPopup,
-  StatusFilterButton,
   FieldLabel,
   TextInput,
   Checkbox,
 } from '@/ui';
-import styles from './Tools.module.css';
+import styles from './Filters.module.css';
 import { debounce } from '@/helpers';
 import { getRouteApi } from '@tanstack/react-router';
 import { ChangeEvent, useCallback } from 'react';
 import { priorityOptions } from '@/configs';
-import { SortingOrder, StatusColor } from '@/types';
+import { SortingOrder } from '@/types';
 import { setPriorities } from './helpers';
 
 const routeApi = getRouteApi('/console/pending');
@@ -22,7 +21,7 @@ const sortingFields = [
   { label: 'Title', value: 'title' },
 ];
 
-export const Tools = () => {
+export const Filters = () => {
   const navigate = routeApi.useNavigate();
   const searchParams = routeApi.useSearch();
 
@@ -79,8 +78,8 @@ export const Tools = () => {
   };
 
   return (
-    <div className={styles.tools}>
-      <div className={styles.toolsRow}>
+    <div className={styles.filters}>
+      <div className={styles.filtersRow}>
         <TextInput
           type="text"
           onChange={debouncedSearch}

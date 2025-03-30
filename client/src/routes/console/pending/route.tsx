@@ -1,27 +1,15 @@
 import { PendingFilmsApi } from '@/api';
 import { fetchPendingFilmsListQuery } from '@/queries';
-import { PendingFilm, PendingFilmQueryFilters } from '@/types';
-import {
-  ConfirmModal,
-  ConsoleContentLayout,
-  ConsoleTitle,
-  Island,
-  Pagination,
-} from '@/ui';
+import { PendingFilmQueryFilters } from '@/types';
+import { ConsoleContent, ConsoleTitle, Pagination } from '@/ui';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { createFileRoute } from '@tanstack/react-router';
-import { useState } from 'react';
 import { FormProvider, SubmitHandler, useForm } from 'react-hook-form';
 import { number, object, string } from 'yup';
 import { createPendingFilmSchema } from './-validation';
 import { PendingFilmFormValues } from './-types';
-import {
-  PendingFilmForm,
-  EditPendingFilmModal,
-  PendingFilmRow,
-  Tools,
-} from './-components';
+import { PendingFilmForm, PendingFilmsList, Filters } from './-components';
 import { PENDING_FILMS_PER_PAGE } from '@/constants';
 
 const pendingFilmsFilterSchema = object().shape({
@@ -55,11 +43,6 @@ export const Route = createFileRoute('/console/pending')({
 });
 
 function PageContainer() {
-  const [editModalContent, setEditModalContent] = useState<PendingFilm | null>(
-    null,
-  );
-  const [filmToDelete, setFilmToDelete] = useState<PendingFilm | null>(null);
-
   const searchParams = Route.useSearch();
   const navigate = Route.useNavigate();
 
@@ -79,15 +62,6 @@ function PageContainer() {
       form.reset(defaultFormValues);
     },
   });
-
-  const { mutate: deletePendingFilm, isPending: isDeleteInProgress } =
-    useMutation({
-      mutationFn: PendingFilmsApi.deletePendingFilm,
-      onSuccess: () => {
-        refetch();
-        setFilmToDelete(null);
-      },
-    });
 
   const handleCreatePendingFilm: SubmitHandler<PendingFilmFormValues> = (
     data,
@@ -109,12 +83,8 @@ function PageContainer() {
     });
   };
 
-  const handleDeletePendingFilm = (film: PendingFilm) => {
-    deletePendingFilm(film.id);
-  };
-
   return (
-    <ConsoleContentLayout>
+    <ConsoleContent>
       <ConsoleTitle>Pending Films</ConsoleTitle>
       <FormProvider {...form}>
         <PendingFilmForm
@@ -123,40 +93,14 @@ function PageContainer() {
           title="Add pending film"
         />
       </FormProvider>
-      <Tools />
-      <Island hasPaddings={false}>
-        {data.list.map((film) => (
-          <PendingFilmRow
-            key={film.id}
-            data={film}
-            onDelete={() => setFilmToDelete(film)}
-            onEdit={() => setEditModalContent(film)}
-            isDeleteInProgress={isDeleteInProgress}
-          />
-        ))}
-      </Island>
-
+      <Filters />
+      <PendingFilmsList list={data.list} onRefetchList={refetch} />
       <Pagination
         currentPageIndex={searchParams.pageIndex}
         total={data.total}
         onPageChange={handlePageChange}
         perPageCounter={PENDING_FILMS_PER_PAGE}
       />
-
-      <EditPendingFilmModal
-        onClose={() => setEditModalContent(null)}
-        defaultValues={editModalContent}
-        refetch={refetch}
-      />
-
-      <ConfirmModal
-        title={`Confirm deleting ${filmToDelete?.title}`}
-        data={filmToDelete}
-        onClose={() => setFilmToDelete(null)}
-        onConfirm={handleDeletePendingFilm}
-        confirmButtonTitle="Delete"
-        confirmButtonVariant="danger"
-      />
-    </ConsoleContentLayout>
+    </ConsoleContent>
   );
 }

@@ -1,14 +1,14 @@
 .menuWrapper {
   position: sticky;
-  top: var(--header-height);
+  top: calc(var(--header-height) + var(--console-header-height));
   width: 300px;
   flex-shrink: 0;
-  min-height: var(--app-height);
+  min-height: calc(var(--app-height) - var(--console-header-height));
   border-right: var(--app-border);
   background-color: white;
   transition: width 300ms;
   overflow: hidden;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 12px 29px 0px;
+  border-right: var(--app-border);
   z-index: 50;
 }
 
@@ -24,7 +24,6 @@
 @media (max-width: 785px) {
   .menuWrapper {
     position: fixed;
-    top: calc(var(--header-height) + var(--console-header-height));
     left: 0;
     width: 200px;
   }

@@ -1,4 +1,4 @@
 export * from './PendingFilmForm/PendingFilmForm';
-export * from './PendingFilmRow/PendingFilmRow';
-export * from './Tools/Tools';
+export * from './PendingFilmsList/PendingFilmsList';
+export * from './Filters/Filters';
 export * from './EditPendingFilmModal/EditPendingFilmModal';

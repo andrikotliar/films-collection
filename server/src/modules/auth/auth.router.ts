@@ -25,4 +25,10 @@ export const AuthRouter = async (authModule: FastifyInstance) => {
     url: '/refresh',
     handler: authModule.authController.refreshTokens,
   });
+
+  authModule.route({
+    method: 'POST',
+    url: '/logout',
+    handler: authModule.authController.logout,
+  });
 };

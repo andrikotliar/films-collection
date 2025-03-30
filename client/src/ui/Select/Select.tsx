@@ -92,6 +92,10 @@ export const Select: FC<SelectProps> = ({
   useEffect(() => {
     if (!defaultValue) {
       setInternalValue({});
+
+      if (inputRef.current) {
+        inputRef.current.value = '';
+      }
     }
   }, [defaultValue]);
 

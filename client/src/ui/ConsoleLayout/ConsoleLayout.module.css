@@ -1,15 +1,14 @@
 .consoleLayout {
-  --console-header-height: 55px;
+  --console-header-height: 40px;
+}
+
+.consolePage {
   display: flex;
   align-items: flex-start;
   background-color: var(--gray-extra-light);
 }
 
-.consolePage {
-  flex-grow: 1;
-  min-height: var(--app-height);
-}
-
 .consoleWorkingArea {
+  flex-grow: 1;
   padding: 20px;
 }

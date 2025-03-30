@@ -8,7 +8,7 @@ import {
 } from '@/routes/console/collection-events/-components';
 import { collectionEventSchema } from '@/routes/console/collection-events/-validation';
 import { CollectionEventFilled, CollectionEventPayload } from '@/types';
-import { ConfirmModal, ConsoleContentLayout, ConsoleTitle, Island } from '@/ui';
+import { ConfirmModal, ConsoleContent, ConsoleTitle, Island } from '@/ui';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useMutation, useSuspenseQuery } from '@tanstack/react-query';
 import { useState } from 'react';
@@ -51,7 +51,7 @@ const CollectionEventsContainer = () => {
   };
 
   return (
-    <ConsoleContentLayout>
+    <ConsoleContent>
       <ConsoleTitle>Collection Events</ConsoleTitle>
       <FormProvider {...form}>
         <CollectionEventForm
@@ -83,7 +83,7 @@ const CollectionEventsContainer = () => {
         onClose={() => setEventToUpdate(null)}
         refetchList={refetch}
       />
-    </ConsoleContentLayout>
+    </ConsoleContent>
   );
 };
 
