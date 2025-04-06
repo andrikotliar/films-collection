@@ -3,11 +3,12 @@ import classNames from 'classnames';
 import { ComponentProps, forwardRef, ReactNode } from 'react';
 import { FieldError } from '../FieldError/FieldError';
 import { FieldLabel } from '../FieldLabel/FieldLabel';
+import { FormError } from '@/types';
 
 export type TextInputProps = {
   type?: 'text' | 'number' | 'password';
   label?: string;
-  error?: string | string[] | null;
+  error?: FormError;
   icon?: ReactNode;
 } & Omit<ComponentProps<'input'>, 'type' | 'name'>;
 
