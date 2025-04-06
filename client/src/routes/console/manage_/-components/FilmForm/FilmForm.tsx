@@ -5,6 +5,9 @@ import {
   FormTextInput,
   FormSelect,
   FormImageInput,
+  FormTextEditor,
+  FormRatingInput,
+  FormDatePicker,
 } from '@/ui';
 import { FC } from 'react';
 import { FormRow } from '../FormRow/FormRow';
@@ -39,17 +42,11 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit }) => {
           options={data.options.styles}
           type="radio"
         />
+        <FormRatingInput name="rating" label="Rating" size={3} />
       </FormRow>
-      <FormTextInput
-        name="rating"
-        type="number"
-        label="Rating"
-        min="1"
-        max="3"
-      />
       <FormRow gap={40}>
         <div className={styles.posterWrapper}>
-          <FormImageInput name="poster" label="Poster" />
+          <FormImageInput name="poster" label="Poster" previewWidth={250} />
         </div>
       </FormRow>
       <FormSelect
@@ -70,11 +67,7 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit }) => {
         label="Runtime (min)"
         min="0"
       />
-      <FormTextInput
-        name="releaseDate"
-        label="Release Date"
-        placeholder="YYYY-MM-DD"
-      />
+      <FormDatePicker name="releaseDate" label="Release Date" />
       <FormRow gap={40}>
         <FormTextInput name="budget" label="Budget" type="number" min="0" />
         <FormTextInput
@@ -84,6 +77,7 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit }) => {
           min="0"
         />
       </FormRow>
+      <FormTextEditor name="description" label="Description" />
       <FormRow align="center" gap={20}>
         {/* <Button type="submit">Create</Button> */}
       </FormRow>

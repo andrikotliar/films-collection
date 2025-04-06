@@ -1,0 +1,11 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  background-color: white;
+  padding: 10px;
+  border: var(--app-border);
+  border-radius: 8px;
+}

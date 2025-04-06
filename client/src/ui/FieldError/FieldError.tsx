@@ -1,8 +1,9 @@
+import { FormError } from '@/types';
 import styles from './FieldError.module.css';
 import { FC } from 'react';
 
 type FieldErrorProps = {
-  error?: string | string[] | null;
+  error?: FormError;
 };
 
 export const FieldError: FC<FieldErrorProps> = ({ error }) => {
