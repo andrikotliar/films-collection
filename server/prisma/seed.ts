@@ -176,6 +176,8 @@ const mapFilmDataToPrismaStructure = (
 };
 
 const main = async () => {
+  let currentDateMs = new Date(new Date().setUTCHours(0, 0, 0, 0)).getTime();
+
   const general = await loadJsonData(generalJsonFolderPath);
   const films = await loadJsonData<FilmSeedData>(filmsJsonFolderPath);
   const sortedFilms = films.sort((a, b) => a.data.id - b.data.id);
@@ -189,9 +191,13 @@ const main = async () => {
   const mappedFilmsData = sortedFilms.map(mapFilmDataToPrismaStructure);
 
   for (const film of mappedFilmsData) {
+    film.createdAt = new Date(currentDateMs).toISOString();
+
     await prisma.film.create({
       data: film,
     });
+
+    currentDateMs += 1000;
   }
 };
 

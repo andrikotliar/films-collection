@@ -22,9 +22,12 @@ export class FilmsRepository {
       where: filters,
       take: limit,
       skip,
-      orderBy: {
-        releaseDate: 'desc',
-      },
+      orderBy: [
+        {
+          releaseDate: 'desc',
+        },
+        { id: 'asc' },
+      ],
     });
 
     const total = await this.count(filters);
@@ -207,7 +210,7 @@ export class FilmsRepository {
       where: filters,
       take: options.limit,
       skip: options.skip,
-      orderBy: options.orderBy,
+      orderBy: [options.orderBy, { id: 'asc' }],
     });
 
     return { films, total };
