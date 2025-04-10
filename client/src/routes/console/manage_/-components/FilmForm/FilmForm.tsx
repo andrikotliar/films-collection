@@ -3,28 +3,53 @@ import {
   Button,
   FormCheckboxesGroup,
   FormTextInput,
-  FormSelect,
   FormImageInput,
   FormTextEditor,
   FormRatingInput,
   FormDatePicker,
+  FormCheckbox,
+  FormSection,
+  FormVideoInput,
+  SortableList,
+  FormSelect,
 } from '@/ui';
 import { FC } from 'react';
 import { FormRow } from '../FormRow/FormRow';
-import { useQueryClient } from '@tanstack/react-query';
 import { InitialData } from '@/types';
+import { useFieldArray, useFormContext } from 'react-hook-form';
+import { PlusIcon } from 'lucide-react';
+import { FormValues } from '../../-types';
+import { DragEndEvent } from '@dnd-kit/core';
 
 type FilmFormProps = {
   onSubmit: VoidFunction;
+  initialOptions: InitialData;
 };
 
-export const FilmForm: FC<FilmFormProps> = ({ onSubmit }) => {
-  const queryClient = useQueryClient();
-  const data = queryClient.getQueryData<InitialData>(['initial-data']);
+export const FilmForm: FC<FilmFormProps> = ({ onSubmit, initialOptions }) => {
+  const { control, watch } = useFormContext<FormValues>();
+  const {
+    fields: trailers,
+    append: appendTrailers,
+    move: resortTrailers,
+  } = useFieldArray({ control, name: 'trailers' });
 
-  if (!data) {
-    return <div>Form options doesn't exist, reload the page.</div>;
-  }
+  const type = watch('type');
+
+  const trailerLabel = type === 'SERIES' ? 'Season' : 'Trailer #';
+
+  const handleDragEnd = (event: DragEndEvent) => {
+    const { active, over } = event;
+
+    if (!over || active.id === over.id) {
+      return;
+    }
+
+    const oldIndex = trailers.findIndex((field) => field.id === active.id);
+    const newIndex = trailers.findIndex((field) => field.id === over.id);
+
+    resortTrailers(oldIndex, newIndex);
+  };
 
   return (
     <form onSubmit={onSubmit} className={styles.form}>
@@ -33,13 +58,13 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit }) => {
         <FormCheckboxesGroup
           label="Type"
           name="type"
-          options={data.options.types}
+          options={initialOptions.options.types}
           type="radio"
         />
         <FormCheckboxesGroup
           label="Styles"
           name="style"
-          options={data.options.styles}
+          options={initialOptions.options.styles}
           type="radio"
         />
         <FormRatingInput name="rating" label="Rating" size={3} />
@@ -51,14 +76,26 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit }) => {
       </FormRow>
       <FormSelect
         label="Genres"
-        options={data.options.genres}
         name="genres"
+        options={initialOptions.options.genres}
         isMulti
       />
       <FormSelect
         label="Countries"
-        options={data.options.countries}
         name="countries"
+        options={initialOptions.options.countries}
+        isMulti
+      />
+      <FormSelect
+        label="Studios"
+        name="studios"
+        options={initialOptions.options.studios}
+        isMulti
+      />
+      <FormSelect
+        label="Collections"
+        name="collections"
+        options={initialOptions.options.collections}
         isMulti
       />
       <FormTextInput
@@ -68,7 +105,7 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit }) => {
         min="0"
       />
       <FormDatePicker name="releaseDate" label="Release Date" />
-      <FormRow gap={40}>
+      <FormRow gap={20}>
         <FormTextInput name="budget" label="Budget" type="number" min="0" />
         <FormTextInput
           name="boxOffice"
@@ -78,8 +115,31 @@ export const FilmForm: FC<FilmFormProps> = ({ onSubmit }) => {
         />
       </FormRow>
       <FormTextEditor name="description" label="Description" />
+      <FormSection label="Trailers">
+        <SortableList items={trailers} onDragEnd={handleDragEnd}>
+          {({ index }) => (
+            <FormVideoInput
+              name={`trailers.${index}.videoId`}
+              label={`${trailerLabel} ${index + 1}`}
+            />
+          )}
+        </SortableList>
+        <Button
+          icon={<PlusIcon />}
+          variant="ghost"
+          onClick={() =>
+            appendTrailers({
+              videoId: '',
+              order: trailers.length + 1,
+            })
+          }
+        >
+          Add trailer
+        </Button>
+      </FormSection>
       <FormRow align="center" gap={20}>
-        {/* <Button type="submit">Create</Button> */}
+        <Button type="submit">Save</Button>
+        <FormCheckbox name="isDraft" type="checkbox" label="Draft" />
       </FormRow>
     </form>
   );

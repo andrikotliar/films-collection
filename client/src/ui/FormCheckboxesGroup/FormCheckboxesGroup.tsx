@@ -12,7 +12,6 @@ type FormCheckboxesGroupProps = {
   name: string;
   options: ListOption[];
   type: CheckboxProps['type'];
-  error?: string | string[];
 };
 
 export const FormCheckboxesGroup: FC<FormCheckboxesGroupProps> = ({

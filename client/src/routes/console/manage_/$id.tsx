@@ -6,11 +6,11 @@ import { createFileRoute } from '@tanstack/react-router';
 import { useMemo } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
 import { object, string } from 'yup';
-import { getDefaultValues } from './-helpers';
 import { FilmForm } from './-components';
+import { filmDefaultFormValues } from './-configs';
 
 const consoleFilmQueriesSchema = object({
-  title: string(),
+  pendingFilmId: string(),
 });
 
 export const Route = createFileRoute('/console/manage_/$id')({
@@ -25,22 +25,26 @@ export const Route = createFileRoute('/console/manage_/$id')({
 
 function PageContainer() {
   const { id } = Route.useParams();
-  const searchParams = Route.useSearch();
 
-  useSuspenseQuery(fetchInitialDataQuery());
+  const { data: initialOptions } = useSuspenseQuery(fetchInitialDataQuery());
 
   const isEdit = id !== NEW_FILM_ID;
   const pageTitle = isEdit ? 'Edit Film' : 'Add New Film';
 
   const defaultValues = useMemo(() => {
-    return getDefaultValues({ isEdit, title: searchParams.title });
-  }, [isEdit, searchParams.title]);
+    return {
+      ...filmDefaultFormValues,
+      isDraft: false,
+    };
+  }, []);
 
   const form = useForm({
     defaultValues,
   });
 
-  const handleSubmit = (data: unknown) => {};
+  const handleSubmit = (data: unknown) => {
+    console.log(data);
+  };
 
   return (
     <ConsoleContent>
@@ -48,7 +52,10 @@ function PageContainer() {
       <ConsoleTitle>{pageTitle}</ConsoleTitle>
       <Island>
         <FormProvider {...form}>
-          <FilmForm onSubmit={form.handleSubmit(handleSubmit)} />
+          <FilmForm
+            onSubmit={form.handleSubmit(handleSubmit)}
+            initialOptions={initialOptions}
+          />
         </FormProvider>
       </Island>
     </ConsoleContent>

@@ -1,13 +1,16 @@
 import { TitleStyle, TitleType } from '@/types';
 
+export type FilmFormTrailer = {
+  videoId: string;
+  order: number;
+};
+
 export type FormValues = {
   title: string | null;
   type: TitleType;
   style: TitleStyle;
   poster: string | null;
-  youtubeVideoId: string | null;
   rating: number;
-  watchCount: number;
   isDraft: boolean;
   budget: number;
   boxOffice: number;
@@ -17,5 +20,6 @@ export type FormValues = {
   countries: string[];
   collections: string[];
   studios: string[];
-  description: string;
+  description: string | null;
+  trailers: FilmFormTrailer[];
 };
