@@ -18,9 +18,11 @@ export const VideoPreview: FC<VideoPreviewProps> = ({ videoId }) => {
   }
 
   return (
-    <iframe
-      src={`https://www.youtube-nocookie.com/embed/${videoId}`}
-      className={styles.videoPreview}
-    />
+    <div>
+      <Image
+        src={`https://img.youtube.com/vi/${videoId}/default.jpg`}
+        className={styles.videoPreview}
+      />
+    </div>
   );
 };

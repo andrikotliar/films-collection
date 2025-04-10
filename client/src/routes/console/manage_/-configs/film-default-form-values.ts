@@ -1,10 +1,10 @@
-export const filmDefaultFormValues = {
+import { FormValues } from '../-types';
+
+export const filmDefaultFormValues: FormValues = {
   title: null,
   type: 'FILM',
   style: 'LIVE_ACTION',
   poster: null,
-  trailer: null,
-  watchCount: 1,
   rating: 1,
   isDraft: false,
   budget: 0,
@@ -15,4 +15,6 @@ export const filmDefaultFormValues = {
   studios: [],
   collections: [],
   countries: [],
+  description: null,
+  trailers: [],
 };

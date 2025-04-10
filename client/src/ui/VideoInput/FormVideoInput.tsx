@@ -4,7 +4,7 @@ import { useFormContext } from 'react-hook-form';
 
 type FormVideoInputProps = {
   name: string;
-} & VideoInputProps;
+} & Omit<VideoInputProps, 'externalWatchedValue'>;
 
 export const FormVideoInput: FC<FormVideoInputProps> = ({ name, ...props }) => {
   const { register, formState, watch } = useFormContext();
