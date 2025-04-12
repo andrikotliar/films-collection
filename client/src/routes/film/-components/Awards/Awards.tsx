@@ -1,7 +1,7 @@
 import { FC, useMemo } from 'react';
 import { Link } from '@tanstack/react-router';
 import { FilmAward } from '@/types';
-import { DataRow, Image } from '@/ui';
+import { Image } from '@/ui';
 import { Nomination } from './components';
 import styles from './Awards.module.css';
 import classNames from 'classnames';
@@ -11,14 +11,10 @@ type AwardsProps = {
 };
 
 export const Awards: FC<AwardsProps> = ({ awards }) => {
-  const sortedAwards = useMemo(() => {
-    return awards.sort((a, b) => b.nominations.length - a.nominations.length);
-  }, [awards]);
-
   return (
-    <div>
-      {sortedAwards.map(({ award, nominations }) => (
-        <DataRow key={award.id} className={styles.row}>
+    <div className={styles.wrapper}>
+      {awards.map(({ award, nominations }) => (
+        <div key={award.id} className={styles.row}>
           <div>
             <div className={styles.award}>
               <Image
@@ -50,7 +46,7 @@ export const Awards: FC<AwardsProps> = ({ awards }) => {
               />
             ))}
           </div>
-        </DataRow>
+        </div>
       ))}
     </div>
   );

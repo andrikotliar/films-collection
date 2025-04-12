@@ -18,7 +18,7 @@ export const getFilmSummaryConfig = (film: FilmDetails): SummaryConfig[] => {
     },
     {
       id: 'releaseDate',
-      title: 'Release Date',
+      title: film.type === 'SERIES' ? 'Started At' : 'Release Date',
       content: <ReleaseDate value={film.releaseDate} />,
     },
     {

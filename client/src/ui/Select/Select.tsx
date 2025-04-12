@@ -255,7 +255,7 @@ export const Select: FC<SelectProps> = ({
         role="menu"
         menuMargin={5}
       >
-        <ScrollableWrapper className={styles.menu}>
+        <div className={styles.menu}>
           {filteredOptions.map((option, index) => (
             <label key={option.value} className={styles.option}>
               <span>{option.label}</span>
@@ -275,7 +275,7 @@ export const Select: FC<SelectProps> = ({
           {filteredOptions.length === 0 && (
             <div className={styles.menuPlaceholder}>No options</div>
           )}
-        </ScrollableWrapper>
+        </div>
       </PopupMenu>
     </div>
   );

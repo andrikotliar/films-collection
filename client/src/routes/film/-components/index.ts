@@ -13,5 +13,4 @@ export * from './ReleaseDate/ReleaseDate';
 export * from './DataLink/DataLink';
 export * from './LinksGroup/LinksGroup';
 export * from './LinksGroupWrapper/LinksGroupWrapper';
-export * from './SeasonsSummary/SeasonsSummary';
 export * from './BoxOfficeValue/BoxOfficeValue';

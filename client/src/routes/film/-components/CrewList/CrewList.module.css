@@ -1,0 +1,4 @@
+.list {
+  border: var(--app-border);
+  border-radius: 8px;
+}

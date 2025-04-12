@@ -1,20 +1,8 @@
 .title {
-  color: var(--blue-default);
-  position: relative;
   font-size: 18px;
   text-transform: uppercase;
   line-height: 1;
-  padding-bottom: 10px;
-}
-
-.title::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 2px;
-  width: 100%;
-  background: var(--main-gradient);
+  margin-bottom: 10px;
 }
 
 @media (max-width: 1280px) {

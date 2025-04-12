@@ -18,7 +18,7 @@ export const Image = forwardRef<HTMLImageElement, ImageProps>(
       src,
       className,
       isExternal = false,
-      errorImageSrc = images.characterNotFound,
+      errorImageSrc = images.noImagePreview,
       shouldFitContainer = false,
       ...props
     },
