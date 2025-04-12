@@ -23,7 +23,6 @@ export type FilmCrew = {
 export type FilmCast = {
   person: Person;
   characterName: string;
-  characterImage: string | null;
 };
 
 export type FilmAward = {
@@ -37,17 +36,10 @@ export type FilmTrailer = {
   order: number;
 };
 
-export type Season = {
-  id: number;
-  number: number;
-  episodesCount: number;
-  releaseDate: string;
-};
-
 export type SeriesExtension = {
   episodesTotal: number;
   seasonsTotal: number;
-  seasons: Season[];
+  finishedAt: string;
 };
 
 export type IncludedCollection = {

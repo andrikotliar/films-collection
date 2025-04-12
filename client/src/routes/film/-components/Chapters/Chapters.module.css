@@ -1,14 +1,5 @@
 .chapters {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 20px;
-  width: 100%;
-  overflow-x: auto;
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-
-@media (max-width: 480px) {
-  .chapters {
-    gap: 10px;
-  }
 }

@@ -1,6 +1,20 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 10px;
+}
+
 .row {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  border: var(--app-border);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.row:hover {
+  border-color: var(--yellow-saturated);
 }
 
 .award {
@@ -27,6 +41,7 @@
 @media (max-width: 480px) {
   .row {
     grid-template-columns: 1fr;
+    padding: 15px;
   }
 
   .award {

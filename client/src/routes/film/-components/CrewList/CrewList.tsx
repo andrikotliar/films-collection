@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import { FilmCrew } from '@/types';
 import { CrewItem } from './components';
+import styles from './CrewList.module.css';
 
 type CrewListProps = {
   crew: FilmCrew[];
@@ -8,7 +9,7 @@ type CrewListProps = {
 
 export const CrewList: FC<CrewListProps> = ({ crew }) => {
   return (
-    <div>
+    <div className={styles.list}>
       {crew.map((crewItem) => (
         <CrewItem crewItem={crewItem} key={crewItem.position} />
       ))}

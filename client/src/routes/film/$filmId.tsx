@@ -14,7 +14,6 @@ import {
   FilmPageLayout,
   ContentLayout,
   Section,
-  SeasonsSummary,
 } from './-components';
 
 export const Route = createFileRoute('/film/$filmId')({
@@ -38,12 +37,6 @@ function FilmPageContainer() {
 
       <ContentLayout>
         <SummarySection film={film} />
-
-        {film.seriesExtension && (
-          <Section title="Seasons summary">
-            <SeasonsSummary seasons={film.seriesExtension.seasons} />
-          </Section>
-        )}
 
         <Section title="Description">
           <Description rawHtml={film.description} />
