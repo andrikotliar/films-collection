@@ -39,7 +39,7 @@ export type FilmWithRelations = Prisma.FilmGetPayload<{
       select: {
         episodesTotal: true;
         seasonsTotal: true;
-        seasons: true;
+        finishedAt: true;
       };
     };
     crew: {
@@ -58,7 +58,6 @@ export type FilmWithRelations = Prisma.FilmGetPayload<{
     cast: {
       select: {
         characterName: true;
-        characterImage: true;
         person: {
           select: {
             id: true;

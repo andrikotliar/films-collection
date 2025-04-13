@@ -454,34 +454,8 @@
   ],
   "seriesExtension": {
     "episodesTotal": 77,
-    "seasonsTotal": 5,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 23,
-        "releaseDate": "2006-09-25T00:00:00.000Z"
-      },
-      {
-        "number": 2,
-        "episodesCount": 11,
-        "releaseDate": "2007-09-24T00:00:00.000Z"
-      },
-      {
-        "number": 3,
-        "episodesCount": 18,
-        "releaseDate": "2008-09-22T00:00:00.000Z"
-      },
-      {
-        "number": 4,
-        "episodesCount": 13,
-        "releaseDate": "2009-02-02T00:00:00.000Z"
-      },
-      {
-        "number": 5,
-        "episodesCount": 12,
-        "releaseDate": "2009-09-21T00:00:00.000Z"
-      }
-    ]
+    "seasonsTotal": 4,
+    "finishedAt": "2010-02-08T00:00:00.000Z"
   },
   "trailers": [
     {

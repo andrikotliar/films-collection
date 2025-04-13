@@ -62,13 +62,12 @@ model FilmCrew {
 }
 
 model FilmCast {
-  id             Int     @id @default(autoincrement())
-  person         Person  @relation(fields: [personId], references: [id])
-  personId       Int     @map("person_id")
-  film           Film    @relation(fields: [filmId], references: [id])
-  filmId         Int     @map("film_id")
-  characterName  String  @map("character_name")
-  characterImage String? @map("character_image")
+  id            Int    @id @default(autoincrement())
+  person        Person @relation(fields: [personId], references: [id])
+  personId      Int    @map("person_id")
+  film          Film   @relation(fields: [filmId], references: [id])
+  filmId        Int    @map("film_id")
+  characterName String @map("character_name")
 
   @@map("film_cast")
 }
@@ -203,25 +202,14 @@ model FilmTrailer {
 }
 
 model SeriesExtension {
-  id            Int            @id @default(autoincrement())
-  episodesTotal Int            @default(1) @map("episodes_total")
-  seasonsTotal  Int            @default(1) @map("seasons_total")
-  seasons       SeriesSeason[]
-  filmId        Int            @unique @map("film_id")
-  film          Film?          @relation(fields: [filmId], references: [id])
+  id            Int       @id @default(autoincrement())
+  episodesTotal Int       @default(1) @map("episodes_total")
+  seasonsTotal  Int       @default(1) @map("seasons_total")
+  finishedAt    DateTime? @map("finished_at") @db.Date
+  filmId        Int       @unique @map("film_id")
+  film          Film?     @relation(fields: [filmId], references: [id])
 
   @@map("series_extensions")
-}
-
-model SeriesSeason {
-  id                Int             @id @default(autoincrement())
-  number            Int
-  episodesCount     Int             @default(1) @map("episodes_count")
-  releaseDate       DateTime        @map("release_date") @db.Date
-  seriesExtension   SeriesExtension @relation(fields: [seriesExtensionId], references: [id])
-  seriesExtensionId Int             @map("series_extension_id")
-
-  @@map("series_seasons")
 }
 
 model User {

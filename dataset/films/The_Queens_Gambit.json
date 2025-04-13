@@ -135,13 +135,7 @@
   "seriesExtension": {
     "episodesTotal": 7,
     "seasonsTotal": 1,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 7,
-        "releaseDate": "2020-10-23T00:00:00.000Z"
-      }
-    ]
+    "finishedAt": "2020-10-23T00:00:00.000Z"
   },
   "trailers": [
     {

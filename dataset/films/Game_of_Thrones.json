@@ -455,48 +455,7 @@
   "seriesExtension": {
     "episodesTotal": 73,
     "seasonsTotal": 8,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 10,
-        "releaseDate": "2011-04-17T00:00:00.000Z"
-      },
-      {
-        "number": 2,
-        "episodesCount": 10,
-        "releaseDate": "2012-04-01T00:00:00.000Z"
-      },
-      {
-        "number": 3,
-        "episodesCount": 10,
-        "releaseDate": "2013-03-31T00:00:00.000Z"
-      },
-      {
-        "number": 4,
-        "episodesCount": 10,
-        "releaseDate": "2014-04-06T00:00:00.000Z"
-      },
-      {
-        "number": 5,
-        "episodesCount": 10,
-        "releaseDate": "2015-04-12T00:00:00.000Z"
-      },
-      {
-        "number": 6,
-        "episodesCount": 10,
-        "releaseDate": "2016-04-24T00:00:00.000Z"
-      },
-      {
-        "number": 7,
-        "episodesCount": 7,
-        "releaseDate": "2017-07-16T00:00:00.000Z"
-      },
-      {
-        "number": 8,
-        "episodesCount": 6,
-        "releaseDate": "2019-04-14T00:00:00.000Z"
-      }
-    ]
+    "finishedAt": "2019-05-19T00:00:00.000Z"
   },
   "trailers": [
     {

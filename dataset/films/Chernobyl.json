@@ -193,13 +193,7 @@
   "seriesExtension": {
     "episodesTotal": 5,
     "seasonsTotal": 1,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 5,
-        "releaseDate": "2019-05-06T00:00:00.000Z"
-      }
-    ]
+    "finishedAt": "2019-06-03T00:00:00.000Z"
   },
   "trailers": [
     {

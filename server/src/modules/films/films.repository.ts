@@ -68,7 +68,7 @@ export class FilmsRepository {
           select: {
             episodesTotal: true,
             seasonsTotal: true,
-            seasons: true,
+            finishedAt: true,
           },
         },
         crew: {
@@ -86,7 +86,6 @@ export class FilmsRepository {
         cast: {
           select: {
             characterName: true,
-            characterImage: true,
             person: {
               select: {
                 id: true,

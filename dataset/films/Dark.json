@@ -228,23 +228,7 @@
   "seriesExtension": {
     "episodesTotal": 24,
     "seasonsTotal": 3,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 8,
-        "releaseDate": "2017-12-01T00:00:00.000Z"
-      },
-      {
-        "number": 2,
-        "episodesCount": 8,
-        "releaseDate": "2019-06-21T00:00:00.000Z"
-      },
-      {
-        "number": 3,
-        "episodesCount": 8,
-        "releaseDate": "2020-06-27T00:00:00.000Z"
-      }
-    ]
+    "finishedAt": "2020-06-27T00:00:00.000Z"
   },
   "trailers": [
     {

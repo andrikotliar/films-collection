@@ -149,13 +149,7 @@
   "seriesExtension": {
     "episodesTotal": 6,
     "seasonsTotal": 1,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 6,
-        "releaseDate": "2021-03-19T00:00:00.000Z"
-      }
-    ]
+    "finishedAt": "2021-04-23T00:00:00.000Z"
   },
   "trailers": [
     {

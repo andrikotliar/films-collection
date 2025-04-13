@@ -216,28 +216,7 @@
   "seriesExtension": {
     "episodesTotal": 52,
     "seasonsTotal": 4,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 12,
-        "releaseDate": "2012-04-14T00:00:00.000Z"
-      },
-      {
-        "number": 2,
-        "episodesCount": 14,
-        "releaseDate": "2013-09-13T00:00:00.000Z"
-      },
-      {
-        "number": 3,
-        "episodesCount": 13,
-        "releaseDate": "2014-06-27T00:00:00.000Z"
-      },
-      {
-        "number": 4,
-        "episodesCount": 13,
-        "releaseDate": "2014-10-03T00:00:00.000Z"
-      }
-    ]
+    "finishedAt": "2019-06-03T00:00:00.000Z"
   },
   "trailers": [
     {

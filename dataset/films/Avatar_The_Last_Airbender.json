@@ -306,23 +306,7 @@
   "seriesExtension": {
     "episodesTotal": 61,
     "seasonsTotal": 3,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 20,
-        "releaseDate": "2005-02-21T00:00:00.000Z"
-      },
-      {
-        "number": 2,
-        "episodesCount": 20,
-        "releaseDate": "2006-03-17T00:00:00.000Z"
-      },
-      {
-        "number": 3,
-        "episodesCount": 21,
-        "releaseDate": "2007-09-21T00:00:00.000Z"
-      }
-    ]
+    "finishedAt": "2008-07-19T00:00:00.000Z"
   },
   "trailers": [
     {

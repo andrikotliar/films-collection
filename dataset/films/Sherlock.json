@@ -242,28 +242,7 @@
   "seriesExtension": {
     "episodesTotal": 12,
     "seasonsTotal": 4,
-    "seasons": [
-      {
-        "number": 1,
-        "episodesCount": 3,
-        "releaseDate": "2010-07-25T00:00:00.000Z"
-      },
-      {
-        "number": 2,
-        "episodesCount": 3,
-        "releaseDate": "2012-01-01T00:00:00.000Z"
-      },
-      {
-        "number": 3,
-        "episodesCount": 3,
-        "releaseDate": "2014-01-01T00:00:00.000Z"
-      },
-      {
-        "number": 4,
-        "episodesCount": 3,
-        "releaseDate": "2017-01-01T00:00:00.000Z"
-      }
-    ]
+    "finishedAt": "2017-01-15T00:00:00.000Z"
   },
   "trailers": [
     {
